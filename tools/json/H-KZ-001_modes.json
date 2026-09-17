@@ -1,0 +1,184 @@
+{
+  "code": "H-KZ-001",
+  "name_zh": "孔子：仁爱推己·正名治国·中庸实践",
+  "name_en": "Confucius: Ren-Ai Extension · Zheng-Ming Governance · Zhong-Yong Practice",
+  "era": "春秋末期 / Late Spring and Autumn Period (c. 551-479 BCE)",
+  "historical_domains": [
+    "儒家学派 / Confucian School",
+    "春秋思想 / Spring and Autumn Thought",
+    "伦理学 / Ethical Philosophy",
+    "教育学 / Educational Philosophy"
+  ],
+  "domains": [
+    "伦理道德 / Ethical Morality",
+    "政治哲学 / Political Philosophy",
+    "教育学 / Education",
+    "人文哲学 / Humanities Philosophy"
+  ],
+  "core_modes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "gender": "Male",
+  "ethnicity": "Chinese",
+  "unique_thinking": "以仁为核心的道德实践体系，通过正名建立社会秩序，主张中庸之道作为实践方法论。孔子思维体系以'仁-礼-中-学-教-君-时'八维一体为特色，五大独特特征：伦理先导性（以仁为核心构建伦理体系）、秩序构建性（以正名为基础建立社会秩序）、教育个性化（因材施教和启发式教学）、辩证整合性（中庸执两用中）、时中权变性（原则与灵活统一）。",
+  "mode_definitions": [
+    {
+      "id": "M01",
+      "name_zh": "仁爱推己法",
+      "name_en": "Ren-Ai Extension Method (Shu Dao)",
+      "mode_code": "M01",
+      "definition_zh": "以自身仁爱为起点，通过'己所不欲，勿施于人'的恕道原则，建立普遍的道德实践体系。仁是内在的道德情感，恕是推己及人的方法，二者构成伦理体系的核心。",
+      "definition_en": "Starting from personal benevolence, through the principle of 'Do not do unto others what you would not want done to yourself' (Shu), establish a universal moral practice system. Ren is the internal moral feeling, Shu is the method of extending oneself to others.",
+      "key_concepts": ["仁", "恕", "忠恕", "己所不欲", "克己复礼"],
+      "process": ["反思自身的感受和欲望", "将心比心，理解他人立场", "己所不欲勿施于人，己欲立而立人", "通过推己及人实现人际和谐"],
+      "modern_applications": ["同理心培养", "冲突调解", "团队协作", "客户服务"],
+      "related_modes": ["M02", "M03", "M04"]
+    },
+    {
+      "id": "M02",
+      "name_zh": "正名治国法",
+      "name_en": "Zheng-Ming Governance Method (Order Construction)",
+      "mode_code": "M02",
+      "definition_zh": "通过确立社会角色的名分与责任，使名实相符，建立有序的社会结构。'名不正则言不顺，言不顺则事不成'是政治秩序的逻辑起点。",
+      "definition_en": "By establishing the names and responsibilities of social roles, making names correspond to reality, build an ordered social structure. 'When names are not correct, language is not in accordance with truth; when language is not in accordance with truth, affairs cannot be carried on' is the logical starting point of political order.",
+      "key_concepts": ["正名", "名实", "君君臣臣", "定分止争", "言顺"],
+      "process": ["明确各社会角色的名分和定位", "界定相应角色的责任和权利", "使名实相符，言行一致", "通过正名建立社会秩序"],
+      "modern_applications": ["组织管理", "角色定位", "制度设计", "权责清晰"],
+      "related_modes": ["M01", "M03", "M05"]
+    },
+    {
+      "id": "M03",
+      "name_zh": "中庸实践法",
+      "name_en": "Zhong-Yung Practice Method (Dialectical Balance)",
+      "mode_code": "M03",
+      "definition_zh": "执其两端，用其中于民。无过无不及，恰到好处。中庸不是简单的折中主义，而是在具体情境中寻找恰当平衡点的实践智慧。",
+      "definition_en": "Grasp both extremes and apply the mean to the people. Neither excessive nor deficient, but just right. The Doctrine of the Mean is not simple compromise — it finds the appropriate balance point in concrete situations.",
+      "key_concepts": ["中庸", "过犹不及", "执两用中", "时中", "中和"],
+      "process": ["识别情境中的两个极端倾向", "判断过与不及的具体表现", "在两端之间寻找恰当的平衡点", "根据情境灵活调整，保持动态平衡"],
+      "modern_applications": ["决策平衡", "风险管理", "适度原则", "矛盾调解"],
+      "related_modes": ["M01", "M02", "M06"]
+    },
+    {
+      "id": "M04",
+      "name_zh": "因材施教法",
+      "name_en": "Yin-Cai Shi-Jiao Method (Personalized Education)",
+      "mode_code": "M04",
+      "definition_zh": "视其所以，观其所由，察其所安。根据学生个性、能力、兴趣差异进行针对性教学，实现最大化教育效果。",
+      "definition_en": "Observe what a person does, consider the motive, examine where they find contentment. Teach according to individual differences in personality, ability, and interest.",
+      "key_concepts": ["因材施教", "启发式", "不愤不启", "叩其两端", "中人以上"],
+      "process": ["了解学生的个性特点和学习需求", "分析学生已有的知识基础和能力水平", "设计针对性的教学内容和方式", "因势利导，启发学生自主学习"],
+      "modern_applications": ["个性化教育", "人才培养", "教练技术", "差异化教学"],
+      "related_modes": ["M01", "M05", "M07"]
+    },
+    {
+      "id": "M05",
+      "name_zh": "学思结合法",
+      "mode_code": "M05",
+      "name_en": "Xue-Si Integration Method (Learning-Reflection Unity)",
+      "definition_zh": "学而不思则罔，思而不学则殆。将学习与思考有机结合，实现认知螺旋上升，是儒家认识论的核心。",
+      "definition_en": "'Learning without thought is labor lost; thought without learning is perilous.' Integrate learning and thinking organically to achieve spiral cognitive ascent.",
+      "key_concepts": ["学思结合", "罔殆之辨", "举一反三", "发愤忘食"],
+      "process": ["广泛学习前人知识和经验", "深度思考知识的内在逻辑", "将所学与所思相互印证", "在学思互动中实现认知跃迁"],
+      "modern_applications": ["学习方法", "认知提升", "自我完善", "知识管理"],
+      "related_modes": ["M01", "M04", "M08"]
+    },
+    {
+      "id": "M06",
+      "name_zh": "礼乐教化法",
+      "name_en": "Li-Yue Cultivation Method (Ritual-Music Education)",
+      "mode_code": "M06",
+      "definition_zh": "兴于诗，立于礼，成于乐。通过诗、礼、乐的完整路径实现人格的全面发展和文化认同。",
+      "definition_en": "'Awakened by Poetry, established by Rites, completed by Music.' Through the complete path of Poetry, Rites, and Music, achieve comprehensive personality development.",
+      "key_concepts": ["诗教", "礼教", "乐教", "尽美尽善", "温柔敦厚"],
+      "process": ["通过诗歌激发情感共鸣", "通过礼仪确立行为规范", "通过音乐实现人格圆满", "在三者统一中完成道德内化"],
+      "modern_applications": ["文化建设", "人格养成", "审美教育", "团队凝聚"],
+      "related_modes": ["M01", "M03", "M07"]
+    },
+    {
+      "id": "M07",
+      "name_zh": "君子人格法",
+      "name_en": "Junzi Personality Method (Ideal Character)",
+      "mode_code": "M07",
+      "definition_zh": "以君子为理想人格，通过持续修养实现道德完善。君子坦荡荡，小人长戚戚，是人人可及的道德理想。",
+      "definition_en": "Taking the Junzi (gentleman) as ideal character, achieving moral perfection through continuous self-cultivation. The Junzi is open and at ease — this is a moral ideal accessible to all.",
+      "key_concepts": ["君子", "义利之辨", "坦荡荡", "讷言敏行", "固穷"],
+      "process": ["确立君子人格为追求目标", "在义利之间选择道义", "通过日常修养积累德性", "在困境中坚守原则不动摇"],
+      "modern_applications": ["人格修养", "职业道德", "领导力培养", "品格建设"],
+      "related_modes": ["M01", "M03", "M06"]
+    },
+    {
+      "id": "M08",
+      "name_zh": "时中权变法",
+      "name_en": "Shi-Zhong Adaptation Method (Contextual Flexibility)",
+      "mode_code": "M08",
+      "definition_zh": "无可无不可。在坚持原则的前提下根据具体情况采取适当方法，实现灵活应变，是经权统一的决策智慧。",
+      "definition_en": "'No fixed course of action.' Under the premise of adhering to principles, adopt appropriate methods according to specific situations. This is the wisdom of unifying constancy (Jing) and flexibility (Quan).",
+      "key_concepts": ["时中", "权变", "经权结合", "可以仕则仕", "可以止则止"],
+      "process": ["识别当前情境的特殊性和时宜性", "理解常规原则（经）与变通（权）的边界", "根据具体条件灵活调整策略", "在变化中保持原则的灵活性"],
+      "modern_applications": ["灵活应变", "情境领导", "危机管理", "策略调整"],
+      "related_modes": ["M01", "M03", "M07"]
+    },
+    {
+      "id": "M09",
+      "name_zh": "温故知新法",
+      "name_en": "Review and Innovation Method",
+      "mode_code": "M09",
+      "definition_zh": "温故而知新，可以为师矣。通过复习旧知识获得新理解，实现知识的创新应用和迁移。",
+      "definition_en": "'Reviewing the old to understand the new — such a person can be a teacher.' Through reviewing past knowledge, gain new understanding and achieve innovative application and transfer.",
+      "key_concepts": ["温故", "知新", "举一反三", "学以致用"],
+      "process": ["系统回顾和梳理已有知识经验", "在新情境中发现旧知识的新意义", "通过联想和类比实现知识迁移", "将新知识融入已有认知体系"],
+      "modern_applications": ["知识复用", "经验总结", "创新思维", "持续学习"],
+      "related_modes": ["M01", "M05", "M07"]
+    },
+    {
+      "id": "M10",
+      "name_zh": "见贤思齐法",
+      "name_en": "Self-Cultivation Method (Jian-Xian Si-Qi)",
+      "mode_code": "M10",
+      "definition_zh": "见贤思齐焉，见不贤而内自省也。以他人为镜，不断自我完善，是持续成长的实践方法。",
+      "definition_en": "'When you see a worthy person, think of equaling them; when you see an unworthy person, reflect on yourself.' Use others as mirrors for continuous self-improvement.",
+      "key_concepts": ["思齐", "自省", "改过迁善", "见贤思齐"],
+      "process": ["识别身边的榜样和反面教材", "向优秀者学习，反思不足处", "制定改进计划并付诸实践", "形成持续自我完善的习惯"],
+      "modern_applications": ["榜样学习", "自我反思", "团队学习", "个人成长"],
+      "related_modes": ["M01", "M05", "M07"]
+    }
+  ],
+  "proposed_steps": [
+    "第一步：仁爱推己 - 以'己所不欲，勿施于人'的恕道为起点，建立推己及人的道德实践体系",
+    "第二步：正名治国 - 确立社会角色名分，使名实相符，建设有序社会",
+    "第三步：中庸实践 - 执两端而用其中，在具体情境中寻找恰当平衡",
+    "第四步：因材施教 - 根据个体差异进行针对性教学，实现最大化教育效果",
+    "第五步：学思结合 - 将学习与思考有机结合，实现认知螺旋上升",
+    "第六步：礼乐教化 - 通过诗礼乐实现人格全面发展和文化认同",
+    "第七步：君子人格 - 以君子为理想人格，通过持续修养实现道德完善",
+    "第八步：时中权变 - 在坚持原则的前提下，根据情境灵活应变",
+    "第九步：温故知新 - 通过复习旧知识获得新理解，实现知识的创新应用",
+    "第十步：见贤思齐 - 以他人为镜，不断自我完善"
+  ],
+  "expected": [
+    "孔子思想成为中国传统文化的核心，被尊为'至圣先师'",
+    "'己所不欲，勿施于人'成为普世道德原则",
+    "儒家学派通过汉字文化圈传播至东亚地区",
+    "因材施教、启发式教学等理念影响中国教育两千余年"
+  ],
+  "applications": [
+    "个人修养与道德修身",
+    "组织管理与角色定位",
+    "教育教学与因材施教",
+    "社会治理与制度设计",
+    "跨文化沟通与文明交流"
+  ],
+  "distinctiveness": {
+    "vs_mengzi": "孟子主张性善论并发展，而孔子确立了核心道德体系",
+    "vs_laozi": "老子主张无为、返璞归真，而孔子强调积极入世和礼治秩序",
+    "vs_xunzi": "荀子强调制度刚性约束，而孔子侧重道德教育与礼治"
+  },
+  "caveats": [
+    "需在具体文化语境下理解孔子思想，避免现代偏见干扰",
+    "正名概念在现代语境需谨慎解释，避免等级固化",
+    "差等之爱与现代平等观念需要辩证调和"
+  ],
+  "meta": {
+    "generation_date": "2026-09-02",
+    "mode_count": 10,
+    "phase": "Phase 20"
+  }
+}

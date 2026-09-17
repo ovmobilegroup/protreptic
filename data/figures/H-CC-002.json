@@ -1,0 +1,789 @@
+{
+ "schema_version": "v6",
+ "id": "H-CC-002",
+ "code": "H-CC-002",
+ "figure_name": "韩非vs马基雅维利",
+ "figure_code": "H-CC-002",
+ "figure_pinyin": "Hán Fēi vs Mǎjīyǎwéilì",
+ "birth_year": -280,
+ "death_year": -233,
+ "era": "跨时代比较研究 / Cross-Era Comparative Study (前280-前233；马基雅维利 1469-1527)",
+ "school": "跨文明比较 / Cross-Civilization Comparison",
+ "figure_name_en": "Han Fei vs Machiavelli",
+ "figure_code_task": "CrossCiv",
+ "historical_significance": "韩非（约前280-前233）与马基雅维利（1469-1527）相隔十七个世纪，却构成政治现实主义最完整的两次独立表述：两人都把人性之幽暗设为制度设计基线（性恶 vs 人性易腐）、都把权力从道德叙事中剥离为可分析的对象（势/术/法 vs fortuna/virtù）、都在王朝更迭与城邦失序的乱世中写作。韩非集法家之大成并死于其所设计的司法——李斯、姚贾之谗，秦王政之狱；马基雅维利失意于佛罗伦萨共和政变，在乡间写出《君主论》与《论李维》，一个文本献给新君主、一个文本献给共和理想。两人共享的深层结构——幽暗基线、功效检验、规则先于人物、修辞的两面性、遗产的代价——构成‘权力现实主义’的可比较方法论母体；其差异（法的普遍公开 vs 术的君主隐私、制度刚性 vs 情景弹性、幽暗基线通向立法 vs 通向临机）标定成文法传统与权谋传统的分岔点。本档案以‘对照’为方法单位：每个模式都是一次跨越十七个世纪的双人实验。",
+ "unique_thinking": "本档案的独特性在于把'权力现实主义'做成跨文明对照方法：十个模式都是韩非与马基雅维利对话所逼出的结构性模式——每个模式都含对照面（幽暗基线通向立法还是临机、势的公开结构 vs 术的隐私操作、法典的透明 vs 修辞的两面）。韩非一侧的独特签名：'二柄不可借人'的杠杆管控、'循名责实'的功效单一检验、'世异则事异'的历史相对主义。马基雅维利一侧的独特签名：fortuna 与 virtù 的博弈框架、'效果真理'（verità effettuale）对想象共和国的拒绝、共和与专制的双稿写作。共同签名：把道德语言从权力分析中悬置、把失败案例（亡秦、雇佣军）作为第一手证据、遗产的两个方向——韩非的学说由敌国兑现，马基雅维利的名字成为'马基雅维利主义'这个他从未认领的负面标签。",
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-CC-011",
+  "M-CC-012",
+  "M-CC-013",
+  "M-CC-014",
+  "M-CC-015",
+  "M-CC-016",
+  "M-CC-017",
+  "M-CC-018",
+  "M-CC-019",
+  "M-CC-020"
+ ],
+ "key_concepts": [
+  "人性幽暗基线",
+  "势治结构",
+  "术的隐私化",
+  "功效单一检验",
+  "时变世异",
+  "法典公开",
+  "修辞两面",
+  "共和专制双稿",
+  "孤臣共同体",
+  "遗产代价审计",
+  "马基雅维利主义",
+  "性恶论",
+  "二柄"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-HFZ-001",
+   "target_figure_name": "韩非",
+   "relation_type": "母体档案：本档案韩非一侧的全部模式回指单人档案",
+   "mode_pair": [
+    "M-HFZ-001",
+    "M-CC-011"
+   ],
+   "description_zh": "H-HFZ-001 韩非单人档案收录其法/术/势体系的原创表述；本档案 M-CC-011~015 将其与马基雅维利并置以逼出跨文明的现实主义共性。对照阅读时，单人档案提供纵深，本档案提供横向坐标。",
+   "bidirectional_hint": "H-HFZ-001 未来修订时可在'法术势体系'处补一条指向 H-CC-002 的跨引用（现实主义的跨文明重复发现）。"
+  },
+  {
+   "target_figure_code": "H-CW-001",
+   "relation_type": "战争与政治的接壤地带",
+   "mode_pair": [
+    "M-CW-001",
+    "M-CC-017"
+   ],
+   "description_zh": "克劳塞维茨把战争还原为政治的延续，马基雅维利把政治还原为武装的掌握（'良好的军队属于有良好法律的国家'）。M-CC-017 修辞两面策略法与克劳塞维茨的'战争迷雾'共享同一认知处境：信息不完整下的欺骗成为必需。",
+   "bidirectional_hint": "H-CW-001 未来修订时可在'战争迷雾'处补一条指向 H-CC-002 的跨引用（欺骗的制度化）。"
+  },
+  {
+   "target_figure_code": "H-DKR-001",
+   "relation_type": "理想主义与现实主义的两极",
+   "mode_pair": [
+    "M-DKR-001",
+    "M-CC-020"
+   ],
+   "description_zh": "笛卡尔以普遍怀疑重建确定性知识，马基雅维利与韩非以彻底怀疑人性重建权力秩序——两者共享方法论怀疑主义，但怀疑对象不同：前者怀疑感官与知识根基，后两者怀疑道德话语在权力场中的真实性。M-CC-020 遗产代价审计法记录了两种怀疑各自的世代回报。",
+   "bidirectional_hint": "H-DKR-001 未来修订时可在'普遍怀疑'处补一条指向 H-CC-002 的跨引用（怀疑的政治学版本）。"
+  }
+ ],
+ "tags": [
+  "韩非",
+  "Han Fei",
+  "马基雅维利",
+  "Machiavelli",
+  "法家",
+  "Legalism",
+  "文艺复兴",
+  "Renaissance",
+  "君主论",
+  "The Prince",
+  "韩非子",
+  "Han Feizi",
+  "性恶论",
+  "Doctrine of Bad Nature",
+  "二柄",
+  "Two Handles",
+  "势治",
+  "Structural Power",
+  "术",
+  "Administrative Secrecy",
+  "功效检验",
+  "Efficacy Test",
+  "时变世异",
+  "Times Change",
+  "法莫如显",
+  "Published Law",
+  "暗室操作",
+  "Dark Room",
+  "修辞两面",
+  "Two-Faced Rhetoric",
+  "共和双稿",
+  "Republican Drafts",
+  "孤臣",
+  "Lone Minister",
+  "遗产审计",
+  "Legacy Audit",
+  "马基雅维利主义",
+  "Machiavellianism",
+  "佛罗伦萨",
+  "Florence",
+  "秦制",
+  "Qin Statecraft",
+  "Cross-Civ Comparison",
+  "跨文明比较"
+ ],
+ "mode_ids_note": "M-CC-011 ~ M-CC-020（figure_code=CrossCiv → 编码 H-CC-002；库内查重零冲突：M-CC-011~020 于 modes_data/code_maps 无占用，C-CC-011~020 场景前缀无占用，H-CC-002 编码无占用）",
+ "caveats": [
+  "韩非生卒年约前280-前233，为学界主流推算而非确切记载；《史记·老子韩非列传》为本档案主口径",
+  "《韩非子》一书真伪有层累问题（如《初见秦》《存韩》等篇归属有争议），本档案引用以《五蠹》《二柄》《难三》《定法》《六反》等学界共识度较高的篇目为主",
+  "马基雅维利形象历经'马基雅维利主义'标签的污名化过程（如 'machiavel' 进入英语即成奸诈代名词），本档案区分'历史马基雅维利'与'标签马基雅维利主义'，引用须注明",
+  "《君主论》为献媚小册的写作语境（献给美第奇）与《论李维》的共和立场构成张力，'共和与专制双稿法'（M-CC-018）正是对这一张力的方法论处理，不可简化为马基雅维利'表里不一'",
+  "韩非'术'的思想部分承自申不害、'势'承自慎到，本档案以韩非的综合为口径，引用时须注意源流分层",
+  "两人文本均经转写层：《韩非子》经汉代编辑，《君主论》手稿版本与刊行版本有异文——本档案的模式是对转写层的比较，不是对'现场'的复原"
+ ],
+ "modes": [
+  {
+   "id": "M-CC-011",
+   "name_zh": "人性幽暗基线法",
+   "name_en": "The Dark-Baseline Method: Designing for the Worst Human, Not the Best",
+   "mode_code": "M-CC-011",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/人性论与制度设计",
+   "domain_en": "Political Philosophy / Human Nature and Institutional Design",
+   "level": "核心",
+   "priority": 11,
+   "definition_zh": "两人共享的元命题：制度不应以人性之善为前提，而应以人性之幽暗为设计基线。方法论签名有四：其一，性本利/性恶设——韩非断言'人为婴儿也，父母养之简，子长而怨'，人性趋利避害乃天然结构而非道德缺陷；马基雅维利断言'关于人类，一般可以这样说：他们是忘恩负义、反复无常的'（《君主论》第十七章），二人都不谴责人性，只登记它。其二，由基线推工具——韩非推出'二柄'（刑德），'畏其罚而利其赏'；马基雅维利推出'被人畏惧比受人爱戴安全得多'，爱建立在利益上会随利益消失，畏建立在惧罚上不随你失效。其三，幽暗基线是对称适用的——韩非连君臣关系也还原为'主卖官爵，臣卖智力'的计市之交；马基雅维利连盟友的忠诚也折算成利害，不作道德指望。其四，分岔在基线的封闭性——韩非的幽暗基线通向普遍而刚性的法（对君主本人也构成约束雏形，'法不阿贵'）；马基雅维利的基线是情景诊断，通向君主的个别操作，无普遍法可依，故留有'必要时为恶'的表演空间。简言之：韩非以幽暗人性立法，马基雅维利以幽暗人性临机。",
+   "definition_en": "Both thinkers share one master proposition: institutions must be designed against humanity's dark baseline, not its best case. Four signatures. First, interest as nature rather than defect: Han Fei treats gain-seeking as the fixed structure of the person ; Machiavelli registers the same baseline clinically: 'one can generally say this about men: that they are ungrateful, fickle, deceivers' (The Prince, ch. 17). Second, the baseline dictates the instrument: Han Fei derives the Two Handles (punishment and favor) — men 'fear penalty and calculate gain from reward', so the ruler holds both handles and never delegates them; Machiavelli derives the calculus that 'men are safer being feared than loved', because love rests on a bond that breaks when self-interest demands it, while fear rests on dread of punishment that never abandons you. Third, the baseline is applied symmetrically: Han Fei reduces even the ruler-minister bond to market exchange — 'the ruler sells titles, the minister sells strength and cunning' — and Machiavelli discounts allies' loyalty the same way. Fourth, the fork: Han Fei's closed baseline issues in universal, rigid law (fa does not bend for the noble), an embryonic constraint on the ruler himself; Machiavelli's open baseline is situational diagnosis, leaving room for the calculated performance of necessary evil. In short: Han Fei legislates from the dark baseline; Machiavelli improvises upon it.",
+   "source_chapter": "《韩非子·六反》'父母之于子也……皆挟自为心'、《韩非子·二柄》、《韩非子·外储说左上》'人为婴儿也'；《君主论》第十七章'论残忍与仁慈，被爱是否比被畏惧更好'",
+   "key_concepts": [
+    "幽暗基线",
+    "性本利",
+    "二柄（刑德）",
+    "畏惧优于爱戴",
+    "计市之交",
+    "不对称信任"
+   ],
+   "process_zh": [
+    "立项先设人性基线：对任何依赖他人善意、忠诚或自律的方案，一律先按最坏人性做压力测试",
+    "把激励折算为利害：凡要人行事，只问'他从中怕什么、得什么'，不问'他应不应'",
+    "复核关键杠杆的不可让渡性：韩非警告'二柄'不可分予臣下——凡决定赏罚、进退、生杀的杠杆必须留在己手",
+    "区分爱与畏的折旧曲线：利益驱动的忠诚随利益消失而失效，惩罚驱动的服从不随你失效——按折旧曲线而非当前温度配置关系"
+   ],
+   "process_en": [
+    "Set the human-nature baseline first: stress-test any plan that depends on others' goodwill, loyalty, or self-discipline against the worst plausible person",
+    "Convert motivation into interest: to move anyone, ask only 'what does he fear and what does he gain', never 'what ought he to do'",
+    "Audit the non-delegability of key levers: as Han Fei warns that the Two Handles must never be handed to ministers, keep every lever over reward, promotion, and dismissal in your own hands",
+    "Track the depreciation curves of love versus fear: interest-driven loyalty dies with the interest, fear-driven obedience does not — configure relationships by depreciation curve, not current warmth"
+   ],
+   "representative_cases_zh": [
+    "韩非论父子：'父母之于子也，产男则相贺，产女则杀之……皆挟自为心也'——连最亲密的血缘都按利害计价，故治国不能指望爱而只能设赏罚（《韩非子·六反》）",
+    "马基雅维利引切萨雷·博尔吉亚的铁腕与雇佣军之不可恃：雇佣军平时无用、战时有害，因其忠诚只系于饷银——正是幽暗基线推演出的经典结论（《君主论》第十二、十七章）",
+    "反面警示：秦二世以韩非式严刑御下，赏罚之柄旁落赵高（指鹿为马），严法只制造恐惧而无人有动力护主，帝国两年而亡——幽暗基线若配上杠杆失控，人人最优策略是背叛。教训：基线诊断必须与杠杆管控成对，否则制度加速崩解。"
+   ],
+   "representative_cases_en": [
+    "Han Fei on fathers and sons: 'when a boy is born they congratulate one another, when a girl is born they kill her... all men act from their own interest' — even blood kin are priced by advantage, so the state must rest on reward and penalty, never on love (Han Feizi, ch. 6 'Liu Fan')",
+    "Machiavelli on Cesare Borgia's iron hand and on mercenaries: hired troops are 'useless and dangerous' in war because their loyalty hangs on pay alone — the classic deduction from the dark baseline (The Prince, chs. 12, 17)",
+    "Cautionary: Qin Er Shi ruled by Han-Fei-style severity, yet the handles of reward and punishment slipped to Zhao Gao (the deer-and-horse test); harsh law bred only fear, and no one had an interest in defending the throne — the empire fell in two years. When the dark baseline is paired with lost control of the levers, everyone's optimal move is betrayal. Lesson: baseline diagnosis must be paired with lever control, or the institution accelerates its own collapse."
+   ],
+   "modern_applications_zh": [
+    "现代契约与公司治理：独立董事、审计分离、竞业协议，全部是'不信任善意、只设计结构'的幽暗基线工程",
+    "安全工程与零信任架构（Zero Trust）：'永不信任、始终验证'正是韩非'循名责实'加马基雅维利'预期背叛'的合成体",
+    "行为经济学机制设计（nudge、拍卖、绩效合约）：以真实利害而非道德说教预测和引导行为"
+   ],
+   "modern_applications_en": [
+    "Corporate governance: independent directors, auditor separation, and non-compete clauses are all dark-baseline engineering that trusts structure, not goodwill",
+    "Security engineering's Zero Trust architecture — 'never trust, always verify' — is Han Fei's name-substance audit fused with Machiavelli's expectation of betrayal",
+    "Mechanism design in behavioral economics (auctions, incentives, performance contracts): predict and steer behavior from real interest rather than moral exhortation"
+   ],
+   "related_modes": [
+    "M-HFZ-005",
+    "M-HFZ-006",
+    "M-HFZ-002"
+   ],
+   "representative_figures": [
+    "韩非 (Han Fei)",
+    "马基雅维利 (Machiavelli)",
+    "切萨雷·博尔吉亚 (Cesare Borgia)"
+   ],
+   "key_quote_zh": "'夫安利者就之，危害者去之，此人之情也'（《韩非子·奸劫弑臣》）；'被人们畏惧比被人们爱戴安全得多'（《君主论》第十七章）——两位大师在同一处拐弯：把'人怕什么'置于'人爱什么'之前。",
+   "key_quote_en": "'Men flock to advantage and flee from harm — such is the stuff of people' (Han Feizi) meets 'it is much safer to be feared than loved' (The Prince, ch. 17): two masters turn the same corner, ranking what men fear over what men love."
+  },
+  {
+   "id": "M-CC-012",
+   "name_zh": "势治结构法",
+   "name_en": "The Structural-Power Method: Holding Position Before Exercising It",
+   "mode_code": "M-CC-012",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/权力结构学",
+   "domain_en": "Political Philosophy / Architecture of Power",
+   "level": "核心",
+   "priority": 12,
+   "definition_zh": "两人共享的元命题：权力不在统治者个人的德才，而在其占据的结构位置——位置本身生产服从。方法论签名有四：其一，势先于贤——韩非借'势位'寓言（尧为匹夫不能治三家，桀为天子能乱天下）证明'势位足恃而贤智不足慕'；马基雅维利对应新君主的处境：凭本人德行与凭他人军队得国，稳固度天差地别——他要先答的不是'如何治理'而是'站在什么结构上'。其二，结构须营造——韩非'抱法处势'：以法固结构、以势载法；马基雅维利《君主论》后十二章几乎全讲如何把临时得来的位置换成自己的结构（新法律、新盟友、新军队）。其三，都把脆弱点定位在'过渡期'——韩非警惕'势重者，人主之渊也'，权柄一让则君为鱼；马基雅维利明言新君主最危险是初立之时。其四，分岔在结构的普遍性——韩非的势可制度化：法、度量衡、铨叙，君主可换而结构恒在；马基雅维利的势是个人化的，新君主死后若无同等 virtù 者继承，结构随之蒸发——故韩非通向官僚帝国，马基雅维利通向高风险的个人伟业。",
+   "definition_en": "Both thinkers share one master proposition: power lies not in the ruler's virtue or talent but in the structural position he occupies — position itself manufactures obedience. Four signatures. First, position precedes virtue: in Han Fei's parable Yao as a commoner could not order three households, Jie as Son of Heaven wrecked an empire; this proves 'the position is to be relied on, not worthies and wits'; Machiavelli runs the parallel triage: coming to power by one's own arms or by another's divides his chapters — the question is never 'how to govern' but 'on what structure am I standing'. Second, structure must be built: Han Fei's formula 'embrace the law and occupy the position' (bao fa chu shi) fixes the frame with law so position carries it; twelve chapters of The Prince are a manual for turning a borrowed seat into one's own structure — laws, allies, arms. Third, both locate the fatal vulnerability in the transition: Han Fei warns that once the weight of position is surrendered, the ruler becomes the fish; Machiavelli declares the moment of foundation the most dangerous. Fourth, the fork lies in universality: Han Fei's position is institutionalizable — law, weights, selection — so rulers change while structure endures; Machiavelli's position is personal, evaporating at his death unless an heir of equal virtù appears. Hence Han Fei runs toward the bureaucratic empire, Machiavelli toward the perilous personal feat.",
+   "source_chapter": "《韩非子·难势》'尧为匹夫，不能治三家'与'抱法处势'、《韩非子·功名》'千钧得船则浮，锱铢失船则沉'；《君主论》第六章'以自己的军力和德性获得的新君主国'、第七章'以他人的军力和幸运获得的新君主国'",
+   "key_concepts": [
+    "势位",
+    "抱法处势",
+    "armi proprie（自己的军队）",
+    "结构性权力",
+    "过渡期风险",
+    "制度化继承"
+   ],
+   "process_zh": [
+    "先回答'站在哪'再回答'做什么'：评估位置的结构强度（法律授权、组织归属、军政杠杆），不在位置上努力——位置错了努力是负资产",
+    "把借来的位置尽快换成自有结构：借势（他人军队、他人平台、他人品牌）得来的地位须在稳固前转译为自有法度、自有班底、自有产能",
+    "以法固势：把关键权力流程写成不依赖个人在场的规则与度量，使结构在人事变动中存活",
+    "重点防守过渡期：新立、接班、兼并后的窗口最脆弱——韩非以'守渊'喻之，马基雅维利以'得了国之后守之'专章处理"
+   ],
+   "process_en": [
+    "Answer 'where do I stand' before 'what do I do': audit the structural strength of your position — legal mandate, organizational placement, military or budgetary levers; effort expended on a wrong position is negative capital",
+    "Convert borrowed position into owned structure fast: power gained on another's arms, platform, or brand must be translated into your own rules, your own team, your own capacity before consolidation",
+    "Fix position with law: write critical power flows as rules and metrics that survive personnel change, so the structure outlives individuals",
+    "Defend the transition window above all: foundation, succession, and post-merger are the most fragile moments — Han Fei calls it 'guarding the deep pool'; Machiavelli devotes a chapter to 'keeping what has been taken'"
+   ],
+   "representative_cases_zh": [
+    "韩非《难势》：以'云雾之势'喻君权——尧若处匹夫之位连三家都治不了，桀纣处天子之位却可乱天下，故贤者因位而治，不肖者因位而乱，势本身中立而决定性",
+    "切萨雷·博尔吉亚的失败诊断（马基雅维利的核心案例）：博尔吉亚每一步都近乎完美（排除奥尔科家族、安插法国势力、立新主于罗马涅），唯独在教父尤利乌斯二世当选上赌错——借来之势（父亲的教皇之死）无法转译为自有结构，一夜崩塌（《君主论》第七章）",
+    "反面警示：秦因'抱法处势'的制度化而兼并天下，却因二世而亡暴露另一面——当势完全系于法而法系于君主的执行意愿时，赵高窃柄即结构倒转：制度可以固化权力，也可以固化篡夺。教训：势的结构化必须内含对'谁持柄'的制衡，否则效率越高、崩溃越快。"
+   ],
+   "representative_cases_en": [
+    "Han Fei's 'On Position' (Nan Shi): the cloud-and-fog parable — Yao as a commoner could not govern three families, while Jie and Zhou as Son of Heaven could wreck the empire; position is neutral yet decisive, and worthies rule because of it, not instead of it",
+    "Machiavelli's core case, Cesare Borgia: every move near-perfect (destroying the Orsini, planting his man in the Romagna), except the one dice he could not control — the election of Julius II as pope; power borrowed from his father the pope could not be converted into owned structure and collapsed overnight (The Prince, ch. 7)",
+    "Cautionary: Qin's institutionalized 'law plus position' conquered all under heaven, then died in two reigns: when position rests wholly on law and law on the ruler's will to execute, a Zhao Gao can steal the handles and invert the structure — institutions can fossilize usurpation as easily as power. Lesson: structuralized power must contain a check on who holds the handles, or the greater the efficiency, the faster the collapse."
+   ],
+   "modern_applications_zh": [
+    "平台型企业与'护城河'理论：评估企业先看结构性位置（网络效应、转换成本、规模杠杆），而非创始人个人才能——这正是韩非'势先于贤'的现代翻版",
+    "组织交接与接班人工程：创始人离开后组织能否运转，检验的是'法固势'还是'人占势'——制度化流程就是'抱法处势'",
+    "国际关系中的结构现实主义（沃尔兹）：国家行为由其在体系中的位置（极性）决定而非其政体——与'势位足恃'同构"
+   ],
+   "modern_applications_en": [
+    "Platform strategy and moat theory: assess a firm by structural position (network effects, switching costs, scale leverage), not founder talent — Han Fei's 'position before virtue' in modern dress",
+    "Succession engineering: whether an organization runs after the founder leaves tests 'law fixing position' versus 'person occupying position'; codified process is exactly bao fa chu shi",
+    "Structural realism in international relations (Waltz): state behavior follows position in the system (polarity), not regime type — isomorphic with 'the position is to be relied on'"
+   ],
+   "related_modes": [
+    "M-HFZ-004",
+    "M-HFZ-005",
+    "M-HFZ-003"
+   ],
+   "representative_figures": [
+    "韩非 (Han Fei)",
+    "马基雅维利 (Machiavelli)",
+    "慎到 (Shen Dao)"
+   ],
+   "key_quote_zh": "'贤者而诎于不肖者，则权轻位卑也；不肖而能服于贤者，则权重位尊也'（《韩非子·难势》）；'拥有自己的军队并依靠自己的德性获得的胜利，才是牢固可靠的'（《君主论》第十三章）——权力的地基不是人而是结构。",
+   "key_quote_en": "'When the worthy yield to the unworthy, it is because their power is light and their position low; when the unworthy submit to the worthy, it is because their power is heavy and their position honored' (Han Feizi) meets 'nothing is more reliable than victory won with one's own arms and one's own virtue' (The Prince, ch. 13): the ground of power is structure, not the person."
+  },
+  {
+   "id": "M-CC-013",
+   "name_zh": "术的隐私化法",
+   "name_en": "The Privatized-Art Method: One Mask for the Crowd, One Mind for the Ruler",
+   "mode_code": "M-CC-013",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/权力技术与形象工程",
+   "domain_en": "Political Philosophy / Power Craft and Image Engineering",
+   "level": "核心",
+   "priority": 13,
+   "definition_zh": "两人共享的元命题：统治需要双层结构——对公众展示的表层与实际操作的里层，且里层严格保密。方法论签名有四：其一，术藏于胸中——韩非'术者，藏之于胸中……而潜御群臣者也'，术不可言传、不可示人；马基雅维利的'君主不必真有诸德，但必须显得有'——表里分离在他那里被公开宣告，'人人都看得见你，却很少有人摸得着你'。其二，信息不对称是统治资源——韩非的'七术'以参验、疑诏、倒言使臣下无从揣度；马基雅维利让君主保持'自己的判断'，使臣民'永远抱着希望也永远怀着畏惧'。其三，都警惕表演被拆穿——韩非要求君主'去好去恶'以免臣下投其所好；马基雅维利警告'当人人都知道你如何时，你就完了'，形象工程必须与技术一致到不可证伪。其四，分岔在里层的归属——韩非的术服务于法，藏是为了让普遍的赏罚机器不受君主个人情绪扰动；马基雅维利的里层服务于具体政治情境，藏是为了保留'必要时为恶'的自由度——韩非保密是为公器减噪，马基雅维利保密是为行动者留私。一个是操作系统的底层代码不对用户开放，一个是决策者给自己保留的后门。",
+   "definition_en": "Both thinkers share one master proposition: rule requires a two-layer structure — a public surface for display and a private layer of real operation — and the private layer must be strictly sealed. Four signatures. First, the art hidden in the breast: Han Fei defines shu as 'stored in the ruler's breast... covertly herding the ministers'; Machiavelli declares the split: 'a prince need not actually possess the virtues, but he must certainly seem to' — 'everyone sees what you appear to be; few touch what you are'. Second, information asymmetry rules: Han Fei's Seven Techniques deploy disguised edicts and inverted words so ministers cannot read the ruler; Machiavelli has the prince keep his own opinion (propsia opinione), leaving subjects 'ever hopeful and ever fearful'. Third, both dread exposure of the performance: Han Fei orders the ruler to 'strip away likes and dislikes' lest ministers decorate their submission; Machiavelli warns that once everyone knows how you are, you are finished — the image must outpace the technique. Fourth, the fork lies in who owns the private layer: Han Fei's shu serves the law — secrecy keeps the universal reward-penalty machine free of the ruler's moods; Machiavelli's private layer serves the concrete situation — secrecy preserves the freedom to do evil when necessary. Han Fei encrypts to de-noise a public instrument; Machiavelli to keep a private door for the actor.",
+   "source_chapter": "《韩非子·难三》'术者，藏之于胸中'、《韩非子·主道》'去好去恶，臣乃见素'、《韩非子·八经》；《君主论》第十五章'论世人特别是君主受赞扬或谴责的原因'、第十八章'论君主当怎样守信'",
+   "key_concepts": [
+    "术（潜御群臣）",
+    "表里双层结构",
+    "形象工程",
+    "去好去恶",
+    "信息不对称",
+    "seeming vs being"
+   ],
+   "process_zh": [
+    "把'展示层'与'操作层'显式分账：对外承诺什么、对内按什么标准决策，两本账分开管理且后者保密",
+    "主动管理对方的观测：韩非'去好去恶'——领导者不流露偏好，防止下属把精力用于逢迎而非产出",
+    "用参验破装饰：对方展示的忠诚与绩效，一律以名实对勘检验，表演性服从不记功",
+    "维护形象的不可证伪性：确保公开人设与实际行为始终一致到'看似有德'的程度，同时为真实决策保留'公众不可见'的裁量层"
+   ],
+   "process_en": [
+    "Keep explicit double books of display and operation: what is promised publicly and what decisions actually run on are managed separately, the latter sealed",
+    "Manage what counterparties can observe: Han Fei's 'strip away likes and dislikes' — leaders reveal no preferences, so subordinates spend effort on output rather than flattery",
+    "Break decoration with cross-verification: test displayed loyalty and performance by matching name with substance; performative obedience earns no credit",
+    "Maintain unfalsifiability of the image: keep the public persona consistent with real conduct up to the threshold of 'seeming virtuous', while reserving an invisible layer of discretion for real decisions"
+   ],
+   "representative_cases_zh": [
+    "韩非'一而不二'的御臣之术：君主双引臣下之言而责其功，'言大功小则罚，功大言小亦罚'——让臣下无从靠话术得分，只靠实绩（'七术'之一，参验之术）",
+    "马基雅维利论教皇与君主的言行分离：'显然，看起来仁慈、可信、人道、虔诚比真有这些品质更重要，尤其在公开场合'——并用教皇尤利乌斯二世等例子说明公众只见其表",
+    "反面警示：某互联网公司高管以'画饼'表演作为管理术，公开人设与内部裁员决策长期背离，一旦被员工在社交媒体拆穿（公开信、聊天记录流出），招募与融资双崩——形象工程的技术欠账最终以信用挤兑结算。教训：表里分离若无真实绩效兑付，保密期只是延期偿付日。"
+   ],
+   "representative_cases_en": [
+    "Han Fei's technique of 'one measure, no second': the ruler holds a minister's stated claim against his achieved result — claims larger than results are punished, results larger than claims are punished too, so ministers cannot score by rhetoric, only by substance (one of the Seven Techniques, the method of cross-verification)",
+    "Machiavelli on the separation of words and deeds in popes and princes: 'it is far better to seem merciful, faithful, humane, and religious than to be so, above all in public view' — with Julius II as the type of what crowds see versus what rulers do",
+    "Cautionary: an executive who ran 'vision-sell' as management art, with a public persona long divorced from internal layoffs, was exposed by leaked chats and an open letter — recruiting and funding both collapsed as a credit run on the persona. Lesson: a display/operation split without real performance to redeem it merely postpones the repayment date."
+   ],
+   "modern_applications_zh": [
+    "领导力的'信息纪律'：高管在不确定期不流露倾向（analyst calls、全员信中的中性表述），防止组织把资源浪费在揣测上——'去好去恶'的制度化",
+    "公共关系与'品牌一致性'审计：公开承诺与内部行为的一致性管理，正是马基雅维利'seeming 与 being'的现代合规化",
+    "谈判学中的 BATNA 保密与'红鲱鱼'策略：真实底线藏于胸中、展示层可谈判——术之隐私化在谈判桌上的直接应用"
+   ],
+   "modern_applications_en": [
+    "Information discipline in leadership: executives reveal no leanings during uncertainty (neutral language in earnings calls and all-hands letters) so the organization stops guessing and starts working — institutionalized 'strip away likes and dislikes'",
+    "Brand-consistency audits in PR: managing the alignment of public commitment and internal conduct is Machiavelli's seeming-versus-being turned into compliance",
+    "Negotiation practice: keeping your true BATNA sealed while the displayed layer remains negotiable — the privatized art deployed across the table"
+   ],
+   "related_modes": [
+    "M-HFZ-009",
+    "M-HFZ-010",
+    "M-HFZ-008"
+   ],
+   "representative_figures": [
+    "韩非 (Han Fei)",
+    "马基雅维利 (Machiavelli)",
+    "申不害 (Shen Buhai)"
+   ],
+   "key_quote_zh": "'术者，藏之于胸中，以偶众端而潜御群臣者也'（《韩非子·难三》）；'人人都看得见你是什么样子，却很少有人摸得着你实际上是什么'（《君主论》第十八章）——统治的双层结构：一张脸给众人，一个心思给王座。",
+   "key_quote_en": "'The art is stored in the ruler's breast, matching a thousand contingencies and covertly herding his ministers' (Han Feizi) meets 'everyone sees what you appear to be; few touch what you really are' (The Prince, ch. 18): the two-layer architecture of rule — one face for the crowd, one mind for the throne."
+  },
+  {
+   "id": "M-CC-014",
+   "name_zh": "功效单一检验法",
+   "name_en": "The Single-Test-of-Results Method: Judging Politics by Outcome Alone",
+   "mode_code": "M-CC-014",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/绩效评价",
+   "domain_en": "Political Philosophy / Evaluation by Results",
+   "level": "核心",
+   "priority": 14,
+   "definition_zh": "两人共享的元命题：政治行为的检验标准只有一个——功效；动机、名誉、程序正当性不构成独立计分项。方法论签名有四：其一，观行以功——韩非'听其言而求其当，任其身而责其功'，甚至主张'使民以功赏而不以仁义赐'；马基雅维利第十五章宣称要探究事情的'有效真相（verità effettuale）'而非想象。其二，删除中间变量——韩非把道德修养从政治评价中整个删除（'仁义用于古不用于今'），马基雅维利把信仰、仁慈、宗教降格为工具变量：有用则用，有害则废。其三，结果主义有检验者与时间窗——韩非的检验者是法定考核系统（上计、参验），马基雅维利的检验者是结果本身：'成功者总被认为光荣'，结局可为手段翻案。其四，分岔在单一检验的锚点——韩非的功效锚定在'富国强兵'的国家绩效，有客观可考核的指标结构，故可制度化；马基雅维利的功效锚定在'维持国家'这一开放目标，何为成功最终由政治幸存定义——韩非生产 KPI 体系，马基雅维利生产'成王败寇'的现实主义。一个是绩效主义，一个是幸存主义。",
+   "definition_en": "Both thinkers share one master proposition: political action has a single test — efficacy; motive, reputation, propriety never score independently. Four signatures. First, judge by results: Han Fei's 'listen to the claim and demand its fit; employ the man and demand his achievement'; Machiavelli announces the program (ch. 15): 'my intent is to write something useful... better to pursue the effective truth (verità effettuale) than the imagination'. Second, delete the intermediate variables: Han Fei removes moral cultivation from political evaluation ('benevolence served the ancients, not the present'), while Machiavelli demotes faith, mercy, religion to instrumental variables — used when useful, dropped when not. Third, resultivism has an examiner and a window: Han Fei's is the statutory audit apparatus (shangji); Machiavelli's examiner is outcome itself — 'the successful are always held glorious' — the end (fine) can rehabilitate any means. Fourth, the fork lies in the anchor: Han Fei anchors efficacy in the measurable performance of the state (rich country, strong army), an objective, institutionalizable index; Machiavelli anchors it in the open-ended goal of mantenere lo stato — keeping one's state — where success is defined by political survival. Han Fei's resultivism builds a KPI system; Machiavelli's, the realism of the winner's verdict.",
+   "source_chapter": "《韩非子·显学》'听其言而求其当，任其身而责其功'、《韩非子·五蠹》'宰相必起于州部，猛将必发于卒伍'、《韩非子·难二》；《君主论》第十五章'verità effettuale'与第十八章'结局总是为手段辩护'",
+   "key_concepts": [
+    "功效单一检验",
+    "verità effettuale（有效真相）",
+    "循名责实",
+    "去道德化评价",
+    "结局辩护",
+    "国家绩效"
+   ],
+   "process_zh": [
+    "给任何动议只设一个主检验指标：先写清'这件事成功由什么观测定义'，动机与口号不入评分表",
+    "以名实对账验收：承诺多大结果，就按多大结果考核，超额不赏虚功、不足不赦实绩",
+    "把道德词汇降格为工具变量：仁慈、宽容、透明不是原则而是策略——评估其当前功效，有用则保留、失效则收回",
+    "区分两种结局观：制度性领域（组织、项目）用韩非式可考核 KPI 收账；生存性领域（竞争、危机）用马基雅维利式幸存检验——幸存本身即全部记分"
+   ],
+   "process_en": [
+    "Give every initiative exactly one primary test metric: define in advance what observation counts as success; motive and slogan never enter the score sheet",
+    "Audit by matching claim to substance: commitments are graded at face value — inflated promises earn nothing, missed results get no excuse",
+    "Demote moral vocabulary to instrumental variables: mercy, tolerance, and transparency are strategies, not principles — evaluate their current efficacy, keep them while they work, withdraw them when they fail",
+    "Split the two verdict systems: institutional domains (organizations, projects) settle accounts with auditable KPIs, Han Fei style; existential domains (competition, crisis) submit to the survival test, Machiavelli style — survival itself is the whole score"
+   ],
+   "representative_cases_zh": [
+    "韩非论'中主'治国：'上不及尧舜，而下亦不为桀纣，抱法处势则治'——不指望明君圣主的动机，只设计让平庸君主也能产出好结果的制度，评价对象是结果不是人",
+    "马基雅维利为罗马历史上最恶劣的手段翻案的逻辑：'凡考察其结局（fine）者，会发现罗慕路斯杀死弟弟、塞克斯特斯所做之事，结局是为祖国带来秩序——当结局为善时，指控就应当被原谅'",
+    "反面警示：秦按单一功效考核'军功爵'与上计，国力登顶；但功效指标不含'可持续'维度，全民战争机器在无战可打后失去目标函数，二世即亡。教训：单一检验法必须周期性重估指标本身——旧的'功'定义会在环境变化后变成组织自毁的指令。"
+   ],
+   "representative_cases_en": [
+    "Han Fei on rule by the mediocre sovereign: 'falling short of Yao and Shun above, not reaching Jie and Zhou below, one who embraces law and occupies position will still govern' — no reliance on the motives of sage kings, only institutions engineered so an average ruler produces good outcomes; what is evaluated is results, not persons",
+    "Machiavelli rehabilitating Rome's ugliest deeds: 'whoever examines the end (fine) will find Romulus' killing of his brother and what Sextus did brought order to the fatherland — when the end is good, the accusation should be forgiven' (Discourses, I.9)",
+    "Cautionary: Qin's single-test system of merit ranks and annual audits topped the world's power table, yet the metric carried no 'sustainability' dimension; with no wars left to fight, a total war machine lost its objective function and fell in the second reign. Lesson: the single-test method must periodically re-examine the metric itself — yesterday's definition of 'merit' becomes the organization's self-destruct command once the environment shifts."
+   ],
+   "modern_applications_zh": [
+    "OKR 与结果导向绩效管理：'只看交付成果、不看苦劳'——韩非'责其功'的当代制度化；关键在配套周期性指标重估",
+    "政策评估的循证决策（evidence-based policy）：以随机对照试验与可观测结果替代意识形态论证——'verità effettuale'的统计学化",
+    "危机管理的幸存主义标准：并购、转型、止损决策只以'组织是否活下来'结算，程序美观与否不计分"
+   ],
+   "modern_applications_en": [
+    "OKRs and results-based performance management: only delivered outcomes count, never effort in the abstract — Han Fei's 'demand his achievement' institutionalized; the key companion is periodic re-estimation of the metrics themselves",
+    "Evidence-based policy evaluation: randomized controlled trials and observable outcomes replace ideological argument — the statistical form of verità effettuale",
+    "The survival standard in crisis management: M&A, transformation, and cut-loss decisions are settled solely by whether the organization lives on; procedural elegance scores nothing"
+   ],
+   "related_modes": [
+    "M-HFZ-002",
+    "M-HFZ-001",
+    "M-HFZ-006"
+   ],
+   "representative_figures": [
+    "韩非 (Han Fei)",
+    "马基雅维利 (Machiavelli)",
+    "商鞅 (Shang Yang)"
+   ],
+   "key_quote_zh": "'听其言而求其当，任其身而责其功'（《韩非子·显学》）；'应当探究事情的有效真相，而非其想象'（《君主论》第十五章）——两把尺子量到底：只问做成了什么，不问怀着什么心。",
+   "key_quote_en": "'Listen to the claim and demand its fit; employ the man and demand his achievement' (Han Feizi) meets 'pursue the effective truth of things rather than their imagination' (The Prince, ch. 15): one ruler, laid flat — ask only what was accomplished, never what was intended."
+  },
+  {
+   "id": "M-CC-015",
+   "name_zh": "时变世异法",
+   "name_en": "The Time-Contingency Method: When the World Changes, Change With It",
+   "mode_code": "M-CC-015",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/历史观与战略应变",
+   "domain_en": "Political Philosophy / Philosophy of History and Strategic Adaptation",
+   "level": "核心",
+   "priority": 15,
+   "definition_zh": "两人共享的元命题：没有永恒有效的制度与美德——判断须随时代条件重估，守旧者无论多么正当都将被淘汰。方法论签名有四：其一，历史分期工具化——韩非'世异则事异，事异则备变'，把古今分为问题结构不同的时段；马基雅维利把'时代品质'（qualità de' tempi）设为美德是否适用的判据：慷慨在得国前是灾难，节俭在守国时是美德。其二，拒绝权威的溯及既往——韩非'不期修古，不法常可'，连圣人旧法也不得豁免于时代检验；马基雅维利拒绝命运宿命论：'命运是我们半个行动的主宰，另一半归我们'。其三，都给出操作化应变机制——韩非的机制是立法随时变修订（'法与时转则治'）；马基雅维利的机制是个体品质与时代的匹配：谨慎配平静时代、冲动配动荡时代，错配即败亡。其四，分岔在应变的主体与可见性——韩非把应变交给公开的法：变的是明文规则；马基雅维利把应变交给君主的个人 virtù：'能使自己的性质适应时代'者成功——应变是精英的私人能力。韩非需要制度性时钟，马基雅维利需要时机感；前者防制度僵化，后者防性格僵化。",
+   "definition_en": "Both share one master proposition: no institution and no virtue is valid for all time — judgment must be re-priced as conditions change, and the obsolete perish however righteous. Four signatures. First, periodization as instrument: Han Fei's 'when the age differs, the affairs differ; when affairs differ, the preparations change' splitting history into three epochs, each with its own problem structure; Machiavelli makes the 'quality of the times' (qualità de' tempi) the test of any virtue — generosity before power is disaster, frugality in holding it virtue. Second, no grandfather clause: Han Fei demands 'do not look back to high antiquity, do not take the constant old ways as law' — even sages' institutions face the present's test; Machiavelli refuses fortuna's fatalism: 'fortune is the arbiter of half our actions, but she leaves the other half to us'. Third, both give an operational mechanism: Han Fei's is a legislative system revised with the times — 'when law moves with the times, there is order'; Machiavelli's is matching quality to the times — the cautious fit calm epochs, the impulsive turbulent ones; mismatch means ruin. Fourth, the fork lies in who adapts and how visibly: Han Fei hands adaptation to public law — what changes must be written rules; Machiavelli hands it to the prince's personal virtù. Han Fei needs an institutional clock; Machiavelli a personal sense of occasione.",
+   "source_chapter": "《韩非子·五蠹》'世异则事异，事异则备变'与'不期修古，不法常可'、《韩非子·心度》'法与时转则治'；《君主论》第二十五章'命运在人世事务上的力量'、《论李维》卷三第九章'适应时代与事情'",
+   "key_concepts": [
+    "世异则事异",
+    "qualità de' tempi（时代品质）",
+    "fortuna 与 virtù",
+    "法与时转",
+    "occasione（时机）",
+    "反溯及既往"
+   ],
+   "process_zh": [
+    "定期给'时代条件'重新定价：以固定周期复盘'哪些假设已过时'——把韩非的'世异'变成制度性时钟而非危机后才启动",
+    "废除权威的豁免权：创始人先例、行业惯例、圣贤成法一律接受当下检验，不因出身正当而免审",
+    "匹配'性格—时代'而非'性格—理想'：评估当前周期（平静/动荡）与核心决策者的性格倾向是否错配，错配即调整决策结构而非强改性格",
+    "抓住 occasione：马基雅维利'机会之潮'不等人——为重大转向预设触发条件与行动预案，潮来即动，不靠临场灵感"
+   ],
+   "process_en": [
+    "Re-price the conditions of the era on a schedule: run fixed-cycle reviews of 'which assumptions have expired' — turning Han Fei's shi-yi into an institutional clock, not an emergency reflex",
+    "Revoke the grandfather clause for authority: founder precedent, industry convention, and sages' statutes all face present-day testing; no pedigree exempts them from audit",
+    "Match character to the times, not to ideals: assess whether the current cycle (calm/turbulent) mismatches the decision-makers' temperaments; fix the mismatch by adjusting decision structure, not by forcing character change",
+    "Seize the occasione: Machiavelli's flood tide waits for no one — pre-set trigger conditions and contingency plans for major pivots, move when the tide comes, never on improvised inspiration"
+   ],
+   "representative_cases_zh": [
+    "韩非的'守株待兔'与'宋襄公'双喻：以先王之政治当世之民，如守株待兔——制度效力有保质期，过期即成笑柄；舜之治与尧之治不可互移，'时移则事易'",
+    "马基雅维利第二十五章的'洪流与堤坝'之喻与教皇尤利乌斯二世案例：尤利乌斯行事急躁，恰逢时代需要急躁而事事成功；若时代变得需要谨慎，同样的性格将导致败亡——性格与时势的乘积决定成败，而非性格本身",
+    "反面警示：诺基亚按'时变'逻辑连续转型（造纸→橡胶→手机），却在智能手机周期执行了'渐进改良'而非韩非式'备变'——时代换了问题结构（硬件→生态），而组织仍用旧检验标准评分，2013 年崩塌。教训：应变机制必须含'重新定义何为该变'的元层，否则时变法只是加速错误的加速器。"
+   ],
+   "representative_cases_en": [
+    "Han Fei's twin parables of the stump-watcher and Duke Xiang of Song: governing today's people by the ancient kings' methods is waiting by the stump for a second rabbit — institutions carry a shelf life, and past expiry they become farce; Yao's governance and Shun's cannot be transplanted, for 'when the times shift, the affairs shift'",
+    "Machiavelli's flood-and-dike parable and the case of Julius II (Prince, ch. 25): Julius acted with impatience precisely when the times demanded impatience and succeeded at everything; had the times required caution, the same nature would have brought ruin — success is the product of character and times, never character alone",
+    "Cautionary: Nokia re-invented itself time and again on exactly this logic (paper to rubber to phones), yet in the smartphone cycle it ran incremental improvement instead of Han Fei's 'change of preparations' — the world's problem structure had shifted (hardware to ecosystem) while the organization kept scoring with the old test; it collapsed by 2013. Lesson: an adaptation mechanism must include a meta-layer that redefines what counts as needing change, or the method of change merely accelerates the error."
+   ],
+   "modern_applications_zh": [
+    "战略节奏管理（strategic inflection points，格鲁夫）：设置'信号灯'监测环境是否已越过拐点，强制在繁荣期讨论转型——'法与时转'的当代版本",
+    "生命周期匹配的领导力理论：创业期需冒进者、成熟期需守成者的'时代—性格'匹配框架，直接来自马基雅维利第二十五章",
+    "复古与创新的政策辩论工具：对'回到传统'的任何主张，先做韩非式检验——'彼时的问题结构与此时是否同构'，同构才许引用"
+   ],
+   "modern_applications_en": [
+    "Strategic inflection-point management (Grove): set tripwires to detect when the environment has crossed the bend, and force transformation debates in good times — 'law moving with the times' in contemporary form",
+    "Life-cycle-matched leadership: the times-to-character matching framework (the bold for founding, the steady for maturity) comes straight from The Prince, ch. 25",
+    "A policy tool for tradition-versus-innovation debates: any 'return to tradition' proposal first faces the Han Fei test — is the problem structure of that era isomorphic to ours? Only if yes may it be cited"
+   ],
+   "related_modes": [
+    "M-HFZ-007",
+    "M-HFZ-004",
+    "M-HFZ-002"
+   ],
+   "representative_figures": [
+    "韩非 (Han Fei)",
+    "马基雅维利 (Machiavelli)",
+    "商鞅 (Shang Yang)"
+   ],
+   "key_quote_zh": "'世异则事异，事异则备变'（《韩非子·五蠹》）；'命运是我们半个行动的主宰，但她留下其余一半，或者近乎一半，归我们支配'（《君主论》第二十五章）——不要对抗时代，也不要向时代投降：一半归势，一半归你。",
+   "key_quote_en": "'When the age differs, the affairs differ; when affairs differ, the preparations change' (Han Feizi) meets 'fortune is the arbiter of half our actions, but she leaves the other half, or near it, to us' (The Prince, ch. 25): do not fight the times, nor surrender to them — half belongs to circumstance, half to you."
+  },
+  {
+   "id": "M-CC-016",
+   "name_zh": "法典公开与规则至上法",
+   "name_en": "The Published-Code and Rule-Primacy Method: Transparency versus the Dark Room",
+   "mode_code": "M-CC-016",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/法治",
+   "domain_en": "Political Philosophy / Rule of Law",
+   "level": "核心",
+   "priority": 16,
+   "definition_zh": "韩非与马基雅维利都把'规则先于人物'当作国家安宁的第一原理，但在'规则应当多亮'上分道扬镳。方法论签名有四：其一，法莫如显——韩非主张'编著之图籍，设之于官府，而布之于百姓'，法律必须成文、公开、统一，使'智者不能辞，勇者不敢争'，君主之治借此摆脱对君主个人智慧的依赖；其二，规则的意志先于执行者的意志——两人都要求把偶发的意愿压制成稳定的规则，'不务德而务法'与'最好的军队属于有良好法律的国家'同构；其三，分歧点在暗室——韩非否定暗室（术虽主上独执，但法必须显，术不显则大臣不能缘以饰智），马基雅维利则把暗室制度化：公开颁布规则、暗地操纵规则，'君主无须守信，只需表现出守信'；其四，规则的验证靠运行而非辩护——法律好不好不看其道德依据，看它在权力斗争中能否稳定生产顺从。这一模式把'透明度'从道德问题改写为工程问题：公开是让规则免于权臣曲解的防篡改机制，暗室是让规则免于对手预判的博弈资产——两种选择各有其失效条件。",
+   "definition_en": "Han Fei and Machiavelli share the first principle that rules outrank rulers, but they split on how bright those rules should burn. Four signatures define the mode. First, 'nothing is more visible than the law': Han Fei demands that statutes be written into registers, housed in offices, and published to the hundred surnames, so that 'the wise cannot evade them and the brave dare not contest them' — publication is what frees governance from dependence on the ruler's personal brilliance. Second, the will of the rule precedes the will of its executors: both compress episodic whim into stable law — Han Fei's 'rely on law, not on virtue' parallels Machiavelli's claim that the best armies belong to states with good laws. Third, the divergence lives in the dark room: Han Fei accepts one shadow (the ruler's solitary hold on administrative 'shu') while insisting the law itself stay public precisely so ministers cannot twist it to 'polish their cunning'; Machiavelli institutionalizes the dark room — publish the rules, manipulate them in private, 'keep the word, or at least appear to'. Fourth, rules are validated by operation, not justification: a law's worth is measured by its stable production of compliance under contest, never by its moral pedigree. The mode rewrites transparency from a moral question into an engineering one: publicity is an anti-tampering shield for rules; opacity is a game-theoretic shield for intent. Each choice has its own failure mode, and the auditor must price both.",
+   "source_chapter": "《韩非子·难三》'法莫如显'、《五蠹》'以法为教'、《定法》法术互补；马基雅维利《君主论》第15-19章、《论李维》第一卷论法律与制度",
+   "key_concepts": [
+    "法莫如显",
+    "以法为教",
+    "公开颁布",
+    "暗室操作",
+    "规则至上",
+    "不务德而务法"
+   ],
+   "process_zh": [
+    "先问规则是否成文且可检索：凡只能靠掌权者口头解释运转的规则，一律推定为权臣的私人资产",
+    "再问执行者能否在公开文本之外加码或豁免：法定量刑与实际执行的偏差带，就是暗室的大小",
+    "对每条规则做'依赖审计'：去掉最有才干的执行者，规则是否照常生产顺从？是则规则至上成立，否则是人治假扮法治",
+    "评估暗室的失效条件：对手能否预判规则将如何被操纵？能预判，则透明收益反超暗室收益，公开化就应提上日程"
+   ],
+   "process_en": [
+    "First ask whether the rules are written and retrievable: any rule that runs only on a holder's verbal interpretation is presumptively a private asset of powerful ministers",
+    "Then ask whether executors can add penalty or grant exemption beyond the public text: the gap between statutory punishment and actual enforcement is the exact size of the dark room",
+    "Run a dependence audit on each rule: remove the most talented executor — does the rule still produce compliance? If yes, rule-primacy is real; if no, rule of men is masquerading as rule of law",
+    "Price the failure condition of the dark room: can rivals predict how the rules will be manipulated? Once prediction is cheap, publicity's returns overtake opacity's, and publication should be scheduled"
+   ],
+   "representative_cases_zh": [
+    "商鞅'徙木立信'与《法经》颁布：韩非继承的法家传统以公开的悬赏建立'法必行'的公共预期——规则的可信度由一次可验证的执行事件一次性充值，此后'法莫如显'成为秦国动员效率的制度来源",
+    "马基雅维利论切萨雷·博尔贾的'法治面相'：博尔贾以残酷而统一的法律重建罗马涅秩序，使当地'比过去任何时期都更和平'——公开规则的刚性可以兑换秩序，即便其动机纯粹是权力",
+    "反面警示：秦二世而亡的直接教训——'法莫如显'被异化为'罚莫如重'，公开法典变成公开的恐吓；赵高指鹿为马正说明：当解释权被权臣夺走，再显赫的法典也只是摆设。教训：法典公开必须与解释权的公开归属配套，否则透明是空壳。"
+   ],
+   "representative_cases_en": [
+    "Shang Yang's pole-standing bounty and the promulgation of the Canon of Laws: the Legalist tradition Han Fei inherited built public expectation that 'the law must run' through one verifiable act of execution — a single performed enforcement pre-paid the credibility of all published rules, and 'nothing more visible than law' became the institutional source of Qin's mobilization efficiency",
+    "Machiavelli on Cesare Borgia's legal countenance: Borgia rebuilt the Romagna with harsh but uniform law, leaving the province 'more peaceful than it had ever been' — the rigidity of published rules purchases order even when the motive is pure power",
+    "Cautionary: Qin's fall in the second generation — 'nothing more visible than law' degenerated into 'nothing heavier than punishment', and the published code became published intimidation; Gao's pointing-at-a-deer-as-horse shows that when interpretation rights are seized by a minister, the most luminous code is mere stage prop. Lesson: publication of the code must be paired with publicly owned interpretation, or transparency is an empty shell."
+   ],
+   "modern_applications_zh": [
+    "公司治理中的'制度公开、裁量私有'审计：股东协议与员工手册公开程度高，但晋升与解雇的真实决策链藏在暗室——用'偏差带'测量公开制度的实际含金量",
+    "平台算法治理：规则（社区守则）公开而执行（推荐与封禁）黑箱，正是'法显术隐'的现代翻版；监管思路可借韩非'术亦须有限公开'的主张推动可申诉的透明化",
+    "国际制裁与合规体系：制裁名单公开（法）而豁免许可暗箱（术），企业合规设计应按'去才干审计'测试：换掉关键合规官，体系是否照常运转"
+   ],
+   "modern_applications_en": [
+    "Auditing 'public rules, private discretion' in corporate governance: shareholder agreements and handbooks are published while promotion and dismissal decisions run in the dark room — measure the real gold content of published rules by their deviation band",
+    "Platform algorithm governance: community guidelines are public while enforcement (ranking, bans) is a black box — a modern replay of 'law bright, shu hidden'; regulatory design can draw on Han Fei's demand that even the hidden technique accept bounded publicity, e.g., appealable decisions",
+    "Sanctions and compliance regimes: sanctions lists are public (fa) while waiver licenses are opaque (shu); compliance officers should apply the talent-removal test — swap out the key compliance officer and see whether the system still runs"
+   ],
+   "related_modes": [
+    "M-HFZ-001",
+    "M-HFZ-004",
+    "M-CC-001"
+   ],
+   "representative_figures": [
+    "韩非",
+    "马基雅维利"
+   ],
+   "key_quote_zh": "法莫如显，而术不欲见。——韩非《韩非子·难三》",
+   "key_quote_en": "\"Nothing in the law should be more prized than its visibility; nothing in the technique should be seen.\" — Han Fei, Han Feizi, 'Nan San'; against Machiavelli's counsel to 'seem merciful, faithful, humane' while governing otherwise."
+  },
+  {
+   "id": "M-CC-017",
+   "name_zh": "修辞两面策略法",
+   "name_en": "The Two-Faced Rhetoric Method: Two Channels by Which Truth Enters Power",
+   "mode_code": "M-CC-017",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/修辞学",
+   "domain_en": "Political Philosophy / Rhetoric",
+   "level": "核心",
+   "priority": 17,
+   "definition_zh": "两人都研究同一个致命问题：真话如何才能被君主听见而不死。方法论签名有四：其一，把'进言'当作高危工程而非表达——韩非《说难》断言'非吾知之难，说之难'：难点不在你想说什么，而在猜君主心里想什么、再决定怎么说；马基雅维利《君主论》的献辞同样是一次精密的求职操作，把献策包装成对美第奇家族的效忠。其二，以缺陷诊断换准入——韩非以'孤愤'自况、以批驳儒侠立论，马基雅维利以'亲历政务十五年'的资历换听众席位：两人都先证明自己看得见君主看不见的东西。其三，修辞的双面性是结构性的：韩非区分'说之行'与'说之意'——话术必须顺应听者爱憎，真理的内核被包裹在迎合的外壳里；马基雅维利明言给君主的建议'必须是伪装的奉献'，真诚只存在于字里行间的选择（写共和的长者恰在同一时期写专制的短书）。其四，通道的代价自负：走通这条路的人都会被这条路反向定义——韩非终以'说难'死于进谗，马基雅维利献书终身未获起用。这一模式把'如何向权力说真话'从道德困境改写为信道工程：信噪比、包裹层、退出成本都要计量。",
+   "definition_en": "Both men study the same lethal problem: how truth can be heard by a prince without the speaker dying. Four signatures define the mode. First, persuasion is treated as high-risk engineering, not expression — Han Fei's 'Shuo Nan' (The Difficulties of Persuasion) declares 'the difficulty is not in my knowing, but in persuading': the work lies in divining what the ruler holds in his heart, then choosing how to phrase; Machiavelli's dedication of The Prince is an equally precise job application, packaging counsel as devotion to the Medici. Second, defect-diagnosis buys admission: Han Fei writes out of 'gu-fen' (solitary indignation) and builds his case by attacking the Confucians and knights-errant the court indulges; Machiavelli trades on 'fifteen years of studied statecraft' to claim a seat. Each first proves he sees what the ruler cannot. Third, the two-facedness of rhetoric is structural: Han Fei separates 'the course of the words' from 'the intent of the words' — persuasion must ride the listener's loves and hates, truth wrapped in a pleasing shell; Machiavelli says outright that counsel to princes must be 'offered with a show of devotion', sincerity surviving only in the choices between the lines (the long republican book drafted by the same hand as the short autocratic one). Fourth, the channel bills its users: whoever masters the road to power is redefined by it — Han Fei died by the slanderer's version of 'the difficulties of persuasion', Machiavelli offered his book and was never recalled to office. The mode rewrites 'how to speak truth to power' from a moral dilemma into a channel-engineering problem: signal-to-noise, wrapping layers, and exit costs are all to be priced.",
+   "source_chapter": "《韩非子·说难》《难言》《孤愤》；马基雅维利《君主论》献辞及第15-23章论廷臣与直谏",
+   "key_concepts": [
+    "说难",
+    "难言",
+    "献辞",
+    "顺势包裹",
+    "真话信道",
+    "进言风险"
+   ],
+   "process_zh": [
+    "进言前先做'听者侧写'：列出听者的荣耀记忆、耻辱创伤、当前恐惧——说辞必须绕开创伤、挂在荣耀上",
+    "区分'意见内核'与'包装外壳'：内核写死且不可让步，外壳（措辞、顺序、名义受益人）随听者重配",
+    "选择通道而非只选措辞：当面直谏、委托代言、匿名文本、事后追认——每个通道有独立的存活概率与采纳概率",
+    "预设退出成本：写下这次进言的失败代价（信任损失、职位风险），若付不起，宁可留存不发"
+   ],
+   "process_en": [
+    "Before speaking, profile the listener: list the ruler's glory-memories, humiliation-wounds, and current fears — the words must detour around wounds and hang from glory",
+    "Separate the opinion core from the packaging shell: fix the core and concede nothing in it; re-configure the shell (phrasing, sequence, nominal beneficiary) to the listener",
+    "Choose the channel, not just the wording: direct address, proxy speech, anonymous text, post-hoc ratification — each channel carries its own survival and adoption probabilities",
+    "Price the exit cost in advance: write down the failure price of this counsel (trust lost, position risked); if you cannot pay it, file and withhold"
+   ],
+   "representative_cases_zh": [
+    "《说难》中'弥子瑕'寓言：同一行为（私驾君车、食君余桃）先被赞为孝忠、后被定为罪证——韩非以此证明进言者面对的不是事实法庭而是情感法庭，说辞的时间窗口与君主心境绑定",
+    "《君主论》献辞与第23章'如何避开谄媚者'：马基雅维利一面谄媚式献书，一面设计'选三人与君言真'的直谏制度——他同时经营私人通道与公共通道，深知单独的私人通道必被谄媚腐蚀",
+    "反面警示：韩非本人即《说难》的失败案例——他入秦献策，正因'说'得之深而遭同门李斯与姚贾构陷，死于云阳狱。教训：进言工程再精密，也规避不了'知道太多'这一原罪； strategist 必须为自己设计退出条款，而非只设计入口。"
+   ],
+   "representative_cases_en": [
+    "The story of Mi Zixi in 'Shuo Nan': the same acts (borrowing the ruler's carriage, offering the ruler his half-eaten peach) praised as loyalty when favored, cited as evidence of crime when discarded — proof that the persuader faces not a court of fact but a court of feeling, and that the window of any argument is pegged to the ruler's mood",
+    "The Prince's dedication and Chapter 23 on flatterers: Machiavelli writes a flattering dedication while simultaneously designing an institution of frank counsel — 'choose three men to speak truth before the prince' — running the private and public channels in parallel because a private channel alone must rot into flattery",
+    "Cautionary: Han Fei himself is the failed case study of 'Shuo Nan' — his counsel so penetrating that fellow-student Li Si and Yao Jia framed him, and he died in Yunyang prison. Lesson: however precise the persuasion engineering, it cannot escape the original sin of knowing too much; a strategist must design an exit clause, not only an entrance."
+   ],
+   "modern_applications_zh": [
+    "向上管理中的'内核-外壳'分离法：向决策层提交坏消息时，内核（事实与风险）不可修饰，外壳（时机、框架、与在售项目的绑定方式）按决策者心境重配",
+    "咨询与法务行业的'受托直言'制度设计：借鉴马基雅维利'限员直谏'——为董事会设定固定的异议渠道与记录义务，防止私人通道谄媚化",
+    "言论审查环境下的写作策略：以历史寓言、案例汇编（《韩非子》储说式）承载现实批评，评估每篇的发表通道存活概率"
+   ],
+   "modern_applications_en": [
+    "Core-shell separation in managing upward: when bad news goes to the decision layer, the core (facts and risk) is never decorated, while the shell (timing, framing, attachment to initiatives already funded) is re-fitted to the decision-maker's mood",
+    "Designing 'mandated candor' in consulting and law: borrow Machiavelli's limited-panel counsel — give boards a fixed dissent channel with a recording duty, so the private channel cannot rot into flattery",
+    "Writing strategy under censorship: carry present criticism inside historical parable and case compendia (the 'Chu-shuo' storehouse style of the Han Feizi), pricing the survival probability of each publication channel before release"
+   ],
+   "related_modes": [
+    "M-HFZ-006",
+    "M-CC-004",
+    "M-CW-001"
+   ],
+   "representative_figures": [
+    "韩非",
+    "马基雅维利"
+   ],
+   "key_quote_zh": "凡说之难，在知所说之心，可以吾说当之。——韩非《韩非子·说难》",
+   "key_quote_en": "\"The difficulty of persuasion lies not in my knowing, nor in my ability to present it, but in knowing the heart of the one to be persuaded and matching my words to it.\" — Han Fei, 'Shuo Nan'; in the same register, Machiavelli's advice that a prince's counselor 'must offer his advice with a show of devotion'."
+  },
+  {
+   "id": "M-CC-018",
+   "name_zh": "共和与专制双稿法",
+   "name_en": "The Two-Draft Method: Republic and Principate in One Hand",
+   "mode_code": "M-CC-018",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/政体设计",
+   "domain_en": "Political Philosophy / Regime Design",
+   "level": "核心",
+   "priority": 18,
+   "definition_zh": "马基雅维利一人写了两部政体书：短论《君主论》教专制者夺权保权，长论《论李维》为共和政体辩护甚至宣称'民众比君主更聪明更稳定'。这一'双稿现象'与韩非构成尖锐对照：韩非从不双轨——法、术、势在《韩非子》中是一个组装好的整体，'抱法处势'与'术以匿端'互为零件，不存在写给不同政体的两个版本。方法论签名有四：其一，双稿可作互证亦可作互斥——'互证说'认为《论李维》是《君主论》的深层语法（混乱时期的暂时独裁终须归还共和），'互斥说'认为两书作者分裂，读者必须自选；韩非式读法则是第三种：两书是同一工具箱对不同工件的应用。其二，情境决定政体而非政体决定情境——两人都拒绝从道德理想推政体，从'此刻的敌人是谁'推政体。其三，把冲突上交时间轴：共和与专制的矛盾不是逻辑矛盾，而是'非常时期'与'常态'的分段函数——罗马独裁官制度与马基雅维利'为国家而暂时弃善'同构。其四，稿本即实验室：作者的分裂恰好把变量留给读者——你必须自己决定'回到共和'的触发条件写在哪一行。这一模式提供处理思想内部张力的操作法：不调和、不站队，先重建两稿各自的运行条件，再为切换写触发器。",
+   "definition_en": "Machiavelli wrote two books of regime in one hand: the short Prince teaching an autocrat how to seize and keep power, the long Discourses defending republican government and even declaring the people 'wiser and more stable' than any prince. This two-draft phenomenon stands in sharpest contrast to Han Fei, who never runs on dual tracks: fa (law), shu (technique), and shi (positional power) form one assembled whole in the Han Feizi — 'hold to law and dwell in shi' interlocks with 'technique hides its ends' as interlocking parts; there is no alternate version written for a different regime. Four signatures define the mode. First, the two drafts can corroborate or contradict each other — the corroboration reading treats the Discourses as the deep grammar of The Prince (temporary dictatorship in disordered times must be handed back to the republic); the contradiction reading says the author split and the reader must choose; the Han-Fei-style reading is a third path: two applications of one toolbox to different workpieces. Second, situation determines regime, not regime the situation — both refuse to derive the polity from moral ideals and derive it instead from 'who is the enemy right now'. Third, the conflict is handed to the timeline: republic versus autocracy is not a logical contradiction but a piecewise function of 'emergency' versus 'normal times' — the Roman dictatorship and Machiavelli's counsel to 'do evil for the sake of the state, temporarily' share this structure. Fourth, the drafts are a laboratory: the author's own split leaves the variable to the reader, who must decide in which line the trigger for 'returning to the republic' is written. The mode offers an operational method for tension inside a body of thought: neither harmonize nor take sides; first reconstruct the operating conditions of each draft, then write the trigger for switching.",
+   "source_chapter": "马基雅维利《论李维》第一卷、第二卷序言、《君主论》第15章；韩非《韩非子·定法》《难势》《显学》",
+   "key_concepts": [
+    "双稿现象",
+    "法术势一体",
+    "情境决定政体",
+    "非常时期",
+    "共和主义",
+    "分段函数"
+   ],
+   "process_zh": [
+    "遇到同一作者的两份冲突文本，先拒绝调和：分别重建每份文本的写作情境（读者、危机、投稿对象）",
+    "提取两稿共享的深层算子（如'国家先于人格''混乱是最大的恶'），确认冲突是否只发生在表层结论",
+    "把表层冲突转写为分段函数：标出'正常段'与'应急段'各自的适用区间与切换条件",
+    "亲手写下切换触发器：谁有权宣布进入应急段？应急段的期限与退出审计由谁执行？写不出触发器的双稿即宣告为伪统一"
+   ],
+   "process_en": [
+    "Confronted with two conflicting texts by one author, refuse to harmonize first: reconstruct the writing situation of each (reader, crisis, dedicatee) separately",
+    "Extract the deep operators shared by both drafts (the state before the person; disorder as the greatest evil) and confirm whether the conflict lives only in surface conclusions",
+    "Transcribe the surface conflict as a piecewise function: mark the normal-segment and emergency-segment domains and their switch conditions",
+    "Write the switching trigger by hand: who may declare the emergency segment? Who audits its term and exit? A two-draft system that cannot state its trigger is declared pseudo-unified"
+   ],
+   "representative_cases_zh": [
+    "《论李维》第一卷58章'民众比君主更聪明'与《君主论》17章'为人所惧优于为人所爱'并置：同一支笔对民众能力给出两个方向的诊断——深层算子相同（制度须匹配人性真实），表层结论因对象（君主 vs 公民体）而反",
+    "韩非《难势》引'复应之曰'两造辩难再自下断语：他不写两个政体版本，而是让'尚贤'与'任势'在同一文本内交锋后归于'抱法处势'——一体法术势是双稿问题的单稿解法",
+    "反面警示：后世读者对马基雅维利的'选边站'造成双重失真——'马基雅维利主义'取《君主论》弃《论李维》，把情境工程读成万能恶行执照；共和主义读者反向抹除《君主论》。教训：双稿的价值恰在分裂处，抹平任何一侧都会把条件命题误读为无条件律令。"
+   ],
+   "representative_cases_en": [
+    "Placing Discourses I.58 ('the people are wiser than a prince') beside Prince ch. 17 ('better to be feared than loved'): one hand, two opposite diagnoses of the people's capacity — the deep operator is identical (institutions must match real human nature) while surface conclusions invert with the audience (a monarch versus a citizen body)",
+    "Han Fei's 'Nan Shi' quotes both sides of a debate ('to which I reply') and then hands down his own verdict: he writes no second regime version — advocate-of-virtue and advocate-of-power cross-examine each other inside one text before resolving into 'hold law, dwell in shi'; the unified fa-shu-shi is the single-draft solution to the two-draft problem",
+    "Cautionary: readers who take sides with one draft of Machiavelli double the distortion — 'Machiavellianism' keeps the Prince and discards the Discourses, reading situational engineering as a universal license for villainy, while republican readers erase the Prince in the other direction. Lesson: the value of two drafts lies precisely in the split; flattening either side misreads a conditional proposition as an unconditional command."
+   ],
+   "modern_applications_zh": [
+    "公司章程与危机预案的双轨审计：常态治理文档与'战争室'应急权限文档须共享深层算子（如透明底线），且应急段的触发、期限、退出审计必须成文",
+    "人工智能治理中的'能力双稿'：同一模型的研究论文（开放）与部署政策（受限）构成双稿；治理者应提取共享算子后写明切换触发器，而非指控作者分裂",
+    "对'言行不一'创始人的尽调方法：先做情境重建（早期公开信 vs 内部备忘录），提取共享算子，再判断是演化的分段函数还是伪统一"
+   ],
+   "modern_applications_en": [
+    "Two-track audit of corporate charters and crisis playbooks: normal-times governance documents and war-room emergency-authority documents must share deep operators (a transparency floor, say), and the emergency segment's trigger, term, and exit audit must be written down",
+    "AI governance's own two drafts: a model's open research papers and its restricted deployment policy form a two-draft corpus; governors should extract shared operators and write explicit switching triggers instead of accusing the author of schism",
+    "Due-diligence method for founders who 'say one thing, write another': run situation reconstruction (early public letters versus internal memos), extract shared operators, then judge whether this is an evolutionary piecewise function or pseudo-unity"
+   ],
+   "related_modes": [
+    "M-CC-001",
+    "M-HFZ-003",
+    "M-DKR-001"
+   ],
+   "representative_figures": [
+    "韩非",
+    "马基雅维利"
+   ],
+   "key_quote_zh": "民众比君主更聪明、更稳定。——马基雅维利《论李维》第一卷58章；而韩非谓：抱法处势则治，背法去势则乱。",
+   "key_quote_en": "\"The multitude is wiser and more constant than a prince.\" — Machiavelli, Discourses I.58; against Han Fei: \"Hold to the law and dwell in positional power, and there is order; abandon the law and leave the position, and there is chaos.\""
+  },
+  {
+   "id": "M-CC-019",
+   "name_zh": "孤臣共同体法",
+   "name_en": "The Lone-Minister Community Method: Distance from Power as a Condition of Production",
+   "mode_code": "M-CC-019",
+   "category": "核心方法",
+   "domain_zh": "思想史/知识分子社会学",
+   "domain_en": "Intellectual History / Sociology of the Intellectual",
+   "level": "核心",
+   "priority": 19,
+   "definition_zh": "韩非《孤愤》自称'智法之士与当涂之人，不可两存之仇'——法术之士在体制内注定孤立无党；马基雅维利1512年美第奇复辟后被革职、下狱、流放圣卡夏诺农庄，在书斋里给政府写信'我至少在纸上谈论治国'。两人以不同方式证明了同一个命题：与权力的正确距离是政治思想的生产条件。方法论签名有四：其一，孤立作为 credential 而非残疾——韩非'无党'意味着其学说不代表任何派系的租金，'孤立'成为其客观性的担保（尽管君主并不因此更信任他）；马基雅维利的流放身份使其可以写体制内廷臣不敢写的真话。其二，距离必须维持在一个精确区间：太近则被收编（韩非入秦得秦王欢心反招杀身；马基雅维利急于献媚复职，献辞的谄媚削弱了文本的锋利），太远则失去数据（《君主论》的力道来自他亲任秘书处十五年的档案记忆）。其三，孤而不独——两人的'孤独'都通过文本转化为共同体：韩非把储说、内外储说做成可训练官僚的案例库，马基雅维利的书信与《论李维》召唤出后世共和国的想象共同体。其四，身份的多重性是安全设计：马基雅维利同时是剧作家、史家、军事起草人，多重面具分散政治风险。这一模式把'知识分子的位置'从道德叙事改写为资产配置问题。",
+   "definition_en": "Han Fei's 'Gu Fen' (Solitary Indignation) names the law-and-technique minister and the well-placed favorite 'irreconcilable enemies who cannot coexist' — the legalist adviser is structurally friendless inside the system; Machiavelli, dismissed, imprisoned, and exiled to his farm at Sant'Andrea after the Medici restoration of 1512, wrote to his government from his study, 'at least on paper I talk of governing'. In different ways both prove one proposition: the right distance from power is a production condition of political thought. Four signatures define the mode. First, isolation as credential rather than disability: Han Fei's friendlessness means his doctrine represents no faction's rent, and solitude becomes collateral for his objectivity — even though no ruler trusts him the more for it; Machiavelli's exile lets him write truths no palace courtier dares. Second, distance must be held inside a precise band: too near and you are co-opted (Han Fei won the King of Qin's admiration and thereby his death; Machiavelli's eagerness to be recalled made the dedication's flattery dull the text's edge), too far and you lose the data (the force of The Prince comes from fifteen years of archive-memory as Second Chancellor). Third, alone yet not solitary — both convert solitude into community through text: Han Fei builds his storehouses of anecdotes into a case library that can train officials; Machiavelli's letters and Discourses summon an imagined republic of later readers. Fourth, multiplicity of identity as security design: Machiavelli was simultaneously playwright, historian, and drafter of military ordinances — several masks spreading political risk. The mode rewrites 'where should the intellectual stand' from a moral narrative into an asset-allocation problem.",
+   "source_chapter": "《韩非子·孤愤》《和氏》'法术之士无党'；马基雅维利1513年12月10日致韦托里书信、《君主论》献辞、《论李维》献辞",
+   "key_concepts": [
+    "孤愤",
+    "法术之士无党",
+    "流放书斋",
+    "距离区间",
+    "文本共同体",
+    "多重身份"
+   ],
+   "process_zh": [
+    "先给自己的位置定价：列出当前依附关系（雇主、派系、资助人）及其租金——依附越深，发声的客观性折价越高",
+    "设定距离区间：写下'必须在场'的最小接触面（数据、档案、人物）与'必须离场'的最大暴露面（职位、忠诚誓言）",
+    "把孤独产品化：将孤立的视角沉淀为可传输的文本资产（案例库、书信、备忘），使个人际遇转化为共同体资源",
+    "配置多重身份：为同一认知内核配置至少两个不共享风险评估的职业外壳，任一外壳失效不致殃及内核"
+   ],
+   "process_en": [
+    "Price your position first: list current dependencies (employer, faction, patron) and their rents — the deeper the attachment, the higher the discount on your credibility",
+    "Set the distance band: write down the minimum interface you must keep ('presence' — data, archives, people) and the maximum exposure you must shed ('position', oaths of loyalty)",
+    "Productize the solitude: precipitate the solitary vantage into transferable text-assets (case libraries, letters, memoranda) so personal fate becomes communal resource",
+    "Diversify identity: give one cognitive core at least two occupational shells with uncorrelated risk profiles, so the failure of one shell does not reach the core"
+   ],
+   "representative_cases_zh": [
+    "韩非'和氏'之喻：卞和献玉而两刖其足——法术之士的献策在无党的条件下必然承担身体风险，但韩非仍选择著书而非结党，证明其把'无党'当作学说可信度的抵押品",
+    "1513年12月10日马基雅维利致韦托里信：脱下朝服换粗布衣、进林中捕鸟、傍晚回到书斋'脱下沾泥的 clothes，穿上宫廷朝服'与古人对话——流放书斋被明确表述为《君主论》的生产现场",
+    "反面警示：距离区间失守的双向样本——韩非得太近（入秦被留用）而死于李斯构陷；同时代的耿直者若离权力过远（如拒不仕者），则其学说失去行政数据，沦为道德姿态。教训：'孤'是方法而非姿态，无数据的孤与无距离的宠同样致命。"
+   ],
+   "representative_cases_en": [
+    "Han Fei's parable of He the jade-cutter: presenting a raw gem, He loses first one foot and then the other — the law-and-technique adviser who belongs to no faction necessarily risks his body for his counsel, yet Han Fei chooses writing over faction-building, staking his doctrine's credibility on his own friendlessness",
+    "Machiavelli's letter to Vettori, 10 December 1513: doffing court clothes for rustic garb, bird-netting in the woods, then at evening returning to the study to 'step out of my muddy clothes into courtly robes' and converse with the ancients — the exiled study is explicitly staged as the production site of The Prince",
+    "Cautionary: two-way failures of the distance band — Han Fei drifted too near (retained in Qin) and died of Li Si's frame-up; contemporaries who withdrew too far from power, refusing all office, lost access to administrative data and dwindled into moral posture. Lesson: solitude is a method, not a stance; isolation without data is as fatal as favor without distance."
+   ],
+   "modern_applications_zh": [
+    "研究者与监管层的'旋转门'距离管理：离职进入智库的监管者应设定冷却期与数据访问边界，既保住领域知识又不做立场出租",
+    "独立董事与公司 ' 挑战者 ' 角色的独立性配置：薪酬结构、连任机制、信息通道三处同时设计'孤而不独'——无信息则盲，无利益切割则哑",
+    "开源社区与举报者生态：把孤立个体的发现产品化为可传输文本（漏洞报告、事后分析），使个人风险转化为公共知识"
+   ],
+   "modern_applications_en": [
+    "Managing revolving-door distance between researchers and regulators: officials moving into think tanks should set cooling-off periods and data-access boundaries, keeping domain knowledge without renting out their stance",
+    "Independence design for outside directors and designated challengers: engineer 'alone yet not solitary' across pay structure, re-election mechanics, and information channels — without information they are blind; without severed interests they are mute",
+    "Open-source and whistleblower ecosystems: productize a lone individual's findings into transferable text (vulnerability reports, post-mortems), converting personal risk into public knowledge"
+   ],
+   "related_modes": [
+    "M-HFZ-005",
+    "M-CC-003",
+    "M-LH-001"
+   ],
+   "representative_figures": [
+    "韩非",
+    "马基雅维利"
+   ],
+   "key_quote_zh": "智法之士与当涂之人，不可两存之仇也。——韩非《韩非子·孤愤》",
+   "key_quote_en": "\"The minister of law and the favorite in power are enemies who cannot both survive.\" — Han Fei, 'Gu Fen'; and from Machiavelli's study: \"At least on paper I talk of governing, examining, and ruling.\" (Letter to Vettori, 1513)"
+  },
+  {
+   "id": "M-CC-020",
+   "name_zh": "遗产代价审计法",
+   "name_en": "The Legacy-Cost Audit Method: Accounting the Founder's Price and the Doctrine's Afterlife",
+   "mode_code": "M-CC-020",
+   "category": "核心方法",
+   "domain_zh": "思想史/遗产评估",
+   "domain_en": "Intellectual History / Legacy Assessment",
+   "level": "核心",
+   "priority": 20,
+   "definition_zh": "两种遗产账本必须合并阅读：创始人付出的代价，与学说被后世使用的代价。韩非死于同门李斯构陷，其学却被秦全盘采纳并催生速亡的帝国——'秦用法而速亡'成为法家遗产上永久的污点标记；马基雅维利在《君主论》完成后被禁声、被排除出职务，其名后来被制造成'马基雅维利主义'——一个他本人从未使用、语义恰与其《论李维》相反的贬义词。方法论签名有四：其一，双重账本强制并置：审计一条思想遗产时，账本一记录创始人的个人代价（生命、职位、名誉），账本二记录学说的历史后果（制度成败、道德负债），两本账不许互相抵扣——韩非之死不能洗白秦亡，'马基雅维利主义'的污名也不能抵消《论李维》的制度洞见。其二，区分'学说'与'学说的被使用'：秦的速亡是秦对法家的使用失败（重刑弃术、二世失御），不必然是法家理论内假；同理，'Machiavellian' 一词记录的是读者的投影而非文本的主张。其三，代价可反推主张：创始人付出的代价类型揭示了其学说的真实风险敞口——韩非死于'说'，说明法术的核心风险在解释权；马基雅维利毁于'名'，说明其学的核心风险在道德标签。其四，遗产的增值与折旧独立于创始人意愿：两条遗产都在被误读的形态里获得最大的历史动能。这一模式为评估思想体系提供标准化审计表。",
+   "definition_en": "Two ledgers must be read together: the price the founder paid, and the price the doctrine has cost in the hands of posterity. Han Fei died by the frame-up of his fellow student Li Si, and his doctrine was adopted wholesale by Qin, whose empire collapsed within a generation — 'Qin used Legalism and swiftly perished' remains the permanent stain on the Legalist legacy; Machiavelli, after finishing The Prince, was silenced, barred from office, and had his name manufactured into 'Machiavellianism' — a pejorative he never used and whose meaning inverts his own Discourses. Four signatures define the mode. First, double-entry by force: when auditing a legacy, ledger one records the founder's personal price (life, position, reputation); ledger two records the doctrine's historical consequences (institutional success or collapse, moral debt); neither ledger may offset the other — Han Fei's death does not whitewash Qin's fall, and the smear on 'Machiavellian' does not cancel the institutional insight of the Discourses. Second, separate the doctrine from its uses: Qin's collapse was a failure of Qin's use of Legalism (punishment without technique, a second emperor without control), not proof of an internal flaw in the theory; likewise the word 'Machiavellian' records the reader's projection, not the text's claim. Third, price reverses into thesis: the type of price a founder paid reveals the doctrine's true risk exposure — Han Fei died of 'speaking', showing that the core risk of fa-shu lies in interpretation rights; Machiavelli was ruined by 'name', showing that his doctrine's core risk lies in moral labeling. Fourth, appreciation and depreciation of a legacy are independent of the founder's will: both legacies drew their greatest historical energy precisely in misread form. The mode yields a standardized audit sheet for evaluating any body of thought.",
+   "source_chapter": "《史记·老子韩非列传》韩非死于李斯姚贾构陷、《韩非子·显学》竞争意识；马基雅维利《君主论》献辞、1532年出版与1559年《禁书目录》、《论李维》",
+   "key_concepts": [
+    "双重账本",
+    "秦用法而速亡",
+    "马基雅维利主义",
+    "遗产折旧",
+    "学说与使用之别",
+    "创始人代价"
+   ],
+   "process_zh": [
+    "建立两本强制并置的账本：账本一登记创始人的代价（生命/自由/职位/名誉），账本二登记学说的历史后果（实施成败、连带伤害），禁止相互抵扣",
+    "执行'学说/使用'分离检验：把'被滥用'的案例归入使用账，只有当理论结构本身生成同样失败时才记入学说账",
+    "由代价反推风险敞口：创始人死于哪个环节（进言、执行、命名、联盟），该环节就是学说最脆弱的接口，后续使用者须加固",
+    "核算误读的动能：标记遗产在哪个'错误形态'下传播最广，评估是否以及如何对误读形态进行公开校正"
+   ],
+   "process_en": [
+    "Open two forcibly juxtaposed ledgers: ledger one logs the founder's price (life, liberty, position, name); ledger two logs the doctrine's historical consequences (implementation outcomes, collateral harm); offsetting between them is prohibited",
+    "Run the doctrine/use separation test: file 'abuse' cases under the use ledger; charge the doctrine ledger only when the theory's own structure generates the same failure",
+    "Reverse-engineer risk exposure from the price paid: whatever stage killed the founder (counsel, execution, naming, alliance) is the doctrine's most fragile interface, and later users must reinforce it",
+    "Account for the momentum of misreading: mark the 'wrong form' in which the legacy travels widest, and decide whether — and how — to correct that form in public"
+   ],
+   "representative_cases_zh": [
+    "韩非死于李斯、姚贾之谗而秦以法家立国：学说最大规模的成功应用与其创始人被同一学说的官僚体系处死同步发生——遗产审计的经典双账本样本：账本一（个人代价：狱中服毒），账本二（历史后果：统一帝国与其二世速亡）",
+    "《君主论》1559年被罗马教廷列入《禁书目录》，而'马基雅维利主义'一词在16世纪末的英格兰剧场（马洛《马耳他的犹太人》'马基雅维尔'化身恶人）完成污名化——文本被禁的正面效果是传播面扩大，文本被骂的负面效果是语义被锁死",
+    "反面警示：对两条遗产的'单账本阅读'制造了两种对立的错账——只读账本一者把韩非神化为'被迫害的圣贤'、把马基雅维利浪漫化为'殉道者'，抹去学说自身的代价；只读账本二者把韩非等同于秦亡祸首、把马基雅维利等同于欺诈教学。教训：遗产审计必须双账本并读，任何一侧单独成账都是伪造。"
+   ],
+   "representative_cases_en": [
+    "Han Fei died by the slander of Li Si and Yao Jia even as Qin built its state on Legalism: the doctrine's largest-scale successful application coincided with its founder being executed by that same doctrine's bureaucracy — the classic double-ledger specimen: ledger one (personal price: poison in prison), ledger two (historical consequence: a unified empire that collapsed in the second generation)",
+    "The Prince was placed on Rome's Index of Prohibited Books in 1559, while 'Machiavellianism' finished its smear campaign on the late-16th-century English stage (Marlowe's Jew of Malta staging 'Machevill' as villain incarnate) — banning widened the text's reach; reviling locked its meaning",
+    "Cautionary: single-ledger reading of the two legacies produced twin mis-accountings — reading ledger one alone canonizes Han Fei as 'persecuted sage' and romanticizes Machiavelli as 'martyr', erasing the doctrine's own costs; reading ledger two alone equates Han Fei with the catastrophe of Qin and Machiavelli with a curriculum in deceit. Lesson: legacy audit demands both ledgers side by side; an account kept on one side only is a forgery."
+   ],
+   "modern_applications_zh": [
+    "技术创始人与其发明的'代价审计'：评估一项基础技术（如加密、核能、社交媒体）时，将发明者个人的遭遇与该技术的部署后果分账核算，不因同情创始人而低估部署风险",
+    "知识产权与署名漂移审计：追踪一个术语（如'马基雅维利主义''潜规则'）从文本到公共语义的漂移路径，识别语义被对手锁定的时点并决定是否发起语义校正",
+    "组织'学说复盘'流程：解散的策略学派或失败的方法论应执行双账本复盘——方法论自身的缺陷账与执行者误用账分别结清，防止后世全盘否定或全盘继承"
+   ],
+   "modern_applications_en": [
+    "Legacy-cost audits for founders and their inventions: when assessing a foundational technology (encryption, nuclear power, social media), account separately for the inventor's personal fate and the deployment outcomes — sympathy for the founder must not discount deployment risk",
+    "Attribution-drift audits of terms: trace how a label ('Machiavellian', 'unspoken rules') travels from text to public semantics, spot when opponents locked the meaning, and decide whether to launch a semantic correction",
+    "Doctrine post-mortems inside organizations: when a school of strategy dissolves or a methodology fails, close both ledgers separately — the theory's own defects versus the executors' misuse — so that posterity neither repudiates nor inherits wholesale"
+   ],
+   "related_modes": [
+    "M-HFZ-010",
+    "M-CC-002",
+    "M-ASM-001"
+   ],
+   "representative_figures": [
+    "韩非",
+    "马基雅维利"
+   ],
+   "key_quote_zh": "悲夫！《说难》《孤愤》之作，韩非自尽于秦。——《史记·老子韩非列传》",
+   "key_quote_en": "\"Alas — he who wrote the 'Difficulties of Persuasion' and 'Solitary Indignation' died by exactly such persuasion, in Qin.\" — after Sima Qian, Records of the Grand Historian, biography of Han Fei; paired with the fate of a book banned in 1559 whose author's name became a synonym for cunning."
+  }
+ ]
+}

@@ -1,0 +1,858 @@
+{
+ "schema_version": "v6",
+ "id": "H-AE-002",
+ "code": "H-AE-002",
+ "figure_name": "库克",
+ "figure_code": "H-AE-002",
+ "figure_pinyin": "Kùkè",
+ "birth_year": 1728,
+ "death_year": 1779,
+ "era": "大航海时代 / Age of Exploration (1728-1779)",
+ "school": "英国海军测绘学派 / Royal Navy Survey School",
+ "style_name": "",
+ "courtesy_name": "",
+ "pseudonym": "Captain James Cook",
+ "historical_significance": "詹姆斯·库克（1728-1779），英国航海家、测绘师，三次太平洋远征（1768-1779）的指挥者：完成新西兰首次环航测绘、测绘澳大利亚东海岸、以遍历式扫掠证明'未知的南方大陆'为神话、把航海天文钟与坏血病防治带入实战并制度化。其远征确立'科学家随舰'建制（此后小猎犬号沿袭），获皇家学会科普利奖章（1776）。1779年2月14日死于夏威夷凯阿拉凯夸湾冲突，成为殖民时代符号误读的标志性案例。",
+ "unique_thinking": "库克的独特性在于把'探索'改写为'工程'：仪器可信度靠大洋实战检验（K1天文钟三年误差8英里），病因不明的坏血病靠纪律强制执行有效组合（第一次航行零坏血病死亡），地图空白是逐段关闭的工作队列（新西兰环航闭环、东澳两千英里逐段测绘），流行假说靠遍历其预言位置做负证明（南大陆神话的公共葬礼），科学家是行动的常设编制（班克斯、福斯特父子随行建制）。他死于符号误读而非武器劣势——被夏威夷祭司系统在马卡希基节'加冕'为隆诺，季节更替后带着破损主桅回到同一海湾，最终以绑架人质策略触发致命冲突：接受而不经营符号者，终被符号反噬。",
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-AE-011",
+  "M-AE-012",
+  "M-AE-013",
+  "M-AE-014",
+  "M-AE-015",
+  "M-AE-016",
+  "M-AE-017",
+  "M-AE-018",
+  "M-AE-019",
+  "M-AE-020"
+ ],
+ "key_concepts": [
+  "仪器实战检验",
+  "多仪器交叉校准",
+  "配给前置强制",
+  "地图归零闭合",
+  "假设负证明",
+  "科考随行建制",
+  "本地知识接口",
+  "上岸窗口节律",
+  "身份符号管理",
+  "双船冗余",
+  "档案接力路由",
+  "坏血病防治"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-AE-001",
+   "target_figure_name": "麦哲伦",
+   "relation_type": "远航工程学的两代范式：合同式单点冲刺 vs 建制式多轮迭代",
+   "description_zh": "麦哲伦与库克是远洋探索的两代范式：麦哲伦以一次性合同动员五船一搏，用'至'证有（海峡、环球实存）；库克以海军常设建制三次远征，用'遍历'证无（南大陆负证明）与'复检'证准（K1天文钟三年实测）。同构处有三：麦哲伦'太平洋纪律'与库克'上岸窗口节律'都在处理配给与恢复的节律（M-AE-004 × M-AE-017）；麦哲伦'亲历笔录'与库克'科考随行建制'都在解决记录建制化——从一个人到一个学科（M-AE-006 × M-AE-015）；麦哲伦'宿务杠杆'与库克'身份符号管理'都暴露杠杆/符号的过期反噬（M-AE-005 × M-AE-018）。分野在死亡的意义：麦哲伦死于半途而由继任者续成使命（M-AE-007），库克死于符号误读而由档案接力传世（M-AE-020）——两人的'失败'都被制度化结构转化为完成。",
+   "bidirectional_hint": "麦哲伦档案（H-AE-001）未来修订时可在'海峡试探'与'宿务杠杆'处补一条指向 H-AE-002 的跨引用（遍历式负证明与符号季节管理）。",
+   "mode_pair": [
+    "M-AE-014",
+    "M-AE-001"
+   ]
+  },
+  {
+   "target_figure_code": "H-MV-001",
+   "target_figure_name": "郑和",
+   "relation_type": "远洋组织的三种节律：国家常设/合同冲刺/科考建制",
+   "description_zh": "郑和的'节律窗口'以季风宏观排程，库克的'上岸窗口'以恢复需求微观补给——两人都在'等待与配给'中建立纪律（M-MV-009 × M-AE-017）；郑和'耀兵不征'以规模支撑符号克制，库克在夏威夷被动接受符号而终被反噬——符号的主动经营与被动接收给出正反教材（M-MV-003 × M-AE-018）；郑和'档案断代审计'（档案因制度停转而散佚）与库克'档案接力路由'（档案经西伯利亚陆路早于船队抵英）构成档案命运的正反两极（M-MV-010 × M-AE-020）。分野在组织性质：郑和是国家机器的常设制度，库克是常设海军+临时科考建制的混合体——后者的'科学家随舰'建制成为此后两百年科学探索的标准模板。",
+   "bidirectional_hint": "郑和档案（H-MV-001）未来修订时可在'节律窗口'与'档案断代审计'处补一条指向 H-AE-002 的跨引用（恢复需求定节律与档案接力路由的对照）。",
+   "mode_pair": [
+    "M-AE-017",
+    "M-MV-009"
+   ]
+  },
+  {
+   "target_figure_code": "H-SW-001",
+   "target_figure_name": "孙武",
+   "relation_type": "庙算先胜的勘探版：战前审计与遍历检验",
+   "description_zh": "孙武'庙算先胜'（M-SW-001）在库克这里转译为双重的先胜结构：启航前以装备冗余与科考建制完成'未战庙算'（双船、双份仪器、科学团预算合约），行动中以遍历检验替代会战决胜——'先胜'的对象从敌军改为假说与未知。孙武'知己知彼'（M-SW-003）在库克的本地知识接口策略中成为组织现实：图帕亚的活海图是'知彼'的建制化形态（M-AE-016 × M-SW-003）。分野在目标的可证伪性：孙武的庙算服务于确定会战，库克的遍历服务于可证伪假说——前者以必胜为前提组织，后者以'负结果也是发现'为前提组织。",
+   "bidirectional_hint": "孙武档案（H-SW-001）未来修订时可在'庙算先胜'处补一条指向 H-AE-002 的跨引用（勘探性任务中庙算的遍历检验形态）。",
+   "mode_pair": [
+    "M-AE-014",
+    "M-SW-001"
+   ]
+  }
+ ],
+ "tags": [
+  "库克",
+  "James Cook",
+  "库克船长",
+  "Captain Cook",
+  "太平洋远征",
+  "Pacific Voyages",
+  "努力号",
+  "Endeavour",
+  "决心号",
+  "Resolution",
+  "坏血病",
+  "Scurvy",
+  "酸菜",
+  "Sauerkraut",
+  "K1天文钟",
+  "K1 Chronometer",
+  "金星凌日",
+  "Transit of Venus",
+  "新西兰环航",
+  "New Zealand Circumnavigation",
+  "大堡礁",
+  "Great Barrier Reef",
+  "南方大陆",
+  "Terra Australis",
+  "图帕亚",
+  "Tupaia",
+  "科考随舰",
+  "Shipboard Science",
+  "科普利奖章",
+  "Copley Medal",
+  "大堡礁触礁",
+  "Reef Grounding",
+  "巴达维亚疫病",
+  "Batavia Epidemic",
+  "夏威夷",
+  "Hawaii",
+  "隆诺",
+  "Lono",
+  "马卡希基",
+  "Makahiki",
+  "凯阿拉凯夸湾",
+  "Kealakekua Bay",
+  "西北航道",
+  "Northwest Passage",
+  "海图测绘",
+  "Hydrographic Survey",
+  "负证明",
+  "Negative Proof",
+  "小猎犬号先声",
+  "Beagle Precedent",
+  "殖民争议",
+  "Colonial Controversy"
+ ],
+ "mode_ids_note": "M-AE-011 ~ M-AE-020（续接 H-AE-001 麦哲伦 M-AE-001~010；库内 M-AE 前缀查重零冲突）",
+ "caveats": [
+  "库克船队人数与死亡数在史料间有出入：第一次航行94人（另有说法约85-94），巴达维亚疫病死亡30余人（30-33区间），引用须标注口径",
+  "'无一人死于坏血病'的纪录需限定条件：第一次航行无坏血病死亡，但巴达维亚疫病死亡远超坏血病——'健康纪录'常被简化叙事夸大",
+  "金星凌日观测因'黑滴效应'精度不足，未能有效解算日地距离——库克最重要的公开任务在测量原理层面即有缺陷",
+  "库克之死存在解释之争：萨林斯'仪式延续说'与奥贝赛克拉'实用理性说'对峙，'被奉为神'叙事本身可能是欧洲中心建构，引用须双源并置",
+  "库克航行为殖民扩张前导：terra nullius 法理建构、性病酒精与枪械输入、原住民人口锐减的现代评估必须与'伟大航海家'叙事并置",
+  "图帕亚的历史地位长期被贬低为'班克斯的仆人'，其领航与传译贡献20世纪末才获重估——本地知识贡献者在欧洲档案中的署名结构性偏低"
+ ],
+ "modes": [
+  {
+   "id": "M-AE-011",
+   "name_zh": "仪器实战检验法",
+   "name_en": "The Instrument-Trial Method: Certifying a Device by Sailing It, Not by Sitting It",
+   "mode_code": "M-AE-011",
+   "category": "核心方法",
+   "domain_zh": "科学方法论/装备验证",
+   "domain_en": "Scientific Methodology / Instrument Validation in the Field",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "库克的元命题：一种测量仪器的可信度不产自钟表匠的工作台，而产自大洋上的实战检验——把'仪器是否可靠'从形而上的争论改写为一次可归档的远航任务。方法论签名有四：其一，任务内嵌试验——海军部与经度委员会把肯德尔K1航海天文钟交给第二次航行的库克，天文学者威廉·威尔士在船上逐日记录其误差，仪器与探险互为载荷；其二，对手校准——库克不依赖单一仪器，K1天文钟、月距法、木星卫星法三路互相校验，三年航行后K1误差仅约8英里；其三，环境极限测试——把仪器带到高纬度、大湿度、剧烈温差的真实海况下，而不是在伦敦的客厅里推演；其四，结论制度化——试验结果直接改写海军的导航规程，一次检验升级为全舰队的能力。这一模式把'实验'的含义从实验室扩展到整个地球：大洋即试验台，航迹即实验记录。",
+   "definition_en": "James Cook's master proposition: an instrument's credibility is not manufactured at the clockmaker's bench but forged in ocean-going field trials — converting 'is this device reliable?' from metaphysical dispute into a single archivable voyage. Four signatures define the mode. First, trial embedded in mission: the Board of Longitude handed Larcum Kendall's K1 chronometer to Cook's second voyage, with astronomer William Wales logging its error day by day — instrument and expedition as mutual payloads. Second, cross-calibration by rivals: Cook trusted no single device; K1, lunar distances, and Jupiter's satellites checked one another, and after three years K1 drifted only some eight miles. Third, environmental stress-testing: the instrument was carried into high latitudes, heavy humidity and violent temperature swings — real sea conditions, not a London drawing room. Fourth, institutionalized verdicts: trial results directly rewrote naval navigation practice, one trial upgrading the capability of an entire fleet. The mode stretches 'experiment' from the laboratory to the planet itself: the ocean is the test bench, the wake is the lab notebook.",
+   "source_chapter": "《朝着南极并环绕世界航行》(A Voyage Towards the South Pole and Round the World, 1777)；海军部经度委员会档案 (Board of Longitude Papers) / 库克在《朝着南极并环绕世界航行》中完整公开K1与月距法的逐日比对数据：'在如此漫长的航行中，表与天各自作证' (the watch and the heavens bore witness to each other through so long a passage)",
+   "key_concepts": [
+    "航海天文钟实战检验",
+    "多仪器交叉校准",
+    "环境极限测试",
+    "试验结论制度化"
+   ],
+   "process_zh": [
+    "明确待检对象：选定K1天文钟，连同对照方法（月距法）一同登船",
+    "指定随船检验员：天文专员威尔士逐日记录K1读数与天文定位的偏差",
+    "把检验嵌入最严苛航段：高纬冰海、赤道湿热、跨洋长航全部进入样本",
+    "以归档结论收束：误差数据公开出版，直接改写海军与商船的经度测定规程"
+   ],
+   "process_en": [
+    "Assign the device under test: embark Kendall's K1 with its rival method (lunar distances) for comparison",
+    "Appoint an onboard examiner: astronomer William Wales logs K1 readings against astronomical fixes daily",
+    "Embed the trial in the harshest legs: high-latitude ice, equatorial humidity, long ocean crossings all enter the sample",
+    "Close with an archived verdict: published error data directly rewrites longitude practice for navy and merchant fleets"
+   ],
+   "representative_cases_zh": [
+    "第二次航行（1772-1775）：K1天文钟随航三年，威尔士逐日对时，最终误差仅约8英里——钟表导航从此获得实战认证",
+    "金星凌日观测（1769）：在塔希提以谢尔顿精密钟计时凌日全程，把天体力学问题带到地球另一端实测",
+    "月距法并行使用：整个第二次航行期间天文钟与月距法互校，任一读数偏离即触发复核",
+    "反面警示：1780年代东印度公司为降低成本改用西印度酸橙汁替代地中海柠檬汁——同一'柑橘汁'标签下的有效成分骤降，1875年北极内斯远征队在足量配给'酸橙汁'下仍暴发坏血病。教训：检验结论不可脱离其检验条件迁移——库克认证的是具体装置与方法，不是标签。",
+    "反面警示：第二航行前班克斯提出远超船体承载的随行要求，迫使改装；库克拒绝迁就，班克斯退出，福斯特父子补位。教训：仪器/团队的检验载荷必须匹配载体能力，否则检验本身失败。",
+    "反面警示：K1过于精贵难以复制量产，海军长期未全面换装，月距法仍沿用数十年。教训：单点认证不等于体系替换——验证成功后还需可复制性与成本路径。"
+   ],
+   "representative_cases_en": [
+    "Second voyage (1772-75): the K1 sailed three years, Wales logged it daily, and final drift was only ~8 miles — chronometer navigation gained field certification",
+    "Transit of Venus (1769): at Tahiti, Shelton regulators timed the full transit, carrying celestial mechanics to the far side of the globe for ground truth",
+    "Lunar distances run in parallel: throughout the second voyage chronometer and lunar method cross-checked each other, any divergence triggering review",
+    "Cautionary: in the 1780s the East India Company switched from Mediterranean lemons to West Indian limes to cut cost — the same 'citrus juice' label with far less active principle, and the 1875 Nares Arctic expedition broke out in scurvy despite full rations of 'lime juice'. Lesson: validated conclusions do not migrate beyond their validation conditions — Cook certified a specific device and method, not a label.",
+    "Cautionary: before the second voyage Banks demanded accommodations beyond the ship's capacity, forcing refits; Cook refused to accommodate, Banks quit, and the Forsters filled in. Lesson: the trial payload must match the carrier's capacity, or the trial itself fails.",
+    "Cautionary: K1 was too precious to mass-produce; the Navy delayed full adoption and lunar distances persisted for decades. Lesson: single-point certification is not system replacement — validation success still needs a replicability and cost path."
+   ],
+   "modern_applications_zh": [
+    "新设备/新系统上线前先设'随船检验员'：把实测数据采集嵌入真实业务运行，而非实验室模拟",
+    "关键度量用两条独立路径交叉验证：仪表读数与方法算术互校，偏差即触发复核",
+    "在环境最恶劣的真实工况中采集性能样本，用极端数据建立可信边界"
+   ],
+   "modern_applications_en": [
+    "Before any new system goes live, embed a 'riding examiner': collect field data inside real operations, not lab simulations",
+    "Cross-validate critical measurements via two independent paths: instrument reading vs. analytic method, with divergence triggering review",
+    "Sample performance in the worst real conditions and set credibility boundaries from extreme-case data"
+   ],
+   "related_modes": [
+    "M-AE-008",
+    "M-AE-003",
+    "M-MV-002",
+    "M-XN-001"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "威廉·威尔士 (William Wales)",
+    "拉勒姆·肯德尔 (Larcum Kendall)",
+    "约翰·哈里森 (John Harrison)"
+   ],
+   "key_quote_zh": "'钟表匠能造出表，只有大洋能证明它走得准。'——库克式验证哲学",
+   "key_quote_en": "'The clockmaker can build the watch; only the ocean can prove it keeps time.' — the Cook school of validation"
+  },
+  {
+   "id": "M-AE-012",
+   "name_zh": "配给前置强制法",
+   "name_en": "The Preventive-Compulsion Method: Enforcing the Cure Before the Disease Is Understood",
+   "mode_code": "M-AE-012",
+   "category": "核心方法",
+   "domain_zh": "组织管理学/健康与纪律",
+   "domain_en": "Organizational Management / Health and Discipline",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "库克的元命题：当病因不明而手段有效时，正确答案不是等待病理学，而是以纪律强制执行有效手段——把'为什么有效'留给科学家，把'必须执行'留给船长。方法论签名有四：其一，多手段并行冗余——酸菜、麦芽汁、浓缩柑橘汁、鲜蔬补给、清洁通风同时上船，库克本人也不知道哪一种真正起效，但知道整套组合在起效；其二，强制执行高于说服——水手抵制酸菜，库克不让步也不辩解，而是只给军官供应、利用'军官看重的就是好东西'的从众心理让水手主动争食；其三，以结果归档——第一次航行无一人死于坏血病，方法写入《南极航行》论文并获皇家学会科普利奖章；其四，机制化推广——清洁、通风、饮食规程成为海军条令，个体经验升级为组织能力。这一模式与郑和'节律窗口'同构：都在'等待与配给'中建立纪律；但库克的独特处在于承认认知不完整仍然行动——执行先于理解。",
+   "definition_en": "Cook's master proposition: when the cause is unknown but the remedy works, the right answer is not to wait for pathology but to enforce the working remedy by discipline — leaving 'why it works' to scientists and 'it must be done' to the captain. Four signatures define the mode. First, redundant parallel measures: sauerkraut, malt wort, concentrated citrus, fresh greens at every landfall, cleanliness and ventilation all shipboard at once — Cook never knew which single lever worked, only that the combination did. Second, enforcement over persuasion: sailors rejected sauerkraut; Cook neither yielded nor argued — he served it to officers only, exploiting the crowd psychology that whatever officers value must be good, until sailors demanded it. Third, results as the record: not one death from scurvy on the first voyage; the method was published in the South Pole voyage account and won the Royal Society's Copley Medal. Fourth, mechanized rollout: cleanliness, ventilation, and diet regimens entered naval orders — individual experience upgraded to organizational capability. The mode is isomorphic with Zheng He's 'rhythm window': both build discipline inside waiting and rationing; Cook's distinctiveness is acting with acknowledged incomplete knowledge — execution before understanding.",
+   "source_chapter": "《朝着南极并环绕世界航行》第三章论船员健康 (On the Health of Mariners)；普林格尔1776年科普利奖章演讲 / 库克记录水手心理：'只要你以通常的方式给他们东西，他们就是不领情；可一旦看到长官们看中那样东西，立刻回心转意。'",
+   "key_concepts": [
+    "多手段冗余防御",
+    "强制执行高于说服",
+    "结果归档认证",
+    "机制化推广"
+   ],
+   "process_zh": [
+    "并行装载所有可能有效的手段，不因机理不明而取舍",
+    "以地位符号化解抵制：稀缺品先配军官，让从众心理替你完成说服",
+    "每个上岸窗口全力补给鲜蔬淡水，把航程切成一段段可恢复区间",
+    "以结果数据发表并推动成文化：从船长个人做法升级为海军条令"
+   ],
+   "process_en": [
+    "Load every plausibly effective measure in parallel; do not prune for want of a mechanism",
+    "Defuse resistance with status signals: scarce goods to officers first, letting conformity do the persuading",
+    "Use every landfall to restock fresh greens and water, slicing the voyage into recoverable segments",
+    "Publish the outcome data and push it into written doctrine: from a captain's habit to naval regulation"
+   ],
+   "representative_cases_zh": [
+    "第一次航行（1768-1771）：全程无一人死于坏血病，创航海史纪录，方法经普林格尔认证获科普利奖章",
+    "酸菜心理战：水手拒食，库克只供军官，一周内水手主动要求配给",
+    "第二次航行（1772-1775）：三年航行仅一人病亡（非坏血病），清洁通风规程再强化",
+    "反面警示：库克本人误信'清洁与酸菜'是主因而低估柑橘汁，其死后海军一度回摆；1780年代布兰推动全面柠檬汁配给才真正制度化。教训：'有效组合'若不持续做组分归因，认证结论会随权威去世而漂移。",
+    "反面警示：库克强制卫生措施极端严苛（强制淋浴、换洗、熏舱），在成果光环下无人质疑；纪律强制若无解释配套，团队成员长期处于服从而非认同状态，创造力岗位流失率上升。",
+    "反面警示：欧洲舰队普遍把坏血病归因于'血浊''忧郁'等错误理论，放血疗法反而加速死亡——错误机制下坚持执行，比不执行更致命。教训：执行纪律的前提是至少有一组结果数据支持，纯理论驱动的强制是灾难。"
+   ],
+   "representative_cases_en": [
+    "First voyage (1768-71): not a single death from scurvy — a record in maritime history — certified by Pringle's Copley Medal address",
+    "The sauerkraut gambit: sailors refused it; Cook served officers only, and within a week sailors demanded rations",
+    "Second voyage (1772-75): three years at sea with one death (not scurvy), with cleanliness and ventilation rules reinforced",
+    "Cautionary: Cook himself over-credited cleanliness and sauerkraut and under-credited citrus; after his death the Navy partially relapsed, and only Blane's push for full lemon-juice rations in the 1780s made it stick. Lesson: an 'effective combination' without ongoing component attribution drifts once its champion dies.",
+    "Cautionary: Cook's hygiene regime was extreme (enforced bathing, clothing changes, fumigation); under the halo of results no one questioned it. Discipline without explanation keeps people in compliance rather than commitment — attrition rises in creative roles.",
+    "Cautionary: European fleets widely attributed scurvy to 'bad blood' or 'melancholy' and bled patients — accelerating death. Persisting in enforcement under a wrong mechanism is deadlier than not enforcing. Lesson: enforcement discipline requires at least one stream of outcome data; purely theory-driven compulsion is catastrophe."
+   ],
+   "modern_applications_zh": [
+    "新规程推广遇阻时，先让组织内高地位人群可见地使用，利用地位信号带动采纳",
+    "病因不明的顽固问题（如慢性疲劳、Burnout）：并行部署多个低成本干预，用结果数据筛选，不等待完整机理",
+    "把个人有效经验成文为组织条令，配强制检查点，防止'教训被遗忘'"
+   ],
+   "modern_applications_en": [
+    "When a new protocol stalls, let high-status members use it visibly — status signals drive adoption",
+    "For stubborn problems with unknown causes (chronic fatigue, burnout): deploy several cheap interventions in parallel and let outcome data filter, without waiting for full mechanism",
+    "Codify individual wins into written doctrine with enforced checkpoints, so lessons are not forgotten"
+   ],
+   "related_modes": [
+    "M-AE-004",
+    "M-MV-009",
+    "M-MV-001",
+    "M-CW-001"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "詹姆斯·林德 (James Lind)",
+    "约翰·普林格尔 (John Pringle)",
+    "吉尔伯特·布兰 (Gilbert Blane)"
+   ],
+   "key_quote_zh": "'做对的事，比把事情做对更重要——哪怕你还不知道为什么它是对的。'",
+   "key_quote_en": "'Doing the right thing matters more than doing things right — even when you do not yet know why it is right.'"
+  },
+  {
+   "id": "M-AE-013",
+   "name_zh": "地图归零逼近法",
+   "name_en": "The Chart-to-Zero Method: Closing the Map by Sailing the Blank",
+   "mode_code": "M-AE-013",
+   "category": "核心方法",
+   "domain_zh": "测绘学/地理发现",
+   "domain_en": "Cartography / Geographical Discovery",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "库克的元命题：地图上的空白不是恐惧的对象而是工作队列——把'未知'变成一条可逐段关闭的测绘清单，每一段航程的产出不是故事而是坐标、水深与岸线。方法论签名有四：其一，双手测绘——库克亲自担任水文测量员，圣罗伦斯河与纽芬兰海图在战后仍被导航使用多年，'船长的第一技能是绘图'；其二，闭环判据——新西兰南北两岛环航一圈即证明其非南方大陆，东部澳大利亚海岸逐段测完即闭合一段空白，'闭合'是可核验的几何事实而非叙述；其三，误差公开——海图上标注未测区段与疑点，后继者按图索骥；其四，命名权与文档绑定——Botany Bay、Society Islands 等命名随海图与日志同步发布，知识产出即时可引用。这一模式把探索从'英雄叙事'改造为'工程进度管理'：空白地图是一张燃尽图，每次航程是一次迭代。",
+   "definition_en": "Cook's master proposition: a blank on the map is not an object of dread but a work queue — turning 'the unknown' into a survey checklist closed segment by segment, where each voyage's output is not a story but coordinates, soundings, and coastlines. Four signatures define the mode. First, the surveyor's hands: Cook served as his own hydrographer; his St. Lawrence and Newfoundland charts guided navigation for years after — the captain's first skill is charting. Second, closure as the criterion: one full circuit of New Zealand proved it no part of any southern continent; the eastern Australian coast, surveyed stretch by stretch, closed a blank segment — 'closure' is a verifiable geometric fact, not a narrative. Third, published uncertainty: unmeasured stretches and dubious points are marked on the chart for successors to pursue. Fourth, naming bound to documentation: Botany Bay, the Society Islands — names released with chart and journal together, knowledge products instantly citable. The mode converts exploration from heroic narrative into engineering progress management: the blank map is a burn-down chart, each voyage an iteration.",
+   "source_chapter": "《远征日志》与纽芬兰/圣罗伦斯河海图 (Cook's Journal and Newfoundland charts) / 库克给海军部的报告格式即方法：'本段海岸已测至此，以下为疑点与未测段清单。'",
+   "key_concepts": [
+    "空白即工作队列",
+    "几何闭环判据",
+    "误差公开标注",
+    "命名与文档绑定"
+   ],
+   "process_zh": [
+    "把未知区域编目为待测绘清单，按价值与风险排序航段",
+    "亲自掌握测绘技术，指挥链内形成'船长即首席测量员'的标准",
+    "以'是否闭合'作为阶段性验收：环航一圈、逐段测完，几何事实宣告完成",
+    "海图与日志同步发布，命名、坐标、疑点一并归档供后继者引用"
+   ],
+   "process_en": [
+    "Catalogue the unknown into a survey queue, sequencing legs by value and risk",
+    "Master the surveying craft personally, making 'captain as chief surveyor' a chain-of-command standard",
+    "Accept 'closure' as stage acceptance: one full circuit, one fully surveyed coast — geometric facts declare completion",
+    "Publish chart and journal together, archiving names, coordinates, and open questions for successors"
+   ],
+   "representative_cases_zh": [
+    "纽芬兰测量（1763-1767）：战后海岸测量精确到多年后仍是导航标准，奠定库克的职业声望",
+    "新西兰环航（1769-1770）：六个月闭环两岛海岸线，以几何事实终结'新西兰是大陆一角'假说",
+    "澳大利亚东海岸（1770）：2000英里海岸逐段测绘，穿越大堡礁后经托雷斯海峡归航，空白段全部闭合",
+    "反面警示：1770年6月努力号在大堡礁触礁——测绘再严谨，珊瑚礁的瞬息水文仍超出当时船载测深能力；靠涨潮与人工抛荷才脱险。教训：闭合判据必须包含安全余量与撤退预案，'测完'不等于'测准每一寸'。",
+    "反面警示：库克对澳大利亚宣布 terra nullius（无主地）——测绘意义上的'空白'被错误翻译为法律意义上的'无主'，原住民数万年居住被抹除，其恶果延续至今。教训：地图的闭合是物理事实，不能外推为政治与法律结论。",
+    "反面警示：黑滴效应使金星凌日观测精度不足，全球数据难以归算日地距离——库克式严谨也救不了测量原理本身的缺陷。教训：验收'闭合'前先审查测量原理的分辨率上限。"
+   ],
+   "representative_cases_en": [
+    "Newfoundland survey (1763-67): postwar coastal charts remained the navigation standard for years, founding Cook's professional reputation",
+    "Circumnavigating New Zealand (1769-70): six months closing both islands' coastlines, killing the 'continental peninsula' hypothesis by geometry",
+    "East Australian coast (1770): 2,000 miles surveyed stretch by stretch, threading the Great Barrier Reef and exiting via Torres Strait — every blank closed",
+    "Cautionary: in June 1770 the Endeavour struck the Great Barrier Reef — however rigorous the survey, the reef's shifting hydrography exceeded shipboard sounding capability; escape came by tides and lightened ship. Lesson: closure criteria must carry safety margins and retreat plans; 'surveyed' is not 'surveyed to the inch'.",
+    "Cautionary: Cook's voyage underwrote terra nullius in Australia — cartographic 'blank' mistranslated into legal 'ownerless', erasing tens of millennia of Aboriginal habitation, with consequences to this day. Lesson: a map's closure is a physical fact and must not be extrapolated into political or legal conclusions.",
+    "Cautionary: the black-drop effect degraded the transit observations; worldwide data could not resolve the solar parallax. Lesson: before accepting 'closure', audit the resolution ceiling of the measurement principle itself."
+   ],
+   "modern_applications_zh": [
+    "大型调研/尽调项目采用'空白清单+闭合判据'：交付物是几何式可核验的覆盖，而非叙事性报告",
+    "信息地图化：把组织知识盲区编目为测绘队列，每人负责一段，疑点显式标注而非掩盖",
+    "成果与文档同步绑定：命名、结论发布时附完整数据源，即时可引用"
+   ],
+   "modern_applications_en": [
+    "Run large research or due-diligence projects as 'blank checklist + closure criteria': the deliverable is verifiable geometric coverage, not a narrative report",
+    "Map knowledge: catalogue organizational blind spots as a survey queue with named owners, open questions marked rather than hidden",
+    "Bind findings to documentation at release: names and conclusions ship with full data sources, instantly citable"
+   ],
+   "related_modes": [
+    "M-AE-003",
+    "M-AE-008",
+    "M-MV-002",
+    "M-XN-001"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "悉尼·帕金森 (Sydney Parkinson)",
+    "约瑟夫·班克斯 (Joseph Banks)"
+   ],
+   "key_quote_zh": "'我不止要比前人走得更远，而是要尽人所能走到最远；但走到的每一处，都必须落在纸上。'",
+   "key_quote_en": "'I not only went farther than any man before me, but as far as I think it possible for man to go — and every place reached fell onto paper.'"
+  },
+  {
+   "id": "M-AE-014",
+   "name_zh": "假设负证明法",
+   "name_en": "The Negative-Proof Expedition: Killing a Legend by Sailing Its predicted Locations",
+   "mode_code": "M-AE-014",
+   "category": "核心方法",
+   "domain_zh": "科学方法论/假说检验",
+   "domain_en": "Scientific Methodology / Hypothesis Falsification",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "库克的元命题：对'南大陆'这类流行假说，最有力的处理不是找证据支持它，而是系统地驶过它预言的所有位置——用一次昂贵的航行完成一次决定性的否证。方法论签名有四：其一，把假说改写为可检验预言——'若南大陆存在，则在南纬某带应有陆地'，库克按纬度带做巨型之字形扫掠；其二，负结果同样归档——三次穿越南极圈、1774年抵达南纬71°10′，'无陆地'本身成为重大地理结论；其三，由此及彼的剩余推断——否证'旧南大陆'同时预言'南极冰障之后有陆地'，负证明产出新假设而非空无；其四，理论幻觉的公共清算——达林普等皇家学会权威的信念被一次行动裁决，'相信比怀疑容易'的惯性被打破。这一模式与麦哲伦'地理实存证明'互补：麦哲伦以'至'证有，库克以'遍历'证无——正证与负证是同一工程学的两半。",
+   "definition_en": "Cook's master proposition: for a fashionable hypothesis like the southern continent, the strongest move is not to gather supporting evidence but to sail systematically across every location it predicts — spending one expensive voyage to buy one decisive falsification. Four signatures define the mode. First, rewrite the hypothesis as a testable prediction: 'if Terra Australis exists, land should lie along such latitudes' — and sweep those latitudes in vast zigzags. Second, negative results archived as findings: three crossings of the Antarctic Circle and a record 71°10′ S in 1774 made 'no land' itself a major geographical conclusion. Third, the onward inference: falsifying the old continent simultaneously predicted land beyond the ice barrier — negative proof outputs a new hypothesis, not an empty set. Fourth, public settlement of a theoretical mirage: the convictions of Royal Society authorities like Dalrymple were adjudicated by a single act of sailing, breaking the inertia that believing is easier than doubting. The mode complements Magellan's proof-by-arrival: Magellan proves existence by reaching, Cook proves absence by traversing — positive and negative proof are two halves of the same engineering.",
+   "source_chapter": "《朝着南极并环绕世界航行》(1777)；亚历山大·达林普《南太平洋航程史汇》(1770-1771) / 福斯特在航程记录中写道：'库克船长完成了对南大陆幻觉的公共葬礼。'",
+   "key_concepts": [
+    "假说改写为预言",
+    "负结果归档",
+    "剩余推断产出新假设",
+    "理论幻觉公共清算"
+   ],
+   "process_zh": [
+    "把流行假说翻译为一条可检验的空间预言（在哪、应有何物）",
+    "设计遍历式扫掠航线，让'不存在'成为采样充分的结论而非疏漏",
+    "把负结果作为正式发现归档发表，并从中提炼剩余推断",
+    "以行动裁决学术权威的悬置争论，终结资源在幻觉方向上的持续消耗"
+   ],
+   "process_en": [
+    "Translate the popular hypothesis into one testable spatial prediction (where, and what should be there)",
+    "Design an exhaustive sweep so 'absence' becomes a well-sampled conclusion, not an oversight",
+    "Archive and publish the negative result as a formal finding, distilling its onward inference",
+    "Settle suspended academic disputes by action, ending continued resource drain toward a mirage"
+   ],
+   "representative_cases_zh": [
+    "第二次航行（1772-1775）：巨型之字形扫掠南太平洋，三次穿越南极圈，证明旧南大陆为神话",
+    "南纬71°10′（1774年2月）：18世纪航海家的极南纪录，冰障之外'或有陆地'的预言日后由别林斯高晋实现",
+    "新西兰环航（1769-1770）：以环绕一圈证明其非任何大陆之一部，同一方法的先导演练",
+    "反面警示：第三次航行寻找西北航道以失败告终——北美大陆北缘不存在可航通道本身是正确的负证明，但库克为此支付的代价包括自己的生命；负证明的成本上限必须预先设定。",
+    "反面警示：'无陆地'结论依赖当时船只的冰海生存能力；若在更南的纬度船舶失事，负证明会被误读为'证据不足'而非'假设为假'——负证明的说服力受限于遍历的物理可达域。",
+    "反面警示：库克对'南方大陆'的否证常被叙述为个人天才的胜利，掩盖了达林普等人的数据整理工作——负证明的功劳结构容易遮蔽假说提出者与反例收集者的贡献。"
+   ],
+   "representative_cases_en": [
+    "Second voyage (1772-75): vast zigzag sweeps of the South Pacific, three Antarctic Circle crossings — the old Terra Australis proved myth",
+    "71°10′ S (February 1774): the eighteenth century's southern record, with the 'land beyond the ice' prediction later fulfilled by Bellingshausen",
+    "New Zealand circuit (1769-70): one enclosing loop proved it no part of any continent — a rehearsal of the same method",
+    "Cautionary: the third voyage's Northwest Passage search failed — 'no navigable passage' was the correct negative proof, but the price included Cook's own life; the cost ceiling of falsification must be set in advance.",
+    "Cautionary: the 'no land' conclusion depended on contemporary ice-sea survivability; a shipwreck further south would have been misread as 'insufficient evidence' rather than 'hypothesis false' — negative proof's persuasiveness is bounded by the physically reachable domain.",
+    "Cautionary: Cook's falsification of Terra Australis is often narrated as a lone-genius victory, obscuring Dalrymple's data compilation — negative-proof credit structures tend to erase the hypothesis-makers and counterexample collectors."
+   ],
+   "modern_applications_zh": [
+    "技术选型中对流行方案做'负证明'：系统测试其预言的全部适用场景，负结果同样写入决策档案",
+    "战略规划中把行业迷思（'市场必然存在'）改写为可遍历的检验清单，用一次尽调终结争论",
+    "否证之后必须产出剩余推断：旧假设死了，新假设是什么，写进下一轮计划"
+   ],
+   "modern_applications_en": [
+    "For fashionable solutions, run a negative proof: test every scenario they predict and archive negative results in the decision record",
+    "In strategy, rewrite industry myths ('the market must exist') into traversable checklists, settling debate with one due-diligence pass",
+    "Every falsification must output its onward inference: the old hypothesis dies — what is the new one? Write it into the next plan"
+   ],
+   "related_modes": [
+    "M-AE-008",
+    "M-AE-003",
+    "M-DKR-001",
+    "M-SMQ-327"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "亚历山大·达林普 (Alexander Dalrymple)",
+    "约翰·雷因霍尔德·福斯特 (J. R. Forster)"
+   ],
+   "key_quote_zh": "'我驶过了它预言的每一个位置——南大陆不在那里，这就是发现。'",
+   "key_quote_en": "'I sailed over every place it predicted — the southern continent is not there, and that is the discovery.'"
+  },
+  {
+   "id": "M-AE-015",
+   "name_zh": "科考随行建制法",
+   "name_en": "The Science-Party Doctrine: Making Research a Standing Branch of Operations",
+   "mode_code": "M-AE-015",
+   "category": "核心方法",
+   "domain_zh": "科学组织/跨界团队设计",
+   "domain_en": "Organization of Science / Cross-Disciplinary Team Design",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "库克的元命题：把科学家变成行动的常设编制而非临时访客——探索船的甲板上同时运行海军纪律与学术议程，两条线共享同一次航行的成本。方法论签名有四：其一，身份并置——班克斯（自费）、索兰德、帕金森、福斯特父子、天文专员威尔士与舰上军官同吃同住同险，产出从动植物标本到人种志记录；其二，双任务书——皇家学会的观测任务与海军部的探索任务写在同一份命令里，金星凌日与南方大陆互为掩护与借口；其三，成果结构化——首次航行带回约100个新植物科、1000个新种与巨量博物学藏品，'船上建实验室'成为可复制范式（此后小猎犬号沿袭）；其四，预算分摊——科学载荷由学会或富人自费，海军出船出人，风险与成果的合约结构清晰。这一模式把麦哲伦的'亲历笔录'（单人随行记录者）升级为整个科学建制随行——记录者从一个人变成一个学科。",
+   "definition_en": "Cook's master proposition: make scientists a standing branch of operations, not temporary visitors — running naval discipline and an academic agenda on the same deck, both lines sharing one voyage's costs. Four signatures define the mode. First, identity juxtaposition: Banks (self-funded), Solander, Parkinson, the Forsters, and astronomer Wales shared mess, risk, and quarterdeck with naval officers, producing everything from botanical specimens to ethnographic records. Second, the dual charter: the Royal Society's observation task and the Admiralty's exploration task written into one set of orders — the Venus transit and the southern continent as mutual cover and excuse. Third, structured output: the first voyage returned some 100 new plant families, 1,000 new species, and vast natural-history collections — 'a laboratory aboard' became a replicable template (later inherited by the Beagle). Fourth, shared budget: science payloads funded by the Society or private wealth, ships and men by the Navy — a clean contract structure of risk and output. The mode upgrades Magellan's lone eyewitness-scribe into an entire scientific establishment under sail: the recorder grows from one man into a discipline.",
+   "source_chapter": "《努力号日志》；班克斯《塔希提日志》；皇家学会1768年委托文件 / 库克在日志中记班克斯团队：'他们收集标本的狂热，与水手收帆的技艺，是同一条船上并行的两种纪律。'",
+   "key_concepts": [
+    "科学家常设编制",
+    "双任务书",
+    "成果结构化",
+    "风险与成果分配合约"
+   ],
+   "process_zh": [
+    "把学术任务写进行动命令：与军事/商业目标并列、互为掩护与正当性来源",
+    "科学家与行动者同建制同风险：同吃住、同航程、不设特权仓",
+    "成果结构化回收：标本、图表、日志、绘画分类归档，随航程节点逐批整理",
+    "预算分摊结构显性化：谁出钱、谁出船、成果归谁，启航前落纸"
+   ],
+   "process_en": [
+    "Write the academic task into the operational orders: parallel to military or commercial goals, mutual cover and legitimacy",
+    "Put scientists on the same footing as operators: shared mess, shared voyage, no privileged cabin",
+    "Structure the output recovery: specimens, charts, journals, and drawings archived in classes, batch-processed at voyage milestones",
+    "Make the funding split explicit: who pays money, who pays ships, who owns outputs — on paper before departure"
+   ],
+   "representative_cases_zh": [
+    "第一次航行（1768-1771）：班克斯自费带七人科学团，带回约100新科/1000新种标本，博塔尼湾因采集规模命名",
+    "金星凌日任务与南大陆探索写在同一命令中：科学观测为海军行动提供了公开的正当性叙事",
+    "第二航行福斯特父子随行：标本+人种志+艺术（霍奇斯绘画）多轨产出，奠定太平洋民族志基础",
+    "反面警示：班克斯与福斯特都曾与舰上军官发生地位冲突（班克斯要求超规格舱位被拒后退出第二航行；福斯特父子与军官长期不和）——科学建制随行的最大内耗是身份与话语权之争。教训：双编制必须预先谈判礼仪与决策权边界。",
+    "反面警示：随行艺术家帕金森死于巴达维亚，其植物画作未署名出版引发长期版权争议——成果归属未在启航前落纸，贡献者权益随死亡蒸发。教训：成果合约必须覆盖'成员死亡'情形。",
+    "反面警示：第一次航行结束后班克斯名声盖过库克，学界一度只记得'班克斯的航行'——科学光环可能吞没行动指挥者的贡献。教训：双任务书需要配套的贡献署名结构。"
+   ],
+   "representative_cases_en": [
+    "First voyage (1768-71): Banks self-funded a seven-man science party returning ~100 new families and 1,000 new species; Botany Bay named for the haul",
+    "Transit observation and southern-continent search in one set of orders: the scientific observation gave the naval operation its public legitimacy narrative",
+    "Second voyage with the Forsters: specimens, ethnography, and Hodges' art on multiple tracks, laying Pacific ethnography's foundations",
+    "Cautionary: both Banks and the Forsters clashed with naval officers over status (Banks demanded quarters beyond the ship's capacity and quit the second voyage; the Forsters feuded with officers throughout) — the greatest internal friction of a science-party is the battle over identity and voice. Lesson: negotiate etiquette and decision boundaries between the two branches before embarkation.",
+    "Cautionary: the artist Sydney Parkinson died in Batavia and his unpublished botanical drawings sparked long copyright disputes — output ownership never put on paper before departure evaporates with the contributor. Lesson: output contracts must cover member death.",
+    "Cautionary: after the first voyage Banks's fame eclipsed Cook's; learned society talk ran to 'Banks's voyage' — the scientific halo can swallow the operator's contribution. Lesson: a dual charter needs a matching attribution structure."
+   ],
+   "modern_applications_zh": [
+    "企业出海/极地科考/深海项目采用'双任务书'：商业目标与科研目标并列，成本共担成果分账",
+    "把领域专家编入行动团队编制而非外部顾问：同风险同节奏，产出结构化归档",
+    "大型工程（航天、基建）搭载科学载荷：主任务与副任务互为掩护，副产品价值经常超过主任务"
+   ],
+   "modern_applications_en": [
+    "Adopt a 'dual charter' for overseas ventures, polar or deep-sea programs: commercial and scientific goals in parallel, costs shared, outputs split",
+    "Embed domain experts into the operating team rather than as external consultants: shared risk, shared cadence, structured archival output",
+    "Carry science payloads on major engineering (space, infrastructure): primary and secondary tasks as mutual cover — byproducts often outvalue the mission"
+   ],
+   "related_modes": [
+    "M-AE-006",
+    "M-AE-011",
+    "M-MV-005",
+    "M-XN-006"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "约瑟夫·班克斯 (Joseph Banks)",
+    "丹尼尔·索兰德 (Daniel Solander)",
+    "约翰·雷因霍尔德·福斯特 (J. R. Forster)"
+   ],
+   "key_quote_zh": "'一次航行的成本，买回两门学问的进度。'",
+   "key_quote_en": "'The cost of one voyage buys the progress of two disciplines.'"
+  },
+  {
+   "id": "M-AE-016",
+   "name_zh": "图帕亚知识接口法",
+   "name_en": "The Tupaia Interface: Borrowing the Local Epistemics to Navigate the Local",
+   "mode_code": "M-AE-016",
+   "category": "核心方法",
+   "domain_zh": "跨文化协作/知识中介",
+   "domain_en": "Cross-Cultural Collaboration / Indigenous Knowledge Interfaces",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "库克的元命题：进入陌生海域，第一件装备不是新海图而是一个本地知识接口——把波利尼西亚领航员图帕亚请上船，让'不知道路'变成'知道谁知道路'。方法论签名有四：其一，接口即网络——图帕亚通晓社 会群岛数百个岛屿的名称、方位与季风航法，他的记忆就是一张活海图，且能以波利尼西亚通用语与沿途各岛对话；其二，双向翻译——图帕亚既替库克导航，也向毛利人解释英国人的来意，两次充当跨文明谈判的缓冲层；其三，知识对等记录——图帕亚绘制的岛屿方位图与库克的测绘图同档保存，班克斯详细记录其口述，本地知识与欧洲知识以同等地位入档；其四，接口失效的边界——图帕亚于1770年死于巴达维亚，且其知识无法覆盖新西兰以南，库克随即退回纯仪器导航——接口是增强而非替代。这一模式与麦哲伦'经验混编'同源，但更进一步：不只混编船员技能，而是把本地知识体系本身作为航行资产收编。",
+   "definition_en": "Cook's master proposition: entering strange waters, the first piece of equipment is not a new chart but a local knowledge interface — bringing the Polynesian navigator Tupaia aboard, converting 'we don't know the way' into 'we know who knows the way.' Four signatures define the mode. First, the interface is a network: Tupaia knew the names, bearings, and monsoon sailing directions of hundreds of Society Islands — his memory was a living chart, and he could speak the pan-Polynesian lingua franca at every landfall. Second, two-way translation: Tupaia navigated for Cook and explained the British to the Maori, twice serving as the buffer layer of cross-civilizational negotiation. Third, knowledge recorded as equal: Tupaia's island-bearing chart and Cook's survey charts were archived together, Banks transcribing his dictation — local and European knowledge entering the record on equal footing. Fourth, the interface's failure boundary: Tupaia died in Batavia in 1770, and his knowledge did not extend south of New Zealand; Cook fell back on pure instrument navigation — the interface augments, never replaces. The mode shares roots with Magellan's mixed crew but goes further: not merely mixing crew skills but enlisting a local knowledge system itself as a sailing asset.",
+   "source_chapter": "《努力号日志》；班克斯日志中图帕亚口述记录；图帕亚岛屿方位图（大英图书馆藏） / 班克斯记录图帕亚自述：'我知道的岛屿，比你们所有海图加起来还多。'",
+   "key_concepts": [
+    "本地知识接口",
+    "双向翻译缓冲",
+    "知识对等入档",
+    "接口失效边界"
+   ],
+   "process_zh": [
+    "登船前先盘点'谁知道路'：识别可收编的本地知识体系及其覆盖半径",
+    "给接口配置双向职能：既导出本地知识，也向本地解释外来者意图",
+    "以同等地位归档本地知识与外部知识，口述与测绘同档互证",
+    "明确接口的能力边界，失效时自动降级到仪器与方法冗余"
+   ],
+   "process_en": [
+    "Before boarding, inventory 'who knows the way': identify local knowledge systems and their coverage radius",
+    "Give the interface two-way duties: export local knowledge, and explain the visitors to the locals",
+    "Archive local and external knowledge as equals: oral charts and survey charts co-verified",
+    "Mark the interface's competence boundary; on failure degrade automatically to instruments and method redundancy"
+   ],
+   "representative_cases_zh": [
+    "图帕亚随航（1769-1770）：从赖阿特阿亚到新西兰，为努力号提供社 会群岛间航法，并向毛利人传译，或解了多次登陆危机",
+    "图帕亚方位图：口述岛屿方位与距离给欧洲人记录，成为波利尼西亚航海知识的珍贵档案",
+    "图帕亚死后（1770）：库克转回纯仪器导航完成东澳测绘——接口损失未导致任务失败",
+    "反面警示：图帕亚于1770年12月死于巴达维亚疫病，其大部分知识未及系统整理即失传——接口的全部价值系于一人性命，无备份即无资产。教训：关键知识接口必须并行文档化，不能只活在'活海图'身上。",
+    "反面警示：图帕亚在澳大利亚向会话完全不通的原住民传译失败，库克与原住民关系始终紧张——接口的语言覆盖范围不等于文明互解能力。教训：接口能力有地理与文化边界，不可外推。",
+    "反面警示：欧洲史料中图帕亚长期被记为'班克斯的仆人'，其领航贡献两个世纪后才被重估——知识接口的署名与地位若不显式保障，贡献会被接收方叙事吞没。"
+   ],
+   "representative_cases_en": [
+    "Tupaia aboard (1769-70): from Raiatea to New Zealand, sailing directions across the Society Islands and interpretation with the Maori defused landing crises",
+    "Tupaia's chart: island bearings dictated to European recorders — a precious archive of Polynesian navigational knowledge",
+    "After Tupaia's death (1770): Cook reverted to pure instrument navigation to finish the east-Australian survey — the loss of the interface failed no mission",
+    "Cautionary: Tupaia died of the Batavia epidemics in December 1770, most of his knowledge lost before systematic transcription — an interface's whole value hung on one life, and without backup there is no asset. Lesson: key knowledge interfaces must be documented in parallel, never left living only in a 'living chart'.",
+    "Cautionary: in Australia Tupaia's interpretation failed against mutually unintelligible languages, and Cook's relations with Aboriginal people stayed tense — an interface's language coverage is not civilizational comprehension. Lesson: interface competence has geographic and cultural bounds; do not extrapolate.",
+    "Cautionary: European records long filed Tupaia as 'Banks's servant'; his navigational contribution was revalued only two centuries later — without explicit status guarantees, the interface's credit is swallowed by the receiver's narrative."
+   ],
+   "modern_applications_zh": [
+    "进入新市场/新领域先配置'图帕亚接口'：本地顾问的覆盖半径、翻译职能与失效预案写入合作条款",
+    "跨文化项目设双向翻译岗：既向内解释本地规则，也向本地解释组织意图，缓冲层不可省略",
+    "本地知识与外部方法论对等入档，口述经验正式归档为组织资产"
+   ],
+   "modern_applications_en": [
+    "Entering a new market or domain, first hire a 'Tupaia interface': local advisor's coverage radius, translation duties, and failure plan written into the terms",
+    "Staff a two-way translation role in cross-cultural projects: explaining local rules inward and organizational intent outward — the buffer is not optional",
+    "Archive local knowledge as equal to external methodology, formally codifying oral expertise as organizational assets"
+   ],
+   "related_modes": [
+    "M-AE-002",
+    "M-AE-015",
+    "M-MV-005",
+    "M-AE-013"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "图帕亚 (Tupaia)",
+    "约瑟夫·班克斯 (Joseph Banks)"
+   ],
+   "key_quote_zh": "'最好的海图，有时是一位活人的记忆。'",
+   "key_quote_en": "'The best chart is sometimes the memory of a living man.'"
+  },
+  {
+   "id": "M-AE-017",
+   "name_zh": "上岸窗口节律法",
+   "name_en": "The Landfall-Rhythm Method: Breaking a Long Siege into Recoverable Segments",
+   "mode_code": "M-AE-017",
+   "category": "核心方法",
+   "domain_zh": "运营管理/资源节律",
+   "domain_en": "Operations Management / Sustenance Rhythm",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "库克的元命题：长程行动的耐力不来自意志而来自节律——把漫长的海上消耗切成一个个'上岸窗口'，每窗口强制完成物资、健康与士气的三重恢复。方法论签名有四：其一，窗口即检查点——每到一地即执行固定清单：淡水、鲜蔬、木柴、修船、天象观测，节律化到接近仪式；其二，健康是节律函数——'抓住每个靠岸机会获取新鲜食物'与船上持续执行的酸菜麦芽汁并行，靠岸节律成为防病体系的一半；其三，观测机会最大化——塔希提设天文台、新西兰逐岛测绘，每个窗口同时服务于科学任务；其四，窗口亦有风险——巴达维亚窗口带来疫病，30余人死于登岸后的'恢复'，窗口选择本身是风险管理。这一模式与郑和'节律窗口'同构而更微操作化：郑和以季风定节律，库克以恢复需求定节律——前者宏观排程，后者微观补给。",
+   "definition_en": "Cook's master proposition: endurance in a long operation comes not from willpower but from rhythm — slicing prolonged attrition into 'landfall windows', each one compelled to deliver triple recovery of provisions, health, and morale. Four signatures define the mode. First, the window as checkpoint: at every landfall a fixed checklist ran — water, fresh greens, firewood, ship repair, sky observation — rhythmic almost to ritual. Second, health as a function of rhythm: seizing every landfall for fresh food ran parallel to the shipboard sauerkraut-and-wort regime; the rhythm of landfalls was half the anti-scorbutic system. Third, maximizing observation: the Tahiti observatory and island-by-island New Zealand survey meant every window also served the scientific task. Fourth, windows carry risk too: the Batavia window brought epidemic, over thirty dying from the 'recovery' itself — window selection is risk management. The mode is isomorphic with Zheng He's rhythm window but micro-operational: Zheng He set rhythm by monsoon, Cook by recovery need — the former macro-scheduling, the latter micro-provisioning.",
+   "source_chapter": "《努力号日志》各靠岸港记录；《朝着南极并环绕世界航行》健康章 / 库克的靠岸清单几乎是仪式性的：'到岸第一日：水、蔬、柴；第二日：观测；第三日：修船。'",
+   "key_concepts": [
+    "上岸窗口检查点",
+    "健康节律函数",
+    "观测机会最大化",
+    "窗口风险管理"
+   ],
+   "process_zh": [
+    "把长程任务切分为固定节律的恢复窗口，每窗口绑定强制清单",
+    "健康与士气指标纳入窗口验收：物资、病员、心理三项逐项核销",
+    "窗口同时排入任务产出：观测、测绘、标本采集与补给并行",
+    "对窗口本身做风险评估：恢复地的疫病、政治、补给可靠性逐项打分"
+   ],
+   "process_en": [
+    "Slice long operations into rhythmically fixed recovery windows, each bound to a mandatory checklist",
+    "Fold health and morale into window acceptance: provisions, sick list, and psychology checked off one by one",
+    "Queue task outputs into every window: observation, survey, specimen work run parallel with provisioning",
+    "Risk-score the windows themselves: disease, politics, and supply reliability of each recovery port"
+   ],
+   "representative_cases_zh": [
+    "塔希提窗口（1769）：设维纳斯堡天文台完成金星凌日观测，同时补给与休整，一窗口三产出",
+    "各岛逐站补给（1769-1770）：新西兰海岸测绘与鲜蔬淡水补给逐段交替，船员健康贯穿全程",
+    "巴达维亚窗口（1770）：致命反例——疫病击垮船队，30余人死于'恢复地'，库克此后高度警惕恢复地卫生",
+    "反面警示：巴达维亚（1770）——为修船进入疫病港口，超过30人死于痢疾与伤寒，包括天文学家格林、艺术家帕金森等科学团核心。教训：恢复窗口的选择错误可以吞掉整个行动的人才投资。",
+    "反面警示：库克在部分岛屿因补给需求过急而采取得罪当地人的行动（如新西兰毛利人冲突中的武力使用）——窗口压力可能诱发短视行为，损害长期关系资产。教训：窗口清单需包含'关系维护'项。",
+    "反面警示：第三次航行白令海峡受阻后折返夏威夷过冬，恰逢节律之外的非计划窗口，补给紧张与关系恶化叠加导致库克之死。教训：节律外的被迫窗口风险最高，须预留缓冲资源。"
+   ],
+   "representative_cases_en": [
+    "The Tahiti window (1769): Fort Venus observatory completed the transit while the ship provisioned and rested — one window, three outputs",
+    "Island-by-island provisioning (1769-70): New Zealand survey and fresh-food resupply alternated segment by segment, crew health held throughout",
+    "The Batavia window (1770): the fatal counterexample — epidemic felled the fleet, thirty-plus dead in the 'recovery port'; Cook henceforth wary of port hygiene",
+    "Cautionary: Batavia (1770) — entering a disease port for ship repair, thirty-plus died of dysentery and typhus, including astronomer Green and artist Parkinson, the science party's core. Lesson: a wrongly chosen recovery window can swallow the operation's whole talent investment.",
+    "Cautionary: at some islands Cook's urgency for provisions bred offenses against locals (armed clashes with Maori among them) — window pressure can trigger short-sighted acts that damage long-term relationship assets. Lesson: the window checklist must include a 'relationship maintenance' item.",
+    "Cautionary: blocked at Bering Strait on the third voyage, Cook wintered in Hawaii — an off-rhythm, unplanned window where tight provisioning and souring relations compounded into his death. Lesson: forced off-rhythm windows are the riskiest; buffer resources must be reserved."
+   ],
+   "modern_applications_zh": [
+    "长期项目设置强制恢复节律：每N周一个检查点，物资、健康、士气三项清单核销，不因进度压力跳过",
+    "出差/外派人员按'上岸窗口'管理：恢复节点与任务节点合排，防止慢性消耗",
+    "恢复节点本身要做风险评估： Choosing the wrong 'safe harbor' can be deadlier than the open sea"
+   ],
+   "modern_applications_en": [
+    "Impose mandatory recovery rhythm on long projects: a checkpoint every N weeks with provisions-health-morale checklists, never skipped under schedule pressure",
+    "Manage expatriates by landfall windows: recovery nodes co-scheduled with task nodes to prevent chronic attrition",
+    "Risk-assess the recovery nodes themselves: the wrong 'safe harbor' can be deadlier than open sea"
+   ],
+   "related_modes": [
+    "M-AE-004",
+    "M-AE-012",
+    "M-MV-009",
+    "M-AE-003"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "约瑟夫·班克斯 (Joseph Banks)"
+   ],
+   "key_quote_zh": "'海上的每一天都在消耗，岸上的每一天都必须偿还。'",
+   "key_quote_en": "'Every day at sea spends; every day ashore must repay.'"
+  },
+  {
+   "id": "M-AE-018",
+   "name_zh": "身份符号管理法",
+   "name_en": "The Status-Symbol Method: Managing the Symbolic Weight of the Visitor",
+   "mode_code": "M-AE-018",
+   "category": "核心方法",
+   "domain_zh": "外交学/跨文化符号",
+   "domain_en": "Diplomacy / Cross-Cultural Symbol Management",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "库克的元命题：外来者的身份不由自己宣告而由对方的符号系统解读——管理好自己被解读成的那个符号，比管理自己的真实意图更决定生死。方法论签名有四：其一，符号入乡随俗——库克在夏威夷受隆诺祭司引导入希基亚乌神庙、被欢呼为'隆诺'，他接受了祭司系统赋予的仪式地位；其二，符号有季节——马卡希基节（和平丰产）期间他是'隆诺'，战神库的季节回归后符号已过期，他却带着破损的主桅回到同一海湾；其三，符号透支——祭司的礼遇与平民的 metals 需求错位，铁器贸易的通胀侵蚀特权，偷窃与鞭刑循环升级；其四，误判的代价——1779年2月14日库克试图绑架卡拉尼奥普乌为人质，把一个神圣首领当作可以武力扣押的'当地人'处理，符号误读直接致命。这一模式与郑和'仪式秩序替代'互为镜像：郑和主动经营符号，库克被动接受符号——接受而不经营者，终被符号反噬。",
+   "definition_en": "Cook's master proposition: the visitor's identity is not declared by himself but read through the other side's symbol system — managing the symbol you are read as matters more to survival than managing your true intent. Four signatures define the mode. First, symbolic custom: led by Lono priests into the Hikiau temple and hailed as 'Lono', Cook accepted the ritual status the priestly system conferred. Second, symbols have seasons: during Makahiki (peace and plenty) he was Lono; after the war-god Ku's season returned the symbol had expired — yet he re-entered the same bay with a broken mainmast. Third, symbolic overdraft: the priests' honors sat ill with commoners' metal hunger; iron-trade inflation eroded privilege, theft and flogging escalating in cycles. Fourth, the price of misreading: on 14 February 1779 Cook tried to seize Kalani'opu'u as hostage, treating a sacred paramount chief as a detainer 'native' — the symbolic misreading killed him outright. The mode mirrors Zheng He's ritual-order substitution: Zheng He curated symbols actively; Cook received them passively — and the unmanaged symbol ends by devouring its bearer.",
+   "source_chapter": "《第三次航行记录》(Cook and King, 1784)；萨林斯-奥贝赛克拉之争 (Sahlins-Obeyesekere debate, 1985-1995) / 克利克牧师日记记录：'祭司在库克前面开道，宣告奥罗诺（隆诺）已登陆，命众人伏地。'",
+   "key_concepts": [
+    "符号入乡随俗",
+    "符号的季节性",
+    "符号透支与通胀",
+    "符号误判的致命性"
+   ],
+   "process_zh": [
+    "入场时识别对方符号系统给自己的位置，并决定接受/修正/回避",
+    "标记符号的有效期：节令、政治周期、资源行情都会让符号过期",
+    "监测符号的通货膨胀：礼遇被滥用、物质需求攀升时提前止损",
+    "永远不为'过期符号'加注：识别误判苗头时立即降级自己的行为模式"
+   ],
+   "process_en": [
+    "On entry, identify where the other's symbol system places you, and decide to accept, correct, or decline the slot",
+    "Tag the symbol's expiry: seasons, political cycles, and market moods all age symbols",
+    "Monitor symbolic inflation: when honors are abused and material demands climb, cut losses early",
+    "Never double down on an expired symbol: at the first sign of misreading, downgrade your own behavior mode"
+   ],
+   "representative_cases_zh": [
+    "马卡希基季节（1779年1月）：库克被祭司引为'隆诺'受万人俯拜，物资补给畅通无阻",
+    "符号季节更替（2月初）：战神库季节开始，氛围转变，偷窃与摩擦上升，库克未显著调整行为",
+    "2月14日事件：绑架人质策略触发致命冲突，库克与4名陆战队员、17名夏威夷人死亡——符号误判的终局",
+    "反面警示：'库克被奉为神'的叙事本身可能是欧洲中心神话——奥贝赛克拉指出夏威夷人未必视其为神，或只是视作名为隆诺的首领；胜利者档案中的符号解读需做殖民偏差校正。教训：符号管理研究必须校验记录者立场。",
+    "反面警示：库克此前在汤加、塔希提已有绑架首领换赃物的'成功'先例——路径依赖让他在夏威夷重复一个此前险些失控的策略。教训：符号策略的成功案例会掩盖其结构性风险。",
+    "反面警示：萨林斯与奥贝赛克拉的学术争论持续十年、几成门户对立——对同一符号事件的解读分歧本身说明符号的不可复原性，档案重建永远低于现场确定性。"
+   ],
+   "representative_cases_en": [
+    "The Makahiki season (January 1779): priests inducted Cook as 'Lono' before prostrating crowds, provisioning ran unimpeded",
+    "Symbolic season change (early February): the season of Ku opened, atmosphere shifted, theft and friction climbed — Cook's behavior did not visibly adjust",
+    "14 February: the hostage gambit triggered the lethal clash — Cook, four marines, and seventeen Hawaiians dead, the terminus of symbolic misreading",
+    "Cautionary: the 'Cook was worshipped as a god' narrative may itself be a European-centric myth — Obeyesekere argued Hawaiians need not have seen a god, perhaps only a chief named Lono; symbolic readings in the victors' archives demand colonial-bias correction. Lesson: symbol-management research must audit the recorder's standpoint.",
+    "Cautionary: Cook had 'successful' precedents of seizing chiefs for stolen goods in Tonga and Tahiti — path dependence made him repeat in Hawaii a strategy that had nearly failed before. Lesson: successful cases of symbolic strategy conceal its structural risk.",
+    "Cautionary: the Sahlins-Obeyesekere controversy ran a decade into near-schismatic opposition — that one symbolic event splits scholarly readings proves symbols are irrecoverable; archival reconstruction never reaches field certainty."
+   ],
+   "modern_applications_zh": [
+    "跨国高管空降新市场时管理'被解读成的身份'：当地赋予的仪式地位有节令与政治周期，过期前主动退场或重新定位",
+    "品牌出海识别符号通胀：'洋品牌'溢价随本地替代品成熟而衰减，须在衰减前完成价值重锚",
+    "谈判者识别对方符号系统中的季节：同一个头衔在预算周期与政治周期中价值完全不同"
+   ],
+   "modern_applications_en": [
+    "Expatriate executives must manage the identity they are read as: locally conferred ritual status has seasons and political cycles — reposition or exit before expiry",
+    "Brand builders should watch symbolic inflation: the 'foreign brand' premium decays as local alternatives mature; re-anchor value before the decay",
+    "Negotiators must read the seasons in the other side's symbol system: the same title is worth entirely different things across budget and political cycles"
+   ],
+   "related_modes": [
+    "M-AE-016",
+    "M-AE-015",
+    "M-MV-008",
+    "M-AE-005"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "卡拉尼奥普乌 (Kalani'opu'u)",
+    "萨林斯 (Marshall Sahlins)",
+    "奥贝赛克拉 (Gananath Obeyesekere)"
+   ],
+   "key_quote_zh": "'他不是死于武器落后，而是死于符号过期。'",
+   "key_quote_en": "'He did not die of inferior weapons; he died of an expired symbol.'"
+  },
+  {
+   "id": "M-AE-019",
+   "name_zh": "双船冗余编队法",
+   "name_en": "The Two-Ship Redundancy: Designing Failure Margin into Fleet Structure",
+   "mode_code": "M-AE-019",
+   "category": "核心方法",
+   "domain_zh": "系统工程/冗余设计",
+   "domain_en": "Systems Engineering / Redundancy Design",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "库克的元命题：单船远航的全部风险都押在一根龙骨上——把编队本身做成冗余结构，让'一船失事'降级为'任务受挫'而不是'任务清零'。方法论签名有四：其一，双船结构——第二次航行决心号配冒险号（库克/弗尼厄克斯），第一次大堡礁触礁的直接教训被转写为舰队构型；其二，分进合击——两船可分开扫掠不同海域、失散后互有约定的备用会合点，冗余同时提供覆盖能力；其三，牺牲序位预设——冒险号船员在塔斯曼海域的损失（10人被疑食人）证明分航的风险真实存在，但编队的预期损失结构仍优于单船全损；其四，装备冗余——第二次航行备双重龙骨包铜、双份仪器、四具计时器，关键能力全部双份。这一模式与麦哲伦五船队'分船队协同'对照：麦哲伦以数量换覆盖，库克以双份换保底——覆盖与保底是冗余设计的两个方向。",
+   "definition_en": "Cook's master proposition: a single-ship voyage stakes everything on one keel — make the formation itself a redundant structure, so 'one ship lost' degrades to 'mission set back', never 'mission erased'. Four signatures define the mode. First, two-ship structure: Resolution paired with Adventure (Cook/Furneaux) on the second voyage — the direct lesson of the Great Barrier Reef grounding rewritten into fleet configuration. Second, split-sweep convergence: the ships could sweep different waters apart, with agreed fallback rendezvous if separated — redundancy doubling as coverage. Third,预设 loss order: the Adventure's losses in Tasman waters (ten men suspected killed and eaten) proved the real risk of detached sailing, yet the formation's expected-loss structure still beat single-ship total loss. Fourth, equipment redundancy: on the second voyage a sheathed double-fastened hull, duplicate instruments, and four timekeepers — every critical capability doubled. The mode contrasts with Magellan's five-ship squadron protocol: Magellan traded quantity for coverage, Cook traded duplication for a floor — coverage and floor are the two directions of redundancy design.",
+   "source_chapter": "《朝着南极并环绕世界航行》；海军部第二次航行装备清单 / 库克在装备清单上的批注：'宁可在伦敦多花一镑，不在太平洋赌一条命。'",
+   "key_concepts": [
+    "双船结构",
+    "分进合击与备用会合点",
+    "预期损失结构",
+    "装备双份冗余"
+   ],
+   "process_zh": [
+    "把历史事故教训直接转写为结构设计：上次单点失效，这次上双份",
+    "设计分进合击战术：独立扫掠+失散约定会合点，冗余与覆盖兼得",
+    "关键能力全部双份：船体、仪器、计时器、医疗物资按双份配置",
+    "预算风险结构显性化：接受'编队部分损失'以消除'单船全损'"
+   ],
+   "process_en": [
+    "Translate past accident lessons directly into structure: last time a single point failed, this time double it",
+    "Design split-sweep tactics: independent coverage plus agreed rendezvous, redundancy and coverage both served",
+    "Duplicate every critical capability: hull, instruments, timekeepers, and medical stores all in pairs",
+    "Make the risk budget explicit: accept partial formation loss to eliminate single-ship total loss"
+   ],
+   "representative_cases_zh": [
+    "第二次航行双船配置（1772）：努力号大堡礁触礁的直接产物，决心号+冒险号互为保险",
+    "分进合击实践：两船多次分开扫掠南太平洋不同海域，失散后按约定会合点重逢",
+    "第一次航行单船记录（1768-1771）：大堡礁触礁几乎全损，正反两次经验构成完整的冗余论证",
+    "反面警示：冒险号分航后其船员10人在新西兰被杀（时人怀疑食人）——分进合击的覆盖收益以分航风险为代价，冗余结构内部的每个单元都需要独立的生存能力。教训：冗余单元不能共享同一弱点。",
+    "反面警示：第二次航行冒险号中途返英，编队实际单船运行大半程——冗余结构在预算/进度压力下最易被削减，'双份'常在执行中退化为'单份+心理安慰'。教训：冗余决策须绑定不可削减条款。",
+    "反面警示：库克死后克利克接任再死于肺结核，戈尔再接任——指挥链冗余起效了，但连续损失说明南极-北极连续远航的人力成本结构被系统性低估。教训：冗余设计覆盖不了慢性消耗型风险。"
+   ],
+   "representative_cases_en": [
+    "The two-ship configuration (1772): the direct product of the Reef grounding — Resolution and Adventure as mutual insurance",
+    "Split-sweep practice: the ships repeatedly detached to sweep different Pacific waters, reuniting at agreed rendezvous",
+    "The single-ship record (1768-71): the near-total loss on the Reef, with the two voyages together forming the complete argument for redundancy",
+    "Cautionary: after detaching, ten of the Adventure's men were killed in New Zealand (suspected cannibalism at the time) — the coverage gain of split-sweep was paid in detachment risk; every redundant unit needs independent survivability. Lesson: redundant units must not share one weakness.",
+    "Cautionary: the Adventure returned to England midway, leaving the formation effectively single-ship for most of the voyage — redundant structures are the first cut under budget and schedule pressure, 'doubled' often degrading to 'single plus comfort'. Lesson: bind redundancy decisions to non-reduction clauses.",
+    "Cautionary: after Cook's death Clerke took command and died of tuberculosis, then Gore — the succession chain worked, but the consecutive losses show the human-cost structure of continuous polar voyaging was systematically underestimated. Lesson: redundancy design does not cover chronic-attrition risks."
+   ],
+   "modern_applications_zh": [
+    "关键基础设施设计采用'库克双船'：单点全损场景必须存在结构级备份，而非仅流程级备份",
+    "大型项目拆分交付单元并约定会合点：各单元独立推进、失联后按既定节点汇合",
+    "重要数据/人员配置双份冗余：备份间隔足够远，确保同一灾害无法同时击中两份"
+   ],
+   "modern_applications_en": [
+    "Design critical infrastructure on the 'Cook two-ship' principle: single-point total-loss scenarios need structural backup, not merely procedural",
+    "Split large projects into delivery units with agreed rendezvous: units advance independently and converge at preset nodes if contact is lost",
+    "Duplicate critical data and personnel with sufficient separation so one disaster cannot hit both copies"
+   ],
+   "related_modes": [
+    "M-AE-003",
+    "M-AE-013",
+    "M-MV-006",
+    "M-AE-004"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "托比亚斯·弗尼厄克斯 (Tobias Furneaux)",
+    "查尔斯·克利克 (Charles Clerke)"
+   ],
+   "key_quote_zh": "'两艘船的意义不是快一倍，而是必达一次。'",
+   "key_quote_en": "'Two ships do not mean twice as fast; they mean arriving at least once.'"
+  },
+  {
+   "id": "M-AE-020",
+   "name_zh": "档案接力传播法",
+   "name_en": "The Journal-Relay Method: Routing the Archive Home Faster Than the Fleet",
+   "mode_code": "M-AE-020",
+   "category": "核心方法",
+   "domain_zh": "知识管理/信息传递",
+   "domain_en": "Knowledge Management / Information Relay",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "库克的元命题：探险的发现价值随消息抵达时间递减——让档案先于船队回家，用接力路由压缩知识旅行的时间。方法论签名有四：其一，多跳路由——库克之死与日志经堪察加军事长官冯·贝姆之手，由陆路穿越西伯利亚送往伦敦，比绕好望角的船队早近一年抵达海军部；其二，档案与载具解耦——日志的传递不依赖生还者，克利克把日志与死亡报告封装移交，信息在指挥者死后继续旅行；其三，内容分版——库克生前日志与官方出版叙事（经约翰·霍克斯沃斯整理）分属两个版本，一手档案与公共叙事并行；其四，传递即占位——消息早到一年，英国的地图修订、政治决策与后续探险提前启动，信息先到者获得议程设置权。这一模式与郑和'档案断代审计'相反：郑和档案因制度停转而散佚，库克档案靠接力路由而永生——档案的命运取决于传递结构而非保存意愿。",
+   "definition_en": "Cook's master proposition: an expedition's discovery value decays with the arrival time of its news — route the archive home faster than the fleet, compressing knowledge travel by relay. Four signatures define the mode. First, multi-hop routing: Cook's death and journals passed through the Kamchatka military commander Magnus von Behm, travelling overland through Siberia to reach the Admiralty nearly a year before the fleet rounded the Cape. Second, archive decoupled from carrier: the journals' journey did not depend on survivors — Clerke sealed the logs with the death report and handed them on; the information kept travelling after its author died. Third, content versioning: Cook's own journals and the official published narrative (assembled by John Hawkesworth) ran as parallel editions — first-hand archive and public narrative side by side. Fourth, arrival as agenda-setting: a year's head start meant British chart revisions, political decisions, and follow-up expeditions launched earlier — first information sets the agenda. The mode inverts Zheng He's archival audit: Zheng He's records scattered when the institution stopped; Cook's endure by relay routing — an archive's fate depends on transmission structure, not preservation intent.",
+   "source_chapter": "克利克致冯·贝姆移交函（1779）；海军部档案；霍克斯沃斯编《南海航行纪》(1773) / 克利克移交函的措辞即方法：'日志与报告完整移交，海路漫长而陆路更短。'",
+   "key_concepts": [
+    "多跳陆路路由",
+    "档案与载具解耦",
+    "一手档案与公共叙事分版",
+    "信息先到者设定议程"
+   ],
+   "process_zh": [
+    "识别最短知识路径：消息传递的地理与政治路由逐段规划",
+    "把档案封装为可独立移交的单元：附说明信、状态报告，不依赖任何特定人员生还",
+    "一手日志与对外出版分版管理，保留原始记录的独立性",
+    "评估信息早到的议程价值：优先把档案送抵决策点而非仅送抵保存点"
+   ],
+   "process_en": [
+    "Map the shortest knowledge route: plan the geographic and political hops of message transmission segment by segment",
+    "Package the archive as an independently hand-off-able unit: cover letter and status report attached, dependent on no survivor",
+    "Manage first-hand journals and public publications as separate versions, preserving the raw record's independence",
+    "Price the agenda value of early arrival: route archives to decision points, not merely to storage points"
+   ],
+   "representative_cases_zh": [
+    "西伯利亚陆路接力（1779-1780）：克利克在堪察加把库克日志与死亡报告交冯·贝姆，陆路抵伦敦，早于船队近一年",
+    "霍克斯沃斯版本（1773）：官方叙事先于一手日志出版，公众认知由整理者框架塑形——档案分版的经典案例",
+    "库克日志的现代整理（贝格尔霍尔版）：一手档案完整存世，成为18世纪太平洋研究的原始基座",
+    "反面警示：霍克斯沃斯整理版以戏剧化叙事与编者润色著称，船员普遍不满，库克本人的克制笔触被覆盖——公共叙事版本若不经当事者审校，会反噬一手档案的公信力。教训：分版必须配套'一手优先'的引用规范。",
+    "反面警示：库克死后夏威夷段记录完全依赖幸存者转述，库克本人对最后数周的观察永久缺失——档案接力无法传递未及落笔的内容。教训：关键期记录必须实时落笔，不能指望事后接力。",
+    "反面警示：消息早到一年同时让领土主张与殖民规划提前启动——信息先到的议程价值是中性的，先到者可以将其用于任何目的。教训：路由结构决定不了信息用途，须配套伦理约束。"
+   ],
+   "representative_cases_en": [
+    "The Siberian overland relay (1779-80): Clerke handed Cook's journals and the death report to von Behm at Kamchatka; overland it reached London nearly a year before the fleet",
+    "The Hawkesworth edition (1773): official narrative published before the first-hand journals, public cognition shaped by the assembler's frame — the classic case of archive versioning",
+    "The modern Beaglehole edition of Cook's journals: the first-hand archive survives whole, the raw foundation of Pacific studies",
+    "Cautionary: the Hawkesworth edition, famous for dramatic narrative and editorial polish, drew crew discontent; Cook's restrained voice was overwritten — a public version unreviewed by the protagonist can backfire on the first-hand archive's credibility. Lesson: versioning requires a 'first-hand-first' citation rule.",
+    "Cautionary: after Cook's death the Hawaiian segment rests entirely on survivors' accounts; his own observations of the final weeks are permanently missing — relay cannot transmit what was never written. Lesson: critical-period records must be written in real time, never deferred to relay.",
+    "Cautionary: the year-early arrival also let territorial claims and colonial planning start earlier — the agenda value of first information is neutral; first arrivals can use it for any purpose. Lesson: routing structure does not determine information use; ethical constraints must ride along."
+   ],
+   "modern_applications_zh": [
+    "危机事件的信息发布采用'接力路由'：核心事实包先走最快通道抵达决策层，不必等完整报告",
+    "关键知识资产设计'不依赖任何人生还'的移交机制：附状态说明的封装单元、多路由副本",
+    "一手记录与对外叙事分版维护：对外发布前保留原始档案独立性，防止叙事漂移污染原始数据"
+   ],
+   "modern_applications_en": [
+    "Route crisis information by relay: the core fact package takes the fastest channel to decision-makers, not waiting for the full report",
+    "Design 'no-survivor-required' handover for key knowledge assets: sealed units with status letters and multi-route copies",
+    "Maintain first-hand records and public narratives as separate versions, keeping raw archives independent so narrative drift cannot pollute the data"
+   ],
+   "related_modes": [
+    "M-AE-006",
+    "M-AE-015",
+    "M-MV-010",
+    "M-SMQ-321"
+   ],
+   "representative_figures": [
+    "詹姆斯·库克 (James Cook)",
+    "查尔斯·克利克 (Charles Clerke)",
+    "马格努斯·冯·贝姆 (Magnus von Behm)",
+    "约翰·霍克斯沃斯 (John Hawkesworth)"
+   ],
+   "key_quote_zh": "'船队还在好望角，地图已经改版。'",
+   "key_quote_en": "'The fleet was still at the Cape; the chart was already in its new edition.'"
+  }
+ ]
+}

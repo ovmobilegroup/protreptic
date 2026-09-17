@@ -1,0 +1,521 @@
+{
+  "schema_version": "v6",
+  "figure_id": "H-DKR-001",
+  "figure_name": "笛卡尔",
+  "figure_code": "H-DKR-001",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-DKR-001",
+      "name_zh": "普遍怀疑还原法",
+      "name_en": "Universal Doubt Reduction Method",
+      "mode_code": "M-DKR-001",
+      "category": "认识论",
+      "domain_zh": "怀疑论/知识根基重建",
+      "domain_en": "Skepticism / Rebuilding Knowledge Foundations",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "把怀疑从零星修补升级为一次性整体工程：既然一生中被假的东西骗过多次，凡可怀疑的信念来源（感官、习俗、权威、甚至简单算术）就一律整体悬置，绝不逐条辩论。怀疑的目的是找出'根本不可怀疑'的残余物，作为重建全部知识的地基。与安萨里的差异在于收束点：安萨里在苏菲体验的光中收束，笛卡尔在思维行为自身的明证性中收束。要点：怀疑是工具而非立场——悬置期间不否定日常判断，只拒绝把它们当最终根基。",
+      "definition_en": "Escalate doubt from piecemeal repair to one wholesale engineering pass: whatever can be doubted—sense, custom, authority, even simple arithmetic—is suspended entire, to find the indubitable residue as the foundation for rebuilding all knowledge. Doubt is a tool, not a stance.",
+      "source_chapter": "《谈谈方法》第四部分、《第一哲学沉思集》第一沉思",
+      "key_concepts": [
+        "普遍怀疑",
+        "整体悬置",
+        "知识地基",
+        "怀疑作为工具",
+        "不可怀疑残余"
+      ],
+      "process_zh": [
+        "按可靠性给信念分层：感官报告、常识习俗、专家权威、数学真理",
+        "对每层构造最强怀疑理由（错觉之于感官、梦之于常识、恶魔之于数学）",
+        "将凡有怀疑理由者整体悬置，拒绝在悬置期间以其为最终依据",
+        "检出不可怀疑的残余（思维活动本身），以此为原点重建知识体系"
+      ],
+      "process_en": [
+        "Stratify beliefs by reliability: sense reports, custom, authority, mathematics",
+        "Construct the strongest doubt for each stratum (illusion, dream, deceiving demon)",
+        "Suspend wholesale whatever admits a reason for doubt; refuse it as final ground",
+        "Identify the indubitable residue (the act of thinking) and rebuild from it"
+      ],
+      "key_quote_zh": "只是仔细地避开轻率与成见，并在我的判断中不包含任何比我心灵呈现得如此清楚分明、以致我完全没有机会怀疑的东西之外的东西，我就能始终达到确定无疑的知识。",
+      "key_quote_en": "Never to accept anything as true that I did not know evidently to be so; to include nothing more in my judgments than what presented itself so clearly to my mind that I had no occasion to doubt it.",
+      "representative_cases_zh": "1633-1641年的体系性退隐：笛卡尔闻伽利略受审后撤回《论世界》书稿，转而用近十年时间先写《谈谈方法》（1637，以'第一人称自传'形式公开怀疑程序），再写《第一哲学沉思集》（1641，六日沉思逐层拆解感官、梦、恶魔三层怀疑）。他不是即兴怀疑，而是把怀疑设计成一次有图纸的拆除作业：先勘察（信念分层）、再定向爆破（逐层反例）、最后验收残余（我思），然后才在《沉思集》第三至六沉思中逐层重建上帝与外部世界。",
+      "representative_cases_en": "The systematic retreat of 1633-1641: after hearing of Galileo's trial Descartes withdrew Le Monde and spent nearly a decade turning doubt into engineered demolition—stratify beliefs, demolish stratum by stratum, certify the residue—before rebuilding God and the external world in Meditations III-VI.",
+      "modern_applications_zh": [
+        "系统性风险审计：危机时对全部信息渠道做一次性来源级排查，而非逐条灭火",
+        "技术栈重写决策：判断'推倒重建'是否值得时，先做不可怀疑残余分析（哪些模块/数据绝对可靠）",
+        "认知行为疗法：把'灾难化怀疑'工具化为有序的信念压力测试，而非弥漫性焦虑"
+      ],
+      "modern_applications_en": [
+        "Systemic risk audit: one wholesale source-level sweep in a crisis, not firefighting item by item",
+        "Rewrite-vs-refactor decisions: analyze the indubitable residue first (which modules/data are absolutely reliable)",
+        "CBT: turn catastrophic doubt into an ordered belief stress test instead of diffuse anxiety"
+      ],
+      "related_modes": [
+        "M-DKR-002",
+        "M-DKR-003",
+        "M-DKR-007"
+      ]
+    },
+    {
+      "id": "M-DKR-002",
+      "name_zh": "我思基点确立法",
+      "name_en": "Cogito Anchor-Point Method",
+      "mode_code": "M-DKR-002",
+      "category": "认识论",
+      "domain_zh": "第一支点/不可怀疑残余",
+      "domain_en": "First Anchor / Indubitable Residue",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "在最彻底的怀疑中必有一物逃过怀疑：怀疑这一行为本身。我可以怀疑一切对象，但'我在怀疑'这件事进行时即是'我在思维'，思维进行时'我存在'即为真——'我思，故我在'。这一支点的独特性在于：它不是推理的结论（结论可被前提问题传染），而是每次施行怀疑时自我兑现的直观。方法论价值：任何重建工程都需要一个'每一步使用时自动重新验证'的基点，寻找这类自验证锚点比寻找强证据更重要。",
+      "definition_en": "In the most radical doubt one thing escapes: the act of doubting itself. While doubting I am thinking, and while thinking I am—cogito ergo sum. Not a conclusion from premises but a self-verifying intuition enacted with every doubt.",
+      "source_chapter": "《谈谈方法》第四部分、《第一哲学沉思集》第二沉思",
+      "key_concepts": [
+        "我思故我在",
+        "自验证命题",
+        "第一哲学支点",
+        "施行性确证",
+        "阿基米德点"
+      ],
+      "process_zh": [
+        "对候选基点逐一施压：问'怀疑它时是否同时确证了它'",
+        "筛出施行性自验证项（如：怀疑→思维在活动→思维者存在）",
+        "把该基点明确为不可动摇原点，与一切可质疑内容切分",
+        "后续重建只允许从原点加明证条件推导，绝不私下夹带悬置物"
+      ],
+      "process_en": [
+        "Stress-test candidate anchors: does doubting it simultaneously confirm it?",
+        "Filter for performative self-verification (doubting → thinking occurs → thinker exists)",
+        "Designate the anchor as the immovable origin, severed from all questionable content",
+        "Rebuild only from origin plus evident conditions; never smuggle suspended items back in"
+      ],
+      "key_quote_zh": "我思，故我在。——这条真理如此确定、如此牢固，连最过分的怀疑者也无力撼动，我判定可以毫不犹豫地把它当作我所探求的哲学的第一原理。",
+      "key_quote_en": "I think, therefore I am—so certain and so assured that even the most extravagant skeptic cannot shake it, I judged that I could accept it without scruple as the first principle of the philosophy I was seeking.",
+      "representative_cases_zh": "《沉思集》第二沉思的蜡块论证：笛卡尔刚确立我思，立即追问'我是什么'。普通人答'有理性的动物'（经院定义，可疑），或'这具身体'（感官报告，已悬置）。他以桌上的蜂蜡示范：蜡在火旁改变颜色、形状、气味、体积，感官说'蜡变了'，但'我仍判认这是同一块蜡'——判认不靠感官而靠纯粹心智的 inspectio（审视）。由此确定：我比任何外物都更确定地被我认识，'我'首先是一个思维之物。基点确立后立刻扩容，这是笛卡尔式的'立柱即开工'。",
+      "representative_cases_en": "The wax argument of Meditation II: immediately after securing the cogito, Descartes asks what 'I' am. Ordinary answers (rational animal, this body) fall under suspended sources. The melting wax shows that judgment of its persistence is an act of pure mental inspection, not sense—so the mind is known more certainly than any external thing.",
+      "modern_applications_zh": [
+        "灾后系统重建：先找'每次故障中仍然自证有效的日志/信号'作为审计原点",
+        "个人职业危机：在'一切履历都可能作废'的怀疑中，锚定'我仍在解决问题'这一可自验事实",
+        "程序正确性验证：以'自验证不变量'（每次执行即自我检验的断言）作为重构的基线"
+      ],
+      "modern_applications_en": [
+        "Post-incident rebuild: find logs/signals that self-certify during every failure and use them as the audit origin",
+        "Career crisis: amid 'every credential may be void,' anchor on the self-verifying fact 'I am still solving problems'",
+        "Program verification: use self-testing invariants as the baseline for refactoring"
+      ],
+      "related_modes": [
+        "M-DKR-001",
+        "M-DKR-006"
+      ]
+    },
+    {
+      "id": "M-DKR-003",
+      "name_zh": "梦境恶魔极限测试法",
+      "name_en": "Dream-and-Demon Stress Test Method",
+      "mode_code": "M-DKR-003",
+      "category": "认识论",
+      "domain_zh": "极限反例构造/信念压力测试",
+      "domain_en": "Limiting-Counterexample Construction / Belief Stress Testing",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "对信念体系的逐层加压测试：先构造'梦'假设（此刻经验可能是梦）压垮感官信念，再构造'恶魔'假设（一个全能存在可能系统性欺骗我，连2+3=5也可疑）压垮先天知识。极限假设不要求为真，只要求逻辑上可能——凡在极限假设下动摇的，即判定为非根基。这是现代'威胁模型'思维的哲学原型：与其枚举已知风险，不如构造最强假想敌，凡不能在最强敌人面前存活的安全声明都作废。",
+      "definition_en": "Layered stress testing of a belief system: the dream hypothesis crushes sense belief; the deceiving-demon hypothesis, requiring only logical possibility, crushes even innate arithmetic. Whatever wobbles under the limit hypothesis is ruled out as foundation—the philosophical ancestor of adversarial threat modeling.",
+      "source_chapter": "《第一哲学沉思集》第一沉思",
+      "key_concepts": [
+        "梦假设",
+        "恶魔假设",
+        "逻辑可能性标准",
+        "威胁模型",
+        "极限压力测试"
+      ],
+      "process_zh": [
+        "列出待测信念层，从最依赖外界的到最依赖心智的",
+        "为每层构造一个逻辑上可能的极限反例（不需要真实发生）",
+        "以反例检验：该层信念是否在最强假设下仍然成立",
+        "凡被压垮者降级为'暂行信念'，仅存活的层进入地基候选"
+      ],
+      "process_en": [
+        "List belief strata, from most world-dependent to most mind-dependent",
+        "Construct a logically possible limiting counterexample for each stratum",
+        "Test: does the stratum survive under the strongest hypothesis?",
+        "Demote crushed strata to provisional beliefs; only survivors enter foundation candidates"
+      ],
+      "key_quote_zh": "我要假设不是一个真正的上帝（他是至善的真理之源），而是一个恶毒的恶魔，用尽全部机巧来欺骗我：我要把天、地、颜色、形状、声音以及一切外物都看作只是他设下的梦的骗局。",
+      "key_quote_en": "I will suppose not a supremely good God, the source of truth, but an evil demon, as clever and deceitful as he can be, who has employed all his artifice to deceive me.",
+      "representative_cases_zh": "1641年《沉思集》发表前，笛卡尔把初稿寄给梅尔塞纳神父征集'最有力反驳'，随后与霍布斯、阿尔诺、伽桑狄等七位第一流论敌往返六轮（《沉思集》正文与《驳辩与答辩》篇幅几乎一比一）。他主动邀请最强反例——包括阿尔诺指出'笛卡尔循环'（用上帝担保明证知觉、又用明证知觉证明上帝）这一至今未解的攻击点——并把最强驳辩原样印在正文之后。恶魔假设的出版史本身就是一次公开的极限压测：让整个欧洲学界扮演那个恶魔。",
+      "representative_cases_en": "Before publishing in 1641 Descartes solicited the strongest objections via Mersenne, then went six rounds with Hobbes, Arnaud, Gassendi and others—the Objections and Replies nearly matching the Meditations in length. He printed Arnaud's 'Cartesian circle' objection, still unresolved, verbatim: a public stress test with Europe's finest as the demon.",
+      "modern_applications_zh": [
+        "安全工程红队演练：以'最强假想敌完全得手'为假设倒推防御设计",
+        "AI 对齐评估：对模型构造'最坏情形用户/最坏情形微调'的极限场景压测",
+        "商业计划尽调：对每个关键假设问'若市场/监管以最恶意方式逆转会怎样'"
+      ],
+      "modern_applications_en": [
+        "Red-team exercises: design defenses by assuming the strongest adversary fully succeeds",
+        "AI alignment evals: stress-test models against worst-case users and worst-case fine-tuning",
+        "Due diligence: ask of each key assumption 'what if market/regulator reverses maximally?'"
+      ],
+      "related_modes": [
+        "M-DKR-001",
+        "M-DKR-007"
+      ]
+    },
+    {
+      "id": "M-DKR-004",
+      "name_zh": "四规则程序法",
+      "name_en": "Four-Rules Procedure Method",
+      "mode_code": "M-DKR-004",
+      "category": "方法论",
+      "domain_zh": "程序化思维/方法自觉",
+      "domain_en": "Procedural Thinking / Methodic Discipline",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "把'想清楚'改写为可执行的程序：一、明证——只接受呈现为清楚分明者，拒绝把模糊当深刻；二、分析——把难题拆为尽可能多的小部分，逐个击破；三、综合——按从最简单到最复杂的秩序推进，即使对象本身并无此序；四、枚举——结尾做完整清单复查，确认无遗漏。要点：面对复杂问题时，先声明自己正在执行哪条规则，把直觉思考转换为有阶段、有验收的流程。",
+      "definition_en": "Rewrite 'thinking clearly' as an executable procedure: accept only the clear and distinct; divide problems into as many parts as needed; order reasoning from simplest to most complex even where the subject lacks such order; and end with exhaustive review enumerations.",
+      "source_chapter": "《谈谈方法》第二部分、《指导心灵的规则》",
+      "key_concepts": [
+        "明证规则",
+        "分析规则",
+        "综合规则",
+        "枚举复查",
+        "方法自觉"
+      ],
+      "process_zh": [
+        "明证：建立接受标准——问题陈述中只保留真正理解、无一处含混的词项",
+        "分析：把问题拆到'每个子问题只依赖已解决者'的程度",
+        "综合：按依赖顺序排列子问题，从最简单者开始求解，逐级装配",
+        "枚举：复查全链条，补做遗漏环节，确认结论由已验步骤无跳步地支撑"
+      ],
+      "process_en": [
+        "Evidence: admit only terms fully understood, nothing vague",
+        "Analysis: decompose until each sub-problem depends only on solved ones",
+        "Synthesis: order sub-problems by dependency, solve simplest first, assemble upward",
+        "Enumeration: review the whole chain for gaps; no conclusion without verified steps"
+      ],
+      "key_quote_zh": "我的第二条规则是：把我所考察的每一个难题，按解决它的需要尽可能多地分成若干部分；第三条是：按秩序引导我的思想，从最简单、最易认识的对象开始，逐步上升到最复杂的知识。",
+      "key_quote_en": "To divide each of the difficulties I examined into as many parts as possible and as might be required; and to conduct my thoughts in order, beginning with the simplest objects and ascending step by step to the most complex.",
+      "representative_cases_zh": "《几何学》（1637附录）把这三百页的'程序'一次性演示于数学：面对古人的'帕普斯问题'（ locus problem，欧几里得-阿波罗尼传统视为难题），笛卡尔不引任何旧几何，先立坐标系、把条件逐条译为方程、再按代数规则机械化求解、最后把结果译回几何图形。他在引言中宣称：'凡古人给出的证明，我用我的方法都能更容易地重做一遍。'这是四规则从宣言到实绩的完整交付——分析（几何条件→方程）、综合（方程变形→解）、枚举（检查丢根与增根）。",
+      "representative_cases_en": "The Geometry (1637) demonstrates the program in one pass: for the locus problem of Pappus, Descartes sets up coordinates, translates each condition into an equation, solves mechanically by algebra, and translates back—claiming every ancient proof becomes easier redone this way. Analysis, synthesis, and enumeration in one worked example.",
+      "modern_applications_zh": [
+        "复杂需求拆解：用'子问题只依赖已解决者'标准检查任务拆分是否到位",
+        "代码评审清单：枚举规则要求结尾确认'无跳步'，对应 review 中检查隐含假设",
+        "研究计划设计：先声明明证标准（什么算'理解了'），再开始动手"
+      ],
+      "modern_applications_en": [
+        "Requirements decomposition: check that each sub-task depends only on solved ones",
+        "Code review: the enumeration rule = verify no leap of hidden assumptions before approving",
+        "Research design: declare the evidence criterion (what counts as 'understood') before starting"
+      ],
+      "related_modes": [
+        "M-DKR-005",
+        "M-DKR-010"
+      ]
+    },
+    {
+      "id": "M-DKR-005",
+      "name_zh": "普遍数学同构法",
+      "name_en": "Universal Mathesis Method",
+      "mode_code": "M-DKR-005",
+      "category": "方法论",
+      "domain_zh": "跨域方法迁移/秩序度量统一",
+      "domain_en": "Cross-Domain Method Transfer / Unifying Order and Measure",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "笛卡尔发现算术处理离散量、几何处理连续量，但两者成功的原因相同：研究对象只含'秩序与度量'。由此提出'普遍数学'（mathesis universalis）：凡问题可还原为秩序与度量者，皆可用同一方法处理。方法论价值：找到不同领域成功背后的共同抽象层，把该层的方法反向输出到所有同构领域——不是类比，而是确认同构后的方法迁移。",
+      "definition_en": "Arithmetic handles discrete, geometry continuous quantity, but both succeed for the same reason: their objects are only order and measure. Hence mathesis universalis: any problem reducible to order and measure is tractable by one method—method transfer after confirming isomorphism, not loose analogy.",
+      "source_chapter": "《指导心灵的规则》第四、六规则；《谈谈方法》",
+      "key_concepts": [
+        "普遍数学",
+        "秩序与度量",
+        "同构迁移",
+        "抽象层识别",
+        "方法统一"
+      ],
+      "process_zh": [
+        "对两个以上成功领域做归因：它们真正的共同成功条件是什么",
+        "把共同条件提炼为最小抽象（如：凡可排序、可度量者）",
+        "判定目标问题是否落入该抽象的覆盖域——不可硬套，先验同构",
+        "以共同方法在目标域重做，用目标域的验标验收结果"
+      ],
+      "process_en": [
+        "Attribute success across multiple fields: what is the genuinely shared condition?",
+        "Distill the shared condition into a minimal abstraction (orderable, measurable, etc.)",
+        "Verify the target problem falls within the abstraction's coverage—no forced analogy",
+        "Redo the problem with the common method and check against target-domain validation"
+      ],
+      "key_quote_zh": "应当只研究那些我们的心灵似乎能够获得确定无疑的认识的对象……所有这些科学，就其整体而言，无非是人类理智，它永远保持同一，无论应用于多么不同的对象，其变化绝不比阳光照在不同对象上的变化更多。",
+      "key_quote_en": "The sciences taken all together are identical with human wisdom, which always remains one and the same, however different the objects to which it is applied—varying no more than sunlight varies on diverse objects.",
+      "representative_cases_zh": "解析几何本身即普遍数学的实例：笛卡尔在《几何学》中证明曲线与方程可以互译——同一对象在几何语言下是'抛物线'，在代数语言下是 y²=ax。随后他立刻把该抽象输出到第三个领域：光学。《屈光学》把视觉还原为光线几何（眼球是光学仪器，视网膜成像是倒立的），并提出'脑中图像'的心物接口问题。数学→几何→光学三域共用水法，且每域用本域验标（定理证明/作图/实验解剖）分别验收——这是同构迁移而非简单套用。",
+      "representative_cases_en": "Analytic geometry instantiates mathesis universalis: the same object is 'parabola' in geometric language and y²=ax in algebraic. Descartes then exported the abstraction to optics—the Dioptrics reduces vision to ray geometry (the eye an instrument, the retinal image inverted)—validating each domain by its own standards.",
+      "modern_applications_zh": [
+        "工程方法外溢：确认新问题与新领域在'可度量+有秩序'层同构后再迁移成熟方法",
+        "数据科学跨界：先证明目标领域变量满足方法前提（独立、同分布、可排序），再套模型",
+        "组织管理移植：把成功团队的经验抽象为条件清单，核对目标团队是否满足同构条件"
+      ],
+      "modern_applications_en": [
+        "Method spillover: migrate a mature method only after confirming isomorphism (measurable, ordered)",
+        "Cross-domain data science: verify the target domain meets the method's assumptions before fitting",
+        "Management transplant: abstract a successful team's practice into conditions, then check fit"
+      ],
+      "related_modes": [
+        "M-DKR-004",
+        "M-DKR-010"
+      ]
+    },
+    {
+      "id": "M-DKR-006",
+      "name_zh": "心物二元区分法",
+      "name_en": "Mind-Body Dual Distinction Method",
+      "mode_code": "M-DKR-006",
+      "category": "形而上学",
+      "domain_zh": "本体分层/实体划界",
+      "domain_en": "Ontological Stratification / Substance Demarcation",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "按'各实体唯一本质属性'给世界分层：心灵的唯一本质是思维（不占空间、不可分割、直接确知），物质的唯一本质是广延（占空间、可分割、只有第一性的量与形，无颜色气味等'第二性质'）。划界使两类问题互不僭越：意识问题不许用力学硬解，物理问题不许用目的与'隐秘质'搪塞。方法论价值：把纠缠不清的混合问题先做实体归位——哪些成分属于哪一层，归位之后各自领域的解释工具才各自生效。代价（心身如何交感）笛卡尔未真正解决，但把问题逼成了三百年后心灵哲学的正面问题。",
+      "definition_en": "Stratify the world by each substance's single essential attribute: mind's essence is thought (unextended, indivisible, directly known); matter's essence is extension (divisible, possessing only primary quantities). Demarcation stops categories from invading each other—though the mind-body interface remains an unsolved legacy.",
+      "source_chapter": "《第一哲学沉思集》第二、六沉思；《哲学原理》第一部分",
+      "key_concepts": [
+        "心物二元",
+        "本质属性",
+        "第一性质与第二性质",
+        "松果腺交感",
+        "范畴僭越"
+      ],
+      "process_zh": [
+        "对混淆的问题域列出全部成分（感觉、判断、物理事件、情感）",
+        "按'该成分的存在能否用纯广延+运动解释'二分归位",
+        "为每一层指定专属解释工具（意识：内省与第一人称；物质：几何力学）",
+        "显式标注两层之间的接口（笛卡尔：松果腺），承认接口问题未决"
+      ],
+      "process_en": [
+        "Inventory the components of a mixed problem domain (sensation, judgment, events, affect)",
+        "Classify each: can it be explained by extension and motion alone?",
+        "Assign each stratum its proper explanatory tools (introspection vs. geometric mechanics)",
+        "Mark the interface between strata explicitly (for Descartes, the pineal gland)—and admit it unresolved"
+      ],
+      "key_quote_zh": "由此我认识到，我是一个实体，其全部本质或本性只在于思维，并且它不需要任何地点或任何物质性的东西以便存在。所以这个我，即凭我而成为我的那个心灵，与身体完全不同——甚至比身体更容易被认识，即使身体并不存在，它也仍然是它所是的一切。",
+      "key_quote_en": "I recognized that I am a substance whose whole essence or nature is simply to think, and which does not require any place, or depend on any material thing, in order to exist; so that this self, that is to say the soul by which I am what I am, is entirely distinct from the body.",
+      "representative_cases_zh": "1643年起笛卡尔与波希米亚的伊丽莎白公主通信四十余封，公主直问：'既然心灵的思维方式只有意向，身体的活动方式只有推动，二者如何互相作用？'笛卡尔先后给出'松果腺'说、'神意维持'说，均不能令伊丽莎白满意；他本人承认此问题'比任何其他问题都更难'。这场通信的诚实之处在于：划界成功（意识不还原为力学、物理不诉诸目的），接口留白并公开承认。1649年他遂以《心灵的情感论》正面处理接口——情感被定义为'与身体运动交织的心灵知觉'，可训练可改道。",
+      "representative_cases_en": "From 1643 Descartes exchanged forty-plus letters with Princess Elisabeth of Bohemia, who pressed: how can mind (whose mode is willing) move body (whose mode is pushing)? His pineal-gland and divine-sustainment answers satisfied neither of them; he admitted the problem was the hardest of all—demarcation achieved, interface honestly left open.",
+      "modern_applications_zh": [
+        "AI 系统分层：把'模型行为'与'训练数据/算力层'分开归因，禁止跨层搪塞",
+        "产品归因诊断：区分'体验问题'（设计层）与'性能问题'（工程层），各用各的验收标准",
+        "医学-心理分诊：症状先按'躯体可测'与'主观报告'分层，再分别选择量表与仪器"
+      ],
+      "modern_applications_en": [
+        "AI system layering: attribute model behavior vs. data/compute layers separately, no cross-layer hand-waving",
+        "Product triage: separate experience problems (design layer) from performance problems (engineering layer)",
+        "Medical-psychological triage: stratify symptoms by measurable vs. self-reported, then choose instruments"
+      ],
+      "related_modes": [
+        "M-DKR-002",
+        "M-DKR-008"
+      ]
+    },
+    {
+      "id": "M-DKR-007",
+      "name_zh": "明证性担保法",
+      "name_en": "Clear-and-Distinct Endorsement Method",
+      "mode_code": "M-DKR-007",
+      "category": "认识论",
+      "domain_zh": "真理标准/验收条件设定",
+      "domain_en": "Criterion of Truth / Acceptance Conditions",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "在废墟上重建时必须先立验收标准：凡'清楚'（对心智当下呈现）且'分明'（与其他内容界限精确分离）的知觉即为真——并以上帝之为不欺者担保此标准整体可靠。方法论要点：真理标准不来自循环验证（用待验内容验待验内容），而是提出一个可整体担保的验收函数。著名的'笛卡尔循环'（用明证知觉证上帝、用上帝担保明证知觉）提示了此法的风险：担保链一旦闭合，需要外置的、非循环的元担保。",
+      "definition_en": "Rebuilding requires a criterion first: whatever is perceived clearly (present to the mind) and distinctly (precisely bounded) is true—guaranteed wholesale by a non-deceiving God. The 'Cartesian circle' exposes the risk: a closed guarantee chain needs a non-circular meta-warranty.",
+      "source_chapter": "《第一哲学沉思集》第三、四沉思",
+      "key_concepts": [
+        "clear and distinct",
+        "验收函数",
+        "不欺担保",
+        "笛卡尔循环",
+        "整体担保"
+      ],
+      "process_zh": [
+        "显式声明验收标准：什么条件满足即判'真'（清楚且分明）",
+        "为该标准本身找一个非循环的担保来源（笛卡尔：不欺的上帝）",
+        "检查担保来源是否依赖被担保的内容——若依赖，即落入循环，需重做",
+        "凡通过验收者方可入库，且记录'由哪个担保层级验收'"
+      ],
+      "process_en": [
+        "Declare the acceptance criterion explicitly (clear and distinct perception)",
+        "Find a non-circular warrant for the criterion itself (Descartes: the non-deceiving God)",
+        "Check whether the warrant depends on what it warrants—if so, the circle recurs; redo",
+        "Only criterion-passing content enters the edifice, tagged with its warranty level"
+      ],
+      "key_quote_zh": "凡是我十分清楚、十分分明地领会的东西都是真的。……上帝既是至善的，就不会欺骗我们——欺骗作为缺陷，与完满的存在者相矛盾。",
+      "key_quote_en": "Whatever I perceive very clearly and very distinctly is true… God, being supremely good, cannot be a deceiver, since deception is a defect inconsistent with perfect being.",
+      "representative_cases_zh": "《沉思集》1641年首版即附阿尔诺《第四组驳辩》，正面指控'笛卡尔循环'：我们确信上帝存在，只是因为清楚分明地知觉到它；但'清楚分明的知觉为真'，又要靠上帝存在来担保——二者互为前提。笛卡尔在答辩中区分'当下明证的把握'（不可怀疑）与'记忆中的证明链'（需担保），主张循环不存在；但多数注家认为回答并不完全成功。笛卡尔的示范价值在于：他把对验收标准本身的攻击当作一等公民，原样付印并应战——真理标准的健壮性检验本身就是工程的一部分。",
+      "representative_cases_en": "Arnaud's Fourth Objections, printed in the 1641 first edition, charged the Cartesian circle outright: we know God exists only via clear-and-distinct perception, but clear-and-distinct perception is true only via God. Descartes's reply (distinguishing momentary intuition from remembered proof-chains) satisfied few—yet printing the attack on his own criterion and answering it made criterion robustness part of the method.",
+      "modern_applications_zh": [
+        "评测体系设计：先定义'什么算通过'（验收函数），再检查评测集是否依赖被测系统（循环污染）",
+        "审计合规：为审计标准本身寻找外置依据（法规/第三方），避免'自己验自己'",
+        "机器学习基准：警惕基准数据泄漏进训练集——验收环节被被验者污染即为笛卡尔循环的工程版"
+      ],
+      "modern_applications_en": [
+        "Evaluation design: define the pass criterion first, then check the eval set isn't contaminated by the system under test",
+        "Audit compliance: ground audit standards in external authority, never self-certification",
+        "ML benchmarks: benchmark leakage into training data is the Cartesian circle in engineering form"
+      ],
+      "related_modes": [
+        "M-DKR-001",
+        "M-DKR-003"
+      ]
+    },
+    {
+      "id": "M-DKR-008",
+      "name_zh": "机械还原解释法",
+      "name_en": "Mechanistic Reduction Method",
+      "mode_code": "M-DKR-008",
+      "category": "自然哲学",
+      "domain_zh": "科学解释/拒斥隐秘质",
+      "domain_en": "Scientific Explanation / Rejecting Occult Qualities",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "凡物理现象，只允许用三类要素解释：物质的量（大小）、形（形状）、运动（速度方向），其余一切'隐秘质''形式的本性''目的因'一律逐出解释序列。解释要求如钟表：了解各部件的几何与运动，即可推知整体行为——甚至动物也被视为自动机（'野兽机械论'）。方法论价值：解释合法性标准的收紧。凡解释中出现'因为它天性如此/因为它追求X'而不可进一步机械化者，即判定为伪解释。",
+      "definition_en": "Explain all physical phenomena using only quantity, shape, and motion; expel occult qualities, substantial forms, and final causes. Explanation must work like clockwork—even animals are automata. Any explanation resting on 'it is its nature' without further mechanism is ruled counterfeit.",
+      "source_chapter": "《哲学原理》第二部分；《论世界》；《心灵的情感论》",
+      "key_concepts": [
+        "机械论",
+        "第一性质",
+        "野兽机械论",
+        "拒斥目的因",
+        "钟表模型"
+      ],
+      "process_zh": [
+        "对待解释现象穷举现行解释，标出其中所有'不可进一步追问'的词项",
+        "把每个隐秘质/目的项翻译为'什么形状、什么运动、什么接触'的候选机制",
+        "能翻译者保留为新解释；不能翻译者显式标注为'未解'而非搪塞",
+        "以可观察推论（成象、折射、循环等）检验候选机制，淘汰不合格者"
+      ],
+      "process_en": [
+        "Inventory current explanations of a phenomenon; flag every unfurther-questionable term",
+        "Translate each occult/final term into candidate mechanisms of shape, motion, contact",
+        "Keep translatable ones; explicitly mark the untranslatable as 'unsolved,' never as gloss",
+        "Test candidate mechanisms against observable consequences (imaging, refraction, circulation)"
+      ],
+      "key_quote_zh": "我不承认在物体中有任何别的隐秘质……物体的全部本性和全部差异，都可以仅凭微小部分的各色大小、形状和运动来解释。",
+      "key_quote_en": "I recognize no occult qualities in bodies… the whole nature and variety of bodies can be explained solely by the diverse sizes, shapes, and motions of their minute parts.",
+      "representative_cases_zh": "《论心灵的感情》与《人论》的生理学推演：笛卡尔把反射动作（如缩手避火）完全用'神经纤维张力→动物精气经脑腔机械分流→肌肉胀缩'的管道模型解释，不给'灵魂的决断'留位置；同时用眼球解剖与凸透镜实验（牛眼后壁成象）在《屈光学》中把视觉还原为光学成象。他的具体机制（动物精气、涡旋）后来全被牛顿与哈维一系修正，但'解释必须机械化到可追问下一层'这一标准本身存活至今——神经科学与计算主义仍在执行这条标准。",
+      "representative_cases_en": "In L'Homme and the Passions, reflex action is fully explained by a plumbing model of nerve tension and animal spirits—no room for 'the soul's decision'; in the Dioptrics, vision is reduced to optical imaging, checked against dissected ox-eye experiments. His mechanisms were superseded by Newton and Harvey, but the standard—explanations must mechanize to the next question—survives in neuroscience and computationalism.",
+      "modern_applications_zh": [
+        "科学评审标准：论文解释中凡'涌现''天性''直觉上'等不可追问词项应要求给出机制",
+        "产品设计：把'用户就是喜欢'这类伪解释替换为可测机制（注意、记忆、操作路径）",
+        "AI 可解释性：把'模型学会了'细化为机制层面假设（回路、特征方向），逐一可验证"
+      ],
+      "modern_applications_en": [
+        "Peer review: demand mechanisms wherever explanations rest on 'emergent/natural/intuitive'",
+        "Product design: replace 'users just like it' with measurable mechanisms (attention, memory, paths)",
+        "AI interpretability: refine 'the model learned it' into testable mechanistic hypotheses"
+      ],
+      "related_modes": [
+        "M-DKR-006",
+        "M-DKR-010"
+      ]
+    },
+    {
+      "id": "M-DKR-009",
+      "name_zh": "暂行道德准则法",
+      "name_en": "Provisional Morality Method",
+      "mode_code": "M-DKR-009",
+      "category": "伦理学",
+      "domain_zh": "过渡期行动/悬置中的生活维持",
+      "domain_en": "Acting Under Suspension / Provisional Ethics",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "知识地基拆除期间生活不能停摆，故需一套'暂行道德'：一、服从所在国之法律与习俗（从众以维持运转）；二、行动上坚决——一旦决定即如箭在弦，犹豫不决比选错方向更消耗；三、只求改变自己的欲望而非世界的秩序（斯多噶式的边界划定）。要点：深刻变革期（怀疑、重建、转型）需要一套与目标体系相独立的临时操作系统——它不求真，只求让主体在悬置期保持完整与行动力。",
+      "definition_en": "While the foundations are under demolition, life must go on: obey local law and custom; act with firm decisiveness once resolved; seek to change your own desires, not the world's order. A provisional OS independent of the system under reconstruction—seeking not truth but integrity of the agent during suspension.",
+      "source_chapter": "《谈谈方法》第三部分",
+      "key_concepts": [
+        "暂行道德",
+        "从众准则",
+        "坚决行动",
+        "改变欲望而非世界",
+        "过渡期操作系统"
+      ],
+      "process_zh": [
+        "识别处于'根基悬置期'的领域（价值观、战略、信仰、架构）",
+        "为该领域配备临时操作准则：随主流（降低摩擦）+选后坚决（防内耗）",
+        "划清边界：把控制权内收——只调节自己的欲望与判断，不硬撼不可控者",
+        "设定过渡期限：暂行体系以'地基重建完成'为到期条件，到期即重审"
+      ],
+      "process_en": [
+        "Identify domains under foundation-suspension (values, strategy, faith, architecture)",
+        "Fit them with a provisional OS: follow prevailing norms (low friction) + act decisively once chosen",
+        "Bound the scope: retract control to your own desires and judgments; do not assault the uncontrollable",
+        "Set an expiry: the provisional system ends when the rebuilt foundation is certified—then re-review"
+      ],
+      "key_quote_zh": "我最大的任务在于战胜我自己……不被欲望牵着走，而尽我所能使我的欲望符合理性，并使我的意见仅指向我的智力所能清楚分明把握的事物。",
+      "key_quote_en": "My chief aim was to master myself rather than fortune, to change my desires rather than the order of the world, and generally to accustom myself to believe that nothing lies wholly within our power but our own thoughts.",
+      "representative_cases_zh": "1629年笛卡尔移居荷兰后，住所频繁更换（阿姆斯特丹、莱顿、恩德赫芬、埃格蒙德），通信皆用化名、经梅尔塞纳中转，甚至要求友人'只写信封地址不写寄信人'。这不是怯懦，而是自觉执行的暂行道德：他公开悬置了'一切传统知识'，却在行动上顺从所在国的法律与宗教环境（闻伽利略案即撤回《论世界》），把全部激进化收束在书斋内部——外界摩擦最小化，内部重建不停摆。悬置与行动的双轨，被他本人活成了示范。",
+      "representative_cases_en": "From 1629 in Holland Descartes moved houses often, wrote under assumed names via Mersenne, and withdrew Le Monde at news of Galileo's trial—not timidity but enacted provisional morality: suspend all tradition publicly, comply outwardly with law and church, and keep the radicalism entirely inside the study. Suspension and action on twin tracks.",
+      "modern_applications_zh": [
+        "组织转型期：新战略未验证时，'老系统照常运营+小规模激进实验'双轨并行",
+        "个人信念重构：怀疑期不辞职不离婚，以暂行守则维持运转，设定重审期限",
+        "代码大重构：新旧架构并行期明确'生产流量走旧路、验证流量走新路'的暂行规则"
+      ],
+      "modern_applications_en": [
+        "Organizational transition: run the legacy system while piloting the radical new strategy on a small scale",
+        "Personal belief reconstruction: don't quit or divorce mid-doubt; run on a provisional code with a review date",
+        "Major refactor: keep production traffic on the old architecture while validation traffic probes the new"
+      ],
+      "related_modes": [
+        "M-DKR-001",
+        "M-DKR-004"
+      ]
+    },
+    {
+      "id": "M-DKR-010",
+      "name_zh": "坐标代数统一法",
+      "name_en": "Coordinate-Algebraic Unification Method",
+      "mode_code": "M-DKR-010",
+      "category": "数学/科学",
+      "domain_zh": "表示法革命/几何代数互译",
+      "domain_en": "Notation Revolution / Geometry-Algebra Intertranslation",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "为空间引入坐标表示，使几何对象（点、线、曲线）与代数对象（数、方程）可以双向翻译：图形即方程，方程即图形。表示法革命的方法论意义大于定理本身——一旦建立了两个表示系统之间的可靠翻译层，每个系统的全部既有工具立即对另一系统生效（代数的机械运算能力注入几何，几何的直观供代数取用）。要点：攻克长期难题时，优先考虑'造一个翻译层让两套成熟工具互相打通'，而非在任一系统内硬啃。",
+      "definition_en": "Introduce coordinates so that geometric objects and algebraic equations translate both ways: figures are equations, equations are figures. The translation layer matters more than any theorem—each system's full toolkit instantly becomes available to the other.",
+      "source_chapter": "《几何学》（《谈谈方法》附录，1637）",
+      "key_concepts": [
+        "解析几何",
+        "坐标系",
+        "表示法革命",
+        "翻译层",
+        "曲线即方程"
+      ],
+      "process_zh": [
+        "识别两个各自成熟但互不相通的系统（几何直观 vs 代数运算）",
+        "构造翻译层：为每个对象选定规范化表示（点↔数对，曲线↔方程）",
+        "验证翻译无损：两个方向的转换都能保持全部关键性质",
+        "打通后立即使既有工具互相注入，并用新能力重做此前的难题验收"
+      ],
+      "process_en": [
+        "Identify two mature but mutually sealed systems (geometric intuition vs. algebraic computation)",
+        "Build a translation layer: a canonical representation per object (point↔pair, curve↔equation)",
+        "Verify losslessness: conversions preserve all key properties both ways",
+        "Cross-inject existing toolkits immediately and re-attack old problems with the new capacity"
+      ],
+      "key_quote_zh": "我将毫不犹豫地在几何学中引入算术的全部术语，以便使我能更加简明地被理解。——任何曲线问题都可归结为'它满足什么方程'。",
+      "key_quote_en": "I shall borrow all the best of the notation of arithmetic for geometry, so that I may be better understood—every curve problem reduces to: what equation does it satisfy?",
+      "representative_cases_zh": "1637年《几何学》第三卷末尾对帕普斯四线问题的完整解决：设动点坐标 x、y，把'到四条定线距离成定比'的希腊几何条件逐条写成二次方程，代数化简后反译回几何——不仅重新给出古人的已知 locus，还顺势分类出古人未见的全部解族（圆锥曲线的一般分类）。这道两千年的难题在翻译层建成后'自动'解决——力量的来源不是新定理，而是新表示。莱布尼茨、牛顿的微积分直接在坐标系上起飞。",
+      "representative_cases_en": "In 1637 the four-line problem of Pappus falls whole: write each distance condition as an equation in x, y, simplify algebraically, translate back—recovering the ancients' loci and discovering solution families they never saw. Two millennia of difficulty dissolved by a new representation, not a new theorem; calculus lifted off directly from these coordinates.",
+      "modern_applications_zh": [
+        "跨技术栈打通：为两套系统造标准翻译层（如 ORM、协议转换器），使双方工具互用",
+        "科学数据整合：为异构数据源建立统一坐标（时间轴/地理坐标/ID 映射）后，分析工具才普遍适用",
+        "组织知识打通：把口头经验与量化指标放进同一映射（案例↔数据点），管理工具才能作用于经验层"
+      ],
+      "modern_applications_en": [
+        "Cross-stack integration: build a standard translation layer (ORM, protocol converter) so toolkits interoperate",
+        "Data unification: establish common coordinates (time, geography, ID mapping) before applying analytics",
+        "Knowledge systems: map anecdotes and metrics into one representation (case↔data point) before managing either"
+      ],
+      "related_modes": [
+        "M-DKR-004",
+        "M-DKR-005",
+        "M-DKR-008"
+      ]
+    }
+  ]
+}

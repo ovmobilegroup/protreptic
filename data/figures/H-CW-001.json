@@ -1,0 +1,808 @@
+{
+  "schema_version": "v6",
+  "id": "H-CW-001",
+  "code": "H-CW-001",
+  "figure_name": "克劳塞维茨",
+  "figure_code": "H-CW-001",
+  "figure_pinyin": "Kèláo Sāiwéicí",
+  "birth_year": 1780,
+  "death_year": 1831,
+  "era": "近代战争时代（普鲁士马格德堡出生（1780）—1792年以少年士兵参加反法战争—1806年耶拿战役被法军俘虏—沙恩霍斯特麾下军事改革核心（1807-1812）—赴俄参加1812年战役、策动普鲁士倒戈—1815年滑铁卢时任参谋长—1818-1830年任柏林军官学校校长、著《战争论》—1831年死于霍乱：马格德堡—柏林—俄国—巴黎—科布伦茨—布雷斯劳）",
+  "school": "军事哲学家 + 《战争论》（Vom Kriege，西方战争理论第一经典）作者 + 普鲁士军事改革派（沙恩霍斯特传统）继承人 + 康德批判哲学在军事领域的移植者 + '战争是政治的继续'命题的提出者",
+  "style_name": "Carl von Clausewitz",
+  "courtesy_name": "卡尔·冯·克劳塞维茨 / Clausewitz（英语世界通称，省略'冯'）/ '西方兵圣'（与孙武并称的尊号，非时称）",
+  "pseudonym": "《战争论》生前未定稿出版，由遗孀玛丽·冯·克劳塞维茨于1832年整理刊行；生前以军官、教官与参谋文书行世，理论以手稿形态存在",
+  "historical_significance": "克劳塞维茨（1780-1831），普鲁士将军与军事思想家，十二岁从军，亲历耶拿之耻（1806）、俄国远征（1812）、莱比锡与滑铁卢（1815）——他的理论不是书斋产物，而是被拿破仑战争'熔炼'出来的经验批判。任柏林军官学校校长期间（1818-1830）写就《战争论》八篇，生前未完成即死于霍乱。他以康德式批判方法把战争研究从几何学化的操典（比洛、若米尼式'战争数学'）改写为一门关于暴力、偶然与政治目的的辩证科学：'战争无非是政治通过另一种手段的继续'、'战争是迫使敌人服从我方意志的暴力行为'、'每个时代有它自己的战争'。他的'重心'（Schwerpunkt）、'战争迷雾与摩擦'、'防御是更强的作战形式'、'军事天才'等概念至今是各国参谋学院的共同语言。毛泽东在《论持久战》中称其'战争是政治的继续'论为'有一点道理的'并加以扬弃改造；列宁在十月革命前后反复批注此书。普鲁士总参谋部经由老毛奇继承其遗产，两次大战的德国作战计划、现代核威慑理论与商业竞争战略皆以他为源头。他与孙武东西并称：孙武给了'不战'的理想，克劳塞维茨给了'战争为何总爆发、又为何必须被政治驯服'的解剖学。",
+  "unique_thinking": "克劳塞维茨的独特贡献是把战争从'几何学'改写为'辩证法'：在他之前，战争理论是标图作业与计算（若米尼的'战争数学'）；他宣告'战争是不确定性的王国'——偶然性、摩擦（Friction）与政治激情使任何公式失效，理论的任务不是预测而是训练判断（'理论是指南针而非地图'）。他的三重改造：其一，政治本位——'战争是政治通过另一种手段的继续'，暴力本身没有意义，意义全部来自它所服务的政策，这就把'打胜仗'从目的降格为手段；其二，辩证结构——现实战争在'绝对战争'（暴力的逻辑极限）与'有限战争'（政治的节制）之间滑动，敌我双方的相互作用（Wechselwirkung）把冲突推向极端，而摩擦又把它拉回现实，理论必须同时握住两端；其三，防御优先——'防御这种作战形式就其本身来说比进攻强'，进攻方的一切优势都会被空间、时间与消耗侵蚀。他把'军事天才'定义为在迷雾中凭眼力（coup d'œil）与意志决断的人——理论终点是对不可计算者的承认。这一整套'暴力—偶然—政治'的三元分析，构成现代战略学、核威慑与冲突研究的共同地基。",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-CW-001",
+    "M-CW-002",
+    "M-CW-003",
+    "M-CW-004",
+    "M-CW-005",
+    "M-CW-006",
+    "M-CW-007",
+    "M-CW-008",
+    "M-CW-009",
+    "M-CW-010"
+  ],
+  "key_concepts": [
+    "战争是政治的继续",
+    "战争迷雾",
+    "摩擦",
+    "重心打击",
+    "防御优势",
+    "绝对战争",
+    "军事天才",
+    "民众战争",
+    "战争理论指南针",
+    "暴力受政治节制"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-SW-001",
+      "target_figure_name": "孙武",
+      "relation_type": "东西战争哲学的两极：政治驯服暴力的两种路径",
+      "description_zh": "孙武与克劳塞维茨是东西方战略学的两座源头，共享同一理性内核——战争必须服从政治目的：孙武'主不可以怒而兴师'与克劳塞维茨'战争是政治的继续'在两千年间遥相呼应。但路径相反：孙武的理想是让战争不发生（不战而屈人之兵，庙算先胜），克劳塞维茨的前提是战争已经发生（会战与暴力不可避免，理论的任务是在暴力中保持政治方向）。孙武把摩擦性现实（迷雾、偶然）当作要靠信息与计算消除的障碍，克劳塞维茨把摩擦当作战争的本体论属性——不可消除、只能承受。对照链：M-CW-001（战争是政治的继续）× M-SW-010（慎战政治约束）——同一命题的'事前节制'与'事中驯服'两个半边。",
+      "bidirectional_hint": "孙武档案未来修订时可在 M-SW-010 处补一条指向 H-CW-001 的跨引用（政治约束从战前禁令到战中方向的扩展）。",
+      "mode_pair": [
+        "M-CW-001",
+        "M-SW-010"
+      ]
+    },
+    {
+      "target_figure_code": "H-MO-001",
+      "target_figure_name": "墨子",
+      "relation_type": "暴力理性的两极：以战止战与以备止战",
+      "description_zh": "墨子与克劳塞维茨都在为'暴力如何不失控'建模，但机制相反：墨子以防御的可信承诺让进攻无利可图（救守+推演演示），战争根本不发生；克劳塞维茨以防御是更强的作战形式这一军事事实，说明为什么弱者常能承受强者进攻、战争为何趋于有限。墨子的止战是工程性威慑，克劳塞维茨的有限化是摩擦与政治的本体论结果。两者共同否定'纯粹军事胜利'的自足性：墨子以'利'核算战争，克劳塞维茨以'政治'核算战争——暴力没有内在意义。对照链：M-CW-005（防御优势）× 墨子非攻救守——防御作为止战机制的中国工程版与普鲁士理论版。",
+      "bidirectional_hint": "墨子档案未来修订时可在非攻救守模式（M221 非攻守成法）处补一条指向 H-CW-005 的跨引用（防御强度作为止战承诺的军事根据）。",
+      "mode_pair": [
+        "M-CW-005",
+        "M221"
+      ]
+    },
+    {
+      "target_figure_code": "H-WQ-001",
+      "target_figure_name": "吴起",
+      "relation_type": "战争机器的两种控制论：组织工程与政治方向",
+      "description_zh": "吴起回答'战争机器如何造、如何养'（武卒考核、赏罚信用、因形用权），克劳塞维茨回答'这台机器的方向盘握在谁手里、为什么必须握在政治手里'。吴起的机器是可考核、可激励、可保养的工程对象，但他一生也示范了机器脱离政治庇护的后果（君疑而将危、变法随庇护人而废）——恰是'军事从属于政治'被违反的历史注脚。克劳塞维茨的摩擦概念同时为吴起的'因形用权'提供了本体论根据：预案必须存在，但摩擦保证态势永远溢出预案，即席裁量不可替代。对照链：M-CW-007（军事天才与即席判断）× M-WQ-006（因形用权）——两大传统对'预案-裁量'张力的独立求解。",
+      "bidirectional_hint": "吴起档案未来修订时可在 M-WQ-006 处补一条指向 H-CW-007 的跨引用（即席裁量的摩擦论根据）。",
+      "mode_pair": [
+        "M-CW-007",
+        "M-WQ-006"
+      ]
+    }
+  ],
+  "tags": [
+    "克劳塞维茨",
+    "Clausewitz",
+    "战争论",
+    "On War",
+    "Vom Kriege",
+    "西方兵圣",
+    "军事哲学",
+    "战争是政治的继续",
+    "War as Politics by Other Means",
+    "战争迷雾",
+    "Fog of War",
+    "摩擦",
+    "Friction",
+    "重心打击",
+    "Center of Gravity",
+    "防御优势",
+    "Defence the Stronger Form",
+    "绝对战争",
+    "Absolute War",
+    "军事天才",
+    "Military Genius",
+    "民众战争",
+    "People's War",
+    "拿破仑战争",
+    "Napoleonic Wars",
+    "普鲁士",
+    "Prussia",
+    "战略学",
+    "Strategy",
+    "政治从属性",
+    "Political Subordination"
+  ],
+  "mode_ids_note": "M-CW-001~010 为本档案深度挖掘的10个v6思维模式，待并入主库 modes_data.json",
+  "caveats": [
+    "《战争论》是未完成的遗稿：克劳塞维茨1831年死于霍乱，第八篇仅到第五章，全书由遗孀玛丽整理出版——各篇成熟度不一，第一篇第六章'战争是政治的继续'是他自己认定的唯一完成的核心",
+    "'战争是政治的继续'常被断章为'军事无条件服从政治'——原文同时强调战争有自身的语法（Grammatik）但无自己的逻辑（Logik）：军人掌握语法，政治家掌握逻辑，两者不可互相取代",
+    "'绝对战争'是概念极限而非政策主张：拿破仑战争让克劳塞维茨看到暴力的逻辑极限，但他的结论恰是现实战争几乎总被摩擦与政治拉离极限——把'绝对战争'读成'总体战建议'是战后德国与核时代的著名误读",
+    "克劳塞维茨晚年计划全书重写（1830年手稿信），他自认许多章节'尚未达到严格演绎的水平'——引用具体段落须注意其本人的自我保留",
+    "'重心'（Schwerpunkt）在原书中是隐喻性的批判工具而非军语术语——二战德军参谋部将其操典化为装甲突击战术，这一用法在《战争论》原文中没有直接依据"
+  ],
+  "modes": [
+    {
+      "id": "M-CW-001",
+      "name_zh": "战争是政治的继续法",
+      "name_en": "War as Politics by Other Means: Subordinating Force to Purpose",
+      "mode_code": "M-CW-001",
+      "category": "核心方法",
+      "domain_zh": "战争哲学/暴力与政治",
+      "domain_en": "Philosophy of War / Violence and Politics",
+      "level": "核心",
+      "priority": "1",
+      "definition_zh": "为暴力重新定位意义来源：'战争无非是政治通过另一种手段的继续'——战争本身没有目的，它的一切意义都来自它所服务的政策。克劳塞维茨说战争有自己的'语法'（行军、会战、后勤的技术规则）却没有自己的'逻辑'（为何而战、打到什么程度为止），逻辑只属于政治。方法论签名有三：其一，先问政治目的再问军事手段——'打胜仗'不是战争的目的，迫使对方接受己方意志才是；不服务于任何政治改变的军事胜利是空转。其二，政治为战争定标尺：政治目的越高、越持久，战争的烈度与时长许可就越大；政治目的有限，则连绝对胜利都应拒绝——胜利本身可能超出目的而变成负债。其三，战争反过来塑造政治：暴力一旦启动会改变各方的利害与诉求，政治必须随战局修订目标——不是单向指挥而是双向校准。这一命题把'将军何时该停手'从道德问题改写为政治审计问题。",
+      "definition_en": "Clausewitz relocates the source of meaning for organized violence: 'war is merely the continuation of politics by other means.' War has no purpose of its own; every meaning it carries comes from the policy it serves. His formulation separates the two registers precisely: war has its own grammar — the technical rules of marching, battle, and logistics — but no logic of its own; the logic, the questions of why one fights and when to stop, belong to politics alone. Three disciplines give the mode its force. First, state the political object before selecting military means: winning battles is not the object of war; forcing the opponent to accept your will is. A military victory that produces no political change is idle motion. Second, politics sets the scale: the greater and more durable the political object, the larger the war effort it can license; a limited object should refuse even absolute victory, since success overshooting the aim turns into liability. Third, war reshapes politics in return: once violence starts it alters the interests and demands of every party, so policy must be revised as the campaign unfolds — the relationship is a two-way calibration, not one-way command. The signature: 'when should the general stop' ceases to be a moral puzzle and becomes a standing political audit.",
+      "source_chapter": "《战争论》第一篇第一章（'战争无非是政治通过另一种手段的继续'）；第八篇第六章'战争是政治的工具'（'战争有自己的语法，但没有自己的逻辑'）",
+      "key_concepts": [
+        "政治从属性",
+        "语法与逻辑之分",
+        "政治目的定标尺",
+        "目标随战局校准",
+        "胜利不等于目的"
+      ],
+      "process_zh": [
+        "开战前写下政治对象：这场战争结束后，对方必须在行为或立场上'改变什么'——写不出来就不该开战",
+        "按对象定烈度：政治目的的大小决定允许的破坏、成本与时长上限，超出对象需要的胜利一律视为超额负债",
+        "每场会战后重新审计：把军事战果换算成'离政治对象近了还是远了'——只推进距离不推进对象的战果按零计",
+        "政治随战争修订：暴力改变了敌我诉求与第三方利害后，同步修订政治目标与结束条件，拒绝'再坚持一下就好'的沉没成本逻辑"
+      ],
+      "process_en": [
+        "Write the political object before opening fire: what must the opponent change in conduct or position when the war ends — if it cannot be written, do not start.",
+        "Scale the violence to the object: the size and durability of the political aim caps the destruction, cost, and duration you may license; victory beyond the aim's need counts as excess liability.",
+        "Audit after every engagement: convert each military result into 'did it move us toward the political object?' — gains that advance distance but not the object are scored as zero.",
+        "Revise politics as war unfolds: once violence has altered the parties' stakes and third parties' interests, update both the political aim and the end conditions; refuse sunk-cost logic of 'just a little longer.'"
+      ],
+      "representative_cases_zh": [
+        "1812-1814年第六次反法同盟：联军目标从'击退入侵'升级为'迫使拿破仑放弃欧洲霸权'后，才接受延续战事的巨大消耗——政治对象决定军事忍耐的上限，莱比锡与巴黎进军都服从这一标尺",
+        "1991年海湾战争：多国部队在科威特光复后即停战，不进巴格达——军事上完全有能力继续，但授权的政治对象（恢复科威特主权）已经达成，克劳塞维茨式'目的即刹车'的现代范本",
+        "反面警示：越南战争美国军事上几乎每场会战都胜，但政治对象（维持一个稳定的南越政权）不可达成——战争与政治对象脱钩后，胜利堆积如山而战争失败；'打赢战斗、输掉战争'是政治从属性被切断的经典病理"
+      ],
+      "representative_cases_en": [
+        "The Sixth Coalition, 1812-1814: only when the allies escalated their political object from 'repel the invasion' to 'break Napoleon's hegemony over Europe' did they accept the war's enormous cost — the political object set the ceiling of military endurance, and Leipzig and the march on Paris both obeyed it.",
+        "The Gulf War, 1991: the coalition halted at Kuwait's liberation instead of driving to Baghdad — the military could have continued, but the authorized political object (restoring Kuwaiti sovereignty) was met; a modern textbook of 'the object as brake.'",
+        "Cautionary counterexample: in Vietnam the United States won virtually every major engagement, yet the political object — a stable South Vietnamese state — was unattainable. Once war and political object decouple, victories pile up while the war is lost; 'winning the battles, losing the war' is the classic pathology of severed political subordination."
+      ],
+      "modern_applications_zh": [
+        "企业竞争战略：先写'这场价格战结束后市场份额/客户关系要变成什么样'，再决定投入规模——不为面子参战",
+        "诉讼策略：起诉前确定'和解底线与商业关系存续'的政治对象，把胜诉率与对象达成率分开核算",
+        "项目管理与危机处理：'会战'（一次冲刺、一次公关战）之后必须重新对照总体对象审计战果",
+        "个人谈判：把'吵赢'改写为'要对方接受什么'，胜利超出对象的部分按成本计"
+      ],
+      "modern_applications_en": [
+        "Competitive strategy: write what market share and customer relationships must look like when the price war ends, before sizing the investment — never fight for prestige alone.",
+        "Litigation strategy: fix the settlement floor and the survival of the business relationship as the 'political object,' and account for win-probability and object-attainment separately.",
+        "Projects and crisis response: after every sprint or public battle, re-audit results against the overarching object.",
+        "Negotiation: rewrite 'winning the argument' as 'what the other side must accept'; treat any victory beyond that as cost."
+      ],
+      "related_modes": [
+        "M-CW-002",
+        "M-CW-004",
+        "M-SW-010"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "俾斯麦（政治驾驭军事的实践者）",
+        "毛泽东（'政治是不流血的战争'的改造者）",
+        "孙武（'主不可以怒而兴师'的先声）"
+      ],
+      "key_quote_zh": "战争无非是政治通过另一种手段的继续——战争有自己的语法，但没有自己的逻辑。",
+      "key_quote_en": "War is merely the continuation of politics by other means: war has its own grammar, but not its own logic."
+    },
+    {
+      "id": "M-CW-002",
+      "name_zh": "迷雾与摩擦不可消除法",
+      "name_en": "Fog and Friction: Planning for the Uncertainty That Never Lifts",
+      "mode_code": "M-CW-002",
+      "category": "核心方法",
+      "domain_zh": "战争哲学/不确定性与执行",
+      "domain_en": "Philosophy of War / Uncertainty and Execution",
+      "level": "核心",
+      "priority": "2",
+      "definition_zh": "承认不确定是战争的本体论属性而非情报缺陷：'战争是不确定性的王国'——一切行动都发生在'迷雾'（信息不全、敌情不明）与'摩擦'（Friction：让简单事情变难的无数小障碍——疲惫、天气、误传、机械故障、士气波动）之中。克劳塞维茨的签名在于拒绝两种错误疗法：一是幻想用更详尽的计划消除摩擦——计划越精细，被摩擦破坏的面越大；二是用'意志'否认摩擦——蛮勇只是让摩擦以更贵的方式兑现。正确姿势是把摩擦当作常量纳入设计：计划要粗线条、留余量，判断要留修正时间，执行要授权现场（因为现场者看得见局部迷雾）。他的名言是'摩擦是使实际战争与纸面战争区别开来的全部因素'——理论的意义不是预测，而是让人在摩擦中仍能认出政治方向。",
+      "definition_en": "Clausewitz makes uncertainty an ontological property of war, not an intelligence deficiency: 'war is the realm of uncertainty.' Every action unfolds inside the fog (incomplete information, an enemy who conceals) and under friction — the countless small impediments that make the simple difficult: exhaustion, weather, garbled orders, mechanical failure, wavering morale. The signature of the mode is its refusal of two false cures. The first is the fantasy of abolishing friction through ever more detailed planning: the finer the plan, the larger the surface friction has to tear. The second is denying friction through sheer will: bravado merely lets friction settle its bill at a higher price. The correct posture is to build friction in as a constant: plans drawn in broad strokes with margins, judgments given time to revise, execution delegated to those on the spot who can see their patch of fog. His famous line: friction is 'the only concept that more or less corresponds to the factors that distinguish real war from war on paper.' Theory, on this view, exists not to predict but to train a mind that can still recognize its political direction  Theory, on this view, exists not to predict but to train a mind that can still recognize its political direction amid friction. The concept was forged against the staff instructors of his day, who taught war as a set of solvable problems; his counter-teaching, drawn from his own wounds at Jena and his marches across Europe, is that the commander who expects a solved problem has already surrendered to the first real obstacle. That is why every great captain, in his telling, is distinguished less by brilliance than by the stamina to keep pursuing the political direction after the plan has begun to die.",
+      "source_chapter": "《战争论》第一篇第七章'战争中的摩擦'；第一篇第二章与第六章（不确定性与情报）；第六篇论防御与时间",
+      "key_concepts": [
+        "战争迷雾",
+        "摩擦",
+        "计划粗线条化",
+        "现场授权",
+        "不确定性常量化"
+      ],
+      "process_zh": [
+        "按'计划必然出错'设计：任何行动只定到目的与阶段线，细节与顺序留给现场——计划的价值在共同方向而非精确执行",
+        "预留摩擦余量：时间、兵力、补给一律按两倍恶化情形预算，把'顺利情形'仅作上界而非基线",
+        "把决策权推到看得见局部迷雾的一线：授权现场在阶段线内自行调整，要求上报的是态势而非请示",
+        "摩擦后复盘归因：区分'运气坏'与'计划假设错'——摩擦常量化不等于放弃学习，被同一块石头绊倒两次才是失败"
+      ],
+      "process_en": [
+        "Design for inevitable error: fix only the objective and phase lines; leave detail and sequence to the field — a plan's value is the shared direction, not precise execution.",
+        "Budget friction margins: double time, force, and supply estimates against adverse assumptions; treat the smooth case as an upper bound, never the baseline.",
+        "Push decisions to where local fog is visible: delegate adjustment within phase lines to the front, demanding situation reports rather than permission requests.",
+        "Post-mortem with friction accounting: separate 'bad luck' from 'wrong planning assumptions' — constancy of friction does not abolish learning; stumbling over the same stone twice is the real failure."
+      ],
+      "representative_cases_zh": [
+        "1806年耶拿-奥尔施塔特：普鲁士军队操典精确、阅兵华丽，但一旦被法军打乱节奏，命令传达、行军协同全面断裂——几何学化军队在摩擦面前的总崩溃，是克劳塞维茨本人被俘的亲身教材",
+        "1944年诺曼底登陆：计划者明知天气、潮汐、空降散布皆不可控，以阶段线+临机授权设计——D日当天散布严重但态势判断与现场决断救回战局，'在迷雾中作战'的工程化实现",
+        "反面警示：1941年巴巴罗萨计划以'十周内击败苏联'为基线——把一切变量按顺利情形取值（气候、补给、动员速度），摩擦以最贵的方式兑现；超大计划不留余量，本身就是最大的摩擦制造机"
+      ],
+      "representative_cases_en": [
+        "Jena-Auerstedt, 1806: the Prussian army was precise on parade and exact on paper, yet once French tempo broke its rhythm, orders, marching, and coordination snapped — the total collapse of a geometrized army before friction, a textbook Clausewitz himself experienced as a prisoner.",
+        "D-Day, 1944: planners knew weather, tides, and airborne scatter were uncontrollable; the design used phase lines plus on-the-spot discretion — scatter was severe on the day, but situation judgment and field decisions saved the operation, an engineered way to 'fight in the fog.'",
+        "Cautionary counterexample: Operation Barbarossa, 1941, ran on a ten-week baseline in which every variable took its favorable value (climate, logistics, mobilization). Friction cashed its bill at the highest price; a mega-plan without margins is itself the largest friction generator."
+      ],
+      "modern_applications_zh": [
+        "软件与基础设施工程的'按会出错设计'：冗余、回滚、灰度发布，把故障当常量而非事故",
+        "应急管理：预案只到指挥关系与阶段目标，现场处置授权与'两倍恶化'资源预算",
+        "供应链：按'总有节点会断'设计缓冲库存与替代路线，而非追求零摩擦的理想链路",
+        "个人执行：给日程留缓冲，把'一切顺利'当作礼物而非计划前提"
+      ],
+      "modern_applications_en": [
+        "Software and infrastructure engineering: redundancy, rollback, and staged rollout — treating failure as a constant, not an incident.",
+        "Emergency management: plans down to command relations and phase objectives, field discretion, and resources budgeted at twice the adverse case.",
+        "Supply chains: buffer stocks and alternate routes designed around 'some node will break,' not a zero-friction ideal.",
+        "Personal execution: buffer your calendar; treat 'everything went smoothly' as a gift, never a premise."
+      ],
+      "related_modes": [
+        "M-CW-003",
+        "M-CW-007",
+        "M-WQ-006"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "老毛奇（'没有任何计划能在与敌接触后存活'的继承者）",
+        "艾森豪威尔（诺曼底临机体系的主持者）",
+        "孙武（'兵形象水'的对照极：以计算对冲不确定性）"
+      ],
+      "key_quote_zh": "摩擦是使实际战争与纸面战争区别开来的全部因素——战争是迷雾中的意志较量。",
+      "key_quote_en": "Friction is the only concept that corresponds to what distinguishes real war from war on paper: war is a contest of wills inside the fog."
+    },
+    {
+      "id": "M-CW-003",
+      "name_zh": "重心打击法",
+      "name_en": "Center of Gravity: Strike What Everything Depends On",
+      "mode_code": "M-CW-003",
+      "category": "核心方法",
+      "domain_zh": "战略学/目标选择",
+      "domain_en": "Strategy / Target Selection",
+      "level": "核心",
+      "priority": "3",
+      "definition_zh": "把作战对象从'对方的全部力量'缩小为'其力量所依赖的那个枢纽'：克劳塞维茨借力学概念提出'重心'（Schwerpunkt）——每个对手都存在一个一切力量与运动所依赖的中心，集中心力击中它，其余部分会随之崩解；零散地消耗对方全部力量则事倍功半。方法论签名有四：其一，重心是结构判断而非地理判断——它可能是一支军队、一座首都、一个同盟、一种补给体系，甚至（民众战争时代）是民心；其二，重心必须从'对手是谁'推出，不能照抄模板：拿破仑法国的重心是野战军，同盟国的重心可能是彼此的联盟纽带；其三，己方也要反过来用同一概念自审——我方力量依赖什么、对方会打我哪里；其四，打击重心要求集中：所有分散、渐进、'顺便'的动作都是对重心的背叛。这一模式是后世'决定性 point''theory of victory'的共同祖先，但克劳塞维茨的原始用法是批判性的：帮你问'这场战争里到底什么才是决定性的'。",
+      "definition_en": "Clausewitz narrows the object of war from 'the enemy's total strength' to the hub that strength depends on. Borrowing from mechanics, he names the Center of Gravity (Schwerpunkt): every opponent possesses a center on which all its power and movement depends — strike it with concentrated force and the rest collapses; nibbling at everything dissipates effort. Four disciplines define the mode. First, the center is a structural judgment, not a geographic one: it may be an army, a capital, an alliance, a supply system — or, in the age of people's war, popular support itself. Second, the center must be derived from who the opponent actually is; templates do not transfer: Napoleon's France centered on its field army, while for a coalition the center might be the bonds between its members. Third, the concept turns selfward: identify what your own power depends on and where the enemy will strike you. Fourth, striking the center demands concentration: every dispersal, every incremental or 'opportunistic' action betrays it. This mode is the ancestor of all later 'decisive point' and 'theory of victory' doctrine — yet Clausewitz's original use was critical: to force the question of what, in this particular war, is actually decisive.",
+      "source_chapter": "《战争论》第六篇第八章（重心概念的原始提出）；第八篇第四、五章（对各类对手重心辨析与有限战争的限制）",
+      "key_concepts": [
+        "重心",
+        "Schwerpunkt",
+        "结构枢纽",
+        "集中原则",
+        "决定性目标",
+        "自审重心"
+      ],
+      "process_zh": [
+        "绘制依赖结构：不画对方有什么，而画对方的力量靠什么运转——军队、补给、同盟、财政、合法性逐层追问'如果失去它，整体还能维持几成'",
+        "标定重心：在依赖结构中找出'失一处而全局动摇'的节点，明确写出它为何是重心而非仅仅是弱点",
+        "集中资源于单一主攻：把主力、时间与政治资本聚焦于重心方向，明确列出'为此不做的事'清单",
+        "双向自审：用同一张依赖图检查己方重心，评估对方可能的打击与己方冗余——重心思维是攻防一体的"
+      ],
+      "process_en": [
+        "Map the dependency structure: not what the enemy has, but what his power runs on — army, supply, alliance, finance, legitimacy — asking layer by layer 'if this were lost, how much of the whole still functions?'",
+        "Mark the center: identify the node whose loss shakes the whole, and write out explicitly why it is the center and not merely a weak spot.",
+        "Concentrate on a single main effort: focus force, time, and political capital on the center-of-gravity axis, and keep an explicit list of what you will therefore not do.",
+        "Audit both directions: run the same dependency map over your own side, weigh likely enemy strikes and your redundancy — center-of-gravity thinking is inherently attack and defense in one."
+      ],
+      "representative_cases_zh": [
+        "1812年俄国：拿破仑在博罗季诺后进入莫斯科，却发现重心判断错误——俄国的重心不在首都而在军队的存续与农民的坚壁清野；占领莫斯科未触发崩溃，反而把法军拖入补给真空",
+        "1943-1945年同盟国对德国：重心标定为鲁尔工业与石油合成燃料体系——战略轰炸在1944年掐断燃料后，德军机械化部队与空军事实上瘫痪，'打击运转所系而非打击一切'的现代样本",
+        "反面警示：一战西线的'重心'被证明不存在单点——堑壕体系使任何单点突破都不致全局崩解，凡尔登、索姆河的百万消耗都是把'重心想象'硬套在无重心结构上的代价；重心不存在时，唯一诚实的答案是把战争预期改写为消耗战"
+      ],
+      "representative_cases_en": [
+        "Russia, 1812: after Borodino Napoleon entered Moscow and found his center-of-gravity judgment wrong — Russia's center lay not in the capital but in the survival of its army and the peasants' scorched earth; taking Moscow triggered no collapse and instead drew the French into a supply void.",
+        "The Allies against Germany, 1943-1945: the center was set as the Ruhr industry and synthetic-fuel system; once strategic bombing severed fuel in 1944, the Wehrmacht's mechanized force and air force were effectively paralyzed — a modern case of striking what the machine runs on, not everything it has.",
+        "Cautionary counterexample: on the Western Front in World War I, no single center proved to exist — trench systems meant no breakthrough collapsed the whole, and the million-casualty grind of Verdun and the Somme was the price of forcing a center-of-gravity image onto a centerless structure. Where no center exists, the only honest answer is to rewrite expectations as attrition."
+      ],
+      "modern_applications_zh": [
+        "商业竞争：对手的重心可能是单一营收产品、关键客户契约或核心研发团队——攻其现金牛比全线对轰更省",
+        "网络安全：红队按依赖结构找'失一而瘫'的枢纽（身份系统、备份、单一DNS），防守方反向加固自审",
+        "诉讼与谈判：识别对方真正承受不起的败诉点或曝光点，集中证据火力",
+        "个人职业：把有限时间投向'失此则全局失效'的核心能力，而非均匀撒在十项技能上"
+      ],
+      "modern_applications_en": [
+        "Competition: a rival's center may be a single revenue product, a key contract, or the core R&D team — attacking the cash cow beats fighting on every front.",
+        "Cybersecurity: red teams hunt for single-point-of-collapse hubs (identity systems, backups, sole DNS); defenders run the same dependency map to harden.",
+        "Litigation and negotiation: find the loss or exposure the other side cannot actually absorb, and concentrate evidence there.",
+        "Careers: put scarce hours into the capability whose loss would invalidate everything else, not spread evenly across ten skills."
+      ],
+      "related_modes": [
+        "M-CW-001",
+        "M-CW-004",
+        "M-CW-008"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "拿破仑（其战法迫使重心概念诞生）",
+        "老毛奇（把重心操作化为分进合击）",
+        "朱利安·科贝特（海上重心论的平行发展者）"
+      ],
+      "key_quote_zh": "在每一次战争中，都存在一个一切力量与运动所依赖的重心——找到它，把主力砸向它。",
+      "key_quote_en": "In every war there exists a center of gravity on which all power and movement depends: find it, and hurl your main force at it."
+    },
+    {
+      "id": "M-CW-004",
+      "name_zh": "绝对战争与有限战争辩证法",
+      "name_en": "Absolute and Limited War: The Dialectic of Escalation",
+      "mode_code": "M-CW-004",
+      "category": "核心方法",
+      "domain_zh": "战争哲学/烈度控制",
+      "domain_en": "Philosophy of War / Intensity Control",
+      "level": "核心",
+      "priority": "4",
+      "definition_zh": "同时握住战争烈度的两端：克劳塞维茨从敌我相互作用（Wechselwirkung）推出'绝对战争'的逻辑极限——每一步升级都引发对方对应升级，暴力在纯粹逻辑上有无限上升的倾向；但同一本书里他反复论证，现实战争几乎总是被三类力拉离极限：摩擦（执行层面）、偶然（敌情与运气）、政治目的（对象有限则手段有限）。方法论签名在于'辩证三拍'：抽象地承认暴力趋向极端（不要低估对手的升级意愿），具体地认清现实战争是 varied 强度的连续谱（不要高估任何一方的升级能力），然后由政治在连续谱上为这一场战争选点定标。他反对两种对称的错误：和平主义者假装烈度可单方面自我设限（对方不配合），军国主义者假装烈度不受政治约束（逻辑极限即现实）。核时代的'升级阶梯'理论全部生长在这对概念之上。",
+      "definition_en": "Clausewitz holds both ends of war's intensity at once. From the interaction of enemies (Wechselwirkung) he derives the logical extreme of 'absolute war': every escalation calls forth a matching escalation, so violence, in pure logic, tends upward without limit. Yet in the same book he argues that real war is almost always dragged away from that extreme by three forces: friction (execution), chance (the enemy and luck), and the political object (a limited aim licenses only limited means). The signature is a three-beat dialectic: abstractly, concede that violence tends to the extreme — never underestimate an opponent's willingness to escalate; concretely, recognize that real wars form a continuum of varied intensity — never overestimate anyone's capacity to escalate; then let politics pick and fix the point on that continuum for this particular war. He rejects two symmetric errors: the pacifist's assumption that intensity can be unilaterally self-limited (the opponent will not cooperate), and the militarist's that intensity answers to no political restraint (the logical limit is not the real one). Nuclear-age escalation-ladder theory grew entirely on this pair of concepts on the interaction spiral. He built the idea the way a physician builds a diagnosis: not from armchair axioms but from watching how 1812, 1813, and 1815 each burned through the previous year's assumptions — Napoleon's genius did not repeal the law, it merely priced the law's bill higher. The practitioner's reward for holding both ends is composure: no victory intoxicates, no defeat panics, because neither is being read against the wrong scale.",
+      "source_chapter": "《战争论》第一篇第一章（相互作用与极端倾向）；第八篇第二、三章（'绝对战争'与现实战争的修正）",
+      "key_concepts": [
+        "绝对战争",
+        "有限战争",
+        "相互作用",
+        "升级与降级",
+        "政治选点",
+        "烈度连续谱"
+      ],
+      "process_zh": [
+        "先算逻辑极限：把'如果双方都不节制会打到什么程度'写清楚——这是风险暴露的上界，不是计划",
+        "再算现实约束：逐项列出把这一场战争拉离极限的力（摩擦、对方产能、政治对象、第三方），给每一项定可信度",
+        "由政治对象选点：在连续谱上明确本方战争的烈度档位与升档触发条件，写明'什么情况下降档退出'",
+        "持续监测相互作用：对方的每次回应都在改写双方的实际档位——烈度是被双方行动共同定价的，单方定价即幻觉"
+      ],
+      "process_en": [
+        "Compute the logical limit first: write out how far it would go if neither side restrained itself — this is your risk-exposure ceiling, not a plan.",
+        "Then compute the real constraints: list the forces pulling this war from the extreme — friction, the enemy's capacity, the political object, third parties — and rate each one's credibility.",
+        "Let the political object pick the point: state on the continuum your war's intensity rung and the triggers for going up, and write the conditions for de-escalating out.",
+        "Monitor the interaction continuously: every enemy response rewrites the actual rung for both sides — intensity is priced jointly by both parties' actions; unilateral pricing is a hallucination."
+      ],
+      "representative_cases_zh": [
+        "1813-1815年同盟战争：拿破仑拒绝接受'有限失败'，把战争不断推向绝对形态（全民动员、焦土），同盟国被迫相应升级到总动员——相互作用的教科书：一方的极端化改写另一方可用档位",
+        "冷战核威慑：'相互确保摧毁'把逻辑极限写到不可想象，再以精确的政治选点（代理人战争、封锁、谈判）把现实战争固定在低烈度档——克劳塞维茨辩证法的二十世纪放大版",
+        "反面警示：1914年8月欧洲各参谋部都按'速决战'计划开战，没有任何一个政治层面对'相互作用升级'做过推演——施里芬计划被俄法动员速度打破后，各方都只能被动升档，没有人握有降级剧本；未推演升级路径的战争，会让相互作用替所有人做决定"
+      ],
+      "representative_cases_en": [
+        "The coalition wars, 1813-1815: refusing any 'limited defeat,' Napoleon pushed war toward its absolute form (levée en masse, scorched earth), and the allies were compelled to escalate to total mobilization in reply — a textbook of interaction: one side's extremism rewrites the rungs available to the other.",
+        "Cold War deterrence: mutual assured destruction wrote the logical limit beyond imagination, then precise political selection (proxy wars, blockades, negotiation) pinned real war at a low-intensity rung — Clausewitz's dialectic enlarged to the twentieth century.",
+        "Cautionary counterexample: in August 1914 every general staff went to war on a short-war plan, with no political staff having gamed the interaction's escalation; once the Schlieffen timetable broke against Russian and French mobilization, all sides could only climb rungs reactively, none holding a de-escalation script. A war that never gamed its escalation path lets the interaction decide for everyone."
+      ],
+      "modern_applications_zh": [
+        "商业价格战：先算'双方都不眨眼会烧掉多少现金'（逻辑极限），再按财务承受力与战略目的选实际投入档位，预设停火线",
+        "诉讼：把'打到最高法院'的成本与'和解即可达成商业目的'并置，由对象决定档位而非由情绪决定",
+        "公关冲突与舆论战：升级前推演对方最可能的回应档，确保自己握有降级剧本",
+        "监管博弈：企业按'最坏执法情形'定价合规投入，避免被相互作用的执法升级拖入失控档"
+      ],
+      "modern_applications_en": [
+        "Price wars: compute what mutual escalation would burn in cash, then pick the actual commitment rung from financial endurance and strategic aim, with a ceasefire line predefined.",
+        "Litigation: place 'all the way to the supreme court' beside 'a settlement achieves the commercial object' and let the object set the rung, not the mood.",
+        "PR and information conflicts: before escalating, war-game the opponent's likeliest reply and make sure you hold a de-escalation script.",
+        "Regulatory games: price compliance against the worst enforcement case so interaction-driven escalation cannot drag you into an uncontrolled rung."
+      ],
+      "related_modes": [
+        "M-CW-001",
+        "M-CW-002",
+        "M-CW-010"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "拿破仑（把相互作用推向极端的人）",
+        "托马斯·谢林（升级阶梯的现代继承者）",
+        "俾斯麦（政治选点的大师）"
+      ],
+      "key_quote_zh": "战争在逻辑上有趋向极端的倾向，但现实战争几乎总被摩擦、偶然与政治目的拉离极限——理论必须同时握住两端。",
+      "key_quote_en": "War tends to the extreme in logic, yet real war is nearly always pulled from it by friction, chance, and the political object — theory must hold both ends at once."
+    },
+    {
+      "id": "M-CW-005",
+      "name_zh": "防御是更强的作战形式法",
+      "name_en": "Defence the Stronger Form: The Asymmetry of Offence and Defence",
+      "mode_code": "M-CW-005",
+      "category": "核心方法",
+      "domain_zh": "战略学/攻防结构",
+      "domain_en": "Strategy / Offence-Defence Structure",
+      "level": "核心",
+      "priority": "5",
+      "definition_zh": "推翻'进攻天然占优'的直觉：克劳塞维茨论证'防御这种作战形式就其本身来说比进攻强'——防御者占据地利、内线、时间与待机之利，进攻方则背负着离开基地的消耗、拉长的补给线与每一步都被削弱的兵力；防御的优势不是静态的，它随进攻的深入而增长。但他的结论是辩证的：防御的强只是一种'盾'，要赢得战争必须转入进攻——'防御是带剑的防御'，正确形态是：以强防御耗尽进攻方的动量，在其'顶点'（culminating point）到来时转入反攻。方法论签名：其一，攻防选择不是性格问题而是结构问题——先算双方在空间、时间与消耗上的不对称，再选形式；其二，为对手画'顶点'：进攻方的力量沿推进路线衰减，画出它何时越过顶点，是防御计划的核心；其三，胜利常常属于在顶点处仍握有预备队的一方。",
+      "definition_en": "Clausewitz overturns the instinct that attack holds the advantage: 'the defensive form of war is in itself stronger than the offensive.' The defender holds terrain, interior lines, time, and the choice of ground, while the attacker carries consumption away from his base, lengthening supply lines, and a force that weakens with every step — and the defender's advantage is not static; it grows as the offensive drives deeper. Yet the conclusion is dialectical: the defensive's strength is a shield only, and wars are won by the offensive — defence is 'a shield made of well-aimed blows.' The correct form is a strong defence that drains the attacker's momentum, then a counter-attack once his culminating point has passed. Three disciplines define it. First, choosing offence or defence is a structural question, not a temperamental one: compute the asymmetry in space, time, and attrition before choosing the form. Second, draw the enemy's culminating point: an attack's power decays along its line of advance, and plotting when it crosses that point is the heart of a defensive plan. Third, victory commonly belongs to whoever still holds a reserve at the culminating point rather than commit early. He drew the lesson less from doctrine than from watching two invasions of France — one as a boy soldier against revolutionary levees, one as a staff officer against Napoleon — and from observing how 1812 rewarded the side that merely refused to lose. The deeper claim is psychological as much as tactical: because offence flatters courage and defence looks like timidity, organizations systematically undervalue the stronger form; correcting that bias, Clausewitz argues, is half of strategic education.",
+      "source_chapter": "《战争论》第六篇第一、二、五章（防御与进攻的关系、顶点概念）；第六篇第二十六章",
+      "key_concepts": [
+        "防御优势",
+        "顶点",
+        "带剑的防御",
+        "内线",
+        "反攻时机",
+        "攻防结构判断"
+      ],
+      "process_zh": [
+        "先做攻防结构审计：并列双方在地利、补给距离、时间偏好、消耗承受上的不对称——由结构选形式，不由勇气或传统选",
+        "绘制对方顶点：沿对手推进/扩张路线计算其力量衰减曲线（补给、伤亡、占领管理成本），标出其动量耗尽的预计区间",
+        "以强防御换取时间：在对方顶点之前避免决战，用消耗、袭扰与空间换其衰减——防御期的一切'退让'都计入反攻资本",
+        "预备队专用于顶点：把主力反攻力量严格保留到对方顶点出现之后，宁可顶点前多让空间也不提前摊牌"
+      ],
+      "process_en": [
+        "Run the offence-defence audit first: set both sides' asymmetries in terrain, supply distance, time preference, and attrition tolerance side by side — let structure pick the form, not courage or tradition.",
+        "Plot the enemy's culminating point: compute his decay curve along the line of advance (supply, casualties, occupation overhead) and mark the expected window when momentum runs out.",
+        "Buy time with a strong defence: refuse decisive battle before the culminating point, trading attrition, raids, and space for his decay — every 'retreat' in the defensive phase is booked as counter-offensive capital.",
+        "Hold reserves for the culminating point: keep the main counter-offensive force strictly until the point has passed; concede extra space beforehand rather than commit early."
+      ],
+      "representative_cases_zh": [
+        "1812年俄国战局：俄军以空间换衰减（博罗季诺未拼尽全力、放弃莫斯科），法军顶点在占领莫斯科后到来——补给真空与冬季使六十万大军仅数万生还，巴克莱与库图佐夫的'防御是更强形式'执行范本",
+        "1916年凡尔登：德军参谋部原以为短促强攻可'放干法国的血'，但防御方依托环形补给内线，进攻方的消耗反大于防御方——顶点与内线优势把'进攻计划'变成对称绞肉机",
+        "反面警示：1940年法国死守马其诺防线的静态防御——把'防御更强'误读为'防御万能'，无机动预备队、无转反攻设计；阿登突破后防线整体失效。防御的价值在'带剑'：不能转反攻的防御只是延长失败的时间表"
+      ],
+      "representative_cases_en": [
+        "The Russian campaign, 1812: trading space for decay (an unfinished battle at Borodino, the abandonment of Moscow), the Russians let the French culminating point arrive after the capital fell; supply void and winter returned a force of six hundred thousand as a remnant of tens of thousands — Barclay and Kutuzov executing 'defence the stronger form.'",
+        "Verdun, 1916: the German staff expected a short sharp thrust to 'bleed France white,' but the defender's ring of interior supply lines inverted the ledger — the attacker's attrition ran higher than the defender's; the culminating point and interior lines turned an offensive plan into a symmetric mincing machine.",
+        "Cautionary counterexample: France in 1940, wedded to the static Maginot Line — reading 'defence is stronger' as 'defence is invincible,' with no mobile reserve and no counter-offensive design; once the Ardennes broke open, the whole front failed. Defence is worth what its sword is worth: a defence that cannot transition to attack merely extends the timetable of defeat."
+      ],
+      "modern_applications_zh": [
+        "商业防御战：守成企业以渠道纵深与客户黏性耗尽进攻者的补贴烧钱，在其融资顶点后反击——瑞幸与星巴克、京东与当当式的攻防结构",
+        "网络安全：纵深防御+蜜罐消耗攻击者成本，在对方投入衰减时溯源反制",
+        "诉讼防守：以程序权利拖延消耗原告资金，在其预算顶点前促成有利和解",
+        "个人财务：以现金储备（防御）度过行业寒冬，在周期顶点反转时再出手（反攻）"
+      ],
+      "modern_applications_en": [
+        "Business defence: an incumbent drains an attacker's subsidy burn through channel depth and customer lock-in, then strikes once the attacker's funding culminating point passes.",
+        "Cybersecurity: defence-in-depth plus honeypots raises attacker cost, with attribution and counter-strike once their investment decays.",
+        "Litigation defence: procedural rights bleed the plaintiff's budget, and a favourable settlement lands before their culminating point.",
+        "Personal finance: cash reserves (defence) carry you through industry winters; deploy again when the cycle turns (counter-offensive)."
+      ],
+      "related_modes": [
+        "M-CW-002",
+        "M-CW-003",
+        "M-CW-008"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "库图佐夫（1812年防御-反攻的执行者）",
+        "毛泽东（'积极防御'与持久战的东方改造者）",
+        "法金汉（凡尔登误算的反面注脚）"
+      ],
+      "key_quote_zh": "防御这种作战形式就其本身来说比进攻强——但它是带剑的防御：以强防御等对手越过顶点，再转反攻取胜。",
+      "key_quote_en": "The defensive form of war is in itself stronger than the offensive — but it is a shield of well-aimed blows: hold the strong defence until the attacker passes his culminating point, then win by the counter-offensive."
+    },
+    {
+      "id": "M-CW-006",
+      "name_zh": "民众战争杠杆法",
+      "name_en": "The People in Arms: Popular War as a Strategic Lever",
+      "mode_code": "M-CW-006",
+      "category": "核心方法",
+      "domain_zh": "战略学/动员与社会",
+      "domain_en": "Strategy / Mobilization and Society",
+      "level": "核心",
+      "priority": "6",
+      "definition_zh": "把社会本身计入战争力量的重心：克劳塞维茨观察到拿破仑战争释放了'人民的战争'——当战争从君主间的职业对抗变为民族间的整体对抗，民心、民兵与地方抵抗就成为可以战略使用的杠杆，甚至成为对手重心的所在地（'民心是对拿破仑唯一剩余的重心'——西班牙)。方法论签名有四：其一，战争的社会化是双向的——它同时放大防御国的韧性与动员国的暴力上限；其二，民众参与改变重心的位置：占领军队而不占领社会，胜利不结算；其三，民众战争有政治前提——它需要政治对象值得民众付出，专制政权动员工具化的'人民'往往先被人民清算；其四，克劳塞维茨的克制：他视民众战争为暴烈的'发酵剂'，始终从属于正规战与政治指挥，而非独立取胜的神话。",
+      "definition_en": "Clausewitz counts society itself into the war's center of gravity. He observed that the Napoleonic wars released 'the people in arms': once war shifted from a dynastic contest of professionals to a contest between nations, popular feeling, militia, and local resistance became a strategic lever — and could even become the enemy's center of gravity itself, as in Spain, where popular resistance was 'the only remaining center of gravity against Napoleon.' Four disciplines define the mode. First, the socialization of war cuts both ways: it amplifies the resilience of the defending nation and the violent ceiling of the mobilizing one. Second, popular participation relocates the center of gravity: occupying the army while not occupying society settles nothing. Third, popular war has political preconditions — it requires a political object the people are willing to pay for; a despotic regime that instrumentalizes 'the people' is often settled first by the people themselves. Fourth, Clausewitz's restraint: he treats popular war as a violent ferment, always subordinated to regular operations and political direction, never a freestanding myth of victory. never a freestanding myth of victory. He wrote from the inside: as the author of Prussia's 1813 people-levy regulations he knew both the power of national awakening and the terror governments felt before it — his analysis keeps the enthusiasm and the fear in the same frame, which is why the chapter still reads as an operator's manual rather than a hymn.",
+      "source_chapter": "《战争论》第六篇第二十六章'人民武装'；第八篇第八章（对民众战争时代重心的讨论）；克劳塞维茨1812年《俄国战局》与《西班牙解放战争》手稿",
+      "key_concepts": [
+        "民众战争",
+        "人民武装",
+        "民族动员",
+        "重心转移",
+        "合法性动员",
+        "社会韧性"
+      ],
+      "process_zh": [
+        "做社会力量盘点：把民心、兵役人口、地方组织、历史叙事并入战争潜力清单——与正规军、财政同表计算",
+        "判定重心是否在社会：对方是职业军队还是被动员的民族？占领对方领土后'社会继续抵抗'的概率是重心判断的第一变量",
+        "以政治对象换取社会投入：让民众清楚战争的目的与代价分配——没有可辩护的对象，民众战争就是空转的暴力",
+        "纳入统一指挥：民众抵抗设定为正规战的空间与情报延展（破袭、情报、迟滞），纪律与政治红线同样适用"
+      ],
+      "process_en": [
+        "Inventory social power: fold morale, serviceable population, local organization, and historical narrative into the war-potential ledger alongside regular forces and finance.",
+        "Judge whether the center sits in society: is the enemy a professional army or a mobilized nation? The probability that occupation meets continued resistance is the first variable of the center-of-gravity judgment.",
+        "Buy social investment with a political object: make the people see both the war's purpose and the distribution of its costs — without a defensible object, popular war is idle violence.",
+        "Integrate under unified direction: set popular resistance as the space-and-intelligence extension of regular operations (raids, intelligence, delay), with discipline and political red lines applying equally."
+      ],
+      "representative_cases_zh": [
+        "1808-1814年西班牙半岛战争：游击战+英葡正规军使拿破仑三十万大军常年失血——法军占领了军队决战却始终占领不了社会，民众抵抗成为'对拿破仑唯一剩余的重心'，克劳塞维茨亲历并写作此役",
+        "1813年普鲁士：克劳塞维茨本人参与起草'全民武装'动员令（青年猎兵、地方民兵、街头捐募），把'民族觉醒'转化为正规军的补充机器——民众战争作为'发酵剂'的正面用法",
+        "反面警示：20世纪把民众战争神话化的两次灾难——希特勒以'人民战争'（Volkssturm）填补崩溃防线的成人纸面兵役，以及以'全民玉碎'动员掩盖战略破产：民众参与被政治破产业物化时，杠杆变成绞索"
+      ],
+      "representative_cases_en": [
+        "The Peninsular War, 1808-1814: guerrilla bands plus Anglo-Portuguese regulars bled Napoleon's three hundred thousand year after year — the French won army battles yet never occupied society; popular resistance became 'the only remaining center of gravity against Napoleon,' a campaign Clausewitz witnessed and wrote on.",
+        "Prussia, 1813: Clausewitz helped draft the 'armament of the people' — youth riflemen, local militia, street-level contributions — converting national awakening into a recruitment machine for the regular army: popular war as ferment, used positively.",
+        "Cautionary counterexample: two twentieth-century disasters from mythologizing the people in arms — Hitler's Volkssturm papering over a collapsing front, and 'national annihilation' mobilizations masking strategic bankruptcy; when popular participation is instrumentalized by a bankrupt politics, the lever becomes a noose."
+      ],
+      "modern_applications_zh": [
+        "企业'社区战争'：开源社区、用户共创——把用户社会化投入当作产品战争的杠杆，同时警惕'被社区反噬'",
+        "信息战与舆论防御：社会信任是社会韧性的现代形态——攻击方的重心可能是公共信任本身",
+        "城市治理与危机：应急动员的可信度取决于日常政治对象（福利、公正）的存档——临时动员借不动没有存量的信任",
+        "地缘研究：评估占领成本时把'社会继续抵抗概率'设为一级变量而非事后注脚"
+      ],
+      "modern_applications_en": [
+        "Community warfare in business: open-source and co-creation turn users' social investment into a competitive lever — and a community that can turn on its sponsor.",
+        "Information conflict and societal resilience: public trust is the modern form of social韧性 — the attacker's center of gravity may be trust itself.",
+        "Urban governance and crisis: emergency mobilization draws on a trust balance built by everyday politics (welfare, fairness); no存量, no withdrawal.",
+        "Geo-strategic analysis: make 'probability of continued social resistance' a first-class variable in occupation costing, not a footnote."
+      ],
+      "related_modes": [
+        "M-CW-003",
+        "M-CW-001",
+        "M-CW-010"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "拿破仑（点燃民众战争的人）",
+        "毛泽东（人民战争理论的系统化者）",
+        "格奈森瑙（1813年普鲁士动员的同僚）"
+      ],
+      "key_quote_zh": "民心可以成为战争唯一的重心——占领军队而占领不了社会，胜利不结算。",
+      "key_quote_en": "Popular feeling can become the war's only remaining center of gravity: occupy the army without occupying society, and victory never settles."
+    },
+    {
+      "id": "M-CW-007",
+      "name_zh": "军事天才与即席判断法",
+      "name_en": "Military Genius: Judgment Beyond Calculation",
+      "mode_code": "M-CW-007",
+      "category": "核心方法",
+      "domain_zh": "领导力/天才与决断",
+      "domain_en": "Leadership / Genius and Decision",
+      "level": "核心",
+      "priority": "7",
+      "definition_zh": "为'不可计算者'安排位置：克劳塞维茨承认理论无法覆盖迷雾中的每一个情势，他把在迷雾中正确行动的能力命名为'军事天才'——由眼力（coup d'œil：瞬间从混沌中认出要害的直觉判断）、决断的意志（在信息不足时敢于定案并承担后果）、与情绪的稳定（在危险与消耗中保持判断力）三种品质复合而成。方法论签名：其一，理论的价值恰在于'训练'天才而非替代天才——像向导教人认路而非替人走路；其二，'内心的问题'（innere Frage）是决断的真正关口：天才在信息不全时问的不是'还有什么数据'而是'现在必须定什么'；其三，把天才组织化：天才稀缺，故制度（参谋部、预案、任务式指挥）的任务是把个人眼力转化为组织能力。这一模式同时是克劳塞维茨认识论的终点——承认理性边界，并把边界变成制度设计的输入。",
+      "definition_en": "Clausewitz makes room for the incalculable: theory cannot cover every situation inside the fog, so he names the capacity to act rightly within it 'military genius' — a compound of coup d'œil (the intuitive glance that instantaneously picks out the essential in chaos), firmness of will (deciding under incomplete information and owning the result), and emotional stability (keeping judgment alive amid danger and attrition). Three disciplines define the mode. First, theory's value lies precisely in training genius rather than replacing it — a guide teaching route-finding, not walking for the traveler. Second, the 'inner question' is the true gate of decision: the genius, given incomplete data, asks not 'what more can I know?' but 'what must I decide now?' Third, institutionalize the genius: such men are scarce, so the task of institutions — staff systems, playbooks, mission command — is to convert individual coup d'œil into organizational capability. The mode is also the endpoint of Clausewitz's epistemology: acknowledge the boundary of reason, then turn that boundary into an input for institutional design. The mode closes on a warning against its own abuse: genius-talk can become an alibi for institutions that refuse to train, to plan, or to accept responsibility — his admiration for the exceptional is always paired with the staff officer's insistence that the exceptional be made as unnecessary as possible.",
+      "source_chapter": "《战争论》第一篇第三章'军事天才'；第二篇（战争理论对天才的关系）；第一篇第六章（决断与意志）",
+      "key_concepts": [
+        "军事天才",
+        "coup d'œil",
+        "决断意志",
+        "情绪稳定",
+        "任务式指挥",
+        "理性边界"
+      ],
+      "process_zh": [
+        "训练认要害的眼力：以战史复盘与沙盘推演积累'从混沌中挑出枢纽'的模式库——眼力是训练出来的模式识别，不是天赋迷信",
+        "在决断关口问'内心的问题'：数据永远不够，到期即定——写下'此刻必须定什么、不定的代价'，再定",
+        "以制度放大稀缺眼力：把个人判断转为任务式指挥（交目标+约束+资源，不交步骤），让组织的每次行动都继承一线眼力",
+        "为意志设温度计：决断的勇气与赌徒的莽勇的分界是复盘账——定期审计'信息不足时的定案'命中率，把胆量校准为可学习的参数"
+      ],
+      "process_en": [
+        "Train the eye for the essential: build a pattern library of 'picking the pivot from chaos' through campaign history and map exercises — coup d'œil is trained pattern recognition, not mystified talent.",
+        "At the decision gate ask the inner question: data is never enough; decide on time — write down 'what must be settled now and the cost of not deciding,' then settle it.",
+        "Amplify scarce judgment institutionally: mission command (objective + constraints + resources, never step-by-step orders) makes every action inherit front-line judgment.",
+        "Put a thermometer on will: the line between decisional courage and gambler's bravado is the after-action ledger — regularly audit the hit rate of decisions made under incomplete information, calibrating boldness into a learnable parameter."
+      ],
+      "representative_cases_zh": [
+        "1814年法兰西战役：拿破仑以不足七万残军在内线连续击退数倍联军——军事天才有其真实存在（眼力+意志+速度），但同期另一个事实同样真实：战略对象已不可达成，天才的战术胜利无法逆转政治败局",
+        "普鲁士总参谋部的制度化天才：老毛奇把克劳塞维茨'训练+任务式指挥'落地——1866/1870年战役中普军各级指挥官在失去联络时仍按统一意图独立机动，'把个人眼力变成组织能力'的完整实现",
+        "反面警示：天才崇拜的陷阱——隆美尔式的'前线天才'在参谋体系与后勤崩坏时让组织把希望寄托于个人即席表演：1944年诺曼底的德军指挥失灵正是把'天才决断'当作制度替代物的代价；天才的意义恰是让组织不必等待天才"
+      ],
+      "representative_cases_en": [
+        "The French campaign of 1814: with under seventy thousand remnants on interior lines Napoleon repeatedly beat back far larger allied forces — military genius is real (eye, will, speed); yet the equally real fact was that the strategic object was already unattainable, and tactical genius could not reverse the political defeat.",
+        "The Prussian General Staff institutionalized genius: Moltke the Elder landed Clausewitz's 'train judgment, then command by mission' — in 1866 and 1870 Prussian commanders maneuvered independently on a shared intent even out of contact, the full realization of turning personal coup d'œil into organizational capability.",
+        "Cautionary counterexample: the trap of genius-worship — a front-line 'genius' like Rommel let organizations pin hope on personal improvisation as staff systems and logistics crumbled; the German command failure in Normandy, 1944, was the price of treating genius decisions as a substitute for institutions. The point of genius is that the organization need not wait for one."
+      ],
+      "modern_applications_zh": [
+        "企业危机决策：预设'数据不够时的定案协议'（谁定、按什么定、多久复盘），把'拍板'从人格崇拜变成制度程序",
+        "指挥体系与授权设计：任务式指挥的现代版是'对齐意图+授权边界'的OKR/自治团队——交目标不交步骤",
+        "医生、飞行员、交易员的高压训练：模拟器中反复演练'混沌认要害'，眼力是模式库的厚度",
+        "个人决策审计：给'信息不足时的决断'建立命中率台账，把胆量变成可改进的参数"
+      ],
+      "modern_applications_en": [
+        "Crisis decision protocols: pre-agreed 'decide-on-time' agreements (who decides, on what basis, reviewed when) turn 'the call' from personality cult into procedure.",
+        "Mission command's modern descendants: intent-aligned OKRs and autonomous teams — hand over the objective, never the steps.",
+        "High-pressure training for surgeons, pilots, traders: simulate 'finding the pivot in chaos' until the pattern library thickens.",
+        "Personal decision audit: keep a ledger of hit rates for decisions under incomplete information, turning boldness into a tunable parameter."
+      ],
+      "related_modes": [
+        "M-CW-002",
+        "M-CW-009",
+        "M-WQ-006"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "拿破仑（其即席判断迫使概念诞生）",
+        "老毛奇（把天才制度化的继承者）",
+        "沙恩霍斯特（克劳塞维茨的老师与改革伙伴）"
+      ],
+      "key_quote_zh": "理论是指南针而非地图：眼力在迷雾中认出要害，意志在信息不足时定案——天才稀缺，故制度必须把眼力变成组织能力。",
+      "key_quote_en": "Theory is a compass, not a map: the eye picks out the essential in the fog, the will decides on incomplete information — genius is scarce, so institutions must turn it into organizational capability."
+    },
+    {
+      "id": "M-CW-008",
+      "name_zh": "战争计划顶点法",
+      "name_en": "The Culminating Point: Planning the End of Your Own Momentum",
+      "mode_code": "M-CW-008",
+      "category": "核心方法",
+      "domain_zh": "战略学/作战极限",
+      "domain_en": "Strategy / Limits of the Offensive",
+      "level": "核心",
+      "priority": "8",
+      "definition_zh": "为胜利预写刹车：克劳塞维茨提出'进攻的顶点'（culminating point）——进攻方的优势随推进衰减，存在一个点，越过它形势反转：继续推进不再增加政治收益，反而开始积累崩溃风险。方法论签名有三：其一，顶点是政治-军事复合曲线——既是军事的（补给、兵力、控制成本），也是政治的（占领合法性的衰减、对象达成后的边际意义归零）；其二，顶点必须在开战前画出：胜利计划如果不包含'在哪停'，就等于计划在对方选定的地点以对方选定的方式失败（1812年的拿破仑、1942年的德军皆同）；其三，顶点不是失败点而是转换点——正确设计是到达顶点前完成从进攻到固守/谈判的姿态转换。这一模式把'知止'从箴言改写为计算。",
+      "definition_en": "Clausewitz pre-writes the brake into victory: the culminating point of the attack — the moment when the attacker's advantage, decaying with every advance, reverses; beyond it, further pushing adds no political gain and begins to accumulate the risk of collapse. Three disciplines define the mode. First, the culminating point is a political-military compound curve: military (supply, force, cost of control) and political (the decay of occupation legitimacy, and the vanishing marginal meaning of gains once the object is met). Second, it must be drawn before the war starts: a victory plan without 'where we stop' is a plan to fail where and how the opponent chooses — Napoleon in 1812 and the Wehrmacht in 1942 alike. Third, the culminating point is not the point of failure but the point of conversion: the right design transitions from offensive to consolidation or negotiation before the point arrives. The mode rewrites the old virtue of 'knowing when to stop' as a calculation. The concept carries a moral edge as well: it converts the courage to stop into a professional discipline, insisting that the general who plans only the advance has abdicated half the office. History, in his reading, is a graveyard of offensives that were still 'winning' when they crossed the invisible line — and the line is invisible only to those who never drew it.",
+      "source_chapter": "《战争论》第七篇第五章'进攻的顶点'；第六篇第二十六章（顶点与防御的关系）",
+      "key_concepts": [
+        "进攻的顶点",
+        "胜利的刹车",
+        "推进衰减曲线",
+        "转换点",
+        "知止的计算",
+        "占领成本"
+      ],
+      "process_zh": [
+        "开战前画衰减曲线：沿预定推进线逐段计算补给拉长、兵力摊薄、占领管理成本与政治合法性衰减——四线合一即军事-政治顶点区间",
+        "把顶点写进计划：明确'到达何处/何种状态即停止进攻、转入固守或谈判'，并为该转换点预设执行机制（不是临场再议）",
+        "区分'军事顶点'与'政治顶点'：战场还能推进≠应该推进——以政治对象为最终刹车，军事曲线只作辅助",
+        "顶点前演练转换：固守姿态、占领治理、谈判立场都要在进攻期预置，转换失败等于把胜利存进对方的账户"
+      ],
+      "process_en": [
+        "Draw the decay curve before the war: along the planned line of advance, compute lengthening supply, thinning force, occupation overhead, and legitimacy decay — their confluence marks the military-political culminating zone.",
+        "Write the point into the plan: state explicitly where or in what state the offensive stops and converts to consolidation or negotiation, with a pre-built mechanism for the transition — never left to be debated on the spot.",
+        "Separate the military from the political culminating point: able to advance does not mean should advance — the political object is the final brake; the military curve is advisory.",
+        "Rehearse the conversion before the point: defensive posture, occupation governance, and negotiating positions are all pre-staged during the offensive; a failed conversion deposits your victory in the opponent's account."
+      ],
+      "representative_cases_zh": [
+        "1812年俄战局与1942年斯大林格勒：两支大军都在'还能推进'的军事幻觉中越过政治顶点——补给线、占领成本与对手动员三线同时反转，进攻的余势把己方主力直接送入毁灭；顶点计算缺席的代价是战役级湮灭",
+        "1870年普 法战争：老毛奇在色当后顶住'进军巴黎'的政治冲动吗？——实际相反：正是在政治对象（皇权更替与疆界）与军事顶点重合处快速转向和谈与围困，普军顶点管理使新统一的德国避免被长期占领拖垮",
+        "反面警示：2003年伊拉克战争——军事顶点（巴格达陷落）三周内到达，但政治顶点从未被计算：占领治理没有预案、解散军队政策直接制造了数十万敌对武装；'如何停'缺席的胜利计划把战术满分变成战略破产"
+      ],
+      "representative_cases_en": [
+        "Russia 1812 and Stalingrad 1942: both armies crossed the political culminating point inside the military illusion of 'we can still advance' — supply lines, occupation cost, and enemy mobilization reversed together, and the offensive's leftover momentum delivered the main force into annihilation; the cost of omitting the calculation is campaign-level extinction.",
+        "The Franco-Prussian War, 1870: at Sedan, Prussia pivoted quickly to siege and negotiation precisely where the political object (dynastic change and borders) coincided with the military culminating zone — culminating-point management spared the new Reich the drain of a long occupation.",
+        "Cautionary counterexample: Iraq, 2003 — the military culminating point arrived within three weeks at Baghdad, but the political one was never computed: no occupation governance plan, and the de-Ba'athification of the army manufactured hundreds of thousands of hostile fighters. A victory plan without 'how we stop' turned a tactical满分 into strategic bankruptcy."
+      ],
+      "modern_applications_zh": [
+        "企业扩张：为收购/补贴扩张预设'顶点指标'（现金流回正期限、整合成本占比），顶点前完成从扩张到整合的组织转换",
+        "投资与仓位：为每笔交易预写退出线——'盈利到何点停止加仓、转入收割'，把知止写成数字",
+        "谈判与竞价：预设'到达此价即收手'，防止赢者诅咒把边际胜利变成负债",
+        "内容与增长：增长曲线出现合法性/质量衰减（口碑、留存）即转深耕——军事顶点对应'拉新顶点'"
+      ],
+      "modern_applications_en": [
+        "Corporate expansion: pre-set culminating metrics for acquisitions and subsidy growth (cash-flow-positive deadline, integration-cost share) and complete the organizational shift from expansion to consolidation before the point.",
+        "Investing and position sizing: pre-write the exit line — at what profit you stop adding and begin harvesting; write 'knowing when to stop' as a number.",
+        "Negotiation and bidding: fix 'at this price we stop' in advance to keep the winner's curse from turning marginal victory into liability.",
+        "Growth and content: when legitimacy/quality decay shows (word of mouth, retention), pivot from acquisition to depth — the marketing analogue of the culminating point."
+      ],
+      "related_modes": [
+        "M-CW-005",
+        "M-CW-004",
+        "M-CW-001"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "拿破仑（两次越过顶点的反例主角）",
+        "老毛奇（顶点管理的实践者）",
+        "库图佐夫（制造对方顶点的大师）"
+      ],
+      "key_quote_zh": "进攻像一支射出的箭，存在一个顶点：越过它，推进不再增加胜利，而开始积累崩溃——知止必须写在开战之前。",
+      "key_quote_en": "An offensive is an arrow in flight: there is a culminating point beyond which advancing no longer adds victory but accumulates collapse — knowing when to stop must be written before the war begins."
+    },
+    {
+      "id": "M-CW-009",
+      "name_zh": "批判方法理论校准法",
+      "name_en": "Critical Method: Theory as a Compass, Not a Map",
+      "mode_code": "M-CW-009",
+      "category": "核心方法",
+      "domain_zh": "方法论/理论与经验",
+      "domain_en": "Methodology / Theory and Experience",
+      "level": "核心",
+      "priority": "9",
+      "definition_zh": "重建理论与实战的正确关系：克劳塞维茨之前的战争理论追求'战争数学'——把作战简化为几何与公式；他宣告此类理论的破产，提出'批判方法'（Kritik）：以历史战例为试金石，逐层检验理论断言在具体情境下成立与否——理论不预测，而是给判断者一个可靠的参照系（'理论是指南针而非地图'）。方法论签名有四：其一，历史不是资料库而是校准器——每个战例都是对现有理论的'证伪实验'；其二，批判必须追到事实的最底层（准确的行军表、真实的地形、真实的决策时序），否则只是修辞；其三，批判的产出是'对判断力的训练'而非操作手册——从具体情境中抽出可迁移的判断模式；其四，理论保持开放：任何理论断言都要能被下一个战例修正，'每个时代有它自己的战争'。这是军事领域最早的'实证-证伪'方法论自觉。",
+      "definition_en": "Clausewitz rebuilds the relation of theory to practice. Earlier war theory pursued a 'war mathematics' — combat reduced to geometry and formulae; he declared that project bankrupt and proposed the critical method (Kritik) instead: take historical campaigns as the touchstone, and test theoretical claims layer by layer against concrete situations. Theory does not predict; it gives the judge a reliable frame of reference — 'theory is a compass, not a map.' Four disciplines define the mode. First, history is not a warehouse of examples but a calibrator: every campaign is a falsification experiment run on existing theory. Second, criticism must reach the bedrock of fact — accurate marches, real terrain, the true sequence of decisions — otherwise it is only rhetoric. Third, the output of criticism is trained judgment, not an operating manual: extract transferable patterns of judgment from concrete situations. Fourth, theory stays open: any claim must remain corrigible by the next campaign, for 'each age has its own kind of war.' This is the earliest self-aware positivist-falsificationist methodology in the military field. The method also disciplines the critic himself: he demands that judgment begin from results traced to causes with no begging of questions, that praise and blame be withheld until the whole chain of facts stands firm — a standard that makes honest criticism rarer than honest courage. In his hands the history of war becomes a slow, cumulative experiment from which theory emerges as organized, corrigible experience.",
+      "source_chapter": "《战争论》第二篇第五、六章'批判'与'历史对理论的关系'；第一篇第二章（对旧式'战争数学'理论的批判）",
+      "key_concepts": [
+        "批判方法",
+        "理论校准",
+        "历史证伪",
+        "指南针与地图",
+        "时代决定战争形态",
+        "判断力训练"
+      ],
+      "process_zh": [
+        "带着理论读战例：先写明当前理论断言，再进历史——没有断言的阅读只是故事会，没有历史的断言只是独断",
+        "追到事实底层：兵力、时序、地形、决策日期逐项核对一手材料，标注'此处史料不确定'——批判的信用来自事实颗粒度",
+        "做对称归因：战例中理论成立的部分与失效的部分分别记账，禁止用'将帅英明/昏聩'解释一切",
+        "修订理论并标注适用域：把战例教训写回理论的限定条件——'在何种情境下该断言成立/反转'，理论因此越用越准而非越用越教条"
+      ],
+      "process_en": [
+        "Read campaigns with a claim in hand: state the current theoretical assertion first, then enter the history — reading without claims is storytelling; claims without history are dogma.",
+        "Dig to bedrock fact: verify force numbers, timelines, terrain, and decision dates against primary sources, marking 'here the record is uncertain' — criticism's credibility lives in granularity.",
+        "Keep the ledger symmetric: book separately where the campaign confirmed theory and where it broke it; forbid 'the general was brilliant/foolish' as a universal solvent.",
+        "Revise theory and stamp its domain: write each lesson back as a scope condition — 'under what situations does the claim hold or invert' — so theory grows more precise with use, not more dogmatic."
+      ],
+      "representative_cases_zh": [
+        "克劳塞维茨本人的战例批判实践：他为《战争论》写了大量战史批判（1806、1812、1813战役手稿），以'每场会战逐日还原'检验自己的断言——1812年手稿推翻了他早年对'荣誉决战场'的推崇，理论被自己的历史证伪后重写",
+        "老毛奇的1866年战局复盘：以铁路与电报的实证数据校准'分进合击'理论——柯尼希格雷茨后普军参谋部逐军核对到达时序，把'天才叙事'改写为'时序误差小于半日的组织成绩效'，理论因此可用",
+        "反面警示：两次大战之间的法国军事理论——以一战战例'归纳'出防御万能论，却拒绝更新证据（对机械化机动的实证数据选择性失明）：理论校准一旦变成教条维护，历史校准器就反转为自我确认机器"
+      ],
+      "representative_cases_en": [
+        "Clausewitz's own critical practice: alongside On War he wrote extensive campaign criticism (1806, 1812, 1813 manuscripts), testing his claims by day-by-day reconstruction — his 1812 manuscript overturned his earlier worship of the decisive battle of honour; theory rewritten after being falsified by its own history.",
+        "Moltke's 1866 post-mortem: calibrating 'march divided, fight united' against empirical rail-and-telegraph data — after Königgrätz the staff audited each corps's arrival times, rewriting 'genius narrative' as 'organizational performance with arrival errors under half a day'; the theory became usable.",
+        "Cautionary counterexample: interwar French military theory — 'induced' from World War I examples into the doctrine that defence was supreme, while refusing updated evidence (selective blindness to data on mechanized maneuver). When calibration hardens into doctrine-defence, the historical calibrator inverts into a self-confirmation machine."
+      ],
+      "modern_applications_zh": [
+        "商业战略复盘：先写理论断言（'价格战能清场'）再用具体战役数据对称记账——成立与失效分开核算",
+        "学术与智库写作：把'案例'用作证伪实验而非装饰——每个案例须注明'它检验了什么断言、结果如何'",
+        "个人学习方法论：以错题本为批判方法——每道错题追问'哪个假设错了'，把经验转成理论的适用域标注",
+        "组织知识管理：预案库定期用真实事件回测修订，拒绝'上次就是这么干的'式教条"
+      ],
+      "modern_applications_en": [
+        "Business post-mortems: state the claim ('a price war clears the field'), then run the specific campaign's data through a symmetric ledger — confirmations and failures booked apart.",
+        "Academic and think-tank writing: use cases as falsification experiments, not decoration — each case must state which claim it tested and the result.",
+        "Personal learning: the error notebook as critical method — for every miss, ask which assumption failed, converting experience into scope conditions on theory.",
+        "Organizational knowledge management: playbooks back-tested and revised against real events; refuse 'we did it this way last time' as doctrine."
+      ],
+      "related_modes": [
+        "M-CW-002",
+        "M-CW-007",
+        "M-SW-001"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "康德（其批判哲学是方法论母体）",
+        "老毛奇（把批判方法 institutionalize 进参谋部）",
+        "托尔斯泰（同时代对'战争数学'的另一种文学批判）"
+      ],
+      "key_quote_zh": "理论是指南针而非地图：历史是理论的校准器——每个时代有它自己的战争，任何断言都要能被下一个战例修正。",
+      "key_quote_en": "Theory is a compass, not a map, and history is theory's calibrator: each age has its own kind of war, and every claim must remain corrigible by the next campaign."
+    },
+    {
+      "id": "M-CW-010",
+      "name_zh": "暴力受政治节制的永恒张力法",
+      "name_en": "The Perpetual Tension: Violence Under Political Custody",
+      "mode_code": "M-CW-010",
+      "category": "核心方法",
+      "domain_zh": "战争哲学/节制与失控",
+      "domain_en": "Philosophy of War / Restraint and Escalation",
+      "level": "核心",
+      "priority": "10",
+      "definition_zh": "承认节制是永远需要重申的成就而非默认状态：克劳塞维茨的全书结论可以概括为一条张力定律——暴力有挣脱政治的自然倾向（激情使民众要求极端、军方逻辑要求彻底、敌我相互作用要求升级），而政治对暴力的驾驭是一项必须以制度与人格持续维护的工作，一旦政治失能，战争立即退化为'愚蠢而毫无意义的暴力发泄'。方法论签名有三：其一，识别脱缰的三种来源——激情（民族主义、复仇）、军队自治逻辑（会战崇拜、胜利主义）、相互作用螺旋，每种都要有对应的缰绳；其二，政治驾驭需要制度抓手（宣战权、目标审查、结束条件的事前锁定）而非仅靠理性劝告；其三，反向风险同样真实——政治过度微操会扼杀军事效能（'将能而君不御'的镜像）：驾驭的对象是目的与界限，不是每一步动作。这一模式是克劳塞维茨留给核时代与一切暴力机构的遗嘱。",
+      "definition_en": "Clausewitz's book condenses into a tension law: violence has a natural tendency to slip political custody — passion drives publics to demand extremes, military logic demands thoroughness, and enemy interaction demands escalation — while the subordination of violence to politics is an achievement that must be maintained by institutions and character; when politics fails, war instantly degenerates into 'a stupid, purposeless spilling of blood.' Three disciplines define the mode. First, name the three sources of runaway: passion (nationalism, revenge), the military's autonomous logic (battle-worship, victory-ism), and the interaction spiral — each needs its own rein. Second, political custody requires institutional grips — declarations of war, objective review, end conditions locked in advance — not rational exhortation alone. Third, the reverse risk is equally real: political micromanagement can strangle military effectiveness (the mirror of 'able generals unhandicapped by the throne'): custody governs the object and the limits, not every move. This mode is Clausewitz's testament to the nuclear age and to every institution that wields force. Its deeper claim is about the fragile architecture of civilization: organized violence is a servant that becomes a master the moment its master stops watching. He wrote the final chapters while dying, and their message has a last-instruction tone — the subordination of war to policy is not a theorem one proves once, but a custody every generation must take up again, or lose.",
+      "source_chapter": "《战争论》第八篇第六章'战争是政治的工具'；第一篇第一章（暴力脱离目的的倾向与'无意义的暴力发泄'）",
+      "key_concepts": [
+        "政治驾驭暴力",
+        "脱缰三源",
+        "制度缰绳",
+        "微操与驾驭之辨",
+        "结束条件锁定",
+        "暴力失能"
+      ],
+      "process_zh": [
+        "识别脱缰来源：为每一次冲突建档三条'张力线'——民众激情（民调/叙事走向）、军队自治（胜利主义话语）、互动螺旋（对方升档回应），各设监测指标",
+        "事前锁定缰绳：以制度（授权范围、目标审查节点、结束条件、退出机制）而非临时意志驾驭暴力——没有事前缰绳，激情时刻不会有缰绳",
+        "驾驭目的而非动作：政治审查对象与界限，作战细节授予军事专业——区分'方向控制'与'微操干预'",
+        "定期重申政治账：激情会侵蚀记忆，需以制度化节奏（听证、复盘、公开审计）重申'这场暴力为何还在进行、何时结束'"
+      ],
+      "process_en": [
+        "Identify the runaway sources: for each conflict keep a file of three tension lines — public passion (polls, narratives), military autonomy (victory-ist discourse), the interaction spiral (enemy rung-matching) — each with a monitoring indicator.",
+        "Lock the reins in advance: custody of violence rests on institutions (mandated scope, objective-review gates, end conditions, exit mechanisms), not on willpower improvised at the height of passion.",
+        "Govern the object, not the moves: politics reviews aims and limits; operational detail is delegated to military professionals — distinguish 'direction control' from micromanagement.",
+        "Reaffirm the political account on schedule: passion erodes memory, so institutional rhythm (hearings, reviews, public audits) must keep re-stating why this violence continues and when it ends."
+      ],
+      "representative_cases_zh": [
+        "1812-1815年的克劳塞维茨本人：作为'民族激情'的亲历者与动员者，他在《战争论》中却写出对激情最冷的解剖——他同时持有火把与缰绳：民族动员是工具，政治目的是主人",
+        "1962年古巴导弹危机：肯尼迪以事前锁定的缰绳（封锁而非空袭、苏联船停船即免责、秘密交换条件）驾驭三重脱缰压力（军方空袭主张、公众鹰派情绪、互动螺旋）——政治驾驭暴力的现代教科书",
+        "反面警示：1914年8月的'斯里芬时刻'与2003年后的伊拉克——政治失能时战争退化为自身逻辑的滚轮：动员时间表代替了政治决定，占领政策由军事便利代替政治审查；'军事上一切就绪'恰是政治放弃驾驭的警报器"
+      ],
+      "representative_cases_en": [
+        "Clausewitz himself, 1812-1815: a witness of and agitator for national passion, he yet wrote its coldest anatomy — holding torch and reins at once: national mobilization as instrument, the political object as master.",
+        "The Cuban Missile Crisis, 1962: Kennedy's pre-locked reins (blockade rather than airstrike, immunity once Soviet ships stopped, a secret trade) held three runaway pressures at bay — the military's airstrike preference, hawkish public mood, and the interaction spiral; the modern textbook of political custody over violence.",
+        "Cautionary counterexample: August 1914 and post-2003 Iraq — when politics fails, war becomes the rolling flywheel of its own logic: mobilization timetables replace political decisions, and occupation policy is set by military convenience instead of political review; 'everything is ready militarily' is precisely the alarm bell of political abdication."
+      ],
+      "modern_applications_zh": [
+        "企业并购与价格战的治理：以董事会事前锁定'退出条件与止损线'，防止执行层激情（争面子、求彻底）把对抗拖过政治价值点",
+        "平台治理与舆论战：识别公众激情、执行团队好胜心、对手互动三种脱缰源，分别设监测与红线",
+        "执法与安保机构：武力使用的事前授权梯度+事后公开审计——把'驾驭'写成制度而非取决于个人克制",
+        "个人愤怒管理：为激烈对抗预设'结束条件'（何时必须离场、达成什么即停），把克劳塞维茨定律用于情绪"
+      ],
+      "modern_applications_en": [
+        "Governance of M&A and price wars: the board pre-locks exit conditions and stop-loss lines so executive passion (saving face, demanding totality) cannot drag the contest past its political value point.",
+        "Platform governance and information conflict: monitor the three runaway sources — public passion, the team's competitive drive, the opponent's matching — each with indicators and red lines.",
+        "Policing and security institutions: pre-authorized use-of-force gradients plus public after-action audits — custody written into institutions, not left to individual restraint.",
+        "Personal anger management: pre-set end conditions for any heated confrontation (when to leave, what achieved means stop) — Clausewitz's law applied to emotion."
+      ],
+      "related_modes": [
+        "M-CW-001",
+        "M-CW-004",
+        "M-CW-006"
+      ],
+      "representative_figures": [
+        "克劳塞维茨（核心）",
+        "肯尼迪（古巴危机中的政治驾驭者）",
+        "俾斯麦（以政治驯服军方逻辑的大师）",
+        "毛泽东（'政治是不流血的战争，战争是流血的政治'的改写者）"
+      ],
+      "key_quote_zh": "暴力有挣脱政治的自然倾向，而驾驭暴力必须以制度与人格持续维护——政治一旦失能，战争立即退化为愚蠢而毫无意义的暴力发泄。",
+      "key_quote_en": "Violence naturally strains to slip political custody, and custody must be maintained by institutions and character: when politics fails, war at once degenerates into a stupid, purposeless spilling of blood."
+    }
+  ]
+}

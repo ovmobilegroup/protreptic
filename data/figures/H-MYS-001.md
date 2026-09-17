@@ -1,0 +1,850 @@
+# 茅以升 MaoYisheng (H-MYS-001)
+
+## 概览 / Overview
+
+- 年代 Era: 1896-1989 : 1896 生于江苏镇江一个书香世家——祖父茅谦是举人、办报倡导新学，家训'人生一征途耳，其长百年，我已走过十之七八，回首前尘，历历在目——崎岖多于平坦，忽深谷，忽洪涛，幸赖桥梁以渡'成为他一生的注脚——童年因家贫随父迁南京，10 岁那年端午节亲眼目睹秦淮河文德桥挤塌、多人落水伤亡，'桥为什么会塌'成为终身之问——1916 以第一名的成绩毕业于唐山路矿学堂（四年考试均为头名），考取庚款留美——1917 获康奈尔大学土木工程硕士（导师贾柯贝 Jacoby 因其成绩优异打破'唐山路矿学堂毕业生不收'的先例）——1921 获卡内基理工学院首任工学博士（博士论文《桥梁桁架的次应力》提出的'茅氏定律'成为土木工程界经典，卡内基因此首设工学博士学位，他是该校首位博士）——1920s 归国执教：历任唐山交大、东南大学（首任工科主任）、北洋大学校长——他同时在十几所大学兼课，自编中文教材，主张'先习后学'（理论联系实际）——1933 受命主持修建钱塘江大桥：水文地质条件被外国工程师断言'中国人无法在钱塘江上建桥'（流沙层深达 40 余米，'钱塘江无底'）——他发明'射水法''沉箱法''浮运法'，创造'建桥与造墩并行'的立体施工法，1937.9.26 大桥通车（钱塘江上第一桥，全长 1453 米，中国人自己设计建造的第一座现代化大型桥梁），耗资仅及外国方案之半、工期缩短一半——通车 89 天后为阻止日军南下亲手炸毁自己设计的大桥（'抗战必胜，此桥必复'），写下'人生一征途'式的悲壮注脚——抗战期间复校流亡（带领唐山交大师生五次迁徙），1946 年受命复建钱塘江大桥（1949 后通车）——1950s 主持武汉长江大桥的技术顾问委员会（1957 通车）——晚年转向科普与教育：任铁道科学研究院院长三十余年，倡导'科学普及是科学家的天职'，为少年儿童写下《桥话》《中国石拱桥》（入选中学课本半个世纪）——主持修撰《中国古桥技术史》，把古代桥梁智慧系统化——1987 入党，1989 病逝于北京——一生跨'工程师—教育家—科普作家'三重身份，墓碑仅刻'中国桥梁工程师茅以升'
+- 学派 School: 中国现代桥梁工程学派的奠基者 / '工程教育科学化'（先习后学、考工并重）的教育改革家 / '桥梁—结构力学'学术传统的中国支系（康奈尔 Jacoby—卡内基谱系）/ 中国科普写作的工程师代表
+
+
+### 历史意义 / Significance
+
+茅以升（1896-1989），中国现代桥梁工程的奠基人，也是'工程师如何同时是教育家与文明记录者'的完整样本。他的历史地位由三件事锚定。其一，工程：钱塘江大桥——外国工程师断言'中国人无法在钱塘江上建桥'，他用'射水法''沉箱法''浮运法'与'建墩架梁并行'的立体施工法打破了流沙深基础的世界难题，1937 年建成中国人自己设计建造的第一座现代化大型桥梁，成本与工期都是外国方案之半；通车 89 天后为阻断日军亲手炸毁它，'抗战必胜，此桥必复'——炸桥与复桥构成二十世纪中国工程史最悲壮的闭环，1946 年他受命复建，1953 年新桥通车。其二，教育：他从 1920 年代起就系统反对'先学后习'的大学传统，主张'先习后学、考工并重'，在唐山交大、东南大学、北洋大学的改革（工科生先到工地再进课堂）是中国工程教育'实践转向'的最早设计；他培训的师资与学生日后支撑了中国几乎全部大桥工程。其三，记录与普及：《中国石拱桥》让一个民族重新看见自己的工程传统，主持修撰的《中国古桥技术史》把散落千年的桥梁智慧第一次系统化；他晚年反复申说'科普是科学家的天职'，是中国科学家大规模做科普的先声。代价与张力同样真实：钱塘江大桥的炸毁是战争的悲剧而非工程的失败；他的教育改革在战乱与政治运动中反复中断，'先习后学'始终未能制度化；科普成就也使部分学院派低估了他的学术贡献。但他的方法论遗产极其清晰：一座桥的可靠性从来不只是计算问题，而是'对失效的想象力'（文德桥之问）、'对约束的工程转化'（钱塘江流沙）与'对传承的责任感'（炸桥—复桥—写史）三者的乘积。
+
+Mao Yisheng (1896-1989), founder of modern Chinese bridge engineering and a complete specimen of the engineer as educator and recorder of civilization. Three anchors fix his standing. Engineering: the Qiantang River Bridge—declared unbuildable by foreign engineers over forty meters of shifting silt, he broke the world problem of deep foundations in running sand with water-jetting, pneumatic caissons, and float-hoisting, running substructure and superstructure in parallel; it opened in 1937 as the first modern great bridge designed and built by Chinese, at half the foreign bid's cost and time—and eighty-nine days later he blew it up with his own hands to halt the Japanese advance ('the war will be won, and this bridge will rise again'); demolition and rebuilding close the most tragic loop in twentieth-century Chinese engineering, the new span opening in 1953. Education: from the 1920s he systematically opposed the 'study before practice' university tradition, championing 'practice before study, and examinations paired with workshop'—his reforms at Tangshan Jiaotong, Southeast University, and Peiyang (engineering students to the site before the lecture hall) were the earliest design of China's practical turn in engineering education; the faculty and students he trained went on to build nearly every great Chinese bridge. Recording and popularization: China's Stone Arches let a nation see its own engineering tradition anew, and the History of Ancient Chinese Bridge Technology he directed systematized for the first time a thousand scattered years of bridge wisdom; his late insistence that 'popularizing science is a scientist's duty' prefigured the scientist-as-explainer movement. The tensions were real: the bridge's demolition was the tragedy of war, not of engineering; his educational reforms were repeatedly interrupted and never fully institutionalized; and his fame as a popularizer led some academics to underrate his scholarship. Yet his methodological legacy is crisp: a bridge's reliability is never just calculation—it is the product of imagination about failure (the Wende Bridge question), engineering conversion of constraint (the Qiantang silt), and responsibility for transmission (blow up, rebuild, write the history).
+
+
+### 独特思维 / Unique Thinking
+
+他的思维方式的底色是'把失效当作第一研究对象，把约束当作发明的原料'：茅以升的一生是一部'工程师如何与不确定性共处'的教程。五个标志性动作：其一，'以失效为师'——十岁目睹文德桥挤塌，他把'桥为什么会塌'这个童年之问变成方法论核心：设计从研究失效模式开始（钱塘江方案里他先列出全部可能的毁桥方式——流沙、涌潮、洪水、船撞——再逐一定制防御），这与'从成功案例出发'的常规设计路线完全相反；其二，'约束的工程转化'——钱塘江流沙、涌潮、台风三重约束在他手里不是障碍清单而是发明清单：流沙逼出射水法与沉箱法，涌潮逼出浮运法，工期逼出'上下部并行施工'的立体作业——每条约束都被转化为一项新工法；其三，'系统的时间压缩'——他把施工组织本身当作设计对象，建墩与架梁并行、沉箱与引桥齐动，把串行工程改写为并行工程，这是中国工程界最早的'关键路径'实践之一；其四，'先习后学'的认知排序——他反'先学后习'而行，认为工程师的认知必须从现场的具体问题出发再上升为理论，这一教育哲学与他'以失效为师'的工程哲学同构：都是让实在先于概念；其五，'工程的代际责任'——炸桥是他设计的（预留了易于爆破的部位），复桥是他推动的，古桥史是他修的：他把一座桥理解为跨越时间的系统，工程师的职责包括'为毁坏而设计'与'为重建而记录'。代价与极限：并行施工与工法冒险都有失败概率（钱塘江施工中沉箱曾遇险），他的胆识依赖极其严密的计算兜底，后人若只学'大胆'不学'计算'会误用；'先习后学'在基础理论薄弱的语境下可能滑向经验主义；而他在政治运动中也经历过沉默年代。他的自我总结是'人生一征途耳……崎岖多于平坦，幸赖桥梁以渡'——但他真正的天才在于：桥梁对他是方法而非比喻——如何渡过不确定性，本身就是可设计、可计算、可传承的。
+
+The bedrock of his thinking was 'treating failure as the primary object of study and constraint as raw material for invention': Mao's life is a tutorial on how an engineer lives with uncertainty. Five signature moves. First, 'learning from failure': at ten he watched the Wende Bridge crush holiday crowds, and 'why did the bridge fall' became his methodological core—design begins with a catalogue of failure modes (for the Qiantang he first listed every way the bridge could die—silt, tidal bore, flood, ship strike—then built a defense for each), the exact reverse of designing from success stories. Second, 'converting constraint into invention': the Qiantang's triple bind of quicksand, tidal bore, and typhoon was for him not an obstacle list but an invention list—silt forced the water-jet and pneumatic caisson, the bore forced float-hoisting, the schedule forced parallel erection of substructure and superstructure; every constraint was converted into a new method. Third, 'compressing system time': he made construction organization itself a design object—piers and girders in parallel, caissons and approaches moving together, rewriting serial engineering as parallel—one of the earliest critical-path practices in Chinese engineering. Fourth, the cognitive ordering of 'practice before theory': engineers must ascend from concrete problems on the site to principles, the educational philosophy being isomorphic with his engineering one—reality precedes concept. Fifth, 'the intergenerational responsibility of engineering': the demolition was his own design (he had marked the easy blast points), the rebuilding his own campaign, the ancient-bridge history his own editorship; he understood a bridge as a system spanning time, whose duties include 'designing for destruction' and 'recording for renewal.' The limits: parallel construction and methodological daring carry real risk (a caisson once met danger during construction), and his boldness rested on exacting calculation—imitators who copy the boldness without the mathematics will misuse it; 'practice before theory' can slide into empiricism where foundations are weak; and the political years silenced him too. His own summary: 'life is a journey... rougher than smooth, crossed by grace of bridges'—but his true genius was that the bridge was for him a method, not a metaphor: how to cross uncertainty is itself designable, calculable, and transmissible.
+
+
+---
+
+## M-MYS-001 失效师法 (Failure-as-Master Method)
+
+- 领域 Domain: 1933-1937 钱塘江大桥：设计之初他先列出这座桥全部可能的死法——40 余米流沙使桥墩下陷、涌潮冲击围堰、洪水冲刷桥基、船撞墩身、台风掀翻架设中的钢梁——再为每一种死法逐一设计防御（深基础用射水法沉箱、围堰避开大潮、基床抛石防冲、墩身加宽防撞、架梁抢在无风窗口）；这座桥后来抵御了战争爆破之外的一切自然考验，方法源头是十岁那年文德桥挤塌的'桥为什么会塌'之问
+
+- Domain: The Qiantang River Bridge, 1933-37: at the design stage he first listed every way the bridge could die—piers sinking into forty meters of running silt, the tidal bore smashing cofferdams, floods scouring foundations, ships striking piers, gales lifting half-erected girders—then built a defense for each (water-jet caissons for the deep foundation, cofferdams timed around the bore, riprap against scour, widened piers against collision, erection windows between winds); the bridge withstood every natural test short of wartime demolition, and the method traces back to the ten-year-old's question at the Wende Bridge collapse: why did the bridge fall
+
+
+### 定义 / Definition
+
+茅以升失效师法的核心命题是：可靠性不是'把成功经验放大'得来的，而是'把失效想象穷尽'得来的。常规设计路线从成功案例出发——参照已建成的桥、已验证的工法，做增量改进；这条路线在已知条件域内高效，但一进入'钱塘江无底'式的未知域就失灵，因为新环境的失效模式没有先例可抄。茅以升的替代路线分三步。第一步，失效清单：在设计任何结构前，先问'它全部可能的死法是什么'——从材料（流沙、腐蚀、疲劳）、载荷（涌潮、洪水、船舶、人群）、施工（围堰失稳、吊装坠落）到极端事件（战争爆破），列成一张显式的失效模式表；这张表本身是设计输入，不是附属文档。第二步，逐项防御：每个失效模式对应一个或一组工程措施，防御设计与失效清单一一映射——验收时逐行核对'这条死法被哪道防线拦住'，任何一行空缺即设计不合格。第三步，用真实失效校准想象力：文德桥之问、旧桥的调查、施工中的险情（钱塘江沉箱曾遇险）都被他反馈回失效清单，使清单随经验生长。深意有三重。其一，失效清单是'对失效的想象力'的工程化——想象力不是浪漫天赋，而是可以被清单强制、被事故滋养的职业能力。其二，这个次序颠倒了'乐观设计'：不问'怎么把它建起来'先问'它怎么死'，悲观清单反而是最乐观的工程——因为死法已知，桥就死不了。其三，此法与二十世纪后半叶成熟的 FMEA（失效模式与影响分析）、安全工程的事件树/故障树同构——茅以升 1930 年代的实践比这些形式化体系早了数十年，本质是同一思想。适用边界：适合高可靠性、单件性、高代价的系统（桥梁、大坝、航天、核电、关键软件）；对可大量试错、失败成本低的产品设计，穷举失效的 overhead 可能高于快速迭代。现代对应物：FMEA/FTA、安全关键系统的 hazard analysis、SRE 的'错误预算'与故障注入测试、'pre-mortem'（事前验尸）决策法。
+
+The core proposition of Mao's failure-as-master method: reliability comes not from scaling up successes but from exhausting the imagination of failure. The conventional route starts from success—reference built bridges, proven methods, incremental improvement; efficient inside known territory, it fails in unknown territory like 'the bottomless Qiantang,' where the new environment's failure modes have no precedent. Mao's alternative has three steps. First, the failure list: before designing any structure, ask 'what are all its possible deaths'—from material (silt, corrosion, fatigue), loads (bore, flood, ships, crowds), construction (cofferdam instability, crane drops) to extreme events (wartime blasting)—an explicit table of failure modes that is a design input, not an appendix. Second, per-item defense: each failure mode maps to one or a set of engineering measures; acceptance checks line by line 'which defense stops this death'—any blank line fails the design. Third, calibrating imagination with real failure: the Wende Bridge question, surveys of old bridges, construction incidents (a Qiantang caisson once met danger) all feed back into the list, so the list grows with experience. Three layers of depth. First, the failure list is the engineering of 'imagination about failure'—not a romantic gift but a professional capacity enforced by lists and nourished by accidents. Second, the ordering inverts optimistic design: ask 'how will it die' before 'how do we build it'; the pessimistic list is the most optimistic engineering, for once the deaths are known, the bridge cannot die. Third, the method is isomorphic with FMEA, event trees, and fault trees matured in the late twentieth century—Mao's 1930s practice anticipated the formal systems by decades. Boundaries: it suits high-reliability, one-off, high-cost systems (bridges, dams, aerospace, nuclear, critical software); for mass products with cheap trial and error, exhaustive failure analysis may cost more than fast iteration. Modern counterparts: FMEA/FTA, hazard analysis for safety-critical systems, SRE error budgets and chaos engineering, and the pre-mortem decision method.
+
+
+### 出处 / Source
+
+《钱塘江桥设计》与《钱塘江建桥回忆》（茅以升）；曾养甫与茅以升关于钱塘江桥的往来文件；《茅以升文集》工程部分；对文德桥事件的童年回忆见《桥梁次应力》论文自述与《茅以升传》第 1-2 章
+
+
+### 金句 / Key Quote
+
+> 桥的一生，要先想清楚它全部的死法——死法穷尽了，桥才立得住。
+> A bridge's whole life begins by thinking through all its deaths—once the deaths are exhausted, the bridge can stand.
+
+
+### 概念 / Key Concepts
+
+失效清单先于方案设计、防御与失效一一映射、对失效的想象力是职业能力、悲观清单即乐观工程、真实事故反哺清单、死法已知则桥死不了
+
+
+### 流程 / Process
+
+1. 立项先问死：接受设计任务的第一份交付物不是方案而是失效清单——穷举对象在材料、载荷、施工、极端事件四个维度上的全部可能死法 / Begin with death: the first deliverable of a design task is not a scheme but a failure list—exhaust every possible death across material, load, construction, and extreme-event dimensions
+
+2. 调研校准：调查同类对象的历史事故（旧桥坍塌史、施工险情记录），把'别人已经死过的方式'并入清单 / Calibrate by research: survey historical accidents of similar objects (old bridge collapses, construction incidents) and merge 'ways others have already died' into the list
+
+3. 逐项设防：为每个失效模式定制工程措施，建立'失效—防御'映射表；映射表任何一行空缺即返回设计 / Defend per item: build engineering measures for each failure mode in a failure-to-defense mapping table; any blank line sends the design back
+
+4. 施工再补：施工期把险情、未预期的地质与天气事件作为新增失效项记录——清单是活文档 / Augment during construction: record incidents, unexpected geology, and weather as new entries—the list is a living document
+
+5. 验收逐行：交付验收不只量尺寸，而逐行核对失效清单——每条死法能指认出拦住它的那道防线 / Accept line by line: acceptance is not only measurement but a line-by-line walk of the failure list—each death must name the defense that stops it
+
+6. 复盘归档：投入使用后的事故与未遂事件回写失效清单，汇入行业记忆 / Archive the lessons: accidents and near-misses in service are written back into the failure list and pooled into industry memory
+
+
+### 代表案例 / Cases
+
+- 钱塘江大桥设计（1933-1935）：失效清单先行——流沙（射水法沉箱）、涌潮（围堰避开大潮期）、洪水冲刷（桥基抛石防护）、船撞（墩身加大刚度）、台风（钢梁架设抢无风窗口）五类死法五类防御；1937 通车至战争破坏，自然失效为零 / Designing the Qiantang bridge (1933-35): failure list first—silt (water-jet caissons), bore (cofferdams timed off spring tides), scour (riprap protection), ship strike (stiffer piers), typhoon (girder erection in wind windows); five deaths, five defenses; zero natural failures from opening to wartime destruction
+
+- 文德桥之问（1906）：十岁目睹秦淮河文德桥端午节挤塌——多年后他在文章里复述此问，说明其设计哲学的源头不是任何一堂力学课，而是一次真实的失效观察 / The Wende Bridge question (1906): at ten he watched the holiday crowd bring down the bridge over the Qinhuai; he retold the question decades later—the origin of his design philosophy was a real failure observed, not any mechanics lecture
+
+- 沉箱遇险（1935）：钱塘江施工中沉箱曾在急流中失稳——他不仅抢救，还把险情写进工程记录并改进后续沉箱工法，正是'真实失效反哺清单'的现场执行 / The caisson incident (1935): during construction a caisson lost stability in swift current; he not only rescued it but wrote the incident into the engineering record and improved subsequent caisson work—the field execution of feeding real failure back into the list
+
+- 抗战炸桥预留设计（1937）：造桥时已预留爆破位置并绘制详细图纸——'为毁坏而设计'是失效清单把战争也列进去的直接产物；1946 复建时按图施工，闭环完成 / Demolition points designed in (1937): blast positions and detailed drawings prepared at construction time—'designing for destruction' as the direct product of putting war itself on the failure list; the 1946 rebuilding followed the drawings, closing the loop
+
+
+### 现代应用 / Modern Applications
+
+- 软件架构评审：上线前先写'这个系统全部可能的死法'清单（数据丢失、流量洪峰、依赖宕机、误操作删除）——每条死法对应一个防御机制（备份/限流/熔断/权限），空缺即不允许上线 / Software architecture review: before launch write the list of 'all the ways this system dies' (data loss, traffic spikes, dependency outages, accidental deletion); map each death to a defense (backup, rate limiting, circuit breaker, permissions); blank lines block launch
+
+- 个人决策的事前验尸：重大决策（跳槽、创业、大额投资）执行前先开'pre-mortem 会'——假设一年后已失败，穷举失败原因清单再逐条设置早期警报与止损线 / Personal pre-mortem: before major decisions (a job change, a startup, a large investment) run the post-mortem in advance—assume failure a year out, exhaust the causes, then set early alarms and stop-losses per item
+
+- 安全工程实践：汽车/航空/医疗设备的 HARA 与 FMEA 流程本质就是失效清单法——中国 1930 年代的桥是它的非形式化先驱 / Safety engineering practice: HARA and FMEA in automotive, aviation, and medical devices are the formalized failure list—a 1930s Chinese bridge was its informal pioneer
+
+- AI 系统治理：部署大模型应用前列'失效模式表'（幻觉、注入攻击、数据泄露、越权输出），每条绑定检测与拦截——把'它会怎么坏'当作设计输入而非事故报告 / AI governance: before deploying a large-model application, table its failure modes (hallucination, prompt injection, data leakage, unauthorized output) and bind detection and interception to each—make 'how it breaks' a design input, not an incident report
+
+
+### 相关模式 / Related Modes
+
+M-MYS-002、M-MYS-005、M-MYS-006、M-MYS-008
+
+
+### 代表人物 / Representative Figures
+
+- 李春 (Li Chun (Sui dynasty)): 赵州桥的建造者：敞肩拱把洪水泄流列为'死法'之一并为之开小拱——茅以升在《中国石拱桥》中论证的'古代失效智慧'样本 / builder of the Zhaozhou Bridge: his spandrel arches treat flood as one of the bridge's 'deaths' and open minor arches for it—the ancient failure-wisdom Mao argued for in China's Stone Arches
+
+- 林同炎 (T. Y. Lin): 同代中国结构工程师：以'荷载平衡'概念与茅以升同属'把物理约束当作设计输入'的谱系，两人共同提升了中国工程界的世界地位 / fellow Chinese structural engineer: his load-balancing concept shares Mao's lineage of 'physical constraints as design input'; together they raised Chinese engineering's world standing
+
+- Petroski 亨利·佩特罗斯基 (Henry Petroski): 《设计，人类的本性》作者：系统论证'工程师从失败中学习'的现代史家——茅以升失效师法的理论化同路人 / author of To Engineer Is Human: the modern historian who systematized 'engineers learn from failure'—the theorizing fellow traveler of Mao's method
+
+
+---
+
+## M-MYS-002 约束转化法 (Constraint-Conversion Method)
+
+- 领域 Domain: 1933-1937 钱塘江：外国工程师断言的三重约束——流沙深达 40 余米（'钱塘江无底'）、涌潮冲击力举世罕见、台风季漫长——在茅以升手里逐条转化为发明任务：流沙逼出'射水法'（高压水枪冲开沙层下沉沉箱）与'沉箱法'，涌潮逼出'浮运法'（趁平潮短窗口用船队浮运 700 吨钢梁就位），工期逼出'上下部并行施工'——三条约束三件新工法，桥的成本与工期反而只有外国方案之半
+
+- Domain: The Qiantang, 1933-37: the triple bind foreign engineers declared impossible—quicksand to forty meters ('the Qiantang has no bottom'), a tidal bore of world-record force, a long typhoon season—became in Mao's hands an invention list: silt forced the water-jet method (high-pressure jets liquefying sand to sink caissons) and the pneumatic caisson, the bore forced float-hoisting (moving 700-ton girders by fleet in the short slack window), the schedule forced parallel substructure-superstructure erection; three constraints, three new methods—and the bridge cost and took half of the foreign bid
+
+
+### 定义 / Definition
+
+约束转化法的核心命题是：约束不是方案的边界，而是方案的来源。常规工程师看到约束清单（地质不行、工期不行、预算不行）的反应是'改方案、降标准、找借口'——约束是减法；茅以升的反应是逐条追问'这条约束的物理本质是什么、它逼出的最优解形状是什么'——约束是加法。操作上有三步。第一步，约束物理解释：每条约束都被翻译回物理机制（流沙=低剪强度的饱和沙层受扰动液化；涌潮=潮差与喇叭口地形形成的涌波；工期=枯水季窗口不可失），因为只有翻译到物理层，约束才是可对付的——停留在'不行'的语义层，约束就只是抱怨。第二步，约束-发明配对：问'对付这个物理机制，世上最好的已有工法是什么、它为什么不够、需要的新机制是什么'——不够之处即发明的空间；射水法不是凭空想象，而是把'如何让沙层暂时失去强度'这个物理问题变成'注水改变孔隙水压'这个可施工的答案。第三步，转化收益核算：新工法不仅要解约束，还要优于绕开约束的原方案（并行施工比'先墩后梁'的传统串行快一半）——约束转化成功的标志是约束变成了优势。深意有三重。其一，这与'资源约束激发创造力'的流行说法不同：它不是心理安慰而是工程程序——每条约束有物理解释、有配对发明、有收益核算，缺一环就是空谈。其二，'不可能'的外国断言暴露的是经验域的边界而非物理的边界——翻译到物理层往往发现断言者从未在该物理机制上做过功课。其三，此法把约束从甲方给工程师的'坏消息'变成工程师给行业的'新工法专利'——钱塘江之后，中国深基础工法进入世界水平。适用边界：适合物理约束主导、单件大型系统；对纯制度性约束（如预算规则）转化空间较小，因为其物理本质薄。现代对应物：SpaceX 的'约束驱动设计'（火箭成本约束逼出回收技术）、丰田的'约束理论'生产改善、芯片设计中的 constraint-driven synthesis、以及一切'把限制条件当设计输入'的设计思维。
+
+The core proposition: constraint is not the boundary of a scheme but its source. The conventional engineer facing a constraint list (bad geology, impossible schedule, insufficient budget) responds with revise, lower the bar, or excuse—constraint as subtraction; Mao's response is to interrogate each item—'what is its physical essence, what shape of solution does it force'—constraint as addition. Three steps. First, physical interpretation: translate each constraint back to mechanism (quicksand = saturated low-shear sand liquefying under disturbance; the bore = a tidal wave formed by range and estuary shape; schedule = the dry-season window that cannot be missed), for only at the physical layer is constraint tractable—at the semantic layer of 'no,' it is merely complaint. Second, constraint-invention pairing: ask 'what is the world's best existing method against this mechanism, why does it fall short, what new mechanism is needed'—the shortfall is the space of invention; the water-jet was not conjured but posed as 'how to make the sand layer momentarily lose strength' and answered as 'inject water to change pore pressure.' Third, benefit accounting: the new method must not only solve the constraint but beat the alternative of avoiding it (parallel erection was twice as fast as the serial 'piers first, girders later'); success means the constraint becomes an advantage. Three layers of depth. First, unlike the pop phrase 'constraints breed creativity,' this is not consolation but procedure—physical interpretation, paired invention, benefit accounting; missing any link, it is talk. Second, the foreign verdict 'impossible' exposed the boundary of an experience domain, not of physics—translated to mechanism, the verdict-makers had rarely done the homework. Third, the method turns constraints handed down as bad news into new methods handed up as industry patents—after the Qiantang, Chinese deep-foundation practice entered world class. Boundaries: it suits physically constrained, one-off large systems; for purely institutional constraints (say, budget rules) the conversion space is small, their physical essence thin. Modern counterparts: SpaceX's constraint-driven design, Toyota's constraint-based production improvement, constraint-driven synthesis in chip design, and every design thinking that takes limitations as inputs.
+
+
+### 出处 / Source
+
+《钱塘江桥工程施工纪实》（茅以升）；罗英《中国桥梁史料》钱塘江桥章节；《茅以升文集》；'钱塘江无底'断言见 1933 年招标期间中外工程师评述（转引自《茅以升传》第 3 章）
+
+
+### 金句 / Key Quote
+
+> 钱塘江上建桥的'不可能'，不是江说的，是人说的——把每条'不行'翻译成物理，'不行'就变成了'需要发明什么'。
+> The 'impossible' of the Qiantang was said by people, not by the river—translate each 'no' into physics and it becomes 'what must be invented.'
+
+
+### 概念 / Key Concepts
+
+约束的物理解释、约束-发明配对、转化收益核算、不可能=经验域边界而非物理边界、约束变优势、物理层才可对付
+
+
+### 流程 / Process
+
+1. 列出约束清单：把任务边界条件逐条写明——地质、水文、工期、预算、法规，一条不漏 / List the constraints: write out every boundary condition—geology, hydrology, schedule, budget, regulation—omitting none
+
+2. 物理翻译：每条约束翻译回其物理/经济机制——拒绝停留在'不行'的语义层；翻译不出的约束才需要谈判或绕开 / Translate to physics: translate each constraint back to its physical or economic mechanism; refuse the semantic layer of 'no'; only the untranslatable few need negotiation or bypass
+
+3. 配对追问：对每条物理化约束问三问——已有最优工法是什么、它为什么不够、需要的新机制是什么 / Pair and interrogate: for each physicalized constraint ask three questions—what is the best existing method, why does it fall short, what new mechanism is needed
+
+4. 小试验证：新机制先做小规模试验（钱塘江先做试桩与沉箱试验段），失败成本前置且可控 / Pilot the mechanism: test new mechanisms at small scale first (trial piles and a test caisson at the Qiantang), front-loading failure cost where it is controllable
+
+5. 收益核算：新工法与'绕开约束的原方案'对比成本/工期/风险——只有全面占优或唯一可行才算转化成功 / Account the benefit: compare the new method with the bypass alternative on cost, schedule, and risk; conversion succeeds only if it dominates or is uniquely feasible
+
+6. 沉淀为工法：把发明写成可复用的工艺规程，使约束转化成为行业资产而非一次性奇迹 / Settle it as method: write the invention into reusable process specifications so constraint conversion becomes an industry asset, not a one-time miracle
+
+
+### 代表案例 / Cases
+
+- 射水法的诞生（1934-1935）：对付 40 米流沙，先物理翻译——'沙层受扰动液化、承载力归零'——再配对追问，已有沉箱法不够（沉箱下沉中会被流沙抱死），于是发明高压射水冲砂助沉：约束转化为中国深基础工法的起点 / Birth of the water-jet (1934-35): against forty meters of quicksand, physical translation first—'saturated sand liquefies under disturbance and loses bearing'—then pairing: existing caissons failed (the sand would grip a sinking caisson), so high-pressure jets were invented to scour and assist sinking—the constraint converted into the starting point of Chinese deep-foundation practice
+
+- 浮运法与涌潮（1936）：涌潮不可抗（物理翻译：喇叭口地形潮差近 9 米），但每日平潮前后的短窗口可计算——700 吨钢梁用船队趁平潮浮运就位：把'不可抗约束'转化为'窗口调度问题' / Float-hoisting against the bore (1936): the bore is irresistible (translated: a nine-meter tidal range funnelled by the estuary), but the short slack window each day is computable—700-ton girders floated into position by a fleet in that window: an irresistible constraint converted into a scheduling problem
+
+- 上下部并行施工（1936-1937）：枯水季窗口不可失（工期约束）→ 传统'先墩后梁'串行太慢 → 建墩、制梁、架梁三线并行：约束转化升级为施工组织的发明，工期压缩一半 / Parallel erection (1936-37): the dry-season window cannot be missed (schedule constraint) while serial 'piers first, girders later' was too slow—pier building, girder fabrication, and erection run in three parallel lines: constraint conversion upgraded into an invention of construction organization, halving the schedule
+
+- 复建与设计图（1946-1953）：战争毁桥后外国顾问认为原址重建仍不可能——他把当年的工法档案与失效清单翻出来，物理层的事实未变，复建如期完成：约束转化法的成果被档案化，可跨年代复用 / Rebuilding from the archives (1946-53): after wartime destruction, foreign advisers still called the original site impossible; he brought out the old method records and failure lists—the physical facts unchanged, the rebuilding finished on schedule: the fruits of constraint conversion, archived, reused across decades
+
+
+### 现代应用 / Modern Applications
+
+- 创业资源约束：'没有预算做市场'翻译为'获客成本的物理构成是什么'→ 逼出增长机制发明（内容获客/产品自传播）而非放弃或烧钱——约束清单改写为发明清单 / Startup resource constraints: translate 'no marketing budget' into 'what is the physics of customer-acquisition cost,' forcing invention of growth mechanisms (content-led acquisition, viral loops) rather than surrender or burn—the obstacle list rewritten as an invention list
+
+- 芯片/硬件设计：工艺约束（功耗墙、光刻极限）逐条物理化后驱动架构发明（chiplet、3D 堆叠）——顶片公司的竞争力正是约束转化法的组织化 / Chip and hardware design: process constraints (power walls, lithography limits) physicalized one by one drive architectural invention (chiplets, 3D stacking)—top firms' competitiveness is constraint conversion organized
+
+- 个人时间约束：'每天只有两小时学习'翻译为'认知负荷与切换成本的机制'→ 发明'单任务深度块+间隔复习'而非抱怨没时间——约束逼出方法升级 / Personal time constraints: translate 'two hours a day to study' into the mechanics of cognitive load and switching cost, then invent single-task deep blocks plus spaced review instead of complaining—the constraint forces a method upgrade
+
+- 政策/合规约束：把'监管不允许'翻译到其保护的底层价值（用户安全/数据主权），再设计同时满足价值与业务的机制——合规从成本项变成差异化来源 / Regulatory constraints: translate 'regulation forbids' into the underlying value it protects (user safety, data sovereignty), then design mechanisms satisfying both value and business—compliance turns from cost line into differentiation
+
+
+### 相关模式 / Related Modes
+
+M-MYS-001、M-MYS-003、M-MYS-006、M-MYS-006
+
+
+### 代表人物 / Representative Figures
+
+- 李冰 (Li Bing (ancient)): 都江堰的古代先行者：'深淘滩低作堰'把岷江水情约束转化为分水鱼嘴的发明——约束转化法的中国古代原型 / the ancient forerunner at Dujiangyan: 'dredge the channel deep, keep the weir low' converts the Min River's constraints into the invention of the fish-mouth divider—the ancient Chinese archetype of constraint conversion
+
+- 马斯克 (Elon Musk): 现代对照样本：火箭成本约束逐条物理化（原材料价格 vs 成品价格之差）逼出可回收火箭——约束驱动设计的当代执行者 / the modern counterpart: rocket cost constraints physicalized item by item (raw-material versus finished price) forced the reusable rocket—a contemporary executor of constraint-driven design
+
+- 高田贤三式的反例：桥本治 (Osamu Hashimoto (as counterpoint)): 约束的反面样本：把约束停留在外部归因（'时代不行'）而不做物理翻译的人——用于对照说明为何多数人面对约束只产生抱怨 / the counterpoint: those who leave constraints as external attribution ('the times won't allow it') without physical translation—illustrating why most people produce only complaint in the face of constraint
+
+
+---
+
+## M-MYS-003 并行施工法 (Parallel-Erection Method)
+
+- 领域 Domain: 1935-1937 钱塘江：传统建桥'先墩后梁'串行——下部结构全部完成再吊装上部钢梁；茅以升把施工组织当作设计对象重新编排：建墩（射水沉箱）、预制钢梁（岸边工厂）、架梁（浮运就位）三线并行，沉箱下沉一批、钢梁预造一批、桥成一段架一段——总工期从外国方案的三分之一压缩（实际两年半建成 1453 米大桥，比合同工期提前约半年），这是中国工程界最早的系统化并行施工实践之一
+
+- Domain: The Qiantang, 1935-37: conventional bridge building ran serial—'piers first, girders later'; Mao re-choreographed construction organization as a design object: pier building (water-jet caissons), girder prefabrication (a shore factory), and erection (float placement) in three parallel lines—a batch of caissons sinking while a batch of girders was fabricated while completed spans were erected; the total schedule beat the foreign plan by two-thirds (the 1,453-meter bridge built in about two and a half years, roughly half a year ahead of contract), among the earliest systematic parallel-construction practice in Chinese engineering
+
+
+### 定义 / Definition
+
+并行施工法的核心命题是：工期不是工种序列的被动结果，而是一个可以被设计的系统参数。绝大多数工程超期的根因不在某个工种慢，而在组织结构是串行的——每一环节等待上一环节的完全结束，等待时间之和远超有效作业时间。茅以升的操作分三步。第一步，依赖关系显式化：把全部工序的'真实依赖'列出来（架梁真的需要全部桥墩完成吗？——只需要桥墩到架梁路径就绪），显式区分硬依赖（物理上必须先后）与软依赖（习惯上先后）——串行浪费几乎全部藏在软依赖里。第二步，流水线编排：把软依赖环节改写为并行/流水——建墩、制梁、架梁各成一线，节奏互相咬合；并行的代价是资源冲突与协调复杂度，他用'统一施工组织设计+每日调度会'兜住。第三步，风险对冲设计：并行意味着某一线出险会传染（沉箱延误但钢梁已预制），他为此设计了缓冲（预制梁存梁场）与替代路径（架设顺序可换）——并行不是莽进，是有备份的多线推进。深意有三重。其一，这与关键路径法（CPM/PERT，1950s 美国发明）在思想上同构且更早——茅以升在 1930 年代就把'工序网络'当作设计对象，华罗庚后来推广的统筹法正是这条线的显式化。其二，串行→并行的本质是把'时间'从资源变成设计变量：串行工程里时间是被动流逝的，并行工程里时间是主动编排的。其三，此法对组织的要求高于对技术的要求——并行需要多个班组同时高质量作业，这解释了他为何同时是教育改革者：没有'先习后学'训练出的班组，并行就是灾难。适用边界：适合多工种、周期长、软依赖占比高的工程；对硬依赖主导（如必须先有地基才能测数据）的项目，并行的空间由物理决定，强行并行反而制造返工。现代对应物：CPM/关键链项目管理、软件的 CI/CD 与 DevOps 并行流水线、芯片设计中的 design-for-parallel-verification、以及一切'把等待消灭在组织设计里'的精益实践。
+
+The core proposition: schedule is not the passive product of trade sequences but a system parameter that can be designed. Most overruns root not in any slow trade but in a serial organization—every step waiting for the previous to fully finish, with waiting time far exceeding effective work time. Mao's procedure has three steps. First, make dependencies explicit: list every process's real dependency (does girder erection truly need all piers done?—only the ones along the erection path), distinguishing hard dependencies (physically ordered) from soft ones (habitually ordered); serial waste hides almost entirely in the soft. Second, pipeline the flow: rewrite soft-dependency stages as parallel or pipelined—pier line, girder line, erection line, rhythms interlocking; parallelism's price is resource conflict and coordination, held together by a unified construction-organization design and daily dispatch meetings. Third, hedge the risks: parallel means a failure propagates (caissons late while girders already fabricated), so he built buffers (a girder storage yard) and alternate paths (swappable erection sequences)—parallelism is not recklessness but multi-line advance with backups. Three layers of depth. First, isomorphic with and earlier than CPM/PERT (invented in 1950s America)—Mao treated the process network as a design object in the 1930s, and the overall-planning method Hua Luogeng later popularized is this line made explicit. Second, serial-to-parallel is essentially turning time from a resource into a design variable: in serial engineering time passes; in parallel engineering time is choreographed. Third, the method demands more of organization than of technology—parallel work needs multiple crews performing at quality simultaneously, which is why he was also an educational reformer: without crews trained in 'practice before theory,' parallelism is disaster. Boundaries: it suits multi-trade, long-cycle projects with high soft-dependency share; where hard dependencies dominate, parallel space is set by physics, and forcing parallelism creates rework. Modern counterparts: CPM/critical-chain project management, CI/CD and DevOps parallel pipelines, design-for-parallel-verification in chips, and every lean practice that kills waiting in organizational design.
+
+
+### 出处 / Source
+
+《钱塘江桥工程施工纪实》施工组织章节（茅以升）；罗英《钱塘江桥建筑纪》（合作者回忆）；《茅以升文集》；华罗庚《统筹方法平话》（思想谱系后证）
+
+
+### 金句 / Key Quote
+
+> 桥墩在水里长，钢梁在岸上生，架桥的人在中间等——等，是最贵的材料，我把它从预算里删掉了。
+> The piers grow in the water, the girders are born on the shore, and the builders wait between—waiting is the costliest material, and I struck it from the budget.
+
+
+### 概念 / Key Concepts
+
+硬依赖与软依赖、工序网络当设计对象、流水线编排与咬合节奏、缓冲与替代路径、时间从资源变设计变量、并行依赖班组素质
+
+
+### 流程 / Process
+
+1. 拆解工序：把工程全部工序列成清单，标出每项的输入与产出 / Decompose the work: list every process with its inputs and outputs
+
+2. 依赖分类：区分硬依赖（物理必须先后）与软依赖（仅习惯先后）——软依赖是并行的全部空间 / Classify dependencies: separate hard (physically ordered) from soft (only habitually ordered)—the soft is the entire space of parallelism
+
+3. 编排流水：把可并行的环节编成多线流水——每线有自己的节拍，交接点用中间库存（存梁场/备件）缓冲 / Choreograph the flow: arrange parallelizable stages into multi-line pipelines, each with its own cadence, with intermediate stock (girder yard, spares) buffering the handoffs
+
+4. 设调度中枢：建立统一施工组织设计与每日调度会——并行增加的协调复杂度由制度承接 / Set the dispatch hub: a unified construction-organization design plus daily dispatch meetings—institution absorbs the coordination complexity parallelism adds
+
+5. 预置备份：为每条线准备替代路径与缓冲资源（可换架设顺序、存梁储备）——单线出险不传染全局 / Pre-position backups: alternate paths and buffer resources per line (swappable erection sequences, stored girders)—one line's trouble does not infect the whole
+
+6. 复盘节拍：竣工后复盘各线节拍与等待，把'新的软依赖'识别出来供下一工程并行化 / Review the cadence: after completion, audit each line's rhythm and waits, identifying new soft dependencies for the next project's parallelization
+
+
+### 代表案例 / Cases
+
+- 钱塘江三线并行（1935-1937）：建墩/制梁/架梁三线咬合，沉箱下沉与钢梁预制同时进行，桥成一段架一段——总工期压缩约一半，是方法论的完整执行样本 / Three parallel lines at the Qiantang (1935-37): pier, girder, and erection lines interlocking—caissons sinking while girders fabricated while finished spans erected—total schedule halved; the complete execution sample
+
+- 战时复校的'流动大学'（1937-1946）：他把并行思维也用于办学——师生迁徙途中课堂不停（行军与教学并行）、五次迁址学校不散：组织设计压缩的是'办学时间的浪费' / The traveling university in wartime (1937-46): he applied parallel thinking to running a school—classes never stopped during five relocations (march and teaching in parallel); organizational design compressed the waste of school time
+
+- 武汉长江大桥技术顾问（1955-1957）：他向大桥工程局建议的管柱基础与架梁交叉作业方案，是钱塘江并行经验的规模化推广——万里长江第一桥比原计划提前两年通车 / Advising the Wuhan Yangtze Bridge (1955-57): his suggestions to the bridge bureau on crossed cylinder-foundation and erection work were the scaled generalization of Qiantang parallel experience—the first bridge over the Yangtze opened two years early
+
+- 教学方法论（1920s 起）：'先习后学'本质是认知层面的并行施工——理论与实操不再串行（先学四年再实习），而是咬合推进：他一生只做一件事的不同侧面 / Teaching methodology (from the 1920s): 'practice before theory' is parallel erection at the cognitive level—lectures and site work no longer serial (four years of study then internship) but interlocking; one method, many sides of one life
+
+
+### 现代应用 / Modern Applications
+
+- 软件发布：把'开发完→测试→运维'串行流水改为 CI/CD 并行（测试与开发咬合、灰度与运维预置并行）——发布周期从月到天；等待是软件最贵的材料 / Software releases: turn the serial dev-test-ops pipeline into CI/CD parallelism (testing interlocked with development, canary and ops readiness in parallel)—release cycles from months to days; waiting is software's costliest material
+
+- 产品上市：研发、供应链、市场三线并行——传统'产品定型再谈渠道'是软依赖；用中间库存（预售、内容储备）缓冲交接点 / Product launches: R&D, supply chain, and marketing in three parallel lines—'finalize the product, then find channels' is a soft dependency; buffer handoffs with intermediate stock (pre-sales, content reserves)
+
+- 个人项目组合：把串行排队（做完 A 再做 B）改为按'等待窗口'并行——A 等反馈时推进 B；个人版的每日调度会是 15 分钟晨规划 / Personal project portfolios: replace serial queues (finish A before B) with window-based parallelism—advance B while A awaits feedback; the personal dispatch meeting is a fifteen-minute morning plan
+
+- 组织流程再造：审批链逐环节分类硬/软依赖——多数会签是软依赖，可并行会签+默认通过时限，把等待从流程里删除 / Process re-engineering: classify each approval link hard or soft; most countersignatures are soft—parallel sign-off with default-pass deadlines deletes waiting from the process
+
+
+### 相关模式 / Related Modes
+
+M-MYS-002、M-MYS-004、M-MYS-006、M-MYS-010
+
+
+### 代表人物 / Representative Figures
+
+- 罗英 (Luo Ying): 钱塘江桥总工程师：与茅以升共同执行并行施工的搭档——工程组织方法的共同作者 / chief engineer of the Qiantang bridge: Mao's partner in executing parallel erection—co-author of the method of construction organization
+
+- 华罗庚 (Hua Luogeng): 统筹法的推广者：把茅以升一代的工序网络实践形式化为'统筹方法'并推向全国——并行思想的后继形式化者 / popularizer of overall planning: formalized the process-network practice of Mao's generation into the 'overall planning method' for the nation—the successor who formalized parallel thinking
+
+- 大野耐一 (Taiichi Ohno): 丰田生产方式创始人：跨领域同构——把生产组织当作设计对象、消灭等待，与茅以升的施工组织设计同属一族 / founder of the Toyota Production System: cross-domain isomorph—production organization as design object and the elimination of waiting, one family with Mao's construction-organization design
+
+
+---
+
+## M-MYS-004 先习后学法 (Practice-Before-Theory Method)
+
+- 领域 Domain: 1920s-1940s 唐山交大/东南大学/北洋大学：他系统反对'先学后习'（四年课堂后再实习）的传统，主张'先习后学、考工并重'——工科生第一年到工地/车间，带着现场的真问题回课堂学理论；他在十几所大学兼课并自编中文教材，把这套排序写进课程设计；唐山交大的毕业生以'下得去现场、上得了理论'著称，日后支撑了中国几乎全部大桥工程
+
+- Domain: Tangshan Jiaotong, Southeast University, and Peiyang, 1920s-40s: he systematically opposed the 'theory before practice' tradition (four years of lectures, then internship), championing 'practice before theory, examinations paired with workshop'—engineering freshmen to the site and shop in year one, returning to the classroom with real problems; teaching at a dozen schools and writing his own Chinese textbooks, he wrote this ordering into curriculum design; Tangshan graduates were known for 'going down to the site and up to theory,' and went on to build nearly every great Chinese bridge
+
+
+### 定义 / Definition
+
+先习后学法的核心命题是：工程认知的正确次序是实在先于概念——先接触尚未被教科书整理过的原始问题，再学整理过的理论，理论才有挂靠点。常规工程教育'先学后习'的失败机制在于：概念在没有经验前被接受为符号，学生'懂了'四年，实际从未'见过'——毕业时拥有的是符号系统而非问题系统，到现场后还要再花数年把符号翻译回现实（或永远翻译不回去）。茅以升的替代设计分三步。第一步，习的先置：新生第一课在工地/车间/实验室——不是参观，是承担有真实产出的任务（测量、试验、检修），让问题以未整理形态进入头脑。第二步，学的回挂：带着现场问题进课堂，每个理论单元都从'现场发生了什么'开场——教师的责任是把学生的经验锚定到公式的物理意义上；他自编中文教材正是为了控制这种锚定（当时照搬英美教材，例题全是异国河道）。第三步，考工并重：考试不只考推导，还考现场判断（读图、识险、估料）——评价制度与认知次序一致，否则'习'会被学生当作业余。深意有三重。其一，这与杜威'做中学'同期而路径不同：杜威从教育学出发，茅以升从工程认知的实在结构出发——工程知识的组织方式天然以问题为中心。其二，先习后学与他'以失效为师'的工程哲学同构：都是让世界的原始反馈先于人类的整理物。其三，此法对他的组织并行施工法是基础设施——并行施工需要能独立判断的班组，只有先习后学培养得出。适用边界：适合工程、医学、管理等'知识以问题为中心'的领域；对纯数学、哲学等概念自足学科，'习'的形态需要改造（做研究、做证明），不宜机械搬用。代价：'习'先置会推迟理论覆盖面，在考证/升学压力大时会遭遇制度阻力——他的改革反复中断正因此。现代对应物：CDIO 工程教育模式、医学院的 PBL（问题导向学习）、职业学校'双元制'、以及一切'问题先于答案'的教学设计。
+
+The core proposition: the correct order of engineering cognition is reality before concept—meet the raw, un-textbooked problem first, then learn the organized theory, and theory acquires a place to anchor. The failure mechanism of 'theory before practice' is that concepts accepted as symbols before experience leave students who 'understood' for four years but never 'saw'—graduates own a symbol system, not a problem system, and spend years on site translating symbols back into reality, or never manage it. Mao's alternative design has three steps. First, practice first: the freshman's first class is at the site, shop, or laboratory—not a tour but a task with real output (surveying, testing, maintenance), letting problems enter the mind in raw form. Second, theory anchored back: return to the classroom carrying site problems; every theory unit opens with 'what happened on the site'—the teacher's duty is to anchor experience to the physical meaning of formulas; he wrote his own Chinese textbooks precisely to control this anchoring (imported Anglo-American texts used foreign rivers in every example). Third, examinations paired with workshop: tests measure not only derivation but site judgment (reading drawings, spotting hazards, estimating materials)—the evaluation system must match the cognitive order, or 'practice' becomes an extracurricular. Three layers of depth. First, contemporaneous with Dewey's learning-by-doing but a different route: Dewey argued from pedagogy, Mao from the real structure of engineering cognition—engineering knowledge is natively problem-centered. Second, practice-before-theory is isomorphic with his failure-as-master philosophy: both let the world's raw feedback precede humanity's organization of it. Third, the method is the infrastructure of his parallel erection—parallel work needs crews of independent judgment, which only practice-first education produces. Boundaries: it suits engineering, medicine, management—fields where knowledge is problem-centered; for concept-self-sufficient disciplines like pure mathematics, the form of 'practice' must be redesigned (research, proof), not mechanically copied. The cost: practice-first delays theoretical coverage and meets institutional resistance under examination pressure—his reforms broke off repeatedly for this reason. Modern counterparts: CDIO engineering education, PBL in medical schools, the dual system of vocational training, and every design where problems precede answers.
+
+
+### 出处 / Source
+
+茅以升《工程教育之研究》与《先习后学》系列论文（1920s-40s）；《茅以升文集》教育部分；唐山交通大学校史；西南（唐山）交通大学迁校史料
+
+
+### 金句 / Key Quote
+
+> 先习后学——让学生先在真实的世界里撞出问题，再给他理论的钥匙；钥匙只有在门上才教得会开锁。
+> Practice before theory—let the student first knock real problems out of the real world, then hand him the key of theory; only on a door does a key teach lock-opening.
+
+
+### 概念 / Key Concepts
+
+实在先于概念、习的先置（第一课在工地）、学的回挂（理论锚定经验）、考工并重（评价一致）、问题系统先于符号系统、教育是并行的基础设施
+
+
+### 流程 / Process
+
+1. 习先置：入门阶段安排有真实产出的现场任务（测量/试验/检修/真实客户项目）——问题以未整理形态进入头脑 / Practice first: at entry assign site tasks with real output (surveying, testing, maintenance, real client work)—problems enter the mind raw
+
+2. 问题外化：要求学员把现场问题写成问题清单——这是后续理论学习的'挂靠点库' / Externalize the problems: have learners write their site problems into question lists—the anchor library for all later theory
+
+3. 学回挂：每个理论单元从现场案例开场，讲授时不断指认'这个公式对应的现场现象'——教师负责锚定 / Anchor theory back: open every theory unit with a site case and keep pointing out 'the site phenomenon this formula answers'—anchoring is the teacher's duty
+
+4. 考工并重：考核同时覆盖推导与现场判断（读图/识险/估料）——评价制度与认知次序一致 / Examine both: assessment covers derivation and site judgment (drawings, hazards, estimating)—evaluation matches the cognitive order
+
+5. 螺旋上升：习-学-再习交替推进，每轮现场的难度与理论的深度同步升级 / Spiral upward: alternate practice-study-practice, raising site difficulty and theory depth in step each round
+
+6. 教材自建：积累本语种、本地案例的教材与题库——锚定材料不假手异国河道 / Build your own materials: accumulate textbooks and problem banks in your language with local cases—never borrow foreign rivers for anchoring
+
+
+### 代表案例 / Cases
+
+- 唐山交大课程改革（1920s-30s）：一年级即下工地实习测量与土木试验，'考工并重'写进学则——毕业生以现场判断力著称，成为钱塘江、武汉长江大桥工程骨干的摇篮 / Tangshan Jiaotong's curriculum reform (1920s-30s): freshmen surveying and testing on site from year one, 'examinations paired with workshop' written into the rules; graduates famed for site judgment, becoming the cradle of engineers for the Qiantang and Wuhan Yangtze bridges
+
+- 自编中文教材（1920s-40s）：当时大学工科照搬英美教材，例题全是英美河流与钢轨——他坚持自编含中国桥梁与地质案例的教材，把'锚定'做进材料本身 / Writing his own Chinese textbooks (1920s-40s): engineering faculties imported Anglo-American texts with foreign rivers and rails in every example; he insisted on textbooks with Chinese bridges and geology—anchoring built into the material itself
+
+- 战时'流动大学'（1937-1946）：带领唐山交大师生五次迁徙，行军途中以沿线工程为教具——先习后学在最恶劣条件下反而显示优势：现场到处都是，课堂随身携带 / The traveling university (1937-46): leading Tangshan Jiaotong through five wartime relocations, using engineering works along the route as teaching aids—practice-first showed its advantage in the worst conditions: the site was everywhere, the classroom portable
+
+- 《中国石拱桥》的写作（1962）：这篇中学课文本身就是先习后学的示范——从读者见过的真实桥（赵州桥、卢沟桥）出发上升为结构力学原理，亿万人的工程认知第一次锚定在自己走过桥上 / Writing China's Stone Arches (1962): the middle-school classic itself demonstrates practice-before-theory—rising from bridges readers have walked (Zhaozhou, Lugou) to structural principles; hundreds of millions anchored their first engineering cognition to bridges they had crossed
+
+
+### 现代应用 / Modern Applications
+
+- 编程教育：先做一个真实小产品（带真实用户）再系统学计算机理论——'问题系统'先于'符号系统'，理论课的每个概念都有挂靠点 / Programming education: build a real small product with real users before studying computer science systematically—problem system before symbol system, with an anchor for every concept in theory class
+
+- 企业新人培养：第一周在客服/产线/客户现场，带着一线问题回部门学流程与产品——传统'先培训后上岗'制造的是符号熟练者 / Corporate onboarding: week one in customer service, production, or the field; return to the department carrying front-line problems before learning process and product—the conventional 'train first, deploy later' manufactures symbol fluency
+
+- 商学院改革：从'案例讨论'升级为'真实项目实习+理论回挂'——茅以升九十年前的批评对 case method 同样成立：案例仍是整理过的现实 / Business-school reform: from case discussion to real-project internship with theory anchored back—Mao's ninety-year-old critique applies to the case method too: cases are still organized reality
+
+- AI 时代的学习：先用 AI 做出东西（习），再回补原理（学）——风险是止步于'会调用'，先习后学法的'考工并重'提示：评价必须覆盖原理推导，否则螺旋断在第一圈 / Learning in the AI era: make things with AI first (practice), then backfill principles (study); the risk is stopping at 'can invoke'—the paired-examination rule warns that assessment must cover derivation, or the spiral breaks on its first turn
+
+
+### 相关模式 / Related Modes
+
+M-MYS-001、M-MYS-003、M-MYS-009、M-MYS-002
+
+
+### 代表人物 / Representative Figures
+
+- 杜威 (John Dewey): '做中学'的教育学同路人：从普遍教育哲学出发，茅以升从工程认知的实在结构出发——同一结论的两条路径 / the pedagogical fellow of learning-by-doing: Dewey from general educational philosophy, Mao from the real structure of engineering cognition—two routes to one conclusion
+
+- 陶行知 (Tao Xingzhi): 中国'教学做合一'的并行改革者：陶行知面向全民教育，茅以升面向工程教育——民国教育实践转向的两翼 / the parallel Chinese reformer of 'teaching, learning, doing as one': Tao for mass education, Mao for engineering—the two wings of China's practical turn in education
+
+- 克劳塞维茨 (Carl von Clausewitz): 跨域同构：'战争迷雾'下经验先于理论的主张与先习后学法同构——实在先于概念是高风险领域的共同认知次序 / cross-domain isomorph: his claim that in the fog of war experience precedes theory mirrors practice-before-theory—reality before concept as the shared cognitive order of high-stakes fields
+
+
+---
+
+## M-MYS-005 毁备设计法 (Design-for-Destruction Method)
+
+- 领域 Domain: 1937 钱塘江：日军逼近杭州，茅以升在大桥建造期间就预留了爆破位置并绘制详细图纸——通车 89 天后（1937.12.23）按图炸毁自己设计的大桥以阻断日军，留下'抗战必胜，此桥必复'；1946 年他受命复建时，当年预留的设计使炸毁点修复方案明确，1953 年新桥通车——'建桥-炸桥-复桥'的完整闭环在中国工程史上绝无仅有
+
+- Domain: The Qiantang, 1937: with the Japanese approaching Hangzhou, Mao had reserved demolition points and drawn detailed plans during construction—eighty-nine days after opening (23 December 1937) he blew up his own bridge by those plans to halt the advance, leaving 'the war will be won, and this bridge will rise again'; ordered to rebuild in 1946, the pre-reserved designs made the repair scheme of the blast points explicit, and the new bridge opened in 1953—build, destroy, rebuild: a complete loop unique in Chinese engineering history
+
+
+### 定义 / Definition
+
+毁备设计法的核心命题是：一个系统的完整设计边界不止于'建成并运行'，还应覆盖'受控地死'与'可信地重生'。常规设计把毁坏视为设计之外的事故——既然不愿想，就不画图；茅以升把这个不愿想的环节画成了图：造桥时预留爆破位置，等于承认'这座桥总有一天要按我的图纸死'。操作上有三层。第一层，预设死法：识别哪些事件可能要求对象被主动毁掉（战争焦土、疫情封控、产品召回、数据合规删除），为每种情形设计受控毁坏机制——毁坏要可控（只毁目标、不伤余量）、可执行（有人有权且有能力执行）、可追溯（事后能弄清毁掉了什么）。第二层，预留重生：毁坏方案与重建方案同图设计——钱塘江的爆破图与复建图本质是同一套档案的两面；重建所需的信息（原设计、工法记录、失效清单）在毁坏前就要归档，因为毁坏者往往是毁坏信息的最后一手。第三层，责任闭环：执行毁坏的人要对重生负责——他炸桥后把全部技术档案保存并带离战区，复建时交出；毁备设计的伦理内核是'毁灭不免责'。深意有三重。其一，这是失效师法（M-MYS-001）的极端推论：当失效清单里的某条死法是'被我们自己毁掉'，防御措施就变成毁坏方案——把战争也当工况。其二，它颠倒了'建成即完成'的工程观：交付物不是桥而是一段'建-毁-复'的完整能力。其三，数字时代此法从悲壮变成日常：数据可删除性、密钥销毁、账号注销、灾备演练都是毁备设计——现代系统的'死'比桥频繁得多。适用边界：适合战略资产、关键基础设施、高敏感数据系统；对轻量消费品，'受控毁坏'退化为'可拆卸可回收'即可。现代对应物：灾备与灾难恢复设计、密钥轮换与销毁协议、'break-glass' 应急机制、数据可携带与可删除权、芯片的 fuse 烧录与安全擦除。
+
+The core proposition: a system's full design boundary extends beyond 'built and running' to cover 'dying in a controlled way' and 'being reborn credibly.' Conventional design treats destruction as an accident outside the design—unimagined, therefore undrawn; Mao drew the unimagined: reserving demolition points at construction time is admitting 'this bridge will one day die by my drawings.' Three layers of practice. First, pre-set the deaths: identify which events may demand the object's deliberate destruction (scorched-earth war, epidemic lockdown, product recall, compliance deletion), and design a controlled destruction mechanism for each—controllable (only the target destroyed, margins unharmed), executable (someone has both authority and capability), traceable (afterward, what was destroyed can be known). Second, reserve the rebirth: destruction and rebuilding are drawn on the same set of plans—the Qiantang blast drawings and rebuilding drawings are two faces of one archive; the information rebuilding needs (original design, method records, failure lists) must be filed before destruction, since the destroyer is often the last holder of the information. Third, close the loop of responsibility: whoever executes destruction answers for rebirth—after blowing the bridge he preserved the full technical archive and carried it out of the war zone, delivering it for the rebuilding; the ethical core of design-for-destruction is that destruction carries no exemption from responsibility. Three layers of depth. First, it is the extreme corollary of failure-as-master (M-MYS-001): when a death on the failure list is 'destroyed by ourselves,' the defense becomes the destruction plan—war treated as a load case. Second, it inverts 'completion equals finished': the deliverable is not a bridge but a complete capability of build-destroy-rebuild. Third, in the digital age the method turns from tragic to routine: deletability, key destruction, account closure, disaster drills are all design-for-destruction—modern systems die far more often than bridges. Boundaries: for strategic assets, critical infrastructure, and high-sensitivity data systems; for light consumer goods, 'controlled destruction' can degrade to 'disassemblable and recyclable.' Modern counterparts: disaster recovery design, key rotation and destruction protocols, break-glass mechanisms, data portability and deletion rights, chip fuses and secure erase.
+
+
+### 出处 / Source
+
+《钱塘江建桥回忆》（茅以升，1982——炸桥决策与档案保存的第一手叙述）；钱塘江桥工程技术档案（茅以升保存移交）；《茅以升传》第 3-5 章；1946 年复建令与工程记录
+
+
+### 金句 / Key Quote
+
+> 抗战必胜，此桥必复——炸桥的图纸和复桥的图纸，是同一套图纸。
+> The war will be won, and this bridge will rise again—the drawings for blowing it and the drawings for rebuilding it are the same set.
+
+
+### 概念 / Key Concepts
+
+受控毁坏机制、毁坏与重建同图、毁坏前信息归档、毁灭不免责、把战争当工况、交付物是建-毁-复能力
+
+
+### 流程 / Process
+
+1. 扩展边界：立项即问'对象在什么情形下需要被主动毁掉'——把主动毁坏从'不可想象'改为设计输入 / Extend the boundary: at kickoff ask 'in what circumstances must this object be deliberately destroyed'—making deliberate destruction a design input, not the unthinkable
+
+2. 设计死法：为每种需毁情形设计受控毁坏机制——毁坏点/删除路径/熔断开关，要求可控、可执行、可追溯 / Design the deaths: for each destroy-scenario design a controlled mechanism—blast points, deletion paths, kill switches—controllable, executable, traceable
+
+3. 同图重生：毁坏方案与重建/恢复方案同时设计——重建所需信息在毁坏可能发生前完成归档并异地保存 / Rebirth on the same sheet: design destruction and recovery together; file and off-site-store everything rebuilding needs before destruction becomes possible
+
+4. 授权演练：毁坏机制要授权到人且定期演练——未演练过的毁备设计等于没有 / Authorize and drill: destruction mechanisms must be authorized to named people and rehearsed—undrilled design-for-destruction is none
+
+5. 执行交割：执行毁坏时同步移交档案与重建责任——毁灭与传承在同一时刻完成交接 / Execute with handover: at destruction, hand over the archive and the duty of rebuilding—destruction and transmission complete their handover in the same moment
+
+6. 闭环复盘：重生完成后复盘毁备设计的每层假设，修正归档与授权制度 / Close the loop: after rebirth, audit every assumption of the design-for-destruction and revise the filing and authorization system
+
+
+### 代表案例 / Cases
+
+- 钱塘江预留爆破点（1937）：建桥期间绘制爆破位置图——通车 89 天后按图炸桥阻断日军；这是'把战争列入失效清单'的直接产物 / Demolition points reserved at the Qiantang (1937): blast-position drawings made during construction—eighty-nine days after opening, the bridge blown by its own drawings to halt the Japanese; the direct product of putting war on the failure list
+
+- 档案的战争迁徙（1937-1946）：他保存全部桥工档案并随身带离战区，复建时完整移交——'毁灭不免责'的个人执行，这批档案成为中国现代桥梁工程的奠基文献 / The archive's wartime migration (1937-46): he preserved the complete bridge-engineering archive and carried it out of the war zone, handing it over intact for the rebuilding—'destruction carries no exemption' executed personally; the archive became a founding document of modern Chinese bridge engineering
+
+- 复建按原设计（1946-1953）：复建方案直接基于当年图纸与工法记录——'同图重生'的完整实现，新桥 1953 年通车 / Rebuilding to the original design (1946-53): the rebuilding scheme drew directly on the original drawings and method records—'rebirth on the same sheet' fully realized; the new bridge opened in 1953
+
+- 晚年修《中国古桥技术史》（1980s）：把'为重生而记录'扩展到文明尺度——古桥的毁坏不可逆，但技术史是文明的'重建图'：毁备设计法的最后升华 / Editing the history of ancient bridges (1980s): extending 'recording for rebirth' to the scale of civilization—ancient bridges' destruction is irreversible, but their technical history is civilization's rebuilding drawing: the final sublimation of design-for-destruction
+
+
+### 现代应用 / Modern Applications
+
+- 数据系统设计：'可删除性'作为一级需求——用户数据的物理删除路径、备份的同步清除、删除操作的可审计记录；GDPR 的'被遗忘权'是毁备设计法的立法化 / Data-system design: deletability as a first-class requirement—physical deletion paths, synchronized purge of backups, auditable deletion records; GDPR's right to erasure is design-for-destruction legislated
+
+- 密钥与安全：密钥轮换与销毁协议、break-glass 应急授权、'毁灭演练'（红队模拟）——数字资产的'炸桥图' / Keys and security: key rotation and destruction protocols, break-glass emergency authorization, destruction drills (red-team simulations)—the digital asset's blast drawings
+
+- 组织知识管理：核心系统文档异地归档+继承者训练——创始人/核心员工退出（组织最常见'主动毁坏'）不带走重建能力；毁灭不免责的 clauses 应写入离职协议 / Organizational knowledge: off-site archiving of core-system documentation plus successor training—a founder's or key employee's exit (an organization's commonest deliberate destruction) must not carry away the rebuilding capability; destruction-exemption clauses belong in departure agreements
+
+- 个人数字遗产：密码/资产/重要文档的'死亡开关'与继承人路径——个人版的毁备设计：你的数字桥也需要复桥图 / Personal digital legacy: dead-man switches and heir paths for passwords, assets, and vital documents—design-for-destruction at the personal scale: your digital bridge needs a rebuilding drawing too
+
+
+### 相关模式 / Related Modes
+
+M-MYS-001、M-MYS-002、M-MYS-009、M-MYS-006
+
+
+### 代表人物 / Representative Figures
+
+- 焦土抗战的决策者们 (The scorched-earth decision-makers (context)): 时代背景：1937 年国民政府的焦土政策（长沙大火等）多为仓促执行——茅以升的'按图毁桥'是同背景下唯一有设计、有档案、有重生的样本 / the historical context: the 1937-38 scorched-earth acts (the Changsha fire among them) were rushed; Mao's bridge destroyed by its own drawings is the sole sample of that era with design, archive, and rebirth
+
+- 狄奥多西工程师（君士坦丁堡城墙） (The Theodosian engineers (walls of Constantinople)): 古代对照：城墙设计包含城门可封堵与水道可切断的'受控死法'——毁备设计的前现代实践者 / the ancient counterpart: the walls' design included controlled deaths—sealable gates and cuttable aqueducts—pre-modern practitioners of design-for-destruction
+
+- 维基百科档案计划 (The Wikipedia archive projects): 现代传承：把'文明的可重建性'当使命的数据归档实践——与茅以升修古桥史同属'为重生而记录'的谱系 / the modern heir: data-archiving practice with the mission of civilization's re-buildability—one lineage with Mao's ancient-bridge history, 'recording for rebirth'
+
+
+---
+
+## M-MYS-006 深基射水法 (Water-Jet Foundation Method)
+
+- 领域 Domain: 1934-1935 钱塘江基础工程：40 余米流沙层被中外工程师视为不可逾越（'钱塘江无底'）；茅以升与罗英先做物理翻译——流沙的本质是饱和沙层受扰动液化、承载力随扰动归零——再配对物理干预：高压射水冲松沙层使沉箱借自重下沉（射水法），配合气压沉箱人工开挖（沉箱法）；试桩与试验段先行验证，随后 316 根木桩与 14 座沉箱基础在流沙中逐一就位——中国桥梁深基础工法由此进入世界水平
+
+- Domain: The Qiantang foundations, 1934-35: a silt layer forty meters deep, pronounced impassable by foreign engineers ('the Qiantang has no bottom'); Mao and Luo Ying translated first—the essence of quicksand is saturated sand liquefying under disturbance, bearing capacity going to zero—then paired a physical intervention: high-pressure water jets scouring the sand so caissons sank under their own weight (the water-jet method), with pneumatic caissons excavated under air (the caisson method); trial piles and a test section verified first, then 316 timber piles and fourteen caisson foundations took position one by one in the running sand—Chinese deep-foundation practice entered world class
+
+
+### 定义 / Definition
+
+深基射水法在这里不是单指一项工法，而是指'在无人区发明工法'的完整程序——茅以升处理'钱塘江无底'的路径可以抽象为任何领域的深水区作业法。程序有四段。第一段，拒绝类比：无人区没有先例，最危险的诱惑是套用邻近领域的成熟方案（在硬地层有效的沉箱直接下沉会被流沙抱死）；他先做土工试验，把'地基不行'翻译为可测的物理参数——含水量、孔隙比、扰动敏感性。第二段，机制定位：问'失败在哪个机制上'——不是'沙太深'（深度只是症状），而是'沙受扰动即液化、扰动恰恰是施工本身'——问题被定位为'如何在扰动的同时不液化'，这个表述已经暗示了答案的形状（要么减少扰动、要么用扰动本身服务下沉）。第三段，干预设计：射水法正是第二表述的工程化——注水使沙层局部先液化，液化从障碍变成助力（沉箱顺水而下）；这是'让问题的机制为你工作'的经典结构。第四段，渐进验证：试桩→试验段→全面铺开，每一段的失败成本被锁定在小尺度；深水区发明的风险不可能消除，只能被前置和分段。深意有三重。其一，'先翻译后发明'的次序保证发明不是碰运气——射水法后来成为土力学教科书的经典案例，因为它解决的是机制问题而非场地问题。其二，与钱学森'工程科学'（把工程问题提升为科学问题再解）同构：茅以升在具体工法层面执行了同一条路径。其三，此法把'无人区恐惧'转化为'机制清单'——恐惧来自未知整体，清单把未知切成一个一个可处理的机制。适用边界：适合技术无人区、跨学科移植区；对机制清晰但执行力不足的领域，瓶颈不在发明而在组织。现代对应物：土力学与基础工程的现代工法（地下连续墙、MJS 工法）、生物制药的'机制导向药物设计'、材料科学的'结构-性能'逆向设计、以及一切'把不可能翻译为机制再打穿'的研发路径。
+
+Here the water-jet foundation method means not one technique but the complete procedure of 'inventing a method in no-man's-land'—Mao's path through 'the bottomless Qiantang' abstracts into a method for any deep-water zone. Four stages. First, refuse analogy: no-man's-land has no precedent, and the deadliest temptation is importing the mature solution of a neighboring domain (caissons that worked in firm ground would be gripped by running sand); he began with soil tests, translating 'bad ground' into measurable parameters—water content, void ratio, disturbance sensitivity. Second, locate the mechanism: ask 'at which mechanism does it fail'—not 'the sand is too deep' (depth is a symptom) but 'the sand liquefies under disturbance, and construction is precisely disturbance'—the problem restated as 'how to disturb without liquefying,' a phrasing that already sketches the answer (either disturb less, or make disturbance itself serve the sinking). Third, design the intervention: the water jet is exactly the second phrasing engineered—injected water liquefies the sand locally first, turning the obstacle into an aid (the caisson rides down); the classic structure of 'making the problem's mechanism work for you.' Fourth, progressive verification: trial piles, test section, full rollout—each stage's failure cost locked at small scale; the risk of invention in deep water cannot be eliminated, only front-loaded and segmented. Three layers of depth. First, the order of 'translate before inventing' guarantees the invention is not luck—the water jet became a textbook classic because it solves a mechanism, not a site. Second, isomorphic with Qian Xuesen's 'engineering science' (lifting an engineering problem into a scientific one before solving): Mao executed the same path at the level of a single method. Third, the method converts 'fear of no-man's-land' into a mechanism list—fear comes from unknown wholeness; the list cuts the unknown into tractable mechanisms one by one. Boundaries: it suits technical no-man's-lands and cross-disciplinary transplant zones; where the mechanism is clear but execution lags, the bottleneck lies in organization, not invention. Modern counterparts: modern geotechnical methods (diaphragm walls, MJS grouting), mechanism-directed drug design, structure-property inverse design in materials, and every R&D path that translates the impossible into mechanisms and breaks through.
+
+
+### 出处 / Source
+
+《钱塘江桥工程施工纪实》基础工程篇（茅以升）；罗英《中国桥梁史料》；《茅以升文集》技术部分；钱塘江桥沉箱与试桩工程记录；土力学教科书对射水沉箱法的后续收录
+
+
+### 金句 / Key Quote
+
+> '钱塘江无底'是句诗，不是地质——把诗翻译成土的物理，底就有了。
+> 'The Qiantang has no bottom' is a poem, not geology—translate the poem into the physics of soil, and the bottom appears.
+
+
+### 概念 / Key Concepts
+
+拒绝类比（无人区无先例）、把症状翻译为机制、让问题机制为你工作、渐进验证锁定失败成本、先翻译后发明、把未知切成机制清单
+
+
+### 流程 / Process
+
+1. 实测先行：无人区先做参数测量（土工试验/基线测量/用户访谈）——把定性判断翻译为可测数字 / Measure first: in no-man's-land begin with parameter measurement (soil tests, baseline surveys, user interviews)—translate qualitative judgments into numbers
+
+2. 机制定位：问'失败发生在哪个机制上'——把症状重述为机制命题；重述到位时答案的形状往往已经浮现 / Locate the mechanism: ask 'at which mechanism does it fail'—restate the symptom as a mechanism proposition; when the restatement lands, the answer's shape usually shows
+
+3. 干预设计：设计一个作用于该机制的物理/化学/组织干预——优先考虑'让机制为你工作'的反转方案 / Design the intervention: devise a physical, chemical, or organizational intervention acting on that mechanism—preferring the inverted scheme that makes the mechanism work for you
+
+4. 小尺度试错：试桩/试验段/MVP——把发明风险前置到失败成本可控的尺度 / Fail small: trial piles, test sections, MVPs—front-load invention risk where failure cost is controllable
+
+5. 逐级放大：按验证梯度放大（试验段→分批施工→全面铺开），每级保留回退路径 / Scale by ladder: amplify along the verification gradient (test section, batch construction, full rollout), keeping a fallback at every step
+
+6. 工法化归档：把成功干预写成可复用规程并附失效记录——发明的终点是行业资产 / Archive as method: write the successful intervention into reusable procedure with its failure records—an invention ends as an industry asset
+
+
+### 代表案例 / Cases
+
+- 射水法（1934-1935）：高压水枪冲松流沙、沉箱借自重下沉——'让液化为你工作'的工程化；中国桥梁深基础工法的起点 / The water jet (1934-35): high-pressure jets scouring the sand while caissons sank by their own weight—'making liquefaction work for you' engineered; the starting point of Chinese deep-foundation practice
+
+- 沉箱法与气压作业（1935）：配合射水的气压沉箱让工人在压缩空气中开挖持力层——深基础'双法'组合，后来写入中国桥梁施工规程 / The pneumatic caisson (1935): air caissons letting workers excavate the bearing stratum under compressed air—the paired 'two methods' of deep foundations, later written into Chinese bridge construction codes
+
+- 试桩与试验段（1934）：全面施工前先打试桩、做沉箱试验段——渐进验证程序的原地执行；施工中的沉箱险情也因试验段的预案而可控 / Trial piles and test section (1934): test piles and a caisson trial before full construction—the progressive-verification procedure executed in place; construction incidents stayed controllable because the test section carried the contingency plans
+
+- 武汉长江大桥管柱基础（1955-1957）：他任技术顾问委员会推动的管柱钻孔法，是射水-沉箱思路在长江条件下的升级——方法谱系从钱塘江延续到长江 / Cylinder foundations at Wuhan (1955-57): the drilled-cylinder method he advanced as advisory chairman was the water-jet-and-caisson lineage upgraded for the Yangtze—the method's line running from the Qiantang to the great river
+
+
+### 现代应用 / Modern Applications
+
+- AI 研发：'模型不可用'翻译为机制（数据质量/评估盲区/对齐失败）再逐项设计干预——拒绝'换更大的模型'这类类比式逃避 / AI R&D: translate 'the model is unusable' into mechanisms (data quality, evaluation blind spots, alignment failure) and design an intervention per item—refusing analogy-style escapes like 'use a bigger model'
+
+- 新市场进入：'用户不买'翻译为购买决策机制（信任缺失/价格锚定/习惯成本）——机制定位后再设计干预（试用/本地化定价），而非直接降价 / Entering new markets: translate 'users don't buy' into the mechanics of the purchase decision (missing trust, price anchoring, habit cost); design interventions (trials, localized pricing) after locating the mechanism, not before
+
+- 生物/材料研发：机制导向药物设计与结构-性能逆向设计——现代实验室版的'先翻译后发明' / Biology and materials: mechanism-directed drug design and structure-property inverse design—today's laboratory versions of 'translate first, invent second'
+
+- 组织变革：'员工抵制'翻译为利益与认知机制（损失感知/信息不对称）——把'推动阻力'当作机制问题打穿，而非当作态度问题批判 / Organizational change: translate 'employee resistance' into interest and cognition mechanisms (loss perception, information asymmetry)—break through resistance as a mechanism problem, not condemn it as an attitude problem
+
+
+### 相关模式 / Related Modes
+
+M-MYS-001、M-MYS-002、M-MYS-003、M-MYS-010
+
+
+### 代表人物 / Representative Figures
+
+- 罗英 (Luo Ying): 钱塘江桥总工程师：射水-沉箱工法的共同发明人与现场执行者——'双法'的另一半 / chief engineer of the Qiantang: co-inventor and field executor of the water-jet and caisson methods—the other half of the 'two methods'
+
+- 太沙基 (Karl Terzaghi): 现代土力学之父：孔隙水压与液化的理论化者——茅以升的现场发明在土力学理论中的对应框架；两人把'地基'从经验变成科学 / father of modern soil mechanics: theorist of pore pressure and liquefaction—the theoretical framework answering Mao's field invention; together they turned 'foundations' from experience into science
+
+- 李冰 (Li Bing (ancient)): 都江堰的先例：'深淘滩低作堰'同样是把水沙机制转化为工程口诀——机制翻译传统的中国古代源头 / the precedent at Dujiangyan: 'dredge deep, keep the weir low' likewise turns water-and-silt mechanics into an engineering maxim—the ancient Chinese source of mechanism translation
+
+
+---
+
+## M-MYS-007 桥话科普法 (Bridge-Talks Popularization Method)
+
+- 领域 Domain: 1962《中国石拱桥》：茅以升为《人民日报》写的科普文——不从'拱桥力学'定义出发，而从赵州桥、卢沟桥这两个读者真正走过的桥出发，把敞肩拱的智慧、拱的结构原理讲成'每个人脚下都有过的经验'；文章入选中学语文课本半个多世纪，成为几代中国人的工程启蒙；另有《桥话》系列与为少年儿童写的多本科普读物——他坚持'科普是科学家的天职'，是中国科学家大规模做科普的先声
+
+- Domain: China's Stone Arches, 1962: his popularization for People's Daily—beginning not from the definition of arch mechanics but from the Zhaozhou and Lugou bridges readers had actually crossed, telling the wisdom of the spandrel arch and the principle of the arch as 'an experience under everyone's feet'; in middle-school textbooks for over half a century, the article became the engineering enlightenment of generations; with the Bridge Talks series and books for children, he insisted 'popularizing science is a scientist's duty,' heralding the scientist-as-explainer movement in China
+
+
+### 定义 / Definition
+
+桥话科普法的核心命题是：科普不是知识的稀释，而是知识的重新组织——以读者的经验为坐标系重组专业内容。常见科普失败的根因是'降级改写'：把专业文本的术语换掉、公式删掉、例子加两个，结果读者得到的是'知道了很多名词但什么也没看见'。茅以升的反向操作分三步。第一步，经验盘点：先确认目标读者已经拥有什么——他写石拱桥，起点是读者走过的桥（赵州桥、卢沟桥、家乡的石桥）、见过的桥景（'长虹饮涧'的诗句）、甚至Dictionary里'桥'字的日常用法；经验盘点决定了可用素材的全部清单。第二步，经验-原理映射：把专业原理逐条映射到读者经验上——拱的受力讲成'石块互相挤紧抱成一体的道理'，敞肩拱讲成'大拱背上开小拱、洪水来时水从小拱走'；映射的检验标准是读者能否用自己的话复述。第三步，留一级台阶：科普文不必也不该讲完——结尾留出'想深究的人从这里上去'的钩子（他常附上进一步阅读的路径），使科普成为通向专业的门而非专业的替代品。深意有三重。其一，这与华罗庚'降维翻译法'同族而侧重不同：华罗庚把方法降到现场可用（口诀化），茅以升把知识升到经验可及（经验锚定）——一个向下简化，一个向上连接。其二，'科普即二次创造'意味着科普者必须同时精通专业与读者——茅以升是顶级桥梁工程师才有资格写石拱桥，业余科普的' accurate 常识'是他的底线；这为'科学家该不该做科普'的争论给出最早的标准答案。其三，此法的教育价值在半个世纪后被验证：《中国石拱桥》塑造的'用自家经验理解世界'的认知习惯，影响了几代人学习物理与工程的方式。适用边界：适合面向大众的科普、面向新人的入门教学；对同行间的专业交流，过度经验化反而低效。现代对应物：3Blue1Brown 的可视化科普（把数学锚定在动画直觉上）、费曼的物理讲义、《万物简史》式叙事科普、以及一切'从读者的世界出发'的沟通设计。
+
+The core proposition: popularization is not dilution but re-organization of knowledge—re-coordinate the professional content around the reader's experience. Common popularization fails by 'rewriting down': swap the jargon, cut the formulas, add two examples—and the reader ends up knowing many nouns while seeing nothing. Mao's inverse operation has three steps. First, inventory the experience: establish what the target reader already has—for stone arches he began from bridges readers had walked (Zhaozhou, Lugou, the stone bridge of home), bridge scenery they knew ('a long rainbow drinking from the stream' in poetry), even the everyday uses of the word 'bridge'; the inventory defines the entire stock of usable material. Second, map experience to principle: map each professional principle onto reader experience—arch mechanics told as 'the stones squeezing each other into one body,' the spandrel arch as 'small arches on the great arch's back, floodwater leaving through them'; the test of a mapping is whether readers can restate it in their own words. Third, leave one step up: a popular piece need not and should not finish the subject—end with a hook for those who want more (he often appended paths for further reading), making popularization a door into the profession, not a substitute for it. Three layers of depth. First, kin to Hua Luogeng's dimension-reducing translation but differently weighted: Hua lowered method to field-usable form (mnemonics); Mao raised knowledge to experience-reachable height (experiential anchoring)—one simplifies downward, the other connects upward. Second, 'popularization as second creation' means the popularizer must master both the specialty and the reader: only a top bridge engineer could write China's Stone Arches, and accuracy was his floor—giving the earliest standard answer to 'should scientists popularize.' Third, the educational value was vindicated over half a century: the habit of understanding the world through one's own experience, shaped by that one essay, shaped how generations learned physics and engineering. Boundaries: it suits mass popularization and newcomer teaching; among peers, over-experientialization is inefficient. Modern counterparts: 3Blue1Brown (mathematics anchored in animated intuition), Feynman's lectures, Bryson-style narrative science, and every communication designed from the reader's world.
+
+
+### 出处 / Source
+
+《中国石拱桥》(1962《人民日报》，后入选中学语文课本)；《桥话》（1963 起的系列随笔）；《茅以升科普文集》；'科普是科学家的天职'见于其多次演讲与文章
+
+
+### 金句 / Key Quote
+
+> 每个人脚下都有一座桥——科普的责任，是让他在自己走过的桥上第一次看见力学。
+> Everyone has a bridge underfoot—the popularizer's duty is to let them see mechanics for the first time on a bridge they have walked.
+
+
+### 概念 / Key Concepts
+
+经验盘点先于写作、经验-原理映射、读者可复述为检验标准、留一级台阶（通向专业的门）、科普即二次创造、准确是科普的底线
+
+
+### 流程 / Process
+
+1. 盘点读者经验：列出目标读者已有的相关经验（走过的地方/用过的物件/听过的说法）——这是可用素材的全部清单 / Inventory the reader's experience: list the relevant experiences your readers already have (places walked, objects used, sayings heard)—the entire stock of usable material
+
+2. 选定锚点：挑选最能承载原理的一两个经验锚点（赵州桥之于拱）——锚点要真实、具体、可共享 / Choose anchors: pick the one or two experiences best carrying the principle (Zhaozhou for the arch)—real, concrete, shareable
+
+3. 逐条映射：把专业原理逐条映射到经验上——受力、结构、演化各得其所；拒绝只删术语不做映射的'假科普' / Map item by item: map each principle onto experience—forces, structure, evolution each finding its place; refuse the fake popularization that only deletes jargon
+
+4. 复述检验：让目标读者用自己的话复述——复述不出即映射失败，回去改 / Restatement test: have target readers restate it in their own words; no restatement, failed mapping—go back and revise
+
+5. 留台阶收尾：结尾给出深入路径（进一步阅读/可动手的实验）——科普是门不是墙 / End with a step up: close with a path deeper (further reading, hands-on experiments)—popularization is a door, not a wall
+
+6. 准确性自查：以专业标准逐条核对简化表述——宁少讲，不错讲 / Audit accuracy: check every simplification against professional standards; better to say less than to say it wrong
+
+
+### 代表案例 / Cases
+
+- 《中国石拱桥》（1962）：从'石拱桥是世界桥梁史上的创举'的论断落到赵州桥'大拱两肩各有两个小拱'的具体描写——亿万中学生的工程认知第一次锚定在自己可能走过的桥上；半个多世纪入选课本 / China's Stone Arches (1962): from the thesis 'stone arches are an innovation of world bridge history' down to the concrete image of 'two small arches on each shoulder of the great arch' at Zhaozhou—hundreds of millions of students anchored their first engineering cognition to a bridge they might have walked; half a century in textbooks
+
+- 《桥话》系列（1963 起）：以随笔形式把桥梁史、桥梁美学、桥梁与文学打通——'桥'从工程对象变成文化对象，吸引大量非工程读者进入技术世界 / The Bridge Talks series (from 1963): essays linking bridge history, aesthetics, and literature—'bridge' becoming a cultural object, drawing non-engineers into the technical world
+
+- 少年儿童科普写作（1950s-80s）：为孩子们写《桥梁史话》等读物——同一方法应用于最低龄读者：经验盘点落到'玩具、积木、门口的小河' / Writing for children (1950s-80s): books like Tales of Bridges for the youngest readers—the same method applied to the lowest age, the experience inventory landing on toys, blocks, and the stream at the door
+
+- 钱塘江大桥开放讲解（1937 后至今）：大桥建成即设展览与讲解传统（源于他的主张）——工程现场本身就是最大的科普教具 / Interpretive tradition at the Qiantang bridge (from 1937 onward): exhibitions and guided explanation from the bridge's opening, at his urging—the engineering site itself the greatest popular-science prop
+
+
+### 现代应用 / Modern Applications
+
+- 技术产品发布：不用'参数对比'开场，而从用户已有场景（'你手机没电的那一刻'）映射产品原理——经验锚定的发布会比参数罗列转化率高 / Product launches: open not with spec tables but from scenes users already live ('the moment your phone dies'), mapping the product's principle onto it—experiential anchoring converts better than spec lists
+
+- 内部知识管理：把专家经验写成'从新手已有经验出发'的文档——新人 onboarding 的本质是把组织经验映射到个人经验上 / Internal knowledge management: write expert experience as documents starting from what newcomers already know—onboarding is mapping organizational experience onto personal experience
+
+- 开源项目 README：从'读者此刻的痛点'而非'架构图'开始——留'一级台阶'（深入路径）使 README 成为门而非墙 / Open-source READMEs: begin from the reader's present pain, not the architecture diagram; leave 'one step up' (paths deeper) so the README is a door, not a wall
+
+- 科学传播职业化：科研人员做自媒体时可复用三步法（盘点-映射-复述检验）——复述检验（评论区能否用自己的话讲出）是传播质量的唯一硬指标 / Professional science communication: researchers going public can reuse the three steps (inventory, map, restatement test); the restatement test—whether the comments section can retell it in their own words—is the only hard metric of quality
+
+
+### 相关模式 / Related Modes
+
+M-MYS-004、M-MYS-009、M-MYS-009、M-MYS-004
+
+
+### 代表人物 / Representative Figures
+
+- 华罗庚 (Hua Luogeng): 科普的同代双璧：华罗庚把数学口诀化进车间，茅以升把桥梁史写进课本——'科学家的天职是普及'的两条路径 / his twin in popularization: Hua turned mathematics into workers' mnemonics while Mao wrote bridge history into textbooks—two paths of 'the scientist's duty to popularize'
+
+- 费曼 (Richard Feynman): 经验锚定的物理学家：费曼图与费曼讲义把量子力学锚定在直觉上——桥话科普法在物理学的对应物 / the physicist of experiential anchoring: Feynman diagrams and lectures anchor quantum mechanics in intuition—the counterpart of the bridge-talks method in physics
+
+- 竺可桢 (Zhu Kezhen): 科学文化与普及的同代推动者：竺可桢以气象与科学史立普及之业，与茅以升共同确立'记录与普及'的科学家传统 / a contemporary promoter of scientific culture: Zhu's popularization through meteorology and history of science, with Mao establishing the scientist's tradition of recording and explaining
+
+
+---
+
+## M-MYS-008 炸桥复桥法 (Demolish-to-Rebuild Method)
+
+- 领域 Domain: 1937.12.23：大桥通车仅 89 天，日军逼近杭州——茅以升接到炸桥命令时说'造桥是爱国，炸桥也是爱国'，亲历了自己设计的 1453 米大桥的爆破（提前预留的爆破点使炸毁干净彻底）；'抗战必胜，此桥必复'是他离开时留下的承诺；他带着全部工程档案流亡，1946 年受命复建，1953 年新桥通车——毁掉自己一生最高成就又亲手重建，中国工程史上唯一的完整闭环
+
+- Domain: 23 December 1937: eighty-nine days after opening, with the Japanese closing on Hangzhou, ordered to demolish his bridge, Mao said 'building it was patriotism; blowing it is patriotism too,' and witnessed the blasting of his own 1,453-meter design (the pre-reserved points making the demolition clean and total); 'the war will be won, and this bridge will rise again' was his parting promise; he carried the full engineering archive into exile, was ordered to rebuild in 1946, and the new bridge opened in 1953—destroying his life's highest achievement and rebuilding it with his own hands: the only complete loop in Chinese engineering history
+
+
+### 定义 / Definition
+
+炸桥复桥法的核心命题是：当战略局势逆转，亲手毁掉自己的最高成就可以是理性选择——前提是毁坏被设计为交易而非宣泄。多数人面对'毕生成就必须牺牲'的局面会本能拖延（沉没成本+情感绑定），错失毁坏窗口；茅以升的炸桥干净、及时、按图执行，因为他早在建造时就把'毁'列入了设计（毁备设计法），炸桥时刻他执行的是自己多年前写好的预案。操作上有四要素。第一，预先区分'资产'与'战略'：资产（大桥、代码库、公司、声誉）服务于战略（民族存续、使命达成），战略优先级高于资产——没有这个预先排序，毁坏时刻的决策必然被情感淹没。第二，毁坏窗口识别：炸早了资敌有限但损失无谓，炸晚了桥资敌——他等到'桥对敌人的价值即将超过对我方的价值'的时刻执行；这个'资敌拐点'的判断是毁坏决策的核心技术。第三，交易记账：毁坏换到什么——阻滞日军的时间、防止资敌、保留复建能力；当交易收益超过资产残值，毁坏即投资。第四，重建承诺与能力保全：'此桥必复'不是抒情，是复建的三要素承诺——原设计档案保全（他做到了）、复建意愿公开承诺（他做到了）、复建路径可行（1946 年受命即启动）；没有这三样，毁坏就是单纯损失。深意有三重。其一，此法是对沉没成本谬误的极端反向运用：不是'因为投入多所以不敢毁'，而是'正因为投入多，毁坏预案才必须早做'。其二，它揭示成就的真正所有权：他炸桥时的平静来自'桥是国家的，我只是设计者'——把自己定位为资产的管理者而非所有者，毁坏决策的痛感才不致瘫痪决策。其三，复桥使炸桥在叙事上完成升华：一次毁坏若没有重建，只是损失；有了重建，它成为'承诺的可信性证据'——茅以升后半生的公信力部分建立在这座'必定复的桥'上。适用边界：适合战略资产、长期事业、可重建系统；对不可逆资源（健康、信任、时间）不适用——这些'炸了就没了'。现代对应物：创业公司的 strategic pivot（亲手砍掉明星产品）、开源项目的破坏性重构（breaking change）、组织的数据迁移'熔断'、以及一切'烧掉自己的船'但留有造新船图纸的战略行动。
+
+The core proposition: when the strategic situation reverses, destroying one's own highest achievement can be the rational choice—provided the destruction is designed as a transaction, not vented as catharsis. Most people facing 'the work of a lifetime must be sacrificed' procrastinate by instinct (sunk cost plus emotional binding) and miss the window; Mao's demolition was clean, timely, and executed to plan, because he had put 'destruction' into the design at construction time (design-for-destruction)—at the moment of demolition he was executing a contingency written years before. Four elements. First, pre-distinguish asset from strategy: the asset (bridge, codebase, company, reputation) serves the strategy (national survival, mission accomplished), and strategy outranks the asset—without that prior ordering, the moment of destruction drowns in emotion. Second, identify the destruction window: too early wastes the asset for little gain, too late donates it to the enemy—he acted when 'the bridge's value to the enemy was about to exceed its value to us'; judging this 'aid-the-enemy inflection' is the core technique. Third, account the trade: what destruction buys—time delaying the Japanese, denied aid, preserved rebuilding capability; when the trade's return exceeds the asset's residual value, demolition is investment. Fourth, the promise of rebuilding and capability preservation: 'this bridge will rise again' was not lyricism but a three-part commitment—original design archived (done), rebuilding publicly promised (done), rebuilding path feasible (launched on the 1946 order); without these three, destruction is pure loss. Three layers of depth. First, the method is the extreme inverse of the sunk-cost fallacy: not 'too invested to destroy' but 'precisely because so invested, the destruction plan must be made early.' Second, it reveals the true ownership of achievement: his calm at the blasting came from 'the bridge is the nation's; I am only its designer'—positioning oneself as asset steward, not owner, keeps the pain of destruction from paralyzing the decision. Third, the rebuilding sublimates the demolition in narrative: destruction without rebuilding is only loss; with rebuilding, it becomes evidence of the credibility of a promise—part of Mao's lifelong authority rests on this 'bridge that would surely rise.' Boundaries: it suits strategic assets, long ventures, and rebuildable systems; it does not suit irreversible resources—health, trust, time—which once destroyed do not return. Modern counterparts: the startup pivot (cutting one's own star product), the breaking change in open source, organizational data-migration circuit breakers, and every 'burn the ships' strategy that keeps drawings for new ships.
+
+
+### 出处 / Source
+
+《钱塘江建桥回忆》炸桥章节（茅以升，1982）；1937.12.23 炸桥命令与执行记录；《茅以升传》第 3-5 章；1946 年复建令；'抗战必胜，此桥必复'题记
+
+
+### 金句 / Key Quote
+
+> 造桥是爱国，炸桥也是爱国——桥是我的作品，但不是我的私产；战略需要它死，它就死，'此桥必复'。
+> Building the bridge was patriotism; blowing it is patriotism too—the bridge is my work, not my property; when strategy needs it dead, it dies, 'and it will rise again.'
+
+
+### 概念 / Key Concepts
+
+资产与战略的预先排序、资敌拐点（毁坏窗口）、毁坏的交易记账、重建三要素（档案/承诺/路径）、管理者而非所有者、毁坏即投资
+
+
+### 流程 / Process
+
+1. 预先排序：在平静时期就写明'资产服务于战略'的优先级——毁坏决策的合法性来自平时而非战时 / Order in advance: in calm times write down that assets serve strategy—the legitimacy of a destruction decision comes from peacetime, not wartime
+
+2. 设计预案：为'必须毁掉'的情形设计受控毁坏机制（见毁备设计法）——毁坏时刻执行的是旧预案而非新决定 / Design the contingency: for every 'must be destroyed' scenario, build the controlled mechanism (see design-for-destruction); at the moment you execute an old plan, not a new decision
+
+3. 窗口判断：设定'资敌拐点'指标——资产对对手的价值即将超过对我方价值的那一刻执行 / Judge the window: set an aid-the-enemy inflection metric—execute at the moment the asset's value to the opponent is about to exceed its value to you
+
+4. 交易记账：明确毁坏换到的战略收益清单——收益大于残值才执行；记账使毁坏免于情绪化 / Account the trade: list the strategic returns destruction buys; execute only if returns exceed residual value—accounting keeps destruction unemotional
+
+5. 能力保全：毁坏前保全重建三要素——档案、承诺、路径；把'必复'从誓言变成日程 / Preserve capability: before destroying, secure the three elements of rebuilding—archive, promise, path; turn 'it will rise again' from oath into schedule
+
+6. 复建执行：局势回转后按档案启动重建——完成'毁-复'闭环，使毁坏在历史上成为投资而非损失 / Execute the rebuilding: when the situation turns, restart from the archive—completing the destroy-rebuild loop so history records investment, not loss
+
+
+### 代表案例 / Cases
+
+- 炸桥（1937.12.23）：通车 89 天后按预留爆破图炸毁钱塘江大桥——干净、及时、按图；'造桥是爱国，炸桥也是爱国'的执行时刻 / The demolition (23 December 1937): eighty-nine days after opening, the bridge destroyed by its reserved blast plan—clean, timely, to the drawing; the moment of 'building it was patriotism; blowing it is patriotism too'
+
+- 档案流亡（1937-1946）：全部桥工档案随他五次迁徙保存完好——重建三要素中的'档案'在战火中保住 / The archive in exile (1937-46): the complete bridge archive survived five relocations with him—the 'archive' of the rebuilding triad kept through fire
+
+- 复建（1946-1953）：受命复建后按原设计启动，新桥 1953 年通车——'此桥必复'从题记变成通车典礼 / The rebuilding (1946-53): ordered to rebuild, he restarted from the original design; the new bridge opened in 1953—'it will rise again' turned from inscription into opening ceremony
+
+- 战时复校决策（1937-1946）：同一方法用于办学——放弃在敌占区维持'完整校园'（资产），保全'流动的师生与课程'（战略），学校五迁而不亡 / The wartime school decision (1937-46): the same method applied to running a university—abandoning the 'complete campus' in occupied territory (asset) to preserve 'the traveling faculty and curriculum' (strategy); five relocations, no death of the school
+
+
+### 现代应用 / Modern Applications
+
+- 战略转向：明星产品与公司新战略冲突时按'资敌拐点'砍产品——预先排序（平时写明使命优先级）+ 交易记账（砍掉换到的资源/专注/信誉）使 pivot 免于内耗 / Strategic pivot: when the star product conflicts with the new strategy, cut by the aid-the-enemy inflection; pre-ordering (mission priority written in peacetime) plus trade accounting (resources, focus, reputation gained by cutting) spares the pivot internal strife
+
+- 系统重构：老系统'还能跑'但拖累新战略时执行'破坏性重构'——预先保全迁移路径与数据档案（重建三要素），breaking change 有重建日程 / System rewrites: when the old system 'still runs' but drags the new strategy, execute the breaking change—pre-preserving migration paths and data archives (the rebuilding triad) with a rebuilding schedule
+
+- 资产处置：扩张期收购的资产在战略变化后主动出售/关停——'管理者而非所有者'心态使处置决策免于情感瘫痪 / Asset disposal: sell or shut acquired assets after strategy shifts—the 'steward, not owner' stance keeps disposal decisions from emotional paralysis
+
+- 个人职业：放弃做了十年的方向转向新领域——毁坏窗口（沉没投入开始'资敌'于平庸）判断 + 技能档案保全（可迁移能力）+ '必复'承诺（该领域的积累终将回流） / Personal careers: abandoning a ten-year direction for a new field—judge the destruction window (when sunk investment begins to 'aid' mediocrity), preserve the skill archive (transferable capabilities), and keep the promise of return (that field's accumulation will flow back)
+
+
+### 相关模式 / Related Modes
+
+M-MYS-001、M-MYS-005、M-MYS-010、M-MYS-002
+
+
+### 代表人物 / Representative Figures
+
+- 斯大林式焦土决策（对照） (The scorched-earth decision-makers of 1941 (counterpoint)): 对照样本：1941 苏联焦土撤退规模更大但多为仓促执行、少有复建设计——茅以升样本的独特性在于'有图、有档、有复' / the counterpoint: the 1941 Soviet scorched-earth retreat was vaster but rushed, rarely designed for rebuilding—Mao's sample unique in having drawings, archives, and a rebuilding
+
+- 克劳塞维茨 (Carl von Clausewitz): 战略理论的同构者：'空间换时间'的合法性论证与炸桥复桥法同属'资产服务于战略'的谱系 / the isomorphic strategist: his defense of trading space for time belongs to the same lineage of 'assets serving strategy'
+
+- 乔布斯 (Steve Jobs): 现代执行者：回归苹果后砍掉 70% 产品线的'炸桥'决策——与'此桥必复'同构的重建承诺（聚焦后的产品复兴） / a modern executor: cutting 70% of Apple's product line on his return—the demolition with a rebuilding promise isomorphic to 'this bridge will rise again'
+
+
+---
+
+## M-MYS-009 古桥读史法 (Reading-Roots-from-History Method)
+
+- 领域 Domain: 1950s-1986《中国古桥技术史》：茅以升晚年主持国家项目，把散落千年的中国古桥智慧（赵州桥敞肩拱、泉州洛阳桥筏形基础与养蛎固基、广济桥浮梁结合）第一次系统化为一部可考证的技术史；他为赵州桥写下力学分析（敞肩拱减少回弹力、洪水泄流），论证'古代工匠凭经验抵达了现代力学的同一结论'——古桥从风景变成教材，《中国石拱桥》因此进入中学课本
+
+- Domain: The History of Ancient Chinese Bridge Technology, 1950s-1986: in his late years Mao directed the national project that systematized, for the first time, a thousand scattered years of Chinese bridge wisdom—the spandrel arch of Zhaozhou, the raft foundation and oyster-cemented bed of Luoyang Bridge at Quanzhou, the pontoon-and-pier combination of Guangji Bridge—into a verifiable technical history; his mechanics analysis of Zhaozhou (spandrel arches reducing thrust, floodwater passing through) argued that 'ancient craftsmen, by experience, reached the same conclusions as modern mechanics'—ancient bridges turned from scenery into teaching material, and China's Stone Arches entered the school curriculum
+
+
+### 定义 / Definition
+
+古桥读史法的核心命题是：自己领域的古代遗产是一份未经整理的'解法数据库'，其中的多数解法对应着今天仍然存在的机制问题——读史不是怀旧，是检索前人已经在真实世界跑过的'生产环境测试'。常规技术人对古代遗产的态度要么是浪漫主义（'古人智慧深不可测'，无从学习），要么是虚无主义（'没有现代工具当然落后'，不屑一顾）；茅以升的第三条路分三步。第一步，机制翻译：把古代做法翻译成现代原理语言——敞肩拱不是'美观的雕刻'而是'辅助拱肩减少主拱推力并增加泄洪能力'的力学方案；翻译完成，古桥才进入可比较、可分析的空间。第二步，实证考证：用材料分析、荷载重算、文献互证验证古代做法的真实性能——他主持的古桥史拒绝传说化（鲁班造桥的神话被剥离，留下可考证的工程数据），史的标准是工程标准。第三步，双向馈送：古代智慧反哺现代设计（筏形基础思想进入现代软基处理讨论），现代分析反哺遗产保护（用力学分析制定古桥保护方案）——'古'与'今'成为同一学科的两翼而非两界。深意有三重。其一，这是'以失效为师'的时间维度扩展：现代事故样本只有几十年，古代幸存结构是几百年的失效筛选结果——赵州桥站着本身就是一千四百年的验收报告。其二，此法对'传统'的态度是工程师式的：既不跪拜也不抛弃，而是翻译、验证、选择性继承——这为一切'传统如何现代化'的争论提供了程序性答案。其三，写史本身是毁备设计法（M-MYS-005）的文明级应用：古桥会毁，技术史是重建图——记录使智慧可迁移于载体之外。适用边界：适合有连续遗产的领域（建筑、医学、农学、水利、手工艺、管理）；对遗产断裂或机制已彻底更替的领域（如算盘之于计算），读史价值在思想史而非方法。现代对应物：仿生学与 biomimicry（从生物'古遗产'读原理）、传统工艺的科学化研究（如古建筑抗震性能分析）、循证传统医学、以及一切'把老手艺翻译成工程参数'的研究路径。
+
+The core proposition: the ancient heritage of one's own field is an un-catalogued database of solutions, most of whose solutions answer mechanism problems still alive today—reading history is not nostalgia but retrieving production-environment tests that predecessors already ran in the real world. The technologist's usual attitudes toward heritage are romantic ('the ancients' wisdom is unfathomable,' hence unlearnable) or nihilist ('without modern tools they were backward,' hence beneath regard); Mao's third path has three steps. First, mechanism translation: translate ancient practice into the language of modern principle—the spandrel arch is not 'graceful carving' but a mechanical scheme of secondary arches reducing main-arch thrust and adding flood discharge; translated, the ancient bridge enters a comparable, analyzable space. Second, empirical verification: verify the real performance of ancient practice by material analysis, load recomputation, and cross-checking documents—the history he directed refused legend (the myths of Lu Ban building bridges stripped away, leaving verifiable engineering data); its standard was the engineering standard. Third, two-way feedback: ancient wisdom feeds modern design (raft-foundation thinking entering modern soft-ground treatment) and modern analysis feeds heritage protection (mechanics-based conservation plans for old bridges)—'ancient' and 'modern' as two wings of one discipline, not two worlds. Three layers of depth. First, it is the temporal extension of failure-as-master: modern accident samples cover only decades, while surviving ancient structures are the filtered result of centuries of failure—the Zhaozhou bridge standing is itself a fourteen-hundred-year acceptance report. Second, the method's attitude to tradition is an engineer's: neither kneeling nor discarding, but translating, verifying, and inheriting selectively—a procedural answer to every debate on 'how tradition modernizes.' Third, writing the history is design-for-destruction (M-MYS-005) applied at civilization scale: bridges will fall; the technical history is the rebuilding drawing—recording lets wisdom migrate beyond its carrier. Boundaries: it suits fields with continuous heritage (architecture, medicine, agronomy, water works, craft, management); where heritage is broken or mechanisms wholly replaced (the abacus and computing), history reads as intellectual history, not method. Modern counterparts: biomimicry (reading principles from biology's 'ancient heritage'), scientific study of traditional craft (seismic analysis of ancient buildings), evidence-based traditional medicine, and every research path that translates old craft into engineering parameters.
+
+
+### 出处 / Source
+
+《中国古桥技术史》（茅以升主编，1986）；《中国石拱桥》（1962）；《茅以升科普文集》桥梁史部分；赵州桥与洛阳桥的现场考察记录（收录于文集）
+
+
+### 金句 / Key Quote
+
+> 赵州桥站了一千四百年——它本身就是一份验收报告；我的工作只是替它把结论写成现代力学的话。
+> The Zhaozhou bridge has stood fourteen hundred years—that is itself an acceptance report; my work was only to write its conclusion in the language of modern mechanics.
+
+
+### 概念 / Key Concepts
+
+机制翻译（古法→原理）、实证考证（剥离传说）、幸存结构=长期失效筛选、古今双向馈送、传统:不跪拜不抛弃、技术史=文明重建图
+
+
+### 流程 / Process
+
+1. 盘点遗产：系统列出本领域的古代遗产（遗存实物/文献记载/工艺口诀）——不预设价值，先求完整 / Inventory the heritage: systematically list the field's ancient legacy (surviving artifacts, documents, craft maxims)—completeness before valuation
+
+2. 机制翻译：把每项古代做法翻译为现代原理语言——翻译不出或译后平庸的，如实记录不强捧 / Translate the mechanisms: render each ancient practice in modern principle; what translates poorly or turns out mediocre, record honestly without forced praise
+
+3. 实证验证：用测量、重算、材料分析、文献互证验证古代做法的真实性能——剥离传说保留数据 / Verify empirically: validate real performance by measurement, recomputation, material analysis, and documentary cross-checks—strip legend, keep data
+
+4. 筛选继承：区分'机制有效''机制过时''机制独特'三类——只把第一类引入现代设计，第三类标为待研究 / Select and inherit: sort into 'mechanism valid,' 'mechanism obsolete,' 'mechanism unique'—introduce only the first into modern design, flag the third for study
+
+5. 双向馈送：古代智慧反哺现代实践，现代分析反哺遗产保护——建立'古'与'今'的制度性通道 / Feed both ways: ancient wisdom back into modern practice, modern analysis back into heritage protection—institutional channels between old and new
+
+6. 写史归档：把全部翻译与验证写成技术史——使智慧可迁移于实物之外，为未来留下重建图 / Write the history: archive all translation and verification as technical history—letting wisdom migrate beyond its objects, a rebuilding drawing for the future
+
+
+### 代表案例 / Cases
+
+- 赵州桥的力学分析（1950s-60s）：敞肩拱被翻译为'减少主拱推力+增加泄洪能力'的力学方案并做荷载重算——一座隋代桥成为现代结构力学的教学案例 / The mechanics of Zhaozhou (1950s-60s): the spandrel arch translated as 'reduced main-arch thrust plus added flood discharge' with load recomputation—a Sui-dynasty bridge becoming a case study in modern structural mechanics
+
+- 洛阳桥筏形基础与养蛎固基（考据）：泉州宋代洛阳桥'种蛎固基'被考证为生物胶结加固基础的早期实践——古代智慧进入现代软基处理的技术讨论 / Luoyang Bridge's raft and oysters (textual research): the Song-era 'planting oysters to cement the foundation' at Quanzhou verified as early bio-cemented ground improvement—ancient wisdom entering modern technical discussion of soft foundations
+
+- 《中国古桥技术史》（1986）：三十年项目的收官——数千座古桥的形制、材料、工法第一次系统化；工程标准而非传说标准 / The History of Ancient Chinese Bridge Technology (1986): the thirty-year project's completion—thousands of ancient bridges' forms, materials, and methods systematized for the first time; the engineering standard, not the legend standard
+
+- 《中国石拱桥》进课本（1962 起）：读史法的传播学出口——古桥智慧以'每个人走过的桥'的形态进入国民教育 / China's Stone Arches into the classroom (from 1962): the communication outlet of the method—ancient bridge wisdom entering national education as 'a bridge everyone has walked'
+
+
+### 现代应用 / Modern Applications
+
+- 软件工程：从大型机时代的系统设计文献中读原理（容错、批处理、缓存）——'古代代码'里的架构决策对应着今天云原生仍在解决的机制问题 / Software engineering: read principles from the literature of mainframe-era system design (fault tolerance, batch processing, caching)—architecture decisions in 'ancient code' answer mechanism problems cloud-native still faces
+
+- 产品创新：从本品类被淘汰的老产品中读用户机制（胶片相机的仪式感、功能机的续航设计）——'幸存百年的品类'是长期用户需求的筛选结果 / Product innovation: read user mechanics from superseded products of your category (the ritual of film cameras, battery-first design of feature phones)—categories that survived a century are the filter of durable user needs
+
+- 组织管理：从古代治理文献读组织机制（科举的标准化考核、都江堰的岁修制度）——实证筛选后选择性继承，拒绝全盘古法 / Organizational management: read organizational mechanisms from ancient governance texts (examination standardization, Dujiangyan's annual-repair institution)—selective inheritance after empirical sifting, never wholesale antiquarianism
+
+- 个人学习：把本领域经典教科书当作'技术史'读——追问'这个概念诞生时解决什么机制问题'，机制消失了的概念可以放心跳过 / Personal learning: read your field's classic textbooks as technical history—ask 'what mechanism problem did this concept answer at birth'; concepts whose mechanism is gone can be safely skipped
+
+
+### 相关模式 / Related Modes
+
+M-MYS-001、M-MYS-005、M-MYS-007、M-MYS-003
+
+
+### 代表人物 / Representative Figures
+
+- 梁思成 (Liang Sicheng): 建筑遗产的平行整理者：梁思成之于古建筑，即茅以升之于古桥——'以现代学科整理古代遗产'的同代双翼 / the parallel systematizer of architectural heritage: Liang to ancient buildings as Mao to ancient bridges—the twin wings of 'organizing ancient heritage with modern disciplines'
+
+- 李约瑟 (Joseph Needham): 跨文明的技术史家：李约瑟把中国科技史整理给世界，茅以升把桥梁技术史整理给中国——同一方法的不同尺度 / the cross-civilizational historian of technology: Needham systematized China's scientific history for the world as Mao did bridge technology for China—the same method at different scales
+
+- 竺可桢 (Zhu Kezhen): 历史记录的科学化读者：竺可桢从古代物候记载读出气候变化（物候记年法），与茅以升从古桥读力学同属'让史料开口'的谱系 / the scientific reader of historical records: Zhu reading climate change from ancient phenological records and Mao reading mechanics from ancient bridges—one lineage of 'making the sources speak'
+
+
+---
+
+## M-MYS-010 三职一体法 (One-Life-Three-Crafts Method)
+
+- 领域 Domain: 茅以升的一生：建造（钱塘江大桥、武汉长江大桥顾问）+ 传承（唐山交大/东南大学/北洋大学的工程教育改革，学生成为中国桥梁工程骨干）+ 记录（《中国石拱桥》《中国古桥技术史》、桥工档案的战时保全）——三重岗位共享同一专业能力（桥梁工程与结构力学），互相供给：建桥的经验成为教材案例，教学的学生成为建桥队伍，修史把两者的成果沉淀为文明资产；墓碑仅刻'中国桥梁工程师茅以升'——三个职业一个身份
+
+- Domain: Mao's life: building (the Qiantang bridge, advisory chair of the Wuhan Yangtze) + transmitting (engineering-education reform at Tangshan Jiaotong, Southeast, Peiyang—his students became the backbone of Chinese bridge engineering) + recording (China's Stone Arches, the History of Ancient Chinese Bridge Technology, the wartime preservation of his engineering archive)—three posts sharing one professional capability (bridge engineering and structural mechanics), each supplying the others: bridge experience became teaching cases, taught students became the bridge-building corps, and the history deposited both as civilizational assets; his tombstone reads only 'Mao Yisheng, bridge engineer of China'—three crafts, one identity
+
+
+### 定义 / Definition
+
+三职一体法的核心命题是：专业能力的复利不来自重复建造，而来自同一能力在'建造-传承-记录'三个时间尺度上的复用。绝大多数专业者的贡献是单时间尺度的：只建造（作品随寿命终止）、只教学（成果随学生扩散但无档案）、只记录（档案无人续写）；茅以升的设计是把三者绑在同一专业内核上，形成互相供给的循环。操作上有三环。第一环，内核识别：找到那个'三岗位都需要'的能力内核——茅以升的是'对结构与失效的深刻理解'：建桥用它对抗物理失效，教学用它组织课程，修史用它解读古桥；内核必须足够深（三处都用到）又足够具体（不是空泛的'聪明'）。第二环，岗位配时：三个岗位不是同时等量投入，而是按人生阶段配比——青壮年以建造为主（积累一手经验与案例），中年加大传承（把经验制度化），晚年主攻记录（把两者沉淀为可迁移资产）；他 40 岁建钱塘江，40-60 岁办学与科研管理，60 岁后修史写科普——配时错了三职互相挤压，配对了互相放大。第三环，循环接驳：设计三岗位之间的输血管道——建桥经验写进教材（建造→传承）、学生派往工地（传承→建造）、工程档案归档入史（建造+传承→记录）、技术史反哺课程（记录→传承）——没有接驳管道，三职只是三份兼职。深意有三重。其一，这是对'专业者晚年困境'的结构性解法：建造能力随体力衰减，但传承与记录不随体力衰减——三职设计的职业生涯在晚年不是下坡而是换挡。其二，此法回答了'专才还是通才'：不是跨专业的通才，而是单内核跨岗位的'深通才'——他的广度全部由一个深度展开。其三，三职一体使个人贡献获得三种存续形式：作品（桥）、人（学生）、文本（史）——三者中任何一个幸存，贡献都活着；这是对不确定未来的最稳健组合。适用边界：适合有长期积累潜力的专业（工程、医学、科学、手艺、管理）；对快速更替的领域（热点行业），'记录'的对象应改为方法论而非具体技术。现代对应物：研究型工程师的'代码-论文-课程'三位一体、开源作者的'项目-文档-布道'、临床医学家的'手术-带教-指南'、以及一切'深度展开为多岗位'的生涯设计。
+
+The core proposition: a professional capability compounds not by repeated building but by reuse across three time scales—building, transmitting, recording. Most professionals contribute on a single time scale: builders only (works die with them), teachers only (results diffuse through students with no archive), recorders only (archives no one continues); Mao's design binds the three to one professional core in a mutually supplying loop. Three rings of practice. First, identify the core: find the capability all three posts need—his was 'deep understanding of structure and failure': building used it against physical failure, teaching used it to organize curricula, history used it to interpret old bridges; the core must be deep enough (all three use it) and concrete enough (not a vague 'intelligence'). Second, time the posts: the three are not equal simultaneous investments but phased—young adulthood for building (accumulating first-hand experience and cases), mid-life tilting to transmission (institutionalizing experience), late years for recording (depositing both as transferable assets); he built the Qiantang at forty, ran schools and research administration from forty to sixty, wrote history and popularization after sixty—mis-timed, the posts squeeze each other; well-timed, they amplify each other. Third, dock the loop: design the transfusion pipes between posts—bridge experience into textbooks (building→transmission), students onto sites (transmission→building), engineering archives into history (building+transmission→recording), technical history back into curricula (recording→transmission); without the pipes, three crafts are three side jobs. Three layers of depth. First, it structurally solves the professional's late-career problem: building decays with the body, transmission and recording do not—a three-craft career in late years shifts gears instead of sliding. Second, it answers 'specialist or generalist': not a cross-domain generalist but a deep-core, multi-post 'deep generalist'—all his breadth unfolded from one depth. Third, the three crafts give a life's contribution three survival forms: works (bridges), people (students), and text (history)—if any one survives, the contribution lives; the most robust portfolio against an uncertain future. Boundaries: it suits professions with long accumulation potential (engineering, medicine, science, craft, management); in fast-turning fields, 'recording' should target method rather than specific technology. Modern counterparts: the research engineer's trinity of code-papers-courses, the open-source author's project-documentation-advocacy, the clinician's surgery-teaching-guidelines, and every career that unfolds one depth across multiple posts.
+
+
+### 出处 / Source
+
+《茅以升文集》（工程/教育/科普三部分合观）；《钱塘江建桥回忆》《中国古桥技术史》《先习后学》系列；唐山交通大学与西南交通大学校史；《茅以升传》；墓志'中国桥梁工程师茅以升'
+
+
+### 金句 / Key Quote
+
+> 墓碑上只刻'中国桥梁工程师'——建过的桥、教过的人、写下的史，是同一座桥的三个桥墩。
+> The tombstone reads only 'bridge engineer of China'—the bridges built, the people taught, the history written are three piers of one and the same bridge.
+
+
+### 概念 / Key Concepts
+
+能力内核识别（三岗位同用）、岗位配时（建造→传承→记录）、循环接驳（输血管道）、三种存续形式（作品/人/文本）、晚年换挡而非下坡、深通才：广度由深度展开
+
+
+### 流程 / Process
+
+1. 识别内核：找出你的专业里那个'建造、传承、记录三个岗位都需要'的具体能力——深而具体，非空泛标签 / Identify the core: find the concrete capability in your profession that building, transmitting, and recording all need—deep and specific, not a vague label
+
+2. 规划配时：按人生阶段给三岗位配比——青壮年建造为主、中年传承渐重、晚年记录为主；每十年重估一次 / Time the posts: phase the three by life stage—building first in young adulthood, transmission rising in mid-life, recording leading in late years; re-estimate each decade
+
+3. 建立接驳：为三岗位设计输血管道——工程案例进教材、学生进项目、档案进历史、历史回课程 / Dock the loop: design transfusion pipes between posts—engineering cases into textbooks, students into projects, archives into history, history back into curricula
+
+4. 作品化优先：每个岗位的产出都尽量作品化（桥/课程/书）——作品化才能跨时间存续 / Favor artifacts: make each post's output as artifact-like as possible (bridge, course, book)—only artifacts survive across time
+
+5. 接班设计：每个岗位培养接班人——传承岗位本身也要被传承，否则三职循环止于一人 / Design succession: cultivate a successor for each post—transmission itself must be transmitted, or the three-craft loop ends with one person
+
+6. 终局审计：定期问'我的贡献有几种存续形式'——少于两种即调整投入配比 / Audit the endgame: periodically ask 'in how many forms does my contribution survive'—fewer than two, adjust the investment mix
+
+
+### 代表案例 / Cases
+
+- 钱塘江十一年（1933-1946）：建造岗位的巅峰——建桥、炸桥、复桥的完整经历同时成为他此后一生教材与文章的核心案例库（建造→传承/记录的输血即时开始） / Eleven years at the Qiantang (1933-46): the peak of the building post—build, destroy, rebuild, an experience that at once became the core case library of his later teaching and writing (the building→transmission/recording pipe opened immediately)
+
+- 工程教育三十年（1920s-1950s）：传承岗位的制度化——'先习后学'课程体系、自编教材、毕业生成为大桥工程骨干（传承→建造的回输：学生就是建桥队伍） / Thirty years of engineering education (1920s-1950s): the institutionalization of transmission—the practice-first curriculum, self-written textbooks, graduates becoming the backbone of great bridge projects (transmission→building return: the students were the bridge corps)
+
+- 晚年修史与科普（1950s-1986）：记录岗位的收官——《中国古桥技术史》《中国石拱桥》把建造与传承的成果沉淀为国民资产（记录→传承：技术史进入课本） / Late-years history and popularization (1950s-86): the closing of the recording post—the History of Ancient Bridges and China's Stone Arches depositing building and teaching as national assets (recording→transmission: technical history into textbooks)
+
+- 档案的战时保全（1937-1946）：三职一体在极端条件下的验证——流亡中他同时保全了'复建能力'（建造）、'流动课堂'（传承）、'工程档案'（记录）：三线一个都没断 / The archive preserved through war (1937-46): the trinity verified under extreme conditions—in exile he preserved the rebuilding capability (building), the traveling classroom (transmission), and the engineering archive (recording): not one of the three lines broke
+
+
+### 现代应用 / Modern Applications
+
+- 技术生涯设计：资深工程师按'造系统→带团队写课程→写书/维护知识库'三段展开——同一技术内核，三种存续形式；40 岁后的职业焦虑本质是岗位配时问题 / Technical careers: the senior engineer unfolds as build systems→lead teams and teach→write books and keep the knowledge base—one technical core, three survival forms; the post-forty career anxiety is essentially a post-timing problem
+
+- 学术生涯：研究者的'实验-教学-综述/教科书'三位一体——实验是建造，教学是传承，教科书是记录；课题会过时，教科书会留下 / Academic careers: the researcher's trinity of experiments-teaching-survey/textbook—experiments build, teaching transmits, the textbook records; projects age, textbooks remain
+
+- 开源与创作者：项目（建造）+ 文档与教程（传承）+ 设计决策档案（记录）——多数开源项目死于只有建造没有记录 / Open source and creation: the project (building) plus documentation and tutorials (transmission) plus the design-decision archive (recording)—most open-source projects die of building without recording
+
+- 家族/小企业传承：创始人的'经营-培养接班人-写经营史'三职——'作品、人、文本'三种存续形式对企业延续同样成立 / Family and small-business succession: the founder's three crafts of running-cultivating heirs-writing the operating history—works, people, and text hold for enterprise continuity as well
+
+
+### 相关模式 / Related Modes
+
+M-MYS-004、M-MYS-007、M-MYS-009、M-MYS-002
+
+
+### 代表人物 / Representative Figures
+
+- 竺可桢 (Zhu Kezhen): 同构的三职一生：竺可桢的'科研（物候）-治校（浙大）-日记（记录）'与茅以升三职同构——庚款一代的结构性自觉 / the isomorphic trinity: Zhu's research (phenology), presidency (Zhejiang University), and diary (recording) mirror Mao's three crafts—the structural self-awareness of the Boxer-indemnity generation
+
+- 李约瑟 (Joseph Needham): 记录岗位的极致样本：李约瑟把毕生贡献几乎全部投入'记录'（中国科技史）——三职配时的另一种极端配比 / the extreme of the recording post: Needham devoted nearly his whole contribution to recording (China's history of science)—another extreme ratio of the three-craft timing
+
+- 高德纳 (Donald Knuth): 现代三职样本：高德纳的'程序（TeX）-教学（斯坦福）-著作（TAOCP）'——三职一体法在计算机科学的当代实现 / a modern sample: Knuth's programs (TeX), teaching (Stanford), and books (TAOCP)—the contemporary realization of the three-craft method in computer science

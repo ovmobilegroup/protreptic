@@ -1,0 +1,755 @@
+{
+  "schema_version": "v6",
+  "code": "H-LSZ-001",
+  "figure_code": "H-LSZ-001",
+  "figure_name": "李时珍",
+  "figure_pinyin": "Lǐ Shízhēn",
+  "birth_year": 1518,
+  "death_year": 1593,
+  "era": "明代中后期（正德—万历，中医药文献集成与博物学高峰期）",
+  "birth_year_note": "正德十三年（1518年）生于湖北蕲州世医之家",
+  "place_of_origin": "湖北蕲州（今蕲春县蕲州镇）",
+  "gender": "男",
+  "ethnicity": "汉族",
+  "nationality": "中国（明代）",
+  "civilization_sphere": "东亚/明代中国",
+  "time_period_standardized": "1518年—1593年",
+  "primary_language": "汉语（明代白话与文言）",
+  "intellectual_tradition": "本草学/博物学/实证考据传统（格物致知+金元医学+民间医疗实践）",
+  "school": "本草集成学派/实证博物学",
+  "style_name": "字东璧，晚号濒湖山人",
+  "courtesy_name": "东璧",
+  "pseudonym": "濒湖山人",
+  "representative_works": [
+    "《本草纲目》五十二卷（1578年成书，1596年金陵本刊行，收药1892种、附方8161首）",
+    "《濒湖脉学》（脉学专著，二十七脉）",
+    "《奇经八脉考》（经络学专著）",
+    "《濒湖医案》《五脏图论》（已佚）"
+  ],
+  "historical_significance": "李时珍（1518-1593），字东璧，号濒湖，湖北蕲州人，出身世医之家，三试举人不第后弃科举专攻医药。历时二十七年（约1552-1578）三易其稿著成《本草纲目》五十二卷，收药1892种（新增374种）、附方8161首、插图千余幅，以'纲举目张'的十六部六十类分类体系重整中国千年药物知识，首创'从微至巨、从贱至贵'的物质演化排序；引据书目八百余家，专设'正误''辨疑'栏目系统纠错，访采四方、亲验药物（曼陀罗自试、穿山甲解剖）。书成后请王世贞作序背书，殁后由子李建中进献朝廷，1596年金陵本刊行，后经江西本等翻刻传布天下，并东传日本朝鲜、西译拉丁（1735年杜赫德法译节本起），达尔文称其为'中国古代的百科全书'。另有《濒湖脉学》《奇经八脉考》传世，为脉学与经络学的规范化文本。他被后世尊为'药圣'，其'渔猎群书、访采四方、亲验断真'的方法论是中国博物学实证传统的最高峰。",
+  "core_thoughts": [
+    "纲举目张（十六部六十类的知识架构，分类先于累积）",
+    "正误辨疑（纠错立为著述正当门类，错误存照可检索）",
+    "亲验访采（一线访谈+自体试验，'予尝试之'的实证裁决）",
+    "渔猎群书（引据书目八百余家，'时珍曰'与诸家分层署名）",
+    "气味性理（统一属性档案：气味-归经-主治-发明-附方）",
+    "释名考据（正名辨物，名不正则物不明）",
+    "附方落底（每条性能落到带剂量的可执行方剂）",
+    "人药互证整体观（药×人×境三元函数，食药同源典制化）",
+    "金土图新弃旧（同等效验下贱药优先，为贫者立法）",
+    "父子相继传世（请序背书+子承献书+体例预留续写接口）"
+  ],
+  "famous_quote": "渔猎群书，搜罗百氏；一一采视，颇得其真。曼陀罗花条：予尝试之。臣不揣愚陋，僭肆删述——复者芟之，阙者缉之，讹者绳之。（《进本草纲目疏》）",
+  "influence": "《本草纲目》1596年金陵本刊行后迅速成为东亚药物知识的事实标准：江西本（1603）、钱蔚起本、张绍棠本历代翻刻不断；1607年前后东传日本，林罗山献幕府，江户时代小野兰山《本草纲目启蒙》使其成为日本本草学教科书；朝鲜朝亦据以修订《东医宝鉴》药学部分。18世纪经传教士节译进入欧洲（1735年杜赫德《中华帝国全志》节译，后转译英俄德），达尔文在《动物和植物在家养下的变异》中引用其金鱼与家鸡人工选择记载，称之为'中国古代的百科全书'。李时珍的'纲目体'成为后世类书与博物志的组织范式，'释名-集解-正误-气味-主治-发明-附方'的条目结构是中国知识工程史上的重要遗产；现代药典与中药学教材仍以其分类与正名为基础框架。",
+  "thinking_mode_count": 10,
+  "modes": [
+    {
+      "id": "M-LSZ-001",
+      "mode_code": "M-LSZ-001",
+      "name_zh": "纲举目张法",
+      "name_en": "Skeletal-Taxonomy Method (Gang-Mu Hierarchy)",
+      "category": "知识组织",
+      "domain_zh": "分类体系/知识架构",
+      "domain_en": "Taxonomy / Knowledge Architecture",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "把庞杂的经验材料组织进'纲—目'两级知识架构：十六部为纲，六十类为目，每药'标名为纲，列事为目'，部类之上再以'从微至巨''从贱至贵'排序——无机到有机、低等到高等，暗合演化序列。要害有三：其一，分类先于累积——不做分类的材料堆积累死在书库里，1892种药若无骨架便是1892个孤岛；其二，纲目两级是检索结构而非道德等级——'从微至巨'只是认知序，不是价值序，水火在先不是水火高贵；其三，'析族区类'按亲缘聚类——同类相邻使混伪药物无处遁形，葳蕤与女萎、兰花与泽兰之混正是被骨架本身揭穿的。方法论签名：一百种散珠串不起来，先造一串骨架——纲不立则目不张，目不张则学不传。",
+      "definition_en": "Organize vast empirical material into a two-level 'gang-mu' (outline-detail) architecture: sixteen sections as the outline, sixty classes as the detail; for each drug, 'name as outline, entries as detail'; and order the sections 'from the minute to the vast, from the lowly to the noble'—inorganic to organic, lower to higher, a sequence that faintly anticipates evolutionary ordering. Three essentials: first, classification precedes accumulation—material heaped without a skeleton dies in the library; 1,892 drugs without a frame are 1,892 islands; second, the two levels are a retrieval structure, not a moral hierarchy—'from minute to vast' is an epistemic order, not a value order (water and fire come first because they are elementary, not because they are noble); third, 'splitting clans and setting classes' clusters by kinship—congeneric drugs placed side by side expose adulterants and misidentifications, and the confusions of yuru with nilu or orchid with zelan were unmasked by the skeleton itself. Signature: a thousand loose pearls will not string themselves—build the spine first; no outline, no details; no details, no discipline.",
+      "source_chapter": "《本草纲目·凡例》《本草纲目·序例》'析族区类，振纲分目'",
+      "key_concepts": [
+        "纲目两级",
+        "十六部六十类",
+        "析族区类",
+        "从微至巨",
+        "检索架构"
+      ],
+      "process_zh": [
+        "穷举全部待组织材料，标出每一项的基本属性",
+        "定'部'（纲）：按物质层次从无机到生物划十六部",
+        "定'类'（目）：部内按亲缘与性状聚类为六十类",
+        "每药立'标名—释名—集解—正误—气味—主治—发明—附方'固定条目序列"
+      ],
+      "process_en": [
+        "Exhaust and inventory all materials, tagging each item's basic properties",
+        "Fix the sections (outline): divide from inorganic to living across sixteen sections",
+        "Fix the classes (detail): cluster within each section by kinship and character into sixty classes",
+        "Give every drug a fixed entry sequence: name, etymology, collected evidence, error-correction, properties, indications, elaboration, appended prescriptions"
+      ],
+      "key_quote_zh": "析族区类，振纲分目；以纲挈目，如网之在纲，有序而不紊。",
+      "key_quote_en": "Split clans, set classes, raise the outline and string the details—like a net held by its headrope, ordered and untangled.",
+      "representative_cases_zh": [
+        "全书架构落地：1892种药入十六部六十类——水、火、土、金石、草、谷、菜、果、木、服器、虫、鳞、介、禽、兽、人，每部有部序论其纲领，每类有小序述其界限，纲目架构使'查一味药'从翻遍群书变成按部就班",
+        "'从微至巨、从贱至贵'的排序自觉：金石在先、草木居中、虫鱼禽兽继之、人为最后——他自言排序是认知阶梯，人虽居末'食五谷与物同流'，属认知序而非价值贬抑",
+        "部类边界即纠错器：旧本草把'兰花'与'泽兰'混为一谈，纲目以类别定位揭穿——兰属草部芳草类可观赏，泽兰属水草类入药——骨架一立，混淆自动现形",
+        "反例警示：《本草纲目》仍把'乌贼'入鳞部——分类框架自身的时代局限（按生活环境而非生物结构）说明：骨架纠错的力量来自骨架，骨架的错误也会被骨架放大"
+      ],
+      "representative_cases_en": [
+        "The architecture at work: 1,892 drugs filed into sixteen sections and sixty classes—water, fire, earth, metals and stones, grasses, grains, vegetables, fruits, trees, apparel and implements, insects, scaled creatures, shellfish, birds, beasts, human—each section with a preface stating its charter, each class with a preamble marking its boundaries, so that 'looking up one drug' changes from ransacking the library to walking the ladder",
+        "Conscious ordering 'from the minute to the vast, from the lowly to the noble': minerals first, plants between, creatures after, humans last—yet he frames this as an epistemic stair, not a slur: humans eat the five grains and flow with things",
+        "Class boundaries as an error-detector: the old materia medica confused orchid (lan) with zelan; the compendium assigns them to different classes—ornamental fragrant herb versus water herb used in medicine—once the skeleton stands, the confusion shows itself",
+        "Counter-case: the cuttlefish was filed among scaled creatures—the frame's own era-bound limit (classing by habitat, not anatomy) is a reminder that a skeleton's power to expose errors comes from the skeleton, and the skeleton's own errors are likewise amplified"
+      ],
+      "modern_applications_zh": [
+        "知识库设计：先定一级分区（部）再定二级标签（类），条目模板固定字段序列——文档工程与维基分类的元方法",
+        "生物/化学分类法与数据库schema设计：'析族区类'即按亲缘属性建索引，'纲目'即主键-外键层级",
+        "企业知识管理：1892种药对应SKU与物料编码体系，部-类-条目三层编码使百万级物料可检索",
+        "个人笔记体系：从流水账到'纲—目—条'三层架构（领域—项目—条目），治'记了找不到'的笔记熵"
+      ],
+      "modern_applications_en": [
+        "Knowledge-base design: fix level-one sections and level-two classes first, then a fixed field sequence per entry—the meta-method behind documentation engineering and wiki taxonomies",
+        "Biology/chemistry classification and database schemas: 'split clans, set classes' is indexing by kinship; outline-detail maps to primary-key/foreign-key hierarchy",
+        "Enterprise knowledge management: 1,892 drugs map to SKU and material-coding systems; a section-class-entry three-tier code makes million-item inventories searchable",
+        "Personal note systems: from journal soup to a three-tier outline-detail-entry architecture (domains—projects—notes), curing the entropy of 'wrote it, can't find it'"
+      ],
+      "related_modes": [
+        "M-LSZ-002",
+        "M-LSZ-006",
+        "M-JSX-010",
+        "M-ISN-002"
+      ]
+    },
+    {
+      "id": "M-LSZ-002",
+      "mode_code": "M-LSZ-002",
+      "name_zh": "正误辨疑法",
+      "name_en": "Error-Correction-and-Doubt Method",
+      "category": "文献批判",
+      "domain_zh": "知识纠错/去伪存真",
+      "domain_en": "Knowledge Rectification / Error Purging",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "把'改正前人之误'立为著述的正当门类：《本草纲目》专设'正误'与'辨疑'栏目，凡旧本草相混、失实、附会之处逐条列出并给证据——前人错的照录其错、注明其误，不以尊者讳。要害有三：其一，纠错有专栏而不散于注脚——把'哪里错了'升级为知识体系的常设器官，错误从此可检索、可累积清算；其二，每条正误必须给出裁决证据——或亲验、或据实物、或考方书，不以'某书云'驳'某书云'，以事实驳文本；其三，纠错留痕且致意——正误不抹去原文而并列存照，让后人看见'当时以为如何、后来知其如何'，错误史本身成为知识。方法论签名：一本正经的价值不在它没有错误，而在它标出了哪些地方曾经错误。",
+      "definition_en": "Make 'correcting predecessors' errors' a legitimate, named category of scholarship: the compendium sets up standing 'error-correction' (zhengwu) and 'doubt-resolution' (bianyi) columns, itemizing every confusion, inaccuracy, and forced analogy in older materia medica with evidence attached—recording the error as stated, marking it as erroneous, and refusing to shield the venerable. Three essentials: first, correction gets its own column rather than a scattered footnote—'where it is wrong' is promoted to a standing organ of the knowledge system, so errors become searchable and cumulatively settled; second, every correction must cite adjudicating evidence—personal testing, the physical specimen, or the formularies—text is refuted by fact, not by rival text; third, corrections keep traces and pay respects: the original text stands beside the correction so posterity sees 'what was then believed, what is now known'—the history of error is itself knowledge. Signature: a classic's worth lies not in having no errors but in marking where it once erred.",
+      "source_chapter": "《本草纲目》各卷'正误'条、《本草纲目·凡例》",
+      "key_concepts": [
+        "正误",
+        "辨疑",
+        "去伪存真",
+        "错误存照",
+        "证据裁决"
+      ],
+      "process_zh": [
+        "通读前代本草全文，标记可疑条目：性味矛盾、形态描述不符、方用附会",
+        "对每条疑点独立取证：实物核对、药农访谈、临床方书旁证",
+        "证据成立者立'正误'条：先录原文，再陈证据，后下断语",
+        "证据不足者立'辨疑'条：存疑不断，注明'俟考'——把不确定性显式入典"
+      ],
+      "process_en": [
+        "Read the entire older corpus and flag suspect entries: contradictory properties, mismatched descriptions, forced therapeutic attributions",
+        "Gather evidence independently for each suspect: physical comparison, herb-seller interviews, corroboration from formularies",
+        "Where evidence stands, open a 'correction' entry: quote the original, lay out the evidence, then the verdict",
+        "Where evidence falls short, open a 'doubt' entry: suspend judgment and mark 'pending examination'—uncertainty enters the canon explicitly"
+      ],
+      "key_quote_zh": "复者芟之，阙者缉之，讹者绳之——一物有疑，反复辨明，不敢以已意误后人。",
+      "key_quote_en": "Prune the duplicated, stitch the missing, straighten the crooked—where one thing is in doubt, argue it through; dare not mislead posterity by private guess.",
+      "representative_cases_zh": [
+        "正'葳蕤女萎之混'：旧本草两药长期纠缠不清，李时珍以形、性、用三分对照，明确葳蕤（玉竹）滋阴、女萎另为一物，并直书'昔人混而为一，今正之'——一句'今正之'是对数百年权威的公开否决",
+        "辨'服水银长生'之妄：方士家言宣称水银可致长生，李时珍历数其中毒实例，直斥'长生之说，妄也'，并警告血肉之躯不敌水银之毒——以临床事实驳千年求仙叙事",
+        "'曼陀罗花'的实证入典：前人语焉不详，他自记'予尝试之'——亲自服食验证其致幻麻醉之效并记剂量，把'传闻'升为'实证'，同时记录其毒与解法",
+        "反例警示：正误亦有存疑处——对部分传闻药物他仍录可疑之说而注'未详'，说明纠错机器的诚实在于'辨疑'栏目本身：宁可存疑入典，不可断言充数"
+      ],
+      "representative_cases_en": [
+        "Correcting the yuru/nilu tangle: older texts had long conflated the two; Li set them apart by form, property, and use—showing yuru (Polygonatum) nourishes yin while nilu is a distinct drug—and wrote in so many words 'the ancients merged them; I now correct it'—a public veto against centuries of authority",
+        "Refuting the elixir claim for mercury: alchemical lore promised longevity from mercury; Li tallied the poisoning cases, declared the longevity claim false, and warned that a flesh-and-blood body cannot stand mercury's toxicity—clinical fact against a millennium of immortality narrative",
+        "The datura entry grounded in self-experiment: predecessors were vague; he recorded 'I have tried it'—personally testing its hallucinatory anesthetic effect, noting the dose, its toxicity, and the remedy—rumor upgraded to evidence",
+        "Counter-case: some corrections remain suspended—certain legendary entries survive flagged only 'not yet clear'—the honesty of the machine lies in the doubt column itself: better doubt enshrined than assertion padding the count"
+      ],
+      "modern_applications_zh": [
+        "技术债与bug清算：设'正误'专栏（known-errors清单）而非散在注释，让错误可检索、可排期、可归档",
+        "学术综述与循证医学：对'某研究说'用实验事实裁决，不引用对引用；存疑处明标'证据不足'而非静默取舍",
+        "数据治理：脏数据不静默删除，'正误条'式修正记录（原值-证据-新值）使纠错历史可审计",
+        "决策复盘：把'当时以为如何、后来知其如何'写进决策档案——错误史成为组织的隐性知识资产"
+      ],
+      "modern_applications_en": [
+        "Tech-debt and bug reckoning: keep a named known-errors register instead of scattered comments, so errors become searchable, schedulable, and archivable",
+        "Systematic review and evidence-based practice: adjudicate 'a study says' by experiment, never citation-versus-citation; mark thin evidence explicitly instead of silently picking",
+        "Data governance: don't silently delete dirty data; correction records in the original-value/evidence/new-value form make the error history auditable",
+        "Decision postmortems: write 'what we believed then, what we know now' into the decision log—an error history is an organization's tacit knowledge asset"
+      ],
+      "related_modes": [
+        "M-LSZ-001",
+        "M-LSZ-003",
+        "M-JSX-002",
+        "M-SK-001"
+      ]
+    },
+    {
+      "id": "M-LSZ-003",
+      "mode_code": "M-LSZ-003",
+      "name_zh": "亲验访采法",
+      "name_en": "Field-Verification Method (Interview and Self-Test)",
+      "category": "实证方法",
+      "domain_zh": "田野调查/亲身验证",
+      "domain_en": "Fieldwork / Firsthand Verification",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "书斋裁决不了的，交给双脚与自身：《本草纲目》成书二十七年，李时珍'搜罗百氏、采访四方'——远穷僻壤之产、险采麓藏之物，访农夫、渔人、樵夫、猎人、药农、铃医，对可疑药物甚至亲口尝试。要害有三：其一，访谈一线实践者——药农知产地与真假，铃医知剂量与反应，猎户知兽性，每类隐性知识各有其最可靠的持有者，访谈就是向最对的人问最专的问题；其二，亲验为终审——文献冲突且访谈亦分歧时，以自身试验做最后裁决并如实记录（曼陀罗之'予尝试之'），把研究者自己的身体变成仪器；其三，风险与收益同记——亲验毒物必并记中毒症状与解法，使后来者可安全复用这笔冒险换来的知识。方法论签名：纸上得来终觉浅——本草的法庭在山泽之间，证人是一线的手，陪审团里有你自己的舌头。",
+      "definition_en": "What the study cannot settle, give to the feet and the body: across the compendium's twenty-seven years, Li 'gathered from a hundred schools and interviewed in every direction'—traveling to remote yields, climbing for mountain-hidden drugs, questioning farmers, fisherfolk, woodcutters, hunters, herb farmers, and itinerant doctors, and even tasting suspect drugs himself. Three essentials: first, interview frontline practitioners—herb farmers know provenance and adulteration, itinerant doctors know dosage and reactions, hunters know the beasts; every kind of tacit knowledge has its most reliable holder, and interviewing means asking the most specialized question of the most qualified person; second, self-test is the final court—when texts conflict and informants disagree, his own trial settles the matter and is recorded as such ('I have tried it,' of datura), turning the researcher's own body into an instrument; third, record risk alongside gain—testing a poison means logging symptoms and remedies together, so the knowledge bought with danger is safely reusable. Signature: what comes off paper always feels thin—the court of materia medica sits in the hills and marshes; the witnesses are working hands, and the jury includes your own tongue.",
+      "source_chapter": "《本草纲目》曼陀罗花条'予尝试之'；王世贞《本草纲目·序》'访采四方'",
+      "key_concepts": [
+        "采访四方",
+        "一线访谈",
+        "亲口尝试",
+        "以身试药",
+        "隐性知识萃取"
+      ],
+      "process_zh": [
+        "列出文献裁决不了的可疑条目清单（性味、真伪、剂量）",
+        "按知识类型分配访谈对象：产地问药农、用法问铃医、形态问樵猎",
+        "对高争议药物设计亲验方案：低剂量起步、记录反应、预备解法",
+        "将访谈与亲验结果回写条目，注明'得之某人所告'与'亲验'两种证据等级"
+      ],
+      "process_en": [
+        "List the entries texts cannot settle (property, authenticity, dosage)",
+        "Assign informants by knowledge type: provenance to herb farmers, usage to itinerant doctors, form to woodcutters and hunters",
+        "Design a self-test protocol for high-contest drugs: start low, log reactions, prepare the remedy",
+        "Write field results back into the entry, marking two evidence grades: 'told by so-and-so' and 'tested myself'"
+      ],
+      "key_quote_zh": "渔猎群书，搜罗百氏；一一采视，颇得其真。——曼陀罗花条：予尝试之，半酣更令笑或舞，乃验也。",
+      "key_quote_en": "I fished and hunted through the libraries and searched a hundred schools; I examined each drug with my own eyes and got close to the truth.—Datura entry: I have tried it; when half-drunk, made to laugh or dance, the effect was verified.",
+      "representative_cases_zh": [
+        "曼陀罗花的自体实验：为验证'服之令人舞'的传闻，他亲服此花并记下'半酣更令笑或舞'的观察与剂量梯度——用自身做试验台，同时记下毒性以便救误",
+        "鲮鲤（穿山甲）的现场解剖：旧书称穿山甲'诱蚁而食'，他不轻信也不轻驳，亲捕一只解剖观察，确认其吐舌诱蚁属实，又发现其胃中确有蚂蚁——传闻、访谈、解剖三方印证",
+        "一线采访成条目：蕲蛇的真伪、白花蛇的产地形性，得之于蛇贩与猎户之口；'芸薹菜'的播种经验采自老农——条文里大量'某人所告'的访谈痕迹，与经典引文并列",
+        "反例警示：亲验有边界——对砒霜等剧毒他不再自试而采信临床案例，说明自体实验须设风险闸门：可逆的试之，不可逆的交给已有的临床记录"
+      ],
+      "representative_cases_en": [
+        "The datura self-experiment: to verify the claim that it 'makes people dance,' he took it himself and logged the observation and dose gradient ('half-drunk, made to laugh or dance')—his own body as test bench, toxicity noted for rescue",
+        "The pangolin dissected on site: old books said it lured ants to eat; neither trusting nor dismissing, he caught one and dissected it, confirming the tongue-luring habit and finding ants in the stomach—rumor, interview, and dissection triangulated",
+        "Entries built from frontline interviews: the authenticity of the Qi snake and the range of the white-flower snake came from snake dealers and hunters; rapeseed sowing know-how from old farmers—the text carries extensive 'told by' marks standing beside classical citations",
+        "Counter-case: self-testing has limits—for arsenic and the like he did not experiment on himself but relied on clinical cases: a risk gate for self-trial—reversible risks may be tried; irreversible ones are left to the existing clinical record"
+      ],
+      "modern_applications_zh": [
+        "用户研究/田野访谈：向最对的人问最专的问题（药农式访谈法），把一线隐性知识结构化入库",
+        "产品与实验科学：'以身试药'对应dogfooding与自体试验伦理——低剂量起步、记录反应、预备回滚",
+        "新闻报道与事实核查：传闻-访谈-实物三方印证（穿山甲三源法）为核查流程模板",
+        "知识萃取：从老师傅、老员工身上抢救隐性经验，注明证据等级（'得之某人所告' vs '亲验'）"
+      ],
+      "modern_applications_en": [
+        "User research and field interviews: ask the most specialized question of the most qualified person; structure frontline tacit knowledge into the base",
+        "Product and experimental science: dogfooding and self-trial ethics—start low, log reactions, prepare the rollback",
+        "Journalism and fact-checking: rumor-interview-artifact triangulation (the pangolin protocol) as a verification template",
+        "Knowledge harvesting: rescue tacit expertise from veterans, always marking evidence grade ('told by' vs 'tested myself')"
+      ],
+      "related_modes": [
+        "M-LSZ-002",
+        "M-LSZ-004",
+        "M-JSX-002",
+        "M-TLY-001"
+      ]
+    },
+    {
+      "id": "M-LSZ-004",
+      "mode_code": "M-LSZ-004",
+      "name_zh": "渔猎群书集成法",
+      "name_en": "Bibliographic-Harvest Method (Eight Hundred Sources)",
+      "category": "文献工程",
+      "domain_zh": "文献集成/引证体系",
+      "domain_en": "Bibliographic Integration / Citation System",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "把'参考文献'做成知识体系的承重墙：《本草纲目》引据书目八百余家——本草四十一家、医方二百七十六家、经史百家五百九十家，每药条目下前人诸说按年代顺序'集解'并列，各自标注出自何书。要害有三：其一，穷尽为先——写一条之前先把前人说过什么穷尽摊开，不自说自话，不抢跑立论；其二，观点分层存档——诸家异说并陈而不强行归一，李氏断语以'时珍曰'另起一层，原著者与裁决者文责分明；其三，书目标注为诚信基线——每条证据可回溯到具体卷次，使读者能复核也能反驳，八百家不是装饰而是可审计的证据链。方法论签名：结论的分量等于它脚下文献的厚度——'时珍曰'三个字之所以站得住，是因为它站在八百家肩膀上。",
+      "definition_en": "Make the bibliography a load-bearing wall of the knowledge system: the compendium cites over eight hundred works—forty-one materia medica, two hundred seventy-six formularies, five hundred ninety classics and histories; under each drug, prior opinions are arrayed in chronological order in the 'collected explanations' column, each tagged to its source. Three essentials: first, exhaustiveness before argument—before writing a single entry, lay out everything predecessors said; no self-talk, no jumping the gun; second, opinions are layered, not fused—rival views stand side by side without forced synthesis, and Li's own verdicts open a separate layer with the tag 'Shizhen says,' keeping original author and adjudicator distinct in accountability; third, the source list is the integrity baseline—every datum traces to a specific juan, so readers can verify or rebut; eight hundred works are not ornament but an auditable evidence chain. Signature: a conclusion weighs exactly as much as the literature beneath it—'Shizhen says' stands firm because it stands on eight hundred shoulders.",
+      "source_chapter": "《本草纲目·序例》'引据古今医家书目''引据古今经史百家书目'",
+      "key_concepts": [
+        "引据书目八百家",
+        "集解",
+        "诸家并陈",
+        "时珍曰",
+        "证据链可回溯"
+      ],
+      "process_zh": [
+        "建引用底册：本草、医方、经史三类分册登记，逐条标卷次",
+        "每药先做文献普查：诸家之说按年代先后抄录为'集解'层",
+        "异说并陈不抹平：有分歧处原样保留各家表述",
+        "李氏断语另立'时珍曰'层，并给出与前说的关系（从某、正某、辨某）"
+      ],
+      "process_en": [
+        "Build a citation register in three ledgers—materia medica, formularies, classics and histories—each entry tagged to its juan",
+        "For every drug run a literature sweep: prior opinions copied in chronological order as the 'collected explanations' layer",
+        "Preserve disagreement unfused: where sources split, each voice keeps its original wording",
+        "Open a separate 'Shizhen says' layer for verdicts, stating the relation to prior views (following, correcting, or adjudicating which source)"
+      ],
+      "key_quote_zh": "上自坟典，下及传奇，凡有相关，靡不备采——渔猎群书，搜罗百氏。",
+      "key_quote_en": "From the ancient canons down to tales and legends, everything pertinent was gathered—I fished and hunted the libraries, searched a hundred schools.",
+      "representative_cases_zh": [
+        "引据书目制度化：书首专列'引据书目'三部——历代本草四十一家、古今医方二百七十六家、经史百家五百九十家，等于给全书发布了一份可查证的'参考文献总表'",
+        "'集解'层的年代序列：每药先录《神农本草经》之说，继以陶弘景、苏敬、唐慎微诸家按代递进，后学可以看到知识如何一层层长出来，而非只见最终结论",
+        "'时珍曰'的文责自觉：凡他本人的裁断一律以'时珍曰'领起，与其所引'经曰''弘景曰'分属不同署名层——数据与观点的分离在五百年前已是一条写作纪律",
+        "反例警示：引文浩繁中偶有转引未核之处（若干条目把二手转述当作原书引文），说明集成法的审计链需要逐条回原典复核——书目厚度替代不了引文质量"
+      ],
+      "representative_cases_en": [
+        "Institutionalized source lists: the book opens with three ledgers—forty-one materia medica across the dynasties, two hundred seventy-six formularies, five hundred ninety classics and histories—a verifiable master bibliography published with the work",
+        "The chronological 'collected explanations': each drug first records the Shennong classic, then Tao Hongjing, Su Jing, Tang Shenwei in sequence—readers watch knowledge accrete layer by layer instead of receiving only the final verdict",
+        "The accountability of 'Shizhen says': his own rulings always open with the tag, separate from the quoted 'the classic says' and 'Hongjing says'—separation of data from opinion was already a writing discipline five centuries ago",
+        "Counter-case: amid the mass of citations a few are secondhand passed off as primary—proof that the audit chain must be re-verified source by source; thickness of the bibliography never substitutes for quality of citation"
+      ],
+      "modern_applications_zh": [
+        "系统综述方法论：先穷尽文献再做综合，诸家结论并列分层，自己的综合意见明确署名分层（'时珍曰'式）",
+        "学术论文写作规范：引用可回溯到卷次/DOI，参考文献表是承重墙不是装饰",
+        "数据科学notebook：数据来源、清洗步骤、模型假设分层存档，'时珍曰'对应个人推断与外部数据的显式隔离",
+        "知识库/wiki建设：条目下'诸家并陈+断语分层'结构，使后续修订者能看清哪些是继承哪些是新增"
+      ],
+      "modern_applications_en": [
+        "Systematic review method: exhaust the literature before synthesis, keep rival conclusions in layers, and sign your synthesis as its own layer ('Shizhen says')",
+        "Academic writing norms: citations traceable to juan/DOI; the reference list is a load-bearing wall, not decoration",
+        "Data-science notebooks: layered archives of sources, cleaning steps, model assumptions—'Shizhen says' as the explicit wall between personal inference and external data",
+        "Knowledge-base/wiki construction: rival-views-then-verdict structure so future editors can see what was inherited and what was added"
+      ],
+      "related_modes": [
+        "M-LSZ-001",
+        "M-LSZ-005",
+        "M-JSX-001",
+        "M-SMQ-319"
+      ]
+    },
+    {
+      "id": "M-LSZ-005",
+      "mode_code": "M-LSZ-005",
+      "name_zh": "气味性理法",
+      "name_en": "Property-Profile Method (Qi-Flavor Framework)",
+      "category": "药理框架",
+      "domain_zh": "性能分析/属性建模",
+      "domain_en": "Pharmacological Profiling / Attribute Modeling",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "为每一种药物建立'气味—归经—主治—发明—附方'的属性档案：四气（寒热温凉）五味（酸苦甘辛咸）为其性能基向量，升降浮沉为其行为模式，再以历代临床用例验证之。要害有三：其一，属性框架先行——1892种药各建统一字段结构的档案，性能描述不是散文而是结构化数据，可按'寒性药'横向检索同类；其二，性效对应须有临床证据——'主治'与'发明'两栏分立：前者录前书记载，后者是李氏对'为什么这味药能治这个病'的机理推演与用例佐证；其三，剂量与配伍写进档案——'附方'栏每方注明用量与配伍禁忌，性能不是孤立的标签而是使用条件函数。方法论签名：不问'这药是什么'，先问'这药在什么条件下做什么'——性能是一条带参数的曲线，不是一枚标签。",
+      "definition_en": "Build a property dossier for every drug on a fixed frame: 'flavor-and-nature—meridian entry—indications—elaboration—appended prescriptions.' The four natures (cold, hot, warm, cool) and five flavors (sour, bitter, sweet, pungent, salty) form the base vector of its activity; ascending-descending-floating-sinking gives its behavior mode; and generations of clinical cases verify it. Three essentials: first, the attribute frame comes first—1,892 dossiers share one field schema, so properties are structured data, not prose, and 'all cold-natured drugs' is a horizontal query; second, claims must carry clinical evidence—the 'indications' and 'elaboration' columns are separate: the former records what older books say, the latter is Li's own reasoning about why the drug works, backed by cases; third, dosage and compatibility enter the dossier—each appended prescription notes dose and contraindications, making properties a conditional function of use, not a bare label. Signature: don't ask what the drug is; ask what it does under what conditions—a property is a parameterized curve, not a tag.",
+      "source_chapter": "《本草纲目·凡例》气味主治发明附方体例；各药条目",
+      "key_concepts": [
+        "四气五味",
+        "升降浮沉",
+        "属性档案",
+        "主治与发明分栏",
+        "附方剂量"
+      ],
+      "process_zh": [
+        "定属性字段：气味（基向量）、归经（作用域）、主治（历史记录）、发明（机理层）、附方（使用条件）",
+        "为每药逐字段填档：气味必注来源，主治必录前书，发明必给己见",
+        "横向建索引：按气味、按主治、按部类多路可检，同类性能可横向比较",
+        "以附方落底：每条性能至少对应一个带剂量的临床方，属性必须可执行"
+      ],
+      "process_en": [
+        "Fix the attribute fields: flavor-and-nature (base vector), meridian entry (scope), indications (historical record), elaboration (mechanism layer), appended prescriptions (conditions of use)",
+        "Fill every field for each drug: nature sourced, indications quoted from prior books, elaboration argued in his own voice",
+        "Index horizontally: searchable by nature, by indication, by section—same-profile drugs comparable side by side",
+        "Anchor with prescriptions: every property claim lands on at least one dosed clinical formula—attributes must be executable"
+      ],
+      "key_quote_zh": "虽曰医家药品，实为考究性理之书——气味既明，主治斯立。",
+      "key_quote_en": "Though a book of physicians' drugs, it is truly a study of natures and principles—once the flavor-and-nature is clear, the indications stand.",
+      "representative_cases_zh": [
+        "统一档案模板落地：全书1892药共用一套字段——以黄芩、黄连、黄柏、栀子四味清热药为例，其寒性与归经（黄芩入肺、黄连入心、黄柏入肾、栀子通利三焦）横向可排成一张比较表——结构化属性使'同类横比'第一次成为可能",
+        "'发明'栏的机理自觉：'大黄泻下'不满足于记录，而推演其'走而不守、荡涤肠胃'的机制并附用例——从'是什么'深入到'为什么'，性能描述获得了因果层",
+        "附方与剂量的绑定：每药末尾附历代验方并注剂量，如常山治疟须分量准而服法得宜——性能标签必须落到可执行的使用条件，否则不收入典",
+        "反例警示：气味框架的古代局限——以'寒热温凉'归类的药物性能部分经不起现代药理复核（如以四气断补泻），说明属性建模的框架本身也要随证据升级，档案的价值在结构而非结论"
+      ],
+      "representative_cases_en": [
+        "One template across the book: all 1,892 drugs share the fields—the four heat-clearing drugs (scutellaria, coptis, phellodendron, gardenia) can be laid out in one comparison table by nature and meridian entry (lung, heart, kidney, triple burner)—structured attributes made 'same-class comparison' possible for the first time",
+        "The mechanistic instinct of 'elaboration': for rhubarb's purgation he does not stop at recording but reasons out its 'moving without settling, scouring the gut' mechanism with cases—property description gains a causal layer",
+        "Prescriptions bound to dosage: every drug ends with historical formulas and doses ('for changshan against malaria, the dose must be exact and the method right')—a property tag must land on executable conditions or it does not enter the canon",
+        "Counter-case: the frame's ancient limits—the four-nature sorting of drug activity partly fails modern pharmacology (inferring tonify/purge from temperature alone); attribute frameworks themselves must upgrade with evidence—the dossier's value is its structure, not its conclusions"
+      ],
+      "modern_applications_zh": [
+        "产品属性建模：SKU/商品档案统一字段（性能=参数曲线），支持同类横比与条件检索",
+        "技术选型评估表：每项技术建'性能基向量+适用条件+反例'档案，主治=历史记录、发明=机理分析、附方=落地方案",
+        "临床指南与药物数据库：主治与机理分栏、剂量绑定，正是现代drug database的字段雏形",
+        "知识图谱构建：属性框架先行、横向索引多路可检——1892档案即一个前现代的结构化数据库"
+      ],
+      "modern_applications_en": [
+        "Product attribute modeling: uniform field schemas for SKU dossiers (property as parameterized curve) enabling same-class comparison and conditional search",
+        "Tech-selection scorecards: a dossier per technology—base vector, applicable conditions, counter-cases; indications = track record, elaboration = mechanism, appended prescriptions = implementation",
+        "Clinical guidelines and drug databases: indications/mechanism columns with dose binding—the proto-schema of the modern drug database",
+        "Knowledge-graph construction: frame first, multi-path indexes—an early modern structured database of 1,892 dossiers"
+      ],
+      "related_modes": [
+        "M-LSZ-001",
+        "M-LSZ-008",
+        "M-ZZJ-001",
+        "M-TLY-001"
+      ]
+    },
+    {
+      "id": "M-LSZ-006",
+      "mode_code": "M-LSZ-006",
+      "name_zh": "释名考据法",
+      "name_en": "Etymological-Verification Method",
+      "category": "名实考辨",
+      "domain_zh": "命名学/名实关系",
+      "domain_en": "Naming / Name-Reality Correspondence",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "每药立'释名'栏，从名称入手正名辨物：一个药物在不同时代不同地域有不同名字，名之乱即物之乱——先把'这个名字指什么'考证清楚，再谈性味主治。要害有三：其一，名不正则物不明——同名异物（此葳蕤非彼女萎）与异名同物（一物数名）是本草错误的两大根源，正名是纠错的第一杠杆；其二，以文献链考名——采历代典籍中该名的用例，看字形、看音读、看上下文用例，把'为什么叫这个名字'还原为可考察的历史事实；其三，正名为用服务——释名不只训诂趣味，而是给临床一个稳定指称：医生开方、药肆抓药、患者服药，三方必须指同一物。方法论签名：药物学的全部混乱，一半始于名字——先把名字钉牢，事实才有处可站。",
+      "definition_en": "Open every drug entry with an 'etymology' (shiming) column and settle the object through its name: one drug carries different names across eras and regions, and chaos of names is chaos of things—first establish 'what does this name refer to,' only then discuss properties. Three essentials: first, no correct name, no clear object—same name for different things and different names for the same thing are the twin root causes of materia-medica error; fixing names is the first lever of correction; second, trace names through the textual chain—collect usages of the name across the corpus, watching graph, sound, and context, restoring 'why it is called this' as an examinable historical fact; third, naming serves use—etymology is not philological amusement but a stable referent for the clinic: prescriber, apothecary, and patient must all mean the same thing. Signature: half of pharmacology's confusion begins with names—pin the name down first, and facts have somewhere to stand.",
+      "source_chapter": "《本草纲目·凡例》'诸品首以释名'；各药条目释名栏",
+      "key_concepts": [
+        "释名",
+        "正名辨物",
+        "同名异物",
+        "异名同物",
+        "稳定指称"
+      ],
+      "process_zh": [
+        "汇集该药在历代文献中的全部名称及其用例",
+        "辨同名异物：形性不符者分立条目；辨异名同物：用例互证者并为一条",
+        "考字形音读与语境用例，给出命名的由来与演变",
+        "以正名统摄条目：'正名'领起，别名附录，性味主治皆系于正名之下"
+      ],
+      "process_en": [
+        "Collect every name the drug has carried, with usage contexts",
+        "Split entries where one name covers unlike things; merge entries where many names cover one thing",
+        "Trace graph, sound, and contextual usage to reconstruct the name's origin and drift",
+        "Regulate the entry under the corrected name: canonical name leads, aliases append, properties attach to the canonical name"
+      ],
+      "key_quote_zh": "每药标正名为纲，余皆附于释名之下——名之与物，不可苟焉而已。",
+      "key_quote_en": "Each drug opens with its corrected name as the outline, all others attached beneath the etymology—between name and thing one may not be careless.",
+      "representative_cases_zh": [
+        "'葳蕤/女萎'正名：通过释名栏的文献链考证，确认两名所指已因传抄相混——以'正名为纲'重立条目，使后续性味主治各归其主，数百年的性效混淆由正名一刀斩断",
+        "'泽兰/兰草'分立：古人把香草之兰与药用泽兰混谈，李时珍以释名考据辨明屈原所佩之兰非兰草、入药者为泽兰——名实考据直接改写了文化史与药典两条线",
+        "一物数名的归并：同一药物因产地时代而有数名者，条目下以释名列出俗名、旧名并注明关系——药肆抓药时'见名知物'不再赌运气",
+        "反例警示：部分条目的释名仍囿于时代见闻（如对若干域外药物名称的考据依赖转述），说明正名考据需要原始文本与实物双证——仅有文献链时结论要降级标注"
+      ],
+      "representative_cases_en": [
+        "Correcting yuru/nilu: the etymology column's textual chain showed the two names had fused in transmission—re-founding the entries under corrected names sent the tangled properties back to their owners, cutting through centuries of confusion in one stroke",
+        "Splitting zelan from orchid: ancients mixed the fragrant orchid of poetry with the medicinal zelan; Li's philology showed the orchid Qu Yuan wore was not the orchid herb, and the drug was zelan—one naming correction rewriting both cultural history and the pharmacopoeia",
+        "Merging many names for one thing: drugs with multiple names across regions and eras get an etymology column listing vernacular and old names with their relations—apothecaries could 'see the name, know the thing' without gambling",
+        "Counter-case: some etymologies remain bound to era-bound sources (foreign drug names resting on hearsay)—naming scholarship needs both original texts and physical specimens; with the textual chain alone, conclusions must be downgraded"
+      ],
+      "modern_applications_zh": [
+        "数据治理中的实体消歧：同名不同ID与同ID不同名正是数据库脏数据两大根源，'释名栏'即主数据管理（MDM）的命名规范",
+        "术语表与本体工程：术语标准化（正名+别名附录）是机器可读知识体系的前提",
+        "品牌/产品命名审计：上市前考'名实相符'——用户以为在买什么与你实际在卖什么必须同一物",
+        "法律与合规文书：合同标的先'释名'（定义条款）再谈权利义务——名不正则讼不止"
+      ],
+      "modern_applications_en": [
+        "Entity disambiguation in data governance: same-name-different-ID and same-ID-different-name are the twin roots of dirty data; the etymology column is MDM naming discipline",
+        "Terminology and ontology engineering: term standardization (canonical + aliases) is the precondition of machine-readable knowledge",
+        "Brand/product naming audit: before launch, verify name-reality fit—what users think they buy and what you sell must be the same thing",
+        "Legal drafting: define terms before obligations—a contract's 'etymology column' is its definitions clause"
+      ],
+      "related_modes": [
+        "M-LSZ-002",
+        "M-LSZ-001",
+        "M-HFZ-002",
+        "M-SK-001"
+      ]
+    },
+    {
+      "id": "M-LSZ-007",
+      "mode_code": "M-LSZ-007",
+      "name_zh": "附方落底法",
+      "name_en": "Prescription-Anchoring Method",
+      "category": "临床转化",
+      "domain_zh": "知识落地/可执行性",
+      "domain_en": "Applied Translation / Executability",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "每一条理论性知识必须落到一个可执行的用法上：每药末尾附历代验方（附方栏）八千余方、五十一万余字，每方注明组成、剂量、煎服法与适应症——性能描述若不能变成'某某病用几钱、怎么煎、怎么服'就不算完成。要害有三：其一，知识以'可执行'为完成态——性味归经是解释层，附方是执行层，一个条目两层齐备才算闭环；其二，方从历代文献与临床两路汇集——不是自我作古，而是把千年临床的验证结果收拢到每味药的名下；其三，剂量即边界——附方同时记录'不可过量'与禁忌人群，把知识的适用边界与知识本身一体交付。方法论签名：说不清怎么用，就等于不知道——把每个'因为所以'都配一个'几钱几服'。",
+      "definition_en": "Every theoretical claim must land on an executable use: each drug ends with historical verified formulas (the appended-prescriptions column)—over 8,000 formulas, more than 510,000 characters—each noting composition, dosage, decoction method, and indications; a property description that cannot become 'for such a disease, so many qian, decocted and taken thus' is not finished. Three essentials: first, knowledge completes only as executable—theory is the explanation layer, formulas the execution layer; an entry closes only with both; second, formulas converge from literature and clinic—nothing is invented from scratch; a millennium of clinical verification is gathered under each drug's name; third, dosage is the boundary—formulas also record 'do not exceed' and contraindicated populations, delivering the knowledge's limits together with the knowledge. Signature: if you cannot say how to use it, you do not know it—pair every 'because-therefore' with a 'so-many-qian, so-many-doses.'",
+      "source_chapter": "《本草纲目》各药附方栏、《本草纲目·凡例》",
+      "key_concepts": [
+        "附方八千",
+        "可执行知识",
+        "剂量边界",
+        "煎服法",
+        "知识闭环"
+      ],
+      "process_zh": [
+        "从历代方书与临床见闻中汇集该药相关验方",
+        "每方记录四要素：组成、剂量、煎服法、适应症",
+        "剔除不可复现的方：无剂量、无适应症的弃录或降级存照",
+        "标注禁忌与过量后果——交付知识的同时交付边界"
+      ],
+      "process_en": [
+        "Gather verified formulas for the drug from formularies and clinical observations across the ages",
+        "Record four elements per formula: composition, dosage, decoction and administration, indications",
+        "Cull unreproducible formulas: no dose or no indication means culling or demoted archival",
+        "Mark contraindications and overdose consequences—deliver the boundaries together with the knowledge"
+      ],
+      "key_quote_zh": "方以药成，药以方显——有一药必有一用，有一用必有其法。",
+      "key_quote_en": "Formulas are made of drugs, and drugs are revealed by formulas—every drug must have a use, every use its method.",
+      "representative_cases_zh": [
+        "全书五十一万字附方体系：1892药共附8161方，平均每药四至五方——性能条目与执行条目一体成文，使《本草纲目》从药物志升级为'可操作的决策手册'",
+        "常山治疟的执行化：不止记'常山截疟'的性能，而给出具体方（常山与草果、知母配伍）与煎服法及吐后调护——理论的性能在一个可复制疗程中兑现",
+        "剂量即安全边际：附方中大量'不可多服''孕妇忌'的边界记录，与方剂同框交付——如半夏附方明注须制用、生用有毒，知识与其危险共存于同一栏",
+        "反例警示：部分附方仍收有疗效存疑的巫术方（如'服符水'类），说明落地层的筛选标准需要前后一致——凡不可执行者应降级至'存照'而非混入正方"
+      ],
+      "representative_cases_en": [
+        "A 510,000-character formula system: 8,161 formulas across 1,892 drugs, four to five per drug—explanation and execution bound together, upgrading the compendium from a drug gazetteer to an operational decision manual",
+        "Changshan against malaria, executed: not merely the property 'stops malaria' but a concrete formula (with caoguo and zhimu), decoction method, and post-emesis care—an abstract property cashed out in a replicable regimen",
+        "Dosage as the safety margin: the formula column carries many boundary records ('do not exceed,' 'contraindicated in pregnancy'), delivered in the same frame—pinellia entries note it must be processed, the raw root toxic: knowledge and its hazard share one column",
+        "Counter-case: some appended formulas retain dubious magical remedies (talisman-water types)—the translation layer needs a consistent culling standard: the non-executable should be demoted to archival, not mixed into the working formulas"
+      ],
+      "modern_applications_zh": [
+        "产品文档工程：每个功能说明必配runnable示例（附方=code snippet），没有可执行示例的功能文档不算完成",
+        "运维SOP与runbook：告警处置不只写机理，必须写'跑什么命令、预期输出、回滚条件'",
+        "临床指南与循证医学：推荐意见必须绑定剂量与禁忌——知识交付即边界交付",
+        "AI提示词工程：每个方法论必须落到可直接复制的prompt模板，说不出怎么用等于不知道"
+      ],
+      "modern_applications_en": [
+        "Documentation engineering: every feature ships with a runnable snippet (formulas = code samples); a feature doc without one is unfinished",
+        "Ops runbooks: alerts carry not mechanism but 'run this command, expect this output, rollback at this condition'",
+        "Clinical guidelines: recommendations bind to dose and contraindication—knowledge delivers its limits as part of itself",
+        "Prompt engineering: every method must land on a copy-paste template; if you can't say how to use it, you don't know it"
+      ],
+      "related_modes": [
+        "M-LSZ-005",
+        "M-LSZ-001",
+        "M-ZZJ-001",
+        "M-JSX-006"
+      ]
+    },
+    {
+      "id": "M-LSZ-008",
+      "mode_code": "M-LSZ-008",
+      "name_zh": "人药互证整体观",
+      "name_en": "Body-Drug Holism Method",
+      "category": "医学哲学",
+      "domain_zh": "系统医学/整体关联",
+      "domain_en": "Systems Medicine / Holistic Correlation",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "把药物、人体、环境放进一个相互作用的整体网络里读：药性与人体质、脏腑、时令、地域联动——'春省酸增甘以养脾气'式的因时用药、'高者其气寿，下者其气夭'式的因地论医。要害有三：其一，无孤立的药性——同一味药对不同体质、不同时节、不同地域的人效果不同，性能是'药×人×境'三元函数；其二，脏腑经络为作用域——'归经'概念把药物作用定位到人体系统的具体子系统，性能描述从全局走向定位；其三，饮食起居入药典——谷、菜、果、禽、兽、人部入典，把'日常饮食即药物'的预防思想制度化：吃什么就是吃什么药。方法论签名：药不入人体则无效，人不入环境则无病——一切效应都在关系网中发生。",
+      "definition_en": "Read drugs, body, and environment as one interacting network: drug activity couples with constitution, organs, season, and region—dosing by season ('in spring, reduce sour and increase sweet to nourish the spleen') and by place ('highlands live long, lowlands die early'). Three essentials: first, no isolated drug property—the same drug acts differently on different constitutions, seasons, and places; a property is a three-variable function of drug × person × environment; second, organs and meridians define the scope of action—the 'meridian entry' concept locates a drug's effect in a specific subsystem of the body, moving description from global to local; third, diet enters the pharmacopoeia—grains, vegetables, fruits, birds, beasts, even human section enter the canon, institutionalizing the preventive idea that daily food is drug: what you eat is what you medicate with. Signature: a drug outside the body does nothing; a body outside its environment falls ill—every effect occurs inside a web of relations.",
+      "source_chapter": "《本草纲目·序例》'四时用药例''人部'；各药归经论述",
+      "key_concepts": [
+        "药人境三元",
+        "归经",
+        "四时用药",
+        "食药同源",
+        "整体关联"
+      ],
+      "process_zh": [
+        "为每药标注作用域（归经）与行为模式（升降浮沉）",
+        "联立人体变量：体质、老幼、孕产、脏腑状态进入性能判断",
+        "联立环境变量：时令、地域、水土并入用药方案",
+        "以饮食部类落实预防：日常食物的性能与禁忌同规格入典"
+      ],
+      "process_en": [
+        "Tag each drug's scope of action (meridian entry) and behavior mode (ascending-descending-floating-sinking)",
+        "Couple body variables: constitution, age, pregnancy, organ state all enter the property judgment",
+        "Couple environment variables: season, region, water and soil fold into the dosing plan",
+        "Make prevention operational through the food sections: everyday foods enter the canon with the same rigor of properties and taboos"
+      ],
+      "key_quote_zh": "人赖以生者，谷也菜也果也——饮食者，人之命脉也。",
+      "key_quote_en": "What man lives on is grain, vegetable, fruit—diet is the artery of human life.",
+      "representative_cases_zh": [
+        "'四时用药例'的系统化：序例专论四季用药调整——春宜升散、夏宜清利、秋宜滋润、冬宜温补，把'同一药不同季效'写成操作规程而非格言",
+        "'归经'的子系统定位：同样苦寒的黄连入心、黄芩入肺、黄柏入肾——同类的药因作用域不同而分工，性能描述精确到人体系统的具体子系统",
+        "食药同源的典制化：谷部、菜部、果部与草部木部同规格立条——粳米、大枣、生姜的性能与禁忌按药的标准记录，'药补不如食补'从格言变成可查的档案",
+        "反例警示：整体观的对应性思维有过度延伸处——如'以脏补脏'（吃心补心）的部分推论未获现代验证，说明关系网中的类比必须经受单变量检验，不能以整体的名义豁免"
+      ],
+      "representative_cases_en": [
+        "The systematized seasonal dosing example: the general principles chapter devotes a section to adjusting drugs across the four seasons—ascending in spring, clearing in summer, moistening in autumn, warming in winter—written as protocol, not aphorism",
+        "Meridian entry as subsystem location: the bitter-cold coptis enters the heart, scutellaria the lung, phellodendron the kidney—same-class drugs divide labor by scope; property description becomes precise to a body subsystem",
+        "Institutionalized food-as-drug: grains, vegetables, and fruits get entries to the same standard as herbs—rice, jujube, and ginger recorded with properties and taboos by drug-grade rigor; 'diet beats tonics' turns from saying into searchable archive",
+        "Counter-case: the holistic correspondence sometimes over-extends—'nourish an organ by eating it' (heart for heart) is partly unverified; analogies inside the relational web must pass single-variable tests and cannot claim exemption in holism's name"
+      ],
+      "modern_applications_zh": [
+        "精准医学/个性化用药：药×人×境三元函数即药物基因组学与个体化剂量的思想原型",
+        "系统生物学与网络药理学：把成分、靶点、通路当关系网读，正与'整体关联'同构",
+        "生活方式医学与营养干预：'食药同源'的典制化对应循证营养学把饮食当一线干预",
+        "复杂系统调优：调参数（药）必看负载（人）与环境（境），任何调优建议都须注明适用条件"
+      ],
+      "modern_applications_en": [
+        "Precision medicine: the drug × person × environment function is the proto-idea of pharmacogenomics and individualized dosing",
+        "Systems biology and network pharmacology: components, targets, pathways as a relational web—isomorphic with the holism",
+        "Lifestyle medicine and nutritional intervention: institutionalized food-as-drug maps to evidence-based nutrition treating diet as first-line intervention",
+        "Complex-system tuning: tuning a parameter (drug) requires reading the load (person) and the environment; every tuning advice states its applicable conditions"
+      ],
+      "related_modes": [
+        "M-LSZ-005",
+        "M-LSZ-009",
+        "M-ZZJ-001",
+        "M-JSX-007"
+      ]
+    },
+    {
+      "id": "M-LSZ-009",
+      "mode_code": "M-LSZ-009",
+      "name_zh": "金土图新弃旧法",
+      "name_en": "Economy-of-Remedies Method (Prefer the Cheap and Common)",
+      "category": "价值选择",
+      "domain_zh": "可及性/公平设计",
+      "domain_en": "Accessibility / Equity Design",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "在同等效验下优先收录便宜、易得、可及之物：《本草纲目》大量收录谷物、蔬菜、瓜果、常见土产入药——'土产药材'与贵重药并列，明确批评当时医界'贵药贱药'的势利：'药品虽多，然人所常用者，不过数十品……贵者取之市肆，贱者取之田圃'。要害有三：其一，可及性是药效的一部分——买不到的药方是纸上的方，疗效必须发生在患者手里；其二，廉价不等于低效——生姜、大枣、粳米、葱白入方数千次，家常之物撑起日常医疗的基本盘；其三，为贫者立法——方剂设计考虑'贫人'替代方案（以贱药代贵药），把支付能力从疗效方程中剥离。方法论签名：好药的最终标准不是稀罕，是躺在多数人的锅边——为富人造的药典只治疗富人。",
+      "definition_en": "At equal efficacy, prefer the cheap, the common, the accessible: the compendium admits masses of grains, vegetables, and fruits as drugs—local common materia standing beside precious ones—and expressly censures the era's snobbery for expensive drugs: 'though drugs are many, those people commonly use are but a few dozen... the rich buy from the market, the poor gather from the field.' Three essentials: first, accessibility is part of efficacy—a formula one cannot buy is a formula on paper; the cure must happen in the patient's hands; second, cheap is not weak—ginger, jujube, rice, and scallion enter thousands of formulas; household things carry the base load of everyday medicine; third, legislate for the poor—formulas provide 'poor man's substitutions' (cheap drugs replacing dear ones), stripping the ability to pay out of the efficacy equation. Signature: the final standard of a good drug is not rarity but lying within reach of the many—a pharmacopoeia built for the rich treats only the rich.",
+      "source_chapter": "《本草纲目·序例》及谷部菜部果部各条；'贵药贱药'之论",
+      "key_concepts": [
+        "可及性",
+        "土产入药",
+        "贱药代贵",
+        "贫者医疗",
+        "公平设计"
+      ],
+      "process_zh": [
+        "评效先于评价：确立'同等效验'基准后再比较成本",
+        "为每个常用方标注可及性：市肆易得/田圃自采/须高价采购",
+        "设计替代序列：贵药给出贱药替代方案并注明效验差异",
+        "把日常饮食按药的标准收录，使基础医疗不需要进入市场即可完成"
+      ],
+      "process_en": [
+        "Judge efficacy before judging price: fix the 'equal efficacy' baseline first, then compare cost",
+        "Mark accessibility for every common formula: market-bought, field-gathered, or high-cost",
+        "Design substitution ladders: for dear drugs give cheap replacements, noting any efficacy gap",
+        "Admit everyday foods at drug-grade rigor so basic care needs no entry into the market"
+      ],
+      "key_quote_zh": "贵者取之市肆，贱者取之田圃——贱药有回生之功，贵药有误人之失。",
+      "key_quote_en": "The rich buy from the market, the poor gather from the field—a cheap drug may raise the dead; a dear one may do the harm.",
+      "representative_cases_zh": [
+        "谷菜果部的典制地位：粳米、小米、大麦、萝卜、冬瓜按药的标准立条记性味主治——把'吃饭'纳入医疗体系，最可及的'药'获得药典级文档",
+        "贱药代贵的方剂设计：附方中多处标注以常见品替代贵重品（如以常物代犀角、代麝香的方），并注明效验等级——支付能力与治疗方案解耦",
+        "对'贵药崇拜'的正面批评：直指时医好贵恶贱之弊，'贱药有回生之功'——把价值观写进药典的标准条款而非序言感慨",
+        "反例警示：可及性优先不能滑向'唯贱是从'——对确需贵重药的急症（如牛黄开窍），他照样收录并说明不可替代，公平设计不等于降低疗效标准"
+      ],
+      "representative_cases_en": [
+        "Constitutional standing for grains and vegetables: rice, millet, barley, radish, winter melon get drug-grade entries—eating itself enters the medical system, and the most accessible 'drugs' receive pharmacopoeia-grade documentation",
+        "Substitution design in formulas: appended formulas repeatedly mark cheap replacements for precious ingredients, with efficacy grades—the treatment plan decouples from the patient's wallet",
+        "Direct criticism of the cult of expensive drugs: he attacks physicians' snobbery in standard clauses, not preface sighs—a cheap drug may raise the dead",
+        "Counter-case: accessibility must not slide into cheapness-for-its-own-sake—for acute conditions truly needing precious drugs (bezoar to reopen the orifices) he includes them and marks them irreplaceable; equity design does not lower the efficacy bar"
+      ],
+      "modern_applications_zh": [
+        "基本药物目录设计：WHO基本药物清单'效验优先+可及性'正是'贱药代贵'的现代制度化",
+        "产品普惠设计：同等功能下优先可及方案，价格不进入效果方程（公平设计的工程化）",
+        "开源与知识普惠：把核心知识放在'田圃'（开放获取）而非'市肆'（付费墙）",
+        "医疗政策与公共卫生：基层可用、社区可负担的方案优先入库——药典的收录标准即价值观"
+      ],
+      "modern_applications_en": [
+        "Essential-medicines design: the WHO essential-drugs list is 'equal efficacy + accessibility' institutionalized—the modern form of cheap-for-dear",
+        "Inclusive product design: prefer the accessible at equal function; keep price out of the efficacy equation",
+        "Open access and knowledge equity: put core knowledge in the 'field' (open access), not the 'market' (paywall)",
+        "Health policy: prioritize what grassroots clinics can stock and communities can afford—the pharmacopoeia's inclusion criteria are its values"
+      ],
+      "related_modes": [
+        "M-LSZ-005",
+        "M-LSZ-007",
+        "M-TLY-001",
+        "M-JSX-009"
+      ]
+    },
+    {
+      "id": "M-LSZ-010",
+      "mode_code": "M-LSZ-010",
+      "name_zh": "父子相继传世法",
+      "name_en": "Succession-and-Legacy Method (Canon Completed by Heirs)",
+      "category": "传承机制",
+      "domain_zh": "知识接力/文献保全",
+      "domain_en": "Knowledge Succession / Textual Preservation",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "为毕生之作设计'完成—出版—续写'的接力机制：李时珍三易其稿、年近八旬完成《本草纲目》，自己携书赴太仓请王世贞作序站台，殁后由子李建中进献朝廷、金陵本刊行——个人生命有限，知识机器必须能离开作者运转。要害有三：其一，生前寻求最高背书——请当世文坛领袖王世贞序之（'性理之精蕴，格物之通典'），为民间医书赢得传播通行证；其二，子承父业的制度化——建中、建木诸子参与抄录校订，死后献书请刊，把家庭变成出版链的一环；其三，以体例容纳续写——纲目架构与固定条目格式使后人（赵学敏《本草纲目拾遗》增药七百余种）可以按格式增补而体系不崩。方法论签名：一部作品的最后一章不是写完，是被接住——作者要设计自己离场之后机器如何继续转。",
+      "definition_en": "Design a 'complete—publish—continue' relay for the life's work: Li revised the compendium three times, finished near eighty, personally carried it to Taicang to ask Wang Shizhen for a preface, and after his death his son Li Jianzhong presented it to the throne; the Jinling edition was printed. A life is finite; the knowledge machine must run without its author. Three essentials: first, seek the highest endorsement while alive—the preface by the era's literary arbiter ('the essence of natures and principles, a comprehensive canon of investigating things') won the folk physician's book its passport to circulation; second, institutionalize succession—sons Jianzhong and Jianmu copied and collated, and presented the book after his death, turning the family into a link of the publishing chain; third, let the format admit continuation—the outline-detail architecture and fixed entry schema let later hands (Zhao Xuemin's Supplement adding seven hundred drugs) extend by format without collapsing the system. Signature: a work's final chapter is not finishing it but being caught—design how the machine keeps running after you leave.",
+      "source_chapter": "王世贞《本草纲目·序》；李建中《进本草纲目疏》；金陵本刊行事",
+      "key_concepts": [
+        "三易其稿",
+        "王世贞作序",
+        "子承献书",
+        "金陵本刊行",
+        "拾遗续写"
+      ],
+      "process_zh": [
+        "定稿前寻求当世最高背书：请权威作序、以序言为传播通行证",
+        "把家族纳入出版链：子女参与抄录、校订、进献",
+        "以固定体例预留续写接口：纲目架构+条目模板使增补不破体系",
+        "完成后持续修订：三易其稿说明定稿是过程不是事件"
+      ],
+      "process_en": [
+        "Before finalizing, seek the era's highest endorsement: an authoritative preface as the passport to circulation",
+        "Fold the family into the publishing chain: children copy, collate, and present",
+        "Reserve a continuation interface in the format: outline-detail plus entry template so additions never break the system",
+        "Keep revising after 'completion': three full redactions show finality is a process, not an event"
+      ],
+      "key_quote_zh": "愿乞一言，以托不朽——治身之志，没身不渝；书成之日，委之子姓。",
+      "key_quote_en": "I beg one word from you to lodge this work in immortality—the resolve endures to the end of life; the day the book was done, it was entrusted to my children.",
+      "representative_cases_zh": [
+        "请序王世贞的传播战略：书成后李时珍亲赴太仓求序，王世贞阅后称'如入金谷之园，种色夺目'并许以'格物之通典'——民间著作借文坛领袖背书进入主流流通",
+        "子承献书的制度化：李建中万历间进书朝廷、李建木等参与校订抄写——家庭从生活单位变成出版单位，知识接力有了组织载体",
+        "金陵本与江西本的版本接力：1596年金陵本刊行、1603年江西本翻刻——初刻与翻刻的版本链使书躲过孤本湮灭的命运",
+        "反例警示：朝廷'命刊行天下'的谕旨实际收效有限，真正传播靠市场翻刻——传世机制不能只押在权力背书上，市场与技术条件（刻书业）才是更稳的载体"
+      ],
+      "representative_cases_en": [
+        "The preface strategy: on completion Li personally traveled to Taicang to seek Wang Shizhen, who compared reading it to 'entering a garden of gold and grain, dazzling in variety' and called it 'a comprehensive canon of investigating things'—a folk work entering mainstream circulation on a literary arbiter's endorsement",
+        "Institutionalized succession: Li Jianzhong presented the book to the throne in the Wanli era; Jianmu and others collated—the family turned from a household into a publishing unit, giving the relay an organizational carrier",
+        "The edition relay: the Jinling edition printed in 1596, the Jiangxi reprint in 1603—first printing and reprints as a version chain saved the book from the fate of unique copies",
+        "Counter-case: the throne's decree to 'print it for all under heaven' achieved little; real circulation came from market reprints—don't bet the legacy solely on power's endorsement; markets and technology (the printing trade) are the steadier carrier"
+      ],
+      "modern_applications_zh": [
+        "开源项目治理：作者离场设计（maintainer继任+贡献规范+版本链），'三易其稿'对应持续发布而非大爆炸式发布",
+        "组织知识资产交接：核心方法论文档化+继任者参与修订（子承校订）+寻求有影响力的背书（王世贞式sponsor）",
+        "个人知识遗产：笔记/代码库的格式预留续写接口，使十年后自己或他人可按格式增补",
+        "学术出版与citation接力：请领域权威作序/推荐（背书即通行证），版本链（DOI/存档）防孤本湮灭"
+      ],
+      "modern_applications_en": [
+        "Open-source governance: design for the author's exit (maintainer succession, contribution norms, version chains); 'three redactions' = continuous release, not big-bang launch",
+        "Organizational knowledge handover: document the core method, let successors revise (sons-as-collators), and court an influential sponsor (a Wang Shizhen)",
+        "Personal knowledge legacy: leave a continuation interface in the format of notes/code so you—or anyone—can extend by schema years later",
+        "Academic publishing: endorsements as passports (prefaces by authorities), version chains (DOI/archives) against the fate of unique copies"
+      ],
+      "related_modes": [
+        "M-LSZ-001",
+        "M-LSZ-007",
+        "M-JSX-010",
+        "M-SMQ-319"
+      ]
+    }
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-ZZJ-001",
+      "relation_type": "medieval_canon_mirror",
+      "description_zh": "与张仲景的医学正典镜像：仲景以《伤寒杂病论》把临床经验定著为方证规程，李时珍以《本草纲目》把千年药物知识重整为纲目体系——一个为辨证立法，一个为药物立法，共同构成中国医学'临床端+药物端'两部正典；且李时珍自言撰纲目时'采其方附于条'，附方栏大量取自仲景方。",
+      "description_en": "A medieval-canon mirror with Zhang Zhongjing: Zhongjing fixed clinical experience into syndrome-formula protocols in the Treatise on Cold Damage; Li Shizhen reorganized a millennium of drug knowledge into the gang-mu system in the Compendium—one legislating for diagnosis, the other for drugs, together forming the two canons of Chinese medicine's clinical and pharmacological ends; Li himself 'adopted their formulas beneath each entry,' drawing heavily on Zhongjing's prescriptions."
+    },
+    {
+      "target_figure_code": "H-SK-001",
+      "relation_type": "empiricist_mirror",
+      "description_zh": "与沈括的实证镜像：沈括以'亲验'裁决天地万物之疑（《梦溪笔谈》），李时珍以'予尝试之'裁决药物之疑（曼陀罗自试、穿山甲解剖）——相隔五百年的两位博物学家同持'实证高于传闻'的裁决标准，一个广及物理天文，一个专精草木虫鱼。",
+      "description_en": "An empiricist mirror with Shen Kuo: Shen adjudicated doubts about heaven, earth, and things by personal testing (Brush Talks); Li adjudicated doubts about drugs with 'I have tried it' (the datura self-trial, the pangolin dissection)—two naturalists five centuries apart holding the same standard of evidence over hearsay, one spanning physics and astronomy, the other mastering plants, insects, and fish."
+    },
+    {
+      "target_figure_code": "H-TLY-001",
+      "relation_type": "methodological_descendant",
+      "description_zh": "与屠呦呦的方法论血脉：屠呦呦从葛洪《肘后备急方》'青蒿一握，以水二升渍'获得低温提取的关键启发，其'文献考据→工艺破解→交叉验证→标准化'路径与李时珍'渔猎群书→亲验访采→正误辨疑→附方落底'的范式同构——一部《本草纲目》的检索架构使'按图索骥式的文献启发'在四百年后依然可行。",
+      "description_en": "A methodological bloodline to Tu Youyou: Tu's breakthrough came from Ge Hong's 'a handful of qinghao steeped in two sheng of water'—her path of textual excavation, process crack, cross-validation, and standardization is isomorphic with Li's harvest-the-libraries, field-verification, error-correction, prescription-anchoring; the compendium's retrieval architecture made 'follow-the-clue textual inspiration' still workable four centuries later."
+    }
+  ],
+  "figure_name_zh": "李时珍",
+  "figure_name_en": "Li Shizhen",
+  "mode_ids": [
+    "M-LSZ-001",
+    "M-LSZ-002",
+    "M-LSZ-003",
+    "M-LSZ-004",
+    "M-LSZ-005",
+    "M-LSZ-006",
+    "M-LSZ-007",
+    "M-LSZ-008",
+    "M-LSZ-009",
+    "M-LSZ-010"
+  ],
+  "tags": [
+    "李时珍",
+    "濒湖山人",
+    "药圣",
+    "本草纲目",
+    "明代",
+    "蕲州",
+    "纲目体",
+    "十六部六十类",
+    "析族区类",
+    "正误辨疑",
+    "释名",
+    "集解",
+    "时珍曰",
+    "附方八千",
+    "予尝试之",
+    "访采四方",
+    "四气五味",
+    "归经",
+    "食药同源",
+    "达尔文引用",
+    "濒湖脉学",
+    "金陵本"
+  ]
+}

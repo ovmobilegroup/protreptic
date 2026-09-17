@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 运行时产物
+*.db
+*.faiss
+*.pkl
+*.log
+logs/
+.pytest_cache/
+
+# 临时
+*.tmp
+.hermes-tmp.*
+*.bak
+*.backup*

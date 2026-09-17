@@ -1,0 +1,30 @@
+{
+  "code": "H-GY-152",
+  "name_zh": "龚裕：待考证（历史人物信息缺失）",
+  "name_en": "Gong Yu: To Be Confirmed (Historical Data Missing)",
+  "era": "待考证（To Be Confirmed）",
+  "historical_domains": ["待补充"],
+  "domains": [],
+  "core_modes": [],
+  "gender": "待考证",
+  "ethnicity": "Han（推测）",
+  "unique_thinking": "[数据缺失] 经全面检索 Protreptic 知识库、GitHub code_maps.json、main_data.json、scenarios_zh/en.json 及全部 serrano workspace，均未找到「龚裕」或「龔裕」的任何历史记录、code 编码或研究成果。该人物目前无法从已有数据中还原，需补充历史研究后重新生成 v6 Schema。",
+  "source_refs": [
+    "[待补充] 经检索以下资源均无龚裕记录：",
+    "- Protreptic main_data.json（1749条原始数据无匹配）",
+    "- Protreptic code_maps.json（H-GY-152 未分配）",
+    "- Protreptic data/asia/individuals/（13个v6文件无龚裕）",
+    "- 全部 kanban serrano workspace（均无龚裕研究成果）"
+  ],
+  "key_facts": ["[数据缺失] 龚裕的生平、时代背景、主要事迹均未知"],
+  "mode_evidence": [],
+  "proposed_steps": ["[待研究] 需先确认龚裕的真实历史身份、时代背景与主要事迹"],
+  "expected": ["[待研究] 需先确认龚裕的真实历史身份、时代背景与主要事迹"],
+  "applications": [],
+  "distinctiveness": {"note": "[数据缺失] 龚裕的真实历史身份尚未确认，无法进行模式对比分析"},
+  "caveats": [
+    "[严重警告] 龚裕（或龔裕）在 Protreptic 知识库、code_maps.json、main_data.json、scenarios_zh/en.json 及全部 serrano workspace 中均无任何记录。经 web_search 也未找到对应历史人物词条。该 v6 Schema 文件为占位符，不可直接使用——需先补充历史研究后再重新生成完整 v6 Schema。",
+    "注意：龚自珍（Gong Zizhen, 1792-1841）在 code_maps.json 中已存在（H-GZJ），但与龚裕非同一人，不可混淆。",
+    "建议：确认龚裕的真实历史身份（时代、领域、事迹）后，参考同领域已有 v6 文件格式重新创建。"
+  ]
+}

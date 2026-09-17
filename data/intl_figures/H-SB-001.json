@@ -1,0 +1,362 @@
+{
+  "schema_version": "v6",
+  "code": "H-SB-001",
+  "figure_name": "史敦",
+  "figure_code": "北都",
+  "figure_pinyin": "Shi Dun",
+  "birth_year": 410,
+  "death_year": 460,
+  "era": "北朝",
+  "school": "元气自然论/批判理性主义",
+  "style_name": "北都",
+  "courtesy_name": "无",
+  "representative_works": [
+    "《北府论衡》"
+  ],
+  "historical_significance": "北朝时期重要哲学思想家，系统化批判虚妄、确立自然主义本体论，中国古代批判理性传统的重要代表之一，比同時代主流意识形态更具科学精神",
+  "core_thoughts": [
+    "疾虚妄方法论（认识论奠基）",
+    "元气自然论（气一元论本体论）",
+    "效验论证法（经验检验标准）",
+    "天道自然法（反目的论宇宙观）",
+    "问难法（文本批判先驱）",
+    "机械因果法（自然解释框架）",
+    "常识经验法（民主化认识论）",
+    "文本批判法（史料辨析方法）",
+    "归谬反驳法（逻辑清除工具）",
+    "反权威立真法（认知自主原则）"
+  ],
+  "famous_quote": "疾虚妄，立真伪；案验其事，不因权而信",
+  "influence": "开创北朝批判理性传统，影响后世辨析学和考据学，为中国哲学史上最早纯粹的自然主义本体论之一，比欧洲文艺复兴怀疑论早约1500年",
+  "thinking_mode_count": 10,
+  "modes": [
+    {
+      "id": "M01",
+      "name_zh": "疾虚妄法",
+      "name_en": "Disease of Falsehood Method",
+      "mode_code": "M01",
+      "source_chapter": "《北府论衡》",
+      "definition_zh": "以批判虚妄、追求真实为核心使命，对所有未经检验的主张保持系统性怀疑态度。'疾虚妄'不仅是方法论，更是认识论立场。",
+      "definition_en": "Taking criticism of falsehood and pursuit of truth as the core mission, maintaining skeptical attitude toward all unexamined claims. 'Disease of falsehood' is not just methodology but epistemological stance.",
+      "key_concepts": [
+        "疾虚妄",
+        "求真",
+        "实",
+        "虚",
+        "效验"
+      ],
+      "process": [
+        "识别需要检验的主张或信念",
+        "质疑该主张的前提假设是否成立",
+        "寻找反例或矛盾之处",
+        "用经验和逻辑检验主张的可靠性"
+      ],
+      "modern_applications": [
+        "批判性思维",
+        "伪科学识别",
+        "信息甄别",
+        "认知偏差纠正"
+      ],
+      "related_modes": [
+        "M02",
+        "M03",
+        "M05"
+      ]
+    },
+    {
+      "id": "M02",
+      "name_zh": "问难法",
+      "name_en": "Questioning and Challenging Method",
+      "mode_code": "M02",
+      "source_chapter": "《北府论衡·问难篇》",
+      "definition_zh": "通过不断提问和挑战来检验命题的真伪，要求每一个主张都要有明确的机制解释。问难不是为质疑而质疑，而是为了逼近真实。",
+      "definition_en": "Testing propositions through continuous questioning and challenging, requiring each claim to have clear mechanistic explanation. Questioning is not for its own sake but to approach truth.",
+      "key_concepts": [
+        "问难",
+        "质问",
+        "辩难",
+        "明效",
+        "证验"
+      ],
+      "process": [
+        "对既定命题提出定义性问题",
+        "追问机制解释",
+        "寻找逻辑矛盾或反例",
+        "通过归谬法揭示命题荒谬之处"
+      ],
+      "modern_applications": [
+        "逻辑推理训练",
+        "辩论分析",
+        "科学方法论",
+        "批判性阅读"
+      ],
+      "related_modes": [
+        "M01",
+        "M04",
+        "M08"
+      ]
+    },
+    {
+      "id": "M03",
+      "name_zh": "天道自然法",
+      "name_en": "Heaven-as-Nature Method",
+      "mode_code": "M03",
+      "source_chapter": "《北府论衡·自然篇》",
+      "definition_zh": "将天道理解为人格化的自然过程而非有意志的干预者，天没有目的，不赏善罚恶。",
+      "definition_en": "Understanding Heaven-as-Nature: the natural process without personification or willful intervention, no purpose, no reward/punishment system.",
+      "key_concepts": [
+        "天道自然",
+        "非目的论",
+        "气化无为",
+        "自然生成"
+      ],
+      "process": [
+        "将天理解为自然规律而非有意志的干预者",
+        "否认天有目的或道德意图",
+        "解释自然现象为气化运行结果",
+        "构建非人类中心主义的宇宙观"
+      ],
+      "modern_applications": [
+        "科学思维培养",
+        "去神秘化思考",
+        "自然主义世界观建构",
+        "反阴谋论"
+      ],
+      "related_modes": [
+        "M04",
+        "M06",
+        "M09"
+      ]
+    },
+    {
+      "id": "M04",
+      "name_zh": "效验论证法",
+      "name_en": "Empirical Verification Method",
+      "mode_code": "M04",
+      "source_chapter": "《北府论衡·证验篇》",
+      "definition_zh": "主张必须有可检验的证据支持，不接受仅凭权威或传统的论断。凡论事者，决其信否，案验其事。",
+      "definition_en": "Empirical verification: any proposition must be supported by verifiable evidence; reject authority- or tradition-based assertions alone. Test and verify propositions against facts.",
+      "key_concepts": [
+        "效验",
+        "证验",
+        "案验",
+        "其实",
+        "有证"
+      ],
+      "process": [
+        "识别理论主张的验证需求",
+        "收集相关实证材料",
+        "用事实对照主张是否符合",
+        "记录验证结果并判断可接受性"
+      ],
+      "modern_applications": [
+        "实验设计思维",
+        "证据评估框架",
+        "决策验证",
+        "质量控制"
+      ],
+      "related_modes": [
+        "M03",
+        "M07",
+        "M10"
+      ]
+    },
+    {
+      "id": "M05",
+      "name_zh": "归谬反驳法",
+      "name_en": "Reductio ad Absurdum Method",
+      "mode_code": "M05",
+      "source_chapter": "《北府论衡·反驳篇》",
+      "definition_zh": "通过推导主张的逻辑后果来揭示其矛盾或荒谬，若承认该主张则需接受一系列不合理结论。假设对方观点正确，推导逻辑后果，发现后果荒谬，故原观点错误。",
+      "definition_en": "Reductio ad absurdum: assume the opposite position is correct, derive its logical consequences, discover the absurd or unreasonable conclusions, therefore the original position is incorrect. Effective for clearing erroneous cognition without needing alternative theory.",
+      "key_concepts": [
+        "归谬",
+        "反证",
+        "推究",
+        "论难",
+        "激扬"
+      ],
+      "process": [
+        "假设对方观点正确",
+        "推导其逻辑后果",
+        "发现后果荒谬或不合理",
+        "因而否定原观点"
+      ],
+      "modern_applications": [
+        "逻辑论证技巧",
+        "反方分析",
+        "边界条件检验",
+        "概念澄清"
+      ],
+      "related_modes": [
+        "M01",
+        "M06",
+        "M10"
+      ]
+    },
+    {
+      "id": "M06",
+      "name_zh": "元气自然论",
+      "name_en": "Primordial Qi Naturalism",
+      "mode_code": "M06",
+      "source_chapter": "《北府论衡·气篇》",
+      "definition_zh": "以气为本体解释一切现象，气的聚散构成万物的生成变化，无需借助超自然力量。一切现象都可以还原为气的运动：气的聚散解释生死，气的升降解释风雨，气的感应解释共鸣。",
+      "definition_en": "Primordial Qi Naturalism: take qi (vital energy) as the fundamental substance to explain all phenomena. The aggregation and dispersion of qi constitute the generation and transformation of all things. No supernatural forces needed. Everything can be reduced to qi movement: qi aggregation/division explains life/death, qi rising/falling explains wind/rain, qi resonance explains resonance phenomena.",
+      "key_concepts": [
+        "元气",
+        "气化",
+        "禀气",
+        "形气",
+        "自然"
+      ],
+      "process": [
+        "归一切现象为气的运动解释",
+        "通过气的聚散解释生死变化",
+        "通过气的升降解释自然现象",
+        "建立统一的物理世界观"
+      ],
+      "modern_applications": [
+        "唯物主义分析框架",
+        "系统思维",
+        "还原论方法",
+        "科学解释范式"
+      ],
+      "related_modes": [
+        "M03",
+        "M05",
+        "M09"
+      ]
+    },
+    {
+      "id": "M07",
+      "name_zh": "常识经验法",
+      "name_en": "Common Sense Experience Method",
+      "mode_code": "M07",
+      "source_chapter": "《北府论衡·日常篇》",
+      "definition_zh": "用日常经验和常识作为检验理论的标准，反对将复杂化、神秘化的解释强加于简单现象。论证常常以'常人皆知'开头，用普通人的常识反驳复杂精致的理论。",
+      "definition_en": "Common sense experience method: use everyday experience and common sense as the standard for testing theories. Refuse to impose complex, mystical explanations onto simple phenomena. Arguments often begin with 'as everyone knows' and refute complex, sophisticated theories with ordinary common sense.",
+      "key_concepts": [
+        "常识",
+        "常情",
+        "众见",
+        "闻见",
+        "效验"
+      ],
+      "process": [
+        "从日常经验出发",
+        "用普通人的常识判断理论合理性",
+        "反对精英主义的深奥解释",
+        "主张民主化的认识论原则"
+      ],
+      "modern_applications": [
+        "奥卡姆剃刀思维",
+        "实用主义判断",
+        "简化复杂问题",
+        "反矫饰修辞"
+      ],
+      "related_modes": [
+        "M04",
+        "M08",
+        "M10"
+      ]
+    },
+    {
+      "id": "M08",
+      "name_zh": "文本批判法",
+      "name_en": "Textual Criticism Method",
+      "mode_code": "M08",
+      "source_chapter": "《北府论衡·辨伪篇》",
+      "definition_zh": "对经典文本持批判性态度，区分真宗之言与后人伪托，真理不因来自权威而成立。区分'经'与'传'，指出许多被当作圣人之言的内容其实是后世附会。",
+      "definition_en": "Textual criticism: maintain critical attitude toward classical texts, distinguish genuine from spurious attributions, truth does not depend on authority. Distinguish 'jing' (classics) from 'zhuan' (transmissions), point out that many things attributed to sages are actually later additions.",
+      "key_concepts": [
+        "问孔",
+        "辨伪",
+        "考信",
+        "经传",
+        "来源可靠性"
+      ],
+      "process": [
+        "区分'经'(真正的经典)'与'传'(后世附会)",
+        "不因某说法出自经典就盲目相信",
+        "看它是否符合事实和逻辑",
+        "进行史料辨析和来源可信度评估"
+      ],
+      "modern_applications": [
+        "史料辨析",
+        "文献考证",
+        "来源可信度评估",
+        "谣言溯源"
+      ],
+      "related_modes": [
+        "M02",
+        "M04",
+        "M10"
+      ]
+    },
+    {
+      "id": "M09",
+      "name_zh": "机械因果法",
+      "name_en": "Mechanical Causality Method",
+      "mode_code": "M09",
+      "source_chapter": "《北府论衡·因果篇》",
+      "definition_zh": "用物质性因果关系取代目的论和感应论解释，要求每个现象都有清晰的原因链条。因果关系是物质性的相互作用，而非目的论或道德性的感应关系。核心是'相待'——原因和结果之间是物质性的因果关系。",
+      "definition_en": "Mechanical causality: use material causal relations to explain phenomena, requiring clear cause-effect chains. Causal relations are material interactions, not teleological or moral sympathies. Core is 'xiang Dai' (mutual relation/correspondence) - causes and effects have material rather than purposeful or moral connections.",
+      "key_concepts": [
+        "自然之气",
+        "阴阳相待",
+        "感通",
+        "同类相应"
+      ],
+      "process": [
+        "用物质性因果关系解释自然现象",
+        "抛弃道德目的论解释",
+        "建立清晰的原因链条",
+        "从根因出发分析现象机制"
+      ],
+      "modern_applications": [
+        "因果分析",
+        "根因分析",
+        "故障排查",
+        "科学推理"
+      ],
+      "related_modes": [
+        "M03",
+        "M06",
+        "M10"
+      ]
+    },
+    {
+      "id": "M10",
+      "name_zh": "反权威立真法",
+      "name_en": "Anti-Authority Truth-Seeking Method",
+      "mode_code": "M10",
+      "source_chapter": "《北府论衡·立真篇》",
+      "definition_zh": "拒绝将权威、传统或多数人的意见作为真理标准，无论主张来自何处都必须经过独立检验。真理不依赖来源。无论主张来自孔子还是世俗大众，无论是经典记载还是民间传闻，其真伪都需要独立检验。",
+      "definition_en": "Anti-authority truth-seeking: reject authority, tradition, or majority opinion as truth standard. Truth does not depend on its source. Regardless of whether a proposition comes from Confucius or the common people, whether from classical records or folk legends, its truth or falsity requires independent verification.",
+      "key_concepts": [
+        "问孔",
+        "非韩",
+        "刺孟",
+        "违俗",
+        "独立"
+      ],
+      "process": [
+        "拒绝将权威、传统或多数意见作为真理标准",
+        "无论主张来源如何，都必须独立检验",
+        "培养独立思考能力",
+        "在信息过载时代保持认知自主"
+      ],
+      "modern_applications": [
+        "独立思考能力",
+        "权威批判",
+        "认知自主",
+        "反盲从"
+      ],
+      "related_modes": [
+        "M01",
+        "M05",
+        "M09"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "schema_version": "v6",
+  "figure_id": "MENG-001",
+  "figure_name": "孟子",
+  "figure_code": "战国",
+  "phase": "Phase 20",
+  "lifespan": "公元前372年-前289年",
+  "historical_context_zh": "战国中期邹国人，儒家学派最重要的代表人物，被后世尊为'亚圣'。名轲，字子舆（一说）。游历齐、梁、滕、薛诸国推销仁政主张，虽未被采纳却留下最具感染力的论辩文本。其思想以性善论为根基，提出四端之心、仁政学说、民本主义、养气工夫等核心概念。代表作《孟子》七篇，对中国思想影响深远。",
+  "historical_context_en": "Mid-Warring States period, from Zou State, the most important representative of Confucianism, revered as 'Second Sage'. Traveled through Qi, Liang, Teng, Xue states promoting benevolent governance. His thought system is grounded in human nature is good theory, proposing Four Beginnings of Heart, benevolent governance, people-oriented philosophy, and qi-nourishing cultivation. His work 'Mencius' in seven chapters has profound influence on Chinese thought.",
+  "unique_thinking_characteristics_zh": "孟子思维体系以性善论为根基，涵盖人性论、论证方法、政治哲学、修养工夫四大维度。十大独特思维模式：性善本源法(M201)、推恩扩充法(M202)、类比论证法(M203)、诘问诱敌法(M204)、义利之辨法(M205)、民本优先级法(M206)、养气持志法(M207)、归谬反驳法(M208)、时位变通法(M209)、反求诸己法(M210)。五大独特贡献：首次系统论证性善论、创立四端之心道德心理学、发展仁政学说、开创论辩散文传统、提出民本主义政治哲学。",
+  "unique_thinking_characteristics_en": "Mencius' thought system grounded in human nature is good theory, covering four dimensions: human nature theory, argumentation methods, political philosophy, cultivation methodology. Ten unique thinking modes: M201-M210. Five breakthrough contributions: first systematic argument for human nature is good, created Four Beginnings moral psychology, developed benevolent governance doctrine, pioneered argumentative prose tradition, proposed people-oriented political philosophy.",
+  "core_thinking_modes": [
+    {
+      "mode_id": "M201",
+      "name_zh": "性善本源法",
+      "name_en": "Source of Good Nature Method",
+      "domain_zh": "人性论/道德心理学",
+      "definition_zh": "主张人性本善，四端之心（恻隐、羞恶、辞让、是非）是人先天固有的道德潜能，如同四肢般自然存在。",
+      "definition_en": "Argues that human nature is inherently good, with Four Beginnings of Heart (compassion, shame, modesty, right/wrong) as innate moral potentials, as natural as one's limbs.",
+      "source_text_zh": "人性之善也，犹水之就下也。（《孟子·告子上》）",
+      "source_text_en": "The goodness of human nature is like water flowing downward. (Mencius·Gaozi Shang)",
+      "process_zh": [
+        "本体论确认：人性具有先验道德属性",
+        "心理论证：通过情感反应证明道德潜能存在",
+        "反驳机制：以'孺子入井'论证恻隐之心普遍性",
+        "实践应用：在道德教育中激发内在善性"
+      ],
+      "process_en": [
+        "Ontological confirmation: Human nature has a priori moral attributes",
+        "Psychological argument: Prove moral potential through emotional responses",
+        "Refutation mechanism: Use 'child falls into well' to prove universality of compassion",
+        "Practical application: Stimulate inherent goodness in moral education"
+      ],
+      "representative_figures_zh": ["孟子本人", "王阳明", "现代德育工作者"],
+      "representative_figures_en": ["Mencius himself", "Wang Yangming", "Modern moral educators"],
+      "modern_applications_zh": [
+        "组织建设：相信员工有内在善意，激发自驱力",
+        "教育理念：强调潜能开发而非压制约束",
+        "商业伦理：假设合作共赢而非零和博弈"
+      ],
+      "modern_applications_en": [
+        "Organizational building: Trust employees' inherent goodwill, stimulate self-motivation",
+        "Educational philosophy: Emphasize potential development rather than suppression",
+        "Business ethics: Assume win-win cooperation rather than zero-sum games"
+      ]
+    },
+    {
+      "mode_id": "M202",
+      "name_zh": "推恩扩充法",
+      "name_en": "Expanding Kindness Method",
+      "domain_zh": "道德实践/伦理扩展",
+      "definition_zh": "从亲亲之情出发，层层外推至仁民、爱物。老吾老以及人之老，幼吾幼以及人之幼。",
+      "definition_en": "Start from family affection and progressively extend to benevolence toward people and love for all things. Love your own elders as others' elders, love your own children as others' children.",
+      "source_text_zh": "老吾老，以及人之老；幼吾幼，以及人之幼。（《孟子·梁惠王上》）",
+      "source_text_en": "Love your own elders as others' elders; love your own children as others' children. (Mencius·Liang Hui Wang Shang)",
+      "process_zh": [
+        "确认最近情感圈（父母子女）",
+        "扩展至亲友圈（亲戚朋友）",
+        "延伸至社会圈（乡里社区）",
+        "升华至宇宙圈（万物一体）"
+      ],
+      "process_en": [
+        "Confirm closest emotional circle (parents and children)",
+        "Extend to relatives and friends circle",
+        "Extend to social circle (community)",
+        "Sublimate to cosmic circle (unity of all things)"
+      ],
+      "representative_figures_zh": ["孟子", "张载（民胞物与）", "现代CSR实践者"],
+      "representative_figures_en": ["Mencius", "Zhang Zai (people as brothers, all things as companions)", "Modern CSR practitioners"],
+      "modern_applications_zh": [
+        "企业文化：从团队关怀扩展到社会责任",
+        "品牌建设：从用户关怀扩展到价值共鸣",
+        "外交策略：从双边关系到多边合作"
+      ],
+      "modern_applications_en": [
+        "Corporate culture: Extend from team care to social responsibility",
+        "Brand building: Extend from user care to value resonance",
+        "Diplomacy: From bilateral to multilateral cooperation"
+      ]
+    },
+    {
+      "mode_id": "M203",
+      "name_zh": "类比论证法",
+      "name_en": "Analogical Reasoning Method",
+      "domain_zh": "论证方法/认识论",
+      "definition_zh": "通过具体情境或故事的类比揭示抽象道理。善用寓言如揠苗助长、缘木求鱼等。",
+      "definition_en": "Reveal abstract principles through analogies of specific situations or stories. Skilled in using fables like 'pulling seedlings to help them grow', 'climbing a tree to catch fish'.",
+      "source_text_zh": "揠苗助长、缘木求鱼等经典寓言。（《孟子·公孙丑上》）",
+      "source_text_en": "Classic fables like 'pulling seedlings to help them grow', 'climbing a tree to catch fish'. (Mencius·Gongsun Chou Shang)",
+      "process_zh": [
+        "抽象具体化：将抽象道德概念转化为具体场景",
+        "情感共鸣：通过故事引发情感认同",
+        "逻辑直观：避免纯理论论述，增强说服力",
+        "实践迁移：将故事道理应用到实际问题"
+      ],
+      "process_en": [
+        "Concretize abstraction: Transform abstract moral concepts into concrete scenarios",
+        "Emotional resonance: Evoke emotional identification through stories",
+        "Logical intuition: Avoid purely theoretical discourse, enhance persuasion",
+        "Practical transfer: Apply story principles to practical problems"
+      ],
+      "representative_figures_zh": ["孟子", "庄子寓言家", "现代案例教学法专家"],
+      "representative_figures_en": ["Mencius", "Zhuangzi (fable master)", "Modern case teaching experts"],
+      "modern_applications_zh": [
+        "教育培训：用案例教学替代抽象说教",
+        "企业管理：用故事传递价值观而非制度",
+        "政策宣传：用生动比喻替代复杂条文"
+      ],
+      "modern_applications_en": [
+        "Education and training: Use case teaching instead of abstract lecturing",
+        "Enterprise management: Use stories to convey values instead of regulations",
+        "Policy promotion: Use vivid metaphors instead of complex articles"
+      ]
+    },
+    {
+      "mode_id": "M204",
+      "name_zh": "诘问诱敌法",
+      "name_en": "Leading Question Technique",
+      "domain_zh": "论辩方法/对话策略",
+      "definition_zh": "先让对方表态，再通过连续追问引导其陷入逻辑困境，使其自我修正。",
+      "definition_en": "First get the other party to state their position, then through continuous questioning guide them into logical dilemmas, causing self-correction.",
+      "source_text_zh": "王何必曰利？亦有仁义而已矣。（《孟子·梁惠王上》）",
+      "source_text_en": "Why must Your Majesty speak of profit? There is only benevolence and righteousness. (Mencius·Liang Hui Wang Shang)",
+      "process_zh": [
+        "表面认同：让对方首先接受表面合理的前提",
+        "深入追问：通过连续追问揭示内在矛盾",
+        "归谬论证：将对方观点推导至极端荒谬",
+        "自我修正：促使对方主动修正观点"
+      ],
+      "process_en": [
+        "Surface acceptance: Get the other party to accept seemingly reasonable premises first",
+        "Deep questioning: Reveal internal contradictions through continuous questioning",
+        "Reductio ad absurdum: Derive the opponent's views to extreme absurdity",
+        "Self-correction: Encourage the other party to actively correct their views"
+      ],
+      "representative_figures_zh": ["苏格拉底", "现代教练技术", "法律质证专家"],
+      "representative_figures_en": ["Socrates", "Modern coaching techniques", "Legal cross-examination experts"],
+      "modern_applications_zh": [
+        "谈判策略：引导对方先提出条件，再逐步约束",
+        "咨询辅导：通过提问引导客户自己发现问题",
+        "法律辩论：让证人先作证，再通过质询暴露矛盾"
+      ],
+      "modern_applications_en": [
+        "Negotiation strategy: Guide the other party to propose conditions first, then gradually constrain",
+        "Consulting coaching: Guide clients to discover problems themselves through questioning",
+        "Legal debate: Let witnesses testify first, then expose contradictions through cross-examination"
+      ]
+    },
+    {
+      "mode_id": "M205",
+      "name_zh": "义利之辨法",
+      "name_en": "Righteousness-Interest Distinction Method",
+      "domain_zh": "价值判断/伦理决策",
+      "definition_zh": "严格区分道义与功利，主张'先义后利'。当义利冲突时选择义而非利。",
+      "definition_en": "Strictly distinguish between righteousness and utilitarian interests, advocating 'righteousness first, interests later'. Choose righteousness when they conflict.",
+      "source_text_zh": "鱼，我所欲也；熊掌，亦我所欲也。二者不可得兼，舍鱼而取熊掌者也。（《孟子·告子上》）",
+      "source_text_en": "Fish is what I desire; bear's paw is also what I desire. If I cannot have both, I give up the fish and take the bear's paw. (Mencius·Gaozi Shang)",
+      "process_zh": [
+        "价值排序：道义 > 功利",
+        "决策原则：在义利冲突时优先选择道义",
+        "边界识别：区分正当利益与不当功利",
+        "长期视角：考虑行为的长期影响而非短期收益"
+      ],
+      "process_en": [
+        "Value ranking: Righteousness > Utilitarian interests",
+        "Decision principle: Prioritize righteousness when they conflict",
+        "Boundary identification: Distinguish legitimate interests from improper utilitarianism",
+        "Long-term perspective: Consider long-term impact rather than short-term gains"
+      ],
+      "representative_figures_zh": ["孟子", "现代商业伦理学家", "社会企业家"],
+      "representative_figures_en": ["Mencius", "Modern business ethicists", "Social entrepreneurs"],
+      "modern_applications_zh": [
+        "商业决策：短期利益与长期品牌声誉的权衡",
+        "职业选择：薪酬待遇与职业价值观的平衡",
+        "公共政策：经济效益与社会公平的协调"
+      ],
+      "modern_applications_en": [
+        "Business decisions: Balance between short-term interests and long-term brand reputation",
+        "Career choice: Balance between salary and professional values",
+        "Public policy: Coordination between economic benefits and social fairness"
+      ]
+    },
+    {
+      "mode_id": "M206",
+      "name_zh": "民本优先级法",
+      "name_en": "People-First Priority Method",
+      "domain_zh": "政治哲学/治理理论",
+      "definition_zh": "将民众福祉置于最高政治优先级。民为贵，社稷次之，君为轻。",
+      "definition_en": "Place people's welfare as the highest political priority. The people are most important, the state next, the ruler least.",
+      "source_text_zh": "民为贵，社稷次之，君为轻。（《孟子·尽心下》）",
+      "source_text_en": "The people are most important, the state next, the ruler least. (Mencius·Jin Xin Xia)",
+      "process_zh": [
+        "价值排序：民众福祉 > 国家利益 > 君主利益",
+        "制度设计：为民服务的政治制度安排",
+        "监督机制：建立民众参与和监督的制度",
+        "政策评估：以民众满意度为核心指标"
+      ],
+      "process_en": [
+        "Value ranking: People's welfare > State interests > Ruler's interests",
+        "System design: Political system arrangements serving the people",
+        "Supervision mechanism: Establish people's participation and supervision systems",
+        "Policy evaluation: Use people's satisfaction as core indicator"
+      ],
+      "representative_figures_zh": ["孟子", "黄宗羲", "现代治理理论家"],
+      "representative_figures_en": ["Mencius", "Huang Zongxi", "Modern governance theorists"],
+      "modern_applications_zh": [
+        "治理理念：以人民为中心的发展思想",
+        "企业管理：客户至上，员工第二，股东第三",
+        "国际关系：民族自决权优先于国家主权"
+      ],
+      "modern_applications_en": [
+        "Governance philosophy: People-centered development thinking",
+        "Enterprise management: Customers first, employees second, shareholders third",
+        "International relations: National self-determination rights override state sovereignty"
+      ]
+    },
+    {
+      "mode_id": "M207",
+      "name_zh": "养气持志法",
+      "name_en": "Nourishing Qi Method",
+      "domain_zh": "修养工夫/心理韧性",
+      "definition_zh": "通过持续道德实践培育浩然之气，使精神力量不为外物所动。",
+      "definition_en": "Cultivate flood-like qi through continuous moral practice, making spiritual power unmoved by external things.",
+      "source_text_zh": "吾善养吾浩然之气。（《孟子·公孙丑上》）",
+      "source_text_en": "I am good at nourishing my flood-like qi. (Mencius·Gongsun Chou Shang)",
+      "process_zh": [
+        "理论认知：理解浩然之气的本质和形成机制",
+        "道德积累：通过日常道德行为积累'集义'",
+        "内心修养：培养不为外物所扰的内心定力",
+        "实践检验：在考验中验证修养效果"
+      ],
+      "process_en": [
+        "Theoretical cognition: Understand the essence and formation mechanism of flood-like qi",
+        "Moral accumulation: Accumulate 'collecting righteousness' through daily moral behavior",
+        "Inner cultivation: Cultivate inner stability unmoved by external things",
+        "Practical testing: Verify cultivation effects in tests"
+      ],
+      "representative_figures_zh": ["孟子", "王阳明", "现代正念训练专家"],
+      "representative_figures_en": ["Mencius", "Wang Yangming", "Modern mindfulness training experts"],
+      "modern_applications_zh": [
+        "心理韧性：培养抗压能力和情绪管理",
+        "领导力：保持定力，不受外部诱惑",
+        "职业发展：坚守职业操守，不为短期利益所动"
+      ],
+      "modern_applications_en": [
+        "Psychological resilience: Cultivate stress resistance and emotional management",
+        "Leadership: Maintain stability, not tempted by external influences",
+        "Career development: Adhere to professional ethics, not moved by short-term interests"
+      ]
+    },
+    {
+      "mode_id": "M208",
+      "name_zh": "归谬反驳法",
+      "name_en": "Reductio Ad Absurdum Method",
+      "domain_zh": "论证方法/批判思维",
+      "definition_zh": "假设对方观点正确，推导其逻辑后果，若后果荒谬则原观点不成立。",
+      "definition_en": "Assume the opponent's view is correct, derive its logical consequences; if the consequences are absurd, then the original view is invalid.",
+      "source_text_zh": "人性之善也，犹水之就下也。水之于下无所不利。（《孟子·告子上》）",
+      "source_text_en": "The goodness of human nature is like water flowing downward. Water flowing downward is without disadvantage. (Mencius·Gaozi Shang)",
+      "process_zh": [
+        "接受前提：暂时接受对方的立论前提",
+        "推理延伸：按照对方逻辑向前推导",
+        "暴露矛盾：推导出明显荒谬的结论",
+        "否定前提：因此原前提不能成立"
+      ],
+      "process_en": [
+        "Accept premise: Temporarily accept the opponent's argument premise",
+        "Reason extension: Extend forward according to opponent's logic",
+        "Expose contradiction: Derive obviously absurd conclusions",
+        "Deny premise: Therefore the original premise cannot be valid"
+      ],
+      "representative_figures_zh": ["亚里士多德", "现代逻辑学家", "辩论教练"],
+      "representative_figures_en": ["Aristotle", "Modern logicians", "Debate coaches"],
+      "modern_applications_zh": [
+        "科学哲学：通过思想实验检验理论一致性",
+        "逻辑训练：培养批判性思维能力",
+        "辩论比赛：揭示对手观点的内在矛盾"
+      ],
+      "modern_applications_en": [
+        "Philosophy of science: Test theoretical consistency through thought experiments",
+        "Logic training: Cultivate critical thinking skills",
+        "Debate competitions: Reveal internal contradictions in opponents' views"
+      ]
+    },
+    {
+      "mode_id": "M209",
+      "name_zh": "时位变通法",
+      "name_en": "Situational Flexibility Method",
+      "domain_zh": "处世智慧/政治外交",
+      "definition_zh": "根据时势和身份灵活调整行为，可以速则速，可以久则久。",
+      "definition_en": "Flexibly adjust behavior according to circumstances and status; can be fast if needed, can be long-term if needed.",
+      "source_text_zh": "可以速则速，可以久则久，可以夷则夷，可以险则险。（《孟子·万章下》）",
+      "source_text_en": "Can be fast if should be fast, can be long-term if should be long-term, can be peaceful if should be peaceful, can be risky if should be risky. (Mencius·Wan Zhang Xia)",
+      "process_zh": [
+        "环境分析：准确把握时势和条件",
+        "定位识别：明确自身角色和责任边界",
+        "策略选择：根据具体情况选择适当方法",
+        "动态调整：根据形势变化及时调整策略"
+      ],
+      "process_en": [
+        "Environment analysis: Accurately grasp the situation and conditions",
+        "Position identification: Clarify one's role and responsibility boundaries",
+        "Strategy selection: Choose appropriate methods according to specific situations",
+        "Dynamic adjustment: Timely adjust strategies according to changing situations"
+      ],
+      "representative_figures_zh": ["孔子（因材施教）", "诸葛亮（随机应变）", "现代战略管理专家"],
+      "representative_figures_en": ["Confucius (teaching according to aptitude)", "Zhuge Liang (adapting to circumstances)", "Modern strategic management experts"],
+      "modern_applications_zh": [
+        "战略管理：根据市场环境调整发展节奏",
+        "职业规划：根据人生阶段选择发展路径",
+        "国际关系：根据国家实力选择外交策略"
+      ],
+      "modern_applications_en": [
+        "Strategic management: Adjust development pace according to market environment",
+        "Career planning: Choose development paths according to life stages",
+        "International relations: Choose diplomatic strategies according to national strength"
+      ]
+    },
+    {
+      "mode_id": "M210",
+      "name_zh": "反求诸己法",
+      "name_en": "Self-Reflection Method",
+      "domain_zh": "修养工夫/个人成长",
+      "definition_zh": "遇到问题首先反省自身而非责怪他人。行有不得者，皆反求诸己。",
+      "definition_en": "When encountering problems, first reflect on oneself rather than blaming others. When actions fail, examine oneself first.",
+      "source_text_zh": "行有不得者，皆反求诸己。（《孟子·离娄上》）",
+      "source_text_en": "When actions fail, examine oneself first. (Mencius·Li Lou Shang)",
+      "process_zh": [
+        "情境感知：识别问题和挑战的性质",
+        "内省反思：从自身找问题根源",
+        "责任承担：主动承担解决问题的责任",
+        "持续改进：在行动中不断完善自我"
+      ],
+      "process_en": [
+        "Situational awareness: Recognize the nature of problems and challenges",
+        "Introspection: Find the root cause from oneself",
+        "Responsibility assumption: Proactively take responsibility for solving problems",
+        "Continuous improvement: Continuously improve oneself in actions"
+      ],
+      "representative_figures_zh": ["孔子", "王阳明（知行合一）", "现代认知行为治疗师"],
+      "representative_figures_en": ["Confucius", "Wang Yangming (unity of knowledge and action)", "Modern cognitive behavioral therapists"],
+      "modern_applications_zh": [
+        "团队管理：员工绩效不佳时先检视管理问题",
+        "失败分析：项目失败时反思自身决策失误",
+        "个人成长：挫折时从自身找改进方向"
+      ],
+      "modern_applications_en": [
+        "Team management: When employee performance is poor, first examine management issues",
+        "Failure analysis: When projects fail, reflect on one's own decision-making errors",
+        "Personal growth: When encountering setbacks, find improvement directions from oneself"
+      ]
+    }
+  ],
+  "modes": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210],
+  "nationality": "中国",
+  "civilization_sphere": "中华/东亚",
+  "time_period_standardized": "公元前372年-前289年",
+  "primary_language": "汉语/古汉语",
+  "intellectual_tradition": "儒家思想/性善论/仁政学说",
+  "cross_cultural_impact": "影响宋明理学/朝鲜性理学/日本朱子学/法国启蒙思想家/当代新儒家",
+  "steps_zh": [
+    "确立性善根基——用「性善本源法」确认人人固有四端之心",
+    "推恩扩充——由亲亲而仁民，再由仁民而爱物",
+    "义利辨析——严格区分道德价值与功利计算，先义后利",
+    "类比论证——通过寓言故事将抽象道理具象化",
+    "诘问诱导——引导对方先表态，再揭示其立场的内在矛盾",
+    "民本排序——将民众福祉置于国家利益之上",
+    "养气持志——通过道德实践培育浩然之气，使意志不为外物所动",
+    "归谬反驳——推导对手观点的逻辑后果，揭示矛盾",
+    "时位变通——根据时势与身份灵活调整行为方式",
+    "反求诸己——遇挫败时首先反省自身"
+  ],
+  "steps_en": [
+    "Establish Good-Nature Foundation — confirm innate Four Beginnings in all humans",
+    "Expand Kindness — extend from family to people to all things",
+    "Distinguish Righteous-Interest — strictly separate moral value from utilitarian calculation",
+    "Analogical Argumentation — concretize abstract principles through fable stories",
+    "Leading Question — guide opponent to state position first, reveal contradictions",
+    "People-First Priority — place people's welfare above state interest",
+    "Nourish Qi and Maintain Resolve — cultivate flood-like qi through moral practice",
+    "Reductio Ad Absurdum — derive logical consequences of opponents' views, reveal contradictions",
+    "Situational Flexibility — adapt behavior according to circumstances and status",
+    "Self-Reflection — examine oneself first when encountering setbacks"
+  ],
+  "representative_cases_zh": "孟子与梁惠王论义利之辨：「王何必曰利？亦有仁义而已矣」；与告子辩论人性问题：「人性之善也，犹水之就下也」；见齐宣王以羊易牛指出其有不忍人之心：「是心足以王矣」；提出「庖有肥肉，县有肥马，民有饥色，野有饿殍，此率兽而食人也」；「民为贵，社稷次之，君为轻」的民本宣言。",
+  "representative_cases_en": "Mencius debated King Hui of Liang on righteousness vs interest ('Why must Your Majesty speak of profit? There is only benevolence and righteousness'); debated Gaoza on human nature ('The goodness of human nature is like water flowing downward'); observed King Xuan of Qi substituting sheep for ox, identifying his compassion ('This heart is sufficient for kingly governance'); issued sharp criticism about fat meat in kitchens with starving people in fields; the revolutionary declaration 'The people are most important, the state next, the ruler least.'",
+  "comparative_analysis_zh": "与孔子性相近论相呼应但更系统地论证人性本善；与荀子性恶论直接对立（四端之心vs化性起伪）；与墨子兼爱相对（差等之爱vs无差别的兼爱）；与杨朱为我形成对立（人人不损一毫vs推恩扩充）；与法家严刑峻法相对（仁政vs法治）。",
+  "comparative_analysis_en": "Echoes Confucius' nature-near theory but provides systematic argument for human goodness; directly opposes Xunzi's nature-evil (Four Beginnings vs transforming nature); contrasts with Mohist universal love (graded love vs equal love); opposes Yang Zhu's egoism (everyone not harming a hair vs expanding kindness); differs from Legalist strict laws (benevolent governance vs rule of law).",
+  "contemporary_relevance_zh": "性善论为道德教育提供理论基础；四端说提示道德情感的重要性；义利之辨为商业伦理提供框架；民本思想为民主理论提供本土资源；养气法为心理韧性训练提供传统智慧；反求诸己法与内控型人格概念高度吻合。",
+  "contemporary_relevance_en": "Human nature is good theory provides foundation for moral education; Four Beginnings highlights importance of moral intuition; Righteousness-Interest Distinction frames business ethics; People-first thought provides indigenous resource for democratic theory; Qi-nourishing offers traditional wisdom for psychological resilience training; Self-Reflection aligns with internal locus of control concept.",
+  "meta": {
+    "created_at": "2026-09-02",
+    "phase": "Phase 20",
+    "research_type": "深度挖掘",
+    "schema_version": "v6",
+    "status": "completed",
+    "unique_characteristics": [
+      "性善论的完整哲学论证",
+      "四端之心的道德心理学开创",
+      "民本主义政治哲学革命",
+      "论辩散文传统的系统确立",
+      "养气工夫修养体系的创造性发展"
+    ],
+    "innovative_breakthroughs": [
+      "首次系统论证性善论",
+      "创立四端之心道德心理学体系",
+      "提出民贵君轻政治哲学",
+      "开创论辩散文文学传统",
+      "发展养气工夫修养体系"
+    ],
+    "dimensional_breakthroughs": {
+      "人性论维度": "建立了最系统的性善论伦理体系",
+      "方法论维度": "发展了对话式论辩和情境化推理",
+      "政治哲学维度": "首次确立民本优先级的价值排序",
+      "修养工夫维度": "创建了浩然之气培育方法论"
+    },
+    "modern_adaptation_potential": {
+      "个人成长": "心理韧性训练和内省修养",
+      "组织管理": "团队建设和领导力发展",
+      "社会治理": "民本思想和价值导向治理",
+      "教育创新": "道德情感教育和案例教学方法"
+    }
+  }
+}

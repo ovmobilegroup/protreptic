@@ -1,0 +1,549 @@
+{
+  "schema_version": "v6",
+  "figure_id": "H-JSX-001",
+  "figure_name": "贾思勰",
+  "figure_code": "H-JSX-001",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-JSX-001",
+      "mode_code": "M-JSX-001",
+      "name_zh": "采阅兼收法",
+      "name_en": "Comprehensive Gathering Method (Collect-Verify-Sift)",
+      "category": "知识工程",
+      "domain_zh": "文献搜集/田野采录",
+      "domain_en": "Literature Gathering / Field Collection",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "把写作的第一步定义为'采'而不是'写'：《齐民要术》自序明言'采捃经传，爰及歌谣，询之老成，验之行事'——文献、民谣、老农经验、亲身验证四条渠道并行取材。要害有三：其一，多源并进——经传给框架，歌谣给民间智慧，老成给隐性知识，行事给实证裁决，缺一不可；其二，雅俗并收——圣贤之言与贩夫走卒的经验同列证据席，'鄙夫'之谈可入正典；其三，搜集先于裁断——先把材料穷尽摊开，再逐条检验取舍。方法论签名：一部可靠的体系，四分靠案头，六分靠跑腿。",
+      "definition_en": "Make 'gathering,' not 'writing,' the first act: the Qimin Yaoshu preface declares the method plainly—collect from classics and commentaries, extend to folk songs, question the experienced elders, verify by practice. Four channels run in parallel: texts give frameworks, folk rhymes give vernacular wisdom, elders give tacit knowledge, deeds give adjudication. Elite and popular evidence sit at the same table—a 'vulgar fellow's' remark can enter the canon. Gather exhaustively before judging. Signature: a reliable system is forty percent desk work and sixty percent legwork.",
+      "source_chapter": "《齐民要术·自序》",
+      "key_concepts": ["采捃经传", "爰及歌谣", "询之老成", "验之行事", "多源取证"],
+      "process_zh": [
+        "穷尽经传文献，凡与本题相关者尽录为底本",
+        "下行采集：谚语、歌谣、农谚等民间口头智慧单独成档",
+        "访谈'老成'——有数十年实操经验者，记录其条件与分寸",
+        "四源对勘后再裁断取舍，注明每条材料的来源等级"
+      ],
+      "process_en": [
+        "Exhaust the literature first: record every pertinent passage as the baseline corpus",
+        "Collect downward: folk sayings and agricultural rhymes filed as a separate vernacular dossier",
+        "Interview the experienced—those with decades of hands-on practice—noting their conditions and judgment calls",
+        "Cross-check all four sources before adjudicating, annotating each item's provenance grade"
+      ],
+      "key_quote_zh": "采捃经传，爰及歌谣，询之老成，验之行事。",
+      "key_quote_en": "Gather from the classics, extend to folk songs, question the experienced, verify by deeds.",
+      "representative_cases_zh": [
+        "《齐民要术》成书架构：全书十卷九十二篇，每篇先引经传（'《汉书》曰'），继引农谚（'耕锄不以水旱息功'），再记老农口诀，最后以贾氏亲验注断——四源并见的条目体例贯穿全书",
+        "收谚三百余条：'湿耕泽锄，不如归去'等农谚被原样收入正文并注用法——民间口语获得与经典同等的文献地位",
+        "记'老成'经验：种葵篇记老农'数 jardiner 岁收倍常'式的分寸诀窍，注明系访谈所得而非文献",
+        "反例警示：凡只抄文献不验之行事者（如《氾胜之书》中部分未经验数字），贾氏多注'未试'或'试之不验'——多源中若独缺'行事'一环，可信度即降级"
+      ],
+      "representative_cases_en": [
+        "Architecture of the Qimin Yaoshu: across its ten juan and ninety-two chapters, each entry first cites the classics, then agricultural rhymes, then elders' oral formulas, finally Jia's own verification—a four-source clause pattern sustained through the whole book",
+        "Three hundred rhymes collected: vernacular sayings like 'hoeing wet ground beats going home' entered verbatim with usage notes—folk speech granted equal documentary standing with the classics",
+        "Recording the experienced: the sunflower-cultivation chapter preserves elders' knack-level judgment (timing, spacing) explicitly marked as interview material, not texts",
+        "Counter-case: unverified numbers from the Fansheng zhi Shu are frequently flagged 'untested' or 'tried and failed'—missing the deeds channel demotes credibility"
+      ],
+      "modern_applications_zh": [
+        "系统综述与田野调查结合的研究设计",
+        "口述史与隐性知识管理（师傅带徒弟的知识萃取）",
+        "多源数据三角验证",
+        "知识库建设中的来源分级标注"
+      ],
+      "modern_applications_en": [
+        "Systematic review combined with fieldwork design",
+        "Oral history and tacit-knowledge harvesting (apprenticeship knowledge extraction)",
+        "Multi-source triangulation",
+        "Provenance grading in knowledge base construction"
+      ],
+      "related_modes": ["M-JSX-002", "M-JSX-003", "M-SMQ-319"]
+    },
+    {
+      "id": "M-JSX-002",
+      "mode_code": "M-JSX-002",
+      "name_zh": "验之行事法",
+      "name_en": "Verification-By-Practice Method",
+      "category": "科学方法",
+      "domain_zh": "实证检验/试错裁决",
+      "domain_en": "Empirical Verification / Trial Adjudication",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "把'亲身做过'作为记载的前提：贾思勰对每条技术坚持'验之行事'——自己的试验田、自家蓄养的家畜、亲历的酿造，都是裁决文献争执的终审法庭。要害有三：其一，试验优先于权威——《氾胜之书》说的不对，就以自己'躬亲经营'的结果改正；其二，记载成败而非只记成功——'试为之，无事'与'试之不验'都原样入书，失败本身是数据；其三，条件绑定——每条验证都注明土壤、时令、地域，使结论可迁移也可限定。方法论签名：文献可以吵架，田里只有一个答案。",
+      "definition_en": "Make 'having done it oneself' the precondition of recording: for every technique, Jia Sixie insists on verification by practice—his own trial fields, his own livestock, his own fermentations are the court of final appeal over textual disputes. Trials outrank authority (where the Fansheng zhi Shu errs, his personally managed results correct it); record failures as well as successes ('tried it, nothing came of it' enters the text like any yield figure); and bind conclusions to conditions—soil, season, region noted for every verification, so results transfer but do not overreach. Signature: books may quarrel; the field gives only one answer.",
+      "source_chapter": "《齐民要术·自序》'验之行事'；《齐民要术》种谷、养牛等篇注文",
+      "key_concepts": ["验之行事", "躬亲经营", "试错记载", "条件绑定", "成败并书"],
+      "process_zh": [
+        "凡采到可疑或互相矛盾的技术说法，列为待验条目",
+        "在自家条件可及处设试验：试种、试养、试酿，控制单一变量",
+        "如实记录过程与结果，成功失败并书，注明条件（土壤/时令/地域）",
+        "以验证结果裁决文献争端，改正或标注'未试'存疑"
+      ],
+      "process_en": [
+        "List every doubtful or contradictory technique claim as pending verification",
+        "Set up trials within reach: test plots, test herds, test brews, one variable at a time",
+        "Record process and outcome honestly, success and failure alike, with conditions (soil/season/region) noted",
+        "Adjudicate textual disputes by trial results—correct, or flag 'untested' and suspend"
+      ],
+      "key_quote_zh": "智如禹汤，不如尝更。",
+      "key_quote_en": "Be you as wise as Yu or Tang, it is no substitute for having tried.",
+      "representative_cases_zh": [
+        "养羊篇：'余昔有羊二百口，茭豆既少，无以饲，一岁之中，遂死大半'——先自记失败教训，再从失败中总结出贮刍定量的规程，失败数据成为技术来源",
+        "种谷篇正《氾胜之书》：凡贾氏试之有效者注明'试种之，收常倍'，试之不验者直言'试之，不如此说'——对权威文献逐条裁决而非整体信从",
+        "酿酒曲法：以自家多次酿造记录'迩来曲酒，无有不投香者'的条件序列，把口传的酿造分寸转为可复现的定量步骤",
+        "反例警示：书中转引未验的方术（如某些辟谷、攘除法）多加贬抑性按语——绕过'验之行事'一环的内容被明确降级为存疑"
+      ],
+      "representative_cases_en": [
+        "Sheep husbandry: 'I once kept two hundred sheep; fodder ran short and half died within a year'—his own recorded failure becomes the basis for the fodder-storage protocol; failure data feeding technique",
+        "Grain chapter vs. the Fansheng zhi Shu: where his trials confirmed, he notes 'repeatedly tried, yields doubled'; where they failed, 'tried it—not as the book says.' Line-by-line adjudication, never wholesale deference",
+        "Fermentation starters: his own brewing records turn oral know-how into reproducible, quantified step sequences with condition notes",
+        "Counter-case: imported spells and regimens are given dismissive annotations—anything bypassing practice-based verification is explicitly demoted"
+      ],
+      "modern_applications_zh": [
+        "田间试验/对照实验设计传统",
+        "最佳实践的失败案例库（post-mortem 文化）",
+        "技术报告中的条件限定与适用边界",
+        "用试点数据裁决专家争论"
+      ],
+      "modern_applications_en": [
+        "Field-trial and controlled-experiment tradition",
+        "Failure libraries and post-mortem culture in best-practice management",
+        "Condition-bounded claims in technical reports",
+        "Settling expert disputes with pilot data"
+      ],
+      "related_modes": ["M-JSX-001", "M-JSX-004", "M-SK-002"]
+    },
+    {
+      "id": "M-JSX-003",
+      "mode_code": "M-JSX-003",
+      "name_zh": "时令物候法",
+      "name_en": "Phenological Timing Method",
+      "category": "系统方法",
+      "domain_zh": "农时系统/物候学",
+      "domain_en": "Agricultural Timing / Phenology",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "把'何时做'提到'如何做'之上：贾思勰不写死日期，而以物候为农时坐标——'枣生叶可以种大豆'，用活物的物候信号替代僵硬的历法日历。要害有三：其一，以物候对冲历法漂移——节气因年地而变，杏始华、蝉始鸣这类生物钟不会；其二，上时/中时/下时分层——同一作业给出最优、次优、最晚窗口，把经验变成带容差的调度表；其三，时令与地力联动——同一作物因土地肥瘠而农时不同，时间决策嵌入空间条件。方法论签名：日历是死的，杏花开是活的——用活物做时钟。",
+      "definition_en": "Elevate 'when' above 'how': Jia Sixie never pins dates, but uses phenology as the coordinate of farm time—'when the jujube leafs out, plant soybeans,' living signals replacing the rigid calendar. Phenology hedges calendar drift (solar terms shift, but first jujube leaves and first cicada song do not); the best/secondary/latest window scheme turns experience into a scheduling table with tolerance; and timing couples with land quality—the same crop sown by different schedules on rich versus poor soil. Signature: the calendar is dead; the apricot blossoming is alive—use a living thing as your clock.",
+      "source_chapter": "《齐民要术》种谷、大豆、种枣等篇农时条",
+      "key_concepts": ["物候农时", "上时中时下时", "生物钟", "农时容差", "时地联动"],
+      "process_zh": [
+        "为每项作业征集多元时间信号：节气、物候（他种生物的状态）、土验",
+        "把信号编为上时/中时/下时三层窗口，注明各层产量代价",
+        "按当年物候实测对表校准，而非机械照搬日期",
+        "时令决策与地块条件（肥瘠、高下、燥湿）联合查表"
+      ],
+      "process_en": [
+        "Collect plural time signals for each operation: solar terms, phenology (other organisms' states), soil tests",
+        "Encode signals into best/secondary/latest window tiers with yield costs for each",
+        "Calibrate against that year's actual phenology, never mechanically copy dates",
+        "Look up timing jointly with plot conditions (fertility, elevation, moisture)"
+      ],
+      "key_quote_zh": "顺天时，量地利，则用力少而成功多。",
+      "key_quote_en": "Follow heaven's timing and measure the land's advantage: less effort, greater success.",
+      "representative_cases_zh": [
+        "种大豆：'三月榆荚时有雨，高田强土种之'——以榆荚物候定播期，兼配地形土壤条件，一结论三变量",
+        "上时/中时/下时体例：种谷'二月上时，三月上时为中，四月上时为下'——直接给出迟到 penalty 的经验调度表，两千年后仍是播种决策原型",
+        "枣树嫁接：'候枣叶始生而移之'——用砧木物候替代历法，使华北各地皆可因地实施",
+        "反例警示：凡忽视物候硬套节气的做法（如'社日种豆'之类教条），贾氏皆注'不必尽依'——只看日历不看活物，是农时失误的主因"
+      ],
+      "representative_cases_en": [
+        "Soybeans: 'when elm samaras fall with rain in the third month, sow the high fertile fields'—phenology sets the date while terrain and soil gate the decision: one conclusion, three variables",
+        "The best/secondary/latest tier scheme: grain 'second month best, third month middling, fourth month latest'—an empirical scheduling table with an explicit lateness penalty, still the prototype of sowing decisions two millennia on",
+        "Jujube grafting: 'wait for the jujube's first leafing, then transplant'—rootstock phenology replaces the calendar, making the technique portable across North China",
+        "Counter-case: calendar-fetish practices like 'sow beans on the she day' are annotated 'need not be strictly followed'—watching the calendar while ignoring living signals is the root of timing errors"
+      ],
+      "modern_applications_zh": [
+        "物候学与现代精准农业的播期预报",
+        "项目管理的时窗与里程碑容差设计",
+        "基于自然信号的调度（依赖外部系统状态的触发器）",
+        "物候观测网络（PeCAN、国际物候花园）"
+      ],
+      "modern_applications_en": [
+        "Phenology-based sowing forecasts in precision agriculture",
+        "Time windows and milestone tolerance in project scheduling",
+        "Triggers keyed to external system states instead of fixed dates",
+        "Phenological observation networks and citizen-science garden networks"
+      ],
+      "related_modes": ["M-JSX-004", "M-JSX-006", "M-SK-003"]
+    },
+    {
+      "id": "M-JSX-004",
+      "mode_code": "M-JSX-004",
+      "name_zh": "因地制宜法",
+      "name_en": "Terrain-Adaptive Method",
+      "category": "系统方法",
+      "domain_zh": "地宜决策/空间适配",
+      "domain_en": "Land Suitability / Spatial Adaptation",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "技术必须与地块匹配才能成立：贾思勰对每种作物列出'良田薄田'两套参数——同一品种，肥地密植、薄地稀植；高地种茭、下湿种稻。要害有三：其一，无普适处方，只有条件函数——每条技术都写成'若地如何，则如何'的分支；其二，以地力定价劳力——地薄则多功，地良则省功，投入产出按地块重算；其三，边界诚实——凡超出其地理经验的建议，注明'此语未详北方'之类存疑。方法论签名：把每条技术写成条件分支，而不是一道四海皆准的圣旨。",
+      "definition_en": "A technique exists only matched to its ground: for every crop Jia lists twin parameter sets for fertile and poor fields—the same variety sown thick on good land, thin on poor; reeds on high ground, rice in wet lowland. There is no universal prescription, only a conditional function—every technique written as 'if the land is such, then such'; labor is priced by land quality (poor ground demands more work, good ground less, with input-output recalculated per plot); and he is honest about limits, annotating advice beyond his geographic experience as 'unclear for the north.' Signature: write every technique as a branch, not an empire-wide decree.",
+      "source_chapter": "《齐民要术》种谷'良田薄田'条、水稻、种葵等篇",
+      "key_concepts": ["良田薄田", "条件分支", "地力定价", "空间适配", "适用边界"],
+      "process_zh": [
+        "对每项技术先列地块变量：肥瘠、高下、燥湿、土性",
+        "为每类地块给出对应参数（密度、播量、肥料、农时）",
+        "按地块条件分支表述技术，避免一刀切处方",
+        "标明结论的地理适用范围，域外经验注明存疑"
+      ],
+      "process_en": [
+        "List plot variables for each technique first: fertility, elevation, moisture, soil type",
+        "Give matching parameters per land class (density, seeding rate, manure, timing)",
+        "State techniques as branches by plot condition, never one-size prescriptions",
+        "Mark each conclusion's geographic scope; flag out-of-region advice as uncertain"
+      ],
+      "key_quote_zh": "地势有良薄，寒暖不一，则收成有差。",
+      "key_quote_en": "Land varies in richness and climate; therefore yields differ.",
+      "representative_cases_zh": [
+        "种谷密度分支：'良田一亩用子五升，薄田三升'——以地力定播量的量化分支，是该法最简明的原型",
+        "水稻选地：'下湿田种稻，高田种茭'——把不同作物分配到不同地形，形成地块-作物匹配矩阵",
+        "葵与芜菁的空间调度：良田市卖、薄田自给的双轨安排——同一物种按地块定位不同经济功能",
+        "反例警示：对南方传来的种法，注明'北土未试'或'未详'——未经验的空间外推被显式隔离，防止技术跨区误用"
+      ],
+      "representative_cases_en": [
+        "Grain seeding branches: 'five sheng of seed per mu on good land, three on poor'—a quantitative land-quality branch, the method in its simplest form",
+        "Crop placement: rice in wet lowland, reeds on high ground—a plot-crop matching matrix",
+        "Dual-track mallows and turnips: fertile fields feed market sales, poor fields household supply—one species, different economic functions by ground",
+        "Counter-case: southern techniques annotated 'untested in northern soil'—unverified spatial extrapolation explicitly quarantined"
+      ],
+      "modern_applications_zh": [
+        "变量施肥/精准农业的处方图",
+        "A/B 测试与分层实验的条件分支思维",
+        "异地复制业务时的本地化参数调校",
+        "适用边界声明与反面清单写作"
+      ],
+      "modern_applications_en": [
+        "Prescription maps and variable-rate application in precision agriculture",
+        "Conditional branching in A/B tests and stratified experiments",
+        "Localization parameter tuning when replicating a business across regions",
+        "Scope-of-validity statements and negative-list writing"
+      ],
+      "related_modes": ["M-JSX-003", "M-JSX-005", "M-JSX-001"]
+    },
+    {
+      "id": "M-JSX-005",
+      "mode_code": "M-JSX-005",
+      "name_zh": "轮作养地法",
+      "name_en": "Crop-Rotation Soil Husbandry Method",
+      "category": "系统方法",
+      "domain_zh": "生态系统/长周期收益",
+      "domain_en": "Ecological Systems / Long-Cycle Returns",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "把土地当可再生的资本而不是一次性收入：贾思勰系统给出轮作序列——谷后种麦、麦后种豆，豆类肥田、连作减产（'凡谷田，绿豆为上底'），并明确'凡美田之法，绿豆为上'的绿肥规程。要害有三：其一，识别地力的隐形负债——连作的减产不显于当年而显于次年，须跨年记账；其二，以豆固氮的实证选择——比较谷、瓜、豆等前茬产量后排出优劣序；其三，休养与生产循环设计——美田之法把'不收获的种植'变成下一轮的投资。方法论签名：今年的收成是去年的安排——对慢变量的投资才是高手的下注。",
+      "definition_en": "Treat land as renewable capital, not one-shot income: Jia systematizes rotation sequences—millet then wheat then beans—beans enrich the soil while continuous cropping depletes it ('green beans as the best predecessor'), with green manuring codified ('of soil-enriching crops, green beans are best'). Three essentials: recognize soil's hidden liabilities (continuous-cropping losses show next year, so book across seasons); rank predecessors empirically by comparing successor-crop yields; and design rest-production cycles, turning 'planting without harvest' into investment for the next round. Signature: this year's harvest is last year's arrangement—betting on slow variables is the master's wager.",
+      "source_chapter": "《齐民要术》种谷'底'法、耕田篇美田之法",
+      "key_concepts": ["轮作倒茬", "绿肥", "连作减产", "地力负债", "长周期循环"],
+      "process_zh": [
+        "为每块地建立跨年前茬-后茬台账，而非只看当年产量",
+        "比较不同前茬之下后作产量，排出优劣序（绿豆为上底）",
+        "用绿肥作物把休养期转为投资期（美田之法）",
+        "设定禁连作清单，把'不可连种'写为硬约束"
+      ],
+      "process_en": [
+        "Keep a multi-year predecessor-successor ledger per plot, not just annual yield",
+        "Rank predecessors by successor yields (green beans best)",
+        "Convert rest periods into investment via green-manure crops (the soil-enriching method)",
+        "Set a forbidden-continuous-cropping list as hard constraints"
+      ],
+      "key_quote_zh": "凡谷田，绿豆为上底，小豆、胡麻次之。",
+      "key_quote_en": "For millet fields, green beans are the best predecessor, small beans and sesame next.",
+      "representative_cases_zh": [
+        "前茬优劣序：以绿豆为上底、小豆胡麻次之、凡为下底——用后作产量对比实验排出的序列，早于西方轮作实验千年",
+        "瓜不宜连作：'瓜田不重茬'并以种过麻地的地胜——把连作障碍（今知为土传病害）转为操作禁忌",
+        "美田之法：夏五月种绿豆，七月犁杀之——一季不收换数年之肥，绿肥的时间投资模型",
+        "反例警示：只顾当年产量连种谷子的做法被明确否定——不计慢变量负债的决策，正是该法针对的失败模式"
+      ],
+      "representative_cases_en": [
+        "Predecessor ranking: green beans best, small beans and sesame next, common worst—derived from successor-yield comparison trials, a millennium before Western rotation experiments",
+        "Melons must not follow melons; ground after hemp is better—continuous-cropping obstacles (now understood as soil-borne disease) converted into operational taboos",
+        "The soil-enriching method: sow green beans in high summer, plow them under in the seventh month—one season of no harvest traded for years of fertility, a temporal investment model",
+        "Counter-case: chasing this year's yield by continuous millet is explicitly rejected—the exact failure mode of ignoring slow-variable liabilities"
+      ],
+      "modern_applications_zh": [
+        "轮作与保护性农业的制度设计",
+        "技术债/组织负债的跨期记账思维",
+        "可持续经营中的长周期投资决策",
+        "土壤碳汇与再生农业实践"
+      ],
+      "modern_applications_en": [
+        "Rotation design and conservation agriculture institutions",
+        "Cross-period accounting for technical and organizational debt",
+        "Long-cycle investment decisions in sustainable operations",
+        "Soil carbon sequestration and regenerative agriculture"
+      ],
+      "related_modes": ["M-JSX-004", "M-JSX-006", "M-JSX-002"]
+    },
+    {
+      "id": "M-JSX-006",
+      "mode_code": "M-JSX-006",
+      "name_zh": "定量规程法",
+      "name_en": "Quantified-Protocol Method",
+      "category": "工程方法",
+      "domain_zh": "技术标准化/可复现工艺",
+      "domain_en": "Technique Standardization / Reproducible Craft",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "把'手艺'翻译为'规程'：贾思勰写技术不满足于'适量''火候适度'，而给出可复现的数字——'种葵：一亩用子三升''酿醋：春酿一石秫米，用曲一斗'，把依赖师傅手腕的隐性知识转为可传抄的显性参数。要害有三：其一，数字优先——凡可量化处必给数；其二，步骤原子化——复杂工艺拆为编号步骤序列，前后有序不可颠倒；其三，参数随条件给出系数表——同一工艺在不同季节、不同量级下按比例调整。方法论签名：不能传抄的手艺会死在师傅手里——显性化是手艺的成人礼。",
+      "definition_en": "Translate craft into protocol: Jia is unsatisfied with 'to taste' and 'proper heat'—he gives reproducible numbers ('mallows: three sheng of seed per mu'; 'one dan of glutinous rice to one dou of starter for vinegar'), converting tacit master-hand knowledge into explicit, copyable parameters. Numbers first wherever quantification is possible; steps atomized into ordered sequences that cannot be shuffled; and coefficient tables adjusting parameters by season and batch scale. Signature: a craft that cannot be copied dies with its master—explicitness is craft's rite of passage.",
+      "source_chapter": "《齐民要术》种葵、造曲并酒、作醋等篇",
+      "key_concepts": ["定量参数", "步骤原子化", "工艺显性化", "系数表", "可复现性"],
+      "process_zh": [
+        "把每项工艺从口头经验转写为编号步骤序列",
+        "凡可量化处给出数字参数（用量、时辰、温度类比物）",
+        "为参数配条件系数：季节、规模、地域的调整规则",
+        "以他人按书重做的成功验证规程完备性"
+      ],
+      "process_en": [
+        "Transcribe every craft from oral experience into numbered step sequences",
+        "Give numeric parameters wherever possible (quantities, durations, temperature by proxy objects)",
+        "Attach conditional coefficients: adjustment rules for season, scale, region",
+        "Validate the protocol by others' successful reproduction from the text alone"
+      ],
+      "key_quote_zh": "起自耕农，终于醯醢，资生之业，靡不毕书。",
+      "key_quote_en": "From tillage to sauces: every livelihood-sustaining craft, written down complete.",
+      "representative_cases_zh": [
+        "酿酒曲法：'用曲一斗，水一石，秋酿酸永在不投'级别的配比与季节调整表——把酿造从玄学变为化学计量，后世曲法皆祖于此",
+        "种葵定量：'一亩用子三升，粪一车'——播种与施肥皆给数，使初学者第一年即可达老农水平",
+        "作酢（醋）二十余法分档：按原料、季节、批次规模给出完整参数矩阵，同一产品多条件可复现",
+        "反例警示：书中批评'师心作法，不肯书示'的秘方之风——隐匿参数导致工艺失传，正是显性化要破除的失败模式"
+      ],
+      "representative_cases_en": [
+        "Brewing starters: ratio tables ('one dou of starter to one dan of water') with seasonal adjustments—fermentation turned from alchemy into stoichiometry; later starter methods all descend from this",
+        "Mallows quantified: 'three sheng of seed and one cart of manure per mu'—numbers for sowing and manuring put a novice near veteran level in year one",
+        "Twenty-plus vinegar protocols tiered by ingredient, season, and batch scale—a full parameter matrix making one product reproducible under many conditions",
+        "Counter-case: he censures the secret-recipe culture of 'working by private judgment and refusing to write it down'—hidden parameters kill crafts; explicitness is the cure"
+      ],
+      "modern_applications_zh": [
+        "SOP 与作业指导书编写规范",
+        "菜谱化知识管理（可复现的流程文档）",
+        "开放源码/开源硬件的配方公开文化",
+        "工艺参数表与六西格玛标准化"
+      ],
+      "modern_applications_en": [
+        "SOP and work-instruction authoring standards",
+        "Recipe-form knowledge management (reproducible process docs)",
+        "Open-source recipes and open-hardware publication culture",
+        "Parameter sheets and Six Sigma standardization"
+      ],
+      "related_modes": ["M-JSX-007", "M-JSX-002", "M-JSX-010"]
+    },
+    {
+      "id": "M-JSX-007",
+      "mode_code": "M-JSX-007",
+      "name_zh": "系统整合法",
+      "name_en": "Whole-System Integration Method",
+      "category": "系统方法",
+      "domain_zh": "产业链整合/生态位设计",
+      "domain_en": "Value-Chain Integration / Niche Design",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "把农庄当闭环系统而非孤立田块：贾思勰的条目按产业链组织——作物连着加工（葡萄作酒、枣作脯）、加工连着销售（'去城郭近，务须多种'的区位论）、副产连着循环（秸秆养畜、畜粪肥田）。要害有三：其一，环节间强耦合——上游决策以下游消化能力为约束；其二，副产物零废弃设计——每一环节的'废'都是下一环节的'料'；其三，区位经济学——按距市场远近安排品种结构，整合从田头到厨下到市集的全程。方法论签名：高手不优化一个环节，而是设计一条链。",
+      "definition_en": "Treat the farm as a closed loop, not isolated plots: Jia organizes entries by value chain—crops into processing (grapes to wine, jujubes to dried fruit), processing into sales (a location theory: 'near the market, plant more'), byproducts into cycles (stalks feed livestock, manure feeds fields). Upstream decisions are constrained by downstream absorption; every环节's waste is the next one's feedstock in a zero-waste design; and location economics structures varieties by distance to market—integrating the whole span from field to kitchen to fair. Signature: masters optimize no single step; they design the chain.",
+      "source_chapter": "《齐民要术》种葵'去城郭近'条、序及各篇加工条目",
+      "key_concepts": ["产业链闭环", "副产物循环", "区位决策", "零废弃", "系统耦合"],
+      "process_zh": [
+        "绘制从生产到加工到销售的完整环节图",
+        "以市场距离与消化能力约束上游种植结构",
+        "为每环节的副产物寻找下一环节的去处",
+        "检验闭环：任何一环的外购依赖或废弃都是待修复点"
+      ],
+      "process_en": [
+        "Map the full chain from production through processing to sales",
+        "Constrain upstream planting structure by market distance and absorption capacity",
+        "Find each byproduct its downstream home",
+        "Audit the loop: any external purchase or waste stream marks a repair point"
+      ],
+      "key_quote_zh": "去城郭近，务须多种瓜、菜、葵；去城郭远，务须多种桑、麻。",
+      "key_quote_en": "Near the city walls, plant melons, vegetables, and mallows aplenty; far from them, mulberries and hemp.",
+      "representative_cases_zh": [
+        "区位种植论：近城多种瓜菜葵（易腐、市价高），远城种桑麻（耐运、作原料）——按运输半径优化的品种结构，是最早的农业区位论",
+        "葡萄作酒、枣作脯：生产环节直接接续加工环节条目，把'种什么'与'卖什么'在文本结构上焊接",
+        "羊-鱼-桑循环：养羊积粪肥田、鱼塘埂种桑——副产物闭环的现代生态农业雏形",
+        "反例警示：书中强调'舍本逐末'者（只卖原料不求加工增值）收益必然薄——缺环的链条是系统设计的失败样本"
+      ],
+      "representative_cases_en": [
+        "Location-based planting: perishables near town, transportables far—an optimization by transport radius, arguably the earliest agricultural location theory",
+        "Grapes into wine, jujubes into preserves: processing entries directly follow cultivation entries, welding 'what to grow' to 'what to sell' in the text's own structure",
+        "Sheep-fish-mulberry loops: manure for fields, ponds bunded with mulberries—a prototype of modern ecological agriculture",
+        "Counter-case: selling raw produce without processing value-add is flagged as structurally thin—the broken chain as a system-design failure sample"
+      ],
+      "modern_applications_zh": [
+        "循环经济与产业园区闭环设计",
+        "商业模式的全链路审计（供应链-生产-渠道）",
+        "副产物资源化与零废弃工厂",
+        "区域产业集群规划"
+      ],
+      "modern_applications_en": [
+        "Circular economy and eco-industrial park closed-loop design",
+        "Full-chain business audits (supply-production-channel)",
+        "Byproduct valorization and zero-waste factories",
+        "Regional industrial cluster planning"
+      ],
+      "related_modes": ["M-JSX-005", "M-JSX-008", "M-JSX-003"]
+    },
+    {
+      "id": "M-JSX-008",
+      "mode_code": "M-JSX-008",
+      "name_zh": "成本核算法",
+      "name_en": "Cost-Accounting Method",
+      "category": "经济方法",
+      "domain_zh": "投入产出/经济理性",
+      "domain_en": "Input-Output Analysis / Economic Rationality",
+      "level": "进阶",
+      "priority": 8,
+      "definition_zh": "技术决策最后要过算盘：贾思勰比较方案时不只比产量，而比净收益——'凡作酢者，瓮少为胜；瓮多则费'，人工、器物、时耗皆计入。要害有三：其一，全成本口径——种子、粪肥、人工、器皿折旧皆入账；其二，边际比较——同样一块地，种A还是种B，按净利而非总产裁决；其三，规模经济与反规模——'瓮多则费'识别出规模不经济区间，小批反而占优。方法论签名：产量是虚荣，净利是真相——每个技术选择都要问一句：账上多几个钱？",
+      "definition_en": "Every technical decision must pass the abacus: Jia compares options on net return, not yield alone—'for vinegar, fewer vats win; many vats cost,' with labor, vessels, and time all counted. Full-cost accounting (seed, manure, labor, vessel depreciation all on the books); marginal comparison (the same plot, crop A or B, adjudicated by net profit not gross output); and recognition of diseconomies—'many vats cost' identifies the scale-disadvantage range where small batches win. Signature: yield is vanity, net profit is truth—ask of every choice: how much more on the ledger?",
+      "source_chapter": "《齐民要术》种葵、作酢等篇收益条",
+      "key_concepts": ["净收益", "全成本口径", "边际比较", "规模不经济", "经济理性"],
+      "process_zh": [
+        "为每个候选方案建立全成本清单（含隐性投入）",
+        "统一折算为净收益（产量×价−全成本）后再比较",
+        "对规模变量做边际分析，找出收益峰值区间",
+        "把结论写回规程：推荐参数即经济最优参数"
+      ],
+      "process_en": [
+        "Build a full-cost list per option, including hidden inputs",
+        "Convert all to net return (yield × price − full cost) before comparing",
+        "Run marginal analysis over scale to find the profit-peak range",
+        "Write conclusions back into the protocol: recommended parameters are economically optimal ones"
+      ],
+      "key_quote_zh": "凡人家营田，须量己力，宁可少好，不可多恶。",
+      "key_quote_en": "In managing land, measure your strength: better few and good than many and bad.",
+      "representative_cases_zh": [
+        "种葵按亩核算：良田一亩'收子三百石'式的产出记载配全投入清单——单位面积净利比较取代笼统的丰歉叙述",
+        "'宁可少好，不可多恶'：以边际地力递减论证适度规模——广种薄收被算术否定，是中国农书最早的规模经济分析",
+        "酿醋瓮数权衡：'瓮少为胜，瓮多则费'——识别固定成本与批次规模的最优区间",
+        "反例警示：贪多种恶田的农户被引谚讥为'倾家'——不核算而扩产正是该法拦截的决策失误"
+      ],
+      "representative_cases_en": [
+        "Per-mu accounting for mallows: yield records paired with full input lists—unit-area net profit replacing vague harvest narratives",
+        "'Better few and good than many and bad': diminishing marginal returns argue for moderate scale—an early scale-economy analysis, rejecting extensive-low-intensity farming arithmetically",
+        "Vat-count tradeoffs in vinegar: 'fewer vats win' locates the optimum between fixed costs and batch size",
+        "Counter-case: the proverb-mocked household that 'ruins itself' by over-expanding on bad land—the unaccounted expansion this method intercepts"
+      ],
+      "modern_applications_zh": [
+        "单位经济模型（unit economics）分析",
+        "边际分析与最优规模决策",
+        "全成本核算（含隐性成本）的项目评审",
+        "小批量与规模化的临界点判断"
+      ],
+      "modern_applications_en": [
+        "Unit economics analysis",
+        "Marginal analysis and optimal-scale decisions",
+        "Full-cost (hidden-cost) project reviews",
+        "Finding the small-batch-versus-scale crossover point"
+      ],
+      "related_modes": ["M-JSX-007", "M-JSX-009", "M-JSX-004"]
+    },
+    {
+      "id": "M-JSX-009",
+      "mode_code": "M-JSX-009",
+      "name_zh": "备荒救急法",
+      "name_en": "Famine-Resilience Method",
+      "category": "战略方法",
+      "domain_zh": "风险管理/冗余设计",
+      "domain_en": "Risk Management / Redundancy Design",
+      "level": "进阶",
+      "priority": 9,
+      "definition_zh": "系统的第一性能指标不是效率而是活下来：全书以'要在安民，富而教之'开篇，杂说篇专记储粮备荒——多样性种植、耐旱备荒作物、储藏技术、以凶年为设计工况。要害有三：其一，以最坏年景为设计基准——好年景的产量只是验证，凶年的存活才是规格；其二，冗余多样性——品种、作物、储粮多层次冗余，任一单点失效不至全局崩溃；其三，藏粮于技——腌渍、干制、窖藏等保存技术把丰年盈余平移到凶年。方法论签名：为荒年设计，丰年自然有余—— Survivability 优先于 Optimizability。",
+      "definition_en": "The system's first performance metric is survival, not efficiency: the book opens 'governing means securing the people, enriching then teaching them,' and devotes chapters to storage and famine preparedness—diverse planting, drought-hardy reserve crops, storage techniques, with the famine year as the design condition. Design to the worst year (a good year's yield is mere validation; survival in the bad year is the spec); layer redundant diversity (varieties, crops, stores, so no single point of failure collapses the whole); and bank grain in technique—pickling, drying, and cellaring move surplus from fat years to lean. Signature: design for the famine year and the good year takes care of itself—survivability before optimizability.",
+      "source_chapter": "《齐民要术·序》'要在安民'；杂说、飧饭及藏生菜诸篇",
+      "key_concepts": ["备荒设计", "以凶年为工况", "多样性冗余", "储藏技术", "反脆弱"],
+      "process_zh": [
+        "以最坏年景（旱、涝、虫、寒）为系统设计工况",
+        "配置多层次冗余：作物多样性、耐逆备荒种、跨季储粮",
+        "投资保存与加工技术，使丰年盈余可平移至凶年",
+        "每年按'荒年可存活率'复盘，而非只看当年产量"
+      ],
+      "process_en": [
+        "Set the worst year (drought, flood, pests, frost) as the design condition",
+        "Configure layered redundancy: crop diversity, hardy reserve varieties, cross-season grain stores",
+        "Invest in preservation and processing so fat-year surplus can shift to lean years",
+        "Review annually by 'famine-year survival rate,' not just current yield"
+      ],
+      "key_quote_zh": "要在安民，富而教之。",
+      "key_quote_en": "The essential thing is securing the people: enrich them, then teach them.",
+      "representative_cases_zh": [
+        "备荒作物序列：芋、豆、桑椹等'救饥'作物的专门记载——把低价值高韧性的作物写进主册，是明确的冗余配置",
+        "藏生菜诸篇：窖藏、腌渍、干制的系统化技术——把时间维度的风险（季节波动）用加工技术对冲",
+        "杂说篇储粮规程：仓储防虫防潮的定量方法——把'存得住'当作与'种得出'同级的技术问题",
+        "反例警示：单一种植高产田在凶年绝收的历史教训被引为序论——以效率为唯一目标的系统恰是该法防御的对象"
+      ],
+      "representative_cases_en": [
+        "The famine-crop roster: dedicated entries for hunger-relief crops (taro, beans, mulberries)—low-yield high-resilience crops written into the main register as deliberate redundancy",
+        "Storage chapters: systematic cellaring, pickling, drying—hedging seasonal volatility with processing technique",
+        "The miscellany's granary protocols: quantified pest and moisture control—'storable' treated as a technical problem equal to 'growable'",
+        "Counter-case: the preface's historical lesson of monoculture fields failing utterly in famine years—the efficiency-only system is precisely what this method defends against"
+      ],
+      "modern_applications_zh": [
+        "业务连续性与灾难恢复设计",
+        "供应链冗余与多源采购策略",
+        "个人/家庭财务的应急储备设计",
+        "从效率优先到韧性优先的系统重构"
+      ],
+      "modern_applications_en": [
+        "Business continuity and disaster-recovery design",
+        "Supply-chain redundancy and multi-sourcing strategy",
+        "Household emergency reserves in personal finance",
+        "Re-architecting systems from efficiency-first to resilience-first"
+      ],
+      "related_modes": ["M-JSX-010", "M-JSX-005", "M-JSX-007"]
+    },
+    {
+      "id": "M-JSX-010",
+      "mode_code": "M-JSX-010",
+      "name_zh": "要术传世法",
+      "name_en": "Canon-for-Posterity Method",
+      "category": "知识存档",
+      "domain_zh": "技术文献工程/文明传承",
+      "domain_en": "Technical Literature Engineering / Civilizational Transmission",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "把毕生所知打包为可穿越朝代的文献机器：《齐民要术》十卷九十二篇，'起自耕农，终于醯醢'，以'资生之业，靡不毕书，号曰齐民要术'的自我命名完成体系定稿。要害有三：其一，自我立法——'鄙意晓示家童，未敢闻之有识'的自谦反显其以平民为读者的定位自觉，写作即公共服务；其二，序论立法——自序引经据典为'农本'立论，给技术文本装上价值框架使其免于被视为匠书；其三，体例传世——每篇'引经传-录歌谣-记老成-注亲验'的固定条目格式，使后人可以按格式增补而体系不崩。方法论签名：写作的最高形式是造一台比作者长寿的机器。",
+      "definition_en": "Package all you know into a literary machine that outlives dynasties: the Qimin Yaoshu, ten juan and ninety-two chapters 'from tillage to sauces,' self-named 'the essential techniques for the common people,' closes the system with an act of self-legislation. Modesty ('intended to instruct my household servants, not the learned') reveals a consciously plebeian readership—writing as public service; the preface builds a value framework ('agriculture as the root') that shields a technical text from being dismissed as mere craft-notes; and the fixed clause format (classics—rhymes—elders—own verification) lets later hands append entries without collapsing the system. Signature: the highest form of writing is building a machine that outlives its author.",
+      "source_chapter": "《齐民要术·序》及全书体例；'号曰齐民要术'自题",
+      "key_concepts": ["自我命名", "序论立法", "平民读者定位", "固定条目体例", "文献机器"],
+      "process_zh": [
+        "以读者定位（齐民/平民）决定写法：拒绝只写给士大夫",
+        "以序论为技术内容装价值框架，防'匠书'贬值",
+        "设计固定条目体例，使后人可按格式增补",
+        "全书收束时自我命名定稿，宣告体系完成"
+      ],
+      "process_en": [
+        "Let reader positioning (the common people) govern the writing: never only for the gentry",
+        "Fit a value framework via the preface so technique is not dismissed as craft-notes",
+        "Design a fixed clause format that later hands can extend without breaking the system",
+        "Close with self-naming, declaring the system complete"
+      ],
+      "key_quote_zh": "鄙意晓示家童，未敢闻之有识，故丁宁周至……号曰《齐民要术》。",
+      "key_quote_en": "Written to instruct household servants, not the learned\u2014hence every detail spelled out\u2026 hence the title: Essential Techniques for the Common People.",
+      "representative_cases_zh": [
+        "自我命名'齐民要术'：以'齐民'（平民）自题书名，宣告技术知识属于全体从事生计者——书名即宣言",
+        "序论立'农本'框架：引《管子》'一农不耕，民有饥者'等，为全部技术条目提供价值合法性",
+        "条目体例的可扩展性：隋唐以降《四时纂要》《农桑辑要》皆沿其格式增补而不改其骨——文献机器被后代成功续写",
+        "反例警示：与之同时的诸多私家秘本因'师心不书'而尽佚——无体例无定位的文本无法穿越时间，正是该法的反面教材"
+      ],
+      "representative_cases_en": [
+        "Self-naming: titling the book 'for the common people' declares technical knowledge as common property—the title is a manifesto",
+        "The preface's 'agriculture as root' framework, quoting Guanzi, grants the whole technical corpus value legitimacy",
+        "Extensible clause format: later works (Sishu Zuanyao, Nongsang Jiyao) extend in his format without altering the skeleton—the machine successfully continued by successors",
+        "Counter-case: private secret-books of his era, 'kept in the master's head,' are all lost—texts without format or positioning cannot cross time: this method's cautionary mirror"
+      ],
+      "modern_applications_zh": [
+        "开源项目的文档工程与社区可扩展性设计",
+        "知识库/维基的条目模板治理",
+        "面向大众读者的专业写作定位",
+        "个人知识遗产的系统性打包（博客/书籍/课程）"
+      ],
+      "modern_applications_en": [
+        "Documentation engineering and community-extensible design in open source",
+        "Entry-template governance for wikis and knowledge bases",
+        "Positioning expert writing for general readers",
+        "Systematically packaging a personal knowledge legacy (blog/book/course)"
+      ],
+      "related_modes": ["M-JSX-006", "M-JSX-001", "M-SK-010"]
+    }
+  ]
+}

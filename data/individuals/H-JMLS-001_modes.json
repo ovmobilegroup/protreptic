@@ -1,0 +1,503 @@
+{
+  "schema_version": "v6",
+  "code": "H-JMLS-001",
+  "figure_name_zh": "鸠摩罗什",
+  "figure_name_en": "Kumarajiva",
+  "mode_category": "佛教中观·翻译诠释",
+  "era": "东晋十六国（344-413）",
+  "figure_context": "西域龟兹高僧，前秦吕光西征时被掳、滞留凉州十七年，后秦弘始三年入长安，主持中国历史上第一个国家级译场，译经四百余卷，与真谛、玄奘、不空并称四大译经家，且公认译文最善。",
+  "thinking_modes": [
+    {
+      "mode_id": "M-JMLS-001",
+      "mode_name_zh": "非有非无·双遣两边",
+      "mode_name_en": "Neither Being nor Non-being: Double Negation",
+      "category": "本体论",
+      "definition_zh": "对任一概念，先否定其实有（非有），再否定其虚无（非无），两边俱遣，中道自显。判断不是在两个预设选项中挑一个，而是识破选项本身共享的错误前提。",
+      "definition_en": "For any concept, first negate its real existence (not being), then negate its emptiness (not non-being); both extremes are refuted and the middle way reveals itself. The move is not choosing between options but exposing the shared false premise of both.",
+      "key_principles": [
+        "先破'有'——否定实体的自性存在",
+        "再破'无'——否定绝对虚无",
+        "两边俱遣，不落任何一边",
+        "中道不是第三选项，而是无所得"
+      ],
+      "typical_outputs": [
+        "穿透二元对立的分析结论",
+        "对隐藏前提的揭示",
+        "不执着于既有选项的判断框架"
+      ],
+      "practical_applications": [
+        "决策分析：识别'二选一'背后的共同错误前提",
+        "谈判：跳出对方设定的两难框架",
+        "科学：假象与实在之外寻找第三种解释",
+        "个人：在'躺平/内卷'等两难叙事之外定义自己的位置"
+      ],
+      "mental_model": "把每个'二选一'看作陷阱：两个看似对立的选项往往共享同一预设。先分别否定两边，再追问是什么让两边看起来非此即彼——破执之后，问题常自行消解。",
+      "contrast_modes": [
+        "非黑即白的绝对判断",
+        "折中主义——各取一半的和稀泥",
+        "虚无主义——否定之后堕入'一切皆空'",
+        "诡辩——为否定而否定的怀疑游戏"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "中观学派核心方法，龙树八不中道的传承",
+        "逻辑学": "对二元预设的前提批判",
+        "心理学": "打破'非此即彼'的认知框架",
+        "个人": "从两难叙事中解放决策"
+      },
+      "historical_context": "鸠摩罗什译出《中论》《百论》《十二门论》，确立三论宗根基。其译笔将龙树'非有非无'的中观方法精确传入汉语世界，僧肇据此作《不真空论》，成为中国佛学本体论的奠基文本。",
+      "mode_examples": [
+        {
+          "example_zh": "《中论》：'众因缘生法，我说即是无（空），亦为是假名，亦是中道义。'——缘起之法非实有（自性不立），亦非全无（假名宛然），故曰非有非无。",
+          "example_en": "'A dharma arisen from conditions I call emptiness; it is also a provisional name, and this itself is the middle way.'—conditioned things lack self-nature (not being) yet function provisionally (not non-being)."
+        },
+        {
+          "example_zh": "现代类比：评价一项技术'是泡沫还是革命'时，先否认'纯粹泡沫'（确有真突破），再否认'纯粹革命'（泡沫成分真实存在），第三步是识破这个二分本身的粗糙。",
+          "example_en": "Modern analogy: when asked whether a technology is 'bubble or revolution', deny both pure bubble and pure revolution, then question the dichotomy itself."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-002",
+      "mode_name_zh": "依义不依语",
+      "mode_name_en": "Rely on the Meaning, Not the Words",
+      "category": "诠释方法论",
+      "definition_zh": "佛经四依之一：判断教法真伪与深浅，以义理为准而非字面语言。语言是渡河之筏，得鱼忘筌；同一义理可用不同语言表达，故翻译不是字句搬运而是意义再造。",
+      "definition_en": "One of the four reliances: judge a teaching by its meaning, not its literal wording. Language is a raft for crossing the river—same meaning can wear different linguistic clothes, so translation is meaning-recreation, not word-transport.",
+      "key_principles": [
+        "义理优先于字句",
+        "语言多样性反证语言非义理本身",
+        "翻译的目标是达义而非存文",
+        "文字争讼是失义之始"
+      ],
+      "typical_outputs": [
+        "跨语言的知识迁移",
+        "以义理为准的经典判读",
+        "翻译与转述中的忠实于内核"
+      ],
+      "practical_applications": [
+        "跨文化交流：抓住对方论证的实质而非措辞",
+        "读译著：以能否还原义理衡量译文",
+        "知识管理：同一原理允许多种表述",
+        "合同与规范解读：区分字面与立意"
+      ],
+      "mental_model": "把文本看作义理的编码而非义理本身。解读时先重构作者要传达的核心主张，再检验字面表达是否恰好承载该主张；当字面与义理冲突时，以义理为准绳校正理解。",
+      "contrast_modes": [
+        "逐字直译的翻译观",
+        "原教旨主义的字面解经",
+        "咬文嚼字的章句之学",
+        "以引文代替理解的注经"
+      ],
+      "cross_domain_mapping": {
+        "诠释学": "超越字面主义的释义原则",
+        "翻译学": "意译优先的翻译方法论",
+        "法学": "立法目的优先于字面文义",
+        "个人": "听懂对方真正想说什么"
+      },
+      "historical_context": "鸠摩罗什译经贯彻'依义不依语'：为传达般若义理，不惜改胡为汉、删繁去重。其译本千年流通，恰恰证明忠实于义理比忠实于原文字面更有生命力。",
+      "mode_examples": [
+        {
+          "example_zh": "译《大智度论》时，鸠摩罗什对繁琐重复处大量删削：'胡本委曲……令乖本趣'——宁失原文字句，不失原文本趣。",
+          "example_en": "When translating the Great Treatise, Kumarajiva cut repetitive passages: literal fidelity that distorts the intent is worse than stylistic freedom that preserves it."
+        },
+        {
+          "example_zh": "现代类比：好的技术翻译会重写句子以保留思想——这就是'依义不依语'在工程文档中的体现。",
+          "example_en": "Modern analogy: a good technical translation rewrites sentences to preserve the thought—relying on meaning, not words."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-003",
+      "mode_name_zh": "借喻明理·方便施设",
+      "mode_name_en": "Skilful Means: Teaching by Provisional Metaphor",
+      "category": "实践智慧",
+      "definition_zh": "真理无法直说时，借受众已有的经验构造比喻与方便法门；喻是登楼之梯，上楼后即弃。说教的成败取决于受众能从喻中悟出什么，而非喻本身是否精确。",
+      "definition_en": "When truth cannot be said directly, build metaphors and provisional teachings from the audience's existing experience; the parable is a ladder, discarded once climbed. Success is measured by what the listener realizes, not the metaphor's precision.",
+      "key_principles": [
+        "从受众经验出发构造比喻",
+        "喻只是方便，不是真理本身",
+        "比喻会被误当实体——须预设'弃喻'环节",
+        "对机施教：同一义理对不同人用不同喻"
+      ],
+      "typical_outputs": [
+        "化抽象为可感的表达",
+        "分层的传播与教学设计",
+        "因材施教的沟通策略"
+      ],
+      "practical_applications": [
+        "教学：用学生熟悉的例子引入新概念",
+        "产品：用类比向非技术者解释架构",
+        "写作：比喻之后立刻给出精确陈述",
+        "管理：对不同层级用不同语言讲同一战略"
+      ],
+      "mental_model": "把表达视为对特定受众的一次编译：先估计对方已有的概念库存，再选择借哪件旧物说哪件新事；同时预装'此喻勿执'的免责声明，防止方便被误认为实体。",
+      "contrast_modes": [
+        "以辞害意的文学化说教",
+        "把比喻当论证的伪推理",
+        "不分受众的单一话术",
+        "比喻堆砌而无义理内核"
+      ],
+      "cross_domain_mapping": {
+        "教育学": "支架式教学的理论源头",
+        "传播学": "受众中心的编码策略",
+        "佛学": "方便般若不二",
+        "个人": "讲故事比讲道理更先抵达"
+      },
+      "historical_context": "《法华经》火宅喻、化城喻、穷子喻皆鸠摩罗什译笔所定：长者以羊车鹿车牛车诱子出火宅，出门后所与唯是一大白牛车——方便是引出的手段，实相在门外。",
+      "mode_examples": [
+        {
+          "example_zh": "《法华经》：'舍利弗，若有众生，内有智性，从佛世尊闻法信受……如彼诸子为求羊车出于火宅。'——以三车之喻引众生出火宅，出已更说一乘实法。",
+          "example_en": "'Suppose children absorbed in play inside a burning house refuse to leave; the father promises three kinds of carts outside. Once out, he gives each the one great white-ox cart.'—provisional means draw beings from peril to the single true vehicle."
+        },
+        {
+          "example_zh": "现代类比：讲概率时用'彩票'作喻，但要立刻声明彩票与概率论的距离，防止听众把类比当定义。",
+          "example_en": "Modern analogy: use a lottery to teach probability, then immediately flag where the analogy breaks."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-004",
+      "mode_name_zh": "不立文字之外的译场集体校译",
+      "mode_name_en": "Collaborative Verification: the Translation Assembly",
+      "category": "方法论",
+      "definition_zh": "面对无法独自裁决的义理与译名，构建多人分工、层层互校的组织化流程：宣译、笔受、证义、润文各司其职，让个体的判断在集体质询中被检验与修正。",
+      "definition_en": "For doctrines and terms one cannot decide alone, build an organized process of divided roles and mutual checking—reciter, scribe, doctrine-verifier, stylist—so individual judgment is tested and corrected by collective scrutiny.",
+      "key_principles": [
+        "拆分认知工序——一人不兼数职",
+        "设专职'证义'岗——义理纠错优先于文采",
+        "译名需众议，不独断",
+        "流程可重复：形成可传承的译场制度"
+      ],
+      "typical_outputs": [
+        "高可靠的知识生产流程",
+        "组织化的质询与纠错机制",
+        "可复制的工作制度"
+      ],
+      "practical_applications": [
+        "工程：代码评审与多级测试流水线",
+        "科研：同行评议与可重复实验",
+        "内容生产：写-审-校分工",
+        "决策：重大判断设独立质疑角色"
+      ],
+      "mental_model": "把'一个人再聪明也不可信'作为制度前提：把任务拆成可分离的工序，每道工序设置独立检验者，最终产出是流程的产物而非天才的产物。质量来自组织设计，不依赖个体英雄。",
+      "contrast_modes": [
+        "孤胆天才式的闭门造车",
+        "一人兼任作者/评审/发布者",
+        "不可复制的作坊式生产",
+        "形式化的合议而无实质质询"
+      ],
+      "cross_domain_mapping": {
+        "管理学": "组织设计与质量控制",
+        "软件工程": "评审文化与CI/CD流水线",
+        "科学社会学": "同行评议的制度化先声",
+        "个人": "主动为重要判断找质询者"
+      },
+      "historical_context": "鸠摩罗什主持长安译场，僧肇、僧叡、道生等数千人参与，'手执胡本，口宣秦言'，另有证义、润文专岗——佛经翻译由此从个人事业变成制度化工程，产出《大品》《法华》《维摩》等定本。",
+      "mode_examples": [
+        {
+          "example_zh": "僧叡《大品经序》记译场分工：'法师手执胡本，口宣其言；……仇校历练，务令无失'——多道工序层层把关。",
+          "example_en": "Sengrui's preface records the assembly's division of labor: the master holds the Sanskrit text and recites, others transcribe, verify doctrine against the source, and polish—layer upon layer of checks."
+        },
+        {
+          "example_zh": "现代类比：一次重要的产品发布经过撰写、技术评审、法务评审、编辑润色四个独立岗位——这就是译场分工的现代版。",
+          "example_en": "Modern analogy: a launch passes through writing, technical review, legal review, and editing—four independent roles, the translation assembly reborn."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-005",
+      "mode_name_zh": "格义超越·以名遣名",
+      "mode_name_en": "Transcending Geyi: Using Names to Refute Names",
+      "category": "诠释方法论",
+      "definition_zh": "输入异质思想时，先借用本土既有概念搭桥（格义），但在桥上标明桥是临时的；一旦义理站稳，立即撤除本土框架，防止旧概念的引力扭曲新思想。",
+      "definition_en": "When absorbing alien thought, first borrow native concepts as scaffolding (geyi), but mark the scaffolding as temporary; once the doctrine stands, remove the native frame before its gravity distorts the new thought.",
+      "key_principles": [
+        "初期借格义降低理解门槛",
+        "明确标注对应是近似而非等同",
+        "义理确立后主动拆桥",
+        "保留原思想的不可通约之处"
+      ],
+      "typical_outputs": [
+        "异质思想的本士化落地",
+        "翻译概念的过渡策略",
+        "避免概念偷换的自觉"
+      ],
+      "practical_applications": [
+        "引进新学科：先类比后纠偏",
+        "跨行业转型：借旧词汇讲新业务，随后建立新术语",
+        "解释新技术：先用旧类比，再指出类比失效处",
+        "个人学习：允许类比先行，要求概念最终精确"
+      ],
+      "mental_model": "分两步走：第一步用听者已有的概念说'它有点像什么'，换取理解起点；第二步明确说'但它不是那个'，把不可翻译的剩余部分交还给它自己。桥要过河，但不能住在桥上。",
+      "contrast_modes": [
+        "永居桥上的格义——用老庄永久格义般若",
+        "生搬硬套的概念翻译",
+        "拒绝一切类比的原教旨主义",
+        "类比蔓延——在失效处仍继续使用"
+      ],
+      "cross_domain_mapping": {
+        "翻译学": "归化与异化的动态平衡",
+        "科学史": "新概念的确立过程",
+        "跨文化管理": "引入外部方法论的正确姿势",
+        "个人": "警惕自己被旧框架劫持"
+      },
+      "historical_context": "道安时代'以经中事数拟配外书'的格义先行，鸠摩罗什入长安后明确反对格义：僧肇《不真空论》直接用中观自身的'缘起性空'说空，摆脱了'无'这个道家对应词的引力——般若学由此从玄学附庸变为独立体系。",
+      "mode_examples": [
+        {
+          "example_zh": "僧肇批评'情驰于有无之境'的旧解，主张'非有非真有，非无非真无'——用佛学自身的语言重述空义，完成对格义的超越。",
+          "example_en": "Sengzhao rejects reading emptiness through the Daoist 'non-being': 'not truly existent, not truly non-existent'—emptiness restated in Madhyamaka's own terms, transcending geyi."
+        },
+        {
+          "example_zh": "现代类比：向管理者解释机器学习时先说'它有点像统计回归'，再花同样力气说明它在哪些关键处根本不是回归。",
+          "example_en": "Modern analogy: explain ML to executives as 'something like regression', then spend equal effort showing where it is not."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-006",
+      "mode_name_zh": "一切有为法如梦幻泡影·缘起观",
+      "mode_name_en": "Dependent Origination: All Conditioned Things Are Like Dreams",
+      "category": "本体论",
+      "definition_zh": "万物依条件聚散而生灭，无一物有独立自性；认识到条件性，就能对得失成败保持操作上的认真与本体上的超然——认真做事，不执着结果为实有。",
+      "definition_en": "All things arise and cease depending on conditions; nothing owns independent self-nature. Seeing conditionality lets one work seriously while holding outcomes lightly—full engagement without reifying results.",
+      "key_principles": [
+        "识别现象的因缘条件链",
+        "知其无自性——故不执为永恒",
+        "知其宛然有——故不废作用",
+        "以观照保超然，以行动保担当"
+      ],
+      "typical_outputs": [
+        "对成败的情绪脱敏",
+        "条件思维的问题分析",
+        "长期主义而不焦虑"
+      ],
+      "practical_applications": [
+        "项目管理：全力推进，同时预设条件变化即成果变化",
+        "投资：理解收益的条件性，不把周期性当永恒",
+        "个人：认真做事，平静接受因缘聚散",
+        "分析：把'为什么失败'改写为'哪些条件未满足'"
+      ],
+      "mental_model": "把每个现象看作条件交会处的暂时图案：条件在，现象在；条件散，现象散。行动的意义在于安排条件，而非占有结果。认真与超然不矛盾——前者对过程，后者对自性。",
+      "contrast_modes": [
+        "宿命论——反正皆空，什么都不做",
+        "结果执着——把成果当成自有永有",
+        "条件盲视——不问因缘只求结果",
+        "虚无主义——由空滑向无意义"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "缘起性空的现代转述",
+        "心理学": "结果脱敏与成长型心态",
+        "系统论": "涌现现象的条件依赖",
+        "个人": "尽人事而听因缘"
+      },
+      "historical_context": "《金刚经》鸠摩罗什译本的结尾偈'一切有为法，如梦幻泡影，如露亦如电，应作如是观'，将缘起观凝为九喻，成为中国人和东亚共同的心灵语法。",
+      "mode_examples": [
+        {
+          "example_zh": "《金刚经》：'一切有为法，如梦幻泡影，如露亦如电，应作如是观。'",
+          "example_en": "'All conditioned phenomena are like a dream, illusion, bubble, shadow, like dew and a flash of lightning; thus should they be contemplated.'—the Diamond Sutra's closing gatha."
+        },
+        {
+          "example_zh": "现代类比：创业成功的条件是团队、市场、时机的交汇——认清这些条件都非自己独有，成功时少一分傲慢，失败时少一分自毁。",
+          "example_en": "Modern analogy: startup success is the convergence of team, market, and timing—seeing their conditionality tempers both pride and self-destruction."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-007",
+      "mode_name_zh": "如实观照·离四句绝百非",
+      "mode_name_en": "Non-conceptual Insight: Beyond the Four Propositions",
+      "category": "认识论",
+      "definition_zh": "概念与范畴只能把握被条件化的对象；终极实在超出'有/无/亦有亦无/非有非无'四句之外。承认认知的边界，在概念失效处改用观照——不做判断，只是如实了知。",
+      "definition_en": "Concepts grasp only the conditioned; ultimate reality lies beyond the four propositions (is, is not, both, neither). Acknowledge the limit of cognition and, where concepts fail, shift from judging to insight—non-conceptual awareness of what is.",
+      "key_principles": [
+        "识别概念适用范围的边界",
+        "四句否定——穷尽逻辑空间后悬置判断",
+        "观照代替论断——如实知而非推论知",
+        "留白：允许'不知道'成为答案"
+      ],
+      "typical_outputs": [
+        "对复杂系统的谦逊判断",
+        "语言失效处的止观",
+        "认知边界的自觉"
+      ],
+      "practical_applications": [
+        "研究：识别测量与模型的适用边界",
+        "决策：承认不可判定问题，转入行动与观察",
+        "沟通：不强行给无法言说的东西下定义",
+        "个人：对终极问题保持开放而非强行站队"
+      ],
+      "mental_model": "先问'这个问题是否在概念能力范围内'：在范围内则严格推论；超出范围则不硬造答案，转为观照与行动。承认边界不是放弃认知，而是把认知用在它有效的地方。",
+      "contrast_modes": [
+        "概念万能论——用范畴硬套一切",
+        "不可知论——因边界而全盘放弃",
+        "神秘主义的滥情——把不可说当挡箭牌",
+        "过度定义——对无法言说者强行言说"
+      ],
+      "cross_domain_mapping": {
+        "认识论": "认知边界理论",
+        "物理学": "测量与理论的适用域",
+        "禅学": "不立文字的源头",
+        "个人": "对终极问题保持敬畏"
+      },
+      "historical_context": "维摩诘与文殊论不二法门，至维摩诘处'默然无言'，文殊叹曰'乃至无有文字语言，是真入不二法门'。鸠摩罗什译《维摩诘经》使这一'默然'成为中国美学与禅宗'不立文字'的直接源头。",
+      "mode_examples": [
+        {
+          "example_zh": "《维摩诘经·入不二法门品》：文殊问不二法门，维摩诘默然无言。文殊叹曰：'善哉善哉，乃至无有文字语言，是真入不二法门。'",
+          "example_en": "When Manjusri asks how one enters the dharma-gate of non-duality, Vimalakirti stays silent. Manjusri exclaims: 'Excellent! Not even a word—this truly enters the gate of non-duality.'"
+        },
+        {
+          "example_zh": "现代类比：哥德尔证明之后，数学家学会区分'可证'与'真'——在不可证处保持沉默，是智识诚实而非逃避。",
+          "example_en": "Modern analogy: after Godel, mathematicians distinguish provable from true—silence before the unprovable is honesty, not evasion."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-008",
+      "mode_name_zh": "因机施教·应病与药",
+      "mode_name_en": "Prescribe According to the Illness",
+      "category": "实践智慧",
+      "definition_zh": "教法如药，无高下只有对不对症：同一段道理，对此人是解药，对彼人是毒药。先诊断对方的执着是什么，再给恰好破除该执着的那一味——多一分则中毒，少一分则无效。",
+      "definition_en": "Teachings are medicine with no rank, only fit: the same truth heals one and harms another. First diagnose the person's particular attachment, then prescribe exactly what dissolves it—more is poison, less is useless.",
+      "key_principles": [
+        "先诊断执着——对方卡在哪里",
+        "对机下药——教法服务于破执",
+        "药到病除即停——不留残余教条",
+        "警惕药本身变成新病——对教法的执着也是执"
+      ],
+      "typical_outputs": [
+        "高度个性化的指导方案",
+        "按受众定制的信息策略",
+        "诊断先于处方的顾问思维"
+      ],
+      "practical_applications": [
+        "教练与咨询：先诊断再开方",
+        "管理：同一制度对不同团队调整剂量",
+        "教育：先测学生水平再定起点",
+        "自我修炼：识别自己当前的病，只服那一味"
+      ],
+      "mental_model": "把所有建议都看作'针对某病的药'：采纳前先问'我的病是这个吗'。别人的良药可能是自己的毒药；同样，自己昨天的良药可能是今天的毒药。诊断，永远是第一步。",
+      "contrast_modes": [
+        "一剂药治百病的万能答案",
+        "盲目跟风——服别人的药",
+        "剂量失控——好东西用到中毒",
+        "对方法论本身的迷信"
+      ],
+      "cross_domain_mapping": {
+        "医学": "辨证施治的同构原理",
+        "教育学": "因材施教",
+        "咨询业": "诊断先于方案的行业准则",
+        "个人": "只取所需，不囤教条"
+      },
+      "historical_context": "鸠摩罗什译《维摩诘经》'应病与药'思想贯通全经：佛随众生病而现种种身、说种种法——法无定法，对症者良。",
+      "mode_examples": [
+        {
+          "example_zh": "《维摩诘经》：'佛以一音演说法，众生随类各得解'——同一说法，众生依自身之病各取其义。",
+          "example_en": "'The Buddha teaches with one voice, yet each being understands according to its kind'—one dharma, many medicines."
+        },
+        {
+          "example_zh": "现代类比：高手程序员不会向新手推荐最先进的工具链，而是推荐'恰好在他当前水平能跑起来'的那一套。",
+          "example_en": "Modern analogy: a senior developer recommends the toolchain the junior can actually run today, not the most advanced one."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-009",
+      "mode_name_zh": "译名决定思想版图·关键概念的锻造",
+      "mode_name_en": "Coining the Term: Naming as Map-making",
+      "category": "方法论",
+      "definition_zh": "一个关键概念译名的选择，会在几百年内决定整个思想传统的走向。翻译不是找现成的对应词，而是为新思想锻造汉语中尚不存在的心智工具——译名即框架。",
+      "definition_en": "The choice of a key term's translation shapes the whole tradition for centuries. Translation is not finding equivalents but forging mental tools the target language lacks—the name is the frame.",
+      "key_principles": [
+        "为关键概念造词而非套词",
+        "译名须能承载概念的完整结构",
+        "一字之差即思想路线之差",
+        "译名一旦流通即成公共心智基础设施"
+      ],
+      "typical_outputs": [
+        "塑造学科话语的新术语",
+        "高质量的概念翻译",
+        "术语体系的自觉构建"
+      ],
+      "practical_applications": [
+        "产品命名：名字决定用户心智模型",
+        "学科建设：新领域的中译术语审定",
+        "API设计：命名即接口语义",
+        "写作者：为新概念寻找能承载它的词"
+      ],
+      "mental_model": "遇到无对应词的概念时，问三个问题：这个词在汉语里会唤起什么联想？能否承载概念的全部结构？几百年后是否仍准确？——像铸剑一样铸词，因为用词的人将按词的形状思考。",
+      "contrast_modes": [
+        "省事的套译——用近义词敷衍新概念",
+        "音译滥用——放弃锻造的懒惰",
+        "译名漂移——同一概念多译名并存",
+        "以旧词格义新概念导致的概念扭曲"
+      ],
+      "cross_domain_mapping": {
+        "翻译学": "术语锻造与概念史",
+        "认知科学": "语言塑造思维",
+        "产品设计": "命名即用户教育",
+        "个人": "给自己的核心理念起一个能立住的名字"
+      },
+      "historical_context": "鸠摩罗什定译'烦恼''解脱''世界''刹那''未来''平等''方便'——这些词早已内化为汉语日常词汇，使用者意识不到它们来自佛经翻译。一次译名锻造，重塑了此后两千年汉语的思维方式。",
+      "mode_examples": [
+        {
+          "example_zh": "'刹那'（ksana）、'世界'（loka-dhatu）、'平等'（samatva）皆经鸠摩罗什等译师定译后进入汉语日常语汇——翻译术语成为母语的一部分。",
+          "example_en": "'Ksana' (instant), 'loka-dhatu' (world), 'samatva' (equality)—coined in Buddhist translation, these are now ordinary Chinese words bearing Sanskrit concepts within."
+        },
+        {
+          "example_zh": "现代类比：'云计算''涌现''内卷'这些词各自塑造了一代人理解现象的默认框架——命名从未是中性的。",
+          "example_en": "Modern analogy: terms like 'cloud computing' or 'involution' quietly install the default frame a generation thinks with—naming is never neutral."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-JMLS-010",
+      "mode_name_zh": "忍辱与无诤·逆境中的定力",
+      "mode_name_en": "Forbearance and Non-contention: Composure under Adversity",
+      "category": "实践智慧",
+      "definition_zh": "在无法改变的逆境（被囚十七年、逼婚破戒、战乱流离）中，区分'必须承受的'与'必须坚守的'：身可辱而志不可夺，学业不断、译业不辍——把逆境的时间转化为内在积累的时间。",
+      "definition_en": "In adversity one cannot change (17 years captive, forced ordination, wars), separate what must be endured from what must be held: the body may be humiliated, the resolve not broken—study and work continue, converting adversity's time into inner accumulation.",
+      "key_principles": [
+        "区分可改变与不可改变",
+        "守住核心使命——其他皆可让步",
+        "以长期积累回应短期屈辱",
+        "无诤——不与暴力争辩，用作品回答"
+      ],
+      "typical_outputs": [
+        "高压下的持续产出",
+        "逆境中的心理韧性",
+        "以成果而非争辩回应攻击"
+      ],
+      "practical_applications": [
+        "职业：在不理想的环境中持续积累不可剥夺的能力",
+        "个人：被误解时不辩解，让作品说话",
+        "研究：冷板凳上保持产出",
+        "谈判：区分底线与可让项"
+      ],
+      "mental_model": "把逆境拆成两部分：环境强加的部分承受之，使命内核的部分坚守之。争辩消耗的正是需要积累的资源；唯一有力的回应是让时间站在积累的一边。",
+      "contrast_modes": [
+        "以死明志式的刚性对抗",
+        "完全屈服——连内核也放弃",
+        "怨天尤人的能量泄漏",
+        "在无关紧要处争胜（诤）"
+      ],
+      "cross_domain_mapping": {
+        "心理学": "心理韧性二分法",
+        "哲学": "斯多葛控制二分法的东方对应",
+        "职业发展": "逆境积累策略",
+        "个人": "分清忍辱与麻木的界线"
+      },
+      "historical_context": "鸠摩罗什被吕光囚于凉州十七年，其间逼令娶妻、破戒受辱；他不争辩、不逃遁，在凉州继续精研汉语与经义，长安弘法的一切积累都在囚禁中完成——后来四百余卷译经的根基正埋在这十七年。",
+      "mode_examples": [
+        {
+          "example_zh": "罗什在凉州'蕴其深解，无所宣化'，却于困顿中兼学汉言，'备悉方言'——囚禁反而成就了独一无二的翻译准备。",
+          "example_en": "In Liangzhou captivity Kumarajiva could not teach, yet mastered Chinese deeply—the seventeen 'lost' years were in fact the unique preparation for his translation career."
+        },
+        {
+          "example_zh": "现代类比：被边缘化的工程师利用'坐冷板凳'的几年深入某个冷门但关键的技术，等风来时已是唯一专家。",
+          "example_en": "Modern analogy: a sidelined engineer spends the quiet years mastering an obscure but critical technology—when the wind comes, they are the only expert."
+        }
+      ]
+    }
+  ],
+  "integration_analysis": null,
+  "modern_relevance": null
+}

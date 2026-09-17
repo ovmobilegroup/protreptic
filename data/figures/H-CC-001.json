@@ -1,0 +1,840 @@
+{
+ "schema_version": "v6",
+ "id": "H-CC-001",
+ "code": "H-CC-001",
+ "figure_name": "孔子vs苏格拉底",
+ "figure_code": "H-CC-001",
+ "figure_pinyin": "Kǒng Zǐ vs Sūgélādǐ",
+ "birth_year": -551,
+ "death_year": -399,
+ "era": "轴心时代比较研究 / Axial-Age Comparative Study (前551-前399)",
+ "school": "跨文明比较 / Cross-Civilization Comparison",
+ "figure_name_en": "Confucius vs Socrates",
+ "figure_code_task": "CrossCiv",
+ "historical_significance": "孔子（前551-前479）与苏格拉底（前469-前399）是轴心时代东西方同时出现的两位'不著书立说的教师'：皆以对话为主要方法、以弟子共同体为传承介质、以本人生命为命题抵押。孔门弟子辑《论语》，柏拉图著《对话篇》，两种相反的记录策略使同一类型的口头哲学各自成为世界级文本。两人共享的深层结构——诘问即检验、定义即处方、美德即知识、学思双引擎、创始人自付代价——构成'轴心突围'的可比较方法论母体；其差异（礼之外置法轨、定义的形而上学走向、记录干预度）则标定两大文明此后制度与哲学的分岔点。本档案以'对照'为方法单位：每个模式都是一次双人实验。",
+ "unique_thinking": "本档案的独特性在于把'比较'本身做成方法：十个模式都不是孔子或苏格拉底单人的模式，而是两人对话所逼出的结构性模式——每个模式都含对照面（诘合法的东西两种语气、礼与法两种秩序内核、辑录与创作两种记录工程）。孔子一侧的独特签名：'时中'（原则随语境重述而不失其锚）、'因材施教'（定义即处方）、'学思互证'（输入配省察的双账本）。苏格拉底一侧的独特签名：诘问至aporia的纯检验引擎、定义逼挤的对抗性迭代、以死为法律命题作保。共同签名：'自知无知'与'知之为知之'的认知诚实、'美德即知识'的伦理认知化、创始人自付代价的信用抵押。两人死后八十年与四百年，其思想分别兑换为学园千年与汉代国教——突围投资的世代回报周期是本档案最刺目的审计结论。",
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-CC-001",
+  "M-CC-002",
+  "M-CC-003",
+  "M-CC-004",
+  "M-CC-005",
+  "M-CC-006",
+  "M-CC-007",
+  "M-CC-008",
+  "M-CC-009",
+  "M-CC-010"
+ ],
+ "key_concepts": [
+  "问对诘合",
+  "定义逼挤",
+  "反求诸己",
+  "因材施教",
+  "人即文本",
+  "礼法双轨",
+  "美德即知识",
+  "述而不作",
+  "学思互证",
+  "代价审计",
+  "自知无知",
+  "克己复礼",
+  "助产术",
+  "轴心时代"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-SMQ-001",
+   "target_figure_name": "司马迁",
+   "relation_type": "记录者的两种立场：亲历追问 vs 后世裁断",
+   "mode_pair": [
+    "M-SMQ-321",
+    "M-CC-008"
+   ],
+   "description_zh": "司马迁与《论语》辑录者同处'记录即立场'的位置：太史公以'究天人之际'的裁断改写史料，孔门弟子以'述而不作'的克制保留原声；柏拉图则以虚构转译苏格拉底。三者构成记录干预度的完整光谱：低干预（论语）—中干预（史记）—高干预（对话篇）。",
+   "bidirectional_hint": "H-SMQ-001 未来修订时可在'亲历者笔录'处补一条指向 H-CC-001 的跨引用（记录干预度光谱）。"
+  },
+  {
+   "target_figure_code": "H-DZS-001",
+   "target_figure_name": "董仲舒",
+   "relation_type": "代价回收的两个方向：哲学制度化 vs 制度哲学化",
+   "mode_pair": [
+    "M-DZS-001",
+    "M-CC-010"
+   ],
+   "description_zh": "董仲舒是孔子'突围投资'四百年后的兑现者：把'德治'命题兑换为'天人感应'的国家意识形态装置（M-DZS-001 × M-CC-010 的世代回报对照）。同时是'礼法合一'的推动者——本档案 M-CC-006 警示的'两轨互噬'在汉代成为现实。",
+   "bidirectional_hint": "H-DZS-001 未来修订时可在'天人感应'处补一条指向 H-CC-001 的跨引用（礼轨被权力接管的风险）。"
+  },
+  {
+   "target_figure_code": "H-DKR-001",
+   "target_figure_name": "笛卡尔",
+   "relation_type": "怀疑的两种强度：方法悬置 vs 对抗诘问",
+   "mode_pair": [
+    "M-DKR-001",
+    "M-CC-001"
+   ],
+   "description_zh": "笛卡尔把怀疑内化为独白式的'方法悬置'（我思），苏格拉底把怀疑外化为对话式的对抗诘问（叩问他人）；孔子居中——'学思互证'是独白与对话的混合循环。三者的怀疑对象也不同：笛卡尔怀疑感官与知识根基，苏格拉底怀疑对话者的未经检验的确信，孔子怀疑'思而无学'的空转。",
+   "bidirectional_hint": "H-DKR-001 未来修订时可在'普遍怀疑'处补一条指向 H-CC-001 的跨引用（怀疑的外化与内化）。"
+  }
+ ],
+ "tags": [
+  "孔子",
+  "Confucius",
+  "苏格拉底",
+  "Socrates",
+  "轴心时代",
+  "Axial Age",
+  "论语",
+  "The Analects",
+  "对话篇",
+  "Dialogues",
+  "柏拉图",
+  "Plato",
+  "诘问",
+  "Elenchus",
+  "助产术",
+  "Midwifery",
+  "自知无知",
+  "Socratic Ignorance",
+  "克己复礼",
+  "Restrain Self Return to Ritual",
+  "因材施教",
+  "Adaptive Teaching",
+  "美德即知识",
+  "Virtue is Knowledge",
+  "述而不作",
+  "Transmit Not Compose",
+  "学思互证",
+  "Learn-Examine Loop",
+  "代价审计",
+  "Cost Audit",
+  "有教无类",
+  "Education Without Class",
+  "克里同",
+  "Crito",
+  "申辩篇",
+  "Apology",
+  "知其不可而为之",
+  "Doing the Hopeless",
+  "孔门七十子",
+  "Seventy Disciples",
+  "柏拉图学园",
+  "Platonic Academy",
+  "礼法双轨",
+  "Dual-Rail Order",
+  "问对诘合",
+  "Cross-Civ Comparison"
+ ],
+ "mode_ids_note": "M-CC-001 ~ M-CC-010（figure_code=CrossCiv → 编码 H-CC-001；库内查重零冲突：M-CC 前缀 modes_data/code_maps 无占用，C-CC 场景前缀无占用，H-CC 编码无占用）",
+ "caveats": [
+  "孔子生卒年以《史记·孔子世家》（前551-前479）为主流口径，另有前552生说；苏格拉底生卒年前469/470-前399 存小异，引用须标注口径",
+  "《论语》成书于战国曾子一系，章句层累与编辑立场学界有分层研究（如'上论''下论'之辨），引用章句须意识到对话语境多为后世重建",
+  "'历史苏格拉底'（Socratic problem）：柏拉图对话篇、色诺芬《回忆录》、阿里斯托芬喜剧三种苏格拉底形象分歧巨大，本档案'苏格拉底一侧'以柏拉图早期对话篇为主口径，引用须注明",
+  "'轴心时代'（Axial Age）为雅斯贝尔斯1949年提出的后设框架，把它用作比较单位是方法论选择而非历史实存，两人本人并无'轴心'意识",
+  "孔子'丧家之狗'语出《史记·孔子世家》的文学化叙述，非孔子自述，引用时须按史料层级处理",
+  "两人对话的'现场性'均经转写：《论语》经弟子层累编辑，《对话篇》经柏拉图文学重构——本档案的模式均是对'转写层'的比较，不是对'现场'的复原，引用须注明这一层"
+ ],
+ "modes": [
+  {
+   "id": "M-CC-001",
+   "name_zh": "问对诘合法",
+   "name_en": "The Elenctic-Dialogue Method: Truth Forged in Questioned Conversation",
+   "mode_code": "M-CC-001",
+   "category": "核心方法",
+   "domain_zh": "哲学/辩证法",
+   "domain_en": "Philosophy / Dialectic",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "孔子与苏格拉底共享的元命题：真理不由权威宣告，而在问对中被逼出。方法论签名有四：其一，以对话为论证的唯一载体——两人皆不著书立说（孔子'述而不作'，苏格拉底一字不写），思想全部由弟子的对话录（《论语》《对话篇》）传世；其二，诘问即检验——苏格拉底以反诘揭穿对话者未经检验的确信（'未经省察的人生不值得过'），孔子以'叩其两端'逼出弟子立场的盲区；其三，承认无知为起点——苏格拉底的'我自知无知'与孔子的'知之为知之，不知为不知，是知也'同构，把诚实标注认知边界设为求真前提；其四，对话者即方法——诘问的锋芒针对具体的人、具体的答案，抽象原则从不脱离具体语境成立。这一模式把'真理'从命题属性改写为过程属性：一个判断成立，是因为它在对抗性问对中幸存，而非因为它出自更高的权威。",
+   "definition_en": "Confucius and Socrates share one master proposition: truth is not proclaimed by authority but forced out in questioned conversation. Four signatures define the mode. First, dialogue as the sole vehicle of argument — neither wrote treatises (Confucius 'transmitted but did not compose'; Socrates wrote nothing), both surviving only through disciples' recorded conversations (the Analects, the Dialogues). Second, interrogation as testing: Socrates' cross-examination stripped unexamined confidence from his interlocutors ('the unexamined life is not worth living'), while Confucius 'knocked on both ends' to expose the blind spots in a disciple's position. Third, acknowledged ignorance as the starting point: Socrates' 'I know that I know nothing' is isomorphic with Confucius' 'to know what you know and to know what you do not know — that is knowledge'; both make honest marking of cognitive limits the precondition of inquiry. Fourth, the interlocutor is the method: the point of questioning is always a concrete person giving a concrete answer; abstract principles never stand apart from context. The mode rewrites 'truth' from a property of propositions into a property of process: a claim holds because it survived adversarial questioning, not because a higher authority vouched for it.",
+   "source_chapter": "《论语·为政》'知之为知之'、'学而不思则罔'；柏拉图《申辩篇》21a-d 神谕与'自知无知'、《美诺篇》诘问奴隶童子",
+   "key_concepts": [
+    "问对诘合法",
+    "诘问",
+    "对话录",
+    "自知无知",
+    "省察"
+   ],
+   "process_zh": [
+    "凡关键判断，先构造最强反诘再允许其成立；未经对抗性质询的结论不得进入决策",
+    "把'我不知道'显式说出并入档：认知边界的诚实声明是问对的合法起点，不是失败",
+    "诘问针对具体答案而非具体人格：检判标准是'这个回答还剩多少'，不是'这个人还剩多少'",
+    "对话全程留录：让后来者能重走这场问对，如同《论语》《对话篇》之于后世"
+   ],
+   "process_en": [
+    "For any key judgment, construct the strongest cross-examination before allowing it to stand; conclusions that never faced adversarial questioning may not enter decisions",
+    "Say 'I do not know' explicitly and file it: an honest declaration of cognitive limits is the legitimate opening of inquiry, not its failure",
+    "Direct the interrogation at the answer, never the person: the measure is 'how much of this reply survives', not 'how much of this person survives'",
+    "Record the dialogue in full so latercomers can re-walk it, as the Analects and the Dialogues did for posterity"
+   ],
+   "representative_cases_zh": [
+    "颜渊问仁（颜渊曰：请问其目——追问到可操作细则为止），孔子'为仁由己'的答问链：结论随对话者水平递进而深化，体现'因材施教'的对话分层",
+    "《美诺篇》奴隶童子几何实验：苏格拉底不授答案，只以连环追问让童子自己'再发现'正方形倍积——证明知识可被问出而非灌输",
+    "反面警示：苏格拉底的诘问法在《游叙弗伦》等篇中常把对话者逼入'无路可走'（aporia）而未交付建设性出路——纯破坏性诘问会耗尽对话者信任，使方法无法在组织中规模化。教训：诘问必须与建设性重构配对。",
+    "反面警示：《论语》部分章句为弟子不同流派整理层累而成，对话的'现场性'已被编辑——对话录本身会成为新的权威文本，反过来压制再问对。教训：对话录须标注编辑谱系，防止记录反噬方法。",
+    "反面警示：孔子'叩其两端'依赖对话者已有的诚意与素养；面对专断者（如'不可与言而与之言'）该方法失效——诘合法对对手方有资质门槛，越界使用会被反噬为修辞操纵。教训：先评估对手方的可诘性，再决定是否进入问对。"
+   ],
+   "representative_cases_en": [
+    "Yan Yuan asked about ren, pressing ('May I ask for the particulars?') until the answer reached operational detail — the chain shows conclusions deepening with the interlocutor's level, the dialogue-layering of teaching by aptitude",
+    "The slave-boy geometry experiment in the Meno: Socrates gives no answers, only chained questions through which the boy re-derives the doubling of the square — evidence that knowledge can be questioned out rather than poured in",
+    "Cautionary: in the Euthyphro and elsewhere Socrates' elenchus often drives the interlocutor into aporia with no constructive exit — purely destructive questioning exhausts the interlocutor's trust and makes the method unscalable in an organization. Lesson: pair interrogation with constructive reconstruction.",
+    "Cautionary: some Analects passages are layered compilations by different disciple schools; the 'liveness' of the dialogue is already edited — the dialogue record itself becomes a new authority that suppresses re-questioning. Lesson: mark the editorial genealogy of records lest the record devour the method.",
+    "Cautionary: Confucius' 'knocking on both ends' presupposes good faith and cultivation in the interlocutor; faced with the arbitrary ('do not speak with one who cannot be spoken with'), the method fails. Lesson: assess the counterpart's questionability before entering the dialogue."
+   ],
+   "modern_applications_zh": [
+    "组织决策会议以'最强反方'席位制度化：重大结论须在被专职诘问后才能过会",
+    "辅导与教练行业：苏格拉底式提问法（Socratic questioning）成为认知行为疗法与高管教练的核心工具",
+    "教育中的'探究式学习'：以问题链替代灌输链，把'再发现'设计进课程"
+   ],
+   "modern_applications_en": [
+    "Institutionalize a 'strongest opposition' seat in decision meetings: major conclusions pass only after dedicated cross-examination",
+    "Coaching and therapy: Socratic questioning is a core instrument of cognitive-behavioral therapy and executive coaching",
+    "Inquiry-based learning: question chains replace lecture chains, designing 're-discovery' into the curriculum"
+   ],
+   "related_modes": [
+    "M-CC-002",
+    "M-CC-004",
+    "M-CC-007",
+    "M-CC-001"
+   ],
+   "representative_figures": [
+    "孔子 (Confucius)",
+    "苏格拉底 (Socrates)",
+    "柏拉图 (Plato)",
+    "颜回 (Yan Hui)"
+   ],
+   "key_quote_zh": "'学而不思则罔，思而不学则殆'与'未经省察的人生不值得过'——东西方在同一轴心把'不省察'判为同一罪。",
+   "key_quote_en": "'Learning without thought is labour lost; thought without learning is perilous' meets 'the unexamined life is not worth living' — two civilizations, one Axial-Age verdict on the unexamined."
+  },
+  {
+   "id": "M-CC-002",
+   "name_zh": "定义逼挤法",
+   "name_en": "The Definitional Vise: Squeezing a Concept Until It Confesses",
+   "mode_code": "M-CC-002",
+   "category": "核心方法",
+   "domain_zh": "哲学/概念分析",
+   "domain_en": "Philosophy / Conceptual Analysis",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "对核心概念拒绝默认语义，用连环定义逼挤出其真实边界。方法论签名有四：其一，以'X是什么'开场——苏格拉底每一篇对话几乎都从'什么是正义/虔诚/勇敢'的定义请求开始，孔子论仁亦必先令弟子自陈其解（《论语》'克己复礼为仁''己欲立而立人'诸答皆随问者而异）；其二，以反例施压——每当对话者给出定义，立即寻找满足定义却明显不合直觉的边缘案例，迫使其修订；其三，接受逐步逼近——定义被推翻不是失败而是进展，每轮修订都把概念边界向真实用法收拢；其四，容忍不可完成——两人都清楚定义可能永无终局（苏格拉底常以aporia收场，孔子言'仁'从不给终判），方法的价值在于挤压过程本身校准了共同体的用法。这一模式把概念分析从词典式查阅改写为对抗性迭代工程。",
+   "definition_en": "Refuse default semantics for a core concept and squeeze its real boundary through chained definition. Four signatures. First, open with 'what is X': nearly every Socratic dialogue begins with a request to define justice, piety, or courage; Confucius' answers on ren likewise vary with each questioner ('restrain self and return to ritual is ren'; 'wishing to stand oneself, help others stand'). Second, press with counterexamples: whenever a definition is offered, immediately seek a borderline case that satisfies it yet offends intuition, forcing revision. Third, accept approximation: a definition overturned is progress, not failure — each round pulls the concept's boundary closer to real usage. Fourth, tolerate incompletion: both knew definition may never terminate (Socrates often ends in aporia; Confucius never issues a final verdict on ren); the method's value is that the squeezing itself calibrates the community's usage. The mode rewrites conceptual analysis from dictionary lookup into adversarial iteration engineering.",
+   "source_chapter": "《理想国》卷一'正义是什么'的连环推翻；柏拉图《游叙弗伦》'虔诚是什么'；《论语·颜渊》十二弟子问仁异答",
+   "key_concepts": [
+    "定义迭代",
+    "反例压力",
+    "边缘案例",
+    "逐步逼近"
+   ],
+   "process_zh": [
+    "对组织最核心的词（'质量''风险''完成'）禁止默认语义，立项先做定义轮",
+    "每个定义给三个边缘反例压力测试，通过才允许进入指标体系",
+    "把被推翻的定义存档为'边界发现'，而非当作争论失败",
+    "接受定义永不终结：以迭代版本号管理概念，替代一次性立法"
+   ],
+   "process_en": [
+    "Ban default semantics for an organization's core words ('quality', 'risk', 'done'); every project opens with a definition round",
+    "Stress-test each definition with three borderline counterexamples before it may enter the metrics system",
+    "Archive overturned definitions as 'boundary discoveries', not as lost arguments",
+    "Accept that definition never ends: manage concepts by version number instead of one-shot legislation"
+   ],
+   "representative_cases_zh": [
+    "苏格拉底在《理想国》卷一中连破克法洛斯'有债必还'、波勒玛霍斯'各得其宜'、色拉叙马霍斯'强者的利益'三重定义——每轮以一个反例即告崩溃，逼出'正义是灵魂的健康'的更深命题",
+    "孔子对'仁'的十余种异答：对颜渊说克己复礼，对仲弓说敬恕，对司马牛说'其言也讱'——同一概念随对话者的短板而重新定义，定义即处方",
+    "反面警示：色拉叙马霍斯在第一卷被逼挤后愤而退出论辩——定义逼挤若不修复对手的参与意愿，会把诘问变成逐客。教训：逼挤须配修复动作，如确认对手立场中的有效内核。",
+    "反面警示：《美诺篇》以'回忆说'给定义逼挤兜底，但该本体论假设（灵魂前在）并不成立——方法成功不证其配套形而上学成立，捆绑输出会让方法的信用被错误的附属理论透支。教训：方法与配套理论分开交付。",
+    "反面警示：现代企业把'定义逼挤'僵化为需求文档仪式后，迭代停止、文档成为新权威——方法的对抗性消失，只剩形式。教训：定义轮须绑定真实冲突（两个部门对'完成'的实际分歧），无冲突则不召开。"
+   ],
+   "representative_cases_en": [
+    "In Book I of the Republic Socrates demolishes in turn Cephalus' 'repay debts', Polemarchus' 'give each his due', and Thrasymachus' 'the strong's advantage' — each collapsing on a single counterexample, forcing the deeper claim that justice is the health of the soul",
+    "Confucius' dozen differing answers on ren: to Yan Yuan 'restrain self and return to ritual', to Zhonggong 'respect and forbearance', to Sima Niu 'be slow of speech' — the same concept re-defined per the questioner's deficiency; definition as prescription",
+    "Cautionary: Thrasymachus, squeezed in Book I, storms out of the argument — without repairing the opponent's will to participate, definitional vise turns interrogation into eviction. Lesson: pair squeezing with repair, e.g. confirming the valid kernel in the opponent's position.",
+    "Cautionary: the Meno props definition-squeezing on the theory of recollection, whose ontology (the pre-existent soul) does not hold — a method's success does not prove its companion metaphysics; bundled delivery lets an erroneous rider overdraw the method's credit. Lesson: ship method and companion theory separately.",
+    "Cautionary: modern firms ritualize the definitional round into requirements-ceremony; iteration stops and the document becomes the new authority — the adversarial edge dies, leaving only form. Lesson: bind each definition round to a real conflict (two departments' actual dispute over 'done'); no conflict, no round."
+   ],
+   "modern_applications_zh": [
+    "Agile teams' ritual 'definition of done' fights scope drift by forcing a renegotiated boundary each sprint",
+    "Legal drafting: statutory definitions refined through litigation counterexamples across precedents",
+    "Product taxonomy work: category boundaries squeezed against edge cases before cataloging at scale"
+   ],
+   "modern_applications_en": [
+    "Agile's 'definition of done' fights scope drift by forcing renegotiated boundaries every sprint",
+    "Statutory legal definitions refined through litigation counterexamples across precedent chains",
+    "Product taxonomies: category boundaries squeezed against edge cases before large-scale cataloging"
+   ],
+   "related_modes": [
+    "M-CC-001",
+    "M-CC-003",
+    "M-CC-005",
+    "M-CC-002"
+   ],
+   "representative_figures": [
+    "苏格拉底 (Socrates)",
+    "柏拉图 (Plato)",
+    "孔子 (Confucius)",
+    "色拉叙马霍斯 (Thrasymachus)"
+   ],
+   "key_quote_zh": "'吾道一以贯之'与'未经定义的美德即盲目的美德'——共同拒绝让核心概念在含混中运行。",
+   "key_quote_en": "'My way is threaded by one thread' and 'virtue unexamined is virtue unowned' — both refuse to run core concepts on blurred semantics."
+  },
+  {
+   "id": "M-CC-003",
+   "name_zh": "反求诸己法",
+   "name_en": "The Turn-Inward: Treating the Self as the First Laboratory",
+   "mode_code": "M-CC-003",
+   "category": "核心方法",
+   "domain_zh": "伦理学/修身",
+   "domain_en": "Ethics / Self-Cultivation",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "在要求世界之前先以同一标准检验自身，把'我'设为方法的第一台实验设备。方法论签名有四：其一，归因内向优先——孔子'君子求诸己，小人求诸人'、曾子'吾日三省吾身'，苏格拉底德尔斐神庙'认识你自己'的终身执行，两者都把'向外追责'改判为'向内取证'；其二，以行为证，不以言证——苏格拉底面对死刑拒绝逃亡以证其对法律的承诺，孔子'其身正，不令而行'，论断的最终证据是论断者本人的生活；其三，自察有工具——曾子三省（为人谋而不忠乎？与朋友交而不信乎？传不习乎？）与苏格拉底的省察诘问都提供了可重复的自问清单，使内省从情绪活动变为程序活动；其四，边界在于不自虐——两人都区分省察与自我惩罚：省察指向改进行动，不指向道德羞辱。这一模式把伦理学从'评判他人'的武器库改写为'校准自己'的操作台。",
+   "definition_en": "Before demanding from the world, test yourself by the same standard — make the self the method's first laboratory. Four signatures. First, inward attribution as default: Confucius' 'the gentleman seeks it in himself; the petty man seeks it in others' and Zengzi's 'daily triple self-examination', alongside Socrates' lifelong execution of Delphi's 'know thyself' — both re-classify outward blame as inward evidence-gathering. Second, prove by living, not saying: Socrates refusing escape to honor his covenant with the laws under a death sentence; Confucius' 'when one's own conduct is upright, things get done without orders' — the final evidence for a claim is the claimant's own life. Third, self-examination needs instruments: Zengzi's three questions and Socrates' examined-life interrogation both supply repeatable self-questioning checklists, turning introspection from an emotional event into a procedural one. Fourth, the boundary is not self-torture: both distinguish examination from self-punishment — examination aims at improved action, not moral humiliation. The mode rewrites ethics from an armory for judging others into a workbench for calibrating oneself.",
+   "source_chapter": "《论语·学而》曾子三省、《宪问》'君子求诸己'；柏拉图《申辩篇》29d-30b 省察使命、《克里同篇》拒逃",
+   "key_concepts": [
+    "反求诸己",
+    "吾日三省",
+    "认识你自己",
+    "以身作则"
+   ],
+   "process_zh": [
+    "复盘从'谁的错'改判为'我方哪一环节可改进'：先穷尽内部变量再谈外部变量",
+    "把自省写为固定清单（如三省式三问），周期执行并留档，杜绝'想起来才省'",
+    "重大主张先在自己身上试点：主张者不做第一个受益者时无权主张",
+    "给自察设止损边界：指向行动改进即止，不进入道德羞辱循环"
+   ],
+   "process_en": [
+    "Re-classify every retrospective from 'whose fault' to 'which of our steps could improve': exhaust internal variables before external ones",
+    "Write self-examination as a fixed checklist (a three-question litany), executed on schedule and archived — no 'when remembered' reviews",
+    "Pilot every major claim on yourself first: a claimant who is not the first beneficiary has no standing to claim",
+    "Set a stop-loss boundary for self-examination: stop at actionable improvement, never enter the humiliation loop"
+   ],
+   "representative_cases_zh": [
+    "苏格拉底在《克里同篇》拒绝越狱：逃亡会使他毕生主张的'法律高于私怨'失效——以生命为实验设备验证自己的命题，死亡是实验的最后一组数据",
+    "曾子'日三省吾身'把修身降为每日可执行的三个问题，使儒家的道德工程在两千五百年前就获得了'持续集成'结构",
+    "反面警示：明清礼教把'反求诸己'异化为对弱者（尤其女性）的单向道德压榨——内向方法一旦由权力单向定义'谁的己'，就退化为规训。教训：反求诸己必须双向对称，上位者先省。",
+    "反面警示：苏格拉底的自省以'神谕'为终极背书，其后学将'认识你自己'教条化，自省沦为自我说服的仪式。教训：自察工具须保留可被再诘问的开放性，防止清单本身成为新的不容置疑。",
+    "反面警示：孔子后学把'其身正'推向'以德治代替制度'，忽视'身正'的不可验证性与规模局限——个人实验设备无法替代组织级的制度校验。教训：以身作则是必要条件，不是充分条件。"
+   ],
+   "representative_cases_en": [
+    "Socrates in the Crito refusing escape: flight would falsify his lifelong thesis that law outranks private grievance — using his life as the experimental apparatus, death the final data point",
+    "Zengzi's daily triple self-examination reduces cultivation to three executable questions a day, giving Confucian moral engineering a continuous-integration structure twenty-five centuries early",
+    "Cautionary: Ming-Qing orthodoxy twisted 'turn inward' into one-way moral extortion of the weak (women above all) — once power defines whose 'self' must examine itself, the inward method degrades into discipline. Lesson: the turn inward must be bidirectionally symmetric; superiors examine first.",
+    "Cautionary: Socrates' self-examination leaned on the oracle's ultimate endorsement; later schools dogmatized 'know thyself' into a ritual of self-persuasion. Lesson: keep self-examination instruments open to re-questioning lest the checklist become the new unquestionable.",
+    "Cautionary: Confucius' successors pushed 'upright conduct' toward rule-by-virtue replacing institutions, ignoring that personal conduct is unverifiable at scale — one person's lab bench cannot substitute organization-level institutional verification. Lesson: leading by example is necessary, never sufficient."
+   ],
+   "modern_applications_zh": [
+    "现代复盘文化（blameless postmortem）把工程事故审查从追责改判为流程取证，与'君子求诸己'同构",
+    "认知行为疗法（CBT）以结构化自问清单把内省程序化，继承'三省'的工具化路径",
+    "领导力中的'先试点于己'：主张裁员的总监先在自己团队执行，验证主张成本"
+   ],
+   "modern_applications_en": [
+    "Blameless postmortems re-classify incident review from blame to process forensics — the engineering isomorph of 'the gentleman seeks it in himself'",
+    "Cognitive-behavioral therapy proceduralizes introspection through structured self-questioning checklists, extending Zengzi's instrumentation",
+    "'Pilot on yourself first' in leadership: the director advocating layoffs runs them on her own team first, pricing the claim"
+   ],
+   "related_modes": [
+    "M-CC-001",
+    "M-CC-006",
+    "M-CC-008",
+    "M-CC-003"
+   ],
+   "representative_figures": [
+    "孔子 (Confucius)",
+    "苏格拉底 (Socrates)",
+    "曾子 (Zengzi)",
+    "柏拉图 (Plato)"
+   ],
+   "key_quote_zh": "'吾日三省吾身'与'认识你自己'——轴心时代东西方同时发明了把'我'设为实验设备的方法。",
+   "key_quote_en": "'Daily I examine myself on three counts' and 'know thyself' — the Axial Age simultaneously invented the self as laboratory, East and West."
+  },
+  {
+   "id": "M-CC-004",
+   "name_zh": "因材施教法",
+   "name_en": "The Adaptive-Dosage Method: Same Truth, Different Prescriptions",
+   "mode_code": "M-CC-004",
+   "category": "核心方法",
+   "domain_zh": "教育学/个性化教学",
+   "domain_en": "Pedagogy / Individualized Instruction",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "同一真理对不同对象给出不同剂量与切入角，把'教什么'从内容问题改写为诊断问题。方法论签名有四：其一，先诊断后开方——孔子对同一'仁'字按弟子短板各异其答，苏格拉底按对话者职业（将军、祭司、匠人）选择诘问素材；其二，以问代授——诊断通过提问完成（《论语》几乎每章以问开头，《对话篇》以诘问推进），教者先暴露学习者的真实结构再决定介入深度；其三，剂量控制——'不愤不启，不悱不发'：介入时机以学习者自身的困惑积累为准，过早给出即浪费；其四，举一隅不以三隅反则不复——学习者未完成迁移时不继续投喂，把'未准备好'显式承认。这一模式与 M-CC-002 定义逼挤互为表里：逼挤暴露结构，施教按结构配方。它把教学从广播模型改写为配药模型。",
+   "definition_en": "Deliver the same truth in different doses and angles per recipient — rewrite 'what to teach' from a content question into a diagnostic one. Four signatures. First, diagnose before prescribing: Confucius varied his answers on ren by each disciple's deficiency; Socrates chose interrogation material by the interlocutor's profession (general, priest, craftsman). Second, question instead of lecture: diagnosis runs through questioning (nearly every Analects chapter opens with a question; the Dialogues advance by cross-examination) — the teacher first exposes the learner's real structure, then decides intervention depth. Third, dosage control: 'I do not open up until the mind is agitated, nor supply words until the tongue stumbles' — timing keyed to the learner's own accumulated perplexity; premature answers are wasted. Fourth, stop on failed transfer: 'when I hold up one corner and he cannot return with three, I do not repeat' — unpreparedness explicitly acknowledged. The mode is the twin of M-CC-002: squeezing exposes structure, teaching prescribes by structure. It rewrites teaching from broadcast into pharmacy.",
+   "source_chapter": "《论语·雍也》'中人以上可以语上'；《先进》'求也退故进之，由也兼人故退之'；柏拉图《美诺篇》按童子已有几何直觉设计追问链",
+   "key_concepts": [
+    "因材施教",
+    "不愤不启",
+    "诊断先行",
+    "举一反三"
+   ],
+   "process_zh": [
+    "先以问题暴露学习者的真实结构，再决定教的内容与顺序",
+    "介入时机绑定学习者自身的困惑积累：未到'愤悱'不给答案",
+    "对未完成迁移者停止投喂并显式承认'未准备好'，不以进度掩盖",
+    "同一原则按对象短板重新表述：定义即处方，一人一方"
+   ],
+   "process_en": [
+    "Expose the learner's real structure through questions first; decide content and order only after",
+    "Bind intervention timing to the learner's own accumulated perplexity: no answers before the mind is agitated",
+    "Stop feeding on failed transfer and explicitly mark 'not ready', never masking with schedule pressure",
+    "Re-state the same principle per the recipient's deficiency: definition as prescription, one formula per person"
+   ],
+   "representative_cases_zh": [
+    "孔子对子路与冉有同一问'闻斯行诸'给出相反答案（'求也退故进之，由也兼人故退之'）——《论语·先进》最锋利的'因材施教'实证：原则恒定，剂量相反",
+    "苏格拉底在《拉凯斯篇》借两位将军论'勇敢'，选将军熟悉的战场案例作诘问素材——对话者的专业词汇是入口，不熟悉抽象术语的对话者不会被'正义的定义'直接击中",
+    "反面警示：孔子对樊迟问稼的冷遇（'吾不如老农'）常被引为'因材'的失败案例——诊断有价值观局限：教师只对'他认为重要的'短板开方，学习者自己的目标会被降格。教训：因材施教须以学习者目标为药引，而非教者目标。",
+    "反面警示：现代'个性化学习'平台把因材施教降级为难度调节算法——只调剂量不换视角，诊断维度单一化。教训：真正的'材'包括动机、语境与知识结构三轴，单轴自适应是伪个性化。",
+    "反面警示：柏拉图学园后期对不具数学资质者设门槛（《理想国》卷七数学预备论），把'因材'变成'筛选'——方法的诊断面转向淘汰面后，教育从配药退化为分拣。教训：诊断用于配药时是服务，用于淘汰时是暴力。"
+   ],
+   "representative_cases_en": [
+    "Confucius giving Zilu and Ran You opposite answers to the same 'act on what one hears?' ('Ran is diffident, so I urged him on; Zilu overreaches, so I held him back') — the Analects' sharpest proof: principle constant, dosage inverted",
+    "Socrates in the Laches using battlefield cases familiar to two generals as interrogation material — the interlocutor's professional vocabulary is the entrance; abstract definitions would not land",
+    "Cautionary: Confucius' cold answer to Fan Chi on farming ('I am not as good as a farmer') is often cited as adaptive teaching failing — diagnosis carries the teacher's value hierarchy: prescriptions target deficiencies the teacher ranks important, while the learner's own goals get demoted. Lesson: adaptive dosage must take the learner's goal as the solvent, not the teacher's.",
+    "Cautionary: modern adaptive-learning platforms downgrade the method to difficulty-tuning algorithms — dose adjusted, angle never changed, diagnostics one-dimensional. Lesson: real 'aptitude' spans motivation, context, and knowledge structure; single-axis adaptation is pseudo-personalization.",
+    "Cautionary: the later Academy's mathematical prerequisites (Republic VII) turned 'by aptitude' into 'by selection' — once diagnosis faces淘汰, education degrades from pharmacy to sorting. Lesson: diagnosis that prescribes is a service; diagnosis that eliminates is violence."
+   ],
+   "modern_applications_zh": [
+    "K-12分层作业与临床教育的'最近发展区'教学：先测当前结构再定介入剂量",
+    "咨询行业按客户组织成熟度同一框架不同切入：诊断问卷先行，方案一人一方",
+    "教练技术以提问链替代建议链，等客户自身困惑积累到'愤悱'再给反馈"
+   ],
+   "modern_applications_en": [
+    "Tiered assignments and ZPD-based clinical teaching: measure current structure, then dose the intervention",
+    "Consulting applies one framework at different entry angles by client maturity: diagnostic survey first, one prescription per client",
+    "Executive coaching replaces advice chains with question chains, delivering feedback only when the client's own perplexity has accumulated"
+   ],
+   "related_modes": [
+    "M-CC-002",
+    "M-CC-005",
+    "M-CC-009",
+    "M-CC-004"
+   ],
+   "representative_figures": [
+    "孔子 (Confucius)",
+    "苏格拉底 (Socrates)",
+    "柏拉图 (Plato)",
+    "颜回 (Yan Hui)"
+   ],
+   "key_quote_zh": "'求也退故进之，由也兼人故退之'与按将军论勇敢——真理恒定，处方随人。",
+   "key_quote_en": "'Urged on the diffident, held back the headstrong' and generals debating courage — truth constant, prescription by person."
+  },
+  {
+   "id": "M-CC-005",
+   "name_zh": "师徒传承共同体法",
+   "name_en": "The Lineage-Community Method: Institutions That Outlive the Teacher",
+   "mode_code": "M-CC-005",
+   "category": "核心方法",
+   "domain_zh": "组织管理学/知识传承",
+   "domain_en": "Organizational Management / Knowledge Transmission",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "两人皆无著作而皆有学派：以共同体为知识的存储介质，以师徒制为传播协议。方法论签名有四：其一，人即文本——苏格拉底一字不写、孔子'述而不作'，知识全部承载于受过训练的人，死亡风险由冗余人数对冲（七十弟子/学园世代）；其二，记录即二度创作——弟子整理对话（《论语》曾门、《对话篇》柏拉图）必然带编辑立场，共同体内部公开承认这一层（'记'与'作'的区分）；其三，世代接力——柏拉图学园延续近千年，孔门传经八代而至秦火，师徒制设计了'下一代接棒'的角色分工而非一次性传人；其四，以行证派——学派的生命力最终由其成员的公共行为背书（苏格拉底之死使柏拉图执笔，孔门弟子庐墓三年）。这一模式把知识管理从文档工程改写为共同体工程：文档会腐烂，训练有素的人会繁殖。",
+   "definition_en": "Both men wrote nothing yet both founded schools: the community as knowledge's storage medium, master-disciple lineage as transmission protocol. Four signatures. First, persons as texts: knowledge resides entirely in trained people, its mortality hedged by headcount redundancy (seventy disciples; generations of the Academy). Second, recording as second authorship: disciples' compilations (Zengzi's school for the Analects, Plato's Dialogues) necessarily carry editorial positions — the community openly acknowledges this layer (the 'transmit/compose' distinction). Third, generational relay: the Academy lasted nearly a millennium; the Confucian school passed its canon through eight generations to the Qin burning — lineage design assigns roles to 'the next carrier' rather than a one-time heir. Fourth, the school proven by conduct: a lineage's vitality is ultimately underwritten by its members' public acts (Socrates' death made Plato write; the disciples mourned Confucius three years by his grave). The mode rewrites knowledge management from document engineering into community engineering: documents rot; trained people reproduce.",
+   "source_chapter": "《论语》成书于曾子门人；柏拉图学园（前387-公元529）近千年传承；孔门七十子后学传经谱系",
+   "key_concepts": [
+    "学派",
+    "师徒制",
+    "人即文本",
+    "世代接力"
+   ],
+   "process_zh": [
+    "核心知识以'训练人'为主存储、'文档'为辅助校验，不倒置",
+    "承认记录即编辑：整理者立场显式署名，版本谱系随文本公开",
+    "为关键角色预设'下一代接棒人'，传承按世代设计而非按事件",
+    "学派的最终背书是成员的公共行为：把行为准则写入共同体的日常"
+   ],
+   "process_en": [
+    "Store core knowledge primarily in trained people, with documents as auxiliary verification — never inverted",
+    "Acknowledge that recording is editing: compilers sign explicitly, version genealogy travels with the text",
+    "Pre-designate the next carrier for every key role; inheritance is generational, not event-driven",
+    "A school's ultimate endorsement is its members' public conduct: write conduct norms into the community's daily practice"
+   ],
+   "representative_cases_zh": [
+    "苏格拉底之死（前399）直接触发柏拉图创办学园并以对话篇对抗智者派的文字市场——一个共同体的最大危机成为其制度化起点，'殉道者叙事'成为学派最强的传播资产",
+    "《论语》由曾子一系整理定型而非孔子自著，孔门各派（子游、子夏、仲弓）各自传经——承认编辑层反而使文本在派系竞争中幸存：每派都有保存经典的动力",
+    "反面警示：孔门后学分化为八儒（'儒分为八'），为争夺'正宗'互相攻讦，传承共同体退化为宗派竞争——共同体的存续目标压倒知识目标后，传承质量随内耗下降。教训：共同体须为'再诘问权'立宪，防正宗垄断。",
+    "反面警示：柏拉图学园后期转向数学与怀疑论，'苏格拉底'在后世对话篇中沦为柏拉图观点的传声筒——传承者署名权过大时，源头思想在两代内即被改写。教训：记录者与被记录者须有对抗性核对机制。",
+    "反面警示：苏格拉底不著书导致其思想完全依赖柏拉图转译，'历史苏格拉底'（Socratic problem）至今不可考——单一记录者即单点故障，共同体冗余不足时知识被一个编辑者垄断。教训：人即文本须以'多记录者冗余'为前提。"
+   ],
+   "representative_cases_en": [
+    "Socrates' execution (399 BC) directly triggered Plato's founding of the Academy and the Dialogues against the Sophists' text market — the community's greatest crisis became its institutional origin, martyr narrative its strongest transmission asset",
+    "The Analects was redacted by Zengzi's line, not authored by Confucius, while rival Confucian schools (Ziyou, Zixia, Zhonggong) each transmitted the canon — acknowledging the editorial layer let the text survive factional competition: every faction had a motive to preserve it",
+    "Cautionary: the school split into 'eight branches of Confucianism' warring over orthodoxy — once communal survival outranks the knowledge goal, transmission quality decays with infighting. Lesson: charter the 'right to re-question' constitutionally against orthodoxy monopolies.",
+    "Cautionary: the late Academy's turn to mathematics and skepticism left 'Socrates' in later dialogues a mouthpiece for Plato — when the recorder's authorial weight exceeds the recorded, source thought is rewritten within two generations. Lesson: recorder and recorded need adversarial cross-checking.",
+    "Cautionary: Socrates' refusal to write made his thought wholly dependent on Plato's translation — the 'historical Socrates' remains unknowable (the Socratic problem). A single recorder is a single point of failure; person-as-text requires multi-recorder redundancy."
+   ],
+   "modern_applications_zh": [
+    "核心工程知识以'带训骨干'为主载体，配合轮岗与多师傅制对冲单点失传",
+    "开源社区的'maintainer 接力'：关键仓库预设下一代维护者与署名规范",
+    "企业口述史项目：承认编辑立场并标注访谈谱系，防止'官方史'垄断"
+   ],
+   "modern_applications_en": [
+    "Core engineering knowledge carried primarily in trained staff, hedged by rotation and multi-mentor pairing against single-point loss",
+    "Open-source maintainer relay: key repositories pre-designate successors and authorship norms",
+    "Corporate oral-history programs: editorial stance acknowledged and interview genealogies marked, preventing one official history"
+   ],
+   "related_modes": [
+    "M-CC-001",
+    "M-CC-008",
+    "M-CC-004",
+    "M-CC-005"
+   ],
+   "representative_figures": [
+    "苏格拉底 (Socrates)",
+    "柏拉图 (Plato)",
+    "孔子 (Confucius)",
+    "曾子 (Zengzi)"
+   ],
+   "key_quote_zh": "'述而不作'与一字不写却千年学统——两人把'人'做成了最耐久的存储介质。",
+   "key_quote_en": "'Transmit, not compose' and writing nothing yet founding a millennium of schools — both turned persons into the most durable storage medium."
+  },
+  {
+   "id": "M-CC-006",
+   "name_zh": "礼与法的秩序双轨法",
+   "name_en": "The Dual-Rail Order: Ritual and Law as Two Social Kernels",
+   "mode_code": "M-CC-006",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/制度设计",
+   "domain_en": "Political Philosophy / Institutional Design",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "苏格拉底以个人之死为'法律至上'作终极证明，孔子以'克己复礼'为'规范内化'作终极证明——两种秩序内核在同一世纪被各自推到极限。方法论签名有四：其一，规范的两种安装路径——外置强制（法：违约即罚，苏格拉底《克里同》'即便不公也须服从判决'）与内置自觉（礼：'为仁由己'，规范安装在欲望之前）；其二，对越轨的不同处置——法的处置是惩罚，礼的处置是羞感（'知耻近乎勇'），后者成本更低但依赖共同体监督密度；其三，两轨各自的失效面——法在执行者腐败时失效，礼在共同体瓦解时失效，故两人各自补课：苏格拉底建学园训练'哲学王'以修复执行者，孔子删述六经以重建共同体记忆；其四，个人代价的锚定作用——苏格拉底以身殉法、孔子'知其不可而为之'，秩序命题的信用由创立者的不可逆损失抵押。这一模式把制度设计从单内核改写为双内核互备。",
+   "definition_en": "Socrates proved 'law supreme' with his own death; Confucius proved 'norm internalization' with 'restrain self, return to ritual' — two order-kernels each driven to the limit in the same century. Four signatures. First, two install paths for norms: external enforcement (law — breach is punished; in the Crito, obey the verdict even unjust) versus internal awakening (ritual — 'becoming ren depends on oneself'; the norm is installed upstream of desire). Second, divergent handling of deviation: law punishes, ritual shames ('knowing shame is near courage') — cheaper, but dependent on community surveillance density. Third, each rail's failure surface: law fails when executors are corrupt, ritual fails when the community dissolves — so each man patched the other's rail: Socrates built the Academy to repair the executors, Confucius edited the Six Classics to rebuild communal memory. Fourth, the anchoring power of personal cost: Socrates dying for law, Confucius 'doing what he knows is hopeless' — the credibility of an order-thesis is collateralized by its founder's irreversible loss. The mode rewrites institutional design from single-kernel to dual-kernel mutual backup.",
+   "source_chapter": "《克里同篇》'法律的声音'、《申辩篇》守法与良知冲突；《论语·颜渊》'克己复礼为仁'、《为政》'道之以德齐之以礼……有耻且格'",
+   "key_concepts": [
+    "礼法双轨",
+    "克己复礼",
+    "法律至上",
+    "知耻"
+   ],
+   "process_zh": [
+    "制度设计双内核并装：外置强制（罚）与内置自觉（耻/荣誉），任一内核不可单独承载全部秩序",
+    "为两轨各写失效面预案：法轨预设执行者腐败场景，礼轨预设共同体瓦解场景",
+    "秩序命题须由创立者的不可逆损失抵押：规则制定者第一个受规则约束并公开承受",
+    "越轨处置优先用羞感与恢复，惩罚作为最后手段——降低秩序运行成本"
+   ],
+   "process_en": [
+    "Install dual kernels: external enforcement (penalty) and internal awakening (shame/honor); neither kernel alone can carry the whole order",
+    "Write failure-surface contingencies for each rail: law rail presupposes corrupt-executor scenarios, ritual rail presupposes community-dissolution scenarios",
+    "Collateralize an order-thesis with the founder's irreversible loss: rule-makers bound first, publicly bearing the rule",
+    "Prefer shame and restoration over punishment for deviations — penalty as last resort, lowering the order's running cost"
+   ],
+   "representative_cases_zh": [
+    "苏格拉底《克里同篇》拒逃：越狱将摧毁'法律优先于私怨'的整个命题——他区分'遵守不公判决'与'服从法律程序'，以死维护程序信用而非判决正义性",
+    "孔子'道之以政，齐之以刑，民免而无耻；道之以德，齐之以礼，有耻且格'——先秦最清晰的制度成本分析：刑罚只能让'免'（侥幸躲避），礼让'格'（内在归正），前者维持成本永续、后者一次性安装",
+    "反面警示：柏拉图《理想国》'高贵的谎言'（金银铜铁神话）用礼的'内化'之名行愚民之实——内置自觉被设计为可操纵的灌输时，礼轨成为最深的暴政。教训：内化必须是可被诘问的真信，不是植入。",
+    "反面警示：汉以后'礼法合一'把儒家礼教写入律令（'春秋决狱'），两轨互备退化为两轨互噬——礼的道德预期抬高法的惩罚尺度（'不孝'入刑）。教训：双轨须保持判据分离，合流即双轨皆失。",
+    "反面警示：苏格拉底的守法绝对主义被现代批判为对恶法的无条件服务（如'守法即正当'的辩护）——法轨缺乏'良法判据'时，殉法从锚点退化为同谋。教训：法律至上命题须内嵌'恶法可诉'的更新通道。"
+   ],
+   "representative_cases_en": [
+    "Socrates in the Crito: escape would destroy the whole thesis that law outranks private grievance — he distinguishes 'obeying an unjust verdict' from 'obeying legal process', dying to protect procedural credit, not the verdict's justice",
+    "Confucius: 'govern by edicts and penalties and people evade without shame; govern by virtue and ritual and they have shame and reform' — pre-Qin's clearest institutional cost analysis: penalties buy evasion ('mian'), ritual installs internal correction ('ge'), the former's cost is perpetual, the latter a one-time install",
+    "Cautionary: Plato's 'noble lie' (gold-silver-bronze myth) smuggles indoctrination under the banner of internalization — when the inward kernel is designed as manipulable implantation, the ritual rail becomes the deepest tyranny. Lesson: internalization must be genuine, questionable belief — never implantation.",
+    "Cautionary: post-Han 'merger of ritual and law' (Chunqiu adjudication) let the two rails devour each other — moral expectations inflated penal severity (filial impiety criminalized). Lesson: keep the rails' criteria separate; merger loses both.",
+    "Cautionary: Socrates' legal absolutism is criticized as unconditional service to bad law ('legality equals legitimacy') — without a 'good-law criterion', dying for law degrades from anchor to accomplice. Lesson: the law-supremacy thesis needs a built-in channel for challenging unjust law."
+   ],
+   "modern_applications_zh": [
+    "组织合规双轨：纪律处罚与荣誉文化并行，任一单独使用都会被绕过",
+    "共同体规范的'羞感设计'：开源社区以公开评审与署名信用替代部分许可证诉讼",
+    "'规则制定者第一个受约束'：高管薪酬公开化、高管先用新制度"
+   ],
+   "modern_applications_en": [
+    "Dual-rail corporate compliance: discipline and honor culture run in parallel; either alone gets circumvented",
+    "Shame-based norm design in communities: open review and attribution credit replacing parts of license litigation",
+    "'Rule-makers bound first': executive pay transparency and executives onboarding new policies on themselves"
+   ],
+   "related_modes": [
+    "M-CC-003",
+    "M-CC-007",
+    "M-CC-001",
+    "M-CC-006"
+   ],
+   "representative_figures": [
+    "苏格拉底 (Socrates)",
+    "孔子 (Confucius)",
+    "柏拉图 (Plato)",
+    "曾子 (Zengzi)"
+   ],
+   "key_quote_zh": "'克己复礼'与《克里同》拒逃——一个把规范装进心里，一个以死为法律作保。",
+   "key_quote_en": "'Restrain self, return to ritual' and the Crito's refusal — one installs norms in the heart, the other bonds law with his life."
+  },
+  {
+   "id": "M-CC-007",
+   "name_zh": "美德即知识法",
+   "name_en": "Virtue-as-Knowledge: Ethics Run as an Epistemic Program",
+   "mode_code": "M-CC-007",
+   "category": "核心方法",
+   "domain_zh": "哲学/伦理学",
+   "domain_en": "Philosophy / Ethics",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "两人共同的核心等式：道德失败是认知失败——'知'与'德'不是两个领域而是一个。方法论签名有四：其一，无人自愿作恶——苏格拉底'无人明知善而作恶'，孔子'知仁者鲜'与'好仁不好学，其蔽也愚'，两者都把恶归因于认知残缺而非意志腐坏；其二，德目须可定义、可教——若勇敢即知识，则勇敢可教，美诺悖论（德能否教）在两人处都是肯定倾向；其三，知识须结构化——孔子'博学于文，约之以礼'的博约结构、苏格拉底从具体德目逼向单一'美德整体'，都拒绝把道德留为散点格言；其四，闭环在行为验证——'知'的最终检验仍是生活（'听其言而观其行'），知识论与伦理学共用一套验证协议。这一模式把伦理学从规训改写为认知工程：改道德先改认知地图。",
+   "definition_en": "The shared core equation: moral failure is cognitive failure — 'knowing' and 'virtue' are one field, not two. Four signatures. First, no one does evil knowingly: Socrates' 'no one does wrong willingly'; Confucius' 'few know ren' and 'loving ren without loving learning veils it in folly' — both attribute evil to cognitive deficit, not corrupt will. Second, virtues must be definable and teachable: if courage is knowledge, courage can be taught; the Meno paradox (can virtue be taught?) tends affirmative in both. Third, knowledge must be structured: Confucius' 'broaden in culture, discipline with ritual' (bo-yue) and Socrates' squeeze from particular virtues toward a single unity of virtue both refuse to leave morality as scattered maxims. Fourth, the loop closes in behavioral verification: 'knowing' is finally tested by living ('listen to words and watch conduct') — epistemology and ethics share one verification protocol. The mode rewrites ethics from discipline into cognitive engineering: to change conduct, change the cognitive map.",
+   "source_chapter": "《论语·雍也》'知者利仁'、《阳货》六言六蔽；柏拉图《普罗泰戈拉篇》'无人自愿作恶'论证、《美诺篇》德可教",
+   "key_concepts": [
+    "美德即知识",
+    "无人自愿作恶",
+    "好学",
+    "知行合一（先声）"
+   ],
+   "process_zh": [
+    "把行为问题先判为认知问题：改造行为前先审计当事人的认知地图（对什么无知、误以为什么知）",
+    "培训预算优先投向'德目结构化'：把价值观从格言墙降维成可教、可测、可迭代的课程",
+    "对屡犯者先做'知识缺口诊断'再谈惩戒：多数'明知故犯'实为'不知其所以知'",
+    "知的验证协议与行统一：任何'已理解'的判定须通过行为证据复核"
+   ],
+   "process_en": [
+    "Re-classify conduct problems as cognition problems: before behavior change, audit the actor's cognitive map (what they are ignorant of, what they wrongly believe they know)",
+    "Prioritize training budgets on structuring virtues: turn value statements from poster walls into teachable, testable, iterable curricula",
+    "Diagnose knowledge gaps before punishing repeat offenders: most 'knowing violations' are 'not knowing what knowing requires'",
+    "Unify the verification protocol of knowing and doing: any 'understood' verdict must be re-confirmed by behavioral evidence"
+   ],
+   "representative_cases_zh": [
+    "苏格拉底《普罗泰戈拉篇》击败'德不可教'论：若德是知识则可教——用'无人自愿作恶'的量尺论证勇气与智慧不可分，被说服者当场放弃'意志败坏论'",
+    "孔子'六言六蔽'（《阳货》）：好仁不好学则愚、好知不好学则荡、好信不好学则贼——同一美德缺认知配套即翻转为恶德，是'美德即知识'最紧凑的东方矩阵表述",
+    "反面警示：亚里士多德对'美德即知识'的最强反驳——'知而不行'（akrasia，意志薄弱）在经验上真实存在，认知充分者仍会败德。教训：认知是德性的必要非充分条件，方法须预留意志与习惯的第二引擎。",
+    "反面警示：宋明理学'存天理灭人欲'把'德即知'推向知识垄断，德性判断权集中于经学解释权——伦理认知工程一旦与权力结合，'无知'成为道德罪名的构建工具。教训：认知工程须防解释权垄断。",
+    "反面警示：现代组织把'美德即知识'降为合规培训完课率——知识交付了，行为没变，因为缺了行为验证闭环与情境演练。教训：等式的重心在验证协议，不在课程交付。"
+   ],
+   "representative_cases_en": [
+    "Socrates in the Protagoras defeating 'virtue cannot be taught': if virtue is knowledge it is teachable — the unity of courage and wisdom argued by the yardstick 'no one does wrong willingly', dissolving the corrupt-will theory on the spot",
+    "Confucius' six virtues six veils (Yanghuo): love of ren without learning veils it in folly, love of knowledge without learning in dissipation, love of good faith without learning in harm — the compact Eastern matrix of virtue-as-knowledge: the same virtue without its cognitive complement flips into vice",
+    "Cautionary: Aristotle's strongest objection — akrasia (weakness of will) is empirically real; the cognitively sufficient still fail morally. Lesson: cognition is necessary, not sufficient; the method needs a second engine of habit and will.",
+    "Cautionary: Neo-Confucian 'preserve heavenly principle, extinguish human desire' pushed virtue-as-knowledge into cognitive monopoly — moral judgment power concentrated in hermeneutic authority. Once cognitive engineering weds power, 'ignorance' becomes a constructed moral indictment. Lesson: guard against interpretive monopoly.",
+    "Cautionary: modern organizations degrade the equation into compliance-training completion rates — knowledge delivered, conduct unchanged, missing the behavioral verification loop and situational drills. Lesson: the equation's weight lies in the verification protocol, not course delivery."
+   ],
+   "modern_applications_zh": [
+    "安全工程'违规先查认知'：先审计操作者对风险的地图（护具必要性认知），再谈处分",
+    "领导力培训把价值观结构化为情景判断题库并配套行为复核，替代格言式宣讲",
+    "习惯科学（habit science）补足'知而不行'：以环境设计与微习惯接驳认知教育的失效面"
+   ],
+   "modern_applications_en": [
+    "Safety engineering audits the operator's risk cognitive map (why the harness matters) before disciplinary talk",
+    "Leadership training structures values into situational-judgment banks with behavioral re-verification, replacing aphorism walls",
+    "Habit science patches 'knowing without doing': environment design and micro-habits bridging the failure surface of cognitive education"
+   ],
+   "related_modes": [
+    "M-CC-001",
+    "M-CC-003",
+    "M-CC-009",
+    "M-CC-007"
+   ],
+   "representative_figures": [
+    "苏格拉底 (Socrates)",
+    "孔子 (Confucius)",
+    "柏拉图 (Plato)",
+    "曾子 (Zengzi)"
+   ],
+   "key_quote_zh": "'好仁不好学，其蔽也愚'与'无人自愿作恶'——两个文明在同一处把恶判读为无知。",
+   "key_quote_en": "'Loving ren without learning veils it in folly' and 'no one does wrong willingly' — two civilizations reading evil as ignorance at the same point."
+  },
+  {
+   "id": "M-CC-008",
+   "name_zh": "述而不作与转译创作法",
+   "name_en": "Transmit-vs-Compose: The Editor as Second Author",
+   "mode_code": "M-CC-008",
+   "category": "核心方法",
+   "domain_zh": "写作学/知识传播",
+   "domain_en": "Literary Craft / Knowledge Transmission",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "两人皆'不写'，其思想却经由两种相反的记录策略各自成为世界级文本：孔门弟子辑录言行成《论语》（碎片化、编年体、低干预），柏拉图虚构苏格拉底成《对话篇》（戏剧化、体系化、高干预）。方法论签名有四：其一，记录者自觉选择干预度——辑录派把'忠实'置顶（'子不语怪力乱神'的克制即记录纪律），创作派把'传神'置顶（柏拉图自承中期对话已是自己的哲学）；其二，记录者立场显式化——曾门辑录与柏拉图创作各自暴露其选择性（哪些对话被收录、哪些弟子发言被保留皆是立场）；其三，以文体承接思想的形态——格言体承载可引诵的实践智慧，戏剧体承载可分析的论证结构，文体不是容器而是思想的部分本身；其四，双重署名结构——《论语》题'孔子曰'而编者为佚名弟子，《对话篇》署柏拉图而主角是苏格拉底，'谁在说'与'谁在写'的分离被两人传统各自制度化。这一模式把传播从'复制'改写为'转译工程'。",
+   "definition_en": "Neither man wrote, yet their thought became world-text through two opposite recording strategies: the disciples' Analects (fragmented, annalistic, low intervention) versus Plato's fictionalized Dialogues (dramatized, systematized, high intervention). Four signatures. First, the recorder consciously chooses intervention level: the compilation school ranks fidelity first (the Analects' restraint — 'the Master did not speak of prodigies, force, disorder, or spirits' — is recording discipline), the composition school ranks vividness first (Plato concedes middle-period dialogues are his own philosophy). Second, the recorder's stance made explicit: what is included, whose speeches survive — each tradition exposes its selectivity. Third, genre as part of the thought itself: aphoristic form carries recitable practical wisdom; dramatic form carries analyzable argument structure — form is not a container but a component of the thought. Fourth, dual-signature structure: 'Confucius said' with anonymous compilers; 'Plato' with Socrates as protagonist — the separation of 'who speaks' from 'who writes' is institutionalized in both traditions. The mode rewrites transmission from copying into translation engineering.",
+   "source_chapter": "《论语》辑录与'子不语怪力乱神'；柏拉图第七书信对'无可书写之学'的自陈与《对话篇》的虚构权",
+   "key_concepts": [
+    "述而不作",
+    "辑录",
+    "转译",
+    "双重署名"
+   ],
+   "process_zh": [
+    "知识传播前显式选择干预度：忠实辑录或体系重构，不混用却假装其一",
+    "记录者立场写入交付物：选材标准、收录边界随文本公开",
+    "按思想的运行形态选文体：需背诵践行的用格言体，需推演检验的用论证体",
+    "落实'谁在说/谁在写'双重署名：转译者承担转译责任，不冒充原声"
+   ],
+   "process_en": [
+    "Choose the intervention level explicitly before transmission: faithful compilation or systematic reconstruction — never blend while claiming one",
+    "Write the recorder's stance into the deliverable: selection criteria and inclusion boundaries travel with the text",
+    "Match genre to the thought's operating mode: aphorism for what must be memorized and enacted, argument-drama for what must be derived and tested",
+    "Institutionalize dual signatures of 'who speaks / who writes': the translator owns the translation, never impersonating the source voice"
+   ],
+   "representative_cases_zh": [
+    "《论语》的碎片辑录体反而成为最高强度的传播文本：章句短到可终身携带，弟子发言保留使文本自带多视角，《论语》成为'低干预记录'的工程学胜利",
+    "柏拉图在《泰阿泰德》等篇以助产术自喻并承认无法写出'活的知识'，却仍选择戏剧体转译——他清楚代价（体系被误读为苏格拉底原意）并定价了代价，是有意识的转译创作",
+    "反面警示：《对话篇》的高干预使'历史苏格拉底'永久不可考，柏拉图署名淹没苏格拉底——转译自由度过高时，源头声纹丢失。教训：高干预转译必须保留源声对照（如早期对话与中期对话分层署名）。",
+    "反面警示：《论语》低干预留下大量语境缺失（'《诗》三百……思无邪'的对话场景不明），后世注疏为补语境各自虚构，碎片成为歧义工厂。教训：低干预记录须强制附场景元数据，否则歧义由后人买单。",
+    "反面警示：现代企业把'述而不作'当作拒绝文档化的借口，知识留在'人即文本'上随人员流失蒸发——辑录是高投入工程不是默认状态。教训：'不写'必须配'有人记录'的建制，否则等于不传。"
+   ],
+   "representative_cases_en": [
+    "The Analects' fragment-compilation form became the strongest transmission text ever: chapters short enough to carry for life, disciples' voices retained for built-in multi-perspectivity — an engineering victory of low-intervention recording",
+    "Plato self-describes midwifery in the Theaetetus and admits living knowledge cannot be written, yet still chooses dramatic translation — pricing the cost (system misread as Socrates' own voice) consciously; translation-as-composition by design",
+    "Cautionary: the Dialogues' high intervention made the historical Socrates permanently unknowable — excessive translational freedom loses the source voiceprint. Lesson: high-intervention translation must keep source-voice contrast (early vs. middle dialogues layering attribution).",
+    "Cautionary: the Analects' low intervention left context gaps (dialogue settings for 'The 300 poems... no depraved thoughts' unknown); later commentaries invented their own contexts — fragments became an ambiguity factory. Lesson: low-intervention records must carry scene metadata, or ambiguity is billed to posterity.",
+    "Cautionary: modern firms use 'transmit, not compose' as an excuse to skip documentation; knowledge evaporates with staff — compilation is a high-investment engineering effort, not a default state. Lesson: 'not writing' requires an institution of 'someone recording', or it equals not transmitting."
+   ],
+   "modern_applications_zh": [
+    "企业知识库的'口述实录 vs 方法论重构'双轨：访谈原声与重构手册分层署名",
+    "会议纪要'低干预'规范：只记发言不记'精神'，场景元数据（议题、在场者）强制附注",
+    "技术布道中的戏剧体重构：以虚构案例承载论证结构，署名区隔原声与重构"
+   ],
+   "modern_applications_en": [
+    "Corporate knowledge bases run dual tracks — verbatim interview records vs. reconstructed methodology handbooks — with layered signatures",
+    "Low-intervention minutes norms: record speeches only, mandatory scene metadata (topic, attendees), no 'spirit of the meeting'",
+    "Dramatic reconstruction in technical evangelism: fictional cases carrying argument structure, attribution separating source voice from reconstruction"
+   ],
+   "related_modes": [
+    "M-CC-005",
+    "M-CC-001",
+    "M-CC-009",
+    "M-CC-008"
+   ],
+   "representative_figures": [
+    "孔子 (Confucius)",
+    "苏格拉底 (Socrates)",
+    "柏拉图 (Plato)",
+    "曾子 (Zengzi)"
+   ],
+   "key_quote_zh": "'述而不作，信而好古'与柏拉图的戏剧转译——同源思想，两种记录工程，两种文明文本。",
+   "key_quote_en": "'I transmit but do not compose' and Plato's dramatic translation — one source, two recording engineers, two civilizational texts."
+  },
+  {
+   "id": "M-CC-009",
+   "name_zh": "学思互证法",
+   "name_en": "The Learn-Examine Loop: Absorption and Testing as One Cycle",
+   "mode_code": "M-CC-009",
+   "category": "核心方法",
+   "domain_zh": "认识论/学习方法",
+   "domain_en": "Epistemology / Learning Method",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "孔子的'学而不思则罔，思而不学则殆'与苏格拉底的'助产术'构成同一循环的东西两端：输入不经检验则成堆积，检验不经输入则成空洞。方法论签名有四：其一，双引擎恒开——'学'（吸收传统、文本、他人经验）与'思'（省察、诘问、重构）不可单独供给，孔子把偏废双方各判一病（罔/殆），苏格拉底把'有学问但不省察'与'空转聪明'都判为伪知识；其二，输入有源——'学'的对象是六艺与文献传统（孔子），是匠人、诗人与对话者的既有确信（苏格拉底），两家的'思'都以真实材料为靶，不思虚空；其三，检验有协议——'举一反三'与诘问反例都是标准化的迁移测试，未通过则回到输入端；其四，循环终身化——'发愤忘食，乐以忘忧，不知老之将至'与苏格拉底临刑仍演练论证，学习循环被设计为不可退出。这一模式把学习从'获取信息'改写为'双引擎循环工程'。",
+   "definition_en": "Confucius' 'learning without thought is labor lost; thought without learning is perilous' and Socrates' midwifery are the East and West ends of one cycle: input untested becomes hoarding; testing un-fed becomes hollow. Four signatures. First, both engines always on: 'learning' (absorbing tradition, texts, others' experience) and 'examining' (interrogating, cross-questioning, restructuring) cannot run singly — Confucius sentences each neglect to its own disease (bewilderment / peril); Socrates condemns both the erudite-unexamined and the clever-empty to pseudo-knowledge. Second, input has a source: the object of learning is the Six Arts and the textual tradition (Confucius), the existing convictions of craftsmen, poets, interlocutors (Socrates) — both 'examinations' aim at real material, never a vacuum. Third, testing has a protocol: 'return with three corners' and counterexample interrogation are standardized transfer tests; on failure, back to the input end. Fourth, the loop is lifelong: 'so absorbed as to forget food, so joyful as to forget sorrow, unaware old age is coming' and Socrates rehearsing argument on the day of execution — the learning cycle is designed to be inescapable. The mode rewrites learning from information acquisition into dual-engine cycle engineering.",
+   "source_chapter": "《论语·为政》'学而不思则罔'、《述而》'举一隅不以三隅反'；柏拉图《泰阿泰德》助产术、《申辩篇》临终论证演练",
+   "key_concepts": [
+    "学思结合",
+    "助产术",
+    "举一反三",
+    "终身学习"
+   ],
+   "process_zh": [
+    "学习流程强制双段：每一段输入须有对应的省察产出，未省察的输入标记'未消化'",
+    "以迁移测试代替复述测试：能对'举一隅'给出'三隅反'才算掌握",
+    "把省察绑定真实材料：诘问对象永远是具体文本、案例、既有确信，不做空转反思",
+    "学习循环终身化并公开化：把'仍在学'写入身份（苏格拉底之'爱智'），而非阶段性资格"
+   ],
+   "process_en": [
+    "Make every learning cycle two-phase: each input must yield an examination output; unexamined input is tagged 'undigested'",
+    "Replace recall tests with transfer tests: mastery is certified only by 'three corners returned'",
+    "Bind examination to real material: the target of interrogation is always a concrete text, case, or conviction — never free-floating reflection",
+    "Make the learning loop lifelong and public: write 'still learning' into identity (Socrates' philo-sophia), not a stage-gate credential"
+   ],
+   "representative_cases_zh": [
+    "孔子'温故而知新，可以为师矣'：把复习（故）与重构（新）压进同一动作，学思循环被压缩为单步可判定的标准——'能出新'即循环闭合的证据",
+    "苏格拉底临刑日仍在《斐多》中演练灵魂不朽论证并劝同狱者继续追问——学习循环对死亡豁免关闭，是'终身化'的极限注脚",
+    "反面警示：苏格拉底式'产婆'只出不进，对没有知识储备的对话者（未'受孕'者）无能为力——他自承'不生产知识只接生'，纯检验引擎无输入时熄火。教训：思的引擎须以学的引擎预载，教练对空白领域学员应先供料。",
+    "反面警示：孔子'学'以六艺经典为唯一正源，'攻乎异端，斯害也已'被后世读为排斥异见——输入源单一化后，思的检验对象贫瘠化，循环退化为经学复读。教训：输入源必须保持多元，'异端'是检验引擎的燃料不是敌人。",
+    "反面警示：现代'终身学习'话语被降格为课程囤积——只开输入引擎，'思'的产出为零，证书即终点。教训：学思互证的判据是产出（新判断、新迁移），不是学时与证书。"
+   ],
+   "representative_cases_en": [
+    "Confucius' 'reviewing the old and deriving the new — fit to be a teacher': review (old) and reconstruction (new) compressed into one act; 'deriving the new' is the certifiable evidence the loop has closed",
+    "Socrates on execution day in the Phaedo still rehearsing the immortality argument and urging his jail companions to keep questioning — the learning loop exempted from death, the limiting footnote of 'lifelong'",
+    "Cautionary: the Socratic midwife only delivers, never conceives — powerless before interlocutors with no knowledge in the domain ('not pregnant'); he admitted he produces nothing, only assists. A pure testing engine stalls without input. Lesson: pre-load the examination engine with the learning engine; coaches supply material to novices first.",
+    "Cautionary: Confucius' 'learning' took the Six Arts as the sole orthodoxy ('attacking heterodoxy is harmful indeed' as later read) — single-source input starves the testing engine, the loop decays into canonical recitation. Lesson: keep input sources plural; 'heterodoxy' is the testing engine's fuel, not its enemy.",
+    "Cautionary: modern 'lifelong learning' degraded into course hoarding — input engine on, examination output zero, certificates as terminus. Lesson: the learn-examine loop is certified by outputs (new judgments, new transfers), not hours and certificates."
+   ],
+   "modern_applications_zh": [
+    "工程团队的'输入配对输出'学习制度：每读完一篇论文/代码须产出反驳或重构，否则不入知识库",
+    "组织以'举一反三测试'代替培训完课率：能迁移到新场景才算掌握",
+    "个人知识管理的'双账本'：输入账（读了什么）与省察账（改了什么判断）强制配对"
+   ],
+   "modern_applications_en": [
+    "Engineering teams pair every input with an output: no paper/code enters the knowledge base without a rebuttal or reconstruction",
+    "Organizations replace completion-rate metrics with transfer tests: mastered means movable to a new scenario",
+    "Personal knowledge management's double ledger: input ledger (what was read) forcibly paired with examination ledger (what judgments changed)"
+   ],
+   "related_modes": [
+    "M-CC-001",
+    "M-CC-002",
+    "M-CC-010",
+    "M-CC-009"
+   ],
+   "representative_figures": [
+    "孔子 (Confucius)",
+    "苏格拉底 (Socrates)",
+    "柏拉图 (Plato)",
+    "曾子 (Zengzi)"
+   ],
+   "key_quote_zh": "'学而不思则罔，思而不学则殆'与助产术——同一循环的两台引擎，缺一台即熄火。",
+   "key_quote_en": "'Learning without thought is lost; thought without learning is peril' and midwifery — one cycle, two engines; lose either, the cycle stalls."
+  },
+  {
+   "id": "M-CC-010",
+   "name_zh": "轴心突围代价审计法",
+   "name_en": "The Axial-Cost Audit: Pricing the Breakthrough Honestly",
+   "mode_code": "M-CC-010",
+   "category": "核心方法",
+   "domain_zh": "历史比较/代价分析",
+   "domain_en": "Comparative History / Cost Accounting",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "两人的突围都标了价，且都由本人支付：苏格拉底饮鸩，孔子惶惶如丧家之犬而道不行。方法论签名有四：其一，创新与既有秩序存在结构性冲突——诘问必然触碰权贵确信（苏格拉底'腐蚀青年'罪），平民教育必然触动贵族垄断（孔子'有教无类'遭世袭贵族排斥），突围的代价不是意外而是设计的必然产物；其二，代价由创立者本人先行承担——两人都不把代价外部化：苏格拉底拒绝学生安排的逃亡，孔子周游列国十四年自食其困，'创始人自付费'使命题可信度与个人风险绑定；其三，代价分期回收——苏格拉底的死在八十年后兑换为学园千年（柏拉图明言这是其执笔动因），孔子的'道不行'在四百年后兑换为汉代国教，突破性投资的回报周期以世代计；其四，代价不对称核算——两人被处死/被放逐的直接成本远小于其思想衍生文明数千年制度变迁的总成本，历史级创新的成本核算必须以千年为分母。这一模式把'思想史的牺牲叙事'改写为'突破性投资的财务模型'。",
+   "definition_en": "Both men's breakthroughs carried a price, and both paid it personally: Socrates drank the hemlock; Confucius wandered 'like a homeless dog' with his Way unadopted. Four signatures. First, innovation structurally conflicts with the incumbent order — interrogation necessarily touches the powerful's convictions (Socrates' charge of 'corrupting the youth'), mass education necessarily touches aristocratic monopoly (Confucius' 'education without class' repelled by hereditary lords); the cost is not accident but a designed product. Second, the founder pays first, not last: Socrates refusing his students' escape plan, Confucius bearing fourteen years of exile states by state — 'founder pays' binds the thesis's credibility to personal risk. Third, costs amortize across generations: Socrates' death was cashed eighty years later into a millennium of the Academy (Plato named it as his motive to write); Confucius' 'the Way does not prevail' was cashed four hundred years later into the Han state cult — breakthrough investments mature on generational horizons. Fourth, asymmetric accounting: the direct cost (one execution, one exile) is trivial against the total cost of millennia of institutional change their thought induced — civilization-scale innovation must be audited with a millennium as denominator. The mode rewrites the 'martyr narrative' of intellectual history as a financial model of breakthrough investment.",
+   "source_chapter": "柏拉图《申辩篇》38a'更美好的死'；柏拉图第七书信自陈执笔动因；《史记·孔子世家》'累累若丧家之狗'与'知其不可而为之'",
+   "key_concepts": [
+    "代价审计",
+    "知其不可而为之",
+    "殉道抵押",
+    "世代回报"
+   ],
+   "process_zh": [
+    "立项时显式核算'对既有秩序的结构性冒犯'：突围代价写进计划，不当意外处理",
+    "突破性主张由主张者自付首批代价：创立者先受规则约束，信用与风险绑定",
+    "以世代为回报周期设置预期：突破性投资的估值不用年度报表衡量",
+    "对'小代价大衍生'的历史级创新单独建账：直接成本与文明总成本分开核算"
+   ],
+   "process_en": [
+    "Price the structural offense to the incumbent order at project launch: breakthrough costs enter the plan, never treated as surprises",
+    "The claimant pays the first tranche personally: founders bound by their own rules first, credit and risk tied",
+    "Set return horizons in generations: breakthrough investments are never valued on annual statements",
+    "Ledger civilization-scale innovations separately: direct cost and derived civilizational cost audited apart"
+   ],
+   "representative_cases_zh": [
+    "苏格拉底在《申辩篇》拒绝求赦并称'分手的时刻到了，我去死，你们去活，谁的去路好，唯有神知道'——把死刑重新定价为'哲学事业的投资'，代价的会计科目被他当场改写",
+    "孔子'知其不可而为之'：明知列国不会采纳仍十四年周游——'不可'的判断与'为之'的选择并列，宣告投资决策不取决于当期成功率，而取决于千年后资产（儒家文明）的贴现值",
+    "反面警示：苏格拉底之死的'殉道叙事'被后世过度美化，掩盖了他对民主政体的尖锐敌意与雅典恢复民主后的政治清算背景——代价审计若被叙事接管，会从核算退化为宣传。教训：殉道账目须与政治账目分列，防止牺牲叙事豁免思想中的真实错误。",
+    "反面警示：汉代'独尊儒术'把孔子思想的回收兑换为意识形态垄断，'有教无类'的普惠内核被经学门槛反向阉割——后世回报未必是创立者想要的回报，投资的'最终资产'会漂移。教训：代价审计须写明'可接受回报的边界'，防冒名兑现。",
+    "反面警示：现代初创文化把'创始人自付代价'浪漫化为'不领薪水+ burnt out'的常态，代价审计被英雄叙事替代——个人牺牲掩盖了结构性定价错误（股权/预算对代价的对冲缺失）。教训：自付代价应是信用抵押，不是定价缺位。"
+   ],
+   "representative_cases_en": [
+    "Socrates in the Apology refusing to plead for clemency: 'the hour of departure has arrived — I go to die, you to live; which is better, only God knows' — re-pricing the death sentence as an investment in the philosophical project, rewriting its accounting line on the spot",
+    "Confucius' 'doing what one knows is hopeless': knowing the states would not adopt him yet wandering fourteen years — the judgment 'hopeless' and the choice 'doing it' side by side, declaring that investment decisions depend not on current success rates but on the discounted value of a millennium-later asset (Confucian civilization)",
+    "Cautionary: the martyr narrative of Socrates' death was over-beautified, veiling his sharp hostility to democracy and the political purge context of restored Athens — when narrative takes over the audit, accounting degrades into propaganda. Lesson: keep the martyr ledger and the political ledger separate; sacrifice stories must not exempt real errors in the thought.",
+    "Cautionary: Han 'exalting Confucianism alone' cashed the returns into ideological monopoly, gutting the inclusive core of 'education without class' behind classical-erudition gates — later returns may not be the returns the founder wanted; the 'final asset' of an investment drifts. Lesson: the cost audit must state 'acceptable-return boundaries' against counterfeit cashing.",
+    "Cautionary: modern startup culture romanticizes 'founder pays' into a norm of no-salary burnout — hero narrative replacing cost accounting, personal sacrifice masking structural mispricing (missing equity/budget hedging of the cost). Lesson: paying personally is collateral for credit, not the absence of a price."
+   ],
+   "modern_applications_zh": [
+    "突破性研发立项的'冒犯预审'：新范式对既有产品线/权责结构的冲击显式估价并预留预算",
+    "创始人代价条款：核心团队自付首批成本（降薪、回购承诺）作为对外信用抵押",
+    "长期资本对'世代回报'资产的估值方法：用衍生文明/生态总成本而非当期营收做分母"
+   ],
+   "modern_applications_en": [
+    "Pre-audit the offense in breakthrough R&D: explicit valuation of a new paradigm's shock to incumbent product lines and power structures, with budget reserved",
+    "Founder-cost clauses: the core team pays the first tranche (pay cuts, buyback pledges) as external credit collateral",
+    "Valuing generational-return assets in long capital: derived-civilization/ecosystem total cost as denominator, not current revenue"
+   ],
+   "related_modes": [
+    "M-CC-001",
+    "M-CC-006",
+    "M-CC-005",
+    "M-CC-010"
+   ],
+   "representative_figures": [
+    "苏格拉底 (Socrates)",
+    "孔子 (Confucius)",
+    "柏拉图 (Plato)",
+    "色诺芬 (Xenophon)"
+   ],
+   "key_quote_zh": "'知其不可而为之'与'我去死，你们去活'——轴心突围的价格，两人都用本人支付并千年回收。",
+   "key_quote_en": "'Doing what one knows is hopeless' and 'I go to die, you to live' — the Axial breakthrough's price, paid in person, cashed across a millennium."
+  }
+ ]
+}

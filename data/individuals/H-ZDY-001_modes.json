@@ -1,0 +1,468 @@
+{
+  "schema_version": "v6",
+  "code": "H-ZDY-001",
+  "figure_name_zh": "周敦颐",
+  "figure_name_en": "Zhou Dunyi",
+  "mode_category": "理学开山·宇宙生成与诚体工夫",
+  "era": "北宋 (1017-1073 CE)",
+  "figure_context": "道州营道人，历知洪州分宁县、南安军司理参军、虔州通判、郴州知州、广东转运判官、知南康军，为官三十余年官位不显而治绩有声。晚居庐山莲花峰下，以家乡濂溪命名书堂，世称濂溪先生。程颢、程颐少年时奉父命从其问学一年余，'厌科举之业，慨然有求道之志'。著《太极图说》二百余字、《通书》四十篇，以极简文本为宋明理学立全部总纲，朱熹尊为理学开山。",
+  "thinking_modes": [
+    {
+      "mode_id": "M-ZDY-001",
+      "mode_name_zh": "无极而太极·无形有理法",
+      "mode_name_en": "Wuji and yet Taiji: The Formless Ground of Form",
+      "category": "本体论",
+      "definition_zh": "以'无极'限定'太极'：宇宙总根源既不是任何具体之物（无极），又是一切生成之实有（太极）。本体被描述为'有理无形'——它存在、起作用，却不占据任何对象位置。这一表述把本体从'万物之一'的地位上解放出来，同时避免堕入空无。",
+      "definition_en": "Qualifying the Ultimate (Taiji) with the Formless (Wuji): the source of all is not any one thing, yet is the real ground of all generation—'having principle but no form.' This frees the ontological ground from being one object among objects, without collapsing into nothingness.",
+      "key_principles": [
+        "本体不是万物中的一物，不能以对象方式指认",
+        "'无'在此是'无形'而非'不存在'",
+        "有理无形：起作用但不现身为对象",
+        "总根源必须自身不被生成"
+      ],
+      "typical_outputs": [
+        "对'第一因/底层设施'类概念的精确表述",
+        "避免实体化误置的分析",
+        "框架级问题的奠基性定义"
+      ],
+      "practical_applications": [
+        "系统设计：区分'基础设施'与'其上组件'——基础设施自身不作为可操作对象暴露",
+        "认识论：识别讨论中把'框架前提'误当'论域内对象'的错误",
+        "哲学与科学：讨论宇宙常数、物理定律这类'有理无形'的实在层级"
+      ],
+      "mental_model": "问'X是什么'之前先问'X是不是一个可以指认的东西'。总根源类概念（法则、框架、本体）的共同特征：被一切依赖，自身不被指认。把它当成对象去找，必然找不到而误以为它不存在。",
+      "contrast_modes": [
+        "实体化思维——把每个抽象名词都当物体找",
+        "虚无主义——找不到对象就宣布不存在",
+        "独断论——拒绝说明本体的无形性"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "本体论的核心难题：being as ground vs. being as object（朱陆无极之辩延续数百年）",
+        "科学": "物理定律与波函数这类'无形而实在'的理论实体",
+        "系统科学": "元规则/元框架不在其所治理的对象层内"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "《太极图说》：'无极而太极'——不用'有生于无'，也不用'太极之上复有物'，而是让太极自身带无形之维。",
+          "example_en": "In the Explanation: 'Wuji and yet Taiji'—neither being arising from nothing nor something above Taiji, but Taiji itself carrying a formless dimension."
+        },
+        {
+          "example_zh": "现代类比：宪法不是任何一条具体法律，却是一切法律的效力来源；把宪法当普通法条检索，会漏掉它的'元'性质。",
+          "example_en": "A constitution is not one more law but the source of validity of all laws; searching it as an ordinary statute misses its meta-status."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-002",
+      "mode_name_zh": "太极动静·互为其根法",
+      "mode_name_en": "Motion and Stillness as Each Other's Root",
+      "category": "辩证法",
+      "definition_zh": "太极'动而生阳，动极而静，静而生阴'：动静不是两个实体轮流上台，而是同一过程的两相，且互为对方的根——动到极处即是静之始，静到极处即是动之机。对立面不是相互消灭的关系，而是相互成就、互为存在条件。",
+      "definition_en": "Taiji 'moves and generates yang; at the extreme of motion it becomes still, generating yin.' Motion and stillness are two phases of one process, each the root of the other—opposites condition rather than annihilate each other.",
+      "key_principles": [
+        "对立面是同一过程的两相，非两个实体",
+        "'极'即转化点：物极必反的动力学表述",
+        "互为其根：一方以另一方为存在条件",
+        "转化不是外力导致，而是过程自身节律"
+      ],
+      "typical_outputs": [
+        "对周期性、节律性现象的结构解释",
+        "拐点识别与趋势预判",
+        "对'消灭对手'式策略的批判"
+      ],
+      "practical_applications": [
+        "周期判断：扩张与收缩、忙碌与休整的节律管理",
+        "商业与组织：激进与保守策略按周期轮替而非二选一",
+        "心理调节：识别自身精力周期，在'极'处主动转换"
+      ],
+      "mental_model": "把对立两方看作钟摆而非拔河：钟摆两端互为对方的动力来源。追问'当前状态离'极'还有多远'，比问'谁赢谁输'更能预测下一步。",
+      "contrast_modes": [
+        "你死我活的零和思维",
+        "静态平衡观——以为平衡是静止不动",
+        "单向进步观——以为趋势只会沿一个方向走"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "辩证法的中国形态，早于黑格尔矛盾学说的对立统一表述",
+        "经济学": "景气周期、库存周期中的扩张-收缩互根",
+        "个人管理": "work-rest cycle：恢复不是中断而是生产的一部分"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'动极而静，静而生阴'——张力的顶点本身孕育反转：市场狂热的顶点同时是恐慌的种子。",
+          "example_en": "The peak of motion is the seed of stillness: the height of market euphoria is simultaneously the seed of panic."
+        },
+        {
+          "example_zh": "现代类比：高强度冲刺期结束的那一天，就是恢复期已经开始的那一天——把恢复纳入计划而非事后补救。",
+          "example_en": "The day a sprint of intense work ends is the day recovery has already begun—schedule recovery as part of the cycle, not a patch."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-003",
+      "mode_name_zh": "太极化生·逐级生成法",
+      "mode_name_en": "Stepwise Generative Sequence: From Taiji to All Things",
+      "category": "宇宙论/方法论",
+      "definition_zh": "太极→阴阳→五行→万物：从最简原理出发，经有限的分化步骤，生成全部复杂性。'阳变阴合而生水火木金土……二五之精，妙合而凝'——每一层生成都有明确机制（变、合、妙合），不是跳跃也不是穷举。这是一种'从公理到世界'的体系建构法。",
+      "definition_en": "Taiji → yin-yang → five phases → all things: full complexity generated from a minimal principle through a finite series of differentiation steps, each with its own mechanism. A 'from axiom to world' style of system construction.",
+      "key_principles": [
+        "从最少公理出发",
+        "逐级分化，每级有明确机制",
+        "复杂性=简单原理×迭代分化",
+        "生成链条可逆溯：万物可还原回太极"
+      ],
+      "typical_outputs": [
+        "完整分类体系与层级模型",
+        "从第一原理推导现象的论证结构",
+        "对'涌现'的早期表述"
+      ],
+      "practical_applications": [
+        "知识体系搭建：确定公理层→分类层→实例层的架构",
+        "产品与组织设计：从单一使命逐级派生部门与功能",
+        "教学：先立总纲再逐层展开，避免碎片化灌输"
+      ],
+      "mental_model": "设计任何体系时，先问：我的'太极'（不可再简的第一原理）是什么？然后问：第一级分化是什么？机制是什么？逐级写出生成树，而非罗列要素清单。",
+      "contrast_modes": [
+        "要素罗列法——没有层级与生成关系的平铺清单",
+        "神秘跳跃——用'顿悟'替代逐级机制",
+        "无限还原——只在分析方向走，永远建不起体系"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "宇宙生成论的系统化（太极图式成为后世理学共同框架）",
+        "计算机科学": "从少数公理生成整个形式系统（Lambda演算、元胞自动机）",
+        "生物学": "从有限规则生成复杂生命的涌现思想先声"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'二五之精，妙合而凝'——阴阳二气与五行之精'妙合'而凝成万物：复杂性来自简单元素的组合机制，而非元素本身的复杂。",
+          "example_en": "'The essence of the two and five mysteriously conjoin': complexity arises from a combinatorial mechanism over simple elements, not from complicated elements."
+        },
+        {
+          "example_zh": "现代类比：围棋规则一页纸，局面复杂度超越宇宙原子数——简单规则+迭代机制=复杂涌现。",
+          "example_en": "Go's rules fit on one page yet its game space exceeds the atoms in the universe—simple rules plus iteration yield emergence."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-004",
+      "mode_name_zh": "主静立人极·标准先行法",
+      "mode_name_en": "Anchoring in Stillness to Establish the Ultimate Human Standard",
+      "category": "实践智慧/伦理学",
+      "definition_zh": "讲完宇宙论立刻立'人极'：'圣人定之以中正仁义而主静，立人极焉。'人不问'我能做什么'，先立'人应当成为什么'的最高标准，再从标准反推工夫。'主静'是工夫入口——减损扰动以见本体，而非枯坐。这是目标倒推（back-casting）而非现状顺推。",
+      "definition_en": "After cosmology, Zhou immediately fixes the 'ultimate standard of humanity': the sage anchors in stillness while embodying centrality, correctness, humaneness, and righteousness. One first posits what a human should be, then works backward to method—back-casting rather than extrapolating from the status quo.",
+      "key_principles": [
+        "标准先于路径：先立'人极'再谈工夫",
+        "主静：以减扰、去蔽为工夫入口",
+        "静不是目的，是见'中正仁义'的条件",
+        "从理想态反推当下行动"
+      ],
+      "typical_outputs": [
+        "使命/愿景先行的规划文本",
+        "以终为始的行动清单",
+        "对'能做什么'式机会主义的纠偏"
+      ],
+      "practical_applications": [
+        "个人与组织战略：先定义'成为什么样的人/机构'，再选路径",
+        "决策：用最高标准过滤机会，而非用机会定义自己",
+        "时间管理：先留白（静），再填充（动）"
+      ],
+      "mental_model": "顺推问'从现状出发能走到哪'，倒推问'要达到理想态现在必须做什么'。周敦颐的方法是先立人极（理想态定义），主静（清空干扰）是让理想态能被看见的前提。",
+      "contrast_modes": [
+        "现状顺推——被既有条件定义可能性",
+        "忙碌主义——用行动量替代方向感",
+        "标准虚无——认为'应当'无法约束'能够'"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "伦理学中'理想人格先于道德规则'的进路",
+        "管理学": "back-casting 与 vision-driven planning",
+        "工程": "从规格（spec）反推实现，而非从实现凑合出规格"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "周敦颐在《太极图说》宇宙论之后紧接'立人极'——不让人在宇宙图景中漂泊，立即给出人之为人的锚点。",
+          "example_en": "Right after the cosmology, the text anchors the human: no drifting in the cosmic picture—an immediate definition of what being human means."
+        },
+        {
+          "example_zh": "现代类比：先写下'十年后想成为谁'的完整描述，再倒推今年必须建立的三项能力——而非只列今年能做成的清单。",
+          "example_en": "Write a full description of who you intend to be in ten years, then derive this year's three capabilities—instead of listing merely achievable tasks."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-005",
+      "mode_name_zh": "诚体立本·价值本体法",
+      "mode_name_en": "Sincerity as Ontological Root: Value as First Principle",
+      "category": "伦理学/本体论",
+      "definition_zh": "'诚者，圣人之本''诚，五常之本，百行之源'：诚不是诸德之一，而是诸德得以成立的那个'本'。周敦颐把伦理价值从推导结论提升为第一原理——天道之'乾元'与人之'诚'同源，价值内在于存在结构，而非外部约束。",
+      "definition_en": "'Sincerity is the root of the sage—the fountain of the five constants and source of the hundred deeds.' Cheng is not one virtue among many but the ground that makes virtues possible: value is embedded in the structure of being, not imposed from outside.",
+      "key_principles": [
+        "把核心价值放在体系的第一层，而非末端推论",
+        "诚=真实无妄：存在状态与道德状态同一",
+        "天道与人道在'诚'上贯通",
+        "由本生源：规范从本体流出而非外部粘贴"
+      ],
+      "typical_outputs": [
+        "价值先行的章程/纲领",
+        "对'规则为何有约束力'的奠基性回答",
+        "诚信作为系统能力而非合规项的制度设计"
+      ],
+      "practical_applications": [
+        "组织文化：把'真实无妄'写入第一原则，规则作为其派生而非相反",
+        "产品设计：可信性（不欺骗用户）作为架构约束而非事后修补",
+        "个人品牌：诚信是最深的底层资产，行为是它的自然流出"
+      ],
+      "mental_model": "问'这些规范从哪里长出来'：若答案是外部奖惩，规范脆弱；若答案是系统第一原理，规范自然。把最重要的价值设为公理，其余都是定理。",
+      "contrast_modes": [
+        "规则堆积——末梢贴补丁而无本",
+        "伪善结构——宣称价值但价值不在生成链上",
+        "价值相对主义——一切规范皆可议价"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "价值本体论：德性内在论先声（与康德'善良意志'遥相呼应）",
+        "制度经济学": "信任作为降低交易成本的基础设施",
+        "组织行为": "文化第一原理决定规则执行成本"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'诚无为，几善恶'——诚是无造作的本然状态，善恶从'几'上分：价值判断嵌在存在过程里，不是外加的评分表。",
+          "example_en": "'Sincerity acts without artifice; the incipient moment divides good and evil'—value judgment is embedded in the process of being, not an external scorecard."
+        },
+        {
+          "example_zh": "现代类比：把'不欺骗用户'设为产品公理，功能取舍自动有解；若只靠公关事后灭火，说明价值不在生成链上。",
+          "example_en": "Make 'never deceive users' an axiom and feature trade-offs resolve themselves; if only PR firefighting remains, value was never in the generative chain."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-006",
+      "mode_name_zh": "察几知微·苗头决策法",
+      "mode_name_en": "Discerning the Incipient (Ji): Deciding at the First Stirring",
+      "category": "认识论/决策方法",
+      "definition_zh": "'诚无为，几善恶'；'几者，动之微，吉凶之先见者也'。善恶、成败的分岔点不在行动之后，而在念头与趋势初萌的'几'上。在显著化之前察几、断几，成本最小、杠杆最大——这是中国思想中最早的早期干预/预警方法论之一。",
+      "definition_en": "'The incipient moment (ji) is the subtle first stirring wherein good and evil divide and auspice or misfortune first appears.' The branching point precedes overt action; discerning and deciding at ji carries minimal cost and maximal leverage—an early methodology of early-warning and early intervention.",
+      "key_principles": [
+        "分岔点前移：在'动之微'处判断，不在后果处补救",
+        "几不可见之于常人，需静中察之",
+        "早断几则力小功大，晚断则力大功小",
+        "察几与诚意相连：心不静则几不可见"
+      ],
+      "typical_outputs": [
+        "早期预警信号清单",
+        "小成本纠偏决策",
+        "习惯/文化层面的源头治理方案"
+      ],
+      "practical_applications": [
+        "风险管理：在指标异常初期介入，而非事故后复盘",
+        "习惯养成：在'再刷一条'的念头处出手，而非深夜自责",
+        "组织治理：把苗头性问题写进例会第一议题"
+      ],
+      "mental_model": "为每个重要系统（健康、项目、关系）定义2-3个'几'级信号——最早期、最廉价、最可观察的指标。守住几，就不必重罚后果。",
+      "contrast_modes": [
+        "后果主义管理——只在大问题爆发后行动",
+        "鸵鸟法——苗头期视而不见",
+        "过度反应——把每个噪音都当几，反而失焦"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "《易》'知几其神乎'的工夫化（周敦颐承邵雍观物之先而归于静修）",
+        "管理学": "leading indicators vs. lagging indicators",
+        "医学": "治未病：在'动之微'处干预"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'几善恶'——同一念头的微殊决定善恶走向：深夜的'再看十分钟'与'放下手机'分岔在几秒之间。",
+          "example_en": "'The incipient moment divides good and evil': the micro-difference within one stirring decides the trajectory—ten more minutes or putting the phone down branches within seconds."
+        },
+        {
+          "example_zh": "现代类比：客服投诉率是最滞后的指标，'客服问答中被反复追问同一句说明'才是几——在此处改文案，成本是危机公关的千分之一。",
+          "example_en": "Complaint volume is lagging; the same sentence customers repeatedly question in support transcripts is ji—fixing copy there costs one-thousandth of crisis PR."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-007",
+      "mode_name_zh": "寻孔颜乐处·境界设问法",
+      "mode_name_en": "Seeking the Joy of Confucius and Yan Hui: Pedagogy of the Framing Question",
+      "category": "教育/境界论",
+      "definition_zh": "周敦颐教二程，不授条文而设一问：'寻孔颜乐处，所乐何事？'箪食瓢饮而乐不改——乐的对象不是贫也不是富，而是道体自身。以一个开放性的境界之问替代封闭的规则灌输，让学习者自己走到体系的中心。这是'以问题为教'的典范。",
+      "definition_en": "Teaching the Cheng brothers, Zhou posed one question: 'Seek what Confucius and Yan Hui delighted in.' Their joy unchanged in poverty pointed to delight in the Way itself. An open question about the highest境界 replaced closed rule-transmission—the learner walks into the center of the system himself.",
+      "key_principles": [
+        "一个好问题胜过一册规范",
+        "境界不可直接传授，只能以问引人自证",
+        "'乐'作为判据：真懂者有真乐",
+        "教学内容指向体系中心而非边缘"
+      ],
+      "typical_outputs": [
+        "以核心问题组织的课程/讨论",
+        "激发自主探索的开放式任务",
+        "以'乐/投入度'作为理解深度的检验"
+      ],
+      "practical_applications": [
+        "教育设计：每门学科先给一个'值得想十年的问题'",
+        "导师制：用问题引路而非用答案喂饱",
+        "自我检验：问自己'我在这件事上有乐吗'以判断是否走对了方向"
+      ],
+      "mental_model": "把要教的东西压缩成一个对方十年都答不完的问题。问题让学习者绕着体系中心转，每转一圈自己长一层理解；答案只能给一层。",
+      "contrast_modes": [
+        "知识点灌输——颗粒化而失中心",
+        "标准答案教学——用封闭性杀死探索",
+        "苦行叙事——把修养定义为受苦而非得乐"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "苏格拉底式产婆术的中国版本，且直指境界论",
+        "教育学": "essential questions 与 inquiry-based learning",
+        "积极心理学": "flow 与 eudaimonia——'乐'作为投入与意义的经验指标"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'寻孔颜乐处，所乐何事'——二程终身以此问为学问枢机，程颢'仁者浑然与物同体'即是此问的回答。",
+          "example_en": "'Seek what they delighted in' became the pivot of the Cheng brothers' lifework; Cheng Hao's 'the humane person forms one body with things' is his answer."
+        },
+        {
+          "example_zh": "现代类比：给新员工不先发手册，而先给一个问题——'我们这门生意里，什么才是不可外包的核心？'——让他自己找到组织的心脏。",
+          "example_en": "Hand a new hire not the manual but a question—'what in this business is genuinely non-outsourced core?'—so she finds the organization's heart herself."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-008",
+      "mode_name_zh": "光风霁月·气象印证法",
+      "mode_name_en": "Bright Breeze, Clear Moon: Verifying Mind through Natural Imagery",
+      "category": "认识论/修养方法",
+      "definition_zh": "周敦颐以庭前草不除'与自家意思一般'，以爱莲'出淤泥而不染'自况；黄庭坚以'光风霁月'状其气象。观物即观心：把自然意象作为心体状态的镜子——一种不假言语概念的直觉印证法，为后世'以气象论学'（观圣贤气象）开先河。",
+      "definition_en": "Zhou let the courtyard grass grow 'as it accords with my own mind' and took the lotus—unstained from mud—as his emblem; Huang Tingjian called his presence 'a bright breeze after rain.' Reading the mind through natural imagery—an intuitive verification prior to conceptual language, inaugurating the Neo-Confucian practice of 'reading the bearing of sages.'",
+      "key_principles": [
+        "心体状态可直接呈现于气象，如月之霁",
+        "自然意象是比概念更忠实的自检镜子",
+        "印证不靠论辩，靠直观整体",
+        "养物即养己：庭草与自家意思一体"
+      ],
+      "typical_outputs": [
+        "环境/仪表作为内在状态的外显指标",
+        "以意象、隐喻传达不可直述的境界",
+        "对'说得好'与'是那个人'的区分"
+      ],
+      "practical_applications": [
+        "自我校准：定期以'我像什么天气/什么植物'自问，检核心态",
+        "识人：观察长期气象（松弛、清明、急躁）而非单次言辞",
+        "环境设计：以空间（书堂、庭院）反过来养护心体"
+      ],
+      "mental_model": "语言可以伪装，气象难伪装。为内在状态找一个外部'仪表'（习惯的整洁度、语气、待物方式），定期读表校准——与自己一致才叫'与自家意思一般'。",
+      "contrast_modes": [
+        "言辞中心识人——被表达技巧误导",
+        "概念堆砌——能说境界却无气象",
+        "内外割裂——环境与心境互不照面"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "宋明理学'观气象'传统之源头（程门立雪之先声）",
+        "心理学": "具身认知：身体与环境状态反馈于心",
+        "领导力": "组织氛围是领导者气象的放大镜像"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'窗前草不除，问之，云：与自家意思一般'——不加整饬的庭草是他内在生机的外证。",
+          "example_en": "'I leave the grass by the window unmown—it accords with my own mind': the untended grass as outward witness of inner vitality."
+        },
+        {
+          "example_zh": "现代类比：判断一家公司，看它走廊、邮件与会议的'气象'——制度文案可以伪装，弥漫性氛围很难。",
+          "example_en": "Judge a company by the 'weather' of its corridors, emails, meetings—documents can fake; pervasive atmosphere rarely does."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-009",
+      "mode_name_zh": "文以载道·实先于饰法",
+      "mode_name_en": "Writing as Vehicle: Substance over Adornment",
+      "category": "方法论/传播学",
+      "definition_zh": "'文所以载道也，轮辕饰而人弗庸，徒饰也'：文辞是车轮上的装饰，道才是所载之货。装饰不能独立成立价值——徒饰之文不如实用之器。同时周敦颐自己的《爱莲说》证明：载道之文可以同时极美。这是内容优先、形式为内容增效的传播观。",
+      "definition_en": "'Writing carries the Way, as painted wheels that no one uses are mere ornament.' Adornment cannot found value—yet Zhou's own Lotus Elegy proves a Way-carrying text can be exquisitely beautiful: content first, form as its amplifier.",
+      "key_principles": [
+        "先问'载的是什么'，再问'装得如何'",
+        "无实之饰为负资产（误导 + 浪费）",
+        "实立则饰能增益十倍",
+        "反对两种病：空饰与拒饰"
+      ],
+      "typical_outputs": [
+        "以核心论点为骨架的文本",
+        "砍掉'漂亮但无关'段落的编辑决策",
+        "形式设计服务于传达效率"
+      ],
+      "practical_applications": [
+        "写作与演讲：先定'道'（一句话内核），再做修辞",
+        "产品与界面：装饰必须承载功能或删去",
+        "品牌传播：故事为真实价值增色，不可替代价值"
+      ],
+      "mental_model": "编辑任何作品的铁律：每一段问它载了什么。载道之饰是杠杆，徒饰是噪音。最忌把'徒饰'误当'载道'——动人的辞藻最容易骗过作者自己。",
+      "contrast_modes": [
+        "辞藻主义——以文采遮蔽空洞",
+        "粗粝崇拜——以'拒绝修辞'为深刻",
+        "形式先行——先定风格再找内容"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "文道关系论，下开桐城'义法'之先河",
+        "设计学": "form follows function 的古典表述",
+        "传播学": "信息论视角：无信息量的修辞增加噪音而非信号"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'轮辕饰而人弗庸，徒饰也'——雕花的轮子若不能用，雕工越精越讽刺。",
+          "example_en": "'Carved wheels no one can use are pure ornament': the finer the carving, the sharper the irony."
+        },
+        {
+          "example_zh": "《爱莲说》自身即反例平衡：最短的文章承载最明确的人格命题，句句是饰、句句载道。",
+          "example_en": "The Lotus Elegy itself balances the rule: its shortest essay carries its clearest proposition—every ornament loaded."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZDY-010",
+      "mode_name_zh": "志伊尹之志·学颜子之学（双轨取法）",
+      "mode_name_en": "Aspire to Yi Yin, Learn from Yan Hui: The Twin-Track Ideal",
+      "category": "实践智慧/人生方法论",
+      "definition_zh": "'志伊尹之所志，学颜子之所学，过则圣，及则贤，不及则亦不失于令名。'伊尹：以致君泽民的事功为志（外王）；颜子：以克己复礼的修养为学（内圣）。双轨并取，事功心与修养心互相校正——只取伊尹则躁进，只取颜子则逃世。且给出宽容区间：不及于圣贤，亦不失令名。",
+      "definition_en": "'Aspire to what Yi Yin aspired to; learn what Yan Hui learned.' Yi Yin: statecraft that benefits the realm (outer achievement); Yan Hui: self-mastery (inner cultivation). The two tracks correct each other—ambition alone breeds restlessness, seclusion alone escapes the world—with a generous margin: falling short still yields a good name.",
+      "key_principles": [
+        "外王与内圣双轨，不可只取其一",
+        "志与学分工：志定方向，学养定力",
+        "双轨互校：事功校修养之逃避，修养校事功之躁进",
+        "宽容区间：向圣贤看齐，为凡人兜底"
+      ],
+      "typical_outputs": [
+        "事业目标与修养目标并列的人生规划",
+        "对'内卷/躺平'二元对立的第三条路",
+        "可接受的最低成果线设计"
+      ],
+      "practical_applications": [
+        "个人规划：每年同时立一个'伊尹目标'（成事）与一个'颜子功课'（修身）",
+        "职业选择：在进取与涵养之间用双轨检验是否失衡",
+        "教育：鼓励孩子'志在做事、学在做人'并行"
+      ],
+      "mental_model": "给人生装两个约束条件而不是一个：X轴'我为世界做成了什么'，Y轴'我把自己修养成了什么'。只在一条轴上竞争的人，另一轴迟早塌方。目标定在圣贤，底线设在'不失令名'。",
+      "contrast_modes": [
+        "单一成功学——只有事功轴",
+        "隐逸避世——只有修养轴",
+        "完美主义——无兜底区间的全有全无"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "《大学》修齐治平纲领的工夫化重述",
+        "积极心理学": "成就（accomplishment）与意义（meaning）双支柱幸福模型",
+        "职业发展": "career ambition 与 character development 的双螺旋"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'过则圣，及则贤，不及则亦不失于令名'——目标向圣人取法，评价给自己留余地：极高明而道中庸。",
+          "example_en": "'Exceed and you are sage; reach and you are worthy; fall short and still keep a good name'—aim at the sages, grade yourself with mercy."
+        },
+        {
+          "example_zh": "现代类比：年终复盘两问——'今年我为别人做成了什么大事'（伊尹）+'今年我戒掉了什么、养成了什么'（颜子），缺一问即失衡。",
+          "example_en": "Two year-end questions: 'what did I accomplish for others' (Yi Yin) and 'what did I quit and cultivate' (Yan Hui)—missing either signals imbalance."
+        }
+      ]
+    }
+  ],
+  "integration_analysis": null,
+  "modern_relevance": null,
+  "meta": {
+    "generation_date": "2026-09-08",
+    "mode_count": 10,
+    "phase": "Phase 21"
+  }
+}

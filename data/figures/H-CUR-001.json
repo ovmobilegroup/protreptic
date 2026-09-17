@@ -1,0 +1,853 @@
+{
+ "schema_version": "v6",
+ "id": "H-CUR-001",
+ "code": "H-CUR-001",
+ "figure_name": "居里夫人",
+ "figure_code": "H-CUR-001",
+ "figure_pinyin": "Jūlǐ Fūrén (Marie Curie / Maria Skłodowska-Curie)",
+ "birth_year": 1867,
+ "death_year": 1934,
+ "era": "世纪之交实验物理学与放射学奠基时代 / Turn-of-the-Century Experimental Physics & Radiology Era (1867-1934)",
+ "school": "实验物理/放射化学/计量科学 / Experimental Physics / Radiochemistry / Metrological Science",
+ "historical_significance": "两度获诺贝尔奖（1903 物理学、1911 化学）的第一人，放射学（radioactivity）学科的奠基者。她的工作改写了三个层面：其一，提出'放射性是原子自身的性质'这一超出当时原子概念的假说，为卢瑟福-玻尔原子物理学开路；其二，把'测量精确性'本身做成一种方法论武器，其放射性标准后来成为国际计量基准；其三，在女性被排除于科学院与实验室体制的时代，以纯粹工作成果撕开制度缺口，并在一战中把基础研究转化为战地 X 光救援体系。她证明：顽强不是天赋的补充，而是方法论本身。",
+ "unique_thinking": "以'不可解释的异常信号'为入口、以计量精确化为放大器、以系统排除法逼近唯一原因、以工程化规模把发现变成学科的完整体系。其思维特质在于：对仪器读数的绝对忠诚（哪怕读数违背权威理论），加上把'耐心'制度化为可重复的工序——她自述成功的公式是'我们必须有恒心，尤其要有自信心'。她的方法论核心不是灵光，而是一种把不确定性逐格压缩的测量秩序。",
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-CUR-001",
+  "M-CUR-002",
+  "M-CUR-003",
+  "M-CUR-004",
+  "M-CUR-005",
+  "M-CUR-006",
+  "M-CUR-007",
+  "M-CUR-008",
+  "M-CUR-009",
+  "M-CUR-010"
+ ],
+ "key_concepts": [
+  "放射性",
+  "Radioactivity",
+  "异常信号",
+  "计量精确化",
+  "系统排除法",
+  "分离提纯",
+  "钋",
+  "镭",
+  "原子性质假说",
+  "开放专利",
+  "夫妇协作",
+  " 小红车X光（petites Curies）",
+  "基础研究转化",
+  "学科建制化",
+  "国际计量基准",
+  "恒心",
+  "读数权威"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-XN-001",
+   "target_figure_name": "香农",
+   "relation_type": "计量先行的同构：为无形对象立可测度量",
+   "description_zh": "居里夫人面对'铀射线是什么'的众说纷纭，不先争定义，而以'使空气电离的强度'给放射性立了可测的量（M-CUR-002）——香农面对'信息是什么'同样不问语义，只以'消解多少不确定性'立熵的度量（M-XN-001）。两人共享同一方法论签名：度量先于理论，单位一立，学科即立；居里以计量开出了放射学，香农以计量开出了信息论。",
+   "bidirectional_hint": "香农档案（H-XN-001）未来修订时可在'度量先于理论'处补一条指向 H-CUR-001 的跨引用（计量开科的物理学先行版本）。"
+  },
+  {
+   "target_figure_code": "H-TLY-001",
+   "target_figure_name": "图灵",
+   "relation_type": "基础研究与应急转化的两条路径：战地X光 vs 破解密码",
+   "description_zh": "两人在大战中都把抽象研究紧急转化为救命/胜势的工程系统：居里夫人把放射性研究转化为一战战地 X 光救援体系（petites Curies，M-CUR-009），图灵把可计算性理论转化为布莱切利园的密码破解机器（M-TLY 系列）。同构处在于：基础研究的理论深度恰是应急转化的前提——只有真正理解原子/计算的人，才能在数月内造出可用的系统。",
+   "bidirectional_hint": "图灵档案（H-TLY-001）未来修订时可在'战争应急工程'处补一条指向 H-CUR-001 的跨引用（基础研究-应急转化的放射学平行）。"
+  },
+  {
+   "target_figure_code": "H-SK-001",
+   "target_figure_name": "沈括",
+   "relation_type": "异常记录的方法论平行：不放过反常读数",
+   "description_zh": "沈括以笔记保存异常现象（磁偏角、石油、化石）——记录先于解释（M-SK 系列）；居里夫人以计量追踪异常读数——'我不能解释，但它在那里，它必须被测量，被追踪到底'（M-CUR-001）。两人共同构成'异常信号追踪法'的中西版本：科学的入口不是理论完备，而是对不合框架之事的忠实记录与量化坚持。",
+   "bidirectional_hint": "沈括档案（H-SK-001）未来修订时可在'异常记录'处补一条指向 H-CUR-001 的跨引用（异常定量化的实验科学版本）。"
+  },
+  {
+   "target_figure_code": "H-VNY-001",
+   "target_figure_name": "冯·诺依曼",
+   "relation_type": "学科建制化策略的两条路线：实验学派 vs 数学-工程综合体",
+   "description_zh": "居里夫人以实验室+标准+期刊+人才培养把放射学做成建制（M-CUR-010，镭标准与国际计量）；冯·诺依曼以报告、架构规范与项目组织把计算机构成建制（M-VNY 系列）。两人都懂得：一个学科的存亡不取决于天才发现，而取决于发现在多大程度上被制度化——可重复、可传授、可积累。",
+   "bidirectional_hint": "冯·诺依曼档案（H-VNY-001）未来修订时可在'建制化'处补一条指向 H-CUR-001 的跨引用（实验科学建制化的计量版本）。"
+  },
+  {
+   "target_figure_code": "H-CW-001",
+   "target_figure_name": "克劳塞维茨",
+   "relation_type": "逆境转化的两极版本： friction 之克 vs 逆境之用",
+   "description_zh": "克劳塞维茨把战争中的'阻力'（friction）视为必须以将领品质去克服的常态摩擦（M-CW 系列）；居里夫人把逆境（丧夫、被科学院拒斥、性别排斥、资源匮乏）直接转化为方法论资源——在棚屋中完成镭的分离，在战后把研究转向救援（M-CUR-008）。对照在于：一个以纪律吸收阻力，一个以转化利用阻力；共同点是拒绝把逆境当作放弃的理由。",
+   "bidirectional_hint": "克劳塞维茨档案（H-CW-001）未来修订时可在'阻力与逆境'处补一条指向 H-CUR-001 的跨引用（逆境转化执行的个人科学版本）。"
+  },
+  {
+   "target_figure_code": "H-JSX-001",
+   "target_figure_name": "贾思勰",
+   "relation_type": "工艺规程化的平行：把耐心变成可重复的工序",
+   "description_zh": "贾思勰把农业经验制度化为'可重复操作规程'——时令、工序、要诀一一对应（M-JSX 系列）；居里夫人把数吨沥青铀矿的分离制度化为可重复的结晶/分馏工序（M-CUR-004），使'发现'从个人灵光变成可传授的流程。两人同构：真正的规模化不是加速，而是把耐心与精确写成任何人可执行的规程。",
+   "bidirectional_hint": "贾思勰档案（H-JSX-001）未来修订时可在'操作规程化'处补一条指向 H-CUR-001 的跨引用（实验工序规程化的化学版本）。"
+  }
+ ],
+ "tags": [
+  "居里夫人",
+  "Marie Curie",
+  "Maria Skłodowska-Curie",
+  "放射性",
+  "Radioactivity",
+  "钋",
+  "Polonium",
+  "镭",
+  "Radium",
+  "放射学",
+  "Radiology",
+  "放射化学",
+  "Radiochemistry",
+  "两届诺贝尔奖",
+  "Two Nobel Prizes",
+  "计量科学",
+  "Metrology",
+  "精确测量",
+  "Precision Measurement",
+  "异常信号",
+  "Anomaly",
+  "系统排除法",
+  "Systematic Elimination",
+  "分离提纯",
+  "Purification",
+  "原子性质",
+  "Atomic Property",
+  "开放专利",
+  "Open Patent",
+  "夫妇协作",
+  "Pierre Curie",
+  "小红车X光",
+  "petites Curies",
+  "一战救援",
+  "WWI Radiology",
+  "学科建制化",
+  "Institution Building",
+  "国际计量基准",
+  "International Standard",
+  "恒心",
+  "Perseverance",
+  "女性科学家",
+  "Women in Science",
+  "华沙",
+  "Warsaw",
+  "巴黎",
+  "Paris",
+  "放射性论",
+  "Radioactivité",
+  "自传"
+ ],
+ "mode_ids_note": "M-CUR-001 ~ M-CUR-010（库内查重零冲突：M-CUR 前缀 modes_data/code_maps 无占用，C-CUR 场景前缀无占用，H-CUR 编码无占用）",
+ "caveats": [
+  "居里夫人生卒（1867-1934）与两次诺奖（1903 物理、1911 化学）无争议；但 1911 年诺奖委员会曾因朗之万事件建议她不赴领奖，她坚持前往——引用其人格叙事须区分道德争议与科学贡献",
+  "'放射性是原子性质'的假说由居里夫人提出，但原子结构的确证主要归功于卢瑟福-玻尔路线；引用时不应把原子物理学的建立整体归于居里",
+  "钋（polonium）的命名有政治意涵（纪念其祖国波兰），发表于波兰被瓜分时期，须注明这一命名政治学背景",
+  "她长期暴露于辐射而健康受损（再生障碍性贫血，1934 年病故），其原始实验笔记至今仍有放射性——引用其工作条件时不可浪漫化，需标注辐射防护意识是后来才建立的",
+  "皮埃尔·居里（1859-1906）在早期放射性研究中的对等贡献长期被公众叙事低估；'居里夫人'的孤立化叙事本身扭曲了实际的合作结构（M-CUR-007 的意义所在），引用须还原夫妇协作",
+  "一战 X 光救援（petites Curies）的直接战果数字在不同传记中出入较大（伤员百万级 vs 培训人员数百），引用须注明数据不确定性"
+ ],
+ "modes": [
+  {
+   "id": "M-CUR-001",
+   "mode_code": "M-CUR-001",
+   "name_zh": "异常信号追踪法",
+   "name_en": "The Anomaly-Tracking Method: Follow the Reading, Not the Theory",
+   "category": "核心方法",
+   "domain_zh": "科学方法论/实验发现",
+   "domain_en": "Scientific Methodology / Experimental Discovery",
+   "level": "核心",
+   "priority": 1,
+   "key_quote_zh": "'这种放射性……我不能解释，但它在那里，它必须被测量，被追踪到底。'",
+   "key_quote_en": "'This radioactivity… I cannot yet explain it, but it is there; it must be measured and pursued to the end.'",
+   "source_chapter": "1898年4月《Comptes Rendus》铀射线论文；1911年诺贝尔化学奖演讲对发现过程的陈述",
+   "definition_zh": "居里夫人的元方法：以仪器读数为最高权威，把'不可解释'当作价值信号而非噪声。方法论签名有四：其一，把异常定量化——1896年贝克勒尔只报告了铀射线的'存在'，居里用静电计把它变成可比较的强度读数，异常才从轶事变成数据；其二，追线不追点——第一次发现沥青铀矿的放射性'超过纯铀'时，她不把它当作测量误差归档，而是推断'必含一种放射性远强于铀的新元素'并立即立项；其三，区分'我的理论错'与'仪器错'——先穷尽校准与重复，才允许把读数上升为对既有理论的挑战；其四，为异常命名并给以建制位置——'radioactivity'一词的发明把零散异常装进一个概念容器，使其可以被分工研究。这一模式是实验科学发现逻辑的教科书形态：异常的货币化。",
+   "definition_en": "Curie's master method: the instrument reading is the highest authority, and the 'unexplainable' is treated as a value signal, not noise. Four signatures define the mode. First, quantify the anomaly — where Becquerel in 1896 only reported the 'existence' of uranium rays, Curie turned them into comparable intensity readings with an electrometer; only then did anomaly become data. Second, follow the line, not the dot — on finding pitchblende's activity 'greater than pure uranium,' she refused to file it as measurement error and immediately inferred 'a new element far more radioactive than uranium,' opening a project on the spot. Third, separate 'my theory is wrong' from 'the instrument is wrong' — exhaust calibration and repetition first, and only then let the reading challenge established theory. Fourth, name the anomaly and give it an institutional slot — the coinage 'radioactivity' put scattered anomalies into one conceptual container that others could divide up and study. The mode is the textbook form of experimental discovery logic: the monetization of anomaly.",
+   "key_concepts": [
+    "异常定量化",
+    "读数权威",
+    "概念容器",
+    "追线不追点"
+   ],
+   "process_zh": [
+    "把所有'奇怪现象'立即转化为可重复的定量读数，禁止停留在定性印象",
+    "设定双重怀疑顺序：先怀疑仪器与操作（校准、重复、对照），后怀疑既有理论",
+    "对异常幅度做价值判断：幅度越大、来源越系统，越值得立项而非归档",
+    "为成型的异常发明或借用一个概念名，使其进入公共研究议程"
+   ],
+   "process_en": [
+    "Convert every 'strange phenomenon' at once into repeatable quantitative readings; never rest at qualitative impression",
+    "Fix a double order of doubt: suspect instrument and procedure first (calibration, repetition, controls), established theory second",
+    "Value the anomaly by magnitude and systematicity: the larger and more systematic, the more it deserves a project, not an archive",
+    "Name the matured anomaly — coined or borrowed — so it enters the public research agenda"
+   ],
+   "representative_cases_zh": [
+    "1898年4月对沥青铀矿的测量：放射性强度约为纯铀的4倍，居里夫人据此直接推断存在未知元素——从异常读数到新元素假说只隔一次测量",
+    "'放射性'术语的创造（1898）：与皮埃尔联名论文中首次使用，把贝克勒尔射线、钋、镭的发射统一为原子性质——概念容器使学科得以分工",
+    "对钍放射性的独立发现（1898，与 Schmidt 竞争）：同一方法路线在不同人身上自发重演，证明异常追踪是程序而非天赋",
+    "反面警示：居里夫人一生对'异常'保持信任，但晚年对部分现象（如某些伪辐射报告）的甄别投入不足——读数忠诚若无同行交叉验证机制，会被孤立实验室的系统性偏差放大。教训：异常追踪须嵌入实验室间的读数仲裁，不能单点独断。",
+    "反面警示：'异常即价值'的策略在资源上极端昂贵——居里夫妇长期在漏雨棚屋中处理数吨矿渣，其健康代价（再生障碍性贫血致死）说明该方法需为研究者设置风险上限。教训：追线之前先为追线者定价。",
+    "反面警示：异常定量化依赖特定仪器的稳定性，静电计方法的系统偏差一度使早期放射性数值互相不可比，后人需重新标定。教训：读数权威仅在当时仪器族内有效，跨代比较须做基准换算。"
+   ],
+   "representative_cases_en": [
+    "The April 1898 measurement of pitchblende: activity about four times that of pure uranium, from which she directly inferred an unknown element — one measurement between anomaly and new-element hypothesis",
+    "The coinage of 'radioactivity' (1898): first used in the joint paper with Pierre, unifying Becquerel rays, polonium, and radium emissions as atomic properties — a conceptual container that made the discipline divisible",
+    "The independent discovery of thorium's radioactivity (1898, competing with Gerhard Schmidt): the same procedural route replaying in another worker, proving anomaly-tracking a program, not a gift",
+    "Cautionary: Curie's lifelong trust in readings was under-armed against甄别 marginal claims late in life; without cross-laboratory arbitration, isolated-lab systematic bias gets amplified. Lesson: embed reading arbitration between labs; never adjudicate alone.",
+    "Cautionary: 'anomaly as value' is resource-prohibitive — the Curies processed tons of slag in a leaking shed; her death from aplastic anemia prices the method. Lesson: price the pursuer before pursuing the line.",
+    "Cautionary: anomaly quantification inherits the stability of its instrument family; early electrometer values were mutually incomparable and needed recasting. Lesson: the authority of readings holds only within its instrument generation; across generations, rebase."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "贝克勒尔 (Henri Becquerel)",
+    "卢瑟福 (Ernest Rutherford)"
+   ],
+   "related_modes": [
+    "M-CUR-002",
+    "M-CUR-003",
+    "M-CUR-005"
+   ],
+   "modern_applications_zh": [
+    "产品与运营的异常监控：把'数据不对劲'从印象变成基线偏离值，设定幅值阈值决定'归档'还是'立项'",
+    "医疗与安全领域：对'说不通但稳定复现'的信号建立跨机构交叉验证，避免单点实验室或单点医生的读数垄断",
+    "科研选题训练：给学生布置'从异常读数到可立项假说'的完整练习，而非只教已定论的验证实验"
+   ],
+   "modern_applications_en": [
+    "Anomaly monitoring in product and operations: turn 'the data looks off' from an impression into a baseline-deviation score, with magnitude thresholds deciding archive versus project",
+    "Medicine and safety: route stable, inexplicable signals through cross-institution verification to prevent single-lab or single-physician reading monopoly",
+    "Research training: assign the full exercise from anomalous reading to projectable hypothesis, not only verification experiments with known answers"
+   ]
+  },
+  {
+   "id": "M-CUR-002",
+   "mode_code": "M-CUR-002",
+   "name_zh": "计量精确化放大法",
+   "name_en": "The Metrological Amplification Method: Turn Precision Itself into an Instrument",
+   "category": "核心方法",
+   "domain_zh": "计量学/实验方法",
+   "domain_en": "Metrology / Experimental Method",
+   "level": "核心",
+   "priority": 1,
+   "key_quote_zh": "'我们必须有一种测量方法……没有测量，就没有科学；有的只是意见。'",
+   "key_quote_en": "'We must have a means of measurement… without measurement there is no science, only opinion.'",
+   "source_chapter": "《放射性论》论测量方法各章；1903年诺贝尔奖演讲对定量方法的强调",
+   "definition_zh": "居里夫人的第二元方法：把'测得更准'本身当作独立的科学武器，而非发现的附属品。方法论签名有四：其一，计量先行——研究镭的第一步不是提纯而是建立标准测量体系（压电静电计与电离室的组合，皮埃尔的压电石英正是为此而造）；其二，以精度定义对象——'镭'的本质定义不是外观或性质清单，而是'其放射性强度'这一可计量指标，学科对象被计量化重构；其三，把测量标准做成公共品——她制备的放射性基准（后成为国际镭标准）使全世界的测量可比，等于给新学科发放统一货币；其四，精度迭代即发现迭代——每次测量方法升级都直接带来新元素与新现象（钋与镭都'活在'测量精度的进步里）。这一模式揭示：科学革命常不是新理论的胜利，而是新精度的胜利。",
+   "definition_en": "Curie's second master method: making 'measure more precisely' an independent scientific weapon, not an accessory to discovery. Four signatures define the mode. First, metrology before mining — the first step toward radium was not purification but building a standard measurement system (the piezoelectric electrometer with ionization chamber; Pierre's piezoelectric quartz was built for exactly this). Second, define the object by its precision — radium's essential definition was not appearance or property lists but its measurable activity; the discipline's object was reconstructed as a metrological quantity. Third, make the measurement standard a public good — her activity standards (later the international radium standard) made all the world's measurements commensurable, issuing the new discipline a common currency. Fourth, precision iteration is discovery iteration — each upgrade of measurement directly yielded new elements and phenomena; polonium and radium 'lived in' the progress of precision. The mode reveals that scientific revolutions are often victories of new precision, not new theory.",
+   "key_concepts": [
+    "计量先行",
+    "以精度定义对象",
+    "标准公共品",
+    "精度-发现迭代"
+   ],
+   "process_zh": [
+    "进入任何新领域，第一步先建测量标准与对照体系，再谈假设与发现",
+    "把研究对象的核心属性翻译为一个可计量指标，用指标而非印象定义实体",
+    "把自建的基准主动开放为公共标准，换取全领域的可比性与话语权",
+    "规划精度的升级路线图：每次精度跃迁预期解锁哪类新现象，逐级立项"
+   ],
+   "process_en": [
+    "Entering any new field, build the measurement standard and control system before hypotheses and findings",
+    "Translate the object's core property into one measurable index; define the entity by the index, not impressions",
+    "Open your self-built benchmark as a public standard, trading it for field-wide commensurability and standing",
+    "Chart a precision roadmap: which class of new phenomena each precision leap should unlock, and fund them level by level"
+   ],
+   "representative_cases_zh": [
+    "压电静电计方法（1897-1898）：把皮埃尔的压电石英晶体与电离电流测量组合成当时最灵敏的射线定量装置——先有计量体系，后有钋与镭",
+    "1911年国际镭标准的制备：居里夫人亲手制备基准并放弃专利，使放射性测量成为有统一货币的全球计量体系——公共品策略与学术领导权的合体",
+    "《放射性论》(1910)：该学科第一部以测量方法为主干的专著，展示'方法本身'如何成为可传承的知识主体",
+    "反面警示：对自家精度的过度信任延迟了她对若干结果争议的处理，部分早期数值后被证明偏低——计量权威同样需要自我怀疑日程表。教训：精度声明须附带误差预算与外部复核计划。",
+    "反面警示：以'放射性强度'定义镭，掩盖了镭是多同位素混合物的事实，同位素概念（1913，Soddy）出现前这一计量化定义造成概念混乱。教训：单指标定义是强工具也是强扭曲，须随学科演化重审。",
+    "反面警示：标准公共品策略要求长期供给，居里夫人生前持续免费供应标准样品，占用了大量研究时间并加速其健康损耗。教训：公共品供给需设计可持续机制，不能依赖个人奉献独撑。"
+   ],
+   "representative_cases_en": [
+    "The piezoelectric electrometer (1897-1898): Pierre's piezoelectric quartz married to ionization-current measurement became the era's most sensitive ray quantifier — metrology first, polonium and radium after",
+    "The 1911 international radium standard: she prepared the benchmark herself and waived patent, giving radioactivity a global currency — public-good strategy fused with scholarly leadership",
+    "Treatise on Radioactivity (1910): the field's first monograph structured around measurement method, showing 'method itself' as transmissible knowledge",
+    "Cautionary: over-trust in in-house precision delayed handling of contested results; some early values proved low. Lesson: attach an error budget and external-review schedule to every precision claim.",
+    "Cautionary: defining radium by activity masked that it was a mixture of isotopes; before the isotope concept (Soddy, 1913) the single-index definition bred confusion. Lesson: single-index definitions are strong tools and strong distortions — re-audit as the field evolves.",
+    "Cautionary: the public-good strategy demanded perpetual supply; she freely provided standard samples for life, consuming research time and health. Lesson: design a sustainable supply mechanism; do not let one person's devotion carry a commons."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "皮埃尔·居里 (Pierre Curie)",
+    "开尔文勋爵 (Lord Kelvin)"
+   ],
+   "related_modes": [
+    "M-CUR-001",
+    "M-CUR-003",
+    "M-CUR-007"
+   ],
+   "modern_applications_zh": [
+    "团队与组织：进入新业务领域先建统一度量（北极星指标+对照基线），再允许各做各的假设",
+    "行业标准策略：把自己内部的技术基准主动开放为行业标准，以放弃短期壁垒换取定义权与生态位",
+    "个人精进：把'把测量做得更准'当作独立可积累的资产（工具、流程、校准习惯），而非每次任务的临时成本"
+   ],
+   "modern_applications_en": [
+    "Teams and organizations: entering a new domain, build the shared metric (north-star index plus control baseline) before letting everyone run private hypotheses",
+    "Standards strategy: open your internal benchmark as the industry standard, trading a short-term moat for definitional power and ecosystem position",
+    "Personal practice: treat 'measuring better' as an accumulable asset (tools, process, calibration habits), not a one-off task cost"
+   ]
+  },
+  {
+   "id": "M-CUR-003",
+   "mode_code": "M-CUR-003",
+   "name_zh": "系统排除归因法",
+   "name_en": "The Systematic-Elimination Method: Isolate the Cause by Crossing Out Universes",
+   "category": "核心方法",
+   "domain_zh": "科学方法论/因果推断",
+   "domain_en": "Scientific Methodology / Causal Inference",
+   "level": "核心",
+   "priority": 1,
+   "key_quote_zh": "'我们逐一检验了元素及其化合物……放射性不是化学状态的性质，而是原子本身的性质。'",
+   "key_quote_en": "'We tested the elements and their compounds one by one… radioactivity is not a property of chemical state but of the atom itself.'",
+   "source_chapter": "1898年7月发现钋的论文；1911年诺贝尔演讲对'放射性是原子性质'论证的复述",
+   "definition_zh": "居里夫人建立核心假说的论证方法：不直接证明'是什么'，而是系统排除'不是什么'，直到只剩唯一候选。方法论签名有四：其一，全域枚举——对铀射线的可能来源（化学状态、温度、光照、化合物形式……）做全空间列出，逐格检验而非只挑方便的；其二，检验到极端——用最纯的化合物、最强的对比条件（如把矿石溶解、沉淀、分步结晶）去冲击每一格，排除必须是'努力过后的排除'而非'想当然的排除'；其三，残余归因——当所有化学层面解释被排除后，把原因归给当时理论中'不可再分'的原子本身，敢于把异常归到体系的公理层；其四，用新预测锁定残余归因——'放射性是原子性质'立即预测出按原子量排序的规律与更多放射性元素的存在，假说以预测力而非修辞取胜。这一模式把'大胆假设'翻译为可审计的排除清单。",
+   "definition_en": "The argument form by which Curie established her central hypothesis: not proving 'what it is' directly, but systematically eliminating 'what it is not' until one candidate remains. Four signatures define the mode. First, enumerate the whole space — list every possible source of uranium rays (chemical state, temperature, light, compound form…), test every cell, not just the convenient ones. Second, test to extremes — strike each cell with the purest compounds and the sharpest contrasts (dissolving the ore, precipitating, fractional crystallization); an elimination must be an elimination-by-effort, not by assumption. Third, residual attribution — once every chemical-level explanation is crossed out, attribute the cause to the 'indivisible' atom itself, daring to place the anomaly at the axioms of the system. Fourth, lock the attribution with new predictions — 'radioactivity is an atomic property' immediately predicts orderings by atomic weight and further radioactive elements; the hypothesis wins by predictive power, not rhetoric. The mode translates 'bold hypothesis' into an auditable elimination checklist.",
+   "key_concepts": [
+    "全域枚举",
+    "努力后的排除",
+    "残余归因",
+    "预测锁定"
+   ],
+   "process_zh": [
+    "列出异常现象的全部可能原因空间，显式成表，拒绝凭直觉挑选'可疑者'",
+    "对每个候选原因设计'最强对照实验'，用最高强度证据做排除而非举例",
+    "当常规层解释全部失效，把原因归到体系的基础公理层，并评估这一归因的代价",
+    "立即推出新预测（排序、新实例、新现象）并尽快验证，以预测力锁定归因"
+   ],
+   "process_en": [
+    "Tabulate the full space of possible causes; refuse intuition-picked suspects",
+    "Design the sharpest contrast experiment for each candidate; eliminate by strongest evidence, not by example",
+    "When ordinary layers are exhausted, attribute to the system's axiomatic layer — and price that attribution",
+    "Derive fresh predictions (orderings, new instances, new phenomena) and verify fast, locking attribution with predictive power"
+   ],
+   "representative_cases_zh": [
+    "1897-1898年的化合物普查：检验铀、钍及其数十种化合物的放射性，发现强度只随铀（或钍）含量变化而与化合物形式无关——化学状态被全空间排除",
+    "从'原子性质'推出放射性元素搜索律：她随即在矿石中找到钋与镭，两元素位置由排除法+分步结晶定位——残余归因被新实例兑现",
+    "对'感生放射性'的处理：早期观察到诱导效应曾构成反例，她与德比尔纳逐步把它定位为'放射产的活性沉积物'，示范排除法遭遇反例时的修复流程",
+    "反面警示：排除法的'全域'受限于当时的物理图景——她未考虑能量来源问题，放射性'持续释放能量'的动力学被留给卢瑟福与索迪的嬗变理论补全。教训：残余归因归到哪里，就欠哪里的解释债，须显式记账。",
+    "反面警示：分步结晶排除法隐含'放射性元素可按化学性质分离'的假设，而同位素化学不可分离性（1913年后才明确）意味着某些'分离成功'实为部分富集。教训：排除清单的每一格都携带隐藏假设，需随新概念重开。",
+    "反面警示：'逐一检验'在人力上不可规模化，居里实验室的排除工作大量依赖学生与技师的无名劳动（如德比尔纳对锕的发现）。教训：排除清单须设计人力分工与署名机制，否则依赖隐性剥削。"
+   ],
+   "representative_cases_en": [
+    "The 1897-1898 compound survey: testing uranium, thorium, and dozens of their compounds, activity tracking only content of the element regardless of compound form — chemical state eliminated across the whole space",
+    "From 'atomic property' to the search law for radioactive elements: polonium and radium located by elimination plus fractional crystallization — residual attribution cashed in new instances",
+    "Handling 'induced radioactivity': the observed induction effect initially counted against her; with Debierne it was located as 'active deposits' from the emanation — the repair procedure when elimination meets a counterexample",
+    "Cautionary: the 'whole space' was bounded by the era's physical picture; the energy source of radioactivity was left to Rutherford and Soddy's transmutation theory. Lesson: residual attribution borrows from wherever it lands — book the explanatory debt explicitly.",
+    "Cautionary: fractional crystallization presumed separability by chemical property; isotopes' chemical inseparability (clear only after 1913) means some 'separations' were enrichments. Lesson: every cell of the elimination list carries hidden assumptions — reopen as concepts change.",
+    "Cautionary: cell-by-cell testing does not scale by one person; the lab's eliminations leaned on unnamed students and technicians (Debierne's discovery of actinium among them). Lesson: build division of labor and credit mechanisms into the checklist, or it runs on hidden exploitation."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "德比尔纳 (André-Louis Debierne)",
+    "索迪 (Frederick Soddy)"
+   ],
+   "related_modes": [
+    "M-CUR-001",
+    "M-CUR-002",
+    "M-CUR-004"
+   ],
+   "modern_applications_zh": [
+    "故障排查（debug/生产事故）：先列全原因空间再逐格用最强证据排除，禁止'找到一个像的就开始改'",
+    "战略分析：把'竞品为什么赢'做成显式排除清单（产品/渠道/时机/组织），用数据撞格子而非讲故事",
+    "个人决策复盘：排除'努力不够/方法错/时机错'需要各自的强对照证据，杜绝单一归因"
+   ],
+   "modern_applications_en": [
+    "Debugging and incident response: enumerate the cause space, then eliminate cell by cell with the strongest evidence — never 'fix' at the first plausible suspect",
+    "Strategy analysis: make 'why the competitor won' an explicit elimination checklist (product, channel, timing, organization) and strike cells with data, not narrative",
+    "Personal retrospectives: eliminating 'not enough effort / wrong method / wrong timing' needs contrast evidence for each — no single-cause verdicts"
+   ]
+  },
+  {
+   "id": "M-CUR-004",
+   "mode_code": "M-CUR-004",
+   "name_zh": "分离提纯攻坚法",
+   "name_en": "The Purification-Campaign Method: The Hypothesis Exists Only When the Substance Exists",
+   "category": "核心方法",
+   "domain_zh": "实验科学/工程化研究",
+   "domain_en": "Experimental Science / Engineering-Scale Research",
+   "level": "核心",
+   "priority": 1,
+   "key_quote_zh": "'为了证明镭的存在并使其无可怀疑，我们必须把它分离出来，得到纯的镭盐。'",
+   "key_quote_en": "'To prove the existence of radium beyond doubt, we had to isolate it and obtain pure radium salts.'",
+   "source_chapter": "1902年获得0.1克氯化镭的四年攻坚；1903年诺贝尔奖演讲与1911年演讲对分离工作的陈述",
+   "definition_zh": "居里夫人为假说变现设计的执行方法：主张'实在性证明的标准是可分离的实物'——一个元素的声明在拿到纯化样品之前只是推论。方法论签名有四：其一，把假说折算成工程量——'镭存在'立即换算为'需要处理数吨沥青铀矿渣'的具体战役，并预估产率（她与皮埃尔判断镭含量约百万分之一量级）；其二，用化学性质差异设计分离路线——利用氯化物分步结晶与溶解度差异，把'找不到的元素'变成'梯度富集的操作序列'；其三，以中间读数维持战役——每轮结晶都监测活性比值上升，用可测进度对抗看不到终点的疲惫；其四，实物即权威——1902年0.1克纯氯化镭使其原子量可直接测定，'新元素'从读数推断升级为可称量、可复验的实体。这一模式回答科学中最难的问题：如何让一个主张变成一个东西。",
+   "definition_en": "Curie's execution method for cashing hypotheses in: the standard of proof for realness is an isolable substance — an element claim remains inference until purified material exists. Four signatures define the mode. First, convert hypothesis into engineering scale — 'radium exists' at once became a campaign of processing tons of pitchblende residue, with yield estimated (radium at about the one-in-a-million level). Second, design the separation route from property differences — chloride fractional crystallization and solubility gradients turn 'an element no one can find' into an operable sequence of gradient enrichment. Third, keep the campaign alive with intermediate readings — each crystallization round monitored the rising activity ratio; measurable progress fought unseen endpoints. Fourth, the substance is the authority — the 0.1 g of pure radium chloride in 1902 made the atomic weight directly measurable, upgrading 'new element' from reading inference to a weighable, re-verifiable entity. The mode answers science's hardest question: how a claim becomes a thing.",
+   "key_concepts": [
+    "实物证明标准",
+    "假说折算工程量",
+    "梯度富集",
+    "中间读数维持"
+   ],
+   "process_zh": [
+    "假说一旦成立，立即折算为工程量：需要多少原料、多少工序、预期产率与终点的判据",
+    "按性质差异设计梯度路线：把'寻找'重构为'逐级富集'，每步都有可测的浓缩指标",
+    "以中间读数管理长战役：设阶段里程碑与活性/纯度比值曲线，进度可见则士气可持续",
+    "终局以实物封存：拿到可称量、可送检、可复验的纯品，才算主张交付"
+   ],
+   "process_en": [
+    "The moment a hypothesis stands, convert it to engineering: feedstock tonnage, unit operations, expected yield, and end-point criteria",
+    "Design gradient routes from property differences: reconstruct 'searching' as 'stage-by-stage enrichment,' each step with a measurable concentration index",
+    "Run long campaigns on intermediate readings: set stage milestones and an activity/purity curve; visible progress sustains morale",
+    "Seal the claim in substance: weighable, submittable, re-verifiable pure product — only then is the claim delivered"
+   ],
+   "representative_cases_zh": [
+    "1898-1902年镭的分离战役：处理来自波希米亚矿山的数吨矿渣，在棚屋中以分步结晶反复富集，四年后得0.1克氯化镭——科学史上最著名的'假说变现'工程",
+    "对钋的处理作为对照：钋与铋难以彻底分离，居里夫人公开承认钋未能拿到纯品、其地位存在争议——诚实标注哪些实物已交付、哪些仍是推断",
+    "一战中她推动的镭疗标准品体系：把'纯品权威'制度化，使放射治疗剂量有实物基准——分离法的下游价值延伸到医疗",
+    "反面警示：四年战役以皮埃尔与玛丽的健康为代价，镭的强放射性在危害未知时被直接接触处理——攻坚法必须内含安全上限，未知危害时按最坏假设防护。",
+    "反面警示：实物证明标准过高时会拖慢发表节奏，纯化期间放射性发现权被竞争者（如德国学界对钋的独立申报争议）部分蚕食。教训：工程战役须与发表策略并行规划，'实物交付'与'阶段性公告'分账管理。",
+    "反面警示：产率估算依赖对矿石成分的假设，早期路线对伴生元素的干扰估计不足，导致多次结晶循环返工。教训：战役开工前须做小批量全程试跑，验证产率假设再放量。"
+   ],
+   "representative_cases_en": [
+    "The radium campaign 1898-1902: tons of Bohemian residue processed in a shed by repeated fractional crystallization, yielding 0.1 g of radium chloride after four years — the most famous hypothesis-to-substance conversion in science",
+    "Polonium as the contrast case: inseparable from bismuth, never obtained pure; Curie said so openly, marking which substances were delivered and which remained inference",
+    "The radium-therapy standard system she drove in WWI: institutionalizing 'substance authority,' giving radiotherapy dosimetry a physical benchmark — the downstream value of purification reaching medicine",
+    "Cautionary: the four-year campaign cost the Curies their health; radium's intense activity was handled bare before its hazards were known. A campaign must contain a safety cap; under unknown hazards, protect by worst-case assumption.",
+    "Cautionary: a high substance-standard slows publication; purification let rivals nibble at discovery credit (the contested German claims on polonium). Lesson: run the campaign and the publication strategy in parallel, 'substance delivery' and 'interim announcements' on separate ledgers.",
+    "Cautionary: yield estimates rested on assumptions about ore composition; interference from concomitant elements was underestimated, forcing rework crystallization cycles. Lesson: pilot the full route on a small batch before scaling."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "皮埃尔·居里 (Pierre Curie)",
+    "德比尔纳 (André-Louis Debierne)"
+   ],
+   "related_modes": [
+    "M-CUR-002",
+    "M-CUR-003",
+    "M-CUR-009"
+   ],
+   "modern_applications_zh": [
+    "产品研发：'这个想法可行'必须折算为可交付原型+产率假设+里程碑读数，禁止停留在概念论证",
+    "复杂项目攻坚：长战役按浓缩/进度曲线管理，每阶段有可测中间读数以对抗看不到终点时的士气崩塌",
+    "信用管理：区分'已交付实物'与'仍是推断'并公开标注，用诚实分级换取长期信任"
+   ],
+   "modern_applications_en": [
+    "Product R&D: 'it works' must be cashed as a deliverable prototype plus yield assumptions plus milestone readings — concept argument alone is banned",
+    "Long campaigns: manage by enrichment/progress curves with measurable stage readings to hold morale against invisible endpoints",
+    "Credit management: openly grade what is delivered-in-substance versus still inference; honest tiering buys long-term trust"
+   ]
+  },
+  {
+   "id": "M-CUR-005",
+   "mode_code": "M-CUR-005",
+   "name_zh": "化学性质/物理信号双轴定位法",
+   "name_en": "The Dual-Axis Location Method: Chemical Axis for Sorting, Physical Signal for Verdict",
+   "category": "核心方法",
+   "domain_zh": "分析化学/发现方法论",
+   "domain_en": "Analytical Chemistry / Discovery Methodology",
+   "level": "核心",
+   "priority": 2,
+   "key_quote_zh": "'钋：一种新放射性元素，其化学性质与铋相近，而其放射性远强于铀。'",
+   "key_quote_en": "'Polonium: a new radioactive element, chemically akin to bismuth, yet whose activity far exceeds uranium.'",
+   "source_chapter": "1898年7月钋的发现论文（与皮埃尔联名）；《放射性论》论放射族分离各章",
+   "definition_zh": "发现新元素时的定位技术：用两条正交轴共同锁定未知对象。方法论签名有四：其一，化学轴管排序——利用新物质随某种已知元素（铋、钡）共沉淀的倾向，把它放进周期表的'邻位格'，回答'它像谁'；其二，物理轴管定性——以放射性强度这一全新量纲判定'它是新东西'，因为任何已知元素的活性都到不了这个量级；其三，双轴互证缺一不可——只有化学相似而无异常信号是杂质，只有异常信号而无化学定位是幽灵，两条轴同时成立才能宣告新元素；其四，给命名留退路——钋以祖国波兰命名，同时诚实标注'该元素可能只是铋的伴随物'，命名不超出证据。这一模式是'以新维度立论、以旧坐标定位'的通用发现结构。",
+   "definition_en": "A locating technique for discovering new elements: two orthogonal axes jointly lock the unknown. Four signatures define the mode. First, the chemical axis sorts — using the new substance's tendency to co-precipitate with a known element (bismuth, barium), it is placed in the periodic table's 'neighborhood cell,' answering 'whom does it resemble.' Second, the physical axis qualifies — the wholly new quantity of radioactive intensity declares 'it is something new,' a magnitude no known element's activity approaches. Third, both axes are jointly necessary — chemical resemblance without an anomalous signal is an impurity; an anomalous signal without chemical placement is a ghost; a new element is proclaimed only when both hold. Fourth, name with an escape hatch — polonium was named for Poland while the paper honestly notes 'it may prove to be only an accompaniment of bismuth'; the name never outruns the evidence. The mode is the general discovery structure of arguing from a new dimension while locating in old coordinates.",
+   "key_concepts": [
+    "化学轴排序",
+    "物理轴定性",
+    "双轴互证",
+    "证据内命名"
+   ],
+   "process_zh": [
+    "为未知对象选定两条正交轴：一条沿用既有分类坐标（排序），一条启用全新量纲（定性）",
+    "在旧坐标上明确'它像谁、居于哪格'，并给出共沉淀/共聚等操作化判据",
+    "在新量纲上确立'旧成员全部到不了'的量级证据，证明其为新对象",
+    "命名与结论严格控制在双轴证据范围内，对未交付部分显式留白"
+   ],
+   "process_en": [
+    "Choose two orthogonal axes for the unknown: one reusing existing taxonomy (sorting), one a new dimension (qualification)",
+    "Fix on the old axis 'whom it resembles, which cell it occupies,' with operational criteria like co-precipitation",
+    "Establish on the new axis a magnitude no old member reaches, proving the object new",
+    "Keep naming and conclusion inside the two-axis evidence; leave blanks explicit for undelivered parts"
+   ],
+   "representative_cases_zh": [
+    "钋的发现（1898年7月）：化学轴上与铋同沉淀、物理轴上活性超铀数百倍——双轴成立即宣告新元素，同时附'可能仅为铋的伴随物'的保留条款",
+    "镭的发现（1898年12月）：化学轴上随钡富集，物理轴上活性超纯铀百万倍量级——'镭'之名与'需分离纯品'的后续义务同时发出",
+    "锕的发现（1899，德比尔纳执行同一双轴程序）：证明该方法可作为标准工序在团队内复制",
+    "反面警示：钋因双轴中的化学轴始终不闭合（无法与铋彻底分离），地位争议延续数十年，直至同位素化学成熟才澄清。教训：双轴中有一条不闭合时，结论等级须降格为'候选'并持续追踪。",
+    "反面警示：双轴判据对'量级'的依赖使更弱的新元素（低活性、短寿命）在同等工序下容易被漏检——方法的灵敏度边界即为发现边界。教训：每代方法须主动预测自己会漏检什么。",
+    "反面警示：以国家命名（钋=波兰）承载了科学之外的符号重量，在她生前被部分法国舆论解读为政治姿态。教训：命名策略须预判符号负载，科学主张与情感表达宜分流。"
+   ],
+   "representative_cases_en": [
+    "Polonium's discovery (July 1898): co-precipitates with bismuth on the chemical axis, activity hundreds of times uranium's on the physical axis — both axes hold, the element is proclaimed, with the rider 'it may be only an accompaniment of bismuth'",
+    "Radium's discovery (December 1898): enriches with barium chemically; physically, activity on the order of a million times pure uranium — the name issued together with the obligation to isolate it",
+    "Actinium (1899, Debierne running the same dual-axis procedure): proof the method copies as a standard in-team routine",
+    "Cautionary: with the chemical axis never closing for polonium (no clean separation from bismuth), its status stayed contested for decades until isotope chemistry matured. Lesson: when one axis fails to close, downgrade the conclusion to 'candidate' and keep tracking.",
+    "Cautionary: magnitude-based criteria miss weaker new species (low activity, short half-life) under the same routine; the method's sensitivity bound is the discovery bound. Lesson: each method generation must predict what it will miss.",
+    "Cautionary: national naming (polonium = Poland) carried symbolic weight read by some French opinion as political stance. Lesson: anticipate the symbolic load of names; keep scientific claims and emotional expression on separate channels."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "皮埃尔·居里 (Pierre Curie)",
+    "门捷列夫 (Dmitri Mendeleev)"
+   ],
+   "related_modes": [
+    "M-CUR-001",
+    "M-CUR-003",
+    "M-CUR-004"
+   ],
+   "modern_applications_zh": [
+    "新品类论证：'像谁'（旧坐标）+'旧玩家全到不了'（新量纲）两轴齐备才宣称新品类，命名不超出证据",
+    "人才评估：用既有能力坐标系定位候选人的'邻位'，用一两个旧框架无法解释的强信号判定'新增量'",
+    "数据科学：聚类结果须同时过'旧特征可解释'与'新指标显著'双检，防止单轴幻觉"
+   ],
+   "modern_applications_en": [
+    "Category creation: claim a new category only when 'whom it resembles' (old coordinates) and 'no incumbent reaches this' (new dimension) both hold; never let the name outrun evidence",
+    "Talent evaluation: place candidates in an existing capability grid, then qualify with one or two strong signals the old grid cannot explain",
+    "Data science: clusters must pass both 'explicable in old features' and 'significant on a new metric' — no single-axis hallucinations"
+   ]
+  },
+  {
+   "id": "M-CUR-006",
+   "mode_code": "M-CUR-006",
+   "name_zh": "知识产权开放策略",
+   "name_en": "The Open-Patent Strategy: Refuse the Moat, Buy the Field",
+   "category": "核心方法",
+   "domain_zh": "科学社会学/开放知识",
+   "domain_en": "Sociology of Science / Open Knowledge",
+   "level": "核心",
+   "priority": 2,
+   "key_quote_zh": "'镭是一种元素，它属于全人类……我们应该无条件地公布我们的方法。'",
+   "key_quote_en": "'Radium is an element; it belongs to all people… our method must be published without reserve.'",
+   "source_chapter": "1902年前后放弃镭提炼法专利的决定；《皮埃尔·居里传》中对这一抉择的复述",
+   "definition_zh": "居里夫妇最著名的制度性抉择：放弃镭提炼工艺的专利权，公开全部操作细节。方法论签名有四：其一，区分'发现'与'工艺'的价值归属——元素是自然的产物，工艺是人类的公共积累，对两者主张排他性产权在伦理上不成立；其二，以开放换速度——放弃专利换取全球实验室与工业（如美国标准局、各镭疗医院）的快速跟进，新领域以最短时间长成学科与产业；其三，以标准品供给维系影响力——不靠专利收费，而是靠独家制备的高纯基准与专业权威维持领导地位（声誉经济替代租金经济）；其四，清醒评估个人代价——夫妇二人因此放弃的财富估计以百万美元计，而他们的实验室长期经费拮据，这是有意识的、被辩护过的牺牲而非疏忽。这一模式展示了开放策略的真实结构：不是道德姿态，而是一套以声誉、标准、速度置换租金的组合拳。",
+   "definition_en": "The Curies' most famous institutional choice: waiving the patent on the radium extraction process and publishing every operational detail. Four signatures define the mode. First, separate the value-claims of discovery and process — the element is nature's product, the process humanity's accumulated commons; exclusive property over either is ethically untenable. Second, trade openness for speed — waiving patenting bought rapid global uptake (the U.S. Bureau of Standards, radium-therapy hospitals), letting the new field become discipline and industry in the shortest time. Third, sustain influence through standard supply — not patent rents but exclusive preparation of high-purity benchmarks and professional authority maintained leadership (a reputation economy in place of a rent economy). Fourth, price the personal cost lucidly — the family gave up wealth estimated in the millions while their own lab stayed underfunded: a deliberate, defended sacrifice, not an oversight. The mode shows the real structure of openness: not a moral pose, but a package trading rents for standing, standards, and speed.",
+   "key_concepts": [
+    "发现/工艺价值分离",
+    "以开放换速度",
+    "声誉经济",
+    "代价的显式定价"
+   ],
+   "process_zh": [
+    "面对可专利化成果，先做价值归属判断：这是自然发现、公共积累，还是真正的独创护城河",
+    "若选择开放，同步设计替代收益机制：标准品供给、方法权威、合作网络，以声誉与先发换租金",
+    "显式计算并接受开放的个人代价，向团队与合作者说明这笔账",
+    "定期复核开放策略：当领域成熟、垄断风险转移时，再评估是否需要新的保护形式"
+   ],
+   "process_en": [
+    "Facing a patentable result, first judge value-ownership: nature's discovery, public accumulation, or a genuine proprietary moat?",
+    "If opening, design substitute returns in parallel: benchmark supply, method authority, cooperation networks — standing and head start in place of rents",
+    "Price the personal cost explicitly and accept it; explain the ledger to team and collaborators",
+    "Re-audit the openness strategy periodically: as the field matures and monopoly risk migrates, reassess the protective form needed"
+   ],
+   "representative_cases_zh": [
+    "放弃镭提炼法专利（约1902）：全部工艺细节公开发表，美国等地的镭工业与镭疗医院直接受益——开放决策与新领域工业化在时间上高度耦合",
+    "亲手制备国际镭标准并免费供应：以'标准品垄断'替代'工艺专利'，科学领导权与公共品供给兼容",
+    "爱娃·居里传记记载的资助困境：夫妇因放弃专利长期买不起矿渣之外的实验经费，两度诺贝尔奖之后仍需多方筹款——开放的真实代价有账可查",
+    "反面警示：开放的收益被大量攫取，美国镭工业凭公开工艺获利巨大而原创者实验室经费窘迫；后来的美国'镭姑娘'工人在缺少早期工艺危害信息的环境下受镭毒害。教训：开放策略须预置下游安全信息传递与受益者反哺机制。",
+    "反面警示：声誉经济依赖个人品牌不可复制，居里夫人身后该模式难以在实验室延续，机构层面未形成可持续的开放经营制度。教训：开放组合拳须转写为机构制度而非依赖个人。",
+    "反面警示：'元素属于人类'的论证不能推广到一切工艺——她的选择对象是'自然的元素'，对真正独创性装置（如某些测量仪器）皮埃尔仍持有不同考虑。教训：开放策略须逐案定价，不可整体教条化。"
+   ],
+   "representative_cases_en": [
+    "Waiving the radium-extraction patent (c. 1902): every process detail published; the radium industry and therapy hospitals abroad benefited directly — openness timed with the field's industrialization",
+    "Preparing the international radium standard and supplying it free: 'benchmark monopoly' in place of 'process patent,' scientific leadership compatible with public-goods provision",
+    "The funding hardship recorded in Eve Curie's biography: forgoing patent wealth, the couple long lacked means even beyond slag; after two Nobel Prizes they still fundraised — the real price of openness on the books",
+    "Cautionary: openness's gains were massively captured — industry profited hugely from the published process while the originators' lab stayed poor, and the American 'radium girls' later suffered poisoning in the absence of early hazard information. Lesson: openness needs pre-embedded downstream safety information and beneficiary give-back mechanisms.",
+    "Cautionary: a reputation economy rests on an irreplaceable personal brand; the model did not survive her in institutional form. Lesson: transcribe the openness package into institutional practice, not personal devotion.",
+    "Cautionary: 'elements belong to all' cannot extend to every process — her case was 'nature's element,' while Pierre weighed proprietary instrument designs differently. Lesson: price openness case by case; never canonize it wholesale."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "皮埃尔·居里 (Pierre Curie)",
+    "本杰明·富兰克林 (Benjamin Franklin, 对照)"
+   ],
+   "related_modes": [
+    "M-CUR-002",
+    "M-CUR-009",
+    "M-CUR-010"
+   ],
+   "modern_applications_zh": [
+    "开源与技术开源策略：决定开源前设计替代收益（认证、服务、标准话语权），并显式给团队算清代价账",
+    "平台与生态：放弃某层收费以换取生态速度，同时在相邻层（标准品、关键供给）建立可持续位置",
+    "公共科研管理：为'开放但可持续'设计机构机制（开放核心、反哺基金），不把开放寄托于个人奉献"
+   ],
+   "modern_applications_en": [
+    "Open-sourcing: before opening, design substitute returns (certification, services, standards standing) and show the team the cost ledger explicitly",
+    "Platform and ecosystem: forgo fees on one layer to buy ecosystem speed while holding a sustainable position on an adjacent layer (standards, critical supply)",
+    "Public research governance: build institutional mechanisms for 'open yet sustainable' (open-core, give-back funds) rather than leaning on personal sacrifice"
+   ]
+  },
+  {
+   "id": "M-CUR-007",
+   "mode_code": "M-CUR-007",
+   "name_zh": "夫妇协作分工法",
+   "name_en": "The Conjugal-Division Method: Two Minds, One Bench, Complementary Axes",
+   "category": "核心方法",
+   "domain_zh": "科学组织学/协作方法论",
+   "domain_en": "Organization of Science / Collaboration Methodology",
+   "level": "核心",
+   "priority": 2,
+   "key_quote_zh": "'我们的不同在于：他善于瞬时把握全貌，我善于一步一步克服困难。我们互补，而非重复。'",
+   "key_quote_en": "'The difference between us: he grasps the whole at a stroke; I overcome difficulties step by step. We are complementary, not redundant.'",
+   "source_chapter": "《皮埃尔·居里传》中对其夫工作方式的描述；两人联名论文的分工格局",
+   "definition_zh": "居里夫妇的协作结构是其产出的隐藏变量：不是两人各自优秀，而是两类思维工序的互补装配。方法论签名有四：其一，工序异质分工——皮埃尔长于物理直觉、仪器设计与瞬时综合，玛丽长于系统排除、计量与耐力攻坚，两人分别占据'猜测-设计'与'验证-执行'两条工序；其二，共同署名的对等规范——发现期论文几乎全部联名，署名次序反映分工而非等级，形成了科学史上罕见的对等协作样板；其三，跨域互补优于同域叠加——化学训练（玛丽）与物理训练（皮埃尔）的交叉使放射性同时被当作化学问题与物理问题处理，这正是'放射性是原子性质'得以提出的认知条件；其四，信任替代监督——长期战役中的分工不需要逐日核对，以共同在场（同一棚屋、同一读数）替代过程管理。这一模式把'团队配置'从人才加总升级为工序互补设计。",
+   "definition_en": "The Curies' collaboration structure is the hidden variable of their output: not two excellent individuals but the complementary assembly of two kinds of cognitive process. Four signatures define the mode. First, heterogeneous process roles — Pierre excelled at physical intuition, instrument design, and instant synthesis; Marie at systematic elimination, metrology, and endurance campaigns — occupying the 'guess-design' and 'verify-execute' lines respectively. Second, equal co-authorship norms — discovery-era papers are almost all joint, order reflecting division of labor, not rank: a rare template of peer collaboration in science history. Third, cross-domain beats same-domain stacking — her chemistry and his physics crossed so radioactivity was treated as both chemical and physical problem, the cognitive condition for 'radioactivity is an atomic property.' Fourth, trust replaces supervision — the long campaigns needed no daily audit; shared presence (same shed, same readings) stood in for process management. The mode upgrades 'team staffing' from talent summation to complementary process design.",
+   "key_concepts": [
+    "工序异质分工",
+    "对等署名规范",
+    "跨域交叉",
+    "共同在场替代监督"
+   ],
+   "process_zh": [
+    "为任务画出工序分解：猜测/设计端与验证/执行端各自需要什么认知类型",
+    "按认知类型异质配对，明确拒绝'两个同型人才相加'的配置",
+    "建立对等的成果署名与分工可视化规范，防止互补沦为依附",
+    "以共同在场与共享读数替代过程监督，把信任结构化"
+   ],
+   "process_en": [
+    "Decompose the task into process stages: what cognitive types the guess-design end and the verify-execute end each require",
+    "Pair heterogeneously by cognitive type; refuse 'two of the same talent added together'",
+    "Set equal authorship and visible-division norms so complementarity never decays into dependency",
+    "Replace supervision with shared presence and shared readings; structure trust"
+   ],
+   "representative_cases_zh": [
+    "1898年两篇发现论文的署名格局：钋论文署名居里夫妇（玛丽执笔矿渣分析），镭论文加署贝蒙（光谱证据提供者）——署名如实映射贡献结构",
+    "压电静电计的分工组装：皮埃尔设计并制作石英压电装置，玛丽负责电离测量与读数规程——仪器端与计量端各占一轴",
+    "皮埃尔自述'若无她的坚持，放射性研究不会走这么远'：攻坚耐力被承认为独立贡献类型，而非附属美德",
+    "反面警示：协作结构高度依附二人关系，皮埃尔1906年猝逝后玛丽的研究工序长期失配（综合端缺失），其后续成果节奏明显放缓。教训：异质互补结构须有冗余或可替换设计，防止单点人格依赖。",
+    "反面警示：'共同在场'以两人近乎全部社会生活为代价，女儿传记披露家庭与社交被极度压缩。教训：共同在场强度须按人的承受力设置上限，否则协作结构以生活为燃料。",
+    "反面警示：对等署名规范在当时制度中未被承认为'资历'，玛丽长期以'实验室主任助理'等头衔工作，署名荣誉与职位体制脱节。教训：协作规范须同步改造组织承认机制，否则贡献结构在体制中失真。"
+   ],
+   "representative_cases_en": [
+    "The signature pattern of the two 1898 discovery papers: the polonium paper signed Curie and Curie (Marie writing the slag analysis), the radium paper adding Bémont for spectral evidence — authorship mapping the contribution structure",
+    "The piezoelectric electrometer as a divided assembly: Pierre designing the quartz device, Marie owning ionization measurement and reading protocol — instrument axis and metrology axis",
+    "Pierre's own testimony that without her persistence the radioactivity work would not have gone so far: endurance acknowledged as an independent contribution type, not an accessory virtue",
+    "Cautionary: the structure clung to one relationship; after Pierre's sudden death in 1906 the synthesis end went missing and her later output slowed. Lesson: heterogeneous pairs need redundancy or replaceability against single-person dependency.",
+    "Cautionary: shared presence cost the pair nearly all social life; the daughter's biography records the extreme compression of family and friendship. Lesson: cap shared presence by human endurance, or the structure burns life as fuel.",
+    "Cautionary: the era's institutions did not read equal authorship as seniority; she long worked under titles like 'lab chief of work' — credit structure severed from position. Lesson: collaboration norms must simultaneously reform the recognition system."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "皮埃尔·居里 (Pierre Curie)",
+    "威廉·亨利·布拉格与威廉·劳伦斯·布拉格 (W. H. Bragg & W. L. Bragg, 对照)"
+   ],
+   "related_modes": [
+    "M-CUR-004",
+    "M-CUR-009",
+    "M-CUR-001"
+   ],
+   "modern_applications_zh": [
+    "初创团队配置：按'猜想-设计'与'验证-执行'工序异质配对，署名/股权/头衔如实映射分工",
+    "研究型双人组（师徒/搭档）：以共同在场与共享数据流替代周报式监督，把信任写成结构",
+    "关键人风险治理：对不可替代的互补结构预置冗余（第二综合端、交叉培训），防止单点人格依赖"
+   ],
+   "modern_applications_en": [
+    "Startup staffing: pair 'guess-design' with 'verify-execute' heterogeneously; let authorship, equity, and titles map the division truly",
+    "Research dyads (mentor-partner): replace weekly-report supervision with shared presence and shared data streams; write trust into structure",
+    "Key-person risk: pre-position redundancy (a second synthesizer, cross-training) so irreplaceable complementarity never becomes single-person dependency"
+   ]
+  },
+  {
+   "id": "M-CUR-008",
+   "mode_code": "M-CUR-008",
+   "name_zh": "逆境转化执行法",
+   "name_en": "The Adversity-Conversion Method: Turn Every Exclusion into an Operating Parameter",
+   "category": "核心方法",
+   "domain_zh": "人生方法论/韧性科学",
+   "domain_en": "Life Methodology / Science of Resilience",
+   "level": "核心",
+   "priority": 2,
+   "key_quote_zh": "'生命中没有可怕的东西，只有需要理解的东西。现在正是加深理解的时候，这样我们才能少些恐惧。'",
+   "key_quote_en": "'Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.'",
+   "source_chapter": "《自传》对巴黎求学与索尔本受排斥经历的陈述；爱娃·居里传记所载书信",
+   "definition_zh": "居里夫人以逆境为常量的个人操作系统：从波兰被占领下的'飞行大学'秘密求学，到巴黎以女外邦人身份进入男性科学院体系，逆境从未被当作取消条件，而是被折算为约束参数继续运算。方法论签名有四：其一，把'不被允许'翻译为'以别的路径抵达'——进不了正规学院就进'飞行大学'，进不了法国科学院（1911年以一票之差落选）就把精力转向实验室与国际平台；其二，把匮乏折算为简化——贫穷与简陋被重构为'干扰更少的实验生活'（自述拒绝陪嫁、婚礼只买两辆自行车），预算约束直接转化为日程设计；其三，以工作量吸收情绪——丈夫猝逝后她接任其教席与实验室，把悲恸转化为工作量记录而非停滞；其四，逆境信息复用——每次被排斥的经历都被转化为后来为其他女性研究者建立通道时的制度知识。这一模式区分了'坚忍'与'坚忍的方法论'：前者是忍受，后者是把每一次阻塞变成参数的再运算。",
+   "definition_en": "Curie's personal operating system with adversity as a constant: from secret study in occupied Poland's 'Flying University' to entering the male academy system in Paris as a foreign woman, obstruction was never a cancellation condition but a constraint parameter folded into continued computation. Four signatures define the mode. First, translate 'not allowed' into 'arrive by another route' — barred from the正规 academy, she used the Flying University; defeated for the French Academy of Sciences by one vote in 1911, she redirected to laboratory and international platforms. Second, fold scarcity into simplification — poverty and austerity recomposed as 'a life of fewer distractions' (she declined a dowry, married with two bicycles): budget constraints became schedule design. Third, absorb emotion through workload — after Pierre's sudden death she took over his chair and lab, converting grief into logged work rather than stasis. Fourth, reuse adversity information — each exclusion later became institutional knowledge for building channels for other women researchers. The mode separates 'endurance' from 'the methodology of endurance': the former suffers; the latter re-runs computation with every blockage as a parameter.",
+   "key_concepts": [
+    "路径再运算",
+    "匮乏简化化",
+    "工作量吸收",
+    "逆境信息复用"
+   ],
+   "process_zh": [
+    "遭遇排斥或匮乏时，先区分'不可逾越'与'仅此路径被封锁'，对后者立即启动替代路径运算",
+    "把资源约束折算为设计与日程：明确列出'这种条件反而使什么变简单'",
+    "重大情绪冲击期，用可记录的工作量作为承载结构，禁止以停摆消化情绪",
+    "定期把逆境经历抽象为可复用的制度知识，用于帮助后来者绕开同一障碍"
+   ],
+   "process_en": [
+    "On exclusion or scarcity, first separate 'impassable' from 'this route only is blocked'; for the latter, run alternative-route computation at once",
+    "Fold resource constraints into design and schedule: state explicitly 'what this condition makes simpler'",
+    "In periods of grave emotional shock, let logged workload carry the structure; never digest emotion by stopping",
+    "Regularly abstract adversity into reusable institutional knowledge that helps latercomers bypass the same obstacles"
+   ],
+   "representative_cases_zh": [
+    "飞行大学时期（1885-1891）：在华沙被禁的正常教育体系外做家庭教师并参加秘密课程，把'无学可上'折算为'边工作边自学的八年'——按此路线入索尔本时数学物理基础反而扎实",
+    "1911年法国科学院落选（一票之差）与同年第二次诺奖：在同一年内遭遇体制羞辱并获得国际最高承认，她的实际反应是加倍投入实验室——体制内门与体制外窗的显式换轨",
+    "皮埃尔猝逝（1906）后接任索尔本教席：成为该校首位女教授，以讲席与实验室的接手为悲恸提供结构",
+    "反面警示：逆境转化在她的实践中偏向'个人硬扛'，长期回避体制抗争与舆论战（1911年朗之万事件中舆论攻击直接损害其健康）。教训：转化法须与'何时该正面抗争'的判断配合，不是一切阻塞都应绕行。",
+    "反面警示：'工作量吸收'策略以健康为隐性账户，她晚年再生障碍性贫血与长期辐射暴露及过载直接相关。教训：工作量承载须设健康熔断线，越过即须外部干预而非自我加压。",
+    "反面警示：个人逆境的转化经验在她生前未被充分制度化（法国科学院直至1962年才首次接纳女性），后来者无法直接继承其通道建设。教训：转化法的制度知识须趁当事人有权时写入规则，否则只是私人记忆。"
+   ],
+   "representative_cases_en": [
+    "The Flying University years (1885-1891): governess work plus secret courses outside occupied Warsaw's barred system, folding 'no schooling' into eight years of work-and-self-study — arriving at the Sorbonne with unusually solid mathematical grounding",
+    "1911: losing the French Academy by one vote and winning her second Nobel in the same year — institutional humiliation and supreme international recognition in one year; her actual response was more laboratory: an explicit switch from in-system doors to out-system windows",
+    "Taking Pierre's chair after his sudden death (1906): the Sorbonne's first woman professor, the inherited chair and lab giving grief a structure",
+    "Cautionary: her conversion leaned on 'bearing it alone,' avoiding institutional fight and media battle (the 1911 Langevin affair's attacks damaged her health directly). Lesson: pair conversion with the judgment of 'when to fight frontally'; not every blockage should be bypassed.",
+    "Cautionary: 'workload absorption' ran on a hidden health account; her late aplastic anemia is tied to long radiation exposure and overload. Lesson: workload carrying needs a health circuit-breaker; beyond it, external intervention, not more self-pressure.",
+    "Cautionary: her conversion knowledge was never institutionalized in her lifetime (the French Academy admitted its first woman only in 1962); latercomers could not inherit the channels. Lesson: write conversion knowledge into rules while its owner has the power to — otherwise it is private memory."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "哈丽特·塔布曼 (Harriet Tubman, 对照)",
+    "海伦·凯勒 (Helen Keller, 对照)"
+   ],
+   "related_modes": [
+    "M-CUR-006",
+    "M-CUR-009",
+    "M-CUR-010"
+   ],
+   "modern_applications_zh": [
+    "职业受挫处理：区分'此路被封'与'此路全毁'，对前者立即列出三条替代路径并启动最小验证",
+    "低谷期管理：用可记录的最小工作量维持结构（每日固定产出一项），禁止以完全停摆消化情绪",
+    "组织包容建设：把成员各自'被排斥的经历'收集为流程设计输入，把个人逆境转化为制度知识"
+   ],
+   "modern_applications_en": [
+    "Career setbacks: separate 'this route blocked' from 'all routes destroyed'; for the former, list three alternatives at once and run the smallest verification",
+    "Slump management: hold structure with a logged minimal daily output; never digest emotion by full stop",
+    "Organizational inclusion: collect members' exclusion histories as design inputs, converting private adversity into institutional knowledge"
+   ]
+  },
+  {
+   "id": "M-CUR-009",
+   "mode_code": "M-CUR-009",
+   "name_zh": "基础研究-应急转化法",
+   "name_en": "The Research-to-Rescue Conversion: From Bench Science to Field System in Months",
+   "category": "核心方法",
+   "domain_zh": "科学转化/组织动员",
+   "domain_en": "Science Translation / Organizational Mobilization",
+   "level": "核心",
+   "priority": 2,
+   "key_quote_zh": "'战争需要X光，需要能在前线工作的X光装置——我去组织它们。'",
+   "key_quote_en": "'The war needs X-rays, and X-ray units that can work at the front — I went to organize them.'",
+   "source_chapter": "《自传》'战争中'一章；一战中'小居里'(petites Curies) 战地放射车队史实",
+   "definition_zh": "居里夫人一战中展示的极速转化能力：把基础放射性研究在数月内转化为战地医疗体系。方法论签名有四：其一，以需求倒排技术路线——不是问'我的研究能做什么'，而是问'前线需要什么'，再反推本方技术栈中可即刻启用的部分（X射线装置+放射源知识）；其二，把复杂技术封装为可复制的简单单元——设计'小居里'：改装车载X光机+培训点，使非专业人员在短期训练后可操作，技术以'单元包'形式扩散而非以专家形式扩散；其三，亲自下到使用端——她本人驾车随队上前线，直接采集使用反馈与故障谱，形成快速迭代回路；其四，以基础研究资产背书动员——其诺奖声誉与标准化知识使其能越过官僚程序快速征得车辆、资金与女性志愿者，科学家个人权威被转化为动员杠杆。这一模式回答：基础研究者在危机中如何最快地产生系统级影响。",
+   "definition_en": "The conversion capability Curie displayed in WWI: bench radioactivity research turned into a battlefield medical system within months. Four signatures define the mode. First, invert from demand — not 'what can my research do' but 'what does the front need,' then back-derive the immediately usable parts of the stack (X-ray units plus radioactivity knowledge). Second, package complex technology into copyable simple units — the 'petites Curies': refitted van-mounted X-ray machines with training points, so non-specialists could operate after short instruction; technology spreads as unit-packages, not as experts. Third, go to the usage end in person — she drove to the front herself, collecting feedback and failure spectra first-hand, closing a fast iteration loop. Fourth, leverage basic-research assets for mobilization — her Nobel standing and standardized knowledge let her outrun bureaucracy to secure vehicles, funds, and women volunteers: personal scientific authority converted into mobilization leverage. The mode answers: how a basic researcher can produce system-level impact fastest in a crisis.",
+   "key_concepts": [
+    "需求倒排",
+    "技术单元包",
+    "使用端亲自在场",
+    "权威动员杠杆"
+   ],
+   "process_zh": [
+    "危机中先做需求清单，再反推自家技术栈中可即刻启用的部分，砍掉一切'再等研究成熟'的选项",
+    "把可用技术封装为'设备+短训+操作手册'的最小可复制单元，使扩散不依赖专家供给",
+    "本人或核心成员驻场使用端，采集故障与误用数据，按周迭代装置与规程",
+    "用专业声誉兑换动员资源（车辆、资金、志愿者），并显式记录账目以维持公信"
+   ],
+   "process_en": [
+    "In crisis, write the demand list first, back-derive the immediately usable parts of your stack, and cut every 'wait for the research to mature' option",
+    "Package usable tech as the minimal copyable unit — equipment, short training, an operations manual — so diffusion never depends on expert supply",
+    "Station yourself or core members at the usage end, collecting failure and misuse data, iterating device and protocol weekly",
+    "Exchange professional standing for mobilization resources (vehicles, funds, volunteers), keeping explicit accounts to preserve credibility"
+   ],
+   "representative_cases_zh": [
+    "'小居里'车队体系（1914-1918）：约20辆改装X光车与数百个放射站点，估计逾百万伤员接受检查，操作员多为受短训的女性志愿者——技术单元包策略的完整判例",
+    "她本人前线值勤：亲自驾驶、操作并培训，直接暴露于X光环境——使用端在场的极端形态，反馈回路以个人身体为介质",
+    "战后把战地经验写回民用放射医学：车队规程、剂量控制与人员培训体系回流为和平时期的放射治疗标准——转化闭环的最后一环",
+    "反面警示：转化完全依赖个人权威与个人垫资（她自费购置设备并捐出诺奖奖金），机构层面未建立可持续的应急转化管道，战后未能复制。教训：转化体系须落为制度与预算线，不能系于一人。",
+    "反面警示：短训+单元包模式牺牲了辐射防护的系统性，短训操作员与伤员的累积剂量在当时未受监控。教训：应急转化的'快'必须内含安全底线模块，防护规程须与操作手册同页。",
+    "反面警示：需求倒排使她战时研究方向几乎完全让位于医疗动员，战后其研究前沿位置部分让渡给了卢瑟福学派。教训：危机动员须设定研究主线保留量，防止转化彻底吞没前沿。"
+   ],
+   "representative_cases_en": [
+    "The petites Curies system (1914-1918): some twenty refitted X-ray vans and hundreds of radiological stations, an estimated million-plus wounded examined, operators mostly briefly trained women volunteers — the full case of the unit-package strategy",
+    "Her own front-line service: driving, operating, and training in person, directly exposed to X-rays — the extreme form of presence at the usage end, the feedback loop mediated by her own body",
+    "Postwar write-back to civilian radiology: van protocols, dose control, and operator training flowing home as peacetime radiotherapy standards — the last link of the conversion loop",
+    "Cautionary: the conversion ran on personal authority and personal money (self-bought equipment, donated prize money); no sustainable institutional pipeline survived the war. Lesson: conversion systems must land as institutions and budget lines, not one person.",
+    "Cautionary: short training plus unit-packages sacrificed systematic radiation protection; cumulative doses to operators and wounded went unmonitored. Lesson: emergency speed must contain a safety floor — protection protocols on the same page as the operations manual.",
+    "Cautionary: demand inversion let the war consume her research line almost entirely; postwar, the research frontier partly passed to the Rutherford school. Lesson: crisis mobilization must reserve a research-mainline quota, or conversion devours the frontier."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "南丁格尔 (Florence Nightingale, 对照)",
+    "亚历山大·弗莱明 (Alexander Fleming, 对照)"
+   ],
+   "related_modes": [
+    "M-CUR-002",
+    "M-CUR-006",
+    "M-CUR-008"
+   ],
+   "modern_applications_zh": [
+    "危机响应设计：先列需求清单再倒排技术启用顺序，把技术封装为'设备+短训+手册'的最小单元快速铺开",
+    "公益技术落地：项目主要负责人驻场使用端采集真实故障谱，以周为单位迭代而非以年为单位交付",
+    "机构预案：把'个人权威型动员'预先转写为制度管道（预算、授权、供应商名单），危机时不临时重建"
+   ],
+   "modern_applications_en": [
+    "Crisis response: list demands first, back-derive enablement order, and roll out tech as minimal 'equipment + short training + manual' units",
+    "Deploying public-interest technology: principals on-site at the usage end collecting real failure spectra, iterating weekly rather than delivering yearly",
+    "Institutional preparedness: transcribe authority-driven mobilization into pipelines (budget, delegation, supplier lists) before the crisis, not during"
+   ]
+  },
+  {
+   "id": "M-CUR-010",
+   "mode_code": "M-CUR-010",
+   "name_zh": "学科建制化策略",
+   "name_en": "The Discipline-Building Strategy: Turn a Discovery into an Institution with Successors",
+   "category": "核心方法",
+   "domain_zh": "科学社会学/知识传承",
+   "domain_en": "Sociology of Science / Knowledge Succession",
+   "level": "核心",
+   "priority": 2,
+   "key_quote_zh": "'我不只要发现镭，我要建立一门放射学，并且让它在我之后继续生长。'",
+   "key_quote_en": "'I did not want only to discover radium; I wanted to found a science of radioactivity and let it grow beyond me.'",
+   "source_chapter": "1920年代镭学研究所（Institut du Radium）的建设；《放射性论》的教材化设计",
+   "definition_zh": "居里夫人在发现之后的第二阶段战略：把个人成就转写为可传承的建制。方法论签名有四：其一，教材即学科宪法——1910年《放射性论》以测量方法为主干编写，等于把学科的判定标准（什么算证据、怎么测）写进可复制的文本；其二，研究所即人才生产线——居里-巴斯德研究所建制的核心不是楼宇而是'以课题训练学生'的流水线，约四十个国家的学生曾来此受训，其中包括其女儿伊蕾娜（1935年再获诺奖）；其三，以标准品与术语占住学科基础设施——国际镭标准、'放射性'术语、单位与规程使新领域一出生就有公共地基；其四， succession 内嵌于项目设计——课题被切分为可独立交付的模块（钋、镭、锕、剂量学），模块天然成为后继者的入口。这一模式区分了'做出发现'与'建成学科'：前者是一个事件，后者是一台机器。",
+   "definition_en": "Curie's second-stage strategy after discovery: transcribing personal achievement into a transmissible institution. Four signatures define the mode. First, the textbook as the discipline's constitution — the 1910 Treatise on Radioactivity is structured on measurement method, writing the field's criteria of evidence (what counts, how to measure) into a copyable text. Second, the institute as a talent production line — the Radium Institute's core was not buildings but a pipeline of topic-driven student training, hosting students from some forty countries, including her daughter Irène (Nobel 1935). Third, holding the discipline's infrastructure via standards and terms — the international radium standard, the term 'radioactivity,' units and protocols gave the newborn field a public foundation. Fourth, succession embedded in project design — topics sliced into independently deliverable modules (polonium, radium, actinium, dosimetry) that become natural entry points for successors. The mode separates 'making a discovery' from 'building a discipline': the former is an event; the latter is a machine.",
+   "key_concepts": [
+    "教材即宪法",
+    "研究所即流水线",
+    "基础设施占有",
+    "模块化传承"
+   ],
+   "process_zh": [
+    "发现稳定后立即把判定标准（测量、证据规程）写成可复制的教材或规范文本",
+    "以真实课题训练学生，把'带人'设计为学科扩张的流水线而非个人恩惠",
+    "抢占学科公共基础设施：标准品、术语、单位、期刊，使领域以自己定义的地基生长",
+    "把研究纲领切分为可独立交付的模块，为后继者预留天然入口与署名空间"
+   ],
+   "process_en": [
+    "Once a discovery stabilizes, write its criteria of evidence (measurement, protocol) into a copyable textbook or normative text",
+    "Train students through real projects, designing 'bringing people along' as the discipline's expansion pipeline, not personal favor",
+    "Take the field's public infrastructure: standards, terminology, units, journals — so the field grows on a foundation you defined",
+    "Slice the research program into independently deliverable modules, reserving natural entry points and credit space for successors"
+   ],
+   "representative_cases_zh": [
+    "《放射性论》(1910)：以测量方法为主干的学科宪法式教材，成为此后二十年的领域标准文本",
+    "镭学研究所（居里馆，1914启用）与战间期的国际学生流：培养出包括伊蕾娜·约里奥-居里在内的下一代，1935年人工放射性诺奖是建制化产出的直接兑现",
+    "国际学术委员会任职（1921年后国际 intellectual cooperation 委员会等）：把学科规范输出到国际治理层",
+    "反面警示：学科基础设施的'占有'引发与卢瑟福学派的优先权与标准分歧（放射族命名、标准品竞争），一度造成英法实验室关系紧张。教训：基础设施策略须配外交机制，防止标准化变成地盘化。",
+    "反面警示：模块化传承偏向实验室内部人，外部竞争者（如哈恩、迈特纳在德国的放射化学路线）以并行建制发展，放射学在1930年代实质分裂为多中心。教训：建制化若不预设开放接口，会催生平行山头。",
+    "反面警示：生产线对人员健康的代价长期被低估，早期学生的辐射防护严重不足，多名从业者早逝（包括伊蕾娜本人因辐射相关疾病去世）。教训：学科机器必须内含对操作者健康的制度性保护，否则以人命折旧。"
+   ],
+   "representative_cases_en": [
+    "Treatise on Radioactivity (1910): a constitution-style textbook structured on measurement method, the field's standard text for two decades",
+    "The Radium Institute (Curie Pavilion, opened 1914) and the interwar international student flow: training the next generation including Irène Joliot-Curie — the 1935 Nobel for artificial radioactivity as direct institutional payoff",
+    "Service on international bodies (League intellectual-cooperation committees after 1921): exporting disciplinary norms to the governance layer",
+    "Cautionary: 'holding infrastructure' triggered priority and standards disputes with the Rutherford school (naming of the emanations, competing standards), straining Anglo-French lab relations. Lesson: pair infrastructure strategy with diplomacy, or standardization becomes turf war.",
+    "Cautionary: modular succession favored insiders; external competitors (Hahn and Meitner's German radiochemistry) built parallel institutions, and radioactivity was de facto polycentric by the 1930s. Lesson: institution-building without open interfaces breeds parallel hillforts.",
+    "Cautionary: the production line underpriced health costs; early students' radiation protection was grossly insufficient and several practitioners died young (Irène herself of a radiation-linked illness). Lesson: the discipline machine must contain institutional health protection for its operators, or it depreciates in human lives."
+   ],
+   "representative_figures": [
+    "居里夫人 (Marie Curie)",
+    "伊蕾娜·约里奥-居里 (Irène Joliot-Curie)",
+    "卢瑟福 (Ernest Rutherford, 对照)"
+   ],
+   "related_modes": [
+    "M-CUR-002",
+    "M-CUR-006",
+    "M-CUR-009"
+   ],
+   "modern_applications_zh": [
+    "技术团队知识传承：把隐性判断写成规范文本（手册/评审标准），以真实项目带人而非只靠口头",
+    "开源社区建设：抢占术语、规范与基准（文档、评测集、CI标准），让生态在你定义的地基上生长",
+    "组织战略：把宏大目标切分为可独立交付的模块，每模块预留下一个负责人的入口与署名空间"
+   ],
+   "modern_applications_en": [
+    "Knowledge succession in tech teams: write tacit judgment into normative texts (handbooks, review criteria); train people through real projects, not hearsay",
+    "Open-source community building: hold terminology, specs, and benchmarks (docs, eval sets, CI standards) so the ecosystem grows on your foundation",
+    "Organizational strategy: slice grand goals into independently deliverable modules, each reserving an entry point and credit space for the next owner"
+   ]
+  }
+ ]
+}

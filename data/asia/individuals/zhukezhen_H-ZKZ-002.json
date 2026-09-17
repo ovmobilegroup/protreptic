@@ -1,0 +1,117 @@
+{
+  "id": "H-ZKZ-002",
+  "name_zh": "多源证据交叉归纳",
+  "name_en": "Multi-Source Evidence Induction",
+  "category": "analytics",
+  "sub_category": "evidence fusion / inductive abstraction",
+  "definition_zh": "面对单一证据不可靠或缺失，主动汇集多类异源证据（仪器观测、物候记录、文献史料、农谚谚语），以交叉验证互相修正偏差，再从具体现象中抽象出可复用的本质规律，而非仅凭一类材料下结论。",
+  "definition_en": "When single evidence is unreliable or missing, actively gather heterogeneous sources (instrument records, phenology logs, archives, proverbs), cross-validate them to correct mutual bias, then abstract reusable essential laws from concrete phenomena rather than concluding from one class of material.",
+  "formula_repr": {
+    "formulas": [
+      "Converge: L = argmax_L Π_k P(x_k | L)   [使多源似然之积最大的规律 L 为归纳结论]",
+      "Cross-check: agree(x_i,x_j) ⇒ confidence↑ ; conflict ⇒ flag & reweight   [多源一致升置信，冲突则标红降权]",
+      "Span S = union of time/space covered by sources   [证据源并集决定可归纳的时空跨度]",
+      "Bias(x_k) ↓ as K↑ and sources independent   [独立源数 K 越多，单源系统偏差越小]"
+    ],
+    "variables": {
+      "L": "待归纳的本质规律（如近 5000 年气候波动轮廓）",
+      "x_k": "第 k 类证据观测值",
+      "P_xk_given_L": "在规律 L 下观测到 x_k 的似然",
+      "S": "证据覆盖的时空跨度",
+      "K": "独立证据源数量"
+    },
+    "prototype": "Inductive abstraction / 抽象归纳法（长尺度多源证据版）"
+  },
+  "applicability": {
+    "triggers": [
+      "关键证据单一、易缺、易伪（古气候/古史/罕见病/冷门市场）",
+      "需跨越远超个人寿命的时空尺度才能显规律",
+      "文献/民间记录等非标准材料蕴含可用信号",
+      "结论需经多方互证才具说服力（学术/司法/尽调）"
+    ],
+    "anti_patterns": [
+      "只用一类材料（如仅方志或仅仪器）就断言长周期规律",
+      "把文献当「史料」而非「可归纳的实证」弃用",
+      "多源冲突时不标红、不重加权，强行缝合",
+      "忽略证据时空跨度，把局部结论外推到全局"
+    ]
+  },
+  "steps_zh": [
+    "广搜异源：系统搜集仪器记录、物候笔记、正史方志、农谚等多类证据，宁多勿漏（竺翻 5000+ 方志）。",
+    "定标对齐：为每类证据定时间轴与空间锚点，使跨源可叠加比较。",
+    "交叉验证：多源一致则置信上升；冲突则标红、查校勘、按可靠性重加权。",
+    "抽象规律：从一致信号中归纳本质轮廓（如温暖期/寒冷期交替、400–800 年小循环）。",
+    "外部旁证：引入独立体系（格陵兰冰芯 ¹⁸O/¹⁶O 比）比对，吻合则升置信。",
+    "古为今用：把归纳出的周期用于长期预报与当代决策，闭环验证。"
+  ],
+  "steps_en": [
+    "Broad-source harvest: systematically collect instruments, phenology notes, histories, proverbs—more rather than fewer (Zhu read 5000+ local gazetteers).",
+    "Align benchmarks: fix a time axis and spatial anchors per source so cross-source stacking is possible.",
+    "Cross-validate: agreement raises confidence; conflict is flagged, re-collated, re-weighted by reliability.",
+    "Abstract the law: induce the essential contour from consistent signals (warm/cold alternation, 400–800-yr sub-cycles).",
+    "External corroboration: bring an independent system (Greenland ice-core ¹⁸O/¹⁶O ratio) to compare; agreement raises confidence.",
+    "Use the past for the present: apply the induced cycles to long-range forecasting and current decisions, closing the loop."
+  ],
+  "historical_case_zh": "《中国近五千年气候变迁的初步研究》以考古时期（殷墟甲骨、器物）、物候时期（诗经/古籍零碎物候）、方志时期（明以来 5000+ 部方志）、仪器观测时期四阶段证据交叉归纳，勾勒出「仰韶—殷墟温暖 2℃ → 公元前 1000/公元 400/1200/1700 四次冷谷 → 每 400–800 年 0.5–1℃ 小循环」的轮廓；并以格陵兰冰芯氧同位素比印证「气候波动全球性」。竺认为植物分布比动物化石更有效作气候标志，因植物不能移动——此即多源中择优定标的体现。",
+  "historical_case_en": "'Preliminary Study on Climate Change in China over the Last 5000 Years' cross-induces from four stages—archaeological (Anyang oracle bones, artifacts), phenological (Shijing and scattered ancient records), gazetteer (5000+ local histories since Ming), and instrumental—to outline 'Yangshao–Yin warm by ~2°C → four cold troughs at 1000 BC / 400 / 1200 / 1700 AD → 0.5–1°C sub-cycles every 400–800 yr'; it corroborates 'global climate oscillation' with Greenland ice-core oxygen-isotope ratios. Zhu held plant distribution a better climate marker than animal fossils because plants cannot move—choosing the best anchor among sources.",
+  "modern_case_zh": "尽调/侦破中的「多源交叉验证」：用财报+工商+舆情+供应链访谈互证；医学用影像+血检+病理+基因多模态归纳诊断；AI 训练用多数据集集成降低单集偏差——皆同此模式。",
+  "modern_case_en": "'Multi-source cross-validation' in due diligence and investigation: financials + registry + sentiment + supply-chain interviews; medicine fuses imaging + labs + pathology + genomics; AI ensembles cut single-dataset bias—all the same pattern.",
+  "inheritance_note": "B 级结构同构：对应屠呦呦「文献考据+化学分离+药效验证」三重交叉（模式 25 药学版）、王选「汉字结构抽象归纳」（模式 25 信息结构版）。A 级直链：竺可桢是 Protreptic 中将模式 25 用于「跨 5000 年尺度的历史气候重建」、并把文献史料当可归纳实证的第一人，补强模式 25 高频核心。",
+  "related_persons": [
+    "竺可桢 (1890-1974)",
+    "屠呦呦",
+    "王选"
+  ],
+  "tags": [
+    "protreptic",
+    "zhu-kezhen",
+    "evidence-fusion",
+    "induction"
+  ],
+  "tags_en": [
+    "protreptic",
+    "zhu-kezhen",
+    "evidence-fusion",
+    "induction"
+  ],
+  "reason_zh": "竺可桢将模式 25（抽象归纳法）用于长尺度多源证据交叉：把正史、方志、物候、仪器四类异源材料互证归纳，抽象出可复用的气候规律，是历史科学归纳的标杆。",
+  "reason_en": "Zhu maps mode 25 (abstract induction) onto long-horizon multi-source evidence: histoires, gazetteers, phenology and instruments are mutually validated and induced into reusable climate laws—a benchmark of historical-science induction.",
+  "expected_zh": "在证据稀疏领域产出经多源互证、置信度高、可外部旁证的本质规律，且单源系统偏差被交叉修正显著抑制。",
+  "expected_en": "In evidence-sparse domains, produce essential laws that are multi-source corroborated, high-confidence, externally corroborable, with single-source bias markedly suppressed by cross-validation.",
+  "scientific_contribution": true,
+  "artistic_legacy": false,
+  "environmental_stewardship": true,
+  "gender_role_innovation": false,
+  "island_nation": false,
+  "nomadic_heritage": false,
+  "regional_integration": "",
+  "conflict_resolution_mechanism": "",
+  "legacy_type": "scientific",
+  "digital_adaptation": "Maps to multi-modal ML fusion, ensemble methods, and knowledge-graph evidence linking.",
+  "oral_tradition": "农谚、方志谚谣作为民间证据源",
+  "resource_curse_mitigation": false,
+  "climate_adaptation": true,
+  "diaspora_network_type": "",
+  "polar_region": false,
+  "modes": [
+    25
+  ],
+  "version": "6.0",
+  "author": "serrano",
+  "created_at": "2026-08-25T13:35:00Z",
+  "nationality": "China",
+  "civilization_sphere": "East Asian / Confucian",
+  "time_period_standardized": "1890-1974 (Modern-Early, 近代)",
+  "wiki_id": "",
+  "primary_language": "Chinese (Mandarin)",
+  "intellectual_tradition": "Confucian / Modern Science / Geophysics & Education",
+  "cross_cultural_impact": "Applicable to global earth-system science, observation-network design, long-horizon climate reconstruction, and resilience of academic institutions under crisis",
+  "legal_system": "",
+  "education_tradition": "Modern science / 现代科学教育（求是书院—浙大传统）",
+  "source_lineage": [
+    "t_serrano_竺可桢_629720_0 (candidates_v2_research.md §5)",
+    "docs/research/candidates_v2_research.md",
+    "《中国近五千年来气候变迁的初步研究》(考古学报 1972(1))",
+    "浙大校史 / 竺可桢日记 (1936-01-01 ~ 1974-02-06)"
+  ]
+}

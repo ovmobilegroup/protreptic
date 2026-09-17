@@ -1,0 +1,529 @@
+{
+  "schema_version": "v6",
+  "figure_id": "H-TLY-001",
+  "figure_name": "图灵",
+  "figure_code": "H-TLY-001",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-TLY-001",
+      "name_zh": "操作性重构法",
+      "name_en": "Operational Reframing Method",
+      "mode_code": "M-TLY-001",
+      "category": "方法论",
+      "domain_zh": "问题改写/形而上学到操作判据",
+      "domain_en": "Question Rewriting / Metaphysics to Operational Criterion",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "面对一个无法回答的争议问题（'机器能思考吗''什么是智能''美是什么'），不要直接回答，而是先检查该问题为何不可回答——通常因为它依赖不可观察的内在属性或无判据的'本质'——然后把它改写为一个有明确操作判据、原则上可检验的等价问题。改写的要义：不是回避原问题，而是发现原问题的争议全部寄居在其表述方式里；新的操作性表述必须保留原问题的核心关切，否则就成了偷换。图灵三次使用此法：'什么数可计算'变成'什么可被图灵机计算'，'机器能思考吗'变成'机器能否通过模仿游戏'，'生物形态如何决定'变成'什么化学方程产生稳定空间图式'。方法论要义：凡争论经年而不决的问题，先怀疑是问题本身病了，而非答案难找。",
+      "definition_en": "When facing an unanswerable controversial question ('can machines think?'), first diagnose why it is unanswerable—usually an unobservable interior essence—then rewrite it as an equivalent question with an operational, testable criterion. Not evasion: the controversy lives in the formulation itself. Turing applied this thrice: computable numbers → what a Turing machine does; thinking → the imitation game; form → reaction-diffusion equations.",
+      "source_chapter": "《计算机器与智能》第一节（'模仿游戏'替代原问题）；《论可计算数》第一、九节（机器定义替代直觉可计算性）",
+      "key_concepts": [
+        "操作性定义",
+        "问题改写",
+        "模仿游戏",
+        "本质之争与判据之争",
+        "可检验性"
+      ],
+      "process_zh": [
+        "诊断原问题为何悬而不决：找出其依赖的不可观察项或缺失的判定判据",
+        "寻找等价表述：保留原问题的核心关切，但把判据移到可观察的行为/输出层面",
+        "检验改写的充分性：新旧问题在什么条件下答案可能背离（背离处即改写的技术债，须声明而非隐瞒）",
+        "在新表述上工作，直到产出可验证结论；回头评估改写是否推进了对原问题的理解"
+      ],
+      "process_en": [
+        "Diagnose why the original question is stuck: find the unobservable or criterionless term it depends on",
+        "Find an equivalent formulation: keep the core concern but move the criterion to observable behavior/output",
+        "Check adequacy: where could the two questions' answers diverge (declare this residual gap, don't hide it)",
+        "Work in the new formulation to a verifiable conclusion; then reassess whether the rewrite advanced the original question"
+      ],
+      "key_quote_zh": "'机器能思考吗？'……原问题这个词项'思考'的意义，最好由'模仿游戏'中的表现来代替——与其纠缠定义，不如给出一个双方表现可比较的判据。（《计算机器与智能》，1950）",
+      "key_quote_en": "I propose to consider the question, 'Can machines think?'... to replace the question by a new one, phrased in relatively unambiguous words: the imitation game.",
+      "representative_cases_zh": "1950年《计算机器与智能》开篇即示范：'机器能思考'自七世纪起在宗教与哲学中聚讼纷纭，图灵指出'思考'一词没有公共判据，争论永无出口；他代之以'模仿游戏'——一位人类评判者隔着文本对话，同时与一台机器和一个人交流，若评判者无法可靠区分，则称机器'通过'。这一改写把两千年形而上学变成了可运行、可复现、可证伪的实验协议，直接开创了机器智能的评估传统。更早的1936年，希尔伯特的判定问题问'是否存在判定一切数学命题的算法'，'算法'一词同样模糊；图灵不争论定义，而是构造图灵机让'算法'获得精确定义，随即以对角线法证明通用判定不存在——问题改写直接产出了20世纪逻辑学最重要的否定性定理。",
+      "representative_cases_en": "The 1950 paper opens with the move: 'thinking' has no public criterion, so Turing replaces the two-thousand-year metaphysical dispute with the imitation game—a testable protocol. In 1936 he did the same for Hilbert's Entscheidungsproblem: rather than argue about 'algorithm', he defined it via the Turing machine and proved universal decidability impossible—one rewrite yielding the century's most important negative theorem.",
+      "modern_applications_zh": [
+        "AI 评估设计：与其争论'大模型是否理解'，设计可操作的能力基准与红队协议，把哲学争论转为工程判据",
+        "产品需求沟通：'这个功能好不好用'改写为'新用户在几分钟内完成核心任务、出错率多少'的可测指标",
+        "组织争论裁决：'我们的文化是否健康'改写为可观察指标（决策回溯、信息透明度、离职面谈归因），先测行为再谈本质"
+      ],
+      "modern_applications_en": [
+        "AI evaluation: replace 'does the model truly understand' with operational benchmarks and red-team protocols",
+        "Product requirements: rewrite 'is it usable' into measurable metrics (time-to-core-task, error rates)",
+        "Organizational debates: rewrite 'is our culture healthy' into observable indicators before debating essence"
+      ],
+      "related_modes": [
+        "M-TLY-006",
+        "M-TLY-002",
+        "M-TLY-010"
+      ]
+    },
+    {
+      "id": "M-TLY-002",
+      "name_zh": "极简机抽象法",
+      "name_en": "Minimal Machine Abstraction Method",
+      "mode_code": "M-TLY-002",
+      "category": "建模方法",
+      "domain_zh": "本质提取/最低充分装置",
+      "domain_en": "Essence Extraction / Minimal Sufficient Apparatus",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "要定义一个复杂活动（如'计算''思维''生命'），不要罗列其全部特征，而是不断删减装置，直到再删一件它就不再成立——那个'最低充分装置'就是该活动的本质定义。图灵机的全部家当只有：一条无限纸带、一个读写头、有限状态表——没有 CPU、没有存储器分层、没有操作系统，却足够定义一切计算。删减不是目的：删掉的部分（颜色、尺寸、速度）恰好证明与本质无关；被逼出的最简结构反而让'一切计算机器等价'成为可证定理而非直觉。方法论要义：抓住一个现象，先问'完成它最少需要什么'，多余的部分不是本质，是工程。",
+      "definition_en": "To define a complex activity, strip the apparatus until removing one more part breaks it—the minimal sufficient apparatus is the essence. The Turing machine is just an infinite tape, a read-write head, and a finite state table; this spare structure is what makes 'all computing machines are equivalent' a theorem rather than an intuition.",
+      "source_chapter": "《论可计算数》第一节（计算机器的定义：'人计算时……可做以下几件事'）；第九节（机器变体的等价性论证）",
+      "key_concepts": [
+        "图灵机",
+        "最低充分性",
+        "抽象化",
+        "本质与工程",
+        "等价性"
+      ],
+      "process_zh": [
+        "选取目标现象的一个真实实例（人做算术、一个组织做决策、一个流程产出结果）",
+        "逐件删减其组成要素，每删一件检查：现象还能否在剩余装置上完成",
+        "到达最低充分装置后，验证两件事：它能完成全部目标实例（充分性），且任何看似更强的装置都能被它模拟（完备性）",
+        "以最简装置为定义基准重新表述问题——复杂工程只在最简装置之上叠加，不改变本质结论"
+      ],
+      "process_en": [
+        "Pick a real instance of the target activity (a human doing arithmetic, an organization deciding)",
+        "Strip components one by one, checking after each whether the activity survives",
+        "At the minimal apparatus, verify sufficiency (covers all instances) and completeness (any 'stronger' device is simulable)",
+        "Restate the problem on the minimal base—all engineering stacks on top without changing essential conclusions"
+      ],
+      "key_quote_zh": "我们不妨说，'计算'是人用铅笔和纸进行的操作：人可以做的事情被分解为写下或擦去一个符号、把注意力从纸的一处移到另一处——图灵机不过是把这几件事装置化。（《论可计算数》第九节的论证要旨）",
+      "key_quote_en": "Computing is normally done by writing certain symbols on paper... The behaviour of the machine is then determined purely by the sequence of symbols on the tape—the states of mind may be reduced to a finite number.",
+      "representative_cases_zh": "1936年图灵定义计算机器时，刻意从'一个人用铅笔和纸做计算'出发：他问——人在计算时到底在做什么？无非看纸、写符号、擦符号、在心里记住有限种'状态'并决定下一步。把'心'换成状态表、把纸拉成无限带子，图灵机就诞生了。他随即论证第九节的关键命题：加宽纸带（多维）、增加读写头（多针）、加快速度、并行操作——一切花哨变体都可被最简机器模拟，'更强'是幻觉。这一节是整个现代计算机科学的奠基论证：能力差异只在工程（时间与存储）层面，不在原理层面。同期丘奇以λ演算得到等价结果，而图灵的机器表述因极简可验证，成为后来冯·诺依曼架构与所有真实计算机的直接模板。",
+      "representative_cases_en": "In 1936 Turing derived the machine from a human computing with pencil and paper: looking, writing, erasing, remembering finitely many 'states of mind'. Section 9 then proves the punchline—wider tapes, more heads, faster machines, parallelism—are all simulable by the minimal machine; 'more powerful' is an illusion at the level of principle. This is the founding argument of computer science and the direct template for the von Neumann architecture.",
+      "modern_applications_zh": [
+        "系统设计：新服务上线前先问'最小可行架构是什么'——先在最简形态验证价值，复杂组件（缓存、分片、异步）只在瓶颈出现时叠加",
+        "方法论写作：把一个方法压到'最少要素'版本再教人——学生先掌握骨架，再自行加配件，比一次灌全套效果好",
+        "需求评审：把'我们要个平台'还原为最小充分装置（一张表+一个动作+一条通知），凡最简装置已覆盖的，不加工程"
+      ],
+      "modern_applications_en": [
+        "System design: start from the minimal viable architecture; complex components only when bottlenecks appear",
+        "Teaching methods: compress a method to its minimal skeleton first, add parts later",
+        "Requirements review: reduce 'we need a platform' to its minimal sufficient apparatus; skip engineering for what the base already covers"
+      ],
+      "related_modes": [
+        "M-TLY-001",
+        "M-TLY-003",
+        "M-TLY-009"
+      ]
+    },
+    {
+      "id": "M-TLY-003",
+      "name_zh": "通用机统一法",
+      "name_en": "Universal Machine Unification Method",
+      "mode_code": "M-TLY-003",
+      "category": "系统架构",
+      "domain_zh": "专用到通用/程序数据互换",
+      "domain_en": "Specialized to Universal / Program-Data Equivalence",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "当一类活动需要为每种任务单独制造一个装置（每台密码机配一种破译机、每种计算配一台专用机）时，寻找能'以一个装置模拟所有装置'的通用层：把'装置的行为描述'编码为与数据同构的符号序列，让装置自己去读取并执行对其他装置的描述。通用图灵机的革命在于'程序即数据'：机器不区分'要处理的内容'与'如何处理的说明'，两者都是纸带上的符号——于是制造新能力从'制造新机器'降为'写新描述'。通用层本身有代价（模拟比原生慢、需要解释器开销），但它换来的是无穷扩展性与统一产业链。方法论要义：发现自己在为每个新任务'重新造轮子'时，问题不在任务太多，而在系统缺少一个把'任务描述'当作数据处理的通用层。",
+      "definition_en": "When every new task needs a new apparatus, seek the universal layer: encode each machine's behavior description as a symbol sequence the machine itself can read and execute. The universal Turing machine's revolution is 'program as data'—new capability drops from building new machines to writing new descriptions, at the cost of simulation overhead but with unbounded extensibility.",
+      "source_chapter": "《论可计算数》第六、七节（通用机的构造：'一台可用于计算任何可计算序列的机器'）",
+      "key_concepts": [
+        "通用图灵机",
+        "程序即数据",
+        "存储程序架构",
+        "解释器",
+        "通用性代价"
+      ],
+      "process_zh": [
+        "盘点当前系统中'每类任务一个专用装置'的重复构造，计算重复成本",
+        "为装置行为设计统一编码：任务说明必须能像普通数据一样被存储、传输与修改",
+        "构造通用执行器：只读懂编码而不内置任何具体任务逻辑，验证它可运行所有既有专用装置的行为描述",
+        "评估通用层代价（解释开销、安全边界、性能损失）与收益（扩展速度、人才复用），决定部署层级"
+      ],
+      "process_en": [
+        "Inventory the one-device-per-task duplication in your system and cost it",
+        "Design a uniform encoding of task instructions—storable, transferable, modifiable like ordinary data",
+        "Build the universal executor containing no task logic of its own; verify it runs all existing behavior descriptions",
+        "Weigh universal-layer costs (interpretation overhead, security) against extensibility; choose the deployment layer"
+      ],
+      "key_quote_zh": "可以构造一台特殊的机器，用于计算任何可计算序列：设某台机器 M 的标准描述以某种编码写于纸带，则通用机 U 读取该描述后，即能按 M 的方式工作。（《论可计算数》第六节的构造要旨）",
+      "key_quote_en": "It is possible to invent a single machine which can be used to compute any computable sequence: given the standard description of a machine M on its tape, the universal machine U behaves as M would.",
+      "representative_cases_zh": "1936年论文第六节的通用机构造常被低估，实为全篇最具工程后果的一步：图灵把每台专用机器的'行为规则'编码为描述数（description number）写在纸带上，构造出读取任意描述数并执行对应行为的 U——'一台机器，任何可计算序列'。战争期间他在布莱切利园已亲尝专用之苦：Bombe 针对恩尼格玛而造，Collarus（Robinson 系）针对洛伦兹而造，每换密码体系就重造设备。战后他极力主张 ACE 采用'机器按纸带上的表格工作'的存储程序方案——1945年 ACE 报告明确写道：指令以数字形式存于存储器，与数据无异。冯·诺依曼1945年的 EDVAC 报告沿同一路线（他此前已在普林斯顿听图灵讲过可计算数），'存储程序架构'由此成为一切现代计算机的母版：今天改写软件而非重铸硬件，皆是通用机统一法的直接红利。",
+      "representative_cases_en": "Section 6 of the 1936 paper encodes each machine's rules as a description number and builds U, which reads any description and executes it—one machine, any computable sequence. Having felt the pain of special-purpose devices at Bletchley, Turing's 1945 ACE report made instructions numerically stored, indistinguishable from data; von Neumann's EDVAC report followed the same route. Every 'software update instead of hardware replacement' today is this method's dividend.",
+      "modern_applications_zh": [
+        "平台化战略：把每条业务线的'流程说明'变成平台可执行的工作流定义，新业务=新配置而非新开发",
+        "LLM 应用架构：用通用模型+提示词/工具描述替代每个任务微调一个专用模型——'能力描述即数据'正是通用机思想",
+        "组织制度设计：把'做什么'写成可版本化的制度文档由通用执行层（流程引擎/轮值体系）读取，避免每件事都设专门岗位"
+      ],
+      "modern_applications_en": [
+        "Platform strategy: turn each business line's process into executable workflow definitions—new business as configuration, not development",
+        "LLM architecture: general model + prompts/tool descriptions instead of per-task fine-tuned models—capability descriptions as data",
+        "Organizational design: write 'what to do' as versioned documents read by a universal execution layer, not a special role per task"
+      ],
+      "related_modes": [
+        "M-TLY-002",
+        "M-TLY-009",
+        "M-TLY-007"
+      ]
+    },
+    {
+      "id": "M-TLY-004",
+      "name_zh": "对角线不可判定法",
+      "name_en": "Diagonal Undecidability Method",
+      "mode_code": "M-TLY-004",
+      "category": "逻辑证明",
+      "domain_zh": "自指构造/原则性界限证明",
+      "domain_en": "Self-Reference Construction / Principled Limit Proof",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "要证明某类问题存在原则性不可解者，不必逐一检查，而是构造一个'指向清单自身'的对象：让被检验系统处理包含其自身描述的输入，使之必然产生自相矛盾或永不终止。对角线法的力量在于它给出的是结构性否证——不是'我们还没找到算法'，而是'找到算法即矛盾'；且证明同时刻画出界限的形状（停机问题不可判定，而其半可判定；判定问题归约到停机问题）。方法论要义：当对方声称'穷尽一切可覆盖'时（完备判定、全知模型、完美预测），构造自指实例是检验该声称的最快路径——真正的全能在遇到'拒绝自己'的提问时必须矛盾。",
+      "definition_en": "To prove some problems are in-principle unsolvable, construct an object pointing at the list itself: make the system process an input containing its own description, forcing contradiction or non-termination. Diagonalization gives structural refutation—not 'we haven't found the algorithm' but 'finding it entails contradiction'—while also mapping the boundary's shape.",
+      "source_chapter": "《论可计算数》第八节（应用：判定问题的不可解性）；哥德尔不完备定理的机器化重述",
+      "key_concepts": [
+        "对角线法",
+        "停机问题",
+        "自指",
+        "不可判定性",
+        "归约"
+      ],
+      "process_zh": [
+        "把对方声称'完全覆盖'的对象编号成清单（所有程序、所有命题、所有预测器）",
+        "构造反清单对象：它对清单第 n 项做的事恰与第 n 项自身对第 n 项做的事相反（对角线翻转）",
+        "追问：这个反清单对象在不在清单里？无论在或不在都推出矛盾",
+        "把矛盾归因于最初声称，宣布界限；再刻画界限的精细结构（哪些相邻问题仍可解）以保持建设性"
+      ],
+      "process_en": [
+        "Enumerate the objects the claim says are fully covered (all programs, predictions, provers)",
+        "Build the anti-diagonal object: on item n it does the opposite of what item n does to itself",
+        "Ask whether the anti-diagonal object is on the list—either answer yields contradiction",
+        "Attribute the contradiction to the original claim; then map the boundary's fine structure (which neighboring questions remain solvable)"
+      ],
+      "key_quote_zh": "由每一'可计算序列'与每一'可计算数'皆可枚举的假设出发，可构造一个既非可计算序列亦非可计算数的序列——故判定问题不可解。（《论可计算数》第八节结论）",
+      "key_quote_en": "From the assumption that every computable sequence can be enumerated, a sequence can be constructed which is neither computable nor enumérable—hence the Entscheidungsproblem cannot have a solution.",
+      "representative_cases_zh": "1936年论文第八节是判定问题的执行处决：图灵把一切图灵机编码枚举，构造'复印机'（Machine H）——它声称能判定任何机器在给定输入上是否停机；再构造对角线机器 D：D 拿到自身描述后询问 H 关于 D 的行为，若 H 说'D 会停'，D 就转圈不停；若 H 说'D 不停'，D 就立即停机——H 在此一问上必然答错。这不是技术障碍，而是逻辑结构性的不可能：任何声称的通用判定器被自己的描述击穿。同一构造三个月前刚被哥德尔以算术语言完成（不完备定理），图灵的贡献是以机器语言重做——自指不再需要编码严密性的辩护，'程序处理包含自身的输入'对任何工程师一目了然。此后该构造一发不可收：停机问题、Busy Beaver、Rice 定理、复杂性理论的时钟层次，皆此一路。",
+      "representative_cases_en": "Section 8 executes the Entscheidungsproblem: enumerate all machines, build Machine H claiming to decide halting, then the diagonal machine D, which queries H about itself and does the opposite of H's verdict—H must err on this one question. Not an engineering obstacle but a structural impossibility. Gödel had just done the same in arithmetic; Turing's machine version made self-reference transparent to any engineer, and the construction spawned halting-problem theory, Rice's theorem, and complexity hierarchies.",
+      "modern_applications_zh": [
+        "系统安全：对声称'可检测一切恶意内容'的过滤系统，构造自指样本（针对该检测器的对抗输入）检验其结构性盲区",
+        "产品边界声明：对'AI 能做任何事'的营销表述，用自指类问题（'预测你对我这条输入的预测'）划出诚实的能力边界",
+        "风控规则设计：穷举式规则清单必存在对角线漏洞——定期用'规则针对自身生成规避策略'的红队演练暴露结构性盲点"
+      ],
+      "modern_applications_en": [
+        "Security: test 'detects all malicious content' filters with self-referential adversarial samples targeting the detector itself",
+        "Honest capability boundaries: probe 'AI can do anything' claims with diagonal questions about its own predictions",
+        "Rule-based risk control: exhaustive rule lists always have diagonal holes—run self-targeted red-team drills to expose them"
+      ],
+      "related_modes": [
+        "M-TLY-001",
+        "M-TLY-003",
+        "M-TLY-010"
+      ]
+    },
+    {
+      "id": "M-TLY-005",
+      "name_zh": "对手弱点系统化法",
+      "name_en": "Systematic Adversary-Weakness Method",
+      "mode_code": "M-TLY-005",
+      "category": "策略方法",
+      "domain_zh": "确定性排除/破译流程化",
+      "domain_en": "Deterministic Elimination / Mechanized Codebreaking",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "面对一个看似坚不可摧的对手系统（密码机、竞争产品、防御体系），不与其正面比拼资源消耗，而是寻找其设计中不可移除的结构性弱点——最好是一个'确定性'的缺陷（如恩尼格玛'任何字母永远不能加密为它自己'）——然后把利用该弱点的推理完全机械化，使破译从个别天才的灵感变成普通操作员可日夜轮换执行的流程。个人英雄主义的贡献在于最初发现弱点与设计机器，而非每天跑流程。方法论要义：可持续的对抗优势=对手无法修补的结构约束×可机械化复制的利用流程×可培训的操作团队；三者缺一，胜利都只是侥幸。",
+      "definition_en": "Against an apparently impregnable adversary system, do not outspend it—find its irremovable structural weakness, ideally a deterministic flaw (Enigma's 'no letter ever encrypts to itself'), then mechanize the exploitation so codebreaking becomes a routine any operator can run. Sustainable advantage = unfixable constraint × mechanizable process × trainable team.",
+      "source_chapter": "布莱切利园 Bombe 设计与海军恩尼格玛破译实践（1939-1942）；图灵关于班布里与 crib 的分析文档",
+      "key_concepts": [
+        "结构性弱点",
+        "crib（已知明文）",
+        "字母排除法",
+        "流程化破译",
+        "对手中心设计"
+      ],
+      "process_zh": [
+        "逆向理解对手系统的设计目标与约束：找出哪些缺陷是设计选择造成的、不可移除（协议保了速度就保不了这个性质）",
+        "寻找确定性锚点：对手流程中每次必然发生的事（固定抬头、自反性限制、时序规律）",
+        "设计机械化利用：把'从锚点排除错误假设'的推理交给机器，输出少量候选供人复核",
+        "把全流程组织为轮班制生产线：弱点分析（天才）—机器制造（工程）—日常运行（培训）三层分离，单点人物可替换"
+      ],
+      "process_en": [
+        "Reverse-engineer the adversary's design constraints: find which flaws are deliberate trade-offs and thus irremovable",
+        "Find deterministic anchors: things that must happen every time (fixed headers, self-inverse limits, timing regularities)",
+        "Mechanize the exploitation: hand 'eliminate wrong hypotheses from the anchor' reasoning to machines, keep humans for final review",
+        "Organize the whole as a shift-based production line with separable layers (insight, engineering, operation) so no single person is irreplaceable"
+      ],
+      "key_quote_zh": "破译恩尼格玛的秘密不在密码机本身有多复杂，而在它有一条铁律：任何字母都不可能被加密为它自己——这一'帮助'使一切自相矛盾的转子设定被机械排除。（布莱切利园 Bombe 方法的原理要述）",
+      "key_quote_en": "The secret lay not in Enigma's complexity but in its iron law: no letter could ever encipher to itself—this 'help' allowed all self-contradictory wheel settings to be eliminated mechanically.",
+      "representative_cases_zh": "1939-1942年图灵在布莱切利园主持海军恩尼格玛破译。对手的密码机转子组合数高达约1.59万亿亿（1.59×10^20）种设定，逐个尝试在计算上不可能；图灵的路径完全不同——他抓住两条确定性：其一，恩尼格玛反射器保证'字母不能加密为自身'，于是任何 crib（猜测的已知明文，如天气报告的固定格式'WETTER'）在错位对齐时出现同字母对应即可整条排除；其二，德军操作规程的可预测性（气象船每日定时发报、某些密钥重复使用）。图灵据此设计并改进 Bombe 电气机：以电路模拟转子设定并沿逻辑链自动排除矛盾设定，每日清晨产出少数候选密钥，交由人工在解密机上验证。流程随后被组织为'鱼 Room'式的轮班工厂，高峰期数十台 Bombe 日夜运转。战史估计（欣斯利）破译使大西洋之战缩短两年以上——胜利不属于某夜灵光一现，而属于'确定性弱点×机械化流程×轮班组织'的完整体系。",
+      "representative_cases_en": "1939-42, heading naval Enigma at Bletchley: against ~1.59×10^20 settings, brute force was hopeless. Turing instead seized two certainties—the reflector's 'no letter enciphers to itself' (any crib with a same-letter clash, e.g. WETTER, is eliminated) and German procedural predictability. His Bombe simulated settings electrically and auto-eliminated contradictions, yielding a handful of candidates each morning for human verification, run as a shift-based factory of dozens of machines. The breach cut the Atlantic war by two years (Hinsley's estimate)—won by system, not nightly inspiration.",
+      "modern_applications_zh": [
+        "竞争分析：研究竞品'为速度/规模而放弃的确定性性质'（如延迟承诺、数据模式外泄），把可确定性利用的点做成自动化监测流水线",
+        "安全防御自检：把自己当对手，列出系统'每次必然发生的事'（固定错误码、固定响应头、固定心跳时序）作为攻击者的 crib，逐条消除或随机化",
+        "体育/商业对抗复盘：找出对手打法中不可移除的习惯约束（阵型惯性、轮换规律），把针对预案变成可训练的标准流程而非临场灵感"
+      ],
+      "modern_applications_en": [
+        "Competitive analysis: find certainty-trade-offs rivals made and automate their exploitation into monitoring pipelines",
+        "Defense self-audit: list what your system 'must do every time' (fixed error codes, headers, heartbeat timing) as an attacker's cribs and eliminate or randomize them",
+        "Opposition review: extract irremovable habitual constraints from rivals and turn counters into trainable standard procedures"
+      ],
+      "related_modes": [
+        "M-TLY-009",
+        "M-TLY-003",
+        "M-TLY-004"
+      ]
+    },
+    {
+      "id": "M-TLY-006",
+      "name_zh": "行为判据替代法",
+      "name_en": "Behavioral Criterion Substitution Method",
+      "mode_code": "M-TLY-006",
+      "category": "认识论",
+      "domain_zh": "内在性悬置/表现划界",
+      "domain_en": "Suspending Interiority / Performance-Based Demarcation",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "当一个问题的争议集中在不可观察的'内在状态'（有没有意识、有没有理解、有没有真心）时，把该内在性问题整个悬置，改用可观察行为表现划界：谁的表现满足协议，谁就取得该语境下的相应地位——内在状态存而不论，既不断言存在也不断言不存在。图灵称之为拒绝'多愁善感的谬误'：不必先解决'机器是否有意识'才能回答'机器能做什么'；他在1950年论文中甚至专门论证'机器有意识'与'机器能通过模仿游戏'是两个独立命题。方法论要义：内在性论断不可检验，把它当作争论的燃料只会让对话原地空转；以协议表现划界让合作与问责立即可以推进——这一策略后来被称为功能主义，至今仍是人机协作、动物认知、法律人格讨论的默认出口。",
+      "definition_en": "When a dispute centers on unobservable interior states (consciousness, understanding, sincerity), suspend the interiority question and demarcate by observable performance under protocol—whoever meets the protocol earns the relevant standing. Turing rejects the 'sentimental fallacy': whether machines are conscious is independent of what they can do.",
+      "source_chapter": "《计算机器与智能》第三至六节（对'意识论异议'的回应与'多愁善感的谬误'）",
+      "key_concepts": [
+        "内在性悬置",
+        "功能主义",
+        "表现划界",
+        "协议",
+        "独立命题"
+      ],
+      "process_zh": [
+        "识别争论中的不可观察项：哪些断言在原则上无法由双方共同检验（意识、动机、忠诚度）",
+        "显式悬置：声明'本议题下不判定该内在状态，既不肯定也不否定'，防止其暗中返回",
+        "设计表现协议：给出双方皆可执行、可复现的行为判据，并注明该判据不回答悬置问题",
+        "在协议上推进合作/评级/问责；每次有人重新引入内在性指控时，检查其是否影响了可观察协议的表现"
+      ],
+      "process_en": [
+        "Identify the unobservable terms neither side can jointly test (consciousness, motive, loyalty)",
+        "Suspend explicitly: declare the question neither affirmed nor denied in this context",
+        "Design a performance protocol: observable, reproducible criteria—marked as silent on the suspended question",
+        "Advance cooperation/rating/accountability on the protocol; whenever interiority accusations return, check whether they change protocol performance at all"
+      ],
+      "key_quote_zh": "据'多愁善感的谬误'……我们不必被机器可能'像人一样思考'的想象吓住，也不必先弄清机器是否真有感受，才决定它能否在智力任务上与人比肩。（《计算机器与智能》对意识异议的回应要旨）",
+      "key_quote_en": "The 'sentimental fallacy'... whether machines feel matters not for whether they can rival humans in intellectual tasks—consciousness and competence are separate questions.",
+      "representative_cases_zh": "1950年论文第六节，图灵直面杰斐逊教授式的最强反对：'机器不可能有意识，除非它能因思想与感情而痛苦'。图灵的回答极为克制而锋利：意识不可从外部观察，按同样标准我们也无证据证明彼此有意识——' solipsism 的深渊'人人平等；但'机器能否通过模仿游戏'与'机器是否有意识'是独立命题，前者可检验、后者悬置。他甚至设计了'意识明确在场而表现不佳'与'表现卓越而意识存疑'的双向案例来说明两者的解耦。此策略此后半个多世纪塑造了整个领域：AI 系统的合规、问责与产品评级均按表现划界，意识问题留待哲学；塞尔1980年'中文房间'正是对该悬置策略的正面进攻——主张语法操作不足以产生理解——而图灵框架的回答始终是：无论中文房间内部有没有理解，协议已把它在语境中的地位判定完毕。",
+      "representative_cases_en": "Section 6 of the 1950 paper answers Jefferson's strongest objection—'no machine could feel'. Turing's reply is coolly sharp: consciousness is unobservable, so by that standard we have no proof of each other's either; but passing the imitation game and having consciousness are independent propositions. The strategy shaped the field for decades—AI compliance, liability, and rating all proceed by performance while philosophy keeps the consciousness question—and Searle's 1980 Chinese Room was a frontal assault on exactly this suspension.",
+      "modern_applications_zh": [
+        "AI 产品治理：模型输出按行为协议（准确性、安全性红队、水印可溯性）评级问责，不把'是否有意识'写入产品承诺或免责",
+        "组织协作：对远程/外包/合作方的争议，把'他们是否真心投入'悬置，改以交付协议与可观察里程碑管理关系",
+        "跨立场对话：争论动物福祉、胚胎地位时先分离'表现层可共识的规范'（减少不必要痛苦）与'内在地位层'（不可检验），只推进前者"
+      ],
+      "modern_applications_en": [
+        "AI governance: rate and hold models accountable by behavioral protocol, keeping consciousness out of product promises",
+        "Collaboration: with remote/outsourced partners, suspend 'do they truly care' and manage by delivery protocol and observable milestones",
+        "Cross-cutting dialogue: in animal-welfare or embryo debates, separate consensual performance norms from untestable status claims; advance only the former"
+      ],
+      "related_modes": [
+        "M-TLY-001",
+        "M-TLY-010",
+        "M-TLY-007"
+      ]
+    },
+    {
+      "id": "M-TLY-007",
+      "name_zh": "儿童机器培育法",
+      "name_en": "Child Machine Cultivation Method",
+      "mode_code": "M-TLY-007",
+      "category": "学习理论",
+      "domain_zh": "教育式智能/奖惩信号学习",
+      "domain_en": "Intelligence via Education / Reward-Punishment Learning",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "制造复杂智能体，与其把成人级的完整知识逐条写进程序（竭尽全力的全知工程），不如制造一个具备基础学习机制、近乎空白的'儿童心智'，再用教育过程把它养成——学习信号采用惩罚与奖励（后称强化），并辅以随机变异探索未指令过的行为空间。图灵估计'教育一台机器'比'直接编程一台成人机器'更可行，正如教育儿童比逐条写入成人知识更可行。方法论要义：当目标能力复杂到无法被穷举式规则化时，把工程重心从'写对内容'转移到'设计好的初始机制+好的教育环境+好的反馈信号'；允许随机性承担探索，允许时间承担积累。",
+      "definition_en": "Rather than hard-coding adult-level knowledge into a machine, build a nearly blank 'child mind' with a basic learning mechanism and educate it—using reward/punishment signals (later: reinforcement) plus random variation to explore beyond instructions. When target capability is too complex to rule-ify, shift engineering from 'writing content' to designing initial mechanism, environment, and feedback.",
+      "source_chapter": "《计算机器与智能》第五节（'作为儿童心智的机器'：learning machine、child machine、惩罚与奖励）；1948年'有组织的机器'讲稿",
+      "key_concepts": [
+        "儿童机器",
+        "强化信号",
+        "随机变异",
+        "教育环境",
+        "空白心智"
+      ],
+      "process_zh": [
+        "判定目标能力能否穷举式规则化：若规则集会无限膨胀或不可预列，转入培育路线",
+        "设计最小初始机制：不是知识，而是可被奖惩改变参数的规则结构（连接强度、偏好权重）",
+        "构造教育环境与课程序列：任务由易到难，反馈信号明确、及时、可信，允许无害失败",
+        "引入受控随机变异以探索指令之外的行为空间；定期评估'心智发育'并调整课程与信号强度"
+      ],
+      "process_en": [
+        "Test whether the target capability can be exhaustively rule-ified; if rules would balloon, take the cultivation route",
+        "Design the minimal initial mechanism: not knowledge, but a rule structure whose parameters shift under reward and punishment",
+        "Build the educational environment and curriculum: easy-to-hard tasks, clear timely credible feedback, harmless failure allowed",
+        "Add controlled random variation to explore beyond instructions; periodically assess development and adjust curriculum and signal strength"
+      ],
+      "key_quote_zh": "与其试图编制一个模仿成人心智的程序，不如编制一个模仿儿童心智的程序，然后使它接受教育……惩罚与奖励系统至多可被期望起到类似儿童教育的功效。（《计算机器与智能》第五节）",
+      "key_quote_en": "Instead of trying to produce a programme to simulate the adult mind, why not rather try to produce one which simulates the child's? ...A reward and punishment system would at best be expected to have an effect comparable to that of education.",
+      "representative_cases_zh": "1950年论文第五节常被其光辉的第六节遮蔽，却是真正惊人的预言：图灵明确提出'child machine'——空白初始、可被奖惩塑形、需按'课程'训练，并主张用随机数让机器'自行变异'，教师只施加选择压力。他甚至推算了教学吞吐量的工程账（一位教师同时教多台机器以提高信噪比）。1948年他为曼彻斯特会议写的'有组织的机器'（Organized Machines）讲稿更直接给出神经网络式结构：B 型无组织机器经'干预'组织化，学习即连接权重的修改。这条路线在其后四十年几乎无人跟进，直到1980年代萨顿与巴托建立强化学习的数学框架——他们在教科书中明言图灵是先驱；1990年代遗传算法、2010年代深度强化学习（AlphaGo）逐条兑现了'随机变异+选择压力+课程教育'的配方。图灵在1950年就写下了后来整个机器学习范式的纲领。",
+      "representative_cases_en": "Section 5 of the 1950 paper—overshadowed by Section 6—is a stunning prophecy: the child machine, shaped by reward and punishment, trained on curricula, with random variation and teacher-imposed selection pressure; his 1948 'Organized Machines' sketch even describes neural-network-like structures with modifiable connection weights. Sutton and Barto later credited Turing as a forerunner of reinforcement learning, and deep RL (AlphaGo) realized the recipe: random variation + selection pressure + curriculum.",
+      "modern_applications_zh": [
+        "AI 训练实践：RLHF/课程学习/探索奖励正是儿童机器配方的当代形态——先设计反馈信号质量，再谈数据规模",
+        "人才培养体系：新员工入职不灌全套 SOP，而是给安全试错环境+明确奖惩+阶梯任务，让能力'长出来'",
+        "产品设计：引导型产品（教育/健身/理财）按'课程序列+即时反馈+允许失败'设计，而非一次性堆全功能说明"
+      ],
+      "modern_applications_en": [
+        "AI training: RLHF, curriculum learning, and exploration bonuses are the child-machine recipe today—signal quality before data scale",
+        "Talent development: onboard with safe trial environments, clear incentives, and staged tasks rather than dumping full SOPs",
+        "Product design: build guided products (learning, fitness, finance) as curriculum + immediate feedback + allowed failure, not a single manual"
+      ],
+      "related_modes": [
+        "M-TLY-003",
+        "M-TLY-006",
+        "M-TLY-008"
+      ]
+    },
+    {
+      "id": "M-TLY-008",
+      "name_zh": "对称破缺图式法",
+      "name_en": "Symmetry-Breaking Pattern Method",
+      "mode_code": "M-TLY-008",
+      "category": "数学建模",
+      "domain_zh": "自组织/均匀态到空间图式",
+      "domain_en": "Self-Organization / Uniform State to Spatial Pattern",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "面对'均匀无奇的起点如何产生规则结构'的谜题（胚胎如何长出条纹、市场如何自发生成价格聚集、舆论如何自发极化），不要假设存在一个外部设计师逐处指画，而是寻找系统内部的局部相互作用规则——特别是当两组相互拮抗、扩散率不同的过程并存时（快扩散的抑制过程与慢扩散的激活过程），均匀态会在数学上必然失稳，自发破缺为周期性空间图式。图灵证明：不需要任何外在模板，化学动力学本身就能'算出'斑马纹。方法论要义：凡是重复性图式（周期、条纹、斑点、梯度层级），优先假设它是局部规则的涌现而非全局设计；先解均匀态的稳定性，再看扰动的哪些波长被系统选择。",
+      "definition_en": "For the puzzle of how uniform origins yield regular structure (embryonic stripes, price clusters, opinion polarization), do not posit an external designer—look for local interaction rules, especially when two antagonistic processes with different diffusion rates coexist: the uniform state then destabilizes and spontaneously breaks into periodic patterns. Turing proved chemistry alone can 'compute' zebra stripes.",
+      "source_chapter": "《形态发生的化学基础》（The Chemical Basis of Morphogenesis，1952，Phil. Trans. R. Soc. B）",
+      "key_concepts": [
+        "反应—扩散",
+        "图灵斑图",
+        "对称破缺",
+        "激活—抑制",
+        "涌现"
+      ],
+      "process_zh": [
+        "确认起点确为均匀/对称态，而终点出现重复性结构——排除外部模板或预置信息的可能",
+        "列出系统内部的局部相互作用：谁激活谁、谁抑制谁、各自的'扩散'（传播）速度如何",
+        "建立均匀态的稳定性分析：求扰动的增长谱，找出被选择的不稳定波长（最快增长的模）",
+        "用波长预测图式尺度（斑点间距、条纹周期），并实验干预（改变一个扩散率/反应率）验证预测"
+      ],
+      "process_en": [
+        "Confirm the start is uniform/symmetric while the end shows repeated structure—ruling out external templates",
+        "List local interactions: who activates whom, who inhibits whom, and their relative propagation rates",
+        "Stability analysis of the uniform state: find the growth spectrum of perturbations and the selected unstable wavelength",
+        "Predict pattern scale from wavelength (spot spacing, stripe period) and verify by perturbing one rate experimentally"
+      ],
+      "key_quote_zh": "均匀态在确定条件下可变为不稳定：被扰动的形态不会回到均匀，而是日益偏离——系统将发展出与初始均匀状态结构迥异的图式。（《形态发生的化学基础》，1952）",
+      "key_quote_en": "A uniform state may, under certain conditions, become unstable: deviations do not die away but grow—the system develops a pattern of structure quite different from the original homogeneous state.",
+      "representative_cases_zh": "1952年的形态发生论文回答了发育生物学最古老的谜：受精卵是一团近乎均匀的原生质，手指、条纹、斑点的'位置信息'从何而来？当时主流假设'预定区'之类的外部蓝图。图灵给出完全不同的答案：设想两种化学物质（形态发生素）——A 激活自身与 B，B 抑制两者；若 B 扩散远快于 A，则任何微小涨落都会被放大为'激活岛'与'抑制晕'相间的周期性结构——均匀态经稳定性分析证明必然失稳，图式的波长可由四个参数（反应率与扩散率）直接算出。这就是'图灵斑图'。论文的保守之处在假设，大胆之处在数学：他证明了自组织无需设计者。当时无法检验形态发生素是否存在，理论沉睡三十年；1980年代化学实验（CSTR 中的氯离子—碘化物—丙二酸反应）在实验室复现了图灵斑图，1990年代起斑马鱼 stripes、鸟喙皱纹、腭脊等真实生物系统陆续被证实以激活—抑制机制成形。'均匀中涌现秩序'由此成为复杂性科学的标准模型之一。",
+      "representative_cases_en": "The 1952 paper answered developmental biology's oldest puzzle: how does a nearly uniform egg know where to grow fingers and stripes? Against 'predetermined maps', Turing proposed morphogen A (self-activating, activating B) and B (inhibiting, fast-diffusing): small fluctuations amplify into periodic activation islands ringed by inhibition halos, with wavelength computable from four parameters. Confirmed chemically in the 1980s and biologically since (zebrafish stripes, palatal ridges), Turing patterns became a standard model of emergence—order without a designer.",
+      "modern_applications_zh": [
+        "增长运营：产品的爆发式传播常非投放设计而是激活（用户价值）—抑制（分享摩擦）扩散率差的涌现——先调结构参数再看传播图式",
+        "组织创新：新实践（如远程办公）的扩散呈'簇状'而非均匀铺开——识别组织内的快扩散抑制层（风评/合规）与慢扩散激活层（试点团队），预测簇间距",
+        "系统设计防坑：负载均衡、缓存等看似均匀的分布式系统会自发破缺出热点结构——在均匀态做稳定性预算，而非事后救火"
+      ],
+      "modern_applications_en": [
+        "Growth ops: explosive spread is often emergence from an activation-inhibition diffusion-rate gap—tune structure parameters before spending on placements",
+        "Organizational innovation: new practices spread in clusters—identify fast-inhibiting layers (compliance buzz) and slow-activating pilots to predict cluster spacing",
+        "Distributed systems: nominally uniform systems spontaneously develop hotspots—do stability budgeting at the uniform state, not post-hoc firefighting"
+      ],
+      "related_modes": [
+        "M-TLY-002",
+        "M-TLY-007",
+        "M-TLY-009"
+      ]
+    },
+    {
+      "id": "M-TLY-009",
+      "name_zh": "可实现性工程核算法",
+      "name_en": "Implementability Engineering Audit Method",
+      "mode_code": "M-TLY-009",
+      "category": "工程方法",
+      "domain_zh": "思想到物理预算/资源核算",
+      "domain_en": "Idea to Physical Budget / Resource Accounting",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "一个思想（存在性证明、架构方案、战略构想）在其'原则上可行'与'工程上可造'之间隔着一张必须逐项核算的物理预算表：速度、存储、能耗、时延、成本、人力吞吐。图灵的风格是决不停留在存在性证明：1936年证明通用机存在后，1945年的 ACE 报告逐节给出延迟线存储器的字数、门延迟的微秒数、乘法指令的时钟周期预算；1950年他甚至为'儿童机器'估算教师—机器比与教学吞吐量。方法论要义：评估任何构想时，先追问其运行所需的最小物理资源清单并逐项定价——算不出预算的构想不是'超前'，是'不可判定'；而预算一旦算出，构想的瓶颈、成本曲线与放弃/坚持的判据就全部显形。",
+      "definition_en": "Between 'possible in principle' and 'buildable in practice' lies a physical budget that must be itemized: speed, memory, energy, latency, cost, human throughput. Turing never stopped at existence proofs: the 1945 ACE report budgets delay-line words, gate delays, and multiply cycles; in 1950 he even estimates teacher-machine ratios for the child machine.",
+      "source_chapter": "《ACE 计算机设计报告》（Proposed Electronic Calculator，1945-1946）；《计算机器与智能》第五节的吞吐量估算",
+      "key_concepts": [
+        "工程预算",
+        "延迟线存储",
+        "时钟周期核算",
+        "吞吐量估算",
+        "可实现性"
+      ],
+      "process_zh": [
+        "把构想写成最小运行脚本：它每天/每秒必须完成的核心动作是什么",
+        "逐项列物理资源清单：每动作的运算数、存储字数、传输量、能耗、人工环节，并给出单价与时延",
+        "计算总预算与瓶颈项：哪一项最慢/最贵/最不可靠，它决定整个构想的成本曲线",
+        "给出决策判据：预算低于阈值则立项并锁定瓶颈攻坚顺序；高于阈值则写明需等待的物理前提（如存储单价下降 N 倍）"
+      ],
+      "process_en": [
+        "Write the idea as a minimal run-script: the core actions it must complete per second/day",
+        "Itemize the physical resource list: ops, memory words, transfer volume, energy, human steps—each priced and timed",
+        "Compute the total budget and the bottleneck: the slowest/costliest/least reliable item sets the whole idea's cost curve",
+        "Set the decision rule: fund if under threshold (attacking the bottleneck first); if over, state the physical prerequisite (e.g. memory price falling N-fold)"
+      ],
+      "key_quote_zh": "把电路设计交由电子工程师，把指令表交由数学家是错误的：两者必须自始协同……机器的速度将由存储与延迟的物理预算决定，而不是由理想化的电路图决定。（ACE 报告的设计立场要旨）",
+      "key_quote_en": "Circuit design must not be left to the engineer and instruction codes to the mathematician: the machine's speed is set by physical budgets of storage and delay, not by idealized schematics.",
+      "representative_cases_zh": "战后图灵在国家物理实验室的 ACE 报告是此方法的标本：同期其他计算机方案多停留在'能实现存储程序'的架构陈述，而 ACE 报告在150余页中逐条给出——水银延迟线每条存 32 字、总存储 200 条延迟线的字数分配、加法 1.5 微秒、乘法 5 微秒的操作预算、指令混合下的吞吐推算，甚至规定了程序员与电路师的协作界面（他断言把两群人分开是 'overlapping' 资源的浪费）。NPL 因官僚摩擦未能如期给足资源，项目缩水为 Pilot ACE——这反证了预算核算法的另一面：预算也算出'组织不配此构想'的情形。1950年为儿童机器估算教育吞吐量（一位教师并行教学多台机器）同样如此：连'教育机器'这种最软的构想，他也要算师生比。后来计算史上所有'先算后造'的成功（IBM System/360 的性能模型、深度学习的算力预算、大模型训练的 token/焦耳成本）都是同一路数。",
+      "representative_cases_en": "The postwar ACE report is the method's specimen: 150+ pages itemizing 32-word delay lines, 200-line memory allocation, 1.5μs adds and 5μs multiplies, throughput under instruction mix—even the interface between programmers and circuit engineers. When NPL's bureaucracy starved the budget, the project shrank to Pilot ACE—proof the audit also reveals when the organization does not deserve the idea. In 1950 he even budgeted teacher-machine ratios for the child machine; System/360 performance models and LLM compute budgets are the same lineage.",
+      "modern_applications_zh": [
+        "AI 项目立项：训练/推理预算表（GPU 时、token 成本、时延 SLA、人力标注吞吐）先于架构讨论，算不出预算即不立项",
+        "硬件/制造方案评审：把'实验室能跑通'与'量产可核算'分开，逐项核算良率、单件能耗与产能爬坡曲线",
+        "个人/团队规划：任何'想做的大事'先写最小物理预算（每周小时数、资金、依赖人），预算不成立的计划不进入执行队列"
+      ],
+      "modern_applications_en": [
+        "AI project gating: budget tables (GPU-hours, token costs, latency SLAs, annotation throughput) precede architecture—no budget, no project",
+        "Hardware reviews: separate 'works in the lab' from 'accountable at scale'—yield, per-unit energy, ramp curves itemized",
+        "Personal planning: write the minimal physical budget (weekly hours, funds, dependencies) for any big plan; unfunded plans stay out of the queue"
+      ],
+      "related_modes": [
+        "M-TLY-002",
+        "M-TLY-003",
+        "M-TLY-005"
+      ]
+    },
+    {
+      "id": "M-TLY-010",
+      "name_zh": "异议预演法",
+      "name_en": "Objection Pre-Emption Method",
+      "mode_code": "M-TLY-010",
+      "category": "论辩方法",
+      "domain_zh": "反驳分类/预先系统回应",
+      "domain_en": "Objection Taxonomy / Systematic Pre-Response",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "提出革命性主张时，预设读者必然提出的全部反对路线，逐条编号、分类并给予正面回应——不是修辞性搪塞，而是承认其中部分异议'在某种意义上成立'，再说明其为何不伤及主张的核心。图灵1950年论文的主体不是提出图灵测试（那只需半页），而是连续列举并回应九大类异议：神学异议、'鸵鸟政策'异议、数学异议（哥德尔式）、意识异议、各种能力缺陷异议、拉夫莱斯伯爵夫人异议（机器无创造性）、连续性异议（神经系统非离散）、非形式性异议（人类行为不可公理化）、超感官知觉异议。其中他甚至承认意识异议'有分量'却说明其与任务无关。方法论要义：把对手最好的论点先替他说出来，是创新主张唯一可信的呈现方式；遗漏的异议会在最不利的时机被别人补上。",
+      "definition_en": "When making a revolutionary claim, enumerate in advance every line of opposition—numbered, classified, and answered substantively; concede where objections 'have force', then show they miss the claim's core. The body of Turing's 1950 paper is not the imitation game but nine numbered objections, from theology and Gödel to consciousness and ESP—with the consciousness objection even conceded weight.",
+      "source_chapter": "《计算机器与智能》第三至六节（六类主要异议的编号回应，含拉夫莱斯伯爵夫人异议与神学异议）",
+      "key_concepts": [
+        "异议编号",
+        "预设反驳",
+        "让步式回应",
+        "最强反对者立场",
+        "主张核心隔离"
+      ],
+      "process_zh": [
+        "切换到最强反对者立场，穷举对主张的全部反对路线，按类型分组编号（神学/逻辑/能力/形式/情感）",
+        "对每条异议给出实质回应：或指出其不适用于主张的精确表述，或承认其成立但论证其与核心主张的独立性",
+        "对最有力的一条，明确让步其'在某种意义上对'，并说明为何核心主张不需要它为假",
+        "发表前再请持不同立场的读者补漏：任何被真实读者补充的异议，都标记为方法论债并纳入下一轮"
+      ],
+      "process_en": [
+        "Adopt the strongest opponent's stance; enumerate all lines of objection, grouped and numbered (theological, logical, capability, formal, emotional)",
+        "Answer each substantively: show inapplicability to the precise claim, or concede and prove independence from the core",
+        "For the strongest objection, explicitly concede it 'is right in some sense' and show the core claim needs no falsity of it",
+        "Before publishing, have dissenting readers fill gaps: any objection they add becomes a marked methodological debt for the next round"
+      ],
+      "key_quote_zh": "我们在此只对反对机器思考的各类意见作一考察……（1）神学异议……（4）意识异议：这是我认为最有分量的……（6）拉夫莱斯伯爵夫人异议：机器从不曾做出任何新奇之事——此异议的根据是一个极端的例外情况被当成了规律。（《计算机器与智能》第三至六节的编号结构）",
+      "key_quote_en": "In this section we consider... (1) The Theological Objection... (4) The Argument from Consciousness: this is the one I consider strongest... (6) Lady Lovelace's Objection: a machine cannot originate anything—based on an extreme exceptional case treated as a rule.",
+      "representative_cases_zh": "《计算机器与智能》的经典读法是只记得图灵测试，但其真正主体是九个编号异议的连续应答：对神学异议，他指出不应当把限制加于全能上帝的造物能力；对数学异议（基于不完备定理的'机器必有不可判定之处'），他反驳'人类自身也互有不可判定之问'，且不完备性论证不构成对任何特定机器的否证；对最有力的意识异议，他让步其'有分量'，随即指出它至多导向自相主义，而与模仿游戏的判据无关；对拉夫莱斯伯爵夫人异议（机器无创造性），他给出机器可'出人意料'的机制解释（状态历史对观察者的不可计算性）并区分'新奇'与'真正原创'。整篇论文以'替反对者把话说完'的从容收束：他甚至为最离奇的超感官知觉异议留了编号位置——严肃到把对方的牌一张张摆上桌。这一写法使论文七十余年仍是该领域所有哲学讨论的必引坐标。",
+      "representative_cases_en": "The paper's real body is nine numbered objections: against theology, one should not limit omnipotence; against the mathematical objection, humans likewise fail each other's undecidable questions; the consciousness objection is conceded 'strong' yet leads only to solipsism and is irrelevant to the game's criterion; against Lady Lovelace's objection, machines can surprise (state histories incomputable for observers). He even numbers ESP—serious enough to lay every opponent's card on the table. That composure made the paper the field's obligatory reference for seventy years.",
+      "modern_applications_zh": [
+        "重大方案评审：提交前先写'异议附录'——把评审者可能的反对逐条编号回应，会议时间留给未被预演的真异议",
+        "产品/政策发布：发布文档附'已知反对与让步清单'，明确承认哪些批评成立但不影响核心价值，防止让步被读成溃败",
+        "学术/观点写作：引用对手最强的原文再回应，绝不使用稻草人；给每条未回应的反对编号存档，视为下一轮的明确债"
+      ],
+      "modern_applications_en": [
+        "Major proposals: append a numbered objection appendix before review; leave meeting time for the objections you failed to pre-empt",
+        "Product/policy launches: publish a concessions list—criticisms conceded yet non-fatal to the core—to keep concessions from reading as collapse",
+        "Scholarly writing: quote and answer the opponent's strongest actual words, never a strawman; archive unanswered objections as numbered debts"
+      ],
+      "related_modes": [
+        "M-TLY-001",
+        "M-TLY-004",
+        "M-TLY-006"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "H-ZKZ-001",
+  "name_zh": "观测网络织密",
+  "name_en": "Observation-Network Weaving",
+  "category": "analytics",
+  "sub_category": "distributed sensing / information velocity",
+  "definition_zh": "在缺乏连续数据基础的领域，用「层级节点 + 标准报文 + 流速闭环」铺设分布式观测网络，把零散、偶发、不可比的一手数据转成覆盖广、可比、可回溯的持续数据流，使组织获得超越任何单点的「信息流速」优势。",
+  "definition_en": "In a field lacking continuous data, lay a distributed observation network of 'tiered nodes + standard reports + velocity loop' that turns scattered, episodic, non-comparable raw data into a broad, comparable, traceable data stream—giving the organization an information-velocity edge no single point can match.",
+  "formula_repr": {
+    "formulas": [
+      "Coverage(t) = Σ_i N_i(t) · p_i   [t 时刻网络覆盖率 = 各层级节点数 × 单点代表权重之和]",
+      "V_info = dD/dt ↑ with node density   [信息流速随节点密度上升]",
+      "Bias_correction: x̂ = (1/K)Σ_k w_k·x_k , Σw_k=1   [K 源加权交叉修正单源偏差]",
+      "Continuity gap G = T_now − T_last_record → 0 as stations stream   [节点持续上报使序列无断点]"
+    ],
+    "variables": {
+      "N_i": "第 i 层级观测节点数（国家级/省级/县级/乡级 或 仪器站/物候点）",
+      "p_i": "单节点空间代表权重",
+      "V_info": "信息流速（单位时间可获取的有效数据量）",
+      "x_k": "第 k 类异源观测值（仪器/物候/文献/农谚）",
+      "w_k": "第 k 源权重（按可靠性分配）",
+      "G": "数据序列断点时长"
+    },
+    "prototype": "Relay-station network / 信息流速思维（物理观测站网版）"
+  },
+  "applicability": {
+    "triggers": [
+      "领域数据稀疏、碎片化、偶发，单点观测无法代表全局",
+      "需要长期连续观测才能显出规律（气候/物候/生态/供应链）",
+      "仪器/传感器昂贵或缺货，须用低成本的「人肉节点」补盲",
+      "决策依赖空间广覆盖、时间序列可比的数据流"
+    ],
+    "anti_patterns": [
+      "只建一两个旗舰站就宣称「全国观测」，覆盖率失真",
+      "各节点报文格式不一、口径漂移，数据无法横向比较",
+      "建网后无持续上报机制，序列断点使长周期规律不可见",
+      "把物候/民间记录当「不科学」弃用，损失唯一可得的长时间序列"
+    ]
+  },
+  "steps_zh": [
+    "划定层级：设计国家级—省级—县级—乡级（或仪器站—物候点）四级节点，明确每级代表半径与密度目标（覆盖率>90%）。",
+    "统一报文：规定观测要素、时刻、单位与上报格式，使异源数据可比、可回溯（竺定气象月报/年报标准）。",
+    "补盲双网：仪器短缺时以「物候观测网」（农民记录开花/抽穗/收获/初霜/冻害）补盲，与气象台网融合成双网。",
+    "流速闭环：节点持续上报形成连续数据流；中心按 K 源加权交叉修正单源偏差（仪器↔物候↔文献↔农谚）。",
+    "长周期沉淀：以个人/机构日记级日更保底（竺 56 年日记录），使序列跨越战乱与设备缺失不断点。",
+    "复用放大：把网络当公共基础设施对外开放，使后续研究（气候曲线、农业气象）直接复用原始流。"
+  ],
+  "steps_en": [
+    "Tier the network: national–provincial–county–township (or instrument-station–phenology-point) nodes with explicit coverage-radius and density goals (>90%).",
+    "Standardize reports: fix observables, timing, units and format so heterogeneous data are comparable and traceable.",
+    "Dual-network fill-in: where instruments are scarce, add a phenology network (farmers logging flowering/heading/harvest/frost) fused with the weather-station network.",
+    "Velocity loop: nodes stream continuously; the center cross-corrects single-source bias by K-source weighted fusion (instrument ↔ phenology ↔ archive ↔ proverb).",
+    "Long-horizon floor: a diary-level daily record (Zhu's 56-year log) keeps the series unbroken across war and equipment loss.",
+    "Reuse & scale: open the network as public infrastructure so later work (climate curve, agrometeorology) reuses the raw stream directly."
+  ],
+  "historical_case_zh": "竺可桢 1918 哈佛博士回国后，创立中国第一个气象研究所，至抗战前铺设 40 余处气象站、100 余处雨量站，形成中国首批自主气象观测网；战时仪器被毁、交通断绝，他发动农人记录物候（开花/收获/冻害）补盲，与残留台站融合成「仪器+物候」双网。其个人自 1921 起每日记录物候天气，至 1974-02-06 逝世前一天未断，56 年日记成全球罕见超长气候序列。1941 主持中国气象学会与全国气象台网，节点覆盖率与持续时长远超此前任何单点研究。",
+  "historical_case_en": "After returning from Harvard (1918), Zhu Kezhen founded China's first meteorological institute and, before the war, laid 40+ weather stations and 100+ rain-gauge stations—China's first autonomous observation network. When instruments were destroyed and transport cut, he mobilized farmers to log phenology (flowering/harvest/frost) as a fill-in, fused with surviving stations into an 'instrument + phenology' dual network. His personal daily phenology/weather log ran from 1921 to the day before his death (1974-02-06)—a 56-year series rare worldwide. In 1941 he chaired the Chinese Meteorological Society and the national station network, whose coverage and continuity exceeded any prior single-point study.",
+  "modern_case_zh": "物联网/工业互联网的「边缘节点+标准上报+时序库」即观测网络织密：风光电场用数千台 SCADA 节点汇成功率预测流；互联网公司用埋点+日志+客服三方数据交叉修正单源偏差；公益组织的「众包观测」（如鸟类/物候公民科学）以低成本人肉节点补专业监测盲点——皆同此模式。",
+  "modern_case_en": "IoT/industrial internet 'edge nodes + standard reports + time-series store' is exactly network weaving: wind/solar farms fuse thousands of SCADA nodes into a power-forecast stream; internet firms cross-correct single-source bias with埋点+logs+CS tickets; citizen-science crowdsourcing (birds/phenology) uses low-cost human nodes to fill pro-monitoring blind spots—all the same pattern.",
+  "inheritance_note": "B 级结构同构：对应袁隆平「南繁驿站+五级繁推流速」（模式 41 农业工程版）、周恩来/薛暮桥「治理/改革信息流速」（模式 41 治理版）。A 级直链：竺可桢是 Protreptic 中将模式 41 实体化为「科学观测基础设施（物理站网+标准报文）」的第一人，补强模式 41 第二人选。",
+  "related_persons": [
+    "竺可桢 (1890-1974)",
+    "袁隆平",
+    "周恩来",
+    "薛暮桥"
+  ],
+  "tags": [
+    "protreptic",
+    "zhu-kezhen",
+    "observation-network",
+    "information-velocity"
+  ],
+  "tags_en": [
+    "protreptic",
+    "zhu-kezhen",
+    "observation-network",
+    "information-velocity"
+  ],
+  "reason_zh": "竺可桢将模式 41（驿站制/信息流速）用于科学观测基础设施：用层级节点+标准报文+双网融合，把零散气象/物候数据织成覆盖广、可比、可回溯的持续流，是科研组织信息流速思维的奠基性落地。",
+  "reason_en": "Zhu maps mode 41 (relay-station/information velocity) onto scientific observation infrastructure: tiered nodes + standard reports + dual-network fusion weave scattered weather/phenology data into a broad, comparable, traceable stream—the foundational落地 of information-velocity thinking for research organizations.",
+  "expected_zh": "建成覆盖广、口径统一、持续不断的分布式观测数据流，使长周期规律（如气候曲线）可被看见、被复用，且单源偏差经多源交叉修正后显著下降。",
+  "expected_en": "Build a broad, standardized, continuous distributed observation stream so long-horizon laws (e.g. the climate curve) become visible and reusable, with single-source bias markedly reduced by multi-source fusion.",
+  "scientific_contribution": true,
+  "artistic_legacy": false,
+  "environmental_stewardship": true,
+  "gender_role_innovation": false,
+  "island_nation": false,
+  "nomadic_heritage": false,
+  "regional_integration": "",
+  "conflict_resolution_mechanism": "",
+  "legacy_type": "scientific",
+  "digital_adaptation": "Maps directly to IoT edge-node networks, time-series data lakes, and citizen-science crowdsourcing.",
+  "oral_tradition": "农谚作为物候补盲的民间口头知识源",
+  "resource_curse_mitigation": false,
+  "climate_adaptation": true,
+  "diaspora_network_type": "",
+  "polar_region": false,
+  "modes": [
+    41
+  ],
+  "version": "6.0",
+  "author": "serrano",
+  "created_at": "2026-08-25T13:35:00Z",
+  "nationality": "China",
+  "civilization_sphere": "East Asian / Confucian",
+  "time_period_standardized": "1890-1974 (Modern-Early, 近代)",
+  "wiki_id": "",
+  "primary_language": "Chinese (Mandarin)",
+  "intellectual_tradition": "Confucian / Modern Science / Geophysics & Education",
+  "cross_cultural_impact": "Applicable to global earth-system science, observation-network design, long-horizon climate reconstruction, and resilience of academic institutions under crisis",
+  "legal_system": "",
+  "education_tradition": "Modern science / 现代科学教育（求是书院—浙大传统）",
+  "source_lineage": [
+    "t_serrano_竺可桢_629720_0 (candidates_v2_research.md §5)",
+    "docs/research/candidates_v2_research.md",
+    "《中国近五千年来气候变迁的初步研究》(考古学报 1972(1))",
+    "浙大校史 / 竺可桢日记 (1936-01-01 ~ 1974-02-06)"
+  ]
+}

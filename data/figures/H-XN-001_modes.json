@@ -1,0 +1,529 @@
+{
+  "schema_version": "v6",
+  "figure_id": "H-XN-001",
+  "figure_name": "香农",
+  "figure_code": "H-XN-001",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-XN-001",
+      "name_zh": "不确定性度量法",
+      "name_en": "Uncertainty Quantification Method",
+      "mode_code": "M-XN-001",
+      "category": "度量方法",
+      "domain_zh": "信息定义/熵与概率",
+      "domain_en": "Defining Information / Entropy and Probability",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "当一个领域的基本对象（信息、知识、价值、风险）众说纷纭、无法比较多少时，不要先争定义，而是找到该对象的唯一可公共测量的功能面——对信息而言是'它消解了接收者多少不确定性'——然后以概率空间上的数学量给这个功能面定度量：H = -Σ p·log₂ p。要义有三：其一，信息的量只依赖消息的概率分布，不依赖其内容好坏，这使得'一比特'成为可应用于电报、DNA、神经脉冲、股价的通用单位；其二，度量先于理论——香农不是先写了通信理论再定义熵，而是先立度量衡，理论围绕量纲生长；其三，度量的选择有美学判据：香农列出该度量应满足的公理（连续性、单调性、可加性），证明满足者唯一，使定义无可争辩。方法论签名：凡可争议之物，先找出它'做出多少'的可测功能，再为功能定单位；单位一立，科学即立。",
+      "definition_en": "When a field's basic object (information, risk, value) is endlessly contested, find its only publicly measurable functional facet—information's is 'how much receiver uncertainty it resolves'—and measure it on probability space: H = -Σ p·log₂ p. Measurement precedes theory: Shannon first set the unit (the bit), then the theory grew around the dimension. Axioms (continuity, monotonicity, additivity) make the definition unique and unarguable.",
+      "source_chapter": "《通信的数学理论》第一、二节（信源的熵定义与公理化）；第六节（连续信源的熵）",
+      "key_concepts": [
+        "信息熵",
+        "比特",
+        "公理化定义",
+        "度量先于理论",
+        "不确定性消解"
+      ],
+      "process_zh": [
+        "诊断领域的基本对象为何不可比：通常因各家用语义、价值或直觉各自定义",
+        "找出唯一可公共测量的功能面（该对象实际'做掉了'什么），将其表述为概率或统计量",
+        "列出该度量必须满足的公理（连续、单调、可加），验证所提量是唯一满足者",
+        "以新单位重写领域问题：可比较、可优化、可证明的命题随之出现"
+      ],
+      "process_en": [
+        "Diagnose why the field's basic object cannot be compared—usually semantic or intuitive definitions",
+        "Find the only publicly measurable functional facet; state it as a statistical quantity",
+        "Axiomatize: continuity, monotonicity, additivity—verify the proposed measure is the unique solution",
+        "Rewrite the field's problems in the new unit: comparable, optimizable, provable claims follow"
+      ],
+      "key_quote_zh": "通信的根本问题，是在一点精确或近似地重现另一点选定的消息……这些消息具有统计意义：若已知发送的是哪条消息，这条消息的不确定性即为零。（《通信的数学理论》开篇与第一节）",
+      "key_quote_en": "The fundamental problem of communication is that of reproducing at one point either exactly or approximately a message selected at another point... Semantics is irrelevant to the engineering problem.",
+      "representative_cases_zh": "1948年之前，'信息'无法量化：一封电报、一段语音、一页书，谁包含更多信息？众说纷纭。香农的转身是不问'信息是什么'，只问'一条消息实际消除了接收方的哪些可能'。他从概率出发定义熵 H=-Σp·log₂p：均匀分布（最不可预测）信息量最大，确定事件信息量为零；再以硬币、骰子、英语字母统计做实例校准，英语每字母的实际熵约1.3比特（而非对数表的4.7），'冗余'随之成为可计算的量。度量一立，压缩极限、信道容量、纠错边界全部变成可证明的定理——一门科学从定义中直接生长出来。同法可通感：金融里的'风险'（波动率与回撤）、医疗里的'生存质量'（QALY量表）、组织里的'信息流转'（响应延迟与漏斗），皆是'为无形功能面立度量'的同型操作。",
+      "representative_cases_en": "Before 1948 information could not be quantified. Shannon refused to define 'information' semantically and instead measured what a message actually does: it removes uncertainty. From probabilities he derived H=-Σp·log₂p, calibrated it on English text (≈1.3 bits/letter vs. 4.7 theoretical), and compression limits, channel capacity, and coding bounds all became provable theorems—a science grown directly from a definition.",
+      "modern_applications_zh": [
+        "评估体系设计：争论'某能力是否重要'之前，先为该能力立可测的功能面（完成率、误差、恢复时长）与单位",
+        "科研选题：优先进入'有现象无量纲'的领域——谁能先立度量，谁立学科",
+        "个人决策量化：把'选择的不确定性'写成概率分布，度量自己真正知道多少，防止过度自信"
+      ],
+      "modern_applications_en": [
+        "Evaluation design: define measurable functional facets and units before debating what matters",
+        "Research strategy: enter fields with phenomena but no dimension—whoever sets the measure founds the discipline",
+        "Personal decisions: write choices as probability distributions to gauge how much you actually know"
+      ],
+      "related_modes": [
+        "M-XN-002",
+        "M-XN-003",
+        "M-XN-004"
+      ]
+    },
+    {
+      "id": "M-XN-002",
+      "name_zh": "语义剥离法",
+      "name_en": "Semantic Stripping Method",
+      "mode_code": "M-XN-002",
+      "category": "抽象方法",
+      "domain_zh": "工程问题与意义问题分离",
+      "domain_en": "Separating Engineering from Meaning",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "当一个复合问题（通信=传输+意义；教育=传递+成长；治理=秩序+正义）长期推进缓慢时，检查是否因两个异质问题被绑在一起互相牵制。处理法：明确宣布本理论只处理其中一个子问题，把另一子问题'剥离'出去并声明为范围外——不是回避，而是以明确的限定换取严格性。香农的原话是'通信的语义方面与工程问题无关'：他不否认意义重要，而是发现传输的物理规律与符号的含义完全独立——正是这一'贫瘠化'使理论同时适用于英语、电报、电视与DNA，普适性恰恰来自剥离。方法论要义：剥离时必须回答三个问题——剥离掉的部分是否真的与待解子问题独立？剥离边界放在哪里才能保留核心关切？谁来处理被剥离的部分（留待他学科还是后续理论）？答不清这三问的剥离是偷懒，答得清的剥离是聚焦。",
+      "definition_en": "When a compound problem (communication = transmission + meaning) stagnates, split it: explicitly declare which subproblem the theory addresses and strip the other as out of scope. Shannon's declaration that 'semantic aspects are irrelevant to the engineering problem' made the theory universal for English, telegraph, TV, and DNA alike. A stripping is honest only if independence, boundary, and ownership of the stripped part are all answered.",
+      "source_chapter": "《通信的数学理论》第一节（'通信的语义方面与工程问题无关'的著名声明）",
+      "key_concepts": [
+        "问题分解",
+        "范围声明",
+        "普适性来自限定",
+        "语义与传输分离",
+        "学科的边界自觉"
+      ],
+      "process_zh": [
+        "把复合问题拆成候选子问题，检验各子问题之间是否真的规律独立（剥离的前提）",
+        "选定与本领域工具相配的子问题，公开声明剥离边界与范围外承诺",
+        "在剥离后的子问题上建立严格理论，检查结论是否真的不依赖被剥离部分",
+        "回头看被剥离的部分：它是否需要另一个理论来接管（韦弗1949年的普及本即承担了'意义如何回到香农框架'的接续工作）"
+      ],
+      "process_en": [
+        "Split the compound problem; verify the subproblems are genuinely law-independent",
+        "Choose the subproblem matching your tools; publicly declare the scope and the stripped part",
+        "Build the strict theory; check conclusions never secretly depend on the stripped component",
+        "Revisit the stripped part: does another theory need to take it over (Weaver's 1949 essay did exactly this)?"
+      ],
+      "key_quote_zh": "通信的语义方面与工程问题无关。重要的事实是：实际发出的消息是从可能的消息集合中选出来的。（《通信的数学理论》第一节）",
+      "key_quote_en": "These semantic aspects of communication are irrelevant to the engineering problem. The significant aspect is that the actual message is one selected from a set of possible messages.",
+      "representative_cases_zh": "1948年前，通信工程混在'把意思传过去'的直觉里：电报追求'达意'，电话追求'逼真'，各自为政。香农的剥离一步到位：通信的数学理论只处理'在一点重现另一点选定的消息'——不管消息是英文、图像还是火星语，只要它是从已知消息集合中以已知概率选出的，理论一律适用。这一声明看似使理论'更少'，实际使其'无限更大'：因为剥离后的理论不依赖任何具体语言，它才能一次性覆盖之后发明的所有通信形式（电视、卫星、互联网、量子信道）。同时韦弗在1949年普及本中明确指出：被剥离的意义问题归语言学、心理学与哲学接管——剥离留下了清晰的接口而非无人区。这警告了剥离的真正纪律：范围外不是无人管，而是有归属地不管。",
+      "representative_cases_en": "Pre-1948 communication engineering was mired in intuition about 'conveying meaning.' Shannon's one-line declaration—semantics irrelevant—seemed to make the theory smaller but made it universal: free of any language, it covered television, satellites, the internet, and quantum channels alike, while Weaver's 1949 essay explicitly handed meaning back to linguistics and psychology. Stripping done right leaves an interface, not a no-man's-land.",
+      "modern_applications_zh": [
+        "跨团队项目拆分：明确声明本组只处理传输/性能/合规中的哪一环，其他环节写明归属，防止'什么都管'导致什么都不精",
+        "写作与论证：把'事实层'与'评价层'显式分离，声明本文只处理其中一层，读者争议立刻减少一半",
+        "AI产品定位：明确模型解决的是'检索''生成'还是'判断'问题，剥离的子问题写进产品边界文档而非口头共识"
+      ],
+      "modern_applications_en": [
+        "Team scoping: declare which subproblem (throughput, compliance, UX) you own and assign the rest",
+        "Writing: separate fact from evaluation explicitly and state which layer the piece addresses",
+        "AI products: document which problem (retrieval, generation, judgment) the model solves—and who owns the rest"
+      ],
+      "related_modes": [
+        "M-XN-001",
+        "M-XN-004",
+        "M-XN-007"
+      ]
+    },
+    {
+      "id": "M-XN-003",
+      "name_zh": "冗余分析法",
+      "name_en": "Redundancy Analysis Method",
+      "mode_code": "M-XN-003",
+      "category": "结构分析",
+      "domain_zh": "统计结构/可压缩余量与抗噪资本",
+      "domain_en": "Statistical Structure / Compressible Margin vs. Noise Capital",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "任何信号源都不是完全随机的：其统计结构（字母频率、词搭配、句法约束、行为习惯）决定了'可预测的部分'，即冗余。冗余分析法把冗余视为一枚硬币的两面——它是可以被剥离压缩的余量（传输与存储的浪费），同时也是抵御噪声的资本（纠错与校验的原料）。方法要义：先对目标系统做统计解剖（频率、条件概率、上下文依赖），算出实际熵与最大熵之差，得出冗余度；然后分别回答两个工程问题——'若要快，能剥掉多少冗余而不损失'（压缩），'若要稳，应保留或添加多少冗余以抗干扰'（纠错）。同一张统计账本服务两个相反目标，是此法的深意：压缩与纠错不是两种技术，而是对同一冗余账户的两种操作。凡系统有重复、有规律、有习惯，就有冗余账本可查。",
+      "definition_en": "Every signal source has statistical structure—predictable parts, i.e., redundancy. Redundancy is two-faced: a compressible margin (waste in transmission) and simultaneously capital for fighting noise (raw material of error correction). One statistical ledger serves both opposite goals: compress by stripping redundancy, protect by adding it back in controlled form. Where there is repetition, there is a redundancy account to audit.",
+      "source_chapter": "《通信的数学理论》第三、四节（英语的统计结构与冗余度估算）；与韦弗合编本中韦弗的阐释章节",
+      "key_concepts": [
+        "冗余度",
+        "统计结构",
+        "条件熵",
+        "压缩极限",
+        "受控冗余"
+      ],
+      "process_zh": [
+        "对目标系统的符号或行为做统计解剖：一阶频率、条件概率、长程依赖逐层测算",
+        "计算实际熵与最大熵之差，得出冗余度——量化'可预测部分'占总量的比例",
+        "分别核算两个方向：压缩方向（哪些冗余可安全剥离）与保护方向（哪些冗余须保留或添加以抗噪声）",
+        "落地方案后回归统计校验：真实分布是否随时间漂移，冗余账户是否需要重估"
+      ],
+      "process_en": [
+        "Statistically dissect the system: first-order frequencies, conditional probabilities, long-range dependencies",
+        "Compute actual vs. maximal entropy; quantify redundancy as the predictable fraction",
+        "Audit both directions: how much redundancy can be stripped (compression) vs. kept or added (protection)",
+        "After deployment, re-audit: distributions drift; the redundancy account needs revaluation"
+      ],
+      "key_quote_zh": "英语的冗余度约为百分之五十——这个数字意味着：当我们听到一段英语演讲时，大约有一半是多余的，如果缺失了，仍然可以大致恢复。（《通信的数学理论》第三节的估算要旨）",
+      "key_quote_en": "The redundancy of English is about 50%... this means that when we hear a speech in English, about half of what is said is redundant and could be recovered from context.",
+      "representative_cases_zh": "香农用大量巧妙的统计实验测定英语冗余：他让受试者逐字母猜测文本，猜错的次数即该字母的意外度——由此层层累出英语每字母实际熵约1.3比特，对应约75%的冗余。这一账本直接解释了两个工业现实：其一，压缩是可行的（ZIP、MP3、JPEG、语音编码都在剥离这75%中的统计可预测部分，极限由香农下界划定）；其二，语言天然抗噪（电话里半句话没听清仍能猜全句——那75%冗余就是纠错资本，而现代纠错码如Turbo/LDPC不过是把这种自然冗余变成了工程化的受控冗余）。同法可通感：企业里重复的审批、备份、报告是冗余——既是可精简的浪费，也是危机时的容错资本；精简与加固应查同一本账。",
+      "representative_cases_en": "Shannon measured English redundancy by having subjects guess a text letter by letter—errors measured surprise—yielding ≈1.3 bits/letter and ~75% redundancy. That single ledger explains both industrial compression (ZIP/MP3/JPEG strip the predictable part, bounded by Shannon's limit) and natural noise immunity (we reconstruct half-heard sentences; Turbo and LDPC codes merely industrialize this natural redundancy).",
+      "modern_applications_zh": [
+        "组织流程审计：把重复审批、双重报告列成冗余账本，分别核算'可精简的浪费'与'危机容错资本'后再动刀",
+        "内容与知识管理：先测信息的统计结构（哪些内容高度可预测），再决定压缩归档与重点保障的分配",
+        "沟通设计：关键指令的传达留足受控冗余（复述确认、双通道），但不把所有场合都写成三重冗余"
+      ],
+      "modern_applications_en": [
+        "Organizational audit: list repeated approvals/reports as a redundancy ledger; separate strippable waste from crisis tolerance",
+        "Knowledge management: measure statistical structure first, then split between archiving and protection",
+        "Communication design: add controlled redundancy (read-back, dual channels) for critical messages, not everywhere"
+      ],
+      "related_modes": [
+        "M-XN-001",
+        "M-XN-006",
+        "M-XN-004"
+      ]
+    },
+    {
+      "id": "M-XN-004",
+      "name_zh": "信道容量极限法",
+      "name_en": "Channel Capacity Limit Method",
+      "mode_code": "M-XN-004",
+      "category": "极限定理",
+      "domain_zh": "存在性证明/性能天花板",
+      "domain_en": "Existence Proof / Performance Ceiling",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "面对'能不能做到'式的工程问题（这条信道每秒最多传多少？这个团队最多消化多少任务？），先不构造方案，而是先证明极限：给出一条定理，说明在什么条件下可行、什么条件下原理上不可能。香农的信道容量定理是范式：只要信源速率 R 低于信道容量 C，就存在某种编码使误码率任意小；R 高于 C 则无论怎样编码都必然出错——'存在但不必构造'。此法的威力在于把产业界从盲目摸索中解放：1948年后工程师知道纠错码有天花板，四十年的编码研究是在逼近而非逾越它；1993年Turbo码被认为已接近香农极限，寻找结束。方法论要义：极限证明要指明'不可能'的精确边界（否则只是悲观猜测），也要为'存在'给出可行性担保（哪怕编码方法尚未找到）——天花板定理是最好的路线图，它告诉你该停止的地方和该坚持的地方。",
+      "definition_en": "For 'can it be done' engineering questions, prove the limit before building: Shannon's theorem states that for any rate R below capacity C, codes exist with arbitrarily small error; above C, no code works. 'Existence without construction' freed four decades of coding research—it pursued the ceiling rather than chasing impossibility, until Turbo codes (1993) effectively reached it. A precise ceiling is the best roadmap: it shows where to stop and where to persist.",
+      "source_chapter": "《通信的数学理论》第九至十二节（信道容量定义与两条编码定理：信道编码定理与逆定理）",
+      "key_concepts": [
+        "信道容量",
+        "存在性证明",
+        "不可能性定理",
+        "随机编码",
+        "性能天花板"
+      ],
+      "process_zh": [
+        "把'能不能做到'的问题形式化：什么是资源（带宽、功率、时间、预算），什么是质量指标（错误率、延迟）",
+        "证明逆定理：定义容量C，并证明超过C时任何方案必然失败——先封顶",
+        "证明可达性：用（哪怕非构造性的）论证表明低于C时存在达标方案——给出可行性担保",
+        "以极限为路线图指导实践：接近极限前坚持投入，宣布逼近极限后把精力转向别处（更快的实现、更低的成本）"
+      ],
+      "process_en": [
+        "Formalize the 'can it be done' question: what are the resources, what is the quality metric",
+        "Prove the converse: define capacity C and show any scheme fails above it—cap first",
+        "Prove achievability: a (possibly non-constructive) argument that below C schemes exist—a feasibility guarantee",
+        "Use the ceiling as roadmap: invest hard until near the limit, then pivot to implementation cost and speed"
+      ],
+      "key_quote_zh": "若一信道的容量为C，一信源的熵为H，若H≤C，则存在一种编码方式，使该信源的输出能以任意小的误差（或任意小的歧义频率）在该信道上传输。（《通信的数学理论》第九节定理摘要）",
+      "key_quote_en": "If the capacity of a channel is C and the entropy of a source is H, and H ≤ C, then there exists a coding system such that the source output can be transmitted over the channel with an arbitrarily small frequency of errors.",
+      "representative_cases_zh": "香农定理最深刻之处是证明方式：他不用构造法，而用'随机编码+典型序列'的存在性论证——他证明在所有可能的编码中，坏编码占比随码长趋零，因此好编码存在，哪怕没人会写它。这一定理在1948年划定了此后半个世纪的工程地图：40年代工程师为'噪声中能否可靠通信'绝望摸索，定理一出，问题变成'距离香农极限还有多远'；汉明码（1950）、卷积码、LDPC（1963，时人以为无用）、Turbo码（1993）一路逼近，最终LDPC+Turbo被认为达到香农极限的百分之九十九——'不可能'与'可达'之间的巨大空间，正是定理留给产业的时间表。同型操作可见于物流（运力上限测算先于扩产）、组织管理（团队并行任务上限先于加需求）。",
+      "representative_cases_en": "Shannon's proof was non-constructive—random coding plus typical sequences: bad codes vanish exponentially, so good codes exist even if no one can write one down. The theorem drew engineering's map for half a century: Hamming (1950), convolutional codes, LDPC (1963, then thought useless), Turbo (1993) marching toward a ceiling finally reached at ~99% of capacity.",
+      "modern_applications_zh": [
+        "技术选型：立项前先证明目标指标的原理上限（物理、法规、认知负荷），把'不可能'与'难'分开，避免团队在超天花板处空耗",
+        "产品性能路线：先测系统容量上限，再规划迭代——在离极限远时投入算法，在贴近极限时转向成本与体验",
+        "个人与团队负荷管理：先估并行任务容量C，超C的承诺任何'努力'都无法兑现，应谈判减载而非加班"
+      ],
+      "modern_applications_en": [
+        "Project gating: prove the principle-level ceiling (physics, law, cognitive load) before committing—separate 'impossible' from 'hard'",
+        "Performance roadmaps: measure capacity first; invest in algorithms far from the limit, in cost/UX near it",
+        "Workload management: estimate team capacity; above it, negotiate load instead of promising overtime"
+      ],
+      "related_modes": [
+        "M-XN-001",
+        "M-XN-003",
+        "M-XN-006"
+      ]
+    },
+    {
+      "id": "M-XN-005",
+      "name_zh": "开关逻辑化简法",
+      "name_en": "Switch-Logic Algebra Method",
+      "mode_code": "M-XN-005",
+      "category": "同构翻译",
+      "domain_zh": "工程问题翻译为代数问题",
+      "domain_en": "Translating Engineering into Algebra",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "当一门工程领域仍靠工匠经验与试错推进时，寻找它与某个成熟数学结构之间的同构关系：若能证明'该领域的元件与操作一一对应于某代数系统的元素与运算'，则整个工程问题立刻翻译为代数问题——化简、验证、优化全部获得定理支撑。香农1937年的发现是范式：继电器的'通/断'对应布尔代数的'真/假'，串并联对应与/或，反相器对应非——于是电路设计变成了写逻辑表达式、按布尔代数化简、再翻回电路；原本靠经验的接线图，变成了可以纸上证明正确性、可以求最简形式的数学对象。方法论要义：同构翻译必须双向可验证（电路→代数→电路不丢信息），且翻译收益要落实为具体可执行的操作（化简步骤、正确性判据）；只有同构没有操作，翻译只是修辞。",
+      "definition_en": "When an engineering field runs on craft and trial-and-error, look for an isomorphism with a mature mathematical structure: if elements and operations map one-to-one, the engineering problem becomes algebra—simplification and correctness proofs included. Shannon (1937): relay open/closed ↔ Boolean true/false, series/parallel ↔ and/or. Wiring diagrams became mathematical objects with provable minimal forms.",
+      "source_chapter": "《继电器与开关电路的符号分析》全篇（同构建立于第一、二章，化简方法与例题见于其后各章）",
+      "key_concepts": [
+        "同构",
+        "布尔代数",
+        "电路综合",
+        "卡诺化简的前身",
+        "翻译收益"
+      ],
+      "process_zh": [
+        "扫描工程领域的元件与操作，寻找与某已知数学结构的一一对应（元件↔元素，连接方式↔运算）",
+        "严格验证对应保持结果：任何组合在两侧产出一致（同构而非仅类比）",
+        "把工程任务翻译进数学侧：化简、求最优、证正确性都在代数上完成",
+        "把数学结果翻回工程侧并建立操作规程——让同行的日常工作获得定理支撑"
+      ],
+      "process_en": [
+        "Scan the field's elements/operations for one-to-one correspondence with a known mathematical structure",
+        "Verify strictly that correspondence preserves outcomes—isomorphism, not analogy",
+        "Translate the engineering tasks into the math: simplify, optimize, prove there",
+        "Translate back into operating procedures so colleagues' daily work gains theorem backing"
+      ],
+      "key_quote_zh": "本文的主题是……复杂继电器电路的综合与化简，可以用初等数学的精确方法来实现。（《继电器与开关电路的符号分析》引言要旨）",
+      "key_quote_en": "This thesis is offered as a step toward a rigorous mathematical theory of switching circuits—the synthesis and simplification of complex relay circuits by exact mathematical methods.",
+      "representative_cases_zh": "1937年，电话交换机的继电器网络是庞大而难懂的接线艺术：工程师凭经验布线，没人能证明一个电路'已经最简'。香农在贝尔实验室实习时注意到，交换电路的通断结构与布尔的逻辑代数完全同构——这是布尔在1854年提出、几乎无人问津的体系。他不仅建立对应，更给出系统方法：任何电路写成逻辑函数，按代数律化简（x+x'=1 意味着一条旁路继电器可省），再综合回电路。这一步使'电路正确性'第一次可以纸上证明，'最简电路'第一次有判据可循——数字计算机的整个硬件设计语言由此奠基。评论者称其为'20世纪最重要的硕士论文'。同型翻译可见于把库存管理翻译为排队论、把状态繁杂的业务流程翻译为状态机、把合同条款翻译为形式逻辑以自动查漏。",
+      "representative_cases_en": "In 1937 telephone relay networks were a wiring art no one could prove optimal. Shannon noticed their open/closed structure was isomorphic to Boole's long-ignored algebra of logic: write the circuit as a function, simplify by algebraic laws (x+x'=1 saves a relay), synthesize back. Circuit correctness became provable, minimality measurable—the design language of digital computers was born.",
+      "modern_applications_zh": [
+        "业务规则数字化：把审批与合规规则翻译为形式逻辑/规则引擎，先纸上验一致再上线",
+        "架构决策：为系统寻找与成熟理论（排队论、控制论、图论）的同构，借用其定理而非自创直觉",
+        "学习迁移：学新领域先问'它与哪个已知结构同构'，把未知问题变成已知问题的换装"
+      ],
+      "modern_applications_en": [
+        "Digitize business rules: translate approvals/compliance into formal logic; verify before deploying",
+        "Architecture: find isomorphisms with mature theories (queueing, control, graph theory) and borrow their theorems",
+        "Learning: ask which known structure a new field is isomorphic to—turn unknowns into dressed-up knowns"
+      ],
+      "related_modes": [
+        "M-XN-001",
+        "M-XN-002",
+        "M-XN-008"
+      ]
+    },
+    {
+      "id": "M-XN-006",
+      "name_zh": "对抗冗余设计法",
+      "name_en": "Controlled-Redundancy Design Method",
+      "mode_code": "M-XN-006",
+      "category": "设计方法",
+      "domain_zh": "纠错/以预算换可靠",
+      "domain_en": "Error Correction / Budgeting for Reliability",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "噪声与故障不可避免时，不追求'永不犯错'，而是承认错误概率并为其编制预算：主动在信息中添加受控冗余（校验位、副本、校验和、奇偶位），使接收方能检测并纠正错误——以可预算的额外开销换取可证明的可靠性。与冗余分析法（M-XN-003）构成一对：那里讲冗余的账本属性（可压缩也可抗噪），这里讲如何主动设计冗余结构以达成目标可靠度。要义：其一，冗余的位置与结构决定纠错能力（汉明距离——两个合法码字至少差几位——直接决定可纠错数）；其二，开销与可靠度是显式交易，应画出曲线而非凭感觉；其三，'可靠性来自冗余'的逆命题同样重要——完美无冗余的系统一错即溃，日常系统的韧性恰在其看似浪费的备份与重复。",
+      "definition_en": "When noise is inevitable, don't chase 'never fails'—budget for error: add controlled redundancy (parity, checksums, copies) so receivers can detect and correct. Key ideas: structure decides power (Hamming distance fixes correctable errors); overhead-vs-reliability is an explicit trade to be plotted; and the converse matters—systems with zero redundancy collapse at first fault; resilience lives in seemingly wasteful duplication.",
+      "source_chapter": "《通信的数学理论》第十二节（抗噪编码的思想）及《通信的数学理论》韦弗合编本的纠错章节；工程实现以汉明1950年纠错码为直接后续",
+      "key_concepts": [
+        "纠错码",
+        "汉明距离",
+        "校验位",
+        "可靠性预算",
+        "冗余-开销交易"
+      ],
+      "process_zh": [
+        "量化目标：可容忍错误率是多少？错误来源（噪声、故障、人为）的统计特征是什么",
+        "设计冗余结构：选定校验方式与码距，使错误模式落在可检测/可纠正范围内",
+        "绘制开销-可靠度曲线：每增加一份冗余换取多少可靠度，找到边际收益拐点",
+        "上线后用真实错误数据回灌校准：实际错误分布是否超出设计假设，预算是否需重编"
+      ],
+      "process_en": [
+        "Quantify the target: tolerable error rate and the statistics of error sources",
+        "Design the redundancy structure: check scheme and code distance covering realistic error patterns",
+        "Plot overhead vs. reliability; find the knee of diminishing returns",
+        "Recalibrate with field data: do real errors exceed design assumptions?"
+      ],
+      "key_quote_zh": "通信系统必须面对的一个基本问题是：消息在传输过程中受到噪声干扰……能否通过适当编码，使接收端重建的消息中含有的错误任意少？（《通信的数学理论》第一节的提问要旨）",
+      "key_quote_en": "Can a system be devised by which the receiver reconstructs the original message with arbitrarily small error, despite the noise which corrupts it in transit?",
+      "representative_cases_zh": "香农定理证明了'低于容量即可任意可靠'，但给出的是存在性而非具体方案——把方案空间打开的是汉明1950年在贝尔实验室的纠错码（此工作的直接动机是香农1948年论文，而汉明与香农同楼办公）。从三位校验位纠一错，到今天的Turbo/LDPC以百分之几的开销逼近容量极限，'受控冗余'成为一切数字基础设施的隐含契约：硬盘里、二维码里、卫星链路里、DNA测序里，都埋着为错误预留的预算。同样逻辑支撑工程韧性：数据中心的多副本、航空的双余度操控、组织的岗位互备——凡是'看似浪费的重复'，实为对故障概率的显式预算。反例同样深刻：被压缩到理论极限、零冗余的系统（如过度精简的供应链），一次扰动即全局崩溃。",
+      "representative_cases_en": "Shannon proved achievability; Hamming (same building, 1950) opened the constructive space. From 3-check-bit codes to Turbo/LDPC within a few percent of capacity, controlled redundancy became the hidden contract of all digital infrastructure—drives, QR codes, satellite links, DNA sequencing. The same logic underwrites data-center replicas, aircraft dual controls, and cross-trained teams: 'wasteful duplication' is explicit budgeting against fault probability.",
+      "modern_applications_zh": [
+        "系统与数据设计：为关键路径配置校验与副本，并把'开销-可靠度'曲线摊在决策桌上而非默认加倍",
+        "流程与组织韧性：关键岗位与供应商保持受控备份，警惕'效率极限化'消灭全部容错",
+        "沟通与协作：高风险指令采用复述确认/双通道传达——那是人工纠错码"
+      ],
+      "modern_applications_en": [
+        "Systems/data design: configure checks and replicas, and put the overhead-reliability curve on the table",
+        "Organizational resilience: keep controlled backups for critical roles/suppliers; beware efficiency purges of all tolerance",
+        "Collaboration: use read-backs and dual channels for high-stakes instructions—human error-correcting codes"
+      ],
+      "related_modes": [
+        "M-XN-003",
+        "M-XN-004",
+        "M-XN-001"
+      ]
+    },
+    {
+      "id": "M-XN-007",
+      "name_zh": "完全保密判据法",
+      "name_en": "Perfect Secrecy Criterion Method",
+      "mode_code": "M-XN-007",
+      "category": "证明方法",
+      "domain_zh": "密码的数学化/互信息为零",
+      "domain_en": "Mathematizing Cryptography / Zero Mutual Information",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "当一个领域的安全性靠'藏得巧妙'与'敌人不够聪明'支撑时，为其建立信息论判据：安全性不是难破程度，而是可证明的数学性质——若密文与明文之间的互信息为零（密文分布与明文内容统计独立），则系统'完全保密'，任何算力都无法破译；反之，只要密文泄漏了关于明文的一比特信息，就存在原则上可累积的攻击面。香农1949年证明：一次一密（每字节用真随机密钥且只用一次）是唯一达到完全保密的实用结构，且完全保密要求密钥熵不低于明文熵——'安全的代价是可以计算的'。方法论要义：把'是否安全'从对抗性直觉变成可验证的分布性质；并给出结构性结论——不安全不是失误而是熵赤字，凡密钥少于明文，泄漏必然存在，工程目标只能是控制泄漏率。",
+      "definition_en": "When a field's security rests on cleverness, give it an information-theoretic criterion: security is provable—cipher and plaintext statistically independent (zero mutual information) means perfect secrecy, unbreakable by any compute; any leaked bit is a cumulative attack surface. Shannon (1949) proved one-time pad is uniquely perfect and requires key entropy ≥ plaintext entropy: insecurity is entropy deficit, not sloppiness.",
+      "source_chapter": "《保密系统的通信理论》（1949）：完全保密的定义与一次一密唯一性定理；唯一解距离与冗余度分析",
+      "key_concepts": [
+        "完全保密",
+        "互信息",
+        "一次一密",
+        "唯一解距离",
+        "熵赤字"
+      ],
+      "process_zh": [
+        "把'安全性'的操作内涵写成分布性质：攻击者在读到密文后，对明文的概率判断是否发生任何改变",
+        "证判据下的极端情形：互信息为零为绝对安全，并推导其必要条件（密钥熵≥明文熵）",
+        "对现实系统计算泄漏：由语言/数据冗余度推出唯一解距离——密文多长后密钥唯一可定",
+        "以泄漏率为工程目标：既然绝对保密不经济，量化'每次通信泄漏多少比特'并最小化之"
+      ],
+      "process_en": [
+        "Operationalize 'security' as a distributional property: does the ciphertext change the attacker's posterior on the plaintext?",
+        "Prove the extreme case: zero mutual information is absolute security; derive its necessary condition (key entropy ≥ message entropy)",
+        "Compute real leakage: derive unicity distance from the plaintext's redundancy",
+        "Engineer to the leak rate: absolute secrecy is uneconomical—minimize bits leaked per communication"
+      ],
+      "key_quote_zh": "完全保密的定义是：密文与明文相互统计独立……此时截获密文对确定明文毫无帮助。完美保密的必要条件是密钥的不确定性不低于消息的不确定性。（《保密系统的通信理论》要旨）",
+      "key_quote_en": "Perfect secrecy is defined by the requirement that the cipher text be statistically independent of the plain text... The amount of uncertainty in the key must be at least as great as that in the message.",
+      "representative_cases_zh": "1949年前，密码学是工匠行当：换字表、转轮机、藏词法，'好密码'全凭对手长期攻不破的经验背书。香农把它变成数学：定义完全保密为密文与明文统计独立，证明一次一密是唯一解，并给出刺骨的结构性结论——实用系统密钥必短于明文，因此必然泄漏信息；泄漏的累积速度由明文冗余度决定（唯一解距离）：英语冗余75%，意味着密文积累到一定长度，正确密钥在数学上唯一可定。这一框架解释了二战密码战的一切：恩尼格玛不是输于'不够巧'，而是输于冗余泄漏的累积；现代AES等实用密码坦然接受'计算安全'（破译代价超宇宙预算）而非'完全保密'，正是因为香农证明了后者的代价不可负担。判定标准从'藏得巧'变成'证得出'，是安全性认知的一次哥白尼转向。",
+      "representative_cases_en": "Before 1949 cryptography was craft. Shannon made it mathematics: perfect secrecy as statistical independence, one-time pad as the unique solution, and the stark structural result that practical systems must leak—leakage accumulating at a rate set by plaintext redundancy (unicity distance). Enigma fell to accumulated leakage, not insufficient cleverness; modern ciphers openly accept computational security because Shannon proved perfect secrecy unaffordable.",
+      "modern_applications_zh": [
+        "安全评估：为系统安全写可验证判据（攻击者后验是否改变、泄漏了多少比特），拒绝'我们很复杂所以安全'式论证",
+        "隐私设计：数据发布的匿名化按'可重识别信息量'核算，追求互信息最小化而非表面去标识",
+        "商业机密管理：计算'足够多片段可拼出全貌'的唯一解距离，据此设定分割与知悉范围"
+      ],
+      "modern_applications_en": [
+        "Security review: state verifiable criteria (does the attacker's posterior change? how many bits leak?), not 'we're complex, therefore safe'",
+        "Privacy: budget re-identifiability in released data; minimize mutual information, not just visible identifiers",
+        "Trade secrets: compute the unicity distance at which fragments reconstruct the whole; scope access accordingly"
+      ],
+      "related_modes": [
+        "M-XN-001",
+        "M-XN-002",
+        "M-XN-003"
+      ]
+    },
+    {
+      "id": "M-XN-008",
+      "name_zh": "技艺分解计算法",
+      "name_en": "Skill Decomposition Method",
+      "mode_code": "M-XN-008",
+      "category": "认知建模",
+      "domain_zh": "评估函数+搜索+剪枝",
+      "domain_en": "Evaluation + Search + Pruning",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "面对一项被视为'只可意会'的人类技艺（棋艺、谈判、诊断、写作），不要整体模仿，而是把技艺分解为可计算的部件：静态判断函数（当前局面值多少分）+ 前瞻搜索（沿可能的行动树推演）+ 剪枝规则（放弃显然无望的分支）。香农1950年下棋论文的范式：他不对'棋感'做神秘解释，而是证明棋艺可分解为位置评估（子力、机动性、兵形等可量化特征）与有限深度搜索，并估算博弈树规模（'香农数'≈10^120）以证明穷举不可行、剪枝必然——分解之后，'机器能否下棋'从哲学问题变成工程路线图。方法论要义：分解的目标不是完全复制技艺，而是找到'能支撑可用性能的最小可计算骨架'；每个部件单独可测试、可改进，整体性能随之迭代——这正是从深蓝到AlphaGo四十年博弈程序乃至更广'专家系统'路线的共同方法论。",
+      "definition_en": "For an 'unspoken' human skill (chess, negotiation, diagnosis), don't imitate it wholesale—decompose into computable parts: a static evaluation function + forward search + pruning. Shannon's 1950 chess paper: positional evaluation (material, mobility) plus bounded search, with the Shannon number (~10^120) proving brute force hopeless and pruning necessary. The goal is not to copy mastery but to find the minimal computable skeleton supporting usable performance.",
+      "source_chapter": "《计算机器下棋的程序》（1950）：策略评估函数、极小极大搜索、类型A/B策略与'香农数'估计",
+      "key_concepts": [
+        "评估函数",
+        "极小极大搜索",
+        "剪枝",
+        "香农数",
+        "技艺的可计算分解"
+      ],
+      "process_zh": [
+        "把技艺的操作单元列成清单：'高手此刻在判断什么？在预演什么？在放弃什么'",
+        "为每个单元设计可计算替代：判断→评估函数（特征加权），预演→树搜索，直觉放弃→剪枝规则",
+        "核算可扩展性：全空间多大（指数爆炸点在哪），资源约束下搜索深度与评估精度如何权衡",
+        "迭代优化单一部件：以对局/案例回放定位失败归因（评估不准还是搜索不深），逐项升级"
+      ],
+      "process_en": [
+        "List the skill's operational units: what does an expert judge, simulate, and discard?",
+        "Design computable substitutes: judgment→weighted evaluation, simulation→tree search, intuition→pruning rules",
+        "Audit scalability: how big is the space (exponential blowup), and how to trade depth vs. evaluation under constraints",
+        "Iterate on one component at a time: attribute failures (bad evaluation or shallow search) via replayed cases"
+      ],
+      "key_quote_zh": "下棋机器的一般方法……是运用位置评估函数，对每一个可能的走法序列进行极小极大化搜索。博弈树的全貌约含 10^120 种可能——穷举无望，策略必须建立在选择性搜索之上。（《计算机器下棋的程序》要旨）",
+      "key_quote_en": "The machine would employ an evaluation function to perform a minimax search over move sequences... the game tree of chess (~10^120 variations) makes brute force hopeless; strategy must rest on selective search.",
+      "representative_cases_zh": "1950年，'机器下棋'多半被当作科幻谈资。香农不争论机器'懂不懂'棋，而是把棋艺拆开：专家看一步棋的'感觉'，被他改写为若干可量化特征（子力比、王的安全、棋子机动性）的加权和；专家的'推演几步'，被改写为有限深度的极小极大搜索；专家'一眼排除坏棋'，被改写为静态剪枝。他还用'香农数'（约10^120）证明穷举在物理上不可能，从而论证选择性搜索是唯一路线。这一分解直接给出此后四十年的工程路线：从1966年MacHack到1997年深蓝击败卡斯帕罗夫，结构仍是'评估+搜索+剪枝'的香农骨架；而AlphaGo之后的时代则证明——当评估函数本身可以用学习获得，分解法便与学习法合流。此法同样适用非棋类技艺：把临床诊断拆为特征加权+鉴别树，把谈判拆为利益评估+让步树，均可获得可教学、可迭代的骨架。",
+      "representative_cases_en": "In 1950 machine chess was a curiosity. Shannon decomposed mastery: 'feel' became a weighted sum of quantifiable features (material, king safety, mobility); 'looking ahead' became bounded minimax; 'instinctively discarding bad moves' became pruning. The Shannon number (~10^120) proved brute force physically impossible. From MacHack (1966) to Deep Blue (1997), the Shannon skeleton held; AlphaGo showed learned evaluation eventually merges with the decomposition.",
+      "modern_applications_zh": [
+        "复杂决策建模：把'经验判断'显式化为特征加权评分表+情景推演+排除规则，先透明再优化",
+        "教学与训练：把专家技艺拆为可单独训练的部件（判断/推演/舍弃），而非整体模仿与玄学化",
+        "人机分工设计：机器负责树搜索与穷举，人负责评估函数的特征选择——按部件拆分而非按岗位笼统分工"
+      ],
+      "modern_applications_en": [
+        "Decision modeling: make judgment explicit—weighted scorecards, scenario trees, exclusion rules",
+        "Training: decompose expert skill into separately trainable components instead of imitating the whole",
+        "Human-machine roles: machines search exhaustively; humans choose evaluation features—split by component, not by job title"
+      ],
+      "related_modes": [
+        "M-XN-005",
+        "M-XN-009",
+        "M-XN-001"
+      ]
+    },
+    {
+      "id": "M-XN-009",
+      "name_zh": "试错学习机法",
+      "name_en": "Trial-and-Error Learning Machine Method",
+      "mode_code": "M-XN-009",
+      "category": "学习理论",
+      "domain_zh": "探索-记忆-修正回路",
+      "domain_en": "Explore-Memorize-Correct Loop",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "当任务环境无法事先穷举（迷宫走法、市场反应、系统边界），不要预编完整程序，而是构造一个'探索-记忆-修正'回路：装置先以随机或系统化方式探索，把有效路径写入记忆，下次遇到同样情形直接调用——智能不在初始程序里，而在回路结构里。香农1950年的机械老鼠'这些修斯'是此法最早的实体演示：迷宫中先乱撞，一旦从起点摸到终点，拨动开关把路径存入75个继电器，之后放回任意位置都能直奔目标——一台没有'思维'的装置表现出'学会'的行为。要义有三：其一，区分'知识'与'记忆结构'（装置的聪明是继电器的接线方式）；其二，探索要有预算（乱撞无限则学习无从谈起）；其三，环境须提供可记忆的稳定规律，否则记忆即噪声——这三个前提正是日后强化学习（试错+奖励）与连接主义（记忆=连接强度）的共同原型。",
+      "definition_en": "When the environment cannot be pre-enumerated (mazes, markets, system limits), don't pre-program—build an explore-memorize-correct loop: the device explores, writes successful paths into memory, and reuses them. Shannon's 1950 mechanical mouse Theseus was the earliest physical demo: it bumbled, stored the found path in 75 relays, then ran it directly on every repeat. Intelligence lives in the loop's structure, not the initial program; exploration needs a budget; and the environment must hold stable regularities for memory to be signal, not noise.",
+      "source_chapter": "《这些修斯》迷宫学习机演示与说明（贝尔实验室1950， films与实验室记录）；《自动机研究》（1956，与麦卡锡合编）中的相关机器智能讨论",
+      "key_concepts": [
+        "试错学习",
+        "迷宫学习机",
+        "记忆即结构",
+        "探索预算",
+        "强化学习原型"
+      ],
+      "process_zh": [
+        "确认任务环境满足学习前提：存在可重复利用的稳定规律，且探索成本可预算",
+        "设计最小回路：探索机制（随机或系统化）+ 记忆载体（可写可读的状态）+ 调用与修正规则",
+        "运行并观察'学会'的判据：第二次尝试是否显著优于第一次；泛化是否发生（环境微变后仍能用）",
+        "定位失败环节：探索不足（未见过好路径）、记忆失灵（写错或忘）、环境漂移（旧规律失效），分别加固"
+      ],
+      "process_en": [
+        "Verify the environment supports learning: stable regularities exist; exploration is budgetable",
+        "Design the minimal loop: exploration mechanism + writable/readable memory + invoke-and-correct rules",
+        "Run and test the criterion of 'learning': is attempt two clearly better than attempt one? Does it survive small environment changes?",
+        "Localize failures: under-exploration, faulty memory, or environment drift—reinforce each differently"
+      ],
+      "key_quote_zh": "这些修斯在迷宫中摸索前进，一旦找到路径，便将答案记住——此后无论从迷宫何处出发，它都能径直走向目标。（贝尔实验室'这些修斯'演示说明的要旨，1950）",
+      "key_quote_en": "Theseus fumbles its way through the maze; once the path is found, it is remembered—thereafter from any point the mouse goes straight to the goal. (Bell Labs Theseus demonstration, 1950)",
+      "representative_cases_zh": "1950年香农在贝尔实验室展出'这些修斯'：一只铝制小老鼠拖在继电器阵列上，观众随意竖起迷宫隔板，老鼠先在迷宫里乱撞，摸到终点后扳动开关，其探索路径被写入75个继电器的状态；此后把老鼠放到迷宫任意一格，它都能沿记住的路径直奔目标。观众看到的是'老鼠学会了'，香农展示的是回路结构：没有程序、没有规则库，只有'撞墙即改向、到标即记忆'的简单机制。这一演示与图灵同年提出的'儿童机器'（教育式智能）遥相呼应，比萨顿与巴托的强化学习早了三十年，比神经网络的连接主义记忆早了半个世纪。香农自己说得更直白：'我造这些机器是为了好玩，但玩着玩着，你想弄明白的复杂问题就都出现在里面了。'同型回路在今日无处不在：A/B测试（探索+记忆+采纳）、新员工试错期、算法推荐系统的冷启动。",
+      "representative_cases_en": "In 1950 Bell Labs visitors watched Theseus, a tin mouse on relay rails: given a rearranged maze, it fumbled to the goal, flipped a switch, and stored the path in 75 relays—after which from any cell it ran straight to the target. No program, no rule base, just 'bump-and-turn, succeed-and-remember.' Echoing Turing's 'child machine' the same year, it anticipated reinforcement learning by three decades and connectionist memory by fifty.",
+      "modern_applications_zh": [
+        "产品与增长实验：以小预算乱撞式A/B测试探索，把胜出策略写入'记忆'（模板/规则），下次直接复用",
+        "个人技能习得：新领域先允许有预算的乱撞期，把成功路径显式记录（清单/SOP），第二次起走记忆而非重新探索",
+        "系统冷启动设计：为推荐/调度类系统预设探索期与记忆结构，避免用'永远猜'替代'试过再记'"
+      ],
+      "modern_applications_en": [
+        "Growth experiments: budget small randomized probes, promote winners into reusable templates",
+        "Skill acquisition: allow a bounded fumbling phase in new domains, then codify successful paths as checklists/SOPs",
+        "Cold-start design: build an exploration period and memory structure into recommender/scheduling systems"
+      ],
+      "related_modes": [
+        "M-XN-008",
+        "M-XN-010",
+        "M-XN-003"
+      ]
+    },
+    {
+      "id": "M-XN-010",
+      "name_zh": "玩具原型探路法",
+      "name_en": "Toy-Prototype Method",
+      "mode_code": "M-XN-010",
+      "category": "实验方法",
+      "domain_zh": "以趣味最小装置检验大思想",
+      "domain_en": "Testing Big Ideas with Playful Minimal Devices",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "大思想在正式应用前充满未知风险（概念是否自洽、机制是否可行、观众是否理解），不要直接投入完整系统，而是先做一个'玩具'：尺寸最小、成本最低、但保留大思想全部核心机制的原型——它既是思想的最小可行性检验，也是向外人演示概念的通用语言。香农一生都是此法的大师：走迷宫的老鼠（机器学习的玩具）、杂耍机器人（运动控制的玩具）、可以自己把硬币扔出去的'禁投硬币机'（自动化的玩具）——这些看起来是趣味的作品，实际每一件都把一个新机制做成了'看得见的论证'。方法论要义：玩具不是缩小版产品，而是机制蒸馏器——去掉一切非核心元素直到只剩大思想本身；玩具的成功判据是'观众看一眼就懂机制'而非功能完备；并且玩具要敢于荒谬，荒谬保证了它与现有系统的距离，也保证了思想传播的记忆点。",
+      "definition_en": "Before committing a big idea to a full system, build a toy: minimal in size and cost yet preserving the idea's full core mechanism—a minimum viable test of the concept and a universal demo language. Shannon mastered this: the maze-solving mouse (learning), juggling robots (motion control), a coin-returning 'no-coin' machine (automation). A toy is not a shrunken product but a mechanism distillery—strip everything until only the idea remains; its success criterion is instant comprehension, and its license to be absurd is what makes it memorable.",
+      "source_chapter": "香农贝尔实验室时期与MIT时期的机械发明（这些修斯、杂耍机、THROBAC罗马数字计算机、'终极机器'等）及其演讲中的机器思维演示",
+      "key_concepts": [
+        "最小可行原型",
+        "机制蒸馏",
+        "演示即论证",
+        "趣味驱动研究",
+        "思想的可视语言"
+      ],
+      "process_zh": [
+        "蒸馏机制：写下大思想的核心因果链，删除所有非必需元素，直到剩下的部分仍能完整演示该思想",
+        "用最低成本材料把机制做成可运行的实物或可交互的演示（纸板、脚本、电子表格皆可）",
+        "以'外行三分钟理解'为通过判据：观众复述机制成功即通过，讲不通即机制仍含杂质",
+        "玩具验证核心机制后，再决定是否投入工程化；同时把玩具本身留作该思想的标准演示品"
+      ],
+      "process_en": [
+        "Distill the mechanism: write the idea's core causal chain; strip everything non-essential until the idea still demos whole",
+        "Build the runnable physical or interactive demo from the cheapest materials (cardboard, script, spreadsheet)",
+        "Pass criterion: a layperson retells the mechanism correctly in three minutes—if not, impurities remain",
+        "Only after the toy validates the core decide on full engineering; keep the toy as the idea's standard demo"
+      ],
+      "key_quote_zh": "我做这些机器很大程度上是为了好玩……但我确实认为，这些看似荒唐的实验里，藏着一类真正值得认真对待的问题。（香农晚年访谈对其机械发明的解释要旨）",
+      "key_quote_en": "I do a lot of these things just for the fun of it... but I do think there are serious questions hidden in these apparently frivolous experiments.",
+      "representative_cases_zh": "香农的'终极机器'是个著名的玩笑：一只木盒，扳动外面的开关后，盒盖打开，伸出一只机械手把开关再扳回去，然后缩回、合盖——一台'唯一功能是拒绝你操作'的机器。它什么实用功能都没有，却把'反馈与自我指涉'这一控制论核心机制做成了三秒钟看懂的实体笑话，冯·诺依曼为之一见倾心。'这些修斯'则是更进一步的范例：机器学习尚无一个学术名词的年代，香农把'从经验中改进行为'这一思想做成了展览级玩具，直接向公众与同行演示了'机器可以学习'——比任何论文都早地让非专业者'看见'了机器智能。玩具的荒谬性是功能性的：因为与一切现有产品无关，它才能只承载思想本身；而荒谬带来的记忆点，让思想比论文传播得更远。今天的最佳实践——先做可点击原型、用Excel模拟商业模式、以一个真实小案例验证方法论——皆是此法的同型操作。",
+      "representative_cases_en": "Shannon's 'Ultimate Machine' is a famous joke: flip the switch, a hand emerges from the box and flips it back. No utility whatsoever—but it makes feedback and self-reference graspable in three seconds, and von Neumann adored it. Theseus went further: in an era before 'machine learning' had a name, the toy let laypeople see 'machines can learn' earlier than any paper could. Absurdity is functional: unrelated to every product, the toy carries the idea alone—and its memorability out-travels publication.",
+      "modern_applications_zh": [
+        "产品创新：大功能立项前先做'机制玩具'（可点击原型/Excel模拟），以三分钟外行理解为通过判据",
+        "思想传播：把新方法论做成一个略带荒谬的演示案例，让它比论文跑得更快更远",
+        "研究风险管理：给高风险探索设'玩具预算'——小成本荒谬实验先行，避免直接压注完整系统"
+      ],
+      "modern_applications_en": [
+        "Product innovation: build a mechanism toy (clickable prototype, spreadsheet sim) before committing; pass = 3-minute layman comprehension",
+        "Idea dissemination: package a new method as a slightly absurd demo case that travels faster than the paper",
+        "Research risk: give explorations a toy budget—cheap absurd experiments first, never bet on the full system outright"
+      ],
+      "related_modes": [
+        "M-XN-009",
+        "M-XN-008",
+        "M-XN-005"
+      ]
+    }
+  ]
+}

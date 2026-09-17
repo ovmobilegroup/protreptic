@@ -1,0 +1,368 @@
+{
+  "figure_code": "MZ",
+  "figure_name": "孟子",
+  "figure_name_en": "Mencius",
+  "era": "战国",
+  "time_period_standardized": "约公元前372年-前289年",
+  "civilization_sphere": "东亚/中华",
+  "domains": [
+    "人性论",
+    "政治哲学",
+    "伦理学",
+    "认识论",
+    "修养论"
+  ],
+  "intellectual_tradition": "儒家学派/性善论/仁政学说",
+  "primary_works": [
+    "《孟子》七篇（梁惠王、公孙丑、滕文公、离娄、万章、告子、尽心）"
+  ],
+  "famous_quote": "民为贵，社稷次之，君为轻；养吾浩然之气；行有不得者，皆反求诸己",
+  "thinking_modes": [
+    {
+      "id": "M201",
+      "name_zh": "性善本源法",
+      "name_en": "Source of Good Nature Method",
+      "mode_code": "M201",
+      "category": "人性论",
+      "domain_zh": "道德心理学/伦理学基础",
+      "domain_en": "Moral Psychology / Foundation of Ethics",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "主张人性本善，恻隐、羞恶、辞让、是非四端之心是人天生固有的道德潜能，如同四肢般自然存在。",
+      "definition_en": "Human nature is inherently good; the Four Beginnings (compassion, shame, deference, sense of right and wrong) are innate moral potentials as natural as four limbs.",
+      "source_chapter": "《孟子·告子上》《孟子·公孙丑上》",
+      "key_concepts": ["四端", "性善", "良知良能", "括而充之", "孺子入井"],
+      "process_zh": [
+        "识别情境中的道德直觉反应",
+        "确认四端之心作为道德能力的先天依据",
+        "将直觉反应确认为道德能力的萌芽",
+        "通过实践和教育扩充四端为完整德性"
+      ],
+      "process_en": [
+        "Identify moral intuition in context (compassion, shame, deference, right/wrong)",
+        "Confirm Four Beginnings as a priori basis for moral capacity",
+        "Recognize intuitions as germination of moral ability",
+        "Expand Four Beginnings into complete virtue through practice and education"
+      ],
+      "key_quote_zh": "人性之善也，犹水之就下也。无人不有善，水无有不下",
+      "key_quote_en": "The goodness of human nature is like water flowing downward. There is nothing not good in humans, just as there is no water that does not flow downward.",
+      "representative_cases_zh": ["孺子入井论证恻隐之心", "牛山之木比喻本性丧失"],
+      "modern_applications_zh": ["道德教育心理学", "品格培养", "伦理决策训练"],
+      "modern_applications_en": ["Moral education psychology", "Character development", "Ethical decision-making training"],
+      "related_modes": ["M202", "M207", "M210"]
+    },
+    {
+      "id": "M202",
+      "name_zh": "推恩扩充法",
+      "name_en": "Expanding Kindness Method",
+      "mode_code": "M202",
+      "category": "道德实践",
+      "domain_zh": "伦理扩展/同理心训练",
+      "domain_en": "Ethical Extension / Empathy Training",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "从亲亲之情出发，层层外推至仁民、爱物。老吾老，以及人之老；幼吾幼，以及人之幼。",
+      "definition_en": "Starting from love of one's own family, extend layer by layer to loving people and all things. Respect your own elders and extend that respect to others' elders; care for your own children and extend that care to others' children.",
+      "source_chapter": "《孟子·梁惠王上》",
+      "key_concepts": ["推恩", "老老及人", "幼幼及人", "差等之爱"],
+      "process_zh": [
+        "确认当下真实的情感体验",
+        "将情感视为可推广的道德种子",
+        "进行类比思考：若爱我的亲人，他人亦爱其亲人",
+        "将同理心扩展至陌生人、他国之人、万物"
+      ],
+      "process_en": [
+        "Confirm current genuine emotional experience",
+        "Treat emotion as seed of moral expansion",
+        "Analogical thinking: if I love my family, others also love theirs",
+        "Extend empathy to strangers, foreign people, all things"
+      ],
+      "key_quote_zh": "老吾老，以及人之老；幼吾幼，以及人之幼",
+      "key_quote_en": "Respect your own elders, and extend that respect to others' elders; care for your own children, and extend that care to others' children.",
+      "representative_cases_zh": ["齐宣王以羊易牛"],
+      "modern_applications_zh": ["同理心训练", "生态伦理与全球伦理扩展"],
+      "modern_applications_en": ["Empathy training", "Ecological ethics and global ethics extension"],
+      "related_modes": ["M201", "M207"]
+    },
+    {
+      "id": "M203",
+      "name_zh": "类比论证法",
+      "name_en": "Analogical Reasoning Method",
+      "mode_code": "M203",
+      "category": "论证方法",
+      "domain_zh": "认识论/教学解释",
+      "domain_en": "Epistemology / Pedagogical Explanation",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "通过具体情境或故事类比揭示抽象道理。善用寓言如揠苗助长、缘木求鱼等经典案例。",
+      "definition_en": "Using concrete situations or stories as analogies to reveal abstract principles. Skillful use of fables such as 'pulling seedlings to help them grow' and 'seeking fish by climbing a tree'.",
+      "source_chapter": "《孟子·公孙丑上》《孟子·梁惠王上》",
+      "key_concepts": ["类比", "寓言", "设喻", "形象说理"],
+      "process_zh": [
+        "识别待论证的抽象命题",
+        "寻找与之结构相似的具体情境",
+        "确保类比对象在关键属性上与目标一致",
+        "通过类比推导得出结论"
+      ],
+      "process_en": [
+        "Identify the abstract proposition to be argued",
+        "Find concrete situation with similar structure",
+        "Ensure key attributes match between analogy and target",
+        "Derive conclusion through the analogy"
+      ],
+      "key_quote_zh": "揠苗助长、缘木求鱼等经典寓言",
+      "key_quote_en": "Classic fables such as 'pulling shoots to help them grow' and 'seeking fish by climbing a tree'.",
+      "representative_cases_zh": ["揠苗助长", "缘木求鱼"],
+      "modern_applications_zh": ["教学解释与政策论证", "法律类比推理"],
+      "modern_applications_en": ["Teaching explanation and policy argumentation", "Legal analogical reasoning"],
+      "related_modes": ["M204", "M208"]
+    },
+    {
+      "id": "M204",
+      "name_zh": "诘问诱敌法",
+      "name_en": "Leading Question Technique",
+      "mode_code": "M204",
+      "category": "论辩方法",
+      "domain_zh": "对话策略/谈判技巧",
+      "domain_en": "Dialogue Strategy / Negotiation Technique",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "先让对方表态或承认前提，再通过连续追问引导其陷入逻辑困境。",
+      "definition_en": "First state their position, then lead them into logical difficulties through continuous questioning.",
+      "source_chapter": "《孟子·梁惠王上》",
+      "key_concepts": ["诱敌", "诘问", "以退为进", "苏格拉底式对话"],
+      "process_zh": [
+        "让对方先陈述立场",
+        "确认对方立场的内在逻辑",
+        "通过连续提问揭示立场的隐含后果",
+        "引导对方发现逻辑矛盾"
+      ],
+      "process_en": [
+        "Let opponent first state their position",
+        "Confirm the internal logic of opponent's position",
+        "Reveal implicit consequences through questioning",
+        "Guide opponent to discover logical contradiction"
+      ],
+      "key_quote_zh": "王何必曰利？亦有仁义而已矣",
+      "key_quote_en": "Why must Your Majesty speak of profit? There is only benevolence and righteousness.",
+      "representative_cases_zh": ["梁惠王论义利"],
+      "modern_applications_zh": ["苏格拉底式对话", "交叉询问与谈判策略"],
+      "modern_applications_en": ["Socratic dialogue", "Cross-examination and negotiation strategy"],
+      "related_modes": ["M203", "M208"]
+    },
+    {
+      "id": "M205",
+      "name_zh": "义利之辨法",
+      "name_en": "Righteousness-Interest Distinction Method",
+      "mode_code": "M205",
+      "category": "价值判断",
+      "domain_zh": "伦理决策/商业伦理",
+      "domain_en": "Ethical Decision-Making / Business Ethics",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "严格区分道义价值与功利计算，主张先义后利。当义利冲突时选择义而非利。",
+      "definition_en": "Strictly distinguishing moral value from utilitarian calculation, righteousness takes priority over interest. Choose righteousness when they conflict.",
+      "source_chapter": "《孟子·告子上》",
+      "key_concepts": ["义利之辨", "舍生取义", "先义后利"],
+      "process_zh": [
+        "识别情境中的义利结构",
+        "区分短期利益与长期道义",
+        "评估各选项的义利权重",
+        "在冲突时坚持义优先原则"
+      ],
+      "process_en": [
+        "Identify righteousness-interest structure in the context",
+        "Distinguish short-term interest from long-term moral value",
+        "Evaluate righteousness-interest weight of each option",
+        "Adhere to righteousness-first principle when conflict arises"
+      ],
+      "key_quote_zh": "鱼，我所欲也；熊掌，亦我所欲也。二者不可得兼，舍鱼而取熊掌者也",
+      "key_quote_en": "Fish is what I desire; bear paw is also what I desire. If both cannot be had, I give up fish and take bear paw.",
+      "representative_cases_zh": ["梁惠王论义利", "舍生取义"],
+      "modern_applications_zh": ["商业伦理与公共政策评估", "个人决策框架"],
+      "modern_applications_en": ["Business ethics and public policy evaluation", "Personal decision-making framework"],
+      "related_modes": ["M201", "M206"]
+    },
+    {
+      "id": "M206",
+      "name_zh": "民本优先级法",
+      "name_en": "People-First Priority Method",
+      "mode_code": "M206",
+      "category": "政治哲学",
+      "domain_zh": "治理理论/政治合法性",
+      "domain_en": "Governance Theory / Political Legitimacy",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "将民众福祉置于政治优先级的最高位置。民为贵，社稷次之，君为轻。",
+      "definition_en": "Placing people's welfare at the highest political priority. The people are most important, the state next, the ruler least.",
+      "source_chapter": "《孟子·尽心下》",
+      "key_concepts": ["民贵君轻", "保民而王", "制民之产"],
+      "process_zh": [
+        "评估政策的民众影响",
+        "优先保障基本生存需求",
+        "在此基础上推行道德教化",
+        "以民众满意度作为政治合法性指标"
+      ],
+      "process_en": [
+        "Assess popular impact of policies",
+        "Prioritize basic survival needs (secure livelihood)",
+        "Implement moral education on this foundation",
+        "Use people's satisfaction as political legitimacy indicator"
+      ],
+      "key_quote_zh": "民为贵，社稷次之，君为轻",
+      "key_quote_en": "The people are most important, the state next, the ruler least.",
+      "representative_cases_zh": ["民贵君轻宣言"],
+      "modern_applications_zh": ["公共政策制定", "政治合法性评估"],
+      "modern_applications_en": ["Public policy making", "Political legitimacy evaluation"],
+      "related_modes": ["M205", "M201"]
+    },
+    {
+      "id": "M207",
+      "name_zh": "养气持志法",
+      "name_en": "Nourishing Qi Method",
+      "mode_code": "M207",
+      "category": "修养工夫",
+      "domain_zh": "心理韧性/道德品格",
+      "domain_en": "Psychological Resilience / Moral Character",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "通过持续道德实践培育浩然之气，使精神力量不为外物所动。",
+      "definition_en": "Cultivating flood-like qi through sustained moral practice, making spiritual strength impervious to external perturbations.",
+      "source_chapter": "《孟子·公孙丑上》",
+      "key_concepts": ["浩然之气", "集义所生", "持志不动心"],
+      "process_zh": [
+        "确认自己的道德志向",
+        "在日常实践中累积义行",
+        "察觉浩然之气的生长征象",
+        "保持意志坚定，不暴其气"
+      ],
+      "process_en": [
+        "Confirm one's moral intention",
+        "Accumulate righteous acts in daily practice",
+        "Perceive signs of qi growth",
+        "Maintain firm will without depleting one's qi"
+      ],
+      "key_quote_zh": "我善养吾浩然之气",
+      "key_quote_en": "I am good at nourishing my flood-like qi.",
+      "representative_cases_zh": ["养气法"],
+      "modern_applications_zh": ["心理韧性训练", "道德品格培养与领导力修养"],
+      "modern_applications_en": ["Psychological resilience training", "Moral character cultivation and leadership development"],
+      "related_modes": ["M201", "M210"]
+    },
+    {
+      "id": "M208",
+      "name_zh": "归谬反驳法",
+      "name_en": "Reductio Ad Absurdum Method",
+      "mode_code": "M208",
+      "category": "论证方法",
+      "domain_zh": "批判思维/逻辑推理",
+      "domain_en": "Critical Thinking / Logical Reasoning",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "假设对方观点正确，推导其逻辑后果，若后果荒诞则原观点错误。",
+      "definition_en": "Assuming opponent's view is correct, derive its logical consequences; if consequences are absurd or unacceptable, the original view fails.",
+      "source_chapter": "《孟子·告子上》",
+      "key_concepts": ["归谬", "反证"],
+      "process_zh": [
+        "清晰表述对手的核心主张",
+        "暂时假设该主张为真",
+        "推导该主张的逻辑后果",
+        "若后果荒诞或矛盾，则归谬成功"
+      ],
+      "process_en": [
+        "Clearly state opponent's core position",
+        "Temporarily assume the position is true",
+        "Derive logical consequences of that position",
+        "If consequences are absurd or contradictory, reductio succeeds"
+      ],
+      "key_quote_zh": "人性之善也，犹水之就下也",
+      "key_quote_en": "The goodness of human nature is like water flowing downward.",
+      "representative_cases_zh": ["与告子辩论人性"],
+      "modern_applications_zh": ["逻辑推理训练", "科学假说检验"],
+      "modern_applications_en": ["Logic reasoning training", "Scientific hypothesis testing"],
+      "related_modes": ["M203", "M204"]
+    },
+    {
+      "id": "M209",
+      "name_zh": "时位变通法",
+      "name_en": "Situational Flexibility Method",
+      "mode_code": "M209",
+      "category": "处世智慧",
+      "domain_zh": "政治外交/领导力灵活应变",
+      "domain_en": "Political Diplomacy / Leadership Adaptability",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "根据时势和身份地位灵活调整行为方式。",
+      "definition_en": "Adapting behavior flexibly according to circumstances and status.",
+      "source_chapter": "《孟子·万章下》",
+      "key_concepts": ["时中", "权变"],
+      "process_zh": [
+        "识别当前时势的特征",
+        "评估自己的身份地位与责任",
+        "判断何时应进取、何时应退守",
+        "根据情境调整行为方式"
+      ],
+      "process_en": [
+        "Identify current circumstances",
+        "Assess one's status and responsibilities",
+        "Judge when to advance and when to retreat",
+        "Adjust methods while keeping principles constant"
+      ],
+      "key_quote_zh": "可以速则速，可以久则久，可以平则平，可以险则险",
+      "key_quote_en": "When speed is appropriate, be quick; when lasting is appropriate, stay long.",
+      "representative_cases_zh": ["孟子评价三位圣人"],
+      "modern_applications_zh": ["危机管理", "政治外交与领导力灵活应变"],
+      "modern_applications_en": ["Crisis management", "Political diplomacy and leadership adaptability"],
+      "related_modes": ["M201", "M210"]
+    },
+    {
+      "id": "M210",
+      "name_zh": "反求诸己法",
+      "name_en": "Self-Reflection Method",
+      "mode_code": "M210",
+      "category": "修养工夫",
+      "domain_zh": "个人成长/冲突解决",
+      "domain_en": "Personal Growth / Conflict Resolution",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "遇到问题或挫折时，首先反省自身而非责怪他人。",
+      "definition_en": "When encountering problems or setbacks, first examine oneself rather than blaming others.",
+      "source_chapter": "《孟子·离娄上》",
+      "key_concepts": ["反求诸己", "正己化人"],
+      "process_zh": [
+        "遭遇挫败时暂停对外归因",
+        "逐项检视自身行为是否合乎道义",
+        "诚实评估自己的动机与努力",
+        "制定修正计划并付诸实践"
+      ],
+      "process_en": [
+        "Pause external attribution when facing setbacks",
+        "Examine whether one's behavior aligns with moral principles",
+        "Honestly assess one's motives and efforts",
+        "Formulate a correction plan and put it into practice"
+      ],
+      "key_quote_zh": "行有不得者，皆反求诸己",
+      "key_quote_en": "When something does not work, examine oneself.",
+      "representative_cases_zh": ["反求诸己"],
+      "modern_applications_zh": ["个人成长与团队建设", "领导力发展与冲突解决"],
+      "modern_applications_en": ["Personal growth and team building", "Leadership development and conflict resolution"],
+      "related_modes": ["M201", "M207"]
+    }
+  ],
+  "meta": {
+    "schema_version": "v6",
+    "generated_at": "2026-09-02T23:45:00+08:00",
+    "total_modes": 10,
+    "mode_range": "M201-M210",
+    "historical_figure": "孟子",
+    "era_standardized": "战国中期（约前372-前289）",
+    "school_tradition": "儒家学派/性善论/仁政学说",
+    "primary_sources": [
+      "《孟子》七篇",
+      "《孟子·告子》上下",
+      "《孟子·公孙丑》上下",
+      "《孟子·梁惠王》上下",
+      "《孟子·尽心》上下"
+    ]
+  }
+}

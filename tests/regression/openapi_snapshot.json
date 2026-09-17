@@ -1,0 +1,156 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Protreptic Thinking Mode Selector API",
+    "version": "1.0.0",
+    "description": "Historical figures thinking modes query and semantic search API"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8000",
+      "description": "Local development"
+    }
+  ],
+  "paths": {
+    "/figures": {
+      "get": {
+        "summary": "List all historical figures",
+        "parameters": [
+          {
+            "name": "era",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "domain",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 1
+            }
+          },
+          {
+            "name": "page_size",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 20
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Paginated list of figures"
+          }
+        }
+      }
+    },
+    "/figures/{code}": {
+      "get": {
+        "summary": "Get figure by code",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "zh",
+                "en"
+              ],
+              "default": "zh"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Figure details"
+          },
+          "404": {
+            "description": "Not found"
+          }
+        }
+      }
+    },
+    "/vector/search": {
+      "post": {
+        "summary": "Semantic search",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "query": {
+                    "type": "string"
+                  },
+                  "lang": {
+                    "type": "string",
+                    "enum": [
+                      "zh",
+                      "en"
+                    ]
+                  },
+                  "top_k": {
+                    "type": "integer",
+                    "default": 5
+                  }
+                },
+                "required": [
+                  "query"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Search results"
+          }
+        }
+      }
+    },
+    "/modes": {
+      "get": {
+        "summary": "List all thinking modes",
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "zh",
+                "en"
+              ],
+              "default": "zh"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of modes"
+          }
+        }
+      }
+    }
+  }
+}

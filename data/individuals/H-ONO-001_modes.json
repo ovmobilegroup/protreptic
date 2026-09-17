@@ -1,0 +1,571 @@
+{
+  "schema_version": "v6",
+  "figure_id": "H-ONO-001",
+  "figure_name": "大野耐一",
+  "figure_code": "H-ONO-001",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-ONO-001",
+      "name_zh": "准时化生产法",
+      "name_en": "Just-in-Time Production",
+      "mode_code": "M-ONO-001",
+      "category": "核心方法",
+      "domain_zh": "生产管理/丰田生产方式",
+      "domain_en": "Production Management / Toyota Production System",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "把'何时生产、生产多少'的决定权交给下游的真实需求，而不是上游的计划与预测：只在需要的时候，按需要的量，生产所需的东西。大野耐一从丰田喜一郎'just in time'构想与美国超市补货机制得到启发——顾客只取所需，货架只补所取。要害有三：其一，JIT的前提是把'提前生产'从美德改判为浪费——过量生产掩盖一切问题、占用资金与人力、孕育不良与陈旧；其二，JIT不是'少库存'的数字游戏，而是'让问题无处藏身'的机制设计：库存降到最低，等待、不良、搬运等浪费立刻浮出水面，成为改善的靶子；其三，JIT依赖整套配套（看板、均衡化、快速换模、自働化），单取'零库存'而弃其余，只会得到停线与断料——大野本人反复警告'一知半解后患无穷'。方法论签名：不要问'还能多生产什么'，要问'还能少生产什么而不缺货'。",
+      "definition_en": "To produce only what is needed, when it is needed, in the amount needed—let downstream demand, not upstream plans, decide when and how much to produce. Ohno's insight from Toyota's supermarket analogy: shelf space (inventory) hides problems; lowering it forces them to surface.",
+      "source_chapter": "《丰田生产方式：超越大规模生产》(1978/1988)第1-2章；丰田喜一郎1938年'just in time'构想",
+      "key_concepts": [
+        "准时化",
+        "JIT",
+        "拉动生产",
+        "过量生产即罪",
+        "需求节拍"
+      ],
+      "process_zh": [
+        "需求定拍：以顾客需求的节拍时间（takt time）倒排各工序产能与人员配置",
+        "流程串联：把孤立孤岛式设备重排为连续流，使物料一件一件流过而不在工序间滞留",
+        "延迟投入：压缩投料批量与提前期，宁可多次小批也不一次大批",
+        "暴露问题：库存下降后出现的断料、不良、瓶颈，不视作JIT失败而视作改善指令"
+      ],
+      "process_en": [
+        "Set takt time from customer demand and size processes and staffing to it",
+        "Rearrange island equipment into continuous one-piece flow so material never waits between processes",
+        "Cut batch sizes and lead times—many small runs instead of one large run",
+        "Treat every shortage, defect and bottleneck exposed by lower inventory as a kaizen assignment, not a JIT failure"
+      ],
+      "key_quote_zh": "只在需要的时候，按需要的量，生产所需的东西——多余的生产不是储备，是犯罪。",
+      "key_quote_en": "Produce only what is needed, when it is needed, in the amount needed—overproduction is not prudence, it is waste of the worst kind.",
+      "representative_cases_zh": [
+        "1950年危机后丰田'削减2000人、日产缩至820台'倒逼出小批量柔性生产：人力未增而产量随特需飙升",
+        "石油危机后（1973）美国三大车厂库存积压亏损，丰田以JIT维持低成本高利润——低增长期反超的转折点",
+        "大野警告'一知半解'企业只抄零库存导致断料停线——JIT必须与看板、均衡化、自働化成套引入"
+      ],
+      "representative_cases_en": [
+        "After the 1950 layoffs (2,000 cut, output cut to 820/day), Toyota's forced flexibility let output soar with Korean War demand at unchanged headcount",
+        "After the 1973 oil crisis the Big Three drowned in inventory while Toyota's JIT kept cost low and profit high—the inflection point of the Japanese advance",
+        "Companies that copied only 'zero inventory' without kanban, heijunka and jidoka suffered line stops—Ohno's own warning against half-knowledge"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-002",
+        "M-ONO-004",
+        "M-ONO-008"
+      ],
+      "modern_applications_en": [
+        "M-ONO-002",
+        "M-ONO-004",
+        "M-ONO-008"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-002",
+      "name_zh": "自働化异常停止法",
+      "name_en": "Jidoka (Autonomation: Stop on Abnormality)",
+      "mode_code": "M-ONO-002",
+      "category": "核心方法",
+      "domain_zh": "生产管理/品质管理",
+      "domain_en": "Production Management / Built-in Quality",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "把'自动停止的智慧'赋予机器与人：一旦出现异常（不良、缺料、故障），设备自动停机、工人有权拉停整线，问题在源头被截住而不流向下游。原理承自丰田佐吉的自动织机——断线即停，一台织机不再需要看守；大野把它升级为带人字旁的'自働化'（自働化，Jidoka）：机器负责'发现异常并停下'，人负责'追究原因并根治'。三不原则是其纪律内核：不接收不良、不制造不良、不传递不良。要害有三：其一，停线不是损失而是投资——停线十分钟的代价远小于一百辆不良车的返工、召回与信誉损失；其二，安灯（andon）把'何时停下'的决定权交给最接近事实的一线工人，质量责任由此分发到每一个人；其三，每次停机都必须连问'为什么'直到 root cause，否则自働化退化为'会停机的机器'而非'会改善的系统'。方法论签名：凡异常，先停、再问、后根治；让系统替你把关，而不是让检验替你补漏。",
+      "definition_en": "Grant machines and people the intelligence to stop automatically on abnormality: jidoka stops equipment (or lets any worker stop the line) at the source of a defect instead of passing it downstream, following Sakichi Toyoda's auto-stop loom—machine detects, human roots out. Never receive, make, or pass on a defect.",
+      "source_chapter": "《丰田生产方式》第1章'自働化'；《丰田生产方式与看板方式》（1977论文）；丰田佐吉G型自动织机原理",
+      "key_concepts": [
+        "自働化",
+        "Jidoka",
+        "安灯",
+        "三不原则",
+        "源流管理"
+      ],
+      "process_zh": [
+        "定义异常：为每道工序写出'何为正常'的标准作业与'何为异常'的判停条件",
+        "赋停于源：给设备装自动判停（限位/传感器/防错），给工人装安灯拉绳——异常发生时任何人都可叫停",
+        "即时响应：班组长按灯赶到，现场确认问题，流线在根治前保持停止",
+        "根治原因：以五个为什么追到根源，修订标准作业，使同类异常不再发生——把停机变成改善的燃料"
+      ],
+      "process_en": [
+        "Write standard work that defines normal and explicit stop conditions for abnormality",
+        "Equip machines with automatic stops (sensors/poka-yoke) and workers with andon cords—anyone may call a halt",
+        "Team leader responds immediately; the line stays stopped until the cause is verified",
+        "Chase the root cause with 5 Whys, revise standard work so the abnormality cannot recur—turn every stop into fuel for improvement"
+      ],
+      "key_quote_zh": "让机器拥有人的智慧——发现异常就停下来；停线不是损失，是系统在替你省钱。",
+      "key_quote_en": "Give machines human intelligence—stop on abnormality. A line stop is not a loss; it is the system saving you from a hundred defects.",
+      "representative_cases_zh": [
+        "丰田佐吉G型织机（1924）：断线自动停机，一工人可看管数十台——自働化的原型",
+        "丰田总装线安灯系统：任何装配工拉绳即全线暂停，班组长60秒内到场——质量在工序内建成而非靠终检",
+        "现代软件的CI/CD快速失败（fail fast）与熔断器模式：测试不过即阻断合并，异常即熔断——自働化的数字直系"
+      ],
+      "representative_cases_en": [
+        "Sakichi Toyoda's Type G loom (1924) stopped on thread breakage, letting one worker tend dozens of machines—the prototype of jidoka",
+        "Toyota's andon system: any assembly worker can halt the line, leader responds within a minute—quality is built in, not inspected in",
+        "Software's fail-fast CI gates and circuit-breaker patterns block merges and stop cascading failures—the digital descendants of jidoka"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-003",
+        "M-ONO-009",
+        "M-ONO-001"
+      ],
+      "modern_applications_en": [
+        "M-ONO-003",
+        "M-ONO-009",
+        "M-ONO-001"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-003",
+      "name_zh": "五问追根法",
+      "name_en": "Five Whys Root-Cause Method",
+      "mode_code": "M-ONO-003",
+      "category": "决策思维",
+      "domain_zh": "问题解决/丰田生产方式",
+      "domain_en": "Problem Solving / TPS",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "任何现场问题的第一反应不是'怎么补救'而是'为什么发生'，并且连问五次——第一层答案永远只是表象：机器停了，因为保险丝烧了；为什么烧了，因为轴承润滑不足；为什么不足，因为油泵吸不上油；为什么吸不上，因为油泵轴磨损；为什么磨损，因为没装滤网让铁屑混入——装上滤网，问题才真正终结；换保险丝，明天还会再停。大野耐一把这方法作为现场的基本功：他在《丰田生产方式》中用'机器停了'的例子亲自示范，并断言'能够反复追问五个为什么吗'是企业与平庸的分界。要害有三：其一，追问的次数不由'五'字锁定而由事实的深度决定——问到人、问到制度、问到设计的假设为止；其二，追到根后必须回到'人'与'标准'：修理是技术员的活，改标准作业与管理方式才是管理者的活；其三，警惕把原因停在'某某疏忽'——追责不是追问，把原因归到个人性格是分析的中途放弃。方法论签名：凡遇故障，先问五个为什么再动手；修表层的病，根因会换一件衣服明天再来。",
+      "definition_en": "When a problem appears, the first response is not 'how to fix' but 'why did it happen'—asked five times. Ohno's classic: machine stopped because fuse blew, because bearing lacked oil, because oil pump failed, because pump shaft worn, because no filter kept chips out—fix the filter or the machine stops again tomorrow.",
+      "source_chapter": "《丰田生产方式：超越大规模生产》(1978/1988)第2章'能够反复追问五个为什么吗'",
+      "key_concepts": [
+        "五个为什么",
+        "根因分析",
+        "表象与根源",
+        "追因不追责",
+        "标准作业修订"
+      ],
+      "process_zh": [
+        "陈述事实：不带评价地写下发生了什么（何时、何处、何现象），禁止'大概是因为'式推测开场",
+        "逐层追问：对每一层答案再问'为什么'，每层用现场证据（现物）验证而非凭记忆作答",
+        "触及根源：问到流程、设计、标准或制度层面——'人疏忽'不是终点，'为什么标准允许疏忽'才是",
+        "根改标准：把结论落成标准作业、防错装置或制度的修改，并到现场确认同类环节——五问以复现消失为完成"
+      ],
+      "process_en": [
+        "State the facts without evaluation—when, where, what phenomenon; no speculation",
+        "Ask 'why' of each answer, verifying each layer with physical evidence on the gemba",
+        "Push through to process, design, standard or institution—'human error' is not a root cause",
+        "Convert the finding into revised standard work, poka-yoke or policy, and confirm on the floor that the failure no longer recurs"
+      ],
+      "key_quote_zh": "机器停了不要只换保险丝——连问五个为什么，让同样的故障永远失去再来一次的资格。",
+      "key_quote_en": "Don't just replace the fuse when the machine stops—ask why five times, so the same failure never gets a second chance.",
+      "representative_cases_zh": [
+        "大野现场案例：油路无滤网致油泵磨损致保险丝烧毁——装滤网而非换保险丝，故障根除",
+        "丰田质量文化：任何停线事故的班组长复盘必须写满五问链，'临时措施'条目单独列示并限期根改",
+        "软件运维的事故复盘（Blameless Postmortem）：'服务器宕机'层层追问至'发布流程缺少灰度'——五问法成为SRE的标配纪律"
+      ],
+      "representative_cases_en": [
+        "Ohno's own workshop case: no filter → worn pump → blown fuse; install the filter, kill the failure class",
+        "Toyota requires a full 5-Whys chain in every line-stop review, with temporary measures listed separately and given a deadline for permanent fix",
+        "Blameless postmortems in software ops chain 'server down' down to 'no staged rollout'—5 Whys is now standard SRE discipline"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-007",
+        "M-ONO-009",
+        "M-ONO-002"
+      ],
+      "modern_applications_en": [
+        "M-ONO-007",
+        "M-ONO-009",
+        "M-ONO-002"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-004",
+      "name_zh": "七大浪费清单法",
+      "name_en": "Seven Wastes (Muda) Enumeration",
+      "mode_code": "M-ONO-004",
+      "category": "分析工具",
+      "domain_zh": "生产管理/精益思想",
+      "domain_en": "Production Management / Lean Thinking",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "把'效率'从模糊口号变成逐项可查的清单：大野耐一在《丰田生产方式》中把生产现场的一切非增值活动归为七类浪费——(1)过量生产（生产了卖不掉或暂时不需要的东西，万恶之首）；(2)库存（原料、在制品、成品积压，掩盖一切问题的海绵）；(3)搬运（物料在工序间的无谓移动）；(4)等待（人等机器、机器等人、上工序延误）；(5)多余动作（弯腰、转身、重复找料等不增值的身体动作）；(6)过度加工（超出顾客需求的精度与工序）；(7)不良与返工。方法威力在于'暴露'：传统管理把库存与提前生产当作安全垫，大野把它们改判为浪费，于是安全垫下的等待、不良、瓶颈全部显形。要害有三：其一，判据是顾客——顾客愿意付钱的才是增值，其余皆可怀疑；其二，'动作'与'工作'必须分开：表面上在忙的动作大半是浪费（大野：'工作=动作+前进，动作只是浪费的分母'）；其三，清点浪费是起点不是终点——列出清单后要按影响排序逐项改善，否则清单沦为墙上的标语。方法论签名：不要笼统地'提效'，先给浪费点名；点得出名的敌人，才打得到。",
+      "definition_en": "Turn 'efficiency' into an auditable checklist: Ohno named the seven wastes—overproduction (worst), inventory, transport, waiting, needless motion, over-processing, defects. The move is reclassification: inventory and early production, once virtues (safety cushions), are recast as wastes, exposing the problems they hid.",
+      "source_chapter": "《丰田生产方式：超越大规模生产》(1978/1988)第2章'对浪费进行彻底分析'",
+      "key_concepts": [
+        "七大浪费",
+        "Muda",
+        "增值判据",
+        "动作与工作之分",
+        "暴露问题"
+      ],
+      "process_zh": [
+        "定增值：以'顾客是否愿意为此付钱'为唯一判据，把现场活动粗分为增值/非增值",
+        "逐类清点：按七类浪费逐一巡查现场，记录频次、耗时与占比，不凭印象打分",
+        "区分层次：把'浪费'再分为可立即消除的、需工艺改造的、需系统重构的三层，避免一刀切",
+        "排序进攻：按'过量生产与库存优先'的次序逐项改善——每消除一项，下一项自动显形，循环不止"
+      ],
+      "process_en": [
+        "Use 'would the customer pay for this?' as the sole value test; classify activities as value-adding or not",
+        "Walk the floor auditing each of the seven wastes with frequency, time and share—not impressions",
+        "Tier findings into immediately removable, process-rework, and system-redesign layers",
+        "Attack in order, overproduction and inventory first—each removal exposes the next, and the cycle continues"
+      ],
+      "key_quote_zh": "生产过多就是浪费之首——库存是掩盖一切问题的海绵，把它拧干，问题自己会跳出来。",
+      "key_quote_en": "Overproduction is the worst waste; inventory is the sponge that hides every problem. Wring it out and the problems will jump out on their own.",
+      "representative_cases_zh": [
+        "丰田现场以'生产过多即罪'标语取代'多劳多得'——车间日报从'产量'改报'库存周转与停线次数'",
+        "大野'动作与工作'之辨：让工人在车床旁抄手等待被改为一机多台看管——表面忙碌被重新定价为浪费",
+        "服务与办公场景移植：软件开发把'写没人用的功能''交接等待''过度文档'列为七浪费的数字版（精益软件运动）"
+      ],
+      "representative_cases_en": [
+        "Toyota shop floors replaced 'produce more' slogans with 'overproduction is sin'; daily reports shifted from output to inventory turns and line stops",
+        "Ohno's motion-vs-work distinction turned idle watching at a lathe into multi-machine tending—apparent busyness repriced as waste",
+        "Lean software movements ported the seven wastes as unused features, handoff waits, and over-documentation"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-001",
+        "M-ONO-008",
+        "M-ONO-006"
+      ],
+      "modern_applications_en": [
+        "M-ONO-001",
+        "M-ONO-008",
+        "M-ONO-006"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-005",
+      "name_zh": "看板拉动补货法",
+      "name_en": "Kanban Pull System",
+      "mode_code": "M-ONO-005",
+      "category": "核心方法",
+      "domain_zh": "生产管理/信息系统",
+      "domain_en": "Production Management / Information & Control Systems",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "用一张卡片实现'超市式生产'：下游从上游取走货时附上传票（看板），上游只见看板才生产同等数量——生产的唯一指令不是计划科的生产表，而是下游实际取用的信号。大野耐一1951-52年受美国超市启发：货架只补'被顾客取走'的部分，绝无多余；他把这一机制倒转流水线的'推送'逻辑为'拉动'——信息流逆着物流走，库存自然被钳制在使用速度上。看板六规则是其纪律内核：不向下道工序发送不良品；下道工序按需到上道工序取货；只生产被取走的数量；均衡化生产；看板是微调手段（计划只作参考）；使工序稳定化、合理化。要害有三：其一，看板首先是'改善的探针'——在制品看板数量的递减会立刻暴露供应环节的薄弱处；其二，看板必须是实物化的规则而非报表——卡片随物料走，信息与物料永不分离；其三，没有均衡化与快速换模支撑的拉动必然崩塌，看板是系统的神经而非心脏。方法论签名：凡供给问题，先问'指令从哪里来'——把推送改成拉动，过剩与短缺同时消失。",
+      "definition_en": "Run production like a supermarket: downstream withdraws parts with a kanban card; upstream produces only what the card authorizes. Ohno inverted mass-production's push logic into pull—information flows against the material flow, and inventory is clamped to consumption speed. The six kanban rules: no defects downstream, withdraw only what is needed, produce only what was withdrawn, level the load, kanban as fine adjustment, stabilize the process.",
+      "source_chapter": "《丰田生产方式》第3章'何谓看板'；《看板：丰田的准时制》(1989)；1977年IJPR论文",
+      "key_concepts": [
+        "看板",
+        "拉动",
+        "推送与拉动",
+        "超市方式",
+        "在制品限额"
+      ],
+      "process_zh": [
+        "设定取货点：以工序间小货架为缓冲，明确每格存放量与看板枚数（在制品上限）",
+        "随物附票：看板与物料箱同行——取货凭取货看板，生产凭生产看板，无票不取、无票不产",
+        "均衡投频：以均衡化把生产切为小批量多频次，使看板得以高频循环而不积压",
+        "递减探针：定期减少看板枚数，观察何处暴露瓶颈与等待——暴露即改善对象，改善后再减，循环逼近最优"
+      ],
+      "process_en": [
+        "Set withdrawal points with small buffers; fix slot capacity and kanban count as WIP caps",
+        "Cards travel with containers: withdraw by withdrawal kanban, produce by production kanban—no card, no action",
+        "Level production into small frequent batches so kanban cycles fast without piling up",
+        "Periodically remove kanban to expose the weakest link—improve it, then remove more, converging on the true optimum"
+      ],
+      "key_quote_zh": "仓库不接计划科的命令，只接下道工序的看板——让需求的信号逆流而上，过剩与短缺一起消失。",
+      "key_quote_en": "The warehouse takes no orders from planning; it takes kanban from the next process. Let demand signals flow upstream, and surplus and shortage vanish together.",
+      "representative_cases_zh": [
+        "丰田机械加工线1950年代以看板取代部件计划表：机械车间按总装取用节奏生产，中间库存下降一个量级",
+        "大野'超市方式'原型：1951-52年参观美国超市后把'补货'机制写入刘谷工厂——Pull概念的诞生现场",
+        "软件看板方法（David Anderson）：以'在制品限额+拉动'管理开发流程，可视化与限流直接承自生产看板"
+      ],
+      "representative_cases_en": [
+        "In the 1950s Toyota machine shops replaced parts schedules with kanban, producing to the pace of final assembly and cutting intermediate stock by an order of magnitude",
+        "Ohno's 'supermarket system': inspired by US supermarkets in 1951-52, restocked the Koromo plant by pull—the birthplace of the pull concept",
+        "David Anderson's Kanban Method applies WIP limits and pull to software—visualization and limiting directly inherited from shop-floor kanban"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-001",
+        "M-ONO-006",
+        "M-ONO-004"
+      ],
+      "modern_applications_en": [
+        "M-ONO-001",
+        "M-ONO-006",
+        "M-ONO-004"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-006",
+      "name_zh": "均衡化削峰法",
+      "name_en": "Heijunka (Production Leveling)",
+      "mode_code": "M-ONO-006",
+      "category": "核心方法",
+      "domain_zh": "生产管理/排程",
+      "domain_en": "Production Management / Scheduling & Leveling",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "在'大批量单一品种'与'随订单波动生产'之间走出第三条路：把产量与品种在时间轴上削峰填谷，以小批量、多频次、混合排程让每个时段的负荷近乎恒定。大野耐一的洞见：波动本身就是成本——需求高峰逼出加班与赶工，低谷制造等待与库存，而'均衡化'让波动被节拍吸收而非被库存掩盖。要害有三：其一，均衡化是JIT与看板的隐形地基——没有稳定节拍，看板要么溢出要么断流；其二，均衡化以'快速换模'为前提：品种切换若昂贵，小批量混合就无从谈起（SMED把换模从数小时压到数分钟即为此服务）；其三，均衡化不等于平均主义——它以标准化作业与多能工为弹性来源，在恒定节拍内仍可响应优先级。要义签名：与其练出应付高峰的肌肉，不如磨平高峰本身；产能建设贵在'削谷峰'而非'备峰值'。",
+      "definition_en": "Between 'huge single-product batches' and 'chaotic order-chasing' lies the third way: level volume and mix across time so load per period is nearly constant. Ohno saw variation itself as cost—peaks force overtime, valleys breed waiting and inventory. Heijunka is the hidden foundation of JIT and kanban, enabled by quick changeover (SMED) and multi-skilled workers.",
+      "source_chapter": "《丰田生产方式》第3-4章'向均衡化挑战''均衡化与多样化'",
+      "key_concepts": [
+        "均衡化",
+        "Heijunka",
+        "小批量多频次",
+        "快速换模",
+        "混合排程"
+      ],
+      "process_zh": [
+        "平滑总量：把月度需求拆为日需求，把日需求拆为节拍，先均衡产量再均衡品种",
+        "混合排程：在同一产线上按A-B-A-C序列交替生产多品种，避免'做完所有A再做所有B'",
+        "压缩切换：以SMED分离内部换模与外部换模，把切换时间压至分钟级，使小批量经济可行",
+        "节拍监护：以标准作业与在制品上限守住节拍，异常（插单、缺料）走安灯升级而非打乱全线节拍"
+      ],
+      "process_en": [
+        "Spread monthly demand into daily takt; level volume first, then mix",
+        "Interleave models (A-B-A-C) on shared lines instead of running all A's then all B's",
+        "Apply SMED—separate internal from external changeover—to make frequent small batches economic",
+        "Guard the takt with standard work and WIP caps; route disruptions (rush orders, shortages) through andon escalation, not takt-breaking"
+      ],
+      "key_quote_zh": [
+        "丰田总装线以'A-B-C-D'混流取代'月度单车型大批量'——切换频繁但库存与加班同降，1970年代订单波动中依然稳产",
+        "快速换模（SMED）运动：新乡重夫以'内作业外作业分离'把千吨冲床换模从4小时压到3分钟——均衡化的使能技术",
+        "知识工作移植：开发团队以'每迭代混流多任务+限在制品'替代'攒大批需求集中冲刺'——均衡化进入敏捷",
+        "电力与算力调度：以削峰填谷的电价/负载均衡思想管理数据中心负载——同一方法论的工程表达"
+      ],
+      "key_quote_en": "与其练出应付高峰的肌肉，不如磨平高峰本身——波动的成本永远高于均衡的切换成本。",
+      "representative_cases_zh": "Level the load: the cost of variation always exceeds the cost of more frequent changeovers.",
+      "representative_cases_en": [
+        "Toyota final assembly interleaved models instead of monthly single-model runs—more changeovers, but inventory and overtime both fell, staying stable through 1970s demand swings",
+        "Shigeo Shingo's SMED cut press changeover from 4 hours to 3 minutes—the enabling technology of leveling",
+        "Agile teams level workload with mixed tasks per iteration and WIP limits instead of batch-and-crunch cycles",
+        "Peak-shaving in power and compute scheduling—load-leveling data-center demand, the same method in engineering form"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-005",
+        "M-ONO-008",
+        "M-ONO-001"
+      ],
+      "modern_applications_en": [
+        "M-ONO-005",
+        "M-ONO-008",
+        "M-ONO-001"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-007",
+      "name_zh": "三现现场求真法",
+      "name_en": "Gemba Three-Actuals (Genba-Genbutsu-Genjitsu)",
+      "mode_code": "M-ONO-007",
+      "category": "认识论",
+      "domain_zh": "管理哲学/现场主义",
+      "domain_en": "Management Philosophy / Gemba Epistemology",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "认识论的三现主义：现场（genba，问题发生的地方）、现物（genbutsu，出问题的实物）、现实（genjitsu，实际发生的事实）——一切判断必须回到这三者，而非报表、汇报、回忆与想象。大野耐一自称'彻底的现场主义者'：'与其在领导办公室内冥思苦想，倒不如到生产现场的各个角落，直接获得第一手的生产信息和感受直接的刺激。'他本人常年站在车间观察，从'工人抄手等车床'的瞬间看穿了一人一机的荒废。要害有三：其一，现场优先于数据——数据是二手的、滞后的、可被美化的，实物与动作不会说谎；其二，现物优先于描述——'零件总出问题'的描述毫无价值，拿着不良品追工序才有价值；其三，现实优先于假设——问'为什么'时每层都要到现场验证，而不是在会议室里完成逻辑推理。这与他'五个为什么'构成认识论闭环：三现提供一手证据，五问提供因果深挖。方法论签名：凡争论与悬案，先起身去现场；谁离现场最远，谁的判断最贵。",
+      "definition_en": "Epistemology of the three actuals: go to the gemba (where it happens), take up the genbutsu (the actual thing), face the genjitsu (the actual facts)—never judge from reports, memos, or imagination. Ohno called himself 'a thorough gemba-ist': on the floor you get first-hand information and direct stimulus.",
+      "source_chapter": "《丰田生产方式》第2章'我的现场主义'；《现场管理》训示；大野耐一访谈录",
+      "key_concepts": [
+        "三现主义",
+        "现场",
+        "现物",
+        "现实",
+        "一手信息"
+      ],
+      "process_zh": [
+        "起身去现场：接到问题先到问题发生地——办公室与会议室的讨论一律后置",
+        "手拿现物：把不良品、故障件、单据等实物拿到手上，沿它的路径走一遍工序",
+        "对照现实：核对实际发生的动作与标准作业的差异，记录真实节拍而非计划节拍",
+        "就地决断：在现场形成结论并当场布置改善，回办公室只做文档化——判断与行动共享同一现场"
+      ],
+      "process_en": [
+        "Go to the place where the problem occurs before any discussion",
+        "Take the actual defective part or document in hand and walk its process path",
+        "Compare actual motions and takt against standard work—record reality, not plan",
+        "Decide on the spot and assign improvements there; the office is for documentation only"
+      ],
+      "key_quote_zh": "有了疑问，感到困难或寻找启示时，只要到现场去就行——现场是学习的场所，好坏一眼便知。",
+      "key_quote_en": "When in doubt or seeking inspiration, just go to the gemba—it is the place of learning, and truth is visible at a glance.",
+      "representative_cases_zh": [
+        "大野在刘谷车间观察'车工抄手等待'，当场设计一人多机看管——三现主义的经典产出",
+        "丰田高管培训传统：新任董事被派到车间站三天，'先看懂一条线再谈经营'——现场教育制度",
+        "数字化时代的反弹：仪表盘治理的失效使'walk the floor''genba walk'重新成为管理咨询标配"
+      ],
+      "representative_cases_en": [
+        "Ohno watched a lathe operator stand idle and designed multi-machine tending on the spot—classic gemba output",
+        "Toyota tradition: new directors spend days on the shop floor—understand one line before discussing strategy",
+        "The dashboard-fatigue backlash has made gemba walks standard again even in knowledge industries"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-003",
+        "M-ONO-009",
+        "M-ONO-004"
+      ],
+      "modern_applications_en": [
+        "M-ONO-003",
+        "M-ONO-009",
+        "M-ONO-004"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-008",
+      "name_zh": "标准作业改善螺旋法",
+      "name_en": "Standardized Work and Kaizen Spiral",
+      "mode_code": "M-ONO-008",
+      "category": "综合方法论",
+      "domain_zh": "生产管理/持续改善",
+      "domain_en": "Production Management / Continuous Improvement",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "把'标准'与'改善'从对立变为螺旋：标准作业是当前已知的最安全、最省力、最有效率的作业方法（由作业者与班组长共同编写，含节拍时间、作业顺序、标准手持三要素）；但标准不是天花板而是地板——它是下一次改善的基线。大野耐一的表述：'今天的标准必须在明天被改善。'要害有三：其一，标准必须由做的人参与编写——自上而下颁发的标准只是文件，只有执笔者自己的标准才会被遵守和怀疑；其二，标准是暴露异常的参照系——没有标准，'异常'无从定义，自働化与安灯都失去判据；其三，改善的主体是一线：大野用'提出改善建议'的激励把每个工人变成研究者，改善成果经确认即升为新标准，螺旋上升永无终点。方法论签名：凡流程，先立可遵守的标准，再立'标准皆可质疑'的机制；标准与改善互为对方的地基。",
+      "definition_en": "Standardized work is the current best-known, safest, least wasteful method (takt, sequence, standard in-hand)—written with the workers themselves. But today's standard must be improved tomorrow: it is a floor, not a ceiling. Standards make abnormality definable (enabling jidoka and andon); kaizen by the line raises the standard, and the spiral never ends.",
+      "source_chapter": "《丰田生产方式》第2章'亲自动手制作标准作业表'；《现场管理》改善诸训",
+      "key_concepts": [
+        "标准作业",
+        "改善",
+        "Kaizen",
+        "节拍-顺序-手持",
+        "一线主体"
+      ],
+      "process_zh": [
+        "共写标准：作业者与班组长一起实测节拍、定作业顺序与标准手持，画成贴在现场的标准作业表",
+        "以标判异：培训全员把'偏离标准'视为异常信号——安灯、停线、五问皆以标准为参照",
+        "一线提案：建立低成本、高响应的改善提案通道，采纳率优先于奖金强度",
+        "螺旋回写：改善经验证即更新标准作业表并全员再培训，日期与版本留在现场——螺旋的每一圈都留痕"
+      ],
+      "process_en": [
+        "Co-write the standard: operators and leaders measure takt, sequence and in-hand stock, posted as a sheet at the station",
+        "Train everyone to treat deviation from standard as an abnormality feeding andon, stops and 5 Whys",
+        "Run a low-friction, fast-response kaizen suggestion loop; adoption rate matters more than prize size",
+        "Verified improvements are written back as new standards with dates and versions visible at the station"
+      ],
+      "key_quote_zh": "今天的标准是明天改善的起点——不遵守标准的现场没有秩序，不容许改善标准的现场没有未来。",
+      "key_quote_en": "Today's standard is tomorrow's starting point: a floor that ignores standards has no order; a floor that forbids improving them has no future.",
+      "representative_cases_zh": [
+        "丰田标准作业表由班长与作业者手绘并签名更新——几十年间同一工位的表格版本迭代数百次",
+        "大野'改善提案'制度：高峰期年提案数十万件、采纳率超九成——一线智慧的制度化收割",
+        "敏捷 retrospect 与 SRE runbook：迭代回顾改 runbook、runbook 界定异常——同构的标准-改善螺旋"
+      ],
+      "representative_cases_en": [
+        "Toyota standard-work sheets, hand-drawn and signed by leaders and operators, iterate hundreds of versions per station",
+        "Toyota's suggestion system harvested hundreds of thousands of ideas yearly with over 90% adoption",
+        "Agile retrospectives updating runbooks, runbooks defining anomalies—same spiral in software"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-002",
+        "M-ONO-007",
+        "M-ONO-010"
+      ],
+      "modern_applications_en": [
+        "M-ONO-002",
+        "M-ONO-007",
+        "M-ONO-010"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-009",
+      "name_zh": "限制暴露机会法",
+      "name_en": "Expose Problems by Removing Buffers",
+      "mode_code": "M-ONO-009",
+      "category": "决策思维",
+      "domain_zh": "系统改善/问题发现",
+      "domain_en": "System Improvement / Problem Surfacing",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "反直觉的第三条路：当系统潜伏着看不见的问题时，不要加保险、加库存、加人手去'稳住'它，而要主动撤掉缓冲——降库存、缩批次、减在制品——让问题在水落石出中显形。大野耐一的方法论签名：库存是掩盖问题的海绵，安全垫是推迟诊断的麻醉剂；'把问题当成朋友'，因为只有显形的问题才能被改善，被掩盖的问题会在看不见处复利。他1950年在劳资危机的被迫裁员中反势而行：人少了，就把生产方式改到不需要多余的人；库存空间小，就把看板数量降到刚好暴露断料的边缘。要害有三：其一，撤缓冲必须配自働化与快速响应，否则暴露即灾难——先装安灯，再降库存；其二，暴露要有次序：一次撤一层，每层都伴随五问与标准修订，像剥洋葱而非塌方；其三，判断力在于区分'改善的疼痛'与'系统的失血'——前者是痉挛，后者是崩溃，领导者要会分辨。方法论签名：凡系统迟钝，先问'是什么缓冲在养着它'，然后把缓冲变成改善的路标。",
+      "definition_en": "Counterintuitive move: when hidden problems plague a system, don't add buffers (stock, staff, safety)—remove them. Inventory is the sponge that hides problems; buffers are anesthesia delaying diagnosis. Ohno cut inventory and WIP to the edge of exposure so problems surfaced where they could be fixed—provided jidoka and rapid response were in place first, and exposure proceeded one layer at a time.",
+      "source_chapter": "《丰田生产方式》第1-2章；1950年危机后丰田现场变革；'库存是万恶之源'训示",
+      "key_concepts": [
+        "暴露问题",
+        "降缓冲",
+        "库存是海绵",
+        "改善的疼痛",
+        "先防护后暴露"
+      ],
+      "process_zh": [
+        "盘点缓冲：列出系统中的库存、冗余人手、延期与'安全余量'，标注各自掩盖着什么",
+        "先装保险：在撤缓冲之前落实快速暴露与响应机制（监控、安灯、值班、复盘）——无防护不撤垫",
+        "逐层撤垫：每次只撤一层缓冲，观察系统反应，用五问处理浮出的问题并修订标准",
+        "区分疼痛与失血：判断暴露出的问题是改善性痉挛（可继续）还是系统性崩溃（回撤一层并改路径）"
+      ],
+      "process_en": [
+        "Inventory all buffers—stock, slack staff, deferrals, safety margins—and note what each one hides",
+        "Install exposure and response mechanisms (monitoring, andon, on-call, review) before removing any buffer",
+        "Remove one layer at a time; handle each surfaced problem with 5 Whys and a standard revision",
+        "Distinguish kaizen pain (spasm—continue) from systemic collapse (hemorrhage—step back and reroute)"
+      ],
+      "key_quote_zh": "把问题当朋友——被库存掩盖的问题不会消失，只会在看不见的地方生利息。",
+      "key_quote_en": "Treat problems as friends: problems buried under inventory do not die; they compound where you cannot see them.",
+      "representative_cases_zh": [
+        "丰田1950危机：裁员与减产的压力被转化为'把多余动作和多余库存全部挤出'的系统再造——绝境成为设计条件",
+        "看板数量递减演练：大野训练班组长'减到刚出问题为止'，问题点即改善清单——暴露成为例行训练",
+        "现代云架构的混沌工程（Chaos Engineering）：主动注入故障以暴露系统弱点——同一方法论的数字版，'先装熔断再撤冗余'完全同构"
+      ],
+      "representative_cases_en": [
+        "Toyota's 1950 crisis turned forced retrenchment into a systemic redesign that squeezed out slack—hardship as design condition",
+        "Kanban-reduction drills: cut cards until a problem appears; the surfaced problem becomes the improvement list—exposure as routine training",
+        "Chaos engineering in cloud systems injects failures to surface weaknesses after circuit breakers exist—the same method, digital form"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-005",
+        "M-ONO-003",
+        "M-ONO-002"
+      ],
+      "modern_applications_en": [
+        "M-ONO-005",
+        "M-ONO-003",
+        "M-ONO-002"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-ONO-010",
+      "name_zh": "尊重人性赋能法",
+      "name_en": "Respect for Humanity: Empowering the Line",
+      "mode_code": "M-ONO-010",
+      "category": "综合方法论",
+      "domain_zh": "组织理论/劳动哲学",
+      "domain_en": "Organizational Theory / Philosophy of Work",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "效率与人性不是对立而是同构：大野耐一把TPS自称'准时化与尊重人性的系统'——尊重人性不是福利口号，而是一条生产性原理：让操作者'带着智慧工作'，即把发现问题、停止产线、提案改善的权力交给离事实最近的人，用人的智慧吸收系统的不确定性，替代用库存与加班吸收。要害有三：其一，授权必须实物化——安灯拉绳、看板规则、改善提案箱都是权力的物理形态，写在墙上叫口号，握在手里才叫权力；其二，'多用智慧，少费汗水'：大野反对把省力（少流汗）与劳动强化（多消耗神经）混为一谈，改善的目标是让汗水变智慧而非让动作更疯狂；其三，人员弹性靠培养多能工——一人多机多工序既是效率设计也是能力尊重，被训练出多技能的工人在危机中更有安全感而非更少。方法论签名：凡效率工程，先问'这一步是消耗了人还是开发了人'；把人当成本的系统，效率的天花板就是人的忍耐。",
+      "definition_en": "Efficiency and humanity are isomorphic: Ohno called TPS 'a system of just-in-time and respect for humanity.' Empower the line with real, physical authority—the andon cord, kanban rules, suggestion boxes are power in material form. 'Use wisdom, not sweat': improvement should turn sweat into intelligence. Multi-skilling is both an efficiency design and a form of respect—versatile workers are safer, not more expendable, in crisis.",
+      "source_chapter": "《丰田生产方式与看板方式》(1977论文副题'respect-for-human system')；《现场管理》人员诸训；多能工制度",
+      "key_concepts": [
+        "尊重人性",
+        "智慧与汗水",
+        "多能工",
+        "一线授权",
+        "实物化权力"
+      ],
+      "process_zh": [
+        "盘点授权清单：列出'哪些决定本应由一线做而现在层层上报'，逐项设计实物化的授权工具",
+        "能力储备：以多能工轮训（岗位轮换矩阵）让每人掌握多道工序——弹性与安全感同源",
+        "智慧回收：改善提案必答'你从这一改善学到什么'，把个体经验转为组织标准（与标准作业螺旋对接）",
+        "保卫改善果实：改善省下的人力不裁员而转训、转岗——否则工人学会的第一课是'改善等于失业'，授权体系即告瓦解"
+      ],
+      "process_en": [
+        "List decisions now escalated that should belong to the line, and build physical tools that grant each one",
+        "Rotate workers through a skills matrix so each masters multiple processes—flexibility and security from the same source",
+        "Require each improvement to state what was learned, folding individual insight into organizational standards",
+        "Never lay off workers freed by kaizen—retrain and redeploy them, or the workforce learns that improvement means unemployment and empowerment dies"
+      ],
+      "key_quote_zh": [
+        "安灯系统的心理学效果：工人从'流水线的附属'变为'质量的守门人'——丰田离职率与不良率同步下降",
+        "多能工制度：1950年代车工轮训多机床多工序——劳资危机中丰田以'转岗不裁员'换取工会接受变革",
+        "知识组织移植：谷歌'20%时间'与丰田改善提案同构——把授权写成制度而非愿景；反之，把'精益'实施成裁员工具的企业普遍失败，正证其反例"
+      ],
+      "key_quote_en": "凡效率工程，先问这一步是消耗了人还是开发了人——把人当成本的系统，效率的天花板就是人的忍耐。",
+      "representative_cases_zh": "Ask of any efficiency scheme whether it consumes people or develops them; a system that treats people as cost is capped by human endurance.",
+      "representative_cases_en": [
+        "The andon cord changed workers from line appendages into gatekeepers of quality—attrition and defects fell together",
+        "Multi-skilling plus no-layoff redeployment won union acceptance for the 1950s transformations",
+        "Knowledge-organization analogs (Google's 20% time) empower by institution; companies that deploy 'lean' as a layoff tool reliably fail—the counterexample proves the rule"
+      ],
+      "modern_applications_zh": [
+        "M-ONO-008",
+        "M-ONO-002",
+        "M-ONO-007"
+      ],
+      "modern_applications_en": [
+        "M-ONO-008",
+        "M-ONO-002",
+        "M-ONO-007"
+      ],
+      "related_modes": []
+    }
+  ]
+}

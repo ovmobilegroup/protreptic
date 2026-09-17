@@ -1,0 +1,336 @@
+{
+  "schema_version": "v6",
+  "code": "H-HZ-001",
+  "figure_name": "黄宗羲",
+  "figure_pinyin": "Huáng Zōng-xī",
+  "era": "明末清初 / Late Ming-Early Qing (1610-1695)",
+  "historical_domains": [
+    "浙东学派 / Zhejiang East School",
+    "阳明心学 / Yangming School of Mind",
+    "实学思潮 / Practical Learning Movement",
+    "政治启蒙 / Political Enlightenment"
+  ],
+  "domains": [
+    "政治哲学 / Political Philosophy",
+    "伦理学 / Ethics",
+    "经济思想 / Economic Thought",
+    "教育思想 / Educational Philosophy",
+    "史学理论 / Historiography"
+  ],
+  "core_modes": [301, 302, 303, 304, 305, 306, 307, 308, 309, 310],
+  "gender": "Male",
+  "ethnicity": "Chinese",
+  "unique_thinking": "以气本论为哲学基础，以民主君客为政治核心，以实学经世为方法论。黄宗羲思维体系以'气-政-学'三维一体为特色，五大独特特征：本体论革新（理为气之理，消解超越性）、政治启蒙（天下为主君为客，主权在民）、制度优先（不依赖圣德依赖制度）、学术多元（一本万殊，反对以水济水）、实学导向（经世致用，实事求是）。",
+  "mode_definitions": [
+    {
+      "id": "M301",
+      "name_zh": "气本论思维",
+      "name_en": "Qi-Base Ontology Method",
+      "mode_code": "M301",
+      "category": "本体论",
+      "domain_zh": "形而上学/气学",
+      "domain_en": "Metaphysics / Qi Ontology",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "理为气之理，无气则无理。气是宇宙本体，理是气之条理。批判程朱理学'理先气后'的超越性，主张理内在于气化流行之中。此命题消解了德性之知与见闻之知的形上学基础，使经验知识获得本体论地位，为经史之学奠定哲学根基。",
+      "definition_en": "Li is the principle of Qi; without Qi there is no Li. Qi is the ontological substance of the universe, Li is the order within Qi's transformation.",
+      "key_concepts": ["气", "理", "理为气之理", "无气则无理", "盈天地皆气"],
+      "process_zh": [
+        "承认气的本原地位，否定理的超越性",
+        "理解理是气之条理而非独立实体",
+        "将经验知识纳入本体论框架",
+        "为经史实学建立哲学基础"
+      ],
+      "process_en": [
+        "Acknowledge the primacy of Qi, deny transcendence of Li",
+        "Understand Li as the order within Qi, not an independent entity",
+        "Integrate empirical knowledge into ontological framework",
+        "Establish philosophical foundation for practical learning"
+      ],
+      "key_quote_zh": "理为气之理，无气则无理",
+      "key_quote_en": "Li is the principle of Qi; without Qi there is no Li",
+      "related_modes": ["M302", "M306", "M309"],
+      "historical_examples": ["批判程朱理学", "建立气学体系", "为实学奠基"],
+      "modern_applications": ["系统思维", "物质基础分析", "实证主义方法论"]
+    },
+    {
+      "id": "M302",
+      "name_zh": "民主君客思维",
+      "name_en": "Democratic Governance Method",
+      "mode_code": "M302",
+      "category": "政治哲学",
+      "domain_zh": "政治理论/民主思想",
+      "domain_en": "Political Theory / Democratic Thought",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "天下为主，君为客。君主的合法性来源于服务天下万民，而非君临天下。批判后世君主'以天下之利尽归于己'，提出'为天下之大害者，君而已矣'。此命题颠覆传统君臣关系，将主权从君主转移至天下百姓，是中国政治思想史上最具启蒙性质的民主宣言。",
+      "definition_en": "'At the beginning of existence, people are self-interested.' The people are the masters; the ruler is the guest. The ruler's legitimacy derives from serving the people.",
+      "key_concepts": ["天下为主", "君为客", "君为民害", "主权在民", "公利"],
+      "process_zh": [
+        "承认人性的自私自利是自然状态",
+        "推导君主职位的公共服务本质",
+        "批判以天下奉一人的专制逻辑",
+        "确立以天下万民为主体的政治秩序"
+      ],
+      "process_en": [
+        "Acknowledge human self-interest as natural state",
+        "Derive public service nature of rulership",
+        "Critique autocratic logic of serving one person",
+        "Establish political order with people as subjects"
+      ],
+      "key_quote_zh": "天下为主，君为客",
+      "key_quote_en": "The people are the masters; the ruler is the guest",
+      "related_modes": ["M303", "M305", "M307"],
+      "historical_examples": ["《原君》批判专制", "主权在民思想", "学校议政主张"],
+      "modern_applications": ["公共服务伦理", "民主理论建构", "权力制约机制"]
+    },
+    {
+      "id": "M303",
+      "name_zh": "实学经世思维",
+      "name_en": "Practical Statecraft Method",
+      "mode_code": "M303",
+      "category": "方法论",
+      "domain_zh": "经世致用/实用主义",
+      "domain_en": "Statecraft / Pragmatism",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "经世致用，实事求是。反对空谈心性，主张学问必须服务于现实社会问题。强调'六经责我开生面'，要求学术研究解决实际问题，为治国安邦提供具体方案。",
+      "definition_en": "Practical application of knowledge, seeking truth from facts. Oppose empty discussion of heart-nature, require scholarship to serve real social problems.",
+      "key_concepts": ["经世致用", "实事求是", "六经责我开生面", "实用主义"],
+      "process_zh": [
+        "识别社会现实问题",
+        "运用历史经验分析问题",
+        "提出具体解决方案",
+        "在实践中验证和完善"
+      ],
+      "process_en": [
+        "Identify real social problems",
+        "Use historical experience to analyze",
+        "Propose concrete solutions",
+        "Verify and improve through practice"
+      ],
+      "key_quote_zh": "经世致用，实事求是",
+      "key_quote_en": "Apply knowledge practically, seek truth from facts",
+      "related_modes": ["M301", "M304", "M307"],
+      "historical_examples": ["浙东学派实学", "《明夷待访录》政策建议", "工商皆本主张"],
+      "modern_applications": ["政策研究", "问题导向分析", "实用主义决策"]
+    },
+    {
+      "id": "M304",
+      "name_zh": "学校议政思维",
+      "name_en": "School Governance Method",
+      "mode_code": "M304",
+      "category": "政治制度",
+      "domain_zh": "教育政治/公共参与",
+      "domain_en": "Educational Politics / Public Participation",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "学校议政，公议政治。主张学校不仅是教育机构，更是政治参与的重要场所。通过'公议'制度实现民众对政治的监督和参与，形成'天子亦不敢自为非'的民主监督机制。",
+      "definition_en": "Schools for political discussion, public deliberation politics. Argue schools are not just educational institutions but important venues for political participation.",
+      "key_concepts": ["学校议政", "公议政治", "政治参与", "民主监督"],
+      "process_zh": [
+        "建立学校作为政治讨论平台",
+        "培养公民政治参与能力",
+        "形成公共舆论监督机制",
+        "实现权力制衡与民主决策"
+      ],
+      "process_en": [
+        "Establish schools as political discussion platforms",
+        "Cultivate citizen political participation abilities",
+        "Form public opinion supervision mechanisms",
+        "Achieve power balance and democratic decision-making"
+      ],
+      "key_quote_zh": "天子亦不敢自为非",
+      "key_quote_en": "Even the emperor dares not act wrongly",
+      "related_modes": ["M302", "M305", "M308"],
+      "historical_examples": ["学校议政制度", "公议传统", "民主监督机制"],
+      "modern_applications": ["公民教育", "公共论坛", "民主监督制度"]
+    },
+    {
+      "id": "M305",
+      "name_zh": "工商皆本思维",
+      "name_en": "Economic Equality Method",
+      "mode_code": "M305",
+      "category": "经济思想",
+      "domain_zh": "经济理论/工商发展",
+      "domain_en": "Economic Theory / Commercial Development",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "工商皆本，农商并重。批判重农抑商政策，主张工商业与农业同样是国家根本。强调'工商为国之根本'，要求保护工商业者权益，促进经济发展。",
+      "definition_en": "Both industry and commerce are fundamental, agriculture and commerce equally important. Critique agriculture-suppressing-commerce policies, argue both are national fundamentals.",
+      "key_concepts": ["工商皆本", "农商并重", "经济平等", "保护工商业"],
+      "process_zh": [
+        "批判重农抑商传统观念",
+        "确立工商重要地位",
+        "制定保护工商业政策",
+        "促进经济均衡发展"
+      ],
+      "process_en": [
+        "Critique traditional agriculture-first观念",
+        "Establish importance of industry and commerce",
+        "Formulate protection policies for commerce",
+        "Promote balanced economic development"
+      ],
+      "key_quote_zh": "工商皆本",
+      "key_quote_en": "Both industry and commerce are fundamental",
+      "related_modes": ["M302", "M303", "M307"],
+      "historical_examples": ["批判重农抑商", "保护工商业者", "经济平等思想"],
+      "modern_applications": ["产业政策", "经济平等", "发展经济学"]
+    },
+    {
+      "id": "M306",
+      "name_zh": "一本万殊思维",
+      "name_en": "Pluralistic Unity Method",
+      "mode_code": "M306",
+      "category": "认识论",
+      "domain_zh": "哲学认识/学术多元",
+      "domain_en": "Epistemology / Academic Pluralism",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "一本万殊，和而不同。承认不同学派、不同观点的合理性，反对'以水济水'的学术垄断。主张在根本原则一致的前提下，允许学术思想的多元发展。",
+      "definition_en": "One root, ten thousand differences; harmony without uniformity. Acknowledge legitimacy of different schools and views, oppose academic monopolies.",
+      "key_concepts": ["一本万殊", "和而不同", "学术多元", "反对垄断"],
+      "process_zh": [
+        "识别不同学派共同根本",
+        "尊重各学派独特价值",
+        "促进学术交流对话",
+        "实现多元和谐发展"
+      ],
+      "process_en": [
+        "Identify common fundamentals across schools",
+        "Respect unique value of each school",
+        "Promote academic exchange and dialogue",
+        "Achieve pluralistic harmonious development"
+      ],
+      "key_quote_zh": "一本万殊，和而不同",
+      "key_quote_en": "One root, ten thousand differences; harmony without uniformity",
+      "related_modes": ["M301", "M308", "M310"],
+      "historical_examples": ["编纂学案体史书", "包容不同学派", "学术对话传统"],
+      "modern_applications": ["跨学科研究", "多元文化", "学术包容政策"]
+    },
+    {
+      "id": "M307",
+      "name_zh": "批判思维",
+      "name_en": "Critical Thinking Method",
+      "mode_code": "M307",
+      "category": "方法论",
+      "domain_zh": "批判哲学/理性分析",
+      "domain_en": "Critical Philosophy / Rational Analysis",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "批判专制制度，反思传统观念。不盲从权威，敢于质疑既定秩序。通过理性分析揭示问题本质，为改革提供思想基础。",
+      "definition_en": "Critique autocratic systems, reflect on traditional concepts. Do not blindly follow authority, dare to question established orders.",
+      "key_concepts": ["制度批判", "理性反思", "质疑权威", "改革思想"],
+      "process_zh": [
+        "识别制度性问题",
+        "运用理性分析批判",
+        "提出改革方案",
+        "推动制度变革"
+      ],
+      "process_en": [
+        "Identify systemic problems",
+        "Apply rational analysis for critique",
+        "Propose reform solutions",
+        "Promote institutional change"
+      ],
+      "key_quote_zh": "为天下之大害者，君而已矣",
+      "key_quote_en": "The great harm to the world is the ruler alone",
+      "related_modes": ["M302", "M303", "M305"],
+      "historical_examples": ["批判君主专制", "反思传统观念", "提出改革方案"],
+      "modern_applications": ["制度批判", "社会改革", "理性决策"]
+    },
+    {
+      "id": "M308",
+      "name_zh": "史学方法思维",
+      "name_en": "Historiography Method",
+      "mode_code": "M308",
+      "category": "史学理论",
+      "domain_zh": "史学方法/学术研究",
+      "domain_en": "Historiography / Academic Research",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "学案体史学，实事求是研究。开创学案体史书编纂方法，通过'以史为鉴'总结历史经验，为现实问题提供历史借鉴。",
+      "definition_en": "Case-study historiography, seek truth from facts in research. Pioneered case-study historical compilation, use 'history as mirror' for experience.",
+      "key_concepts": ["学案体史学", "以史为鉴", "实事求是", "历史经验"],
+      "process_zh": [
+        "收集整理历史资料",
+        "分析历史人物思想",
+        "总结历史经验教训",
+        "为现实提供借鉴"
+      ],
+      "process_en": [
+        "Collect and organize historical materials",
+        "Analyze historical figures' thoughts",
+        "Summarize historical experience and lessons",
+        "Provide reference for present reality"
+      ],
+      "key_quote_zh": "以史为鉴，可以知兴替",
+      "key_quote_en": "History as mirror, one can rise and fall",
+      "related_modes": ["M304", "M306", "M310"],
+      "historical_examples": ["编纂学案体", "历史经验总结", "以史为鉴"],
+      "modern_applications": ["历史研究", "经验学习", "政策借鉴"]
+    },
+    {
+      "id": "M309",
+      "name_zh": "实证思维",
+      "name_en": "Empirical Method",
+      "mode_code": "M309",
+      "category": "方法论",
+      "domain_zh": "实证研究/经验验证",
+      "domain_en": "Empirical Research / Experience Verification",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "实证检验，实践验证。主张理论必须通过实践检验，反对空谈心性。强调'实事求是'的研究态度，要求一切结论都建立在经验事实基础上。",
+      "definition_en": "Empirical verification, practical testing. Argue theories must be tested through practice, oppose empty discussion of heart-nature.",
+      "key_concepts": ["实证检验", "实践验证", "实事求是", "经验基础"],
+      "process_zh": [
+        "收集经验事实材料",
+        "建立理论假设",
+        "通过实践检验",
+        "修正完善理论"
+      ],
+      "process_en": [
+        "Collect empirical factual materials",
+        "Establish theoretical hypotheses",
+        "Test through practice",
+        "Revise and improve theories"
+      ],
+      "key_quote_zh": "实事求是",
+      "key_quote_en": "Seek truth from facts",
+      "related_modes": ["M301", "M303", "M307"],
+      "historical_examples": ["实证研究方法", "实践检验", "经验总结"],
+      "modern_applications": ["实证研究", "科学方法", "证据决策"]
+    },
+    {
+      "id": "M310",
+      "name_zh": "会众合一流思维",
+      "name_en": "Collective Integration Method",
+      "mode_code": "M310",
+      "category": "社会理论",
+      "domain_zh": "社会整合/和谐发展",
+      "domain_en": "Social Integration / Harmonious Development",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "会众合一，和而不同。主张在社会多元基础上实现和谐统一，尊重不同群体利益，通过对话协商达成共识，形成社会整体利益的最大化。",
+      "definition_en": "Collective unity, harmony without uniformity. Argue for harmony on basis of social pluralism, respect different group interests, achieve consensus through dialogue.",
+      "key_concepts": ["会众合一", "和而不同", "社会和谐", "利益整合"],
+      "process_zh": [
+        "识别社会多元利益",
+        "促进群体间对话",
+        "寻求共同利益点",
+        "实现社会和谐统一"
+      ],
+      "process_en": [
+        "Identify diverse social interests",
+        "Promote inter-group dialogue",
+        "Seek common interest points",
+        "Achieve social harmonious unity"
+      ],
+      "key_quote_zh": "和而不同",
+      "key_quote_en": "Harmony without uniformity",
+      "related_modes": ["M302", "M305", "M306"],
+      "historical_examples": ["社会和谐思想", "利益平衡", "共识形成"],
+      "modern_applications": ["社会治理", "利益协调", "和谐社会"]
+    }
+  ]
+}

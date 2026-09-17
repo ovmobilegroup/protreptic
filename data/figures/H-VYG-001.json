@@ -1,0 +1,877 @@
+{
+ "schema_version": "v6",
+ "id": "H-VYG-001",
+ "code": "VYG",
+ "figure_name": "维果茨基",
+ "figure_code": "Vygotsky",
+ "figure_pinyin": "Weiguociji",
+ "birth_year": 1896,
+ "death_year": 1934,
+ "era": "1896-1934",
+ "era_en": "1896-1934",
+ "school": "文化历史学派（社会文化心理学）",
+ "historical_significance": "俄国与苏联心理学家，文化历史学派创始人。在 38 岁英年早逝前的十余年间，以'两次出现定律'、符号中介、最近发展区、内部言语与思维-语言发生学重写了发展心理学与教育心理学的基本框架——把'人如何通过文化与他人成为自己'变成可实验的科学纲领；其思想在身后数十年经《思维与语言》译介席卷世界，成为当代教育学、动态评估与人机协作学习的理论源头之一",
+ "historical_significance_en": "Russian-Soviet psychologist, founder of the cultural-historical school. In the decade before his death at thirty-seven, with the law of double appearance, sign mediation, the zone of proximal development, inner speech and the genesis of thought and language, he rewrote the frame of developmental and educational psychology — turning 'how a person becomes himself through culture and others' into an experimental programme; translated decades after his death, Thought and Language carried his thought across the world as one of the sources of modern pedagogy, dynamic assessment and human-AI collaborative learning",
+ "unique_thinking": "把'社会关系先于心理结构'作为硬纲领：一切高级心理机能先在人与人之间、后在个人内部——发展即文化的内化史",
+ "unique_thinking_en": "A hard programme that social relation precedes mental structure: every higher function first between persons, then within the one — development as the history of culture's internalisation",
+ "civilization_zh": "革命与动荡夹缝中的俄罗斯-苏联知识界：1905 与 1917 两场革命之间的沙俄晚期与苏俄早期，沙皇治下的'百分比限额'把犹太青年挡在国立大学门外、全家人在戈梅利的书香中自办教育；十月革命后的文化实验浪潮（扫盲、教育人民委员部、心理技术学）给青年学者提供了把心理学改造成'新人的科学'的体制窗口；柏林格式塔学派与巴黎皮亚杰的著作越过边境传入，成为他要超越的对话者；大清洗与斯大林主义的收紧终结了他与整个一代学者的生命与工作",
+ "civilization_en": "The Russian-Soviet intelligentsia between revolutions: late Tsarist and early Soviet Russia between 1905 and 1917, the imperial percentage-norms barring Jewish youth from the state universities while the Gomel household of books educated itself; the cultural experimentation after October — literacy drives, the Commissariat of Enlightenment, psychotechnics — opening to a young scholar the institutional window for remaking psychology into a science of the new person; the Gestalt school of Berlin and Piaget's Parisian works crossing the border as the interlocutors to be surpassed; the tightening of the Great Purge and Stalinism ending the life and work of him and a whole generation",
+ "roles_zh": [
+  "心理学家",
+  "教育家",
+  "方法论者",
+  "文学批评者"
+ ],
+ "roles_en": [
+  "Psychologist",
+  "Educator",
+  "Methodologist",
+  "Literary critic"
+ ],
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-VYG-001",
+  "M-VYG-002",
+  "M-VYG-003",
+  "M-VYG-004",
+  "M-VYG-005",
+  "M-VYG-006",
+  "M-VYG-007",
+  "M-VYG-008",
+  "M-VYG-009",
+  "M-VYG-010"
+ ],
+ "key_works": [
+  "《思维与语言》(Myshlenie i rech, 1934)",
+  "《高级心理机能发展史》(1931)",
+  "《教育心理学》(1926)",
+  "《心理学危机的历史意义》(1927)",
+  "《艺术心理学》(1925)",
+  "'游戏及其在儿童心理发展中的作用'讲稿 (1933)"
+ ],
+ "key_concepts": [
+  "最近发展区 (Zone of Proximal Development)",
+  "符号中介 (Sign Mediation)",
+  "内化 (Internalisation)",
+  "两次出现定律 (Law of Double Appearance)",
+  "内部言语 (Inner Speech)",
+  "文化历史学派 (Cultural-Historical School)",
+  "主导活动 (Leading Activity)",
+  "动态评估 (Dynamic Assessment)"
+ ],
+ "cross_references": [
+  "M-VYG-002（最近发展区法——本学派最具世界影响的教学构造，评估与课程设计的中枢）",
+  "M-VYG-001（文化历史法——学派总纲：两次出现定律与内化的发生学纲领）",
+  "M-VYG-004（符号中介法——意志行为的工具论：以符号间接掌控心理过程）",
+  "M-VYG-006（内化移植法——把外部协作改造性地搬进内部的能力工程）",
+  "M-VYG-008（动态评估法——测验-干预-复测：评估从贴标签到开处方）",
+  "M-MON-008（迈蒙尼德：劝导式导师法——跨文明的'引导式协助'传统对照）",
+  "M-HZX-004（黄宗羲：学以证心法——为学之序与受教者主体的呼应）",
+  "M-GJG-003（顾颉刚：层累造史追问法——同为'发生学追问'的历史学形态）"
+ ],
+ "tags": [
+  "文化历史法",
+  "最近发展区法",
+  "思维语言发生法",
+  "符号中介法",
+  "脚手架递减法",
+  "内化移植法",
+  "儿童游戏文化法",
+  "动态评估法",
+  "日常科学概念交汇法",
+  "危机诊断重构法"
+ ],
+ "modes": [
+  {
+   "id": "M-VYG-001",
+   "mode_code": "M-VYG-001",
+   "name_zh": "文化历史法",
+   "name_en": "Cultural-Historical Method",
+   "category": "心理学方法论",
+   "domain_zh": "心理学方法论/高级心理机能源于社会中介的历史发生",
+   "domain_en": "Psychological methodology / higher mental functions arise from the historical genesis of social mediation",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "心理学方法论/研究意识必须研究它的发生史：高级心理机能（随意注意、逻辑记忆、概念思维）不是生物成熟的内部展开，而是由工具与符号中介的社会活动'内化'而来——一切内部心理过程都曾是外部人际过程；'两次出现'定律：先在人际间（社会间心理），后在个体内（个体内心理）——欲理解一个心理机能，就回到它的文化起源处看它如何从人与人之间搬进人的内部",
+   "definition_en": "Psychological methodology / to study consciousness is to study its genesis: the higher mental functions (voluntary attention, logical memory, conceptual thought) are not the inward unfolding of biological maturation but are 'internalised' from tool- and sign-mediated social activity — every internal psychic process was once an interpersonal one; the law of the double appearance: first between people (interpsychological), then inside the individual (intrapsychological); to understand a mental function, return to its cultural origin and watch how it was carried from between persons into the person",
+   "source_chapter": "维果茨基《高级心理机能发展史》(1931)：'任何高级心理机能在发展中都出现两次——先作为社会范畴，后作为心理范畴'",
+   "key_quote_zh": "一切高级心理机能都曾是两个人之间的事，后来才变成一个人的事——向历史的源头追问心理的来路。",
+   "key_quote_en": "Every higher mental function was once a matter between two people before it became a matter within one — trace the mind back to its source in history.",
+   "key_concepts": [
+    [
+     "中介 mediation（人不像动物直接刺激-反应，而以工具与符号为中介改造世界与自身——符号是心理的工具）",
+     "mediation (humans do not go stimulus-response direct as animals do; tools and signs intervene to remake the world and the self — the sign as the tool of the mind)"
+    ],
+    [
+     "两次出现定律 the law of double appearance（社会间心理先于个体内心理——内化是把外部对话转为内部声音）",
+     "the law of double appearance (interpsychological before intrapsychological — internalisation as turning an outer dialogue into an inner voice)"
+    ],
+    [
+     "内化 internalisation（外部符号操作逐步收缩为内部心理操作——不是复写而是改造，结构在搬运中变形）",
+     "internalisation (external sign-operations contracting into internal ones — a transformation, not a copy; the structure altered in transit)"
+    ],
+    [
+     "历史发生论 genetic method（心理现象只有在起源与转变的过程中才能被理解——静态切片看不出机能从哪里来）",
+     "the genetic method (a mental process understood only in its origin and becoming — the static slice cannot show where the function came from)"
+    ]
+   ],
+   "process_zh": [
+    "锁定目标机能：选定要考察的高级心理机能——随意注意、概念思维、反思等",
+    "找外部原型：追问它在历史上的人际形式是什么——手势、分工、仪式、师徒示范",
+    "描内化路径：还原从'人与人之间'到'一个人内部'的阶段序列——外部提示如何收缩为内部表征",
+    "验中介残余：在成熟行为中找已褪色的符号痕迹——如自言自语、指尖点数等内化中间站"
+   ],
+   "process_en": [
+    "Pin the target function: choose the higher function to be examined — voluntary attention, conceptual thought, reflection",
+    "Find the outer prototype: ask what its historical interpersonal form was — gesture, division of labour, ritual, apprenticeship",
+    "Trace the internalising path: reconstruct the stages from 'between persons' to 'within one' — how outer prompts contract into inner representation",
+    "Check the residues: in mature behaviour look for faded traces of the sign — private speech, finger-counting, the way-stations of internalisation"
+   ],
+   "representative_cases_zh": [
+    "儿童'自言自语'的重新解读：皮亚杰视为自我中心的退化余音，维果茨基测出它在任务变难时增多——那是外部对话正在内化为内部言语的中间站",
+    "对'原始思维'研究的批判：拒绝把复杂文化欠发达者的认知当作'低级阶段'——功能由其中介工具塑造，每种文化的高级机能路径不同",
+    "随意注意的发生学解释：婴儿追踪母亲手指的指向——注意最初是两个人共同的操作，后来才成为一个人的随意机能"
+   ],
+   "representative_cases_en": [
+    "The re-reading of children's private speech: Piaget took it as the residual hum of egocentrism; Vygotsky measured it rising when tasks grow hard — the way-station where outer dialogue turns inward",
+    "The critique of 'primitive mind' studies: refusal to read the cognition of the less schooled as an earlier stage — function shaped by its mediating tools, higher functions following different routes in each culture",
+    "The genetic account of voluntary attention: the infant following the mother's pointing finger — attention at first an operation shared by two, later the voluntary function of one"
+   ],
+   "modern_applications_zh": [
+    "组织知识管理：把'个人经验'还原为团队协作中的外部示范与对话——内训设计从'讲知识'改为'演对话'",
+    "AI 交互设计：把提示词工程看作新的'符号中介'——用户与模型的对话正在内化为新的思维方式",
+    "产品教育：用户上手流程按'外部引导→引导撤除→独立操作'三段设计——遵循内化的阶段律"
+   ],
+   "modern_applications_en": [
+    "Organisational knowledge management: 'personal experience' traced back to outer demonstration and dialogue in the team — training redesigned from 'telling knowledge' to 'staging conversations'",
+    "Human-AI interaction design: prompt-writing as a new sign-mediation — the user-model dialogue being internalised into a new style of thinking",
+    "Product onboarding: the learning path staged as outer guidance, withdrawn guidance, then independent operation — following the stages of internalisation"
+   ],
+   "related_modes": [
+    "M-VYG-002",
+    "M-VYG-003",
+    "M-VYG-004",
+    "M-VYG-005",
+    "M-HZX-004",
+    "M-MON-005"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "皮亚杰（对话对象：个体建构论的对照面——两种发展观的世纪对话由两者开启）",
+    "鲁利亚（后继：与维果茨基共创文化历史学派——把内化理论带进神经心理学的田野）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-002",
+   "mode_code": "M-VYG-002",
+   "name_zh": "最近发展区法",
+   "name_en": "Zone-of-Proximal-Development Method",
+   "category": "教育与发展心理学",
+   "domain_zh": "教育心理学/独立水平与潜在水平之间的动态间隙",
+   "domain_en": "Educational psychology / the dynamic gap between independent and assisted performance",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "教育与发展心理学/发展有两种水平：独立解决问题的现实水平与在成人引导或同伴协作下能达到的潜在水平——二者之间的间隙即最近发展区（ZPD）；教学不应尾随发展（只训已成熟的功能），而应走在发展前面、在区内作业——'教学创造发展'；测人不要只测他会什么，要测他'在帮助下能会什么'——潜力是关系属性，不是个体存量",
+   "definition_en": "Educational psychology / development has two levels: what one solves independently and what one can reach with adult guidance or peer collaboration — the gap between them the zone of proximal development; instruction should not trail development (drilling only matured functions) but walk ahead of it, working inside the zone — 'instruction creates development'; measure a person not by what he can do but by what he can do with help — potential a relational property, not an individual stock",
+   "source_chapter": "维果茨基《思维与语言》第六章及《教学与发展》讲稿：'只有走在发展前面的教学才是好的教学'——ZPD 是其教学与发展关系的核心构造",
+   "key_quote_zh": "能力有两条线：一条是独立的现在，一条是协助下的未来——好的教学与好的评估都发生在两条线之间的地带。",
+   "key_quote_en": "Ability runs on two lines: the independent present and the assisted future — good teaching and good testing both live on the ground between the lines.",
+   "key_concepts": [
+    [
+     "双水平诊断 two-level diagnosis（独立水平与协助水平同时测——两线之间的距离即发展区宽度）",
+     "two-level diagnosis (independent and assisted performance measured together — the distance between the lines the width of the zone)"
+    ],
+    [
+     "教学领先论 instruction ahead of development（教学不是发展的影子而是它的引擎——在区内施教才能带动成熟）",
+     "instruction ahead of development (teaching not development's shadow but its engine — working in the zone pulls maturation along)"
+    ],
+    [
+     "协助可撤性 scaffold removability（引导必须设计成可逐步撤除的脚手架——撤而不塌才算学会）",
+     "scaffold removability (guidance built to be withdrawn step by step — what stands without it has been learned)"
+    ],
+    [
+     "动态边界 dynamic boundary（最近发展区随学习移动——昨日需扶，今日独立，区随之前移）",
+     "dynamic boundary (the zone moves as learning moves — yesterday assisted, today independent, the zone shifted forward)"
+    ]
+   ],
+   "process_zh": [
+    "测两线：同一任务先独立做，再在提示下做——记录两个成绩而非一个",
+    "定位区间：找出'独立做不出但提示下能做'的任务带——这就是可教区",
+    "给最小提示：在区内作业时给恰好够用的引导——宁少勿多，保留探索",
+    "验撤除：逐步撤掉支持再测——撤而不塌确认已内化，区向前推进"
+   ],
+   "process_en": [
+    "Test both lines: the same task done alone, then done with prompts — two scores recorded, not one",
+    "Locate the band: the tasks 'failed alone but passed with prompting' — that is the teachable zone",
+    "Give the least hint: when working in the zone, provide just enough guidance — sparing, leaving room to explore",
+    "Test the withdrawal: remove support stepwise and re-test — what stands without it is internalised, and the zone advances"
+   ],
+   "representative_cases_zh": [
+    "一年级阅读分组的重构：按'独立阅读水平'分组把可教区完全抹平——改为按'指导阅读水平'动态分组后，边缘学生的进步速度翻倍",
+    "新员工带教方案的改造：把'跟着看三个月再上手'换成'带一点、做一段、撤一点'——带教周期从三个月压到五周",
+    "评估中心改革：面试只测独立能力漏掉了'在指导下能成长多快'——引入协作任务环节测协助响应度"
+   ],
+   "representative_cases_en": [
+    "The regrouping of first-grade reading: grouping by independent reading level flattened the teachable zone — regrouping dynamically by guided level doubled the progress of borderline students",
+    "The remake of onboarding: 'watch for three months, then do' replaced by 'guide a little, do a stretch, withdraw a little' — the mentoring cycle cut from three months to five",
+    "Assessment-centre reform: interviews testing only independent ability miss how fast one grows under guidance — a collaborative task added to measure responsiveness to help"
+   ],
+   "modern_applications_zh": [
+    "自适应学习系统：题目难度定在'独立答错、提示后能对'的边界带——练习效率最高",
+    "管理梯队培养：授权按'独立完成/需辅助/尚不能'三档动态调整——授权不足与过度都靠双水平测量校准",
+    "临床康复训练：康复目标定在患者'辅助下能完成'的动作区——而不是已掌握区或遥不可及区"
+   ],
+   "modern_applications_en": [
+    "Adaptive learning systems: item difficulty set on the band 'wrong alone, right with a hint' — where practice pays most",
+    "Management pipelines: delegation adjusted across the three bands 'independent / needs support / not yet' — both under- and over-delegation calibrated by two-level measurement",
+    "Clinical rehabilitation: goals set in the band of movements the patient completes with assistance — not the mastered zone nor the unreachable one"
+   ],
+   "related_modes": [
+    "M-VYG-001",
+    "M-VYG-003",
+    "M-VYG-004",
+    "M-VYG-006",
+    "M-HZX-004"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "皮亚杰（对话对象：发展阶段论把发展看作教学的条件——维果茨基反手把教学看作发展的条件）",
+    "布鲁纳（后继：'脚手架'隐喻——把 ZPD 的协助可撤性做成了教学工艺）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-003",
+   "mode_code": "M-VYG-003",
+   "name_zh": "思维语言发生法",
+   "name_en": "Thought-Language-Genesis Method",
+   "category": "认知心理学",
+   "domain_zh": "认知心理学/思维与语言不同源、后交融、言语内化为思维工具",
+   "domain_en": "Cognitive psychology / thought and language different in origin, later fused, speech turned inward as the instrument of thought",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "认知心理学/思维与语言的发生研究法：二者根源不同（前语言思维=情境意象，前思维言语=情绪表达），约两岁开始交汇，此后言语从社会交际工具转变为思维工具——'内部言语'不是默念的外部话，而是高度压缩的谓语化思维；分析思维不可只看概念现成结果，要追概念'如何变成现在这样'的发生过程——思考工具史就是思想本身的历史",
+   "definition_en": "Cognitive psychology / the genetic study of thought and language: different in root (pre-linguistic thought as situational imagery, pre-intellectual speech as emotional expression), converging around age two, after which speech turns from a social tool into the instrument of thinking — 'inner speech' not outer words muted but highly compressed, predicative thinking; analysis of thought must not stop at the ready-made concept but trace how the concept 'became what it is' — the history of the instrument of thinking is the history of thought itself",
+   "source_chapter": "维果茨基《思维与语言》(1934)：'思维不是在词中表达自己，而是在词中完成自己'",
+   "key_quote_zh": "思维在言语里完成自己——内部言语是思维的作坊，压缩的不是一个词，是整个语境。",
+   "key_quote_en": "Thought completes itself in the word — inner speech the workshop of thinking; what is compressed is not a word but the whole context.",
+   "key_concepts": [
+    [
+     "双根交汇 the twin roots converging（前语言思维与前思维言语各有独立根源——在工具性请求处交汇）",
+     "the twin roots converging (pre-linguistic thought and pre-intellectual speech each with its own root — meeting at the instrumental request)"
+    ],
+    [
+     "内部言语 inner speech（不成句的谓语化压缩——'主语在心，谓语在口'，语境由思维自供）",
+     "inner speech (predicative compression that does not form sentences — the subject held in mind, the predicate on the lips, context supplied by thought itself)"
+    ],
+    [
+     "词义单元 word meaning as unit（不可再分的分析单元是'词义'——既是言语单位又是思维单位）",
+     "word meaning as unit (the indivisible unit of analysis is word meaning — at once a unit of speech and of thought)"
+    ],
+    [
+     "概念自发-科学双线 the spontaneous-scientific twin lines（日常概念自下而上、科学概念自上而下生长——在学龄期交汇使思维升维）",
+     "the spontaneous-scientific twin lines (everyday concepts growing up, scientific concepts growing down — their meeting in school age lifting thought a grade)"
+    ]
+   ],
+   "process_zh": [
+    "分源头：把认知现象拆成'思维侧'与'语言侧'的独立根源——验证是否确系双根",
+    "找交汇点：确定二者在何处结合成新功能——如工具请求、命名爆发",
+    "追压缩过程：还原言语从扩展句到内部谓语化的收缩轨迹——语境如何被思维接管",
+    "验双线生长：同时追踪日常概念与科学概念的发展——看它们在哪里相遇并互相重塑"
+   ],
+   "process_en": [
+    "Split the roots: take the phenomenon apart into its thought-side and language-side origins — verify the twin roots",
+    "Find the convergence: locate where the two fuse into a new function — the instrumental request, the naming burst",
+    "Trace the compression: reconstruct speech's contraction from full sentence to inner predication — how context is taken over by thought",
+    "Verify the twin lines: track everyday and scientific concepts together — where they meet and reshape each other"
+   ],
+   "representative_cases_zh": [
+    "'为什么词义是不可分单元'的分析：把言语切成语音或把思维切成意象都丢了研究对象——词义兼为两面，分析单元错则理论全错",
+    "科学概念教学实验：五年级学生能给出'兄弟'的定义却解不开'兄弟'的应用题——日常概念强于应用而弱于定义，科学概念反之——两线在学龄中期交汇",
+    "内部言语的实验证据：让成人在心里默诵诗歌并记录发音器官的微动——内部言语并非无声的外部语，而是另一种压缩结构"
+   ],
+   "representative_cases_en": [
+    "The analysis of why word meaning is the indivisible unit: cut speech into sounds or thought into images and the object of study is lost — word meaning both sides at once; a wrong unit of analysis, a wrong theory entire",
+    "The scientific-concept teaching experiment: a fifth-grader defines 'brother' yet fails the brother-problems — everyday concepts strong in use and weak in definition, scientific concepts the reverse; the two lines meeting in mid-school years",
+    "The experimental evidence for inner speech: adults reciting poetry silently with the speech organs' micro-movements recorded — inner speech not muffled outer speech but another, compressed structure"
+   ],
+   "modern_applications_zh": [
+    "写作训练：先说后写是利用'扩展言语→压缩'的自然方向——口述初稿法符合言语压缩律",
+    "界面文案设计：按钮与标签的'谓语化'——内部言语式的省略依赖共享语境，新用户语境未立时省略即障碍",
+    "会议纪要改革：纪要作为'外部内部言语'只记谓语与决定——主语与语境由组织共同知识承接"
+   ],
+   "modern_applications_en": [
+    "Writing instruction: speaking before writing rides the natural direction of speech's expansion and compression — the dictated first draft follows the law of verbal compression",
+    "Interface copy: buttons and labels written predicatively — the inner-speech style of ellipsis rides shared context, and where the new user's context is not yet built, ellipsis becomes obstacle",
+    "Meeting notes as 'external inner speech': predicates and decisions only — the subjects and context carried by the organisation's common knowledge"
+   ],
+   "related_modes": [
+    "M-VYG-001",
+    "M-VYG-002",
+    "M-VYG-004",
+    "M-VYG-006",
+    "M-MON-005"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "皮亚杰（对话对象：《儿童的语言与思维》的'自我中心言语'判读——维果茨基逐条反驳并重测）",
+    "萨丕尔（对照：语言相对论的传统——与维果茨基的'言语思维融合'构成语言学-心理学的两翼）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-004",
+   "mode_code": "M-VYG-004",
+   "name_zh": "符号中介法",
+   "name_en": "Sign-Mediation Method",
+   "category": "认知心理学",
+   "domain_zh": "认知心理学/以人工符号改造心理机能的间接行动法",
+   "domain_en": "Cognitive psychology / remaking mental functions through artificial signs, the indirect act",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "认知心理学/人改变自己不用直接手段而用间接手段：造一个外部刺激（符号）绑定到心理操作上，用它控制原本自动的反应——如结绳记事把记忆外挂、把不该想的事联想一个词来控制分心；符号中介是'刺激-手段'：先从外部社会交往中取得，再转化为内部的自我控制工具——意志的行为就是以符号为中介对自身行为的掌握",
+   "definition_en": "Cognitive psychology / one remakes oneself not by direct but by indirect means: create an outer stimulus (a sign) bound to a mental operation, using it to master what was automatic — tying a knot for memory, attaching a word to a distraction to master it; the sign is a stimulus-means: first acquired from outer social exchange, then turned into the inner instrument of self-command — the voluntary act is the mastery of one's own behaviour through a sign",
+   "source_chapter": "维果茨基《心理学危机的历史意义》(1927) 及记忆实验：'人的行为的特征在于人以符号为中介改造自己的心理活动'",
+   "key_quote_zh": "人是自己制造工具来改造自己的动物——符号绑在心理操作上，自动过程就变成了随意过程。",
+   "key_quote_en": "The animal that makes tools to remake itself — bind a sign to a mental operation, and the automatic becomes the voluntary.",
+   "key_concepts": [
+    [
+     "刺激-手段 stimulus-means（符号不引发行为而是控制行为——与因果刺激不同类）",
+     "stimulus-means (the sign does not cause but commands behaviour — a class apart from the causal stimulus)"
+    ],
+    [
+     "外部转内部 outer to inner（先借外部记号（绳结、指痕、卡片），后内化为纯心理操作）",
+     "outer to inner (first borrowed outer marks — knots, fingerprints, cards — later internalised into purely mental operations)"
+    ],
+    [
+     "绑定与解绑 binding and unbinding（把符号绑定到反应上获得控制——机能成熟后符号可褪去）",
+     "binding and unbinding (a sign bound to a response yields control — fading away once the function matures)"
+    ],
+    [
+     "间接行动法 the indirect act（改变'不能直接改'的东西：绕经一个新刺激改造旧反应）",
+     "the indirect act (to change what cannot be changed directly: detouring through a new stimulus to remake an old response)"
+    ]
+   ],
+   "process_zh": [
+    "列自动化清单：找出想控制的自动反应——分心、遗忘、冲动、恐惧",
+    "选外部符号：设计一个可感知的刺激物绑定到该反应——卡片、口令、手环、备忘",
+    "练控制回路：在真实情境中用符号触发替代反应——从'外部提示'过渡到'想到符号'即可生效",
+    "撤除符号：机能稳固后逐步撤掉外物——确认控制已内化，记录保用率"
+   ],
+   "process_en": [
+    "List the automatics: name the reactions to be mastered — distraction, forgetting, impulse, fear",
+    "Choose the sign: design a perceptible stimulus bound to that reaction — card, code-word, band, memo",
+    "Train the loop: in real settings use the sign to trigger the substitute response — from outer prompt to merely thinking of the sign",
+    "Withdraw the sign: once the function is firm, remove the outer object stepwise — control confirmed as internalised, its retention logged"
+   ],
+   "representative_cases_zh": [
+    "记忆实验的古典设计：成人不用内部记忆而造外部方法（在纸上划痕、摆石子）回答不相关词对——'自然记忆'与'符号记忆'的分化证明中介的存在",
+    "禁令游戏实验：儿童本来抓不到的玩具，在'不许抓'的指令下变成'想象抓取'——外部禁令内化为自我控制",
+    "对艾宾浩斯记忆研究的批评：无意义音节把符号中介剥掉了——研究的是没有人的记忆，不是人的记忆"
+   ],
+   "representative_cases_en": [
+    "The classical memory experiment: adults given unrelated word-pairs invent outer means (scratches, pebbles) rather than inner memory — the分化 of natural and sign-mediated memory proving mediation's existence",
+    "The forbidden-colour experiment: the toy the child cannot reach becomes 'grasped in imagination' under the ban 'do not touch' — an outer prohibition internalised as self-command",
+    "The critique of Ebbinghaus: nonsense syllables strip out sign mediation — the memory of no one, not the memory of the person"
+   ],
+   "modern_applications_zh": [
+    "习惯养成设计：把'目标行为'绑在外部符号上（跑鞋放门口、饮水瓶在桌面）——间接行动优于意志力正面强攻",
+    "注意力管理：给分心冲动配一个'延迟符号'（写下冲动再决定）——把冲动外化成可审视的对象",
+    "团队仪式设计：站会、燃尽图都是符号中介——用外部符号协调集体的注意力与节奏"
+   ],
+   "modern_applications_en": [
+    "Habit design: bind the target act to an outer sign — shoes at the door, bottle on the desk; the indirect act beats frontal assaults of willpower",
+    "Attention management: pair the impulse to wander with a delay-sign (write the impulse down before deciding) — the impulse externalised into an inspectable object",
+    "Team ritual as sign mediation: standups and burn-down charts outer signs coordinating the collective's attention and rhythm"
+   ],
+   "related_modes": [
+    "M-VYG-001",
+    "M-VYG-002",
+    "M-VYG-003",
+    "M-VYG-007",
+    "M-PAD-003"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "皮亚杰（对照：同化-顺应机制描述内部平衡——维果茨基补上'符号从社会借入'的来源）",
+    "梅洛-庞蒂（呼应：身体作为'符号承载者'——现象学与中介心理学的接点）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-005",
+   "mode_code": "M-VYG-005",
+   "name_zh": "脚手架递减法",
+   "name_en": "Scaffold-Fading Method",
+   "category": "教育与发展心理学",
+   "domain_zh": "教育心理学/搭建-移交-撤除的教学工程学",
+   "domain_en": "Educational psychology / the engineering of building, handing over and fading support",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "教育心理学/把'协助下能完成'的任务拆成可控支持结构：先搭脚手架（示范、提示、模板、流程卡），随学习者能力显现逐步移交控制权，最后完全撤除——教学的目标不是完成任务本身，而是让协助结构变得不再必要；好的协助有三特征：恰在能力边界上、指向移交而非替代、设计好了自己的撤除时间表",
+   "definition_en": "Educational psychology / the assisted performance decomposed into a manageable support structure: scaffold first (demonstration, prompts, templates, process cards), hand over control as competence shows, and withdraw fully at the end — the aim of teaching not the completion of the task but the redundancy of the support; good assistance has three marks: set at the boundary of ability, aimed at hand-over not replacement, and carrying its own withdrawal timetable",
+   "source_chapter": "维果茨基最近发展区说的教学工程化（伍德、布鲁纳、罗斯 1976 'The role of tutoring in problem solving' 所称 scaffolding 即本法的实施形态）",
+   "key_quote_zh": "教的目的不是替他做完，而是让协助变得不再必要——好的脚手架自带拆除时刻表。",
+   "key_quote_en": "The point of teaching is not to finish the task for him but to make the assistance unnecessary — a good scaffold carries its own demolition timetable.",
+   "key_concepts": [
+    [
+     "边界作业 working at the boundary（协助强度锁定在'独立做不出、提示能做出'的窄带——过易无益，过难致溃）",
+     "working at the boundary (support locked on the narrow band 'cannot alone, can with prompt' — too easy useless, too hard breaking)"
+    ],
+    [
+     "移交控制权 transfer of control（每一步都问'这步现在能交给他了吗'——示范、共同做、他做我看、他做）",
+     "transfer of control (each step asks 'can this now be handed over' — demonstration, joint doing, his doing watched, his doing alone)"
+    ],
+    [
+     "递减梯度 fading gradient（支持按计划撤：全提示、关键词、仅信号、无支持——撤除是设计出来的不是突然发生的）",
+     "fading gradient (support withdrawn on plan: full prompt, key words, signal only, none — fading designed, not abrupt)"
+    ],
+    [
+     "冗余即失败 redundancy as failure（若撤除后表现崩塌，说明协助替代了学习而非支持了学习）",
+     "redundancy as failure (collapse after withdrawal means the assistance replaced learning instead of supporting it)"
+    ]
+   ],
+   "process_zh": [
+    "定边界任务：选学习者'踮脚够得着'的任务——过易或过难都要换",
+    "搭初始脚手架：把任务拆成带示范、模板或提示的可控步骤——支持强度标定档位",
+    "按表现移交：每完成一段就撤一档支持——用双水平测量决定移交时机",
+    "验撤除后效：完全撤架后隔日复测——稳定才算完成，崩塌则回补再撤"
+   ],
+   "process_en": [
+    "Fix the boundary task: choose what the learner reaches on tiptoe — swap out what is too easy or too hard",
+    "Build the first scaffold: decompose into steps with demonstration, template or prompt — support graded by design",
+    "Hand over by performance: withdraw one notch of support at each stretch completed — the two-level measurement sets the moment",
+    "Test after fading: re-test a day after full withdrawal — stability completes the work, collapse calls back the scaffold"
+   ],
+   "representative_cases_zh": [
+    "伍德-布鲁纳搭积木实验：三至五岁儿童搭金字塔，'等级五'干预（直接放好）与'等级一'（口头提示）之间——最佳协助是最低仍有效的级别",
+    "学徒制教学的近代复原：师傅先整活干给看，再让徒弟干整活、自己只接手关键步骤，最后只验收——天然的递减梯度",
+    "写作教学'范文-提纲-要点-裸写'四级撤除：从全模板到无支持的练习序列——撤架过快的学生作文崩回原样"
+   ],
+   "representative_cases_en": [
+    "The Wood-Bruner block-building experiment: three- to five-year-olds building a pyramid, between level-five intervention (placing the piece) and level-one (verbal hint) — the best assistance the lowest level that still works",
+    "The modern recovery of apprenticeship: the master does the whole job first, then the apprentice does it whole with the master taking only the key steps, at last only inspecting — a natural fading gradient",
+    "The four-level writing sequence of model text, outline, bullet points, bare draft: from full template to no support — those faded too fast collapsing back to their old form"
+   ],
+   "modern_applications_zh": [
+    "新人带教体系：带教计划按'我做你看→一起做→你做我看→你做'四档写明移交节点与撤除日期",
+    "AI 辅助编程的用法设计：让 AI 写整段代码是替代，让它出提示与测试是脚手架——后者才能留下能力",
+    "康复护理方案：辅助器具处方必须写'撤除计划'——轮椅、助行器都按'渐退'设计防依赖"
+   ],
+   "modern_applications_en": [
+    "Onboarding systems: the mentoring plan written in four notches — I do you watch, we do, you do I watch, you do — hand-over dates and withdrawal dates explicit",
+    "AI pair-programming designed right: letting the model write whole blocks replaces the learner; prompts and tests as scaffolds leave ability behind",
+    "Rehabilitation prescriptions that must carry a withdrawal plan — wheelchair and walker both designed to fade, against dependence"
+   ],
+   "related_modes": [
+    "M-VYG-002",
+    "M-VYG-001",
+    "M-VYG-004",
+    "M-VYG-008",
+    "M-HER-004"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "布鲁纳（后继：与伍德、罗斯把 ZPD 落为 scaffolding 实验程序）",
+    "杜威（先声：'做中学'的协助设计传统——脚手架教学法的历史前驱）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-006",
+   "mode_code": "M-VYG-006",
+   "name_zh": "内化移植法",
+   "name_en": "Internalisation-Graft Method",
+   "category": "认知心理学",
+   "domain_zh": "认知心理学/把外部社会过程移植为内部心理结构的改造搬运法",
+   "domain_en": "Cognitive psychology / the grafted transfer of outer social process into inner mental structure",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "认知心理学/内化不是复写而是改造性搬运：外部人际操作（对话、分工、示范）在移入内部时被压缩、变形、重构——方向逆转（外部对话变为内部独白）、结构收缩（完整句变为谓语）、功能改变（交际工具变为思维工具）；方法论上可利用此机制主动'移植'：把想要的能力先造成外部社会活动，再安排其在互动中反复运转，最后收进内部",
+   "definition_en": "Cognitive psychology / internalisation not as copying but as transforming transfer: the outer interpersonal operation (dialogue, division of labour, demonstration), moving inward, is compressed, deformed, restructured — direction reversed (outer dialogue becomes inner monologue), structure contracted (full sentence to predicate), function changed (tool of communication to tool of thought); methodologically the mechanism can be used deliberately: build the wanted capability first as an outer social activity, run it repeatedly in interaction, then gather it inside",
+   "source_chapter": "维果茨基《高级心理机能发展史》：'内化过程是外部活动向内部活动的转化——结构不变而功能与形式改变'",
+   "key_quote_zh": "内化带着改造——搬进来的不是原样，是压缩变形后重排的新结构；要什么能力，就先把它造成一种社会活动。",
+   "key_quote_en": "What is internalised is transformed — carried in not as it was, but compressed, deformed, rearranged; for any power you want, first build it as a social activity.",
+   "key_concepts": [
+    [
+     "改造性搬运 transformative transfer（搬运即重构——方向、结构、功能三重改变，不是录像回放）",
+     "transformative transfer (carrying in is rebuilding — direction, structure and function all changed; no video playback)"
+    ],
+    [
+     "社会活动先行 social activity first（能力的内核必须先以外部形式存在——先共同做，后独自做）",
+     "social activity first (the kernel of a capability must first exist in outer form — first done together, later alone)"
+    ],
+    [
+     "压缩与重构 compression and restructure（完整协作序列内化后收缩为'想到即完成'的短路操作）",
+     "compression and restructure (the full collaborative sequence, internalised, contracts into a short circuit — thought and done)"
+    ],
+    [
+     "反求外部法 reverse engineering outward（内部机能出故障时，重新外部化修复——说出问题即重立外部支点）",
+     "reverse engineering outward (when an inner function fails, re-externalise to repair — saying the problem aloud re-erects the outer support)"
+    ]
+   ],
+   "process_zh": [
+    "定义目标能力：明确要内化的能力形态与成熟表现",
+    "造成社会形式：把该能力设计为可协作、可对话的外部活动——角色、话轮、示范齐备",
+    "安排反复运转：让学习者在真实互动中多轮执行该活动——外部熟练先于内部成形",
+    "收拢内化：逐步撤除角色与话轮，观察其转为独自操作——检验压缩后的新结构是否保功能"
+   ],
+   "process_en": [
+    "Define the target capability: its form and its mature expression spelled out first",
+    "Build the social form: design it as a collable, dialogable outer activity — roles, turns and demonstration ready",
+    "Run it repeatedly: the learner executing the activity in real interaction across rounds — outer fluency before inner form",
+    "Gather it inside: roles and turns withdrawn stepwise as it turns solo — the compressed structure tested for retained function"
+   ],
+   "representative_cases_zh": [
+    "学骑车的双人扶车法：父母先真的扶车（外部支持真实存在），儿童内化'平衡的肌肉对话'后扶车撤除——扶而不扶是内化的准备而非欺骗",
+    "皮亚杰'自我中心言语'的再实验：儿童在嘈杂环境与沟通障碍下自言自语激增——外部对话受阻时内化进程被卡住的反证",
+    "认知行为疗法的结构原型：治疗师与来访者'共同审查自动化思维'的对话序列，最后来访者独自完成——把理性审查从人际搬进个人"
+   ],
+   "representative_cases_en": [
+    "The two-hands bicycle: the parent's hold is real outer support; once the child has internalised the muscular dialogue of balance, the hold is withdrawn — holding while not holding as preparation, not deception",
+    "The re-test of egocentric speech: private speech surges under noise and blocked communication — counter-evidence that internalisation jams when outer dialogue is blocked",
+    "The structural prototype of CBT: therapist and client jointly auditing automatic thoughts in a dialogue sequence, at last the client running it alone — rational audit moved from between persons into one"
+   ],
+   "modern_applications_zh": [
+    "写作的'跟自己对话'训练：先给同事讲清方案（外部），再空椅自问自答（过渡），最后静默成文（内化）",
+    "复盘制度的内化设计：先主持人在场引导复盘对话，后减为书面模板，最后个人静默复盘——同一结构三次换位",
+    "组织决策能力建设：把'风险评估'设计为跨部门辩论活动，运转数轮后收为个人决策清单"
+   ],
+   "modern_applications_en": [
+    "Writing trained as self-dialogue: explain the plan to a colleague (outer), then question and answer across an empty chair (transition), then silent prose (internalised)",
+    "The retro meeting internalised: a facilitator-led dialogue, then a written template, at last silent self-review — one structure, three positions",
+    "Building decision capability: risk review designed as cross-team debate, run for rounds, then gathered into a personal decision checklist"
+   ],
+   "related_modes": [
+    "M-VYG-001",
+    "M-VYG-003",
+    "M-VYG-005",
+    "M-VYG-009",
+    "M-MON-002"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "鲁利亚（后继：内化理论的实验推进与神经心理定位）",
+    "列昂捷夫（后继：活动理论——把内化扩展为活动形式的历史-实践转移）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-007",
+   "mode_code": "M-VYG-007",
+   "name_zh": "儿童游戏文化法",
+   "name_en": "Play-as-Leading-Activity Method",
+   "category": "发展心理学",
+   "domain_zh": "发展心理学/游戏是学前期主导活动与自我规训的摇篮",
+   "domain_en": "Developmental psychology / play as the leading activity of the preschool years and the cradle of self-regulation",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "发展心理学/游戏不是发展的'消遣'而是学前期的'主导活动'：儿童在游戏中制造'最近的最近发展区'——为心爱的虚构情境自愿服从规则（扮演母亲就要做母亲该做的事），从而练习克制即时欲望、协调多人意图；游戏把'想要'变成'必须'，是意志与想象的共同起源——看一个文化的儿童游戏，就看到它把什么样的社会关系与规则世界交给孩子",
+   "definition_en": "Developmental psychology / play not as 'diversion' but the leading activity of the preschool years: the child in play creates the nearest of nearest zones of proximal development — submitting voluntarily to rules inside a beloved fiction (playing mother means doing what a mother does), and thereby practising the restraint of immediate desire and the coordination of intentions; play turns 'I want' into 'I must', the common root of will and imagination — to see a culture's children's play is to see what social relations and rule-worlds it hands its children",
+   "source_chapter": "维果茨基《游戏及其在儿童心理发展中的作用》(1933) 讲稿：'游戏创造了儿童的最近发展区——在游戏中儿童总是高于其平均年龄'",
+   "key_quote_zh": "游戏里儿童自愿服从自己定下的规则——把'想要'变成'必须'，这是意志的第一所学校。",
+   "key_quote_en": "In play the child freely obeys rules of his own making — 'I want' turned into 'I must': the first school of the will.",
+   "key_concepts": [
+    [
+     "虚构中的规则 rules in fiction（一切游戏皆有规则——明规则的棋戏与隐规则的扮家家的分野只在可见度）",
+     "rules in fiction (every game has rules — the overt rules of chess and the hidden rules of make-believe differing only in visibility)"
+    ],
+    [
+     "超龄行动 acting above one's age（游戏里儿童'高于自己'——承担角色要求超出日常能力的行为）",
+     "acting above one's age (in play the child 'taller than himself' — the role demanding more than the day's ability)"
+    ],
+    [
+     "欲望的自愿转换 the willing conversion of desire（放弃即时满足以维持角色——自我克制的低风险练习场）",
+     "the willing conversion of desire (immediate satisfaction surrendered to keep the role — the low-risk gymnasium of self-restraint)"
+    ],
+    [
+     "主导活动 leading activity（每一发展期有一种主导活动制造新的心理结构——学前期是游戏，学龄期是学习）",
+     "leading activity (each period has one activity that forges the new mental structures — play for preschool, study for school age)"
+    ]
+   ],
+   "process_zh": [
+    "观察自发游戏：记录儿童自发游戏中'虚构与规则'的配比——谁在守什么规则",
+    "识别角色要求：把角色隐含的行为标准列出来——对比儿童日常表现",
+    "设计规则递进：在游戏里逐步加码规则复杂度——让'必须'越来越多地胜过'想要'",
+    "迁移观察：把游戏中的自我控制延伸到非游戏情境——看规则能否离开虚构存活"
+   ],
+   "process_en": [
+    "Watch the spontaneous play: record the pairing of fiction and rule — who keeps what rule",
+    "Name the role's demands: list the standards of conduct the role implies — against the child's everyday behaviour",
+    "Step the rules up: complexity of rules raised game by game — 'must' winning over 'want' more and more often",
+    "Watch for transfer: self-control from the game carried into non-game settings — can the rule live without the fiction"
+   ],
+   "representative_cases_zh": [
+    "'女儿生病'扮家家实验：儿童在游戏情境下能'忍住不动'等待扮演的母亲处理，而同一等待在无游戏时数秒即破——游戏情境直接抬高自我控制水平",
+    "对'游戏无规则论'的批驳：扮家家没有写下的规则，却有最强的规则——'母亲'不能突然飞走，规则由意义结构强制",
+    "小学生'先玩后学'之争的裁决：学习成为主导活动后，游戏退为辅助但不变其功能——混淆两个时期的配置造成课堂困境"
+   ],
+   "representative_cases_en": [
+    "The 'sick daughter' play experiment: in the play situation the child holds still awaiting the playing mother's care, where the same wait without the game breaks in seconds — the play frame lifting self-control outright",
+    "The refutation of 'play is rule-free': make-believe has no written rules yet the strongest of them — the 'mother' cannot suddenly fly; the rule enforced by the structure of meaning",
+    "The verdict on 'learn first, then play': once study becomes the leading activity, play recedes to auxiliary without changing its function — confusing the two periods' configurations makes the classroom's plight"
+   ],
+   "modern_applications_zh": [
+    "企业创新沙盘：把战略推演设计成有角色、有规则的'扮演'——参与者敢说真话因为'那是角色说的'",
+    "儿童产品与课程设计：先测'游戏循环'里的规则是否真实约束行为——纯装饰的玩不产生发展",
+    "戒断与康复训练：用'新身份叙事'承载规则遵守——把'我必须'挂进一个本人认同的角色"
+   ],
+   "modern_applications_en": [
+    "The corporate strategy sandbox: planning staged as role-play with rules — candour bought because 'it is the role that speaks'",
+    "Children's products and curricula: first test whether the rules of the play loop really bind behaviour — decorative play develops nothing",
+    "Addiction and recovery training: rule-keeping hung on a 'new identity narrative' — 'I must' attached to a role the person endorses"
+   ],
+   "related_modes": [
+    "M-VYG-002",
+    "M-VYG-005",
+    "M-VYG-006",
+    "M-VYG-010",
+    "M-MAI-007"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "艾里康宁（后继：游戏发展阶段论与主导活动周期表的系统化者）",
+    "皮亚杰（对话对象：游戏即同化的单向论——维果茨基以'规则与虚构统一'反题）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-008",
+   "mode_code": "M-VYG-008",
+   "name_zh": "动态评估法",
+   "name_en": "Dynamic-Assessment Method",
+   "category": "教育心理学",
+   "domain_zh": "教育心理学/测验-干预-复测三段式的能力评估",
+   "domain_en": "Educational psychology / the test-intervene-retest assessment of ability",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "教育心理学/静态测验只照见'昨天学到什么'，动态评估在'预试-提示-后试'三段中看学习者对协助的反应：前后试的增益（提示后提升多少、何种提示有效、需要几级提示）才是能力的度量——评估的目的从贴标签变为开处方：找出每个人的最近发展区与最佳协助形态，把'他不行'改写为'他在这类提示下能行'",
+   "definition_en": "Educational psychology / the static test photographs only yesterday's learning; dynamic assessment, in the three phases of pretest, prompt and posttest, reads the learner's response to assistance: the gain between pre- and posttest — how much a prompt lifts, which kind works, how many grades needed — is the true measure of ability; assessment turns from labelling to prescribing: find each person's zone and best form of help, rewriting 'he cannot' as 'he can with this kind of help'",
+   "source_chapter": "维果茨基对传统测验的批评（《思维与语言》第六章）：'只测实际发展水平的测验忽视了最近发展区——用儿童的智力年龄预测其动态命运'",
+   "key_quote_zh": "静态分数只是快照，提示后的增益才是发展曲线的斜率——评估应该开处方，不是贴标签。",
+   "key_quote_en": "The static score a snapshot; the gain after prompting, the slope of the curve — assessment should prescribe, not label.",
+   "key_concepts": [
+    [
+     "增益为分数 gain as score（前后试差值即能力读数——起点相同增益不同者命运不同）",
+     "gain as score (the pre-post difference the reading of ability — same starting point, different gains, different fates)"
+    ],
+    [
+     "提示分级 graded prompts（协助按强度分档：一般提醒、定向提示、演示——用到哪一级即诊断信息）",
+     "graded prompts (help in tiers: general reminder, orienting hint, demonstration — the tier reached is itself the diagnosis)"
+    ],
+    [
+     "干预嵌入测验 intervention inside the test（测验与教学不是先后两事——评估过程本身就是一次教学实验）",
+     "intervention inside the test (test and teaching not one after the other — the assessment itself a teaching experiment)"
+    ],
+    [
+     "处方式报告 prescriptive report（结论写成'在何种协助下能学会什么'——而非能力标签）",
+     "prescriptive report (the conclusion written as 'with what help, learns what' — never a label of ability)"
+    ]
+   ],
+   "process_zh": [
+    "基线预试：无协助完成目标任务——记录独立水平",
+    "分级提示：按强度递进给予提示，记录每级后的表现——找到临界提示级",
+    "复测迁移：换新题用同法独立完成——检验协助已转为策略",
+    "写处方：报告写明最近发展区宽度、有效提示类型与建议协助方案"
+   ],
+   "process_en": [
+    "Baseline pretest: the task done unaided — the independent level recorded",
+    "Graded prompting: help escalating in strength, performance logged after each tier — the critical tier found",
+    "Transfer retest: a new problem of the same kind done alone — the help verified as converted into strategy",
+    "Write the prescription: the report stating zone width, effective prompt types and the recommended support plan"
+   ],
+   "representative_cases_zh": [
+    "对'文化剥夺儿童'测验的重新判读：同一 IQ 的两名儿童，一名在家里已有大量'扶助学习'经验、另一名没有——静态分相同，但后者在提示下增益更大，前景完全不同",
+    "伦敦矫正教育现场的标准化：'测验-教学-测验'程序被费尔斯坦发展为'学习潜能评估'——提示等级成为可复用的临床工具",
+    "维果茨基对'智力年龄'的批评：两个智力年龄相同的儿童，一个在提示下能解两年后的题、一个不能——静态年龄掩盖了动态命运"
+   ],
+   "representative_cases_en": [
+    "The re-reading of tests for 'culturally deprived children': two children of the same IQ, one with long experience of assisted learning at home, one without — static scores equal, but the second gains far more under prompting, and the prospects diverge",
+    "The standardisation in London's corrective education: the test-teach-test procedure grown by Feuerstein into the Learning Potential Assessment Device — prompt tiers as a reusable clinical instrument",
+    "Vygotsky's critique of 'mental age': two children equal in mental age, one able under prompting to solve problems two years ahead, the other not — the static age hiding the dynamic destiny"
+   ],
+   "modern_applications_zh": [
+    "招聘评估升级：笔试后加'协作解题环节'——看候选人在提示下的响应度而非仅独立水平",
+    "教育诊断改革：弱生标签废除前先做动态评估——增益大者改判为'教学欠债'而非'能力欠佳'",
+    "AI 辅助学习产品：按'提示分级响应度'自适应调节——给增益大的用户更密的脚手架"
+   ],
+   "modern_applications_en": [
+    "Hiring assessment upgraded: after the written test a collaborative problem-solving round — responsiveness to prompts, not solo level alone",
+    "Reform of educational diagnosis: before the label of 'slow learner', a dynamic assessment — high gain re-diagnosed as instructional debt, not poor ability",
+    "AI learning products adapting by graded-prompt responsiveness — denser scaffolds for those who gain most"
+   ],
+   "related_modes": [
+    "M-VYG-002",
+    "M-VYG-005",
+    "M-VYG-006",
+    "M-VYG-009",
+    "M-GJG-003"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "费尔斯坦（后继：学习潜能评估工具与'中介学习经验'理论——动态评估的临床完成形态）",
+    "比纳（对照：静态量表传统的奠基者——维果茨基扬其'发展测量'之意而弃其快照之法）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-009",
+   "mode_code": "M-VYG-009",
+   "name_zh": "日常科学概念交汇法",
+   "name_en": "Everyday-Scientific-Concept-Convergence Method",
+   "category": "认知心理学",
+   "domain_zh": "认知心理学/两线概念系统相向生长并在学龄交汇的学习模型",
+   "domain_en": "Cognitive psychology / two lines of concepts growing toward each other and meeting in school age",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "认知心理学/概念沿两条线发展：日常概念自发地从具体情境向上生长（强于运用弱于定义），科学概念由系统教学自上而下向下扎根（强于定义弱于初始运用）；二线在学龄中期交汇——科学概念借日常概念获得血肉与情境，日常概念借科学概念获得结构与自觉；据此教学不当把二者隔离（'先生活后科学'的机械分段），而应设计相遇点让结构化定义与自发经验互相改写",
+   "definition_en": "Cognitive psychology / concepts develop along two lines: everyday concepts growing up spontaneously from concrete situations (strong in use, weak in definition), scientific concepts rooted downward by systematic teaching (strong in definition, weak in first use); the lines converge in mid-school age — the scientific concept borrowing flesh and situation from the everyday, the everyday gaining structure and awareness from the scientific; teaching therefore should not quarantine the two (the mechanical sequence 'life first, science after') but design meeting-points where structured definition and spontaneous experience rewrite each other",
+   "source_chapter": "维果茨基《思维与语言》第六章科学概念实验：'科学概念在儿童经验的水面上航行——日常概念则为科学概念铺出向下生长的路径'",
+   "key_quote_zh": "日常概念向上长、科学概念向下扎——好教学不隔开两条线，而是设计它们的相遇点。",
+   "key_quote_en": "The everyday concept grows up, the scientific one roots down — good teaching does not separate the lines but designs their meeting-point.",
+   "key_concepts": [
+    [
+     "自下而上线 the bottom-up line（日常概念从情境归纳而成——含蓄、经验性、只能用于不能说）",
+     "the bottom-up line (everyday concepts induced from situations — implicit, empirical, usable but not statable)"
+    ],
+    [
+     "自上而下线 the top-down line（科学概念由定义与系统演绎植入——形式化但情境空洞）",
+     "the top-down line (scientific concepts planted by definition and system — formalised but situation-empty)"
+    ],
+    [
+     "交汇增益 convergence gain（相遇点两侧各得其所缺——定义获得实例，经验获得自觉）",
+     "convergence gain (at the meeting each supplies the other's lack — definitions gain instances, experience gains awareness)"
+    ],
+    [
+     "意识化时刻 the moment of awareness（能说出'我一直这样做'背后的规则——日常经验升为可反思的知识）",
+     "the moment of awareness (able to state the rule behind 'I always do this' — daily experience risen into reflectable knowledge)"
+    ]
+   ],
+   "process_zh": [
+    "测两线现状：同一概念分别测'应用题'与'定义题'——判断两线各在何高度",
+    "设计相遇任务：让学习者用科学定义解释自己已有的日常做法——如用'语法'分析自己会说的话",
+    "双向改写：把定义改写为学习者实例的语言，把实例归入定义的结构——两侧同时修订",
+    "验自觉化：让学习者对新情境先说规则再做判断——检验概念已可脱离具体情境运行"
+   ],
+   "process_en": [
+    "Test both lines: the same concept measured as problems and as definitions — how high each line stands",
+    "Design the meeting task: the learner explaining an everyday practice with the scientific definition — grammar applied to the speech he already owns",
+    "Rewrite both ways: the definition recast in the learner's own examples, the examples filed into the definition's structure — both sides revised",
+    "Test for awareness: rule stated before judgement in a new situation — the concept running free of its home context"
+   ],
+   "representative_cases_zh": [
+    "'兄弟'概念实验：五年级小学生能熟练使用'兄弟'却不能定义之，而'剥削''封建'等科学概念能定义却不能即时应用——两线各自空缺的证明",
+    "母语语法的学习悖论：儿童先会说再学语法——语法（科学概念）使'会说'变为'知道自己怎么说'，写作能力随语法学习跃升",
+    "农民对'地租'的日常理解与经济学定义对照：概念在'能算账'与'能解释制度'之间有一道结构鸿沟——教学即在鸿沟上架桥"
+   ],
+   "representative_cases_en": [
+    "The 'brother' concept experiment: the fifth-grader uses 'brother' fluently but cannot define it, while 'exploitation' and 'feudal' can be defined but not at once applied — each line's lack made visible",
+    "The paradox of learning one's own grammar: speech before grammar; grammar (the scientific concept) turns 'can speak' into 'knows how he speaks', and writing leaps with it",
+    "The peasant's everyday notion of rent against the economic definition: a structural gap between 'can do the sums' and 'can explain the institution' — teaching as the bridge over the gap"
+   ],
+   "modern_applications_zh": [
+    "企业制度化训练：把一线'手感'与管理制度定义相互改写——老师傅经验显性化+制度条款情境化双修",
+    "产品术语设计：界面新概念必须挂到用户已有的日常概念上——相遇点设计决定上手速度",
+    "跨学科课程设计：先测学生自发概念的形态，再让学科定义与之对接——拒绝'零基础'假设"
+   ],
+   "modern_applications_en": [
+    "Corporate training: the front line's 'feel' and the management definition rewritten into each other — the veteran's experience made explicit and the policy clauses situated at once",
+    "Product terminology: new interface concepts hung on concepts users already own — the meeting-point designed, the ramp quickened",
+    "Interdisciplinary courses: the shape of students' spontaneous concepts measured first, the discipline's definition docked to it — no 'blank slate' assumption"
+   ],
+   "related_modes": [
+    "M-VYG-003",
+    "M-VYG-006",
+    "M-VYG-008",
+    "M-VYG-010",
+    "M-SMQ-322"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "加里培林（后继：概念形成的阶段化教学实验——交汇法的课堂工艺化）",
+    "奥苏贝尔（呼应：先行组织者——为自上而下的科学概念接引日常经验的先导设计）"
+   ],
+   "figure_code": "VYG"
+  },
+  {
+   "id": "M-VYG-010",
+   "mode_code": "M-VYG-010",
+   "name_zh": "危机诊断重构法",
+   "name_en": "Crisis-Diagnosis-Renewal Method",
+   "category": "心理学方法论",
+   "domain_zh": "心理学方法论/发展危机作为新结构诞生阵痛的诊断与重构",
+   "domain_en": "Psychological methodology / developmental crisis read as the birth-pangs of a new structure, diagnosed and rebuilt",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "心理学方法论/发展中的危机（学龄期'入学期危机'、青春期危机）不是故障而是旧结构拆除与新结构建造之间的必然工序：症候（对抗、退缩、成绩骤降）应读作'旧的社会处境已容不下新的心理结构'——诊断的任务是找到危机背后正在成形的需要，改造环境去迎接它，而不是压制症候回到旧平衡；'没有斗争就没有发展'——危机是发展的工作形式",
+   "definition_en": "Psychological methodology / the crises of development (the school-age crisis, the adolescent crisis) are not malfunction but the necessary work between demolition of an old structure and construction of a new: the symptoms (defiance, withdrawal, the sudden fall in marks) read as 'the old social situation can no longer hold the new mental structure'; the task of diagnosis is to find the need taking shape behind the crisis and rebuild the environment to receive it — not to press the symptoms down into the old equilibrium; without struggle no development — the crisis the working form of growth",
+   "source_chapter": "维果茨基关于危机论的讲稿（'危机年龄'诸篇）：'危机的实质是旧结构与新结构之间的转折——发展在此以矛盾的方式完成'",
+   "key_quote_zh": "危机不是要消灭的故障，是要读懂的工序——症候指向正在成形的需要，改造处境而不是压制症候。",
+   "key_quote_en": "A crisis not a fault to be removed but a process to be read — the symptom points at the need taking shape; rebuild the setting, do not suppress the sign.",
+   "key_concepts": [
+    [
+     "症候即信号 symptom as signal（对抗与退缩是发展需要的倒影——读症状而非除症状）",
+     "symptom as signal (defiance and withdrawal the reflection of a developmental need — read the symptom, do not merely remove it)"
+    ],
+    [
+     "结构换代 structural succession（旧心理结构与环境配置解体、新结构装配的过渡期——阵痛属于装配）",
+     "structural succession (the transition while the old configuration dissolves and the new assembles — the pangs belong to the assembly)"
+    ],
+    [
+     "环境改造论 environment rebuild（处理危机的单位是环境不是个体——新需要要有新处境去满足）",
+     "environment rebuild (the unit of treatment the setting, not the person — the new need requires a new situation to meet it)"
+    ],
+    [
+     "危机-稳定节律 crisis-stable rhythm（稳定期缓慢积累量变、危机期骤然完成质变——两期交替是发展的呼吸）",
+     "the crisis-stable rhythm (slow quantitative accretion in stable phases, abrupt qualitative change in crises — the two alternating as development's breath)"
+    ]
+   ],
+   "process_zh": [
+    "标记症候清单：把冲突、退缩、退化行为列成清单——当作信号而非问题",
+    "追成形需要：每个症候后追问'什么新能力/新身份正在要求位置'——需要与症候配对",
+    "改环境配置：调整任务、关系与规则去满足成形需要——给新结构腾出空间",
+    "验新结构：症候随环境改造消退且新能力显现——确认换代完成"
+   ],
+   "process_en": [
+    "List the symptoms: conflicts, withdrawal, regression tabulated — signals, not problems",
+    "Trace the forming need: behind each symptom ask what new power or identity is demanding a place — need and symptom paired",
+    "Rebuild the setting: tasks, relations and rules adjusted to meet the need — room made for the new structure",
+    "Verify the succession: symptoms recede as the setting changes and new abilities appear — the handover confirmed"
+   ],
+   "representative_cases_zh": [
+    "'三岁危机'与'七岁危机'的观察传统：刁难、固执、违命在危机年龄集中出现——维果茨基解读为'儿童要求新关系形式'的信号而非'变坏'",
+    "入学期危机的经典分析：从游戏主导转向学习主导的换挡期，'不肯上学'背后是旧活动结构解体——提前安排学习活动的社会形式可平稳换挡",
+    "青春期危机的结构解读：'少年自觉是成人'与'社会仍当他是孩子'的矛盾是危机核心——解法在改造他的社会位置（责任、角色），而非说教"
+   ],
+   "representative_cases_en": [
+    "The observation tradition of the three-year and seven-year crises: negativism, stubbornness, defiance clustered at the crisis ages — read by Vygotsky as the signal 'the child demands a new form of relations', not as spoiling",
+    "The classic analysis of the school-entry crisis: in the gear-change from play-led to study-led, 'refusing school' as the old activity-structure dismantling — the social form of study activity arranged in advance, the change made smooth",
+    "The structural reading of the adolescent crisis: 'the youth feels himself an adult' against a society that treats him as a child — the core of the crisis; the remedy the rebuilding of his social place (duties, roles), not exhortation"
+   ],
+   "modern_applications_zh": [
+    "组织变革期人事管理：抵触情绪先按'危机信号'读——追问哪些能力与身份在要求新位置，重构岗位与授权",
+    "产品大改版的用户迁移：老用户抗议按'结构换代阵痛'处理——提供新的成就场景与角色迁移通道而非仅致歉",
+    "个人职业转型：倦怠与抗拒读作'新身份要求出场'——设计实验性新角色而非硬撑旧岗位"
+   ],
+   "modern_applications_en": [
+    "People management through organisational change: resistance first read as crisis signal — which powers and identities demand new places; roles and mandates rebuilt",
+    "User migration through a big product redesign: protests handled as birth-pangs of succession — new scenes of achievement and channels of role transfer, not apologies alone",
+    "The personal career shift: burnout and resistance read as 'a new identity demanding the stage' — experimental new roles designed rather than the old post grimly held"
+   ],
+   "related_modes": [
+    "M-VYG-001",
+    "M-VYG-006",
+    "M-VYG-009",
+    "M-MON-008",
+    "M-AUR-003"
+   ],
+   "representative_figures": [
+    "维果茨基（核心）",
+    "艾里康宁与加里培林（后继：危机年龄与发展期活动转换的周期表化）",
+    "涂尔干（跨域呼应：失范作为转型真空的诊断——同为'结构换代'的病理学）"
+   ],
+   "figure_code": "VYG"
+  }
+ ]
+}

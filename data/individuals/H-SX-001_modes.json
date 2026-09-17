@@ -1,0 +1,563 @@
+{
+  "schema_version": "v6",
+  "code": "H-SX-001",
+  "figure_name_zh": "苏咸",
+  "figure_name_en": "Su Xian",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M393",
+      "name_zh": "审时度势法",
+      "name_en": "Situational Analysis Method",
+      "mode_code": "M393",
+      "category": "外交战略",
+      "domain_zh": "国际格局研判",
+      "domain_en": "International Pattern Assessment",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "通过系统观察和分析各国实力对比、地缘政治关系和利益诉求，制定最优外交策略。苏咸主张'观其形势而定策，察其利害而行言'，强调外交决策必须建立在准确的情报分析和形势判断基础上。",
+      "definition_en": "Systematically observe and analyze the relative strengths, geopolitical relationships, and interest demands of all states to formulate optimal diplomatic strategy. Su Xian advocated 'determine strategy by observing circumstances, speak based on analysis of interests', emphasizing that diplomatic decisions must be grounded in accurate intelligence and situational assessment.",
+      "source_chapter": "《苏咸子·权变篇》",
+      "key_concepts": [
+        "形势研判",
+        "利益分析",
+        "战略决策"
+      ],
+      "process_zh": [
+        "收集各国军政情报",
+        "分析实力对比和利益格局",
+        "制定针对性外交策略",
+        "动态调整战略方向"
+      ],
+      "process_en": [
+        "Collect intelligence on military and political affairs",
+        "Analyze relative strengths and interest patterns",
+        "Formulate targeted diplomatic strategy",
+        "Dynamically adjust strategic direction"
+      ],
+      "key_quote_zh": "观其形势而定策，察其利害而行言。",
+      "key_quote_en": "Determine strategy by observing circumstances, speak based on analysis of interests.",
+      "representative_cases_zh": [
+        "周游列国形势分析",
+        "合纵连横战略制定"
+      ],
+      "representative_cases_en": [
+        "State-by-state situational analysis",
+        "Vertical-horizontal strategy formulation"
+      ],
+      "modern_applications_zh": [
+        "国际关系战略研判",
+        "商业竞争环境分析",
+        "风险评估与决策支持"
+      ],
+      "modern_applications_en": [
+        "International relations strategic assessment",
+        "Business competitive environment analysis",
+        "Risk evaluation and decision support"
+      ],
+      "related_modes": [
+        "M394",
+        "M402"
+      ]
+    },
+    {
+      "id": "M394",
+      "name_zh": "因势利导法",
+      "name_en": "Following Natural Momentum Method",
+      "mode_code": "M394",
+      "category": "外交战略",
+      "domain_zh": "顺势而为",
+      "domain_en": "Acting with Natural Flow",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "善于利用各国之间的矛盾和利益冲突，顺势推动有利于己方的外交局面。苏咸主张'顺势而为，不可逆势而动'，强调在复杂多变的国际格局中，外交家应善于利用既有矛盾而非强行改变力量对比。",
+      "definition_en": "Skillfully exploit contradictions and interest conflicts among states to advance favorable diplomatic situations. Su Xian advocated 'acting with the flow, never against it', emphasizing that diplomats should exploit existing contradictions rather than forcefully alter power balances in complex international landscapes.",
+      "source_chapter": "《苏咸子·纵横篇》",
+      "key_concepts": [
+        "顺势而为",
+        "矛盾利用",
+        "利益驱动"
+      ],
+      "process_zh": [
+        "识别各国核心矛盾",
+        "分析利益冲突点",
+        "设计顺势推动方案",
+        "利用既有矛盾达成目标"
+      ],
+      "process_en": [
+        "Identify core contradictions among states",
+        "Analyze conflict of interest points",
+        "Design momentum-driven proposals",
+        "Utilize existing contradictions to achieve goals"
+      ],
+      "key_quote_zh": "顺势而为，不可逆势而动。",
+      "key_quote_en": "Act with the flow, never act against it.",
+      "representative_cases_zh": [
+        "利用齐楚矛盾",
+        "推动合纵联盟"
+      ],
+      "representative_cases_en": [
+        "Exploiting Qi-Chu contradictions",
+        "Promoting vertical alliance"
+      ],
+      "modern_applications_zh": [
+        "市场竞争策略",
+        "商业谈判技巧",
+        "危机管理"
+      ],
+      "modern_applications_en": [
+        "Market competition strategy",
+        "Business negotiation skills",
+        "Crisis management"
+      ],
+      "related_modes": [
+        "M393",
+        "M401"
+      ]
+    },
+    {
+      "id": "M395",
+      "name_zh": "以言动天下法",
+      "name_en": "Power of Persuasive Discourse Method",
+      "mode_code": "M395",
+      "category": "游说艺术",
+      "domain_zh": "外交言辞战略",
+      "domain_en": "Diplomatic Rhetoric Strategy",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "认识到言辞的战略力量，'一言可以兴邦，一言可以丧邦'。通过精心设计的游说言辞和论证逻辑，影响他国决策层的外交政策取向，以最小的代价实现最大的政治目标。",
+      "definition_en": "Recognizing the strategic power of words, 'a single word can elevate or destroy a state'. Through carefully crafted diplomatic rhetoric and argumentation logic, influence other states' foreign policy decisions to achieve maximum political objectives with minimal cost.",
+      "source_chapter": "《苏咸子·言术篇》",
+      "key_concepts": [
+        "言辞战略",
+        "游说艺术",
+        "心理影响"
+      ],
+      "process_zh": [
+        "分析目标决策者心理",
+        "设计说服逻辑框架",
+        "精心措辞游说内容",
+        "精准传达战略信息"
+      ],
+      "process_en": [
+        "Analyze target decision-maker psychology",
+        "Design persuasive logical framework",
+        "Craft diplomatic rhetoric carefully",
+        "Deliver strategic message precisely"
+      ],
+      "key_quote_zh": "一言可以兴邦，一言可以丧邦。",
+      "key_quote_en": "A single word can elevate or destroy a state.",
+      "representative_cases_zh": [
+        "游说楚王合纵抗秦",
+        "说服齐君联魏制赵"
+      ],
+      "representative_cases_en": [
+        "Persuading King of Chu to form vertical alliance against Qin",
+        "Convincing King of Qi to ally with Wei"
+      ],
+      "modern_applications_zh": [
+        "高层外交谈判",
+        "战略公关传播",
+        "危机公关应对"
+      ],
+      "modern_applications_en": [
+        "High-level diplomatic negotiation",
+        "Strategic public relations communication",
+        "Crisis public relations response"
+      ],
+      "related_modes": [
+        "M396",
+        "M402"
+      ]
+    },
+    {
+      "id": "M396",
+      "name_zh": "因敌制变法",
+      "name_en": "Adaptive Strategy Method",
+      "mode_code": "M396",
+      "category": "权变思维",
+      "domain_zh": "灵活应变",
+      "domain_en": "Flexible Adaptation",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "在外交博弈中根据对手的反应和局势变化实时调整策略，'见人说人话，见鬼说鬼话'的权变智慧。苏咸强调灵活应变和因敌制宜，反对僵化的外交教条主义。",
+      "definition_en": "Real-time strategy adjustment in diplomatic contests based on opponents' reactions and situation changes, demonstrating the wisdom of flexible adaptation. Su Xian emphasized flexibility and situational appropriateness, opposing rigid diplomatic dogmatism.",
+      "source_chapter": "《苏咸子·权变篇》",
+      "key_concepts": [
+        "灵活应变",
+        "因敌制宜",
+        "权变智慧"
+      ],
+      "process_zh": [
+        "观察对手反应模式",
+        "分析对方核心诉求",
+        "动态调整游说策略",
+        "灵活转换外交立场"
+      ],
+      "process_en": [
+        "Observe opponent's reaction patterns",
+        "Analyze core interests and demands",
+        "Dynamically adjust diplomatic strategy",
+        "Flexibly shift diplomatic positions"
+      ],
+      "key_quote_zh": "见人说人话，见鬼说鬼话。",
+      "key_quote_en": "Speak human language to humans, ghost language to ghosts.",
+      "representative_cases_zh": [
+        "对秦严词威胁",
+        "对楚温言利诱"
+      ],
+      "representative_cases_en": [
+        "Strict threats to Qin",
+        "Gentle inducements to Chu"
+      ],
+      "modern_applications_zh": [
+        "动态竞争策略",
+        "灵活商业谈判",
+        "敏捷项目管理"
+      ],
+      "modern_applications_en": [
+        "Dynamic competitive strategy",
+        "Flexible business negotiation",
+        "Agile project management"
+      ],
+      "related_modes": [
+        "M395",
+        "M400"
+      ]
+    },
+    {
+      "id": "M397",
+      "name_zh": "虚实相生法",
+      "name_en": "Strategic Deception Method",
+      "mode_code": "M397",
+      "category": "战略欺骗",
+      "domain_zh": "信息操控",
+      "domain_en": "Information Manipulation",
+      "level": "重要",
+      "priority": 5,
+      "definition_zh": "通过战略性信息操控影响他国决策，'虚则实之，实则虚之'。苏咸善于利用信息不对称和战略欺骗来创造有利的外交态势，其虚实相生原则是纵横家核心战术之一。",
+      "definition_en": "Strategic information manipulation to influence other states' decisions, 'appearing weak when strong, appearing strong when weak'. Su Xian skillfully exploited information asymmetry and strategic deception to create favorable diplomatic situations; the interplay of emptiness and reality was one of the core tactics of the School of Diplomacy.",
+      "source_chapter": "《苏咸子·虚实篇》",
+      "key_concepts": [
+        "战略欺骗",
+        "信息操控",
+        "虚实转换"
+      ],
+      "process_zh": [
+        "判断信息传递时机",
+        "设计虚实策略组合",
+        "制造战略迷雾效果",
+        "引导他国错误判断"
+      ],
+      "process_en": [
+        "Determine timing for information transmission",
+        "Design interplay strategy combinations",
+        "Create strategic fog effects",
+        "Guide opponents to erroneous judgments"
+      ],
+      "key_quote_zh": "虚则实之，实则虚之。",
+      "key_quote_en": "Appearing weak when strong, appearing strong when weak.",
+      "representative_cases_zh": [
+        "佯攻魏国以救赵",
+        "假意附秦以离盟"
+      ],
+      "representative_cases_en": [
+        "Feigned attack on Wei to save Zhao",
+        "Pretended alliance with Qin to break coalition"
+      ],
+      "modern_applications_zh": [
+        "市场竞争信号释放",
+        "商业情报战策略",
+        "金融衍生品定价"
+      ],
+      "modern_applications_en": [
+        "Market signaling strategies",
+        "Business intelligence operations",
+        "Financial derivatives pricing"
+      ],
+      "related_modes": [
+        "M398",
+        "M401"
+      ]
+    },
+    {
+      "id": "M398",
+      "name_zh": "利益博弈法",
+      "name_en": "Interest Calculus Method",
+      "mode_code": "M398",
+      "category": "利益分析",
+      "domain_zh": "国家利益计算",
+      "domain_en": "State Interest Calculation",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "精于计算各国利害关系，'利之所在，民归之；利之所趋，国从之'。苏咸以利益驱动作为外交决策的核心依据，善于通过经济、军事和政治利益的精确计算来推动有利的外交结果。",
+      "definition_en": "Expert at calculating state interests, 'where benefits lie, people follow; where interests point, states move'. Su Xian used interest-driven decision-making as the core basis for foreign policy, skillfully advancing favorable diplomatic outcomes through precise calculations of economic, military, and political interests.",
+      "source_chapter": "《苏咸子·利益篇》",
+      "key_concepts": [
+        "利益计算",
+        "驱动决策",
+        "精确评估"
+      ],
+      "process_zh": [
+        "量化各国利益得失",
+        "建立利益交换模型",
+        "设计最优利益分配方案",
+        "以利益驱动外交决策"
+      ],
+      "process_en": [
+        "Quantify gains and losses for each state",
+        "Build interest exchange models",
+        "Design optimal利益 distribution plans",
+        "Drive diplomatic decisions through interests"
+      ],
+      "key_quote_zh": "利之所在，民归之；利之所趋，国从之。",
+      "key_quote_en": "Where benefits lie, people follow; where interests point, states move.",
+      "representative_cases_zh": [
+        "以土地换盟约",
+        "以贸易换安全"
+      ],
+      "representative_cases_en": [
+        "Trading land for treaties",
+        "Trading commerce for security"
+      ],
+      "modern_applications_zh": [
+        "国际贸易谈判",
+        "战略合作伙伴关系构建",
+        "资源分配优化"
+      ],
+      "modern_applications_en": [
+        "International trade negotiation",
+        "Strategic partnership building",
+        "Resource allocation optimization"
+      ],
+      "related_modes": [
+        "M397",
+        "M402"
+      ]
+    },
+    {
+      "id": "M399",
+      "name_zh": "信息不对称法",
+      "name_en": "Information Asymmetry Method",
+      "mode_code": "M399",
+      "category": "利益分析",
+      "domain_zh": "情报优势利用",
+      "domain_en": "Intelligence Advantage Utilization",
+      "level": "重要",
+      "priority": 7,
+      "definition_zh": "善于利用信息差进行外交博弈，'知彼知己者胜，不知彼而知己者半胜'。苏咸建立了系统的国际情报网络，通过掌握更多信息来在外交谈判中获得战略优势。",
+      "definition_en": "Skillfully exploits information gaps in diplomacy, 'knowing both self and enemy brings victory; knowing only oneself brings partial victory'. Su Xian established systematic international intelligence networks to gain strategic advantages in diplomatic negotiations through superior information.",
+      "source_chapter": "《苏咸子·情报篇》",
+      "key_concepts": [
+        "信息优势",
+        "情报网络",
+        "战略博弈"
+      ],
+      "process_zh": [
+        "建立国际情报网络",
+        "收集分析敌我信息",
+        "利用信息差创造优势",
+        "保护己方情报安全"
+      ],
+      "process_en": [
+        "Establish international intelligence networks",
+        "Collect and analyze own vs enemy information",
+        "Create advantages through information gaps",
+        "Protect intelligence security"
+      ],
+      "key_quote_zh": "知彼知己者胜，不知彼而知己者半胜。",
+      "key_quote_en": "Knowing both self and enemy brings victory; knowing only oneself brings partial victory.",
+      "representative_cases_zh": [
+        "间谍网络收集军情",
+        "利用信息差达成外交协议"
+      ],
+      "representative_cases_en": [
+        "Spy network gathering military intelligence",
+        "Exploiting information gaps for diplomatic agreements"
+      ],
+      "modern_applications_zh": [
+        "商业情报分析",
+        "信息安全战略",
+        "竞争情报管理"
+      ],
+      "modern_applications_en": [
+        "Business intelligence analysis",
+        "Information security strategy",
+        "Competitive intelligence management"
+      ],
+      "related_modes": [
+        "M393",
+        "M397"
+      ]
+    },
+    {
+      "id": "M400",
+      "name_zh": "战略主动法",
+      "name_en": "Strategic Initiative Method",
+      "mode_code": "M400",
+      "category": "权变思维",
+      "domain_zh": "战略主动权",
+      "domain_en": "Strategic Initiative",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "在外交博弈中始终保持战略主动权，'先声夺人，先发制敌'。苏咸强调主动出击和先机掌控，通过预先设计和主动推进外交议程来掌握局势主导权。",
+      "definition_en": "Always maintaining strategic initiative in diplomatic contests, 'seizing the initiative through voice, striking first'. Su Xian emphasized proactive action and first-mover advantage, mastering situation control through pre-designed diplomatic agendas.",
+      "source_chapter": "《苏咸子·主动篇》",
+      "key_concepts": [
+        "战略先机",
+        "主动出击",
+        "议程掌控"
+      ],
+      "process_zh": [
+        "预判外交趋势走向",
+        "预先设计战略方案",
+        "抢先提出外交倡议",
+        "掌控谈判议程节奏"
+      ],
+      "process_en": [
+        "Anticipate diplomatic trend directions",
+        "Pre-design strategic proposals",
+        "Proactively propose diplomatic initiatives",
+        "Control negotiation agenda pace"
+      ],
+      "key_quote_zh": "先声夺人，先发制敌。",
+      "key_quote_en": "Seize the initiative through voice, strike first.",
+      "representative_cases_zh": [
+        "主动发起合纵倡议",
+        "抢先提出和平方案"
+      ],
+      "representative_cases_en": [
+        "Proactively initiating vertical alliance",
+        "Pioneering peace proposals"
+      ],
+      "modern_applications_zh": [
+        "市场先发优势策略",
+        "标准制定权争夺",
+        "创新竞赛战略"
+      ],
+      "modern_applications_en": [
+        "First-mover market strategy",
+        "Standard-setting competition",
+        "Innovation race strategy"
+      ],
+      "related_modes": [
+        "M396",
+        "M401"
+      ]
+    },
+    {
+      "id": "M401",
+      "name_zh": "合纵连横法",
+      "name_en": "Vertical-Horizontal Strategy Method",
+      "mode_code": "M401",
+      "category": "外交战略",
+      "domain_zh": "联盟战略",
+      "domain_en": "Alliance Strategy",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "提出'合众弱以攻一强，或附一强以攻众弱'的两大外交战略框架。苏咸是战国时期合纵连横思想的先驱，其联盟战略为后世张仪、苏秦的外交实践奠定了理论基础。",
+      "definition_en": "Proposed two major diplomatic frameworks: 'unite weak states against one strong, or ally with one strong against multiple weak'. Su Xian was the pioneer of vertical-horizontal strategy in the Warring States period, laying theoretical foundations for later diplomatic practices by Zhang Yi and Su Qin.",
+      "source_chapter": "《苏咸子·合纵篇》",
+      "key_concepts": [
+        "合纵联盟",
+        "连横策略",
+        "力量制衡"
+      ],
+      "process_zh": [
+        "评估各国实力对比",
+        "确定主要威胁来源",
+        "设计联盟合作框架",
+        "协调各方利益分配"
+      ],
+      "process_en": [
+        "Assess relative strengths of all states",
+        "Identify primary threat sources",
+        "Design alliance cooperation framework",
+        "Coordinate利益 distribution among parties"
+      ],
+      "key_quote_zh": "合众弱以攻一强，或附一强以攻众弱。",
+      "key_quote_en": "Unite weak states against one strong, or ally with one strong against multiple weak.",
+      "representative_cases_zh": [
+        "六国合纵抗秦",
+        "连横破纵联盟"
+      ],
+      "representative_cases_en": [
+        "Six-state vertical alliance against Qin",
+        "Horizontal strategy breaking the alliance"
+      ],
+      "modern_applications_zh": [
+        "国际联盟构建",
+        "多边贸易协定谈判",
+        "战略伙伴关系网络"
+      ],
+      "modern_applications_en": [
+        "International alliance building",
+        "Multilateral trade agreement negotiation",
+        "Strategic partnership networks"
+      ],
+      "related_modes": [
+        "M394",
+        "M397"
+      ]
+    },
+    {
+      "id": "M402",
+      "name_zh": "国际格局分析法",
+      "name_en": "International Pattern Analysis Method",
+      "mode_code": "M402",
+      "category": "游说艺术",
+      "domain_zh": "宏观战略视野",
+      "domain_en": "Macro-Strategic Vision",
+      "level": "重要",
+      "priority": 10,
+      "definition_zh": "从宏观视角分析国际格局变化趋势，'天下之势，分合无常'。苏咸具备超越单一国家利益的系统性战略视野，能够准确预测和应对国际格局的重大变化。",
+      "definition_en": "Macro-level analysis of international pattern changes, 'the trends of the world are constantly shifting between division and unity'. Su Xian possessed systemic strategic vision beyond single-state interests, accurately predicting and responding to major changes in international patterns.",
+      "source_chapter": "《苏咸子·时势篇》",
+      "key_concepts": [
+        "宏观视野",
+        "格局变化",
+        "趋势预测"
+      ],
+      "process_zh": [
+        "建立全球态势感知",
+        "分析格局演变规律",
+        "预测战略转折节点",
+        "制定长期外交方针"
+      ],
+      "process_en": [
+        "Establish global situational awareness",
+        "Analyze pattern evolution patterns",
+        "Predict strategic inflection points",
+        "Formulate long-term diplomatic policy"
+      ],
+      "key_quote_zh": "天下之势，分合无常。",
+      "key_quote_en": "The trends of the world are constantly shifting between division and unity.",
+      "representative_cases_zh": [
+        "预测秦国崛起趋势",
+        "预判合纵联盟瓦解"
+      ],
+      "representative_cases_en": [
+        "Predicting Qin's rise trajectory",
+        "Anticipating alliance dissolution"
+      ],
+      "modern_applications_zh": [
+        "地缘政治研究",
+        "国际战略预测",
+        "全球治理方案设计"
+      ],
+      "modern_applications_en": [
+        "Geopolitical research",
+        "International strategic forecasting",
+        "Global governance design"
+      ],
+      "related_modes": [
+        "M393",
+        "M401"
+      ]
+    }
+  ],
+  "source_files": [
+    "H-SX-001.json",
+    "H-SX-001_modes.json"
+  ]
+}

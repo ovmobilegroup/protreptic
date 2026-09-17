@@ -1,0 +1,996 @@
+{
+  "id": "H-SC-001",
+  "code": "SC",
+  "schema_version": "v6",
+  "figure_name": "薛定谔",
+  "figure_code": "Schrodinger",
+  "figure_pinyin": "Xuedie'er",
+  "birth_year": "1887",
+  "death_year": "1961",
+  "era": "奥地利/爱尔兰，二十世纪物理学革命期",
+  "era_en": "Austria/Ireland, era of the twentieth-century physics revolutions",
+  "school": "波动力学 / 量子力学创始人学派",
+  "historical_significance": "波动力学的缔造者，把量子论从『量子条件外挂』的补丁状态重构为连续波动方程的自然解。核心方法论：以哈密顿光学-力学类比把成熟学科的数学结构整体移植进僵局学科（波方程由此诞生）、以《作为本征值问题的量子化》把外加法令重构为边值问题的自然输出（整数量子数像泛音一样自动浮现）、以可理解性为判据对抗不可视的形式主义（虽败于诠释却赢下工作语言）、以薛定谔猫把诠释裂缝放大到不可忽视（荒诞即设计）、以系列论战文把异议从情绪升级为持续更新的论证体系、以《生命是什么》从物理工具推演生命之谜并做出『非周期性晶体』与『负熵』两大预言（直接启发了DNA发现者）、以公开的高阶判据（美感与可算性）进行理论选择并保持判据自觉、以等价性证明把路线之争降维到诠释层完成学科统一、以吠檀多-叔本华-量子观测者的跨文明收敛论证提升深层断言的置信度、以《心灵与物质》等公共写作把科学前沿翻译成公众可审议的文本。他是物理学家中罕见的『方法论自觉者』：每一场争论他都同时留下理论、判据与元方法。",
+  "historical_significance_en": "Creator of wave mechanics, who reframed quantum theory from a state of bolted-on patches ('quantum conditions') into the natural solution of a continuous wave equation. Core methodology: transplanting a mature discipline's mathematical structure wholesale into a deadlocked one via Hamilton's optics-mechanics analogy (from which the wave equation was born); reframing imposed decrees as the natural output of boundary-value problems in 'Quantization as an Eigenvalue Problem' (integer quantum numbers emerging like overtones); resisting invisible formalism in the name of intelligibility (losing the interpretation yet winning the working language); amplifying the interpretive fissure until unignorable with the Schrödinger cat (absurdity by design); upgrading dissent from sentiment into a continuously updated body of argument through serialized polemics; deducing the riddles of life from physical tools in What Is Life? with the twin predictions of the 'aperiodic crystal' and 'negative entropy' (directly inspiring the discoverers of DNA); choosing theories by publicly declared higher-order criteria (beauty and computability) while keeping criterion-awareness; downgrading the route war to the interpretive layer via the equivalence proof and unifying the discipline; raising the confidence of deep claims through cross-civilizational convergence arguments (Vedanta-Schopenhauer-quantum observer); and translating the scientific frontier into publicly deliberable texts in Mind and Matter and other public writings. He was a rare 'methodological self-conscious' figure among physicists: in every dispute he left behind a theory, a criterion, and a meta-method.",
+  "unique_thinking": "波动力学的缔造者，把量子论从『量子条件外挂』的补丁状态重构为连续波动方程的自然解。核心方法论：以哈密顿光学-力学类比把成熟学科的数学结构整体移植进僵局学科（波方...",
+  "unique_thinking_en": "Creator of wave mechanics, who reframed quantum theory from a state of bolted-on...",
+  "civilization_zh": "奥地利（中欧）",
+  "civilization_en": "Austria (Central Europe)",
+  "roles_zh": [
+    "理论物理学家",
+    "波动力学创始人",
+    "1933年诺贝尔物理学奖得主",
+    "都柏林高等研究院教授",
+    "科学作家"
+  ],
+  "roles_en": [
+    "Theoretical Physicist",
+    "Founder of Wave Mechanics",
+    "Nobel Laureate in Physics 1933",
+    "Professor, Dublin Institute for Advanced Studies",
+    "Science Writer"
+  ],
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-SC-001",
+    "M-SC-002",
+    "M-SC-003",
+    "M-SC-004",
+    "M-SC-005",
+    "M-SC-006",
+    "M-SC-007",
+    "M-SC-008",
+    "M-SC-009",
+    "M-SC-010"
+  ],
+  "key_works": [
+    "《作为本征值问题的量子化》系列四篇 (Quantisierung als Eigenwertproblem, 1926)",
+    "《论海森堡-玻恩-约当量子力学与我的波动力学的关系》(1926) 等价性证明",
+    "《量子力学的现状》(Die gegenwärtige Situation in der Quantenmechanik, 1935) 与薛定谔猫思想实验",
+    "《生命是什么》(What Is Life?, 1944)",
+    "《心灵与物质》(Mind and Matter, 1958)",
+    "《科学与人文——薛定谔演讲集》(Science and Humanism, 1952)"
+  ],
+  "key_concepts": [
+    "波动力学",
+    "量子力学",
+    "波函数",
+    "不确定性",
+    "叠加态"
+  ],
+  "cross_references": [],
+  "tags": [
+    [
+      "光学力学类比移植法",
+      "Optico-Mechanical Analogy Transplant Method",
+      "类比推理/跨学科移植"
+    ],
+    [
+      "量子化本征值重构法",
+      "Eigenvalue Reformulation of Quantization Method",
+      "理论建构/问题重构"
+    ],
+    [
+      "波动连续描述坚守法",
+      "Continuous Wave-Description Commitment Method",
+      "学术方法论/路线之争"
+    ],
+    [
+      "毒猫思想实验法",
+      "Cat-Thought-Experiment Method",
+      "思想实验/暴露问题"
+    ],
+    [
+      "概率诠释异议坚守法",
+      "Principled-Dissent-Against-Orthodoxy Method",
+      "学术方法论/立场管理"
+    ],
+    [
+      "What-is-Life跨域预言法",
+      "Cross-Domain Predictive Question Method (What Is Life?)",
+      "理论建构/跨域统摄"
+    ],
+    [
+      "美学判据选理论法",
+      "Aesthetic-Criterion Theory-Choice Method",
+      "学术方法论/判据哲学"
+    ],
+    [
+      "等价性证明终结争论法",
+      "Equivalence-Proof Debate-Resolution Method",
+      "学术方法论/争论管理"
+    ],
+    [
+      "东方西方会通法",
+      "East-West Convergence Method",
+      "哲学方法论/跨文明统摄"
+    ],
+    [
+      "科学公共责任写作法",
+      "Public-Responsibility Science-Writing Method",
+      "公共责任/写作工程"
+    ]
+  ],
+  "modes": [
+    {
+      "id": "M-SC-001",
+      "mode_code": "M-SC-001",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "光学力学类比移植法",
+        "Optico-Mechanical Analogy Transplant Method",
+        "类比推理/跨学科移植"
+      ],
+      "name_en": [
+        "Optico-Mechanical Analogy Transplant Method",
+        "Optico-Mechanical Analogy Transplant Method",
+        "类比推理/跨学科移植"
+      ],
+      "category": [
+        "光学力学类比移植法",
+        "Optico-Mechanical Analogy Transplant Method",
+        "类比推理/跨学科移植"
+      ],
+      "domain_zh": "把成熟学科的数学结构整体移植到僵局学科",
+      "domain_en": "Transplanting a Mature Discipline's Mathematical Structure into a Deadlocked One",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "1925 年的量子论深陷『量子条件外挂』的困局：玻尔模型靠人为规定的分立轨道凑出光谱，却说不清为什么分立。薛定谔的突破口是一次教科书级的大移植——哈密顿一个世纪前已证明，几何光学的光线方程与分析力学的质点方程在数学上同构：力学只是『折射率随位置变化的介质中的光学』。德布罗意说粒子有波，薛定谔追问：那么粒子力学的『波动版』是什么？他把哈密顿类比再推一层，写出波动方程，让旧量子论的量子条件从波动驻态中自动浮现。方法上这意味着：当一门学科靠特设假设打补丁时，去找一门数学结构成熟、且与本学科共享同一深层方程的邻近学科——移植的不是结论而是整个结构，让本学科的『特设假设』在移植后降格为可推导的推论。",
+      "definition_en": "Quantum theory in 1925 was mired in the deadlock of the 'bolted-on quantum condition': Bohr's model conjured spectra from arbitrarily postulated discrete orbits but could not say why they were discrete. Schrödinger's breakthrough was a textbook-grade transplant—Hamilton had proved a century earlier that the ray equations of geometrical optics and the particle equations of analytical mechanics are mathematically isomorphic: mechanics is optics in a medium whose refractive index varies with position. De Broglie said particles have waves; Schrödinger pressed the question: what, then, is the wave version of particle mechanics? Pushing Hamilton's analogy one level further, he wrote down the wave equation and let the old quantum conditions emerge automatically from standing waves. Methodologically: when a field survives on ad hoc patches, find a neighboring discipline whose mathematical structure is mature and shares the field's deep equation—transplant the whole structure, not the conclusions, so the field's ad hoc postulates downgrade into derivable corollaries.",
+      "source_chapter": "《作为本征值问题的量子化》第一篇（Annalen der Physik, 1926）：『哈密顿的类比……是我全部思考的起点』；致 Wien（1926.1.8）信中自述从德布罗意到波方程的路径",
+      "key_concepts": [
+        "哈密顿类比",
+        "跨学科结构移植",
+        "几何光学同构",
+        "德布罗意波",
+        "特设假设的降格"
+      ],
+      "key_quote_zh": "我全部的思考都被哈密顿的光学力学类比所指引——量子条件不是外加的，它应当从波动图像里自己长出来。",
+      "key_quote_en": "My theory was stimulated by Louis de Broglie's thesis and by short but infinitely far-seeing remarks of Einstein on it... taking the analogy of Hamilton fully seriously.",
+      "process_zh": [
+        "诊断本学科僵局的性质：是否依赖特设假设（量子条件）而非推导出的结构",
+        "寻找与本学科共享深层方程的成熟邻近学科（分析力学↔几何光学），读透其同构证明",
+        "沿同构方向再推一层：把类比推进到源学科已达成而本学科未尝试的版本（几何光学→波动光学），得到本学科的『波动方程』",
+        "检验移植的红利：原特设假设是否在移植后自动浮现（整数量子数像声学泛音一样自然出现），旧补丁能否全部撤销"
+      ],
+      "process_en": [
+        "Diagnose the deadlock: does the field rest on ad hoc postulates (quantum conditions) rather than derived structure?",
+        "Find the mature neighbor sharing the field's deep equation (analytical mechanics ↔ geometrical optics) and read its isomorphism proof thoroughly",
+        "Push the analogy one level further along the isomorphism: advance to the version the source discipline already achieved but the target never attempted (ray optics → wave optics), obtaining the target's 'wave equation'",
+        "Collect the transplant's dividend: check whether the old ad hoc postulate now emerges automatically (integer quantum numbers appearing as naturally as acoustic overtones) and whether all the old patches can be withdrawn"
+      ],
+      "representative_cases_zh": [
+        "第一篇波动力学论文的核心论证：氢原子的分立能级不是规定的，而是波动方程边值问题的本征值——整数像弦振动泛音一样『自然出现』，旧量子论的量子条件全部被推导取代",
+        "薛定谔在论文中明言此路受德布罗意 1924 年论文与爱因斯坦的短评启发——移植链条是：哈密顿→德布罗意→薛定谔，每一棒都只把类比推进一层",
+        "他同时处理了斯塔克效应等旧量子论难以应付的微扰情形，用本征值微扰理论一举解决——移植结构的解释带宽远大于被移植的补丁",
+        "反例警示：同时代许多人也读过哈密顿类比（它写在教科书里），却止步于『注意到相似』——移植需要的是把类比推到写出新方程并求解，而非停留在修辞层面"
+      ],
+      "representative_cases_en": [
+        "The core argument of the first wave-mechanics paper: the discrete energy levels of hydrogen are not postulated but eigenvalues of a boundary-value problem—integers 'appear naturally' like overtones of a vibrating string, and the old quantum conditions are wholly replaced by derivation",
+        "Schrödinger stated in the paper that the route was inspired by de Broglie's 1924 thesis and Einstein's remarks—the transplant chain runs Hamilton → de Broglie → Schrödinger, each runner advancing the analogy one level",
+        "He handled the Stark effect and other cases the old quantum theory could not, via eigenvalue perturbation theory at one stroke—the transplanted structure's explanatory bandwidth far exceeded the patches it replaced",
+        "Cautionary case: many contemporaries also knew Hamilton's analogy—it is in the textbooks—but stopped at 'noting the resemblance'; the transplant demands pushing the analogy to a new equation and solving it, not leaving it as rhetoric"
+      ],
+      "modern_applications_zh": [
+        "算法工程：当你的领域在打特设补丁时，寻找数学结构同构的成熟领域（如把控制论移植进机器学习）整体借入而非零散借鉴",
+        "产品方法论：把『邻近行业已解的同构问题』的完整解法结构移植进来，而非只抄单点功能",
+        "科研选题：优先寻找『本学科的量子条件』——那些人人沿用却无人能推导的外挂假设，它们是移植突破的靶点",
+        "团队学习：读透一门看似无关的成熟学科（光学之于力学），其同构结构常是本学科僵局的钥匙"
+      ],
+      "modern_applications_en": [
+        "Algorithm engineering: when your field survives on ad hoc patches, find a mathematically isomorphic mature field (e.g., porting cybernetics into machine learning) and borrow the whole structure, not fragments",
+        "Product methodology: transplant the complete solution structure of a solved isomorphic problem in an adjacent industry, rather than copying single features",
+        "Research selection: hunt your field's 'quantum conditions'—postulates everyone uses but no one can derive; they are the target of transplant breakthroughs",
+        "Team learning: read one seemingly unrelated mature discipline deeply (as optics was to mechanics); its isomorphic structure is often the key to your field's deadlock"
+      ],
+      "related_modes": [
+        "M-SC-002",
+        "M-SC-007",
+        "M-SC-010"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "哈密顿",
+        "德布罗意"
+      ]
+    },
+    {
+      "id": "M-SC-002",
+      "mode_code": "M-SC-002",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "量子化本征值重构法",
+        "Eigenvalue Reformulation of Quantization Method",
+        "理论建构/问题重构"
+      ],
+      "name_en": [
+        "Eigenvalue Reformulation of Quantization Method",
+        "Eigenvalue Reformulation of Quantization Method",
+        "理论建构/问题重构"
+      ],
+      "category": [
+        "量子化本征值重构法",
+        "Eigenvalue Reformulation of Quantization Method",
+        "理论建构/问题重构"
+      ],
+      "domain_zh": "把『外加条件』重构为『问题的自然解』",
+      "domain_en": "Reframing an 'Imposed Condition' as the Natural Solution of a Problem",
+      "level": [
+        "核心",
+        2
+      ],
+      "priority": [
+        "核心",
+        2
+      ],
+      "definition_zh": "薛定谔论文的标题本身就是一次方法论宣言：《作为本征值问题的量子化》。他做的事是问题重构：旧量子论把『量子化』当作一条外加于连续力学之上的法令（角动量必须是 ħ 的整数倍），而薛定谔把同一现象重新表述为一个连续问题（解一个偏微分方程）的自然输出——分立性不是法令，是边值问题本征值的固有属性。正如弦的振动频率天然分立，波动方程的能级天然分立。方法上这意味着：面对一条只能宣布、不能推导的『铁律』，不要为其寻找更好的辩护，而要寻找一个数学框架，使这条铁律成为该框架中某类问题的普遍解的属性——重构问题，往往比重构答案更彻底。",
+      "definition_en": "The title of Schrödinger's paper is itself a methodological manifesto: 'Quantization as an Eigenvalue Problem.' What he did was a problem-reframing: the old quantum theory treated quantization as a decree imposed on continuous mechanics (angular momentum must be an integer multiple of ħ), while Schrödinger reformulated the same phenomenon as the natural output of a continuous problem (solving a PDE)—discreteness is not a decree but an intrinsic property of a boundary-value problem's eigenvalues. Just as a string's vibration frequencies are naturally discrete, the wave equation's energy levels are naturally discrete. Methodologically: when facing an 'iron law' that can only be proclaimed, never derived, do not seek better defenses for it; seek a mathematical framework in which the law becomes a property of the general solutions of some class of problems—reframing the question is often more radical than reframing the answer.",
+      "source_chapter": "《作为本征值问题的量子化》(Quantisierung als Eigenwertproblem) 系列四篇（1926）；第一篇：『整数量子数以一种与声学泛音数完全相同的方式自然出现』",
+      "key_concepts": [
+        "本征值问题",
+        "问题重构",
+        "边值条件",
+        "分立性作为涌现属性",
+        "连续解分立谱"
+      ],
+      "key_quote_zh": "整数性的出现，与弦振动泛音数的出现方式完全相同——这是连续问题解的固有性质，而非外加的法令。",
+      "key_quote_en": "The integer-ness arises in the same natural way as the overtone numbers of a vibrating string—as an intrinsic property of the solution, not as an imposed decree.",
+      "process_zh": [
+        "清点领域内的『法令式命题』：哪些被当公理宣布却从未被推导（量子条件、整数规则）",
+        "为该命题寻找一个连续的母问题：使分立性成为该问题一般解的涌现属性（弦的驻波、算子的谱）",
+        "重写问题陈述：从『为何必须分立』改为『连续问题的解何时自然分立』，并求出普适解结构",
+        "回验覆盖面：旧法令的一切已验证推论（光谱、选择定则）须在新框架中作为推论重现，并检查新框架是否多预测了东西"
+      ],
+      "process_en": [
+        "Inventory the field's 'decree-like propositions': which are proclaimed as axioms but never derived (quantum conditions, integer rules)?",
+        "Find a continuous parent problem for the proposition: one where discreteness is an emergent property of general solutions (standing waves, operator spectra)",
+        "Rewrite the problem statement: from 'why must it be discrete' to 'when do solutions of a continuous problem become naturally discrete,' and solve for the universal structure",
+        "Verify coverage: every validated corollary of the old decree (spectra, selection rules) must reappear as a corollary in the new frame, and check what new things the new frame predicts"
+      ],
+      "representative_cases_zh": [
+        "氢原子重构：同一组已观测的光谱数据，在旧量子论中是法令的验证，在波动方程中是边值问题的解——数据未变，问题陈述变了，解释地位逆转",
+        "他把定态问题化为变分问题（瑞利-里茨式的），使求解与变分法这座百年数学富矿直接接通——重构把问题接进了成熟工具箱",
+        "普朗克对论文的回信称其为『划时代的解法』——连续-分立的对立以『连续方程的分立谱』方式和解，成为二十世纪物理的标准模式",
+        "反例警示：玻恩在同一时期坚持沿『对应原理』修补旧法令的路线，虽也产出成果，但补丁只能逼近不能取代——重构法令比辩护法令更有产能"
+      ],
+      "representative_cases_en": [
+        "The hydrogen atom reframed: the same observed spectra, verification of a decree in the old theory, become solutions of a boundary-value problem in the wave equation—the data unchanged, the problem statement changed, the explanatory status inverted",
+        "He recast the stationary problem as a variational one (Rayleigh-Ritz style), plugging the problem directly into the century-old goldmine of variational calculus—the reframing connected it to a mature toolbox",
+        "Planck's reply called it 'an epoch-making solution'—the continuous-discrete opposition reconciled as 'the discrete spectrum of a continuous equation,' becoming the standard pattern of twentieth-century physics",
+        "Cautionary case: Bohr's contemporaneous route of patching the old decree via the correspondence principle, though productive, could only approximate, not replace—reframing a decree outproduces defending one"
+      ],
+      "modern_applications_zh": [
+        "工程决策：把『必须遵守的合规法令』重构为『成本函数在约束下的自然最优』，使规则从外挂变为可推导",
+        "产品指标：把『必须达到的整数 KPI』重构为连续过程（留存曲线）的分立阈值，让目标从人为规定变为过程的属性",
+        "组织规则：为『为什么必须是整数』式的规定寻找连续母模型（排队论、流量模型），在模型中验证分立点的真实位置",
+        "架构设计：把硬编码的配置规则重构为通用框架下的一般解的属性，减少特设逻辑"
+      ],
+      "modern_applications_en": [
+        "Engineering decisions: reframe 'must-comply decrees' as the natural optimum of a cost function under constraints, turning rules from bolt-ons into derivables",
+        "Product metrics: reframe integer KPIs as discrete thresholds of a continuous process (retention curve), so targets become properties of the process rather than impositions",
+        "Organizational rules: for 'why must it be an integer' rules, find a continuous parent model (queueing, throughput) and verify the true locations of discrete points in the model",
+        "Architecture: reframe hardcoded configuration rules as properties of general solutions in a generic framework, cutting ad hoc logic"
+      ],
+      "related_modes": [
+        "M-SC-001",
+        "M-SC-003",
+        "M-SC-007"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "普朗克",
+        "玻恩"
+      ]
+    },
+    {
+      "id": "M-SC-003",
+      "mode_code": "M-SC-003",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "波动连续描述坚守法",
+        "Continuous Wave-Description Commitment Method",
+        "学术方法论/路线之争"
+      ],
+      "name_en": [
+        "Continuous Wave-Description Commitment Method",
+        "Continuous Wave-Description Commitment Method",
+        "学术方法论/路线之争"
+      ],
+      "category": [
+        "波动连续描述坚守法",
+        "Continuous Wave-Description Commitment Method",
+        "学术方法论/路线之争"
+      ],
+      "domain_zh": "以可理解性为判据对抗不连续的形式主义",
+      "domain_en": "Resisting Discontinuous Formalism in the Name of Intelligibility",
+      "level": [
+        "核心",
+        3
+      ],
+      "priority": [
+        "核心",
+        3
+      ],
+      "definition_zh": "1926 年海森堡的矩阵力学与薛定谔的波动力学几乎同时诞生且数学等价，但两条路线对『物理学应是什么』的理解针锋相对：矩阵力学以不可视的代数关系为本体，宣布量子跃迁是不可再分析的基本事实；薛定谔则坚持『我无法理解跳变』——物理描述应当是连续的、可视化的、可以像经典场一样被想象的。他在哥本哈根与玻尔连续辩论数周至病倒，拒绝把不可理解性当作理论的美德。虽然这场争论他最终『输给』了正统诠释（波函数坍缩、跃迁确实不可连续描述），但他的坚守留下两笔遗产：等价性证明迫使两派共同确认数学内核；而他对『方程必须可解、可算、可讲』的坚持，使波动力学成为此后物理学家事实上的工作语言——矩阵力学精炼，波动方程好用。方法上这意味着：在范式之争中，以可理解性为判据的少数派并非输家——即使本体论输了，工作语言可以赢。",
+      "definition_en": "In 1926, Heisenberg's matrix mechanics and Schrödinger's wave mechanics appeared almost simultaneously and proved mathematically equivalent, yet the two routes held opposing views of what physics should be: matrix mechanics took invisible algebraic relations as ontology and declared quantum jumps unanalyzable basic facts; Schrödinger insisted 'I cannot understand a jump'—physical description should be continuous, visualizable, imaginable like a classical field. He debated Bohr in Copenhagen for weeks until he took to his bed, refusing to treat incomprehensibility as a theoretical virtue. Though he ultimately 'lost' to the orthodox interpretation (collapse and jumps indeed resist continuous description), his commitment left two legacies: the equivalence proof forced both camps to confirm the mathematical core, and his insistence that 'equations must be solvable, computable, explicable' made wave mechanics the de facto working language of physicists ever after—matrix mechanics is refined, but the wave equation is usable. Methodologically: in a paradigm war, the minority that argues from intelligibility is not a loser—even losing the ontology, it can win the working language.",
+      "source_chapter": "《论海森堡-玻恩-约当量子力学与我的波动力学的关系》(1926) 等价性证明；海森堡《部分与整体》所记哥本哈根辩论（1926.7）：『如果这些该死的量子跳变注定要留下，我就后悔不该参与量子理论』",
+      "key_concepts": [
+        "可理解性判据",
+        "连续 vs 跳变",
+        "等价性证明",
+        "工作语言之争",
+        "少数派的遗产"
+      ],
+      "key_quote_zh": "如果这些该死的量子跳变真的要留下来，我将后悔自己曾与量子理论发生过关系。",
+      "key_quote_en": "If all this damned quantum jumping were really to stay, I should be sorry I ever got involved with quantum theory.",
+      "process_zh": [
+        "识别对手路线中被默认为美德的性质（不可视、不可言说、本质跳变），并公开质疑其合法性",
+        "给出本方判据的正面标准：理论应可解、可算、可向普通人讲解——并以此构建可用的替代描述",
+        "不回避数学对决：证明两条路线在可验证层面等价，把争论从『谁对』压缩到『哪种描述更可理解』",
+        "接受本体论败诉但收割工作语言遗产：把可理解性判据转化为工具优势（方程可解、可视化、可教）"
+      ],
+      "process_en": [
+        "Identify the properties the rival route treats as virtues by default (invisibility, ineffability, essential jumps) and publicly question their legitimacy",
+        "State the positive standard of one's own criterion: a theory should be solvable, computable, explainable to an ordinary person—and build a usable alternative description on it",
+        "Do not dodge the mathematical duel: prove the two routes equivalent at every verifiable level, compressing the dispute from 'who is right' to 'which description is intelligible'",
+        "Accept the ontological defeat but harvest the working-language legacy: convert the intelligibility criterion into a tool advantage (solvable equations, visualization, teachability)"
+      ],
+      "representative_cases_zh": [
+        "哥本哈根辩论：玻尔以『跃迁不可再分析』压薛定谔接受，薛定谔以『方程我解得动、图像我画得出』顶回——论战虽败，波动力学的可用性从此立住",
+        "等价性证明（1926 年 3 月）是他路线之争中最高效的一步：不争辩谁对，先证明数学上同一——迫使双方在公共内核上站稳，争论降维",
+        "此后一个世纪，化学、材料、工程全部用波函数与薛定谔方程工作——『败方』的形式成为整个应用学科的日常语言",
+        "反例警示：薛定谔后期部分论辩滑向为连续图像而牺牲数学严谨（如拒绝概率幅的实在含义），坚守可理解性一旦越过『描述偏好』边界变成『否认数据』，即从方法沦为偏见"
+      ],
+      "representative_cases_en": [
+        "The Copenhagen debate: Bohr pressed him to accept 'jumps are unanalyzable'; Schrödinger parried with 'I can solve my equations and draw my pictures'—he lost the debate, but wave mechanics' usability was thereby established",
+        "The equivalence proof (March 1926) was his most efficient move in the route war: instead of arguing who is right, first prove mathematical identity—forcing both camps onto a shared core and lowering the stakes",
+        "For a century since, chemistry, materials, and engineering have all worked with wavefunctions and the Schrödinger equation—the 'loser's' formalism became the daily language of entire applied disciplines",
+        "Cautionary case: some of Schrödinger's later argument slid into sacrificing mathematical rigor for the sake of the continuous picture (e.g., refusing the realist meaning of the probability amplitude); commitment to intelligibility, once it crosses from 'description preference' into 'denying the data,' degenerates from method into prejudice"
+      ],
+      "modern_applications_zh": [
+        "技术选型之争：以『团队可理解、可调试』为判据坚持直观方案，即使抽象方案在纸面更优——工作语言的胜出比论文的胜出更有长期价值",
+        "开源社区：为『难用的正统方案』提供等价但可读的替代实现，用等价性证明+可用性收割生态",
+        "组织沟通：在复杂模型与直白模型之间，默认选可向全员讲解的那个，把不可解释性视为成本而非深度",
+        "学术论辩：先做等价性证明再争诠释——把争论压缩到真正有分歧的层面"
+      ],
+      "modern_applications_en": [
+        "Technology selection wars: argue from 'the team can understand and debug it' for the intuitive option even when the abstract one looks better on paper—winning the working language outlasts winning the paper",
+        "Open source: offer an equivalent but readable alternative to a hard-to-use orthodox implementation, harvesting the ecosystem via equivalence proof plus usability",
+        "Organizational communication: default to the model everyone can be walked through; treat unexplainability as a cost, not depth",
+        "Academic debate: prove equivalence before fighting over interpretation—compressing the dispute to where real disagreement lives"
+      ],
+      "related_modes": [
+        "M-SC-002",
+        "M-SC-004",
+        "M-SC-005"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "玻尔",
+        "海森堡"
+      ]
+    },
+    {
+      "id": "M-SC-004",
+      "mode_code": "M-SC-004",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "毒猫思想实验法",
+        "Cat-Thought-Experiment Method",
+        "思想实验/暴露问题"
+      ],
+      "name_en": [
+        "Cat-Thought-Experiment Method",
+        "Cat-Thought-Experiment Method",
+        "思想实验/暴露问题"
+      ],
+      "category": [
+        "毒猫思想实验法",
+        "Cat-Thought-Experiment Method",
+        "思想实验/暴露问题"
+      ],
+      "domain_zh": "以荒诞极端的思想实验把诠释鸿沟放大到不可忽视",
+      "domain_en": "Amplifying an Interpretation Gap Until Unignorable via an Absurd Thought Experiment",
+      "level": [
+        "核心",
+        4
+      ],
+      "priority": [
+        "核心",
+        4
+      ],
+      "definition_zh": "1935 年哥本哈根诠释已成正统，薛定谔设计了他一生最著名的一次『不合作』：把量子叠加从微观放大到日常尺度——一只猫，其生死由一个原子的衰变触发，按方程则处于『既死又活』的叠加，直到有人打开箱子。他明说这是『相当荒诞的案例』（quite ridiculous cases）：荒诞正是设计目的。 microscopic 的叠加在微观尺度可以靠『仪器巨大』糊弄过去，一旦绑上猫，每次打开箱子的瞬间都在逼问：波函数到底描述实在，还是只描述知识？这一思想实验没有解决测量问题——它的功能是使问题不可回避：把一个被 'shut up and calculate' 搁置的诠释裂缝，放大成八十年后仍在争论的中心议题。方法上这意味着：当理论在某个边界（微观→宏观、个体→集体）上的诠释含糊被惯例掩盖时，构造一个把边界推到极端荒诞的思想实验，使惯例的糊弄失效。",
+      "definition_en": "In 1935, with the Copenhagen interpretation entrenched, Schrödinger staged his most famous act of non-cooperation: magnifying quantum superposition from the microscopic to the everyday scale—a cat whose life or death is triggered by a single atom's decay and which, by the equation, is 'dead and alive' until someone opens the box. He said plainly this was a 'quite ridiculous case': the absurdity is the design. Microscopic superposition can be fudged by 'the apparatus is huge'; once a cat is attached, every opening of the box demands an answer: does the wavefunction describe reality, or only knowledge? The thought experiment solved nothing—it made the problem unavoidable, amplifying an interpretive fissure papered over by 'shut up and calculate' into an issue still argued eighty years later. Methodologically: when a theory's interpretive vagueness at some boundary (micro→macro, individual→collective) is masked by convention, construct a thought experiment that pushes the boundary to absurd extremity and disables the convention's fudge.",
+      "source_chapter": "《量子力学的现状》(Die gegenwärtige Situation in der Quantenmechanik, Naturwissenschaften, 1935)：『人们甚至可以设计出相当荒诞的案例』；与爱因斯坦 1935 年通信（EPR 论文之后的回应）",
+      "key_concepts": [
+        "测量问题",
+        "荒诞化设计",
+        "尺度放大",
+        "叠加态",
+        "诠释裂缝的暴露"
+      ],
+      "key_quote_zh": "人们甚至可以设计出相当荒诞的案例：一只猫被关在钢室里……按波动方程，这整整一个小时里，它处于既活又死的状态。",
+      "key_quote_en": "One can even set up quite ridiculous cases. A cat is penned up in a steel chamber... according to the wave equation for a whole hour it is dead and alive.",
+      "process_zh": [
+        "定位理论中被惯例掩盖的含糊处：哪个断言在理想情形人人接受、在边界情形无人在意其失效",
+        "设计放大器：把微观/边界情形与一个无人能保持中立的对象（猫、人、钱）绑定，使含糊直接冲突常识",
+        "公开承认荒诞：以『quite ridiculous』式的自嘲降低攻击姿态，把矛头从对手人格转向理论本身",
+        "不提供廉价解决：思想实验的功能是钉住问题而非宣布答案——宁可让它八十年无解，也不让糊弄续命"
+      ],
+      "process_en": [
+        "Locate the vagueness masked by convention: which assertion everyone accepts in the ideal case fails unnoticed at the boundary case",
+        "Design the amplifier: bind the microscopic/boundary case to an object no one can stay neutral about (a cat, a person, money), so the vagueness collides head-on with common sense",
+        "Concede the absurdity in public: a 'quite ridiculous' self-mockery lowers the attack posture and points the矛头 at the theory, not at opponents' persons",
+        "Offer no cheap resolution: the thought experiment's function is to pin the problem, not announce the answer—prefer letting it go unsolved for eighty years to letting the fudge survive"
+      ],
+      "representative_cases_zh": [
+        "猫思想实验的直接语境是 1935 年 EPR 之谜与他对哥本哈根『波函数=知识』立场的不满——它是致爱因斯坦信件讨论的公开化，不是孤立奇想",
+        "『既死又活』的设计使『观测使波函数坍缩』必须回答『观测』是什么——此后八十年退相干、多世界、GRW 等全部方案都把这箱猫当作第一道试题",
+        "他同年在同一组论文中给出叠加放大的一般论证（不稳系统、盖革计数器链条），猫只是链条的戏剧化末端——荒诞是精心推导后的修辞选择",
+        "反例警示：同时代多数物理学家把猫当作『可以笑一笑的悖论』而不当作必须回答的问题——问题被当笑话时，它的力量才刚开始累积；把别人当笑话的人自己成了后来教科书里的反派"
+      ],
+      "representative_cases_en": [
+        "The cat's immediate context is the 1935 EPR puzzle and his dissatisfaction with Copenhagen's 'wavefunction = knowledge' stance—it is the publicizing of his correspondence with Einstein, not an isolated whim",
+        "The 'dead and alive' design forces 'observation collapses the wavefunction' to answer what 'observation' is—decoherence, many-worlds, GRW, and every scheme since have all set this boxed cat as their first exam question",
+        "In the same 1935 series he gave the general argument for amplifying superposition (unstable systems, Geiger-counter chains); the cat is merely the dramatized end of the chain—the absurdity is a rhetorical choice made after careful derivation",
+        "Cautionary case: most physicists of the day treated the cat as 'a paradox to chuckle at' rather than a question to answer—when a problem is treated as a joke, its power is only beginning to accumulate; those who laughed became the villains of later textbooks"
+      ],
+      "modern_applications_zh": [
+        "算法伦理：为『概率输出不影响真实的人』的惯例设计放大案例（把概率与真实姓名绑定），使伦理含糊不可回避",
+        "产品设计：以『极端用户场景』暴露系统在边界条件下的含糊承诺（如把隐私条款推到最荒诞的执行场景）",
+        "危机预案：把『小概率事件』与无人能中立的对象绑定做沙盘推演，使『到时候再说』的惯例失效",
+        "技术写作：用自嘲式『荒诞案例』引入边界问题，降低防御姿态而提高问题可见度"
+      ],
+      "modern_applications_en": [
+        "Algorithm ethics: design amplifier cases for the convention that 'probability outputs do not affect real people' (binding probabilities to real names), making the ethical vagueness unignorable",
+        "Product design: expose vague promises at boundary conditions with extreme user scenarios (e.g., pushing privacy terms to their most absurd execution)",
+        "Crisis planning: bind low-probability events to objects no one can stay neutral about in sandbox drills, disabling the 'we'll deal with it then' convention",
+        "Technical writing: introduce boundary problems with self-mocking 'ridiculous cases,' lowering defensive posture while raising the problem's visibility"
+      ],
+      "related_modes": [
+        "M-SC-003",
+        "M-SC-005",
+        "M-SC-006"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "爱因斯坦",
+        "玻尔"
+      ]
+    },
+    {
+      "id": "M-SC-005",
+      "mode_code": "M-SC-005",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "概率诠释异议坚守法",
+        "Principled-Dissent-Against-Orthodoxy Method",
+        "学术方法论/立场管理"
+      ],
+      "name_en": [
+        "Principled-Dissent-Against-Orthodoxy Method",
+        "Principled-Dissent-Against-Orthodoxy Method",
+        "学术方法论/立场管理"
+      ],
+      "category": [
+        "概率诠释异议坚守法",
+        "Principled-Dissent-Against-Orthodoxy Method",
+        "学术方法论/立场管理"
+      ],
+      "domain_zh": "在共识形成后长期坚持有论证的少数派立场",
+      "domain_en": "Sustaining an Argued Minority Position Long After Consensus Has Formed",
+      "level": [
+        "核心",
+        5
+      ],
+      "priority": [
+        "核心",
+        5
+      ],
+      "definition_zh": "波动力学的缔造者，却终其一生不接受对其正统诠释——『我不喜欢它，也很抱歉自己曾与它发生过关系』说的是他自己方程的概率解读。在玻恩概率诠释被普遍接受、爱因斯坦退居边缘之后，薛定谔仍持续写作论战文章（1935 年《量子力学的现状》、晚年 Mind and Matter），把异议从情绪升级为论证：波函数若只是知识，叠加就是知识的把戏；若描述实在，则需要解释干涉。他不赢得争论，但赢得了异议的尊严与延续性——测量问题至今是活跃议题，猫至今是每本教科书的必备插图。方法上这意味着：共识形成不等于问题解决；一个有创始者身份的少数派若把立场从情绪升级为不断更新的论证体系，其异议可以活得比共识长——并成为下一轮范式转移的种子库。",
+      "definition_en": "The creator of wave mechanics never accepted its orthodox interpretation—'I don't like it, and I'm sorry I ever had anything to do with it' referred to the probability reading of his own equation. After Born's probability interpretation won general acceptance and Einstein retreated to the margins, Schrödinger kept writing polemics (the 1935 'Present Situation in Quantum Mechanics,' the late Mind and Matter), upgrading dissent from sentiment to argument: if the wavefunction is only knowledge, superposition is a trick of knowledge; if it describes reality, interference demands explanation. He did not win the argument, but he won dissent its dignity and continuity—the measurement problem remains a live issue to this day, and the cat remains a fixture of every textbook. Methodologically: consensus is not the same as resolution; a minority position, held by a founder and upgraded from emotion into a continuously updated body of argument, can outlive the consensus—and become the seed bank of the next paradigm shift.",
+      "source_chapter": "《量子力学的现状》(1935) 四篇连载；致玻恩（1954）『我不喜欢它……』；著作《心灵与物质》(Mind and Matter, 1958) 对意识-测量问题的延续讨论",
+      "key_concepts": [
+        "有论证的异议",
+        "共识≠解决",
+        "创始者的否决权",
+        "论战文的体系化",
+        "种子库效应"
+      ],
+      "key_quote_zh": "我不喜欢它，也很抱歉自己曾与它发生过关系。",
+      "key_quote_en": "I don't like it, and I'm sorry I ever had anything to do with it.",
+      "process_zh": [
+        "把异议从『不喜欢』升级为可辩护命题：明确说出正方共识在哪个具体断言上不成立（波函数的本体论地位）",
+        "建立论战节奏：不以一篇檄文定胜负，而以系列文章（1935、1952、1958）持续回应新证据与新方案",
+        "设计可传承的问题表述：把异议浓缩为可被后世引用与检验的意象（猫、叠加、观测），使异议脱离本人也能繁殖",
+        "承认败诉边界：不接受共识的诠释，不否认共识的数学与实验——异议始终划在诠释层，不滑向反科学"
+      ],
+      "process_en": [
+        "Upgrade dissent from 'I don't like it' to a defensible proposition: state exactly which claim of the consensus fails (the ontological status of the wavefunction)",
+        "Set a polemical rhythm: not one manifesto settling it, but a series (1935, 1952, 1958) continually answering new evidence and new proposals",
+        "Design transmissible problem-statements: condense dissent into images quotable and testable by posterity (cat, superposition, observation), so dissent propagates without its author",
+        "Accept the defeat boundary: refuse the consensus's interpretation, not its mathematics or experiments—dissent stays at the interpretive layer, never sliding into anti-science"
+      ],
+      "representative_cases_zh": [
+        "1935 年《量子力学的现状》把对哥本哈根的异议写成四篇体系论文——同一时期爱因斯坦的 EPR 是问题式进攻，薛定谔是工程式清点，二者互补",
+        "他与爱因斯坦的通信分工明确：爱因斯坦从相对论一端发难（EPR），薛定谔从波动方程一端清点（猫）——两位异议者以不同入口夹击同一诠释，使问题无死角",
+        "1952 年他在都柏林的讲座坚持『波函数描述实在』并承认自己属于少数——把『我是谁』的孤立感转化为立场的公开标识，吸引后世隐变量路线的对话",
+        "反例警示：部分同时代异议者（如某些业余批评者）把不接受诠释滑向不接受实验（否认干涉实验的判决力），异议越出诠释层即失去科学共同体的听众——有论证的异议与任性的怀疑只有一线之隔"
+      ],
+      "representative_cases_en": [
+        "The 1935 'Present Situation' wrote his dissent from Copenhagen into four systematic papers—while Einstein's EPR attacked as a puzzle, Schrödinger inventoried as an engineer; the two were complementary",
+        "The division of labor in his correspondence with Einstein was explicit: Einstein assailed from the relativity side (EPR), Schrödinger inventoried from the wave-equation side (the cat)—two dissenters pincering one interpretation through different entrances, leaving it no blind spot",
+        "In his 1952 Dublin lectures he maintained 'the wavefunction describes reality' and conceded he was in a minority—converting the isolation of 'who I am' into a public badge of the position, drawing later hidden-variable routes into dialogue",
+        "Cautionary case: some contemporary dissenters slid from rejecting the interpretation to rejecting the experiments (denying the verdict of interference tests); dissent beyond the interpretive layer loses the scientific community's audience—argued dissent and willful skepticism are one line apart"
+      ],
+      "modern_applications_zh": [
+        "技术标准之争：共识形成后仍以系列技术文档维护少数派方案，把异议写成可被后人检验的基准与案例，等待下次范式窗口",
+        "组织决策复盘：对已成定论的方案保留有论证的反方档案（而非删除），定期以新数据回检——异议是组织的期权",
+        "开源治理：以『等价实现+持续论战文』维持生态多样性，防止单一正统冻结创新",
+        "个人职业：在主流技术路线之外的长期押注，应以体系化公开论证支撑，而非情绪式抱怨"
+      ],
+      "modern_applications_en": [
+        "Technical standards wars: after consensus forms, keep maintaining the minority option through serialized technical documents, writing dissent as benchmarks and cases posterity can test—awaiting the next paradigm window",
+        "Organizational retrospectives: retain an argued minority dossier for settled decisions (rather than deleting it) and re-check it against new data periodically—dissent is the organization's option",
+        "Open-source governance: sustain ecosystem diversity with 'equivalent implementations plus continuing polemics,' preventing one orthodoxy from freezing innovation",
+        "Career: long-term bets outside the mainstream must be backed by systematic public argument, not emotional complaint"
+      ],
+      "related_modes": [
+        "M-SC-003",
+        "M-SC-004",
+        "M-SC-008"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "爱因斯坦",
+        "玻恩"
+      ]
+    },
+    {
+      "id": "M-SC-006",
+      "mode_code": "M-SC-006",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "What-is-Life跨域预言法",
+        "Cross-Domain Predictive Question Method (What Is Life?)",
+        "理论建构/跨域统摄"
+      ],
+      "name_en": [
+        "Cross-Domain Predictive Question Method (What Is Life?)",
+        "Cross-Domain Predictive Question Method (What Is Life?)",
+        "理论建构/跨域统摄"
+      ],
+      "category": [
+        "What-is-Life跨域预言法",
+        "Cross-Domain Predictive Question Method (What Is Life?)",
+        "理论建构/跨域统摄"
+      ],
+      "domain_zh": "以他者视角提出大问题并做可检验预言",
+      "domain_en": "Posing a Grand Question as an Outsider and Making Testable Predictions",
+      "level": [
+        "核心",
+        6
+      ],
+      "priority": [
+        "核心",
+        6
+      ],
+      "definition_zh": "1943 年，一位物理学家（而非生物学家）在都柏林做了系列讲座，次年纪成小册子《生命是什么》。薛定谔的问法是物理学家式的：生命的两个谜（遗传的稳定性与新陈代谢的有序）从物理看是什么？他给出两个至今被验证的预言：其一，遗传物质必是『非周期性晶体』——一种足够稳定以维持信息、又足够复杂以承载巨大信息量的固体结构，此为对 DNA 的结构预判（沃森、克里克与威尔金斯均自述受此书启发）；其二，生命以『负熵』为食——以从环境汲取负熵抵消自身熵增来维持有序，此为耗散结构思想的先声。方法上这意味着：领域内的谜题向外行提出的『天真问题』开放——外行不会被本学科的『不可能』清单吓住，且其学科工具（统计物理、晶体学）可能正好是谜题缺少的那把钥匙；提问即预言，大问题一旦被足够尖锐地表述，答案往往已经在路上。",
+      "definition_en": "In 1943 a physicist (not a biologist) gave a lecture series in Dublin, published the next year as the small book What Is Life? Schrödinger asked in a physicist's manner: what are life's two riddles—the stability of heredity and the orderliness of metabolism—from the standpoint of physics? He offered two predictions both later vindicated: first, that the hereditary material must be an 'aperiodic crystal'—a solid structure stable enough to hold information and complex enough to carry a huge amount of it, a structural forecast of DNA (Watson, Crick, and Wilkins all acknowledged the book's influence); second, that life 'feeds on negative entropy'—maintaining order by drawing negentropy from the environment to offset its own entropy increase, an anticipation of dissipative-structure thinking. Methodologically: a field's riddles are open to the 'naive questions' of outsiders—outsiders are not frightened by the field's list of 'impossibilities,' and their disciplinary tools (statistical physics, crystallography) may be precisely the missing key; to pose the question is to predict, and once a grand question is formulated sharply enough, the answer is often already on its way.",
+      "source_chapter": "《生命是什么》(What Is Life?, 1944) 第一章『经典物理学家走近这个主题的方法』、第六章『有序、无序和熵』：『非周期性晶体』与『以负熵为食』两节",
+      "key_concepts": [
+        "非周期性晶体",
+        "负熵",
+        "外行视角",
+        "信息承载结构",
+        "问题即预言"
+      ],
+      "key_quote_zh": "生命的物质结构，必须是一种非周期性晶体——它既够稳定以保存遗传信息，又够复杂以容纳无限多样的可能。",
+      "key_quote_en": "The material structure of life must be an aperiodic crystal—stable enough to preserve heredity and complex enough to hold an almost infinite number of possibilities.",
+      "process_zh": [
+        "以他学科的工具箱清点目标领域的根本谜题：哪些现象在本学科框架内『按理不该如此』（遗传为何如此稳定）",
+        "把谜题翻译成本学科的数学约束（信息量、稳定性、热力学预算），推演满足全部约束的对象应具有何种结构",
+        "把推演结果写成可检验的具体预言（分子结构、能量流向），而非停在比喻（不写『生命力』而写『非周期性晶体』）",
+        "公开交付给目标领域：以讲座/小册子的形式把预言投递给能检验它的人，使问题脱离本人继续繁殖"
+      ],
+      "process_en": [
+        "Inventory the target field's fundamental riddles with your own discipline's toolbox: which phenomena 'should not be so' within its framework (why is heredity so stable)?",
+        "Translate the riddles into your discipline's mathematical constraints (information capacity, stability, thermodynamic budget) and deduce what structure satisfies them all",
+        "Write the deduction as concrete testable predictions (molecular structure, energy flow), not metaphor—say 'aperiodic crystal,' not 'vital force'",
+        "Deliver openly to the target field: cast the predictions as lectures/a booklet to those able to test them, letting the question propagate beyond its author"
+      ],
+      "representative_cases_zh": [
+        "『非周期性晶体』预言：早在 DNA 双螺旋发现前十年，就推定遗传载体必为一种既稳定又信息承载巨大的非周期固体——1953 年的结构恰是此推定的物理实现",
+        "『以负熵为食』：把生命的新陈代谢从『物质交换』重述为『熵预算管理』——普里高津的耗散结构理论与此一脉相承",
+        "影响的直接证据：沃森在《双螺旋》中自述受此书『澄清了生物学问题』；威尔金斯自述因该书从物理学转投生物学——一本书的提问改变了三个人的转行方向",
+        "反例警示：书中附录『关于决定论的注记』试图把自由意志问题也纳入物理框架，被生物学家指为越界臆测——外行预言的有效半径止于约束可数学化的部分，隐喻部分应明确标注为思辨"
+      ],
+      "representative_cases_en": [
+        "The 'aperiodic crystal' prediction: a decade before the double helix, he deduced that the hereditary carrier must be a non-periodic solid both stable and information-rich—the 1953 structure was the physical realization of this deduction",
+        "'Feeding on negative entropy': recasting metabolism from 'matter exchange' to 'entropy budget management'—Prigogine's dissipative structures follow the same line",
+        "Direct evidence of influence: Watson's The Double Helix credits the book with 'clarifying the biological problem'; Wilkins switched from physics to biology because of it—one book's questions redirected three careers",
+        "Cautionary case: the book's epilogue, 'On Determinism and Free Will,' tried to fold free will into the physical frame and was called speculative overreach by biologists—an outsider's predictions are valid only where constraints can be mathematized; the metaphorical part should be labeled as speculation"
+      ],
+      "modern_applications_zh": [
+        "跨行进入新领域：不从零学习行业惯例，而是用原行业工具清点新领域的『按理不该如此』清单，写出带约束的预言式分析",
+        "技术雷达：以物理学式的约束推演预判下一代基础设施形态（如推算存储介质的物理信息密度上限），作为研发押注依据",
+        "白皮书写作：把模糊的行业争论翻译成可检验的具体预言（『X 必须是 Y 结构』），使观点成为可被证伪的赌注",
+        "人才流动：高影响力的问题表述常比答案更能改变学科格局——把领域级问题写成公众可读的小册子"
+      ],
+      "modern_applications_en": [
+        "Entering a new field: don't start from zero with industry conventions; inventory the field's 'should not be so' list with your original discipline's tools, and write constraint-based predictive analyses",
+        "Technology radar: predict next-generation infrastructure by physics-style constraint deduction (e.g., computing the physical information-density ceiling of storage media) as a basis for R&D bets",
+        "White-paper writing: translate vague industry debates into concrete testable predictions ('X must be Y-structured'), turning opinions into falsifiable bets",
+        "Talent flows: a high-impact question formulation often reshapes a field more than answers do—write field-scale questions as publicly readable booklets"
+      ],
+      "related_modes": [
+        "M-SC-005",
+        "M-SC-007",
+        "M-SC-010"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "克里克",
+        "沃森"
+      ]
+    },
+    {
+      "id": "M-SC-007",
+      "mode_code": "M-SC-007",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "美学判据选理论法",
+        "Aesthetic-Criterion Theory-Choice Method",
+        "学术方法论/判据哲学"
+      ],
+      "name_en": [
+        "Aesthetic-Criterion Theory-Choice Method",
+        "Aesthetic-Criterion Theory-Choice Method",
+        "学术方法论/判据哲学"
+      ],
+      "category": [
+        "美学判据选理论法",
+        "Aesthetic-Criterion Theory-Choice Method",
+        "学术方法论/判据哲学"
+      ],
+      "domain_zh": "以美感与可理解性为理论选择的高阶判据",
+      "domain_en": "Using Beauty and Intelligibility as Higher-Order Criteria of Theory Choice",
+      "level": [
+        "核心",
+        7
+      ],
+      "priority": [
+        "核心",
+        7
+      ],
+      "definition_zh": "面对同样解释光谱的多种表述（波动力学 vs 矩阵力学 vs 更旧的量子论），薛定谔反复陈述他选择的标准不是数据（数据两边都能解释）而是『可理解性』——『数学的优美与问题的清晰可解』。他在《作为本征值问题的量子化》中明言：波动力学的优点在于『让人能真正计算』且『几何/光学图像保留』。这种以美学与可算性为判据的选择，事后被证明极具生产力：波动方程成为可解、可近似、可教的工作工具。但他并不把美感当真理——他清醒地在等价性证明中承认矩阵力学同样正确。方法上这意味着：当多个候选理论/方案在实证层面不可分时，公开宣告并使用你的高阶判据（美感、可算性、可教性），并保留判据的自觉——美感是选择的工作判据，不是真理的证明。",
+      "definition_en": "Facing multiple formulations that explain the same spectra (wave mechanics vs matrix mechanics vs the older quantum theory), Schrödinger repeatedly stated his criterion of choice was not the data (which both sides explained) but 'intelligibility'—mathematical beauty and clean solvability. In 'Quantization as an Eigenvalue Problem' he said plainly: wave mechanics' virtue is that one can 'really calculate' with it and the geometrical/optical picture is preserved. This aesthetic-and-computability criterion proved highly productive in hindsight: the wave equation became a solvable, approximable, teachable working tool. Yet he never mistook beauty for truth—he conceded in the equivalence proof that matrix mechanics was equally correct. Methodologically: when rival theories/options are empirically indistinguishable, publicly declare and use your higher-order criterion (beauty, computability, teachability), while keeping self-awareness about it—beauty is a working criterion of choice, not a proof of truth.",
+      "source_chapter": "《作为本征值问题的量子化》第二篇（1926）：『我的方法之优点在于保留了几何直观且真正可计算』；哥本哈根辩论记录中对『可理解性』的反复申明",
+      "key_concepts": [
+        "美学判据",
+        "可算性",
+        "可理解性",
+        "高阶判据的公开化",
+        "判据与真理的分离"
+      ],
+      "key_quote_zh": "在我看来，我的表述方式的优点在于：它保留了直观性，并且真正可以计算——即便在相当复杂的问题上。",
+      "key_quote_en": "The advantage of my formulation, it seems to me, lies in the fact that it preserves intelligibility and can actually be carried through to calculation—even for rather complicated problems.",
+      "process_zh": [
+        "确认候选方案在实证层面不可分（同一数据、同一预测），承认选择不在数据层",
+        "公开宣告高阶判据并给出可操作定义（可解性、可教性、直观保留度），避免『我觉得』式私下偏好",
+        "以判据为工具验证：用所选方案实际解决一个此前难解的问题（如斯塔克效应），证明判据的生产力",
+        "保持判据自觉：明示所选方案与对手在真理层面等价（等价性证明），把美学定位为工作偏好而非本体断言"
+      ],
+      "process_en": [
+        "Confirm the candidates are empirically indistinguishable (same data, same predictions) and admit the choice is not at the data level",
+        "Declare the higher-order criterion publicly with an operational definition (solvability, teachability, degree of visualizability), avoiding private 'gut feeling' preferences",
+        "Use the criterion as a tool: actually solve with the chosen scheme a problem previously intractable (e.g., the Stark effect), demonstrating the criterion's productivity",
+        "Maintain criterion self-awareness: state explicitly that the chosen scheme is equivalent in truth-value to the rival (the equivalence proof), positioning aesthetics as a working preference, not an ontological claim"
+      ],
+      "representative_cases_zh": [
+        "他用波动力学重新解出斯塔克效应、塞曼效应等旧量子论勉强应付的情形——『可算性』判据的兑现，而非口头宣言",
+        "等价性证明是美学判据与真理自觉的完美同框：先承认对手同样正确（真理层），再主张我的更好用（工具层）",
+        "玻恩与约尔当最初对波动力学心存疑虑，最终仍采用它做计算——可算性判据甚至说服了对手阵营的日常实践",
+        "反例警示：薛定谔晚年对统一场论式的简单美执念加深，在缺乏数学结构支撑时也倾向审美偏好——当可算性与可验证性缺席时，美学判据退化为偏见"
+      ],
+      "representative_cases_en": [
+        "He re-solved the Stark and Zeeman effects—cases the old quantum theory barely managed—with wave mechanics: the 'computability' criterion cashed out, not just declared",
+        "The equivalence proof is the perfect co-framing of aesthetic criterion and truth-awareness: concede the rival is equally correct (truth layer), then claim mine is better to use (tool layer)",
+        "Born and Jordan, initially wary of wave mechanics, ended up using it for calculation—the computability criterion won over the rival camp's daily practice",
+        "Cautionary case: in his later years Schrödinger's attachment to simple-beauty unification deepened, tilting toward aesthetic preference even without mathematical-structural support; when computability and verifiability are absent, the aesthetic criterion degrades into bias"
+      ],
+      "modern_applications_zh": [
+        "技术选型文档：当方案在性能上不可分时，公开宣告选择判据（可维护性、可教性）并用其解决一个此前难解的实际问题作为兑现",
+        "代码评审标准：把『可读性优先』写成可操作清单（命名、函数长度、测试可读），而非私下偏好",
+        "产品评审：以『用户能否在 5 分钟内理解』为高阶判据，且承认不同方案可能同效——判据是工作偏好不是真理",
+        "学术写作：在方法论部分公开理论选择的高阶判据及其自觉边界"
+      ],
+      "modern_applications_en": [
+        "Tech-selection documents: when options are performance-indistinguishable, declare the criterion publicly (maintainability, teachability) and cash it out by solving a previously intractable real problem",
+        "Code review standards: write 'readability first' as an operational checklist (naming, function length, test readability), not a private preference",
+        "Product review: use 'can a user understand it in 5 minutes' as the higher-order criterion, conceding that rival options may be equally effective—the criterion is a working preference, not truth",
+        "Academic writing: in the methods section, declare the higher-order criteria of theory choice and their self-aware limits"
+      ],
+      "related_modes": [
+        "M-SC-003",
+        "M-SC-002",
+        "M-SC-001"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "狄拉克",
+        "海森堡"
+      ]
+    },
+    {
+      "id": "M-SC-008",
+      "mode_code": "M-SC-008",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "等价性证明终结争论法",
+        "Equivalence-Proof Debate-Resolution Method",
+        "学术方法论/争论管理"
+      ],
+      "name_en": [
+        "Equivalence-Proof Debate-Resolution Method",
+        "Equivalence-Proof Debate-Resolution Method",
+        "学术方法论/争论管理"
+      ],
+      "category": [
+        "等价性证明终结争论法",
+        "Equivalence-Proof Debate-Resolution Method",
+        "学术方法论/争论管理"
+      ],
+      "domain_zh": "以等价性证明把路线之争降维到诠释层",
+      "domain_en": "Downgrading a Route War to the Interpretive Layer via an Equivalence Proof",
+      "level": [
+        "核心",
+        8
+      ],
+      "priority": [
+        "核心",
+        8
+      ],
+      "definition_zh": "1926 年，矩阵力学与波动力学的拥趸已接近阵营化（哥本哈根 vs 柏林/苏黎世），薛定谔没有选择继续争『谁的物理更正确』，而是写了一篇《论海森堡-玻恩-约当量子力学与我的波动力学的关系》，逐条证明两种表述在全部可验证断言上数学等价。这一步改变了争论的性质：既然数学内核同一，那么分歧只剩『哪种描述更可理解、更好用』——不可判定的本体论之争被压缩成可协商的工具之争。双方此后都接受等价性为共同地基，量子力学作为一个学科的统一得以完成。方法上这意味着：当两派在同一领域纠缠于『谁对』而无法互相说服时，最高杠杆的一步常常不是更强的反驳，而是证明两派在全部可操作层面等价——把争论降到只剩真正的分歧点，通常远比争论本身更有建设性。",
+      "definition_en": "By 1926 the partisans of matrix mechanics and wave mechanics were near camp formation (Copenhagen vs Berlin/Zurich). Schrödinger did not continue arguing 'whose physics is right'; instead he wrote 'On the Relation between the Heisenberg-Born-Jordan Quantum Mechanics and Mine,' proving clause by clause that the two formulations are mathematically equivalent on all verifiable assertions. This changed the nature of the dispute: with the mathematical core identical, the remaining difference is 'which description is more intelligible, more usable'—an undecidable ontological war compressed into a negotiable tool war. Both sides thereafter accepted equivalence as common ground, and the unification of quantum mechanics as a discipline was accomplished. Methodologically: when two camps are locked in 'who is right' and cannot persuade each other, the highest-leverage move is often not a stronger rebuttal but proving the camps equivalent at every operational level—reducing the dispute to its true residue is far more constructive than the dispute itself.",
+      "source_chapter": "《论海森堡-玻恩-约当量子力学与我的波动力学的关系》(Annalen der Physik, 1926) 全文；狄拉克与埃卡特同期独立证明等价性（transforma­tion theory）——多方收敛进一步坐实共同内核",
+      "key_concepts": [
+        "等价性证明",
+        "争论降维",
+        "共同地基",
+        "工具之争 vs 本体之争",
+        "学科统一"
+      ],
+      "key_quote_zh": "在一切可检验之处，两种理论给出完全相同的结果；因此分歧不在于事实，而在于描述的方式。",
+      "key_quote_en": "In every case where the two theories can be tested, they yield identical results; the disagreement therefore lies not in facts but in the mode of description.",
+      "process_zh": [
+        "识别争论中双方共用的数据与预言清单：哪些断言双方都承认有效",
+        "构造双向翻译：以数学映射（变换理论）逐条证明对方的每个可验证断言在本方表述中有对应物",
+        "公开论文而非私下宣称：以同行可检验的形式发表等价性，使等价成为公共财产而非本方修辞",
+        "把残余分歧重新定性：等价确立后，明确宣布剩余争议属诠释/偏好层，并把精力转向更优工具的构建"
+      ],
+      "process_en": [
+        "Identify the data and prediction list both camps share: which assertions both sides concede are valid",
+        "Construct the two-way translation: via mathematical mapping (transformation theory), prove clause by clause that every verifiable assertion of the rival has a counterpart in one's own formulation",
+        "Publish rather than assert privately: make the equivalence public property in peer-checkable form, not one side's rhetoric",
+        "Requalify the residue: once equivalence stands, declare the remaining dispute interpretive/preferential and redirect energy into building better tools"
+      ],
+      "representative_cases_zh": [
+        "等价性论文的直接效果：玻恩在随后的通信中确认两种力学『实为同一理论』——量子力学学科的分裂在萌芽期被弥合",
+        "狄拉克与约尔当几乎同时独立发展出变换理论——多方收敛使等价性从薛定谔的修辞升级为学科的公共数学事实",
+        "等价确立后，薛定谔立即把精力投入用波动力学解决新的具体问题（微扰理论、色散理论）——争论降维立刻转化为产能",
+        "反例警示：等价性并未终结诠释之争（猫与测量问题至今悬而未决）——降维是准确的止损而非全面和解；声称等价『解决了一切』的人（部分教科书）恰恰埋下了后世误解"
+      ],
+      "representative_cases_en": [
+        "The direct effect of the equivalence paper: Born confirmed in subsequent correspondence that the two mechanics were 'really one theory'—the schism of quantum mechanics was healed in the bud",
+        "Dirac and Jordan independently developed transformation theory almost simultaneously—multi-party convergence upgraded equivalence from Schrödinger's rhetoric to a public mathematical fact of the discipline",
+        "Once equivalence stood, Schrödinger immediately poured energy into solving new concrete problems with wave mechanics (perturbation theory, dispersion theory)—the downgrading of the dispute converted instantly into output",
+        "Cautionary case: equivalence did not end the interpretation war (the cat and the measurement problem remain open to this day)—downgrading is accurate damage control, not full reconciliation; those who claimed equivalence 'settled everything' (some textbooks) sowed later misunderstanding"
+      ],
+      "modern_applications_zh": [
+        "框架之争（前后端、数据库、编程语言）：先做等价性基准测试，证明两方案在可操作层等价，把争论压缩到工程偏好层",
+        "团队冲突调解：当两派争执不下时，先整理『双方共同承认的事实清单』并公开发布，再讨论残余分歧",
+        "标准制定：以双向翻译/互操作层证明多种实现等价，使标准建立在公共内核而非某一方之上",
+        "学术综述：把对立学派的共同预言写清楚，把真正的分歧点列表化——综述的价值常在降维而非站队"
+      ],
+      "modern_applications_en": [
+        "Framework wars (frontend, databases, languages): run equivalence benchmarks first, prove operational equivalence, and compress the dispute to engineering preference",
+        "Team mediation: when two factions deadlock, first compile and publish the 'list of facts both sides concede,' then discuss the residue",
+        "Standards-making: prove multiple implementations equivalent via bidirectional translation/interoperability layers, grounding the standard in the common core rather than one camp",
+        "Academic reviews: state clearly the predictions rival schools share and tabulate the true points of divergence—a review's value often lies in dimension-reduction, not in taking sides"
+      ],
+      "related_modes": [
+        "M-SC-003",
+        "M-SC-005",
+        "M-SC-007"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "狄拉克",
+        "约尔当"
+      ]
+    },
+    {
+      "id": "M-SC-009",
+      "mode_code": "M-SC-009",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "东方西方会通法",
+        "East-West Convergence Method",
+        "哲学方法论/跨文明统摄"
+      ],
+      "name_en": [
+        "East-West Convergence Method",
+        "East-West Convergence Method",
+        "哲学方法论/跨文明统摄"
+      ],
+      "category": [
+        "东方西方会通法",
+        "East-West Convergence Method",
+        "哲学方法论/跨文明统摄"
+      ],
+      "domain_zh": "在跨文明思想中寻找同一断言的独立重述",
+      "domain_en": "Finding Independent Restatements of One Claim across Civilizations",
+      "level": [
+        "核心",
+        9
+      ],
+      "priority": [
+        "核心",
+        9
+      ],
+      "definition_zh": "薛定谔是二十世纪大科学家中对印度吠檀多哲学浸淫最深的一位（自青年时代起通读《奥义书》）。他不做文化装饰性的引用，而做严格的会通论证：《心灵与物质》与晚年文集中，他把吠檀多的『梵我不二』（个体意识与唯一实在同一）、叔本华的『世界即表象』与量子力学的观测者问题排成一条论证链——不同的文明、不同的语言、不同的时代，独立地说出了同一个结构：『意识是单数的，『多』是现象层面的分划』。他认为这种跨文明收敛本身是证据：一个断言若被互不知晓的传统各自达到，它就获得了超出任一传统内部的置信度。方法上这意味着：对任何深层断言（哲学、方法论、人性论），做跨文明的独立重述检索——收敛是置信度的乘法，孤证则无论多雄辩都只是单一传统的产物。",
+      "definition_en": "Schrödinger was the twentieth-century's great scientist most steeped in Vedanta (he read the Upanishads from youth). He made no ornamental cross-cultural quotations but rigorous convergence arguments: in Mind and Matter and his late essays he arranged Vedanta's 'identity of Atman and Brahman' (individual consciousness one with sole reality), Schopenhauer's 'world as representation,' and the observer problem of quantum mechanics into one chain of argument—different civilizations, languages, and eras independently voiced the same structure: 'consciousness is singular; plurality is a division at the phenomenal level.' He held such cross-civilizational convergence to be itself evidence: a claim reached independently by mutually ignorant traditions acquires confidence beyond any single tradition's interior. Methodologically: for any deep assertion (philosophical, methodological, of human nature), run a cross-civilizational search for independent restatements—convergence multiplies confidence, while a lone source, however eloquent, remains the product of a single tradition.",
+      "source_chapter": "《心灵与物质》(Mind and Matter, 1958) 第四章『意识的算术悖论：一在多之中』；自传残稿中对《奥义书》终生影响的自述；Schrutzki 与 Moore 的传记研究（Moore, Schrödinger: Life and Thought）对吠檀多阅读史的考订",
+      "key_concepts": [
+        "吠檀多",
+        "跨文明收敛",
+        "梵我不二",
+        "观测者问题",
+        "置信度乘法"
+      ],
+      "key_quote_zh": "意识是单数的；『多』只是现象层面的分划——这一断言，吠檀多与西方近代物理从两端各自走到了。",
+      "key_quote_en": "Consciousness is a singular of which the plurality is only apparent—Vedanta and modern physics arrived at this claim from opposite ends.",
+      "process_zh": [
+        "把本方深层断言抽象为结构骨架（如『意识单一性』），剥离全部文化专有词汇",
+        "跨文明检索独立重述：在互不影响的传统中（奥义书、叔本华、现代物理、认知科学）寻找同构命题",
+        "核查独立性：确认各传统之间不存在传播链，使收敛确实来自独立抵达",
+        "计算收敛的置信度并标注边界：收敛提升断言可信度，但不构成证明；各传统的差异部分要如实保留"
+      ],
+      "process_en": [
+        "Abstract your deep claim into a structural skeleton (e.g., 'the singularity of consciousness'), stripping all culture-specific vocabulary",
+        "Search across civilizations for independent restatements: isomorphic propositions in mutually uninfluenced traditions (Upanishads, Schopenhauer, modern physics, cognitive science)",
+        "Verify independence: confirm no transmission chain exists between the traditions, so the convergence is genuinely independent arrival",
+        "Compute the convergence's confidence and mark its boundary: convergence raises credibility but is not proof; the traditions' differences must be honestly preserved"
+      ],
+      "representative_cases_zh": [
+        "《心灵与物质》的核心论证：从『世界仅在我的意识中呈现一次』的物理事实（观测者唯一性）推至意识单一性，再指出吠檀多以『梵我不二』在两千年前独立重述了同一结构",
+        "他以同样的方法处理叔本华：把《作为意志与表象的世界》作为西方传统内部对吠檀多的平行抵达——证明收敛可以发生在西方内部",
+        "在《生命是什么》中同法使用：以物理约束预言生物结构，本质上是『让一个学科的问题在另一个学科独立重述』——收敛方法贯穿他的全部后期写作",
+        "反例警示：他对『意识决定物质』式解读保持警惕并明确拒绝神秘主义化的量子-心灵论（如把观测者人格化）——会通要求结构同构而非词汇相似，否则是文化挪用而非会通"
+      ],
+      "representative_cases_en": [
+        "The core argument of Mind and Matter: from the physical fact that 'the world appears but once in consciousness' (observer uniqueness) to the singularity of consciousness, then the observation that Vedanta independently restated the same structure two millennia earlier as 'Atman is Brahman'",
+        "He treated Schopenhauer the same way: The World as Will and Representation as a parallel arrival within the Western tradition itself—proving convergence can occur inside the West",
+        "The same method runs through What Is Life?: predicting biological structure from physical constraints is, in essence, 'letting one discipline's question be independently restated in another'—the convergence method pervades all his late writing",
+        "Cautionary case: he remained wary of 'consciousness determines matter' readings and explicitly refused the mysticized quantum-mind move (personalizing the observer)—convergence demands structural isomorphism, not lexical similarity; otherwise it is cultural appropriation, not convergence"
+      ],
+      "modern_applications_zh": [
+        "方法论评估：为一个新方法论做跨行业独立重述检索（同构实践是否在互不知晓的组织中各自出现），收敛即置信度",
+        "产品战略：把本方核心主张抽象为结构，检索历史上互不知晓的先行者是否独立抵达同构方案——独立收敛是方向正确的强信号",
+        "知识管理：以结构骨架（而非关键词）做跨语言/跨领域笔记检索，发现隐性同构",
+        "写作规范：引用跨文明平行文本时先核查传播链与结构同构性，避免装饰性引用"
+      ],
+      "modern_applications_en": [
+        "Methodology assessment: run a cross-industry search for independent restatements of a new methodology (has the isomorphic practice appeared separately in mutually unaware organizations?); convergence is confidence",
+        "Product strategy: abstract your core claim to its structure and check whether historically unaware predecessors independently arrived at isomorphic solutions—independent convergence is a strong signal of direction",
+        "Knowledge management: search notes across languages/domains by structural skeleton rather than keywords, surfacing hidden isomorphisms",
+        "Writing norms: when citing cross-civilizational parallels, first verify transmission chains and structural isomorphism to avoid ornamental citation"
+      ],
+      "related_modes": [
+        "M-SC-006",
+        "M-SC-005",
+        "M-SC-010"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "叔本华",
+        "商羯罗"
+      ]
+    },
+    {
+      "id": "M-SC-010",
+      "mode_code": "M-SC-010",
+      "figure_code": "H-SC-001",
+      "name_zh": [
+        "科学公共责任写作法",
+        "Public-Responsibility Science-Writing Method",
+        "公共责任/写作工程"
+      ],
+      "name_en": [
+        "Public-Responsibility Science-Writing Method",
+        "Public-Responsibility Science-Writing Method",
+        "公共责任/写作工程"
+      ],
+      "category": [
+        "科学公共责任写作法",
+        "Public-Responsibility Science-Writing Method",
+        "公共责任/写作工程"
+      ],
+      "domain_zh": "把学科前沿写成公众可读且影响政策伦理的文本",
+      "domain_en": "Writing the Frontier into Publicly Readable Texts That Shape Policy and Ethics",
+      "level": [
+        "核心",
+        10
+      ],
+      "priority": [
+        "核心",
+        10
+      ],
+      "definition_zh": "薛定谔的两本『业余』小册子——《生命是什么》与《心灵与物质》——是二十世纪科学家公共写作的最高样本：不用行话、不降低逻辑密度、以八万字的篇幅同时说服了三个转行进入分子生物学的物理学家与一般读者。他对此有自觉的理论：科学是社会的事业，前沿的伦理后果（核武器、遗传操纵、意识问题）不能由从业者在内部私了，必须以公众可读的形式交付公共审议。他的写作纪律是：只写自己真正想清楚的（不追赶热点）、以问题而非结论组织（把读者带进推理而非交付答案）、预言与思辨明确分离（非周期性晶体是预言、自由意志是思辨，二者在文中被明确标注）。方法上这意味着：科学/技术的公共写作不是科普的降格，而是把前沿翻译成公共审议可用的输入——一种需要与论文同等纪律的文体。",
+      "definition_en": "Schrödinger's two 'amateur' booklets—What Is Life? and Mind and Matter—are the century's highest specimen of scientists' public writing: no jargon, no lowered logical density, in eighty thousand words persuading both the three physicists who would switch into molecular biology and the general reader. He had a conscious theory of it: science is a social enterprise, and the frontier's ethical consequences (nuclear weapons, hereditary manipulation, the problem of consciousness) cannot be settled privately by insiders—they must be delivered in publicly readable form for public deliberation. His writing discipline: write only what one has genuinely thought through (never chase headlines), organize around questions rather than conclusions (bring the reader into the reasoning rather than deliver verdicts), and keep prediction and speculation explicitly separate (the aperiodic crystal is a prediction, free will a speculation—both labeled as such in the text). Methodologically: public writing on science/technology is not vulgarized popularization but the translation of the frontier into input usable for public deliberation—a genre demanding discipline equal to the research paper.",
+      "source_chapter": "《生命是什么》(1944) 序言：『本书的目的是把两个学科的问题同时呈现给双方读者』；《心灵与物质》(1958)；BBC 讲座与都柏林 RTE 讲座的公共化实践",
+      "key_concepts": [
+        "公共审议",
+        "无行话高密度写作",
+        "问题导向组织",
+        "预言与思辨分离",
+        "科学的社会责任"
+      ],
+      "key_quote_zh": "科学的任务不仅是认识世界，还包括把认识以可审议的形式交还给社会——我们发现了火，就必须向公众说明火。",
+      "key_quote_en": "Science's task is not only to know the world but to hand that knowledge back to society in deliberable form—we having discovered fire, fire must be explained to the public.",
+      "process_zh": [
+        "选定真正想清楚的问题：只写自己有独立判断的主题，拒绝热点委托与临时立场",
+        "以问题而非结论组织文本：每个章节从一个未解之谜出发，把读者带进推理路径，使结论成为读者的收获而非作者的布道",
+        "执行预言/思辨分离纪律：可检验断言与哲学推测在文中明确标注，防止公众把思辨误当作科学结论",
+        "选择投递对象：写给能改变领域的人（转行者、政策者、学科奠基者）与一般读者的重合最大集，用一次写作完成双重交付"
+      ],
+      "process_en": [
+        "Choose questions genuinely thought through: write only on subjects of independent judgment; decline hot-topic commissions and improvised stances",
+        "Organize around questions, not conclusions: each chapter opens from an unsolved riddle and walks the reader through the reasoning, so the verdict becomes the reader's harvest, not the author's sermon",
+        "Enforce prediction/speculation separation: testable assertions and philosophical conjectures are labeled distinctly, preventing the public from mistaking speculation for science",
+        "Choose the audience: aim at the maximal overlap of 'those who can change the field' (career-switchers, policymakers, founders) and general readers, delivering doubly with one writing"
+      ],
+      "representative_cases_zh": [
+        "《生命是什么》以不到十万字同时改变三个人的职业（沃森、克里克、威尔金斯自述受其影响）——公共写作的杠杆率远高于论文（论文说服同行，小册子改变学科的人口结构）",
+        "他在核武器出现后多次公开演讲（含 1955 年前后对公众的核风险报告），坚持科学家有义务解释其发现的火——与爱因斯坦、罗素的公共责任立场同列",
+        "《心灵与物质》把意识问题以无行话方式交付给哲学与公众，使量子测量问题进入跨学科讨论——学科内部的争议被翻译成公共议题",
+        "反例警示：他晚年个别广播稿在思辨与科学结论的标注上失守（把心灵哲学推测说成物理学推论），被同行批评——预言/思辨分离纪律一旦松动，公共写作的信用即刻折损"
+      ],
+      "representative_cases_en": [
+        "What Is Life?, in under a hundred thousand words, changed three careers (Watson, Crick, Wilkins all credited it)—the leverage of public writing exceeds the paper's: papers persuade peers, booklets change a discipline's demographics",
+        "After nuclear weapons appeared he gave repeated public addresses (including reports on nuclear risk to the general public around 1955), insisting scientists owe the public an account of their discovered fire—standing alongside Einstein and Russell's public-responsibility position",
+        "Mind and Matter delivered the problem of consciousness in jargon-free form to philosophy and the public, moving the quantum measurement debate into interdisciplinary discussion—an intra-disciplinary dispute translated into a public issue",
+        "Cautionary case: a few late broadcast scripts slipped on labeling speculation versus scientific conclusion (presenting philosophy-of-mind conjecture as a physical inference) and drew colleagues' criticism—loosen the prediction/speculation discipline and the credit of public writing depreciates at once"
+      ],
+      "modern_applications_zh": [
+        "技术团队的公开写作：把重大技术决策（架构、算法伦理）写成无行话的公开文档，交付公司外部的审议与同行评议",
+        "科学家/AI 从业者伦理：对模型能力的预测与推测明确分离，防止公众误读；前沿风险写成公众可审议的文本",
+        "个人品牌：以『问题导向+高密度』的小册子式写作建立跨领域影响力，而非追逐热点的碎片输出",
+        "政策咨询：把技术报告翻译成决策者可用的约束推演（『X 必须满足 Y 物理约束』），而非仅内部版本"
+      ],
+      "modern_applications_en": [
+        "Team public writing: turn major technical decisions (architecture, algorithm ethics) into jargon-free public documents delivered for external deliberation and peer review",
+        "Scientist/AI-practitioner ethics: keep predictions about model capabilities strictly separate from speculation, preventing public misreading; write frontier risks as publicly deliberable texts",
+        "Personal brand: build cross-domain influence through booklet-style, question-driven high-density writing rather than fragmented hot-topic output",
+        "Policy consulting: translate technical reports into constraint deductions usable by decision-makers ('X must satisfy physical constraint Y'), not internal versions only"
+      ],
+      "related_modes": [
+        "M-SC-006",
+        "M-SC-008",
+        "M-SC-005"
+      ],
+      "representative_figures": [
+        "薛定谔",
+        "爱因斯坦",
+        "罗素"
+      ]
+    }
+  ]
+}

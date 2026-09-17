@@ -1,0 +1,1170 @@
+{
+  "schema_version": "v6",
+  "id": "H-P23F-001",
+  "code": "P23F",
+  "figure_name": "Phase23收尾整合",
+  "figure_code": "Phase23Final",
+  "figure_pinyin": "Phase 23 Shōuwěi Zhěnghé",
+  "birth_year": "2026",
+  "death_year": "",
+  "era": "2026 : Phase 21-23 收尾整合——Protreptic 主库收官工程。这是一个'方法人格'而非血肉人物：它把 127 位历史人物、1122 条思维模式并入主库所依赖的那套整合方法论本身，当作最后一位'人物'来挖掘——纯增量并库、双镜像同构、悬空引用清零、编号区段预定、验收脚本先行、场景映射、交叉引用编织、哈希锚定、基线计数、收官复盘，十法合观即是'知识体系如何在扩张中保持不坏'的完整答案；其'生平'由一次次真实的 merge 提交构成（922→932→…→1122 modes），其'师承'是茅以升的失效清单、竺可桢的账本自治、华罗庚的统筹网络在数据工程上的直接后代",
+  "era_en": "2026: the Phase 21-23 final integration—the closing campaign of the Protreptic main library. This is a 'method-persona' rather than a flesh-and-blood figure: it mines, as the library's last 'person,' the integration methodology itself that brought 127 historical figures and 1,122 thinking modes into the main library—pure-increment merging, dual-mirror isomorphism, dangling-reference zeroing, ID-range reservation, verification-script-first, scenario mapping, cross-reference weaving, hash anchoring, baseline counting, and the final retrospective; ten methods together answer 'how a knowledge system grows without decaying.' Its 'life' is a sequence of real merge commits (922→932→…→1122 modes), and its 'lineage' runs directly from Mao Yisheng's failure lists, Zhu Kezhen's self-governed ledgers, and Hua Luogeng's overall-planning networks into data engineering",
+  "school": "知识库整合工程学派 / '纯增量·零破坏'的数据演进传统 / 挖掘-入库-验收-归档四段流水线的制定者 / Protreptic Phase 21 收官方法论",
+  "historical_significance": "Phase23收尾整合（H-P23F-001）不是又一位历史人物，而是 Protreptic 知识体系对自身生产过程的一次自反性收编：当主库扩张到 127 位人物、1122 条模式、1193 条双语场景时，真正值得挖掘的'独特思维'恰恰是那条让百人级扩张没有撕裂主库的整合方法论。它的历史意义有三重。其一，证明'规模'与'秩序'可以兼得：从 922 到 1122 模式的每一次纯增量并入都做到了既有条目零改动、编号区段不冲突、related_modes 零悬空——这依赖的不是小心，而是程序（区段预定、哈希锚定、验收先行）。其二，把'验收'从仪式变成资产：每个家族入库时同步产出可独立重跑的验收脚本（T1-T162 级别的逐项断言），缺陷（如 M-ZKZ 粘连 id）在归档阶段被独立抽检捕获并修复归零——知识库第一次拥有了免疫式的质量记忆。其三，方法论人物的闭环：它用体系自己的语言（失效清单、账本、统筹法）描述体系自己的生产流程，使 Phase 21 收官不只是一次数据合并，而是一次'体系学会看见自己'的事件。其代价与张力同样真实：整合方法论记录的是工程事实而非历史人物生平，'人物档案'体裁对它是一种借喻；双语镜像的逐字一致要求极高的维护纪律，任何一手改动若不同步双镜即破坏同构；而'纯增量'原则也意味着历史遗留的孤儿键与旧式条目只能封存不能就地清洗——收官不等于清账。",
+  "historical_significance_en": "Phase23Final (H-P23F-001) is not one more historical figure but Protreptic's reflexive incorporation of its own production process: with the main library grown to 127 figures, 1,122 modes, and 1,193 bilingual scenarios, the truly distinctive 'thinking' worth mining is precisely the integration methodology that let a hundred-figure expansion tear nothing. Its significance is threefold. First, it proves scale and order can coexist: every pure-increment merge from 922 to 1,122 modes achieved zero changes to existing entries, no ID-range collisions, and zero dangling related_modes—owed not to care but to procedure (range reservation, hash anchoring, verification first). Second, it turned acceptance from ritual into asset: each family's entry produced an independently re-runnable verification script (assertions at the T1-T162 level), and defects (like M-ZKZ's concatenated ids) were caught by independent spot checks and fixed to zero—the knowledge base owned, for the first time, an immune quality memory. Third, the closure of the method-persona: it describes the system's own production in the system's own language (failure lists, ledgers, planning networks), making the Phase 21 finale not merely a data merge but the event of a system learning to see itself. The tensions are real: the methodology records engineering facts, not a historical life—the figure-archive genre is here a borrowing; the word-for-word dual-mirror demands severe maintenance discipline; and the pure-increment principle means legacy orphan keys can be quarantined but never washed in place—finale is not settlement.",
+  "unique_thinking": "它的思维方式的底色是'把数据体系当作会呼吸的工程结构，把每一次扩张当作一次荷载试验'：十个标志动作构成闭环。其一，'纯增量并库'——扩张的合法性来自对既有内容零删改的承诺，新增永远走自己的区段；其二，'双镜像同构'——data/figures 与 docs/figures 逐字一致，任何单侧改动都是缺陷；其三，'悬空引用清零'——related_modes 与 xrefs 的每个目标都必须能在库内指认，空引用按缺陷处理；其四，'编号区段预定'——M-XXX-001~010、C-XXX-001~010E 的命名空间在入库前完成占用检查，冲突在发生前消解；其五，'验收脚本先行'——验收不是事后翻看而是可重跑的断言清单，T1-Tn 逐项判定；其六，'场景映射'——每条模式必然落成中英双场景与四条标签，知识不留'无场景悬挂态'；其七，'交叉引用编织'——每个家族固定三条 xref 且全部在库，孤立家族视为未完成；其八，'哈希锚定'——figure json 与 md 双镜像以 sha256 与上下游对账，字节级漂移即刻暴露；其九，'基线计数'——modes/scenarios/tags/figures 四个总数在每次合并前后显式记账（1112→1122、1183→1193、1690→1730、125→126），扩张必须是可核算的算术而非印象；其十，'收官复盘'——阶段结束时以 FINAL 同步把 boards 与 workspace 拉回字节一致，复盘报告与修复提交并存。代价与极限：这套纪律对'灵感式'的快速增补是重负；镜像同步在并行作业下存在窗口期；而它度量的是结构完整性，无法自动度量思想质量——深度的守门仍依赖人的阅读。",
+  "unique_thinking_en": "The bedrock of its thinking: treat the data system as a breathing engineering structure and every expansion as a load test. Ten signature moves form a closed loop. First, pure-increment merging—the legitimacy of expansion rests on zero alteration of existing content; additions always take their own range. Second, dual-mirror isomorphism—data/figures and docs/figures agree word for word; any one-sided change is a defect. Third, dangling-reference zeroing—every target of related_modes and xrefs must be identifiable in-library; empty references are handled as bugs. Fourth, ID-range reservation—the M-XXX-001~010 and C-XXX-001~010E namespaces are occupancy-checked before entry; collisions dissolve before they happen. Fifth, verification-script-first—acceptance is not a post-hoc read but a re-runnable assertion list, judged item by item. Sixth, scenario mapping—every mode must land as a zh/en scenario pair with four tags; no knowledge remains in a 'scenario-less hanging state.' Seventh, cross-reference weaving—each family carries exactly three xrefs, all in-library; an isolated family counts as unfinished. Eighth, hash anchoring—figure json and md mirrors reconcile with upstream and downstream by sha256; byte-level drift surfaces at once. Ninth, baseline counting—the four totals (modes/scenarios/tags/figures) are explicitly accounted around every merge (1112→1122, 1183→1193, 1690→1730, 125→126); growth must be auditable arithmetic, not impression. Tenth, the final retrospective—at phase end a FINAL sync pulls boards and workspace back to byte equality, review report and fix commits coexisting. The limits: this discipline taxes inspiration-style rapid additions; mirror synchronization has windows under parallel work; and it measures structural integrity, not intellectual quality—depth still needs a human reader.",
+  "civilization_zh": "数字文明（知识库工程与数据治理传统），方法论谱系直承中华工程传统（茅以升的失效清单、竺可桢的账本自治、华罗庚的统筹网络）与国际软件工程实践（持续集成、数据校验、文档即代码）",
+  "civilization_en": "Digital civilization (knowledge-base engineering and data governance), its methodological lineage running directly from the Chinese engineering tradition (Mao Yisheng's failure lists, Zhu Kezhen's self-governed ledgers, Hua Luogeng's planning networks) and international software-engineering practice (continuous integration, data validation, docs-as-code)",
+  "roles_zh": [
+    "Protreptic 主库 Phase 21-23 收官整合工程的方法论化身（127 位人物、1122 条模式的并库程序总纲）",
+    "挖掘-入库-验收-归档四段流水线的制定与守护者（serrano/elcano/espinosa/pigafetta 四岗分工的制度设计）",
+    "双镜像与哈希对账制度的执行者（data/figures、docs/figures、boards/workspace 三层一致性）",
+    "验收脚本传统的奠基者（T1-Tn 断言清单与独立抽检的免疫式质量记忆）",
+    "收官复盘报告的撰写者（FINAL 同步、基线记账、缺陷修复留痕）"
+  ],
+  "roles_en": [
+    "The methodological embodiment of the Phase 21-23 finale integration of the Protreptic main library (the master procedure for merging 127 figures and 1,122 modes)",
+    "Definer and guardian of the four-stage mine-merge-verify-archive pipeline (the institutional design of the serrano/elcano/espinosa/pigafetta division of labor)",
+    "Executor of dual-mirror and hash-reconciliation discipline (three-layer consistency across data/figures, docs/figures, and boards/workspace)",
+    "Founder of the verification-script tradition (T1-Tn assertion lists and independently re-runnable spot checks as immune quality memory)",
+    "Author of the final-retrospective reports (FINAL sync, baseline accounting, defect fixes on the record)"
+  ],
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-P23F-001",
+    "M-P23F-002",
+    "M-P23F-003",
+    "M-P23F-004",
+    "M-P23F-005",
+    "M-P23F-006",
+    "M-P23F-007",
+    "M-P23F-008",
+    "M-P23F-009",
+    "M-P23F-010"
+  ],
+  "key_works": [
+    "Phase 21 入库提交链 (922→1122 modes 的纯增量提交序列：从 H-PGR-001 到 H-MYS-001，每提交一份基线记账与独立抽检记录)",
+    "《竺可桢 H-ZKZ-001 文档归档缺陷修复》(悬空引用清零法的示范样本：M-ZKZ-002/005/008 三处 related_modes 粘连 id 的定位、修复与双镜像同步)",
+    "《华罗庚/钱学森/丘吉尔 入库验收报告》(verify_*_ingest.py 系列脚本：T1-Tn 断言清单，26-162 项全 PASS)",
+    "Phase 21 最终同步提交 (boards→workspace 全量镜像：字节级一致性与 FINAL 终检报告)",
+    "《merge_payload 规范》(figure/scenarios zh+en/scenario_tags/code_maps_entry 五件套的载荷结构约定)"
+  ],
+  "key_concepts": [
+    "纯增量零破坏 pure-increment, zero-damage",
+    "双镜像同构 dual-mirror isomorphism",
+    "悬空引用清零 zero dangling references",
+    "验收先行 verification first",
+    "哈希锚定 hash anchoring",
+    "基线记账 baseline accounting"
+  ],
+  "cross_references": [
+    "M-MYS-001（茅以升·失效师法：悬空引用清零法与验收脚本先行法的方法论祖先——把'它会怎么坏'穷举成清单，再逐项设防，正是数据整合对失效清单法的继承）",
+    "M-ZKZ-001（竺可桢·账本自治法：基线计数法与哈希锚定法的直系源头——四项总数与 sha256 对账即'账本自治'在数据工程中的转世）",
+    "M-HLG-001（华罗庚·统筹网络法：四段流水线（挖掘-入库-验收-归档）与并行岗卡分工即统筹法在多智能体协作上的展开）"
+  ],
+  "tags": [
+    "纯增量并库法",
+    "双镜像同构法",
+    "悬空清零法",
+    "区段预定法",
+    "验收先行法",
+    "场景映射法",
+    "引用编织法",
+    "哈希锚定法",
+    "基线记账法",
+    "收官复盘法"
+  ],
+  "modes": [
+    {
+      "mode_code": "M-P23F-001",
+      "name_zh": [
+        "纯增量并库法",
+        "Pure-Increment Merge Method",
+        "数据整合方法论/扩张的合法性来自对既有内容零删改的承诺——新增永远走自己的区段，修改永远另开缺陷卡；让知识库像地层一样生长，旧层永不被翻搅"
+      ],
+      "name_en": [
+        "Pure-Increment Merge Method",
+        "Pure-Increment Merge Method",
+        "data-integration methodology/expansion's legitimacy rests on zero alteration of existing content—additions always take their own range, modifications always open a defect card; let a knowledge base grow like strata, old layers never disturbed"
+      ],
+      "category": [
+        "纯增量并库法",
+        "Pure-Increment Merge Method",
+        "数据整合方法论/扩张的合法性来自对既有内容零删改的承诺——新增永远走自己的区段，修改永远另开缺陷卡；让知识库像地层一样生长，旧层永不被翻搅"
+      ],
+      "domain_zh": "Phase 21 入库链：从 922 到 1122 模式的二十次家族并入，每一次 merge_payload 都只做四件事——追加 modes、追加双语场景、追加 scenario_tags、在 code_maps.figures 新增条目；既有 922 条模式的字段从未被 touched（验收脚本以 git diff 对既有条目零删改为断言项），需要修正历史缺陷时（如 M-ZKZ 粘连 id）另开独立修复卡并在修复提交里显式列出被改动的那三处——'新增'与'修复'在提交史上是两种不同颜色的墨水",
+      "domain_en": "The Phase 21 entry chain: twenty family merges from 922 to 1,122 modes, each merge_payload doing only four things—append modes, append bilingual scenarios, append scenario_tags, add one code_maps.figures entry; the existing 922 modes were never touched (verification scripts assert zero diff on prior entries), and when a legacy defect needed fixing (M-ZKZ's concatenated ids) a separate repair card was opened with the three touched sites listed explicitly in the fix commit—'addition' and 'repair' written in two different inks on the commit history",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "纯增量并库法的核心命题是：知识库的每次扩张都应该是一次可以整体回滚、且不改变任何既有语义的事务——这既是数据完整性的要求，更是协作信任的要求。混合式扩张（新增的同时顺手改旧条目）的失败机制在于：改动混在新增里，验收者无法区分'哪一行是新的哪一行是被动的'，一旦某个'顺手修改'引入缺陷，回滚会连累全部新增，不回滚则缺陷常驻。纯增量的操作程序有三步。第一步，区段隔离：新家族使用全新编号区段（M-XXX-001~010、C-XXX-001~010E），入库前先做占用检查——code_maps 无该 figure、modes_data 无该 id、场景库无该 C 码；冲突在写入前消解而非写入后调和。第二步，载荷打包：全部新增内容装进一份 merge_payload（figure/scenarios_zh/scenarios_en/scenario_tags/code_maps_entry 五件套），入库者只执行'合并这个载荷'这一种操作——新增的内容形态标准化，合并就退化为机械动作。第三步，差异审计：以 git diff 或逐字段比对证明既有条目零删改——这是纯增量的'验收定义'，不满足即不算纯增量。深意有三重。其一，这是茅以升'失效清单'在数据工程上的转世：先列出'这次扩张可能弄坏什么'（既有条目、编号、引用、镜像），再逐项设防——零删改断言就是那道防线。其二，纯增量把'修复'从'顺手'升格为'事件'：历史缺陷值得一张专门的卡、一次专门的提交、一份显式的修复说明，因为修复改变了既有语义，必须被看见。其三，它使知识库获得地质学式的可考性：每一层（提交）内容清晰、边界完整，考古（回溯审计）不需要甄别层间混杂。适用边界：适合多人协作、长周期、可审计要求高的知识库与代码库；对单人快速草稿场景，纯增量的记账成本可能高于收益。现代对应物：append-only 日志与事件溯源（event sourcing）、数据库的迁移脚本（migration）纪律、Git 的'rebase 之外'协作公约、以及一切'只追加不涂改'的账本传统。",
+      "definition_en": "The core proposition: every expansion of a knowledge base should be a transaction that is wholly rollback-able and changes no existing semantics—this is a demand of data integrity, but more of collaborative trust. Mixed expansion (adding while casually editing old entries) fails because reviewers cannot tell new lines from altered ones; once a casual edit introduces a defect, rollback drags the additions down with it, and no rollback leaves the defect resident. The pure-increment procedure has three steps. First, range isolation: a new family takes a fresh ID range (M-XXX-001~010, C-XXX-001~010E), with an occupancy check before entry—no such figure in code_maps, no such id in modes_data, no such C-code in the scenario banks; collisions dissolve before writing, not after. Second, payload packing: all new content goes into one merge payload (the five-piece set: figure, scenarios_zh, scenarios_en, scenario_tags, code_maps_entry); the merger executes only the single operation 'merge this payload'—with the shape of additions standardized, merging degrades into a mechanical act. Third, difference audit: prove zero alteration of existing entries by git diff or field-by-field comparison—this is the very definition of passing; failing it, it is not pure increment. Three layers of depth. First, it is Mao Yisheng's failure list reincarnated in data engineering: list what this expansion could break (existing entries, ids, references, mirrors), then defend each item—the zero-diff assertion is that defense line. Second, pure increment promotes 'fixing' from a side effect into an event: a legacy defect deserves its own card, its own commit, its own explicit repair note, because repairs change existing semantics and must be seen. Third, it gives the knowledge base geological traceability: each stratum (commit) has clear content and complete boundaries, so archaeology needs no sorting of mixed layers. Boundaries: it suits multi-person, long-horizon, audit-heavy knowledge and code bases; for single-person rapid drafts the bookkeeping may exceed the benefit. Modern counterparts: append-only logs and event sourcing, database migration discipline, Git conventions against history rewrites, and every ledger tradition of 'append, never overwrite.'",
+      "source_chapter": "Phase 21 入库提交链（boards 仓 git log：H-PGR-001 至 H-MYS-001 系列）；merge_payload 规范（workspaces/t_83774645/notes）；M-ZKZ-001 缺陷修复提交（4a89ae4：三处 related_modes 粘连 id 的显式修复）；《茅以升传》失效清单法的谱系参照",
+      "key_concepts": [
+        "区段隔离先于写入",
+        "载荷五件套标准化",
+        "零删改是验收定义",
+        "修复升格为事件",
+        "新增与修复两种墨水",
+        "地质学式可考性"
+      ],
+      "key_quote_zh": "知识库像地层一样生长——新的一层压上去，旧的一层动都不动；要修旧层，就单独挖一口探方。",
+      "key_quote_en": "A knowledge base grows like strata—each new layer pressed on top, the old layers untouched; to repair an old layer, dig a separate trench.",
+      "process_zh": [
+        "占用检查：入库前核对编号区段（modes id、场景码、figure 码）在主库中全部空闲——冲突在写入前消解",
+        "载荷打包：把全部新增内容装进标准化 merge_payload（figure/双语场景/标签/code_maps 五件套）——新增形态唯一",
+        "单一操作：入库者只执行'合并载荷'——不解读、不重写、不顺手优化；合并退化为机械动作",
+        "差异审计：用 git diff 或逐字段比对证明既有条目零删改——不满足即退回",
+        "修复分流：历史缺陷走独立修复卡与修复提交，显式列出每一处被改动的位置——修复必须被看见",
+        "回滚预案：每个合并提交独立可回滚——扩张事务化，坏层可以整层揭走而不伤邻层"
+      ],
+      "process_en": [
+        "Check occupancy: before entry, verify the ID ranges (mode ids, scenario codes, figure code) are all free in the main library—collisions dissolve before writing",
+        "Pack the payload: fit all additions into one standardized merge payload (figure, bilingual scenarios, tags, code_maps)—one shape of addition",
+        "Single operation: the merger only executes 'merge the payload'—no reinterpretation, no rewriting, no side optimizations; merging degrades into mechanics",
+        "Audit the difference: prove zero alteration of existing entries by git diff or field-by-field comparison; failing that, return it",
+        "Divert repairs: legacy defects go to their own repair card and commit, every touched site listed explicitly—repairs must be seen",
+        "Prepare rollback: each merge commit independently rollback-able—expansion as transaction; a bad layer lifts off whole without wounding its neighbors"
+      ],
+      "representative_cases_zh": [
+        "茅以升入库（t_845f9f75，提交 1f08fe0）：merge_payload 五件套纯增量并入——10 模式、10+10 场景、40 标签、1 条 code_maps entry，主库 1112→1122，既有条目零删改，独立抽检 162 项全 PASS",
+        "竺可桢缺陷修复（t_51d42100，提交 4a89ae4）：与新增分流的独立修复卡——M-ZKZ-002/005/008 三处 related_modes 粘连 id 逐一改正，figure 内嵌与主库同步修，双镜像同步，修复后悬空引用清零",
+        "Phase 21 最终同步（提交 7b42239 / e35bf6a）：boards→workspace 全量镜像 FINAL——以基线计数（442→792 等）与 FINAL 终检证明'同步也是事务'，无新挖掘数据、无隐式改动",
+        "Phase 22 裁定恢复（提交 15f36a2/9c8a9c1）：误删的 293 条散键与 80 条嵌套场景按'workspace 为权威'的规则回写恢复——纯增量原则的对偶操作：恢复也走显式卡与显式提交，不静默覆盖"
+      ],
+      "representative_cases_en": [
+        "Entering Mao Yisheng (t_845f9f75, commit 1f08fe0): the five-piece payload merged as pure increment—10 modes, 10+10 scenarios, 40 tags, one code_maps entry, library 1112→1122, zero alteration of prior entries, 162-item independent spot check all PASS",
+        "The Zhu Kezhen defect repair (t_51d42100, commit 4a89ae4): a repair card separate from additions—three concatenated related_modes ids in M-ZKZ-002/005/008 corrected one by one, figure-embedded and main-library copies fixed in step, both mirrors synced, dangling references zeroed after repair",
+        "The Phase 21 final sync (commits 7b42239 / e35bf6a): the boards→workspace full-mirror FINAL—baseline counts (442→792 and the like) and a final inspection proving 'sync is also a transaction,' no new mining, no implicit edits",
+        "The Phase 22 adjudicated restore (commits 15f36a2/9c8a9c1): 293 scatter keys and 80 nested scenarios wrongly deleted, written back under the 'workspace is authoritative' rule—the dual of pure increment: restoration also goes through an explicit card and commit, never a silent overwrite"
+      ],
+      "modern_applications_zh": [
+        "团队代码评审：PR 只允许'新增文件或新增函数'，对既有代码的修改一律另开 refactor PR——评审者只需读新增，改动可独立回滚",
+        "数据中台建设：维度表追加走新版本分区而非原地 UPDATE——历史报表永远可重放，口径变更可追溯",
+        "个人笔记系统：笔记只追加不回改，修正写成'勘误块'附于文末——思想演化的每一层都可考",
+        "API 演进：只加字段不加改字段语义，废弃走 deprecation 周期——下游集成永不被静默破坏"
+      ],
+      "modern_applications_en": [
+        "Team code review: a PR may only add files or functions; edits to existing code open a separate refactor PR—reviewers read only additions, and changes roll back independently",
+        "Data-platform building: dimension tables append via new versioned partitions, never in-place UPDATEs—historical reports always replayable, definition changes traceable",
+        "A personal note system: notes append only, corrections written as errata blocks at the end—every stratum of an idea's evolution remains examinable",
+        "API evolution: add fields, never change field semantics; deprecation runs on a declared cycle—downstream integrations are never silently broken"
+      ],
+      "related_modes": [
+        "M-P23F-002",
+        "M-P23F-004",
+        "M-P23F-005",
+        "M-P23F-009"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "茅以升",
+          "name_en": "Mao Yisheng",
+          "relation_zh": "方法论祖先：失效清单法——'这次扩张会弄坏什么'的穷举与逐项设防，是纯增量并库的直接思想来源",
+          "relation_en": "the methodological ancestor: his failure-list method—exhausting 'what could this expansion break' and defending each item—is the direct source of pure-increment merging"
+        },
+        {
+          "name_zh": "司马迁",
+          "name_en": "Sima Qian",
+          "relation_zh": "史学传统同构：《史记》'述而不作'的文献层积与互见法——旧文本不改字、新判断另起论赞，与纯增量并库同构",
+          "relation_en": "the isomorph in historiography: the Records' layering of sources 'narrating without authoring' and cross-reference device—old texts unaltered, new judgments in separate commentaries, one family with pure-increment merging"
+        },
+        {
+          "name_zh": "区块链工程师",
+          "name_en": "The blockchain engineers",
+          "relation_zh": "现代对应物：append-only 账本与事件溯源——把'只追加不涂改'做成技术强制，使历史不可篡改成为默认属性",
+          "relation_en": "the modern counterpart: append-only ledgers and event sourcing—making 'append, never overwrite' technically enforced so immutability of history is the default"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-001"
+    },
+    {
+      "mode_code": "M-P23F-002",
+      "name_zh": [
+        "双镜像同构法",
+        "Dual-Mirror Isomorphism Method",
+        "文档治理方法论/同一知识资产在两个目录（data/figures 与 docs/figures）保持逐字一致——任何单侧改动即缺陷；用哈希与内嵌比对把'一致'从自觉变成断言"
+      ],
+      "name_en": [
+        "Dual-Mirror Isomorphism Method",
+        "Dual-Mirror Isomorphism Method",
+        "documentation governance methodology/one knowledge asset kept word-for-word identical in two directories (data/figures and docs/figures)—any one-sided change is a defect; hash and embedded comparison turn 'consistency' from good intention into assertion"
+      ],
+      "category": [
+        "双镜像同构法",
+        "Dual-Mirror Isomorphism Method",
+        "文档治理方法论/同一知识资产在两个目录（data/figures 与 docs/figures）保持逐字一致——任何单侧改动即缺陷；用哈希与内嵌比对把'一致'从自觉变成断言"
+      ],
+      "domain_zh": "Phase 21 每次入库都同步产出三份 md：workspaces/<task>/H-XXX-001.md（工作稿）、data/figures/H-XXX-001.md（数据镜像）、docs/figures/H-XXX-001.md（文档镜像）——三份文件 sha256 逐字一致（如茅以升 md 双镜像 96bdd4c4）；figure json 的 modes 数组与主库 modes_data.json 的对应条目做'embedded==lib'逐字校验；修复卡（竺可桢 4a89ae4）的标准动作是'主库修一处、figure 内嵌同步修、双镜像 md 同步修'——四处联动的清单被写进修复流程",
+      "domain_en": "Every Phase 21 entry produced three md copies: the working draft in the task workspace, the data mirror at data/figures, and the doc mirror at docs/figures—all three sha256-identical (Mao Yisheng's md dual mirror at 96bdd4c4); the figure json's modes array is checked word-for-word against the corresponding entries in the main library ('embedded==lib'); the standard move of a repair card (Zhu Kezhen, 4a89ae4) is 'fix the main library, sync the embedded copy, sync both md mirrors'—the four-site联动 checklist written into the repair procedure",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "双镜像同构法的核心命题是：当同一知识必须以多种形态存在（机器读的 JSON、人读的 Markdown、上游仓与下游仓的副本），'一致'就不该指望人的自觉，而该被制度与工具强制。单镜像或多镜像失同步的失败机制在于：知识有多个权威副本后，每次修改的成本变为 n 倍，人会偷懒只改一处——漂移从此开始，且漂移是静默的（没有报错，只有两个'略微不同'的事实并存）。操作程序有三步。第一步，权威源声明：明确哪一份是 source of truth（本库是主库 modes_data.json 与 figure json），镜像只是投影——投影与源不一致，永远判定投影错。第二步，投影自动化：md 镜像由 figure json 经模板渲染生成（build 脚本一次成型），不做手工双写——生成式镜像使'两处不同'在生成时刻就不可能。第三步，一致性断言：验收脚本对每份镜像做 sha256 比对与 embedded==lib 逐字校验，任何单侧改动在下次验收时必然爆红。深意有三重。其一，这与'文档即代码'同构：文档不是附属品而是可编译、可校验、可版本化的构建产物——文档漂移从'难免'变成'构建失败'。其二，双镜像的制度价值在多代理协作中放大：四个岗位（挖掘/入库/QA/归档）各自接触不同副本，哈希对账使'谁看到的都是同一份事实'——协作的信任成本趋近于零。其三，同构约束反过来提高写作质量：因为 md 是 json 的投影，写作时必须先把内容在结构化字段里写完整，'想到哪写到哪'的散漫被结构预先约束。适用边界：适合需要多形态、多消费方的知识资产；对一次性的内部草稿，双镜像是浪费。代价：镜像制度要求所有修改都回到权威源重新生成，'就地快改'的诱惑必须被流程禁止。现代对应物：API 文档从 OpenAPI 规范生成、静态站点生成器（源文件→多端产物）、数据库的物化视图与刷新策略、以及一切'单一事实源+派生物'的架构。",
+      "definition_en": "The core proposition: when the same knowledge must exist in several forms (machine-read JSON, human-read Markdown, upstream and downstream repo copies), 'consistency' should not rely on human vigilance but be enforced by institution and tooling. The failure mechanism of unsynchronized mirrors: once knowledge has multiple authoritative copies, every edit costs n times as much, so people edit one copy—drift begins, silently (no errors, just two slightly different facts coexisting). The procedure has three steps. First, declare the source of truth (here, the main library's modes_data.json and the figure json); mirrors are projections, and any projection-source mismatch always convicts the projection. Second, automate the projection: md mirrors are rendered from the figure json by a template in one build pass, never hand-duplicated—generated mirrors cannot differ at the moment of generation. Third, assert consistency: the verification script compares sha256 for every mirror and checks embedded==lib word for word; any one-sided edit must flare red at the next acceptance. Three layers of depth. First, isomorphic with docs-as-code: documents are not accessories but compiled, checkable, versioned build products—document drift turns from 'inevitable' into 'build failure.' Second, the institutional value magnifies in multi-agent collaboration: four roles (mining, merging, QA, archiving) each touch different copies, and hash reconciliation means everyone sees the same facts—the trust cost of collaboration approaches zero. Third, the isomorphism constraint raises writing quality upstream: because the md is a projection of the json, content must be written complete in structured fields first—the looseness of 'writing as thoughts occur' is pre-constrained by structure. Boundaries: it suits knowledge assets with multiple forms and consumers; for one-off internal drafts, dual mirrors are waste. The cost: all edits must return to the source and regenerate—'quick in-place fixes' must be forbidden by process. Modern counterparts: API docs generated from OpenAPI specs, static site generators, materialized views and refresh policies, every 'single source of truth plus derivatives' architecture.",
+      "source_chapter": "Phase 21 入库与修复提交链（双镜像 sha256 记录：茅以升 96bdd4c4、竺可桢 1c034c51→46cd3d26 等）；verify_mys.py 的 embedded==lib 校验段；docs-as-code 与静态站点生成器的工程实践",
+      "key_concepts": [
+        "权威源唯一声明",
+        "镜像即投影",
+        "生成式镜像消灭手抄",
+        "sha256 对账",
+        "embedded==lib 逐字校验",
+        "单侧改动即构建失败"
+      ],
+      "key_quote_zh": "同一份知识只准有一个'真相'，其余都是它的投影——投影敢和真相不一样，构建就敢红给你看。",
+      "key_quote_en": "One truth per piece of knowledge; everything else is its projection—and if a projection dares differ from the truth, the build dares to flare red.",
+      "process_zh": [
+        "声明权威源：为每类资产指定唯一 source of truth——数据镜像与文档镜像均为投影",
+        "生成而非手抄：镜像由权威源经模板渲染产出——渲染一次成型，禁止手工双写",
+        "哈希锚定：每次发布记录镜像 sha256——上下游以哈希对账而非'看起来一样'",
+        "逐字校验：验收脚本对 figure 内嵌模式与主库条目做 embedded==lib 比对——差异即缺陷",
+        "修复联动：任何修复必须同步覆盖'主库+内嵌+双镜像'四处——联动清单写进修复流程",
+        "漂移归因：发现不一致时先归因（谁改的、哪一步漏的），再修内容——漂移本身是流程信号"
+      ],
+      "process_en": [
+        "Declare the source: for each asset class name a single source of truth—data and doc mirrors are projections",
+        "Generate, never transcribe: mirrors rendered from the source by template in one pass; hand-duplication forbidden",
+        "Anchor by hash: record mirror sha256 at every release—reconcile upstream and downstream by hash, not by eyeballing",
+        "Verify word for word: the acceptance script compares the figure-embedded modes with the main library, embedded==lib; any difference is a defect",
+        "Repair in联动: every fix must cover all four sites—main library, embedded copy, both md mirrors; the联动 checklist belongs in the repair procedure",
+        "Attribute drift: on finding inconsistency, first attribute (who edited, which step missed), then fix content—drift itself is a process signal"
+      ],
+      "representative_cases_zh": [
+        "茅以升双镜像（t_83774645→t_845f9f75）：md 由 build_mys.py 一次渲染三份，入库时 data/figures 与 docs/figures 的 sha256（96bdd4c4）与工作稿逐字一致——生成式镜像零漂移",
+        "竺可桢修复联动（提交 4a89ae4）：related_modes 粘连 id 一处修复同时落在主库 modes_data、figure json 内嵌、data/docs 双镜像 md 四处——修复提交的说明逐处列出，漂移清零",
+        "embedded==lib 校验（verify_mys.py）：figure json 的 10 条模式与主库对应条目逐字段比对 0 mismatch——'内嵌副本'这个最易漂移的位置被断言钉死",
+        "Phase 22 双仓裁定（提交 15f36a2/9c8a9c1）：boards 与 workspace 镜像冲突时以基线与快照归因，按规则回写恢复——双镜像失同步时的'归因先行'示范"
+      ],
+      "representative_cases_en": [
+        "Mao Yisheng's dual mirrors (t_83774645→t_845f9f75): one render by build_mys.py produced three identical copies; at entry the data/figures and docs/figures sha256 (96bdd4c4) matched the working draft word for word—generated mirrors, zero drift",
+        "The Zhu Kezhen repair in联动 (commit 4a89ae4): one related_modes fix landing simultaneously in the main library, the figure json's embedded copy, and both md mirrors—every site listed in the repair commit, drift zeroed",
+        "The embedded==lib check (verify_mys.py): the figure json's ten modes compared field-by-field with the main library, 0 mismatch—the most drift-prone location pinned by assertion",
+        "The Phase 22 two-repo adjudication (commits 15f36a2/9c8a9c1): on boards/workspace mirror conflict, attribution by baseline and snapshot first, restoration by rule—'attribution before repair' when dual mirrors fall out of step"
+      ],
+      "modern_applications_zh": [
+        "技术文档团队：README/API 文档从代码注释或 OpenAPI 规范生成——文档更新与代码更新合并为同一个 PR，漂移在 CI 阶段拦截",
+        "多端发布：产品说明一次撰写，官网/小程序/手册由同一源生成——'三个渠道三个说法'从根上消失",
+        "数据仓库：指标定义唯一存放于语义层，各报表为物化视图——口径之争变成刷新问题而非解释权问题",
+        "个人知识管理：一条笔记一个权威版本，引用一律链接而非复制——'复制粘贴式整理'是漂移的起点"
+      ],
+      "modern_applications_en": [
+        "Technical documentation: READMEs and API docs generated from code comments or OpenAPI specs—doc and code updates merge in one PR, drift intercepted at CI",
+        "Multi-channel publishing: write once, generate website, mini-program, and manual from one source—'three channels, three stories' disappears at the root",
+        "Data warehousing: metric definitions live only in the semantic layer; reports are materialized views—disputes over definitions become refresh problems, not jurisdictional ones",
+        "Personal knowledge management: one authoritative version per note, references by link not copy—copy-paste-style organizing is where drift begins"
+      ],
+      "related_modes": [
+        "M-P23F-001",
+        "M-P23F-005",
+        "M-P23F-008",
+        "M-P23F-009"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "竺可桢",
+          "name_en": "Zhu Kezhen",
+          "relation_zh": "账本自治法的传承者：单一权威记录、逐日对账、误差即信号——双镜像哈希对账正是账本自治在数据工程中的直接后代",
+          "relation_en": "the inheritor of ledger self-governance: one authoritative record, daily reconciliation, error as signal—hash-reconciled dual mirrors are ledger self-governance reborn in data engineering"
+        },
+        {
+          "name_zh": "高德纳",
+          "name_en": "Donald Knuth",
+          "relation_zh": "单源文学的实践者：TAOCP 的每一版修订都回到同一份源并以勘误制度传播——'单一事实源+派生物'的著述先例",
+          "relation_en": "the practitioner of single-source authorship: every revision of TAOCP returns to one source and propagates via an errata system—the authorial precedent of 'single truth plus derivatives'"
+        },
+        {
+          "name_zh": "维基百科编者",
+          "name_en": "The Wikipedians",
+          "relation_zh": "对照样本：'同一主题多个语言版本各自演化'造成的事实漂移——双镜像同构法正是对这种松散镜像的制度化反题",
+          "relation_en": "the counterpoint: per-language articles evolving independently cause factual drift—dual-mirror isomorphism is the institutional antithesis of such loose mirroring"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-002"
+    },
+    {
+      "mode_code": "M-P23F-003",
+      "name_zh": [
+        "悬空清零法",
+        "Dangling-Reference Zeroing Method",
+        "引用治理方法论/库内每一处引用（related_modes、xrefs）都必须能在库内指认出目标——空引用按缺陷处理、归档前必须清零；让'引用完整性'成为入库的定义性条件而非事后理想"
+      ],
+      "name_en": [
+        "Dangling-Reference Zeroing Method",
+        "Dangling-Reference Zeroing Method",
+        "reference-governance methodology/every in-library reference (related_modes, xrefs) must name a target identifiable in the library—dangling references handled as defects and zeroed before archiving; reference integrity as a defining entry condition, not a post-hoc ideal"
+      ],
+      "category": [
+        "悬空清零法",
+        "Dangling-Reference Zeroing Method",
+        "引用治理方法论/库内每一处引用（related_modes、xrefs）都必须能在库内指认出目标——空引用按缺陷处理、归档前必须清零；让'引用完整性'成为入库的定义性条件而非事后理想"
+      ],
+      "domain_zh": "竺可桢归档抽检（t_51d42100，提交 4a89ae4）：独立抽检发现 M-ZKZ-002 的 related_modes 出现 'M-ZKZ-010M-ZKZ-006' 这样的粘连 id（两个 id 因分隔符丢失而合体，指向库内不存在的目标）——处理方式不是'宽容视之'而是清零：三个粘连处逐一拆分改正、figure 内嵌与主库同步、双镜像同步，修复后全库悬空引用为 0；同期验收脚本把'related_modes 每项都在库内 id 集合中'写成硬断言（verify_mys.py T21）",
+      "domain_en": "The Zhu Kezhen archive spot check (t_51d42100, commit 4a89ae4): independent review found in M-ZKZ-002's related_modes a concatenated id like 'M-ZKZ-010M-ZKZ-006'—two ids fused by a lost separator, pointing at no in-library target; the response was not tolerance but zeroing: three sites split and corrected one by one, figure-embedded and main-library copies synced, both mirrors synced, and after repair the whole library's dangling references stood at 0; the era's acceptance scripts hard-assert that every related_modes item lies in the library's id set (verify_mys.py T21)",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "悬空清零法的核心命题是：引用是知识库的循环系统——一条指向不存在目标的引用不是'小瑕疵'，而是坏死的毛细血管：它让读者沿路撞墙、让遍历算法失灵、让'库内知识互相关联'这个核心价值失真。悬空引用的产生机制有三类：外部引用了未入库的规划条目（前向引用）、拼接事故（分隔符丢失使两个 id 粘连）、重命名后未回改（旧 id 残留）。操作程序有三步。第一步，完整性断言：入库验收脚本把'每个 related_modes/xref 目标都在当前库 id 集合中'写成硬性检查——不满足即 FAIL，不存在'警告级'的悬空。第二步，前向引用显式化：确需引用尚未入库的对象时，引用者必须在文档中声明'这是前向引用、目标在哪个上游任务'并保证目标入库周期内落地——前向引用是借债，要记账。第三步，清零闭环：发现悬空即修（拆分粘连、回改旧 id、或移除无效引用），修复必须同步全部镜像位置，修复后复跑断言至 0。深意有三重。其一，这是茅以升'死法已知则桥死不了'的引用版：悬空引用是已知的死法，清单（断言）加防御（清零流程）使它无法存活。其二，'零悬空'改变了知识的可用性本质：每个读者/算法从任一条目出发都能走遍整个库——引用网络从'大体连通'变成'严格连通'，图算法（相似度、路径、聚类）才有了可靠底座。其三，前向引用记账制回答了'生长中的库如何处理未完成的连接'：不是禁止引用未来，而是让每一笔'未来之债'可见、有主、有期限。适用边界：适合一切以引用网络为骨架的知识库（百科、图谱、代码库、文献库）；对线性文档（书、长文）引用完整性弱化为'链接检查'即可。现代对应物：数据库外键约束与参照完整性、编译器的未定义符号检查、网站的死链巡检、知识图谱的实体消歧与闭合世界假设。",
+      "definition_en": "The core proposition: references are a knowledge base's circulatory system—a reference to a nonexistent target is not a blemish but a dead capillary: readers hit walls mid-path, traversal algorithms fail, and the core value of 'in-library knowledge interlinked' goes false. Dangling references arise three ways: referencing planned-but-unentered items (forward references), splice accidents (lost separators fusing two ids), and stale ids after renames. The procedure has three steps. First, integrity assertions: entry acceptance hard-checks that every related_modes/xref target lies in the current library's id set—unmet means FAIL; there is no 'warning-level' dangling. Second, explicit forward references: when one must cite a not-yet-entered object, declare in the document 'this is a forward reference, target in upstream task X, due within its entry window'—forward references are debt, and debt is booked. Third, the zeroing loop: on finding a dangling ref, fix it (split the fusion, update the stale id, or remove the dead reference), sync every mirror site, and re-run assertions to zero. Three layers of depth. First, the reference-side version of Mao's 'once the deaths are known, the bridge cannot die': dangling refs are known deaths; the list (assertions) plus the defense (zeroing procedure) leaves them no habitat. Second, 'zero dangling' changes what the knowledge is: from any entry, any reader or algorithm can traverse the whole library—the reference network shifts from 'mostly connected' to 'strictly connected,' the reliable substrate graph algorithms need. Third, forward-reference accounting answers how a growing library handles unfinished links: not by forbidding reference to the future, but by making every future-debt visible, owned, and deadlined. Boundaries: it suits every reference-network-knowledge base (encyclopedias, graphs, codebases, bibliographies); for linear documents it weakens to link checking. Modern counterparts: foreign-key constraints and referential integrity, the compiler's undefined-symbol check, site-wide dead-link crawls, entity disambiguation and the closed-world assumption in knowledge graphs.",
+      "source_chapter": "竺可桢归档缺陷修复（提交 4a89ae4：M-ZKZ-002/005/008 粘连 id 清零全记录）；verify_mys.py T21 断言；数据库参照完整性与编译链接器的工程传统",
+      "key_concepts": [
+        "悬空引用=坏死的毛细血管",
+        "完整性是硬断言非警告",
+        "前向引用是记账的债",
+        "粘连 id 是拼接事故",
+        "清零后复跑至 0",
+        "严格连通才有图算法底座"
+      ],
+      "key_quote_zh": "每一个引用都必须有人应门——指向空房间的走廊，要么通到房间，要么封死。",
+      "key_quote_en": "Every reference must have someone answer the door—a corridor to an empty room either reaches the room or gets sealed.",
+      "process_zh": [
+        "断言入库：验收脚本硬性检查全部 related_modes/xref 目标在库——悬空即 FAIL，无警告级",
+        "区分三类悬空：前向引用（目标未入库）/拼接事故（id 粘连）/残留旧 id（重命名未回改）——归因决定修法",
+        "前向记账：确需引用未入库对象时显式声明上游任务与落地期限——未来之债可见、有主",
+        "清零修复：拆分粘连、回改旧 id 或移除死引用——修复覆盖主库、内嵌、双镜像全部位置",
+        "复跑归零：修复后全库复跑完整性断言——计数必须为 0 才允许归档",
+        "巡检常设：把完整性断言留作常设脚本——任何后续改动（含他人提交）再引入悬空即爆红"
+      ],
+      "process_en": [
+        "Assert at entry: the acceptance script hard-checks every related_modes/xref target is in-library; dangling means FAIL, no warning grade",
+        "Classify the three kinds: forward reference (target unentered), splice accident (fused ids), stale id (rename not propagated)—attribution decides the fix",
+        "Book forward debt: when citing an unentered object, declare the upstream task and landing deadline—the future-debt visible and owned",
+        "Fix to zero: split fusions, update stale ids, or remove dead refs—covering the main library, embedded copy, and both mirrors",
+        "Re-run to zero: after repair, re-run the whole-library integrity assertion; only 0 permits archiving",
+        "Keep the patrol: leave the assertion as a standing script—any later change (anyone's commit) reintroducing dangles flares red"
+      ],
+      "representative_cases_zh": [
+        "竺可桢粘连 id 清零（提交 4a89ae4）：'M-ZKZ-010M-ZKZ-006' 等三处粘连逐一拆分为合法 id 对，figure 内嵌与主库同步修，双镜像同步修——修复后悬空引用全库为 0",
+        "verify_mys.py T21 断言：'related_modes 每项都在本家族 10 个 id 中'作为入库验收的硬性项——把清零从'美德'降格为'及格线'",
+        "沈括 QA 修复（提交 642d7d8）：移除 7 条指向未入库模式的悬空 related_modes（M-DRK-001 x2 等）——对'引用了还没来的人'的处理是删除或等待，不留空走廊",
+        "培根归档复检（t_3e93e4cf）：'related_modes 全库零悬空'作为归档报告的固定检查项——悬空清零被制度化为四段流水线的验收字段"
+      ],
+      "representative_cases_en": [
+        "Zeroing Zhu Kezhen's fused ids (commit 4a89ae4): three fusions like 'M-ZKZ-010M-ZKZ-006' split into legal id pairs, synced across main library, embedded copy, and both mirrors—after repair, dangling references stood at 0 library-wide",
+        "The verify_mys.py T21 assertion: 'every related_modes item among the family's ten ids' as a hard acceptance item—zeroing demoted from virtue to pass line",
+        "The Shen Kuo QA fix (commit 642d7d8): seven dangling related_modes pointing at not-yet-entered modes (M-DRK-001 x2 among them) removed—for references to people not yet arrived: delete or wait, never leave an empty corridor",
+        "The Bacon archive recheck (t_3e93e4cf): 'related_modes zero dangling library-wide' as a fixed item of the archive report—dangling zeroing institutionalized as a pipeline acceptance field"
+      ],
+      "modern_applications_zh": [
+        "团队 Wiki 治理：CI 里跑死链巡检，新页面引用不存在的页面即阻止合并——'先建目标再引用'成为默认次序",
+        "微服务架构：服务间调用注册到服务发现，未注册地址的调用在部署期拦截——运行时的悬空引用前置为配置期缺陷",
+        "学术写作：参考文献提交前用工具校验 DOI/条目真实性——'引用不存在文献'从学术事故降为格式错误（工具兜住）",
+        "个人任务系统：项目依赖显式记账（等待谁、何时到期）——'等一个不会来的人'被制度性暴露"
+      ],
+      "modern_applications_en": [
+        "Team wiki governance: CI runs dead-link patrols; a new page citing a nonexistent one blocks the merge—'create the target before citing' becomes the default order",
+        "Microservices: inter-service calls register with service discovery; calls to unregistered addresses are intercepted at deploy—runtime dangles front-loaded as configuration defects",
+        "Academic writing: validate DOIs and bibliography entries with tooling before submission—'citing nonexistent literature' drops from scholarly scandal to caught format error",
+        "A personal task system: dependencies booked explicitly (waiting on whom, due when)—'waiting for someone who will never come' is institutionally exposed"
+      ],
+      "related_modes": [
+        "M-P23F-001",
+        "M-P23F-005",
+        "M-P23F-007",
+        "M-P23F-010"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "茅以升",
+          "name_en": "Mao Yisheng",
+          "relation_zh": "方法论祖先：'死法已知则桥死不了'——悬空引用是已知死法，断言与清零流程是对应防线",
+          "relation_en": "the methodological ancestor: 'once the deaths are known, the bridge cannot die'—dangling refs are known deaths; assertions and the zeroing procedure are the defenses"
+        },
+        {
+          "name_zh": "欧几里得",
+          "name_en": "Euclid",
+          "relation_zh": "严格连通的古代立法者：《几何原本》每个命题显式引用此前命题且无悬空——引用网络严格连通的最早范本",
+          "relation_en": "the ancient legislator of strict connectivity: the Elements cite prior propositions explicitly with no dangles—the earliest exemplar of a strictly connected reference network"
+        },
+        {
+          "name_zh": "数据库工程师",
+          "name_en": "The database engineers",
+          "relation_zh": "现代对应物：外键约束与参照完整性——把'引用必须有目标'做成存储引擎级强制，悬空在写入时即不可能",
+          "relation_en": "the modern counterpart: foreign keys and referential integrity—'every reference must have a target' enforced at the storage engine, dangles impossible at write time"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-003"
+    },
+    {
+      "mode_code": "M-P23F-004",
+      "name_zh": [
+        "区段预定法",
+        "Range-Reservation Method",
+        "命名治理方法论/为每个进入者预定专属编号区段并在入库前完成占用检查——冲突在写入前消解而非写入后调和；让大规模并行扩张共享一个命名空间而不相撞"
+      ],
+      "name_en": [
+        "Range-Reservation Method",
+        "Range-Reservation Method",
+        "naming-governance methodology/reserve a dedicated ID range for each entrant and complete an occupancy check before entry—collisions dissolve before writing, not after; letting massively parallel expansion share one namespace without collision"
+      ],
+      "category": [
+        "区段预定法",
+        "Range-Reservation Method",
+        "命名治理方法论/为每个进入者预定专属编号区段并在入库前完成占用检查——冲突在写入前消解而非写入后调和；让大规模并行扩张共享一个命名空间而不相撞"
+      ],
+      "domain_zh": "Phase 21 并行入库的命名空间秩序：二十余个家族同时挖掘（钱学森 M-QXS、竺可桢 M-ZKZ、华罗庚 M-HLG、茅以升 M-MYS……），每个家族的 M-XXX-001~010 与 C-XXX-001~010E 在其验收脚本里就完成三重占用检查——code_maps 无该 figure 码、modes_data 无该 id、场景库无该 C 码（verify_mys.py T35/T36/T37）；早期教训已制度化：商羯罗曾误占 M301-310 与跨文明 id 冲突（提交 879f4a8 重编号修复）、李时珍误产出王震内容被隔离（8f533c4）——'先检查后写入'取代了'撞了再改'",
+      "domain_en": "The namespace order of Phase 21's parallel entries: twenty-plus families mined simultaneously (Qian Xuesen M-QXS, Zhu Kezhen M-ZKZ, Hua Luogeng M-HLG, Mao Yisheng M-MYS...), each family's M-XXX-001~010 and C-XXX-001~010E passing a triple occupancy check inside its own verification script—no such figure code in code_maps, no such id in modes_data, no such C-code in the scenario banks (verify_mys.py T35/T36/T37); earlier lessons were institutionalized: Shankara once wrongly held M301-310 with cross-civilization id collisions (renumbered per commit 879f4a8), and Li Shizhen's mis-produced Wang Zhen content was quarantined (8f533c4)—'check before write' replaced 'collide and renumber'",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "区段预定法的核心命题是：并行扩张的最大隐患不在内容质量而在命名空间相撞——两个家族同时声称 M-XXX-001，或一条 id 语义漂移到另一个文明头上，修复成本（重编号、引用回改、镜像同步）随发现时间平方级增长。操作程序有三步。第一步，区段语义化：编号前缀携带身份（M-人物码-序号、C-人物码-序号E），使 id 自解释且天然分域——前缀是命名空间的'门牌'。第二步，占用预检：入库前以脚本核对目标区段在全部相关集合（modes、scenarios、tags、figures）中空闲——检查写入验收脚本而非口头约定，使预检成为不可跳过的程序步骤。第三步，冲突重置：若发现早期遗留的占位错误（跨文明冲突、语义漂移），执行显式重编号并全库回改引用——重置是一次'有记录的迁徙'而非静默改名。深意有三重。其一，这是 IP 地址分配、端口号注册、频谱牌照的共同逻辑：共享资源不撞车的秘密不是运气，是登记制度。其二，区段预定与纯增量并库法（M-P23F-001）互为条件：正因为新增只走新区段，'占用检查'才是可行的轻量操作——若允许就地改写，命名空间的'占用'概念本身就失效。其三，语义化前缀使命名空间成为知识地图：看到 M-ZKZ-003 即知人物与家族——id 不再是Opaque键而是可读的坐标。适用边界：适合多人多任务并行的编号系统（模式库、微服务、文件命名、API 版本）；单人短期项目可用更轻的约定。现代对应物：DNS 与 IP 分配、UUID 的命名空间变体、Cargo/PyPI 的包名注册、以及 Kubernetes 的 namespace 隔离。",
+      "definition_en": "The core proposition: the gravest hazard of parallel expansion is not content quality but namespace collision—two families both claiming M-XXX-001, or one id's semantics drifting onto another civilization; repair cost (renumbering, reference back-propagation, mirror sync) grows quadratically with discovery time. The procedure has three steps. First, semantic ranges: prefixes carry identity (M-figcode-seq, C-figcode-seqE), making ids self-explanatory and naturally partitioned—the prefix is the namespace's house number. Second, occupancy pre-check: before entry, a script verifies the target range is free across all relevant sets (modes, scenarios, tags, figures)—the check lives in the acceptance script, not verbal convention, making it an unskippable procedural step. Third, conflict reset: where legacy errors surface (cross-civilization collisions, semantic drift), run an explicit renumbering with library-wide reference back-propagation—a reset is a recorded migration, never a silent rename. Three layers of depth. First, this is the shared logic of IP allocation, port registration, and spectrum licensing: shared resources avoid collision not by luck but by registry. Second, range reservation and pure-increment merging (M-P23F-001) condition each other: precisely because additions take only new ranges, the occupancy check stays a cheap operation—permit in-place rewrites and the very concept of namespace 'occupancy' fails. Third, semantic prefixes make the namespace a knowledge map: seeing M-ZKZ-003 tells you the figure and family—ids stop being opaque keys and become readable coordinates. Boundaries: it suits numbered systems with many parallel actors (mode libraries, microservices, file naming, API versions); single-person short projects may use lighter conventions. Modern counterparts: DNS and IP allocation, UUID namespace variants, Cargo/PyPI name registration, Kubernetes namespace isolation.",
+      "source_chapter": "verify_mys.py T35/T36/T37 占用检查；商羯罗重编号修复（提交 879f4a8）；商君/谢富治 M381-390 冲突修复（91832eb）；李时珍串题隔离（8f533c4）",
+      "key_concepts": [
+        "前缀即门牌",
+        "占用预检写入脚本",
+        "冲突重置=有记录的迁徙",
+        "登记制度胜过运气",
+        "与纯增量互为条件",
+        "id 是可读坐标"
+      ],
+      "key_quote_zh": "一百家人同时盖房，不撞墙靠的不是小心，是每家开工前先查地契。",
+      "key_quote_en": "A hundred households building at once avoid collisions not by care but by each checking the land registry before breaking ground.",
+      "process_zh": [
+        "语义化前缀：为每类对象设计'身份可读'的编号方案（M-人物码-序号）——前缀承担分域",
+        "登记在册：维护编号分配的总登记（code_maps figures 表）——谁占了哪段一目了然",
+        "预检脚本化：入库验收内置三重占用检查（figures/modes/scenarios）——检查不可跳过",
+        "预留空段：为已知将到来的家族预留区段（如按人物码天然隔离）——减少跨区协调",
+        "冲突重置：发现占位错误即显式重编号并全库回改引用——迁徙留记录",
+        "回收管理：废弃条目的编号标为 retired 不复用——历史 id 永不转世"
+      ],
+      "process_en": [
+        "Semantic prefixes: design identity-readable schemes (M-figcode-seq)—prefixes carry the partition",
+        "Keep the registry: a master allocation registry (code_maps figures table)—who holds which range at a glance",
+        "Script the pre-check: triple occupancy checks (figures/modes/scenarios) built into acceptance—unskippable",
+        "Reserve ranges: set aside segments for known incoming families (figure-code isolation comes free)—less cross-range coordination",
+        "Reset on conflict: explicit renumbering with library-wide reference back-propagation—migrations leave records",
+        "Manage retirement: retired ids marked retired, never reused—historical ids never reincarnate"
+      ],
+      "representative_cases_zh": [
+        "verify_mys.py 的三重占用检查（T35/T36/T37）：code_maps 无 H-MYS、主库无 M-MYS、场景库无 C-MYS——茅以升入库前的命名空间安检全套",
+        "商羯罗重编号（提交 879f4a8）：误占 M301-310 与跨文明 id 冲突被显式重置为 M-HZX-001~010——'有记录的迁徙'的标准样本",
+        "M381-390 冲突修复（提交 91832eb）：商君/谢富治误占伊斯兰模式区段，重编号为 M-SY/M-XFZ 并对齐 code_maps——跨文明区段相撞的归因与回改",
+        "李时珍串题隔离（提交 8f533c4）：H-WZ-001 误产出王震内容整体隔离至 quarantine，正确数据归位 H-LSZ-001——命名空间错误的内容级后果及其处置"
+      ],
+      "representative_cases_en": [
+        "The triple occupancy check of verify_mys.py (T35/T36/T37): no H-MYS in code_maps, no M-MYS in the main library, no C-MYS in the scenario banks—Mao Yisheng's full namespace security check before entry",
+        "The Shankara renumbering (commit 879f4a8): wrongly held M301-310 with cross-civilization collision explicitly reset to M-HZX-001~010—the standard sample of a recorded migration",
+        "The M381-390 collision fix (commit 91832eb): Shang Jun and Xie Fuzhi had trespassed on the Islamic-modes range; renumbered to M-SY/M-XFZ with code_maps aligned—cross-civilization collision attributed and propagated back",
+        "The Li Shizhen contamination quarantine (commit 8f533c4): H-WZ-001's mis-produced Wang Zhen content quarantined whole, correct data homed at H-LSZ-001—the content-level consequence of namespace error and its handling"
+      ],
+      "modern_applications_zh": [
+        "微服务团队：服务名/Topic/队列按'团队前缀+资源名'登记分配——两个团队想叫同一个名字时冲突在注册表上解决而非在线上",
+        " monorepo 包管理：包名先查注册表再起名，内部包走 @scope/ 前缀——重名不可能进入构建",
+        "多智能体协作：给每个 agent 预发文件名前缀与任务 id 段——并行写同一目录不相覆",
+        "个人项目：给'未来的自己'预留版本号与命名规则（v1 留给 MVP，v0.x 给实验）——命名空间的时序规划"
+      ],
+      "modern_applications_en": [
+        "Microservice teams: services/topics/queues allocated by 'team-prefix + resource-name' registry—two teams wanting the same name resolve on the registry, not in production",
+        "Monorepo package management: check the registry before naming; internal packages take @scope/ prefixes—duplicate names cannot enter the build",
+        "Multi-agent collaboration: pre-assign file-name prefixes and task-id segments per agent—parallel writes to one directory never overwrite",
+        "Personal projects: reserve version numbers and naming rules for your future self (v1 for the MVP, v0.x for experiments)—temporal planning of the namespace"
+      ],
+      "related_modes": [
+        "M-P23F-001",
+        "M-P23F-003",
+        "M-P23F-006",
+        "M-P23F-009"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "华罗庚",
+          "name_en": "Hua Luogeng",
+          "relation_zh": "统筹网络法的传承：并行任务不撞车靠的是先排网络后开工——区段预定是统筹法在命名空间上的直接应用",
+          "relation_en": "the inheritor of planning networks: parallel tasks avoid collision by choreographing the network before work begins—range reservation is overall planning applied to the namespace"
+        },
+        {
+          "name_zh": "Vint Cerf（互联网架构师）",
+          "name_en": "Vint Cerf (internet architect)",
+          "relation_zh": "登记制度的现代立法者：IP/端口/域名的分配体系使数十亿设备共享一个命名空间——区段预定法的基础设施级实现",
+          "relation_en": "the modern legislator of registry: IP/port/domain allocation lets billions of devices share one namespace—range reservation at infrastructure scale"
+        },
+        {
+          "name_zh": "秦始皇（书同文车同轨）",
+          "name_en": "The First Emperor (standardized script and axle widths)",
+          "relation_zh": "标准化前缀的古代先例：统一度量与文字使帝国境内'同一个名字指同一个东西'——语义化编号的治理原型",
+          "relation_en": "the ancient precedent of standard prefixes: unified measures and script so that across an empire 'one name names one thing'—the governance archetype of semantic numbering"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-004"
+    },
+    {
+      "mode_code": "M-P23F-005",
+      "name_zh": [
+        "验收先行法",
+        "Verification-First Method",
+        "质量工程方法论/验收不是事后翻看而是可独立重跑的断言清单——先写验收脚本再谈'完成'；把质量标准从评审者的印象降格为机器可判定的及格线"
+      ],
+      "name_en": [
+        "Verification-First Method",
+        "Verification-First Method",
+        "quality-engineering methodology/acceptance is not a post-hoc read but an independently re-runnable assertion list—write the verification script before claiming 'done'; demoting quality from reviewer impression to machine-decidable pass line"
+      ],
+      "category": [
+        "验收先行法",
+        "Verification-First Method",
+        "质量工程方法论/验收不是事后翻看而是可独立重跑的断言清单——先写验收脚本再谈'完成'；把质量标准从评审者的印象降格为机器可判定的及格线"
+      ],
+      "domain_zh": "Phase 21 每个家族的标准动作：挖掘者交付 merge_payload 的同时交付 verify_*.py——茅以升 verify_mys.py 36+126 项断言（schema 键集、双语字段、列表长度、引用有效、哈希一致、占用检查、场景配对）162 项全 PASS 才提交入库；下游归档者再写独立抽检（如 _qa_doc_hlg.py 94 项）复核上游结论；缺陷修复后必须复跑至全 PASS（竺可桢修复后 'embedded==lib 校验通过'）——'全 PASS'是提交信息里的固定短语",
+      "domain_en": "The standard move of every Phase 21 family: the miner delivers verify_*.py alongside the merge payload—Mao Yisheng's verify_mys.py asserting 162 items (schema key sets, bilingual fields, list lengths, reference validity, hash consistency, occupancy checks, scenario pairing), all PASS before the merge commits; the downstream archiver then writes an independent spot check (e.g., _qa_doc_hlg.py at 94 items) re-verifying upstream claims; after a defect fix the script must re-run to all-PASS (Zhu Kezhen: 'embedded==lib verified' post-repair)—'all PASS' is a fixed phrase of the commit messages",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "验收先行法的核心命题是：质量标准的形态决定质量保障的强度——'评审者觉得不错'是印象（不可复现、随人漂移、随疲劳衰减），'脚本 162 项断言全 PASS'是事实（可复现、可交接、可回归）。后写验收的失败机制在于：交付完成后人已投入沉没成本，验收标准会不自觉地向'已交付的样子'妥协——先写验收等于把标准锁死在交付之前。操作程序有三步。第一步，断言清单化：把'什么叫合格'翻译成逐条可机器判定的命题（键集相等、字段双语、列表最短长度、引用在库、哈希一致、计数符合基线）——每条断言有编号（T1-Tn），FAIL 带细节。第二步，交付与验收同体：payload 与 verify 脚本同卡交付，验收者跑的是作者自己写的断言再叠加独立抽检——信任建立在'标准先于内容'上。第三步，回归常设：验收脚本在每次修复与每次全库操作后复跑——同一套断言既是入库门也是回归网。深意有三重。其一，这是竺可桢'效验论证'与王充'效验论证'的现代直系：'事莫明于有效，论莫定于有证'——断言清单就是数据工程的效验。其二，验收先行改变了协作的权力结构：质量裁判权从职位（评审者是谁）移交给程序（断言是否通过）——四岗流水线（挖掘/入库/QA/归档）能在多智能体间运转，正因标准是外置且机器可判的。其三，'全 PASS'的可复述性使质量可以跨会话、跨模型、跨月地交接——上次会话的结论可以这次复跑确认，知识工程的记忆不再依赖谁的脑子。适用边界：适合可形式化的质量维度（结构、完整性、一致性、计数）；思想深度、文风等不可形式化维度仍需人读——断言守底线，人审守上限。现代对应物：TDD 的测试先行、CI 的门禁检查、IaC 的 policy-as-code、以及一切'标准先于交付'的工程实践。",
+      "definition_en": "The core proposition: the form of a quality standard determines the strength of quality assurance—'the reviewer likes it' is an impression (irreproducible, drifting with the person, decaying with fatigue); '162 assertions all PASS' is a fact (reproducible, handover-able, regression-able). Verification written after delivery fails because sunk cost bends the standard toward what was already delivered; writing verification first locks the standard before delivery. The procedure has three steps. First, list the assertions: translate 'what counts as good' into machine-decidable propositions (key-set equality, bilingual fields, minimum list lengths, references in-library, hashes matching, counts matching baseline)—each numbered (T1-Tn), FAILs with detail. Second, deliver with verification: the payload and its verify script ship on the same card; the verifier runs the author's own assertions plus an independent spot check—trust built on 'standard before content.' Third, keep it as regression: the script re-runs after every fix and every library-wide operation—the same assertions are both the entry gate and the regression net. Three layers of depth. First, the modern direct line of Wang Chong's and Zhu Kezhen's argument-by-evidence: 'nothing is clearer than the effective, nothing settled without proof'—the assertion list is data engineering's proof. Second, verification-first shifts the power structure of collaboration: the judge of quality moves from position (who reviews) to procedure (do the assertions pass)—the four-role pipeline (mine/merge/QA/archive) runs across agents precisely because the standard is external and machine-decidable. Third, the restatability of 'all PASS' lets quality hand over across sessions, models, and months—last session's conclusions re-confirmed by this session's re-run; the memory of knowledge engineering no longer lives in anyone's head. Boundaries: it suits formalizable dimensions (structure, completeness, consistency, counts); depth and style still need human reading—assertions guard the floor, human review the ceiling. Modern counterparts: TDD's tests-first, CI gate checks, policy-as-code, every practice of 'standard before delivery.'",
+      "source_chapter": "verify_mys.py（36 项主断言）/verify_hlg.py/verify_zkz.py 系列；_qa_doc_hlg.py 94 项独立抽检；竺可桢修复后复跑记录（提交 4a89ae4）；TDD 与 CI 门禁的工程传统",
+      "key_concepts": [
+        "标准先于交付",
+        "断言逐条编号",
+        "FAIL 必带细节",
+        "独立抽检叠加作者断言",
+        "回归网=入库门",
+        "全 PASS 可跨会话复述"
+      ],
+      "key_quote_zh": "'我觉得没问题'不是验收——162 项断言全绿才是；标准要在交付之前锁死，否则它会向交付妥协。",
+      "key_quote_en": "'Looks fine to me' is not acceptance—162 assertions green is; lock the standard before delivery, or it will bend toward the delivery.",
+      "process_zh": [
+        "翻译标准：把'什么叫合格'逐条翻译为可机器判定的命题——每条有编号、有细节输出",
+        "先写验收：payload 与 verify 脚本同卡交付——验收作者在内容成型前锁定标准",
+        "独立叠加：下游验收者另写独立抽检（不读上游脚本结论、只信自己的断言）——双盲交叉",
+        "全 PASS 门禁：入库提交以'全 PASS'为前置条件——FAIL 即退回，无'先合后修'",
+        "修复复跑：任何缺陷修复后复跑全套断言至全绿——修复的验收与初次入库同标准",
+        "回归常设：断言脚本留作常设回归网——库的每一次后续操作都在同一张网下"
+      ],
+      "process_en": [
+        "Translate the standard: render 'what counts as good' into machine-decidable propositions—each numbered, with detailed output",
+        "Verify first: payload and verify script ship on one card—the standard locked before content takes shape",
+        "Layer independence: the downstream verifier writes an independent spot check (trusting own assertions, not upstream conclusions)—a double-blind cross",
+        "All-PASS gate: entry commits require all-PASS as precondition; FAIL returns the work—no 'merge now, fix later'",
+        "Re-run on repair: after any fix, re-run the full suite to green—repairs accepted at the same bar as first entry",
+        "Keep as regression: the script stays as a standing net—every later operation of the library runs under the same net"
+      ],
+      "representative_cases_zh": [
+        "茅以升 162 项断言（verify_mys.py + 独立抽检）：schema 键集与模板一致、双语三元组、列表长度、related_modes 引用有效、占用三查、场景 id 配对、哈希对账——162 项全 PASS 后才入库",
+        "华罗庚独立抽检（_qa_doc_hlg.py，94 项）：归档者不沿用上游结论，自写脚本复核 figure/md 哈希、内嵌逐字比对、基线计数——双盲交叉的标准执行",
+        "竺可桢修复复跑（提交 4a89ae4）：粘连 id 修复后复跑 embedded==lib 校验通过、悬空引用清零——'修复的验收与初次入库同标准'",
+        "钱学森上游独立验收（t_0306cc4e，98 项）与归档抽检（t_7264fbf2，33 项）：两级验收各自独立全 PASS——质量裁判权外置给程序的完整闭环"
+      ],
+      "representative_cases_en": [
+        "Mao Yisheng's 162 assertions (verify_mys.py plus independent spot check): schema key-set equality with the template, bilingual triples, list lengths, related_modes validity, triple occupancy checks, scenario id pairing, hash reconciliation—all PASS before entry",
+        "Hua Luogeng's independent spot check (_qa_doc_hlg.py, 94 items): the archiver re-verifies with a self-written script—figure/md hashes, embedded word-for-word comparison, baseline counts—not inheriting upstream conclusions; the double-blind cross executed",
+        "Zhu Kezhen's post-fix re-run (commit 4a89ae4): after the fused-id repair, embedded==lib verification passed and dangling references zeroed—'repairs accepted at the same bar as first entry'",
+        "Qian Xuesen's two-tier acceptance (upstream t_0306cc4e at 98 items; archive spot check t_7264fbf2 at 33 items): both tiers independently all-PASS—the full loop of quality judgment externalized to procedure"
+      ],
+      "modern_applications_zh": [
+        "TDD 开发：先写测试再写实现——红-绿-重构；'测试即规格'使验收标准在第一行实现代码之前锁定",
+        "CI/CD 门禁：lint/测试/覆盖率/安全扫描全绿才允许合并——'全 PASS'从美德变为流水线闸门",
+        "数据迁移：先定义目标态校验脚本（行数、抽样、外键完整）再执行迁移——迁移成功的定义前置",
+        "个人承诺管理：动手前先写下'怎样算完成'的可检验清单——对自己的交付也实行门禁"
+      ],
+      "modern_applications_en": [
+        "TDD: write tests before implementation—red, green, refactor; 'tests as spec' locks the acceptance standard before the first line of code",
+        "CI/CD gates: lint, tests, coverage, and security scans all green before merge—'all PASS' moves from virtue to pipeline gate",
+        "Data migration: define target-state validation (row counts, sampling, referential integrity) before executing—success defined in advance",
+        "Personal commitments: write a checkable 'definition of done' before starting—run gates even on your own deliveries"
+      ],
+      "related_modes": [
+        "M-P23F-001",
+        "M-P23F-002",
+        "M-P23F-003",
+        "M-P23F-009"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "竺可桢",
+          "name_en": "Zhu Kezhen",
+          "relation_zh": "效验论证的直系传人：'事莫明于有效'——断言清单就是数据工程的效验，误差即信号",
+          "relation_en": "the direct heir of argument-by-evidence: 'nothing clearer than the effective'—the assertion list is data engineering's proof, error the signal"
+        },
+        {
+          "name_zh": "王充",
+          "name_en": "Wang Chong",
+          "relation_zh": "效验思想的汉代源头：'论莫定于有证'——把可验证性当作论断成立的前提，验收先行法的哲学祖先",
+          "relation_en": "the Han-dynasty source of evidential thinking: 'no claim settled without proof'—verifiability as the precondition of any assertion, the philosophical ancestor of verification-first"
+        },
+        {
+          "name_zh": "Kent Beck",
+          "name_en": "Kent Beck",
+          "relation_zh": "TDD 的现代立法者：测试先行使'规格先于实现'成为工程纪律——验收先行法在软件工程中的同名兄弟",
+          "relation_en": "the modern legislator of TDD: tests-first makes 'spec before implementation' an engineering discipline—verification-first's namesake sibling in software"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-005"
+    },
+    {
+      "mode_code": "M-P23F-006",
+      "name_zh": [
+        "场景映射法",
+        "Scenario-Mapping Method",
+        "知识运营方法论/每条抽象模式必然落成中英双场景与配对标签——知识不留'无场景悬挂态'；落地是入库的定义组成部分而非可选的后续"
+      ],
+      "name_en": [
+        "Scenario-Mapping Method",
+        "Scenario-Mapping Method",
+        "knowledge-operations methodology/every abstract mode must land as a zh/en scenario pair with matching tags—no knowledge left in a 'scenario-less hanging state'; grounding as part of the entry's definition, not an optional follow-up"
+      ],
+      "category": [
+        "场景映射法",
+        "Scenario-Mapping Method",
+        "知识运营方法论/每条抽象模式必然落成中英双场景与配对标签——知识不留'无场景悬挂态'；落地是入库的定义组成部分而非可选的后续"
+      ],
+      "domain_zh": "Phase 21 每个家族的固定输出：10 条模式对应 C-XXX-001~010（中文场景）与 C-XXX-001E~010E（英文场景）各 10 条，外加 40 条 scenario_tags（每场景两条：人物标签+模式标签）——茅以升入库即 10+10 场景、40 标签（主库 1183→1193、1690→1730）；场景内容有固定配方：历史案例的第一条 + '现代演练：'一条现代应用——历史与当下在同一字段里完成对接，知识从入库一刻起就是'可演练的'而非'仅供仰望的'",
+      "domain_en": "The fixed output of every Phase 21 family: ten modes map to ten zh scenarios (C-XXX-001~010) and ten en scenarios (C-XXX-001E~010E), plus forty scenario_tags (two per scenario: figure tag plus mode tag)—Mao Yisheng's entry alone brought 10+10 scenarios and 40 tags (library 1183→1193, 1690→1730); each scenario follows a fixed recipe: the first historical case plus a 'modern drill' modern application—history and present joined in one field, so knowledge is drillable from the moment of entry, not merely admirable",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "场景映射法的核心命题是：一条不能被演练的知识还没有真正入库——它只是被收藏了。抽象模式（'失效师法'）与实际行为（下次评审时真的先写失效清单）之间的鸿沟，只能靠'场景'填补：一个具体到'谁、在什么处境、做什么动作'的剧本。无场景知识的失败机制在于：收藏时觉得'懂了'，使用时检索不到触发点——知识库里躺着 1122 条模式，若每条都只挂着定义与案例史，用户在真实决策瞬间无法完成'此情此景该调用哪条'的映射。操作程序有三步。第一步，配方固定：场景=历史案例（从 representative_cases 取第一条）+现代演练（从 modern_applications 取第一条）——配方使场景可批量生成且风格统一，历史与当代各占其位。第二步，双语镜像：zh 场景与 en 场景按 id 配对（C-XXX-003 与 C-XXX-003E），同源生成、内容对应而非机械直译——双用户群各得其所。第三步，标签配对：每场景两条标签（人物+模式名），写入 scenario_tags——检索从'全文模糊匹配'升级为'结构化双键'。深意有三重。其一，这是华罗庚'讲台燃烧法/统筹法推广'的制度化：知识只有变成普通人今天下午就能做的一个动作，才完成了传播的闭环。其二，场景使知识库获得'第二索引'：定义索引服务于理解者，场景索引（按人物、按模式、按现代领域）服务于使用者——两个索引共同决定知识库的可发现性。其三，'入库即落地'防住了知识工程的经典失败：'先囤再整'——囤积永远等不到整，落地必须在入库的同一事务里完成。适用边界：适合以'迁移应用'为目标的模式库、案例库、培训体系；对纯史料档案，场景可退化为'研究入口'。现代对应物：学习方法论的'提取练习'、UX 写作的场景化文案、SRE 的 runbook、以及一切'知识配剧本'的运营设计。",
+      "definition_en": "The core proposition: knowledge that cannot be drilled has not truly entered the library—merely been collected. The gap between an abstract mode ('failure-as-master') and actual behavior (writing the failure list first at the next review) can be bridged only by a scenario: a script concrete enough to name who, in what situation, doing what. The failure mechanism of scenario-less knowledge: at collection time it feels understood, at use time no trigger is retrievable—1,122 modes lying in the library, each carrying only a definition and case history, leave the user unable, in a real decision moment, to map 'this situation calls for which mode.' The procedure has three steps. First, fix the recipe: scenario = first historical case (from representative_cases) + one modern drill (from modern_applications)—a fixed recipe makes scenarios batch-generable and stylistically uniform, history and present each in place. Second, bilingual pairing: zh and en scenarios pair by id (C-XXX-003 with C-XXX-003E), generated from the same source, corresponding rather than machine-translated—two user communities each served. Third, tag pairing: two tags per scenario (figure plus mode name) written into scenario_tags—retrieval upgrades from fuzzy full-text to a structured two-key index. Three layers of depth. First, the institutionalization of Hua Luogeng's lecture-burn and planning-method popularization: knowledge completes its transmission loop only when it becomes an action an ordinary person can perform this afternoon. Second, scenarios give the library a second index: definitions serve the understander, scenarios (by figure, mode, modern domain) serve the user—together they decide discoverability. Third, 'grounding at entry' preempts knowledge engineering's classic failure, 'hoard now, organize later'—the organizing never comes; grounding must be done in the same transaction as entry. Boundaries: it suits mode libraries, case banks, and training systems whose goal is transfer; for pure archival collections, scenarios may degrade to 'research entries.' Modern counterparts: retrieval practice in learning science, scenario-based UX writing, SRE runbooks, every 'knowledge with a script' operations design.",
+      "source_chapter": "Phase 21 merge_payload 规范（scenarios_zh/scenarios_en/scenario_tags 三件套）；build_mys.py 场景生成段（配方实现的源代码）；主库基线记账（1183→1193、1690→1730）；提取练习与 runbook 的工程传统",
+      "key_concepts": [
+        "无场景即未入库",
+        "场景=历史+现代演练配方",
+        "双语 id 配对",
+        "双键标签索引",
+        "入库与落地同一事务",
+        "第二索引服务使用者"
+      ],
+      "key_quote_zh": "一条知识要是不能在'今天下午'被演练，它就还只是在被收藏——场景是知识和行为之间那座桥。",
+      "key_quote_en": "Knowledge that cannot be drilled 'this afternoon' is still only being collected—the scenario is the bridge between knowledge and behavior.",
+      "process_zh": [
+        "固定配方：场景=第一条历史案例+第一条现代应用——历史与当下各占其位，风格统一可批量",
+        "双语配对：zh/en 场景按 id 镜像生成——内容对应而非机械直译，双用户群各得其所",
+        "双键标签：每场景挂'人物+模式'两条标签入库引 tags——检索获得结构化第二索引",
+        "计数记账：场景数与标签数计入基线（如 1183→1193）——落地量是可核算的算术",
+        "映射自查：每条模式核对'有无对应场景'——无场景悬挂态在验收脚本中即 FAIL",
+        "演练回访：定期抽查场景是否真的可演练（用户能否照做）——不可演练的场景按缺陷改写"
+      ],
+      "process_en": [
+        "Fix the recipe: scenario = first historical case + first modern application—history and present each in place, uniform and batch-able",
+        "Pair bilingually: zh/en scenarios mirror by id—corresponding content, not machine translation; two user communities served",
+        "Double-key tags: each scenario carries 'figure + mode' tags into scenario_tags—retrieval gains a structured second index",
+        "Account the counts: scenario and tag counts enter the baseline (1183→1193)—grounding as auditable arithmetic",
+        "Self-check the mapping: every mode checked for a paired scenario—hanging states FAIL in the acceptance script",
+        "Revisit drillability: periodically sample whether scenarios are actually drillable (can a user follow them)—undrillable scenarios rewritten as defects"
+      ],
+      "representative_cases_zh": [
+        "茅以升场景全套（t_845f9f75）：C-MYS-001~010 与 001E~010E 各十条同源配对——C-MYS-001 从钱塘江失效清单直达'软件架构评审先写死法清单'的下午就能做的演练",
+        "华罗庚讲台燃烧法的场景化（上游 t_2662343f）：每条模式的历史案例与'现代演练'同字段对接——知识库的'可教性'由此成为可验收字段",
+        "竺可桢场景修复语境（提交 4a89ae4）：修复联动清单包含双镜像 md——场景与模式在镜像层也保持同构，'落地内容'同样受一致性纪律约束",
+        "Phase 22 嵌套场景恢复（提交 9c8a9c1）：80 条嵌套场景（C-SYS/SBRY/FYJ 等家族）被误删后按权威快照取回——场景作为一级资产被制度性守护"
+      ],
+      "representative_cases_en": [
+        "Mao Yisheng's full scenario set (t_845f9f75): C-MYS-001~010 and 001E~010E paired from one source—C-MYS-001 running from the Qiantang failure list straight to a software-architecture drill performable this afternoon",
+        "Hua Luogeng's lecture-burn mode scenarioized (upstream t_2662343f): historical case and modern drill joined in one field—'teachability' became an acceptance-checkable field",
+        "Zhu Kezhen's repair context (commit 4a89ae4): the联动 checklist covers both md mirrors—scenarios stay isomorphic with modes at the mirror layer too; grounding content obeys the same consistency discipline",
+        "The Phase 22 nested-scenario restore (commit 9c8a9c1): 80 nested scenarios (families C-SYS/SBRY/FYJ and kin) wrongly deleted, fetched back from the authoritative snapshot—scenarios guarded as first-class assets"
+      ],
+      "modern_applications_zh": [
+        "企业培训设计：每个方法论课程强制配'周一早晨就能做'的行动卡——没有行动卡的知识点不排课",
+        "产品帮助中心：每个功能文档配一个'30 秒上手剧本'——文档从参考手册变成操作地图",
+        "个人学习系统：每读一个思维模型写一句'下次什么场合用、第一动作是什么'——模型从'知道'变'待命'",
+        "开源项目文档：每个高级特性配一个可复制的最小示例——'能跑的例子'就是场景映射的代码形态"
+      ],
+      "modern_applications_en": [
+        "Corporate training design: every methodology course must ship an action card doable Monday morning—points without action cards are not scheduled",
+        "Product help centers: every feature doc pairs with a 30-second getting-started script—docs turn from reference manuals into operation maps",
+        "A personal learning system: after each mental model, write 'when will I use this next, and what is the first move'—models move from known to on-call",
+        "Open-source documentation: every advanced feature ships a copy-paste minimal example—the runnable example is scenario mapping in code form"
+      ],
+      "related_modes": [
+        "M-P23F-001",
+        "M-P23F-005",
+        "M-P23F-007",
+        "M-P23F-009"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "华罗庚",
+          "name_en": "Hua Luogeng",
+          "relation_zh": "直接的思想源头：统筹法与优选法'走到车间'的推广哲学——知识必须变成普通人当天的动作，场景映射法是其制度化",
+          "relation_en": "the direct source: his philosophy of taking planning and optimization 'into the workshop'—knowledge must become an ordinary person's same-day action; scenario mapping is that institutionalized"
+        },
+        {
+          "name_zh": "孔子（因材施教）",
+          "name_en": "Confucius (teaching to the person)",
+          "relation_zh": "场景化教学的古代原型：同一'仁'字对不同弟子给出不同情境化答案——场景映射的'配方'思想先声",
+          "relation_en": "the ancient prototype of scenario teaching: one virtue, 'ren,' answered differently per disciple and situation—an early note of the recipe idea in scenario mapping"
+        },
+        {
+          "name_zh": "SRE 工程师",
+          "name_en": "The SREs",
+          "relation_zh": "runbook 传统的现代执行者：把'故障类知识'全部写成可照做的处置剧本——场景映射在运维领域的同名实践",
+          "relation_en": "modern executors of the runbook tradition: every failure-class piece of knowledge written as a follow-along playbook—scenario mapping's namesake in operations"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-006"
+    },
+    {
+      "mode_code": "M-P23F-007",
+      "name_zh": [
+        "引用编织法",
+        "Cross-Reference Weaving Method",
+        "知识组织方法论/每个新进入者固定携带三条库内交叉引用（xrefs）——孤立家族视为未完成；让知识库在扩张中始终是一张网而非一袋沙"
+      ],
+      "name_en": [
+        "Cross-Reference Weaving Method",
+        "Cross-Reference Weaving Method",
+        "knowledge-organization methodology/every entrant carries a fixed set of in-library cross-references (three xrefs)—an isolated family counts as unfinished; the library stays a web, not a bag of sand, as it grows"
+      ],
+      "category": [
+        "引用编织法",
+        "Cross-Reference Weaving Method",
+        "知识组织方法论/每个新进入者固定携带三条库内交叉引用（xrefs）——孤立家族视为未完成；让知识库在扩张中始终是一张网而非一袋沙"
+      ],
+      "domain_zh": "Phase 21 每个家族的 code_maps/figure 固定携带 xrefs 字段：茅以升的条目织入三条——M-QXS-001（钱学森：'一个管总体一个管桥墩，中国工程思维的两极'）、M-HLG-001（华罗庚：'科学家的天职是普及'的共同定义者）、M-ZKZ-001（竺可桢：'长期连续记录'的方法论同门）——引用全带关系说明（为何相关、相关在哪个维度），且目标必须已在库内；本卡 Phase23Final 自己的 xrefs 也织入 M-MYS/M-ZKZ/M-HLG——收官者的引用网指向它的三位方法论祖先",
+      "domain_en": "Every Phase 21 family's code_maps/figure carries a fixed xrefs field: Mao Yisheng's entry woven with three—M-QXS-001 (Qian Xuesen: 'one commanding the whole, one the piers—the two poles of Chinese engineering thought'), M-HLG-001 (Hua Luogeng: co-definer of 'the scientist's duty to popularize'), M-ZKZ-001 (Zhu Kezhen: methodological kin in 'long continuous recording')—each reference carrying a relational note (why related, on which dimension), with targets required in-library; this very card, Phase23Final, weaves its xrefs to M-MYS/M-ZKZ/M-HLG—the finisher's web pointing at its three methodological ancestors",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "引用编织法的核心命题是：知识库的价值随其内部连接数的平方增长，而连接不会自发产生——每个新条目入库时必须'自带三根线'。孤立条目的失败机制在于：用户永远只会沿已有路径检索，孤岛上的知识无论多好都等于不存在；而'以后再补引用'的宽限在实践中等于永不——编织必须是入库的准入条件。操作程序有三步。第一步，定量下限：每家族至少三条 xrefs 且目标全部在库——数量是硬指标，防止'象征性引用一条'；上限不设，但每条必须有意义。第二步，关系语义化：xref 不是裸链接而是带说明的关系（同门/同构/对立/继承/对照），说明写清'在哪个维度相关'——读者不看正文也能判断该不该沿这条线走。第三步，双向感知：虽然存储上引用可单向，编织时检查反向可见性（被引用方何时获得回指）——网络的连通感来自双向可走。深意有三重。其一，这是对'百科全书式知识组织'的回归与超越：司马迁互见法、维基内部链接都在做同一件事——本库的贡献是把'至少三线'变成可验收的硬指标。其二，编织使知识库成为一张推理网：模式之间的'同构''对立'关系本身就是知识（用户从'茅以升≈失效清单'跳到'钱学森≈系统工程'的对照中获得第三条洞见——关系即新知识）。其三，强制编织反过来要求挖掘者真正通读库内相关家族——'引用他人'的质量成为'理解他人'的代理指标。适用边界：适合概念网络型知识库（模式库、图谱、百科）；线性文档序列（教程、叙事史）过度编织反而干扰阅读。现代对应物：维基的内部链接规范、知识图谱的关系本体、学术论文的 related work 制度、以及图数据库的边密度治理。",
+      "definition_en": "The core proposition: a knowledge base's value grows with the square of its internal connections, and connections do not arise spontaneously—every new entrant must 'bring its own three threads' at entry. The failure mechanism of isolated entries: users retrieve only along existing paths, so knowledge on an island, however good, does not exist; and the grace period of 'add references later' means never in practice—weaving must be an entry precondition. The procedure has three steps. First, a quantitative floor: at least three xrefs per family, all targets in-library—the count is a hard metric against token references; no ceiling, but every thread must mean something. Second, relational semantics: an xref is not a bare link but a typed relation (kinship, isomorphism, opposition, inheritance, contrast), the note saying on which dimension the relation holds—a reader can judge whether to follow the thread without opening the target. Third, bidirectional awareness: storage may keep references one-way, but weaving checks reverse visibility (when does the cited side gain a back-pointer)—a network feels connected when traversable both ways. Three layers of depth. First, a return to and advance on encyclopedic organization: Sima Qian's cross-reference device and wiki internal links do the same work—this library's contribution is making 'at least three threads' a verifiable hard metric. Second, weaving makes the library a reasoning web: the 'isomorphic/opposed' relations between modes are themselves knowledge—the user hopping from 'Mao ≈ failure lists' to 'Qian ≈ systems engineering' gains a third insight from the contrast itself; relation as new knowledge. Third, forced weaving demands the miner truly read the related in-library families—the quality of 'citing others' becomes a proxy for 'understanding others.' Boundaries: it suits concept-network knowledge bases (mode libraries, graphs, encyclopedias); over-weaving linear sequences (tutorials, narrative history) disturbs reading. Modern counterparts: wiki internal-link norms, knowledge-graph relation ontologies, the related-work section of academic papers, edge-density governance in graph databases.",
+      "source_chapter": "Phase 21 figure/code_maps 的 xrefs 字段（H-MYS-001 条目三线全记录）；茅以升 figure cross_references 数组（含关系说明全文）；司马迁互见法与知识图谱关系本体的组织传统",
+      "key_concepts": [
+        "至少三线且全在库",
+        "关系带语义说明",
+        "同门/同构/对立/继承/对照",
+        "孤立家族=未完成",
+        "关系即新知识",
+        "编织倒逼通读"
+      ],
+      "key_quote_zh": "一个新家族进库要自带三根线——线头留在门外，它就永远只是仓库里的一件孤品。",
+      "key_quote_en": "A new family enters with three threads of its own—leave the ends outside the door, and it stays a lone artifact in a warehouse forever.",
+      "process_zh": [
+        "定额下限：每家族至少三条 xrefs、目标全部在库——数量为硬验收项",
+        "关系分类：为每条线标注关系类型（同门/同构/对立/继承/对照）——类型决定读者预期",
+        "说明入线：xref 携带一句话关系说明（为何相关、在哪个维度）——不看目标也能判断走不走",
+        "双向检查：核对被引用方是否可获得回指——网络的连通感要求双向可走",
+        "编织自证：挖掘者须通读被引家族的对应模式——引用质量是理解质量的代理",
+        "增量补网：库内出现新家族时回看旧条目是否值得补线——网在扩张中持续加密"
+      ],
+      "process_en": [
+        "Set the floor: at least three xrefs per family, all targets in-library—the count as a hard acceptance item",
+        "Type the relations: mark each thread kinship/isomorphism/opposition/inheritance/contrast—type sets reader expectation",
+        "Explain on the thread: each xref carries a one-line relational note (why related, on which dimension)—judge the walk without opening the target",
+        "Check both ways: whether the cited side can gain a back-pointer—connectivity requires two-way walkability",
+        "Prove the weave: the miner must read the cited families' modes—citation quality proxies comprehension",
+        "Densify incrementally: when new families enter, revisit old entries for deserved threads—the web thickens as it grows"
+      ],
+      "representative_cases_zh": [
+        "茅以升三线编织（figure cross_references）：钱学森（两极对照）、华罗庚（普及同门）、竺可桢（记录同门）——每线均带完整关系说明，目标全部在库",
+        "Phase23Final 自身的三线：本卡 figure 的 xrefs 指向 M-MYS-001（失效清单→清零法）、M-ZKZ-001（账本→基线记账）、M-HLG-001（统筹→流水线）——收官者以引用网认祖归宗",
+        "培根归档复检（t_3e93e4cf）：'related_modes 全库零悬空 + xrefs 3 全在库'作为归档固定字段——编织与清零在同一份验收里互为表里",
+        "韩非 xref 纠错（提交 47b4d6e）：M-FEI-001 误指人物代码，更正为 H-FEI-001（在库目标）——编织错的线按缺陷修，而非剪断了事"
+      ],
+      "representative_cases_en": [
+        "Mao Yisheng's three-thread weave (figure cross_references): Qian Xuesen (pole-contrast), Hua Luogeng (popularization kin), Zhu Kezhen (recording kin)—every thread with a full relational note, all targets in-library",
+        "Phase23Final's own three threads: this card's figure xrefs point to M-MYS-001 (failure list→zeroing), M-ZKZ-001 (ledger→baseline accounting), M-HLG-001 (planning→pipeline)—the finisher acknowledging its ancestors through the reference web",
+        "The Bacon archive recheck (t_3e93e4cf): 'related_modes zero dangling library-wide + 3 xrefs all in-library' as fixed archive fields—weaving and zeroing as two faces of one acceptance",
+        "The Han Fei xref correction (commit 47b4d6e): M-FEI-001 mis-pointing at a figure code, corrected to H-FEI-001 (in-library)—a mis-woven thread repaired as a defect, never merely snipped"
+      ],
+      "modern_applications_zh": [
+        "团队知识库规范：新文档入库须链接至少三篇既有文档并说明关系——'写了但没人能找到'在制度上不可能",
+        "个人笔记系统：新笔记强制回链三则旧笔记——'链接即思考'，孤立的顿悟强制挂回已知网络",
+        "产品架构决策：每份 ADR 链接其影响的相关 ADR——决策网可追溯、冲突可发现",
+        "课程设计：每个新概念固定挂钩三个已学概念——学生的知识结构天生是网而非清单"
+      ],
+      "modern_applications_en": [
+        "Team knowledge-base norms: a new doc must link at least three existing ones with stated relations—'written but unfindable' becomes institutionally impossible",
+        "A personal note system: every new note force-links three older ones—linking as thinking; isolated insights forced back onto the known web",
+        "Product architecture decisions: every ADR links the related ADRs it affects—decision webs traceable, conflicts discoverable",
+        "Curriculum design: each new concept hooks to three already-learned ones—students' knowledge born a web, not a list"
+      ],
+      "related_modes": [
+        "M-P23F-003",
+        "M-P23F-006",
+        "M-P23F-009",
+        "M-P23F-001"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "司马迁",
+          "name_en": "Sima Qian",
+          "relation_zh": "互见法的立法者：《史记》'事在某人而语在别篇'的互见网络——引用编织法的史学祖先",
+          "relation_en": "the legislator of cross-reference: the Records' 'event under one figure, words under another' web—the historiographical ancestor of reference weaving"
+        },
+        {
+          "name_zh": "维基百科编者",
+          "name_en": "The Wikipedians",
+          "relation_zh": "内部链接规范的大规模实践者：'孤条'（orphan）被标为待修缺陷——编织作为社区纪律的当代最盛版本",
+          "relation_en": "the largest-scale practitioners of internal-link norms: 'orphan' articles flagged as defects to fix—weaving as community discipline at its most flourishing"
+        },
+        {
+          "name_zh": "知识图谱工程师",
+          "name_en": "The knowledge-graph engineers",
+          "relation_zh": "关系本体的现代立法者：边带类型（同义/上下位/对立）且带权重——引用编织法在图谱领域的工程化完成态",
+          "relation_en": "the modern legislators of relation ontology: typed, weighted edges (synonym, hyponym, antonym)—reference weaving fully engineered in graph form"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-007"
+    },
+    {
+      "mode_code": "M-P23F-008",
+      "name_zh": [
+        "哈希锚定法",
+        "Hash-Anchoring Method",
+        "一致性治理方法论/关键知识资产以 sha256 与上下游对账——'一致'由字节级证据裁决而非肉眼印象；哈希不匹配即漂移，漂移即缺陷"
+      ],
+      "name_en": [
+        "Hash-Anchoring Method",
+        "Hash-Anchoring Method",
+        "consistency-governance methodology/key knowledge assets reconciled with upstream and downstream by sha256—'consistency' adjudicated by byte-level evidence, not eyeballing; a hash mismatch is drift, and drift is a defect"
+      ],
+      "category": [
+        "哈希锚定法",
+        "Hash-Anchoring Method",
+        "一致性治理方法论/关键知识资产以 sha256 与上下游对账——'一致'由字节级证据裁决而非肉眼印象；哈希不匹配即漂移，漂移即缺陷"
+      ],
+      "domain_zh": "Phase 21 每次入库/修复提交的固定字段：'figure json sha256 04a15217 与上游一致, md 双镜像 sha256 96bdd4c4'——上游挖掘者的产出与下游入库者的落库文件以哈希逐一对账；竺可桢修复提交甚至列出'修复后 sha256: figure json b1707f8f, md 双镜像 46cd3d26'——修复本身也以哈希重新锚定；归档复检时把工作区文件的 sha256 与入库报告中的记录比对，漂移即判 FAIL",
+      "domain_en": "The fixed field of every Phase 21 entry/repair commit: 'figure json sha256 04a15217 matches upstream; md dual mirror sha256 96bdd4c4'—the upstream miner's output and the downstream merger's landed files reconciled hash by hash; Zhu Kezhen's repair commit even lists 'post-repair sha256: figure json b1707f8f, md dual mirror 46cd3d26'—the repair itself re-anchored by hash; at archive recheck, workspace file hashes are compared against the entry report's records—any drift fails",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "哈希锚定法的核心命题是：当知识资产在多人、多仓、多镜像间流转时，'是不是同一份'必须由数学裁决——肉眼比对在 10 万字级文档上必然失守，'看起来一样'不是证据。哈希失守的失败机制在于：流转链条上任何一手（编辑器自动格式化、编码转换、拷贝时的行尾差异）都会静默改变字节——肉眼不可见，下游语义可能已变。操作程序有三步。第一步，锚定发布：资产每次成形即记录 sha256 并随交付说明流转——哈希是资产的'身份证'，随文件同行。第二步，对账验收：下游入库/复检时重算哈希与上游记录比对——一致则证明流转无损，不一致则先定位是哪一手改的再谈内容。第三步，修复重锚：任何修复后重新计算并公布新哈希——旧锚作废、新锚生效，审计链上每一环都可验证。深意有三重。其一，这是竺可桢'账本自治'的密码学完成态：账本对账靠'数字与数字对'，哈希对账靠'摘要与摘要对'——连续记录、即时核验、误差即信号的传统被算法接管。其二，哈希把'一致性'从分布式协作最贵的问题变成最便宜的问题：跨仓、跨镜像、跨会话的'同一份'判断降为一次摘要计算——多智能体协作因此获得基础设施级的信任底座。其三，重锚制度使修复历史本身可审计：从初版哈希到每个修复版哈希的链条，就是这份资产的完整'受审记录'。适用边界：适合字节级一致性有意义的资产（数据文件、镜像文档、分发制品）；对注定要人改的活文档，哈希只用于快照存证而非持续约束。现代对应物：软件分发的 checksum 与签名、Git 的内容寻址存储、区块链的区块哈希链、备份系统的校验和巡检。",
+      "definition_en": "The core proposition: when knowledge assets flow among people, repos, and mirrors, 'is this the same file' must be settled by mathematics—eyeballing fails at the 100,000-character scale, and 'looks the same' is not evidence. The failure mechanism when hashes are absent: any hand in the chain (an editor's silent formatting, an encoding conversion, a line-ending difference in copy) changes bytes invisibly—and downstream semantics may have changed with them. The procedure has three steps. First, anchor at release: every time an asset takes shape, record its sha256 and let it travel with the delivery—the hash is the asset's identity card, moving with the file. Second, reconcile at acceptance: the downstream merger or re-checker recomputes and compares with upstream records; equality proves lossless transit; a mismatch means first locate which hand changed it, then discuss content. Third, re-anchor after repair: after any fix, recompute and publish the new hash—the old anchor voided, the new in force; every link in the audit chain stays verifiable. Three layers of depth. First, this is Zhu Kezhen's ledger self-governance completed cryptographically: ledger reconciliation matches number to number; hash reconciliation matches digest to digest—continuous records, immediate verification, error-as-signal, now taken over by algorithm. Second, hashes turn consistency from the most expensive problem in distributed collaboration into the cheapest: 'is this the same' across repos, mirrors, and sessions drops to one digest computation—multi-agent collaboration gains an infrastructure-grade trust substrate. Third, the re-anchoring regime makes repair history itself auditable: the chain from the initial hash through each repair hash is the asset's complete examination record. Boundaries: it suits assets where byte-level identity matters (data files, mirrored docs, distribution artifacts); for living documents meant to be edited, hashes serve snapshot attestation, not continuous constraint. Modern counterparts: software distribution checksums and signatures, Git's content-addressed storage, blockchain block-hash chains, backup checksum patrols.",
+      "source_chapter": "Phase 21 入库/修复提交的 sha256 记录（04a15217/96bdd4c4/b1707f8f/46cd3d26 等）；归档复检脚本的哈希比对段（_qa_doc_hlg.py 等）；Git 内容寻址与分发包校验的工程传统",
+      "key_concepts": [
+        "哈希是资产身份证",
+        "对账=摘要对摘要",
+        "漂移不可肉眼可见",
+        "修复后重锚",
+        "一致性从最贵变最便宜",
+        "哈希链=受审记录"
+      ],
+      "key_quote_zh": "十万个字谁也看不过来——但两个 64 位摘要谁都能比；'是不是同一份'让数学回答。",
+      "key_quote_en": "No one can read a hundred thousand characters—but anyone can compare two 64-character digests; let mathematics answer 'is this the same file.'",
+      "process_zh": [
+        "成形即锚：资产每次定稿计算 sha256 并写入交付说明——身份证与文件同行",
+        "对账验收：入库/复检时重算哈希与上游记录比对——不一致先归因哪一手改的",
+        "环境排查：哈希不匹配时先排除行尾/编码/格式化等非语义因素——漂移未必是内容漂移",
+        "修复重锚：任何修复后重算并公布新哈希——旧锚作废新锚生效，审计链不断",
+        "快照存证：重要时点（阶段收官）对全库关键文件做哈希清单——审计有可回放的基线",
+        "链式留痕：保留从初版到当前的哈希链——资产的完整受审记录"
+      ],
+      "process_en": [
+        "Anchor at set: compute sha256 at every finalization and write it into the delivery note—the id card travels with the file",
+        "Reconcile at acceptance: recompute at entry/recheck against upstream records; on mismatch, first attribute which hand changed it",
+        "Rule out environment: before blaming content, exclude line endings, encoding, and formatter effects—drift is not always semantic",
+        "Re-anchor on repair: after any fix, recompute and publish the new hash—the old anchor voided, the audit chain unbroken",
+        "Snapshot at milestones: at phase finales, hash-inventory all key files—audits get a replayable baseline",
+        "Keep the chain: preserve the hash chain from first release to now—the asset's complete examination record"
+      ],
+      "representative_cases_zh": [
+        "茅以升哈希对账（t_83774645→t_845f9f75）：figure json sha256 04a15217 与上游一致、md 双镜像 96bdd4c4 三份逐字同——入库报告以哈希作证",
+        "竺可桢修复重锚（提交 4a89ae4）：修复后公布新哈希（figure b1707f8f、md 46cd3d26）——修复在审计链上留下新锚点",
+        "华罗庚归档复检（t_750d3584）：工作区文件的哈希与入库报告比对（84712e2f/50d83bb2）一致——复检以数学而非印象确认'没被动过'",
+        "Phase 21 最终同步（e35bf6a）：boards→workspace 全量镜像以'双镜像 sha256 一致'为 FINAL 终检项——跨仓一致性由哈希裁决收官"
+      ],
+      "representative_cases_en": [
+        "Mao Yisheng's hash reconciliation (t_83774645→t_845f9f75): figure json sha256 04a15217 matching upstream, md dual mirror 96bdd4c4 identical across three copies—the entry report testifying by hash",
+        "Zhu Kezhen's repair re-anchor (commit 4a89ae4): post-repair hashes published (figure b1707f8f, md 46cd3d26)—the repair leaving a new anchor on the audit chain",
+        "Hua Luogeng's archive recheck (t_750d3584): workspace file hashes compared against the entry report (84712e2f/50d83bb2) and matching—the recheck confirming 'untouched' by mathematics, not impression",
+        "The Phase 21 final sync (e35bf6a): the boards→workspace full mirror closing with 'dual-mirror sha256 identical' as its final-check item—cross-repo consistency adjudicated by hash at the finale"
+      ],
+      "modern_applications_zh": [
+        "软件发布：每个制品发布 checksum 并要求用户校验——'下载是否完整'从祈祷变成一条命令",
+        "数据管道：各阶段产物落盘即记哈希，下游消费前对账——脏数据在链条哪一环产生一查便知",
+        "合同/法务文档：签署时记录文档哈希——'当时那份'有数学证据，修订争议可裁决",
+        "个人备份：备份完成后跑校验和巡检——'备份成功'与'备份可用'从此是两个概念"
+      ],
+      "modern_applications_en": [
+        "Software releases: publish a checksum per artifact and ask users to verify—'did the download complete' moves from prayer to one command",
+        "Data pipelines: hash each stage's output at write; reconcile downstream before consuming—which link produced dirty data becomes a lookup",
+        "Contracts and legal docs: record the document hash at signing—'the version at signing' has mathematical evidence; revision disputes become decidable",
+        "Personal backups: run checksum patrols after each backup—'backup finished' and 'backup usable' finally become two concepts"
+      ],
+      "related_modes": [
+        "M-P23F-002",
+        "M-P23F-005",
+        "M-P23F-009",
+        "M-P23F-001"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "竺可桢",
+          "name_en": "Zhu Kezhen",
+          "relation_zh": "账本自治法的直系传人：连续记录、即时核验、误差即信号——哈希锚定把账本对账推到字节级",
+          "relation_en": "the direct heir of ledger self-governance: continuous records, immediate verification, error as signal—hash anchoring pushes ledger reconciliation to the byte level"
+        },
+        {
+          "name_zh": "Linus Torvalds",
+          "name_en": "Linus Torvalds",
+          "relation_zh": "内容寻址存储的立法者：Git 以对象哈希命名一切版本——'同一份'由数学定义的工程完成态",
+          "relation_en": "the legislator of content-addressed storage: Git names every version by object hash—'same file' defined by mathematics, fully engineered"
+        },
+        {
+          "name_zh": "中本聪",
+          "name_en": "Satoshi Nakamoto",
+          "relation_zh": "哈希链的思想放大者：区块哈希互锚使篡改任何一环即全链作废——锚定的极端化证明其威力与代价",
+          "relation_en": "the amplifier of the hash-chain idea: blocks anchoring one another so tampering any link voids the chain—an extremity proving both the power and the cost of anchoring"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-008"
+    },
+    {
+      "mode_code": "M-P23F-009",
+      "name_zh": [
+        "基线记账法",
+        "Baseline-Accounting Method",
+        "规模治理方法论/库的关键总量（模式数/场景数/标签数/figure 数）在每次合并前后显式记账——扩张必须是可核算的算术而非印象；账不平即出事"
+      ],
+      "name_en": [
+        "Baseline-Accounting Method",
+        "Baseline-Accounting Method",
+        "scale-governance methodology/the library's key totals (modes, scenarios, tags, figures) explicitly accounted before and after every merge—expansion as auditable arithmetic, not impression; when the books do not balance, something happened"
+      ],
+      "category": [
+        "基线记账法",
+        "Baseline-Accounting Method",
+        "规模治理方法论/库的关键总量（模式数/场景数/标签数/figure 数）在每次合并前后显式记账——扩张必须是可核算的算术而非印象；账不平即出事"
+      ],
+      "domain_zh": "Phase 21 提交信息的固定句式：'纯增量并入主库 (1112->1122 modes), 10+10 双语场景 (1183->1193), scenario_tags +40 (1690->1730), code_maps figure entry (figures 126->127)'——四个总量、前值后值、增量数一次写清；验收脚本以基线计数为断言（'主库当前 %d modes'）；归档复检进一步在指定 git 对象上验证基线（'基线计数 (1102/1173/1650/125) 在 9c512e6 git 对象上验证以隔离并行未提交增量'）——账不仅在提交里，还能在历史任意时点重放",
+      "domain_en": "The fixed formula of Phase 21 commit messages: 'pure increment into the main library (1112->1122 modes), 10+10 bilingual scenarios (1183->1193), scenario_tags +40 (1690->1730), code_maps figure entry (figures 126->127)'—four totals, before and after, increments written in one breath; acceptance scripts assert on the baseline ('main library now %d modes'); archive rechecks go further, verifying baselines on specified git objects ('baselines 1102/1173/1650/125 verified on git object 9c512e6 to isolate parallel uncommitted increments')—the books live not only in commits but replayable at any point in history",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "基线记账法的核心命题是：一个不断扩张的集合若没有'总数'这个最低限度的账，任何异常（丢失、重复、越界）都只能靠逐条清点才能发现——而逐条清点在千级规模上不可执行。无账的失败机制在于：并行作业下的每一次小合并都'看起来没事'，但四个家族并行后总数对不上，无人能说出是哪一手丢的——异常的归因成本随时间指数上升。操作程序有三步。第一步，选定账目：确定哪些总量是关键账目（本库：modes、scenarios_zh、scenarios_en、scenario_tags、figures）——账目要少而硬，每项都可程序化清点。第二步，双值入账：每次合并前后各记一次值，增量数=差值——'1112→1122'的句式使任何读者一眼核出这次合并的规模与方向。第三步，历史重放：账目不仅写在提交里，还要能在任意历史提交对象上重算验证——复检者可以验证'当时在 9c512e6 上数出来就是 1102'，从而把并行未提交的增量隔离在审计之外。深意有三重。其一，这是竺可桢'账本自治'与茅以升'工程档案'在规模维度的合流：账本记状态、档案记事件、基线记账把两者缝在提交链上。其二，记账使'并行'变得可审计：多任务同时推进时，每个任务只对自己区段的增量负责，总数账充当并行一致性的事后裁判。其三，'账不平即出事'的翻转价值在于它把异常从'将来某天会发现'提前到'合并当场就会暴露'——丢失 10 条模式这种事故在无账库里可能存活数月，在记账库里活不过一次提交。适用边界：适合一切有总量语义的集合（数据表、资产库、库存、预算）；对无自然总量的自由文档，记账对象可换成目录清单或索引文件。现代对应物：财务的复式记账与试算平衡、分布式系统的向量时钟与一致性检查、数据仓库的行数对账、以及库存管理的永续盘存。",
+      "definition_en": "The core proposition: for a constantly expanding collection without even a 'total' as its minimal ledger, any anomaly (loss, duplication, out-of-range) is discoverable only by item-by-item counting—and at thousand-item scale that is unexecutable. The failure mechanism of ledger-less operation: under parallel work every small merge 'looks fine,' yet after four families run in parallel the totals disagree and no one can say which hand dropped what—the cost of attributing anomalies rises exponentially with time. The procedure has three steps. First, choose the accounts: fix which totals are the critical ones (here: modes, scenarios_zh, scenarios_en, scenario_tags, figures)—accounts few and hard, each programmatically countable. Second, book both values: record the total before and after every merge, increment as the difference—the '1112→1122' formula lets any reader verify a merge's scale and direction at a glance. Third, replay history: the books live not only in commits but recomputable on any historical object—the rechecker can verify 'on 9c512e6 the count really was 1102,' isolating parallel uncommitted increments outside the audit. Three layers of depth. First, the confluence of Zhu Kezhen's ledger self-governance and Mao Yisheng's engineering archive at the scale dimension: the ledger records states, the archive records events, baseline accounting sews both onto the commit chain. Second, bookkeeping makes parallelism auditable: with many tasks in flight, each owns only its range's increment, and the total ledger serves as the after-the-fact judge of parallel consistency. Third, the inverted value of 'books out of balance means something happened' is that anomalies surface at the merge itself, not 'someday'—losing ten modes could survive months in a ledger-less library; in a bookkept one it cannot survive a single commit. Boundaries: it suits any collection with total semantics (tables, asset libraries, inventory, budgets); for free documents without natural totals, account over directory listings or index files. Modern counterparts: double-entry bookkeeping and trial balance, vector clocks and consistency checks in distributed systems, row-count reconciliation in warehouses, perpetual inventory.",
+      "source_chapter": "Phase 21 提交信息基线句式（1112->1122 等，见 1f08fe0/f4e1034/9c512e6/e2fd3e2/5f65d16）；验收脚本的计数断言；归档复检的 git 对象基线验证（t_750d3584 报告）；复式记账与数据仓库行数对账传统",
+      "key_concepts": [
+        "账目少而硬",
+        "双值入账前后各记",
+        "增量=差值可一眼核",
+        "基线可在 git 对象重放",
+        "账不平即出事",
+        "并行一致性的事后裁判"
+      ],
+      "key_quote_zh": "扩张可以很大胆，账必须很小气——四个总数对得上，一百次并行合并才敢同时开工。",
+      "key_quote_en": "Expansion may be bold; the books must be stingy—when four totals balance, a hundred parallel merges may dare to run at once.",
+      "process_zh": [
+        "选定账目：确定关键总量（模式/场景/标签/figure）——少而硬，全部可程序化清点",
+        "双值入账：每次合并前后各记一次——增量数=差值，随提交公开",
+        "断言挂账：验收脚本把计数写成断言——账不平时 FAIL 带实际值",
+        "历史重放：在指定 git 对象上重算基线——复检可验证'当时就是 1102'",
+        "并行隔离：以历史基线把并行未提交增量隔离在审计外——各任务只对自己区段负责",
+        "异常即查：账不平立即触发归因而非'下次再对'——丢失事故活不过一次提交"
+      ],
+      "process_en": [
+        "Choose the accounts: fix the critical totals (modes/scenarios/tags/figures)—few, hard, programmatically countable",
+        "Book both values: record before and after each merge—increment as difference, published with the commit",
+        "Assert the books: acceptance scripts turn counts into assertions—out-of-balance FAILs with actual values",
+        "Replay history: recompute baselines on specified git objects—the rechecker verifies 'it really was 1102 then'",
+        "Isolate the parallel: historical baselines quarantine parallel uncommitted increments outside the audit—each task answers for its own range",
+        "Investigate at once: books out of balance trigger immediate attribution, never 'reconcile next time'—loss incidents cannot survive one commit"
+      ],
+      "representative_cases_zh": [
+        "茅以升四账入簿（提交 1f08fe0）：'1112->1122 modes, 1183->1193 scenarios, 1690->1730 tags, figures 126->127'——一次合并的完整规模账",
+        "华罗庚归档的基线重放（t_750d3584）：'基线计数 (1102/1173/1650/125) 在 9c512e6 git 对象上验证'——把审计锚定到历史对象，隔离并行增量",
+        "Phase 21 最终同步的终检账（e35bf6a）：'792 模式 ID 全唯一, 双镜像 sha256 一致, QA 15/15 PASS'——收官以账目而非感觉宣告完成",
+        "Phase 22 裁定恢复的对账（15f36a2/9c8a9c1）：误删 293 条散键与 80 条嵌套场景以'305 键完整恢复'的账目闭合——修复也要平账"
+      ],
+      "representative_cases_en": [
+        "Mao Yisheng's four-account entry (commit 1f08fe0): '1112->1122 modes, 1183->1193 scenarios, 1690->1730 tags, figures 126->127'—one merge's complete scale ledger",
+        "Hua Luogeng's baseline replay at archive (t_750d3584): 'baselines 1102/1173/1650/125 verified on git object 9c512e6'—the audit anchored to a historical object, parallel increments isolated",
+        "The Phase 21 final-sync closing ledger (e35bf6a): '792 mode IDs all unique, dual-mirror sha256 identical, QA 15/15 PASS'—the finale declared by accounts, not feelings",
+        "The Phase 22 adjudicated-restore reconciliation (15f36a2/9c8a9c1): 293 wrongly deleted scatter keys and 80 nested scenarios closed by the ledger line '305 keys fully restored'—repairs must also balance the books"
+      ],
+      "modern_applications_zh": [
+        "数据仓库运维：每次 ETL 前后记录各表行数——行数对不上即报警，数据丢失在管道当场暴露",
+        "多团队 monorepo：按目录统计的'实体总数'入 CI——谁删了共享资产一查便知",
+        "个人资产管理：收藏/书签/文件按类别计数并定期对账——'好像少了几个文件'变成可验证的账",
+        "开源社区治理：issue/PR 的开合数入周报——仓库健康度从印象变成曲线"
+      ],
+      "modern_applications_en": [
+        "Warehouse operations: record per-table row counts before and after every ETL—counts off means alarms; data loss exposes at the pipeline",
+        "Multi-team monorepos: 'total entity counts' by directory entered into CI—who removed a shared asset becomes a lookup",
+        "Personal asset management: counts by category for bookmarks/collections/files with periodic reconciliation—'feels like some files went missing' becomes a verifiable ledger",
+        "Open-source governance: issue/PR open-close counts in weekly reports—repository health from impression to curve"
+      ],
+      "related_modes": [
+        "M-P23F-001",
+        "M-P23F-005",
+        "M-P23F-008",
+        "M-P23F-010"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "竺可桢",
+          "name_en": "Zhu Kezhen",
+          "relation_zh": "账本自治的直系源头：五十年日记与观测记录的连续记账——基线记账法是账本自治在数据库上的转世",
+          "relation_en": "the direct source of ledger self-governance: fifty years of diaries and observation records kept as continuous accounts—baseline accounting is ledger self-governance reincarnated on a database"
+        },
+        {
+          "name_zh": "帕乔利（复式记账之父）",
+          "name_en": "Luca Pacioli (father of double-entry bookkeeping)",
+          "relation_zh": "双值入账的古代立法者：'每笔交易记两次、总额必须平衡'——基线记账法的前后双值正是复式记账精神的数据版",
+          "relation_en": "the ancient legislator of double-value entry: 'record every transaction twice; totals must balance'—baseline accounting's before/after values are double-entry's spirit in data form"
+        },
+        {
+          "name_zh": "数据仓库工程师",
+          "name_en": "The data-warehouse engineers",
+          "relation_zh": "行数对账的现代实践者：ETL 前后计数、异常即断——基线记账在数据工业里的日常形态",
+          "relation_en": "modern practitioners of row-count reconciliation: counts before and after ETL, anomalies as assertions—baseline accounting's daily form in the data industry"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-009"
+    },
+    {
+      "mode_code": "M-P23F-010",
+      "name_zh": [
+        "收官复盘法",
+        "Final-Retrospective Method",
+        "阶段治理方法论/阶段结束时以 FINAL 同步、终检清单与复盘报告三件套封版——收官不是'做完了'而是一次显式的封存仪式；缺陷在封版前清零，教训在封版时成文"
+      ],
+      "name_en": [
+        "Final-Retrospective Method",
+        "Final-Retrospective Method",
+        "phase-governance methodology/close a phase with the three-piece set of FINAL sync, final checklist, and retrospective report—an ending is not 'done' but an explicit sealing ceremony; defects zeroed before the seal, lessons written at the seal"
+      ],
+      "category": [
+        "收官复盘法",
+        "Final-Retrospective Method",
+        "阶段治理方法论/阶段结束时以 FINAL 同步、终检清单与复盘报告三件套封版——收官不是'做完了'而是一次显式的封存仪式；缺陷在封版前清零，教训在封版时成文"
+      ],
+      "domain_zh": "Phase 21 的收官三件套：其一，FINAL 同步（提交 7b42239/e35bf6a）——boards 与 workspace 全量镜像拉平（'与 boards 仓字节级一致'），主库 230→442→792 模式的跨仓追平以基线账宣告；其二，终检清单——'792 模式 ID 全唯一, related_modes 零悬空, 双镜像 sha256 一致, QA 15/15 PASS'四项断言作为封版条件；其三，复盘成文——过程中的误删（Phase 22 裁定恢复）、串题（H-WZ 隔离）、粘连（ZKZ 修复）全部以提交与报告留痕——收官仪式把'补丁史'升格为'制度史'",
+      "domain_en": "The Phase 21 closing triptych: first, the FINAL sync (commits 7b42239/e35bf6a)—boards and workspace mirrors pulled level ('byte-level identical with the boards repo'), the cross-repo catch-up of 230→442→792 modes declared on baseline accounts; second, the final checklist—four assertions ('792 mode IDs all unique, related_modes zero dangling, dual-mirror sha256 identical, QA 15/15 PASS') as the sealing condition; third, the retrospective on paper—every incident along the way (the Phase 22 adjudicated restore, the H-WZ quarantine, the ZKZ repair) left in commits and reports—the closing ceremony promoting a patch history into an institutional history",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "收官复盘法的核心命题是：阶段边界是知识的断层线——若不显式封版，上一阶段的松动会伪装成下一阶段的'起点状态'被继承。无收官仪式的失败机制在于：'差不多做完了'的阶段永远差最后 5%，遗留缺陷以'已知问题'名义无限期存续，镜像/基线/引用的松动在无人观看的窗口累积。操作程序有三步。第一步，FINAL 同步：把所有平行演化的副本（多仓、多镜像、多工作区）拉回字节一致——封版的前提是'只有一个当前态'。第二步，终检清单：以最严的断言组合（唯一性、完整性、一致性、验收全 PASS）逐项检查——封版检查的强度必须高于日常检查，因为封版态将成为下阶段的基线。第三步，复盘成文：把本阶段的缺陷、修复、争议与裁定写成报告并随库封存——复盘不是会议纪要而是可检索的制度文献。深意有三重。其一，这是茅以升'复盘归档'工序与竺可桢'日记'传统的阶段化合流：事件史（提交）与状态史（基线）在封版点交汇成可考的'断层线'。其二，复盘成文改变了组织记忆的形态：'上次为什么改这个'不再依赖当事人的记忆，而是依赖随库检索的裁定记录——多智能体协作因此可以跨会话继承教训而非重犯错误。其三，封版使'重启'变得便宜：下阶段从字节一致的基线出发，不需要先考古再开工——收官的成本换来的是下一程的零启动成本。适用边界：适合一切有阶段性的工程（版本发布、学期、战役、迁移）；对永续流式工作，封版可退化为'周期性快照'。现代对应物：版本的 release 流程与 release notes、敏捷的 retrospective、战役的战后总结、以及财务的年结与审计。",
+      "definition_en": "The core proposition: phase boundaries are a knowledge system's fault lines—without an explicit seal, the previous phase's looseness is inherited disguised as the next phase's 'starting state.' The failure mechanism of no closing ceremony: the 'nearly done' phase forever lacks its last five percent; leftover defects persist indefinitely as 'known issues'; slack in mirrors, baselines, and references accumulates in unwatched windows. The procedure has three steps. First, the FINAL sync: pull all parallel-evolving copies (repos, mirrors, workspaces) back to byte equality—the premise of sealing is 'exactly one current state.' Second, the final checklist: run the strictest assertion set (uniqueness, completeness, consistency, all-PASS verification)—the sealing check must exceed daily checks in strength, because the sealed state becomes the next phase's baseline. Third, the retrospective on paper: write the phase's defects, fixes, disputes, and adjudications into a report sealed with the library—the retrospective is not meeting minutes but searchable institutional literature. Three layers of depth. First, the phase-level confluence of Mao's 'archive the lessons' step and Zhu Kezhen's diary tradition: event history (commits) and state history (baselines) meet at the seal into a datable fault line. Second, written retrospectives change the form of organizational memory: 'why was this changed last time' no longer depends on a person's memory but on searchable adjudication records sealed with the library—multi-agent collaboration can inherit lessons across sessions instead of repeating errors. Third, sealing makes restarting cheap: the next phase sets out from a byte-identical baseline without archaeology first—the closing's cost buys the next leg a zero startup cost. Boundaries: it suits all phased work (releases, semesters, campaigns, migrations); for perpetual streaming work, sealing degrades to periodic snapshots. Modern counterparts: release processes and release notes, agile retrospectives, post-campaign after-action reviews, fiscal year-ends and audits.",
+      "source_chapter": "Phase 21 最终同步提交（7b42239/e35bf6a 的 FINAL 终检记录）；Phase 22 裁定恢复提交（15f36a2/9c8a9c1 的复盘留痕）；H-WZ 隔离（8f533c4）与 ZKZ 修复（4a89ae4）的成文记录；release/retrospective 制度传统",
+      "key_concepts": [
+        "阶段边界=断层线",
+        "封版前提是唯一当前态",
+        "终检强度高于日常",
+        "复盘成文可检索",
+        "补丁史升格为制度史",
+        "封版使重启零考古"
+      ],
+      "key_quote_zh": "收尾不是把活干完，是把'下一程从哪里出发'钉死——封版那天写的每一行字，都是替未来省下的考古费。",
+      "key_quote_en": "Finishing is not getting the work done—it is pinning down where the next leg departs from; every line written on sealing day is archaeological cost saved for the future.",
+      "process_zh": [
+        "拉平副本：FINAL 同步把多仓/多镜像/多工作区拉回字节一致——唯一当前态",
+        "终检封版：以最严断言组合（唯一/完整/一致/全 PASS）逐项检查——封版态即下阶段基线",
+        "清零门禁：封版前所有已知缺陷必须清零或显式豁免登记——'已知问题'不得带入封版态",
+        "复盘成文：缺陷、修复、争议、裁定写成随库报告——制度文献可检索",
+        "基线入账：封版时点记录全部关键总量与哈希——下阶段的双值入账有了前值",
+        "豁免清单：确实修不完的项显式列为豁免并写明风险与期限——遗留必须可见且有主"
+      ],
+      "process_en": [
+        "Level the copies: the FINAL sync pulls repos, mirrors, and workspaces to byte equality—exactly one current state",
+        "Seal by final check: run the strictest assertions (uniqueness/completeness/consistency/all-PASS)—the sealed state is the next baseline",
+        "Zero as a gate: all known defects zeroed or explicitly waived before sealing—'known issues' may not enter the sealed state",
+        "Write the retrospective: defects, fixes, disputes, adjudications as reports sealed with the library—institutional literature, searchable",
+        "Book the baseline: at sealing record all key totals and hashes—the next phase's double-value entries gain their 'before' values",
+        "List the waivers: items truly unfixable explicitly waived with risk and deadline—leftovers visible and owned"
+      ],
+      "representative_cases_zh": [
+        "Phase 21 FINAL 同步（提交 e35bf6a）：boards→workspace 全量镜像——'792 模式 ID 全唯一, related_modes 零悬空, 双镜像 sha256 一致, QA 15/15 PASS'四项终检作为封版宣言",
+        "Phase 22 裁定恢复（提交 15f36a2/9c8a9c1）：误删事故以'以 workspace 为权威回写恢复（305 键完整）'的裁定留痕——复盘成文的争议解决样本",
+        "H-WZ 串题隔离（提交 8f533c4）：错误产出整体隔离至 quarantine 并在 CHANGELOG 记录——收官前清零门禁的执行（遗留显式可见）",
+        "ZKZ 修复留痕（提交 4a89ae4）：修复后哈希、悬空清零、embedded==lib 校验全部写入提交——修复本身成为封版前的最后一笔账"
+      ],
+      "representative_cases_en": [
+        "The Phase 21 FINAL sync (commit e35bf6a): the boards→workspace full mirror—four final-check assertions ('792 IDs unique, related_modes zero dangling, dual-mirror sha256 identical, QA 15/15 PASS') as the sealing declaration",
+        "The Phase 22 adjudicated restore (commits 15f36a2/9c8a9c1): the wrongful-deletion incident left on record as the adjudication 'workspace authoritative, restored (305 keys complete)'—a written-retrospective sample of dispute resolution",
+        "The H-WZ contamination quarantine (commit 8f533c4): the wrong output quarantined whole and recorded in the CHANGELOG—the zeroing gate executed before sealing (leftovers explicitly visible)",
+        "The ZKZ repair on record (commit 4a89ae4): post-repair hashes, dangling zeroing, and the embedded==lib verification all in the commit—the repair itself the last entry booked before the seal"
+      ],
+      "modern_applications_zh": [
+        "版本发布：release 前跑全量回归、写 release notes、登记 known issues——封版三件套的标准软件形态",
+        "项目收尾：结项时做复盘会并产出可检索的复盘文档——'下次注意'变成'下次查这条'",
+        "学业/战役总结：阶段结束写'错题本+裁定记录'——本库的错题本体系正是收官复盘法的教育形态",
+        "迁移收官：系统迁移完成后双跑对账一周再切流——'封版前的清零'在数据领域是双跑验证"
+      ],
+      "modern_applications_en": [
+        "Version releases: full regression before release, release notes written, known issues registered—the sealing triptych in its standard software form",
+        "Project wrap-ups: a retrospective meeting producing searchable documents—'be careful next time' becomes 'look up this entry next time'",
+        "Academic or campaign summaries: at phase end write the mistake-book plus adjudication record—this library's error-book system is the closing retrospective in educational form",
+        "Migration finales: after cutover, dual-run reconciliation for a week before switching traffic—'zeroing before the seal' becomes dual-run validation in data terms"
+      ],
+      "related_modes": [
+        "M-P23F-001",
+        "M-P23F-005",
+        "M-P23F-008",
+        "M-P23F-009"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "茅以升",
+          "name_en": "Mao Yisheng",
+          "relation_zh": "复盘归档工序的阶段化继承者：'复盘归档：事故与未遂事件回写清单'——收官复盘法把个人工序升格为阶段制度",
+          "relation_en": "the phase-level heir of his archive-the-lessons step: 'accidents and near-misses written back into the list'—the closing retrospective raises a personal step into a phase institution"
+        },
+        {
+          "name_zh": "克劳塞维茨",
+          "name_en": "Carl von Clausewitz",
+          "relation_zh": "战史批判传统的理论化者：战后总结不是抒情而是'为下一场战争的批判准备'——复盘成文的军事学祖先",
+          "relation_en": "the theorist of critical war history: the post-campaign review is not lyric but 'critical preparation for the next war'—the military ancestor of the written retrospective"
+        },
+        {
+          "name_zh": "发布工程师（Release Engineers）",
+          "name_en": "The release engineers",
+          "relation_zh": "封版仪式的现代执行者：branch cut、release candidate、known issues 清单——收官复盘法在软件工业的日常化身",
+          "relation_en": "modern executors of the sealing ceremony: branch cuts, release candidates, known-issues lists—the closing retrospective's daily incarnation in software industry"
+        }
+      ],
+      "figure_code": "H-P23F-001",
+      "id": "M-P23F-010"
+    }
+  ]
+}

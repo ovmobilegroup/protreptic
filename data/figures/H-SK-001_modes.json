@@ -1,0 +1,619 @@
+{
+ "schema_version": "v6",
+ "figure_id": "H-SK-001",
+ "figure_name": "沈括",
+ "figure_code": "H-SK-001",
+ "mode_count": 10,
+ "modes": [
+  {
+   "id": "M-SK-001",
+   "mode_code": "M-SK-001",
+   "name_zh": "广泛观察累积法",
+   "name_en": "Panoramic Observation Accumulation Method",
+   "category": "科学方法",
+   "domain_zh": "经验科学/跨领域取证",
+   "domain_en": "Empirical Science / Cross-Domain Evidence Gathering",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "把治学的基本动作定义为'看'而不是'引'：凡物必亲验，凡事宜广涉——沈括一生足迹所至必记录山川、物候、方言、制度、器物，把整个帝国当作实验室。要害有三：其一，观察先于理论——'予于关中得铜弩机'式的第一手材料优先于文献转述；其二，跨域搬运——治历可以取材于地理，论乐可以取材于考古，不同领域的观察互相印证；其三，累积成谱——单条观察只是点，三十年记成《梦溪笔谈》就成了可检索的证据库。方法论签名：不问经书怎么说，先问自己的眼睛看见了什么——广度本身就是一种深度。",
+   "definition_en": "Make 'looking,' not 'citing,' the basic act of scholarship: whatever Shen Kuo reached, he recorded—terrain, phenology, dialects, institutions, artifacts—treating the whole empire as his laboratory. Observation precedes theory (firsthand material outranks transmitted texts); cross-domain porting (calendar data feeds geography, archaeology feeds music theory—fields corroborate one another); and accumulation becomes a map (a single observation is a point; thirty years of them in the Brush Talks become a searchable evidence base). Signature: don't ask what the classics say—ask what your own eyes saw; breadth itself is a kind of depth.",
+   "source_chapter": "《梦溪笔谈》自序及全书条目体例",
+   "key_concepts": [
+    "亲验",
+    "跨域观察",
+    "条目体",
+    "证据累积",
+    "百科取证"
+   ],
+   "process_zh": [
+    "凡遇非常之物、可疑之说，先搁置既有解释，亲自到场查验",
+    "按统一条目体记录：现象、条件、过程、数字、来源，随手可考",
+    "在农业、天文、地理、乐律、医药等领域并行积累，允许异域证据互证",
+    "定期把散条整理为可检索的笔记库，让观察从点连成面"
+   ],
+   "process_en": [
+    "On encountering anything unusual or any doubtful claim, suspend received explanation and verify on site",
+    "Record in a uniform clause format: phenomenon, conditions, process, numbers, provenance—auditable at a glance",
+    "Accumulate in parallel across astronomy, geography, music, medicine, allowing evidence from one field to corroborate another",
+    "Periodically consolidate scattered entries into a searchable notebook library, joining points into surfaces"
+   ],
+   "key_quote_zh": "予在鄜延，见戎幕间取牛脂为烛……此物后必大行于世，自予始为之。",
+   "key_quote_en": "In Yanzhou I saw camp candles made from rock-fat… this substance will surely be widely used someday—beginning with me.",
+   "representative_cases_zh": [
+    "石油命名与预言（约1080年）：亲验鄜延石脂水，命名'石油'并预言'此物后必大行于世'——一次观察同时产出新概念与可检验预测",
+    "化石判读（1074年前后）：太行山崖见螺蚌壳，推断此地昔日为海滨——以地层内证反推沧海桑田，比欧洲同类认识早四百年",
+    "雁荡山地貌：亲见诸峰'皆包在诸谷中'，推断流水侵蚀成因——把景观观察升级为地质机制假说",
+    "反例警示：也曾以'运气'说附会五运六气，凡证据不足而强立体系处，恰是其方法失效的边界"
+   ],
+   "representative_cases_en": [
+    "Naming petroleum (c. 1080): verified the rock-oil of Yanzhou firsthand, coined 'shiyóu,' and predicted 'this substance will one day be universally used'—one observation yielding both a new concept and a testable forecast",
+    "Reading fossils (c. 1074): spotting shell fossils in Taihang cliffs, he inferred the land was once seashore—inferring seas-to-mountains from stratal evidence, four centuries before Europe",
+    "Yandang landforms: observing peaks 'all wrapped inside the valleys,' he proposed stream-erosion as the cause—upgrading sightseeing into a geological mechanism hypothesis",
+    "Counter-case: his forced fit of the five-movement six-qi cosmology shows exactly where the method fails when evidence runs thin"
+   ],
+   "modern_applications_zh": [
+    "田野调查与一手数据优先",
+    "跨学科证据互证",
+    "个人知识库/卡片盒笔记法",
+    "地质学、考古学的内证法传统"
+   ],
+   "modern_applications_en": [
+    "Fieldwork and first-hand data priority; cross-disciplinary triangulation of evidence; personal knowledge bases and Zettelkasten practice; the internal-evidence tradition of geology and archaeology"
+   ],
+   "related_modes": [
+    "M-SK-002",
+    "M-SK-004",
+    "M-ZZJ-010"
+   ]
+  },
+  {
+   "id": "M-SK-002",
+   "mode_code": "M-SK-002",
+   "name_zh": "实验证真法",
+   "name_en": "Experimental Verification Method",
+   "category": "科学方法",
+   "domain_zh": "可重复实验/证据分级",
+   "domain_en": "Repeatable Experiment / Evidence Grading",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "把'试过'作为'知道'的前提：沈括不满足于听闻与推想，凡可动手处必设验——用纸人验证琴弦共振，用模型验证地理测量，用重复观测验证历法。要害有三：其一，可重复性优先于偶然见证——共振'声合则应'要能当众复演；其二，以干预区隔因果——不是被动看现象，而是改变条件观察响应；其三，对反常诚实——验不中者如实记录而非文饰，阳燧火色之疑、指南针偏东之'莫可原其理'，都成了数据而非遮掩。方法论签名：一条知识的价值等于它可以被独立重复的次数。",
+   "definition_en": "Make 'having tried' the precondition of 'knowing': wherever hands-on was possible, Shen Kuo set up a test—paper men to verify string resonance, models to check survey data, repeated observations to validate the calendar. Repeatability outranks anecdote (resonance 'answers when tones match'—and must replay before an audience); intervention separates cause from effect (change conditions, watch the response); and be honest about anomalies ('none can fathom why' the compass points slightly east—recorded as data, not papered over). Signature: the value of a piece of knowledge equals the number of times it can be independently repeated.",
+   "source_chapter": "《梦溪笔谈·乐律》纸人共振条；《补笔谈》磁针条",
+   "key_concepts": [
+    "可重复性",
+    "干预实验",
+    "共振验证",
+    "反常记录",
+    "证据分级"
+   ],
+   "process_zh": [
+    "把待验命题改写为可操作检验：什么条件下应出现什么现象",
+    "设计最简显性装置（纸人、模型、标尺），让现象当众可复现",
+    "改变条件做对照，观察响应随变量如何变化",
+    "对验中与验不中同样记录，反常数据标注'未知其理'留待后人"
+   ],
+   "process_en": [
+    "Rewrite the claim into an operational test: under what conditions, what phenomenon should appear",
+    "Design the simplest visible apparatus—paper figures, models, graduated sticks—so the phenomenon replays before witnesses",
+    "Run contrasts by varying conditions and watch how the response tracks the variable",
+    "Record hits and misses alike; tag anomalies 'cause not yet fathomed' for successors"
+   ],
+   "key_quote_zh": "欲知其术者，试以纸人为之验——曲成而不遗者，其唯实验乎。",
+   "key_quote_en": "Who would know the principle, test it with paper men—of all ways of completing inquiry, experiment alone leaves nothing out.",
+   "representative_cases_zh": [
+    "纸人共振实验（约1075年前后）：剪小纸人置于琴弦，拨动相应之弦纸人跳动——声学共振的最早可复现演示之一",
+    "磁针四制法对比：水浮、指甲、碗唇、缕悬逐一比较，缕悬最善——把'指南针怎么做'变成受控比较实验",
+    "阳燧与针孔成像：反复做物距与像的实验，提出'碍'（小孔/焦点）概念逼近光路模型",
+    "反例警示：对指南针'常微偏东'承认'莫可原其理'——知道自己在哪停下，恰是实验诚实的一部分"
+   ],
+   "representative_cases_en": [
+    "The paper-man resonance experiment (c. 1075): a cut paper figure on a qin string dances when its octave string is plucked—among the earliest replicable acoustic-resonance demonstrations",
+    "Four compass mountings compared: floating, fingernail, bowl-rim, suspended thread—the suspended thread wins—turning 'how to build a compass' into a controlled comparison",
+    "Burning-mirror and pinhole imaging: repeated play with object distance and image, approaching an optical-path model via the concept of the 'obstruction' (knot/focal point)",
+    "Counter-case: admitting 'none can fathom its principle' for the needle's slight eastward deviation—knowing where you stopped is part of experimental honesty"
+   ],
+   "modern_applications_zh": [
+    "可重复实验设计",
+    "对照组与变量控制",
+    "实验记录诚实性（预注册精神）",
+    "声学/光学的演示教学传统"
+   ],
+   "modern_applications_en": [
+    "Replicable experiment design; controls and variable isolation; honesty in lab records (a proto-preregistration spirit); the demonstration tradition in acoustics and optics"
+   ],
+   "related_modes": [
+    "M-SK-001",
+    "M-SK-003",
+    "M-SK-006"
+   ]
+  },
+  {
+   "id": "M-SK-003",
+   "mode_code": "M-SK-003",
+   "name_zh": "分数历术法",
+   "name_en": "Fractional-Cycle Calendar Method",
+   "category": "天文历法",
+   "domain_zh": "数值逼近/周期调优",
+   "domain_en": "Numerical Approximation / Cycle Tuning",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "把'天行有数'落到算术上：沈括发现十二气年与朔望月无法整除调和，索性废弃月相纪年，以立春为岁首制《十二气历》——纯太阳历，节气为纲，月相附注。要害有三：其一，承认不可公度——天体周期之间没有公共尺度，与其硬凑闰月，不如换坐标；其二，以功能换形式——历法的功能是服务农事与政令，月名只是标签，可弃可改；其三，留验证接口——'异时必有用予之说者'，预测后世采用，把方案写成可被时间检验的断言。方法论签名：当两个周期锁死时，改变问题的坐标系，而不是加大拟合的力度。",
+   "definition_en": "Put 'the heavens move by number' into arithmetic: finding the twelve-qi year and the synodic month irreconcilable, Shen Kuo scrapped lunar dating outright and drafted the Twelve-Qi Calendar—pure solar, solstices-and-equinoxes as spine, moon phases as footnotes. Admit incommensurability (celestial cycles share no common measure; rather than forcing intercalations, change coordinates); swap form for function (a calendar serves farming and edicts; month names are labels, droppable); and leave a verification hook ('someday someone will adopt my scheme'—writing the proposal as a claim time itself could test). Signature: when two cycles are locked, change the coordinate system rather than cranking the fitting harder.",
+   "source_chapter": "《梦溪笔谈·象数》十二气历条",
+   "key_concepts": [
+    "十二气历",
+    "不可公度",
+    "岁首重构",
+    "坐标变换",
+    "历法功能主义"
+   ],
+   "process_zh": [
+    "列出系统全部周期约束（回归年、朔望月、节气、闰法），找其最小公倍是否良性",
+    "识别真正的功能需求（农时、政令）与历史包袱（月相、吉凶）",
+    "以功能需求为轴重构坐标：立春为岁首，大小月31/30日交替",
+    "公开预测方案的命运，把争议写成可检验断言"
+   ],
+   "process_en": [
+    "List every cycle constraint (tropical year, synodic month, solar terms, intercalation rules) and test whether their least common multiple is benign",
+    "Separate functional requirements (farm seasons, state edicts) from historical baggage (moon phases, omens)",
+    "Rebuild the coordinate system on function: year opens at the onset of spring, months alternate 31/30 days",
+    "Publicly predict the scheme's fate, writing the controversy as a testable assertion"
+   ],
+   "key_quote_zh": "今此历论尤当取怪怒攻骂，然异时必有用予之说者。",
+   "key_quote_en": "This calendar proposal will draw strange rage and attack—yet someday there will be those who use my scheme.",
+   "representative_cases_zh": [
+    "《十二气历》（约1088年提出）：以节气定年、弃朔望纪月——八百年后英国《肖伯纳历》与现行公历的思路遥相呼应",
+    "奉元历改历（1075年）：以实测极星定位校准浑仪，新历行世——先修仪器后修历，数据链优先于行政命令",
+    "闰法困境诊断：指出置闰使节气与月名漂移，农时失据——把'经验做法的代价'显式化",
+    "反例警示：十二气历生前未行——纯功能方案若不嫁接权力与习惯，正确不等于被采用"
+   ],
+   "representative_cases_en": [
+    "The Twelve-Qi Calendar (proposed c. 1088): the year defined by solar terms, lunar months abolished—eight centuries of resonance with later solar-calendar reforms",
+    "The Fengyuan Calendar (1075): recalibrating the armillary by measured polar-star placement before computing—fix instruments first, data chain before decree",
+    "Diagnosing the intercalation trap: leap months let solar terms drift against month names, disorienting farmers—making the hidden cost of inherited practice explicit",
+    "Counter-case: the calendar was never adopted in his lifetime—a purely functional design ungrafted to power and habit is correct but not adopted"
+   ],
+   "modern_applications_zh": [
+    "历法与国际标准制定",
+    "不可公度问题的坐标系重构",
+    "系统设计的功能主义",
+    "方案预测与时间检验"
+   ],
+   "modern_applications_en": [
+    "Calendar and standards design; coordinate reframing for incommensurable cycles; functionalism in system design; predictions left to time as the auditor"
+   ],
+   "related_modes": [
+    "M-SK-004",
+    "M-SK-010",
+    "M-DRK-001"
+   ]
+  },
+  {
+   "id": "M-SK-004",
+   "mode_code": "M-SK-004",
+   "name_zh": "会圆测量法",
+   "name_en": "Circle-Segmentation Survey Method",
+   "category": "数学测量",
+   "domain_zh": "几何建模/工程测量",
+   "domain_en": "Geometric Modeling / Engineering Survey",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "沈括发现弓形田地的面积无处查表，遂自立公式：以'会圆术'把弧、矢、弦、径联立，用直角三角形与扇形分片逼近——弧田的曲被拆成可算的直。要害有三：其一，从计算需求出发发明数学——不是为数学而数学，而是'丈量中有此形，故必有此术'；其二，分片化曲为直——在局部用直线逼近曲线，误差由片宽控制；其三，与工程闭环——会圆术直接服务地图测绘与天文量度，公式错了地就量错。方法论签名：遇到无处可查的形状，就自己造一张表——需求是数学之母。",
+   "definition_en": "Finding no table for the area of a bow-shaped field, Shen Kuo invented one: the 'circle-segmentation' method ties arc, sagitta, chord and diameter into simultaneous relations, approximating the curved slice with right triangles and a sector—the curve is unbent into computable straights. Mathematics invented from computational need (this shape appears in surveying, so a method must exist); segmentation turns curve to straight (local chords approximate the arc, error governed by slice width); and a closed loop with engineering (the method fed map surveying and astronomical mensuration—wrong formula, wrong ground). Signature: when a shape has no table, build the table—necessity is the mother of mathematics.",
+   "source_chapter": "《梦溪笔谈·技艺》会圆术条",
+   "key_concepts": [
+    "会圆术",
+    "弓形面积",
+    "以直代曲",
+    "丈量需求",
+    "分片逼近"
+   ],
+   "process_zh": [
+    "把实际问题（弓形田、天弧）翻译为几何要素：弦、矢、径、弧",
+    "用已知的勾股与扇形公式覆盖可算部分，剩余曲边单独逼近",
+    "立出弧长与面积的近似公式，并用特例（半圆、全弦）自检",
+    "接回工程：把公式交给测绘与历算使用，用实测反馈修正"
+   ],
+   "process_en": [
+    "Translate the practical problem (bow field, celestial arc) into geometric elements: chord, sagitta, diameter, arc",
+    "Cover the computable parts with known right-triangle and sector formulas; approximate the residual curve separately",
+    "State approximate formulas for arc length and area, self-checking against limiting cases (semicircle, full chord)",
+    "Close the loop with engineering: hand the formulas to surveyors and calendar computers, correct with field feedback"
+   ],
+   "key_quote_zh": "履亩之中，弧田非术所能尽，予别为会圆之术以尽其变。",
+   "key_quote_en": "In measuring fields the arc-plot defeats every existing method—so I devised the circle-segmentation method to exhaust its variations.",
+   "representative_cases_zh": [
+    "会圆术（约1064—1075年间）：给出弓形弧长与面积的近似公式，被后世授时历与元代算家接续使用——中国弧矢论的开端",
+    "层级地图测绘（1076—1087年）：以飞鸟图法按'牙融'与二十四至折算距离，制《守令图》——测量单位与比例尺先于绘图",
+    "天文量度：以会圆思路处理浑仪刻度与天弧换算——公式在仪器上兑现",
+    "反例警示：会圆术是近似而非精确解，未给出误差阶估计——逼近术若无误差控制，会在陡弯处失手"
+   ],
+   "representative_cases_en": [
+    "Circle segmentation (between c. 1064 and 1075): approximate arc-length and area formulas for the bow field, taken up by the Shoushi Calendar mathematicians—the opening of Chinese arc-vector theory",
+    "Tiered map survey (1076-1087): the 'bird-flight' method converting distances by bearings into the Prefect-and-Magistrate Maps—units and scale before drawing",
+    "Astronomical mensuration: the same segmentation logic applied to armillary graduations—formulas cashed out on instruments",
+    "Counter-case: segmentation approximates without an error-order estimate—an approximation scheme without error control fumbles at sharp bends"
+   ],
+   "modern_applications_zh": [
+    "数值积分与分片逼近",
+    "工程测量的误差意识",
+    "需求驱动的数学发明",
+    "GIS与制图学传统"
+   ],
+   "modern_applications_en": [
+    "Numerical integration and piecewise approximation; error awareness in engineering survey; need-driven mathematical invention; the GIS and cartographic tradition"
+   ],
+   "related_modes": [
+    "M-SK-005",
+    "M-SK-001",
+    "M-ZZ-001"
+   ]
+  },
+  {
+   "id": "M-SK-005",
+   "mode_code": "M-SK-005",
+   "name_zh": "地图分层飞鸟法",
+   "name_en": "Tiered Bird-Flight Mapping Method",
+   "category": "地理测绘",
+   "domain_zh": "系统工程/信息压缩",
+   "domain_en": "Systems Engineering / Information Compression",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "沈括花十二年绘《守令图》，用三张比例尺递降的图（四至七十五里折一寸）承载同一国土：实测里程要除以曲折（'飞鸟图'），方向按二十四至定位，层级由国至路至州县逐级放大。要害有三：其一，比例尺是信息压缩率的自觉选择——不同读者取不同分辨率；其二，'飞鸟'归直——里程必须折算为直线距离，否则累积弯曲吞噬精度；其三，方位比距离更刚性——以二十四至锚定方向，让局部误差不传播为全局变形。方法论签名：一张好地图不是画得细，而是想清楚谁在哪一级用什么精度取用。",
+   "definition_en": "Twelve years went into the Prefect-and-Magistrate Maps: three tiers at shrinking scales (one inch to forty through seventy-five li) carrying the same realm, with surveyed route-miles divided down to 'bird-flight' straight lines, bearings fixed on twenty-four directions, and zoom from realm to circuit to county. Scale is a deliberate choice of information compression (different readers, different resolutions); 'bird-flight' rectification (route miles must convert to straight distance or accumulated bends eat the accuracy); and bearings are stiffer than distances (anchoring direction on twenty-four points keeps local errors from propagating into global distortion). Signature: a good map is not the finest-drawn one—it is the one that thought through who reads it, at which tier, at what precision.",
+   "source_chapter": "《梦溪笔谈·补笔谈》守令图条",
+   "key_concepts": [
+    "飞鸟图",
+    "二十四至",
+    "比例尺分级",
+    "多分辨率",
+    "方位锚定"
+   ],
+   "process_zh": [
+    "明确地图的读者与用途（朝廷边防、州县行政），据此选定比例尺层级",
+    "汇集驿站里程、山川走向、州县方位等多源记录",
+    "把行程里程折算为飞鸟直线距离，按二十四至重新定位",
+    "分层绘制并互校：上下级图同一地物必须落位一致"
+   ],
+   "process_en": [
+    "Fix the map's readers and uses (frontier defense, county administration), and choose the scale tiers accordingly",
+    "Gather multi-source records: post-road mileage, mountain-river trends, county bearings",
+    "Convert route mileage into bird-flight straight lines and reposition on twenty-four bearings",
+    "Draw tier by tier with cross-checks: the same feature must land consistently across levels"
+   ],
+   "key_quote_zh": "予按飞鸟图，皆为直路——图成，得九州军府远近之数，灿然可考。",
+   "key_quote_en": "On the bird-flight scheme all is straight road—when the maps were done the distances of prefectures and garrisons stood there plain and verifiable.",
+   "representative_cases_zh": [
+    "《守令图》（1076—1087年，二十余幅）：分层比例尺+飞鸟归直+二十四至，北宋最系统的国家地图集",
+    "边界谈判侦察（1075年）：与辽议地界前实地勘察测绘，图证支撑谈判——地图是权力的度量衡",
+    "《天下州县图》进呈：图与'对境图说'配套，图上标注地形与兵防——信息分层加载",
+    "反例警示：旧图'里数皆循道路'未作归直——不做投影/折算修正的'实测'只是精确地错着"
+   ],
+   "representative_cases_en": [
+    "The Prefect-and-Magistrate Maps (1076-1087, twenty-plus sheets): tiered scales, bird-flight rectification, twenty-four bearings—the most systematic state atlas of the Northern Song",
+    "Border-reconnaissance diplomacy (1075): field survey before negotiating the frontier with Liao—maps as the metrology of power at the table",
+    "Presenting the Atlas of Prefectures: sheets paired with a terrain-and-defense 'map commentary'—layered information loading",
+    "Counter-case: old maps 'followed road mileage' unrectified—'measurement' without projection or conversion is being precisely wrong"
+   ],
+   "modern_applications_zh": [
+    "多分辨率地图与LOD设计",
+    "GPS测距的直线归算",
+    "信息分层与多受众交付",
+    "边界谈判中的测绘取证"
+   ],
+   "modern_applications_en": [
+    "Multi-resolution maps and LOD design; straight-line reduction in GPS ranging; layered information for multiple audiences; surveying as evidence in boundary negotiation"
+   ],
+   "related_modes": [
+    "M-SK-004",
+    "M-SK-001",
+    "M-DRK-001"
+   ]
+  },
+  {
+   "id": "M-SK-006",
+   "mode_code": "M-SK-006",
+   "name_zh": "格术穷理法",
+   "name_en": "Gridded-Optics Inference Method",
+   "category": "物理光学",
+   "domain_zh": "模型构造/类比推理",
+   "domain_en": "Model Construction / Analogical Inference",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "面对阳燧照物皆倒、小孔成像的怪象，沈括不满足于罗列现象，而构造一个中间概念——'格术'与'碍'：光线穿过'碍'（小孔或焦点）则倒，物距与像的横斜由此一义贯通。要害有三：其一，用单一定位概念统摄多现象——倒像、针孔、凹面镜焦点都归于'碍'；其二，类比对策——以橹臬摇橹的支点类比光的约束点，把不可见的路径可视化；其三，知界而止——'碍'的具体机制他未解剖到底，如实标注推理边界。方法论签名：现象堆成山时，发明一个概念当杠杆——好概念让十个谜变一个谜。",
+   "definition_en": "Faced with the burning mirror's inverted images and pinhole imaging, Shen Kuo refused mere inventory and built an intermediary concept—'grid technique' and the 'obstruction' (ai): light passing an obstruction (pinhole or focal point) inverts, and object distance with image tilt is unified in one notion. One locating concept absorbs many phenomena (inverted image, pinhole, concave focal point all fall under 'ai'); analogy as scaffold (the rowlock's fulcrum visualizes light's constraint point); and stop at the known edge (the mechanism of 'ai' he did not fully dissect—marked honestly). Signature: when phenomena pile into a mountain, invent a concept for a lever—a good concept turns ten puzzles into one.",
+   "source_chapter": "《梦溪笔谈·磁艺/阳燧》条（卷三）",
+   "key_concepts": [
+    "格术",
+    "碍",
+    "小孔成像",
+    "焦点概念",
+    "类比模型"
+   ],
+   "process_zh": [
+    "把同类反常现象并置（阳燧倒像、小孔倒像、镜面曲率）找共同结构",
+    "构造最小中间概念，使所有现象都能用它一句说清",
+    "用日常可感类比（摇橹支点）解释不可见机制，供传习",
+    "标注概念解释力的边界：哪些现象已贯通，哪些尚'未原其理'"
+   ],
+   "process_en": [
+    "Set the kindred anomalies side by side (burning-mirror inversion, pinhole inversion, mirror curvature) and seek the shared structure",
+    "Construct the minimal intermediary concept that states all phenomena in one sentence",
+    "Explain the invisible mechanism with a tangible everyday analogy (the rowlock fulcrum) for transmission",
+    "Mark the concept's explanatory boundary: what is unified, and what still 'cannot be fathomed'"
+   ],
+   "key_quote_zh": "阳燧照物皆倒……碍在其中，则物距之远近，皆可一术而通。",
+   "key_quote_en": "The burning mirror inverts all it images… with the obstruction in between, far and near are mastered by one technique.",
+   "representative_cases_zh": [
+    "阳燧'碍'论（约1080年代）：凹面镜焦点与小孔成像统一于'碍'——中国光学史上第一个统一性概念",
+    "磁针偏角记录：'常微偏东，不全南也'——与其说解释，不如说把反常钉进记录等待更好的概念",
+    "琴瑟共振的'应声'解释：以声之高下相应贯通琴瑟钟磬——同类概念杠杆用于声学",
+    "反例警示：'碍'止于几何描述而未及波动本性——概念杠杆撬得动现象，未必撬得动本质"
+   ],
+   "representative_cases_en": [
+    "The 'obstruction' doctrine (c. 1080s): concave-mirror focus and pinhole imaging unified under 'ai'—the first unifying concept in Chinese optics",
+    "Recording the compass declination: 'it habitually inclines slightly east, not due south'—less an explanation than a spike holding the anomaly for a better concept",
+    "Explaining string resonance as sympathetic tones across qin, se, bells and chimes—the same conceptual lever applied to acoustics",
+    "Counter-case: 'ai' stops at geometric description, short of the wave nature—a conceptual lever that moves phenomena need not move essences"
+   ],
+   "modern_applications_zh": [
+    "科学概念的构造（模型中介）",
+    "类比教学",
+    "跨现象统一的理论美学",
+    "光学教学中的针孔实验"
+   ],
+   "modern_applications_en": [
+    "Concept construction as model intermediaries; analogical teaching; the aesthetic of cross-phenomenon unification; pinhole experiments in optics education"
+   ],
+   "related_modes": [
+    "M-SK-002",
+    "M-SK-007",
+    "M-ZZ-001"
+   ]
+  },
+  {
+   "id": "M-SK-007",
+   "mode_code": "M-SK-007",
+   "name_zh": "古器物证史法",
+   "name_en": "Artifact-as-Witness Historiography",
+   "category": "考古文物",
+   "domain_zh": "器物取证/文献互证",
+   "domain_en": "Material Evidence / Textual Cross-Checking",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "沈括收藏古器物不为把玩，而为'补经传之阙亡，正诸儒之谬误'：铜弩机的'望山'校准了典籍里的射术术语，古印与铭文订正了地理与官制。要害有三：其一，器物是沉默的证人——典籍会抄错，实物不会；其二，器物可测可算——弩机望山的刻度可以复核'六百步'的射程记载是否可信；其三，以物正书而非以书合物——证据等级上，实物高于转述。方法论签名：文献会撒谎，铜锈不会——当你手里有实物，就别再隔着纸吵架。",
+   "definition_en": "Shen Kuo collected antiquities not for connoisseurship but to 'mend what the classics lost and correct what scholars got wrong': the range-finder ('wangshan') on a bronze crossbow trigger recalibrated the archery terms in the texts; seals and inscriptions corrected geography and offices. Artifacts are silent witnesses (texts miscopy; objects don't); artifacts can be measured (the sight's graduations test whether 'six hundred paces' is credible); and objects overrule books, never the reverse—in the hierarchy of evidence, the thing outranks the retelling. Signature: documents can lie, bronze patina cannot—when you hold the object, stop arguing through paper.",
+   "source_chapter": "《梦溪笔谈·器用》铜弩机、古印等条",
+   "key_concepts": [
+    "器物取证",
+    "二重证据",
+    "望山",
+    "铭文订史",
+    "证据等级"
+   ],
+   "process_zh": [
+    "遇文献聚讼不决处，检索是否存在实物遗存可以介入",
+    "对器物做测量、释读：刻度、铭文、工艺痕迹逐项提取",
+    "以器物实测结果为基准，回头校订文献记载的是非",
+    "把订正结论写成可复查的条目，附器物来源与存藏信息"
+   ],
+   "process_en": [
+    "Where texts conflict without resolution, search for surviving objects that can intervene",
+    "Measure and read the artifact: graduations, inscriptions, craft traces item by item",
+    "Take the artifact's measured reality as the benchmark and correct the textual record against it",
+    "Write the correction as a re-checkable entry, provenance and custody attached"
+   ],
+   "key_quote_zh": "予得弩机而识其制——器之存者，足正传写之谬。",
+   "key_quote_en": "I obtained a crossbow trigger and thus knew its make—the surviving object suffices to correct the errors of transmission.",
+   "representative_cases_zh": [
+    "铜弩机'望山'考（约1070—1080年）：实测刻度并复算射程，订正'六百步'之说——中国最早的器物定量取证之一",
+    "古印订地理：以出土古印厘正州县建置旧说——金石学'以石刻补史'传统的先声",
+    "《集贤院书目》与馆藏互勘：以实物清单核对文献目录，检出传抄之误",
+    "反例警示：沈括也接受过个别赝鼎——器物取证若无真伪鉴定前置，'以物正书'会变成'以赝乱真'"
+   ],
+   "representative_cases_en": [
+    "The bronze crossbow trigger study (c. 1070s-1080s): measuring its sight and recomputing range to test the 'six hundred paces' claim—among the earliest quantitative artifact forensics in China",
+    "Ancient seals correcting geography: excavated seals emending received accounts of administrative divisions—an antecedent of the epigraphy tradition of stone supplementing history",
+    "Cross-checking the Institute catalog against holdings: physical inventories auditing bibliographic lists to catch copyist errors",
+    "Counter-case: he too accepted an occasional forgery—without authentication first, correcting books with objects becomes confusing books with fakes"
+   ],
+   "modern_applications_zh": [
+    "考古学二重证据法",
+    "博物馆定级与科技鉴定",
+    "文献考据与实物互证",
+    "法证思维在人文研究中的应用"
+   ],
+   "modern_applications_en": [
+    "The dual-evidence method of archaeology; museum authentication and scientific dating; textual philology cross-checked with objects; forensic thinking in the humanities"
+   ],
+   "related_modes": [
+    "M-SK-001",
+    "M-SK-008",
+    "M-SMQ-001"
+   ]
+  },
+  {
+   "id": "M-SK-008",
+   "mode_code": "M-SK-008",
+   "name_zh": "聚讼裁决法",
+   "name_en": "Adjudicating Contested Claims Method",
+   "category": "考据方法",
+   "domain_zh": "证据裁决/学术断案",
+   "domain_en": "Evidence Adjudication / Scholarly Judgment",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "面对诸书相戾、众说纷纭的悬案，沈括不像注家那样各打五十大板，而像法官一样断案：排出证据品级（亲见>实物流传>可靠转述>晚出附会），逼出唯一结论，并公开写明裁断理由。要害有三：其一，'坐而论道不如起而行'——能亲验的绝不靠转引；其二，区分'不可知'与'未可知'——续弦胶、返魂香之类存疑存而不论，不强行归一；其三，裁决可上诉——结论附出处与检核路径，后人可以推翻。方法论签名：学术的本质是断案——每个悬案都要有一个带着证据等级的判决书。",
+   "definition_en": "Facing contradictory books and squabbling schools, Shen Kuo played judge, not peacemaker: rank the evidence (seen by oneself > surviving objects > reliable transmission > late fabrication), force a single verdict, and state the grounds publicly. Sit-and-discourse loses to rise-and-test (verify firsthand wherever possible); distinguish 'unknowable' from 'not yet known' (wondrous glues and soul-returning incense are shelved, not forced into harmony); and verdicts are appealable (conclusions carry sources and re-check paths for successors to overturn). Signature: scholarship is adjudication—every cold case deserves a verdict stamped with its evidence grade.",
+   "source_chapter": "《梦溪笔谈》辨证各条（如'云梦泽''流沙'等考辨）",
+   "key_concepts": [
+    "证据品级",
+    "学术断案",
+    "悬案存疑",
+    "裁决书体",
+    "可上诉结论"
+   ],
+   "process_zh": [
+    "汇集同一问题的全部异说，逐条标明来源与年代层级",
+    "按证据品级排序，寻找可以一锤定音的直接证据",
+    "能亲验者当场检验；不能者明确标注存疑范围与原因",
+    "写出裁决：结论+依据+残余疑难，供后人上诉"
+   ],
+   "process_en": [
+    "Collect every rival account of the question, tagging each with source and chronological tier",
+    "Rank by evidence grade and hunt for the direct evidence that can settle it",
+    "Verify in person where possible; where not, delimit explicitly what remains doubtful and why",
+    "Deliver the verdict: conclusion plus grounds plus residual puzzles—an appealable judgment"
+   ],
+   "key_quote_zh": "旧传多有谬误，予亲见而正之——是非之间，必有可据者存焉。",
+   "key_quote_en": "Old accounts abound in error; I have seen for myself and set it right—between right and wrong there must stand something that can be relied on.",
+   "representative_cases_zh": [
+    "考辨'云梦'地望：否决'一泽说'，以多源记载裁定为跨江汉的大区域——地理悬案的判例式解法",
+    "判'蒲芦'为何物：比勘《尔雅》《说文》与方言实物，给出唯一裁决而不和稀泥",
+    "对'天禄、辟邪'等神兽名实之辨：以石刻实物压倒晚出注释——证据品级实战运用",
+    "反例警示：部分裁决囿于见闻（如对海市蜃楼仍归'蛟蜃之气'）——证据品级再清晰，也受限于样本可达性"
+   ],
+   "representative_cases_en": [
+    "Adjudicating the location of Yunmeng: rejecting the 'single marsh' reading, the multi-source record settles on a vast Jiang-Han region—a precedent-style solution to a geographic cold case",
+    "Identifying the 'pulu': collating the Erya, the Shuowen, and dialect objects to one verdict—no splitting the difference",
+    "Deciding the names of 'tianlu' and 'bixie' beasts: stone carvings outrank late commentaries—evidence grading in action",
+    "Counter-case: some verdicts bounded by reach (mirages still ascribed to 'clam breath')—however clear the evidence grade, sample accessibility bounds it"
+   ],
+   "modern_applications_zh": [
+    "循证决策",
+    "事实核查方法论",
+    "争议裁决与仲裁文书",
+    "历史考据与司法证明的互鉴"
+   ],
+   "modern_applications_en": [
+    "Evidence-based decision-making; fact-checking methodology; adjudication documents and arbitration; mutual illumination of historical philology and judicial proof"
+   ],
+   "related_modes": [
+    "M-SK-007",
+    "M-SK-003",
+    "M-HZX-006"
+   ]
+  },
+  {
+   "id": "M-SK-009",
+   "mode_code": "M-SK-009",
+   "name_zh": "政务技术转化法",
+   "name_en": "Statecraft-Technology Transfer Method",
+   "category": "应用治理",
+   "domain_zh": "技术落地/制度改革",
+   "domain_en": "Technology Deployment / Institutional Reform",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "沈括的过人处在双向通道：把中央的技术运到边关（任鄜延经略使时以科学方法御军、治城防），又把边地的经验运回庙堂（石油、盐政、漕运的实地报告转化为国策）。要害有三：其一，技术必须兑换为政绩才存活——会圆术若无测绘用场只是雅玩；其二，改革随职走——每一任官职都被他当作一次局部试点；其三，留制度遗产而不只留报告——役法改革、边防布置都沉淀为可执行的规程。方法论签名：知识不落地只是收藏——把每个职位都当成把认识转化为制度的接口。",
+   "definition_en": "Shen Kuo's edge was a two-way channel: carrying central expertise to the frontier (governing Yanzhou's defenses and army with scientific method), and frontier experience back to court (petroleum, salt policy, grain transport—field reports converted into state policy). Technology must cash out as governance to survive (circle segmentation without surveying uses is mere connoisseurship); reform travels with office (every post became a local pilot); and the legacy is institutional, not just reportage (labor-service reform and frontier deployments sedimented into executable procedures). Signature: knowledge that never lands is a collection—treat every office as the interface where understanding is converted into institution.",
+   "source_chapter": "《宋史·沈括传》及《梦溪笔谈》官政、权智诸卷",
+   "key_concepts": [
+    "双向转化",
+    "试点治理",
+    "边关实践",
+    "制度沉淀",
+    "知识落地"
+   ],
+   "process_zh": [
+    "到任先盘点本地约束：地形、财政、民风、敌情，建立'问题清单'",
+    "把中央已有的技术工具（数学、天文、医药、器械）对号入座",
+    "小范围试行并记录成本与效果，形成可上奏的证据",
+    "把有效做法写成规程移交继任者，使试点变为制度"
+   ],
+   "process_en": [
+    "On taking office, inventory local constraints—terrain, finance, customs, enemy situation—as a problem list",
+    "Match the center's technical toolkit (mathematics, astronomy, medicine, instruments) to each item",
+    "Pilot narrowly, recording cost and effect, to build evidence fit for memorials to the throne",
+    "Codify what works into procedures for successors, turning pilots into institutions"
+   ],
+   "key_quote_zh": "凡所施设，必先审知其利病——为政者不可以不学，学不可以不施。",
+   "key_quote_en": "Every measure must begin by knowing its gains and harms—he who governs cannot but learn, and what is learned cannot but be applied.",
+   "representative_cases_zh": [
+    "鄜延御边（1080—1082年）：以地形测量布置堡寨、以物资调度支撑军需——科学家任统帅的罕见样本",
+    "两浙治水利与役法（1073—1074年）：实地勘察后因地制宜推行，而非照搬京师方案",
+    "整顿盐政与漕运：用数量核算揭破积弊，把'账面'变成'现场'",
+    "反例警示：永乐城之败（1082年）——技术官僚在纯军事决策上失分，说明转化通道在陌生领域会短路"
+   ],
+   "representative_cases_en": [
+    "Defending Yanzhou (1080-1082): terrain survey for fort placement and logistics scheduling—a rare sample of the scientist as commander",
+    "Waterworks and labor service in Liangzhe (1073-1074): site surveys first, measures fitted to place—never copying the capital's template",
+    "Reforming salt and grain transport: quantitative accounting exposing entrenched abuse, turning ledgers back into ground truth",
+    "Counter-case: the defeat at Yongle City (1082)—the technocrat loses on purely military judgment, showing the transfer channel short-circuits in unfamiliar domains"
+   ],
+   "modern_applications_zh": [
+    "技术官僚与循证治理",
+    "试点-推广政策方法",
+    "知识转移与制度设计",
+    "科学与国防的接口管理"
+   ],
+   "modern_applications_en": [
+    "Technocratic, evidence-based governance; pilot-then-scale policymaking; knowledge transfer and institutional design; managing the science-defense interface"
+   ],
+   "related_modes": [
+    "M-SK-010",
+    "M-SK-004",
+    "M-WL-001"
+   ]
+  },
+  {
+   "id": "M-SK-010",
+   "mode_code": "M-SK-010",
+   "name_zh": "笔谈留验传世法",
+   "name_en": "Brush-Talk Legacy Preservation Method",
+   "category": "知识工程",
+   "domain_zh": "知识存档/个人学术品牌",
+   "domain_en": "Knowledge Archiving / Scholarly Legacy",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "罢官闲居润州，沈括把三十年积累写成《梦溪笔谈》六百零九条：不按经史子集排序，而按主题分卷（技艺、器用、象数、人事……），每条自足可读。要害有三：其一，个人笔记升级为公共数据库——体例统一、检索友好，后世可按需取用；其二，内容不设禁区——自然异象、民间技艺、官场得失并收，杂而不断；其三，署名即担保——'笔谈'自序把毕生信誉押在记录的真实性上，使其成为北宋科技的信用底账。方法论签名：职业生涯的终点动作是把散装的一生打包成可检索的遗产——让后人按主题向你提问。",
+   "definition_en": "Retired in Runzhou, Shen Kuo packed thirty years of accumulation into the 609 entries of the Brush Talks: not ordered by classics-and-history canons but by theme (techniques, implements, heavens-and-numbers, human affairs…), each entry self-contained. Personal notes upgraded to a public database (uniform format, retrieval-friendly—posterity queries at will); no content off-limits (natural marvels, folk craft, official missteps side by side, miscellaneous but coherent); and signature as collateral (the self-preface stakes lifelong credibility on the record's truth, making the book the credit ledger of Northern Song science). Signature: the terminal move of a career is packing a scattered life into a searchable legacy—let posterity interrogate you by topic.",
+   "source_chapter": "《梦溪笔谈》自序及全书目录结构",
+   "key_concepts": [
+    "条目体例",
+    "主题分卷",
+    "知识打包",
+    "署名担保",
+    "遗产工程"
+   ],
+   "process_zh": [
+    "生涯早期即建立统一笔记体例，随见随记并标注时间地点",
+    "定期归档整理，按主题分类而非按官职或年代",
+    "每条写成自足单元：现象、条件、结论、出处，读者无需上下文",
+    "晚年以自序作总担保出版，为真实性负终身责任"
+   ],
+   "process_en": [
+    "Establish a uniform note format early in the career, dating and locating every entry as made",
+    "Archive periodically, classifying by theme rather than by post or chronology",
+    "Write each entry self-contained—phenomenon, conditions, conclusion, provenance—readable without context",
+    "In retirement, publish under a self-preface serving as lifelong warranty for the record's truth"
+   ],
+   "key_quote_zh": "所录皆予平生所睹记……不系人之利害，圣谟国政不与焉——唯存其真而已。",
+   "key_quote_en": "All recorded here is what these eyes saw and these hands noted… entangled with no one's fortunes, touching no state counsel—only the truth is kept.",
+   "representative_cases_zh": [
+    "《梦溪笔谈》（约1088年成书）：609条26卷，被誉为'中国科学史上的坐标'——笔记体的知识库化巅峰",
+    "活字印刷唯一同时代记载：毕昇布衣身份正史不载，赖沈括条目留名——笔记为无名者建档",
+    "指南针、石油、会圆术皆赖此书传世——单一条目成为千年技术的传承接口",
+    "反例警示：全书亦收'神奇''异事'数十条——知识库若不设准入标准，鱼目会稀释珍珠"
+   ],
+   "representative_cases_en": [
+    "The Brush Talks (completed c. 1088): 609 entries in 26 juan, hailed as 'a landmark in the history of Chinese science'—the summit of notebook-to-knowledge-base conversion",
+    "The sole contemporary record of movable-type printing: commoner Bi Sheng is absent from official history and survives only in a Shen Kuo entry—the notebook archives the unnamed",
+    "The compass, petroleum, circle segmentation all transmitted through this book—single entries serving as millennium-long transmission interfaces",
+    "Counter-case: dozens of 'marvels and oddities' entries too—without admission standards, fish eyes dilute pearls in any knowledge base"
+   ],
+   "modern_applications_zh": [
+    "个人知识库与博客化存档",
+    "开源文档的署名担保",
+    "主题式而非时间式归档",
+    "科技史与笔记文献学"
+   ],
+   "modern_applications_en": [
+    "Personal knowledge bases and blog-as-archive; signed warranty in open-source documentation; thematic over chronological filing; history of science and notebook philology"
+   ],
+   "related_modes": [
+    "M-SK-001",
+    "M-SK-002",
+    "M-ZZJ-010"
+   ]
+  }
+ ]
+}

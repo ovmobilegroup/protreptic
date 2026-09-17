@@ -1,0 +1,539 @@
+{
+  "schema_version": "v6",
+  "code": "H-GYW-001",
+  "figure_name_zh": "顾炎武",
+  "figure_name_en": "Gu Yanwu",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M311",
+      "name_zh": "保天下论",
+      "name_en": "Preserving Tianxia Theory",
+      "mode_code": "M311",
+      "category": "政治哲学",
+      "domain_zh": "政治伦理/社会责任",
+      "domain_en": "Political Ethics / Social Responsibility",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "区分'亡国'与'亡天下'：易姓改号谓之亡国，仁义充塞而率兽食人、人将相食谓之亡天下。保国是君臣肉食者谋之的事，保天下则'匹夫之贱与有责焉'。将政治责任的主体从朝廷官僚扩展到每一个普通士人——道德文明的存续高于政权归属，且道德文明的责任人人有份。这是中国思想史上第一次对'国家'与'文明'作出严格概念区分，并据此建立平民责任伦理。",
+      "definition_en": "Distinguishes 'perishing of the state' from 'perishing of Tianxia (civilization)': dynastic change is the former; the blocking of benevolence and righteousness, people preying on each other, is the latter. Preserving the state is the business of rulers and ministers, but preserving Tianxia is the responsibility even of the lowliest commoner. The first strict conceptual distinction between 'state' and 'civilization' in Chinese thought, grounding a universal ethics of responsibility.",
+      "source_chapter": "《日知录·正始》",
+      "key_concepts": [
+        "亡国",
+        "亡天下",
+        "匹夫有责",
+        "保国者肉食者谋之",
+        "知保天下然后知保其国"
+      ],
+      "process_zh": [
+        "区分两个不同层次的存亡对象：政权（国）与文明（天下）",
+        "为每个层次的存亡指定相应的责任主体",
+        "论证文明存续优先于政权归属（知保天下然后知保其国）",
+        "将最高层次的责任普遍化到每一个体（匹夫之贱与有责焉）"
+      ],
+      "process_en": [
+        "Distinguish two levels of survival at stake: regime (state) and civilization (Tianxia)",
+        "Assign corresponding responsibility subjects to each level",
+        "Argue civilizational survival precedes regime survival (only by preserving Tianxia can one preserve the state)",
+        "Universalize the highest-level responsibility to every individual"
+      ],
+      "key_quote_zh": "有亡国，有亡天下。亡国与亡天下奚辨？曰：易姓改号，谓之亡国；仁义充塞，而至于率兽食人，人将相食，谓之亡天下。……保国者，其君其臣肉食者谋之；保天下者，匹夫之贱与有责焉耳矣。",
+      "key_quote_en": "There is perishing of the state, and there is perishing of Tianxia. Dynastic overthrow is perishing of the state; when benevolence and righteousness are blocked, beasts devour men and men devour each other—that is perishing of Tianxia. Preserving the state is the concern of rulers and ministers; preserving Tianxia is the responsibility of even the lowliest commoner.",
+      "representative_cases_zh": [
+        "《日知录·正始》以魏晋清谈亡天下为例——何晏、王衍之罪深于桀纣，因其实质是败坏仁义",
+        "明亡后拒绝仕清、六谒孝陵，以个人行为践行'保天下'责任"
+      ],
+      "modern_applications_zh": [
+        "公民责任伦理教育",
+        "区分政权危机与文明危机的分析框架",
+        "公共利益中的个体责任论证"
+      ],
+      "modern_applications_en": [
+        "Civic responsibility education",
+        "Analytical framework distinguishing regime crisis from civilizational crisis",
+        "Argument for individual responsibility in public goods"
+      ],
+      "related_modes": [
+        "M317",
+        "M312"
+      ]
+    },
+    {
+      "id": "M312",
+      "name_zh": "寓封建于郡县法",
+      "name_en": "Embedding Feudalism within the Commandery-County System",
+      "mode_code": "M312",
+      "category": "政治哲学",
+      "domain_zh": "制度设计/央地关系",
+      "domain_en": "Institutional Design / Central-Local Relations",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "封建与郡县各有弊端：封建之失在于专制在下（世袭割据），郡县之失在于专制在上（中央集权过度）。解决方案不是二选一，而是'寓封建之意于郡县之中'——在郡县框架内注入封建的分权精神：扩大县令的实权与任期（'改知县为五品官'、久任、世袭佐官），使其拥有治民之权并对本地负责，同时保留中央的正统性框架。核心方法论：对两种对立制度的优点做结构性杂交，而非整体替换。",
+      "definition_en": "Feudalism fails through excessive local autocracy (hereditary fragmentation); the commandery-county system fails through excessive central autocracy. The solution is not choosing one but 'embedding the spirit of feudalism within the commandery system': empowering county magistrates with real authority, long tenure, and local accountability while retaining central legitimacy. Methodological core: structural hybridization of opposing systems' strengths rather than wholesale replacement.",
+      "source_chapter": "《日知录·郡县论》",
+      "key_concepts": [
+        "寓封建之意于郡县之中",
+        "封建之失其专在下",
+        "郡县之失其专在上",
+        "尊令长之秩",
+        "众治"
+      ],
+      "process_zh": [
+        "分别诊断两种对立制度的失灵机制（专在下 vs 专在上）",
+        "识别各自的隐含优点（封建的地方责任感、郡县的统一框架）",
+        "设计杂交方案：保留郡县外壳，注入分权内核",
+        "配套权责机制：久任、实授、监察，使地方官对本地负实际责任"
+      ],
+      "process_en": [
+        "Diagnose the failure modes of each opposing system (local over-concentration vs central over-concentration)",
+        "Identify the implicit strengths of each (local accountability, unified framework)",
+        "Design the hybrid: keep the commandery shell, inject the decentralizing core",
+        "Add complementary accountability mechanisms: long tenure, real authority, oversight"
+      ],
+      "key_quote_zh": "封建之失，其专在下；郡县之失，其专在上。……寓封建之意于郡县之中，而天下治矣。",
+      "key_quote_en": "Feudalism fails through concentration below; the commandery system fails through concentration above. Embed the spirit of feudalism within the commandery system, and the realm will be well governed.",
+      "representative_cases_zh": [
+        "《郡县论》九篇系统提出'改知县为五品官、正其名为县令'的改革方案",
+        "以'尊令长之秩，而予之以生财治人之权'配套'罢监司之任'实现双向分权"
+      ],
+      "modern_applications_zh": [
+        "央地关系与地方自治的制度设计",
+        "对立制度优点的结构化杂交（混合所有制等）",
+        "分权制衡的渐进改革路径"
+      ],
+      "modern_applications_en": [
+        "Institutional design for central-local relations and local autonomy",
+        "Structural hybridization of opposing systems (mixed ownership models)",
+        "Gradual reform paths for decentralization"
+      ],
+      "related_modes": [
+        "M313",
+        "M311"
+      ]
+    },
+    {
+      "id": "M313",
+      "name_zh": "众治论",
+      "name_en": "Governance by the Many",
+      "mode_code": "M313",
+      "category": "政治哲学",
+      "domain_zh": "权力结构论",
+      "domain_en": "Power Structure Theory",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "人君之治天下不能独治——'独治'之极则'治专而乱'，必须'众治'：以天下之权寄之天下之人。众治不是无政府，而是权力分层共享：宗族治其乡、县令治其县、天子总其纲纪。批判秦'独治'二世而亡的病根，将分权路径落在基层治理与权力稀释上，与黄宗羲'学校议政'构成清初权力制约思想的两种方案：黄走横向议政机构，顾走纵向权限下沉。",
+      "definition_en": "A sovereign cannot govern the realm alone—extreme 'rule by one' concentrates power and breeds disorder; governance must be by the many, lodging the power of Tianxia in the people of Tianxia. Not anarchism, but layered power-sharing: clans govern their villages, magistrates their counties, the sovereign the overall framework. Against the Qin's lone-rule collapse, Gu grounds decentralization in grassroots governance and power dilution—complementing Huang Zongxi's deliberative assemblies with vertical delegation.",
+      "source_chapter": "《日知录·爱百姓故刑罚中》《亭林文集·郡县论》",
+      "key_concepts": [
+        "众治",
+        "独治",
+        "以天下之权寄之天下之人",
+        "分天子之权",
+        "县令非一邑之令"
+      ],
+      "process_zh": [
+        "诊断'独治'的失灵机制：权力越集中，信息与响应越失灵",
+        "确立分权总纲：以天下之权寄之天下之人",
+        "分层配置权力：乡有乡治、县有县治、天子总纲",
+        "以'久任'与实授固化分层权力，使各层对其治理对象负责"
+      ],
+      "process_en": [
+        "Diagnose the failure of 'rule by one': the more concentrated the power, the greater the information and response failure",
+        "Establish the general principle: lodge the realm's power in the realm's people",
+        "Allocate power in layers: villages, counties, and the sovereign's overall framework",
+        "Solidify layered power through long tenure and real appointment"
+      ],
+      "key_quote_zh": "人君之于天下，不能以独治也。独治之而刑繁矣，众治之而刑措矣。……以天下之权寄之天下之人。",
+      "key_quote_en": "A sovereign cannot govern the realm alone. Rule by one multiplies punishments; rule by the many retires them. Lodge the power of the realm in the people of the realm.",
+      "representative_cases_zh": [
+        "以秦二世而亡论证'独治'之不可恃",
+        "主张县令'非一邑之令'而是天子寄权之实体，扩大基层治理权"
+      ],
+      "modern_applications_zh": [
+        "分布式治理与基层自治",
+        "组织权力分散化设计",
+        "权限下沉与责任对应"
+      ],
+      "modern_applications_en": [
+        "Distributed governance and grassroots autonomy",
+        "Organizational power-decentralization design",
+        "Authority delegation paired with accountability"
+      ],
+      "related_modes": [
+        "M312",
+        "M311"
+      ]
+    },
+    {
+      "id": "M314",
+      "name_zh": "经世致用法",
+      "name_en": "Statecraft-Oriented Learning Method",
+      "mode_code": "M314",
+      "category": "方法论",
+      "domain_zh": "学术宗旨论",
+      "domain_en": "Purpose of Scholarship",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "为学之标准是'明道救世'：一切学问的价值以'有益于天下'为衡量。'文之不可绝于天地间者，曰明道也，纪政事也，察民隐也，乐道人之善也'——凡无益之文皆为巧言。由此将研究选题锚定在民生利病：著《天下郡国利病书》遍考郡县赋役、水利、兵防，'凡文之不关于六经之指、当世之务者，一切不为'。方法论核心：学术选题由现实问题反向定义，知识生产以治国实效为验收标准。",
+      "definition_en": "The standard of learning is 'illuminating the Way to save the world': all scholarship is measured by benefit to the realm. Writings worthy of existence illuminate the Way, record governance, expose hidden sufferings, or celebrate others' virtues; anything useless is mere rhetoric. Research topics are anchored in real-world problems—his 120-volume survey of every province's taxes, waterworks, and defenses. Core method: research topics defined backward from real problems, knowledge validated by practical governance value.",
+      "source_chapter": "《亭林文集·与人书二》《与人书三》《日知录·文须有益于天下》",
+      "key_concepts": [
+        "明道救世",
+        "文须有益于天下",
+        "当世之务",
+        "利病书",
+        "凡文之不关于六经之指当世之务者一切不为"
+      ],
+      "process_zh": [
+        "确立学术的验收标准：有益于天下、关于当世之务",
+        "从现实利病出发反向定义研究选题",
+        "遍历原始材料做穷尽式调研（郡国利病逐府州考订）",
+        "以可操作的治策（赋役、水利、兵防方案）作为产出形式"
+      ],
+      "process_en": [
+        "Set the validation standard of scholarship: benefit to the realm, relevance to current affairs",
+        "Define research topics backward from real-world problems",
+        "Exhaustively survey primary materials (county-by-county study of local conditions)",
+        "Deliver operational policy proposals (taxes, waterworks, defense)"
+      ],
+      "key_quote_zh": "君子之为学，以明道也，以救世也。徒诗文而已，所谓雕虫篆刻，亦何益哉？……凡文之不关于六经之指、当世之务者，一切不为。",
+      "key_quote_en": "The gentleman studies to illuminate the Way and to save the world. Mere poetry and prose are trifling carving—what benefit are they? All writing unrelated to the classics' import or the pressing affairs of the age, I refuse to produce.",
+      "representative_cases_zh": [
+        "二十余年北游，以两骡两马驮书，实地考察边塞山川、遍访老兵退卒，成《天下郡国利病书》",
+        "明亡后作《乙酉四论》（军制、形势、田功、钱粮），直面复国所需的四大实务"
+      ],
+      "modern_applications_zh": [
+        "应用导向的科研选题",
+        "政策研究的实地调研方法",
+        "知识生产的社会价值评估"
+      ],
+      "modern_applications_en": [
+        "Application-driven research topic selection",
+        "Fieldwork methodology for policy research",
+        "Social-value assessment of knowledge production"
+      ],
+      "related_modes": [
+        "M315",
+        "M318"
+      ]
+    },
+    {
+      "id": "M315",
+      "name_zh": "采铜于山法",
+      "name_en": "Mining Copper from the Mountain Method",
+      "mode_code": "M315",
+      "category": "方法论",
+      "domain_zh": "文献考据/实证研究",
+      "domain_en": "Textual Verification / Empirical Research",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "反对'采铜于炉'（转引二手、因袭旧说），主张'采铜于山'（直接回到原始文献）。针对明代'著书不如抄书'、人云亦云的风气，顾炎武立下铁律：凡立一义，必先验之原始文本。其《日知录》每一条皆积数十年读经所得，先立说再遍检群经证成之，证据不足则存疑不书。这是考据学的第一方法论准则，本质是一手资料优先原则与证据链完整性要求。",
+      "definition_en": "Against 'mining copper from the furnace' (recycling second-hand citations and inherited claims), one must 'mine copper from the mountain' (return directly to primary sources). For Gu, every proposition must first be verified against original texts; each entry in the Rizhilu grew from decades of reading the classics, with claims held in abeyance if evidence fell short. The first methodological rule of Qing evidential scholarship: primary-source primacy and evidential-chain completeness.",
+      "source_chapter": "《亭林文集·与人书十》",
+      "key_concepts": [
+        "采铜于山",
+        "采铜于炉",
+        "早夜诵读反复寻究",
+        "证据不足存疑",
+        "抄袭不书"
+      ],
+      "process_zh": [
+        "回到原始文献一手取证，拒绝转引",
+        "每立一说，遍检全部相关文本反复印证",
+        "证据不足则存疑阙如，宁缺毋滥",
+        "成稿后仍持续修订三十年（日知录屡经增改）"
+      ],
+      "process_en": [
+        "Return to primary texts for first-hand evidence; refuse secondary citation",
+        "For every proposition, exhaustively cross-check all related texts",
+        "Suspend claims where evidence is insufficient",
+        "Keep revising for decades after drafting"
+      ],
+      "key_quote_zh": "尝谓今人纂辑之书，正如今人之铸钱。古人采铜于山，今人则买旧钱名之曰废铜以充铸而已。所铸之钱既已粗恶，而又将古人传世之宝舂锉碎散，不存于后，岂不两失之乎？",
+      "key_quote_en": "The anthologies of today are like coin-casting today: the ancients mined copper from the mountain; moderns buy old coins, call them scrap, and cast from them. Their coins are base, and the ancients' transmitted treasures are destroyed—losing on both counts.",
+      "representative_cases_zh": [
+        "《日知录》每条先立说、再遍检群经佐证，自述'别来一载早夜诵读，反复寻究，仅得十余条'",
+        "批评明代'抄书'式著述风气，坚持引文必标出处"
+      ],
+      "modern_applications_zh": [
+        "学术研究的一手资料优先原则",
+        "引用规范与证据链管理",
+        "知识工作的原创性底线"
+      ],
+      "modern_applications_en": [
+        "Primary-source primacy in research",
+        "Citation standards and evidence-chain management",
+        "Originality baseline for knowledge work"
+      ],
+      "related_modes": [
+        "M316",
+        "M314"
+      ]
+    },
+    {
+      "id": "M316",
+      "name_zh": "音韵证经法",
+      "name_en": "Phonology-Based Textual Verification",
+      "mode_code": "M316",
+      "category": "方法论",
+      "domain_zh": "考据学/语言复原",
+      "domain_en": "Evidential Scholarship / Linguistic Reconstruction",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "确立'读九经自考文始，考文自知音始'的实证路径：理解经典必先正确认字，认字必先复原古音。以《音学五书》系统离析《诗经》用韵，归纳古音十部（后人扩至二十二部），用韵脚实证代替想当然的叶音说。这是中国学术史上第一个形式化归纳系统——用可观察的语言证据（韵脚分布）归纳不可观察的语音系统（古音部类），为乾嘉考据学提供了整套可复制的技术范式。",
+      "definition_en": "Establishes the empirical path 'reading the Nine Classics begins with philology, and philology begins with phonology': understanding the classics requires correct character reading, which requires restored ancient pronunciation. The Phonology in Five Works systematically separates the Shijing's rhyme usage, inducing ten ancient rhyme categories from observable rhyme evidence rather than ad-hoc 'harmonic reading.' The first formalized inductive system in Chinese scholarship—inferring unobservable phonology from observable evidence—providing the replicable technical paradigm of Qianlong-Jiaqing scholarship.",
+      "source_chapter": "《音学五书·序》《亭林文集·答李子德书》",
+      "key_concepts": [
+        "读九经自考文始",
+        "考文自知音始",
+        "古音十部",
+        "离析《诗经》韵脚",
+        "据母定音"
+      ],
+      "process_zh": [
+        "确立还原次序：经义←文字←古音",
+        "穷尽收集韵脚实例（《诗经》全篇韵字系联）",
+        "以韵脚分布归纳音部，逐部检验例外与边界",
+        "以复原的古音回检经典文字，订正传世讹误"
+      ],
+      "process_en": [
+        "Establish the restoration order: classical meaning ← characters ← ancient sounds",
+        "Exhaustively collect rhyme instances (systematic linking of Shijing rhyme characters)",
+        "Induce sound categories from rhyme distribution, testing exceptions and boundaries",
+        "Re-verify classical texts with restored phonology, correcting transmitted errors"
+      ],
+      "key_quote_zh": "愚以为读九经自考文始，考文自知音始。以至诸子百家之书，亦莫不然。",
+      "key_quote_en": "Reading the Nine Classics begins with philology, and philology begins with phonology. The same holds for all the philosophical schools.",
+      "representative_cases_zh": [
+        "《音学五书》历时三十余年五易其稿，将上古韵部归纳为十部",
+        "以古音考订《诗经》《周易》传世文本中的讹字与误读"
+      ],
+      "modern_applications_zh": [
+        "历史语言学与语料库方法",
+        "由可观察数据推断不可观察结构的归纳范式",
+        "文本数字人文的校勘技术"
+      ],
+      "modern_applications_en": [
+        "Historical linguistics and corpus methods",
+        "Inductive inference of unobservable structure from observable data",
+        "Textual collation techniques in digital humanities"
+      ],
+      "related_modes": [
+        "M319",
+        "M315"
+      ]
+    },
+    {
+      "id": "M317",
+      "name_zh": "行己有耻法",
+      "name_en": "Conducting Oneself with a Sense of Shame",
+      "mode_code": "M317",
+      "category": "价值论",
+      "domain_zh": "学术伦理/士人人格",
+      "domain_en": "Scholarly Ethics / Scholar's Character",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "为学与做人的统一标准：'博学于文，行己有耻'。博学于文是知识边界（自一身以至于天下国家，皆学之事），行己有耻是道德底线（自子臣弟友以至出入往来辞受取予之间，皆有耻之事）。批判'士大夫之无耻，是谓国耻'——知识分子失德是最高级别的文明危机。以耻感作为个体道德的自我约束机制，将儒家伦理从'仁'的高标降为'耻'的底线，人人可行、日日可验。",
+      "definition_en": "Unified standard of learning and conduct: 'broadly learned in culture, conducting oneself with shame.' Broad learning defines the scope of knowledge (from one's own person to the state, all is learning); shame defines the moral baseline (from filial and ministerial duties to accepting and giving, all is governed by shame). 'The shamelessness of scholar-officials is the shame of the state'—intellectual moral failure is the gravest civilizational crisis. Shame as an internal self-regulating mechanism lowers Confucian ethics from the lofty standard of 'benevolence' to the verifiable baseline of 'shame.'",
+      "source_chapter": "《亭林文集·与友人论学书》《日知录·廉耻》",
+      "key_concepts": [
+        "博学于文",
+        "行己有耻",
+        "士大夫之无耻是谓国耻",
+        "耻之于人大矣",
+        "四维不张国乃灭亡"
+      ],
+      "process_zh": [
+        "确立双轨标准：学问求博（文），行为守底（耻）",
+        "将'耻'具体化为辞受取予的可检验情境",
+        "以个体耻感为道德运行的最低保障机制",
+        "推及群体：士无耻则国耻，学人先自守底线再谈救世"
+      ],
+      "process_en": [
+        "Set a dual standard: breadth in learning, baseline in conduct",
+        "Concretize 'shame' into testable situations of accepting, giving, taking",
+        "Use individual shame as the minimal operating guarantee of morality",
+        "Extend to the collective: scholars' shamelessness is the state's shame"
+      ],
+      "key_quote_zh": "士而不先言耻，则为无本之人；非好古而多闻，则为空虚之学。以无本之人而讲空虚之学，吾见其日从事于去圣弥远也。",
+      "key_quote_en": "A scholar who does not first speak of shame is a person without root; learning that is not steeped in the ancients and rich in knowledge is empty learning. A rootless person expounding empty learning drifts daily further from the sages.",
+      "representative_cases_zh": [
+        "与友人论学书批判晚明空谈心性之'清谈误国'，重申孔门'博学于文行己有耻'二纲",
+        "《日知录·廉耻》论'礼义廉耻谓之四维，四维不张国乃灭亡'"
+      ],
+      "modern_applications_zh": [
+        "学术诚信与科研伦理底线",
+        "专业人士的职业操守标准",
+        "知识分子的社会责任论证"
+      ],
+      "modern_applications_en": [
+        "Academic integrity and research ethics baselines",
+        "Professional codes of conduct",
+        "Argument for intellectuals' social responsibility"
+      ],
+      "related_modes": [
+        "M311",
+        "M314"
+      ]
+    },
+    {
+      "id": "M318",
+      "name_zh": "郡国利病调研法",
+      "name_en": "Field Survey of Regional Strengths and Ills",
+      "mode_code": "M318",
+      "category": "实证方法",
+      "domain_zh": "地缘政治/社会经济调研",
+      "domain_en": "Geopolitics / Socioeconomic Field Survey",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "以'行万里路'补'读万卷书'：把地理、经济、军事数据当作治国知识的原始层。明亡后北游二十余年，'考诸山川风俗疾苦利病'，两骡两马驮书随行，遇关隘要冲则向老兵退卒求证。著《天下郡国利病书》百二十卷，逐府州考订赋役、水利、兵防、物产。方法论本质：用一手实地观察校验文献记载，把方志、奏疏、民间口述三类证据交叉印证，建立可复核的治国数据库。",
+      "definition_en": "Complementing 'reading ten thousand books' with 'walking ten thousand roads': geography, economy, and military data form the raw layer of governance knowledge. After the Ming fell, Gu traveled north for over twenty years, books carried by pack mule, verifying passes and strategic points with veteran soldiers, producing the 120-volume survey of every province's taxes, waterworks, defenses, and products. Methodological essence: validate textual records with first-hand field observation, cross-confirm local gazetteers, memorials, and oral testimony into an auditable governance database.",
+      "source_chapter": "《天下郡国利病书·序》《亭林佚文》",
+      "key_concepts": [
+        "天下郡国利病",
+        "考诸山川",
+        "行万里路",
+        "问诸退卒",
+        "两骡两马载书自随"
+      ],
+      "process_zh": [
+        "确定调研对象的空间边界（逐郡国、逐府州）",
+        "文献层：先集方志、奏疏、旧闻为底本",
+        "实地层：亲历山川关隘，向老兵退卒求证",
+        "交叉验证后按'利'与'病'分类编目，形成可查的治策档案"
+      ],
+      "process_en": [
+        "Define the spatial scope of the survey (province by province, prefecture by prefecture)",
+        "Textual layer: assemble gazetteers, memorials, and records as the base",
+        "Field layer: personally traverse mountains, rivers, and passes, verify with veterans",
+        "Cross-validate and catalog under 'strengths' and 'ills' into an auditable policy archive"
+      ],
+      "key_quote_zh": "余出游四方，考其山川风俗、疾苦利病，如指诸掌。……载书自随，遍历塞上亭障。",
+      "key_quote_en": "In my travels across the realm I examined its mountains, rivers, customs, sufferings, strengths, and ills as clearly as the palm of my hand, carrying my books with me through every frontier fortification.",
+      "representative_cases_zh": [
+        "二十余年北游考察山东、河北、山西、陕西边塞，重点考察水利与边防",
+        "《天下郡国利病书》以方志、奏疏、实录与实地见闻交叉编订，按郡国分卷"
+      ],
+      "modern_applications_zh": [
+        "区域经济与社会调研方法",
+        "一手观察与文献的交叉验证",
+        "政策数据库的实地校准"
+      ],
+      "modern_applications_en": [
+        "Regional economic and social survey methodology",
+        "Cross-validation of field observation and textual records",
+        "Field calibration of policy databases"
+      ],
+      "related_modes": [
+        "M314",
+        "M315"
+      ]
+    },
+    {
+      "id": "M319",
+      "name_zh": "古音十部归纳法",
+      "name_en": "Ten-Category Ancient Rhyme Induction",
+      "mode_code": "M319",
+      "category": "方法论",
+      "domain_zh": "归纳体系构建",
+      "domain_en": "Inductive System Building",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "系统归纳的完整范本：不预设古人应如何用韵，而是穷尽搜集《诗经》《易经》《楚辞》等全部韵例，以系联法（同用者合、异用者分）将上千韵字聚为十个古韵部。每部立而复检全部例外——叶音说的千年积误被一个基于穷尽例证的归纳体系一举推翻。方法论核心：类目从数据中涌现，而非从权威注疏中继承；例外数据不是噪声而是边界信息。后学段玉裁（十七部）、王念孙（二十一部）皆在此框架内继续增修，证明该归纳框架的可扩展性。",
+      "definition_en": "A complete template of systematic induction: presupposing nothing about how the ancients rhymed, exhaustively collecting all rhyme examples from the Shijing, Yijing, and Chuci, and linking thousands of rhyme characters into ten ancient rhyme categories by co-occurrence, rechecking each category against all exceptions—overturning a millennium of ad-hoc 'harmonic reading' errors with an evidence-exhausted inductive system. Categories emerge from data, not inherited authority; exceptions are boundary information, not noise. Duan Yucai (17 categories) and Wang Niansun (21) extended the same framework, proving its scalability.",
+      "source_chapter": "《音学五书·古音表》《诗本音》",
+      "key_concepts": [
+        "古音十部",
+        "系联法",
+        "穷尽例证",
+        "陈第《毛诗古音考》",
+        "离析韵部"
+      ],
+      "process_zh": [
+        "悬置既有权威结论（叶音说），回到原始韵例",
+        "穷尽式收集全部韵字并按同用关系系联",
+        "归纳聚类成部，逐部检验例外与边界",
+        "公开韵字总表供后人复核与修订（开放数据）"
+      ],
+      "process_en": [
+        "Suspend inherited authority (harmonic reading theory), return to raw rhyme examples",
+        "Exhaustively collect rhyme characters and link them by co-occurrence",
+        "Induce and cluster into categories, testing exceptions and boundaries category by category",
+        "Publish the complete rhyme tables for later verification and revision (open data)"
+      ],
+      "key_quote_zh": "考古人之音，不当以后世之音律之。……《诗》三百篇其韵文者什九，读之而知其有变也。",
+      "key_quote_en": "Ancient pronunciation must not be judged by later pronunciation. Of the three hundred Shijing poems, nine parts rhyme—reading them reveals systematic variation.",
+      "representative_cases_zh": [
+        "以'服''见'等字在《诗经》中的系联位置归部，订正叶音说的随意改读",
+        "《古音表》公开十部韵字总表，段玉裁、王念孙据此增修为十七部、二十一部"
+      ],
+      "modern_applications_zh": [
+        "数据驱动的分类体系构建",
+        "聚类分析与例外处理规范",
+        "开放数据表供学界复核"
+      ],
+      "modern_applications_en": [
+        "Data-driven construction of classification systems",
+        "Cluster analysis with exception-handling norms",
+        "Open data tables for scholarly verification"
+      ],
+      "related_modes": [
+        "M316",
+        "M315"
+      ]
+    },
+    {
+      "id": "M320",
+      "name_zh": "经学即理学法",
+      "name_en": "Classics as the Root of Principle-Learning",
+      "mode_code": "M320",
+      "category": "学术纲领",
+      "domain_zh": "知识论/学术范式转换",
+      "domain_en": "Epistemology / Paradigm Shift",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "对宋明理学'经学空疏化'的根本诊断：'经学即理学也，舍经学无理学'——一切关于'理'的讨论必须回到经书文本与古音古训的实证基础上，否则即为'空虚之学'。这不只是学术主张而是范式转换纲领：把知识合法性从'内在心性体认'转移到'外在文本证据'。配合'博学于文行己有耻'的人格标准，形成'本之古人以正其心，验之当世以利其用'的完整学术体系，直接奠定清代汉学两百年的主导地位。",
+      "definition_en": "A fundamental diagnosis of Song-Ming Neo-Confucianism's textual hollowing: 'classical studies IS principle-learning; apart from the classics there is no principle'—all discussion of 'principle' must return to the evidential basis of classic texts and ancient sounds and glosses, or it is empty learning. A paradigm-shift program: relocate knowledge legitimacy from inner moral intuition to external textual evidence. Combined with the 'broad learning, shame-based conduct' character standard, it forms a complete scholarly system anchoring two centuries of Han-Learning dominance in the Qing.",
+      "source_chapter": "《亭林文集·与施愚山书》",
+      "key_concepts": [
+        "经学即理学",
+        "舍经学无理学",
+        "古音古训",
+        "汉学",
+        "由声音文字以求义理"
+      ],
+      "process_zh": [
+        "诊断病灶：义理讨论脱离文本证据即为空疏",
+        "转移合法性来源：由心性体认转向文本实证",
+        "建立技术路径：由声音文字训诂以求义理",
+        "双轨保障：学问求博、行为守耻，防止考据流于琐碎"
+      ],
+      "process_en": [
+        "Diagnose the disease: discourse on principle detached from textual evidence is hollow",
+        "Shift the source of legitimacy from inner intuition to textual evidence",
+        "Build the technical path: seek moral principle through sounds, characters, and glosses",
+        "Dual safeguards: breadth of learning and baseline of shame prevent pedantry"
+      ],
+      "key_quote_zh": "愚独以为理学之名，自宋人始有之。古之所谓理学，经学也，非数十年不能通也。……今之所谓理学，禅学也。",
+      "key_quote_en": "The name 'principle-learning' began with the Song. What the ancients called principle-learning was classical studies, requiring decades to master. What is called principle-learning today is Chan Buddhism.",
+      "representative_cases_zh": [
+        "与施愚山书申明'经学即理学'，将清初学者从陆王心学的路线之争引回经典本身",
+        "《日知录》经义、政事、风俗、音韵分目并进，示范'由考据入义理'的写作范式"
+      ],
+      "modern_applications_zh": [
+        "学科范式的合法性基础转移",
+        "实证主义人文研究的纲领设计",
+        "反对空泛理论、回归一手证据的学术纠偏"
+      ],
+      "modern_applications_en": [
+        "Paradigm-level shifts in disciplinary legitimacy",
+        "Program design for empiricist humanities",
+        "Correcting hollow theorizing by returning to primary evidence"
+      ],
+      "related_modes": [
+        "M316",
+        "M317"
+      ]
+    }
+  ]
+}

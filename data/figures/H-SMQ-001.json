@@ -1,0 +1,439 @@
+{
+  "schema_version": "v6",
+  "code": "H-SMQ-001",
+  "figure_name_zh": "司马迁",
+  "figure_name_en": "Sima Qian",
+  "figure_code": "H-SMQ-001",
+  "figure_pinyin": "Sīmǎ Qiān",
+  "birth_year": -145,
+  "death_year": -86,
+  "era": "西汉",
+  "gender": "男",
+  "ethnicity": "汉族",
+  "nationality": "中国",
+  "civilization_sphere": "东亚/汉代",
+  "time_period_standardized": "公元前145年-前86年",
+  "primary_language": "古代文言文",
+  "intellectual_tradition": "史官传统/儒家经学",
+  "representative_works": [
+    "《史记》"
+  ],
+  "historical_significance": "中国第一部纪传体通史《史记》的作者，创立了'究天人之际，通古今之变，成一家之言'的史学方法论。以实录精神、互见法、论赞体等创新方法，将历史书写从单纯记事升华为哲学思辨与政治批判的载体。",
+  "unique_thinking_zh": "以'究天人之际，通古今之变，成一家之言'为核心方法论，将历史书写从记事提升到哲学思辨的高度。通过实录精神、互见法、论赞体等创新史学方法，在遭受宫刑的极端屈辱中完成了对中国三千年历史的系统总结与价值重构。",
+  "unique_thinking_en": "With 'exploring the relationship between Heaven and humanity, tracing changes of past and present, forming a school of thought' as the core methodology, elevating historical writing from mere recording to philosophical speculation. Through authentic recording spirit, cross-referencing method, and commentary form, completed systematic总结和value reconstruction of three millennia of Chinese history despite extreme humiliation.",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-SMQ-319",
+    "M-SMQ-320",
+    "M-SMQ-321",
+    "M-SMQ-322",
+    "M-SMQ-323",
+    "M-SMQ-324",
+    "M-SMQ-325",
+    "M-SMQ-326",
+    "M-SMQ-327",
+    "M-SMQ-328"
+  ],
+  "tags": [
+    "司马迁",
+    "西汉",
+    "史官",
+    "史记",
+    "究天人之际",
+    "通古今之变",
+    "成一家之言",
+    "实录精神",
+    "互见法",
+    "论赞体",
+    "纪传体",
+    "太史公曰",
+    "报任安书",
+    "述往事思来者",
+    "不虚美不隐恶",
+    "历史类比",
+    "文明史观",
+    "天命人事辩证",
+    "太史公自序",
+    "重于泰山轻于鸿毛"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-DZS-001",
+      "relation_type": "philosophical_debate",
+      "description_zh": "司马迁与董仲舒在太学论辩'天命与人事'：董主张天人感应、灾异谴告，司马迁则在肯定天道存在的同时更强调人事的自主性。这场学术论争奠定了汉代思想的基本格局。",
+      "description_en": "Sima Qian's debate with Dong Zhongshu at the Grand Academy on 'Heaven and Human Affairs': Dong advocated heaven-human resonance and disaster warnings, while Sima Qian affirmed cosmic order yet emphasized human agency more strongly. This academic dispute shaped the basic intellectual landscape of the Han dynasty."
+    },
+    {
+      "target_figure_code": "H-QIN-001",
+      "relation_type": "historical_critique_and_inheritance",
+      "description_zh": "司马迁在《史记》中以客观态度评价秦始皇和李斯，既肯定秦制统一之功，也批判其严刑峻法之弊。他的'通古今之变'方法论直接继承了李斯制度建构的历史视野，但超越了单向度的法家立场。",
+      "description_en": "Sima Qian objectively evaluated Qin Shi Huang and Li Si in Sima Qian's Records—affirming the unifying achievement of Qin institutions while criticizing harsh penal governance. His 'tracing historical changes' methodology inherited the institutional vision of Li Si while transcending one-sided Legalist positions."
+    }
+  ],
+  "protreptic_mapping": {
+    "本体论探讨": [
+      "M-SMQ-319",
+      "M-SMQ-328"
+    ],
+    "制度框架": [
+      "M-SMQ-324",
+      "M-SMQ-326"
+    ],
+    "史学方法论": [
+      "M-SMQ-321",
+      "M-SMQ-322",
+      "M-SMQ-323"
+    ],
+    "跨时代比较": [
+      "M-SMQ-325",
+      "M-SMQ-327"
+    ],
+    "价值论": [
+      "M-SMQ-320",
+      "M-SMQ-327"
+    ]
+  },
+  "modern_value_zh": [
+    "史学方法论的革命——从单纯记事到哲学思辨的范式转换",
+    "历史书写的多维框架——经济、文化、社会各阶层的全面纳入",
+    "独立史学精神——在政治压力下保持求真意志与客观立场"
+  ],
+  "modern_value_en": [
+    "Revolution in historiographical methodology—paradigm shift from mere chronicling to philosophical speculation",
+    "Multi-dimensional framework of historical writing—comprehensive inclusion of economics, culture, and all social strata",
+    "Independent historical spirit—maintaining the will for truth and objectivity under political pressure"
+  ],
+  "scenarios_zh": {
+    "C-SMQ-001": {
+      "code": "C-SMQ-001",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-319",
+      "title_zh": "究天人之际法",
+      "description_zh": "探究天道（自然法则、宇宙秩序）与人事（人类行为、社会变迁）之间的深层关系。司马迁既承认天道的存在，又强调人事的自主性，在灾异祥瑞的记录中保留批判空间。此法超越了单纯的天命论与纯粹的人本主义，建立了辩证的历史本体论框架。",
+      "key_concepts": [
+        "天人之际",
+        "天道",
+        "人事自主"
+      ],
+      "applications_zh": [
+        "复杂系统的天人关系建模",
+        "生态伦理与可持续发展理论"
+      ]
+    },
+    "C-SMQ-002": {
+      "code": "C-SMQ-002",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-320",
+      "title_zh": "述往思来法",
+      "description_zh": "'述往事，思来者'——以历史书写服务于未来治理者的实用史学观。《史记》不是单纯的历史记录，而是为后世政治提供借鉴的智慧宝库。此法将历史从被动记载提升为主动的政治预测与治理指导工具，体现了史学的现实关怀。",
+      "key_concepts": [
+        "述往事思来者",
+        "实用史学",
+        "政治借鉴"
+      ],
+      "applications_zh": [
+        "政策制定的历史经验借鉴",
+        "战略决策中的历史类比"
+      ]
+    },
+    "C-SMQ-003": {
+      "code": "C-SMQ-003",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-321",
+      "title_zh": "实录精神法",
+      "description_zh": "'其文直，其事核，不虚美，不隐恶'——以客观真实为首要原则的史学方法。司马迁在遭受宫刑的政治迫害后，仍以独立意志坚持如实记录历史真相，不美化也不隐恶。此法代表了史学家的最高道德标准与求真意志。",
+      "key_concepts": [
+        "不虚美不隐恶",
+        "实录精神",
+        "求真意志"
+      ],
+      "applications_zh": [
+        "新闻真实性原则",
+        "学术研究的客观性标准"
+      ]
+    },
+    "C-SMQ-004": {
+      "code": "C-SMQ-004",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-322",
+      "title_zh": "互见法",
+      "description_zh": "将同一人物的复杂事迹分散于不同篇章，通过篇目间的互文关系构建多维立体的历史叙事。如项羽本纪侧重其军事成就，而高祖本纪则记录其政治手腕；伯夷列传表彰气节，货殖列传肯定商业。通过分散叙事避免单一视角的偏颇。",
+      "key_concepts": [
+        "互见法",
+        "多维叙事",
+        "篇目互文"
+      ],
+      "applications_zh": [
+        "多视角信息整合分析",
+        "复杂系统的全息建模"
+      ]
+    },
+    "C-SMQ-005": {
+      "code": "C-SMQ-005",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-323",
+      "title_zh": "论赞体法",
+      "description_zh": "'太史公曰'——在每篇末尾以独立评论总结，将叙事与价值判断结合。司马迁通过'太史公曰'不仅总结历史事件，更表达政治哲学立场与价值评判。此方法开创了史学评论的传统，使历史书写兼具叙事功能与思辨深度。",
+      "key_concepts": [
+        "太史公曰",
+        "论赞体",
+        "价值判断"
+      ],
+      "applications_zh": [
+        "政策评估报告中的独立分析",
+        "历史研究的批判性评论"
+      ]
+    },
+    "C-SMQ-006": {
+      "code": "C-SMQ-006",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-324",
+      "title_zh": "纪传体法",
+      "description_zh": "首创本纪、表、书、世家、列传五种体裁，以人物传记为主体构建历史叙事。从帝王将相到游侠刺客、商贾医卜，赋予各阶层人物以历史书写的地位。此法打破了单纯按时间顺序排列史事的传统，开创了以人物为中心的历史书写范式。",
+      "key_concepts": [
+        "纪传体",
+        "五种体裁",
+        "人物中心"
+      ],
+      "applications_zh": [
+        "人物传记写作方法论",
+        "多维度社会分析框架"
+      ]
+    },
+    "C-SMQ-007": {
+      "code": "C-SMQ-007",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-325",
+      "title_zh": "历史类比法",
+      "description_zh": "通过比较不同时代相似人物的命运与选择，提炼历史规律。如将陈胜列入世家以肯定其开创之功，将伯夷叔齐列入列传以表彰其气节。此法强调跨越时代的历史相似性，通过类比发现深层规律而非表面差异。",
+      "key_concepts": [
+        "历史类比",
+        "跨时代比较",
+        "规律提炼"
+      ],
+      "applications_zh": [
+        "跨时代政策比较研究",
+        "历史经验的可迁移性分析"
+      ]
+    },
+    "C-SMQ-008": {
+      "code": "C-SMQ-008",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-326",
+      "title_zh": "文明史观法",
+      "description_zh": "突破单纯政治军事叙事，将文化、经济、科技纳入历史书写。《平准书》论经济，《游侠列传》论社会底层，《货殖列传》论商业文明，构建了多维度的文明史框架。此法将历史从帝王将相的独角戏扩展为全社会的立体画卷，确立了经济、文化在历史进程中的独立地位。",
+      "key_concepts": [
+        "文明史观",
+        "经济纳入历史",
+        "社会全貌"
+      ],
+      "applications_zh": [
+        "综合国力评估框架",
+        "多维度的社会发展分析"
+      ]
+    },
+    "C-SMQ-009": {
+      "code": "C-SMQ-009",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-327",
+      "title_zh": "苦难升华法",
+      "description_zh": "'人固有一死，或重于泰山，或轻于鸿毛'——在遭受宫刑的巨大屈辱后，将个体苦难转化为历史责任与文明贡献。司马迁以超越个人荣辱的历史使命感完成《史记》，体现了将个体痛苦升华为文化创造的能力。此法是对逆境中精神超越的深刻阐述。",
+      "key_concepts": [
+        "苦难升华",
+        "重于泰山轻于鸿毛",
+        "历史使命"
+      ],
+      "applications_zh": [
+        "逆境管理的心理转化理论",
+        "创伤后成长与创造力激发"
+      ]
+    },
+    "C-SMQ-010": {
+      "code": "C-SMQ-010",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-328",
+      "title_zh": "天命人事辩证法",
+      "description_zh": "既承认天道的存在（如灾异祥瑞），又强调人事的主观能动性。在《陈涉世家》中肯定底层革命，在《项羽本纪》中批判霸王刚愎，体现了超越单纯天命论的复杂历史观。此法在承认宇宙秩序约束的同时，为人类自由意志保留了充分空间。",
+      "key_concepts": [
+        "天命人事辩证",
+        "自由意志",
+        "复杂历史观"
+      ],
+      "applications_zh": [
+        "风险决策中的主观能动性发挥",
+        "复杂系统的不确定性管理"
+      ]
+    }
+  },
+  "scenarios_en": {
+    "C-SMQ-001E": {
+      "code": "C-SMQ-001E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-319",
+      "title_en": "Heaven-Human Inquiry Method",
+      "description_en": "Exploring the deep relationship between cosmic order (heaven) and human affairs. Sima Qian acknowledged both the existence of heavenly patterns and human agency, creating a dialectical historical ontology that transcends pure fatalism and pure humanism.",
+      "key_concepts": [
+        "天人之际",
+        "天道",
+        "人事自主"
+      ],
+      "applications_en": [
+        "Heaven-human relationship modeling in complex systems",
+        "Ecological ethics and sustainable development theory"
+      ]
+    },
+    "C-SMQ-002E": {
+      "code": "C-SMQ-002E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-320",
+      "title_en": "Past-to-Future Historical Method",
+      "description_en": "'Record the past to enlighten the future'—a practical historiography that serves as a wisdom repository for future statesmen. Sima Qian's work elevates history from passive recording to active political forecasting and governance guidance, demonstrating the practical relevance of historiography.",
+      "key_concepts": [
+        "述往事思来者",
+        "实用史学",
+        "政治借鉴"
+      ],
+      "applications_en": [
+        "Historical lessons in policy-making",
+        "Historical analogy in strategic decision-making"
+      ]
+    },
+    "C-SMQ-003E": {
+      "code": "C-SMQ-003E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-321",
+      "title_en": "Authentic Recording Method",
+      "description_en": "'Straightforward words, verified facts; no false praise, no concealed evil'—the historiographical method prioritizing objective truth. After suffering castration as political persecution, Sima Qian maintained independent will to record historical truth faithfully. This method represents the highest moral standard and求真 will of a historian.",
+      "key_concepts": [
+        "不虚美不隐恶",
+        "实录精神",
+        "求真意志"
+      ],
+      "applications_en": [
+        "Journalistic truthfulness principles",
+        "Objectivity standards in academic research"
+      ]
+    },
+    "C-SMQ-004E": {
+      "code": "C-SMQ-004E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-322",
+      "title_en": "Cross-Referencing Method",
+      "description_en": "Distributing complex events of one figure across multiple chapters, creating multi-dimensional narrative through inter-chapter textual relationships. Xiang Yu's military achievements in his Basic Annals contrasted with Liu Bang's political maneuvering in his. This distributed narrative avoids the bias of a single perspective.",
+      "key_concepts": [
+        "互见法",
+        "多维叙事",
+        "篇目互文"
+      ],
+      "applications_en": [
+        "Multi-perspective information integration",
+        "Holographic modeling of complex systems"
+      ]
+    },
+    "C-SMQ-005E": {
+      "code": "C-SMQ-005E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-323",
+      "title_en": "Commentary Method",
+      "description_en": "'Grand Historian says'—independent commentary at the end of each chapter integrating narrative with value judgment. Through 'Grand Historian says', Sima Qian expressed political philosophy and value assessments beyond mere event summary. This method established the tradition of historiographical commentary.",
+      "key_concepts": [
+        "太史公曰",
+        "论赞体",
+        "价值判断"
+      ],
+      "applications_en": [
+        "Independent analysis in policy evaluation reports",
+        "Critical commentary in historical research"
+      ]
+    },
+    "C-SMQ-006E": {
+      "code": "C-SMQ-006E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-324",
+      "title_en": "Biographical Method",
+      "description_en": "Pioneering five genres: basic annals, tables, treatises, hereditary houses, and biographies. By making character biographies the core of historical narrative—from emperors to warriors, assassins, merchants and scholars—Sima Qian gave all social strata a place in history writing. This broke the tradition of purely chronological arrangement.",
+      "key_concepts": [
+        "纪传体",
+        "五种体裁",
+        "人物中心"
+      ],
+      "applications_en": [
+        "Biography writing methodology",
+        "Multi-dimensional social analysis framework"
+      ]
+    },
+    "C-SMQ-007E": {
+      "code": "C-SMQ-007E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-325",
+      "title_en": "Historical Analogy Method",
+      "description_en": "Comparing the fates and choices of similar figures across different eras to extract historical patterns. Placing Chen Sheng in hereditary houses to affirm his founding contribution, or Bo Yi with Shu Qi to honor integrity. This method emphasizes trans-era historical similarities, discovering deep patterns rather than surface differences.",
+      "key_concepts": [
+        "历史类比",
+        "跨时代比较",
+        "规律提炼"
+      ],
+      "applications_en": [
+        "Cross-era policy comparison studies",
+        "Transferability analysis of historical lessons"
+      ]
+    },
+    "C-SMQ-008E": {
+      "code": "C-SMQ-008E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-326",
+      "title_en": "Civilization History Perspective Method",
+      "description_en": "Transcending purely political and military narrative by incorporating culture, economy, and technology into historical writing. Treatise on Standardization (economy), Biographies of Wandering Knights (grassroots society), and Money-makers (commercial civilization) together form a multi-dimensional framework. This expanded history from emperors' solo to society's立体 painting.",
+      "key_concepts": [
+        "文明史观",
+        "经济纳入历史",
+        "社会全貌"
+      ],
+      "applications_en": [
+        "Comprehensive national power assessment framework",
+        "Multi-dimensional social development analysis"
+      ]
+    },
+    "C-SMQ-009E": {
+      "code": "C-SMQ-009E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-327",
+      "title_en": "Suffering Transcendence Method",
+      "description_en": "'Death is inevitable for all; some are heavier than Mount Tai, others lighter than a goose feather'—after suffering castration's humiliation, transforming individual suffering into historical responsibility and civilizational contribution. Sima Qian completed his monumental work through a historical mission transcending personal glory and shame, demonstrating the capacity to elevate individual suffering into cultural creation.",
+      "key_concepts": [
+        "苦难升华",
+        "重于泰山轻于鸿毛",
+        "历史使命"
+      ],
+      "applications_en": [
+        "Psychological transformation theory in adversity management",
+        "Post-traumatic growth and creativity stimulation"
+      ]
+    },
+    "C-SMQ-010E": {
+      "code": "C-SMQ-010E",
+      "figure_id": "H-SMQ-001",
+      "mode_id": "M-SMQ-328",
+      "title_en": "Heaven-Human Dialectic Method",
+      "description_en": "Acknowledging both cosmic order (disasters, omens) and human agency. Affirming grassroots revolution in Chen She's Basic Account while criticizing Xiang Yu's arrogance—reflecting a complex historical view transcending simple fatalism. This method preserves full space for human free will while acknowledging cosmic constraints.",
+      "key_concepts": [
+        "天命人事辩证",
+        "自由意志",
+        "复杂历史观"
+      ],
+      "applications_en": [
+        "Exercising agency in risk decision-making",
+        "Uncertainty management in complex systems"
+      ]
+    }
+  },
+  "meta": {
+    "source": "《史记》《报任安书》",
+    "methodology": "历史文献分析法、理论解析法、案例验证法",
+    "validation": "与汉代史学研究文献交叉验证",
+    "generation_date": "2026-09-07",
+    "mode_count": 10,
+    "figure_code_ref": "H-SMQ-001",
+    "phase": "Phase 21"
+  }
+}

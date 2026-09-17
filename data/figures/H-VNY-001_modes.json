@@ -1,0 +1,511 @@
+{
+  "schema_version": "v6",
+  "figure_id": "H-VNY-001",
+  "figure_name": "冯·诺依曼",
+  "figure_code": "H-VNY-001",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-VNY-001",
+      "name_zh": "公理化避坑法",
+      "name_en": "Axiomatize-the-Paradox Method",
+      "mode_code": "M-VNY-001",
+      "category": "基础方法",
+      "domain_zh": "数学基础/集合论公理化",
+      "domain_en": "Foundations of Mathematics / Set Theory Axiomatization",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "当一个领域的根基出现自相矛盾（悖论）时，不要试图'修补'矛盾定义，而是把矛盾改写为公理系统的边界条件：重新划定哪些对象合法、哪些操作合法，使矛盾对象在新的公理体系里根本无法被构造出来。冯·诺依曼处理罗素悖论的方式是典范：他不去回答'所有不包含自身的集合的集合是不是集合'，而是建立类（Class）与集合（Set）两级结构——'太大的总体'只能是类而不能再参与构造，悖论从'待解之谜'变成'不合法构造'。要义有三：其一，悖论不是错误而是信号，它标记着旧概念边界的失守位置；其二，公理化的目标不是'消火'而是'重建城市'——新体系必须保留旧体系全部有价值的内容；其三，公理的选择要有建设性后果：冯·诺依曼的分层直接支持了超穷序数的严格定义，使良序原理成为定理而非假设。方法论签名：凡遇根基矛盾，先问'什么样的对象世界使这个矛盾不可能被表述'，然后以公理建造那个世界。",
+      "definition_en": "When a field's foundations self-contradict, don't patch the definition—rewrite the paradox as a boundary condition of a new axiom system. Von Neumann's treatment of Russell's paradox: split Class from Set, so 'too large' totalities can no longer enter construction. Paradoxes become illegal constructions, not mysteries.",
+      "source_chapter": "《集合论的公理化》（1925/1928，Eine Axiomatisierung der Mengenlehre）；NBG集合论前身",
+      "key_concepts": ["公理化", "类与集合分层", "罗素悖论", "矛盾即边界", "NBG集合论"],
+      "process_zh": [
+        "定位矛盾：精确陈述悖论的推导链，找出它依赖的哪一步是'人人默认'的",
+        "分层划界：把引发矛盾的统一概念拆成两个层级（如类/集合），限制高层级对象的参与资格",
+        "重建体系：写出最小公理组，证明旧领域的合法内容全部保留、矛盾对象不可构造",
+        "收割后果：检查新体系解锁了哪些原本无法严格陈述的定理，把公理选择变成 productive 的"
+      ],
+      "process_en": [
+        "Locate the contradiction: write out the paradox's derivation and find the 'obvious' step it depends on",
+        "Stratify: split the overloaded concept into two levels (Class/Set) restricting what high-level objects may do",
+        "Rebuild: state a minimal axiom set, prove all legitimate old results survive and paradox objects are unconstructible",
+        "Harvest: check what theorems the new system unlocks, making the axiom choice productive"
+      ],
+      "key_quote_zh": "集合论的公理化不是为了避开矛盾，而是为了建造一个矛盾无法被说出来的世界。",
+      "key_quote_en": "Axiomatizing set theory is not about evading contradictions, but about building a world where contradictions cannot even be stated.",
+      "representative_cases_zh": [
+        "以类-集合分层消解罗素悖论，奠定NBG集合论",
+        "以序数公理化重建超穷归纳，使良序原理可证",
+        "在量子测量问题上以'过程1/过程2'分解，把测量从悖论变成可分析结构"
+      ],
+      "representative_cases_en": [
+        "Dissolved Russell's paradox via Class-Set stratification, founding NBG set theory",
+        "Rebuilt transfinite induction on ordinal axioms, making well-ordering provable",
+        "Decomposed quantum measurement into Process 1/Process 2, turning paradox into analyzable structure"
+      ],
+      "modern_applications_zh": [
+        "软件系统的类型安全设计：把'非法状态不可表示'作为设计公理（如Rust的所有权类型）",
+        "合规体系重建：与其修补漏洞条款，不如重写权限分层使违规行为无法发起",
+        "数据库一致性模型：以公理化的隔离级别（ACID/隔离层）划定并发矛盾不可表述的边界"
+      ],
+      "modern_applications_en": [
+        "Type-safe system design: 'make illegal states unrepresentable' as a design axiom (e.g. Rust ownership)",
+        "Compliance rebuild: rewrite permission tiers so violations cannot be initiated, rather than patching loopholes",
+        "Database consistency: axiomatized isolation levels marking boundaries where concurrency contradictions cannot arise"
+      ],
+      "related_modes": ["M-VNY-004", "M-VNY-002", "M-VNY-010"]
+    },
+    {
+      "id": "M-VNY-002",
+      "name_zh": "结构等价迁移法",
+      "name_en": "Structural Equivalence Transfer Method",
+      "mode_code": "M-VNY-002",
+      "category": "表示方法",
+      "domain_zh": "量子力学数学基础/算子理论",
+      "domain_en": "Mathematical Foundations of QM / Operator Theory",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "当同一对象存在多种彼此不通约的表示（海森堡的矩阵与薛定谔的波动方程互不相容）时，先证明诸表示在结构上等价——存在保持全部运算关系的同构映射——然后按照'哪种表示让当前问题变简单'自由切换。冯·诺依曼在《量子力学的数学基础》中的做法：把两种力学都安放在希尔伯特空间里，证明它们是同一抽象结构（自伴算子理论）的两个坐标表象，于是'谁对谁错'的问题被'用哪个坐标系方便'的问题取代。要义有三：其一，等价性证明必须先于表示选择，否则选择只是趣味；其二，迁移的对象是运算关系而非记号——矩阵乘法对应算子复合、对易关系对应对易子，逐条对应才能迁移；其三，等价不是终点，找到'自然坐标系'（对角化、谱分解）才是目标。方法论签名：凡遇两套语言之争，先建同构、再选坐标；争议问题转化为工程问题。",
+      "definition_en": "When one object has multiple irreconcilable representations (Heisenberg matrices vs Schrödinger waves), first prove structural equivalence—a homomorphism preserving all operational relations—then switch freely by which representation simplifies the problem. Von Neumann housed both in Hilbert space: disputes about correctness became choices of coordinates.",
+      "source_chapter": "《量子力学的数学基础》第1-3章（希尔伯特空间框架与等价性证明，1932）",
+      "key_concepts": ["希尔伯特空间", "同构", "谱分解", "表示无关性", "坐标选择"],
+      "process_zh": [
+        "清点运算关系：列出该对象在每种表示下都必须满足的核心操作（加法、乘法、对易、极限）",
+        "构造同构：建立保持全部运算关系的映射，证明诸表示互译无失真",
+        "选优坐标：以当前问题为标准（哪个表示使方程可解、哪个使物理意义显明），切换到自然坐标系",
+        "对角化收割：在最优坐标里完成谱分解/求解，再把结果翻译回各表示以供各界使用"
+      ],
+      "process_en": [
+        "Inventory operational relations every representation must satisfy (sum, product, commutation, limits)",
+        "Build the structure-preserving map proving lossless translation between representations",
+        "Choose the natural coordinates by the problem at hand—which form makes equations solvable or meaning visible",
+        "Harvest via diagonalization/solution, then translate results back to each representation"
+      ],
+      "key_quote_zh": "矩阵力学与波动力学不是两种理论，而是同一个算子结构的两种拼写。",
+      "key_quote_en": "Matrix mechanics and wave mechanics are not two theories, but two spellings of one operator structure.",
+      "representative_cases_zh": [
+        "证明海森堡矩阵力学与薛定谔波动力学在希尔伯特空间中严格等价",
+        "以谱定理统一可观测量理论，使'测量值=算子本征值'成为定义",
+        "密度矩阵的引入：让混合态与纯态在同一框架内可比较、可运算"
+      ],
+      "representative_cases_en": [
+        "Proved Heisenberg's matrix mechanics strictly equivalent to Schrödinger's wave mechanics in Hilbert space",
+        "Unified observable theory via the spectral theorem: measurement values = operator eigenvalues by definition",
+        "Introduced the density matrix, making mixed and pure states comparable and operable in one frame"
+      ],
+      "modern_applications_zh": [
+        "系统迁移：证明旧系统与新系统API语义等价后，按性能/成本选型而非按信仰站队",
+        "多范式编程：同一算法的函数式/面向对象表示互译，按问题选最清晰的坐标系",
+        "数据格式标准化：以中立中间表示（IR）证明各格式等价，编译器自由优化"
+      ],
+      "modern_applications_en": [
+        "System migration: prove old/new API semantic equivalence, then choose by performance/cost, not allegiance",
+        "Multi-paradigm programming: translate algorithms between functional/OOP forms, pick the clearest coordinates",
+        "Data standardization: prove format equivalence via a neutral IR, letting compilers optimize freely"
+      ],
+      "related_modes": ["M-VNY-001", "M-VNY-005", "M-VNY-010"]
+    },
+    {
+      "id": "M-VNY-003",
+      "name_zh": "极小极大决策法",
+      "name_en": "Minimax Decision Method",
+      "mode_code": "M-VNY-003",
+      "category": "决策方法",
+      "domain_zh": "博弈论/对抗性决策",
+      "domain_en": "Game Theory / Adversarial Decision-Making",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "当结果取决于一个理性对手的最优反击时，理性的定义不是'最大化期望收益'而是'最大化最坏情形下的保证'：为每个自己的策略计算对手最优应对下自己的收益，取其中最大者（maximize the minimum）。冯·诺依曼1928年证明极小极大定理：在两人零和博弈中，'我防对手最强'与'对手攻我最弱'给出的值严格相等——因此存在一个理性的稳定点，混合策略是其一般形式。要义有三：其一，理性不是预测对手会做什么，而是免疫对手可能做什么；其二，混合策略（随机化）不是犹豫而是必需——可预测的策略必被利用；其三，'存在但不必构造'：定理保证稳定值存在，具体求解是工程问题。方法论签名：凡对抗性决策，先算保证再谈机会；被对手读透的理性不是理性。",
+      "definition_en": "When outcomes depend on a rational opponent's best response, rationality means maximizing your guaranteed worst-case payoff, not expected value. Von Neumann's 1928 Minimax Theorem: in two-person zero-sum games, defense-against-best-attack equals attack-against-weakest-defense—a stable rational value exists, generally in mixed strategies.",
+      "source_chapter": "《博弈论与经济行为》（1944，与摩根斯坦合著）第2-4章；1928年极小极大定理原始论文",
+      "key_concepts": ["极小极大定理", "混合策略", "零和博弈", "保证值", "随机化"],
+      "process_zh": [
+        "列支付矩阵：穷举己方策略与对手策略的交叉结果，把对抗写成数字表",
+        "算最坏保证：对己方每个策略，取对手最优反击下的收益（行最小值）",
+        "选最大保证：在行最小值中取最大者，必要时以混合策略（概率分布）扩大保证值",
+        "检验稳定：验证双方同时最优化时结果互不后悔（均衡），把保证值作为谈判与部署的底线"
+      ],
+      "process_en": [
+        "List the payoff matrix: enumerate crossed outcomes of own vs opponent strategies",
+        "Compute worst-case guarantees: for each own strategy, take the best opponent response (row minimum)",
+        "Maximize the guarantee, mixing strategies probabilistically to raise the floor",
+        "Verify stability: at simultaneous best responses neither side regrets—use the value as negotiation/deployment floor"
+      ],
+      "key_quote_zh": "理性的对抗不是猜对手想什么，而是让对手猜什么都占不到便宜。",
+      "key_quote_en": "Rational conflict is not guessing what the opponent wants, but making every guess unprofitable.",
+      "representative_cases_zh": [
+        "以极小极大定理奠基两人零和博弈论，证明混合策略均衡存在",
+        "把扑克与'内爆法武器设计'中的随机化决策统一为同一数学结构",
+        "冷战威慑分析：以保证值逻辑设计二次打击能力的最低配置"
+      ],
+      "representative_cases_en": [
+        "Founded two-person zero-sum game theory by proving mixed-strategy equilibrium exists",
+        "Unified poker and implosion-weapon design decisions as one mathematical structure of randomization",
+        "Cold War deterrence: minimum second-strike configuration via guaranteed-value logic"
+      ],
+      "modern_applications_zh": [
+        "网络安全：按'对手最优攻击'设计防御冗余（红队思维/攻击树分析）",
+        "供应链韧性：按最坏中断情景设定库存与双源策略（minimax库存论）",
+        "竞标与谈判：先算对手压价极限、以保底报价入场，不做乐观假设"
+      ],
+      "modern_applications_en": [
+        "Cybersecurity: design defense redundancy against the attacker's optimal move (red-team/attack trees)",
+        "Supply-chain resilience: set inventory and dual-sourcing by worst-case disruption (minimax inventory)",
+        "Bidding/negotiation: enter with floor offers computed from the opponent's maximum squeeze, no optimism"
+      ],
+      "related_modes": ["M-VNY-004", "M-VNY-009", "M-VNY-001"]
+    },
+    {
+      "id": "M-VNY-004",
+      "name_zh": "期望效用公理化",
+      "name_en": "Expected Utility Axiomatization",
+      "mode_code": "M-VNY-004",
+      "category": "基础方法",
+      "domain_zh": "决策理论/理性行为公理化",
+      "domain_en": "Decision Theory / Axiomatizing Rational Choice",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "当'理性'一词被用来争论却无法操作时，把它公理化：写出几条几乎无人反对的偏好公理（完备性——任何两项可比；传递性——偏好不循环；独立性——掺入共同项不改变偏好；连续性——极限处偏好保持），然后证明：一个主体满足这些公理，当且仅当它在最大化某个期望效用函数。冯·诺依曼与摩根斯坦在《博弈论与经济行为》中给出的这条表示定理，把'人是理性的'从道德命题变成数学结构——理性不再需要辩护，只需检验公理。要义有三：其一，公理必须弱到人人接受，强到足以推出定量结论；其二，'当且仅当'是关键——违反公理即等于自相矛盾，可被套利；其三，公理化使偏离可诊断：现实中的偏好反转不再是'人的非理性'杂谈，而是指出违反了哪条公理。方法论签名：凡争论不休的品质词（理性、公平、效率），先公理化、再表示定理、后检验偏离。",
+      "definition_en": "Operationalize 'rationality' by axiomatizing it: completeness, transitivity, independence, continuity—then prove an agent satisfies these iff it maximizes some expected utility function. Von Neumann & Morgenstern's representation theorem turns rationality from a moral claim into a checkable mathematical structure.",
+      "source_chapter": "《博弈论与经济行为》第3章（效用理论的公理化，1944）",
+      "key_concepts": ["期望效用", "表示定理", "偏好公理", "独立性公理", "可诊断偏离"],
+      "process_zh": [
+        "收集直觉公理：找出关于该品质（理性/公平）人人难以拒绝的最小命题组",
+        "证明表示定理：建立'满足公理 ⟺ 最大化某可测函数'的双向证明，使品质获得量纲",
+        "设计检验：构造能区分公理遵守与违反的选择实验（如阿莱悖论式的对照题）",
+        "诊断偏离：把现实偏离定位到具体公理，决定是修公理（新理论）还是修行为（机制设计）"
+      ],
+      "process_en": [
+        "Collect intuition axioms: the minimal set of claims about the quality no one can refuse",
+        "Prove the representation theorem: satisfying the axioms ⟺ maximizing a measurable function",
+        "Design tests: choice experiments that discriminate axiom-followers from violators (Allais-style)",
+        "Diagnose deviations: locate violations to specific axioms—decide whether to fix the axioms (new theory) or the behavior (mechanism design)"
+      ],
+      "key_quote_zh": "我们不是声称人应当理性，而是证明：凡按这几条公理行事者，必在最大化期望效用。",
+      "key_quote_en": "We do not claim people ought to be rational; we prove that whoever acts by these axioms necessarily maximizes expected utility.",
+      "representative_cases_zh": [
+        "公理化效用理论，使经济学第一次拥有可比、可加、可期望的'效用'度量",
+        "以独立性公理的违反（阿莱悖论、埃尔斯伯格悖论）催生前景论与非期望效用理论",
+        "把纳什均衡的存在性建立在理性公理地基上，开辟数理经济学五十年谱系"
+      ],
+      "representative_cases_en": [
+        "Axiomatized utility, giving economics a comparable, additive, expectable measure of 'utility'",
+        "Violations of independence (Allais, Ellsberg paradoxes) spawned prospect theory and non-EU models",
+        "Grounded Nash equilibrium existence on the axioms, opening fifty years of mathematical economics"
+      ],
+      "modern_applications_zh": [
+        "产品指标设计：把'好体验'公理化为可测代理指标组，检验指标与直觉的偏离",
+        "AI对齐：把'符合意图'写成可检验的偏好公理（RLHF的奖励模型即是效用公理化的工程版）",
+        "组织决策审计：用偏好一致性检验（传递性/独立性）诊断决策流程的结构性偏差"
+      ],
+      "modern_applications_en": [
+        "Metric design: axiomatize 'good experience' into measurable proxies, audit divergence from intuition",
+        "AI alignment: write 'intent-fit' as testable preference axioms—RLHF reward models as engineering EU theory",
+        "Decision audits: diagnose structural bias in organizational choices via preference-consistency checks"
+      ],
+      "related_modes": ["M-VNY-001", "M-VNY-003", "M-VNY-004"]
+    },
+    {
+      "id": "M-VNY-005",
+      "name_zh": "存储程序架构法",
+      "name_en": "Stored-Program Architecture Method",
+      "mode_code": "M-VNY-005",
+      "category": "系统设计",
+      "domain_zh": "计算机体系结构/EDVAC报告",
+      "domain_en": "Computer Architecture / EDVAC Report",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "当一台机器只能做一件事而通用性遥不可及时，把'控制'降格为'数据'：让程序与数据存放在同一个可读写的存储器里，指令因此成为可被读取、修改、装载的对象——机器通过读入一份描述即可变成另一台机器。冯·诺依曼1945年EDVAC报告的五部件分解（运算器、控制器、存储器、输入、输出）加二进制加程序存储，使'专用机'与'通用机'的对立消失：通用性不是更复杂的硬件，而是把指令当数据。要义有三：其一，自指是能力的来源——能处理自身描述的系统获得无限的改装能力；其二，架构即门罗主义：五大部件的划分划定了此后七十年硬件-软件分工的边界；其三，代价要明示：程序与数据同存引入了自修改代码与安全边界问题——每个架构决策都要写清它出卖了什么。方法论签名：凡要通用性，先问'控制流能否降格为数据流'。",
+      "definition_en": "To make a machine general, demote control to data: store program and data in the same read-write memory so instructions become readable, modifiable objects—the machine becomes any machine by reading its description. Von Neumann's 1945 EDVAC five-unit decomposition made universality an architecture, not more hardware.",
+      "source_chapter": "《EDVAC报告书的第一份草案》（First Draft of a Report on the EDVAC，1945）",
+      "key_concepts": ["存储程序", "冯·诺依曼架构", "五大部件", "指令即数据", "自指能力"],
+      "process_zh": [
+        "分离功能与控制：把'机器做什么'（专用电路）与'机器如何被指示'（控制信号）拆开",
+        "降格控制为数据：让指令以可读写编码进入与数据同层的存储器，统一寻址",
+        "固定部件边界：定义最少的部件分工（运算/控制/存储/出入），使分工彼此独立演进",
+        "管理自指代价：为'程序可改程序'设立加载、保护与校验机制，防止通用性蜕化为混乱"
+      ],
+      "process_en": [
+        "Separate function from control: split what the machine does (dedicated circuits) from how it is instructed",
+        "Demote control to data: encode instructions in the same read-write memory as data, unified addressing",
+        "Fix component boundaries: define minimal units (ALU/control/memory/IO) that evolve independently",
+        "Manage self-reference: add loading, protection, verification so program-modifies-program stays ordered"
+      ],
+      "key_quote_zh": "通用性不是更复杂的硬件，而是允许机器把自己的指令当作数据处理。",
+      "key_quote_en": "Universality is not more complex hardware; it is letting the machine treat its own instructions as data.",
+      "representative_cases_zh": [
+        "EDVAC报告确立存储程序架构，此后一切计算机皆为该蓝图的实现或修正",
+        "自举（bootstrap）：用小loader读入更大的编译器，机器自我升级",
+        "操作系统与虚拟机：在架构之上再造'把程序当数据'的层级（进程、容器）"
+      ],
+      "representative_cases_en": [
+        "The EDVAC draft fixed the stored-program architecture; every computer since implements or amends it",
+        "Bootstrapping: a small loader reads in a larger compiler—the machine upgrades itself",
+        "OS and virtual machines: re-creating 'program-as-data' layers (processes, containers) atop the architecture"
+      ],
+      "modern_applications_zh": [
+        "平台设计：让配置与策略成为数据而非代码，系统靠读配置变形（声明式基础设施）",
+        "可编程性分层：固件/内核/用户空间各自'把上层当数据'，隔离演进",
+        "自指风险管理：凡系统能修改自身（动态加载、热更新），必须配套沙箱与校验"
+      ],
+      "modern_applications_en": [
+        "Platform design: configuration and policy as data, systems transform by reading configs (declarative infra)",
+        "Programmability tiers: firmware/kernel/userspace each treat the layer above as data, evolving in isolation",
+        "Self-reference risk: any self-modifying capability (dynamic loading, hot patching) needs sandboxing and verification"
+      ],
+      "related_modes": ["M-VNY-007", "M-VNY-002", "M-VNY-005"]
+    },
+    {
+      "id": "M-VNY-006",
+      "name_zh": "数值试验法",
+      "name_en": "Numerical Experiment Method",
+      "mode_code": "M-VNY-006",
+      "category": "计算方法",
+      "domain_zh": "数值分析/蒙特卡罗方法",
+      "domain_en": "Numerical Analysis / Monte Carlo Method",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "当问题不能解析求解（高维积分、非线性激波、核爆内爆）时，不要等待更好的数学，而是设计一个会算的实验：把连续问题离散化或随机化，控制误差上界，用可重复的数值过程逼近答案。冯·诺依曼在洛斯阿拉莫斯与乌拉姆发明的蒙特卡罗方法是其极端形式——用随机采样代替系统扫描，以概率收敛驯服维数灾难。要义有三：其一，承认'解析解不存在'是一个信息而非失败，它指示了实验设计的自由度；其二，数值方法的核心不是算得快而是'知道错多少'——误差界与稳定性分析先于计算；其三，随机性可以是算法资源：均匀采样在高维中胜过任何确定性格点。方法论签名：凡不可解，先设计可控误差的试验；让随机性与离散化替你探索。",
+      "definition_en": "When problems admit no analytic solution (high-dimensional integrals, shock waves), design an experiment that computes: discretize or randomize, bound the error, iterate. Von Neumann and Ulam's Monte Carlo method is the extreme case—random sampling taming the curse of dimensionality, with probability as an algorithmic resource.",
+      "source_chapter": "洛斯阿拉莫斯战时报告与1946-1950年蒙特卡罗通信（与乌拉姆、梅特罗波利斯）；《数值分析中的蒙特卡罗法》",
+      "key_concepts": ["蒙特卡罗", "离散化", "误差界", "维数灾难", "随机采样"],
+      "process_zh": [
+        "确认不可解性：说明解析路线为何失败（维数、非线性、奇点），确定自由度所在",
+        "离散/随机化：把连续问题替换为有限样本或随机采样方案，保持目标量的无偏性",
+        "定量误差：推导收敛率与置信区间（如O(1/√N)），确定所需算力与可接受精度",
+        "验证-迭代：用已知解的小算例校准方法，再外推到真问题；每一步报告误差"
+      ],
+      "process_en": [
+        "Confirm intractability: why analysis fails (dimension, nonlinearity, singularity); locate the degrees of freedom",
+        "Discretize/randomize: replace the continuous problem with finite samples preserving unbiasedness",
+        "Quantify error: derive convergence rate and confidence intervals, budget compute against tolerance",
+        "Validate-iterate: calibrate on small known cases, extrapolate, report error at every step"
+      ],
+      "key_quote_zh": "算不出来的问题，就设计一个会把它算出来的实验。",
+      "key_quote_en": "For a problem you cannot solve, design an experiment that will compute it.",
+      "representative_cases_zh": [
+        "以蒙特卡罗方法求解中子输运与内爆流体力学，突破解析不可能",
+        "数值天气预报：以离散化大气方程替代解析气象学，开创现代数值预报",
+        "激波捕获格式：为不可压/可压流动设计稳定性优先的差分格式"
+      ],
+      "representative_cases_en": [
+        "Monte Carlo neutron transport and implosion hydrodynamics where analysis was impossible",
+        "Numerical weather prediction: discretized atmosphere equations founding modern forecasting",
+        "Shock-capturing schemes: stability-first differencing for compressible flow"
+      ],
+      "modern_applications_zh": [
+        "A/B测试与模拟退火：以随机试验逼近不可解析的最优解",
+        "机器学习验证集：以采样估计泛化误差并报告置信区间",
+        "金融风险压力测试：以随机情景生成量化尾部风险"
+      ],
+      "modern_applications_en": [
+        "A/B testing and simulated annealing: stochastic trials approximating intractable optima",
+        "ML validation sets: sampled estimates of generalization error with confidence intervals",
+        "Financial stress tests: random scenario generation quantifying tail risk"
+      ],
+      "related_modes": ["M-VNY-008", "M-VNY-009", "M-VNY-006"]
+    },
+    {
+      "id": "M-VNY-007",
+      "name_zh": "自复制逻辑分解法",
+      "name_en": "Self-Reproduction Logical Decomposition",
+      "mode_code": "M-VNY-007",
+      "category": "结构分析",
+      "domain_zh": "自复制自动机/元胞自动机",
+      "domain_en": "Self-Reproducing Automata / Cellular Automata",
+      "level": "核心",
+      "priority": 7,
+      "description_zh_note": null,
+      "definition_zh": "当'机器能否复制机器'被视为哲学问题时，把它分解为逻辑部件：自复制机器 = 通用构造器（能按任意描述建造机器）+ 通用控制器（指挥构造过程）+ 描述带（被造物的蓝图）。复制不靠'生命力的额外奇迹'，而靠'足够通用的机器 + 一份自身的描述'——描述被复制并附加到子代，这正是可遗传信息的逻辑结构。冯·诺依曼1948年的元胞自动机证明比DNA双螺旋（1953）早五年给出了同一结构：指令带先于其化学载体被发现。要义有三：其一，通用性是复制的先决条件——只会造自己的机器无法演化；其二，描述与制造者分离，使突变（描述的改动）成为可能；其三，用最简规则空间（元胞网格）承载最复杂现象，把生物学问题变成数学定理。方法论签名：凡'看似需要额外原则'的现象，先分解为'通用机制+描述'两件套。",
+      "definition_en": "Decompose 'can machines reproduce' into logical parts: universal constructor + universal controller + description tape. Reproduction needs no vitalist extra—it requires a sufficiently general machine plus a copy of its own description, exactly the logical structure of heredity. Von Neumann's 1948 automaton prefigured DNA's mechanism by five years.",
+      "description_zh_note": null,
+      "source_chapter": "《自复制自动机理论》（1948希尔演讲与1950年代讲义，身后1966年由伯克斯编辑出版）",
+      "key_concepts": ["通用构造器", "描述带", "元胞自动机", "自复制", "基因的逻辑先形"],
+      "process_zh": [
+        "剥离神秘化：把'生命/复制'现象陈述为'什么结构能产生与自己同构的后代'这一工程问题",
+        "分解三件套：通用构造器、通用控制器、描述带，逐一定义其最小能力",
+        "证明充分性：在元胞网格等最简规则空间里构造出满足三件套的机器并验证其复制",
+        "对接现实：把分解映射到实际载体（DNA=描述带，核糖体=构造器），预测并检验现实结构"
+      ],
+      "process_en": [
+        "Demystify: restate 'life/reproduction' as the engineering question of what structure yields an isomorphic offspring",
+        "Decompose: define minimal universal constructor, controller, and description tape",
+        "Prove sufficiency: construct such a machine in the simplest rule space (cellular grid) and verify reproduction",
+        "Map to reality: align the decomposition with actual carriers (DNA=tape, ribosome=constructor) and test predictions"
+      ],
+      "key_quote_zh": "复制不需要奇迹，只需要一台足够通用的机器和一份它自己的描述。",
+      "key_quote_en": "Reproduction needs no miracle—only a sufficiently general machine and a copy of its own description.",
+      "representative_cases_zh": [
+        "在元胞自动机中构造出可自复制的29态机器，证明自复制的逻辑可能性",
+        "预演DNA复制机制：描述带先于双螺旋五年被发现为遗传的逻辑结构",
+        "以'描述与制造分离'解释突变与演化的可行机制"
+      ],
+      "representative_cases_en": [
+        "Constructed a 29-state self-reproducing cellular automaton, proving reproduction logically possible",
+        "Prefigured DNA replication: description tape recognized as heredity's logic five years before the double helix",
+        "Explained mutation and evolution via description-maker separation"
+      ],
+      "modern_applications_zh": [
+        "自举编译器与自我托管系统：系统包含自身描述即可再生自身",
+        "基础设施即代码：环境=描述带，机器=通用构造器，部署即复制",
+        "合成生物学与自复制机器人：以三件套为设计清单评估可行边界"
+      ],
+      "modern_applications_en": [
+        "Self-hosting compilers: a system carrying its own description can regenerate itself",
+        "Infrastructure-as-code: environment=tape, platform=constructor, deploy=reproduction",
+        "Synthetic biology and self-replicating robots: the triad as a feasibility checklist"
+      ],
+      "related_modes": ["M-VNY-005", "M-VNY-010", "M-VNY-007"]
+    },
+    {
+      "id": "M-VNY-008",
+      "name_zh": "遍历-均值法",
+      "name_en": "Ergodic Time-Space Averaging",
+      "mode_code": "M-VNY-008",
+      "category": "分析工具",
+      "domain_zh": "遍历理论/统计力学",
+      "domain_en": "Ergodic Theory / Statistical Mechanics",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "当要预测一个复杂系统的长期行为而其瞬时轨迹不可追踪时，证明（或在适用范围内假设）时间平均等于空间平均：系统沿一条轨迹长时间的平均值，等于它在所有可达状态上的平均。冯·诺依曼1932年的平均遍历定理是这一等式的第一个严格证明——它把统计力学的合法性从物理直觉升格为数学定理，也为一切'用系综代替单轨迹'的方法（蒙特卡罗、模拟、采样）提供了地基。要义有三：其一，'长期行为'不必追踪轨迹，可用状态空间上的统计代替；其二，定理有适用边界（测度保持、不变集平凡），使用前必须检查——非遍历系统的均值会锁死在子空间里；其三，遍历性打破的是'初始条件决定一切'：无论从哪出发，长期统计相同。方法论签名：凡不可追踪的过程，先问时间平均能否换成空间平均。",
+      "definition_en": "To predict a complex system's long-run behavior without tracking trajectories, prove (or assume within bounds) time average equals space average. Von Neumann's 1932 Mean Ergodic Theorem gave the first rigorous proof, upgrading statistical mechanics from physical intuition to theorem and grounding all ensemble methods.",
+      "source_chapter": "平均遍历定理（Proof of the Ergodic Theorem，1932，PNAS）",
+      "key_concepts": ["遍历定理", "时间平均=空间平均", "系综", "测度保持", "适用边界"],
+      "process_zh": [
+        "确认追踪不可行：说明为何单轨迹不可预测（混沌、高维、观测噪声）",
+        "检验适用条件：核对该系统的保测性与不变集结构，判定遍历假设是否合法",
+        "以系综代轨迹：把要预测的长期量改写为状态空间上的平均，用采样/模拟估计",
+        "报告边界：明示非遍历风险（吸收态、多重不变集）与结论的适用范围"
+      ],
+      "process_en": [
+        "Confirm tracking is infeasible: chaos, high dimension, observation noise",
+        "Check applicability: measure-preservation and invariant-set structure before assuming ergodicity",
+        "Substitute ensemble for trajectory: rewrite the long-run quantity as a state-space average, estimate by sampling",
+        "Report boundaries: absorption states, multiple invariant sets, and where conclusions hold"
+      ],
+      "key_quote_zh": "不需要看它走过每一步，只需要知道它能到达所有地方。",
+      "key_quote_en": "No need to watch every step—only to know it can reach everywhere.",
+      "representative_cases_zh": [
+        "证明平均遍历定理，为统计力学与各态历经假说奠定数学基础",
+        "以系综平均重构热力学量，绕开单分子轨迹不可测的困境",
+        "为蒙特卡罗方法提供收敛合法性：采样平均渐近等于真均值"
+      ],
+      "representative_cases_en": [
+        "Proved the Mean Ergodic Theorem, grounding statistical mechanics and the ergodic hypothesis",
+        "Reconstructed thermodynamic quantities as ensemble averages, bypassing untrackable trajectories",
+        "Legitimated Monte Carlo convergence: sampled averages approach true means"
+      ],
+      "modern_applications_zh": [
+        "A/B实验设计：以随机用户系综替代追踪单用户长期行为",
+        "风险建模：用历史分布（空间平均）估计长期持有（时间平均）的收益——并警惕非遍历财富动态",
+        "模拟仿真收敛判据：以多起点趋同检验系统遍历性"
+      ],
+      "modern_applications_en": [
+        "A/B design: random-user ensembles replace tracking individual long-run behavior",
+        "Risk modeling: historical (space) averages as proxies for holding-period (time) outcomes—beware non-ergodic wealth dynamics",
+        "Simulation convergence: multi-start agreement as an ergodicity check"
+      ],
+      "related_modes": ["M-VNY-006", "M-VNY-003", "M-VNY-009"]
+    },
+    {
+      "id": "M-VNY-009",
+      "name_zh": "冲突工程化法",
+      "name_en": "Conflict Engineering Method",
+      "mode_code": "M-VNY-009",
+      "category": "应用方法",
+      "domain_zh": "核战略/系统分析",
+      "domain_en": "Nuclear Strategy / Systems Analysis",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "当冲突被当作政治与道德的混沌领域时，把它工程化：将各方目标写成可量化的支付、将行动写成策略空间、将不确定性写成概率与保证值，然后用数学分析（博弈、优化、模拟）寻找稳定结构——威慑的本质不是勇气而是'使先动手者无利可图'的算术。冯·诺依曼晚年把博弈论、蒙特卡罗与系统分析连成一线：曼哈顿计划的内爆计算、兰德公司的战略推演、二次打击配置的最小保证，都出自'把冲突变成可计算对象'的操作。要义有三：其一，量化不等于赞许——工程化的目标是让战争更难开始而非更易；其二，稳定点（均衡）比胜利更重要：寻找双方都不愿偏离的配置；其三，模型要承认自身局限：敌我理性假设一旦破裂，结论必须降级。方法论签名：凡涉不可退让的对抗，先建模、找均衡、算保证，再谈立场。",
+      "definition_en": "Engineer conflict: write objectives as payoffs, actions as strategy spaces, uncertainty as probabilities and guarantees, then use game theory, optimization, and simulation to find stable structures—deterrence is arithmetic that makes first strikes unprofitable. Von Neumann fused game theory, Monte Carlo, and systems analysis into this operation.",
+      "source_chapter": "《博弈论与经济行为》应用篇；曼哈顿计划报告；兰德系统分析时期文献（1945-1955）",
+      "key_concepts": ["威慑", "系统分析", "均衡稳定", "保证值", "可计算冲突"],
+      "process_zh": [
+        "参数化对抗：把各方能力、目标、红线写成可量化的支付结构",
+        "建模互动：选择博弈形式（零和/非零和、序贯/同时）并匹配现实节奏",
+        "求解稳定配置：计算均衡与保证值，寻找双方都不愿单方偏离的部署",
+        "压力测试：以蒙特卡罗与情景分析检验理性假设破裂时的系统行为，为结论标注失效条件"
+      ],
+      "process_en": [
+        "Parameterize the confrontation: capabilities, objectives, red lines as quantified payoffs",
+        "Model interaction: choose the game form (zero-sum/sequential) matching reality's tempo",
+        "Solve for stability: compute equilibria and guarantees—deployments neither side wants to deviate from",
+        "Stress-test: Monte Carlo and scenario analysis of breakdown, annotating where conclusions fail"
+      ],
+      "key_quote_zh": "威慑不是勇气的问题，是让先动手者在算术上无利可图。",
+      "key_quote_en": "Deterrence is not courage; it is arithmetic that makes striking first unprofitable.",
+      "representative_cases_zh": [
+        "以博弈论与数值计算参与核战略设计，推动'相互保证毁灭'的理性化表述",
+        "内爆透镜的激波计算：以数值方法解决曼哈顿计划的关键工程难题",
+        "兰德系统分析：把军事采购与战略部署变成可优化的资源分配问题"
+      ],
+      "representative_cases_en": [
+        "Game theory and computation in nuclear strategy, rationalizing mutually assured destruction",
+        "Implosion lens shock computation: numerics solving the Manhattan Project's key engineering problem",
+        "RAND systems analysis: procurement and deployment as optimizable resource allocation"
+      ],
+      "modern_applications_zh": [
+        "商业竞争建模：以博弈树分析价格战、专利战中的稳定停火线",
+        "危机管理沙盘：参数化各方筹码与红线，寻找各方都不愿越过的均衡",
+        "安全工程：以攻击者最优行为模型配置防御预算（攻击面经济学）"
+      ],
+      "modern_applications_en": [
+        "Business competition: game trees finding stable cease-fires in price and patent wars",
+        "Crisis sandboxes: parameterize stakes and red lines, locate equilibria no one crosses",
+        "Security engineering: defense budgets against attacker-optimal models (attack-surface economics)"
+      ],
+      "related_modes": ["M-VNY-003", "M-VNY-006", "M-VNY-004"]
+    },
+    {
+      "id": "M-VNY-010",
+      "name_zh": "跨域工具复用法",
+      "name_en": "Cross-Domain Tool Reuse Method",
+      "mode_code": "M-VNY-010",
+      "category": "元方法",
+      "domain_zh": "方法论/通才策略",
+      "domain_en": "Methodology / Polymath Strategy",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "当一个领域的新问题看似需要从零学习时，先问：我已有的工具中，哪个的抽象形式恰好匹配这个问题？冯·诺依曼的六领域版图（集合论、算子、博弈、计算机、自动机、神经）建立在少数几件反复出鞘的工具上：公理化、谱分解、极值原理、均值定理、离散化。他不逐域学习，而是把工具磨得足够抽象，使它们能被'搬走'——信息熵的形式借自统计力学，博弈的均衡借自不动点定理，自复制的结构借自通用机的逻辑。要义有三：其一，抽象是搬运的前提：只有在最一般的形式下，工具才看不出出身；其二，匹配靠结构不靠词汇：新领域的'权重'与旧领域的'测度'可以是同一物；其三，搬运要有回馈：旧工具在新领域被改造（如博弈论进入经济学后发展出非合作分支），形成双向增强。方法论签名：遇新问题，先盘点武器库再入学徒房。",
+      "definition_en": "When a new field's problem seems to demand learning from scratch, ask which existing tool's abstract form matches it. Von Neumann's six fields rested on a few repeatedly-drawn instruments: axiomatization, spectral decomposition, extremal principles, averaging, discretization—abstracted enough to be portable, matched by structure not vocabulary, and enriched by each transfer.",
+      "source_chapter": "贯穿其全部著作的结构性方法；参见《计算机与人脑》（1958）与六领域著作之间的工具迁移",
+      "key_concepts": ["工具抽象化", "结构匹配", "跨域搬运", "双向增强", "通才策略"],
+      "process_zh": [
+        "盘点武器库：列出已掌握工具的最抽象形式（定理、算法、分解法），去掉领域词汇",
+        "结构匹配：把新问题翻译成已有工具的输入格式（变量对应、约束对应、目标对应）",
+        "搬运-试算：直接应用工具得到第一版结果，允许粗糙但快速",
+        "回馈改造：按新领域的摩擦修改工具（松弛假设、更换度量），记录两边的收获"
+      ],
+      "process_en": [
+        "Inventory your arsenal: list each tool's most abstract form, stripped of domain vocabulary",
+        "Structural match: translate the new problem into the tool's input format (variables, constraints, objectives)",
+        "Transfer and compute: apply directly for a rough first result—crude but fast",
+        "Feed back: modify the tool for the new field's friction, recording gains on both sides"
+      ],
+      "key_quote_zh": "我不是六个领域的专家，我是让五件工具去过六个领域。",
+      "key_quote_en": "I am not an expert in six fields; I sent five tools to visit six fields.",
+      "representative_cases_zh": [
+        "把统计力学的熵形式搬入信息论讨论（'熵'之名为冯·诺依曼向香农建议）",
+        "把算子理论的不动点与凸性工具搬入博弈论，证明均衡存在",
+        "把通用机逻辑搬入生物学问题，构造自复制自动机"
+      ],
+      "representative_cases_en": [
+        "Carried statistical-mechanical entropy into information theory (he suggested 'entropy' to Shannon)",
+        "Carried fixed-point and convexity tools from operator theory into game theory for equilibrium existence",
+        "Carried universal-machine logic into biology, constructing self-reproducing automata"
+      ],
+      "modern_applications_zh": [
+        "工程师转型：以'算法+系统+统计'三件套切入新行业（金融、生物、物流）而非重读学位",
+        "团队方法库建设：把方法论写成可迁移的抽象清单（如本模式库），按结构索引而非按行业索引",
+        "个人学习策略：优先加深工具的抽象层次，而非横向增加领域数量"
+      ],
+      "modern_applications_en": [
+        "Career pivots: enter new industries (finance, bio, logistics) with algorithm+systems+statistics, not a new degree",
+        "Team method libraries: index transferable abstractions by structure, not by industry (as this mode library does)",
+        "Learning strategy: deepen tools' abstraction level before adding new domains horizontally"
+      ],
+      "related_modes": ["M-VNY-002", "M-VNY-007", "M-VNY-005"]
+    }
+  ]
+}

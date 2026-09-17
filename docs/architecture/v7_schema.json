@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://protreptic.local/schemas/figure.v7.json",
+  "title": "Protreptic 人物/模式记录 Schema v7.0 (草案)",
+  "description": "统一 v6 国际化模型与实证涌现的中文/土著/深度方言，消除字段分裂与死字段。本文件为可执行规范的权威来源，校验器 v7_validate.py 直接读取本文件。",
+  "type": "object",
+  "required": [
+    "code", "entity_type", "name_zh", "name_en",
+    "description_zh", "description_en",
+    "reason_zh", "reason_en",
+    "steps_zh", "steps_en",
+    "expected_zh", "expected_en",
+    "case_zh", "case_en",
+    "modes", "core_mode"
+  ],
+  "properties": {
+    "code": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}-[A-Z]{2,5}-\\d{3}$",
+      "description": "唯一标识 {PREFIX}-{TOPIC}-{NNN}"
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": ["figure", "concept", "school", "movement", "institution", "mode"],
+      "description": "记录类型；决定条件必填字段。取代 v6 仅靠 code 前缀推断类型。"
+    },
+    "name_zh": { "type": "string", "minLength": 1 },
+    "name_en": { "type": "string", "minLength": 1 },
+    "description_zh": { "type": "string", "minLength": 80 },
+    "description_en": { "type": "string", "minLength": 80 },
+    "reason_zh": { "type": "string", "minLength": 20 },
+    "reason_en": { "type": "string", "minLength": 20 },
+    "steps_zh": { "type": "array", "items": { "type": "string" }, "minItems": 3 },
+    "steps_en": { "type": "array", "items": { "type": "string" }, "minItems": 3 },
+    "expected_zh": { "type": "string", "minLength": 10 },
+    "expected_en": { "type": "string", "minLength": 10 },
+    "case_zh": { "type": "string", "minLength": 10 },
+    "case_en": { "type": "string", "minLength": 10 },
+    "modes": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "minItems": 1,
+      "description": "思维模式 ID 数组；v7 要求至少 1 个新模式 (>=M262)，双语模式下放宽。"
+    },
+    "core_mode": {
+      "type": "string",
+      "description": "规范化核心模式串，例 'M9 独立自主法/摸石头过河/知行合一'"
+    },
+    "wiki_id": { "type": "string" },
+    "nationality": { "type": "string" },
+    "civilization_sphere": { "type": "string" },
+    "time_period_standardized": { "type": "string" },
+    "primary_language": { "type": "string" },
+    "intellectual_tradition": { "type": "string" },
+    "era": {
+      "type": "string",
+      "enum": ["古代", "中世纪", "近代", "现代", "未知"],
+      "description": "取代 v6 散落的字符串 era（'现代'/'1910-1999' 并存），强制枚举。"
+    },
+    "gender": {
+      "type": "string",
+      "enum": ["男", "女", "男+女", "其他", "未知"],
+      "description": "取代 v6 的 gender_role_innovation（布尔/描述）与涌现的 gender（男/男/Male）。v7 统一为枚举；性别角色创新描述移入 gender_role_note（可选）。"
+    },
+    "gender_role_note": { "type": "string" },
+    "historical_domains": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "历史语境领域轴（实证涌现，27.8% 记录已用）。"
+    },
+    "domains": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "现代跨领域应用轴（27.8% 记录已用）。"
+    },
+    "cross_cultural_impact": { "type": "string" },
+    "legacy_type": {
+      "type": "string",
+      "enum": ["cultural", "political", "scientific", "artistic", "military", "economic", "spiritual", "unknown"]
+    },
+    "legal_system": {
+      "type": "string",
+      "enum": ["普通法", "大陆法", "伊斯兰法", "习惯法", "混合", "未知"]
+    },
+    "education_tradition": {
+      "type": "string",
+      "enum": ["儒家", "伊斯兰", "西方", "土著", "革命", "自学", "东正教", "中亚", "高加索", "东南亚", "未知"]
+    },
+    "scientific_contribution": { "type": ["boolean", "string"] },
+    "artistic_legacy": { "type": ["boolean", "string"] },
+    "environmental_stewardship": { "type": ["boolean", "string"] },
+    "diaspora_network_type": {
+      "type": "string",
+      "enum": ["劳动", "知识", "资本", "文化", "政治", "无", "未知"]
+    },
+    "digital_adaptation": {
+      "type": "string",
+      "enum": ["先驱", "跟随", "滞后", "跳跃", "未知"]
+    },
+    "regional_integration": {
+      "type": "string",
+      "enum": ["EU", "ASEAN", "AU", "MERCOSUR", "CIS", "SCO", "GCC", "CARICOM", "ECOWAS", "SAARC", "无", "未知"]
+    },
+    "conflict_resolution_mechanism": {
+      "type": "string",
+      "enum": ["和解委员会", "真相委员会", "过渡正义", "联邦主义", "权力分享", "国际仲裁", "谈判调解", "抵抗革命", "无", "未知"]
+    },
+    "oral_tradition": { "type": "string" },
+    "ethnicity": { "type": "string" },
+    "spiritual_tradition": { "type": "string" },
+    "colonial_history": { "type": "string" },
+    "diaspora_influence": { "type": "string" },
+    "indigenous_knowledge_system": { "type": "string" },
+    "region_zh": { "type": "string" },
+    "region_en": { "type": "string" },
+    "topic_zh": { "type": "string" },
+    "topic_en": { "type": "string" },
+    "resource_governance": {
+      "type": ["boolean", "string"],
+      "description": "取代 v6 死字段 resource_curse_mitigation（仅 3/144 使用），扩展为资源治理通用字段。"
+    },
+    "mode_evidence": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "entity_type": { "const": "figure" } } },
+      "then": {
+        "required": ["nationality", "civilization_sphere", "time_period_standardized", "primary_language", "intellectual_tradition", "gender", "era"],
+        "description": "人物记录条件必填身份字段"
+      }
+    },
+    {
+      "if": { "properties": { "entity_type": { "const": "mode" } } },
+      "then": {
+        "required": ["core_thinking_mode", "new_mode", "contribution", "timeline", "philosophical_insights", "legacy_impact"],
+        "description": "思维模式记录（土著/深度方言）条件必填"
+      }
+    }
+  ],
+  "deprecated": {
+    "description": "v6 字段在 v7 中废弃，仅保留读取兼容，不再要求；迁移脚本应改写。",
+    "fields": ["polar_region", "island_nation", "nomadic_heritage", "climate_adaptation", "gender_role_innovation"]
+  }
+}

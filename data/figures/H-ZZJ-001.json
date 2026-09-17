@@ -1,0 +1,568 @@
+{
+ "schema_version": "v6",
+ "code": "H-ZZJ-001",
+ "figure_name_zh": "张仲景",
+ "figure_name_en": "Zhang Zhongjing",
+ "figure_code": "H-ZZJ-001",
+ "figure_pinyin": "Zhāng Zhòngjǐng",
+ "birth_year": 150,
+ "death_year": 219,
+ "era": "东汉末年",
+ "place_of_origin": "南阳郡涅阳县（今河南邓州）",
+ "gender": "男",
+ "ethnicity": "汉族/中华",
+ "nationality": "中国",
+ "civilization_sphere": "东亚/汉末医学",
+ "time_period_standardized": "约150年—约219年",
+ "primary_language": "古代文言文",
+ "intellectual_tradition": "中医临床医学/经方学派/辨证论治",
+ "representative_works": [
+  "《伤寒杂病论》（后析为《伤寒论》与《金匮要略》）"
+ ],
+ "historical_significance": "张仲景（约150—约219），名机，南阳涅阳人，东汉末医学家，后被尊为'医圣'。建安纪年疫病流行，宗族二百余口十年间死者三分之二，遂'勤求古训，博采众方'，撰《伤寒杂病论》十六卷。以六经辨证建模外感热病的传变结构，以方证对应实现'辨—治—验—再辨'的临床闭环，以条文体留下可复现的实验规程。华佗与仲景并称，但华佗医术随人亡而绝，仲景的方法随文本而传——《伤寒论》成为此后一千八百年中医临床的操作系统，六经辨证、方证对应、治未病等概念至今仍是中医的元语言。其'辨证论治'使医学从经验集合升级为可检验的系统：病是变量，证是函数，方是算法。",
+ "core_thoughts": [
+  "六经辨证系统法（系统建模/疾病演进动态分类）",
+  "八纲归因定位法（诊断归因/症状降维）",
+  "方证对应闭环法（验证闭环/疗法与诊断的绑定）",
+  "同病异治对称法（对称性思维/治疗逻辑对偶）",
+  "治未病优先法（预防医学/时机学）",
+  "剂量—配伍权衡法（参数调优/组分配比）",
+  "四诊合参信息融合法（多源信息融合/观察规范）",
+  "误治坏病逆推法（错误利用/逆向推理）",
+  "经方标准模块法（模块化复用/标准化）",
+  "文本留验传世法（知识工程/可复现性设计）"
+ ],
+ "famous_quote": "观其脉证，知犯何逆，随证治之。",
+ "influence": "《伤寒杂病论》经王叔和整理、宋代校正医书局刊定后成为中医临床的元典：六经辨证框架统治外感病学一千八百年，方证对应的经方体系至今仍是中医临床的主流范式；'治未病''辨证论治'进入了当代中医高等教育与《中医药法》的话语体系。日本的汉方医学直接以《伤寒论》经方为国家医保目录内的标准化处方，'方证对应'在东亚完成了从古籍到监管科学的迁移。现代医学教育的循证、临床路径与复盘文化，都能在坏病章与方后注中找到方法论原型。仲景证明了：医学要对抗的不仅是疾病，还有'各承家技，终始顺旧'的知识生态——把规程写成文本，是把个体经验转化为可累积科学的第一步。",
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-ZZJ-001",
+  "M-ZZJ-002",
+  "M-ZZJ-003",
+  "M-ZZJ-004",
+  "M-ZZJ-005",
+  "M-ZZJ-006",
+  "M-ZZJ-007",
+  "M-ZZJ-008",
+  "M-ZZJ-009",
+  "M-ZZJ-010"
+ ],
+ "tags": [
+  "张仲景",
+  "医圣",
+  "东汉末年",
+  "伤寒学派",
+  "六经辨证",
+  "辨证论治",
+  "方证对应",
+  "经方",
+  "治未病",
+  "坏病逆推",
+  "同病异治",
+  "八纲坐标",
+  "四诊合参",
+  "剂量权衡",
+  "经方模块",
+  "伤寒杂病论",
+  "系统医学",
+  "辨证闭环",
+  "南阳张氏",
+  "文本留验"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-ISN-001",
+   "relation_type": "medical_mirror",
+   "description_zh": "与伊本·西那的医学系统论镜像：伊本·西那以《医典》把医学组织为'原理-药物-疾病-疗法'的四分百科，以七则药物检验法逼近对照实验；张仲景以六经辨证把临床组织为状态机、以方证对应实现诊断-治疗闭环。二人相隔约八个世纪、互不知晓，却独立收敛于同一答案：医学要成为科学，先要成为系统。",
+   "description_en": "A mirror of medical systematization: Ibn Sina organized medicine as a fourfold encyclopedia in the Canon with seven drug-testing rules approximating controlled trials; Zhang Zhongjing organized the clinic as a state machine via the six meritians and closed the diagnosis-treatment loop through formula-pattern correspondence. Eight centuries apart and mutually unknowing, they converged independently on the same answer: for medicine to become a science it must first become a system."
+  },
+  {
+   "target_figure_code": "H-SMQ-001",
+   "relation_type": "text_preservation_foil",
+   "description_zh": "与司马迁的'书写者'对偶：司马迁以列传体为人物立传，仲景以条文体为疾病立传——两种文体的共同内核是'以文本对抗遗忘'。差异在立场：史家面向读者叙事，医家面向同行发布可复现规程；司马迁写别人，仲景写自己的实验记录。二者合观，构成中国'知识存续'的文史两翼。",
+   "description_en": "A duality of the text-preservation stance: Sima Qian wrote biographies of people in narrative form; Zhang Zhongjing wrote 'biographies' of diseases in clause form—the shared core is 'fighting oblivion with text.' The stances differ: the historian narrates for readers; the physician publishes reproducible protocols for peers; one wrote others, the other wrote his own experiment log. Together they form the literary and scientific wings of knowledge survival in China."
+  },
+  {
+   "target_figure_code": "H-ZY-001",
+   "relation_type": "strategy_vs_systems_foil",
+   "description_zh": "与张仪的棋盘对偶：张仪在多国棋盘上建模对手的联盟结构并逐国拆解，仲景在人体棋盘上建模疾病的传变结构并逐经拦截——同为'状态机思维'，一个用于外交博弈，一个用于临床演进。张仪的杠杆是信息不对称，仲景的杠杆是疾病规律的可预测性；一个操纵别人的判断，一个预测自然的进程。",
+   "description_en": "A board-game duality with Zhang Yi: on the multi-state chessboard Zhang Yi modeled opponents' coalition structures and dismantled them state by state; on the human-body board Zhang Zhongjing modeled the disease's transmission structure and intercepted it meridian by meridian—both state-machine thinking, one for diplomacy, one for clinical evolution. Zhang Yi's lever was information asymmetry; Zhang Zhongjing's was the predictability of disease law—one manipulates judgments, the other forecasts natural processes."
+  }
+ ],
+ "protreptic_mapping": {
+  "系统医学": [
+   "M-ZZJ-001",
+   "M-ZZJ-002"
+  ],
+  "诊断方法": [
+   "M-ZZJ-002",
+   "M-ZZJ-007"
+  ],
+  "临床闭环": [
+   "M-ZZJ-003",
+   "M-ZZJ-006"
+  ],
+  "思维与战略": [
+   "M-ZZJ-004",
+   "M-ZZJ-005"
+  ],
+  "工程与传承": [
+   "M-ZZJ-008",
+   "M-ZZJ-009",
+   "M-ZZJ-010"
+  ]
+ },
+ "scenarios_zh": {
+  "C-ZZJ-001": {
+   "code": "C-ZZJ-001",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-001",
+   "title_zh": "太阳伤寒的定义七字",
+   "description_zh": "仲景以'脉浮，头项强痛而恶寒'七字定义太阳病状态节点——不描述个案，而定义状态机的入口判据；此后千年外感病学都在这张地图上运行。",
+   "year": 200,
+   "tags_zh": [
+    "六经辨证",
+    "状态机",
+    "提纲"
+   ],
+   "tags_en": [
+    "六经辨证",
+    "状态机",
+    "提纲"
+   ],
+   "category": "系统医学",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-002": {
+   "code": "C-ZZJ-002",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-002",
+   "title_zh": "身大热反欲得衣",
+   "description_zh": "高热病人反而想穿衣服——望诊与问诊的矛盾读数没有丢弃，而是标记为'反'字线索，导出'热在皮肤，寒在骨髓'的真寒假热判别：矛盾即诊断要害。",
+   "year": 200,
+   "tags_zh": [
+    "八纲",
+    "真假寒热",
+    "矛盾读数"
+   ],
+   "tags_en": [
+    "八纲",
+    "真假寒热",
+    "矛盾读数"
+   ],
+   "category": "诊断方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-003": {
+   "code": "C-ZZJ-003",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-003",
+   "title_zh": "桂枝汤方后注的实验规程",
+   "description_zh": "'啜热稀粥一升余，温覆令一时许，一服汗出病差，停后服'——给药、保温、观察、停药全部协议化：史上最早的给药后观察与反馈停药规程。",
+   "year": 200,
+   "tags_zh": [
+    "方证对应",
+    "规程化",
+    "反馈停药"
+   ],
+   "tags_en": [
+    "方证对应",
+    "规程化",
+    "反馈停药"
+   ],
+   "category": "临床方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-004": {
+   "code": "C-ZZJ-004",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-004",
+   "title_zh": "腰以上肿发汗、腰以下肿利水",
+   "description_zh": "同一水肿病，按病位坐标分裂为两条相反治法——病名相同而治法相反对称成立，因为治疗的对象是证候坐标而非疾病标签。",
+   "year": 200,
+   "tags_zh": [
+    "同病异治",
+    "病位坐标",
+    "治疗对偶"
+   ],
+   "tags_en": [
+    "同病异治",
+    "病位坐标",
+    "治疗对偶"
+   ],
+   "category": "思维方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-005": {
+   "code": "C-ZZJ-005",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-005",
+   "title_zh": "见肝之病，知肝传脾，当先实脾",
+   "description_zh": "治疗目标不是当前病灶而是下一状态：预判肝病的下游传变并提前加固脾脏——以演进模型为前提的预防性干预，史上最早的'下游加固'条文。",
+   "year": 200,
+   "tags_zh": [
+    "治未病",
+    "传变预判",
+    "先安未受邪之地"
+   ],
+   "tags_en": [
+    "治未病",
+    "传变预判",
+    "先安未受邪之地"
+   ],
+   "category": "战略方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-006": {
+   "code": "C-ZZJ-006",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-006",
+   "title_zh": "桂枝加一倍，方名换一场",
+   "description_zh": "桂枝汤中桂枝由三两增至五两即名桂枝加桂汤、主治奔豚——组方不变而主治跳变：方剂是参数化系统，调参优先于换方。",
+   "year": 200,
+   "tags_zh": [
+    "剂量权衡",
+    "参数化",
+    "以量换效"
+   ],
+   "tags_en": [
+    "剂量权衡",
+    "参数化",
+    "以量换效"
+   ],
+   "category": "操作方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-007": {
+   "code": "C-ZZJ-007",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-007",
+   "title_zh": "痛斥'省疾问病，务在口给'",
+   "description_zh": "《自序》点名单通道诊断的系统性风险：只凭问诊三言两语便处方——四诊合参是多源信息融合的最早规范，融合不足即事故之源。",
+   "year": 200,
+   "tags_zh": [
+    "四诊合参",
+    "信息融合",
+    "观察规范"
+   ],
+   "tags_en": [
+    "四诊合参",
+    "信息融合",
+    "观察规范"
+   ],
+   "category": "认知方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-008": {
+   "code": "C-ZZJ-008",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-008",
+   "title_zh": "坏病章：'观其脉证，知犯何逆'",
+   "description_zh": "误治后证候紊乱，仲景不给方、只给方法——从坏象逆推'病怎么走、医怎么错'双线索：把每一次误治都当作信息量最大的受控实验。",
+   "year": 200,
+   "tags_zh": [
+    "坏病",
+    "逆推",
+    "复盘协议"
+   ],
+   "tags_en": [
+    "坏病",
+    "逆推",
+    "复盘协议"
+   ],
+   "category": "反思方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-009": {
+   "code": "C-ZZJ-009",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-009",
+   "title_zh": "桂枝汤家族的接口稳定",
+   "description_zh": "桂枝加桂、加芍、加葛根、小建中……十余变体共享同一基方接口与文档化加减法——经方是医学史上最早的经过规模验证的函数库，边界条款'阳盛则毙'随接口一并发布。",
+   "year": 200,
+   "tags_zh": [
+    "经方模块",
+    "接口稳定",
+    "加减法"
+   ],
+   "tags_en": [
+    "经方模块",
+    "接口稳定",
+    "加减法"
+   ],
+   "category": "知识工程",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  },
+  "C-ZZJ-010": {
+   "code": "C-ZZJ-010",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-010",
+   "title_zh": "'虽未能尽愈诸病'的边界声明",
+   "description_zh": "《自序》在传世文本中显式写下系统的失效域与对同行生态的批判——条文体存规程、序言存立场：真正的传承是留下别人能重新得出结论的规程。",
+   "year": 200,
+   "tags_zh": [
+    "文本留验",
+    "边界声明",
+    "可复现性"
+   ],
+   "tags_en": [
+    "文本留验",
+    "边界声明",
+    "可复现性"
+   ],
+   "category": "传承方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "Chinese"
+  }
+ },
+ "scenarios_en": {
+  "C-ZZJ-001E": {
+   "code": "C-ZZJ-001E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-001",
+   "title_en": "Seven Characters Defining Taiyang Disease",
+   "description_en": "Rather than describing a case, Zhang Zhongjing defined the entry criteria of a state machine—'floating pulse, stiff painful head and nape, aversion to cold'; a thousand years of external-disease medicine ran on this map.",
+   "year": 200,
+   "tags_zh": [
+    "六经辨证",
+    "状态机",
+    "提纲"
+   ],
+   "tags_en": [
+    "Six Meritians",
+    "State Machine",
+    "Outline Clause"
+   ],
+   "category": "系统医学",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-002E": {
+   "code": "C-ZZJ-002E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-002",
+   "title_en": "Burning Body, Craving Clothes",
+   "description_en": "A feverish patient craving more clothing—the conflicting readings of inspection and inquiry are not discarded but flagged as a 'yet'-clause leading to the true-cold/false-heat discrimination: contradiction is the diagnostic crux.",
+   "year": 200,
+   "tags_zh": [
+    "八纲",
+    "真假寒热",
+    "矛盾读数"
+   ],
+   "tags_en": [
+    "Eight Principles",
+    "True-False Cold-Heat",
+    "Contradictory Reading"
+   ],
+   "category": "诊断方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-003E": {
+   "code": "C-ZZJ-003E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-003",
+   "title_en": "The Post-Formula Protocol of Guizhi Tang",
+   "description_en": "'Sip hot thin gruel, cover warmly for an hour; when sweating resolves the illness after one dose, stop'—administration, warming, observation, and stopping fully protocolized: history's earliest post-administration observation and feedback-stopping protocol.",
+   "year": 200,
+   "tags_zh": [
+    "方证对应",
+    "规程化",
+    "反馈停药"
+   ],
+   "tags_en": [
+    "Formula-Pattern",
+    "Protocolization",
+    "Feedback Stopping"
+   ],
+   "category": "临床方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-004E": {
+   "code": "C-ZZJ-004E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-004",
+   "title_en": "Edema Above the Waist Sweated, Below the Waist Drained",
+   "description_en": "One edema, split by the location coordinate into two opposite treatments—the same disease with symmetrically opposed therapies works because treatment targets the pattern coordinate, not the disease label.",
+   "year": 200,
+   "tags_zh": [
+    "同病异治",
+    "病位坐标",
+    "治疗对偶"
+   ],
+   "tags_en": [
+    "Same Disease Different Treatment",
+    "Location Coordinate",
+    "Treatment Duality"
+   ],
+   "category": "思维方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-005E": {
+   "code": "C-ZZJ-005E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-005",
+   "title_en": "See the Liver Sick, Fortify the Spleen First",
+   "description_en": "The target is not the current lesion but the next state: foreseeing the liver disease's downstream transmission and reinforcing the spleen in advance—preventive intervention predicated on a progression model, the earliest explicit 'downstream reinforcement' clause.",
+   "year": 200,
+   "tags_zh": [
+    "治未病",
+    "传变预判",
+    "先安未受邪之地"
+   ],
+   "tags_en": [
+    "Preventive Treatment",
+    "Transmission Prediction",
+    "Fortify the Untouched"
+   ],
+   "category": "战略方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-006E": {
+   "code": "C-ZZJ-006E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-006",
+   "title_en": "One More Liang of Cinnamon, A New Formula",
+   "description_en": "Raising Cinnamon from three to five liang renames Guizhi Tang into Guizhi Jia Gui Tang for running-piglet qi—composition unchanged while the indication jumps: a formula is a parameterized system; tune before you switch.",
+   "year": 200,
+   "tags_zh": [
+    "剂量权衡",
+    "参数化",
+    "以量换效"
+   ],
+   "tags_en": [
+    "Dosage Tradeoff",
+    "Parameterization",
+    "Efficacy by Dose"
+   ],
+   "category": "操作方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-007E": {
+   "code": "C-ZZJ-007E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-007",
+   "title_en": "Against 'Examining by Glib Words'",
+   "description_en": "The preface names the systemic risk of single-channel diagnosis—prescribing after a few words of questioning alone; the four-examination fusion is the earliest protocol for multi-source information fusion, its absence a source of error.",
+   "year": 200,
+   "tags_zh": [
+    "四诊合参",
+    "信息融合",
+    "观察规范"
+   ],
+   "tags_en": [
+    "Four Examinations",
+    "Information Fusion",
+    "Observation Protocol"
+   ],
+   "category": "认知方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-008E": {
+   "code": "C-ZZJ-008E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-008",
+   "title_en": "The Wrecked-Disease Chapter",
+   "description_en": "When mistreatment scrambles the presentation, Zhongjing gives no formula—only a method: from the wreckage back-infer both 'how the disease moved' and 'how the physician erred,' treating every error as the most information-dense controlled experiment.",
+   "year": 200,
+   "tags_zh": [
+    "坏病",
+    "逆推",
+    "复盘协议"
+   ],
+   "tags_en": [
+    "Wrecked Disease",
+    "Backtracking",
+    "Postmortem Protocol"
+   ],
+   "category": "反思方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-009E": {
+   "code": "C-ZZJ-009E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-009",
+   "title_en": "The Stable Interface of the Guizhi Family",
+   "description_en": "A dozen variants share one base-formula interface with documented modification clauses—the canonical formulas are medicine's earliest scale-verified function library, with the boundary clause 'death in yang excess' shipped alongside.",
+   "year": 200,
+   "tags_zh": [
+    "经方模块",
+    "接口稳定",
+    "加减法"
+   ],
+   "tags_en": [
+    "Canonical Modules",
+    "Interface Stability",
+    "Modification Clauses"
+   ],
+   "category": "知识工程",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  },
+  "C-ZZJ-010E": {
+   "code": "C-ZZJ-010E",
+   "figure_id": "H-ZZJ-001",
+   "mode_id": "M-ZZJ-010",
+   "title_en": "'Though It Cannot Cure All Illnesses'",
+   "description_en": "The preface writes the system's failure domain and its critique of the guild ecology into the surviving text—the body stores protocols, the preface stores stance: true legacy is leaving others the protocol to re-derive the conclusions.",
+   "year": 200,
+   "tags_zh": [
+    "文本留验",
+    "边界声明",
+    "可复现性"
+   ],
+   "tags_en": [
+    "Text Preservation",
+    "Boundary Declaration",
+    "Reproducibility"
+   ],
+   "category": "传承方法",
+   "region": "East Asia",
+   "country": "China",
+   "language": "English"
+  }
+ },
+ "meta": {
+  "source": "《伤寒论》《金匮要略》《伤寒杂病论·自序》",
+  "methodology": "历史文献分析法、理论解析法、案例验证法、对偶对标法（与M-SQ深度范式逐条对齐）",
+  "validation": "与《伤寒论》《金匮要略》原文及伤寒学史研究文献交叉验证；模式结构与H-ZY-001深度档案同构",
+  "generation_date": "2026-09-09",
+  "mode_count": 10,
+  "figure_code_ref": "H-ZZJ-001",
+  "phase": "Phase 21"
+ }
+}

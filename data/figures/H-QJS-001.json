@@ -1,0 +1,780 @@
+{
+ "schema_version": "v6",
+ "id": "H-QJS-001",
+ "code": "QJS",
+ "figure_name": "秦九韶",
+ "figure_code": "QinJiushao",
+ "figure_pinyin": "Qín Jiǔsháo",
+ "birth_year": 1208,
+ "death_year": 1268,
+ "era": "1208-1268",
+ "era_en": "1208-1268",
+ "school": "数学（以大衍求一术与正负开方术把中国古代数学推向世界高峰的《数书九章》作者）",
+ "historical_significance": "秦九韶（1208-1268），字道古，普州安岳人，南宋数学家，宋元数学四大家（与李冶、杨辉、朱世杰）之一。'早岁侍亲中都，因得访习于太史，又尝从隐君子受数学'；端平二年（1235）蒙古攻蜀后在战乱中辗转州县为小吏十余年；丁母忧居湖州期间'积多而惜其弃，因取八十一题，厘为九类，立术具草，间以图发之'，淳祐七年（1247）完成《数书九章》十八卷九类八十一题。两大数学成就达到当时世界最高水平：'大衍总数术'（含大衍求一术）系统解决一次同余方程组——早于欧洲高斯 establishing 同余理论五百余年，即今'中国剩余定理'；'正负开方术'给出高次方程数值解的完整程序——其'随乘随加'的嵌套求值即今 Horner 型'秦九韶算法'，早于 Horner（1819）570 余年。全书'术-草-图'三层体例使方法可复演可传授，算图 726 根连线逾九成遵循统一记号规则，开启中国数学符号化先声。同时代人刘克庄、周密对其人品有严厉指控，现代学者（郭书春等）考其为政敌攻讦；'学问与人品分开看'成为其历史形象的基本框架。咸淳四年（1268）卒于梅州任上。",
+ "historical_significance_en": "Qin Jiushao (1208-1268), courtesy name Daogu, a native of Anyue in Puzhou, Southern Song mathematician, one of the Four Great Mathematicians of the Song-Yuan era (with Li Ye, Yang Hui and Zhu Shijie). 'In my early years I attended my parents in the capital, where I learned from the Grand Astrologers and received mathematics from hidden gentlemen'; after the Mongol invasion of Sichuan in 1235 he served as a minor provincial official through more than a decade of war; during mourning for his mother at Huzhou, 'having accumulated much and loath to discard it, I took eighty-one problems and arranged them in nine categories, set the methods, drafted the detailed workings, and interspersed figures,' completing the Shushu Jiuzhang (1247) — eighteen juans, nine classes, eighty-one problems. Two achievements stood at the world's highest level of the age: the dayan total procedure (with the dayan rule of one) systematically solving simultaneous linear congruences — five centuries before Gauss's congruence theory, today's Chinese Remainder Theorem; and the positive-negative root extraction giving a complete numerical program for high-degree equations — its nested multiply-and-add being today's Horner-form 'Qin Jiushao algorithm,' 570-odd years before Horner (1819). The book's uniform three-layer format — method, working, figure — made every method reproducible and teachable, and over ninety percent of the 726 ruled lines in its computation diagrams follow unified notation, an early opening of symbolic mathematics in China. Contemporaries Liu Kezhuang and Zhou Mi left severe charges against his character; modern scholars (Guo Shuchun and others) retrace them to political rivalry; 'separate the learning from the man' remains the frame of his historical image. He died at his Meizhou post in 1268.",
+ "unique_thinking": "秦九韶思维模式的独特性在于'会同-程序-公开-分账'四位一体：(1)会同求解：面对互斥的周期与约束，他不做统一化改造，而发明大衍总数术把全部约束写成同余条件组求最小公共解——从'求统一'到'求会同'的范式本身是新的求解哲学；(2)计算程序化：正负开方术把高次方程求根化为'随乘随加'的机械化运算、负号作为一等数据参与——计算从技艺降为可复演流程，早于西方同类程序五百年以上；(3)方法论公开化：'立术具草，间以图发之'的三层体例把历家'用而不书'的行业秘法写成公共文本，每题 81 题无一例外——潜规则文档化成为中国数学史上第一次系统实践；(4)知识人格分账：面对政敌的严厉指控，后世以'两账分设'处理其遗产——不为贤者讳、不因人废言，把'人品与学问分开结算'变成方法论纪律。九类八十一题的均齐分类、市物类的当量换算、'见用者少'的价值辩护，共同构成一个把乱世经验转化为普遍方法的完整思维体系。",
+ "unique_thinking_en": "The uniqueness of Qin Jiushao's thinking is a tetrad of concurrence, procedure, publication and separate ledgers. (1) Solving by concurrence: facing mutually exclusive cycles and constraints, he unified nothing — the dayan total procedure wrote all constraints as a system of congruences and sought the minimal common solution, a new solving philosophy of seeking alignment rather than uniformity. (2) Computation as procedure: positive-negative root extraction reduced high-degree root-finding to mechanized multiply-and-add with the minus sign as first-class data — computation lowered from craft to reproducible routine, five centuries ahead of the West. (3) Publication of method: the three-layer format of statement, detailed working and figure turned the calendar guild's 'used but never written' secrets into public texts, uniform across all eighty-one problems — the first systematic documentation of tacit knowledge in Chinese mathematical history. (4) Separate ledgers: facing his rivals' severe charges, posterity learned to keep character and scholarship in distinct accounts — neither concealing for the worthy nor dismissing the words for the man, ledger discipline as the method of fair judgment. The even classification of nine classes and eighty-one problems, the equivalents conversions of the market category, and the preface's defense of 'useless' knowledge complete a system that turned the experience of a war-torn age into universal method.",
+ "civilization_zh": "南宋晚期的四川与江南：生于普州安岳（1208），父秦季槱进士出身、官至工部郎中，随父宦游临安得访太史；绍定年间蒙古攻蜀（1235 起），'际时狄患'中辗转郪县、蕲州等地任小吏；淳祐四年（1244）丁母忧寓湖州，守孝三年中完成《数书九章》（1247）；次年以历学荐于朝得对，献《数学大略》；宝祐年间历任建康通判、琼州守等职，官场倾轧与政敌攻讦随之（刘克庄奏状、周密笔记）；晚年出知梅州，咸淳四年（1268）卒于任——其一生横跨宋蒙战争的全部主要阶段，数学体系完成于战乱间隙的守孝之年",
+ "civilization_en": "Sichuan and Jiangnan in the late Southern Song: born in Anyue, Puzhou (1208), his father a jinshi rising to vice-ministerial office in the capital, where the boy met the Grand Astrologers; the Mongol invasion of Sichuan from 1235 scattered him through minor posts in Qi and Qi-zhou; his mother's death in 1244 brought him to Huzhou, where in the three years of mourning he completed the Shushu Jiuzhang (1247); the next year recommended to the court for calendar studies, presenting his 'Mathematical Essentials'; through the Baoyou years posts in Jiankang and Qiongzhou, with official feuds and the attacks of Liu Kezhuang and Zhou Mi following; late in life prefect of Meizhou, dying there in 1268 — a life spanning every major phase of the Song-Mongol war, the mathematical system completed in the mourning years between campaigns",
+ "roles_zh": [
+  "数学家",
+  "地方官员",
+  "历法学者",
+  "著作家"
+ ],
+ "roles_en": [
+  "Mathematician",
+  "Provincial official",
+  "Calendar scholar",
+  "Author"
+ ],
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-QJS-001",
+  "M-QJS-002",
+  "M-QJS-003",
+  "M-QJS-004",
+  "M-QJS-005",
+  "M-QJS-006",
+  "M-QJS-007",
+  "M-QJS-008",
+  "M-QJS-009",
+  "M-QJS-010"
+ ],
+ "key_works": [
+  "《数书九章》",
+  "《数学大略》（奏稿，佚）"
+ ],
+ "key_concepts": [
+  "大衍求一术",
+  "大衍总数术",
+  "正负开方术",
+  "中国剩余定理",
+  "秦九韶算法",
+  "数书九章",
+  "宋元数学四大家",
+  "术草图三层"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-LY-001",
+   "relation_type": "parallel",
+   "description_zh": "秦九韶与李冶同代而南北分治（南宋/金元），同把中国代数推向方程化：秦九韶《数书九章》以正负开方术解高次方程数值根、以大衍术处理同余，李冶《测圆海镜》以天元术建立方程——一个精于'解'，一个精于'立'；两人互不知晓而方法互补，恰是宋元数学高峰的一体两面；清代焦循、李锐同时校释二人著作，才把'立'与'解'重新接通。",
+   "description_en": "Contemporaries ruling under rival regimes (Southern Song south, Jin-Yuan north), Qin Jiushao and Li Ye both drove Chinese algebra toward the equational: Qin's Shushu Jiuzhang solved high-degree equations numerically by positive-negative extraction and congruences by the dayan method, Li's Ceyuan Haijing formed equations by tianyuan shu — one mastered 'solving', the other 'forming'; unknowing of each other yet complementary, two faces of the Song-Yuan mathematical summit; Qing scholars Jiao Xun and Li Rui annotated both, finally reconnecting forming and solving."
+  },
+  {
+   "target_figure_code": "H-GAU-001",
+   "relation_type": "parallel",
+   "description_zh": "秦九韶与高斯相隔五百五十年而在两处独立抵达同一数学：秦氏大衍求一术系统解决一次同余方程组，高斯《Disquisitiones Arithmeticae》（1801）以公理化语言重建同余理论并给出存在性证明——'中国剩余定理'的发现权在数学上归属两人；同样，秦氏正负开方术的嵌套求值与高斯同时代霍纳（1819）的算法重名。跨文明的两次'再发现'证明：深刻的数学结构会被不同文明各自找到一次。",
+   "description_en": "Five and a half centuries apart, Qin Jiushao and Gauss reached the same mathematics independently: Qin's dayan rule of one solved simultaneous linear congruences, while Gauss's Disquisitiones Arithmeticae (1801) rebuilt congruence theory in axiomatic language with existence proofs — the Chinese Remainder Theorem is mathematically credited to both; likewise Qin's nested evaluation in root extraction shares its name with Horner's (1819) algorithm of Gauss's era. Two cross-civilizational 'rediscoveries' prove that deep mathematical structures are found once by every civilization that needs them."
+  },
+  {
+   "target_figure_code": "H-EUC-001",
+   "relation_type": "influence",
+   "description_zh": "秦九韶的'术-草-图'三层体例与欧几里得《几何原本》的'定义-公设-证明'结构构成东西方方法论文本的两种原型：欧氏从公理演绎出全部命题、依赖逻辑链的不可断性，秦氏对每题给出可复演的完整演算、依赖程序链的不可断性——一个以逻辑保证普遍，一个以程序保证普遍；两者共同奠基了'知识必须可被异时异地的读者独立重走'的现代标准。",
+   "description_en": "Qin's three-layer format of statement, working and figure, and Euclid's Elements structure of definitions, postulates and proofs, are the two prototypes of methodological text East and West: Euclid derives every proposition from axioms, staking universality on an unbreakable logical chain; Qin gives each problem a fully reproducible computation, staking universality on an unbreakable procedural chain — one guarantees the universal by logic, the other by procedure; together they ground the modern standard that knowledge must be independently re-walkable by readers elsewhere and later."
+  },
+  {
+   "target_figure_code": "H-ZZJ-001",
+   "relation_type": "parallel",
+   "description_zh": "秦九韶与朱世杰相隔约半个世纪而同属宋元数学高峰的两大支柱：秦九韶把方程求解与同余求解推到极限（高次方程数值解、大衍术），朱世杰《四元玉鉴》把李冶的一元天元推广为四元并发展高阶等差级数——一个精于'一元之解'，一个精于'多元之立'；《算学启蒙》与《四元玉鉴》的深浅双轨复制了秦氏'术草图'的可教设计——宋元数学的顶峰由'解'与'立'两条路线共同托起。",
+   "description_en": "Half a century apart, Qin Jiushao and Zhu Shijie are the twin pillars of the Song-Yuan summit: Qin pushed equation-solving and congruence-solving to their limits (numerical roots of high-degree equations, the dayan method), while Zhu's Siyuan Yujian extended Li Ye's single-element method to four and developed higher-order series — one mastering the 'solving of one variable', the other the 'forming of many'; the deep-plain pairing of the Suanxue Qimeng and Siyuan Yujian replicated Qin's teachable three-layer design — the summit of Song-Yuan mathematics held up by both the solving and the forming routes."
+  }
+ ],
+ "tags": [
+  "秦九韶",
+  "数书九章",
+  "大衍求一术",
+  "中国剩余定理",
+  "正负开方术",
+  "秦九韶算法",
+  "宋元数学四大家",
+  "道古",
+  "安岳",
+  "南宋数学",
+  "同余",
+  "高次方程"
+ ],
+ "modes": [
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-001",
+   "mode_code": "M-QJS-001",
+   "name_zh": "大衍会同法",
+   "name_en": "The Dayan Method of Collective Concordance",
+   "category": "数学方法论/同余求解",
+   "domain_zh": "互斥的系统不必统一，只求会同：当多组周期、规则、约束各自成立且互不兼容时，不改造任何一方，而把全部约束写成同余条件组，求其最小公共解——从'统一时'转向'对齐点'的求解范式",
+   "domain_en": "Mutually exclusive systems need not be unified, only concurring: when multiple cycles, rules or constraints each stand and none is compatible with the rest, change none of them — write all constraints as a system of congruences and seek the minimal common solution; a paradigm shift from seeking a unified time to seeking an alignment point",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "互斥的系统不必统一，只求会同：当多组周期、规则、约束各自成立且互不兼容时，不改造任何一方，而把全部约束写成同余条件组，求其最小公共解——从'统一时'转向'对齐点'的求解范式",
+   "definition_en": "Mutually exclusive systems need not be unified, only concurring: when multiple cycles, rules or constraints each stand and none is compatible with the rest, change none of them — write all constraints as a system of congruences and seek the minimal common solution; a paradigm shift from seeking a unified time to seeking an alignment point",
+   "source_chapter": "《数书九章》大衍类与大衍总数术",
+   "key_quote_zh": "圣有大衍，微寓于《易》",
+   "key_quote_en": "'The great expansion is sacred, faintly lodged in the Book of Changes.'",
+   "key_concepts": [
+    "大衍总数术",
+    "大衍求一术",
+    "同余方程组",
+    "中国剩余定理",
+    "约束求交"
+   ],
+   "process_zh": [
+    "确认各方周期各自合法：先承认每条约束都不可被要求修改——同余求解的前提是放弃'改造某一方'的幻想",
+    "把约束写成同余条件：每条规则翻译为'模 m 余 r'的形式——约束从叙述句变为可计算的等价类",
+    "分步求解公共解：逐条合并条件（两两求并、再并入下一条），每步保持解集的最小性——公共解不靠全局灵感，靠逐步求交",
+    "检验普适性：所得解回代全部条件验证，并确认其为最小正解——会同点必须对每一条约束都成立，而非对多数成立"
+   ],
+   "process_en": [
+    "Confirm each cycle's legitimacy: concede that no constraint may be demanded to change — congruence-solving begins by abandoning the fantasy of reforming one party",
+    "Translate constraints into congruences: each rule becomes a 'remainder r modulo m' — constraints turn from narrative sentences into computable equivalence classes",
+    "Merge stepwise: combine conditions pairwise, folding in one more each step, keeping the solution minimal at every merge — the common solution comes not from global inspiration but stepwise intersection",
+    "Verify universality: substitute the solution back into every condition and confirm minimality — the alignment point must hold for each constraint, not merely for most"
+   ],
+   "representative_cases_zh": [
+    "'蓍卦发微'问以大衍总数术解《周易》筮法：同余求解对最古老文本的降维应用",
+    "'推计土功''程行计地'等题：不同工段、不同日程、不同速率的会同计算——历法上元问题的工程化重述",
+    "历家求上元而'用而不书'的传统到秦氏'具草'公开：同余求解从师徒秘传变为公共方法"
+   ],
+   "representative_cases_en": [
+    "The 'Yarrow-Stalk Divination' problem solved by the dayan procedure: congruence computation applied downward to the oldest of texts",
+    "The labor-corvée and journey-timing problems: work sections, schedules and speeds of different rates computed to concurrence — the calendar's epoch problem restated as engineering",
+    "The guild tradition of 'using but not writing' the epoch method, broken by Qin's published workings: congruence-solving passed from master-secret to public method"
+   ],
+   "modern_applications_zh": [
+    "分布式系统时钟对齐与调度问题：NTP、Cron 集群维护窗口的会同求解——大衍的同余工程版",
+    "密码学 RSA 与模运算：同余求解成为现代安全的数学地基",
+    "多方协议与互操作标准：不统一各家协议，只求握手点一致——约束求交的产业版"
+   ],
+   "modern_applications_en": [
+    "Distributed clock alignment and scheduling: NTP, maintenance windows across cron clusters — dayan's congruences as engineering",
+    "Cryptography and RSA: congruence-solving as the mathematical foundation of modern security",
+    "Interoperability standards among vendors: unify no protocol, agree only on the handshake — constraint intersection industrialized"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "孙子（源头：《孙子算经》'物不知数'问——同余问题的最早叙述）",
+    "高斯（跨文明平行：《Disquisitiones》系统化同余理论——同一数学对象在另一文明的公理化）",
+    "李冶（同代平行：天元术列方程——同一时代方程化路线的另一支柱）"
+   ],
+   "related_modes": [
+    "M-QJS-002",
+    "M-QJS-008",
+    "M-QJS-003",
+    "M-QJS-004"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-002",
+   "mode_code": "M-QJS-002",
+   "name_zh": "正负开方法",
+   "name_en": "The Method of Signed Root Extraction",
+   "category": "数学方法论/数值计算",
+   "domain_zh": "高次方程的数值解不靠猜，靠程序：'正负开方术'把求根化为'随乘随加'的机械化运算——多项式按 Horner 式逐层嵌套求值、系数可正可负、负号参与运算——把计算从技艺降为流程",
+   "domain_en": "Numerical roots of high-degree equations come not from guessing but from procedure: 'positive-negative root extraction' reduces root-finding to mechanized multiply-and-add — the polynomial nested Horner-style, coefficients signed, the minus sign a first-class operand — lowering computation from craft to routine",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "高次方程的数值解不靠猜，靠程序：'正负开方术'把求根化为'随乘随加'的机械化运算——多项式按 Horner 式逐层嵌套求值、系数可正可负、负号参与运算——把计算从技艺降为流程",
+   "definition_en": "Numerical roots of high-degree equations come not from guessing but from procedure: 'positive-negative root extraction' reduces root-finding to mechanized multiply-and-add — the polynomial nested Horner-style, coefficients signed, the minus sign a first-class operand — lowering computation from craft to routine",
+   "source_chapter": "《数书九章》正负开方术（田域、赋役诸类）",
+   "key_quote_zh": "以商乘法入实，随乘随加",
+   "key_quote_en": "'Multiply the quotient into the dividend, multiplying and adding as you go.'",
+   "key_concepts": [
+    "正负开方术",
+    "随乘随加",
+    "Horner形式",
+    "数值求根",
+    "秦九韶算法"
+   ],
+   "process_zh": [
+    "把方程整理为系数序列：无论次数多高，先化为一串可正可负的系数——问题从'形状'变为'序列'",
+    "逐层嵌套求值：从最高次项起'随乘随加'——每步只做一次乘一次加，任何次数的方程都在同一复杂度内完成",
+    "正负同权参与：减法以加负数实现，符号翻转不需特殊处理——负号是数据，不是异常",
+    "迭代逼近与精度控制：根的每一位由'商'逐位求得——精度需求决定迭代深度，而非反过来"
+   ],
+   "process_en": [
+    "Arrange the equation as a coefficient sequence: whatever the degree, first reduce it to a string of signed coefficients — the problem turns from shape into sequence",
+    "Evaluate by nesting: from the highest term, multiply-and-add at each layer — one multiplication and one addition per step, any degree served at the same complexity",
+    "Let signed values act with equal rights: subtraction as adding a negative, sign flips needing no special case — the minus sign is data, not exception",
+    "Iterate to precision: each digit of the root obtained as a successive 'quotient' — required precision drives iteration depth, never the reverse"
+   ],
+   "representative_cases_zh": [
+    "'尖田求积''环田三积'诸题：由面积问题立出高次方程再数值求根——从几何到代数到数值的完整链",
+    "'遥度圆城'题：十次方程的数值解——高达十次的方程在同一程序内处理，不因次数增加而换法",
+    "现代文献中的'秦九韶算法'与 Horner（1819）重名：同一嵌套求值思想早于西方 570 年"
+   ],
+   "representative_cases_en": [
+    "The 'pointed-field area' and 'ring-field three areas' problems: geometric quantities posed as high-degree equations then solved numerically — a complete chain from geometry through algebra to numerics",
+    "The ' distant measure of a round city' problem: a tenth-degree equation solved by the same procedure — degree ten handled with no change of method",
+    "The modern name 'Qin Jiushao algorithm' beside Horner's (1819): the same nested evaluation, five hundred seventy years earlier"
+   ],
+   "modern_applications_zh": [
+    "导航与嵌入式系统的多项式求值优化：Horner 形式仍是编译器的标准变换",
+    "数值分析课程的迭代法谱系：牛顿法之前的程序化求根传统",
+    "科学计算库的多项式例程：随乘随加的机器码级实现"
+   ],
+   "modern_applications_en": [
+    "Polynomial evaluation optimization in navigation and embedded systems: Horner form remains the compiler's standard transform",
+    "The lineage of iterative methods in numerical analysis curricula: the procedural root-finding tradition before Newton",
+    "Polynomial routines in scientific computing libraries: multiply-and-add at machine-code level"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "霍纳（跨文明平行：1819 年独立发表同一嵌套求值——算法的再发现史）",
+    "刘徽（上游：《九章》注的开方术传统——正负开方的直接前身）",
+    "冯·诺依曼（平行：数值方法的工程化——把计算交给可执行程序）"
+   ],
+   "related_modes": [
+    "M-QJS-001",
+    "M-QJS-004",
+    "M-QJS-007",
+    "M-QJS-003"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-003",
+   "mode_code": "M-QJS-003",
+   "name_zh": "厘类立纲法",
+   "name_en": "The Method of Exhaustion and Classification",
+   "category": "知识组织/体系构建",
+   "domain_zh": "知识的体系化从穷举到立类：'积多而惜其弃，因取八十一题，厘为九类'——先不做判断地全量收集，再'去重-归类-命名'三步把散材变成可执行的体系——分类不是装饰，是让全书可被'执'的骨架",
+   "domain_en": "Systematizing knowledge runs from exhaustion to classes: 'having accumulated much and loath to discard it, I took eighty-one problems and arranged them in nine categories' — collect everything without judgment first, then deduplicate, classify and name, turning scattered material into an executable system; classification is not decoration but the skeleton that makes the whole 'graspable'",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "知识的体系化从穷举到立类：'积多而惜其弃，因取八十一题，厘为九类'——先不做判断地全量收集，再'去重-归类-命名'三步把散材变成可执行的体系——分类不是装饰，是让全书可被'执'的骨架",
+   "definition_en": "Systematizing knowledge runs from exhaustion to classes: 'having accumulated much and loath to discard it, I took eighty-one problems and arranged them in nine categories' — collect everything without judgment first, then deduplicate, classify and name, turning scattered material into an executable system; classification is not decoration but the skeleton that makes the whole 'graspable'",
+   "source_chapter": "《数书九章》自序（'厘为九类'）",
+   "key_quote_zh": "积多而惜其弃，因取八十一题，厘为九类",
+   "key_quote_en": "'Having accumulated much and loath to discard it, I took eighty-one problems and arranged them in nine categories.'",
+   "key_concepts": [
+    "厘为九类",
+    "穷举收集",
+    "去重归类",
+    "体系骨架",
+    "八十一题"
+   ],
+   "process_zh": [
+    "穷举先于判断：把全部材料收齐而不预先筛选——体系的完整性取决于收集阶段的诚实",
+    "以'可执'为立类标准：类目按'使用场景'而非'抽象层级'划分（大衍、天时、田域、测望、赋役、钱谷、营建、军旅、市物）——分类为使用者服务而非为美感服务",
+    "去重而后命名：合并本质相同的条目，给每类一个可检索的名字——命名的精度决定体系的检索效率",
+    "以题配类、以类成书：每题归入恰一类，每类恰好九题——均齐的结构本身就是一种可校验性（多一题即失衡）"
+   ],
+   "process_en": [
+    "Exhaust before judging: gather all material without pre-screening — a system's completeness depends on the honesty of collection",
+    "Classify by graspability, not abstraction: the nine categories follow use-scenarios (dayan, heavens, fields, survey, taxes, money-grain, construction, military, market) — classification serves the user, not aesthetics",
+    "Deduplicate, then name: merge essentially identical entries; give each class a retrievable name — precision of naming sets retrieval efficiency",
+    "Match problems to classes, classes to book: every problem in exactly one class, nine per class — the even structure is itself a check (one problem more unbalances it)"
+   ],
+   "representative_cases_zh": [
+    "《数书九章》九类八十一题的均齐结构：大衍/天时/田域/测望/赋役/钱谷/营建/军旅/市物——应用数学的全景分类",
+    "自序'九段系文'对全书方法的自我说明：体系化包含对自身的说明",
+    "后人以'与《九章算术》相媲美'评价其分类：类目成为后世讨论该书的共同词汇"
+   ],
+   "representative_cases_en": [
+    "The even structure of nine classes and eighty-one problems: a panoramic classification of applied mathematics",
+    "The preface's nine-paragraph self-exposition: systematization includes accounting for itself",
+    "Later verdict 'rivaling the Nine Chapters': the classes became the common vocabulary of all later discussion"
+   ],
+   "modern_applications_zh": [
+    "大型代码库的模块化重构：先全量盘点、后按使用场景立类——厘类立纲的工程版",
+    "企业数据治理的'数据目录'建设：穷举-去重-命名-归类四步法",
+    "知识管理系统的 PARA/Johnny Decimal 分类法：按'可检索可执行'而非'哲学完备'设计类目"
+   ],
+   "modern_applications_en": [
+    "Modular refactoring of large codebases: full inventory first, classes by use-scenario second — exhaust-and-classify as engineering",
+    "Enterprise data governance catalogs: the four steps of enumeration, deduplication, naming, classification",
+    "PARA and Johnny.Decimal systems in personal knowledge management: classes designed for retrievability, not philosophical completeness"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "刘歆（源头：《七略》的文献分类传统——穷举立类的目录学前身）",
+    "林奈（跨文明平行：生物分类的双名法——命名的检索力量）",
+    "李冶（同代平行：'识别杂记'的关系总表——体系化的另一入口）"
+   ],
+   "related_modes": [
+    "M-QJS-001",
+    "M-QJS-007",
+    "M-QJS-005",
+    "M-QJS-010"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-004",
+   "mode_code": "M-QJS-004",
+   "name_zh": "正负相消法",
+   "name_en": "The Method of Signed Cancellation",
+   "category": "推理方法论/误差处理",
+   "domain_zh": "负号不是麻烦，是信息：允许量带符号参与运算、允许'减'以'加负'实现，误差与偏差就成为可逐层消去的算术对象而非需要回避的噪音——带符号的计算容纳了真实世界的不完美",
+   "domain_en": "The minus sign is not a nuisance but information: letting quantities carry signs, subtraction implemented as adding a negative, turns errors and deviations into arithmetic objects to be cancelled layer by layer rather than noise to be avoided — signed computation accommodates the real world's imperfection",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "负号不是麻烦，是信息：允许量带符号参与运算、允许'减'以'加负'实现，误差与偏差就成为可逐层消去的算术对象而非需要回避的噪音——带符号的计算容纳了真实世界的不完美",
+   "definition_en": "The minus sign is not a nuisance but information: letting quantities carry signs, subtraction implemented as adding a negative, turns errors and deviations into arithmetic objects to be cancelled layer by layer rather than noise to be avoided — signed computation accommodates the real world's imperfection",
+   "source_chapter": "《数书九章》开方术 '正负'条目",
+   "key_quote_zh": "正负相消，不失本数",
+   "key_quote_en": "'Positive and negative cancel each other, without loss of the original number.'",
+   "key_concepts": [
+    "正负术",
+    "符号运算",
+    "误差消去",
+    "带符号容错",
+    "正负相消"
+   ],
+   "process_zh": [
+    "给每个量一个符号位：正负不是对错，而是方向——先把所有量纳入同一带符号的记法",
+    "以加负实现减：统一为一种运算（加法），符号承担全部的方向语义——运算规则因此变少而普适",
+    "逐层消去：把同号相并、异号相消写成固定程序——误差不再累积而是被结构性地抵消",
+    "守住本数：消去之后核对'不失本数'——每一次化简都必须保持总量不变，这是带符号容错的底线"
+   ],
+   "process_en": [
+    "Give every quantity a sign: positive and negative are not right and wrong but direction — first bring all quantities under one signed notation",
+    "Implement subtraction as adding a negative: one operation (addition) carries all directional semantics — fewer rules, universal coverage",
+    "Cancel layer by layer: merge like signs, cancel unlike, as fixed procedure — errors stop accumulating and get structurally offset",
+    "Guard the original number: after cancellation, verify 'no loss of the original' — every simplification must conserve the total; that is the floor of signed fault tolerance"
+   ],
+   "representative_cases_zh": [
+    "开方术中'翻法'的处理：方程系数变号时程序不中断——负系数情形被正面纳入算法而非回避",
+    "'分粜推原'等题的盈不足处理：盈与不足作为带符号量统一入算",
+    "筹算布列的正负色（赤黑异色）传统到秦氏的文本化：符号从筹色变为算式的一部分"
+   ],
+   "representative_cases_en": [
+    "The 'method reversal' in root extraction: sign flips of coefficients do not interrupt the procedure — negative coefficients handled inside the algorithm, not avoided",
+    "The grain-price problems' surplus-and-deficit handling: surplus and deficit as one signed quantity",
+    "The counting-board color convention (red and black) textualized by Qin: sign moves from counter-color into the written formula"
+   ],
+   "modern_applications_zh": [
+    "传感器融合与卡尔曼滤波：带符号误差的逐层消去——正负相消的现代仪表版",
+    "会计复式记账：借与贷作为带符号量守恒——'不失本数'的商业态",
+    "编译器的符号执行与带符号整型处理：负数参与而不特殊分支"
+   ],
+   "modern_applications_en": [
+    "Sensor fusion and Kalman filtering: signed errors cancelled layer by layer — signed cancellation in instrumentation",
+    "Double-entry bookkeeping: debit and credit as conserving signed quantities — 'no loss of the original' in commerce",
+    "Symbolic execution and signed-integer handling in compilers: negatives participate without special-casing"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "刘徽（源头：《九章》'正负术'——正负相消的直接出处）",
+    "哈密顿（平行：把减法统一入加法的代数结构化）",
+    "图灵（平行：带符号计算的机器化——负号在机器中无特权）"
+   ],
+   "related_modes": [
+    "M-QJS-002",
+    "M-QJS-001",
+    "M-QJS-009",
+    "M-QJS-005"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-005",
+   "mode_code": "M-QJS-005",
+   "name_zh": "具草传法法",
+   "name_en": "The Method of Publishing the Detailed Workings",
+   "category": "知识传承/方法论公开化",
+   "domain_zh": "把行业秘法写成可公开的方法文本：'立术具草，间以图发之'——每题给出方法陈述（术）、可复演的完整演算（草）与示意图（图）三层——从'用而不书'的师徒制到'书而可传'的公共知识",
+   "domain_en": "Turn a guild's secret methods into public method-texts: 'set the method, draft the detailed working, intersperse with figures' — every problem gets three layers: a statement of method, a fully reproducible computation, and a diagram — from master-apprentice 'using without writing' to public 'written and transmissible' knowledge",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "把行业秘法写成可公开的方法文本：'立术具草，间以图发之'——每题给出方法陈述（术）、可复演的完整演算（草）与示意图（图）三层——从'用而不书'的师徒制到'书而可传'的公共知识",
+   "definition_en": "Turn a guild's secret methods into public method-texts: 'set the method, draft the detailed working, intersperse with figures' — every problem gets three layers: a statement of method, a fully reproducible computation, and a diagram — from master-apprentice 'using without writing' to public 'written and transmissible' knowledge",
+   "source_chapter": "《数书九章》自序及全书体例",
+   "key_quote_zh": "立术具草，间以图发之",
+   "key_quote_en": "'I set the methods, drafted the detailed workings, and interspersed figures to reveal them.'",
+   "key_concepts": [
+    "立术具草",
+    "以图发之",
+    "方法论公开化",
+    "潜规则文档化",
+    "三层文本"
+   ],
+   "process_zh": [
+    "把潜规则定为公开目标：先承认'用而不书'的知识才是组织的真正瓶颈——公开化是主动的传承设计而非被迫的交接",
+    "术-草-图三层齐备：术说'做什么与为何'，草给'逐步怎么算'，图显'结构长什么样'——任何一层缺失都会让知识无法脱离原作者存活",
+    "以可复演为标准：草的每一步必须让异时异地的读者重走得出同一结果——可复演性是公开化区别于记录的唯一标准",
+    "公开而非赠与：写成书让所有后来者平等获得——方法的价值随读者数增长而非随稀缺性增长"
+   ],
+   "process_en": [
+    "Set publicity as the goal: concede that 'used but never written' knowledge is the organization's real bottleneck — publication is proactive succession design, not forced handover",
+    "Complete the three layers: the statement says what and why, the working gives step-by-step how, the diagram shows the structure — a missing layer means the knowledge cannot live apart from its author",
+    "Hold reproducibility as the standard: every step of the working must let a reader elsewhere and later re-walk to the same result — reproducibility is the one criterion separating publication from mere recording",
+    "Publish, do not gift: a book gives all later comers equal access — a method's value grows with its readers, not with its scarcity"
+   ],
+   "representative_cases_zh": [
+    "《数书九章》每题'术-草-图'三层体例：81 题无一例外——方法论公开化的系统实践",
+    "大衍总数术对历家秘法的公开：秦氏明言'历家演法颇用之'而书未载——把行业内部方法写入公共文本",
+    "算图 726 根连线中 90%+ 遵循统一书写规则：即符号化的'草'——公开文本内部进一步标准化"
+   ],
+   "representative_cases_en": [
+    "The uniform three-layer format across all 81 problems: systematized methodological publication",
+    "The dayan procedure published against the calendar guild's secrecy: 'the calendar makers use it in practice' yet no book carried it — a guild method entered the public text",
+    "The 726-line computation diagrams, ninety percent following uniform notation rules: the 'working' further standardized inside the public text"
+   ],
+   "modern_applications_zh": [
+    "开源项目的 RFC/ADR 机制：决策先写成可评审文本——'具草'的工程制度版",
+    "企业离职交接的'可复演标准'：接手者重走得出同一结果才算交接完成",
+    "学术论文的 artifact evaluation 与可复现性运动：草的可复演标准成为现代学术的准入项"
+   ],
+   "modern_applications_en": [
+    "RFC and ADR mechanisms in open source: decisions first written as reviewable texts — 'drafting the working' as institutional practice",
+    "Reproducibility standards for corporate handovers: succession complete only when the successor re-walks to the same result",
+    "Artifact evaluation and the reproducibility movement: the working's reproducibility as modern academia's admission ticket"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "李冶（同代平行：《测圆海镜》细草——同一公开化运动的两翼）",
+    "刘徽（源头：注《九章》'析理以辞'——注疏公开传统）",
+    "费曼（跨文明平行：讲稿公开使深物理可传——公开化的现代担当）"
+   ],
+   "related_modes": [
+    "M-QJS-003",
+    "M-QJS-006",
+    "M-QJS-002",
+    "M-QJS-004"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-006",
+   "mode_code": "M-QJS-006",
+   "name_zh": "无用之用法",
+   "name_en": "The Method of Useless Knowledge",
+   "category": "价值论/知识自主性",
+   "domain_zh": "'数术之书尚多，其见用者少'——知识的价值由其是否成立决定，不由当世是否采用决定：为暂时无用的方法辩护，是文明对未来世代的预付",
+   "domain_en": "'Books on the art of number abound, yet few are used' — a knowledge's worth is fixed by whether it holds, not by whether the age adopts it: defending momentarily useless methods is civilization's advance payment to future generations",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "'数术之书尚多，其见用者少'——知识的价值由其是否成立决定，不由当世是否采用决定：为暂时无用的方法辩护，是文明对未来世代的预付",
+   "definition_en": "'Books on the art of number abound, yet few are used' — a knowledge's worth is fixed by whether it holds, not by whether the age adopts it: defending momentarily useless methods is civilization's advance payment to future generations",
+   "source_chapter": "《数书九章》自序（价值论段落）",
+   "key_quote_zh": "今数术之书尚多，其见用者少",
+   "key_quote_en": "'Books on the art of number abound, yet few of them find use.'",
+   "key_concepts": [
+    "无用之用",
+    "知识自主性",
+    "长期主义",
+    "反效用主义",
+    "文明预付"
+   ],
+   "process_zh": [
+    "拒绝以当下采用率定价：接受'见用者少'是深刻知识的常态而非缺陷——价值的时钟比一世更长",
+    "以'成立'为唯一标准：方法是否正确、是否可复演、是否自洽——这三问与'有没有人用'无关",
+    "把辩护写进自序：不沉默地做无用之学，而是公开论证其价值——无用之用需要被说出而非被默认",
+    "信任后世的估值：历法之外的数学大部分在当时无应用——作者不因此削减体系，估值委托给时间"
+   ],
+   "process_en": [
+    "Refuse to price by current adoption: accept that 'few are used' is the normal condition of deep knowledge, not a defect — value's clock runs longer than one lifetime",
+    "Hold 'soundness' as the sole standard: correct, reproducible, self-consistent — these three questions are independent of 'is anyone using it'",
+    "Argue the defense in a preface: not practicing useless learning in silence but publicly claiming its worth — useless usefulness must be spoken, not assumed",
+    "Trust posterity's valuation: most mathematics beyond calendrics had no application then — the author builds the system regardless, entrusting valuation to time"
+   ],
+   "representative_cases_zh": [
+    "《数书九章》自序为'见用者少'的数术辩护：全书照常九类八十一题——理论完备性不因应用稀少而打折",
+    "大衍术在写下时无工程应用（历法外的同余问题几近于无）——七百年后成为 RSA 的数学地基",
+    "天时类对历法冗余度的系统处理：为'当下用不上'的历算保留全部细节"
+   ],
+   "representative_cases_en": [
+    "The preface's defense of 'few are used': the book proceeds through all nine classes regardless — theoretical completeness undiminished by sparse application",
+    "The dayan method with near-zero engineering use when written (congruences beyond calendrics barely existed) — seven centuries later the mathematical ground of RSA",
+    "The heavens category's systematic treatment of calendrical redundancy: every detail preserved for computations 'not needed now'"
+   ],
+   "modern_applications_zh": [
+    "基础科学的长期资助机制：以'成立'而非'有用'为拨款标准的制度设计",
+    "开源库的'无用户维护'：核心依赖即使下载量低也持续维护——生态对无用之用的集体预付",
+    "数学与理论物理的纯研究传统：从群论到拓扑——'无用'成果延迟半个世纪才找到应用的常态"
+   ],
+   "modern_applications_en": [
+    "Long-horizon funding for basic science: appropriations judged by soundness, not usefulness",
+    "Unmaintained-but-vital open source: core dependencies maintained despite low downloads — an ecosystem's collective advance payment",
+    "Pure research in mathematics and theoretical physics: from group theory to topology — 'useless' results routinely finding application half a century late"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "庄子（源头：'无用之用，方为大用'——同一价值论的哲学表述）",
+    "哈代（平行：《一个数学家的辩白》为纯数学的无用辩护——跨文明的同题作文）",
+    "法拉第（平行：'电有何用？'之答——无用之用的实验科学版）"
+   ],
+   "related_modes": [
+    "M-QJS-001",
+    "M-QJS-005",
+    "M-QJS-003",
+    "M-QJS-010"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-007",
+   "mode_code": "M-QJS-007",
+   "name_zh": "术草图三层法",
+   "name_en": "The Method of Statement-Working-Diagram",
+   "category": "知识表达/文档结构",
+   "domain_zh": "可接手的知识需要三层同时在场：术（做什么与为何）、草（逐步怎么算）、图（结构长什么样）——三层互相校验，任何单一层都不足以让知识脱离原作者存活",
+   "domain_en": "Hand-over knowledge needs three layers present at once: the statement (what and why), the detailed working (step-by-step how), and the diagram (what the structure looks like) — the three check each other, and no single layer suffices for the knowledge to live apart from its author",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "可接手的知识需要三层同时在场：术（做什么与为何）、草（逐步怎么算）、图（结构长什么样）——三层互相校验，任何单一层都不足以让知识脱离原作者存活",
+   "definition_en": "Hand-over knowledge needs three layers present at once: the statement (what and why), the detailed working (step-by-step how), and the diagram (what the structure looks like) — the three check each other, and no single layer suffices for the knowledge to live apart from its author",
+   "source_chapter": "《数书九章》全书体例（'立术具草，间以图发之'）",
+   "key_quote_zh": "间以图发之",
+   "key_quote_en": "'Interspersing figures to reveal them.'",
+   "key_concepts": [
+    "术",
+    "草",
+    "图",
+    "三层文档",
+    "结构可视化"
+   ],
+   "process_zh": [
+    "分层起草：同一对象分别用三层语言写一遍——散文式的术、程序式的草、空间式的图——每层独立成文",
+    "层间互校：术与草矛盾即逻辑错，草与图矛盾即结构错——三层齐备使错误无处藏身",
+    "以图发之：图不是装饰而是第三种证明——空间直觉承担线性行文无法承担的并显结构",
+    "按接手者测试：任何一层抽走，读者仍能从余下两层部分恢复——三层冗余是对抗失传的设计"
+   ],
+   "process_en": [
+    "Draft in layers: write the same object three times — discursive statement, procedural working, spatial diagram — each layer complete on its own",
+    "Cross-check between layers: statement vs. working contradictions are logic errors; working vs. diagram contradictions are structure errors — three layers leave errors nowhere to hide",
+    "Let the figure prove: the diagram is not decoration but a third proof — spatial intuition carries structures that linear prose cannot show side by side",
+    "Test by removal: strike any one layer and the reader can still partially recover from the remaining two — three-layer redundancy as a design against loss"
+   ],
+   "representative_cases_zh": [
+    "《数书九章》算图符号体系：726 根连线中 700 根表达四则运算、90%+ 遵循统一规则——'图'层自身的系统化",
+    "各题'草'的逐步演算与'术'文的对照：读者可从任一层进入、用另一层校验",
+    "自序对体例的自我说明：三层设计是明示的方法论而非偶然格式"
+   ],
+   "representative_cases_en": [
+    "The computation diagrams' notation: 700 of 726 lines express the four operations, ninety percent under uniform rules — the 'figure' layer itself systematized",
+    "Each problem's worked steps set against its method-statement: readers may enter from either layer and verify with the other",
+    "The preface's self-description of the format: three-layer design as explicit methodology, not accidental style"
+   ],
+   "modern_applications_zh": [
+    "技术文档的 text-diagram-code 三位一体：README、可运行示例、架构图互为校验",
+    "学术论文的'公式-伪代码-示意图'结构：三层表达已成现代学术惯例",
+    "教学设计的三重表征（verbal-symbolic-visual）：认知科学对三层法的独立再发现"
+   ],
+   "modern_applications_en": [
+    "Text-diagram-code trinity in technical docs: README, runnable examples and architecture diagrams checking one another",
+    "Formula-pseudocode-figure structure in papers: three-layer expression now academic convention",
+    "Triple representation (verbal-symbolic-visual) in instructional design: cognitive science's independent rediscovery of the layers"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "刘徽（源头：注《九章》'析理以辞，解体用图'——术图结合的前身）",
+    "明可夫斯基（跨文明平行：时空图让相对论结构可显——图作为证明）",
+    "李冶（同代平行：细草与识别表——深书内部的两层）"
+   ],
+   "related_modes": [
+    "M-QJS-005",
+    "M-QJS-003",
+    "M-QJS-002",
+    "M-QJS-001"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-008",
+   "mode_code": "M-QJS-008",
+   "name_zh": "交集求存法",
+   "name_en": "The Method of Solution-Space Negotiation",
+   "category": "博弈方法论/多方协调",
+   "domain_zh": "不说服任何人改变立场，只求所有立场的交集非空：把谈判从'提出方案-被否决-再提'的串行试错，改为'先确定各方可行集-求交-在交集内提案'的并行求解——方案的命运在提出之前已被数学决定",
+   "domain_en": "Persuade no one to move; require only that the intersection of all positions be non-empty: replace the serial trial-and-error of propose-veto-repropose with parallel solving — fix each party's feasible set first, intersect, then propose only within it; a proposal's fate is decided mathematically before it is tabled",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "不说服任何人改变立场，只求所有立场的交集非空：把谈判从'提出方案-被否决-再提'的串行试错，改为'先确定各方可行集-求交-在交集内提案'的并行求解——方案的命运在提出之前已被数学决定",
+   "definition_en": "Persuade no one to move; require only that the intersection of all positions be non-empty: replace the serial trial-and-error of propose-veto-repropose with parallel solving — fix each party's feasible set first, intersect, then propose only within it; a proposal's fate is decided mathematically before it is tabled",
+   "source_chapter": "《数书九章》'蓍卦发微'问的解法结构（各数各自成律而求其会同）",
+   "key_quote_zh": "各以其率，会通其数",
+   "key_quote_en": "'Each by its own rate, the numbers brought to concurrence.'",
+   "key_concepts": [
+    "可行集求交",
+    "交集非空",
+    "约束优先谈判",
+    "会同点",
+    "并行求解"
+   ],
+   "process_zh": [
+    "列出各方约束：每方的不可让步条件写成一条'同余式'——谈判输入不是立场而是约束",
+    "先验判定可解性：约束合并过程中一旦出现空集即宣告无解——把'不可能'的判断前移，避免无效谈判轮次",
+    "在交集内构造方案：方案只在可行集的交中生成——每个提案天然满足全部约束，无需被否决",
+    "以最小改动取解：在可行解中选取偏离各方原立场最小者——会同不要求任何一方'赢'"
+   ],
+   "process_en": [
+    "List every party's constraints: each side's non-negotiables written as one 'congruence' — the negotiation's input is constraints, not positions",
+    "Test solvability in advance: an empty set mid-merge declares the problem unsolvable — the verdict of 'impossible' moved forward, sparing futile rounds",
+    "Construct within the intersection: proposals generated only inside the feasible intersection — every one satisfies all constraints by construction, with nothing left to veto",
+    "Take the minimal-deviation solution: among feasible points pick the one least displaced from each party's original stance — concurrence asks no one to 'win'"
+   ],
+   "representative_cases_zh": [
+    "'蓍卦发微'的结构：不同揲法各自的周期与余数互不迁就，大衍术只求会同之日——多方约束问题的原型解法",
+    "'推计互易'诸题的'互易物价'：多物品按各自当量互换而不改变任何一方的内部价值体系",
+    "历家求上元：日月五星各按自己周期运行，上元是全部周期的公共对齐点——天文学版的交集求存"
+   ],
+   "representative_cases_en": [
+    "The structure of the yarrow-stalk problem: each stalk-counting scheme keeps its own cycle and remainder, the dayan procedure seeking only the day of concurrence — a prototype solution to multi-party constraint problems",
+    "The mutual-exchange problems' 'prices of exchange': goods converted at equivalents without altering any party's internal value system",
+    "The calendar guild's epoch: sun, moon and planets each on their own period, the epoch the common alignment of all — the astronomical edition of intersection-seeking"
+   ],
+   "modern_applications_zh": [
+    "多边谈判的'单一谈判文本'（single negotiating text）机制：先收集约束再合并文本——交集求存的制度化",
+    "分布式系统的共识协议（Paxos/Raft）：不做全局统一时钟，只对 agreed value 求一致——约束求交的计算机版",
+    "联邦学习与数据可用不可见：各方数据不动，只交换模型更新——约束优先协作的技术形态"
+   ],
+   "modern_applications_en": [
+    "Single negotiating text in multilateral diplomacy: constraints collected first, text merged second — intersection-seeking institutionalized",
+    "Consensus protocols (Paxos, Raft) in distributed systems: no global clock, only agreement on a value — constraint intersection in computing",
+    "Federated learning and privacy-preserving computation: data stays put, only updates exchanged — constraint-first collaboration technicalized"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "孙子（同源：《孙子算经》'物不知数'——约束求交的最小实例）",
+    "纳什（平行：谈判解从可行集出发而非从立场出发——公理化谈判理论）",
+    "拉波波特（平行：'以最强形式表述对方立场'——交集谈判的对话伦理）"
+   ],
+   "related_modes": [
+    "M-QJS-001",
+    "M-QJS-009",
+    "M-QJS-006",
+    "M-QJS-004"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-009",
+   "mode_code": "M-QJS-009",
+   "name_zh": "互易当量法",
+   "name_en": "The Method of Equivalent Exchange",
+   "category": "经济思维/换算建模",
+   "domain_zh": "万物可换的前提是先定'每单位值多少'：'互易物价'把不同质的物（粟、盐、油麻、银）按当量互算，损耗与折色按比例入算——价值换算从直觉变为可审计的比例运算",
+   "domain_en": "Everything is exchangeable once 'what one unit is worth' is fixed: the mutual-exchange problems convert goods of unlike kind — grain, salt, oil, silver — at fixed equivalents, losses and discounts entering the computation proportionally; value conversion turns from intuition into auditable ratio arithmetic",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "万物可换的前提是先定'每单位值多少'：'互易物价'把不同质的物（粟、盐、油麻、银）按当量互算，损耗与折色按比例入算——价值换算从直觉变为可审计的比例运算",
+   "definition_en": "Everything is exchangeable once 'what one unit is worth' is fixed: the mutual-exchange problems convert goods of unlike kind — grain, salt, oil, silver — at fixed equivalents, losses and discounts entering the computation proportionally; value conversion turns from intuition into auditable ratio arithmetic",
+   "source_chapter": "《数书九章》市物类（'互易物价'诸问）",
+   "key_quote_zh": "以所有易所无，各依其直",
+   "key_quote_en": "'Exchange what you have for what you lack, each at its fixed worth.'",
+   "key_concepts": [
+    "互易物价",
+    "当量换算",
+    "比例折算",
+    "可审计换算",
+    "折色损耗"
+   ],
+   "process_zh": [
+    "先定当量表：每种物每单位的价值（或换算率）显式列出——换算的权威来自表而非来自当场的讨价还价",
+    "跨质换算走链式比例：物A→通货→物B 的多步换算分解为比例连乘——任何复杂互易都是简单比例的串联",
+    "损耗与折色入式：运费、耗损、成色差作为带符号修正项按比例计入——真实世界的不完美被写进等式而非忽略",
+    "双向可逆校验：换算链正走与逆走必须闭合——当量表若有误差，闭合校验立即暴露"
+   ],
+   "process_en": [
+    "Fix the equivalents table first: each good's per-unit worth (or conversion rate) listed explicitly — the table, not the bargaining, is the authority of conversion",
+    "Chain ratios across kinds: multi-step conversion A → currency → B decomposes into a product of ratios — any complex exchange is a serial chain of simple ones",
+    "Enter losses as terms: freight, spoilage and purity discounts included as proportional signed corrections — the real world's imperfection enters the equation rather than being ignored",
+    "Verify by reversal: the conversion chain must close going forward and backward — any error in the equivalents table surfaces immediately at closure"
+   ],
+   "representative_cases_zh": [
+    "'菽粟互易''互易推本'诸题：谷物、盐、银的链式互算——中世纪物价网络的完整换算模型",
+    "'推计互易'含折色与损耗的处理：官方折色比例入算——制度性贬值被当作可计算的参数",
+    "钱宝琮、郭书春校点本对'当量'术语的确认：当量表是全书市物类的一致前提"
+   ],
+   "representative_cases_en": [
+    "The bean-grain and exchange-basis problems: chained conversion among grain, salt and silver — a complete conversion model of a medieval price network",
+    "Mutual-exchange problems with official discount ratios and losses: institutional devaluation treated as a computable parameter",
+    "The collated editions' confirmation of 'equivalents' terminology: the equivalents table as the consistent premise of the market category"
+   ],
+   "modern_applications_zh": [
+    "汇率换算与套利校验：链式比例与双向闭合——互易当量的金融版",
+    "成本会计的'折算率表'：跨部门资源按标准成本互算——当量思想的企业核算版",
+    "能源系统的当量折算：千瓦时、标煤、原油当量的统一换算表"
+   ],
+   "modern_applications_en": [
+    "Exchange-rate conversion and arbitrage checks: chained ratios and two-way closure — equivalents in finance",
+    "Standard-cost tables in cost accounting: cross-department resources converted at standard rates — equivalents in enterprise accounting",
+    "Energy-system equivalents: unified conversion among kWh, standard coal and oil equivalent"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "《九章算术》（源头：粟米、衰分诸章的比例传统——互易当量的直接前身）",
+    "斯密（平行：市场价格与自然价格的区分——当量思想的经济学化）",
+    "斐波那契（跨文明平行：《计算之书》的汇率链式换算——地中海商业的同题实践）"
+   ],
+   "related_modes": [
+    "M-QJS-008",
+    "M-QJS-004",
+    "M-QJS-003",
+    "M-QJS-001"
+   ]
+  },
+  {
+   "figure_code": "QJS",
+   "id": "M-QJS-010",
+   "mode_code": "M-QJS-010",
+   "name_zh": "账分两设法",
+   "name_en": "The Method of Separate Ledgers",
+   "category": "治学规范/历史评判",
+   "domain_zh": "对人格与学术分别立账：人品争议与学术成就用不同证据标准、不同出处体系分别核算，两账并列互不借贷——既不为贤者讳，也不因人废言，评判的公允来自记账的分离",
+   "domain_en": "Keep separate ledgers for character and scholarship: character charges and intellectual achievement reckoned under different evidentiary standards and source systems, the two accounts side by side with no cross-lending — neither concealing for the worthy nor dismissing the words for the man; fairness comes from the separation of the ledgers",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "对人格与学术分别立账：人品争议与学术成就用不同证据标准、不同出处体系分别核算，两账并列互不借贷——既不为贤者讳，也不因人废言，评判的公允来自记账的分离",
+   "definition_en": "Keep separate ledgers for character and scholarship: character charges and intellectual achievement reckoned under different evidentiary standards and source systems, the two accounts side by side with no cross-lending — neither concealing for the worthy nor dismissing the words for the man; fairness comes from the separation of the ledgers",
+   "source_chapter": "刘克庄《缴秦九韶知临江军奏状》、周密《癸辛杂识》与秦氏自序的对读",
+   "key_quote_zh": "其人不孝不义不仁不廉（刘克庄语）与'数术之传，以实为体'（秦氏自序）对读",
+   "key_quote_en": "'He is unfilial, unjust, unkind, unbribable' (Liu Kezhuang's charge) set beside 'the transmission of number rests on the real' (Qin's own preface).",
+   "key_concepts": [
+    "人格学术分账",
+    "证据标准分离",
+    "政敌攻讦考",
+    "不为贤者讳",
+    "不因人废言"
+   ],
+   "process_zh": [
+    "分别设立证据标准：学术账只认文本、传本与数理验证；人格账只认原始出处、当事人关系与利益格局——两套标准不得混用",
+    "标注证词的利害关系：负面评价的作者与传主是政敌时，证词必须折价使用而非直接采信——每条史料自带利益系数",
+    "两账并列呈现：传记或评价中两本账同时展开、互相独立——读者看到的是分离的账目而非预制的结论",
+    "拒绝两种俗路：既不做'为贤者讳'的隐匿，也不做全盘翻案的反弹——公允不是选边，而是记账纪律"
+   ],
+   "process_en": [
+    "Set distinct evidentiary standards: the scholarship ledger accepts only texts, transmission and mathematical verification; the character ledger only primary sources, relationships and interest configurations — the two standards may not mix",
+    "Discount interested testimony: when the author of a negative verdict was the subject's political rival, the testimony is used at a discount, never at face value — every source carries its own interest coefficient",
+    "Present the ledgers side by side: in biography or judgment both accounts unfold independently — the reader sees separated accounts, not a pre-fabricated verdict",
+    "Refuse the two customary routes: neither concealment out of veneration nor wholesale rehabilitation — fairness is not picking a side but keeping ledger discipline"
+   ],
+   "representative_cases_zh": [
+    "刘克庄'暴如虎狼'奏状与周密'喜奢好大'笔记的政敌背景考：郭书春等考证刘、周与秦的诉讼关系——人格账的证词折价",
+    "《数书九章》自序'仁政'论述与八十一题的民生命题（赋役、钱谷、军旅）与人格指控的对读：两账反差本身成为研究对象",
+    "钱宝琮'都有事实可举，并不是空言诬蔑'的中允立场：两账分离原则下的示范性判决"
+   ],
+   "representative_cases_en": [
+    "Liu Kezhuang's 'fierce as tigers and wolves' memorial and Zhou Mi's 'ostentatious and ambitious' notes traced to litigation rivalry: Guo Shuchun's reconstructions — testimony discounted on the character ledger",
+    "The preface's benevolent-governance passages and the eighty-one problems' civic topics (taxes, money-grain, military) set against the character charges: the contrast itself becoming an object of study",
+    "Qian Baocong's even-handed 'the charges have factual basis, yet are not baseless slander': an exemplary verdict under ledger separation"
+   ],
+   "modern_applications_zh": [
+    "科学史'坏人与好科学'课题：从牛顿人格到爱迪生手段——分账法的学科常态",
+    "企业尽职调查的人格与业务分账：创始人争议与公司价值分别评估",
+    "学术不端处理中'撤稿不株连'原则：问题论文与其余成果分别结算——分账法的当代制度化"
+   ],
+   "modern_applications_en": [
+    "The 'flawed genius' problem in history of science: Newton's temper, Edison's methods — ledger separation as disciplinary norm",
+    "Due diligence keeping founder character and company value in separate accounts",
+    "The retraction-without-contagion principle in research misconduct: the flawed paper settled apart from the rest of the oeuvre — ledger separation institutionalized today"
+   ],
+   "representative_figures": [
+    "秦九韶（核心）",
+    "司马迁（源头：列传中'论赞'与本事分离的笔法——分账叙事的史家传统）",
+    "韦纳（平行：社会学对'个人品行与结构成就'的分离分析）",
+    "胡适（平行：'做学问要在不疑处有疑，待人要在有疑处不疑'——两种标准并行的现代表述）"
+   ],
+   "related_modes": [
+    "M-QJS-006",
+    "M-QJS-003",
+    "M-QJS-005",
+    "M-QJS-008"
+   ]
+  }
+ ]
+}

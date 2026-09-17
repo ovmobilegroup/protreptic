@@ -1,0 +1,880 @@
+{
+  "schema_version": "v6",
+  "id": "H-SBRY-001",
+  "code": "H-SBRY-001",
+  "figure_name": "涩泽荣一",
+  "figure_code": "H-SBRY-001",
+  "figure_pinyin": "Sè Zé Róngyī (Shibusawa Eiichi)",
+  "birth_year": 1840,
+  "death_year": 1931,
+  "era": "日本幕末至昭和初期 / Late Edo to Early Showa Japan (1840-1931)",
+  "school": "经济制度/商业伦理/资本组织 / Economic Institutions / Business Ethics / Capital Organization",
+  "historical_significance": "日本近代资本主义之父，一生参与创办约500家企业（第一国立银行、大阪纺织、东京证券交易所、王子制纸等），却终身不置私产、拒绝入阁。核心方法论：以《论语》为商业伦理操作系统（『论语与算盘』——道德与利润的合一）、把『合本主义』（股份公司制）作为资本动员的结构性发明、以一流主义（人才先于资本）重塑商人的社会地位、以系统间套利（农→官→商的跨界转译）发现时代机会、以组织人格化（义勇队与共同精神）对冲失业与危机、以退出机制（拒官从商）完成身份战略。他是把儒家伦理转译为资本主义精神、把个人信用转译为制度信用的转换器式人物。",
+  "unique_thinking": "以《论语》为商业伦理的操作系统（论语算盘合一——义与利不是取舍而是同一枚硬币的两面）、以合本主义（股份公司制）为资本动员的结构性发明、以一流主义（人才先于资本）重塑商人的社会地位、以信用复利为长期经营的本金逻辑、以系统间转译（农→官→商→欧）发现时代机会、以不控股的横向信用网络对冲财阀式集权、以退出身份实现系统间套利、以义勇共生的共济制度改写劳资博弈、以恩义资产负债表主动清偿无价之债、以角色转换不换轴保持人格一贯。其思维特质在于：把道德当作可运营的组织资产而非个人修养——信用被制度化为复利本金，恩义被记账为待偿负债，伦理与利润在组织设计层面合一。",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-SBRY-001",
+    "M-SBRY-002",
+    "M-SBRY-003",
+    "M-SBRY-004",
+    "M-SBRY-005",
+    "M-SBRY-006",
+    "M-SBRY-007",
+    "M-SBRY-008",
+    "M-SBRY-009",
+    "M-SBRY-010"
+  ],
+  "key_concepts": [
+    "论语与算盘",
+    "Rongo to Soroban (The Analects and the Abacus)",
+    "义利合一",
+    "Unity of Ethics and Profit",
+    "合本主义",
+    "Gappei Shugi (Joint-Stock Capitalism)",
+    "士魂商才",
+    "Samurai Spirit, Merchant Skill",
+    "一流主义",
+    "First-Class-ism",
+    "信用复利",
+    "Credit as Compound Interest",
+    "发起人信用",
+    "Promoter's Credit",
+    "不控股网络",
+    "Network without Control",
+    "涩泽网络",
+    "Shibusawa Network",
+    "二重代表",
+    "Dual Representation",
+    "辞官从商",
+    "Exiting Officialdom for Business",
+    "共济",
+    "Mutual Aid",
+    "劳资协调",
+    "Labor-Management Harmony",
+    "恩义",
+    "Giri (Obligation)",
+    "德川庆喜",
+    "Tokugawa Yoshinobu",
+    "青渊",
+    "Seien (Shibusawa's pen name)",
+    "第一国立银行",
+    "Dai-ichi National Bank",
+    "大阪纺织",
+    "Osaka Spinning",
+    "东京证券交易所",
+    "Tokyo Stock Exchange"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-FYJ-001",
+      "target_figure_name": "福泽谕吉",
+      "relation_type": "同代启蒙双璧：福泽造『独立的人』，涩泽造『独立的资本组织』",
+      "description_zh": "福泽以《劝学篇》『一身独立而后一国独立』完成人的启蒙（M-FYJ-002）；涩泽把同一命题接续到经济层：以《论语》武装商人的人格，以合本制组织独立的经济单位（M-SBRY-001/M-SBRY-002）。两人同为幕末出身、同以兰学与西洋见闻为方法论起点，分工在于：福泽是文明论与教育实践的设计师，涩泽是银行、公司制与信用体系的建造师——一个造独立的人，一个造让人独立得以持续的组织。两人晚年一为思想界领袖、一为实业界共主，共同构成明治日本『文明开化』的一体两面。",
+      "bidirectional_hint": "福泽档案（H-FYJ-001）未来修订时可在『一身独立』处补一条指向 H-SBRY-001 的跨引用（独立命题的经济组织化版本）。"
+    },
+    {
+      "target_figure_code": "H-INM-001",
+      "target_figure_name": "稻盛和夫",
+      "relation_type": "日本经营伦理的两端：内修心法 vs 外建制度",
+      "description_zh": "稻盛以『敬天爱人』与阿米巴经营把伦理内化为经营者的心法修炼（M-INM 系列）；涩泽以《论语与算盘》把伦理外化为商业制度——银行、股份公司、信用体系、共济组织（M-SBRY-001~008）。两人相隔百年却共享同一命题：利润与道德不冲突，且组织是合一的载体。差异在于稻盛把功夫下在个体经营者的良知（『作为人，何谓正确』），涩泽把功夫下在可复制的组织结构与信用制度——心法之路与制度之路，构成日本经营哲学的经纬两线。",
+      "bidirectional_hint": "稻盛档案（H-INM-001）未来修订时可在『敬天爱人/经营哲学』处补一条指向 H-SBRY-001 的跨引用（经营伦理的制度化平行版本）。"
+    },
+    {
+      "target_figure_code": "H-HFZ-001",
+      "target_figure_name": "韩非",
+      "relation_type": "义利之辨的两极：以利为制度起点 vs 以义利合一为制度起点",
+      "description_zh": "韩非以人性趋利为公理，主张制度不必诉诸道德而以赏罚驾驭自利（M-HFZ 系列）；涩泽恰恰针对『义利对立』的话语开战，主张以《论语》为算盘提供方向、以算盘为《论语》提供兑现（M-SBRY-001）。两人都在设计制度而非说教，但出发点相反：韩非把道德排除在制度引擎之外，涩泽把道德装进制度引擎——一个认为利可以替代义，一个认为利必须由义定价。对照揭示了商业社会秩序建构的两种根本方案。",
+      "bidirectional_hint": "韩非档案（H-HFZ-001）未来修订时可在『人性趋利/赏罚制度』处补一条指向 H-SBRY-001 的跨引用（义利合一的对极版本）。"
+    },
+    {
+      "target_figure_code": "H-SY-001",
+      "target_figure_name": "商君",
+      "relation_type": "上升通道设计者对照：耕战重构人才通道 vs 合本制重构资本通道",
+      "description_zh": "商鞅以耕战爵制把秦国的上升通道从血统重设为军功（M-SY 系列）；涩泽以合本制与一流主义把明治日本的资本与人才通道从官尊民卑重设为市场（M-SBRY-002/M-SBRY-003）。两人都是通道设计者：都相信社会活力来自把『凭什么是你』的答案改写。差异在于商鞅以国家为唯一分配者、以战功为唯一货币，涩泽以分散的股东与市场为分配网络、以信用为货币——封闭的通道最终反噬其设计者，开放的通道则延续百年。",
+      "bidirectional_hint": "商君档案（H-SY-001）未来修订时可在『耕战/上升通道』处补一条指向 H-SBRY-001 的跨引用（资本通道的明治对照版本）。"
+    },
+    {
+      "target_figure_code": "H-WYM-001",
+      "target_figure_name": "王阳明",
+      "relation_type": "知行合一的两条路径：心上事上磨炼 vs 士魂商才的制度化",
+      "description_zh": "王阳明以『知行合一』把儒学从书斋考据拉回事上磨炼（M-WYM 系列）；涩泽以『士魂商才』把同一方向推入商海——儒学不在注释里，而在银行账簿与公司章程里（M-SBRY-001/M-SBRY-003）。两人都拒绝把道德与实务切成两截：王阳明说『知而不行，只是未知』，涩泽说『抛弃利益的道德不是道德，抛弃道德的利益不是利益』。差异在于王阳明的落点是个体的心体与事功，涩泽的落点是可复制的组织与制度。",
+      "bidirectional_hint": "王阳明档案（H-WYM-001）未来修订时可在『知行合一/事上磨炼』处补一条指向 H-SBRY-001 的跨引用（知行合一的商业制度化版本）。"
+    },
+    {
+      "target_figure_code": "H-MAN-001",
+      "target_figure_name": "曼德拉",
+      "relation_type": "领袖退出的对照：以政治让位保全道德资本 vs 以拒官不控股保全经济伦理",
+      "description_zh": "曼德拉在声望顶点主动只任一届总统，以退出保全道德资本并为制度让路（M-MAN 系列）；涩泽一生拒绝入阁、发起约500家企业却几乎不控股，以退出保全『涩泽网络』的横向信用（M-SBRY-006/M-SBRY-007）。两人都把『不占有』当作更高的战略资产：权力与股权的暂时放弃，换来的是道义与信用的永久增值。对照在于曼德拉的退出是一次性的政治交棒，涩泽的退出是可复制的商业模式——退出即套利。",
+      "bidirectional_hint": "曼德拉档案（H-MAN-001）未来修订时可在『主动让位/道德资本』处补一条指向 H-SBRY-001 的跨引用（经济伦理的退出版本）。"
+    }
+  ],
+  "tags": [
+    "涩泽荣一",
+    "Shibusawa Eiichi",
+    "青渊",
+    "Seien",
+    "《论语与算盘》",
+    "Rongo to Soroban",
+    "义利合一",
+    "Unity of Ethics and Profit",
+    "合本主义",
+    "Gappei Shugi",
+    "股份公司",
+    "Joint-Stock Company",
+    "第一国立银行",
+    "Dai-ichi National Bank",
+    "大阪纺织",
+    "Osaka Spinning",
+    "东京证券交易所",
+    "Tokyo Stock Exchange",
+    "王子制纸",
+    "Oji Paper",
+    "士魂商才",
+    "Samurai Spirit Merchant Skill",
+    "一流主义",
+    "First-Class-ism",
+    "信用",
+    "Credit",
+    "发起人",
+    "Promoter",
+    "不控股",
+    "Non-control",
+    "涩泽网络",
+    "Shibusawa Network",
+    "共济",
+    "Mutual Aid",
+    "劳资协调",
+    "Labor-Management Harmony",
+    "恩义",
+    "Giri",
+    "德川庆喜",
+    "Tokugawa Yoshinobu",
+    "辞官从商",
+    "Exit Officialdom",
+    "一桥庆喜家臣",
+    "Hitotsubashi Retainer",
+    "万国博览会",
+    "World Exposition",
+    "兰学",
+    "Rangaku",
+    "幕末",
+    "Bakumatsu",
+    "明治维新",
+    "Meiji Restoration",
+    "日本近代资本主义之父",
+    "Father of Japanese Capitalism",
+    "不置私产",
+    "No Private Wealth"
+  ],
+  "mode_ids_note": "M-SBRY-001 ~ M-SBRY-010（figure_code=Shibusawa → 编码 H-SBRY-001；库内查重零冲突：M-SBRY 前缀 modes_data/code_maps 无占用，C-SBRY 场景前缀无占用，H-SBRY 编码无占用。与 H-INM-001 稻盛和夫、H-FYJ-001 福泽谕吉经上游 QA 确认无重叠）",
+  "caveats": [
+    "涩泽参与创办的企业常被表述为『500家』，实际统计口径差异极大（发起/顾问/赞助/挂名难以切分），严谨引用应说明其角色多为发起人与协调者而非经营者",
+    "『第一国立银行』中的『国立』为命名惯例（明治初年国立银行条例），该行实为民营股份公司，与现代国营概念不可混淆",
+    "『论语与算盘』的义利合一在实践中有边界：涩泽主导的产业体系中亦存在劳工争议与殖民经济关联（如满铁相关网络），引用其劳资协调论须同时呈现其限度",
+    "涩泽对德川庆喜的『恩义』叙事出自其本人自述（《青渊先生自传》等），带有自我塑造成分，历史学界对其幕末政治选择的评价存在分歧",
+    "『不控股网络』并非纯粹利他：涩泽通过发起人地位与人脉中枢保持实际影响力（『二重代表』机制），其权力运作方式与形式上的不占有之间存在张力",
+    "共济与义勇队制度的现代对应物（企业福利、社会保险）性质不同，不可直接等同——涩泽方案预设了以企业共同体为单位的风险分担，与国家社保逻辑有别"
+  ],
+  "modes": [
+    {
+      "id": "M-SBRY-001",
+      "mode_code": "M-SBRY-001",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "论语算盘合一法",
+      "name_en": "Analects-and-Abacus Unification Method",
+      "category": "商业伦理/价值论",
+      "domain_zh": "道德与利润的整合/商业伦理操作系统",
+      "domain_en": "Integration of Morality and Profit / Ethical Operating System for Business",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽面对的根本矛盾是：明治日本要搞资本主义，但儒家的『重义轻利』传统把商人钉在四民之末，逐利本身被视为不道德。他的解法不是在道德与利润之间做取舍，而是取消这个对立本身：『论语与算盘并非相悖——算盘要靠论语来打，论语要靠算盘来兑现』。义是利的计算规则，利是义的实现材料；离开道德的利润是掠夺，离开利润的道德是空谈。方法上这意味着：面对两个被传统对立起来的价值维度，先检查其对立是本质的还是历史的——若是历史性的话语安排，就构建一套让两者互为条件的操作系统，而不是做加权折中。",
+      "definition_en": "Shibusawa faced a fundamental contradiction: Meiji Japan needed capitalism, but the Confucian tradition of 'righteousness over profit' had nailed merchants to the bottom of the social hierarchy, making profit-seeking itself immoral. His solution was not to trade off between morality and profit but to dissolve the opposition: 'The Analects and the abacus are not in conflict—the abacus is worked by way of the Analects, and the Analects is cashed through the abacus.' Righteousness is the rule set for computing profit; profit is the material realization of righteousness. Profit without morality is plunder; morality without profit is empty talk. Methodologically: when facing two values tradition has opposed, first test whether the opposition is essential or historical—if it is a discursive arrangement, build an operating system in which each value enables the other, rather than striking a weighted compromise.",
+      "source_chapter": "《论语与算盘》第一章：『算盘要靠《论语》来打，《论语》要靠算盘来兑现』——论义利合一；《青渊回顾录》自述弃官从商时以《论语》为依据的心路",
+      "key_concepts": [
+        "义利合一",
+        "论语与算盘",
+        "商业道德",
+        "士魂商才",
+        "反对话语解构"
+      ],
+      "key_quote_zh": "算盘要靠《论语》来打，《论语》要靠算盘来兑现——义与利，本是一体两面。",
+      "key_quote_en": "The abacus is worked by way of the Analects, and the Analects is cashed through the abacus—righteousness and profit are two faces of one thing.",
+      "process_zh": [
+        "列出被传统话语对立的两个价值维度，追问其对立是本质必然还是历史安排",
+        "若是历史安排：寻找使两者互为条件的机制（道德如何降低交易成本、利润如何供养道德）",
+        "把该机制写成可日常执行的规则，而非抽象口号（如：每一笔生意都要经得起公开追问）",
+        "用长期结果反向验证：以不义之利牟取的短期收益是否终以信用崩塌收场"
+      ],
+      "process_en": [
+        "List the two value dimensions tradition has opposed; ask whether the opposition is essential or historically arranged",
+        "If historically arranged: find the mechanism making each enable the other (how morality lowers transaction costs, how profit funds morality)",
+        "Write the mechanism as daily executable rules, not abstract slogans (e.g., every deal must withstand public questioning)",
+        "Verify by long-run results: whether short-term gains from unrighteous profit end in credit collapse"
+      ],
+      "representative_cases_zh": [
+        "『论语与算盘』讲演集把《论语》讲成商人的操作系统：义是长期信用，利是信用的现金流——两者在账本上本就是一个科目",
+        "涩泽经营第一国立银行时坚持『银行家一诺千金』：宁可自家受损也兑现承诺，换来的是乱世中的存款流入",
+        "他发起『道德经济合一』论，直接对治明治初年『官尊民卑』与『奸商』的双重污名",
+        "反例警示：同时代投机性的财阀勾结藩阀牟取特许暴利，短期暴富，长期则在政商丑闻中信用扫地——义利分裂的账最终都会被清算"
+      ],
+      "representative_cases_en": [
+        "His 'Analects and the Abacus' lectures recast the Analects as the merchant's operating system: righteousness is long-term credit, profit is the cash flow of credit—on the ledger, one account",
+        "Running Dai-ichi National Bank he held that 'a banker's word is worth a thousand gold': honoring promises at his own loss bought deposits amid turmoil",
+        "He launched the doctrine of 'the unity of morality and economy' to counter the twin stigmas of early Meiji: official supremacy and the 'treacherous merchant'",
+        "Counterexample: contemporaries who colluded with cliques for franchise windfalls grew rich fast and lost their credit in political-business scandals—the ledger of split righteousness and profit is settled in the end"
+      ],
+      "modern_applications_zh": [
+        "ESG 与利润之争：不做加权折中，而设计让合规降低融资成本的机制",
+        "平台经济：把『不作恶』写成影响推荐权重的可执行规则，而非公关口号",
+        "个人品牌：把道德承诺变现为可验证的履约记录（信用即现金流）",
+        "组织价值观落地：检查价值观与考核指标是否互相拆台"
+      ],
+      "modern_applications_en": [
+        "ESG vs. profit: don't weight-and-compromise; design mechanisms where compliance lowers the cost of capital",
+        "Platform economy: write 'don't be evil' as executable rules affecting recommendation weights, not PR slogans",
+        "Personal brand: convert moral commitments into verifiable performance records (credit is cash flow)",
+        "Landing organizational values: check whether stated values and KPIs undermine each other"
+      ],
+      "related_modes": [
+        "M-SBRY-002",
+        "M-SBRY-004",
+        "M-SBRY-007"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "亚当·斯密",
+        "张謇"
+      ]
+    },
+    {
+      "id": "M-SBRY-002",
+      "mode_code": "M-SBRY-002",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "合本主义法",
+      "name_en": "Joint-Stock Capitalism (Gappei Shugi) Method",
+      "category": "经济思想/制度设计",
+      "domain_zh": "资本动员/公司制度设计",
+      "domain_en": "Capital Mobilization / Corporate Institutional Design",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽观察到：日本不缺有钱人，缺的是把分散的小额资本聚成大产业资本的制度通道。个人独资本质上受限于一个人的钱包与寿命，而股份公司把『出钱』与『管事』分离，让成千上万陌生人的钱通过规则与信用聚合成足以办银行、修铁路的资本。他给这种制度起名『合本主义』，并强调其成立前提不是法律文本而是信任结构——股东凭什么把钱交给陌生人？凭公开的账目、按股分红而非按人分利的规则、以及发起人自身的信用。方法上这意味着：资源瓶颈的解法往往不在资源本身，而在聚合资源的制度通道；设计通道时先设计信任结构。",
+      "definition_en": "Shibusawa observed that Japan lacked not wealthy individuals but an institutional channel to pool scattered small capital into industrial-scale capital. Sole proprietorship is bounded by one person's purse and lifespan; the joint-stock corporation separates 'contributing money' from 'managing it,' aggregating the money of thousands of strangers into capital sufficient to found banks and build railways. He named the principle 'gappei shugi' (joint-stock-ism) and stressed that its foundation is not the legal text but a structure of trust—on what grounds do shareholders hand money to strangers? Public accounts, dividends by share rather than by person, and the promoter's own credit. Methodologically: the solution to a resource bottleneck usually lies not in the resource but in the institutional channel that aggregates it; design the trust structure before the channel.",
+      "source_chapter": "《论语与算盘》论合本主义与股份公司；《青渊回顾录》记第一国立银行与泽泽中小企业扶植的合本实践",
+      "key_concepts": [
+        "合本主义",
+        "股份公司",
+        "资本动员",
+        "两权分离",
+        "信任结构"
+      ],
+      "key_quote_zh": "日本并不缺少资本，缺少的是把分散的资本聚合起来的组织——合本主义正是这个组织。",
+      "key_quote_en": "Japan does not lack capital; it lacks the organization to pool scattered capital—joint-stock-ism is that organization.",
+      "process_zh": [
+        "诊断资源瓶颈的本质：是总量不足，还是缺乏聚合的制度通道",
+        "为通道设计信任结构：账目公开、按规则分配、发起人自担信用风险",
+        "先在可控范围内做示范性聚合（如一个银行、一家纺织厂），验证规则可信",
+        "把验证过的模式标准化复制，让通道本身成为基础设施"
+      ],
+      "process_en": [
+        "Diagnose the resource bottleneck: is it total quantity, or the absence of an aggregating channel",
+        "Design the channel's trust structure: public accounts, rule-based distribution, promoters staking their own credit",
+        "Run a demonstrative aggregation within a controllable scope (one bank, one spinning mill) to validate the rules",
+        "Standardize and replicate the validated model until the channel itself becomes infrastructure"
+      ],
+      "representative_cases_zh": [
+        "1873年创设第一国立银行：以股份制把武士与商人的零散资金聚成现代银行资本，成为日本金融体系的种子",
+        "1882年大阪纺织：以合本制募集资本引入蒸汽纺机，把日本纺织业从手工作坊拉进工厂制时代",
+        "他一生参与约500家企业的创立，绝大多数以合本方式发起，且刻意不谋控股——『涩泽不控股』本身就是对股东信任结构的投资",
+        "反例警示：同时期以个人独断扩张的投机公司因发起人一倒而全盘崩塌——没有信任结构的聚合只是债务堆叠"
+      ],
+      "representative_cases_en": [
+        "In 1873 he founded the Dai-ichi National Bank, pooling samurai and merchant savings into modern banking capital—the seed of Japan's financial system",
+        "Osaka Spinning (1882) raised joint-stock capital to import steam-powered spindles, dragging Japanese textiles from workshop to factory era",
+        "He took part in founding roughly 500 enterprises, nearly all as joint-stock ventures, deliberately without controlling stakes—'Shibusawa holds no control' was itself an investment in shareholder trust",
+        "Counterexample: speculative firms of the same era that expanded on one man's will collapsed wholesale when the founder fell—aggregation without a trust structure is merely stacked debt"
+      ],
+      "modern_applications_zh": [
+        "众筹与 LP 结构设计：先设计出资人为什么信任你，再设计产品",
+        "创业融资：把创始人个人信用制度化（披露、回购承诺、不控股），换取聚合能力",
+        "行业基础设施：把一次性合作验证成标准化的聚合通道（交易所、协会、联盟链）",
+        "公共项目：识别瓶颈是资金总量还是聚合制度，避免误诊"
+      ],
+      "modern_applications_en": [
+        "Crowdfunding and LP structures: design why contributors trust you before designing the product",
+        "Startup fundraising: institutionalize founder credit (disclosure, buyback promises, no control stake) in exchange for aggregating power",
+        "Industry infrastructure: turn one-off cooperation into standardized aggregation channels (exchanges, associations, consortium chains)",
+        "Public projects: diagnose whether the bottleneck is total funds or the aggregating institution before prescribing"
+      ],
+      "related_modes": [
+        "M-SBRY-001",
+        "M-SBRY-003",
+        "M-SBRY-006"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "岩崎弥太郎",
+        "J.P.摩根"
+      ]
+    },
+    {
+      "id": "M-SBRY-003",
+      "mode_code": "M-SBRY-003",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "一流主义法",
+      "name_en": "First-Class-ism (Personnel-before-Capital) Method",
+      "category": "组织行为/人才战略",
+      "domain_zh": "人才优先的资源配置/商人地位重塑",
+      "domain_en": "Talent-First Resource Allocation / Restoring the Merchant's Standing",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽断言：事业的成败七分在人，三分在钱——『得人者兴，不得人者亡』。他所谓『一流』不是出身名门，而是具备士的人格操守加商的专业才干（『士魂商才』）。为把一流人才吸进当时被贱视的商业，他做了两件事：一是公开宣告商业是最高尚的职业，二是以身作则辞官经商，把『下海』从羞辱变成荣誉。方法上这意味着：当一个领域的瓶颈被归咎于资源时，先检查是否其实是人才引力不足——提升一个领域的地位与尊严，比加大投入更能改变人才流向。",
+      "definition_en": "Shibusawa held that the success of an enterprise is seven parts people, three parts money—'those who get the right people thrive; those who don't perish.' His 'first-class' meant not pedigree but character of the scholar joined with skill of the merchant ('shikon shosai': samurai spirit, merchant talent). To draw first-class talent into a then-despised commercial world he did two things: publicly declared commerce the noblest profession, and personally resigned office for business, turning 'going into trade' from humiliation into honor. Methodologically: when a field's bottleneck is blamed on resources, first check whether the real shortage is talent gravity—raising a field's status and dignity moves talent more than adding money does.",
+      "source_chapter": "《论语与算盘》：『得人者昌，不得人者亡』与士魂商才论；《青渊回顾录》论辞官从商的身份抉择",
+      "key_concepts": [
+        "士魂商才",
+        "得人者昌",
+        "人才先于资本",
+        "职业尊严",
+        "一流主义"
+      ],
+      "key_quote_zh": "事业之成败，七分在人，三分在钱——先把人立起来，钱会自己来。",
+      "key_quote_en": "An enterprise's success is seven parts people, three parts money—establish the people first and the money will come.",
+      "process_zh": [
+        "把瓶颈清单按『人』与『钱』分列，检验所谓缺钱的问题里有多少其实是缺人",
+        "定义该领域的一流标准：人格操守 × 专业才干，而非出身或资历",
+        "提升领域声望：公开为该职业正名，并以自身或组织的身份行动背书",
+        "为一流人才设计入口（待遇、授权、荣誉），让他们成为引力源"
+      ],
+      "process_en": [
+        "Split the bottleneck list into 'people' and 'money'; test how much of the money shortage is actually a people shortage",
+        "Define the field's first-class standard: character × professional skill, not pedigree or tenure",
+        "Raise the field's prestige: publicly re-dignify the profession and back it with your own identity move",
+        "Design entry points for first-class talent (compensation, authority, honor) so they become gravity wells"
+      ],
+      "representative_cases_zh": [
+        "涩泽在政府升迁在望时毅然辞官从商，用自身身份为『商人』正名——他的辞职本身就是人才战略",
+        "创大阪纺织时力邀不懂纺织但品格与才干一流的工程师与管理层，把资本交给『一流的人』而非自己的亲信",
+        "他在企业群中推行『职员即资产』：长期雇佣与内部培养，使涩泽系企业的人才密度远超同期财阀",
+        "反例警示：只砸资本而放任二流团队主事的明治投机企业，多数死于用人失误而非资金断裂"
+      ],
+      "representative_cases_en": [
+        "On the verge of promotion in government he resigned for commerce, dignifying 'merchant' with his own identity—his resignation was itself a talent strategy",
+        "Founding Osaka Spinning he recruited engineers and managers of first-class character and skill (though not textile experts by origin), entrusting capital to 'first-class people' rather than cronies",
+        "Across his enterprise group he practiced 'employees as assets': long-term employment and internal cultivation, giving his firms talent density rivals lacked",
+        "Counterexample: Meiji ventures that lavished capital on second-rate teams mostly died of staffing failure, not funding gaps"
+      ],
+      "modern_applications_zh": [
+        "冷门行业振兴：先重塑职业尊严与叙事，招聘自然改善",
+        "创业用人：关键岗位宁缺毋滥，以一流标准对齐创始人信用",
+        "人才引力设计：用授权与荣誉（而非仅薪酬）吸引降维打击式的人才",
+        "资源误诊：把『缺预算』的问题翻译回『缺对的人』"
+      ],
+      "modern_applications_en": [
+        "Reviving an unfashionable industry: re-dignify the profession first; recruiting follows",
+        "Startup staffing: key seats are better empty than filled below the first-class bar",
+        "Talent gravity: attract overqualified people with authority and honor, not just pay",
+        "Resource misdiagnosis: translate 'no budget' problems back into 'no right people'"
+      ],
+      "related_modes": [
+        "M-SBRY-002",
+        "M-SBRY-007",
+        "M-SBRY-010"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "松下幸之助",
+        "曾国藩"
+      ]
+    },
+    {
+      "id": "M-SBRY-004",
+      "mode_code": "M-SBRY-004",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "信用复利法",
+      "name_en": "Credit-as-Compound-Interest Method",
+      "category": "商业战略/关系资本",
+      "domain_zh": "信用经营/长期主义",
+      "domain_en": "Credit Management / Long-Termism",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽把信用理解为一种会复利的资产：每一次超额履约都是一次本金存入，未来在融资、结盟、危机时以远超本金的方式支取。他经营约500家企业却极少控股，靠的正是个人与机构信用的杠杆效应——发起人信用本身就是合本制的抵押品。更重要的是他把个人信用制度化：个人会死，但把信用写入规则、惯例与组织后，信用可以跨代际复利。方法上这意味着：短期利益与信用冲突时，把信用损失计为真实负债计入决策；并主动把个人信用转写为制度信用。",
+      "definition_en": "Shibusawa understood credit as an asset that compounds: every act of over-delivery is a principal deposit, drawable later—at far above principal—in financing, alliances, and crisis. He ran roughly 500 enterprises while rarely holding controlling stakes, leveraging precisely the compounding of personal and institutional credit—the promoter's credit was itself the collateral of the joint-stock system. More, he institutionalized personal credit: individuals die, but credit written into rules, conventions, and organizations compounds across generations. Methodologically: when short-term gain conflicts with credit, book the credit loss as a real liability in the decision; and deliberately transcribe personal credit into institutional credit.",
+      "source_chapter": "《论语与算盘》论信用为一日不可失之资产；《青渊回顾录》论『涩泽之名』在企业发起中的担保作用",
+      "key_concepts": [
+        "信用复利",
+        "发起人信用",
+        "信用制度化",
+        "长期主义",
+        "一诺千金"
+      ],
+      "key_quote_zh": "信用一日不可失——今日让渡的薄利，是明日提款的复利本金。",
+      "key_quote_en": "Credit must not be lost for a single day—today's yielded thin margin is tomorrow's compounding principal.",
+      "process_zh": [
+        "盘点自身信用的存量与结构：谁因什么信任你，信任的兑现场景是什么",
+        "把每次履约/违约记为信用账本的正负本金，重大决策前先查这本账",
+        "在短期利益与信用冲突处，按复利期（而非当期）计算得失再决策",
+        "把个人信用转写为制度：规则、品牌、组织惯例，使其脱离个人生命周期"
+      ],
+      "process_en": [
+        "Inventory your credit stock and structure: who trusts you for what, and where that trust is cashed",
+        "Book every delivery/default as positive/negative principal in a credit ledger; consult it before major decisions",
+        "Where short-term gain and credit conflict, decide on the compounding horizon, not the current period",
+        "Transcribe personal credit into institutions—rules, brand, organizational habit—so it outlives the person"
+      ],
+      "representative_cases_zh": [
+        "第一国立银行在恐慌中坚持兑付，短期损失巨大，却使其在此后的金融风潮中成为存款首选",
+        "他每发起一家新公司，出资人常常『因涩泽之名』就认购——个人信用直接转化为募集资金的风险溢价折让",
+        "涩泽从不为任何一家企业背书到底，却在危机时以个人信用出面斡旋救场（如1920年代银行恐慌中的协调），信用被反复支取而愈用愈厚",
+        "反例警示：为短期利益背书劣质项目的同业，一次违约即令其全部发起业务瘫痪——信用账本上的负本金是瞬间清算的"
+      ],
+      "representative_cases_en": [
+        "Dai-ichi National Bank honored withdrawals through panics at heavy short-term loss, becoming the first choice of depositors in every subsequent crisis",
+        "For each new company he promoted, subscribers often came 'for the name Shibusawa'—personal credit directly converted into a discount on fundraising risk premium",
+        "He never backstopped any single firm unconditionally, yet in crises lent his personal credit to mediate rescues (as in the banking panics of the 1920s)—credit drawn again and again, thickening with use",
+        "Counterexample: peers who endorsed shoddy ventures for short-term gain saw a single default paralyze their whole promotion business—negative principal in the credit ledger is settled instantly"
+      ],
+      "modern_applications_zh": [
+        "创始人 IP：把个人信誉产品化，但同步写入公司制度以防人走茶凉",
+        "危机决策：履约成本与信用损失放在同一张复利表上比较",
+        "平台治理：把商家信用做成可复利的评分资产而非一次性罚则",
+        "谈判策略：主动让渡小利换取结构性信任的长期期权"
+      ],
+      "modern_applications_en": [
+        "Founder IP: productize personal reputation while writing it into company institutions against your departure",
+        "Crisis decisions: compare fulfillment cost and credit loss on one compounding table",
+        "Platform governance: make merchant credit a compounding score-asset, not one-off penalties",
+        "Negotiation: yield small gains today to buy structural trust's long-dated option"
+      ],
+      "related_modes": [
+        "M-SBRY-001",
+        "M-SBRY-002",
+        "M-SBRY-005"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "本杰明·富兰克林",
+        "胡雪岩"
+      ]
+    },
+    {
+      "id": "M-SBRY-005",
+      "mode_code": "M-SBRY-005",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "系统间转译法",
+      "name_en": "Cross-System Translation Method",
+      "category": "认识论/机会发现",
+      "domain_zh": "跨界机会识别/知识转译",
+      "domain_en": "Cross-Domain Opportunity Discovery / Knowledge Translation",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽的独特轨迹是农→汉学→兰学→幕臣→法国→官僚→实业家：每一站他都做同一件事——把上一个系统的语言与资源转译进下一个系统。在巴黎考察万国博览会与银行制度时，他发现欧洲的繁荣不在技术而在『把信用组织起来的制度』，回日本后把这套制度转译给一个还没有股份有限公司概念的社会。机会往往藏在两个系统的落差处：A 系统的常识是 B 系统的稀缺品。方法上这意味着：跨系统经历的价值不是履历装饰，而是转译能力——发现自己懂而对方不懂、对方需要而己方过剩的东西，然后把它翻译过去。",
+      "definition_en": "Shibusawa's singular trajectory ran farm→Confucian learning→Dutch studies→bakufu retainer→France→official→industrialist, and at every station he did the same thing: translated the language and resources of the previous system into the next. Inspecting the Paris Exposition and European banking, he found Europe's prosperity lay not in technology but in 'institutions that organize credit,' and on returning translated that institutional kit into a society without the concept of the joint-stock company. Opportunity hides in the gap between systems: System A's common sense is System B's scarcity. Methodologically: the value of cross-system experience is not résumé decoration but translation capacity—find what you understand and the other side lacks, what they need and your side has in surplus, then translate it across.",
+      "source_chapter": "《青渊回顾录》随幕府使团赴欧（1867）考察银行、交易所、企业制度的转述与启发；《论语与算盘》论明治社会需要的新式商人",
+      "key_concepts": [
+        "系统落差",
+        "制度转译",
+        "跨文化套利",
+        "万国博览会",
+        "兰学"
+      ],
+      "key_quote_zh": "欧洲之富，不在船坚炮利，而在能把陌生人的信用组织起来的制度——把它译回来，就是日本最缺的产业。",
+      "key_quote_en": "Europe's wealth lay not in ships and guns but in institutions that organize strangers' credit—translating that back would be the industry Japan most lacked.",
+      "process_zh": [
+        "盘点自己经历过的每个系统的『常识清单』与『稀缺清单』",
+        "两两对照找落差：A 系统的常识若为 B 系统稀缺，即构成转译机会",
+        "验证落差的可行性：B 系统是否已有承接该转译的土壤（需求、精英、资本）",
+        "以示范项目完成首次转译，再把转译成果标准化为系统 B 的常识"
+      ],
+      "process_en": [
+        "Inventory each system you've lived in: its list of common sense and its list of scarcities",
+        "Compare pairwise for gaps: A's common sense scarce in B constitutes a translation opportunity",
+        "Test feasibility: does B have soil to receive the translation (demand, elites, capital)",
+        "Complete the first translation with a demonstration project, then standardize the result into B's common sense"
+      ],
+      "representative_cases_zh": [
+        "1867年随幕府代表团考察巴黎万国博览会与苏伊士运河沿途制度，把欧洲的股份银行制度『转译』为日本第一国立银行的设计蓝本",
+        "他把军中后勤经验转译为铁路与邮政的组织设计思路，参与多个基础设施创议",
+        "他把儒家修养转译为商人职业伦理（士魂商才），把汉学素养变成商业世界的人格资本",
+        "反例警示：同期留学归来者多只带回技术清单，未做制度转译，沦为技术雇员——只会比较不会转译的跨界者没有产出"
+      ],
+      "representative_cases_en": [
+        "Touring the 1867 Paris Exposition and European institutions with the bakufu mission, he 'translated' the joint-stock bank into the design blueprint of Japan's first national bank",
+        "He translated military logistics experience into organizational designs for railways and postal services across infrastructure initiatives",
+        "He translated Confucian cultivation into professional business ethics (shikon shosai), turning classical learning into personality capital for the commercial world",
+        "Counterexample: returned students of the same era brought back mere technology lists without institutional translation and ended as hired technicians—cross-domain experience without translation yields nothing"
+      ],
+      "modern_applications_zh": [
+        "出海与本地化：把母市场的制度常识（合同、风控、SOP）转译为目标市场的稀缺品",
+        "职业转型：把上一行业的『常识』（方法论、工具、标准）列为新行业的可售清单",
+        "技术商业化：在论文常识与产业稀缺之间做转译，而非只做技术对比",
+        "组织学习：引入外部系统的常识前，先确认内部承接土壤"
+      ],
+      "modern_applications_en": [
+        "Going global: translate home-market institutional common sense (contracts, risk control, SOPs) into the target market's scarcity",
+        "Career pivots: list the previous industry's 'common sense' (methods, tools, standards) as sellable inventory in the new one",
+        "Tech commercialization: translate between what papers take for granted and what industry lacks, not just compare technologies",
+        "Organizational learning: before importing another system's common sense, confirm the internal soil to receive it"
+      ],
+      "related_modes": [
+        "M-SBRY-002",
+        "M-SBRY-006",
+        "M-SBRY-010"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "容闳",
+        "岩崎弥太郎"
+      ]
+    },
+    {
+      "id": "M-SBRY-006",
+      "mode_code": "M-SBRY-006",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "不控股网络法",
+      "name_en": "Network-without-Control Method",
+      "category": "商业战略/组织形态",
+      "domain_zh": "横向企业网络/去控股扩张",
+      "domain_en": "Horizontal Enterprise Networks / Expansion without Control Stakes",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "与同时代财阀（三井、三菱）以家族控股纵向控制不同，涩泽以个人信用为枢纽横向连接约500家企业，却几乎不控股、不传子。每个企业独立经营，但在融资、技术、人才、危机斡旋上互通——『涩泽网络』的粘合剂不是股权而是共同价值观与发起人信用。这种结构的扩张速度与抗风险性远超控股系（一损俱损），代价是控制力弱。方法上这意味着：扩张未必走『控制』单行道；当你的核心资产是信用与声誉而非资本时，网络式扩张比控股式扩张更快且更抗崩溃。",
+      "definition_en": "Unlike contemporaneous zaibatsu (Mitsui, Mitsubishi) with family-controlled vertical empires, Shibusawa used personal credit as the hub of a horizontal network of some 500 enterprises while holding almost no stakes and passing none to heirs. Each firm ran independently, but financing, technology, talent, and crisis mediation flowed across—the glue of the 'Shibusawa network' was shared values and promoter credit, not equity. This structure expanded faster and withstood shocks better than control groups (which fall together), at the cost of weak control. Methodologically: expansion need not take the one-way street of control; when your core asset is credit and reputation rather than capital, network-style expansion beats holding-style in both speed and crash-resistance.",
+      "source_chapter": "《青渊回顾录》论二重代表与不置私产、不传子孙的立场；涩泽产业史研究论『涩泽阀』与财阀的组织差异",
+      "key_concepts": [
+        "涩泽网络",
+        "不控股",
+        "二重代表",
+        "横向协作",
+        "反财阀模式"
+      ],
+      "key_quote_zh": "我发起事业，却不占有事业——以信用相连的企业群，比以股权捆绑的企业群走得更远。",
+      "key_quote_en": "I launch enterprises but do not possess them—an enterprise group joined by credit travels farther than one bound by equity.",
+      "process_zh": [
+        "识别自己的核心资产类型：资本（宜控股）还是信用与组织能力（宜网络）",
+        "以枢纽角色连接独立单元：共同规则与价值观替代股权控制",
+        "在融资、人才、危机三类场景建立单元间的互助通道",
+        "接受控制力弱的代价，用声誉机制与退出规则维持网络纪律"
+      ],
+      "process_en": [
+        "Identify your core asset type: capital (favor control) or credit and organizational capability (favor network)",
+        "Connect independent units as a hub: shared rules and values in place of equity control",
+        "Build mutual-aid channels across units for financing, talent, and crisis",
+        "Accept weak control; maintain network discipline with reputation mechanisms and exit rules"
+      ],
+      "representative_cases_zh": [
+        "涩泽系约500家企业各自独立，但共享涩泽个人信用背书与人才循环——大阪纺织的骨干常被派往其他新企业任高管",
+        "与三菱岩崎家『一人之财阀』对照：涩泽去世后其网络以惯例与协会（如泷野川会）延续，而控股系则随家族继承动荡",
+        "他在银行恐慌中以『非利益相关方』身份出任协调人，正因其不控股，各方才接受其中立性",
+        "反例警示：不控股网络的松散性也曾使部分涩泽系企业治理失控、经营恶化——网络纪律失守时，无控股即无救援抓手"
+      ],
+      "representative_cases_en": [
+        "The ~500 Shibusawa firms ran independently but shared his personal credit endorsement and a talent circulation—Osaka Spinning cadets were routinely seeded as executives into other new ventures",
+        "Contrast Mitsubishi's 'one-man zaibatsu': after his death the Shibusawa network persisted through convention and associations (e.g., the Takinogawa-kai), while control groups churned with family succession",
+        "In banking panics he served as mediator precisely as a 'non-interested party'—his lack of control stakes made his neutrality acceptable",
+        "Counterexample: the network's looseness let some Shibusawa-affiliated firms drift into governance failure and decline—when network discipline fails, no stake means no rescue lever"
+      ],
+      "modern_applications_zh": [
+        "平台与生态战略：以规则与信用连接独立商家，而非全资收购",
+        "个人操盘手：以顾问与发起人身份构建多项目网络，最大化声誉杠杆",
+        "开源基金会模式：中立的非控股协调方为何被各方接受",
+        "风控：不控股网络的纪律失守预警（价值观稀释、搭便车）"
+      ],
+      "modern_applications_en": [
+        "Platform and ecosystem strategy: bind independent merchants with rules and credit, not outright acquisition",
+        "Individual operators: build a multi-project network as advisor-promoter, maximizing reputation leverage",
+        "The open-source foundation model: why a neutral non-controlling mediator is accepted by all sides",
+        "Risk control: early warnings of network-discipline failure (value dilution, free-riding)"
+      ],
+      "related_modes": [
+        "M-SBRY-002",
+        "M-SBRY-004",
+        "M-SBRY-009"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "岩崎弥太郎",
+        "路易·威登"
+      ]
+    },
+    {
+      "id": "M-SBRY-007",
+      "mode_code": "M-SBRY-007",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "退出身份法",
+      "name_en": "Exit-as-Identity-Strategy Method",
+      "category": "人生战略/身份设计",
+      "domain_zh": "职业退出/身份资本转换",
+      "domain_en": "Career Exit / Identity Capital Conversion",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽24岁辞职时，所有人都看到他失去的仕途，只有他看到身份资本的可兑换结构：武士出身＋幕府外交历练＋欧洲制度见识，这三种资本在官僚系统内只能线性升值，而输入商业系统则产生指数级溢价——因为商业世界缺的恰恰是带着这些资本的人。他的辞职不是逃离，而是把身份资本从低估值的系统提现、转入高估值系统。方法上这意味着：审视自身资本组合在当前系统内的定价是否严重低于其在其他系统的定价；若是，退出本身就是最大的增值操作。",
+      "definition_en": "When Shibusawa resigned at 24, everyone saw the official career he was losing; only he saw the exchange structure of his identity capital: samurai origin plus bakufu diplomatic experience plus firsthand knowledge of European institutions—within the bureaucracy these appreciated linearly, but fed into the commercial system they yielded an exponential premium, because commerce precisely lacked people carrying such capital. His resignation was not flight but withdrawing identity capital from an undervaluing system and depositing it into a higher-valuing one. Methodologically: audit whether your capital portfolio is priced far below its value in other systems; if so, exit itself is the largest value-add move.",
+      "source_chapter": "《青渊回顾录》记辞官经过与当时心境；《论语与算盘》论『官尊民卑』之弊与新商人阶级的使命",
+      "key_concepts": [
+        "身份资本",
+        "辞官从商",
+        "系统估值差",
+        "官尊民卑批判",
+        "退出时机"
+      ],
+      "key_quote_zh": "留在官场，我是众多才俊之一；走进商海，我是唯一带着欧洲制度见识的人——退出即套利。",
+      "key_quote_en": "In officialdom I was one among many talents; in commerce I was the only man carrying firsthand knowledge of European institutions—exit was the arbitrage.",
+      "process_zh": [
+        "编制个人资本组合清单（出身、历练、见识、人脉、信誉）",
+        "分别查询各候选系统对该组合的定价（晋升天花板、稀缺性、变现路径）",
+        "当某系统定价显著低估你的组合时，设计退出路径与过渡缓冲",
+        "在接收系统中立即做出第一个转译动作，把纸面溢价变成实绩"
+      ],
+      "process_en": [
+        "Compile your capital portfolio (origin, experience, insight, network, credit)",
+        "Query each candidate system's pricing of that portfolio (promotion ceiling, scarcity, cash-out paths)",
+        "Where a system prices your portfolio far below its worth, design an exit path with transition buffers",
+        "In the receiving system, immediately execute the first translation move to convert paper premium into results"
+      ],
+      "representative_cases_zh": [
+        "1869年涩泽辞去大藏省任职在即的官职，从『未来的财务官僚』转为『银行家』，成为明治官界唯一完成此转换的人",
+        "他以幕臣身份参与过法国谈判与制度考察，这段在官场只算资历的经历，在商业系统被定价为稀缺的『制度设计能力』",
+        "晚年他拒绝多次入阁邀请（包括大藏大臣），保持『在野经济界领袖』身份——退出也可以是持续的身份策略",
+        "反例警示：同时期才具相当的官僚因舍不得仕途沉没成本而留任，其欧洲见识最终在体系内被闲置作废——不退出的套利等于放弃"
+      ],
+      "representative_cases_en": [
+        "In 1869 Shibusawa resigned from the Ministry of Finance on the eve of promotion, converting from 'bureaucrat-in-waiting' to banker—the only such conversion in Meiji officialdom",
+        "His experience as a bakufu retainer in French negotiations and institutional tours—mere seniority in officialdom—was priced by commerce as scarce 'institutional design capability'",
+        "In old age he repeatedly declined cabinet offers (including Finance Minister), preserving his identity as the economic world's leader outside government—exit as a continuing strategy",
+        "Counterexample: equally able contemporaries, sunk-cost-locked in official careers, let their European insight rust unused within the system—not exiting forfeits the arbitrage"
+      ],
+      "modern_applications_zh": [
+        "跳槽决策：比较自身技能包在不同行业/地域的定价差，而非只比薪资",
+        "体制内外流动：把体制内『资历』转译为市场稀缺能力后退出",
+        "创始人退出：在系统对你估值见顶前兑现身份资本（转身投资人/教练）",
+        "身份风险：退出后如何避免旧系统资本在新系统快速折旧"
+      ],
+      "modern_applications_en": [
+        "Job switches: compare the pricing gap of your skill portfolio across industries/regions, not just salary",
+        "Public-private moves: translate 'seniority' into scarce market capability, then exit",
+        "Founder exits: cash out identity capital before the system's valuation of you peaks (turn investor/coach)",
+        "Identity risk: keep old-system capital from depreciating fast in the new system"
+      ],
+      "related_modes": [
+        "M-SBRY-003",
+        "M-SBRY-005",
+        "M-SBRY-010"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "张謇",
+        "本杰明·富兰克林"
+      ]
+    },
+    {
+      "id": "M-SBRY-008",
+      "mode_code": "M-SBRY-008",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "义勇共生法",
+      "name_en": "Mutual-Aid Commons Method",
+      "category": "社会思想/组织形态",
+      "domain_zh": "劳资共生/共同体构建",
+      "domain_en": "Labor-Management Symbiosis / Community Building",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽面对劳资对立的近代化阵痛，既拒绝资方压榨也拒绝阶级斗争叙事，而是把『共同体共生』设计成制度：企业内设储蓄与共济、员工子弟教育；企业外设慈善医院、孤儿院、贫民救济。他把这套东西理解为『论语的算盘化』——共生不是施舍而是风险共担的结构，它同时降低劳资双方的系统性风险（工人免于赤贫，资方免于罢工与人才流失）。方法上这意味着：把零和冲突重构为共同的外部风险，再设计让双方都因参与共济而受益的制度。",
+      "definition_en": "Facing the pains of industrialization's labor conflict, Shibusawa refused both capitalist exploitation and the class-struggle narrative, instead designing 'communal symbiosis' as institutions: in-company savings and mutual aid, workers' children's education; beyond the firm, charitable hospitals, orphanages, poor relief. He understood this as 'the Analects made computational'—symbiosis is not charity but a risk-sharing structure that lowers systemic risk for both sides (workers spared destitution, capital spared strikes and talent flight). Methodologically: reframe a zero-sum conflict as a shared external risk, then design institutions where both sides benefit from joining the mutual fund.",
+      "source_chapter": "《论语与算盘》论劳资协调与『大我』；涩泽主导的慈善事业（柏木共立爱护医院、三田尊经阁与贫民教育实践）",
+      "key_concepts": [
+        "劳资协调",
+        "共济",
+        "共同体共生",
+        "风险共担",
+        "社会企业先声"
+      ],
+      "key_quote_zh": "劳资不是敌人，赤贫与罢工才是共同的敌人——共济制度把两者的胜负改写成共同的风险表。",
+      "key_quote_en": "Labor and capital are not enemies; destitution and strikes are the common enemies—mutual aid rewrites their contest into a shared risk table.",
+      "process_zh": [
+        "把零和冲突的双方损益改写为共同的系统性风险清单",
+        "设计共济结构：双方按可承受比例出资，收益为风险缓释而非利润",
+        "从小范围示范（一厂一院）验证制度可自持，再推广",
+        "以传统伦理话语为制度提供意义框架，降低推广阻力"
+      ],
+      "process_en": [
+        "Rewrite both sides' gains and losses in the zero-sum conflict as a shared systemic-risk list",
+        "Design the mutual-aid structure: both contribute at bearable ratios; the return is risk mitigation, not profit",
+        "Validate self-sustainability in a small demonstration (one plant, one ward) before scaling",
+        "Frame the institution in inherited ethical language to lower adoption resistance"
+      ],
+      "representative_cases_zh": [
+        "涩泽推动企业内储蓄组合与共济制度，日本近代企业福利制度的雏形多出自涩泽系企业",
+        "他创设柏木共立爱护医院（贫民与结核病人救济），以『不以营利为目的的法人』形态运营，开创日本社会事业法人化先河",
+        "面向失业者与不良少年的教养院、感化院网络，他把『救济』设计为『再生产劳动力与国民』的社会投资",
+        "反例警示：拒绝共济、纯压低工资的同期工厂在劳资骚动中损失远超共济成本——不参与风险共担的一方最终独自承担全部风险"
+      ],
+      "representative_cases_en": [
+        "He promoted in-company savings schemes and mutual aid; the germ of Japan's modern corporate welfare largely came out of Shibusawa firms",
+        "He founded the Kashiwagi Kyoitsu Aigo Hospital (relief for the poor and tubercular), run as a non-profit corporation—a pioneer of incorporated social work in Japan",
+        "Across reformatories and training homes for the unemployed and delinquent youth, he designed 'relief' as social investment in reproducing labor and citizenry",
+        "Counterexample: factories of the era that refused mutual aid and simply cut wages lost far more in labor unrest than mutual aid would have cost—the side refusing risk-sharing ends up bearing all the risk alone"
+      ],
+      "modern_applications_zh": [
+        "平台用工：把骑手/司机的保障设计为平台自身的风险缓释资产",
+        "劳资谈判：从瓜分存量改为共同削减外部风险（波动、事故、流失）",
+        "ESG 实操：把公益做成风险共担结构而非捐赠公关",
+        "社区营造：以共济与小额金融重建本地共同体"
+      ],
+      "modern_applications_en": [
+        "Gig platforms: design riders'/drivers' protections as the platform's own risk-mitigation asset",
+        "Labor negotiation: from splitting the pie to jointly shrinking external risks (volatility, accidents, churn)",
+        "ESG in practice: build social programs as risk-sharing structures, not donation PR",
+        "Community building: rebuild local commons with mutual aid and microfinance"
+      ],
+      "related_modes": [
+        "M-SBRY-001",
+        "M-SBRY-006",
+        "M-SBRY-009"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "罗伯特·欧文",
+        "武者小路实笃"
+      ]
+    },
+    {
+      "id": "M-SBRY-009",
+      "mode_code": "M-SBRY-009",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "恩义资产负债法",
+      "name_en": "Ledger-of-Obligation Method",
+      "category": "伦理学/人生战略",
+      "domain_zh": "恩义关系/无价之债的主动管理",
+      "domain_en": "Obligation Relations / Actively Managing Priceless Debts",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽提出一个罕见的伦理记账法：恩义与负恩是真实存在的资产与负债，只是不以货币计价。他一生最重的一笔『负债』是对德川庆喜的负恩（他是庆喜家臣），而其恩主在明治初期被新政权定为朝敌。涩泽的做法不是避嫌切割，而是主动持有并公开经营这笔负债：为庆喜恢复名誉奔走数十年、设立恩义财团、把青渊（庆喜别号）作为自己的号。他把无价之债的清偿设计为长期公开行动，使其转化为最硬的社会信用——『对旧主尚且如此，对出资人会如何』。方法上这意味着：识别自己无价之债的清单，主动设计清偿动作，而不是假装它们不存在。",
+      "definition_en": "Shibusawa proposed a rare ethical bookkeeping: obligation and indebtedness are real assets and liabilities, only not denominated in money. His heaviest 'liability' was the debt owed to Tokugawa Yoshinobu, his lord whom the new regime had branded an enemy of the court. Rather than distance himself, Shibusawa held the debt openly and managed it publicly: decades of campaigning to restore Yoshinobu's honor, an endowment foundation in his name, and taking 'Seien' (Yoshinobu's courtesy name) as his own. He designed the repayment of a priceless debt as long-term public action, converting it into the hardest social credit—'if he treats his old lord so, how will he treat his subscribers?' Methodologically: inventory your unpriceable debts and design repayment actions, instead of pretending they don't exist.",
+      "source_chapter": "《青渊回顾录》论对德川庆喜的负恩与复活名誉运动；涩泽情义基金的设立（1928）",
+      "key_concepts": [
+        "负恩",
+        "恩义",
+        "德川庆喜名誉回复",
+        "青渊",
+        "伦理记账"
+      ],
+      "key_quote_zh": "受人之恩而讳言之，是账簿上最大的坏账——我以一生公开偿还这笔无价之债。",
+      "key_quote_en": "To receive kindness and be silent about it is the worst bad debt on any ledger—I repay this priceless debt publicly, over a lifetime.",
+      "process_zh": [
+        "盘点无价之债清单：谁在你关键节点上付出过不可计价的成本",
+        "承认负债而非切割：公开承认本身即是信用资产",
+        "设计可长期执行的清偿动作（名誉恢复、纪念、基金、传承其价值）",
+        "让清偿行为可见且可核查，使其转化为社会对你的信用评价"
+      ],
+      "process_en": [
+        "Inventory your unpriceable debts: who bore uncountable costs at your critical junctures",
+        "Acknowledge rather than cut ties: public acknowledgment is itself a credit asset",
+        "Design long-executable repayment actions (restoring honor, commemoration, foundations, carrying values forward)",
+        "Make repayment visible and verifiable, converting it into society's credit assessment of you"
+      ],
+      "representative_cases_zh": [
+        "涩泽为恢复德川庆喜名誉奔走四十余年（撰写传记、联络旧臣、向皇室陈情），直至庆喜百年祭时名誉基本恢复",
+        "1928年设立涩泽情义基金（恩义财团），资助旧幕臣遗族与恩义相关事业，把私人恩义转为可持续的组织",
+        "以庆喜别号『青渊』自号，自称『青渊先生』——把负债写进自己的身份",
+        "反例警示：明治转身的旧幕臣多数讳言旧主以求自保，短期安全，但涩泽的对照证明：公开负恩者反而获得新旧两个阵营的最高信任"
+      ],
+      "representative_cases_en": [
+        "Shibusawa spent over forty years restoring Yoshinobu's honor (biographies, old-vassal networks, petitions to the court), largely achieved by the centenary",
+        "In 1928 he endowed the Shibusawa Foundation of Obligation, supporting bereaved families of former bakufu retainers—turning private obligation into a sustainable organization",
+        "He took Yoshinobu's courtesy name 'Seien' as his own—writing the debt into his identity",
+        "Counterexample: most former bakufu men who turned Meiji officials stayed silent about their old lord for safety; Shibusawa's case proves the opposite: public debtors earned the highest trust from both old and new camps"
+      ],
+      "modern_applications_zh": [
+        "职业伦理：公开致谢与回报关键恩人，作为长期信用投资而非人情应酬",
+        "企业传承：公开承认历史负债（裁员、污染、旧渠道）并设计清偿，反而赢得声誉溢价",
+        "创始人关系：对早期出资人与伙伴的『无价之债』做制度化回报",
+        "个人品牌：把『不忘本』从口号变成可核查的长期行动"
+      ],
+      "modern_applications_en": [
+        "Professional ethics: publicly thank and repay key benefactors as a long-term credit investment, not social courtesy",
+        "Corporate legacy: acknowledge historical debts (layoffs, pollution, old channels) publicly and design repayment—earning a reputation premium",
+        "Founder relations: institutionalize repayment of priceless debts to early backers and partners",
+        "Personal brand: turn 'never forgetting one's roots' from slogan into verifiable long-term action"
+      ],
+      "related_modes": [
+        "M-SBRY-001",
+        "M-SBRY-004",
+        "M-SBRY-010"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "德川庆喜",
+        "关羽"
+      ]
+    },
+    {
+      "id": "M-SBRY-010",
+      "mode_code": "M-SBRY-010",
+      "figure_code": "H-SBRY-001",
+      "name_zh": "角色转换不换轴法",
+      "name_en": "Constant-Axis-across-Role-Changes Method",
+      "category": "人生战略/自我治理",
+      "domain_zh": "身份转换中的一贯性/价值观锚定",
+      "domain_en": "Consistency across Identity Changes / Anchoring by Values",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "涩泽一生换了至少六个角色（农家长子、汉学塾生、幕臣、官僚、实业家、社会事业家），但观察其决策可发现一条不变的主轴：以《论语》的义利观为操作系统、以『为社会而非为己聚财』为终极目标、以不置私产不传子孙为边界条件。角色可以全换，轴不能换——正是这条不变的轴，使他在每个新角色里都能迅速获得信任（人们知道他不会被角色腐蚀）。方法上这意味着：规划多次身份转换的人生时，先明确一条可跨系统通用的价值主轴与边界条件，把一切角色变动都解释为主轴在新系统内的应用。",
+      "definition_en": "Shibusawa changed roles at least six times (farm eldest son, Confucian student, bakufu retainer, official, industrialist, social reformer), yet one constant axis runs through his decisions: the Analects' view of righteousness and profit as operating system, 'amassing wealth for society, not oneself' as the ultimate aim, and no private fortune and no hereditary succession as boundary conditions. Roles may change entirely; the axis must not—precisely this unchanging axis won him trust swiftly in each new role (people knew he could not be corrupted by the role). Methodologically: when planning a life of multiple identity changes, first fix a value axis and boundary conditions valid across systems, and interpret every role change as that axis applied within a new system.",
+      "source_chapter": "《青渊回顾录》全书自述一条主轴贯穿诸角色；《论语与算盘》末章论人格的一贯",
+      "key_concepts": [
+        "价值主轴",
+        "角色转换",
+        "不置私产",
+        "不传子孙",
+        "人格一贯"
+      ],
+      "key_quote_zh": "角色尽可换，轴不可换——人们信我，不是信我做过的角色，而是信那条从未动过的轴。",
+      "key_quote_en": "Change every role, but not the axis—people trusted not the roles I held but the axis I never moved.",
+      "process_zh": [
+        "提炼自己的价值主轴：一条你愿以任何角色为其背书的命题",
+        "设定边界条件（不做什么），使其在角色转换中保持可核查",
+        "每次角色转换时，公开说明新角色如何服务旧主轴，完成叙事连续性",
+        "定期审计：角色内的得利是否已开始侵蚀主轴或边界条件"
+      ],
+      "process_en": [
+        "Distill your value axis: one proposition you would endorse from any role",
+        "Set boundary conditions (what you will not do) that stay verifiable across role changes",
+        "At each transition, publicly explain how the new role serves the old axis, keeping the narrative continuous",
+        "Audit regularly: whether in-role gains have begun eroding the axis or the boundaries"
+      ],
+      "representative_cases_zh": [
+        "从幕臣到明治重商的转向中，涩泽公开解释为『为民富即为国本』——同一条儒家逻辑在新系统内的应用，而非叛变",
+        "他参与500家企业却终身租房而居、不置私产、不传子孙于事业，边界条件的可核查性使其人格信用无人质疑",
+        "晚年全力转入社会事业与道德教育（《论语》讲演、道德经济合一运动），实业家角色的终点回到青年时代立下的主轴",
+        "反例警示：随角色漂移价值立场的同代实业家，每换一次赛道都要重建信任成本；轴不稳者，角色越多信用越薄"
+      ],
+      "representative_cases_en": [
+        "In turning from bakufu retainer to Meiji man of commerce he explained it publicly as 'the wealth of the people is the foundation of the nation'—the same Confucian logic applied in a new system, not betrayal",
+        "He joined in founding 500 enterprises yet rented housing all his life, held no private fortune, and passed none of the enterprises to heirs—the verifiability of his boundaries made his personal credit unquestioned",
+        "In old age he threw himself into social enterprise and moral education (Analects lectures, the morality-and-economy movement), the industrialist role ending where his youthful axis began",
+        "Counterexample: contemporaries whose values drifted with each role paid trust-rebuilding costs at every turn; for those with no stable axis, the more roles, the thinner the credit"
+      ],
+      "modern_applications_zh": [
+        "多次转型者的人生设计：先定轴，再选角色，让履历成为主轴的证据链",
+        "公众人物信任管理：边界条件公开且可核查（如不持股、不兼薪）",
+        "家族传承：传主轴与边界条件，而非仅传资产",
+        "组织创始人：以不变价值轴对冲业务多次转型的信任损耗"
+      ],
+      "modern_applications_en": [
+        "Designing a multi-pivot life: fix the axis first, then pick roles, so the résumé becomes evidence of the axis",
+        "Trust management for public figures: publish verifiable boundary conditions (no shares held, no dual salaries)",
+        "Family succession: hand down the axis and boundaries, not merely assets",
+        "Founders: hedge trust erosion across business pivots with an unchanging value axis"
+      ],
+      "related_modes": [
+        "M-SBRY-001",
+        "M-SBRY-007",
+        "M-SBRY-009"
+      ],
+      "representative_figures": [
+        "涩泽荣一",
+        "王阳明",
+        "本杰明·富兰克林"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "schema_version": "v6",
+  "code": "H-SQ-001",
+  "figure_name": "司马迁",
+  "figure_code": "战国",
+  "figure_pinyin": "Sīmǎ Qiān",
+  "birth_year": -145,
+  "death_year": -86,
+  "era": "西汉",
+  "school": "史学",
+  "style_name": "史圣",
+  "courtesy_name": "子长",
+  "representative_works": [
+    "《史记》",
+    "《太史公自序》",
+    "《报任安书》"
+  ],
+  "historical_significance": "中国史学奠基人，《史记》作者，开创纪传体史书体例。曾任太史令，因李陵事件受腐刑，发愤著书完成《史记》一百三十篇，五十二万字，记载上至黄帝下至汉武帝三千年的历史。提出'究天人之际，通古今之变，成一家之言'的史学纲领，建立以人物为中心的历史叙事方法，开创中国史学传统。",
+  "core_thoughts": [
+    "纪传体创制法（本纪/世家/列传/书/表五体合一）",
+    "究天人之际法（探究天道与人事关系、历史哲学维度）",
+    "通古今之变法（纵向贯通三千年、横向囊括多领域）",
+    "善述不善作法（传承规范、不求创新、求稳重）",
+    "发愤著书法（苦难转化为创作动力、忍辱负重）",
+    "探赜索隐法（深入挖掘历史真相、钩深致远）",
+    "人文叙事法（以个体命运映照时代变迁、建立史家主体性）"
+  ],
+  "famous_quote": "究天人之际，通古今之变，成一家之言",
+  "influence": "确立中国史学基本范式，纪传体成为后世正史标准体例；开创以人物为中心的历史叙事传统；建立'史才、史学、史识'的史学评价标准；其'发愤著书'精神影响后世文人创作态度；《史记》成为文学与史学双重经典，被鲁迅誉为'史家之绝唱，无韵之离骚'。",
+  "thinking_modes_count": 7,
+  "cross_references": {
+    "H-HZ-001": {
+      "figure_name": "孔子",
+      "relationship": "儒家道统与史学传统的关系"
+    },
+    "H-XZ-001": {
+      "figure_name": "荀子",
+      "relationship": "性恶论与历史观的联系"
+    }
+  },
+  "related_figures": [
+    "H-HZ-001",
+    "H-XZ-001"
+  ],
+  "thinking_modes": [
+    {
+      "id": "M301",
+      "name_zh": "纪传体创制法",
+      "name_en": "Annals-Biography System Creation Method",
+      "category": "史学方法论",
+      "domain_zh": "史学编纂",
+      "domain_en": "Historiography Compilation",
+      "level": "基础方法",
+      "priority": 0,
+      "definition_zh": "创制以人物为中心的纪传体史书体例，将本纪（帝王）、世家（诸侯）、列传（人物）、书（典章制度）、表（年月世系）五体合一，打破编年体局限，建立以人物命运为主线的历史叙事框架。",
+      "definition_en": "Create a biography-centered historiography system combining five genres: Annals (emperors), Hereditary Houses (nobles), Biographies (individuals), Treatises (institutions), and Tables (chronology), overcoming chronicle limitations and establishing a historical narrative framework centered on human destiny.",
+      "source_chapter": "《史记·太史公自序》《汉书·司马迁传》",
+      "key_concepts": [
+        "纪传体",
+        "本纪",
+        "世家",
+        "列传",
+        "书",
+        "表",
+        "人物中心"
+      ],
+      "process_zh": [
+        "确定历史叙事的核心是人物而非事件",
+        "设计五体结构：帝王本纪、诸侯世家、人物列传、典章书、年代表",
+        "建立以人物命运为主线的历史发展脉络",
+        "通过人物群像展现历史变迁和社会结构"
+      ],
+      "process_en": [
+        "Establish human character rather than events as narrative core",
+        "Design five-genre structure: imperial annals, noble houses, biographies, treatises, chronological tables",
+        "Create historical development trajectory through character destinies",
+        "Show historical change and social structure through character portraits"
+      ],
+      "modern_applications_zh": [
+        "人物传记写作",
+        "组织历史研究",
+        "构建个人发展史",
+        "多维度人物档案"
+      ],
+      "modern_applications_en": [
+        "Biographical writing",
+        "Historical research organization",
+        "Personal development history",
+        "Multi-dimensional character profiling"
+      ],
+      "related_modes": [
+        "M302",
+        "M303"
+      ],
+      "key_quote_zh": "究天人之际，通古今之变，成一家之言",
+      "key_quote_en": "Investigate the relationship between heaven and man, understand change through all ages, and establish one's own school of thought"
+    },
+    {
+      "id": "M302",
+      "name_zh": "究天人之际法",
+      "name_en": "Investigating Heaven-Human Relationship Method",
+      "category": "历史哲学",
+      "domain_zh": "史学理论",
+      "domain_en": "Historiography Theory",
+      "level": "核心方法",
+      "priority": 1,
+      "definition_zh": "探究天道自然规律与人事社会发展之间的辩证关系，建立历史哲学维度，理解历史发展中的必然性与偶然性、规律性与能动性的统一。",
+      "definition_en": "Explore the dialectical relationship between natural heavenly principles and human social development, establish historical philosophical dimensions, and understand the unity of necessity and contingency, regularity and agency in historical development.",
+      "source_chapter": "《史记·天官书》《史记·货殖列传》",
+      "key_concepts": [
+        "天人关系",
+        "天道",
+        "人事",
+        "历史哲学",
+        "必然性",
+        "偶然性"
+      ],
+      "process_zh": [
+        "分析历史事件中的自然因素与人为因素",
+        "识别历史发展中的规律性趋势和偶然性事件",
+        "理解天道与人事的互动关系",
+        "建立历史发展的哲学解释框架"
+      ],
+      "process_en": [
+        "Analyze natural and human factors in historical events",
+        "Identify regular trends and偶然性 in historical development",
+        "Understand the interaction between heaven and human affairs",
+        "Establish philosophical explanatory framework for historical development"
+      ],
+      "modern_applications_zh": [
+        "历史哲学研究",
+        "社会发展预测",
+        "政策制定分析",
+        "历史教育方法"
+      ],
+      "modern_applications_en": [
+        "Historical philosophy research",
+        "Social development prediction",
+        "Policy analysis",
+        "History education methods"
+      ],
+      "related_modes": [
+        "M301",
+        "M303"
+      ],
+      "key_quote_zh": "究天人之际，通古今之变",
+      "key_quote_en": "Investigate the relationship between heaven and man, understand change through all ages"
+    },
+    {
+      "id": "M303",
+      "name_zh": "通古今之变法",
+      "name_en": "Understanding Historical Change Through Ages Method",
+      "category": "历史方法论",
+      "domain_zh": "历史分析",
+      "domain_en": "Historical Analysis",
+      "level": "核心方法",
+      "priority": 2,
+      "definition_zh": "纵向贯通上下三千年历史，横向囊括政治、经济、文化、军事等多领域，识别历史演进规律，建立完整的历史发展观。",
+      "definition_en": "Vertically connect three thousand years of history, horizontally encompass politics, economy, culture, military and other domains, identify historical evolution patterns, and establish a comprehensive view of historical development.",
+      "source_chapter": "《史记·八书》《史记·十二诸侯年表》",
+      "key_concepts": [
+        "古今贯通",
+        "多领域分析",
+        "历史规律",
+        "演进模式",
+        "整体观"
+      ],
+      "process_zh": [
+        "建立完整的时间跨度概念，理解历史连续性",
+        "从多维度分析历史发展的复杂性和多样性",
+        "识别历史发展的周期性和阶段性特征",
+        "总结历史演进的基本规律和模式"
+      ],
+      "process_en": [
+        "Establish comprehensive time span concept and understand historical continuity",
+        "Analyze complexity and diversity of historical development from multiple dimensions",
+        "Identify cyclical and阶段性特征 of historical development",
+        "Summarize basic laws and patterns of historical evolution"
+      ],
+      "modern_applications_zh": [
+        "历史趋势分析",
+        "社会发展研究",
+        "战略规划制定",
+        "跨学科历史研究"
+      ],
+      "modern_applications_en": [
+        "Historical trend analysis",
+        "Social development research",
+        "Strategic planning",
+        "Interdisciplinary historical research"
+      ],
+      "related_modes": [
+        "M301",
+        "M302"
+      ],
+      "key_quote_zh": "通古今之变，成一家之言",
+      "key_quote_en": "Understand change through all ages and establish one's own school of thought"
+    },
+    {
+      "id": "M304",
+      "name_zh": "善述不善作法",
+      "name_en": "Good Narration Rather Than Creation Method",
+      "category": "史学伦理",
+      "domain_zh": "史学规范",
+      "domain_en": "Historiography Ethics",
+      "level": "方法论",
+      "priority": 3,
+      "definition_zh": "传承历史记载的规范和传统，尊重史实，不随意创作和虚构，保持客观中立的史学态度，以传承历史真相为首要任务。",
+      "definition_en": "Inherit historical documentation standards and traditions, respect historical facts, avoid arbitrary creation and fiction, maintain objective and neutral historiography attitude, with preserving historical truth as primary task.",
+      "source_chapter": "《史记·太史公自序》《汉书·司马迁传》",
+      "key_concepts": [
+        "史实尊重",
+        "客观中立",
+        "传承规范",
+        "不虚构",
+        "史学伦理"
+      ],
+      "process_zh": [
+        "严格考证历史资料的真实性",
+        "区分史实与传说、观点与事实",
+        "保持客观中立的叙述立场",
+        "遵循历史记载的规范和传统"
+      ],
+      "process_en": [
+        "Strictly verify authenticity of historical materials",
+        "Distinguish between facts and legends, views and facts",
+        "Maintain objective and neutral narrative position",
+        "Follow documentation standards and traditions"
+      ],
+      "modern_applications_zh": [
+        "学术研究规范",
+        "历史教育方法",
+        "新闻报道原则",
+        "档案管理标准"
+      ],
+      "modern_applications_en": [
+        "Academic research standards",
+        "History education methods",
+        "News reporting principles",
+        "Archival management standards"
+      ],
+      "related_modes": [
+        "M305",
+        "M306"
+      ],
+      "key_quote_zh": "善述而不善作",
+      "key_quote_en": "Good at narration rather than creation"
+    },
+    {
+      "id": "M305",
+      "name_zh": "发愤著书法",
+      "name_en": "Writing in Anger and Perseverance Method",
+      "category": "创作心理学",
+      "domain_zh": "精神动力",
+      "domain_en": "Creative Psychology",
+      "level": "实践方法",
+      "priority": 4,
+      "definition_zh": "将个人苦难和挫折转化为创作动力，忍辱负重，坚持完成历史使命，以'文王拘而演周易，仲尼厄而作春秋，屈原放逐乃赋离骚'的精神激励自己。",
+      "definition_en": "Transform personal suffering and setbacks into creative motivation, endure humiliation and persevere to complete historical mission, inspired by the spirit of 'King Wen imprisoned and created the I Ching, Confucius in distress wrote the Spring and Autumn Annals, Qu Yuan exiled composed the Li Sao'.",
+      "source_chapter": "《报任安书》《史记·太史公自序》",
+      "key_concepts": [
+        "发愤",
+        "忍辱负重",
+        "创作动力",
+        "精神激励",
+        "历史使命"
+      ],
+      "process_zh": [
+        "将个人遭遇转化为创作动力",
+        "在逆境中保持创作热情和毅力",
+        "以历史使命感激励自己克服困难",
+        "通过创作实现个人价值和社会价值"
+      ],
+      "process_en": [
+        "Transform personal experiences into creative motivation",
+        "Maintain creative enthusiasm and perseverance in adversity",
+        "Inspire oneself to overcome difficulties through historical mission",
+        "Achieve personal and social value through creation"
+      ],
+      "modern_applications_zh": [
+        "逆境创作心理学",
+        "精神动力培养",
+        "历史使命感教育",
+        "个人成长激励"
+      ],
+      "modern_applications_en": [
+        "Adversity creation psychology",
+        "Spiritual motivation cultivation",
+        "Historical mission education",
+        "Personal growth motivation"
+      ],
+      "related_modes": [
+        "M304",
+        "M307"
+      ],
+      "key_quote_zh": "文王拘而演周易，仲尼厄而作春秋，屈原放逐乃赋离骚",
+      "key_quote_en": "King Wen imprisoned and created the I Ching, Confucius in distress wrote the Spring and Autumn Annals, Qu Yuan exiled composed the Li Sao"
+    },
+    {
+      "id": "M306",
+      "name_zh": "探赜索隐法",
+      "name_en": "Exploring Profound and Hidden Method",
+      "category": "史料考证",
+      "domain_zh": "历史研究",
+      "domain_en": "Historical Research",
+      "level": "研究方法",
+      "priority": 5,
+      "definition_zh": "深入挖掘历史真相，探究事物的本质和深层原因，钩深致远，通过细致的史料考证和逻辑分析还原历史本来面目。",
+      "definition_en": "Deeply explore historical truth, investigate the essence and deep causes of things, delve deep and reach far, restore the original face of history through detailed historical material research and logical analysis.",
+      "source_chapter": "《史记·货殖列传》《史记·游侠列传》",
+      "key_concepts": [
+        "探赜索隐",
+        "钩深致远",
+        "史料考证",
+        "逻辑分析",
+        "还原真相"
+      ],
+      "process_zh": [
+        "收集和考证各种历史资料",
+        "分析历史事件背后的深层原因",
+        "通过逻辑推理还原历史过程",
+        "探究历史现象的本质和规律"
+      ],
+      "process_en": [
+        "Collect and verify various historical materials",
+        "Analyze deep causes behind historical events",
+        "Restore historical processes through logical reasoning",
+        "Explore essence and patterns of historical phenomena"
+      ],
+      "modern_applications_zh": [
+        "历史研究方法",
+        "社会现象分析",
+        "问题根源探究",
+        "深度思考训练"
+      ],
+      "modern_applications_en": [
+        "Historical research methods",
+        "Social phenomenon analysis",
+        "Root cause investigation",
+        "Deep thinking training"
+      ],
+      "related_modes": [
+        "M303",
+        "M307"
+      ],
+      "key_quote_zh": "探赜索隐，钩深致远",
+      "key_quote_en": "Explore the profound and hidden, delve deep and reach far"
+    },
+    {
+      "id": "M307",
+      "name_zh": "人文叙事法",
+      "name_en": "Humanistic Narrative Method",
+      "category": "史学表达",
+      "domain_zh": "文学史学",
+      "domain_en": "Literary Historiography",
+      "level": "表达方法",
+      "priority": 6,
+      "definition_zh": "以个体命运映照时代变迁，通过生动的人物描写和故事叙述展现历史，建立史家主体性，使历史叙述具有人文关怀和文学价值。",
+      "definition_en": "Reflect historical changes through individual destinies, show history through vivid character descriptions and story narratives, establish historiographer subjectivity, and make historical narration possess humanistic care and literary value.",
+      "source_chapter": "《史记·项羽本纪》《史记·刺客列传》",
+      "key_concepts": [
+        "个体命运",
+        "时代变迁",
+        "人文关怀",
+        "文学价值",
+        "史家主体性"
+      ],
+      "process_zh": [
+        "选择具有代表性的历史人物",
+        "通过人物命运展现历史变迁",
+        "运用文学手法增强历史叙述的感染力",
+        "建立史家的独立思考和判断"
+      ],
+      "process_en": [
+        "Select representative historical figures",
+        "Show historical changes through character destinies",
+        "Use literary techniques to enhance historical narrative appeal",
+        "Establish historian's independent thinking and judgment"
+      ],
+      "modern_applications_zh": [
+        "历史文学创作",
+        "人物传记写作",
+        "历史教育方法",
+        "文化传承方式"
+      ],
+      "modern_applications_en": [
+        "Historical literary creation",
+        "Biographical writing",
+        "History education methods",
+        "Cultural inheritance methods"
+      ],
+      "related_modes": [
+        "M301",
+        "M306"
+      ],
+      "key_quote_zh": "究天人之际，通古今之变，成一家之言",
+      "key_quote_en": "Investigate the relationship between heaven and man, understand change through all ages, and establish one's own school of thought"
+    }
+  ]
+}

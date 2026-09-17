@@ -1,0 +1,848 @@
+{
+  "schema_version": "v6",
+  "id": "H-WZT-001",
+  "code": "H-WZT-001",
+  "figure_name": "武则天",
+  "figure_code": "H-WZT-001",
+  "figure_pinyin": "Wǔ Zétiān (Wu Zetian / Wu Zhao)",
+  "birth_year": 624,
+  "death_year": 705,
+  "era": "唐代至武周政治与制度改革时代 / Tang-Wu Zhou Statesmanship & Institutional Reform Era (624-705)",
+  "school": "政治战略/制度设计/合法性工程 / Political Strategy / Institutional Design / Legitimacy Engineering",
+  "historical_significance": "中国历史上唯一的正统女皇帝，武周开国君主（690-705在位）。以才人入宫、后为高宗皇后，最终代唐建周。核心贡献：科举制的革命性改造（殿试、武举、糊名制度的开创）、寒门宰相集团的系统性提拔、酷吏体制的工具化使用与事后清算、佛教意识形态对儒家正统的替代性建构（《大云经》注疏与弥勒下生说）、洛阳神都的权力空间再造、无字碑的自我评价留白。她是一个把制度当杠杆、把合法性当工程、把人心当资产来经营的政治战略家。",
+  "unique_thinking": "以制度杠杆为入口、以人事池更换为权力基础、以信息与恐惧的工程化治理为手段、以合法性框架换轨与符号再造为意识形态武器的完整政治工程体系。其思维特质在于：把一切权力问题还原为结构问题——制度把合法性分配给谁、人事池忠于谁、信息在哪个通道流动、评价权由谁掌握——然后逐格改造结构而非逐个击败对手；并懂得为每一件高压工具预设退出机制与清算叙事。",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-WZT-001",
+    "M-WZT-002",
+    "M-WZT-003",
+    "M-WZT-004",
+    "M-WZT-005",
+    "M-WZT-006",
+    "M-WZT-007",
+    "M-WZT-008",
+    "M-WZT-009",
+    "M-WZT-010"
+  ],
+  "key_concepts": [
+    "殿试",
+    "Palace Examination",
+    "武举",
+    "Military Examination",
+    "寒门",
+    "Commoner-born Officials",
+    "关陇贵族",
+    "Guanlong Aristocracy",
+    "铜匦",
+    "Bronze Petition Box",
+    "酷吏",
+    "Secret Police (Kuli)",
+    "《大云经》",
+    "Dayun Sutra",
+    "弥勒下生",
+    "Maitreya Incarnation",
+    "转轮圣王",
+    "Chakravartin",
+    "神都洛阳",
+    "Divine Capital Luoyang",
+    "则天文字",
+    "Zetian Characters",
+    "曌",
+    "Zhao (Sun-Moon Character)",
+    "无字碑",
+    "Wordless Stele",
+    "立储",
+    "Succession",
+    "合法性",
+    "Legitimacy",
+    "制度杠杆",
+    "Institutional Leverage"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-HFZ-001",
+      "target_figure_name": "韩非",
+      "relation_type": "法术势理论的政治执行版：韩非立论，武则天操作",
+      "description_zh": "韩非为君主提供了一套'法术势'的理论体系——以法束众、以术御臣、以势立威（M-HFZ 系列）；武则天则是这套理论史上少有的完整执行者：铜匦告密是'术'的信息工程（M-WZT-003），酷吏清算与开关垄断是'势'的运作（M-WZT-004/M-WZT-008），科举改造是'法'的上升通道重构（M-WZT-001）。同构处在于：都把忠诚视为结构性变量而非道德变量；差异在于韩非是旁观的理论家，武则天是在'牝鸡司晨'的合法性绝境中把理论用到极限的实践者。",
+      "bidirectional_hint": "韩非档案（H-HFZ-001）未来修订时可在'法术势'处补一条指向 H-WZT-001 的跨引用（法术势的大规模政治执行版本）。"
+    },
+    {
+      "target_figure_code": "H-SY-001",
+      "target_figure_name": "商君",
+      "relation_type": "制度再造的两条路线：耕战上升通道 vs 科举上升通道",
+      "description_zh": "商鞅变法的核心是重构秦国的上升通道——军功爵制取代世卿世禄，把贵族的人事垄断拆掉（M403~M412 系列）；武则天创殿试、武举、扩进士科，把人才选拔权从关陇贵族手里收归御前（M-WZT-001/M-WZT-002）。两人共享同一方法论签名：不与旧贵族正面夺权，而是新建一条绕开旧贵族的晋升管道，让忠诚随新的授权结构自然生长。差异在于商鞅以耕战立国、以法任教，武则天以科举取士、以恩主结党。",
+      "bidirectional_hint": "商君档案（H-SY-001）未来修订时可在'制度继承/上升通道'处补一条指向 H-WZT-001 的跨引用（科举通道重构的唐代版本）。"
+    },
+    {
+      "target_figure_code": "H-DZS-001",
+      "target_figure_name": "董仲舒",
+      "relation_type": "合法性建构的两极：在天命框架内加冕 vs 换掉框架本身",
+      "description_zh": "董仲舒的天人感应把儒家抬为国教，为皇权在既有框架内提供宇宙论背书（M01~M10 系列）；武则天面对的却是框架本身拒绝她——儒家'牝鸡司晨'的教义不给她任何位置，于是她整体换轨到佛教框架，以《大云经》弥勒授记自称转轮圣王（M-WZT-005）。对照极为鲜明：董仲舒做的是'框架内的合法性加冕'，武则天做的是'框架选择权的夺取'——后者揭示了合法性工程更深一层：先争用什么框架，再争框架内的结论。",
+      "bidirectional_hint": "董仲舒档案（H-DZS-001）未来修订时可在'天人感应/国教化'处补一条指向 H-WZT-001 的跨引用（合法性框架换轨的对照版本）。"
+    },
+    {
+      "target_figure_code": "H-CW-001",
+      "target_figure_name": "克劳塞维茨",
+      "relation_type": "暴力/恐怖的工具理性两极：无限摩擦 vs 预设退出",
+      "description_zh": "克劳塞维茨把暴力视为政治的延续，强调其必须服从政治目的、且受'摩擦'约束（M-CW 系列）；武则天把恐怖同样当作政治工具，但走得更远——她不仅让酷吏服从政治目的，还为恐怖本身预设了分期退出与清算叙事（M-WZT-008）：政权稳固后亲手杀来俊臣、赦被罗织者，把转向做成一次权力展示。对照在于：克劳塞维茨回答'暴力如何服从政治'，武则天示范'恐惧如何被开关'——工具的道德成本被外包给可弃置代理人，开关垄断在主政者手中。",
+      "bidirectional_hint": "克劳塞维茨档案（H-CW-001）未来修订时可在'暴力与政治目的'处补一条指向 H-WZT-001 的跨引用（恐怖分期退出的宫廷政治版本）。"
+    },
+    {
+      "target_figure_code": "H-MAN-001",
+      "target_figure_name": "纳尔逊·曼德拉",
+      "relation_type": "权力交接的两极：以和解固权 vs 以清算与对冲固权",
+      "description_zh": "曼德拉在胜选后以真相与和解工程换取政权软着陆，主动自我限权（M-MAN 系列）；武则天在权力困局（立储）中则选择识别两害中的较优支、以联姻与誓约对冲风险（M-WZT-007），并以无字碑把身后评价权让渡给后世（M-WZT-010）。两人共同面对的问题是：权力终局如何保全身位与名声；对照在于：曼德拉以道德资本兑付未来，武则天以结构安排（葬制、联姻、留白）对冲未来——一个是价值路线，一个是工程路线。",
+      "bidirectional_hint": "曼德拉档案（H-MAN-001）未来修订时可在'权力交接'处补一条指向 H-WZT-001 的跨引用（身后评价工程的对冲版本）。"
+    },
+    {
+      "target_figure_code": "H-AR-001",
+      "target_figure_name": "汉娜·阿伦特",
+      "relation_type": "恐惧治理的诊断者与操盘者：无思服从 vs 被监视预期",
+      "description_zh": "阿伦特诊断极权体制的运行机理：靠原子化的孤立个体、告密网络与'无思'的服从维持（M-AR 系列）；武则天则是这套机理的前现代操盘者——铜匦告密制度人为制造'任何人都可能已被出卖'的被监视预期，使反武同盟无法结成（M-WZT-003）。同构处在于：两者都看清恐惧治理的核心产出不是情报而是'被监视的预期'；价值对立在于：阿伦特以此诊断恶，武则天以此构造权力——档案对照恰好构成同一机制的正反两册。",
+      "bidirectional_hint": "阿伦特档案（H-AR-001）未来修订时可在'极权机器/告密社会'处补一条指向 H-WZT-001 的跨引用（告密网络的前现代构造版本）。"
+    }
+  ],
+  "tags": [
+    "武则天",
+    "Wu Zetian",
+    "武曌",
+    "Wu Zhao",
+    "女皇帝",
+    "Female Emperor",
+    "武周",
+    "Wu Zhou Dynasty",
+    "唐代",
+    "Tang Dynasty",
+    "殿试",
+    "Palace Examination",
+    "武举",
+    "Military Examination",
+    "科举改造",
+    "Examination Reform",
+    "寒门宰相",
+    "Commoner Chancellors",
+    "关陇贵族",
+    "Guanlong Aristocracy",
+    "铜匦",
+    "Bronze Petition Box",
+    "告密制度",
+    "Informant System",
+    "酷吏",
+    "Secret Police",
+    "来俊臣",
+    "Lai Junchen",
+    "周兴",
+    "Zhou Xing",
+    "《大云经》",
+    "Dayun Sutra",
+    "弥勒下生",
+    "Maitreya",
+    "转轮圣王",
+    "Chakravartin",
+    "神都洛阳",
+    "Divine Capital",
+    "则天文字",
+    "Zetian Characters",
+    "曌",
+    "Zhao Character",
+    "无字碑",
+    "Wordless Stele",
+    "立储困局",
+    "Succession Dilemma",
+    "合法性工程",
+    "Legitimacy Engineering",
+    "制度杠杆",
+    "Institutional Leverage"
+  ],
+  "mode_ids_note": "M-WZT-001 ~ M-WZT-010（figure_code=WuZetian → 编码 H-WZT-001；H-WZ-001 已被王震占用，故武则天启用 H-WZT 新码。库内查重零冲突：M-WZT 前缀 modes_data/code_maps 无占用，C-WZT 场景前缀无占用，H-WZT 编码无占用）",
+  "caveats": [
+    "武则天生卒（624-705）与称帝时间（690 年改唐为周）无争议；但其早年宫廷经历（如安定思公主之死）史料多出自《新唐书》《资治通鉴》的后世追记，事件细节（尤其婴儿猝死是否为她所为）在《旧唐书》与史家（如陈寅恪、雷家骥）中存在真伪之争，引用须区分信史与叙事",
+    "酷吏政治的受害者规模不同史书出入较大；《罗织经》的真伪与成书年代亦有争议，引用酷吏叙事须注明史料层级",
+    "'殿试自此始'的传统表述需注明：载初元年的亲策贡士是殿试制度起点，但殿试成为常制要到宋代；武举的考试细则后世追记成分高",
+    "《大云经》（《大云经疏》）的性质：现藏敦煌的 S.6502 号《大云经疏》显示其是对已有佛经（昙无谶译《大方等无想大云经》）的疏解而非全新伪经——'伪造佛经'的流行说法须修正为'经疏建构'",
+    "无字碑的解读（'功过任人说'）是后世的主流诠释，也有'遗言自评'' tribute 说'等其他假说，引用时不可把单一诠释当作定论",
+    "则天文字在武则天死后多数废止，仅'曌'等个别字流传；其政治效果（符号造字改写现实）远不及她自己宣称的，评价须区分设计意图与实际效力"
+  ],
+  "modes": [
+    {
+      "id": "M-WZT-001",
+      "mode_code": "M-WZT-001",
+      "figure_code": "H-WZT-001",
+      "name_zh": "制度杠杆法",
+      "name_en": "Institutional Leverage Method",
+      "category": "政治哲学/制度设计",
+      "domain_zh": "制度设计/权力运作",
+      "domain_en": "Institutional Design / Power Operations",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "武则天不满足于在既有制度内获取权力，而是把制度本身当作可拆解、可重组的杠杆系统：她改造科举（创殿试、武举），不是为了选才而选才，而是把「人才上升通道」从关陇贵族手里转移到自己手里。任何制度在其使用者眼中都包含一个隐藏的「授权结构」——谁被允许进入、由谁打分、在哪儿举行。撬动这个结构，比正面夺取权力成本更低、且效果可持续。方法上这意味着：分析任何制度时，先问「这个制度把合法性分配给谁」，再决定改哪一环。",
+      "definition_en": "Wu Zetian refused to operate merely within existing institutions; she treated institutions themselves as a disassemblable, recombinable lever system. Her transformation of the examinations (creating the palace exam and military exam) was not selection for its own sake: it moved the 'channel of upward mobility' out of the Guanlong aristocracy's hands into her own. Every institution, in the user's eyes, contains a hidden 'authorization structure'—who is allowed in, who grades, where it convenes. Prying at that structure costs less than frontal seizure of power and is durable. Methodologically: when analyzing any institution, first ask 'to whom does this institution allocate legitimacy,' then decide which link to change.",
+      "source_chapter": "《资治通鉴·唐纪》载初元年二月：太后策贡士于洛成殿，殿试自此始；《新唐书·选举志》",
+      "key_concepts": [
+        "授权结构",
+        "上升通道控制",
+        "殿试",
+        "制度重组",
+        "合法性分配"
+      ],
+      "key_quote_zh": "策贡士于洛成殿，殿试自此始——皇帝亲自做主考，取士之权收于御前。",
+      "key_quote_en": "She examined candidates in person at the Luocheng Hall—thus began the palace examination, gathering the power of selection to the throne itself.",
+      "process_zh": [
+        "绘制目标制度的授权结构图：谁出题、谁评分、谁能参加、向谁负责",
+        "找出该结构中『决定合法性流向』的关键一环",
+        "设计最小改动方案：新增一个环节（如御前亲试）即可改写流向",
+        "用新通道培养受益者，使其成为新结构的捍卫者"
+      ],
+      "process_en": [
+        "Map the target institution's authorization structure: who sets questions, who grades, who may sit, who answers to whom",
+        "Locate the link that determines the flow of legitimacy",
+        "Design the minimal-change intervention: one added stage (e.g. personal examination before the throne) rewrites the flow",
+        "Cultivate beneficiaries of the new channel so they become defenders of the new structure"
+      ],
+      "representative_cases_zh": [
+        "载初元年（690）亲策贡士于洛成殿，开创殿试：考生由「天子门生」直接效忠皇权",
+        "长安二年（702）创设武举，把军功阶层的晋升也纳入自己控制的通道",
+        "大量增加进士科录取名额并重用寒门宰相（如狄仁杰、姚崇），稀释贵族宰相集团"
+      ],
+      "representative_cases_en": [
+        "In 690 she examined candidates personally at Luocheng Hall, founding the palace examination: graduates became 'the Son of Heaven's own disciples' owing loyalty directly to the throne",
+        "In 702 she created the military examination, folding the officer class's advancement into a channel she controlled",
+        "She sharply expanded jinshi quotas and promoted commoner-born chancellors (Di Renjie, Yao Chong), diluting the aristocratic chancellor bloc"
+      ],
+      "modern_applications_zh": [
+        "组织变革：不硬撼权力结构，先改造晋升与考核的授权环节",
+        "平台治理：理解算法/规则把流量与信用分配给谁，再做最小改动",
+        "公共政策设计：识别制度中「决定谁受益」的关键节点",
+        "个人职业战略：选择能积累稀缺授权资源的赛道"
+      ],
+      "modern_applications_en": [
+        "Organizational change: don't batter power structures head-on; rework the authorization points of promotion and evaluation",
+        "Platform governance: understand to whom the algorithm/rules allocate traffic and credit, then make minimal changes",
+        "Public policy: identify the nodes that decide who benefits",
+        "Career strategy: choose tracks that accumulate scarce, authorization-bearing resources"
+      ],
+      "related_modes": [
+        "M-WZT-002",
+        "M-WZT-004",
+        "M-WZT-006"
+      ],
+      "representative_figures": [
+        "武则天",
+        "商鞅",
+        "隋文帝杨坚"
+      ]
+    },
+    {
+      "id": "M-WZT-002",
+      "mode_code": "M-WZT-002",
+      "figure_code": "H-WZT-001",
+      "name_zh": "寒门换血法",
+      "name_en": "Class-Replacement Staffing Method",
+      "category": "组织行为/人事战略",
+      "domain_zh": "组织人事/权力基础再造",
+      "domain_en": "Organizational Staffing / Rebuilding a Power Base",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "武则天面对的最大阻力是根深叶茂的关陇军事贵族集团。她的对策不是逐个击败对手，而是整体更换人事池：系统性提拔没有家族背景的寒门官员。寒门官员的权力完全来自她的任命，因此忠诚度结构性高于旧贵族——旧贵族忠于家族，寒门忠于恩主。当组织的忠诚结构与其成员的社会出身挂钩时，更换人事池比更换政策更根本。方法上这意味着：改革受阻时，先检查执行层是谁的人，而不是先检查方案对不对。",
+      "definition_en": "Wu Zetian's greatest resistance came from the deep-rooted Guanlong military aristocracy. Her response was not to defeat rivals one by one but to replace the personnel pool wholesale: she systematically promoted officials of humble origin with no family base. Such officials owed their power entirely to her appointment, so their loyalty was structurally higher than the old nobility's—the nobility were loyal to their clans, the new men to their patron. When an organization's loyalty structure is tied to members' social origins, changing the personnel pool is more fundamental than changing policy. Methodologically: when reform stalls, first check whose people the executive layer is, not whether the plan is right.",
+      "source_chapter": "《资治通鉴·唐纪》：太后不惜爵位，以笼络四方豪杰自为助，虽妄人称意者，不旋踵辄收举；陆贽论武后用人：「课责既严，进退皆速」",
+      "key_concepts": [
+        "寒门与士族",
+        "结构性忠诚",
+        "人事池更换",
+        "恩主-门生关系",
+        "试错式用人"
+      ],
+      "key_quote_zh": "不拘资格，量才授职——凡有才者，皆可为朕用；用而不称，旋即黜之。",
+      "key_quote_en": "No regard for pedigree, office by talent—anyone with ability may serve; if the appointment fails, dismissal follows at once.",
+      "process_zh": [
+        "诊断现有执行层的忠诚结构：他们的权力来源是组织还是外部集团",
+        "识别组织外未被开发的才俊池，设计低成本进入通道",
+        "大规模试错式任用：速升速贬，以绩效而非出身筛选",
+        "让新人形成利益共同体，使旧势力的抵制失去抓手"
+      ],
+      "process_en": [
+        "Diagnose the loyalty structure of the existing executive layer: does their power come from the organization or an outside bloc",
+        "Identify an untapped talent pool outside the organization and build a low-cost entry channel",
+        "Employ at scale with rapid trial-and-error: fast promotion and fast dismissal, screening by performance not birth",
+        "Let the new cohort form an interest community, depriving the old guard of traction"
+      ],
+      "representative_cases_zh": [
+        "重用狄仁杰、姚崇、宋璟等寒门或非关陇系宰相，武周朝廷人事面貌焕然一新",
+        "陆贽总结武后用人：「课责既严，进退皆速」——提拔快、追责也快，用流动性换取筛选效率",
+        "“请君入瓮”后清算周兴、来俊臣等酷吏，同样说明她对工具型官员只讲效用不讲情面"
+      ],
+      "representative_cases_en": [
+        "She elevated Di Renjie, Yao Chong, Song Jing and other commoner or non-Guanlong chancellors, transforming the court's personnel landscape",
+        "Lu Zhi summed up her staffing: 'strict accountability, swift promotion and swift dismissal'—trading fluidity for screening efficiency",
+        "Her post hoc liquidation of secret-police chiefs Zhou Xing and Lai Junchen shows the same utility-only calculus toward instrumental officials"
+      ],
+      "modern_applications_zh": [
+        "企业转型：旧团队承载不了新战略时，外部引入新人组建平行团队",
+        "创业公司用人：用高流动性的试错筛选代替静态背书（学历、资历）",
+        "组织诊断：先看执行层忠诚结构，再评估战略可行性",
+        "人才战略：为弱势背景人才开设通道，换取结构性忠诚"
+      ],
+      "modern_applications_en": [
+        "Corporate transformation: when the old team cannot carry the new strategy, hire outsiders into a parallel team",
+        "Startup staffing: replace static credentials with high-fluidity trial-and-error screening",
+        "Org diagnosis: examine the executive layer's loyalty structure before judging strategy feasibility",
+        "Talent strategy: open channels for disadvantaged-background talent in exchange for structural loyalty"
+      ],
+      "related_modes": [
+        "M-WZT-001",
+        "M-WZT-003",
+        "M-WZT-008"
+      ],
+      "representative_figures": [
+        "武则天",
+        "曹操",
+        "林肯"
+      ]
+    },
+    {
+      "id": "M-WZT-003",
+      "mode_code": "M-WZT-003",
+      "figure_code": "H-WZT-001",
+      "name_zh": "告密网络法",
+      "name_en": "Informant-Network Intelligence Method",
+      "category": "政治哲学/信息治理",
+      "domain_zh": "信息治理/威慑控制",
+      "domain_en": "Information Governance / Deterrence Control",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "武则天在夺权与固权阶段架设了中国史上罕见的制度化告密系统：铸铜匦（铜箱）置于朝堂，四面设口，鼓励天下告密，且规定「告密者，臣下不得问，皆给驿马，供五品食」。这是把信息获取从依赖层级汇报改造为绕过层级的平行通道——任何官僚都可能在不知情的情况下被告发，于是人人自危、无人敢结成反武同盟。告密网络的真正产出不是情报本身，而是「被监视的预期」。方法上这意味着：控制一个大型系统，与其掌握全部信息，不如让每个节点都相信信息可能已经泄露。",
+      "definition_en": "During her seizure and consolidation of power, Wu Zetian erected one of Chinese history's few institutionalized informant systems: bronze petition boxes (tonggui) set up at the court with four apertures, encouraging denunciation from all under heaven, with the rule that 'no official may question an informant; all are given post-horses and fifth-rank rations'. This rebuilt intelligence-gathering as a parallel channel bypassing the hierarchy—any official might be denounced without knowing it, so everyone stood in fear and none dared form an anti-Wu alliance. The network's real output was not intelligence itself but 'the expectation of being watched'. Methodologically: to control a large system, rather than possessing all information, make every node believe information may already have leaked.",
+      "source_chapter": "《资治通鉴·唐纪》垂拱二年：置铜匦于朝堂，以受天下表疏铭；「有告密者，臣下不得问，皆给驿马，供五品食，使诣行在」",
+      "key_concepts": [
+        "铜匦",
+        "告密制度",
+        "监视预期",
+        "平行信息通道",
+        "恐惧治理"
+      ],
+      "key_quote_zh": "有告密者，臣下不得问——信息通道直接通达御前，中间层级失去过滤权。",
+      "key_quote_en": "No official may question an informant—the information channel runs straight to the throne, stripping intermediate levels of their filtering power.",
+      "process_zh": [
+        "评估现有信息通道的失真点：层级过滤、利益共谋、报喜不报忧",
+        "架设绕过层级的平行通道，并给予告发者超常激励与保护",
+        "选择性使用获得的情报：宁可少用，也要让「可能被用」广为人知",
+        "周期性清洗通道本身（清算酷吏），防止工具反噬主政者"
+      ],
+      "process_en": [
+        "Assess where existing information channels distort: hierarchical filtering, collusion, good-news-only reporting",
+        "Erect a parallel channel bypassing the hierarchy, with extraordinary incentives and protections for informants",
+        "Use the intelligence selectively: better to use it rarely but make 'it might be used' widely known",
+        "Periodically purge the channel itself (liquidating the secret-police chiefs) to keep the tool from devouring its master"
+      ],
+      "representative_cases_zh": [
+        "垂拱二年（686）铸铜匦四面受表：告密者沿途驿马供奉、五品食待遇，天下告密者蜂起",
+        "利用告密网络相继清洗裴炎、程务挺等重臣，粉碎扬州叛乱与宗室起兵的潜在联盟",
+        "事后处死周兴（请君入瓮）、流放来俊臣并处死，公开与酷吏切割以平息恐怖"
+      ],
+      "representative_cases_en": [
+        "In 686 she cast the four-apertured bronze boxes: informants traveled by post-horse with fifth-rank rations, and denunciations surged",
+        "She used the network to purge senior figures such as Pei Yan and Cheng Wuting, shattering potential alliances behind the Yangzhou rebellion and princely uprisings",
+        "She later had Zhou Xing destroyed ('roasting him in his own urn'), and exiled then executed Lai Junchen, publicly cutting ties with the terror apparatus to calm the realm"
+      ],
+      "modern_applications_zh": [
+        "合规与吹哨人制度：给内部举报人独立通道与保护，绕过管理层过滤",
+        "竞争情报：对手之间互相猜疑本身就是防御资产",
+        "安全工程：让潜在攻击者相信「可能已被监测」比全部监测更经济",
+        "管理警示：恐惧型信息网络的成本极高，须有退出与清算机制"
+      ],
+      "modern_applications_en": [
+        "Compliance and whistleblower systems: independent, protected internal reporting channels bypassing management filters",
+        "Competitive intelligence: mutual suspicion among rivals is itself a defensive asset",
+        "Security engineering: convincing potential attackers they 'may already be monitored' is cheaper than monitoring everything",
+        "Management caveat: fear-based information networks carry enormous costs and require exit and liquidation mechanisms"
+      ],
+      "related_modes": [
+        "M-WZT-004",
+        "M-WZT-008",
+        "M-WZT-010"
+      ],
+      "representative_figures": [
+        "武则天",
+        "朱元璋",
+        "斯大林"
+      ]
+    },
+    {
+      "id": "M-WZT-004",
+      "mode_code": "M-WZT-004",
+      "figure_code": "H-WZT-001",
+      "name_zh": "酷吏工具化与清算法",
+      "name_en": "Instrumental Henchman and Post-Hoc Liquidation Method",
+      "category": "政治哲学/权力工具论",
+      "domain_zh": "权力运作/工具理性",
+      "domain_en": "Power Operations / Instrumental Rationality",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "武则天使用周兴、来俊臣等酷吏完成恐吓任务，但从不让他们进入决策核心；任务完成后即公开清算酷吏本人（处死周兴、来俊臣），把民愤转化为自己的「仁明」资本。这是一种把「脏活」外包给可弃置代理人的结构：代理人承担道德成本，主政者收割治理收益并保留最终裁判权。关键约束是：代理人的权力必须完全依附且可随时回收。方法上这意味着：使用有道德争议的工具时，预先设计好该工具的退出与嫁祸机制。",
+      "definition_en": "Wu Zetian used terror officials such as Zhou Xing and Lai Junchen to do intimidation work, never admitting them to the decision-making core; when the task was done she publicly liquidated them, converting popular outrage into her own capital of 'benevolence and clarity'. This is a structure that outsources 'dirty work' to disposable agents: the agent bears the moral cost, the ruler harvests the governance gains and retains final judging authority. The binding constraint: the agent's power must be wholly dependent and recallable at will. Methodologically: when using morally contested instruments, design their exit and blame-shift mechanism in advance.",
+      "source_chapter": "《资治通鉴·唐纪》天授二年、神功元年：周兴、来俊臣之死；《罗织经》所反映的酷吏运作",
+      "key_concepts": [
+        "工具型代理人",
+        "道德成本外包",
+        "可回收权力",
+        "清算机制",
+        "民愤转化"
+      ],
+      "key_quote_zh": "请君入瓮——以彼之道还施彼身，酷吏死于此法，天下称快而主政者得仁名。",
+      "key_quote_en": "'Roast him in his own urn'—repaying the man by his own method; the terror official died by it, the realm rejoiced, and the ruler gained a reputation for mercy.",
+      "process_zh": [
+        "明确任务性质与时间窗：此项工作在何时完成后将成为负资产",
+        "选择权力完全依附于己、且声望已受损的代理人执行",
+        "隔离代理人：不让其积累独立人脉、军权或合法性",
+        "任务完成即公开清算，接收其对手资源并重设道德叙事"
+      ],
+      "process_en": [
+        "Define the task's nature and time window: when will it become a liability",
+        "Choose an agent whose power depends entirely on you and whose reputation is already tarnished",
+        "Isolate the agent: prevent the accumulation of independent networks, military force, or legitimacy",
+        "Liquidate publicly once the task is done, absorb the agent's opponents' resources, and reset the moral narrative"
+      ],
+      "representative_cases_zh": [
+        "周兴被告发谋反，武则天令来俊臣审之，俊臣以「请君入瓮」使其自认，流放途中被杀",
+        "来俊臣罗织愈盛、意图告武氏诸王及太平公主，反被处死，「仇家争食其肉」——恐怖阶段正式终结",
+        "酷吏从未出任宰相级实职，权力始终来自武则天的个案授权"
+      ],
+      "representative_cases_en": [
+        "When Zhou Xing was accused of treason, Wu Zetian had Lai Junchen try him; the 'urn' stratagem forced his confession, and he was killed en route to exile",
+        "Lai Junchen's escalating frame-ups extended to the Wu princes and Princess Taiping; he was executed—'enemies fought over his flesh'—formally ending the terror phase",
+        "Terror officials never held chancellor-level real office; their power always flowed from case-by-case grants by Wu Zetian"
+      ],
+      "modern_applications_zh": [
+        "企业治理：外包争议性业务时预设合规防火墙与供应商退出机制",
+        "领导力警示：授权脏活必须同时设计问责链，否则组织文化被腐蚀",
+        "谈判策略：让代理人提出己方不便开出的条件，事后可否定",
+        "伦理红线：此模式的滥用是组织腐败与系统性侵权的高发区"
+      ],
+      "modern_applications_en": [
+        "Corporate governance: build compliance firewalls and vendor exit mechanisms before outsourcing contested work",
+        "Leadership caveat: delegating dirty work without designing accountability corrodes organizational culture",
+        "Negotiation: let an agent float conditions you cannot openly propose, deniable afterward",
+        "Ethical red line: abuse of this pattern is a high-frequency zone of corruption and systemic rights violations"
+      ],
+      "related_modes": [
+        "M-WZT-003",
+        "M-WZT-002",
+        "M-WZT-010"
+      ],
+      "representative_figures": [
+        "武则天",
+        "马基雅弗利",
+        "理查德·尼克松"
+      ]
+    },
+    {
+      "id": "M-WZT-005",
+      "mode_code": "M-WZT-005",
+      "figure_code": "H-WZT-001",
+      "name_zh": "意识形态换轨法",
+      "name_en": "Ideological Track-Switching Method",
+      "category": "政治哲学/合法性理论",
+      "domain_zh": "意识形态/合法性建构",
+      "domain_en": "Ideology / Legitimacy Construction",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "儒家正统对「牝鸡司晨」的排斥使武则天无法在既有意识形态框架内称帝。她的对策不是在儒家框架内辩论，而是整体换轨到佛教框架：授意薛怀义等注疏《大云经》，宣称自己是弥勒佛下生、受天命为转轮圣王，佛先于儒、经文直许女主。当旧框架不给你位置时，换一个你在中心的新框架，比在旧框架里抗争成本低得多。方法上这意味着：合法性之争的本质是框架选择权之争，先争框架、再争框架内的结论。",
+      "definition_en": "Confucian orthodoxy's rejection of 'the hen crowing at dawn' made enthronement impossible within the existing ideological frame. Wu Zetian's response was not to argue within Confucianism but to switch wholesale to the Buddhist frame: she had Xue Huaiyi and others annotate the Dayun Jing, proclaiming herself Maitreya descended, destined as cakravartin—the Buddha preceding the Confucian sages, the sutra explicitly sanctioning a female sovereign. When the old frame gives you no place, switch to a new frame where you stand at the center; this costs far less than fighting inside the old one. Methodologically: the essence of a legitimacy contest is a contest over frame selection—win the frame first, then the conclusion within it.",
+      "source_chapter": "《旧唐书·则天皇后纪》载初元年：有沙门十人伪撰《大云经》，表上之，盛言神皇受命之事；《资治通鉴》天册万岁元年",
+      "key_concepts": [
+        "《大云经》",
+        "弥勒下生",
+        "转轮圣王",
+        "框架选择权",
+        "儒佛之争"
+      ],
+      "key_quote_zh": "圣母临人，永昌帝业——不在儒经中求一席之地，而以佛经另立乾坤。",
+      "key_quote_en": "'The Holy Mother descends to the people; the imperial enterprise shall flourish forever'—not seeking a seat within the Confucian classics but founding a new order through the Buddhist sutras.",
+      "process_zh": [
+        "识别既有框架中使你无资格的结构性条款（如性别正统观）",
+        "寻找一个承认你身份的替代框架，并验证其能否动员目标人群",
+        "以权威文本注疏、仪式、符号（新字、尊号）批量生产新框架的证据",
+        "对旧框架保持工具性保留：祭祀、官制仍用旧词，降低切换阻力"
+      ],
+      "process_en": [
+        "Identify the structural clause in the existing frame that disqualifies you (e.g. gender orthodoxy)",
+        "Find an alternative frame that recognizes your identity and test whether it can mobilize the target audience",
+        "Mass-produce evidence for the new frame: authoritative commentaries, rituals, symbols (new characters, honorific titles)",
+        "Keep the old frame as an instrument: continue old vocabulary for rites and offices to reduce switching friction"
+      ],
+      "representative_cases_zh": [
+        "载初元年（690）颁《大云经》于天下，寺各藏一本，沙门法明等进《大云经疏》称则天为弥勒下生",
+        "造「曌」字为名、改元「天授」「万岁通天」，以文字系统为新天命造符号基础",
+        "称帝后仍保留郊祀、宗庙等儒家仪式，两套框架并行不悖"
+      ],
+      "representative_cases_en": [
+        "In 690 she distributed the Dayun Jing to every monastery in the realm; the monk Fayaming and others presented a commentary declaring her Maitreya descended",
+        "She created the character 'zhao' for her name and changed era names to 'Tianshou' and 'Wansui Tongtian', building symbolic foundations for a new mandate in the writing system itself",
+        "After enthronement she retained Confucian rites—the suburban sacrifices and ancestral temple—running both frames in parallel"
+      ],
+      "modern_applications_zh": [
+        "品牌与公共传播：在敌意框架内辩解必败，转场到自有优势框架",
+        "标准竞争：改变行业标准/评价体系，而非在他人标准下争取高分",
+        "组织变革：用新叙事给变革提供正当性，同时保留旧仪式降低恐慌",
+        "个人声誉管理：换平台、换语境重新定义自己"
+      ],
+      "modern_applications_en": [
+        "Branding and public communication: arguing inside a hostile frame loses; move to a frame where you hold the advantage",
+        "Standards competition: change the standard or rating system rather than chasing high scores under someone else's",
+        "Organizational change: give reform a new legitimating narrative while retaining old rituals to reduce panic",
+        "Personal reputation: redefine yourself by changing platform and context"
+      ],
+      "related_modes": [
+        "M-WZT-006",
+        "M-WZT-001",
+        "M-WZT-009"
+      ],
+      "representative_figures": [
+        "武则天",
+        "君士坦丁大帝",
+        "马丁·路德"
+      ]
+    },
+    {
+      "id": "M-WZT-006",
+      "mode_code": "M-WZT-006",
+      "figure_code": "H-WZT-001",
+      "name_zh": "神都空间政治法",
+      "name_en": "Spatial Politics of the Divine Capital Method",
+      "category": "政治地理/权力空间",
+      "domain_zh": "权力空间/都城政治",
+      "domain_en": "Politics of Space / Capital Politics",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "武则天长期驻洛阳并号之为「神都」，而非留在关中长安。这是一次空间政治操作：长安是关陇贵族的祖业与势力网所在，洛阳则是她经营多年的政治腹地——运河枢纽、科举士子聚集、无旧门阀根基。把权力中枢搬到自己的地盘，等于把对手的主场变成客场。空间从来不只是容器，而是忠诚、补给与信息网络的物理载体。方法上这意味着：竞争之前先审视「这场竞争在谁的空间里进行」，必要时重构空间。",
+      "definition_en": "Wu Zetian resided long-term in Luoyang, titling it the 'Divine Capital', rather than staying in Chang'an within the Guanzhong heartland. This was spatial politics: Chang'an was the ancestral seat and power web of the Guanlong aristocracy, while Luoyang was the hinterland she had cultivated for years—a canal hub, a gathering place of examination scholars, with no entrenched old clans. Moving the nerve center onto her own ground turned the rivals' home field into an away game. Space is never a mere container; it is the physical carrier of loyalty, supply, and information networks. Methodologically: before competing, examine 'in whose space is this contest being fought,' and reconstruct the space if necessary.",
+      "source_chapter": "《资治通鉴·唐纪》光宅元年：改东都为神都；天授元年：定都神都",
+      "key_concepts": [
+        "神都洛阳",
+        "空间与忠诚网络",
+        "主场-客场转换",
+        "漕运与补给",
+        "权力地理"
+      ],
+      "key_quote_zh": "改东都洛阳为神都——权力中枢移至己方纵深，关陇贵族主场就此变客场。",
+      "key_quote_en": "The Eastern Capital Luoyang was renamed the Divine Capital—the nerve center moved into her own depth, turning the aristocracy's home field into an away game.",
+      "process_zh": [
+        "绘制对手的空间根基：其人脉、补给、符号资产集中在哪",
+        "寻找或经营一处对手网络薄弱而己方可积累的空间",
+        "把中枢职能与关键资源（人才、漕粮、仪式场所）持续迁移过去",
+        "以新空间的积累对冲旧空间的优势，形成既成事实"
+      ],
+      "process_en": [
+        "Map the rival's spatial base: where their networks, supplies, and symbolic assets concentrate",
+        "Find or cultivate a space where the rival's network is thin and you can accumulate",
+        "Migrate central functions and key resources—talent, grain transport, ceremonial venues—there continuously",
+        "Offset the old space's advantages with the new space's accumulation, creating faits accomplis"
+      ],
+      "representative_cases_zh": [
+        "光宅元年（684）改东都为神都，此后二十年武周政治中心固定于洛阳",
+        "洛阳居运河中枢，江南漕粮与关东士子源源汇聚，关中贵族的补给优势被架空",
+        "明堂、万象神宫建于洛阳，新的国家仪式空间完全服务于新政权"
+      ],
+      "representative_cases_en": [
+        "In 684 the Eastern Capital was renamed the Divine Capital; for the next two decades the Zhou political center stayed fixed at Luoyang",
+        "Luoyang sat at the canal's hub: grain from the Jiangnan and scholars from the east flowed in, neutralizing the Guanzhong aristocracy's supply advantage",
+        "The Mingtang (Hall of Myriad Images) was built at Luoyang—a wholly new ritual space of state serving the new regime"
+      ],
+      "modern_applications_zh": [
+        "企业选址与平台迁移：把关键业务迁到己方生态占优的「城市」",
+        "会议与谈判空间设计：在谁的场地开会，谁掌握气氛与节奏",
+        "数字空间：自建社区/渠道对冲既有平台的规则权力",
+        "城市与区域战略：枢纽地位（物流、人才流）本身即是权力"
+      ],
+      "modern_applications_en": [
+        "Corporate siting and platform migration: move key operations to the 'city' where your ecosystem dominates",
+        "Meeting and negotiation design: whoever hosts sets the atmosphere and tempo",
+        "Digital space: build your own community/channel to hedge an incumbent platform's rule-making power",
+        "Regional strategy: hub status (logistics, talent flow) is itself power"
+      ],
+      "related_modes": [
+        "M-WZT-001",
+        "M-WZT-005",
+        "M-WZT-009"
+      ],
+      "representative_figures": [
+        "武则天",
+        "北魏孝文帝",
+        "彼得大帝"
+      ]
+    },
+    {
+      "id": "M-WZT-007",
+      "mode_code": "M-WZT-007",
+      "figure_code": "H-WZT-001",
+      "name_zh": "立储困局对冲法",
+      "name_en": "Succession Dilemma Hedging Method",
+      "category": "决策科学/继承问题",
+      "domain_zh": "继承决策/长期博弈",
+      "domain_en": "Succession Decisions / Long-Horizon Games",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "武则天的独特困局：传位武氏侄子，则侄子祭祀祖先时她本人位置尴尬（姑母不在宗庙）；传位李氏儿子，则武周一世而亡。她以狄仁杰「母子与姑侄孰亲」之问最终立李显，同时用联姻（武李通婚）、誓约、封王等手段对冲李唐复辟风险。她的处理显示：面对双输的结构性困局，正解不是寻找完美第三选项，而是识别两害中「事后对自己名声与身位更优」的一支，并对其风险做工程化对冲。方法上这意味着：困局决策的评价标准不是当期满意度，而是身后清算时的处境。",
+      "definition_en": "Wu Zetian faced a unique dilemma: naming a Wu nephew as heir would leave her own ritual position awkward (an aunt holds no place in the ancestral temple); naming her Li son would end the Zhou after one reign. Guided by Di Renjie's question—'which is closer, mother-son or aunt-nephew'—she finally restored Li Xian, while hedging the Tang restoration risk through Wu-Li intermarriage, oaths, and enfeoffments. Her handling shows: facing a structurally lose-lose dilemma, the right move is not a perfect third option but identifying which of the two harms leaves one's posthumous position and reputation better, then engineering hedges against its risks. Methodologically: evaluate dilemma decisions not by present satisfaction but by one's position at the posthumous settling of accounts.",
+      "source_chapter": "《资治通鉴·唐纪》圣历元年：狄仁杰以母子恩劝立庐陵王；则天梦大鹦鹉两翼折，仁杰解为「二翼，陛下二子」",
+      "key_concepts": [
+        "继承合法性",
+        "宗庙祭祀逻辑",
+        "双输困局",
+        "身后评价",
+        "风险对冲"
+      ],
+      "key_quote_zh": "立子，则千秋万岁后配食太庙；立侄，则未闻侄为天子而祔姑于庙者。",
+      "key_quote_en": "Name your son, and after ten thousand years you will share the ancestral temple's offerings; name a nephew, and no case is known of an emperor enshrining his aunt in the temple.",
+      "process_zh": [
+        "把困局推演到「身后」情境：谁会掌权、如何书写你的历史",
+        "识别每一支的长期清算风险，而非只看当期权力收益",
+        "选定风险较低一支后，用联姻、誓约、制度安排做对冲工程",
+        "保留最后仲裁权：人事与废立始终握在自己手中"
+      ],
+      "process_en": [
+        "Project the dilemma to the posthumous scenario: who will hold power and how will your history be written",
+        "Identify each branch's long-run settlement risk, not just present gains of power",
+        "After choosing the lower-risk branch, engineer hedges: intermarriage, oaths, institutional arrangements",
+        "Retain final arbitration: appointments and depositions stay in your own hands"
+      ],
+      "representative_cases_zh": [
+        "圣历元年（698）召还庐陵王李显复立为皇太子，武周继承人问题以回归李唐告终",
+        "以武李联姻（太平公主嫁武攸暨等）与盟誓缓冲两个家族的对立",
+        "卒前去帝号、称「则天大圣皇后」，主动降格回李唐媳妇身份，换取与高宗合葬乾陵"
+      ],
+      "representative_cases_en": [
+        "In 698 she recalled Li Xian from exile and re-established him as crown prince, settling the succession by returning to the Li line",
+        "Wu-Li intermarriage (Princess Taiping wed Wu Youji) and sworn covenants buffered the two families' antagonism",
+        "Before death she shed the imperial title as 'Empress Zetian Dasheng', voluntarily downgrading to her identity as Gaozong's consort in exchange for burial beside him at Qianling"
+      ],
+      "modern_applications_zh": [
+        "创始人交接班：在家族继承与职业经理人之间做身后风险推演",
+        "战略退出：选择让遗产被善待的收购方，而非出价最高者",
+        "长期项目取舍：用「五年后谁在评审这项工作」校准决策",
+        "个人品牌：设计离场方式以锁定历史叙事"
+      ],
+      "modern_applications_en": [
+        "Founder succession: simulate posthumous risk between family heirs and professional managers",
+        "Strategic exit: choose the acquirer who will treat your legacy kindly, not merely the highest bidder",
+        "Long-horizon trade-offs: calibrate decisions by 'who will review this in five years'",
+        "Personal brand: design your exit to lock in the historical narrative"
+      ],
+      "related_modes": [
+        "M-WZT-008",
+        "M-WZT-010",
+        "M-WZT-002"
+      ],
+      "representative_figures": [
+        "武则天",
+        "狄仁杰",
+        "屋大维"
+      ]
+    },
+    {
+      "id": "M-WZT-008",
+      "mode_code": "M-WZT-008",
+      "figure_code": "H-WZT-001",
+      "name_zh": "恐怖分期退出法",
+      "name_en": "Phased Terror Exit Method",
+      "category": "政治哲学/权力过渡",
+      "domain_zh": "权力运作/政策转向",
+      "domain_en": "Power Operations / Policy Reversal",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "武则天的恐怖不是无限期的：夺权期（684-692前后）酷吏政治达到高峰；政权稳固后她亲手收缩——杀来俊臣、赦免被罗织者、下诏「自今无得罗织」。同一权力系统先后运行两种截然相反的规则，关键是把转向本身也做成一次权力展示：清算酷吏既平息恐惧，又证明只有她掌握恐怖的开关。方法上这意味着：高压政策必须预设退出条件与退出叙事，且退出要由启动者本人执行，否则权力真空会反噬。",
+      "definition_en": "Wu Zetian's terror was not indefinite: during the seizure period (c. 684-692) secret-police politics peaked; once the regime was secure she personally wound it down—executing Lai Junchen, releasing the framed, and decreeing 'henceforth no more frame-ups'. The same power system ran two opposite rule-sets in sequence, the key being that the reversal itself became another display of power: liquidating the henchmen both calmed the fear and proved only she held the terror switch. Methodologically: any high-pressure policy must preset its exit conditions and exit narrative, and the exit must be executed by its initiator, or the power vacuum will boomerang.",
+      "source_chapter": "《资治通鉴·唐纪》神功元年：杀来俊臣；万岁通天二年诏：「自今内外百官讫无得罗织」",
+      "key_concepts": [
+        "政策分期",
+        "退出叙事",
+        "开关垄断",
+        "赦免政治",
+        "恐怖止损"
+      ],
+      "key_quote_zh": "杀来俊臣而天下称快——同一只手既开恐怖之门，也亲手关上，并宣布唯此手可开。",
+      "key_quote_en": "Lai Junchen's execution delighted the realm—the same hand opened the door of terror, closed it personally, and declared itself the only hand that could.",
+      "process_zh": [
+        "为高压手段预设目标达成判据与时间上限",
+        "识别可公开归责的替罪工具，保证其可随时撤除",
+        "以公开仪式（处决、赦免诏书）执行转向，重写叙事",
+        "对受害者做象征性与实际性补偿，回收人心"
+      ],
+      "process_en": [
+        "Preset achievement criteria and a time cap for the coercive instrument",
+        "Identify a publicly blamable scapegoat instrument guaranteed removable at will",
+        "Execute the reversal through public ritual—executions, amnesty edicts—rewriting the narrative",
+        "Make symbolic and real restitution to victims, recovering hearts and minds"
+      ],
+      "representative_cases_zh": [
+        "神功元年（697）处死来俊臣，朝野称快，恐怖阶段正式落幕",
+        "万岁通天间下诏禁罗织、放宽告密条款，转为常规统治",
+        "晚年任用狄仁杰、张柬之等正臣，为「治宏贞观、政启开元」的评价留下治理实绩"
+      ],
+      "representative_cases_en": [
+        "In 697 Lai Junchen was executed to general relief, formally closing the terror phase",
+        "Decrees banned frame-ups and relaxed informant clauses, shifting to routine governance",
+        "In her late years she employed upright ministers—Di Renjie, Zhang Jianzhi—leaving a governance record behind the verdict 'broadening Zhenguan's order, opening Kaiyuan's'"
+      ],
+      "modern_applications_zh": [
+        "危机管理：紧急状态必须带日落条款，且由宣布者本人解除",
+        "组织整顿：运动式治理要预设结束节点与善后补偿",
+        "宏观调控：临时管制工具的退出路径设计",
+        "个人声誉：强硬手段之后主动修复关系，避免标签固化"
+      ],
+      "modern_applications_en": [
+        "Crisis management: states of emergency need sunset clauses, lifted by the same hand that declared them",
+        "Organizational rectification: campaign-style governance needs a preset endpoint and restitution",
+        "Macroeconomic control: design the exit path of temporary controls in advance",
+        "Personal reputation: proactively repair relationships after hard measures to avoid label ossification"
+      ],
+      "related_modes": [
+        "M-WZT-004",
+        "M-WZT-003",
+        "M-WZT-010"
+      ],
+      "representative_figures": [
+        "武则天",
+        "亚伯拉罕·林肯",
+        "德意志的腓特烈二世"
+      ]
+    },
+    {
+      "id": "M-WZT-009",
+      "mode_code": "M-WZT-009",
+      "figure_code": "H-WZT-001",
+      "name_zh": "符号造字法",
+      "name_en": "Symbolic Neologism Method",
+      "category": "文化研究/符号权力",
+      "domain_zh": "符号权力/文化工程",
+      "domain_en": "Symbolic Power / Cultural Engineering",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "武则天创制「则天文字」：造「曌」（日月当空）为名，改国号、改官名、改历法，用一整套文字与符号系统为新政权重新编码现实。命名权即定义权：谁掌握「事物叫什么」，谁就掌握「事物是什么」的争夺第一战场。她甚至给自己的名字造字，等于把个人身份直接写入国家符号系统。方法上这意味着：在争斗中不要低估重命名的作用——给新事物造新词，比在旧词的语义泥潭里挣扎更高效。",
+      "definition_en": "Wu Zetian created the 'Zetian characters': coining 'zhao' (sun and moon crossing the sky) for her name, changing the dynastic title, office names, and calendar—an entire writing and symbol system to re-encode reality for the new regime. The power to name is the power to define: whoever controls 'what things are called' holds the first battlefield of 'what things are'. She even coined a character for her own name, writing personal identity directly into the state's symbolic system. Methodologically: never underestimate renaming in a contest—coining new words for new things beats struggling in the semantic mud of old ones.",
+      "source_chapter": "《新唐书·则天皇后纪》与《资治通鉴》载初元年：造曌等十二字颁行天下",
+      "key_concepts": [
+        "则天文字",
+        "命名权",
+        "符号系统",
+        "改元",
+        "语言与权力"
+      ],
+      "key_quote_zh": "日月当空为「曌」——为自己造一个字，把名字写进国家文字系统。",
+      "key_quote_en": "Sun and moon across the sky make 'zhao'—coining a character for oneself, writing one's name into the state's writing system.",
+      "process_zh": [
+        "盘点现用词汇中被旧权力注入的预设与情绪负载",
+        "为需要重新定义的事物创造新词、新符号或新仪式",
+        "通过公文、教育、货币、建筑等强制界面推广新符号",
+        "保留旧词的低风险场景，避免符号切换引发系统性摩擦"
+      ],
+      "process_en": [
+        "Inventory the presuppositions and emotional loads the old power has injected into current vocabulary",
+        "Create new words, symbols, or rituals for whatever needs redefining",
+        "Promote new symbols through compulsory interfaces: documents, education, coinage, architecture",
+        "Keep old vocabulary in low-risk contexts to avoid systemic friction from symbol switching"
+      ],
+      "representative_cases_zh": [
+        "载初元年造「曌」「照」「臣」「君」「月」等十二个新字颁行天下，诏书表疏皆须用之",
+        "改「诏」为「制」以避讳，改元天授、万岁通天，每一纸诏书都在重申新秩序",
+        "洛阳明堂「万象神宫」：以建筑命名宣告宇宙秩序的重置"
+      ],
+      "representative_cases_en": [
+        "In 690 she promulgated twelve new characters—'zhao', 'zhao' (illuminate), 'chen' (subject), 'jun' (ruler), 'yue' (moon)—required in all edicts and memorials",
+        "She changed 'zhao' (edict) to 'zhi' for taboo avoidance and renamed eras 'Tianshou' and 'Wansui Tongtian': every edict re-proclaimed the new order",
+        "The Luoyang Mingtang, 'Palace of Myriad Images': architecture itself named to declare a cosmic reset"
+      ],
+      "modern_applications_zh": [
+        "产品与运动命名：为新品类造新词，抢占定义权",
+        "组织文化改造：重写价值观词汇表，替换带旧负载的术语",
+        "舆论战：识别对方话术中的预设词，用中性新词替换",
+        "个人定位：用一个自创标签概括复杂能力组合"
+      ],
+      "modern_applications_en": [
+        "Product and movement naming: coin new words for new categories to seize definitional power",
+        "Culture change: rewrite the organization's vocabulary, replacing terms with old loads",
+        "Discourse contest: spot presupposition-laden words in the opponent's talk and replace them with neutral coinages",
+        "Personal positioning: distill a complex capability set into one self-coined label"
+      ],
+      "related_modes": [
+        "M-WZT-005",
+        "M-WZT-006",
+        "M-WZT-010"
+      ],
+      "representative_figures": [
+        "武则天",
+        "秦始皇",
+        "乔治·奥威尔"
+      ]
+    },
+    {
+      "id": "M-WZT-010",
+      "mode_code": "M-WZT-010",
+      "figure_code": "H-WZT-001",
+      "name_zh": "无字碑留白法",
+      "name_en": "Wordless Stele Blank-Space Method",
+      "category": "方法论/历史评价",
+      "domain_zh": "历史评价/自我定位",
+      "domain_en": "Historical Evaluation / Self-Positioning",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "乾陵之前立无字碑：不为自己撰写任何盖棺定论。对比常规帝王预设颂词的做法，这是主动把评价权移交给后世——功过任人说。留白不是回避，而是对评价机制本身的洞察：任何自我书写的结论都会成为被攻击的固定靶，而空白使每一种解读都必须部分面对她的实绩。她同时以「去帝号、归乾陵」锁定葬制，用制度安排而非文字为自己兜底。方法上这意味着：当自我辩护的收益为负时，结构性的沉默与制度安排优于言辞。",
+      "definition_en": "Before her tomb at Qianling stands the Wordless Stele: no self-inscribed verdict at all. Where ordinary emperors preset panegyrics, she actively transferred the right of evaluation to posterity—merits and faults open to all. The blank is not evasion but insight into evaluation mechanisms themselves: any self-written conclusion becomes a fixed target for attack, whereas blankness forces every reading to engage her actual record. She also locked the burial arrangement—shedding the imperial title, resting beside Gaozong—securing her position through institutional design rather than words. Methodologically: when self-justification yields negative returns, structural silence plus institutional arrangement beats rhetoric.",
+      "source_chapter": "乾陵无字碑；《旧唐书·则天皇后纪》：遗制去帝号，称则天大圣皇后",
+      "key_concepts": [
+        "无字碑",
+        "评价权让渡",
+        "留白策略",
+        "制度兜底",
+        "身后叙事"
+      ],
+      "key_quote_zh": "无字碑——不着一字，尽得风流：把定论之笔留给千年后的读者。",
+      "key_quote_en": "The Wordless Stele—not one character written, yet everything conveyed: the verdict's pen left to readers a thousand years on.",
+      "process_zh": [
+        "评估自我叙事的预期收益：辩护是否只会招致更强反驳",
+        "识别可托付评价的对象（后人、市场、实绩记录）并让其可核查",
+        "用制度安排（身份、葬制、继承安排）而非文字锁定底线",
+        "保持可重新解读性：不为短期舆论封死长期叙事空间"
+      ],
+      "process_en": [
+        "Assess the expected return of self-narrative: will defending only invite stronger rebuttal",
+        "Identify parties to whom evaluation can be entrusted—posterity, markets, an auditable record",
+        "Lock the bottom line through institutional arrangements—status, burial, succession—rather than words",
+        "Preserve re-interpretability: never foreclose the long-run narrative for short-term opinion"
+      ],
+      "representative_cases_zh": [
+        "乾陵无字碑至今无碑文，历代对其评价反成持续一千三百年的公共讨论",
+        "遗制去帝号、以皇后身份与高宗合葬，用礼制安排确保无人能毁其陵",
+        "晚年仍用狄仁杰荐引之张柬之等人，实绩本身成为最有力的辩护词"
+      ],
+      "representative_cases_en": [
+        "The Qianling stele remains uninscribed, and evaluating her has become a public discussion running thirteen centuries",
+        "Her testament shed the imperial title for burial as empress beside Gaozong—an arrangement of ritual law ensuring none could desecrate her tomb",
+        "Her late employment of Zhang Jianzhi and others recommended by Di Renjie made her record itself the strongest defense"
+      ],
+      "modern_applications_zh": [
+        "舆论危机：无法自证时以可核查的实绩记录代替辩解",
+        "产品设计：留白（开放接口、可扩展架构）比预设一切更持久",
+        "领导力交接：不预设继任者对自己的评价，用制度保障体面",
+        "个人生涯：允许他人解读你，只控制不可推翻的底线安排"
+      ],
+      "modern_applications_en": [
+        "PR crises: when self-proof fails, substitute an auditable record of results for argument",
+        "Product design: blank space—open interfaces, extensible architecture—outlasts presetting everything",
+        "Leadership transition: don't preset your successors' verdict; secure dignity through institutions",
+        "Career: allow others to interpret you; control only the arrangements that cannot be overturned"
+      ],
+      "related_modes": [
+        "M-WZT-007",
+        "M-WZT-004",
+        "M-WZT-005"
+      ],
+      "representative_figures": [
+        "武则天",
+        "路德维希·维特根斯坦",
+        "塞缪尔·贝克特"
+      ]
+    }
+  ]
+}

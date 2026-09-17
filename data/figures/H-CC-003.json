@@ -1,0 +1,812 @@
+{
+ "schema_version": "v6",
+ "id": "H-CC-003",
+ "code": "H-CC-003",
+ "figure_name": "朱熹vs阿奎那",
+ "figure_code": "H-CC-003",
+ "figure_pinyin": "Zhū Xī vs Ākuínà",
+ "birth_year": 1130,
+ "death_year": 1274,
+ "era": "经院体系时代比较研究 / Scholastic-System Era Comparative Study (1130-1274)",
+ "school": "跨文明比较 / Cross-Civilization Comparison",
+ "figure_name_en": "Zhu Xi vs Thomas Aquinas",
+ "figure_code_task": "CrossCiv",
+ "historical_significance": "朱熹（1130-1200）与托马斯·阿奎那（约1225-1274）相隔约一个世纪，分别在儒家与基督教文明内部完成了'把数百年思想遗产收拢为一个可教学体系'的同型工程：朱熹以《四书章句集注》重构经典次序并被元明清科举定为标准答案六百年，阿奎那以《神学大全》把亚里士多德哲学与基督教神学熔为一炉并被天主教立为标准哲学。两人共享的深层结构——格物与五路的理性爬升、正反合裁断的论辩制度、权威分层与文本校勘、修身与共同善的目的论、书院与大学的建制化传承——构成'体系化集成'的可比较方法论母体；其差异（理性与启示的位置、心性论与灵魂论、礼教执行与教会法执行）则标定两大文明此后知识与社会制度的分岔点。本档案以'对照'为方法单位：每个模式都是一次双人实验。",
+ "unique_thinking": "本档案的独特性在于把'比较'本身做成方法：十个模式都不是朱熹或阿奎那单人的模式，而是两人体系对话所逼出的结构性模式——每个模式都含对照面（格物与五路两种爬升路径、鹅湖之辩与经院 quaestio 两种论辩制度、书院与大学两种建制化载体）。朱熹一侧的独特签名：'理一分殊'的总纲统摄、'循序而渐进'的工夫次第、'心统性情'的心灵结构图、社仓式的共同善金融制度。阿奎那一侧的独特签名：videtur quod/sed contra/respondeo 的显式裁决程序、五路的必然性论证标准、habitus 的习惯技术学、暴君可废的职分权力论。共同签名：权威分层与以理裁经、修身—治世同构、体系未完成性的自觉、为自身批判预留合法性。两人身后，其体系分别兑换为科举标准与天主教标准哲学——胜利的代价本身构成第十个模式的审计对象。",
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-CC-021",
+  "M-CC-022",
+  "M-CC-023",
+  "M-CC-024",
+  "M-CC-025",
+  "M-CC-026",
+  "M-CC-027",
+  "M-CC-028",
+  "M-CC-029",
+  "M-CC-030"
+ ],
+ "key_concepts": [
+  "格物穷理",
+  "豁然贯通",
+  "正反合裁断",
+  "鹅湖之会",
+  "权威分层",
+  "四书",
+  "五路",
+  "太极",
+  "理一分殊",
+  "自然法",
+  "共同善",
+  "存天理去人欲",
+  "书院与大学",
+  "体系集成",
+  "代价审计"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-CC-001",
+   "target_figure_name": "孔子vs苏格拉底",
+   "relation_type": "轴心对话到经院体系：不著书的诘问传统如何被两百年后的注释者建制化",
+   "mode_pair": [
+    "M-CC-001",
+    "M-CC-022"
+   ],
+   "description_zh": "孔子/苏格拉底的口头诘问在朱熹与阿奎那手里被制度化为书面论辩装置：鹅湖之会与经院 quaestio 同为'反方前置+显式裁决'的结构，但都补上了轴心对话缺失的裁决与归档环节。比较可见：对话传统要跨代存活，必须牺牲部分口语性换取裁决制度——这是 H-CC-001 '述而不作'困境的两条相反解法。",
+   "bidirectional_hint": "H-CC-001 未来修订时可在'师徒传承共同体法'处补一条指向 H-CC-003 的跨引用（从口头共同体到书面制度的传承升级）。"
+  },
+  {
+   "target_figure_code": "H-KD-001",
+   "target_figure_name": "康德",
+   "relation_type": "理性边界的两条划定：自然神学的爬升与批判哲学的设限",
+   "mode_pair": [
+    "M-CC-024",
+    "H-KD-001"
+   ],
+   "description_zh": "朱熹/阿奎那都相信理性可从自然爬升到最高实在，康德则宣告形而上学理性越界即幻相——'理性自足但非全能'在康德处被推进为'理性的法庭审判理性本身'。对照可见：五路与格物的必然性标准，恰是康德批判所审查的'独断形而上学'原型；但康德的'应当'与朱熹'所当然之则'共享义务先于事实的结构。",
+   "bidirectional_hint": "H-KD-001 未来修订时可在'批判方法'处补一条指向 H-CC-003 的跨引用（被批判的独断原型）。"
+  },
+  {
+   "target_figure_code": "H-WYM-001",
+   "target_figure_name": "王阳明",
+   "relation_type": "格物的两种裁决：向外的渐进穷理与向内的当下发明",
+   "mode_pair": [
+    "M-CC-021",
+    "H-WYM-001"
+   ],
+   "description_zh": "王阳明格竹失败后转向'心即理'，是对朱熹渐进穷理路线的内部反叛：同样面对'理在何处'，朱熹/阿奎那路线坚持理性劳动不可省略，阳明路线主张本体当下具足、工夫只是去除遮蔽。对照可见：心学与唯意志论神学共享'降低体系门槛'的传播优势与'标准坍塌'的风险，而渐进路线的代价是精英化与高失败率。",
+   "bidirectional_hint": "H-WYM-001 未来修订时可在'致良知'处补一条指向 H-CC-003 的跨引用（被反叛的对象与反叛的代价）。"
+  }
+ ],
+ "tags": [
+  "朱熹",
+  "Zhu Xi",
+  "阿奎那",
+  "Thomas Aquinas",
+  "程朱理学",
+  "Neo-Confucianism",
+  "经院哲学",
+  "Scholasticism",
+  "格物穷理",
+  "Investigation of Things",
+  "豁然贯通",
+  "Coherent Breakthrough",
+  "五路",
+  "Five Ways",
+  "太极",
+  "Supreme Ultimate",
+  "理一分殊",
+  "One Principle Many Allocations",
+  "正反合",
+  "Objection Ruling",
+  "鹅湖之会",
+  "Goose Lake Debate",
+  "四书",
+  "Four Books",
+  "神学大全",
+  "Summa Theologiae",
+  "自然法",
+  "Natural Law",
+  "共同善",
+  "Common Good",
+  "存天理去人欲",
+  "Preserve Principle Curb Desire",
+  "书院",
+  "Academy",
+  "大学制度",
+  "University",
+  "代价审计",
+  "Cost Audit",
+  "体系集成",
+  "Systematic Synthesis",
+  "心统性情",
+  "Mind Commands Nature and Feeling",
+  "权威分层",
+  "Layered Authority",
+  "亚里士多德",
+  "Aristotle",
+  "科举",
+  "Imperial Examination"
+ ],
+ "mode_ids_note": "M-CC-021 ~ M-CC-030（figure_code=CrossCiv → 编码 H-CC-003；库内查重零冲突：M-CC-021~030 前缀 modes_data/code_maps 无占用，C-CC-021~030 场景前缀无占用，H-CC-003 编码无占用）",
+ "caveats": [
+  "朱熹生卒年（1130-1200）学界无大争议；阿奎那生年约1225（一说1224/1226/1227），卒年1274，引用须标注'约'字口径",
+  "《四书章句集注》历经四十年修订，临终前仍在改《诚意》章，引用须注明所据修订阶段；'格物补传'为朱熹自撰而非《大学》原文，学界对补传合法性有持续讨论",
+  "'历史阿奎那'与'新经院主义的阿奎那'（1879年《永恒之父》通谕塑造的标准像）分歧显著，本档案'阿奎那一侧'以《神学大全》《反异教大全》文本为主口径，1879年后的托马斯主义立场须区分标注",
+  "'比较'为方法论选择而非历史关联：两人互不知晓对方存在，所有'共享元命题'均为结构性对照而非影响链，引用时不得表述为传承或影响",
+  "阿奎那《神学大全》未完成（1273年12月辍笔），通行本后半（告解、七罪等）由其弟子补充完成，引用须区分本人文本与续补部分",
+  "朱熹'存天理去人欲'在后世礼教中被极端化（节妇殉烈等），本档案以朱熹原文语境（'过度治理'）为准，引用后世执行案例须标注为'被改写的方法'而非朱熹本意"
+ ],
+ "modes": [
+  {
+   "id": "M-CC-021",
+   "name_zh": "格物穷理渐进法",
+   "name_en": "The Investigative-Ascent Method: exhaustively 'ge' each thing until principle shows through",
+   "mode_code": "M-CC-021",
+   "category": "核心方法",
+   "domain_zh": "认识论/格物穷理",
+   "domain_en": "Epistemology / Investigation of Things",
+   "level": "核心",
+   "priority": 21,
+   "definition_zh": "朱熹与阿奎那共享的元命题：对最高原理的认识必须经由对具体事物的逐一穷究，理性劳动不可省略。方法论签名有四：其一，循序渐进——朱熹《读书法》'循序而渐进，熟读而精思'，格物须一件一件地格，今日格一件明日格一件，积累既多自然豁然贯通；阿奎那《神学大全》以论题分条、层层推演的经院结构，把神学教义切分为可逐项处理的问题。其二，即物穷理——'上而无极太极，下而至于一草一木一昆虫之微，亦各有理'，凡物皆有可穷之理；阿奎那从蜡烛之光推论天使之知，从自然运动推论第一因，同样坚持从经验对象出发。其三，豁然贯通——渐进积累不是无限延伸，而是在某一点上结构性地'贯通'，个别之理汇入一以贯之的全体；阿奎那的类比学说同样把各领域的存在之理收拢到一个有序的类比层级。其四，double agent：朱熹格物落在读书与应事之间，阿奎那穷理落在信仰与理性之间——两人的'物'都不止是物理对象，而是一切可被理性整理的领域。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: knowledge of the highest principles must be won through the item-by-item exhaustion of concrete things; the labor of reason admits no shortcut. Four signatures define the mode. First, graded ascent: Zhu Xi's 'Reading Method' prescribes 'advance in sequence, read thoroughly and think finely' — one investigates one thing today, another tomorrow, until accumulated insight suddenly coheres ('penetrating comprehension'); Aquinas's Summa Theologiae, in its quaestio-by-quaestio scholastic architecture, likewise slices doctrine into questions that can be handled one at a time. Second, principle inheres in things: 'from the Ultimate above to the least insect below, each has its li' — every object carries an exhaustible principle; Aquinas reasons from the light of a candle to angelic knowledge and from natural motion to the First Mover, equally insisting on starting from experienced objects. Third, sudden coherence: gradual accumulation is not infinite extension but converges at a structural 'breakthrough' where individual principles join into one pervading whole; Aquinas's doctrine of analogy likewise gathers the principles of every domain into an ordered hierarchy of likeness. Fourth, the double agent: Zhu Xi's investigation operates between books and affairs, Aquinas's between faith and reason — for both, the 'things' investigated are never mere physical objects but every field that reason can order.",
+   "source_chapter": "朱熹《大学章句·格物补传》、《朱子语类》卷十'读书法'；阿奎那《神学大全》I q.1、q.2（五路）、q.84-88（认知层级）",
+   "key_concepts": [
+    "格物穷理",
+    "循序渐进",
+    "豁然贯通",
+    "即物穷理",
+    "类比"
+   ],
+   "process_zh": [
+    "把大问题切成可逐项处理的小问题清单：一次只格一件'物'，拒绝一步登天的总体答案",
+    "为每件'物'预设穷尽标准：读到义理无所剩、问到证据无所剩，才允许换下一件",
+    "定期回看已格诸物的共同结构：渐进积累必须配一个'贯通检查点'，否则只是散点收藏",
+    "把贯通后的原理写回清单逐项校验：上层结论要能解释每一件下层的'物'，解释不了的回到第1步"
+   ],
+   "process_en": [
+    "Slice the big question into an itemized list of small ones: 'ge' one thing at a time and refuse any all-at-once total answer",
+    "Set an exhaustion criterion per item: read until the meaning leaves no remainder, question until the evidence leaves none, only then move to the next",
+    "Periodically review the shared structure of what has been investigated: gradual accumulation needs a 'coherence checkpoint' or it remains a drawer of loose finds",
+    "Write the post-coherence principle back and check it against each item: the upper-level conclusion must explain every lower-level thing it covers; whatever it fails to explain returns to step 1"
+   ],
+   "representative_cases_zh": [
+    "朱熹格物竹子式的实践版：与友人面对庭前竹分头'格'，七日后友人病倒而朱熹自承'格不得'——他保留的教训不是放弃格物，而是修正格法：物不可强格，须循序（此段自承的失败恰成了方法论的校准点）",
+    "《神学大全》的写作机器：全书写成数千个 quaestio，每个 quaestio 先列反方最强论证（videtur quod），再列正方引文，然后阿奎那给裁决（respondeo），最后逐条回应反方——渐进穷究的制度化",
+    "反面警示：王阳明早年'格竹'七日病倒，转而彻底否定向外格物，走上心学路线——渐进穷理若无贯通机制与精力管理，会耗尽实践者的身体与信心，方法失败常被误判为方向失败"
+   ],
+   "representative_cases_en": [
+    "Zhu Xi's bamboo lesson in practice: he and a friend faced the courtyard bamboo and set out to 'investigate' it; after seven days the friend fell ill and Zhu Xi himself admitted 'I could not ge it.' The lesson he kept was not to abandon investigation but to recalibrate it: things cannot be forced, only pursued in sequence — his admitted failure became the calibration point of the method",
+    "The Summa as a writing machine: thousands of quaestiones, each opening with the opposition's strongest objections (videtur quod), then authorities for the affirmative, then Aquinas's ruling (respondeo), then point-by-point replies — the institutionalization of gradual exhaustive inquiry",
+    "Cautionary: Wang Yangming's early 'investigating the bamboo' left him ill after seven days and drove him to reject outward investigation entirely for the learning of the mind — gradual exhaustion without a coherence mechanism and energy management exhausts the practitioner's body and confidence, and a failure of method is routinely misread as a failure of direction"
+   ],
+   "modern_applications_zh": [
+    "大型技术债清理：不要试图一次重写系统，逐模块穷尽（格物）+ 每季度做一次架构贯通评审（豁然贯通）",
+    "备考与考试设计：把知识域切成可穷尽的条目清单，配错题本回看机制，避免'刷题一千道仍不贯通'的散点学习",
+    "文献综述方法：逐篇精读与定期'范式贯通'写作交替进行，防止综述沦为文献罗列"
+   ],
+   "modern_applications_en": [
+    "Paying down large technical debt: never attempt one grand rewrite; exhaust module by module (ge) and hold a quarterly architecture-coherence review (breakthrough)",
+    "Exam preparation and test design: slice a knowledge domain into an exhaustible checklist with a wrong-answer log review, avoiding scattered study of a thousand problems that never coheres",
+    "Literature-review method: alternate close reading of single papers with periodic 'paradigm-coherence' writing, so the review does not degrade into a list of citations"
+   ],
+   "related_modes": [
+    "M-CC-001",
+    "M-CC-022",
+    "M-CC-025",
+    "H-CC-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "王阳明 (Wang Yangming, 反例)",
+    "格洛泰 (Grosseteste, 潜在)"
+   ],
+   "key_quote_zh": "至于用力之久，而一旦豁然贯通焉，则众物之表里精粗无不到，而吾心之全体大用无不明矣。",
+   "key_quote_en": "When effort has been long sustained, one day there is sudden penetration: the surface and depth, the fine and coarse of all things are reached, and the whole substance and great function of my mind are illumined."
+  },
+  {
+   "id": "M-CC-022",
+   "name_zh": "正反合裁断法",
+   "name_en": "The Objection-Ruling Method: institutionalized disputation with an authoritative verdict",
+   "mode_code": "M-CC-022",
+   "category": "核心方法",
+   "domain_zh": "方法论/论辩结构",
+   "domain_en": "Methodology / Dialectical Structure",
+   "level": "核心",
+   "priority": 22,
+   "definition_zh": "朱熹与阿奎那共享的元命题：正确结论必须在与最强反方的正面对抗中裁决产生，且裁决者须显式到场。方法论签名有四：其一，反方前置——阿奎那每个 quaestio 以 videtur quod（'似乎如此'）开篇，先让最强异议充分亮相；朱熹与陆九渊的鹅湖之会、与永康学派的王霸义利之辩，同样把对手论点摆到台面正中。其二，权威引证双列——经院体例先列正方权威（sed contra），朱熹的辩书中同样先立经据与先儒之说，双方各自征引经典，形成'经典对经典'的对垒。其三，裁决显式——respondeo dicendum（'我的裁决是'）是《大全》每题的枢纽，朱熹也从不以'各有道理'收场，必下一断语'某说是、某说非'；结论必须署名，不允许无主裁判。其四，逐条回应——裁决之后仍须回应每条反方，未被处理的异议视为未驳倒；朱熹答书亦逐条批驳，不遗漏一条。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: a correct conclusion must be produced by adjudication against the strongest opponent, with the judge explicitly present. Four signatures define the mode. First, objections come first: every quaestio of the Summa opens with videtur quod ('it seems that') — the strongest counterarguments get full stage presence; Zhu Xi's Goose Lake debate with Lu Jiuyuan and his debate with the Yongkang school over kings and hegemon placed the rival's thesis at dead center the same way. Second, paired authority lists: the scholastic form sets the affirmative authorities (sed contra) before the ruling; Zhu Xi's debate letters likewise lay out the classics and earlier masters first, so that classics face classics across the table. Third, an explicit verdict: respondeo dicendum ('I answer that') is the hinge of every question in the Summa; Zhu Xi too never closes with 'both have a point' — he always issues a signed ruling on which claim stands and which falls; conclusions must be attributable, with no judgeless adjudication. Fourth, point-by-point reply: after the ruling every objection must still be answered; an unhandled objection counts as undischarged. Zhu Xi's reply letters likewise answer clause by clause, omitting none.",
+   "source_chapter": "《朱子语类》卷一二四（论陆学）、与陈亮辩王霸义利书信十七通；阿奎那《神学大全》 quaestio 体例（videtur quod / sed contra / respondeo / ad primum…）",
+   "key_concepts": [
+    "正反合",
+    "鹅湖之会",
+    "videtur quod",
+    "裁决显式",
+    "逐条回应"
+   ],
+   "process_zh": [
+    "任何议题先写反方最强版本（videtur quod 段）：把对手武装到牙齿再开战，禁止打稻草人",
+    "双方各列权威依据形成对垒清单：经据、数据、判例同台，让'谁的传统支持谁'一目了然",
+    "显式裁决并署名：不允许'都有道理'的和稀泥，裁决人必须声明哪一说成立、为何成立",
+    "裁决后逐条回应反方：每一条异议都要有处理记录，未回应的异议按'仍然有效'记入遗留问题"
+   ],
+   "process_en": [
+    "Open every issue with the opponent's strongest version (the videtur quod section): arm the adversary to the teeth before fighting; no straw men allowed",
+    "Have both sides list their authorities into facing columns — scriptures, data, precedents on the same stage — so 'whose tradition backs whom' is visible at a glance",
+    "Issue an explicit, signed ruling: no mushy 'both sides have merit'; the adjudicator must declare which claim stands and why",
+    "After the ruling, answer each objection in turn: every dissent gets a disposition record; any objection left unanswered is carried forward as still in force"
+   ],
+   "representative_cases_zh": [
+    "鹅湖之会（1175）：朱熹'道学问'与陆九渊'尊德性'正面交锋，吕祖谦主持、双方赋诗明志、辩后各自著文系统陈述——中国版的 quaestio 全流程，只是缺少显式的 respondeo 裁决环节，成为朱熹后来反复补做的工作",
+    "朱陈王霸义利之辩：陈亮主张汉唐勋业可接道统，朱熹十数通书信逐条驳斥，每一封都先复述陈亮原话再下断语——显式裁决+逐条回应的完整体",
+    "反面警示：鹅湖之会无裁决人且无书面裁定，三年后两人各说各话、各自向弟子陈述'对方不懂'——辩论若无显式裁决与记录机制，投入越大分裂越深，论辩沦为立场展演"
+   ],
+   "representative_cases_en": [
+    "The Goose Lake Debate (1175): Zhu Xi's 'learning by broad inquiry' versus Lu Jiuyuan's 'honoring the moral nature' in open confrontation, with Lü Zuqian moderating, both sides stating their positions in verse, and systematic written statements after — a Chinese quaestio in full flow, except the explicit respondeo ruling was missing, which became the work Zhu Xi spent years trying to complete afterward",
+    "The Zhu–Chen debate on kings, hegemon, and profit: Chen Liang claimed the achievements of Han and Tang could connect to the orthodox Way; Zhu Xi answered in more than a dozen letters, each restating Chen's words before issuing a ruling — the complete form of explicit verdict plus point-by-point reply",
+    "Cautionary: with no adjudicator and no written ruling, the Goose Lake Debate left the two masters talking past each other for years afterward, each telling disciples that the other 'did not understand' — debate without explicit adjudication and record-making deepens division in proportion to investment, turning inquiry into a performance of positions"
+   ],
+   "modern_applications_zh": [
+    "RFC/设计评审文档模板：Context（反方最强版）→ Options（权威对垒）→ Decision（显式署名裁决）→ Rebuttal（逐条回应），一个不许缺席的段落结构",
+    "学术同行评审改革：审稿人必须先写'作者最强辩护'再写批评，编辑裁决必须显式并说明每条批评的处理结果",
+    "企业战略辩论：重大分歧议题设正反双方+主持裁决人+会议纪要逐条归档，禁止'会下继续讨论'悬而不决"
+   ],
+   "modern_applications_en": [
+    "The RFC/design-review template: Context (opponent's strongest case) → Options (authorities facing off) → Decision (explicit signed ruling) → Rebuttal (point-by-point reply) — a paragraph structure no section of which may be skipped",
+    "Peer-review reform: reviewers must write the authors' strongest defense before their criticisms; editors must rule explicitly and state how each criticism was disposed of",
+    "Corporate strategy debate: for major disputes, appoint pro and con teams plus a presiding adjudicator, archive minutes item by item, and ban 'we'll keep discussing offline' as a way of leaving things unresolved"
+   ],
+   "related_modes": [
+    "M-CC-021",
+    "M-CC-001",
+    "M-CC-002",
+    "H-SMQ-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "陆九渊 (Lu Jiuyuan)",
+    "陈亮 (Chen Liang)"
+   ],
+   "key_quote_zh": "大抵观书先须熟读，使其言皆若出于吾之口；继以精思，使其意皆若出于吾之心，然后可以有得尔。",
+   "key_quote_en": "In reading, first read until熟熟 the words seem to issue from your own mouth, then think until the meaning seems to issue from your own heart: only then have you gained anything."
+  },
+  {
+   "id": "M-CC-023",
+   "name_zh": "经史互证与权威分层法",
+   "name_en": "The Layered-Authority Method: ranking sources instead of quoting them flatly",
+   "mode_code": "M-CC-023",
+   "category": "核心方法",
+   "domain_zh": "诠释学/权威处理",
+   "domain_en": "Hermeneutics / Handling of Authority",
+   "level": "核心",
+   "priority": 23,
+   "definition_zh": "朱熹与阿奎那共享的元命题：传统文本不是平面的引语库，而是有层级、可校勘、可批判使用的证据体系。方法论签名有四：其一，权威分层——朱熹明言'《四子》，《六经》之阶梯'，以四书为经、汉唐注疏为传、诸儒议论为说，层级分明；阿奎那区分圣经（最高）、教父（权威但非终极）、哲学家（理性工具）三层，引用时各自标注效力等级。其二，文本校勘先行——朱熹毕生校《四书章句》，删改《孝经》疑伪经文、辨《古文尚书》之伪倾向；阿奎那则对亚里士多德译本与注家（阿维森纳、阿威罗伊）逐一甄别真伪与误读。其三，以理裁经——朱熹敢于说'经之有解所以济经之不通'，经典解释若与义理冲突，义理为断；阿奎那同样声明神学与哲学结论冲突时的层级裁决程序。其四，注释即创造——两人的传世形态都是注释体：朱熹《四书章句集注》、阿奎那亚里士多德诸疏，皆以注释为创新的合法容器。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: inherited texts are not a flat anthology of quotations but an evidence system with hierarchy, open to collation and critical use. Four signatures define the mode. First, layered authority: Zhu Xi declared the Four Books 'the stairway to the Six Classics,' ordering classics, Han-Tang commentaries, and scholars' remarks into distinct tiers; Aquinas distinguishes Scripture (supreme), the Fathers (authoritative but not final), and the philosophers (instruments of reason), marking each citation's force level as he quotes. Second, collation before use: Zhu Xi spent his life on the Sishu zhangju, cut suspect passages from the Classic of Filial Piety and flagged forgeries in the Old-Text Documents; Aquinas sorted out authentic from misread Aristotle across translators and commentators (Avicenna, Averroes) one by one. Third, reason adjudicates the text: Zhu Xi dared to say a commentary exists 'to remedy what the classic leaves obscure' — when interpretation conflicts with principle, principle decides; Aquinas likewise specifies the hierarchy of adjudication when theological and philosophical conclusions clash. Fourth, commentary as creation: both left their legacies in commentary form — Zhu Xi's Collected Commentaries on the Four Books, Aquinas's commentaries on Aristotle — the commentary as a legitimate container for innovation.",
+   "source_chapter": "朱熹《四书章句集注》凡例、《朱子语类》卷十九；阿奎那《神学大全》I q.1 a.8（诸学问之层级）、亚里士多德《形而上学》《尼各马可伦理学》疏",
+   "key_concepts": [
+    "权威分层",
+    "四书",
+    "校勘",
+    "以理裁经",
+    "注疏体"
+   ],
+   "process_zh": [
+    "建立引用的效力分层表：核心文本、次级权威、工具性来源各标一级，引用时显式标注层级，禁止'都引经据典'式平铺",
+    "引文本前先做真伪与版本校勘：注明所据版本、已知疑伪点，不用未经校勘的文本支撑关键论证",
+    "当两层权威冲突时声明裁决规则：是高层压低层，还是义理压字面，规则须先于冲突声明",
+    "以注释体承载创新：新观点写成对旧文本的注释与辨析，让传统为创新提供合法形式"
+   ],
+   "process_en": [
+    "Build a force-tier table for citation: core texts, secondary authorities, instrumental sources each get a tier, marked explicitly at every quote — no flat 'as the classics say' leveling",
+    "Collate authenticity and version before citing a text: record the edition relied on and known doubts, and never prop a key argument on an uncollated text",
+    "Declare the adjudication rule before layers conflict: does the higher tier override the lower, or does principle override the letter? State the rule before the conflict, not during it",
+    "Carry innovation in commentary form: write new claims as annotations and discriminations of old texts, letting tradition supply a legitimate form for novelty"
+   ],
+   "representative_cases_zh": [
+    "朱熹重构儒家经典次序：把《大学》《中庸》从《礼记》抽出与《论》《孟》合为四书，并为其补《格物补传》——不是注释旧序而是'修正'经典结构本身，权威层级被成功改写且被后世接受八百年",
+    "阿奎那对'亚里士多德说'的甄别：在注《论灵魂》时刻意区分亚里士多德本人主张与阿威罗伊的'单一理智论'续貂，逐条剥离——把'引权威'升级为'给权威做分层清算'",
+    "反面警示：朱熹辨伪倾向被后人用于全盘疑古，经文可信度被层层剥除后，层级的顶端也被拆掉——权威分层若没有稳定的第一层级，批判工具会反转成体系自毁装置"
+   ],
+   "representative_cases_en": [
+    "Zhu Xi's reconstruction of the Confucian canon: extracting the Great Learning and Doctrine of the Mean from the Book of Rites to join the Analects and Mencius as the Four Books, and even composing a missing chapter (the Suplementary Inquiry on the Investigation of Things) — not annotating the old order but revising the structure of the canon itself, a rewriting of the authority hierarchy that stood accepted for eight hundred years",
+    "Aquinas's screening of 'Aristotle says': commenting on De Anima, he carefully separates Aristotle's own claims from Averroes's add-on doctrine of the single intellect, clause by clause — upgrading 'citing an authority' into 'auditing an authority into layers'",
+    "Cautionary: Zhu Xi's leanings toward textual doubt were later radicalized into wholesale skepticism; as each layer's credibility was stripped away, the top of the hierarchy came down too — an authority hierarchy without a stable first tier turns its critical instrument into a self-destruct device for the whole system"
+   ],
+   "modern_applications_zh": [
+    "技术文档引用规范：区分 RFC、内部规范、博客与口头传言四个效力层级，关键设计文档禁止引用第三层以下证据",
+    "组织知识管理：建立'制度原文/解释细则/部门惯例'分层，冲突时裁决规则预先写死，避免惯例架空制度",
+    "研究综述写作：对二手文献先做'权威审计'（作者立场、版本、误读链条），再决定其可引用级别"
+   ],
+   "modern_applications_en": [
+    "Citation standards for technical documentation: separate RFCs, internal specs, blog posts, and hearsay into force tiers; key design documents may not rest on evidence below tier three",
+    "Organizational knowledge management: layer 'policy text / interpretive rules / departmental custom,' with the conflict adjudication rule fixed in advance so custom cannot quietly override policy",
+    "Literature-review writing: audit each secondary source (author stance, edition, chain of misreadings) before assigning it a citable level"
+   ],
+   "related_modes": [
+    "M-CC-022",
+    "M-CC-024",
+    "M-CC-027",
+    "H-DZS-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "阎若璩 (Yan Ruoqu, 后续)",
+    "阿威罗伊 (Averroes, 对照)"
+   ],
+   "key_quote_zh": "《四子》，《六经》之阶梯也。",
+   "key_quote_en": "The Four Books are the stairway to the Six Classics."
+  },
+  {
+   "id": "M-CC-024",
+   "name_zh": "自然理性通达神理法",
+   "name_en": "The Natural-Reason Bridge: reason can climb toward the highest truths without Revelation's help",
+   "mode_code": "M-CC-024",
+   "category": "核心方法",
+   "domain_zh": "形而上学/理性与信仰",
+   "domain_en": "Metaphysics / Reason and Faith",
+   "level": "核心",
+   "priority": 24,
+   "definition_zh": "朱熹与阿奎那共享的元命题：最高实在虽超越感官，但人类理性可以从自然内部出发，无需额外启示即可推出其存在与部分性质。方法论签名有四：其一，从运动/变化推第一因——阿奎那五路中的动力因与第一因论证：一切变化皆有使动者，链条不可无限回退；朱熹的理气论同样回答'万理归何处'：气有聚散而理无增减，太极作为'总天地万物之理'不靠启示而靠推证。其二，从秩序/等级推极点——五路的世界等级序列（好有程度必有至善）与朱熹'统体一太极，物物一太极'的分有结构同构：层级论证预设序列有顶。其三，理性自足但非全能——阿奎那明确划分哲学能证明（上帝存在）与哲学不能证明（三位一体），朱熹也承认'性'之微处'虽圣人难言之'：两人都拒绝理性越界，同时拒绝理性弃权。其四，诉诸必然性而非概率：论证的终点不是'很可能有太极/上帝'，而是逻辑上必须有一个'所以然'。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: though the highest reality transcends the senses, human reason, starting from within nature, can demonstrate its existence and something of its nature without extra revelation. Four signatures define the mode. First, from motion/change to a first cause: Aquinas's First Way and Second Way argue that every change has a mover and the chain cannot regress infinitely; Zhu Xi's li–qi theory answers 'where do the ten thousand principles converge' the same way — qi gathers and disperses but li neither increases nor decreases, and the Supreme Ultimate, as the totality of the principles of heaven, earth, and the myriad things, is established by inference, not revelation. Second, from order/degree to a summit: the Fifth Way's graded world (degrees of goodness entail a highest good) is isomorphic with Zhu Xi's 'one Supreme Ultimate overall, a Supreme Ultimate in each thing' — a participation structure whose hierarchy presupposes a peak. Third, reason self-sufficient but not omnipotent: Aquinas explicitly splits what philosophy can prove (that God exists) from what it cannot (the Trinity); Zhu Xi concedes that the subtlest reaches of human nature 'even a sage would find hard to state' — both refuse overreach and refuse surrender at once. Fourth, appeal to necessity, not probability: the argument's endpoint is not 'there is probably a Supreme Ultimate / God' but that there logically must be a reason-why.",
+   "source_chapter": "阿奎那《神学大全》I q.2 a.3 五路、《反异教大全》I；朱熹《太极图说解》、《朱子语类》卷一'理气'上",
+   "key_concepts": [
+    "五路",
+    "太极",
+    "理气论",
+    "自然神学",
+    "第一因"
+   ],
+   "process_zh": [
+    "承认论证起点是经验序列而非定义游戏：从可观察的运动、等级、秩序出发，不从概念内部造存在",
+    "运行'无限回退禁止'程序：任何解释链条若可以无限上推，则未完成解释；必须有非派生的终点",
+    "区分'理性可证明'与'理性不可及'两张清单：可证明的给出形式论证，不可及的显式标注为超出理性辖域",
+    "以必然性为验收标准：结论若只达到'高度可能'，判定为论证未完成，回到起点换路径"
+   ],
+   "process_en": [
+    "Start from experienced sequences, not definitional games: reason from observable motion, degrees, and order, never conjuring existence from inside a concept",
+    "Run the no-infinite-regress procedure: any explanatory chain that can be pushed up forever has not finished explaining; there must be a non-derivative terminus",
+    "Keep two lists — what reason can prove and what reason cannot reach: give formal arguments for the first, and explicitly mark the second as beyond reason's jurisdiction",
+    "Accept only necessity as the passing standard: if a conclusion attains only 'highly probable,' rule the argument unfinished and return to the start for another route"
+   ],
+   "representative_cases_zh": [
+    "阿奎那第二路（动力因）的标准演示：万物互为因果、任一环节既是果又是因，若无限回退则'无第一因即无中间因亦无终因'，故必有第一因——把'存在'问题从神学领地拉进逻辑法庭",
+    "朱熹对'理在气先'的辩护：面对'理气先后'追问，朱熹以'理无形，气有迹'回答'先'是逻辑在先而非时间在先——形而上第一性不靠启示，靠概念结构的推证",
+    "反面警示：阿奎那本人承认五路只证明'第一因存在'，未证明其为全善全能之神；后世自然神学常把'证明了存在'偷换为'证明了基督教神'——理性桥梁只能通到它能通到的地方，多走一步都是滑坡"
+   ],
+   "representative_cases_en": [
+    "The standard demonstration of Aquinas's Second Way: things stand in mutual causation, each member both effect and cause; if the regress were infinite there would be no first cause, hence no intermediate or final causes — so there must be a first. The existence question is hauled from theology's turf into logic's court",
+    "Zhu Xi's defense of 'li precedes qi': pressed on whether principle comes before material force, he answers that li is without form while qi has traces — the 'priority' is logical, not temporal. Metaphysical primacy is won by inference from conceptual structure, not by revelation",
+    "Cautionary: Aquinas himself conceded the Five Ways prove only that a first cause exists, not that it is the all-good, all-powerful God of Christianity; later natural theology routinely swapped 'proved an existence' for 'proved the Christian God.' The bridge of reason reaches only as far as it reaches — one step more is a slide"
+   ],
+   "modern_applications_zh": [
+    "科学边界声明写作：论文与项目书中区分'本方法可证明的'与'超出方法辖域的'，禁止用概率结论冒充必然结论",
+    "系统架构的'非派生终点'检查：任何依赖链（服务、数据、权限）必须有非派生锚点，无限代理转发按架构缺陷处理",
+    "公共说理训练：把'第一因式'论证（链条必须终止）作为可迁移的说理模板，用于对抗'反正还可以再追问'的无限拖延"
+   ],
+   "modern_applications_en": [
+    "Writing scope-of-proof statements in papers and proposals: separate 'what this method can demonstrate' from 'what lies beyond its jurisdiction,' and never dress a probabilistic conclusion in necessity's clothing",
+    "A non-derivative-anchor check for system architecture: every dependency chain (services, data, permissions) must terminate in a non-derivative anchor; infinite proxy relaying is treated as an architectural defect",
+    "Public-reasoning training: use first-cause-style arguments (chains must terminate) as a transferable template against the infinite postponement of 'but you could always ask again'"
+   ],
+   "related_modes": [
+    "M-CC-021",
+    "M-CC-025",
+    "M-CC-023",
+    "H-DKR-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "阿威罗伊 (Averroes)",
+    "笛卡尔 (Descartes, 后续)"
+   ],
+   "key_quote_zh": "未有天地之先，毕竟也只是理。有此理，便有此天地；若无此理，便亦无天地。",
+   "key_quote_en": "Before heaven and earth existed, there was after all only principle. With this principle there is this heaven and earth; without it, neither heaven nor earth."
+  },
+  {
+   "id": "M-CC-025",
+   "name_zh": "存天理去人欲修治法",
+   "name_en": "The Purifying-Discipline Method: order the self before ordering the world",
+   "mode_code": "M-CC-025",
+   "category": "核心方法",
+   "domain_zh": "伦理学/修养论",
+   "domain_en": "Ethics / Self-Cultivation",
+   "level": "核心",
+   "priority": 25,
+   "definition_zh": "朱熹与阿奎那共享的元命题：公共秩序的根基在个体的欲望治理，政治与伦理在'修养'处汇合。方法论签名有四：其一，欲望不是敌人而是治理对象——朱熹'饮食者，天理也；要求美味，人欲也'，人欲是'过'而非'恶'本身；阿奎那把激情定义为'灵魂力量的运动'，本身无善恶，善恶在于理性是否支配——两人都反对把欲望妖魔化。其二，习惯是治理的技术形式——朱熹讲'持敬'须'贯穿于日用之间'，阿奎那《神学大全》用整整数十题处理德性与习惯（habitus）：德性是经由重复行动养成的稳定品质。其三，修身与治世同构——朱熹《大学》序列'修身齐家治国平天下'，内圣外王一体；阿奎那《论君主政治》同样把统治者的德性修养当作政体质量的前提。其四，检查点可操作——朱熹的'省察克治'与阿奎那的'良心与良知的区分'都把修养落到可执行的日常检验，而非玄谈。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: the foundation of public order lies in the governance of individual desire; politics and ethics converge in cultivation. Four signatures define the mode. First, desire is not the enemy but the object of governance: Zhu Xi — 'eating is heavenly principle; demanding delicacies is human desire' — treats desire as excess, not evil as such; Aquinas defines the passions as 'movements of the powers of the soul,' neutral in themselves, good or bad only as reason commands them — both refuse to demonize desire. Second, habit is the technical form of governance: Zhu Xi's 'holding reverence' must run 'through the daily round'; Aquinas devours dozens of questions of the Summa on virtue and habit (habitus): virtue is a stable quality grown through repeated action. Third, self-order and world-order share one structure: Zhu Xi's Great Learning sequence — cultivate the self, regulate the family, govern the state, pacify the world — welds inner and outer; Aquinas's On Kingship likewise makes the ruler's cultivated virtue the precondition of the regime's quality. Fourth, the checkpoints are operational: Zhu Xi's 'examine and overcome' and Aquinas's distinction between conscience and synderesis both land cultivation in executable daily tests, not mysticism.",
+   "source_chapter": "《朱子语类》卷十三'力行'、卷十二'持守'；阿奎那《神学大全》I-II qq.6-17（激情与习惯）、qq.49-54（德性）、《论君主政治》",
+   "key_concepts": [
+    "存天理去人欲",
+    "habit",
+    "持敬",
+    "修身",
+    "激情中性"
+   ],
+   "process_zh": [
+    "把欲望清单化并分档：必要/适度/过度三档，治理针对'过度'而非欲望本身，禁止全盘禁欲式治理",
+    "把目标品质转成习惯设计：具体到触发场景—行动—复盘的循环，重复频次显式设定，德性靠重复养成而非靠立志",
+    "为修身序列设分段验收：心（注意管理）→身（行为纪律）→家（关系秩序）逐段验收，未过关段不进入下一段",
+    "日常省察有固定检查点：每日复盘'今日何处让欲过了度'，记录在案而非事后凭印象"
+   ],
+   "process_en": [
+    "List desires and tier them: necessary / moderate / excessive; govern the 'excessive,' never the desire as such — total ascetic control is forbidden",
+    "Convert target qualities into habit design: explicit trigger–action–review loops with a set repetition frequency; virtue grows by repetition, not by resolution",
+    "Stage-gate the cultivation sequence: mind (attention), body (conduct), household (relations) — each stage is inspected before the next opens",
+    "Fix daily checkpoints for self-audit: every day record where desire tipped past measure, in writing — never from after-the-fact impressions"
+   ],
+   "representative_cases_zh": [
+    "朱熹论饮食的尺度感：'饮食者天理也，要求美人欲也'——不是不许吃，而是把'要'字作为分界：治理对象精确到'超出的部分'，这是可操作的欲望分档而非道德恐吓",
+    "阿奎那对激情的系统'去污名化'：《神学大全》I-II 用结构化问答逐一处理爱与恨、欲与喜、勇与惧，每一激情先问'它是否本质为恶'再问'何时为善'——把伦理学写成欲望的治理手册",
+    "反面警示：'存天理灭人欲'在后世礼教执行中被极端化为对正常欲望的全面压制（节妇殉烈等），朱熹原意的'过度治理'被偷换为'存在治理'——欲望分档若失去'适度'中档，治理工具立刻反转为压迫工具"
+   ],
+   "representative_cases_en": [
+    "Zhu Xi's scale for eating: 'eating is heavenly principle; demanding delicacies is human desire' — not forbidding food but making the word 'demanding' the boundary: the object of governance is precisely the excess. A workable tiering of desire, not moral intimidation",
+    "Aquinas's systematic de-stigmatization of the passions: Summa I-II treats love and hate, desire and pleasure, daring and fear in structured Q&A, asking of each passion first 'is it evil in essence?' then 'when is it good?' — ethics written as a governance manual for desire",
+    "Cautionary: 'preserve heavenly principle and extinguish human desire' was radicalized by later ritualist enforcement into wholesale suppression of normal desire (widow-martyrdom and the like); Zhu Xi's original 'governing the excess' was swapped for 'governing existence.' Once the middle 'moderate' tier is lost from the desire taxonomy, the instrument of governance instantly inverts into an instrument of oppression"
+   ],
+   "modern_applications_zh": [
+    "个人精力与注意力管理：欲望分档（必要/适度/过度）替代全盘自律叙事，重点放在'过度'档的具体触发场景",
+    "组织制度设计：区分'制度要治理的行为'与'行为本身'，防止合规要求滑向对正常业务活动的全面审批制",
+    "领导者养成路径：把'修身→治事'序列写进管理培训，管理岗位先验收自我管理分段，再授权管人"
+   ],
+   "modern_applications_en": [
+    "Personal energy and attention management: tier desires (necessary / moderate / excessive) instead of wholesale self-discipline narratives, focusing on the concrete triggers of the 'excessive' tier",
+    "Institutional design: separate 'the behavior a policy governs' from 'the behavior itself,' so compliance does not slide into all-permit approval regimes over normal operations",
+    "A leader-development path: write the cultivate-self-then-govern sequence into management training — gate the promotion to managing others on passing the self-management stage"
+   ],
+   "related_modes": [
+    "M-CC-024",
+    "M-CC-026",
+    "M-CC-021",
+    "H-HFZ-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "王阳明 (Wang Yangming, 对照)",
+    "亚里士多德 (Aristotle)"
+   ],
+   "key_quote_zh": "饮食者，天理也；要求美味，人欲也。",
+   "key_quote_en": "Eating is heavenly principle; demanding delicacies is human desire."
+  },
+  {
+   "id": "M-CC-026",
+   "name_zh": "至善目的论治理法",
+   "name_en": "The Common-Good Teleology: institutions as instruments of a shared final end",
+   "mode_code": "M-CC-026",
+   "category": "核心方法",
+   "domain_zh": "政治哲学/目的论",
+   "domain_en": "Political Philosophy / Teleology",
+   "level": "核心",
+   "priority": 26,
+   "definition_zh": "朱熹与阿奎那共享的元命题：制度与权力的合法性来自其对共同之善（至善目的）的服务，目的先于程序。方法论签名有四：其一，万物有'所以然之则'与'所当然之则'——朱熹区分'所以然'（为何如此）与'所当然'（应当如何），规范由存在的秩序推出；阿奎那的'自然法'同样是'人性之自然倾向'向规范的推译：人的自然目的规定了'应当'。其二，共同善先于私利——朱熹义利之辨的核心是'公私之辨'：公其心则王，私其心则霸；阿奎那明确'法律以共同善为目的'，私益导向的命令只是'命令'而非'法'。其三，君位与职分分离——朱熹讲'君之所以为君'在于'仁'，失仁则失其所以为君；阿奎那《论君主政治》主张废黜暴君的正当性：权力附着于职分而非人身。其四，目的论的可操作性：两人都把抽象目的翻译为具体制度（学校、社仓 / 法律、赏罚），目的论不是修辞而是设计参数。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: the legitimacy of institutions and power comes from their service to the common good — a final end — and purpose precedes procedure. Four signatures define the mode. First, every thing has both a reason-why and an ought-thus: Zhu Xi splits 'the reason why it is so' from 'the norm that it ought to be so,' deriving norms from the order of existence; Aquinas's natural law likewise translates 'natural inclinations of human nature' into norms: our natural end fixes the 'ought.' Second, the common good precedes private gain: the core of Zhu Xi's righteousness–profit discrimination is public versus private — publicize the heart and one reigns as a true king, privatize it and one rules as a mere hegemon; Aquinas states flatly that law aims at the common good, and a command aimed at private benefit is a 'command,' not a 'law.' Third, the throne is distinct from the office: Zhu Xi holds that what makes a ruler a ruler is humaneness — lose it and one loses the ground of rule; Aquinas's On Kingship defends the legitimacy of deposing tyrants: power attaches to the office, not the person. Fourth, the teleology is operational: both translate the abstract end into concrete institutions — schools and community granaries for Zhu Xi; laws and sanctions for Aquinas. Teleology as design parameter, not rhetoric.",
+   "source_chapter": "朱熹《孟子集注》'义利之辨'、《大学章句》；阿奎那《神学大全》I-II qq.90-97（法与自然法）、《论君主政治》卷一",
+   "key_concepts": [
+    "共同善",
+    "自然法",
+    "义利之辨",
+    "所以然/所当然",
+    "暴君可废"
+   ],
+   "process_zh": [
+    "为任何制度先声明其所服务的最终目的：说不清共同善的制度提案不进入程序设计环节",
+    "把'目的'翻译为可检验的制度条款：学校、社仓、法律、赏罚式的具体机制，而非口号",
+    "设立'权力附着于职分'的检验：任何行使权力的行为须能回答'职分授权何在'，回答不出即为篡权",
+    "以公私之辨做定期审计：抽查实际受益流向，私益导向的条款按'非法'处理，无论程序多么完备"
+   ],
+   "process_en": [
+    "Declare the final end any institution serves before anything else: a proposal that cannot name its common good does not proceed to procedure design",
+    "Translate the end into checkable institutional clauses — concrete mechanisms in the manner of schools, granaries, laws, and sanctions — not slogans",
+    "Run the power-attaches-to-office test: every exercise of power must answer 'where does the office's authorization lie?' — what cannot answer is usurpation",
+    "Audit public-versus-private periodically: sample the actual flow of benefit; clauses aimed at private gain are ruled unlawful however impeccable their procedure"
+   ],
+   "representative_cases_zh": [
+    "朱熹社仓实践：在五夫创建社仓，以常平仓谷本贷给农民、青黄不接时低息出借、丰年自愿归还——'共同善'被翻译为一个可运行百年的金融制度，而非道德劝告",
+    "阿奎那论暴政的可废黜性：《论君主政治》区分君主制与暴政，主张对公然违背共同善的政权，'收回授权'具有正当性——中世纪语境下的权力合法性革命",
+    "反面警示：朱熹社仓后世普遍失败于'豪强把持'：共同善制度若无反私人截留的执行机制，会系统性退化为权贵的提款机——目的论治理的成败在执行结构，不在道德宣示"
+   ],
+   "representative_cases_en": [
+    "Zhu Xi's community granary: at Wufu he founded a granary lending state grain to farmers at low interest in the lean season, repaid voluntarily in good years — 'the common good' translated into a financial institution that ran for a century, not a moral exhortation",
+    "Aquinas on the deposability of tyrants: On Kingship distinguishes kingship from tyranny and holds that for a regime openly betraying the common good, 'recalling the authorization' is legitimate — a theory of legitimacy revolutionary in its medieval context",
+    "Cautionary: Zhu Xi's granaries later failed almost everywhere to local strongmen seizing control: a common-good institution without enforcement against private interception systematically degrades into an extraction machine for the powerful — the fate of teleological governance lies in its enforcement structure, not its moral proclamation"
+   ],
+   "modern_applications_zh": [
+    "ESG 与公共项目评审：先写明项目服务的共同善与受益流向，再进入预算与程序，防止'程序完备但目的为私'",
+    "公司治理的'职分授权'审计：高管权力清单逐项对应章程条款，无法对应的行为按越权处理",
+    "政策目的条款设计：立法与制度文本首条必须声明目的，后续执行争议以目的条款为最高解释依据"
+   ],
+   "modern_applications_en": [
+    "ESG and public-project review: state the common good served and the flow of benefits before budgeting and procedure, forestalling 'impeccable procedure, private purpose'",
+    "An office-authorization audit in corporate governance: every executive power maps to a charter clause; unmapped acts are treated as ultra vires",
+    "Purpose-clause drafting in policy: the first article of legislation and institutional texts must declare its end, and end-clauses serve as the highest interpretive basis in later disputes"
+   ],
+   "related_modes": [
+    "M-CC-025",
+    "M-CC-027",
+    "M-CC-023",
+    "H-DZS-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "董仲舒 (Dong Zhongshu, 前源)",
+    "亚里士多德 (Aristotle)"
+   ],
+   "key_quote_zh": "国君好仁，天下无敌……义利之说，乃儒者第一义。",
+   "key_quote_en": "Law is an ordinance of reason for the common good, promulgated by him who has care of the community."
+  },
+  {
+   "id": "M-CC-027",
+   "name_zh": "教育与制度传承共同体法",
+   "name_en": "The Academy-and-Institution Method: making doctrine survive through built structures",
+   "mode_code": "M-CC-027",
+   "category": "核心方法",
+   "domain_zh": "文明论/制度化传承",
+   "domain_en": "Civilization / Institutional Transmission",
+   "level": "核心",
+   "priority": 27,
+   "definition_zh": "朱熹与阿奎那共享的元命题：思想要跨越世代存活，必须把自己写进制度，而非只活在文本里。方法论签名有四：其一，重建实体载体——朱熹一生重修白鹿洞书院、武夷精舍、沧洲精舍，书院有学规、有田产、有师承；阿奎那投身多明我会与巴黎大学，把神学嵌进修会与大学的章程、学位与教席体系。其二，标准课程化——白鹿洞书院学规以'五教之目、为学之序'规定教学次第；阿奎那的《大全》本身设计为'初学者的教科书'，按 quaestio 体系化排布，可直接用于大学课程。其三，考核与认证机制——科举以朱熹《四书集注》为标准答案（1313年元朝定制），托钵修会内部有严格的学业进阶与教师资格（magister）制度：两人都把'谁有资格传授'制度化了。其四，教材的可复制性——集注与《大全》都以可印刷、可传播、可背诵的形态存在，思想被'格式化'为可复制单元。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: for a doctrine to survive across generations it must write itself into institutions, not live only in texts. Four signatures define the mode. First, rebuild the physical carrier: Zhu Xi restored the White Deer Grotto Academy and built the Wuyi and Cangzhou studios — academies with rules, landholdings, and master–disciple lineages; Aquinas entered the Dominican Order and the University of Paris, embedding theology in the charters, degrees, and chairs of order and university. Second, curriculum standardization: the White Deer Grotto rules fix the sequence of teaching ('the five teachings, the order of learning'); the Summa was itself designed as 'a textbook for beginners,' laid out quaestio by quaestio for direct university use. Third, examination and certification: the imperial examination adopted Zhu Xi's Collected Commentaries as the standard answers (the Yuan dynasty fixed this in 1313); the mendicant orders ran strict academic progression and a licensing system for teachers (magister) — both institutionalized 'who is qualified to transmit.' Fourth, copyability of the textbook: the Commentaries and the Summa exist in printable, circulatable, memorizable form — doctrine formatted into reproducible units.",
+   "source_chapter": "朱熹《白鹿洞书院揭示》、重修书院记；阿奎那《神学大全》序言体例、多明我会宪章与巴黎大学 magister 制度",
+   "key_concepts": [
+    "书院",
+    "大学",
+    "制度化传承",
+    "课程化",
+    "认证"
+   ],
+   "process_zh": [
+    "把思想纲领写成实体章程：学规/会规式的成文规则，含次第、纪律与经费来源，不依赖创始人肉身存续",
+    "建立课程与考核体系：把学说切分为可教学的模块，配标准文本与考核标准，让'学会'可被独立验证",
+    "设立传承资格制度：明确'谁有权教授/裁决'的认证路径与撤销条件，防止劣质传承稀释学说",
+    "以可复制格式发布教材：文本须可印刷、可摘引、可背诵，为跨越印刷与时代的传播做格式准备"
+   ],
+   "process_en": [
+    "Write the doctrine's program into a charter: written rules in the manner of academy or order constitutions — sequence, discipline, funding — viable without the founder's living body",
+    "Build curriculum and examination: slice the doctrine into teachable modules with standard texts and pass criteria, so 'mastery' can be verified independently",
+    "Institute credentials for transmission: a certification path (and revocation conditions) for who may teach or rule, keeping low-quality transmission from diluting the doctrine",
+    "Publish the textbook in reproducible form: printable, quotable, memorizable — formatting doctrine for transmission across presses and eras"
+   ],
+   "representative_cases_zh": [
+    "白鹿洞书院的重建（1180）：朱熹知南康军时主持重建，亲订《揭示》五条（父子有亲、君臣有义……博学之、审问之……），把儒学伦理写成书院的运行章程——这份学规被朝鲜、日本书院沿用数百年",
+    "阿奎那《神学大全》的设计自觉：序言明言'为初学者'，结构按教学次第而非神学论题重要性排列——一部'教科书形态'的神学，使道明会训练体系可以标准化复制",
+    "反面警示：1313年科举定朱注为标准答案后，四书沦为背诵篇目，'格物穷理'的探究精神被考试形式掏空——制度传承一旦把'标准答案'固化，传承机制会反噬思想的原创内核"
+   ],
+   "representative_cases_en": [
+    "The rebuilding of the White Deer Grotto Academy (1180): while prefect of Nankang, Zhu Xi directed the restoration and personally drafted the Revealed Rules — five articles (affection between father and son, righteousness between ruler and minister... learning broadly, questioning carefully...) writing Confucian ethics as the academy's operating charter, adopted by Korean and Japanese academies for centuries",
+    "The design self-awareness of the Summa: its prologue declares it written 'for beginners,' and its structure follows teaching order rather than the intrinsic rank of theological topics — a theology in textbook form that let the Dominican training system replicate on standard",
+    "Cautionary: after 1313, when the examination made Zhu's commentary the standard answer, the Four Books turned into recitation material and the investigative spirit of 'exhausting principle' was hollowed out by the exam format — once institutional transmission freezes a 'standard answer,' the mechanism of transmission turns on the original core of the thought"
+   ],
+   "modern_applications_zh": [
+    "开源项目的可持续化：从个人代码库升级为有章程、有模块课程、有 reviewer 认证、有发行版本的制度实体",
+    "企业内训体系设计：核心方法论须课程化（标准教材+考核+讲师认证），不能只靠'跟老板开会'传承",
+    "学术共同体的建制：新研究领域需要学刊、课程、教材、认证四件套，只有论文没有课程的方向难以跨代存活"
+   ],
+   "modern_applications_en": [
+    "Sustaining an open-source project: upgrade from one person's codebase to an institutional entity with a charter, module curriculum, reviewer certification, and release cadence",
+    "Corporate training design: core methodology must be curricularized — standard texts, assessment, instructor certification — never transmitted only 'by sitting in on the boss's meetings'",
+    "Building an academic community: a new field needs the four-piece kit — journal, courses, textbook, certification; a direction with papers but no courses rarely survives a generation"
+   ],
+   "related_modes": [
+    "M-CC-026",
+    "M-CC-028",
+    "M-CC-023",
+    "H-CC-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "孔子 (Confucius, 前源)",
+    "伊拉斯谟 (Erasmus, 后续)"
+   ],
+   "key_quote_zh": "圣贤教人为学，非是使人缀缉言语、造作文辞，但为科名爵禄之计，须是格物、致知、诚意、正心、修身，而推之以至于齐家、治国。",
+   "key_quote_en": "The masters teach learning not to train men to string words and compose for exam honors, but to investigate things, extend knowledge, make intention sincere, rectify the heart, cultivate the self, and extend this to governing family and state."
+  },
+  {
+   "id": "M-CC-028",
+   "name_zh": "体系化集成写作法",
+   "name_en": "The Systematic-Synthesis Method: one architecture to hold an entire civilization's inheritance",
+   "mode_code": "M-CC-028",
+   "category": "核心方法",
+   "domain_zh": "知识论/体系建构",
+   "domain_en": "Epistemology / Systematic Construction",
+   "level": "核心",
+   "priority": 28,
+   "definition_zh": "朱熹与阿奎那共享的元命题：面对积累数百年的思想遗产，最大的贡献不是加一条新议论，而是建造一个能收拢全部遗产的体系。方法论签名有四：其一，总纲先行——朱熹以'理一分殊'统摄理气、心性、格物、工夫诸论；阿奎那以'存在与本质'、'类比'统摄创世、灵魂、伦理、法诸题：先立总纲再填内容。其二，集成而非独创的姿态——两人都自称述者（朱熹'述而不作'的自觉继承者，阿奎那称自己只是'把哲学服务于神学'），创新藏于取舍与结构。其三，争议的系统安置——朱熹对异说（佛老、陆学、功利之学）逐一定位批判并写进体系边界；阿奎那为每个反方立场（阿威罗伊主义、奥古斯丁主义内部争议）在 quaestio 中预留席位：反对意见不是敌人而是体系的承重墙。其四，未完成性的自觉——《大全》未写完，朱熹《四书》义理终生修订；两人都接受体系是'活的建筑'，留有脚手架。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: facing an inheritance accumulated over centuries, the greatest contribution is not one more disputation but building a system capacious enough to hold the whole legacy. Four signatures define the mode. First, master-outline first: Zhu Xi governs his theories of li and qi, mind and nature, investigation and effort with the single formula 'principle is one, its allocations differ'; Aquinas governs creation, soul, ethics, and law with 'being and essence' and analogy — erect the master frame before pouring content. Second, the posture of synthesis over originality: both style themselves transmitters (Zhu Xi the self-aware heir of 'transmit but do not compose'; Aquinas claiming only to 'put philosophy in the service of theology'), with innovation hidden in selection and structure. Third, systematic placement of rivals: Zhu Xi locates and critiques each rival teaching (Buddhism, Daoism, the Lu school, the doctrine of profit) and writes them into the system's boundary; Aquinas reserves a seat for every opposing position (Averroism, internal Augustinian disputes) inside the quaestio — objections are not enemies but load-bearing walls. Fourth, conscious incompleteness: the Summa was left unfinished; Zhu Xi revised his doctrine of the Four Books to the end of his life — both accept the system as a living building with scaffolding left up.",
+   "source_chapter": "朱熹《中庸章句序》'理一分殊'、《四书或问》；阿奎那《神学大全》总体结构、《反异教大全》分卷设计",
+   "key_concepts": [
+    "理一分殊",
+    "集成",
+    "体系边界",
+    "承重墙",
+    "未完成性"
+   ],
+   "process_zh": [
+    "先写一页总纲：用一两个核心概念（如'理一分殊'）统摄全部子题，总纲写不出的体系不立项",
+    "以集成姿态列遗产清单：把全部要收拢的前人论点列成总表，标注'取/舍/改造'三态，创新藏在取舍里",
+    "给每个主要反方体系安排结构性席位：把对手论点设为体系内部要被处理的章节（承重墙），而非外部攻击",
+    "公开声明体系的未完成处：列出当前无法收拢的例外与悬案，为后续修订预留接口"
+   ],
+   "process_en": [
+    "Write a one-page master outline first: one or two core concepts (like 'one principle, many allocations') must govern all subtopics; a system with no master outline does not get built",
+    "Take an inventory of the legacy in a synthesizing posture: list every inherited claim to be gathered, marked take / discard / transform — innovation lives in the selection",
+    "Give every major rival system a structural seat: opponents' theses become chapters to be handled inside the system (load-bearing walls), not attacks from outside",
+    "Declare the system's incompleteness publicly: list the exceptions and open questions not yet gathered, reserving interfaces for later revision"
+   ],
+   "representative_cases_zh": [
+    "朱熹四十年注四书：《四书章句集注》从初稿到临终前三天还在修改'诚意章'——体系不是一次建成而是持续施工四十年的'终身工程'，总纲'理一分殊'始终未变",
+    "《神学大全》的收拢范围：从上帝存在到修女守则，从天使到高利贷，六百多题全部置于同一结构（quaestio+正反+裁决）之下——收拢本身就是神学主张：一切可问之事皆可被同一理性结构安放",
+    "反面警示：朱熹殁后'庆元党禁'虽解，但理学被官方独尊后，体系的边界功能（批判佛老与功利）被遗忘，只剩收拢功能——没有边界执行力的体系会退化为无所不包的空容器"
+   ],
+   "representative_cases_en": [
+    "Forty years on the Four Books: Zhu Xi revised the Collected Commentaries until three days before his death, still reworking the chapter on making intention sincere — a system built not in one act but as a forty-year construction site, with the master outline ('one principle, many allocations') fixed throughout",
+    "The reach of the Summa: from the existence of God to the rules for nuns, from angels to usury, six hundred–odd questions all under one structure (quaestion + objections + ruling) — the gathering itself is a theological claim: everything askable can be housed under one rational structure",
+    "Cautionary: after Zhu Xi's death and the lifting of the 1196 ban on his school, once Neo-Confucianism became state orthodoxy the system's boundary function (critique of Buddhism, Daoism, and the profit-doctrine) was forgotten and only the gathering function remained — a system with no enforced boundary degrades into an empty container that holds everything"
+   ],
+   "modern_applications_zh": [
+    "知识库/文档体系重构：先立总纲（一页核心概念图），再做存量内容盘点与取舍标注，最后公开'未完成清单'",
+    "大型软件架构设计：总纲先行（架构决策记录ADR），把历史遗留系统作为'承重墙章节'纳入而非推倒，声明技术债清单",
+    "标准制定方法：行业标准先定术语总纲与边界（不覆盖什么），再收拢既有实践，为未来扩展留接口"
+   ],
+   "modern_applications_en": [
+    "Rebuilding a knowledge base or doc system: master outline first (a one-page concept map), then inventory and take/discard/transform tagging of existing content, then a public 'unfinished list'",
+    "Large-system architecture: master outline first (ADRs), fold legacy systems in as load-bearing chapters rather than tearing them down, and declare a technical-debt list",
+    "Standards drafting: fix the terminology master-outline and the boundary (what is not covered) before gathering existing practice, reserving interfaces for future extension"
+   ],
+   "related_modes": [
+    "M-CC-027",
+    "M-CC-029",
+    "M-CC-021",
+    "H-MKS-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "康德 (Kant, 后续)",
+    "司马迁 (Sima Qian, 前源)"
+   ],
+   "key_quote_zh": "总天地万物之理，便是太极。理一分殊。",
+   "key_quote_en": "Principle is one, its allocations differ: the totality of the principles of heaven, earth, and the myriad things is the Supreme Ultimate."
+  },
+  {
+   "id": "M-CC-029",
+   "name_zh": "心性情三分与灵魂能力分析法",
+   "name_en": "The Faculty-Analysis Method: mapping the mind's departments before moralizing them",
+   "mode_code": "M-CC-029",
+   "category": "核心方法",
+   "domain_zh": "心性论/心灵哲学",
+   "domain_en": "Philosophy of Mind / Theory of Human Nature",
+   "level": "核心",
+   "priority": 29,
+   "definition_zh": "朱熹与阿奎那共享的元命题：道德判断前先给心灵画结构图——把心拆分为能力部门，再论各部门的分工与失序。方法论签名有四：其一，三分结构——朱熹'心统性情'：心是总控，性（理，静）与情（发用，动）在其下运行；阿奎那分灵魂为理智、意志、激情诸能力，各司其职：两者都以'分工'取代'善恶'作为第一分析轴。其二，失序即越权——朱熹谓恶源于'情之流而失其正'，即情绪部门夺取总控权；阿奎那谓罪源于激情压倒意志与理智——失德被诊断为'组织架构问题'而非'本性败坏'。其三，静存动察——朱熹'未发涵养、已发省察'两段工夫对应心灵的不同状态；阿奎那以沉思生活与行动生活（contemplatio / actio）两态对应：修养论按心灵状态分线治理。其四，'心'的地位近似——朱熹的心是'气之灵'能知觉运宰；阿奎那的意志（voluntas）是理性 appetite 能自主趋避：两家的'总控部门'都有准自主性，这为自由与责任留出位置。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: before moralizing, map the mind's structure — partition it into departments of capacity, then assign each its duties and disorders. Four signatures define the mode. First, the tripartite structure: Zhu Xi's 'the mind commands nature and feeling' — the mind is the controller, running nature (principle, quiescent) and feeling (activation, moving) beneath it; Aquinas partitions the soul into intellect, will, and the passions, each with its office — both replace good/evil with division of labor as the first axis of analysis. Second, disorder is usurpation: Zhu Xi locates evil in 'feeling flowing off its course,' the emotion department seizing control; Aquinas locates sin in passion overwhelming will and intellect — moral failure is diagnosed as an organizational problem, not a corrupt essence. Third, quiescent storing and active inspecting: Zhu Xi's two disciplines — nourishing the not-yet-emergent, examining the already-emergent — map to different mental states; Aquinas's contemplative versus active life (contemplatio / actio) does the same: cultivation is governed along lines of mental state. Fourth, the near-equal standing of the controller: Zhu Xi's mind is 'the numinous of qi,' perceiving and steering; Aquinas's will is the rational appetite, free to pursue or avoid — in both systems the controlling department has quasi-autonomy, leaving room for freedom and responsibility.",
+   "source_chapter": "朱熹《中庸章句序》'心统性情'、《朱子语类》卷五'性情心意'；阿奎那《神学大全》I qq.75-89（灵魂）、I-II qq.6-21（意志与激情）",
+   "key_concepts": [
+    "心统性情",
+    "灵魂能力",
+    "理智/意志/激情",
+    "未发已发",
+    "越权诊断"
+   ],
+   "process_zh": [
+    "先画心灵结构图再下道德判断：列出各部门（认知/意志/情绪）及其职权边界，分析问题先定位部门再论善恶",
+    "以'越权'为默认诊断：情绪越权（夺总控）、意志缺位（不执行）分列两类，治理方案按失序类型分线",
+    "按心灵状态分线修养：静（未发/沉思）状态做涵养训练，动（已发/行动）状态做省察复盘，不混用一套方法",
+    "为总控部门保留自主性说明：解释自由与责任时显式引用'准自主的总控'，避免把人还原为刺激反应机器"
+   ],
+   "process_en": [
+    "Draw the mind's org chart before moral judgment: list the departments (cognition, will, emotion) and their boundaries; locate the department first, judge good and evil second",
+    "Default to a usurpation diagnosis: emotion usurping control and will absent from execution are listed separately, with remedies tailored to the disorder type",
+    "Cultivate along lines of mental state: in quiescence (not-yet-emergent / contemplation) practice nourishing; in activity (already-emergent / action) practice examination — never one method for both",
+    "Keep an autonomy account for the controller: when explaining freedom and responsibility, cite the quasi-autonomous controlling department explicitly, refusing to reduce the person to a stimulus–response machine"
+   ],
+   "representative_cases_zh": [
+    "朱熹对'四端七情'的安置：仁义礼智之性发为恻隐等四端，另有人之七情——他把道德情感与一般情绪分属不同发用线，用一张结构图终结了宋人长期的概念混战",
+    "阿奎那对'意志软弱'（akrasia）的机制化解释：我知道善却行恶，是因为感官激情的评估（particular estimative）先于并干扰了普遍理性的命令——'明知故犯'被拆解为两个部门的时间差问题",
+    "反面警示：朱熹'心统性情'的精微结构在后世科举教学中被简化为'存心去欲'的口号，结构图丢了只剩口号——心灵分析法一旦脱离结构细节，会立刻退化为道德训诫"
+   ],
+   "representative_cases_en": [
+    "Zhu Xi's placement of the four sprouts and seven feelings: the nature of humaneness, righteousness, propriety, and wisdom issues as the four sprouts (compassion and the like), while the seven ordinary feelings run on a separate activation line — one structural chart ended a long conceptual war among Song thinkers",
+    "Aquinas's mechanized account of akrasia: knowing the good yet doing evil happens because the sense passions' particular estimation outruns and derails the command of universal reason — 'knowing wrongdoing and doing it anyway' is decomposed into a timing problem between two departments",
+    "Cautionary: the fine structure of 'the mind commands nature and feeling' was flattened in later examination teaching into the slogan 'preserve the mind, remove desire' — lose the org chart, keep the slogan, and the analytic method degenerates instantly into moral exhortation"
+   ],
+   "modern_applications_zh": [
+    "产品设计的行为模型：先画用户'认知/动机/习惯'三分图再设计干预，干预错部门（对情绪部门讲道理）是常见失败",
+    "组织危机复盘：把决策失误按'信息部门失职/判断部门越权/执行部门缺位'分类归因，替代笼统的'责任心问题'",
+    "心理自助方法论：区分静态练习（冥想、涵养）与动态复盘（行动后省察），避免用冥想解决需要复盘的问题"
+   ],
+   "modern_applications_en": [
+    "Behavioral models in product design: draw the user's cognition/motivation/habit tripartite map before designing interventions — intervening in the wrong department (lecturing the emotion department) is the classic failure",
+    "Organizational post-mortems: attribute decision failures by department — information lapse, judgment usurpation, execution absence — instead of the blanket 'accountability problem'",
+    "Self-help methodology: separate quiescent practices (meditation, nourishing) from active reviews (examination after action), never using meditation to solve what a review can"
+   ],
+   "related_modes": [
+    "M-CC-025",
+    "M-CC-030",
+    "M-CC-024",
+    "H-WYM-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "亚里士多德 (Aristotle, 前源)",
+    "王阳明 (Wang Yangming, 对照)"
+   ],
+   "key_quote_zh": "心主性情……性是未动，情是已动，心包得已动未动。",
+   "key_quote_en": "The mind commands nature and feeling: nature is not yet moving, feeling is already moving, and the mind envelopes both."
+  },
+  {
+   "id": "M-CC-030",
+   "name_zh": "轴心体系代价审计法",
+   "name_en": "The Legacy-Cost Audit: pricing what a grand system's victory cost",
+   "mode_code": "M-CC-030",
+   "category": "核心方法",
+   "domain_zh": "文明论/批判反思",
+   "domain_en": "Civilization / Critical Reflection",
+   "level": "核心",
+   "priority": 30,
+   "definition_zh": "朱熹与阿奎那共享的元命题：一个体系在赢得正统地位的那一刻起，必须开始为它的胜利定价——体系化的成功本身是最需要被审计的后果。方法论签名有四：其一，胜利代价前置评估——朱熹生前已见科举引用其学的苗头，忧虑'学者但为科举计'；阿奎那生前面对多明我会将其神学定为一尊的呼声，其会内传统坚持'阿奎那主义不等于多明我会全部'。其二，正统化的双刃记录——朱熹殁后九年从'伪学'翻为官学（1313年定制科举），阿奎那1323年封圣、1879年新经院主义立其哲学为天主教标准哲学：两人都经历了'边缘批判者→官方标准'的翻转，这一翻转本身就是他们的方法论遗产中最需要警惕的部分。其三，被压制的替代方案清单——朱熹体系压制了陆学直觉路线与陈亮功利路线近六百年；阿奎那体系吸纳但驯化了奥古斯丁主义与阿威罗伊主义：审计要求显式列出'体系胜利后失去的声音'。其四，为后续批判预留合法性——朱熹的'格物穷理'精神本身是明清批判理学的资源（考据学以其精神反其体系）；阿奎那的'理性自主'论证是天主教内部现代化改革的合法通道。",
+   "definition_en": "Zhu Xi and Thomas Aquinas share one master proposition: from the moment a system wins orthodox standing, it must begin pricing its victory — the success of systematization is itself the consequence most in need of audit. Four signatures define the mode. First, assess the costs of victory before it arrives: Zhu Xi already saw his learning cited for examination purposes in his lifetime and worried that 'scholars study only for the examinations'; Aquinas faced calls within his order to enthrone his theology as the sole standard, and his own Dominican tradition insisted 'Thomism is not the whole of the Order.' Second, record the double edge of orthodoxy: nine years after Zhu Xi's death 'pernicious learning' flipped into state learning (fixed for the examinations in 1313); Aquinas was canonized in 1323 and made the standard Catholic philosopher by Neo-Scholasticism in 1879 — both traveled the arc from marginal critic to official standard, and that arc is the part of their legacy most needing vigilance. Third, keep a list of suppressed alternatives: Zhu Xi's system silenced the Lu-school intuitive line and Chen Liang's utility line for nearly six hundred years; Aquinas's system absorbed and domesticated Augustinianism and Averroism — the audit demands an explicit list of 'voices lost when the system won.' Fourth, pre-authorize later critique: Zhu Xi's own spirit of 'exhausting principle' became the resource Ming-Qing evidential scholarship used against his system; Aquinas's argument for the autonomy of reason became the legitimate channel for modernizing reform within Catholicism.",
+   "source_chapter": "朱熹论科举之弊（《朱子语类》卷十三）、庆元党禁始末；阿奎那封圣诏书（1323）、《永恒之父》通谕（1879）及其当代批评",
+   "key_concepts": [
+    "代价审计",
+    "正统化",
+    "被压制的替代",
+    "批判合法性",
+    "体系胜利"
+   ],
+   "process_zh": [
+    "为体系的每一次胜利同步记账：正统化、标准化、进入教科书的时刻，同步记录'哪些声音被排除'",
+    "显式维护'被压制的替代方案'清单：被本体系边缘化的路线（人物、论点、未走通的可能）定期回顾，评估其当代价值",
+    "审计'标准答案化'的侵蚀：定期检查本体系的教学形态是否已把探究方法简化为可背诵结论",
+    "为反本体系的批判预留合法通道：在体系文本内部写明'本体系可被理性修正的依据'，让后来的批判者不必先推翻合法性才能发言"
+   ],
+   "process_en": [
+    "Book a ledger entry for every victory of the system: at the moments of orthodoxization, standardization, and textbook entry, record simultaneously 'which voices were excluded'",
+    "Maintain an explicit list of suppressed alternatives: periodically revisit the marginalized lines (figures, theses, roads not taken) and reassess their contemporary worth",
+    "Audit the erosion of standard-answer-ization: check regularly whether the system's teaching form has reduced its method of inquiry to recitable conclusions",
+    "Pre-authorize critique of the system itself: write into the system's own texts the grounds on which it may be rationally revised, so later critics need not overturn its legitimacy before speaking"
+   ],
+   "representative_cases_zh": [
+    "朱熹对科举化的生前预警与身后反转：他痛陈'近年学校之设所以有效而实无可观者，为其教之不尽出于朝廷之意而多为举业之私'——但1313年其注被定为标准答案后，'格物穷理'被考试格式化，这一代价至今仍是儒家教育史的核心审计案例",
+    "阿奎那体系的两次'胜利'：1323年封圣与1879年《永恒之父》通谕立托马斯主义为标准——两次都伴随替代路线（波纳文图拉主义、现代主义）的压制，现代天主教内部的每次更新都要先处理这道正统化遗产",
+    "反面警示：明清考据学以'实事求是'反朱熹体系，但因未利用朱熹自己预留的'格物'通道，批判演变为全盘拆毁与价值真空——后来的批判者若不接受'体系内修正'的合法性，往往连批判成果也无法建制化"
+   ],
+   "representative_cases_en": [
+    "Zhu Xi's lifetime warning against examination-ization and the posthumous reversal: he lamented that schools had 'no real effect because their teaching serves private examination aims' — yet after 1313 his commentaries became the standard answers and 'exhausting principle' was formatted into testable matter, a cost that remains the core audit case in the history of Confucian education",
+    "Two 'victories' of the Aquinas system: canonization in 1323 and the 1879 encyclical Aeterni Patris enthroning Thomism as the standard — each accompanied the suppression of alternative lines (Bonaventureanism, Modernism), and every later renewal inside Catholicism has had to settle this orthodox inheritance first",
+    "Cautionary: Ming-Qing evidential scholarship turned 'seek truth from facts' against Zhu Xi's system, but because it refused the 'ge-wu' channel Zhu Xi himself had left open, its critique slid into wholesale demolition and a value vacuum — critics who refuse the legitimacy of correction-from-within typically cannot institutionalize their critique either"
+   ],
+   "modern_applications_zh": [
+    "开源社区治理：项目被大厂采用/进标准组织（'正统化'时刻）时，同步审计社区原有声音是否被挤出",
+    "方法论产品化审计：知识体系被课程化、认证化时，保留'原方法可被修正'条款，防止认证体系反噬探究内核",
+    "组织文化制度化的代价评估：文化被写成手册与考核项时，显式列出被排除的非正式实践，评估其价值"
+   ],
+   "modern_applications_en": [
+    "Open-source governance: at the moment of adoption by a large vendor or a standards body (the 'orthodoxization' moment), audit simultaneously whether the community's original voices were squeezed out",
+    "Productizing a methodology: when a knowledge system is curricularized and certified, keep a clause that the original method may be revised, so the certification regime does not cannibalize the inquiry core",
+    "Cost assessment of institutionalizing culture: when culture is written into handbooks and KPIs, list explicitly the informal practices excluded, and price their value"
+   ],
+   "related_modes": [
+    "M-CC-028",
+    "M-CC-027",
+    "M-CC-025",
+    "H-KD-001"
+   ],
+   "representative_figures": [
+    "朱熹 (Zhu Xi)",
+    "阿奎那 (Aquinas)",
+    "戴震 (Dai Zhen, 批判后续)",
+    "康德 (Kant, 平行)"
+   ],
+   "key_quote_zh": "近年学校之设，所以有效而实无可观者，为其教之不尽出于朝廷之意，而多为举业之私也。",
+   "key_quote_en": "Schools today have form but no real effect, because their teaching serves private examination aims more than the intent of the court."
+  }
+ ]
+}

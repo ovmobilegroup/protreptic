@@ -1,0 +1,858 @@
+{
+  "schema_version": "v6",
+  "id": "H-DAR-001",
+  "code": "H-DAR-001",
+  "figure_name": "达尔文",
+  "figure_code": "H-DAR-001",
+  "figure_pinyin": "Da'erwen",
+  "birth_year": "1809",
+  "death_year": "1882",
+  "era": "英国维多利亚时代",
+  "school": "经典力学/微积分/实验光学/科学制度权力 / Classical Mechanics / Calculus / Experimental Optics / Institutional Power in Science",
+  "historical_significance": "经典力学体系的奠基人，把天上与地上的运动统一进万有引力定律的第一人。核心方法论：以公理化几何方法（从定义、公理出发演绎出命题系）重建《自然哲学的数学原理》、以「假说不予考虑」把物理学的裁决权从思辨移交现象与数学推演、以 fluxions（微积分）把连续变化数量化为可计算对象、以「月球-苹果」统一推理把异质现象还原为同一原因、以光与色的实验系列（关键实验 crucial experiment）证明颜色的折射本性、以「以太假说保留但悬置」示范证据不足时的开放态度。他同时示范了权力的另一面：以皇家学会会长与铸币厂厂长身份猎杀异见者（与莱布尼茨的优先权战争、处死造假者）——体系的天才与权力的越界同栖一身。他是把自然现象数学化、把物理学从思辨哲学剥离成独立科学、同时把个人争胜带进科学制度的转换器式人物。",
+  "historical_significance_en": "Founder of classical mechanics and the first to unify celestial and terrestrial motion under universal gravitation. Core methodology: rebuilding the Principia with the axiomatic-geometric method (deducing a system of propositions from definitions and axioms), shifting physics' verdict from speculation to phenomena and mathematical deduction with 'hypotheses non fingo,' quantifying continuous change into computable objects with fluxions (calculus), reducing heterogeneous phenomena to one cause via moon-apple unified reasoning, proving the refractive nature of color through the experimental series of the crucial experiment, and modeling openness when evidence falls short by retaining yet suspending the ether hypothesis. He also demonstrated the other face of power: hunting down dissenters as President of the Royal Society and Master of the Mint (the priority war with Leibniz, hangings of counterfeiters). The genius of the system and the overreach of power lived in one body. He was a converter-figure who mathematized natural phenomena, severed physics from speculative philosophy into an independent science, and carried personal rivalry into the institutions of science.",
+  "unique_thinking": "进化论的奠基人，把生命的多样性与适应性从神创设计转为可研究的自然过程的第一人。核心方法论：以贝格尔号五年环球航行建立『观察先于理论』的取证习惯（大规模采集、编号、寄回标本）、以赖尔的地质均匀主义把『微小原因×漫长时间』从地质学移植进生物学、以人工选择为类比之桥使自然选择可以想象（育种者选出了品种，环境为何不能选出物种）、以马尔萨斯的人口压力启发把生存斗争演绎为变异的非随机筛选、以渐变论与巨额时间预算化解复杂器官的疑难、以『共同祖先』树状推理把分类学、胚胎学、生物地理的散乱事实收拢为一棵谱系树、以异议先行自辩（『难点』一章）把最强反对意见写进自己的著作、以延迟二十年发表换取证据的层层加固、以蚯蚓与兰花等平凡对象的实验示范大理论的小验证、以性选择补充斗争筛选之外的第二条选择路径。他同时示范了科学家的道德勇气：在宗教震荡与舆论风险下坚持让证据而非教义说话。他是把时间引入生物学、把目的论逐出生命科学、同时把博物学从采集升级为理论科学的转换器式人物。",
+  "unique_thinking_en": "Founder of evolutionary theory and the first to turn the diversity and adaptation of life from divine design into a researchable natural process. Core methodology: the five-year Beagle voyage building the habit of 'observation before theory' (mass collection, numbering, shipping specimens home), transplanting Lyell's geological uniformitarianism—tiny causes × vast time—into biology, bridging to imagination via the analogy of artificial selection (breeders produced varieties; why could nature not produce species), deriving natural selection from Malthus-inspired population pressure as non-random sifting of variation, dissolving the puzzle of complex organs with gradualism and an enormous time budget, gathering the scattered facts of taxonomy, embryology, and biogeography into one genealogical tree via common descent, writing the strongest objections into his own book (the 'Difficulties' chapter), delaying publication twenty years to harden the evidence layer by layer, validating a grand theory through experiments on humble objects (earthworms, orchids), and adding sexual selection as a second pathway beyond the struggle for existence. He also demonstrated moral courage: insisting that evidence rather than doctrine speak, amid religious upheaval and reputational risk. He was a converter-figure who introduced time into biology, expelled teleology from the life sciences, and upgraded natural history from collecting to theoretical science.",
+  "era_zh": "英国维多利亚时代",
+  "era_en": "Victorian Britain",
+  "civilization_zh": "英国（西欧）",
+  "civilization_en": "England (Western Europe)",
+  "roles_zh": [
+    "博物学家",
+    "地质学家",
+    "进化论奠基人",
+    "皇家学会会员"
+  ],
+  "roles_en": [
+    "Naturalist",
+    "Geologist",
+    "Founder of Evolutionary Theory",
+    "Fellow of the Royal Society"
+  ],
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-DAR-001",
+    "M-DAR-002",
+    "M-DAR-003",
+    "M-DAR-004",
+    "M-DAR-005",
+    "M-DAR-006",
+    "M-DAR-007",
+    "M-DAR-008",
+    "M-DAR-009",
+    "M-DAR-010"
+  ],
+  "key_works": [
+    "《物种起源》(On the Origin of Species, 1859)",
+    "《贝格尔号航行日记》(The Voyage of the Beagle, 1839)",
+    "《动物和植物在家养下的变异》(The Variation of Animals and Plants under Domestication, 1868)",
+    "《人类的由来》(The Descent of Man, 1871) 与性选择理论",
+    "《兰花的传粉》(On the Various Contrivances by which British and Foreign Orchids are Fertilised, 1862)",
+    "《腐植土的产生与蚯蚓的作用》(The Formation of Vegetable Mould, through the Action of Worms, 1881)"
+  ],
+  "key_concepts": [],
+  "cross_references": [
+    {
+      "target_figure_code": "H-DY-001",
+      "target_figure_name": "约翰·杜威",
+      "relation_type": "探究的同构：公理演绎与实验探究的分工",
+      "description_zh": "牛顿以公理化演绎把力学重建为命题系（M-NEW-001），杜威以探究五步法把思维重建为问题解决程序（M-DY 系列）。两人共享同一结构：从确定起点（公理/问题情境）出发、每步可追溯。牛顿处理自然界的必然性，杜威处理经验中的或然性——演绎链与探究链互为镜像。",
+      "description_en": "Newton rebuilt mechanics as a proposition system by axiomatic deduction (M-NEW-001); Dewey rebuilt thinking as a problem-solving procedure with the five-step inquiry (M-DY series). Both share one structure: start from a fixed point (axioms / problematic situation), every step traceable. Newton handled the necessity of nature, Dewey the uncertainty of experience—the deductive chain and the inquiry chain mirror each other.",
+      "bidirectional_hint": "杜威档案（H-DY-001）未来修订时可在『探究五步法』处补一条指向 H-NEW-001 的跨引用（演绎科学与探究程序的镜像结构）。"
+    },
+    {
+      "target_figure_code": "H-KD-001",
+      "target_figure_name": "康德",
+      "relation_type": "先天形式与经验内容：牛顿体系被批判哲学重新奠基",
+      "description_zh": "牛顿体系是康德批判哲学的隐含前提：康德自认其任务是为牛顿力学『提供形而上学基础』（M-KD 系列）——时空的先天直观形式使数学化自然成为可能。牛顿把裁决权交给现象（M-NEW-002），康德追问『现象何以可被数学化』——一条从体系到其可能性条件的回溯链。",
+      "description_en": "The Newtonian system is the implicit premise of Kant's critical philosophy: Kant saw his task as 'providing the metaphysical foundations' for Newtonian mechanics (M-KD series)—the a priori forms of intuition making a mathematized nature possible. Newton handed the verdict to phenomena (M-NEW-002); Kant asked how phenomena can be mathematized at all—a retro-chain from the system to its conditions of possibility.",
+      "bidirectional_hint": "康德档案（H-KD-001）未来修订时可在『先天综合判断』处补一条指向 H-NEW-001 的跨引用（牛顿体系作为批判哲学的可能条件）。"
+    },
+    {
+      "target_figure_code": "H-DKR-001",
+      "target_figure_name": "笛卡尔",
+      "relation_type": "漩涡与引力：两代体系建构的对撞",
+      "description_zh": "笛卡尔以思辨公理演绎出漩涡宇宙（M-DKR 系列），牛顿以现象对齐演绎出引力体系（M-NEW-001/004）——同为公理化建构，裁决权归属不同：一个交给体系自洽，一个交给现象与计算。彗星轨道计算处死了漩涡体系，是关键实验裁决法（M-NEW-005）对演绎传统的经典胜利。",
+      "description_en": "Descartes deduced a vortex cosmos from speculative axioms (M-DKR series); Newton deduced a gravitational system aligned with phenomena (M-NEW-001/004)—both axiomatic constructions with different verdict owners: one to the system's self-consistency, one to phenomena and computation. The comet-orbit calculations executed the vortex system—a classic victory of the crucial-experiment method (M-NEW-005) over the deductive tradition.",
+      "bidirectional_hint": "笛卡尔档案（H-DKR-001）未来修订时可在『漩涡宇宙论』处补一条指向 H-NEW-001 的跨引用（被彗星计算处死的体系与裁决者）。"
+    },
+    {
+      "target_figure_code": "H-ASM-001",
+      "target_figure_name": "亚当·斯密",
+      "relation_type": "连接性原理：从天体力学到道德情操的同构野心",
+      "description_zh": "斯密在《天文学史》中把牛顿方法命名为『连接性原理』——从单一简单原理推出全部现象（M-ASM 系列），并将其转用于道德情操与国富（同情原理、分工原理）。牛顿的月球-苹果统一推理（M-NEW-004）是斯密方法论的原始范本：一个原理收编异质现象的野心从力学扩展到社会科学。",
+      "description_en": "In his History of Astronomy Adam Smith named the Newtonian method the 'connecting principle'—deducing all phenomena from a single simple principle (M-ASM series)—and transferred it to moral sentiments and national wealth (sympathy, the division of labour). Newton's moon-apple unified inference (M-NEW-004) is the original template of Smith's methodology: the ambition of one principle absorbing heterogeneous phenomena, extended from mechanics to social science.",
+      "bidirectional_hint": "斯密档案（H-ASM-001）未来修订时可在『想象机器』处补一条指向 H-NEW-001 的跨引用（连接性原理的力学原型）。"
+    },
+    {
+      "target_figure_code": "H-GAN-001",
+      "target_figure_name": "甘地",
+      "relation_type": "非暴力与体系的权力边界：方法者与制度权力的两种关系",
+      "description_zh": "甘地一生拒绝制度化权力（拒受官职、以退出为武器），牛顿晚年以皇家学会会长与铸币厂厂长的权力越界（M-NEW-010：优先权战争、拒稿、绞架）——两人对照出方法论与制度权力的两种关系：甘地把方法置于权力之外以保其纯洁，牛顿示范了方法者握权后的越界成本审计。任何把方法论制度化的尝试都要面对这对镜像。",
+      "description_en": "Gandhi refused institutionalized power all his life (declining office, using withdrawal as a weapon); Newton in his later years overreached with the powers of Royal Society president and Master of the Mint (M-NEW-010: the priority war, paper refusals, the gallows)—the pair contrasts two relations between methodology and institutional power: Gandhi kept the method outside power to preserve its purity, while Newton demonstrated the overreach-cost audit of a methodologist holding power. Any attempt to institutionalize a methodology faces this mirror pair.",
+      "bidirectional_hint": "甘地档案（H-GAN-001）未来修订时可在『非暴力不合作』处补一条指向 H-NEW-001 的跨引用（拒权者与越权者的对照镜像）。"
+    },
+    {
+      "target_figure_code": "H-CW-001",
+      "target_figure_name": "克劳塞维茨",
+      "relation_type": "体系化与摩擦：理想推演与真实战场的同构张力",
+      "description_zh": "克劳塞维茨的『摩擦』（Friction）概念针对的正是牛顿式理想推演的失效：第一编式纯数学推演（M-NEW-006）在无介质条件下成立，真实战争充满摩擦（M-CW 系列）。两人共享公理化雄心而给出相反诊断：牛顿的第三编以摄动对齐吸收真实世界偏差（M-NEW-007），克劳塞维茨断言天才对理论的超越不可还原——同一张力的两种处置：吸收偏差 vs 尊重不可计算性。",
+      "description_en": "Clausewitz's concept of 'Friction' targets precisely the failure of Newtonian ideal deduction: pure mathematical deduction in the Book-I style (M-NEW-006) holds without medium, while real war is full of friction (M-CW series). Sharing the axiomatic ambition, they deliver opposite diagnoses: Newton's Book III absorbed real-world deviations via perturbation alignment (M-NEW-007), while Clausewitz asserted that genius's transcendence of theory is irreducible—two treatments of one tension: absorbing deviations vs respecting the incomputable.",
+      "bidirectional_hint": "克劳塞维茨档案（H-CW-001）未来修订时可在『摩擦』处补一条指向 H-NEW-001 的跨引用（理想推演的战争论对照）。"
+    }
+  ],
+  "tags": [
+    "公理化方法",
+    "定义先行",
+    "最小公理组",
+    "演绎可追溯性",
+    "几何大厦",
+    "hypotheses non fingo",
+    "假说悬置",
+    "裁决权移交",
+    "现象优先",
+    "待验证疑问",
+    "流数法",
+    "变化率符号化",
+    "工具发明",
+    "连续数量化",
+    "首末比",
+    "统一推理",
+    "同一原因",
+    "定量验收",
+    "平方反比",
+    "月球检验",
+    "关键实验",
+    "实验系列",
+    "竞争假说裁决",
+    "单色光不变性",
+    "区分力",
+    "双编结构",
+    "理想条件推演",
+    "现象清单",
+    "推理规则",
+    "先数学后现象",
+    "数值对齐",
+    "误差源三分",
+    "摄动级数",
+    "数据校准",
+    "近地点问题",
+    "双支轨道",
+    "预测区分力",
+    "参数互斥",
+    "周期回归预测",
+    "彗星验证",
+    "微粒说",
+    "证据账目公开",
+    "未决登记",
+    "置信度对齐",
+    "悬而不断",
+    "优先权战争",
+    "制度权力越界",
+    "账目清算延迟",
+    "异见吓退",
+    "权力成本审计"
+  ],
+  "modes": [
+    {
+      "id": "M-DAR-001",
+      "mode_code": "M-DAR-001",
+      "figure_code": "H-DAR-001",
+      "name_zh": "环球取证采集法",
+      "name_en": "Voyage Evidence-Collection Method",
+      "category": "经验方法论/取证",
+      "domain_zh": "观察先于理论/大规模事实采集",
+      "domain_en": "Observation before Theory / Mass Collection of Facts",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "贝格尔号五年（1831-1836）环球航行塑造了达尔文全部后期理论的事实地基。他的做法有三层纪律：其一，观察先于理论——他在《自传》中告诫，不写观察记录的人『会自欺地相信所喜欢的理论』，因此坚持把看到的东西先如实记录，不做倾向性取舍；其二，大规模采集——岩石、化石、动植物标本、地质剖面全部编号、登记、装箱寄回英国，加拉帕戈斯群岛的 mockingbird 按岛分装（后来正是这批标本的地理差异撬动了物种可变的怀疑）；其三，理论诱捕——他随身带着赖尔《地质学原理》第一卷，把每次观察同时当作对理论（均匀主义）的检验。方法上这意味着：一个将要改写学科的理论，其起点不是灵感而是取证规模——先让事实的库藏大到任何先入之见都盖不住它。",
+      "definition_en": "The five-year Beagle voyage (1831-1836) built the factual foundation of all Darwin's later theory. His discipline had three layers. First, observation before theory—in his Autobiography he warned that one who does not keep notes 'will be sure to overlook, at the time of observation, and still more at that of remembrance, the best and most brilliant discoveries'; he therefore recorded faithfully what he saw, without tendentious filtering. Second, mass collection—rocks, fossils, specimens of flora and fauna, geological sections, all numbered, registered, crated, and shipped home; the Galapagos mockingbirds were bagged island by island (it was precisely this batch's geographic variation that later prised open the suspicion that species are mutable). Third, theory as a trap for facts—he carried Lyell's Principles of Geology volume one aboard, treating every observation as simultaneously a test of theory (uniformitarianism). Methodologically: the starting point of a discipline-rewriting theory is not inspiration but the scale of evidence—first amass a treasury of facts large enough that no prior opinion can cover it.",
+      "source_chapter": "《贝格尔号航行日记》(1839) 全书；《自传》论记笔记的必要性；皇家学会档案中贝格尔号标本登记与达尔文书信（致 Henslow 的标本箱清单）",
+      "key_concepts": [
+        "观察先于理论",
+        "大规模采集",
+        "标本编号登记",
+        "地理变异取样",
+        "理论诱捕观察"
+      ],
+      "key_quote_zh": "我曾深深地爱上了科学……把观察记录下来时必须像监狱看守一样忠实，否则就会自欺地相信自己所喜欢的理论。",
+      "key_quote_en": "My mind seems to have become a kind of machine for grinding general laws out of large collections of facts.",
+      "process_zh": [
+        "把观察与解释严格分开：先建立如实的记录系统（日志、编号、清单），解释推后",
+        "扩大采集规模：不按趣味取舍，凡能编号入库的都入库，让稀有与异常自然浮现",
+        "按地理/层位分组登记：使『同与异』的空间分布本身成为证据（如按岛分装雀鸟与嘲鸫）",
+        "携理论出海：每次观察同时登记为对某理论的支持或反证，使采集有靶而非漫游"
+      ],
+      "process_en": [
+        "Separate observation from interpretation strictly: build a faithful recording system (journal, numbering, inventory) first, and defer explanation",
+        "Scale up collection: take no liberties of taste—everything that can be numbered and archived gets archived, so that the rare and the anomalous surface on their own",
+        "Register by geography and stratum: make the spatial distribution of sameness and difference itself evidence (e.g., mockingbirds bagged island by island)",
+        "Sail with a theory: log every observation also as confirmation or disconfirmation of a named theory, so collecting has a target instead of wandering"
+      ],
+      "representative_cases_zh": [
+        "加拉帕戈斯嘲鸫：不同岛上的标本差异明显，达尔文当时按岛分装并在笔记中标注疑问——这批编号标本（而非后来传说的雀鸟）直接推动他从『变种』走向『物种可变』",
+        "阿根廷彭巴草原挖掘大地懒等巨兽化石，与现生犰狳同区层位出土——灭绝种与邻近现生种的地域对应成为共同祖先最早的化石证据",
+        "安第斯山脉 1835 年瓦尔迪维亚地震后实地测量地面抬升数英尺，与千百次小抬升叠加的贝壳层对应——把赖尔均匀主义变成亲眼证据",
+        "反例警示：与达尔文同船的军官 FitzRoy 持圣经洪水论，同一岩层在他眼里是灾难证据、在达尔文眼里是缓慢沉积证据——没有独立于先见的记录纪律，同一事实支持相反体系"
+      ],
+      "representative_cases_en": [
+        "The Galapagos mockingbirds: specimens differed markedly between islands, and Darwin bagged and labeled them by island with a note of puzzlement—it was this numbered batch (not the legendary finches) that pushed him from 'varieties' toward the mutability of species",
+        "Giant Megatherium fossils dug from the Argentinian pampas, in the same region as living armadillos—the geographic correspondence of extinct and neighboring extant species became the earliest fossil evidence for common descent",
+        "After the 1835 Concepcion earthquake he measured uplift of several feet in the field, matching the raised beds of shells laid down by countless small uplifts—turning Lyell's uniformitarianism into eyewitness evidence",
+        "Cautionary case: Captain FitzRoy, his shipmate, held to the biblical Flood—the same strata were catastrophe evidence to him and slow sedimentation to Darwin; without a recording discipline independent of prior belief, the same fact supports opposite systems"
+      ],
+      "modern_applications_zh": [
+        "用户研究：先建立结构化记录模板（访谈编号、原话引用、场景标签），解释性结论推迟到数据闭卷之后",
+        "数据工程：所有实验数据入库编号并记录元数据，使后来者可回溯每个结论的事实来源",
+        "产品调研：竞品分析按统一字段采集而非按印象评论，让异常样本（如异常高的留存细分）自己浮出",
+        "科研训练：写实验日志时区分『我看到什么』与『我想到什么』两栏，防止事后记忆偏置"
+      ],
+      "modern_applications_en": [
+        "User research: build a structured recording template first (interview IDs, verbatim quotes, context tags); postpone interpretive conclusions until the data is closed",
+        "Data engineering: register every experimental datum with an ID and metadata, so later users can trace any conclusion to its factual source",
+        "Product research: collect competitor intelligence in uniform fields rather than impressionistic commentary, letting anomalous samples (e.g., an oddly loyal segment) surface by themselves",
+        "Research training: keep lab logs in two columns—'what I observed' and 'what I think'—to guard against hindsight bias"
+      ],
+      "related_modes": [
+        "M-DAR-002",
+        "M-DAR-004",
+        "M-DAR-010"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "赖尔",
+        "洪堡"
+      ]
+    },
+    {
+      "id": "M-DAR-002",
+      "mode_code": "M-DAR-002",
+      "figure_code": "H-DAR-001",
+      "name_zh": "均匀主义时间移植法",
+      "name_en": "Uniformitarian Time-Transplant Method",
+      "category": "类比推理/跨学科移植",
+      "domain_zh": "把微小原因×漫长时间的框架跨学科移植",
+      "domain_en": "Transplanting the Tiny-Cause × Vast-Time Frame across Disciplines",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "赖尔在地质学中证明：无需灾难，微小原因（风、水、沉积）乘以漫长时间就足以造成巨变——山脉被抬升、峡谷被切开。达尔文把这套『微小原因×漫长时间』的算术从地质学整体移植进生物学：育种者每一个世代只能造成微小的选择，但乘以成千上万个世代，就能从岩鸽育出翻飞鸽、从狼育出圣伯纳犬——那么自然界的变异与筛选，乘以更大的时间预算，为何不能育出眼睛与翅膀？《物种起源》第十章专讲地质记录的贫乏，正是为这个移植补齐时间维度的地基。方法上这意味着：一个学科的成熟范式（特别是其『时间-强度换算表』）常常是另一学科僵局的钥匙——移植的不是结论而是算术结构。",
+      "definition_en": "Lyell proved in geology that no catastrophes are needed: tiny causes (wind, water, sediment) multiplied by vast time suffice for enormous change—mountains uplifted, canyons carved. Darwin transplanted this arithmetic of 'tiny cause × vast time' wholesale from geology into biology: a breeder produces only minute selection per generation, but multiplied over thousands of generations this yields the tumbler pigeon from the rock dove and the St. Bernard from the wolf—so why should variation and sifting in nature, with a far larger time budget, not yield the eye and the wing? Chapter 9 of the Origin, on the imperfection of the geological record, exists precisely to lay the temporal foundation for this transplant. Methodologically: a mature paradigm of one discipline—especially its 'time-intensity conversion table'—is often the key to another discipline's deadlock; what gets transplanted is not the conclusion but the arithmetic structure.",
+      "source_chapter": "赖尔《地质学原理》(1830-1833) 与达尔文《自传》『读赖尔后我深感其方法之可仿效』；《物种起源》第九章『论地质记录的不完全』、第十章『论生物在地质上的演替』",
+      "key_concepts": [
+        "均匀主义",
+        "时间预算",
+        "微小原因累积",
+        "跨学科移植",
+        "地质记录贫乏"
+      ],
+      "key_quote_zh": "我们看不见这些缓慢变化进行中的情形，正如我们看不见风吹成山谷——但证据写在岩层里。",
+      "key_quote_en": "It is hardly possible for us even to conceive the duration of the geological epochs; yet this duration is as nothing compared with the time required for the organic changes.",
+      "process_zh": [
+        "找到邻近学科中最有力的『因果强度换算表』：什么样的微小原因在什么时间尺度上能造成什么量级的结果",
+        "识别本学科的僵局：是否正是因为默认了错误的换算表（如把物种默认为瞬变/神创）",
+        "移植算术而非结论：只借『微小原因×大时间=巨大结果』的结构，逐项核对本学科是否存在对应的微小原因（变异）与筛选机制",
+        "补齐时间地基：用本学科的证据（地质记录）论证时间预算真实存在，堵住『时间不够』的反驳"
+      ],
+      "process_en": [
+        "Find the most powerful cause-intensity conversion table in a neighboring discipline: what magnitude of result tiny causes yield at what timescale",
+        "Identify your own discipline's deadlock: does it persist because an implicit conversion table is wrong (e.g., species assumed instantaneous or created)?",
+        "Transplant the arithmetic, not the conclusion: borrow only the structure 'tiny cause × vast time = enormous result,' then verify item by item that your field has the corresponding tiny cause (variation) and sifting mechanism",
+        "Lay the temporal foundation: use your discipline's own evidence (the geological record) to show the time budget is real, blocking the 'not enough time' objection"
+      ],
+      "representative_cases_zh": [
+        "《物种起源》第九章系统论证地层缺失与化石记录残缺，把『中间类型为何找不到』转化为『记录本身是残卷』——为漫长时间预算提供地质学背书",
+        "赖尔本人拒绝生物演化，恰证明移植的力量：同一套地质算术，被达尔文推进到赖尔不敢去的地方——移植者可以比源学科更彻底",
+        "达尔文在《自传》中自述贝格尔号上反复读赖尔第一卷，并以之『解释」沿途每个地质现象——移植始于在源学科内的完整操练",
+        "反例警示：当时流行的灾变论（Cuvier 学派）把巨变归于未知的超常事件，每次新化石都制造一次新奇迹——换算表错误的学科永远在打补丁"
+      ],
+      "representative_cases_en": [
+        "Origin chapter 9 systematically argues the incompleteness of the strata and the fossil record, converting 'why no intermediate forms?' into 'the record itself is a torn manuscript'—geology vouching for the vast time budget",
+        "Lyell himself refused biological evolution—the very proof of the transplant's power: the same geological arithmetic, pushed by Darwin further than its source discipline dared go",
+        "Darwin's Autobiography describes rereading Lyell's first volume aboard the Beagle and using it to explain every geological feature along the way—the transplant began as full practice within the source discipline",
+        "Cautionary case: the then-fashionable catastrophism (the Cuvier school) ascribed upheavals to unknown extraordinary events, minting a fresh miracle for every new fossil—a discipline with a wrong conversion table patches forever"
+      ],
+      "modern_applications_zh": [
+        "技术演进分析：把摩尔定律的『微小改进×漫长时间=性能巨变』移植到软件工程、能源成本等领域做外推",
+        "组织变革：用『每周1%的流程改进×五年』替代『一次大重构』的换算表，重估转型的时间预算",
+        "个人成长：把健身/语言学习的收益从『线性可见』改读为『指数前期不可见』，防止因短期无反馈而放弃",
+        "宏观经济：把基础设施、教育等慢变量纳入增长模型，避免只对快变量做线性归因"
+      ],
+      "modern_applications_en": [
+        "Technology forecasting: transplant Moore's-law arithmetic (tiny improvements × long time = huge performance) to software, energy costs, and other fields",
+        "Organizational change: replace the 'one big reorg' conversion table with '1% weekly process improvement × five years,' re-budgeting transformation time",
+        "Personal growth: read fitness and language gains as exponential-with-invisible-early-phase rather than linear, preventing abandonment at the flat part of the curve",
+        "Macro analysis: fold slow variables (infrastructure, education) into growth models instead of linearly attributing change to fast variables alone"
+      ],
+      "related_modes": [
+        "M-DAR-003",
+        "M-DAR-005",
+        "M-DAR-006"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "赖尔",
+        "赫顿"
+      ]
+    },
+    {
+      "id": "M-DAR-003",
+      "mode_code": "M-DAR-003",
+      "figure_code": "H-DAR-001",
+      "name_zh": "人工选择类比桥法",
+      "name_en": "Artificial-Selection Analogy-Bridge Method",
+      "category": "类比推理/机制论证",
+      "domain_zh": "以可观察机制为桥梁使不可见过程可想象",
+      "domain_en": "Bridging to the Imaginable via an Observable Mechanism",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "自然选择的最大困难是它发生在人看不见的时间尺度上——一个『无法目击的过程』在 1859 年几乎无法被严肃讨论。达尔文的解法是以人工选择为类比之桥：人人见过的育种者在几十个世代内就育出了斗犬与赛鸽，那么把『选择者』从人的意志换成自然界的生存压力、把『时间』从几百年换成百万年，同样的筛选逻辑为何不能育出物种？《物种起源》第一章就是《在家养状况下的变异》——他先让读者在人类尺度上完全理解选择，再悄悄撤掉梯子，让读者自己走向自然尺度。方法上这意味着：论证一个不可直接观察的机制时，先建立一个机制同构、尺度可感的近端类比，把读者的怀疑耗尽在类比之内，再完成尺度外推。",
+      "definition_en": "The greatest obstacle to natural selection was that it unfolds on a timescale no one can witness—an unwatchable process, nearly impossible to discuss seriously in 1859. Darwin's solution was the analogy-bridge of artificial selection: everyone has seen breeders produce the bulldog and the racing pigeon within a few dozen generations, so if the 'selector' is swapped from human will to natural pressures, and 'time' from centuries to millions of years, why should the same sifting logic not yield species? Chapter 1 of the Origin is 'Variation under Domestication'—he first lets readers fully grasp selection at human scale, then quietly removes the ladder and lets them walk to the natural scale themselves. Methodologically: to argue for a mechanism that cannot be directly observed, first build a mechanism-isomorphic, scale-familiar near analogy that exhausts the reader's skepticism inside it, then complete the scale extrapolation.",
+      "source_chapter": "《物种起源》第一章《在家养状况下的变异》：『我们已看到，育种者靠选择……何以在自然状况下就不该如此呢？』；第二章《在自然状况下的变异》的尺度外推",
+      "key_concepts": [
+        "人工选择",
+        "类比之桥",
+        "机制同构",
+        "尺度外推",
+        "撤梯法"
+      ],
+      "key_quote_zh": "我们可以借用一个比喻来说明：自然选择，每日每时都在世界上仔细检查每一种变异，哪怕是极微小的。",
+      "key_quote_en": "It may be said that natural selection is daily and hourly scrutinising, throughout the world, every variation, even the slightest.",
+      "process_zh": [
+        "为目标机制找一个机制同构且读者可目击的近端案例（选择→育种）",
+        "在近端把机制讲透：变异性、可遗传性、选择压力、代际累积，全部在可观察尺度上坐实",
+        "明确列出外推所需的参数替换表（选择者、时间、强度），并逐项论证替换后机制不变",
+        "撤梯：以近端类比论证完成后，明确说明类比只是入口，主张建立在对自然过程自身的独立证据上"
+      ],
+      "process_en": [
+        "Find a near case mechanism-isomorphic and witnessable by readers (selection → breeding)",
+        "Exhaust the mechanism at the near scale: variability, heritability, selection pressure, generational accumulation—all nailed down at observable scale",
+        "State explicitly the parameter-substitution table the extrapolation needs (selector, time, intensity) and argue item by item that the mechanism survives substitution",
+        "Remove the ladder: once the near analogy has done its work, say plainly it was only an entry point; ground the claim in independent evidence about the natural process itself"
+      ],
+      "representative_cases_zh": [
+        "《物种起源》第一章以岩鸽到家鸽品种的育成开篇，列出育种者的档案与骨骼标本证据——读者在第一章结束时已『相信选择』，第二章起只剩余说服工作",
+        "达尔文与育种者大量通信（如鸡的育种者 Tegetmeier），亲自参与鸽子育种实验——类比不是修辞而是有实证接口的研究设计",
+        "他同时诚实地标注类比的限度：育种者只选择对人有利的可见变异，自然选择则对每一细部长期作用——把外推的风险自己先说出来",
+        "反例警示：同时代的『内在完成趋势』假说（如 Chambers 的《自然创造史的痕迹》）对不可见过程不做机制类比、直接宣布形而上学原理——因无近端锚点，十年内被遗忘"
+      ],
+      "representative_cases_en": [
+        "Origin chapter 1 opens with the making of pigeon breeds from the rock dove, with breeders' records and skeletal specimens as evidence—by its end the reader already 'believes in selection,' and from chapter 2 only persuasion remains",
+        "Darwin corresponded heavily with breeders (Tegetmeier on fowl) and ran pigeon experiments himself—the analogy was not rhetoric but a research design with an empirical interface",
+        "He also marked the analogy's limits honestly: breeders select visible traits useful to humans, while natural selection works on every part over long ages—he voiced the extrapolation's risks before his critics could",
+        "Cautionary case: the contemporaneous 'inherent progressive tendency' hypothesis (Chambers's Vestiges of the Natural History of Creation) announced metaphysical principles for unwatchable processes with no mechanism analogy and no near anchor—and was largely forgotten within a decade"
+      ],
+      "modern_applications_zh": [
+        "面向非技术者解释算法：先讲人人见过的同构小案例（如班级排队调序），再外推到分布式系统",
+        "机器学习建模：把训练过程类比作人类评审打分的迭代改进，向业务方解释无监督优化的机制同构",
+        "组织沟通：以『一个已验证的小型流程』为近端类比推动大变革方案，先在小尺度耗尽怀疑",
+        "科普写作：先让读者在可目击的尺度上理解机制，再明确标注外推的参数替换与限度"
+      ],
+      "modern_applications_en": [
+        "Explaining algorithms to non-technologists: start with an isomorphic everyday case (re-sorting a classroom queue), then extrapolate to distributed systems",
+        "ML modeling: liken training to iterative improvement under human review, explaining the mechanism-isomorphism of unsupervised optimization to business stakeholders",
+        "Organizational change: pilot a small verified process as the near analogy for a large reform, exhausting skepticism at small scale first",
+        "Science writing: let readers grasp the mechanism at a witnessable scale first, then explicitly label the parameter substitutions and limits of the extrapolation"
+      ],
+      "related_modes": [
+        "M-DAR-002",
+        "M-DAR-004",
+        "M-DAR-005"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "赖尔",
+        "华莱士"
+      ]
+    },
+    {
+      "id": "M-DAR-004",
+      "mode_code": "M-DAR-004",
+      "figure_code": "H-DAR-001",
+      "name_zh": "生存斗争选择启发法",
+      "name_en": "Struggle-for-Existence Selection Heuristic",
+      "category": "理论建构/机制发明",
+      "domain_zh": "借外部模型发明核心筛选机制",
+      "domain_en": "Inventing the Core Sifting Mechanism via an External Model",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "达尔文自述 1838 年 9 月『为了消遣』读马尔萨斯《人口论》，立刻看到：在自然界，种群按几何级数增长的潜力与资源按算术级数有限的现实相撞，必产生大规模淘汰——每一对个体产下的后代中平均只有极少数能存活。这一刻，他已观察多年的『变异』（individual differences）获得了它的用途：变异不再是无意义的杂多，而是筛选机制的原料——凡与环境契合的变异被保留，不契合者被消灭。他把这命名为『自然选择』。方法上这意味着：一个领域内长期『无用途的原始数据』（变异的杂多），往往是在等待一个从外部借来的筛选模型——机制的核心常是一次跨领域的概念嫁接（人口论→种群生物学），而非领域内的渐进积累。",
+      "definition_en": "Darwin himself recounted reading Malthus's Essay on Population in September 1838 'for amusement' and instantly seeing: in nature, the geometric potential of population growth colliding with the arithmetic limits of resources must produce mass elimination—of the offspring of each pair, only a vanishing fraction survive. At that moment the 'individual differences' he had observed for years acquired their use: variation was no longer meaningless multiplicity but the raw material of a sifting mechanism—variants fitting the environment are preserved, the unfit destroyed. He named it 'natural selection.' Methodologically: long-useless raw data within a field ('mere multiplicity of variation') is often waiting for a sifting model borrowed from outside—the heart of the mechanism is a cross-domain conceptual graft (population economics → population biology), not incremental accumulation within the field.",
+      "source_chapter": "达尔文《自传》1838年9月28日读马尔萨斯的记述；笔记本 D（1838）：『9月28日…… 读马尔萨斯论人口——整块理论显现』；《物种起源》第三章《生存斗争》",
+      "key_concepts": [
+        "马尔萨斯模型",
+        "生存斗争",
+        "变异的用途化",
+        "自然选择",
+        "跨域概念嫁接"
+      ],
+      "key_quote_zh": "读马尔萨斯论人口时，我立刻想到：在这种情况下，有利的变异将被保存，不利的将被消灭——结果便是新种的形成。",
+      "key_quote_en": "Being well prepared to appreciate the struggle for existence... it at once struck me that under these circumstances favourable variations would tend to be preserved, and unfavourable ones to be destroyed.",
+      "process_zh": [
+        "盘清手头长期『无用途的原始数据』（如大量已记录的个体变异），并承认它们缺少一个为何存在的解释",
+        "到相邻领域寻找成熟的『稀缺-筛选』模型（人口论、市场、生态位），检验其参数能否在本领域逐项落实",
+        "把模型嫁接进来：稀缺条件=资源限制，候选=变异个体，筛选=生存与繁殖差异——机制各部件全部有名有姓",
+        "命名与检验：给嫁接产物命名（自然选择），并立刻寻找最脆弱处（如中间型、复杂器官）设计自检"
+      ],
+      "process_en": [
+        "Inventory your field's long-useless raw data (say, a mass of recorded individual variation) and admit it lacks an account of why it exists",
+        "Hunt a mature scarcity-sifting model in an adjacent field (population theory, markets, niches) and test whether its parameters can be implemented item by item in your field",
+        "Graft the model: scarcity = resource limits, candidates = variant individuals, sifting = differential survival and reproduction—every part named",
+        "Name and stress-test: christen the graft ('natural selection'), then immediately probe its weakest joints (intermediate forms, complex organs) with self-tests"
+      ],
+      "representative_cases_zh": [
+        "笔记本 D（1838）的原始记录直接显示：马尔萨斯读后两页之内，选择理论的骨架已然成形——灵感是嫁接而非渐变",
+        "华莱士 1858 年在马来群岛患疟疾时同样独立读马尔萨斯得出同一机制——外部模型的力量由两位独立研究者复现，成为双重验证",
+        "达尔文把『变异的用途化』用于具体问题：同种的分异（divergence）原则解释了为什么一个属的物种会越分越多——筛选模型的副产品反哺了分类学",
+        "反例警示：同时代的演化论者（如其祖父 Erasmus Darwin、Lamarck）拥有『演化』观念与大量变异观察，却因缺一个筛选模型而只能诉诸『内在冲动』——原料齐备而机制缺席，理论不生"
+      ],
+      "representative_cases_en": [
+        "The raw entries of Notebook D (1838) show the skeleton of selection forming within two pages of the Malthus reading—inspiration as graft, not gradual accretion",
+        "Wallace, malarious in the Malay Archipelago in 1858, independently read Malthus and reached the same mechanism—an external model's power independently replicated, a double verification",
+        "Darwin put 'the use of variation' to work on concrete problems: the principle of divergence explained why species multiply within a genus—the sifting model's by-product fed back into taxonomy",
+        "Cautionary case: earlier evolutionists (Erasmus Darwin, Lamarck) had the idea of evolution and masses of variation on record, yet lacking a sifting model could only invoke an 'inner impulse'—raw material without mechanism, and no theory is born"
+      ],
+      "modern_applications_zh": [
+        "算法设计：把生物界的筛选嫁接到搜索空间上（遗传算法正是这一嫁接的直接工程化产物）",
+        "商业分析：把『预算稀缺×候选方案×竞争筛选』模型移植到产品线决策，为『为什么总有一些想法被自然淘汰』建立机制解释",
+        "内容运营：把马尔萨斯式『供给无限×注意力有限』模型嫁接到信息流排序，解释头部集中现象",
+        "研究策略：当一个领域的观察数据堆积而无理论时，主动去相邻学科扫荡现成的筛选模型"
+      ],
+      "modern_applications_en": [
+        "Algorithm design: graft biological sifting onto search spaces—genetic algorithms are this very graft engineered",
+        "Business analysis: transplant the 'scarce budget × candidate options × competitive sifting' model to product-line decisions, building a mechanism-level account of why some ideas are culled",
+        "Content operations: graft the Malthusian 'infinite supply × finite attention' model onto feed ranking to explain head concentration",
+        "Research strategy: when a field's observations pile up without theory, raid adjacent disciplines for ready-made sifting models"
+      ],
+      "related_modes": [
+        "M-DAR-001",
+        "M-DAR-003",
+        "M-DAR-005"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "华莱士",
+        "马尔萨斯"
+      ]
+    },
+    {
+      "id": "M-DAR-005",
+      "mode_code": "M-DAR-005",
+      "figure_code": "H-DAR-001",
+      "name_zh": "复杂器官渐变消难法",
+      "name_en": "Gradualist Dissolution of Complex-Organs Method",
+      "category": "理论辩护/论证工程",
+      "domain_zh": "把『不可归约的复杂』拆解为有功能的中介阶段",
+      "domain_en": "Decomposing 'Irreducible Complexity' into Functional Intermediates",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "对自然选择最致命的质疑是：眼睛这样精密的器官，不完整就没有功能，如何靠渐变累积形成？达尔文的做法不是回避而是正面拆解：（1）拆解功能阶梯——把『看』拆为感光→感光方向→成像的连续功能谱，指出每一阶段都有现存生物在使用（从只有色素点的海星幼虫到有晶状体的章鱼）；（2）拆解结构同源——同一构造在不同物种中的连续变形（翅、鳍、手都是同一骨骼系列的改造）；（3）拆解时间预算——以地质记录论证无数中间类型存在的可能性。《物种起源》第六章『学说的难点』整章就是这种消难工程。方法上这意味着：面对『不完整即无用』的攻击，把不可归约的整体拆成功能完备的中介阶段链，让每一级都找到现实中的存在者。",
+      "definition_en": "The deadliest objection to natural selection: an organ as precise as the eye, useless if incomplete, how could it form by gradual accretion? Darwin's response was not evasion but frontal decomposition: (1) decompose the functional ladder—split 'seeing' into a continuous spectrum of light-sensitivity → direction-sensing → image-forming, and point out living creatures using every rung (from starfish larvae with mere pigment spots to octopuses with lenses); (2) decompose structural homology—the continuous modification of one construction across species (wing, fin, hand all refashioned from one bone series); (3) decompose the time budget—arguing from the geological record that countless intermediates were possible. Chapter 6 of the Origin, 'Difficulties on Theory,' is precisely this engineering of dissolution. Methodologically: when attacked with 'incomplete means useless,' decompose the irreducible whole into a chain of functionally complete intermediates and find a living occupant for every rung.",
+      "source_chapter": "《物种起源》第六章《学说的难点》：『眼睛……能由自然选择形成的这种想法，起初似乎极其荒谬』直至对眼之阶梯的完整论述；第十一章论生物地质演替",
+      "key_concepts": [
+        "功能阶梯",
+        "中介阶段",
+        "同源结构",
+        "不可归约复杂性的消解",
+        "难点自辩"
+      ],
+      "key_quote_zh": "即使是最完善的眼睛，也可能由无数微小的改进累积而成，每一级改进对其所有者都有用处。",
+      "key_quote_en": "Reason tells me, that if numerous gradations from a simple and imperfect eye to one complex and perfect can be shown to exist... then the difficulty of believing that a perfect and complex eye could be formed by natural selection, though insuperable by our imagination, should not be considered as subversive of the theory.",
+      "process_zh": [
+        "把『不可归约的复杂』目标化整为零：功能拆为连续阶梯，构造拆为同源序列",
+        "为每一级中介寻找现实存在者（现存生物的每级眼构造），使『假想的中间』变成『现存的实然』",
+        "为中介链补上时间预算：援引地质记录论证累积时间真实存在",
+        "把消难结果写回理论正文：困难不是脚注而是专章，消难成为论证结构的一部分"
+      ],
+      "process_en": [
+        "Break the 'irreducibly complex' target into parts: split function into a continuous ladder and structure into a homologous series",
+        "Find a real-world occupant for every rung (each grade of eye in extant creatures), turning hypothetical intermediates into extant actualities",
+        "Supply the time budget for the chain: cite the geological record to show the accumulation time is real",
+        "Write the dissolution back into the theory proper: the difficulty is not a footnote but a whole chapter; dispelling it becomes part of the argument's structure"
+      ],
+      "representative_cases_zh": [
+        "达尔文在《起源》中列举了从色素点到完善眼的全阶梯现存生物（海星幼虫的色素点、扁虫的凹陷光窝、鹦鹉螺的针孔成像、章鱼的有晶状体眼）——『每一级都有人在用』成为消难的实证支柱",
+        "用蜜腺→蜜蜂采蜜→花的形状改变的相互渐变解释『一方的构造为另一方服务』的循环依赖难题",
+        "用同源骨骼（人的手、蝙蝠的翅、海豹的鳍、马的腿）证明改造自同一构造的器官无需各自从头设计",
+        "反例警示：与达尔文同时的反对者（如 Owen）拒绝拆解，坚持『原型』的整体性——把不可归约当作本体而非待解工程问题，学术上未再前进一步"
+      ],
+      "representative_cases_en": [
+        "In the Origin Darwin lists creatures occupying every rung from pigment spot to perfect eye (starfish larvae, flatworm pits, Nautilus pinhole eyes, octopus camera eyes)—'every rung is in use' as the empirical pillar of the dissolution",
+        "He explains the circular dependency of 'one structure serving another' (nectary, bee, flower shape) through mutual gradual change",
+        "Homologous bones—human hand, bat wing, seal flipper, horse leg—show that organs refashioned from one construction need no design from scratch each time",
+        "Cautionary case: contemporaneous opponents (Owen) refused the decomposition, insisting on the wholeness of the 'archetype'—treating irreducibility as ontology rather than an engineering problem to be solved, and advanced no further"
+      ],
+      "modern_applications_zh": [
+        "技术评审：面对『系统太复杂无法渐进改造』的判断，把目标拆为每一级都有用户在用的功能阶梯",
+        "企业转型：把『不转型就死』的整体目标拆成每一步都独立创收的中介阶段（如数字化：电子表单→流程自动化→数据决策）",
+        "产品路线图：为宏大愿景设计功能完备的最小中间版本，每一版都有独立价值而非等待完工",
+        "学术答辩：把最强质疑专章处理并正面拆解，而非以脚注搪塞"
+      ],
+      "modern_applications_en": [
+        "Technical review: against 'too complex to refactor incrementally,' decompose the target into a functional ladder with a user at every rung",
+        "Corporate transformation: split the all-or-nothing goal into intermediates each independently revenue-generating (digitalization: e-forms → process automation → data-driven decisions)",
+        "Product roadmaps: design a functionally complete minimal intermediate version for the grand vision—each release valuable on its own, not a wait for completion",
+        "Academic defense: treat the strongest objection in its own chapter with frontal decomposition, not a dismissive footnote"
+      ],
+      "related_modes": [
+        "M-DAR-002",
+        "M-DAR-007",
+        "M-DAR-008"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "欧文",
+        "赫胥黎"
+      ]
+    },
+    {
+      "id": "M-DAR-006",
+      "mode_code": "M-DAR-006",
+      "figure_code": "H-DAR-001",
+      "name_zh": "共同祖先树状收拢法",
+      "name_en": "Common-Descent Tree-Convergence Method",
+      "category": "理论建构/统一框架",
+      "domain_zh": "以谱系树收拢多学科散乱事实",
+      "domain_en": "Converging Scattered Facts from Many Fields onto One Genealogical Tree",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "1859 年之前的生物学是一堆互不隶属的学科碎片：分类学在排『自然系统』但不知自然为何、胚胎学记录着『重演』却不知为何重演、生物地理学存着岛屿物种的怪异分布、残迹器官的列表越长越尴尬。达尔文的共同祖先理论是一棵树：分类学的『类群』就是树枝的真实分支，胚胎学的重演是发育路线对祖先路线的保留，岛屿的怪异分布是移民与辐射的地理日志，残迹器官是历史枝杈的遗迹。《物种起源》第十三、十四章把全部碎片收拢于树状图——每一碎片都不再是待解释的孤例，而是同一棵树在各自角度的投影。方法上这意味着：当多个领域的『怪异事实』彼此独立地令人不安时，追问是否存在一个单一结构，使所有怪异同时从『异常』变成『必然』——统一理论的强度恰以其收拢的怪异数量为度量。",
+      "definition_en": "Before 1859 biology was a heap of unrelated fragments: taxonomy ranked a 'natural system' without knowing what made it natural, embryology recorded 'recapitulation' without knowing why, biogeography stored the strange distributions of island species, and the catalogue of rudimentary organs grew more embarrassing by the year. Darwin's common-descent theory is a tree: the 'groups' of taxonomy are real branches, embryological recapitulation is a developmental route preserving an ancestral one, odd island distributions are the geographic logbook of colonization and radiation, and rudimentary organs are relics of pruned branches. Chapters 13-14 of the Origin converge every fragment onto the tree diagram—no fragment remains a solitary puzzle; each becomes the same tree seen from its own angle. Methodologically: when 'queer facts' from several fields are independently unsettling, ask whether a single structure exists under which all of them flip from anomaly to necessity—the strength of a unifying theory is measured by how many anomalies it collects.",
+      "source_chapter": "《物种起源》第十三章《生物的相互亲缘关系：形态学、胚胎学、残迹器官》与第十四章《综述与结论》；《起源》卷首的谱系树插图（唯一插图）",
+      "key_concepts": [
+        "共同祖先",
+        "谱系树",
+        "分类即系谱",
+        "残迹器官",
+        "怪异的收拢"
+      ],
+      "key_quote_zh": "所有的真分类都是系谱的；血统上的共同性，就是博物学者们无意识地追求的那条隐藏的纽带。",
+      "key_quote_en": "All true classification is genealogical; that community of descent is the hidden bond which naturalists have been unconsciously seeking.",
+      "process_zh": [
+        "列出各领域的长期怪异事实清单（分类的层级性、重演、岛屿特有性、残迹器官），并承认它们各自『没有好解释』",
+        "寻找单一结构假设：使尽可能多的怪异同时获得解释（一棵树=一个祖先+分支+时间）",
+        "逐项投影验证：检查每个怪异在树上是否从『异常』变为『必然』（分类的层级=分支的嵌套）",
+        "利用理论的预测力反向收割：在树上预言尚未发现的事实（如预言马达加斯加应有传粉蛾），把收拢变成发现工具"
+      ],
+      "process_en": [
+        "List the long-standing queer facts of each field (the hierarchy of classification, recapitulation, island endemism, rudimentary organs) and admit each 'has no good explanation'",
+        "Seek a single-structure hypothesis that explains as many of them at once as possible (one tree = one ancestor + branching + time)",
+        "Verify projection item by item: check that each queer fact turns from anomaly to necessity on the tree (the hierarchy of classification = nested branching)",
+        "Harvest predictions in reverse: forecast undiscovered facts from the tree (e.g., predicting a Madagascar pollinating moth), turning convergence into a discovery tool"
+      ],
+      "representative_cases_zh": [
+        "《起源》唯一的一张插图就是谱系树——用一图替代当时全部的『自然系统』争论：分类单元的层级性从人工惯例变成系谱事实",
+        "达尔文预言马达加斯加的彗星兰（Angraecum）既然有深达一英尺的蜜距，必存在相应长喙的传粉者——1903 年发现的巨型天蛾为该预言背书（他本人据花的构造即做出收拢式推断）",
+        "同源构造（五种脊椎动物的前肢）在神创论下只是『设计者复用模板』的偶好，在树上则是共同祖先的遗产——同一事实，地位从装饰性巧合变为理论的强证据",
+        "反例警示：居维叶的四个『分支』（ vertebrata、mollusca 等）只做分类不做系谱，把『类的存在』当作造物计划的证据——碎片依旧，未收拢成树"
+      ],
+      "representative_cases_en": [
+        "The Origin's sole illustration is the tree of descent—one diagram replacing the entire era's debates over the 'natural system': the hierarchy of taxa converted from artificial convention to genealogical fact",
+        "Darwin predicted that since Madagascar's Angraecum sesquipedale bore a foot-long nectary, a pollinator with a matching proboscis must exist—the giant hawkmoth discovered in 1903 vouched for the prediction (he had inferred it from the flower's structure alone)",
+        "Homologous constructions (forelimbs of five vertebrates), under creationism merely the Designer's taste for a reusable template, become on the tree the legacy of a common ancestor—the same fact promoted from decorative coincidence to strong evidence",
+        "Cautionary case: Cuvier's four 'embranchements' classified without genealogy, treating the existence of classes as evidence of a plan of creation—the fragments remained, never converged into a tree"
+      ],
+      "modern_applications_zh": [
+        "技术架构：把各子系统互不相通的『怪异设计』收拢到一张依赖树/血缘图上，使大量历史遗留突然变得可解释",
+        "知识管理：以单一知识树收拢多领域笔记，让『怪异孤例』变成树上某节点的投影",
+        "企业治理：把各部门的历史怪异规章放进一张组织谱系图（谁衍生于谁），清理时按血缘而非按部门逐个处理",
+        "学术综述：用单一理论框架收拢多学科证据，并从框架反向预言待发现事实"
+      ],
+      "modern_applications_en": [
+        "Technical architecture: converge subsystems' mutually foreign 'odd designs' onto one dependency/lineage graph, making legacy suddenly explainable",
+        "Knowledge management: gather multi-domain notes under a single knowledge tree so queer solitaires become projections of some node",
+        "Corporate governance: place every department's odd historical regulations on one organizational genealogy (who descends from whom) and prune by lineage, not department by department",
+        "Academic synthesis: converge multi-disciplinary evidence under one theoretical frame and reverse-predict undiscovered facts from it"
+      ],
+      "related_modes": [
+        "M-DAR-005",
+        "M-DAR-007",
+        "M-DAR-008"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "赫胥黎",
+        "海克尔"
+      ]
+    },
+    {
+      "id": "M-DAR-007",
+      "mode_code": "M-DAR-007",
+      "figure_code": "H-DAR-001",
+      "name_zh": "异议先行自辩法",
+      "name_en": "Objection-First Self-Cross-Examination Method",
+      "category": "学术方法论/论证工程",
+      "domain_zh": "把最强反方观点内置于自己的著作",
+      "domain_en": "Building the Strongest Counterarguments into One's Own Work",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "《物种起源》第六章标题即是《学说的难点》——达尔文把当时能想到的最强反对意见（复杂器官、本能、杂交不育、化石中间型缺失）系统列于自己的著作正中，逐条以自己的理论处理，并预先承认『第一眼的荒谬』。这不是修辞谦逊，而是论证策略：把反方的弹药库提前搬到自己家里，每一条反对意见在反方提出之前已被处理。他在给友人的信中写道，他对每一个难点的感觉『比对任何反对者的都强烈』。方法上这意味着：最强论证的检验标准不是赢了对手，而是能否在自己的文本里替对手说话——把自我交叉询问制度化，使书成为一场作者与想象中最强反方的全程辩论。",
+      "definition_en": "Chapter 6 of the Origin is titled 'Difficulties on Theory'—Darwin placed the strongest objections of his day (complex organs, instinct, hybrid sterility, the missing intermediates in the fossil record) systematically at the center of his own book, handled each with his own theory, and conceded up front the 'first-glance absurdity.' This was not rhetorical humility but argumentative strategy: he moved the opposition's ammunition into his own house, so that every objection was dealt with before an opponent could raise it. As he wrote to a friend, he felt each difficulty 'more strongly than any of my critics.' Methodologically: the test of the strongest argument is not beating an opponent but being able to speak for him inside one's own text—institutionalizing self cross-examination, so the book becomes a full debate between author and the imagined strongest opposition.",
+      "source_chapter": "《物种起源》第六章《学说的难点》、第七章《本能》、第八章《杂种性质》；达尔文致 Haeckel / Hooker 信件中『我感觉到这些难点比我的批评者更强烈』的自述",
+      "key_concepts": [
+        "难点专章",
+        "自我交叉询问",
+        "预先承认荒谬",
+        "钢人论证",
+        "把反方写进正文"
+      ],
+      "key_quote_zh": "我反复审视的这些难点，其分量在我心中的感受，远比任何反对者所提的更重。",
+      "key_quote_en": "Long before having arrived at this part of my work, a crowd of difficult points crossed my mind; some of the difficulties are so serious that to this day I can hardly reflect on them without being in some degree staggered.",
+      "process_zh": [
+        "建立反方档案：把每个可能的反对意见写成反方最强形态（钢人而非稻草人），不删减、不漫画化",
+        "把反对意见从脚注提升为正文专章，逐条以自己的理论正面处理而非修辞带过",
+        "预先承认理论第一眼的荒谬与每条难点的真实分量，换取论证的信用额度",
+        "对处理不了的部分明示悬置（如变异的遗传机制），把已处理的与未处理的边界说清楚"
+      ],
+      "process_en": [
+        "Build an opposition dossier: write each possible objection in its strongest form (steel-man, not straw-man), untrimmed and uncaricatured",
+        "Promote objections from footnotes to a chapter of their own, handling each with the theory itself rather than rhetorical brush-offs",
+        "Concede in advance the theory's first-glance absurdity and the real weight of every difficulty, purchasing credit for the argument",
+        "Explicitly suspend what cannot be handled (e.g., the mechanism of heredity), drawing the boundary between the handled and the unhandled"
+      ],
+      "representative_cases_zh": [
+        "《起源》第八章对杂交不育的处理：达尔文承认此问题对理论极不有利，却仍专章处理并给出『不育是杂交中间状态被选择』的解释路径——反方最强点被纳入正方体系",
+        "他对本能（如蜜蜂筑巢）的论证：先承认本能作为『遗传习惯』的难点，再用渐进中间步骤（从简单使用到精巧构造）消解——把最难点的处理写成一整章而非一段",
+        "达尔文在出版前向 Hooker、Lyell、Huxley 逐人寄稿征求意见，并把他们反对得最凶之处写进修改——把自我交叉询问外化为真实反方陪审团",
+        "反例警示：Haeckel 等急进推广者删去难点只留结论，使理论在传播中变得『不可反驳』——二十世纪初进化论的学理信用危机，部分源于这种把钢人换成稻草人的传播方式"
+      ],
+      "representative_cases_en": [
+        "The treatment of hybrid sterility in Origin chapter 8: Darwin conceded the problem gravely disfavored his theory yet still gave it a chapter and an explanatory route (sterility as a selected intermediate state of hybridity)—the opposition's strongest point absorbed into his own system",
+        "His argument on instinct (the honeybee's cell): he first concedes the difficulty of instinct as 'inherited habit,' then dissolves it through graded intermediate steps—from simple use to exquisite construction—writing the hardest point as a whole chapter, not a paragraph",
+        "Before publication he sent the manuscript to Hooker, Lyell, and Huxley one by one for objections, writing their fiercest points into the revisions—externalizing self cross-examination into a real opposition jury",
+        "Cautionary case: eager popularizers like Haeckel cut the difficulties and kept the conclusions, making the theory 'unfalsifiable' in transit—the crisis of evolutionary theory's scholarly credit in the early twentieth century owed partly to this steel-man-for-straw-man mode of transmission"
+      ],
+      "modern_applications_zh": [
+        "重要决策文档：设『反方最强论证』专节，把反对意见写成钢人并正面回应，而非以 FAQ 搪塞",
+        "论文写作：在讨论部分主动处理最可能被审稿人拒稿的理由，把自我交叉询问前置于投稿",
+        "产品评审：要求提案方自己列出『为什么这会失败』的最强清单并逐条回应，作为评审前置条件",
+        "法律/合规：预先把反方证词写进备忘录并给出处理，降低被突袭的风险"
+      ],
+      "modern_applications_en": [
+        "Decision documents: include a section of the opposition's strongest arguments written as steel-men with frontal responses, not FAQ-style deflection",
+        "Paper writing: handle in the discussion the very reasons reviewers are likeliest to reject on, moving self cross-examination ahead of submission",
+        "Product review: require proposers to list the strongest 'why this will fail' items and answer each, as a precondition of review",
+        "Legal/compliance: write opposing testimony into the memo in advance with handling, reducing ambush risk"
+      ],
+      "related_modes": [
+        "M-DAR-005",
+        "M-DAR-008",
+        "M-DAR-010"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "胡克",
+        "赫胥黎"
+      ]
+    },
+    {
+      "id": "M-DAR-008",
+      "mode_code": "M-DAR-008",
+      "figure_code": "H-DAR-001",
+      "name_zh": "二十年延迟加固法",
+      "name_en": "Two-Decade Delayed-Hardening Method",
+      "category": "研究策略/时间管理",
+      "domain_zh": "以延迟发表换取证据层层的加固",
+      "domain_en": "Trading Publication Delay for Layer-by-Layer Evidence Hardening",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "达尔文 1838 年已形成选择理论的核心，1844 年已写出两百多页的『大种变 essay』并交代妻子在他死后发表——但他拖到 1858 年华莱士来信才被迫联合发表，1859 年才出版《起源》。二十年不是拖延而是加固策略：期间完成了藤壶八年研究（同行评议式的分类学马拉松，赢得学术信用）、鸽子育种实验、物种在地质分布上的海量取证，把『一个漂亮的假说』层层加固为『一座证据的山』。他在信中承认害怕『提前说出半个理论』；历史证明这种害怕是对的——那些先发表同类理论的人（如 Chambers、Wallace 的初稿）都因证据不足而战斗力减半。方法上这意味着：当理论核心已定时，最大的风险不是慢，而是带着未加固的核心进入战场——用延迟把假说升级为体系。",
+      "definition_en": "Darwin had the core of selection by 1838, and by 1844 a two-hundred-page 'big species essay' with instructions to his wife to publish it after his death—yet he held back until forced into joint publication by Wallace's letter in 1858, and the Origin appeared in 1859. The two decades were not procrastination but a hardening strategy: in that span he completed eight years of barnacle research (a peer-review-style taxonomic marathon that won scholarly credit), pigeon-breeding experiments, and a mass of evidence on geographic distribution, upgrading 'a pretty hypothesis' layer by layer into 'a mountain of evidence.' He admitted in letters his fear of 'announcing half a theory early'; history proved the fear sound—those who published similar theories first (Chambers, Wallace's first draft) all fought with half their strength for want of evidence. Methodologically: once the theoretical core is set, the greatest risk is not slowness but entering the field with an unhardenened core—use delay to upgrade hypothesis into system.",
+      "source_chapter": "达尔文《自传》与 1844 年 essay；致 Hooker（1844）：『我几乎已在进行一场盗窃——因为我如此确信却一言不发』；藤壶专著 (1851-1854) 与 1858 年联合论文事件",
+      "key_concepts": [
+        "延迟发表",
+        "证据加固",
+        "藤壶八年",
+        "学术信用储蓄",
+        "半个理论的风险"
+      ],
+      "key_quote_zh": "说出半个理论，比完全不说更糟。",
+      "key_quote_en": "It is almost worthless for me to think of publishing on the subject till I have got my notes in order.",
+      "process_zh": [
+        "区分『理论核心已定』与『证据体系未成』两个状态，把延迟定义为加固期而非犹豫期",
+        "为加固期排定证据工种：补一门同行认可的硬功（如藤壶分类）、做可控实验（鸽子育种）、完成大范围取证",
+        "设置保险机制：写好死后发表的遗嘱式文档，使延迟的风险有下限",
+        "设定触发条件：当外部压力（竞争者的类似理论）出现时，立即以已加固的体系出场而非仓促首发"
+      ],
+      "process_en": [
+        "Distinguish 'core set' from 'evidence system unbuilt,' defining the delay as a hardening period, not hesitation",
+        "Schedule the evidence trades for the hardening period: earn a peer-recognized hard credential (barnacle taxonomy), run controlled experiments (pigeons), complete wide-range collection",
+        "Set an insurance mechanism: a testamentary document for posthumous publication, putting a floor under the delay's risk",
+        "Define trigger conditions: on external pressure (a rival's similar theory), appear at once with the hardened system rather than a hasty first launch"
+      ],
+      "representative_cases_zh": [
+        "藤壶八年研究让达尔文赢得『严肃分类学家』身份——1859 年反对者无法以『业余爱好者』轻慢他，学术信用先于理论存入",
+        "1844 年 essay 与给妻子的交代构成『延迟的保险』：若他中途死亡，理论不随他消失",
+        "1858 年华莱士信件到达时，达尔文的手稿与证据体系已经齐备——三个月内即写出《起源》摘要；对比之下华莱士只有初稿框架",
+        "反例警示：Chambers 1844 年抢发《自然创造史的痕迹》，因证据单薄与难点未处理，成了学界围猎的靶子，理论本身声誉受累——先发未必是优势"
+      ],
+      "representative_cases_en": [
+        "Eight years of barnacles earned Darwin the standing of a serious taxonomist—in 1859 opponents could not dismiss him as an amateur; scholarly credit was banked before the theory arrived",
+        "The 1844 essay and the letter to his wife formed the 'insurance of the delay': had he died midway, the theory would not have vanished with him",
+        "When Wallace's letter arrived in 1858, Darwin's manuscripts and evidence system stood ready—the Origin's abstract was written within three months; Wallace, by contrast, had only a draft framework",
+        "Cautionary case: Chambers rushed Vestiges into print in 1844; thin evidence and unhandled difficulties made it the target of a scholarly hunt, and the theory itself suffered in reputation—being first is not necessarily an advantage"
+      ],
+      "modern_applications_zh": [
+        "产品发布：核心算法/架构定型后，先补齐安全审计、压测、文档等『证据层』再上线，避免带伤发布",
+        "学术生涯：博士期间先完成一门被同行认可的硬功（方法或数据集），再推大理论——先存信用后花信用",
+        "创业：写好『最小可发表版本』作为保险，同时继续加固，在竞争者逼近时以完整体系出场",
+        "组织决策：重大方案在核心共识形成后，刻意延迟到证据齐备再公开，减少中途翻烧饼"
+      ],
+      "modern_applications_en": [
+        "Product launches: after the core algorithm/architecture is set, complete the evidence layers (security audit, load tests, docs) before going live—no wounded releases",
+        "Academic careers: during the PhD, first deliver a peer-recognized hard credential (a method or dataset) before pushing the grand theory—bank credit before spending it",
+        "Startups: write the 'minimum publishable version' as insurance while continuing to harden, then appear with the complete system when rivals close in",
+        "Organizational decisions: after core consensus forms, deliberately delay public rollout until the evidence is complete, avoiding mid-course flips"
+      ],
+      "related_modes": [
+        "M-DAR-007",
+        "M-DAR-009",
+        "M-DAR-010"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "华莱士",
+        "胡克"
+      ]
+    },
+    {
+      "id": "M-DAR-009",
+      "mode_code": "M-DAR-009",
+      "figure_code": "H-DAR-001",
+      "name_zh": "平凡对象小实验法",
+      "name_en": "Humble-Object Small-Experiment Method",
+      "category": "实验方法论/验证",
+      "domain_zh": "用日常小实验验证大理论的关键环节",
+      "domain_en": "Validating Key Links of a Grand Theory with Small Experiments on Humble Objects",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "达尔文的宏大理论可以只在书斋里推演，但他偏用最平凡的对象做决定性小实验：为验证植物的种子能否跨海传播，他把生菜种子泡海水数月仍测发芽率；为验证蚯蚓能否搬运土壤，他让儿子在自家草地撒石子、数十年如一日记录下沉速率；为验证兰花的精巧构造是选择的结果，他逐花解剖并预言『这么长的蜜距必有这么长的喙来配』。这些实验单个看小到不起眼，合起来为大理论的每个关键环节提供了可复现的物理证据。方法上这意味着：大理论最脆弱处往往能用最小的实验去检验——不需要实验室的级别，只需要把理论的某个具体断言变成可在后院执行的测量。",
+      "definition_en": "Darwin's grand theory could have stayed an armchair deduction, but he chose decisive small experiments on the humblest objects: to test whether seeds can cross oceans, he soaked lettuce seeds in seawater for months and measured germination; to test whether earthworms move soil, he had his son scatter stones on the home lawn and recorded their sinking rate over decades; to test whether the orchid's exquisite structures were the result of selection, he dissected flower after flower and predicted that 'a nectary this long must be matched by a tongue this long.' Each experiment alone is trivial; together they supplied reproducible physical evidence for every key link of the grand theory. Methodologically: the most vulnerable joints of a grand theory can often be probed by the smallest experiments—no laboratory grade required, only converting one concrete assertion of the theory into a measurement executable in one's backyard.",
+      "source_chapter": "《兰花的传粉》(1862) 与彗星兰预言；《腐植土的产生与蚯蚓的作用》(1881)；《物种起源》第十一章论种子经海水传播的浸泡实验记录",
+      "key_concepts": [
+        "后院实验",
+        "可复现测量",
+        "关键环节检验",
+        "预言性解剖",
+        "大理论小验证"
+      ],
+      "key_quote_zh": "我一生中最有趣的工作，是对蚯蚓的研究——它们翻耕了大地的表层。",
+      "key_quote_en": "The subject of worms is the most amusing of any... they have played a more important part in the history of the world than most persons would at first suppose.",
+      "process_zh": [
+        "把大理论拆解为若干具体可测断言（种子可越洋存活 28 天以上、蚯蚓翻土速率可抵消沉积）",
+        "为每个断言设计最小实验：材料日常可得、方法可复现、指标单一明确",
+        "用实验结果反过来修正理论参数（如海水中种子存活期的实测值直接决定地理分布模型的边界）",
+        "以预言式小实验（兰花-天蛾）作为理论的公开赌注：理论若真，此处必可找到未曾见过的事实"
+      ],
+      "process_en": [
+        "Decompose the grand theory into concrete measurable assertions (seeds survive 28+ days at sea; earthworm turnover offsets sedimentation)",
+        "Design the minimal experiment for each: everyday materials, reproducible method, a single crisp metric",
+        "Feed results back into the theory's parameters (measured seed viability in seawater directly bounded the biogeography model)",
+        "Use predictive small experiments (orchid-hawkmoth) as public bets: if the theory is true, a never-yet-seen fact must be findable here"
+      ],
+      "representative_cases_zh": [
+        "种子海水浸泡实验：实测多类种子在人工海水中浸泡 28 天后仍发芽——为『植物可跨洋传播』的断言提供了厨房级别的证据",
+        "蚯蚓实验：草地石子以可测速率被埋，推算出蚯蚓翻土层的历史厚度——小对象上做出了地质尺度的推算",
+        "彗星兰预言：1862 年据马达加斯加彗星兰一英尺深的蜜距，预言存在等长喙的蛾；1867 年 Hermann Müller 报告、1903 年发现巨型天蛾 Xanthopan morganii praedicta——『praedicta』之名即是对这种方法的纪念",
+        "反例警示：当时许多自然哲学家偏好以大思辨体系（如 Spencer 的综合哲学）覆盖一切，却不肯做可被证伪的小实验——理论声势浩大，环节上却一个证据也拿不出"
+      ],
+      "representative_cases_en": [
+        "The seed-soaking experiment: measured germination of many seed types after 28 days in artificial seawater—kitchen-grade evidence for the assertion that plants can cross oceans",
+        "The earthworm experiment: lawn stones buried at a measurable rate, from which the historical thickness of worm-turned soil was computed—geological-scale inference on a humble object",
+        "The Angraecum prediction: in 1862, from a foot-long nectary, he predicted a hawkmoth of matching length; Hermann Müller reported supporting observations in 1867, and the giant moth Xanthopan morganii praedicta was found in 1903—the subspecies name 'praedicta' itself commemorates the method",
+        "Cautionary case: many natural philosophers of the day preferred grand speculative systems (Spencer's Synthethic Philosophy) covering everything yet refused falsifiable small experiments—imposing in scale, yet unable to produce a single piece of link-level evidence"
+      ],
+      "modern_applications_zh": [
+        "假设检验训练：把项目的大判断拆成可在当周执行的最小测量（如『用户会在 3 步内完成注册』的走查实验）",
+        "工程验证：对架构决策先做后院级 PoC（单机压测、玩具集群），再投入大规模改造",
+        "理论产品化：为策略模型的每个关键参数设定可执行的小型实测，而非只在纸面辩论参数取值",
+        "科普与教学：用厨房/后院实验复现科学断言，使理论关键环节对普通人可感"
+      ],
+      "modern_applications_en": [
+        "Hypothesis-testing training: decompose a project's big bets into minimal measurements executable this week (e.g., a walkthrough of 'users register within 3 steps')",
+        "Engineering validation: run backyard-grade PoCs for architectural decisions (single-machine load tests, toy clusters) before large refactors",
+        "Theory productization: give every key parameter of a strategy model an executable small measurement rather than a paper argument over values",
+        "Outreach and teaching: reproduce scientific claims with kitchen/backyard experiments, making the theory's key links tangible"
+      ],
+      "related_modes": [
+        "M-DAR-003",
+        "M-DAR-006",
+        "M-DAR-010"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "赫胥黎",
+        "缪勒"
+      ]
+    },
+    {
+      "id": "M-DAR-010",
+      "mode_code": "M-DAR-010",
+      "figure_code": "H-DAR-001",
+      "name_zh": "性选择双路径法",
+      "name_en": "Sexual-Selection Dual-Pathway Method",
+      "category": "理论建构/机制扩展",
+      "domain_zh": "在单一斗争模型之外开辟第二筛选路径",
+      "domain_en": "Opening a Second Sifting Path beyond the Single Struggle Model",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "《物种起源》只给了自然选择一条路径：生存斗争。但孔雀的尾屏无利于生存、反显累赘——同一套斗争模型解释不了它。达尔文在《人类的由来》(1871) 开辟第二路径：性选择——同种成员之间的择偶竞争（雄性间的打斗与雌性的挑选）独立于生存筛选，塑造出无利于生存却利于繁殖的特征。这是一次罕见的理论自我扩展：不把反例硬塞进原模型，而是承认模型的边界，并为其设立一条平行机制。方法上这意味着：当模型在某个数据域上系统性失效时，先判定失效是否同源（孔雀尾与鹿角都指向『择偶』），再决定是修补原模型还是建立平行机制——建立平行机制的勇气常是理论存活的关键。",
+      "definition_en": "The Origin offered only one pathway: the struggle for existence. But the peacock's tail helps survival not at all—indeed burdens it—and the struggle model cannot explain it. In The Descent of Man (1871) Darwin opened a second pathway: sexual selection—mating competition among members of the same species (male combat and female choice) operating independently of survival sifting, producing traits useless for survival yet useful for reproduction. This was a rare act of theoretical self-expansion: instead of stuffing the counterexample into the original model, he acknowledged the model's boundary and erected a parallel mechanism for it. Methodologically: when a model fails systematically on some data domain, first judge whether the failures share one source (peacock tails and stag antlers both point to 'mating'), then decide whether to patch the original model or build a parallel mechanism—and the courage to build the parallel is often what keeps a theory alive.",
+      "source_chapter": "《人类的由来》(1871) 第二篇《性选择》：『我给这个名词的定义是……某些个体仅仅在繁殖方面比同种同性别的其他个体占有优势』；致 Hooker 信中关于孔雀尾的困惑自述",
+      "key_concepts": [
+        "性选择",
+        "模型边界承认",
+        "平行机制",
+        "择偶竞争",
+        "理论自我扩展"
+      ],
+      "key_quote_zh": "孔雀的尾巴使我恶心——每当我凝视它，我就感到这一点。",
+      "key_quote_en": "The sight of a feather in a peacock's tail, whenever I gaze at it, makes me sick!",
+      "process_zh": [
+        "收集原模型系统性解释不了的数据域（无利生存的炫耀性特征），确认失效不是随机噪声而是同源的一类",
+        "判定失效与原机制的边界：同一筛选逻辑（变异+差异繁殖成功率）是否可换一个竞争维度（择偶而非生存）重演",
+        "建立平行机制并明确其独立判据：性选择的证据必须指向繁殖优势而非生存优势，与自然选择可分离检验",
+        "承受理论扩展的代价：接受新机制在细节上长期受质疑（雌性挑选的遗传学基础百年后才补齐），但不撤回"
+      ],
+      "process_en": [
+        "Collect the data domain the original model systematically fails on (display traits useless for survival), confirming the failures are not random noise but one kindred class",
+        "Judge the boundary against the original mechanism: does the same sifting logic (variation + differential reproductive success) replay on another competitive dimension (mating rather than survival)?",
+        "Establish the parallel mechanism with independent criteria: sexual selection's evidence must point to reproductive, not survival, advantage—separately testable from natural selection",
+        "Bear the cost of expansion: accept that the new mechanism stays under detail-level fire for decades (the genetics of female choice was filled in a century later), without retracting"
+      ],
+      "representative_cases_zh": [
+        "孔雀尾、雄鹿角、极乐鸟羽——一组『对生存不利』的特征被判定为同源失效类，统一由性选择解释，而非逐个打补丁",
+        "《人类的由来》同时用它处理人类特质（体格差异、_secondary sexual characters），把人类纳入同一双路径框架——扩展机制反哺了原理论的应用范围",
+        "他在《起源》末章已预告性选择（『同种雌雄之间』的斗争），1871 年才正式展开——扩展是蓄谋的边界勘定而非仓促补漏",
+        "反例警示：Wallace 拒绝性选择中的『雌性审美』成分，把全部炫耀特征拉回生存解释（保护色、 vigor 标记）——单一机制执念使他对该数据域的系统性解释力长期落后"
+      ],
+      "representative_cases_en": [
+        "Peacock tails, stag antlers, bird-of-paradise plumage—one kindred class of survival-useless traits, uniformly explained by sexual selection rather than patched one by one",
+        "The Descent of Man applies it to human traits (bodily differences, secondary sexual characters), folding humanity into the same dual-pathway framework—the expansion fed back into the original theory's range",
+        "He had foreshadowed sexual selection in the Origin's last chapter (combat 'between the males and females of the same species'), unfolding it formally only in 1871—the expansion was a deliberate boundary survey, not a hasty patch",
+        "Cautionary case: Wallace rejected the 'female aesthetic' element, dragging all display traits back to survival explanations (protective coloration, vigor markers)—a single-mechanism fixation left his explanatory power over that data domain lagging for decades"
+      ],
+      "modern_applications_zh": [
+        "产品矩阵：当主模型（性能竞争）解释不了某类成功（品牌情感溢价）时，判定失效同源并建立平行机制（品牌路径）而非硬塞进性能叙事",
+        "机器学习：识别模型系统性失效的数据域，为其建立专用第二模型并明确判据，而非无限加特征修补",
+        "组织设计：在绩效淘汰机制之外，为协作/创新行为建立独立的第二激励路径，承认单一路径的边界",
+        "学术评审：当理论被反例包围时，先做失效同源性判断——是修补参数还是增设机制"
+      ],
+      "modern_applications_en": [
+        "Product portfolios: when the main model (performance competition) fails on a class of wins (brand-emotion premium), judge the failures kindred and build a parallel mechanism (brand pathway) instead of stuffing them into the performance story",
+        "Machine learning: identify the data domain where the model systematically fails, build a dedicated second model with explicit criteria, rather than patching with endless features",
+        "Organizational design: alongside performance-culling mechanisms, create an independent second incentive pathway for collaboration and innovation, acknowledging the single path's boundary",
+        "Academic review: when a theory is ringed by counterexamples, first judge whether the failures are kindred—patch parameters or add a mechanism"
+      ],
+      "related_modes": [
+        "M-DAR-004",
+        "M-DAR-005",
+        "M-DAR-007"
+      ],
+      "representative_figures": [
+        "达尔文",
+        "华莱士",
+        "费舍尔"
+      ]
+    }
+  ]
+}

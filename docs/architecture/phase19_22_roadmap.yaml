@@ -1,0 +1,521 @@
+# Phase 19-22 Global Expansion Roadmap
+# Executable roadmap with tasks, milestones, dependencies, and quality gates
+# Format: YAML for CI/CD integration
+
+metadata:
+  created: "2026-08-26"
+  author: "san-martin"
+  version: "1.0"
+  baseline_schema: "v7"
+  target_schema: "v8"
+  total_estimated_figures: 200
+  total_estimated_modes: 120
+  total_estimated_scenarios: 90
+
+phases:
+
+  - id: 19
+    name: "North America & Europe Core"
+    priority: "Critical"
+    description: "Fill the largest gap - Western canon with zero figures/modes"
+    start_date: "2026-09-01"
+    end_date: "2026-10-14"
+    duration_days: 44
+    dependencies: []  # First phase, no deps
+    target_countries:
+      - US
+      - CA
+      - UK
+      - FR
+      - DE
+      - IT
+      - ES
+      - NL
+      - BE
+      - CH
+      - AT
+      - PL
+      - CZ
+    deliverables:
+      figures:
+        count: 50
+        categories:
+          - "Founding Fathers & Constitution (US/CA)"
+          - "Enlightenment Philosophers (UK/FR/DE)"
+          - "Industrial Revolution Leaders (UK/DE/US)"
+          - "Wartime Leaders (WW1/WW2/Cold War)"
+          - "Post-war Architects (EU, Welfare State)"
+          - "Post-Communist Transition (PL/CZ)"
+      modes:
+        count: 30
+        categories:
+          - "Democratic Institutionalism"
+          - "Federalism & Constitutional Design"
+          - "Enlightenment Reason & Critique"
+          - "Industrial Organization & Innovation"
+          - "Welfare State & Social Democracy"
+          - "EU Integration & Supranational Governance"
+          - "Post-Communist Transition"
+      scenarios:
+        count: 20
+        type: "country-specific"
+    tasks:
+      - id: "19.1"
+        name: "US/CA Founding & Constitution"
+        assignee: "researcher-na"
+        duration_days: 14
+        depends_on: []
+        outputs:
+          - "10 figures (Washington, Jefferson, Hamilton, Lincoln, FDR, MLK, Reagan, Macdonald, Laurier, Trudeau)"
+          - "5 modes (Federalism, Constitutionalism, Presidential Leadership, Civil Rights, Multiculturalism)"
+      - id: "19.2"
+        name: "UK/FR/DE Enlightenment & Industry"
+        assignee: "researcher-eu-west"
+        duration_days: 14
+        depends_on: ["19.1"]
+        outputs:
+          - "15 figures (Cromwell, Burke, Mill, Churchill, Thatcher, Robespierre, Napoleon, de Gaulle, Tocqueville, Bismarck, Weber, Adenauer, Brandt, Merkel, ...)"
+          - "10 modes (Parliamentary Sovereignty, Revolutionary Republicanism, Social Market Economy, Ordoliberalism, ...)"
+      - id: "19.3"
+        name: "ES/IT/NL/BE/CH/AT Nation-states"
+        assignee: "researcher-eu-south"
+        duration_days: 10
+        depends_on: ["19.2"]
+        outputs:
+          - "10 figures (Cavour, Gramsci, De Gasperi, William of Orange, Thorbecke, Bundesrat founders, ...)"
+          - "5 modes (Constitutional Monarchy, Consociationalism, Neutral Mediation, ...)"
+      - id: "19.4"
+        name: "PL/CZ Post-communist Transition"
+        assignee: "researcher-eu-east"
+        duration_days: 10
+        depends_on: ["19.3"]
+        outputs:
+          - "8 figures (Piłsudski, Walesa, Masaryk, Havel, Klaus, ...)"
+          - "5 modes (Shock Therapy, Lustration, EU Accession, Civil Society, ...)"
+      - id: "19.modes"
+        name: "Synthesize Phase 19 Modes"
+        assignee: "mode-synthesizer"
+        duration_days: 20
+        depends_on: ["19.1"]
+        outputs:
+          - "30 validated modes in modes_data.json"
+          - "Cross-civilization mapping to 78 thinking modes"
+      - id: "19.scenarios"
+        name: "Generate Phase 19 Scenarios"
+        assignee: "scenario-generator"
+        duration_days: 10
+        depends_on: ["19.modes"]
+        outputs:
+          - "20+ scenario tags in scenario_tags.json"
+    quality_gates:
+      - "All figures pass v7 schema validation (0 hard errors)"
+      - "Each figure has ≥3 modes, ≥1 new mode (M262+)"
+      - "Bilingual completeness: description_zh/en, reason_zh/en, steps_zh/en, expected_zh/en, case_zh/en"
+      - "International fields: nationality, civilization_sphere, time_period_standardized, wiki_id, primary_language, intellectual_tradition, legal_system, education_tradition"
+      - "Cross-civilization impact documented"
+      - "Mode distinctiveness score > 0.3 vs existing modes"
+
+  - id: 20
+    name: "Latin America Deep + Caribbean"
+    priority: "High"
+    description: "Replace template modes with real research; add Caribbean coverage"
+    start_date: "2026-10-15"
+    end_date: "2026-11-14"
+    duration_days: 31
+    dependencies: ["19"]
+    target_countries:
+      - MX
+      - AR
+      - BR
+      - CL
+      - CO
+      - PE
+      - VE
+      - CU
+      - BO
+      - EC
+      - PY
+      - UY
+      - GT
+      - SV
+      - HN
+      - NI
+      - CR
+      - PA
+      - DO
+      - HT
+      - JM
+      - TT
+      - BB
+    deliverables:
+      figures:
+        count: 40
+        categories:
+          - "Liberators (Bolivar, San Martin, Sucre, O'Higgins, ...)"
+          - "Constitutional Reformers (Juarez, Sarmiento, ...)"
+          - "Populist Leaders (Peron, Evita, Vargas, Cardenas, ...)"
+          - "Revolutionary Figures (Castro, Che, Guevara, Allende, ...)"
+          - "Democratic Transitions (Alfonsin, Cardoso, Pinochet transition, ...)"
+          - "Caribbean Leaders (Toussaint, Marti, Manley, Williams, ...)"
+      modes:
+        count: 25
+        categories:
+          - "Bolivarian Unification"
+          - "Constitutional Republicanism"
+          - "Peronist Mobilization"
+          - "Revolutionary Exportism"
+          - "Radical Institutional Transformation"
+          - "Neoliberal Reform"
+          - "Caribbean Plantocracy & Resistance"
+      scenarios:
+        count: 20
+        type: "country-specific"
+    tasks:
+      - id: "20.0"
+        name: "Purge Template Modes"
+        assignee: "data-engineer"
+        duration_days: 2
+        depends_on: ["19"]
+        outputs:
+          - "Remove 21 LATAM-GEN-XXX templates from latam_modes.json"
+          - "Remove 32 OCE-GEN-XXX templates from oceania_modes.json"
+      - id: "20.1"
+        name: "Liberators Research"
+        assignee: "researcher-latam-liberators"
+        duration_days: 10
+        depends_on: ["20.0"]
+        outputs:
+          - "12 figures"
+          - "4 modes"
+      - id: "20.2"
+        name: "Reformers & Populists"
+        assignee: "researcher-latam-reform"
+        duration_days: 10
+        depends_on: ["20.1"]
+        outputs:
+          - "14 figures"
+          - "6 modes"
+      - id: "20.3"
+        name: "Revolutionaries & Transitions"
+        assignee: "researcher-latam-rev"
+        duration_days: 10
+        depends_on: ["20.2"]
+        outputs:
+          - "10 figures"
+          - "5 modes"
+      - id: "20.4"
+        name: "Caribbean Nations"
+        assignee: "researcher-caribbean"
+        duration_days: 10
+        depends_on: ["20.3"]
+        outputs:
+          - "8 figures"
+          - "5 modes"
+      - id: "20.modes"
+        name: "Synthesize Phase 20 Modes"
+        assignee: "mode-synthesizer"
+        duration_days: 15
+        depends_on: ["20.1"]
+        outputs:
+          - "25 validated modes"
+      - id: "20.scenarios"
+        name: "Generate Phase 20 Scenarios"
+        assignee: "scenario-generator"
+        duration_days: 10
+        depends_on: ["20.modes"]
+        outputs:
+          - "20+ scenario tags"
+    quality_gates:
+      - "Zero template modes remaining in latam_modes.json and oceania_modes.json"
+      - "All figures pass v7 schema validation"
+      - "Regional integration field: MERCOSUR, CELAC, OAS, CARICOM, SICA"
+      - "Conflict resolution: transitional justice, truth commissions, power sharing"
+      - "Colonial history field populated for all"
+
+  - id: 21
+    name: "Africa Continental + Islamic World Completion"
+    priority: "Critical"
+    description: "Full African continent coverage (currently only 9 Southern Africa figures) + Islamic deep mode figures"
+    start_date: "2026-11-15"
+    end_date: "2027-01-15"
+    duration_days: 61
+    dependencies: ["20"]
+    target_countries:
+      - NG
+      - GH
+      - ET
+      - KE
+      - TZ
+      - UG
+      - RW
+      - CD
+      - SN
+      - CI
+      - CM
+      - AO
+      - MW
+      - ZM
+      - ZW
+      - BW
+      - NA
+      - SZ
+      - LS
+      - MG
+      - MA
+      - DZ
+      - TN
+      - LY
+      - EG
+      - SD
+      - SO
+      - ER
+      - DJ
+    deliverables:
+      figures:
+        count: 60
+        categories:
+          - "West African Independence (Nkrumah, Awolowo, Senghor, Houphouet-Boigny, ...)"
+          - "East African Leaders (Nyerere, Kenyatta, Museveni, Kagame, Haile Selassie, ...)"
+          - "Central African (Lumumba, Mobutu, Bokassa, Sassou-Nguesso, ...)"
+          - "Southern African (Mandela, Mugabe, Nujoma, Khama, ...)"
+          - "North African (Bourguiba, Nasser, Ben Bella, Gaddafi, Hassan II, ...)"
+          - "Islamic Reformers (Al-Afghani, Abduh, Rida, Banna, Qutb, Iqbal, Ataturk, Jinnah, Tarzi, Shariati, Rahman, Malcolm X, Tahtawi) - 15 figures for ISL-DEEP modes"
+      modes:
+        count: 35
+        categories:
+          - "Ujamaa & African Socialism"
+          - "Pan-Africanism"
+          - "Islamic Modernism"
+          - "Tribal/Communal Governance"
+          - "Resource Governance & Curse Mitigation"
+          - "Democratic Transition & Term Limits"
+          - "Post-Conflict Reconstruction"
+          - "African Union & Regional Integration"
+      scenarios:
+        count: 25
+        type: "country-specific"
+    tasks:
+      - id: "21.1"
+        name: "West Africa (Ghana/Nigeria/Senegal/Ivory Coast)"
+        assignee: "researcher-africa-west"
+        duration_days: 14
+        depends_on: ["20"]
+        outputs:
+          - "15 figures"
+          - "8 modes"
+      - id: "21.2"
+        name: "East Africa (Ethiopia/Kenya/Tanzania/Uganda/Rwanda)"
+        assignee: "researcher-africa-east"
+        duration_days: 14
+        depends_on: ["21.1"]
+        outputs:
+          - "15 figures"
+          - "8 modes"
+      - id: "21.3"
+        name: "Central & Southern Africa"
+        assignee: "researcher-africa-central-south"
+        duration_days: 10
+        depends_on: ["21.2"]
+        outputs:
+          - "12 figures"
+          - "6 modes"
+      - id: "21.4"
+        name: "North Africa (Maghreb/Egypt/Sudan/Horn)"
+        assignee: "researcher-africa-north"
+        duration_days: 10
+        depends_on: ["21.3"]
+        outputs:
+          - "8 figures"
+          - "5 modes"
+      - id: "21.5"
+        name: "Islamic Reformers Deep Dive"
+        assignee: "researcher-islamic"
+        duration_days: 15
+        depends_on: ["20"]
+        outputs:
+          - "15 figures for ISL-DEEP-049 to 063"
+          - "Map to existing 15 deep modes"
+      - id: "21.modes"
+        name: "Synthesize Phase 21 Modes"
+        assignee: "mode-synthesizer"
+        duration_days: 20
+        depends_on: ["21.1"]
+        outputs:
+          - "35 validated modes"
+      - id: "21.scenarios"
+        name: "Generate Phase 21 Scenarios"
+        assignee: "scenario-generator"
+        duration_days: 10
+        depends_on: ["21.modes"]
+        outputs:
+          - "25+ scenario tags"
+    quality_gates:
+      - "All 29 target countries have ≥1 figure"
+      - "Islamic deep modes (15) each have ≥1 representative figure"
+      - "civilization_sphere field: Sub-Saharan African, North African, Islamic"
+      - "conflict_resolution_mechanism: AU mechanisms, truth commissions, transitional justice"
+      - "regional_integration: AU, ECOWAS, SADC, EAC, ECCAS, COMESA, AMU"
+
+  - id: 22
+    name: "Asia-Pacific Completion + Indigenous/Arctic"
+    priority: "High"
+    description: "East/SE/South Asia figures for existing modes; Central Asia figures; Oceania/Australia/NZ; Indigenous/Arctic"
+    start_date: "2026-12-15"
+    end_date: "2027-02-28"
+    duration_days: 75
+    dependencies: ["19", "21"]  # Needs v7 schema stable from Phase 19, Islamic modes from Phase 21
+    target_countries:
+      - CN
+      - JP
+      - KR
+      - TW
+      - VN
+      - TH
+      - MY
+      - ID
+      - PH
+      - SG
+      - IN
+      - PK
+      - BD
+      - LK
+      - NP
+      - BT
+      - MN
+      - KZ
+      - KG
+      - TJ
+      - TM
+      - UZ
+      - AU
+      - NZ
+      - PG
+      - SB
+      - FJ
+      - VU
+      - WS
+      - TO
+      - Arctic regions
+    deliverables:
+      figures:
+        count: 50
+        categories:
+          - "East Asian Modernizers (Meiji oligarchs, Deng Xiaoping, Park Chung-hee, Lee Kuan Yew, Chiang Kai-shek, Sun Yat-sen, Mao Zedong, ...)"
+          - "South Asian Leaders (Gandhi, Nehru, Jinnah, Ambedkar, Bandaranaike, Mujibur Rahman, ...)"
+          - "Southeast Asian Nation-builders (Sukarno, Suharto, Mahathir, Ho Chi Minh, Aung San, Marcos, Aquino, ...)"
+          - "Central Asian Figures (Nazarbayev, Karimov, Rahmon, Atambayev, Tokayev, Mirziyoyev, ...)"
+          - "Pacific Leaders (Fraser, Hawke, Keating, Ardern, Somare, Mara, Lini, ...)"
+          - "Indigenous/Arctic Leaders (Inuit, Sami, Maori, Aboriginal, First Nations)"
+      modes:
+        count: 30
+        categories:
+          - "Confucian Governance & Meritocracy"
+          - "Developmental State"
+          - "ASEAN Way & Consensus"
+          - "Islamic Reform in Asia"
+          - "Silk Road Connectivity"
+          - "Indigenous Self-Governance"
+          - "Arctic Stewardship & Co-management"
+          - "Pacific Island Resilience"
+      scenarios:
+        count: 25
+        type: "country-specific"
+    tasks:
+      - id: "22.1"
+        name: "East Asia (CN/JP/KR/TW/VN/MN)"
+        assignee: "researcher-east-asia"
+        duration_days: 14
+        depends_on: ["19"]
+        outputs:
+          - "15 figures"
+          - "10 modes"
+      - id: "22.2"
+        name: "South Asia (IN/PK/BD/LK/NP/BT)"
+        assignee: "researcher-south-asia"
+        duration_days: 14
+        depends_on: ["21"]
+        outputs:
+          - "12 figures"
+          - "8 modes"
+      - id: "22.3"
+        name: "Southeast Asia (TH/MY/ID/PH/SG)"
+        assignee: "researcher-se-asia"
+        duration_days: 10
+        depends_on: ["22.2"]
+        outputs:
+          - "10 figures"
+          - "5 modes"
+      - id: "22.4"
+        name: "Central Asia Figures (5 Stans)"
+        assignee: "researcher-central-asia"
+        duration_days: 10
+        depends_on: ["22.3"]
+        outputs:
+          - "8 figures"
+          - "5 modes"
+      - id: "22.5"
+        name: "Oceania (AU/NZ/Pacific Islands)"
+        assignee: "researcher-oceania"
+        duration_days: 10
+        depends_on: ["22.4"]
+        outputs:
+          - "8 figures"
+          - "5 modes"
+      - id: "22.6"
+        name: "Indigenous/Arctic"
+        assignee: "researcher-indigenous"
+        duration_days: 10
+        depends_on: ["22.5"]
+        outputs:
+          - "5 figures"
+          - "5 modes"
+      - id: "22.modes"
+        name: "Synthesize Phase 22 Modes"
+        assignee: "mode-synthesizer"
+        duration_days: 20
+        depends_on: ["22.1"]
+        outputs:
+          - "30 validated modes"
+      - id: "22.scenarios"
+        name: "Generate Phase 22 Scenarios"
+        assignee: "scenario-generator"
+        duration_days: 10
+        depends_on: ["22.modes"]
+        outputs:
+          - "25+ scenario tags"
+    quality_gates:
+      - "All 30+ target countries/regions have ≥1 figure"
+      - "Existing East/SE/Central Asia modes (15) each have ≥2 representative figures"
+      - "civilization_sphere: East Asian, South Asian, Southeast Asian, Central Asian, Pacific, Indigenous, Arctic"
+      - "education_tradition: Confucian, Buddhist, Hindu, Islamic, Indigenous, Western"
+      - "regional_integration: ASEAN, SCO, SAARC, PIF, Arctic Council"
+      - "indigenous_knowledge_system field populated for Indigenous/Arctic figures"
+
+global_quality_gates:
+  - "v8 schema validation: 0 hard errors across all phases"
+  - "Cross-civilization mapping: 78 thinking modes ↔ 30 domains ↔ 10 writing techniques complete"
+  - "Scenario tag hierarchy: {civilization_sphere: {country: [tags]}} structure implemented"
+  - "Field completeness: ≥90% for core fields, ≥70% for optional fields per region"
+  - "Mode distinctiveness: all new modes cosine similarity < 0.3 vs existing"
+  - "Bilingual parity: 100% zh/en pairs for all text fields"
+
+schema_milestones:
+  - milestone: "v7_lock"
+    phase: 19
+    description: "v7 schema frozen, entity_type mandatory, CI validation active"
+  - milestone: "v8_draft"
+    phase: 20
+    description: "v8 regional profiles drafted, enum expansions proposed"
+  - milestone: "v8_review"
+    phase: 21
+    description: "v8 reviewed with Phase 19-20 data, adjustments made"
+  - milestone: "v8_final"
+    phase: 22
+    description: "v8 finalized, all 22 civilization spheres covered, migration scripts ready"
+
+resource_estimates:
+  researchers_needed: 8
+  mode_synthesizers: 2
+  scenario_generators: 2
+  data_engineers: 1
+  total_person_months: 36

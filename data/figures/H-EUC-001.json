@@ -1,0 +1,1233 @@
+{
+  "schema_version": "v6",
+  "id": "H-EUC-001",
+  "code": "EUC",
+  "figure_name": "欧几里得",
+  "figure_code": "Euclid",
+  "figure_pinyin": "Ōu jǐ lǐ dé",
+  "birth_year": "约公元前330",
+  "death_year": "约公元前275",
+  "era": "约前330-约前275 : 希腊化埃及（生于雅典或其附近，传说受教于柏拉图学园传统—托勒密一世邀其赴亚历山大城—在缪斯宫主持数学讲授与编纂—约前300年成书《几何原本》十三卷—另著《已知数》《图形的分割》《光学》《现象》—『无王者之路』轶事—其教科书体例统治西方数学教育两千余年）",
+  "era_en": "c.330-c.275 BC : Hellenistic Egypt (born in or near Athens, formed in the tradition of Plato's Academy - summoned to Alexandria by Ptolemy I - teaching and compiling at the Museum - the Elements completed in thirteen books c.300 BC - also the Data, On Divisions of Figures, Optics and Phaenomena - the 'no royal road' anecdote - a textbook format ruling Western mathematical education for over two millennia)",
+  "school": "亚历山大数学学派 / 公理化演绎传统 / 教科书法典化 / 希腊几何学集大成",
+  "historical_significance": "欧几里得（约前330-约前275），古希腊数学家，亚历山大数学学派的奠基者与《几何原本》的编纂者。《几何原本》并非他的原创发现汇编于一人，而是他把泰勒斯、毕达哥拉斯、欧多克索斯等两百年希腊数学成果铸成十三卷法定文本：以二十三个定义、五个公设、五个公理为唯一免费资源，用四百多个命题构建起从等边三角形到五种正多面体的完整演绎体系；全书命题之间以显式编号引用相连，形成可审计的依赖账本；第十二卷以欧多克索斯穷竭法驯服连续量，为两千年后的极限概念铺路。这部书成为西方沿用两千余年的标准教科书，牛顿、斯宾诺莎、罗素、林肯皆在其上受训；它示范了人类历史上第一次把知识整理成『从不可证明的起点出发、每一步可独立复核』的封闭体系。他的方法论——公理化奠基、尺规约束、归谬反证、拼合构造、定义先行、穷竭逼近、通法优先、依赖显式化、教科书立法、无王者之路——构成一个以『把可信性制造成可复核的工程』为核心的完整思想体系。",
+  "historical_significance_en": "Euclid (c.330-c.275 BC), Greek mathematician, founder of the Alexandrian school and compiler of the Elements. The Elements was no single-handed treasury of original discovery: he cast two centuries of Greek mathematics—from Thales, Pythagoras and Eudoxus—into thirteen statutory volumes. With twenty-three definitions, five postulates and five common notions as the only free resources, some 465 propositions build a complete deductive system from the equilateral triangle to the five regular solids; the propositions are linked by explicit numbered citations into an auditable dependency ledger; Book XII tames continuous quantity with Eudoxus's method of exhaustion, paving the way for the limit concept two millennia later. The book served as the standard Western textbook for over two thousand years—Newton, Spinoza, Russell and Lincoln trained on it—and demonstrated humanity's first closure of knowledge into a system 'deriving from unprovable starting points, every step independently checkable'. His methodology—axiomatic foundation, ruler-and-compass discipline, reductio ad absurdum, assembly from proven parts, definition before argument, exhaustion and sandwiching, generality before instance, no hidden borrowing, curriculum as legislation, and no royal road—constitutes a complete system with 'manufacturing trustworthiness as auditable engineering' at its core.",
+  "unique_thinking": "他相信知识可以被组织成一座任何人都能亲自走完全程的建筑：入口处立着一块清单，声明这里只有几条不可再证的起点；此后每一块砖都注明它压在哪几块砖上，没有人被要求相信任何未给他看过编号的东西。他不追赶奇观也不给权贵捷径——难度不在读者的身份里，而在链条本身里；把散落的洞见铸成可教学的法典，比再添一个孤立发现更重要。",
+  "unique_thinking_en": "He believed knowledge could be organized as a building anyone could walk through to the top: at the entrance stands an inventory declaring that the structure offers only a few unprovable starting points; every brick thereafter names which bricks it rests on, and no one is asked to believe anything whose numbers have not been shown. He chased no spectacle and granted no royal shortcuts—difficulty lives not in the reader's rank but in the chain itself; to cast scattered insights into a teachable canon mattered more than adding one more isolated discovery.",
+  "civilization_zh": "希腊文明（希腊化时期，约公元前 4 世纪末至前 3 世纪初）",
+  "civilization_en": "Greek civilization (Hellenistic period, from the late 4th to the early 3rd century BC)",
+  "roles_zh": [
+    "亚历山大城数学学派奠基人与缪斯宫讲授者",
+    "《几何原本》编纂者与公理化体系设计师",
+    "光学与天文几何研究者（《光学》《现象》）",
+    "数学教育家与教科书立法者",
+    "托勒密王廷的科学顾问（传说）"
+  ],
+  "roles_en": [
+    "Founder of the Alexandrian mathematical school and lecturer at the Museum",
+    "Compiler of the Elements and designer of its axiomatic system",
+    "Geometric researcher in optics and astronomy (Optics, Phaenomena)",
+    "Mathematical educator and textbook legislator",
+    "Scientific counselor at the Ptolemaic court (by tradition)"
+  ],
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-EUC-001",
+    "M-EUC-002",
+    "M-EUC-003",
+    "M-EUC-004",
+    "M-EUC-005",
+    "M-EUC-006",
+    "M-EUC-007",
+    "M-EUC-008",
+    "M-EUC-009",
+    "M-EUC-010"
+  ],
+  "key_works": [
+    "《几何原本》(Στοιχεῖα, 十三卷, 约前300)",
+    "《已知数》(Data)",
+    "《图形的分割》(On Divisions of Figures)",
+    "《光学》(Optics)",
+    "《现象》(Phaenomena)"
+  ],
+  "key_concepts": [
+    "公理化演绎",
+    "定义-公设-公理分层",
+    "尺规作图约束",
+    "归谬反证",
+    "穷竭法",
+    "显式依赖引用",
+    "教科书法典化",
+    "无王者之路"
+  ],
+  "cross_references": [
+    "H-DF-001",
+    "H-TLS-001",
+    "H-MDL-001",
+    "H-PGR-001"
+  ],
+  "tags": [
+    "公理化奠基法",
+    "尺规约束证明法",
+    "归谬反证法",
+    "拼合全量构造法",
+    "定义先于论辩法",
+    "穷竭逼近法",
+    "通法优先原则",
+    "全依赖显式化",
+    "教科书体例立法",
+    "皇家之路拒绝法"
+  ],
+  "modes": [
+    {
+      "mode_code": "M-EUC-001",
+      "name_zh": [
+        "公理化奠基法",
+        "Axiomatic Foundation",
+        "方法论/从不可证明的起点出发生成全部知识"
+      ],
+      "name_en": [
+        "Axiomatic Foundation",
+        "Axiomatic Foundation",
+        "方法论/从不可证明的起点出发生成全部知识"
+      ],
+      "category": [
+        "公理化奠基法",
+        "Axiomatic Foundation",
+        "方法论/从不可证明的起点出发生成全部知识"
+      ],
+      "domain_zh": "在动手推演之前，先找出那一小撮不能再被证明、只能被直接接受的东西。其他一切，都必须从这一小撮出发被生产出来",
+      "domain_en": "Before deriving anything, isolate the handful of statements that cannot be proved and can only be accepted. Everything else must be manufactured out of that handful",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》第一卷开篇不是定理而是清单：二十三个定义、五个公设、五个公理——点没有部分、过任意两点可作一直线、整体大于部分。欧几里得拒绝从『显然如此』直接开始推演，他先把这些『显然』本身钉死在纸面上，作为整个体系唯一允许免费取用的资源；此后六百多个命题的每一次证明，都只许动用这份清单加上此前已证的命题，一步也不许多借。深意在于：知识的地基不是被论证得最多的部分，而是被论证得最少的部分——是那几个无法再往下追问的起点决定了整座建筑能盖多高、多稳。亚里士多德在《后分析篇》中已给出第一原理的理论要求，欧几里得第一次把它做成了工程：起点清单化、借用显式化、成本前置化。代价是第五公设的表述冗长可疑，两千年间无数人试图把它证明掉，反而催生了非欧几何。现代对应物：软件工程中『第一性原理』式的需求拆解（马斯克对火箭成本的原料清单分解）、公司章程里不可妥协的价值观条款、以及数理经济学中从偏好公理推导需求曲线的公理化运动（阿罗-德布鲁）。当争论无休无止时，公理化奠基法的动作是：停下游离的争论，把双方真正不肯让步的那几条摆上桌面写成公理，再看分歧究竟是起点之争还是推理之误。",
+      "definition_en": "Book I of the Elements opens not with theorems but with an inventory: twenty-three definitions, five postulates, five common notions—a point has no part; a straight line can be drawn between any two points; the whole is greater than the part. Euclid refuses to begin deriving from what is 'obviously so'; he first nails the 'obvious' itself onto the page as the only free resource the entire system may draw on. From then on, every one of the 465+ proofs may spend only that inventory plus previously proven propositions—nothing borrowed on credit, not one step. The deeper point: the foundation of knowledge is not the part most heavily argued but the part argued least—the few unprovable starting points determine how high and how stable the whole edifice can stand. Aristotle had stated the theoretical requirement for first principles in the Posterior Analytics; Euclid was the first to build it as an engineering artifact: starting points itemized, borrowings made explicit, costs paid up front. The price: the fifth postulate reads long and suspicious, and two thousand years of attempts to prove it away instead gave birth to non-Euclidean geometry. Modern analogues: first-principles decomposition of requirements (Musk's raw-material cost breakdown for rockets), non-negotiable value clauses in a company charter, and the axiomatization movement in mathematical economics deriving demand curves from preference axioms (Arrow-Debreu). When an argument runs in circles, the axiomatic move is: stop the drifting dispute, put the few commitments neither side will concede onto the table as axioms, and check whether the disagreement is one of starting points or of inference.",
+      "source_chapter": "《几何原本》第一卷定义、公设与公理清单；普罗克洛斯《欧几里得〈几何原本〉评注》卷一；亚里士多德《后分析篇》第一卷",
+      "key_concepts": [
+        "第一原理清单化",
+        "公设与公理分层",
+        "免费资源封闭性",
+        "起点决定上限",
+        "借用显式化",
+        "成本前置"
+      ],
+      "key_quote_zh": "几何学中没有王者之路——所有的路都必须从同一份起点清单上出发。（据普罗克洛斯转述对托勒密王语）",
+      "key_quote_en": "There is no royal road to geometry—every route must set out from the same inventory of first principles. (as reported by Proclus, to King Ptolemy)",
+      "process_zh": [
+        "清点：把课题里所有人都在默认使用、却没人给出依据的前提逐条摆到桌面上",
+        "分层：把摆出来的前提按『可再证』与『不可再证』切开，只留后者作为公理或公设",
+        "冻结：宣布清单封版——此后所有推演只许动用清单内资源与已证结论",
+        "回检：每得一个新结论，核对它的每一步借用是否越出清单；越出的，回炉补证或补进清单"
+      ],
+      "process_en": [
+        "Inventory: lay out every premise everyone in the field uses by default but no one has justified",
+        "Stratify: split the inventory into what can still be proved and what cannot; keep only the latter as axioms and postulates",
+        "Freeze: declare the list closed—all further derivation may draw only on the list and on what has already been proven",
+        "Recheck: for each new conclusion, audit every borrowing against the list; anything beyond it goes back for proof or is added to the list explicitly"
+      ],
+      "representative_cases_zh": [
+        "《几何原本》以 23 定义 + 5 公设 + 5 公理生成四百多个命题，覆盖平面与立体几何及数论",
+        "牛顿《自然哲学的数学原理》以三大定律与绝对时空为公理演绎出天体力学，刻意模仿欧几里得的公理化体例",
+        "斯宾诺莎《伦理学》以几何方式证明伦理命题，把神、心灵与情感全部纳入公理-定理框架",
+        "阿罗-德布鲁用偏好与效用公理重建一般均衡理论，使经济学获得可严格证伪的起点",
+        "林肯葛底斯堡演说以『人人生而平等』作为不可再证的公设，演绎出联邦不可分裂的论证"
+      ],
+      "representative_cases_en": [
+        "The Elements generate over 465 propositions from 23 definitions, 5 postulates and 5 common notions, spanning plane and solid geometry and number theory",
+        "Newton's Principia deduces celestial mechanics from three laws and absolute space-time, deliberately imitating the Euclidean axiomatic format",
+        "Spinoza's Ethics proves moral propositions more geometrico, folding God, mind and the passions into an axiom-theorem frame",
+        "Arrow and Debreu rebuild general equilibrium theory from preference and utility axioms, giving economics strictly falsifiable starting points",
+        "Lincoln's Gettysburg Address takes 'all men are created equal' as an unprovable postulate and derives the case for an indissoluble Union"
+      ],
+      "modern_applications_zh": [
+        "产品立项时先写『不可协商约束清单』（预算、合规、核心用户价值），再谈方案，避免后期地基级返工",
+        "技术方案评审第一步先核对双方默认假设是否一致，把起点之争与推理之争分开处理",
+        "组织章程明确列出不可妥协条款，新人可据此判断每个具体决策是否符合第一原理",
+        "个人重大决策前写下自己真正不接受让步的 3-5 条底线，再从底线演绎可选路径",
+        "法律合同把不可再谈判的核心条款前置为定义与声明条款，其余条款从中演绎"
+      ],
+      "modern_applications_en": [
+        "At project kickoff write the non-negotiables list (budget, compliance, core user value) before discussing solutions, preventing foundation-level rework",
+        "In design review, first reconcile each side's default assumptions, separating disputes over starting points from disputes over inference",
+        "An org charter lists non-negotiable clauses so newcomers can test any concrete decision against first principles",
+        "Before a major personal decision, write the 3-5 bottom lines you will not trade away, then derive candidate paths from them",
+        "Contracts front-load non-negotiable core terms as definition and declaration clauses, with the rest deduced from them"
+      ],
+      "related_modes": [
+        "M-EUC-002",
+        "M-EUC-003",
+        "M381",
+        "M382"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "牛顿",
+          "name_en": "Newton",
+          "relation_zh": "核心代表：以公理化体例写出《原理》",
+          "relation_en": "core: wrote the Principia in axiomatic form"
+        },
+        {
+          "name_zh": "斯宾诺莎",
+          "name_en": "Spinoza",
+          "relation_zh": "核心代表：几何式伦理学",
+          "relation_en": "core: ethics more geometrico"
+        },
+        {
+          "name_zh": "希尔伯特",
+          "name_en": "Hilbert",
+          "relation_zh": "延伸代表：现代公理化运动与《几何基础》",
+          "relation_en": "extended: the modern axiomatization movement and Grundlagen der Geometrie"
+        },
+        {
+          "name_zh": "亚里士多德",
+          "name_en": "Aristotle",
+          "relation_zh": "思想先驱：第一原理的理论要求",
+          "relation_en": "precursor: the theoretical demand for first principles"
+        }
+      ],
+      "id": "M-EUC-001",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-002",
+      "name_zh": [
+        "尺规约束证明法",
+        "Compass-and-Straightedge Discipline",
+        "方法论/用受限工具倒逼结构的彻底性"
+      ],
+      "name_en": [
+        "Compass-and-Straightedge Discipline",
+        "Compass-and-Straightedge Discipline",
+        "方法论/用受限工具倒逼结构的彻底性"
+      ],
+      "category": [
+        "尺规约束证明法",
+        "Compass-and-Straightedge Discipline",
+        "方法论/用受限工具倒逼结构的彻底性"
+      ],
+      "domain_zh": "只给两条约束：一把不带刻度的直尺，一支开度一经画圆就锁死的圆规。约束不是匮乏，约束是把偶然性全部挤出去的模具",
+      "domain_en": "Two constraints only: an unmarked ruler, and a compass that locks once its span draws a circle. Constraint is not scarcity—it is the mold that squeezes every contingency out",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》通篇只承认两种原始操作：以公设一用直尺连两点作直线，以公设二、三用圆规以已知点为心作圆。没有量角器、没有刻度、不许『看起来像』——每一个正五边形、每一次角的三等分尝试，都必须在这两种操作的有限组合里完成。深意在于：欧几里得主动把工具箱砍到最小，使任何一个作图的正确性都不再依赖工匠的手感与 eyeballing，而只依赖可以被逐步检查的逻辑链条；工具的贫乏换来的是论证的可复核性——任何人在任何时代按同样的受限步骤重做，得到同样的结果。他把『能用更少的东西做成』本身当作智力的荣耀：正十七边形式的漂亮作图不是靠添工具，而是靠在约束内部发现前人没看见的组合。代价同样深刻：某些在物理世界轻易可及的目标（角的三等分、倍立方、化圆为方）在尺规世界里被证明根本不可达——直到十九世纪 Galois 理论才给这三个千年难题盖上『不可能』的终审章，而这次『不可能』的证明反过来创立了群论。现代对应物：极限编程刻意不写注释不提前抽象来逼出最简设计、像素约束下像素画师对每一笔的精打细算、以及『无数据库约束下先写文件系统版本』的工程取舍——约束不是等待解除的麻烦，而是生成结构的机器。",
+      "definition_en": "Throughout the Elements only two primitive operations are admitted: drawing a straight line through two points (Postulate 1), and drawing a circle about a given center at a given radius (Postulates 2-3). No protractor, no markings, no 'it looks about right'—every pentagon and every attempt at angle trisection must be completed within the finite combinations of these two operations. The deeper point: Euclid voluntarily guts his toolbox so that the correctness of any construction depends neither on a craftsman's feel nor on eyeballing, only on a logical chain that can be checked step by step; the poverty of tools buys auditability—anyone, in any age, redoing the same constrained steps gets the same result. He made 'doing more with less' itself a form of intellectual glory: the elegant construction wins not by adding tools but by discovering, inside the constraint, combinations no one had seen. The cost is equally profound: goals trivially reachable in the physical world (trisecting an angle, doubling the cube, squaring the circle) proved unreachable in the ruler-compass world—Galois theory stamped them 'impossible' only in the nineteenth century, and that impossibility proof in turn created group theory. Modern analogues: extreme programming deliberately withholding comments and premature abstraction to force minimal design; pixel artists rationing every stroke under a hard pixel budget; engineering choices like 'build the filesystem version before the database version'—constraint is not a nuisance awaiting removal but a machine for generating structure.",
+      "source_chapter": "《几何原本》公设一至三与第一卷作图命题；普罗克洛斯《评注》论作图工具之限定； Heath《希腊数学史》卷一论尺规传统",
+      "key_concepts": [
+        "最小工具集",
+        "可复核性优先",
+        "约束生成结构",
+        "手感依赖归零",
+        "不可达性的价值",
+        "组合发现"
+      ],
+      "key_quote_zh": "作图只许直尺与圆规：凡需更多的，先证明它不可免，否则不必谈它。",
+      "key_quote_en": "Constructions admit only ruler and compass: whatever needs more must first be shown unavoidable—otherwise do not speak of it.",
+      "process_zh": [
+        "收缴：列出当前解法用到的全部资源，把其中『可以不用』的逐一没收",
+        "重做：只用剩下的最小工具集重新达成目标，记录每一步",
+        "检核：检查每一步是否可被第三人独立重演——任何依赖手感或私有知识的步骤退回重做",
+        "反刍：完成后问一句『还能再收走哪一件』，把新的冗余工具继续收走"
+      ],
+      "process_en": [
+        "Confiscate: list every resource the current solution uses and confiscate each one that could be done without",
+        "Redo: reach the goal again using only the minimal toolset, recording every step",
+        "Audit: verify each step is independently reproducible by a third party—any step leaning on feel or private knowledge goes back",
+        "Ruminate: after success ask 'what else can be confiscated', and strip the next redundancy too"
+      ],
+      "representative_cases_zh": [
+        "第一卷命题 1：在受限两操作内作出等边三角形，成为全书第一个完整演绎样本",
+        "第四卷命题 11：仅用尺规作正五边形内接于圆，欧几里得式约束内组合发现的典范",
+        "十九世纪 Wantzel 与 Galois 证明三等分角、倍立方、化圆为方在尺规约束下不可解，反生群论与域论",
+        "高斯 17 岁证明正十七边形尺规可作，在千年约束内打出漂亮一击",
+        "《墨经》与先秦规矩传统：『不以规矩，不能成方圆』——东西方同时认识到标准约束的生成力"
+      ],
+      "representative_cases_en": [
+        "Book I, Prop. 1: an equilateral triangle built from the two constrained operations—the Elements' first complete deductive specimen",
+        "Book IV, Prop. 11: a regular pentagon inscribed in a circle by ruler and compass alone—the canonical in-constraint combinatorial discovery",
+        "Wantzel and Galois proved trisection, cube-duplication and circle-squaring impossible under the constraint, giving rise to group and field theory",
+        "Gauss at seventeen proved the regular heptadecagon constructible—a brilliant strike within the millennial constraint",
+        "The Mohist Canon and pre-Qin guiju tradition: 'without compass and square, neither circle nor square'—East and West converge on the generative power of standard constraint"
+      ],
+      "modern_applications_zh": [
+        "限时冲刺（hackathon）主动冻结技术栈清单，靠约束逼出创造性组合而非堆功能",
+        "文案与设计先定字数与色板上限，再开始创作——预算约束先行",
+        "代码评审用『删掉这个依赖还能跑吗』作为标准问题，持续收缴冗余工具",
+        "沙盘推演刻意限兵限额，检验指挥方案在资源受限下的鲁棒性",
+        "儿童数学启蒙先玩七巧板/尺规作图，用最小工具建立对结构的直觉"
+      ],
+      "modern_applications_en": [
+        "Hackathons freeze the tech stack up front, letting constraint force creative combination instead of feature-stacking",
+        "Writers and designers set word-count and palette caps before starting—budget constraints first",
+        "Code review asks 'does it still run without this dependency?' as a standing question, confiscating redundant tools continuously",
+        "Wargames deliberately cap troops and supplies to test a plan's robustness under resource constraint",
+        "Early math education starts with tangrams and compass constructions, building structural intuition with minimal tools"
+      ],
+      "related_modes": [
+        "M-EUC-001",
+        "M-EUC-004",
+        "M383",
+        "M384"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "高斯",
+          "name_en": "Gauss",
+          "relation_zh": "核心代表：正十七边形尺规可作",
+          "relation_en": "core: constructibility of the 17-gon"
+        },
+        {
+          "name_zh": "伽罗瓦",
+          "name_en": "Galois",
+          "relation_zh": "核心代表：尺规不可解性的群论终审",
+          "relation_en": "core: the group-theoretic verdict on constructibility"
+        },
+        {
+          "name_zh": "笛卡尔",
+          "name_en": "Descartes",
+          "relation_zh": "延伸代表：《几何学》重构作图问题为方程问题",
+          "relation_en": "extended: recasting construction as equations in La Géométrie"
+        },
+        {
+          "name_zh": "墨子",
+          "name_en": "Mozi",
+          "relation_zh": "跨文明参照：规矩方圆的生成约束观",
+          "relation_en": "cross-cultural: compass-square constraint in the Mohist Canon"
+        }
+      ],
+      "id": "M-EUC-002",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-003",
+      "name_zh": [
+        "归谬反证法",
+        "Reductio ad Absurdum",
+        "论证方法/借敌人之口完成己方证明"
+      ],
+      "name_en": [
+        "Reductio ad Absurdum",
+        "Reductio ad Absurdum",
+        "论证方法/借敌人之口完成己方证明"
+      ],
+      "category": [
+        "归谬反证法",
+        "Reductio ad Absurdum",
+        "论证方法/借敌人之口完成己方证明"
+      ],
+      "domain_zh": "你想证明一个东西成立？先假装它不成立，认真替它把推理走完，让荒谬自己站出来作证",
+      "domain_en": "To prove something holds, first pretend it does not; carry the reasoning through in earnest, and let the absurdity itself stand up as witness",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》第九卷命题 20 是全书最著名的归谬：素数有无穷多个——假设不然，设素数全部列出为 p1…pn，构造 P = p1×p2×…×pn + 1；P 不能被任何已列素数整除，故 P 要么本身是素数要么有新素因子，两种情形都与『全部列出』矛盾，故假设不成立。欧几里得没有正面去『数』无穷，而是给反面立场一个完全公平的舞台：认真接受其假设，只用公理与已证命题推进，直到结论自己撞墙。深意在于：归谬把证明的举证成本转嫁给对方立场——你不需要证明正面命题的每一步，只需要让反面命题在共享推理规则下自我毁灭；这使得它成为对付『不可直接观测』对象（无穷、无理数、不可公度）的唯一利器。毕达哥拉斯学派发现 √2 不可公度用的正是同一手法，而这一发现在传说中令希帕索斯付出生命——归谬证明的结论如此坚硬，以致触碰了信条。代价：归谬只告诉你反面错，不告诉你正面为何对，依赖排中律的它在直觉主义数学中受到保留。现代对应物：审计中的舞弊推定检验（假设账目干净，推到资金流必然断裂）、安全渗透测试（假装系统不可入侵，找出哪一步防线崩塌）、以及产品 A/B 测试里对『用户不喜欢』假设的定向证伪。",
+      "definition_en": "Elements Book IX, Prop. 20 is the most famous reductio in the book: primes are infinite—suppose not, list them all as p1…pn, and form P = p1×p2×…×pn + 1; P is divisible by none of the listed primes, so P is itself prime or has a new prime factor—either way contradicting 'all listed'. Hence the supposition fails. Euclid never 'counts' the infinite head-on; instead he hands the opposing position a perfectly fair stage: accept its assumption in earnest, advance only by axioms and proven results, and let the conclusion crash into the wall by itself. The deeper point: reductio transfers the burden of proof onto the opposing position—you need not prove every step of the affirmative, only make the negative destroy itself under the shared rules of inference—which makes it the unique weapon against objects not directly observable (the infinite, irrationals, incommensurability). The Pythagoreans used exactly this move to show √2 incommensurable, and legend has it Hippasus paid with his life for a finding so hard it unsettled a creed. The cost: reductio tells you the negative is false but not why the affirmative holds; relying on excluded middle, it sits uneasily in intuitionist mathematics. Modern analogues: fraud-presumption audits (assume clean books, show the cash flow must break), penetration testing (pretend the system is impenetrable and locate where the defense collapses), and targeted falsification of the 'users dislike it' hypothesis in A/B testing.",
+      "source_chapter": "《几何原本》第九卷命题 20（素数无穷）；第十卷论不可公度量；亚里士多德《前分析篇》卷二论反证法",
+      "key_concepts": [
+        "反面假设公平接受",
+        "矛盾自曝",
+        "举证成本转移",
+        "不可观测对象的证法",
+        "排中律依赖",
+        "结论坚硬性"
+      ],
+      "key_quote_zh": "设其不然——随后的一切，都将是『不然』自己承认的供词。",
+      "key_quote_en": "Suppose it were otherwise—everything that follows will be the 'otherwise' confessing itself.",
+      "process_zh": [
+        "立靶：把要反驳的命题郑重写成假设，如同它是自己提出的一样认真对待",
+        "同轨：只用对方也接受的公理与已证事实推进推理，不给对方留『规则不公』的退路",
+        "候变：沿途记录每一步推论，直到出现与公认事实或假设自身的冲突",
+        "收网：宣布矛盾成立，判假设死刑，正题由此成立；并复核矛盾不来自推理失误"
+      ],
+      "process_en": [
+        "Set the target: write the proposition to be refuted as a formal assumption, treating it as seriously as your own",
+        "Shared track: advance only by axioms and proven facts the opponent also accepts, leaving no 'unfair rules' escape",
+        "Await the break: log each inference until a clash with accepted fact or the assumption itself appears",
+        "Close the net: declare the contradiction, sentence the assumption to death, and verify the clash is not an inference slip"
+      ],
+      "representative_cases_zh": [
+        "第九卷命题 20：素数无穷的欧几里得经典证明，两千年间几乎未被改进",
+        "毕达哥拉斯学派：√2 与 1 不可公度，动摇『万物皆数（整数）』信条",
+        "第二卷与第十卷多次用反证处理不可公度线段的性质",
+        "阿基米德用双重归谬夹逼圆周率与球体积，把穷竭法与反证法嫁接",
+        "康托尔对角线法证明实数不可数——归谬在十九世纪的现代转世"
+      ],
+      "representative_cases_en": [
+        "Book IX, Prop. 20: Euclid's classic proof of the infinitude of primes, barely improved in two millennia",
+        "The Pythagoreans: √2 incommensurable with 1, unsettling the creed 'all is number (integer)'",
+        "Books II and X repeatedly use reductio for properties of incommensurable segments",
+        "Archimedes grafts reductio onto the method of exhaustion to bound π and the sphere's volume",
+        "Cantor's diagonal argument that the reals are uncountable—reductio's modern reincarnation"
+      ],
+      "modern_applications_zh": [
+        "面试与尽调中用『假设候选人说的是真的，往下推看哪一步与现实冲突』检验陈述",
+        "故障复盘先立『假设不是我们改的代码导致』，沿数据推到矛盾，定位真因",
+        "写反驳性文章时替对方把论证推到最完善处再反驳（钢人法），避免稻草人",
+        "投资决策做证伪清单：假设这笔投资会失败，列出最可能的死因再逐一排查",
+        "安全审计假设系统安全，渗透测试找出第一个崩塌点"
+      ],
+      "modern_applications_en": [
+        "In interviews and due diligence, test a claim by assuming it true and finding where it collides with reality",
+        "In incident review, start from 'it wasn't our code change' and push the data to contradiction to locate the true cause",
+        "In rebuttal writing, steelman the opponent before answering, never a straw man",
+        "Investment decisions build a falsification list: assume the investment fails, list the likely causes, then check each",
+        "Security audits assume the system is safe; penetration testing finds the first collapse point"
+      ],
+      "related_modes": [
+        "M-EUC-001",
+        "M-EUC-005",
+        "M385",
+        "M386"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "阿基米德",
+          "name_en": "Archimedes",
+          "relation_zh": "核心代表：归谬嫁接穷竭法",
+          "relation_en": "core: reductio grafted onto exhaustion"
+        },
+        {
+          "name_zh": "希帕索斯",
+          "name_en": "Hippasus",
+          "relation_zh": "历史坐标：不可公度发现的传说代价",
+          "relation_en": "historic: the legendary price of incommensurability"
+        },
+        {
+          "name_zh": "康托尔",
+          "name_en": "Cantor",
+          "relation_zh": "现代代表：对角线归谬",
+          "relation_en": "modern: the diagonal reductio"
+        },
+        {
+          "name_zh": "亚里士多德",
+          "name_en": "Aristotle",
+          "relation_zh": "理论奠基：《前分析篇》形式化反证法",
+          "relation_en": "theory: formalized reductio in Prior Analytics"
+        }
+      ],
+      "id": "M-EUC-003",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-004",
+      "name_zh": [
+        "拼合全量构造法",
+        "Whole-from-Parts Construction",
+        "建构方法/复杂对象拆解为已证零件再拼装"
+      ],
+      "name_en": [
+        "Whole-from-Parts Construction",
+        "Whole-from-Parts Construction",
+        "建构方法/复杂对象拆解为已证零件再拼装"
+      ],
+      "category": [
+        "拼合全量构造法",
+        "Whole-from-Parts Construction",
+        "建构方法/复杂对象拆解为已证零件再拼装"
+      ],
+      "domain_zh": "面对一个吓人的庞然大物，不硬啃整体：先把它拆成此前已经证明过的小零件，证明每个零件，再按顺序拼回去",
+      "domain_en": "Confronted with a frightening monolith, do not chew the whole: break it into parts already proven, prove each part, then reassemble in order",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》处理复杂命题的标准动作是两级分解：先把大命题拆成一串引理，再为每个引理找到『此前的命题 + 公理』的支撑。第二卷命题 4 处理 (a+b)² 的几何等价时，先以引理作出正方形内部的四块分割，逐块证明面积相等，再声明整体相等——任何一步都没有引入未证明的新东西。第五卷欧多克索斯比例论与第六卷的应用，把『不可公度量』这一吓人的对象拆成比例的可传递性质逐条建立。深意在于：欧几里得的证明是可累积资产——每个已证命题都成为下一个命题的合法零件，全书构成一棵依赖树，后人复盘任何一个结论都能沿树回溯到公理；他把『难』重新定义为『尚未拆解』。代价：线性依赖树使阅读必须顺序进行，跳读者在第一卷末就会失去立足点。现代对应物：软件的模块化分层架构（每层只调用已测的下层）、数学归纳法对递归结构的逐级构造、产品路线图把大版本切成可独立验收的小步、以及学术写作中『先证引理再证定理』的标准结构。",
+      "definition_en": "The Elements' standard move for a hard proposition is two-level decomposition: split it into a chain of lemmas, then support each lemma with 'earlier propositions + axioms'. Book II, Prop. 4—handling the geometric equivalent of (a+b)²—first constructs the four inner pieces of the square, proves each piece's area, then asserts the whole; no unproven novelty enters at any step. Eudoxus's theory of proportion in Book V and its application in Book VI dismantle the frightening object 'incommensurable magnitude' into transitive properties of ratios, established one by one. The deeper point: Euclid's proofs are cumulative assets—every proven proposition becomes a legal part for the next, the whole book a dependency tree, and any later conclusion can be traced back to the axioms along it; he redefined 'hard' as 'not yet decomposed'. The cost: a linear dependency tree forces sequential reading—skip a volume and by the end of Book I you have no footing. Modern analogues: layered modular software architecture where each layer calls only tested lower layers; mathematical induction building recursive structures level by level; roadmaps that slice a major release into independently acceptable steps; and the scholarly convention 'prove the lemmas, then the theorem'.",
+      "source_chapter": "《几何原本》第二卷命题 4；第五卷欧多克索斯比例论；普罗克洛斯《评注》论命题的顺序依赖",
+      "key_concepts": [
+        "引理前置",
+        "依赖树累积",
+        "零件合法性",
+        "难题即未拆解",
+        "顺序依赖",
+        "逐级验收"
+      ],
+      "key_quote_zh": "没有从天而降的命题：每个难命题都是若干易命题的合法拼装。",
+      "key_quote_en": "No proposition falls from the sky: every hard one is a lawful assembly of easy ones.",
+      "process_zh": [
+        "拆解：把目标命题切成若干子命题，直到每个子命题都『看起来可证』",
+        "排队：按依赖关系给子命题排序，保证证明任何一个时它引用的都已就绪",
+        "逐个击破：按队列逐一证明，每证一个即编号入库，成为后续合法零件",
+        "拼装：最后按依赖图把零件组合成原命题，并检查拼装本身无新引入假设"
+      ],
+      "process_en": [
+        "Decompose: cut the target proposition until every sub-proposition looks provable",
+        "Queue: order sub-propositions by dependency so each proof's references are already in place",
+        "Conquer one by one: prove down the queue, numbering each result into the store as a legal part for the rest",
+        "Assemble: combine the parts into the original proposition per the dependency graph, checking the assembly itself introduces no new assumptions"
+      ],
+      "representative_cases_zh": [
+        "第二卷命题 4：(a+b)² 的四块几何分割证明，代数恒等式的最早图形化拆装",
+        "第五卷比例论：把不可公度量的处理拆为比例传递性逐条建立",
+        "第十二卷穷竭法命题：每次先证『从量中减去大于其半的部分』引理再放大",
+        "希尔伯特《几何基础》：把欧几里得体系的隐含假设全部拆出为显式公理——拆解方法的自反应用",
+        "祖冲之父子求球体积：先证『牟合方盖』引理，再拼出球体积公式"
+      ],
+      "representative_cases_en": [
+        "Book II, Prop. 4: the four-piece geometric dissection proving (a+b)², the earliest graphical assembly of an algebraic identity",
+        "Book V's proportion theory: dissolving incommensurables into transitive properties of ratios",
+        "Book XII's exhaustion propositions: first proving the lemma 'subtract more than the half', then scaling",
+        "Hilbert's Grundlagen: extracting every implicit assumption of the Euclidean system into explicit axioms—decomposition turned on itself",
+        "Zu Chongzhi and son on the sphere's volume: first the 'double-cube umbrella' lemma, then the formula"
+      ],
+      "modern_applications_zh": [
+        "大型项目立项先做工作分解结构（WBS），每个叶子节点可独立验收",
+        "重构遗留代码：先把行为拆成可单独测试的函数，再逐个替换实现",
+        "写长报告先列论点树，每个论点先找到证据支撑再动笔成文",
+        "谈判前把总诉求拆成一串可分别让步的小诉求，按优先级排队处理",
+        "教学设计按依赖图排课：先教学生下一章要用的每一件旧工具"
+      ],
+      "modern_applications_en": [
+        "Break a large project into a WBS whose leaf nodes are independently acceptable",
+        "Refactoring legacy code: first split behavior into singly testable functions, then swap implementations one by one",
+        "Draft long reports as a claim tree, securing evidence for each claim before writing",
+        "In negotiation, split the overall demand into separately tradable small demands, queued by priority",
+        "Curriculum design follows the dependency graph: teach every old tool the next chapter will need"
+      ],
+      "related_modes": [
+        "M-EUC-001",
+        "M-EUC-006",
+        "M387",
+        "M388"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "欧多克索斯",
+          "name_en": "Eudoxus",
+          "relation_zh": "核心代表：比例论对不可公度量的拆解",
+          "relation_en": "core: dissolving incommensurables via proportion theory"
+        },
+        {
+          "name_zh": "希尔伯特",
+          "name_en": "Hilbert",
+          "relation_zh": "现代代表：公理化的全面拆解",
+          "relation_en": "modern: axiomatics as total decomposition"
+        },
+        {
+          "name_zh": "祖冲之",
+          "name_en": "Zu Chongzhi",
+          "relation_zh": "跨文明参照：引理-拼装的球体积路线",
+          "relation_en": "cross-cultural: lemma-assembly route to the sphere"
+        },
+        {
+          "name_zh": "阿佩尔与哈肯",
+          "name_en": "Appel & Haken",
+          "relation_zh": "现代案例：四色定理的计算机辅助大规模拆解",
+          "relation_en": "modern case: computer-aided massive decomposition in the four-color theorem"
+        }
+      ],
+      "id": "M-EUC-004",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-005",
+      "name_zh": [
+        "定义先于论辩法",
+        "Define Before You Argue",
+        "语言方法/用精确定义掐灭伪争论"
+      ],
+      "name_en": [
+        "Define Before You Argue",
+        "Define Before You Argue",
+        "语言方法/用精确定义掐灭伪争论"
+      ],
+      "category": [
+        "定义先于论辩法",
+        "Define Before You Argue",
+        "语言方法/用精确定义掐灭伪争论"
+      ],
+      "domain_zh": "争起来先别急着反驳：把双方嘴里的同一个词摆到光下看——一大半争论在定义亮出来的那一刻自动消失",
+      "domain_en": "When the quarrel starts, do not rush to rebut: hold both parties' same word up to the light—most disputes die the moment the definition is exposed",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》在写下第一个证明之前，先用二十三个定义清空语言的歧义：『点』是没有部分的、『线』是没有宽度的长、『直角』是与邻角相等之角。这些定义并非全部严格（普罗克洛斯已指出若干只是描述），但它们执行了一个决定性的纪律：此后任何命题使用的每一个词，都必须能指回这份清单。深意在于：欧几里得把语义治理放在证明之前——他知道证明只能保证『从前提推出结论』这一段的可靠性，而前提的含混会使整条链条失去意义；绝大多数争论并非逻辑之争，而是同一个词在两个头脑里装着不同的东西。第一卷命题 1 之前先立定义，正是为了让任何读者都无法在半路偷换概念。代价：完全的定义不可得（点、线在希尔伯特体系里干脆不定义，只给公理约束），过度追求定义会把体系引向无穷倒退；欧几里得的处理是『够用即止』——定义到推演可以启动的最小程度。现代对应物：需求文档的术语表先行、合同的定义条款前置（『本协议中「营业日」指……』）、会议纪要对分歧术语当场注释、以及产品评审先对齐『上线』『完成』的判定标准。",
+      "definition_en": "Before writing its first proof, the Elements spends twenty-three definitions clearing language of ambiguity: a point is that which has no part; a line is length without breadth; a right angle is one equal to its neighbor. Not all are rigorous (Proclus already noted some are mere descriptions), but they enforce one decisive discipline: every word used in any later proposition must trace back to this list. The deeper point: Euclid puts semantic governance before proof—he knows proof secures only the stretch from premise to conclusion, while a vague premise voids the entire chain; most disputes are not quarrels of logic but the same word carrying different cargo in two heads. Placing definitions before Book I, Prop. 1 means no reader can smuggle in a switched concept midway. The cost: perfect definitions are unobtainable (in Hilbert's system point and line are simply undefined, bound only by axioms), and chasing them drives the system into infinite regress; Euclid's handling is 'enough to start'—define to the minimum degree that lets derivation launch. Modern analogues: glossaries first in requirements documents; front-loaded definition clauses in contracts ('in this agreement, business day means…'); annotating contested terms on the spot in meeting minutes; and aligning on what counts as 'launched' or 'done' before a product review.",
+      "source_chapter": "《几何原本》第一卷定义 1-23；普罗克洛斯《评注》论定义的限度； Heath 版《几何原本》卷一导言论定义传统",
+      "key_concepts": [
+        "术语表前置",
+        "指回清单纪律",
+        "语义治理先于证明",
+        "偷换概念封堵",
+        "够用即止",
+        "描述性定义的限度"
+      ],
+      "key_quote_zh": "证明管不了词义：把话说清，是推理开工前唯一的脚手架。",
+      "key_quote_en": "Proof cannot police meaning: saying precisely what you mean is the only scaffolding raised before inference begins.",
+      "process_zh": [
+        "采集：记下讨论中反复出现的核心词，逐个问『双方指的是同一个东西吗』",
+        "立义：为每个核心词写出可判定的定义——能回答『某物算不算』的问题",
+        "封存：宣布定义生效，此后任何人使用该词必须服从定义；改定义需明示",
+        "清扫：用定义重述双方立场，把消失的争论归档为伪问题，剩下的才是真分歧"
+      ],
+      "process_en": [
+        "Collect: note the recurring core words of the discussion and ask of each, 'do both sides mean the same thing?'",
+        "Define: write a decidable definition for each—one that answers 'does this count or not?'",
+        "Seal: declare the definitions in force; any later use must obey them, and changing one must be stated openly",
+        "Sweep: restate both positions under the definitions; archive the vanished disputes as pseudo-problems—what remains is the real disagreement"
+      ],
+      "representative_cases_zh": [
+        "第一卷定义 1-23：在命题 1 之前完成全部基础术语的语义清场",
+        "第五卷定义 4-5：欧多克索斯比例定义化解不可公度量引发的语言危机",
+        "亚里士多德《论题篇》：通过定义辨析在论辩中占先的完整技法手册",
+        "《大学》『格物致知』传统与朱熹训诂：先释字义再谈义理——定义先行的东方平行",
+        "现代 ISO 标准每部开篇的『术语和定义』章：工程界的《几何原本》第一页"
+      ],
+      "representative_cases_en": [
+        "Book I, Definitions 1-23: full semantic clearing of base terms before Proposition 1",
+        "Book V, Definitions 4-5: Eudoxus's definition of proportion dissolves the linguistic crisis of incommensurables",
+        "Aristotle's Topics: a complete manual for gaining ground in argument through definitional analysis",
+        "The Confucian exegetical tradition—glossing characters before discussing principles—runs definition-first in parallel",
+        "The 'Terms and Definitions' chapter opening every modern ISO standard: the engineering world's page one of the Elements"
+      ],
+      "modern_applications_zh": [
+        "跨团队接口开发前先发布字段与状态码的术语定义，消灭联调期大半扯皮",
+        "辩论赛前为辩题关键词写双方共用的定义稿，把战场移到真正分歧处",
+        "绩效沟通先对齐『优秀』『达标』的判定标准，再谈个人评级",
+        "客服知识库为每个易歧义词建立标准释义，减少重复升级",
+        "写技术方案第一段固定放『名词解释』，评审人可先核对话语体系"
+      ],
+      "modern_applications_en": [
+        "Publish field and status-code glossaries before cross-team API work, killing most integration squabbles",
+        "In debate prep, write a shared definition draft of the key terms and move the battle to the real disagreement",
+        "In performance reviews, align on what 'excellent' and 'meets bar' mean before discussing ratings",
+        "Support knowledge bases standardize definitions of ambiguity-prone words to cut repeat escalations",
+        "Technical design docs open with a glossary so reviewers align on vocabulary first"
+      ],
+      "related_modes": [
+        "M-EUC-001",
+        "M-EUC-007",
+        "M389",
+        "M390"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "亚里士多德",
+          "name_en": "Aristotle",
+          "relation_zh": "理论先驱：《论题篇》定义辨析技法",
+          "relation_en": "precursor: definitional analysis in the Topics"
+        },
+        {
+          "name_zh": "希尔伯特",
+          "name_en": "Hilbert",
+          "relation_zh": "现代转折：以公理代定义的隐定义路线",
+          "relation_en": "modern turn: implicit definition via axioms"
+        },
+        {
+          "name_zh": "朱熹",
+          "name_en": "Zhu Xi",
+          "relation_zh": "跨文明参照：训诂先于义理",
+          "relation_en": "cross-cultural: exegesis before principles"
+        },
+        {
+          "name_zh": "维特根斯坦",
+          "name_en": "Wittgenstein",
+          "relation_zh": "延伸参照：语言界限即世界界限",
+          "relation_en": "extended: the limits of language are the limits of the world"
+        }
+      ],
+      "id": "M-EUC-005",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-006",
+      "name_zh": [
+        "穷竭逼近法",
+        "Method of Exhaustion",
+        "极限思想/用双层夹逼驯服连续量"
+      ],
+      "name_en": [
+        "Method of Exhaustion",
+        "Method of Exhaustion",
+        "极限思想/用双层夹逼驯服连续量"
+      ],
+      "category": [
+        "穷竭逼近法",
+        "Method of Exhaustion",
+        "极限思想/用双层夹逼驯服连续量"
+      ],
+      "domain_zh": "化圆为方做不到？不硬做：先用内接多边形从里面顶，再用外切多边形从外面压，把答案夹在两排不断收窄的墙中间",
+      "domain_en": "Squaring the circle cannot be done? Do not force it: push from inside with inscribed polygons and press from outside with circumscribed ones, trapping the answer between two walls that keep narrowing",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》第十二卷处理圆面积、棱锥与球时使用了欧多克索斯发明的穷竭法：先证引理『从任一量中减去不小于其半的部分，反复进行可使余量小于任意给定小量』，再用内接多边形倍边逼近圆——每次翻倍边数，内接多边形面积吃掉圆与多边形之间空隙的一半以上，使差距被压入任意小的区间，最后以双重归谬完成证明：若圆面积大于多边形则可再倍边使多边形超过它，若小于亦然，故只能相等。深意在于：欧几里得与欧多克索斯不直接操作无穷小或极限——他们让无穷以『任意有限步皆可』的姿态出现，把每一步都锁死在可证范围内，只在最后用归谬收口；这是人类第一次驯服连续量而不被无穷的反噬所伤，直接为两千年后牛顿与莱布尼茨的极限概念、柯西的 ε-δ 语言铺路。代价：穷竭法每次都要为具体问题重新搭夹逼框架，效率极低——这种『逐案穷竭』正是微积分要解放的生产力。现代对应物：二分法求根、数值积分的自适应细分、置信区间的上下界夹逼、以及芯片验证中把连续工艺参数离散化为边界扫描点。",
+      "definition_en": "Book XII of the Elements—circle areas, pyramids, the sphere—deploys the method of exhaustion invented by Eudoxus: first prove the lemma that removing at least half of any magnitude, repeated, shrinks the remainder below any given smallness; then approach the circle with inscribed polygons, doubling sides each time, each doubling swallowing over half the gap between circle and polygon, driving the difference into an arbitrarily small interval; finally close with a double reductio—if the circle exceeded the polygon one could double again and overtake it, if it fell short likewise—so they must be equal. The deeper point: Euclid and Eudoxus never handle infinitesimals or limits directly—they let the infinite appear as 'possible in any finite number of steps', locking each step inside the provable and using reductio only at the close; it was humanity's first taming of continuous quantity without being bitten by the infinite, paving the way directly for Newton and Leibniz's limits and for Cauchy's ε-δ language. The cost: exhaustion rebuilds its sandwich frame case by case, brutally inefficient—that case-by-case toil is precisely the productivity calculus was invented to release. Modern analogues: bisection root-finding, adaptive numerical quadrature, confidence intervals squeezing a parameter between bounds, and chip verification discretizing continuous process parameters into boundary scan points.",
+      "source_chapter": "《几何原本》第十卷命题 1（穷竭引理）与第十二卷命题 2、10、18；阿基米德《圆的度量》；Archimedes《方法》",
+      "key_concepts": [
+        "引理先行减半",
+        "内接-外切双夹逼",
+        "任意有限步皆可",
+        "双重归谬收口",
+        "不触无穷小",
+        "逐案穷竭的低效"
+      ],
+      "key_quote_zh": "不必抵达无穷：只需证明无论你停在多近的地方，答案都夹在两堵墙之间。",
+      "key_quote_en": "One need not reach the infinite: only show that wherever you stop, however near, the answer lies between two walls.",
+      "process_zh": [
+        "立引理：先证『每次至少吃掉剩余差距的一半，重复可使余量任意小』这类通用缩差命题",
+        "选夹逼：为对象找一对从内外两侧包住它的近似族，并保证近似族随操作单调收紧",
+        "倍进：按固定规则（如倍边）逐步收紧两侧近似，记录每步差距的确定性上界",
+        "收口：用双重归谬证明对象不可能大于或小于近似族的共同极限，完成严格结论"
+      ],
+      "process_en": [
+        "Lemma first: prove a generic gap-shrinking statement—'each pass swallows at least half the remaining gap, and repetition makes the remainder arbitrarily small'",
+        "Choose the sandwich: find a pair of approximation families surrounding the object from inside and outside, monotonically tightening under the operation",
+        "Advance: tighten both sides by a fixed rule (say side-doubling), logging a deterministic upper bound on the gap at each step",
+        "Close: use double reductio to show the object can be neither greater nor less than the families' common limit, completing the rigorous result"
+      ],
+      "representative_cases_zh": [
+        "第十二卷命题 2：圆与直径上正方形之比等于内接正方形与内接多边形之比的推广，穷竭法范式证明",
+        "阿基米德《圆的度量》用 96 边形把 π 夹在 3 10/71 与 3 1/7 之间",
+        "阿基米德球体积证明：球与外切圆柱体积之比 2:3，穷竭与杠杆法并用",
+        "刘徽割圆术：『割之弥细，所失弥少，割之又割以至于不可割』——穷竭思想的中国独立发生",
+        "现代 ε-δ 极限定义与二分求根算法：穷竭法抽象化后的工程化身"
+      ],
+      "representative_cases_en": [
+        "Book XII, Prop. 2: circles are to each other as the squares on their diameters—the paradigm exhaustion proof",
+        "Archimedes' Measurement of a Circle traps π between 3 10/71 and 3 1/7 with a 96-gon",
+        "Archimedes' sphere result—the sphere is 2/3 of its circumscribing cylinder—pairs exhaustion with the lever method",
+        "Liu Hui's circle-cutting: 'the finer the cut, the smaller the loss; cut and cut until no cut remains'—exhaustion arising independently in China",
+        "The modern ε-δ definition of limits and the bisection root-finder: exhaustion abstracted into engineering form"
+      ],
+      "modern_applications_zh": [
+        "算法工程用二分/三分搜索处理单调未知量，保证 log 级收敛",
+        "数值模拟设网格自适应加密直到结果变化小于容差，再宣布收敛",
+        "定价与谈判用双边报价不断收窄区间，逼近成交价而不暴露底价",
+        "质量检测用加严抽检逼近真实不良率上限，给出置信边界",
+        "验证工作做边界值分析：夹住连续参数的两侧边界点逐轮收紧"
+      ],
+      "modern_applications_en": [
+        "Use bisection or ternary search on monotone unknowns for guaranteed log-time convergence",
+        "In simulation, adaptively refine the mesh until results change below tolerance before declaring convergence",
+        "In pricing and negotiation, narrow a two-sided bid interval toward the deal without revealing the floor",
+        "In quality control, tighten sampling to bound the true defect rate with confidence limits",
+        "In verification, boundary-value analysis tightens the bracketing points around continuous parameters"
+      ],
+      "related_modes": [
+        "M-EUC-003",
+        "M-EUC-004",
+        "M391",
+        "M392"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "欧多克索斯",
+          "name_en": "Eudoxus",
+          "relation_zh": "方法发明人：穷竭法原创",
+          "relation_en": "originator of the method of exhaustion"
+        },
+        {
+          "name_zh": "阿基米德",
+          "name_en": "Archimedes",
+          "relation_zh": "核心代表：穷竭法最强应用者",
+          "relation_en": "core: the method's greatest practitioner"
+        },
+        {
+          "name_zh": "刘徽",
+          "name_en": "Liu Hui",
+          "relation_zh": "跨文明平行：割圆术",
+          "relation_en": "cross-cultural parallel: circle-cutting"
+        },
+        {
+          "name_zh": "柯西",
+          "name_en": "Cauchy",
+          "relation_zh": "现代继承：ε-δ 语言",
+          "relation_en": "modern heir: the ε-δ language"
+        }
+      ],
+      "id": "M-EUC-006",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-007",
+      "name_zh": [
+        "通法优先原则",
+        "Generality Before Instance",
+        "策略方法/解一类而不止一个"
+      ],
+      "name_en": [
+        "Generality Before Instance",
+        "Generality Before Instance",
+        "策略方法/解一类而不止一个"
+      ],
+      "category": [
+        "通法优先原则",
+        "Generality Before Instance",
+        "策略方法/解一类而不止一个"
+      ],
+      "domain_zh": "解掉眼前这道题不算完成：把解法提纯成对整类问题都成立的程序，下次同类问题来时不再重新思考",
+      "domain_en": "Solving the problem before you is not finishing: purify the solution into a procedure valid for the whole class, so the next one needs no fresh thought",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》从不满足于『这一个三角形』：第二卷以几何线段演算代数恒等式（(a+b)²、(a-b)²、(a+b)(a-b) 全系列），第六卷建立比例的一般理论使任意相似形通用，第十三卷一次收束五种正多面体的作图与证明。欧几里得处理任何个案时都力图让证明结构对整类对象成立——命题的陈述形式是『对任意……』而非『对某个……』。深意在于：这是从工匠到科学家的分水岭——工匠解决 instances，几何学家解决 classes；通法的边际成本高于个案解法，但第二次起成本归零，且通法本身成为可被研究、可被改进的对象（对通法的元思考孕育了算法理论与现代抽象代数）。代价：通法可能对某些特例笨拙（一般公式不如专用捷径快），且过度追求一般性会把简单问题抽象化到失控——希尔伯特式公理化狂潮与 Bourbaki 式重建都付过这个学费。现代对应物：程序员把一次性脚本重构成通用函数与库、SRE 把单次故障处理写成 runbook 与自动化、咨询公司把个案经验产品化成方法论模板。",
+      "definition_en": "The Elements never settles for 'this particular triangle': Book II performs algebraic identities as geometric segments—the full (a+b)², (a-b)², (a+b)(a-b) series; Book VI builds a general theory of proportion valid for any similar figures; Book XIII gathers all five regular solids in one sweep. In every case Euclid strives for proof structures valid across the class—propositions read 'for any…', never 'for some…'. The deeper point: this is the watershed between craftsman and scientist—the craftsman solves instances, the geometer solves classes; a general method costs more than an ad hoc one up front, but from the second use its cost is zero, and the method itself becomes an object that can be studied and improved (meta-thinking about methods gestated algorithm theory and modern abstract algebra). The cost: a general method can be clumsy on special cases—no universal formula beats a dedicated shortcut—and over-pursuing generality abstracts simple problems out of control; the Hilbert-style axiomatizing surge and the Bourbaki rebuild both paid that tuition. Modern analogues: refactoring a one-off script into a general function and library; SREs turning a single incident response into runbooks and automation; consultancies productizing case experience into methodology templates.",
+      "source_chapter": "《几何原本》第二卷恒等式系列；第六卷相似形一般理论；第十三卷正多面体总收束；普罗克洛斯《评注》论命题的普遍性",
+      "key_concepts": [
+        "对任意而非对某个",
+        "个案到类的提纯",
+        "第二次起零成本",
+        "通法可被元研究",
+        "过度抽象风险",
+        "可复用资产化"
+      ],
+      "key_quote_zh": "为一个三角形作证，不如为一切三角形立法。",
+      "key_quote_en": "To testify for one triangle is less than to legislate for all triangles.",
+      "process_zh": [
+        "先解个案：用最直接的方式解决眼前问题，保留完整解题记录",
+        "提纯：问『这个解法里哪些步骤依赖本题的特殊数字/形状，哪些不依赖』，把特殊性剥出",
+        "一般化：把剩下的不依赖特殊的骨架写成对整类成立的程序，并用两三个新个案验证",
+        "入库：为通法命名、记录适用边界与失效条件，纳入团队可检索资产"
+      ],
+      "process_en": [
+        "Solve the instance: resolve the problem at hand by the most direct route, keeping the full record",
+        "Purify: ask which steps depend on this problem's special numbers or shapes and which do not; strip out the special",
+        "Generalize: write the special-free skeleton as a procedure valid for the class, validating it on two or three fresh cases",
+        "Shelve: name the method, record its applicability bounds and failure conditions, and file it as a searchable asset"
+      ],
+      "representative_cases_zh": [
+        "第二卷几何代数：把巴比伦式的零散求解术整理为对全部恒等式成立的图形通法",
+        "第六卷比例论：欧多克索斯理论使相似形证明摆脱可公度限制，通用于一切量",
+        "第十三卷命题 13-18：五种正多面体一个框架统一收束，而非五个孤立解",
+        "花拉子米《代数学》：把解方程的个案技巧提纯为『还原与对消』通法，算法（algorithm）一词由此而来",
+        "泰勒展开：把任意光滑函数在一点附近的个案逼近统一为同一公式"
+      ],
+      "representative_cases_en": [
+        "Book II's geometric algebra: Babylonian piecemeal solving recast as a graphic method valid for whole identity families",
+        "Book VI's proportion theory: Eudoxus's framework frees similarity proofs from commensurability, valid for all magnitudes",
+        "Book XIII, Props. 13-18: all five Platonic solids concluded in one frame, not five isolated solutions",
+        "Al-Khwarizmi's Algebra: purifying equation-solving tricks into the general method of restoration and reduction—the word algorithm descends from his name",
+        "Taylor expansion: pointwise approximation of any smooth function unified into one formula"
+      ],
+      "modern_applications_zh": [
+        "修完线上故障后写 runbook 并接入自动告警，同类故障下次零思考处理",
+        "代码评审要求补单测覆盖同类输入的边界，而非只测触发 bug 的那个值",
+        "运营活动复盘时沉淀可复用的活动模板库而非只记本次数据",
+        "面试培训用『解一类题的套路总结』替代刷题数量的堆砌",
+        "法务把个案合同审查要点提炼成条款 checklist，适用于后续所有合同"
+      ],
+      "modern_applications_en": [
+        "After fixing an outage, write the runbook and wire alerts—so the next same-class incident needs zero fresh thought",
+        "Code review demands tests covering the class of inputs, not only the value that triggered the bug",
+        "Campaign retrospectives deposit reusable templates, not just this campaign's numbers",
+        "Interview prep summarized as class-of-problem patterns rather than a raw count of solved problems",
+        "Legal distills individual contract reviews into clause checklists applied to all future contracts"
+      ],
+      "related_modes": [
+        "M-EUC-004",
+        "M-EUC-008",
+        "M393",
+        "M394"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "花拉子米",
+          "name_en": "Al-Khwarizmi",
+          "relation_zh": "核心代表：个案技巧提纯为算法通法",
+          "relation_en": "core: purified tricks into algorithmic generality"
+        },
+        {
+          "name_zh": "韦达",
+          "name_en": "Viète",
+          "relation_zh": "核心代表：符号代数使通法获得载体",
+          "relation_en": "core: symbolic algebra as the carrier of generality"
+        },
+        {
+          "name_zh": "布尔巴基",
+          "name_en": "Bourbaki",
+          "relation_zh": "延伸参照：一般化狂潮及其代价",
+          "relation_en": "extended: the generality surge and its price"
+        },
+        {
+          "name_zh": "笛卡尔",
+          "name_en": "Descartes",
+          "relation_zh": "方法论先驱：《谈谈方法》主张普适解法",
+          "relation_en": "precursor: universal method in the Discourse"
+        }
+      ],
+      "id": "M-EUC-007",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-008",
+      "name_zh": [
+        "全依赖显式化",
+        "No Hidden Borrowing",
+        "治理方法/推演链条零隐性假设"
+      ],
+      "name_en": [
+        "No Hidden Borrowing",
+        "No Hidden Borrowing",
+        "治理方法/推演链条零隐性假设"
+      ],
+      "category": [
+        "全依赖显式化",
+        "No Hidden Borrowing",
+        "治理方法/推演链条零隐性假设"
+      ],
+      "domain_zh": "每一个结论都标注它吃了谁的利息：从哪个公设、哪条已证命题来——账本上不许出现一笔来历不明的钱",
+      "domain_en": "Every conclusion states whose interest it paid: which postulate, which proven proposition—no unaccounted coin may appear in the ledger",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》每个命题末尾都以固定格式收尾：『此即所证』之前是完整的 Q.E.D. 链条，每个『所以』都可指认它动用的公设、公理或此前命题的编号。欧几里得由此把证明做成了可审计的账本：后世读者如萨凯里在《欧几里得无懈可击》中逐条复检，才可能发现第 16 命题的隐含假设（直线可无限延长）并未被公设担保——正是这类追账最终暴露第五公设的独立地位并催生非欧几何。深意在于：显式化不是形式主义洁癖，而是使『错误可以定位』成为可能——账本不显式，错误只能整体推倒重来；账本显式，错误精确到一个编号。欧几里得体系的两千年韧性正来自这种可审计性：无论发现多少瑕疵，都能在账本上指出瑕疵的位置并局部修复，而体系整体不塌。代价：全显式化使写作极其冗长（普通商业论证若按此标准会膨胀十倍），且某些『显然』的假设（如连续性）长期被无意识地当作免费资源——完全的显式化直到希尔伯特才达成。现代对应物：Git 提交历史与代码评审的可追溯性、论文参考文献制度、财务审计的凭证链、以及法律判决书逐条引用法条的义务。",
+      "definition_en": "Every proposition in the Elements closes in a fixed format: before 'which is what was required to prove' runs a complete chain in which every 'therefore' can name the postulate, common notion, or earlier proposition it drew on. Euclid made proof an auditable ledger: later readers like Saccheri, rechecking item by item in Euclides ab omni naevo vindicatus, could discover that Prop. 16 rests on the hidden assumption (a line extends indefinitely) no postulate guaranteed—exactly such debt-collection exposed the fifth postulate's independence and spawned non-Euclidean geometry. The deeper point: explicitness is not formalist fastidiousness but what makes 'errors locatable' possible—with an opaque ledger a mistake forces total rebuild; with an explicit one, the error pins to a single number. The Elements' two-millennium resilience comes precisely from this auditability: however many flaws were found, each could be located in the ledger and patched locally while the whole stood. The cost: full explicitness makes writing prolix—ordinary business argument would inflate tenfold—and some 'obvious' assumptions (like continuity) rode along as free resources for centuries; complete explicitness waited for Hilbert. Modern analogues: Git history and code-review traceability, citation systems in scholarship, voucher chains in financial audit, and the legal duty to cite statutes in judgments.",
+      "source_chapter": "《几何原本》全书命题的引用体例；萨凯里《欧几里得无懈可击》(1733)； Heath 版导言论命题间引用网络",
+      "key_concepts": [
+        "引用编号制度",
+        "可审计账本",
+        "错误定位",
+        "隐含假设追缴",
+        "局部修复不塌方",
+        "显式化的冗长代价"
+      ],
+      "key_quote_zh": "体系不怕有错，怕的是错了不知道错在哪一行。",
+      "key_quote_en": "A system need not fear error—only not knowing which line the error lives on.",
+      "process_zh": [
+        "建账：给所有可用资源（前提、规则、已证结论）编号建档，宣布之外皆不可用",
+        "随记：推演过程中每个『所以』当场标注动用的资源编号，不容事后补写",
+        "年审：定期抽查链条——随机挑一个中间结论，独立复核其全部引用是否真实成立",
+        "追缴：发现隐性假设时，要么补证其为定理，要么升格为明示公理，并在受影响的所有结论上做传播标记"
+      ],
+      "process_en": [
+        "Open the ledger: number and file every usable resource—premises, rules, proven results—and declare anything else inadmissible",
+        "Log as you go: each 'therefore' cites its resource numbers on the spot; no backfilling after the fact",
+        "Audit: periodically sample the chain—pick a middle conclusion at random and independently verify every citation holds",
+        "Collect the debt: on finding a hidden assumption, either prove it a theorem or promote it to an explicit axiom, and propagate change markers to all affected conclusions"
+      ],
+      "representative_cases_zh": [
+        "《几何原本》命题间编号引用网络：任何结论可沿账本回溯至公理层",
+        "萨凯里逐条复检发现直线无限性等隐性假设，其『锐角假设』推演无意中叩响非欧几何之门",
+        "十九世纪对第五公设独立性的追账（Bolyai、Lobachevsky、Riemann）建立非欧几何",
+        "希尔伯特《几何基础》补齐欧几里得未言明的全部公理（连续性、顺序公理等）——账本终审完成",
+        "《联邦党人文集》逐条引用宪法文本论证：政治写作中的显式账本"
+      ],
+      "representative_cases_en": [
+        "The Elements' numbered citation network: any conclusion traces back to the axiom layer through the ledger",
+        "Saccheri's item-by-item recheck exposed hidden assumptions (indefinite extensibility); his 'acute angle hypothesis' unknowingly knocked on non-Euclidean geometry's door",
+        "The nineteenth-century pursuit of the fifth postulate's independence (Bolyai, Lobachevsky, Riemann) built non-Euclidean geometry",
+        "Hilbert's Grundlagen completed the final audit, supplying every unstated axiom (continuity, order)—the ledger closed",
+        "The Federalist Papers arguing clause by clause from the constitutional text: an explicit ledger in political writing"
+      ],
+      "modern_applications_zh": [
+        "代码评审强制每个修改关联 issue 编号，拒绝『顺手改的』无法追溯的变更",
+        "财务与合规要求每笔支出有凭证链，审计可从任一分录回溯至原始单据",
+        "研究报告所有事实性论断附引用，编辑可抽检任意一条的真伪",
+        "数据管道做血缘追踪（lineage），下游指标异常可精确定位到上游哪个表哪次变更",
+        "判决书与处罚决定逐条引用依据条款，保证可上诉与可复核"
+      ],
+      "modern_applications_en": [
+        "Code review requires each change to reference an issue number—no untraceable 'drive-by' edits",
+        "Finance and compliance demand voucher chains so audit can trace any entry to source documents",
+        "Research reports cite every factual claim so editors can sample any one for truth",
+        "Data pipelines keep lineage so a downstream anomaly pins to the upstream table and change",
+        "Judgments and sanctions cite the exact clauses relied on, keeping them appealable and recheckable"
+      ],
+      "related_modes": [
+        "M-EUC-001",
+        "M-EUC-009",
+        "M395",
+        "M396"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "萨凯里",
+          "name_en": "Saccheri",
+          "relation_zh": "核心代表：逐条追账的第一审计人",
+          "relation_en": "core: the first item-by-item auditor"
+        },
+        {
+          "name_zh": "希尔伯特",
+          "name_en": "Hilbert",
+          "relation_zh": "核心代表：账本终审与补齐",
+          "relation_en": "core: final audit and completion of the ledger"
+        },
+        {
+          "name_zh": "罗巴切夫斯基",
+          "name_en": "Lobachevsky",
+          "relation_zh": "延伸代表：追账追出的新几何",
+          "relation_en": "extended: new geometry from debt collection"
+        },
+        {
+          "name_zh": "莱布尼茨",
+          "name_en": "Leibniz",
+          "relation_zh": "方法先驱：『让我们计算』的账本化理性理想",
+          "relation_en": "precursor: the ledger-ideal of reason—'let us calculate'"
+        }
+      ],
+      "id": "M-EUC-008",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-009",
+      "name_zh": [
+        "教科书体例立法",
+        "Curriculum as Legislation",
+        "传播方法/把知识写成可教学的法典"
+      ],
+      "name_en": [
+        "Curriculum as Legislation",
+        "Curriculum as Legislation",
+        "传播方法/把知识写成可教学的法典"
+      ],
+      "category": [
+        "教科书体例立法",
+        "Curriculum as Legislation",
+        "传播方法/把知识写成可教学的法典"
+      ],
+      "domain_zh": "零散的天才洞见救不了下一代：把它们铸成一部从头读到尾的法定文本，让两千年后任何一个孩子都能按页学起",
+      "domain_en": "Scattered flashes of genius cannot save the next generation: cast them into a statutory text readable end to end, so a child two millennia later can begin at page one",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《几何原本》最深的雄心不是发现而是立法：欧几里得并非几何命题的原创者——泰勒斯、毕达哥拉斯、欧多克索斯早已各有发现——他把散落两百年的希腊数学整理成十三卷法定文本，以统一的定义-公设-命题-证明体例逐卷展开，使数学第一次脱离师徒口传而获得可独立流通的文本形态。深意在于：知识的存续不取决于发现者多聪明，而取决于传承介质多坚固；口传会衰减、学派会解散，只有法典化的文本能穿越亚历山大城的火灾与罗马的占领。此后《几何原本》成为西方沿用两千余年的标准教科书，牛顿、罗素、林肯都在其上受训——林肯甚至在国会竞选期间随身携带以训练推理。代价：法定文本一旦确立便产生排他性——欧几里得体例压抑了阿基米德式的启发式直觉方法（《方法》一书竟佚失两千年），教科书法的权威反过来延缓了新方法论（如解析几何）的接纳。现代对应物：RFC 与行业标准文档、公司 engineering handbook、开源项目文档即入口的文化（『docs or it didn't happen』）、以及把内训材料升级为公开出版教材的实践。",
+      "definition_en": "The Elements' deepest ambition is not discovery but legislation: Euclid was not the originator of its geometry—Thales, Pythagoras and Eudoxus had made the finds—he gathered two centuries of scattered Greek mathematics into thirteen statutory volumes in a uniform definition-postulate-proposition-proof format, freeing mathematics from master-to-apprentice oral transmission into an independently circulating textual form. The deeper point: knowledge's survival depends not on how brilliant its discoverers were but on how sturdy its transmission medium; oral traditions decay and schools dissolve, only a codified text crosses the fires of Alexandria and the Roman occupation. Thereafter the Elements was the standard Western textbook for over two thousand years—Newton, Russell and Lincoln all trained on it, Lincoln carrying it during a congressional campaign to sharpen his reasoning. The cost: a statutory text, once established, excludes—Euclid's format suppressed Archimedes-style heuristic-intuitive methods (the Method itself was lost for two millennia), and the authority of the textbook canon slowed the uptake of new methodologies like analytic geometry. Modern analogues: RFCs and industry standards, company engineering handbooks, the open-source culture where docs are the front door ('docs or it didn't happen'), and promoting internal training material to published curriculum.",
+      "source_chapter": "普罗克洛斯《评注》之数学史综述； Heath《希腊数学史》论《原本》的编纂性质；林肯传记关于《原本》的记载",
+      "key_concepts": [
+        "编纂优先于原创",
+        "法定文本体例",
+        "口传到文本的跃迁",
+        "介质决定存续",
+        "法典的排他性",
+        "教科书千年资产"
+      ],
+      "key_quote_zh": "我不必是发现最多的人，但我把发现铸成了烧不掉的砖。",
+      "key_quote_en": "I need not be the greatest discoverer—I cast the discoveries into bricks that fire cannot burn.",
+      "process_zh": [
+        "收矿：盘点领域内散落的全部已知成果与口传心法，逐一定位其原始出处",
+        "立例：设计统一的表述体例（定义、公设、命题、证明、Q.E.D.），体例先于内容定稿",
+        "排卷：按依赖顺序把成果编排为可从零读起的卷章，保证无前置缺漏",
+        "颁行：以稳定文本形态发布并建立修订制度，让文本而非个人成为传承主体"
+      ],
+      "process_en": [
+        "Gather the ore: inventory the field's scattered results and oral know-how, locating each original source",
+        "Fix the format: design a uniform presentation scheme—definitions, postulates, propositions, proofs—and finalize format before content",
+        "Order the volumes: arrange results into volumes readable from zero, with no missing prerequisite",
+        "Promulgate: publish in a stable textual form with a revision process, making the text—not the person—the vehicle of transmission"
+      ],
+      "representative_cases_zh": [
+        "《几何原本》整合泰勒斯至欧多克索斯两百年成果为十三卷法典",
+        "亚历山大城缪斯宫的文本传承体系使希腊数学穿越政治动荡",
+        "《九章算术》与刘徽注：中国算学同样以『经+注』法典体例存续",
+        "IETF RFC 制度：互联网协议以法定文本而非厂商口传演化",
+        "《拿破仑法典》：同一『法典立法』思维在法律领域的转世"
+      ],
+      "representative_cases_en": [
+        "The Elements fusing two centuries of results, Thales to Eudoxus, into thirteen statutory volumes",
+        "The Museum at Alexandria's textual transmission carrying Greek mathematics through political upheaval",
+        "The Nine Chapters on the Mathematical Art with Liu Hui's commentary: Chinese mathematics surviving in the same canon-plus-commentary format",
+        "The IETF RFC process: internet protocol evolving as statutory text rather than vendor lore",
+        "The Napoleonic Code: the same legislative-codification mind reborn in law"
+      ],
+      "modern_applications_zh": [
+        "团队把 tribal knowledge 写成 engineering handbook，新人两周可独立上手",
+        "开源项目坚持『改代码必须改文档』，保证文本与实现同步演化",
+        "家族企业把创始人经验编纂成经营手册而非依赖口传",
+        "教学体系把课程大纲、习题与评分标准全部成文，教师轮换不影响质量",
+        "行业标准制定者优先发布稳定版本文本并建立版本修订机制"
+      ],
+      "modern_applications_en": [
+        "Teams compile tribal knowledge into an engineering handbook so new hires stand alone in two weeks",
+        "Open-source projects enforce 'no code change without a doc change', keeping text and implementation evolving together",
+        "Family businesses codify the founder's experience into an operations manual rather than rely on oral lore",
+        "Curricula write down syllabus, exercises and grading rubrics so teacher rotation never degrades quality",
+        "Standards bodies ship stable versioned texts with an explicit revision process"
+      ],
+      "related_modes": [
+        "M-EUC-001",
+        "M-EUC-008",
+        "M397",
+        "M398"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "希帕恰斯",
+          "name_en": "Hipparchus",
+          "relation_zh": "同时代参照：星表编纂的同类冲动",
+          "relation_en": "contemporary: the same codifying urge in star catalogs"
+        },
+        {
+          "name_zh": "刘徽",
+          "name_en": "Liu Hui",
+          "relation_zh": "跨文明平行：注释法典体例",
+          "relation_en": "cross-cultural parallel: canon-plus-commentary"
+        },
+        {
+          "name_zh": "拿破仑",
+          "name_en": "Napoleon",
+          "relation_zh": "跨域转世：法典立法",
+          "relation_en": "cross-domain: the Napoleonic Code"
+        },
+        {
+          "name_zh": "托勒密",
+          "name_en": "Ptolemy",
+          "relation_zh": "继承者：《至大论》延续教科书立法传统",
+          "relation_en": "heir: the Almagest continues the textbook legislation"
+        }
+      ],
+      "id": "M-EUC-009",
+      "figure_code": "H-EUC-001"
+    },
+    {
+      "mode_code": "M-EUC-010",
+      "name_zh": [
+        "皇家之路拒绝法",
+        "No Royal Road",
+        "元方法/学习深度优先于抵达速度"
+      ],
+      "name_en": [
+        "No Royal Road",
+        "No Royal Road",
+        "元方法/学习深度优先于抵达速度"
+      ],
+      "category": [
+        "皇家之路拒绝法",
+        "No Royal Road",
+        "元方法/学习深度优先于抵达速度"
+      ],
+      "domain_zh": "王问有没有捷径？答没有——不是因为傲慢，而是因为『绕过过程』的那条路根本不通向同一个终点",
+      "domain_en": "The king asks for a shortcut? There is none—not out of pride, but because the path that skips the process does not lead to the same destination at all",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "普罗克洛斯记载：托勒密王问欧几里得，学几何有没有比《原本》更快的路，欧几里得答『几何学中没有王者之路』。同型故事又系于亚里士多德与亚历山大。深意在于：这句话不是谦辞而是技术判断——几何的难度内在于推理链条本身，每一环的理解都是下一环的地基；绕过任何一环的『捷径』使后续所有环节建立在不牢的地基上，抵达的不是终点而是幻觉。欧几里得的教材结构本身是对这一立场的执行：从定义与公设的枯燥清单起步，不迎合好奇心的猎奇顺序，命题严格按依赖排列。深意之二在于：他对权贵与常人一视同仁——知识面前没有身份豁免，王与学徒走同一条路。代价：这一立场假定学习者必须完整走完全程，对天才的非常规路径缺乏容纳（拉马努金式的跳跃常被此类体例误杀）。现代对应物：刻意练习理论反对『万招速成』、代码学习的『从零实现』传统（自己写一遍解释器/编译器）、以及名校PhD培养中不设免修的制度逻辑——深能力的定价以不可绕过的过程计。",
+      "definition_en": "Proclus records: King Ptolemy asked Euclid whether there was a swifter road to geometry than the Elements, and Euclid answered 'there is no royal road to geometry'. The same tale attaches to Aristotle and Alexander. The deeper point: this is not modesty but a technical judgment—geometry's difficulty is internal to the inferential chain, each link's understanding being the foundation of the next; a 'shortcut' that skips a link builds every later link on shaky ground, arriving not at the goal but at its illusion. The Elements' own structure executes this stance: it starts from the dry inventory of definitions and postulates, refuses a curiosity-ordered syllabus, and sequences propositions strictly by dependency. Deeper still: he treated prince and commoner alike—no identity exemption before knowledge; king and apprentice walk the same road. The cost: the stance assumes every learner must walk the whole route, leaving no room for genius's unconventional leaps—Ramanujan-style jumps are often mis-killed by such a format. Modern analogues: deliberate practice theory against 'ten-technique quick mastery'; the 'build it from scratch' tradition in learning code (write your own interpreter or compiler); and the no-waivers logic of rigorous PhD programs—deep capability priced in unskippable process.",
+      "source_chapter": "普罗克洛斯《评注》卷二所记『无王者之路』轶事；第欧根尼·拉尔修《名哲言行录》同型故事； Heath 版导言论学习次序",
+      "key_concepts": [
+        "难度内在于链条",
+        "地基不可跳过",
+        "身份豁免无效",
+        "顺序即教义",
+        "天才跳跃的容纳代价",
+        "深能力以过程计价"
+      ],
+      "key_quote_zh": "几何学中没有王者之路。",
+      "key_quote_en": "There is no royal road to geometry.",
+      "process_zh": [
+        "识伪：把『想跳过 X 直接得到 Y』的请求翻译成『想要 Y 而不接受 Y 的生成条件』，识破其结构性不成立",
+        "重排：把学习或任务路径按依赖关系重排，拒绝按兴趣或紧迫度跳序",
+        "守门：为每个环节设可检验的通过标准，未过不进入下一环，对任何身份一视同仁",
+        "预留：为确实非常规的路径留一条『先展示等价能力再豁免』的审查通道，而非一刀切"
+      ],
+      "process_en": [
+        "Spot the fake: translate 'let me skip X and get Y' into 'I want Y without accepting Y's generative conditions', and expose the structural impossibility",
+        "Reorder: lay the learning or task path out by dependency, refusing to jump the queue for interest or urgency",
+        "Gatekeep: set a checkable pass-standard for each stage; none may advance unpassed, whatever their rank",
+        "Reserve: keep one review lane for genuinely unconventional paths—'demonstrate equivalent capability first'—rather than a blanket refusal"
+      ],
+      "representative_cases_zh": [
+        "『无王者之路』轶事本体：拒绝对托勒密王的捷径请求",
+        "《几何原本》命题的严格依赖排序本身就是该立场的文本执行",
+        "林肯以《原本》自我训练法律推理：不靠天赋走完全程的自学样本",
+        "拉马努金与 Hardy：非常规天才在标准体例下的碰撞与最终和解",
+        "现代程序员『自己写一遍 Lisp 解释器』传统：从零实现作为唯一可靠路径"
+      ],
+      "representative_cases_en": [
+        "The 'no royal road' anecdote itself: refusing the king's request for a shortcut",
+        "The Elements' strict dependency ordering as the textual execution of the stance",
+        "Lincoln training his legal reasoning on the Elements: an autodidact walking the full route without talent shortcuts",
+        "Ramanujan and Hardy: unconventional genius colliding with, and finally reconciling to, the standard format",
+        "The programmer's 'write your own Lisp interpreter' tradition: building from scratch as the only reliable path"
+      ],
+      "modern_applications_zh": [
+        "招聘面试坚持实操环节，拒绝『简历免试』——深能力必须现场验证",
+        "学习计划拒绝『速成班』，按依赖图排期并为每环节设验收测试",
+        "晋升评审不因职级或资历豁免能力证明环节",
+        "面对『能不能先出结果再补过程』的要求，明确回答过程本身是结果的一部分",
+        "为天才型例外设旁路评审：先做等价能力演示，再定豁免范围"
+      ],
+      "modern_applications_en": [
+        "Hiring keeps the live practical round—no CV-only waivers; deep capability must be verified on the spot",
+        "Learning plans refuse 'crash courses', scheduling by dependency with acceptance tests per stage",
+        "Promotion reviews grant no capability-proof exemption for rank or tenure",
+        "To 'give me the outcome first, process later', answer plainly: the process is part of the outcome",
+        "For genius exceptions, run a bypass review: equivalent-capability demonstration first, waiver scope second"
+      ],
+      "related_modes": [
+        "M-EUC-002",
+        "M-EUC-004",
+        "M399",
+        "M400"
+      ],
+      "representative_figures": [
+        {
+          "name_zh": "托勒密一世",
+          "name_en": "Ptolemy I",
+          "relation_zh": "历史对方：捷径请求的提出者",
+          "relation_en": "historical counterpart: the requester of the shortcut"
+        },
+        {
+          "name_zh": "哈代",
+          "name_en": "Hardy",
+          "relation_zh": "现代参照：标准体例容纳非常规天才的和解者",
+          "relation_en": "modern: reconciling unconventional genius with the standard format"
+        },
+        {
+          "name_zh": "埃里克森",
+          "name_en": "Anders Ericsson",
+          "relation_zh": "理论继承：刻意练习与不可绕过程",
+          "relation_en": "theoretical heir: deliberate practice and the unskippable process"
+        },
+        {
+          "name_zh": "怀特海",
+          "name_en": "Whitehead",
+          "relation_zh": "辩证参照：『文明即对重要过程的省略』的平衡视角",
+          "relation_en": "dialectical: civilization as the abbreviation of important processes"
+        }
+      ],
+      "id": "M-EUC-010",
+      "figure_code": "H-EUC-001"
+    }
+  ]
+}

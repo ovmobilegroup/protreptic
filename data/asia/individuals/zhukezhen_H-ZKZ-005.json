@@ -1,0 +1,117 @@
+{
+  "id": "H-ZKZ-005",
+  "name_zh": "流亡办学韧性",
+  "name_en": "Exile-Resilient Operation",
+  "category": "strategy",
+  "sub_category": "crisis survival / mobile organization",
+  "definition_zh": "当组织遭遇不可抗外部冲击（战争、资源剥夺、环境剧变），以「迁徙≠中断、破坏≠归零、匮乏≠降质」将生存压力转化为组织重构契机，用移动化、最小核心、分布式保全维持主干功能不辍。",
+  "definition_en": "When an organization faces irreducible external shock (war, resource stripping, environmental upheaval), treat 'relocation ≠ interruption, destruction ≠ zero, scarcity ≠ quality drop'—turn survival pressure into a restructuring chance, using mobilization, minimal core, and distributed preservation to keep the main function running.",
+  "formula_repr": {
+    "formulas": [
+      "Survival: F(t) = f(core_assets_moved, function_continuous) > 0   [主干功能随核心资产迁移且连续则存活]",
+      "Core = {library, lab, specimens, faculty, students}   [最小核心 = 书/仪/标/师/生]",
+      "Quality Q ∝ (process_kept / resource_lost)   [质量取决于流程保全率而非资源存量]",
+      "Reconstruct: node_new = relocate(node_old) with local adaptation   [节点迁移+在地适配即重构]"
+    ],
+    "variables": {
+      "F": "组织主干功能（教学/科研）存续度",
+      "core_assets_moved": "随迁保全的核心资产",
+      "function_continuous": "功能连续性（弦歌不辍）",
+      "Q": "办学/组织质量",
+      "node_new": "迁移后在新地的组织节点"
+    },
+    "prototype": "Latent accumulation / 蛰伏积势（教育机构流亡生存版）"
+  },
+  "applicability": {
+    "triggers": [
+      "组织遭不可抗外力（战争/灾难/制裁/迁徙）必须转移",
+      "核心资产（数据/设备/人才）须随迁保全，不可弃",
+      "资源骤减但使命不可中断",
+      "需在陌生环境快速重构并融入当地"
+    ],
+    "anti_patterns": [
+      "为保资产弃功能（藏书但不开课）",
+      "迁徙中核心资产（人/书/仪）散失归零",
+      "到新地仍全套照搬，不就地适配",
+      "把匮乏当降质借口，放松标准"
+    ]
+  },
+  "steps_zh": [
+    "定最小核心：明确必须随迁保全的资产——图书馆、实验室、标本馆、师资、学生（竺分类紧急/不紧急分批起运）。",
+    "迁徙不辍学：边走边复课，每到一地稍安即开课，科研不停顿（弦歌不辍）。",
+    "就地适配：依新地条件重构（湄潭无电用桐油发电开实验；结合当地茶业惠农）。",
+    "匮乏保质量：以过程性标准与学术自由维持质量，不以资源少降标（遵义/湄潭 7 年论文超当时全国）。",
+    "分布式保全：总校+分校+研究所多点布局（龙泉分校服务无法内迁的东南学子），降低单点被毁风险。",
+    "使命牵引：以校训/两问凝聚，使流亡本身成「换赛道、重构、聚焦核心」的生存算法。"
+  ],
+  "steps_en": [
+    "Fix the minimal core: assets that must move with you—library, lab, specimens, faculty, students (Zhu batched urgent vs non-urgent for shipping).",
+    "Relocate without halting: resume classes en route; each stop, teach again; research continues (strings of song unbroken).",
+    "Adapt locally: restructure to local conditions (Meitan had no power → tung-oil generators for labs; local tea know-how aided farmers).",
+    "Hold quality under scarcity: process standards + academic freedom keep quality; do not lower the bar for lack of resources (Meitan 7-yr papers surpassed all China then).",
+    "Distributed preservation: main + branch + institutes multi-point (Longquan branch served southeast students who couldn't move west), cutting single-point loss risk.",
+    "Mission pull: motto and the two questions cohere the group, making exile itself a survival algorithm of 'switch track, restructure, focus core'."
+  ],
+  "historical_case_zh": "1937–1946 浙大西迁：杭州→建德→泰和(赣)→宜山(桂)→遵义/湄潭(黔)，横穿 6 省、行程 2600+ 公里、历时两年半，遵义湄潭办学 7 年。途中建随迁图书馆/实验室/标本馆，分批运书运仪；湄潭无电以桐油发电开实验课；战火中论文数超当时所有中国大学，李约瑟誉「科学活动中心」。竺夫人张侠魂与次子竺衡病逝于途中，其仍续迁不懈。彭真称「一支文军的长征」，战区师生走出 50 余位两院院士。",
+  "historical_case_en": "1937–1946 Zhejiang U's westward removal: Hangzhou → Jiande → Taihe (Jiangxi) → Yishan (Guangxi) → Zunyi/Meitan (Guizhou), across 6 provinces, 2600+ km, 2.5 yrs, then 7 yrs at Zunyi/Meitan. It built a moving library/lab/specimen hall, shipped books and instruments in batches; Meitan had no power so tung-oil generators ran labs; war-time paper count surpassed all Chinese universities, Joseph Needham called it 'a center of scientific activity'. Zhu's wife and second son died en route; he kept moving. Peng Zhen called it 'a Long March of the men of letters'; the exiled school produced 50+ academicians.",
+  "modern_case_zh": "企业灾难恢复/异地多活（DB 主备+多region）、远程优先组织的「人员分散+核心资产云端化」、初创在融资寒冬「聚焦核心砍边缘」保主干——皆同此模式。",
+  "modern_case_en": "Enterprise DR / active-active geo-redundancy, remote-first 'distributed people + cloud-core assets', and startups in a funding winter 'cut edges, keep the core'—all the same pattern.",
+  "inheritance_note": "B 级结构同构：对应毛泽东「持久战/根据地」（模式 35 军事版）、粟裕「游击积累」（模式 35 作战版）。A 级直链：竺可桢是 Protreptic 中将模式 35 用于「教育机构流亡生存」、把整所大学变成可迁徙可重构移动组织的第一人，补强模式 35 高频核心。",
+  "related_persons": [
+    "竺可桢 (1890-1974)",
+    "毛泽东",
+    "粟裕"
+  ],
+  "tags": [
+    "protreptic",
+    "zhu-kezhen",
+    "resilience",
+    "crisis-survival"
+  ],
+  "tags_en": [
+    "protreptic",
+    "zhu-kezhen",
+    "resilience",
+    "crisis-survival"
+  ],
+  "reason_zh": "竺可桢将模式 35（蛰伏积势）用于教育机构流亡生存：以迁徙≠中断、破坏≠归零、匮乏≠降质，把大学整体变为可迁徙、可重构的移动组织，是组织韧性的非军事范式。",
+  "reason_en": "Zhu maps mode 35 (latent accumulation) onto exile-survival of an educational institution: relocation ≠ interruption, destruction ≠ zero, scarcity ≠ quality drop—turning the whole university into a mobile, reconfigurable organization, a non-military paradigm of organizational resilience.",
+  "expected_zh": "在不可抗冲击下主干功能不辍、核心资产随迁保全、质量不因匮乏下降，并在新地重构出更强组织，危机反成聚焦核心的契机。",
+  "expected_en": "Under irreducible shock the main function continues, core assets move and survive, quality does not drop with scarcity, and the group reconstructs stronger in the new place—crisis becoming the chance to focus the core.",
+  "scientific_contribution": false,
+  "artistic_legacy": false,
+  "environmental_stewardship": false,
+  "gender_role_innovation": false,
+  "island_nation": false,
+  "nomadic_heritage": false,
+  "regional_integration": "",
+  "conflict_resolution_mechanism": "",
+  "legacy_type": "organizational/resilience",
+  "digital_adaptation": "Maps to disaster-recovery, active-active geo-redundancy, and remote-first resilient operating models.",
+  "oral_tradition": "",
+  "resource_curse_mitigation": false,
+  "climate_adaptation": false,
+  "diaspora_network_type": "",
+  "polar_region": false,
+  "modes": [
+    35
+  ],
+  "version": "6.0",
+  "author": "serrano",
+  "created_at": "2026-08-25T13:35:00Z",
+  "nationality": "China",
+  "civilization_sphere": "East Asian / Confucian",
+  "time_period_standardized": "1890-1974 (Modern-Early, 近代)",
+  "wiki_id": "",
+  "primary_language": "Chinese (Mandarin)",
+  "intellectual_tradition": "Confucian / Modern Science / Geophysics & Education",
+  "cross_cultural_impact": "Applicable to global earth-system science, observation-network design, long-horizon climate reconstruction, and resilience of academic institutions under crisis",
+  "legal_system": "",
+  "education_tradition": "Modern science / 现代科学教育（求是书院—浙大传统）",
+  "source_lineage": [
+    "t_serrano_竺可桢_629720_0 (candidates_v2_research.md §5)",
+    "docs/research/candidates_v2_research.md",
+    "《中国近五千年来气候变迁的初步研究》(考古学报 1972(1))",
+    "浙大校史 / 竺可桢日记 (1936-01-01 ~ 1974-02-06)"
+  ]
+}

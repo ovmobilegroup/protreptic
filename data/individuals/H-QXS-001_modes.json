@@ -1,0 +1,549 @@
+{
+  "schema_version": "v6",
+  "code": "H-QXS-001",
+  "figure_name_zh": "钱学森",
+  "figure_name_en": "Qian Xuesen",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M01",
+      "name_zh": "系统整体思维法",
+      "name_en": "Systems Holistic Thinking Method",
+      "mode_code": "M01",
+      "category": "科学思维",
+      "domain_zh": "系统工程/整体性思维",
+      "domain_en": "Systems Engineering / Holistic Thinking",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "将复杂工程系统视为有机整体，把握各子系统间的相互关系，理解整体大于部分之和的系统特性，通过分解-综合的方法解决复杂问题，实现最优系统设计。",
+      "definition_en": "Regard complex engineering systems as organic wholes, understand interrelationships between subsystems, comprehend the system characteristic that the whole is greater than the sum of its parts, solve complex problems through decomposition-synthesis methods, achieve optimal system design.",
+      "source_chapter": "《系统工程学·整体篇》",
+      "key_concepts": [
+        "整体性",
+        "相互关联",
+        "层次结构",
+        "优化配置",
+        "协同效应"
+      ],
+      "process_zh": [
+        "识别系统的构成要素和层次关系",
+        "分析各要素间的相互作用机制",
+        "评估系统整体的性能和功能",
+        "寻求最优的系统配置方案"
+      ],
+      "process_en": [
+        "Identify constituent elements and hierarchical relationships of the system",
+        "Analyze interaction mechanisms between elements",
+        "Evaluate overall performance and functionality of the system",
+        "Seek optimal system configuration solutions"
+      ],
+      "key_quote_zh": "系统工程就是把复杂的问题简单化，简单的问题复杂化。",
+      "key_quote_en": "Systems engineering is to simplify complex problems and complicate simple problems.",
+      "representative_cases_zh": [
+        "钱学森在导弹设计中的系统整体规划，考虑从设计到生产的全流程",
+        "两弹一星工程中的系统工程管理，统筹各方资源和进度"
+      ],
+      "modern_applications_zh": [
+        "大型工程项目管理",
+        "复杂系统设计",
+        "企业流程优化"
+      ],
+      "modern_applications_en": [
+        "Large-scale project management",
+        "Complex system design",
+        "Business process optimization"
+      ],
+      "related_modes": [
+        "M02",
+        "M03",
+        "M07"
+      ]
+    },
+    {
+      "id": "M02",
+      "name_zh": "求真务实法",
+      "name_en": "Truth-Seeking and Practical Method",
+      "mode_code": "M02",
+      "category": "科学思维",
+      "domain_zh": "实事求是/工程实践",
+      "domain_en": "Seeking Truth from Facts / Engineering Practice",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "以客观事实和数据为基础，坚持实事求是的原则，通过实验验证理论，避免主观臆断和盲目追随，在工程实践中检验和发展认识。",
+      "definition_en": "Take objective facts and data as the basis, adhere to the principle of seeking truth from facts, verify theories through experiments, avoid subjective speculation and blind following, and test and develop knowledge through engineering practice.",
+      "source_chapter": "《系统工程学·实践篇》",
+      "key_concepts": [
+        "实事求是",
+        "数据驱动",
+        "实验验证",
+        "知行合一",
+        "精益求精"
+      ],
+      "process_zh": [
+        "收集和分析客观数据",
+        "基于事实建立理论模型",
+        "通过实验验证假设",
+        "在实践中不断修正完善"
+      ],
+      "process_en": [
+        "Collect and analyze objective data",
+        "Establish theoretical models based on facts",
+        "Verify hypotheses through experiments",
+        "Continuously revise and improve through practice"
+      ],
+      "key_quote_zh": "一切从实际出发，实事求是。",
+      "key_quote_en": "Everything starts from actual conditions, seek truth from facts.",
+      "representative_cases_zh": [
+        "钱学森拒绝盲目照搬苏联技术，根据中国实际情况设计导弹",
+        "在试验中坚持客观记录，避免主观判断干扰"
+      ],
+      "modern_applications_zh": [
+        "科学决策",
+        "质量控制",
+        "风险分析"
+      ],
+      "modern_applications_en": [
+        "Scientific decision-making",
+        "Quality control",
+        "Risk analysis"
+      ],
+      "related_modes": [
+        "M01",
+        "M04",
+        "M05"
+      ]
+    },
+    {
+      "id": "M03",
+      "name_zh": "跨学科融合法",
+      "name_en": "Interdisciplinary Integration Method",
+      "mode_code": "M03",
+      "category": "科学思维",
+      "domain_zh": "学科交叉/知识融合",
+      "domain_en": "Interdisciplinary / Knowledge Integration",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "打破学科壁垒，融合力学、控制论、系统工程、数学等多学科知识，在跨学科的交叉点上寻求创新突破，形成新的理论和方法体系。",
+      "definition_en": "Break down disciplinary barriers, integrate knowledge from mechanics, cybernetics, systems engineering, mathematics and other disciplines, seek innovation breakthroughs at interdisciplinary intersection points, form new theoretical and methodological systems.",
+      "source_chapter": "《系统工程学·融合篇》",
+      "key_concepts": [
+        "学科交叉",
+        "知识融合",
+        "协同创新",
+        "方法论移植",
+        "理论突破"
+      ],
+      "process_zh": [
+        "识别不同学科间的联系点",
+        "提取各学科的核心原理",
+        "融合形成新的理论框架",
+        "在交叉领域验证应用"
+      ],
+      "process_en": [
+        "Identify connection points between different disciplines",
+        "Extract core principles from each discipline",
+        "Integrate to form new theoretical frameworks",
+        "Verify application at intersection points"
+      ],
+      "key_quote_zh": "科学的突破往往发生在学科的交叉点上。",
+      "key_quote_en": "Breakthroughs in science often occur at the intersection of disciplines.",
+      "representative_cases_zh": [
+        "钱学森将力学、控制论和系统工程结合，开创中国特色的航天工程体系",
+        "在导弹设计中融合空气动力学、推进力学和控制理论"
+      ],
+      "modern_applications_zh": [
+        "科技创新",
+        "问题解决",
+        "知识管理"
+      ],
+      "modern_applications_en": [
+        "Scientific innovation",
+        "Problem solving",
+        "Knowledge management"
+      ],
+      "related_modes": [
+        "M01",
+        "M05",
+        "M07"
+      ]
+    },
+    {
+      "id": "M04",
+      "name_zh": "自主创新法",
+      "name_en": "Independent Innovation Method",
+      "mode_code": "M04",
+      "category": "思维方法",
+      "domain_zh": "自主创新/技术突破",
+      "domain_en": "Independent Innovation / Technology Breakthrough",
+      "level": "基础",
+      "priority": 4,
+      "definition_zh": "在学习借鉴的基础上进行自主创新，突破技术瓶颈，掌握核心技术，建立自主知识产权，实现从跟跑到并跑再到领跑的跨越。",
+      "definition_en": "Carry out independent innovation on the basis of learning and reference, break through technical bottlenecks, master core technologies, establish independent intellectual property rights, and achieve the leap from following to paralleling to leading.",
+      "source_chapter": "《系统工程学·创新篇》",
+      "key_concepts": [
+        "自主创新",
+        "核心技术",
+        "知识产权",
+        "技术突破",
+        "超越发展"
+      ],
+      "process_zh": [
+        "分析技术发展的关键瓶颈",
+        "确定自主创新的主攻方向",
+        "集中力量突破核心技术",
+        "建立完整的创新体系"
+      ],
+      "process_en": [
+        "Analyze key bottlenecks in technological development",
+        "Determine the main direction of independent innovation",
+        "Concentrate efforts to break through core technologies",
+        "Establish a complete innovation system"
+      ],
+      "key_quote_zh": "核心技术是要不来、买不来、讨不来的。",
+      "key_quote_en": "Core technologies cannot be obtained, bought, or begged.",
+      "representative_cases_zh": [
+        "钱学森带领团队攻克导弹设计中的技术难关",
+        "在苏联撤走专家后，自主研发关键技术"
+      ],
+      "modern_applications_zh": [
+        "技术研发",
+        "产业升级",
+        "战略规划"
+      ],
+      "modern_applications_en": [
+        "Technology development",
+        "Industrial upgrading",
+        "Strategic planning"
+      ],
+      "related_modes": [
+        "M02",
+        "M05",
+        "M09"
+      ]
+    },
+    {
+      "id": "M05",
+      "name_zh": "育人为本法",
+      "name_en": "People-Cultivation Foundation Method",
+      "mode_code": "M05",
+      "category": "科学思维",
+      "domain_zh": "人才培养/梯队建设",
+      "domain_en": "Talent Cultivation / Team Building",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "将人才培养作为系统工程的核心任务，建立完善的人才梯队，注重理论学习和实践锻炼相结合，培养具有创新精神和实践能力的高素质人才。",
+      "definition_en": "Regard talent cultivation as the core task of systems engineering, establish a complete talent echelon, combine theoretical learning with practical training, and cultivate high-quality talents with innovative spirit and practical ability.",
+      "source_chapter": "《系统工程学·人才篇》",
+      "key_concepts": [
+        "人才培养",
+        "梯队建设",
+        "德才兼备",
+        "理论实践结合",
+        "传承创新"
+      ],
+      "process_zh": [
+        "制定人才发展规划",
+        "建立完善的培养体系",
+        "理论学习和实践锻炼并重",
+        "形成有效的人才传承机制"
+      ],
+      "process_en": [
+        "Formulate talent development planning",
+        "Establish a complete cultivation system",
+        "Emphasize both theoretical learning and practical training",
+        "Form an effective talent inheritance mechanism"
+      ],
+      "key_quote_zh": "人才是最宝贵的财富，培养人才是百年大计。",
+      "key_quote_en": "Talent is the most precious asset, and cultivating talent is a century-long plan.",
+      "representative_cases_zh": [
+        "钱学森亲自培养屠守锷等新一代航天专家",
+        "建立完整的航天人才梯队和培养体系"
+      ],
+      "modern_applications_zh": [
+        "人才战略",
+        "团队建设",
+        "职业发展"
+      ],
+      "modern_applications_en": [
+        "Talent strategy",
+        "Team building",
+        "Career development"
+      ],
+      "related_modes": [
+        "M02",
+        "M06",
+        "M07"
+      ]
+    },
+    {
+      "id": "M06",
+      "name_zh": "低调隐忍法",
+      "name_en": "Low-Profile Endurance Method",
+      "mode_code": "M06",
+      "category": "思维方法",
+      "domain_zh": "低调务实/默默奉献",
+      "domain_en": "Low-Profile Practicality / Silent Dedication",
+      "level": "基础",
+      "priority": 6,
+      "definition_zh": "在重大事业中保持低调隐忍的态度，默默无闻地工作，以实际成果说话，不追求个人名利，甘当幕后英雄，为国家民族的利益默默奉献。",
+      "definition_en": "Maintain a low-profile and enduring attitude in major undertakings, work silently and inconspicuously, let practical results speak, not pursue personal fame and fortune, willingly act as behind-the-scenes heroes, and silently dedicate to the interests of the country and nation.",
+      "source_chapter": "《系统工程学·品格篇》",
+      "key_concepts": [
+        "低调隐忍",
+        "默默奉献",
+        "成果导向",
+        "淡泊名利",
+        "幕后英雄"
+      ],
+      "process_zh": [
+        "确立正确的人生价值观",
+        "将个人利益置于集体利益之后",
+        "专注于实际工作成果",
+        "以贡献而不以名利论英雄"
+      ],
+      "process_en": [
+        "Establish correct life values",
+        "Place personal interests after collective interests",
+        "Focus on practical work results",
+        "Evaluate heroes by contribution rather than fame and fortune"
+      ],
+      "key_quote_zh": "要有恒心，有耐心，有定力，三十年磨一剑。",
+      "key_quote_en": "Have perseverance, patience, and determination; hone one sword for thirty years.",
+      "representative_cases_zh": [
+        "钱学森回国后在戈壁滩隐姓埋名三十年，默默奉献",
+        "不追求个人名利，专注于实际工作成果"
+      ],
+      "modern_applications_zh": [
+        "职业道德",
+        "团队精神",
+        "价值导向"
+      ],
+      "modern_applications_en": [
+        "Professional ethics",
+        "Team spirit",
+        "Value orientation"
+      ],
+      "related_modes": [
+        "M01",
+        "M04",
+        "M08"
+      ]
+    },
+    {
+      "id": "M07",
+      "name_zh": "战略前瞻法",
+      "name_en": "Strategic Foresight Method",
+      "mode_code": "M07",
+      "category": "战略思维",
+      "domain_zh": "战略规划/长远眼光",
+      "domain_en": "Strategic Planning / Long-term Perspective",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "立足长远发展，把握科技发展趋势，制定具有前瞻性的战略规划，在动态变化中保持战略定力，确保事业的可持续发展。",
+      "definition_en": "Base on long-term development, grasp scientific and technological development trends, formulate forward-looking strategic planning, maintain strategic stability amidst dynamic changes, and ensure the sustainable development of the cause.",
+      "source_chapter": "《系统工程学·战略篇》",
+      "key_concepts": [
+        "战略定力",
+        "长远眼光",
+        "趋势把握",
+        "动态平衡",
+        "可持续发展"
+      ],
+      "process_zh": [
+        "分析科技发展趋势",
+        "制定中长期发展规划",
+        "保持战略定力不变",
+        "在变化中寻求可持续发展"
+      ],
+      "process_en": [
+        "Analyze science and technology development trends",
+        "Formulate medium and long-term development plans",
+        "Maintain strategic stability",
+        "Seek sustainable development amidst changes"
+      ],
+      "key_quote_zh": "不谋全局者，不足谋一域。",
+      "key_quote_en": "Those who do not plan for the whole cannot plan for a part.",
+      "representative_cases_zh": [
+        "钱学森在航天领域制定三十年发展规划",
+        "预见航天科技的发展趋势并提前布局"
+      ],
+      "modern_applications_zh": [
+        "战略规划",
+        "发展趋势分析",
+        "可持续发展"
+      ],
+      "modern_applications_en": [
+        "Strategic planning",
+        "Development trend analysis",
+        "Sustainable development"
+      ],
+      "related_modes": [
+        "M03",
+        "M05",
+        "M09"
+      ]
+    },
+    {
+      "id": "M08",
+      "name_zh": "质量精细法",
+      "name_en": "Quality Precision Method",
+      "mode_code": "M08",
+      "category": "思维方法",
+      "domain_zh": "质量控制/精细管理",
+      "domain_en": "Quality Control / Precision Management",
+      "level": "基础",
+      "priority": 8,
+      "definition_zh": "在工程实践中追求极致的精度和质量，精益求精，注重细节，通过严格的检验和测试确保产品性能达到最高标准，建立完善的质量管理体系。",
+      "definition_en": "Pursue extreme precision and quality in engineering practice, strive for excellence, focus on details, ensure product performance reaches the highest standards through strict inspection and testing, establish a complete quality management system.",
+      "source_chapter": "《系统工程学·质量篇》",
+      "key_concepts": [
+        "精益求精",
+        "质量第一",
+        "细节控制",
+        "严格检验",
+        "系统管理"
+      ],
+      "process_zh": [
+        "制定严格的质量标准",
+        "建立完善的质量检测体系",
+        "全过程质量控制",
+        "持续改进和提高"
+      ],
+      "process_en": [
+        "Establish strict quality standards",
+        "Build a complete quality inspection system",
+        "Whole-process quality control",
+        "Continuous improvement and enhancement"
+      ],
+      "key_quote_zh": "质量是工程的生命线，精益求精是基本要求。",
+      "key_quote_en": "Quality is the lifeline of engineering, and excellence in quality is the basic requirement.",
+      "representative_cases_zh": [
+        "钱学森对导弹质量的严格要求，不达标准决不放过",
+        "建立完整的航天产品质量管理体系"
+      ],
+      "modern_applications_zh": [
+        "质量管理",
+        "精益生产",
+        "标准化建设"
+      ],
+      "modern_applications_en": [
+        "Quality management",
+        "Lean production",
+        "Standardization construction"
+      ],
+      "related_modes": [
+        "M02",
+        "M06",
+        "M10"
+      ]
+    },
+    {
+      "id": "M09",
+      "name_zh": "国际视野法",
+      "name_en": "Global Perspective Method",
+      "mode_code": "M09",
+      "category": "科学思维",
+      "domain_zh": "国际视野/本土创新",
+      "domain_en": "Global Perspective / Local Innovation",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "具备国际视野，学习借鉴世界先进经验，结合中国国情进行本土化创新，在全球化背景下实现自主发展，形成中国特色的科技发展道路。",
+      "definition_en": "Possess global perspective, learn from advanced world experience, carry out localized innovation according to China's national conditions, achieve independent development in the context of globalization, and form a scientific and technological development path with Chinese characteristics.",
+      "source_chapter": "《系统工程学·国际篇》",
+      "key_concepts": [
+        "国际视野",
+        "本土创新",
+        "中国特色",
+        "自主发展",
+        "开放合作"
+      ],
+      "process_zh": [
+        "了解世界科技发展前沿",
+        "学习借鉴国际先进经验",
+        "结合中国实际情况创新",
+        "形成中国特色发展道路"
+      ],
+      "process_en": [
+        "Understand the forefront of world science and technology development",
+        "Learn from advanced international experience",
+        "Innovate according to China's actual situation",
+        "Form a development path with Chinese characteristics"
+      ],
+      "key_quote_zh": "既要学习外国的好经验，又要结合中国的实际情况。",
+      "key_quote_en": "We must learn from foreign good experiences, and combine them with China's actual situation.",
+      "representative_cases_zh": [
+        "钱学森留学美国吸收先进技术，回国后结合中国国情创新",
+        "在航天科技领域形成中国特色的发展模式"
+      ],
+      "modern_applications_zh": [
+        "国际合作",
+        "本土化创新",
+        "战略发展"
+      ],
+      "modern_applications_en": [
+        "International cooperation",
+        "Localized innovation",
+        "Strategic development"
+      ],
+      "related_modes": [
+        "M02",
+        "M03",
+        "M07"
+      ]
+    },
+    {
+      "id": "M10",
+      "name_zh": "传承创新法",
+      "name_en": "Inheritance Innovation Method",
+      "mode_code": "M10",
+      "category": "思维方法",
+      "domain_zh": "传承发展/继往开来",
+      "domain_en": "Inheritance Development / Continuing the Past and Opening the Future",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "在继承前人成果的基础上进行创新发展，形成有效的传承机制，确保技术和知识的持续发展，既尊重传统又勇于创新，实现继往开来的发展。",
+      "definition_en": "Carry out innovative development on the basis of inheriting predecessors' achievements, form effective inheritance mechanisms, ensure the continuous development of technology and knowledge, respect tradition while daring to innovate, and achieve the development of continuing the past and opening the future.",
+      "source_chapter": "《系统工程学·传承篇》",
+      "key_concepts": [
+        "传承创新",
+        "继往开来",
+        "有效传承",
+        "持续发展",
+        "双向互动"
+      ],
+      "process_zh": [
+        "梳理前人的技术成果",
+        "建立有效的传承机制",
+        "在继承基础上创新突破",
+        "形成可持续的发展体系"
+      ],
+      "process_en": [
+        "Organize predecessors' technical achievements",
+        "Establish effective inheritance mechanisms",
+        "Innovate and break through on the basis of inheritance",
+        "Form a sustainable development system"
+      ],
+      "key_quote_zh": "站在巨人的肩膀上，看得更远。",
+      "key_quote_en": "Standing on the shoulders of giants, we can see further.",
+      "representative_cases_zh": [
+        "钱学森建立航天人才的培养传承体系",
+        "在继承前人经验的同时不断创新突破"
+      ],
+      "modern_applications_zh": [
+        "知识管理",
+        "人才培养",
+        "技术传承"
+      ],
+      "modern_applications_en": [
+        "Knowledge management",
+        "Talent cultivation",
+        "Technology inheritance"
+      ],
+      "related_modes": [
+        "M05",
+        "M07",
+        "M09"
+      ]
+    }
+  ]
+}

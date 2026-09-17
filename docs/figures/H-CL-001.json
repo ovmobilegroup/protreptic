@@ -1,0 +1,809 @@
+{
+ "schema_version": "v6",
+ "id": "H-CL-001",
+ "code": "CL",
+ "figure_name": "蔡伦",
+ "figure_code": "CaiLun",
+ "figure_pinyin": "Cài Lún",
+ "birth_year": 61,
+ "death_year": 121,
+ "era": "61-121",
+ "era_en": "61-121",
+ "school": "工程标准化（宫廷工艺监造传统的材料革新与流程设计集大成者）",
+ "historical_significance": "蔡伦（61-121），东汉宦官、工艺监造者与发明家，桂阳（今湖南耒阳）人，永平末年入宫，章和年间任中常侍，兼尚方令——掌管皇家工场'尚方'制作御用器物；元兴元年（105）奏报以树皮、麻头、破布、旧渔网为原料的新造纸法，'自是莫不从用焉'，故天下咸称'蔡侯纸'；安帝元初元年（114）封龙亭侯。他的独特处在于方法论：不是'发明'了纸（西汉已有麻纸雏形），而是完成了一次彻底的工艺重构——把纸从偶然的副产物变成可规模复制的产品：系统筛选廉价原料（树皮代麻，扩大原料谱系），设计浸泡、沤制、舂捣、抄捞、晾晒的标准化工序链，以监造者身份在宫廷工场做受控试产并推向全国；同时兼校雠东观藏书、监造秘剑与诸器械，'莫不精工坚密，为后世法'——他把宫廷工场变成了材料试验场与工艺学校，把器物制造从工匠个人手艺提升为可传可改的工艺标准。《后汉书》评其'每至休沐，辄闭门绝宾，暴体田野'——以观察者的姿态做技术工作",
+ "historical_significance_en": "Cai Lun (61-121), Eastern Han court eunuch, supervisor of palace manufactures and innovator, a native of Guiyang (modern Leiyang, Hunan); he entered the palace in the late Yongping era, became a Regular Palace Attendant under Emperors Zhang and He, and concurrently Prefect of the Imperial Workshop (Shangfang), in charge of crafting ritual vessels and instruments for the court. In 105 CE he memorialized the new papermaking method using tree bark, hemp scraps, rags and old fishing nets — 'from then on none failed to adopt it', so the world called it 'Marquis Cai paper'; in 114 he was enfeoffed Marquis of Longting. His distinctiveness is methodological: he did not 'invent' paper (coarse hemp paper existed in the Western Han) but accomplished a thorough process re-engineering — turning paper from an accidental by-product into a mass-reproducible product: systematically screening cheap raw materials (bark substituting for hemp, widening the material base), designing a standardized process chain of soaking, retting, pounding, sheet-lifting and drying, and, in his capacity as workshop supervisor, running controlled trial production in the palace workshop and disseminating it empire-wide; concurrently he collated the imperial library and supervised the forging of state swords and instruments, 'all exquisitely finished, solid and precise, models for later generations' — he turned the palace workshop into a materials laboratory and process school, elevating artefact-making from individual craftsmanship to a transferable, improvable craft standard. The Book of the Later Han records that 'on every rest day he shut his gates, dismissed visitors, and exposed his body in the fields' — a technologist's posture of the field observer",
+ "unique_thinking": "以工艺重构而非单点发明界定创新（旧材料新组合+新流程=新产品）；系统筛选廉价原料替代稀缺原料的'原料谱系扩展法'；标准化工序链设计使手艺可传可改；监造者立场——受控试产、质量验收、'为后世法'的文件化标准；闭门绝宾、暴体田野的工程师式观察姿态",
+ "unique_thinking_en": "defining innovation as process re-engineering rather than a single-point invention (old materials recombined + a new process = a new product); systematically screening cheap substitutes for scarce materials — an expanding material spectrum; designing standardized process chains that make a craft transferable and improvable; the supervisor's stance — controlled trial production, quality acceptance, documented standards 'as models for posterity'; the engineer's observational posture of shutting the gates on rest days and walking the fields",
+ "civilization_zh": "中华文明（东汉洛阳宫廷工艺与湖湘地方资源交汇圈）",
+ "civilization_en": "Chinese civilization (the Eastern Han palace-workshop sphere of Luoyang meeting the local resources of Hunan)",
+ "roles_zh": [
+  "发明家",
+  "中常侍（宫廷近臣）",
+  "尚方令（皇家工场监造）",
+  "材料工艺革新者",
+  "校书郎系统的参与者"
+ ],
+ "roles_en": [
+  "Innovator",
+  "Regular Palace Attendant",
+  "Prefect of the Imperial Workshop (Shangfang)",
+  "Materials-and-process engineer",
+  "Participant in the imperial text-collation project"
+ ],
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-CL-001",
+  "M-CL-002",
+  "M-CL-003",
+  "M-CL-004",
+  "M-CL-005",
+  "M-CL-006",
+  "M-CL-007",
+  "M-CL-008",
+  "M-CL-009",
+  "M-CL-010"
+ ],
+ "key_works": [
+  "元兴元年（105）造纸法奏报——以树皮、麻头、敝布、鱼网为原料的新工艺，'帝善其能'，天下通行",
+  "监造'秘剑'及诸般器械——'莫不精工坚密，为后世法'的宫廷工场标准器",
+  "东观校雠——以学者标准核订经传文本（与班固等典校，知识质量控制传统）",
+  "龙亭侯封地手工业——封侯后其法随侯国与地方工场扩散的实物证据（甘肃天水放马滩、悬泉置汉纸遗迹的年代链）",
+  "《东观汉记》与《后汉书·蔡伦传》所载其监造与奏报记录——关于他本人的工艺方法论的最早文件"
+ ],
+ "key_concepts": [
+  "蔡侯纸 (Marquis Cai Paper)",
+  "原料谱系扩展 (Widening the Material Spectrum)",
+  "工艺重构 (Process Re-engineering)",
+  "标准化工序链 (Standardized Process Chain)",
+  "监造受控试产 (Supervised Controlled Trial Production)",
+  "为后世法 (A Model for Posterity)",
+  "精工坚密 (Exquisite Finish, Solid Precision)",
+  "暴体田野 (Exposing the Body in the Fields)",
+  "闭门绝宾 (Shutting the Gates to Visitors)",
+  "廉价原料替代 (Cheap-Substitution Sourcing)"
+ ],
+ "cross_references": [
+  "M-CL-001（工艺重构法——全部十模式的元方法论：把创新定义为旧材料新组合加新流程）",
+  "M-CL-002（原料谱系扩展法——以系统筛选廉价替代品解决规模化的资源瓶颈）",
+  "M-CL-004（工序链标准化法——把个体手艺拆成可传可改的工序文件）",
+  "M-CL-006（监造验收法——监造者立场上的受控试产与质量验收）",
+  "M-CL-010（器以载政法——器物革新与国家治理、文化传播的政用一体）",
+  "M-SYX-001（宋应星：天工开物法——平行：同为工艺系统化者，宋应星以田野著述立产业总账，蔡伦以工场监造立工艺标准；一记一做）",
+  "M-ZHH-001（张衡/郭守敬实测传统：以仪器与验证立论——蔡伦在材料与流程上同操'受控试产'一脉）",
+  "M-HZX-001（黄宗羲：制度批判传统——蔡伦是制度内部的工艺革新者，与制度外批判者构成两端）"
+ ],
+ "tags": [
+  "蔡侯纸",
+  "工艺重构",
+  "原料替代",
+  "工序标准化",
+  "监造试产",
+  "为后世法",
+  "暴体田野",
+  "器以载政",
+  "纸载文明",
+  "廉价规模化"
+ ],
+ "modes": [
+  {
+   "figure_code": "CL",
+   "id": "M-CL-001",
+   "mode_code": "M-CL-001",
+   "name_zh": "工艺重构法",
+   "name_en": "The Method of Process Re-engineering",
+   "category": "方法论/创新哲学",
+   "domain_zh": "创新方法论总纲/把创新界定为'旧材料新组合+新流程'的系统重构而非灵光一现的单点发明",
+   "domain_en": "Master methodology of innovation",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "创新方法论总纲/把创新界定为'旧材料新组合+新流程'的系统重构而非灵光一现的单点发明：纸非蔡伦所首创——西汉已有粗糙麻纸——蔡伦的贡献是把纸从偶然、低质、小批的副产物重构为廉价、均质、可规模复制的产品：换材料谱系（树皮、麻头、敝布、鱼网）、重排工序链（沤、舂、抄、晒）、受控试产、验收定标；此法的要义是承认'好产品早已有雏形'，创新的杠杆不在发明原点而在重构全链——原料端扩谱系，流程端立标准，生产端做验证，分发端推普及",
+   "definition_en": "Master methodology of innovation / defining innovation as systematic re-engineering — 'old materials in new combinations plus a new process' — rather than a sudden single-point invention: Cai Lun did not first create paper (coarse hemp paper existed in the Western Han); his contribution was rebuilding paper from an accidental, low-quality, small-batch by-product into a cheap, uniform, mass-reproducible product — widening the material spectrum (bark, hemp scraps, rags, fishing nets), reordering the process chain (retting, pounding, sheet-lifting, drying), running controlled trial production, and fixing the standard by acceptance; the essence of the method is to concede that 'a rough version of the good product already exists': the lever of innovation lies not at the point of origin but in re-engineering the whole chain — widen materials, standardize process, verify production, disseminate the result",
+   "source_chapter": "《后汉书·蔡伦传》及造纸工艺研究",
+   "key_quote_zh": "伦乃造意，用树肤、麻头及敝布、鱼网以为纸。元兴元年奏上之，帝善其能，自是莫不从用焉，故天下咸称'蔡侯纸'",
+   "key_quote_en": "'Cai Lun thereupon conceived the design: using tree bark, hemp scraps, worn cloth and fishing nets he made paper. In the first year of Yuanxing he memorialized it; the emperor praised his skill, and from then on none failed to adopt it — so the world called it Marquis Cai paper.'",
+   "key_concepts": [
+    "工艺重构",
+    "造意",
+    "旧料新组合",
+    "全链创新",
+    "反单点发明"
+   ],
+   "process_zh": [
+    "承认雏形存在：先确认'已有粗糙版本'——找到现有产品的偶然性来源与失败原因清单",
+    "换材料谱系：盘点上游可得资源，把'依赖单一稀缺原料'改为'组合多种廉价原料'——降低对任何一种来源的依赖",
+    "重排工序链：把偶然的手工流程拆解为有序工序——每道工序明确输入、动作、输出与判废标准",
+    "受控验证与定标：小批量试产验证质量稳定后，以文件化标准发布并推动全行业采用"
+   ],
+   "process_en": [
+    "Acknowledge the prototype: confirm that 'a rough version already exists' — locate the accident behind the existing product and list its failure modes",
+    "Widen the material spectrum: inventory upstream resources and replace 'dependence on one scarce material' with 'a combination of several cheap ones' — cutting dependence on any single source",
+    "Reorder the process chain: decompose the accidental hand procedure into ordered operations, each with defined input, action, output and rejection criteria",
+    "Verify under control and fix the standard: after trial batches prove stable quality, publish the standard as a document and push industry-wide adoption"
+   ],
+   "representative_cases_zh": [
+    "把西汉'漂絮法'副产的薄麻片重构成正式产品：换四类原料（树皮、麻头、敝布、鱼网），重排沤制—舂捣—抄捞—晾晒工序，质量跃升为书写级",
+    "奏报元兴元年（105）为创新的'发布节点'——不是做出纸的那天，而是验证完成、上奏定标的那天",
+    "同一方法论用于兵器器械：监造秘剑'莫不精工坚密，为后世法'——把铸剑同样当全链重构来做",
+    "'自是莫不从用焉'——重构成功的判据不是专利而是全行业自发采用"
+   ],
+   "representative_cases_en": [
+    "Rebuilding the thin hemp film, a by-product of the Western Han 'flax-rinsing' process, into a formal product: substituting four classes of raw material (bark, hemp scraps, rags, nets) and reordering retting-pounding-lifting-drying until quality rose to writing grade",
+    "Fixing 105 CE as the innovation's 'release node' — not the day paper was first made, but the day verification was complete and the standard memorialized",
+    "Applying the same methodology to weapons and instruments: the state swords he supervised were 'all exquisitely finished, solid and precise, models for posterity' — sword-forging treated as full-chain re-engineering too",
+    "'From then on none failed to adopt it' — the criterion of successful re-engineering is not a patent but spontaneous industry-wide adoption"
+   ],
+   "modern_applications_zh": [
+    "产品迭代方法论：不追求'从零发明'，而把竞品/旧品的失败清单转成重构路线图",
+    "供应链创新：原料多元化组合（多来源、可再生、廉价）替代单一稀缺来源——现代电池材料的替代路线同构",
+    "流程再造（BPR）：把'老师傅经验'拆成可审计工序——90年代企业流程再造的直接先例",
+    "创新发布管理：以'验证完成+标准发布'为创新节点，而非实验室成功时刻"
+   ],
+   "modern_applications_en": [
+    "Product iteration: seek no 'invention from zero'; turn the failure list of the old or rival product into a re-engineering roadmap",
+    "Supply-chain innovation: diversified, renewable, cheap material combinations replacing a single scarce source — isomorphic to modern battery-material substitution routes",
+    "Business process re-engineering: decompose 'the old master's craft' into auditable operations — the direct precedent of 1990s BPR",
+    "Innovation release management: date the innovation from 'verification complete + standard published', not the laboratory success moment"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "宋应星（平行：同样把工艺当系统记录与优化，《天工开物》即明代工序链的文件化——蔡伦在做，宋应星在记）",
+    "泰勒（跨文明平行：科学管理把体力劳动拆成标准动作与工时——工序链标准化的管理学版本，比蔡伦晚十八个世纪）",
+    "福洛特金/现代造纸工程师（传承：现代制浆造纸工业的'原料谱系+工序链+质量验收'框架直接延续蔡伦结构）"
+   ],
+   "related_modes": [
+    "M-CL-002",
+    "M-CL-003",
+    "M-CL-004",
+    "M-CL-006"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-002",
+   "mode_code": "M-CL-002",
+   "name_zh": "原料谱系扩展法",
+   "name_en": "The Method of Widening the Material Spectrum",
+   "category": "资源论/供应链设计",
+   "domain_zh": "资源与供应链方法论/以系统筛选廉价多元原料替代单一稀缺原料，破解规模化的资源瓶颈",
+   "domain_en": "Resource and supply-chain methodology",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "资源与供应链方法论/以系统筛选廉价多元原料替代单一稀缺原料，破解规模化的资源瓶颈：书写载体从竹简（笨重）、缣帛（贵）到纸的跃迁，卡点从来不是'能不能写字'而是'能不能便宜地大量造'；蔡伦的解法是不另找稀缺好料，而是反向把原料谱系从'麻'扩展到'树皮、麻头、敝布、鱼网'四种近乎免费的废弃物——任何地区的任何季节都有其中至少一种；原料越贱、谱系越宽，产品越不受原料波动与地理限制——把资源约束问题改写为谱系设计问题",
+   "definition_en": "Resource and supply-chain methodology / breaking the resource bottleneck of scale by systematically screening cheap, diverse raw materials in place of a single scarce one: the leap of the writing substrate from bamboo slips (cumbersome) and silk (costly) to paper was never blocked by 'can it be written on' but by 'can it be made cheaply in volume'; Cai Lun's solution was not to hunt another scarce fine material but, in reverse, to widen the material spectrum from 'hemp' to four nearly free wastes — bark, hemp scraps, worn cloth, fishing nets — of which every region in every season has at least one; the cheaper the material and the wider the spectrum, the less the product suffers from supply fluctuation and geography — rewriting a resource-constraint problem as a spectrum-design problem",
+   "source_chapter": "《后汉书·蔡伦传》及造纸工艺研究",
+   "key_quote_zh": "用树肤、麻头及敝布、鱼网以为纸",
+   "key_quote_en": "'He used tree bark, hemp scraps, worn cloth and fishing nets to make paper.'",
+   "key_concepts": [
+    "原料谱系",
+    "廉价替代",
+    "废弃物资源化",
+    "反稀缺设计",
+    "供应韧性"
+   ],
+   "process_zh": [
+    "定位真实瓶颈：问'规模化的卡点是技术还是原料'——若原料占成本主导，则一切工艺优化都无效",
+    "盘点废弃物资源：列出本地常年稳定产生、无人认领的廉价物料——树皮、旧布、破网、下脚料",
+    "验证可加工性：逐类测试其纤维特性与工艺兼容性——不因'是废物'而预设不可用，也不因'是废物'而免于检验",
+    "组合成谱系：把验证合格的原料按地域可得性编成矩阵——任何一地至少有一种可采，供应不随单一来源中断而断"
+   ],
+   "process_en": [
+    "Locate the true bottleneck: ask whether scale is blocked by technique or by material — if material dominates cost, no process optimization will help",
+    "Inventory waste resources: list cheap materials steadily generated locally and unclaimed by anyone — bark, rags, broken nets, offcuts",
+    "Verify processability: test each class's fibre properties and process compatibility — neither presume unusability because it is waste, nor exempt it from inspection for the same reason",
+    "Assemble the spectrum: arrange the qualified materials in a matrix by regional availability — every locality has at least one workable source, so supply never dies with any single channel"
+   ],
+   "representative_cases_zh": [
+    "树皮入纸：以楮、桑等树皮替代麻——把原料从'农业副产'扩展到'林业副产'，江南桑区与北方皮纸产区各自成系",
+    "敝布与鱼网入纸：把城市与水乡的废弃物变成纸浆来源——材料成本近乎为零，收集即加工",
+    "麻头入纸：把绳索麻线的下脚料并入谱系——质量上仍保麻纤维的强度优势",
+    "四料并用的战略效果：任何一县、任何一季，四类原料至少可得其一——纸坊于是可以在全国任意地点开设"
+   ],
+   "representative_cases_en": [
+    "Bark into paper: mulberry and paper-mulberry bark replacing hemp — extending the material base from 'agricultural by-product' to 'forestry by-product', with Jiangnan mulberry districts and northern bark-paper regions each forming a system",
+    "Rags and fishing nets into paper: turning urban and waterside waste into pulp feedstock — near-zero material cost, collection being the only processing",
+    "Hemp scraps into paper: rope and cordage offcuts folded into the spectrum, retaining hemp fibre's strength advantage",
+    "The strategic effect of using all four: in any county in any season at least one class is available — so a paper mill could be opened anywhere in the empire"
+   ],
+   "modern_applications_zh": [
+    "供应链韧性设计：单一来源风险用'原料谱系'而非'备选供应商'来消解——谱系是结构性冗余，备选是运营性冗余",
+    "循环经济产品定义：以废弃物稳定产生量规划产能——'垃圾是放错位置的原料'的东汉先例",
+    "成本结构重构：当原料占成本70%以上时，优先换原料谱系而非优化工艺",
+    "创业选址逻辑：把'本地什么废料最便宜'作为产能布局的第一问"
+   ],
+   "modern_applications_en": [
+    "Supply-chain resilience: dissolve single-source risk with a material spectrum rather than backup suppliers — the spectrum is structural redundancy, the backup operational",
+    "Circular-economy product definition: plan capacity against the steady generation rate of waste — the Eastern Han precedent of 'waste as misplaced raw material'",
+    "Cost-structure re-engineering: when material exceeds 70% of cost, change the material spectrum before optimizing the process",
+    "Startup siting logic: make 'what waste is cheapest here' the first question of capacity planning"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "宋应星（平行：《天工开物》记录的'弃物利用'传统——竹纸、废纸回浆皆是谱系扩展的延续）",
+    "老福特（跨文明平行：以农业废料提炼化工原料的尝试，同样以谱系扩展反制单一来源）",
+    "现代生物精炼工程师（传承：以秸秆、林业剩余物替代化石原料的当代谱系设计）"
+   ],
+   "related_modes": [
+    "M-CL-001",
+    "M-CL-003",
+    "M-CL-005",
+    "M-CL-010"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-003",
+   "mode_code": "M-CL-003",
+   "name_zh": "沤舂抄晒法",
+   "name_en": "The Method of Retting, Pounding, Lifting and Drying (Process Decomposition)",
+   "category": "工程学/流程分解",
+   "domain_zh": "流程工程方法论/把连续的手工经验分解为边界清晰、判据明确的离散工序",
+   "domain_en": "Process-engineering methodology",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "流程工程方法论/把连续的手工经验分解为边界清晰、判据明确的离散工序：纸浆的制备与成纸不是一道'手感'，而是一条链——浸泡（沤）脱胶、舂捣（舂）分丝、抄捞（抄）成型、晾晒（晒）定形；每道工序有独立输入输出与中间品判据（沤到胶质脱尽、舂到分丝均匀、抄到厚薄一致、晒到不翘不裂）；分解的意义是让失败可定位——纸不匀可查抄帘、纸发脆可查舂捣、纸不白可查沤制——把'不知道为什么坏'变成'知道在哪一步坏'，这是一切流程工程的原型操作",
+   "definition_en": "Process-engineering methodology / decomposing continuous craft experience into discrete operations with clear boundaries and explicit criteria: pulp preparation and sheet formation are not one 'feel' but a chain — soaking (retting) to remove gums, pounding to fibrillate, lifting the mould to form the sheet, drying to fix it; each operation has its own input, output and intermediate-product criterion (retted until the gums are gone, pounded until fibres are uniform, lifted to even thickness, dried without curl or crack); the point of decomposition is localizable failure — uneven sheet means check the screen mould, brittleness means check the pounding, dullness means check the retting — turning 'no idea why it failed' into 'we know which step failed': the prototype operation of all process engineering",
+   "source_chapter": "《后汉书·蔡伦传》及造纸工艺研究",
+   "key_quote_zh": "用树肤、麻头及敝布、鱼网以为纸（四料一链：沤、舂、抄、晒各有其功）",
+   "key_quote_en": "'He used tree bark, hemp scraps, worn cloth and fishing nets to make paper' — four materials, one chain: retting, pounding, lifting, drying, each with its own work",
+   "key_concepts": [
+    "工序分解",
+    "中间品判据",
+    "失败可定位",
+    "手感工程化",
+    "链式流程"
+   ],
+   "process_zh": [
+    "观察全流程：跟完一个成品从原料到交付的全程，记录每一步的动作与停顿点",
+    "划工序边界：在'动作性质变化'处切分——泡变舂、舂变抄、抄变晒，各工序间以中间品交接",
+    "定中间判据：为每个交接点写'合格长什么样'——胶质脱尽、纤维均匀、厚薄一致、不翘不裂",
+    "建失败索引：把成品缺陷反查到具体工序——每类缺陷对应一个责任工序，修复动作回到该步"
+   ],
+   "process_en": [
+    "Observe the whole flow: follow one finished product from material to delivery, recording every action and pause",
+    "Draw operation boundaries: cut where the nature of the action changes — soak to pound, pound to lift, lift to dry — with the intermediate product handed over at each joint",
+    "Fix intermediate criteria: write at each hand-off 'what合格 looks like' — gums gone, fibres even, thickness uniform, no curl or crack",
+    "Build a failure index: trace every finished-product defect back to a specific operation — each defect class maps to one responsible step, and the fix returns there"
+   ],
+   "representative_cases_zh": [
+    "沤制判据：原料浸泡至外层胶质腐烂易除——时间随季节水温调整，但'胶脱尽'的判据不变",
+    "舂捣判据：捣至纤维帚化分丝均匀——纸的强度由这一步决定，'舂不透则纸脆'",
+    "抄捞判据：帘入浆、提起、滤水、覆帘——厚薄由抄的手法与浆液浓度共决，'抄不匀则纸花'",
+    "晒晾判据：贴墙阴干至不翘不裂——急晒则脆、阴湿则霉，定形条件写进工艺"
+   ],
+   "representative_cases_en": [
+    "Retting criterion: soak until the outer gums rot away easily — duration shifts with season and water temperature, but the criterion 'gums fully removed' never changes",
+    "Pounding criterion: pound until fibres fibrillate into uniform brush-ends — sheet strength is decided here; 'under-pounded paper is brittle'",
+    "Lifting criterion: dip the screen, raise, drain, couch — evenness is set jointly by lifting technique and pulp consistency; 'uneven lifting makes mottled paper'",
+    "Drying criterion: dry against the wall in shade until no curl, no crack — quick sun makes brittleness, damp makes mildew; the fixing conditions belong to the process document"
+   ],
+   "modern_applications_zh": [
+    "软件流水线设计：构建—测试—打包—发布各环节设独立判据，失败按环节定位——CI/CD 即现代'沤舂抄晒'",
+    "生产质量体系：把'成品不良'反查到工序的缺陷索引表——现代 SPC 与蔡伦法同构",
+    "知识工作分解：把研究写作拆成'选题—资料—初稿—定稿'并给每步中间判据——避免'最后才发现整篇不行'",
+    "培训课程设计：技艺教学按工序逐步验证，学员在每道工序拿到'合格判据'而非笼统示范"
+   ],
+   "modern_applications_en": [
+    "Software pipeline design: independent criteria at build, test, package and release, failures localized by stage — CI/CD is modern retting-pounding-lifting-drying",
+    "Production quality systems: defect index tables tracing finished-goods faults back to operations — modern SPC is isomorphic with Cai Lun's method",
+    "Knowledge-work decomposition: split research-writing into topic-sources-draft-final with an intermediate criterion per step — so you never discover at the end that the whole piece fails",
+    "Training-course design: teach a craft operation by operation with pass criteria at each step, not a single vague demonstration"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "宋应星（平行：把工序链文字化配图——《天工开物》'过手七十二'的瓷器工序账）",
+    "泰勒（跨文明平行：动作研究与工时分解——流程分解的管理学系统化）",
+    "丰田生产方式创立者（传承：工序判据+安灯拉停+缺陷回溯的现场工程）"
+   ],
+   "related_modes": [
+    "M-CL-001",
+    "M-CL-004",
+    "M-CL-006",
+    "M-CL-008"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-004",
+   "mode_code": "M-CL-004",
+   "name_zh": "为后世法标准文件法",
+   "name_en": "The Method of Standards as Documents for Posterity",
+   "category": "知识管理/标准化",
+   "domain_zh": "标准化方法论/以'为后世法'把工艺标准写成可传可改的文件，使手艺脱离个人生命而存续",
+   "domain_en": "Standardization and knowledge-management methodology",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "标准化方法论/以'为后世法'把工艺标准写成可传可改的文件，使手艺脱离个人生命而存续：《后汉书》评其监造诸器'莫不精工坚密，为后世法'——'法'即标准，'为后世'即文件面向未来使用者；标准化的真正产品不是器物而是'如何做出器物的规定'——规定写得足够明确，后人可以照做；写得留有余地，后人可以改进；此法把手艺的存续从师徒口传的脆弱链条改为文件的强韧链条——师傅会死，法不会",
+   "definition_en": "Standardization and knowledge-management methodology / writing craft standards as documents 'for posterity', so that skill survives the individual life: the Book of the Later Han judges the instruments he supervised 'all exquisitely finished, solid and precise — models for posterity (wei houshi fa)'; 'fa' is the standard, 'for posterity' means the document addresses future users; the true product of standardization is not the artefact but 'the specification of how to make the artefact' — written clearly enough that later hands can follow it, written openly enough that they can improve it; the method converts craft transmission from the fragile chain of master-to-apprentice speech into the tough chain of documents — the master dies, the standard does not",
+   "source_chapter": "《后汉书·蔡伦传》",
+   "key_quote_zh": "监作秘剑及诸器械，莫不精工坚密，为后世法",
+   "key_quote_en": "'He supervised the making of state swords and various instruments: all were exquisitely finished, solid and precise — a model (fa) for posterity.'",
+   "key_concepts": [
+    "为后世法",
+    "精工坚密",
+    "标准文件化",
+    "可传可改",
+    "知识脱个人化"
+   ],
+   "process_zh": [
+    "区分产品与标准：每做成一类合格产品，追问'这次做对的东西是什么'——把隐性成功因素显性化",
+    "写成后人视角：标准不是给同辈看的备忘，是给不知情后人看的操作书——假设读者对现场一无所知",
+    "留改进接口：标准里标注'此处可调'的参数区间——既是约束也是授权，后人改了要记录改了什么",
+    "以验收闭环：标准生效后用它验收产品；产品不达标先改流程再改标准——标准是活的文件"
+   ],
+   "process_en": [
+    "Separate product from standard: with each class of qualified product, ask 'what did we get right this time' — make the tacit success factors explicit",
+    "Write for the future reader: a standard is not a memo for peers but an operations manual for unknowing descendants — assume the reader knows nothing of the shop floor",
+    "Leave improvement interfaces: mark in the standard the adjustable parameter ranges — both constraint and authorization; whoever changes it records what changed",
+    "Close the loop by acceptance: once in force, accept products against the standard; when goods fail, fix the process before the standard — a standard is a living document"
+   ],
+   "representative_cases_zh": [
+    "秘剑与诸器械的标准器路线：不是做一把好剑，而是定下'照此法做出来都是好剑'的规格",
+    "造纸法以'奏上'形式官方化——奏报即标准发布，'帝善其能'即验收，'莫不从用'即推广",
+    "监造与校雠并行的知识纪律：校书核文本、监造核器物——同一套'对照既定标准验收'的判定习惯",
+    "'为后世法'的时间意识：标准写作假定两百年后有人照做——事实上纸法传行近两千年"
+   ],
+   "representative_cases_en": [
+    "The standard-item route for state swords and instruments: not forging one good sword, but fixing the specification such that 'made this way, every sword is good'",
+    "The papermaking method officialized as a memorial — the memorial is the standard's release, the emperor's approval its acceptance, 'none failed to adopt it' its dissemination",
+    "The parallel discipline of supervision and collation: collating texts and inspecting instruments — the same habit of 'accept against the fixed standard'",
+    "The temporal consciousness of 'for posterity': the standard assumes someone will follow it two centuries later — and in fact the paper method ran for nearly two thousand years"
+   ],
+   "modern_applications_zh": [
+    "开源项目文档纪律：README 不是备忘而是'为后世法'——假设贡献者对项目一无所知",
+    "企业 SOP 与知识库：把个人诀窍转成可审计标准，员工离职知识不流失",
+    "API 与规范设计：接口文档留'可调参数'与变更记录——标准既约束也授权演进",
+    "个人成长：把每次做对的事写成可复用检查单——自己的'为后世法'，未来的自己就是后人"
+   ],
+   "modern_applications_en": [
+    "Open-source documentation discipline: the README is a standard for posterity — assume contributors know nothing of the project",
+    "Corporate SOPs and knowledge bases: convert personal know-how into auditable standards so knowledge survives staff turnover",
+    "API and specification design: interface docs with adjustable parameters and change logs — standards that both constrain and authorize evolution",
+    "Personal growth: write every success as a reusable checklist — your own 'standard for posterity'; your future self is the posterity"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "宋应星（平行：把当世工艺写成后世可读的全链文件——《天工开物》即纸上的'为后世法'）",
+    "惠特尼（跨文明平行：可互换零件标准——用规格文件替代工匠个人技艺匹配）",
+    "ISO 标准体系工程师（传承：文件化标准的全球治理结构）"
+   ],
+   "related_modes": [
+    "M-CL-001",
+    "M-CL-003",
+    "M-CL-006",
+    "M-CL-010"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-005",
+   "mode_code": "M-CL-005",
+   "name_zh": "廉纸代帛法",
+   "name_en": "The Method of Substituting the Cheap Substrate (Disruptive Cost-Reordering)",
+   "category": "经济学/替代创新",
+   "domain_zh": "替代创新方法论/以'功能等价+数量级便宜'的替代品改写一个行业的成本结构与可达人群",
+   "domain_en": "Substitution-innovation methodology",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "替代创新方法论/以'功能等价+数量级便宜'的替代品改写一个行业的成本结构与可达人群：纸不比帛更好看，但功能等价（可书写、可卷舒、可长久保存）而价格低几个数量级——替代的意义不在改良高端而在打开下层市场：竹简太重、缣帛太贵，知识传播被成本锁死在少数人；纸以'足够好+极便宜'解锁了平民书写、私学、账簿、契约的巨大需求——成本结构每降低一个数量级，就唤醒一类沉睡的用途；此法把创新的目标从'做得更好'改写为'让原本用不起的人用得起'",
+   "definition_en": "Substitution-innovation methodology / rewriting an industry's cost structure and reachable population with a substitute that is 'functionally equivalent and orders of magnitude cheaper': paper is not prettier than silk, but functionally equivalent (writable, rollable, durable) at a fraction of the price — the point of substitution is not to improve the high end but to open the low end: bamboo was too heavy, silk too costly, and the spread of knowledge locked by cost among the few; paper, 'good enough and extremely cheap', unlocked the vast demand of popular writing, private schools, account books and contracts — every order-of-magnitude drop in cost awakens a class of dormant uses; the method rewrites innovation's goal from 'make it better' to 'make it affordable to those who could never afford it'",
+   "source_chapter": "《后汉书·蔡伦传》及造纸工艺研究",
+   "key_quote_zh": "自是莫不从用焉，故天下咸称'蔡侯纸'",
+   "key_quote_en": "'From then on none failed to adopt it — so the whole empire called it Marquis Cai paper.'",
+   "key_concepts": [
+    "廉纸代帛",
+    "功能等价",
+    "数量级降价",
+    "下沉市场",
+    "唤醒沉睡需求"
+   ],
+   "process_zh": [
+    "找被成本锁死的需求：盘点'想要却用不起'的用途清单——谁需要写字却买不起帛、背不动简",
+    "定'足够好'线：明确替代品必须达到的最低功能判据（可写、可存、可传）——低于它替代失败，高于它浪费成本",
+    "打数量级差价：以谱系扩展+工序简化把价格压到被替代品的一个数量级以下——改良百分之十无意义",
+    "随降价再设计：新用途会反向要求产品改进（如账簿要的耐折与书信要的白度不同）——让需求拉动迭代"
+   ],
+   "process_en": [
+    "Find demand locked by cost: inventory the uses 'wanted but unaffordable' — who needs to write but cannot buy silk or carry slips",
+    "Fix the 'good enough' line: state the minimum functional criteria the substitute must meet (writable, storable, transmissible) — below it substitution fails, above it wastes cost",
+    "Strike an order-of-magnitude price gap: via spectrum-widening and process simplification push price below one tenth of the incumbent — a ten-percent improvement is meaningless",
+    "Redesign as price falls: new uses push back on the product (ledgers want fold-resistance, letters want whiteness) — let demand pull the iteration"
+   ],
+   "representative_cases_zh": [
+    "纸代简帛的账目级效果：官府文书、民间契约、私塾课本同时在纸上出现——'莫不从用'的实质是用途大爆发",
+    "对私学与经传传播的解锁：文本复制成本下降使注疏、抄经、蒙学读物得以流通——纸改变了知识社会学",
+    "不追求纸比帛华美：接受'够用的白度与韧性'，把节省全部投入降价——克制高端化的产品纪律",
+    "廉价催生新文类：日记、账簿、便条这类'写在帛上太奢侈'的文体因纸而生"
+   ],
+   "representative_cases_en": [
+    "The ledger-level effect of paper replacing slips and silk: government documents, private contracts and school texts appear on paper simultaneously — 'none failed to adopt it' really means an explosion of uses",
+    "Unlocking private schools and the spread of classics: falling copying costs let commentaries, sutra copies and primers circulate — paper changed the sociology of knowledge",
+    "No pursuit of paper more splendid than silk: accepting 'sufficient whiteness and strength' and pouring all savings into price — the product discipline of resisting premium drift",
+    "Cheapness begets new genres: diaries, ledgers and notes — forms 'too extravagant for silk' — born of paper"
+   ],
+   "modern_applications_zh": [
+    "颠覆式创新战略：以'足够好+极便宜'进入被在位者忽略的下层市场再向上——克里斯坦森理论的先例",
+    "定价策略：为'从没用过的人'定价而非为'现有用户'定价——市场边界的重新划定",
+    "开源/免费软件战略：功能等价+零边际成本对专有软件的替代",
+    "成本路线图管理：把'下一个数量级降价'作为产品路线图的主轴而非功能堆叠"
+   ],
+   "modern_applications_en": [
+    "Disruptive-innovation strategy: enter the low end incumbents ignore with 'good enough and far cheaper', then move up — the precedent of Christensen's theory",
+    "Pricing strategy: price for 'those who never had it', not for current users — redrawing the market boundary",
+    "Open-source and free-software strategy: functional equivalence at zero marginal cost substituting proprietary software",
+    "Cost-roadmap management: make 'the next order-of-magnitude price drop' the spine of the product roadmap, not feature stacking"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "古腾堡（后续：印刷机把'纸上的复制'再降一个数量级——纸的廉价是印刷革命的前提）",
+    "克里斯坦森（跨文明平行：把'低端颠覆'理论化——两千年前蔡伦已执行完毕）",
+    "宋应星（平行：记录并论证'贵五谷而贱金玉'的成本-价值排序——同一经济学直觉）"
+   ],
+   "related_modes": [
+    "M-CL-001",
+    "M-CL-002",
+    "M-CL-009",
+    "M-CL-010"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-006",
+   "mode_code": "M-CL-006",
+   "name_zh": "监造验收法",
+   "name_en": "The Method of Supervised Acceptance",
+   "category": "管理学/质量控制",
+   "domain_zh": "质量控制方法论/以监造者立场对工艺全程执行受控试产、对照标准验收、不合格即追溯",
+   "domain_en": "Quality-control methodology",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "质量控制方法论/以监造者立场对工艺全程执行受控试产、对照标准验收、不合格即追溯：蔡伦的身份是尚方令——他不只是发明者更是工场监督者，其创新得以落地的结构性条件是'监造权'：可以在宫廷工场调集原料与工匠做受控试产，可以对成品逐件验收，可以让不合规的重做；'莫不精工坚密'是验收结果的记录而非宣传语；此法的要义是把质量从工匠良心问题改写为监造流程问题——验收标准先行、逐件对照、不合格追溯工序",
+   "definition_en": "Quality-control methodology / from the supervisor's seat, running controlled trial production over the whole process, accepting goods against the standard, and tracing every failure: Cai Lun was Prefect of the Imperial Workshop — not only the innovator but the workshop's supervisor; the structural condition of his innovation's landing was 'supervisory authority': he could muster materials and artisans in the palace workshop for controlled trial production, accept each finished piece against criteria, and have non-conforming work redone; 'all exquisitely finished, solid and precise' is a record of acceptance results, not a slogan; the method's essence is rewriting quality from a matter of artisan conscience into a matter of supervisory process — standard first, piece-by-piece comparison, defect traced to its operation",
+   "source_chapter": "《后汉书·蔡伦传》",
+   "key_quote_zh": "监作秘剑及诸器械，莫不精工坚密，为后世法",
+   "key_quote_en": "'He supervised the making of state swords and various instruments: all were exquisitely finished, solid and precise — a model for posterity.'",
+   "key_concepts": [
+    "监造",
+    "受控试产",
+    "逐件验收",
+    "不合格追溯",
+    "质量流程化"
+   ],
+   "process_zh": [
+    "取得监造授权：确认自己（或团队）有调资源、定标准、判合格的权限——无授权的质量要求是空谈",
+    "小批受控试产：在可观察的环境里试制首批产品——记录每批参数，差异可归因",
+    "逐件对照验收：按既定判据对成品逐件判定，判定记录留档——'莫不精工坚密'即验收台账",
+    "不合格追溯工序：把每件不合格品追到具体工序与责任人，修正后重验——追溯是质量体系的牙齿"
+   ],
+   "process_en": [
+    "Secure supervisory authority: confirm you (or the team) hold the mandate to marshal resources, fix standards and judge acceptance — quality demands without authority are talk",
+    "Controlled trial batches: make the first runs in an observable setting, recording parameters batch by batch so differences are attributable",
+    "Piece-by-piece acceptance: judge every finished item against the fixed criteria and keep the record — 'all exquisitely finished' is an acceptance ledger",
+    "Trace failures to operations: send each non-conforming piece back to its operation and its operator, correct, re-verify — traceability is the teeth of a quality system"
+   ],
+   "representative_cases_zh": [
+    "尚方工场的试产条件：宫廷资源可调——树皮麻头集中供应、工匠专职试制，历史上极少有的'研发中试'环境",
+    "秘剑验收的'莫不'：逐件全检而非抽检——标准器不容不合格品出厂",
+    "造纸法先宫内验证再'奏上'推广：105 年奏报前必有多年试产——奏上的是验证完成的工艺而非想法",
+    "校雠东观的同构操作：文本校对即'逐字验收'，异文即'不合格品'——同一监造纪律用于知识生产"
+   ],
+   "representative_cases_en": [
+    "The trial conditions of the Shangfang workshop: court resources could be marshalled — bark and hemp supplied in bulk, artisans assigned full-time to trials, a research-pilot environment rare in history",
+    "The 'all' in 'all exquisitely finished': piece-by-piece full inspection, not sampling — standard items permit no non-conforming piece to leave the shop",
+    "Papermaking verified in the palace before memorialization: years of trial production must precede the 105 memorial — what was memorialized was a verified process, not an idea",
+    "The isomorphic work in the Eastern Library: collating texts is 'character-by-character acceptance', variant readings are 'non-conforming items' — the same supervisory discipline applied to knowledge production"
+   ],
+   "modern_applications_zh": [
+    "研发中试（pilot plant）制度：新产品在受控小批量环境验证后才放大量产",
+    "质量门（quality gate）管理：项目各阶段设验收判据，不过门不放行",
+    "软件发布验收：以验收清单逐条对照而非'感觉可以了'——发布台账即'莫不精工坚密'",
+    "组织变革落地：变革发起者需先取得'监造权'——能定标准、能判合格、能叫停，否则方案再好也落不了地"
+   ],
+   "modern_applications_en": [
+    "Pilot-plant systems: new products verified in controlled small batches before scale-up",
+    "Quality-gate management: acceptance criteria at each project stage; no gate, no passage",
+    "Software release acceptance: checklist-by-checklist verification instead of 'feels ready' — the release ledger is modern 'all exquisitely finished'",
+    "Organizational change landing: the champion must first secure 'supervisory authority' — to set standards, judge acceptance, halt work; without it even a perfect plan never lands"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "宋应星（平行：以著述记录验收标准——《天工开物》载各类产品的合格判据）",
+    "休哈特（跨文明平行：统计质量控制——把验收从全检升级为过程控制，监造逻辑的现代形态）",
+    "现代首席质量官（传承：监造权、验收台账、追溯体系的三件套）"
+   ],
+   "related_modes": [
+    "M-CL-001",
+    "M-CL-003",
+    "M-CL-004",
+    "M-CL-008"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-007",
+   "mode_code": "M-CL-007",
+   "name_zh": "暴体田野法",
+   "name_en": "The Method of Field Observation (Bao Ti Tian Ye)",
+   "category": "认识论/工程师姿态",
+   "domain_zh": "工程师认识论/以'闭门绝宾、暴体田野'的现场观察替代宫廷耳目与文牍推想",
+   "domain_en": "Engineering epistemology",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "工程师认识论/以'闭门绝宾、暴体田野'的现场观察替代宫廷耳目与文牍推想：《后汉书》记其'每至休沐，辄闭门绝宾，暴体田野'——休假不社交，关门独处，赤身暴于田野（一说为养生沐浴，其行为模式一致：脱离宫廷常规场域、直接接触自然与实地）；对监造者而言，工艺真相不在奏章与汇报里，在工场的火候、田间的原料、匠人的手上；此法把技术决策的输入源从'别人告诉我的'改写为'我亲自看到的'——是工程师脱离文牍主义的方法论自觉",
+   "definition_en": "Engineering epistemology / replacing court hearsay and documentary inference with first-hand field observation — 'shutting the gates, dismissing visitors, exposing the body in the fields': the Book of the Later Han records that on every rest day he closed his gates, turned away guests and went out bare-bodied into the fields (whether hygienic bathing or not, the behavioural pattern is identical: leave the regular court setting, contact nature and the actual site directly); for a supervisor, the truth of a craft is not in memorials and reports but in the workshop's heat, the fields' materials, the artisans' hands; the method rewrites the input of technical decisions from 'what others told me' to 'what I saw myself' — the methodological self-awareness of the engineer escaping paperwork-ism",
+   "source_chapter": "《后汉书·蔡伦传》",
+   "key_quote_zh": "每至休沐，辄闭门绝宾，暴体田野",
+   "key_quote_en": "'On every rest day he would shut his gates, dismiss all visitors, and expose his body in the open fields.'",
+   "key_concepts": [
+    "暴体田野",
+    "闭门绝宾",
+    "现场观察",
+    "反文牍主义",
+    "一手输入"
+   ],
+   "process_zh": [
+    "设固定现场日：把'去现场'写成制度性日程——休沐日即田野日，不是有空才去",
+    "脱离常规场域：离开办公室与汇报链条，物理到达工艺发生地——火候、原料、动作只在现场可见",
+    "裸观察：不带预设地看实际操作——匠人如何拿料、如何判断火候、在哪一步返工",
+    "把观察转回决策：现场所见直接改写工艺参数与验收判据——观察不落文件等于没看"
+   ],
+   "process_en": [
+    "Institutionalize field days: write 'go to the site' into the calendar — rest days are field days, not spare-time visits",
+    "Leave the regular setting: out of the office and the reporting chain, physically to where the craft happens — heat, materials and motions are visible only on site",
+    "Naked observation: watch the actual operations without presuppositions — how artisans hold the material, judge the heat, where they rework",
+    "Feed observation back into decisions: what the site shows directly rewrites process parameters and acceptance criteria — observation not written down is observation not done"
+   ],
+   "representative_cases_zh": [
+    "对原料的田野了解：树皮取自何树、麻头来自何处、渔网收自谁手——原料谱系来自产地走访而非奏章",
+    "对工匠操作的现场掌握：沤到什么程度、舂到什么声、抄出什么厚度——判据从匠人手上偷师",
+    "拒绝宫廷耳目替代亲历：不满足于工场吏员的转述——监造者的信息纪律是一手性",
+    "'闭门绝宾'的注意力管理：切断社交信息流，把休假整块投给田野——深度观察需要整块时间"
+   ],
+   "representative_cases_en": [
+    "Field knowledge of materials: which trees yield bark, where hemp scraps come from, whose nets are bought — a material spectrum built through site visits, not memorials",
+    "On-site grasp of artisan operations: how far to ret, what sound the pounding makes, what thickness the sheet shows — criteria learned from craftsmen's hands",
+    "Refusing court hearsay as a substitute for presence: unsatisfied with the foremen's reports — the supervisor's information discipline is first-handedness",
+    "'Shutting the gates' as attention management: cutting off the social information stream to give whole rest days to the fields — deep observation needs unbroken time"
+   ],
+   "modern_applications_zh": [
+    "管理与工程'走现场'（genba）纪律：丰田式现地现物——问题发生在哪就去哪看",
+    "用户研究纪律：不看汇报看录像、不上问卷上现场——产品决策的一手输入",
+    "领导者的信息 diet：定期切断二手信息流（汇报、简报），整块时间接触一手现场",
+    "审计与验收纪律：'我看到的'与'报告说的'必须交叉核对——监造者不可只读文牍"
+   ],
+   "modern_applications_en": [
+    "Management and engineering genba discipline: Toyota's 'go and see' — go where the problem occurs",
+    "User-research discipline: watch recordings not summaries, visit sites not surveys — first-hand input for product decisions",
+    "A leader's information diet: periodically cut off second-hand flows (reports, briefings) and give whole blocks to the first-hand site",
+    "Audit and acceptance discipline: 'what I saw' and 'what the report says' must cross-check — a supervisor must not live on paperwork"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "宋应星（平行：为写《天工开物》遍访田间作坊——观察者与监造者的同种田野纪律）",
+    "大野耐一（跨文明平行：现地现物（genchi genbutsu）——把'去现场'上升为管理哲学）",
+    "现代用户研究员（传承：田野调查方法在产品领域的制度化）"
+   ],
+   "related_modes": [
+    "M-CL-003",
+    "M-CL-006",
+    "M-CL-008",
+    "M-CL-010"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-008",
+   "mode_code": "M-CL-008",
+   "name_zh": "校雠器物一体法",
+   "name_en": "The Method of Unifying Text-Collation and Artefact-Inspection",
+   "category": "知识论/质量管理",
+   "domain_zh": "知识质量控制方法论/把校书核字与监器核物视为同一判定活动——'对照标准找差异'的知识纪律",
+   "domain_en": "Knowledge-quality methodology",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "知识质量控制方法论/把校书核字与监器核物视为同一判定活动——'对照标准找差异'的知识纪律：蔡伦一生兼做两件事——监造器物（对照工艺判据验收实物）与典校经传（对照善本判订文字）；两者在方法论上同构：先立标准（善本/工艺规格），再逐项对照（逐字/逐件），差异即偏差（异文/不合格），偏差须裁定并记录；此法揭示了'质量'的一般性——无论对象是器物还是文本，质量控制都是同一种认知操作，可迁移、可复用",
+   "definition_en": "Knowledge-quality methodology / treating the collation of texts and the inspection of artefacts as one and the same act of judgment — the discipline of 'comparing against a standard to find differences': Cai Lun's life ran on two parallel tracks — supervising artefacts (accepting objects against craft criteria) and collating the classics (adjudicating words against master copies); methodologically isomorphic: first fix the standard (master text / craft specification), then compare item by item (character by character / piece by piece), treat every difference as deviation (variant reading / non-conforming piece), adjudicate and record each deviation; the method reveals the generality of 'quality' — whether the object is a thing or a text, quality control is one cognitive operation, transferable and reusable",
+   "source_chapter": "《后汉书·蔡伦传》及东汉东观校雠制度",
+   "key_quote_zh": "监作秘剑及诸器械，莫不精工坚密（器）；典校经传，雠校审定（文）——核异即同功",
+   "key_quote_en": "'He supervised the state swords and instruments, all exquisitely finished' (the object) — 'he collated the classics and fixed the text' (the word): to inspect difference is the same work",
+   "key_concepts": [
+    "校雠",
+    "监造",
+    "对照判定",
+    "差异即偏差",
+    "质量一般性"
+   ],
+   "process_zh": [
+    "立参照标准：为验收对象选定基准——器物用工艺规格，文本用善本——无基准则无判定",
+    "逐项对照：以最小单元（字/件/参数）逐一比对，不做整体印象判断",
+    "裁定差异：对每处差异做出'以谁为准'的裁定并记录理由——校勘记/验收单同构",
+    "沉淀判例：把裁定结果汇成判例库——下次同类差异直接援引，判定一致性随时间提升"
+   ],
+   "process_en": [
+    "Fix the reference standard: choose a baseline for what is inspected — craft specifications for objects, master copies for texts; no baseline, no judgment",
+    "Compare item by item: at the smallest unit (character, piece, parameter), never by overall impression",
+    "Adjudicate differences: for each difference rule 'which side governs' and record the reason — the collation note and the acceptance sheet are the same genre",
+    "Accumulate precedents: pool rulings into a precedent library — the next similar difference is cited, and judgment consistency rises over time"
+   ],
+   "representative_cases_zh": [
+    "东观校书：以兰台善本核兰台抄本，异文逐条裁断——'雠校'一词的本义即两本相对而视",
+    "尚方验器：以'精工坚密'判据逐件核验——不合格者返工，如文字之舛误者订正",
+    "同一个人的两种验收：监造器物与典校经传由同一人承担——印证两种活动共享同一套判定心智",
+    "判例意识：'为后世法'本身即判例沉淀——标准随裁定积累而愈精"
+   ],
+   "representative_cases_en": [
+    "Collating in the Eastern Library: checking transcripts against the master copies of the Lan Terrace, ruling on each variant — the very word jiaochou means 'two texts facing each other'",
+    "Inspecting in the Shangfang workshop: verifying each piece against 'exquisite, solid, precise' — the non-conforming item reworked, as a corrupted word is corrected",
+    "One person, two acceptances: supervising instruments and collating classics fell to the same man — evidence that the two acts share one judging mind",
+    "Precedent-consciousness: 'a model for posterity' is itself precedent sedimentation — the standard grows finer as rulings accumulate"
+   ],
+   "modern_applications_zh": [
+    "代码评审（code review）：以编码规范为善本逐行对照——'diff'即现代'雠校'",
+    "翻译与本地化质检：以术语库与风格指南为基准逐句对照——文本验收的工业化",
+    "数据质量稽核：以 schema 为标准逐字段校验——结构化数据的'校雠'",
+    "个人学习：以'对照标准找差异'训练任何技能——范本在手，逐项比对，差异即课程"
+   ],
+   "modern_applications_en": [
+    "Code review: the coding standard as master copy, line-by-line comparison — the 'diff' is modern collation",
+    "Translation and localization QA: term bases and style guides as baselines, sentence-by-sentence checks — industrialized text acceptance",
+    "Data-quality audits: schema as the standard, field-by-field validation — collation for structured data",
+    "Personal learning: train any skill by 'compare against a standard, find differences' — model in hand, item-by-item comparison; the differences are the curriculum"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "刘向刘歆父子（先例：西汉校雠学奠基——版本相对、异文裁断的学科化）",
+    "理查德·费曼（跨文明平行：'对一切声称做对照检验'的证伪式核查——同一判定纪律用于科学）",
+    "现代测试工程师（传承：断言即基准、比对即校雠的自动化验收）"
+   ],
+   "related_modes": [
+    "M-CL-004",
+    "M-CL-006",
+    "M-CL-007",
+    "M-CL-009"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-009",
+   "mode_code": "M-CL-009",
+   "name_zh": "机制借势法",
+   "name_en": "The Method of Leveraging Institutional Position",
+   "category": "战略学/组织内创新",
+   "domain_zh": "组织内创新方法论/以宦官兼尚方令的机制位置借势——把体制内身份转化为创新所需资源与推广渠道",
+   "domain_en": "Intrapreneurial strategy",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "组织内创新方法论/以宦官兼尚方令的机制位置借势——把体制内身份转化为创新所需资源与推广渠道：宦官身份使其能接近皇帝与中枢（奏上直达），尚方令身份使其掌握工场资源（试产可行），监造职责使其创新成为'本职工作'而非业余冒险（可持续）；纸法得以在一年内'天下咸称'，靠的不仅是工艺优越，更是'奏上—帝善—诏行'的官方推广渠道；此法的要义：在体制内做创新，先算清自己位置上的资源与通道，把创新设计成顺着机制走的事，而不是逆着机制斗的事",
+   "definition_en": "Intrapreneurial strategy / leveraging the institutional position of eunuch-plus-workshop-prefect — converting an in-system identity into the resources and channels innovation needs: the eunuch rank gave access to the emperor and the centre (the memorial went straight up), the prefecture of the Shangfang gave command of workshop resources (trial production was feasible), and the supervisory duty made innovation part of the job rather than an after-hours gamble (sustainability); that the paper method became 'known to all the empire' within a year owed not only to its technical superiority but to the official channel of 'memorialized — emperor approved — decreed into use'; the essence: innovating inside a system, first count the resources and channels of your own position, and design the innovation to flow with the mechanism rather than fight it",
+   "source_chapter": "《后汉书·蔡伦传》",
+   "key_quote_zh": "元兴元年奏上之，帝善其能，自是莫不从用焉",
+   "key_quote_en": "'In the first year of Yuanxing he memorialized it; the emperor praised his skill, and from then on none failed to adopt it.'",
+   "key_concepts": [
+    "机制借势",
+    "奏上直达",
+    "体制内创新",
+    "顺机制设计",
+    "职位资源化"
+   ],
+   "process_zh": [
+    "清点位置资源：列出当前职位可调动的资源（人力、物料、信息、注意）与通道（向上汇报、横向协作）",
+    "把创新对齐职责：让创新工作看起来与考核目标一致——蔡伦的试产就在其监造职责之内",
+    "设计官方化节点：找到让创新'转正'的正式通道——奏上、立项、评审——借体制的合法性背书",
+    "随势扩散：借官方认可推动全组织采用——'诏行'式推广比任何说服都便宜"
+   ],
+   "process_en": [
+    "Inventory positional resources: list what your position can marshal (people, material, information, attention) and its channels (upward reporting, lateral cooperation)",
+    "Align innovation with duty: make the innovative work read as consistent with what you are assessed on — Cai Lun's trials sat squarely inside his supervisory remit",
+    "Design the officialization node: find the formal channel that 'regularizes' the innovation — the memorial, the project approval, the review — borrowing the system's legitimacy",
+    "Diffuse with the current: use official endorsement to push organization-wide adoption — a decree costs less than any persuasion"
+   ],
+   "representative_cases_zh": [
+    "宦官通道的政治价值：中常侍可直达御前——105 年奏上即得'帝善其能'，决策链最短",
+    "尚方工场的中试价值：国家工场的资源与工匠使多年试产成为可能——民间发明家无此条件",
+    "把革新写成'监造职责的优异履行'：监作秘剑'为后世法'与造纸法同属一条履历线——创新与本职无缝",
+    "封侯的信号效应：龙亭侯之封使'蔡侯纸'成为品牌——体制荣誉直接转化为技术声誉资产"
+   ],
+   "representative_cases_en": [
+    "The political value of the eunuch channel: a Regular Palace Attendant reached the throne directly — the 105 memorial won 'the emperor praised his skill' on the shortest decision chain",
+    "The pilot value of the Shangfang workshop: a state workshop's resources and artisans made years of trial production possible — an advantage no private inventor had",
+    "Writing innovation as excellent discharge of duty: 'models for posterity' in sword-making and the paper method belong to one career line — innovation seamless with the day job",
+    "The signalling effect of the marquisate: enfeoffment as Marquis of Longting made 'Marquis Cai paper' a brand — institutional honour converted directly into technological reputation"
+   ],
+   "modern_applications_zh": [
+    "公司内部创业（intrapreneurship）：借公司资源与渠道做新业务，创新对齐现有 KPI 以获持续授权",
+    "职业策略：选择'离资源与决策链近'的位置——位置红利大于个人努力红利",
+    "标准推广策略：先取得组织正式背书（立项、评审、发布）再推动采用——合法性先于说服",
+    "跨界协作：以本职的优异履行为信用，兑换相邻领域的创新许可"
+   ],
+   "modern_applications_en": [
+    "Intrapreneurship: build the new business on company resources and channels, aligning innovation with existing KPIs for a continuous mandate",
+    "Career strategy: choose positions near resources and decision chains — positional dividend outweighs effort dividend",
+    "Standard-adoption strategy: secure formal organizational endorsement (project approval, review, release) before pushing adoption — legitimacy precedes persuasion",
+    "Cross-boundary collaboration: trade excellence in the day job for innovation licenses in adjacent fields"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "沈括（平行：以官方身份（《梦溪笔谈》作者为官）记录与推动技术——体制内技术写作）",
+    "贝尔（跨文明平行：在专利制度与电话公司体系内完成发明落地——机制借势的现代版）",
+    "现代首席技术官（传承：用组织资源办技术试验、用正式渠道发布标准）"
+   ],
+   "related_modes": [
+    "M-CL-001",
+    "M-CL-005",
+    "M-CL-006",
+    "M-CL-010"
+   ]
+  },
+  {
+   "figure_code": "CL",
+   "id": "M-CL-010",
+   "mode_code": "M-CL-010",
+   "name_zh": "器以载政法",
+   "name_en": "The Method of the Vessel Carrying Governance",
+   "category": "政治哲学/技术与国家",
+   "domain_zh": "技术与国家关系方法论/把器物革新定位为国家治理与文明传承的基础设施，以器载道、以纸载政",
+   "domain_en": "Technology-state relations methodology",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "技术与国家关系方法论/把器物革新定位为国家治理与文明传承的基础设施，以器载道、以纸载政：纸之于汉帝国不只是书写工具——政令、户籍、军报、经义、账目全部依赖书写载体；载体成本决定治理半径与文教半径：简牍重则文书迟、帛贵则档案俭；蔡伦的纸法把治理的信息基础设施从'昂贵稀缺'改为'廉价充裕'——帝国文书行政得以扩张，经学文本得以广传，此项工艺成为文明存续两千年的底座；此法把'发明'从工程事件提升为政治事件——评估一项技术，问它改变了国家与社会的哪条基础设施",
+   "definition_en": "Technology-state relations methodology / positioning artefact innovation as the infrastructure of governance and civilizational transmission — carrying the Way through the vessel, carrying governance through paper: for the Han empire paper was more than a writing tool — edicts, registers, military dispatches, classics and accounts all depended on the writing substrate; the substrate's cost sets the radius of administration and of education: heavy slips delay documents, costly silk thins the archives; Cai Lun's paper method changed the empire's information infrastructure from 'costly and scarce' to 'cheap and abundant' — documentary administration could expand, classical texts could spread; this craft became the foundation of two millennia of civilizational continuity; the method elevates 'invention' from an engineering event to a political event — evaluate any technology by asking which infrastructure of state and society it changed",
+   "source_chapter": "《后汉书·蔡伦传》及纸与汉代行政研究",
+   "key_quote_zh": "自是莫不从用焉——纸行而文书行政与经籍传承俱变",
+   "key_quote_en": "'From then on none failed to adopt it' — with paper's spread, both documentary administration and the transmission of the classics were transformed",
+   "key_concepts": [
+    "器以载政",
+    "纸载文明",
+    "信息基础设施",
+    "治理半径",
+    "技术政治化"
+   ],
+   "process_zh": [
+    "画依赖链：从目标成果（治理、教育、商业）反向列出其信息/物质基础设施——找到'卡半径'的载体环节",
+    "算载体账：估当前载体的成本、重量、寿命对使用半径的压制——把抽象的'重要'换成具体的账",
+    "以国家通道放大：识别该项革新里可借官方通道（诏令、学制、工程）放大的部分——基础设施级创新值得国家级推广",
+    "评估文明级影响：问'这项载体变化会让哪些此前不可能的制度成为可能'——技术评估以可能性空间为标尺"
+   ],
+   "process_en": [
+    "Draw the dependency chain: from the intended outcome (governance, education, commerce) list backwards its informational or material infrastructure — find the substrate that caps the radius",
+    "Run the substrate ledger: estimate how the current carrier's cost, weight and lifespan suppress the radius of use — turn abstract 'importance' into a concrete account",
+    "Amplify through state channels: identify the parts of the innovation that official channels (decrees, school systems, public works) can scale — infrastructure-grade innovation deserves state-level rollout",
+    "Assess civilizational impact: ask 'which previously impossible institutions does this substrate change make possible' — evaluate technology by the space of possibilities it opens"
+   ],
+   "representative_cases_zh": [
+    "汉代行政文书体系：诏令下行、计簿上计、邮驿传递——纸使文书行政的单位成本骤降，治理颗粒度变细",
+    "经学文本的扩散：太学与郡国学制的教科书需求——廉价纸使'经义传天下'从理想变为物流问题",
+    "纸与户籍、契约：基层产权与人口管理依赖可保存、可复制的文书——纸是制度的存续介质",
+    "历史评估：纸术西传经阿拉伯至欧洲——蔡伦的载体革命成为世界文明的公共基础设施"
+   ],
+   "representative_cases_en": [
+    "Han documentary administration: edicts downward, accounting registers upward, post-road transmission — paper slashed the unit cost of paperwork, refining the grain of governance",
+    "The diffusion of classical texts: the textbook demand of the Imperial Academy and commandery schools — cheap paper turned 'the classics reaching all under heaven' from an ideal into a logistics problem",
+    "Paper with household registers and contracts: local property and population administration depended on preservable, copyable documents — paper was the medium in which institutions persisted",
+    "The historical verdict: the paper craft travelled west through the Arab world to Europe — Cai Lun's substrate revolution became public infrastructure of world civilization"
+   ],
+   "modern_applications_zh": [
+    "技术政策评估：评估任何新技术先问'它改变了哪条公共基础设施'——互联网之于纸，同构",
+    "数字化转型战略：组织数字化的本质是更换'文书载体'——载体账（成本、半径、寿命）先行",
+    "开源基础设施投资：把关键软件当'文明底座'维护——现代的'纸'",
+    "教育普及规划：任何普及型制度（学制、医保、产权）都依赖一种可廉价复制的记录介质"
+   ],
+   "modern_applications_en": [
+    "Technology-policy assessment: of any new technology first ask 'which public infrastructure does it change' — the internet to paper, isomorphically",
+    "Digital-transformation strategy: an organization's digitalization is essentially a change of 'documentary substrate' — run the substrate ledger (cost, radius, lifespan) first",
+    "Open-source infrastructure investment: maintain critical software as civilization's base — the modern 'paper'",
+    "Education-universalization planning: any universal institution (schooling, health care, property rights) depends on a cheaply copyable recording medium"
+   ],
+   "representative_figures": [
+    "蔡伦（核心）",
+    "秦始皇（先例：书同文统一书写标准——同样把'载体与符号'当治理基础设施经营）",
+    "万尼瓦·布什（跨文明平行：《科学：无尽的前沿》把科学研究定位为国家基础设施——同一政治哲学）",
+    "宋应星（平行：'贵五谷而贱金玉'的价值排序与'纸载文明'同属技术-民生-国家的三层观）"
+   ],
+   "related_modes": [
+    "M-CL-001",
+    "M-CL-002",
+    "M-CL-005",
+    "M-CL-009"
+   ]
+  }
+ ]
+}

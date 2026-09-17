@@ -1,0 +1,533 @@
+{
+  "schema_version": "v6",
+  "code": "H-DA-001",
+  "figure_name_zh": "道安",
+  "figure_name_en": "Dao'an",
+  "mode_category": "东晋般若学与佛教文献学",
+  "era": "东晋十六国（前秦苻坚时期）",
+  "figure_context": "道安（312—385），俗姓卫，常山扶柳人，东晋十六国时代最伟大的佛教组织家与译经理论家。少年出家，师事佛图澄；乱世中辗转河北、襄阳、长安，所至创立僧团（襄阳檀溪寺众数百人）。他首撰《综理众经目录》，开中国经录与辨伪之学；提出译经'五失本三不易'，奠定佛典翻译理论；统一沙门'释'姓，立僧尼轨范，使中国僧团第一次有了自己的制度；其般若'本无'义为'六家七宗'之一。鸠摩罗什入长安前，北方佛教的文献与制度地基几乎全由道安一手打定，时人称'印手菩萨'。",
+  "thinking_modes": [
+    {
+      "mode_id": "M-DA-001",
+      "mode_name_zh": "五失本三不易",
+      "mode_name_en": "Five Losses and Three Impossibilities",
+      "category": "诠释与翻译方法论",
+      "definition_zh": "任何跨语言、跨文化的传达都必然有系统性损耗：'五失本'指五种不可避免的失真（语法结构、文风修饰、颂赞重复删削、义疏并略、反腾前辞），'三不易'指三种极难克服的时代与受众错位（古今时俗之变、圣凡智识之隔、微言与末俗之距）。忠实不是理想状态，而是在明确损耗清单下做出的受控取舍。",
+      "definition_en": "Every act of cross-lingual, cross-cultural transmission suffers systematic loss: the 'five losses' are unavoidable distortions (syntax, style, abridged repetitions, condensed commentary, refrains); the 'three impossibilities' are hard-to-overcome mismatches of era and audience (changing customs, the gulf between sage and commoner, subtle words vs later vulgar tastes). Fidelity is not an ideal state but a controlled trade-off made under an explicit list of losses.",
+      "key_principles": [
+        "先承认损耗必然存在，再谈忠实",
+        "损耗可分类、可列举、可预警",
+        "传达者的时代与受众决定必须'改写'的深度",
+        "受控取舍优于假装原样照搬"
+      ],
+      "typical_outputs": [
+        "带损耗清单的翻译/改写规范",
+        "标注不可译处的忠实性分级",
+        "跨文化方案的'必然偏差'预算",
+        "对'完美转述'幻想的拒斥"
+      ],
+      "practical_applications": [
+        "本地化工程：先列出语言结构差异带来的必改项",
+        "跨模型迁移：明确输出风格差异的系统性损耗",
+        "知识传承：向新手传话时预判'三不易'式错位",
+        "学术翻译：为删改处建立透明标注制度"
+      ],
+      "mental_model": "把传达看作有损压缩：不追求无损（不可能），而是明确'哪些维度必然被压缩、压缩到什么程度、由谁决定'——损耗清单本身就是质量控制的开始。",
+      "contrast_modes": [
+        "自以为'原汁原味'的直接翻译",
+        "掩盖改写痕迹的伪忠实",
+        "只顾原文不顾受众的学究式对译",
+        "只顾受众不顾原文的随意意译"
+      ],
+      "cross_domain_mapping": {
+        "翻译学": "归化/异化、不可译性理论的先声",
+        "信息科学": "有损压缩与保真度评估",
+        "管理": "跨部门传话的失真预警清单",
+        "个人": "转述他人观点时先自问丢了什么"
+      },
+      "historical_context": "道安晚年主持长安译场，主译《阿毗昙》《鞞婆沙》及般若经抄。此前佛典翻译多凭胡僧口授、汉笔删略，无人系统反思忠实性。道安此论是中国最早的翻译理论总纲，直接启发了隋代彦琮'八备'与玄奘'五不翻'。",
+      "mode_examples": [
+        {
+          "example_zh": "《摩诃钵罗若波罗蜜经抄序》：'五失本、三不易，烦涉若此，欲令新经不差违，如何可得上圣之人不存千载之运，而随缘应会哉？'——翻译前先列出损耗清单。",
+          "example_en": "Preface to the Prajna-copy Sutra: with five losses and three impossibilities before him, the translator must enumerate distortions in advance rather than promise a flawless rendering."
+        },
+        {
+          "example_zh": "现代类比：技术文档本地化规范中'必改项/可选改/禁改'三级清单，正是五失本思想的工程化。",
+          "example_en": "Modern analogy: a localization spec's three-tier list of mandatory/optional/forbidden changes is the engineering form of the five losses."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-002",
+      "mode_name_zh": "本无宗",
+      "mode_name_en": "Original Non-Being (Benwu)",
+      "category": "本体论",
+      "definition_zh": "以'无'为万化之前的根据、'空'为众形之始：人所执著的是枝末的'末有'，若把心安放在'本无'之上，种种分别妄想自然止息。这是用魏晋玄学的语汇转述般若性空，构成中国般若学第一义。",
+      "definition_en": "'Non-being' as the ground preceding all transformation, 'emptiness' as the beginning of all forms: what people cling to is derivative existence; resting the mind in original non-being, proliferating distinctions cease of themselves. This renders prajna emptiness in xuanxue vocabulary—the first reading of prajna in China.",
+      "key_principles": [
+        "无在万化之前，空为众形之始",
+        "滞在末有——执著皆缘枝末",
+        "宅心本无则异想息——安放即对治",
+        "借玄学之'无'通般若之'空'"
+      ],
+      "typical_outputs": [
+        "以'本/末'框架安置抽象概念",
+        "把形上命题转为对治心态的操作",
+        "哲学概念的跨传统翻译",
+        "由宇宙论向本体论的表述升级"
+      ],
+      "practical_applications": [
+        "复杂系统分析：区分基底变量与派生变量",
+        "心理调适：退回'没有发生什么也成立'的基线",
+        "概念教学：先用熟悉框架接收，再指明其局限",
+        "产品哲学：空位与留白即功能"
+      ],
+      "mental_model": "画布之喻：画之所以成立，靠的是画布本身'空无一物'的承载力。追问任何显现之物，先问承载它的那个'无'是什么。",
+      "contrast_modes": [
+        "执著具体规定的唯现象论",
+        "把本体讲成又一个对象（执'无'为有）",
+        "概念比附而不加检讨的格义",
+        "将心理安顿与形上根据混为一谈"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "般若空观与玄学无本体论的接引点",
+        "系统论": "基底条件优先于显性变量",
+        "心理学": "退到基线以止息反刍",
+        "设计": "留白与负空间"
+      },
+      "historical_context": "般若经典新旧译并存、义理未明，道安以《放光》《光赞》为本讲'本无'，位列'六家七宗'之首（一说本无即道安一支）。此说既有接引之功，也因借玄语而有偏，后被僧肇《不真空论》所纠正——概念过渡阶段的必然张力。",
+      "mode_examples": [
+        {
+          "example_zh": "昙济《七宗论》述安义：'无在万化之前，空为众形之始。夫人之所滞，滞在末有；若宅心本无，则异想便息。'",
+          "example_en": "Tanthi's Seven Schools: 'Non-being precedes all transformation; emptiness begins all form. Clinging lies in derivative existence; rest the mind in original non-being and proliferating thoughts cease.'"
+        },
+        {
+          "example_zh": "现代类比：平台经济中真正承载价值的是'不收费的空白'（公域、协议、空闲），抓住这一层才解释得了派生繁荣。",
+          "example_en": "Modern analogy: in platform economics, value rests on the unfilled commons—protocols and idle capacity—grasping that ground explains the derivative boom."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-003",
+      "mode_name_zh": "弃格义而求本旨",
+      "mode_name_en": "Abandon Geyi, Seek the Original Intent",
+      "category": "方法论自主与考据",
+      "definition_zh": "'格义'是用本土概念（老庄名相）比附外来义理的过渡方法。道安早年沿用，中年决然否定：'先旧格义，于理多违'——脚手架用完即弃，理解成熟后必须回到原典自身的概念体系，哪怕这会冒犯'先达'。",
+      "definition_en": "Geyi matched foreign doctrine to native categories (Laozi-Zhuangzi terms) as a transitional device. Dao'an used it early, then decisively rejected it: 'the old geyi often violates the principle'—scaffolding is discarded once built; mature understanding returns to the source's own conceptual system, even at the cost of offending predecessors.",
+      "key_principles": [
+        "比附是脚手架，不是永久框架",
+        "成熟即弃：防止类比固化为认知天花板",
+        "求真优先于资历与和谐",
+        "'法鼓竞鸣，何先何后'——真理面前无先达"
+      ],
+      "typical_outputs": [
+        "对既有解释框架的系统性检讨",
+        "回到一手材料的重读方案",
+        "敢于否定自己早年方法的公开转向",
+        "术语体系的本土化重建"
+      ],
+      "practical_applications": [
+        "学习迁移：入门用类比，进阶必读原典",
+        "团队传承：警惕'老规矩'成为真理标准",
+        "跨学科研究：借概念后须核对其原生语境",
+        "AI 时代：拒绝以旧框架强解新现象"
+      ],
+      "mental_model": "脚手架之喻：盖楼离不开脚手架，但验收时看的是楼本身；谁坚持留着脚手架评楼，谁就永远看不清立面。",
+      "contrast_modes": [
+        "以类比代替理解的偷懒",
+        "门户之见——为尊者讳而护短",
+        "把入门教材当终身经典",
+        "用旧范畴硬套新事实"
+      ],
+      "cross_domain_mapping": {
+        "教育学": "类比是桥梁不是终点",
+        "科学史": "范式术语的更替与自主",
+        "翻译学": "从归化走向异化的成熟",
+        "个人": "勇于推翻自己过去的理解"
+      },
+      "historical_context": "格义由竺法雅首创，是佛教入华的必要桥梁。道安在河北僧团公开宣布'于理多违'并得僧光响应，是般若学摆脱玄学附庸、走向独立解释传统的标志性时刻；罗什入关后旧格义彻底退场。",
+      "mode_examples": [
+        {
+          "example_zh": "《高僧传·僧光传》：安曰'先旧格义，于理多违'；光曰'且当分析逍遥，何容是非先达'；安曰'弘赞理教，宜令允惬，法鼓竞鸣，何先何后'。",
+          "example_en": "Biographies of Eminent Monks: 'The old geyi violates the principle.' 'Do not judge the elders.' 'To propagate truth it must be exact—when dharma drums compete, who is first?'"
+        },
+        {
+          "example_zh": "现代类比：学编程时用'水压=电压'类比入门，真正学电路时必须丢掉水类比，回到麦克斯韦方程。",
+          "example_en": "Modern analogy: voltage-as-water-pressure is fine for beginners; real circuit study must drop the analogy for Maxwell's equations."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-004",
+      "mode_name_zh": "不依国主则法事难立",
+      "mode_name_en": "Without the Sovereign's Support, the Dharma-Enterprise Cannot Stand",
+      "category": "组织与制度建设",
+      "definition_zh": "理想事业必须正视其现实依赖：动荡之世，法事的存续离不开政权提供的庇护、资源与合法性。道安不讳言此理，主动选择依傍襄阳、长安两大政权，同时以'教化之体，宜令广布'约束依附的方向——依附是手段，弘法是目的。",
+      "definition_en": "An ideal cause must face its real dependencies: in troubled times its survival requires the protection, resources, and legitimacy only political power provides. Dao'an stated this frankly, attaching to the courts of Xiangyang and Chang'an—attachment as means, the spread of the teaching as end.",
+      "key_principles": [
+        "承认事业的资源与合法性依赖",
+        "主动选择而非被动等待庇护",
+        "以使命约束依附——不为依附而依附",
+        "流动避难与定点扎根交替使用"
+      ],
+      "typical_outputs": [
+        "现实主义的发展战略",
+        "与权力保持功能距离的合作方案",
+        "在乱世中保持事业连续性的路线图",
+        "把外部约束转化为扩张契机的决策"
+      ],
+      "practical_applications": [
+        "创业：正视平台、资本、牌照等'国主'式依赖",
+        "开源项目：获得机构赞助而不丧失方向",
+        "学术：课题经费与学术自主的平衡",
+        "个人：识别自己事业的'必要性靠山'"
+      ],
+      "mental_model": "帆船之喻：帆（使命）提供方向，风（外部权力）提供推力；无风则帆是摆设，但船始终沿着帆定的航向走。",
+      "contrast_modes": [
+        "清高自守而事业萎缩",
+        "依附权力而使命异化",
+        "讳言利益依赖的天真",
+        "把权宜之计当成长期原则"
+      ],
+      "cross_domain_mapping": {
+        "政治学": "宗教与政权的关系模型",
+        "管理学": "战略依赖与资源获取",
+        "社会学": "组织合法性的来源",
+        "个人": "借力而不失向"
+      },
+      "historical_context": "道安历遭中原大乱、石赵崩溃、襄阳陷落，深知无政权支持的僧团一击即散。他先依习凿齿居襄阳十五年，襄阳城破又受苻坚礼遇居长安五斗场寺，'与什共校经论'——佛教史上第一次国家级译场由此奠定。",
+      "mode_examples": [
+        {
+          "example_zh": "《高僧传》：'今遭凶年，不依国主，则法事难立；又教化之体，宜令广布。'遂分遣弟子随宜弘化。",
+          "example_en": "'In famine years, without relying on the sovereign the dharma-enterprise cannot stand; and the teaching must spread widely.' He sent disciples out as circumstances allowed."
+        },
+        {
+          "example_zh": "现代类比：开源基金会模式——项目依附大公司资源，但用中立治理结构保住方向。",
+          "example_en": "Modern analogy: the open-source foundation model—corporate resources, neutral governance keeps the direction."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-005",
+      "mode_name_zh": "统一释姓",
+      "mode_name_en": "One Surname for the Sangha: 'Shi'",
+      "category": "组织与制度建设",
+      "definition_zh": "魏晋沙门依师为姓、各从其师，身份碎片化。道安裁定：大师之本莫尊释迦，凡出家者皆姓'释'——以一个符号统一身份，把众多师门整合为单一共同体；佛典（《增一阿含》）后出，恰好印证其先见。",
+      "definition_en": "Wei-Jin monks took surnames from individual masters, fragmenting identity. Dao'an ruled: no master outranks Shakyamuni, so all who leave home take the surname 'Shi'—one symbol unifying many lineages into a single community; a sutra later surfaced that matched his rule.",
+      "key_principles": [
+        "身份符号统一是共同体整合的第一步",
+        "以最高共同本源取代分散师承",
+        "制度先于经典依据，后获印证",
+        "命名权即定义共同体的权力"
+      ],
+      "typical_outputs": [
+        "统一的身份/品牌规范",
+        "跨师门的组织整合方案",
+        "先于标准文本的规则设定",
+        "以符号消解内部派系"
+      ],
+      "practical_applications": [
+        "组织设计：统一命名、头衔与身份体系",
+        "行业治理：跨机构统一认证符号",
+        "品牌战略：母品牌统摄子派系",
+        "社区运营：以共同称谓超越小圈子"
+      ],
+      "mental_model": "四河入海之喻：河各有名，入海则同称海水——制度的本质是把'多个来源'变成'一个身份'。",
+      "contrast_modes": [
+        "山头主义与师承壁垒",
+        "身份符号混乱导致认同涣散",
+        "等经典/标准齐备才行动",
+        "以私人恩惠替代公共认同"
+      ],
+      "cross_domain_mapping": {
+        "组织行为": "身份认同的制度设计",
+        "品牌学": "统一命名架构",
+        "社会学": "符号边界的共同体功能",
+        "个人": "以身份自觉替代依附自觉"
+      },
+      "historical_context": "此前中国僧人姓氏随意（支、竺、于、康从师姓），僧团形同松散师徒网络。道安统一释姓后历刘宋、至《增一阿含》译出（'四河入海'喻）而获经典背书，沿用至今近一千七百年——中国佛教史上最成功的一项制度设计。",
+      "mode_examples": [
+        {
+          "example_zh": "《高僧传》：'乃以释命氏'；《增一阿含》：'四河入海，无复河名；四姓出家，同一释种。'",
+          "example_en": "'He gave them the surname Shi'; Ekottarika-agama: 'Four rivers enter the sea and lose their names; four castes leave home and become one Shakya clan.'"
+        },
+        {
+          "example_zh": "现代类比：开源社区统一 contributor 身份（CLA、单一账号体系），把分散的 fork 归入同一共同体。",
+          "example_en": "Modern analogy: unified contributor identity (CLAs, single account systems) folds scattered forks into one community."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-006",
+      "mode_name_zh": "经录与疑经辨伪",
+      "mode_name_en": "Catalogue and Screening of Suspect Texts",
+      "category": "方法论自主与考据",
+      "definition_zh": "面对来源混杂、真伪难辨的经典洪流，道安先建总账再谈义理：《综理众经目录》按译者有无、真伪存疑分类立目，把'哪部经可信、哪部可疑'变成可检索、可核查的清单——为中国佛典文献学（经录学）立下第一块基石。",
+      "definition_en": "Facing a flood of scriptures of mixed provenance, Dao'an built the ledger before the doctrine: his Comprehensive Catalogue classifies texts by translator-known vs translator-lost, with registers of suspect works—turning 'which texts are trustworthy' into a searchable, checkable list, the cornerstone of Chinese Buddhist bibliography.",
+      "key_principles": [
+        "知识治理先于知识生产",
+        "可信度分级：已证/失译/存疑分列",
+        "索引化——混乱文本流的第一治理工具",
+        "辨伪有据，不作简单否定"
+      ],
+      "typical_outputs": [
+        "带可信度标注的文献总目",
+        "疑伪文本的专门清单",
+        "来源溯源与传承链条记录",
+        "以目录驱动的经典选择策略"
+      ],
+      "practical_applications": [
+        "信息治理：先建知识库索引与可信度分级再读内容",
+        "数据治理：数据字典与数据血缘记录",
+        "采购/合规：供应商与资质的可检索白名单",
+        "AI 语料建设：训练前先做来源审计"
+      ],
+      "mental_model": "图书馆之喻：藏书再多，没有目录就等于没有书；'疑经录'相当于给馆藏加一道质量分级锁。",
+      "contrast_modes": [
+        "不问来源的兼收并蓄",
+        "以权威口吻替代来源核查",
+        "只有黑名单没有白名单的治理",
+        "目录与文本脱节的静态账本"
+      ],
+      "cross_domain_mapping": {
+        "图书馆学": "目录学与馆藏治理",
+        "数据工程": "元数据与数据血缘",
+        "信息安全": "来源审计与信任分级",
+        "学术": "辨伪学与考信传统"
+      },
+      "historical_context": "汉末以来佛经译出千余卷，传抄增益、伪托盛行，无人能言经典版图全貌。道安在襄阳编成《综理众经目录》（后世《出三藏记集》保存其大要），开此后僧祐《出三藏记集》、历代《大藏经》目录之先河，'疑经'概念深刻影响了中国佛教的文本批判传统。",
+      "mode_examples": [
+        {
+          "example_zh": "《综理众经目录》分'有译''失译'二类，别立'疑经录'，将可疑经典单独著录以待甄别。",
+          "example_en": "The Catalogue classifies scriptures as translator-known vs translator-lost and sets a separate register of suspect texts for screening."
+        },
+        {
+          "example_zh": "现代类比：企业数据目录（data catalog）对每张表标注'权威来源/来源不明/疑似废弃'三级状态。",
+          "example_en": "Modern analogy: a data catalog tagging every table as authoritative/unknown-provenance/likely-stale."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-007",
+      "mode_name_zh": "同本异译对勘",
+      "mode_name_en": "Collation of Parallel Translations",
+      "category": "诠释与翻译方法论",
+      "definition_zh": "同一部经存在多个译本时，逐段合本对读，以异译互证义理、互校短长——《合放光光赞随略解》即《放光》与《光赞》两个译本的系统对勘。一个译本的含糊处，常在另一个译本中豁然。",
+      "definition_en": "Where one sutra has multiple translations, read them side by side, paragraph against paragraph, using each version to verify and correct the other—his digest collating the Fangguang and Guangzan translations. What is vague in one version is often clear in the other.",
+      "key_principles": [
+        "以独立版本互证，不单点信赖",
+        "对勘以'同本'为前提，控制变量",
+        "歧异处即信息增量所在",
+        "把校勘从抄写层面提升到义理层面"
+      ],
+      "typical_outputs": [
+        "平行文本对照表",
+        "异文歧义的义理裁决记录",
+        "多版本择优的综合译本",
+        "文本传承谱系图"
+      ],
+      "practical_applications": [
+        "研究方法：多信源交叉验证同一事实",
+        "软件工程：多实现对照定位规范歧义",
+        "法律：条约多语言作准本的互校",
+        "AI：多模型输出交叉校验"
+      ],
+      "mental_model": "三角测量之喻：单点观测不可信，两个以上独立观测的交点才接近真值；异译就是同一个'经'的两次独立观测。",
+      "contrast_modes": [
+        "独信一本的单一来源依赖",
+        "把异文当错误径直抹平",
+        "不做同本判断就乱比勘",
+        "以校勘代替对义理的独立判断"
+      ],
+      "cross_domain_mapping": {
+        "文献学": "校勘学的对校法",
+        "翻译学": "重译与复译的价值",
+        "数据科学": "多源交叉验证",
+        "工程": "冗余观测与容错"
+      },
+      "historical_context": "《放光》（无罗叉译）与《光赞》（竺法护译）同出《大品般若》，文风义理各有短长。道安合本对勘并撰随略解，是佛教史上最早的系统平行译本对勘实践，直接启发后世'合本'传统（支谦以来至隋代房融、近现代合本《大藏经》整理）。",
+      "mode_examples": [
+        {
+          "example_zh": "《合放光光赞随略解序》：道安取二译'对读互校'，注明彼此详略异同，读者缘两本以窥一经。",
+          "example_en": "In the digest's preface, Dao'an collates the two translations, noting each one's fuller and leaner passages, so readers see one sutra through two texts."
+        },
+        {
+          "example_zh": "现代类比：同一标准文件的 ISO/国标双版本互校，措辞歧义处两相对照即得正解。",
+          "example_en": "Modern analogy: collating an ISO standard against its national equivalent resolves wording ambiguity."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-008",
+      "mode_name_zh": "序跋提要钩玄",
+      "mode_name_en": "Prefaces that Digest the Gist",
+      "category": "诠释与翻译方法论",
+      "definition_zh": "每译校一经，辄撰序文'序其宗旨、撮其指归'：先交代经典来历与传承，再提炼核心义理，最后指出读法。数十篇经序构成一套'先纲要后全文'的经典导读体系，使读者未开卷而已得路标。",
+      "definition_en": "For every scripture he collated, Dao'an wrote a preface 'laying out its purport and gathering its gist': provenance first, core doctrine second, reading guidance last—dozens of prefaces form a digest-first reading system giving readers signposts before the text opens.",
+      "key_principles": [
+        "先给地图，再入文本",
+        "来历（传承）+宗旨（义理）+读法（导引）三段式",
+        "提炼而非替代：序是路标不是正文",
+        "大规模、标准化地覆盖经典群"
+      ],
+      "typical_outputs": [
+        "标准化导读框架",
+        "经典群的体系化导论",
+        "传承脉络与文本源流说明",
+        "降低入门门槛的知识包装"
+      ],
+      "practical_applications": [
+        "知识管理：任何长文档先写'一页摘要'",
+        "产品设计：文档首页给阅读路线",
+        "教学：每门课先给概念地图",
+        "出版：译本序交代版本源流与取舍"
+      ],
+      "mental_model": "地图之喻：不看地图直接赶路，走得越快可能偏得越远；序文就是开卷前的等高线图。",
+      "contrast_modes": [
+        "直接扎进正文、无框架阅读",
+        "摘要喧宾夺主、代替原文",
+        "只讲故事不提炼义理的浮泛导读",
+        "零散评点、不成体系的注释"
+      ],
+      "cross_domain_mapping": {
+        "教育学": "先行组织者（advance organizer）策略",
+        "出版业": "导读与版本说明规范",
+        "信息科学": "摘要与元信息",
+        "个人": "读书先读目录与序"
+      },
+      "historical_context": "道安经序多赖僧祐《出三藏记集》保存，是中国现存最早的一批佛典序文群。其'序其宗旨'的体例为后世藏经解题（如《阅藏知津》）与现代学术书评导论树立了范式，也为汉魏经学序论传统注入了新的方法论自觉。",
+      "mode_examples": [
+        {
+          "example_zh": "《道行经序》《安般注序》等：先叙译缘，再摄大旨，末示观法——读者循序而入经。",
+          "example_en": "Prefaces such as those to the Daoxing and Anban sutras: translation history, then the gist, then the practice—readers enter the text through the preface."
+        },
+        {
+          "example_zh": "现代类比：学术论文的 structured abstract——背景、方法、结论、导引四段俱全，先读摘要再定去留。",
+          "example_en": "Modern analogy: the structured abstract—background, method, results, guidance—read before deciding to read on."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-009",
+      "mode_name_zh": "制度先于义理",
+      "mode_name_en": "Institution Before Doctrine",
+      "category": "组织与制度建设",
+      "definition_zh": "道安深知：戒律（组织之法）未至，则义理（思想之法）无所依托。在《比丘大戒》尚未传来时，先以自撰'僧尼轨范、佛法宪章'三条立权宜之制（讲经、课诵、食住仪轨），同时遣弟子远赴西域求律——先保共同体运转，再等完备法本。",
+      "definition_en": "Dao'an saw that without the Vinaya (organizational law), doctrine has nothing to rest on. Before the full Bhiksu Precepts arrived, he issued provisional 'monastic rules and dharma-charters' in three parts (lectures, liturgy, daily regimen) while sending disciples westward to fetch the Vinaya—keep the community running first, await the complete code second.",
+      "key_principles": [
+        "组织的可持续先于教义的完备",
+        "权宜之制明示为临时，不冒充终极",
+        "缺口与补位并行：立制与求法同时进行",
+        "仪式与日程是共同体的骨架"
+      ],
+      "typical_outputs": [
+        "权宜制度与长期制度的分层",
+        "组织运行的最小可行规则集",
+        "补足制度缺口的主动求取计划",
+        "可复制的章程范本"
+      ],
+      "practical_applications": [
+        "创业：先用临时规则运转，同步等待/争取正式制度",
+        "社区：最小公约数版规先行，细则随后迭代",
+        "跨国团队：先定协作仪式再谈完整合规",
+        "危机管理：维持运转的底线机制优先"
+      ],
+      "mental_model": "骨架先立之喻：肌肉（义理）再丰满，没有骨骼（制度）就立不起来；先搭一副可用的临时骨架，同时去寻真正的骨骼。",
+      "contrast_modes": [
+        "等一切条件完备再行动",
+        "临时制度冒充永久制度",
+        "只谈理念不建机制",
+        "组织涣散仍空谈高义"
+      ],
+      "cross_domain_mapping": {
+        "组织学": "制度供给与组织存续",
+        "法学": "临时章程与正式立法的分层",
+        "管理学": "MVP 制度化",
+        "宗教社会学": "戒律与共同体秩序"
+      },
+      "historical_context": "当时中国戒律严重缺本（广律未译），僧团规约各行其是。道安所立轨范'天下寺舍，遂则而从之'，成为《十诵》《四分》诸律传来前中国僧团的准法律；其遣慧远一系乃至法领西行求律，为姚秦弗若多罗译《十诵》、佛陀跋陀罗一系传《僧祇》铺路。",
+      "mode_examples": [
+        {
+          "example_zh": "《高僧传》：安立'僧尼轨范、佛法宪章'三条，'天下寺舍，遂则而从之'；同时慨叹大戒未至，遣人西域求法。",
+          "example_en": "His three-part rules were followed by monasteries everywhere, even as he lamented the missing Vinaya and sent seekers westward."
+        },
+        {
+          "example_zh": "现代类比：新公司先发一页'临时行为准则'让业务跑起来，同时法务起草正式合规手册。",
+          "example_en": "Modern analogy: a startup ships a one-page interim code of conduct while legal drafts the full compliance manual."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-DA-010",
+      "mode_name_zh": "弥勒誓愿结构",
+      "mode_name_en": "The Maitreya Vow Structure",
+      "category": "实践承诺",
+      "definition_zh": "道安与其弟子于弥勒像前立誓愿生兜率，把此生有限的译经、建团工作接入一个'当下行动—未来佛—终极兑现'的愿力结构：所做之事的意义不由当世成败单独衡量，而由跨世代的承诺框架托底。",
+      "definition_en": "Dao'an and his disciples vowed before an image of Maitreya to be reborn in Tushita, plugging their finite work of translating and community-building into a vow structure of present action—future buddha—ultimate fulfillment: meaning is underwritten by a cross-generational commitment, not by contemporary success alone.",
+      "key_principles": [
+        "以超越当世的兑现结构为事业托底",
+        "公开仪式化立誓，使承诺可被共同体见证",
+        "把个体努力嵌入传承链条",
+        "失败容忍：意义不系于一世得失"
+      ],
+      "typical_outputs": [
+        "长期主义的承诺机制",
+        "组织愿景的仪式化表达",
+        "跨代际的使命传承契约",
+        "对挫折免疫的意义框架"
+      ],
+      "practical_applications": [
+        "长期项目：设置超越当期 KPI 的愿景锚点",
+        "公益与科研：以'下一代受益'定义成功",
+        "组织文化：入伙仪式与公开承诺",
+        "个人：把日常努力接入更大的时间尺度"
+      ],
+      "mental_model": "接力赛之喻：我这一棒的成绩不由我抵达终点衡量，而由我是否把接力棒以更好的位置交给下一棒衡量。",
+      "contrast_modes": [
+        "以当期成败论英雄的短视",
+        "缺乏公共见证的私人许愿",
+        "意义真空导致的事业倦怠",
+        "把愿景当口号而非承诺结构"
+      ],
+      "cross_domain_mapping": {
+        "宗教学": "弥勒信仰与末来承诺结构",
+        "组织文化": "愿景的仪式化与制度化",
+        "行为科学": "公开承诺与长期行为一致性",
+        "个人": "长期主义的意义工程"
+      },
+      "historical_context": "弥勒兜率信仰在道安时代经佛图澄一系传入北方。道安首倡于弥勒前立誓，开中国弥勒净土法门之先；其弟子慧远转宏弥陀净土，亦是以愿力结构托底事业的同构变体。道安一生历乱而不废译业，与这一'跨世代兑现'的意义框架直接相关。",
+      "mode_examples": [
+        {
+          "example_zh": "《高僧传》：'安每与弟子法遇等，于弥勒前立誓愿生兜率。'",
+          "example_en": "'Dao'an repeatedly took vows with his disciples before Maitreya, vowing rebirth in Tushita.'"
+        },
+        {
+          "example_zh": "现代类比：科研机构把'为下一个十年准备工具'写进章程，使当下亏损的基础研究获得合法性。",
+          "example_en": "Modern analogy: a research institute chartering 'tools for the next decade' legitimizes loss-making basic research today."
+        }
+      ]
+    }
+  ],
+  "protreptic_mapping": {
+    "诠释与翻译方法论": [
+      "M-DA-001",
+      "M-DA-007",
+      "M-DA-008"
+    ],
+    "本体论": [
+      "M-DA-002"
+    ],
+    "方法论自主与考据": [
+      "M-DA-003",
+      "M-DA-006"
+    ],
+    "组织与制度建设": [
+      "M-DA-004",
+      "M-DA-005",
+      "M-DA-009"
+    ],
+    "实践承诺": [
+      "M-DA-010"
+    ]
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "schema_version": "v6",
+  "code": "H-WB-001",
+  "figure_name_zh": "王弼",
+  "figure_name_en": "Wang Bi",
+  "mode_category": "魏晋玄学",
+  "era": "三国曹魏（正始玄学）",
+  "figure_context": "王弼（226—249），字辅嗣，曹魏正始年间玄学奠基人，与何晏并称'正始之音'。少年成名，善谈《老》《易》，二十四岁早逝，却留下《老子注》《周易注》《周易略例》《老子指略》《论语释疑》，全部成为后世经典注疏的典范。他以'以无为本'建立贵无论本体论，以'得意忘言'完成诠释学方法论革命，以'崇本息末'贯通本体、工夫与政治，是魏晋玄学的体系化第一人。",
+  "thinking_modes": [
+    {
+      "mode_id": "M-WB-001",
+      "mode_name_zh": "得意忘言",
+      "mode_name_en": "Grasp the Meaning, Forget the Words",
+      "category": "诠释方法论",
+      "definition_zh": "言、象、意构成三层结构：言以明象，象以存意；符号是通达意义的中介而非意义本身。一旦把握了意义，就应超越符号本身，不执着于字句与形象。拘执于言象，反而丧失意。",
+      "definition_en": "Words, images, and meaning form a three-tier structure: words illuminate images, images carry meaning; symbols are bridges to meaning, not meaning itself. Once meaning is grasped, transcend the symbols—clinging to words and images loses the very intent they carry.",
+      "key_principles": [
+        "言以明象，象以存意——符号分层",
+        "符号是中介不是目的",
+        "得象忘言，得意忘象——逐层超越",
+        "执言执象则失意——避免载体异化"
+      ],
+      "typical_outputs": [
+        "义理优先的经典解读",
+        "超越字面的意图把握",
+        "对形式化表达的自觉反思",
+        "由表及里的分析框架"
+      ],
+      "practical_applications": [
+        "阅读理解：区分文本字面与作者意图",
+        "学习迁移：掌握原理后不必死记推导细节",
+        "沟通设计：语言是工具，确认对方得到'意'即可",
+        "模型与图表：任何表示法都是中介，勿把可视化当结论"
+      ],
+      "mental_model": "把一切表达视为'指月之指'：符号系统的价值在于能否引领到达意义，到达之后符号即应功成身退。三层递进（言→象→意）、逐层扬弃，既用符号又不为符号所困。",
+      "contrast_modes": [
+        "章句训诂式的字句穿凿（汉儒）",
+        "形式主义——把规范文本当真理本身",
+        "死记硬背而非理解原理",
+        "图表崇拜——把地图当疆域"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "言意之辨，诠释学基础",
+        "教育学": "理解优于记忆，迁移优于复述",
+        "信息科学": "符号-语义分层，'语义网'先声",
+        "个人": "沟通时以达意为准，勿纠结措辞"
+      },
+      "historical_context": "汉代经学以章句训诂与象数附会解《易》，'一交变一卦'愈演愈繁。王弼《周易略例·明象》一举扫清此弊，'扫象阐理'成为宋代义理易学的直接源头，学术史意义极大。",
+      "mode_examples": [
+        {
+          "example_zh": "《周易略例》：'义苟在健，何必马乎？类苟在顺，何必牛乎？'——乾之义在刚健，不必执着于'马'这个象。",
+          "example_en": "'If the sense lies in vigor, why must it be a horse? If the class lies in compliance, why must it be an ox?'—the meaning of Qian is vigor itself, not the horse image."
+        },
+        {
+          "example_zh": "现代类比：学会证明之后忘掉具体记号——考'意'而不考'言'，正是王弼方法论在教育中的回声。",
+          "example_en": "Modern analogy: after mastering a proof, the notation can be forgotten—testing for grasp of intent rather than the letter echoes Wang Bi's method."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-002",
+      "mode_name_zh": "以无为本",
+      "mode_name_en": "Non-Being as the Root",
+      "category": "本体论",
+      "definition_zh": "万有以'无'为本：有之所以能生、能成、能存，其根据在于无形无名之道。要保全'有'，必须反归于'无'。这不是说'无'是空洞的零，而是说不被任何具体规定性限制的根据本身。",
+      "definition_en": "All beings take non-being as their root: what enables the existent to arise, complete, and persist lies in the formless, nameless Dao. To preserve being in its fullness, return to non-being—not an empty zero, but the ground unbound by any determinate property.",
+      "key_principles": [
+        "有之所始，以无为本——根据优先于现象",
+        "无形无名者，万物之宗",
+        "将欲全有，必反于无——保全现象须回溯根据",
+        "贵无不贱有——本末体用相即"
+      ],
+      "typical_outputs": [
+        "为现象寻找统一根据的本体论框架",
+        "由末溯本的追问链条",
+        "反本还原式的系统分析",
+        "超越具体规定的抽象层级"
+      ],
+      "practical_applications": [
+        "系统设计：识别不依赖具体实例的基类与不变量",
+        "问题分析：从'看见了什么'回溯'它凭什么存在'",
+        "产品思维：用户要的不是功能（有），而是功能背后的空位（无）",
+        "哲学训练：对任何概念追问其'使可能'条件"
+      ],
+      "mental_model": "把'无'理解为器皿的空、轮毂的中空、房间的敞开——正是'没有'提供了'有'之所以能用的条件。分析任何系统时，先找那个'空'出来的结构性根据。",
+      "contrast_modes": [
+        "就事论事的唯现象论",
+        "把具体规定性当作根据（以末为本）",
+        "只做加法不做还原的分析",
+        "生成论与本体论的混淆"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "本体论转向：从生成论到根据论",
+        "工程": "抽象接口与不变量优先",
+        "设计": "留白即功能（留白、负空间）",
+        "个人": "留出余地与空隙，才有所承载"
+      },
+      "historical_context": "汉代宇宙生成论讲'元气''太初'，王弼转而追问万有之'所以然'的根据，完成从宇宙论到本体论的哲学转向，'以无为本'成为正始玄学的旗帜，并深远影响般若学东传后的格义与佛教本体论。",
+      "mode_examples": [
+        {
+          "example_zh": "《老子注》四十章：'天下之物，皆以有为生。有之所始，以无为本。将欲全有，必反于无也。'",
+          "example_en": "Laozi Commentary ch. 40: 'All things are born from being; the beginning of being takes non-being as root; to preserve being, return to non-being.'"
+        },
+        {
+          "example_zh": "三十辐共一毂，当其无，有车之用——王弼以此说明'无'不是没有，而是使'用'成立的条件。",
+          "example_en": "Thirty spokes share one hub; it is the emptiness that makes the wheel useful—non-being is the enabling condition of function."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-003",
+      "mode_name_zh": "崇本息末",
+      "mode_name_en": "Honor the Root, Quiet the Branches",
+      "category": "治理与全局观",
+      "definition_zh": "处理复杂系统的总纲：尊崇根本（道/母/一），平息枝末（浮华、伪巧、过度干预）。'息'非消灭，而是使之不再喧宾夺主——枝末由根本自然安顿，而非逐一扑灭。",
+      "definition_en": "The master rule for complex systems: honor the root (the Dao/mother/one) and quiet the branches (ornament, artifice, over-intervention). 'Quieting' is not eliminating the branches but letting the root settle them naturally instead of fighting them one by one.",
+      "key_principles": [
+        "一言以蔽之：崇本息末——《老子》总纲",
+        "崇本以息末，守母以存子",
+        "息末非除末——枝末随根本自安",
+        "优先级：根变量先于症状"
+      ],
+      "typical_outputs": [
+        "抓主要矛盾的行动纲领",
+        "减少干预的治理方案",
+        "去浮华、存实质的取舍清单",
+        "由一驭多的简化架构"
+      ],
+      "practical_applications": [
+        "管理：抓制度与文化（本），不疲于救火（末）",
+        "个人成长：固根基而非追逐热点技巧",
+        "政策设计：以少御多，避免政令繁苛",
+        "系统调优：找到杠杆点，一处分治全局"
+      ],
+      "mental_model": "树喻：养根则枝叶自茂；剪叶不养根，愈剪愈衰。任何复杂问题的解法通常在'上游'而非'下游'，先把注意力投放到根变量上。",
+      "contrast_modes": [
+        "头痛医头的症状管理",
+        "政令繁苛、层层加码",
+        "浮华装饰压倒实质功能",
+        "平均用力、不分主次"
+      ],
+      "cross_domain_mapping": {
+        "政治": "无为而治的制度哲学",
+        "管理学": "根因治理，杠杆点思维",
+        "系统论": "调节根本变量而非输出端",
+        "个人": "时间投向根本能力，不在枝节内卷"
+      },
+      "historical_context": "正始年间曹魏政局：名法之治繁苛，士人思治。王弼以'崇本息末'总括老子五千言，既回应了政治过度干预的时代问题，也把老子从'退隐'重释为'以简驭繁'的积极治道。",
+      "mode_examples": [
+        {
+          "example_zh": "《老子指略》：'老子之书，其几乎可一言而蔽之。噫！崇本息末而已矣。'",
+          "example_en": "'The book of Laozi can be summed up in one phrase: honor the root and quiet the branches.'"
+        },
+        {
+          "example_zh": "现代类比：排查生产事故先查根因（本），同时用临时补丁止血（息末）——止血是为了保根，不是替代治根。",
+          "example_en": "Modern analogy: in incident response, fix the root cause while applying a temporary patch—stabilization serves the root fix, not a substitute for it."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-004",
+      "mode_name_zh": "守母存子",
+      "mode_name_en": "Hold the Mother to Preserve the Children",
+      "category": "治理与全局观",
+      "definition_zh": "本与末、母与子是相即不离的体用关系：崇本不是抛弃枝末，而是守住根本以成全枝末。'崇本举末'——根本立得住，枝末才立得住；反之弃末存母亦是枯守。",
+      "definition_en": "Root and branches, mother and children, are indivisible as substance and function: honoring the root is not abandoning the branches but securing them through the root. Hold the mother and the children survive; raise the root and the branches are lifted with it.",
+      "key_principles": [
+        "守母以存子——根本是枝末的存在条件",
+        "崇本举末——体用如一，本末不二",
+        "形名俱有而邪不生——名教与自然两全",
+        "贵无不贱有——不落入虚无主义"
+      ],
+      "typical_outputs": [
+        "兼顾根基与功能的平衡方案",
+        "防止'为了理想丢掉现实'的纠偏论证",
+        "本末兼顾的取舍矩阵",
+        "体用一源的整体设计"
+      ],
+      "practical_applications": [
+        "组织变革：守核心价值观（母）同时保留有效流程（子）",
+        "技术重构：先立地基再动上层，不全盘推倒",
+        "教育：保住原理根基，枝节技能自然生长",
+        "个人：守住健康与信誉之'母'，事业之'子'自存"
+      ],
+      "mental_model": "母与子不是二选一，而是生存层级：子依附母而存，母因子而显。任何'抓大放小'的正确做法，放的是对枝末的过度干预，不是枝末本身。",
+      "contrast_modes": [
+        "虚无化倾向——只讲本体不落实用",
+        "全盘否定式的推倒重来",
+        "为守原则而牺牲全部现实成果",
+        "本末割裂、体用二分"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "体用如一，本末不二",
+        "变革管理": "保底线资产，渐进更新",
+        "工程": "重构不等于重写，保留稳定核心",
+        "个人": "原则（母）与事务（子）的层级管理"
+      },
+      "historical_context": "何晏主贵无，倾向'圣人无喜怒哀乐'，几近遗落人事；王弼驳之，主张圣人'茂于人者神明，同于人者五情'，其守母存子正是对贵无思潮中虚无化倾向的矫正。",
+      "mode_examples": [
+        {
+          "example_zh": "《老子注》三十八章：'守母以存其子，崇本以举其末，则形名俱有而邪不生。'",
+          "example_en": "Ch. 38: 'Hold the mother to preserve the child, raise the root to lift the branches; then form and name both exist yet deviation does not arise.'"
+        },
+        {
+          "example_zh": "王弼与何晏之辩：圣人有情而无累——体无（母）不离五情（子），二者并存不悖。",
+          "example_en": "In the debate with He Yan: the sage has emotions yet is unburdened—embodying non-being (mother) never leaves the five feelings (children) behind."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-005",
+      "mode_name_zh": "以静为本",
+      "mode_name_en": "Stillness as the Root of Motion",
+      "category": "本体论",
+      "definition_zh": "万物运化万变，而其本体是'寂然至无'。静是动之根：动由静发、复归于静。观察剧烈变化时，先找到其中不变、不动的东西，那是理解变化的钥匙。",
+      "definition_en": "The ten thousand things transform endlessly, yet their substance is 'still utmost non-being.' Stillness is the root of motion: motion issues from stillness and returns to it. Amid violent change, first locate what does not move—it is the key to understanding the change.",
+      "key_principles": [
+        "寂然至无，是其本——变化背后有不变",
+        "静为躁君——静能制动",
+        "动不由己动，必有其根",
+        "复卦之义：反本即归静"
+      ],
+      "typical_outputs": [
+        "在动荡中识别不变量的分析",
+        "以静制动的应对策略",
+        "变化趋势的参照系设定",
+        "复归本位式的纠偏方案"
+      ],
+      "practical_applications": [
+        "投资与决策：市场喧嚣中盯住不变的基本面",
+        "组织：动荡期先稳住使命与制度底盘",
+        "工程：变化的系统里先找不变式（invariants）",
+        "个人：情绪风暴中以定静先手，再处理事务"
+      ],
+      "mental_model": "把世界分成'变量层'与'常量层'：现象在变量层翻腾，理解力应驻守常量层。观察者自身先'静'下来，才能看清'动'的轨迹——静是测量运动的坐标系。",
+      "contrast_modes": [
+        "被变化裹挟的应激反应",
+        "把噪声当信号的过度反应",
+        "没有参照系的趋势追踪",
+        "以动制动的循环焦虑"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "动静之辨：以静为本",
+        "金融": "基本面与噪声的区分",
+        "工程": "不变式优先于实现细节",
+        "个人": "定力作为决策的前提条件"
+      },
+      "historical_context": "王弼注《周易》复卦与《老子》十六章'归根曰静'，将汉易的重卦象数转为本体论命题：天地虽富有万物、运化万变，'寂然至无，是其本矣'。这一'以静为本'深刻影响宋明理学的'主静'传统。",
+      "mode_examples": [
+        {
+          "example_zh": "《周易·复卦注》：'天地虽大，富有万物，雷动风行，运化万变，寂然至无，是其本矣。'",
+          "example_en": "Fu hexagram commentary: 'Heaven and earth, though rich in myriad changes—stillness and utmost non-being are their root.'"
+        },
+        {
+          "example_zh": "现代类比：系统监控中，异常检测需要一条稳定的基线——没有'静'的基线，就没有'动'可谈。",
+          "example_en": "Modern analogy: anomaly detection needs a stable baseline—without stillness as reference, no motion can be measured."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-006",
+      "mode_name_zh": "统之有宗",
+      "mode_name_en": "Unify by an Origin, Govern by an Ancestor",
+      "category": "本体论",
+      "definition_zh": "万物不是散乱的堆积：'物无妄然，必由其理'——凡存在必有条理；繁杂事物必统摄于宗、会聚于元，故能'繁而不乱，众而不惑'。执一可以御万。",
+      "definition_en": "Things are not a heap: 'nothing arises arbitrarily, everything follows its principle.' Complexity is always governed by an ancestor, congregated around an origin—hence complexity without disorder. Grasp the one to steer the many.",
+      "key_principles": [
+        "物无妄然，必由其理——规律先于现象",
+        "统之有宗，会之有元——层级统摄",
+        "繁而不乱，众而不惑——可治理性",
+        "自统而寻之，执一御万"
+      ],
+      "typical_outputs": [
+        "层级化的分类与归因框架",
+        "以单一原则统摄全局的架构设计",
+        "由一推多的推理链条",
+        "复杂性的可管理化方案"
+      ],
+      "practical_applications": [
+        "架构设计：确定唯一入口与核心抽象，向下派生",
+        "知识管理：用主干概念统摄碎片笔记",
+        "推理：由公理推定理，而非平行罗列事实",
+        "治理：设总纲与元规则，细则自动归位"
+      ],
+      "mental_model": "树状索引：任何看似混沌的集合，若真'由理而生'，必能找到它的'元'。找不到，说明还没理解到位，而不是它真的无理。",
+      "contrast_modes": [
+        "平行罗列、无主从的清单思维",
+        "否认规律、归因于偶然",
+        "为每个问题单设一个方案（无元）",
+        "复杂到不可维护的扁平堆砌"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "一多之辨，理一分殊先声",
+        "工程": "架构分层、单一职责",
+        "科学": "追求统一理论的纲领",
+        "个人": "以一两个核心原则统摄日常决策"
+      },
+      "historical_context": "《周易略例·明彖》是王弼义理易学的纲领：他借此把《易》从占筮之书重构为'推天道明人事'的理则之书，'必由其理'四字成为理学'物必有理'命题的先声。",
+      "mode_examples": [
+        {
+          "example_zh": "《周易略例·明彖》：'物无妄然，必由其理。统之有宗，会之有元，故繁而不乱，众而不惑。'",
+          "example_en": "'Nothing arises arbitrarily—everything follows its principle. Governed by an origin, complexity is without disorder.'"
+        },
+        {
+          "example_zh": "现代类比：Unix 哲学——一切皆文件这一'元'统摄了千差万别的设备与操作。",
+          "example_en": "Modern analogy: the Unix principle 'everything is a file'—one unifying abstraction governing wildly diverse devices."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-007",
+      "mode_name_zh": "因任自然",
+      "mode_name_en": "Follow Rather Than Impose",
+      "category": "实践智慧",
+      "definition_zh": "圣人'达自然之性，畅万物之情，故因而不为，顺而不施'：治理的最高形态不是外加设计，而是顺事物本性加以引导。'因'字是关键——借势、顺性、不加扭曲。",
+      "definition_en": "The sage 'penetrates the natures of things and frees their dispositions: hence he follows rather than acts, accords rather than imposes.' The highest governance is not imposed design but guidance along each thing's own grain—leveraging tendency, never distorting it.",
+      "key_principles": [
+        "因而不为，顺而不施",
+        "万物以自然为性，不可强改",
+        "圣人不强加一己之'宜'",
+        "借势用势，事半功倍"
+      ],
+      "typical_outputs": [
+        "顺势而为的行动设计",
+        "尊重差异的个性化方案",
+        "低干预、高杠杆的治理",
+        "最小扭曲的引导策略"
+      ],
+      "practical_applications": [
+        "管理：因才施用，让禀赋决定岗位而非岗位改造人",
+        "产品：顺着用户已有习惯设计，不逼用户改行为",
+        "教育：依兴趣与天赋引导，非统一模具浇铸",
+        "自我管理：认识自己的节律，顺应而非硬扛"
+      ],
+      "mental_model": "木工顺纹劈柴：同样的力气，顺纹一劈即开，逆纹寸步难行。做事前先问'此事/此人的纹路是什么'，再决定用力的方向。",
+      "contrast_modes": [
+        "强力干预、拔苗助长",
+        "统一模具式的标准化管理",
+        "以己度物的强制设计",
+        "逆势硬扛的低效努力"
+      ],
+      "cross_domain_mapping": {
+        "政治": "无为而治的积极重释",
+        "管理": "因才施用，优势导向",
+        "设计学": "可供性（affordance）设计",
+        "个人": "顺天性成长，自我接纳"
+      },
+      "historical_context": "王弼重新诠释'无为'：非消极不为，而是'不造不施'以任物自生自成——'无为'是高杠杆的积极治理，反驳了将老学读作退隐术的传统。",
+      "mode_examples": [
+        {
+          "example_zh": "《老子注》二十九章：'圣人达自然之性，畅万物之情，故因而不为，顺而不施。'",
+          "example_en": "Ch. 29: 'The sage penetrates spontaneity and frees all dispositions: following rather than acting, according rather than imposing.'"
+        },
+        {
+          "example_zh": "现代类比：好的推荐系统'因'用户兴趣推送，而非'为'用户规定必看清单。",
+          "example_en": "Modern analogy: a good recommender follows user interest rather than dictating what must be watched."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-008",
+      "mode_name_zh": "名教本于自然",
+      "mode_name_en": "Name-Teaching Rooted in Nature",
+      "category": "实践智慧",
+      "definition_zh": "仁义礼法等名教不是自然之外的人为造作，而是自然之道的发用：'仁德之厚，非用仁之所能也'——刻意行仁反失其厚。名教与自然的关系是本与末：以自然为本，名教自正；弃本造名，名教虚伪化。",
+      "definition_en": "Benevolence, righteousness, rites, and law are not artificial constructs apart from nature but expressions of the natural Dao: 'the depth of benevolence is not achieved by wielding benevolence'—deliberate kindness loses its depth. Names and norms are branches; nature is the root: honor the root and norms rectify themselves.",
+      "key_principles": [
+        "名教出于自然——规范有本",
+        "刻意之为失其厚——真价值不可表演",
+        "本正则末自正——先修源，再立规",
+        "不废名教——反对以自然废礼法"
+      ],
+      "typical_outputs": [
+        "文化先于制度的组织治理",
+        "防止形式主义的价值审计",
+        "规范合法性论证",
+        "价值与规则的一致性检查"
+      ],
+      "practical_applications": [
+        "组织文化：制度（名教）必须长在共同价值观（自然）上",
+        "个人诚信：真修养不可表演，表演式善良迅速露馅",
+        "政策：法规要顺应民俗常理，否则执行成本畸高",
+        "教育：先养性情，再习礼仪"
+      ],
+      "mental_model": "源流之喻：自然为源，名教为流。流浊时先查源头，而不是反复疏通下游——一项规则处处被钻空子，往往不是规则不够细，而是价值土壤有问题。",
+      "contrast_modes": [
+        "道德表演与形式主义",
+        "繁琐立法压制价值观建设",
+        "以'自然'为名废弃一切规范（魏晋末流放达）",
+        "价值与制度两张皮"
+      ],
+      "cross_domain_mapping": {
+        "政治": "名教与自然之辨（魏晋思想主轴）",
+        "管理学": "文化与制度的关系",
+        "伦理学": "动机与行为的一致性",
+        "个人": "由内而外的修养路径"
+      },
+      "historical_context": "这是魏晋玄学'自然与名教之辨'的核心命题。嵇康'越名教而任自然'走向一端，王弼'名教本于自然'居中调停，为士人既不背叛礼法又保持精神自由提供了理论基础。",
+      "mode_examples": [
+        {
+          "example_zh": "《老子注》三十八章：仁义之教本于自然；失道而后德、失德而后仁——本失则末伪。",
+          "example_en": "Ch. 38: the teaching of benevolence is rooted in nature; when the root is lost, the branches turn hollow."
+        },
+        {
+          "example_zh": "现代类比：公司价值观墙上写'客户第一'，但考核只看营收——名教（制度）失去自然（真实价值）之根，迅速伪化。",
+          "example_en": "Modern analogy: a company espousing 'customers first' while bonuses track only revenue—the norms lose their natural root and turn hollow."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-009",
+      "mode_name_zh": "以无为用",
+      "mode_name_en": "Use Non-Being as Function",
+      "category": "治理与全局观",
+      "definition_zh": "'以无为用，则莫不载也'——不预先设定、不自我固化的立场，才能承载一切：'己不劳焉而物无不理'。领导者的最高功能是提供让万物自行运转的空间，而非亲自驱动每个零件。",
+      "definition_en": "'Take non-being as function and nothing fails to be carried.' A position without fixed precommitments can hold everything: 'without toiling oneself, nothing remains unregulated.' The leader's highest function is providing the space in which things run themselves.",
+      "key_principles": [
+        "以无为用，莫不载也",
+        "得其母，己不劳而物无不理",
+        "领导力=提供条件而非事必躬亲",
+        "不预设立场故能兼容并载"
+      ],
+      "typical_outputs": [
+        "平台化、基础设施式的解决方案",
+        "授权与自组织机制设计",
+        "保持开放性的决策框架",
+        "低干预高产出的人效配置"
+      ],
+      "practical_applications": [
+        "管理：建平台与规则，让团队自转",
+        "产品：做生态与接口，不越位替用户做一切",
+        "谈判：不预设立场者反而能容纳所有方案",
+        "个人：留白的时间结构才有创造空间"
+      ],
+      "mental_model": "容器之喻：杯子因空而能盛水，制度因'不预设'而能容纳多样。领导者把自己从'发动机'改造成'容器与轨道'，产出反而最大化。",
+      "contrast_modes": [
+        "事必躬亲的微观管理",
+        "立场先行导致选材视野狭窄",
+        "越俎代庖式帮扶",
+        "把组织活力系于一人之勤"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "无之以为用（《老子》十一章的体系化）",
+        "管理学": "授权、平台化领导",
+        "经济学": "制度作为公共品基础设施",
+        "个人": "留白与开放心态的产出效应"
+      },
+      "historical_context": "王弼将《老子》'三十辐共一毂''埏埴以为器'的隐喻提炼为'以无为用'的普遍原理，并用于政治哲学：君主无为而百官自治，是正始玄学'君道无为、臣道有为'的理论根据。",
+      "mode_examples": [
+        {
+          "example_zh": "《老子注》三十八章：'以无为用，则得其母，故能己不劳焉而物无不理。'",
+          "example_en": "Ch. 38: 'Taking non-being as function, one obtains the mother—without toiling oneself, nothing remains unregulated.'"
+        },
+        {
+          "example_zh": "现代类比：操作系统不替应用干活，只提供调度与接口——'无为'的内核成就了万千应用的'无不为'。",
+          "example_en": "Modern analogy: an OS does no app's work; it provides scheduling and interfaces—its 'non-action' enables every application's action."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-WB-010",
+      "mode_name_zh": "辨名析理",
+      "mode_name_en": "Distinguish Names, Discern Principle",
+      "category": "诠释方法论",
+      "definition_zh": "'名以定形'，而'混成无形，不可得定'：对终极对象而言，'言之者失其常，名之者离其真'。因此使用概念时必须自觉其边界——概念是工具化的规定，被规定者总超出规定。",
+      "definition_en": "'Names fix form, yet the formless cannot be fixed': of the ultimate object, 'to speak of it loses its constancy, to name it departs from its truth.' Concepts must be used with awareness of their limits—a concept is a determination, and the determined always exceeds the determination.",
+      "key_principles": [
+        "名以定形——概念的功能是固定",
+        "无形无名者不可定——终极对象超名",
+        "言之者失其常——语言有固有损耗",
+        "概念自觉：知其适用边界"
+      ],
+      "typical_outputs": [
+        "概念的边界条件说明",
+        "避免范畴错误的论证",
+        "对'不可言说'处的沉默与提示",
+        "术语系统的自我批判"
+      ],
+      "practical_applications": [
+        "学术写作：界定术语适用范围，防过度概括",
+        "争论仲裁：先厘清双方用词是否同名同实",
+        "建模：明确模型假设失效的边界",
+        "沟通：承认语言损耗，用多角度互证补足"
+      ],
+      "mental_model": "地图与疆域之喻的升级版：不仅地图不是疆域，而且对疆域最精微处（无形无名者），任何地图必然失真——此时恰当的态度是标注'此处地图不可用'，而非绘制更精细的错误地图。",
+      "contrast_modes": [
+        "词语崇拜——以为换名就改变了事物",
+        "范畴错误——把工具性概念当本体",
+        "无限细化的伪精确",
+        "对不可言说者的强行言说"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "言不尽意论的体系化，玄学清谈方法论",
+        "科学哲学": "模型的有效域与失效条件",
+        "法学": "定义条款的必要性及其极限",
+        "个人": "对话中先校准概念再争论"
+      },
+      "historical_context": "《老子指略》开篇即做概念清算，论证'道''玄''深''大'诸名皆'言之者失其常'；这与《周易略例》的言意之辨共同构成魏晋清谈'辨名析理'的规范文本，也直接启发僧肇、道生等格义佛教的方法。",
+      "mode_examples": [
+        {
+          "example_zh": "《老子指略》：'名以定形，混成无形，不可得而定……言之者失其常，名之者离其真。'",
+          "example_en": "'Names fix form; the formless cannot be fixed... to speak of it loses its constancy, to name it departs from truth.'"
+        },
+        {
+          "example_zh": "现代类比：物理学论文必先声明模型的适用范围——超出普朗克尺度的经典模型即是'名之者离其真'。",
+          "example_en": "Modern analogy: papers declare a model's domain of validity—classical models beyond their scale 'depart from truth by being named.'"
+        }
+      ]
+    }
+  ],
+  "integration_analysis": null,
+  "modern_relevance": null
+}

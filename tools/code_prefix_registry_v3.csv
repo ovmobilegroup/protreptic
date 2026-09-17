@@ -1,0 +1,116 @@
+# 代码前缀注册表 v3.0
+# Phase 8: 40+ 前缀 (含 Phase 7 继承的 19 个 + 新增 27 个)
+# 格式: prefix,region,civilization_sphere,countries,status,notes
+
+# === Phase 7 继承前缀 (已注册) ===
+EU-DE,Europe,Western Europe,Germany,active,"德国"
+UK,Europe,Western Europe,United Kingdom,active,"英国"
+US,North America,Anglosphere,United States,active,"美国"
+RU,Europe/Eurasia,Slavic/Orthodox,Russia,active,"俄罗斯"
+JP,East Asia,Japanese,Japan,active,"日本"
+KR,East Asia,Korean,South Korea,active,"韩国"
+BR,South America,Latin America,Brazil,active,"巴西"
+FR,Europe,Western Europe,France,active,"法国"
+IT,Europe,Western Europe,Italy,active,"意大利"
+IN,South Asia,Indian,India,active,"印度"
+IR,Middle East,Islamic/Iranian,Iran,active,"伊朗"
+IL,Middle East,Jewish,Israel,active,"以色列"
+SE,Europe,Nordic,Sweden,active,"瑞典"
+NO,Europe,Nordic,Norway,active,"挪威"
+DK,Europe,Nordic,Denmark,active,"丹麦"
+FI,Europe,Nordic,Finland,active,"芬兰"
+ZA,Africa,Sub-Saharan,South Africa,active,"南非"
+NG,Africa,Sub-Saharan,Nigeria,active,"尼日利亚"
+KE,Africa,Sub-Saharan,Kenya,active,"肯尼亚"
+EG,Africa/Middle East,Islamic/African,Egypt,active,"埃及"
+SG,Southeast Asia,Confucian/Islamic,Singapore,active,"新加坡"
+TH,Southeast Asia,Theravada Buddhist,Thailand,active,"泰国"
+VN,Southeast Asia,Confucian/Communist,Vietnam,active,"越南"
+ID,Southeast Asia,Islamic/Indonesian,Indonesia,active,"印度尼西亚"
+PH,Southeast Asia,Catholic/Philippine,Philippines,active,"菲律宾"
+AU,Oceania,Anglosphere,Australia,active,"澳大利亚"
+NZ,Oceania,Anglosphere/Maori,New Zealand,active,"新西兰"
+TR,Middle East/Central Asia,Islamic/Turkic,Turkey,active,"土耳其"
+UZ,Central Asia,Islamic/Turkic,Uzbekistan,active,"乌兹别克斯坦"
+KZ,Central Asia,Islamic/Turkic,Kazakhstan,active,"哈萨克斯坦"
+AT,Europe,Central Europe,Austria,active,"奥地利"
+CH,Europe,Central Europe,Switzerland,active,"瑞士"
+PL,Europe,Central Europe,Poland,active,"波兰"
+CZ,Europe,Central Europe,Czechia,active,"捷克"
+MX,North America,Latin America,Mexico,active,"墨西哥"
+AR,South America,Latin America,Argentina,active,"阿根廷"
+CL,South America,Latin America,Chile,active,"智利"
+CO,South America,Latin America,Colombia,active,"哥伦比亚"
+
+# === Phase 8 新增前缀 (P0-P3) ===
+
+# P0: 东亚深度
+MN,East Asia,Mongolic,Mongolia,active,"蒙古"
+TW,East Asia,Chinese/Taiwanese,Taiwan,active,"台湾"
+
+# P0: 阿拉伯/中东核心
+SA,Middle East,Islamic/Arab,Saudi Arabia,active,"沙特阿拉伯"
+IQ,Middle East,Islamic/Arab,Iraq,active,"伊拉克"
+SY,Middle East,Islamic/Arab,Syria,active,"叙利亚"
+LB,Middle East,Islamic/Arab,Lebanon,active,"黎巴嫩"
+JO,Middle East,Islamic/Arab,Jordan,active,"约旦"
+PS,Middle East,Islamic/Arab,Palestine,active,"巴勒斯坦"
+
+# P0: 北美 + 北极
+CA,North America,Anglosphere/French,Canada,active,"加拿大"
+GL,Arctic,Inuit,Greenland,active,"格陵兰 (丹麦自治领)"
+CA-SMI,Arctic,Sami,"Norway/Sweden/Finland/Russia",active,"萨米人 (跨国)"
+INU,Arctic,Inuit,"Canada/USA/Greenland/Russia",active,"因纽特人 (跨国)"
+
+# P1: 斯拉夫/东欧深层
+UA,Europe,Slavic/Orthodox,Ukraine,active,"乌克兰"
+BY,Europe,Slavic/Orthodox,Belarus,active,"白俄罗斯"
+RS,Europe,Slavic/Orthodox,Serbia,active,"塞尔维亚"
+HR,Europe,Slavic/Catholic,Croatia,active,"克罗地亚"
+SI,Europe,Slavic/Catholic,Slovenia,active,"斯洛文尼亚"
+HU,Europe,Uralic/Magyar,Hungary,active,"匈牙利"
+RO,Europe,Latin/Orthodox,Romania,active,"罗马尼亚"
+BG,Europe,Slavic/Orthodox,Bulgaria,active,"保加利亚"
+
+# P1: 撒哈拉以南非洲深层
+ET,Africa,Horn of Africa,Ethiopia,active,"埃塞俄比亚"
+GH,Africa,West Africa,Ghana,active,"加纳"
+TZ,Africa,East Africa,Tanzania,active,"坦桑尼亚"
+CD,Africa,Central Africa,"DR Congo",active,"刚果民主共和国"
+SN,Africa,West Africa,Senegal,active,"塞内加尔"
+CI,Africa,West Africa,"Cote d'Ivoire",active,"科特迪瓦"
+MZ,Africa,Southeast Africa,Mozambique,active,"莫桑比克"
+AO,Africa,Southern Africa,Angola,active,"安哥拉"
+
+# P1: 拉美深层
+PE,South America,Andean/Indigenous,Peru,active,"秘鲁"
+VE,South America,Andean/Caribbean,Venezuela,active,"委内瑞拉"
+CU,Caribbean,Socialist/Indigenous,Cuba,active,"古巴"
+BO,South America,Andean/Indigenous,Bolivia,active,"玻利维亚"
+EC,South America,Andean/Indigenous,Ecuador,active,"厄瓜多尔"
+UY,South America,Southern Cone,Uruguay,active,"乌拉圭"
+PY,South America,Southern Cone,Paraguay,active,"巴拉圭"
+
+# P2: 中亚/东南亚/大洋洲深层
+KG,Central Asia,Turkic,Kyrgyzstan,active,"吉尔吉斯斯坦"
+TJ,Central Asia,Persian/Turkic,Tajikistan,active,"塔吉克斯坦"
+TM,Central Asia,Turkic,Turkmenistan,active,"土库曼斯坦"
+MM,Southeast Asia,Theravada Buddhist,Myanmar,active,"缅甸"
+KH,Southeast Asia,Theravada Buddhist,Cambodia,active,"柬埔寨"
+LA,Southeast Asia,Theravada Buddhist,Laos,active,"老挝"
+BN,Southeast Asia,Islamic/Malay,Brunei,active,"文莱"
+TL,Southeast Asia,Catholic/Austronesian,Timor-Leste,active,"东帝汶"
+PG,Oceania,Melanesian,"Papua New Guinea",active,"巴布亚新几内亚"
+FJ,Oceania,Polynesian/Melanesian,Fiji,active,"斐济"
+WS,Oceania,Polynesian,Samoa,active,"萨摩亚"
+TO,Oceania,Polynesian,Tonga,active,"汤加"
+VU,Oceania,Melanesian,Vanuatu,active,"瓦努阿图"
+
+# P3: 极地/加勒比
+# GL, CA-SMI, INU 已在 P0 列出
+
+JM,Caribbean,Anglophone,Jamaica,planned,"牙买加"
+HT,Caribbean,Francophone/Creole,Haiti,planned,"海地"
+DO,Caribbean,Hispanophone,"Dominican Republic",planned,"多米尼加"
+TT,Caribbean,Anglophone/Creole,"Trinidad and Tobago",planned,"特立尼达和多巴哥"
+BB,Caribbean,Anglophone,Barbados,planned,"巴巴多斯"

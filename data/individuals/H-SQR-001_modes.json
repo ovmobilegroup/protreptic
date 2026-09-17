@@ -1,0 +1,520 @@
+{
+  "schema_version": "v6",
+  "code": "H-SQR-001",
+  "figure_name_zh": "苏格拉底",
+  "figure_name_en": "Socrates",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-SQR-001",
+      "name_zh": "产婆术诘问法",
+      "name_en": "Elenchus (Socratic Cross-Examination)",
+      "mode_code": "M-SQR-001",
+      "category": "认识论",
+      "domain_zh": "论辩方法/真理检验",
+      "domain_en": "Argumentation / Truth-Testing",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "通过连续追问暴露对方信念体系内部的矛盾（反证 refutation），使对方从'自以为知'跌入'自知不知'，为真正知识的重建清场。不直接给出答案，而是以对方自己的前提推出对方否认的结论——真理检验的标准不是权威或多数，而是一个人经过诘问后仍能坚持的融贯信念。",
+      "definition_en": "Through chains of questions, expose contradictions inside the interlocutor's own belief system, precipitating the fall from 'thinking one knows' to 'knowing one does not know.' Truth is tested not by authority or majority but by the set of beliefs one can still coherently hold after cross-examination.",
+      "source_chapter": "柏拉图《游叙弗伦》14c、《美诺》《高尔吉亚》",
+      "key_concepts": [
+        "诘问",
+        "反证",
+        "融贯",
+        "自相矛盾",
+        "以子之矛攻子之盾"
+      ],
+      "process_zh": [
+        "请对方给出其主张的定义或理由",
+        "从对方前提出发逐层追问，寻找隐含矛盾",
+        "以对方自己的前提推出其不愿接受的结论",
+        "宣布'知识被反证'，邀请共同重新开始探究"
+      ],
+      "process_en": [
+        "Ask the interlocutor to define or justify their claim",
+        "Trace the implications of their premises to locate hidden contradictions",
+        "Derive from their own premises a conclusion they must reject",
+        "Declare the belief refuted and restart inquiry together"
+      ],
+      "key_quote_zh": "游叙弗伦啊，我们不要计较谁高明，应当合力弄清'虔诚是什么'。",
+      "key_quote_en": "Euthyphro, let us not quarrel over who is cleverer; let us join forces to find what the pious itself is.",
+      "representative_cases_zh": "游叙弗伦无法回答'虔诚是什么'的第三种定义——苏格拉底仅用他自己举的例子就证明了神所爱的与虔诚的不等同。",
+      "representative_cases_en": "游叙弗伦无法回答'虔诚是什么'的第三种定义——苏格拉底仅用他自己举的例子就证明了神所爱的与虔诚的不等同。",
+      "modern_applications_zh": [
+        "批判性思维教学与结构化反问",
+        "需求评审/方案评审中的压力测试",
+        "咨询式辅导：不代答而促自悟"
+      ],
+      "modern_applications_en": [
+        "批判性思维教学与结构化反问",
+        "需求评审/方案评审中的压力测试",
+        "咨询式辅导：不代答而促自悟"
+      ],
+      "related_modes": [
+        "M-SQR-002",
+        "M-SQR-003",
+        "M-SQR-005"
+      ]
+    },
+    {
+      "id": "M-SQR-002",
+      "name_zh": "无知之知法",
+      "name_en": "Socratic Ignorance (Docta Ignorantia)",
+      "mode_code": "M-SQR-002",
+      "category": "认识论",
+      "domain_zh": "元认知/理智谦逊",
+      "domain_en": "Metacognition / Intellectual Humility",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "德尔斐神谕说无人比苏格拉底更有智慧，他遍访政治家、诗人、工匠后得出结论：他们的智慧是幻觉，而他自己的优势仅在于'自知其无知'——知道自己的知识边界本身就是一种智慧。将'承认无知'确立为一切探究的起点与动力，把认识论从占有真理转为逼近真理。",
+      "definition_en": "The oracle said none was wiser than Socrates; after questioning politicians, poets, and craftsmen he concluded their wisdom was illusion, and his only advantage was knowing that he did not know. Acknowledging one's ignorance becomes the starting point and engine of all inquiry—an epistemology of approaching rather than possessing truth.",
+      "source_chapter": "柏拉图《申辩》21a-23b",
+      "key_concepts": [
+        "无知之知",
+        "德尔斐神谕",
+        "理智谦逊",
+        "自以为知",
+        "认知边界"
+      ],
+      "process_zh": [
+        "接到'你是智者'的断言后，逐类考察自认为有知者",
+        "检验其知识：能否对核心概念给出融贯说明",
+        "发现有知者的'知'经不起检验，而自己至少知道检验标准",
+        "把'自知无知'重估为唯一真实的智慧，以此定位进一步探究的方向"
+      ],
+      "process_en": [
+        "Examine each class of self-proclaimed knowers",
+        "Test whether they can coherently explain their core concepts",
+        "Find their knowledge fails the test they themselves imply",
+        "Re-evaluate knowing-one's-ignorance as the only genuine wisdom and the map for further inquiry"
+      ],
+      "key_quote_zh": "我只知道我一无所知——而别人也不知道，却自以为知道。",
+      "key_quote_en": "I know that I know nothing—and others, knowing no more, think they do.",
+      "representative_cases_zh": "《申辩》中苏格拉底自述因神谕而遍访三类人，结论是'我不认为我知道我不知道的事'。",
+      "representative_cases_en": "《申辩》中苏格拉底自述因神谕而遍访三类人，结论是'我不认为我知道我不知道的事'。",
+      "modern_applications_zh": [
+        "AI时代的认知谦逊与不确定性管理",
+        "科学研究的可证伪精神与开放心态",
+        "组织决策中的'预验尸'与反过度自信机制"
+      ],
+      "modern_applications_en": [
+        "AI时代的认知谦逊与不确定性管理",
+        "科学研究的可证伪精神与开放心态",
+        "组织决策中的'预验尸'与反过度自信机制"
+      ],
+      "related_modes": [
+        "M-SQR-001",
+        "M-SQR-007"
+      ]
+    },
+    {
+      "id": "M-SQR-003",
+      "name_zh": "普遍定义法",
+      "name_en": "Search for Universal Definitions",
+      "mode_code": "M-SQR-003",
+      "category": "认识论",
+      "domain_zh": "概念分析/本质追问",
+      "domain_en": "Conceptual Analysis / Essence-Seeking",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "拒绝用例子回答'什么是X'（虔诚是像苏格拉底这样被控告），坚持追问使一切X实例成其为X的那个共同本性——'那自身通过它诸虔诚之事才得以虔诚的东西'。将哲学从对世界的意见转向对概念本身的审查，为柏拉图的理念论与整个西方概念分析传统奠基。",
+      "definition_en": "Refusing to answer 'What is X?' with examples, Socrates demands the common nature by which all X-instances are X—'that very thing by which pious things are pious.' Philosophy turns from opinions about the world to scrutiny of concepts themselves, founding the Western tradition of conceptual analysis and, via Plato, the theory of Forms.",
+      "source_chapter": "柏拉图《游叙弗伦》6d-e、《拉凯斯》《卡尔米德》",
+      "key_concepts": [
+        "普遍定义",
+        "本质",
+        "虔诚自身",
+        "以例代答之谬",
+        "共相"
+      ],
+      "process_zh": [
+        "对方以个案或权威回答'什么是X'",
+        "指出个案只陈述X的属性而非X的本质",
+        "要求给出'使一切X成其为X'的普遍标准",
+        "对给出的定义再施诘问，逼近更严格的本质"
+      ],
+      "process_en": [
+        "An interlocutor answers 'What is X?' with a case or authority",
+        "Show the case states an attribute of X, not its essence",
+        "Demand the universal criterion by which all X are X",
+        "Apply elenchus to the definition itself, refining toward essence"
+      ],
+      "key_quote_zh": "你要告诉我的是：使一切虔诚之事得以虔诚的那个形相本身。",
+      "key_quote_en": "Tell me: that very form itself by which all pious things are pious.",
+      "representative_cases_zh": "《游叙弗伦》以'虔诚之事'举例被拒——个案只显示虔诚的属性，未触及虔诚的本质。",
+      "representative_cases_en": "《游叙弗伦》以'虔诚之事'举例被拒——个案只显示虔诚的属性，未触及虔诚的本质。",
+      "modern_applications_zh": [
+        "需求定义与产品概念澄清",
+        "法律概念的教义学界定",
+        "教育学中的概念教学法（先辨本质再举例）"
+      ],
+      "modern_applications_en": [
+        "需求定义与产品概念澄清",
+        "法律概念的教义学界定",
+        "教育学中的概念教学法（先辨本质再举例）"
+      ],
+      "related_modes": [
+        "M-SQR-001",
+        "M-SQR-004"
+      ]
+    },
+    {
+      "id": "M-SQR-004",
+      "name_zh": "归纳上升法",
+      "name_en": "Inductive Ascent to Universals",
+      "mode_code": "M-SQR-004",
+      "category": "方法论",
+      "domain_zh": "归纳推理/经验到普遍",
+      "domain_en": "Induction / From Particulars to Universals",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "亚里士多德所记：苏格拉底致力于'伦理问题的普遍定义'并第一个运用归纳论证（epagoge）——从多个具体实例出发，逐步上升抽取出普遍命题。与普遍定义法互为表里：定义提供目标，归纳提供路径。确立了西方'从经验个案通向一般原理'的经典论证型。",
+      "definition_en": "Aristotle records that Socrates busied himself with ethical universals and was the first to use inductive argument (epagoge): ascending from particular instances to a general proposition. The twin of definition-seeking: definition sets the target, induction supplies the path—the canonical Western argument form from cases to principles.",
+      "source_chapter": "亚里士多德《形而上学》M.4 1078b27-32",
+      "key_concepts": [
+        "归纳论证",
+        "伦理普遍定义",
+        "实例上升",
+        "epagoge",
+        "经验与理性之桥"
+      ],
+      "process_zh": [
+        "收集若干确认无疑的具体实例",
+        "比较实例，剔除表面共性、保留结构共性",
+        "拟出候选的普遍命题",
+        "用新实例与反例回测，修正直至命题涵盖且仅涵盖该类实例"
+      ],
+      "process_en": [
+        "Collect undisputed particular cases",
+        "Compare them, discarding surface for structural commonality",
+        "Draft a candidate universal proposition",
+        "Backtest with fresh cases and counterexamples, revising until the proposition fits exactly"
+      ],
+      "key_quote_zh": "苏格拉底有两件事可公正地归于他：归纳论证与普遍定义。",
+      "key_quote_en": "Two things may justly be credited to Socrates: inductive arguments and universal definition.",
+      "representative_cases_zh": "亚里士多德《形而上学》明确记载苏格拉底开创归纳论证与伦理普遍定义两条路径。",
+      "representative_cases_en": "亚里士多德《形而上学》明确记载苏格拉底开创归纳论证与伦理普遍定义两条路径。",
+      "modern_applications_zh": [
+        "从用户访谈归纳产品原则",
+        "医学/法律的判例归纳与规则提炼",
+        "机器学习前的特征共性人工归纳"
+      ],
+      "modern_applications_en": [
+        "从用户访谈归纳产品原则",
+        "医学/法律的判例归纳与规则提炼",
+        "机器学习前的特征共性人工归纳"
+      ],
+      "related_modes": [
+        "M-SQR-003",
+        "M-SQR-001"
+      ]
+    },
+    {
+      "id": "M-SQR-005",
+      "name_zh": "灵魂助产法",
+      "name_en": "Maieutics (Midwifery of the Soul)",
+      "mode_code": "M-SQR-005",
+      "category": "方法论",
+      "domain_zh": "教育法/知识生成",
+      "domain_en": "Pedagogy / Knowledge Generation",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "苏格拉底自比助产士：他自己不育（不给出结论），但帮助他人'分娩'出其灵魂中本已孕育的思想——用辨真假（接生鉴定）、类比与咒语（促使阵痛的诘问）完成知识的接生。教育不是灌输而是唤醒：真理须由学习者自己在挣扎中产出才算真正拥有。",
+      "definition_en": "Socrates likens himself to a midwife: barren himself (offering no conclusions), he delivers the ideas already gestating in others' souls—testing the newborn for truth, inducing labor-pangs through questioning. Education is not transfusion but awakening: a truth counts as one's own only when born through one's own struggle.",
+      "source_chapter": "柏拉图《泰阿泰德》148e-151d",
+      "key_concepts": [
+        "助产术",
+        "灵魂分娩",
+        "阵痛（困惑）",
+        "不育人但接生",
+        "产婆的鉴定"
+      ],
+      "process_zh": [
+        "判断对方灵魂中是否已有孕育的问题与半成品思想",
+        "以诘问诱发'阵痛'——意识到自己知与不知的张力",
+        "陪伴推演，让结论从对方口中产出",
+        "检验'新生儿'：经受反证者留养，怪胎者弃置"
+      ],
+      "process_en": [
+        "Discern the ideas and half-formed questions already gestating in the learner",
+        "Induce labor-pangs: the tension between knowing and not-knowing",
+        "Coach the delivery so the conclusion is spoken by the learner",
+        "Test the newborn: keep what survives refutation, discard monsters"
+      ],
+      "key_quote_zh": "我的助产术与妇人助产唯一不同之处：接生的是灵魂而非肉体。",
+      "key_quote_en": "My art of midwifery differs from midwives' only in delivering souls, not bodies.",
+      "representative_cases_zh": "《泰阿泰德》苏格拉底自述其母为助产士，他自己'不育'却为他人灵魂接生。",
+      "representative_cases_en": "《泰阿泰德》苏格拉底自述其母为助产士，他自己'不育'却为他人灵魂接生。",
+      "modern_applications_zh": [
+        "苏格拉底式提问法在教练/辅导中的应用",
+        "翻转课堂与启发式教学",
+        "产品共创工作坊的引导术"
+      ],
+      "modern_applications_en": [
+        "苏格拉底式提问法在教练/辅导中的应用",
+        "翻转课堂与启发式教学",
+        "产品共创工作坊的引导术"
+      ],
+      "related_modes": [
+        "M-SQR-001",
+        "M-SQR-006"
+      ]
+    },
+    {
+      "id": "M-SQR-006",
+      "name_zh": "德性即知识法",
+      "name_en": "Virtue Is Knowledge",
+      "mode_code": "M-SQR-006",
+      "category": "伦理学",
+      "domain_zh": "德性论/知行关系",
+      "domain_en": "Ethics / Virtue and Knowledge",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "无人自愿作恶：一切恶行皆出于无知，因为真正的知识必然指向善——若有人真知何为善，不可能选择恶。将道德从习俗与神律中解放，交给理性的可教知识：德性可教与否系于德性是否为知识。这是西方伦理理性化（理智主义伦理学）的开端。",
+      "definition_en": "No one does wrong willingly: all wrong stems from ignorance, since genuine knowledge necessarily aims at the good—one who truly knows the good cannot choose evil. Morality is wrested from custom and divine command and entrusted to teachable rational knowledge, opening Western ethical intellectualism.",
+      "source_chapter": "柏拉图《普罗泰戈拉》352b-358d、《美诺》87b-89a",
+      "key_concepts": [
+        "无人自愿作恶",
+        "德性即知识",
+        "善的知识",
+        "理智主义伦理",
+        "德性可教"
+      ],
+      "process_zh": [
+        "设问：作恶者若知其恶且知善更佳，何以仍作恶",
+        "论证趋善避恶是人的本质倾向，故作恶必因误判",
+        "推出恶行=关于善的无知，德性=关于善的真知",
+        "检验推论于'勇气/节制'等德性，确认知与行不分离"
+      ],
+      "process_en": [
+        "Ask: if a wrongdoer knows the evil and the better good, why do wrong?",
+        "Argue all humans by nature pursue the apparent good, so evil is misjudgment",
+        "Conclude wrongdoing = ignorance of the good; virtue = true knowledge of it",
+        "Test on courage, temperance, etc., confirming knowledge and action cannot part"
+      ],
+      "key_quote_zh": "没有人明知恶而为之；趋恶避善者，皆因无知。",
+      "key_quote_en": "No one willingly goes toward evil; those who choose evil over good are led by ignorance.",
+      "representative_cases_zh": "《普罗泰戈拉》以'快乐的度量'论证：作恶皆源于对善的无知与衡量失准。",
+      "representative_cases_en": "《普罗泰戈拉》以'快乐的度量'论证：作恶皆源于对善的无知与衡量失准。",
+      "modern_applications_zh": [
+        "合规与组织行为：把'坏行为'诊断为'坏认知'",
+        "技能式道德训练（把德性当作可习得的专业能力）",
+        "AI对齐：使系统'真知善'而非仅'被约束'"
+      ],
+      "modern_applications_en": [
+        "合规与组织行为：把'坏行为'诊断为'坏认知'",
+        "技能式道德训练（把德性当作可习得的专业能力）",
+        "AI对齐：使系统'真知善'而非仅'被约束'"
+      ],
+      "related_modes": [
+        "M-SQR-007",
+        "M-SQR-010"
+      ]
+    },
+    {
+      "id": "M-SQR-007",
+      "name_zh": "省察人生法",
+      "name_en": "The Examined Life",
+      "mode_code": "M-SQR-007",
+      "category": "伦理学",
+      "domain_zh": "人生哲学/自我反思",
+      "domain_en": "Philosophy of Life / Self-Reflection",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "'未经省察的人生不值得过'——人的最高事业不是财富名誉而是灵魂的完善，而完善以持续的自我审查为前提。把'省察'从偶发的忏悔升级为终身的方法论实践：每天检验自己的信念、行为与价值排序是否经得起逻各斯，宁被多数人恨，不做灵魂的背叛者。",
+      "definition_en": "'The unexamined life is not worth living'—the highest human enterprise is not wealth or fame but the perfection of the soul, which requires relentless self-examination. Examination is upgraded from occasional repentance to a lifelong practice: daily testing of one's beliefs, deeds, and value-rankings against logos, preferring the hatred of the many to betraying one's soul.",
+      "source_chapter": "柏拉图《申辩》29d-30b、38a",
+      "key_concepts": [
+        "未经省察的人生",
+        "灵魂的完善",
+        "每日省察",
+        "价值排序",
+        "灵魂高于身体"
+      ],
+      "process_zh": [
+        "确立最高目标：照顾灵魂优于照顾财产与名声",
+        "以逻各斯为法庭逐日审查自己的信念与行为",
+        "发现不一致即修正行为或修正信念，二者必居其一",
+        "以死亡为下界估量：省察的收益（灵魂之善）不可被任何外在威胁折价"
+      ],
+      "process_en": [
+        "Set the supreme aim: care of the soul over wealth and reputation",
+        "Audit beliefs and deeds daily in the court of logos",
+        "On inconsistency, revise either deed or belief—no third option",
+        "Measure against death: the soul's good cannot be discounted by external threats"
+      ],
+      "key_quote_zh": "未经省察的人生不值得过。",
+      "key_quote_en": "The unexamined life is not worth living.",
+      "representative_cases_zh": "《申辩》法庭上苏格拉底拒绝以沉默换生：省察自己与他人是他此生唯一的职分。",
+      "representative_cases_en": "《申辩》法庭上苏格拉底拒绝以沉默换生：省察自己与他人是他此生唯一的职分。",
+      "modern_applications_zh": [
+        "个人复盘与价值观审计",
+        "临终关怀与生命优先级重排",
+        "领导者的自我觉察与决策日志"
+      ],
+      "modern_applications_en": [
+        "个人复盘与价值观审计",
+        "临终关怀与生命优先级重排",
+        "领导者的自我觉察与决策日志"
+      ],
+      "related_modes": [
+        "M-SQR-002",
+        "M-SQR-006"
+      ]
+    },
+    {
+      "id": "M-SQR-008",
+      "name_zh": "反讽法",
+      "name_en": "Irony (Eironeia)",
+      "mode_code": "M-SQR-008",
+      "category": "方法论",
+      "domain_zh": "论辩策略/对话开场",
+      "domain_en": "Argumentation Strategy / Dialogic Opener",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "苏格拉底自称无知、盛赞对方智慧，实则以此卸除对方防御、诱其充分展露观点，再一举反证——表面自贬与实质批判之间的张力即是反讽。既是论辩战术（让对手在舒适中暴露），也是教学策略（学习者先'信赖'再'崩塌'，印象最深）。",
+      "definition_en": "Socrates professes ignorance while praising the interlocutor's wisdom, thereby disarming them into full disclosure before refutation—the tension between surface self-deprecation and real critique is irony. Both a tactic (letting opponents expose themselves comfortably) and a pedagogy (learners who first trust, then collapse, remember deepest).",
+      "source_chapter": "柏拉图《会饮》215a-222b、《申辩》、《普罗泰戈拉》开场",
+      "key_concepts": [
+        "反讽",
+        "佯装无知",
+        "捧杀",
+        "自贬式开场",
+        "苏格拉底式反讽"
+      ],
+      "process_zh": [
+        "真诚地以'我不懂，请指教'开场，抬高对方专业地位",
+        "请对方充分展开并具体化其主张",
+        "在对方最自信处提出温和的例外或反例",
+        "矛盾暴露后揭示：反讽的目的不是羞辱而是共同求真"
+      ],
+      "process_en": [
+        "Open sincerely: 'I don't understand—teach me,' elevating the other's authority",
+        "Let them elaborate and concretize the claim fully",
+        "At peak confidence, raise a gentle exception or counterexample",
+        "When contradiction surfaces, reveal irony's aim is not humiliation but shared truth-seeking"
+      ],
+      "key_quote_zh": "他外表像雕刻的西勒诺斯像，打开来，里面全是神像。",
+      "key_quote_en": "His exterior is like a carved Silenus; open it, and inside are images of gods.",
+      "representative_cases_zh": "阿尔喀比亚德在《会饮》中揭示反讽的效应：粗陋自贬的外表之下是深不可测的智慧。",
+      "representative_cases_en": "阿尔喀比亚德在《会饮》中揭示反讽的效应：粗陋自贬的外表之下是深不可测的智慧。",
+      "modern_applications_zh": [
+        "谈判中的低姿态开局策略",
+        "教学中的'认知冲突'设计",
+        "自我反讽：破除专家自身的立场僵化"
+      ],
+      "modern_applications_en": [
+        "谈判中的低姿态开局策略",
+        "教学中的'认知冲突'设计",
+        "自我反讽：破除专家自身的立场僵化"
+      ],
+      "related_modes": [
+        "M-SQR-001",
+        "M-SQR-005"
+      ]
+    },
+    {
+      "id": "M-SQR-009",
+      "name_zh": "逻各斯优先法",
+      "name_en": "Priority of Logos over Rhetoric",
+      "mode_code": "M-SQR-009",
+      "category": "认识论",
+      "domain_zh": "理性标准/说服与真理之分",
+      "domain_en": "Rationality / Truth vs. Persuasion",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "区分两种说服：修辞术使人'看起来对'（以听众情绪为导向），逻各斯使人'真正对'（以论证融贯为导向）。苏格拉底宁取被判死刑也不使用煽情辩护，坚持'未经论辩检验的意见不可作行动依据'——为理性论证对群众情绪的优先性立下典范。",
+      "definition_en": "Two kinds of persuasion: rhetoric makes one 'seem right' (aimed at audience emotion), logos makes one 'be right' (aimed at argumentative coherence). Socrates chose death over a tear-jerking defense, holding that opinion untested by argument is no basis for action—the canonical priority of rational argument over crowd feeling.",
+      "source_chapter": "柏拉图《高尔吉亚》454b-455a、《申辩》",
+      "key_concepts": [
+        "逻各斯",
+        "修辞术",
+        "看起来对/真正对",
+        "真说服与谄媚",
+        "以理服人"
+      ],
+      "process_zh": [
+        "识别当前讨论是'求对'还是'求赢'",
+        "把情绪诉求翻译为可检验的命题或剔除之",
+        "只接受经得起定义与反证的意见进入决策",
+        "接受逻各斯的裁决即使代价高昂（如苏格拉底的辩护策略）"
+      ],
+      "process_en": [
+        "Identify whether the discussion seeks truth or victory",
+        "Translate emotional appeals into testable propositions, or discard them",
+        "Admit only argument-tested opinions into decisions",
+        "Accept logos's verdict even at high cost (as Socrates' defense did)"
+      ],
+      "key_quote_zh": "修辞术是灵魂的谄媚术；我若哭嚎求怜，便是先承认自己不配以理申辩。",
+      "key_quote_en": "Rhetoric is flattery of the soul; were I to weep for mercy, I would first admit I could not argue my case.",
+      "representative_cases_zh": "《高尔吉亚》区分真说服与谄媚；《申辩》中苏格拉底拒绝带子女哭求法庭，坚持以论证立身。",
+      "representative_cases_en": "《高尔吉亚》区分真说服与谄媚；《申辩》中苏格拉底拒绝带子女哭求法庭，坚持以论证立身。",
+      "modern_applications_zh": [
+        "董事会/评审会上以论证而非气场裁决",
+        "媒体素养：识别修辞性说服与证据性说服",
+        "公共说理写作的规范"
+      ],
+      "modern_applications_en": [
+        "董事会/评审会上以论证而非气场裁决",
+        "媒体素养：识别修辞性说服与证据性说服",
+        "公共说理写作的规范"
+      ],
+      "related_modes": [
+        "M-SQR-001",
+        "M-SQR-004"
+      ]
+    },
+    {
+      "id": "M-SQR-010",
+      "name_zh": "灵魂照护法",
+      "name_en": "Care of the Soul",
+      "mode_code": "M-SQR-010",
+      "category": "伦理学",
+      "domain_zh": "价值哲学/内在善优先",
+      "domain_en": "Value Theory / Primacy of Inner Good",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "人生的分工：财富因身体而有用，身体因灵魂而有价值——灵魂（理性与德性）是唯一自身即善的目的，其余皆工具。苏格拉底拒绝越狱（克力同），论证'不可用不义报不义'：外在损害只能伤及低阶善，灵魂之善不可交易。为西方'内在价值优先'的伦理结构奠基。",
+      "definition_en": "Wealth serves the body; the body serves the soul—only the soul (reason and virtue) is good in itself, everything else instrumental. Refusing escape (Crito), Socrates argues one must never return injustice for injustice: external harm can only damage lower goods, never be traded against the soul's good—the foundation of Western intrinsic-value ethics.",
+      "source_chapter": "柏拉图《克力同》48b-54d、《申辩》30a-b",
+      "key_concepts": [
+        "灵魂照护",
+        "内在善",
+        "不可以恶报恶",
+        "工具价值与自身价值",
+        "守法即德"
+      ],
+      "process_zh": [
+        "给一切事物估价：标出哪些是工具、哪些是自身即善",
+        "决策时先保护自身即善者（灵魂/原则），工具可舍",
+        "检验冲突方案：是否要求用不义保全工具性利益",
+        "若要求，则拒绝——并以论证向对方说明为何拒绝"
+      ],
+      "process_en": [
+        "Price everything: mark what is instrumental and what is good in itself",
+        "In decisions, protect the intrinsic first; instruments may be sacrificed",
+        "Test each option: does it demand injustice to preserve instrumental goods?",
+        "If it does, refuse—and argue the refusal to the other party"
+      ],
+      "key_quote_zh": "不可以不义报不义；人不可作恶，哪怕报恶。",
+      "key_quote_en": "One must not return injustice for injustice; one must never do wrong, not even in return for wrong.",
+      "representative_cases_zh": "《克力同》中苏格拉底拒绝越狱：即使判决不公，报复性的不义仍将损害灵魂之善。",
+      "representative_cases_en": "《克力同》中苏格拉底拒绝越狱：即使判决不公，报复性的不义仍将损害灵魂之善。",
+      "modern_applications_zh": [
+        "职业底线决策（红线不可折价）",
+        "价值排序工具：先定自身即善再定手段",
+        "组织伦理：原则损失不可用收益补偿的'不可交易项'清单"
+      ],
+      "modern_applications_en": [
+        "职业底线决策（红线不可折价）",
+        "价值排序工具：先定自身即善再定手段",
+        "组织伦理：原则损失不可用收益补偿的'不可交易项'清单"
+      ],
+      "related_modes": [
+        "M-SQR-006",
+        "M-SQR-007"
+      ]
+    }
+  ]
+}

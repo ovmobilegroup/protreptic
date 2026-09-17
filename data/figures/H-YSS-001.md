@@ -1,0 +1,879 @@
+# 李舜臣 (YiSunsin / H-YSS-001)
+
+**生卒**: 1545-1598  
+**拼音**: Lǐ Shùnchén  
+**学派/定位**: 朝鲜王朝武官体系中的海战战略家与水师统帅（东亚前近代海军作战方法的最高完成形态）/ 战术发明家（鹤翼阵、龟船、地利-潮汐复合战术）/ 逆境统御与纪律建设的典范（亡国边缘重建水师）/ 军事记录方法论的先驱（乱中日记——近代以前最完整的战地指挥官日志）
+
+## 生平行谊 (Era)
+
+1545-1598 : 1545 年生于汉城（首尔）德水洞一个没落士族之家，排行第三——家境清寒，三十二岁才通过武科，此后在北方边境与女真、在南方与倭寇的边务里磨了十几年低阶武官——1591 年经柳成龙举荐出任全罗左水使，接手一支编制残缺的舰队——1592 年壬辰倭乱爆发，日军五月在釜山登陆，十九天攻陷汉城；同年 5-7 月，李舜臣以玉浦、唐浦、闲山岛三役连败日本水军，闲山岛大捷用鹤翼阵焚船六十一艘，切断日军海上补给线——1592-1593 造出龟船（거북선），装甲覆顶、锥刺盖面——1597 年元均 Horde 在漆川梁全军覆没，朝鲜水师仅余十二艘；李舜臣被朝廷诬陷入狱后临危复职，留下'今臣战船尚有十二'的千古名疏——同年 9 月鸣梁海战，以十三艘（含一艘宪宗号旗舰）对日军一百三十余艘，借鸣梁峡急流与退潮时差焚敌三十余，零损失——1598 年 11 月 19 日露梁海战，与陈璘、邓子龙联军围歼撤退日军；清晨追击时胸部中弹，对侄子李莞留下遗言'战事方急，慎毋言我死'，把帅印交出后死去——一生二十三次海战无一败绩，乱中日记（난중일기）一百五十七篇逐日记录至死前一日——'必死则生，必生则死'是他写给全军的战训，也是他自己的死法
+
+### Era (English)
+
+1545-1598 : born 1545 in Deoksu-dong, Hanyang (Seoul), third son of a faded scholar-official family—raised poor, passing the military examination only at thirty-two, then ground down for over a decade as a low-ranking officer on the northern frontier against the Jurchens and in southern coastal duties—recommended by Yu Seong-ryong in 1591 to become Left Navy Commander of Jeolla, inheriting a fleet riddled with vacancies—when the Japanese invasion broke in May 1592 and Seoul fell in nineteen days, Yi fought back at Okpo, Dangpo, and Hansan Island in May-July; the Hansan Island victory with the crane-wing formation burned sixty-one Japanese ships and cut the enemy's sea supply line—1592-93 he built the turtle ship (geobukseon), an armored deck with spikes on its roof—in 1597 the fleet under Won Gyun was annihilated at Chilcheollyang and the Korean navy was reduced to twelve ships; Yi, earlier framed and imprisoned by his own court, was reinstated at the crisis and wrote the immortal memorial 'I still have twelve warships'—in September 1597 at Myeongnyang he faced over 130 Japanese ships with thirteen of his own (including his flagship), using the strait's fierce current and the ebb-tide timing to burn thirty-plus with zero losses of his own—on 19 November 1598 at Noryang, allied with Chen Lin and Deng Zilong, he encircled the retreating Japanese fleet; shot through the chest in the morning pursuit, he told his nephew Yi Wan 'the battle is urgent—do not announce my death,' handed over the command seal, and died—twenty-three naval engagements, no defeats; the War Diary (Nanjung Ilgi), 157 daily entries, kept until the day before his death—'he who seeks death shall live, and he who seeks life shall die' was the battle instruction he wrote for his whole fleet, and it became the manner of his own dying
+
+## 历史地位
+
+李舜臣（1545-1598），朝鲜王朝名将、全罗左水使，壬辰倭乱（1592-1598）中朝鲜方唯一的决定性统帅。他的历史地位由五件发明锚定。其一，'以地利补国力'的不对称海战方法：闲山岛鹤翼阵、鸣梁峡潮汐算战——在舰队数量长期处于绝对劣势的条件下，用海峡地形、水流时差与火炮射程差把'少打多'做成可复制的程序，二十三战全胜且多数战役己方损失接近零。其二，龟船：为朝鲜板屋船加装覆顶装甲与锥刺，做成世界上最早的装甲突击舰之一——在没有任何工业基础的农业国里，用六个月的工期完成了技术代差压制。其三，'十二艘战船'的残局重建：漆川梁惨败后，朝廷议决放弃水师、陆军北撤，他以一道名疏独力否决——'今臣战船尚有十二，出死力拒战则贼岂敢侮我'——这是军事史上以一人担纲阻止国家级战略投降的最著名个案。其四，乱中日记：从 1592 年 1 月到 1598 年 11 月 17 日（死前两日）逐日亲笔记录军务、战况、人事、物价与自省——共一百五十七篇，是近代以前最完整的一位战地统帅的连续性一手档案，为后世军事史、档案学与领导力研究提供了无与伦比的样本。其五，'必死则生'的统御哲学：他把《吴子》'用兵必须审敌虚实而趋其危'一脉的兵家格言翻转为制度——全军战训、赏罚、家书、遗言共用同一条生死律。代价与张力同样真实：他一生三度被朝廷构陷入狱或削职（1592 私通之谤、1597 夺权、1598 战前掣肘），他的忠诚不是被善待换来的而是被羞辱检验过的；他的全胜记录部分得益于日军水军战术的固有弱点；他死时官至三道水军统制使，但葬礼规格起初甚至遭到廷议克扣——朝鲜王朝欠他的，后世用神化偿还，而神化恰恰遮蔽了他真正的方法论价值。
+
+### Historical Significance (English)
+
+Yi Sunsin (1545-1598), admiral of the Joseon dynasty and Left Navy Commander of Jeolla, was the single decisive commander on the Korean side of the Imjin War (1592-1598). His standing rests on five inventions. First, the asymmetric naval method of 'terrain compensating for national power': the crane-wing formation at Hansan Island, the tidal arithmetic of Myeongnyang—under conditions of permanent numerical inferiority he turned straits, current timing, and gun-range differentials into a replicable program of 'few defeating many': twenty-three engagements, all won, most with near-zero losses of his own. Second, the turtle ship: armored roofing and spike cladding fitted to Korea's panelled panokseon—one of the world's earliest armored assault vessels—built in six months by an agrarian state with no industrial base, producing a technological gap of a full generation. Third, the reconstruction from the ruin of 'twelve ships': after the Chilcheollyang catastrophe the court resolved to disband the navy and withdraw the army north; he vetoed the strategic surrender single-handedly in one immortal memorial—'I still have twelve warships; if they fight to the death, how dare the enemy despise us'—military history's most famous case of one man's sole responsibility blocking a state-level capitulation. Fourth, the War Diary (Nanjung Ilgi): daily entries in his own hand from January 1592 to 17 November 1598 (two days before his death)—157 entries recording operations, battles, personnel, prices, and self-reproach—the most complete continuous first-hand archive of any pre-modern field commander, an unparalleled sample for military history, archival science, and leadership studies. Fifth, the command philosophy of 'he who seeks death shall live': he inverted the classical maxim of Wu Qi into an institution—shared by the army's standing orders, its rewards and punishments, his family letters, and his dying words. The costs and tensions were real: three times his own court framed, imprisoned, or stripped him (the treason slander of 1592, the dispossession of 1597, the pre-battle shackles of 1598); his loyalty was not rewarded with kindness but tested by humiliation; part of his perfect record owed to structural weaknesses in Japanese naval tactics; he died as Supreme Commander of the Three Provinces' fleets, yet even his funeral rations were briefly docked by court debate—what the dynasty owed him, posterity repaid with deification, and the deification obscured precisely the methodological value that was his true legacy.
+
+## 独特思维方式
+
+他的思维方式的底色是'条件永不齐备，而胜负必须在条件不齐备处决出'：李舜臣的一生是一部'如何在制度性背刺、国力性劣势与毁灭性残局三者叠加时仍然赢'的教程。六个标志性动作：其一，'地利先于兵力'——开战之前先选战场：闲山岛的开阔海面配鹤翼阵的合围，鸣梁的窄峡配退潮的时差——他不试图在敌人选定的条件里作战，而是把作战条件本身做成武器；其二，'必死则生'的生死律反转——'必生则死'不是豪言而是决策算法：在逃亡必然导致死亡的选择结构里，把'必死'设为唯一理性的默认值，并把它写进军律、军法与遗言——用制度而非情绪维持士气的底线；其三，'残局即起点'——十二艘船不是绝望的计量而是新战役的初始条件：他拒绝把兵力数字当作胜负预报器，转而把'敌不透明的恐惧'当作自己的第一资源；其四，'以工时换代差'——龟船证明技术优势可以在小国的工坊里制造：不抱怨没有坚船利炮，用六个月、一百多张铁板与一块可旋转的完整结构，把追赶变成反超；其五，'记录即统御'——乱中日记不是私人日记而是指挥系统的台账：每日战况、人事、粮饷、赏罚与自省逐日入账，使他在被夺权时能被平反、在复职时能即刻重启、在死后能被历史核对——记录是他对抗构陷的唯一武器；其六，'忍谤续战'——三次被构陷、一次在狱中受刑，他从不与朝廷对骂，只用下一场胜利替自己辩护——把政治伤害折算为'暂时的成本'而非'战斗的理由'。代价与极限：全胜记录使他晚年的任何收缩都被读为怯战；他对朝廷的绝对服从在当代被批评为愚忠，但那恰是他全部方法的前提——统帅权必须被信任托付，而信任必须由记录与胜利反复赎回。他给自己的判词在遗言里：'战事方急，慎毋言我死'——把死亡也处理成一项不干扰作战的军务。
+
+### Unique Thinking (English)
+
+The bedrock of his thinking was that conditions are never ready, yet the verdict must be won precisely where conditions are not ready: Yi Sunsin's life is a tutorial on 'how to keep winning while institutional back-stabbing, national-power inferiority, and catastrophic ruin are stacked together.' Six signature moves. First, terrain before troops: choose the battlefield before the battle begins—the open water of Hansan Island suits the crane wing's encirclement; the narrow gorge of Myeongnyang suits the ebb tide's timetable—he refused to fight under conditions the enemy had chosen, making the conditions themselves into a weapon. Second, the inverted law of 'seek death and live': 'seek life and die' is not a slogan but a decision algorithm—where flight guarantees death, 'seek death' is set as the only rational default, and it is written into the standing orders, the military code, and the testament—an institution, not an emotion, holds the floor under morale. Third, the ruin is the starting point: twelve ships are not a despair ledger but a new battle's initial conditions—he refused to treat troop counts as a victory forecast and made 'the enemy's opacity of fear' his first resource. Fourth, trade work-hours for a technological gap: the turtle ship proved superiority could be manufactured in a small kingdom's yards—no lament over lacking gunboats; six months, a hundred-odd iron plates, and one revolving structure turned catching up into leapfrogging. Fifth, record as command: the War Diary is not a private journal but the ledger of a command system—daily operations, personnel, provisions, rewards, self-reproach—so that when stripped of command he could be vindicated, when reinstated he could reboot instantly, and when dead he could be audited by history; record-keeping was his only weapon against frame-ups. Sixth, endure the slander to keep fighting: thrice framed, once tortured in prison, he never traded insults with the court—he was defended only by the next victory, converting political injury into 'temporary cost' rather than 'a reason to stop.' The limits: a perfect record meant any tactical retreat in his late years read as cowardice; his absolute obedience to the court has been criticized as servile—yet that obedience was the premise of his whole method: command must be entrusted by trust, and trust must be redeemed again and again by records and victories. His verdict on himself stands in his last words: 'the battle is urgent—do not announce my death'—death itself processed as a military matter that must not interrupt the operation.
+
+## 文明圈
+
+- **zh**: 朝鲜王朝（Joseon Korea）士族-武官文明（十六世纪晚期，朱子学礼治秩序下的东北亚农业国），兼容中华兵学传统（《孙子》《吴子》《纪效新书》的朝鲜接受）与海防实务
+- **en**: Joseon Korea's scholar-official and military civilization (late sixteenth century, a Northeast Asian agrarian state under a Neo-Confucian ritual order), in dialogue with the Chinese military-theory tradition (the Korean reception of Sunzi, Wu Qi, and Qi Jiguang's Jixiao Xinshu) and with coastal-defense practice
+
+## 角色定位
+
+1. 壬辰倭乱中朝鲜方的决定性统帅（二十三战全胜——闲山岛、鸣梁、露梁三役改写战局）
+2. 不对称海战方法的完成者（鹤翼阵、地利-潮汐复合战术——'少打多'的可复制程序）
+3. 龟船的发明人与装甲舰时代的先声（六个月工期的技术代差压制）
+4. '十二艘战船'残局重建者（以一人否决国家级战略投降的最著名个案）
+5. 乱中日记的作者（一百五十七篇逐日统帅日志——近代以前最完整的战地一手档案）
+
+1. The decisive commander of Joseon in the Imjin War (twenty-three engagements without defeat—Hansan, Myeongnyang, and Noryang rewriting the war)
+2. The completed form of asymmetric naval method (crane-wing formation, terrain-tide composite tactics—a replicable program of few defeating many)
+3. Inventor of the turtle ship and herald of the armored warship age (a technological-gap suppression built in six months)
+4. The rebuilder from the ruin of twelve ships (history's most famous case of one man vetoing a state-level strategic surrender)
+5. Author of the War Diary (157 daily commander's entries—the most complete pre-modern first-hand field archive)
+
+## 代表著作
+
+- 乱中日记（난중일기，1592-1598——一百五十七篇逐日军务日志，至死前两日）
+- 壬辰年闲山岛大捷战报与鹤翼阵部署（1592 年 7 月——焚敌六十一艘）
+- '今臣战船尚有十二'疏（1597——独力否决弃海陆军北撤之议）
+- 龟船建造与实战部署（1592-1593——装甲突击舰的首次成建制运用）
+- 鸣梁海战阵中日录（1597 年 9 月——十三艘对一百三十余艘）
+- 露梁海战阵中遗令（1598 年 11 月——'战事方急，慎毋言我死'）
+
+## 核心概念
+
+- 必死则生，必生则死 he who seeks death lives, he who seeks life dies
+- 鹤翼阵 the crane-wing formation
+- 龟船 the turtle ship (geobukseon)
+- 地利先于兵力 terrain before troops
+- 战船尚有十二 I still have twelve warships
+- 忍谤续战 enduring slander to keep fighting
+- 乱中日记 the War Diary (Nanjung Ilgi)
+- 记录即统御 record as command
+
+## 跨人物参照
+
+- M-SUN-001（孙武：东亚兵学的不对称作战总纲——'致人而不致于人'在李舜臣手里落实为'先选战场再谈交战'的完整程序；鹤翼阵与潮汐算战是《孙子》'地形篇'的海军版注脚）
+- M-QJG-001（戚继光：《纪效新书》传入朝鲜后成为李舜臣一系的训练蓝本——'练兵先练胆'与'必死则生'共享同一条生死律的制度化路径；两人都把纪律做成可审计的条文而非道德口号）
+- M-NAP-003（纳尔逊：同为以少胜多的海战统帅——特拉法尔加的分割战与鸣梁的锁喉战分别代表'用阵型补兵力'与'用地利补兵力'两条不对称路线的巅峰）
+- M-IBS-009（易卜生：同为北/东亚系统内'用记录对抗体制性构陷'的写作者——易卜生把私痛压进抽屉，李舜臣把军务压进日记；记录是两人共同的自我辩护装置）
+- M-AUG-001（奥古斯丁：内在秩序与外在使命的关系——奥古斯丁以忏悔安顿自我，李舜臣以日记自省安顿忠诚；'每日对账'是两人共享的第一精神工具）
+
+## 十大思维模式 (10 modes)
+
+---
+
+### M-YSS-001 · 地利锁喉法 / Terrain-Chokepoint Method
+
+**定义 zh**: 竞争方法论/在资源劣势下不改变兵力对比而改变战场结构——把交战地点本身选成武器，让敌人的数量优势在地理漏斗里失效
+
+**Definition en**: competition methodology/under resource disadvantage, change not the force ratio but the structure of the battlefield—choose the site of engagement as a weapon, letting the enemy's numerical advantage die inside a geographic funnel
+
+**典型域 zh**: 1597 年 9 月的鸣梁海峡：漆川梁惨败后朝鲜水师只剩十二艘（后凑至十三艘，含一艘新旗舰），日军水军一百三十余艘一路北上。李舜臣的选择不是撤向更开阔的海面，而是退进鸣梁峡——一条宽仅三百米左右的窄水道，潮流急、暗礁密，涨落潮之间水流方向整个翻转。他把舰队锚在峡内背流处，让日舰只能依次挤入；退潮开始后水流推着日舰后队撞前队，他再纵火船与齐射。战果：焚敌三十余艘，己方零损失——被日军自己记为'此战之后，诸将皆惮出兵'。这不是一次孤胆豪赌：1592 年闲山岛之战他反着用同一条原则——开战前他放弃了狭窄港汊，专门引日军出到开阔洋面，因为在那里鹤翼阵才能完成合围。同一个统帅，窄地与阔海各用一次：地利不是'找险要处躲'，而是先算清'我的方法需要什么地形'，再让敌人走进它
+
+**Domain en**: The Myeongnyang Strait, September 1597: after the Chilcheollyang catastrophe the Korean fleet had twelve ships (thirteen once a new flagship was mustered), while the Japanese fleet of 130-plus sailed north. Yi's choice was not to withdraw toward open water but to retreat into the Myeongnyang gorge—a channel roughly three hundred meters wide, with ferocious currents, dense reefs, and a flow that fully reverses between flood and ebb. He anchored his fleet inside the gorge in back-current cover so Japanese ships could only file in one by one; once the ebb began and the current pushed the enemy's rear ranks onto its van, he loosed fire ships and massed salvoes. The result: thirty-plus enemy ships burned, zero of his own lost—recorded by the Japanese themselves that 'after this battle, none of our commanders dared sortie.' This was no lone gamble: at Hansan Island in 1592 he used the same principle in reverse—abandoning the narrow inlets before the fight, deliberately luring the Japanese into open sea, because only there could the crane wing complete its encirclement. The same commander used the narrow and the open once each: terrain is not 'find cover in rugged ground' but 'compute first what terrain my method requires, then make the enemy walk into it'
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣地利锁喉法的核心命题是：劣势方真正能改写的变量不是兵力对比，而是战场结构——数量优势只在对称空间里成立，把它引进一个使宽度、时序与转向都失效的漏斗，多数就变回'依次到达的少数'。操作纪律有四条。第一，先定方法再选地形：不是找险要处藏身，而是先明确'我方战术的生效条件'（合围需要宽度、扼守需要窄峡、齐射需要背流锚位），再反向选择或塑造战场。第二，把地形算到时序级：地形不是静态的形状而是动态的过程——潮汐、风向、水流方向随时间翻转，真正可用的是'某时某刻的某海峡'，不是地图上的某地。第三，让敌人的规模成为它的负担：漏斗里敌船只能依次进入，数量越大排队越长、自撞越多——把对手的优势变量改写为劣势变量。第四，预设退出与追击：锁喉地形同时锁自己——开战前算好己方的脱离路径与退潮后的追击窗口，地形是双向武器。深意有三重。其一，它把'以少胜多'从奇迹改写为工程：不是勇气倍增，而是把交战空间裁剪到使多数失效的尺寸。其二，它颠倒了攻守的默认：劣势方不避战，而是选址逼战——敌人不来就等于输。其三，它是弱者竞争伦理的干净版本：不欺敌于无备，只在敌人自恃优势的地方收下它的傲慢。适用边界：适用于可预先选址的对抗（商业、谈判、选举分区、项目排期）；对被迫应战的遭遇战与无选址权的场景，此法退化为普通防御。现代对应物：商业中的细分市场卡位与'利基护城河'、谈判中的主场选择与议程设置、选举地理与资源配票、体育中的主场战术与赛程利用、创业中的'大公司进不来的窄巷'。
+
+**Core definition en**: The core proposition of the terrain-chokepoint method: the variable a disadvantaged side can truly rewrite is not the force ratio but the structure of the battlefield—numerical advantage holds only in symmetric space; introduce it into a funnel that disables width, timing, and turning, and the many collapse back into 'the few arriving one by one.' Four disciplines. First, fix the method before choosing the terrain: do not hunt for rugged cover; define first 'the activation conditions of my own tactics' (encirclement needs width, a holding action needs a gorge, salvoes need a back-current anchorage), then select or shape the battlefield in reverse. Second, compute terrain to the level of timing: terrain is not a static shape but a dynamic process—tides, wind, and current direction flip with the clock; what is usable is 'this strait at this hour,' not a point on the map. Third, make the enemy's scale its burden: inside the funnel enemy ships may only enter in file—the greater the number, the longer the queue and the more self-collisions; the opponent's advantage variable is rewritten as a liability. Fourth, pre-plan exit and pursuit: a chokepoint locks its holder too—compute your own withdrawal path and the pursuit window after the tide turns before battle; terrain is a two-directional weapon. Three layers of depth. First, it rewrites 'defeating the many with the few' from miracle into engineering: not multiplied courage, but trimming the engagement space to the size at which 'many' fails. Second, it inverts the default of offense and defense: the weak side does not avoid battle but picks ground that forces it—if the enemy declines to come, the enemy has already lost. Third, it is the clean version of weak-side competitive ethics: no ambush of the unprepared, only the collection of the enemy's arrogance on the ground of its own presumed advantage. Boundaries: it suits confrontations where the site can be chosen in advance (business, negotiation, electoral districting, project scheduling); in forced encounters with no siting rights it degrades into ordinary defense. Modern counterparts: niche moats and segment positioning in business, home-ground selection and agenda-setting in negotiation, electoral geography and vote allocation, home-field tactics and schedule exploitation in sport, and the startup's 'narrow alley the giants cannot enter.'
+
+**出处**: 乱中日记 1597 年 9 月鸣梁布阵与战况逐日条目；《李忠武公全书》'鸣梁战报'；1592 年闲山岛战报与鹤翼阵部署；柳成龙《惩毖录》论闲山、鸣梁两役
+
+**关键概念**:
+- 战场结构先于兵力对比
+- 地形要算到时序级
+- 漏斗把多数改回依次到达的少数
+- 让敌人的规模成为它的负担
+- 锁喉地形同时锁自己
+- 劣势方选址逼战而非避战
+
+**金句 zh**: 兵力是天给的，战场是我给的——把敌人引进窄处，一百三十艘就变成一百三十个'依次来死'的单个。
+**Key quote en**: The troops were heaven's gift; the battlefield was mine—lead the enemy into the narrows, and one hundred thirty ships become one hundred thirty singles, arriving in file to die.
+
+**执行流程 zh**:
+1. 定方法：先写清我方战术的生效条件——需要宽度、需要窄峡、需要背流锚位还是顺风向
+2. 算时序：把候选地形按小时拆解——潮汐、风向、水流的翻转时刻表，标出敌我各自的生效窗口
+3. 布漏斗：设计敌人进入的次序与拥挤方式——让它的数量排队、自撞、无法展开火力
+4. 选锚位：把己方摆在背流、隐蔽、利于齐射的位置——先胜于未战之前
+5. 预设双出口：同时写好己方脱离路径与退潮后的追击窗口——地形是双向武器
+6. 逼敌入彀：用诱饵、佯退与封锁把敌人引进漏斗——敌人不来，即是它的失败
+
+**Process en**:
+1. Fix the method: write out the activation conditions of your own tactics—width required, a gorge required, a back-current anchorage or a favorable wind required
+2. Compute the timing: decompose candidate terrain hour by hour—the timetable of tide, wind, and current reversals, marking the activation windows of each side
+3. Build the funnel: design the order and crowding of the enemy's entry—make its numbers queue, collide, and fail to bring guns to bear
+4. Choose the anchorage: place your own force in back-current cover, concealed, positioned for massed salvoes—victory decided before the battle
+5. Pre-plan both exits: write your own withdrawal path and the pursuit window after the tide turns—terrain is a two-directional weapon
+6. Force the enemy in: with bait, feigned retreat, and blockade, walk the enemy into the funnel—if it declines, that is its defeat
+
+**代表案例 zh**:
+- 1597 年鸣梁海战：十二三艘对一百三十余艘——退进宽三百米的鸣梁峡，用退潮时差让日舰后队撞前队，焚敌三十余艘、己方零损失
+- 1592 年闲山岛之战：同一原则的反向运用——放弃港汊、诱敌出开阔洋面，鹤翼阵合围焚敌五十九至六十一艘，切断日军西进补给线
+- 1592 年唐浦、固城诸战：利用岛屿遮蔽与水道宽窄差，使日舰大安津口大船无法展开，逐艘击破
+- 露梁海战（1598）前的观花屿布置：预设堵截线与潮汐窗口，把撤退日军压进观音浦口，配合明军完成合围
+
+**Representative cases en**:
+- The Battle of Myeongnyang, 1597: twelve or thirteen ships against 130-plus—retreating into the three-hundred-meter gorge, using the ebb-tide differential to pile the enemy's rear onto its van, burning thirty-plus ships at zero loss of his own
+- The Battle of Hansan Island, 1592: the same principle in reverse—abandoning the inlets, luring the enemy onto open water, encircling with the crane wing and burning fifty-nine to sixty-one ships, severing the Japanese westward supply line
+- The engagements of Dangpo and Goryeong, 1592: using island cover and channel-width differentials so the large Japanese ships at Daegeum could not deploy, breaking them hull by hull
+- The Gwakwa Islands disposition before Noryang (1598): a pre-set interdiction line and tidal window pressing the retreating Japanese into Gwaneumpo for the allied encirclement with the Ming fleet
+
+**现代应用 zh**:
+- 商业竞争：小公司不打巨头的开阔海面，把竞争引到巨头组织结构进不来的窄巷——监管缝隙、小单定制、区域深耕
+- 谈判：主场选择与议程设置即'鸣梁峡'——把议题顺序排成对方只能依次应答的漏斗，让它的资源优势排队
+- 选举与资源配置：把有限资源压进对手覆盖率低的地理与人群漏斗，而不是与对手在总量上对轰
+- 项目与赛程管理：把关键交付排在对手（或己方团队）时序的'退潮窗口'——时差本身是武器，不是背景
+
+**Modern applications en**:
+- Competition: a small firm refuses the giants' open water and pulls the contest into alleys the giant's org chart cannot enter—regulatory seams, small-lot customization, regional depth
+- Negotiation: home-ground selection and agenda-setting are the Myeongnyang gorge—order the issues so the counterpart must answer in single file, queuing its resource advantage
+- Elections and resource allocation: press limited resources into the geographic and demographic funnel where the opponent's coverage is thin, rather than dueling over totals
+- Project and schedule management: place key deliveries in the 'ebb window' of the counterpart's (or one's own team's) timetable—timing itself is the weapon, not the backdrop
+
+**相关模式**: M-YSS-002, M-YSS-003, M-YSS-009, M-SUN-001, M-NAP-003
+**代表人物**:
+- 孙武 / Sun Tzu — 兵学总纲的源头：'致人而不致于人'与'地形篇'——李舜臣把这条总纲做成海军的可执行程序
+  - The source of the strategic canon: 'move the enemy, do not be moved' and the terrain chapters—Yi Sunsin turned the canon into an executable naval program
+- 纳尔逊 / Horatio Nelson — 两条不对称路线的另一极：特拉法尔加用阵型切割补兵力，鸣梁用地利锁喉补兵力——同题异解的巅峰对读
+  - The other pole of asymmetric naval war: Trafalgar compensated for numbers with formation cutting, Myeongnyang with terrain chokepoints—the supreme paired reading of one problem's two answers
+- 戚继光 / Qi Jiguang — 训练制度的同路人：《纪效新书》东传朝鲜成为练兵蓝本——'练胆'与'练形'并进的方法同源
+  - A fellow builder of training systems: the Jixiao Xinshu crossed to Korea as a training blueprint—the twin discipline of 'tempering nerve and form' from a shared source
+
+---
+
+### M-YSS-002 · 必死则生法 / Seek-Death-to-Live Method
+
+**定义 zh**: 决策方法论/在逃亡必死的选择结构里把'必死'设为唯一理性默认值——不是豪言而是决策算法，并用制度而非情绪维持这条生死律
+
+**Definition en**: decision methodology/where flight guarantees death, set 'resolve to die' as the only rational default—not rhetoric but a decision algorithm, sustained by institutions rather than emotions
+
+**典型域 zh**: 1597 年 9 月鸣梁开战前夜：水师仅存十二三艘，日军一百三十余艘。朝廷已议决放弃水师，陆军北上勤王；逃是体制许可的选项。李舜臣在全军战训里写下那句从《吴子》翻出的兵家律：'必死则生，必生则死'——并把它写进军法：退者斩，倡言退者尤斩。他的算术是冷峻的：漆川梁已证明逃亡的下场（元均 Horde 不战自溃，全军覆没）——在这道选择结构里，'求生'才是取死之道，'必死'反而是唯一存活分支；于是他把唯一理性默认值写成制度，让每一个怕死的水兵都知道：船链锁死、退者必斩、死战反有生路。鸣梁当日他亲自立于最前的旗舰督战，斩退者以正军法——制度由统帅用行动背书。这一律不只是战时动员：它贯穿他的家书（对母亲'儿若还朝，必遭构陷，儿已置生死于度外'）、他的辞疏（'战船尚有十二'的底气正在于不求生）与他的遗言（'战事方急，慎毋言我死'）
+
+**Domain en**: The eve of Myeongnyang, September 1597: twelve or thirteen ships of a fleet remained against 130-plus Japanese. The court had resolved to disband the navy; flight was an option the system licensed. Into the fleet's standing orders Yi wrote the military law turned up out of Wu Qi: 'he who seeks death shall live, and he who seeks life shall die'—and wrote it into the code: deserters executed, above all those who counsel flight. His arithmetic was cold: Chilcheollyang had already proven flight's outcome (Won Gyun's fleet collapsed without a fight and was annihilated)—in that choice structure, 'seeking life' was the road to death, and 'resolving to die' the only surviving branch; so he wrote the sole rational default into institutions, letting every frightened sailor know: the ships chained, deserters beheaded, death-fight the only road to life. On the day itself he stood on the leading flagship and beheaded retreating men to enforce the code—institutions backed by the commander's own action. The law was not merely wartime morale: it runs through his family letters ('if I return to court I shall be framed again; I have set life and death aside'), his memorial ('twelve warships' confidence rests precisely on not seeking survival), and his last words ('the battle is urgent—do not announce my death')
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣必死则生法的核心命题是：生死律是决策结构问题而非勇气问题——当逃跑的期望值低于死战（历史上多数围城、背水、孤军场景正是如此），'必死'不是道德要求而是唯一的理性默认值；此法的全部工作是把这道算术做成制度，让人群的集体行为不依赖每个人瞬间的勇气。操作纪律有四条。第一，先验算选择结构：确认'退'的期望值确实低于'战'——如果逃跑真有生路，'必死则生'就是犯罪；此法只在背水结构里成立。第二，把默认值写成制度：军法、赏格、家眷安置、连坐条款——用规则消掉'临阵比谁跑得快'的博弈，让个体理性与集体理性重新对齐。第三，统帅以身入局：自己站在最危险的位置，斩退者之前先斩自己的退路——制度若无统帅的行动背书，只是墙上的字。第四，给死战配生路：'必死'是默认值不是目的——阵法、火力与地形必须真的把'死战'变成大概率存活分支，否则就是集体自杀。深意有三重。其一，它把士气从情绪问题改写为机制设计问题：恐惧无法消除，但恐惧可以选择结构。其二，它与博弈论的'承诺机制'同构：自断退路是可信承诺的经典实现。其三，它给出领导者的诚实底线：要求下属必死之前，自己先在名单上。适用边界：适用于退路期望值确实更低的高危决策（创业清盘抉择、工程抢险、绝地反击）；对可逆的普通决策，此法是危险的浪漫主义。现代对应物：创业中的'burn the boats'与不可逆投入、灾害应急的'绝不后撤'预案设计、特种部队的背水训练、谈判中的'承诺升级'策略。
+
+**Core definition en**: The core proposition of the seek-death-to-live method: the law of life and death is a problem of decision structure, not of courage—when the expected value of flight falls below that of fighting (as in most sieges, last stands, and isolated commands), 'resolving to die' is not a moral demand but the sole rational default; the method's entire work is to turn that arithmetic into institutions, so the group's collective behavior does not depend on each individual's momentary courage. Four disciplines. First, verify the choice structure: confirm that 'retreat' truly has the lower expected value—if flight genuinely offers a way out, 'seek death and live' becomes a crime; the method holds only in the with-your-back-to-the-water structure. Second, write the default into institutions: military law, reward schedules, family arrangements, mutual-liability clauses—rules that dissolve the game of 'who runs first' and realign individual with collective rationality. Third, the commander enters the game himself: stand on the most dangerous position, and cut off your own retreat before beheading any deserter—institutions without the commander's action behind them are words on a wall. Fourth, pair the death-fight with a live path: 'must die' is the default, not the goal—formation, firepower, and terrain must genuinely make the death-fight a probable-survival branch, or this is collective suicide. Three layers of depth. First, it rewrites morale from an emotional problem into a mechanism-design problem: fear cannot be eliminated, but fear can be given a choice structure. Second, it is isomorphic with game theory's commitment mechanism: burning the bridges is the classic implementation of a credible commitment. Third, it sets the leader's honest floor: before demanding that subordinates seek death, the leader's own name must be first on the list. Boundaries: it suits high-stakes decisions whose retreat genuinely carries the lower expected value (startup liquidation calls, emergency engineering, last-stand counters); for reversible ordinary decisions it is dangerous romanticism. Modern counterparts: 'burn the boats' and irreversible commitment in startups, 'no-fall-back' contingency design in disaster response, last-stand training in special forces, and commitment-escalation strategy in negotiation.
+
+**出处**: 乱中日记 1597 年 9 月鸣梁战前条目与军法记录；《李忠武公全书》阵中军令'退者斩'；致母亲家书论生死；遗言'战事方急，慎毋言我死'（李莞承令）；《吴子·治兵》'必死则生，幸生则死'原典
+
+**关键概念**:
+- 生死律是决策结构问题
+- 必死是理性默认值不是口号
+- 用制度消掉比谁跑得快的博弈
+- 统帅以身入局背书制度
+- 死战必须被做成大概率存活分支
+- 背水结构之外此法即犯罪
+
+**金句 zh**: 必死则生，必生则死——既然退也是死，那就把死变成唯一的船票。
+**Key quote en**: He who seeks death shall live, and he who seeks life shall die—since retreat too is death, turn death into the only ticket aboard.
+
+**执行流程 zh**:
+1. 验算结构：确认'退'的期望值确实低于'战'——列出两条路的存活概率，不靠情绪拍板
+2. 写死默认：把'必死'写成军法、预案或章程条款——规则先于危机到场
+3. 配齐生路：为'死战'设计大概率存活的战术方案——阵形、火力、地形、时序逐项落实
+4. 自断退路：统帅先交出自己的逃生选项——旗舰立在最先接触线
+5. 执法背书：对'倡言退者'当场执法——制度的第一堂课必须由行动来上
+6. 写进文化：把同一条生死律用于家书、训辞与遗言——让制度长成组织的默认语言
+
+**Process en**:
+1. Verify the structure: confirm that 'retreat' truly has the lower expected value—list the survival odds of both roads; do not decide on emotion
+2. Hard-code the default: write 'resolve to die' into the military code, the contingency plan, or the charter—rules arrive before crisis
+3. Provision the live path: design the tactical plan that makes the death-fight probably survivable—formation, firepower, terrain, timing, item by item
+4. Cut your own retreat: the commander surrenders his own escape options first—the flagship stands on the first contact line
+5. Enforce to certify: punish 'those who counsel flight' on the spot—institutions' first lesson must be taught by action
+6. Write it into culture: carry the same law into family letters, addresses, and the testament—let the institution grow into the organization's default language
+
+**代表案例 zh**:
+- 1597 年鸣梁战前军法：船链锁死、退者斩、倡言退者尤斩——'必死则生'由格言变成可执行条款
+- 鸣梁当日督战：李舜臣立于最前旗舰并当场斩退者——统帅行动为制度背书，全军再无退念
+- 1592 年泗川之谤后的战书：在'私通'构陷未清时他写信表'死易，负国难'——把个人生死提前结清，只为作战保留全部带宽
+- 1598 年露梁遗令：中弹后令李莞代掌帅旗并禁止宣布死讯——把'必死'执行到最后一分钟而不扰动战局
+
+**Representative cases en**:
+- The pre-Myeongnyang military code, 1597: ships chained, deserters beheaded, counsel of flight punished above all—'seek death and live' turned from maxim into executable clauses
+- Command on the day at Myeongnyang: Yi stands on the leading flagship and beheads retreating men on the spot—the commander's action certifies the institution, and the fleet loses all thought of retreat
+- The battle letter after the 1592 treason slander: with the frame-up uncleared he writes that 'death is easy; failing the state is hard'—settling his own life-and-death account in advance to reserve full bandwidth for the war
+- The dying order at Noryang, 1598: shot through, he has Yi Wan take the command flag and forbids announcing his death—executing 'must die' to the final minute without disturbing the battle
+
+**现代应用 zh**:
+- 创业决策：在'维持'的期望值低于'清盘重开'时，敢于把清盘设为默认——burn the boats 的前提是先验算，不是先热血
+- 应急与安全预案：高危作业（消防、矿井、海上）的'绝不后撤'条款必须配套装备与路线——只写口号不配生路就是集体自杀
+- 组织变革：把'不转型即出局'写成制度（预算、考核、人员安置），并用一把手亲自第一个转型来背书
+- 个人重大抉择：用同样算术对待'留恋现状'——当留恋的期望值低于离开时，离开就是理性而非勇敢
+
+**Modern applications en**:
+- Startup decisions: when 'persisting' has a lower expected value than 'liquidating and restarting,' dare to make liquidation the default—burn-the-boats requires verification first, not fervor first
+- Emergency and safety protocols: 'no fall back' clauses in high-risk work (firefighting, mining, offshore) must come with equipment and routes—slogans without live paths are collective suicide
+- Organizational transformation: write 'transform or exit' into institutions (budgets, evaluation, staff placement), and have the chief executive transform first to certify it
+- Major personal choices: apply the same arithmetic to 'clinging to the status quo'—when clinging's expected value falls below leaving, leaving is rational, not brave
+
+**相关模式**: M-YSS-001, M-YSS-003, M-YSS-007, M-QJG-001, M-SUN-001
+**代表人物**:
+- 吴起 / Wu Qi — 格言的原典：'必死则生，幸生则死'出自《吴子·治兵》——李舜臣把它从兵家格言升级为全军制度
+  - The maxim's source: 'he who seeks death lives, he who hopes to live dies' from the Wu Zi's chapter on troops—Yi upgraded the maxim from the military canon into a fleet-wide institution
+- 项羽 / Xiang Yu — 破釜沉舟的先例：自断退路的经典实现——李舜臣的船链锁死是其海战版，但多了'配生路'的工程细节
+  - The precedent of breaking the cauldrons: the classic implementation of cutting one's own retreat—Yi's chained ships are its naval version, but with the added engineering of 'provisioning the live path'
+- 戚继光 / Qi Jiguang — 练胆制度的同行：《纪效新书》'练兵先练胆'与'必死则生'共享把勇气制度化的路径
+  - A peer in institutionalizing nerve: the Jixiao Xinshu's 'temper nerve before troop-craft' shares with 'seek death and live' the same path of making courage institutional
+
+---
+
+### M-YSS-003 · 残局重启法 / Ruin-Reset Method
+
+**定义 zh**: 重建方法论/把毁灭性失败后的残局重新定义为新战役的初始条件而非终点——拒绝把兵力数字当胜负预报器，用敌人对'不透明残局'的恐惧做第一资源
+
+**Definition en**: rebuild methodology/redefining the position after catastrophic loss as the initial conditions of a new campaign rather than an endpoint—refusing troop counts as a victory forecast and using the enemy's fear of 'the opaque ruin' as the first resource
+
+**典型域 zh**: 1597 年 7 月漆川梁之后的朝鲜：元均 Horde 率领的水师主力在一夜之间几乎全灭，制海权易手，日军再度北上；朝廷议决'水师无用，不如撤陆军北援'；使者持解散令到达时，李舜臣刚复职数日，手里只有十二艘船。他上一道名疏：'今臣战船尚有十二，出死力拒战，则贼岂敢侮我哉……战船虽寡，微臣不死则贼不敢侮我矣。'——这道疏的逻辑不是请求增援而是否决国家决策：他拒绝接受'十二艘=战败'的换算。数周后他在鸣梁用十三艘船证明这个换算确实不成立。更深一层：残局里敌人也在重算——日军诸将经鸣梁后'皆惮出兵'，因为'李舜臣还活着'这件事本身就是威胁评估的核心变量；他的存在对敌方的威慑力与他的舰队规模早已脱钩。残局重启法的关键一步在于：把'我方还剩什么'从损失清单改写成对手的风险清单
+
+**Domain en**: Joseon after Chilcheollyang, July 1597: Won Gyun's main fleet was all but annihilated in a night, command of the sea changed hands, and the Japanese marched north again; the court resolved that 'the navy is useless—better withdraw the army north to defend the king.' When the envoy arrived with the dissolution order, Yi had been reinstated only days before, holding twelve ships. He submitted the immortal memorial: 'I still have twelve warships; if they fight to the death, how dare the enemy despise us... though the ships are few, while your servant lives, the enemy dare not despise us.' The logic is not a request for reinforcement but a veto of a state decision: he refused the conversion rate 'twelve ships = defeat.' Weeks later at Myeongnyang thirteen ships proved the conversion rate false. One layer deeper: in the ruin the enemy was recalculating too—after Myeongnyang the Japanese commanders 'none dared sortie,' because the single fact 'Yi Sunsin is alive' had become the core variable of their threat assessment; his deterrence had long been decoupled from his fleet's size. The ruin-reset method's key move: rewrite 'what remains to me' from a loss ledger into the opponent's risk ledger
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣残局重启法的核心命题是：残局的价值不由剩余资源的绝对数决定，而由三个相对量决定——剩余资源能执行的战术是什么、敌人对残局的不透明程度有多高、统帅本人作为变量还值多少威慑——三者相加，'还剩十二艘'完全可能大于'上次的一百艘'。操作纪律有四条。第一，拒绝换算率：灾难之后，所有'按照老比例'的预估全部作废——旧换算率（兵力比、预算比、市场份额比） belonged to the old battle；先拒绝，再重算。第二，清点能力而非清点资产：从'我还剩多少'改为'我还剩的这些东西能执行哪些战术'——十二艘船执行不了舰队决战，但恰好执行得了窄峡伏击。第三，经营不透明性：残局方最大的杠杆是敌方无法准确评估你——隐藏重整进度、控制情报流出、让'他还活着'成为悬在对方头顶的变量。第四，向决策者交底而非交权：用一份可核查的重建方案否决投降议程——不是情绪化的'我不甘心'，而是'这是理由，这是打法，这是时限'。深意有三重。其一，它把'失败'从状态改写为时刻：残局是两场战役之间的一帧，不是故事的结尾。其二，它解释了为什么残局方有时反而战斗力更强——没有存量可守，全部资源都在增量上。其三，它给出对'止损'文化的必要修正：止损的正确对象是无效战术，不是有效统帅。适用边界：适用于保有核心能力、失去外围资源的残局（团队重组、公司砍线、个人失业）；核心能力已灭的彻底出局不适用。现代对应物：企业砍线后的最小可行产品重启、个人失业后的技能组合重估、军队的残部收容与再建、体育里的重建赛季策略。
+
+**Core definition en**: The core proposition of the ruin-reset method: a ruined position's value is set not by the absolute count of remaining resources but by three relative quantities—what tactics the remainder can still execute, how opaque the ruin is to the enemy, and how much deterrence the commander still carries as a variable—the three summed, 'twelve ships remaining' can exceed 'last campaign's one hundred.' Four disciplines. First, refuse the conversion rate: after catastrophe, every projection 'at the old ratio' is void—the old conversion rates (force ratios, budget ratios, market-share ratios) belonged to the old battle; refuse first, recompute second. Second, inventory capabilities, not assets: from 'how much do I have left' to 'which tactics can what remains execute'—twelve ships cannot fight a fleet action but are precisely sufficient for a gorge ambush. Third, cultivate opacity: the ruined side's greatest lever is the enemy's inability to assess you—conceal the pace of rebuilding, control intelligence outflow, let 'he is still alive' hang over the opponent as a variable. Fourth, brief the decision-maker without surrendering the decision: veto the capitulation agenda with an auditable rebuilding plan—not the emotional 'I will not accept this' but 'here is the reason, the method, and the deadline.' Three layers of depth. First, it rewrites 'failure' from a state into a moment: the ruin is one frame between two campaigns, not the story's end. Second, it explains why the ruined side sometimes fights harder—having no stock to defend, all its resources sit in increments. Third, it offers the necessary correction to 'cut your losses' culture: the correct object of the cut is the ineffective tactic, not the effective commander. Boundaries: it suits ruins where core capability survives while peripheral resources are lost (team re-org, company line-cutting, personal job loss); total exit with core capability destroyed does not qualify. Modern counterparts: the MVP restart after a company kills a product line, the skill-portfolio revaluation after personal job loss, military straggler collection and rebuilding, and the rebuilding-season strategy in sport.
+
+**出处**: '今臣战船尚有十二'疏（1597，《李忠武公全书》启疏）；乱中日记 1597 年 7-9 月复职与重建条目；鸣梁战报；柳成龙《惩毖录》论漆川梁后朝议
+
+**关键概念**:
+- 残局价值由相对量而非绝对数决定
+- 拒绝旧换算率先于一切重算
+- 清点能力而非清点资产
+- 不透明性是残局方的第一杠杆
+- 向决策者交底而非交权
+- 止损的对象是无效战术不是有效统帅
+
+**金句 zh**: 战船虽寡，微臣不死则贼不敢侮我——十二艘不是败局的余数，是下一战的初始条件。
+**Key quote en**: Though the ships are few, while your servant lives the enemy dare not despise us—twelve ships are not defeat's remainder but the next battle's initial conditions.
+
+**执行流程 zh**:
+1. 拒绝换算：灾难后第一道命令是冻结一切'按老比例'的预估——旧比例属于旧战役
+2. 清点能力：把剩余资源逐项翻译成'能执行哪些战术'——先列战术库再谈增援
+3. 重选战场：为'剩余能力恰好能赢'的战术选择战场结构——能力清单反推地形与打法
+4. 经营迷雾：控制己方重整进度的情报流出——让敌人对'他还剩多少'只能瞎猜
+5. 交底不交权：向最终决策者提交可核查的重建方案与期限——用方案否决投降议程
+6. 小胜立信：用一场低成本小胜利重建内外信心——残局的信用靠兑现而非承诺
+
+**Process en**:
+1. Refuse the conversion: the first order after catastrophe freezes every 'old-ratio' projection—the old ratios belonged to the old battle
+2. Inventory capabilities: translate remaining resources item by item into 'which tactics they can execute'—list the tactical library before requesting reinforcements
+3. Re-choose the field: for the tactic the remaining capability can win, choose the battlefield structure—derive terrain and method from the capability list
+4. Cultivate the fog: control the intelligence outflow of your rebuilding pace—leave the enemy only guesses at 'how much remains'
+5. Brief, do not surrender: submit an auditable rebuilding plan and deadline to the final decision-maker—veto the capitulation agenda with a plan, not a plea
+6. Bank a small win: rebuild inner and outer confidence with one low-cost minor victory—ruin's credit is restored by delivery, not promise
+
+**代表案例 zh**:
+- 1597 年'十二艘'名疏：以一份可核查的否决意见挡下朝廷弃水师北撤之议——残局重启从一份文件开始
+- 鸣梁备战数周：复职后不到两个月，把十二艘残船重整、补给、演练为可执行伏击兵力——清点能力而非哀悼损失
+- 鸣梁全胜后的威慑脱钩：日军'诸将皆惮出兵'——他的存在对敌方的威胁估值已与舰队规模无关
+- 露梁前的三道水军统制再建：从十二艘到三国联合围歼的兵力，他用十四个月完成残局到决战的重建
+
+**Representative cases en**:
+- The 'twelve ships' memorial of 1597: one auditable veto holding off the court's resolution to disband the navy—ruin-reset begins with a document
+- Weeks of preparation before Myeongnyang: reinstated under two months, he rebuilt, provisioned, and drilled twelve surviving hulls into an executable ambush force—inventorying capability, not mourning loss
+- Deterrence decoupled after the Myeongnyang victory: Japanese commanders 'none dared sortie'—the threat value of his existence had severed from his fleet's size
+- Rebuilding the Three-Province command before Noryang: from twelve ships to a tri-national encirclement force, he completed the ruin-to-decisive-battle rebuild in fourteen months
+
+**现代应用 zh**:
+- 公司砍线：砍掉产品线后不按旧市场份额换算士气——先列'剩余团队能执行的战术'，为其中一条重选战场
+- 个人失业：不把简历当损失清单，改写为'这些能力在哪些新战场恰好是杀器'——重点补齐新战场的地形知识
+- 团队重组：被抽走主力的残部不申请解散，交一份'剩余编制能打的仗'清单与期限——交底不交权
+- 投资止损：止损对象是无效战术（错误的标的与节奏），不是有效操盘者——清掉战术，留下的人重启
+
+**Modern applications en**:
+- Line-cutting: after killing a product line, do not convert morale by the old market-share ratio—list 'which tactics the remaining team can execute' and re-choose the battlefield for one of them
+- Personal job loss: do not read the resume as a loss ledger; rewrite it as 'which new battlefields these capabilities are precisely the weapon for'—and fill in the new battlefield's terrain knowledge first
+- Team re-org: a team stripped of its core does not petition for dissolution; it submits a list of 'the battles this remaining establishment can fight' with a deadline—brief without surrendering
+- Investment stop-loss: the cut object is the ineffective tactic (wrong asset, wrong tempo), not the effective operator—clear the tactic, and the people who remain restart
+
+**相关模式**: M-YSS-002, M-YSS-001, M-YSS-008, M-YSS-010, M-IBS-009
+**代表人物**:
+- 刘备 / Liu Bei — 残局重启的三国同行：半生寄篱而'髀肉复生'之叹后仍立国——残局方'统帅即变量'的又一案例
+  - The Three Kingdoms peer of ruin-reset: half a life on others' doorsteps, yet after the 'flesh regrown on the thigh' lament he still founded a state—another case of 'the commander is the variable' in a ruined position
+- 德川家康 / Tokugawa Ieyasu — 同时代对手方的残局大师：三方原惨败后以'忍'重启，最终在残局中接盘天下——同一方法的守势版本
+  - The ruin master of the contemporary opposing side: after the Mikatagahara rout he reset with 'endurance' and finally took the realm from a ruined position—the defensive version of the same method
+- 柳成龙 / Yu Seong-ryong — 朝中的重启同盟：两次举荐、两次力保李舜臣复职——残局重启需要庙堂里有一名'翻译者'
+  - The court-side ally of the reset: twice recommending, twice defending Yi's reinstatement—ruin-reset needs one 'translator' inside the court
+
+---
+
+### M-YSS-004 · 龟甲奇器法 / Turtle-Shell Device Method
+
+**定义 zh**: 技术方法论/在小国无工业基础的条件下用有限工时制造技术代差——不求全能战舰，只为一个明确战术问题造一件结构奇器
+
+**Definition en**: technology methodology/manufacturing a technological gap with limited work-hours under a small state's no-industry conditions—not an all-purpose warship but one structural device built for exactly one tactical question
+
+**典型域 zh**: 1592 年 3 月前的全罗左水营：李舜臣接任时舰队编制残缺、无钱无械。他在日记里记下造船决策：为板屋船加造覆顶装甲——船顶覆盖铁板与硬木，遍插锥刺（防接舷跳帮），前后设龙头炮口与铳眼，两侧各十二桨，可短距冲刺。这就是龟船（거북선）。设计逻辑极严格：日军水战的核心战术是接舷跳帮——日本武士的近战白刃在跳帮后近乎无敌；所以龟船不需要更快的航速或更多的炮，只需要一件事——让敌人上不了船。一块顶盖加一层锥刺，就废掉了对方的第一战术；再配龙头喷烟扰目，接舷战术整条失效。1592 年 5 月 29 日唐浦之战，两艘龟船首次实战，撞入日军队形撞沉大船——此后日军水军的接舷战术在朝鲜水域基本报废。总成本：数月工期、百来张铁板、一支水营自己的船坞——农业国的全部工业能力，被用在了一个被精确诊断的问题上
+
+**Domain en**: The Left Jeolla naval station before March 1592: the fleet Yi inherited was riddled with vacancies, short of funds and arms. The shipbuilding decision appears in his diary: add an armored roof to the panokseon—decks covered with iron plate and hardwood, studded with spikes (to defeat boarding), a dragon-head gun port forward and gunloops at the sides, twelve oars each side for short sprints. This is the turtle ship (geobukseon). The design logic is austere: the core tactic of Japanese naval warfare was boarding—and the samurai's close-quarters blade, once aboard, was near-invincible; so the turtle ship needed neither greater speed nor more guns, but one thing only—keep the enemy off the deck. One roof plus one layer of spikes nullified the opponent's first tactic; with the dragon head's smoke to blind, the boarding doctrine failed as a whole. On 29 May 1592 at Dangpo two turtle ships fought for the first time, ramming into the Japanese formation and sinking large ships—afterward Japanese boarding tactics were essentially retired from Korean waters. Total cost: months of work, a hundred-odd iron plates, one naval station's own yard—an agrarian state's entire industrial capacity, spent on precisely one diagnosed problem
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣龟甲奇器法的核心命题是：技术代差可以在小国条件下制造，前提是把'我们要解决的问题'收窄到一件结构能回答的程度——奇器不是全能旗舰，而是对敌军第一战术的定向否决装置。操作纪律有四条。第一，先诊断敌人的第一战术：不是问'我们需要什么武器'，而是问'敌人的胜利依赖哪一步'——日军依赖接舷，所以目标函数是'让接舷不可能'；诊断错了，再贵的奇器也是摆设。第二，用存量平台改造：不新造体系，在既有平台（板屋船）上加最小结构（顶盖+锥刺+炮口）——改造方案短周期、可复用、失败成本低。第三，限定指标：奇器只对一个问题负责——龟船不追求航速、载员、远航；所有指标让位于'防跳帮'；一个指标打穿胜过十个指标平庸。第四，就地取材与就地训练：铁板、木匠、桨手全部来自本地水营——技术方案必须能被自己的组织在六个月内维护与复制，否则只是购入的摆设。深意有三重。其一，它把'技术劣势'改写为'技术未定向'：小国不是没有技术，是没有把有限技术对准敌人的依赖点。其二，它是'非对称创新'的前现代原型：不为对等竞争造平台，为否决对方核心动作造装置。其三，它给出创新预算的纪律：一件奇器的成功标准是让对方的某一类战术从此不再出现，而非任何表彰性的性能参数。适用边界：适用于有明确对手、且对手核心战术可被结构否决的场景；对多方向竞争、对手战术多变的场景，奇器会沦为专用废铁。现代对应物：防御性专利的'卡位'布局、创业产品的'单点穿透'、网络安全里的针对性防御、体育中的专项战术克制装备。
+
+**Core definition en**: The core proposition of the turtle-shell device method: a technological gap can be manufactured under small-state conditions, provided the problem is narrowed until one structure can answer it—the device is not an all-purpose flagship but a directional veto of the enemy's first tactic. Four disciplines. First, diagnose the enemy's first tactic: not 'what weapon do we need' but 'which step does the enemy's victory depend on'—the Japanese depended on boarding, so the objective function was 'make boarding impossible'; misdiagnose, and the costliest device is a monument. Second, retrofit an existing platform: build no new system; add the minimal structure (roof + spikes + gun ports) to the existing panokseon—a retrofit is short-cycle, reusable, and cheap to fail. Third, bound the specification: the device answers to one question only—the turtle ship did not chase speed, crew, or range; every spec yields to 'defeat boarding'; one metric driven through beats ten metrics done poorly. Fourth, source and train locally: iron plate, carpenters, and oarsmen all from the local naval station—the technical solution must be maintainable and replicable by your own organization within six months, or it is a purchased ornament. Three layers of depth. First, it rewrites 'technological inferiority' as 'technology not yet aimed': the small state lacks not technology but aim of its finite technology at the enemy's dependency. Second, it is the pre-modern prototype of asymmetric innovation: build no platform for peer competition; build a device that vetoes the opponent's core move. Third, it disciplines innovation budgets: a device succeeds when one class of enemy tactics ceases to appear, not by any commemorative performance parameter. Boundaries: it suits settings with a definite opponent whose core tactic a structure can veto; under multi-directional competition with shifting enemy tactics, the device becomes specialized scrap. Modern counterparts: blocking-position patent strategies, the startup product's single-point penetration, targeted defense in cybersecurity, and sport's purpose-built counter-tactic equipment.
+
+**出处**: 乱中日记 1592 年造船与唐浦之战条目；《李忠武公全书》论龟船构造；宣祖实录论龟船首战；朝鲜王朝后期《备边司誊录》对龟船复制的记载
+
+**关键概念**:
+- 先诊断敌人的第一战术
+- 奇器是对核心动作的定向否决装置
+- 存量平台加最小结构
+- 一个指标打穿胜过十个指标平庸
+- 技术方案必须被自己的组织可维护
+- 小国不是没有技术而是技术未定向
+
+**金句 zh**: 敌人赢在跳上我的船——那就让他们的手先落在锥刺上；一件只回答一个问题的机器，胜过十件什么都能回答的摆设。
+**Key quote en**: The enemy wins by leaping onto my deck—so let their hands land first on the spikes; one machine that answers one question beats ten ornaments that answer everything.
+
+**执行流程 zh**:
+1. 诊断依赖点：列出对手获胜链条的每一环——找出'如果这一环失效，对方整套打法报废'的那一环
+2. 定目标函数：把需求收窄为一句可验证的话——'让跳帮不可能'式的一句话指标
+3. 改存量：在现有平台上加最小结构——先出可战的原型，不为完美推迟服役
+4. 砍指标：所有性能参数向单一指标让位——写明'本装置不为速度/载员/远航负责'
+5. 就地造：材料、工匠、训练全部本地化——以'六个月内己方组织可维护可复制'为硬门槛
+6. 实战验证：首战只验证单一指标是否达成——达成立即复制，不达成立即回炉
+
+**Process en**:
+1. Diagnose the dependency: list every link of the opponent's chain of victory—find the link whose failure scraps the opponent's entire playbook
+2. Fix the objective function: narrow the requirement to one verifiable sentence—a one-sentence metric like 'make boarding impossible'
+3. Retrofit the stock: add the minimal structure to the existing platform—field a fightable prototype first; never delay service for perfection
+4. Cut the metrics: all performance parameters yield to the single metric—state in writing 'this device is not responsible for speed, crew, or range'
+5. Build locally: localize materials, craftsmen, and training—'maintainable and replicable by our own organization within six months' as the hard gate
+6. Validate in battle: the first engagement validates only whether the single metric was achieved—replicate at once if yes, rework at once if no
+
+**代表案例 zh**:
+- 1592 年 3-5 月龟船建造：数月工期、百来张铁板，在板屋船上加覆顶装甲与锥刺——存量平台改造的最小结构方案
+- 1592 年 5 月唐浦首战：两艘龟船撞入日军队形撞沉大船——接舷战术的第一次定向否决
+- 1592 年闲山岛：龟船与板屋船混编，顶盖使日军跳帮死亡化，鹤翼阵火力得以完整发挥——奇器与阵法互为条件
+- 鸣梁十三艘中的旗舰：装甲旗舰在窄峡中作为冲击箭头——同一奇器在两种战场结构中的两种用法
+
+**Representative cases en**:
+- Turtle-ship construction, March-May 1592: months of work, a hundred-odd iron plates, armored roofing and spikes added to the panokseon—the minimal-structure retrofit of an existing platform
+- First battle at Dangpo, May 1592: two turtle ships ram into the Japanese formation and sink large ships—the first directional veto of boarding tactics
+- Hansan Island, 1592: turtle ships mixed with panokseon, the roofing making Japanese boarding lethal, freeing the crane wing's firepower—device and formation as each other's condition
+- The flagship among the thirteen at Myeongnyang: an armored flagship as the shock arrowhead in the gorge—the same device in two battlefield structures, used two ways
+
+**现代应用 zh**:
+- 专利与合规卡位：小公司用一件定向专利卡住巨头的核心流程——不求覆盖技术面，只求'让对方的默认做法不可用'
+- 产品设计：先诊断用户被竞品锁死的那一步——为'让那一步失效'造单点功能，其余指标全部让位
+- 网络安全：不为全面防御造体系，为'否决攻击链的第一跳'做定向加固——一次成功的中断即可报废整条攻击战术
+- 体育战术：针对对手核心得分动作设计专项防守——一个'让对手第一选择消失'的部署胜过十项均衡改进
+
+**Modern applications en**:
+- Patent and compliance blocking: a small firm's one directional patent jamming a giant's core process—not coverage of the technical field, only 'making the default approach unusable'
+- Product design: diagnose the step where users are locked by the incumbent—build the single feature that voids that step; every other spec yields
+- Cybersecurity: build no system for total defense; harden directionally against 'the first hop of the kill chain'—one successful interruption scraps the whole attack tactic
+- Sport tactics: design专项 defense against the opponent's core scoring move—one deployment that 'makes the opponent's first option disappear' beats ten balanced improvements
+
+**相关模式**: M-YSS-001, M-YSS-003, M-YSS-008, M-QJG-001, M-SUN-001
+**代表人物**:
+- 阿基米德 / Archimedes — 结构否决装置的古代先行者：叙拉古城墙上的起重机与火镜——'一件奇器让一支舰队失效'的原型
+  - The ancient forerunner of the structural veto device: the cranes and burning mirrors on Syracuse's walls—the prototype of 'one device disabling a fleet'
+- 戚继光 / Qi Jiguang — 对症器械的同行：鸳鸯阵与狼筅为否决倭刀近战而生——与龟船'为否决跳帮而生'同构
+  - A peer of purpose-built devices: the mandarin-duck formation and wolf-brush born to veto the wokou blade—structurally the same as the turtle ship born to veto boarding
+- 无名船匠 / The unnamed shipwrights — 技术的真正执行者：全罗左水营的木匠与铁匠——奇器法的成败在制造末端而非图纸前端
+  - Technology's true executors: the carpenters and smiths of the Left Jeolla station—the method's verdict falls at the manufacturing end, not the drawing-board end
+
+---
+
+### M-YSS-005 · 乱中日记法 / War-Diary Ledger Method
+
+**定义 zh**: 记录方法论/在最混乱的时期逐日亲笔记录决策与事实——台账同时是统御工具、辩护证据与历史合同，记录即统御
+
+**Definition en**: record methodology/recording decisions and facts daily in one's own hand through the most chaotic period—the ledger is at once a command tool, defense evidence, and a contract with history; record as command
+
+**典型域 zh**: 1592 年 1 月到 1598 年 11 月 17 日：李舜臣的乱中日记（난중일기）逐日亲笔，共一百五十七篇，写到死前两日为止。内容远不止战况：军械账目、粮饷物价、官员往来、赏罚记录、对部下的评价、对朝廷构陷的申诉、以及对自己失误的自省（'今日侦探不密，吾之过也'式的条目比比皆是）。这套台账在三个方向上同时工作。对内：每日成账使他的命令有据可查，赏罚有源可溯——一支从牙兵到水手都知道'统帅记着每一笔'的军队，纪律成本骤降。对外：1592 年'私通日本'之谤、1597 年夺权下狱——构陷的证据全部来自传闻，而他的清白有六年逐日记录背书；平反昭雪时，日记就是完整的辩护卷宗。对后世：因为台账从未中断，后人得以逐日核对每一场战役的时序、损耗与决策——他是近代以前唯一被如此完整审计过的统帅。日记最后一篇写于 1598 年 11 月 17 日，两天后他死于露梁——记录与生命同日截止，无一日欠账
+
+**Domain en**: January 1592 to 17 November 1598: Yi's War Diary (Nanjung Ilgi) is kept daily in his own hand—157 entries, ending two days before his death. The content goes far beyond battles: arms accounts, grain prices, official correspondence, reward and punishment records, assessments of subordinates, appeals against the court's frame-ups, and self-reproach for his own errors (entries of the 'today's scouts were lax—my fault' kind abound). The ledger works in three directions at once. Inward: daily accounts make his orders auditable and his rewards traceable—an army from musketeers to sailors that knows 'the commander has entered every item' costs far less to discipline. Outward: the treason slander of 1592 and the dispossession and imprisonment of 1597—all the frame-ups rested on hearsay, while his innocence had six years of daily records behind it; at exoneration the diary was the complete defense dossier. For posterity: because the ledger never broke, later generations can audit the timing, attrition, and decisions of every engagement day by day—he is the only pre-modern commander audited with such completeness. The diary's final entry is dated 17 November 1598; he died at Noryang two days later—record and life end the same day, not one day in arrears
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣乱中日记法的核心命题是：在构陷、混乱与流动性极高的环境里，逐日亲笔台账是唯一能同时完成'统御、自保、留史'三项任务的装置——记录不是文人的习惯，而是指挥系统的一部分：命令入账才有可执行性，赏罚入账才有权威性，决策入账才有可辩护性。操作纪律有四条。第一，每日不欠账：记录的价值与连续性成正比——断账的台账在法庭上等于没有台账；越忙越要记，因为越忙越容易被构陷。第二，自记不利事实：台账里必须包含对自己失误的记录（他逐日记下自己的侦探失误、赏罚偏差）——只记功劳的台账在审查者眼中是宣传品，记过错的台账才是证据。第三，事实与判断分栏：当日事实（粮价、军械数、伤亡）与当日判断（谁可用、朝廷何意）分开记录——事实栏是给审查者的，判断栏是给自己的。第四，一式一地保管：亲笔、原本、单一保管——副本会稀释权威，抄本会引入篡改空间。深意有三重。其一，它把'记录'从行政杂务升格为权力装置：在缺乏制度信任的组织里，连续台账本身就是信用。其二，它是弱者对抗体制性抹黑的唯一平等武器：谣言可以制造，六年逐日账无法伪造。其三，它给领导者一种罕见的诚实纪律：自记其过的台账，让'自我辩护'与'自我美化'在源头分开。适用边界：适用于高构陷风险、高流动性、长周期的事务（创业、诉讼、长期项目、乱世任职）；对低风险日常事务，全量记录的成本会超过收益。现代对应物：创业公司的决策日志（decision log）、工程里的 ADR（架构决策记录）、临床病历与审计轨迹、个人事务的连续 journal 与诉讼证据保全。
+
+**Core definition en**: The core proposition of the war-diary ledger method: amid frame-ups, chaos, and extreme flux, the daily self-written ledger is the only device that simultaneously delivers command, self-protection, and the historical record—recording is not a scholar's habit but a component of the command system: orders gain executability by being entered, rewards gain authority by being traceable, decisions gain defensibility by being dated. Four disciplines. First, no day in arrears: the ledger's value is proportional to its continuity—a broken ledger equals no ledger at court; the busier you are, the more you must record, for the busier you are the easier to frame. Second, self-record the unfavorable facts: the ledger must contain records of your own errors (he logs daily his scouting lapses and reward misjudgments)—a ledger of merits only is propaganda in the reviewer's eyes; a ledger that records faults is evidence. Third, separate fact and judgment: the day's facts (prices, arms counts, casualties) and the day's judgments (who is reliable, what the court intends) go in separate columns—the fact column is for the reviewer, the judgment column for yourself. Fourth, one hand, one place: autograph, original, single custody—copies dilute authority, transcriptions invite tampering. Three layers of depth. First, it upgrades 'record-keeping' from clerical chore to instrument of power: in organizations lacking institutional trust, continuous ledgers are themselves credit. Second, it is the weak side's only equal weapon against systemic slander: rumors can be manufactured; six years of daily entries cannot be forged. Third, it gives leaders a rare honesty discipline: a ledger that self-records faults separates 'self-defense' from 'self-beautification' at the source. Boundaries: it suits affairs with high frame-up risk, high flux, and long horizons (startups, litigation, long projects, office in troubled times); for low-risk routine, full recording costs more than it returns. Modern counterparts: the startup's decision log, the engineering ADR (architecture decision record), clinical charts and audit trails, and the individual's continuous journal with litigation-grade evidence discipline.
+
+**出处**: 乱中日记全一百五十七篇（1592-1598，李舜臣亲笔）；《李忠武公全书》所收奏疏与书简与日记互证；宣祖实录对'私通之谤'的记载与平反过程；朝鲜王朝后期对日记的官方刻印与流传史
+
+**关键概念**:
+- 记录即统御
+- 台账的连续性就是信用
+- 自记其过使台账成为证据
+- 事实栏与判断栏分立
+- 谣言可以制造逐日账无法伪造
+- 记录与生命同日截止
+
+**金句 zh**: 他们可以造谣一日，但造不出六年——我的每一页都是当天的证词，欠账之日即是败诉之日。
+**Key quote en**: They can manufacture a day's rumor, but not six years—every page of mine is that day's testimony; the day I fall into arrears is the day I lose the case.
+
+**执行流程 zh**:
+1. 定格式：为台账固定栏目——事实（数字、时间、人物）与判断（评估、意图）分栏书写
+2. 每日清账：无论战况多急，当日事实当日入账——欠账即欠证据
+3. 自记其过：失误与赏罚偏差逐条如实记录——台账的说服力来自不利记载的存在
+4. 一事一源：每条记录注明来源与经手人——为未来审查预置证据链
+5. 原本单管：亲笔原本单一保管，不散副本——副本与抄本是篡改的温床
+6. 定期对账：每周把台账与实际军械、粮饷、人事核对一次——账实不符即查，先于审查者发现
+
+**Process en**:
+1. Fix the format: fix the ledger's columns—facts (numbers, times, persons) and judgments (assessments, intents) in separate columns
+2. Clear the day: however urgent the battle, the day's facts enter the day's page—arrears in entries are arrears in evidence
+3. Self-record faults: lapses and misjudgments in reward enter as they occur—the ledger's persuasiveness lives in the presence of unfavorable entries
+4. One item, one source: each entry notes its source and handler—pre-installing the evidence chain for future review
+5. One hand, one custody: autograph original, single custodian, no scattered copies—copies and transcripts are the hotbed of tampering
+6. Reconcile on schedule: weekly, check the ledger against actual arms, grain, and personnel—investigate discrepancies before the auditor finds them
+
+**代表案例 zh**:
+- 六年一百五十七篇的连续性：从备战到露梁逐日不断——台账从未中断，使所有构陷在卷宗面前失效
+- 1592 年'私通之谤'的平反：传闻对传闻、账本对账本——六年逐日记录成为他唯一的辩护卷宗
+- 1597 年复职即接管：下狱期间台账未断，复职数日内即可重整军队——连续台账使'重启'变成核对而非重建
+- 死前两日的最后一篇：1598 年 11 月 17 日仍记录军务——记录与生命同日截止，历史无法质疑其完整性
+
+**Representative cases en**:
+- Six years, 157 entries, unbroken: from war preparations to Noryang, day after day—the ledger never broke, and every frame-up died before the dossier
+- The exoneration after the 1592 treason slander: hearsay against hearsay, ledger against rumor—six years of daily records as his sole defense dossier
+- Reinstatement as handover, 1597: the ledger never broke during his imprisonment, so within days of reinstatement he could re-command—continuous ledgers turn 'reboot' into reconciliation rather than reconstruction
+- The final entry two days before death: still recording military affairs on 17 November 1598—record and life end the same day, and history cannot question the completeness
+
+**现代应用 zh**:
+- 创业决策日志：重大决策逐条记录'当时的依据与预期'——融资诉讼、股权纠纷时，决策日志是最强的自证
+- 工程 ADR：架构决策记录'为什么不用另一个方案'——记过错的 ADR（被否方案的理由）才有审查价值
+- 诉讼证据保全：长期项目中的往来邮件、会议纪要、验收单逐日归档——记录与生命同日截止的纪律直接决定胜诉率
+- 个人 journal：事实与自省分栏，自记其过不回避——连续数年的诚实台账是个人信用最好的抵押物
+
+**Modern applications en**:
+- Startup decision logs: record 'the basis and expectation at the time' for each major decision—in financing litigation and equity disputes the log is the strongest self-evidence
+- Engineering ADRs: record 'why not the other option'—an ADR that logs rejected options and their reasons is the one with review value
+- Litigation evidence discipline: archive correspondence, minutes, and acceptance sheets daily through long projects—'record and life end the same day' discipline directly sets the win rate
+- Personal journal: fact and self-reproach in separate columns, recording faults without flinching—years of honest ledgering are the best collateral for personal credit
+
+**相关模式**: M-YSS-007, M-YSS-003, M-YSS-008, M-IBS-009, M-AUG-001
+**代表人物**:
+- 司马迁 / Sima Qian — 记录对抗构陷的前辈：受刑而著《史记》——'给历史留下可核查的账'是两人共同的报复方式
+  - The forerunner who answered frame-ups with records: mutilated, he wrote the Shiji—'leaving history an auditable account' is their shared form of revenge
+- 塞缪尔·佩皮斯 / Samuel Pepys — 同时代西方的逐日台账：伦敦大火与荷兰战争的十年日记——档案价值与李舜臣日记互为东西映照
+  - The West's contemporary daily ledger: ten years of diary through the Great Fire and the Dutch wars—the archive value mirrors the War Diary from the other end of Eurasia
+- 曾国藩 / Zeng Guofan — 自省台账的清朝同行：日课十二条与逐日自记其过——把台账当修身与统御的双重装置
+  - The Qing peer of the self-audit ledger: the twelve daily rules and daily self-recording of faults—the ledger as a dual device of self-cultivation and command
+
+---
+
+### M-YSS-006 · 鹤翼合围法 / Crane-Wing Encirclement Method
+
+**定义 zh**: 战术方法论/用阵型几何替代兵力优势——两翼张开的弧形合围使己方全部火力同时在线而敌军火力依次到场，把'多数'变成'逐个'。
+
+**Definition en**: tactics methodology/substituting formation geometry for numerical superiority—an opened-arc encirclement keeps all of one's own firepower simultaneously online while the enemy's arrives piecemeal, turning 'the many' into 'one at a time.'
+
+**典型域 zh**: 1592 年 7 月 8 日闲山岛洋面：日军水军百余艘沿朝鲜西南海岸增援汉城方向的补给线。李舜臣手下约五十六至七十三艘（板屋船为主、配龟船与避牌船）。他没有摆出传统的一字横队或纵队，而是把舰队摆成'鹤翼'——中央薄、两翼向后大张开的新月弧。作战过程精确执行几何意图：中军以少数船先接敌并佯退，把日军前锋引入弧心；日军为追击自然拉长纵队；此时两翼合拢，弧形防线使己方几乎所有舰炮同时面向敌纵队的侧面，而敌军只有最前数艘能把火力投向朝鲜方。结果：焚敌五十九至六十一艘（含大安津口大船），己方损失极小，日军西部补给线自此瘫痪。此阵的要害不在'围'而在'同时性'：数量优势的本质是火力与兵力的可叠加性，弧形几何把这种叠加性从对手手里没收——你有一百艘，但每一时刻只有三艘在交战；我有五十六艘，每一时刻有五十艘在交战
+
+**Domain en**: The open water off Hansan Island, 8 July 1592: the Japanese fleet of 100-plus moved along the southwestern coast to reinforce the Seoul axis. Yi commanded some fifty-six to seventy-three ships (mostly panokseon, with turtle ships and shielded vessels). He deployed neither the traditional line abreast nor column, but the 'crane wing'—a thin center with both wings sweeping far back in a crescent arc. The battle executed the geometry precisely: the center's few ships engaged first and feigned retreat, drawing the Japanese van into the arc's heart; the Japanese, pursuing, naturally stretched into column; the wings then closed, and the arc faced nearly every Korean gun onto the Japanese column's flank while only the enemy's leading handful could return fire. Result: fifty-nine to sixty-one enemy ships burned (including the great ships of Daegeum), his own losses minimal, and Japan's western supply line paralyzed from that day. The formation's secret is not 'encirclement' but 'simultaneity': numerical advantage is essentially the stackability of firepower and force, and the arc's geometry confiscates that stackability from the opponent—you have one hundred ships, but only three are engaged at any instant; I have fifty-six, and fifty are engaged at every instant
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣鹤翼合围法的核心命题是：兵力优势的本质是'同时在线的资源量'——几何学可以单方面没收这种同时性：让己方全部资源同时面向敌人，而敌人只有一小部分资源同时在场，则绝对数量失去意义。操作纪律有四条。第一，先算'同时率'：开战前评估双方在每一时刻实际可投入交战的单位数——这是真正的力量对比，总兵力只是会计数字。第二，用诱饵制造时差：对手不会自愿排成一列挨打——需要中央的示弱、佯退或局部得利引诱对方进入'依次投入'的轨道。第三，阵型为火力服务：弧度、间距、转向次序都由'多少门炮能同时打到目标'倒推——阵型不是美术，是火力的几何学。第四，合拢时机唯一：两翼合拢太早则敌前锋未深入，太晚则敌后续已展开——合拢时点是此阵全部价值所在，必须预演并授权一线临机。深意有三重。其一，它给出了'以少胜多'的严格几何证明：不是奇迹，是同时率的差值。其二，它把'诱敌'从计谋升格为必要组件：没有时差制造，几何优势无从兑现。其三，它对资源劣势方的最大安慰在于：你缺的不是资源，是把资源同时化的方法。适用边界：适用于己方可预设阵型、且对方火力存在'依次到场'可能的对抗；对双方同时率都极高的混战与遭遇战，阵型几何收益骤减。现代对应物：商业中的'焦点竞争'——把巨头拖入自己全线就绪的单点战场、军事与电竞中的集火与包抄、谈判中的多议题打包对单议题、 courts 上的合并诉讼策略。
+
+**Core definition en**: The core proposition of the crane-wing encirclement method: numerical advantage is essentially 'the volume of resources simultaneously online'—geometry can confiscate that simultaneity unilaterally: face the enemy with all of your resources at once while only a fraction of his are present at any instant, and absolute numbers lose meaning. Four disciplines. First, compute the simultaneity rate: before battle, assess how many units each side can actually bring into the fight at each instant—this is the true force ratio; total strength is an accounting figure. Second, manufacture the time-lag with bait: the opponent will not voluntarily line up to be beaten—the center's weakness, feigned retreat, or局部 gain must lure him into the 'commit in sequence' track. Third, formation serves firepower: curvature, spacing, and turn order are back-derived from 'how many guns can hit the target at once'—formation is not aesthetics but the geometry of firepower. Fourth, the closing moment is singular: close too early and the enemy van has not penetrated; too late and his follow-ons have deployed—the closing instant holds the formation's entire value and must be rehearsed and delegated to the line for on-the-spot judgment. Three layers of depth. First, it gives 'defeating the many with the few' its strict geometric proof: not miracle, but the simultaneity differential. Second, it upgrades 'luring the enemy' from trick to necessary component: without manufacturing the time-lag, the geometric advantage cannot cash out. Third, its great consolation for the resource-poor: what you lack is not resources but the method of simultanizing them. Boundaries: it suits confrontations where your side can pre-set formation and the enemy's firepower may arrive piecemeal; in melees and encounters where both sides' simultaneity is equally high, formation geometry's yield collapses. Modern counterparts: in business, 'focused competition'—dragging the giant into a single point where your whole line is ready; concentration of fire and envelopment in war and esports; bundling many issues against one in negotiation; consolidated-litigation strategy in court.
+
+**出处**: 乱中日记 1592 年 7 月闲山岛条目；《李忠武公全书》闲山岛战报与阵图；宣祖实录闲山岛捷报；柳成龙《惩毖录》论鹤翼阵
+
+**关键概念**:
+- 数量优势的本质是同时率
+- 几何学可以单方面没收同时性
+- 诱饵制造依次投入的时差
+- 阵型是火力的几何学
+- 合拢时点是阵型的全部价值
+- 缺的不是资源是同时化的方法
+
+**金句 zh**: 他有一百艘船，但每一刻只有三艘在打仗；我有五十六艘，每一刻有五十艘在开炮——胜负在合拢的那一刻已经写完。
+**Key quote en**: He has one hundred ships, but only three are fighting at any instant; I have fifty-six, and fifty guns fire at every instant—the verdict was written at the moment the wings closed.
+
+**执行流程 zh**:
+1. 算同时率：逐项列出双方'每一时刻实际在场'的作战单位——用同时率替代总兵力做战前评估
+2. 设弧心：把己方摆成中央薄、两翼后张的弧形——中军位置选在敌纵队必经的延长线上
+3. 备诱饵：为中央分队写好示弱与佯退的脚本——佯退路线必须通向弧心而非溃逃方向
+4. 等纵队：不抢攻，等对手为追击自然拉长——纵队越长，同时率越低
+5. 合两翼：授权一线在敌前锋越过弧心线时合拢——合拢时点是阵型价值所在，宁可预备两套触发条件
+6. 逐段清剿：合围后由近及远逐段击破——保持己方火力连续在线，不给敌重组同时率的机会
+
+**Process en**:
+1. Compute the simultaneity rate: itemize 'units actually present at each instant' for both sides—evaluate pre-battle by simultaneity rate, not total strength
+2. Set the arc's heart: deploy with a thin center and wings swept back—the center's position lies on the extension of the enemy column's inevitable path
+3. Prepare the bait: script the center detachment's weakness and feigned retreat—the feigned route must lead to the arc's heart, not toward rout
+4. Wait for the column: do not strike first; let the pursuit stretch him naturally—the longer the column, the lower his simultaneity rate
+5. Close the wings: delegate to the line the closing when the enemy van crosses the heart-line—the closing instant is the formation's whole value; prepare two trigger conditions
+6. Clear segment by segment: after encirclement, destroy from near to far—keep your own firepower continuously online; deny him any chance to rebuild a simultaneity rate
+
+**代表案例 zh**:
+- 1592 年 7 月 8 日闲山岛之战：中军佯退引敌纵队入弧心，两翼合拢焚敌五十九至六十一艘——鹤翼阵的教科书实施
+- 1592 年 7 月 10 日安骨浦后续战：同一几何的第二次运用，日军增援舰队再度被弧形阵逐段击破
+- 露梁海战（1598）的三面合围：朝明联军对撤退日军的弧形压逼——合围几何在更大兵力差下的复用
+- 闲山岛前的玉浦、唐浦诸战：小规模弧形与集火演练——阵法的火力几何在会战前已逐次校准
+
+**Representative cases en**:
+- The Battle of Hansan Island, 8 July 1592: the center's feigned retreat draws the enemy column into the arc's heart, the wings close, fifty-nine to sixty-one ships burn—the textbook execution of the crane wing
+- The follow-up at Angolpo, 10 July 1592: the same geometry's second application, the Japanese reinforcement fleet again broken segment by segment by the arc
+- The three-sided encirclement at Noryang (1598): the allied Joseon-Ming arc pressing the retreating Japanese—the encirclement geometry reused at a far larger force differential
+- The engagements of Okpo and Dangpo before Hansan: small-scale arcs and concentration drills—the formation's firepower geometry calibrated battle by battle before the great engagement
+
+**现代应用 zh**:
+- 商业竞争：把巨头拖入自己全线就绪的单点战场（一个品类、一个区域、一次合规审查）——用'同时率'差值打败总资源差值
+- 团队作战：集火原则——所有可用资源同时投向单一目标，而非分散支援多个'依次失败'的战线
+- 谈判打包：把己方全部筹码同时上桌对抗对方的单一议题——同时率是谈判桌上真实的力量对比
+- 诉讼与辩论：合并所有相关争点一次决胜，不给对方'逐个击破'的时序
+
+**Modern applications en**:
+- Competition: drag the giant into the single point where your whole line is ready (one category, one region, one compliance review)—beat the resource gap with the simultaneity gap
+- Team operations: the principle of concentration—all available resources onto one target at once, not scattered across multiple fronts that fail in sequence
+- Negotiation bundling: put every chip of yours on the table at once against the counterpart's single issue—simultaneity rate is the table's true force ratio
+- Litigation and debate: consolidate all related claims into one decisive proceeding, denying the opponent the sequence of divide-and-conquer
+
+**相关模式**: M-YSS-001, M-YSS-009, M-YSS-004, M-SUN-001, M-NAP-003
+**代表人物**:
+- 汉尼拔 / Hannibal — 合围几何的古代巅峰：坎尼的新月阵与双重包抄——鹤翼阵的西方镜像，同以几何没收同时率
+  - The ancient apex of encirclement geometry: Cannae's crescent and double envelopment—the crane wing's Western mirror, likewise confiscating simultaneity with geometry
+- 孙武 / Sun Tzu — '我专而敌分'的理论源头：集中与分散的算学——鹤翼阵是'以专待分'的海上几何实现
+  - The theoretical source of 'I am concentrated, the enemy divided': the arithmetic of concentration and division—the crane wing is that arithmetic realized as geometry at sea
+- 特米斯托克利 / Themistocles — 地形加阵型的先行者：萨拉米斯湾窄水引波斯舰队依次入场——鹤翼与锁喉两法的共同祖源
+  - The forerunner of terrain-plus-formation: Salamis's narrows forcing the Persian fleet in piecemeal—the common ancestor of both the crane wing and the chokepoint
+
+---
+
+### M-YSS-007 · 忍谤续战法 / Slander-Endurance Method
+
+**定义 zh**: 政治方法论/在被构陷与夺权期间不与体制对骂、不撂挑子、不以战局为人质——把政治伤害折算为暂时的成本，用下一场胜利与完整台账替自己辩护
+
+**Definition en**: political methodology/while framed and stripped of command, neither trading insults with the system, nor quitting, nor holding the battle hostage—converting political injury into temporary cost and being defended by the next victory and the unbroken ledger
+
+**典型域 zh**: 1592 年冬：金应瑞一系散布'李舜臣私通日本、故意放走贼将'的流言——起因是他对日军将领的释放处置与情报策略。朝廷下狱议罪，他被降为白衣从军。他的反应有三件事没做：没有上表为自己大喊冤屈（只在必要申诉里陈述事实），没有以'朝廷负我'为由消极避战，更没有以战局为筹码要挟复职。他做的只有两件：回到军中以普通军官身份继续作战，同时让逐日军账继续累积。结果：朝中理性派（柳成龙等）以事实逐条驳斥流言，数月后他官复原职。1597 年更严厉的构陷接踵而至——元均一系夺权成功，他被押送京城、白白衣从军；数月后漆川梁惨败证明夺权者的无能，朝廷只能再次请他出山。两次构陷的完整对照：构陷者的证据是传闻，他的证据是六年台账与零败绩——忍谤不是懦弱，是把'自辩的成本'外包给时间和事实
+
+**Domain en**: Winter 1592: the faction of Kim Eung-ham spread the rumor that 'Yi Sunsin secretly colludes with Japan and deliberately releases enemy commanders'—born of his handling of captive officers and his intelligence policy. The court moved to prosecute; he was demoted to serve as a common soldier. Three things he did not do: he did not flood the throne with cries of injustice (stating facts only where formal appeal required), he did not go passive because 'the court has wronged me,' and he did not hold the war situation hostage to his reinstatement. He did two things: returned to the army and kept fighting as a plain officer, while the daily ledger kept accumulating. The result: the rational faction at court (Yu Seong-ryong and others) rebutted the rumor point by point with facts, and months later he was restored. In 1597 came the harsher frame-up—Won Gyun's faction seized command, and he was taken to the capital in prisoner's white; months later the Chilcheollyang catastrophe proved the usurpers' incompetence, and the court had no choice but to recall him. The full contrast of the two frame-ups: the slanderers' evidence was hearsay; his evidence was six years of ledger and zero defeats—endurance is not weakness but outsourcing the cost of self-defense to time and fact
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣忍谤续战法的核心命题是：构陷是一场关于证据供给的消耗战——自辩者若当场与谣言对轰，等于把自己的证据供给也换成谣言量级；正确做法是把辩护外包给两件谣言无法伪造的东西：连续的台账与下一场可验证的胜利。操作纪律有四条。第一，区分'必要陈述'与'情绪对轰'：只在正式程序里陈述事实，禁止在任何场合与流言同量级互骂——你与谣言对骂的那一刻，你的证据等级就降到谣言级别。第二，绝不让战局为人质：'不给我复职我就不打了'是把国家利益抵押给自己的私怨——此路一旦开启，构陷者就赢得了全部论点；继续履职本身就是最强的政治陈述。第三，让台账积累：忍谤期间最重要的事是保持记录连续——时间是构陷者的敌人，因为传闻会枯竭而台账不会。第四，经营庙堂翻译者：体制内必须有能逐条把事实翻译给决策层的同盟（柳成龙之流）——忍谤不是孤军闭嘴，是让同盟替你说话。深意有三重。其一，它给出体制内生存的核心算术：声誉由结果与记录复利修复，由自辩与对抗复利受损。其二，它区分了'忍辱'与'纵恶'：忍谤的前提是继续战斗与继续记录，二者缺一即为纵容。其三，它解释了为什么構陷者总是输在时间上：流言是消耗品，台账是复利品。适用边界：适用于体制内任职、长期合作关系中的不实指控；对违法侵害与人身威胁，忍谤让位于法律与安全手段。现代对应物：职场诬告的应对（用项目交付与邮件台账回应，而非办公室对骂）、舆论风波中的'作品即回应'策略、司法程序里的证据积累优先于媒体战、学术争议中的用论文与数据回应而非互发声明。
+
+**Core definition en**: The core proposition of the slander-endurance method: a frame-up is a war of attrition over evidence supply—if the accused duels the rumor on the spot, he converts his own evidence supply to the rumor's grade; the correct move is to outsource the defense to two things rumor cannot forge: a continuous ledger and the next verifiable victory. Four disciplines. First, separate 'necessary statement' from 'emotional duel': state facts only within formal procedure; never trade invective at the rumor's volume—the moment you trade insults with a rumor, your evidence grade drops to rumor grade. Second, never hold the war hostage: 'reinstate me or I will not fight' mortgages the state's interest to a private grudge—once that door opens, the framers have won every argument; continuing in duty is itself the strongest political statement. Third, let the ledger accumulate: during the endurance the most important task is keeping the record unbroken—time is the slanderer's enemy, for hearsay exhausts while ledgers compound. Fourth, cultivate the court translator: inside the system there must be an ally who can translate the facts item by item to the decision-makers (a Yu Seong-ryong)—endurance is not a lone silence but letting allies speak for you. Three layers of depth. First, it gives the core arithmetic of surviving inside institutions: reputation compounds back through results and records, and compounds down through self-defense and confrontation. Second, it distinguishes 'bearing wrong' from 'abetting wrong': endurance's premise is continued fighting and continued recording; missing either is indulgence. Third, it explains why the slanderer always loses to time: rumor is a consumable, the ledger a compound instrument. Boundaries: it suits false accusations within institutions and long cooperative relationships; for illegal harm and physical threat, endurance yields to legal and safety measures. Modern counterparts: answering workplace defamation with deliverables and email ledgers rather than office shouting, the 'the work is the response' strategy in public-opinion storms, evidence accumulation before media war in judicial process, and answering academic disputes with papers and data rather than dueling statements.
+
+**出处**: 乱中日记 1592 年冬'私通之谤'相关申诉条目与 1597 年下狱条目；《李忠武公全书》自辩启疏与致柳成龙书简；宣祖实录关于两次构陷与复职的记载；柳成龙《惩毖录》相关篇目
+
+**关键概念**:
+- 自辩的成本外包给时间与事实
+- 绝不让战局为人质
+- 与谣言对骂即自降证据等级
+- 台账连续性是忍谤期间的唯一任务
+- 庙堂翻译者是必要组件
+- 声誉由结果与记录复利修复
+
+**金句 zh**: 谣言是消耗品，账本是复利品——我只需不停下、不还嘴，时间自会替我把话说完。
+**Key quote en**: Rumor is a consumable; the ledger compounds—I need only never stop, never talk back, and time will finish the sentence for me.
+
+**执行流程 zh**:
+1. 冻结情绪反应：被构陷的第一周禁止任何公开对骂——所有回应走正式程序
+2. 程序内陈述：只在申诉、听证等正式场合陈述事实——一份事实清单，不做修辞
+3. 继续履职：把手头职责执行到底——'他在被构陷时仍在产出'是最强的政治陈述
+4. 保台账连续：忍谤期间逐日记录照常——时间是构陷者的敌人
+5. 激活同盟：把事实清单交给体制内能逐条翻译的盟友——让对方替你出现在决策层面前
+6. 用结果收尾：下一场可验证的胜利（交付、战绩、数据）作为终局辩护——结果面前流言自动枯竭
+
+**Process en**:
+1. Freeze the emotional reaction: for the first week after the frame-up, no public dueling—every response travels the formal channel
+2. State within procedure: facts only in appeals and hearings—one fact sheet, no rhetoric
+3. Keep performing: carry your duties to the letter—'he still delivered while under accusation' is the strongest political statement
+4. Keep the ledger unbroken: daily recording continues through the endurance—time is the slanderer's enemy
+5. Activate allies: hand the fact sheet to in-system allies who can translate item by item—let them appear before the decision-makers for you
+6. Close with a result: the next verifiable victory (delivery, record, data) as the final defense—before results, hearsay exhausts itself
+
+**代表案例 zh**:
+- 1592 年'私通之谤'：不喊冤、不避战、账照记——柳成龙等以事实逐条驳斥，数月后复职
+- 1597 年白白衣从军：被夺权押送京城期间不与元均一系对骂——漆川梁惨败替他完成终局辩护
+- 复职即战：朝廷请他出山后数周内完成鸣梁备战——'继续履职'贯穿全部屈辱期
+- 致柳成龙书简：私下只陈述军情与事实、不发泄怨气——庙堂翻译者得到的是弹药而非情绪
+
+**Representative cases en**:
+- The treason slander of 1592: no cries of injustice, no withdrawal, the ledger uninterrupted—Yu Seong-ryong's faction rebutted point by point, and he was restored within months
+- Service in prisoner's white, 1597: taken to the capital under the usurpation, he never dueled Won Gyun's faction—the Chilcheollyang catastrophe delivered his final defense
+- Fighting from the hour of reinstatement: within weeks of the court's recall he completed the Myeongnyang preparations—'continuing in duty' ran through the entire period of humiliation
+- Letters to Yu Seong-ryong: in private, military facts only, no venting—the court translator received ammunition, not emotion
+
+**现代应用 zh**:
+- 职场诬告：用项目交付记录与往来邮件台账回应，而非办公室对骂——把'仍在产出'做成最强陈述
+- 舆论风波：作品即回应——不与营销号同量级互撕，用下一个可验证的成果收尾
+- 司法与仲裁：证据积累优先于媒体战——正式程序内一份事实清单胜过十场公开发声
+- 学术争议：用论文与数据回应质疑，不做互发声明——同行评议与引用量是复利品
+
+**Modern applications en**:
+- Workplace defamation: answer with deliverable records and email ledgers, not office shouting—make 'still delivering' the strongest statement
+- Public-opinion storms: the work is the response—do not wrestle viral accounts at their volume; close with the next verifiable result
+- Litigation and arbitration: evidence accumulation before media war—one fact sheet inside formal procedure beats ten public statements
+- Academic disputes: answer questions with papers and data, not dueling statements—peer review and citations are the compound instruments
+
+**相关模式**: M-YSS-005, M-YSS-003, M-YSS-010, M-IBS-009, M-AUG-001
+**代表人物**:
+- 岳飞 / Yue Fei — 反面对照：同样被构陷而选择了不同的终局——忍谤法的边界警示：缺了台账与同盟，忍谤可能只是等死
+  - The dark contrast: framed likewise, he chose a different ending—the method's boundary warning: without ledger and allies, endurance may be only waiting for death
+- 柳成龙 / Yu Seong-ryong — 庙堂翻译者的原型：两次以相位之权逐条驳斥构陷——忍谤法在体制内的必要组件
+  - The prototype of the court translator: twice using the premier's power to rebut the frame-ups item by item—the necessary in-system component of the method
+- 司马迁 / Sima Qian — 忍辱的著史同行：受刑不辩而以《史记》终局自辩——'把辩护外包给作品与时间'的文学版
+  - The literary peer of bearing wrong: punished without pleading, he closed his defense with the Shiji—'outsourcing the defense to work and time' in its literary form
+
+---
+
+### M-YSS-008 · 万全备战法 / Total-Readiness Method
+
+**定义 zh**: 执行方法论/不与敌人比勇气而与敌人比准备度——把可准备项与不可准备项分列，穷尽一切可准备项，把胜负押在准备差值上
+
+**Definition en**: execution methodology/compete with the enemy not in courage but in readiness—sort the preparable from the unpreparable, exhaust every preparable item, and stake the verdict on the readiness differential
+
+**典型域 zh**: 1591-1592 年任全罗左水使的头一年：战前李舜臣的日记几乎全是如何备战——清点军械缺额并逐项上报补充、操练阵法（他记录每次演习的阵型与失误）、修造战船与龟船、囤积火药与箭矢、建立沿海烽燧与侦察线、与相邻水营约定互援。战前他手里只有一支二流残缺舰队，但开战时他的每一项可准备指标都接近满格：船齐、械齐、粮齐、操演齐、情报齐。结果是 1592 年 5 月战争爆发后一连串以少胜多——玉浦、唐浦、闲山岛——对手的数量优势在准备差值面前反复失效。日记同样记录了他对不可准备项的处理：风向突变、朝廷掣肘、援军失期——对这些他只有一个原则：预案化（顺风打什么、逆风打什么、援军不到退到哪里），让不可控项也预先获得脚本。二十三战全胜的记录不是勇气的记录，是准备度差值的记录
+
+**Domain en**: The first year as Left Navy Commander of Jeolla, 1591-92: the pre-war diary is almost entirely preparation—inventories of arms shortfalls with itemized requests for replenishment, formation drills (he logs each exercise's formation and errors), ship and turtle-ship construction, powder and arrow stockpiles, coastal beacon and scout lines, and mutual-aid agreements with neighboring stations. He held a second-rate, incomplete fleet before the war, but at the outbreak every preparable metric approached full marks: ships complete, arms complete, grain complete, drills complete, intelligence complete. The result was the May 1592 sequence of victories against the odds—Okpo, Dangpo, Hansan Island—the enemy's numerical advantage failing repeatedly against the readiness differential. The diary equally records his handling of the unpreparable: sudden wind shifts, court interference, allies' missed rendezvous—for these he had one principle: pre-script them (what to fight with a following wind, what against it, where to fall back if the reinforcements fail), so even the uncontrollable items obtained scripts in advance. Twenty-three engagements without defeat is not a record of courage but a record of readiness differential
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣万全备战法的核心命题是：胜负的方差大头不在临场发挥而在准备差值——把一切事务切成'可准备'与'不可准备'两栏，对前者穷尽投入，对后者预先脚本化，使临场只剩执行而无选择。操作纪律有四条。第一，两栏清点：把项目、任务或战役的全部变量列为'可准备/不可准备'——可准备栏包括物资、训练、流程、情报；不可准备栏包括天候、对方意志、第三方行动。第二，穷尽可准备栏：对可准备项按'缺什么、何时补齐、谁负责'逐项闭环——准备度用清单而非感觉度量。第三，脚本化不可准备栏：为每类突发预先写好'若……则……'——不是预测对方会做什么，而是保证无论对方做什么自己都有下一步。第四，以演习校验：准备的真实性只在演习中显现——逐次记录演习失误并回修流程，让失败发生在训练场而不是战场。深意有三重。其一，它重新定义了'勇敢'：勇敢是把恐惧消耗在准备期的能力，不是临场的心跳管理。其二，它给出劣劣势方唯一的公平竞争面：天赋、资源不可比，准备度人人可穷尽。其三，它解释了为什么'全胜记录'可能：当可准备项全部满格、不可准备项全部有脚本，临场就只剩执行——执行是最不容易出错的部分。适用边界：适用于有准备窗口的对抗与任务（考试、比赛、审计、上线、诉讼）；对零窗口的遭遇战，此法退化为预案质量之争。现代对应物：赛前准备与录像分析的体育科学、灾备演练与 runbook、销售复盘与客户资料库、法律诉讼的证据准备与模拟法庭。
+
+**Core definition en**: The core proposition of the total-readiness method: the variance of victory lives less in in-the-moment performance than in the readiness differential—sort every matter into 'preparable' and 'unpreparable' columns, exhaust the former, pre-script the latter, and leave the moment nothing but execution and no choice. Four disciplines. First, the two-column inventory: list every variable of the project, task, or campaign as preparable or unpreparable—supplies, training, process, and intelligence on one side; weather, the opponent's will, and third-party action on the other. Second, exhaust the preparable column: close the loop item by item—what is missing, when it will be filled, who owns it—readiness measured by checklist, not feeling. Third, script the unpreparable: pre-write 'if... then...' for every class of surprise—not predicting what the opponent will do, but guaranteeing that whatever he does, you have a next move. Fourth, validate by drill: readiness shows itself only in rehearsal—log each exercise's errors and repair the process, so failure happens on the training ground, not the battlefield. Three layers of depth. First, it redefines 'courage': the capacity to spend fear during the preparation period, not to manage one's heartbeat in the moment. Second, it offers the disadvantaged side the only level playing field: talent and resources are incomparable; readiness is exhaustible by anyone. Third, it explains how a perfect record is possible: when every preparable item is full and every unpreparable item scripted, only execution remains—and execution is the part least likely to fail. Boundaries: it suits confrontations and tasks with a preparation window (examinations, matches, audits, launches, trials); in zero-window encounters it degrades into a contest of contingency-plan quality. Modern counterparts: pre-match preparation and video analysis in sport science, disaster drills and runbooks, sales call reviews and client archives, and evidence preparation with mock trials in law.
+
+**出处**: 乱中日记 1591-1592 备战条目（军械清点、操演记录、烽燧与互援约定）；《李忠武公全书》战前启疏与阵法操练记录；鸣梁、露梁战前的阵中部署条目
+
+**关键概念**:
+- 胜负方差的大头在准备差值
+- 可准备与不可准备两栏清点
+- 准备度用清单而非感觉度量
+- 脚本化一切突发使临场只剩执行
+- 失败发生在训练场而非战场
+- 勇敢是把恐惧消耗在准备期
+
+**金句 zh**: 勇气赢不了风浪，清单可以——我把每一件能准备的事都准备到满格，剩下的事天说了算，但天也得先看我的脚本。
+**Key quote en**: Courage cannot beat wind and wave; checklists can—every preparable item filled to full marks; the rest is heaven's call, but heaven too must first read my script.
+
+**执行流程 zh**:
+1. 两栏清点：把全部变量列为'可准备/不可准备'——逐项写明现状与目标状态
+2. 穷尽可准备栏：对每项按'缺什么、何时补、谁负责'闭环——每周核对清单直至满格
+3. 脚本化突发：为每类不可准备项写'若……则……'——顺风、逆风、援军失期各有预案
+4. 演习校验：逐次操演并记录失误——把每次失误翻译成流程修正而非个人批评
+5. 战前复检：开战前一日按清单逐项复检——任何未满格项当场降级为'不可准备'并配脚本
+6. 复盘回写：每战之后把临场变量回写进两栏——持续扩充可准备栏的覆盖面
+
+**Process en**:
+1. Two-column inventory: list every variable as preparable or unpreparable—each with its current state and target state
+2. Exhaust the preparable column: close each item's loop of 'what is missing, when filled, who owns it'—check the list weekly until full marks
+3. Script the surprises: write 'if... then...' for every class of unpreparable—following wind, head wind, missed rendezvous each with its plan
+4. Validate by drill: exercise repeatedly and log errors—translate each error into a process fix, not a personal rebuke
+5. Pre-battle recheck: run the checklist the day before engagement—any item below full marks is demoted on the spot to 'unpreparable' and scripted
+6. Write back the after-action: after each engagement, return the in-battle variables to the two columns—continually widening the preparable column's coverage
+
+**代表案例 zh**:
+- 1591-1592 年战前整备：军械缺额逐项上报、阵法逐次操演、烽燧与互援约定成网——一支二流舰队以满格准备度迎战
+- 闲山岛会战的阵型预演：鹤翼阵的转向与合拢时点在开战前已有操演记录——合拢时点这样的唯一性变量被提前固化
+- 鸣梁战前的周级备战：复职不足两月完成残船重整、水道测量与诱敌脚本——残局中的万全备战
+- 露梁联军的协同预案：与陈璘、邓子龙的旗号、水道分工预先约定——不可准备项（盟军行动）被脚本化
+
+**Representative cases en**:
+- The pre-war buildup of 1591-92: arms shortfalls itemized and reported, formation drills logged, beacons and mutual-aid pacts networked—a second-rate fleet meeting the war at full readiness
+- The Hansan formation rehearsal: the crane wing's turn and closing instant drill-logged before battle—the singularity variable of the closing moment fixed in advance
+- The week-scale preparation before Myeongnyang: within two months of reinstatement, ships rebuilt, channels surveyed, and the luring script written—total readiness inside a ruin
+- The allied contingency plan at Noryang: signals and channel divisions pre-agreed with Chen Lin and Deng Zilong—the unpreparable (allied movement) scripted
+
+**现代应用 zh**:
+- 产品上线：发布清单逐项满格（灰度、回滚、监控、客服话术）后才可上线——临场只允许执行不允许发明
+- 考试与竞赛：把可准备项（知识、题型、作息）穷尽到满格，把不可准备项（考题变体、状态波动）写成应答脚本
+- 诉讼准备：证据链与质证预案逐项闭环，模拟法庭校验——失败发生在排练庭而非开庭
+- 创业融资：把尽调可能问到的每一项做成数据室满格项，对'无法回答的问题'预写'若问则答'脚本
+
+**Modern applications en**:
+- Product launch: the release checklist full to the mark (canary, rollback, monitoring, support scripts) before shipping—the moment allows execution only, no invention
+- Examinations and competitions: exhaust the preparable (knowledge, question types, sleep) to full marks; script answers for the unpreparable (novel variants, form dips)
+- Trial preparation: close the evidence chain and cross-examination plans item by item, validated by mock court—failure happens in the rehearsal room, not the courtroom
+- Startup fundraising: every due-diligence question pre-loaded to full marks in the data room; 'if asked, answer thus' scripts for the unanswerable
+
+**相关模式**: M-YSS-001, M-YSS-006, M-YSS-005, M-QJG-001, M-SUN-001
+**代表人物**:
+- 戚继光 / Qi Jiguang — 备战制度化的同行：《纪效新书》把训练、赏罚、器械做成清单体系——万全备战法的东亚制度源头
+  - The peer of institutionalized readiness: the Jixiao Xinshu turning training, rewards, and equipment into checklist systems—the East Asian institutional source of the method
+- 纳尔逊 / Horatio Nelson — 战前备忘录的西方同行：特拉法尔加前的'纳尔逊密语'与作战指示——不可准备项的脚本化在不同海域同构
+  - The Western peer of the pre-battle memo: the Trafalgar memorandum and battle instructions—scripting the unpreparable, isomorphic in a different sea
+- 努尔哈赤 / Nurhaci — 同时代的准备度竞争者：以情报、军械与训练差值崛起于辽东——准备差值作为崛起变量的另一案例
+  - The contemporary competitor in readiness: rising in Liaodong on differentials of intelligence, arms, and training—another case of the readiness differential as the variable of ascent
+
+---
+
+### M-YSS-009 · 潮汐算战法 / Tidal-Arithmetic Method
+
+**定义 zh**: 预测方法论/把环境的时间结构（潮汐、风向、时差）当作核心作战变量精确计算——不预测天气而预演天气的每一种翻转对双方的差异化影响
+
+**Definition en**: forecast methodology/taking the environment's temporal structure (tides, wind, time-lag) as a precisely computed variable of operations—not predicting the weather but rehearsing how each of its flips differentially affects the two sides
+
+**典型域 zh**: 鸣梁之战的核心变量不是船数而是潮汐表：李舜臣知道鸣梁峡的水流每日两次翻转——涨潮时峡内水流向内，日舰顺流入峡快而退难；退潮开始，水流向外，日舰进退失据，船身横转相互冲撞。他据此设计了完整的时序作战脚本：己方锚定于背流位置，先以少数船诱敌于涨潮末入峡；当敌前锋深入、退潮开始的窗口一到，纵火船与齐射同时启动——火借退潮向敌阵漂去，而敌后续船只在倒转的水流里无法接近救援。日方记载'战舰相碰，兵卒坠海'。同一算术贯穿他的全部战役：闲山岛战前他计算风与洋流对火攻漂移方向的加成；露梁战前他预设了当日潮时与追击窗口。关键在于他的方法不是'祈祷好天气'而是'把每一种天气的翻转都变成不对称的剧本'——环境对双方影响不同，这个差异本身是可以计算的武器
+
+**Domain en**: The core variable at Myeongnyang was not the ship count but the tide table: Yi knew the strait's current reverses twice daily—at flood tide the current runs inward, Japanese ships enter fast and leave hard; once the ebb begins, the flow runs outward, leaving the enemy neither advance nor retreat, hulls turning and colliding. On this he built a complete timed script: his own fleet anchored in back-current cover, a few ships luring the enemy in at the tail of the flood; when the van had penetrated and the ebb window opened, fire ships and massed salvoes launched together—the fire drifting on the ebb into the enemy mass while his follow-ons, caught in the reversed current, could not close to rescue. The Japanese record: 'ships collided; soldiers fell into the sea.' The same arithmetic runs through all his battles: before Hansan he computed wind and current's bonus to the drift of his fire attack; before Noryang he preset the day's tide time and pursuit window. The point of the method: not 'pray for good weather' but 'turn every flip of the weather into an asymmetric script'—the environment affects the two sides differently, and that difference itself is a computable weapon
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣潮汐算战法的核心命题是：环境的周期性变化不是干扰项而是不对称武器——同一场风、同一次潮对双方的差异化影响是可以精确计算的，把作战时序对齐到环境翻转的窗口上，等于免费获得一支按时刻表开火的部队。操作纪律有四条。第一，测绘环境的时刻表：对作战域内的周期变量（潮汐、风、汇率窗口、服务器流量峰谷）建立小时级时间表——模糊的'天气不好'毫无用处，可用的是'几点几分水流翻转'。第二，计算差异化影响：对每种环境状态分别计算'对我是增益还是损耗、对敌是增益还是损耗'——只有差异化影响才有武器价值。第三，把作战时序钉在窗口上：进攻、撤退、合围的时间点全部对齐环境翻转时刻——让环境在指定时刻替你执行一次行动。第四，保留对表机制：自然时刻表会有偏差——作战中安排专人对照实测与预案，窗口偏移则按第二脚本执行。深意有三重。其一，它把'等待时机'从被动改为精确预约：不是等机会来，而是知道机会几点到。其二，它给出了劣势方免费的火力倍增器：环境差异不花预算。其三，它对'运气'做了工程化处理：运气只是尚未脚本化的环境变量。适用边界：适用于存在可测周期变量的对抗（海战、金融、流量运营、能源市场）；对纯随机环境，此法退化为风险对冲。现代对应物：金融中的利率窗口与结算时点套利、电商与流量运营的峰谷排期、能源与气象衍生品的时点交易、体育中的赛程与天气策略。
+
+**Core definition en**: The core proposition of the tidal-arithmetic method: the environment's periodic changes are not interference but an asymmetric weapon—the differential effect of the same wind, the same tide, on the two sides is precisely computable; align your operational timetable to the windows of environmental reversal, and you gain free of charge a unit that fires on schedule. Four disciplines. First, chart the environment's timetable: for the periodic variables of your operational domain (tides, wind, interest-rate windows, server-traffic peaks) build an hour-level table—the vague 'bad weather' is useless; what is usable is 'the current reverses at such-and-such hour and minute.' Second, compute the differential effect: for each environmental state, compute separately 'gain or loss to me, gain or loss to him'—only differential effects carry weapon value. Third, pin the operational timetable to the windows: attack, withdrawal, encirclement all aligned to the moments of reversal—let the environment execute one move for you at the appointed instant. Fourth, keep a checking mechanism: nature's timetable drifts—assign observers in battle to compare measured reality against the plan, executing the second script when the window shifts. Three layers of depth. First, it turns 'waiting for the moment' from passivity into precise appointment: not waiting for opportunity but knowing what hour opportunity arrives. Second, it hands the disadvantaged side a free force multiplier: environmental differentials cost no budget. Third, it processes 'luck' into engineering: luck is only an environmental variable not yet scripted. Boundaries: it suits confrontations with measurable periodic variables (naval war, finance, traffic operations, energy markets); in purely random environments it degrades into hedging. Modern counterparts: interest-rate windows and settlement-timing arbitrage in finance, peak-and-valley scheduling in e-commerce and traffic operations, point-in-time trading in energy and weather derivatives, and schedule-and-weather strategy in sport.
+
+**出处**: 乱中日记 1597 年 9 月鸣梁条目（潮时与布阵记录）；《李忠武公全书》鸣梁、露梁战报；闲山岛战报中关于风与火攻漂移的记载；朝鲜水营潮汐与水道测量记录
+
+**关键概念**:
+- 环境周期是不对称武器
+- 可用的时刻表以小时计
+- 只有差异化影响才有武器价值
+- 作战时序钉在环境翻转窗口上
+- 对表机制防时刻表漂移
+- 运气是尚未脚本化的环境变量
+
+**金句 zh**: 潮水一天翻转两次，从不同情任何人——我只做一件事：把开火的时刻钉在它翻转的那一分钟。
+**Key quote en**: The tide reverses twice a day, pitying no one—I do one thing only: pin the moment of firing to the very minute it turns.
+
+**执行流程 zh**:
+1. 建时刻表：对作战域的周期变量建立小时级数据表——用实测记录而非官方预报
+2. 算差异：对每种环境状态分别计算对己对敌的增益/损耗——画出'环境-双方'影响矩阵
+3. 找窗口：标出'对我增益最大且对敌损耗最大'的重叠时刻——这是主攻窗口
+4. 钉时序：把全部作战动作的时点对齐窗口——写明每一动作的触发环境条件
+5. 设对表：作战中安排专人对照实测与预案——窗口偏移立即切换第二脚本
+6. 复盘校表：每战之后把环境实测与脚本对照——持续校准时刻表的精度
+
+**Process en**:
+1. Build the timetable: an hour-level data table of the domain's periodic variables—from measured records, not official forecasts
+2. Compute the differential: for each environmental state, gain/loss to self and to enemy separately—draw the 'environment-to-both-sides' impact matrix
+3. Find the window: mark the overlapping moment of 'maximum gain to me and maximum loss to him'—this is the main-attack window
+4. Pin the timetable: align every operational action's timing to the window—each action's triggering environmental condition written out
+5. Set the checkers: assign observers in battle to compare measurement against plan—switch to the second script the instant the window drifts
+6. Recalibrate after action: after each engagement, compare measured environment against the script—continually sharpening the timetable's precision
+
+**代表案例 zh**:
+- 鸣梁的潮汐脚本：涨潮末诱敌、退潮初齐射——环境翻转的那一分钟成为全军开火的信号
+- 闲山岛的火攻漂移计算：风与洋流的加成被纳入火船施放时点——环境差异化的又一实战兑现
+- 露梁的追击窗口：当日潮时与撤退日军的时序差被预设为合围时点
+- 战前水道测量：对鸣梁峡流速与暗礁的实测记录——时刻表建立在测量而非传说之上
+
+**Representative cases en**:
+- The Myeongnyang tidal script: lure at the flood's end, salvo at the ebb's first minute—the minute of environmental reversal became the fleet's signal to fire
+- The fire-attack drift computation at Hansan: wind and current's bonus built into the fire-ship launch time—the differential environment cashed out again in battle
+- The pursuit window at Noryang: the day's tide time against the retreating enemy's timetable preset as the encirclement instant
+- The pre-battle channel survey: measured records of the gorge's flow speed and reefs—the timetable built on measurement, not legend
+
+**现代应用 zh**:
+- 金融交易：把利率决议、结算时点、流动性峰谷做成小时级时刻表——在环境翻转的窗口执行预设动作
+- 流量与电商运营：把平台流量峰谷、竞品大促节奏做成时刻表——大促的'涨潮末'与'退潮初'各有打法
+- 能源与气象：用气象时刻表排产与交易——风电、光伏的潮汐式波动是可预约的窗口
+- 项目管理：把依赖方的发布窗口、审批周期钉进关键路径——'等时机'变成'预约时机'
+
+**Modern applications en**:
+- Trading: build hour-level tables of rate decisions, settlement points, and liquidity peaks—execute pre-set moves in the windows of environmental reversal
+- Traffic and e-commerce operations: chart platform traffic peaks and rivals' promotion rhythms—each has its 'flood-tail' and 'ebb-first' play
+- Energy and weather: schedule production and trading off the weather timetable—the tidal fluctuation of wind and solar is an appointable window
+- Project management: pin counterparties' release windows and approval cycles into the critical path—'waiting for the moment' becomes 'booking the moment'
+
+**相关模式**: M-YSS-001, M-YSS-006, M-YSS-008, M-SUN-001, M-NAP-003
+**代表人物**:
+- 特米斯托克利 / Themistocles — 环境差异化的古代先行者：萨拉米斯湾的窄水与晨风——让波斯舰队在自己的环境里依次瓦解
+  - The ancient forerunner of environmental differentiation: Salamis's narrows and morning wind—dissolving the Persian fleet piecemeal inside its own environment
+- 孙武 / Sun Tzu — '火攻篇'的时序源头：'发火有时，起火有日'——环境时刻表的思想早于潮汐算战两千年
+  - The temporal source of the 'fire-attack' chapter: 'fire has its season, its day'—the idea of an environmental timetable two millennia ahead
+- 纳尔逊 / Horatio Nelson — 风与水文的同时代算者：阿布基尔湾的锚位与夜战时差——环境算术在地中海的同构运用
+  - A contemporary computer of wind and hydrography: the Aboukir Bay anchorages and night-fight time-lags—the same environmental arithmetic, run in the Mediterranean
+
+---
+
+### M-YSS-010 · 孤忠担纲法 / Sole-Fidelity-Bearing Method
+
+**定义 zh**: 责任方法论/当组织决策层决定放弃而唯一掌握实情者是你时，独自担起否决与执行的双重责任——把'我'作为最后一道防线写进组织决策链
+
+**Definition en**: responsibility methodology/when the organization's decision layer resolves to abandon and you alone hold the true picture, shoulder alone the double duty of veto and execution—writing 'I' into the organizational decision chain as the last line of defense
+
+**典型域 zh**: 1597 年 7-8 月：朝廷议决弃水师、陆军北撤——在国家最高决策层看来这是理性选择：水师已灭，留 twelve 艘船毫无意义。唯一知道'十二艘还能做什么'的人是刚复职的李舜臣。他面对的是一道责任算法：服从（水师解散、制海权永久丧失、战争大概率失败）vs 抗命（被记为逆臣、兵败则死无葬身之地）。他的解法不是抗命而是'担纲'——用一份正式启疏（'今臣战船尚有十二……微臣不死则贼不敢侮我'）走体制内程序提出否决意见，同时以统制使的全部职权开始执行自己的方案：重整残船、封锁水道、训练兵员。疏文被接受，否决通过；数周后鸣梁的胜利为这道否决追加了全部信用。此法的极限条件被他恪守：否决以正式文书提交，执行以合法职权展开，绝不私兵、绝不挟战局——孤忠不是叛将的托词，而是在体制规则内以个人全部信誉为一个决策担保
+
+**Domain en**: July-August 1597: the court resolved to disband the navy and march the army north—to the state's highest decision layer this was rational: the fleet was destroyed, twelve ships meant nothing. The only man who knew what twelve ships could still do was the newly reinstated Yi. He faced a responsibility algorithm: obey (the navy dissolved, command of the sea permanently lost, the war most probably lost) versus defy (recorded as a rebel, and if the gamble fails, death without a grave). His solution was neither defiance nor obedience but 'bearing'—a formal memorial ('I still have twelve warships... while your servant lives the enemy dare not despise us') lodging the veto through institutional procedure, while beginning to execute his own plan with the full legal authority of his office: rebuilding the surviving hulls, sealing the channels, training crews. The memorial was accepted, the veto passed; weeks later the Myeongnyang victory appended the full weight of credit to it. He kept the method's boundary conditions: the veto submitted as formal document, the execution unfolded within legal authority—no private army, no hostage-taking of the war—sole fidelity is not a rebel's excuse but guaranteeing one decision with one's entire personal reputation, inside the system's rules
+
+**层级/优先级**: 核心 (1)
+
+**核心定义 zh**: 李舜臣孤忠担纲法的核心命题是：组织的决策链里必须存在一个'以个人信誉为整体决策担保'的位置——当决策层基于错误信息做出放弃性决策，而你是唯一掌握相反实情的人时，恰当地服从就是共同毁灭；此法要求的不是违抗而是担纲：以正式程序提交否决，以合法职权执行替代方案，以个人全部信用为结果担保。操作纪律有四条。第一，确认信息独占的真实性：担纲的前提是你的判断确实优于决策层的信息基础——若只是偏好不同，此法即为僭越。第二，程序内否决：否决必须以正式文书、走正式渠道——私下的抗拒只是情绪，文书化的否决才是责任；同时为否决附上可核查的理由、方案与期限。第三，职权内执行：替代方案必须在你的合法职权内展开——不动用体制外手段，不拉私人山头，让执行的合法性成为否决的信用。第四，以结果兑付：担纲者以自己的下一年（或下一次大考）兑现担保——若失败，个人信用清零并接受全部问责；这正是此法约束滥用者的机制。深意有三重。其一，它给科层制补上缺失的一环：程序保证的是'流程正确'，担纲者保证的是'结果存活'。其二，它定义了忠诚的严格形态：忠诚不是服从决策层当下的判断，而是在其判断错误时仍有能力且有胆量挽救其目标。其三，它给出个人信用的最高用法：一次性押上全部信誉，换取一次组织级的纠错。适用边界：适用于决策层信息劣势明确、且你握有合法执行职权的场景；对无职权、无信息优势的单纯不满，此法即为闹事。现代对应物：工程师对危险上线的'担纲叫停'、法务或财务负责人的'担纲否决'、船长与机长的最终决断权、合伙人对错误扩张的一票担保。
+
+**Core definition en**: The core proposition of the sole-fidelity-bearing method: the organizational decision chain must contain a position where one guarantees the whole decision with one's personal reputation—when the decision layer, on wrong information, resolves to abandon and you alone hold the true picture, proper obedience is mutual destruction; the method demands not defiance but bearing: lodge the veto through formal procedure, execute the alternative within legal authority, and guarantee the outcome with your entire personal credit. Four disciplines. First, verify the truth of your informational monopoly: bearing presumes your judgment truly outruns the decision layer's information base—where the difference is mere preference, the method is usurpation. Second, veto within procedure: the veto must be a formal document through formal channels—private resistance is emotion; a documented veto is responsibility; attach auditable reasons, a plan, and a deadline. Third, execute within authority: unfold the alternative inside your legal powers—no extra-institutional means, no private fiefdoms; the legitimacy of the execution becomes the credit of the veto. Fourth, pay out with results: the bearer redeems the guarantee with his next year (or next great test)—if it fails, personal credit is zeroed and full accountability accepted; this is the mechanism that disciplines abuse. Three layers of depth. First, it supplies the missing link in bureaucracy: procedure guarantees 'process correctness'; the bearer guarantees 'outcome survival.' Second, it defines loyalty's strict form: loyalty is not obeying the decision layer's present judgment, but retaining the capacity and the nerve to rescue its objective when that judgment errs. Third, it gives personal credit its highest use: stake the whole reputation once, to purchase one organization-level correction. Boundaries: it suits settings where the decision layer's informational disadvantage is clear and you hold legal executive authority; mere discontent without office or informational edge is just a tantrum. Modern counterparts: the engineer's 'bearing veto' against a dangerous launch, the general counsel's or CFO's documented stop, the captain's and the pilot's final authority, and the partner's one-vote guarantee against an erroneous expansion.
+
+**出处**: '今臣战船尚有十二'疏（1597，《李忠武公全书》启疏）；乱中日记 1597 年 7-9 月复职与鸣梁备战条目；宣祖实录关于弃水师之议与统制使启疏的记载；柳成龙《惩毖录》相关记载
+
+**关键概念**:
+- 以个人信誉为整体决策担保
+- 信息独占是担纲的前提
+- 文书化否决而非情绪化抗拒
+- 合法职权内的执行即否决的信用
+- 以结果兑付并接受全部问责
+- 忠诚是在目标将被放弃时仍能挽救它
+
+**金句 zh**: 疏可以逐字批驳，账要用人命来兑——我把名字签在这道否决下面：十二艘在，我在；我亡，则国知我未曾误国。
+**Key quote en**: The memorial may be refuted word by word, but the account must be paid in lives—I sign my name beneath this veto: while the twelve ships stand, I stand; if I fall, let the state learn I never misled it.
+
+**执行流程 zh**:
+1. 验信息：确认你的信息基础确实优于决策层——列出决策层未掌握的关键事实清单
+2. 写否决：以正式文书提交否决意见——附可核查的理由、替代方案与时限
+3. 亮职权：声明你将在现行职权内执行替代方案——执行的合法性就是否决的信用
+4. 不越界：不动用体制外手段、不结私党、不挟战局——越界一步即丧失全部正当性
+5. 全力兑现：以全部资源把替代方案执行到最好——担保的成色由执行质量决定
+6. 接受清算：结果兑现则收回信用，结果失败则个人信用清零并接受问责——预先把这条写进自己的心理契约
+
+**Process en**:
+1. Verify the information: confirm your informational base truly outruns the decision layer's—list the key facts the layer does not hold
+2. Write the veto: lodge it as a formal document—auditable reasons, an alternative plan, and a deadline attached
+3. Show the authority: declare you will execute the alternative within your existing powers—the legitimacy of the execution is the credit of the veto
+4. Stay inside the line: no extra-institutional means, no private factions, no hostage-taking of the operation—one step over the line forfeits all legitimacy
+5. Deliver at full force: execute the alternative with everything you have—the guarantee's quality is set by the execution's quality
+6. Accept the settlement: if the result lands, the credit returns; if it fails, personal credit zeroes and accountability is accepted—write this clause into your own psychological contract beforehand
+
+**代表案例 zh**:
+- 1597 年'十二艘'名疏：以一份文书否决国家级弃海决策——否决、方案、时限齐备的担纲范本
+- 复职数周内的执行：重整残船、封锁水道、训练兵员——全部在统制使合法职权内展开
+- 鸣梁全胜的信用兑付：结果为否决追加了全部担保价值——名疏由'逆议'变为'先见'
+- 露梁前的三道统制履职：从未以兵权要挟朝廷一次——担纲者终身未越界一步
+
+**Representative cases en**:
+- The 'twelve ships' memorial of 1597: one document vetoing a state-level abandonment of the sea—veto, plan, and deadline complete, the model of bearing
+- Execution within weeks of reinstatement: hulls rebuilt, channels sealed, crews trained—all within the commander's legal authority
+- The credit payout at Myeongnyang: the victory appended the guarantee's full value—'treasonous counsel' turned 'foresight'
+- Command of the Three Provinces before Noryang: never once holding military power hostage to the court—the bearer crossed no line in his whole life
+
+**现代应用 zh**:
+- 工程安全：资深工程师对危险上线行使'担纲叫停'——书面否决+替代方案+以自己下个季度的交付为担保
+- 法务与财务：负责人对违规交易的文书化否决——职权内否决、职权内替代方案、以个人执业信誉为担保
+- 船长与机长：最终决断权的制度设计——给'信息独占者'合法的最后一票
+- 合伙治理：对错误扩张的'一票担保'——担保人以下一轮融资成败兑付，预先写进协议
+
+**Modern applications en**:
+- Engineering safety: the senior engineer's bearing-veto against a dangerous launch—a written stop, an alternative plan, the guarantee of next quarter's delivery
+- Legal and finance: the officer's documented veto of a non-compliant trade—veto within authority, alternative within authority, personal professional license as the guarantee
+- Captains and pilots: institutional design of final authority—giving the informational monopolist a lawful last vote
+- Partnership governance: the one-vote guarantee against erroneous expansion—the guarantor pays out with the next funding round, written into the agreement in advance
+
+**相关模式**: M-YSS-003, M-YSS-002, M-YSS-007, M-YSS-005, M-AUG-001
+**代表人物**:
+- 柳成龙 / Yu Seong-ryong — 担纲者的体制内对偶：以相位之权承接并传递李舜臣的否决——孤忠要成为决策，需要一个传递者
+  - The in-system counterpart of the bearer: receiving and carrying the veto with the premier's power—sole fidelity becomes a decision only through a carrier
+- 诸葛亮 / Zhuge Liang — 以个人信用担保组织存续的同型：白帝托孤与《出师表》——'鞠躬尽瘁'的信用结构与'微臣不死则贼不敢侮我'同构
+  - The same structure of guaranteeing an organization's survival on personal credit: the entrustment at Baidi and the Chu Shi Biao—'exhausting oneself to the end' isomorphic with 'while your servant lives, the enemy dare not despise us'
+- 岳飞 / Yue Fei — 担纲的反面终局：同样以个人信誉为北伐担保，但否决未走通程序——边界条件的千古警示
+  - The bearing method's dark ending: likewise guaranteeing the northern expedition on personal credit, but the veto never passed through procedure—the eternal warning of the boundary conditions
+

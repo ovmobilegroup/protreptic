@@ -1,0 +1,830 @@
+# 培根 Bacon (H-BAK-001)
+
+## 概览 / Overview
+
+- 年代 Era: 1561-1626 : 生于伦敦官宦之家，父为伊丽莎白掌玺大臣—1573 入剑桥三一学院，对经院哲学失望—1576 随英使赴巴黎任职—1579 父猝逝，遗产无着，转学格雷律师学院执业—1584 当选下院议员—1589 任星室法庭书记候补—1593 下院反对政府的三倍补助金案，仕途受挫，投靠艾塞克斯伯爵—1594 艾塞克斯赠其特威克纳姆庄园—1600 艾塞克斯任爱尔兰总督兵败，1601 以叛国罪受审，培根参与王座公诉，艾塞克斯被处死（一生最大道德污点）—1603 詹姆士一世即位受封爵士—1605 出版《学术的进展》—1607 任副检察长—1613 任总检察长—1617 任掌玺大臣（袭父职）—1618 升大法官，封维鲁兰男爵—1620 出版《新工具》（《大复兴》第二部），计划中的六部曲仅完成两部多—1621 因受贿弹劾，判罚锾、囚伦敦塔数日、逐出宫廷与议会（'我是英格兰这五十年来最公正的法官，但这是自帕拉第奥以来最不公正的判决'），此后专事著述—1622 出版《亨利七世史》—1623 出版《学术的推进》拉丁文增订版—1626 雪天乘车赴海格特，试验雪与盐能否防腐鸡肉，受寒病殁于阿伦德尔府
+- 学派 School: 经验主义哲学奠基人 / 英国文艺复兴晚期的宫廷政治家与法律家 / 科学方法论的立法者（《新工具》《学术的进展》《新大西岛》）/ 科学革命的预言家与规划师
+
+
+### 历史意义 / Significance
+
+培根（1561-1626），英格兰大法官与经验主义哲学的奠基人，人类历史上极少数'亲手规划了其后三百年知识生产方式'的人。他没有做出一项重大科学发现——却被公认为科学革命的方法论总设计师。《新工具》宣布：亚里士多德的三段论只能'从概念到概念'地空转，不能产生新知识；要获得新知识，必须'从物到心'——用观察与实验把自然押上审判席，'不以捏造的意见为依据，而以自然的凭据为依据'。他发明的归纳法不是简单枚举，而是一套精密程序：正表（本质在场表）、负表（本质缺席表）、程度表（比较表），在排除中上升，小步爬向公理，禁止一切'从特殊一步跳到最普遍命题'的捷径。他在《学术的进展》中提出'知识就是力量'——知识的价值不在于沉思的完美而在于操作的能力，'人只有服从自然才能命令自然'。他在《新大西岛》中设计了'所罗门宫'——世界上第一个有组织的大科学研究机构蓝图，六年后成为皇家学会的现实原型。他死得与其哲学一致：雪中试冻鸡肉，受寒而亡——用生命完成了最后一个实验。康德说他'把方法论从技艺提升为科学之母'；他的一生证明：一个没有实验室的人，可以建造整个实验室时代。
+
+Bacon (1561-1626), Lord Chancellor of England and founder of empiricism, is one of the very few men in history who personally designed how knowledge would be produced for the next three centuries. He made no major scientific discovery of his own—yet stands as the master planner of the Scientific Revolution. The Novum Organum declares that Aristotle's syllogism merely spins from concept to concept and generates nothing new; new knowledge must go from things to mind—placing nature on the witness stand and resting 'not on the ingenuity of conjectures but on the evidence of things.' His induction was no mere enumeration but a precise procedure: the table of presence, the table of absence, the table of degrees—ascending by exclusions, crawling step by small step toward axioms, forbidding every shortcut that leaps from particulars to the most general propositions in one jump. In the Advancement of Learning he coined 'knowledge is power'—knowledge is to be judged not by the perfection of contemplation but by its capacity for operation, 'nature to be commanded must be obeyed.' In the New Atlantis he drew up Salomon's House, the blueprint of the world's first organized big-science institution—made real six years later in the Royal Society. He died in a manner consistent with his philosophy: testing whether snow would keep a chicken fresh, he caught the chill that killed him—completing with his own body the last experiment. Kant said he raised method from an art into a science; his whole life proves that a man without a laboratory can build the age of laboratories.
+
+
+### 独特思维 / Unique Thinking
+
+他的方法是把'如何获得可靠知识'从个人天才问题转译为程序与制度问题：他不信任任何单独的大脑（包括自己的），只信任可重复、可核查、可分工的程序。他的深层洞见是三重的。其一，错误是系统性的：人心不是白板而是一部'预支结论的机器'，四偶像（部落、洞穴、市场、剧场）是他的'认知缺陷分类学'——先建审计系统清除错误，再谈产出真理。其二，排除先于证明：从有限观察不能证明普遍命题，但可以系统地排除错误假说——真理是'幸存者'，不是'被证明者'。其三，知识是工程：他反复用'猎人的围场''磨坊的水道'等工程隐喻谈认知，因为工程把'聪明'降解为'可施工的步骤'——任何聪明步骤都可以外包给普通人、分工与时间。代价与极限：他低估了假说与数学在科学中的位置（不理解开普勒、一度怀疑哥白尼），他规划的'归纳流水线'在真实科学史中从未严格运转——但法拉第、达尔文、直至现代的对照实验与循证医学，处处是他的方法精神的后代。他把'客观性'从美德变成了程序。
+
+His method translated 'how reliable knowledge is obtained' from a problem of individual genius into a problem of procedure and institution: he trusted no single brain, his own included—only procedures that were repeatable, checkable, and divisible among workers. His deepest insight was threefold. First, error is systematic: the mind is not a blank slate but a machine that issues conclusions in advance, and the four Idols (tribe, cave, marketplace, theater) are his taxonomy of cognitive defect—an audit system to be built before any production of truth. Second, exclusion precedes proof: from finite observations no universal proposition can be proven, but false hypotheses can be systematically eliminated—truth is the survivor, not the proven. Third, knowledge is engineering: he persistently describes cognition with engineering metaphors—the hunter's toil, the millrace—because engineering degrades brilliance into constructible steps, and constructible steps can be outsourced to ordinary people, to the division of labor, to time. The cost and the limit: he undervalued hypothesis and mathematics (never grasping Kepler, doubting Copernicus), and his 'induction assembly line' never ran strictly in the actual history of science—yet Faraday, Darwin, down to the controlled trial and evidence-based medicine, are everywhere his spiritual descendants. He turned 'objectivity' from a virtue into a procedure.
+
+
+---
+
+## M-BAK-001 归纳阶梯法 (Induction Ladder)
+
+- 领域 Domain: 《新工具》卷一先扫清旧逻辑，卷二给出正面程序：'必须为心灵开辟一条与以往完全不同的道路'——不飞越中间环节，沿阶梯逐级而上
+
+- Domain: Book I of the Novum Organum clears the ground of old logic; Book II gives the positive procedure: 'a way must be opened for the mind entirely different from what was known before'—no flying over intermediates, but climbing the ladder rung by rung
+
+
+### 定义 / Definition
+
+培根对旧归纳（简单枚举）的批判是毁灭性的：'由枚举进行的归纳是幼稚的，它只根据少数没有反例的事实就下结论，其结论随时可能被一个反例推翻。'他的替代方案是一套强制性的 climbing 协议：先把与现象相关的一切事实编目（自然史），再按形式整理成表，从表出发先得出'低级公理'（关于该现象的最局部规律），再用新的实验检验低级公理，逐级修正上爬，绝不允许'从特殊一步跳到最普遍的公理'。深意在于：他把'证明'重新定义为'排除'——有限观察永远不能证明普遍命题，但可以系统地排除错误假说；真理不是被正面证明的，而是作为假说战争的幸存者浮现的。他要求中间公理'与经验的距离不要太大'，因为每一步离事实太远，归纳就会退化成另一种独断。代价：纯排除法把科学变得极其缓慢，而且不能告诉你该提哪些假说（现代科学证明，假设生成需要想象力与数学，培根低估了这两者）。现代对应物：对照实验与排除诊断法、循证医学的证据分级、机器学习中的特征消融与假设检验、软件调试中的二分排查——一切'用系统性排除逼近真相'的方法都是他的直接后代。
+
+Bacon's critique of old induction (mere enumeration) was devastating: 'induction by simple enumeration is childish; it concludes from a few facts without counterinstances, and its conclusion stands ready to be overthrown by a single one.' His replacement was a compulsory climbing protocol: first catalogue all facts relevant to the phenomenon (natural history), then arrange them into tables, derive from the tables only 'axioms of the lowest degree'—the most local regularities about the phenomenon—test those axioms with new experiments, and climb rung by rung, never leaping 'from particulars to the most general axiom in one step.' The deeper point: he redefined 'proof' as 'exclusion'—finite observation can never prove a universal proposition, but it can systematically eliminate false hypotheses; truth emerges not as the proven but as the survivor of a war of hypotheses. He demanded that intermediate axioms 'not be far from experience,' because every rung set too far from the facts degenerates induction into another dogma. The cost: pure exclusion makes science extremely slow, and it cannot tell you which hypotheses to propose (modern science shows that hypothesis generation requires imagination and mathematics—the two things Bacon undervalued). Modern analogues: controlled trials and differential diagnosis, evidence grading in evidence-based medicine, ablation studies and hypothesis testing in machine learning, bisection debugging in software—every method that approaches truth by systematic exclusion is his direct descendant.
+
+
+### 出处 / Source
+
+《新工具》卷一.69（对简单枚举归纳的批判）；卷一.104-105（'两条道路'与禁止跨越）；卷二.10-20（三表与排除程序）；《大复兴》计划书
+
+
+### 金句 / Key Quote
+
+> 我们的道路不是从感觉直接飞到公理，而是沿着缓坡逐级而上——每一步都由新的实验担保。
+> Our road is not to fly from the senses to axioms at once, but to climb by gradual and unbroken steps—each secured by a new experiment.
+
+
+### 概念 / Key Concepts
+
+简单枚举幼稚论、低级公理优先、禁止跨越阶梯、排除即证明、幸存者真理观、中间公理贴近经验
+
+
+### 流程 / Process
+
+1. 穷举事实：把与现象有关的一切实例（含反例与程度差异）编目成册，不做取舍判断 / Exhaust the facts: catalogue every instance relevant to the phenomenon (including negatives and degrees) without editorial selection
+
+2. 整理成表：按'在场''缺席''程度'三表排列事实，让结构自己显形 / Arrange the tables: order the facts by presence, absence, and degree, letting structure surface of itself
+
+3. 排除竞争：从表出发提出候选规律，用反例逐一排除，只留幸存者 / Exclude rivals: propose candidate rules from the tables and eliminate them one by one with counterinstances, keeping only survivors
+
+4. 低级公理：把幸存者凝成最贴近事实的局部规律，禁止直接跃升到普遍理论 / Lowest axioms: condense the survivors into local rules closest to the facts, never leaping straight to universal theory
+
+5. 检验上爬：设计新实验攻击低级公理，修正后进入下一级，直到最高的公理 / Test and climb: design new experiments to attack the low axiom, correct, and advance a rung—until the highest axiom is reached
+
+
+### 代表案例 / Cases
+
+- 《新工具》卷二以'热'为例做全程序示范：28 个在场实例、41 个缺席实例、程度表，再排除'热是元素''热是运动的对立面'等候选解释，留下'热是物体内部的扩张运动' / Book II of the Novum Organum runs the full procedure on 'heat': 28 instances of presence, 41 of absence, a table of degrees—then excludes candidates such as 'heat is an element' or 'heat is opposed to motion,' leaving 'heat is an expansive motion within bodies'
+
+- 培根在《学术的进展》中把'发现新光比论证已知光更光荣'定为学术价值排序，为牛顿时代的'实验—归纳'传统立法 / In the Advancement of Learning Bacon fixed the ranking that 'the discovery of new light is more glorious than the disputation of known light,' legislating for the experimental-inductive tradition of the Newtonian age
+
+- 法拉第的电磁实验笔记：数十年如一日地记录正例、反例与程度变化，自称'我唯一的老师是实验的排除法'——培根式爬梯的十九世纪样本 / Faraday's electromagnetic notebooks: decades of recording positives, negatives, and degrees, with his self-description 'my one teacher is experimental exclusion'—a nineteenth-century specimen of Bacon's ladder
+
+- 现代对照试验（RCT）：随机分组制造缺席表，盲法压制偶像，试验结果是'假说战争'的幸存者——培根程序在医学中的制度化 / The modern randomized controlled trial: randomization manufactures the table of absence, blinding suppresses the idols, and the trial result is the survivor of the war of hypotheses—Bacon's procedure institutionalized in medicine
+
+
+### 现代应用 / Modern Applications
+
+- 调试排查：用二分法与单元测试系统排除错误假设，先定位最小可复现问题再谈根因——培根排除程序的工程师版 / Debugging: bisect and unit-test to exclude false hypotheses, locate the minimal reproducible case before debating root cause—Bacon's exclusion for engineers
+
+- 商业验证：精益创业的'假设—最小实验—证伪—修正'循环，就是归纳阶梯在产品开发中的小步版 / Business validation: the lean startup loop of hypothesis, minimal experiment, falsification, correction is the ladder's small-step version in product development
+
+- 医学诊断：鉴别诊断刻意列'缺席表'（哪些症状不该出现而出现了），排除罕见病后把最贴近证据的解释作为工作假设 / Medical diagnosis: the differential deliberately builds a table of absence (which symptoms should not appear but do), excludes rare disease, and holds the evidence-closest explanation as working hypothesis
+
+- 研究设计：文献综述先编目正反证据再提假说，避免'从单篇论文一步跳到宏大理论'的学术偶像 / Research design: the literature review catalogues pro and con evidence before hypothesis formation, avoiding the academic idol of leaping from one paper to a grand theory
+
+
+### 相关模式 / Related Modes
+
+M-BAK-002、M-BAK-003、M-BAK-004、M-BAK-009
+
+
+### 代表人物 / Representative Figures
+
+- 洛克 (John Locke): 认识论继承者：把培根的'从物到心'发展为白板说与经验主义体系 / epistemological heir: developed Bacon's 'from things to mind' into the tabula rasa and the empiricist system
+
+- 法拉第 (Michael Faraday): 方法论直系后裔：以实验排除法爬出电磁学的每一级阶梯 / direct methodological descendant: climbed every rung of electromagnetism by experimental exclusion
+
+- 笛卡尔 (René Descartes): 方法论对峙者：同样要清理旧知识，但选择'从心到物'的演绎路线 / methodological antagonist: equally intent on clearing old knowledge, but by the deductive route from mind to things
+
+
+---
+
+## M-BAK-002 四偶像审计法 (Four-Idols Audit)
+
+- 领域 Domain: 《新工具》卷一.39 起：部落、洞穴、市场、剧场四偶像——他不逐条驳斥当时的错误学说，而是先给'人心为什么会错'建一套分类账
+
+- Domain: Novum Organum I.39ff: the idols of tribe, cave, marketplace, theater—he does not refute erroneous doctrines one by one; he first keeps a classified ledger of why the human mind errs at all
+
+
+### 定义 / Definition
+
+培根最原创的动作是把'纠错'从批驳观点升级为审计认知器官：四偶像是四类系统性错误源——部落偶像是人类物种共有的认知扭曲（把意愿投射为秩序、被极端案例牵着走、用比例和目的误读自然）；洞穴偶像是个人教养与经历形成的偏见（'每个人都有自己的洞穴，折射并变色自然之光'）；市场偶像是语言挟持思想（词语把不存在的实体当真物固定下来，' definitions 不清则辩论无穷'）；剧场偶像是整套思想体系（'一切流行的哲学体系不过是舞台剧，用不真实的布景表现它们自己造出来的世界'）。深意在于：他不问'哪个理论是对的'，先问'任何理论进人脑之前要过哪些安检'——把认识论从真理战争前置为缺陷管理。这是人类第一次把'客观性'从个人美德（公正、谦逊）转写为可枚举、可检查的错误清单。代价：偶像学说预设了'洗清后的人心可以如实接收自然'，现代认知科学证明偏见不可能被一次性清空，只能被制度对冲（同行评审、预注册、盲法——这些恰好都是他的制度后代）。现代对应物：认知偏差清单（卡尼曼）、行为经济学、算法公平审计、以及一切'先列错误类型再设计流程'的质量工程。
+
+Bacon's most original move upgraded 'correcting errors' from refuting doctrines to auditing the cognitive organ itself: the four idols are four classes of systematic error source. The idols of the tribe are distortions shared by the species—projecting our wishes onto nature as order, swayed by extreme cases, misreading nature through proportion and purpose. The idols of the cave are the biases of individual nurture and experience: 'everyone has his own cave, which refracts and discolors the light of nature.' The idols of the marketplace hold thought hostage to language—words fixing nonexistent entities as real things, 'definitions confounded, dispute endless.' The idols of the theater are entire systems of thought: 'all the received philosophies are but stage plays, representing worlds of their own creation after an unreal and scenic fashion.' The deeper point: he does not ask which theory is right; he first asks what security screening any theory must pass before entering the mind—moving epistemology upstream from the war of truths to the management of defects. It was the first time 'objectivity' was transcribed from a personal virtue (fairness, humility) into an enumerable, checkable list of errors. The cost: the idols presuppose that a cleansed mind can receive nature as it is, whereas modern cognitive science shows bias can never be emptied once for all—only offset institutionally (peer review, preregistration, blinding—all of them, precisely, his institutional descendants). Modern analogues: the catalogue of cognitive biases (Kahneman), behavioral economics, algorithmic fairness audits, and every quality engineering that lists defect classes before designing the process.
+
+
+### 出处 / Source
+
+《新工具》卷一.39-44（四偶像总纲）；卷一.45-52（逐偶像展开与补救）；《学术的进展》对'戏剧性哲学'的先行批判
+
+
+### 金句 / Key Quote
+
+> 人心的假象不除，无论用什么方法，真理都进不来——先审计，再生产。
+> Until the phantoms of the mind are expelled, truth cannot enter by any method—audit first, produce after.
+
+
+### 概念 / Key Concepts
+
+部落偶像（物种级偏差）、洞穴偶像（个人偏差）、市场偶像（语言偏差）、剧场偶像（体系偏差）、客观性即程序、前置审计优于事后批驳
+
+
+### 流程 / Process
+
+1. 承认缺陷：接受'人心天然预支结论'这一前提，放弃'我是理性人'的自我辩护 / Admit the defect: accept that the mind issues conclusions in advance and drop the self-defense of 'I am a rational agent'
+
+2. 分类编目：把可疑信念按来源归类——物种级/个人级/语言级/体系级 / Classify: sort suspect beliefs by origin—species-level, individual-level, linguistic, systemic
+
+3. 逐项对冲：为每类偶像配置具体检查动作（反例搜寻、换位复核、语义澄清、体系外检验） / Offset each: assign each idol class a concrete check (counterinstance search, independent re-review, semantic clarification, out-of-system test)
+
+4. 制度对冲：把个人检查转为多人、多视角、可重复的机构程序（同行互查、盲评） / Institutionalize: convert personal checks into multi-person, multi-perspective, repeatable procedure (mutual review, blind evaluation)
+
+5. 常设哨所：审计不是一次性清洗而是常设机制，每个新结论都要重新过闸 / Standing post: the audit is not a one-time purge but a standing mechanism—every new conclusion passes the gate again
+
+
+### 代表案例 / Cases
+
+- 《新工具》卷一.46 用'天平'比喻部落偶像：只有把感官证据放上受控的天平（实验），而不是直接相信肉眼，才能对冲物种级偏差 / Novum Organum I.46's balance metaphor for the idols of the tribe: only controlled experiment—placing sensory evidence on a regulated balance, not trusting the naked eye—offsets species-level distortion
+
+- 培根在《学术的进展》里把经院哲学整体判定为'剧场偶像'：亚里士多德体系'更像舞台剧，在虚构布景里自洽'，他由此拒绝逐句辩论经院命题 / In the Advancement of Learning he condemned scholasticism wholesale as an idol of the theater: the Aristotelian system 'is more like a stage play, consistent within a fictional set'; hence he refused to debate scholastic propositions line by line
+
+- 对市场偶像的示范：他专门清算'湿的''重的''发生的'等日常词如何把未经检验的模糊概念固化成'实体'，这成为后世概念史与语义哲学的起点 / A demonstration against the idols of the marketplace: he systematically cleared words like 'wet,' 'heavy,' 'generated,' which fossilize unexamined vague notions into 'entities'—the starting point of later conceptual history and semantic philosophy
+
+- 詹姆士王朝的法庭：培根主持星室法庭与大法官判决时，把'当庭交叉质证'设计为对抗洞穴偶像（法官个人偏见）的程序装置 / The Jacobean courtroom: presiding in Star Chamber and Chancery, Bacon designed cross-examination as a procedural device against the idol of the cave—the judge's personal bias
+
+
+### 现代应用 / Modern Applications
+
+- 决策安全清单：重大投资决策前过'部落/洞穴/市场/剧场'四问——共识从哪来（从众）？我的经历偏见？术语是否偷换概念？是否在某个流行框架内自嗨？ / Decision safety checklists: before a major investment, run the four questions—tribe (where does consensus come from?), cave (my own experience bias?), marketplace (are terms smuggling concepts?), theater (am I performing inside a fashionable framework?)
+
+- 算法审计：机器学习系统的偏差按'训练数据（部落）、设计者（洞穴）、标签语言（市场）、行业范式（剧场）'分类排查 / Algorithm audit: classify machine-learning bias by training data (tribe), designers (cave), label language (marketplace), and industry paradigm (theater)
+
+- 组织决策：用红队、盲评、匿名评审把个人洞穴对冲为机构程序——培根'制度对冲偶像'的当代版 / Organizational decisions: red teams, blind review, and anonymous peer review offset personal caves with institutional procedure—Bacon's offset in modern form
+
+- 个人认知：写认知日记，每周把自己的三个结论按四偶像归因，训练'先查自己的镜片再看世界'的习惯 / Personal cognition: keep a cognitive diary, attribute three of your weekly conclusions to idol classes, and train the habit of inspecting your own lenses before the world
+
+
+### 相关模式 / Related Modes
+
+M-BAK-001、M-BAK-007、M-BAK-008、M-BAK-010
+
+
+### 代表人物 / Representative Figures
+
+- 卡尼曼 (Daniel Kahneman): 实验继任者：以行为科学实验重列'部落偶像'的完整清单 / experimental successor: re-listed the idols of the tribe in full by behavioral-science experiment
+
+- 波普尔 (Karl Popper): 批判继承者：把'先审偶像'推向'以证伪为科学划界'的更激进版本 / critical heir: pushed 'audit the idols first' into the more radical demarcation of science by falsifiability
+
+- 叔本华 (Arthur Schopenhauer): 欧洲同道：以'外部审判庭'反制理智之惑，与四偶像异曲同工 / European parallel: his tribunal of the intellect against the will echoes the idols' audit of the mind
+
+
+---
+
+## M-BAK-003 三表排除法 (Three-Tables Exclusion)
+
+- 领域 Domain: 《新工具》卷二.11-13：为研究'热'，培根编了 28 条在场表（太阳、火焰、摩擦……）、41 条缺席表（月光、冷水……）、13 条程度表（同一物体随摩擦增大而更热……）
+
+- Domain: Novum Organum II.11-13: for the study of 'heat' Bacon tabulated 28 instances of presence (sun, flame, friction...), 41 of absence (moonlight, cold water...), and 13 of degree (the same body hotter as friction increases...)
+
+
+### 定义 / Definition
+
+三表法是培根把归纳从'凭印象比较'改造成'凭表格排除'的具体装置：在场表列出'热出现的一切场合'，缺席表列出'与在场场合极其相似但热不出现的场合'（这一张表是关键——它强迫比较者寻找'最小差异对'），程度表列出'同一物体热随条件变化的梯度'。三表合围之下，任何候选解释都必须同时通过三重约束：能解释一切在场、能兼容一切缺席、能预测一切程度变化——任何一个约束失败即出局。深意在于：他把'检验'从一次性比较改造成结构化的正交审计，把'反例'的地位从烦恼提升为最有信息量的资产（缺席表里的'看似该有而没有'正是排除的杠杆）；他还引入'判例实验'（crucial instance）——设计一个让两大假说给出相反预测的实验，一锤定音。培根自己的热研究结论（热是运动）大体正确，尽管他排除的细节多有失误——方法的价值不在他个人算对，而在程序本身可复制。代价：三表法假设相关实例可以被穷举，真实科学中'缺席'往往只是'尚未观察到'——负表永远不闭合。现代对应物：差异表达基因分析（在场/缺席/梯度）、A/B 测试的正交变量设计、故障树与差分诊断、以及一切'用结构化对照表代替直觉比较'的分析技术。
+
+The three tables are Bacon's device for converting induction from comparison by impression into exclusion by table: the table of presence lists every occasion on which heat appears; the table of absence lists occasions closely resembling the positive ones where heat does not appear (this table is the crux—it forces the comparison of minimal difference-pairs); the table of degrees lists the gradient by which heat in the same body varies with conditions. Under the triple encirclement, any candidate explanation must pass all three constraints simultaneously: explain every presence, tolerate every absence, predict every degree—a failure at any constraint eliminates it. The deeper point: he turned testing from a one-off comparison into a structured orthogonal audit, and raised the status of the counterinstance from nuisance to the most informative asset ('seemingly due but absent' in the table of absence is precisely the lever of exclusion); he also introduced the crucial instance—an experiment designed so that two rival hypotheses predict opposite outcomes, settling the matter at a stroke. Bacon's own conclusion on heat (heat is motion) was broadly right, though many of his exclusions erred—the value of the method lies not in his personal sums but in the reproducibility of the procedure. The cost: the tables presume relevant instances can be exhausted, whereas in real science an 'absence' is often only 'not yet observed'—the negative table never closes. Modern analogues: differential gene-expression analysis (presence/absence/gradient), orthogonal variable design in A/B testing, fault trees and differential diagnosis—every analytic technique that replaces intuitive comparison with structured contrast tables.
+
+
+### 出处 / Source
+
+《新工具》卷二.11（在场表与热例）；卷二.12（缺席表）；卷二.13（程度表）；卷二.24（判例实验/压倒性实例）
+
+
+### 金句 / Key Quote
+
+> 让缺席与在场同席而坐——'看似该有而没有'的那一行，往往就是排除假说的刀刃。
+> Seat absence beside presence—the row of 'due yet absent' is often the very blade that cuts the hypothesis.
+
+
+### 概念 / Key Concepts
+
+在场表、缺席表（最小差异对）、程度表（梯度约束）、三重约束合围、反例的信息价值、判例实验
+
+
+### 流程 / Process
+
+1. 定现象：把研究对象压缩为单一、可重复出现的现象（如'热'），拒绝宏大命题 / Fix the phenomenon: compress the object of study into a single recurring phenomenon (like 'heat'), refusing grand propositions
+
+2. 列在场表：穷举现象出现的一切场合，并记下每个场合的其他属性 / Table of presence: exhaust every occasion of the phenomenon, noting its other attributes each time
+
+3. 列缺席表：寻找与在场场合最相似但不出现现象的场合，突出最小差异对 / Table of absence: find occasions most similar to the positive ones where it does not occur, foregrounding minimal difference-pairs
+
+4. 列程度表：记录同一载体上现象随条件变化的强度梯度 / Table of degrees: record the intensity gradient of the phenomenon in the same subject as conditions vary
+
+5. 三重排除：用三表合围淘汰全部候选解释，必要时设计判例实验一锤定音 / Triple exclusion: eliminate all candidate explanations under the three tables, and where needed design the crucial instance to settle the remainder
+
+
+### 代表案例 / Cases
+
+- 热研究全示范：太阳（有热无摩擦）排除'摩擦生热说'，摩擦（无光也生热）排除'光生热说'，最终三表交汇于'扩张运动'——历史证明结论方向正确 / The heat study in full: the sun (heat without friction) eliminates the friction theory of heat; friction (heat without light) eliminates the light theory; the three tables converge on 'expansive motion'—history vindicated the direction
+
+- 缺席表的经典用法：月光与阳光同为天光而月不热，这一行数据直接排除'一切天体发光皆产热'的假说 / A classic use of the table of absence: moonlight and sunlight are both celestial light yet the moon is not hot—a single row of data eliminating 'all celestial light produces heat'
+
+- 斯诺的霍乱地图（1854）：把死亡病例（在场表）与用水源相同的幸存街区（缺席表）并排，Broad 街水泵被判例级排除法定罪 / Snow's cholera map (1854): side-by-side tabulation of deaths (presence) with surviving districts sharing the same water source (absence) convicted the Broad Street pump by crucial-instance exclusion
+
+- 半导体故障分析：同一批晶圆（程度表按工艺梯度排列），好品与坏品的'最小差异对'直接指向失效机理 / Semiconductor failure analysis: wafers from the same lot arranged as a gradient table, the minimal difference-pair between good and bad dies pointing straight to the failure mechanism
+
+
+### 现代应用 / Modern Applications
+
+- 用户流失分析：流失用户与留存用户按'在场/缺席/程度'三表对照，最小差异对（都用了 A 功能但只有前者见过弹窗）往往是真相所在 / Churn analysis: contrast churned against retained users in presence/absence/degree tables; the minimal difference-pair (both used feature A, only the former saw the popup) usually hides the truth
+
+- 产品 A/B 测试：刻意设计'缺席组'与'程度梯度组'，让单一变量在三重对照下被隔离 / A/B testing: deliberately design absence arms and gradient arms so a single variable is isolated under triple contrast
+
+- 医学鉴别诊断：症状在场表 + 关键阴性体征缺席表 + 病程程度表，三表合围锁定诊断 / Differential diagnosis: symptom presence table, key negative-sign absence table, course-of-illness degree table—the three encircle the diagnosis
+
+- 数据科学：对指标异动先建维度对照表（该降的没降、不该升的升了），排除归因谬误后再下结论 / Data science: before attributing a metric anomaly, build the dimension contrast table (what should have dropped but didn't, what shouldn't have risen but did) and exclude misattribution first
+
+
+### 相关模式 / Related Modes
+
+M-BAK-001、M-BAK-004、M-BAK-009、M-BAK-010
+
+
+### 代表人物 / Representative Figures
+
+- 约翰·斯图亚特·密尔 (John Stuart Mill): 形式化继承者：求同法、求异法、共变法即三表法的逻辑学定装 / formalizing heir: his methods of agreement, difference, and concomitant variation are the three tables armed into logic
+
+- 约翰·斯诺 (John Snow): 方法论典范：霍乱地图是缺席表在流行病学中最著名的一次胜利 / methodological exemplar: the cholera map is the table of absence's most famous victory in epidemiology
+
+- 伽利略 (Galileo Galilei): 同代平行者：用判例实验（斜面与望远镜）达成同一排除逻辑的另一位设计师 / contemporary parallel: another designer of the same exclusion logic, via crucial instances (incline and telescope)
+
+
+---
+
+## M-BAK-004 服从即命令法 (Obey-to-Command)
+
+- 领域 Domain: 《新工具》卷一.3：'人类的知识与人类的权力合而为一；不知原因即不能产生结果'；卷一.129：' nature 非服从不能命令'
+
+- Domain: Novum Organum I.3: 'human knowledge and human power meet in one; for where the cause is not known the effect cannot be produced'; I.129: 'Nature to be commanded must be obeyed'
+
+
+### 定义 / Definition
+
+'知识就是力量'常被当成培根的傲慢口号，但它的完整表达恰恰是谦逊的：知识与权力'合而为一'，因为操作自然只有一条通路——找到自然的'形式'（规律），然后顺着它行事。' Nature 非服从不能命令'：你不能命令河流改道，但你能找出水往低处流的规律，然后修水渠——这既是服从也是命令，二者是同一动作的两面。深意在于：他重新定义了知识的验收标准。旧学问问'这个理论是否优雅、是否与权威一致'，培根问'这个知识能造出什么'——'果实与发明是真理的担保人与见证者'。他把'知道为什么'与'能做到什么'焊死：不能转化为操作的因果解释只是词语的旋转。这也是对'纯思辨高于实践'的希腊传统的公开叛旗：他笔下的工程师、炼金术士与农夫，在认识论地位上高于注释亚里士多德的博士。代价：'操作主义'在两百年后长出了它的极端形态——把自然当作待征服的资源库，这是培根没有预见也无需负责的后果，但他确实给'支配'颁发了认识论许可证。现代对应物：工程的'按规范施工即是对物理的命令'、循证决策（证据必须落地为操作）、敏捷宣言的'可工作软件高于详尽的文档'。
+
+'Knowledge is power' is often quoted as Bacon's arrogance, but its full statement is precisely humble: knowledge and power 'meet in one,' because there is only one road to operating on nature—finding nature's 'forms' (laws) and working along them. 'Nature to be commanded must be obeyed': you cannot command a river to change course, but you can find the law by which water runs downhill and then cut the channel—this is obedience and command at once, two faces of a single act. The deeper point: he redefined the acceptance criterion of knowledge. Old learning asked whether a theory was elegant and consistent with the ancients; Bacon asked what the knowledge can make—'works and inventions are the sponsors and witnesses of truth.' He welded 'knowing why' to 'being able to do': a causal explanation that cannot be converted into operation is only the spinning of words. It was also an open banner of revolt against the Greek tradition that ranked pure contemplation above practice: in his pages the engineer, the alchemist, and the farmer stand epistemically above the doctor glossing Aristotle. The cost: operationalism grew, two centuries later, into its extreme form—nature as a resource base to be conquered, a consequence Bacon neither foresaw nor need answer for, though he did issue the epistemic license for 'dominion.' Modern analogues: engineering's 'building to spec is commanding physics,' evidence-based decision-making (evidence must land as operations), and the agile manifesto's working software over comprehensive documentation.
+
+
+### 出处 / Source
+
+《新工具》卷一.1-3（知识的果实标准）；卷一.73、129（服从与命令的同一性）；《学术的进展》第二卷对'思辨学术'的批评
+
+
+### 金句 / Key Quote
+
+> 果实与发明，是真理的担保人与见证者——不能造出果实的知识，只是词语的旋转。
+> Works and inventions are the sponsors and witnesses of truth—knowledge that yields no fruit is only the spinning of words.
+
+
+### 概念 / Key Concepts
+
+知识-权力合一、果实标准、服从与命令同一、操作高于思辨、形式的发现、实践者的认识论地位
+
+
+### 流程 / Process
+
+1. 重定目标：把'求真'的目的从'与权威一致'改为'获得可重复的操作能力' / Reset the goal: change the aim of 'truth-seeking' from consistency with authority to a repeatable capacity for operation
+
+2. 找规律通道：研究现象的'形式'——可操作的因果机制，而非形而上的本质玄谈 / Find the lawful channel: study the phenomenon's 'form'—its operable causal mechanism, not metaphysical speculation about essence
+
+3. 顺轨而行：设计不违反规律的操作方案，把'服从'变成工程参数 / Work along the rails: design operations that violate no law, converting obedience into engineering parameters
+
+4. 以果验收：用能否产出'果实'（可复现的效果）作为知识真伪的最终裁决 / Accept by fruit: let whether a reproducible effect can be produced be the final verdict on the knowledge
+
+5. 复利扩张：每个成功的操作揭示新的规律缝隙，成为下一个命令的台阶 / Compound the gains: every successful operation exposes a new crack of law, the stair to the next command
+
+
+### 代表案例 / Cases
+
+- 《新工具》卷一.81-82 列举三大发明（印刷术、火药、磁石）改变世界面貌，断言'这些果实胜过一切思辨的胜利'——为科学的价值排序定锚 / Novum Organum I.81-82 names the three great inventions—printing, gunpowder, the lodestone—that changed the face of the world, asserting these 'fruits' surpass all the victories of speculation: anchoring the ranking of scientific value
+
+- 培根在《学术的进展》中为'机械技艺'正名：手艺人'日日改进作品'，而学院'千年不改一页注释'——他要求学者向工匠学习 / In the Advancement of Learning he rehabilitated the mechanical arts: craftsmen 'improve their works daily' while the colleges 'have not changed a page of commentary in a thousand years'—he demanded scholars learn from artisans
+
+- 所罗门宫里'模仿宇宙中一切非自然造物'的研究员编制：把'操作自然'写进机构章程，成为实验科学的组织原型 / The staff of Salomon's House, charged with 'the feigning of all manner of unnatural creatures' in imitation of the universe: writing the operation of nature into an institutional charter, the prototype of experimental science
+
+- 他晚年主张的'光与果并重'：拒绝把纯理论（光）与实用（果）对立，要求每一步理论都为下一步操作预留接口 / His late doctrine of 'light and fruit together': refusing to oppose pure theory (light) to utility (fruit), requiring every theoretical step to reserve an interface for the next operation
+
+
+### 现代应用 / Modern Applications
+
+- 工程实践：任何架构论证必须落到'能跑通的部署路径'——服从（物理/经济规律）与命令（系统设计）是同一份设计文档 / Engineering practice: any architectural argument must land as a deployable path—obedience (to physics and economics) and command (system design) are one document
+
+- 商业战略：把'理解市场'定义为'能可重复地获客与留客'，不能转化为操作的洞察降级为假设 / Business strategy: define 'understanding the market' as a repeatable capacity to acquire and retain customers; insight that cannot become operation is downgraded to hypothesis
+
+- 技能学习：'先服从规则练到能做，再谈原理'——操作优先的认识论在技艺训练中的应用 / Skill learning: 'obey the rules until you can do it, then discuss principles'—operationalism applied to craft training
+
+- AI 开发：以基准与部署效果（果实）而非论文优雅度（思辨）作为模型验收标准 / AI development: accept models by benchmarks and deployment results (fruit), not by the elegance of papers (speculation)
+
+
+### 相关模式 / Related Modes
+
+M-BAK-001、M-BAK-005、M-BAK-007、M-BAK-010
+
+
+### 代表人物 / Representative Figures
+
+- 马克思 (Karl Marx): 实践哲学继承者：'哲学家们只是解释世界，问题在于改变世界'是服从即命令的社会化版本 / heir of practical philosophy: 'philosophers have only interpreted the world; the point is to change it' as the socialized obey-to-command
+
+- 普里斯特利 (Joseph Priestley): 果实标准践行者：以仪器与气体操作把化学从思辨变成可复现的生产 / practitioner of the fruit criterion: turned chemistry from speculation into reproducible production by apparatus and gas operations
+
+- 海德格尔 (Martin Heidegger): 批判性对话者：把'操作优先'的世界图景判定为现代性的存在论病灶 / critical interlocutor: judged the operation-first picture of the world the ontological lesion of modernity
+
+
+---
+
+## M-BAK-005 所罗门宫制度法 (Salomon's-House Institution)
+
+- 领域 Domain: 《新大西岛》虚构了本萨冷岛的所罗门宫：'本王国的眼睛'，十二类专职研究员分工（下海采物、登天测象、制造仪器、编目数据……），每三十二年一次全岛数据总汇
+
+- Domain: The New Atlantis imagines Salomon's House on the island of Bensalem: 'the very eye of the kingdom,' with twelve classes of research staff (diving for specimens, observing the heavens, making instruments, cataloguing data...), and a grand totalization of the island's data every thirty-two years
+
+
+### 定义 / Definition
+
+培根最深远的设计不是一种方法而是一个机构：所罗门宫是有明确使命（'认识造物之因与万物之密，以扩大人类帝国的疆界'）、专职编制（十二类岗位覆盖采集、测量、实验、编目、分析）、资源保障（实验材料与器械有专门预算）、信息汇流（全岛采集的数据定期汇总入宫）、保密与延迟公开（'我们有些发现要保密，有些要推迟公布'）的科研组织。深意在于：他把'科学'从英雄叙事（一个天才的顿悟）转写为流水线叙事（一群普通人的分工协作）——知识生产被第一次当作可设计、可管理、可投资的工程系统。他清楚地知道：个人再聪明，寿命、偏见与带宽都是瓶颈；只有制度能把认知任务摊开到许多双手与许多年上。1660 年皇家学会成立，其章程、实验员编制与《哲学汇刊》机制处处是所罗门宫的影子；三百五十年后，CERN、曼哈顿计划与DeepMind 都是同一蓝图的不同预算版本。代价：机构化的科学也生产官僚化——KPI、经费竞争与'发表或灭亡'的扭曲激励，恰是'所罗门宫'的阴影面，培根未及看见。现代对应物：R&D 部门、国家实验室、开源社区的数据汇流机制、以及一切'把个人天才降解为可复制流程'的组织设计。
+
+Bacon's most far-reaching design was not a method but an institution: Salomon's House is a research organization with an explicit mission ('the knowledge of causes, and secret motions of things; and the enlarging of the bounds of human empire'), a dedicated staff (twelve classes of posts covering collection, measurement, experiment, cataloguing, analysis), resourcing (a budget for materials and instruments), information confluence (the island's gathered data regularly brought into the House), and controlled disclosure ('some discoveries we keep secret; some we publish delayed'). The deeper point: he transcribed science from the hero narrative (one genius's flash) into the assembly-line narrative (the collaborative division of many ordinary hands)—knowledge production treated for the first time as a designable, manageable, investable engineering system. He clearly saw that however brilliant, an individual is bottlenecked by lifespan, bias, and bandwidth; only an institution can spread a cognitive task across many hands and many years. The Royal Society of 1660—its charter, its experimental staff, its Philosophical Transactions—bears Salomon's House at every joint; three and a half centuries on, CERN, the Manhattan Project, and DeepMind are the same blueprint at different budgets. The cost: institutionalized science also produces bureaucratization—KPIs, grant races, and the perverse incentives of publish-or-perish are the shadow face of Salomon's House, which Bacon did not live to see. Modern analogues: R&D departments, national laboratories, the data-confluence mechanisms of open-source communities, and every organizational design that degrades genius into a replicable process.
+
+
+### 出处 / Source
+
+《新大西岛》（所罗门宫全章：使命宣言、十二类研究员、保密规则、'我们 repetition 造物的褶皱'段落）；《新工具》卷二.52（协作研究的方法论根据）
+
+
+### 金句 / Key Quote
+
+> 所罗门宫的目的是：认识万物的原因与隐秘运动，扩大人类帝国的疆界，实现一切可能之事。
+> The end of our foundation is the knowledge of causes and secret motions of things, and the enlarging of the bounds of human empire, to the effecting of all things possible.
+
+
+### 概念 / Key Concepts
+
+科学使命宣言、研究员分工编制、数据汇流机制、仪器与预算保障、延迟公开策略、天才的机构化降解
+
+
+### 流程 / Process
+
+1. 立使命：用一句话写下机构的知识目标与价值排序，超越任何个人任期 / Charter the mission: write the institution's knowledge goal and value ranking in one sentence, outlasting any individual tenure
+
+2. 拆岗位：把认知流程拆解为采集、测量、实验、编目、分析等专职角色 / Split the posts: decompose the cognitive pipeline into specialist roles—collection, measurement, experiment, cataloguing, analysis
+
+3. 给资源：为材料、仪器与信息通道设立独立预算，不依赖个人家产 / Fund it: give materials, instruments, and channels an independent budget, not dependent on private fortunes
+
+4. 建汇流：设计定期数据汇总与评审机制，让分散观察合成整体图景 / Build the confluence: design regular data aggregation and review so scattered observations compose a whole picture
+
+5. 控发布：区分立即公开、延迟公开与保密的发现，管理知识的时间结构 / Govern disclosure: distinguish immediate, delayed, and secret findings—managing the time structure of knowledge
+
+
+### 代表案例 / Cases
+
+- 所罗门宫十二类岗位清单：'下海者'采集深海标本、'天象员'记录彗星、'机械师'制造更精密的仪器、'光之商人'（Merchants of Light）赴他国采集知识——一份完整的组织架构图 / The twelve classes of Salomon's House: 'divers' gathering deep-sea specimens, observers charting comets, mechanics building finer instruments, 'Merchants of Light' collecting knowledge abroad—a complete organizational chart
+
+- 1660 年皇家学会：学会章程直接呼应所罗门宫文本，首任会长威尔金斯主持的'实验委员会'对应研究员编制，胡克任'实验管理员'即机构化的'仪器制造者' / The Royal Society of 1660: its charter echoes the Salomon's House text directly; Wilkins's experimental committee mirrors the staff structure, and Hooke as Curator of Experiments is the institutionalized 'maker of instruments'
+
+- 《哲学汇刊》（1665 创刊）：所罗门宫'数据汇流'思想的期刊化，确立了同行可核查的公开发表制度 / The Philosophical Transactions (founded 1665): the journalization of Salomon's House's data confluence, establishing the public, peer-checkable publication regime
+
+- 现代大科学装置：CERN 的数千人分工、曼哈顿计划的保密结构、人类基因组计划的数据总汇——全是同一机构蓝图 / Modern big science: CERN's division of labor by thousands, the Manhattan Project's secrecy structure, the Human Genome Project's data aggregation—all one institutional blueprint
+
+
+### 现代应用 / Modern Applications
+
+- 企业研究院：给基础研究团队写一条超越产品周期的使命宣言，把'探索'与'交付'拆成不同编制 / Corporate research labs: write a mission statement outliving product cycles for the basic-research team, splitting 'exploration' and 'delivery' into different staff lines
+
+- 开源社区：维护者（实验员）、文档组（编目员）、CI 系统（自动汇流）的角色设计就是小型所罗门宫 / Open-source communities: maintainers (experimenters), docs teams (cataloguers), CI (automatic confluence)—a small Salomon's House in role design
+
+- 数据中台：把组织内散落的观察定期汇流成统一数据层，供所有'研究员'取用 / Data platforms: confluence scattered organizational observation into a unified data layer on regular cadence, for every 'researcher' to draw on
+
+- 团队知识管理：区分'立即公开、延迟公开、保密'三层知识发布策略，避免核心方法的过早泄漏或永久埋没 / Team knowledge management: three tiers of disclosure—immediate, delayed, secret—so core methods neither leak too early nor stay buried forever
+
+
+### 相关模式 / Related Modes
+
+M-BAK-004、M-BAK-001、M-BAK-006、M-BAK-010
+
+
+### 代表人物 / Representative Figures
+
+- 胡克 (Robert Hooke): 机构化后继者：皇家学会首任实验管理员，把所罗门宫章程变成日常运转 / institutional successor: first Curator of Experiments of the Royal Society, running Salomon's House charter as daily routine
+
+- 牛顿 (Isaac Newton): 机构中的天才：证明所罗门宫不是天才的替代品而是天才的放大器 / the genius inside the institution: proof that Salomon's House amplifies genius rather than replacing it
+
+- 布什 (Vannevar Bush): 现代设计师：《科学：无尽的前沿》重画了二十世纪的所罗门宫 / modern designer: Science, the Endless Frontier redrew Salomon's House for the twentieth century
+
+
+---
+
+## M-BAK-006 自然史编目法 (Natural-History Cataloguing)
+
+- 领域 Domain: 培根晚年把全部精力投入《针叶林——千年自然史》计划：以统一的问询格式（一百三十个'关于万物的 inquiry'）采集一切可核查的观察记录
+
+- Domain: In his last years Bacon threw all his energy into the plan of a Sylva Sylvarum—natural history at scale: harvesting every checkable observation under a uniform questionnaire (the hundred and thirty 'inquiries' about things)
+
+
+### 定义 / Definition
+
+培根有一个惊人的排序判断：在'天才的理论'与'可靠的事实积累'之间，后者优先——'自然史是哲学的基础与底层建筑'。他把采集事实设计成一项独立的方法论工程：观察必须标准化（统一的问询格式，问'某物在什么条件下出现什么性质'）、必须登记来源与置信度（区分传闻、目击与亲手实验）、必须面向'尚未有人问过的问题'留白（他特别要求记录'没用的事实'——今天的异常值可能是明天的关键数据）。深意在于：他发明了'数据库'的认识论——事实的价值不取决于当下是否有用，而取决于它未来能否被某个尚不存在的假说调用；单条观察是廉价的，标准化格式的海量观察是不可替代的。他晚年的《林中林》（Sylva Sylvarum，死后由秘书整理出版，一千条实验与观察记录）正是这项工程的样本。代价：无理论的编目会在海量数据前失速（他自己也承认'数据压倒归纳'的风险）；现代科学用统计学与机器学习补上了他缺的这一环——但数据先行、理论后置的次序，正是从培根开始的。现代对应物：基因组数据库、观测天文学的巡天计划、数据中台、机器学习的数据集工程。
+
+Bacon made a startling ranking judgment: between 'genius theory' and 'reliable accumulation of facts,' the latter has priority—'natural history is the foundation and lower story of philosophy.' He designed fact-gathering as a methodological project in its own right: observations must be standardized (a uniform questionnaire asking under what conditions a thing shows what property), must register provenance and confidence (separating hearsay, report, and experiment done with one's own hands), and must leave room for 'questions no one has yet asked' (he especially required recording 'useless facts'—today's anomaly may be tomorrow's crucial datum). The deeper point: he invented the epistemology of the database—the value of a fact depends not on its present use but on its future callability by a hypothesis that does not yet exist; a single observation is cheap, while a mass of standardized observations is irreplaceable. His posthumous Sylva Sylvarum—a thousand entries of experiments and observations compiled by his secretary—is the sample of this project. The cost: cataloguing without theory stalls before the flood of data (he admitted the risk of 'data overwhelming induction'); modern science supplies the missing link with statistics and machine learning—but the order of data first, theory after, begins with Bacon. Modern analogues: genome databases, survey astronomy, the enterprise data platform, dataset engineering for machine learning.
+
+
+### 出处 / Source
+
+《新工具》卷二.52（'自然史先于哲学'的排序论证）；《大复兴》总规划中'自然史'部分的 hundred-and-thirty inquiries；《林中林》(Sylva Sylvarum) 全书体例
+
+
+### 金句 / Key Quote
+
+> 不要急着造理论的大厦——先把事实的砖石按统一规格烧好，堆放在任何未来的建筑师都取得到的地方。
+> Do not hurry to raise the edifice of theory—first fire the bricks of fact to a uniform standard, and stack them where any future architect can fetch them.
+
+
+### 概念 / Key Concepts
+
+事实先于理论、统一问询格式、来源与置信度分级、无用数据的期权价值、数据库认识论、自然史作为底层建筑
+
+
+### 流程 / Process
+
+1. 定格式：设计统一的观察问询模板，让不同观察者产出可比对的数据 / Fix the format: design a uniform observation questionnaire so different observers yield comparable data
+
+2. 分级登记：为每条记录标注来源（传闻/目击/亲手实验）与可信度 / Register with provenance: mark each record's source (hearsay, report, experiment of one's own hands) and confidence
+
+3. 兼收异类：刻意保留反常、失败与'当前无用'的记录，拒绝按现时价值筛选 / Include the odd: deliberately keep anomalies, failures, and 'currently useless' records, refusing to filter by present value
+
+4. 公开存储：把数据放在公共可查的载体上，与具体研究者的人身分离 / Store publicly: place data on a common, consultable carrier, detached from any single researcher
+
+5. 周期汇流：定期把新增数据汇总编目，供尚未出现的假说调用 / Confluence on cadence: aggregate and catalogue new data periodically, callable by hypotheses yet unborn
+
+
+### 代表案例 / Cases
+
+- 《林中林》一千条实验记录：从'霜对苹果的冻伤模式'到'声音在铁管中的传播'，统一以编号体例收录——死后成为皇家学会最早的'数据库'之一 / The thousand entries of the Sylva Sylvarum: from 'the pattern of frost-bite on apples' to 'the passage of sound through an iron pipe,' gathered under a uniform numbered scheme—one of the Royal Society's earliest databases after his death
+
+- 一百三十问（Historia Sylvaestris 的 inquiry 框架）：把'自然史'从猎奇杂录改造成带字段结构的调查问卷，观察者照字段填报 / The hundred and thirty inquiries: natural history refashioned from a miscellany of curiosities into a field-structured questionnaire, observers reporting against fields
+
+- 培根要求记录'不成功的实验'：'失败的实验与成功的实验同样有价值'——这一条成为后世实验室记录本与预注册制度的祖训 / Bacon's rule to record 'experiments unsuccessful': 'the failed experiment is worth as much as the successful'—the ancestor of the modern lab notebook and preregistration
+
+- 皇家学会的《哲学汇刊》与'观察登记簿'制度：编目法在机构层面的落地，格里马尔迪的衍射观察因入库而在三十年后惠及牛顿光学 / The Royal Society's Philosophical Transactions and observation registers: the catalogue at institutional scale—Grimaldi's diffraction observations, once deposited, fed Newton's optics thirty years later
+
+
+### 现代应用 / Modern Applications
+
+- 数据工程：先定 schema 再收数据，字段设计决定未来假说的调用上限——培根'统一问询格式'的直接工程化 / Data engineering: fix the schema before collecting; field design caps the future callability of hypotheses—Bacon's uniform questionnaire, engineered
+
+- 科研数据管理：实验记录强制登记'失败尝试'与原始参数， FAIR 原则（可发现、可访问、可互操作、可复用）是编目法的当代标准 / Research data management: mandate recording failed attempts and raw parameters; FAIR principles (findable, accessible, interoperable, reusable) are the catalogue's modern standard
+
+- 公司数据中台：把业务事件按统一埋点格式入库，'当前没用的埋点'按期权逻辑保留 / The enterprise data platform: ingest business events under uniform event schemas; keep 'useless' instrumentation on option logic
+
+- 个人学习：建立带标签的笔记库（来源+置信度+日期），让'今天无用的信息'未来可检索调用 / Personal learning: keep a tagged note base (source + confidence + date) so today's useless information remains retrievable tomorrow
+
+
+### 相关模式 / Related Modes
+
+M-BAK-003、M-BAK-005、M-BAK-001、M-BAK-010
+
+
+### 代表人物 / Representative Figures
+
+- 罗伯特·胡克 (Robert Hooke): 编目执行者：《显微图谱》以统一格式登记显微观察，是自然史编目的标本级实现 / executing cataloguer: Micrographia registers microscopic observations in uniform format, a specimen-grade realization
+
+- 林奈 (Carl Linnaeus): 编目完成者：以双名法把全部生物事实装进可检索系统——培根'底层建筑'的竣工者 / completing cataloguer: binomial nomenclature fits all biological facts into a retrievable system—finishing Bacon's 'lower story'
+
+- 第谷·布拉赫 (Tycho Brahe): 数据先行的同代人：二十年恒星观测数据使开普勒定律成为可能，'事实先行'的天文版本 / contemporary data-first practitioner: two decades of stellar data made Kepler's laws possible—astronomy's version of facts first
+
+
+---
+
+## M-BAK-007 判例实验法 (Crucial-Instance Experiment)
+
+- 领域 Domain: 培根的实验观超出'观察自然'：他把实验分为'收获实验'（产生结果）与'光实验'（揭示真相），而最高级的设计是判例实验（instantia crucis）——十字路口的实验
+
+- Domain: Bacon's view of experiment went beyond 'observing nature': he distinguished experiments of fruit (producing results) from experiments of light (revealing truth), and the highest design is the crucial instance (instantia crucis)—the experiment at the crossroads
+
+
+### 定义 / Definition
+
+判例实验是培根实验哲学中最锋利的发明：当两个假说都能解释已有观察时，不要继续积累同质的证据，而是设计一个'十字路口'——在这个特殊配置下，两个假说给出相反的预测，实验结果无论落在哪边，都宣判一个假说出局。深意在于：他把实验从'收集支持的证据'（证实倾向）扭转为'制造对立假说的对决'（裁决设计）——实验的价值不在于它支持了什么，而在于它排除了什么；一个绝妙的判例实验胜过一千次重复观察。这与他的排除逻辑一脉相承：真理是幸存者，而判例实验是淘汰赛的关键回合。他还区分了实验的三种境界：最低是'顺从自然的观察'，其次是'主动干涉的实验'（培根称'对自然的拷问'），最高是'设计出来的裁决'。代价：判例实验预设了假说空间已被正确枚举——若两强之外还有暗假说，'裁决'只是排除；且单一实验在噪声面前可能误判（现代统计学要求多重检验）。现代对应物：判决性实验（迈克耳孙-莫雷实验）、A/B 测试的关键分叉设计、双盲对照的安慰剂排除、以及一切'用一个巧妙设计终结争论'的实验艺术。
+
+The crucial instance is the sharpest invention of Bacon's experimental philosophy: when two hypotheses both explain the existing observations, do not keep accumulating homogeneous evidence—engineer a crossroads where the two yield opposite predictions, and whichever way the result falls, one hypothesis is out. The deeper point: he twisted experiment from 'gathering supporting evidence' (the confirmation tendency) into 'staging a duel between rivals' (adjudication by design)—an experiment's value lies not in what it supports but in what it excludes; one brilliant crucial instance outweighs a thousand repetitions. It continues his exclusion logic: truth is the survivor, and the crucial instance is the decisive round of the tournament. He also graded experiments into three ranks: the lowest is passive observation of nature; next, active interference (his 'vexing of nature'); highest, the designed adjudication. The cost: the crucial instance presumes the hypothesis space has been correctly enumerated—if a dark hypothesis lurks beyond the two favorites, the 'verdict' is merely one more exclusion; and a single experiment can misjudge before noise (modern statistics demands replication). Modern analogues: the decisive experiment (Michelson-Morley), the pivotal fork in A/B testing, placebo exclusion in double-blind trials—every experimental art that ends an argument with one clever design.
+
+
+### 出处 / Source
+
+《新工具》卷二.36（判例实验 instantia crucis 专节，'十字路口'意象原文）；卷二.20（光实验与果实的区分）；卷一.98-100（实验优于论证）
+
+
+### 金句 / Key Quote
+
+> 当两个假说都自夸能解释一切时，别再堆证据——造一个它们必得分道扬镳的路口。
+> When two hypotheses each claim to explain everything, do not pile up evidence—build the crossroads where they must part.
+
+
+### 概念 / Key Concepts
+
+十字路口设计、光实验与果实实验、对自然的拷问、对决式检验、排除优先于证实、假说空间枚举前提
+
+
+### 流程 / Process
+
+1. 列出竞争者：明确当前对同一现象的两种（或多种）候选解释及其各自的解释范围 / List the rivals: name the current candidate explanations of the same phenomenon and the reach of each
+
+2. 找预测分歧：推演两个假说在何种未测试条件下会给出相反预测 / Find the divergent prediction: derive the untested condition under which the two hypotheses predict opposites
+
+3. 造十字路口：设计最小成本、可重复的实验配置，使分歧条件成为现实 / Build the crossroads: design the least-cost, repeatable experimental configuration that makes the divergent condition real
+
+4. 执行裁决：严格按预设判据读结果，不因意外结果改判据 / Adjudicate: read the result strictly against the pre-set criterion, never rewritten after a surprise
+
+5. 扩大战果：把胜出假说再当靶子，寻找下一轮判例实验 / Press the advantage: make the winning hypothesis the next target and seek the next crucial instance
+
+
+### 代表案例 / Cases
+
+- 培根对热的研究中设计'判例'：若热是扩张运动，则铁砧受锤击应发热而水受同样冲击不应显著发热——他用这类对比配置逐步排除'热是元素'说 / In his heat study Bacon staged crucial instances: if heat is expansive motion, an anvil under hammering should heat while water under the same blows should not—he used such contrasts to eliminate 'heat is an element' step by step
+
+- 《新工具》卷二.36 给出的经典判例：磁石吸铁与木石受引力，设计'重量与磁力分离'的配置以判定磁是否即重力——判例设计的原初教学案例 / The classic instance of Novum Organum II.36: configuring the separation of weight and magnetic attraction to decide whether magnetism is gravity—the original teaching case of crucial design
+
+- 迈克耳孙-莫雷实验（1887）：以太漂移假说与相对性原理在干涉仪中给出相反预测，一次实验改写了物理学——判例实验的史上最强样本 / The Michelson-Morley experiment (1887): ether drift and the relativity principle gave opposite predictions in an interferometer; one experiment rewrote physics—the strongest specimen in history
+
+- 巴斯德的鹅颈瓶（1861）：'自发发生说'与'生源说'在同一装置下给出相反预测，一支曲颈瓶终结千年争论 / Pasteur's swan-neck flask (1861): spontaneous generation and biogenesis predicted opposites in a single apparatus; one bent flask ended a millennia-old debate
+
+
+### 现代应用 / Modern Applications
+
+- 产品实验：当两个增长假说都'解释'了留存数据，设计一个只改变单一变量的分叉测试让二者分道扬镳 / Product experiments: when two growth hypotheses both 'explain' the retention data, fork a single-variable test that forces them apart
+
+- 医学验证：安慰剂对照就是把'药有效'与'自然痊愈'两个假说逼入十字路口的判例设计 / Medical validation: the placebo control is a crucial design pressing 'the drug works' and 'natural recovery' into the same crossroads
+
+- 技术选型：给两个候选方案设置一个'必须表现不同'的极限压测场景，用数据裁决而非会议辩论 / Technology choice: set the two candidates one stress scenario where they must perform differently, and let data adjudicate instead of meetings
+
+- 个人决策：为'该不该换工作'设计一个低成本试点（周末项目/兼职），让两个自我预测在同一路口对冲 / Personal decisions: test 'should I change jobs' with a cheap pilot (weekend project, side gig) where two self-predictions collide at one intersection
+
+
+### 相关模式 / Related Modes
+
+M-BAK-003、M-BAK-001、M-BAK-004、M-BAK-002
+
+
+### 代表人物 / Representative Figures
+
+- 迈克耳孙 (Albert Michelson): 判例大师：以一台干涉仪完成史上最著名的十字路口实验 / master of the crucial instance: one interferometer staged history's most famous crossroads experiment
+
+- 巴斯德 (Louis Pasteur): 装置设计者：用几何形状（曲颈瓶）本身完成假说对决 / apparatus designer: staged the duel of hypotheses in the geometry of a bent flask itself
+
+- 杜恒 (Pierre Duhem): 批判性澄清者：指出判例实验只能否证假说束而非单假说——为培根的裁决观加上统计约束 / critical clarifier: a crucial instance refutes a bundle, not a lone hypothesis—adding the statistical constraint to Bacon's adjudication
+
+
+---
+
+## M-BAK-008 语言语义审计法 (Semantic Audit of Language)
+
+- 领域 Domain: 《新工具》卷一.43、59-60：'市场的偶像是语言强加于理解力的'——'发生的''湿的''元素的'这些词把模糊经验封装成看似精确的概念
+
+- Domain: Novum Organum I.43, 59-60: 'the idols of the marketplace are imposed on the understanding by words'—words like 'generated,' 'wet,' 'elemental' package vague experience into seemingly precise concepts
+
+
+### 定义 / Definition
+
+培根发现语言是认知的最隐蔽污染源：词语不是思想的仆人，而是思想的预设——一个'湿'字，在普通人那里指触感，在化学家那里指含水量，在形而上学家那里指水之'本性'；千百年的争论，一半是在同一个词下各说各话。他给出两条审计路径：对'不存在的事物之名'（如'命运''第一推动者'），要么清除，要么重新定义；对'存在但定义混乱之名'（如'湿''重''生'），必须先做'语义拆解'——把模糊的日常词替换为可操作的规定。深意在于：他把'澄清语言'从修辞修养升级为认识论前置工序——任何理论建构之前先过词关，因为'定义混乱则辩论无穷，而人对词的权力大于对事物的权力，词便反客为主'。这是语言分析哲学与概念史研究在十七世纪的先声。代价：语义拆解若过度，会陷入'定义马拉松'而搁置实质探究；且语言审计本身依赖更好的语言——审计者需要警惕自己术语中的新偶像。现代对应物：需求工程中的术语表（ubiquitous language）、法律定义条款、学术写作的'操作化定义'要求、以及一切'先对齐词汇再开工'的协作纪律。
+
+Bacon found in language the most insidious contaminant of cognition: words are not the servants of thought but its premises—a word like 'wet' means a feel to the layman, water content to the chemist, the 'nature' of water to the metaphysician; half of the quarrels of centuries are people talking past each other under one word. He prescribed two audit routes: for names of things that do not exist ('fate,' 'prime mover'), abolish or redefine; for names of things that exist but are defined confusedly ('wet,' 'heavy,' 'generated'), perform semantic decomposition first—replacing vague everyday words with operational stipulations. The deeper point: he upgraded 'clarifying language' from rhetorical polish to an upstream epistemic operation—every theory must pass the vocabulary gate before construction, 'for definitions confounded, dispute endless; and men believe their reason rules words, when in fact words turn and rule their reason.' It was the seventeenth-century prefiguring of analytic philosophy and conceptual history. The cost: over-decomposition collapses into a definitional marathon that postpones substantive inquiry; and the audit itself depends on better language—the auditor must beware new idols in his own terminology. Modern analogues: the ubiquitous language of domain-driven design, legal definitions, operational definitions in academic writing, and every collaborative discipline of aligning vocabulary before work begins.
+
+
+### 出处 / Source
+
+《新工具》卷一.43（市场偶像总述）；卷一.59-60（两类问题名词：假实体之名与混乱定义之名）；卷二.27-28（对'发生''元素'等词的逐个拆解示范）
+
+
+### 金句 / Key Quote
+
+> 词语反噬理解——人以为自己在驾驭词，其实词早已替他决定了能想什么。
+> Words turn upon the understanding—men believe they command words, when words have long decided what they are able to think.
+
+
+### 概念 / Key Concepts
+
+假实体名词、混乱定义名词、语义拆解、操作化定义、词对心的反客为主、定义先于辩论
+
+
+### 流程 / Process
+
+1. 冻结词表：列出争论/项目中全部关键词，禁止未审计的词直接参与推理 / Freeze the lexicon: list all key terms of the debate or project; no unaudited word may enter reasoning directly
+
+2. 两类分拣：把名词分为'假实体'（无所指）与'混乱定义'（有所指但边界模糊） / Sort into two classes: pseudo-entities (no referent) and confounded definitions (a referent with blurred bounds)
+
+3. 拆解重定义：对混乱定义做操作化拆解——用可观测、可测量的语言替换模糊词 / Decompose and redefine: operationalize confounded definitions—replace vague words with observable, measurable language
+
+4. 废除假实体：对无所指的词，要么删除要么明确其仅为修辞而非变量 / Abolish pseudo-entities: delete the referentless or demote them explicitly to rhetoric, not variables
+
+5. 锁定语境：把定义写进项目/理论的'宪法'，任何人引入新词须先过审 / Lock the context: write definitions into the project's or theory's 'constitution'; any new word passes review first
+
+
+### 代表案例 / Cases
+
+- 培根对'元素'一词的清算：经院哲学用'元素'争论世界构成，他却要求先回答'元素指什么可观察性质'——词不通则题不立 / Bacon's audit of the word 'element': scholastics debated the world's constitution over 'elements,' but he demanded first, what observable property does 'element' denote—until the word is settled, the question cannot stand
+
+- 《学术的进展》对'权威'一词的拆解：区分'因其职位而被信'与'因其论证而被信'，两种'权威'混用使学术评价失效 / Decomposition of 'authority' in the Advancement of Learning: believed for office versus believed for argument—conflating the two invalidated academic judgment
+
+- 对'湿'的示范拆解（《新工具》卷二.27）：列出一切被称为湿的事物，发现其共同点不过'易流''包裹''渗透'等数义——一个字背后藏着四个概念 / The demonstration on 'wet' (Novum Organum II.27): listing everything called wet reveals no common nature but several—easy flowing, enveloping, penetrating—one word hiding four concepts
+
+- 霍布斯（培根的秘书）在《利维坦》开篇对'无实体实体'的抨击：把市场偶像清算直接发展为语言政治哲学 / Hobbes (Bacon's onetime secretary) opening Leviathan against 'incorporeal substance': the audit of the marketplace idol developed into a philosophy of language and politics
+
+
+### 现代应用 / Modern Applications
+
+- 软件协作：领域驱动设计强制建立'统一语言'——任何新概念先入术语表再入代码，消灭'同一个词三个意思'的接口事故 / Software collaboration: domain-driven design mandates a ubiquitous language—every new concept enters the glossary before the code, killing interface accidents where one word means three things
+
+- 法律与合同：定义条款（'本合同所称 X 是指……'）是语义审计的制度化，防止歧义引发争议 / Law and contracts: definition clauses ('X herein means...') are the semantic audit institutionalized, preventing dispute by ambiguity
+
+- 学术写作：变量必须操作化定义（'焦虑'定义为量表分数而非感受描述），否则同行无法复核 / Academic writing: variables must be operationally defined ('anxiety' as scale score, not felt description), or peers cannot replicate
+
+- 团队沟通：重要会议前 10 分钟对齐关键词定义，成本极低而消灭'全场共识、各自执行'的幻觉 / Team communication: ten minutes aligning key definitions before a major meeting—cheap, and it dissolves the illusion of full-room consensus with divergent execution
+
+
+### 相关模式 / Related Modes
+
+M-BAK-002、M-BAK-006、M-BAK-004、M-BAK-009
+
+
+### 代表人物 / Representative Figures
+
+- 霍布斯 (Thomas Hobbes): 秘书与直系继承者：把词的清算推到'语言即计算'的极端 / secretary and direct heir: pushed the audit of words to the extreme of 'reasoning as computation'
+
+- 维特根斯坦 (Ludwig Wittgenstein): 二十世纪同道：'哲学的混乱源于语言的疾病'是市场偶像的完整展开 / twentieth-century counterpart: philosophy's confusions as diseases of language, the marketplace idol fully unfolded
+
+- 奥卡姆 (William of Ockham): 前驱：以'勿增实体'先行砍削假名词，培根审计的经院内部起源 / precursor: 'no entities without necessity' pruned pseudo-names first—the scholastic root of Bacon's audit
+
+
+---
+
+## M-BAK-009 渐进逼近法 (Gradual Approximation)
+
+- 领域 Domain: 《新工具》卷一.120-121：培根坦言自己的归纳'不应被期望一次完成'——他给出的不是终点而是'阶梯的下一级'，并要求后人'以同样的方式继续'
+
+- Domain: Novum Organum I.120-121: Bacon concedes his induction 'is not to be expected to be perfected at once'—he offers not the terminus but the next rung of the ladder, and commands posterity to 'proceed in the same way'
+
+
+### 定义 / Definition
+
+培根的方法论有一个常被忽略的时间维度：他没有（也拒绝）给出'科学如何一劳永逸地完成'的蓝图，而是设计了一个永不竣工的修正序列——每一代人的归纳产出下一代人的自然史底稿，每一个公理都是'目前最好的近似'而非'最终真理'。他甚至给《大复兴》写了两个平行的版本（拉丁版与英文摘要版），并明言'若我的方法与我的结论冲突，请相信方法'。深意在于：这是对西方'终极体系'冲动的自觉反叛——柏拉图与亚里士多德的传统追求完备的、封闭的真理大厦，培根把知识改写为开源的、版本化的近似工程；'更接近'取代'到达'成为学术成就的单位。这使他的哲学自带迭代协议：任何人都可从公开的事实底稿出发，用同一程序推进或推翻上一版。代价：渐进主义缺少'何时算足够好'的收敛判据（现代科学用统计显著性与可复现率补上了这一环），且易被'永远在路上'的拖延合理化。现代对应物：软件的迭代开发与版本管理、科学哲学的'研究纲领'（拉卡托斯）、模型从线性回归到深度网络的逐代逼近、以及一切'小步提交、持续修正'的工作哲学。
+
+Bacon's methodology has a neglected temporal dimension: he neither gave nor wanted a blueprint for 'science finished once for all,' but designed an unending sequence of corrections—each generation's induction becomes the next generation's draft of natural history, every axiom 'the best approximation so far' rather than 'final truth.' He even issued two parallel versions of the Great Instauration (Latin and English abstract) and declared plainly, 'if my method conflicts with my conclusions, trust the method.' The deeper point: a conscious revolt against the Western impulse toward the ultimate system—the Platonic and Aristotelian tradition sought a complete, closed edifice of truth, while Bacon rewrote knowledge as an open-source, versioned approximation project; 'closer' displaces 'arrived' as the unit of scholarly achievement. His philosophy thus ships with an iteration protocol: anyone may start from the public draft of facts and, by the same procedure, advance or overturn the previous version. The cost: gradualism lacks a criterion of convergence—'when is it good enough?' (modern science supplies statistical significance and reproducibility for this)—and it lends itself to the rationalization of the perpetually unfinished. Modern analogues: iterative development and version control in software, 'research programmes' in philosophy of science (Lakatos), the generational climb from linear regression to deep networks, and every working philosophy of small commits and continuous correction.
+
+
+### 出处 / Source
+
+《新工具》卷一.120-121（方法优先于结论的声明）；《大复兴》前言（'本事业不是终点而是开端'）；卷一.116（对后继者的托管条款）
+
+
+### 金句 / Key Quote
+
+> 如果我的方法与我的结论发生冲突，请相信方法——结论只是本版的草稿。
+> If my method conflicts with my conclusions, trust the method—the conclusions are but the current draft.
+
+
+### 概念 / Key Concepts
+
+版本化真理、方法优先于结论、开源式知识托管、近似序列、更接近而非到达、迭代协议
+
+
+### 流程 / Process
+
+1. 声明版本：把当前结论显式标注为'最好近似 v N'，拒绝终稿口吻 / Version the claim: label current conclusions explicitly 'best approximation v N,' refusing the tone of a final draft
+
+2. 暴露程序：公开产出结论的完整方法，使他人可复核、可重跑、可替换 / Expose the procedure: publish the full method behind each conclusion so others can check, rerun, and replace it
+
+3. 留出接口：设计结论时预留下一代修正的输入点（未决问题、边界条件） / Leave interfaces: design conclusions with input points for the next revision—open questions, boundary conditions
+
+4. 周期重估：按固定节奏用新数据重跑程序，产出下一版而非修补辩护 / Re-estimate on cadence: rerun the procedure against new data at fixed intervals, producing the next version rather than a defense
+
+5. 淘汰机制：约定'当且仅当新近似在同样程序下胜出时才替换'，防退化 / Gate the replacement: a new approximation supersedes only by winning under the same procedure—guarding against regression
+
+
+### 代表案例 / Cases
+
+- 《大复兴》的'未完成'设计：六部曲计划公开、前两部完成即出版，培根在序言中明言'把未完成的部分交给后人用同样的方法继续'——把未竣工本身变成方法的一部分 / The designed incompleteness of the Great Instauration: a six-part plan published openly, the first two parts issued as they stood, Bacon's preface handing 'the unfinished parts to posterity to proceed by the same method'—making incompleteness itself part of the method
+
+- 两个平行版本的《新工具》：拉丁学术版与英文通俗摘要同时发行，服务于不同读者的'当前近似'——版本管理意识的最早文本样本之一 / Two parallel versions of the Novum Organum: the Latin scholarly text and an English popular abstract issued together, 'current approximations' for different readerships—among the earliest textual specimens of version-awareness
+
+- 他在《木林集》中大量收录互相矛盾的观察记录而不强行调和：让矛盾留在数据层，由后续假说处理——'冲突的数据好过被清洗的一致' / The Sylva's收录 of mutually contradictory observations without forced harmonization: conflict left at the data layer for later hypotheses—'conflicting data over laundered consistency'
+
+- 培根对哥白尼体系的保留态度：不接受也不贬斥，标注为'尚需更多自然史证据的近似'——拒绝站队终极体系，只承认近似等级 / His reserve toward the Copernican system: neither accepted nor dismissed, marked 'an approximation awaiting further natural history'—refusing to enlist in ultimate systems, acknowledging only grades of approximation
+
+
+### 现代应用 / Modern Applications
+
+- 工程实践：版本号 + 变更日志 + 开源程序代码，使任何结论'可被同程序重跑与推翻'——培根托管条款的软件化 / Engineering practice: version numbers, changelogs, and open code make every conclusion rerunnable and refutable by the same procedure—Bacon's trusteeship, softwareized
+
+- 科学协作：预印本与开放同行评审制度把'未完成'制度化，结论天然带版本而非定稿 / Scientific collaboration: preprints and open peer review institutionalize the unfinished; conclusions ship versioned, never final
+
+- 商业决策：把战略写成'当前最好假设'并设置季度重估，避免为旧决策辩护的沉没成本陷阱 / Business strategy: write strategy as 'the current best hypothesis' with quarterly re-estimation, avoiding the sunk-cost trap of defending old decisions
+
+- 个人成长：把自我认知视为可修订草稿，保留'我可能错'的结构性接口而非一次性顿悟 / Personal growth: treat self-knowledge as a revisable draft with structural interfaces for 'I may be wrong,' not a one-time epiphany
+
+
+### 相关模式 / Related Modes
+
+M-BAK-001、M-BAK-005、M-BAK-006、M-BAK-004
+
+
+### 代表人物 / Representative Figures
+
+- 拉卡托斯 (Imre Lakatos): 哲学继任者：'研究纲领'把培根的近似序列上升为科学史的解释框架 / philosophical successor: 'research programmes' raised Bacon's approximation sequence into a framework for the history of science
+
+- 牛顿 (Isaac Newton): 实践继承者：《原理》的'勿杜撰假说'与逐版修订正是渐进逼近的最高样本 / practicing heir: the Principia's 'hypotheses non fingo' and its successive editions are the supreme specimen of gradual approximation
+
+- 波普尔 (Karl Popper): 批判性深化者：把'逐版逼近'改写为'猜想与反驳'的无穷迭代 / critical deepener: rewrote version-by-version approach as the endless iteration of conjecture and refutation
+
+
+---
+
+## M-BAK-010 大复兴规划法 (Great-Instauration Planning)
+
+- 领域 Domain: 《大复兴》总封面：一艘帆船穿越传说中的海克力斯之柱驶入大西洋，铭文'Multi pertransibunt et augebitur scientia'（许多人将往返穿梭，知识必将增长）——一部六部曲的总规划书
+
+- Domain: The Great Instauration's frontispiece: a ship sailing through the Pillars of Hercules into the open Atlantic, motto 'Multi pertransibunt et augebitur scientia' (many shall pass through, and knowledge shall be increased)—the master plan of a six-part work
+
+
+### 定义 / Definition
+
+培根一生最重要的产出是一个'规划'而非一堆结论：《大复兴》六部曲——科学的分类（《学术的进展》）、新方法（《新工具》）、宇宙现象的自然史、智力迷宫（经验哲学的解剖）、新哲学的雏形、作为实践成果的第二哲学——他在世时只完成了前两部多，但正是这个'总规划'规定了此后三百年科学事业的分工与次序。深意在于：他把'元问题'置于'对象问题'之上——先回答'知识应该按什么程序生产、按什么结构组织'，再去生产具体知识；这如同先写宪法再立法。他清楚单点突破不能改变知识生产的整体落后，只有改程序才能改产出；且他把规划本身做成可执行的分部曲，每部独立可读、可检验、可交接。这要求一种罕见的角色自觉：他不争当'发现者'，而自任'规划师与吹号人'——'我不做那个挥旗帜冲锋的人，我做那个画出行军路线图的人'。代价：总规划者容易高估规划的完备性（他的六部曲在细节上多处过时），且'先画蓝图后施工'在快速变化的领域会僵化。现代对应物：技术路线图、国家科研规划（如曼哈顿工程的项目分解）、开放标准的 RFC 流程、以及一切'先定协议再各自施工'的协作架构。
+
+Bacon's most important output was a plan, not a pile of conclusions: the six parts of the Great Instauration—the division of the sciences (the Advancement of Learning), the new method (the Novum Organum), the natural history of the universe's phenomena, the labyrinth of the intellect (the anatomy of empirical philosophy), the beginning of the new philosophy, and the second philosophy as practical fruit—he finished barely the first two in his lifetime, yet it was this master plan that fixed the division of labor and sequence of the scientific enterprise for three centuries. The deeper point: he placed the meta-question above object-questions—answer first 'by what procedure should knowledge be produced and under what structure organized,' and only then produce particular knowledge, as one writes the constitution before the statutes. He saw that point breakthroughs cannot change the backwardness of knowledge production as a whole; only changing the procedure changes the output; and he built the plan itself as executable parts—independently readable, checkable, and handable-over. This required a rare self-positioning: he did not contend to be the discoverer but appointed himself 'planner and trumpeter'—'I am not the man to wave the banner in the charge; I am the one who draws the line of march.' The cost: master planners overestimate the completeness of plans (parts of his six were soon obsolete), and 'blueprint before build' ossifies in fast-moving fields. Modern analogues: technology roadmaps, national research programs (the Manhattan Project's work breakdown), the RFC process of open standards, and every collaborative architecture that fixes the protocol before letting builders build.
+
+
+### 出处 / Source
+
+《大复兴》总序与分部曲结构（1620 版扉页与规划书）；《学术的进展》第一卷对知识版图的整体划分；《新工具》卷一.116-117（'吹号人'的自我定位）
+
+
+### 金句 / Key Quote
+
+> 我不做挥旗冲锋的人，我做画行军路线的人——路线图比任何一场胜利都活得久。
+> I am not the man to wave the banner in the charge; I draw the line of march—the map outlives any single victory.
+
+
+### 概念 / Key Concepts
+
+元问题优先、分部曲结构、知识宪法、规划师角色自觉、可交接的蓝图、海克力斯之柱意象
+
+
+### 流程 / Process
+
+1. 问元问题：先不解决具体难题，而是问'这个领域的知识应按什么程序与结构生产' / Ask the meta-question: before solving any hard problem, ask by what procedure and structure this domain's knowledge should be produced
+
+2. 绘制版图：把领域整体切分为相互衔接的子领域，标明各自成熟度与依赖关系 / Draw the map: partition the domain into articulated subfields, marking maturity and dependencies
+
+3. 分部定序：把总目标拆成独立可交付的'部曲'，明确先后与依赖 / Part and order: split the master goal into independently deliverable 'books,' fixing sequence and reliance
+
+4. 自任角色：诚实评估自己是发现者、方法家还是规划师，选择杠杆最大的位置 / Choose the role: honestly assess whether you are discoverer, methodologist, or planner, and take the position of greatest leverage
+
+5. 开放交接：把规划公开为'任何人可续写的宪法'，以未完成换取扩展性 / Open the handover: publish the plan as a constitution anyone may continue—trading completeness for extensibility
+
+
+### 代表案例 / Cases
+
+- 《大复兴》六部曲规划：'分类—方法—自然史—迷宫解剖—新哲学雏形—第二哲学'的结构化总图，第三部之后的空缺由两代科学家按图补齐 / The six-part plan of the Great Instauration: 'division—method—natural history—labyrinth—beginnings—second philosophy' as a structured master map, the gaps after part three filled by two generations of scientists working to his chart
+
+- 1620 版扉页的海克力斯之柱：拉丁铭文取自但丁，宣告旧知识的'直布罗陀'可以被穿越——用一本书的封面设计做战略宣言 / The Pillars of Hercules on the 1620 title page: the motto from Dante declaring that knowledge's old Gibraltar could be sailed past—a strategic manifesto on a book's frontispiece
+
+- 《学术的进展》对知识版图的重新划分：把记忆、想象、理性对应史、诗、哲学，首次给'科学分类'本身做元分析 / The Advancement's redrawing of the map of learning: memory, imagination, and reason mapped to history, poetry, and philosophy—the first meta-analysis of the classification of science itself
+
+- 他在给詹姆士一世的献词中的自我定位：'我只点灯，不夸口照多远'——把规划者的谦逊做成职位说明书 / His self-positioning in the dedication to James I: 'I only light the lamp, and boast not how far it shines'—the planner's humility drafted as a job description
+
+
+### 现代应用 / Modern Applications
+
+- 技术战略：先写架构决策记录（ADR）与路线图，再分团队施工——'先宪法后立法'的工程版 / Technology strategy: write architecture decision records and the roadmap before teams build—'constitution before statutes,' engineered
+
+- 组织变革：不逐点灭火，而是重设计'问题如何被提出与解决'的流程——把元问题提到对象问题之上 / Organizational change: stop firefighting point by point; redesign the process by which problems are posed and solved—raising the meta-question above the object-questions
+
+- 个人职业：选择'画路线图'的杠杆位（标准制定、方法论输出、平台建设）而非拥挤的'单点解决'赛道 / Personal career: choose the leverage of drawing roadmaps (standards, methodology, platforms) over the crowded lane of single-point solving
+
+- 开源生态：RFC 流程把'协议先于实现'制度化，任何人可依宪法续写——大复兴规划的当代直系后代 / Open ecosystems: the RFC process institutionalizes 'protocol before implementation,' open to anyone's continuation—direct descendant of the Great Instauration
+
+
+### 相关模式 / Related Modes
+
+M-BAK-005、M-BAK-006、M-BAK-001、M-BAK-009
+
+
+### 代表人物 / Representative Figures
+
+- 孔多塞 (Marquis de Condorcet): 规划继承者：《人类精神进步史表纲要》把知识总规划推向社会进步的尺度 / planning heir: the Sketch for a Historical Picture of the Progress of the Human Mind scaled the master plan to social progress
+
+- 布什 (Vannevar Bush): 二十世纪规划师：《科学：无尽的前沿》是国家层面的'大复兴'分部曲 / twentieth-century planner: Science, the Endless Frontier is the Great Instauration at national scale
+
+- 恩格尔巴特 (Douglas Engelbart): 蓝图同道：以《增强人类智能》纲领先画路线后做鼠标——规划师角色的现代标本 / blueprint counterpart: Augmenting Human Intellect drew the route before the mouse—the planner's role, modern specimen

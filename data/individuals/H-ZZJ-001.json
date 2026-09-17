@@ -1,0 +1,640 @@
+{
+ "schema_version": "v6",
+ "id": "H-ZZJ-001",
+ "code": "H-ZZJ-001",
+ "figure_name": "张仲景",
+ "figure_code": "东汉",
+ "figure_pinyin": "Zhāng Zhòngjǐng",
+ "birth_year": 150,
+ "death_year": 219,
+ "era": "东汉末年",
+ "school": "经方学派/伤寒学派（辨证论治体系奠基人）",
+ "style_name": "医圣/长沙太守（传说）",
+ "courtesy_name": "",
+ "nationality": "南阳郡涅阳人（今河南邓州）",
+ "civilization_sphere": "东亚/中华",
+ "time_period_standardized": "约150—约219",
+ "primary_language": "中文（上古汉语）",
+ "intellectual_tradition": "勤求古训博采众方/六经辨证/方证对应/治未病",
+ "representative_works": [
+  "《伤寒杂病论》十六卷（战乱散佚，经王叔和整理为《伤寒论》十卷、《金匮要略》三卷传世）"
+ ],
+ "historical_significance": "张仲景（约150—约219），名机，南阳涅阳人，东汉末医学家，后被尊为'医圣'。建安纪年疫病流行，宗族二百余口十年间死者三分之二，遂'勤求古训，博采众方'，撰《伤寒杂病论》十六卷。以六经辨证建模外感热病的传变结构，以方证对应实现'辨—治—验—再辨'的临床闭环，以条文体留下可复现的实验规程。华佗与仲景并称，但华佗医术随人亡而绝，仲景的方法随文本而传——《伤寒论》成为此后一千八百年中医临床的操作系统，六经辨证、方证对应、治未病等概念至今仍是中医的元语言。其'辨证论治'使医学从经验集合升级为可检验的系统：病是变量，证是函数，方是算法。",
+ "core_thoughts": [
+  "六经辨证系统法（系统建模/疾病演进动态分类）",
+  "八纲归因定位法（诊断归因/症状降维）",
+  "方证对应闭环法（验证闭环/疗法与诊断的绑定）",
+  "同病异治对称法（对称性思维/治疗逻辑对偶）",
+  "治未病优先法（预防医学/时机学）",
+  "剂量—配伍权衡法（参数调优/组分配比）",
+  "四诊合参信息融合法（多源信息融合/观察规范）",
+  "误治坏病逆推法（错误利用/逆向推理）",
+  "经方标准模块法（模块化复用/标准化）",
+  "文本留验传世法（知识工程/可复现性设计）"
+ ],
+ "famous_quote": "观其脉证，知犯何逆，随证治之。",
+ "influence": "《伤寒杂病论》经王叔和整理、宋代校正医书局刊定后成为中医临床的元典：六经辨证框架统治外感病学一千八百年，方证对应的经方体系至今仍是中医临床的主流范式；'治未病''辨证论治'进入了当代中医高等教育与《中医药法》的话语体系。日本的汉方医学直接以《伤寒论》经方为国家医保目录内的标准化处方，'方证对应'在东亚完成了从古籍到监管科学的迁移。现代医学教育的循证、临床路径与复盘文化，都能在坏病章与方后注中找到方法论原型。仲景证明了：医学要对抗的不仅是疾病，还有'各承家技，终始顺旧'的知识生态——把规程写成文本，是把个体经验转化为可累积科学的第一步。",
+ "thinking_mode_count": 10,
+ "thinking_modes": [
+  {
+   "id": "M-ZZJ-001",
+   "mode_code": "M-ZZJ-001",
+   "name_zh": "六经辨证系统法",
+   "name_en": "Six-Meritians Diagnostic Systems Method",
+   "category": "系统医学",
+   "domain_zh": "系统建模/疾病演进动态分类",
+   "domain_en": "Systems Modeling / Dynamic Classification of Disease Progression",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "把繁杂万变的临床病象组织为一个有限状态机：以太阳、阳明、少阳、太阴、少阴、厥阴六经为节点，把外感热病从表到里、从阳到阴的传变刻画为状态转移过程。要害有三：其一，分类的轴心不是病名而是'病位×病性'——同一病象在不同经，治法迥异；其二，传变有方向可循——由表入里、由阳入阴，故今日的证候同时是明日的预测变量；其三，六经是动态框架而非静态目录——合病、并病、直中、传经，系统允许复合状态与跳变路径。方法论签名：不罗列疾病的清单，而建模疾病的'转移函数'——知其所在，即知其所往。",
+   "definition_en": "Organize the boundless variety of clinical presentations into a finite-state machine: using the six meritians (taiyang, yangming, shaoyang, taiyin, shaoyin, jueyin) as nodes, the transmission of externally contracted febrile disease is modeled as state transitions from surface to interior, from yang to yin. Three essentials: the axis of classification is not disease names but 'location × nature'—the same symptom at a different meridian demands a different treatment; transmission has direction—surface to interior, yang to yin—so today's pattern is tomorrow's predictor; and the six meritians form a dynamic framework, not a static catalog—combined disease, parallel disease, direct strike, and meridian transmission allow composite states and jump paths. Signature: do not enumerate a list of diseases; model the disease's transfer function—know where it is, and you know where it goes.",
+   "source_chapter": "《伤寒论》六经病篇提纲条文；《伤寒杂病论·自序》",
+   "key_concepts": [
+    "六经辨证",
+    "病位病性",
+    "传经",
+    "有限状态分类",
+    "动态演进模型"
+   ],
+   "process_zh": [
+    "建状态空间：以三阴三阳六经定义疾病可能驻留的全部节点，每经绑定提纲证候作为判据",
+    "定位当前状态：望闻问切四诊合参，将病人当下表现归类到六经之一（或合病并病的复合态）",
+    "推演转移路径：依据'由表入里、由阳入阴'的传变规律，预判疾病下一步的走向与坏证风险",
+    "截断于未传：在病邪未离表时发汗、未入腑时清下——治法的时机学优于治法的强度学"
+   ],
+   "process_en": [
+    "Build the state space: define all nodes a disease may occupy via the six meritians, each bound to its outline symptoms as classification criteria",
+    "Locate the current state: through the four examinations, classify the patient's present findings into one meridian (or a composite state of combined/parallel disease)",
+    "Simulate transition paths: following 'surface to interior, yang to yin,' predict the disease's next move and the risk of deterioration",
+    "Interrupt before transmission: sweat while the pathogen is still at the surface, drain before it enters the bowels—the timing of treatment outweighs its intensity"
+   ],
+   "key_quote_zh": "太阳之为病，脉浮，头项强痛而恶寒。——知经所在，即知病之所往。",
+   "key_quote_en": "Taiyang disease: floating pulse, stiff painful head and nape, aversion to cold.—Know the meridian, and you know where the disease is headed.",
+   "representative_cases_zh": [
+    "太阳伤寒提纲：'脉浮，头项强痛而恶寒'七字定义一个状态节点——后世千年外感病学都在这一状态机内运行",
+    "传经预判：'伤寒二三日，阳明少阳证不见者，为不传也'——以时间窗内的证候出现与否，动态修正疾病轨迹预测",
+    "反例警示：后世温病学派发现部分热病不走六经路径而呈卫气营血传变——六经模型对内伤与温热病的覆盖有限，说明任何状态机都有其不适用的输入域"
+   ],
+   "representative_cases_en": [
+    "The taiyang cold-damage outline: seven characters—'floating pulse, stiff painful head and nape, aversion to cold'—define one state node; a thousand years of external-disease medicine ran inside this state machine",
+    "Transmission prediction: 'if on the second or third day no yangming or shaoyang signs appear, it is not transmitting'—dynamically updating the disease trajectory from which signs do or do not appear within the time window",
+    "Counter-case: the later warm-disease school found some fevers transmit along wei-qi-ying-xue rather than the six meritians—the model's coverage of interior damage and warm diseases is limited, showing every state machine has inputs it does not fit"
+   ],
+   "modern_applications_zh": [
+    "疾病分期分型的状态转移建模（肿瘤TNM分期、精神障碍诊断流程）",
+    "急诊分诊的动态分级：以当前位置预测恶化路径",
+    "软件工程中的状态机设计与异常传播分析"
+   ],
+   "modern_applications_en": [
+    "State-transition modeling of disease staging (TNM staging, diagnostic decision trees)",
+    "Dynamic triage grading in emergency medicine: predicting deterioration paths from current position",
+    "Finite-state machine design and exception-propagation analysis in software engineering"
+   ],
+   "related_modes": [
+    "M-ZZJ-002",
+    "M-ZZJ-003",
+    "M-ZZJ-005"
+   ]
+  },
+  {
+   "id": "M-ZZJ-002",
+   "mode_code": "M-ZZJ-002",
+   "name_zh": "八纲归因定位法",
+   "name_en": "Eight-Principle Attribution-Localization Method",
+   "category": "诊断方法",
+   "domain_zh": "诊断归因/症状降维",
+   "domain_en": "Diagnostic Attribution / Symptom Dimensionality Reduction",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "在四诊采集的无限维症状流上，用四对判别轴（阴阳、表里、寒热、虚实）做强制降维：每一对都是互斥二分，任何病象必须且只能落在这四根轴的某一端。要害有三：其一，诊断即坐标化——八纲给每个病人一个四维坐标，治法空间与坐标一一对应；其二，判别标准可操作——脉浮属表、脉沉属里，口渴喜冷属热、口和喜温属寒，皆为可观察判据而非玄想；其三，归因可校错——坐标定错则治法必错，服后反应反推坐标修正，形成'诊断假设—治疗检验—回溯修正'闭环。方法论签名：把无限的临床信息压缩为有限的决策维度——降维不是损失，而是可行动性。",
+   "definition_en": "On the infinite-dimensional stream of symptoms gathered by the four examinations, impose forced dimensionality reduction with four discriminant axes (yin-yang, exterior-interior, cold-heat, deficiency-excess): each pair is a mutually exclusive dichotomy, and every finding must land on one end of each axis. Three essentials: diagnosis becomes coordinate assignment—the eight principles give each patient a four-dimensional coordinate to which the treatment space maps one-to-one; the criteria are operational—floating pulse means exterior, sunken means interior; thirst for cold drinks means heat, mild mouth and warmth preference means cold, all observable rather than speculative; and attribution is correctable—if the coordinate is wrong the treatment fails, and the response retro-dictively fixes the coordinate, closing the loop of 'diagnostic hypothesis—therapeutic test—backtracking revision.' Signature: compress infinite clinical information into finite decision dimensions—the reduction is not loss but actionability.",
+   "source_chapter": "《伤寒论》阴阳表里寒热虚实辨诸条（八纲之实存于六经辨证中）；后世程钟龄《医学心悟》总结为纲",
+   "key_concepts": [
+    "八纲",
+    "阴阳表里",
+    "寒热虚实",
+    "症状降维",
+    "诊断假设检验"
+   ],
+   "process_zh": [
+    "轴定义：固定四对互斥判别轴，为每轴两端绑定可观察的判据（脉、症、舌、嗜好）",
+    "信息采集：四诊不预设结论地收集原始病象，容忍矛盾信号共存",
+    "强制坐标化：每轴必选一端，矛盾信号以主症权重裁决，输出四维坐标",
+    "回溯校验：以治疗后反应反推坐标正确性，错则修正坐标而非简单加药"
+   ],
+   "process_en": [
+    "Define the axes: fix four mutually exclusive discriminant axes, binding observable criteria (pulse, symptoms, tongue, preferences) to each end",
+    "Gather information: collect raw findings via the four examinations without预设 conclusions, tolerating contradictory signals",
+    "Force coordinate assignment: choose one end per axis, adjudicating conflicts by principal-symptom weighting, outputting a four-dimensional coordinate",
+    "Backtrack-verify: use the treatment response to retro-test the coordinate; when wrong, revise the coordinate rather than merely adding drugs"
+   ],
+   "key_quote_zh": "阴阳表里寒热虚实——八者立，而万病之位可指掌言。",
+   "key_quote_en": "Yin-yang, exterior-interior, cold-heat, deficiency-excess—with the eight fixed, the position of ten thousand diseases can be pointed out on one's palm.",
+   "representative_cases_zh": [
+    "表里之辨：'外证未解者，不可下'——表里坐标定错一步，汗吐下之法即全盘皆错",
+    "寒热真假：'病人身大热，反欲得衣者，热在皮肤，寒在骨髓也'——以偏好判真伪，识破症状的表面读数",
+    "反例警示：虚实夹杂证中'大实有羸状、至虚有盛候'——强制二分在过渡态上产生误判风险，需以剂量与配伍折衷，暴露离散坐标对连续病态的逼近极限"
+   ],
+   "representative_cases_en": [
+    "Exterior-interior: 'when the exterior presentation is unresolved, do not drain'—one step wrong on this axis and the whole sweating/draining strategy collapses",
+    "True-false heat-cold: 'the patient burns with fever yet craves clothing—heat is at the skin, cold at the marrow'—using preferences to read past surface symptoms",
+    "Counter-case: in mixed deficiency-excess patterns 'great excess may look wasted, great deficiency may look exuberant'—forced dichotomy misjudges transitional states, requiring dosage compromise and exposing the discrete coordinate's approximation limit"
+   ],
+   "modern_applications_zh": [
+    "临床决策树与鉴别诊断的结构化问诊",
+    "A/B测试中指标降维与归因框架",
+    "故障诊断系统的特征轴分类（表里≈内因外因，寒热≈负载类型，虚实≈资源盈亏）"
+   ],
+   "modern_applications_en": [
+    "Structured clinical decision trees and differential diagnosis protocols",
+    "Metric dimensionality reduction and attribution frameworks in A/B testing",
+    "Feature-axis classification in fault-diagnosis systems (exterior/interior ≈ external vs. root cause; deficiency/excess ≈ resource surplus or shortfall)"
+   ],
+   "related_modes": [
+    "M-ZZJ-001",
+    "M-ZZJ-003",
+    "M-ZZJ-004"
+   ]
+  },
+  {
+   "id": "M-ZZJ-003",
+   "mode_code": "M-ZZJ-003",
+   "name_zh": "方证对应闭环法",
+   "name_en": "Formula-Pattern Correspondence Loop",
+   "category": "临床方法",
+   "domain_zh": "验证闭环/疗法与诊断的绑定",
+   "domain_en": "Verification Loop / Binding Therapy to Diagnosis",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "把方剂与证候绑定为不可拆的配对：证候定义了方的适用边界，方剂反过来是证候的判定工具——'但见一证便是，不必悉具'，符合度足以触发处方，服后反应又反过来验证辨证。要害有三：其一，方与证互为定义——桂枝汤不是治'感冒'的药，而是治'营卫不和'这一坐标的算法，坐标对则效，坐标错则不效；其二，疗效即检验——一剂知、二剂已，服药反应是辨证假设的实验验证；其三，闭环可迭代——'观其脉证，知犯何逆，随证治之'，方证闭环没有终态，只有持续重算。方法论签名：每一张处方都是一次假设检验——药是问句，疗效是回答。",
+   "definition_en": "Bind formula to pattern as an inseparable pair: the pattern defines the formula's boundary of applicability, while the formula retroactively serves as a test instrument for the pattern—'upon seeing a single sign it suffices; the full set is not required'; sufficient correspondence triggers the prescription, and the response verifies the diagnosis. Three essentials: formula and pattern define each other—Guizhi Tang is not 'the drug for colds' but the algorithm for the coordinate called 'ying-wei disharmony'; efficacy is the test—one dose to know, two doses to resolve; the drug response is the experimental check on the diagnostic hypothesis; and the loop iterates—'observe the pulse and signs, know what went wrong, treat according to the pattern': no terminal state, only continuous recomputation. Signature: every prescription is a hypothesis test—the drug is the question, the response the answer.",
+   "source_chapter": "《伤寒论》方后注'一服汗出病差，停后服'及'观其脉证，知犯何逆，随证治之'第16条",
+   "key_concepts": [
+    "方证对应",
+    "随证治之",
+    "服药反应",
+    "假设检验",
+    "一剂知二剂已"
+   ],
+   "process_zh": [
+    "绑定定义：为每首方剂明确其目标证候坐标（主证、兼证、禁忌证）",
+    "触发判定：核对病人坐标与方证坐标的符合度，达到阈值即处方，不苛求全证",
+    "疗效检验：以方后注的服药节律与预期反应为判据，观察疗效是否符合预测",
+    "随证重算：不效或传变即重辨坐标、换方或加减，形成'辨—治—验—再辨'循环"
+   ],
+   "process_en": [
+    "Bind definitions: for each formula, fix its target pattern coordinate (primary signs, accompanying signs, contraindications)",
+    "Trigger test: check the correspondence between the patient's coordinate and the formula-pattern; once past threshold, prescribe without demanding the full sign set",
+    "Efficacy check: use the dosage rhythm and expected reactions in the post-formula notes as criteria—does the outcome match the prediction?",
+    "Recompute with the pattern: on failure or transmission, re-derive the coordinate, switch or modify the formula—a 'differentiate—treat—test—re-differentiate' loop"
+   ],
+   "key_quote_zh": "观其脉证，知犯何逆，随证治之。",
+   "key_quote_en": "Observe the pulse and signs, know what has gone wrong, and treat according to the pattern.",
+   "representative_cases_zh": [
+    "桂枝汤方后注的实验规程：'啜热稀粥一升余，温覆令一时许'——给药、保温、观察节奏全部标准化，是史上最早的给药后观察协议",
+    "'但见一证便是'：小柴胡汤'往来寒热、胸胁苦满、心烦喜呕、口苦咽干目眩'四主证不必悉具——以关键特征触发而非穷举匹配",
+    "反例警示：'坏病'章——误治后证候复杂化，原方证坐标失效，仲景不再给方而只给'随证治之'的方法论：绑定关系在坐标漂移时必须整体重建，暴露方证闭环对初始辨证精度的依赖"
+   ],
+   "representative_cases_en": [
+    "The Guizhi Tang post-formula protocol: sip hot thin gruel, cover warmly for about an hour—administration, warming, and observation rhythm fully standardized: the earliest recorded post-administration observation protocol",
+    "'A single sign suffices': for Xiaochaihu Tang the four cardinal signs need not all appear—the trigger is a key feature, not exhaustive matching",
+    "Counter-case: the 'wrecked disease' chapter—after mistreatment the pattern coordinate drifts and the original formula no longer binds; Zhang Zhongjing gives no formula, only the methodology 'treat by the pattern': the binding must be rebuilt wholesale when the coordinate shifts, exposing the loop's dependence on initial diagnostic precision"
+   ],
+   "modern_applications_zh": [
+    "精准医疗的伴随诊断：以生物标志物绑定药物适应证",
+    "临床试验中药物响应与亚型定义的交互验证",
+    "迭代产品开发：功能（方）与用户问题（证）的绑定及数据反馈闭环"
+   ],
+   "modern_applications_en": [
+    "Companion diagnostics in precision medicine: biomarkers bound to drug indications",
+    "Interactive validation of drug response and subtype definitions in clinical trials",
+    "Iterative product development: binding features (formulas) to user problems (patterns) with data feedback loops"
+   ],
+   "related_modes": [
+    "M-ZZJ-002",
+    "M-ZZJ-004",
+    "M-ZZJ-006"
+   ]
+  },
+  {
+   "id": "M-ZZJ-004",
+   "mode_code": "M-ZZJ-004",
+   "name_zh": "同病异治对称法",
+   "name_en": "Same-Disease-Different-Treatment Symmetry Method",
+   "category": "思维方法",
+   "domain_zh": "对称性思维/治疗逻辑对偶",
+   "domain_en": "Symmetry Thinking / Therapeutic-Logic Dualities",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "在同一疾病名下依据证候坐标的不同开出相反的治法，并自觉保持其对称性：同病异治（水气病发汗与利小便并行）与异病同治（心下悸与脚挛急、异位而同因者同方）互为镜像。要害有三：其一，治疗的单位是'证'而非'病'——病名只是外包装，证候坐标才是处方对象；其二，对称即完备性自查——同病为何异治？因坐标不同；异病为何同治？因坐标相同。凡无法用坐标解释的异同，即暴露辨证的漏洞；其三，对偶治法可互校——汗法与利水、吐法与下法在同一病上互为备份，治法的失败模式可以互相印证病机。方法论签名：病是变量，证是函数——同样的输入必给同样的输出，不同的输出必因输入不同。",
+   "definition_en": "Under the same disease name, prescribe opposite treatments depending on the pattern coordinate, and consciously preserve their symmetry: same-disease-different-treatment (in water-qi disease, sweating and urination promoted in parallel) and different-disease-same-treatment (palpitation below the heart and calf spasm, different sites but same cause, same formula) mirror each other. Three essentials: the unit of treatment is the 'pattern,' not the 'disease'—the disease name is packaging, the pattern coordinate is the prescription target; symmetry is a completeness check—why does the same disease get different treatments? Different coordinates; why do different diseases share a treatment? The same coordinate—any similarity or difference the coordinates cannot explain exposes a diagnostic hole; and dual treatments cross-check each other—sweating and draining water, vomiting and purging, back each other up on the same disease, their failure modes corroborating the mechanism. Signature: the disease is the variable, the pattern the function—same input, same output; different outputs must come from different inputs.",
+   "source_chapter": "《金匮要略·水气病脉证并治》'诸有水者，腰以下肿当利小便，腰以上肿当发汗乃愈'；《伤寒论》多处同证异方条文",
+   "key_concepts": [
+    "同病异治",
+    "异病同治",
+    "证候坐标",
+    "治疗对偶",
+    "病机归一"
+   ],
+   "process_zh": [
+    "剥离病名：暂时悬置'这叫什么病'，追问'当前坐标是什么'",
+    "按坐标分流：同一病名内按坐标差异分裂出相反治法，并显式记录分流的判据",
+    "跨病归并：在异病中扫描相同坐标，复用同一治法，验证坐标的可迁移性",
+    "对称审计：定期检查异同治法是否能被坐标系统完全解释，不能解释处即修订辨证框架"
+   ],
+   "process_en": [
+    "Strip the disease name: suspend 'what is this called' and ask 'what is the current coordinate'",
+    "Branch by coordinate: within one disease name, split into opposite treatments per coordinate difference, explicitly recording the branching criterion",
+    "Merge across diseases: scan different diseases for the same coordinate, reusing the same treatment to verify the coordinate's portability",
+    "Symmetry audit: periodically check whether all treatment similarities and differences are fully explained by the coordinate system—unexplained spots trigger framework revision"
+   ],
+   "key_quote_zh": "病皆相似而治异者，坐所在不同也；病虽各异而治同者，机所同也。",
+   "key_quote_en": "When the diseases look alike yet the treatments differ, it is because the positions differ; when the diseases differ yet the treatments agree, it is because the mechanism agrees.",
+   "representative_cases_zh": [
+    "水气病的分流规则：'腰以下肿当利小便，腰以上肿当发汗'——同一水肿，以病位坐标分裂为汗、利两条相反路径",
+    "异病同治：伤寒心下悸（真武汤证）与妇人转胞（肾气丸证）症状迥异而同属'阳虚水泛'坐标，同用温阳利水——坐标的可迁移性得到跨病验证",
+    "反例警示：'病皆相似而治异'若说不出坐标差异，往往是辨证未到位而非真可异治——对称性审计同样可能揪出辨证本身的偷懒"
+   ],
+   "representative_cases_en": [
+    "The water-qi branching rule: 'swelling below the waist—promote urination; above the waist—promote sweating'—one edema split into opposite paths by the location coordinate",
+    "Different diseases, same treatment: cold-damage palpitation (Zhenwu Tang) and a woman's retained fetus-qi (Shenqi Wan) differ utterly in symptoms yet share the 'yang deficiency with water flooding' coordinate—cross-disease validation of coordinate portability",
+    "Counter-case: 'same-looking diseases treated differently' with no coordinate difference to cite usually signals incomplete differentiation, not genuine duality—the symmetry audit can also catch lazy diagnostics"
+   ],
+   "modern_applications_zh": [
+    "分型治疗与个性化医疗的对称设计（同癌异治、异癌同靶）",
+    "推荐系统：同一意图下的分众策略与跨场景的策略复用",
+    "调试方法论：同一报错不同根因分支处理，与跨模块同类根因统一修复"
+   ],
+   "modern_applications_en": [
+    "Symmetric design of stratified and personalized medicine (same cancer, different treatments; different cancers, same target)",
+    "Recommender systems: audience-splitting strategies within one intent and strategy reuse across contexts",
+    "Debugging methodology: branch handling for one error with different root causes, unified fixes for the same root cause across modules"
+   ],
+   "related_modes": [
+    "M-ZZJ-003",
+    "M-ZZJ-005",
+    "M-ZZJ-008"
+   ]
+  },
+  {
+   "id": "M-ZZJ-005",
+   "mode_code": "M-ZZJ-005",
+   "name_zh": "治未病优先法",
+   "name_en": "Preventive-Priority Intervention Method",
+   "category": "战略方法",
+   "domain_zh": "预防医学/时机学",
+   "domain_en": "Preventive Medicine / Timing of Intervention",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "把干预时机本身作为最高阶的治疗变量：'上工治未病，不治已病'——在疾病状态机的转移发生之前出手，成本最低而收益最大。要害有三：其一，防在传经之前——'见肝之病，知肝传脾，当先实脾'，治疗目标不是当前病灶而是下一状态；其二，治在欲病之际——'中工治欲病'，识别症状前驱期并在此窗口拦截，优于病成后的强攻；其三，未病判断依赖演进模型——不知道疾病往哪走，就谈不上'先'；治未病是六经转移函数在时间轴上的前移应用，而非空洞的养生口号。方法论签名：最高的医术不是治病，而是让病没有成为病历的机会。",
+   "definition_en": "Make the timing of intervention itself the highest-order treatment variable: 'the superior physician treats before illness, not after'—strike before the disease state machine transitions, at lowest cost and greatest benefit. Three essentials: prevention precedes transmission—'see the liver sick, know it will transmit to the spleen, fortify the spleen first': the target is not the current lesion but the next state; treat at the 'about-to-ill' stage—recognize the prodromal window and intercept there, better than storming the finished disease; and judging 'not-yet-ill' depends on the progression model—without knowing where the disease goes there is no 'before'; preventive treatment is the six-meridian transfer function applied earlier on the time axis, not a hollow wellness slogan. Signature: the highest medicine is not curing illness but denying illness the chance to become a medical record.",
+   "source_chapter": "《金匮要略·脏腑经络先后病脉证第一》'见肝之病，知肝传脾，当先实脾'；《黄帝内经·四气调神大论》'圣人不治已病治未病'",
+   "key_concepts": [
+    "治未病",
+    "先安未受邪之地",
+    "传变预判",
+    "欲病拦截",
+    "干预时机学"
+   ],
+   "process_zh": [
+    "建立演进预测：依六经与脏腑传变规律，列出当前状态最可能的下游损伤",
+    "提前加固：对尚未受邪的下游脏腑先行支持（当先实脾），抬高其抗转移能力",
+    "拦截前驱期：识别欲病信号（微恙、体质偏倾、季节易感窗口），在低成本窗口介入",
+    "降维目标：把'治好已病'的追赶式医疗，改写为'不使成病'的前置式布局"
+   ],
+   "process_en": [
+    "Model the progression: per the six-meridian and zang-fu transmission rules, list the most likely downstream damages of the current state",
+    "Reinforce ahead: support the not-yet-attacked downstream organs first (fortify the spleen first), raising their resistance to transmission",
+    "Intercept the prodrome: identify pre-disease signals (minor ailments, constitutional bias, seasonal vulnerability windows) and intervene in the low-cost window",
+    "Reframe the objective: rewrite catch-up medicine 'cure the sick' as forward-deployed strategy 'prevent the sick'"
+   ],
+   "key_quote_zh": "见肝之病，知肝传脾，当先实脾。",
+   "key_quote_en": "See the liver sick; know it will transmit to the spleen; fortify the spleen first.",
+   "representative_cases_zh": [
+    "'见肝传脾当先实脾'：治疗目标是尚未得病的脾——史上最早的'下游预防性加固'明确条文",
+    "太阳病初起即汗：'病在表可发汗'，拦截于表邪未传之际，一剂而愈者十常八九；迟至阳明则须白虎承气，代价与风险倍增",
+    "反例警示：'治未病'若脱离演进模型即沦为预防滥用——仲景明言'夫病痼疾加以卒病，当先治其卒病，后乃治其痼疾'：预防不与急治争道，时机的优先级本身有优先级"
+   ],
+   "representative_cases_en": [
+    "'Liver transmits to spleen, fortify the spleen first': the treatment target is a spleen that is not yet sick—the earliest explicit clause of downstream preventive reinforcement",
+    "Sweat at the first sign of taiyang disease: intercept while the surface pathogen has not transmitted—one dose resolves most cases; delay to yangming and White Tiger or Purgative decoctions with multiplied cost and risk become necessary",
+    "Counter-case: without a progression model 'treating before illness' degrades into preventive overreach—Zhang Zhongjing states plainly 'when chronic illness meets sudden illness, treat the sudden first, then the chronic': prevention does not race urgent care; even the priority of timing has priorities"
+   ],
+   "modern_applications_zh": [
+    "预防医学与慢病管理：以风险轨迹预测替代疾病终末治疗",
+    "金融风控：在违约转移发生前加固下游资产",
+    "软件可靠性：在故障传播路径上前置熔断与冗余（'先实脾'即服务降级预案）"
+   ],
+   "modern_applications_en": [
+    "Preventive medicine and chronic-disease management: risk-trajectory prediction in place of end-stage treatment",
+    "Financial risk control: reinforcing downstream assets before default transitions",
+    "Software reliability: front-positioned circuit breakers and redundancy on failure-propagation paths ('fortify the spleen' as graceful degradation plans)"
+   ],
+   "related_modes": [
+    "M-ZZJ-001",
+    "M-ZZJ-006",
+    "M-ZZJ-010"
+   ]
+  },
+  {
+   "id": "M-ZZJ-006",
+   "mode_code": "M-ZZJ-006",
+   "name_zh": "剂量—配伍权衡法",
+   "name_en": "Dosage-Composition Tradeoff Method",
+   "category": "操作方法",
+   "domain_zh": "参数调优/组分配比",
+   "domain_en": "Parameter Tuning / Component Ratio Design",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "在同一方剂框架内，以剂量与配比的连续调节实现性质的跳变：桂枝与芍药各三两为调和营卫，桂枝加一倍即名桂枝加桂汤而治奔豚，芍药加一倍即名桂枝加芍药汤而治太阴腹痛——组方不变，参数改一档，主治即换场。要害有三：其一，剂量是药性的一部分——同一成分在不同剂量下承担不同角色（麻黄少量宣肺、大量发汗）；其二，比例先于绝对量——方剂的'性格'由成分间比例定义，如同系统行为由参数比而非绝对值决定；其三，调整有据可依——剂量变化对应证候变化的等级，不凭胆量而凭坐标偏移幅度。方法论签名：方剂是一个参数化系统——不是换方，而是调参。",
+   "definition_en": "Within the same formula framework, achieve qualitative shifts by continuous tuning of dosage and ratio: Cinnamon and Peony each three liang harmonizes ying and wei; double the Cinnamon and it is Guizhi Jia Gui Tang for running-piglet qi; double the Peony and it is Guizhi Jia Shaoyao Tang for taiyin abdominal pain—the composition unchanged, one parameter step shifts the entire indication. Three essentials: dosage is part of a drug's nature—the same component plays different roles at different doses (ephedra small to diffuse the lung, large to sweat); ratio precedes absolute quantity—a formula's 'character' is defined by inter-component proportions, as system behavior is defined by parameter ratios rather than absolute values; and adjustment follows evidence—dosage changes correspond to grades of pattern change, set by the magnitude of coordinate drift, not by nerve. Signature: a formula is a parameterized system—do not swap the formula; tune the parameters.",
+   "source_chapter": "《伤寒论》桂枝加桂汤、桂枝加芍药汤、桂枝汤方后注'若一服汗出病差，停后服，不必尽剂'",
+   "key_concepts": [
+    "剂量即药性",
+    "配比定方性",
+    "以量换效",
+    "参数化组方",
+    "中病即止"
+   ],
+   "process_zh": [
+    "参数化基方：将方剂拆解为成分×剂量矩阵，明确各成分的主治角色",
+    "坐标偏移定档：依证候坐标的偏移方向与幅度，确定需加重的成分与倍数",
+    "微调验证：以方后注节律小步给药，随反应递增或即停（不必尽剂），防止过调",
+    "记录映射：将'坐标偏移—剂量档位—疗效'的对应关系沉淀为可复用的调参表"
+   ],
+   "process_en": [
+    "Parameterize the base formula: decompose it into a component × dosage matrix, fixing each component's therapeutic role",
+    "Grade by coordinate drift: per the direction and magnitude of pattern drift, determine which component to weight and by how much",
+    "Tune with verification: dose in small steps per the post-formula rhythm, escalating or stopping on response ('no need to finish the course') to prevent overshoot",
+    "Record the mapping: sediment the 'pattern drift—dosage step—efficacy' correspondence into a reusable tuning table"
+   ],
+   "key_quote_zh": "桂枝本为解肌，若其人脉浮紧、发热汗不出者，不可与之也。——同一味药，量与证相配则生，相离则死。",
+   "key_quote_en": "Cinnamon is by nature a muscle-releasing drug; for a patient with tight floating pulse, fever and no sweat, it must not be given.—The same herb lives by matching dose to pattern and dies by their separation.",
+   "representative_cases_zh": [
+    "桂枝加桂汤：桂枝由三两增至五两，调和之方转为温肾降逆之方——一味参数的档位变化改写了整个方剂的适应证",
+    "四逆汤与通脉四逆汤：同为姜附草，附子由一枚增至大者一枚、干姜由一两半增至三两——重度虚寒用重度参数，剂量梯度对应病情梯度",
+    "反例警示：'不必尽剂'——参数调优以反馈为准而非计划为准，把预定的全疗程执行完本身就是过拟合：药过病所即为药邪"
+   ],
+   "representative_cases_en": [
+    "Guizhi Jia Gui Tang: Cinnamon rises from three to five liang and a harmonizing formula becomes a kidney-warming, qi-descending formula—one parameter step rewrites the whole indication",
+    "Sini Tang vs. Tongmai Sini Tang: same ginger-aconite-licorice; Aconite from one to one large piece, dry ginger from one-and-a-half to three liang—severe cold-deficiency takes severe parameters, dosage gradient matching disease gradient",
+    "Counter-case: 'no need to finish the course'—tuning follows feedback, not plan; executing the full prescribed course regardless is itself overfitting: drug beyond the disease site becomes the pathogen"
+   ],
+   "modern_applications_zh": [
+    "药物剂量-效应曲线与个体化给药方案",
+    "化工与机器学习中的超参数调优：调参优先于换模型",
+    "团队管理：同一团队内资源配置比例的微调优先于人员更换"
+   ],
+   "modern_applications_en": [
+    "Dose-response curves and individualized dosing regimens",
+    "Hyperparameter tuning in engineering and ML: tune before you switch models",
+    "Team management: fine-tuning resource ratios within the same team before swapping people"
+   ],
+   "related_modes": [
+    "M-ZZJ-003",
+    "M-ZZJ-004",
+    "M-ZZJ-009"
+   ]
+  },
+  {
+   "id": "M-ZZJ-007",
+   "mode_code": "M-ZZJ-007",
+   "name_zh": "四诊合参信息融合法",
+   "name_en": "Four-Examination Information Fusion",
+   "category": "认知方法",
+   "domain_zh": "多源信息融合/观察规范",
+   "domain_en": "Multi-Source Information Fusion / Observation Protocol",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "以望、闻、问、切四种独立通道采集证据，在八纲坐标处交汇裁决：任何单通道的读数都可能被干扰（脉可假、症可诈），而多通道交叉一致的结论才是可信的坐标。要害有三：其一，通道异构互补——望取形色、闻取声息、问取病史、切取脉象，各自的失效模式不同，合参即天然冗余；其二，证伪优先——仲景惯以'反'字标记矛盾读数（'身大热反欲得衣'），矛盾信号不是噪声而是深度线索；其三，采集有纪律——先问后切以避诱导，记录原话以避转译失真，观察本身被规范化为可复现流程。方法论签名：单一读数是意见，交叉读数才是诊断。",
+   "definition_en": "Gather evidence through four independent channels—inspection, listening/smelling, inquiry, palpation—converging at the eight-principle coordinate for adjudication: any single channel can be corrupted (the pulse can feign, the patient can misstate); only conclusions consistent across channels are trustworthy. Three essentials: the channels are heterogeneous and complementary—inspection takes form and color, listening takes sounds, inquiry takes history, palpation takes the pulse, each with different failure modes, giving natural redundancy; falsification comes first—Zhang Zhongjing habitually flags contradictory readings with 'yet' ('feverish body yet craving clothes'), and contradictions are not noise but deep clues; and gathering is disciplined—asking before palpating to avoid leading, recording verbatim to avoid translation loss, observation itself normalized into a reproducible protocol. Signature: a single reading is an opinion; crossed readings are a diagnosis.",
+   "source_chapter": "《伤寒论·自序》'观其脉证'；《金匮要略》'病人语声寂然喜惊呼者，骨节间病'诸条",
+   "key_concepts": [
+    "四诊合参",
+    "通道冗余",
+    "矛盾读数",
+    "观察规范",
+    "证伪优先"
+   ],
+   "process_zh": [
+    "通道独立：按望闻问切四通道分别采集，通道间不预设权重、不互相诱导",
+    "标记矛盾：显式记录通道间的冲突读数（'反'字条款），矛盾即高价值信息",
+    "交叉裁决：以八纲坐标为汇聚点，用一致读数定坐标，用矛盾读数查掩盖（真假寒热）",
+    "留档复现：记录原始证候而非结论转译，使后续医者可独立重验坐标"
+   ],
+   "process_en": [
+    "Channel independence: gather via inspection, listening, inquiry, palpation separately—no preset weights, no cross-channel leading",
+    "Flag contradictions: explicitly record conflicting readings between channels ('yet'-clauses); contradiction is high-value information",
+    "Cross-adjudicate: converge on the eight-principle coordinate, fix the coordinate by consistent readings and probe concealment (true-false cold-heat) by contradictions",
+    "Archive for reproducibility: record raw findings, not conclusion translations, so later physicians can independently re-derive the coordinate"
+   ],
+   "key_quote_zh": "省疾问病，务在口给；相对斯须，便处汤药——按寸不及尺，握手不及足，人迎趺阳，三部不参……夫欲视死别生，实为难矣。",
+   "key_quote_en": "Examining illness by glib questioning alone, prescribing after a moment's glance—feeling the inch but not the cubit, the hand but not the foot, leaving the three pulse positions uncorrelated... to judge life and death thus is truly hard.",
+   "representative_cases_zh": [
+    "'身大热反欲得衣者，热在皮肤，寒在骨髓'：望诊（热）与问诊（欲衣）冲突处即诊断要害——矛盾读数直接导向真假寒热的深层判别",
+    "《自序》痛斥'省疾问病，务在口给'：单通道（只问不切）诊断的系统性风险被点名——信息融合不足即医疗事故之源",
+    "反例警示：四诊数据并非越多越好——'愈趋愈细'的脉学玄化在后世滋生附会；通道价值取决于其与坐标轴的判别力，而非采集的仪式感"
+   ],
+   "representative_cases_en": [
+    "'Feverish body yet craving clothes: heat at the skin, cold at the marrow'—the clash between inspection and inquiry is precisely the diagnostic crux; contradictory readings point straight to the deep true-false discrimination",
+    "The preface's attack on 'glib examination': the systemic risk of single-channel (question-only) diagnosis named outright—insufficient fusion is a source of medical error",
+    "Counter-case: more four-examination data is not automatically better—later esoteric escalation of pulse lore bred overinterpretation; a channel's value lies in its discriminative power on the coordinate axes, not in ritual thoroughness"
+   ],
+   "modern_applications_zh": [
+    "多模态医疗AI：影像、化验、病史的交叉验证与冲突检测",
+    "情报分析与金融尽调：多源信息的交叉印证与'反常即线索'原则",
+    "用户体验研究：行为数据、访谈、埋点多通道互证"
+   ],
+   "modern_applications_en": [
+    "Multimodal medical AI: cross-validation and conflict detection across imaging, labs, and history",
+    "Intelligence analysis and financial due diligence: cross-corroboration and 'anomaly as clue'",
+    "UX research: mutually confirming behavioral data, interviews, and telemetry"
+   ],
+   "related_modes": [
+    "M-ZZJ-002",
+    "M-ZZJ-003",
+    "M-ZZJ-008"
+   ]
+  },
+  {
+   "id": "M-ZZJ-008",
+   "mode_code": "M-ZZJ-008",
+   "name_zh": "误治坏病逆推法",
+   "name_en": "Mistreatment Backtracking Method",
+   "category": "反思方法",
+   "domain_zh": "错误利用/逆向推理",
+   "domain_en": "Exploiting Errors / Reverse Inference",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "把治疗失败本身作为最高密度的诊断信息源：误汗、误下、误吐产生的'坏病'，其紊乱证候中仍残留着原坐标与误治手段的双重指纹——'知犯何逆'，从损害形态逆推错误操作与病机真相。要害有三：其一，错误是受控实验——误治相当于对系统施加了计划外的扰动，其响应曲线暴露常规观察看不到的系统结构；其二，逆推需双向解码——既解'病怎么走'（传变），又解'医怎么错'（何逆），两个变量从同一症候群中分离；其三，坏病有处理协议——从'观其脉证'到'随证治之'，错误之后有标准化的复盘与重启流程，而非推诿。方法论签名：不要浪费每一次误治——坏掉的病历比成功的病历信息量更大。",
+   "definition_en": "Treat therapeutic failure itself as the densest source of diagnostic information: 'wrecked disease' from erroneous sweating, purging, or vomiting still bears dual fingerprints of the original coordinate and the mistreatment—'know what went wrong'; from the damage morphology, back-infer both the erroneous operation and the true mechanism. Three essentials: errors are controlled experiments—mistreatment is an unplanned perturbation whose response curve exposes system structure invisible to routine observation; backtracking decodes in both directions—how the disease moved (transmission) and how the physician erred (what went wrong), two variables separated from the same syndrome cluster; and wrecked disease has a protocol—from 'observe the pulse and signs' to 'treat by the pattern,' a standardized postmortem and restart procedure, not blame-shifting. Signature: never waste a mistreatment—broken case records carry more information than successful ones.",
+   "source_chapter": "《伤寒论》第16条'观其脉证，知犯何逆，随证治之'；太阳病篇误汗误下诸变证条文",
+   "key_concepts": [
+    "坏病",
+    "知犯何逆",
+    "误治信息",
+    "逆向推理",
+    "复盘协议"
+   ],
+   "process_zh": [
+    "保全现场：以原始脉证记录固定坏病状态，不做急于求成的覆盖性治疗",
+    "双向解码：从证候逆推'病之传变'与'医之何逆'两条线索，分离疾病自然轨迹与人为扰动",
+    "定位新坐标：以八纲重定误治后的证候坐标，识别新状态（虚、实、变证类型）",
+    "协议化重启：按'随证治之'重开方证闭环，并把本次'何逆—坏象—复得'写入案例库"
+   ],
+   "process_en": [
+    "Preserve the scene: fix the wrecked-disease state with raw pulse-and-sign records, resisting hasty blanket treatment",
+    "Decode both ways: back-infer from the syndrome 'how the disease transmitted' and 'what the physician did wrong,' separating natural trajectory from artificial perturbation",
+    "Re-fix the coordinate: re-derive the post-mistreatment pattern coordinate via the eight principles, identifying the new state (deficiency, excess, transformed pattern)",
+    "Protocolized restart: reopen the formula-pattern loop per 'treat by the pattern,' and log this 'error—wreckage—recovery' into the case library"
+   ],
+   "key_quote_zh": "太阳病三日，已发汗，若吐、若下、若温针，仍不解者，此为坏病，桂枝不中与之也。观其脉证，知犯何逆，随证治之。",
+   "key_quote_en": "Taiyang disease for three days: sweated, vomited, purged, or needle-warmed, yet unresolved—this is wrecked disease; Cinnamon no longer fits. Observe the pulse and signs, know what went wrong, treat by the pattern.",
+   "representative_cases_zh": [
+    "'此为坏病，桂枝不中与之也'：原坐标失效的判定先行——不承认'原方再试'的沉没成本谬误",
+    "误下后'气上冲胸'与'微喘'的分流：同为误下，响应形态不同指示不同残留病机——从损害形态反推系统内部结构",
+    "反例警示：逆推依赖初始记录质量——'坏病'条文详于变象而略于时序，后世坏病医案常因'何逆'记载不明而无法复推：错误利用法的前提是错误记录法"
+   ],
+   "representative_cases_en": [
+    "'This is wrecked disease; Cinnamon no longer fits': the judgment that the old coordinate has failed comes first—refusing the sunk-cost fallacy of 'retry the original formula'",
+    "After erroneous purging, 'qi surging to the chest' versus 'slight panting' branch differently: same error, different response shapes indicating different residual mechanisms—internal structure back-inferred from damage morphology",
+    "Counter-case: backtracking depends on initial record quality—the wrecked-disease clauses detail appearances but compress sequence; later case histories often cannot be retro-traced because 'what went wrong' went unrecorded: exploiting errors presupposes recording them"
+   ],
+   "modern_applications_zh": [
+    "事后复盘（post-mortem）文化：从生产事故逆推系统结构",
+    "A/B实验中意外结果的根因挖掘",
+    "临床不良事件的根因分析（RCA）与患者安全体系"
+   ],
+   "modern_applications_en": [
+    "Post-mortem culture: back-inferring system structure from production incidents",
+    "Root-cause mining of unexpected A/B test results",
+    "Root-cause analysis (RCA) and patient-safety systems for clinical adverse events"
+   ],
+   "related_modes": [
+    "M-ZZJ-003",
+    "M-ZZJ-007",
+    "M-ZZJ-009"
+   ]
+  },
+  {
+   "id": "M-ZZJ-009",
+   "mode_code": "M-ZZJ-009",
+   "name_zh": "经方标准模块法",
+   "name_en": "Canonical-Formula Standard Module Method",
+   "category": "知识工程",
+   "domain_zh": "模块化复用/标准化",
+   "domain_en": "Modular Reuse / Standardization",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "把治法封装为标准化的方剂模块：固定的药物组成、固定的剂量比例、固定的煎服规程、固定的主治证候——经方以'祖方'形态发布，后世在模块之上做加减而非重写。要害有三：其一，接口稳定——桂枝汤、麻黄汤的组成一千八百年不变，任何医者调用的都是同一实现，疗效数据可跨代累积；其二，加减是文档化的扩展点——'喘者加厚朴杏仁'的加减法随主方一并发布，扩展被规范在框架之内而非自由发挥；其三，模块有严格适用边界——'桂枝下咽，阳盛则毙'，复用未经坐标校验的模块即灾难，标准化的另一面是防滥用。方法论签名：写一次，验千次——经方是医学史上最早的经过规模验证的函数库。",
+   "definition_en": "Encapsulate therapies as standardized formula modules: fixed composition, fixed dosage ratios, fixed decoction protocols, fixed indicated patterns—canonical formulas shipped as 'ancestor templates,' later generations extending them by documented modification rather than rewriting. Three essentials: stable interfaces—the composition of Guizhi and Mahuang Tang unchanged for 1,800 years; every physician invokes the same implementation, letting efficacy data accumulate across generations; documented extension points—modifications like 'for panting, add Magnolia bark and apricot kernel' ship with the main formula, keeping extension within the framework; and strict applicability boundaries—'Cinnamon down the throat, death to yang-excess': reusing a module without coordinate verification is disaster; standardization's other face is abuse prevention. Signature: write once, verify a thousand times—the canonical formulas are medicine's earliest scale-verified function library.",
+   "source_chapter": "《伤寒论》113方与《金匮要略》诸方及其方后注、加减法",
+   "key_concepts": [
+    "经方",
+    "方剂模块化",
+    "加减法",
+    "煎服规程",
+    "接口稳定"
+   ],
+   "process_zh": [
+    "模块封装：把'证候坐标→药物组成→剂量比例→煎服规程'打包为不可变单元",
+    "文档化扩展点：随主方发布标准加减法，扩展必须声明作用于哪个证候偏移",
+    "跨代复用：以祖方为接口积累跨代疗效数据，加减经验回写为新的扩展档",
+    "边界防护：为每模块声明禁忌坐标（阳盛忌桂、虚家忌汗），复用前强制校验"
+   ],
+   "process_en": [
+    "Module encapsulation: package 'pattern coordinate → composition → dosage ratio → decoction protocol' as an immutable unit",
+    "Documented extension points: publish standard modifications with each formula; every extension must declare which pattern drift it addresses",
+    "Cross-generational reuse: accumulate efficacy data across generations on the ancestor-formula interface, folding modification experience back as new extension grades",
+    "Boundary guards: declare contraindicated coordinates per module ('yang excess forbids Cinnamon,' 'deficient constitutions forbid sweating'); mandatory checks before reuse"
+   ],
+   "key_quote_zh": "桂枝下咽，阳盛则毙。——模块的力量与模块的边界，同为方剂学的立身之本。",
+   "key_quote_en": "Cinnamon down the throat means death in yang excess.—A module's power and a module's boundaries are the twin foundations of formula science.",
+   "representative_cases_zh": [
+    "桂枝汤家族：桂枝加桂、桂枝加芍药、桂枝加葛根、小建中等十余个变体共享同一基方接口——加减法使一个模块裂变为一族可复用实现",
+    "煎服规程的标准化：'以水七升，煮取三升……服已须臾，啜热稀粥'——从剂量到护理的全程协议化，疗效不再依赖执行者的即兴发挥",
+    "反例警示：温病学派创立银翘散等新方以应对经方覆盖不到的温热病——模块库的接口再稳定，遇到新输入域仍需新增模块而非硬套旧接口"
+   ],
+   "representative_cases_en": [
+    "The Guizhi Tang family: a dozen variants—plus Cinnamon, plus Peony, plus Pueraria, Minor Construct-the-Middle—all sharing one base interface; documented modifications fission one module into a reusable family",
+    "Standardized decoction protocol: 'seven sheng of water, boil down to three... after taking, sip hot thin gruel'—from dosage to nursing care fully protocolized; efficacy no longer hinges on the executor's improvisation",
+    "Counter-case: the warm-disease school created new formulas like Yinqiao San for fevers the canonical library did not cover—however stable the interface, new input domains require new modules, not forcing old ones"
+   ],
+   "modern_applications_zh": [
+    "临床路径与标准化诊疗包（treatment bundles）",
+    "软件工程的开源库与扩展点设计（core + plugins + guard clauses）",
+    "制造业的标准化作业程序（SOP）与防错设计"
+   ],
+   "modern_applications_en": [
+    "Clinical pathways and standardized treatment bundles",
+    "Open-source library and extension-point design in software (core + plugins + guard clauses)",
+    "Standard operating procedures (SOP) and poka-yoke mistake-proofing in manufacturing"
+   ],
+   "related_modes": [
+    "M-ZZJ-003",
+    "M-ZZJ-006",
+    "M-ZZJ-010"
+   ]
+  },
+  {
+   "id": "M-ZZJ-010",
+   "mode_code": "M-ZZJ-010",
+   "name_zh": "文本留验传世法",
+   "name_en": "Text-As-Experiment Preservation Method",
+   "category": "传承方法",
+   "domain_zh": "知识工程/可复现性设计",
+   "domain_en": "Knowledge Engineering / Reproducibility Design",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "以条文体把毕生临床实验写成可复现的文本：每一条都是'条件—判据—治法—预后'的压缩记录，省略叙事、保留变量——条文不是文章，是留给后人的实验规程。要害有三：其一，可检验性优先于可读性——'脉浮紧、无汗、恶寒、发汗则愈'，变量、判据与预期结果齐备，任何后人可独立重跑；其二，自知边界并写进文本——'未能尽愈诸病'的谦辞与'坏病'章的方法，都是作者对自己系统失效域的显式声明；其三，文本分层防损——正文记规程、自序记立场与批判（痛斥'各承家技，终始顺旧'），使后世既能重跑实验也能追溯其科学态度。方法论签名：真正的传承不是留下结论，而是留下别人能重新得出结论的规程。",
+   "definition_en": "Write a lifetime of clinical experiments as reproducible text in the clause form: each clause is a compressed record of 'conditions—criteria—treatment—prognosis,' omitting narrative and preserving variables—the clauses are not essays but experimental protocols bequeathed to posterity. Three essentials: testability over readability—'floating-tight pulse, no sweat, aversion to cold, sweating resolves it': variables, criteria, and expected outcome all present, any successor can re-run independently; the author's known limits are written into the text—the modest disclaimer 'cannot cure all illnesses' and the wrecked-disease chapter are explicit declarations of the system's failure domain; and text is layered against loss—the body records protocols, the preface records stance and critique (denouncing houses 'each keeping its own technique, following the old to the end'), so successors can both re-run the experiments and trace the scientific attitude. Signature: true legacy is not leaving conclusions but leaving the protocols by which others can re-derive the conclusions.",
+   "source_chapter": "《伤寒杂病论·自序》'感往昔之沦丧，伤横夭之莫救，乃勤求古训，博采众方'；全书条文体例",
+   "key_concepts": [
+    "条文体",
+    "可复现规程",
+    "边界声明",
+    "文本分层",
+    "勤求古训博采众方"
+   ],
+   "process_zh": [
+    "压缩为变量：剥离叙事与修辞，只保留'判据—治法—预后'三元组",
+    "声明失效域：显式写出系统治不了什么、误治后怎么办（坏病章）与作者自知之限",
+    "分层写作：正文存规程，序言存立场与对同行生态的批判，双层文本互为注脚",
+    "面向重跑：以最低阅读成本支持后人独立重验——每条条文都是一个可独立执行的实验"
+   ],
+   "process_en": [
+    "Compress to variables: strip narrative and rhetoric, keeping only the 'criteria—treatment—prognosis' triple",
+    "Declare the failure domain: explicitly write what the system cannot cure, what to do after errors (the wrecked-disease chapter), and the author's self-known limits",
+    "Layered writing: body text stores protocols; the preface stores stance and critique of the guild ecosystem—the two layers annotate each other",
+    "Design for re-running: support independent re-verification at minimal reading cost—every clause is a standalone executable experiment"
+   ],
+   "key_quote_zh": "感往昔之沦丧，伤横夭之莫救，乃勤求古训，博采众方，撰用《素问》……为《伤寒杂病论》合十六卷。虽未能尽愈诸病，庶可以见病知源。",
+   "key_quote_en": "Grieving the deaths of the past and mourning those lost to untimely harm, I diligently sought ancient teachings and broadly gathered the many formulas... composing the Treatise in sixteen juan. Though it cannot cure all illnesses, may it at least let one see the disease and know its source.",
+   "representative_cases_zh": [
+    "条文体的极致：'太阳与少阳合病，自下利者，与黄芩汤'——十九个字含病位、病机、判据、方剂四要素，可独立复现",
+    "《自序》的元反思：'观今之医，不念思求经旨……各承家技，终始顺旧'——文本同时批判了不使用文本化方法的同行生态，把方法论之争写进了传世载体",
+    "反例警示：战乱散佚致《杂病》部分仅以《金匮》残卷传世——再好的规程也受制于载体的存续：文本留验必须同时投资载体冗余（王叔和的整理正是第二次写入）"
+   ],
+   "representative_cases_en": [
+    "The clause form at its peak: 'Taiyang and shaoyang combined disease with spontaneous diarrhea: give Scutellaria Decoction'—nineteen characters carrying location, mechanism, criterion, and formula, independently reproducible",
+    "The preface's meta-reflection: 'physicians today do not seek the classics' meaning... each house keeps its own technique, following the old to the end'—the text simultaneously critiques the guild that fails to textualize, writing the methodological dispute into the medium itself",
+    "Counter-case: war scattered the original, the miscellaneous-disease half surviving only as the fragmented Jingui Yaolüe—even the best protocol is hostage to its medium; textual preservation must invest in carrier redundancy (Wang Shuhe's edition was a second writing)"
+   ],
+   "modern_applications_zh": [
+    "可复现研究与实验记录规范（预注册、变量清单、开放数据）",
+    "开源文档与运维手册：runbook 即当代条文体",
+    "知识库工程：以'条件—判据—动作'结构沉淀组织经验"
+   ],
+   "modern_applications_en": [
+    "Reproducible research and experimental record norms (preregistration, variable checklists, open data)",
+    "Open-source documentation and ops manuals: the runbook as the modern clause form",
+    "Knowledge-base engineering: sedimenting organizational experience as 'condition—criterion—action' structures"
+   ],
+   "related_modes": [
+    "M-ZZJ-003",
+    "M-ZZJ-007",
+    "M-ZZJ-009"
+   ]
+  }
+ ]
+}

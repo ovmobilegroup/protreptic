@@ -1,0 +1,787 @@
+{
+ "schema_version": "v6",
+ "id": "H-SSM-001",
+ "code": "SSM",
+ "figure_name": "孙思邈",
+ "figure_code": "SunSimiao",
+ "figure_pinyin": "Sūn Sīmiǎo",
+ "birth_year": 541,
+ "death_year": 682,
+ "era": "541-682",
+ "era_en": "541-682",
+ "school": "医药学（临床医学工程化与医学伦理体系化的集大成者，'药王'）",
+ "historical_significance": "孙思邈（541-682），唐代医药学家，京兆华原（今陕西铜川）人，后世尊为'药王'。少年因病学医，终身隐于民间行医著述，屡辞隋唐征召。永徽三年著成《备急千金要方》三十卷，三十年后（垂拱间/永淳前）又成《千金翼方》三十卷——两部各三十卷的医学总集，系统收录伤寒、脏腑杂病、针灸、食治、养性、妇产、儿科普方近六千首，并首次把'大医精诚'立为医者职业伦理总纲：'人命至重，有贵千金'。他的独特处在于方法论体系：辨证应变（同病异治、异病同治）、治未病优先（'上医医未病之病'）、食治优先（'食疗不愈，然后命药'）、针药并用（单用一法者'皆非良医'）、妇孺优先（妇人方、婴孺方居全书卷首）、摄养有常与博采勤修——他把医学从方药堆砌重构为一个从价值伦理（精诚、普同一等）到知识管理（医案档案、无终局版本）再到临床决策（辨证、阶梯、组合）的完整方法系统；同时首录脚气病防治、系统整理针灸明堂图、收录印度与波斯医方，是中国临床医学工程化的奠基者。",
+ "historical_significance_en": "Sun Simiao (541-682), Tang-dynasty physician and pharmacologist, a native of Huayuan in Jingzhao (modern Tongchuan, Shaanxi), honored by later ages as the 'King of Medicines'. Drawn to medicine by childhood illness, he practiced and wrote among the people for life, repeatedly declining Sui and Tang summons to office. In 652 he completed the Beiji Qianjin Yaofang (Essential Formulas Worth a Thousand Gold for Emergencies) in 30 juans, and three decades later the Qianjin Yifang (Supplement) in another 30 juans — twin medical compendia systematizing some six thousand formulas across febrile disorders, organ diseases, acupuncture, dietetics, self-cultivation, obstetrics and pediatrics, and for the first time installing 'Dayi Jingcheng' (On the Absolute Sincerity of Great Physicians) as the master ethic: 'a human life outweighs a thousand gold'. His distinctiveness is a methodological system: pattern-differentiated response (same disease, different treatments), prevention-first ('the superior physician treats the not-yet-ill'), diet-first escalation ('when diet fails, then the medicine'), multimodal integration (single-modality physicians 'are not good physicians'), vulnerable-first (women's and children's formulas opening the whole book), constant self-regulation and lifelong erudite assimilation — rebuilding medicine from a heap of formulas into a complete method system running from value ethics (sincerity, equal regard) through knowledge management (case archives, no final edition) to clinical decision (differentiation, escalation, combination); he also recorded the first beriberi prevention, systematized acupuncture charts, and absorbed Indian and Persian medicine — the founder of clinical medicine as engineering in China.",
+ "unique_thinking": "孙思邈思维模式的独特性在于'伦理-方法-知识'三层一体：他不只开方，而是把'医者应当是谁'（大医精诚、普同一等）、'医术应当如何组织'（辨证、阶梯、组合）、'医知应当如何积累'（医案档案、无终局修订）同时系统化；五点尤具原创性——(1)把'精'（技艺）与'诚'（道德）绑定为一个职业行为的两面，技术卓越本身即伦理义务；(2)干预强度阶梯（食→药→针）带升级判据，最小有效强度原则先于现代阶梯治疗一千三百年；(3)把妇孺专科置于全书卷首，用书的结构而非言辞宣告'脆弱优先'；(4)健康交给习惯常数而非偶发药方——'十二少'与饮食定量是把行为医学参数化；(5)对异源知识（印度、波斯、民间）无门槛采撷并公开破'秘方不宣'之弊——知识公共品化的最早自觉。",
+ "unique_thinking_en": "The uniqueness of Sun Simiao's thinking is a three-layer unity of ethics, method and knowledge: he did not merely prescribe but simultaneously systematized 'who the physician shall be' (sincere mastery, equal regard), 'how the art shall be organized' (differentiation, escalation, combination) and 'how medical knowledge shall accumulate' (case archives, endless revision). Five points are especially original: (1) binding consummate skill ('jing') with sincere devotion ('cheng') as two faces of one professional act — technical excellence is itself an ethical duty; (2) an escalation ladder of intervention intensity (diet, herbs, needles) with explicit upgrade criteria — the minimal-effective-intensity principle thirteen centuries before stepped care; (3) placing women's and children's specialties at the head of the whole book, declaring vulnerable-first through structure rather than rhetoric; (4) entrusting health to the constants of habit rather than episodic prescriptions — the 'twelve littles' and quantified dietetics as parameterized behavioral medicine; (5) threshold-free harvesting of alien knowledge (Indian, Persian, folk) with an open stand against secret formulas — among the earliest consciousness of knowledge as a public good.",
+ "civilization_zh": "南北朝末期至盛唐：生于西魏大统七年（541），历经北周、隋、唐三朝；七岁就学，日诵千言，被誉为圣童；少时因病学医，立志'人命至重，有贵千金'；周宣帝时以王室多故隐居太白山学道行医；隋文帝征为国子博士，称病不就；唐太宗召至京师，欲授官爵，固辞不受；显庆四年唐高宗召见，拜谏议大夫，仍辞不受；上元元年隐居五台山（药王山）著述；永淳元年（682）卒，享年一百四十一岁（一说百岁余）；永徽三年（652）撰成《备急千金要方》，晚年复撰《千金翼方》",
+ "civilization_en": "From the late Northern and Southern Dynasties to the High Tang: born in 541 under Western Wei, he lived through Northern Zhou, Sui and Tang; a prodigy reading a thousand words a day at seven, he turned to medicine from childhood illness, vowing that 'a life outweighs a thousand gold'; during the troubled last years of Northern Zhou he withdrew to Mount Taibai to study Daoism and practice medicine; summoned as Erudite of the National Academy by Emperor Wen of Sui, he declined on grounds of illness; brought to court by Emperor Taizong of Tang he refused office and rank outright, and again declined the counsellor post offered by Emperor Gaozong; from Shangyuan onward he dwelt on Mount Wutai (the modern Medicine-King Hill) writing; he died in 682, said to be 141 years old; the Qianjin Yaofang was completed in 652 and the Qianjin Yifang in his last years.",
+ "roles_zh": [
+  "医药学家",
+  "临床医学家",
+  "医学伦理奠基人",
+  "针灸学家",
+  "养生学家",
+  "药王"
+ ],
+ "roles_en": [
+  "Physician-pharmacologist",
+  "Clinical medicine pioneer",
+  "Founder of medical ethics",
+  "Acupuncturist",
+  "Regimen theorist",
+  "King of Medicines"
+ ],
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-SSM-001",
+  "M-SSM-002",
+  "M-SSM-003",
+  "M-SSM-004",
+  "M-SSM-005",
+  "M-SSM-006",
+  "M-SSM-007",
+  "M-SSM-008",
+  "M-SSM-009",
+  "M-SSM-010"
+ ],
+ "key_works": [
+  "《备急千金要方》",
+  "《千金翼方》",
+  "《明堂三人图》（佚）",
+  "《老子注》（托名）",
+  "《枕中方》（托名）"
+ ],
+ "key_concepts": [
+  "大医精诚",
+  "人命至重",
+  "治未病",
+  "食治",
+  "针药并用",
+  "辨证",
+  "摄养",
+  "药王"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-ZZJ-001",
+   "relation_type": "influence",
+   "description_zh": "孙思邈直接继承张仲景的辨证论治框架并把它工程化：《千金要方》几乎完整收录《伤寒论》条文而以方类证重排，'同病异治、异病同治'的辨证核心在孙思邈手中扩展为妇孺食养针药全领域；他公开批评'江南诸师秘仲景要方不宣'，以公开化立场守护了仲景之学的传承。",
+   "description_en": "Sun Simiao inherited Zhang Zhongjing's pattern-differentiation framework and engineered it: the Qianjin Yaofang reproduces the Shanghan Lun text nearly whole, re-sorted by formula-into-pattern, and extends the core of 'same disease, different treatments' across women's and children's care, dietetics, needles and herbs; he openly attacked 'masters south of the river who keep Zhongjing's formulas secret', guarding the transmission of the Zhongjing school with a public-knowledge stance."
+  },
+  {
+   "target_figure_code": "H-LSZ-001",
+   "relation_type": "comparison",
+   "description_zh": "孙思邈与李时珍相隔近千年，是'方法系统化'与'知识系统化'的对极：孙思邈把临床决策写成阶梯与伦理（怎么治），李时珍把药物世界写成分类档案（有什么药）；两者同以'千金/本草'为题眼——'人命至重有贵千金'与'本草纲目'都把医学知识的公共性置于个人声誉之上；李时珍的《本草纲目》1892种药分类法，正是孙思邈'医案档案法'在药物学维度的完成。",
+   "description_en": "A millennium apart, Sun Simiao and Li Shizhen form the poles of method-systematization versus knowledge-systematization: Sun wrote clinical decision as ladder and ethic (how to treat), Li wrote the world of drugs as a classified archive (what drugs exist); both echo 'a thousand gold' — putting the public character of medical knowledge above personal fame; Li's 1,892-drug taxonomy in the Bencao Gangmu is Sun's case-archive method completed in the pharmacological dimension."
+  },
+  {
+   "target_figure_code": "H-GAL-001",
+   "relation_type": "comparison",
+   "description_zh": "孙思邈与盖伦同为古代医学的'方法自觉'代表而取向相反：盖伦以解剖-实验把医学推向侵入性验证与个人权威（'我的文本即正统'），孙思邈以阶梯与档案把医学推向温和干预与知识公共品（'涉猎群书、博采众方'）；盖伦的传统靠权威延续千年，孙思邈的方法靠可复制的档案体系传承——权威型与系统型两种知识传承路线的经典对照。",
+   "description_en": "Sun Simiao and Galen, both exemplars of methodological self-awareness in ancient medicine, took opposite tacks: Galen drove medicine toward invasive verification and personal authority ('my texts are the canon'), Sun toward gentle intervention and knowledge as a public good ('range widely, harvest many formulas'); Galen's tradition endured a millennium on authority, Sun's on a replicable archive system — the classic contrast between authority-based and system-based knowledge transmission."
+  },
+  {
+   "target_figure_code": "H-ISN-001",
+   "relation_type": "comparison",
+   "description_zh": "孙思邈与伊本·西那（阿维森纳）各建医学总集（7世纪/11世纪）：《千金方》与《医典》同为百科全书式的临床工程；《医典》长于体系逻辑与药物试验规则，《千金方》长于伦理总纲与治疗阶梯；孙思邈收录印度耆婆医方，阿维森纳吸收盖伦-希腊传统——两位总集作者共同证明：医学成为'可积累的公共工程'是各文明的独立收敛。",
+   "description_en": "Sun Simiao and Ibn Sina (Avicenna) built medical compendia in parallel eras (7th/11th centuries): the Qianjin Fang and the Canon of Medicine as encyclopedic clinical engineering; the Canon excels in systematic logic and drug-trial rules, the Qianjin in its master ethic and treatment ladder; Sun absorbed the Indian Jivaka tradition, Avicenna the Galenic-Greek — two compilers jointly proving that medicine as accumulable public engineering is an independent convergence of civilizations."
+  }
+ ],
+ "tags": [
+  "孙思邈",
+  "药王",
+  "千金方",
+  "大医精诚",
+  "治未病",
+  "食治",
+  "针药并用",
+  "辨证",
+  "唐",
+  "医学伦理",
+  "药王山",
+  "铜川"
+ ],
+ "modes": [
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-001",
+   "mode_code": "M-SSM-001",
+   "name_zh": "大医精诚法",
+   "name_en": "The Method of Sincere Mastery",
+   "category": "伦理/医学哲学",
+   "domain_zh": "医学伦理总纲/把'精'（技艺精湛）与'诚'（心诚济世）立为医者双重不可拆分的天职——技术卓越与道德承诺是同一职业行为的两面",
+   "domain_en": "Master ethic of medicine: 'jing' (consummate skill) and 'cheng' (sincere devotion) as an inseparable dual vocation of the physician — technical excellence and moral commitment as two faces of one professional act",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "医学伦理总纲/把'精'（技艺精湛）与'诚'（心诚济世）立为医者双重不可拆分的天职——技术卓越与道德承诺是同一职业行为的两面",
+   "definition_en": "Master ethic of medicine: 'jing' (consummate skill) and 'cheng' (sincere devotion) as an inseparable dual vocation of the physician — technical excellence and moral commitment as two faces of one professional act",
+   "source_chapter": "《备急千金要方·大医精诚》",
+   "key_quote_zh": "人命至重，有贵千金，一方济之，德逾于此",
+   "key_quote_en": "'A human life outweighs a thousand pieces of gold; to save it with one prescription is a virtue beyond measure.'",
+   "key_concepts": [
+    "大医精诚",
+    "双重天职",
+    "技术即道德",
+    "人命至重",
+    "职业誓言"
+   ],
+   "process_zh": [
+    "把'精'与'诚'立为不可拆分的一体两面：先声明'人命至重，有贵千金'的价值前提，再分别给出技艺标准（博极医源、精勤不倦）与道德标准（不得瞻前顾后、自虑吉凶）",
+    "技艺端定标准：'凡欲为大医，必须谙《素问》……博极医源，精勤不倦'——把读经典、穷医理、勤练习列为执业资格而非加分项",
+    "道德端定戒律：列出'不得于性命之上，率尔自逞俊快'等具体禁令——把抽象的'仁'翻译成可执行的行为红线",
+    "以誓言形式固化：写成可传诵、可考核的文本，让每一代医者入门即接受同一场价值安装"
+   ],
+   "process_en": [
+    "Inseparable duality: open with the value premise 'a life outweighs a thousand gold', then set separate standards of skill (exhaust the medical sources, study tirelessly) and of conduct (no hesitation, no self-regarding calculation)",
+    "Skill standard: mastering the classics and exhausting medical principles is a licensing requirement, not a bonus",
+    "Conduct code: concrete prohibitions translate abstract benevolence into enforceable behavioral red lines",
+    "Fix it as an oath: a recitable, auditable text installing the same values in every entering generation"
+   ],
+   "representative_cases_zh": [
+    "《大医精诚》篇本身：以'誓愿普救含灵之苦'开篇，把医者身份定义为道德承诺而非谋生职业——中国医学史上第一份系统医德文献",
+    "治疗'消渴'（糖尿病）时的饮食处方与药物并重：技艺之'精'体现为对病程的精细分期，道德之'诚'体现为对病人生活方式的持续督导",
+    "对'伤寒'热病的分期治疗体系：同一伦理框架下的技术深化——不出具自己不能负责的方剂"
+   ],
+   "representative_cases_en": [
+    "The 'Dayi Jingcheng' chapter itself: opening with 'vow to universally save all sentient beings from suffering' — the first systematic medical-ethics document in Chinese history",
+    "Diabetes (xiaoke) treatment pairing dietary prescription with drugs: skill in staging the disease, sincerity in sustained supervision of the patient's life habits",
+    "The staged treatment system for febrile 'shanghan' disorders: technical deepening under the same ethical frame — never issue a prescription one cannot answer for"
+   ],
+   "modern_applications_zh": [
+    "现代医师职业精神宣言（Physician Charter）的先例：技术胜任与道德承诺并列为职业性的两根支柱",
+    "知情同意与循证医学：'精'即证据标准，'诚'即把证据如实告知病人——二者合一才是完整的现代诊疗",
+    "医学伦理委员会与执业准入制度：把《大医精诚》式誓言制度化为可考核的准入与惩戒机制"
+   ],
+   "modern_applications_en": [
+    "The Physician Charter: professional competence and moral commitment as twin pillars — a direct modern heir",
+    "Informed consent and evidence-based medicine: 'jing' as the evidentiary standard, 'cheng' as honestly conveying it — together they make one complete clinical act",
+    "Ethics committees and licensing: institutionalizing the oath into auditable admission and discipline mechanisms"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "希波克拉底（跨文明平行：誓言传统把医德写成可传诵文本，比《大医精诚》早千年——但孙思邈把'技艺精湛'同样立为伦理义务，是独有增量）",
+    "特鲁多（传承：'有时治愈，常常帮助，总是安慰'——把'诚'落实为对不可治愈者的态度）",
+    "张仲景（上游：《伤寒杂病论》'感往昔之沦丧，伤横夭之莫救'——医德动机的源头）"
+   ],
+   "related_modes": [
+    "M-SSM-002",
+    "M-SSM-003",
+    "M-SSM-007",
+    "M-SSM-010"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-002",
+   "mode_code": "M-SSM-002",
+   "name_zh": "医案档案法",
+   "name_en": "The Method of Case-Archive System",
+   "category": "方法论/知识管理",
+   "domain_zh": "把散落的临床经验组织为可积累、可检索、可复用的知识资产——以分类档案取代个人记忆，使医学知识跨世代复利增长",
+   "domain_en": "Organizing scattered clinical experience into accumulable, retrievable, reusable knowledge assets — classified archives replacing personal memory so medical knowledge compounds across generations",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "把散落的临床经验组织为可积累、可检索、可复用的知识资产——以分类档案取代个人记忆，使医学知识跨世代复利增长",
+   "definition_en": "Organizing scattered clinical experience into accumulable, retrievable, reusable knowledge assets — classified archives replacing personal memory so medical knowledge compounds across generations",
+   "source_chapter": "《备急千金要方》整体结构",
+   "key_quote_zh": "凡百病之本，具列于篇，以备临证之需",
+   "key_quote_en": "'The roots of all diseases are laid out chapter by chapter, ready for use at the bedside.'",
+   "key_concepts": [
+    "医案档案",
+    "知识资产化",
+    "分类编目",
+    "跨代复利",
+    "经验外化"
+   ],
+   "process_zh": [
+    "承认经验会流失：先认识到个人记忆不可靠、师徒口传有损——把'记在脑子里'改为'写在档案里'",
+    "建立分类骨架：以病为纲、以方为目、以妇孺内外分科为层——给每个病例/方剂一个可检索的坐标",
+    "结构化记录：每条记录含病症、方剂、剂量、宜忌——使后人不必重走弯路即可复用",
+    "持续增补修订：'翼方'即为增补而生——档案是活的系统，随新证据扩展而非一次性出版物"
+   ],
+   "process_en": [
+    "Acknowledge loss: personal memory is unreliable, oral transmission degrades — move from 'kept in the head' to 'kept in the archive'",
+    "Build the taxonomy: diseases as chapters, prescriptions as entries, specialties as layers — every case gets a retrievable coordinate",
+    "Structured records: symptoms, formula, dosage, contraindications in each entry — successors reuse without re-walking the detours",
+    "Keep amending: the 'Yi Fang' (Supplement) exists to extend the first book — archives as living systems, not one-shot publications"
+   ],
+   "representative_cases_zh": [
+    "《千金要方》30卷按脏腑病症编排230余门：把当时可见的医方系统归档，供'家有此方者'按症检索",
+    "《千金翼方》30卷作为30年后的增补版：新方、新论、本草补充——同一档案体系的版本升级",
+    "收录来自民间、印度医学（耆婆方）、西域医方的跨文化条目：档案不问来源，只问可验证性"
+   ],
+   "representative_cases_en": [
+    "The 30-juan Qianjin Yaofang organized by organ-system and disease across 230+ sections: a searchable archive of the medical knowledge of the age",
+    "The 30-juan Qianjin Yifang as an edition issued decades later: new formulas, new discussions, materia medica supplements — a version upgrade of the same archive",
+    "Entries drawn from folk practice, Indian medicine (Jivaka formulas) and Western-Regions medicine: the archive asks only for verifiability, not provenance"
+   ],
+   "modern_applications_zh": [
+    "电子病历与临床数据库：现代医院的信息化正是'医案档案法'的工程化放大",
+    "系统综述与荟萃分析：把散落文献归档后做跨案模式提取——Cochrane 协作网是档案法的当代形态",
+    "知识管理系统（KMS）：企业把个人经验转为可检索组织资产，同一方法论"
+   ],
+   "modern_applications_en": [
+    "Electronic health records and clinical databases: hospital informatics is the engineered scale-up of case archiving",
+    "Systematic reviews and meta-analysis: cross-case pattern extraction over archived literature — the Cochrane Collaboration as the archive's contemporary form",
+    "Enterprise knowledge management: turning personal experience into retrievable organizational assets — the same methodology"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "李时珍（传承：《本草纲目》对药物的档案式分类编目——1892种药、16部60类，档案法的药物版）",
+    "林德（跨文明平行：对照试验后的系统归档催生循证医学——档案+对照=证据）",
+    "张仲景（上游：辨证条文体例为档案化提供早期范式）"
+   ],
+   "related_modes": [
+    "M-SSM-001",
+    "M-SSM-003",
+    "M-SSM-004",
+    "M-SSM-010"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-003",
+   "mode_code": "M-SSM-003",
+   "name_zh": "辨证应变法",
+   "name_en": "The Method of Pattern-Differentiated Response",
+   "category": "医学方法论/诊断决策",
+   "domain_zh": "同病可异治、异病可同治——治疗对象是'此刻这个人的具体证型'而非'疾病标签'，决策随证候动态调整",
+   "domain_en": "The same disease may merit different treatments, different diseases the same one — treat the patient's concrete pattern in this moment, not the disease label; decisions adjust dynamically with the syndrome",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "同病可异治、异病可同治——治疗对象是'此刻这个人的具体证型'而非'疾病标签'，决策随证候动态调整",
+   "definition_en": "The same disease may merit different treatments, different diseases the same one — treat the patient's concrete pattern in this moment, not the disease label; decisions adjust dynamically with the syndrome",
+   "source_chapter": "《千金要方》临证诸篇承《伤寒杂病论》辨证传统",
+   "key_quote_zh": "病有内同而外异，亦有内异而外同",
+   "key_quote_en": "'Some disorders are alike within yet differ without; others differ within yet seem alike without.'",
+   "key_concepts": [
+    "辨证论治",
+    "同病异治",
+    "异病同治",
+    "动态诊断",
+    "个体化医疗"
+   ],
+   "process_zh": [
+    "拒绝标签化：先警惕'同名即同治'的陷阱——病名只是初筛，证型才是处方依据",
+    "四诊合参采证：望闻问切多通道收集信息——用多源信号交叉验证，避免单一指标误导",
+    "归类到证：把信息映射到寒热虚实表里等证型空间——把连续的临床表现离散化为可操作的决策节点",
+    "随证立方、随效调整：证变则方变——处方是动态假设而非静态结论，服药反应即新证据"
+   ],
+   "process_en": [
+    "Refuse labeling: beware the trap 'same name, same treatment' — the disease name only screens; the pattern decides",
+    "Gather signs via the four examinations: look, listen, ask, palpate — cross-validate multi-channel signals so no single metric misleads",
+    "Map to the pattern: project findings onto the cold-heat, deficiency-excess, interior-exterior space — discretizing continuous presentations into actionable decision nodes",
+    "Prescribe by pattern, adjust by response: when the pattern shifts the formula shifts — the prescription is a living hypothesis, the drug response new evidence"
+   ],
+   "representative_cases_zh": [
+    "对脚气病的分级处理：依'干湿''寒热'等证型分别给出不同的食疗与药方——同一疾病下的个体化分流",
+    "对消渴病人的分层方案：初期饮食控制、中期药食并用、后期针药并施——随证候进展动态升级",
+    "妇人方与少小方的独立设科：承认特殊人群的证型规律不同，为其单建立证-处方体系"
+   ],
+   "representative_cases_en": [
+    "Graded management of beriberi (jiaoqi): distinct dietary and herbal prescriptions by dry-wet and cold-heat patterns — individualized triage within one disease",
+    "Tiered plans for xiaoke (diabetes): diet first, food plus drugs, then needles and drugs — escalation tracking the syndrome's progression",
+    "Separate sections for women's and children's disorders: acknowledging that special populations have different pattern laws, with their own differentiation-prescription systems"
+   ],
+   "modern_applications_zh": [
+    "精准医疗与个体化用药：基因组分层用药是'辨证'的分子生物学重述",
+    "动态诊疗与随访调整：慢病管理中按指标变化调整方案——处方即滚动假设",
+    "中医辨证论治的现代临床研究：同病异治/异病同治作为可检验的诊疗假说进入试验设计"
+   ],
+   "modern_applications_en": [
+    "Precision medicine and pharmacogenomics: genotype-stratified prescribing is the molecular restatement of pattern differentiation",
+    "Dynamic titration and follow-up: chronic-disease management adjusts the plan as markers move — the prescription as a rolling hypothesis",
+    "Modern clinical research on syndrome differentiation: same-disease-different-treatment as a testable hypothesis entering trial design"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "张仲景（上游：辨证论治框架的确立者，'观其脉证，知犯何逆，随证治之'）",
+    "盖顿（跨文明平行：生理学的反馈调节框架——治疗对象是动态状态而非静态标签）",
+    "叶天士（传承：温病卫气营血辨证把辨证体系再扩展）"
+   ],
+   "related_modes": [
+    "M-SSM-001",
+    "M-SSM-002",
+    "M-SSM-004",
+    "M-SSM-005"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-004",
+   "mode_code": "M-SSM-004",
+   "name_zh": "治未病优先法",
+   "name_en": "The Method of Prevention-First Prioritization",
+   "category": "预防医学/风险管理",
+   "domain_zh": "把资源优先投向风险发生之前——'上医治未病'：预防的收益虽不可见，却高于任何治疗；风险管理的最高形态是让风险不成形",
+   "domain_en": "Direct resources to before the risk materializes — 'the superior physician treats the not-yet-ill': prevention's gains are invisible yet outrank any treatment; the highest form of risk management is keeping the risk from taking shape",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "把资源优先投向风险发生之前——'上医治未病'：预防的收益虽不可见，却高于任何治疗；风险管理的最高形态是让风险不成形",
+   "definition_en": "Direct resources to before the risk materializes — 'the superior physician treats the not-yet-ill': prevention's gains are invisible yet outrank any treatment; the highest form of risk management is keeping the risk from taking shape",
+   "source_chapter": "《千金要方》引《黄帝内经》'上工治未病'而系统化",
+   "key_quote_zh": "上医医未病之病，中医医欲病之病，下医医已病之病",
+   "key_quote_en": "'The superior physician treats the not-yet-ill; the middling, the about-to-be-ill; the lesser, the already-ill.'",
+   "key_concepts": [
+    "治未病",
+    "预防优先",
+    "三级预防",
+    "早期干预",
+    "风险前置管理"
+   ],
+   "process_zh": [
+    "把健康设为连续谱而非二值状态：未病—欲病—已病三档——在'未病'档投入获得最高边际收益",
+    "识别欲病信号：建立亚临床状态的观察清单（食欲、睡眠、二便、情志）——用低成本监测捕捉早期偏移",
+    "先行为后药物：起居、饮食、情志调摄排在针药之前——最便宜的干预优先",
+    "把预防成果制度化：写成可执行的日常规范（食治、养性、居处）而非一次性建议——预防需要纪律载体"
+   ],
+   "process_en": [
+    "Treat health as a continuum, not a binary: not-yet-ill, about-to-be-ill, already-ill — the top band yields the highest marginal return on investment",
+    "Spot the pre-clinical signs: an observation checklist for subclinical states (appetite, sleep, bowels, mood) — cheap monitoring catches early drift",
+    "Behavior before drugs: daily routine, diet and emotional regulation precede needles and herbs — the cheapest intervention first",
+    "Institutionalize prevention: executable daily norms (dietetics, self-cultivation, dwelling) rather than one-off advice — prevention needs a vehicle of discipline"
+   ],
+   "representative_cases_zh": [
+    "《千金要方》单设'食治'卷居诸疗之首：把饮食调养列为第一干预层，药疗次之",
+    "养性篇的作息与情志规范：'莫久行久坐久卧久视久听'——把'不过度'写成可执行守则",
+    "对脚气病从饮食源头预防：提示常食粳米、粟米等以防其发——在病因认知（维生素B1缺乏）明确前千余年做出了有效的预防处方"
+   ],
+   "representative_cases_en": [
+    "A dedicated dietetics juan placed ahead of all therapies in the Qianjin Yaofang: diet as the first intervention layer, pharmacotherapy second",
+    "Regimens in the self-cultivation chapter: 'no prolonged walking, sitting, lying, gazing or listening' — moderation as an executable rulebook",
+    "Preventing beriberi at the dietary source: regular rice and millet advised before onset — an effective preventive prescription over a millennium before the thiamine mechanism was known"
+   ],
+   "modern_applications_zh": [
+    "公共卫生三级预防体系：一级预防（疫苗、健康教育）优先于二级筛查与三级治疗——同一资源分配逻辑",
+    "生活方式医学与慢病前移管理：把干预窗口从发病后前移到高风险期",
+    "预防性维护（PM）与监控运维：设备在故障前检修——工业版的'治未病'"
+   ],
+   "modern_applications_en": [
+    "Public-health prevention tiers: primary prevention (vaccines, health education) outranks screening and treatment — the same resource-allocation logic",
+    "Lifestyle medicine and early chronic-disease management: moving the intervention window from post-onset to high-risk",
+    "Preventive maintenance and observability: service the machine before failure — the industrial form of 'treating the not-yet-ill'"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "扁鹊（源头：'长兄于病视神，未有形而除之'——治未病的最早寓言）",
+    "弗莱明（跨文明平行：抗生素之后的预防医学革命——但孙思邈把预防置于治疗之前，序列更彻底）",
+    "约翰·斯诺（传承：公共卫生调查把'未病'人群作为干预对象）"
+   ],
+   "related_modes": [
+    "M-SSM-001",
+    "M-SSM-005",
+    "M-SSM-009",
+    "M-SSM-003"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-005",
+   "mode_code": "M-SSM-005",
+   "name_zh": "食治优先法",
+   "name_en": "The Method of Diet-First Intervention",
+   "category": "治疗策略/强度分层",
+   "domain_zh": "干预强度从最低开始逐级升级：食疗→药疗→针疗——'食疗不愈，然后命药'，用最温和的有效手段解决问题",
+   "domain_en": "Escalate intervention from the mildest upward: dietetics, then herbs, then needles — 'when diet fails, then call the medicine'; solve problems with the gentlest effective means",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "干预强度从最低开始逐级升级：食疗→药疗→针疗——'食疗不愈，然后命药'，用最温和的有效手段解决问题",
+   "definition_en": "Escalate intervention from the mildest upward: dietetics, then herbs, then needles — 'when diet fails, then call the medicine'; solve problems with the gentlest effective means",
+   "source_chapter": "《千金要方·食治》",
+   "key_quote_zh": "食疗不愈，然后命药",
+   "key_quote_en": "'When dietary therapy fails, only then prescribe medicine.'",
+   "key_concepts": [
+    "食治",
+    "强度阶梯",
+    "最小有效干预",
+    "温和优先",
+    "升级序列"
+   ],
+   "process_zh": [
+    "建立干预强度阶梯：把可用手段按侵入性/副作用排序——食<药<针，低层未穷尽不上高层",
+    "先穷尽低强度层：给出系统的食疗方案并设定观察期——不是象征性地提一句，而是作为正式疗法认真执行",
+    "设定升级判据：明确'不愈'的标准与时限——升级是循证决策而非升级冲动",
+    "高位回落：高层手段见效后回撤到低位维持——治疗序列是往复的，不是单行的"
+   ],
+   "process_en": [
+    "Build the escalation ladder: order available means by invasiveness and side effects — diet < herbs < needles; exhaust a lower rung before ascending",
+    "Seriously exhaust the mild tier: a systematic dietary regimen with an observation window — not a token mention but a formal therapy",
+    "Set escalation criteria: define what 'not yet cured' means and when — escalation is an evidence-based decision, not an urge",
+    "Step back down: once the stronger tier works, retreat to the mild tier for maintenance — the sequence is bidirectional, not one-way"
+   ],
+   "representative_cases_zh": [
+    "食治卷收录果实、菜蔬、谷米、鸟兽四类154种食物的性能与主治：把'吃'系统化为第一治疗资源",
+    "消渴病的限食处方：先以饮食控制为基础，控制不效再加药——营养干预作为正式一线而非附属建议",
+    "对虚损劳伤先给糜粥调养、后进汤药：康复期的强度回撤设计"
+   ],
+   "representative_cases_en": [
+    "The dietetics juan cataloguing 154 foods — fruits, vegetables, grains, meats — with properties and indications: systematizing 'eating' as the first therapeutic resource",
+    "Dietary restriction for xiaoke: food control as the base, herbs added only if control fails — nutrition as a formal first line, not an appendix",
+    "Gruel-based nourishment before decoctions for deficiency-and-strain: designed de-escalation in rehabilitation"
+   ],
+   "modern_applications_zh": [
+    "营养学的一线干预地位：糖尿病、高血压指南均以生活方式与营养为第一步——'食疗不愈然后命药'的现代版",
+    "抗生素管理与阶梯治疗（stepped care）：从最低有效强度开始、按判据升级——抗菌药物分级管理制度",
+    "最小权限原则（信息安全）：从最低必要权限开始、按需升级——资源干预强度的通用治理逻辑"
+   ],
+   "modern_applications_en": [
+    "Nutrition as first-line therapy: diabetes and hypertension guidelines start with lifestyle and diet — the modern 'when diet fails, then the medicine'",
+    "Antimicrobial stewardship and stepped care: start at the lowest effective intensity, escalate by criteria — the graded formulary system",
+    "Least-privilege in security: start with minimal necessary permissions, escalate on demand — a universal governance logic of intervention intensity"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "希波克拉底（跨文明平行：'让食物成为药物'——但孙思邈给出了带升级判据的完整阶梯）",
+    "现代营养学（传承：膳食优先的临床营养学）",
+    "张仲景（上游：先内服汤药后针灸的次序观，被孙思邈再降一层起点）"
+   ],
+   "related_modes": [
+    "M-SSM-004",
+    "M-SSM-003",
+    "M-SSM-006",
+    "M-SSM-009"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-006",
+   "mode_code": "M-SSM-006",
+   "name_zh": "针药并用法",
+   "name_en": "The Method of Multimodal Integration",
+   "category": "治疗策略/手段组合",
+   "domain_zh": "不把治疗手段当流派立场而当工具箱：针灸与方药在同一张处方桌上并用、互补、互备——疗效目标高于方法纯正性",
+   "domain_en": "Treat modalities as a toolbox, not a school allegiance: needles and herbs used together, complementarily, as mutual backups on the same desk — therapeutic outcome outranks methodological purity",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "不把治疗手段当流派立场而当工具箱：针灸与方药在同一张处方桌上并用、互补、互备——疗效目标高于方法纯正性",
+   "definition_en": "Treat modalities as a toolbox, not a school allegiance: needles and herbs used together, complementarily, as mutual backups on the same desk — therapeutic outcome outranks methodological purity",
+   "source_chapter": "《千金要方》针灸与方药同卷并列",
+   "key_quote_zh": "若针而不灸，灸而不针，皆非良医也；针而不药，药而不针，亦非良医也",
+   "key_quote_en": "'To needle but not moxa, or moxa but not needle — none of these is a good physician; to needle but not medicate, or medicate but not needle — likewise none.'",
+   "key_concepts": [
+    "针药并用",
+    "多模态整合",
+    "工具中立",
+    "手段互补",
+    "疗效至上"
+   ],
+   "process_zh": [
+    "宣布工具中立：先破'门户之见'——明确宣称只用一种手段者'非良医'，把手段选择从立场问题转为工程问题",
+    "按目标选工具：为每个治疗目标评估各手段的比较优势——速效、便捷、持续、可及，各有所长",
+    "设计组合方案：让手段互补而非重复——针治其标、药治其本，或一急一缓、一攻一补",
+    "以疗效统合：组合的裁判标准是病人结局而非方法纯度——不合用的'正统'让位于合用的'杂糅'"
+   ],
+   "process_en": [
+    "Declare tool neutrality: first break the sectarian wall — openly state that single-modality practitioners 'are not good physicians', turning modality choice from an identity question into an engineering one",
+    "Match tool to objective: assess each modality's comparative advantage for the therapeutic goal — speed, convenience, persistence, accessibility",
+    "Design the combination: make modalities complementary, not redundant — needles for the manifest, herbs for the root; one swift and one slow, one draining and one tonifying",
+    "Let outcome arbitrate: the combination is judged by patient outcome, not methodological purity — a useful hybrid outranks an orthodox failure"
+   ],
+   "representative_cases_zh": [
+    "《千金要方》针灸卷与方剂卷并列成书：同一疾病条目下常同时给出针灸取穴与汤丸方剂两套方案",
+    "对急症的针药接力：卒中风、癫痫等先用针灸救急取效，继以方药巩固——时间维度上的手段接力",
+    "明堂三人图（针灸腧穴图）的整理绘制：把针灸知识整理成可与药物处方并驾的规范工具"
+   ],
+   "representative_cases_en": [
+    "The needle-moxa juans standing alongside formula juans in one book: many disease entries carry both an acupoint plan and a decoction plan",
+    "Relay care in emergencies: for apoplexy and epilepsy, needles first to seize the moment, herbs after to consolidate — a relay across time as well as modality",
+    "The Mingtang three-person charts: acupuncture knowledge redrafted into standardized tools able to stand beside the herbal prescription"
+   ],
+   "modern_applications_zh": [
+    "多学科诊疗（MDT）：肿瘤等复杂疾病由多手段联合决策——外科、内科、放疗同桌开方",
+    "联合疗法与鸡尾酒策略：HIV 联合用药、肿瘤综合治疗——手段组合以疗效为唯一裁判",
+    "技术栈无关主义（工程实践）：按问题选工具而非按信仰站队——语言、框架、数据库皆工具箱"
+   ],
+   "modern_applications_en": [
+    "Multidisciplinary team (MDT) decisions: surgery, medical and radiation oncology prescribing at one table for complex disease",
+    "Combination therapy and the cocktail strategy: HIV combination antiretrovirals, comprehensive cancer care — outcome as the sole judge of the mix",
+    "Technology-stack agnosticism in engineering: pick tools by problem, not by faith — languages, frameworks and databases are all toolboxes"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "华佗（平行：方药针灸手术多栖的多模态先行者）",
+    "现代肿瘤学（传承：综合治疗学把多模态整合制度化为诊疗规范）",
+    "扁鹊（源头：'针石汤火'随病所宜——工具选择因病而异的最早宣言）"
+   ],
+   "related_modes": [
+    "M-SSM-003",
+    "M-SSM-005",
+    "M-SSM-007",
+    "M-SSM-002"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-007",
+   "mode_code": "M-SSM-007",
+   "name_zh": "普同一等法",
+   "name_en": "The Method of Equal-Regard Triage",
+   "category": "伦理/医疗公平",
+   "domain_zh": "对任何求诊者一视同仁：'普同一等，皆如至亲之想'——身份、贫富、亲怨在诊疗现场全部归零，唯一变量是病情",
+   "domain_en": "Regard every person who seeks care as the same: 'all as one's dearest kin' — status, wealth, gratitude and grievance all zeroed at the bedside; the only remaining variable is the illness",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "对任何求诊者一视同仁：'普同一等，皆如至亲之想'——身份、贫富、亲怨在诊疗现场全部归零，唯一变量是病情",
+   "definition_en": "Regard every person who seeks care as the same: 'all as one's dearest kin' — status, wealth, gratitude and grievance all zeroed at the bedside; the only remaining variable is the illness",
+   "source_chapter": "《备急千金要方·大医精诚》",
+   "key_quote_zh": "若有疾厄来求救者，不得问其贵贱贫富，长幼妍蚩，怨亲善友……普同一等，皆如至亲之想",
+   "key_quote_en": "'Whoever comes sick and seeking rescue — ask not whether noble or lowly, rich or poor, old or young, fair or plain, foe or friend: regard all as one, all as one's dearest kin.'",
+   "key_concepts": [
+    "普同一等",
+    "至亲之想",
+    "身份归零",
+    "医疗公平",
+    "无差别救治"
+   ],
+   "process_zh": [
+    "宣布归零规则：开列必须清零的变量清单（贵贱、贫富、长幼、妍蚩、怨亲）——把'不歧视'从抽象原则变成显式清单",
+    "替换决策变量：唯一进入决策的是病情与医学证据——把身份变量从认知通道中显式移除",
+    "设计现场行为：'澄神内视，望之俨然，宽裕汪汪'——用可观察的行为规范保证归零在身体语言层面也被执行",
+    "覆盖最难情形：连'怨亲'（仇人）也在平等之列——公平的最高测试是能否善待对自己怀有敌意的人"
+   ],
+   "process_en": [
+    "Announce the zeroing rule: enumerate the variables to be zeroed (rank, wealth, age, looks, friend or foe) — turning non-discrimination from abstract principle into an explicit checklist",
+    "Swap the decision variable: only the illness and medical evidence enter the decision — identity variables are explicitly removed from the cognitive channel",
+    "Design bedside conduct: 'settled mind, inward gaze, dignified bearing, generous warmth' — observable behavioral norms so that zeroing is enforced even in body language",
+    "Cover the hardest case: even an enemy falls under equal regard — the supreme test of fairness is doing right by one who bears you ill will"
+   ],
+   "representative_cases_zh": [
+    "《大医精诚》对求诊者身份变量的显式清零清单：中国医学史上最早的成文反歧视条款",
+    "麻风病（恶疾）患者的收容与亲疗：孙思邈亲自照顾被社会遗弃的麻风病人——对最污名化群体践行'至亲之想'",
+    "对'自逞俊快'拒绝危重病人的告诫：不得因治愈无望或风险高而推诿——风险不应改变救治义务"
+   ],
+   "representative_cases_en": [
+    "The explicit zeroing checklist in Dayi Jingcheng: the earliest codified anti-discrimination clause in Chinese medical history",
+    "Sheltering and personally tending leprosy patients abandoned by society: 'dearest kin' enacted upon the most stigmatized group",
+    "The warning against refusing desperate cases to parade one's skill: uncurability and high risk must not transfer the duty to treat"
+   ],
+   "modern_applications_zh": [
+    "患者平等与反歧视条款：现代医患关系规范与医院章程中的'不分种族、宗教、支付能力'条款同构",
+    "无国界医生与人道主义医疗：战乱与疫区中对敌我双方的无差别救治——'怨亲普同一等'的国际实践",
+    "算法公平（AI伦理）：从决策变量中显式移除受保护属性——机器时代的'普同一等'技术化"
+   ],
+   "modern_applications_en": [
+    "Patient equality clauses: hospital charters' 'regardless of race, religion, or ability to pay' is the same structure",
+    "Médecins Sans Frontières: impartial care for both sides in war and epidemic — 'friend and foe alike' at international scale",
+    "Algorithmic fairness in AI ethics: explicitly removing protected attributes from decision variables — 'equal regard' in its machine-age form"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "希波克拉底（平行：誓言中的公平条款，但未列出如此完整的清零清单）",
+    "南丁格尔（传承：战地护理对伤员的无差别照护）",
+    "特鲁多（传承：把公平落实为对不可治愈者的态度）"
+   ],
+   "related_modes": [
+    "M-SSM-001",
+    "M-SSM-008",
+    "M-SSM-004",
+    "M-SSM-010"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-008",
+   "mode_code": "M-SSM-008",
+   "name_zh": "妇孺优先法",
+   "name_en": "The Method of Vulnerable-First Prioritization",
+   "category": "医学建制/优先级设计",
+   "domain_zh": "把最脆弱人群的专科置于全书最前：妇人方、少小婴孺方分列第一、第二卷——社会优先级应投向最无力自助者",
+   "domain_en": "Place the specialties of the most vulnerable at the very front of the book: women's formulas and infant formulas as juans one and two — societal priority flows to those least able to help themselves",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "把最脆弱人群的专科置于全书最前：妇人方、少小婴孺方分列第一、第二卷——社会优先级应投向最无力自助者",
+   "definition_en": "Place the specialties of the most vulnerable at the very front of the book: women's formulas and infant formulas as juans one and two — societal priority flows to those least able to help themselves",
+   "source_chapter": "《千金要方》卷次编排",
+   "key_quote_zh": "先妇人小儿，则婚姻养育之重可知矣",
+   "key_quote_en": "'Women first, then children — thereby the weight of marriage and nurture is made plain.'",
+   "key_concepts": [
+    "妇孺优先",
+    "脆弱优先",
+    "专科建制",
+    "优先级设计",
+    "生命全程覆盖"
+   ],
+   "process_zh": [
+    "识别最脆弱者：确定谁是'最无力自助、后果最不可逆'的人群——孕产妇与新生儿首当其冲",
+    "优先级物化为结构：不是多写几句，而是把妇方、婴方排为全书第一、二卷——结构位置就是优先级的宣言",
+    "建立独立专科逻辑：承认妇孺的生理规律与证型不同于成人通则，为其单独立法而非当作成人缩减版",
+    "补齐生命全程：从求子、妊娠到哺乳、育婴逐段覆盖——把'优先'落实为全生命周期的连续照护"
+   ],
+   "process_en": [
+    "Identify the most vulnerable: who is least able to help themselves, with the least reversible outcomes? Mothers and newborns stand first",
+    "Materialize priority as structure: not a few extra pages but juans one and two of the whole book — structural position is the declaration of priority",
+    "Found an independent specialty: women's and children's physiology and patterns differ from the adult general case — separate laws, not a scaled-down adult",
+    "Span the whole life course: from seeking conception and pregnancy to nursing and rearing — priority delivered as continuous care across the lifespan"
+   ],
+   "representative_cases_zh": [
+    "妇人方三卷置于《千金要方》全书之首：求子、妊娠、产难、产后依次设章——妇产科首次在医学总集中获得最高卷次",
+    "少小婴孺方两卷紧随其后：变蒸、惊痫、客忤等儿科专病独立设门——儿科学作为独立学科框架的早期成型",
+    "对产难的急救处方与胎产知识的系统收录：把'生育是最危险的生命事件'这一判断写进医书结构"
+   ],
+   "representative_cases_en": [
+    "Three juans of women's formulas opening the entire Qianjin Yaofang: conception, pregnancy, difficult labor, postpartum — obstetrics given the highest position for the first time in a medical compendium",
+    "Two juans of infant formulas immediately after: taisu, convulsions and other pediatric entities as independent sections — an early molding of pediatrics as a discipline",
+    "Systematic collection of emergency prescriptions for difficult labor and knowledge of fetal birth: writing into the very structure the judgment that childbirth is the most dangerous life event"
+   ],
+   "modern_applications_zh": [
+    "孕产妇与儿童优先的公共卫生政策：疫苗规划、妇幼保健体系把脆弱优先制度化为预算与排期",
+    "儿科与产科作为独立学科的建制化：住院医师培训中的专科轨道——专科深度优先于通科均质",
+    "产品设计的无障碍优先（accessibility first）：为最边缘用户设计，所有用户受益——脆弱优先的工程版"
+   ],
+   "modern_applications_en": [
+    "Maternal-and-child-first public health policy: immunization schedules and MCH systems institutionalizing vulnerable-first in budgets and queues",
+    "The institutionalization of pediatrics and obstetrics as specialties with their own training tracks — depth for the vulnerable over uniformity",
+    "Accessibility-first design: build for the most marginal users and all users benefit — the engineering form of vulnerable-first"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "淳于意（上游：'诊籍'中已有婴儿病例记录）",
+    "珍妮特·兰金/现代妇幼保健运动（传承：妇幼优先作为公共政策的现代形态）",
+    "扁鹊（源头：'带下医'（妇科）曾是扁鹊随俗为变的三科之一）"
+   ],
+   "related_modes": [
+    "M-SSM-003",
+    "M-SSM-007",
+    "M-SSM-004",
+    "M-SSM-009"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-009",
+   "mode_code": "M-SSM-009",
+   "name_zh": "摄养有常法",
+   "name_en": "The Method of Constant Self-Regulation",
+   "category": "养生学/行为医学",
+   "domain_zh": "把健康交给日常习惯的'常数'而非偶然的'药方'：饮食有节、起居有度、情志有制——常数累积的效果胜过偶发的强干预",
+   "domain_en": "Entrust health to the constants of daily habit, not the accident of prescriptions: measured diet, measured rest, regulated emotion — accumulated constants outperform episodic heroics",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "把健康交给日常习惯的'常数'而非偶然的'药方'：饮食有节、起居有度、情志有制——常数累积的效果胜过偶发的强干预",
+   "definition_en": "Entrust health to the constants of daily habit, not the accident of prescriptions: measured diet, measured rest, regulated emotion — accumulated constants outperform episodic heroics",
+   "source_chapter": "《千金要方·养性》《千金翼方·养性》",
+   "key_quote_zh": "善摄生者，卧起有四时之早晚，兴居有至和之常制",
+   "key_quote_en": "'The skilled guardian of life rises and rests with the seasons' early and late, and keeps daily activity to the constant measure of harmony.'",
+   "key_concepts": [
+    "摄养",
+    "习惯常数",
+    "起居有常",
+    "情志管理",
+    "行为处方"
+   ],
+   "process_zh": [
+    "把'常数'置于'变量'之上：养生效果来自每天重复的小节制，不来自偶尔的大动作——把健康模型从事件驱动改为习惯驱动",
+    "分通道立常制：饮食（不饥不饱）、起居（卧起有时）、情志（莫大忧大怒）、劳逸（不久行久坐）——每一通道给出可执行的度",
+    "写'不要什么'清单：过度行为清单比追求清单更重要——久视伤血、久卧伤气，删法先于加法",
+    "容忍松弛与例外：'不欲其劳，亦不欲其逸'——常数不是苦行，是可持续的中道"
+   ],
+   "process_en": [
+    "Constants over variables: the gains come from small repeated daily restraints, not occasional grand gestures — a habit-driven rather than event-driven model of health",
+    "Set constants per channel: diet (neither too full nor too hungry), rest (regular rising), emotion (no great sorrow or rage), exertion (no prolonged strain) — an executable measure for each",
+    "Write the 'not-to' list: the catalogue of excesses matters more than the pursuit list — prolonged gazing harms the blood, prolonged lying the qi; subtraction precedes addition",
+    "Tolerate slack: 'neither toil nor indulgence' — the constant is not asceticism but a sustainable middle course"
+   ],
+   "representative_cases_zh": [
+    "养性篇的'十二少'纲要：少思、少念、少欲、少事……以'少'字诀把节制写成可记诵的日常守则",
+    "饮食有节的定量规范：'不欲极饥而食，食不可过饱；不欲极渴而饮，饮不欲过多'——把进食节奏写成参数",
+    "四时摄养的差异化作息：春夏秋冬各有卧起早晚之宜——常数内含随季节的规律变量"
+   ],
+   "representative_cases_en": [
+    "The 'twelve littles' outline in the self-cultivation chapter: little brooding, little rumination, little desire, little busyness — restraint as a recitable daily rule",
+    "Quantified dietary regularity: 'eat not to extreme fullness, drink not to excess' — the rhythm of intake written as parameters",
+    "Season-differentiated regimens: spring, summer, autumn and winter each with their proper rising and retiring — the constant containing lawful seasonal variables"
+   ],
+   "modern_applications_zh": [
+    "行为医学与习惯干预：慢病管理的核心是日常行为参数（睡眠、饮食、运动）的持续调节",
+    "数字健康与可穿戴设备：把'起居有常'变成可测量的连续数据——常数监测的工程化",
+    "工作节律设计（sustainable pace）：冲刺式透支不如可持续节奏——软件工程与训练学的同一原理"
+   ],
+   "modern_applications_en": [
+    "Behavioral medicine: chronic-disease management is the continuous tuning of daily behavioral parameters — sleep, diet, activity",
+    "Digital health and wearables: 'regular habits' rendered as continuously measured data — constants monitoring engineered",
+    "Sustainable pace in work design: a sustainable rhythm beats sprint-then-crash — the same principle in software engineering and training science"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "老聃/道家养生传统（上游：'绵绵若存，用之不勤'的节用观）",
+    "詹姆斯·克利尔（平行：习惯复利理论——微小常数的累积优势，跨十三世纪的同一洞察）",
+    "华佗（平行：五禽戏把运动写成日常常数的先例）"
+   ],
+   "related_modes": [
+    "M-SSM-004",
+    "M-SSM-005",
+    "M-SSM-010",
+    "M-SSM-003"
+   ]
+  },
+  {
+   "figure_code": "SSM",
+   "id": "M-SSM-010",
+   "mode_code": "M-SSM-010",
+   "name_zh": "博采勤修法",
+   "name_en": "The Method of Lifelong Erudite Assimilation",
+   "category": "认知方法论/学习",
+   "domain_zh": "医学知识没有终局版本：'涉猎群书'、百岁犹研经——对经典必须精勤不倦，对异说必须广泛采撷，谦逊是持续学习的引擎",
+   "domain_en": "Medical knowledge has no final edition: 'range widely through the books', still studying the canon at a hundred — tireless diligence with the classics, wide harvesting of alien views, humility as the engine of unending learning",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "医学知识没有终局版本：'涉猎群书'、百岁犹研经——对经典必须精勤不倦，对异说必须广泛采撷，谦逊是持续学习的引擎",
+   "definition_en": "Medical knowledge has no final edition: 'range widely through the books', still studying the canon at a hundred — tireless diligence with the classics, wide harvesting of alien views, humility as the engine of unending learning",
+   "source_chapter": "《千金要方·大医精诚》及孙思邈生平",
+   "key_quote_zh": "凡欲为大医……须涉猎群书，博极医源，精勤不倦",
+   "key_quote_en": "'Whoever would be a great physician must range widely through the books, exhaust the medical sources, and study with tireless diligence.'",
+   "key_concepts": [
+    "博采众长",
+    "精勤不倦",
+    "终身学习",
+    "知识谦逊",
+    "跨领域涉猎"
+   ],
+   "process_zh": [
+    "宣布无终局：承认任何知识体系（包括自己的《千金方》）都只是阶段性版本——为修订与增补预留制度位置",
+    "对核心经典'精勤不倦'：在专业纵深上无上限投入——读通《素问》《甲乙》是执业底线而非荣誉",
+    "对异源知识'涉猎群书'：儒、道、佛、印度医学、民间验方一概入档——知识边界越宽，组合空间越大",
+    "以谦逊校准：'读方三年便谓天下无病可治，及治病三年乃知天下无方可用'——用经验教训反哺学习欲，防止半瓶水式的知识傲慢"
+   ],
+   "process_en": [
+    "Declare no final edition: concede that any body of knowledge — one's own Qianjin Fang included — is but a staged version, reserving institutional room for revision and supplement",
+    "'Tireless diligence' with the core classics: unbounded investment in professional depth — mastering the Suwen and Jiayi is the licensing floor, not an honor",
+    "'Range widely' across alien sources: Confucian, Daoist, Buddhist, Indian medicine and folk remedies all enter the archive — the wider the boundary, the larger the combinatorial space",
+    "Calibrate with humility: 'after three years of reading formulas one thinks no disease is beyond cure; after three years of treating, one learns no formula suffices' — let hard-won lessons feed the appetite for study and forestall half-full arrogance"
+   ],
+   "representative_cases_zh": [
+    "《千金翼方》作为三十年后的自我修订：不是补遗小品而是对等体量的再著述——终身学习的制度化产出",
+    "收录耆婆方、波斯与印度医方、民间单方于同一档案：跨文明采撷入正典的罕见实例",
+    "对'江南诸师秘仲景要方不宣'的破秘立场：公开批评以医术为私产的风气——知识应为公共品而非护身符"
+   ],
+   "representative_cases_en": [
+    "The Qianjin Yifang as a self-revision three decades on: not an appendix but a second full-scale work — the institutional yield of lifelong learning",
+    "Jivaka formulas, Persian and Indian prescriptions and folk remedies filed in one archive: a rare case of cross-civilizational harvest entering the canon",
+    "The open stance against 'masters south of the river who keep Zhang Zhongjing's essential formulas secret': openly criticizing the treating of medical knowledge as private property — knowledge as commons, not talisman"
+   ],
+   "modern_applications_zh": [
+    "循证医学的知识更新机制：指南定期修订、继续医学教育学分制——'无终局版本'的制度化",
+    "跨学科学习与T型人才：专业纵深'精勤不倦'+领域横宽'涉猎群书'——现代能力模型的古代表述",
+    "开源社区的知识谦逊文化：承认自己版本可被替代、欢迎外部贡献——'涉猎群书'的协作形态"
+   ],
+   "modern_applications_en": [
+    "Evidence-based medicine's update machinery: regularly revised guidelines and continuing education — the institutionalized 'no final edition'",
+    "The T-shaped professional: tireless depth plus wide ranging — the ancient statement of the modern competency model",
+    "The humility culture of open source: one's version may be superseded and outside contributions welcomed — 'ranging widely' in collaborative form"
+   ],
+   "representative_figures": [
+    "孙思邈（核心）",
+    "孔子（平行：'三人行必有我师'——知识谦逊的共同源头）",
+    "达尔文（平行：毕生收集异源证据、晚年仍在修订——《物种起源》的版本史即博采勤修）",
+    "张仲景（上游：'勤求古训，博采众方'——本法的直接源头句式）"
+   ],
+   "related_modes": [
+    "M-SSM-002",
+    "M-SSM-001",
+    "M-SSM-006",
+    "M-SSM-008"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,468 @@
+{
+  "schema_version": "v6",
+  "code": "H-ZHX-001",
+  "figure_name_zh": "朱熹",
+  "figure_name_en": "Zhu Xi",
+  "mode_category": "理学集大成·理气格物与集成建构",
+  "era": "南宋 (1130-1200 CE)",
+  "figure_context": "徽州婺源人，生于福建尤溪。19岁中进士，历仕四朝而仕途总共不足十年（知南康军、提举浙东常平、知漳州、知潭州），一生主体在著述与讲学：重修白鹿洞书院、建武夷精舍、筑考亭沧洲精舍。门人记录《朱子语类》一百四十卷，著述遍及四书、易经、楚辞、音律、天文。庆元二年（1196）遭'伪学之禁'，临终前仍在修改《大学·诚意章》注。身后从祀孔庙，《四书章句集注》自元代起为科举定本，朱子学支配东亚思想六个世纪。",
+  "thinking_modes": [
+    {
+      "mode_id": "M-ZHX-001",
+      "mode_name_zh": "理一分殊·月印万川法",
+      "mode_name_en": "One Principle, Many Particulars: The Moon in Ten Thousand Rivers",
+      "category": "本体论",
+      "definition_zh": "万物各具一理，万理同出一原：太极整全地呈现在每一个具体事物之中，如一月映于万川——每条河里都是完整的月亮，而非月亮的碎片。普遍原理不在具体事物之上另立一处，而是通过分殊的'理一分殊'结构内在贯通。这既避免普遍抹杀个殊，也避免个殊失去统一。",
+      "definition_en": "Each thing bears a complete principle; all principles issue from one source. The ultimate is wholly present in every particular—one moon mirrored whole in every river, not fragmented. Universality is immanent through particulars, neither erasing them nor losing unity.",
+      "key_principles": [
+        "普遍与个殊不是整体与碎片，而是整全与整全",
+        "统一性通过内在分有实现，而非外在覆盖",
+        "每一个体都完整携带原理，因此个个可独立研究",
+        "'分殊'不是缺陷而是原理的存在方式"
+      ],
+      "typical_outputs": [
+        "统一理论与领域特化并存的知识架构",
+        "对'普适原则如何落地'的结构化回答",
+        "反对一刀切的分类论证"
+      ],
+      "practical_applications": [
+        "知识体系设计：一套核心原理+各领域独立完整的特化表述",
+        "组织管理：同一价值观在各部门以不同形式完整落地",
+        "标准制定：普适标准允许本地化实现而非机械套用"
+      ],
+      "mental_model": "问'普遍原理如何适用于此'时，不要找原理的'碎片副本'，而要找它在本地条件下的'完整化身'。月亮不因河的大小而残缺——适用形式的差异是完整原理的差异化表达，不是打折执行。",
+      "contrast_modes": [
+        "机械套用——把统一标准当模板硬贴",
+        "相对主义——否认任何贯通的统一原理",
+        "碎片化分有——以为局部只需局部真理"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "共相问题的中国解法：整全分有论（先于波菲利的第三条路）",
+        "软件工程": "同一核心架构在多平台的完整原生实现（write once, adapt natively）",
+        "教育": "同一素养在各学科各有完整形态，而非拆分为知识点"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'万物之中，各有一太极'——每个事物完整分有太极：细胞携带全套基因组，而非基因的局部样本。",
+          "example_en": "'Every thing contains a Taiji'—like a cell carrying the full genome rather than a partial sample."
+        },
+        {
+          "example_zh": "现代类比：公司价值观'客户第一'在客服、研发、财务各有完整不同的行为形态——不是把客服话术推广到财务，而是三套完整落地。",
+          "example_en": "A value like 'customer first' achieves complete but different expressions in support, engineering, and finance—three full embodiments, not one script copied around."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-002",
+      "mode_name_zh": "理气不离不杂·双层实在法",
+      "mode_name_en": "Li and Qi: Inseparable yet Distinct",
+      "category": "本体论",
+      "definition_zh": "理是'形而上之道，生物之本'；气是'形而下之器，生物之具'。二者'不离'——无空气理无所挂搭，无理气只是死物；又'不杂'——理不是气的一种属性，气不能解释理。这是一个双层实在结构：拒绝把高层规律还原为低层材料，也拒绝让规律脱离载体悬空。",
+      "definition_en": "Li is the formless Way and root of generation; qi the formed vessel and material. They are never separated—li needs qi to inhere in—yet never confused—li is not a property of qi. A two-tier realism: higher-order regularities are neither reducible to material substrate nor floating free of it.",
+      "key_principles": [
+        "双层实在：规律层与载体层都实在，且层次不同",
+        "不离：规律必须落实到具体载体",
+        "不杂：载体不能完全解释规律，规律有自主性",
+        "还原与悬空是双重错误"
+      ],
+      "typical_outputs": [
+        "拒绝还原论又拒绝神秘论的中层解释",
+        "对'软件/硬件'、'规则/执行'类双层结构的分析",
+        "对高层属性自主性的辩护"
+      ],
+      "practical_applications": [
+        "制度设计：章程（理）与执行机制（气）必须配套且不可互相化归",
+        "工程架构：规约与实现分离，但规约必须可部署",
+        "经济学：制度文化与物质激励双向约束而非单向还原"
+      ],
+      "mental_model": "分析任何复杂现象时先分层：这是规律层问题还是载体层问题？规律不能脱离载体空转（不离），载体不能吞并规律（不杂）。出现'理论很好但落不了地'是离了气；出现'环境一变原则全变'是杂了理。",
+      "contrast_modes": [
+        "还原论——把一切归结为下层材料",
+        "悬浮论——理念不问落地条件",
+        "层次混淆——用执行的失败否定原则本身"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "非还原的物理主义：高层属性有其因果与解释自主性",
+        "计算机科学": "规约/实现、虚拟机/硬件的分层抽象",
+        "社会学": "文化规范（理）与制度载体（气）的相互构成"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'理也者，形而上之道也……气也者，形而下之器也'——乐曲之谱（理）与演奏（气）：谱不离演奏而存在，演奏不等于谱本身。",
+          "example_en": "A musical score (li) and its performance (qi): the score exists only through performances, yet a performance is not the score."
+        },
+        {
+          "example_zh": "现代类比：公司文化'白纸黑字的价值观'与'日常决策实践'——只有前者是悬空，只有后者是无根；两者互相成就又互相检验。",
+          "example_en": "Corporate culture: written values (li) and daily decisions (qi)—values without practice are void; practice without values is drifting."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-003",
+      "mode_name_zh": "格物致知·豁然贯通法",
+      "mode_name_en": "Investigating Things to the Point of Breakthrough",
+      "category": "认识论",
+      "definition_zh": "'即物而穷其理'——认识必须落实到具体对象，逐一穷尽其理；'至于用力之久，而一旦豁然贯通焉'——积累到临界点后发生整体贯通的跃迁。这是'渐进积累+非线性跃迁'的认识论：贯通不可直接追求，只能通过足量穷理诱发。与禅宗顿悟的根本区别：顿悟可悬置对象，贯通必须以即物为前提。",
+      "definition_en": "'Go to things and exhaust their principles'—knowledge must engage concrete objects item by item; 'after long effort, one day a sudden breakthrough connects everything.' Gradual accumulation plus nonlinear emergence: insight cannot be chased directly, only induced by sufficient inquiry.",
+      "key_principles": [
+        "认识以对象为前提：不接受无对象的直觉",
+        "穷理须尽：浅尝不产生贯通",
+        "跃迁不可命令：只能足量积累后等待",
+        "贯通之后仍需回到事物上验证"
+      ],
+      "typical_outputs": [
+        "研究策略：何时深钻单点、何时横向拓展",
+        "对'灵感神话'的祛魅：灵感是积累的相变",
+        "学习曲线与临界质量的设计"
+      ],
+      "practical_applications": [
+        "科研方法论：长期深耕单一领域直到范式级贯通",
+        "学习设计：以覆盖足够样本为目标，而非寻找'顿悟捷径'",
+        "创新管理：给探索期预留足量预算，理解突破的时间不可压缩"
+      ],
+      "mental_model": "把'想通'拆成两段：可控的积累段（穷理事物，可以排计划）与不可控的跃迁段（豁然贯通，只能诱发）。焦虑跃迁不来时，检查的永远是积累段的量是否够了，而不是去找更聪明的顿悟技巧。",
+      "contrast_modes": [
+        "顿悟迷信——绕过积累直接追求灵感",
+        "无限积累——只收集不理解，永不整合",
+        "玄学 shortcut——宣称不穷理也可贯通"
+      ],
+      "cross_domain_mapping": {
+        "科学哲学": "常规积累与范式转换（库恩）的古典版本",
+        "机器学习": "足够训练量后损失的相变式下降（grokking）",
+        "创造心理学": "准备期-孕育期-豁朗期的四阶段模型"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "《格物补传》：'至于用力之久，而一旦豁然贯通焉，则众物之表里精粗无不到'——贯通的前提是'用力之久'，直接条件被明确拒绝。",
+          "example_en": "'Only after long effort does sudden breakthrough arrive'—the text refuses any shortcut past sustained effort."
+        },
+        {
+          "example_zh": "现代类比：学编程三个月后的'突然开窍'，本质是前 ninety 天逐个 debug 的积累相变，不是天赋觉醒。",
+          "example_en": "The 'click' in month three of coding is a phase transition of ninety days of debugging, not a gift awakening."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-004",
+      "mode_name_zh": "理先于气·逻辑在先法",
+      "mode_name_en": "Li Prior to Qi: Logical, Not Temporal Priority",
+      "category": "本体论/方法论",
+      "definition_zh": "'未有天地之先，毕竟也只是理'——理对气的优先性是逻辑在先而非时间在先：不是先有理再过一会儿生出气，而是在任何解释次序上，必须先肯定'所以然之故'才能理解'所然之物'。这一区分使规则性成为解释的起点而不被物质生成史消解。",
+      "definition_en": "'Before heaven and earth, there was only li'—li's priority is logical, not chronological: in any explanatory order, the reason-why must be posited before the thing-that-is. Regularity becomes the starting point of explanation, undissolved by material history.",
+      "key_principles": [
+        "区分两种'在先'：时间在先与逻辑在先",
+        "解释必须从规律出发，而非从事件史出发",
+        "'所以然之故'与'所当然之则'并问",
+        "生成史不能取消规范结构"
+      ],
+      "typical_outputs": [
+        "理论建构中公理与定理的次序安排",
+        "对'存在即合理'式误读的澄清",
+        "从规律而非个案出发的解释框架"
+      ],
+      "practical_applications": [
+        "法律解释：从原则（逻辑在先）而非先例堆积出发",
+        "系统设计：先定不变量（invariants），再谈实现历史",
+        "历史分析：事件史之上追问使事件可能的结构条件"
+      ],
+      "mental_model": "遇到'为什么是这样'的问题，先问自己在哪个层次作答：描述它如何形成（时间）还是论证它为何必然（逻辑）。把'它是慢慢演化来的'当答案，常常是回避了'使演化可能的规则是什么'。",
+      "contrast_modes": [
+        "发生学谬误——用起源史替代规范性论证",
+        "纯逻辑主义——否认结构有历史载体",
+        "叙事化解释——以讲故事替代规则说明"
+      ],
+      "cross_domain_mapping": {
+        "哲学": "必然真理与偶然事实的区分（先于休谟问题八百年）",
+        "数学": "定义在先：公理系统逻辑地先于其模型构造",
+        "法学": "宪法原则的逻辑在先性：先例不能推翻原则"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'未有天地之先，毕竟也只是理。有此理，便有此天地'——若无人则无桌子，然仍无碍'桌'之理：理不随物亡而亡。",
+          "example_en": "Even if no tables existed, the principle of 'table' would remain—li survives the demise of its instances."
+        },
+        {
+          "example_zh": "现代类比：棋规先于每盘棋局而使棋局可理解——不是时间上先写下规则，而是每一步棋的意义都逻辑依赖规则。",
+          "example_en": "Chess rules precede any game logically, not temporally: every move's meaning depends on rules antecedent to it."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-005",
+      "mode_name_zh": "居敬穷理·双轮工夫法",
+      "mode_name_en": "Reverence and Inquiry: The Two Wheels",
+      "category": "伦理学/工夫论",
+      "definition_zh": "承程颐'涵养须用敬，进学则在致知'而终身持守：'敬'是收拾精神的专注状态（态度层），'穷理'是扩充知识的探究活动（认知层）。'敬字工夫，乃圣门第一义，彻头彻尾，不可顷刻间断'——二者如车之双轮：无敬之穷理流于聪明，无穷理之敬沦为枯寂。修养与求知互为条件而非两条路线。",
+      "definition_en": "Holding Cheng Yi's dictum lifelong: reverence (jing) is the composed focus of the spirit; inquiry (qiongli) the expansion of knowledge. 'The work of reverence admits no interruption.' Like two wheels of one cart—inquiry without reverence is mere cleverness; reverence without inquiry is barren stillness.",
+      "key_principles": [
+        "态度修养与知识探究是两个独立维度",
+        "二者互为条件：状态保证求知质量，求知防止状态空转",
+        "任何一轮单转都会失衡退化",
+        "间断即退转：工夫是持续性变量"
+      ],
+      "typical_outputs": [
+        "个人成长系统的双轨检查清单",
+        "对'聪明但不沉淀'与'虔诚但不学习'的诊断",
+        "可持续学习节奏的安排"
+      ],
+      "practical_applications": [
+        "日程设计：专注时段（敬）与输入时段（穷理）分列且交替",
+        "团队建设：专业能力培训与文化状态管理并进",
+        "自我评估：每周分别检查'精神状态'与'知识增量'两项"
+      ],
+      "mental_model": "把自我提升拆成两个仪表盘：一个测'我此刻是否专注稳定'（敬），一个测'我本周是否真的多懂了东西'（穷理）。只看第二个仪表会出聪明的焦虑症，只看第一个会出平静的无能。两个指针必须同时动。",
+      "contrast_modes": [
+        "纯知主义——以为懂了就等于做到了",
+        "纯体验主义——以为心态好了知识会自来",
+        "间歇爆发——平时不养，考前恶补"
+      ],
+      "cross_domain_mapping": {
+        "心理学": "心流状态（敬）与刻意练习（穷理）的相互成就",
+        "运动科学": "恢复与训练的双轮：只有训练会受伤，只有恢复会退步",
+        "认知科学": "注意力管理与知识管理的互补性"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'敬字工夫，乃圣门第一义，彻头彻尾，不可顷刻间断'——敬是贯穿穷理全程的基频，不是事前的仪式。",
+          "example_en": "Reverence is the sustained baseline running through all inquiry, not a pre-ritual."
+        },
+        {
+          "example_zh": "现代类比：运动员的训练计划里'技术课'与'身体状态管理'永远并行——只练技术会受伤，只养状态不会变强。",
+          "example_en": "An athlete's plan pairs technical sessions with conditioning—technique alone injures; conditioning alone doesn't improve skill."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-006",
+      "mode_name_zh": "心统性情·主宰结构法",
+      "mode_name_en": "Mind Governing Nature and Feeling: The Tri-level Psyche",
+      "category": "心性论",
+      "definition_zh": "性是体（先天的当然之则），情是用（性的发动表现），心是统贯体用的主宰——心以性为体、以情为用，并对二者负管理之责。人的问题不在情本身（情是性的正当表达），而在心失其主宰（情脱离性而泛滥）。这一模型把道德问题转化为'主宰是否在线'的结构问题。",
+      "definition_en": "Nature is substance (innate norms), feeling is function (nature's expression), mind is the governing center integrating both. Feeling is not evil—it is nature in motion; disorder arises when the mind loses its governing role and feelings detach from nature.",
+      "key_principles": [
+        "体-用-主宰三层结构：本性-情绪-自我管理",
+        "情非恶：脱离主宰的情才失序",
+        "修养对象是主宰功能，不是消灭情绪",
+        "结构诊断先于道德谴责"
+      ],
+      "typical_outputs": [
+        "情绪管理的结构化模型",
+        "对'情绪是坏的'这类朴素判断的纠正",
+        "自我状态的快速定位与调整"
+      ],
+      "practical_applications": [
+        "情绪调节：不压制情绪，恢复'觉察-判断'的主宰在线状态",
+        "领导力：团队情绪事件先查治理结构而非追责个人",
+        "产品设计：用户'失控消费'是主宰失位，设计应辅助而非利用"
+      ],
+      "mental_model": "情绪爆发时问的不是'我怎么这么坏'，而是'我的主宰此刻在不在岗'。情绪是信使不是敌人；要修的是接收与调度情绪的那层功能，不是拆掉邮局。",
+      "contrast_modes": [
+        "灭欲主义——把情绪当敌人消灭",
+        "放纵主义——情绪即真我不加调度",
+        "道德谴责——用善恶标签替代结构修复"
+      ],
+      "cross_domain_mapping": {
+        "心理学": "情绪调节的再评价模型：改变对情绪的管理而非情绪本身",
+        "神经科学": "前额叶（主宰）与边缘系统（情）的整合功能",
+        "管理学": "组织情绪事件中的治理结构修复"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'心统性情'——怒是情，怒所当怒是性之发，迁怒是心失统：同一情绪三种状态，差别全在主宰是否在线。",
+          "example_en": "Anger as feeling is neutral; anger at the right object expresses nature; displaced anger shows the governor offline."
+        },
+        {
+          "example_zh": "现代类比：收到差评的瞬间心跳加速（情）——失控回怼是主宰掉线，停三秒判断如何回应是主宰在线，情绪本身没变。",
+          "example_en": "A bad review spikes your pulse (feeling); lashing out is governor-offline, a three-second pause before responding is governor-online—same feeling, different governance."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-007",
+      "mode_name_zh": "知行相须·行为重法",
+      "mode_name_en": "Knowledge and Action Mutually Requiring, Action Weighing More",
+      "category": "实践智慧",
+      "definition_zh": "'论先后，知为先；论轻重，行为重'；'知行常相须，如目无足不行，足无目不见'——次序上先学后做，价值上以做定成败；机制上知行互相依赖如目足。既反对盲行（无目），也反对空知（无足），并给出明确的评价标准：最终只看行为。",
+      "definition_en": "'In order, knowledge first; in weight, action.' They mutually require each other as eye and foot. Learn before acting, but be judged by acting—and recognize the interdependence of seeing and walking.",
+      "key_principles": [
+        "知与行是两个必要条件，缺一即系统失效",
+        "次序可设计：先知后行，但次序不等于价值排序",
+        "评价锚定行为：懂得多不加分，做不出即零分",
+        "相须：做中产生新知，新知改变做法"
+      ],
+      "typical_outputs": [
+        "学习-实践循环的节奏设计",
+        "对'收藏从未停止，行动从未开始'的诊断",
+        "知行转化的最小闭环"
+      ],
+      "practical_applications": [
+        "个人计划：每项新知配一个本周可执行的最小动作",
+        "组织学习：培训必须绑定实践任务与验收标准",
+        "阅读方法：以'能教、能用、能写'检验读懂与否"
+      ],
+      "mental_model": "给每个'知道了'强制配对一个'做了吗'：目无足不行——只输入不输出的知识是瞎子的地图；足无目不见——只行动不复盘的行动是跛子的狂奔。复盘时第一问永远给行为，第二问才给认知。",
+      "contrast_modes": [
+        "知而不行——收藏等于学会的幻觉",
+        "行而不知——蛮干与经验主义",
+        "知行二分——认为学与做是两个不相干的人生阶段"
+      ],
+      "cross_domain_mapping": {
+        "管理学": "学习型组织：培训-实践-复盘闭环",
+        "教育学": "做中学（Dewey）的先声：知识在行动中完成自身",
+        "个人效能": "最小行动闭环对抗知识囤积症"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "'知行常相须，如目无足不行，足无目不见'——眼睛与腿互相成就：读了健身书籍不去练，书只是装饰；乱练不学解剖学，练只是自伤。",
+          "example_en": "Knowledge and action as eye and foot: fitness books without training decorate; training without anatomy injures."
+        },
+        {
+          "example_zh": "现代类比：学会一个沟通技巧的标志不是'看过'，而是'本周某次真实对话中用过一次'——评价只锚定那次使用。",
+          "example_en": "You've learned a communication technique only when it shows up in one real conversation this week—verdict anchored to the deed."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-008",
+      "mode_name_zh": "源头活水·系统常新法",
+      "mode_name_en": "Living Water from the Source: Keeping the System Fresh",
+      "category": "认识论/系统论",
+      "definition_zh": "'问渠那得清如许？为有源头活水来'——半亩方塘之清，不在塘的密封保洁，而在持续的新水注入。认知系统同样：清明不在'一次性想通'，而在不断引入新问题、新文本、新对话使思想保持流动。池塘的腐败是静滞的必然，不是偶然事故。",
+      "definition_en": "'Why is the pond so clear? Fresh water keeps flowing from the source.' Clarity comes not from sealing the pond but from continuous inflow. A cognitive system stays fresh only through new questions, texts, and dialogues; stagnation is structural, not accidental.",
+      "key_principles": [
+        "系统的清明是流量属性而非存量属性",
+        "静滞必然腐化，与初始质量无关",
+        "输入的新鲜度决定输出的清澈度",
+        "'源头'问题比'保洁'问题更根本"
+      ],
+      "typical_outputs": [
+        "持续学习机制的设计而非一次性培训",
+        "对'想通了就一劳永逸'的否定",
+        "知识系统的新陈代谢审计"
+      ],
+      "practical_applications": [
+        "个人知识库：定期强制引入异质输入（新领域、反对者）",
+        "组织创新：设立常设的外部信息通道，而非运动式调研",
+        "健康习惯：维护的是流量（每周新知）而非存量（已读清单）"
+      ],
+      "mental_model": "把心智当活水系统而非水库审计：不问'我已知道多少'，问'上周有多少新鲜水源进来'。感到思想浑浊时，第一动作不是自我批评，而是开闸引水——找一个会反对你的聪明人聊聊。",
+      "contrast_modes": [
+        "库存思维——把知识当一次性囤积",
+        "封闭自洽——只与同意自己的人交流",
+        "保鲜错觉——以为想通了就永远清澈"
+      ],
+      "cross_domain_mapping": {
+        "系统论": "开放系统的负熵输入：远离平衡态才能维持秩序",
+        "创新理论": "异质连接产生新组合（弱纽带理论）",
+        "组织学习": "常设外部扫描机制优于间歇式咨询"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "朱子本人示范此法：年近六十仍与陆九渊论辩、注《楚辞》、考仪礼——晚年思想之清正来自不间断的异质交锋。",
+          "example_en": "Zhu Xi himself embodied it: debating Lu Jiuyuan, annotating the Chuci, and studying ritual in his sixties—late-life lucidity fed by unceasing heterogeneous engagement."
+        },
+        {
+          "example_zh": "现代类比：三年不读新领域的书，旧知识的'池塘'必然发臭——清理旧笔记没用，开一本刁钻的新书才有用。",
+          "example_en": "Three years without a new field and the old pond turns foul—clearing notes won't help; a bracing new book will."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-009",
+      "mode_name_zh": "书院学规·制度文本法",
+      "mode_name_en": "Academy Statutes: Codifying into Institutional Text",
+      "category": "方法论/教育学",
+      "definition_zh": "重修白鹿洞书院并手订《揭示》：五教之目（目标）、为学之序（方法次第）、修身之要/处事之要/接物之要（行为规范），每条注以经典出处。把教育从口传心授转化为可复制、可考核、可传承的制度文本——后世东亚书院与日本藩校皆以此为模板。洞见只有写成制度才获得独立生命。",
+      "definition_en": "His White Deer Grotto Statutes: objectives, the sequence of learning, norms of self-cultivation, conduct, and dealing with others—each grounded in the classics. Converting oral teaching into replicable, examinable, transmissible institutional text; the template for East Asian academies for centuries.",
+      "key_principles": [
+        "目标-方法-规范三段完备的制度结构",
+        "每条规范绑定经典依据（可追溯性）",
+        "文本化使洞见脱离作者可独立传播",
+        "制度是洞见的死亡与新生：从个人魅力到组织能力"
+      ],
+      "typical_outputs": [
+        "团队章程、操作手册、验收标准",
+        "从'口头传统'到'成文制度'的组织升级",
+        "知识产品化的文档架构"
+      ],
+      "practical_applications": [
+        "初创团队制度化：把创始人的判断写成可执行的章程",
+        "开源项目：贡献指南即白鹿洞揭示的技术版",
+        "家族传承：家训从愿望清单升级为带出处的行为条款"
+      ],
+      "mental_model": "检验一条重要共识是否真正落地，看它有没有'制度文本'：能被新人独立阅读、能据此判断对错、能被引用裁决争议。写不进文本的共识，随写它的人一起离开。",
+      "contrast_modes": [
+        "人治依赖——制度只存在于创始人脑中",
+        "文本空转——有制度文本但无人引用执行",
+        "愿望清单——家训只有口号没有条款"
+      ],
+      "cross_domain_mapping": {
+        "管理学": "从创始人直觉到组织能力的制度化跃迁",
+        "开源治理": "贡献规范与行为准则的成文化",
+        "组织行为": "文化只有编码为制度才可规模复制"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "《白鹿洞书院揭示》仅百余字，却成为后世七百年东亚书院的通用宪章——制度文本的杠杆率与其篇幅成反比。",
+          "example_en": "A hundred-odd characters became the standing charter of East Asian academies for seven centuries—institutional leverage inversely proportional to length."
+        },
+        {
+          "example_zh": "现代类比：Linus 的'好品味'若只存在于邮件列表闲谈中，Linux 贡献不会全球复制；写成 contribution guide 之后才成为制度。",
+          "example_en": "Linus's 'good taste' scaled only once written into a contribution guide—oral tradition to institution."
+        }
+      ]
+    },
+    {
+      "mode_id": "M-ZHX-010",
+      "mode_name_zh": "经典再结构·选编注疏法",
+      "mode_name_en": "Re-curating the Canon: Selection, Ordering, Annotation",
+      "category": "方法论",
+      "definition_zh": "首次把《大学》《中庸》从《礼记》抽出，与《论语》《孟子》并立为'四书'，并定读法次序（《大学》定规模→《论语》立根本→《孟子》观发越→《中庸》求微妙）；《近思录》再把北宋四子语录剪裁为十四卷阶梯。不著新经而重排旧典：通过筛选、排序、注释，把思想史原料重组为一条最优学习路径。《四书》体系本身就是一个课程设计。",
+      "definition_en": "He lifted the Great Learning and Doctrine of the Mean out of the Book of Rites to form the Four Books with fixed reading order, and curated Near Reflections as a fourteen-chapter ladder into the masters. No new scripture—just re-selection, re-ordering, annotation: restructuring the raw material of intellectual history into an optimal learning path.",
+      "key_principles": [
+        "体系建构可以不写新书，只重排旧典",
+        "筛选即立场：选什么就是主张什么",
+        "次序即教学法：同一内容不同顺序产生不同理解结构",
+        "注释是隐性原创：以疏不破注之名行立己说之实"
+      ],
+      "typical_outputs": [
+        "课程大纲、书单、学习路径设计",
+        "选本与读本类知识产品",
+        "对既有材料的重组式创新"
+      ],
+      "practical_applications": [
+        "知识整理：面对海量材料先做'四书化'——选核心、定次序、加导读",
+        "内容产品：与其原创碎片，不如把领域经典重排成阶梯",
+        "团队培训：把散落的最佳实践编成带次序的内部经典"
+      ],
+      "mental_model": "面对一个领域不知道从何学起时，问的不是'读哪本书'，而是'这个领域有没有人做过'四书化''——若没有，机会就在这里：选出四根柱子，定出阅读次序，加上贯通注释。重排即创造。",
+      "contrast_modes": [
+        "原著崇拜——以为按时间顺序啃完所有经典就算懂",
+        "碎片消费——没有次序与结构的散点阅读",
+        "为编而编——无立场的机械选本"
+      ],
+      "cross_domain_mapping": {
+        "教育学": "课程设计的本质：内容选择×序列安排×支架注释",
+        "出版业": "选本经济：编者的再结构化即产品价值",
+        "软件工程": "框架的本质：对既有库的选择性重组与默认次序"
+      },
+      "mode_examples": [
+        {
+          "example_zh": "《近思录》把二程、张载、周敦颐语录按'道体→为学→致知……'十四卷重排，朱子自称'穷乡晚进有志于学而无明师良友者'之阶梯——一次选编造就数百万人的入门路径。",
+          "example_en": "Near Reflections reordered the Song masters into a fourteen-step ladder for students without teachers—one curation became the entry path for millions."
+        },
+        {
+          "example_zh": "现代类比：Charlie Munger 无新书传世，其影响力来自把零散智慧重排为'多元思维模型'清单——重排本身即原创。",
+          "example_en": "Munger wrote no treatise; his impact came from re-ordering scattered wisdom into a latticework of mental models—rearrangement as creation."
+        }
+      ]
+    }
+  ],
+  "integration_analysis": null,
+  "modern_relevance": null,
+  "meta": {
+    "generation_date": "2026-09-08",
+    "mode_count": 10,
+    "phase": "Phase 21"
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "tags": {
+    "P4-TECH-001": {
+      "name_zh": "杨元庆",
+      "name_en": "Yang Yuanqing",
+      "category": "TECH",
+      "core_modes": [
+        "全球化思维",
+        "战略敏捷"
+      ],
+      "domains": [
+        "制造业全球化路径",
+        "大企业组织架构重塑"
+      ]
+    },
+    "P4-TECH-002": {
+      "name_zh": "曹德旺",
+      "name_en": "Cao Dewang",
+      "category": "TECH",
+      "core_modes": [
+        "本分思维",
+        "成本领先"
+      ],
+      "domains": [
+        "传统制造业出海",
+        "成本控制范式"
+      ]
+    },
+    "P4-TECH-003": {
+      "name_zh": "何小鹏",
+      "name_en": "He Xiaopeng",
+      "category": "TECH",
+      "core_modes": [
+        "用户共创",
+        "智能进化"
+      ],
+      "domains": [
+        "智能制造",
+        "用户导向型产品研发"
+      ]
+    },
+    "P4-TECH-004": {
+      "name_zh": "李斌",
+      "name_en": "Li Bin",
+      "category": "TECH",
+      "core_modes": [
+        "用户思维",
+        "社会化协作"
+      ],
+      "domains": [
+        "用户运营",
+        "品牌忠诚度构建"
+      ]
+    },
+    "P4-TECH-005": {
+      "name_zh": "雷军",
+      "name_en": "Lei Jun",
+      "category": "TECH",
+      "core_modes": [
+        "互联网思维",
+        "极致性价比"
+      ],
+      "domains": [
+        "互联网生态布局",
+        "效率升级"
+      ]
+    },
+    "P4-TECH-006": {
+      "name_zh": "王兴",
+      "name_en": "Wang Xing",
+      "category": "TECH",
+      "core_modes": [
+        "系统思维",
+        "多快好省"
+      ],
+      "domains": [
+        "本地生活数字化",
+        "复杂系统调度"
+      ]
+    },
+    "P4-TECH-007": {
+      "name_zh": "张一鸣",
+      "name_en": "Zhang Yiming",
+      "category": "TECH",
+      "core_modes": [
+        "延迟满足",
+        "算法分发"
+      ],
+      "domains": [
+        "内容分发",
+        "信息效率最大化"
+      ]
+    },
+    "P4-TECH-008": {
+      "name_zh": "段永平",
+      "name_en": "Duan Yongping",
+      "category": "TECH",
+      "core_modes": [
+        "本分文化",
+        "长期主义"
+      ],
+      "domains": [
+        "企业长期发展战略",
+        "价值管理"
+      ]
+    },
+    "P4-WOMEN-009": {
+      "name_zh": "林巧稚",
+      "name_en": "Lin Qiaozhi",
+      "category": "WOMEN",
+      "core_modes": [
+        "医学使命感",
+        "博爱精神"
+      ],
+      "domains": [
+        "临床医学",
+        "公共卫生教育"
+      ]
+    },
+    "P4-WOMEN-010": {
+      "name_zh": "屠呦呦",
+      "name_en": "Tu Youyou",
+      "category": "WOMEN",
+      "core_modes": [
+        "中西医结合",
+        "科学系统验证"
+      ],
+      "domains": [
+        "药物创新",
+        "科研验证方法"
+      ]
+    },
+    "P4-WOMEN-011": {
+      "name_zh": "程开甲",
+      "name_en": "Cheng Kaijia",
+      "category": "WOMEN",
+      "core_modes": [
+        "国家战略导向",
+        "工程体系建模"
+      ],
+      "domains": [
+        "大型工程建设",
+        "国防科研"
+      ]
+    },
+    "P4-WOMEN-012": {
+      "name_zh": "钱临照",
+      "name_en": "Qian Linzhao",
+      "category": "WOMEN",
+      "core_modes": [
+        "跨学科探索",
+        "人才培养系统"
+      ],
+      "domains": [
+        "科学教育",
+        "跨学科研究"
+      ]
+    },
+    "P4-WOMEN-013": {
+      "name_zh": "叶叔华",
+      "name_en": "Ye Shuhua",
+      "category": "WOMEN",
+      "core_modes": [
+        "科学视野",
+        "国际合作创新"
+      ],
+      "domains": [
+        "科学基础设施建设",
+        "国际化战略"
+      ]
+    },
+    "P4-WOMEN-014": {
+      "name_zh": "杨善竽",
+      "name_en": "Yang Shanyu",
+      "category": "WOMEN",
+      "core_modes": [
+        "奉献精神",
+        "家庭协作体系"
+      ],
+      "domains": [
+        "家庭治理",
+        "重大事业支撑"
+      ]
+    },
+    "P4-WOMEN-015": {
+      "name_zh": "张桂梅",
+      "name_en": "Zhang Guimei",
+      "category": "WOMEN",
+      "core_modes": [
+        "信仰教育",
+        "社会创新范式"
+      ],
+      "domains": [
+        "社会教育",
+        "教育公平行动"
+      ]
+    },
+    "P4-WOMEN-016": {
+      "name_zh": "夏培肃",
+      "name_en": "Xia Peisu",
+      "category": "WOMEN",
+      "core_modes": [
+        "自主研发范式",
+        "体系化构建"
+      ],
+      "domains": [
+        "科技自主攻关",
+        "计算机体系建设"
+      ]
+    },
+    "AE-ZAY-001": {
+      "code": "AE-ZAY-001",
+      "name_zh": "扎耶德/阿联酋/联邦/石油/宽容/女性/太空/火星",
+      "name_en": "Zayed/UAE/Federation/Oil/Tolerance/Women/Space/Mars",
+      "era": "1918-2004",
+      "gender": "男",
+      "ethnicity": "阿联酋",
+      "domains": [
+        "协作",
+        "系统",
+        "分析",
+        "创意",
+        "运营"
+      ],
+      "core_modes": [
+        "547",
+        "150",
+        "153",
+        "57",
+        "124"
+      ],
+      "applications": [],
+      "historical_domains": [
+        "政治",
+        "经济",
+        "社会",
+        "文化",
+        "科学"
+      ],
+      "mode_count": 5
+    },
+    "SA-OIL-001": {
+      "code": "SA-OIL-001",
+      "name_zh": "阿赫迈德·扎基·亚马尼/石油部长：石油地缘战略与 OPEC 权力架构",
+      "name_en": "Ahmed Zaki Yamani/Oil Ministers: Oil Geostrategy & OPEC Power Architecture",
+      "era": "1962-1986",
+      "gender": "male",
+      "ethnicity": "Saudi Arabia",
+      "domains": [],
+      "core_modes": [
+        "168",
+        "157",
+        "169",
+        "39",
+        "151"
+      ],
+      "applications": [],
+      "historical_domains": [],
+      "mode_count": 5
+    },
+    "JO-HAS-001": {
+      "code": "JO-HAS-001",
+      "name_zh": "约旦·阿卜杜拉二世：哈希姆巴勒斯坦和平与水难民危机",
+      "name_en": "Jordan Abdullah II: Hashemite Palestine Peace & Water Refugee Crisis",
+      "era": "1999-present",
+      "gender": "male",
+      "ethnicity": "Jordan",
+      "domains": [],
+      "core_modes": [
+        "323",
+        "10",
+        "157",
+        "153"
+      ],
+      "applications": [],
+      "historical_domains": [],
+      "mode_count": 4
+    },
+    "BH-ISL-001": {
+      "code": "BH-ISL-001",
+      "name_zh": "巴林珍珠/伊斯兰银行：伊斯兰金融治理与什叶派共识",
+      "name_en": "Bahrain Pearls/Islamic Banking: Islamic Finance Governance & Shia Consensus",
+      "era": "1971-present",
+      "gender": "male",
+      "ethnicity": "Bahrain",
+      "domains": [],
+      "core_modes": [
+        "220",
+        "149",
+        "157",
+        "153"
+      ],
+      "applications": [],
+      "historical_domains": [],
+      "mode_count": 4
+    },
+    "QA-ENE-001": {
+      "code": "QA-ENE-001",
+      "name_zh": "哈马德/卡塔尔外交/天然气：永久中立与小国大外交",
+      "name_en": "Hamad/Qatar Diplomacy/Gas: Permanent Neutrality & Small State Grand Diplomacy",
+      "era": "1995-2013",
+      "gender": "male",
+      "ethnicity": "Qatar",
+      "domains": [],
+      "core_modes": [
+        "195",
+        "57",
+        "124",
+        "150",
+        "153"
+      ],
+      "applications": [],
+      "historical_domains": [],
+      "mode_count": 5
+    },
+    "OM-QAB-001": {
+      "code": "OM-QAB-001",
+      "name_zh": "卡布斯/阿曼/现代化/中立/调解/香料/苏丹/马斯喀特/中立",
+      "name_en": "Qabus/Oman/Modernization/Neutrality/Mediation/Spice/Sultanate/Muscat/Neutral",
+      "era": "1970-2020",
+      "gender": "男",
+      "ethnicity": "阿曼",
+      "domains": [
+        "协作",
+        "系统",
+        "分析",
+        "创意",
+        "运营"
+      ],
+      "core_modes": [
+        "625"
+      ],
+      "applications": [],
+      "historical_domains": [
+        "政治",
+        "经济",
+        "社会",
+        "文化",
+        "科技"
+      ],
+      "mode_count": 1
+    },
+    "LB-CON-001": {
+      "code": "LB-CON-001",
+      "name_zh": "纳比赫·贝里/黎巴嫩共识制：教派协商制与权力分享",
+      "name_en": "Nabih Berri/Lebanese Consensus: Confessional Consultation & Power-Sharing",
+      "era": "1992-present",
+      "gender": "male",
+      "ethnicity": "Lebanon",
+      "domains": [],
+      "core_modes": [
+        "149",
+        "146",
+        "42",
+        "10"
+      ],
+      "applications": [],
+      "historical_domains": [],
+      "mode_count": 4
+    },
+    "SY-ALA-001": {
+      "code": "SY-ALA-001",
+      "name_zh": "叙利亚·阿萨德：阿拉维内战与化武俄伊朗生存",
+      "name_en": "Syria Assad: Alawi Civil War & Chemical Weapons Russia Iran Survival",
+      "era": "2000-present",
+      "gender": "male",
+      "ethnicity": "Syria",
+      "domains": [],
+      "core_modes": [
+        "325",
+        "10",
+        "157",
+        "153"
+      ],
+      "applications": [],
+      "historical_domains": [],
+      "mode_count": 4
+    },
+    "IQ-CAL-001": {
+      "code": "IQ-CAL-001",
+      "name_zh": "哈里发·本·阿卜杜拉/巴格达哈里发：伊斯兰教法哈里发治理与帝国秩序",
+      "name_en": "Caliph al-Mansur/Baghdad Caliphs: Islamic Legal Caliphate Governance & Imperial Order",
+      "era": "754-775",
+      "gender": "male",
+      "ethnicity": "Iraq",
+      "domains": [],
+      "core_modes": [
+        "160",
+        "150",
+        "149",
+        "1"
+      ],
+      "applications": [],
+      "historical_domains": [],
+      "mode_count": 4
+    },
+    "IR-KHA-001": {
+      "code": "IR-KHA-001",
+      "name_zh": "哈梅内伊",
+      "name_en": "Khamenei",
+      "era": "1939-",
+      "gender": "男/女",
+      "ethnicity": "伊朗",
+      "domains": [
+        "思想",
+        "政策",
+        "战略"
+      ],
+      "core_modes": [
+        "615",
+        "154",
+        "62",
+        "156"
+      ],
+      "applications": [],
+      "historical_domains": [
+        "政治",
+        "军事",
+        "外交"
+      ],
+      "mode_count": 4
+    },
+    "YE-HOU-001": {
+      "code": "YE-HOU-001",
+      "name_zh": "也门·胡塞运动：扎伊德什叶抵抗与导弹红海",
+      "name_en": "Yemen Houthi Movement: Zaydi Shia Resistance & Missiles Red Sea",
+      "era": "2004-present",
+      "gender": "male",
+      "ethnicity": "Yemen",
+      "domains": [],
+      "core_modes": [
+        "316",
+        "10",
+        "157",
+        "153"
+      ],
+      "applications": [],
+      "historical_domains": [],
+      "mode_count": 4
+    },
+    "H-HZX-001": {
+      "code": "H-HZX-001",
+      "name_zh": "黄宗羲",
+      "name_en": "Huang Zongxi",
+      "era": "明末清初 (1610-1695)",
+      "gender": "male",
+      "ethnicity": "汉族",
+      "domains": [
+        "政治哲学",
+        "学术史",
+        "哲学本体论",
+        "史学方法论",
+        "经济思想"
+      ],
+      "core_modes": [
+        "M301",
+        "M302",
+        "M303",
+        "M304",
+        "M305",
+        "M306",
+        "M307",
+        "M308",
+        "M309",
+        "M310"
+      ],
+      "applications": [
+        "政治哲学批判",
+        "学术史研究",
+        "制度设计",
+        "实证考据",
+        "税制改革分析"
+      ],
+      "historical_domains": [],
+      "mode_count": 10
+    }
+  },
+  "H-HZ-001": {
+    "categories": [
+      "政治哲学",
+      "法治思想",
+      "民本思想",
+      "制度设计",
+      "史学方法"
+    ],
+    "scenarios": [
+      {
+        "id": "HZ-001",
+        "title": "天下为主：重构君民关系",
+        "description": "在传统家天下观念基础上，重新定义君民关系，确立万民为政治主体的合法性",
+        "difficulty": "中等",
+        "related_modes": [
+          "M01",
+          "M04",
+          "M10"
+        ]
+      },
+      {
+        "id": "HZ-002",
+        "title": "法治优先：制度优于个人",
+        "description": "批判人治观念，确立良法先于贤人的制度优先原则",
+        "difficulty": "中等",
+        "related_modes": [
+          "M02",
+          "M03",
+          "M06"
+        ]
+      },
+      {
+        "id": "HZ-003",
+        "title": "学校议政：学术制约政治",
+        "description": "设计学校作为政治议政和监督机构的制度方案",
+        "difficulty": "困难",
+        "related_modes": [
+          "M05",
+          "M08",
+          "M10"
+        ]
+      },
+      {
+        "id": "HZ-004",
+        "title": "公私辩证：万民之私即天下之公",
+        "description": "重新理解公私关系，构建基于个人利益的公共性理论",
+        "difficulty": "中等",
+        "related_modes": [
+          "M01",
+          "M04",
+          "M07"
+        ]
+      },
+      {
+        "id": "HZ-005",
+        "title": "分权制衡：恢复宰相制度",
+        "description": "通过恢复宰相制度和学校议政实现权力制衡",
+        "difficulty": "困难",
+        "related_modes": [
+          "M06",
+          "M05",
+          "M10"
+        ]
+      },
+      {
+        "id": "HZ-006",
+        "title": "经世致用：融心性与事功",
+        "description": "从具体制度和政策层面解决社会问题的实践方法",
+        "difficulty": "中等",
+        "related_modes": [
+          "M07",
+          "M08",
+          "M01"
+        ]
+      }
+    ]
+  },
+  "H-YYP-001": {
+    "code": "H-YYP-001",
+    "name_zh": "黄炎培",
+    "name_en": "Huang Yanpei",
+    "era": "Modern-Early (近代, 1878-1965)",
+    "gender": "Male",
+    "ethnicity": "Han",
+    "domains": [
+      "Education",
+      "Economics",
+      "Governance"
+    ],
+    "core_modes": [
+      9,
+      38,
+      37,
+      39,
+      29
+    ],
+    "mode_count": 5
+  }
+}

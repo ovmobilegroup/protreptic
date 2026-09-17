@@ -1,0 +1,830 @@
+# 洛克 Locke (H-LOC-001)
+
+## 概览 / Overview
+
+- 年代 Era: 1632-1704 : 1632 生于萨默塞特郡林格托，清教徒律师家庭，内战与共和国年代度过童年—1646 入威斯敏斯特学校受经院式古典教育—1652 入牛津基督教堂学院，厌弃经院逻辑，自修笛卡尔与医学—1656 获学士、1658 获硕士，1659 任希腊文讲师、修辞学导师—1660-1662 王政复辟后撰两篇论自然法论文（拉丁文，生前未刊）—1666 结识沙夫茨伯里伯爵第一，次年入其府任医学顾问与秘书，人生转折—1668 主持一场成功的开胸手术救沙夫茨伯里一命，并当选皇家学会会员—1669 起草卡罗来纳基本宪法（参与奴隶制条款，晚年为之萦绕）—1671 与五六位友人聚谈'人类理解的范围'，成为《人类理解论》二十年起点的种子—1675-79 因宫廷政治避走法国蒙彼利埃，用法语笔记观察物价、疾病与风俗—1683 因沙夫茨伯里的莱伊宅阴谋牵连亡命荷兰，隐姓埋名，与阿姆斯特丹学界往来，暗中与奥兰治亲王方面联系—1685 被英使列入引渡名单而匿迹—1688-89 光荣革命成功，随玛丽女王乘船归国；同年《论宽容》在荷兰匿名出版—1689-90 《政府论两篇》匿名刊行（扉页题献'献给所有英国人'），《人类理解论》《论宽容书信》相继出版—1691 隐居奥茨府马沙姆爵士家，与达默里斯·马沙姆及其好友克拉克夫人论学通信（论爱、激情与女性教育，1690s 的十几封信是英哲史上最早的严肃性别平等论述之一）—1693 刊《教育漫话》—1695 刊《基督教的合理性》，以'软弱的人性需要信仰的拐杖'处理信仰与理性—1696 出任新设贸易与垦殖委员会专员—1700 修订《人类理解论》第四版（增'同意的同意'章与论狂热章）—1704 年 10 月 28 日在奥茨府平静病逝，临终读《诗篇》，自撰墓志铭称'一个诚实勤奋的英国学者……愿他学到的辩证法教训止于此：要真实地、朴素地认识上帝，向上帝十字架下谦卑祈求'
+- 学派 School: 英国经验论奠基者 / 古典自由主义与宪政理论之父 / 医学-政治实践家（皇家学会会员、贸易委员会专员）/ 自称'under-labourer'（真理大厦的清道夫）
+
+
+### 历史意义 / Significance
+
+洛克（1632-1704），英国经验论哲学的奠基人、古典自由主义的总设计师、光荣革命的理论辩护人。《人类理解论》把哲学从'世界是什么'改写为'我们能知道什么'——第一本以认识论检查为起点的近代哲学书，休谟、康德的整个路线由它开启。《政府论两篇》把政府的目的定义为'保护财产'——即生命、自由与财产这些先于政府存在的自然权利，政府只是人民托管的受托人，一旦背信，人民有权'诉诸上天'推翻它。这份文本飞越大西洋：杰斐逊把洛克的权利清单改写进《独立宣言》，'生命、自由与追求幸福'就是洛克的'生命、自由与财产'的措辞变奏。他的独特之处在于把'怀疑'制度化：对知识的怀疑（一切观念来自经验，实体不可知），对权力的怀疑（统治者的权力同样来自经验性的同意，而非君权神授），对自身的怀疑（自称'清道夫'，替更伟大的思想者扫除语言的杂草）。但他也是一道深刻的矛盾：他为卡罗来纳宪法起草过奴隶制条款，又在《政府论》中说'奴隶制是自然状态的战争状态的继续'；他在《论宽容》中把无神论者与天主教徒排除在宽容之外。这些矛盾不是要被涂抹的污点，而是要被诚实的读者当作考题——一个把'同意'作为一切合法性源头的人，如何对待从未被征得同意的人？
+
+John Locke (1632-1704), founder of British empiricism, chief architect of classical liberalism, and theoretical counsel for the Glorious Revolution. The Essay Concerning Human Understanding rewrote philosophy's question from 'what is the world' to 'what can we know'—the first great modern book to begin with an epistemological audit, opening the entire route that runs through Hume to Kant. The Two Treatises of Government defined the end of government as 'the preservation of property'—that is, of life, liberty, and estate, natural rights existing prior to government; government is a trustee of the people, and when it betrays its trust, the people may 'appeal to heaven' and dissolve it. That text crossed the Atlantic: Jefferson's 'life, liberty, and the pursuit of happiness' in the Declaration of Independence is a variation on Locke's 'lives, liberties, and estates.' What makes him unique is the institutionalization of doubt: doubt toward knowledge (all ideas come from experience, substance unknowable), doubt toward power (a ruler's authority likewise rests on empirical consent, not divine right), doubt toward himself (the self-styled 'under-labourer' clearing the ground for greater minds). Yet he is also a deep contradiction: he drafted slavery clauses into the Fundamental Constitutions of Carolina, while in the Two Treatises he wrote that slavery is 'the state of war continued' in the state of nature; his Letter on Toleration excluded atheists and Catholics from toleration. These contradictions are not stains to be airbrushed but exam questions for the honest reader—how does a man who made consent the source of all legitimacy treat those whose consent was never asked?
+
+
+### 独特思维 / Unique Thinking
+
+他的方法是把大问题降格为可审计的小问题：不问'世界的本质是什么'，而问'我的观念是从哪里来的'——认识论审计。他把心灵当作一张白纸（白板说），一切知识都由经验书写：感觉（外部世界盖章）与反省（内心活动盖章），凡不能追溯到这两枚印章的，就宣布为'词语的幻觉'。他把政治问题同样降格：不问'谁该统治'，而问'统治的授权书在哪里'——答案是同意，凡未经同意的权力都是篡夺。他对'过度'有一种医生式的警觉：知识的过度是独断论，权力的过度是暴政，语言的过度是经院黑话，纪律的过度（在《教育漫话》里）是精神的摧残——所以他的每一个领域都内置一个'审计的杠杆'：观念要能溯源，权力要能追责，词要能定义，管教要留余地。代价与极限：他把知识限制在观念之内后，'实体'和'自我'就退到不可知的雾里；他把同意作为合法性源头后，就很难解释奴隶、妇女与殖民地上'从未被问过的人'。这个极限不是他个人的失误，而是经验论方法的边界第一次被照亮的地方。
+
+His method demoted big questions into auditable small ones: not 'what is the world's essence' but 'where did my ideas come from'—an epistemological audit. He treated the mind as white paper (tabula rasa), all knowledge written by experience: sensation (the outer world's stamp) and reflection (the mind's own stamp); whatever cannot be traced to those two seals he declared an illusion of words. He demoted political questions the same way: not 'who should rule' but 'where is the ruler's warrant'—the answer is consent, and power without consent is usurpation. He had a physician's wariness of excess: excess in knowledge is dogmatism, excess in power is tyranny, excess in language is scholastic jargon, excess in discipline (in Some Thoughts Concerning Education) a bruising of the spirit—so every one of his domains carries a built-in lever of audit: ideas must be traceable, power accountable, words definable, discipline leave room. The cost and limit: once knowledge is confined to ideas, 'substance' and 'self' retreat into unknowable fog; once consent is the source of legitimacy, he can hardly account for slaves, women, and colonies—people never asked. That limit is not his personal failing but the first illumination of empiricism's boundary.
+
+
+---
+
+## M-LOC-001 观念溯源审计法 (Idea-Source Audit)
+
+- 领域 Domain: 《人类理解论》全书即一次审计：对'实体''本质''天赋观念'逐条查账，查不出经验来源的一律退回
+
+- Domain: The Essay is one long audit: 'substance,' 'essence,' and 'innate ideas' are called up account by account, and whatever shows no experiential source is returned
+
+
+### 定义 / Definition
+
+洛克最根本的思维方式是把本体论问题转写为认识论审计问题：不问'X 是什么'，先问'我关于 X 的观念是从哪里来的'。他给心灵设定了两个合法的进项科目——感觉（外部对象通过感官盖章）与反省（心灵对自身活动的观察盖章）——凡是账上出现却追溯不到这两枚印章的观念（如经院哲学的'实体的形式'、'隐秘的质'），就标记为'词语的幻影'并注销。深意在于：这把审计之刃同时割向两个方向——对独断论者，它说你的'天赋观念'不过是儿童心理学的无知；对怀疑论者，它又承认观念的来源仍不能保证知识的普遍性。方法要领：把大概念拆解为最小观念单位，逐个追问来源；来源清楚的保留，来源含混的降级为假设，完全没有来源的注销。代价：审计过度会把'实体''自我'这类不可废除的底账也一并划入雾区——洛克本人就承认实体是不可知的'我不知道是什么'。现代对应物：认知科学对直觉判断的来源追踪（系统一的启发式从哪里来）、循证医学对'临床智慧'的证据分级、金融审计对'商誉'这类不可验证科目的减记，以及一切'先审来源再谈结论'的批判性思维训练。
+
+Locke's most fundamental move rewrote ontological questions as epistemological audits: not 'what is X' but 'where did my idea of X come from.' He allowed the mind exactly two lawful income accounts—sensation (stamped by outer objects through the senses) and reflection (stamped by the mind's observation of its own operations)—and any idea on the books that traced to neither (the Schoolmen's 'substantial forms' and 'occult qualities') was marked a phantom of words and written off. The deeper point: this blade cuts both ways—against dogmatists, it says your 'innate ideas' are mere ignorance of child psychology; against skeptics, it concedes that tracing an idea's source does not guarantee the universality of knowledge. Method: decompose the grand concept into minimal idea-units, interrogate each for provenance; keep what traces clearly, demote the murky to hypothesis, write off the traceless. The cost: over-auditing consigns even the irreducible ledger-items 'substance' and 'self' to fog—Locke himself admitted substance is an unknowable 'I know not what.' Modern analogues: cognitive science's source-tracking of intuitive judgments (where do System 1 heuristics come from), evidence grading in evidence-based medicine, the write-down of unverifiable accounts like 'goodwill' in auditing, and every critical-thinking drill that asks for provenance before conclusion.
+
+
+### 出处 / Source
+
+《人类理解论》卷一（驳天赋观念）、卷二.1（感觉与反省）、卷二.23（论实体：'一个我不知道是什么的东西'）、卷三.10（词语的滥用）
+
+
+### 金句 / Key Quote
+
+> 我们的观念账上每进一笔，都要先验它的印章：是感觉盖的，还是反省盖的？两章全无的，是词的幽灵。
+> Every entry in the ledger of ideas must show its seal: sensation's or reflection's; a phantom of words carries neither.
+
+
+### 概念 / Key Concepts
+
+观念来源两账户、感觉与反省双章、词语的幻影注销、概念最小单位拆解、来源含混降级、不可知底账
+
+
+### 流程 / Process
+
+1. 列出账户：把关于该对象的一切断言转写为'我们所持的观念清单' / List the accounts: rewrite every assertion about the object as an inventory of ideas we actually hold
+
+2. 验印溯源：对每个观念追问其经验来源——感觉（外部）或反省（内部） / Check the seals: interrogate each idea's experiential source—sensation (outer) or reflection (inner)
+
+3. 降级含混：来源只能部分追溯的，降级为有待检验的假设而非定论 / Demote the murky: partly traceable ideas become hypotheses pending test, not verdicts
+
+4. 注销幽灵：完全查不到来源的（经院黑话、空转术语），从论证中整体剔除 / Write off phantoms: wholly untraceable terms (scholastic jargon, spinning jargon) are excised from the argument
+
+5. 重述问题：把原问题改写为在剩余合法观念上可回答的形式 / Restate the question: reformulate the original problem in terms answerable on the remaining lawful ideas
+
+
+### 代表案例 / Cases
+
+- 驳天赋观念：'凡儿童与白痴都不知道的观念就不是天赋的'——用最笨的反例审计最崇高的断言 / Against innate ideas: 'no idea can be innate that children and idiots do not know'—the dullest counterexample auditing the loftiest claim
+
+- 实体概念：我们发现关于物体的观念堆成一捆，却追问不出'承载它们的那个东西'，洛克老实记为'我不知道是什么' / Substance: we find a bundle of ideas about bodies but cannot trace the 'somewhat' that supports them, and Locke honestly records 'I know not what'
+
+- 经院'隐秘的质'：解释鸦片为何催眠时说'因为它有催眠力'——洛克指出这是同义反复的空账，应注销 / Occult qualities: to explain why opium puts men to sleep by saying it has a dormitive virtue—an empty tautological entry Locke strikes out
+
+- 对'本质'的改写： nominal essence（名义本质，我们造的类名）与 real essence（实在本质，不可知的内部构造）分开记账，混淆即谬误 / Rewriting 'essence': keep nominal essence (our class-word) and real essence (the unknowable inner constitution) in separate ledgers; their confusion is fallacy
+
+
+### 现代应用 / Modern Applications
+
+- 决策复盘：把'我们的判断'拆成具体信念清单，逐条问证据来源，来源含混的降级为假设重新检验 / Decision review: decompose 'our judgment' into an inventory of concrete beliefs, interrogate each for evidential source, demote the murky to hypothesis and retest
+
+- 产品审计：每个'用户需要X'的主张必须追溯到用户访谈或数据来源，追溯不到的从需求文档中注销 / Product audit: every 'users need X' claim must trace to interviews or data; untraceable ones are struck from the requirements document
+
+- 学习法：读任何理论先做'来源审计'——作者的每个关键断言靠什么观察支撑？查不到支撑的标记为词语幻觉 / Learning method: run a source audit on any theory—which observation backs each key claim? Mark the unsupported as phantoms of words
+
+- 会议纪律：禁止用未定义术语推进论证，先问'这个词你指的是哪个可观察的东西'再继续 / Meeting discipline: no argument advances on undefined terms; ask 'which observable thing does this word name' before proceeding
+
+
+### 相关模式 / Related Modes
+
+M-LOC-002、M-LOC-006、M-BAK-001、M-BAK-002
+
+
+### 代表人物 / Representative Figures
+
+- 培根 (Bacon): 方法前驱 / methodological precursor
+
+- 休谟 (Hume): 激进化继承者 / radicalizing successor
+
+- 康德 (Kant): 回应其审计者 / responder to the audit
+
+
+---
+
+## M-LOC-002 白板经验书写法 (Tabula-Rasa Scripting)
+
+- 领域 Domain: 白板说：心灵是没有字的白纸，感觉与反省是仅有的两支笔——天赋观念论在此被连根拔起
+
+- Domain: The tabula rasa: the mind white paper without characters, sensation and reflection the only two pens—the doctrine of innate ideas pulled up by the root
+
+
+### 定义 / Definition
+
+洛克用'白板'比喻把'人心先天带有什么'这个问题做了一次彻底清零：'让我们假设心灵是一张没有写字的白纸，一切观念都来自经验。'深意在于：白板说是民主的认识论——如果一切知识都来自经验，那么没有人天生高贵、天生博学、天生该统治；王子与鞋匠出生时心灵完全等值，差别全在后天经验的排列。这也是教育学的解放宣言：《教育漫话》的每个训诫都建立在'心灵可写'的前提上。方法要领：面对任何'天生的''本能的''自古如此'的断言，先追问它是白纸上的字（可指认的书写来源）还是纸的纹理（真正的先天的东西）——洛克承认纸不是全然空白（反省能力、联想机制是纸的质地），但认为内容全是书写的。代价：白板说过度延伸会抹平先天差异——现代认知科学（乔姆斯基的语言本能、婴儿研究）证明纸上有大量先天的沟回；洛克自己的'联想'章也承认心灵会自发把观念粘起来。现代对应物：组织文化的'新人白纸论'（制度设计假设人被环境书写）、成长型思维的教育实践、以及一切'环境与输入决定输出'的训练系统设计。
+
+With the 'white paper' metaphor Locke performed a total reset on the question 'what does the mind bring with it': 'Let us suppose the mind to be white paper void of all characters, and all ideas to come from experience.' The deeper point: the tabula rasa is a democratic epistemology—if all knowledge comes from experience, no one is born noble, born learned, born fit to rule; prince and cobbler's minds are exactly equal at birth, differing only in the arrangement of later experience. It is also education's emancipation proclamation: every precept in Some Thoughts Concerning Education rests on the premise that the mind is writable. Method: confront every claim of 'innate,' 'instinctive,' 'it was ever thus' and ask whether it is writing on the paper (with a traceable source) or the paper's own grain (truly prior); Locke grants the paper is not blank in every sense (reflection, the mechanism of association are its texture), yet insists the content is all scripted. The cost: pushed too far, the blank slate erases native differences—modern cognitive science (Chomsky's language instinct, infant studies) shows the paper carries many innate furrows; Locke's own chapter on the association of ideas concedes the mind spontaneously glues ideas together. Modern analogues: the 'newcomer as blank page' in organizational design, growth-mindset pedagogy, and every training system built on environment-and-input-determines-output.
+
+
+### 出处 / Source
+
+《人类理解论》卷二.1.2（白纸之喻）、卷二.33（观念的联想）、《教育漫话》§1（'我敢说我观察到的儿童心灵之通常扭曲的源泉，十有八九是观念的联想'）
+
+
+### 金句 / Key Quote
+
+> 王子、贵族与最高贵的婴儿诞生时，与最贫贱的流浪儿的心灵并无不同——区别是他们各自经历的书写。
+> At birth the minds of princes and the meanest beggars are alike; what differs is the writing experience makes on each.
+
+
+### 概念 / Key Concepts
+
+白纸之喻、经验双源书写、心灵起点等值、教育可写性、联想自发黏合、先天沟回之限
+
+
+### 流程 / Process
+
+1. 清零假设：把问题对象的心灵/组织/系统预设为无先天内容的白纸 / Zero the ledger: presume the mind/organization/system a white paper with no innate content
+
+2. 辨纸与字：区分纸的质地（不可更改的机制）与纸上的字（可改写的内容） / Tell grain from script: distinguish the paper's texture (unchangeable mechanism) from what is written on it (rewritable content)
+
+3. 追踪书写：对每个'固有属性'指认其书写的来源——谁在什么时候写的 / Trace the writing: for each 'inherent trait,' identify who wrote it, and when
+
+4. 改写设计：既然内容来自经验，就通过重排经验（教育/制度/训练）来改写内容 / Design the rewrite: since content comes from experience, rewrite it by rearranging experience—education, institutions, training
+
+5. 留纸纹余量：为不可写的先天质地保留设计余地，防止白板教的越界 / Reserve for the grain: leave design margin for unwritable native texture, guarding against blank-slate overreach
+
+
+### 代表案例 / Cases
+
+- 《教育漫话》开篇：'我敢说，我们日常见到的成人中，好与坏、有用与无用，十分之九由他们的教育决定'——白板说的教育应用 / Some Thoughts opens: 'nine parts of ten of what we are, good or bad, useful or useless, is from education'—the blank slate applied to schooling
+
+- 驳君权神授：《政府论》不谈《圣经》逐句，而是论证若心灵无天赋内容，'天赋统治权'就无处落笔 / Against divine right: the Two Treatises does not parse scripture but argues that if the mind carries no innate content, 'divine hereditary right' has nowhere to be written
+
+- 联想章：一个儿童在昏暗房间里挨打，长大后一见同类房间就恐惧——观念的书写会自行黏合成长期倾向 / The association chapter: a child beaten in a dark room grows up fearing such rooms—written ideas glue themselves into lasting dispositions
+
+- 致克拉克夫人的信：女性并非天生心智较弱，而是被'针线与跳舞'的窄窄书写限制了——把白板说推到性别平等 / Letters to Lady Clarke: women's minds are not naturally weaker but narrowed by the thin script of 'needle and dance'—the blank slate pushed to gender equality
+
+
+### 现代应用 / Modern Applications
+
+- 组织设计：新制度不要假设'人就是这样'，先审计现有行为哪些是制度书写的结果，再动笔 / Organizational design: never assume 'people are just like this'; audit which behaviors are the institution's writing before you write anew
+
+- 个人成长：把'我不擅长X'改写为'我尚未被X书写'——技能是经验的堆叠而非天赋的配额 / Personal growth: rewrite 'I'm bad at X' as 'X has not yet written on me'—skill is stacked experience, not an allotted talent
+
+- 产品冷启动：假设用户心智可写，用前三次交互完成关键的'首次书写'，之后的习惯由联想机制固化 / Product cold start: presume the user's mind writable; make the first three interactions the critical first script, then let association harden the habit
+
+- AI训练：预训练-微调范式正是白板说的工程化——底座是一张可写的纸，数据是书写的经验 / AI training: pretraining-then-finetuning is the blank slate engineered—a writable base, data as the writing experience
+
+
+### 相关模式 / Related Modes
+
+M-LOC-001、M-LOC-003、M-LOC-010、M-GAL-001
+
+
+### 代表人物 / Representative Figures
+
+- 卢梭 (Rousseau): 白板说的教育继承者 / heir of the blank slate in education
+
+- 乔姆斯基 (Chomsky): 现代批评者 / modern critic
+
+- 华生 (Watson): 行为主义白板论者 / behaviorist blank-slater
+
+
+---
+
+## M-LOC-003 双性质量分离法 (Primary-Secondary Split)
+
+- 领域 Domain: 第一性质（广延、形状、运动）在任何状态下属于物自身；第二性质（色、声、味、热）只在观察者心里点火
+
+- Domain: Primary qualities (extension, figure, motion) belong to the thing in every state; secondary qualities (color, sound, taste, heat) light up only in the observer's mind
+
+
+### 定义 / Definition
+
+洛克给物体的性质做了人类思想上最著名的一次分账：第一性质（体积、广延、形状、运动、数目）是'完全不可与物体分离'的——把一粒麦子碾到再碎，它仍有体积与形状；第二性质（颜色、声音、滋味、温度）'实际上不在对象之中，而在我们心中'——雪不冷，是雪在我们心里产生冷的感觉，火不热，火只有推动我们感官的微粒运动。深意在于：这不是玄想而是物理学与心理学的分界线宣言——感觉的世界一半是世界的功劳，一半是神经系统的功劳；把这两笔账分清，才能同时拯救科学（研究第一性质的数学描述）与常识（第二性质的经验实在性）。方法要领：对任何一个'X 是什么样的'判断，追问：这个属性在观察者退场后还在不在？在的记入第一性质账（客观描述），不在的记入第二性质账（主观体验，如实报告但不外推）。代价：分界线本身是危险的——贝克莱正是从这里出发否认物质的存在；神经科学进一步证明连'广延'也是皮层的建构，洛克的第一性质账可能也写着观察者的名字。现代对应物：用户研究区分'系统指标'（服务器延迟）与'体验指标'（感知卡顿）、测量理论区分'对象属性'与'仪器交互效应'、以及一切'主客分离记账'的科学训练。
+
+Locke drew the most famous double-entry in the history of thought on qualities: primary qualities (bulk, extension, figure, motion, number) are 'utterly inseparable' from the body—grind the grain of wheat ever finer, it still has bulk and figure; secondary qualities (color, sound, taste, temperature) 'are nothing in the objects themselves but powers to produce sensations in us'—snow is not cold, it produces cold in us; fire has no heat, only the motion of its corpuscles upon our organs. The deeper point: this is the founding declaration of the boundary between physics and psychology—half the felt world is the world's doing, half the nervous system's; only by keeping the two ledgers distinct can we save both science (mathematical description of primary qualities) and common sense (the experiential reality of secondary ones). Method: for any judgment 'X is thus-and-so,' ask whether the property survives the observer's exit; what survives goes in the primary ledger (objective description), what does not goes in the secondary ledger (subjective report, recorded faithfully but never extrapolated). The cost: the dividing line itself is perilous—Berkeley built his denial of matter upon it; neuroscience goes further, showing even extension is a cortical construction, so the primary ledger may also bear the observer's name. Modern analogues: user research separating system metrics (server latency) from experience metrics (perceived lag), measurement theory separating object properties from instrument-interaction effects, and every scientific training that books subject and object in separate columns.
+
+
+### 出处 / Source
+
+《人类理解论》卷二.8（论简单观念的来源，第一/第二性质之分）
+
+
+### 金句 / Key Quote
+
+> 雪是白的吗？不，雪只有造成'白'的能力；白色开在我们心里，如花开在神经的枝头。
+> Is snow white? No: snow has only the power to cause whiteness; white blooms in us, a flower on the branch of our nerves.
+
+
+### 概念 / Key Concepts
+
+第一性质不可分离、第二性质在心中、物体内在动力、感觉半属神经、分账边界、分界线的反噬
+
+
+### 流程 / Process
+
+1. 列属性清单：把关于对象X的一切'X是……'式判断收集成清单 / Inventory the properties: collect every 'X is...' judgment about the object
+
+2. 逐条审问：对每条追问——观察者退场后该属性是否仍在对象中 / Interrogate each: does the property remain in the object when the observer leaves?
+
+3. 分账入册：仍在的记入'对象自带'账，不在的记入'观察者附加'账 / Book the split: what remains goes to the object's own ledger; the rest to the observer's
+
+4. 分别处理：对象账用测量与建模处理，观察者账用现象报告与设计处理 / Process separately: object entries by measurement and modeling; observer entries by faithful phenomenological report and design
+
+5. 警惕误记：特别审计被伪装成对象账的体验条目（把'好用'说成'产品本身的性质'） / Guard against misfiling: especially audit experience entries dressed as object entries (calling 'pleasantness' a property of the product)
+
+
+### 代表案例 / Cases
+
+- 火与痛：火里有推动微粒的运动（第一性质），痛却只在我们身上——把'火是痛的'改写为'火使人痛'就清了账 / Fire and pain: the fire holds corpuscular motion (primary), pain lives only in us—rewriting 'fire is painful' as 'fire causes pain' clears the ledger
+
+- 解释寓言：三个管中取水例子——同一物在不同感官通道给出的报告不同，分账前互相争辩毫无意义 / The parable of the three bowls: one body of water reporting differently through different senses—before the split, the reports merely quarrel
+
+- 致斯蒂林弗利特的通信：神学家要求'物的实在本质'，洛克回信说那笔账我们拿不到，能记的只有名义本质 / Letters to Stillingfleet: the theologian demands the 'real essence'; Locke answers that we cannot obtain that ledger, only the nominal one
+
+- 贝克莱的接管：把第一性质账也并给心灵——证明洛克分账线的位置本身是可争论的 / Berkeley's annexation: folding the primary ledger into the mind too—proof that the position of Locke's dividing line is itself arguable
+
+
+### 现代应用 / Modern Applications
+
+- 产品度量：把'系统延迟'（可测的对象性质）与'感觉卡'（用户附加性质）分列指标，前者用监控优化，后者用体验设计处理 / Product metrics: book 'system latency' (object property) and 'feels laggy' (observer-added) in separate columns—monitoring for one, experience design for the other
+
+- 科学研究：撰写报告时明确标注哪些是仪器读数（对象账）、哪些是读数者解释（观察者账），防止数据与解读混账 / Scientific writing: mark which numbers are instrument readings (object ledger) and which are the reader's interpretation (observer ledger), keeping data and gloss unmixed
+
+- 谈判与沟通：把'你的方案有缺陷'（对象判断）与'我感到被忽视'（体验事实）分账表述，减少对抗 / Negotiation: separate 'your proposal has a defect' (object judgment) from 'I feel dismissed' (a fact of experience) to lower the temperature
+
+- 审美与评价：影评、酒评等把'作品属性'与'个人感受'分开记录，让主观报告保持诚实而不冒充客观 / Criticism: reviews of film or wine that record work-properties and personal responses in distinct columns, keeping subjective reports honest without impersonating objectivity
+
+
+### 相关模式 / Related Modes
+
+M-LOC-001、M-LOC-004、M-HOB-001、M-RUS-001
+
+
+### 代表人物 / Representative Figures
+
+- 伽利略 (Galileo): 分账法先行者 / forerunner of the split
+
+- 贝克莱 (Berkeley): 分界线的激进批评者 / radical critic of the dividing line
+
+- 笛卡尔 (Descartes): 心灵-物体二分的先行者 / forerunner of the mind-body dichotomy
+
+
+---
+
+## M-LOC-004 同意授权检验法 (Consent-Warrant Check)
+
+- 领域 Domain: 《政府论》：人生而自由平等，政治权力唯一的合法来源是被统治者的同意——政府的授权书由人民签署
+
+- Domain: The Two Treatises: men are born free and equal; the only lawful source of political power is the consent of the governed—the people sign the government's warrant
+
+
+### 定义 / Definition
+
+洛克把霍布斯的'谁该统治'换成一个文书问题：'统治的授权书在哪里？'他的答案：自然状态下人人自由平等，只因缺少公共裁判者而不便，于是人们以同意让渡部分自然权利、设立受托政府——权力是人民签发的授权书，委托的目的写在文书上：保护生命、自由、财产。受托人越权即背信，背信则授权作废，人民有权'诉诸上天'——革命不是叛逆而是合同的终止条款。深意在于：同意论把合法性的重心从'权力从哪来'（神授、世袭、征服）移到'权力被谁授予'，这是现代民主宪政的总公式；而他同时区分明示同意与默示同意（享用公路即默示守法），为不推翻不表态的多数留了位置。方法要领：对任何权力（政府、上级、规则）先问三查——授权来自谁？授权范围写到什么条款？越权时收回授权的机制是什么？三查全空即为篡夺。代价：默示同意太宽则把被统治者全数绑进契约，太窄则政府每天解散；洛克无法回答'未表态者'与'从未被问过者'（妇女、奴隶、殖民地人民）的授权问题。现代对应物：知情同意书、公司治理的授权范围条款、产品隐私的 opt-in 设计、一切'权力需出示文书'的制度审计。
+
+Locke swapped Hobbes's 'who should rule' for a question about paperwork: 'where is the ruler's warrant?' His answer: in the state of nature all are free and equal, and only for want of a common judge do they consent to part with some natural powers and set up a fiduciary government—the warrant is issued by the people, with its purpose written on its face: the preservation of life, liberty, and estate. A trustee overstepping betrays the trust; betrayal voids the warrant, and the people may 'appeal to heaven'—revolution is not treason but a contract's termination clause. The deeper point: consent theory moved legitimacy's center of gravity from 'where does power come from' (God, blood, conquest) to 'who granted it'—the master formula of modern constitutional democracy. He distinguishes express from tacit consent (enjoying the highway tacitly binds you to its laws), leaving room for the non-revolting majority. Method: for any power—state, superior, rule—run three checks: from whom does the authorization flow? to which written clauses is it confined? what mechanism exists for withdrawing it on breach? Three blanks make usurpation. The cost: tacit consent drawn wide binds every subject into the contract; drawn narrow, governments dissolve daily; and Locke cannot answer for the unasked—women, slaves, the colonized—whose warrant was never requested. Modern analogues: informed consent, corporate charters of delegated authority, privacy opt-in design, and every institutional audit that demands papers before power.
+
+
+### 出处 / Source
+
+《政府论下篇》§2-15（自然状态与战争状态）、§95-99（同意的起点与界限）、§119-122（明示与默示同意）、§134-142（受托权力与立法权的界限）、§221-243（政府的解体与'诉诸上天'）
+
+
+### 金句 / Key Quote
+
+> 政府不是权力的领主，而是人民雇来的律师——授权书写明用途，越权那一刻文书作废。
+> Government is not a lord of power but the people's retained counsel—the warrant names its use, and overstepping voids the deed.
+
+
+### 概念 / Key Concepts
+
+自然自由平等、同意即授权书、受托政府、财产三联权、默示同意、革命终止条款
+
+
+### 流程 / Process
+
+1. 出示文书：要求任何掌权者先出示授权来源——谁授予、何时授予 / Demand the papers: every power-holder must show its source—who granted, and when
+
+2. 核对条款：把实际行使的权力逐项对照授权文书的目的条款（保护权利） / Check the clauses: itemize exercised powers against the warrant's stated purpose (the preservation of rights)
+
+3. 辨识越权：凡超出保护目的的权力行使（任意征夺、偏私裁判）记为背信 / Flag breach: any exercise beyond the protective purpose (arbitrary seizure, partial judgment) is betrayal of trust
+
+4. 留退出条款：确认收回授权的机制（选举、弹劾、最后的反抗权）真实存在 / Keep the exit clause: verify the recall mechanism (elections, impeachment, the last resort of resistance) truly exists
+
+5. 区分明默：分清明示授权与默示默认，不给'沉默即同意'的滥用留门 / Mark express vs. tacit: distinguish express grant from tacit acquiescence, leaving no door for 'silence is consent' abuse
+
+
+### 代表案例 / Cases
+
+- 驳菲尔麦：《政府论上篇》逐句拆解'君权来自亚当'的父权论——授权文书查无此据 / Against Filmer: the first Treatise dissects 'kingship from Adam' line by line—the warrant shows no such entry
+
+- 光荣革命辩护：《政府论下篇》为 1688 废黜詹姆斯二世正名——背信政府可被更换，不是篡位而是授权收回 / Justifying 1688: the second Treatise names the removal of James II lawful—replacing a faithless trustee is recall, not usurpation
+
+- 费城继承：杰斐逊《独立宣言》第二段几乎逐条复写洛克——'政府从被统治者的同意获得其正当权力' / The Philadelphia inheritance: Jefferson's Declaration copies Locke nearly clause by clause—'deriving their just powers from the consent of the governed'
+
+- 美洲无代表不纳税：'无代表不征税'正是同意检验法的口号形式——不显示授权书，不缴税 / No taxation without representation: the American slogan is the consent check in street form—no warrant shown, no tax paid
+
+
+### 现代应用 / Modern Applications
+
+- 组织治理：任何上级对下级的指挥权以岗位授权书为准，越权指令可拒绝并留痕申诉 / Corporate governance: a superior's authority runs to the job's delegation letter; overreaching orders may be refused, with the refusal on record
+
+- 数据隐私：把'同意授权检验'做成产品默认——收集数据前必须出示'收集什么、用于何处、如何撤回' / Data privacy: make the consent check the product's default—before collection, show what is gathered, for what use, and how to withdraw
+
+- 合同与协议：签约前先核对三项——对方授权是否真实、条款是否越出授权目的、违约退出机制是否可执行 / Contracts: before signing, verify the counterparty's authority, that terms stay within the granted purpose, and that the exit mechanism is enforceable
+
+- 公共参与：社区重大变更（拆迁、收费）必须主动征询并记录明示同意，不得以'不反对即同意'推进 / Civic participation: major community changes require documented express consent, never 'silence is consent'
+
+
+### 相关模式 / Related Modes
+
+M-LOC-004、M-LOC-005、M-LOC-006、M-LOC-009
+
+
+### 代表人物 / Representative Figures
+
+- 霍布斯 (Hobbes): 正面靶子 / the direct target
+
+- 杰斐逊 (Jefferson): 跨洋继承者 / transatlantic heir
+
+- 卢梭 (Rousseau): 激进化批评者 / radicalizing critic
+
+
+---
+
+## M-LOC-005 受托可罢免法 (Fiduciary-Trust Recall)
+
+- 领域 Domain: 政府是'受托人'不是'主权者'：权力如遗产信托，条款写明目的，违约即由受益人（人民）收回
+
+- Domain: Government is trustee, not sovereign: power held like an estate in trust, its purpose written into the terms, recallable by the beneficiaries—the people—on breach
+
+
+### 定义 / Definition
+
+洛克最富原创性的制度发明是把政治权力'法律化为'信托结构：人民把自然权利委托给政府，如同立遗嘱人把产业托给受托人——受托人对产业不享有所有权，只享有为受益人利益而管理的职责。这个结构自动解决了革命权的老问题：不是'臣民什么时候可以造反'，而是'受益人什么时候可以解除违约的受托人'——前者需要悲情与血，后者只需要查账与换人。深意在于：受托结构把'合法性'与'履约'合并成一件事——政府不再需要每次都重新证明自己神圣，只需要持续通过履约审计（保护生命、自由、财产）。洛克强调'人民没有理由轻易行使收回权'：'愚民不会急于更换他们的宪法'——受托可罢免是最后条款而非日常工具。代价：信托的'受益人全体'难以集会，谁有权宣布违约？洛克交给'人民'这个模糊主体，后来由宪政法院与定期选举补上机制。现代对应物：公司治理（董事会是股东的受托人）、信托与基金会的受信义务（duty of care/duty of loyalty）、开放源代码项目的维护者治理、以及一切'权力绑定履约条款'的制度设计。
+
+Locke's most original institutional invention legalizes political power as a trust: the people delegate natural rights to government as a testator entrusts an estate—held not as property but as a duty managed for the beneficiaries' good. The structure solves the old problem of revolution at a stroke: not 'when may subjects rebel' but 'when may beneficiaries remove a breaching trustee'—the first needs pathos and blood, the second only an audit and a replacement. The deeper point: the trust merges legitimacy with performance—government need not re-prove its sanctity at every turn, only pass a continuing audit (the preservation of life, liberty, and estate). Locke insists the recall is no daily instrument: 'the people are not so easily got out of their old forms'—fiduciary recall is the final clause, not the ordinary tool. The cost: 'the beneficiaries as a whole' cannot assemble; who may declare breach? Locke leaves it to the vague 'people'; constitutional courts and regular elections later supplied the mechanism. Modern analogues: corporate governance (directors as shareholders' trustees), the fiduciary duties of trusts and foundations, maintainer governance in open-source projects, and every institution that binds power to performance clauses.
+
+
+### 出处 / Source
+
+《政府论下篇》§149（'受托的权力'）、§155-158（人民是裁判者）、§221（'当立法者力图侵犯人民的财产、使人民处于奴役时，他们即与自己发生战争'）、§243
+
+
+### 金句 / Key Quote
+
+> 统治者是保姆，人民是婴儿的父母——保姆失职时，抱走孩子的不是暴动，而是履约条款。
+> Rulers are nurses, the people the parents—the child is taken back not by riot but by the terms of care.
+
+
+### 概念 / Key Concepts
+
+受托人非主权者、目的条款绑定、履约审计、违约即失效、人民最终裁判、罢免非常规化
+
+
+### 流程 / Process
+
+1. 写入目的条款：把权力的合法用途明文写进授权文件（保护哪些权利） / Write the purpose clause: state the lawful use of power explicitly in the instrument of grant
+
+2. 设置审计节点：定期核对权力行使与目的条款的偏差（选举、报告、质询） / Set audit points: periodically compare the exercise of power against the clause (elections, reports, questioning)
+
+3. 定义违约清单：预先列明何种行为构成背信（侵犯财产、司法偏私、自授权力） / Define breach: pre-list which acts constitute betrayal (seizure of property, partial judgment, self-granted power)
+
+4. 分层回收：先以常规手段纠正（问责、罢免），将暴力保留为最后条款 / Recall in tiers: correct first by ordinary means (accountability, removal), keeping force as the last clause
+
+5. 交接设计：保证回收后权力能平稳回到授权者手中（新选举、临时机构） / Design the handover: ensure recalled power passes smoothly back to the grantors (new elections, caretaker bodies)
+
+
+### 代表案例 / Cases
+
+- 1688 光荣革命：议会迎立威廉与玛丽并附《权利法案》——不是改朝换代而是受托人更换，权力条款重写 / The Glorious Revolution: Parliament invites William and Mary under a Bill of Rights—not a dynasty change but a trustee replaced and the terms rewritten
+
+- 《政府论》对征服的驳斥：威廉征服者不能凭武力获得受托权——暴力不产生授权文书 / Against conquest: the Treatise denies that conquest earns a trust—force produces no warrant
+
+- 美国制宪：宪法第一条把立法权逐项列举（enumerated powers）——目的条款的工程化，越权即违宪 / The American Constitution: Article I enumerates legislative powers—the purpose clause engineered; overreach is unconstitutionality
+
+- 弹劾制度：总统可罢免机制是受托可罢免法的直接应用——'违约'清单（叛国、贿赂）预先写明 / Impeachment: the removal of a president is fiduciary recall applied—the breach list (treason, bribery) written in advance
+
+
+### 现代应用 / Modern Applications
+
+- 公司治理：章程写明董事会对股东的受信义务，业绩与合规审计即履约审计，连续不达标触发改选 / Corporate charters: boards' fiduciary duties to shareholders written into the charter; performance and compliance audits are the performance audit, persistent failure triggering re-election
+
+- 基金与慈善：捐赠协议把资金用途写成目的条款，受托机构挪用即触发回收与追责 / Foundations: grant agreements write the use of funds as a purpose clause; diversion triggers recall and accountability
+
+- 开源治理：维护者权限（commit 权）以项目章程为授权书，长期失职可按程序移交权限 / Open-source governance: maintainer rights (commit bits) held on the project's charter; sustained neglect moves them by procedure
+
+- 平台规则：把'账号权限'设计成受托结构——权限条款写明用途，滥用即降权回收，而非一刀切封禁 / Platform rules: treat account privileges as a trust—terms state the use; abuse demotes and recalls rather than bans wholesale
+
+
+### 相关模式 / Related Modes
+
+M-LOC-004、M-LOC-009、M-HOB-001、M-RUS-001
+
+
+### 代表人物 / Representative Figures
+
+- 霍布斯 (Hobbes): 不可罢免主权论的对手 / opponent of the unrecallable sovereign
+
+- 孟德斯鸠 (Montesquieu): 受托结构的分权加工者 / refiner of the trust into separated powers
+
+- 麦迪逊 (Madison): 受托政府工程师 / engineer of fiduciary government
+
+
+---
+
+## M-LOC-006 价格数量衡算法 (Quantity-of-Money Method)
+
+- 领域 Domain: 1690s 铸币大辩论：反对贬值重铸，主张'货币的价值由其数量与流通需求的比例决定'——货币数量论的先声
+
+- Domain: The recoinage debate of the 1690s: against debasement, 'the value of money is set by the proportion of its quantity to the trade it must do'—an early quantity theory of money
+
+
+### 定义 / Definition
+
+洛克作为贸易委员会专员卷入 1690 年代英格兰最热的公共政策争论：铸币银含量被剪角、磨损，物价紊乱，有人主张重铸时降低银含量（贬值）以省成本。洛克的回答是他最'经验论'的一次应用：货币像其他商品一样，'其价值由数量与销售需求的比例决定'——把银币里的银减掉五分之一，所有物价将同比例上涨，债主与靠年金生活者被无声地抢劫。深意在于：这是货币数量论在历史上第一次以完整的账目形式陈述（比休谟的表述早半个世纪），而且是被用作'保护小储蓄者'的公共政策论证——抽象的计量服务于具体的人。方法要领：把'X 值多少钱'的问题化为三个可计量项——存量（X 的总量）、流量（需要经由 X 完成的交易量）、速度（X 的周转），任何价格变化都可在这三项的账目里找到位置。代价：数量论在短期会被信心与信用扰动（洛克承认'信任是货币的另一半'），机械套用会误判；他也低估了贬值重铸中的政治可行性问题——后来牛顿主持重铸实际上部分采纳了对立方案。现代对应物：央行的货币主义、通胀 targeting 的公开账目、以及一切'把宏观争论化约为可计量科目'的政策分析。
+
+Locke, as a Board of Trade commissioner, entered the hottest public controversy of the 1690s: clipped and worn coins, disordered prices, and a proposal to recoin at reduced silver weight. His answer is empiricism applied at its most practical: money, like other commodities, 'has its value set only by its quantity in proportion to its vent'—cut a fifth of the silver out and all prices rise by a fifth, a silent robbery of creditors and annuitants. The deeper point: this is the first full ledger-statement of the quantity theory of money (half a century before Hume's version), wielded as public policy on behalf of small savers—abstract measurement in the service of particular persons. Method: reduce 'what is X worth' to three measurable items—stock (total X), flow (the trade X must mediate), and velocity (X's turnover); any price change has a place in that account. The cost: in the short run confidence and credit disturb the quantity relation (Locke grants 'trust is the other half of money'), mechanical application misjudges, and he underestimated the politics—the recoinage actually carried out under Newton borrowed from his opponents. Modern analogues: monetarism and inflation-targeting's public accounting, and every policy analysis that reduces a macro debate to measurable accounts.
+
+
+### 出处 / Source
+
+《论降低利率与提高货币价值的后果》(1691/1692)、《再论提高货币价值》(1695)；贸易委员会任职期备忘录
+
+
+### 金句 / Key Quote
+
+> 把硬币里的银剪去一角，不会让银变多，只会让每个拿着硬币的人变穷——账目不会说谎。
+> Clip the silver from the coin and silver is not increased—every holder is simply made poorer; the ledger does not lie.
+
+
+### 概念 / Key Concepts
+
+货币数量比例、流通需求、贬值即无声征税、债主与年金者保护、信任为货币之半、三科目计量
+
+
+### 流程 / Process
+
+1. 列出科目：把争论中的'价值'化约为存量、流量、速度三个可计量科目 / List the accounts: reduce the disputed 'value' to measurable stock, flow, and velocity
+
+2. 建立基线：收集当前三科目的可靠数据，画出基准账 / Set the baseline: gather reliable data for the three accounts as they stand
+
+3. 推演扰动：对提议的政策（贬值、增发）逐科目推演其影响 / Run the perturbation: trace the proposed policy (debasement, emission) through each account
+
+4. 指认受害者：算出扰动后谁受损谁受益，把抽象价格变为具体人群 / Name the losers: compute who loses and who gains, turning abstract prices into particular people
+
+5. 给出账目式结论：以'数量-需求比例'的语言陈述政策建议，供公开检验 / State the ledger conclusion: phrase the recommendation in quantity-to-vent terms, open to public check
+
+
+### 代表案例 / Cases
+
+- 1695 重铸辩论：洛克主张按旧标准足银重铸（硬币回炉重铸 570 万英镑），'宁可短痛也不减损便士的成色'——议会最终采纳 / The 1695 recoinage: Locke urged recoinage at the old full standard (5.7 million pounds melted and reminted)—'better a sharp pang than a debased penny'; Parliament followed
+
+- 利率论战：反对法定压低利率上限——'就像压低房租不会让房子变多'，利率应由借贷资金的数量自发决定 / The interest debate: against legally lowering the usury cap—'as well lower house-rent to multiply houses'; interest should be set by the quantity of money to be lent
+
+- 为年金领取者辩护：指出贬值对'靠固定年金生活的遗孀与孤儿'构成无声没收——计量分析的道德锋刃 / For the annuitants: debasement as silent confiscation from 'widows and orphans who live upon fixed annuities'—the moral edge of measurement
+
+- 与牛顿的交接：1699 年牛顿出任铸币局长主持实际重铸——理论账目与政治执行的分工 / The handover to Newton: in 1699 Newton as Warden ran the actual recoinage—the division between theoretical ledger and political execution
+
+
+### 现代应用 / Modern Applications
+
+- 通胀分析：对'物价为什么涨'先列三科目账（货币存量、流通中的商品、周转），拒绝停留在情绪归因 / Inflation analysis: for 'why are prices rising,' set up the three accounts first (money stock, goods in circulation, turnover) before emotional attribution
+
+- 个人财务：把'钱贬值了'的焦虑转化为可对冲科目——持有实物资产、通胀挂钩债券与外币的配置决策 / Personal finance: turn 'my money is melting' into hedgeable accounts—real assets, inflation-linked bonds, foreign currency
+
+- 公司定价：产品涨价前先算客户侧的'货币三科目'（预算存量、需求流量、采购节奏），选择最不易引发流失的路径 / Corporate pricing: before raising prices, compute the customer's three accounts (budget stock, demand flow, purchase cadence) and choose the least-churn path
+
+- 公共讨论：以账目语言参与政策辩论（这笔支出对应多少存量与流量？），把口号之争化为可核对之争 / Public debate: join policy arguments in ledger language—what stock and flow does this outlay touch?—turning slogan fights into checkable ones
+
+
+### 相关模式 / Related Modes
+
+M-LOC-004、M-LOC-007、M-LOC-005、M-SMI-001
+
+
+### 代表人物 / Representative Figures
+
+- 休谟 (Hume): 数量论的清晰表述者 / clearer statement of the quantity theory
+
+- 牛顿 (Newton): 重铸的执行者 / executor of the recoinage
+
+- 弗裏德曼 (Friedman): 两百年后的复兴者 / reviver two centuries on
+
+
+---
+
+## M-LOC-007 教育次序构建法 (Education-Order Method)
+
+- 领域 Domain: 《教育漫话》开篇即宣示次序：'健康的心智寓于健康的身体'——德行是第一学问，拉丁文排在最后
+
+- Domain: Some Thoughts opens with the ordering: 'a sound mind in a sound body'—virtue the first learning, Latin nearly last
+
+
+### 定义 / Definition
+
+洛克把给克拉克之子的一叠信整理成《教育漫话》，其中最有力的不是任何具体训条，而是训条的排列本身：身体健康（冷水洗脚、粗衣薄毯、饮食朴素）排在第一，德行（把欲望服从于理性、诚实、仁慈）排第二，学问（读、写、拉丁文、乃至跳舞与击剑）排在第三之后。他断言：'学问是三者中最不重要的'——一个识字的恶棍比文盲更危险。深意在于：这是对'教育=知识灌输'的第一次系统性倒置——白板说决定了'什么先写'比'写多少'更重要；联想病灶论决定了'第一次经验'的质量决定终身倾向。次序本身就是方法：每项教育介入先问它在整个次序中的位置，凡扰乱次序的（为拉丁文牺牲睡眠、为分数制造羞辱）都是负资产。代价：次序本身也反映其阶层——'绅士之子'的假设被今人批评；但女性教育的书信把同一方法推广到了被排除者。现代对应物：儿童发展里的'先养习惯再教知识'、公司新人培养的'先文化后技能'、以及一切'先健全人格后专业能力'的培养设计。
+
+Locke worked a stack of letters to Edward Clarke's son into Some Thoughts Concerning Education, and its strongest feature is not any precept but the ordering of the precepts: bodily health first (cold feet-baths, rough clothes, plain diet), virtue second (subjecting desire to reason, honesty, good nature), learning third and after (reading, writing, Latin, even dancing and fencing). 'Learning,' he says, 'is the least part'—a literate villain is more dangerous than an illiterate one. The deeper point: the first systematic inversion of 'education equals pouring in knowledge'—the tabula rasa determines that what is written first matters more than how much; the association theory determines that the quality of first experiences sets lifelong dispositions. The order is the method: every educational intervention must state its place in the sequence, and anything that disturbs it (Latin at the cost of sleep, shame manufactured for grades) is a liability. The cost: the sequence mirrors its class—the assumption of 'a gentleman's son' draws modern criticism; yet his letters on female education extend the same method to the excluded. Modern analogues: habit-before-knowledge in child development, culture-before-skills in onboarding, and every design that builds whole persons before specialists.
+
+
+### 出处 / Source
+
+《教育漫话》§1（开篇次序）、§708 以下的德行训练、§139-141（联想与教育）、致克拉克夫人的信（1690s，论女性教育）
+
+
+### 金句 / Key Quote
+
+> 我们幼年时小小的偏好与习惯，如嫩枝初弯，一旦长成树干便再难扳直——所以先弯对，再学快。
+> The little biases of childhood, like twigs first bent, become trunks that cannot be straightened—bend them right before teaching them fast.
+
+
+### 概念 / Key Concepts
+
+三层次序、身体为基底、德行先于学问、习惯的重复律、自然后果、女性教育扩展
+
+
+### 流程 / Process
+
+1. 定次序：为培养对象明确三层的优先级（体魄→德行→学问），写成显性纲领 / Set the order: make the three tiers explicit (body→virtue→letters) as the program's visible spine
+
+2. 筑基底：把健康与习惯训练放在一切知识学习之前，作为不可透支的地基 / Build the base: health and habit precede all knowledge as a non-negotiable foundation
+
+3. 立德行律：以理性约束欲望为核心课程，用自然后果而非羞辱体罚实施 / Institute the virtue curriculum: reason governing desire, enforced by natural consequences rather than shame
+
+4. 缓授学问：在德行地基稳固前不放任知识竞赛，防止'识字的恶棍' / Delay the letters: no knowledge race before the virtue base holds, guarding against the literate villain
+
+5. 防错误黏合：审计教育过程中的情绪联想（羞辱、恐惧），即时纠偏 / Guard the gluings: audit the emotional associations of the process (shame, fear) and correct them at once
+
+
+### 代表案例 / Cases
+
+- 冷水洗脚与薄鞋：'为让双脚习惯冷水与湿'——把体魄训练写成具体处方的开山案例 / Cold baths and thin shoes: 'to inure the feet to cold and wet'—the founding case of training written as prescription
+
+- 德行课的第一条：'把欲望对快乐的追求服从于理性'——他把自制而非服从定义为德行的核心 / The first virtue lesson: 'the great principle of virtue is that a man deny his desires to his reason'—self-command, not obedience, at the core
+
+- 对体罚的保留：鞭挞只留作对'顽固'的最后手段——因为疼痛会黏合出奴性 / The reserve on beating: the rod kept only for obstinacy—pain glues servility
+
+- 致克拉克夫人：'女性的心智若受过同样的训练，将与男性同样适于知识'——把次序法推广到女性教育的最早严肃文本之一 / To Mrs. Clarke: 'women, with the same cultivation, are as fit for knowledge as men'—the sequence extended to female education in one of its earliest serious texts
+
+
+### 现代应用 / Modern Applications
+
+- 育儿实践：为自家教育写一份显性次序清单（睡眠运动→品格习惯→学科成绩），成绩压力不得侵占前两层 / Parenting: write an explicit family order (sleep and exercise→character and habits→grades) and let no grade pressure invade the first two tiers
+
+- 新人培养：入职前三个月以'文化与协作习惯'为主课，技能培训置于其后，防止'高技能的毒团队'成员 / Onboarding: the first three months teach culture and collaboration habits; skills follow—no highly skilled poison in the team
+
+- 自我教育：学新技能时先排'元能力'次序（健康作息→专注习惯→该技能），避免以熬夜换进度的旧黏合 / Self-education: when learning a skill, order the meta-capacities first (health rhythms→focus habits→the skill), avoiding the old gluing of progress to sleeplessness
+
+- 教育产品设计：把产品的学习路径按'身体/情绪安全→动机与品格→知识技能'重排，而非纯知识点堆砌 / Product pedagogy: order the learning path by safety/motivation/character before knowledge-stacks
+
+
+### 相关模式 / Related Modes
+
+M-LOC-002、M-LOC-010、M-RUS-001、M-DEW-001
+
+
+### 代表人物 / Representative Figures
+
+- 卢梭 (Rousseau): 自然教育的接棒人 / successor in natural education
+
+- 裴斯泰洛齐 (Pestalozzi): 头-心-手的同构者 / structural cousin of head-heart-hand
+
+- 杜威 (Dewey): 经验教育的远亲 / distant kin in experiential education
+
+
+---
+
+## M-LOC-008 人格同一性意识法 (Consciousness-Identity Method)
+
+- 领域 Domain: 《人类理解论》第二版新增章：王子与鞋匠的意识互换，则王子随意识走进鞋匠的身体——'自我'住在记忆里
+
+- Domain: A new chapter in the second Essay edition: swap the consciousness of prince and cobbler and the prince goes with his consciousness into the cobbler's body—the self lives in memory
+
+
+### 定义 / Definition
+
+洛克在第二版《人类理解论》（1694）加入'同一性与差异性'章，回答了哲学上最古老的'我是谁'：同一性对'物质团块'（身体）与'灵魂实体'都不是必需——同一个人格只由'意识的同一性'构成：'凡有意识 Past 的行动到达现在的自我，即属于自我'——记忆是人格的胶水。他的王子与鞋匠思想实验：若王子的意识连同记忆全部进入鞋匠的身体，人人会指向鞋匠说'这是王子'——'人'（body）与'人格'（consciousness）从此分成两个概念。深意在于：这是把'自我'从形而上学资产（灵魂实体）转记为心理学资产（可追溯的意织叙事）的清算书；责任与惩罚也随记忆走——'若罚醒来后不记得犯罪的人，等于罚一个无辜者'。代价：记忆会断裂、失真、重组（健忘、梦境、伪造），洛克靠'意识到'来定义自我，被批评为循环；休谟随后把叙事本身也拆散，自我只剩'一捆知觉'。现代对应物：神经心理学对失忆患者的身份研究、连续性理论（Parfit）对'何者使明天的我与我相关'的分析、以及法律上记忆缺失者责任认定的困境。
+
+In the Essay's second edition (1694) Locke added the chapter on identity, answering philosophy's oldest 'who am I': sameness of body (mass of matter) and of soul-substance are neither necessary to the same person—personality is constituted solely by sameness of consciousness: 'as far as consciousness can be extended backwards to any past action, so far reaches the identity of that person'—memory is the glue of the self. His prince-and-cobbler experiment: let the prince's consciousness, memory and all, enter the cobbler's body, and everyone points at the cobbler and says 'that is the prince'—'man' (the body) and 'person' (consciousness) split into two concepts. The deeper point: a liquidation that transfers the self from metaphysical asset (soul-stuff) to psychological asset (a traceable narrative of consciousness); guilt and punishment travel with memory—'to punish one who does not remember offending is to punish an innocent.' The cost: memory breaks, distorts, recombines (amnesia, dreams, confabulation); defining the self by 'being conscious' struck critics as circular, and Hume next dissolved the narrative itself, leaving a bundle of perceptions. Modern analogues: identity research in amnesic patients, Parfit's psychological continuity ('what links tomorrow's me to me'), and legal puzzles of responsibility without memory.
+
+
+### 出处 / Source
+
+《人类理解论》卷二.27（论同一性与差异性，第二版新增）；王子与鞋匠思想实验；论醉酒与清醒的责任段
+
+
+### 金句 / Key Quote
+
+> 自我不在骨头里，也不在灵魂的存款里——它住在'我记得'这三个字所能延伸到的地方。
+> The self dwells neither in bones nor in the soul's deposit—it lives wherever the words 'I remember' can reach.
+
+
+### 概念 / Key Concepts
+
+人与人格之分、意识连续性、记忆为自我之胶、回溯的同一性、责任随记忆、实体同一性可弃
+
+
+### 流程 / Process
+
+1. 分离两个概念：把'人是哪个身体'与'人格是哪段意识'明确分为两栏记账 / Split the concepts: book 'which body is the man' and 'which consciousness is the person' in separate columns
+
+2. 以意识定人格：凡意识能回溯到达的过去行动，记入同一人格名下 / Let consciousness define personhood: every past action consciousness reaches back to is entered under that person
+
+3. 审计记忆断裂：找出记忆的空白、失真与重组处，标定'自我账目'的未结项 / Audit memory's breaks: mark the gaps, distortions, and recombinations as open items in the self's account
+
+4. 责任随账走：奖惩只记入'当时有意识'的行动名下，防止株连无意识的自我 / Let responsibility follow the account: reward and punishment only for actions of which one was conscious—no vicarious liability on the unconscious self
+
+5. 接受未结项：对意识之外的自我问题（灵魂实体）保持'我不知道'的诚实 / Accept open items: keep an honest 'I know not what' for whatever lies beyond consciousness
+
+
+### 代表案例 / Cases
+
+- 王子与鞋匠：意识互换实验把'人'与'人格'劈开——身份随意识而非随身体 / Prince and cobbler: the consciousness-swap cleaves 'man' from 'person'—identity follows consciousness, not the body
+
+- 醉酒者的罪：洛克主张醒后全然不记得的醉酒犯罪者与'无意识的自我'并非同一人格——责任认定须先查意识账（同时他也警惕这一辩护理由被滥用） / The drunkard's crime: one who remembers nothing of a drunken act is not, Locke argues, the same person as the unconscious agent—though he warns against the defense's abuse
+
+- 末日记账：复活后'同一人格'的认定不靠同一具身体——此论为神学容忍了他谨慎的账法 / Resurrection bookkeeping: sameness of person after resurrection needs not the same body—his cautious ledger made room for theology
+
+- 与斯蒂林弗利特论战：主教要求'灵魂实体'作担保，洛克答'意识账已足，实体账查不到' / The Stillingfleet controversy: the bishop demands soul-substance as guarantor; Locke answers, 'the consciousness account suffices; the substance account cannot be obtained'
+
+
+### 现代应用 / Modern Applications
+
+- 叙事身份实践：把'我是谁'的焦虑改写为'我的意识能回溯到哪里'——自我传记是可续写的资产而非命定的判词 / Narrative identity: rewrite 'who am I' as 'how far back does my consciousness reach'—an autobiography is a renewable asset, not a verdict
+
+- 失忆与脑伤护理：以'当下意识质量'而非'过去档案完整度'设计照护与沟通，尊重现存的人格账 / Care for amnesia and brain injury: design care and communication around present consciousness, not archival completeness, honoring the person-account that remains
+
+- 法律与伦理：为记忆缺失（醉酒、解离、脑伤）情境设计责任认定的意识证据标准 / Law and ethics: standards of consciousness evidence for responsibility where memory is absent (intoxication, dissociation, injury)
+
+- 数字身份：把'账号即我'降级为'意识记录的容器之一'——防止平台数据冒充人格的同一性 / Digital identity: demote 'the account is me' to 'one container of my consciousness record'—no platform dataset may impersonate personal identity
+
+
+### 相关模式 / Related Modes
+
+M-LOC-001、M-LOC-010、M-HUM-001、M-PAR-001
+
+
+### 代表人物 / Representative Figures
+
+- 休谟 (Hume): 进一步拆解者 / the further dissolver
+
+- 帕菲特 (Parfit): 连续性理论的现代继承者 / modern heir of continuity theory
+
+- 莱布尼茨 (Leibniz): 逐段批评的对手 / critic paragraph by paragraph
+
+
+---
+
+## M-LOC-009 清道夫自限法 (Under-Labourer Discipline)
+
+- 领域 Domain: 《人类理解论》致读者辞：'我自认为是在真理大厦旁清除地面杂草的一名清道夫'——史上最著名的自我降格
+
+- Domain: The Essay's Epistle to the Reader: 'I must always be an under-labourer in clearing the ground a little, and removing some of the rubbish that lies in the way to knowledge'—the most famous self-demotion in letters
+
+
+### 定义 / Definition
+
+洛克的《人类理解论》献辞把自己定位为'清道夫'（under-labourer）：不配建造真理的大厦，只配清除通往它的路上垃圾——'波义耳、牛顿这些大师已把知识大厦盖起，我只是扫清地基上的杂草与 语言碎石'。深意在于：这是一种罕见的'反向雄心'——把自我降格恰恰让工作升格：清道夫不与大师争宠，因此敢于处理大师们不屑的琐碎（词语、联想、儿童、货币、殖民地条款的账目），而恰恰是这些琐碎改写了哲学的地形。自限还是一种方法论纪律：'我写下的每一处都只声称我知道的'——他的书里遍布'我不知道'（实体的底账、灵魂的性质），这些诚实留白比任何断言更可信。方法要领：在大型协作中主动认领'低地位高杠杆'的工作（清理定义、整理分歧、审计来源），把野心写进成果而不是头衔；对不可知处诚实留白。代价：自限可滑向自我压抑——洛克的匿名出版与身后才署名，部分是他时代的安全策略，部分是这种纪律的过度版本。现代对应物：开源里的'维护者不署名'文化、科学的'二作精神'、以及一切'把个人雄心降格以让工作升格'的职业伦理。
+
+Locke's Epistle to the Reader styles himself an 'under-labourer': unfit to build the edifice of truth, fit only to clear the ground—'the master-builders, Boyle and Newton, have raised the edifice; I remove some of the rubbish that lies in the way to it.' The deeper point: a rare inverse ambition—demoting the self upgraded the work: freed from rivaling the masters, the under-labourer dared to handle what they disdained (words, associations, children, coin, the ledgers of colonial clauses), and precisely these petty things re-terrained philosophy. Self-limitation is also methodological discipline: 'everything I write claims only what I know'—his pages are strewn with 'I know not what' (substance's bottom ledger, the soul's nature), and those honest blanks are more credible than any assertion. Method: in large collaborations, claim the low-status, high-leverage work (clearing definitions, mapping disagreements, auditing sources); write your ambition into the outcome, not the title; leave honest blanks where you cannot know. The cost: self-limitation can slide into self-erasure—Locke's anonymous printing was partly the safety tactics of his age, partly the discipline's over-version. Modern analogues: maintainer anonymity in open source, the second-author spirit of science, and every professional ethic that demotes personal ambition to upgrade the work.
+
+
+### 出处 / Source
+
+《人类理解论》致读者辞（第四版增补的清道夫段）；卷一.1.6（'我的目的不是探寻万物的全部'）；多处'I know not what'
+
+
+### 金句 / Key Quote
+
+> 波义耳与牛顿已把大厦盖到云端——我只是弯腰清理地基上的碎石，并以此为荣。
+> Boyle and Newton have carried the edifice to the clouds—I bend to clear the rubble at its base, and count it honor.
+
+
+### 概念 / Key Concepts
+
+清道夫定位、反向雄心、琐碎即杠杆、诚实留白、只声称所知、自限的限度
+
+
+### 流程 / Process
+
+1. 认领清扫区：在共同事业中主动认领无人愿做但人人都赖的低地位工作 / Claim the clearing: volunteer for the low-status work everyone depends on and none wants
+
+2. 写小野心：把个人荣誉的条款从公开承诺中删去，写进成果本身 / Write ambition small: strike personal-honor clauses from public promises; put them into the outcome
+
+3. 诚实留白：对超出所知的领域，明确写'我不知道'而非用修辞填补 / Leave honest blanks: write 'I know not' where knowledge ends, rather than filling with rhetoric
+
+4. 只声称所知：每一处断言都核对是否超出自己的证据地基 / Claim only what is known: check every assertion against the ground of your evidence
+
+5. 让工作署名：以成果的质量而非头衔的高低衡量贡献 / Let the work sign: measure contribution by the quality of the outcome, not the size of the title
+
+
+### 代表案例 / Cases
+
+- 清道夫献辞：牛顿已'在知识的海洋里航行到那么远'，洛克只'清除地面一点垃圾'——两百年后这份献辞比许多'大厦'更常被引用 / The under-labourer epistle: Newton 'has sailed so far into the sea of knowledge'; Locke only 'clears the ground a little'—two centuries on, the epistle is quoted more often than many edifices
+
+- 匿名出版：《政府论两篇》与《论宽容》初版皆不署名——在密探与绞刑架的年代，'写小自己'也是生存技术 / Anonymous printing: the Two Treatises and the Letter appeared unsigned—in the age of spies and scaffolds, writing oneself small was also survival
+
+- 对实体问题的留白：'实体是什么——我不知道'被批评者嘲笑两百年，而现代科学证明留白处恰是他最准的判断 / The blank on substance: mocked for two centuries as 'I know not what'—and modern science proved the blank his most accurate entry
+
+- 贸易委员会的官职观：他在老年接受一个中层专员职位并勤勉任事——清道夫伦理延伸到公共生涯 / An old man's post: he took a mid-level commissioner's seat on the Board of Trade and served it diligently—the ethic extended to public career
+
+
+### 现代应用 / Modern Applications
+
+- 团队协作：主动认领'没人抢但人人依赖'的工作（文档、测试、清理 issue），以成果而非 title 计贡献 / Teamwork: claim the unglamorous work everyone depends on—docs, tests, issue triage—and let outcome, not title, carry credit
+
+- 学术与写作：结论处诚实标注证据边界与未知，比虚张的确定性更长久可信 / Research and writing: mark the edge of evidence and the unknown at conclusions; honest blanks outlive inflated certainty
+
+- 开源与协作治理：维护者把署名让给项目——'项目比自己大'是可持续贡献的心理基础 / Open-source stewardship: maintainers sign over to the project—'the project is larger than I' as the psychology of sustainable contribution
+
+- 个人品牌：把'我想成为谁'的野心转化为'我清理了什么'的清单——降格宣言反而构成最硬的履历 / Personal brand: turn 'who I want to be' into 'what I cleared'—the demotion宣言 becomes the hardest currency of a résumé
+
+
+### 相关模式 / Related Modes
+
+M-LOC-001、M-LOC-006、M-WIT-001、M-HUM-001
+
+
+### 代表人物 / Representative Figures
+
+- 波义耳 (Boyle): 被致敬的大师 / the honored master-builder
+
+- 牛顿 (Newton): 被致敬的航行家 / the honored voyager
+
+- 休谟 (Hume): 同为谦逊自限者 / fellow in humble self-limitation
+
+
+---
+
+## M-LOC-010 植物学-医学田野法 (Physician's Field Method)
+
+- 领域 Domain: 洛克受过完整医学训练、救过沙夫茨伯里一命、与西德纳姆共事——《人类理解论》的谦逊气质与个案方法来自诊室而非书斋
+
+- Domain: Trained in medicine, savior of Shaftesbury, collaborator of Sydenham—the Essay's humility and case-method came from the consulting room, not the study
+
+
+### 定义 / Definition
+
+洛克首先是位医生：牛津学医、与伟大临床家西德纳姆合作（西德纳姆的观察疗法直接塑造了《人类理解论》的方法论），1668 年他主持的开胸引流手术救了沙夫茨伯里一命（肝脏脓肿，无麻醉时代）。深意在于：行医给他的哲学植入了三种气质——观察优先于理论（先记录病例再谈体系）、个案优先于公理（每个人是不同的'病例'，教育论写成'给个别孩子的处方'）、疗效检验假说（观点的对错最终看能否治好病人）。这也是他与笛卡尔的真正分野：笛卡尔在暖室里演绎出清楚分明的观念，洛克在诊室与皇家学会的实验室里记录冷热水、尘埃、痛风与儿童的恐惧。方法要领：任何普遍主张先降格为可观察的个案集合，记录变量（何时、何人、何条件、何结果），用'下一步疗法'而非'下一步论证'来检验。代价：个案归纳的天花板——从个案到规律仍需统计学，洛克时代尚未出现；他的医学笔记充满未检验的民间疗法。现代对应物：循证医学的个案-证据金字塔、用户体验研究的田野方法、临床心理学的个案概念化、以及一切'以观察卡紧理论'的经验传统。
+
+Locke was a physician first: trained at Oxford, collaborator of the great clinical observer Thomas Sydenham (whose observational method directly shaped the Essay), and in 1668 the supervisor of the chest operation that saved Shaftesbury's life—a liver abscess drained in the era before anesthesia. The deeper point: practice implanted three temperaments—observation before theory (record the case before the system), the case before the axiom (each person a distinct 'case'; his educational treatise written as prescriptions for particular children), and treatment as the test of hypotheses (an idea is true if it heals). This is his true divide from Descartes: Descartes deduced clear and distinct ideas in a warm room; Locke recorded cold water, dust, gout, and children's fears in the consulting room and the Royal Society's laboratory. Method: demote every general claim to an observable set of cases; tabulate variables (when, who, under what condition, with what outcome); test with 'the next treatment,' not 'the next argument.' The cost: the ceiling of case-induction—getting from cases to laws requires statistics his age lacked; his medical notebooks are full of untested folk remedies. Modern analogues: evidence-based medicine's case-to-evidence pyramid, field methods in user research, case conceptualization in clinical psychology, and every empiric tradition that calms theory with observation.
+
+
+### 出处 / Source
+
+《人类理解论》致读者辞与卷四.3（论经验科学的限度）；与西德纳姆合署的《医论》手稿（1668-9）；皇家学会藏洛克医学笔记（Dewhurst 编）
+
+
+### 金句 / Key Quote
+
+> 从诊室里学到的第一课：病人不是教科书的例子——先记录这个病例，再修正你的体系。
+> The consulting room's first lesson: the patient is not the textbook's example—record this case first, amend your system second.
+
+
+### 概念 / Key Concepts
+
+观察先于体系、个案处方化、疗效检验、变量记录、与西德纳姆合著、归纳的天花板
+
+
+### 流程 / Process
+
+1. 降格为个案：把普遍命题改写为可观察的具体案例集合 / Demote to cases: rewrite general claims into observable collections of concrete cases
+
+2. 制表记录：为每个案例记录时间、主体、条件、结果四类变量 / Tabulate: for each case record when, who, under what condition, with what outcome
+
+3. 审读变量：在表中寻找反例与例外，优先解释而非删除它们 / Read the table: hunt for counterexamples and exceptions—explain them, never delete them
+
+4. 以疗检验：把假说转为可操作的干预，用'病人是否好转'作判据 / Test by treatment: turn the hypothesis into an operable intervention, judged by whether the patient improves
+
+5. 修订体系：按个案证据修订普遍主张，并公开修订记录 / Amend the system: revise the general claim on case evidence, with the revision on public record
+
+
+### 代表案例 / Cases
+
+- 救治沙夫茨伯里：1668 年主持开胸引流术，'无麻醉、无抗菌、成功率近零的年代'——洛克以医生身份进入伯爵府，哲学史由此改道 / Saving Shaftesbury: the 1668 drainage of a liver abscess, in an age of no anesthesia and near-zero success—philosophy's road bent through the surgeon's art
+
+- 与西德纳姆合著《医论》：两人约稿'如何处理热病'，洛克执笔的方法论与《人类理解论》的方法论几乎逐句同构 / Consulting with Sydenham: their joint manuscript on fever,洛克 drafted, reads almost sentence for sentence as the method of the Essay
+
+- 《人类理解论》的诞生谈话：1671 年与友人五人聚会论'理解的范围'——会议纪要式的问题起因，哲学史上最著名的'病例讨论会' / The talk that begat the Essay: five friends in 1671 discussing 'the bounds of understanding'—philosophy's most famous case-conference, minuted
+
+- 冷热水实验：把同一只手先后放入冷热水再置于温水，'温热感不同'——亲手操作的微型实验直接写进哲学正文 / The lukewarm water experiment: one hand in cold, one in hot, both into warm water—'the same water feels different'; a hands-on micro-experiment written into the text
+
+
+### 现代应用 / Modern Applications
+
+- 产品研究：任何'用户都想要X'的判断先降格为十个真实个案，制表记录使用情境与结果，找反例 / Product research: demote 'users all want X' to ten real cases, tabulate context and outcome, hunt the counterexamples
+
+- 管理决策：新政先在个案（一个团队、一个流程）上试点，以'是否好转'为判据，再谈推广 / Management: pilot new policy on a case (one team, one process), judged by improvement, before generalizing
+
+- 个人健康：把自己当'n=1 的病例'——饮食、睡眠、情绪逐项制表，用两周试验检验假说而非长期争论 / Personal health: treat yourself as an n=1 case—tabulate diet, sleep, mood; run two-week trials instead of endless debate
+
+- 学术训练：读理论时先找作者的核心病例记录，检验其'体系'是否被自己的病例卡住 / Reading theory: find the author's core case records first; test whether the system is pinned by its own cases
+
+
+### 相关模式 / Related Modes
+
+M-LOC-001、M-LOC-010、M-SID-001、M-BOY-001
+
+
+### 代表人物 / Representative Figures
+
+- 西德纳姆 (Sydenham): 临床方法之源 / source of the clinical method
+
+- 波义耳 (Boyle): 实验哲学的同道 / fellow in experimental philosophy
+
+- 笛卡尔 (Descartes): 暖室演绎的对照面 / the warm-room deduction he answered

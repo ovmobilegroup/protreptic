@@ -1,0 +1,529 @@
+{
+  "schema_version": "v6",
+  "code": "H-BLT-001",
+  "figure_name_zh": "柏拉图",
+  "figure_name_en": "Plato",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-BLT-001",
+      "name_zh": "理念本原法",
+      "name_en": "Theory of Forms (Ideal Prototype Method)",
+      "mode_code": "M-BLT-001",
+      "category": "本体论",
+      "domain_zh": "形而上学/本质思维",
+      "domain_en": "Metaphysics / Essentialism",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "面对流变不居、众说纷纭的可感世界，设定一个永恒不变、单一自足的理念（相）作为其本质原型：具体事物因'分有'或'摹仿'理念而存在，理念却不依赖任何具体事物。思维的任务从描述现象转为把握原型——先问'X 本身是什么'，再解释各种具体 X。这把'本质与现象'确立为一切严肃思考的第一区分。",
+      "definition_en": "Behind the flux of the sensible world posit an eternal, self-sufficient Form as its prototype: particulars exist by 'participating' in the Form, while the Form depends on none. The task of thought shifts from describing appearances to grasping the archetype—ask first 'What is X itself?', then explain the various Xs.",
+      "source_chapter": "《斐多》100b-d、《理想国》507b、《会饮》211",
+      "key_concepts": [
+        "理念/相",
+        "分有",
+        "摹仿",
+        "本质与现象",
+        "原型"
+      ],
+      "process_zh": [
+        "从一类具体现象中抽出共同追问：它们为何都算作X？",
+        "设定一个单一、永恒、自身即是的'X本身'（理念）",
+        "用'分有/摹仿'解释具体事物如何因理念而是其所是",
+        "以理念为标准反过来评判现象的完备程度与认识次序"
+      ],
+      "process_en": [
+        "From a class of particulars extract the shared question: why are they all X?",
+        "Posit a single, eternal 'X itself' (the Form)",
+        "Explain particulars via participation/imitation of the Form",
+        "Use the Form as the standard for judging particulars and ordering knowledge"
+      ],
+      "key_quote_zh": "美本身，加上上去就使一切东西成为美的那个东西。",
+      "key_quote_en": "The Beautiful itself, that which makes all beautiful things beautiful.",
+      "representative_cases_zh": "《会饮》第俄提玛的启示：从个别的美的身体上升到美的形体、美的制度、美的知识，最终瞥见'美本身'——永恒自足、不生不灭的美之理念。",
+      "representative_cases_en": "In the Symposium, Diotima's ladder: from one beautiful body up through beautiful forms, institutions, and knowledge, to a final glimpse of Beauty itself—eternal, self-sufficient, ungenerated.",
+      "modern_applications_zh": [
+        "产品设计中的'原型'与规范优先于实例",
+        "数学与理论科学的'普遍模型'建构",
+        "组织治理中的原则层/制度层/操作层分层设计"
+      ],
+      "modern_applications_en": [
+        "Prototype-and-spec-first product design",
+        "Universal model-building in mathematics and theoretical science",
+        "Principle/policy/operations layering in governance"
+      ],
+      "related_modes": [
+        "M-BLT-002",
+        "M-BLT-003",
+        "M-BLT-008"
+      ]
+    },
+    {
+      "id": "M-BLT-002",
+      "name_zh": "洞穴上升法",
+      "name_en": "Cave Ascent (From Shadows to Light)",
+      "mode_code": "M-BLT-002",
+      "category": "认识论",
+      "domain_zh": "启蒙/认知升级",
+      "domain_en": "Enlightenment / Cognitive Ascent",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "把未受教育的认知状态比作被缚于洞穴、只能看见火光投在壁上的影子的囚徒：他们把影子当作全部真实。认识的过程是一场痛苦的'转向'（periagoge）——挣脱锁链、忍着强光回头看见实物、走出洞外直视太阳。关键洞见：真相最初总是刺眼的，认知升级必经不适，而已经走出者有责任回到洞中解放同伴，哪怕被讥为搅乱眼睛的疯子。",
+      "definition_en": "The uneducated soul is a prisoner chained in a cave, mistaking shadows cast by a fire for reality. Knowing is a painful 'turning around' (periagoge): breaking free, facing the glare, climbing out to the sun. Truth at first blinds; ascent demands discomfort; and the one who escapes must return to free the rest, even if mocked as a madman.",
+      "source_chapter": "《理想国》514a-521b",
+      "key_concepts": [
+        "洞穴喻",
+        "影子与实物",
+        "转向",
+        "启蒙的不适",
+        "回归洞穴"
+      ],
+      "process_zh": [
+        "诊断：识别当前认知里'被当作真实的影子'（习惯、宣传、二手结论）",
+        "解缚：容忍强光带来的不适，检验'影子'背后的实物来源",
+        "出洞：在更高光照层级上重建整个认识（从实物到太阳/善）",
+        "回归：带着新认识返回原语境，帮助仍被束缚者完成转向"
+      ],
+      "process_en": [
+        "Diagnose the 'shadows' taken as real in one's current view",
+        "Endure the glare and trace shadows to their sources",
+        "Rebuild the whole picture at a higher level of illumination",
+        "Return to the original context and help others turn around"
+      ],
+      "key_quote_zh": "教育并非把视力放进瞎子的眼睛，而是使已经朝向该看之处的眼睛转过身来。",
+      "key_quote_en": "Education is not putting sight into blind eyes, but turning eyes already able to see toward the right things.",
+      "representative_cases_zh": "《理想国》卷七：走出洞穴者重看影子已无法辨认，被洞中囚徒嘲笑并威胁处死——柏拉图以此影射苏格拉底之死，说明启蒙者回归的代价。",
+      "representative_cases_en": "Republic VII: the escaped prisoner can no longer make out the shadows and is mocked, even threatened with death—an allegory of Socrates' fate and the price of returning.",
+      "modern_applications_zh": [
+        "信息茧房与算法回音室的识别与突围",
+        "组织变革中的'认知转向'而非单纯灌输",
+        "专家回归大众语境的沟通责任"
+      ],
+      "modern_applications_en": [
+        "Escaping filter bubbles and echo chambers",
+        "Organizational change as cognitive reorientation, not indoctrination",
+        "The communicator's duty of translating expertise back to the public"
+      ],
+      "related_modes": [
+        "M-BLT-003",
+        "M-BLT-006",
+        "M-BLT-009"
+      ]
+    },
+    {
+      "id": "M-BLT-003",
+      "name_zh": "线段分层法",
+      "name_en": "Divided Line (Tiered Epistemology)",
+      "mode_code": "M-BLT-003",
+      "category": "认识论",
+      "domain_zh": "知识分级/证据分层",
+      "domain_en": "Knowledge Grading / Evidence Tiers",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "把整个认知领域按对象与状态切分为四段两级：想象（eikasia，对影像/影子的把握）、信念（pistis，对具体事物的把握）为可见世界层的'意见'（doxa）；理智（dianoia，借助假设与图示的推理，如几何学）、理性（noesis，不经影像直接把握理念，直到无假定的本原）为可知世界层的'知识'（episteme）。要求为每一个主张标注它属于哪一层，用更高层的标准检验更低层——不许把意见冒充知识。",
+      "definition_en": "Divide all cognition into four tiers on two levels: imagination (of images) and belief (of particulars) form doxa, the visible realm's 'opinion'; understanding (hypothetical reasoning, as in geometry) and reason (grasping Forms up to the unhypothetical first principle) form episteme, the intelligible realm's 'knowledge.' Label every claim by its tier and test lower tiers by higher standards—never pass opinion off as knowledge.",
+      "source_chapter": "《理想国》509d-511e",
+      "key_concepts": [
+        "想象/信念/理智/理性",
+        "意见与知识",
+        "假设与无假定本原",
+        "证据分层",
+        "可见与可知"
+      ],
+      "process_zh": [
+        "为待考察的主张标注其对象：影像、实物、模型推演、还是理念本身",
+        "区分'意见层'与'知识层'，显式声明置信层级",
+        "用高一层的方法检验低一层的主张（几何检验感知、理念检验假设）",
+        "沿阶梯逐层上升，最终以不依赖任何假定的本原回望全部下层知识"
+      ],
+      "process_en": [
+        "Classify each claim's object: image, particular, model-based inference, or Form",
+        "Separate doxa from episteme and state confidence tiers explicitly",
+        "Test lower-tier claims by higher-tier methods",
+        "Ascend the ladder and validate all lower knowledge from the unhypothetical first principle"
+      ],
+      "key_quote_zh": "理性本身经由辩证法把握本原，下降到终点时不再使用任何可感对象，而只经由理念达到理念。",
+      "key_quote_en": "Reason, through dialectic, grasps the first principle and descends to the end using Forms alone.",
+      "representative_cases_zh": "《理想国》卷六末：柏拉图区分几何学家'自下而上使用假设'与辩证法家'自上而下审查假设'，指出数学虽有确定性但仍是理智层而非理性层。",
+      "representative_cases_en": "End of Republic VI: geometers work downward from hypotheses, dialecticians examine the hypotheses themselves—mathematics, though certain, is still dianoia, not noesis.",
+      "modern_applications_zh": [
+        "证据等级制度（循证医学、证据链分级）",
+        "模型/仿真/实测的验证层级管理",
+        "区分'事实主张'与'价值判断'的讨论规范"
+      ],
+      "modern_applications_en": [
+        "Evidence hierarchies in medicine and law",
+        "Validation tiers: simulation, model, field test",
+        "Discussion norms separating factual claims from value judgments"
+      ],
+      "related_modes": [
+        "M-BLT-001",
+        "M-BLT-005",
+        "M-BLT-002"
+      ]
+    },
+    {
+      "id": "M-BLT-004",
+      "name_zh": "灵魂三分法",
+      "name_en": "Tripartite Soul (Ruling Reason)",
+      "mode_code": "M-BLT-004",
+      "category": "心性论",
+      "domain_zh": "自我治理/动机结构",
+      "domain_en": "Self-Governance / Motivational Structure",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "灵魂由三部分构成：理性（爱智慧、谋整体之善）、激情（荣誉感、辅助理性的勇气）、欲望（诸种嗜欲，最大者爱利）。正义不在外部而在内部秩序：各司其职、理性统摄——欲望受激情与理性节制。内部分歧（明知有害仍想要）由此得到结构化解释；自我治理被建模为'内部政体'的建设，而非单纯的意志压制。",
+      "definition_en": "The soul has three parts: reason (loving wisdom, aiming at the whole's good), spirit (honor and courage, reason's natural ally), and appetite (desires, chiefly for gain). Justice is internal order: each part doing its own work, reason ruling with spirit as ally. Inner conflict (wanting what one knows is harmful) gets a structural explanation; self-governance becomes building an internal polity, not mere willpower.",
+      "source_chapter": "《理想国》434d-444e、《斐德罗》246a（双马御者喻）",
+      "key_concepts": [
+        "理性/激情/欲望",
+        "正义即各司其职",
+        "内部政体",
+        "自我节制",
+        "双马御者"
+      ],
+      "process_zh": [
+        "把一次内在冲突拆解为理性、激情、欲望三方的各自诉求",
+        "识别当下谁在'执政'（是理性决策还是欲望驱动）",
+        "为理性配置激情作为同盟（用荣誉感、使命感加持正确决定）",
+        "建立长期内部秩序：用教育与习惯使理性成为默认统治者"
+      ],
+      "process_en": [
+        "Decompose an inner conflict into reason, spirit, and appetite claims",
+        "Identify which part currently 'rules' the decision",
+        "Enlist spirit as reason's ally (honor, mission) to back the right call",
+        "Build lasting internal order through education and habit so reason rules by default"
+      ],
+      "key_quote_zh": "正义就是做自己的事而不干涉他人之事——就灵魂而言，即各部分各司其职。",
+      "key_quote_en": "Justice is doing one's own work—within the soul, each part minding its own.",
+      "representative_cases_zh": "《理想国》卷四：勒翁提奥斯之子盯着尸体又怕又想看，最终骂自己眼睛——激情（羞耻/愤怒）对抗欲望，证明灵魂确有可冲突的部分。",
+      "representative_cases_en": "Republic IV: Leontius' son, drawn to corpses yet ashamed, curses his own eyes—spirit contending with appetite, proof of distinct soul-parts.",
+      "modern_applications_zh": [
+        "行为设计中的'系统二约束系统一'与习惯养成",
+        "组织中权责三分：决策层/执行层/利益相关层的边界治理",
+        "拖延与成瘾的结构化干预（环境设计优于意志对抗）"
+      ],
+      "modern_applications_en": [
+        "Behavioral design: System 2 structuring System 1, habit formation",
+        "Organizational separation of decision, execution, and stakeholder roles",
+        "Structured intervention for procrastination and addiction—design over willpower"
+      ],
+      "related_modes": [
+        "M-BLT-007",
+        "M-BLT-008",
+        "M-BLT-009"
+      ]
+    },
+    {
+      "id": "M-BLT-005",
+      "name_zh": "辩证上升法",
+      "name_en": "Dialectical Ascent",
+      "mode_code": "M-BLT-005",
+      "category": "方法论",
+      "domain_zh": "系统追问/概念综合",
+      "domain_en": "Systematic Inquiry / Conceptual Synthesis",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "超越苏格拉底消极反证的辩证法新形态：经由有方向的对话与综合，从多个具体事例'收拢'（synagoge）为统一理念，再'剖分'（diairesis）理念为自然类别，沿概念阶梯逐级上升到最高的善。与诘问法的区别在于建设性——不止揭穿矛盾，而且重建秩序：概念之间有等级与通路，思考就是在这张地图上攀爬。",
+      "definition_en": "Dialectic in its positive form beyond Socratic refutation: through directed dialogue, 'collect' (synagoge) scattered particulars into one Form, then 'divide' (diairesis) Forms into natural kinds, ascending the conceptual ladder to the Good. Its novelty is constructive—not merely exposing contradiction but rebuilding order: concepts have grades and passages; thinking is climbing that map.",
+      "source_chapter": "《斐德罗》265d-266c、《理想国》532a-b、《智者》253d",
+      "key_concepts": [
+        "综合与剖分",
+        "概念阶梯",
+        "上升与下降",
+        "辩证法",
+        "假设的审查"
+      ],
+      "process_zh": [
+        "收拢：把分散事例按共同点收拢为一个统一概念",
+        "剖分：沿真实的关节（如雕刻师剖肢体）把概念切成自然类别",
+        "上升：逐级追问更高一层的统摄概念直至最高本原",
+        "下降：再从本原逐级推出下层概念，检验来路的融贯性"
+      ],
+      "process_en": [
+        "Collect scattered cases into one unifying concept",
+        "Divide the concept at its natural joints into kinds",
+        "Ascend level by level to higher genera and the first principle",
+        "Descend again from the principle, checking the path's coherence"
+      ],
+      "key_quote_zh": "能沿一条道路贯串诸理念、又能剖分诸理念者，方是辩证法家。",
+      "key_quote_en": "He who can see one through many and many through one is a dialectician.",
+      "representative_cases_zh": "《斐德罗》：柏拉图示范'爱欲'概念的收拢（爱是一种欲望而非疯狂的综合）与剖分（有爱欲者/无爱欲者的二分定义术），并许诺以此法取代修辞术的任意说服。",
+      "representative_cases_en": "Phaedrus: the 'collection' of love under desire and its 'division' into kinds, offered as a scientific rhetoric to replace arbitrary persuasion.",
+      "modern_applications_zh": [
+        "概念框架搭建与分类学设计（MECE剖分）",
+        "研究中的'问题树'与逐级抽象",
+        "复杂议题的结构化辩论与共识构建"
+      ],
+      "modern_applications_en": [
+        "Taxonomy and MECE framework design",
+        "Problem trees and stepwise abstraction in research",
+        "Structured debate and consensus-building on complex issues"
+      ],
+      "related_modes": [
+        "M-BLT-001",
+        "M-BLT-003",
+        "M-SQR-001"
+      ]
+    },
+    {
+      "id": "M-BLT-006",
+      "name_zh": "回忆求知法",
+      "name_en": "Anamnesis (Learning as Recollection)",
+      "mode_code": "M-BLT-006",
+      "category": "认识论",
+      "domain_zh": "先验知识/学习机制",
+      "domain_en": "A Priori Knowledge / Mechanisms of Learning",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "灵魂在降生前曾直视理念，降生时遗忘；学习不是从外部灌注，而是被恰当的问题'引导'出内在已有的知识（anamnesis，回忆）。教师不是传授者而是助产者的升级版：用提问设计让学习者自己'想起'。该学说在哲学史上首次系统地把'先验知识''先验结构'作为解释知识可能性的一种方案。",
+      "definition_en": "The soul beheld the Forms before birth and forgot them at incarnation; learning is not infusion from outside but being 'led' by the right questions to recollect (anamnesis) what is already within. The teacher is midwife perfected: questions designed so the learner recollects. It is the first systematic account of a priori knowledge as the ground of knowledge's possibility.",
+      "source_chapter": "《美诺》81a-86c、《斐多》72e-77a",
+      "key_concepts": [
+        "回忆说",
+        "先验知识",
+        "引导式提问",
+        "灵魂前在",
+        "学习即唤醒"
+      ],
+      "process_zh": [
+        "遇到'学不来'的对象（如完美定义、几何必然性）时，追问其知识的来源",
+        "承认感官经验只能触发而不能给出普遍必然的知识",
+        "设计阶梯式问题，让学习者从已知实例一步步'想起'普遍结构",
+        "用学习者自己的推演确证：知识是唤醒，而非灌输"
+      ],
+      "process_en": [
+        "Ask where knowledge of the 'unteachable' (perfect definitions, geometric necessity) comes from",
+        "Grant that sense experience can trigger but not supply universal necessity",
+        "Design ladder-like questions so the learner 'recollects' the universal structure",
+        "Confirm through the learner's own reasoning: knowledge is awakening, not infusion"
+      ],
+      "key_quote_zh": "探究与学习整个地不过是回忆。",
+      "key_quote_en": "Inquiry and learning are wholly recollection.",
+      "representative_cases_zh": "《美诺》：未受教育的童奴在苏格拉底仅以提问引导（不告知答案）下，自己推导出正方形面积加倍需边长为对角线——柏拉图以此证明'几何知识先在于灵魂'。",
+      "representative_cases_en": "Meno: an untutored slave boy, guided only by questions and told no answers, derives that doubling a square requires the diagonal—proof that geometric knowledge pre-exists in the soul.",
+      "modern_applications_zh": [
+        "启发式教学与引导式发现（苏格拉底式辅导）",
+        "先验结构在认知科学中的对应（先天语法、直觉物理）",
+        "知识管理：把'隐性知识'通过提问显性化"
+      ],
+      "modern_applications_en": [
+        "Socratic tutoring and guided discovery",
+        "Cognitive science analogues of a priori structure (innate grammar, intuitive physics)",
+        "Knowledge management: eliciting tacit knowledge through questioning"
+      ],
+      "related_modes": [
+        "M-BLT-002",
+        "M-SQR-005",
+        "M-BLT-005"
+      ]
+    },
+    {
+      "id": "M-BLT-007",
+      "name_zh": "哲人王设计法",
+      "name_en": "Philosopher-King (Ideal Polity Design)",
+      "mode_code": "M-BLT-007",
+      "category": "政治哲学",
+      "domain_zh": "制度设计/理想治理",
+      "domain_en": "Institutional Design / Ideal Governance",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "以灵魂三分对应城邦三阶层（统治者=理性、护卫者=激情、生产者=欲望），从'正义即各司其职'出发正向设计整个城邦：教育筛选（护卫者的体育与音乐教育、二十年的数学与辩证法训练）、所有制安排（护卫者共产）、权力配置（哲学王执政）。方法内核：制度是灵魂结构的放大——欲治城邦先治灵魂，欲改制度先改教育。",
+      "definition_en": "Map the soul's three parts onto the city's three classes (rulers=reason, guardians=spirit, producers=appetite) and design the polity from 'justice as each doing its own': educational selection (music and gymnastics, then twenty years of mathematics and dialectic), communal property for guardians, rule by philosopher-kings. Core method: institutions are the soul writ large—to reform the city, reform education first.",
+      "source_chapter": "《理想国》卷二-卷七，473d（'除非哲学家王'）",
+      "key_concepts": [
+        "哲学王",
+        "城邦-灵魂类比",
+        "护卫者教育",
+        "共产制",
+        "正义城邦"
+      ],
+      "process_zh": [
+        "确立第一原理（何为正义/善）而非从现状出发修补",
+        "把微观单元（灵魂）的结构映射到宏观系统（城邦）",
+        "从第一原理正向推导教育、产权、权力、婚姻等各项制度",
+        "用'退化序列'（荣誉政体-寡头-民主-僭主）作为对照检验设计的稳健性"
+      ],
+      "process_en": [
+        "Start from a first principle (what justice/the Good is), not patching the status quo",
+        "Map the micro-unit's (soul) structure onto the macro-system (city)",
+        "Deduce institutions—education, property, power, marriage—from the principle",
+        "Stress-test the design against the degeneration sequence (timocracy, oligarchy, democracy, tyranny)"
+      ],
+      "key_quote_zh": "除非哲学家成为王，或王者真正研习哲学……否则城邦的灾难不会终止。",
+      "key_quote_en": "Until philosophers rule as kings, or kings genuinely philosophize, cities will have no rest from their evils.",
+      "representative_cases_zh": "《理想国》卷五-七：护卫者阶层取消私产与家庭、接受十年数学加五年辩证法训练、五十岁方可执政——人类历史上第一次完整的'从人性论推出制度'的系统尝试。",
+      "representative_cases_en": "Republic V-VII: guardians hold property and family in common, train ten years in mathematics and five in dialectic, and rule only at fifty—the first full attempt to derive institutions from a theory of human nature.",
+      "modern_applications_zh": [
+        "从第一性原理出发的组织与制度设计",
+        "人才筛选与长周期培养体系（统治者的教育方案）",
+        "制度退化的预警模型（政体衰变序列作为治理风险清单）"
+      ],
+      "modern_applications_en": [
+        "First-principles institutional and organizational design",
+        "Long-cycle talent selection and formation pipelines",
+        "Degeneration sequence as a governance-risk checklist"
+      ],
+      "related_modes": [
+        "M-BLT-004",
+        "M-BLT-009",
+        "M-BLT-010"
+      ]
+    },
+    {
+      "id": "M-BLT-008",
+      "name_zh": "善本原统摄法",
+      "name_en": "The Good as First Principle",
+      "mode_code": "M-BLT-008",
+      "category": "价值论",
+      "domain_zh": "价值排序/终极目的",
+      "domain_en": "Value Ordering / Ultimate Ends",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "在一切理念之上设立'善的理念'：它如太阳，既使万物存在，又使万物可见——既是存在的根据，又是认识的根据。因而价值不是诸善的加权比较，而是以最高善为光源的层级排序：一切具体之善、知识、德性都因分享善而有价值。思考的终点必须有一个统摄性的'为了什么'，否则手段会自我增殖、价值会互相冲突而无法裁决。",
+      "definition_en": "Above all Forms stands the Form of the Good: like the sun, it both gives existence to things and makes them knowable—ground of both being and cognition. Value is thus not a weighted sum of goods but a hierarchy lit by the supreme Good. Every chain of ends must terminate in one overarching 'for the sake of what,' else means proliferate and values collide without an arbiter.",
+      "source_chapter": "《理想国》504d-509c（太阳喻）、《斐利布》65a",
+      "key_concepts": [
+        "善的理念",
+        "太阳喻",
+        "存在与认识的统一",
+        "价值层级",
+        "终极目的"
+      ],
+      "process_zh": [
+        "沿目的链向上追问：这件事为了什么？直至不能再问",
+        "检查该终极目的能否'照亮'（解释价值并赋予存在意义）其余各层",
+        "以最高善为参照给诸善排序，裁决价值冲突",
+        "让一切手段性安排接受最终目的的重新校准"
+      ],
+      "process_en": [
+        "Climb the chain of ends until nothing further can be asked",
+        "Test whether the ultimate end can 'illuminate'—explain the value of—all lower layers",
+        "Order competing goods by their relation to the supreme Good",
+        "Recalibrate all instrumental arrangements against the final end"
+      ],
+      "key_quote_zh": "善的理念是知识和真理的原因，却比两者更美——正如光是看见的原因，太阳却是光与视力的给予者。",
+      "key_quote_en": "The Form of the Good is the cause of knowledge and truth, yet superior to both in beauty—as the sun gives both light and sight.",
+      "representative_cases_zh": "《理想国》卷六：苏格拉底拒绝把'快乐'或'知识'当作最高目的，指出二者都需更高者判定其好坏——由此引出善理念作为'超出存在'的第一原理。",
+      "representative_cases_en": "Republic VI: Socrates rejects pleasure and knowledge as supreme ends—each needs something higher to judge it—leading to the Good as a first principle 'beyond being.'",
+      "modern_applications_zh": [
+        "个人与组织的使命层级梳理（使命-战略-战术）",
+        "多元价值冲突的裁决原则设定",
+        "技术伦理：为能力增长设定'照亮一切'的终极价值参照"
+      ],
+      "modern_applications_en": [
+        "Mission hierarchies for persons and organizations",
+        "Principles for adjudicating conflicts among plural values",
+        "Tech ethics: an ultimate value reference for growing capabilities"
+      ],
+      "related_modes": [
+        "M-BLT-001",
+        "M-BLT-004",
+        "M-BLT-003"
+      ]
+    },
+    {
+      "id": "M-BLT-009",
+      "name_zh": "神话转喻法",
+      "name_en": "Myth as Instrument (Noble Lie and Philosophical Myth)",
+      "mode_code": "M-BLT-009",
+      "category": "表达方法",
+      "domain_zh": "叙事沟通/教育说服",
+      "domain_en": "Narrative Communication / Persuasive Pedagogy",
+      "level": "进阶",
+      "priority": 9,
+      "definition_zh": "当论证超出听众当下的理解力或触及无法证明的第一原理时，柏拉图不沉默也不放弃，而改用神话（mythos）承载逻各斯（logos）：灵魂不朽的末日审判神话、灵魂战车的图像、金属种子'高贵的谎言'。区别于诡辩术之处在于诚实分层——神话被明示为'类真的图像'（eikos muthos），服务于让尚未能走辩证之路的人完成'转向'，而非蒙蔽已启蒙者。",
+      "definition_en": "When argument exceeds an audience's grasp or touches unprovable first principles, Plato neither falls silent nor gives up: he carries logos in mythos—judgment after death, the charioteer, the 'noble lie' of metals. Unlike sophistry, it is honest tiering: myths are declared 'likely images' (eikos muthos) serving the unconverted, never deceiving the enlightened.",
+      "source_chapter": "《理想国》414b（高贵的谎言）、614b（厄尔神话）、《蒂迈欧》29d、《斐德罗》246a",
+      "key_concepts": [
+        "神话与逻各斯",
+        "高贵的谎言",
+        "类真的图像",
+        "教育性叙事",
+        "诚实分层"
+      ],
+      "process_zh": [
+        "判断论证的落差：是听众尚缺前提，还是命题本身超出可证范围",
+        "为不可证的结论设计形象化叙事（图像、寓言、起源故事）",
+        "明示叙事的地位（'这是个故事'），防止其被误当作严格论证",
+        "以叙事完成动机与情感上的转向，再由辩证法接续完成认知建设"
+      ],
+      "process_en": [
+        "Diagnose the gap: missing premises in the audience, or claims beyond proof",
+        "Design an image, allegory, or origin-story to carry the unprovable conclusion",
+        "Flag the narrative's status ('this is a story') to prevent false rigor",
+        "Let the narrative accomplish motivational reorientation; let dialectic finish the cognitive build"
+      ],
+      "key_quote_zh": "我们是否也要用一个高贵的谎言，最好是尽量的真话，去说服统治者和其余公民？",
+      "key_quote_en": "Shall we use one noble lie, as true as possible, to persuade rulers and citizens alike?",
+      "representative_cases_zh": "《理想国》卷十的厄尔神话：以战士厄尔死而复生所见灵魂轮回与选择，为'灵魂不朽'这一理性可逼近却不可证明的结论提供教育性支撑，全篇明言'这个故事被保存下来而未失传'。",
+      "representative_cases_en": "The Myth of Er in Republic X: the soldier Er's vision of souls choosing their next lives supports the rationally approachable but unprovable claim of the soul's immortality—openly framed as a tale preserved and not lost.",
+      "modern_applications_zh": [
+        "科普与战略传播：用叙事承载超出听众图式的新知",
+        "组织文化建设中的起源故事与仪式（明示其'建构'性质）",
+        "公开沟通中的诚实分层：比喻要标明是比喻"
+      ],
+      "modern_applications_en": [
+        "Science communication carrying new paradigms through narrative",
+        "Origin stories and rituals in culture-building, openly constructed",
+        "Honest tiering in public messaging: label metaphors as metaphors"
+      ],
+      "related_modes": [
+        "M-BLT-002",
+        "M-BLT-007",
+        "M-BLT-004"
+      ]
+    },
+    {
+      "id": "M-BLT-010",
+      "name_zh": "学园建制法",
+      "name_en": "Academy Institutionalization",
+      "mode_code": "M-BLT-010",
+      "category": "教育组织",
+      "domain_zh": "共同体建设/知识生产制度",
+      "domain_en": "Community Building / Institutions of Knowledge Production",
+      "level": "进阶",
+      "priority": 10,
+      "definition_zh": "把'追求真理'从个人操守升级为可持续的建制：前387年在雅典西北郊的阿卡德摩斯园林创办学园，设章程、聘讲授、课数学，以'数学化训练+辩证法养成'的系统课程培养执政者与研究者。方法内核：思想的延续依赖共同体——固定的空间、制度化的传承、共同的课程与研究议程，使单点天才的洞见沉淀为跨代的知识生产体系。",
+      "definition_en": "Upgrade truth-seeking from personal virtue to durable institution: the Academy, founded c. 387 BCE in the grove of Akademos, with statutes, lectures, and a mathematics-first curriculum training rulers and researchers. Core method: ideas survive through community—fixed space, institutional succession, shared curriculum and research agenda—turning one genius's insight into a cross-generational knowledge system.",
+      "source_chapter": "第欧根尼·拉尔修《名哲言行录》卷三；西塞罗《论演说家》I.98；学园铭文'不懂几何学者不得入内'传统",
+      "key_concepts": [
+        "学园",
+        "数学化课程",
+        "共同体传承",
+        "知识生产制度",
+        "跨代研究议程"
+      ],
+      "process_zh": [
+        "设立固定空间与准入标准（学园门上的几何学要求）",
+        "设计阶梯课程：从算术几何（训练抽象）到辩证法（训练本原思维）",
+        "以讲授、对话、共同研究使个人洞见成为共同财产",
+        "建立师承与著述传统，保证议程跨代延续（学园延续近九百年）"
+      ],
+      "process_en": [
+        "Fix a space and admission bar (geometry over the Academy gate)",
+        "Design a graded curriculum: mathematics for abstraction, dialectic for first principles",
+        "Make private insight common property through lectures, dialogue, joint research",
+        "Institutionalize succession and writing so the agenda outlives its founder (the Academy lasted ~900 years)"
+      ],
+      "key_quote_zh": "不懂几何学者，不得入内。",
+      "key_quote_en": "Let no one ignorant of geometry enter.",
+      "representative_cases_zh": "亚里士多德于前367年十七岁入学园，从学二十年直至柏拉图去世——学园同时输出了继承其路线的斯彪西波与叛出师门的亚里士多德，证明建制化共同体能同时容纳传承与批判。",
+      "representative_cases_en": "Aristotle entered the Academy at seventeen (367 BCE) and stayed twenty years until Plato's death—the institution produced both his successor Speusippus and his great dissenter, showing a community can house continuity and critique together.",
+      "modern_applications_zh": [
+        "研究机构、智库与实验室的建制化设计",
+        "企业大学的课程体系与人才梯队",
+        "开源社区/知识共同体的准入标准与传承机制"
+      ],
+      "modern_applications_en": [
+        "Institutional design for institutes, think tanks, and labs",
+        "Corporate universities with graded curricula and talent pipelines",
+        "Admission bars and succession mechanisms for open-source and knowledge communities"
+      ],
+      "related_modes": [
+        "M-BLT-005",
+        "M-BLT-007",
+        "M-BLT-006"
+      ]
+    }
+  ]
+}

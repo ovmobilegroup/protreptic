@@ -1,0 +1,139 @@
+{
+  "queries_zh": [
+    {
+      "query": "战略",
+      "expected_codes": [
+        "A-1-X-P",
+        "A-2-X-P",
+        "H-LB-01",
+        "H-LS-03",
+        "H-QXS-38"
+      ]
+    },
+    {
+      "query": "创新",
+      "expected_codes": [
+        "B-1-Y-S",
+        "B-1-Z-S",
+        "H-YLP-148",
+        "H-QXS-38"
+      ]
+    },
+    {
+      "query": "领导力",
+      "expected_codes": [
+        "C-1-Y-P",
+        "C-2-Y-P",
+        "H-LB-01",
+        "H-LS-03"
+      ]
+    },
+    {
+      "query": "危机",
+      "expected_codes": [
+        "D-2-Z-P",
+        "D-3-Z-P",
+        "H-ZL-08",
+        "H-SY-149"
+      ]
+    },
+    {
+      "query": "致良知",
+      "expected_codes": [
+        "H-WY-11",
+        "H-WYM-216",
+        "H-LJY-76"
+      ]
+    },
+    {
+      "query": "矛盾分析",
+      "expected_codes": [
+        "H-MZD-150",
+        "A-1-X-P"
+      ]
+    },
+    {
+      "query": "系统工程",
+      "expected_codes": [
+        "H-QXS-38"
+      ]
+    },
+    {
+      "query": "杂交水稻",
+      "expected_codes": [
+        "H-YLP-148"
+      ]
+    }
+  ],
+  "queries_en": [
+    {
+      "query": "strategic",
+      "expected_codes": [
+        "A-1-X-P",
+        "A-2-X-P",
+        "H-LB-01",
+        "H-LS-03",
+        "H-QXS-38"
+      ]
+    },
+    {
+      "query": "innovation",
+      "expected_codes": [
+        "B-1-Y-S",
+        "B-1-Z-S",
+        "H-YLP-148",
+        "H-QXS-38"
+      ]
+    },
+    {
+      "query": "leadership",
+      "expected_codes": [
+        "C-1-Y-P",
+        "C-2-Y-P",
+        "H-LB-01",
+        "H-LS-03"
+      ]
+    },
+    {
+      "query": "crisis",
+      "expected_codes": [
+        "D-2-Z-P",
+        "D-3-Z-P",
+        "H-ZL-08",
+        "H-SY-149"
+      ]
+    },
+    {
+      "query": "unity of knowledge and action",
+      "expected_codes": [
+        "H-WY-11",
+        "H-WYM-216",
+        "H-LJY-76"
+      ]
+    },
+    {
+      "query": "contradiction analysis",
+      "expected_codes": [
+        "H-MZD-150",
+        "A-1-X-P"
+      ]
+    },
+    {
+      "query": "systems engineering",
+      "expected_codes": [
+        "H-QXS-38"
+      ]
+    },
+    {
+      "query": "hybrid rice",
+      "expected_codes": [
+        "H-YLP-148"
+      ]
+    }
+  ],
+  "metrics": {
+    "top_k": 5,
+    "min_recall": 0.85,
+    "max_latency_ms": 200
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "schema_version": "v6",
+  "code": "H-ISN-001",
+  "figure_name_zh": "伊本·西那",
+  "figure_name_en": "Ibn Sina (Avicenna)",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-ISN-001",
+      "name_zh": "存在本质区分法",
+      "name_en": "Essence-Existence Distinction Method",
+      "mode_code": "M-ISN-001",
+      "category": "形而上学",
+      "domain_zh": "存在论/本体论区分",
+      "domain_en": "Ontology / Existence Theory",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "任何事物的'本质'（māhiyya，它是什么）与'存在'（anniyya，它是否存在）是可以分开思考的两回事：我们完全可以理解' unicorn 马独角兽'的本质而无须承认它存在。只有在必然存在者那里，本质与存在才合而为一。这一区分是伊本·西那对形而上学的最大原创贡献，为中世纪哲学（阿奎那的本质/存在学说）和近代存在主义（'存在先于本质'的遥远先声）提供了根本框架。",
+      "definition_en": "The 'essence' (mahiyya, what a thing is) and the 'existence' (anniyya, whether it is) of anything can be thought separately: one can fully grasp the essence of a unicorn without conceding that it exists. Only in the Necessary Existent do essence and existence coincide. This distinction is Ibn Sina's greatest original contribution to metaphysics, providing the foundational framework for medieval philosophy (Aquinas's essence/existence doctrine) and a distant precursor to modern existentialism.",
+      "source_chapter": "《治疗论·形而上学》(al-Shifāʾ, Ilāhiyyāt)",
+      "key_concepts": [
+        "本质(māhiyya)",
+        "存在(anniyya)",
+        "偶然存在者",
+        "必然存在者",
+        "自身与外在于自身"
+      ],
+      "process_zh": [
+        "对任一对象先孤立分析其'本质定义'，暂悬置其存在判断",
+        "追问：这个本质自身是否包含'存在'？若不包含，则其存在需要外在原因",
+        "区分三类存在者：本质与存在分离的偶性存在者、由他者赋予存在的必然存在者、本质即存在的必然存在者",
+        "以'存在是否内在于本质'作为终极解释链条的判据"
+      ],
+      "process_en": [
+        "Isolate the 'essential definition' of any object, suspending the judgment of its existence",
+        "Ask: does this essence itself contain existence? If not, its existence requires an external cause",
+        "Distinguish three kinds of beings: contingent beings whose essence and existence are separate, necessary-by-another, and the Necessary Existent whose essence is existence",
+        "Use 'whether existence is intrinsic to essence' as the criterion terminating any chain of explanation"
+      ],
+      "key_quote_zh": "事物的存在不是它的本质的一部分——否则问'它是什么'与问'它是否存在'就成了同一个问题；而实际上，'马性'本身既不是一也不是多，它只有在某个个体中才成为一。",
+      "key_quote_en": "The existence of a thing is not part of its essence—otherwise asking 'what is it?' and 'is it?' would be the same question; in fact, 'horseness' itself is neither one nor many; it becomes one only in some individual.",
+      "representative_cases_zh": [
+        "《形而上学》第五卷对'存在'一词的多义性分析与'存在不是种'的论证",
+        "独角兽/水性例子：本质可在心中被把握而不预设任何实例存在"
+      ],
+      "modern_applications_zh": [
+        "概念分析与本体论承诺的区分（蒯因问题）",
+        "模态逻辑中定义与断言的分层",
+        "人工智能知识表示中'类型'与'实例化'的区分"
+      ],
+      "modern_applications_en": [
+        "Distinguishing conceptual analysis from ontological commitment (Quine's problem)",
+        "Layering definition and assertion in modal logic",
+        "Type vs. instantiation separation in AI knowledge representation"
+      ],
+      "related_modes": [
+        "M-ISN-002",
+        "M-ISN-004",
+        "M-ISN-009"
+      ]
+    },
+    {
+      "id": "M-ISN-002",
+      "name_zh": "必然存在者论证法",
+      "name_en": "Necessary Existent Proof Method",
+      "mode_code": "M-ISN-002",
+      "category": "形而上学",
+      "domain_zh": "终极原因论证/存在论证明",
+      "domain_en": "Ultimate Causation Argument / Ontological Proof",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "从'存在-本质区分'直接推出的宇宙论-存在论混合论证：凡存在的若不是自身必然，则需他者赋予其存在；这个赋予链条不能无限回退（一切皆'可能存在者'则整体依然无所依托），必须终止于一个'因其自身而必然存在'的存在者——祂的本质就是存在本身。与安瑟伦的纯概念证明不同，伊本·西那从经验的'任何存在物'出发，故被康德称为存在论证明与宇宙论证明的'不自觉的综合'。",
+      "definition_en": "A cosmological-ontological hybrid argument derived directly from the essence-existence distinction: whatever exists, if not necessary in itself, needs another to confer existence; this conferring chain cannot regress infinitely (if all beings were merely possible, the whole would still rest on nothing), and must terminate in a being 'necessarily existent through itself'—whose essence just is existence. Unlike Anselm's purely conceptual proof, Ibn Sina starts from the experienced 'whatever exists,' which is why Kant called it an unwitting synthesis of the ontological and cosmological proofs.",
+      "source_chapter": "《治疗论·形而上学》第八卷、《拯救论》(al-Najāt)",
+      "key_concepts": [
+        "wājib al-wujūd（必然存在）",
+        "mumkin al-wujūd（可能存在）",
+        "存在赋予链",
+        "无限回退否证",
+        "第一因"
+      ],
+      "process_zh": [
+        "确认任一存在物：其存在若非自明必然，即属'可能存在者'",
+        "追溯其存在的外在赋予者，并追问赋予者自身属于哪一类",
+        "论证全链皆为可能存在者会陷入整体无所依托（组合论证，后世的'三段式宇宙论证明'原型）",
+        "确立必然存在者，并推出其单一性、非物质性与不可分享性"
+      ],
+      "process_en": [
+        "Take any existent: if its existence is not self-evidently necessary, it is a contingent being",
+        "Trace the external bestower of its existence, asking which class the bestower itself belongs to",
+        "Argue that if the whole chain were contingent, the totality would rest on nothing (the compositional argument, prototype of the later 'three-stage cosmological proof')",
+        "Establish the Necessary Existent and derive its unity, immateriality, and non-shareability"
+      ],
+      "key_quote_zh": "凡'可能存在'者，必有其使之存在的原因；原因的序列不能无限回退，也不能绕成一个环；故必有第一者，其存在无非是其本质——这就是必然存在者。",
+      "key_quote_en": "Every merely possible existent must have a cause of its existence; the series of causes can neither regress infinitely nor loop back on itself; hence there must be a First whose existence is nothing other than its essence—this is the Necessary Existent.",
+      "representative_cases_zh": [
+        "《拯救论》中'人皆可设想自身不存在'引出的偶然性起点",
+        "对'原因无限回退'与'循环因果'两个逃逸路线的逐一封堵"
+      ],
+      "modern_applications_zh": [
+        "解释链条的'终极终止点'分析（科学与形而上学的边界）",
+        "系统论中的自因/外因分层",
+        "宇宙微调争论中的必然存在假设"
+      ],
+      "modern_applications_en": [
+        "Analysis of ultimate termination points in explanatory chains (science/metaphysics boundary)",
+        "Self-cause vs. external-cause layering in systems theory",
+        "The necessary-being hypothesis in fine-tuning debates"
+      ],
+      "related_modes": [
+        "M-ISN-001",
+        "M-ISN-003",
+        "M-ISN-004"
+      ]
+    },
+    {
+      "id": "M-ISN-003",
+      "name_zh": "悬浮人内省法",
+      "name_en": "Floating Man Introspection Method",
+      "mode_code": "M-ISN-003",
+      "category": "心灵哲学",
+      "domain_zh": "自我意识论证/第一人称认识论",
+      "domain_en": "Self-Awareness Argument / First-Person Epistemology",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "思想实验：设想一个人凭空被造、悬浮于空中、五官隔绝、四肢互不接触，对自身身体一无所知——他依然会意识到'我自身'的存在。由此论证：自我意识不依赖任何感官输入与外部对象，灵魂对自身的觉知是原初的、非反思的。这是哲学史上最早的系统第一人称论证，早于笛卡尔'我思'六百余年，且目标更强：不仅证明'我存在'，而且证明自我意识是意识的基本结构。",
+      "definition_en": "Thought experiment: imagine a person created suddenly in mid-air, senses severed, limbs not touching, knowing nothing of any body—he would still be aware of 'myself.' This proves that self-awareness depends on no sensory input or external object; the soul's awareness of itself is primordial and non-reflective. It is the first systematic first-person argument in philosophy, anticipating Descartes' cogito by over six centuries, with a stronger target: not merely proving 'I exist,' but that self-awareness is the basic structure of consciousness.",
+      "source_chapter": "《治疗论·论灵魂》第一卷、《指引与注记》(al-Ishārāt)",
+      "key_concepts": [
+        "悬浮人",
+        "原初自我意识",
+        "非反思性觉知",
+        "灵魂非物质性",
+        "第一人称不可替代性"
+      ],
+      "process_zh": [
+        "构造极端剥离场景：逐一删除感官、身体、记忆、社会性等条件",
+        "检验目标属性（自我意识）在全部删除后是否仍然保留",
+        "若保留，则该属性不依赖被删条件，必另有非物质根基",
+        "推广结论：一切感觉经验都以先在的自我意识为背景"
+      ],
+      "process_en": [
+        "Construct an extreme stripping scenario: remove sensation, body, memory, sociality one by one",
+        "Test whether the target property (self-awareness) survives total removal",
+        "If it survives, the property does not depend on the removed conditions and must have an immaterial ground",
+        "Generalize: all sense experience presupposes an antecedent self-awareness as its background"
+      ],
+      "key_quote_zh": "他必定确认其自身的存在……在这一状态中，他对自身存在的确认不被任何遗漏之物所动摇——这就是那被唤作'我'的东西，即便他从未从任何外物那里得到过它。",
+      "key_quote_en": "He must affirm the existence of his self... in this state, the affirmation of his own existence is not shaken by anything omitted—this is what is called 'I,' even though he never received it from anything external.",
+      "representative_cases_zh": [
+        "《论灵魂》中悬浮人实验对'灵魂非物质性'的支撑",
+        "与亚里士多德'灵魂是身体的形式'的显式分歧——伊本·西那承认分歧而不回避"
+      ],
+      "modern_applications_zh": [
+        "意识哲学中的'最难问题'与自我表征理论",
+        "笛卡尔我思的思想史源流考订",
+        "感觉剥夺实验与最小自我（minimal self）研究"
+      ],
+      "modern_applications_en": [
+        "The 'hard problem' and self-representational theories of consciousness",
+        "Intellectual genealogy of the Cartesian cogito",
+        "Sensory deprivation studies and the minimal self"
+      ],
+      "related_modes": [
+        "M-ISN-002",
+        "M-ISN-008",
+        "M-ISN-009"
+      ]
+    },
+    {
+      "id": "M-ISN-004",
+      "name_zh": "流溢层级法",
+      "name_en": "Emanation Hierarchy Method",
+      "mode_code": "M-ISN-004",
+      "category": "形而上学",
+      "domain_zh": "宇宙生成论/存在等级结构",
+      "domain_en": "Cosmogony / Hierarchical Structure of Being",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "从唯一而完满的必然存在者出发，宇宙以'流溢'（fayḍ）方式层级展开：每一完满者必然溢出一个后继理智，从第一理智依次流溢出十个理智，最末理智（主动理智）生成月下世界的质料与形式。核心原则是'一者只产生一者'（ex uno non fit nisi unum），以层级秩序同时解决'绝对单一者如何产生多'与新柏拉图主义的太一流溢难题，把亚里士多德的永恒宇宙、新柏拉图主义的流溢说与一神论的创世观焊接为一个体系。",
+      "definition_en": "From the unique, perfect Necessary Existent the universe unfolds hierarchically by 'emanation' (fayd): every fullness necessarily overflows one successor intellect; from the First Intellect flow in sequence ten intellects, the last (the Active Intellect) generating the matter and forms of the sublunar world. The core principle 'from the One only one proceeds' resolves 'how the absolutely One produces the many,' welding Aristotle's eternal cosmos, Neoplatonic emanation, and monotheistic creation into one system.",
+      "source_chapter": "《治疗论·形而上学》第九卷、《拯救论》",
+      "key_concepts": [
+        "流溢(fayḍ)",
+        "十理智层级",
+        "一者生一者",
+        "主动理智",
+        "完满即给予"
+      ],
+      "process_zh": [
+        "确立源头属性：必然存在者是绝对单一且完满的",
+        "建立发生原则：完满者的给予性——完满不减损地溢出",
+        "用'一者生一者'约束每一层，防止从单一直接产出混乱的多",
+        "把经验世界的多样性归为层级末端的组合结果，保持源头的单一性"
+      ],
+      "process_en": [
+        "Fix the source's attributes: the Necessary Existent is absolutely one and perfect",
+        "Establish the generative principle: the give-ness of perfection—overflowing without diminution",
+        "Constrain each level by 'one from one,' preventing the One from directly producing chaotic multiplicity",
+        "Attribute the experienced world's diversity to combinatory results at the hierarchy's end, preserving the source's unity"
+      ],
+      "key_quote_zh": "从一者之中，除了其一，别无所出。",
+      "key_quote_en": "From the One, nothing proceeds except its one.",
+      "representative_cases_zh": [
+        "十理智与九重天球的一一对应架构",
+        "以主动理智'赋予思维形式'解释人类知性如何从潜能变为现实"
+      ],
+      "modern_applications_zh": [
+        "层级系统设计中的单点源头与逐级派生原则",
+        "复杂性科学中'简单规则生成多样现象'的建模思想",
+        "组织架构中的单源授权链设计"
+      ],
+      "modern_applications_en": [
+        "Single-source, level-by-level derivation in hierarchical system design",
+        "'Simple rules generate diverse phenomena' modeling in complexity science",
+        "Single-source authorization chain design in organizations"
+      ],
+      "related_modes": [
+        "M-ISN-001",
+        "M-ISN-002",
+        "M-ISN-010"
+      ]
+    },
+    {
+      "id": "M-ISN-005",
+      "name_zh": "五谓词定义法",
+      "name_en": "Five Predicables Definition Method",
+      "mode_code": "M-ISN-005",
+      "category": "逻辑学",
+      "domain_zh": "概念定义/词项逻辑",
+      "domain_en": "Conceptual Definition / Term Logic",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "系统化'任何概念在命题中的五种合法位置'：种、属差、种、固有属性、偶性（即波菲利五谓词）。伊本·西那把这套定义工具锻造为知识组织引擎：先确立最普遍范畴，再逐级属差切分，直到不可再分的种概念，从而任何未知事物都能被'定位'在已知概念树的确定枝节上。他的逻辑学体系（含《医典》式的知识分类法）经拉丁翻译成为中世纪大学的标准逻辑教材，'阿维森纳式定义'统治欧洲逻辑课堂四百年。",
+      "definition_en": "Systematizing 'the five legitimate positions of any concept in a proposition': genus, differentia, species, property, and accident (the Porphyrian five predicables). Ibn Sina forged this definitional toolkit into an engine of knowledge organization: first fix the most universal category, then partition by differentiae level by level down to indivisible species—so any unknown thing can be 'located' on a determinate branch of the known concept tree. His logic system, via Latin translation, became the standard textbook of medieval universities; 'Avicennian definition' dominated European logic classrooms for four centuries.",
+      "source_chapter": "《治疗论·逻辑学》、《指引与注记》逻辑部分",
+      "key_concepts": [
+        "种与属差",
+        "固有属性与偶性",
+        "定义的完备性",
+        "范畴树定位",
+        "共相的三重存在"
+      ],
+      "process_zh": [
+        "为待定义对象寻找其最近之'种'（上位概念）",
+        "找出将其与同种其他成员区分的'属差'（本质区别特征）",
+        "检验定义：种加属差是否可互换、是否可逆、是否诉诸更不知之名",
+        "将定义嵌入范畴树，明确其与固有属性、偶性的边界"
+      ],
+      "process_en": [
+        "Find the nearest 'genus' (superordinate concept) of the object to be defined",
+        "Identify the 'differentia' (essential distinguishing feature) separating it from co-specific members",
+        "Test the definition: is genus-plus-differentia convertible, reciprocal, and not phrased in less-known terms?",
+        "Embed the definition in the category tree, marking its boundary against properties and accidents"
+      ],
+      "key_quote_zh": "定义不是'给出同义语'，而是把事物安放在其必然所属的位置上——种与属差相加，恰好等于，不多不少。",
+      "key_quote_en": "Definition is not 'giving synonyms' but placing a thing in the position it necessarily belongs to—genus plus differentia, exactly equal, neither more nor less.",
+      "representative_cases_zh": [
+        "《治疗论·逻辑学》对波菲利五谓词的修正与'共相既在物前、在物中、又在物后'的三重存在论",
+        "《医典》第一卷以定义-分类法组织全部疾病与药物知识"
+      ],
+      "modern_applications_zh": [
+        "本体工程（ontology engineering）中的类-属性建模",
+        "分类法与知识图谱的概念分层",
+        "法律与医学诊断中'必要充分条件'式定义"
+      ],
+      "modern_applications_en": [
+        "Class-attribute modeling in ontology engineering",
+        "Conceptual layering in taxonomies and knowledge graphs",
+        "Necessary-and-sufficient-condition definitions in law and medical diagnosis"
+      ],
+      "related_modes": [
+        "M-ISN-006",
+        "M-ISN-007",
+        "M-ISN-010"
+      ]
+    },
+    {
+      "id": "M-ISN-006",
+      "name_zh": "药物检验七则法",
+      "name_en": "Seven Rules of Drug Testing Method",
+      "mode_code": "M-ISN-006",
+      "category": "医学方法论",
+      "domain_zh": "实验医学/因果检验设计",
+      "domain_en": "Experimental Medicine / Causal Testing Design",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "在《医典》中提出检验药物是否真正致效的七条规则，构成史上最早的对照实验思想雏形：药物须在单纯疾病（无并发症）上使用；须按时序（先行后效）；须排除时间自愈（疾病自然进程）的干扰；须多次重复验证；须排除安慰剂式的新奇效应；须在人与动物间区分；须排除药物本身的持久改变。这是对'相关不等于因果'的系统防御，比随机对照试验早九百年。",
+      "definition_en": "In the Canon of Medicine, seven rules for testing whether a drug truly works—history's earliest embryo of controlled experimentation: use the drug only in simple disease (no complications); respect temporal sequence (effect must follow); exclude natural recovery over time; repeat multiple times; exclude the novelty effect akin to placebo; distinguish human from animal responses; exclude the disease's own permanent change. A systematic defense of 'correlation is not causation' nine hundred years before randomized controlled trials.",
+      "source_chapter": "《医典》(al-Qānūn fī al-Ṭibb) 第一卷",
+      "key_concepts": [
+        "单纯病例条件",
+        "时序性检验",
+        "自然进程对照",
+        "重复验证",
+        "安慰剂效应预判",
+        "种属外推限制"
+      ],
+      "process_zh": [
+        "净化对象：选择无并发症的单纯病例，固定其余变量",
+        "确立时序与剂量关系：先用药后见效，剂量增减效应随之",
+        "引入自然进程对照：排除疾病自愈造成的假阳性",
+        "重复、跨个体、跨种属验证，排除偶合与安慰剂效应"
+      ],
+      "process_en": [
+        "Purify the subject: choose uncomplicated simple cases, fixing all other variables",
+        "Establish dose-response and temporal order: effect follows drug, and varies with dosage",
+        "Introduce natural-course control: exclude false positives from spontaneous recovery",
+        "Verify through repetition, across individuals and species, excluding coincidence and placebo effects"
+      ],
+      "key_quote_zh": "验证药物之效，须知：有时病痛之愈非药之功，而是疾病本性使然——此不可不察。",
+      "key_quote_en": "In testing a drug's efficacy, know this: sometimes the cure is not the drug's work but the disease's own nature—this must not be overlooked.",
+      "representative_cases_zh": [
+        "《医典》对'经验医学'（仅凭偶然有效）与'实验医学'（经设计验证）的明确区分",
+        "七则检验在具体药方评估中的逐条应用"
+      ],
+      "modern_applications_zh": [
+        "对照实验与因果推断设计（希尔准则的先声）",
+        "A/B 测试与混杂变量控制",
+        "循证医学的分级证据思想源流"
+      ],
+      "modern_applications_en": [
+        "Controlled experiment and causal inference design (anticipating the Bradford Hill criteria)",
+        "A/B testing and confounder control",
+        "Intellectual roots of evidence-grading in evidence-based medicine"
+      ],
+      "related_modes": [
+        "M-ISN-005",
+        "M-ISN-007",
+        "M-ISN-010"
+      ]
+    },
+    {
+      "id": "M-ISN-007",
+      "name_zh": "内感官分层法",
+      "name_en": "Internal Senses Layering Method",
+      "mode_code": "M-ISN-007",
+      "category": "认知科学",
+      "domain_zh": "心灵结构/认知加工分层",
+      "domain_en": "Structure of Mind / Layered Cognitive Processing",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "在外部五官之外，设想一组'内感官'对外部信息逐层加工：共感（汇合诸感官）、表象（保持形象）、想象（组合分离形象）、估计（把握无意象的意义，如羊'估计'到狼的危险）、记忆（保存估计结果）。这是史上第一个系统的认知加工流水线模型，把'知觉-表象-思维-记忆'的分工明确化，直接传入欧洲经院心理学，构成中世纪'内感官学说'与近代心理学的共同祖先。",
+      "definition_en": "Beyond the five external senses, posit a set of 'internal senses' processing input in stages: common sense (converging the senses), representation (retaining images), imagination (combining and separating images), estimation (grasping non-sensory intention, as a sheep 'estimates' the wolf's danger), and memory (storing estimation's results). This is history's first systematic cognitive-pipeline model, articulating the division of labor among perception, imagery, thought, and memory—transmitted into European scholastic psychology as the common ancestor of medieval 'internal senses' doctrine and modern psychology.",
+      "source_chapter": "《治疗论·论灵魂》、《拯救论·心理学》",
+      "key_concepts": [
+        "共感",
+        "表象库",
+        "组合想象",
+        "估计(estimative)",
+        "意义(intentio)",
+        "记忆分层"
+      ],
+      "process_zh": [
+        "将认知任务分解为信息流上的连续加工环节",
+        "为每一环节指定专门官能、位置（脑室）与功能边界",
+        "刻画环节间的传递关系与损耗（遗忘、错觉的发生点）",
+        "用病理观察（脑损伤导致特定官能失效）检验分层假设"
+      ],
+      "process_en": [
+        "Decompose cognition into sequential processing stages along the information flow",
+        "Assign each stage a dedicated faculty, locus (ventricle), and functional boundary",
+        "Characterize inter-stage transmission and its failures (where forgetting and illusion arise)",
+        "Test the layering with pathological observation (brain lesions disabling specific faculties)"
+      ],
+      "key_quote_zh": "羊看见狼的形貌，同时'估计'到它意欲伤害——这份意义并非任何感官所传达，而是内在于灵魂的另一官能所领会。",
+      "key_quote_en": "The sheep sees the wolf's form and simultaneously 'estimates' its intent to harm—this meaning is conveyed by no sense organ but grasped by another faculty within the soul.",
+      "representative_cases_zh": [
+        "五内感官与三个脑室定位的体系化",
+        "以'估计'官能解释动物本能与人类推理的分界"
+      ],
+      "modern_applications_zh": [
+        "认知架构（如多模块流水线）的设计范式",
+        "知觉-工作记忆-长时记忆分层的实验心理学",
+        "具身认知中'无意象意义'（affordance）的历史参照"
+      ],
+      "modern_applications_en": [
+        "Design paradigm for multi-module cognitive architectures",
+        "Perception/working-memory/long-term-memory layering in experimental psychology",
+        "Historical reference for non-imagistic meaning (affordances) in embodied cognition"
+      ],
+      "related_modes": [
+        "M-ISN-003",
+        "M-ISN-005",
+        "M-ISN-008"
+      ]
+    },
+    {
+      "id": "M-ISN-008",
+      "name_zh": "灵魂非物质论证法",
+      "name_en": "Soul Incorporeality Proof Method",
+      "mode_code": "M-ISN-008",
+      "category": "心灵哲学",
+      "domain_zh": "身心关系/灵魂独立论证",
+      "domain_en": "Mind-Body Relation / Argument for the Soul's Independence",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "综合悬浮人实验与抽象能力论证：灵魂能够把握不携带任何质料的普遍形式（如'三角形本身'），而一切物质性官能只能接收个别的、带有质料条件的形象；凡能脱离质料把握形式者，其自身必不依赖特定质料——故灵魂（至少其理智部分）是非物质的、不可随身体消灭的。这是中世纪论证灵魂不朽的标准推理之一，其'抽象越普遍、脱离质料越远'的原则亦是概念层级与思维抽象度的早期理论。",
+      "definition_en": "Synthesizing the floating man with the abstraction argument: the soul can grasp universal forms carrying no matter (e.g., 'the triangle as such'), while all material faculties receive only individual, matter-conditioned images; whatever grasps forms apart from matter cannot itself depend on particular matter—hence the soul (at least its intellect) is immaterial and not destroyed with the body. One of the standard medieval proofs of the soul's immortality; its principle 'the more universal the abstraction, the further from matter' is also an early theory of conceptual hierarchy and degrees of abstraction.",
+      "source_chapter": "《治疗论·论灵魂》第五卷、《拯救论》",
+      "key_concepts": [
+        "抽象",
+        "普遍形式",
+        "质料条件",
+        "理智的非物质性",
+        "知性 tiers（质料理智/习惯理智/现实理智）"
+      ],
+      "process_zh": [
+        "对比两类认知对象：个别形象（携带质料条件）与普遍形式（脱离质料）",
+        "论证物质性官能的结构限制：只能处理有位置、有条件的个别",
+        "推出能力与对象同构原则：能把握非物质对象者自身非物质",
+        "推出灵魂独立性与（至少理智部分的）不可灭性"
+      ],
+      "process_en": [
+        "Contrast two kinds of cognitive objects: individual images (matter-conditioned) and universal forms (matter-free)",
+        "Argue the structural limits of material faculties: they handle only located, conditioned particulars",
+        "Derive the isomorphism principle: what grasps immaterial objects is itself immaterial",
+        "Conclude the soul's independence and (at least the intellect's) indestructibility"
+      ],
+      "key_quote_zh": "理解'人'之为人的普遍本质时，既非此人之像，亦非彼人之像——无任何量、无任何位置：这种理解状态的承载者，本身便不属于物质世界。",
+      "key_quote_en": "In understanding the universal essence of 'man,' one entertains neither this man's image nor that man's—no quantity, no position: the bearer of such understanding cannot itself belong to the material world.",
+      "representative_cases_zh": [
+        "抽象递进论证：从'两根木头的三'到'数学的三'再到'三本身'",
+        "与亚里士多德灵魂定义的紧张及其对经院哲学的传导"
+      ],
+      "modern_applications_zh": [
+        "心灵哲学中抽象表征与符号处理的理论源头",
+        "AI 中符号表示'脱离载体'问题的历史镜像",
+        "意识连续性论证的批判性检视"
+      ],
+      "modern_applications_en": [
+        "Intellectual root of abstract representation and symbol processing in philosophy of mind",
+        "Historical mirror of the 'substrate independence' problem in AI",
+        "Critical examination of continuity-of-consciousness arguments"
+      ],
+      "related_modes": [
+        "M-ISN-003",
+        "M-ISN-007",
+        "M-ISN-004"
+      ]
+    },
+    {
+      "id": "M-ISN-009",
+      "name_zh": "归谬二分反证法",
+      "name_en": "Dichotomous Reductio Method",
+      "mode_code": "M-ISN-009",
+      "category": "逻辑学",
+      "domain_zh": "论证策略/间接证明",
+      "domain_en": "Argument Strategy / Indirect Proof",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "伊本·西那论辩风格的方法论内核：把争议问题穷尽二分为互斥且穷尽的选项（如'存在要么来自本质、要么来自他因'），然后逐一归谬击破除目标项之外的所有分支，使目标结论成为唯一幸存者。配合其对'敌手最强形式'（steelman）的坚持——先以最有力的方式陈述对方立场再反驳——形成'穷尽分割+逐支归谬'的论证机器。这一风格使《治疗论》成为中世纪最强论辩文本之一。",
+      "definition_en": "The methodological core of Ibn Sina's argumentative style: exhaustively dichotomize a contested question into mutually exclusive and jointly exhaustive options (e.g., 'existence either comes from essence or from another cause'), then demolish every branch by reductio except the target, leaving the intended conclusion as the sole survivor. Combined with his insistence on stating the opponent's position in its strongest form before refuting it, this forms the argument machine of 'exhaustive partition plus branch-by-branch reductio.' It made the Shifa one of the most formidable argumentative texts of the Middle Ages.",
+      "source_chapter": "《治疗论·逻辑学·论辩篇》、《指引与注记》",
+      "key_concepts": [
+        "穷尽二分",
+        "归谬法",
+        "排除式论证（后称 disinheriting method）",
+        "钢人陈述",
+        "唯一幸存者"
+      ],
+      "process_zh": [
+        "将问题空间按'非此即彼'穷尽切分，确认各支互斥且总和穷尽",
+        "以最强形式重构对手每一分支的论证",
+        "对每一非目标分支寻找内在矛盾或与既立原则的冲突",
+        "宣布唯一幸存分支，并回检切分本身是否遗漏第三可能"
+      ],
+      "process_en": [
+        "Partition the question space exhaustively by 'either-or,' confirming branches are exclusive and exhaustive",
+        "Reconstruct each opponent branch in its strongest form",
+        "Find internal contradiction or conflict with established principles in every non-target branch",
+        "Declare the sole surviving branch, and re-check the partition itself for a missed third possibility"
+      ],
+      "key_quote_zh": "反驳之要，不在攻击其最弱之辞，而在先使其说立于最强之形，而后破之。",
+      "key_quote_en": "The essence of refutation lies not in attacking the weakest wording, but in first setting the opponent's claim in its strongest form, and then breaking it.",
+      "representative_cases_zh": [
+        "必然存在者论证中对'无限回退'与'循环因果'两条逃逸路线的封闭",
+        "对法拉比与亚里士多德立场的分歧点先立后驳"
+      ],
+      "modern_applications_zh": [
+        "决策分析中的 MECE 原则与排除法论证",
+        "法律诉讼中的排除合理怀疑结构",
+        "学术辩论与同行评审的钢人规范"
+      ],
+      "modern_applications_en": [
+        "MECE principle and proof-by-elimination in decision analysis",
+        "Beyond-reasonable-doubt structure in litigation",
+        "Steelmanning norms in academic debate and peer review"
+      ],
+      "related_modes": [
+        "M-ISN-002",
+        "M-ISN-005",
+        "M-ISN-010"
+      ]
+    },
+    {
+      "id": "M-ISN-010",
+      "name_zh": "百科体系综合法",
+      "name_en": "Encyclopedic Synthesis Method",
+      "mode_code": "M-ISN-010",
+      "category": "知识组织",
+      "domain_zh": "知识体系构建/跨学科整合",
+      "domain_en": "Knowledge System Building / Interdisciplinary Integration",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "把全部已知知识按统一原理组织为分级百科体系：《治疗论》以逻辑-物理-数学-形而上学四分组织哲学全貌，《医典》以'原理-药物-疾病-疗法'四分组织医学全貌。核心不是材料堆砌，而是'一张原理网'：每一学科的知识都被安放到共同的概念层级与推理规则之下，矛盾之处显式裁决（如亚里士多德与伽伦的分歧），空白之处显式标注（自言医书须随经验修订）。这使《医典》成为欧洲与伊斯兰世界五百年的标准医学教科书。",
+      "definition_en": "Organizing the totality of known knowledge into a graded encyclopedia under unified principles: the Shifa organizes philosophy in the fourfold logic-physics-mathematics-metaphysics; the Canon organizes medicine as 'principles-drugs-diseases-therapies.' The core is not material accumulation but 'a single web of principles': each discipline's knowledge is placed under shared conceptual hierarchies and inference rules, contradictions adjudicated explicitly (e.g., Aristotle vs. Galen), gaps flagged explicitly (his own note that medical texts must be revised as experience advances). This made the Canon the standard medical textbook of Europe and the Islamic world for five hundred years.",
+      "source_chapter": "《治疗论》总序、《医典》总纲",
+      "key_concepts": [
+        "统一原理网",
+        "知识分级",
+        "显式裁决矛盾",
+        "知识可修订性",
+        "跨文明综合"
+      ],
+      "process_zh": [
+        "确立跨学科的公共概念层（范畴、因果、定义规则）",
+        "按统一框架分级收纳各领域既有知识，显式标注来源与分歧",
+        "对权威间矛盾逐条裁决并给出裁决理由",
+        "标注体系边界与待修订之处，保留经验输入的更新通道"
+      ],
+      "process_en": [
+        "Fix a public conceptual layer spanning disciplines (categories, causation, definition rules)",
+        "File existing knowledge of each field into the unified graded framework, tagging sources and disputes",
+        "Adjudicate contradictions among authorities case by case with stated reasons",
+        "Mark the system's boundaries and revision points, keeping channels open for empirical updates"
+      ],
+      "key_quote_zh": "医学之事，随水土、气候、时岁而变——故此书之规则，须以新经验时时订正之。",
+      "key_quote_en": "The art of medicine changes with region, climate, and season—hence the rules of this book must be continually corrected by new experience.",
+      "representative_cases_zh": [
+        "《医典》综合希腊（伽伦）、波斯、印度医学并显式标注分歧",
+        "《治疗论》与《拯救论》《指要》面向不同读者的同一体系的分级重写"
+      ],
+      "modern_applications_zh": [
+        "知识图谱与本体驱动的学科整合",
+        "百科式知识库（如临床指南体系）的构建方法",
+        "跨学科综述写作的'统一原理+显式分歧'规范"
+      ],
+      "modern_applications_en": [
+        "Ontology-driven interdisciplinary integration in knowledge graphs",
+        "Methodology for encyclopedic knowledge bases (e.g., clinical guideline systems)",
+        "'Unified principles plus explicit disputes' norms for interdisciplinary review writing"
+      ],
+      "related_modes": [
+        "M-ISN-004",
+        "M-ISN-005",
+        "M-ISN-006"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,982 @@
+{
+  "schema_version": "v6",
+  "id": "H-WW-001",
+  "code": "WW",
+  "figure_name": "王维",
+  "figure_code": "WangWei",
+  "figure_pinyin": "Wáng Wéi",
+  "birth_year": "701",
+  "death_year": "761",
+  "era": "701-761 : 盛唐（开元状元—济州贬谪—张九龄提携—安史陷贼—辋川隐居—晚而弥笃）",
+  "era_en": "701-761 : High Tang (top graduate of the Kaiyuan era - demotion to Jizhou - patronage under Zhang Jiuling - captivity in the An Lushan rebellion - reclusion at Wangchuan - deepening Buddhist devotion in late years)",
+  "school": "山水田园诗派 / 南宗文人画之祖 / 禅宗（司状源于北宗神会，晚年兼融）",
+  "historical_significance": "王维（701-761），字摩诘，号摩诘居士，河东蒲州人，开元十九年状元。苏轼评其『诗中有画，画中有诗』——他是中国诗史上唯一把绘画的空间构成法系统性引入诗歌的诗人，也是水墨文人画的实际开创者（《历代名画记》尊为南宗之祖）。一生两度登朝两度贬谪，安史之乱陷贼受伪职、乱平几死，靠《凝碧池》诗与弟弟王缙削官赎罪得免；晚年半官半隐于辋川别业，与裴迪唱和成《辋川集》二十首。他的方法论——空境留白的负空间构图、物我两忘的无我观照、对仗即构图的空间思维、官隐双轨的入世出世并行、音乐性通感、以淡写浓的情感降饱和、日常物件的禅意聚焦、逆境敛迹的生存策略、诗画互译的媒介转换、半官半隐的结构性中庸——构成一个以『在极简的观照里安放整个世界』为核心的思想体系。李白是激情，杜甫是苦难，王维是安静：他不处理世界的冲突，而是示范冲突退潮之后，人如何与一朵辛夷花、一片白鹭、一轮山月长久相处。后代文人画、日本俳句与禅宗美学，全部溯源于此。",
+  "historical_significance_en": "Wang Wei (701-761), courtesy name Mojie, sobriquet Layman Mojie, born in Puzhou, Hedong, top graduate (zhuangyuan) of 731. Su Shi's verdict-'in his poetry there is painting, in his painting poetry'-marks him as the only poet in Chinese history who systematically imported the spatial composition methods of painting into verse, and as the actual founder of ink literati painting (honored by the 'Record of Famous Painters of All Ages' as patriarch of the Southern School). Twice at court, twice demoted; in the An Lushan rebellion he was captured and forced into a puppet office, near-executed when the rebellion collapsed, spared through his poem 'The Jade Pool' and his brother Wang Jin's surrender of office to redeem him; in late years he was half-official, half-recluse at the Wangchuan estate, matching poems with Pei Di into the twenty pieces of the 'Wangchuan Collection.' His methodology—the negative-space composition of the empty scene, the no-self contemplation in which object and observer dissolve, parallelism as spatial composition, the dual track of office and reclusion, musical synesthesia, emotional de-saturation by writing light where feeling is heavy, the Chan focus on ordinary objects, the survival strategy of trace-concealment in adversity, the medium translation between poem and painting, and the structural mean of half-office half-retreat—constitutes a system of thought with 'housing the whole world within a minimal act of attention' at its core. Li Bai is passion, Du Fu is suffering, Wang Wei is stillness: he does not process the world's conflicts; he demonstrates how, after the conflict ebbs, a person can live long with one magnolia, one egret, one mountain moon. Later literati painting, Japanese haiku, and Chan aesthetics all trace back to him.",
+  "unique_thinking": "把『不写』变成写的一部分：别人的诗用文字填满意义，他的诗用文字围出空白让读者自己进去住——『空山不见人，但闻人语响』，十条信息删掉九条，剩下的一条反而照得满山满谷。",
+  "unique_thinking_en": "Make 'not writing' part of the writing: where others fill the poem with meaning, his verse builds walls of words around an emptiness the reader is invited to inhabit—'empty mountain, no one seen; only echoes of voices'—nine of ten facts deleted, and the one remaining illuminates the entire valley.",
+  "civilization_zh": "中华文明（盛唐）",
+  "civilization_en": "Chinese civilization (High Tang)",
+  "roles_zh": [
+    "状元及第",
+    "太乐丞（初仕）",
+    "济州司仓参军（贬）",
+    "右拾遗",
+    "监察御史（出使凉州）",
+    "给事中",
+    "尚书右丞",
+    "陷贼受伪职（安史之乱）",
+    "辋川半隐居士"
+  ],
+  "roles_en": [
+    "Top Graduate of the Empire",
+    "Deputy Director of the Imperial Music Bureau (first post)",
+    "Granary Administrator of Jizhou (demoted)",
+    "Right Reminder",
+    "Investigating Censor (envoy to Liangzhou)",
+    "Vice Director of the Chancellery",
+    "Minister of the Right (Shangshu Youcheng)",
+    "Captive forced into puppet office (An Lushan rebellion)",
+    "Half-recluse of Wangchuan"
+  ],
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-WW-001",
+    "M-WW-002",
+    "M-WW-003",
+    "M-WW-004",
+    "M-WW-005",
+    "M-WW-006",
+    "M-WW-007",
+    "M-WW-008",
+    "M-WW-009",
+    "M-WW-010"
+  ],
+  "key_works": [
+    "《辋川集》二十首（与裴迪唱和）",
+    "《山居秋暝》",
+    "《鸟鸣涧》",
+    "《辛夷坞》",
+    "《终南山》",
+    "《使至塞上》",
+    "《相思》",
+    "《送元二使安西》（渭城曲）"
+  ],
+  "key_concepts": [
+    "诗中有画",
+    "空境留白",
+    "物我两忘",
+    "禅意",
+    "以淡写浓",
+    "官隐双轨",
+    "辋川别业"
+  ],
+  "cross_references": [
+    "H-LIB-001",
+    "H-DF-001",
+    "H-SU-001"
+  ],
+  "tags": [
+    "空境留白法",
+    "物我两忘观照法",
+    "对仗即构图法",
+    "官隐双轨法",
+    "音乐性通感法",
+    "以淡写浓法",
+    "日常物件禅意聚焦法",
+    "逆境敛迹法",
+    "诗画互译法",
+    "半官半隐中庸法"
+  ],
+  "modes": [
+    {
+      "id": "M-WW-001",
+      "mode_code": "M-WW-001",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "空境留白法",
+        "Empty-Scene-Negative-Space Method",
+        "表达方法/负空间构图"
+      ],
+      "name_en": [
+        "Empty-Scene-Negative-Space Method",
+        "Empty-Scene-Negative-Space Method",
+        "表达方法/负空间构图"
+      ],
+      "category": [
+        "空境留白法",
+        "Empty-Scene-Negative-Space Method",
+        "表达方法/负空间构图"
+      ],
+      "domain_zh": "用最少的实体信息围出最大的意义空白，让观者的想象进入留白处自行完成作品：『空山不见人，但闻人语响』——像水墨画的留白一样，文字的任务不是填满而是围出，删掉的信息不是丢失而是转交给读者",
+      "domain_en": "Use the minimum of concrete information to fence off the largest possible field of meaning, letting the viewer's imagination enter the blank space and complete the work there: 'empty mountain, no one seen; only echoes of voices'—like the reserved white of ink painting, the task of words is not to fill but to enclose; the deleted information is not lost but transferred to the reader",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《鹿柴》二十字给了一个完整的美学纲领：空山、人语、返景、青苔——四笔，山便深了。方法论内核有三：其一，负空间优先于正形——绘画构图的第一课是画面未画处与已画处共同产生意义，王维把这一课搬进诗：他写『不见人』而不是写人，写『但闻』而不写所见，感知通道的刻意封锁反而打开了想象的通道。其二，删减即授权——『空山不见人』删掉的是樵夫、山径、村落等全部社会信息，删掉的同时是把『这座山在你心里长成什么样』的绘制权交给读者；留白不是信息的缺席而是读者的在场。其三，以少照多——剩下的一条信息（人语响）被空山放大，如同暗室里的一盏灯；极简不是风格的吝啬而是放大器的调校。深意在于：表达力与信息量不成正比，与『未说出的东西的结构』成正比——十条信息删掉九条，必须保证剩下的一条恰好是能把九条照亮的构造。代价是：留白依赖读者的匹配度，训练不足的读者只看见『没什么可写的』；且留白不可预制成模板，同一手法在不同语境里需要重新计算删什么。现代对应物是极简主义设计、电影的画外空间（offscreen space）与产品文案的『不说破』美学。",
+      "definition_en": "The twenty characters of 'Deer Enclosure' give a complete aesthetic program: empty mountain, voices, returning light, green moss—four strokes, and the mountain grows deep. The method has three cores. First, negative space precedes the figure: the first lesson of pictorial composition is that the unpainted and the painted jointly produce meaning, and Wang Wei moved that lesson into poetry—he writes 'no one seen' rather than the person, 'only heard' rather than the seen; the deliberate blocking of one sense-channel opens the channel of imagination. Second, deletion is authorization: 'empty mountain, no one seen' deletes all social information—woodcutters, mountain paths, villages—and in deleting it hands the reader the brush: 'this mountain, grown to whatever shape in your mind.' Emptiness is not the absence of information but the presence of the reader. Third, the few illuminate the many: the single remaining datum (echoes of voices) is magnified by the empty mountain, like a lamp in a dark room; minimalism is not stylistic stinginess but the tuning of an amplifier. The deeper point: expressive power is not proportional to the quantity of information but to the structure of what is left unsaid—delete nine of ten facts, but ensure the one remaining is exactly the structure that lights the other nine. The cost: emptiness depends on reader calibration—the untrained reader sees only 'nothing to say'; and the blank cannot be pre-fabricated as a template; the same technique must recalculate what to delete in each new context. Modern analogues: minimalist design, offscreen space in cinema, and the 'never quite saying it' aesthetics of product copy.",
+      "source_chapter": "《鹿柴》；《辛夷坞》；张彦远《历代名画记》论『意在笔先』",
+      "key_concepts": [
+        "负空间",
+        "删减即授权",
+        "留白",
+        "感知通道封锁",
+        "以少照多"
+      ],
+      "key_quote_zh": "空山不见人，但闻人语响——删到只剩一笔，让那一笔照亮整座山。",
+      "key_quote_en": "Empty mountain, no one seen; only echoes of voices—delete down to a single stroke, and let that one stroke light the whole mountain.",
+      "process_zh": [
+        "先列全量信息：把场景的全部可用细节列出（人、径、声、光、植物……），这是删减的原料清单",
+        "选定唯一的『灯』：找出一条最能激发想象其余部分的感知证据（一缕声、一个返景），其余信息全部标记为将删",
+        "用文字围出空白：成稿时只写『灯』与它的边界（『不见人』『但闻』），边界句的功能是锁住留白不让它散架",
+        "读者测试：让未读过原场景的人复述他脑中出现的画面，若画面贫瘠则说明删多了或删错了位置，回头调整"
+      ],
+      "process_en": [
+        "List the full inventory: enumerate every available detail of the scene (people, paths, sound, light, plants...)—the raw list from which deletion proceeds",
+        "Choose the single 'lamp': find the one perceptual evidence (a sound, a returning light) that most powerfully ignites the rest of the imagination; mark everything else for deletion",
+        "Fence the blank with words: in the draft write only the lamp and its boundary ('no one seen,' 'only heard'); boundary lines exist to lock the emptiness in place so it does not collapse",
+        "Reader test: have someone who never saw the original scene describe the picture in their head; if it comes out barren, you deleted too much or in the wrong place—adjust and retest"
+      ],
+      "representative_cases_zh": [
+        "《鹿柴》：全诗只有一条正向信息（人语响）与一条反向信息（不见人），二十字让千年读者各自长出无数座空山",
+        "《辛夷坞》：『涧户寂无人，纷纷开且落』——花开花落的全过程只给『纷纷』二字，观看者被彻底删除，花因此获得自己的时间",
+        "水墨留白的绘画实践：作为南宗画祖，他在画论与创作中一以贯之——画雪不画雪，只画天地之白与孤舟之黑",
+        "反例警示：后世模拟者大量产出『枯、寂、空』字面的堆砌——留白的本质是删减计算而非词汇偏好，字面化的『空』恰恰把空白填死了"
+      ],
+      "representative_cases_en": [
+        "'Deer Enclosure': the whole poem holds one positive datum (echoes of voices) and one negative (no one seen); twenty characters, and a thousand years of readers have each grown their own countless empty mountains",
+        "'Magnolia Bank': 'by the stream-door, still, no one; blossoms opening, falling in drifts'—the whole cycle of bloom and fall compressed into 'in drifts'; the observer is deleted outright, and the flower thereby gets a time of its own",
+        "The practice of reserved white in ink painting: as patriarch of the Southern School he carried the principle through theory and work—painting snow by not painting snow, only the white of heaven and earth against the black of one lone boat",
+        "Counter-case: later imitators mass-produced literal piles of 'withered, lonely, empty'—the essence of the blank is deletion arithmetic, not vocabulary preference; a literal 'empty' fills in and kills the very emptiness"
+      ],
+      "modern_applications_zh": [
+        "产品设计：设置不完成的功能留白（可自定义字段、开放接口），让用户把自己写进产品",
+        "文案与品牌：广告不展示完整使用场景，只给一个诱发想象的关键物——想象补全的欲望比信息说服更强",
+        "界面设计：默认界面的负空间（留白率）直接决定高级感，删元素比加元素更难也更值钱",
+        "沟通训练：汇报只给结论与一条最锐的证据，把论证的展开留给提问者——听众自己推理出的结论不需要被说服"
+      ],
+      "modern_applications_en": [
+        "Product design: leave deliberately unfinished spaces (custom fields, open interfaces) and let users write themselves into the product",
+        "Copy and branding: show no complete usage scene in the ad—give one key object that triggers imagination; the desire to complete in imagination outpersuades information",
+        "Interface design: the negative space of a default screen (whitespace ratio) directly sets its perceived quality; deleting elements is harder and worth more than adding them",
+        "Communication training: report only the conclusion and one sharpest piece of evidence, leaving the argument's unfolding to the questioner—conclusions the audience reaches themselves need no persuasion"
+      ],
+      "related_modes": [
+        "M-WW-004",
+        "M-WW-006",
+        "M-SU-001",
+        "M-LIB-003"
+      ],
+      "representative_figures": [
+        "王维",
+        "八大山人",
+        "小津安二郎"
+      ]
+    },
+    {
+      "id": "M-WW-002",
+      "mode_code": "M-WW-002",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "物我两忘观照法",
+        "Object-Self-Dissolution Contemplation Method",
+        "认知方法/无我观察"
+      ],
+      "name_en": [
+        "Object-Self-Dissolution Contemplation Method",
+        "Object-Self-Dissolution Contemplation Method",
+        "认知方法/无我观察"
+      ],
+      "category": [
+        "物我两忘观照法",
+        "Object-Self-Dissolution Contemplation Method",
+        "认知方法/无我观察"
+      ],
+      "domain_zh": "观察时把观察者自己从画面中删除，让事物以其自身的时间与逻辑呈现：『涧户寂无人，纷纷开且落』——不评价、不拟人、不参与，物摆脱了『被人看』的义务，观看者摆脱了『必须反应』的义务",
+      "domain_en": "In observation, delete the observer from the picture and let things present themselves in their own time and logic: 'by the stream-door, still, no one; blossoms opening, falling in drifts'—no judgment, no personification, no participation; the thing is released from the duty of being seen, and the viewer from the duty of reacting",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《辛夷坞》是中国诗史上最彻底的一次观察者删除实验：花在无人处开落，诗不出现任何『我』的情绪反应——感动、惋惜、赞叹一概缺席。方法论内核有三：其一，删除反应性自我——常人见花开必生『美好』之念，见花落必生『凋零』之叹；『纷纷开且落』把这整套反应程序静默，花开与花落被等观，时间因此不被评判切断。其二，还物以自身时间——山中之花不以『被人看见』为其存在的完成，开落自有其节律；这一观照方式直接源自中观与禅的『不二』训练：不做主客切割，世界便不是待处理的对象堆。其三，空观不等于冷感——无人不等于无情，恰恰因为排除了自我的情绪噪音，物自身的丰盈（纷纷）才得以全幅呈现；这是『无我』而『大欢喜』的结构。深意在于：认知的最大干扰源是观察者自己——你的期待、身份、情绪反应在观测的同时污染观测；把自我降噪到接近零，对象的分辨率才升到最高。代价是：长期演练此法者容易被视为冷漠疏离，且它要求先有自我可忘——未经世事的『无我』只是没有观点，不是超越观点。现代对应物是正念观察、民族志的深描立场与摄影的『决定性瞬间』前的等待。",
+      "definition_en": "'Magnolia Bank' is the most thorough observer-deletion experiment in Chinese poetic history: flowers bloom and fall where no one is, and the poem registers no emotional reaction of any 'I'—being moved, regret, admiration all absent. The method has three cores. First, delete the reactive self: the ordinary mind meets blooming with 'how lovely' and falling with 'how sad'; 'opening, falling in drifts' silences that whole reaction program, blooming and falling held in equal view, so time is not severed by judgment. Second, restore to things their own time: the mountain flower does not need being-seen to complete its existence; its rhythm is its own; this mode of attention descends directly from Madhyamaka and Chan 'nonduality' training—with no subject-object cut, the world stops being a pile of objects awaiting processing. Third, empty observation is not coldness: 'no one' does not mean 'no feeling'; precisely because the ego's emotional noise is excluded, the thing's own plenitude (drifts upon drifts) can present itself in full—this is the structure of 'no-self, great joy.' The deeper point: the greatest source of cognitive interference is the observer—your expectations, identity, and emotional reactions contaminate the observation in the very act of observing; only by denoising the self toward zero does the object's resolution rise to maximum. The cost: long practitioners are easily read as aloof; and forgetting the self presupposes having one—an 'unselfed' view that has never passed through the world is merely opinionless, not beyond opinion. Modern analogues: mindfulness observation, the deep-description stance of ethnography, and the waiting before the photographic 'decisive moment.'",
+      "source_chapter": "《辛夷坞》；《坛经》『不是风动，不是幡动』公案传统；王维《能禅师碑》",
+      "key_concepts": [
+        "无我观照",
+        "反应程序静默",
+        "物自有其时",
+        "不二",
+        "无我大欢喜"
+      ],
+      "key_quote_zh": "纷纷开且落——把『我』从画面里删掉，花才第一次按自己的时间开落。",
+      "key_quote_en": "Opening, falling in drifts—only when the 'I' is deleted from the picture does the flower, for the first time, bloom and fall on its own time.",
+      "process_zh": [
+        "悬置反应：面对现象时先按住第一反应（评价、感慨、行动计划），允许事物多存在三秒",
+        "删除叙述中的『我』：书写或描述时刻意不使用评价性词汇与自我指涉，检查是否每句都有『我觉得』在暗中值班",
+        "给物完整时间：记录事物自身的节律（开、落、涨、退），不以人的时间表裁剪它的过程",
+        "回检情绪残留：结束后自问是否有未说出却被写进措辞的情绪（怜惜、赞叹），有则重写，直到物只作为物在场"
+      ],
+      "process_en": [
+        "Suspend reaction: when facing a phenomenon, hold down the first response (evaluation, sigh, plan of action) and let the thing exist three seconds longer",
+        "Delete the 'I' from narration: in writing or describing, deliberately avoid evaluative vocabulary and self-reference; audit whether an 'I feel' is secretly on duty in every sentence",
+        "Give the thing its full time: record the thing's own rhythm (blooming, falling, rising, ebbing) and do not crop its process to a human schedule",
+        "Audit emotional residue: afterward ask whether unstated emotion (pity, wonder) leaked into the wording; if so rewrite until the thing is present purely as thing"
+      ],
+      "representative_cases_zh": [
+        "《辛夷坞》：花开花落全部过程无一句主观反应，被后世视为『禅诗绝唱』——观照本身成为修行",
+        "《鸟鸣涧》：『人闲桂花落』——桂花落本是不可见的小事件，唯观察者静到极致才可注册，观照的分辨率与心的安静度直接挂钩",
+        "《能禅师碑》：他为六祖惠能撰碑，以文字为禅宗作史——理论训练与文学实践同源互证",
+        "反例警示：机械模仿者写出的『无我』实为情感贫乏——无我是过滤掉自我噪音，不是没有感受能力；未经深情者的冷眼只是迟钝"
+      ],
+      "representative_cases_en": [
+        "'Magnolia Bank': the whole cycle of bloom and fall without one subjective line—later ages read it as the 'last word of Chan poetry'; the contemplation itself becomes practice",
+        "'Bird-Song Stream': 'at leisure, I hear osmanthus fall'—falling osmanthus is a sub-visible event, registered only by an observer stilled to the extreme; the resolution of attention is directly coupled to the stillness of mind",
+        "The 'Stele for the Sixth Patriarch Huineng': he wrote the stele for Huineng, chronicling Chan in words—his theoretical training and literary practice are same-sourced and mutually verifying",
+        "Counter-case: mechanical imitators produce an 'unselfed' verse that is mere emotional poverty—no-self filters out self-noise; it is not the loss of the capacity to feel, and a cold eye that has never known deep feeling is only dullness"
+      ],
+      "modern_applications_zh": [
+        "用户研究：观察用户使用产品时先悬置『他应该这样用』的预设，记录其真实节律而非期望节律",
+        "科学写作：结果部分只陈述观测，把解释性情绪（惊讶、遗憾）留给讨论部分——数据因此更可信",
+        "管理决策：重大会议前做十分钟静默观察（只记录不反应），避免第一反应绑架议程",
+        "个人训练：每日十分钟无评价观察练习（看一个自然过程全程不点赞不叹息），重建感知分辨率"
+      ],
+      "modern_applications_en": [
+        "User research: when observing product use, suspend the 'they should use it this way' preset; record the user's actual rhythm, not the expected one",
+        "Scientific writing: the results section states observations only, leaving interpretive emotion (surprise, regret) to the discussion—data thereby becomes more credible",
+        "Management decisions: ten minutes of silent observation before a major meeting (record only, react to nothing), so the first reaction cannot hijack the agenda",
+        "Personal training: ten minutes daily of non-evaluative observation (watch a natural process end to end without liking or sighing) to rebuild perceptual resolution"
+      ],
+      "related_modes": [
+        "M-WW-001",
+        "M-WW-003",
+        "M-SU-005",
+        "M-DF-006"
+      ],
+      "representative_figures": [
+        "王维",
+        "惠能",
+        "松尾芭蕉"
+      ]
+    },
+    {
+      "id": "M-WW-003",
+      "mode_code": "M-WW-003",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "对仗即构图法",
+        "Parallelism-as-Composition Method",
+        "表达方法/结构思维"
+      ],
+      "name_en": [
+        "Parallelism-as-Composition Method",
+        "Parallelism-as-Composition Method",
+        "表达方法/结构思维"
+      ],
+      "category": [
+        "对仗即构图法",
+        "Parallelism-as-Composition Method",
+        "表达方法/结构思维"
+      ],
+      "domain_zh": "把诗歌对仗当作绘画构图来经营：『大漠孤烟直，长河落日圆』——一横一纵、一孤一浑，两个对位单元在语言平面上摆出空间关系，句法对称直接生成画面均衡",
+      "domain_en": "Treat poetic parallelism as pictorial composition: 'over the vast desert, a lone smoke rises straight; along the long river, the setting sun rounds'—one horizontal one vertical, one solitary one plump; two counterposed units stage a spatial relation on the plane of language, and syntactic symmetry directly generates pictorial balance",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "苏轼以『诗中有画』四字点破王维的方法秘密：他的对仗不是修辞装饰而是构图操作。方法论内核有三：其一，对位单元的力学设计——『大漠孤烟直』给出一条垂直线，『长河落日圆』给出一个水平圆；线的方向、体量、虚实都是构图变量，与画家的经营位置完全同构。其二，对称中的不对称——工整对仗提供均衡骨架，但真正的张力来自对称框架内的差异（孤烟的『直』对落日的『圆』，大漠的横对长河的曲）；完全对称是死构图，王维永远在对称里埋一处偏移。其三，色彩与光的取景——『白云回望合，青霭入看无』：颜色的处理不是形容而是取景决策（青霭在远看与近看之间改变存在状态，这是绘画里空气透视法的诗句版）。深意在于：任何平面媒介（语言、图表、界面）都存在隐形的构图学——把句法安排当作空间安排来思考，表达的『好看』就从玄学变成了可操作的几何。代价是：构图思维的极致是对偶依赖，晚年应制诗里对仗沦为熟练的自动写作，张力消失只剩骨架。现代对应物是版式设计的网格系统、数据可视化的视觉编码与摄影的构图法则。",
+      "definition_en": "Su Shi's four characters, 'in his poetry there is painting,' expose the secret of Wang Wei's method: his parallelism is not rhetorical decoration but compositional operation. The method has three cores. First, mechanical design of counterposed units: 'a lone smoke rises straight' sets one vertical line, 'the setting sun rounds' one horizontal circle; direction, mass, and void-versus-solid of each line are compositional variables, fully isomorphic with a painter's positioning of elements. Second, asymmetry inside symmetry: strict parallelism supplies the balancing skeleton, but true tension comes from difference inside the symmetric frame ('straight' of the lone smoke against 'round' of the setting sun, the horizontal of the desert against the curve of the river); perfect symmetry is dead composition—Wang Wei always buries one offset inside the symmetry. Third, color and light as framing decisions: 'white clouds close again behind as I look back; green haze vanishes as I look close'—color here is not adjective but framing choice (the haze changes its state of existence between far view and near view: the verse form of aerial perspective in painting). The deeper point: every planar medium—language, charts, interfaces—has an invisible compositional science; think syntax as spatial arrangement and expressive 'beauty' stops being metaphysics and becomes operable geometry. The cost: at its extreme, compositional thinking breeds dependence on the couplet; in late commissioned verse parallelism degrades into fluent automatic writing, tension gone, only the skeleton left. Modern analogues: grid systems in layout design, visual encoding in data visualization, and the rules of photographic composition.",
+      "source_chapter": "《使至塞上》；《终南山》；苏轼《书摩诘蓝田烟雨图》",
+      "key_concepts": [
+        "对位单元",
+        "构图变量",
+        "对称中的偏移",
+        "取景决策",
+        "经营位置"
+      ],
+      "key_quote_zh": "大漠孤烟直，长河落日圆——对仗不是文字游戏，是把线条和体量摆进句子里。",
+      "key_quote_en": "Over the vast desert a lone smoke rises straight; along the long river the setting sun rounds—parallelism is not wordplay; it is placing lines and masses into the sentence.",
+      "process_zh": [
+        "把内容翻译为构图要素：先问这段表达里的『线、体、色、虚实』各是什么，而不是先想措辞",
+        "设计对位单元：为画面选两个（或四个）互相均衡的单元，检查方向、体量、虚实是否形成张力而非复制",
+        "在对称框架内埋偏移：两联工整后，故意让其中一处量词、色彩或视角错开一格，防止死对称",
+        "退远审稿：成稿后眯眼看整体（或读出声听节奏），检查均衡是否成立、偏移是否过火——构图问题用构图手段修"
+      ],
+      "process_en": [
+        "Translate content into compositional elements: first ask what the 'lines, masses, colors, void-solid' of this passage are, before thinking of any wording",
+        "Design counterposed units: choose two (or four) units that balance each other; check that direction, mass, and void-solid form tension, not duplication",
+        "Bury an offset inside the symmetric frame: after two strict couplets, deliberately stagger one quantifier, color, or viewpoint by one notch, to prevent dead symmetry",
+        "Step back to review: squint at the whole (or read aloud for rhythm); check whether balance holds and the offset has not gone too far—fix compositional problems with compositional means"
+      ],
+      "representative_cases_zh": [
+        "《使至塞上》：『大漠孤烟直，长河落日圆』被历代画论称为『不可复现的构图』——十个字同时是一幅塞外全景的取景方案",
+        "《终南山》：『白云回望合，青霭入看无』——用远/近两次观看的对仗制造纵深，等于在二维诗行里做了空气透视",
+        "《山居秋暝》：『明月松间照，清泉石上流』——上一联是静态光源，下一联是动态声源，光/声对位完成夜间场景的构图",
+        "反例警示：应制诗中的对仗表演——形式均衡完美而空间感为零，证明对仗脱离构图要素后只是音节杂技"
+      ],
+      "representative_cases_en": [
+        "'On Mission to the Frontier': 'a lone smoke rises straight... the setting sun rounds'—generations of painting theory have called it 'an unrepeatable composition'; ten characters are at once a framing plan for a panoramic frontier scene",
+        "'Mount Zhongnan': 'white clouds close again behind as I look back; green haze vanishes as I look close'—a parallelism of two views, far and near, manufactures depth: aerial perspective performed inside two dimensions of verse",
+        "'Autumn Dusk in the Mountains': 'bright moon shines through the pines; clear spring flows over the stones'—the first line a static light source, the second a dynamic sound source; a light/sound counterpoint completes the composition of a night scene",
+        "Counter-case: parallelism as court-poetry performance—formal balance perfect, spatial sense zero; proof that parallelism divorced from compositional elements is mere syllabic acrobatics"
+      ],
+      "modern_applications_zh": [
+        "演示文稿设计：每页先定视觉对位（一图一文的均衡、一横一纵的排布），再填文字",
+        "数据可视化：为对比数据选择构图对位（直线对曲线、大色块对细线），让差异被空间关系直接说出",
+        "文章结构：段落间的对仗式排布（案例对案例、反例对反例）给长文提供可感知的均衡骨架",
+        "摄影训练：拍前先找画面里的两条主轴线与其偏移点，把王维的对称-偏移法则当作取景器纪律"
+      ],
+      "modern_applications_en": [
+        "Slide design: fix each page's visual counterpoint first (one-image-one-text balance, one horizontal one vertical), then fill in words",
+        "Data visualization: give contrasting data compositional counterpoint (straight against curved, large block against thin line), letting difference be spoken by spatial relation",
+        "Essay structure: couplet-style arrangement of sections (case against case, counterexample against counterexample) gives long texts a perceivable balancing skeleton",
+        "Photography training: before shooting, find the frame's two main axes and their offset point—Wang Wei's symmetry-with-offset as viewfinder discipline"
+      ],
+      "related_modes": [
+        "M-WW-001",
+        "M-WW-005",
+        "M-SU-008",
+        "M-DF-007"
+      ],
+      "representative_figures": [
+        "王维",
+        "郭熙",
+        "保罗·塞尚"
+      ]
+    },
+    {
+      "id": "M-WW-004",
+      "mode_code": "M-WW-004",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "官隐双轨法",
+        "Dual-Track-of-Office-and-Reclusion Method",
+        "人生战略/并行结构"
+      ],
+      "name_en": [
+        "Dual-Track-of-Office-and-Reclusion Method",
+        "Dual-Track-of-Office-and-Reclusion Method",
+        "人生战略/并行结构"
+      ],
+      "category": [
+        "官隐双轨法",
+        "Dual-Track-of-Office-and-Reclusion Method",
+        "人生战略/并行结构"
+      ],
+      "domain_zh": "不做『做官』与『归隐』的二选一，而是让两条轨道长期并行、互为缓冲：半官半隐——俸禄供养艺术生产的物质基础，隐居供养精神的独立与再生产，任一轨道的震荡都不至于全盘倾覆",
+      "domain_en": "Refuse the either-or between 'serving in office' and 'withdrawing to reclusion'; run both tracks in long parallel as mutual buffers: half-official, half-recluse—the salary funds the material base of artistic production, the reclusion funds spiritual independence and reproduction, and a shock to either track never overturns the whole",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "王维晚年『退朝之后，焚香独坐，以禅诵为事』——白天是尚书右丞，散朝后是辋川居士；他既不像陶渊明那样彻底辞官（因此终生不愁生计），也不像寻常官僚那样被职务吞没（因此保住了禅、诗、画）。方法论内核有三：其一，物质轨道与精神轨道的分工——官职提供俸禄、别业、社会身份等生产资料，隐居提供创作必需的无事之心；两条轨道各自供给对方最稀缺的资源。其二，缓冲带设计——半官半隐意味着他在任何一轨受挫时都有另一轨接住：张九龄倒台他失势，但辋川还在；陷贼受伪职几乎杀头，但精神世界从未被占领。其三，双轨不是骑墙——他的隐居不是对政治的表演性抗议，官职也不是对理想的中途妥协；两轨各自认真运行，并行本身就是立场：人可以在体制内拥有一颗体制外的完整心灵。深意在于：人生的抗脆弱性来自结构而非意志——单轨人生（全官或全隐）把全部存在押在单一系统上，双轨结构使任一系统的崩溃都只是局部损失。代价是：双轨的切换成本真实存在，半官半隐者常被两界同时视为不够忠诚（朝廷疑其怠，山林讥其俗）。现代对应物是主业+副业的组合式职业、学术界的『半.admin半研究』与 FIRE 运动的半退休设计。",
+      "definition_en": "In late years Wang Wei 'after retiring from court sat alone burning incense, taking Chan recitation as his occupation'—by day Minister of the Right, after court the Layman of Wangchuan; unlike Tao Yuanming he never resigned outright (and so never worried for his livelihood), and unlike the ordinary official he was never swallowed by his post (and so preserved Chan, poetry, and painting). The method has three cores. First, division of labor between the material and the spiritual track: office supplies salary, estate, and social standing—the means of production—while reclusion supplies the unoccupied mind that creation requires; each track supplies the other's scarcest resource. Second, buffer design: half-office half-recluse means that when one track fails, the other catches him—when Zhang Jiuling fell, Wang Wei lost standing but Wangchuan remained; when captivity and the puppet office nearly cost him his head, his inner world was never occupied. Third, the dual track is not fence-sitting: his reclusion was no performative protest against politics, and his office no mid-way compromise of his ideals; both tracks run in earnest, and the parallelism itself is the stance—one can possess, inside the system, a complete mind that belongs outside it. The deeper point: life's antifragility comes from structure, not willpower—a single-track life (all office or all retreat) stakes the whole existence on one system; the dual-track structure makes the collapse of either a local loss only. The cost: switching costs between tracks are real, and the half-official half-recluse is typically judged disloyal by both worlds at once (court suspects his slackness, the mountains mock his worldliness). Modern analogues: portfolio careers of main job plus side practice, academia's half-administration half-research, and the semi-retirement design of the FIRE movement.",
+      "source_chapter": "《酬张少府》（『晚年唯好静，万事不关心』）；《请回改为僧疏》；《旧唐书·王维传》",
+      "key_concepts": [
+        "双轨并行",
+        "物质-精神分工",
+        "缓冲带",
+        "半官半隐",
+        "体制内完整心灵"
+      ],
+      "key_quote_zh": "晚年唯好静，万事不关心——白天把官做掉，散朝把自己收回来，两条轨道谁也不没收谁。",
+      "key_quote_en": "In late years I love only stillness, indifferent to the ten thousand affairs—do the office by day, retrieve yourself after court; neither track ever confiscates the other.",
+      "process_zh": [
+        "盘点双轨资源：列出体制轨道能供给你什么（收入、平台、身份），与自留轨道能供给什么（独立、再生产、心理恢复），确认互补而非重复",
+        "设定切换仪式：为两轨设计清晰的进出仪式（时间边界、空间边界、动作边界），防止体制的情绪溢进自留时间",
+        "让两轨互相供给：用轨道一的资源喂养轨道二的生产（俸禄买纸笔、平台养观察），用轨道二的产出反哺轨道一的质量",
+        "年度抗脆弱审计：检查是否正在退化成单轨（加班吞掉自留地，或自留地荒废导致单点依赖），出现即结构调整"
+      ],
+      "process_en": [
+        "Inventory dual-track resources: list what the institutional track supplies you (income, platform, standing) and what the self-kept track supplies (independence, reproduction, psychological recovery); confirm complementarity, not duplication",
+        "Design switching rituals: give the two tracks clear entry/exit rituals (time boundary, space boundary, action boundary) so the institution's emotional spillover cannot leak into self-kept time",
+        "Make the tracks feed each other: use track one's resources to fund track two's production (salary buys paper and brushes, platform feeds observation), and track two's output to raise track one's quality",
+        "Annual antifragility audit: check whether you are degrading into a single track (overtime devouring the self-kept plot, or a derelict plot forcing single-point dependence); adjust structure at the first sign"
+      ],
+      "representative_cases_zh": [
+        "辋川别业经营：宋之问旧业被他买下改造成诗画生产基地——官俸购买的空间直接转化为创作资产",
+        "陷贼后的自我保全：伪职危机中靠《凝碧池》诗自证心迹、靠王缙削官赎命——双轨积累的社会资本在单点危机时全部兑付",
+        "《酬张少府》的轨道宣言：『晚年唯好静，万事不关心』写于仍任给事中期间——静不是退休而是并行轨道的日常",
+        "反例警示：同代卢象彻底归隐后贫困潦倒、李白晚年入永王幕府单轨押注身陷囹圄——单轨者的崩溃对照出双轨结构的保险价值"
+      ],
+      "representative_cases_en": [
+        "Operating the Wangchuan estate: he bought Song Zhiwen's old property and converted it into a production base for poetry and painting—space bought with official salary directly became a creative asset",
+        "Self-preservation after captivity: in the puppet-office crisis the 'Jade Pool' poem testified to his loyalty and his brother Wang Jin surrendered office to redeem his life—social capital accumulated on both tracks was cashed in at a single-point crisis",
+        "The dual-track manifesto of 'Reply to Petty Official Zhang': 'in late years I love only stillness' was written while still serving as Vice Director of the Chancellery—the stillness is not retirement but the daily operation of a parallel track",
+        "Counter-case: his contemporary Lu Xiang, withdrawing completely, fell into destitution; Li Bai, staking a single track on Prince Yong's staff in old age, ended in prison—the collapse of single-trackers throws the insurance value of the dual structure into relief"
+      ],
+      "modern_applications_zh": [
+        "职业设计：主业供现金流与人脉，副业/自留地供不可被雇佣收编的核心资产，两者互补而不重叠",
+        "薪酬谈判：不追求单一高薪职位，而追求『高保障底薪+高自由时间』的组合结构",
+        "学术生涯：行政岗位与研究时间双轨并行，用行政换资源、用研究保身份",
+        "退休规划：不做『全退/全不休』的二选一，设计半退休的多年过渡轨道，任一收入来源中断不至断崖"
+      ],
+      "modern_applications_en": [
+        "Career design: the main job supplies cash flow and network; the side practice supplies the core asset that cannot be annexed by an employer—complementary, not overlapping",
+        "Salary negotiation: seek not a single high-paying post but the combined structure of 'well-secured base pay plus well-secured free time'",
+        "Academic career: run administration and research as parallel tracks—trade administration for resources, keep research for identity",
+        "Retirement planning: refuse the either-or of full retirement or none; design a multi-year semi-retirement glide path so no single income failure is a cliff"
+      ],
+      "related_modes": [
+        "M-WW-010",
+        "M-WW-008",
+        "M-SU-003",
+        "M-SU-009"
+      ],
+      "representative_figures": [
+        "王维",
+        "陶渊明",
+        "查尔斯·汉迪"
+      ]
+    },
+    {
+      "id": "M-WW-005",
+      "mode_code": "M-WW-005",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "音乐性通感法",
+        "Musical-Synesthesia Method",
+        "表达方法/跨感官转写"
+      ],
+      "name_en": [
+        "Musical-Synesthesia Method",
+        "Musical-Synesthesia Method",
+        "表达方法/跨感官转写"
+      ],
+      "category": [
+        "音乐性通感法",
+        "Musical-Synesthesia Method",
+        "表达方法/跨感官转写"
+      ],
+      "domain_zh": "把一个感官通道的证据转写进另一个感官通道，用交叉感知提升表达分辨率：『月出惊山鸟』是视觉事件被转写为惊悸的心理声学，『泉声咽危石』是听觉被赋予物理姿态——他是音乐家写诗，耳朵始终在线",
+      "domain_en": "Transcribe evidence from one sense-channel into another, raising expressive resolution through cross-sense rendering: 'the moon rises and startles the mountain birds' is a visual event transcribed into the psychoacoustics of a startle; 'the spring's voice sobs against the perilous rocks' gives hearing a physical posture—he was a musician writing poetry, and the ear stayed online",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "王维精通音律（任太乐丞即因音乐才能），他的诗因此有一个被多数诗人忽略的维度：声音的构图。方法论内核有三：其一，跨通道转写——『月出惊山鸟，时鸣春涧中』：月出是纯视觉事件，『惊』字把它转写为听觉-心理事件（鸟的惊叫暗示月光的突然）；感官之间的翻译制造了单一通道无法达到的立体感。其二，声音的空间化——『泉声咽危石，日色冷青松』：泉声被『咽』赋予喉部的形状与受阻的姿态，声音有了体积和位置；这是他在音律训练里获得的声场直觉。其三，静的声学定义——『鸟鸣山更幽』式的悖论（王籍句，王维一脉相承）：静不是无声，而是被一条精确的声线勾勒出来的负空间；他写静从不写『静』字，而是放一根极细的声音探针进去。深意在于：每个感官通道都有别的通道无法到达的信息——只做单一通道的记录者，必然丢失对象的一半存在；通感不是修辞炫技而是多传感器融合。代价是：通感依赖真实的感官训练（他是真乐师），词汇层面的模仿只会产出『甜腻的比喻』。现代对应物是声音设计（sound design）、数据可视化中的多通道编码与『通感』型品牌体验设计。",
+      "definition_en": "Wang Wei mastered music (his first post, Deputy Director of the Imperial Music Bureau, was won by musical talent), and his poetry therefore carries a dimension most poets ignore: the composition of sound. The method has three cores. First, cross-channel transcription: 'the moon rises and startles the mountain birds, and now and then they cry in the spring ravine'—the moonrise is a purely visual event, and the single word 'startles' transcribes it into an auditory-psychological one (the birds' cries imply the suddenness of moonlight); translation between the senses produces a solidity no single channel reaches. Second, the spatialization of sound: 'the spring's voice sobs against the perilous rocks, the sunlight chills the green pines'—the spring's voice is given the shape of a throat and the posture of obstruction by 'sobs'; sound acquires volume and location, a soundfield intuition earned in musical training. Third, the acoustic definition of silence: in the paradox of 'a bird cries and the mountain grows more secluded' (Wang Ji's line, in Wang Wei's direct lineage)—silence is not the absence of sound but a negative space delineated by one precise sonic line; he never writes the word 'quiet,' he lowers an extremely thin sound-probe into the scene. The deeper point: each sense-channel holds information no other channel can reach—a single-channel recorder necessarily loses half the object's existence; synesthesia is not rhetorical showing-off but multi-sensor fusion. The cost: synesthesia depends on real sensory training (he was a real musician); imitation at the vocabulary level yields only 'cloying metaphor.' Modern analogues: sound design, multichannel encoding in data visualization, and synesthetic brand-experience design.",
+      "source_chapter": "《鸟鸣涧》；《过香积寺》；《旧唐书》载其『音律之妙』与太乐丞任",
+      "key_concepts": [
+        "跨通道转写",
+        "声音空间化",
+        "静的负空间",
+        "多传感器融合",
+        "声场直觉"
+      ],
+      "key_quote_zh": "月出惊山鸟——让视觉证据发出声音，一个字完成两个感官之间的翻译。",
+      "key_quote_en": "The moon rises and startles the mountain birds—make visual evidence sound out; one word completes a translation between two senses.",
+      "process_zh": [
+        "盘点感官通道：面对对象先问它在视觉、听觉、触觉、动觉上各留下什么证据，找到最被忽略的那个通道",
+        "选定转写方向：把最弱通道的证据转写进最强通道（月光→惊叫，泉声→咽），转写点选在两个通道的共通属性上（突然性、受阻感）",
+        "只留一个转写点：一首短作内通感不超过一处——多通道叠加会互相抵消，单点转写才产生立体感",
+        "回听校验：把成稿读出声，检查转写是否『听得见』——凡需要解释才能成立的通感即删除重写"
+      ],
+      "process_en": [
+        "Inventory the sense-channels: before anything, ask what evidence the object leaves in sight, hearing, touch, kinesthesia—and find the most neglected channel",
+        "Choose the transcription direction: render the weakest channel's evidence into the strongest (moonlight into a startle-cry, spring sound into a sob); place the transposition on the property shared by both channels (suddenness, obstruction)",
+        "Keep only one transposition point: no more than one synesthetic turn in a short piece—stacked channels cancel each other; a single point of transcription is what produces solidity",
+        "Read aloud to verify: sound the draft out and check that the transcription can be 'heard'; any synesthesia that needs explanation to work gets deleted and rewritten"
+      ],
+      "representative_cases_zh": [
+        "《鸟鸣涧》：『月出惊山鸟』——视觉突变被一只鸟的叫声注册，静夜的声学结构一笔完成",
+        "《过香积寺》：『泉声咽危石，日色冷青松』——声音被赋予受阻的喉形，光线被赋予温度的降低，两句完成一次全感官调色",
+        "太乐丞的职业训练：他因伶人舞黄狮子事贬济州——官场事故背后是他真实存在的音乐专长，诗中声场直觉的来源",
+        "反例警示：后世『通感修辞』泛滥成甜腻比喻（『甜美的钟声』）——无感官训练基础的通感只是词汇交换，不是通道翻译"
+      ],
+      "representative_cases_en": [
+        "'Bird-Song Stream': 'the moon rises and startles the mountain birds'—a sudden visual event is registered by a bird's cry; the acoustic structure of a still night completed in one stroke",
+        "'Passing Xiangji Temple': 'the spring's voice sobs against the perilous rocks, the sunlight chills the green pines'—sound given a throat's obstructed shape, light given a lowered temperature; two lines complete a full-sense color-grading",
+        "Training at the Music Bureau: he was demoted to Jizhou after performers danced a yellow-lion piece forbidden to his rank—behind the career accident stands his real musical expertise, the source of the soundfield intuition in his verse",
+        "Counter-case: later 'synesthetic rhetoric' degenerating into cloying metaphor ('sweet tolling of bells')—synesthesia without sensory training is mere vocabulary exchange, not channel translation"
+      ],
+      "modern_applications_zh": [
+        "声音设计：为产品/影片配置跨通道提示（视觉事件配声音预告、听觉事件配视觉回显），提升沉浸分辨率",
+        "数据可视化：同一数据的多通道编码（色彩+长度+位置），让跨通道冗余提高识别准确率",
+        "写作训练：描写一个场景时刻意从最不占优的感官通道取证据，强迫感知系统升级",
+        "体验设计：品牌空间里让气味、声音、材质讲述同一件事——跨感官一致性即高级感的来源"
+      ],
+      "modern_applications_en": [
+        "Sound design: give products and films cross-channel cues (a sound foreshadowing a visual event, a visual echo of a sound) to raise immersive resolution",
+        "Data visualization: multichannel encoding of the same datum (color + length + position); cross-channel redundancy raises recognition accuracy",
+        "Writing training: when describing a scene, deliberately take evidence from your least dominant sense-channel, forcing the perceptual system to upgrade",
+        "Experience design: in a brand space let smell, sound, and material tell the same story—cross-sense consistency is where perceived quality comes from"
+      ],
+      "related_modes": [
+        "M-WW-003",
+        "M-WW-001",
+        "M-LIB-004",
+        "M-SU-008"
+      ],
+      "representative_figures": [
+        "王维",
+        "德彪西",
+        "沃尔特·默奇"
+      ]
+    },
+    {
+      "id": "M-WW-006",
+      "mode_code": "M-WW-006",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "以淡写浓法",
+        "Writing-Heavy-With-Light Method",
+        "情感方法/降饱和表达"
+      ],
+      "name_en": [
+        "Writing-Heavy-With-Light Method",
+        "Writing-Heavy-With-Light Method",
+        "情感方法/降饱和表达"
+      ],
+      "category": [
+        "以淡写浓法",
+        "Writing-Heavy-With-Light Method",
+        "情感方法/降饱和表达"
+      ],
+      "domain_zh": "在最重的情感处用最淡的措辞：『劝君更尽一杯酒，西出阳关无故人』——送别之痛不写一个痛字，全部压进『更尽一杯』的动作里；情感浓度与词汇浓度成反比，降饱和反而加深感染",
+      "domain_en": "Use the lightest wording at the emotional heaviest point: 'I urge you to drink one more cup; west of the Yang Pass you will meet no old friends'—the pain of parting written without one pain-word, all of it pressed into the small act of 'one more cup'; emotional density inversely proportional to lexical density, de-saturation deepens rather than weakens the感染",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "《送元二使安西》被谱成《阳关三叠》传唱千年，其力量恰在克制：整首诗没有一个情绪形容词。方法论内核有三：其一，情感载荷转移——把情绪从形容词（直接命名）卸载到动作与物象（间接承载）：『更尽一杯酒』里『更』字是全部不舍的容器，一个字完成千言。其二，降饱和的放大机制——读者对直陈情绪会产生阈值疲劳（说『悲痛』读者无感），而克制的留白迫使读者自行补全情感，补全的情感永远比被告知的更痛。其三，物象的情感压强计算——『西出阳关无故人』：地理事实（再无故人）本身不带情绪词，但它的压强等于全部离愁；选这个事实而非那句感叹，就是选择让事实自己说话。深意在于：情感的传达效率与措辞的克制程度正相关——因为最强的情感恰恰是说不出的那部分，表达的职责是给『说不出』留出精确的位置。代价是：降饱和需要读者有基本感受力，且过度的克制会被误读为冷淡；浓与淡的选择取决于读者的情感词汇量。现代对应物是极简新闻写作（只给事实的良知力量）、海明威冰山理论与日本物哀美学。",
+      "definition_en": "'Seeing Yuan the Second Off on a Mission to Anxi,' set to music as the 'Three Refrains of Yang Pass' and sung for a thousand years, draws its power precisely from restraint: not one emotional adjective in the poem. The method has three cores. First, transposition of emotional load: unload feeling from adjectives (direct naming) onto actions and objects (indirect bearing)—in 'one more cup of wine' the single word 'more' is the vessel of the whole reluctance; one character does the work of a thousand. Second, the amplification mechanism of de-saturation: direct statements of emotion threshold-fatigue the reader ('grief-stricken' registers nothing), while restraint's blank forces readers to complete the feeling themselves—and the feeling they complete always hurts more than the feeling they are told. Third, calculating the emotional pressure of objects: 'west of the Yang Pass you will meet no old friends'—a geographic fact carrying no emotion-word at all, yet its pressure equals the whole burden of parting; to choose this fact rather than that exclamation is to choose to let the fact speak. The deeper point: transmission efficiency of feeling is positively correlated with restraint of wording—because the strongest emotion is precisely the part that cannot be said, and expression's duty is to reserve an exact place for the unsayable. The cost: de-saturation requires readers with basic receptivity, and excessive restraint is misread as coldness; the choice of heavy or light depends on the reader's emotional vocabulary. Modern analogues: minimalist journalism (the ethical power of giving only facts), the Hemingway iceberg theory, and the Japanese aesthetic of mono no aware.",
+      "source_chapter": "《送元二使安西》；《相思》（红豆）；《杂诗》（『君自故乡来』）",
+      "key_concepts": [
+        "情感载荷转移",
+        "降饱和",
+        "动作承载",
+        "物象压强",
+        "留白补全"
+      ],
+      "key_quote_zh": "劝君更尽一杯酒——痛到一个字都不说，只把酒递过去。",
+      "key_quote_en": "I urge you to one more cup—the pain is such that not one word is said; only the cup is passed over.",
+      "process_zh": [
+        "标出情感峰值：找到文本中情感最重的位置，该处禁用一切情绪形容词",
+        "把情绪卸载到动作：设计一个具体可做的小动作（递酒、折枝、多看一眼），让它承担全部情感载荷",
+        "选压强最大的中性事实：找一件不带情绪词但意义自明的事实放在结尾，删除一切总结性感叹",
+        "冷读测试：隔三天重读，若仍能感到未写出的那份情绪在行间运转，即成立；若只剩平淡，则动作或事实选错了"
+      ],
+      "process_en": [
+        "Mark the emotional peak: locate the emotionally heaviest point of the text and ban every emotion-adjective from that position",
+        "Unload the emotion onto an action: design one concrete doable small act (passing the cup, breaking a branch, one last look) to bear the entire emotional load",
+        "Choose the neutral fact of highest pressure: find a fact with no emotion-word but self-evident meaning and put it at the end; delete every summarizing exclamation",
+        "Cold-read test: reread after three days; if the unwritten feeling still runs between the lines, it holds; if only flatness remains, the action or the fact was mischosen"
+      ],
+      "representative_cases_zh": [
+        "《送元二使安西》：前两句写景（雨、柳）后两句只余一个劝酒动作——中国送别诗的降饱和天花板，直接被谱成送别曲传唱",
+        "《相思》：『愿君多采撷，此物最相思』——全诗表面是红豆风物志，末句才允许『相思』二字出场，且托物代说",
+        "《杂诗》：『君自故乡来，应知故乡事。来日绮窗前，寒梅著花未？』——全部乡愁压缩为对一株梅花的询问，大问题只用小问题问出",
+        "反例警示：应制送别诗的滥情对照组——『执手相看泪眼』式的直陈在下个世纪由柳永发展成另一极，证明浓写与淡写是两条各有其效的路线，但王维路线的传染性（被传唱）远高于滥情路线"
+      ],
+      "representative_cases_en": [
+        "'Seeing Yuan the Second Off': two landscape lines (rain, willows), then nothing but one act of urging wine—the de-saturation ceiling of Chinese parting poetry, immediately set to music as the parting song",
+        "'Love Seeds': 'I wish you would gather more of them; this thing is most lovesick'—the poem reads as a naturalist's note on the red bean until the last line allows the word 'lovesick' out, and even then spoken through the object",
+        "'Miscellaneous Quatrain': 'you come from my homeland, you must know its affairs: the day you left, before the carved window—had the winter plum flowered?'—the entire weight of homesickness compressed into a question about one plum tree; the great question asked only as a small question",
+        "Counter-case: the sentimental school of farewell verse—direct statements like 'clasped hands, gazing through tears' (later developed by Liu Yong into the opposite pole); proof that heavy-writing and light-writing are two effective routes, but Wang Wei's route proved far more contagious—set to music and sung"
+      ],
+      "modern_applications_zh": [
+        "讣告与悼词：不用形容词只陈述具体事实与共同经历的小细节，克制让悲伤自行抵达",
+        "品牌危机公关：道歉声明删除一切情绪副词，只说『我们做了什么、接下来做什么』——降饱和提升可信度",
+        "广告叙事：不用『感动』『温暖』等标签词，只呈现行为细节让观众自己命名情绪",
+        "亲密沟通：重话轻说——把最重的关切压进最小的日常动作（留一盏灯、热一碗汤），效果强于语言宣告"
+      ],
+      "modern_applications_en": [
+        "Obituaries and eulogies: no adjectives, only concrete facts and small details of shared life; restraint lets sorrow arrive on its own",
+        "Crisis PR: the apology statement deletes every emotional adverb and states only 'what we did and what we do next'—de-saturation raises credibility",
+        "Advertising narrative: no label words like 'moving' or 'warm'; present only behavioral detail and let the audience name the emotion themselves",
+        "Intimate communication: say the heavy lightly—press the heaviest care into the smallest daily act (leaving a light on, warming a bowl of soup); it outperforms any verbal declaration"
+      ],
+      "related_modes": [
+        "M-WW-001",
+        "M-WW-007",
+        "M-DF-001",
+        "M-DF-003"
+      ],
+      "representative_figures": [
+        "王维",
+        "欧内斯特·海明威",
+        "是枝裕和"
+      ]
+    },
+    {
+      "id": "M-WW-007",
+      "mode_code": "M-WW-007",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "日常物件禅意聚焦法",
+        "Chan-Focus-on-Ordinary-Objects Method",
+        "认知方法/微小事物的放大"
+      ],
+      "name_en": [
+        "Chan-Focus-on-Ordinary-Objects Method",
+        "Chan-Focus-on-Ordinary-Objects Method",
+        "认知方法/微小事物的放大"
+      ],
+      "category": [
+        "日常物件禅意聚焦法",
+        "Chan-Focus-on-Ordinary-Objects Method",
+        "认知方法/微小事物的放大"
+      ],
+      "domain_zh": "把认知资源聚焦在最小的日常物件上（一朵桂花、一粒红豆、一片青苔），让微小载体承载最大意义密度：『来日绮窗前，寒梅著花未』——宏大乡愁的全部重量由一株梅树的开花状态独自承担",
+      "domain_en": "Focus cognitive resources on the smallest ordinary object—one osmanthus blossom, one red seed, a patch of moss—and let the tiny vessel carry maximum density of meaning: 'before the carved window, had the winter plum flowered?'—the entire weight of a great homesickness borne single-handedly by the flowering state of one plum tree",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "王维的意象系统里几乎没有宏大符号：没有神话、没有帝王、没有山河在哭泣，只有桂、竹、莲、苔、鸟、月。方法论内核有三：其一，物件的无害性选材——微小日常物不携带权力与立场的噪音，任何读者都无需站队即可进入；宏大符号（龙、君、社稷）自带强制解读，微小物件留给解读全部自由。其二，禅的『即物』训练——禅宗真理观认为终极不在别处而在眼前一物；王维把这一训练转化为选材纪律：能否在一个物件里看到全部，是观照深度的测试。其三，密度的灌注技术——把大意义灌进小物件需要精确的接口设计：《杂诗》用『来日』（你离开的那天）给梅花接上时间轴，用『绮窗』接上家的坐标——物件因此不是孤立的物，而是一个坐标系的原点。深意在于：意义的传达不靠符号的体量而靠接口的精确——一粒红豆能把全部爱情装下，是因为『最相思』三个字把接口焊牢了。代价是：此法产出的文本经不起符号饥渴型读者的阅读（他们要史诗，得到的是一株梅）。现代对应物是微叙事写作、静物摄影与产品设计中『一个细节定调』的原则。",
+      "definition_en": "Wang Wei's image-system contains almost no grand symbols: no myths, no emperors, no weeping rivers and mountains—only osmanthus, bamboo, lotus, moss, birds, the moon. The method has three cores. First, choosing harmless material: small daily objects carry no noise of power or position; any reader can enter without taking sides. Grand symbols (dragons, rulers, altars of state) enforce their own interpretation; tiny objects leave interpretation entirely free. Second, the Chan training of 'right at the thing': the Chan view of truth holds that the ultimate is not elsewhere but in the object before the eyes; Wang Wei turned this into a selection discipline—whether you can see everything in one object is the test of contemplative depth. Third, the technique of pouring in density: to fill a small object with great meaning demands a precise interface design—'Miscellaneous Quatrain' uses 'the day you left' to attach the plum tree to a timeline and 'the carved window' to attach it to home's coordinates; the object is thus no isolated thing but the origin of a coordinate system. The deeper point: transmission of meaning depends not on the size of the symbol but on the precision of the interface—a single red seed can hold all of love because the three words 'most lovesick' weld the interface shut. The cost: texts made this way cannot survive readers hungry for symbols (they want epic and are handed one plum tree). Modern analogues: micro-narrative writing, still-life photography, and the 'one detail sets the tone' principle in product design.",
+      "source_chapter": "《杂诗》；《相思》；《书事》（『坐看苍苔色，欲上人衣来』）",
+      "key_concepts": [
+        "微小载体",
+        "无害性选材",
+        "接口设计",
+        "即物",
+        "坐标系原点"
+      ],
+      "key_quote_zh": "寒梅著花未？——把整场乡愁交给一株梅树的开放状态，问得越小，装得越多。",
+      "key_quote_en": "Had the winter plum flowered?—hand the whole homesickness to the flowering state of one plum tree; the smaller the question, the more it holds.",
+      "process_zh": [
+        "降维选材：为要表达的大意义找一个最小的日常载体（物件而非概念、具体而非抽象），先问『它是否不带任何立场噪音』",
+        "焊接接口：为物件设计 1-2 个精确的连接点（时间、地点、动作），使其从孤立的物变成意义的坐标系原点",
+        "删除其他符号：成稿时清除一切与该物件竞争注意力的元素，确保读者全部认知资源落在小载体上",
+        "压强测试：请读者仅凭这个物件复述他想起的整体经验，若复述集中且丰富则接口成立"
+      ],
+      "process_en": [
+        "Scale down the material: for the great meaning to be expressed, find the smallest daily vessel (an object, not a concept; concrete, not abstract), first asking 'does it carry zero noise of position?'",
+        "Weld the interface: design one or two precise connection points (time, place, action) to turn the object from an isolated thing into the origin of a coordinate system of meaning",
+        "Delete competing symbols: in the draft clear every element that competes for attention with the object, so the reader's full cognitive resources land on the small vessel",
+        "Pressure test: ask readers to retell the whole experience they associate from this object alone; if the retelling is focused and rich, the interface holds"
+      ],
+      "representative_cases_zh": [
+        "《杂诗》：乡愁这一母题被压缩成『寒梅著花未』六字——中国诗史上以小博大的极致样本",
+        "《相思》：红豆从岭南风物升格为爱情通用符号——一个微小物件的接口设计成功到改变了汉语的符号库存",
+        "《书事》：『坐看苍苔色，欲上人衣来』——青苔的颜色被写出动势，最小物件获得最重的凝视",
+        "反例警示：为『小』而小的意象堆砌（宋代以后大量闲适诗）——没有大意义灌注的小物件只是摆设，禅意聚焦的前提是确实有禅可聚"
+      ],
+      "representative_cases_en": [
+        "'Miscellaneous Quatrain': the whole motif of homesickness compressed into six characters, 'had the winter plum flowered?'—the extreme case of the small defeating the large in Chinese poetry",
+        "'Love Seeds': the red bean elevated from a Lingnan curiosity to a universal sign of love—one tiny object's interface designed so successfully it changed the Chinese language's symbol inventory",
+        "'A Small Affair': 'sitting, I watch the color of moss—it seems about to climb onto my clothes'—the color of moss written with motion; the smallest object given the heaviest gaze",
+        "Counter-case: imagery piled small for smallness' sake (much leisure verse after the Song)—a small object without great meaning poured into it is mere bric-a-brac; Chan focusing presupposes that there is actually Chan to focus"
+      ],
+      "modern_applications_zh": [
+        "品牌符号学：把品牌价值压进一个微小可携带的符号（苹果的缺一口、耐克的钩），接口越简单传播越远",
+        "微叙事写作：用一件随身旧物讲完一个人的前半生，训练以小博大的载荷设计",
+        "产品设计：为产品保留一个可被用户赋予意义的『留白细节』（可刻字处、可定制件），让物件自己生长故事",
+        "记忆训练：用『当时桌上那杯茶』式的具体物件索引复杂记忆，物件比概念更适合做记忆的坐标系原点"
+      ],
+      "modern_applications_en": [
+        "Brand semiotics: press brand value into one tiny portable sign (the bitten Apple, the Nike swoosh); the simpler the interface, the farther it travels",
+        "Micro-narrative writing: tell a person's first half of life through one worn carried object—training payload design that makes the small defeat the large",
+        "Product design: preserve one 'blank detail' users can load with meaning (an engraving spot, a customizable part) and let the object grow its own story",
+        "Memory training: index complex memories with concrete objects ('the cup of tea on the table then')—objects, not concepts, are the right coordinate origins for memory"
+      ],
+      "related_modes": [
+        "M-WW-006",
+        "M-WW-002",
+        "M-DF-003",
+        "M-SU-003"
+      ],
+      "representative_figures": [
+        "王维",
+        "弗朗西斯·蓬热",
+        "原研哉"
+      ]
+    },
+    {
+      "id": "M-WW-008",
+      "mode_code": "M-WW-008",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "逆境敛迹法",
+        "Trace-Concealment-in-Adversity Method",
+        "生存策略/风险最小化"
+      ],
+      "name_en": [
+        "Trace-Concealment-in-Adversity Method",
+        "Trace-Concealment-in-Adversity Method",
+        "生存策略/风险最小化"
+      ],
+      "category": [
+        "逆境敛迹法",
+        "Trace-Concealment-in-Adversity Method",
+        "生存策略/风险最小化"
+      ],
+      "domain_zh": "高压政治环境里主动降低自身的符号热度与攻击面：不写檄文、不发宏论、不作悲愤表演，把表达收缩到无政治解码可能的自然题材——『万事不关心』既是心境也是掩体",
+      "domain_en": "In a high-pressure political environment, deliberately lower your own symbolic heat and attack surface: no manifestos, no grand pronouncements, no performances of grief and fury; contract expression into natural subjects with no possibility of political decoding—'indifferent to the ten thousand affairs' is both state of mind and bunker",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "王维一生经历开元政争、李林甫专权、安史陷贼、肃清洗算，却几乎未因文字获罪——对比李白入狱、杜甫逃难、后来的乌台诗案，这是盛唐诗人中最成功的生存案例。方法论内核有三：其一，题材去政治化——政治高压期他的笔全部转向山水自然：山水诗在符号层面是中性的，无法被构陷为影射；这不是逃避而是把表达移出可攻击区。其二，姿态降格——陷贼受伪职后他的自辩（《凝碧池》）只陈述一个事实场景而不控诉、不表功：『万户伤心生野烟，百僚何日更朝天』——用可验证的悲伤事实代替政治表态，给审查者台阶而非给对手靶子。其三，社交断舍离——晚年『退朝之后，焚香独坐』：物理与社交层面的低可见度本身就是保护；人脉的热度越高，政治清算时的暴露面越大。深意在于：生存的智慧常常不是对抗的艺术而是降低被对抗价值的艺术——把自身的符号热度降到攻击成本高于攻击收益，安全随之而来。代价是：敛迹会被同时代与后世读为软弱或冷感（杜甫的 hot 忠诚获得了更多道德声望），且敛迹过度会丢失议题设置能力。现代对应物是高压组织中的低姿态生存、记者的安全沟通实践与加密学的攻击面最小化。",
+      "definition_en": "Wang Wei's life spanned the Kaiyuan factional strife, Li Linfu's dominance, captivity under An Lushan, and the postwar purges, yet he was almost never charged for his words—against Li Bai's imprisonment, Du Fu's flight, and the later Crow Terrace Case, this is the most successful survival record among High Tang poets. The method has three cores. First, de-politicizing one's subject matter: through the years of political pressure his brush turned wholly to landscape—landscape poetry is semantically neutral, impossible to indict as insinuation; this is not escape but moving expression out of the attackable zone. Second, demotion of posture: after captivity and the puppet office his self-defense, 'The Jade Pool,' merely states one factual scene without accusation and without claiming credit—'ten thousand households grieve in wild smoke; when will the hundred officials face the throne again'—verifiable sorrowful fact replacing political declaration, giving the inquisitors a step down rather than giving opponents a target. Third, social cutting-off: in late years 'after court he sat alone burning incense'—low visibility at the physical and social level is itself protection; the hotter one's network, the larger the exposure when the purge comes. The deeper point: the wisdom of survival is often not the art of confrontation but the art of lowering the value of confronting you—drop your symbolic heat until the cost of attacking exceeds its yield, and safety follows. The cost: trace-concealment is read by contemporaries and posterity alike as weakness or coldness (Du Fu's hot loyalty earned greater moral prestige), and over-concealment forfeits the ability to set agendas. Modern analogues: low-profile survival in high-pressure organizations, journalists' security practices, and attack-surface minimization in cryptography.",
+      "source_chapter": "《凝碧池》（裴迪来探时口述之作）；《酬张少府》；《旧唐书·王维传》陷贼始末",
+      "key_concepts": [
+        "题材去政治化",
+        "攻击面最小化",
+        "事实代表态",
+        "低可见度",
+        "符号降温"
+      ],
+      "key_quote_zh": "万户伤心生野烟——不辩解、不表功，只给一个可验证的悲伤事实，把话说在无法被定罪的位置上。",
+      "key_quote_en": "Ten thousand households grieve in wild smoke—no defense, no claim to credit; give one verifiable sorrowful fact, and place your words where they cannot be indicted.",
+      "process_zh": [
+        "测绘攻击面：列出自己当前所有可能被政治化解码的输出（文章、言论、关系、身份），标记热度最高的项",
+        "表达移出可攻击区：高压期把公开表达收缩到中性题材（专业、自然、技术），政治判断只在绝对私密圈层进行",
+        "用事实代表态：被迫自证时只陈述可验证的事实场景，拒绝一切给对手提供靶子的情感性宣言",
+        "降低社交暴露度：收缩人脉圈的可见广度（保留深度不保留热度），定期检查自己是否正成为符号"
+      ],
+      "process_en": [
+        "Map your attack surface: list all current outputs that could be politically decoded (writing, speech, relationships, identity) and mark the highest-heat items",
+        "Move expression out of the attackable zone: in high-pressure periods contract public expression to neutral subjects (professional, natural, technical); political judgment happens only in the absolutely private circle",
+        "Substitute fact for declaration: when forced to self-justify, state only verifiable factual scenes; refuse every emotional proclamation that hands opponents a target",
+        "Lower social exposure: shrink the visible breadth of your network (keep depth, not heat), and regularly check whether you are becoming a symbol"
+      ],
+      "representative_cases_zh": [
+        "陷贼被迫受伪职：他服药取痢假装病重仍被押赴洛阳——可见的抵抗以身体形式进行而非以文字形式；《凝碧池》口述诗成为乱后唯一有效的自证",
+        "李林甫时代的选择：张九龄被贬后他彻底退出议政，转向辋川——在议题设置必然失败的环境里放弃议题设置",
+        "晚年疏离：『晚年唯好静，万事不关心』写于肃宗朝——清算年代里把自己活成无声无息的老臣",
+        "反例警示：同代李白因入永王幕府入狱——热表达者的高声望与高风险同在；敛迹法的代价清单里第一条就是历史声望的折价"
+      ],
+      "representative_cases_en": [
+        "Forced into the puppet office after capture: he took medicine to fake severe dysentery and was still escorted to Luoyang—visible resistance conducted in the body, not in writing; the orally dictated 'Jade Pool' poem became the only effective self-testimony after the war",
+        "The choice under Li Linfu: after Zhang Jiuling's demotion he withdrew entirely from policy debate and turned to Wangchuan—relinquishing agenda-setting in an environment where agenda-setting was doomed",
+        "Late alienation: 'in late years I love only stillness' written under Suzong—living himself into a soundless old minister through the purge years",
+        "Counter-case: his contemporary Li Bai, imprisoned for joining Prince Yong's staff—the high prestige and high risk of hot expression go together; the first item on trace-concealment's bill is the discount on historical reputation"
+      ],
+      "modern_applications_zh": [
+        "组织生存：重组/清洗期降低内部曝光（少署名、少群发、少站队），把专业输出保持在中性通道",
+        "记者与研究者安全：敏感选题的通讯分层（公开层/私密层），用可验证事实替代立场宣言",
+        "网络安全实践：攻击面最小化——关闭一切不必要的服务与端口，与王维的社交断舍离同构",
+        "舆情自处：被网暴时不发长文自辩，只陈述可核验事实一条，其余静默——温度越低熄火越快"
+      ],
+      "modern_applications_en": [
+        "Organizational survival: during reorganizations or purges, lower internal exposure (fewer bylines, fewer mass emails, fewer declared alignments) and keep professional output in neutral channels",
+        "Journalist and researcher security: tiered communication for sensitive topics (public layer / private layer), verifiable facts in place of declarations of position",
+        "Cybersecurity practice: attack-surface minimization—disable every unnecessary service and port; isomorphic to Wang Wei's social cutting-off",
+        "Riot self-management: under online pile-ons, publish no long self-defense—state one verifiable fact and otherwise go silent; the lower the temperature, the faster the fire dies"
+      ],
+      "related_modes": [
+        "M-WW-004",
+        "M-WW-010",
+        "M-DF-010",
+        "M-LIB-009"
+      ],
+      "representative_figures": [
+        "王维",
+        "司马徽",
+        "本杰明·富兰克林"
+      ]
+    },
+    {
+      "id": "M-WW-009",
+      "mode_code": "M-WW-009",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "诗画互译法",
+        "Poem-Painting Mutual-Translation Method",
+        "方法论/媒介转换"
+      ],
+      "name_en": [
+        "Poem-Painting Mutual-Translation Method",
+        "Poem-Painting Mutual-Translation Method",
+        "方法论/媒介转换"
+      ],
+      "category": [
+        "诗画互译法",
+        "Poem-Painting Mutual-Translation Method",
+        "方法论/媒介转换"
+      ],
+      "domain_zh": "在两种媒介之间双向翻译以突破单一媒介的表达上限：把绘画的空间构成译进诗（诗中有画），把诗的时间与声音译进画（画中有诗）——精通两套符号系统者可以在系统间的缝隙里发现单系统内不存在的表达可能",
+      "domain_en": "Translate in both directions between two media to break the expressive ceiling of either alone: render painting's spatial composition into poetry ('in his poetry there is painting') and poetry's time and sound into painting ('in his painting there is poetry')—one who masters two symbol systems can discover, in the interstices between them, expressive possibilities that do not exist inside either",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "王维是中国历史上第一个双主修到大师级的诗人画家（前有顾恺之等画家不擅诗，有诗者不擅画）。方法论内核有三：其一，符号系统的对照学习——同时掌握语言的时间性符号与绘画的空间性符号后，每个系统的不可能之处在另一系统里都有解：诗无法直接呈现构图，就借用画家的经营位置；画无法直接呈现声音与时间，就借诗的听觉语法。其二，翻译暴露媒介本质——只在一种媒介里工作的人看不见该媒介的默认设定（诗以何为『帧』？画以何为『拍』？）；双语者因为在两个系统间来回搬运，被迫把每个系统的默认值显式化，于是获得超越两者的元视角。其三，跨媒介输出的复利——同一题材可以在两个媒介各产出一次且互相加深（《辋川集》诗与辋川图），媒介间的差异本身成为新信息的来源。深意在于：创造力的高地常在学科边界而非学科内部——单系统的精进是加法，系统间的翻译是乘法。代价是：双修的养成成本极高（他两个领域都是顶级），半吊子的跨界只会两头平庸；且媒介翻译有损，翻译策略需要明示。现代对应物是 STEM+ART 的 STEAM 交叉创新、费曼式跨领域类比与设计领域的跨学科工作流。",
+      "definition_en": "Wang Wei is the first figure in Chinese history to reach master level in a double major—poet and painter (painters before him like Gu Kaizhi had no verse; poets had no brush). The method has three cores. First, contrastive learning of symbol systems: once you hold both language's temporal symbols and painting's spatial ones, the impossible in each system has a solution in the other—poetry cannot directly present composition, so it borrows the painter's positioning of elements; painting cannot directly present sound and time, so it borrows poetry's auditory grammar. Second, translation exposes the medium's essence: one who works in only one medium cannot see that medium's default settings (what is a 'frame' in poetry? what is a 'shot' in painting?); the bilingual is forced, by carrying material back and forth, to make each system's defaults explicit—and thereby gains a meta-perspective above both. Third, the compound interest of cross-medium output: the same subject can be produced once in each medium, each deepening the other (the 'Wangchuan Collection' poems and the Wangchuan painting), and the difference between the media itself becomes a source of new information. The deeper point: the high ground of creativity usually lies at the boundary of disciplines, not inside them—single-system refinement is addition; translation between systems is multiplication. The cost: the cultivation cost of the double major is extreme (he was top-tier in both fields); half-trained跨界 yields mediocrity on both ends; and medium-translation loses information—the translation strategy must be made explicit. Modern analogues: STEAM cross-innovation, Feynman-style cross-domain analogy, and interdisciplinary workflows in design.",
+      "source_chapter": "苏轼《书摩诘蓝田烟雨图》（『诗中有画，画中有诗』）；《辋川集》与《辋川图》的互文；张彦远《历代名画记》",
+      "key_concepts": [
+        "双符号系统",
+        "媒介默认值显式化",
+        "元视角",
+        "跨媒介复利",
+        "翻译损耗管理"
+      ],
+      "key_quote_zh": "诗中有画，画中有诗——把一个系统的不可能，搬到另一个系统里求解。",
+      "key_quote_en": "In his poetry there is painting; in his painting, poetry—take a system's impossibility and solve it inside the other system.",
+      "process_zh": [
+        "建立第二符号系统：在主业之外深度修炼一个符号结构不同的领域（语言↔图像、文字↔数据、声音↔空间），达到能独立产出。",
+        "互译练习：定期把主业作品在第二媒介里重做一遍（论文画成图、产品写成叙事），记录哪些信息在搬运中丢失、哪些凭空新增",
+        "显式化默认值：列出两个媒介各自的『不可能』清单（诗不能构图、画不能计时），把主业的难题拿到对方的不可能清单旁寻找转译方案",
+        "双媒介发布：同一主题在两个媒介各产出一次并公开对照，让媒介差异本身成为可讨论的内容"
+      ],
+      "process_en": [
+        "Build a second symbol system: outside your main field, train deeply in one domain with a different symbol structure (language vs image, text vs data, sound vs space) until you can produce independently in it",
+        "Mutual-translation drills: regularly redo your main-field work in the second medium (draw the paper, narrate the product), logging what information is lost in transit and what appears from nowhere",
+        "Make defaults explicit: list each medium's 'impossibles' (poetry cannot compose, painting cannot keep time); take your main field's hardest problem and hold it beside the other's list of impossibles to find a translation",
+        "Publish in both media: produce the same theme once in each medium and release them side by side, letting the difference between media itself become discussable content"
+      ],
+      "representative_cases_zh": [
+        "《辋川集》诗与《辋川图》的互文系统：同一庄园在语言与绢素上各完成一次，成为中国文人『诗画一律』传统的起点",
+        "『诗中有画』的构图移植：把画家『经营位置』的工序直接搬入五律写作，产出《使至塞上》级别的空间诗",
+        "南宗画论的奠基：后世尊其为文人画之祖——他的实践（画中有诗的听觉性）成为董其昌立论的原材料",
+        "反例警示：后世附庸风雅的题画诗泛滥——未经过双系统深度修炼的跨界只是装饰性引用，翻译没有损耗管理就没有增量"
+      ],
+      "representative_cases_en": [
+        "The intertextual system of the 'Wangchuan Collection' poems and the 'Wangchuan Painting': one estate completed once in language and once on silk—the starting point of the Chinese literati tradition of 'one law for poem and painting'",
+        "The transplant of composition into verse: the painter's procedure of 'positioning elements' moved directly into five-character regulated verse, producing space-poems of the caliber of 'On Mission to the Frontier'",
+        "Founding the Southern School of painting theory: later ages honor him as patriarch of literati painting—the auditory quality of his 'poetry inside painting' became raw material for Dong Qichang's theory",
+        "Counter-case: the later flood of decorative inscription-poems on paintings—跨界 without deep training in both systems is ornamental citation; translation without loss-management yields no increment"
+      ],
+      "modern_applications_zh": [
+        "跨学科团队组建：刻意为团队配置双主修成员（生物+编程、法律+设计），边界人物是翻译与增量的来源",
+        "个人第二技能投资：第二技能不选同质技能而选符号结构互补的技能（文字工作者学数据可视化）",
+        "科研方法：给课题配置双表征（数学模型+可视化），媒介间的损耗处往往正是待研究的未知处",
+        "产品创新：让同一功能在视觉与叙事两个媒介各讲一遍，比较两版的差异以发现未被表达的需求"
+      ],
+      "modern_applications_en": [
+        "Building interdisciplinary teams: deliberately staff double-major members (biology+code, law+design); boundary people are the source of translation and increment",
+        "Personal second-skill investment: choose a second skill complementary in symbol structure, not homogeneous (a writer learning data visualization)",
+        "Research method: give a project dual representations (mathematical model + visualization); where the media lose information is often exactly where the unknown lies",
+        "Product innovation: tell the same feature once in visual media and once in narrative, compare the two versions, and read the differences for unexpressed needs"
+      ],
+      "related_modes": [
+        "M-WW-003",
+        "M-WW-005",
+        "M-SU-008",
+        "M-SU-001"
+      ],
+      "representative_figures": [
+        "王维",
+        "列奥纳多·达·芬奇",
+        "约翰·费伊"
+      ]
+    },
+    {
+      "id": "M-WW-010",
+      "mode_code": "M-WW-010",
+      "figure_code": "H-WW-001",
+      "name_zh": [
+        "半官半隐中庸法",
+        "Structural-Mean-of-Half-Office-Half-Retreat Method",
+        "人生战略/长期稳态"
+      ],
+      "name_en": [
+        "Structural-Mean-of-Half-Office-Half-Retreat Method",
+        "Structural-Mean-of-Half-Office-Half-Retreat Method",
+        "人生战略/长期稳态"
+      ],
+      "category": [
+        "半官半隐中庸法",
+        "Structural-Mean-of-Half-Office-Half-Retreat Method",
+        "人生战略/长期稳态"
+      ],
+      "domain_zh": "把『中庸』从道德姿态降维为可操作的长期结构设计：不在每个具体决策上走中间路线，而是在人生架构层面同时保留入世与出世两套完整系统，让极端在结构内互为对冲",
+      "domain_en": "Downgrade the 'Doctrine of the Mean' from a moral posture to an operable long-term structural design: not taking the middle road on every individual decision, but keeping, at the level of life architecture, two complete systems—engagement and withdrawal—each hedging the extremes within the structure",
+      "level": [
+        "核心",
+        1
+      ],
+      "priority": [
+        "核心",
+        1
+      ],
+      "definition_zh": "王维的『万事不关心』常被误读为消极，实际是一种精密的结构设计：他不选边（既不全然做官也不全然归隐），而是在架构上同时持有两个极端，让它们对冲。方法论内核有三：其一，结构层与决策层分离——具体决策他可以极果断（请为僧以赎兄罪、买辋川、营斋施寺），中庸不在决策层而在架构层：架构永远保留两个出口。其二，长期稳态优先于短期最优——半官半隐在任何单一时点都不是最优解（做官少俸禄、归隐少保障），但它使三十年时间尺度上的产出曲线最平稳：乱前有积累、乱中有退路、乱后有身份。其三，以退为守的退出权设计——他一生反复上表请回为僧、施庄为寺，这些动作表面是宗教虔诚，实质是持续维护自己的退出选项；退出权的市场价值平时为零、危机时无穷。深意在于：真正的稳健不是在每次摇摆中选中间值，而是让结构本身不需要摇摆——两个极端都被支付、都被持有，人就不再被迫在恐惧中做选择。代价是：对冲结构吞掉两端的最大收益（他既没有李白的历史声量也没有隐士的道德纯度），且需要长期忍受两界同时的不满。现代对应物是股债对冲的组合金融、跨国身份配置与组织里的『双轨制』员工发展。",
+      "definition_en": "Wang Wei's 'indifferent to the ten thousand affairs' is often misread as passivity; it is in fact precision structural design: he refuses to pick a side (neither all-office nor all-retreat), instead holding both extremes at the architectural level and letting them hedge each other. The method has three cores. First, separating the structural layer from the decision layer: in individual decisions he could be utterly decisive (petitioning to resign into monkhood to redeem his brother, buying Wangchuan, endowing temples); the Mean lies not in decisions but in architecture—the structure always retains two exits. Second, long-run steady state over short-run optimum: half-office half-retreat is never the optimum at any single moment (office shortchanges freedom, retreat shortchanges security), yet it makes the output curve smoothest at a thirty-year scale: accumulation before the rebellion, an escape route during it, standing after it. Third, designing the right of exit as defense: his repeated petitions to resign into monkhood and to endow his estate as a temple look like religious devotion but are, in substance, continuous maintenance of his exit option—whose market value is zero in peacetime and infinite in crisis. The deeper point: true steadiness is not choosing the middle value at every swing but building a structure that does not need to swing—both extremes paid for and held, one is no longer forced to choose under fear. The cost: the hedge swallows the maximum upside of both ends (he has neither Li Bai's historical volume nor the hermit's moral purity), and it demands enduring the discontent of both worlds at once for decades. Modern analogues: stock-bond hedged portfolios, multi-jurisdiction identity arrangement, and dual-track employee development in organizations.",
+      "source_chapter": "《请回改为僧疏》；《责躬荐弟表》；《酬张少府》",
+      "key_concepts": [
+        "结构层中庸",
+        "对冲",
+        "退出权",
+        "长期稳态",
+        "双系统持有"
+      ],
+      "key_quote_zh": "一生几许伤心事，不向空门何处销——不是选空门，是把空门和朝堂都拿在手里对冲。",
+      "key_quote_en": "How many sorrows in one life—and where to dissolve them if not in the gate of emptiness? Not choosing the gate of emptiness, but holding emptiness and court in hand together, as a hedge.",
+      "process_zh": [
+        "区分架构与决策：列出当前人生的关键维度（收入、身份、时间、风险），为每一维度设计双系统持有方案而非单点选择",
+        "持续维护退出权：为每个重仓系统（职位、城市、关系）准备并定期演练退出方案，退出权平时看似浪费、危机时定价无穷",
+        "用长期稳态评估决策：任何决策先测三十年尺度的产出曲线平稳度，再测单点收益——单点最优而曲线剧震的方案否决",
+        "接受对冲折价：明确记录自己为结构稳健放弃了哪些两端收益（声量、纯度、爆发力），并确认该折价在承受范围内"
+      ],
+      "process_en": [
+        "Separate architecture from decision: list the key dimensions of your life (income, identity, time, risk) and design dual-system holdings for each rather than single-point choices",
+        "Maintain exit rights continuously: for every heavily-held system (job, city, relationship) prepare and periodically rehearse an exit plan; exit rights look wasteful in peacetime and price at infinity in crisis",
+        "Evaluate decisions by long-run steady state: test every decision first for the smoothness of its thirty-year output curve, then for single-point gain—veto plans that are point-optimal but curve-violent",
+        "Accept the hedging discount: explicitly record which end-gains (volume, purity, explosiveness) you surrendered for structural steadiness, and confirm the discount is within what you can bear"
+      ],
+      "representative_cases_zh": [
+        "陷贼免死的多重对冲：伪职危机里同时存在《凝碧池》诗的自证、王缙的削官赎罪、平乱后的普遍宽宥——平时无人看见的结构在危机时全部生效",
+        "施庄为寺的退出权维护：辋川别业最终施为寺院——最重的个人资产被主动转换为宗教与法律意义上不可没收的形态",
+        "《责躬荐弟表》：愿削己官为弟赎罪——用官职系统的内部规则处理危机，而非在系统外对抗",
+        "反例警示：全押型人物的命运对照——李白暮年单轨投永王、王昌龄死于非命的归途；结构对冲者在史书里的名字不响，但都得了善终"
+      ],
+      "representative_cases_en": [
+        "Multiple hedges that spared his life in the captivity crisis: the 'Jade Pool' poem's self-testimony, his brother Wang Jin's surrender of office to redeem him, and the general amnesty after the war—all structures invisible in peacetime, all live at once in crisis",
+        "Maintaining the exit right by endowing the estate as a temple: the Wangchuan estate, his heaviest personal asset, was converted in the end into a form religiously and legally beyond confiscation",
+        "The 'Memorial of Self-Reproach Recommending My Brother': offering to surrender his own office to redeem Wang Jin—crisis handled through the office system's internal rules rather than by confronting the system from outside",
+        "Counter-case: the fates of all-in figures—Li Bai in old age staking one track on Prince Yong, Wang Changling dead by violence on the road home; the hedgers' names ring less in the histories, but they all died in their beds"
+      ],
+      "modern_applications_zh": [
+        "个人财务：股票/债券/现金的结构性对冲，不为单点收益牺牲曲线平稳",
+        "职业身份：体制内职位与可携带技能双持有，任一时刻都保有离开的资格与路径",
+        "国际配置：多法域的身份与资产布局——平时是成本，动荡时是唯一的门",
+        "组织人才设计：为关键人才设计双轨发展（管理序列/专业序列），保留退出与转换权以维持长期留任"
+      ],
+      "modern_applications_en": [
+        "Personal finance: structural hedging across equities, bonds, and cash—never trade curve-smoothness for a single point of gain",
+        "Career identity: hold an institutional post and portable skills together, always retaining the qualification and route to leave",
+        "International arrangement: multi-jurisdiction identity and assets—cost in peacetime, the only door in turmoil",
+        "Organizational talent design: dual-track development (management ladder / professional ladder) for key people, keeping exit and conversion rights to sustain long retention"
+      ],
+      "related_modes": [
+        "M-WW-004",
+        "M-WW-008",
+        "M-SU-006",
+        "M-SU-003"
+      ],
+      "representative_figures": [
+        "王维",
+        "范蠡",
+        "瑞·达利欧"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,802 @@
+{
+  "schema_version": "v6",
+  "id": "H-WQ-001",
+  "code": "H-WQ-001",
+  "figure_name": "吴起",
+  "figure_code": "H-WQ-001",
+  "figure_pinyin": "Wú Qǐ",
+  "birth_year": -440,
+  "death_year": -381,
+  "era": "战国初期（卫国左氏出生（约前440）—鲁国求学杀妻求将（约前412）—魏国：文侯拜将守西河二十余年（约前409-前387）—阴晋之战破秦（前389）—遭谗奔楚：悼王相楚变法（约前387-前381）—悼王死宗室作乱、伏尸殉法（前381）：左氏—鲁—魏西河—郢都）",
+  "school": "兵家代表人物 + 《吴子》六篇（与《孙子》并列武经七书）+ 战国初期变法家（楚悼王相）+ 儒（曾申）-兵-法三家跨派的实战改革家 + 魏武卒制度的设计者",
+  "style_name": "Wu Qi",
+  "courtesy_name": "吴起 / '吴子'（尊称，与孙武并称'孙吴'）/ '战神'（后世兵家推许之号，非时称）",
+  "pseudonym": "著述以'吴子曰'行世；《汉书·艺文志》著录《吴起》四十八篇（兵家），今本《吴子》六篇为托辑与残存之混合；其言行另见于《史记·孙子吴起列传》《吕氏春秋》《韩非子》",
+  "historical_significance": "吴起（约前440-前381），卫国左氏人，先学于曾申之门，后弃儒学兵。在鲁以杀妻求将攻齐而胜，旋遭谗去鲁；入魏经李悝之评、翟璜之荐，魏文侯以为将，守西河二十余年，'与诸侯大战七十六，全胜六十四'，前389年阴晋之战以五万武卒破秦军五十万；创设经标准化考核、全家复户的魏武卒制度，为战国精兵路线之祖。武侯时遭谗（王错、公叔之计）奔楚，楚悼王先为宛守，一年后升令尹，主持变法：封君三世收爵禄、裁冗官、抚选练之士，'南平百越，北并陈蔡，却三晋，西伐秦'。前381年悼王卒，宗室大臣作乱攻吴起，起伏王尸，乱箭并中王尸，楚国'丽兵于王尸者夷'之法尽诛七十余家——以身之死完成变法最后一次执法。《吴子》与《孙子》并称'孙吴'，唐宋武庙享配；他一人贯通兵、法、儒三派，是战国军制（职业化、专业化）与变法政治（削特权、建动员）两条主线的共同起点。",
+  "unique_thinking": "吴起的独特贡献是把'军队'从贵族车战的礼制装置整体改写为'可考核、可激励、可保养的机器'：入选靠公开的身体与技能标准（操十二石弩、负矢五十、日中趋百里），回报靠家庭层面的持久特权（复户利田宅），士气靠教戒、旗鼓与赏罚信用的同轨工程（'教戒为先'、'赏罚不信则令不行'）；他把将领定义为关系界面的耦合器（对君、对士、对敌、对己，'四和''三威''五慎'），把指挥从执行预案升级为按态势重新定价（'因形用权'），并把敌情判断做成'可击''勿击'对称清单（'审敌虚实而趋其危'）。在政治层面，他把同一工程逻辑推向国家：变法即利益存量的再分配（'损有余而继不足'），其成败不在方案而在能否活过庇护人——他自己的伏尸殉法是这一命题的极端证明。孙武给出了'不战'的理想，吴起给出了'战之机器'的施工图；孙吴并称，正是'战略哲学'与'组织工程'的互补。",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-WQ-001",
+    "M-WQ-002",
+    "M-WQ-003",
+    "M-WQ-004",
+    "M-WQ-005",
+    "M-WQ-006",
+    "M-WQ-007",
+    "M-WQ-008",
+    "M-WQ-009",
+    "M-WQ-010"
+  ],
+  "key_concepts": [
+    "魏武卒",
+    "内修文德外治武备",
+    "审敌虚实",
+    "教戒为先",
+    "赏罚信明",
+    "因形用权",
+    "四和三威",
+    "变法承重结构",
+    "伏尸殉法"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-SY-001",
+      "target_figure_name": "商君",
+      "relation_type": "变法的成毁对照：承重结构的有无",
+      "description_zh": "吴起与商鞅是战国变法的正反双例：吴起先走一遍'削宗室存量、养国家增量'的路（封君三世收爵禄），商鞅几乎照单执行（军功爵、宗室无军功不属籍），但结局相反——吴起的楚国无新兴受益者垫底，悼王一死改革尽废且身死；商鞅有军功爵制造的庞大新军功阶层为制度承重，其人虽遭车裂而新法不废。对照链：M-WQ-010（变法承重结构）× M-SY-001（军功爵激励制度）——变法者与其发明方案，不如先发明能活过庇护人的受益者同盟。",
+      "bidirectional_hint": "商君档案未来修订时可在 M-SY-001 处补一条指向 H-WQ-010 的跨引用（吴起之败是军功爵'承重'价值的反证）。",
+      "mode_pair": [
+        "M-WQ-010",
+        "M-SY-001"
+      ]
+    },
+    {
+      "target_figure_code": "H-SW-001",
+      "target_figure_name": "孙武",
+      "relation_type": "孙吴并称：战略哲学与组织工程",
+      "description_zh": "孙武回答'如何以最小代价赢得战争'（不战而屈人之兵、先胜后战），吴起回答'战争机器如何造、如何养、如何指挥'（武卒考核、教戒励士、因形用权）。孙武的理想是让战争不发生，吴起的现实是把战争变成可持续的国家作业。方法论上孙偏'战前计算'，吴偏'战中工程'；孙的对君命题是'将能而君不御'，吴的一生恰是其反面教训'君疑而将危'——孙吴并称两千年，正因二者合成完整的战争方法论。",
+      "bidirectional_hint": "孙武档案未来修订时可在 M-SW-009（将能君不御）处补一条指向 H-WQ-009 的跨引用（'君疑而将危'的反面案例）。",
+      "mode_pair": [
+        "M-WQ-009",
+        "M-SW-009"
+      ]
+    },
+    {
+      "target_figure_code": "H-HFZ-001",
+      "target_figure_name": "韩非",
+      "relation_type": "信赏必罚的军事源流与实践反例",
+      "description_zh": "韩非的'信赏必罚'理论有两大实践源流，吴起是其一（另一为商鞅徙木）：'赏罚不信则令不行'的军事表述在《吴子》已成体系（赏不过宿、一人投石超距者斩）。但韩非同样记载吴起'楚不用吴起而削乱'并分析其败于'大臣苦法而细民恶治'——法家内部对'法治推行条件'（执法者权力结构、受益者垫底）的自我批判，正始于吴起这个反例。对照链：M-WQ-007（赏罚信用）× M-HFZ-002（循名责实）——信用工程的施工学与其政治地基批判。",
+      "bidirectional_hint": "韩非档案未来修订时可在论'信赏必罚'处补一条指向 H-WQ-007 的跨引用（军事源流：吴起的赏罚信用工程）。",
+      "mode_pair": [
+        "M-WQ-007",
+        "M-HFZ-002"
+      ]
+    }
+  ],
+  "tags": [
+    "吴起",
+    "Wu Qi",
+    "吴子",
+    "Wuzi",
+    "孙吴",
+    "Sun-Wu Pairing",
+    "魏武卒",
+    "Wei Zhongzu Elite Infantry",
+    "阴晋之战",
+    "Battle of Yinjin",
+    "西河",
+    "West River",
+    "楚悼王",
+    "King Dao of Chu",
+    "变法",
+    "Reform",
+    "教戒为先",
+    "Instruction First",
+    "赏罚信明",
+    "Credible Reward and Punishment",
+    "因形用权",
+    "Situational Discretion",
+    "伏尸殉法",
+    "Death by the Royal Corpse",
+    "武经七书",
+    "Seven Military Classics",
+    "兵家",
+    "Military School",
+    "战国变法",
+    "Warring States Reform"
+  ],
+  "mode_ids_note": "M-WQ-001~010 为本档案深度挖掘的10个v6思维模式，待并入主库 modes_data.json（第293-302条）",
+  "caveats": [
+    "吴起生平争议极大：'杀妻求将'仅见《史记》且叙事可疑（鲁人谗语之可能），《韩非子·外储说》另有'吴起妻织组'不同版本——引用此节必须标注叙事来源争议",
+    "今本《吴子》六篇系晚出托辑与残文混合：《汉书·艺文志》著录四十八篇已佚，今本成书下限有汉说、六朝说诸论——模式引文以《吴子》通行本与《史记》《吕氏春秋》《韩非子》互证，不单独采信今本孤证",
+    "阴晋之战'五万破五十万'的数字见于《吴子·励士》设问语境，非独立史料——以寡击众的战例成立，具体兵力对比应标注为夸饰性文本",
+    "吴起变法在楚的成效（《史记》'南平百越北并陈蔡'）时间仅一年余（悼王末年），多数战功系于宛守与西河时期——变法与战功的因果不能混写",
+    "伏尸殉法见《吕氏春秋·贵卒》，为诸书独载——其'设计性'解读（用死触发执法）系本档案基于文本的方法论重构，史家亦有视为情急之生的解读，引用时须并注两解"
+  ],
+  "modes": [
+    {
+      "id": "M-WQ-001",
+      "name_zh": "魏武卒精选优养法",
+      "name_en": "Elite Selection with Structural Incentives: The Wei Zhongzu Method",
+      "mode_code": "M-WQ-001",
+      "category": "核心方法",
+      "domain_zh": "军事组织/选拔与激励",
+      "domain_en": "Military Organization / Selection & Incentive Design",
+      "level": "核心",
+      "priority": "1",
+      "definition_zh": "把建军问题从'动员多少人'改写为'筛选出什么人、给他们什么长期利益'：吴起在魏国创设武卒——中国最早经过标准化考核的精锐职业重步兵。入选是硬性可测的：全副甲胄、操十二石之弩、负矢五十、带三日之粮、佩剑执戟，半日之内疾行百里者方为合格。合格者不是得一次赏金，而是'复其户'——全家免除赋役。方法论签名在于三件事的合一：标准公开客观（不靠恩荫，谁练得动谁入选）、激励是结构性产权而非一次性犒赏（士兵的家庭与他共担职业风险）、考核口径严格对准战场任务（魏对秦的战争需要负重远袭，考的就是负重远袭）。选拔与激励是一台机器的两半：先定'什么算合格'，再让'合格的回报'大到值得去拼。前389年阴晋之战，五万武卒破秦军五十万——精筛选优的漏斗胜过人海的堆砌。",
+      "definition_en": "Wu Qi inverted the logic of ancient army-building: instead of asking how many men a state could mobilize, he asked what kind of men it could select and what long-term interest would hold them. In Wei he created the wuzu — China's first standardized, selectively recruited professional heavy infantry. Entry was a hard, publicly known physical test: a candidate in full armour had to draw a twelve-stone crossbow, carry fifty arrows, three days' rations, sword and spear, and still march a hundred li before midday. Passing earned not a one-time bounty but a structural right — exemption of his entire household from taxes and corvée labour. The method's signature is that selection and incentive are engineered as one machine. First, the standard is external and objective: anyone may attempt it, and entry does not depend on patronage. Second, the incentive is a durable property right rather than a single reward, so the soldier's family shares his career risk and his stake in staying effective. Third, the test is calibrated to the mission it must predict: Wei's wars against Qin demanded long forced marches under load, so the examination measures exactly the capability the battlefield will demand. This is the same design logic behind modern special-forces gates, tenure examinations, and certification-based professions: replace patronage with an auditable bar, and pay for crossing it with structure, not sentiment. At Yinjin in 389 BC, some fifty thousand wuzu routed a vastly larger Qin host — evidence that a well-built selection funnel beats a mass levy.",
+      "source_chapter": "《汉书·刑法志》引'魏氏武卒'条（荀子议兵篇述其制）：'衣三属之甲，操十二石之弩，负矢五十，置戈其上，冠胄带剑，赢三日之粮，日中而趋百里，中试则复其户，利其田宅'；《吴子·治兵》；阴晋之战见《史记·魏世家》系年",
+      "key_concepts": [
+        "武卒",
+        "中试复户",
+        "选拔标准化",
+        "结构性激励",
+        "考核对准任务",
+        "精兵路线"
+      ],
+      "process_zh": [
+        "定标：把任务能力拆成可测指标（负重、行军、操弩），写入公开标准，杜绝恩荫入口",
+        "筛选：以实测淘汰代替举荐，允许任何人应考，让身体与技能直接说话",
+        "付酬：合格者授予家庭层面的持久特权（复户利田宅），把个人功绩转为家族产权",
+        "校准：按敌情地形逐年复核标准——秦人攻坚则重甲远行，标准随任务演进而非随惯例固化"
+      ],
+      "process_en": [
+        "Define the bar: decompose mission capability into measurable items (load, march, weapons handling) and publish the standard, closing the door on patronage entry.",
+        "Select by test: replace recommendation with live examination open to all, letting bodies and skills speak directly.",
+        "Pay in structure: grant successful candidates durable household-level privileges (tax exemption, land rights), converting individual merit into family-level property.",
+        "Recalibrate: review the bar against enemy and terrain each cycle — standards evolve with the mission, not with habit."
+      ],
+      "representative_cases_zh": [
+        "前389年阴晋之战：吴起以五万未经大战的武卒加战车五百、骑三千，击破秦军五十万——被考出来的重步兵在负重机动与阵战耐力上全面压倒征召兵，此役成为精兵路线的经典背书",
+        "武卒复户制度的社会效应：入选者全家免税免役，魏国平民出现自觉练武应考的风气——激励落在家庭单位上，训练就从军营义务变成家庭投资，这是'把激励写进产权'的早期范本",
+        "反面警示：荀子后来批评魏武卒'数年而衰，而未可夺也，改造则不易周也'——精兵的退役安置与再选拔成本极高，兵员老化后战力断崖且旧特权难收回；精筛选优若无退出与更新机制，制度红利会转为财政包袱"
+      ],
+      "representative_cases_en": [
+        "Yinjin, 389 BC: Wu Qi led some fifty thousand wuzu, five hundred chariots and three thousand horse against a Qin host of five hundred thousand — examination-built heavy infantry outperformed conscripts in loaded mobility and pitched-battle endurance, the classic vindication of the elite-selection route.",
+        "The social effect of household exemption: families of passing soldiers paid no taxes or corvée, and Wei's commoners took up training for the test voluntarily — because the incentive landed on the household unit, training shifted from barracks duty to family investment, an early case of writing incentives into property rights.",
+        "Cautionary counterexample: Xunzi later noted that wuzu 'decay within a few years, yet cannot be released, and re-equipping them is impracticable' — elite forces carry heavy retirement and re-selection costs; once veterans age, combat power falls off a cliff while old privileges are hard to claw back. Selection without an exit and renewal mechanism turns institutional dividend into fiscal burden."
+      ],
+      "modern_applications_zh": [
+        "企业关键岗位用可审计的能力门槛替代资历与关系，入口公开、全员可考",
+        "职业资格与执照制度：以标准化考试定义行业入口，持证者享有结构性溢价",
+        "特种部队与竞技体育的选拔漏斗：测试项直接映射任务需求，避免考非所用",
+        "股权、期权等长期激励设计：把一次性奖金换成与绩效存续绑定的结构，绑定家庭或团队利益"
+      ],
+      "modern_applications_en": [
+        "Filling critical roles with auditable capability gates instead of seniority and connections — an open exam anyone may sit.",
+        "Professional licensing: standardized examinations define entry, and certification carries a durable premium.",
+        "Special-forces and elite-sport selection funnels: test items map directly to task demands, avoiding testing what the job does not need.",
+        "Long-term incentive design — equity and options that bind individuals, families, and teams to sustained performance rather than one-off bonuses."
+      ],
+      "related_modes": [
+        "M-WQ-004",
+        "M-WQ-007",
+        "M-WQ-009"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "魏文侯（制度授权者）",
+        "李悝（同期魏国变法同道）",
+        "荀子（事后审计者，批评其不可持续）"
+      ],
+      "key_quote_zh": "简募良材，以备不虞——厚其父母妻子，而后士卒可以赴汤火。",
+      "key_quote_en": "Select the able and prepare for the unforeseen: enrich a soldier's parents, wife and children first — only then will he walk into fire for you."
+    },
+    {
+      "id": "M-WQ-002",
+      "name_zh": "内修文德外治武备法",
+      "name_en": "Dual-Track Statecraft: Cultivate Virtue Within, Armament Without",
+      "mode_code": "M-WQ-002",
+      "category": "核心方法",
+      "domain_zh": "国家战略/文武并举",
+      "domain_en": "State Strategy / Civil-Military Dual Track",
+      "level": "核心",
+      "priority": "2",
+      "definition_zh": "吴起把'国家安全'拆成两条必须同时施工的轨道：对内修文德——政治清明、百姓亲附、用度有节；对外治武备——精兵、器械、训练常备不懈。他的名句'当敌而不进，非义也；僵尸而哀之，非仁也'表明其立场：仁义不能替代武备，武备也不能替代仁义，二者是互为前提的互补项而非二选一。《吴子·图国》开篇即把'内修文德，外治武备'立为求治之道，并警告单边依赖：只修文德是绥靖，只治武备是穷兵。方法论签名是'双轨的不可让渡性'——每一轨都解决另一轨解决不了的问题：文德解决'为何而战、谁愿意战'（士气与兵源的社会根基），武备解决'能否战、如何战'（能力与工具）。判断一个国家、一家公司是否安全，不是看它更重视哪一轨，而是看它是否承认两轨缺一即溃。这是'硬实力-软实力'互补结构的先秦表述，比现代同题论述早两千三百年。",
+      "definition_en": "Wu Qi decomposed national security into two construction sites that must be worked simultaneously. Within, cultivate civil virtue — clean governance, a populace attached to the ruler, restrained expenditure. Without, maintain armament — a standing professional force, equipment, and constant training. His dictum that 'to face the enemy and not advance is contrary to righteousness, yet to mourn over corpses instead of preparing is not benevolence either' fixes his position: virtue cannot substitute for armament, and armament cannot substitute for virtue; the two are complementary premises, not alternatives. The Wuzi opens by establishing 'cultivate virtue within, govern armament without' as the way of good order, and warns against one-sided dependence: virtue alone is appeasement, arms alone is exhaustion through war. The methodological signature is the non-transferability of the two tracks — each solves what the other cannot. Civil virtue answers why to fight and who is willing to fight: the social root of morale and manpower. Armament answers whether one can fight and how: capability and instruments. To judge whether a state, a firm, or a team is secure, do not ask which track it prizes; ask whether it admits that either track alone collapses. This is the Warring States formulation of the hard-power/soft-power complementarity, stated twenty-three centuries before the modern vocabulary.",
+      "source_chapter": "《吴子·图国》：'圣人绥之以道，理之以义，动之以礼，抚之以仁……内修文德，外治武备'；《吴子·图国》'当敌而不进，非义也'章；《吴子·治兵》论训练与恩信并立",
+      "key_concepts": [
+        "内修文德",
+        "外治武备",
+        "文武互补",
+        "单边依赖警告",
+        "士气的政治根基"
+      ],
+      "process_zh": [
+        "盘点：分别列出文德项（吏治、民本、赋役公平）与武备项（兵员、装备、训练），任何一栏空白即视为整体不合格",
+        "排序：先问民心——'百姓皆是吾君而非邻国'是战争的第一资源；再补武备，而非相反",
+        "联动：把军事胜利的收益回流到民生（减赋、授田），让对外胜利强化对内认同",
+        "审计：定期检查两轨是否失衡——只谈道德或只谈武器的话术，都按'结构性自欺'记录在案"
+      ],
+      "process_en": [
+        "Inventory: list civil items (officialdom, livelihood, fair taxation) and military items (personnel, equipment, training) separately; a blank in either column fails the whole.",
+        "Sequence: ask about popular support first — 'the people affirm our ruler and blame the neighbour' is the first resource of war; then build arms, not the reverse.",
+        "Couple the tracks: route the gains of victory back into livelihood (tax relief, land grants) so external success compounds internal legitimacy.",
+        "Audit for imbalance: any discourse of virtue-only or arms-only is recorded as structural self-deception and flagged for correction."
+      ],
+      "representative_cases_zh": [
+        "吴起守西河：一面与诸侯大战七十六场全胜六十四场，一面在河西行'安集吏民'之政，使秦人东出不得民之相应——军事屏障与民政根基互为表里，河西为魏屏蔽秦国二十余年",
+        "魏武侯泛舟西河叹'山河之固'，吴起答'在德不在险'：三苗氏、夏桀、商纣皆有山河之固而亡——防御工事不能替代政治认同，这是'文德轨权重高于工事'的最著名陈述",
+        "反面警示：吴起在楚主持变法时偏重武备与削特权之'外治'，对'内修文德'着墨不足，未建起支撑新法的士人认同与民生回流，悼王一死宗室反扑而新法尽废——双轨失衡的改革者，其制度寿命随短板而定"
+      ],
+      "representative_cases_en": [
+        "Guarding the West River: while winning sixty-four of seventy-six engagements against the feudal lords, Wu Qi also pacified officials and commoners in Hexi, denying Qin any local support when it pushed east — the military screen and the civilian base worked as one, shielding Wei for over twenty years.",
+        "Marquis Wu of Wei, drifting on the West River, marvelled at 'the strength of these mountains and rivers'; Wu Qi answered, 'security lies in virtue, not in terrain' — the Three Miao, Jie of Xia and Zhou of Xin all held natural fortresses and fell. Fortifications cannot substitute for political attachment: the famous statement that the civil track outweighs the engineering one.",
+        "Cautionary counterexample: in Chu, Wu Qi's reform weighted the 'armament without' side — cutting offices and noble privileges — while underbuilding the 'virtue within' side: no scholarly constituency for the new law, no livelihood feedback to the populace. When King Dao died the nobles struck back and the reform died with him. A dual-track reformer whose tracks are unbalanced has an institutional lifespan set by the shorter plank."
+      ],
+      "modern_applications_zh": [
+        "企业竞争力诊断：产品与技术（武备）与组织文化、员工认同（文德）必须双清单盘点，单轨强不是安全",
+        "国防与外交政策的'威慑+正当性'组合：武器账户与叙事账户同步审计",
+        "城市与社区治理：安防投入（硬）与公共服务公平（软）并测，防'只装摄像头不修社区'",
+        "个人职业安全：硬技能与声誉信任双轨积累，任一单轨都会在危机中暴露"
+      ],
+      "modern_applications_en": [
+        "Corporate competitiveness audits: product and technology (the armed track) and organizational culture and employee attachment (the civil track) inventoried on twin checklists — strength in one is not security.",
+        "Deterrence-plus-legitimacy portfolios in defence and foreign policy: the weapons account and the narrative account audited in step.",
+        "Urban governance: security spending (hard) measured alongside fair public services (soft), guarding against cameras without community.",
+        "Personal career security: accumulating hard skills and reputational trust on parallel tracks, since either alone is exposed in a crisis."
+      ],
+      "related_modes": [
+        "M-WQ-001",
+        "M-WQ-009",
+        "M-WQ-010"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "魏文侯（双轨授权者）",
+        "魏武侯（'在德不在险'对话对象）",
+        "克劳塞维茨（战争与政治关系之近代对照）"
+      ],
+      "key_quote_zh": "昔承桑氏之君，修德废武，以灭其国；有扈氏之君，恃众好勇，以丧其社稷——明主鉴兹，必内修文德，外治武备。",
+      "key_quote_en": "The lord of Chengsang cultivated virtue, abandoned arms, and lost his state; the lord of Youhu trusted his numbers, loved valour, and lost his altars. The enlightened ruler takes warning from both: cultivate civil virtue within, govern armament without."
+    },
+    {
+      "id": "M-WQ-003",
+      "name_zh": "审敌虚实趋危法",
+      "name_en": "Enemy Vulnerability Audit: Strike Where the Structure Is Weak",
+      "mode_code": "M-WQ-003",
+      "category": "核心方法",
+      "domain_zh": "军事决策/敌情分析",
+      "domain_en": "Military Decision / Enemy-Structure Analysis",
+      "level": "核心",
+      "priority": "3",
+      "definition_zh": "《吴子·料敌》把'战前必答题'清单化：'用兵必审敌虚实而趋其危'——任何开战决定前，必须先对敌方做结构审计。吴起进一步把审计对象反过来用在己方：魏武侯问'两军相战，何以知胜'，吴起列举可观察的敌方虚弱信号（敌军远来新至、行列未定、涉水半渡、险道狭路、旌旗乱动、数惊数哗、将离士卒等十三种'可击'之机），并同样列出'见可而进，知难而退'的止战清单（敌国君明将能、士卒同心、邻国相助等六种'勿击'之形）。方法论签名有三：其一，判断对象是'结构'而非'人数'——不看敌人有多少，而看其阵型、士气、补给、指挥链处于什么状态；其二，机会与风险做成对称清单，'可击'与'勿击'同等篇幅，防止确认偏误只收集有利于开战的信号；其三，时机窗口化——每个弱点都是窗口，窗口关闭则优势消失，故审计必须与计时器绑定。这把战场判断从勇气问题改写为核对清单问题。",
+      "definition_en": "The Wuzi turns the pre-battle question into a checklist: 'in employing troops one must first audit the enemy's solid and hollow, and press toward his peril.' Before any decision to fight, the enemy's structure must be audited. Wu Qi then runs the same audit in reverse against his own side. Asked how victory can be known when two armies meet, he lists observable signs of enemy weakness — a force newly arrived and not yet formed, half across a river, squeezed into a defile, banners in disorder, repeatedly alarmed and clamorous, a general estranged from his men — thirteen 'attackable' openings; and with equal weight a 'do not attack' list: an enlightened ruler and able general, ranks of one heart, allies coming to aid. Three design choices give the method its signature. First, the object of judgement is structure, not headcount: not how many the enemy has, but what state his formation, morale, supply and command chain are in. Second, opportunity and risk are codified symmetrically — the 'strike' list and the 'spare' list carry equal authority, so confirmation bias cannot collect only pro-war signals. Third, openings are windows: each weakness is time-boxed, and when the window closes the advantage evaporates, so the audit is bound to a clock. Battlefield judgement is thereby rewritten from a matter of courage into a matter of checklist verification.",
+      "source_chapter": "《吴子·料敌》：'凡用兵之法……用兵必审敌虚实而趋其危'；'武侯问曰：两军相战，何以知胜？'十三可击、六勿击诸条；《吴子·应变》论因形用权",
+      "key_concepts": [
+        "审敌虚实",
+        "趋其危",
+        "可击十三机",
+        "勿击六形",
+        "机会窗口",
+        "对称清单"
+      ],
+      "process_zh": [
+        "建单：把'敌可击'与'敌不可击'的观测指标各列成对称清单，缺一面即清单无效",
+        "观测：只记录可观察行为（阵型、行军、喧哗、补给、将吏关系），禁止以意愿推断敌情",
+        "计时：给每个确认的弱点标注窗口期，超窗重新审计——昨日的'半渡'不等于今日的'半渡'",
+        "决策：清单触发才谈打法；'可击'与'勿击'同时出现时，按'勿击'优先处理——存疑即不开战"
+      ],
+      "process_en": [
+        "Build twin lists: codify 'enemy attackable' and 'enemy not attackable' as symmetric checklists of observable indicators; a one-sided list is invalid.",
+        "Observe: record only observable behaviour — formation, movement, clamour, supply, commander-troop relations; inferring the enemy's state from wish is prohibited.",
+        "Time-box: tag each confirmed weakness with a window; on expiry, re-audit — yesterday's 'half across the river' is not today's.",
+        "Decide: tactics are discussed only when a checklist trigger fires; where 'strike' and 'spare' signals conflict, 'spare' takes precedence — in doubt, do not open the fight."
+      ],
+      "representative_cases_zh": [
+        "《吴子·料敌》秦齐楚燕三晋六国性情论：吴起为魏武侯逐一分析'夫齐性刚，其国富……秦性强，其地险……'——对每个潜在对手按国民性、政情、地形定制击法（'凡料敌有不卜而与之战者八'），这是先秦最系统的'对手画像'工程",
+        "安邑之战前对秦军'涉水半渡、行列未定'信号的窗口利用：吴起主张敌渡河渡半、阵形未立时是唯一确窗，'进道易，退道难'的态势必须在窗口内收割",
+        "反面警示：吴起晚年奔楚后，楚国以国力轻齐而不审计；而吴起自己在魏被谗去国，正是因为他对'己方虚实'（魏武侯对功臣的猜忌结构）审计不足——审敌而不审己、审军而不审君，是同一方法最常见的缺角"
+      ],
+      "representative_cases_en": [
+        "The six-state temperament analysis in the Wuzi: for Marquis Wu, Wu Qi profiles each rival in turn — 'Qi is rich and its people rigid in temper... Qin is strong and its ground perilous...' — and prescribes a tailored way to fight each, an 'eight ways to judge the enemy without divining' that is the most systematic opponent-profiling project of the pre-Qin era.",
+        "Window exploitation on signals such as 'half across the river, ranks not yet formed': Wu Qi holds that the enemy mid-crossing, formation unset, presents the one certain window, and that a posture of 'easy to advance, hard to withdraw' must be harvested inside the window.",
+        "Cautionary counterexample: Wu Qi himself fell because he audited the enemy but under-audited his own side — the jealousy structure of Wei's court toward a meritorious outsider. Auditing the enemy but not oneself, the army but not the throne, is the commonest missing corner of this method."
+      ],
+      "modern_applications_zh": [
+        "竞对分析用对称清单：'可攻信号'与'勿攻信号'同表列示，防止只收集支持开战的证据",
+        "投资尽调把'结构弱点'（现金流、集中度、关键人）做成窗口化观测项，超窗作废重估",
+        "危机谈判的时机管理：对方的内部分裂、换届空档都是计窗机会，过窗即失效",
+        "安全运营的事件分级：以可观测指标（而非猜测动机）判定响应等级"
+      ],
+      "modern_applications_en": [
+        "Competitive analysis with symmetric checklists: 'attackable' and 'do-not-attack' signals on one table, so evidence-collecting cannot run one-way.",
+        "Investment due diligence: structural weaknesses (cash flow, concentration, key-person risk) time-boxed as observed indicators that expire and must be re-estimated.",
+        "Opportunity windows in crisis negotiation: an opponent's internal split or transition gap is a clocked opening that dies with the window.",
+        "Security-operations triage: response levels set by observable indicators, never by guessed motives."
+      ],
+      "related_modes": [
+        "M-WQ-005",
+        "M-WQ-006",
+        "M-WQ-009"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "魏武侯（问答对象）",
+        "孙武（'知彼知己'的先声）",
+        "克劳塞维茨（战争迷雾问题的对照）"
+      ],
+      "key_quote_zh": "用兵必审敌虚实而趋其危——见可而进，知难而退。",
+      "key_quote_en": "In employing troops, audit the enemy's solid and hollow and press toward his peril: advance when it is possible, withdraw when you know it is hard."
+    },
+    {
+      "id": "M-WQ-004",
+      "name_zh": "同衣食共劳苦带兵法",
+      "name_en": "Shared-Hardship Command: Leading From Inside the Ranks",
+      "mode_code": "M-WQ-004",
+      "category": "核心方法",
+      "domain_zh": "组织领导/士气工程",
+      "domain_en": "Leadership / Morale Engineering",
+      "level": "核心",
+      "priority": "4",
+      "definition_zh": "吴起把'将吏与士卒的关系'当作可设计的士气工程而非天然权威：'与之安，与之危'——最珍贵的衣食与最底层的士兵同格，卧不设席、行不骑乘、亲裹赢粮，与士卒分劳苦。其符号性顶点是吮疽：士卒生疽，吴起亲为吮之。方法签名在于把'关爱'做成可验证的对称信号——将领放弃的每一项特权（席位、坐骑、饮食）都是士卒可观察的付出证明，士卒以'赴汤蹈火'回付。同时吴起保持军法刚性：'发号布令而人乐闻，兴师动众而人乐战，交兵接刃而人乐死'三乐，靠的是恩信与赏罚同轨——爱兵不是纵兵，军令不因私恩打折。这是把组织凝聚力从'强制'改写为'互惠'的经典结构：上级先单方面支付可见成本，换取下级的超额投入。吮疽的母卒一哭（'吴君吮其子之疽，不知死于何所'），恰好暴露了互惠契约的双刃：被深度关爱的士兵会被期待去死，组织的温情与它的消耗是同一枚硬币。",
+      "definition_en": "Wu Qi treated the general-soldier relationship as an engineerable morale system, not a natural hierarchy of authority: 'share his ease, share his danger.' He wore the same clothes, carried his own rations, slept without a mat, refused his horse on the march, and shared every labour with the lowest ranks. The signature act is sucking the abscess of a common soldier himself. The method's core is turning care into a verifiable, symmetrical signal: every privilege the commander forgoes — mat, mount, food — is an observable cost borne by the superior, repaid by the rank-and-file in supererogatory effort, 'walking into fire and water.' At the same time the military code stays rigid: the three joys — 'that men delight to hear his orders, delight to march when he moves, delight to die when blades cross' — rest on kindness and discipline running on one track; love of the troops is never licence, and no order is discounted for personal favour. This is the classical rewrite of cohesion from coercion into reciprocity: the superior unilaterally pays a visible cost first, buying discretionary effort from below. The mother who wept when she heard her son's abscess had been sucked — 'not knowing where he will now die' — exposes the double edge of the reciprocity contract: deeply cared-for soldiers are expected to die, and an organization's warmth and its consumption of lives are the same coin.",
+      "source_chapter": "《史记·孙子吴起列传》：'起之为将，与士卒最下者同衣食。卧不设席，行不骑乘，亲裹赢粮，与士卒分劳苦。卒有病疽者，起为吮之'；《吴子·治兵》：'与之安，与之危'；'发号布令而人乐闻'三乐章",
+      "key_concepts": [
+        "同衣食共劳苦",
+        "吮疽",
+        "恩信",
+        "三乐",
+        "互惠契约",
+        "军法刚性"
+      ],
+      "process_zh": [
+        "明账：列出将吏现行全部特权清单，逐项决定'保留/放弃'，放弃项必须让士兵看见",
+        "先付：在要求超额投入之前，指挥者先单方面支付可见成本（同食、同行、共险）",
+        "刚性：恩不折法——赏罚与关怀并行不悖，私下情面不得减免军令",
+        "审计：警惕互惠变操纵——每一次'示爱'都隐含对回报的预期，需向组织说明代价由谁承担"
+      ],
+      "process_en": [
+        "Open the ledger: list every privilege commanders currently hold, decide item by item to keep or forgo, and make the forgone items visible to the ranks.",
+        "Pay first: before demanding discretionary effort, the leader unilaterally pays a visible cost — same food, same march, same risk.",
+        "Keep the code rigid: kindness never discounts law; reward-punishment and care run in parallel, and personal favour remits no order.",
+        "Audit the reciprocity: guard against care becoming manipulation — every act of visible love implies expected repayment, and who bears the cost must be stated to the organization."
+      ],
+      "representative_cases_zh": [
+        "吮疽典故全链：病疽士卒被主帅亲吮，'其母闻而哭之。人曰：子卒也，而将军自吮其疽，何哭为？母曰：往年吴公吮其父，其父战不旋踵，遂死于敌；吴公今又吮其子，妾不知其死所矣'——互惠换忠诚的机制与其代价在一段对话中完整呈现",
+        "西河戍守：吴起与士卒同寝同食，秦人不敢东向——《吴子》'与之安，与之危'在二十年边防中被制度化为日常操守而非战时姿态",
+        "反面警示：吮疽式关怀若无军纪兜底会腐蚀指挥权威——后世藩镇'恩过重而法不行'，兵骄逐帅；吴起的平衡在于爱兵与斩亡失次者同日并行，组织温情必须以纪律为承重墙"
+      ],
+      "representative_cases_en": [
+        "The full abscess chain: the commander sucks a private's abscess; the soldier's mother weeps — 'Last year Lord Wu sucked his father's abscess, and his father never turned in battle and died at the front; now he sucks my son's, and I do not know where the boy will die.' One dialogue renders the whole mechanism of loyalty-bought-by-care and its price.",
+        "Guarding the West River: eating and sleeping as the soldiers do for twenty years, Wu Qi kept Qin from pushing east — 'share his ease, share his danger' institutionalized as daily conduct, not wartime posture.",
+        "Cautionary counterexample: care without discipline corrodes command — later garrison warlords whose 'grace outweighed law' saw troops mutiny and expel their chiefs. Wu Qi's balance lay in pairing kindness with executing those who broke order; organizational warmth must have discipline as its load-bearing wall."
+      ],
+      "modern_applications_zh": [
+        "一线管理者'特权让渡'清单：出差标准、工位、餐食与团队对齐，先付可见成本再谈奉献",
+        "危机中的领导力：管理层薪酬与裁员顺序公开挂钩，重建互惠信任",
+        "义工组织与创业团队：领导者承担最脏最累的具体工作，作为可信承诺信号",
+        "警惕'温情即负债'：深度关怀必然抬高回报预期，组织须公开说明其代价与边界"
+      ],
+      "modern_applications_en": [
+        "Managerial privilege-surrender lists: travel standards, offices, meals aligned with the team — pay the visible cost before asking for dedication.",
+        "Crisis leadership: executive pay publicly tied to layoff order, rebuilding reciprocal trust.",
+        "Volunteer groups and startups: leaders doing the dirtiest, hardest concrete work as a credible-commitment signal.",
+        "Beware warmth-as-liability: deep care raises repayment expectations, and the organization must state its costs and limits openly."
+      ],
+      "related_modes": [
+        "M-WQ-001",
+        "M-WQ-005",
+        "M-WQ-008"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "吮疽士卒之母（机制代价的见证者）",
+        "孙武（'上下同欲'的先行表述）",
+        "亚历山大（拒水而同渴的跨文明对照）"
+      ],
+      "key_quote_zh": "与之安，与之危——将之所麾，士之所死；先付而后求，爱之深而法不阿。",
+      "key_quote_en": "Share his ease, share his danger: where the general points, the soldier dies. Pay first, ask after — love deeply, and let the law bend for no one."
+    },
+    {
+      "id": "M-WQ-005",
+      "name_zh": "治气励士气机管理法",
+      "name_en": "Morale as a Managed Variable: Qi Discipline and Timing",
+      "mode_code": "M-WQ-005",
+      "category": "核心方法",
+      "domain_zh": "军事组织/士气管理",
+      "domain_en": "Military Organization / Morale Management",
+      "level": "核心",
+      "priority": "5",
+      "definition_zh": "吴起把'士气'从不可控的情绪改造为可调度、可分相、可校准的作战变量。《吴子·治兵》提出'用兵之法，教戒为先'，并把士气的建立分相处理：'一曰聚，聚之日，谨其来往'（集结期防涣散）、临阵'忍其喜怒'（交战期控情绪）、'凡战之法，昼以旌旗幡麾为节，夜以金鼓笳笛为节'（以信号系统在混乱中维持集体节律）。其名论'凡兵战之场，立尸之地，必死则生，幸生则死'把士气问题归结为'对死亡的集体态度'——不怕死者反而存活，此非鼓动口号，而是通过训练使'必死'成为肌肉记忆与团队预期。方法论签名：士气不是演讲出来的，是被结构（教戒、信号、节奏、军法）制造出来的可计算参数；将领的任务是像管理粮草一样管理它——先储备（教戒）、防漏损（聚散纪律）、按时相投放（进退之节）。",
+      "definition_en": "Wu Qi re-engineered morale from an uncontrollable emotion into a deployable, phased, and calibrated combat variable. The Wuzi holds that 'in the method of employing troops, instruction and discipline come first,' and phases the building of fighting spirit: at muster, guard against dissipation ('be careful of comings and goings'); at the line, govern emotion ('restrain anger and joy'); in battle, keep collective rhythm through a signal system — 'by day, banners and pennants are the measure; by night, gongs, drums, reeds and flutes.' His celebrated dictum — 'the battlefield is ground whereon men are set up to die; he who is resolved to die lives, he who hopes to live dies' — reduces morale to a collective attitude toward death: those unafraid to die are the ones who survive. This is not exhortation; resolution is manufactured through training until 'resolved to die' becomes muscle memory and a shared expectation. The methodological signature: morale is not speech-made but structure-made — an accountable parameter produced by instruction, signals, rhythm, and discipline. The commander's task is to manage it as he manages grain: build reserves through training, prevent leakage through muster discipline, and commit it by phase through the measures of advance and retreat.",
+      "source_chapter": "《吴子·治兵》：'用兵之法，教戒为先'；'凡兵战之场，立尸之地。必死则生，幸生则死'；'昼以旌旗幡麾为节，夜以金鼓笳笛为节'；《吴子·励士》论'发号布令而人乐闻'与犒赏有功以励无功",
+      "key_concepts": [
+        "教戒为先",
+        "必死则生",
+        "旗鼓为节",
+        "士气分相",
+        "励士犒赏"
+      ],
+      "process_zh": [
+        "储备期：以教戒把动作标准化（队列、操弩、行军），让士兵在安全环境中穷尽错误",
+        "集结期：严出入之纪，防松散积累成临阵崩解——士气漏损要像军粮一样按日清点",
+        "交战期：以旗鼓信号接管个体判断，情绪管理让位于节律管理；'忍其喜怒'",
+        "战后：犒赏有功以励无功——《吴子·励士》专章，让未立功者看见回报路径，士气进入下一储备循环"
+      ],
+      "process_en": [
+        "Reserve phase: standardize actions through instruction — formation, crossbow drill, marching — so soldiers exhaust their errors in safety.",
+        "Muster phase: strict entry and exit discipline; morale leakage is counted daily like grain, before it compounds into a battlefield collapse.",
+        "Battle phase: banners and drums take over individual judgement; emotion management yields to rhythm management — 'restrain anger and joy.'",
+        "After action: reward the meritorious in sight of the unmeritorious (the Wuzi's chapter on encouragement), so the unrewarded see the path and morale re-enters the reserve cycle."
+      ],
+      "representative_cases_zh": [
+        "《吴子·励士》设问：'若法令不行，赏罚不信，金之不止，鼓之不进，虽有百万，何益于用？'——吴起主张士气崩坏的第一修复点不是演讲而是恢复赏罚信用，先把'说到做到'修回系统",
+        "魏武卒的教戒体系：新卒先经严格操练方可入阵，操典化训练使'必死'不再是道德要求而是肌肉预期——阴晋之战五万对五十万而不溃，训练储备直接兑现为战场心理优势",
+        "反面警示：士气工程依赖赏罚信用这一地基，吴起去魏后其激励体系随恩信瓦解；若制度本身失信（赏罚不果、特权失控），再多旗帜鼓角也只是噪音——士气管理无法在坏制度上运行"
+      ],
+      "representative_cases_en": [
+        "The Wuzi's own thought experiment: 'If the law is not enforced, rewards and punishments not trusted, and the gong cannot stop them nor the drum move them, what use are a million men?' — the first repair point of broken morale is not oratory but restoring the credibility of reward and punishment: make the system keep its word again.",
+        "The wuzu training system: recruits drilled to standard before ever entering the line, so that 'resolved to die' became muscular expectation rather than a moral demand — at Yinjin fifty thousand did not break against five hundred thousand because training reserves cashed out as battlefield psychology.",
+        "Cautionary counterexample: the morale system rests on the credibility of reward and punishment; once Wu Qi left Wei, his incentive fabric dissolved with his patronage. Where the institution itself defaults — unkept rewards, runaway privilege — banners and drums are noise: morale engineering cannot run on a broken institution."
+      ],
+      "modern_applications_zh": [
+        "销售与客服团队把'士气'拆为可管理相：入职培训（储备）、忙闲调度（集结）、高压时段话术纪律（交战）、即时激励（战后）",
+        "应急与消防队伍的旗鼓对应物：标准信号与预案使个体在混乱中不依赖个人判断",
+        "组织信任修复：先恢复承诺兑现记录，再做动员——奖励不兑现的鼓动必失效",
+        "竞技体育的赛前心理分相：备赛期技术化、临场期节律化"
+      ],
+      "modern_applications_en": [
+        "Sales and support teams phase morale: onboarding (reserve), workload scheduling (muster), script discipline under pressure (battle), and instant recognition (after action).",
+        "Emergency and fire services: standardized signals and drills are the modern drums and banners, replacing individual judgement in chaos.",
+        "Restoring organizational trust: rebuild the record of kept promises before any rallying — exhortation without delivered rewards fails.",
+        "Sports psychology in phases: technical during preparation, rhythmic at competition."
+      ],
+      "related_modes": [
+        "M-WQ-003",
+        "M-WQ-004",
+        "M-WQ-001"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "孙武（'治气'先声，避其锐气击其惰归为曹刿孙武所论）",
+        "曹刿（一鼓作气的前例）",
+        "现代军队教范（同一结构的制度化后裔）"
+      ],
+      "key_quote_zh": "凡兵战之场，立尸之地。必死则生，幸生则死——其令不烦而威，教戒为先。",
+      "key_quote_en": "The battlefield is ground whereon men are set up to die. Resolved to die, you live; hoping to live, you die — hence orders brief but stern, and instruction first."
+    },
+    {
+      "id": "M-WQ-006",
+      "name_zh": "因形用权随机应变法",
+      "name_en": "Contingency Command: Weighing the Situation as It Forms",
+      "mode_code": "M-WQ-006",
+      "category": "核心方法",
+      "domain_zh": "军事决策/应变指挥",
+      "domain_en": "Military Decision / Contingency Command",
+      "level": "核心",
+      "priority": "6",
+      "definition_zh": "《吴子·应变》专论'计划失效之后怎么指挥'：敌众我寡、敌绝我粮道、敌据险坚守、突然遇敌于隘路——每一种意外都配有可执行的处置模板。吴起的名答是：'用众者务平易而治，用少者务隘厄而固……用兵之道，在审敌虚实，因形用权，则不劳而功举。'方法论签名在于'因形用权'四字：'形'是敌我呈现的实际态势，'权'是不拘常法的即席裁量——把指挥从'执行预案'改写为'按态势重新定价'。与只会照图布阵的将领相反，吴起要求事先储备的不是唯一计划，而是一张'态势-对策'映射表：少兵遇众敌则凭险结阵以拖待变，粮道被断则示弱诱敌、分兵夺路，敌恃坚固守则佯退而诱其出击。模板的意义不是代替判断，而是把判断集中在唯一真正的自由变量上——当前态势属于表中的哪一格。这是军事史上最早的'如果-那么'决策树之一。",
+      "definition_en": "The Wuzi's chapter on contingencies is devoted to command after the plan breaks: the enemy numerous while we are few, his force cutting our grain route, his army holding a defile, sudden contact in a narrow road — each surprise carries an executable playbook. Wu Qi's summary answer: 'To use many, seek open ground and order; to use few, seek narrow ground and a firm stance... In the way of employing troops, audit the enemy's solid and hollow, and apply discretion according to the configuration — then the work is light and the success complete.' The method's signature is the phrase 'according to the configuration, apply discretion': the configuration (xing) is the situation as it actually presents, and discretion (quan) is improvised judgement unbound by standing rules — command is rewritten from executing a plan to re-pricing the situation as it forms. Unlike generals who arrange troops only by the diagram, Wu Qi's pre-stored asset is not a single plan but a situation-to-response mapping: with few against many, anchor on difficult ground and hold for time; with the grain route cut, feign weakness to lure, detach to retake the road; against an enemy trusting his walls, feign retreat to draw him out. The templates exist not to replace judgement but to concentrate it on the one real free variable — which cell of the table does the current configuration fall into. This is among the earliest if-then decision trees in military history.",
+      "source_chapter": "《吴子·应变》：'用众者务平易而治，用少者务隘厄而固'；'武侯问曰：敌众我寡，治之奈何？''若敌众我寡，因而避之'诸问答；《吴子·论将》'因形用权'义",
+      "key_concepts": [
+        "因形用权",
+        "态势-对策映射",
+        "用众用少",
+        "预案储备",
+        "即席裁量"
+      ],
+      "process_zh": [
+        "储备：把常见意外（众寡、断粮、据险、遭遇）各配处置模板，模板须写明适用前提",
+        "识别：遇变先归类——当前态势匹配哪一模板，前提条件是否满足",
+        "裁量：模板只是起点，按实际地形敌情做加减——因形用权，不拘成法",
+        "复盘：每次应变后核对模板失效原因，更新映射表——预案库是活的资产"
+      ],
+      "process_en": [
+        "Pre-store: give each common surprise (numbers, cut supply, held defile, sudden contact) an executable template with its applicability conditions written in.",
+        "Classify: on contact, first sort — which template does the configuration match, and are its premises met?",
+        "Exercise discretion: templates are the starting point; adjust for actual terrain and enemy — weigh by the configuration, not the book.",
+        "Review: after each contingency, log why the template under- or over-performed and update the mapping — the playbook is a living asset."
+      ],
+      "representative_cases_zh": [
+        "《吴子·应变》'敌众我寡'问答：武侯问敌十倍于我奈何，吴起答'因而避之，匿其形，示之以弱'，同时以奇兵抄其侧后——避战不是逃跑而是诱其分兵，把'少'转化为'先手'",
+        "守西河期间对秦军各种来袭路线的预案演练：吴起治军以'进有重赏，退有重刑'配合地形预案，秦军屡试不同路线皆被对应处置——预案库的价值在于敌人也在被模板训练",
+        "反面警示：模板依赖会造成'上一场战争的将领'——吴起入楚后照搬魏式精兵与对秦预案，而楚的地形、贵族军制与作战对象全然不同，模板未随形更新；应变法的前提是映射表持续校准，而非收藏"
+      ],
+      "representative_cases_en": [
+        "The 'enemy many, we few' exchange: asked what to do when the enemy outnumbers tenfold, Wu Qi answers 'evade, conceal your shape, display weakness,' while striking his flank with detached troops — evasion as bait to split the enemy, converting 'few' into the first move.",
+        "At the West River, drills against every likely Qin approach: strict rewards for advancing and penalties for retreating ran alongside terrain-specific playbooks, and each new Qin route met its prepared answer — the playbook's value compounded because the enemy, too, was being trained by the templates.",
+        "Cautionary counterexample: template dependence breeds 'generals of the last war.' In Chu, Wu Qi transplanted Wei-style elite infantry and anti-Qin playbooks onto terrain, a noble military system, and opponents wholly different, without recalibrating the mapping. Contingency method presupposes a continuously re-fitted playbook, not a treasured one."
+      ],
+      "modern_applications_zh": [
+        "事故指挥系统的ICS预案结构：分场景模板+前提条件+现场裁量权分级",
+        "初创企业竞争应对：巨头进入、融资断档、关键人离职各配预案，先归类再处置",
+        "量化交易与风控：极端行情剧本化，'因形用权'=按实际波动结构选择剧本并允许人工override",
+        "飞行与手术应急预案：训练中的'如果-那么'清单，把临场认知负荷压到归类判断"
+      ],
+      "modern_applications_en": [
+        "Incident-command systems: scenario templates plus stated preconditions plus graduated field discretion.",
+        "Startup competitive playbooks: prepared responses to a giant's entry, a funding gap, a key departure — classify first, act second.",
+        "Quant trading and risk control: scripted extreme-market scenarios; 'weigh by configuration' means picking the script from actual volatility structure with human override allowed.",
+        "Aviation and surgical emergency protocols: if-then checklists in training that compress in-flight cognition to classification."
+      ],
+      "related_modes": [
+        "M-WQ-003",
+        "M-WQ-005",
+        "M-WQ-009"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "魏武侯（问答对象）",
+        "孙武（'兵形象水'的先声）",
+        "现代ICS体系（结构后裔）"
+      ],
+      "key_quote_zh": "因形用权，则不劳而功举——善战者不拘成法，而应之于形。",
+      "key_quote_en": "Weigh by the configuration and success comes without strain: the master of battle is not bound by standing rules, but answers what the situation presents."
+    },
+    {
+      "id": "M-WQ-007",
+      "name_zh": "赏罚信明法治军法",
+      "name_en": "Credible Enforcement: Reward and Punishment as System Credibility",
+      "mode_code": "M-WQ-007",
+      "category": "核心方法",
+      "domain_zh": "制度设计/军法信用",
+      "domain_en": "Institutional Design / Enforcement Credibility",
+      "level": "核心",
+      "priority": "7",
+      "definition_zh": "吴起把'赏罚'从统御术升级为系统信用问题：《吴子》反复以'发号施令，而人乐闻；兴师动众，而人乐战；交兵接刃，而人乐死'为治军目标，而其前提是'赏罚不信则令不行'。他的实操是把承诺做成'当场兑现的公共事件'：赏不过宿——有功者当日受赏，使赏格成为可观察的即时结算；罚则'一人投石超距者斩'级别的执法用来确立'法不阿贵贱'的先例。与儒家'导德齐礼'路径不同，吴起的方法论签名是'信用先于内容'：赏什么罚什么可以商榷，但'说到必须做到'不可让渡——组织的全部动员能力都建立在成员对系统承诺兑现概率的估计上，一次失信的折损远超一次慷慨的增益。这也是法家'信赏必罚'的军事表达，与商鞅徙木立信同构，而吴起把它内嵌为军队日常的运营纪律。",
+      "definition_en": "Wu Qi upgraded reward and punishment from the art of command to a question of system credibility. The Wuzi's declared goal is that 'when orders are issued men delight to hear them; when the host moves men delight to march; when blades cross men delight to die' — and its stated precondition is that 'if rewards and punishments are not trusted, orders will not run.' His practice turned promises into public, same-day settlement events: rewards paid without overnight delay, so the reward schedule became an observable instant ledger; and punishments enforced at the level of beheading a man who exceeded his place in a stone-throwing contest, to establish the precedent that law bows to neither rank nor favour. Unlike the Confucian route of 'guiding by virtue and aligning by ritual,' the signature of Wu Qi's method is credibility-before-content: what exactly is rewarded or punished is negotiable, but that words are kept is not. All mobilizing power of an organization rests on members' estimate of the probability that the system honours its promises; a single default costs more than a bounty gains. This is the military expression of the Legalist credo 'trustworthy rewards, certain punishments' — isomorphic to Shang Yang's pole-moving act of good faith — which Wu Qi embedded as everyday operating discipline of an army.",
+      "source_chapter": "《吴子·治兵》：'凡兵之法，赏罚为之先……赏罚不信，则民不死'；'一人投石超距，不觉而斩之'条；《吴子·励士》：'君其举有功而进飨之，无功而励之'；《史记》吴起治军'进有重赏，退有重刑'义",
+      "key_concepts": [
+        "赏不过宿",
+        "信赏必罚",
+        "法不阿贵",
+        "系统信用",
+        "励士飨功"
+      ],
+      "process_zh": [
+        "立约：赏罚条款公开、可数、不溯既往——成员必须能预先算出行为的后果",
+        "即时：奖励当日兑现、惩罚当场执行，杜绝'秋后'式信用折价",
+        "对等：法不阿贵——对功臣与贵族同样执法，用一次高成本执法买断全部疑问",
+        "审计：定期核查'承诺兑现率'，把失信事件当作系统事故而非人际纠纷处理"
+      ],
+      "process_en": [
+        "Contract openly: reward and punishment clauses public, countable, non-retroactive — members must be able to compute consequences in advance.",
+        "Settle instantly: rewards paid the same day, punishments executed on the spot; no 'later' discounts of credibility.",
+        "Apply equally: law bows to no rank — enforcing once against a favourite or noble buys out every future doubt at one high cost.",
+        "Audit credibility: review the promise-kept rate periodically and treat defaults as system incidents, not interpersonal disputes."
+      ],
+      "representative_cases_zh": [
+        "《吴子·治兵》'一人投石超距'条：军中比赛投石越距，有士卒逾越而吴起不觉、仍斩之——以一次看似过苛的执法宣告'军法之外无特殊'，此后再无人以身试法",
+        "励士飨功制度：《吴子·励士》设计'举有功而进飨之，无功而励之'——国君设宴功臣坐前列、无功者坐后食不如，使荣誉差可视可感，把激励做成公开的排序仪式",
+        "反面警示：吴起在楚变法'使封君之子孙三世而收爵禄'，赏罚信用用到了宗室头上却无兵权与时间兜底——信用系统可以被执行，但执行者自身失去庇护时系统即崩；法不阿贵的前提是执法者有足以自保的权力结构"
+      ],
+      "representative_cases_en": [
+        "The stone-throwing clause: in a barracks contest of casting stones, a soldier overstepped the mark; Wu Qi, unaware, had him executed — one seemingly harsh enforcement declaring that outside the code there are no exceptions, and none tested the law again.",
+        "The honour-feast institution: the Wuzi designs a banquet where the meritorious sit in front and eat better while the unmeritorious sit behind, making the honour gap visible and felt — incentives staged as public ranking ritual.",
+        "Cautionary counterexample: in Chu, Wu Qi extended his credible-enforcement logic to the nobility — reclaiming noble fiefs after three generations — with neither troops nor time to back the enforcement. A credibility system can be enforced, but when the enforcer loses his own protection the system collapses: law that bows to no rank presupposes an enforcer with a power structure to shield him."
+      ],
+      "modern_applications_zh": [
+        "组织绩效制度：奖惩规则事前公开、结算周期缩短到'当日可见'，杜绝'年底看心情'",
+        "合规与审计：对高管违规同等执法一次，买断全员对制度真实性的怀疑",
+        "平台规则治理：处罚条款公示、申诉可预期，把'规则信用'当作核心资产运营",
+        "国际关系与合同：制裁与小额违约的即时执行优先于宏大而不兑现的条款"
+      ],
+      "modern_applications_en": [
+        "Performance systems: rules published in advance, settlement cycles compressed to same-day visibility — no year-end moods.",
+        "Compliance and audit: enforce once against a senior executive as against anyone, buying out全员 scepticism about the institution's reality.",
+        "Platform rule governance: published penalties and predictable appeals, running 'rule credibility' as a core asset.",
+        "International relations and contracts: instant enforcement of small defaults outranks grand unenforceable clauses."
+      ],
+      "related_modes": [
+        "M-WQ-001",
+        "M-WQ-005",
+        "M-WQ-010"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "商鞅（徙木立信的同构者）",
+        "魏武侯（励士飨功的执行者）",
+        "韩非（'信赏必罚'的理论化者）"
+      ],
+      "key_quote_zh": "赏罚不信，则民不死——军中无戏言，赏不过宿，罚不逾时。",
+      "key_quote_en": "If rewards and punishments are not trusted, men will not die for you: no jests in the army — reward by nightfall, punishment without delay."
+    },
+    {
+      "id": "M-WQ-008",
+      "name_zh": "五路偕进与兵力配置法",
+      "name_en": "Task-Force Allocation: Matching Force Shape to Mission Shape",
+      "mode_code": "M-WQ-008",
+      "category": "核心方法",
+      "domain_zh": "军事组织/兵力运用",
+      "domain_en": "Military Organization / Force Employment",
+      "level": "核心",
+      "priority": "8",
+      "definition_zh": "《吴子·治兵》提出'凡兵有四机'与对车、骑、步各兵种的分工论：'武侯问曰：车骑之选奈何？'吴起逐一说明车兵如何'陷阵'、骑兵如何'邀击'、步兵如何'坚阵'，并要求将领'明其器用、习其部曲'——每种兵力按其物理特性分配它最能兑现的任务。其结构性名论'短者持矛戟，长者持弓弩，强者持旌旗，勇者持金鼓，弱者给厮养，智者为谋主'：不是把人分出高下，而是把不同禀赋放进各自收益最大的位置。方法论签名在于'形状匹配'——战斗力不是人数的总量，而是任务形状与兵力形状的匹配度；将领的核心工作是做这个匹配器。魏武卒、车骑步协同、乃至'一军之中必有虎贲之士'的特项配置，都是同一原理的展开：先定义任务剖面，再为每个剖面配养专门的工具与人。",
+      "definition_en": "The Wuzi theorizes force allocation as shape-matching. Asked how to choose among chariots, cavalry and infantry, Wu Qi assigns each arm the mission its physical nature redeems best: chariots to shatter formed lines in the shock role, cavalry to intercept, pursue and raid, infantry to hold the line and hold ground — and he demands that commanders 'know the use of each weapon and train each unit in its own art,' because a force trained uniformly fights nowhere well. His structural dictum runs: 'let the short carry spear and halberd, the tall draw bow and crossbow, the strong bear the banners, the brave beat the gongs and drums, the weak serve in the train, and the wise be masters of counsel.' Men are not ranked into better and worse but placed where each endowment earns its highest return — stature, strength, nerve, and intellect are four different currencies, and the army is their exchange. The method's signature is shape-matching: combat power is not headcount but the fit between the shape of the mission and the shape of the force; the commander's core job is to be that matcher, refusing both the one-pattern army and the ranking that wastes endowments. The wuzu system, the combined-arms answers on chariots and horse, and the provision that every army contain a cadre of tiger-warriors — men of exceptional strength and speed held ready for special tasks — are all unfoldings of one principle: define the mission profile first, then raise and maintain dedicated instruments and people for each profile. Xunzi's later complaint that the wuzu 'decay within a few years' exposes the boundary: profiles must be re-priced as men age and missions change, since a shape frozen into a lifetime label becomes its own kind of mismatch. This is the ancestor of modern combined-arms doctrine, special-operations tiering, and endowment-based team design: profile the mission, match the shape, train the specialist, couple the rhythms.",
+      "source_chapter": "《吴子·治兵》：'短者持矛戟，长者持弓弩，强者持旌旗，勇者持金鼓，弱者给厮养，智者为谋主'；'武侯问曰：车骑步卒奈何？'诸问答；《吴子·图国》'一军之中，必有虎贲之士'条",
+      "key_concepts": [
+        "四机",
+        "车骑步分工",
+        "禀赋-岗位匹配",
+        "虎贲之士",
+        "任务剖面"
+      ],
+      "process_zh": [
+        "剖任务：把作战分解为任务剖面（陷阵、追击、坚守、奇袭、后勤、谋议），禁止'万人一式'",
+        "配形状：按物理与禀赋特征把人/装备分入剖面——身高、膂力、胆气、智力各得其所",
+        "专训：每一剖面独立训练与操典，'习其部曲'——通用兵不若专业兵",
+        "协同：以旗鼓信号把各剖面节律耦合，使分工在战场上重新合成为一个整体"
+      ],
+      "process_en": [
+        "Profile the mission: decompose operations into mission profiles — breaking lines, pursuit, holding, raiding, logistics, counsel — forbidding 'one pattern for all.'",
+        "Match shapes: assign men and equipment to profiles by physical and cognitive endowment — stature, strength, courage, intellect each find their place.",
+        "Train specialist: each profile drills to its own standard — a generalist soldier is inferior to a professional one.",
+        "Couple: banners and drums synchronize the profiles' rhythms so division of labour re-fuses into one body on the field."
+      ],
+      "representative_cases_zh": [
+        "魏武卒的兵种构成与'虎贲之士'条：吴起要求每军精选'力能扛鼎、材力健疾'者数百人为突击骨干，其余按武卒标准配置——同一支军队内部就有'通用精兵'与'特项骨干'两级剖面",
+        "《吴子·治兵》人马医与后勤条：'凡军之所出，必先简兵厉器……其有伤者，载还'——把医护与后勤作为独立剖面纳入建制，战斗力=战斗员+保障链的最早系统表述之一",
+        "反面警示：禀赋匹配若僵化会压抑成长与跨剖面冗余——魏武卒一旦成军即按剖面固化，老卒不能转岗、新卒难以递补，荀子所指'数年而衰'的结构性根源之一即在此；匹配必须是动态重新定价而非终身标签"
+      ],
+      "representative_cases_en": [
+        "The tiger-warrior cadre: Wu Qi required each army to select several hundred of exceptional strength and speed as the assault core within the wuzu establishment — one army holding both generalist elite and special-task tiers.",
+        "Medics and logistics as a profile: 'when the army marches, first pare the men and hone the arms... carry back the wounded' — one of the earliest systematic statements that combat power equals fighters plus the support chain.",
+        "Cautionary counterexample: rigid matching suppresses growth and cross-profile redundancy. Once formed, the wuzu froze by profile: veterans could not transfer, recruits could not fill in — a structural root of Xunzi's 'decayed within a few years.' Matching must be dynamic re-pricing, not a lifetime label."
+      ],
+      "modern_applications_zh": [
+        "产品团队按任务剖面配置：攻坚、守护、开拓、运营各自专训，'短者持矛戟'的禀赋-岗位匹配",
+        "特勤与应急单位的两级结构：通用精锐+特项骨干（谈判手、爆破、狙击）",
+        "供应链设计：把保障链（医疗、维修、补给）当作一级作战单元而非成本中心",
+        "人才盘点以'形状匹配'替代绩效排名：先问任务剖面，再问人的形状"
+      ],
+      "modern_applications_en": [
+        "Product teams staffed by mission profile — assault, sustainment, exploration, operations — each trained to its own art.",
+        "Two-tier special and emergency units: generalist elite plus special-task cadre (negotiators, breachers, marksmen).",
+        "Supply-chain design: medics, repair and resupply treated as a first-class combat unit, not a cost centre.",
+        "Talent reviews that replace performance ranking with shape-matching: profile the mission first, then fit the people."
+      ],
+      "related_modes": [
+        "M-WQ-001",
+        "M-WQ-005",
+        "M-WQ-009"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "孙武（兵种运用先声）",
+        "魏武侯（问对者）",
+        "拿 commander拿破仑（兵种合成之近代对照）"
+      ],
+      "key_quote_zh": "短者持矛戟，长者持弓弩，强者持旌旗，勇者持金鼓，弱者给厮养，智者为谋主——用人如用器，各效其长。",
+      "key_quote_en": "The short bear the spear, the tall the crossbow, the strong the banners, the brave the drums, the weak the train, the wise the counsel: employ men as instruments — each at his best return."
+    },
+    {
+      "id": "M-WQ-009",
+      "name_zh": "四和三威将道修养法",
+      "name_en": "The Commander's Ledger: Harmony Within, Awe Without",
+      "mode_code": "M-WQ-009",
+      "category": "核心方法",
+      "domain_zh": "领导力/将道",
+      "domain_en": "Leadership / The Commander's Art",
+      "level": "核心",
+      "priority": "9",
+      "definition_zh": "《吴子·论将》给将领开出的不是战术清单而是人格与关系的审计表：'所慎者五：一曰理，二曰备，三曰果，四曰戒，五曰约'——治理有理、戒备常设、决胜果断、临机警惕、约束简明。又提出'四和'：'和国之治，和军之中，和阵之前，和阵之后'——国家、军内、阵前、阵后四个界面的内部一致，是作战力的社会前提；'三威'：'威耳、威目、威心'——让号令通过声音、旗帜与赏罚进入士兵的耳、目、心，使'三军之众，一人之耳目'。方法论签名：吴起把'将领'定义为多个关系界面的耦合器——对君、对士、对敌、对己，任何一界面断裂（君疑、士离、敌侦、己怠）即整体失效。他本人的一生恰是这套审计的负面注脚：才能每一项俱佳，而'对君'界面（猜忌与处世）终身未修，终死于非命——将道清单里最难的一格是自我。",
+      "definition_en": "The Wuzi's chapter on the commander is not a tactics list but an audit of character and relationships. Five things demand vigilance: order in governance, constant preparedness, decisiveness at the point of victory, alertness in crisis, and economy and simplicity in orders. Then the four harmonies: harmony in the governance of the state, within the army, before the line, and behind the line — internal consistency across four interfaces as the social precondition of combat power. And the three awes: awe of the ear, of the eye, of the heart — commands must reach the soldier through sound, banners, and reward-punishment alike, 'so that the host of three armies becomes the eyes and ears of one man.' The signature: the commander is defined as a coupler of interfaces — toward the ruler, the troops, the enemy, and himself; a break in any one (the ruler's suspicion, the soldiers' estrangement, the enemy's intelligence, one's own slackness) fails the whole. Wu Qi's own life is the audit's negative footnote: superb on every capability, yet the ruler-facing interface — suspicion and self-presentation — never repaired, and he died by violence. The hardest cell in the commander's ledger is the self.",
+      "source_chapter": "《吴子·论将》：'所慎者五：一曰理，二曰备，三曰果，四曰戒，五曰约'；'四和''三威'诸条；《吴子·应变》'将之所慎，气也机也'义；《史记》吴起之死",
+      "key_concepts": [
+        "五慎",
+        "四和",
+        "三威",
+        "界面耦合",
+        "将道自审"
+      ],
+      "process_zh": [
+        "界面盘点：把将才拆为对君、对士、对敌、对己四个关系账户，逐一定期审计",
+        "五慎自检：理、备、果、戒、约按季对照——'果'与'戒'须并查，防果断滑为轻率",
+        "三威建设：号令同时在耳（金鼓）、目（旗麾）、心（赏罚）三通道保持一致，任何单通道失效即演练修复",
+        "补最弱格：找出四界面中最弱者强制投入——吴起式人物通常弱在'对君'与'对己'"
+      ],
+      "process_en": [
+        "Inventory the interfaces: split command talent into four relationship accounts — ruler, troops, enemy, self — audited on a schedule.",
+        "Run the five checks: order, preparedness, decisiveness, alertness, economy, quarterly; audit 'decisive' together with 'alert' so resolve does not slide into recklessness.",
+        "Build the three awes: keep orders consistent across ear (drums), eye (banners), and heart (rewards/punishments); any single-channel failure is drilled for repair.",
+        "Invest in the weakest cell: find the most fragile interface and force investment there — the Wu Qi-type character typically fails on 'ruler' and 'self.'"
+      ],
+      "representative_cases_zh": [
+        "《吴子·论将》'三威'设计：'凡战之法，昼以旌旗为节，夜以金鼓为节……鼓鸣旗麾则进，金止旗偃则退'——把指挥权做成三通道冗余系统，任何一通道被切断仍可维持控制",
+        "四和之'和国之治'：吴起答武侯'兵之战在人，人之战在政'——军队战力上限由政治界面（吏治、民附）决定，将领无法在坏政治上修出好军队",
+        "反面警示：吴起本人'对君界面'的终身失修——在魏遭谗奔楚、在楚削宗室而悼王一死即被射杀，'能而君不御'的反命题'君疑而将危'以最惨烈方式应验；将道审计若缺自我一格，全部才能都是别人的靶子"
+      ],
+      "representative_cases_en": [
+        "The three awes as channel redundancy: 'by day, banners govern; by night, drums govern... drums beat and banners rise, advance; gongs sound and banners drop, withdraw' — command built as a three-channel redundant system that keeps control even when one channel is cut.",
+        "Harmony of state governance: asked what decides battle, Wu Qi answers that battle is decided by men, and men by government — the ceiling of an army's power is set by the political interface; no commander builds a good army on bad politics.",
+        "Cautionary counterexample: Wu Qi's own ruler-facing interface, unrepaired across a lifetime — slandered out of Wei, in Chu stripping the nobles until King Dao's death left him shot dead at the altar. The inverse of 'an able general unhandicapped by his ruler' is 'a ruler suspicious and the general doomed': a commander's audit that omits the self turns all talent into someone's target."
+      ],
+      "modern_applications_zh": [
+        "高管四账户盘点：对董事会、对团队、对竞争对手、对自己（健康与继任）逐一定期审计",
+        "组织沟通的三通道原则：邮件、会议、激励口径必须一致，单一通道断线即演练修复",
+        "'五慎'用作高管季度自检表：治理、备援、决断、警觉、简明，'果'与'戒'并查",
+        "明星职业人的'对上界面'风险：把与出资人/上级的信任建设当成专项而非社交副产品"
+      ],
+      "modern_applications_en": [
+        "Executive four-account review: board, team, competitors, and self (health, succession) audited on a schedule.",
+        "Three-channel communication doctrine: email, meetings, and incentive signals must agree; a broken channel triggers repair drills.",
+        "The five checks as a quarterly executive self-audit: governance, backup, decisiveness, alertness, economy — 'decisive' always checked with 'alert.'",
+        "Star-professional 'upward-interface' risk: treat trust-building with sponsors and superiors as a workstream, not a social by-product."
+      ],
+      "related_modes": [
+        "M-WQ-002",
+        "M-WQ-004",
+        "M-WQ-006"
+      ],
+      "representative_figures": [
+        "吴起（核心，正反两案）",
+        "魏武侯（君疑界面的历史样本）",
+        "孙武（'将能而君不御'的对应命题）",
+        "司马穰苴（同时代将道建设的对照）"
+      ],
+      "key_quote_zh": "理、备、果、戒、约，将之所慎；和于四际，威于三通——最难的审计格是自我。",
+      "key_quote_en": "Order, preparedness, decisiveness, alertness, economy: the commander's five vigils. Harmony across four interfaces, awe through three channels — and the hardest audit cell is the self."
+    },
+    {
+      "id": "M-WQ-010",
+      "name_zh": "徙国变法权谋终身法",
+      "name_en": "The Reform Exile: Institutional Change Under Lifetime Risk",
+      "mode_code": "M-WQ-010",
+      "category": "核心方法",
+      "domain_zh": "政治改革/变法方法论",
+      "domain_en": "Political Reform / Institutional Change Under Risk",
+      "level": "核心",
+      "priority": "10",
+      "definition_zh": "吴起是先秦变法家的原型样本：一生两度主持系统性改革（在魏建武卒军制、在楚'损其有余而继其不足'），两度都因'改革者的政治界面'而非改革内容本身失败。在楚的方案是完整的结构手术：封君三世收爵禄、裁冗官、抚养战斗之士——把贵族世袭的存量资源转移到国家动员的增量能力上。方法论签名与教训并生：其一，变法的本质是'利益存量的再分配'，技术方案永远正确，政治同盟永远不足；其二，改革的时间窗由庇护人（楚悼王）的寿命决定，吴起未在窗口内建立不依赖庇护人的制度承重结构（士人集团、新军忠诚、接班梯队）；其三，他的死法本身构成方法论的最后一课——楚悼王尸身未寒，宗室射杀吴起并'中王尸'，而楚国法'丽兵于王尸者夷'，吴起临死伏王尸，用自己之死为变法换来最后一次执法。把个人毁灭设计为制度的最后一张牌，是改革者方法论的极端形态：吴起证明了变法者可以用死完成执行，也证明了没有承重结构的改革只能靠死完成执行。",
+      "definition_en": "Wu Qi is the prototype of the Warring States reformer: twice he ran systemic reform — building the wuzu military institution in Wei, and in Chu 'cutting what had excess to supply what lacked' — and both failed on the reformer's political interface, never on the content. His Chu programme was a complete structural surgery: reclaiming noble fiefs and ranks after three generations, dismissing redundant offices, and rearing fighting men — transferring the stock of aristocratic privilege into the flow of state mobilizing capacity. Method and lesson are born together. First, reform is redistribution of an entrenched interest stock: the technical plan is always right, the political coalition always short. Second, the window of reform is set by the patron's lifespan — King Dao of Chu — and Wu Qi failed to build, inside the window, load-bearing institutions independent of the patron: a scholar-official constituency, the loyalty of the new army, a succession bench. Third, his death is itself the method's final lesson: before King Dao's body was cold the nobles shot Wu Qi, and their arrows struck the king's corpse. Chu's law held that striking the royal corpse was a capital crime for the whole clan; Wu Qi, dying, threw himself onto the king's body — spending his own death to trigger one last enforcement of his law. Designing one's destruction as the system's final move is the extreme form of the reformer's method: Wu Qi proved a reformer can complete execution with his death, and that reform without load-bearing institutions can be completed only by death.",
+      "source_chapter": "《史记·孙子吴起列传》：楚悼王'以起为相……使封君之子孙三世而收爵禄，减百吏之禄秩，损不急之枝官，以奉选练之士'；'及悼王死，宗室大臣作乱而攻吴起……起之走而王尸，击起之徒因射刺起，并中悼王'；《吕氏春秋·贵卒》：'吴起曰：群臣乱王……吴起死矣，且荆国之法，丽兵于王尸者，尽加重罪'；《韩非子·和氏》论吴起变法之败",
+      "key_concepts": [
+        "三世收爵禄",
+        "损有余继不足",
+        "变法窗口",
+        "庇护人依赖",
+        "承重结构",
+        "以身殉法"
+      ],
+      "process_zh": [
+        "诊断存量：列出改革要动的既得利益清单，按'可削程度'排序，估算每项的反扑能力",
+        "换流量：把削得的存量转为增量能力（练士、实仓、减赋），让改革立刻产生可见受益者",
+        "建承重：在庇护人在世时，把新制度焊进不依赖个人的结构（新军、法典、士人仕途）",
+        "预案终局：预设庇护人死亡后的政治地图，为每个反扑路径准备对策——包括最坏情况下的'以身殉法'"
+      ],
+      "process_en": [
+        "Diagnose the stock: list the entrenched interests reform must touch, rank them by how much can be cut, and estimate each one's capacity to strike back.",
+        "Convert stock to flow: channel the cut surplus into visible new capacity — trained soldiers, filled granaries, lighter taxes — so the reform creates beneficiaries at once.",
+        "Build the load-bearers: while the patron lives, weld the new institutions into structures independent of the person — a new army, a code, a scholar-official career track.",
+        "Plan the endgame: map post-patron politics in advance with a response for every counterattack path — including, worst case, spending one's own death to complete enforcement."
+      ],
+      "representative_cases_zh": [
+        "楚变法方案全貌：'使封君之子孙三世而收爵禄，减百吏之禄秩，损不急之枝官，以奉选练之士'——三部曲（削存量、裁冗费、养增量）是先秦变法最完整的文本方案之一，商鞅其后几乎全盘沿用",
+        "伏尸殉法的终局设计：《吕氏春秋》记吴起中箭后高呼'群臣乱王'而伏悼王之尸——宗室箭中王尸依法尽诛七十余家，变法的最后一项执行由吴起的死亡完成；这一举动同时是战术、法理与个人命运的三重设计",
+        "反面警示：韩非总结'楚不用吴起而削乱'却更点破机制——吴起之败非方案之败而是承重失败：无士人集团承接、新军未效忠个人制度、无接班梯队，悼王一死改革全部回退；商鞅有秦制与连坐军功的新兴受益者垫底，吴起的楚国什么都没有——改革者与其发明方案，不如先发明能活过庇护人的同盟结构"
+      ],
+      "representative_cases_en": [
+        "The full Chu programme: 'the heirs of enfeoffed lords lose their ranks and stipends after three generations; the salaries of the hundred offices are cut; superfluous branch offices are abolished, to sustain selected and drilled fighting men' — a three-step plan (cut stock, trim waste, feed capacity) and the most complete textual programme of pre-Qin reform, adopted almost wholesale by Shang Yang after him.",
+        "The endgame by the royal corpse: the Lüshi Chunqiu records Wu Qi, pierced by arrows, crying 'the ministers rebel against the king!' and throwing himself upon King Dao's body — the clansmen's arrows struck the royal corpse, and by Chu law all were sentenced to death, over seventy families exterminated. The last execution of the reform was completed by Wu Qi's death: at once tactical, legal, and personal design.",
+        "Cautionary counterexample: Han Fei's verdict — 'Chu ignored Wu Qi and grew weak and disordered' — points at the mechanism: the failure was not of design but of load-bearing. No scholar constituency to carry the law, a new army uncommitted to institutions rather than a man, no succession bench; when King Dao died, everything rolled back. Shang Yang had Qin's new beneficiaries of military merit as ballast; Wu Qi's Chu had nothing. A reformer, before designing a programme, must first invent a coalition able to outlive the patron."
+      ],
+      "modern_applications_zh": [
+        "转型企业高管的'承重结构'检查：CEO离任后制度是否独立存续——流程、中层梯队、董事会共识",
+        "公共政策推行的庇护人依赖审计：领导人换届/选举周期对改革存活率的冲击评估",
+        "组织变革的受益者前置：先让增量受益者可见可感，再动存量利益",
+        "关键人物风险的终局预案：为每个反扑路径预置对策，包括关键人退出时的最后执行机制"
+      ],
+      "modern_applications_en": [
+        "Load-bearing checks for transformation CEOs: do the institutions survive the CEO's exit — processes, middle bench, board consensus?",
+        "Patron-dependency audits in public policy: how election cycles and leadership turnover affect a reform's survival rate.",
+        "Beneficiary-first sequencing in organizational change: make the new beneficiaries visible before touching entrenched stock.",
+        "Endgame planning for key-person risk: a prepared response for every counterattack path, including a last-execution mechanism for the moment the key person exits."
+      ],
+      "related_modes": [
+        "M-WQ-007",
+        "M-WQ-002",
+        "M-WQ-009"
+      ],
+      "representative_figures": [
+        "吴起（核心）",
+        "楚悼王（庇护人窗口）",
+        "商鞅（承重结构成功之对照）",
+        "韩非（变法失败机制的分析者）"
+      ],
+      "key_quote_zh": "损其有余而继其不足——变法者当先发明能活过庇护人的承重结构；若不能，以身殉法是最后一张牌。",
+      "key_quote_en": "Cut what has excess to supply what lacks. Before designing the programme, the reformer must invent load-bearing structures that outlive the patron — if he cannot, his own death is the final card to play."
+    }
+  ]
+}

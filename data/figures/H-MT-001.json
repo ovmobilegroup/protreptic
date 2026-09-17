@@ -1,0 +1,847 @@
+{
+ "schema_version": "v6",
+ "id": "H-MT-001",
+ "code": "H-MT-001",
+ "figure_name": "徐霞客",
+ "figure_code": "H-MT-001",
+ "figure_pinyin": "Xú Xiákè",
+ "birth_year": 1587,
+ "death_year": 1641,
+ "era": "明末旅行考察时代 / Late-Ming Travel-Survey Era (1587-1641)",
+ "school": "实地考察学派 / Field Investigation School",
+ "style_name": "名弘祖，字振之，号霞客",
+ "courtesy_name": "字振之",
+ "pseudonym": "霞客（号）",
+ "historical_significance": "徐霞客（1587-1641），名弘祖，字振之，号霞客，南直隶江阴人，明代地理学家、旅行家。三十余年间足迹遍及今二十一省，晚年'万里遐征'深入云贵。其《徐霞客游记》六十余万字为日记体实地考察记录：世界最早的系统性喀斯特（石灰岩地貌）考察，早于欧洲约两个世纪；以实测否定《禹贡》'岷山导江'千年成见，考订金沙江为长江上源；对洞穴、峰林、暗河、伏流的形态分类与成因追问构成地貌学先驱工作。其考察方法——目验为据、路线迭代、溯源判证、存疑入档——构成中国实证地理学的奠基范式。",
+ "unique_thinking": "徐霞客的独特性在于把'读万卷书'彻底改写为'行万里路即读大地'：典籍与实地冲突时他站实地，权威与目验冲突时他站目验（'昔人志星官舆地，率以嬗旧袭谬'）。他的方法论签名是'以行为文'——行走路线即论证结构，'我怎么走的'直接承载'我怎么知道的'；存疑显式入档而非掩饰（'姑存之'）；对喀斯特这一单一地貌类型做跨四省的连续系统追踪，把分散地点组织为同一个问题的多个样本。他死于考察（'两足俱废'归而病卒），游记原稿散佚后由友人季梦良等整理传世——考察者的档案命运与麦哲伦、库克遥相呼应。",
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-MT-001",
+  "M-MT-002",
+  "M-MT-003",
+  "M-MT-004",
+  "M-MT-005",
+  "M-MT-006",
+  "M-MT-007",
+  "M-MT-008",
+  "M-MT-009",
+  "M-MT-010"
+ ],
+ "key_concepts": [
+  "目验为据",
+  "多源互证",
+  "路线迭代",
+  "溯源判证",
+  "喀斯特系统考察",
+  "轻装机动",
+  "分层访谈",
+  "险径优先",
+  "以行为文",
+  "存疑入档",
+  "资助结构",
+  "长江正源"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-AE-001",
+   "target_figure_name": "麦哲伦",
+   "relation_type": "远行的两种书写：为完成使命 vs 为重走结论",
+   "description_zh": "麦哲伦与徐霞客是'远行'的两个极点：麦哲伦受王室合同约束、以让渡发现权换资源、由亲历者笔录证明'航行发生过'（M-AE-001 × M-MT-010 的资助结构对照）；徐霞客以家产打底、多源小额资助保议程自主、以行为文让'结论可重走'（M-AE-006 × M-MT-008 的记录目的对照）。同构处：两人都把'到达'本身升格为方法——麦哲伦以'至'证有（环球实存），徐霞客以'至'取证（源头、洞穴）；两人都死于或残于考察本身（麦哲伦死于半途，徐霞客'两足俱废'而卒），且都靠档案接力传世（皮加费塔抄本 / 季梦良整理本）。",
+   "bidirectional_hint": "麦哲伦档案（H-AE-001）未来修订时可在'亲历者笔录'处补一条指向 H-MT-001 的跨引用（为证明发生 vs 为可重走的两种书写目的）。"
+  },
+  {
+   "target_figure_code": "H-AE-002",
+   "target_figure_name": "库克",
+   "relation_type": "空白的两种关闭：海图归零 vs 山径迭代",
+   "description_zh": "库克与徐霞客都在做'关地图空白'的工程：库克以海军建制遍历大洋，把空白当燃尽图逐段关闭（M-AE-013 × M-MT-002 路线迭代）；库克的海图标注疑点（误差公开）与徐霞客的'姑存之'（存疑入档）是同一种学术诚实（M-AE-013 × M-MT-009）。分野在组织形态：库克是建制式（科考随行、双船冗余、配给前置），徐霞客是孤身极简（M-AE-002 × M-MT-005 组织光谱两极）；分野在证据类型：库克以仪器测量为据，徐霞客以身到目验为据——测量与目验构成实证的两条腿。",
+   "bidirectional_hint": "库克档案（H-AE-002）未来修订时可在'地图归零逼近'处补一条指向 H-MT-001 的跨引用（关空白的山径迭代形态与存疑体例）。"
+  },
+  {
+   "target_figure_code": "H-SMQ-001",
+   "target_figure_name": "司马迁",
+   "relation_type": "溯源的两个方向：向文献 vs 向上游",
+   "description_zh": "司马迁'网罗天下放失旧闻'，二十岁壮游天下后回到文献现场；徐霞客把壮游本身变成现场，溯江纪源向地理上游走。两人的共同签名是拒绝把权威当证据：司马迁'考信于六艺'仍不废实地传闻的比对（M-SMQ-321 × M-MT-001 目验为据），徐霞客连'六艺'也降格为待验假说（'岷山导江'被实测推翻）。互证处：司马迁的历史书写与徐霞客的地理书写同为'以行为文'的中国原型（M-SMQ-321 × M-MT-008）——文本的说服力来自行走的可重复性。",
+   "bidirectional_hint": "司马迁档案（H-SMQ-001）未来修订时可在'读其书而考其行'处补一条指向 H-MT-001 的跨引用（溯源向地理上游的延伸）。"
+  }
+ ],
+ "tags": [
+  "徐霞客",
+  "Xu Xiake",
+  "徐弘祖",
+  "游记",
+  "Travel Diaries",
+  "徐霞客游记",
+  "喀斯特",
+  "Karst",
+  "石灰岩地貌",
+  "Limestone Landforms",
+  "溶洞",
+  "Caves",
+  "峰林",
+  "Peak Forest",
+  "长江源头",
+  "Yangtze Source",
+  "金沙江",
+  "Jinsha River",
+  "溯江纪源",
+  "江源考",
+  "盘江考",
+  "岷山导江",
+  "目验",
+  "Ocular Verification",
+  "存疑",
+  "Preserved Doubt",
+  "万里遐征",
+  "Great Western Journey",
+  "静闻",
+  "Monk Jingwen",
+  "木增",
+  "Mu Zeng",
+  "鸡足山",
+  "Jizu Mountain",
+  "雁荡山",
+  "Yandang Mountain",
+  "黄山",
+  "Huangshan",
+  "麻叶洞",
+  "Maye Cave",
+  "湘江遇盗",
+  "Xiang River Robbery",
+  "江阴",
+  "Jiangyin",
+  "实地考察",
+  "Field Investigation",
+  "地理学先驱",
+  "Geography Pioneer"
+ ],
+ "mode_ids_note": "M-MT-001 ~ M-MT-010（figure_code=MingTravel → 编码 H-MT-001；库内查重零冲突：M-MT 前缀 modes_data/code_maps 无占用，C-MT 场景前缀无占用，H-MT 编码无占用）",
+ "caveats": [
+  "徐霞客生年与卒年各说小异（1587 生为主流说；卒于 1641 年三月，亦有 1640 之说），引用须标注口径",
+  "'岷山导江'之辨：徐霞客'金沙江为正源'的结论在当时测量能力下成立，但现代水文学对'正源'判据（长度/水量/流向)有多种口径，其结论按'长度为主'口径成立",
+  "游记版本谱系复杂：原稿在明清之际散佚，现存最早完整刊本经王忠纴、季梦良、徐建极等多手整理，部分篇章的路线时序与文字有整理者加工成分",
+  "《溯江纪源》是否全部出自徐霞客手笔学界有讨论（有认为经后人润色），引用其论断须注明版本",
+  "徐霞客考察为个人行为，其'目验'结论的科学地位是后世追认（20世纪竺可桢、丁文江等重估），晚明当时并无'科学考察'建制语境",
+  "徐霞客对地方民族、土司的记录多为外来者视角，向导与土人贡献普遍未署名，使用其民族志材料须做立场校正"
+ ],
+ "modes": [
+  {
+   "id": "M-MT-001",
+   "name_zh": "务求实记法",
+   "name_en": "The First-Hand-Account Doctrine: Recording Only What the Eyes Have Verified",
+   "mode_code": "M-MT-001",
+   "category": "核心方法",
+   "domain_zh": "科学方法论/实地考察",
+   "domain_en": "Scientific Methodology / Field Investigation",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "徐霞客的元命题：地理结论的第一来源不是书斋里的辗转引注，而是田野上的一双眼睛——'昔人志星官舆地，率以嬗旧袭谬'，他要用自己的脚把典籍里的每一处可疑重新走一遍。方法论签名有四：其一，以目验为最高判据——凡遇志书与实地不符处，必亲至其地核对，岩洞形态、水流方向、山脉走势皆以亲见为准；其二，多源互证——郡志、图经、僧道口述、樵夫指点与本人实测并列，冲突处不停留于'存疑'而继续追问；其三，逐日记录——不论风雨、盗劫、断粮，每晚必燃松明记当日行程与观察，《徐霞客游记》六十余万字皆为日记体实时写就；其四，反复回访——对存疑对象两至三访（如雁湖、黄山），用第二次观察修正第一次结论。这一模式与司马迁'网罗天下放失旧闻'同构，但把采证的场域从文献与人物收缩到大地本身——他的文献只有一座：山河。",
+   "definition_en": "Xu Xiake's master proposition: the primary source of geographic truth is not the study's chain of citations but a pair of eyes in the field — 'the ancients who charted stars and lands all inherited errors from one another'; he would walk out every dubious entry in the canon on his own feet. Four signatures define the mode. First, ocular verification as the highest criterion: wherever gazetteers clashed with terrain, he went to the site in person — cave forms, flow directions, mountain trends all settled by direct sighting. Second, multi-source triangulation: prefectural records, maps, monks' and woodcutters' testimony stood beside his own measurements; at conflict he did not rest on 'doubtful' but pressed on. Third, the daily record: through storms, robbery, and starvation he lit pine torches nightly to log the day's route and observations — the 600,000-character Travel Diaries written in real time, day by day. Fourth, repeat visits: contested objects (Yan Lake, Huangshan) visited two or three times, the second observation correcting the first. Isomorphic with Sima Qian's gathering of lost traditions, but contracting the evidence field from documents and informants to the land itself — his only library was the mountains and rivers.",
+   "source_chapter": "《徐霞客游记》卷首及浙游、粤西游诸日记；潘耒序论其'不袭故常' / 徐霞客在《游雁宕山日记后》自陈：'余屡至其地，乃知旧志之误。'",
+   "key_concepts": [
+    "目验为据",
+    "多源互证",
+    "逐日实录",
+    "反复回访"
+   ],
+   "process_zh": [
+    "凡志书与实地冲突，必亲至现场核对，不以'存疑'了事",
+    "口述、图经与实测三源并列：本地人的话当图经读，图经当假说验",
+    "坚持日记体实时记录：当晚记当日，观察与路径分开写",
+    "对重要结论安排回访：第二次观察专门核对第一次的存疑点"
+   ],
+   "process_en": [
+    "Where gazetteer and terrain conflict, verify on site in person; never file it as 'doubtful' and move on",
+    "Run testimony, maps, and measurement in parallel: read local words as charts, read charts as hypotheses to test",
+    "Keep a real-time daily journal: that night for that day, with observation and route written separately",
+    "Schedule return visits for key conclusions: the second visit targets exactly the first visit's open questions"
+   ],
+   "representative_cases_zh": [
+    "湘江遇盗（1637）：行李尽失仍不还乡，借资续行，并坚持当日完成记录——考察连续性优先于舒适与安全",
+    "雁荡山雁湖之辨：志书称大龙湫发源于雁湖，他两度登顶核实湖与瀑不相通，纠正千年相沿之误",
+    "《溯江纪源》：为定长江正源，遍历金沙江段，以实测推翻'岷山导江'的经学定论",
+    "反面警示：徐霞客对《禹贡》'岷山导江'的否定虽以实测为据，但其'金沙江为正源'的结论仍受当时测量能力限制——目验不等于测量精度，亲见者也会给出数量级误差。教训：实记精神需与测量工具升级并行。",
+    "反面警示：游记中部分石灰岩洞穴成因判断带着'水理'直觉推测，并未逐洞验证——实记法在'记录亲见'与'推断成因'之间存在边界，混淆两者会把假说混入事实。教训：亲见与推断须分栏记录。",
+    "反面警示：徐霞客考察常雇当地向导却几乎不记录向导姓名与贡献——目验者的'目验'往往踩在无名者的知识之上。教训：实地知识接口必须署名入档。"
+   ],
+   "representative_cases_en": [
+    "Robbery on the Xiang River (1637): luggage lost, yet he refused to turn home — borrowing funds to continue, and still completing the day's record; continuity of investigation outweighs comfort and safety",
+    "The Yan Lake dispute on Yandang: gazetteers claimed the Great Dragon Falls rose from Yan Lake; he summited twice to verify lake and falls were not connected, correcting a thousand-year-old error",
+    "In 'Tracing the Yangtze to Its Source': to fix the river's true head he traversed the Jinsha reaches, overturning the classical 'the Yangtze leads from Mount Min' by field evidence",
+    "Cautionary: Xu's rejection of the classical 'the Yangtze leads from Mount Min' rested on field evidence, yet his 'Jinsha as true source' conclusion was still bounded by the measurement capability of his era — seeing is not measuring; eyewitnesses also commit order-of-magnitude error. Lesson: first-hand recording must advance in step with instrument upgrade.",
+    "Cautionary: some karst cave-genesis judgments in the diaries ride on hydrological intuition without cave-by-cave verification — the doctrine has a boundary between recording what was seen and inferring why; conflating them mixes hypothesis into fact. Lesson: log observation and inference in separate columns.",
+    "Cautionary: Xu routinely hired local guides yet rarely recorded their names or contributions — the eyewitness's eyes often stand on unnamed knowledge. Lesson: field knowledge interfaces must be credited and archived."
+   ],
+   "modern_applications_zh": [
+    "现场调查纪律：重要判断必须来自亲验数据，转述材料一律标注为'待核'而非'依据'",
+    "建立'冲突追问'制度：多源信息冲突时不折中、不搁置，列为下一轮调查的强制课题",
+    "关键结论设回访机制：用第二次独立观察修正第一次，防止单次样本的偶然性"
+   ],
+   "modern_applications_en": [
+    "Fieldwork discipline: key judgments must rest on personally verified data; hearsay is tagged 'pending verification', never 'evidence'",
+    "Institute conflict escalation: when sources clash, no averaging, no shelving — it becomes a mandatory item of the next investigation round",
+    "Build a revisit mechanism for key conclusions: a second independent observation corrects the first, guarding against single-sample accident"
+   ],
+   "related_modes": [
+    "M-AE-014",
+    "M-SMQ-321",
+    "M-DKR-001",
+    "M-MT-002"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "司马迁 (Sima Qian)",
+    "郦道元 (Li Daoyuan)",
+    "潘耒 (Pan Lai)"
+   ],
+   "key_quote_zh": "'大丈夫当朝碧海而暮苍梧，以目验山川，不以耳代目。'",
+   "key_quote_en": "'A true man greets the blue sea at dawn and the Cangwu mountains at dusk — verifying rivers and peaks with his own eyes, never letting ears stand in for them.'"
+  },
+  {
+   "id": "M-MT-002",
+   "name_zh": "路线迭代重走法",
+   "name_en": "The Iterated-Route Method: Re-Walking Doubt Until It Closes",
+   "mode_code": "M-MT-002",
+   "category": "核心方法",
+   "domain_zh": "科学方法论/迭代验证",
+   "domain_en": "Scientific Methodology / Iterative Verification",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "徐霞客的元命题：一次到达不等于结论成立——对存疑的地理问题，正确动作是设计第二条、第三条路线再走一遍，让结论在路线迭代中收敛。方法论签名有四：其一，问题驱动重走——雁湖二登、黄山三游（1616初雪、1619再至、明崇祯间又记），每次重走都带一个上次留下的具体问题，而非重游；其二，多口入山——从不同方向进入同一山区（雁荡从东、从北两路），地形拼图靠多入口交叉闭合；其三，修正公开——后一篇日记直接写出'前日记之误'，观察序列以时间戳保存，错误不抹除而留痕；其四，以行止定路线取舍——遇绝壁则另寻路径，受阻不等于放弃，'吾荷一锸来，何处不可埋吾骨耶'的执念底下是路线库的持续扩容。这一模式与库克'地图归零逼近'同构（空白即工作队列），但徐霞客的迭代单元更小：不是一次远征，而是一条山径。",
+   "definition_en": "Xu Xiake's master proposition: arriving once does not settle a conclusion — for a contested geographic question the right move is to design a second and third route and walk again, letting the answer converge through route iteration. Four signatures define the mode. First, problem-driven re-walking: Yan Lake twice summited, Huangshan three times visited (first snow 1616, again 1619, then a final recorded trip) — each return carried a concrete question left from the last, never sightseeing. Second, multiple entries to one mountain: entering the same massif from different directions (Yandang from the east, then the north), the terrain mosaic closed by cross-entry. Third, corrections kept public: a later diary states outright 'the earlier diary was wrong' — the observation series is timestamped, errors preserved rather than erased. Fourth, route choice by obstruction: cliffs force detours; being blocked is not quitting — beneath 'with a spade on my shoulder, where on earth can I not be buried?' lies a steadily enlarging route library. Isomorphic with Cook's chart-to-zero, but Xu's iteration unit is smaller: not an expedition but a single mountain path.",
+   "source_chapter": "《徐霞客游记》游雁宕山日记前后篇、游黄山日记前后篇 / 徐霞客在雁荡山顶的行为即方法：'不复知有身，惟急觅雁湖。'",
+   "key_concepts": [
+    "问题驱动重走",
+    "多口入山",
+    "修正留痕",
+    "路线库扩容"
+   ],
+   "process_zh": [
+    "把存疑点列成'再走清单'：每条注明待验问题与拟入路线",
+    "同一目标从至少两个方向进入，拼图式交叉验证地形关系",
+    "后次记录显式引用并修正前次：误差带时间戳保留",
+    "受阻即换路：把绝壁与断路登记为新路线的输入而非失败的终点"
+   ],
+   "process_en": [
+    "List contested points on a 're-walk queue': each with the question to test and the route of entry",
+    "Enter the same target from at least two directions, closing terrain relations by cross-check",
+    "Let later entries cite and correct earlier ones: error bands kept with timestamps",
+    "Treat blockage as new input: cliffs and dead ends register as inputs to new routes, not failures"
+   ],
+   "representative_cases_zh": [
+    "雁荡山二次入山：第一次自东面入未见雁湖全貌，第二次自北面绝顶而下，终于确认雁湖与大龙湫无水道相通",
+    "黄山三次游历：初以天都为最高，再访比较始知莲花峰居上——'高峰为莲花'由两路线观察对撞得出",
+    "麻叶洞探查：先遣人问路均称'此中有神龙'，他以火把亲入两里许，出而记实，破除洞中藏龙之说",
+    "反面警示：徐霞客晚年万里遐征中多次明知瘴疠之地仍强行进入，云南边界考察终致'两足俱废'——迭代路线法的执行强度若无健康边界，迭代能力本身会被消耗。教训：路线库扩容须配给前置（对照 M-AE-012）。",
+    "反面警示：静闻和尚在南宁病重，徐霞客为完成考察目标先赴他程再回头安置，静闻旋即病故——考察优先级压倒同伴照护的排序留下了道德争议。教训：迭代路线设计必须把同伴成本计入。",
+    "反面警示：部分山区因土匪与土司阻隔被迫改道，最终未能闭合原定验证点——外部安全环境是路线迭代的硬约束，超出者即成永久空白。教训：路线清单须标注不可控风险权重。"
+   ],
+   "representative_cases_en": [
+    "Yandang, second entry: the first approach from the east missed the full view of Yan Lake; the second descended from the northern summit, confirming no waterway connects lake to falls",
+    "Huangshan, three visits: first taking Tiandu as the peak, a later comparative visit established Lianhua as higher — 'the highest is Lotus' emerged from colliding two routes' observations",
+    "The Maye Cave: locals warned of a dragon within; he entered two li by torchlight and recorded the truth, dissolving the legend",
+    "Cautionary: on his final great journey Xu repeatedly forced entry into fever country; his Yunnan border survey ended with 'both feet ruined' — iteration without health bounds consumes the capacity to iterate. Lesson: route-library expansion needs provision-first discipline (cf. M-AE-012).",
+    "Cautionary: with the monk Jingwen gravely ill in Nanning, Xu pressed on to other objectives before arranging care; Jingwen died soon after — the ordering that put investigation above companion care left a moral controversy. Lesson: route iteration must price in the cost to companions.",
+    "Cautionary: bandits and tusi jurisdictions forced detours in several massifs, and some planned verification points were never closed — the external security environment is a hard constraint on iteration; beyond it lies permanent blankness. Lesson: mark uncontrollable risk weights on the route list."
+   ],
+   "modern_applications_zh": [
+    "用迭代路线替代一次性调研：重要事实至少从两条独立路径核实",
+    "复盘制度显式化：后次报告须引用并标注前次结论的修正项，错误留痕不静默",
+    "把'受阻'结构化：每个死胡同转译为下一条路线的输入参数"
+   ],
+   "modern_applications_en": [
+    "Replace one-shot research with iterated routes: important facts verified via two independent paths at minimum",
+    "Make retrospection explicit: each later report must cite and mark corrections to earlier conclusions — errors stay on record, never silently patched",
+    "Structure obstruction: every dead end becomes an input parameter for the next route"
+   ],
+   "related_modes": [
+    "M-MT-001",
+    "M-AE-013",
+    "M-AE-012",
+    "M-SW-003"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "库克 (James Cook)",
+    "郦道元 (Li Daoyuan)",
+    "静闻和尚 (Monk Jingwen)"
+   ],
+   "key_quote_zh": "'前一日记所未见者，此一一补之；前所误记者，此一一正之。'",
+   "key_quote_en": "'What the earlier diary missed, this one supplies; what the earlier diary miswrote, this one corrects.'"
+  },
+  {
+   "id": "M-MT-003",
+   "name_zh": "溯源判证法",
+   "name_en": "The Source-Tracing Adjudication: Settling a Network Question by Walking Its Edges",
+   "mode_code": "M-MT-003",
+   "category": "核心方法",
+   "domain_zh": "地理学/水文学",
+   "domain_en": "Geography / Hydrology",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "徐霞客的元命题：网络性问题（江河正源、山脉分支、水系归属）不能靠典籍辩论解决，只能靠沿边行走、逆流而上，把'源'从经学命题还原为可踩在脚下的事实。方法论签名有四：其一，逆流归因——《溯江纪源》自金沙江逆推，'故推江源者，必当以金沙为首'，以连续河段实测替代引经据典；其二，分水岭判据——以'分流'与'合流'的实地交接点判定水系归属，北盘江、南盘江之辨皆靠找到两江分水处收束；其三，枝干分层——先辨干流再理支流，把混乱的传闻水系整理为树状结构；其四，经典服从实测——'经'（岷山导江）在证据面前降格为待验假说。这一模式与司马迁'读其书而考其行'互补：一个向文献深处溯源，一个向地理上游溯源；两者的共同签名是拒绝把权威当作证据。",
+   "definition_en": "Xu Xiake's master proposition: network questions — a river's true source, a range's branching, a basin's membership — cannot be settled by textual debate, only by walking the edges and ascending against the current, restoring 'the source' from a classics proposition to a fact you can stand on. Four signatures define the mode. First, attribution against the flow: in 'Tracing the Yangtze' he pushed upstream along the Jinsha — 'whoever would fix the river's source must take the Jinsha first' — continuous walked segments replacing canonical citation. Second, the divide criterion: basin membership decided at the actual junction of divides — the Bei and Nan Pan river disputes closed by finding where waters part. Third, trunk-branch stratification: settle the main stem first, then sort tributaries, restructuring a rumor-tangled hydrology into a tree. Fourth, canon subordinate to measurement: 'the classic' (the Yangtze from Mount Min) demoted to a testable hypothesis before evidence. Complementary to Sima Qian's reading books while testing conduct — one traces sources in documents, the other upstream in terrain; their shared signature is refusing authority as evidence.",
+   "source_chapter": "《溯江纪源》(《江源考》)；《盘江考》 / 徐霞客《溯江纪源》断语即判据：'故推江源者，必当以金沙为首。'",
+   "key_concepts": [
+    "逆流归因",
+    "分水岭判据",
+    "枝干分层",
+    "经典服从实测"
+   ],
+   "process_zh": [
+    "把网络问题还原为边问题：明确要逆推哪条边、走到哪个节点算闭合",
+    "以分水点为裁决场：亲至两水分流处，以地形实物定归属",
+    "先干后支：干流定案前不纠缠支流争议，防枝节吞没主干",
+    "经典降格为假说：引经据典处一律标注'待验'，实测优先"
+   ],
+   "process_en": [
+    "Reduce the network question to an edge question: which edge to trace upstream, which node closes it",
+    "Adjudicate at the divide: reach the actual parting of waters and let terrain itself decide membership",
+    "Trunk before branch: no tributary disputes until the main stem is settled, so details never swallow the trunk",
+    "Demote classics to hypotheses: every cited authority tagged 'pending verification', field measurement first"
+   ],
+   "representative_cases_zh": [
+    "《溯江纪源》：遍访金沙江段，指出'岷山导江'为经学成见，金沙江方为长江上源——中国水文地理史上首次以系统考察定江源",
+    "《盘江考》：北盘、南盘二江分合之辨，实地寻得分水岭，纠正《大明一统志》把盘江与澜沧江混淆之误",
+    "滇中水系考察：以'分流合流'交接点整理澜沧江、怒江、枯柯河归属，澄清一志书互相抄袭的混乱",
+    "反面警示：《盘江考》对部分支流走向的判断仍依赖向导口述而非全程亲走，后人有据志书指出个别河段误判——溯源法一旦在某段中断步，结论就带缺口。教训：溯源链条的每一环都须目验，断点必须显式标注。",
+    "反面警示：徐霞客否认岷山导江时未意识到'正源'与'文化经典'是两种判据，经学史界长期未接纳其结论——用实证判据去裁决象征命题，会被判为'不对话'。教训：溯源裁决前先确认争议双方用的是同一判据。",
+    "反面警示：为走完金沙江段，徐霞客晚年病足仍执意西行，最终由丽江木增派人送归——溯源执念若无终点判据，会无限上推直至耗尽行者。教训：先定义'哪一段算闭合'再出发。"
+   ],
+   "representative_cases_en": [
+    "In 'Tracing the Yangtze': walking the Jinsha reaches, he showed 'the Yangtze from Mount Min' was a scholarly prejudice and the Jinsha the true upper source — the first systematic field adjudication of China's great river",
+    "In 'On the Pan River': the divide between north and south Pan branches found on foot, correcting the unified gazetteer's confusion of the Pan with the Lancang",
+    "Yunnan hydrology: sorting Lancang, Nu, and Kuke river memberships at actual junction points, untangling gazetteers that merely copied one another",
+    "Cautionary: parts of 'On the Pan River' rest on guides' testimony rather than fully walked segments; later readers, using gazetteers, have flagged individual misjudgments — break one link by foot and the conclusion carries a gap. Lesson: every link in the tracing chain requires ocular verification; breakpoints must be marked explicitly.",
+    "Cautionary: in rejecting 'the Yangtze from Mount Min', Xu did not see that 'true source' and 'canonical symbol' are two different criteria; classical scholars long refused his conclusion — adjudicating a symbolic proposition by empirical criteria reads as refusing the conversation. Lesson: before tracing adjudication, confirm both sides share one criterion.",
+    "Cautionary: to finish the Jinsha reaches Xu pressed west even with ruined feet, finally sent home by Mu Zeng of Lijiang — a tracing obsession without an endpoint criterion pushes upstream forever, exhausting the walker. Lesson: define which segment counts as closed before setting out."
+   ],
+   "modern_applications_zh": [
+    "网络型问题（供应链、数据血缘、组织权属）用'逆流行走'法：沿真实链条逐段上溯到可指认的源头，不以文件陈述为准",
+    "分界裁决找'实物分水点'：权属、责任、归属争议到实际的交接现场定案",
+    "经典流程降格为待验假设：行业惯例、权威手册在证据面前重新取证"
+   ],
+   "modern_applications_en": [
+    "For network questions (supply chains, data lineage, ownership), walk upstream along the real chain to a nameable source; trust no document's self-description",
+    "Adjudicate boundaries at physical dividers: ownership and accountability disputes settled at the actual junction",
+    "Demote canonical procedures to testable hypotheses: industry convention and authoritative manuals re-verified before evidence"
+   ],
+   "related_modes": [
+    "M-MT-001",
+    "M-SMQ-321",
+    "M-MT-004"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "郦道元 (Li Daoyuan)",
+    "司马迁 (Sima Qian)",
+    "董其昌 (Dong Qichang)"
+   ],
+   "key_quote_zh": "'不审江河之源，无以定禹贡之经。'",
+   "key_quote_en": "'Without examining the sources of the rivers, one cannot fix the canon of the Tribute of Yu.'"
+  },
+  {
+   "id": "M-MT-004",
+   "name_zh": "喀斯特系统观察法",
+   "name_en": "The Karst-System Method: Reading One Landscape Type Across a Whole Region",
+   "mode_code": "M-MT-004",
+   "category": "核心方法",
+   "domain_zh": "地理学/地貌学",
+   "domain_en": "Geography / Geomorphology",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "徐霞客的元命题：单一地貌类型（石灰岩喀斯特）的正确读法不是逐点猎奇，而是把它当作一个跨区域的系统来追踪——同一成因在不同地点的表现串成一条解释线。方法论签名有四：其一，类型聚焦——湘桂黔滇四省行程中连续追踪峰林、溶洞、暗河、伏流，世界最早的系统性喀斯特考察比欧洲学者早约两个世纪；其二，形态分类——对洞穴按'穴、窍、塘、峡'分型记录，对峰林按走势与石骨裸露度辨其发育阶段；其三，成因追问——不止记'有此洞'，而问'何以致此'，以水理（水的溶蚀与流向）为解释主轴；其四，尺度贯通——单洞内部的钟乳石与整片峰林的排布被放在同一水理框架下解释，微观与宏观互证。这一模式与达尔文群岛观察同构：都把'分散的地点'组织为'一个问题的多个样本'。",
+   "definition_en": "Xu Xiake's master proposition: the right way to read a single landform type (limestone karst) is not point-by-point curiosity but tracking it as one system across a whole region — the same cause threaded through different sites into one explanatory line. Four signatures define the mode. First, type focus: across Hunan, Guangxi, Guizhou and Yunnan he tracked peak forests, caves, underground rivers and swallets continuously — the world's earliest systematic karst survey, roughly two centuries before European scholarship. Second, morphological classification: caves recorded by type (chamber, aperture, pool, gorge), peak forests staged by alignment and bare rock exposure. Third, the causal question: never just 'this cave exists' but 'what made it so' — water logic (solution and flow direction) as the explanatory axis. Fourth, scale integration: stalactites inside one cave and the layout of a whole peak forest explained under the same water logic, micro and macro verifying each other. Isomorphic with Darwin's Galapagos observation: scattered places organized as multiple samples of one question.",
+   "source_chapter": "《徐霞客游记》粤西游日记、黔游日记、滇游日记诸卷 / 《徐霞客游记》滇游日记论洞穴：'石得水而灵，水得石而势。'",
+   "key_concepts": [
+    "类型聚焦",
+    "形态分类",
+    "成因追问",
+    "尺度贯通"
+   ],
+   "process_zh": [
+    "锁定一个地貌类型连续追踪：跨行政区域的同类样本按统一框架记录",
+    "建立形态分类表：把所见按分型归档，便于跨点比较",
+    "每点追问成因机制：以主导营力（水、风、构造）为解释主轴",
+    "微观宏观互证：单点细节与区域格局放进同一因果框架检验"
+   ],
+   "process_en": [
+    "Fix one landform type and track it continuously: samples across administrative regions recorded under one framework",
+    "Build a morphology table: archive sightings by type for cross-site comparison",
+    "At every site ask the causal mechanism: dominant agent (water, wind, tectonics) as the explanatory axis",
+    "Integrate scales: single-site detail and regional pattern checked under one causal framework"
+   ],
+   "representative_cases_zh": [
+    "广西溶洞群考察：在桂林、柳州一带连续探洞三十余个，分型记录并与地貌走势互证",
+    "贵州高原峰林：对西南峰林与孤峰的发育差异做连续比较，早于西方峰林研究两百年",
+    "云南保山水石洞：以水的溶蚀-沉积机制解释洞穴层级，形成'水理'解释链",
+    "反面警示：徐霞客的喀斯特解释框架以水理为主轴，未涉及构造抬升与气候旋回，部分洞穴层级的年代解释无法成立——单一机制主轴会系统性地漏掉其他营力的贡献。教训：类型聚焦须定期做'机制清单'审计。",
+    "反面警示：探洞记录中测量以'步'与'丈'为单位，不同日疲劳状态下的步幅差异未校准，跨洞尺寸对比存在系统性偏差。教训：类型比较的前提是测量单位跨点恒定。",
+    "反面警示：为探洞多次由乡民缚缒而下、火把耗尽几近被困——系统追踪的强度若无装备冗余（对照 M-AE-019），样本即以人身为代价。教训：类型聚焦也须配给前置。"
+   ],
+   "representative_cases_en": [
+    "The Guangxi cave clusters: over thirty caves surveyed in sequence around Guilin and Liuzhou, typed and cross-checked against landform trend",
+    "Guizhou peak forests: continuous comparison of fenglin and isolated-peak development, two centuries ahead of Western fenglin studies",
+    "The Shuidong caves at Baoshan, Yunnan: cave tiers explained by solution-sediment water logic, an early explanatory chain",
+    "Cautionary: Xu's karst framework ran on water logic alone, missing tectonic uplift and climatic cycles; some cave-tier age interpretations cannot stand — a single-mechanism axis systematically omits other agents' contributions. Lesson: type focus needs periodic 'mechanism inventory' audits.",
+    "Cautionary: cave measurements used paces and zhang units; pace length varied with daily fatigue and was never calibrated, so cross-cave size comparisons carry systematic bias. Lesson: type comparison presumes constant units across sites.",
+    "Cautionary: for cave descents he was repeatedly lowered by villagers by rope, torches spent, nearly trapped — system-tracking intensity without equipment redundancy (cf. M-AE-019) prices samples in the body itself. Lesson: type focus also needs provision-first discipline."
+   ],
+   "modern_applications_zh": [
+    "把'同类多点'组织为'一个问题'：多地观察用统一类型学归档，而非各写各的见闻",
+    "机制解释优先于现象罗列：报告里必须有'为什么长这样'一栏",
+    "单点细节与全局格局互证：微观异常应能被宏观机制解释，否则列为新问题"
+   ],
+   "modern_applications_en": [
+    "Organize 'same type, many sites' as 'one question': multi-site observation archived in one typology, not separate travelogues",
+    "Mechanism before inventory: every report must carry a 'why does it look like this' section",
+    "Let micro detail and macro pattern cross-verify: an unexplained micro anomaly becomes a new question"
+   ],
+   "related_modes": [
+    "M-MT-001",
+    "M-MT-003",
+    "M-DKR-001",
+    "M-MT-005"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "郦道元 (Li Daoyuan)",
+    "达尔文 (Charles Darwin)",
+    "竺可桢 (Zhu Kezhen)"
+   ],
+   "key_quote_zh": "'山川有真性情，迹象各有本源；不穷其理，徒纪其形，非观察也。'",
+   "key_quote_en": "'Mountains and rivers have true natures, and every feature a source; to record shapes without exhausting their logic is not observation.'"
+  },
+  {
+   "id": "M-MT-005",
+   "name_zh": "孤身轻装机动法",
+   "name_en": "The Light-Solo Method: Trading Payload for Reach",
+   "mode_code": "M-MT-005",
+   "category": "核心方法",
+   "domain_zh": "战略学/远征组织",
+   "domain_en": "Strategy / Expedition Organization",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "徐霞客的元命题：考察的广度由负重决定——把队伍、辎重与礼节性开销压到极限，用轻装换取常人不可及的可达域。方法论签名有四：其一，组织极简——晚期考察仅一仆（顾仆，后亦叛逃）或僧侣同伴（静闻），无车队无仪仗，与郑和'整建制投送'、麦哲伦'合同动员'构成远征组织光谱的第三个极点；其二，补给本地化——不设辎重线，沿途化缘、借贷、变卖衣物与地方官接济并存，把后勤从'随队携带'改为'沿途获取'；其三，险径优先——'途穷不忧，行误不悔'，凡舆轿不能至处恰是他价值最大处，人迹至而人迹罕至是目标区间；其四，速度与沉默——轻装意味着日行数十里与对地方迎送的拒绝，把礼节时间换算为考察里程。这一模式的风险结构在静闻之死与顾仆叛逃中暴露无遗：极简组织把所有韧性押在主体一人身上。",
+   "definition_en": "Xu Xiake's master proposition: an investigation's reach is set by its load — compress retinue, baggage, and ceremonial overhead to the limit, trading payload for an attainable domain no convoy can match. Four signatures define the mode. First, radical minimal organization: in his final journey one servant (Gu Pu, who later absconded) or a monk companion (Jingwen) — no carts, no banner, the third pole of an expedition-organization spectrum against Zheng He's whole-system projection and Magellan's contract mobilization. Second, localized resupply: no baggage train — alms, loans, selling clothes, and officials' aid along the way, converting logistics from 'carried' to 'acquired en route'. Third, priority to hard routes: 'no worry when the road ends, no regret when a step errs' — wherever sedan chairs cannot go is exactly where his value peaks; footprints rare yet reachable is the target band. Fourth, speed and silence: light gear means scores of li a day and refusing welcome ceremonies, converting courtesy time into survey mileage. The mode's risk structure stands exposed in Jingwen's death and Gu Pu's flight: minimal organization stakes all resilience on the single主体.",
+   "source_chapter": "《徐霞客游记》滇游日记；陈函辉《徐霞客墓志铭》 / 陈函辉记徐霞客语：'丈夫当朝碧海而暮苍梧；乃以一奴一僧行万里，舆盖萧然。'",
+   "key_concepts": [
+    "组织极简",
+    "补给本地化",
+    "险径优先",
+    "速度换里程"
+   ],
+   "process_zh": [
+    "把可达域当目标函数：凡礼节、仪仗、辎重与可达域冲突，一律裁撤",
+    "后勤改为沿途获取：预设化缘/借贷/接济三条补给线并验证其可行域",
+    "以'人迹罕至'为价值区间：常规工具到不了的地方才进入路线清单",
+    "为轻装模式显式定价：列出该模式必须承受的韧性损失清单"
+   ],
+   "process_en": [
+    "Make attainable domain the objective function: courtesy, retinue, baggage conflicting with reach are cut without appeal",
+    "Convert logistics to en-route acquisition: predefine alms, loans, and official aid as three supply lines with verified feasible ranges",
+    "Treat 'rarely trodden' as the value band: only places conventional vehicles cannot reach enter the route list",
+    "Price the light-solo mode explicitly: list the resilience losses it must bear"
+   ],
+   "representative_cases_zh": [
+    "万里遐征（1636-1640）：与静闻、顾仆三人西行，无车队辎重，日行常数十里，考察密度远超地方官差旅",
+    "湘江遇盗后拒还乡：衣物尽失即变卖友人相赠之物续行——轻装模式的补给线在极端情形下仍能运转",
+    "鸡足山与丽江段：受木增之邀而保持行程自主，谢绝仪仗接待以保考察节奏",
+    "反面警示：静闻在南宁病重时徐霞客仍按原路线先行，静闻病故于崇善寺——极简组织没有冗余照护能力，同伴风险只能被'放弃'而非'分担'。教训：轻装模式的代价清单必须包含同伴。",
+    "反面警示：顾仆携款叛逃（1640），徐霞客'头目俱无'，被迫中断云南考察——全部后勤与文书系于一人，单点故障即全局瘫痪。教训：极简组织需要关键职能的最小冗余。",
+    "反面警示：多次断粮与借债务，晚年归乡后'不能肃客'，考察成果整理无力自任，游记整理系于季梦良等友人——轻装把成本递延到考察之后。教训：轻装模式须为'归来后的整理成本'预留资源。"
+   ],
+   "representative_cases_en": [
+    "The great western journey (1636-40): three men — Xu, Jingwen, Gu Pu — westward with no carts or baggage, scores of li daily, survey density far beyond official travel",
+    "After the Xiang River robbery he refused to turn home: goods lost, he sold gifts from friends and pressed on — the light-solo supply line functioning even in extremity",
+    "The Jizu Mountain and Lijiang legs: accepting Mu Zeng's invitation yet keeping itinerary autonomy, declining ceremonial reception to preserve survey cadence",
+    "Cautionary: with Jingwen gravely ill in Nanning, Xu held his original route; Jingwen died at Chongshan Temple — minimal organization has no redundant care capacity; companion risk can only be abandoned, not shared. Lesson: the light-solo cost list must include companions.",
+    "Cautionary: Gu Pu absconded with the funds (1640), leaving Xu 'without even a head-servant' and forcing his Yunnan survey to break off — logistics and papers hinged on one person; a single point of failure paralyzed the whole. Lesson: minimal organization still needs minimal redundancy on critical functions.",
+    "Cautionary: repeated hunger and debt; on his return home Xu 'could not properly receive guests', too spent to organize his own writings — the diaries were edited only through friends like Ji Mengliang. Light packing defers costs to after the journey. Lesson: reserve resources for the post-return editing bill."
+   ],
+   "modern_applications_zh": [
+    "调研/审计类任务的'轻装选项'：明确小团队+本地化补给的组织形态，以机动性换覆盖面",
+    "为极简组织显式列风险清单：单点人员依赖、无备份补给、疾病与劫掠的承受力上界",
+    "把'常规工具的不可达区'定义为价值区间：资源配置向人迹罕至处倾斜"
+   ],
+   "modern_applications_en": [
+    "The 'light-solo option' for research and audit missions: small team plus localized resupply, trading mobility for coverage",
+    "Price minimal organization with an explicit risk list: single-person dependency, no backup supply, upper bounds of tolerable illness and robbery",
+    "Define 'unreachable by conventional tools' as the value band: tilt resources toward rarely trodden ground"
+   ],
+   "related_modes": [
+    "M-AE-002",
+    "M-MV-001",
+    "M-AE-004",
+    "M-MT-001"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "麦哲伦 (Ferdinand Magellan)",
+    "郑和 (Zheng He)",
+    "静闻和尚 (Monk Jingwen)"
+   ],
+   "key_quote_zh": "'吾荷一锸来，何处不可埋吾骨耶。'",
+   "key_quote_en": "'With a spade on my shoulder, where on this earth can my bones not be buried?'"
+  },
+  {
+   "id": "M-MT-006",
+   "name_zh": "人与地志互证法",
+   "name_en": "The Ethno-Terrain Cross-Verification: Reading Institutions Off the Land and Land Off the People",
+   "mode_code": "M-MT-006",
+   "category": "核心方法",
+   "domain_zh": "跨文化研究/地方知识",
+   "domain_en": "Cross-Cultural Studies / Local Knowledge",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "徐霞客的元命题：地志与人志互为文本——一边走一边把土司制度、民族分布、物产贡赋与地形放在同一张桌面上对读，地形解释建制，建制又反过来标注地形的政治含义。方法论签名有四：其一，访谈建制化——僧道、驿丞、土人、商旅、马帮皆为其 informant，访谈对象覆盖每个社会层级，且记录时保留对方的知识框架而非只取其结论；其二，制度地形学——对土司辖界、卫所屯田、驿道走向的记录与山川记录同行，'大脊''分支'之外兼记'辖界'；其三，物产-地形链——硫黄之产地、盐井之分布、矿洞之开采皆与地质构造对应记录，经济事实成为地质证据；其四，语言与地名考古——记录少数民族语地名与汉译异写，从地名的层积读民族迁徙与政区更迭。这一模式把'探险者'与'民族志作者'合于一人，早于系统民族志两个多世纪。",
+   "definition_en": "Xu Xiake's master proposition: gazetteer and people are texts for one another — as he walks he reads tusi institutions, ethnic distribution, products and tribute against terrain on the same table; terrain explains institutions, and institutions annotate terrain's political meaning in return. Four signatures define the mode. First, interview as institution: monks, post-station keepers, natives, merchants, and caravan men all served as informants across every social stratum, recorded within their own knowledge frameworks rather than stripped to conclusions. Second, institutional terrain: tusi boundaries, garrison farms, and post-road alignments logged alongside rivers and ranges — 'grand spines' and 'branches' accompanied by 'jurisdictions'. Third, the product-terrain chain: sulfur sources, salt wells, and mine workings recorded against geological structure, economic facts serving as geological evidence. Fourth, linguistic and toponymic archaeology: minority-language place names and their Chinese transliterations logged, reading ethnic migration and administrative change from the layering of names. The mode fuses explorer and ethnographer in one person, two centuries ahead of systematic ethnography.",
+   "source_chapter": "《徐霞客游记》滇游日记诸卷；所记土司、马帮、盐矿条目 / 《徐霞客游记》滇游日记论访谈：'土人言之凿凿，志书失之荒唐。'",
+   "key_concepts": [
+    "分层访谈",
+    "制度地形学",
+    "物产-地形链",
+    "地名层积考古"
+   ],
+   "process_zh": [
+    "访谈对象按社会分层配置：官方、宗教、民间、行旅四层缺一即补",
+    "建制记录与地形记录同页：辖界、屯田、驿道随山川一并入档",
+    "把经济事实当地质证据：矿产、盐井、物产分布与构造对应记",
+    "保留 informants 的原有知识框架：土语地名与汉译并录，不翻译归并"
+   ],
+   "process_en": [
+    "Sample informants by stratum: official, religious, folk, and traveler tiers — fill any missing one",
+    "Log institutions on the same page as terrain: jurisdictions, garrison farms, post roads archived with the rivers and ranges",
+    "Treat economic facts as geological evidence: mines, salt wells, and product ranges recorded against structure",
+    "Preserve informants' own frameworks: native toponyms co-recorded with Chinese glosses, never merged in translation"
+   ],
+   "representative_cases_zh": [
+    "滇西土司考察：记木增府邸、喇嘛寺与汉地驿站并存格局，并解释地形如何塑造土司与流官的权力边界",
+    "云南盐井与矿洞：以井位与矿脉走向记录佐证对区域构造的判断，经济档案成为地质档案",
+    "少数民族语地名记录：滇游日记大量保存彝、白、纳西语地名原音，为后世民族史与语言史留下可考层位",
+    "反面警示：徐霞客对土司与地方势力的记录多为单方视角，土人立场仅经官方与僧道转述入档——分层访谈若缺当事核心层，'互证'实为单向。教训：informat 清单必须含权力关系中的从属方本人。",
+    "反面警示：部分物产-地形推断（如以矿洞分布推构造）缺定量支撑，后世核查有个别不成立——经济证据与地质证据的因果方向需独立检验。教训：互证链条每环须双向可检验。",
+    "反面警示：为得访谈与向导，徐霞客接受土司馈赠并为之作文（如为木增撰文），考察者的记录立场与受赠关系未做切割——资助结构会静默塑造记录重点。教训：互证档案须附利益关系声明。"
+   ],
+   "representative_cases_en": [
+    "The Yunnan west tusi survey: logging the coexistence of Mu Zeng's residence, lama temples, and Han post stations, explaining how terrain shaped the power boundary between tusi and circulating officials",
+    "Yunnan salt wells and mines: well positions and vein strikes recorded to corroborate structural judgments — economic archives doubling as geological ones",
+    "Minority-language toponyms: the Yunnan diaries preserve Yi, Bai, and Naxi names in original sound, leaving later ethnologists and linguists a datable layer",
+    "Cautionary: Xu's records of tusi and local powers largely carry a single perspective; native voices entered the archive only via officials and clergy — stratified interviewing without the subordinated core layer makes 'cross-verification' one-directional. Lesson: the informant list must include the subordinated parties themselves.",
+    "Cautionary: some product-terrain inferences (reading structure off mine distributions) lack quantitative support and a few fail later checks — the causal direction between economic and geological evidence needs independent testing. Lesson: every link in the cross-verification chain must be testable in both directions.",
+    "Cautionary: to win interviews and guides Xu accepted tusi gifts and wrote for patrons (composing texts for Mu Zeng), never separating his recording stance from the gift relationship — funding structures silently shape recording priorities. Lesson: cross-verification archives must carry conflict-of-interest statements."
+   ],
+   "modern_applications_zh": [
+    "调研报告中'制度层'与'物理层'并置：组织边界、流程权属与系统拓扑放在同一张图上对读",
+    "访谈分层采样：决策层、执行层、外部伙伴、用户四层缺一即补，防单层偏听",
+    "把商业事实当地质证据：订单流、结算路径的分布反过来印证系统结构与瓶颈位置"
+   ],
+   "modern_applications_en": [
+    "Place the 'institutional layer' beside the 'physical layer' in research reports: org boundaries, process ownership, and system topology read against one another on one map",
+    "Stratify interview sampling: decision, execution, external partner, user tiers — fill any missing tier to prevent single-layer bias",
+    "Read commercial facts as geological evidence: order flows and settlement paths corroborating system structure and bottleneck location"
+   ],
+   "related_modes": [
+    "M-MT-001",
+    "M-MT-005",
+    "M-SMQ-321",
+    "M-MT-010"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "司马迁 (Sima Qian)",
+    "木增 (Mu Zeng)",
+    "费孝通 (Fei Xiaotong)"
+   ],
+   "key_quote_zh": "'山川之外有疆理，疆理之内有性情；不问其人，无以知其地。'",
+   "key_quote_en": "'Beyond mountains and rivers lie jurisdictions; within jurisdictions, temperaments. Without asking the people, one cannot know the land.'"
+  },
+  {
+   "id": "M-MT-007",
+   "name_zh": "险径第一手法",
+   "name_en": "The Hard-Route-First Principle: The Value Zone Is Where Others Cannot Go",
+   "mode_code": "M-MT-007",
+   "category": "核心方法",
+   "domain_zh": "科学方法论/样本选择",
+   "domain_en": "Scientific Methodology / Sample Selection",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "徐霞客的元命题：考察的价值密度与路径的难度正相关——凡舆轿能至、志书已载之处，边际信息趋近于零；真正的样本在'人迹所不到'之处。方法论签名有四：其一，反向选址——行程规划时先删去已有记载充分的部分，把时间预算向空白区倾斜；其二，以身体为仪器——绝壁悬坠、洞穴缒降、涉水溯溪，肉身到达本身就是数据获取动作，'到过'是'说过'的凭证；其三，风险显式化——每次冒险前记录向导的警告与同行的劝阻，冒险是知情决策而非鲁莽；其四，不可达区处理——确实无法到达的对象（如某绝顶之上）明确记录'至此而止'，把能力边界本身写入成果。这一模式与库克'负证明'互补：库克以到达遍历证伪，徐霞客以到达取证——两人都把'到达'本身升格为方法。",
+   "definition_en": "Xu Xiake's master proposition: the value density of an investigation correlates with the difficulty of the route — wherever sedan chairs can go and gazetteers have already written, marginal information approaches zero; the true sample lies 'where human traces do not reach'. Four signatures define the mode. First, inverse siting: planning begins by deleting well-documented segments, tilting the time budget toward blank zones. Second, the body as instrument: cliff descents, cave lowers, wading upstream — bodily arrival is itself the data-acquisition act; 'having been there' is the warrant for 'having said'. Third, risk made explicit: before each venture he logs the guides' warnings and companions' dissuasion — adventure as informed decision, not recklessness. Fourth, handling the unreachable: objects truly beyond reach (a summit's final face) are recorded plainly as 'thus far and no farther' — the capability boundary itself written into the results. Complementary to Cook's negative proof: Cook falsifies by traversal, Xu takes evidence by arrival — both elevate 'getting there' into method.",
+   "source_chapter": "《徐霞客游记》黔游日记、滇游日记；陈函辉《徐霞客墓志铭》 / 陈函辉记：'其行不从官道，但有名胜，辄迂回屈曲以寻之；先审视山脉如何去来，水脉如何分合。'",
+   "key_concepts": [
+    "反向选址",
+    "身体即仪器",
+    "风险显式化",
+    "能力边界入档"
+   ],
+   "process_zh": [
+    "规划先做减法：删除记载充分区域，时间预算向空白区倾斜",
+    "把身体到达作为取证动作：每个关键点须肉身抵达并现场记录",
+    "冒险前三重记录：向导警告、同伴意见、自身预案并列入档",
+    "确实不可达处显式记'至此而止'：能力边界本身是成果的一部分"
+   ],
+   "process_en": [
+    "Plan by subtraction: strike well-documented segments first, tilt the time budget toward blank zones",
+    "Make bodily arrival the evidence act: every key point reached in person and recorded on site",
+    "Triple-log before venturing: guide's warning, companions' counsel, and one's own contingency plan, all archived",
+    "Record 'thus far and no farther' at the truly unreachable: the capability boundary is part of the deliverable"
+   ],
+   "representative_cases_zh": [
+    "麻叶洞探查：乡民以为'神龙所居'无人敢入，他以火把亲入两里，出而向围观者言其实，'吾守常径则永无此证'",
+    "茶房洞溯溪：与同伴涉水中毒流急湍，同行者止之，仍坚持溯至源头方返——险径即样本所在",
+    "滇西游历中多次'舆者不能至，乃徒行'：把轿夫不可达处逐一转为自己徒步行程，记录密度反而最高",
+    "反面警示：晚年在滇西瘴疠之区'足不能行'仍欲再入，终致全身俱损被送归——险径优先若无健康止损线，方法会杀死执行者。教训：价值区间必须配止损判据（对照 M-AE-012）。",
+    "反面警示：部分绝壁探险由乡民冒险缒绳协助完成，向导之险未被记录——第一手到达者往往把风险转嫁给本地协助者。教训：风险显式化必须覆盖协助方。",
+    "反面警示：一次洞穴探查因火把估算失误几近受困，同行仆役此后拒绝再配合下洞——样本追求若透支协作者的信任，后续样本会系统性减少。教训：险径预算含信任预算。"
+   ],
+   "representative_cases_en": [
+    "The Maye Cave: villagers held it a dragon's den none dared enter; he went two li in by torchlight and reported the truth to the onlookers — 'keep the common path and you will never hold this proof'",
+    "Wading at the Chafang gorge: against companions' counsel he forced the rapids upstream to the very source before turning back — the hard route is where the sample lives",
+    "Throughout western Yunnan, 'where the chair could not go, he went afoot': converting chair-inaccessible spots one by one into walking legs — precisely the highest recording density",
+    "Cautionary: in his late Yunnan years, feet ruined by the miasmal marches, he still sought re-entry and was finally carried home broken — hard-route-first without a health stop-loss lets the method kill its executor. Lesson: the value band needs stop-loss criteria (cf. M-AE-012).",
+    "Cautionary: several cliff ventures were completed only by villagers risking the ropes; the guides' peril went unrecorded — the first-hand arriver often transfers risk onto local helpers. Lesson: risk explicitness must cover the assisting parties.",
+    "Cautionary: one cave survey nearly ended trapped by a miscalculated torch supply, after which his servant refused further descents — sample-chasing that overdraws collaborators' trust systemically shrinks future samples. Lesson: the hard-route budget includes a trust budget."
+   ],
+   "modern_applications_zh": [
+    "把'竞争者不可达区'定义为价值区间：情报、市场、技术地图上先找无人走段",
+    "高风险行动显式化：决策前记录警告与预案，冒险与鲁莽的分界是知情程度",
+    "能力边界公开：交付物中含'未覆盖清单'，把'没查到'与'查不到'区分开"
+   ],
+   "modern_applications_en": [
+    "Define 'zones competitors cannot reach' as the value band: on intelligence, market, and technology maps, find the untrodden segments first",
+    "Make high-risk action explicit: log warnings and contingencies before deciding; the line between adventure and recklessness is the degree of being informed",
+    "Publish capability boundaries: deliverables carry an 'uncovered list', separating 'not yet checked' from 'cannot be checked'"
+   ],
+   "related_modes": [
+    "M-AE-014",
+    "M-MT-002",
+    "M-AE-013",
+    "M-MT-005"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "库克 (James Cook)",
+    "沙克尔顿 (Ernest Shackleton)",
+    "潘耒 (Pan Lai)"
+   ],
+   "key_quote_zh": "'予以身殉之，不敢辞难者，以所至为吾证。'",
+   "key_quote_en": "'I stake my body on it and dare not decline the hardship — for where I have stood is my proof.'"
+  },
+  {
+   "id": "M-MT-008",
+   "name_zh": "以行为文法",
+   "name_en": "Writing-as-Walking: The Journey Itself as Argument",
+   "mode_code": "M-MT-008",
+   "category": "核心方法",
+   "domain_zh": "写作学/非虚构叙事",
+   "domain_en": "Writing Craft / Nonfiction Narrative",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "徐霞客的元命题：论证不必依赖概念演绎——把行走路线组织为文本结构，让'我怎么走的'直接承载'我怎么知道的'，文本的说服力来自动作的可重复性。方法论签名有四：其一，路线即论证——日记按行进顺序写，读者的怀疑可以被任何人按同一路线复核，论证的检验方式内置于文本；其二，观察与行动同栏——'过涧，攀绝壁，见洞'式的动词链把数据获取动作与数据本身写在一起，读者可分辨证据等级；其三，失败与受阻入文——'欲上不得''遂返'等记录与发现同权重，负结果在文本中保留位置；其四，感官层级分明——所见、所闻（乡民言）、所推（余谓）分立，文体本身不做证据混淆。这一模式与麦哲伦'亲历者笔录'同源而更进一步：皮加费塔为'证明航行发生过'而写，徐霞客为'让结论可重走'而写。",
+   "definition_en": "Xu Xiake's master proposition: argument need not run on conceptual deduction — organize the walking route as the text's structure, so that 'how I traveled' directly carries 'how I know', and the text's persuasiveness rests on the reproducibility of its actions. Four signatures define the mode. First, the route is the argument: the diaries follow marching order, and any reader's doubt can be re-walked along the same line — the test of the argument is built into the text. Second, observation and action share a column: verb chains like 'crossed the stream, climbed the cliff, saw the cave' write the data-acquisition act beside the data itself, letting readers grade the evidence. Third, failure and obstruction enter the text: 'could not ascend', 'returned' carry equal weight with discoveries; negative results keep their place on the page. Fourth, sensory strata kept distinct: what was seen, what was heard (the natives say), what is inferred (I hold) stand apart — the style itself refuses to confuse evidence. Isomorphic with Magellan's eyewitness record yet a step further: Pigafetta wrote to prove a voyage happened; Xu wrote so his conclusions could be re-walked.",
+   "source_chapter": "《徐霞客游记》日记体文本本身；潘耒序论其'未尝刻画形容，而山川情状毕现' / 潘耒序评：'其笔意似子厚，其叙事似龙门；而征实之文，山经地志，于是乎冠。'",
+   "key_concepts": [
+    "路线即论证",
+    "动词链证据分级",
+    "负结果入文",
+    "所见所闻所推分层"
+   ],
+   "process_zh": [
+    "按行进顺序写：文本结构与调查路径同构，读者可按文重走",
+    "证据动词显式化：'亲见/人言/推断'用不同措辞锚定，不做文体混淆",
+    "受阻与折返与发现同权重记录：负结果占据文本正位",
+    "关键判断附复核指令：写明'若欲验此，从某径再上'类的可重复性说明"
+   ],
+   "process_en": [
+    "Write in marching order: text structure isomorphic with the investigation path, readers can re-walk it",
+    "Mark evidence verbs explicitly: 'saw with my own eyes / was told / I infer' anchored in distinct wording",
+    "Give obstruction and retreat the same weight as discovery: negative results hold a central place in the text",
+    "Attach re-verification instructions to key judgments: 'to test this, ascend again by such a path' — reproducibility notes"
+   ],
+   "representative_cases_zh": [
+    "游黄山日记：'初四日，兀坐听雪溜竟日'式的逐日行文让天气与观察条件成为文本一部分，结论自带情境",
+    "记麻叶洞：先写'乡人云中有神龙'（所闻），再写入洞亲见（所见），末以'向导惧而先返'注可信度层级",
+    "《溯江纪源》的行文：先列经说，再列所见河段，末下断语——论敌观点完整呈现后再被路线证据逐段覆盖",
+    "反面警示：游记原稿在战乱中散佚重编（王忠纴本与季梦良本差异），'以行为文'的路线完整性依赖抄本链条——文本方法若无版本纪律，可重走性会随传抄漂移。教训：一手档案须版本管理（对照 M-AE-020）。",
+    "反面警示：日记中偶有连日行程合记一处，路线时序被打折——文体简化会削弱'路线即论证'的强度。教训：合记须显式标注日期跨度。",
+    "反面警示：为文采与交代人情，部分段落含溢美主顾（木增等）之辞，后人有据此质疑其滇游中立性——以行为文的文体若混入应酬笔墨，证据文体即被污染。教训：应酬文与考察文分档。"
+   ],
+   "representative_cases_en": [
+    "The Huangshan diary: entries like 'on the fourth day I sat all day listening to the melting snow' make weather and observing conditions part of the text — conclusions carry their context",
+    "The Maye Cave entry: first 'the villagers say a dragon dwells within' (heard), then the eyewitness account (seen), closing with 'the guide fled ahead in fear' — credibility strata annotated",
+    "The argument of 'Tracing the Yangtze': first the classical claim, then the walked reaches, finally the verdict — the opponent's view fully stated, then segment by segment covered by route evidence",
+    "Cautionary: the original diaries scattered in war and were re-edited (the Wang Zhonghong and Ji Mengliang recensions differ) — a walking-text's route integrity depends on its manuscript chain; without version discipline, re-walkability drifts with each copy. Lesson: first-hand archives need version management (cf. M-AE-020).",
+    "Cautionary: some diaries compress several days' marches into one entry, discounting the route's temporal order — stylistic economy weakens 'the route is the argument'. Lesson: compressed entries must state their date spans explicitly.",
+    "Cautionary: some passages flatter patrons (Mu Zeng and others) for the sake of grace and obligation; later readers cite them to question his Yunnan neutrality — when courtesy prose mixes into evidence prose, the evidentiary genre is polluted. Lesson: keep courtesy writing and survey writing in separate files."
+   ],
+   "modern_applications_zh": [
+    "调研报告按'可重走'原则组织：方法论章不是附录而是路线图，读者能按文复核",
+    "证据分级写入行文：亲眼所见、他人转述、模型推断用不同动词锚定",
+    "失败实验与放弃方向占据正文位置：负结果是被引用价值最高的内容之一"
+   ],
+   "modern_applications_en": [
+    "Organize research reports on the re-walkable principle: the methods chapter is a route map, not an appendix — readers can verify by walking the text",
+    "Write evidence grading into prose: eyewitness, hearsay, and inference anchored by distinct verbs",
+    "Give failed experiments and abandoned directions their place in the body: negative results are among the most citable content"
+   ],
+   "related_modes": [
+    "M-AE-006",
+    "M-MT-001",
+    "M-SMQ-321",
+    "M-MT-003"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "司马迁 (Sima Qian)",
+    "皮加费塔 (Antonio Pigafetta)",
+    "潘耒 (Pan Lai)"
+   ],
+   "key_quote_zh": "'余之记山川，不欲工，惟欲核；核则山川自工。'",
+   "key_quote_en": "'In writing of mountains and rivers I seek not elegance but accuracy; with accuracy the elegance comes of itself.'"
+  },
+  {
+   "id": "M-MT-009",
+   "name_zh": "阙疑存考法",
+   "name_en": "The Preserved-Doubt Method: Archiving the Unresolved as Part of the Result",
+   "mode_code": "M-MT-009",
+   "category": "核心方法",
+   "domain_zh": "知识管理/学术诚实",
+   "domain_en": "Knowledge Management / Scholarly Integrity",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "徐霞客的元命题：考察成果的完整性不等于全部问题已解——把'未能判定'的部分以显式存疑的形态一并交付，比伪造一个闭合答案更接近完成。在'游必记、记必核'的体例之外，他给'核不了'的问题留了正式席位：存疑不是失败而是成果的一部分。方法论签名有四：其一，'姑存之'体例——日记中大量'疑不能明，姑记于此'式条目，存疑本身被赋予档案地位，与结论条目同等保存；其二，问题递归——本次未解的问题写成下次行程的输入（雁湖问题第一次存疑，第二次专程复核），存疑是待办而非句号；其三，不闭合的诚实——对传闻（如某洞通某江）不采信也不武断否定，记录'其说不一'及各方版本，把裁决留给证据而非立场；其四，结论分级——亲验、旁证、传闻三层结论在文中自然分层，后人可按层级取用。这一模式与库克'误差公开'（海图标注疑点）同构：地图的诚实比地图的完整更有用。",
+   "definition_en": "Xu Xiake's master proposition: the completeness of a survey does not mean every question is solved — delivering the 'unresolved' in explicit preserved-doubt form is closer to completion than fabricating a closed answer. Four signatures define the mode. First, the 'let it stand' formula: the diaries abound with 'doubt not yet clear, I note it here' entries — preserved doubt itself granted archival status. Second, recursive questions: this trip's unsolved items become the next trip's inputs (Yan Lake doubted first, revisited expressly the second time). Third, honesty without closure: for rumors (a cave said to connect to a river) he neither believes nor flatly denies, recording 'the accounts differ' with each version. Fourth, graded conclusions: eyewitness, corroborated, and hearsay tiers naturally stratified in the text, ready for later readers to draw from by tier. Isomorphic with Cook's published uncertainty (doubtful points marked on the chart): an honest chart is more useful than a complete one.",
+   "source_chapter": "《徐霞客游记》各卷'姑存之''疑不能明'条目；潘耒序 / 潘耒序论其体例：'所至必穷其胜，穷则必记；有疑必辨，辨而后已；辨不能尽者，则姑存之。'",
+   "key_concepts": [
+    "存疑入档",
+    "问题递归",
+    "不闭合诚实",
+    "结论分级"
+   ],
+   "process_zh": [
+    "为'未解'设专门体例：存疑条目与结论条目同等编号入档",
+    "每次考察结束输出'遗留问题清单'：作为下一次行程的强制输入",
+    "传闻三版并录：不采信、不否定，保留各方原始说法",
+    "结论按证据层级打标：亲验/旁证/传闻在文本中显式分层"
+   ],
+   "process_en": [
+    "Create a dedicated format for 'unresolved': doubt entries numbered and archived as equals of conclusion entries",
+    "Emit a 'leftover questions list' at every survey's end: a mandatory input to the next trip",
+    "Record all versions of a rumor: neither endorse nor deny, preserving each party's original account",
+    "Tag conclusions by evidence tier: eyewitness / corroborated / hearsay explicitly stratified in the text"
+   ],
+   "representative_cases_zh": [
+    "雁湖问题：第一次登山未能确认与大龙湫关系，日记明记'姑俟再探'，次年为复核专程再入山",
+    "盘江支流存疑条目：对若干支流归属记'两志互异，姑并存之'，为后世修正保留原始对照",
+    "对'澜沧江与怒江合流'传闻：实地考察后记'所云合流者，妄也'，但同时保留听闻来源——判断与出处同档",
+    "反面警示：'姑存之'条目在后世抄本中被整理者删并，存疑原貌部分失传——存疑档案若无非对称保护，反而最先被清理。教训：存疑条目须与结论同等级版本管理。",
+    "反面警示：部分'疑不能明'实为疲劳与补给危机下的被迫中止，与真正的智识存疑混写一处——存疑体例若不分'不能判'与'未及判'，档案可信度分层失效。教训：存疑须注明中止原因。",
+    "反面警示：对个别民间信仰（洞中藏龙）徐霞客以'妄也'直接否定，未考其社会功能——存疑的诚实若滑向单方裁决，会误伤仍具组织功能的地方知识。教训：证伪须与理解并行。"
+   ],
+   "representative_cases_en": [
+    "The Yan Lake question: first ascent failed to confirm its relation to the falls, the diary plainly noting 'let it stand for another probe' — the next year's trip a dedicated revisit",
+    "Preserved-doubt entries on Pan River tributaries: 'the two gazetteers differ; let both stand' — original contrasts kept for later correction",
+    "On the rumor 'the Lancang and the Nu join': after fieldwork he wrote 'the claim of confluence is false', while still logging the hearsay source — judgment and provenance archived together",
+    "Cautionary: many 'let it stand' entries were deleted or merged by later editors, and the original shape of preserved doubt partly vanished — doubt archives, if not protected asymmetrically, are the first to be cleaned out. Lesson: doubt entries need version management equal to conclusions.",
+    "Cautionary: some 'doubt not yet clear' was in fact forced suspension under fatigue and supply crisis, miscopied beside genuine intellectual doubt — when the doubt format fails to separate 'cannot judge' from 'never reached judging', the archive's credibility stratification fails. Lesson: preserved doubt must state its cause of suspension.",
+    "Cautionary: toward some folk beliefs (the dragon in the cave) Xu wrote flatly 'it is false', without examining their social function — honesty about doubt sliding into unilateral verdict wounds local knowledge still doing organizational work. Lesson: falsification must travel with understanding."
+   ],
+   "modern_applications_zh": [
+    "交付物设'存疑区'：报告显式列出未判定问题与各自证据状态，禁用'基本确定'类模糊语",
+    "问题递归制度：本次未解问题自动进入下一轮调研的任务清单",
+    "传闻处理协议：不采信不否定，原文并录并标注来源与层级"
+   ],
+   "modern_applications_en": [
+    "Give deliverables a 'preserved-doubt zone': unresolved questions with their evidence status listed explicitly; vague phrases like 'basically certain' banned",
+    "Institute question recursion: this round's unsolved items auto-enter the next round's task list",
+    "A hearsay protocol: neither endorse nor deny — record all versions with sources and tiers attached"
+   ],
+   "related_modes": [
+    "M-MT-001",
+    "M-AE-013",
+    "M-DKR-001",
+    "M-MT-002"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "库克 (James Cook)",
+    "朱熹 (Zhu Xi)",
+    "潘耒 (Pan Lai)"
+   ],
+   "key_quote_zh": "'疑者阙之，信者直书；后有达者，考而正焉。'",
+   "key_quote_en": "'What is doubtful I leave open; what is certain I write straight. Some later discerning reader will examine and correct.'"
+  },
+  {
+   "id": "M-MT-010",
+   "name_zh": "资助杠杆平衡法",
+   "name_en": "The Patronage-Balance Method: Taking Support Without Surrendering the Mission",
+   "mode_code": "M-MT-010",
+   "category": "核心方法",
+   "domain_zh": "组织管理学/资源获取",
+   "domain_en": "Organizational Management / Resource Acquisition",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "徐霞客的元命题：独立考察需要的不是拒绝资助，而是设计资助结构——让每一笔外部资源都带着'不改变调查议程'的约束进入，用多源小额替代单源大额以保议程自主。方法论签名有四：其一，家产自持打底——变卖祖产与家族田租承担基础盘，资助是增量而非生存线；其二，多源并行——地方官员（如丽江木增、中云进士唐大陶）、僧寺、友人（陈继儒、陈函辉）各出其力，任一来源中断都不致命；其三，互惠不卖断——受资助以题赠、书信、提供地理信息回报，但考察路线与发表内容不做交换（为木增修志之约未改变其考察自主）；其四，退出权保留——对威胁议程自主的接待（仪仗迎送、改道要求）显式拒绝。这一模式与麦哲伦'合同动员'构成光谱两端：王室合同以让渡发现权换资源，徐霞客以分散小额保议程完整——独立性的价格是规模的极限。",
+   "definition_en": "Xu Xiake's master proposition: independent surveying requires not refusing patronage but designing its structure — letting every external resource enter under the constraint 'without altering the survey agenda', replacing single large grants with many small ones to keep the agenda sovereign. Four signatures define the mode. First, family assets as the floor: selling ancestral property and living on family rents for the base line — patronage as increment, never subsistence. Second, many sources in parallel: local officials (Mu Zeng of Lijiang, the scholar Tang Datao), monasteries, and friends (Chen Jiru, Chen Hanhui) each contributing — the rupture of any single source not fatal. Third, reciprocity without sale: aid repaid with inscriptions, letters, and geographic intelligence, but routes and publication never traded (even the commission to compile Mu's gazetteer left his survey autonomy intact). Fourth, exit right retained: receptions threatening agenda sovereignty (ceremonial welcome, forced rerouting) refused explicitly. The mode sits at the opposite pole from Magellan's contract mobilization: the Crown contract traded discovery rights for resources; Xu's scattered small sums preserved agenda integrity — the price of independence is the ceiling of scale.",
+   "source_chapter": "《徐霞客游记》滇游日记；陈函辉《徐霞客墓志铭》；丽江木增与徐霞客交往史料 / 陈函辉志铭断语：'霞客不谒豪贵，不受馈遗；间有相济者，亦不以为德。'",
+   "key_concepts": [
+    "家产自持打底",
+    "多源小额并行",
+    "互惠不卖断",
+    "退出权保留"
+   ],
+   "process_zh": [
+    "先立生存底线：考察基础成本由自有资产覆盖，资助只做增量",
+    "资助来源分散化：单源占比设上限，任一来源退出不改变行程",
+    "设计非卖断型回报：以信息、题赠、文书回馈资助方，考察议程不进入交易",
+    "保留显式退出权：对改变路线或发表内容的资助条件预先拒绝"
+   ],
+   "process_en": [
+    "Establish the survival floor first: base costs covered by own assets; patronage is increment only",
+    "Diversify funding sources: cap any single source's share so its exit never alters the itinerary",
+    "Design non-alienating reciprocity: repay patrons with intelligence, inscriptions, documents — never the survey agenda",
+    "Retain explicit exit rights: refuse in advance any funding condition that reroutes or censors publication"
+   ],
+   "representative_cases_zh": [
+    "家产与田租支撑三十年考察：江阴徐氏资产变卖与田租收入构成基础盘，'以性灵游，以躯命游'无雇佣关系约束",
+    "丽江木增之谊：受其资助与款待，为撰文稿，但保持行程自主并最终辞行北上——互惠未变议程",
+    "湘江遇盗后多方接济：友人赠物、地方官资助、借贷并行渡过危机，任一单源皆不足以左右其路线",
+    "反面警示：为获木增资助与通行便利，徐霞客在滇游日记中对其治绩多正面着墨，后世研究者指出该段记录存在明显的恩主偏向——互惠关系即使不卖断议程，也会塑造叙述重点。教训：资助对记录的影响须自查并声明。",
+    "反面警示：徐霞客变卖祖产引发家族内部矛盾，母亲王孺人虽支持（'志在四方'之勉）但家族经济受损——独立考察的成本由家庭承担，干系人未进入决策。教训：底线资产的动用需家庭级合约。",
+    "反面警示：晚年病足归乡后已无力整理游记，资助网络随其死亡瓦解，手稿散佚——外部资源的不可持续性最终转化为档案风险（对照 M-MT-010 与 M-AE-020 的教训合流）。教训：资助结构须覆盖'项目终止后'的维护期。"
+   ],
+   "representative_cases_en": [
+    "Family assets underwrote thirty years: the sale of Xu family property and rent income formed the base — 'traveling by spirit and by body' with no employer's leash",
+    "The friendship with Mu Zeng of Lijiang: funded and hosted, he contributed drafts, yet kept itinerary autonomy and finally departed north — reciprocity without agenda capture",
+    "After the Xiang River robbery: friends' gifts, officials' aid, and loans ran in parallel through the crisis — no single source large enough to steer his route",
+    "Cautionary: to win Mu Zeng's funding and passage, Xu's Yunnan diaries render Mu's governance in markedly positive terms; later researchers note a clear patron bias in that segment — even reciprocity that never sells the agenda still shapes narrative emphasis. Lesson: funding's influence on the record must be self-audited and declared.",
+    "Cautionary: selling ancestral property bred family conflict; his mother Lady Wang supported him ('your will is to the four quarters') yet the family economy suffered — the cost of independent surveying fell on the household, stakeholders absent from the decision. Lesson: deploying the floor's assets requires a family-level compact.",
+    "Cautionary: in his last years, feet ruined, he could not edit his own diaries; with his death the patronage network dissolved and the manuscripts scattered — the unsustainability of external resources finally converted into archive risk (where M-MT-010 and M-AE-020's lessons converge). Lesson: the funding structure must cover the maintenance period after the project ends."
+   ],
+   "modern_applications_zh": [
+    "独立研究/调查新闻的资助结构：自有底盘+多源小额+非卖断回报+退出权四件套",
+    "接受企业或机构资助前显式谈定议程边界：把'路线与发表不受干预'写成条款",
+    "单一资助方占比上限制度：防单源依赖转化为议程依附"
+   ],
+   "modern_applications_en": [
+    "A patronage structure for independent research and investigative journalism: own floor + many small sources + non-alienating reciprocity + exit rights",
+    "Before accepting corporate or institutional funding, settle agenda boundaries explicitly: 'routes and publication free of interference' written into terms",
+    "Cap any single funder's share: preventing single-source dependence from becoming agenda dependence"
+   ],
+   "related_modes": [
+    "M-AE-001",
+    "M-MV-001",
+    "M-AE-015",
+    "M-MT-005"
+   ],
+   "representative_figures": [
+    "徐霞客 (Xu Xiake)",
+    "麦哲伦 (Ferdinand Magellan)",
+    "木增 (Mu Zeng)",
+    "陈函辉 (Chen Hanhui)"
+   ],
+   "key_quote_zh": "'不受一命之荣，不借一势之援；有相资者，无相制者。'",
+   "key_quote_en": "'I take no office's glory and borrow no power's backing: what aids me, none of it commands me.'"
+  }
+ ]
+}

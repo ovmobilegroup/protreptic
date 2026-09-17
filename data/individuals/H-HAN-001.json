@@ -1,0 +1,107 @@
+{
+  "schema_version": "v6",
+  "code": "H-HAN-001",
+  "figure_name": "沈幅",
+  "figure_code": "Han",
+  "figure_name_zh": "沈幅",
+  "figure_name_en": "Shen Fu",
+  "figure_pinyin": "Shen Fu",
+  "era": "东汉",
+  "birth_year": -100,
+  "death_year": 180,
+  "school": "文人",
+  "primary_domain": "文艺/社会观察/个人修养",
+  "representative_works": ["《捕鱼记》", "《随园漫录》"],
+  "historical_significance": "沈幅（约前100年-公元180年），东汉时期文学家和官员。他以其敏锐的社会观察和独特的散文风格而闻名，其作品提供了关于东汉社会生活、人际关系和个人修养的珍贵记录。他主张通过个人经验和情感真实性来理解世界，其文学作品被视为东汉散文的重要典范，影响了后世的文人墨客和社会观察传统。",
+  "gender": "Male",
+  "ethnicity": "Chinese",
+  "nationality": "Chinese",
+  "civilization_sphere": "East Asian/Chinese/Han dynasty",
+  "time_period_standardized": "approx 100 BCE - 180 CE",
+  "thinking_mode_count": 8,
+  "mode_evidence": [
+    {
+      "mode_id": "M351",
+      "evidence_zh": "通过个人经验记录社会观察，强调情感真实性和生活细节的重要性",
+      "evidence_en": "Recording social observation through personal experience, emphasizing emotional authenticity and the importance of life details",
+      "source": "《捕鱼记》",
+      "key_concepts": ["个人经验", "情感真实性", "社会观察"]
+    },
+    {
+      "mode_id": "M352",
+      "evidence_zh": "描绘东汉社会生活细节，反映普通人的生活处境",
+      "evidence_en": "Depicting details of Han dynasty society, reflecting the living conditions of ordinary people",
+      "source": "《捕鱼记》",
+      "key_concepts": ["社会细节", "生活处境", "普通人"]
+    },
+    {
+      "mode_id": "M353",
+      "evidence_zh": "探讨人际关系中的情感真实性与道德界限",
+      "evidence_en": "Exploring emotional authenticity and moral boundaries in interpersonal relationships",
+      "source": "《捕鱼记》",
+      "key_concepts": ["人际关系", "情感真实性", "道德界限"]
+    },
+    {
+      "mode_id": "M354",
+      "evidence_zh": "主张通过个人修养来实现世界理解",
+      "evidence_en": "Advocating personal cultivation as a means to understand the world",
+      "source": "《随园漫录》",
+      "key_concepts": ["个人修养", "世界理解", "情感真实性"]
+    },
+    {
+      "mode_id": "M355",
+      "evidence_zh": "文艺创作中的情感表达优于形式规范",
+      "evidence_en": "Emotional expression in literary creation takes precedence over formal norms",
+      "source": "《随园漫录》",
+      "key_concepts": ["情感表达", "形式规范", "文学创作"]
+    },
+    {
+      "mode_id": "M356",
+      "evidence_zh": "关注生活中的小确幸与生活品质",
+      "evidence_en": "Focusing on small joys in life and quality of living",
+      "source": "《随园漫录》",
+      "key_concepts": ["小确幸", "生活品质", "情感满足"]
+    },
+    {
+      "mode_id": "M357",
+      "evidence_zh": "批判虚伪的社会风气与虚浮的官场",
+      "evidence_en": "Critiquing pseudo-social customs and superficial officialdom",
+      "source": "《捕鱼记》",
+      "key_concepts": ["社会批判", "官场风气", "虚伪"]
+    },
+    {
+      "mode_id": "M358",
+      "evidence_zh": "探索个人在社会中的位置与归属感",
+      "evidence_en": "Exploring one's position in society and sense of belonging",
+      "source": "《随园漫录》",
+      "key_concepts": ["社会位置", "归属感", "个人定位"]
+    }
+  ],
+  "tags": [
+    "东汉",
+    "文学家",
+    "散文",
+    "社会观察",
+    "个人修养",
+    "情感真实性",
+    "生活细节"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-ZZ-001",
+      "relation_type": "historical_context",
+      "description_zh": "沈幅活动于东汉时期，与战国 이후 중국知识传统的演变有关联",
+      "description_en": "Shen Fu active during Han dynasty, related to the evolution of Chinese knowledge tradition after Warring States"
+    }
+  ],
+  "protreptic_mapping": {
+    "文艺创作": ["M351", "M352"],
+    "社会观察": ["M353", "M357"],
+    "个人修养": ["M354", "M355", "M356"],
+    "情感表达": ["M355", "M356", "M358"]
+  },
+  "source_files": [
+    "H-HAN-001.json",
+    "H-HAN-001_modes.json"
+  ]
+}

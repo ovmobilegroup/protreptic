@@ -1,0 +1,118 @@
+{
+  "id": "H-ZKZ-004",
+  "name_zh": "通专品三位一体育人",
+  "name_en": "Trinity Education (Liberal + Professional + Character)",
+  "category": "collaborative",
+  "sub_category": "holistic talent system",
+  "definition_zh": "反对人才碎片化，把「通识底座 + 专业深度 + 品格养成」作为不可分割的整体来设计课程、评价与治理，培养「公忠坚毅、能担当大任」的完整的人，而非单功能专家。",
+  "definition_en": "Against talent fragmentation, design curriculum, assessment and governance as an indivisible whole of 'liberal base + professional depth + character cultivation', to raise whole persons who are 'public-spirited, steadfast, able to bear great responsibility' rather than single-function experts.",
+  "formula_repr": {
+    "formulas": [
+      "Talent = L ⊕ P ⊕ C   [人才 = 通识 ⊕ 专业 ⊕ 品格，三者不可约简]",
+      "Curriculum: w_L·L + w_P·P + w_C·C , w_L≈0.3   [三模块加权，通识占约 30%]",
+      "Assessment: 0.4·process + 0.6·terminal   [过程性 40% + 终结性 60%]",
+      "Governance: dept-autonomy ⊕ open-admin ⊕ student-autonomy   [三治融合]"
+    ],
+    "variables": {
+      "L": "通识底座（文史哲/科学方法）",
+      "P": "专业深度（理工农医等）",
+      "C": "品格养成（求是精神）",
+      "w_L": "通识模块权重",
+      "process": "过程性考核占比",
+      "terminal": "终结性考核占比"
+    },
+    "prototype": "Totalistic thinking / 总体性思维（大学育人系统总体设计版）"
+  },
+  "applicability": {
+    "triggers": [
+      "培养目标是「完整的人/领袖」而非熟练工种",
+      "专业过早细分导致视野窄、迁移弱",
+      "组织需以价值观（非仅技能）凝聚与筛选",
+      "评价单一（唯分数/唯论文）催生功利与短视"
+    ],
+    "anti_patterns": [
+      "把通识当「水课」、专业当唯一，割裂三者",
+      "一年级即分系，基础未牢便定向",
+      "评价唯终结考试，过程与品格不可见",
+      "治理集权，院系/学生无自治空间"
+    ]
+  },
+  "steps_zh": [
+    "通识底座：一年级不分系，设文史哲/科学方法通识必修（约占 30%），先广后专。",
+    "专业深度：在通识之上建专业核心 + 实践实习，第一等教授亲授新生。",
+    "品格养成：以校训（求是）落三级执行标准——实事求是→求真务实→求全责备。",
+    "三模课程：通识+专业+实践三模块配套，拒绝「只造工程师」的窄目标。",
+    "三治治理：院系自治 + 校务公开 + 学生自治，以价值观而非行政命令凝聚。",
+    "两问牵引：以「到浙大来做什么 / 毕业后做什么样的人」持续唤醒使命，输出可担大任者。"
+  ],
+  "steps_en": [
+    "Liberal base: no department in year one; liberal (history/philosophy/science method) required (~30%), broad before deep.",
+    "Professional depth: on the liberal base, build professional core + practice; first-rate professors teach freshmen.",
+    "Character cultivation: school motto (Seek Truth) as a three-tier standard—truthfulness → realism → exhaustive rigor.",
+    "Three-module curriculum: liberal + professional + practice matched; reject the narrow 'just train engineers' goal.",
+    "Three-governance: department autonomy + open administration + student autonomy, cohesion by values not decree.",
+    "Two-questions pull: 'why Zhejiang U / what kind of person after' continually awaken mission, outputting responsible leaders."
+  ],
+  "historical_case_zh": "竺可桢 1936 任浙大校长即提「一年级不分系」；课程设通识必修（文史哲约 30%）+专业核心+实践实习三模块，评价用过程性 40%+终结性 60%，治理行院系自治+校务公开+学生自治三治。以王阳明「君子之学，岂有心于同异，唯求其是」定「求是」校训（1938-11-19 宜山校务会议），落为「不盲从不附和、只问是非不计利害」的品格标准。其「两问」与育人体系走出李政道、程开甲、谷超豪、叶笃正等，战时湄潭 7 年论文数超当时所有中国大学。",
+  "historical_case_en": "On becoming Zhejiang U president (1936), Zhu set 'no department in year one'; curriculum = liberal required (~30%) + professional core + practice; assessment = 40% process + 60% terminal; governance = department autonomy + open admin + student autonomy. From Wang Yangming's 'seek only what is true' he fixed 'Seek Truth' as motto (1938-11-19 Yishan meeting), as the character standard 'no blind conformity, only right vs wrong, not self-interest'. His 'two questions' and system produced Li Zhengdao, Cheng Kaijia, Gu Chaohao, Ye Duzheng; in wartime Meitan (7 yrs) ZU papers exceeded all other Chinese universities.",
+  "modern_case_zh": "通识学院/书院制（如清华新雅、复旦任重）、企业「价值观+专业+轮岗」管培生体系、医学院「人文+临床+科研」三位一体——皆同此模式；反对「唯论文/唯 KPI」碎片化评价亦其反题。",
+  "modern_case_en": "Liberal-arts colleges (e.g. Tsinghua Xinya), corporate 'values + specialty + rotation' trainee tracks, medical 'humanities + clinic + research' trinity—all the same pattern; opposing 'paper-only / KPI-only' fragmented assessment is its antithesis.",
+  "inheritance_note": "B 级结构同构：对应总体性思维（模式 22）在社会总体/反碎片化的一般用法。A 级直链：竺可桢是 Protreptic 中将模式 22 用于「大学育人系统总体设计」、并把通识/专业/品格三维度不可割裂落为可考核三模块三治的第一人，补强模式 22 高频核心。",
+  "related_persons": [
+    "竺可桢 (1890-1974)",
+    "王阳明",
+    "蔡元培"
+  ],
+  "tags": [
+    "protreptic",
+    "zhu-kezhen",
+    "education",
+    "totalistic-thinking"
+  ],
+  "tags_en": [
+    "protreptic",
+    "zhu-kezhen",
+    "education",
+    "totalistic-thinking"
+  ],
+  "reason_zh": "竺可桢将模式 22（总体性思维）用于大学育人系统的整体设计：通识、专业、品格三维不可割裂，并以可考核的三模块课程与三治治理落地，是教育组织的总体性。",
+  "reason_en": "Zhu maps mode 22 (totalistic thinking) onto holistic university-system design: liberal, professional and character dimensions are indivisible, landed as assessable three-module curriculum and three-way governance—totalism for educational organization.",
+  "expected_zh": "产出视野广、专业深、品格稳的完整人才，而非单功能工种；组织以价值观凝聚，评价覆盖过程与品格，可跨危机持续输出领袖。",
+  "expected_en": "Produce broadly literate, deeply skilled, character-steady whole persons rather than single-function workers; the organization coheres by values, assessment covers process and character, and sustains leader output across crises.",
+  "scientific_contribution": false,
+  "artistic_legacy": false,
+  "environmental_stewardship": false,
+  "gender_role_innovation": false,
+  "island_nation": false,
+  "nomadic_heritage": false,
+  "regional_integration": "",
+  "conflict_resolution_mechanism": "",
+  "legacy_type": "educational",
+  "digital_adaptation": "Maps to competency-model design and holistic talent-OS in L&D systems.",
+  "oral_tradition": "",
+  "resource_curse_mitigation": false,
+  "climate_adaptation": false,
+  "diaspora_network_type": "",
+  "polar_region": false,
+  "modes": [
+    22
+  ],
+  "version": "6.0",
+  "author": "serrano",
+  "created_at": "2026-08-25T13:35:00Z",
+  "nationality": "China",
+  "civilization_sphere": "East Asian / Confucian",
+  "time_period_standardized": "1890-1974 (Modern-Early, 近代)",
+  "wiki_id": "",
+  "primary_language": "Chinese (Mandarin)",
+  "intellectual_tradition": "Confucian / Modern Science / Geophysics & Education",
+  "cross_cultural_impact": "Applicable to global earth-system science, observation-network design, long-horizon climate reconstruction, and resilience of academic institutions under crisis",
+  "legal_system": "",
+  "education_tradition": "Modern science / 现代科学教育（求是书院—浙大传统）",
+  "source_lineage": [
+    "t_serrano_竺可桢_629720_0 (candidates_v2_research.md §5)",
+    "docs/research/candidates_v2_research.md",
+    "《中国近五千年来气候变迁的初步研究》(考古学报 1972(1))",
+    "浙大校史 / 竺可桢日记 (1936-01-01 ~ 1974-02-06)"
+  ]
+}

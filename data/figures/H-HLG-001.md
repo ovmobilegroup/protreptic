@@ -1,0 +1,850 @@
+# 华罗庚 HuaLuogeng (H-HLG-001)
+
+## 概览 / Overview
+
+- 年代 Era: 1910-1985 : 1910 生于江苏金坛县杂货铺之家，家贫——1925 金坛中学初中毕业（因家贫辍学，入上海中华职业学校半工半读又辍学）—回金坛帮父亲站柜台，自学数学（一盏油灯、几本借来的《大代数》《解析几何》《微积分》）——1929 金坛中学庶务兼会计，年末染伤寒，左腿落下终身残疾（'我别无选择，干别的工作要跑腿，数学不需要'）——1930 在《科学》杂志发表《苏家驹之代数的五次方程式解法不能成立之理由》，指出清华教授苏家驹论文的错误，被清华熊庆来看到，惊为奇才——1931 破格入清华，从助理员干起，边管图书边旁听，两年内自学完数学系课程，自学英、法、德语——1933 被破格提升为助教（教授会为此争议：一个初中学历者登上讲台），1935 升教员——1936 经熊庆来推荐赴剑桥大学访学（哈代 G.H. Hardy 门下的'访问博士'——他放弃攻读学位：'我来剑桥是为了求学问，不是为了得学位'），两年发表十余篇论文，在华林问题、塔内问题（Tarry 问题）上连破纪录——1938 抗战爆发毅然回国，任西南联大教授（从剑桥的助教级直接越过讲师、副教授当上教授——又一个破格）；昆明防空洞里写成《堆垒素数论》（Sum, 1940-41，后成为 20 世纪数论经典，苏联 1947 年出俄文版，中文版反而拖到 1953）——1946 应普林斯顿高等研究院之聘赴美，1948 任伊利诺伊大学教授（正教授，全家赴美，生活优渥）——1950 在新中国成立之初携全家毅然归国（公开信《致中国全体留美学生的信》：'梁园虽好，非久居之乡'）——归国后先任清华教授，1952 筹建中国科学院数学研究所并任所长——开创中国解析数论学派（指导王元、陈景润、陆启铿、万哲先、龚升等）——1960s 转向应用数学与普及：推广'优选法'（黄金分割法 0.618）与'统筹法'（CPM/PERT 的中国化），足迹遍及 20 余省、数千工厂，'双法'小分队成为应用数学群众化运动——1966-76 文革中受冲击但被周恩来保护，坚持下厂推广双法——1978 任中国科技大学副校长（1978 创办华罗庚数学班，后发展为少年班体系的重要源头）、中科院副院长——1985.6.12 在日本东京大学讲学时心脏病发作，倒在讲台上，卒于国际学术讲坛——'最大希望就是工作到生命的最后一刻'的自我预言成真
+- 学派 School: 解析数论学派（剑桥哈代门下'数论'传统的中国分支）的创建者 / 应用数学群众化运动（'双法'学派）的开创者 / 自学成才-破格制度的中国样本 / 数学普及写作的一代宗师
+
+
+### 历史意义 / Significance
+
+华罗庚（1910-1985），二十世纪中国最著名的数学家，也是'天才如何被制度破格、又如何反哺制度'的完整样本。他的历史地位由三件事锚定。其一，科学：初中辍学的杂货铺店员，凭一篇指出清华教授错误的论文被熊庆来破格调入清华，又凭两年十余篇论文在剑桥哈代门下跻身世界解析数论前沿——华林问题与塔内问题上的结果让他成为国际数论界公认的领袖之一；《堆垒素数论》在昆明防空洞里写成，成为二十世纪堆垒数论的标准著作；他与王元合作的《数论在近似分析中的应用》把数论方法变成高维数值积分的实用工具（'华-王方法'）。其二，制度与人：他在清华被破格（初中学历登台）、破格提携陈景润（把厦门大学不受重视的讲师调进中科院数学所，其'1+2'后来成为哥德巴赫猜想研究的里程碑），又在 1950 年放弃伊利诺伊正教授的优渥生活归国——'梁园虽好'公开信召回了整整一代留学生；他的存在本身成为中国'不拘一格降人才'的活证据，其少年班构想延续至今。其三，思想与实践：他晚年最独特的创造是把'数学'从书斋搬进车间——优选法（0.618 黄金分割搜索）与统筹法被简化为工人一听就懂、一用就灵的口诀，二十余省、数百万听众的下厂运动使'数学方法'第一次成为中国产业现场的日常语言。这是数学史上罕见的'普及即创造'：他不是把现成方法翻印，而是为现场重造方法。代价与张力同样真实：政治运动消耗了他黄金年代的纯数学产出（他自言'五六十年代我本可以做更多更好的研究'）；群众运动式普及有其历史特殊语境；而他与陈景润的师承关系在特殊年代也经受了考验。他的自我总结是数学家式的：'勤能补拙是良训，一分辛苦一分才'——但他的真实方法论比'勤奋'锋利得多：那是一整套关于'聪明如何被组织、被普及、被制度化'的工程学。
+
+Hua Luogeng (1910-1985), the most celebrated Chinese mathematician of the twentieth century and a complete specimen of how genius is admitted by exception and repays the institution. Three anchors fix his standing. Science: a junior-school dropout shop clerk, admitted to Tsinghua by exception after a paper correcting a Tsinghua professor, then to the world front rank of analytic number theory after two Cambridge years under Hardy—a dozen papers and broken records on Waring's and Tarry's problems; Additive Theory of Prime Numbers, written in Kunming air-raid shelters, became a standard work of twentieth-century additive number theory; the Hua-Wang method turned number theory into a practical tool for high-dimensional numerical integration. Institutions and people: promoted by exception at Tsinghua (a junior-school graduate at the lectern), he extended the same grace by lifting Chen Jingrun—an overlooked lecturer at Xiamen University—into the CAS Institute of Mathematics, where Chen's '1+2' became a landmark in the Goldbach conjecture; and in 1950 he gave up a full professorship at Illinois to return home, his open letter ('a beautiful garden is no home to linger in') recalling a whole generation of overseas students. He became living proof of the Chinese ideal of 'promoting talent regardless of pedigree,' and his gifted-youth design survives as today's special classes. Thought and practice: his most original late creation was carrying mathematics out of the study and into the workshop—the optimization method (golden-section 0.618 search) and overall-planning method, distilled into mnemonics workers grasped at a hearing, carried to millions across twenty-plus provinces; the first time mathematical method became the daily language of Chinese industry. Rare in the history of mathematics, this was 'popularization as creation': he did not reprint ready-made methods but remade them for the shop floor. The costs were real: political campaigns consumed his golden years of pure mathematics (he said as much himself); movement-style popularization was tied to its historical moment; and his mentorship of Chen Jingrun was tested in hard times. His own summary was a mathematician's couplet—'diligence repairs clumsiness; one part sweat, one part talent'—but his true methodology was far sharper than diligence: an engineering of how intelligence is organized, popularized, and institutionalized.
+
+
+### 独特思维 / Unique Thinking
+
+他的思维方式的底色是'从约束中提取方法，再把方法还给更大的约束现场'：华罗庚的一生是一部'在极端稀缺条件下如何思考'的教程——无学历、无导师、无图书馆、无健康，每个缺口都被他转化为一种独特的方法装置。五个标志性动作：其一，'读书要从薄到厚、再从厚到薄'——先逐字推演把书读厚（补出全部中间步骤），再提炼骨架把书读薄（只剩可迁移的结构），这是他把自学工程化的核心算法；其二，'弄斧必到班门'——反'班门弄斧'贬义而用之，主动到最强者的门前献技，用最高参照系快速暴露自身弱点（剑桥两年即是此法的执行：直接挑战华林问题、塔内问题的世界纪录）；其三，'一条龙'的智力供应链设计——从识别（发现苏家驹论文的错误作跳板）、到深造（熊庆来破格）、到产出（论文开路）、到反哺（提携陈景润、办少年班），他把'人才发现'本身当作可设计的漏斗来经营；其四，'下棋找高手，弄斧到班门'的对称面是'把高深方法降维到现场可用'——0.618 法被他压缩成'来回调试取中段'的工人口诀，统筹法画成一张流水线箭头图：降维不是简化，是方法的再制造；其五，'数学的整体观'——他反对把数学切成互不相干的分支，强调'数离开形少直观，形离开数难入微'（数形结合），并在数论、代数、多复变、应用数学之间自由迁移，晚年更把这种整体观推向'数学要为国民经济服务'的方法论自觉。代价与极限：自学出身使他对'系统训练'的价值评估偏低，早年指导风格偏'天才论'（靠悟性）而非'流程论'；群众化普及的数学含量确实低于书斋标准；且在政治运动的压力下，他的应用转向部分是被迫的——把这段历史读成纯方法论会高估其自愿性。他的自我总结：'聪明在于勤奋，天才在于积累'——但他真正的天才在于：把'勤奋'和'积累'本身设计成了可复制、可传播、可考核的制度。
+
+The bedrock of his thinking was 'extracting a method from constraint, then returning the method to a larger field of constraints': Hua's life is a tutorial on how to think under extreme scarcity—no degree, no mentor, no library, no health—and every gap became a distinctive apparatus. Five signature moves. First, 'read a book from thin to thick, then from thick to thin': work through every step until the book swells with your own additions, then distill it to a skeleton of transferable structure—the core algorithm of his self-education. Second, 'bring your axe to Lu Ban's door': inverting the proverb as a warning against showing off before masters, he made it a method—perform before the strongest to expose your weaknesses against the highest reference frame (his two Cambridge years executed exactly this: attacking world records on Waring's and Tarry's problems). Third, designing the 'one dragon' of the intelligence supply chain—recognition (the refuted paper as springboard), formation (Xiong Qinglai's exception), output (papers as passport), repayment (Chen Jingrun, the gifted classes): he ran talent discovery itself as a designed funnel. Fourth, the mirror of Lu Ban's door: reducing profound method to field-usable form—the 0.618 method compressed into a worker's mnemonic of 'testing back and forth in the middle band,' overall planning drawn as one flowchart of arrows; reduction was not simplification but the remanufacture of method. Fifth, 'the wholeness of mathematics': against chopping mathematics into unrelated branches, he insisted 'number without figure lacks intuition; figure without number cannot enter the fine' (the union of number and shape), migrating freely among number theory, algebra, several complex variables, and applied mathematics, and in later years pressing that wholeness into the conviction that mathematics must serve the national economy. The costs: a self-taught background led him to undervalue systematic training, and his early mentoring favored 'genius over process'; the mathematical content of mass popularization was indeed below seminar standards; and under political pressure his applied turn was partly forced—reading it as pure method overstates its voluntariness. His summary: 'cleverness lies in diligence, genius in accumulation'—but his real genius was designing diligence and accumulation themselves into a system that could be copied, taught, and audited.
+
+
+---
+
+## M-HLG-001 薄厚读书法 (Thin-Thick-Thin Reading)
+
+- 领域 Domain: 1930s 清华五年：一个初中学历的助理员边管图书边'从薄到厚'地啃完数学系全部课程与三门外语——他不满足于'看懂'，要求每条定理自己重推、每处'显然'自己补证，再把整本书压缩成几页骨架笔记；这套算法后来被他写成《高等数学引论》的代序，成为影响几代中国学子的读书法
+
+- Domain: The five Tsinghua years of the 1930s: a junior-school-graduate clerk, while managing the library, devoured the entire mathematics curriculum and three foreign languages 'thin to thick'—never content to 'understand,' he re-derived every theorem, filled in every 'clearly,' then compressed each book into a few pages of skeleton notes; he later wrote the method into the preface of his Introduction to Higher Mathematics, shaping generations of Chinese students
+
+
+### 定义 / Definition
+
+华罗庚读书法的两段论针对两个相反的失败模式。'从薄到厚'针对'假懂'：一本一百页的书之所以薄，是因为作者把最难的劳动（中间步骤、反例检查、动机还原）都省略了——读者若不亲手把这些'省略'补回来，书的厚度就是幻觉，看懂只是认字。他在金坛柜台上自学时无师可问，唯一的办法是逼自己成为作者的合著者：每条'显然'都写满，每个跳步都落地，书因此变厚到真实难度。'从厚到薄'针对'信息过载'：补全之后的知识是原料不是能力，必须再压缩——问'如果全部推论都烧掉，这本书真正教了我的结构是什么'，剩下的几页骨架（关键引理、方法套路、适用边界）才是可随身携带、可迁移到新问题的东西。深意有三重。其一，两次加工方向相反、缺一不可：只厚不薄是书呆，只薄不厚是空谈——厚是输入端的诚实，薄是输出端的提炼，顺序不可颠倒。其二，'薄'的标准是可迁移性而非简洁性：留下的不是摘要而是'方法的腰'——能撑起新问题的那一部分。其三，此法把'读书'从消费变成生产：读厚时你在替作者重做研究，读薄时你在替自己重写教科书，一遍下来知识已归你所有。适用边界：适合原理性强、推理链长的学科（数学、理论物理、经济学理论），对描述性、案例性的知识效率偏低；且'从厚'阶段的单位时间成本极高，宜用于少量核心文本而非泛读。现代对应物：费曼技巧（讲给别人听倒逼补全）、'第一性原理'拆解（把结论还原为公理再重建）、工程师的'STL 阅读法'（读源码先复现已知行为再读实现）、以及一切'补全中间步骤—提炼可迁移结构'的两段式学习设计。
+
+Hua's two-stage reading method targets two opposite failure modes. 'Thin to thick' targets fake understanding: a hundred-page book is thin because the author has omitted the hardest labor—the intermediate steps, the counterexample checks, the recovery of motive; a reader who does not restore those omissions by hand owns an illusion, and 'understanding' is mere word recognition. With no teacher to ask at the shop counter in Jintan, his only option was to force himself into co-authorship: fill every 'clearly,' ground every skipped step, until the book swelled to its true difficulty. 'Thick to thin' targets overload: knowledge after completion is raw material, not capability, and must be re-compressed—ask 'if all the corollaries burned, what structure did this book truly teach me'; the few pages that remain (key lemmas, method patterns, boundaries of applicability) are what you can carry and transfer to new problems. Three layers of depth. First, the two passings run in opposite directions and neither can be skipped: thick without thin is pedantry, thin without thick is hot air—thick is honesty at input, thin is distillation at output, and the order cannot be reversed. Second, the standard for 'thin' is transferability, not brevity: what remains is not a summary but the method's waist—the part that can hold up new problems. Third, the method turns reading from consumption into production: in thickening you redo the author's research, in thinning you rewrite the textbook for yourself—one pass and the knowledge is yours. Boundaries: it suits principle-heavy, inference-long disciplines (mathematics, theoretical physics, economic theory) and is inefficient for descriptive, case-based knowledge; the per-page cost of 'thickening' is very high and should be spent on a few core texts, not surveys. Modern counterparts: the Feynman technique (explaining aloud forces completion), first-principles decomposition, the engineer's source-code reading rule (reproduce known behavior before reading the implementation), and every two-stage learning design of 'complete the steps, distill the structure.'
+
+
+### 出处 / Source
+
+华罗庚《高等数学引论》代序与《我从事科学研究工作的体会》；王元《华罗庚传》第 2-4 章（清华自学与剑桥时期）；Stephen Salaff, 'Hua Luogeng, 1910-1985' (Mathematical Intelligencer) 对其自学方法的记述
+
+
+### 金句 / Key Quote
+
+> 读书要先把书读厚，再把书读薄——厚的每一页都是你亲手补的，薄的每一页都是你自己的。
+> First read a book thick, then read it thin—every page of the thickening is filled by your own hand, every page of the thinning is your own.
+
+
+### 概念 / Key Concepts
+
+假懂：省略的劳动被误认为已付、从薄到厚：补全中间步骤、从厚到薄：提炼可迁移骨架、顺序不可颠倒、薄的标准是可迁移性而非简洁、读书从消费变生产
+
+
+### 流程 / Process
+
+1. 选锚定文本：只对少数核心经典执行本算法——判断标准是'原理密度高、推理链长、十年后仍会用' / Choose anchor texts: apply the algorithm only to a few core classics—the test being high principle density, long inference chains, and use ten years from now
+
+2. 读厚：逐段推演，凡'显然''易证''同理'处一律亲手补全，凡缺动机处倒推作者为何在此设此定理，标注疑问清单 / Thicken: work through every paragraph; fill in by hand every 'clearly,' 'easily shown,' 'similarly'; where motive is missing, reconstruct why the author placed the theorem there, keeping a list of doubts
+
+3. 清疑问：带着清单查文献、请教、做反例——把'补不出来的地方'当作书真正的重点 / Clear the doubts: take the list to literature, mentors, counterexamples—treat the places you cannot complete as the book's real center of gravity
+
+4. 读薄：合上书，问'若推论全烧掉，留下什么结构'——用不超过五页写出骨架：关键引理、方法套路、适用边界 / Thin: close the book and ask 'if all corollaries burned, what structure remains'—write the skeleton in five pages or fewer: key lemmas, method patterns, boundaries of applicability
+
+5. 压测骨架：拿一个书外的新问题，只用骨架笔记尝试求解——骨架撑不住的地方说明'薄'得不合格，回炉 / Stress-test the skeleton: take a new problem outside the book and try to solve it with skeleton notes alone; wherever the skeleton fails, the thinning is deficient—return to the fire
+
+6. 归档复用：把骨架笔记汇成个人的'方法腰库'，新领域入门先翻腰库找同构套路 / Archive for reuse: pool skeleton notes into a personal 'method-waist library'; when entering a new field, search the library first for isomorphic patterns
+
+
+### 代表案例 / Cases
+
+- 清华五年（1931-1936）：初中学历的助理员用'从薄到厚'自学完数学系全部课程并掌握英法德三语——华罗庚自己总结：别人八小时工作，我一天工作十二小时以上，'补全'的全部劳动都是别人在课堂里完成的；从助理员到教员只用了四年 / The five Tsinghua years (1931-1936): a junior-school graduate clerk finished the entire mathematics curriculum and three languages by 'thickening'—as Hua put it, others worked eight hours while he worked twelve, doing by hand the labor that classmates got in lectures; clerk to instructor in four years
+
+- 《堆垒素数论》的写作（1940-1941）：昆明防空洞里，他把剑桥所学的哈代-李特尔伍德方法'读薄'成可迁移的堆垒框架，再'读厚'应用到华林问题的变体上——书成为二十世纪标准著作的过程就是两段法的完整执行 / Writing Additive Theory of Prime Numbers (1940-41): in Kunming air-raid shelters he 'thinned' the Hardy-Littlewood apparatus into a transferable additive framework and 'thickened' it into variants of Waring's problem—the book's path to canonical status is the method executed in full
+
+- 《高等数学引论》的代序（1963）：他把读书法写成公开教材——'必须真正弄懂，即把它变厚；再透过现象抓本质，即把它变薄'；这套表述后来被无数中国理工学人抄进笔记本 / The preface to Introduction to Higher Mathematics (1963): he wrote the reading method into open pedagogy—'true understanding first thickens the book; then, through the phenomena, grasp the essence and thin it'; generations of Chinese science students copied the passage
+
+- 指导王元研究哥德巴赫猜想（1950s）：他不让王元直接读最新论文，而要求先重推维诺格拉多夫的三角和方法到'能闭卷重建'——王元后来回忆这个'读厚'阶段占了他两年，却是其后所有工作的地基 / Mentoring Wang Yuan on the Goldbach conjecture (1950s): no reading of the latest papers until Wang had re-derived Vinogradov's trigonometric-sum method to closed-book reconstruction; Wang recalled the 'thickening' took two years and became the foundation of everything after
+
+
+### 现代应用 / Modern Applications
+
+- 程序员学新框架：拒绝只跑官方教程——选一个核心模块'读厚'（复现其内部实现与设计动机），再'读薄'成一篇'该框架的三个骨架决策'笔记，比读十篇教程更能迁移 / A programmer learning a framework: refuse to stop at the official tutorial—pick one core module and 'thicken' it (rebuild the internals and design motives), then 'thin' it into a note on the framework's three structural decisions; more transferable than ten tutorials
+
+- 读论文的两遍法：第一遍'读厚'（重推主定理、补全被引理掩盖的关键步），第二遍'读薄'（写三句话：它用了什么武器、解决了什么、边界在哪）——只做第二遍是评论家，只做第一遍是档案员 / Two passes over a paper: first pass thickens (re-derive the main theorem, restore key steps hidden behind lemmas), second pass thins (three sentences: what weapon, what problem, what boundary); doing only the second makes you a critic, only the first an archivist
+
+- 跨行转岗：把目标领域的一本'硬教科书'（而非入门畅销书）按此算法过一遍，'骨架笔记'成为面试时展示真实理解力的凭证 / Career change: run one hard textbook of the target field (not a pop introduction) through the algorithm; the skeleton note becomes a credential of real understanding at interviews
+
+- AI 时代的学习防退化：把'读厚'外包给 AI 总结、只保留'读薄'，等于跳过诚实的输入端——正确的分工是把 AI 当'问问题的同学'而非'替你读书的保姆' / Anti-atrophy in the AI era: outsourcing the thickening to AI summaries while keeping only the thinning skips the honest input; the right division makes AI the classmate you interrogate, not the nanny who reads for you
+
+
+### 相关模式 / Related Modes
+
+M-HLG-002、M-HLG-003、M-HLG-005、M-HLG-009
+
+
+### 代表人物 / Representative Figures
+
+- 哈代 (G. H. Hardy): 同法宗师：剑桥的'纯数学'训练要求逐行推演全部细节——华罗庚'读厚'阶段的最高规格参照系；其《一个数学家的辩白》则代表'读薄'后只留美与结构的另一极 / master of the same discipline: Cambridge pure mathematics demanded line-by-line reconstruction of every detail—the highest-spec reference frame for Hua's thickening; A Mathematician's Apology represents the opposite pole of thinning to beauty and structure alone
+
+- 维诺格拉多夫 (Ivan Vinogradov): 方法的源头与'读厚'的实物：其三角和方法被华罗庚定为王元的闭卷重建对象——一个'必须读厚到可重建'的方法范本 / source of method and the very object of thickening: his trigonometric-sum method was assigned to Wang Yuan for closed-book reconstruction—a template of 'thicken until rebuildable'
+
+- 费曼 (Richard Feynman): 同法的现代镜像：'讲给别人听倒逼补全'与'从薄到厚'同构——两人都以'亲手重建'对抗'看懂的幻觉' / modern mirror of the method: 'explain it aloud to force completion' is isomorphic to thickening—both fought the illusion of understanding by rebuilding with their own hands
+
+
+---
+
+## M-HLG-002 班门弄斧法 (Bringing the Axe to Lu Ban's Door)
+
+- 领域 Domain: 1936-1938 剑桥两年：华罗庚经哈代接纳直接攻击华林问题的世界纪录——他不选'稳妥'的边缘课题，而是把论文投给数论最高峰的正面战场，两年十余篇论文，其中'华氏不等式'至今以他命名；他自陈：'下棋找高手，弄斧到班门'——只有班门前的失败才值钱，因为班门的指正一步到位
+
+- Domain: The two Cambridge years, 1936-38: admitted by Hardy, Hua attacked the world record on Waring's problem directly—not a safe peripheral topic but the frontal peak of number theory; a dozen-plus papers in two years, the 'Hua inequality' still bearing his name. His own line: 'find a strong opponent at chess; bring your axe to Lu Ban's door'—only failure at the master's door is worth anything, because the master's correction arrives in one step
+
+
+### 定义 / Definition
+
+'班门弄斧'的本义是讽刺在行家门前卖弄，华罗庚把它反转为方法论命题：弱参照系给你的鼓励是噪音，强参照系给你的打击是信息——你想进步多快，取决于你敢在多强的门前弄斧。他的执行方式有三个层次。其一，选题即选参照系：剑桥两年他不挑冷门安全题，而是直接进入华林问题——世界纪录所在之处就是校准精度最高之处，哪怕失败的论文也在为你标定'与前沿的真实距离'。其二，把'献技'设计成'求打'：他的初稿主动送给最强的批评者（哈代门下的研讨班），被指出的每个错误都是付费才能买到的定位信号——这把学术交流从'展示'重构为'测量'。其三，弱者身份是特权而非负债：无名者弄斧的成本最低（没有声誉可损失、没有被拒绝的沉没身份），他把初中学历、无学位的'劣势'用成了'敢问任何问题'的执照——金坛柜台上他敢直指清华教授苏家驹的错误，剑桥他敢碰哈代的看家领域，同样的动作做了两次。深意有二重：其一，参照系的选择比努力程度更能决定成长斜率——在低水平环境里做到最好只给你虚假的天花板，'最好'的真正定义由班门给出；其二，该方法要求把自尊与作品分离——斧子被砍钝的是斧子不是你，做不到这个分离的人不敢弄斧。适用边界：需要目标领域存在'可接近的最强者'（开放的学术共同体、可触达的一流评审）；对封闭的、上位者靠信息垄断维持权威的环境，弄斧会变成纯粹的风险。现代对应物：把代码发到最强的开源社区求 review、创业路演故意约最挑剔的投资人、运动员主动升重量级参赛、写作圈的'把稿子投给最严的刊物'。
+
+The proverb mocks displaying one's slight skill before an expert; Hua inverted it into a methodological thesis: encouragement from weak reference frames is noise; blows from strong ones are information—how fast you improve depends on how strong a door you dare to present your axe at. His execution had three layers. First, choosing a topic is choosing a reference frame: at Cambridge he did not pick safe backwaters but entered Waring's problem itself—where the world record stands is where calibration is finest, and even a failed paper marks your true distance from the frontier. Second, he designed 'performing' as 'begging to be hit': drafts went to the harshest critics (the Hardy seminar), and every error pointed out was定位 information you otherwise pay for—reframing academic exchange from display to measurement. Third, the weak position is a privilege, not a liability: an unknown loses nothing by showing the axe—no reputation at risk, no sunk identity—and Hua turned his junior schooling and lack of a degree into a license to question anything. The move was made twice: the shop clerk refuting Tsinghua's Professor Su by mail, and the non-degree visitor entering Hardy's home ground. Two layers of depth: the choice of reference frame sets the slope of growth more than effort does—being the best in a weak environment yields a false ceiling, and 'best' is truly defined only at the master's door; and the method requires separating self-worth from the work—what gets blunted is the axe, not you; those who cannot separate them dare not show the axe. Boundaries: the field must have an accessible strongest (an open scholarly community, reachable first-rate referees); in closed settings where authority runs on information monopoly, showing the axe is pure risk. Modern counterparts: posting code to the strongest open-source community for review; pitching deliberately to the pickiest investor; an athlete moving up a weight class; submitting the manuscript to the strictest journal.
+
+
+### 出处 / Source
+
+华罗庚《在困境中更要发愤求进》与《聪明在于勤奋 天才在于积累——谈自学》（'下棋找高手，弄斧到班门'原句出处）；王元《华罗庚传》第 5-6 章（剑桥时期）；Heini Halberstam 对华罗庚剑桥工作的评述（Mathematical Intelligencer 讣告专辑）
+
+
+### 金句 / Key Quote
+
+> 下棋找高手，弄斧到班门——只有敢于在大师面前出丑的人，才配得上真正的进步。
+> Seek strong opponents at chess; bring your axe to Lu Ban's door—only those who dare to embarrass themselves before the master earn real progress.
+
+
+### 概念 / Key Concepts
+
+弱参照系的鼓励是噪音、强参照系的打击是信息、选题即选参照系、献技即求打（测量而非展示）、弱者身份是弄斧执照、自尊与作品分离
+
+
+### 流程 / Process
+
+1. 锁定班门：在目标领域找出'可接近的最强者'——最高水平的人/社区/机构，并确认其有回应批评的通道 / Locate the door: identify the accessible strongest in the field—the top people, community, or institution with a working channel for criticism
+
+2. 备斧：按'薄厚读书法'把作品打磨到自己的极限——弄斧不是裸奔，是把最好的斧子拿去撞最硬的砧 / Forge the axe: polish the work to your limit via thin-thick-thin reading; showing the axe is not streaking but striking your best blade on the hardest anvil
+
+3. 献技求打：主动把作品送到班门（投稿/求 review/当面请教），明确请求'指出最致命的一个问题'而非'给予评价' / Present and invite the blow: send the work to the door—submission, review request, direct approach—explicitly asking for 'the single most fatal problem' rather than 'an evaluation'
+
+4. 拆解打击：把收到的批评分类——方向性错误/方法缺陷/表述问题——只把第一类当真伤，其余是打磨费 / Sort the damage: classify the criticism—directional error, methodological flaw, presentation—treat only the first as a real wound, the rest as polishing fees
+
+5. 换斧再来：针对方向性错误重构作品后回炉班门，最多两三轮——超过三轮说明选错了门而非斧钝 / Reforge and return: rebuild around the directional error and come back to the same door, at most two or three rounds—beyond that, the door was wrong, not the axe dull
+
+6. 记录校准：把'哪扇门给我了哪类打击'存档，形成个人参照系地图，下次选题先查图 / Log the calibration: archive which door dealt which kind of blow into a personal reference-frame map; consult the map before choosing the next topic
+
+
+### 代表案例 / Cases
+
+- 《苏家驹之代数的五次方程式解法不能成立之理由》（1930）：十九岁的金坛店员第一次弄斧，对象是清华教授——这篇'挑错论文'成为他一生的跳板，证明班门前的第一次献技哪怕是挑错，也足以被最强者看见 / The refutation of Su Jiaju's quintic (1930): a nineteen-year-old Jintan clerk's first showing of the axe, before a Tsinghua professor; the error-catching paper became his life's springboard—proof that even a first performance at the master's door, as mere correction, suffices to be seen by the strongest
+
+- 剑桥两年（1936-1938）：放弃学位、直接进入华林问题正面战场，发表十余篇论文并给出'华氏不等式'——他后来称之为'最努力的两年'：安全课题可以发更多的平庸论文，但只有班门正面才能逼出华氏不等式 / The Cambridge years (1936-38): degree abandoned, straight into the frontal field of Waring's problem, a dozen papers and the Hua inequality—later called his 'two hardest years'; a safe topic would have yielded more mediocre papers, but only the master's door forced the Hua inequality out
+
+- 《堆垒素数论》手稿送苏联（1940s）：他把手稿寄给维诺格拉多夫学派求检验——维氏推迟了其中一章的发表以便自己发展类似方法，这段'被顶级对手近身检验'的经历反而确认了工作的价值 / The manuscript sent to the Soviet Union (1940s): he mailed Additive Theory to the Vinogradov school for testing; Vinogradov delayed one chapter to develop a similar method of his own—being checked at knife-range by a top rival only confirmed the work's worth
+
+- 提携陈景润（1950s）：华罗庚把陈景润调进数学所，本质上是把一块'弄斧的料'搬到班门之内——陈景润 1966 年的'1+2'正是班门供给与弄斧方法结合的产物 / Championing Chen Jingrun (1950s): bringing Chen into the Institute of Mathematics was moving a promising axe-carrier inside the door; Chen's '1+2' of 1966 was the joint product of the door's supply and the axe-bearing method
+
+
+### 现代应用 / Modern Applications
+
+- 开源工程：把 Pull Request 发给项目里最严格的 maintainer 而非最宽松的——被拒绝三次的 PR 比被合并十次的平庸 PR 更快提升你的架构判断力 / Open source: send the pull request to the project's strictest maintainer, not the laxest; a PR rejected three times builds architectural judgment faster than ten mediocre merges
+
+- 创业融资：主动约'从不投你赛道'或'以拒绝著称'的顶级投资人做第一次路演——他们的拒绝理由是免费的、最高质量的市场校准报告 / Fundraising: deliberately schedule your first pitch with a top investor known for rejecting your sector—rejection letters are free, first-class market calibration reports
+
+- 个人品牌：定期把作品投给'你配不上'的刊物/会议/平台一次——失败案例全部存档，'距离前沿多远'必须有真实测量而非自我感觉 / Personal brand: once a season, submit work to a venue 'above your level'; archive every rejection—your distance from the frontier needs real measurement, not feeling
+
+- 团队管理：把'弄斧'制度化——新人第一个月必须向领域内最强同事做一次作品展示并求最狠批评，把'丢脸'写进流程成本而非个人代价 / Team management: institutionalize the axe—new hires must, in month one, present work to the strongest colleague and request the harshest critique, pricing 'looking foolish' into process, not personal cost
+
+
+### 相关模式 / Related Modes
+
+M-HLG-001、M-HLG-003、M-HLG-009、M-HLG-010
+
+
+### 代表人物 / Representative Figures
+
+- 哈代 (G. H. Hardy): '班门'本身：剑桥解析数论的最高门庭，华罗庚弄斧之门的门主——两人合作的论文是'献技-校准'闭环的实体 / the door itself: the highest court of Cambridge analytic number theory and keeper of the gate where Hua showed his axe; their co-authored papers are the physical form of the perform-and-calibrate loop
+
+- 维诺格拉多夫 (Ivan Vinogradov): 另一扇班门：华罗庚《堆垒素数论》手稿的检验者——苏联学派的最强者，其'近身竞争'是最严格的一次校准 / another door: the examiner of Additive Theory's manuscript and the strongest of the Soviet school—his close-range rivalry was the most exacting calibration Hua received
+
+- 苏家驹 (Su Jiaju): 意外的第一扇门：其错误论文成为华罗庚弄斧的靶子——证明'班门'未必是大师，任何足够强的参照物都可作第一块砧 / the accidental first door: his erroneous paper became the target of Hua's first showing—proof that the door need not be a grandmaster; any sufficiently strong reference can be the first anvil
+
+
+---
+
+## M-HLG-003 破格跳板法 (Exception-as-Springboard)
+
+- 领域 Domain: 1930-1931：一篇《苏家驹之代数的五次方程式解法不能成立之理由》把金坛店员直接送上清华讲席轨道——他没有自考文凭、没有留洋履历，而是制造了一个制度无法处理的异常：初中学历者指出正教授的数学错误且完全正确；此后他一生都在复制这条链：破格上台（1933）→破格赴剑桥（1936）→越级任西南联大教授（1938）→破格调陈景润入京（1950s）
+
+- Domain: 1930-31: one paper—'The reason why Professor Su Jiaju's algebraic solution of the quintic cannot stand'—carried the Jintan clerk onto the Tsinghua track. He had no diploma, no study-abroad record; he manufactured an anomaly the institution could not process: a junior-school graduate proving a full professor mathematically wrong, and right. He replicated the chain all his life: exception to the lectern (1933), exception to Cambridge (1936), leapfrog to full professorship at Southwest Associated University (1938), exception that brought Chen Jingrun to Beijing (1950s)
+
+
+### 定义 / Definition
+
+华罗庚的人生轨迹否定了'先有资格再有产出'的正常次序：他的每个台阶都是产出在前、资格在后。破格跳板法的完整逻辑有四层。其一，'异常'必须是制度语言内的超规格：他不是哭喊不公，而是用制度最敬重的货币（一篇无可指摘的数学论文）支付——异常若不能被制度读懂，就只是噪音；苏家驹论文的高明处在于它不是 petitions 而是证明，制度'无法拒绝'而非'被感动'。其二，异常要瞄准制度的'无法处理点'：清华当时的规则覆盖'正常学历路径'，对'初中学历但数学正确'没有条款——他恰好站进规则空白，熊庆来才有'破格'的空间；规则完整无空白时，同样的异常只会被无视。其三，破格必须立刻兑换成新一轮超规格产出（清华五年、剑桥两年的论文洪流），否则破格只是一次性的恩惠；华罗庚把每次破格都变成了'下注的验证'，使制度敢于再破格。其四，也是最深的一层：把杠杆转授——他自己成为熊庆来，从'被破格者'变成'破格者'（提携陈景润、王元，创办少年班），使单次异常变成可再生的制度机制。代价与风险：其一，跳板依赖'守门人的慧眼'这一随机变量——没有熊庆来的清华，同样的论文可能石沉大海；因此该方法的完整版包含'同时敲多扇门'的对冲。其二，破格者承受'证伪压力'的放大——失败一次即坐实'破格是错误'；华罗庚的应对是把每次破格后的产出密度拉到极限（'别人工作八小时，我工作十二小时'）。其三，从'被破格'到'破格别人'的角色转换需要制度的持续开放，特殊年代里这个链条会被政治运动打断。现代对应物：以一个'制度无法拒绝'的作品（爆款产品、开源项目、公开复现的惊人结果）替代资历敲门、天使轮前的'超级 MVP'、以及导师制度中的'反向推荐链'（被破格者成为下一代的破格者）。
+
+Hua's trajectory denies the normal order of 'credentials first, output second': every rung of his ladder had output before credentials. The full logic has four layers. First, the anomaly must be supra-spec in the institution's own language: he did not cry injustice but paid in the currency the institution respects most—one mathematically impeccable paper. The brilliance of the Su Jiaju paper is that it was not a petition but a proof; the institution could not refuse it rather than being moved by it. Second, the anomaly must target the institution's unprocessed zone: Tsinghua's rules covered the normal credential path and had no clause for 'junior schooling but mathematically correct'—he stood exactly in the gap, which gave Xiong Qinglai room to except him; where rules leave no gap, the same anomaly is simply ignored. Third, exception must be converted immediately into the next round of supra-spec output (the paper floods of the Tsinghua and Cambridge years), or it remains a one-off favor; Hua turned every exception into validation of the wager, making the institution dare to except again. Fourth—the deepest—he handed the lever on: becoming Xiong Qinglai himself, from the excepted to the excepter (Chen Jingrun, Wang Yuan, the gifted classes), turning a singular anomaly into a regenerating institutional mechanism. Costs and risks: the springboard depends on the gatekeeper's eye—a Tsinghua without Xiong might have buried the paper; the full method therefore hedges by knocking on several doors at once. The excepted face amplified falsification pressure—one failure confirms 'the exception was a mistake'; Hua's answer was to max out output density after every exception ('others work eight hours; I work twelve'). And the role shift from excepted to excepter requires sustained institutional openness—political campaigns broke the chain in hard times. Modern counterparts: substituting an institution-refusing work (a hit product, an open-source project, a publicly replicated striking result) for credentials; the super-MVP before the seed round; and the reverse-recommendation chain in mentorship, where the excepted becomes the next generation's excepter.
+
+
+### 出处 / Source
+
+华罗庚《我从事科学研究工作的体会》与《在困境中更要发愤求进》；王元《华罗庚传》第 2-3 章（金坛-清华-剑桥的破格链）；徐贤修回忆华罗庚清华破格过程的口述史料；Salaff 讣告对 1930 年论文事件的记述
+
+
+### 金句 / Key Quote
+
+> 我没有文凭，我只有论文——制度看不懂眼泪，但看得懂证明。
+> I had no diploma, only papers—institutions cannot read tears, but they can read proofs.
+
+
+### 概念 / Key Concepts
+
+产出在前资格在后、制度语言内的超规格异常、瞄准规则的空白处、破格即刻兑换为产出密度、从被破格者到破格者、多门对冲的守门人风险
+
+
+### 流程 / Process
+
+1. 识别规则空白：画出目标制度的具体条款（学历/年限/身份门槛），找出'超规格产出可未被条款覆盖'的缺口 / Map the rule gap: chart the institution's concrete clauses (degree, seniority, status thresholds) and locate the gap where supra-spec output is uncovered
+
+2. 锻造异常：按制度最敬重的货币锻造单点超规格产出——宁可将全部资源押一篇无可指摘的作品，不撒到十篇平庸作品 / Forge the anomaly: craft a single supra-spec output in the institution's most respected currency—stake everything on one impeccable work rather than ten mediocre ones
+
+3. 多门同敲：同时把异常递给多个可能的守门人，对冲'慧眼随机性'——守门人的存在是方法成立的前提，不能押注单一伯乐 / Knock on several doors: deliver the anomaly to multiple possible gatekeepers to hedge the randomness of discernment; the gatekeeper's existence is a precondition—never bet on a single patron
+
+4. 兑换产出密度：破格落地的第一时间把产出密度拉到极限，把'制度的一次下注'变成'制度的持续回报' / Convert to output density: the moment the exception lands, maximize output density, turning the institution's one wager into continuous returns
+
+5. 转授杠杆：在获得立足点后主动寻找下一个'规则外的异常者'，把自己变成别人的规则空白——破格链再生 / Hand on the lever: once established, actively seek the next out-of-rule anomaly and become someone else's rule gap—the exception chain regenerates
+
+6. 记录条款演化：追踪每次破格后制度是否补上了规则空白（若补上，同法不可复制，需找新的空白） / Track rule evolution: note whether the institution patched each gap after each exception; if patched, the move cannot be copied—find the next gap
+
+
+### 代表案例 / Cases
+
+- 苏家驹论文事件（1930-1931）：金坛店员把'指错清华教授'的异常投给《科学》杂志——熊庆来读到后问'这个华罗庚是哪国留学生'，得知是店员后立即发函邀请；这是'制度语言内的异常+慧眼守门人'的完整样本 / The Su Jiaju affair (1930-31): the Jintan clerk mailed his anomaly—correcting a Tsinghua professor—to Science; Xiong Qinglai, reading it, asked 'which country did this Hua Luogeng study in,' learned he was a shop clerk, and at once sent for him; the complete specimen of an in-language anomaly plus a discerning gatekeeper
+
+- 清华教授会破格（1933）：初中学历者上讲台需要教授会表决——华罗庚以已经积累的论文密度让'破格'从争议变成共识：破格不是施舍，是制度对已验证产出的追认 / The Tsinghua faculty vote (1933): putting a junior-school graduate at the lectern required the professors' assembly; the accumulated paper density turned exception from controversy into consensus—exception is not charity but the institution's retroactive acknowledgment of validated output
+
+- 越级任西南联大教授（1938）：从剑桥的访问学者身份直接任教授，跳过讲师与副教授——抗战的人才缺口成为他的又一个'规则空白' / Leapfrog professorship at Southwest Associated University (1938): from Cambridge visiting scholar straight to full professor, skipping lecturer and associate—the wartime talent gap was his next rule gap
+
+- 调陈景润入京（1950s）：厦门大学讲师陈景润的论文被华罗庚读到，成为又一个'异常-守门人'事件——华罗庚在陈景润被边缘化时力排众议调入数学所，完成破格链的第二次闭环 / Bringing Chen Jingrun to Beijing (1950s): reading the Xiamen lecturer's paper, Hua became gatekeeper to the next anomaly; over resistance during Chen's marginalization he had him transferred to the Institute—the chain's second closed loop
+
+
+### 现代应用 / Modern Applications
+
+- 求职跳槽：无对应学历/年限时，不硬闯简历关，而是制造'岗位无法拒绝'的异常——提前做出该岗位真实痛点的一个可验证解决方案，把作品而非简历递进门 / Job-hopping without credentials: don't storm the resume screen—manufacture an anomaly the role cannot refuse: a verifiable solution to the position's real pain point, submitted as work, not CV
+
+- 开源/创作者经济：遵循'单点超规格'原则——一个被大社区采纳的核心库/一篇被广泛引用的深度文章，其破格效力大于一百篇水帖；同时投多个'守门人'（平台/社区/期刊）对冲慧眼随机性 / Open source and creator economy: honor the single supra-spec principle—one core library adopted by a major community or one widely cited deep article outleverages a hundred filler posts; hedge by submitting to multiple gatekeepers (platforms, communities, journals)
+
+- 组织人才机制：为高潜人才设置'规则空白通道'（如无学历门槛的内部提案评审），并让被破格者担任下一年度评审——把破格从个案变成机制 / Organizational talent design: build rule-gap channels for high-potential people (internal proposal review with no degree gate) and put the previously excepted on next year's panel—making exception a mechanism, not an anecdote
+
+- 自我风险提示：每次获得破格机会后立即拉满产出密度——破格的隐性合约是'你必须证明破格者眼光正确'，违约成本由你承担 / A self-risk note: after every exception, immediately max out output density—the implicit contract is that you must prove the gatekeeper's eye right, and the cost of breach falls on you
+
+
+### 相关模式 / Related Modes
+
+M-HLG-002、M-HLG-009、M-HLG-001、M-HLG-010
+
+
+### 代表人物 / Representative Figures
+
+- 熊庆来 (Xiong Qinglai): 破格链的第一位守门人：清华数学系主任的慧眼使异常成为跳板——'没有熊庆来的华罗庚'是该方法的反事实风险警示 / first gatekeeper of the exception chain: the Tsinghua mathematics chair's discernment turned anomaly into springboard—'Hua without Xiong' is the method's counterfactual risk warning
+
+- 陈景润 (Chen Jingrun): 破格链的第二环与转授对象：华罗庚从被破格者变为破格者的实证——'1+2'证明了第二次破格的眼光 / the chain's second link and the lever handed on: the empirical proof of Hua's shift from excepted to excepter—'1+2' vindicated the second exception's eye
+
+- 王元 (Wang Yuan): 被破格体系批量产出的代表：从大学毕业生到数论大家的成长轨迹证明破格链可复制——华-王合作即为链条的产出形态 / a representative product of the exception system at scale: from fresh graduate to number theorist, a trajectory proving the chain replicable—the Hua-Wang collaboration is the chain's output form
+
+
+---
+
+## M-HLG-004 数形结合法 (Number-Shape Union)
+
+- 领域 Domain: 华罗庚的多领域工作横跨数论（离散）、代数（结构）、多复变函数论（几何与分析）、数值分析（连续近似）——他反复强调'数'与'形'必须互相翻译：数论的和式要有几何直觉，几何的对象要有代数刻度；普及写作中他把这条原则做到极致：《从孙子的'神奇妙算'谈起》用算题的'形'讲数论的'数'
+
+- Domain: His work ranged across number theory (discrete), algebra (structure), several complex variables (geometry and analysis), and numerical analysis (continuous approximation); he insisted 'number' and 'shape' must be mutually translated—sums in number theory need geometric intuition, geometric objects need algebraic scales; in popular writing he pressed the principle to its limit: From Sunzi's 'Marvelous Calculation' Onwards teaches number theory's 'number' through the 'shape' of a classic puzzle
+
+
+### 定义 / Definition
+
+数形结合法是华罗庚对抗'数学过度专业化'的方法论自觉。其操作内核是把同一个对象在两个表征系统之间强制配对：代数表征（数）精确但盲目——公式对了却看不见'为什么'；几何表征（形）直观但模糊——看得见大势却量不准细节。'数离形少直观，形离数难入微'是他的原话，逻辑是：只在单一表征内工作的人会被该表征的系统性盲区捕获，而跨表征翻译是唯一已知的盲区探测器。深意有三重。其一，配对是强制的而非审美的：不是'有空也画个图'，而是'没有图就不许继续推'——每个代数断言必须找到几何解释，每个几何直觉必须给出代数刻度，两套账对不上就是发现了新问题的信号。其二，跨域迁移由此获得机制：华罗庚从数论跳到多复变、再跳到数值分析，每一次'跳域'的载体都是'同构的形'——他看到的是结构轮廓相同的问题，而非同名定理；把领域语言剥掉后剩下的骨架才是可搬运的。其三，该方法向下兼容普及：工人听不懂级数但看得懂折线图，0.618 法的现场推广之所以成功，正因他把代数优化翻译成了'来回调试取中段'的几何动作。适用边界：配对有成本——不是所有对象都有好的双表征，强行配对会制造伪直观；且跨域翻译要求两域都达到专业深度，'两栖'的学费极贵。现代对应物：数据科学中的'可视化验证统计结论'、物理学的'费曼图与场论公式互译'、软件工程的'架构图与代码互译'、以及数学教育中的 CPA（具象-图形-抽象）序列。
+
+Number-shape union was Hua's methodological self-defense against the over-fragmentation of mathematics. Its operational core is forced pairing of one object across two representation systems: the algebraic (number) is precise but blind—the formula is right yet you cannot see why; the geometric (shape) is intuitive but vague—you see the trend yet cannot measure the detail. 'Number without shape lacks intuition; shape without number cannot enter the fine' is his own sentence; the logic is that one who works inside a single representation is captured by that representation's systematic blind spots, and cross-representation translation is the only known blind-spot detector. Three layers of depth. First, pairing is compulsory, not aesthetic: not 'draw a diagram when convenient' but 'no further inference without a picture'—every algebraic claim must find a geometric reading, every geometric intuition an algebraic scale; when the two ledgers disagree, that is the signal of a new problem. Second, cross-domain transfer thereby gains a mechanism: Hua's jumps from number theory to several complex variables to numerical analysis were each carried by 'isomorphic shape'—he saw problems with the same structural silhouette, not theorems of the same name; strip the field's language and the remaining skeleton is what travels. Third, the method scales down to popularization: workers cannot follow series but can read a zigzag line; the field success of the 0.618 method owes exactly to translating algebraic optimization into the geometric act of 'testing back and forth in the middle band.' Boundaries: pairing has a cost—not every object has a good double representation, and forced pairing manufactures pseudo-intuition; cross-domain translation requires professional depth in both fields, and amphibious tuition is very expensive. Modern counterparts: visualization as verification of statistical conclusions in data science; the mutual translation of Feynman diagrams and field-theory formulas; architecture diagrams and code in software engineering; and the CPA (concrete-pictorial-abstract) sequence in mathematics education.
+
+
+### 出处 / Source
+
+华罗庚《数学的用场与发展》（数形结合论述的核心文本）与《从孙子的'神奇妙算'谈起》；王元《华罗庚传》对其跨域工作（数论-代数-多复变-数值分析）的梳理；华罗庚《高等数学引论》中贯穿全书的几何注释
+
+
+### 金句 / Key Quote
+
+> 数缺形时少直观，形少数时难入微——数形结合百般好，隔离分家万事休。
+> Number without shape lacks intuition; shape without number cannot enter the fine—number and shape united excel in a hundred ways; separated, everything stalls.
+
+
+### 概念 / Key Concepts
+
+数离形少直观形离数难入微、强制配对而非审美配对、两套账对不上即新问题信号、同构的形是跨域迁移的载体、降维普及即数形翻译、强行配对制造伪直观的风险
+
+
+### 流程 / Process
+
+1. 双表征建模：拿到新问题时先问'它的代数形态（方程/和式/结构）与几何形态（图/曲面/拓扑）各是什么'——两者都必须画出来 / Model doubly: on any new problem ask first for its algebraic form (equations, sums, structure) and geometric form (figure, surface, topology)—both must be drawn
+
+2. 互译检查：把代数结论翻译成几何语言、几何直觉翻译成代数条件，逐条核对两套账是否一致 / Translate and check: render algebraic conclusions in geometric language and geometric intuitions as algebraic conditions, verifying the two ledgers line by line
+
+3. 追击错位：凡两套表征对不上的地方立即停手深挖——错位不是麻烦而是发现信号（伪直观或漏条件都在此暴露） / Chase the mismatch: wherever the two representations disagree, stop and dig—the mismatch is not nuisance but discovery signal (pseudo-intuition and missing conditions both surface here)
+
+4. 提炼同构：跨域比较时剥离领域语言只留结构轮廓——问'这个和式与那个曲面是否同一个形' / Distill the isomorphism: in cross-domain comparison strip field language to the structural silhouette—ask whether this sum and that surface are one shape
+
+5. 选翻译方向：向非专业者表达时永远从形到数（先图后式）；向机器/精确计算表达时从数到形（先式后图） / Choose the translation direction: addressing non-specialists, always from shape to number (picture before formula); addressing machines or exact computation, from number to shape
+
+6. 警惕伪直观：为没有自然几何的代数对象强行造'图'前，先确认图的每条规则都有代数对应——否则宁可无数形配对 / Beware pseudo-intuition: before forcing a 'figure' onto an algebraic object with no natural geometry, confirm every rule of the figure has an algebraic counterpart—otherwise, decline the pairing
+
+
+### 代表案例 / Cases
+
+- 从数论到多复变函数论的跳域（1940s-50s）：他发现多复变中的典型域与群表示论的结构轮廓'是同一个形'——用数论中练出的跨表征视力直接开创新方向，《多复变数函数论中典型域的调和分析》成为该领域奠基工作之一 / The jump from number theory to several complex variables (1940s-50s): seeing that the structure of bounded symmetric domains shared a silhouette with group representation theory, he applied the cross-representation vision trained in number theory and opened a new direction—the harmonic analysis of classical domains became foundational
+
+- 华-王方法（数论网格法，1970s）：把高维数值积分问题翻译成'在形上均匀撒点'的几何问题，再用量数论手段构造撒点方案——离散的数论与连续的积分在他手里完成了双向翻译，成为国际公认的数值积分方法 / The Hua-Wang method (number-theoretic net, 1970s): translating high-dimensional numerical integration into the geometric problem of 'sowing points uniformly over a shape,' then constructing the sowing with number-theoretic means—discrete number theory and continuous integration translated both ways, now an internationally recognized method
+
+- 优选法的现场表达（1960s-70s）：0.618 法的代数证明工人不需要——他把它画成'纸条对折找中段'的几何动作，工厂黑板上一次演示即可执行；数形结合是'双法'运动在认知上可行的真正原因 / Field expression of the optimization method (1960s-70s): workers needed no algebraic proof of the 0.618 method—he drew it as a paper strip folded to find the middle band, executable in one blackboard demonstration; number-shape union is why the Two Methods movement was cognitively feasible
+
+- 《从孙子的'神奇妙算'谈起》（1963）：普及写作的数形结合示范——'物不知数'的算题先给'形'（可感的故事与操作），再给'数'（同余式的抽象），全文沿'形→数→形'的螺旋上升 / From Sunzi's 'Marvelous Calculation' Onwards (1963): the popular-writing showcase—'things unnumbered known' given first as shape (a palpable story and operation), then as number (congruence abstraction), the whole essay spiraling shape-to-number-to-shape
+
+
+### 现代应用 / Modern Applications
+
+- 数据科学：任何统计结论必须配一张'形'（分布图/残差图）才允许写进报告——纯数字的结论是未验证的账；两套账不符即数据质量问题信号 / Data science: no statistical conclusion enters a report without its 'shape' (distribution, residual plots)—all-number conclusions are unaudited ledgers; ledger mismatch signals data-quality trouble
+
+- 软件架构：设计评审要求'代码结构'与'架构图'逐条互译——图上有而代码无的箭头就是未来故障点；对不上即发现信号 / Software architecture: design reviews require line-by-line translation between code structure and architecture diagram—an arrow in the diagram with no code behind it is a future fault line
+
+- 机器学习：把高维 embedding 强制配对可视化（UMAP/t-SNE）与数值指标（聚类得分）——只看指标会被表征盲区捕获 / Machine learning: force-pair high-dimensional embeddings with visualization (UMAP/t-SNE) and numeric metrics (cluster scores); metrics alone capture you in the representation's blind spot
+
+- 沟通与教学：向非专业者永远'先形后数'（先讲清楚图景再给公式），向系统表达'先数后形'（先给精确约束再画直觉图）——方向错了沟通必败 / Communication and teaching: to non-specialists always shape before number (picture first, formula second); to systems, number before shape (exact constraints first, intuition diagram second)—the wrong direction fails every time
+
+
+### 相关模式 / Related Modes
+
+M-HLG-001、M-HLG-005、M-HLG-007、M-HLG-008
+
+
+### 代表人物 / Representative Figures
+
+- 笛卡尔 (René Descartes): 数形结合的原型发明者：解析几何把代数与几何焊成一体——华罗庚的方法论是其精神后裔但加了'强制配对'的纪律 / the prototype inventor: analytic geometry welded algebra and geometry into one; Hua's method descends from it but adds the discipline of compulsory pairing
+
+- 哈代 (G. H. Hardy): 对照样本：哈代坚持'纯数学的美'而拒绝应用与图形化的'廉价直观'——华罗庚数形结合的普及化路线正是对哈代立场的反命题 / the contrast case: Hardy insisted on the beauty of pure mathematics and refused graphical 'cheap intuition' and application—Hua's popularizing number-shape union is the antithesis of Hardy's stance
+
+- 费曼 (Richard Feynman): 同法的物理版：费曼图与场论公式的互译即物理学的'数形结合'——两人共享'翻译产生视力'的信念 / the physics edition of the same method: translating between Feynman diagrams and field formulas is number-shape union in physics—both shared the conviction that translation produces sight
+
+
+---
+
+## M-HLG-005 归纳阶梯法 (Induction as Ladder)
+
+- 领域 Domain: 华罗庚 1963 年的普及名著《数学归纳法》全书只讲一个方法：他把'两个基础步骤'（奠基与归纳）拆成可自查的工程工序，并展示归纳法能处理'惊人的多样化'——从数论恒等式到'平面剖分'到棋局必胜策略；在他手里，归纳阶梯是'用最小一步验证最大结构'的通用机
+
+- Domain: His 1963 classic Mathematical Induction devotes a whole book to one method: he splits the two base steps—foundation and induction—into auditable engineering procedures and shows induction handles 'astonishing variety,' from number-theoretic identities to plane dissections to forced-win game strategies; in his hands the induction ladder is a universal machine for verifying the largest structure with the smallest step
+
+
+### 定义 / Definition
+
+华罗庚对归纳法的贡献不是发明而是'升格'：多数人把数学归纳法当成形式证明的例行公事，他把它变成分析问题的第一脚手架。操作内核有二。其一，'奠基即最小可行结构'：n=1 的情形不是走过场，而是问题的浓缩样本——如果最小情形都立不住或需要堆砌特例才能立住，说明对问题结构的理解有错，阶梯的第一级就是诊断台。其二，'归纳步即增量机制的刻画'：真正的智力活动在'假设 n 成立，如何推出 n+1'——这一步逼你回答'这个结构靠什么机制生长'，而生长机制一旦找到，问题往往整体得解，甚至证明本身可以倒过来变成构造算法（归纳证明转化为递归程序）。深意有三重。其一，归纳阶梯把'无穷'驯化为'两步'：面对涉及任意规模的问题（任意多、任意久、任意大），人类无法逐个验证，归纳把无穷压缩成'一个样本+一个生长律'——这是有限心智处理无穷对象的唯一正门。其二，增量机制的可移植性：'生长律'思维可离开数学——组织如何从 10 人长到 100 人（每加一人的增量机制是什么）、产品如何从 1 个用户到 1 亿（每 10 倍规模要新增什么），凡'规模问题'皆可归纳化。其三，该方法与'反证'配合构成完备性检查：归纳步走不通时，'为什么走不通'本身揭示问题的真实约束。适用边界：只适用于有内在递归/迭代结构的问题；对'一次性全局'问题（如一次性政治决断）强行归纳是范畴错误。现代对应物：递归与动态规划（归纳步=状态转移方程）、公司规模化理论（'每翻一倍要改什么'）、以及一切'最小可行产品+增长机制'的创业方法论。
+
+Hua's contribution was elevation rather than invention: where most treat mathematical induction as a routine of formal proof, he made it the first scaffold for analyzing a problem. The operational core has two parts. First, the foundation is the minimal viable structure: the case n=1 is not a formality but a condensed sample of the problem—if the minimal case stands only by stacking special cases, your understanding of the structure is wrong, and the ladder's first rung is a diagnostic bench. Second, the induction step is the characterization of the increment mechanism: the real intellectual work lives in 'given n, how to reach n+1'—it forces the question 'by what mechanism does this structure grow,' and once the growth law is found the problem often dissolves entirely, the proof even inverting into a constructive algorithm (induction as recursion). Three layers of depth. The ladder domesticates infinity into two moves: for problems of arbitrary scale (any many, any long, any large) no human verifies one by one; induction compresses infinity into 'one sample plus one growth law'—the only proper gate by which a finite mind handles infinite objects. The growth law is portable: mechanism-thinking leaves mathematics—how an organization grows from 10 to 100 (the increment mechanism of each new person), how a product goes from 1 user to 100 million (what must be added each tenfold); every 'problem of scale' can be inducted. And paired with contradiction it gives a completeness check: when the induction step fails, why it fails reveals the problem's true constraints. Boundaries: it fits only problems with inherent recursive/iterative structure; forcing induction on one-shot global questions (a single political decision) is a category error. Modern counterparts: recursion and dynamic programming (induction step = transition equation), scaling theory ('what changes at every doubling'), and the whole startup methodology of 'minimum viable product plus growth mechanism.'
+
+
+### 出处 / Source
+
+华罗庚《数学归纳法》（1963，上海教育出版社——该方法的专著级展开）与《高等数学引论》相关章节；王元《华罗庚传》对其普及写作方法的评述；华罗庚《数学的用场与发展》中归纳法的应用段落
+
+
+### 金句 / Key Quote
+
+> 无穷并不可怕——只要你找到一个能站住的第一级，和一个能生长的机制，无穷就是你的。
+> Infinity is not to be feared—secure one rung that stands and one mechanism that grows, and infinity is yours.
+
+
+### 概念 / Key Concepts
+
+奠基即最小可行结构、归纳步即增量机制刻画、无穷压缩为样本加生长律、归纳证明可倒转为构造算法、生长律思维离开数学仍可迁移、归纳步走不通时揭示真实约束
+
+
+### 流程 / Process
+
+1. 识别递归结构：先确认问题是否含'任意规模'的内在重复——没有递归结构的问题禁用本方法 / Spot the recursive structure: confirm the problem has intrinsic repetition of arbitrary scale; without it the method is forbidden
+
+2. 立最小级：解 n=1（或最小真实规模）并追问'这个解暴露了问题的什么本质'——最小级的解法应已含主要武器的雏形 / Set the minimal rung: solve n=1 (or the smallest real scale) and ask what the solution reveals of the problem's essence—the minimal solution should already carry the main weapon in embryo
+
+3. 刻画生长律：明确写出'从 n 到 n+1 需要什么'——若写不出增量机制，问题理解尚不完整，回炉重析 / Characterize the growth law: write explicitly 'what is needed from n to n+1'; if the increment mechanism cannot be written, the problem is not yet understood—re-analyze
+
+4. 验证生长律闭合：检查增量机制是否在所有情形自洽（强归纳/弱归纳/多基址）——漏洞即新发现 / Verify closure: check the mechanism self-consistently across all cases (strong/weak induction, multiple bases); holes are discoveries
+
+5. 倒转利用：把归纳证明改写为构造算法（递归/迭代），证明即程序，程序即交付物 / Invert for use: rewrite the inductive proof as a constructive algorithm (recursion/iteration)—proof as program, program as deliverable
+
+6. 推广迁移：把'生长律'抽象成可复述的机制命题，迁移到同构的规模问题（组织/产品/系统） / Transfer: abstract the growth law into a restatable mechanism proposition and apply it to isomorphic problems of scale (organization, product, system)
+
+
+### 代表案例 / Cases
+
+- 《数学归纳法》（1963）：方法论的专著化——书中从'六个人握手次数'讲到'棋盘覆盖'再到'程序框图'，核心示范是：先立最小时期能站住的解，再抓生长律；该书成为几代中国中学生的思维启蒙教材 / Mathematical Induction (1963): the method monographized—from 'handshakes among six people' to chessboard covering to program flowcharts, the core demonstration being: stand a minimal case, then seize the growth law; the book enlightened generations of Chinese secondary students
+
+- 数论工作中的归纳实践：堆垒数论的许多恒等式验证依赖'先小规模核算（奠基）、再证变换对任意阶成立（生长律）'的两段式——华罗庚及其学派（王元的《数论在近似分析中的应用》）大量使用'归纳证明转构造'：证明存在性的同时给出撒点方案 / Induction in his number theory: verifying additive identities ran 'small-scale checks (foundation), then proof the transformation holds for every order (growth law)'; his school—Wang Yuan's Applications of Number Theory to Approximate Analysis—used 'proof into construction' heavily: existence proofs that also deliver the point-sowing scheme
+
+- 统筹法的阶梯化表达（1960s）：他把大型工程的统筹问题拆成'单条工序线（n=1）可站住→多工序叠加的增量规则→任意复杂网络的普适算法'——CPM/PERT 的中国化本质是把西方方法改写成归纳阶梯 / The ladder form of overall planning (1960s): he decomposed a grand engineering project into 'one process line stands (n=1) → increment rules for stacking lines → a universal algorithm for any network'; the Chinese CPM/PERT was essentially Western method rewritten as an induction ladder
+
+- 人才梯队设计（1950s-80s）：他把数学所的人才培养也当作归纳问题——先立'一个能独立工作的研究者'（最小级），再刻画'从 1 个到一批'的生长机制（讨论班+传帮带制度），数学所因此成为可再生的学派 / Talent-ladder design (1950s-80s): he treated staffing the Institute of Mathematics as an induction problem—stand 'one researcher who can work independently' (the minimal rung), then characterize the mechanism growing one into many (seminars plus apprenticeship); the Institute became a regenerating school
+
+
+### 现代应用 / Modern Applications
+
+- 软件工程：写递归/动态规划前先手算最小输入并追问'转移方程是否刻画了全部生长'——90% 的 off-by-one 错误源于跳过'立最小级'这一步 / Software: before writing recursion or DP, hand-solve the minimal input and ask whether the transition equation captures all growth; ninety percent of off-by-one bugs come from skipping the minimal rung
+
+- 组织扩张：把'从 10 人到 100 人'写成归纳问题——每加 10 人哪个机制失效（沟通/决策/激励）？增量机制不明的扩张必然崩塌 / Organization: write 'from 10 people to 100' as an induction problem—what mechanism breaks with every ten added (communication, decision, incentives)? Expansion with an unclear increment mechanism collapses
+
+- 产品增长：先验证 100 个铁杆用户（奠基）再写增长机制（归纳步）——跳过奠基直接买量的增长是空中楼阁；'留存率'就是产品的归纳步 / Product growth: validate 100 devoted users (foundation) before writing the growth mechanism (induction step); buying reach before the foundation builds castles in the air—retention is the product's induction step
+
+- 学习迁移：学任何'规模化知识'（框架/语言/制度）时，先立一个能站住的最小实例，再刻画面向任意规模的机制——两步之后知识才属于你 / Learning transfer: for any scalable knowledge (framework, language, institution), first stand a minimal working instance, then characterize the arbitrary-scale mechanism—after the two moves, the knowledge is yours
+
+
+### 相关模式 / Related Modes
+
+M-HLG-001、M-HLG-004、M-HLG-008、M-HLG-010
+
+
+### 代表人物 / Representative Figures
+
+- 佩亚诺 (Giuseppe Peano): 归纳原理的公理化者：其算术公理把归纳立为自然数的定义性机制——华罗庚阶梯法的公理地基 / axiomatizer of the induction principle: his arithmetic axioms set induction as the constitutive mechanism of the natural numbers—the axiomatic ground of Hua's ladder
+
+- 波利亚 (George Pólya): 同路人的方法论写作：《怎样解题》与华罗庚《数学归纳法》同属'把隐性思维显性化'的事业——两人都相信方法可以被教 / fellow method-writer: How to Solve It and Hua's Mathematical Induction share the enterprise of making tacit thinking explicit—both believed method can be taught
+
+- 高德纳 (Donald Knuth): 归纳法的算法化传人：把归纳证明当作程序正确性证明的标准形态——华罗庚'证明即程序'思想的计算机科学实现 / algorithmic heir: treating inductive proof as the standard form of program-correctness proof—the computer-science realization of Hua's 'proof as program'
+
+
+---
+
+## M-HLG-006 黄金分割法 (Golden-Section Search)
+
+- 领域 Domain: 1960s-70s 的'双法'运动：华罗庚把斐波那契/黄金分割搜索从教科书公式改写成工人可执行的口诀——'一个变量，先取 0.618 处做试验，再在对称点做一次，留好去坏，段段折半'；他带小分队走遍二十余省数千工厂，用在催化剂配比、烧结配矿、农药配水等现场，成为数学史上规模最大的方法传播
+
+- Domain: The 'Two Methods' campaign of the 1960s-70s: Hua rewrote Fibonacci/golden-section search from textbook formula into worker-executable mnemonic—'one variable: test at 0.618, test once more at the symmetric point, keep the good, drop the bad, halve segment by segment'; his small teams reached thousands of factories in twenty-plus provinces, optimizing catalyst ratios, ore blends, pesticide dilutions—the largest method-diffusion in the history of mathematics
+
+
+### 定义 / Definition
+
+黄金分割法的思维内核不是'0.618 这个数'，而是'极简实验机器'的设计原则：在信息最少的约束下（每轮只有一次对比实验），问一个最容易回答的问题（哪半边更好），获得最大确定的进展（砍掉固定的比例）。深意有四重。其一，'每次只问最容易的问题'：现场工人回答不了微积分，但回答得了'哪半边好'——方法的可用性取决于问题的认知价格而非数学深度；这是把'方法再制造'做到极致的样本。其二，'保留区间必须可复用'：黄金分割的妙处在于每轮的两个试验点中有一个落在下一轮的区间内，上一轮的劳动不被丢弃——好的搜索设计让每一次实验都为下一轮留存资产。其三，'与对话式调试同构'：来回试错不是笨办法，而是当解析模型不可得时唯一诚实的路——0.618 法是'承认无知但约束试错'的形式化。其四，方法的鲁棒性来自假设极少：只需'单峰'（先升后降）一个假设，不需要可导、不需要函数形式——假设越少的方法传播越远，这是方法设计的重要定律。适用边界：只适用于单变量、单峰、每次试验成本高的场景；变量多时维度灾难使其失效（这是华罗庚同时推广统筹法、数论网格法的原因——不同维数各有其机器）。现代对应物：贝叶斯优化与超参数搜索（其单变量原型）、A/B 测试的序贯设计、产品定价的试探法、以及一切'约束实验预算下最大化信息增益'的设计。
+
+The thought-core of golden-section search is not the number 0.618 but a design principle for a minimal experiment machine: under the tightest information constraint (one comparative experiment per round), ask the easiest answerable question (which half is better) and gain the largest certain progress (a fixed fraction cut). Four layers of depth. Ask only the easiest question each round: a field worker cannot do calculus but can say which half is better—a method's usability depends on the cognitive price of its questions, not their mathematical depth; this is method remanufacturing taken to its limit. The retained interval must be reusable: the elegance of the golden section is that each round's two test points leave one inside the next interval—no round's labor is discarded; good search design makes every experiment an asset for the next. It is isomorphic to conversational debugging: trial and error is not the dumb path but the only honest one when no analytic model exists—0.618 is the formalization of 'admit ignorance but constrain the trials.' Robustness comes from minimal assumptions: one assumption only—unimodality (rise then fall)—no derivatives, no functional form; the fewer the assumptions, the farther a method travels, an important law of method design. Boundaries: it fits single-variable, unimodal, expensive-experiment settings; with many variables the curse of dimensionality kills it—which is why Hua simultaneously propagated overall planning and the number-theoretic net: each dimension has its own machine. Modern counterparts: Bayesian optimization and hyperparameter search (its one-variable prototype), sequential design of A/B tests, product pricing probes, and every design that maximizes information gain under an experiment budget.
+
+
+### 出处 / Source
+
+华罗庚《优选法平话及其补充》（1971 国防工业出版社）与《优选法话本》；王元《华罗庚传》第 12 章（双法运动）；华罗庚'优选法'广播讲话稿（1970 年代各地转载本）
+
+
+### 金句 / Key Quote
+
+> 好方法不是最深的，是工厂里一双最普通的手也能执行、还能一执行就见效的。
+> The best method is not the deepest—it is one an ordinary pair of factory hands can execute, and that works the moment it is executed.
+
+
+### 概念 / Key Concepts
+
+方法可用性取决于问题的认知价格、每轮劳动为下轮留存资产、对话式调试的数学化、假设越少传播越远、单峰假设的极简主义、留好去坏段段折半
+
+
+### 流程 / Process
+
+1. 确认场景适配：单变量、单峰、试验昂贵——三者缺一则换机器（多变量用网格法/正交试验，多峰先分区） / Confirm fit: one variable, unimodal, expensive trials—missing any, switch machines (grid/orthogonal design for many variables, partition first for multimodal)
+
+2. 定界与取点：确定试验区间后取 0.618 处与对称点各做一次试验——两点的位置由'下一轮保留最大区间'反推而来 / Bound and place points: over the interval test at 0.618 and its mirror—positions derived backward from maximizing the retained interval next round
+
+3. 留好去坏：比较两点结果，砍掉差端所在的外段——每轮固定砍掉 38.2%，信息永远只流向好的一侧 / Keep the good, drop the bad: compare the two results and cut the outer segment containing the worse; each round sheds a fixed 38.2 percent, information always flowing to the better side
+
+4. 复用锚点：下一轮只需在剩余区间内补一个新点，旧的好点继续用——实验预算的边际成本递减 / Reuse the anchor: next round adds only one new point inside the remainder; the old good point stays—marginal experiment cost falls
+
+5. 定终止条件：预设精度（区间长度/试验次数/提升幅度）任一达标即停——防止无底洞式的精益求精 / Set the stopping rule: precision (interval length, trial count, improvement) predefined; stop when any is met—no bottomless perfectionism
+
+6. 固化参数并推广：把找到的优参数写进工艺卡并培训执行——优化不落卡等于没优化 / Fix and propagate: write the optimal parameter into the process card and train it in—an optimization that never lands on the card never happened
+
+
+### 代表案例 / Cases
+
+- 化工厂催化剂配比优化（1970s 双法运动）：按 0.618 法在配比区间先做两次试验，若干轮内即把产率提上去——华罗庚小分队的典型战绩，单厂节省常以'每年数十万元'计（当时币值），累计数千工厂 / Catalyst-ratio optimization in chemical plants (Two Methods, 1970s): two tests at 0.618 and mirror, the yield up within a few rounds—the small teams' typical result, single-factory savings often 'hundreds of thousands of yuan a year' in then-money, across thousands of plants
+
+- 武汉 60 万人广播听讲（1970s）：他把方法压缩到'一根纸条'——对折找中段的演示让没有任何数学训练的工人当场会用；这是'认知价格'设计思想的极致案例 / The Wuhan broadcast to 600,000 listeners (1970s): he compressed the method to 'one strip of paper'—fold to find the middle band, and untrained workers could use it on the spot; the limit case of cognitive-price design
+
+- 《优选法平话》的写作（1971）：全书不用微积分符号，把斐波那契搜索的数学证明放附录——正文只有口诀与算例；'平话'体裁本身就是方法再制造的文献形态 / Writing A Plain Guide to the Optimization Method (1971): no calculus symbols in the main text, the Fibonacci proof exiled to an appendix—the body is mnemonic and worked examples; the 'plain-tale' genre is method remanufacture in documentary form
+
+- 从斐波那契到 0.618 的简化：严格说有限次试验的最优策略是斐波那契分数，无限次极限才是黄金分割——他选择'不够严格但够用'的 0.618 做现场推广，体现了'方法的传播版本允许牺牲严格性换取可用性'的方法论自觉 / From Fibonacci to 0.618: strictly, the finite-trial optimum is the Fibonacci fraction, the golden section its limit—choosing the 'not quite exact but quite usable' 0.618 for the field shows the methodological awareness that a method's popularized version may trade rigor for usability
+
+
+### 现代应用 / Modern Applications
+
+- 算法调参：单参数性能曲线（缓存大小/超时/批大小）先用 0.618 法粗扫再做局部精调——比网格枚举少一半实验预算 / Tuning: for single-parameter performance curves (cache size, timeout, batch size), coarse-scan with 0.618 then refine locally—half the experiment budget of grid enumeration
+
+- A/B 实验设计：预算有限时按'留好去坏'的序贯原则分配流量，而非一次性对半——每轮都为下轮留存信息 / A/B design: under tight budget allocate traffic sequentially by 'keep good, drop bad' rather than a single split—each round banks information for the next
+
+- 谈判与出价：报价搜索与黄金分割同构——每次出价只问'对方区间在上半还是下半'，砍掉不可能段，收敛更快且不暴露底牌 / Negotiation: offer-search is golden-section isomorphic—each offer asks only which half the counterparty's range lies in, cutting impossible segments, converging faster without showing your floor
+
+- 产品定价：新品的试探定价遵循 0.618 节奏——两轮试探即可定位需求区间的'好半边'，避免大开大合的定价事故 / Pricing: a new product's probe pricing follows the 0.618 rhythm—two probes locate the better half of the demand interval, avoiding wild pricing accidents
+
+
+### 相关模式 / Related Modes
+
+M-HLG-004、M-HLG-007、M-HLG-008、M-HLG-010
+
+
+### 代表人物 / Representative Figures
+
+- 斐波那契 (Leonardo Fibonacci): 方法的数论源头：其数列给出有限次试验的最优搜索比例——华罗庚现场版的严格骨架 / number-theoretic source: his sequence gives the optimal search ratio for finite trials—the strict skeleton of Hua's field version
+
+- 基弗 (Jack Kiefer): 同时代的优化理论家：黄金分割搜索的最优性证明（1953）出自其手——华罗庚的功劳不在证明而在'把它变成工人的动作' / contemporary optimization theorist: the 1953 optimality proof of golden-section search is his—Hua's contribution lay not in the proof but in 'turning it into a worker's act'
+
+- 泰勒 (Frederick W. Taylor): 对照样本：泰勒制用秒表把工人动作标准化，华罗庚用 0.618 把工人的判断力升级——同是'科学管理'，一个抽取智力一个注入智力 / the contrast case: Taylorism standardized workers' motions with a stopwatch; Hua upgraded workers' judgment with 0.618—both 'scientific management,' one extracting intelligence, the other injecting it
+
+
+---
+
+## M-HLG-007 统筹网络法 (Overall-Planning Network)
+
+- 领域 Domain: 与优选法并称的'统筹法'（1960s 起推广）：华罗庚把 CPM/PERT 从西方工程管理教科书改写成'泡茶喝'的比喻——烧水的同时洗茶杯，关键路径决定总时长；他为油田建设、铁路抢修、农时安排画过成千上万张箭头图，'统筹图'成为那个年代中国管理现场的通用语言
+
+- Domain: The 'overall planning method,' twin of the optimization method (propagated from the 1960s): Hua rewrote CPM/PERT from Western engineering textbooks into the 'making tea' parable—boil the water while washing the cups; the critical path decides total time; he drew tens of thousands of arrow diagrams for oilfield construction, rail repair, and farm schedules, the 'planning chart' becoming the common language of Chinese management floors in that era
+
+
+### 定义 / Definition
+
+统筹法的方法论内核是把'忙碌'与'有效'分离：一个人/一个工程可以非常忙但毫无进展，因为忙的全在非关键路径上。操作分三步：把全部事务翻译成'节点-箭头'网络（每件事有前置依赖与时长）；计算关键路径——最长的那条依赖链，它决定整个系统的最短完成时间；然后只做两类干预——在关键路径上挤时间（加资源/并行化），在非关键路径上藏冗余（推迟/降级）。深意有三重。其一，'关键路径'是稀缺性思维的数学化：决定交付时间的是最长链而非最重的块——直觉上最难的环节常常不在关键路径上，这反直觉的结论只有画了网络才看得见。其二，'泡茶喝'的并行化直觉：等待型任务（烧水）是并行的免费机会——凡等待皆可塞进生产性活动，这是个人时间管理的第一定律。其三，网络的动态性：关键路径会漂移——你挤压了原关键环节，关键性就转移到别处，因此统筹不是一次画图而是一个滚动过程（这正是 PERT 相对甘特图的进步）。适用边界：需要任务间存在可枚举的依赖关系；对高度不确定、依赖关系本身在变的环境（早期探索性项目），硬画网络是伪精确。现代对应物：关键路径法（CPM/PERT）、软件项目的依赖图与阻塞分析、个人工作流的'并行等待'设计（GTD 的 Waiting For 清单）、DevOps 的流水线瓶颈分析。
+
+The methodological core separates 'busy' from 'effective': a person or project can be extremely busy with zero progress because all the busyness sits off the critical path. Three moves: translate all tasks into a node-arrow network (each with prerequisites and duration); compute the critical path—the longest dependency chain, which fixes the system's shortest completion time; then only two kinds of intervention—squeeze time on the critical path (add resources, parallelize) and stash slack on the non-critical ones (defer, downgrade). Three layers of depth. The critical path is scarcity thinking mathematized: delivery time is set by the longest chain, not the heaviest block—the intuitively hardest step often sits off the critical path, a counterintuitive conclusion visible only once the network is drawn. The tea-making parallelism intuition: waiting-type tasks (boiling water) are free parallelism—every wait can host a productive activity, the first law of personal time management. The network is dynamic: the critical path drifts—squeeze one critical link and criticality migrates elsewhere, so planning is not one diagram but a rolling process (PERT's advance over the Gantt chart). Boundaries: it requires enumerable dependencies; in highly uncertain environments where dependencies themselves shift (early exploratory projects), drawing a hard network is pseudo-precision. Modern counterparts: CPM/PERT, dependency graphs and blocker analysis in software, 'parallel waiting' design in personal workflow (the GTD Waiting-For list), and pipeline bottleneck analysis in DevOps.
+
+
+### 出处 / Source
+
+华罗庚《统筹方法平话及其补充》（1965 中国工业出版社）与《统筹法话本》；'泡茶喝'例见该书开篇——中国流传最广的统筹法文本；王元《华罗庚传》第 12 章（统筹法的推广实践）
+
+
+### 金句 / Key Quote
+
+> 想泡茶喝，水在烧——这十五分钟的等待，就是统筹法给你的第一份礼物。
+> You want tea; the water is boiling—those fifteen minutes of waiting are the planning method's first gift to you.
+
+
+### 概念 / Key Concepts
+
+忙碌与有效分离、关键路径决定最短工期、最难的环节未必在关键路径上、等待型任务是并行的免费机会、关键路径会漂移、非关键环节藏冗余
+
+
+### 流程 / Process
+
+1. 穷举与依赖：写下全部任务并只问一个问题——'这件事开始前必须完成什么'——依赖关系是网络的唯一原料 / Enumerate and order: list every task and ask one question—'what must finish before this starts'; dependency is the network's only raw material
+
+2. 赋时成网：给每件事一个时长估计（三值估计：乐观/可能/悲观），连成有向网络 / Time the net: estimate each task (three-point: optimistic/likely/pessimistic) and link into a directed network
+
+3. 算关键路径：找出从起点到终点的最长链——它就是决定总工期的脊柱；其余环节全部计算松弛量 / Compute the critical path: find the longest chain from start to end—the spine deciding total duration; compute slack everywhere else
+
+4. 两类干预：关键路径上挤时间（加人/并行/拆分），非关键路径上藏冗余（推迟/降级/复用等待时间） / Two interventions: squeeze the critical path (add hands, parallelize, split); stash slack off it (defer, downgrade, reuse waiting time)
+
+5. 滚动重画：每次干预后重算网络——关键路径必然漂移，统筹是过程不是图纸 / Redraw rolling: recompute after every intervention—criticality always drifts; planning is a process, not a blueprint
+
+6. 向非专业者降维：画图永远用'泡茶喝'级别的具体场景开始教学——网络思维必须从可感的并行机会入门 / Reduce for the non-specialist: always begin teaching with a tea-making-grade concrete scene—network thinking must enter through a palpable parallel opportunity
+
+
+### 代表案例 / Cases
+
+- '泡茶喝'（1965《统筹方法平话》开篇）：洗壶、烧水、洗杯、拿茶叶各有依赖——最优解是烧水的同时做其余——这个一分钟讲完的比喻让统筹法成为几代中国人的常识；方法普及的文本设计本身是方法论成就 / Tea-making (opening of the 1965 Plain Guide): washing the pot, boiling water, rinsing cups, fetching leaves, each with dependencies—the optimum boils water while doing the rest; a one-minute parable that made overall planning common sense for generations—the text design of popularization is itself a methodological achievement
+
+- 大庆油田与成昆铁路的应用（1960s-70s）：万人级工程的工序被画成整墙的统筹图，关键路径挤时与非关键藏冗余直接折算成工期缩短——统筹法从课堂走进国家工程现场 / Daqing oilfield and the Chengdu-Kunming railway (1960s-70s): ten-thousand-person projects drawn as wall-size planning charts, critical-path squeezing and off-path slack directly converted into schedule cuts—method from classroom onto the national engineering floor
+
+- 农时统筹：他把春耕的'浸种-翻地-育秧-插秧'画成网络并标出'浸种等待期可并行翻地'——等待并行原则在最古老的产业里同样成立 / Farm-calendar planning: spring plowing drawn as a network—soaking seed, tilling, raising seedlings, transplanting—with 'tilling parallel to soaking' marked; the parallel-waiting principle holds in the oldest industry
+
+- 与优选法的分工：统筹法管'多件事的次序'（网络），优选法管'一件事的参数'（区间）——两者合称'双法'，构成'一横一纵'的完整现场数学工具箱；工具箱式的方法设计使推广对象一次带走两件武器 / Division of labor with the optimization method: planning orders many tasks (network); optimization tunes one task's parameter (interval); together the 'Two Methods' form a cross-and-long field toolbox—toolbox design lets the audience carry away two weapons at once
+
+
+### 现代应用 / Modern Applications
+
+- 个人工作流：每天先画五分钟'今日网络'，标出关键路径（通常不超过 2-3 件事）——只对关键件挤时间，其余允许延迟；'忙碌感'与关键路径无关是每天最重要的提醒 / Personal workflow: draw a five-minute 'today network' each morning and mark the critical path (rarely more than 2-3 items); squeeze only those, let the rest slip—busyness is unrelated to the critical path, the daily reminder
+
+- 软件项目管理：依赖图评审作为里程碑的准入条件——'什么阻塞什么'必须显式化，隐式依赖是工期失控的第一来源 / Software projects: dependency-graph review as a milestone gate—'what blocks what' must be explicit; implicit dependency is the first source of schedule collapse
+
+- 等待时间设计：列出生活中的'烧水任务'（通勤/排队/编译），为每类预先配一个可插入活动——等待是免费的第二人生 / Waiting design: list your life's boiling-water tasks (commute, queues, compiles) and pre-pair each with an insertable activity—waiting is a free second life
+
+- DevOps：流水线瓶颈分析即'找关键路径'——只优化最长的链，对非关键阶段过度优化是常见的工程浪费 / DevOps: pipeline bottleneck analysis is critical-path finding—optimize only the longest chain; over-tuning non-critical stages is classic engineering waste
+
+
+### 相关模式 / Related Modes
+
+M-HLG-006、M-HLG-004、M-HLG-008、M-HLG-005
+
+
+### 代表人物 / Representative Figures
+
+- 甘特 (Henry Gantt): 前驱：其条状图是时间可视化的第一步——但甘特图看不见依赖链，统筹网络是其数学升级 / forerunner: his bar chart was step one of visualizing time—but the Gantt chart cannot see dependency chains; the planning network is its mathematical upgrade
+
+- 凯利与沃克 (James Kelley & Morgan Walker): CPM 的发明者（1957）：华罗庚统筹法的西方源头——他的贡献是'泡茶喝'级的降维改写与全国传播 / inventors of CPM (1957), the Western source of Hua's planning method—his contribution was the tea-making-grade rewrite and nationwide diffusion
+
+- 艾伦 (David Allen): 现代传人：GTD 的'下一步行动'与'等待清单'是统筹网络在个人尺度的民间版本——同一数学结构的通俗再发明 / modern heir: GTD's next actions and waiting-for lists are the folk version of the planning network at personal scale—the same mathematical structure reinvented colloquially
+
+
+---
+
+## M-HLG-008 降维翻译法 (Dimension-Down Translation)
+
+- 领域 Domain: 华罗庚普及事业的统一方法论：0.618 被改写成'纸条对折'、统筹法被改写成'泡茶喝'、数论被改写成《从孙子的'神奇妙算'谈起》——他坚持'深入浅出'的方向性（深入是前提，浅出是责任），并把'讲得外行听懂'当作对方法真懂的唯一检验
+
+- Domain: The unified methodology of Hua's popularization: 0.618 rewritten as a folded paper strip, planning as tea-making, number theory as From Sunzi's 'Marvelous Calculation' Onwards—he held that 'going deep' is the premise and 'coming out plain' the duty, and treated 'explainable to a layman' as the sole test of true understanding
+
+
+### 定义 / Definition
+
+降维翻译法针对一个普遍失败模式：专家把方法原样下发，现场无法执行，然后专家抱怨'用户水平低'。华罗庚的立场相反——执行失败是方法设计者的失职。其操作内核有三。其一，改换表征：把方法从专家表征（公式/符号/证明）翻译到用户表征（动作/图景/口诀）——0.618 的纸条对折保留了算法的全部可执行语义，丢掉的只是专家才需要的严格性外衣；这是数形结合法（M-HLG-004）在传播方向的执行。其二，剔除前提：高深方法依赖大量隐含前提（单峰性、独立性、理想条件），现场版本必须把前提变成用户可自查的检查项（'你的指标是不是先升后降'）而非数学假设。其三，保留判断内核：降维不是把用户变傻——纸条对折之后'留好去坏'的判断仍由用户完成，方法只接管机械部分；好的降维让用户更聪明而非更盲从。深意有二重：其一，'传播版本是独立设计对象'——它有自己的用户、约束与验收标准，必须像原方法一样被设计、被测试（华罗庚每到一个厂先看工人怎么失败再改口诀）；其二，'讲得懂是懂的检验'——这句话的严格版本是：无法降维往往说明自己理解的也是操作记忆而非结构。适用边界：有些方法的现场版本会因前提剔除而失效（如统计方法的前提违反），此时诚实的做法是说明边界而非硬推广。现代对应物：API 的'快速上手文档'、 '命令行工具的渐进披露设计'、科普写作的'第一性重述'、以及 UX 写作中'每句话用户能执行'的标准。
+
+Dimension-down translation targets a universal failure: the expert ships the method as-is, the field cannot execute it, and the expert blames the users. Hua's position was the reverse—execution failure is the method designer's dereliction. The operational core has three parts. Change the representation: translate the method from the expert's (formulas, symbols, proofs) to the user's (acts, pictures, mnemonics)—the folded paper strip preserves the algorithm's full executable semantics, shedding only the rigor garment the expert needs; this is number-shape union executed in the propagation direction. Strip the premises: profound methods rest on tacit premises (unimodality, independence, ideal conditions); the field version must turn premises into user-checkable items ('is your metric rise-then-fall') rather than mathematical assumptions. Keep the judgment core: downscaling does not dumb the user down—after the strip is folded, the keep-good-drop-bad judgment remains the user's; the method takes over only the mechanical part; good downscaling makes users smarter, not more obedient. Two layers of depth: the popularized version is an independent design object—own users, constraints, and acceptance criteria, designed and tested like the original (Hua, entering each factory, first watched how workers failed, then revised the mnemonic); and 'can you explain it plainly' is the test of understanding—strictly: inability to downscale usually signals that what you 'understand' is operational memory, not structure. Boundaries: some field versions fail once premises are stripped (statistical methods under violated assumptions); the honest move is to state the boundary, not to push on. Modern counterparts: API quick-starts, progressive disclosure in CLI tools, first-principles restatement in science writing, and the UX standard 'every sentence executable by the user.'
+
+
+### 出处 / Source
+
+华罗庚《统筹方法平话》《优选法平话》序言与《从孙子的'神奇妙算'谈起》全篇；华罗庚《我从事普及工作的体会》（普及方法论的自述）；王元《华罗庚传》第 12 章对'下厂改口诀'过程的记述
+
+
+### 金句 / Key Quote
+
+> 深入是为了浅出——如果你讲得只有同行听得懂，那你还欠一次真正的理解。
+> Go deep in order to come out plain—if only your peers can understand you, you still owe the work one more real understanding.
+
+
+### 概念 / Key Concepts
+
+执行失败是设计者失职、改换表征：从公式到动作、前提变成可自查项、保留判断内核不夺用户判断、传播版本是独立设计对象、讲得懂是懂的检验
+
+
+### 流程 / Process
+
+1. 用户画像：先弄清目标用户的表征系统（工人用动作、经理用图、学生用例题）——表征选错一切白费 / Profile the user: learn the target users' representation system (workers: acts; managers: diagrams; students: worked examples)—wrong representation voids everything
+
+2. 语义保全清单：列出原方法的全部可执行语义（输入什么、判断什么、输出什么）——翻译的验收标准是清单全项保全 / Semantics inventory: list the method's full executable semantics (inputs, judgments, outputs); acceptance = every item preserved in translation
+
+3. 改换表征：把公式翻译成动作/图景/口诀——每次翻译后回到现场做'第一次执行测试' / Swap representation: translate formulas into acts, pictures, mnemonics—after each translation, run a first-execution test in the field
+
+4. 前提检查项化：把数学假设改写成用户可自查的问题（'指标是否先升后降'）——违反前提时的行为必须可预期 / Premise to checklist: rewrite mathematical assumptions as user-checkable questions ('is the metric rise-then-fall'); behavior under violation must be predictable
+
+5. 保留判断内核：机械部分交给方法，关键判断留给用户——检查降维版是否让用户更聪明 / Keep the judgment core: method takes the mechanical, user keeps the critical judgment—verify the downscaled version makes users smarter
+
+6. 迭代口诀：每次现场失败的执行都是设计反馈——回炉改写而非归咎用户 / Iterate the mnemonic: every field failure is design feedback—rewrite, never blame the user
+
+
+### 代表案例 / Cases
+
+- 纸条对折（优选法现场版）：把黄金分割搜索变成'撕纸条-找中段-留好去坏'的手部动作——数百万工人无师自通；这是'语义保全清单'完美执行的案例：可执行语义一项未丢，丢的只是微积分外衣 / The folded paper strip (field version of the optimization method): golden-section search as 'tear the strip, find the middle band, keep good drop bad'—millions of workers self-taught; a perfect semantics-inventory execution: not one executable item lost, only the calculus garment shed
+
+- '泡茶喝'（统筹法教学版）：用最日常的场景引入依赖与并行——方法论上这是'用户表征选择'的范本： tea 不携带任何专业门槛却携带网络思维的全部直觉 / Tea-making (the teaching version of planning): dependency and parallelism introduced via the most everyday scene—a model of user-representation choice: tea carries no professional threshold yet all the intuition of networks
+
+- 《从孙子的'神奇妙算'谈起》（1963）：把同余与物不知数问题写成故事——学术内容的叙事化重述，证明'降维'可抵达任意深度（数论核心思想被中学生在故事里吸收） / From Sunzi's 'Marvelous Calculation' Onwards (1963): the congruence problem retold as a story—narrative restatement of academic content proving downscaling can reach any depth (number theory's core absorbed by secondary students inside a tale)
+
+- 下厂改口诀（双法运动的工作方式）：华罗庚每到一个工厂先观察工人用原口诀失败的方式，再针对性改写——传播版本被当作产品做迭代，这使'双法'的实际采用率远高于任何一次学术讲座 / Revising the mnemonic on the factory floor (the Two Methods working style): entering each plant, Hua first watched how workers failed with the original wording, then rewrote—the popularized version iterated like a product, which is why actual adoption far exceeded any lecture series
+
+
+### 现代应用 / Modern Applications
+
+- 技术文档工程：写'快速上手'前先做'语义保全清单'——新用户 15 分钟内能执行的全部语义与原方法逐项核对，缺一项即为文档缺陷 / Docs engineering: before writing the quick-start, run a semantics-inventory—verify every executable item a new user needs in fifteen minutes against the original method; each miss is a doc defect
+
+- AI 提示工程：把复杂 prompt 方法降维给非专家时，先改表征（从参数理论到'像给新同事写交接'的比喻）再剔除前提（把'模型会幻觉'变成可自查的检查项） / Prompt engineering: downscaling complex prompting practice to non-experts—first swap representation (from parameter theory to the 'handover note for a new colleague' metaphor), then strip premises (turn 'the model hallucinates' into a checkable item)
+
+- 跨部门协作：技术方案向业务方汇报永远先'泡茶喝'（用业务的日常场景重述），再给技术细节——表征错配是'听不懂'的主因而非'水平差' / Cross-team communication: reporting a technical design to business always starts with tea-making—restate in the business's daily scene before any detail; representation mismatch, not incompetence, is the main cause of 'they don't get it'
+
+- 教师与家长：检验自己是否真懂某个概念——找一个完全外行讲一遍，讲不下去的位置就是理解的空洞处（费曼技巧的中文先行者） / Teachers and parents: test whether you truly understand a concept by explaining it to a complete layman—the spot where you stall is the hollow in your understanding (the Chinese precursor of the Feynman technique)
+
+
+### 相关模式 / Related Modes
+
+M-HLG-004、M-HLG-006、M-HLG-007、M-HLG-010
+
+
+### 代表人物 / Representative Figures
+
+- 费曼 (Richard Feynman): 同法的物理传播版：'费曼图'本身就是把场论降维的表征改写——两人共享'讲得懂才算懂'的信念与'改表征不丢语义'的纪律 / the physics-popularization edition: the Feynman diagram is itself a representation swap downscaling field theory—both shared the creed 'understood only when explainable' and the discipline of swapping representation without losing semantics
+
+- 伽莫夫 (George Gamow): 科普文体的先行者：《物理世界奇遇记》把相对论写成故事——与《从孙子的神奇妙算谈起》同属'叙事化降维'谱系 / precursor of the popular genre: Mr Tompkins in Wonderland retells relativity as story—same lineage of narrative downscaling as From Sunzi's 'Marvelous Calculation' Onwards
+
+- 诺曼 (Donald Norman): 设计学的理论化：'把知识放进世界而非头脑'与'保留判断内核'同构——好的降维是认知工程而非内容缩写 / theorist of design: 'knowledge in the world, not in the head' is isomorphic to keeping the judgment core—good downscaling is cognitive engineering, not content abridgement
+
+
+---
+
+## M-HLG-009 伯乐漏斗法 (Talent-Funnel Design)
+
+- 领域 Domain: 华罗庚作为'制度设计者'的一面：从被熊庆来的伯乐之眼拯救，到亲手设计拯救他人的机制——调陈景润入京、破格提拔王元等青年、1978 创办华罗庚数学班（少年班体系源头之一）、坚持数学竞赛与业余数学发现渠道——他把'下一个华罗庚不能靠运气'当作毕生命题
+
+- Domain: Hua as institutional designer: rescued by Xiong Qinglai's discerning eye, he went on to design the machinery that rescues others—bringing Chen Jingrun to Beijing, promoting young Wang Yuan by exception, founding the Hua Luogeng mathematics class at USTC in 1978 (a source of the gifted-youth program), and insisting on mathematics competitions and channels for amateur discoveries—his lifelong thesis: 'the next Hua Luogeng must not depend on luck'
+
+
+### 定义 / Definition
+
+伯乐漏斗法的起点是一个否定性观察：华罗庚本人是被'慧眼'偶然救起的——若苏家驹论文晚三年发表、若熊庆来没读《科学》杂志，中国就少一个数学家。他不接受这种随机性，于是把自己从'被发现的样本'改造成'发现机制的设计师'。操作内核有四层。其一，入口放宽：真正的天才最可能出现在制度入口之外（低学历、边缘机构、业余身份）——漏斗的设计必须主动向这些地方开口（竞赛、业余投稿、跨校讲座），而非等待其爬到门口。其二，过滤器用产出不用履历：陈景润的价值由论文而非学历证明——把'作品'设为唯一硬通货，使漏斗对身份噪声免疫。其三，每层配导师与二次机会：进入漏斗的人失败一次不应出局（陈景润在特殊年代屡遭冲击而能重返研究，靠的是体系内的庇护与再接纳）。其四，发现者与被发现的同构：华罗庚的自学法（薄厚读书法）本身就是'自我发现漏斗'——漏斗的方法论在个人与制度两个尺度上是同一条。深意有三重：其一，伯乐之眼不可规模化，漏斗可以——把'缘分'工程化是对慧眼稀缺性的唯一系统回应；其二，漏斗的验收指标是'漏掉的样本数'而非'捞到的样本数'——设计者必须追问'还有多少陈景润没被看见'；其三，漏斗需要持续的守门人善意（熊庆来们的存在），政治运动或科层化会使其停摆——机制比善意更持久但离不开善意点火。适用边界：漏斗过滤的是'产出可验证'的领域（数学、编程、写作）；产出难验证的领域漏斗会退化为人脉筛。现代对应物：开源社区对匿名贡献者的晋升机制、编程竞赛与 Kaggle 作为入口、学术的'预印本绕过评审'通道、以及企业内'evidence-based promotion'（凭作品晋升）。
+
+The funnel begins with a negative observation: Hua himself was rescued by chance—an eye here, a magazine there; had the Su Jiaju paper appeared three years later, or had Xiong never read Science, China would have one mathematician fewer. He refused that randomness and remade himself from 'a discovered specimen' into 'a designer of discovery machinery.' The operational core has four layers. Widen the entrance: real talent most likely appears outside the institution's gate (low credentials, peripheral institutions, amateur status)—the funnel must open toward them (competitions, amateur submissions, cross-campus lectures), not wait for them to crawl to the door. Filter by output, not résumé: Chen Jingrun's worth was proven by papers, not credentials; making 'the work' the only hard currency immunizes the funnel against identity noise. Attach mentors and second chances at every stage: one failure should not mean expulsion (that Chen Jingrun, repeatedly attacked in hard times, could return to research owed to shelter and re-acceptance within the system). Discoverer and discovered are isomorphic: Hua's self-study method (thin-thick-thin) is itself a self-discovery funnel—the methodology runs identically at personal and institutional scale. Three layers of depth: the discerning eye does not scale, the funnel does—engineering serendipity is the only systematic answer to the scarcity of discernment; the funnel's acceptance metric is the number of missed samples, not captured ones—the designer must ask how many Chen Jingruns remain unseen; and the funnel needs sustained gatekeeper goodwill (the Xiong Qinglais)—political campaigns or bureaucratization stall it; mechanisms outlast goodwill but need goodwill to ignite. Boundaries: the funnel filters where output is verifiable (mathematics, code, writing); where output is hard to verify, it degrades into a network screen. Modern counterparts: open-source promotion of anonymous contributors, coding competitions and Kaggle as entrance, the preprint channel bypassing review, and evidence-based promotion inside firms.
+
+
+### 出处 / Source
+
+华罗庚《在困境中更要发愤求进》（对人才发现与被埋没者的论述）；王元《华罗庚传》第 10-11 章（提携后学与陈景润事件）、第 14 章（科大与少年班构想）；1978 年华罗庚数学班创办史料；顾迈南《华罗庚传》（新华社人物特写）
+
+
+### 金句 / Key Quote
+
+> 我吃过'无人识货'的苦，所以我的毕生工作之一，是让识货不再靠运气。
+> I have tasted the bitterness of being unrecognized—one of my life's works is to make recognition no longer a matter of luck.
+
+
+### 概念 / Key Concepts
+
+慧眼不可规模化漏斗可以、入口向被埋没者主动开口、作品是唯一硬通货、每层配导师与二次机会、验收指标是漏掉的样本数、机制需善意点火但比善意持久
+
+
+### 流程 / Process
+
+1. 定义产出货币：确定领域内'不可伪造的产出形态'（论文/代码/设计/作品）——漏斗的过滤器只能用它 / Define the output currency: fix the domain's unfakeable output form (paper, code, design, work); the filter can use nothing else
+
+2. 开宽入口：在制度入口之外设采集点（竞赛/公开征集/社区讲座）——特别针对低身份高潜力的通道 / Widen the entrance: set collection points outside the institutional gate—competitions, open calls, community lectures—aimed at low-status, high-potential channels
+
+3. 产出过滤：所有评审只看作品不看履历/身份/关系——对身份噪声免疫是漏斗与关系网的分界线 / Filter by output: review work only—never résumé, identity, or connections; immunity to identity noise is the line between funnel and network
+
+4. 配导师与二次机会：每层筛选配一对一导师；失败者保留再战通道——一次淘汰不是终审 / Mentors and second chances: each stage pairs one-on-one mentors; failures keep a return channel—one rejection is not a final verdict
+
+5. 审计漏掉的样本：定期回查'被淘汰者后来在哪冒头'——漏斗的误差率比命中率更重要 / Audit the missed: periodically check where the rejected later surfaced; the funnel's error rate matters more than its hit rate
+
+6. 点火与交接：守门人善意不可缺（熊庆来式的读稿人）——设计者需培养下一代读稿人并交接漏斗 / Ignite and hand over: gatekeeper goodwill is indispensable (readers in the Xiong Qinglai mold)—cultivate the next generation of readers and hand over the funnel
+
+
+### 代表案例 / Cases
+
+- 调陈景润入京（1950s）：厦门大学讲师陈景润研究哥德巴赫猜想屡受排挤——华罗庚读其论文后力排众议调入数学所并配研究环境；1966 年'1+2'发表，成为漏斗设计的最佳回报；华罗庚晚年仍以'我生平最得意的两件事之一'来评价此事 / Bringing Chen Jingrun to Beijing (1950s): the Xiamen lecturer, squeezed out while attacking the Goldbach conjecture, was read by Hua and, against resistance, transferred to the Institute with research support; '1+2' appeared in 1966—the funnel design's best dividend; Hua in later years called it one of the two things he was proudest of
+
+- 破格王元等青年（1950s）：数学所建所之初即以'论文不看资历'的标准吸纳青年研究者——王元从大学毕业到数论前沿只用了几年；'产出货币'原则的直接执行 / Promoting young Wang Yuan by exception (1950s): from its founding the Institute recruited young researchers on papers, not seniority—Wang went from fresh graduate to the number-theory frontier within years; the output-currency principle executed directly
+
+- 华罗庚数学班（1978，中国科大）：把漏斗前移到少年段——用竞赛与专门培养捕捉'尚未被学历体系定义'的天才；该班成为后来中科大少年班体系的重要源头，影响延续至今 / The Hua Luogeng mathematics class (USTC, 1978): moving the funnel up to adolescence—competitions and dedicated training to catch genius not yet defined by the credential system; a major source of the later gifted-youth program, influential to this day
+
+- 业余数学渠道（一生坚持）：华罗庚一生坚持给业余数学爱好者回信并甄别其稿件——虽然绝大多数是错误的，但漏斗的意义恰恰在于不为漏斗立成本上限；'下一封信里可能有陈景润'是他给助手们的理由 / The amateur-mathematics channel (lifelong): all his life he answered amateurs' letters and vetted their manuscripts—mostly wrong, but the funnel's meaning is precisely not to cap its cost; 'the next letter may hold a Chen Jingrun' was his standing reason to assistants
+
+
+### 现代应用 / Modern Applications
+
+- 开源社区治理：为匿名贡献者设'作品晋升通道'（以 PR 质量/设计评审为唯一依据），并给首次被拒者配 mentor 二次提交——GitHub 大项目的核心 maintainer 漏斗正是此法 / Open-source governance: a work-based promotion channel for anonymous contributors (PR quality and design review as the sole basis) plus a mentor-and-resubmit path for first-time rejecters—the maintainer funnel of major GitHub projects is exactly this
+
+- 企业招聘：在学历关之外设'作品直通'通道（公开挑战赛/开源作品评审）——并审计'被学历筛掉的候选人后来去了哪'以校准漏斗误差 / Corporate hiring: a work-direct channel beside the credential gate (public challenges, open-source review)—and audit where credential-screened candidates later surfaced to calibrate the funnel's error
+
+- 教育设计：为'不适应统一考试'的学生保留第二条发现通道（竞赛/项目制/作品集）——漏斗的入口宽度决定整国人才产出的上限 / Education design: keep a second discovery channel for students who fail standardized tests (competitions, project-based work, portfolios); entrance width sets the ceiling of a nation's talent yield
+
+- 个人伯乐实践：每周固定花时间读'无名者的作品'（冷启动作者的投稿/社区新人 PR）——伯乐之眼无法复制，但'读稿时间'可以排进日历 / Personal patron practice: reserve weekly calendar time for reading the work of the unknown—submissions of cold-start authors, newcomers' PRs; the discerning eye cannot be cloned, but reading time can be scheduled
+
+
+### 相关模式 / Related Modes
+
+M-HLG-003、M-HLG-002、M-HLG-001、M-HLG-010
+
+
+### 代表人物 / Representative Figures
+
+- 熊庆来 (Xiong Qinglai): 原初伯乐与漏斗的点火者：其对一篇杂志论文的响应定义了华罗庚一生的方法论议程——'让熊庆来事件可复制' / the original patron and the funnel's igniter: his response to one magazine article set Hua's lifelong methodological agenda—'make the Xiong Qinglai event replicable'
+
+- 陈景润 (Chen Jingrun): 漏斗产出的最贵样本：从被埋没的讲师到哥德巴赫猜想里程碑——其际遇检验了漏斗每一层的设计 / the funnel's most precious sample: from buried lecturer to Goldbach landmark—his fate tested the design of every layer
+
+- 哈代 (G. H. Hardy): 另一条漏斗的经营者：发现拉马努金是伯乐史上的最高样本之一——与华罗庚互为'伯乐漏斗'的中西镜像 / operator of another funnel: discovering Ramanujan is one of the highest specimens in the history of patronage—Hua and Hardy, Chinese and Western mirrors of the talent funnel
+
+
+---
+
+## M-HLG-010 讲台燃烧法 (Burning at the Lectern)
+
+- 领域 Domain: 1985.6.12 东京大学：华罗庚在访日学术讲演中（'理论、应用与普及'的总结报告）心脏病发作，倒在讲台，当日去世——他数年前即公开说过'我最大的希望就是工作到生命的最后一刻'；从金坛柜台的油灯到东京讲坛的聚光灯，起点与终点都是'工作'——这个闭环是他为自己设计的最终签名
+
+- Domain: June 12, 1985, Tokyo University: during a lecture—the summation of his 'theory, application, and popularization'—he suffered a heart attack, collapsed at the lectern, and died that day; years earlier he had said publicly, 'my greatest hope is to work to the last moment of life.' From the oil lamp at the Jintan counter to the spotlight of the Tokyo podium, both first and last acts were work—a closed loop he designed as his final signature
+
+
+### 定义 / Definition
+
+讲台燃烧法是华罗庚元方法的最外层：不是关于如何解题，而是关于如何让一生成为一个论证。其操作内核有三。其一，'用行动定义身份'：他拒绝让身份由头衔（学位/官职）定义，而由持续的可识别行动定义——'数学家'这个身份在他的版本里意味着'正在做数学'，于是工作的终点被逻辑地推到生命的终点；'死在讲台上'不是意外而是其身份定义的必然归位。其二，'终点倒推设计'：既然最后一件事会成为一生的签名，那么对'最后一件事'的选择本身就是最重要的方法论决策——他晚年把讲学、写作、双法总结排为最后的工作序列，东京报告正是'理论-应用-普及'三位一体的总结，即他一生主张的最终陈述。其三，'示范的再生'：讲台燃烧成为一个可传播的姿态——它告诉后来者'工作到最后一刻'不是修辞而是可执行的生命形式；这种'以死明志'的世俗化版本（不靠牺牲敌人而靠耗尽自己）是知识分子的独特签名。深意有二重：其一，该方法要求'身份-行动'的一致性贯穿一生——只有一生都在讲台上的人，死在讲台上才成为签名；日常的每一次行动都在为终点签名积累素材。其二，它同时是对'退休'文化的哲学反驳：把人按年龄从其意义来源上剥离是一种制度暴力，华罗庚用生命形态给出了反例。适用边界：该方法是'签名'而非'义务'——它只在行动者本人真实选择时成立，作为他人期待强加时即变质为殉道压力；且需要'生命最后阶段仍有意义的工作'这一物质前提。现代对应物：'工匠至死'的职业伦理（建筑师/作曲家/教师的最后作品）、'以行动写作'的生涯设计（把人生当作论证来排版）、以及临终关怀中的'意义延续'设计。
+
+Burning at the lectern is the outermost layer of Hua's meta-method: not how to solve problems but how to make a life itself an argument. The operational core has three parts. Define identity by action: he refused to let identity be set by titles (degrees, office) and set it by continuous, recognizable action—in his version, 'mathematician' means 'doing mathematics now,' so logically work's end is pushed to life's end; dying at the lectern was not accident but the inevitable homecoming of his definition. Design backward from the end: since the last act becomes the signature of a life, choosing the last act is itself the weightiest methodological decision—his late years ordered lecturing, writing, and the Two-Methods summary as the final work sequence, and the Tokyo lecture was the summation of 'theory-application-popularization,' the closing statement of his life's thesis. The signature regenerates: burning at the lectern became a transmissible gesture—telling those after him that 'work to the last moment' is not rhetoric but an executable form of life; this secularized 'sealing conviction with death' (exhausting oneself, not sacrificing an enemy) is a distinctively intellectual signature. Two layers of depth: it requires identity-action consistency across a whole life—only one who spent a life at the lectern makes dying there a signature; every ordinary act accumulates material for the end's signature. And it is a philosophical rebuttal of retirement culture: peeling people by age from their source of meaning is institutional violence; Hua's form of life is the counterexample. Boundaries: this is a signature, not a duty—it holds only when genuinely chosen by the actor; imposed as others' expectation it curdles into martyr pressure, and it needs the material premise of meaningful work in one's final years. Modern counterparts: the craftsman-to-the-end ethic (architects, composers, teachers and their last works); career design as 'writing with action' (typesetting a life as an argument); and meaning-continuity design in end-of-life care.
+
+
+### 出处 / Source
+
+华罗庚《在困境中更要发愤求进》与晚年讲演（'我最大的希望就是工作到生命的最后一刻'）；1985 年 6 月 12 日东京大学讲演事件报道（《人民日报》讣闻与日本数学会记录）；王元《华罗庚传》终章；顾迈南《华罗庚传》
+
+
+### 金句 / Key Quote
+
+> 我最大的希望，就是工作到生命的最后一刻——他没有食言，讲台替他守了约。
+> My greatest hope is to work to the last moment of life—he kept the promise; the lectern held it for him.
+
+
+### 概念 / Key Concepts
+
+身份由行动而非头衔定义、终点倒推：最后一件事即一生签名、工作到生命最后一刻的可执行性、以耗尽自己代替牺牲敌人、身份-行动一致性的终身要求、对退休文化的哲学反驳
+
+
+### 流程 / Process
+
+1. 选定签名行动：确定一个'可重复到生命终点'的核心行动（讲学/写作/带徒）——签名行动必须与身份定义严格一致 / Choose the signature act: fix one core action repeatable to life's end (lecturing, writing, mentoring)—it must strictly match the identity definition
+
+2. 倒推排程：从'最后一件事'倒推晚年工作序列——终局的性质决定此刻的排程（终局是总结则晚年做综合，终局是开拓则晚年留新题） / Schedule backward: from 'the last act' work the late-life sequence backward—the endgame's nature governs today's ordering (a summarizing endgame means synthesis in later years; an opening one means leaving new problems)
+
+3. 日常积累签名素材：把每一次日常行动当作终局签名的素材——身份-行动一致性在平时验收，不在终点验收 / Accumulate signature material daily: treat every ordinary act as material for the end's signature; identity-action consistency is audited in daily life, not at the end
+
+4. 公开预告：把'工作到最后'公开说出——自我预言的公开化既是对自己的约束也是对他人的示范 / Announce publicly: say 'work to the last' out loud—the publicized self-prophecy binds oneself and models for others
+
+5. 保持意义供给：确保生命最后阶段仍有真实可做的工作（而非仪式性岗位）——这是方法的物质前提 / Keep meaning supplied: ensure real work exists in the final years, not ceremonial posts—the method's material premise
+
+6. 区分签名与殉道：该方法以本人真实选择为界——一旦变成他人期待即停用，不为姿态而耗尽 / Signature, not martyrdom: the boundary is the actor's own choice; once it becomes others' expectation, stop—do not exhaust yourself for a pose
+
+
+### 代表案例 / Cases
+
+- 东京讲台（1985.6.12）：访日讲演'理论、应用与普及'进行到中途心脏病发作，倒在讲台，当日去世——他从讲台上开始一生的公开工作（清华讲台），又从讲台上离开；起点与终点的同构使这个闭环成为其'身份由行动定义'哲学的最终签名 / The Tokyo lectern (June 12, 1985): mid-lecture on 'theory, application, and popularization' in Japan, heart attack, collapse at the lectern, death that day; he began his public working life at a Tsinghua lectern and left it from a lectern—the isomorphism of first and last makes the closed loop the final signature of his 'identity defined by action' philosophy
+
+- '工作到生命最后一刻'的公开预告（1980s）：他在多个场合把这句话说出——公开的自我预言在五年后应验，这使'讲台燃烧'从个人命运升格为可传播的姿态 / The public pledge 'work to the last moment' (1980s): said on many occasions, the publicized self-prophecy came true five years later, raising 'burning at the lectern' from private fate to transmissible gesture
+
+- 与金坛油灯的闭环：起点是柜台后借油灯自学的少年，终点是国际讲坛上燃烧至尽的老人——两个场景之间是同一件事（'做数学'）的两种照明条件；这个叙事闭环本身是他普及写作的一贯手法（首尾同构） / The closed loop with the Jintan oil lamp: a boy studying by borrowed lamplight behind the counter, an old man burning out on an international podium—between the two scenes runs one act, 'doing mathematics,' under two kinds of lighting; the narrative loop itself is his habitual popularization technique (head-tail isomorphism)
+
+- 对比同时代科学家的不同终局：有在运动中沉默的，有在海外终老的，有被行政淹没的——华罗庚的终局是三者之外第四种：把普及与应用做到讲台尽头；终局的差异是各自'身份定义'差异的必然结果，这是一次'终点倒推'的群体对照实验 / A group contrast of endings: contemporaries fell silent in campaigns, aged abroad, or drowned in administration—Hua's end was a fourth kind: carrying popularization and application to the lectern's edge; differing endings are the necessary results of differing identity definitions—a group experiment in designing backward from the end
+
+
+### 现代应用 / Modern Applications
+
+- 职业身份设计：选一个'可以一直做'的核心行动而非一个'做到头'的头衔——'研究者'（正在研究）比'教授'（职位）更能抗退休/组织变动的身份侵蚀 / Professional identity: choose a core action you can keep doing rather than a title you top out—'researcher' (researching) resists retirement and reorganization better than 'professor' (a post)
+
+- 生涯终局规划：从'希望最后一件事是什么'倒推现在的时间分配——终局想留下总结，现在就该开始综合写作；终局想留新题，现在就该控制行政稀释 / Endgame planning: reason backward from 'what I hope my last act to be' to today's time allocation; an endgame of synthesis means starting integrated writing now; one of new problems means resisting administrative dilution now
+
+- 公开承诺的杠杆：把'工作到最后一刻'级别的自我定义公开说出——公开化的自我预言是普通人可用的最低成本承诺装置 / The lever of public commitment: say your self-definition—'work to the last moment' grade—out loud; a publicized self-prophecy is the cheapest commitment device available to ordinary people
+
+- 警惕殉道化：该方法只适用于本人真实选择——组织不得把'燃烧到最后'变成对个体的隐性 KPI；区分'他自己选的讲台'与'被推上去的讲台' / Guard against martyrdom: the method holds only by the actor's genuine choice—organizations must never turn 'burning to the end' into a covert KPI; distinguish 'the lectern he chose' from 'the lectern he was pushed onto'
+
+
+### 相关模式 / Related Modes
+
+M-HLG-003、M-HLG-009、M-HLG-006、M-HLG-008
+
+
+### 代表人物 / Representative Figures
+
+- 苏格拉底 (Socrates): 以终点签名哲学的原型：死在'讲台'（法庭申辩与教学现场）上的西方原型——华罗庚是其世俗化、劳动化的东方版本 / prototype of signing with the end: dying at the 'lectern' (the court of apology and the teaching scene) is the Western archetype; Hua is its secularized, laborized Eastern edition
+
+- 拉马努金 (Srinivasa Ramanujan): 对照样本：同为'体制外天才'，拉马努金 32 岁燃尽于病榻，华罗庚 75 岁燃尽于讲台——同一种燃烧的两种终点，健康与制度的差异 / the contrast case: fellow outsider genius, Ramanujan burned out at thirty-two on a sickbed, Hua at seventy-five at the lectern—two endings of one combustion, set apart by health and institution
+
+- 陈省身 (Shiing-Shen Chern): 同代数学家的另一终局设计：晚年回归南开建数学所直至最后讲演——证明'讲台燃烧'可以在不同轨道上重复执行 / a fellow mathematician's alternative endgame: returning to Nankai in later years to build its mathematics institute, lecturing to the end—proof that burning at the lectern is repeatable on different tracks

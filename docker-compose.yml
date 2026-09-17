@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  # PostgreSQL for production (optional - can use SQLite for dev)
+  # postgres:
+  #   image: postgres:16-alpine
+  #   environment:
+  #     POSTGRES_DB: protreptic
+  #     POSTGRES_USER: protreptic
+  #     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "pg_isready -U protreptic"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: protreptic-api
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./protreptic.db
+      # - DATABASE_URL=postgresql+asyncpg://protreptic:${POSTGRES_PASSWORD:-changeme}@postgres:5432/protreptic
+    volumes:
+      - ./api/protreptic.db:/app/protreptic.db
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+    # depends_on:
+    #   postgres:
+    #     condition: service_healthy
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    container_name: protreptic-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Optional: Prometheus for metrics
+  # prometheus:
+  #   image: prom/prometheus:latest
+  #   ports:
+  #     - "9090:9090"
+  #   volumes:
+  #     - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+  #   restart: unless-stopped
+
+  # Optional: Grafana for dashboards
+  # grafana:
+  #   image: grafana/grafana:latest
+  #   ports:
+  #     - "3001:3000"
+  #   environment:
+  #     - GF_SECURITY_ADMIN_PASSWORD=admin
+  #   volumes:
+  #     - grafana_data:/var/lib/grafana
+  #   restart: unless-stopped
+
+volumes:
+  postgres_data:
+  grafana_data:

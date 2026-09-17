@@ -1,0 +1,411 @@
+{
+  "schema_version": "v6",
+  "code": "H-WC-001",
+  "figure_name": "王充",
+  "figure_code": "东汉",
+  "figure_pinyin": "Wáng Chōng",
+  "birth_year": 27,
+  "death_year": 97,
+  "era": "东汉",
+  "school": "元气自然论/批判理性主义",
+  "style_name": "仲任",
+  "courtesy_name": "无",
+  "representative_works": [
+    "《论衡》"
+  ],
+  "historical_significance": "东汉唯物主义哲学家，中国最早系统性怀疑论者和自然主义者，《论衡》作者，开创中国古代批判理性传统，比欧洲文艺复兴怀疑论早约1500年",
+  "core_thoughts": [
+    "疾虚妄方法论（批判性思维奠基）",
+    "元气自然论（气一元论本体论）",
+    "效验论证法（经验检验标准）",
+    "天道自然法（反目的论宇宙观）",
+    "问难法（文本批判先驱）"
+  ],
+  "famous_quote": "疾虚妄，立真伪；考之以心，效之以事",
+  "influence": "开创中国古代批判理性传统，为张载、王夫之等后世气学思想家奠定基础，比欧洲怀疑论早约1500年",
+  "thinking_mode_count": 10,
+  "modes": [
+    {
+      "id": "M01",
+      "name_zh": "疾虚妄法",
+      "name_en": "Disease of Falsehood Method",
+      "mode_code": "M01",
+      "source_chapter": "《论衡·佚文》《论衡·对作》",
+      "definition_zh": "以批判虚妄、追求真实为核心使命，对所有未经检验的主张保持系统性怀疑态度。'疾虚妄'不仅是方法论，更是认识论立场。",
+      "definition_en": "Taking criticism of falsehood and pursuit of truth as the core mission, maintaining skeptical attitude toward all unexamined claims. 'Disease of falsehood' is not just methodology but epistemological stance.",
+      "key_concepts": [
+        "疾虚妄",
+        "求真",
+        "实",
+        "虚",
+        "效验"
+      ],
+      "process": [
+        "识别需要检验的主张或信念",
+        "质疑该主张的前提假设是否成立",
+        "寻找反例或矛盾之处",
+        "用经验和逻辑检验主张的可靠性"
+      ],
+      "modern_applications": [
+        "批判性思维",
+        "伪科学识别",
+        "信息甄别",
+        "认知偏差纠正"
+      ],
+      "related_modes": [
+        "M02",
+        "M03",
+        "M05"
+      ]
+    },
+    {
+      "id": "M02",
+      "name_zh": "问难法",
+      "name_en": "Questioning and Challenging Method",
+      "mode_code": "M02",
+      "source_chapter": "《论衡·问孔》《论衡·刺孟》《论衡·正失》",
+      "definition_zh": "通过不断提问和挑战来检验命题的真伪，要求每一个主张都要有明确的机制解释。问难不是为质疑而质疑，而是为了逼近真实。",
+      "definition_en": "Testing propositions through continuous questioning and challenging, requiring each claim to have clear mechanistic explanation. Questioning is not for its own sake but to approach truth.",
+      "key_concepts": [
+        "问难",
+        "质问",
+        "辩难",
+        "明效",
+        "证验"
+      ],
+      "process": [
+        "对既定命题提出定义性问题",
+        "追问机制解释",
+        "寻找逻辑矛盾或反例",
+        "通过归谬法揭示命题荒谬之处"
+      ],
+      "modern_applications": [
+        "逻辑推理",
+        "辩论分析",
+        "科学方法",
+        "批判性阅读"
+      ],
+      "related_modes": [
+        "M01",
+        "M04",
+        "M05"
+      ]
+    },
+    {
+      "id": "M03",
+      "name_zh": "天道自然法",
+      "name_en": "Heaven-as-Nature Method",
+      "mode_code": "M03",
+      "source_chapter": "《论衡·自然》《论衡·物势》《论衡·谴告》",
+      "definition_zh": "将天道理解为人格化的自然过程而非有意志的干预者。天没有目的，不赏善罚恶，只是气之自然运行。",
+      "definition_en": "Understanding Heaven as impersonal natural process rather than intentional intervenor. Heaven has no purpose, does not reward virtue or punish evil, merely qi's natural operation.",
+      "key_concepts": [
+        "天道自然",
+        "非目的论",
+        "气化",
+        "无为",
+        "自然"
+      ],
+      "process": [
+        "识别将自然现象人格化/目的化的倾向",
+        "追问该现象是否有实际的功能性或目的性",
+        "还原为物质过程的自然解释",
+        "拒绝任何无法验证的神圣意图假设"
+      ],
+      "modern_applications": [
+        "科学思维",
+        "去神秘化",
+        "自然主义世界观",
+        "反阴谋论"
+      ],
+      "related_modes": [
+        "M01",
+        "M06",
+        "M10"
+      ]
+    },
+    {
+      "id": "M04",
+      "name_zh": "效验论证法",
+      "name_en": "Empirical Verification Method",
+      "mode_code": "M04",
+      "source_chapter": "《论衡·证明》《论衡·知实》《论衡·案书》",
+      "definition_zh": "主张必须有可检验的证据支持，不接受仅凭权威或传统的论断。'凡论事者，决其信否，案验其事'是效验法的核心原则。",
+      "definition_en": "Claims must have verifiable evidence support; no argument accepted solely on authority or tradition. 'When discussing matters, judge their credibility, investigate and verify the facts' is the core principle.",
+      "key_concepts": [
+        "效验",
+        "证验",
+        "案验",
+        "其实",
+        "有证"
+      ],
+      "process": [
+        "将待检验的主张表述为可观测的命题",
+        "设计检验方案观察现象是否符合预期",
+        "收集实际证据而非依赖传闻",
+        "用实际结果判定主张的真伪"
+      ],
+      "modern_applications": [
+        "实验设计",
+        "质量控制",
+        "证据评估",
+        "决策验证"
+      ],
+      "related_modes": [
+        "M01",
+        "M02",
+        "M09"
+      ]
+    },
+    {
+      "id": "M05",
+      "name_zh": "归谬反驳法",
+      "name_en": "Reductio ad Absurdum Method",
+      "mode_code": "M05",
+      "source_chapter": "《论衡·道虚》《论衡·死伪》《论衡·纪妖》",
+      "definition_zh": "通过推导主张的逻辑后果来揭示其矛盾或荒谬。若承认某主张，则需接受一系列不合理结论，故该主张必误。",
+      "definition_en": "Revealing contradiction or absurdity by deriving logical consequences of a claim. If accepting the claim leads to unreasonable conclusions, the claim must be wrong.",
+      "key_concepts": [
+        "归谬",
+        "反证",
+        "推究",
+        "论难",
+        "激扬"
+      ],
+      "process": [
+        "暂时接受对方的前提或主张",
+        "按逻辑推导出该主张的所有后果",
+        "指出其中荒谬或不可接受的结论",
+        "据此否定原主张"
+      ],
+      "modern_applications": [
+        "逻辑论证",
+        "反方分析",
+        "边界条件检验",
+        "概念澄清"
+      ],
+      "related_modes": [
+        "M02",
+        "M07",
+        "M08"
+      ]
+    },
+    {
+      "id": "M06",
+      "name_zh": "元气自然论",
+      "name_en": "Primordial Qi Naturalism",
+      "mode_code": "M06",
+      "source_chapter": "《论衡·谈天》《论衡·感虚》《论衡·龙虚》",
+      "definition_zh": "以气为本体解释一切现象，气的聚散构成万物的生成变化，无需借助任何超自然力量或目的因。",
+      "definition_en": "Explaining all phenomena through qi as substance; qi's condensation and dispersion constitute generation and change of all things, without needing any supernatural force or final cause.",
+      "key_concepts": [
+        "元气",
+        "气化",
+        "自然",
+        "禀气",
+        "形气"
+      ],
+      "process": [
+        "将所有现象还原为物质的气和形",
+        "解释为气的聚散、升降、感应过程",
+        "拒绝引入超自然实体或目的论解释",
+        "保持解释的内在一致性和简洁性"
+      ],
+      "modern_applications": [
+        "唯物主义分析",
+        "系统思维",
+        "还原论方法",
+        "科学解释框架"
+      ],
+      "related_modes": [
+        "M03",
+        "M07",
+        "M10"
+      ]
+    },
+    {
+      "id": "M07",
+      "name_zh": "常识经验法",
+      "name_en": "Common Sense Experience Method",
+      "mode_code": "M07",
+      "source_chapter": "《论衡·说日》《论衡·雷虚》《论衡·变动》",
+      "definition_zh": "用日常经验和常识作为检验理论的标准，反对将复杂化、神秘化的解释强加于简单自然现象之上。",
+      "definition_en": "Using everyday experience and common sense as standard to test theories; opposing complex and mystified explanations forced onto simple natural phenomena.",
+      "key_concepts": [
+        "常识",
+        "常情",
+        "众见",
+        "闻见",
+        "效验"
+      ],
+      "process": [
+        "将抽象命题还原为日常经验可检验的形式",
+        "检查命题是否与普遍常识和经验相符",
+        "用普通人能理解的例证说明问题",
+        "拒绝超出常识范围的过度解释"
+      ],
+      "modern_applications": [
+        "奥卡姆剃刀",
+        "实用主义思维",
+        "简化复杂问题",
+        "反矫饰修辞"
+      ],
+      "related_modes": [
+        "M04",
+        "M05",
+        "M09"
+      ]
+    },
+    {
+      "id": "M08",
+      "name_zh": "文本批判法",
+      "name_en": "Textual Criticism Method",
+      "mode_code": "M08",
+      "source_chapter": "《论衡·问孔》《论衡·刺孟》《论衡·书虚》",
+      "definition_zh": "对经典文本持批判性态度，区分哪些是真孔孟之言，哪些是后人伪托或误传。真理不因来自权威而成立。",
+      "definition_en": "Approaching canonical texts with critical attitude, distinguishing authentic from later forgery or misattribution. Truth does not hold because it comes from authority.",
+      "key_concepts": [
+        "问孔",
+        "刺孟",
+        "书虚",
+        "辨伪",
+        "考信"
+      ],
+      "process": [
+        "将文本主张与可验证的事实对照",
+        "识别文本内部的矛盾和不一致",
+        "区分原始主张与后世附会",
+        "以事实而非权威裁定文本真伪"
+      ],
+      "modern_applications": [
+        "史料辨析",
+        "文献考证",
+        "来源可信度评估",
+        "谣言溯源"
+      ],
+      "related_modes": [
+        "M01",
+        "M02",
+        "M10"
+      ]
+    },
+    {
+      "id": "M09",
+      "name_zh": "机械因果法",
+      "name_en": "Mechanical Causality Method",
+      "mode_code": "M09",
+      "source_chapter": "《论衡·雷虚》《论衡·感虚》《论衡·顺鼓》",
+      "definition_zh": "用物质性的因果关系取代目的论和感应论解释，要求每个现象都有清晰的物质性原因链条。",
+      "definition_en": "Replacing teleological and resonance-based explanations with material causality, requiring each phenomenon to have clear material causal chain.",
+      "key_concepts": [
+        "自然之气",
+        "阴阳",
+        "相待",
+        "感通",
+        "同类"
+      ],
+      "process": [
+        "追踪现象产生的物质性原因",
+        "建立清晰的原因-结果链条",
+        "拒绝目的论或神秘感应解释",
+        "保持因果链条的内在一致性"
+      ],
+      "modern_applications": [
+        "因果分析",
+        "根因分析",
+        "故障排查",
+        "科学推理"
+      ],
+      "related_modes": [
+        "M06",
+        "M07",
+        "M10"
+      ]
+    },
+    {
+      "id": "M10",
+      "name_zh": "反权威立真法",
+      "name_en": "Anti-Authority Truth-Seeking Method",
+      "mode_code": "M10",
+      "source_chapter": "《论衡·问孔》《论衡·非韩》《论衡·别通》",
+      "definition_zh": "拒绝将权威、传统或多数人的意见作为真理标准。无论主张来自孔子还是世俗大众，都必须经过独立检验。",
+      "definition_en": "Rejecting authority, tradition, or popular opinion as truth standard. Whatever claim from Confucius or common people, it must undergo independent verification.",
+      "key_concepts": [
+        "问孔",
+        "非韩",
+        "刺孟",
+        "违俗",
+        "独立"
+      ],
+      "process": [
+        "识别主张的来源（是否依赖权威）",
+        "剥离主张与来源权威的绑定关系",
+        "独立检验主张本身的内容",
+        "以事实和逻辑而非身份裁定真假"
+      ],
+      "modern_applications": [
+        "独立思考",
+        "权威批判",
+        "认知自主",
+        "反盲从"
+      ],
+      "related_modes": [
+        "M01",
+        "M08",
+        "M02"
+      ]
+    }
+  ],
+  "steps_zh": [
+    "Step 1: 疾虚妄定立场——以'疾虚妄'为核心使命（模式01），确立对所有未经验证主张的批判性姿态，拒斥天命感应、鬼神迷信等主流意识形态",
+    "Step 2: 问难法逐层检验——运用'问难法'（模式02）对每一个流行命题进行定义性追问和机制性质疑，要求每个主张明确其运作的因果机制",
+    "Step 3: 效验法确认真伪——通过'效验论证法'（模式04）和'常识经验法'（模式07），用日常经验和可观察事实逐一检验主张的可信度",
+    "Step 4: 归谬法揭示矛盾——运用'归谬反驳法'（模式05）推导流行主张的逻辑后果，揭示其中隐藏的荒谬性和矛盾性",
+    "Step 5: 自然论重建解释——以'天道自然法'（模式03）和'元气自然论'（模式06）为框架，用物质性的气之聚散重建对自然现象的解释体系"
+  ],
+  "steps_en": [
+    "Step 1: Disease of Falsehood Stance — With 'disease of falsehood' as core mission (mode 01), establish critical posture toward all unverified claims, rejecting popular ideology of heavenly mandate resonance and ghost superstition",
+    "Step 2: Questioning Method Layer-by-Layer Test — Apply 'questioning and challenging method' (mode 02) to conduct definitional inquiry and mechanistic questioning of every popular proposition, requiring each claim to specify its causal mechanism",
+    "Step 3: Verification Method Truth Determination — Through 'empirical verification method' (mode 04) and 'common sense experience method' (mode 07), test claim credibility one by one using everyday experience and observable facts",
+    "Step 4: Reductio Method Contradiction Revelation — Apply 'reductio ad absurdum method' (mode 05) to derive logical consequences of popular claims, revealing hidden absurdity and contradiction",
+    "Step 5: Naturalism Rebuilding Explanation — Using 'Heaven-as-Nature method' (mode 03) and 'primordial qi naturalism' (mode 06) as framework, rebuild explanatory system for natural phenomena through material qi condensation and dispersion"
+  ],
+  "expected_zh": [
+    "建立中国首个系统性怀疑论哲学体系，以理性批判对抗谶纬神学",
+    "确立经验效验作为真理检验的最高标准，超越权威和传统",
+    "用自然主义解释取代目的论和感应论，构建气的本体论框架",
+    "开创文本批判传统，区分原始经典与后世附会",
+    "以气象学、天文学等实证研究为自然主义哲学提供科学支撑"
+  ],
+  "expected_en": [
+    "Establish China's first systematic skeptical philosophy, confront Chenwei theocracy with rational criticism",
+    "Establish empirical verification as the highest standard of truth testing, transcending authority and tradition",
+    "Replace teleological and resonance explanations with naturalism, construct qi-based ontological framework",
+    "Pioneer textual criticism tradition, distinguish original classics from later accretions",
+    "Provide scientific support for naturalistic philosophy through meteorological and astronomical empirical research"
+  ],
+  "case_zh": "雷电自然成因论证：当时社会普遍认为雷电是天怒的表现，是上天惩罚有罪之人的手段。王充在《论衡·雷虚》中首先运用常识经验法——如果雷电是天怒，那么为什么雷电既打人也劈死人，却从不区分善恶？其次运用归谬法——若雷电是天意，则天应能精确识别有罪之人，但现实中往往无罪者被击，这说明雷电并无意识判断能力。最后他提出机械因果解释：雷电不过是阴阳之气相搏产生的火，是自然现象而非意志行为。此论证展示了王充如何将问难法、归谬法、效验法综合运用，层层递进地推翻流行迷信。",
+  "case_en": "Thunder and Lightning Natural Causation Argument: Society widely believed thunder/lightning was expression of heavenly wrath, Heaven's punishment tool for sinners. In 'Lunheng: Thunder is Void' chapter, Wang Chong first applied common sense experience method - if thunder is heavenly anger, why does it strike people indiscriminately without distinguishing good from evil? Second, applied reductio ad absurdum - if thunder is heavenly will, Heaven should precisely identify guilty persons, but reality often shows innocent being struck, proving thunder has no conscious judgment ability. Finally he proposed mechanical causal explanation: thunder/lightning merely fire produced by yin-yang qi collision, natural phenomenon not volitional act. This argument demonstrates how Wang Chong comprehensively applied questioning method, reductio method, and empirical verification method in progressive layers to overturn popular superstition.",
+  "domains": [
+    "批判",
+    "实证",
+    "自然主义",
+    "逻辑",
+    "怀疑论"
+  ],
+  "historical_domains": [
+    "哲学",
+    "自然科学",
+    "批判思维",
+    "气象学",
+    "天文学"
+  ],
+  "gender": "男",
+  "ethnicity": "华夏",
+  "civilization_sphere": "东亚/中华",
+  "nationality": "中国",
+  "time_period_standardized": "27-97 CE",
+  "primary_language": "古汉语",
+  "intellectual_tradition": "东汉唯物主义/元气自然论/批判理性主义",
+  "core_mode": "M01 疾虚妄法/M02 问难法/M03 天道自然法/M04 效验论证法/M05 归谬反驳法/M06 元气自然论/M07 常识经验法/M08 文本批判法/M09 机械因果法/M10 反权威立真法"
+}

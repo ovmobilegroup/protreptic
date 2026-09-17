@@ -1,0 +1,351 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://protreptic.local/schemas/figure.v8.global.json",
+  "title": "Protreptic Global Coverage Schema v8.0 (Phase 19-22 Extension)",
+  "description": "v7 统一模型 + 区域化字段画像 + 枚举全球化扩展 + 质量门控。支撑 22 文明圈、200+ 国家/地区、200+ 人物、120+ 新模式、90+ 场景。",
+  "type": "object",
+  "required": [
+    "code", "entity_type", "name_zh", "name_en",
+    "description_zh", "description_en",
+    "reason_zh", "reason_en",
+    "steps_zh", "steps_en",
+    "expected_zh", "expected_en",
+    "case_zh", "case_en",
+    "modes", "core_mode",
+    "region_profile"
+  ],
+  "properties": {
+    "code": {
+      "type": "string",
+      "pattern": "^[A-Z]{2,3}-[A-Z]{2,5}-\\d{3}$",
+      "description": "唯一标识 {PREFIX}-{TOPIC}-{NNN}"
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": ["figure", "concept", "school", "movement", "institution", "mode"],
+      "description": "记录类型；决定条件必填字段"
+    },
+    "name_zh": { "type": "string", "minLength": 1 },
+    "name_en": { "type": "string", "minLength": 1 },
+    "description_zh": { "type": "string", "minLength": 80 },
+    "description_en": { "type": "string", "minLength": 80 },
+    "reason_zh": { "type": "string", "minLength": 20 },
+    "reason_en": { "type": "string", "minLength": 20 },
+    "steps_zh": { "type": "array", "items": { "type": "string" }, "minItems": 3 },
+    "steps_en": { "type": "array", "items": { "type": "string" }, "minItems": 3 },
+    "expected_zh": { "type": "string", "minLength": 10 },
+    "expected_en": { "type": "string", "minLength": 10 },
+    "case_zh": { "type": "string", "minLength": 10 },
+    "case_en": { "type": "string", "minLength": 10 },
+    "modes": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "minItems": 1,
+      "description": "思维模式 ID 数组；要求 ≥1 个新模式"
+    },
+    "core_mode": {
+      "type": "string",
+      "description": "规范化核心模式串"
+    },
+    "region_profile": {
+      "type": "string",
+      "enum": [
+        "NA_profile", "EU_West_profile", "EU_East_profile", "EU_Nordic_profile",
+        "LatAm_profile", "Caribbean_profile",
+        "Africa_West_profile", "Africa_East_profile", "Africa_Central_profile",
+        "Africa_South_profile", "Africa_North_profile",
+        "Asia_East_profile", "Asia_South_profile", "Asia_SE_profile", "Asia_Central_profile",
+        "Islamic_profile",
+        "Oceania_AU_NZ_profile", "Oceania_Melanesia_profile", "Oceania_Micronesia_profile", "Oceania_Polynesia_profile",
+        "Indigenous_profile", "Arctic_profile"
+      ],
+      "description": "区域化字段画像，决定该记录适用的必填/可选字段集"
+    },
+    "wiki_id": { "type": "string" },
+    "nationality": { "type": "string" },
+    "civilization_sphere": {
+      "type": "string",
+      "enum": [
+        "Anglosphere", "Western Europe", "Eastern Europe", "Nordic/Baltic",
+        "Latin America", "Caribbean",
+        "Sub-Saharan Africa West", "Sub-Saharan Africa East", "Sub-Saharan Africa Central", "Sub-Saharan Africa South",
+        "North Africa",
+        "Islamic", "Ottoman", "Mughal", "Safavid",
+        "East Asian", "South Asian", "Southeast Asian", "Central Asian",
+        "Pacific", "Australia/NZ", "Melanesia", "Micronesia", "Polynesia",
+        "Indigenous", "Arctic",
+        "Post-Soviet", "Caucasus/Orthodox",
+        "Unknown"
+      ]
+    },
+    "time_period_standardized": { "type": "string" },
+    "primary_language": { "type": "string" },
+    "intellectual_tradition": { "type": "string" },
+    "era": {
+      "type": "string",
+      "enum": ["古代", "中世纪", "近代", "现代", "未知"]
+    },
+    "gender": {
+      "type": "string",
+      "enum": ["男", "女", "男+女", "其他", "未知"]
+    },
+    "gender_role_note": { "type": "string" },
+    "historical_domains": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "历史语境领域轴"
+    },
+    "domains": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "现代跨领域应用轴"
+    },
+    "cross_cultural_impact": { "type": "string" },
+    "legacy_type": {
+      "type": "string",
+      "enum": [
+        "cultural", "political", "scientific", "artistic", "military", "economic", "spiritual",
+        "revolutionary", "constitutional", "philosophical", "educational", "diplomatic", "unknown"
+      ]
+    },
+    "legal_system": {
+      "type": "string",
+      "enum": [
+        "普通法", "大陆法", "伊斯兰法", "习惯法", "混合",
+        "Common Law Indigenous", "Roman-Dutch", "Socialist Law", "未知"
+      ]
+    },
+    "education_tradition": {
+      "type": "string",
+      "enum": [
+        "儒家", "伊斯兰", "西方", "土著", "革命", "自学", "东正教", "中亚", "高加索", "东南亚",
+        "佛教", "印度教", "佛教-上座部", "佛教-大乘", "佛教-藏传",
+        "犹太", "基督教-新教", "基督教-天主教", "基督教-东正教",
+        "未知"
+      ]
+    },
+    "scientific_contribution": { "type": ["boolean", "string"] },
+    "artistic_legacy": { "type": ["boolean", "string"] },
+    "environmental_stewardship": { "type": ["boolean", "string"] },
+    "diaspora_network_type": {
+      "type": "string",
+      "enum": ["劳动", "知识", "资本", "文化", "政治", "无", "未知", "宗教", "学术"]
+    },
+    "digital_adaptation": {
+      "type": "string",
+      "enum": ["先驱", "跟随", "滞后", "跳跃", "未知"]
+    },
+    "regional_integration": {
+      "type": "string",
+      "enum": [
+        "EU", "EFTA", "Eurozone", "Schengen",
+        "ASEAN", "ASEAN+3", "RCEP", "CPTPP",
+        "AU", "ECOWAS", "SADC", "EAC", "ECCAS", "COMESA", "AMU", "IGAD",
+        "MERCOSUR", "CELAC", "OAS", "UNASUR", "Pacific Alliance",
+        "CIS", "EAEU", "CSTO", "SCO", "BRICS",
+        "GCC", "Arab League", "OIC",
+        "CARICOM", "OECS", "ACS",
+        "PIF", "MSG", "Arctic Council",
+        "无", "未知"
+      ]
+    },
+    "conflict_resolution_mechanism": {
+      "type": "string",
+      "enum": [
+        "和解委员会", "真相委员会", "过渡正义", "联邦主义", "权力分享", "国际仲裁", "谈判调解", "抵抗革命",
+        "AU和解机制", "ECOWAS调解", "SADC调解", "ASEAN方式", "太平洋岛国论坛调解", "北极理事会协商",
+        "土著传统司法", "部落协商", "宗教调解",
+        "无", "未知"
+      ]
+    },
+    "oral_tradition": { "type": "string" },
+    "ethnicity": { "type": "string" },
+    "spiritual_tradition": { "type": "string" },
+    "colonial_history": { "type": "string" },
+    "diaspora_influence": { "type": "string" },
+    "indigenous_knowledge_system": { "type": "string" },
+    "region_zh": { "type": "string" },
+    "region_en": { "type": "string" },
+    "topic_zh": { "type": "string" },
+    "topic_en": { "type": "string" },
+    "resource_governance": { "type": ["boolean", "string"] },
+    "mode_evidence": { "type": "string" },
+    "federal_structure": { "type": "string" },
+    "constitutional_amendments": { "type": "array", "items": { "type": "string" } },
+    "supreme_court_cases": { "type": "array", "items": { "type": "string" } },
+    "electoral_college_reform": { "type": "string" },
+    "states_rights": { "type": "string" },
+    "eu_integration_level": { "type": "string" },
+    "welfare_model": { "type": "string" },
+    "coalition_type": { "type": "string" },
+    "eurozone_membership": { "type": "string" },
+    "schengen_status": { "type": "string" },
+    "constitutional_history": { "type": "string" },
+    "military_role": { "type": "string" },
+    "resource_nationalism": { "type": "string" },
+    "indigenous_rights": { "type": "string" },
+    "regional_bloc": { "type": "string" },
+    "independence_year": { "type": "integer" },
+    "governance_model": { "type": "string" },
+    "resource_curse_status": { "type": "string" },
+    "regional_org": { "type": "string" },
+    "development_model": { "type": "string" },
+    "state_capacity": { "type": "string" },
+    "cultural_continuity": { "type": "string" },
+    "demographic_transition": { "type": "string" },
+    "tech_policy": { "type": "string" },
+    "indigenous_recognition": { "type": "string" },
+    "constitutional_monarchy": { "type": "string" },
+    "climate_vulnerability": { "type": "string" },
+    "pacific_forum_role": { "type": "string" },
+    "antarctic_claim": { "type": "string" },
+    "traditional_territory": { "type": "string" },
+    "self_governance_model": { "type": "string" },
+    "language_vitality": { "type": "string" },
+    "co_management_arrangements": { "type": "string" },
+    "un_declaration_status": { "type": "string" },
+    "core_thinking_mode": { "type": "string" },
+    "new_mode": { "type": "string" },
+    "contribution": { "type": "string" },
+    "timeline": { "type": "string" },
+    "philosophical_insights": { "type": "string" },
+    "legacy_impact": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "entity_type": { "const": "figure" } } },
+      "then": {
+        "required": [
+          "nationality", "civilization_sphere", "time_period_standardized",
+          "primary_language", "intellectual_tradition", "gender", "era"
+        ],
+        "description": "人物记录条件必填身份字段"
+      }
+    },
+    {
+      "if": { "properties": { "entity_type": { "const": "mode" } } },
+      "then": {
+        "required": [
+          "core_thinking_mode", "new_mode", "contribution",
+          "timeline", "philosophical_insights", "legacy_impact"
+        ],
+        "description": "思维模式记录条件必填"
+      }
+    },
+    {
+      "if": { "properties": { "region_profile": { "const": "NA_profile" } } },
+      "then": {
+        "required": [
+          "federal_structure", "constitutional_amendments", "supreme_court_cases"
+        ],
+        "description": "北美画像必填字段"
+      }
+    },
+    {
+      "if": { "properties": { "region_profile": { "const": "EU_West_profile" } } },
+      "then": {
+        "required": [
+          "eu_integration_level", "welfare_model", "coalition_type"
+        ],
+        "description": "西欧画像必填字段"
+      }
+    },
+    {
+      "if": { "properties": { "region_profile": { "const": "LatAm_profile" } } },
+      "then": {
+        "required": [
+          "constitutional_history", "military_role", "resource_nationalism"
+        ],
+        "description": "拉美画像必填字段"
+      }
+    },
+    {
+      "if": { "properties": { "region_profile": { "const": "Africa_West_profile" } } },
+      "then": {
+        "required": [
+          "colonial_history", "independence_year", "governance_model"
+        ],
+        "description": "西非画像必填字段"
+      }
+    },
+    {
+      "if": { "properties": { "region_profile": { "const": "Asia_East_profile" } } },
+      "then": {
+        "required": [
+          "development_model", "state_capacity", "cultural_continuity"
+        ],
+        "description": "东亚画像必填字段"
+      }
+    },
+    {
+      "if": { "properties": { "region_profile": { "const": "Indigenous_profile" } } },
+      "then": {
+        "required": [
+          "traditional_territory", "self_governance_model", "language_vitality",
+          "indigenous_knowledge_system"
+        ],
+        "description": "原住民画像必填字段"
+      }
+    },
+    {
+      "if": { "properties": { "region_profile": { "const": "Arctic_profile" } } },
+      "then": {
+        "required": [
+          "traditional_territory", "self_governance_model", "language_vitality",
+          "indigenous_knowledge_system", "co_management_arrangements",
+          "climate_vulnerability", "un_declaration_status"
+        ],
+        "description": "极地画像必填字段"
+      }
+    }
+  ],
+  "quality_gates": {
+    "field_completeness": {
+      "core_fields": 0.95,
+      "international_fields": 0.85,
+      "region_specific_fields": 0.75,
+      "optional_fields": 0.60
+    },
+    "mode_distinctiveness": {
+      "cosine_similarity_threshold": 0.3,
+      "min_new_modes_per_figure": 1
+    },
+    "bilingual_parity": {
+      "required_pairs": [
+        "name_zh/name_en",
+        "description_zh/description_en",
+        "reason_zh/reason_en",
+        "steps_zh/steps_en",
+        "expected_zh/expected_en",
+        "case_zh/case_en"
+      ],
+      "completeness_threshold": 1.0
+    },
+    "scenario_tag_structure": {
+      "format": "hierarchical",
+      "schema": "{civilization_sphere: {country: [tags]}}"
+    }
+  },
+  "deprecated": {
+    "description": "v6/v7 字段在 v8 中废弃，仅保留读取兼容 1 个版本",
+    "fields": [
+      "polar_region", "island_nation", "nomadic_heritage",
+      "climate_adaptation", "gender_role_innovation"
+    ],
+    "remove_in_version": "v9"
+  },
+  "migration_notes": {
+    "from_v7": [
+      "Add required field: region_profile",
+      "Add required field: core_mode (promoted from optional)",
+      "civilization_sphere enum expanded +30 values",
+      "legacy_type enum expanded +5 values",
+      "legal_system enum expanded +3 values",
+      "education_tradition enum expanded +8 values",
+      "regional_integration enum expanded +15 values",
+      "conflict_resolution_mechanism enum expanded +8 values",
+      "Conditional required fields per region_profile"
+    ],
+    "migration_script": "tools/migrate_v7_to_v8.py (to be created)"
+  }
+}

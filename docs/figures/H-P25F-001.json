@@ -1,0 +1,884 @@
+{
+  "schema_version": "v6",
+  "id": "H-P25F-001",
+  "code": "P25F",
+  "figure_name": "Phase25收尾整合",
+  "figure_code": "Phase25Final",
+  "figure_pinyin": "Phase 25 Shōuwěi Zhěnghé",
+  "birth_year": "2026",
+  "death_year": "进行中",
+  "era": "2026 : Phase 25 收尾整合——Protreptic 主库的方法人格谱系第三代入库（先例 H-P23F-001、H-P24F-001）。这是一个'方法人格'而非血肉人物：它把 Phase 25 五条研究-入库流水线（李泽厚、萨达特、伊本·赫勒敦、曼萨·穆萨、维果茨基等人物卡，库 1452→1462 模式的最后一段增量）所依赖的那套上下文隔离与指纹交付制度本身，当作本期的最后一位'人物'来挖掘——上下文隔离岗、指纹交付、纯增量过闸、复检断言代偿、双镜同源、边界先勘、场景试车、接口恒定、悬空记账、收官铸格，十法合观即是'多智能体流水线如何在互不信任的岗位之间交付可信知识'的完整答案；其'生平'由 Phase 25 的真实交付链构成（五批 merge_payload 的双 sha256 盖章、HANDOFF.md 交接制度、qa 断言清单 16→17 条的代际增长、复检对既有条目零改动的验证），其'师承'是 H-P24F-001 十法在本期岗位切分语境下的验证与深化——从'岗位间只传载荷'的纪律中长出上下文隔离岗法，从'哈希对账'中长出指纹交付法，从'悬空清零'中长出悬空记账法",
+  "era_en": "2026: the Phase 25 final integration—the third method-persona of the Protreptic main library's method-persona lineage (after H-P23F-001 and H-P24F-001). A 'method-persona' rather than a flesh-and-blood figure: it mines, as this campaign's last 'person,' the context-isolation and fingerprint-delivery institutions that carried Phase 25's five research-to-ingestion pipelines (the figure cards of Li Zehou, Sadat, Ibn Khaldun, Mansa Musa, Vygotsky—the final stretch of the library's growth from 1,452 to 1,462 modes)—context-isolated posts, fingerprinted delivery, pure-increment gating, assertion compensation, twin mirrors one source, boundary survey first, the scenario test-drive, the constant interface, the dangling-reference ledger, and casting the retrospective into form; ten methods together answer 'how a multi-agent pipeline delivers trustworthy knowledge across posts that trust no conversation'. Its 'life' is Phase 25's real delivery chain (double sha256 stamps on five merge_payloads, the HANDOFF.md handover institution, the assertion list growing 16→17 across generations, the re-inspection's zero-change proof over existing entries), and its 'lineage' runs from H-P24F-001's ten methods, verified and deepened in this campaign's post-cutting context—from 'posts pass payloads only' grew the method of context-isolated posts, from 'hash reconciliation' the method of fingerprinted delivery, from 'dangling zeroing' the method of the dangling-reference ledger",
+  "school": "知识体系挖掘工程学派 / '岗位互不信任而交付可信'的整合传统 / Phase 25 收官方法论 / 方法人格谱系第三代",
+  "historical_significance": "Phase25收尾整合（H-P25F-001）是 Protreptic 知识体系对自身生产过程的第三次自反性收编：当 Phase 25 以五条流水线并行把李泽厚、萨达特、伊本·赫勒敦、曼萨·穆萨、维果茨基等人物并入主库时，真正值得挖掘的'独特思维'不是任何单一位人物的方法，而是让互不共享上下文的岗位之间交付可信知识的那套制度。它的历史意义有三重。其一，把'信任'从善意降为机制：上下文隔离岗法禁止对话史过境，指纹交付法以哈希重算代替口头保证——信任不再依赖'上游很认真'，依赖'指纹验讫'。其二，把'合并'从冒险降为机械：纯增量过闸法保证既有条目字节级不变，接口恒定法使五批载荷同构、入库脚本一份跑五遍——合并事故的两大根源（顺手改动、接口漂移）被制度拆除。其三，把'学习'从感悟升为铸件：复检断言代偿法把每类缺陷形态转为永久断言，收官铸格法把有效方法铸成可引用对象入库——本卡即铸格法的第七次行使，十法自身必须通过它们所描述的标准",
+  "historical_significance_en": "The Phase 25 final integration (H-P25F-001) is Protreptic's third reflexive incorporation of its own production process: while five parallel pipelines merged Li Zehou, Sadat, Ibn Khaldun, Mansa Musa and Vygotsky into the main library, the 'unique thinking' truly worth mining was not any single figure's method but the institution that lets context-isolated posts deliver trustworthy knowledge to one another. Its historical significance is threefold. First, trust demoted from goodwill to mechanism: the context-isolated-posts method bars conversation history from crossing, fingerprinted delivery replaces verbal assurance with hash recomputation—trust no longer rests on 'the upstream was careful' but on 'the fingerprint verified'. Second, merging demoted from risk to mechanics: pure-increment gating keeps existing entries byte-immutable, the constant interface makes five payloads isomorphic so one ingestion script runs five times—the two great roots of merge accidents (fixes in passing, interface drift) dismantled institutionally. Third, learning elevated from insight to casting: assertion compensation converts each defect shape into a permanent assertion, and casting the retrospective into form turns proven methods into citable objects entered in the library—this card is that method's seventh exercise, and its ten methods must pass the very standards they describe",
+  "unique_thinking": "它的思维方式的底色是'把多岗位协作当作一条互不信任却必须交付可信知识的流水线，把每次过境交接当作一次信任的物理化'：十个标志动作构成闭环。其一，'上下文隔离岗'——犹豫与猜测死在自己的隔间，岗位之间只传验过的载荷与写清边界的报告；其二，'指纹交付'——上游声明字节、下游重算哈希，信任不写在措辞里写在哈希里；其三，'纯增量过闸'——新增走闸门、修复走另一扇门，既有条目在合并事务内字节级不可变；其四，'复检断言代偿'——人眼抓过的错转为永久断言替人值夜班，断言清单是组织学习曲线的物化；其五，'双镜同源'——镜像永不互相同步，只各自向同一个源对账；其六，'边界先勘'——定义错改一行、边界错拆一栋，勘界用分钟救火用星期；其七，'场景试车'——遮住模式名场景仍像在用它，才是真试车而非贴标签；其八，'接口恒定'——一期冻结、只增不改名，形状即文档；其九，'悬空记账'——分型而非清零，指向未来的连接要等、指向错误的连接要修；其十，'收官铸格'——复盘的产出是铸件，描述方法的作品必须通过它所描述的标准",
+  "unique_thinking_en": "Its cognitive ground: multi-post collaboration as a pipeline of mutually distrustful posts that must still deliver trustworthy knowledge, and every crossing handover as a physicalization of trust—ten signature moves in a closed loop. First, context-isolated posts: hesitation and guesses die in their own booth; between posts travel only verified payload and a report stating its own boundaries. Second, fingerprinted delivery: the upstream declares bytes, the downstream recomputes the hash—trust lives in hashes, not wording. Third, pure-increment gating: additions pass one gate, repairs another; existing entries byte-immutable within the merge transaction. Fourth, assertion compensation: errors once caught by human eyes become permanent assertions standing the night watch; the assertion list is the organization's learning curve made material. Fifth, twin mirrors one source: mirrors never sync with each other, each reconciling only with the source. Sixth, boundary survey first: a wrong definition costs a line, a wrong boundary costs the building—minutes of surveying against weeks of firefighting. Seventh, the scenario test-drive: cover the mode's name; if the scenario still reads as using the mode, it is a real test-drive, not a sticker. Eighth, the constant interface: frozen for the campaign, add-never-rename, shape as documentation. Ninth, the dangling-reference ledger: typed governance over zeroing—connections to the future wait, connections to errors get corrected. Tenth, casting the retrospective into form: the retrospective's output is a casting, and a work describing a method must pass the standard it describes",
+  "civilization_zh": "数字文明（知识库工程与多智能体协作传统），方法论谱系直承两代方法人格（H-P23F-001 的纯增量并库与验收先行、H-P24F-001 的跨文明互文与双语对生）与软件工程传统（管道-过滤器架构、内容寻址存储、供应链签名、CI 门禁），并为 Phase 25 五条研究-入库流水线（李泽厚、萨达特、伊本·赫勒敦、曼萨·穆萨、维果茨基）的并网提供制度容器",
+  "civilization_en": "Digital civilization (knowledge-base engineering and multi-agent collaboration traditions), its methodological lineage running from the two prior method-personas (H-P23F-001's pure-increment merging and acceptance-first, H-P24F-001's cross-civilization intertext and bilingual co-genesis) and from software-engineering practice (pipeline-filter architecture, content-addressed storage, supply-chain signatures, CI gates), while providing the institutional vessel for Phase 25's five research-to-ingestion pipelines (Li Zehou, Sadat, Ibn Khaldun, Mansa Musa, Vygotsky) to merge into one web",
+  "roles_zh": [
+    "Protreptic 主库 Phase 25 收尾整合工程的方法论化身（五条研究-入库流水线、方法人格谱系第三代的并网程序总纲）",
+    "H-P23F-001 与 H-P24F-001 方法人格谱系的第三代（十法验证与深化者）",
+    "上下文隔离与指纹交付制度的守护者（对话史不过境、哈希必重算双纪律）",
+    "复检断言代际增长机制的执行者（16→17 条的免疫记忆延续）",
+    "收官铸格制度化的实践者（方法论自我入库的第三次示范）"
+  ],
+  "roles_en": [
+    "The method-persona of Phase 25's closing integration of the Protreptic main library (five research-to-ingestion pipelines, the third generation of the method-persona lineage)",
+    "The third generation of the H-P23F-001/H-P24F-001 method-persona lineage (verifier and deepener of the ten methods)",
+    "Guardian of the context-isolation and fingerprint-delivery institutions (conversation history never crosses; hashes always recomputed)",
+    "Executor of the generational growth of the re-inspection assertion list (the immune memory continued, 16 to 17)",
+    "Practitioner of the institutionalised retrospective casting (the third demonstration of a methodology entering its own library)"
+  ],
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-P25F-001",
+    "M-P25F-002",
+    "M-P25F-003",
+    "M-P25F-004",
+    "M-P25F-005",
+    "M-P25F-006",
+    "M-P25F-007",
+    "M-P25F-008",
+    "M-P25F-009",
+    "M-P25F-010"
+  ],
+  "key_works": [
+    "Phase 25 五批交付链（五份 merge_payload 双 sha256 盖章：李泽厚 7354ac38/434dc8f4、萨达特 574494ad/acecbec3、伊本·赫勒敦 dd101604/4f05e53f、曼萨·穆萨 7ade0761/68089821、维果茨基 c834fcaf/abd334be）",
+    "HANDOFF.md 交接制度（研究卡→入库卡的'载荷+报告'双件交接：交付物清单、指纹、特殊说明）",
+    "H-P24F-001《Phase24收尾整合》（十法先例：本期在岗位切分语境下逐条验证与深化）",
+    "Phase 25 复检断言清单（qa_doc_lzh 16/16、qa_doc_sad 17/17、入库复检 qa_final_lzh 14/14——era 边界断言等新形态的代际演化）",
+    "本卡《Phase25收尾整合》（收官铸格法的行使：十模式提炼自五条流水线的真实脚本、HANDOFF 与断言，并通过它们所描述的标准）"
+  ],
+  "key_concepts": [
+    "上下文隔离岗 (Context-Isolated Posts)",
+    "指纹交付 (Fingerprinted Delivery)",
+    "纯增量过闸 (Pure-Increment Gating)",
+    "复检断言代偿 (Assertion Compensation)",
+    "双镜同源 (Twin Mirrors, One Source)",
+    "边界先勘 (Boundary Survey First)",
+    "场景试车 (The Scenario Test-Drive)",
+    "接口恒定 (The Constant Interface)",
+    "悬空记账 (The Dangling-Reference Ledger)",
+    "收官铸格 (Casting the Retrospective into Form)"
+  ],
+  "cross_references": [
+    "M-P25F-001（上下文隔离岗法——全部十法的岗位切分前提：不隔离则无过境、无过境则无指纹）",
+    "M-P25F-002（指纹交付法——信任的物理化：本期五批交付全部经其盖章）",
+    "M-P25F-004（复检断言代偿法——质量记忆的代际机制：断言清单 16→17 的演化即其运转实录）",
+    "M-P25F-010（收官铸格法——本卡的存在方式本身：十法铸件自反通过其所描述的标准）",
+    "M-P24F-003（并行岗卡法——直系先例：P25F 把'岗位间只传载荷与报告'从原则细化为制度）",
+    "M-P24F-008（语义全等快照法——指纹交付的上一代形态：哈希证形、逐字段证义的两步在 P25F 拆为分工）",
+    "M-P24F-005（悬空清零法——悬空记账法的直接前身：从'清零'到'分型记账'的代际演化）",
+    "M-HLG-001（华罗庚·统筹网络法——岗位切分与接口定义的调度学祖先）"
+  ],
+  "tags": [
+    "上下文隔离岗法",
+    "指纹交付法",
+    "纯增量过闸法",
+    "复检断言代偿法",
+    "双镜同源法",
+    "边界先勘法",
+    "场景试车法",
+    "接口恒定法",
+    "悬空记账法",
+    "收官铸格法"
+  ],
+  "modes": [
+    {
+      "id": "M-P25F-001",
+      "mode_code": "M-P25F-001",
+      "name_zh": "上下文隔离岗法",
+      "name_en": "The Method of Context-Isolated Posts",
+      "category": "协作组织方法论",
+      "domain_zh": "协作组织方法论/把每位工作者关进只看得见自己岗位的隔间——不共享对话史、不共享中间推理，岗位之间只传'载荷+报告'：隔离不是防人，是防上下文污染——一个岗的犹豫、猜测与半成品，若流入另一个岗，会被后者当作事实继承",
+      "domain_en": "Collaborative-organization methodology / sealing every worker inside a post that sees only its own station — no shared conversation history, no shared intermediate reasoning; between posts travel only 'payload + report': isolation is not against people but against context contamination — one post's hesitations, guesses and half-finished work, if leaked into another, are inherited there as fact",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "协作组织方法论/上下文隔离岗法的核心命题是：多智能体流水线的第一质量风险不是能力不足而是上下文串味——上游工作者在对话里写下的每一次犹豫（'可能''待定''也许可以'）、每一个未验证的猜测、每一段被压缩丢失的细节，一旦进入下游的上下文，就会被下游当作'已知事实'继承并放大。Phase 25 的五条流水线（李泽厚、萨达特、伊本·赫勒敦、曼萨·穆萨、维果茨基）给出的制度答案是：研究卡与入库卡分别由互不共享对话史的两个岗位承担，两者之间只传两样东西——结构化载荷（merge_payload，含 sha256 指纹）与一份交接报告（HANDOFF），报告中写清'特殊说明'（如旧式编号 M01 的兼容性）而不写推理过程。隔离的三条边界：一，岗位之间不传中间态——上游的草稿、试探、失败尝试全部留在自己工作区，只有通过自检的成品才过境；二，交接以文件为准不以对话为准——下游只读工作区里的文件与卡面评论，上游聊天记录对下游不可见；三，重试不累积污染——任务重派时新实例从卡面与文件重建上下文，而非继承上一轮的对话残骸。这条方法的失败机制是'好心传话'：为了让下游省事而把上游的整段推理贴进交接——省下的是下游的阅读时间，赔上的是整条流水线对'什么是已验证事实'的分辨力",
+      "definition_en": "Collaborative-organization methodology: the core proposition is that the first quality risk of a multi-agent pipeline is not insufficient capability but context cross-contamination — every hesitation ('possibly', 'TBD', 'perhaps') an upstream worker writes into its conversation, every unverified guess, every detail lost to compression, once it enters a downstream context, is inherited and amplified there as known fact. Phase 25's five pipelines (Li Zehou, Sadat, Ibn Khaldun, Mansa Musa, Vygotsky) give the institutional answer: the research card and the ingestion card are held by two posts that share no conversation history, and between them travel exactly two things — a structured payload (merge_payload, with sha256 fingerprint) and one handoff report (HANDOFF) that states the 'special notes' (such as legacy-code compatibility for M01-style ids) but never the reasoning process. Three boundaries of isolation: one, no intermediate states cross posts — upstream drafts, probes and failed attempts stay in their own workspace; only self-checked finished work crosses; two, handoff by file, not by conversation — the downstream reads only workspace files and card comments; the upstream's chat log is invisible to it; three, retries do not accumulate contamination — a re-dispatched task rebuilds context from card and files rather than inheriting the previous round's conversational debris. The failure mode is 'well-meant relaying': pasting the upstream's whole reasoning into the handoff to save the downstream reading time — saving minutes of reading, spending the whole pipeline's ability to tell what is verified fact",
+      "source_chapter": "Phase 25 流水线实践（boards 仓：研究卡 t_954a5264/t_f3dabc98/t_2a948786/t_296f9541/t_0e270be7 与入库卡 t_ec5ae562/t_e2c6897a/t_b576841d/t_0901fccc/t_52a8ce7b 之间的 HANDOFF.md 交接制度）；软件工程先例：管道-过滤器架构与十二要素应用的'无状态进程'原则",
+      "key_quote_zh": "岗位之间只传两样东西：验过的载荷，和写清边界的报告——犹豫和猜测，死在自己的隔间里。",
+      "key_quote_en": "Between posts travel only two things: verified payload, and a report that states its own boundaries—hesitation and guesses die inside their own booth.",
+      "key_concepts": [
+        [
+          "上下文污染 context contamination（上游的犹豫与猜测被下游当作事实继承——多岗协作的第一质量风险）",
+          "context contamination (an upstream's hesitations and guesses inherited downstream as fact — the first quality risk of multi-post work)"
+        ],
+        [
+          "载荷即边界 payload as boundary（岗位间只过'结构化载荷+交接报告'——对话史不构成接口）",
+          "payload as boundary (only 'structured payload + handoff report' crosses posts — conversation history is not an interface)"
+        ],
+        [
+          "无状态重试 stateless retry（重派任务从卡面与文件重建上下文——对话残骸不继承）",
+          "stateless retry (a re-dispatched task rebuilds context from card and files — conversational debris is not inherited)"
+        ],
+        [
+          "交接报告的双重义务 the handoff's dual duty（写给下游的说明书+写给审计的证据链——不含推理过程）",
+          "the handoff's dual duty (a manual for the downstream + an evidence chain for the audit — but never the reasoning itself)"
+        ]
+      ],
+      "process_zh": [
+        "切岗：把流水线切成'研究/入库/归档/审计'四类岗位，每岗一个独立工作区与独立上下文——先切岗再开工，不边干边协调",
+        "定接口：为每对相邻岗位定义唯一的交接物（载荷文件+交接报告）——接口里没有的字段，下游一律不假设",
+        "验过境：上游成品必须通过本岗自检（qa 脚本）才允许写入交接区——自检不过的中间态绝不过境",
+        "写报告：交接报告只写结论、指纹与特殊说明（sha256、字节量、兼容性注意），不写推理过程与犹豫",
+        "重试即重建：任务重派时，新实例从卡面、评论与文件重建全部上下文——禁止把上一轮对话当作出发点"
+      ],
+      "process_en": [
+        "Cut the posts: split the pipeline into research/ingestion/archive/audit stations, each with its own workspace and context—cut first, start second",
+        "Fix the interfaces: for each adjacent pair define the sole handoff (payload file + handoff report)—fields absent from the interface are never assumed downstream",
+        "Check before crossing: upstream work passes its own qa script before entering the handoff zone—intermediate states that fail never cross",
+        "Write the report: the handoff carries only conclusions, fingerprints and special notes (sha256, byte counts, compatibility warnings)—no reasoning, no hesitation",
+        "Retry means rebuild: on re-dispatch the new instance rebuilds all context from card, comments and files—never from the previous round's conversation"
+      ],
+      "representative_cases_zh": [
+        "李泽厚流水线（Phase 25）：研究卡 t_954a5264 在 HANDOFF.md 中写明交付物清单、sha256 指纹与'旧式编号 M01 属正常'的特殊说明——入库卡 t_ec5ae562 的 elcano 从文件重建全部上下文，未读研究卡的任何对话，入库复检 16/16 PASS",
+        "萨达特流水线（Phase 25）：研究卡只传 merge_payload（sha256 574494ad）与 figures 镜像，入库卡自行写 inspect_schema.py 重新核对字段——下游不信任上游的口述，只信任文件与指纹",
+        "对照失败模式：Phase 21 曾出现研究稿串题（李时珍研究产出王震内容，H-WZ-001 被隔离至 quarantine）——上下文污染不是假设，是发生过的事故；隔离岗法就是把这类事故从'下游继承'改为'上游自灭'"
+      ],
+      "representative_cases_en": [
+        "The Li Zehou pipeline (Phase 25): research card t_954a5264's HANDOFF.md lists deliverables, sha256 fingerprints and the special note 'legacy M01 id is normal'—the ingestion card's elcano rebuilt all context from files, never read the research conversation, and passed re-inspection 16/16",
+        "The Sadat pipeline (Phase 25): the research card transmits only merge_payload (sha256 574494ad) and the figures mirror; the ingestion card writes its own inspect_schema.py to re-verify fields—the downstream trusts files and fingerprints, not upstream narration",
+        "The failure case, for contrast: Phase 21 saw a research draft cross-contaminate (Li Shizhen research emitting Wang Zhen content, quarantined as H-WZ-001)—context contamination is not hypothetical but an accident that happened; isolated posts convert such accidents from 'inherited downstream' to 'dying upstream'"
+      ],
+      "modern_applications_zh": [
+        "跨时区团队交接：值夜班工程师的交接单只写'验证过的状态+未解决的票号'，不写'我觉得可能是'——接班人从系统状态而非猜测出发",
+        "外包与分包管理：给分包方的需求文件与验收标准即全部接口——内部会议纪要、老板的口头倾向一律不过境",
+        "AI 智能体编排：子智能体 prompt 只含任务所需的结构化背景（文件路径、约束、错误信息）——父会话的全部历史不是默认继承物"
+      ],
+      "modern_applications_en": [
+        "Cross-timezone handover: the night engineer's handover note carries only 'verified state + open ticket numbers', never 'I think it might be'—the successor starts from system state, not conjecture",
+        "Outsourcing management: the requirements file and acceptance criteria are the whole interface to a subcontractor—internal meeting minutes and the boss's verbal leanings never cross",
+        "AI agent orchestration: a sub-agent's prompt holds only the structured background the task needs (paths, constraints, errors)—the parent conversation's full history is not a default inheritance"
+      ],
+      "related_modes": [
+        "M-P25F-004",
+        "M-P25F-007",
+        "M-P24F-003",
+        "M-P23F-001"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "华罗庚（统筹网络法：把工序间关系显式化为网络——岗位切分与接口定义的调度学祖先）",
+        "大野耐一（看板制度：工序间只传看板不传猜测——丰田生产方式对'信息过境'的最早纪律化）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-002",
+      "mode_code": "M-P25F-002",
+      "name_zh": "指纹交付法",
+      "name_en": "The Method of Fingerprinted Delivery",
+      "category": "数据工程方法论",
+      "domain_zh": "数据工程方法论/每一份过境交付物都携带双向声明的指纹——上游声明'我交出的字节长这样'（sha256+字节数），下游验讫'我收到的字节与你声明的一致'：信任不建立在善意上，建立在哈希上——指纹不一致即拒收，无需解释、无需协商",
+      "domain_en": "Data-engineering methodology / every crossing deliverable carries a two-way declared fingerprint—the upstream declares 'the bytes I hand over look like this' (sha256 + byte count), the downstream verifies 'the bytes I received match your declaration': trust rests not on goodwill but on hashes; a mismatched fingerprint is grounds for rejection without explanation or negotiation",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "数据工程方法论/指纹交付法把'交付'从一次主观宣称变成一次可复核的客观断言。Phase 25 的每一批交付都遵循同一仪式：研究卡在 HANDOFF.md 里写下交付物的 sha256（如李泽厚载荷 7354ac38、264,370 字节；figure 镜像 434dc8f4），入库卡收到后第一步不是读内容而是重算哈希——哈希一致才继续，不一致即停。这个动作的价值有三层。第一层，防篡改与防截断：载荷在传输中被截断、转码或意外改写时，哈希立刻暴露——'看起来完整'不是完整，哈希一致才是完整。第二层，审计锚点：入库提交信息里回写上游指纹（'上游 t_954a5264 merge_payload sha256 7354ac38'），使任何一次合并都能在两年后追溯到'当时收到的确切字节'——审计不再是回忆，是重算。第三层，责任切分：指纹验讫之前的一切缺陷归上游，验讫之后的一切缺陷归下游——'我收到时它就是这样'由哈希作证，争议无需争辩。这条方法的失败机制是'指纹仪式化'：写了 sha256 却从不重算——指纹沦为装饰，信任退回善意。防法是把重算写进入库脚本的第一行，让'先验指纹后动数据'成为机械顺序而非自觉",
+      "definition_en": "Data-engineering methodology: fingerprinted delivery turns 'handing over' from a subjective claim into an objectively re-checkable assertion. Every Phase 25 delivery follows one ritual: the research card writes into HANDOFF.md the deliverables' sha256 (Li Zehou's payload 7354ac38, 264,370 bytes; its figure mirror 434dc8f4), and the ingestion card's first act is not to read the content but to recompute the hash—proceed only on match, stop on any mismatch. Three layers of value. First, against tampering and truncation: a payload clipped, transcoded or accidentally rewritten in transit is exposed at once—'looks complete' is not complete; matching hash is complete. Second, an audit anchor: the ingestion commit echoes the upstream fingerprint ('upstream t_954a5264 merge_payload sha256 7354ac38'), so any merge can be traced, years later, to the exact bytes received—auditing becomes recomputation, not recollection. Third, responsibility split: every defect before hash verification belongs upstream, every defect after belongs downstream—'it was like this when I received it' is sworn by the hash, and disputes need no argument. The failure mode is 'ritualized fingerprints': writing a sha256 without ever recomputing it—the fingerprint becomes ornament and trust falls back to goodwill. The guard: make recomputation the first line of the ingestion script, so 'verify the fingerprint before touching the data' is mechanical order, not self-discipline",
+      "source_chapter": "Phase 25 交付实践（HANDOFF.md 双 sha256 制度：李泽厚 7354ac38/434dc8f4、萨达特 574494ad/acecbec3、伊本·赫勒敦 dd101604/4f05e53f、曼萨·穆萨 7ade0761/68089821、维果茨基 c834fcaf/abd334be）；软件工程先例：内容寻址存储与供应链签名（SLSA）",
+      "key_quote_zh": "信任不写在交接单的措辞里，写在哈希的重算里——字节不会说谎，措辞会。",
+      "key_quote_en": "Trust lives not in the wording of a handover but in the recomputation of a hash—bytes do not lie; wording does.",
+      "key_concepts": [
+        [
+          "双向声明 two-way declaration（上游声明交出什么、下游验讫收到什么——一次交付两份证词）",
+          "two-way declaration (upstream declares what it hands over, downstream verifies what it received—one delivery, two testimonies)"
+        ],
+        [
+          "审计锚点 audit anchor（下游提交回写上游指纹——任何合并可在两年后重算追溯）",
+          "audit anchor (the downstream commit echoes the upstream fingerprint—any merge re-traceable years later)"
+        ],
+        [
+          "责任切分线 the responsibility line（指纹验讫前缺陷归上游、验讫后归下游——争议由哈希裁决）",
+          "the responsibility line (defects before hash verification are upstream's, after are downstream's—the hash adjudicates disputes)"
+        ],
+        [
+          "仪式化警报 ritualization alarm（写了指纹却从不重算=指纹沦为装饰——重算必须是脚本第一行）",
+          "ritualization alarm (a fingerprint written but never recomputed is ornament—recomputation must be the script's first line)"
+        ]
+      ],
+      "process_zh": [
+        "上游盖章：交付前计算每个交付物的 sha256 与字节数，连同路径写入交接报告——声明以字节为单位",
+        "下游验讫：入库脚本第一行动作即重算哈希——不一致即停，不读内容、不修补、不'大概没问题'",
+        "回写锚点：入库提交信息回写上游指纹与上游卡号——审计链从此可在任何时间点重放",
+        "双镜像同验：载荷与 figure 镜像分别验指纹——两份交付物不共享信任，各自取证",
+        "留存原始：验讫后的原始交付物按日期备份（backup_merge_<figure>_<ts>）——后续一切操作在副本上进行，原件不可再改"
+      ],
+      "process_en": [
+        "Stamp upstream: before delivery compute sha256 and byte count of every deliverable and write them with paths into the handoff report—declaration in bytes",
+        "Verify downstream: the ingestion script's first act recomputes the hash—on mismatch stop; no reading, no patching, no 'probably fine'",
+        "Echo the anchor: the ingestion commit echoes the upstream fingerprint and card id—the audit chain replayable at any future point",
+        "Verify both mirrors: payload and figure mirror carry separate fingerprints—two deliverables share no trust, each proves itself",
+        "Preserve the original: after verification back up the raw delivery (backup_merge_<figure>_<ts>)—all later work on copies; the original never changes again"
+      ],
+      "representative_cases_zh": [
+        "李泽厚交付（Phase 25）：HANDOFF.md 声明 merge_payload 7354ac38（264,370 字节）与 figures 镜像 434dc8f4（109,807 字节）；入库卡验讫后提交 b8cae2a 回写双指纹——qa_doc_lzh 复检时双镜像 sha256 仍为 434dc8f4，全程可重算",
+        "五流水线同构（Phase 25）：萨达特 574494ad/acecbec3、伊本·赫勒敦 dd101604/4f05e53f、曼萨·穆萨 7ade0761/68089821、维果茨基 c834fcaf/abd334be——五批交付共用同一仪式，指纹在提交信息里排成可审计的表",
+        "对照失败模式：Phase 21 曾有提交信息写'sha256 pending'（梁启超入库）——指纹未验先入库，等于让审计链缺了一环；P25F 把'重算先于一切'固化为脚本顺序，就是给这一环上锁"
+      ],
+      "representative_cases_en": [
+        "The Li Zehou delivery (Phase 25): HANDOFF.md declares merge_payload 7354ac38 (264,370 bytes) and figures mirror 434dc8f4 (109,807 bytes); after verification commit b8cae2a echoes both—the later qa_doc_lzh re-inspection still finds 434dc8f4 for both mirrors, recomputable end to end",
+        "Five pipelines, one ritual (Phase 25): Sadat 574494ad/acecbec3, Ibn Khaldun dd101604/4f05e53f, Mansa Musa 7ade0761/68089821, Vygotsky c834fcaf/abd334be—five deliveries share the rite, their fingerprints forming an auditable column in the commit log",
+        "The failure case, for contrast: Phase 21 recorded a commit with 'sha256 pending' (the Liang Qichao ingestion)—entering the library before verifying the fingerprint leaves a gap in the audit chain; P25F hardens 'recompute before everything' into script order to lock that link"
+      ],
+      "modern_applications_zh": [
+        "软件发布管理：发布物与校验和同渠道发布、部署前强制重算——'从官网下载的包'与'哈希一致的包'是两种信任等级",
+        "数据管道交接：数仓团队向分析团队交付数据集附 schema+行数+校验和——分析端脚本先验三件套再跑查询",
+        "法务与档案：合同扫描件交付时附逐页哈希清单——多年后任何一页是否被替换，重算即知"
+      ],
+      "modern_applications_en": [
+        "Release management: ship artifacts and checksums through the same channel and force recomputation before deploy—'downloaded from the site' and 'hash-verified' are two grades of trust",
+        "Data pipeline handover: a data-warehouse team delivers datasets with schema + row count + checksum—analysis scripts verify the triple before any query runs",
+        "Legal archiving: scanned contracts delivered with a per-page hash list—whether any page was swapped years later is settled by recomputation"
+      ],
+      "related_modes": [
+        "M-P25F-001",
+        "M-P25F-005",
+        "M-P25F-008",
+        "M-P24F-008"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "竺可桢（账本自治法：气象记录逐日对账、一字不改——以不可变记录支撑长期科学的哈希精神先声）",
+        "中本聪（哈希链：每个区块封存前块指纹——指纹交付法在分布式账本上的极端形态）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-003",
+      "mode_code": "M-P25F-003",
+      "name_zh": "纯增量过闸法",
+      "name_en": "The Method of Pure-Increment Gating",
+      "category": "数据治理方法论",
+      "domain_zh": "数据治理方法论/合并操作被定义为'只增不改'的过闸行为——新条目过闸入网，既有条目在合并事务内字节级不可变；一切'顺手修正'既有条目的诱惑都被推迟为独立变更单，与增量合并分开提交、分开审计",
+      "domain_en": "Data-governance methodology / a merge is defined as a gating act that 'only adds, never alters'—new entries pass the gate into the web while existing entries stay byte-level immutable within the merge transaction; every temptation to 'fix something in passing' is deferred into a separate change ticket, committed and audited apart from the increment",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "数据治理方法论/纯增量过闸法的核心命题是：合并事故的根源几乎从来不是'新增错了'，而是'顺手改了'——在并入新数据的同一事务里，操作者看到既有条目的瑕疵，忍不住一并修掉，于是增量与修复合成一个 diff，事后无法区分'这行是新来的'还是'这行是被改的'。Phase 25 的五批入库全部执行同一闸规：合并 diff 中既有条目的字节零改动——李泽厚 10 模式入网（1542→1552）时，既有 1542 条模式在 diff 中一行不出现；入库后复检脚本不仅验新增，还验'既有条目未被触碰'（SAD 数据零改动断言）。'顺手修正'的去处是变更单：发现既有瑕疵时，在卡片评论里记一笔（hotspot 标记或独立 QA 卡），留给专门的清理事务——它与增量合并分开提交，diff 里能一眼分清哪行是过闸新增、哪行是定向修复。这条方法的价值在事故重建：当合并后某处异常，'纯增量'保证异常必来自新增数据或既有数据，二者责任边界与 diff 一样干净——混合 diff 则让每次事故都变成悬案。失败机制是'洁癖式合并'：把'不改既有条目'教条化为拒绝一切修复——正确的做法不是不修，是把修复从合并事务中拿出来单独走闸",
+      "definition_en": "Data-governance methodology: the core proposition is that merge accidents almost never come from 'wrong additions' but from 'fixes in passing'—inside the same transaction as the incoming data, the operator spots a flaw in an existing entry and cannot resist fixing it, so increment and repair fuse into one diff where no one can later tell which lines are new and which are rewritten. All five Phase 25 ingestions kept one gate rule: zero byte-level change to existing entries in the merge diff—when Li Zehou's ten modes entered (1542→1552), the existing 1,542 modes appear in the diff not once; the post-merge re-inspection asserts not only the additions but also 'existing entries untouched' (the SAD data zero-change assertion). Fixes in passing go to change tickets: on finding a flaw in an existing entry, note it in a card comment (a hotspot flag or a standalone QA card) for a dedicated cleanup transaction—committed apart from the increment, its diff showing at a glance which lines are gate-passing additions and which are targeted repairs. The value surfaces in accident reconstruction: after a pure-increment merge, any anomaly must come from the new data or the old data, and the diff keeps that boundary as clean as the rule itself—a mixed diff turns every accident into a cold case. The failure mode is 'purist merging': dogmatically refusing all repair in the name of non-alteration—the right reading is not 'never fix' but 'fix outside the merge transaction, through its own gate'",
+      "source_chapter": "Phase 25 入库实践（'纯增量并入主库'闸规：李泽厚 1542→1552、萨达特 1522→1532、伊本·赫勒敦与萨达特同数、曼萨·穆萨 1512→1522、维果茨基 1502→1512——每批提交信息中既有条目零改动）；H-P23F-001 纯增量并库法为本法直系先例",
+      "key_quote_zh": "合并的纪律不是'别改错'，而是'别顺手改'——新增走闸门，修复走另一扇门，两扇门各自留痕。",
+      "key_quote_en": "Merge discipline is not 'never change wrongly' but 'never change in passing'—additions pass one gate, repairs another, and each gate keeps its own record.",
+      "key_concepts": [
+        [
+          "零改动断言 the zero-change assertion（复检脚本显式验证既有条目字节不变——'没改'也是被验证的对象）",
+          "the zero-change assertion (the re-inspection explicitly verifies existing entries byte-identical—'unchanged' is itself a verified property)"
+        ],
+        [
+          "修复分流 repair shunting（既有瑕疵记为变更单/hotspot，与增量分开提交——diff 责任边界保持干净）",
+          "repair shunting (existing flaws become change tickets or hotspots, committed apart from increments—the diff's responsibility boundary stays clean)"
+        ],
+        [
+          "事故可二分 accident dichotomy（纯增量合并后异常必来自新数据或旧数据——混合 diff 让事故变悬案）",
+          "accident dichotomy (after a pure-increment merge any anomaly is from new or old data—a mixed diff makes every accident a cold case)"
+        ],
+        [
+          "洁癖警报 purist alarm（把'不改'教条化为拒绝修复——修复该走独立闸门而非被禁止）",
+          "purist alarm (dogmatically reading 'no alteration' as 'no repair ever'—repairs belong through their own gate, not under a ban)"
+        ]
+      ],
+      "process_zh": [
+        "前置对账：合并前记录既有库的指纹快照（条目数、关键家族哈希）——'合并前世界'须可复核",
+        "闸门合并：合并操作只允许新增（append 新模式/场景/标签/figure）——既有键值的任何写操作在合并脚本中被拒绝",
+        "diff 审读：提交前审读 diff，确认既有条目零出现——出现任何既有行的改写即打回重做",
+        "双向复检：入库后跑两向断言——新增条目全部在库且合法；既有条目指纹与合并前快照一致",
+        "瑕疵分流：发现的既有瑕疵写入 hotspot 评论或独立修复卡——绝不在下一个增量合并里'顺手带走'"
+      ],
+      "process_en": [
+        "Reconcile first: before merging snapshot the existing library's fingerprints (entry counts, per-family hashes)—the 'pre-merge world' must be re-checkable",
+        "Gate the merge: the merge script admits only additions (new modes/scenarios/tags/figures)—any write to existing keys is rejected in-script",
+        "Read the diff: before commit read the diff and confirm existing entries appear zero times—any rewritten line of an existing entry sends the whole batch back",
+        "Assert both ways: post-merge run two directions—every new entry present and legal; every existing entry's fingerprint equal to the pre-merge snapshot",
+        "Shunt the flaws: flaws found in existing entries go to hotspot comments or standalone repair cards—never 'carried along' inside the next incremental merge"
+      ],
+      "representative_cases_zh": [
+        "李泽厚入库（Phase 25，t_ec5ae562）：合并 diff 中既有 1542 模式零改动；qa_final_lzh 14/14 PASS 含'SAD 数据零改动'断言——新增合法性与既有不变性同事务双验",
+        "维果茨基入库（Phase 25，t_52a8ce7b）：1502→1512 纯增量，figure 镜像 c834fcaf 载荷入库后与 boards 仓双向一致——既有 1502 条在 diff 中一行不出现",
+        "对照失败模式：Phase 21 王充补合并（95f91b56）时因上游 figure_code 误填'东汉'而被迫'重做模式+修 figure_code+补场景'多事合一——当增量与修复无法分离时，diff 审读与事故归因都失去支点；纯增量闸规就是把这种多事一合从制度上拆开"
+      ],
+      "representative_cases_en": [
+        "The Li Zehou ingestion (Phase 25, t_ec5ae562): zero changes to the existing 1,542 modes in the diff; qa_final_lzh 14/14 PASS including the 'SAD data zero-change' assertion—new-entry legality and old-entry immutability verified in one transaction, both ways",
+        "The Vygotsky ingestion (Phase 25, t_52a8ce7b): a pure 1502→1512 increment, figure mirror c834fcaf identical both ways with the boards repo after entry—the existing 1,502 entries appear in the diff not once",
+        "The failure case, for contrast: Phase 21's Wang Chong back-merge (95f91b56) was forced to combine 'redo modes + fix a mis-filled figure_code + backfill scenarios' in one pass when upstream contamination made separation impossible—once increment and repair cannot be split, diff reading and accident attribution both lose their footing; the pure-increment gate rule is the institutional un-splitting of exactly that"
+      ],
+      "modern_applications_zh": [
+        "数据库迁移：迁移脚本只增表/列不改动既有列语义——需要改语义时另开变更单并单独评审",
+        "配置管理：新增功能开关与既有开关值的调整分开提交——回滚增量时不会连既有配置一起回滚",
+        "内容平台运营：新词条收录与既有词条修订分流——收录 diff 里出现老词条改动即被版本流程拦截"
+      ],
+      "modern_applications_en": [
+        "Database migration: the migration script adds tables/columns but never alters existing column semantics—semantic changes open their own ticket with separate review",
+        "Configuration management: new feature flags commit apart from adjustments to existing flag values—rolling back an increment never rolls back standing config with it",
+        "Content-platform operations: new-entry admission and existing-entry revision run on separate tracks—an admission diff showing edits to old entries is blocked by version process"
+      ],
+      "related_modes": [
+        "M-P25F-002",
+        "M-P25F-004",
+        "M-P23F-001",
+        "M-P25F-008"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "司马光（考异存真法：修书时异文并存不改旧文、另作考异——'不改既有+另附考订'的史学先声）",
+        "顾颉刚（层累造史法：辨析层层累积的文本而不抹平层次——对'既有层'保持可分辨的敬畏）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-004",
+      "mode_code": "M-P25F-004",
+      "name_zh": "复检断言代偿法",
+      "name_en": "The Method of Assertion Compensation",
+      "category": "质量方法论",
+      "domain_zh": "质量方法论/每暴露一种缺陷形态，就把它转化为一条永久断言写进复检脚本——本轮靠人眼发现的错误，下轮起由脚本代偿：人从'重复抓同一类错'中解放，去抓脚本还不会抓的错；断言清单因此成为组织学习曲线的物化",
+      "domain_en": "Quality methodology / every defect shape exposed is converted into a permanent assertion in the re-inspection script—an error caught by human eyes this round is compensated by script from the next round on: people are freed from re-catching the same class of error to catch what scripts cannot yet catch; the assertion list is thus the organization's learning curve made material",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "质量方法论/复检断言代偿法回答一个问题：复检脚本为什么要一批比一批长？因为脚本不是规范，是病历。Phase 25 五条流水线的复检断言各有侧重：李泽厚 16 条（含 figure 镜像 sha256 一致、scenario_tags 80 条覆盖、xref 8 条在库）、萨达特 17 条（新增 era 边界 1918-1981 断言）——每一条断言背后都是一次真实发生过（或差点发生）的缺陷形态。制度的循环是：人眼发现缺陷→在复检脚本里为其写一条永久断言→下轮起该形态由脚本自动把关→人眼腾出去发现新形态。断言代偿与'事后修 bug'的区别在可累积性：修 bug 修复的是这一个实例，写断言免疫的是这一类形态——Phase 21 的断言清单从 13/13 长到 50/50，就是三十多次'形态转断言'的复利。这条方法的失败机制有两种：一是'断言肿胀'——把断言写得过细过脆，环境微变即误报，团队开始习惯性忽略告警；二是'断言冻结'——脚本不再增长，缺陷形态的发现永远停留在人眼。防法是每轮复盘时问两个问题：这轮的断言有没有误报过（过脆则放宽）？这轮的人眼抓到了什么脚本没抓到的（有则补写）",
+      "definition_en": "Quality methodology: assertion compensation answers why the re-inspection script must grow batch over batch—because the script is not a spec but a case record. The five Phase 25 pipelines' re-inspections each carry their own emphasis: Li Zehou's 16 assertions (figure-mirror sha256 identity, 80 scenario_tags coverage, 8 in-library xrefs), Sadat's 17 (adding the era-boundary assertion 1918-1981)—behind every assertion stands a defect shape that really occurred, or nearly did. The institutional loop: human eyes find a defect → write one permanent assertion for its shape into the re-inspection script → from the next round the script gates that shape automatically → human eyes are freed to find new shapes. Assertion compensation differs from fixing bugs after the fact in accumulability: a bug fix repairs one instance; an assertion immunizes a whole class of shape—Phase 21's assertion list growing from 13/13 to 50/50 is the compound interest of thirty-odd such conversions. Two failure modes. 'Assertion bloat': assertions written so fine and brittle that minor environmental shifts trigger false alarms, and the team learns to ignore alerts. 'Assertion freeze': the script stops growing, and shape-discovery stays with human eyes forever. The guard: at each round's retrospective ask two questions—did any assertion false-alarm this round (if too brittle, loosen it), and what did human eyes catch that the script could not (if anything, write it in)",
+      "source_chapter": "Phase 25 复检实践（qa_doc_lzh 16/16、qa_doc_sad 17/17、入库复检 qa_final_lzh 14/14——断言清单逐卡演化）；H-P24F-001 漂移记账/收官复盘为直系先例（断言代际 13/13→50/50 的谱系记录）；免疫学隐喻：适应性免疫的记忆细胞机制",
+      "key_quote_zh": "复检脚本不是规范，是病历——每一行断言，都是一次人眼抓过的错在替你值夜班。",
+      "key_quote_en": "The re-inspection script is not a spec but a case record—every line of assertion is an error once caught by human eyes, now standing the night watch for you.",
+      "key_concepts": [
+        [
+          "形态转断言 shape-to-assertion（缺陷按'形态'而非'实例'入档——修复一个、免疫一类）",
+          "shape-to-assertion (defects filed by shape, not instance—repair one, immunize a class)"
+        ],
+        [
+          "人脚本分工边界 the human/script division（脚本管已知形态，人眼管未知形态——学习在边界处发生）",
+          "the human/script division (scripts gate known shapes, human eyes hunt unknown ones—learning happens at the boundary)"
+        ],
+        [
+          "断言谱系 assertion lineage（断言清单逐代增长且代际可考——组织学习曲线的物化）",
+          "assertion lineage (the assertion list grows generation by generation, traceably—the organization's learning curve made material)"
+        ],
+        [
+          "肿胀与冻结警报 bloat-and-freeze alarm（过脆则放宽、停长则补写——复盘双问句维持断言清单健康）",
+          "the bloat-and-freeze alarm (loosen what false-alarms, write in what eyes caught—the retrospective's twin questions keep the list healthy)"
+        ]
+      ],
+      "process_zh": [
+        "缺陷捕获：每轮流程中用脚本+人眼双轨把关——明确记录哪些缺陷由人眼（而非脚本）首先发现",
+        "形态提炼：把缺陷从'这一处的错'抽象为'这类形态'（如'镜像不同步''标签悬空''era 越界'）——形态才是可免疫的单位",
+        "断言固化：在下一轮复检脚本中为该形态写永久断言，并注明来源（哪张卡、哪次事故）——断言可溯源",
+        "代际记账：断言清单版本化——本轮比上轮多/改/废了哪些断言，复盘时逐条过堂",
+        "边界巡检：每轮问双问句——断言误报过吗（放宽）？人眼抓到脚本没抓到的吗（补写）？保持清单既不肿胀也不冻结"
+      ],
+      "process_en": [
+        "Catch defects: every round runs script and human eyes in parallel—record explicitly which defects human eyes found first",
+        "Distil the shape: abstract the defect from 'this instance' to 'this shape' (mirror desync, dangling tag, era out of bounds)—the shape is the immunizable unit",
+        "Solidify: write one permanent assertion for the shape into the next round's re-inspection, annotated with its source (which card, which incident)—assertions are traceable",
+        "Keep the generational ledger: version the assertion list—which assertions were added, changed, retired this round, reviewed one by one at the retrospective",
+        "Patrol the boundary: each round ask the twin questions—did any assertion false-alarm (loosen it)? did eyes catch what the script missed (write it in)? Keep the list neither bloated nor frozen"
+      ],
+      "representative_cases_zh": [
+        "萨达特复检（Phase 25，t_f3dabc98）：qa_doc_sad 17/17 比李泽厚多一条——era 边界断言（1918-1981）被写为永久断言；此类'生平边界'形态源自 Phase 21 figure_code 误填'东汉'的事故，形态跨期免疫",
+        "李泽厚复检（Phase 25，t_954a5264）：16 条断言中'双镜像 sha256 一致''C-LZH zh/en 10 对逐对配对 text 非空'均为既往形态转断言——本批无一人眼重复劳动",
+        "对照失败模式：同一类'悬空引用'缺陷在 Phase 21 多张卡上被不同的人眼重复发现（沈括卡修 7 处悬空、韩非卡修 1 处）——直到悬空清零被写成统一断言前，每张新卡都在重新踩同一个坑；这正是'不写断言代偿'的代价实录"
+      ],
+      "representative_cases_en": [
+        "The Sadat re-inspection (Phase 25, t_f3dabc98): qa_doc_sad 17/17, one more than Li Zehou's—the era-boundary assertion (1918-1981) written permanent; such 'biographical-boundary' shapes descend from Phase 21's figure_code mis-filled-as-'Eastern-Han' incident, a shape immunized across campaigns",
+        "The Li Zehou re-inspection (Phase 25, t_954a5264): of its 16 assertions, 'both mirrors sha256-identical' and 'C-LZH zh/en ten pairs matched, text non-empty' are shapes converted earlier—zero repeated human labour this batch",
+        "The failure case, for contrast: the same 'dangling reference' shape was re-caught by different human eyes across Phase 21 cards (seven fixes on the Shen Kuo card, one on the Han Fei card)—until dangling-zeroing became a unified assertion, every new card re-stepped in the same pit; that is the recorded price of skipping assertion compensation"
+      ],
+      "modern_applications_zh": [
+        "客服质检：每受理一类新投诉话术漏洞，就在质检清单加一条永久检查项——质检清单长度即客服体系的病历厚度",
+        "代码评审：评审中人工抓到的错误形态沉淀为 linter 规则——评审人力从抓低级错转向架构问题",
+        "个人错题本：每道错题归类为'形态'（如'审题漏条件'）而非孤立错题——复习时按形态练，不按题练"
+      ],
+      "modern_applications_en": [
+        "Support QA: every newly caught script flaw adds one permanent checklist item—the checklist's length is the thickness of the support system's case record",
+        "Code review: error shapes caught by human reviewers settle into linter rules—reviewer attention shifts from low-level errors to architecture",
+        "A personal mistake book: classify each error as a 'shape' ('missed a condition while reading') rather than an isolated instance—revise by shape, not by problem"
+      ],
+      "related_modes": [
+        "M-P25F-005",
+        "M-P25F-010",
+        "M-P24F-004",
+        "M-P24F-009"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "威廉·哈维（实验可重复法：把一次观察固化为任何人可重做的实验——'断言可复现'的医学先声）",
+        "竺可桢（账本自治法：五十年气象断代不靠记忆靠账本——个人断言清单的最长连续记录）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-005",
+      "mode_code": "M-P25F-005",
+      "name_zh": "双镜同源法",
+      "name_en": "The Method of Twin Mirrors, One Source",
+      "category": "数据架构方法论",
+      "domain_zh": "数据架构方法论/同一份数据需要在两处出现时（如 data/ 与 docs/ 的 figure 档案），不采用'复制两份各自维护'，而采用'单一源生成+双镜像落盘+指纹对账'——两份镜像永远不相互同步，只各自与源对账；同步两份副本是无限循环，对账一个源是有限操作",
+      "domain_en": "Data-architecture methodology / when one dataset must appear in two places (figure archives under both data/ and docs/), never 'copy twice and maintain each'; instead 'generate from a single source + write both mirrors + reconcile by fingerprint': the two mirrors never sync with each other—each reconciles only with the source; syncing two copies is an endless loop, reconciling one source a finite act",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "数据架构方法论/双镜同源法解决'一份数据两处存'的经典困境。朴素做法是复制两份各自维护，此后每次修改都要记得改另一份——忘记一次就永久分叉，而分叉是无声的：两份文件各自合法、各自能打开，只有对照才知道不一致。Phase 25 的制度是三步：一，单一源——figure 数据只在生成脚本（如 build_lizehou.py）中定义一次；二，双镜像落盘——脚本把同一份数据写入 data/figures/ 与 docs/ 两处，两镜像由同一次写入产生，天然同源；三，指纹对账——复检脚本计算两镜像的 sha256（如李泽厚双镜像 434dc8f4 逐字节一致），并把'镜像一致'写为永久断言。关键设计是镜像之间禁止同步：若发现两镜像不一致，不修'较新的那个'去追'较旧的那个'，而是回到单一源重新生成两份——因为镜像之间的任何同步都是在源之外制造第三个事实版本。这条方法把'两处一致'从一种纪律（每次都记得同步）降为一种物理（同一次写入+哈希对账）。失败机制是'手工热修'：发现小错时直接在某一镜像上手改——源与镜像从此三方分叉，哈希对账永久失效",
+      "definition_en": "Data-architecture methodology: twin mirrors, one source solves the classic plight of 'one dataset, two homes'. The naive way copies twice and maintains each; every later edit must remember the other copy, and one forgotten edit forks them forever—silently, since both files open fine and only comparison reveals the drift. Phase 25's institution has three steps. One, single source: figure data is defined exactly once, in the generator script (build_lizehou.py). Two, twin mirrors written: the same data is written to both data/figures/ and docs/ in one act, the mirrors born co-source. Three, fingerprint reconciliation: the re-inspection computes both mirrors' sha256 (Li Zehou's twin mirrors 434dc8f4, byte-identical) and holds 'mirror identity' as a permanent assertion. The crucial design bans mirror-to-mirror sync: on finding the mirrors differ, do not patch the newer to chase the older—return to the single source and regenerate both, because any mirror-to-mirror sync manufactures a third version of truth outside the source. The method demotes 'two copies in agreement' from a discipline (remember to sync, every time) to a physics (one write + hash reconciliation). The failure mode is the 'manual hot-fix': patching one mirror by hand for a small error—the source and two mirrors then fork three ways, and hash reconciliation dies permanently",
+      "source_chapter": "Phase 25 双镜像制度（李泽厚 figures 双镜像 sha256 434dc8f4 逐字节一致、data/ 与 docs/ 逐字节一致；萨达特 be43f864、伊本·赫勒敦 4f05e53f 等同制）；软件工程先例：单一事实源（SSOT）与构建产物不可变原则",
+      "key_quote_zh": "两份镜像永不互相同步——它们只各自向同一个源对账；镜像间的同步，是在源之外偷偷立法。",
+      "key_quote_en": "Two mirrors never sync with each other—each reconciles only with its source; a sync between mirrors is secret legislation outside the source.",
+      "key_concepts": [
+        [
+          "单一事实源 single source of truth（数据只定义一次——生成脚本即立法机构）",
+          "single source of truth (data defined exactly once—the generator script as legislature)"
+        ],
+        [
+          "同刻落盘 co-instant writing（两镜像由同一次写入产生——一致性靠出生而非靠同步）",
+          "co-instant writing (both mirrors born of one write—consistency by birth, not by syncing)"
+        ],
+        [
+          "镜像禁同步 the mirror-sync ban（镜像不一致时回源重新生成——镜像间打补丁即制造第三版本）",
+          "the mirror-sync ban (on divergence regenerate from source—patching between mirrors manufactures a third version)"
+        ],
+        [
+          "手工热修警报 hot-fix alarm（在任一镜像上手改=源与镜像三方分叉——对账永久失效）",
+          "the hot-fix alarm (hand-editing any mirror forks source and mirrors three ways—reconciliation dies permanently)"
+        ]
+      ],
+      "process_zh": [
+        "定源：确认每类数据只有一个定义处（生成脚本/主库）——出现第二个定义处即为架构缺陷，先并源再开工",
+        "一次生成：交付物由脚本一次性写入全部镜像位置——禁止'先写一份，回头复制'",
+        "指纹对账：复检脚本对各镜像分别计算 sha256 并断言一致——对账在'镜像 vs 源'与'镜像 vs 镜像'两个方向同时进行",
+        "回源修复：发现任何不一致，回到生成脚本修正后重新生成全部镜像——绝不直接修改任何一份镜像",
+        "备份留痕：重新生成前备份旧镜像——镜像的演化史可回放，'当前一致'有据可查"
+      ],
+      "process_en": [
+        "Fix the source: confirm each dataset has exactly one defining place (generator script/master library)—a second definition is an architecture defect; merge sources before work begins",
+        "Generate once: the script writes all mirror locations in one act—never 'write one, copy later'",
+        "Reconcile by fingerprint: the re-inspection hashes each mirror separately and asserts identity—reconciliation runs both directions, mirror-vs-source and mirror-vs-mirror",
+        "Repair at the source: on any divergence fix the generator and regenerate all mirrors—never edit a mirror directly",
+        "Keep the trail: back up old mirrors before regeneration—the mirrors' history is replayable, and 'currently consistent' has evidence"
+      ],
+      "representative_cases_zh": [
+        "李泽厚双镜像（Phase 25）：figures/H-LZH-001.json 落盘 data/ 与 docs/ 两处，入库复检断言双镜像 sha256 434dc8f4 逐字节一致、与上游原件字节全等——三向对账（源、库、文档）一次通过",
+        "figure 镜像与主库对账（Phase 25）：复检不仅验两份文件互同，还验 figure 内嵌 modes 与主库 modes_data 逐字段 0 mismatch——镜像制度的完整形态是'所有副本向一个逻辑源对账'",
+        "对照失败模式：workspace 主库中存在大量 .bak 文件（如 H-ZZ-001.json.bak_zz_*）与分叉副本——历史手工修改留下多个'曾经的事实'版本；双镜同源法用'备份+回源重生成'替代'就地手改'，让每个版本都有出处"
+      ],
+      "representative_cases_en": [
+        "The Li Zehou twin mirrors (Phase 25): figures/H-LZH-001.json written to both data/ and docs/, the re-inspection asserting both mirrors sha256 434dc8f4 byte-identical and byte-equal to the upstream original—a three-way reconciliation (source, library, docs) passing in one pass",
+        "Figure mirror vs master library (Phase 25): the re-inspection goes beyond file-to-file identity, verifying the figure's embedded modes against modes_data field by field, 0 mismatch—the full form of the mirror system is 'all copies reconcile to one logical source'",
+        "The failure case, for contrast: the workspace library holds many .bak files (H-ZZ-001.json.bak_zz_*) and forked copies—historical hand-edits left multiple 'once-true' versions; twin mirrors, one source replaces in-place patching with 'back up + regenerate from source', giving every version a provenance"
+      ],
+      "modern_applications_zh": [
+        "设计系统：设计令牌只在一个 tokens 文件定义，Web/App/文档三端由构建生成——三端不一致时回 tokens 修，不互抄",
+        "多环境部署：各环境配置由同一模板+环境变量渲染生成——环境差异是参数不是手工分叉",
+        "团队文档：对外介绍页与内部 wiki 的公司简介由同一份源文档生成——两处文案不同时改源文档，不互相粘贴"
+      ],
+      "modern_applications_en": [
+        "Design systems: design tokens defined once in a tokens file, Web/App/docs all generated from the build—on divergence fix the tokens, never copy between ends",
+        "Multi-environment deployment: every environment's config rendered from one template plus environment variables—environment differences are parameters, not manual forks",
+        "Team documentation: the company blurb on the public site and the internal wiki generated from one source document—when wording differs, edit the source, never paste between the two"
+      ],
+      "related_modes": [
+        "M-P25F-002",
+        "M-P25F-003",
+        "M-P24F-008"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "司马光（《资治通鉴》考异制度：正文与考异同源而成、互为镜证——'双本对账'的史学形态）",
+        "老聃（'一生二'：万象同源于一道——双镜同源的宇宙论隐喻，二不生三，三生自一）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-006",
+      "mode_code": "M-P25F-006",
+      "name_zh": "边界先勘法",
+      "name_en": "The Method of Surveying Boundaries First",
+      "category": "知识生产方法论",
+      "domain_zh": "知识生产方法论/动笔定义一个对象之前，先勘定它的全部边界值——存续年代、编号空间、字段取值域、与邻接对象的分界线：定义错在肚子里尚可改，边界错在骨架里则整批数据带病入网；勘界成本以分钟计，边界事故以周计",
+      "domain_en": "Knowledge-production methodology / before writing a single definition, survey every boundary of the object—dates of existence, id-number space, field value domains, the dividing line with neighbouring objects: a definition wrong in the flesh can be revised, a boundary wrong in the skeleton sends the whole batch in sick; surveying costs minutes, boundary accidents cost weeks",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "知识生产方法论/边界先勘法的核心命题是：数据事故的大头不在'内容写错'而在'边界没勘'——编号撞号、年代越界、字段取值非法、与相邻对象分界模糊，这些都不是写定义时能顺手避免的，它们要求在动笔之前先做一次系统性勘测。Phase 25 研究卡的开工第一步不是写内容，而是跑 check_existing/findmo/pref 系列探查脚本：目标编号空间里已占用哪些（M-P25F 前缀是否干净）、库中相似人物是否已有记录（避免二次入库）、figure_code 与 mode_code 的既有格式约束（era 的写法、priority 的取值、category 的合法词表）。勘界清单四项：一，ID 边界——目标 id/mode_code 在全库唯一且前缀无冲突；二，时序边界——人物生卒年与 era 字段自洽（萨达特 1918-1981），不允许'活人未卒'之类的逻辑裂缝；三，词表边界——category/level/language 等枚举字段的取值必须来自既有合法集合，不私造新词；四，邻接边界——与相邻人物（同期、同域、同文明）的分界线明确，李泽厚不入王国的范围，萨达特不抢纳赛尔的条目。失败机制是'边写边勘'：先写完再回头查重——此时内容已围绕一个可能非法的边界生长，返工成本翻十倍",
+      "definition_en": "Knowledge-production methodology: the core proposition is that most data accidents come not from 'wrong content' but from 'unsurveyed boundaries'—id collisions, date-range violations, illegal field values, blurred borders with neighbouring objects. None of these can be dodged incidentally while writing definitions; they demand a systematic survey before writing begins. The research cards of Phase 25 opened not with content but with check_existing/findmo/pref probe scripts: which ids in the target namespace are taken (is the M-P25F prefix clean), does the library already hold a similar figure (no double entry), what format constraints bind figure_code and mode_code (era notation, priority range, the legal vocabulary of category). The survey covers four boundaries. ID boundary: target ids/mode_codes unique across the whole library, prefix conflict-free. Chronological boundary: birth-death years self-consistent with the era field (Sadat 1918-1981), no logical crack like 'living but deceased'. Vocabulary boundary: enumerated fields (category/level/language) draw only from the existing legal sets—no private coinages. Adjacency boundary: the dividing line with neighbouring figures (same period, same domain, same civilization) drawn explicitly—Li Zehou does not annex Wang Guowei, Sadat does not poach Nasser. The failure mode is 'survey while writing': drafting first, de-duplicating later—by then the content has grown around a possibly illegal boundary, and rework costs tenfold",
+      "source_chapter": "Phase 25 研究卡开工实践（t_954a5264 工作区的 check_existing.py/findmo.py/pref*.py/cm*.py 探查脚本序列——先探查后撰写的真实脚本链）；Phase 21 事故先例：商君 M381-390 撞号、H-WZ-001 串题、H-LZ-001 误占 M301-310 而被迫重编号",
+      "key_quote_zh": "定义错了改一行，边界错了拆一栋——先勘界，后动笔；勘界用分钟，救火用星期。",
+      "key_quote_en": "A wrong definition costs a line; a wrong boundary costs the building—survey first, write second; the survey takes minutes, the fire takes weeks.",
+      "key_concepts": [
+        [
+          "四界清单 the four-boundary list（ID/时序/词表/邻接——动笔前一次勘全，不边写边补）",
+          "the four-boundary list (ID/chronology/vocabulary/adjacency—one survey before writing, not patching as you go)"
+        ],
+        [
+          "探查先行 probes first（check/find 脚本在撰写前跑——目标编号空间与既有人物占用状态先成图）",
+          "probes first (check/find scripts run before drafting—the target namespace and existing occupants mapped first)"
+        ],
+        [
+          "词表纪律 vocabulary discipline（枚举字段只取既有合法值——私造新词即私造未来事故）",
+          "vocabulary discipline (enum fields draw only from existing legal values—a private coinage is a private future accident)"
+        ],
+        [
+          "边写边勘警报 write-while-surveying alarm（先写后查重的返工成本十倍于先勘后写——顺序即成本）",
+          "the write-while-surveying alarm (dedupe after drafting costs tenfold over surveying before—order is cost)"
+        ]
+      ],
+      "process_zh": [
+        "开工勘测：撰写前运行探查脚本，输出目标编号空间的占用图与相似人物清单——勘测结果写进工作区文件留档",
+        "四界成文：把 ID/时序/词表/邻接四条边界的勘定结论写成开工前文档——每条边界一行结论+一行证据",
+        "内容生长：确认边界干净后才撰写定义与案例——内容围绕已勘定的骨架生长，不反逼骨架",
+        "交接入界：交接报告中显式写出边界结论（'本批不与 X 冲突''era 取 1918-1981'）——下游不再重复勘测，但保留抽查权",
+        "入库复勘：入库方以独立脚本重验四界（唯一性/era 自洽/词表合法/无邻接侵入）——勘界结论可以被信任，但不被豁免复验"
+      ],
+      "process_en": [
+        "Survey at open: run probe scripts before drafting, outputting the namespace occupancy map and similar-figure list—file the results in the workspace",
+        "Write the four boundaries: record the ID/chronology/vocabulary/adjacency conclusions in a pre-work document—one line of conclusion + one line of evidence each",
+        "Grow the content: draft definitions and cases only after boundaries are clean—content grows around the surveyed skeleton, never bends it",
+        "Declare the borders in handoff: the handoff states boundary conclusions explicitly ('no conflict with X', 'era 1918-1981')—the downstream need not re-survey but keeps the right to spot-check",
+        "Re-survey at entry: ingestion re-verifies all four boundaries with an independent script (uniqueness/era consistency/vocabulary legality/no adjacency encroachment)—survey conclusions may be trusted but never exempted from re-verification"
+      ],
+      "representative_cases_zh": [
+        "李泽厚开工勘测（Phase 25，t_954a5264）：check_existing.py 确认 H-LZH-001 前缀未被占用、主库无同名人物；HANDOFF 显式声明'figure id H-LZH-001、era 1930-2021、code_maps 无此 figure（入库时新增）'——下游入库时边界零意外",
+        "萨达特 era 断言（Phase 25）：复检把 era 1918-1981 写为永久断言——时序边界不仅开工时勘定，还在入库后被脚本永久看守",
+        "对照失败模式：Phase 21 商君/谢富治 M381-390 撞号（91832eb6 被迫全库重编号对齐）——撞号不在写入时发现，在跨家族对账时爆发；先勘后写的成本优势就是从这类事故倒算出来的"
+      ],
+      "representative_cases_en": [
+        "The Li Zehou opening survey (Phase 25, t_954a5264): check_existing.py confirmed the H-LZH-001 prefix unclaimed and no same-name figure in the library; the HANDOFF declared 'figure id H-LZH-001, era 1930-2021, no code_maps entry (to be added at ingestion)'—zero boundary surprises downstream",
+        "The Sadat era assertion (Phase 25): the re-inspection holds era 1918-1981 as a permanent assertion—the chronological boundary is not only surveyed at open but guarded by script after entry",
+        "The failure case, for contrast: Phase 21's Shang Jun / Xie Fuzhi M381-390 collision (91832eb6 forced a library-wide renumbering)—collisions surface not at write time but at cross-family reconciliation; the cost advantage of survey-first is back-calculated from exactly such accidents"
+      ],
+      "modern_applications_zh": [
+        "新系统立项：开发前先勘'边界四项'——命名空间与现有服务冲突、数据保留年限合规、技术词表与公司规范一致、与邻接系统的职责分界",
+        "商标与品牌：新产品命名先查商标库/域名/既有产品线占用——命名 collision 的返工成本远高于查询成本",
+        "学术论文：开题先勘四界——与既有文献的编号引用无冲突、时间断限自洽、术语符合学科惯例、与相邻课题的分界明确"
+      ],
+      "modern_applications_en": [
+        "Greenfield projects: survey the four boundaries before development—namespace conflicts with existing services, data-retention compliance, terminology aligned to company standards, clear division of duty with adjacent systems",
+        "Trademark and branding: check trademark registries, domains and existing product lines before naming a product—renaming rework dwarfs lookup cost",
+        "Academic research: survey four boundaries at proposal time—no citation-number conflicts with existing literature, self-consistent period limits, terms within disciplinary convention, clear borders with neighbouring projects"
+      ],
+      "related_modes": [
+        "M-P25F-003",
+        "M-P25F-009",
+        "M-P24F-005"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "郦道元（《水经注》先核水源后叙流经——'先勘源头边界，再叙内容流布'的地理学先声）",
+        "曾子（'日三省吾身'以边界自省开篇——个人勘界传统的伦理形态）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-007",
+      "mode_code": "M-P25F-007",
+      "name_zh": "场景试车法",
+      "name_en": "The Method of the Scenario Test-Drive",
+      "category": "知识验证方法论",
+      "domain_zh": "知识验证方法论/一个模式若只能被'陈述'而不能被'使用'，就还不是知识而是修辞——每个模式入库时必须附带至少一个现代场景试车（zh/en 双语）：场景不是定义的例子，定义的例子可以同义反复，场景必须让模式在陌生素材上真的'开动'一次",
+      "domain_en": "Knowledge-validation methodology / a mode that can be 'stated' but not 'used' is not yet knowledge but rhetoric—every mode enters the library with at least one modern-scenario test-drive (zh/en bilingual): a scenario is not an example of the definition; examples of a definition can be tautologies, whereas a scenario must make the mode actually start and run on unfamiliar material",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "知识验证方法论/场景试车法针对知识库最隐蔽的失效模式：定义漂亮、案例贴切、引用翔实，但模式在真实问题上从未真正运转过——这样的条目是'陈列品'不是'工具'。Phase 25 的每条模式都配一辆'试车'：C-XXX-001~010（zh）与 C-XXX-001~010E（en）成对场景，每个场景是一个陌生素材上的完整运转过程——如李泽厚'积淀说'的试车不是再讲一遍积淀理论，而是一位交互设计师发现老用户抵触改版的真因是肌肉记忆失效、于是'保留旧接口重造概念皮'——积淀说在一个与美学毫无关系的场景里完成了推理。试车与例子的判据有三：一，迁移性——场景素材必须来自模式原生的知识域之外（美学方法试驾在软件设计、哲学方法试驾在产品决策）；二，完整性——场景呈现从识别问题到得出行动的全程，不是只截'套用结论'的瞬间；三，双向生产——zh/en 两版本同刻受孕而非互译，各自在各自语境里挑素材（zh 场景可用国内产品语境，en 场景可用硅谷语境），互译退居二线。失败机制是'贴标式场景'：把一个通用故事末尾贴上模式名——判别法很简单：把模式名遮住，若场景读起来仍'像在用该模式'，才是真试车",
+      "definition_en": "Knowledge-validation methodology: scenario test-driving targets the quietest failure mode of a knowledge library—definitions elegant, cases apt, citations rich, yet the mode has never actually run on a real problem; such an entry is a display piece, not a tool. Every Phase 25 mode ships with a test-drive: paired scenarios C-XXX-001~010 (zh) and C-XXX-001~010E (en), each a complete run on unfamiliar material—Li Zehou's 'sedimentation' test-driven not by restating the theory but by an interaction designer discovering that users resist redesigns because muscle memory broke, then 'keeping the old interface while re-skinning the concepts'—sedimentation completing its reasoning in a scenario with no connection to aesthetics. Three criteria separate a test-drive from an example. Transferability: the scenario's material must come from outside the mode's native domain (an aesthetic method test-driven in software design, a philosophical method in product decisions). Completeness: the scenario runs from problem recognition to action taken, not just the moment of 'applying the conclusion'. Twin production: zh/en conceived together, not translated—each picks material in its own context (a domestic product scene for zh, a Silicon Valley scene for en), translation demoted to second line. The failure mode is the 'label-sticker scenario': a generic story with the mode's name pasted on at the end. The test is simple—cover the mode's name; if the scenario still reads as 'using that mode', it is a real test-drive",
+      "source_chapter": "Phase 25 场景实践（C-LZH-001 改版肌肉记忆场景、C-SAD/IKH/MUS/VYG 各 10+10 双语场景、scenario_tags 每场景 4 标签 共 80 条/人物——场景与标签同批交付）；H-P24F-001 场景锚定法为直系先例",
+      "key_quote_zh": "遮住模式名再读场景——若仍像在用它，才是试车；若只剩下贴标签，那是修辞。",
+      "key_quote_en": "Cover the mode's name and read the scenario again—if it still reads as using the mode, it is a test-drive; if only the label remains, it is rhetoric.",
+      "key_concepts": [
+        [
+          "陈列品/工具之分 display piece vs tool（能被陈述的未必能被使用——试车是二者的分水岭）",
+          "display piece vs tool (what can be stated may not be usable—the test-drive is the watershed)"
+        ],
+        [
+          "迁移性判据 the transferability criterion（试车素材必须来自模式原生域之外——同域例子只是同义反复）",
+          "the transferability criterion (test-drive material must lie outside the mode's native domain—same-domain examples are tautology)"
+        ],
+        [
+          "全程运转 full run（场景从识别问题走到采取行动——不截取'套用结论'的瞬间）",
+          "full run (the scenario walks from problem recognition to action—no snapshot of the conclusion-applied moment)"
+        ],
+        [
+          "贴标警报 label-sticker alarm（遮名测试：通用故事末尾贴模式名即露馅——场景的价值在遮名后仍成立）",
+          "the label-sticker alarm (the cover-name test: a generic story with the mode pasted on fails it—the scenario's worth survives the covered name)"
+        ]
+      ],
+      "process_zh": [
+        "挑异域素材：为模式选一个其原生知识域之外的真实困境——方法越普适，试车场应离原生域越远",
+        "写全程运转：场景从'某人遇到某问题'写到'他因该模式采取了什么行动、得到什么不同结果'——中间不得跳步",
+        "遮名自检：写完遮住模式名重读——场景仍能被认出'在用该方法'即合格；只是贴标签则重写",
+        "双语对生：zh/en 各自在本地语境挑素材独立成文——互不翻译，交稿时逐对配对、tags 同刻生成",
+        "标签定锚：每场景配 4 个检索标签（如 sedimentation/muscle_memory_layer/graft_on_old/perceptual_strata）——标签是场景的检索面，不是装饰"
+      ],
+      "process_en": [
+        "Pick alien material: for the mode choose a real dilemma outside its native domain—the more universal the method, the farther the test track",
+        "Write the full run: from 'someone hits a problem' to 'what action the mode prompted and what different result followed'—no skipped steps",
+        "Cover-name check: reread with the mode's name hidden—recognizable as 'using the method' means pass; mere sticker means rewrite",
+        "Twin production: zh and en each pick local material and stand alone—never translated; delivered as matched pairs with tags born together",
+        "Anchor with tags: four retrieval tags per scenario (sedimentation / muscle_memory_layer / graft_on_old / perceptual_strata)—tags are the scenario's retrieval surface, not decoration"
+      ],
+      "representative_cases_zh": [
+        "李泽厚积淀说试车（Phase 25）：C-LZH-001 用'改版保留肌肉记忆接口'场景——素材与美学零关联，遮住模式名仍能读出'积淀'在运转；scenario_tags 覆盖 sedimentation/muscle_memory_layer/graft_on_old/perceptual_strata",
+        "五流水线统一标准（Phase 25）：萨达特、伊本·赫勒敦、曼萨·穆萨、维果茨基各 10+10 双语场景、每场景 4 标签——50 个场景构成一批'全部在原生域之外'运转的方法试车场",
+        "对照失败模式：早期若干人物条目只有'典籍内案例'（在原书语境里复述原方法）——读者无法判断方法能否离开原生语境；试车制度就是把'离开原生语境仍能跑'从希望变成验收项"
+      ],
+      "representative_cases_en": [
+        "The sedimentation test-drive (Phase 25): C-LZH-001's 'keep the muscle-memory interface on redesign' scenario—material with zero aesthetic connection, still readable as 'sedimentation running' with the name covered; scenario_tags covering sedimentation / muscle_memory_layer / graft_on_old / perceptual_strata",
+        "One standard, five pipelines (Phase 25): Sadat, Ibn Khaldun, Mansa Musa and Vygotsky each 10+10 bilingual scenarios, four tags each—fifty scenarios forming one test field where every method runs outside its native domain",
+        "The failure case, for contrast: some earlier figure entries carried only in-canon cases (the method restated in its original textual setting)—readers could not tell whether the method survives leaving home; the test-drive institution turns 'runs away from home' from a hope into an acceptance criterion"
+      ],
+      "modern_applications_zh": [
+        "培训设计：教方法论时不用方法论自己的经典案例考试，而用异域案例考核——学员能否在陌生素材上开动方法才是学会的判据",
+        "产品文档：功能说明附'跨部门使用场景'而非'本部门标准流程'——跨场景可用才证明设计真的普适",
+        "面试评估：考察候选人时给'其过往经验之外'的案例题——经验陈述人人会背，异域迁移才见真章"
+      ],
+      "modern_applications_en": [
+        "Training design: examine learners with alien-domain cases, not the methodology's own classics—whether the method starts on unfamiliar material is the real test of learning",
+        "Product documentation: pair feature docs with cross-department usage scenarios rather than in-department standard flows—cross-scenario usability proves genuine generality",
+        "Interviewing: give candidates case questions outside their stated experience—everyone recites experience; only alien transfer shows the truth"
+      ],
+      "related_modes": [
+        "M-P25F-002",
+        "M-P25F-010",
+        "M-P24F-006"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "维果茨基（最近发展区法：教学法必须让能力在'够不着的任务'上被检验——试车场的心理学奠基人）",
+        "李时珍（亲验试效法：本草功效须在药房之外亲验——'离开文本语境验证知识'的博物学先声）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-008",
+      "mode_code": "M-P25F-008",
+      "name_zh": "接口恒定法",
+      "name_en": "The Method of the Constant Interface",
+      "category": "协作组织方法论",
+      "domain_zh": "协作组织方法论/岗位可以换人、节奏可以变、批次规模可以浮动，唯独岗位间的数据契约（载荷五件套的字段结构）一期之内不许动——接口一变，所有下游的解析、复检与对账脚本同时作废；宁可为本期新增字段做兼容层，也不改既有字段的形状",
+      "domain_en": "Collaborative-organization methodology / posts may change hands, rhythm may vary, batch sizes may float—but the data contract between posts (the five-piece payload's field structure) must not move within a campaign: change the interface and every downstream parser, re-inspection and reconciliation script dies at once; rather add a compatibility layer for new fields than alter the shape of existing ones",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "协作组织方法论/接口恒定法是多岗位并行时保持'合并是机械动作'的前提。Phase 25 五批交付物使用完全相同的形状：merge_payload 顶层八键（schema_version/phase/figure_code/figure_name/figure/modes/scenarios/scenario_tags），figure 内嵌 26 键，模式 24 键，场景 7 键——李泽厚与维果茨基的载荷除内容外逐字段同构，因此入库脚本是同一个脚本跑五遍，复检脚本只需换前缀。接口恒定的纪律有三条：一，本期冻结——从第一期交付到收官，载荷结构不增不改不删；确需新字段（如本期新增 era 断言）时，加在复检脚本而非载荷结构里——断言是消费方的事，不动生产方的形状。二，向后兼容——新字段只增不改名，旧字段永不删除或改名（即使觉得名字起得不好）；改名是一次全体下游同时爆炸的事件。三，形状即文档——下游读上游的字段名即知语义（name_zh/name_en、definition_zh/definition_en），不需要额外说明文档；接口本身承担文档职责，说明文档永远落后于接口。失败机制是'局部优化改接口'：某岗为图方便改了自己输出的字段名，省下自己十行代码，废掉全体下游的全部脚本——接口的成本由全体分摊，改接口的决定权因此不属于任何单一岗位",
+      "definition_en": "Collaborative-organization methodology: the constant interface is the precondition for merges staying mechanical across parallel posts. All five Phase 25 deliveries share one shape: merge_payload's eight top-level keys (schema_version/phase/figure_code/figure_name/figure/modes/scenarios/scenario_tags), 26 keys in the embedded figure, 24 in each mode, 7 in each scenario—the Li Zehou and Vygotsky payloads isomorphic field for field apart from content, so the ingestion script is one script run five times, and the re-inspection changes only its prefix. Three disciplines. Campaign freeze: from first delivery to closing, the payload structure neither grows nor shrinks nor mutates; a genuinely needed addition (this campaign's era assertion) lands in the re-inspection script, not the payload structure—assertions belong to the consumer, and never reshape the producer. Backward compatibility: new fields may be added, never renamed; old fields are never deleted or renamed even when badly named—a rename is an event that explodes every downstream consumer at once. Shape as documentation: the downstream reads the upstream's field names and knows the semantics (name_zh/name_en, definition_zh/definition_en)—no extra manual needed, and a manual always lags the interface. The failure mode is 'locally optimized interface changes': one post renames its output fields for convenience, saving itself ten lines and destroying every downstream script—the interface's costs are shared by all, so the right to change it belongs to no single post",
+      "source_chapter": "Phase 25 载荷同构（五批 merge_payload 顶层八键一致：李泽厚 264,370 字节/萨达特 203,273/伊本·赫勒敦 204,110/曼萨·穆萨 189,512/维果茨基 177,806——同构不同量）；H-P24F-001 载荷五件套法为直系先例；软件工程先例：Postel 法则与语义化版本",
+      "key_quote_zh": "接口一动，全体下游同时作废——改自己十行代码的方便，不值全体脚本的陪葬。",
+      "key_quote_en": "Move the interface and every downstream dies at once—ten lines of convenience for oneself are not worth the funeral of everyone's scripts.",
+      "key_concepts": [
+        [
+          "本期冻结 the campaign freeze（载荷结构一期不增不改不删——新增需求落在断言层而非结构层）",
+          "the campaign freeze (payload structure immutable within a campaign—new needs land in the assertion layer, not the structure)"
+        ],
+        [
+          "只增不改名 add-never-rename（旧字段永不改名删除——改名是全体下游同时爆炸的事件）",
+          "add-never-rename (old fields never renamed or deleted—a rename detonates every downstream at once)"
+        ],
+        [
+          "形状即文档 shape as documentation（字段名自明语义——接口承担文档职责，文档永远落后于接口）",
+          "shape as documentation (field names self-describing—the interface does the documenting, which always lags)"
+        ],
+        [
+          "同构复用 isomorphic reuse（入库脚本一份跑五遍、复检只换前缀——接口恒定使合并成为机械动作）",
+          "isomorphic reuse (one ingestion script run five times, re-inspection re-prefixed—the constant interface makes merging mechanical)"
+        ]
+      ],
+      "process_zh": [
+        "契約成文：开工时把载荷结构写成显式清单（每层字段名+类型+语义）——契约先于任何一份交付物存在",
+        "冻结宣示：向全体岗位宣布'本期接口冻结'——新增需求一律走断言层或下期评审，不悄悄进载荷",
+        "同构校验：每批交付前跑结构断言（键集合、类型、必填性逐字段比对契约）——结构偏差与内容错误同级拦截",
+        "演进走闸：确需改接口时开跨岗评审——评估全体下游的迁移成本，出一个版本化的迁移方案，绝不'顺手改'",
+        "脚本复用：入库与复检脚本写成参数化（换前缀即换对象）——接口恒定的红利就是脚本的零分叉"
+      ],
+      "process_en": [
+        "Write the contract: at kickoff list the payload structure explicitly (every field name + type + semantics per layer)—the contract exists before any deliverable",
+        "Declare the freeze: announce 'interface frozen for this campaign' to all posts—new needs go to the assertion layer or next campaign's review, never quietly into the payload",
+        "Validate isomorphism: before each delivery run structural assertions (key sets, types, requiredness against the contract)—structural drift intercepted at the same level as content error",
+        "Gate evolution: any true interface change opens a cross-post review—costs across all downstream assessed, a versioned migration plan issued, never 'changed in passing'",
+        "Reuse the scripts: ingestion and re-inspection written parameterized (change the prefix, change the subject)—the constant interface's dividend is zero script forking"
+      ],
+      "representative_cases_zh": [
+        "五批载荷同构（Phase 25）：李泽厚/萨达特/伊本·赫勒敦/曼萨·穆萨/维果茨基五份 merge_payload 顶层键完全一致——elcano 的入库流程五次复用同一脚本骨架，入库复检只换卡号与 sha256",
+        "复检脚本参数化（Phase 25）：qa_doc_lzh 与 qa_doc_sad 结构相同、断言数 16 与 17——差异全部在断言层（萨达特多一条 era 断言），载荷结构层零分叉",
+        "对照失败模式：主库历史文件中 figure_code 曾出现'东汉''北宋'等误填（王充、张载补合并事故）——字段语义漂移正是接口文档缺位的后果；形状即文档就是把字段语义钉死在字段名与契约里，不给漂移留缝"
+      ],
+      "representative_cases_en": [
+        "Five payloads, one shape (Phase 25): the Li Zehou / Sadat / Ibn Khaldun / Mansa Musa / Vygotsky merge_payloads share top-level keys exactly—elcano's ingestion reuses one script skeleton five times, re-inspection differing only in card id and sha256",
+        "Parameterized re-inspection (Phase 25): qa_doc_lzh and qa_doc_sad structurally identical, 16 vs 17 assertions—the entire difference lives in the assertion layer (Sadat's extra era assertion); the payload-structure layer shows zero forking",
+        "The failure case, for contrast: the master library's history holds mis-filled figure_codes ('Eastern Han', 'Northern Song'—the Wang Chong and Zhang Zai incidents)—semantic drift of fields is the price of a missing interface contract; shape-as-documentation nails field semantics into field names and the contract, leaving no seam for drift"
+      ],
+      "modern_applications_zh": [
+        "微服务治理：服务间 API 一期内冻结、字段只增不改名——下游服务升级节奏由自己掌握，上游不单方面改约",
+        "报表体系：财务/运营/管理层三方共用同一报表 schema——新增指标加列不改旧列名，历史报表永远可比",
+        "开源项目维护：插件 API 稳定性承诺——核心可以重构内部实现，但插件接口的破坏性变更必须走大版本+迁移指南"
+      ],
+      "modern_applications_en": [
+        "Microservice governance: inter-service APIs frozen within a period, fields add-never-rename—downstream upgrade pace stays its own, upstream never recontracts unilaterally",
+        "Reporting systems: finance/ops/management share one report schema—new metrics add columns without renaming old ones, so historical reports stay comparable forever",
+        "Open-source maintenance: a stability promise for the plugin API—the core may refactor internals, but breaking plugin-interface changes require a major version plus a migration guide"
+      ],
+      "related_modes": [
+        "M-P25F-001",
+        "M-P25F-002",
+        "M-P24F-007"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "秦始皇（书同文车同轨：以统一度量与文字使帝国各郡'可机械对接'——接口恒定的最早国家实践）",
+        "松下幸之助（事业部制与统一会计制度：各部门自主经营而报表同构——企业内部的接口恒定）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-009",
+      "mode_code": "M-P25F-009",
+      "name_zh": "悬空记账法",
+      "name_en": "The Method of the Dangling-Reference Ledger",
+      "category": "数据质量方法论",
+      "domain_zh": "数据质量方法论/引用网络中的每一处悬空（指向库中不存在的对象）都不是'修掉就完'——先按形态记账：上游未入库的'合法前置'、拼错的目标、已废弃的旧编号、跨代编号体系——不同形态不同处置：等待、更正、迁移、兼容层；账本让悬空从'随机噪声'变成'可管理的债务清单'",
+      "domain_en": "Data-quality methodology / every dangling reference in a citation network (a pointer to an object absent from the library) is not 'fix and forget'—first book it by shape: a legitimate predecessor awaiting upstream entry, a misspelled target, a retired legacy id, a cross-generation numbering scheme—each shape gets its own disposition: wait, correct, migrate, or compatibility layer; the ledger turns dangling references from random noise into a manageable debt list",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "数据质量方法论/悬空记账法把引用网络治理从'清零执念'升级为'分类治理'。朴素做法见到悬空就删——删掉一条指向'尚未入库的康德'的引用，网络当下干净了，但下月康德入库时这条本可自动激活的连接已永远丢失。Phase 25 的处置程序分四步：一，分型——发现悬空先判形态：M-KD-005（康德）指向库外是因为康德在另一个编号体系里、属'跨代编号'，M01 形态的旧式编号（董仲舒）是'历史编号层'，真正拼错的目标是'更正项'；二，记账——每个悬空写入账本（形态、目标、发现位置、处置建议），LiZehou 研究卡在 HANDOFF 中专门声明'M01 为旧式编号属正常，qa 格式校验已放行'——这就是一条处置记录而非一笔待修错误；三，按型处置——合法前置型等待上游并库（不删），更正型修正目标，废弃型迁移到新编号，跨代型写兼容层（校验规则放行+文档说明）；四，定期清账——每轮收官盘点账本：哪些等待型已随上游入库自动激活、哪些更正型未处理、新增悬空是否超过新入库条目的自然比例。失败机制是'清零强迫症'——把'引用零悬空'当作无条件目标，结果把所有指向未来的连接都剪断了",
+      "definition_en": "Data-quality methodology: the dangling-reference ledger upgrades citation-network governance from a 'zeroing obsession' to 'typed governance'. The naive move deletes on sight—deleting a reference to 'Kant, not yet in the library' cleans today's report but loses forever a connection that would auto-activate when Kant enters next month. Phase 25's procedure has four steps. One, typing: on finding a dangle, judge its shape—M-KD-005 (Kant) pointing outside the library because Kant lives in another numbering system is 'cross-generation numbering'; M01-form legacy ids (Dong Zhongshu) are 'the historical id layer'; a genuinely misspelled target is a 'correction'. Two, booking: every dangle enters the ledger (shape, target, found where, suggested disposition)—the Li Zehou research card's HANDOFF explicitly declares 'M01 is a legacy id, normal; format checks pass it'—a disposition record, not a pending error. Three, typed disposition: legitimate-predecessor dangles wait for upstream entry (never delete); corrections fix the target; retired ids migrate to new numbering; cross-generation shapes get a compatibility layer (the checker passes them, the docs explain them). Four, periodic settlement: at each closing, review the ledger—which waiting dangles auto-activated as upstream entered, which corrections remain unhandled, whether new dangles exceed the natural ratio for the batch. The failure mode is 'zeroing compulsion'—treating zero dangling references as an unconditional goal and thereby severing every connection that points at the future",
+      "source_chapter": "Phase 25 悬空处置实践（李泽厚 HANDOFF 的 M01 旧式编号声明、figure xref 8 条全部在库复检、LZH related_modes 悬空 0 断言）；Phase 21 先例：沈括卡清除 7 处悬空（96d4/d4f19091）、H-P24F-001 悬空清零法为本法直系先例——P25F 在'清零'之上补'分型记账'",
+      "key_quote_zh": "悬空不是噪声，是债务——先分型再记账：指向未来的连接要等，指向错误的连接要修，删是一刀切，账本是分类账。",
+      "key_quote_en": "A dangling reference is not noise but debt—type it, then book it: connections to the future wait, connections to errors get corrected; deletion is one blade for all, a ledger is a classified account.",
+      "key_concepts": [
+        [
+          "悬空分型 dangle typing（合法前置/更正项/废弃编号/跨代体系——四种形态四种处置）",
+          "dangle typing (legitimate predecessor / correction / retired id / cross-generation scheme—four shapes, four dispositions)"
+        ],
+        [
+          "等待优于删除 waiting over deletion（指向'尚未入库'的连接是未来的资产——删它等于剪断还没通电的电线）",
+          "waiting over deletion (a reference to 'not yet entered' is future asset—deleting it is cutting a wire before the current flows)"
+        ],
+        [
+          "处置留痕 recorded disposition（每笔悬空在账本/HANDOFF 留下形态与处置——'放行'也是一条记录而非疏忽）",
+          "recorded disposition (every dangle's shape and disposition in ledger or HANDOFF—even a 'pass' is a record, not an oversight)"
+        ],
+        [
+          "清零强迫症警报 zeroing-compulsion alarm（无条件追求零悬空会剪断指向未来的连接——目标是'账上无未决'而非'网中无悬空'）",
+          "the zeroing-compulsion alarm (unconditional zero-dangling severs future-pointing connections—the goal is 'no undecided items on the ledger', not 'no dangles in the web')"
+        ]
+      ],
+      "process_zh": [
+        "发现即分型：复检报出悬空时，先判形态（等待上游/目标拼错/编号废弃/跨代体系）——分型未定不动手",
+        "记账：悬空写入账本（形态/目标/位置/建议处置），重要者在交接报告显式声明——账本与载荷同批交付",
+        "按型处置：等待型保留原引用并注明'待上游'；更正型修正；废弃型迁移；跨代型写兼容层并在文档说明",
+        "激活回访：上游人物入库后回访账本——等待型悬空应自动转活，未转活者升级为更正项",
+        "收官清算：每轮收官盘点账本——未决项清零或转下轮，账本余额写进收官报告"
+      ],
+      "process_en": [
+        "Type on sight: when the re-inspection reports a dangle, first judge its shape (awaiting upstream / misspelled target / retired id / cross-generation)—no action before typing",
+        "Book it: the dangle enters the ledger (shape/target/location/disposition), significant ones declared in the handoff—the ledger ships with the payload",
+        "Dispose by type: waiting dangles keep their reference marked 'pending upstream'; corrections fix; retired ids migrate; cross-generation shapes get a compatibility layer plus documentation",
+        "Revisit for activation: when the upstream figure enters, revisit the ledger—waiting dangles should auto-activate; un-activated ones escalate to corrections",
+        "Settle at closing: each closing reviews the ledger—undecided items cleared or carried forward, the ledger balance written into the closing report"
+      ],
+      "representative_cases_zh": [
+        "李泽厚 M01 处置（Phase 25）：related_modes 引用董仲舒旧式编号 M01——研究卡分型为'历史编号层'、HANDOFF 声明'qa 格式校验已放行'、复检只对'非旧式码的悬空'断言为零——兼容层处置的完整示范",
+        "康德跨库引用（Phase 25）：M-LZH 交叉引用 M-KD-005，复检断言'figure cross_references 8 条全部在库'——指向另一编号体系的连接以'在库验证'而非'删除'处置，网络密度不减",
+        "对照失败模式：早期若干入库把指向未入库人物的引用直接删除以求'干净'——数月后该人物入库，连接需人工重建且无人记得原来指向什么；等待优于删除正是为这种不可逆损失设的闸"
+      ],
+      "representative_cases_en": [
+        "The Li Zehou M01 disposition (Phase 25): related_modes citing Dong Zhongshu's legacy id M01—typed as 'historical id layer', declared in the HANDOFF ('format checks pass it'), the re-inspection asserting zero dangles only for non-legacy codes—a complete compatibility-layer disposition",
+        "The Kant cross-library reference (Phase 25): M-LZH cross-citing M-KD-005, the re-inspection asserting 'all 8 figure cross_references in library'—a connection into another numbering system handled by in-library verification, not deletion; network density preserved",
+        "The failure case, for contrast: some early ingestions deleted references to not-yet-entered figures for cleanliness—months later the figure entered and the connections needed manual rebuilding, with no record of what they had pointed to; waiting-over-deletion is the gate against exactly that irreversibility"
+      ],
+      "modern_applications_zh": [
+        "代码依赖管理：依赖暂不可用时记录'待升级'而非删功能——上游修复后自动恢复，删了则要重写",
+        "百科编辑：红链（指向未建条目）不是错——按'值得建/拼错/应并入他条'分型处理，一概删除会让百科退化",
+        "组织知识管理：员工离职后其文档里的断链按型处置——'待接手人补写'与'内容已过时应删'是两种命运"
+      ],
+      "modern_applications_en": [
+        "Dependency management: a temporarily unavailable dependency is logged 'pending upgrade', not excised with its feature—upstream's fix restores it automatically; deletion means rewriting",
+        "Encyclopedia editing: red links (to unbuilt articles) are not errors—typed as worth-creating / misspelled / merge-elsewhere; deleting them all degenerates the encyclopedia",
+        "Organizational knowledge: links broken by a departing employee are typed—'pending successor backfill' and 'obsolete, delete' are two different fates"
+      ],
+      "related_modes": [
+        "M-P25F-003",
+        "M-P25F-006",
+        "M-P24F-005"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "茅以升（失效清单法：桥梁每处隐患分型登记、按险级处置——工程界的悬空记账原型）",
+        "章学诚（'藏往'与'知来'：文献整理既为存故亦为启后——为未来连接保留接口的史学先声）"
+      ],
+      "figure_code": "P25F"
+    },
+    {
+      "id": "M-P25F-010",
+      "mode_code": "M-P25F-010",
+      "name_zh": "收官铸格法",
+      "name_en": "The Method of Casting the Retrospective into Form",
+      "category": "组织学习方法论",
+      "domain_zh": "组织学习方法论/收官复盘的产出不是一篇感想而是一件铸件——把本期运转成功的方法铸成有编号、有定义、有流程、可被引用的对象入库（本卡即是该法的第七次行使）：描述方法的作品必须通过它所描述的标准——复盘若不能作为模式通过自己的 QA，说明复盘只是抒情",
+      "domain_en": "Organizational-learning methodology / the retrospective's output is not an essay but a casting—methods that ran successfully this campaign are cast into citable objects with ids, definitions and processes, entered into the library (this very card is the method's seventh exercise): a work describing a method must pass the standard it describes—if the retrospective cannot enter as modes through its own QA, it was sentiment, not a retrospective",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "组织学习方法论/收官铸格法把'复盘'从会议纪要升格为资产铸造。多数组织的复盘止于三样东西：一份纪要、几条感悟、下次照犯。铸格法的纪律是：凡在本期被证明有效的方法，必须铸成与库中其他模式完全同构的对象——有 mode_code、有双语定义、有四步流程、有现代应用、有场景试车——并通过与所有模式相同的 QA 才能入库。这有一条递归的检验条款：本卡描述的十法（上下文隔离岗、指纹交付、纯增量过闸、断言代偿、双镜同源、边界先勘、场景试车、接口恒定、悬空记账、收官铸格）本身必须通过它们所描述的标准——十法从 Phase 25 五条流水线的真实运转中提炼，每条断言其来源（哪张卡、哪次实践），scenario 试车按遮名标准写作，交付按指纹制度盖章。铸格与'写总结'的判据有三：一，对象化——产出是库中可被 M- 号引用的实体，而非文档里的一段文字；二，来源锚定——每条模式回指本期的具体实践与事故，不写无案可稽的格言；三，自反通过——描述者须通过所描述的标准，复盘对自己的产出执行与对他人相同的验收。失败机制是'铸格表演化'：为凑十法而把常识包装成模式——防法是来源锚定：无具体实践可指的模式不入本期铸件",
+      "definition_en": "Organizational-learning methodology: casting the retrospective upgrades 'the lessons-learned meeting' into asset founding. Most organizations' retrospectives end in three things: a memo, a few insights, the same mistakes next time. The casting discipline: every method proven effective this campaign must be cast as an object fully isomorphic with the library's other modes—mode_code, bilingual definition, four-step process, modern applications, scenario test-drive—and pass the same QA as every mode before entering. The institution carries a recursive clause: the ten methods this card describes (context-isolated posts, fingerprinted delivery, pure-increment gating, assertion compensation, twin mirrors one source, boundary survey first, scenario test-drive, constant interface, dangling-reference ledger, casting itself) must pass the very standards they describe—distilled from the real operation of Phase 25's five pipelines, each anchoring its source (which card, which practice), each scenario written to the cover-name standard, each delivery stamped by the fingerprint rite. Three criteria separate casting from 'writing a summary'. Objecthood: the output is an entity citable by M- number in the library, not a paragraph in a document. Source anchoring: every mode points back to concrete practices and incidents of this campaign—no aphorisms without a case to cite. Reflexive passage: the describer must pass the standard described—the retrospective accepts its own output by the same bar it applies to others. The failure mode is 'performative casting': packaging common sense as modes to reach a round ten—the guard is source anchoring: a mode with no citable practice does not enter this campaign's casting",
+      "source_chapter": "Phase 25 收官实践（本卡 t_ddde0495 即铸格法的行使：十模式提炼自 t_954a5264/t_f3dabc98/t_2a948786/t_296f9541/t_0e270be7 五条流水线的真实脚本、HANDOFF 与复检断言）；H-P23F-001/H-P24F-001 为本法谱系的第一、二代先例——方法人格谱系第三代",
+      "key_quote_zh": "复盘的产出不是感想，是铸件——描述方法的作品，必须通过它所描述的标准。",
+      "key_quote_en": "The retrospective's output is not a reflection but a casting—a work describing a method must pass the standard it describes.",
+      "key_concepts": [
+        [
+          "对象化 objecthood（方法铸成有编号可引用的库内实体——纪要与感悟不构成资产）",
+          "objecthood (methods cast as numbered, citable library entities—memos and insights are not assets)"
+        ],
+        [
+          "来源锚定 source anchoring（每条模式回指具体实践与事故——无案可稽的格言不入铸件）",
+          "source anchoring (every mode points back to concrete practice and incident—aphorisms without a case stay out of the casting)"
+        ],
+        [
+          "自反通过 reflexive passage（描述者须通过所描述的标准——复盘对自己的产出执行同等验收）",
+          "reflexive passage (the describer passes the standard described—the retrospective accepts its own output at the same bar)"
+        ],
+        [
+          "表演化警报 performativity alarm（为凑数包装常识即表演——来源锚定是防表演的唯一闸门）",
+          "the performativity alarm (packaging common sense to fill a quota is performance—source anchoring is the only gate against it)"
+        ]
+      ],
+      "process_zh": [
+        "盘点有效方法：收官时列出本期被实践证明有效的方法清单——每条注明'在哪些卡、哪些脚本、哪些断言里运转'",
+        "铸模检查：按库中模式的标准结构（双语定义/四步流程/案例/应用/场景）逐条铸模——结构与既有模式完全同构",
+        "来源锚定：为每条模式写 source_chapter 与代表性案例，回指本期的具体提交与事故——不可指认者不铸",
+        "自反验收：铸件按与其他模式相同的 QA 验收（唯一性/双语配对/标签覆盖/交叉引用在库）——描述方法者通过所描述的标准",
+        "入网与谱系登记：铸件入库后在 figure 谱系中登记直系先例（P23F/P24F）——方法人格的代际链在库内可追溯"
+      ],
+      "process_en": [
+        "Inventory what worked: at closing list the methods proven effective in operation—each annotated with the cards, scripts and assertions where it ran",
+        "Check the mold: cast each into the library's standard structure (bilingual definition / four-step process / cases / applications / scenarios)—fully isomorphic with existing modes",
+        "Anchor the sources: write each mode's source_chapter and representative cases pointing to this campaign's concrete commits and incidents—whatever cannot be cited is not cast",
+        "Reflexive acceptance: the castings pass the same QA as every other mode (uniqueness / bilingual pairing / tag coverage / in-library xrefs)—the describer passes the standard described",
+        "Enter and register lineage: after entry, register the direct precedents (P23F/P24F) in the figure lineage—the method-persona generational chain traceable inside the library"
+      ],
+      "representative_cases_zh": [
+        "本卡即铸件（Phase 25，t_ddde0495）：十法全部提炼自五条流水线的真实运转——M-P25F-001 的岗位切分来自研究卡与入库卡的实际分工，M-P25F-002 的指纹仪式来自五份 HANDOFF 的真实 sha256，每条 source_chapter 可回指到具体卡号",
+        "方法人格谱系（P23F→P24F→P25F）：三代方法人格在库内互相引用、逐代登记直系先例——'方法的代际'成为库内可检索的对象而非口口相传的传说",
+        "对照失败模式：Phase 21 曾出现'研究稿串题'（李时珍研究产出王震内容）类事故在多张卡上以不同形式复发——复盘若只写'注意串题'而无对象化、无来源锚定，教训就只在人脑里衰减；铸格法正是把这类教训铸成 M-P25F-001（上下文隔离岗）这样的可引用对象"
+      ],
+      "representative_cases_en": [
+        "This card is the casting (Phase 25, t_ddde0495): all ten methods distilled from the real operation of five pipelines—M-P25F-001's post-cutting from the actual research/ingestion division of labour, M-P25F-002's fingerprint rite from the real sha256 values in five HANDOFFs, every source_chapter pointing back to a citable card",
+        "The method-persona lineage (P23F→P24F→P25F): three generations cross-citing inside the library, each registering its direct precedent—the 'generations of method' a searchable object in the library, not an oral legend",
+        "The failure case, for contrast: Phase 21's research-draft contamination (Li Shizhen research emitting Wang Zhen content) recurred across cards in varying forms—when a retrospective writes only 'beware contamination', with neither objecthood nor source anchoring, the lesson decays in human memory; casting is precisely the conversion of such lessons into citable objects like M-P25F-001"
+      ],
+      "modern_applications_zh": [
+        "公司复盘制度：季度复盘的产出物是'入库的方法卡'（编号+流程+来源案例）而非 PPT——下季度新项目开工时先检索方法卡",
+        "个人成长：把'这次做对了什么'铸成个人 SOP 条目（编号、步骤、第一次验证它的场景）——复盘变成个人方法库的增量提交",
+        "开源社区：版本发布复盘产出'贡献者流程补丁'并写进入 contributing 文档——社区方法论随版本演进可引用、可追溯"
+      ],
+      "modern_applications_en": [
+        "Corporate retrospectives: the quarterly retro's output is 'method cards' (numbered, with process and source cases), not slide decks—new projects search the method cards at kickoff",
+        "Personal growth: cast 'what worked this time' into numbered personal-SOP entries (steps + the scenario that first validated them)—retrospectives become incremental commits to a personal method library",
+        "Open-source communities: a release retrospective produces contributor-process patches written into CONTRIBUTING—community methodology citable and traceable across versions"
+      ],
+      "related_modes": [
+        "M-P25F-004",
+        "M-P25F-007",
+        "M-P24F-010",
+        "M-P23F-010"
+      ],
+      "representative_figures": [
+        "Phase25收尾整合（本体）",
+        "孔子（'温故而知新'：温习旧实践以铸出新原则——铸格法的教学论先声）",
+        "顾炎武（《日知录》积条成书：三十余年逐条铸录所见所证——个人方法铸格的最长实践）"
+      ],
+      "figure_code": "P25F"
+    }
+  ]
+}

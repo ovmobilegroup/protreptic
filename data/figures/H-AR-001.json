@@ -1,0 +1,780 @@
+{
+ "schema_version": "v6",
+ "id": "H-AR-001",
+ "code": "H-AR-001",
+ "figure_name": "汉娜·阿伦特",
+ "figure_code": "H-AR-001",
+ "figure_pinyin": "Hānnà·Ālúntè (Hannah Arendt)",
+ "birth_year": 1906,
+ "death_year": 1975,
+ "era": "20世纪政治理论与极权主义批判时代 / Twentieth-Century Political Theory & Totalitarianism-Critique Era (1906-1975)",
+ "school": "政治现象学/极权主义批判 / Political Phenomenology / Critique of Totalitarianism",
+ "historical_significance": "20世纪最重要的政治理论家之一，海德格尔与雅斯贝尔斯的学生。以《极权主义的起源》《人的境况》《艾希曼在耶路撒冷》《论革命》《心智生活》重构了现代政治思想的基本问题：极权主义如何可能（根本恶、多余化）、行动与复数性的政治本体论、劳动/制作/行动三分法、公共-私人领域划分、平庸之恶（无思的服从而非恶魔动机）、以判断力与叙事把握政治。她坚持从事件反向思考概念——'政治现象学家'的路径使概念分析始终贴着历史经验的地面。",
+ "unique_thinking": "以事件诊断为入口、以复数性为本体论根基、以无思/判断为认识论核心、以开新（natality）为行动价值的四层体系。其思维特质在于：拒绝用既有道德词汇直接覆盖新现象——先诊断概念的失效（恶是否有动机、人是否有尊严），再为现象命名；把'行动'从制作与劳动中剥离出来，恢复其不可预测、不可逆却开创未来的本来面目。",
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-AR-001",
+  "M-AR-002",
+  "M-AR-003",
+  "M-AR-004",
+  "M-AR-005",
+  "M-AR-006",
+  "M-AR-007",
+  "M-AR-008",
+  "M-AR-009",
+  "M-AR-010"
+ ],
+ "key_concepts": [
+  "根本恶",
+  "多余化",
+  "平庸之恶",
+  "无思",
+  "行动与复数性",
+  "Vita Activa",
+  "劳动/制作/行动三分法",
+  "公共领域",
+  "私人领域",
+  "社会领域",
+  "新开端",
+  "宽恕与承诺",
+  "代表式思维",
+  "判断力",
+  "讲故事式叙事",
+  "艾希曼审判",
+  "极权主义的起源",
+  "人的境况",
+  "心智生活"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-KD-001",
+   "target_figure_name": "康德",
+   "relation_type": "判断力理论的直接继承与政治化：反思判断的政治运用",
+   "description_zh": "阿伦特的判断力方法论（M-AR-010）直接取自康德《判断力批判》的反思判断——不从既定概念推演个案，而从个案出发寻找可共享的普遍。但她把这一'品味批判'的能力政治化：判断是政治性地存在于世的基本活动，代表式思维（自他人位置思考）使公共世界成为可能（M-KD 的先验框架 × M-AR-010 的政治运用）。康德为认识论立法，阿伦特为公共生活立法。",
+   "bidirectional_hint": "康德档案（H-KD-001）未来修订时可在'反思判断'处补一条指向 H-AR-001 的跨引用（判断力的政治化转用）。"
+  },
+  {
+   "target_figure_code": "H-HEG-001",
+   "target_figure_name": "黑格尔",
+   "relation_type": "历史哲学的对立：以叙事替代逻辑必然性",
+   "description_zh": "黑格尔把历史理解为理性自我实现的必然过程；阿伦特彻底拒绝这一担保——行动的本质是开新与不可预测，任何'历史必然性'叙事恰恰是极权主义意识形态的燃料（M-AR-006 × M-AR-009）。她以讲故事式叙事替代思辨的历史哲学：意义不是在终点被揭示的，而是在复数叙述者之间被讲述出来的。从 M-HEG 的辩证必然到 M-AR 的叙事偶然，是政治思想对历史决定论最关键的告别。",
+   "bidirectional_hint": "黑格尔档案（H-HEG-001）未来修订时可在'历史哲学'处补一条指向 H-AR-001 的跨引用（对历史必然性叙事的极权主义诊断）。"
+  },
+  {
+   "target_figure_code": "H-MV-001",
+   "target_figure_name": "梅洛-庞蒂",
+   "relation_type": "现象学的两条出口：身体在世界中 vs 人在行动中显现",
+   "description_zh": "两人同为现象学传统的继承者与改造者：梅洛-庞蒂把意识落实为'身体-主体'在世界中的栖居（M-MV-003），阿伦特把'人'落实为在公共空间中通过言说与行动显现自身的存在者（M-AR-003/005）。一个以知觉为存在论根基，一个以行动为存在论根基；两者共同拒绝了无世界的纯粹意识，把哲学从内在性拉回人的世界性。",
+   "bidirectional_hint": "梅洛-庞蒂档案（H-MV-001）未来修订时可在'身体-主体'处补一条指向 H-AR-001 的跨引用（显现空间的政治现象学平行）。"
+  },
+  {
+   "target_figure_code": "H-ASM-001",
+   "target_figure_name": "加缪",
+   "relation_type": "同代人的平行诊断：荒诞与恶的现代性根源",
+   "description_zh": "加缪与阿伦特同以20世纪的极端经验为思想起点：加缪诊断'荒诞'——意义期待与世界沉默的断裂，并以反抗维持限度（M-ASM-003）；阿伦特诊断'根本恶与平庸之恶'——多余化与无思的服从，并以判断与行动回应（M-AR-001/002/008）。两人都拒绝历史目的论、都坚持人的限度责任；分歧在于加缪以清醒的反抗为上限，阿伦特以公共行动与判断力的重建为出路。",
+   "bidirectional_hint": "加缪档案（H-ASM-001）未来修订时可在'荒诞与反抗'处补一条指向 H-AR-001 的跨引用（极端时代恶之诊断的政治理论版本）。"
+  },
+  {
+   "target_figure_code": "H-SMQ-001",
+   "target_figure_name": "司马迁",
+   "relation_type": "叙事作为理解政治/历史的两种路径：究天人之际 vs 讲故事",
+   "description_zh": "司马迁以列传叙事把握历史中的人——把人物放进处境、制度与天人之际解释成败（M-SMQ-321 '读其书而考其行'）；阿伦特以讲故事式政治叙事把握现代政治事件——叙事是意义的载体，先于理论概括（M-AR-009）。两人同构处在于：拒绝把人还原为结构或规律的注脚，坚持在具体叙事中保存人的多样性与不可化约性（复数性）。",
+   "bidirectional_hint": "司马迁档案（H-SMQ-001）未来修订时可在'究天人之际'处补一条指向 H-AR-001 的跨引用（叙事保存复数性的政治理论版本）。"
+  },
+  {
+   "target_figure_code": "H-BV-001",
+   "target_figure_name": "波伏娃",
+   "relation_type": "存在主义政治思想的两条公共性路线：处境中的自由 vs 复数性中的行动",
+   "description_zh": "波伏娃与阿伦特同处战后存在主义-现象学脉络：波伏娃把自由处境化——自由在身体、历史、经济与符号给定条件中突围（M-BV-001/006）；阿伦特把行动复数化——行动只在他人见证的公共空间中成为行动（M-AR-003/005）。一个聚焦主体如何在约束中负责，一个聚焦共同体如何为显现保留空间；两者共同把存在主义从孤独主体推向政治世界。",
+   "bidirectional_hint": "波伏娃档案（H-BV-001）未来修订时可在'处境化自由'处补一条指向 H-AR-001 的跨引用（复数性公共空间对处境化自由的补全）。"
+  }
+ ],
+ "tags": [
+  "汉娜·阿伦特",
+  "Hannah Arendt",
+  "极权主义的起源",
+  "The Origins of Totalitarianism",
+  "人的境况",
+  "The Human Condition",
+  "艾希曼在耶路撒冷",
+  "Eichmann in Jerusalem",
+  "论革命",
+  "On Revolution",
+  "心智生活",
+  "The Life of the Mind",
+  "根本恶",
+  "Radical Evil",
+  "平庸之恶",
+  "Banality of Evil",
+  "多余化",
+  "Superfluity",
+  "无思",
+  "Thoughtlessness",
+  "行动",
+  "Action",
+  "复数性",
+  "Plurality",
+  "Vita Activa",
+  "积极生活",
+  "劳动",
+  "Labor",
+  "制作",
+  "Work",
+  "公共领域",
+  "Public Realm",
+  "私人领域",
+  "Private Realm",
+  "新开端",
+  "Natality",
+  "宽恕",
+  "Forgiveness",
+  "承诺",
+  "Promise",
+  "判断力",
+  "Judgment",
+  "代表式思维",
+  "Representative Thinking",
+  "政治现象学",
+  "Political Phenomenology",
+  "海德格尔",
+  "Martin Heidegger",
+  "雅斯贝尔斯",
+  "Karl Jaspers"
+ ],
+ "mode_ids_note": "M-AR-001 ~ M-AR-010（figure_code=Arendt → 编码 H-AR-001；库内查重零冲突：M-AR 前缀 modes_data/code_maps 无占用，C-AR 场景前缀无占用，H-AR 编码无占用）",
+ "caveats": [
+  "阿伦特生卒年（1906-1975）无争议；但《艾希曼在耶路撒冷》1963年发表后引发巨大争议（对犹太人委员会角色的批评被广泛误读），引用其'平庸之恶'须同时注明争论史（Berkowitz《麻烦的必然性》等）",
+  "'平庸之恶'常被误解为'恶是平庸的'——阿伦特的原意是恶源自'无思'（不思考），而非恶的程度轻；艾希曼本人是否'无思'后来受 Stangneth《艾希曼 before Jerusalem》档案挑战，引用须区分概念与个案",
+  "《极权主义的起源》1951年初版与1958/1966修订版结构不同（初版无'意识形态与恐怖'章结语），引用须注明版本",
+  "阿伦特与海德格尔的师生及恋爱关系使其对海德格尔的评价长期受争议，不可用传记关系替代对其文本的独立评估",
+  "她对'社会领域'的批评（家务劳动、贫困问题被排除出政治）受到女性主义与批判理论的有力批评（如 On benhabib, Pitkin），引用其公共-私人划分须标注该局限",
+  "阿伦特拒绝'哲学家'称号而自称政治理论家，其'思考/意志/判断'《心智生活》为未完成遗作，引用须注明未完成状态"
+ ],
+ "modes": [
+  {
+   "id": "M-AR-001",
+   "name_zh": "根本恶之思",
+   "name_en": "Radical Evil Thinking (Superfluity Diagnosis)",
+   "category": "政治哲学/恶之理论",
+   "domain_zh": "政治哲学/极权主义批判",
+   "domain_en": "Political Philosophy / Critique of Totalitarianism",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "阿伦特在《极权主义的起源》结尾提出：极权主义的恶不是出于可理解的动机（贪婪、嫉妒、权欲），而是要使整个人类成为「多余的」——取消人的自发性与多样性，把人变成纯然的材料。这种恶之所以「根本」，在于它摧毁了恶需要动机这一道德哲学前提：当恶不再能从人性动机中获得解释，传统的善恶范畴就失效了。方法上这意味着：面对极端现象，先诊断它摧毁了哪些概念前提，而不是强行套用旧概念。",
+   "definition_en": "In the final pages of The Origins of Totalitarianism, Arendt argues that totalitarian evil is not driven by comprehensible motives—greed, envy, lust for power—but aims to make humanity itself 'superfluous', abolishing human spontaneity and variety and reducing people to raw material. Such evil is 'radical' because it destroys the premise that evil needs a motive: when wickedness can no longer be explained from human motives, the traditional categories of good and evil break down. Methodologically: when confronting extreme phenomena, first diagnose which conceptual premises have been destroyed rather than forcing old categories onto them.",
+   "source_chapter": "《极权主义的起源》第三部第十三章",
+   "key_concepts": [
+    "根本恶",
+    "多余化",
+    "人格取消",
+    "自由与自发性",
+    "概念前提诊断"
+   ],
+   "key_quote_zh": "极权主义的进攻不针对外在敌人，而针对人的「多余性」——仿佛人类这一种类按其本性就是多余的了。",
+   "key_quote_en": "Totalitarian domination aims not at external enemies but at human superfluousness—as if mankind as such were by nature superfluous.",
+   "process_zh": [
+    "识别现象声称要消灭的东西：不只是生命，还有人格、自发性、多样性",
+    "追问传统概念（恶需有动机、人有尊严）在此现象下是否仍成立",
+    "找出被摧毁的概念前提，承认既有道德词汇的失效",
+    "以「多余化」为标准重新定义该现象的危害等级与结构"
+   ],
+   "process_en": [
+    "Identify what the phenomenon claims to eliminate: not only lives but personality, spontaneity, variety",
+    "Ask whether traditional concepts (evil needs motive; human dignity) still hold under this phenomenon",
+    "Locate the destroyed conceptual premise and admit the failure of inherited moral vocabulary",
+    "Redefine the phenomenon's structural danger using 'superfluousness' as the standard"
+   ],
+   "representative_cases_zh": [
+    "《极权主义的起源》对集中营作为「实验室」的分析：在那里人被还原为永不过剩的反应物",
+    "对纳粹主义与斯大林主义的比较诊断：两者共同点不在意识形态内容而在消灭多样性的结构"
+   ],
+   "representative_cases_en": [
+    "Analysis of the camps as 'laboratories': the reduction of human beings to bundles of reactions that can never be enough",
+    "Comparative diagnosis of Nazism and Stalinism: their commonality lies not in ideology but in the structure abolishing variety"
+   ],
+   "modern_applications_zh": [
+    "极端主义与系统性去人性化风险的早期识别",
+    "组织治理中防止把人纯然当作资源消耗",
+    "技术伦理：算法与AI系统的「人的多余化」风险",
+    "灾难伦理与危机管理中的底线思维"
+   ],
+   "modern_applications_en": [
+    "Early detection of extremism and systemic dehumanization risks",
+    "Governance safeguards against treating people as mere expendable resources",
+    "Tech ethics: risks of 'human superfluousness' in algorithmic and AI systems",
+    "Bottom-line thinking in disaster ethics and crisis management"
+   ],
+   "related_modes": [
+    "M-AR-002",
+    "M-AR-008",
+    "M-AR-010"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-001"
+  },
+  {
+   "id": "M-AR-002",
+   "name_zh": "平庸之恶诊断",
+   "name_en": "Banality of Evil Diagnosis",
+   "category": "伦理学/恶之诊断",
+   "domain_zh": "伦理学/官僚制批判",
+   "domain_en": "Ethics / Critique of Bureaucracy",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "在《艾希曼在耶路撒冷》中，阿伦特把恶从「恶魔的深渊」拉回到「庸常的表面」：艾希曼不是虐待狂也不是狂热分子，而是一个不能从他人位置思考、只会用陈词滥调自我辩护的官僚。恶的平庸性不是说恶不严重，而是说恶的来源常常不是恶意而是无思——尽职、顺从、追求晋升、语言套壳。诊断方法：不要从行为后果倒推恶魔动机，而要考察行为者实际的心智运作，包括他如何说话、如何回避具体性。",
+   "definition_en": "In Eichmann in Jerusalem, Arendt pulls evil from 'demonic depth' down to 'the surface of ordinariness': Eichmann was neither a sadist nor a fanatic but a bureaucrat unable to think from another's standpoint, defending himself in clichés. The banality of evil does not mean evil is trivial; it means evil often springs not from malice but from thoughtlessness—duty, obedience, careerism, stock phrases. The diagnostic method: do not infer demonic motives from outcomes; examine the agent's actual mental operations, including how he speaks and avoids concreteness.",
+   "source_chapter": "《艾希曼在耶路撒冷：一份关于平庸的恶的报告》尾声",
+   "key_concepts": [
+    "平庸之恶",
+    "无思",
+    "官僚制服从",
+    "陈词滥调",
+    "动机归因批判"
+   ],
+   "key_quote_zh": "恶的平庸性——这种恶不是出自恶魔般深邃的动机，而恰恰出自「不思考」的庸常表面。",
+   "key_quote_en": "The banality of evil: evil issues not from any demonic depth of motivation but from the surface of thoughtlessness.",
+   "process_zh": [
+    "搁置对行为者的动机预设，直接考察其言行记录",
+    "分析其语言：是否依赖套话、被动语态、职责话语回避具体判断",
+    "检验其反思能力：能否从受害者位置设想行为后果",
+    "把「无思而尽职」确立为独立的恶之来源，与恶意并行追责"
+   ],
+   "process_en": [
+    "Suspend preconceptions about motive; examine the agent's words and records directly",
+    "Analyze language: reliance on clichés, passive voice, duty-talk to avoid concrete judgment",
+    "Test reflective capacity: can the agent envision consequences from the victims' standpoint",
+    "Establish 'thoughtless dutifulness' as an independent source of evil, prosecutable alongside malice"
+   ],
+   "representative_cases_zh": [
+    "对艾希曼审判的现场观察：他反复重复的官僚套语与其行为之间的落差",
+    "《责任与判断》对普通公职人员在体制内作恶的追问：服从是否可以免责"
+   ],
+   "representative_cases_en": [
+    "Field observation at the Eichmann trial: the gap between his stock bureaucratic phrases and his deeds",
+    "Responsibility and Judgment's inquiry into ordinary officials doing evil within the system: does obedience excuse"
+   ],
+   "modern_applications_zh": [
+    "组织合规审查：识别「按流程作恶」的制度性风险",
+    "职场伦理教育：拒绝以服从为借口的责任转移",
+    "司法与问责制度设计：如何追责无恶意的执行者",
+    "媒体与信息环境中的语言套壳识别"
+   ],
+   "modern_applications_en": [
+    "Organizational compliance: identifying systemic risk of 'evil by procedure'",
+    "Workplace ethics: refusing responsibility transfer via the obedience excuse",
+    "Judicial and accountability design: how to hold motiveless executors responsible",
+    "Detecting cliché-shell language in media and information environments"
+   ],
+   "related_modes": [
+    "M-AR-001",
+    "M-AR-008",
+    "M-AR-005"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-002"
+  },
+  {
+   "id": "M-AR-003",
+   "name_zh": "行动-复数性本体论",
+   "name_en": "Action and Plurality Ontology",
+   "category": "政治哲学/行动理论",
+   "domain_zh": "政治哲学/行动理论",
+   "domain_en": "Political Philosophy / Theory of Action",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "阿伦特把「行动」定义为唯一需要他人到场的人类活动：行动的条件是复数性（plurality）——世上存在的是人们而非单一的人，每个人都不可重复。人通过言说和行动把自己「显现」于公共世界，是谁（who）不同于是什么（what）：后者由劳动与制作层面回答，前者只能在行动中揭示。方法上这意味着：理解任何政治与社会现象，必须看「谁」在公共空间中如何言说与相互行动，而非只看利益与功能的运作。",
+   "definition_en": "Arendt defines action as the only human activity that requires the presence of others: its condition is plurality—the fact that it is men, not Man, who live on earth, each irreducibly unique. Through speech and action people disclose themselves in the public world; who someone is differs from what someone is: the latter is answered at the levels of labor and work, the former only revealed in action. Methodologically: to understand any political or social phenomenon, watch who speaks and acts with whom in public space, not merely how interests and functions operate.",
+   "source_chapter": "《人的境况》第五章",
+   "key_concepts": [
+    "复数性",
+    "显现空间",
+    "言说与行动",
+    "是谁/是什么",
+    "不可重复性"
+   ],
+   "key_quote_zh": "行动的条件是复数性——即人们而非单一的人生活于世这一事实。",
+   "key_quote_en": "The condition of action is plurality—the fact that men, not Man, live on the earth and inhabit a world.",
+   "process_zh": [
+    "区分被分析的对象属于劳动（生存必需）、制作（工具目的）还是行动（自由显现）",
+    "寻找显现空间：谁在公共场域中以言说揭示自己",
+    "追踪「是谁」的显现：个人独特的开场与回应，而非可替换的功能角色",
+    "以复数性为前提评估该现象：它扩大还是压缩了「人们」的多样在场"
+   ],
+   "process_en": [
+    "Classify the object under labor (necessity), work (instrumentality), or action (freedom and disclosure)",
+    "Locate the space of appearance: who speaks and discloses themselves in public",
+    "Track the disclosure of 'who': unique openings and replies, not replaceable functionaries",
+    "Evaluate the phenomenon against plurality: does it expand or compress the presence of 'men' in variety"
+   ],
+   "representative_cases_zh": [
+    "《人的境况》对古希腊城邦的分析：城邦是行动与言说的显现空间，与家务的必然性领域相对",
+    "对1956年匈牙利革命等「空间中的自由」瞬间的观察：人们集体行动时新颖言辞的涌现"
+   ],
+   "representative_cases_en": [
+    "The Human Condition's analysis of the Greek polis as a space of appearance for speech and action versus the necessity of the household",
+    "Observation of 'freedom in space' moments such as the 1956 Hungarian revolution: the emergence of novel speech in collective action"
+   ],
+   "modern_applications_zh": [
+    "公共治理设计：为公民言说保留真正的公共空间",
+    "组织管理：从功能评估转向「谁在显现」的领导力视角",
+    "社交平台评估：复数性在场还是同质化回音",
+    "教育与自我发展：把自我理解为在他人面前生成的「是谁」"
+   ],
+   "modern_applications_en": [
+    "Public governance: preserving genuine public space for citizen speech",
+    "Management: shifting from functional evaluation to a 'who appears' view of leadership",
+    "Platform assessment: plurality of presence versus homogeneous echo",
+    "Education and self-development: understanding self as a 'who' generated before others"
+   ],
+   "related_modes": [
+    "M-AR-004",
+    "M-AR-005",
+    "M-AR-006"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-003"
+  },
+  {
+   "id": "M-AR-004",
+   "name_zh": "劳动-制作-行动三分法",
+   "name_en": "Vita Activa Trichotomy (Labor-Work-Action)",
+   "category": "方法论/概念区分",
+   "domain_zh": "政治哲学/人类活动分类",
+   "domain_en": "Political Philosophy / Classification of Human Activity",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "阿伦特在《人的境况》中用三种活动对应三种存在条件：劳动对应生命必需（吃喝、维持生物过程），其产物被消费、不留下世界；制作对应世界性（建造桌子、艺术品的持续人工世界），有明确的目的-手段结构；行动对应人的复数性与自由，无固定终点，产物是关系与事件。这一区分是分析工具而非等级表：混淆三者（如把政治当制作、把教育当生产）会系统性扭曲实践。",
+   "definition_en": "In The Human Condition, Arendt maps three activities onto three conditions: labor corresponds to biological necessity (consumed, leaving no world); work corresponds to worldliness (building a durable artificial world of tables and artworks, with clear means-ends structure); action corresponds to plurality and freedom (no fixed endpoint, producing relations and events). The distinction is an analytical instrument, not a hierarchy: conflating the three—treating politics as fabrication or education as production—systematically distorts practice.",
+   "source_chapter": "《人的境况》第三、四、五章",
+   "key_concepts": [
+    "积极生活",
+    "劳动",
+    "制作",
+    "行动",
+    "目的-手段范畴批判"
+   ],
+   "key_quote_zh": "劳动、制作与行动的区别，在于它们各自对应的生命条件不同。",
+   "key_quote_en": "The distinction between labor, work, and action rests on their correspondence to different conditions of human life.",
+   "process_zh": [
+    "追问该活动满足的是生命必需、世界建构还是人际自由",
+    "检查其产物：被消费、被留存，还是构成事件与关系",
+    "识别范畴混用：是否用目的-手段逻辑处理本应开放的人际事务",
+    "按所属范畴选择对应的评价标准（效率/持久性/意义与自由）"
+   ],
+   "process_en": [
+    "Ask whether the activity serves biological necessity, world-building, or interpersonal freedom",
+    "Inspect its products: consumed, retained, or constituting events and relations",
+    "Detect category confusion: applying means-ends logic to inherently open interpersonal affairs",
+    "Choose the proper standard of evaluation per category (efficiency / durability / meaning and freedom)"
+   ],
+   "representative_cases_zh": [
+    "《人的境况》对现代「劳动社会」的诊断：把一切活动劳动化，导致无世界性消费的加速循环",
+    "对「制作政治」的批判：柏拉图把城邦当作工匠产品来设计，开启了以暴力替代说服的传统"
+   ],
+   "representative_cases_en": [
+    "Diagnosis of the modern 'laboring society': universalization of labor accelerates a worldless cycle of consumption",
+    "Critique of 'fabricating politics': Plato's design of the polis as an artisan's product inaugurated substituting violence for persuasion"
+   ],
+   "modern_applications_zh": [
+    "职业与人生规划：区分谋生、作品与公共参与三个层面",
+    "公共决策分类：基础设施（制作）与公民协商（行动）不可同法处理",
+    "平台经济批判：把劳动外包给算法却伪装成自由",
+    "教育设计：区分技能训练与人格显现"
+   ],
+   "modern_applications_en": [
+    "Career and life planning: separating earning, works, and public participation",
+    "Classifying public decisions: infrastructure (work) versus citizen deliberation (action) demand different methods",
+    "Critique of platform economy: outsourcing labor to algorithms while disguising it as freedom",
+    "Educational design: separating skill training from self-disclosure"
+   ],
+   "related_modes": [
+    "M-AR-003",
+    "M-AR-005"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-004"
+  },
+  {
+   "id": "M-AR-005",
+   "name_zh": "公共-私人领域划分",
+   "name_en": "Public-Private Distinction",
+   "category": "政治哲学/空间理论",
+   "domain_zh": "政治哲学/公共领域理论",
+   "domain_en": "Political Philosophy / Theory of the Public Realm",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "阿伦特区分公共领域（世界性的、向所有人开放的、可被记忆与传承的空间）与私人领域（隐蔽性、必然性、生命过程的安放之地），并警惕两者的双向侵蚀：私人事务公共化剥夺了人的隐蔽与深度，公共事务私人化则摧毁共同世界。社会（society）的兴起恰是两者边界的模糊——家政管理逻辑侵入公共领域。方法上：评估任何制度变革时，先问它改变了公共与私人之间的哪条边界、向哪个方向改变。",
+   "definition_en": "Arendt distinguishes the public realm (worldly, open to all, preserved in memory) from the private realm (concealment, necessity, shelter for the life process), warning against erosion from both directions: making the private public deprives people of depth and shelter, while making the public private destroys the common world. The rise of 'society' is precisely the blurring of the boundary—household logic invading the public. Method: when assessing any institutional change, first ask which boundary between public and private it moves, and in which direction.",
+   "source_chapter": "《人的境况》第二章",
+   "key_concepts": [
+    "公共领域",
+    "私人领域",
+    "社会",
+    "隐蔽性",
+    "共同世界"
+   ],
+   "key_quote_zh": "公共性意味着：一切在公共中出现的东西，都能被所有人看见和听见，具有最广泛的公开性。",
+   "key_quote_en": "Public means that everything appearing in public can be seen and heard by everybody and has the widest possible publicity.",
+   "process_zh": [
+    "界定议题的归属：属生命必需（私人）还是属共同世界（公共）",
+    "追踪边界移动：该变化把什么暴露于公开，又把什么遮蔽",
+    "识别「社会」型混合：以家政管理逻辑处理公共事务的倾向",
+    "维护双向门槛：保护隐私的隐蔽价值，也保护公共空间的开放性"
+   ],
+   "process_en": [
+    "Classify the issue: life necessity (private) or the common world (public)",
+    "Track boundary movement: what the change exposes to publicity and what it conceals",
+    "Detect the 'societal' hybrid: applying household-management logic to public affairs",
+    "Guard both thresholds: the value of privacy's concealment and the openness of public space"
+   ],
+   "representative_cases_zh": [
+    "《人的境况》对「社会的兴起」的分析：从「圣洁的家宅」到家政成为公共关心的对象",
+    "对极权社会把一切私人空间「动员化」的批判：亲密性的毁灭"
+   ],
+   "representative_cases_en": [
+    "The Human Condition's account of the rise of the social: from the 'sacred household' to household matters becoming objects of public concern",
+    "Critique of totalitarian mobilization of all private space: the destruction of intimacy"
+   ],
+   "modern_applications_zh": [
+    "隐私与数据治理：界定何种信息不得进入公共/商业空间",
+    "城市与社区设计：公共聚集空间与庇护所的配比",
+    "社交媒体边界管理：何事值得公开、何事需要留白",
+    "组织治理：工作暴露与私人保护的制度边界"
+   ],
+   "modern_applications_en": [
+    "Privacy and data governance: what must never enter public or commercial space",
+    "Urban and community design: balancing commons and shelters",
+    "Social media boundary management: what deserves publicity, what needs reserve",
+    "Organizational governance: institutional limits between exposure and protection"
+   ],
+   "related_modes": [
+    "M-AR-003",
+    "M-AR-004"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-005"
+  },
+  {
+   "id": "M-AR-006",
+   "name_zh": "新开端之思",
+   "name_en": "Natality Thinking (Thinking of New Beginnings)",
+   "category": "政治哲学/时间哲学",
+   "domain_zh": "政治哲学/开端理论",
+   "domain_en": "Political Philosophy / Theory of Beginnings",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "阿伦特把「诞生性」（natality）——每个人作为新来者降生于世——视为行动的核心条件：每一次行动都引入了世界上前所未有的开端，带来不可预测性与不可逆性。她反转了把开端等同于暴力的传统（创世式开端需征服他者），主张开端可以基于复数性而非孤单。方法上：分析变革时，把「新事物的进入机制」作为首要问题——它如何发生、谁使之发生、如何不受历史决定论的解释收编。",
+   "definition_en": "Arendt treats natality—each person's birth as a newcomer into the world—as the central condition of action: every act introduces a beginning unprecedented in the world, bringing unpredictability and irreversibility. She reverses the tradition equating beginning with violence (a creator's beginning requires subduing others), holding that beginning can rest on plurality rather than solitude. Method: in analyzing change, the entry mechanism of the new is the primary question—how it occurs, who makes it occur, and how it escapes absorption by historical determinism.",
+   "source_chapter": "《人的境况》第六章；《论革命》第六章",
+   "key_concepts": [
+    "诞生性",
+    "新开端",
+    "不可预测性",
+    "奇迹",
+    "自由作为开端能力"
+   ],
+   "key_quote_zh": "人虽然是受造之物，却被赋予创造新开端的能力；行动的能力内在于每一次新生。",
+   "key_quote_en": "Though created, man is endowed with the faculty of beginning something new; the capacity for action is inherent in every natality.",
+   "process_zh": [
+    "识别事件中的「新」：哪些要素无法用先前条件推导",
+    "追问开端的结构：由孤单的强制还是复数性的相互激发促成",
+    "区分开端与暴力：新事物的进入是否必须践踏他者",
+    "为不可预测性留位：评估与决策不要假装已穷尽后果"
+   ],
+   "process_en": [
+    "Identify the 'new' in events: what cannot be derived from prior conditions",
+    "Examine the structure of the beginning: solitary coercion or mutually inspiring plurality",
+    "Distinguish beginning from violence: does the new require trampling others to enter",
+    "Make room for unpredictability: refuse to pretend all consequences are already foreseen"
+   ],
+   "representative_cases_zh": [
+    "《论革命》对美国革命的分析：以「结盟与协商」而非征服构成开端的政治行动",
+    "《人的境况》以米开朗基罗的「诞生」意象说明每代人重新进入世界的能力"
+   ],
+   "representative_cases_en": [
+    "On Revolution's analysis of the American Revolution: founding through mutual promising and deliberation rather than conquest",
+    "The Human Condition's use of the 'nativity' motif to mark each generation's capacity to re-enter the world"
+   ],
+   "modern_applications_zh": [
+    "组织变革管理：为自下而上的新开端留出制度缝隙",
+    "创新方法：把「不可预测」当作资源而非风险全部消解",
+    "教育哲学：把学生视为带来新开端的继承者而非待塑造材料",
+    "危机后的重建：识别并保护社会自发性的萌芽"
+   ],
+   "modern_applications_en": [
+    "Organizational change: leaving institutional gaps for bottom-up beginnings",
+    "Innovation practice: treating unpredictability as a resource, not a risk to be fully eliminated",
+    "Philosophy of education: students as bearers of new beginnings, not material to shape",
+    "Post-crisis rebuilding: identifying and protecting sprouts of social spontaneity"
+   ],
+   "related_modes": [
+    "M-AR-003",
+    "M-AR-007"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-006"
+  },
+  {
+   "id": "M-AR-007",
+   "name_zh": "宽恕与承诺之破局法",
+   "name_en": "Forgiveness and Promise (Remedies for Action's Predicament)",
+   "category": "伦理学/政治伦理",
+   "domain_zh": "政治哲学/行动的救赎机制",
+   "domain_en": "Political Philosophy / Remedies for the Predicament of Action",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "行动带来不可逆（无法收回已做之事）与不可预测（无法控制后果）两大困境。阿伦特在《人的境况》中给出两种对应机制：宽恕化解不可逆——为失败者、悔过者解除行为的束缚，使其重新开始；承诺化解不可预测——在复数的人之间建立可靠关系，在不确定的海洋中划出可控岛屿。两者都是行动性的而非情绪性的：宽恕不是遗忘，承诺不是预言。",
+   "definition_en": "Action brings two predicaments: irreversibility (deeds cannot be undone) and unpredictability (consequences cannot be controlled). In The Human Condition, Arendt offers two corresponding remedies: forgiveness addresses irreversibility—freeing the failed and repentant from the fetters of their deed so they may begin anew; promising addresses unpredictability—establishing reliable relations among plural persons, carving islands of stability in the ocean of uncertainty. Both are performative rather than emotional: forgiveness is not forgetting, promise is not prophecy.",
+   "source_chapter": "《人的境况》第六章第33、34节",
+   "key_concepts": [
+    "不可逆性",
+    "不可预测性",
+    "宽恕",
+    "承诺",
+    "重新开始"
+   ],
+   "key_quote_zh": "宽恕是对不可逆性的解药，承诺是对不可预测性的解药。",
+   "key_quote_en": "Forgiveness is the remedy against irreversibility; promise, the remedy against unpredictability.",
+   "process_zh": [
+    "区分困境类型：此事是已不可逆，还是后果尚不可预测",
+    "不可逆之困境：评估是否存在值得宽恕的悔过与重新开始的可能",
+    "不可预测之困境：以相互承诺建立有限、可更新、有边界的协作结构",
+    "避免两种滥用：以宽恕逃避追责，或以过度承诺制造伪确定性"
+   ],
+   "process_en": [
+    "Classify the predicament: is the deed irreversible, or are consequences merely unpredictable",
+    "For irreversibility: assess whether repentance and a genuine new start merit forgiveness",
+    "For unpredictability: build bounded, renewable structures of mutual promise",
+    "Avoid two abuses: evading accountability via forgiveness, or manufacturing false certainty via over-promising"
+   ],
+   "representative_cases_zh": [
+    "《人的境况》对耶稣引入宽恕原则作为行动性（而非情感性）德性的分析",
+    "对美国革命「相互承诺」宪政结构的解读：《五月花号公约》作为承诺机制的实例"
+   ],
+   "representative_cases_en": [
+    "The Human Condition's account of Jesus introducing forgiveness as a performative, not sentimental, virtue",
+    "Reading the American constitutional founding as mutual promising: the Mayflower Compact as a promise mechanism"
+   ],
+   "modern_applications_zh": [
+    "组织复盘文化：区分可修复失误与原则性错误的处理通道",
+    "转型正义设计：宽恕与追责的平衡机制",
+    "长期协作契约：用可更新的承诺替代一次性完备协议",
+    "个人成长：对自身不可逆选择的宽恕式处理与再出发"
+   ],
+   "modern_applications_en": [
+    "Organizational postmortems: separate channels for recoverable errors and principled failures",
+    "Transitional justice design: balancing forgiveness and accountability",
+    "Long-term collaboration: renewable promises instead of one-shot exhaustive contracts",
+    "Personal growth: forgiving one's irreversible choices and starting anew"
+   ],
+   "related_modes": [
+    "M-AR-006",
+    "M-AR-003"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-007"
+  },
+  {
+   "id": "M-AR-008",
+   "name_zh": "无思者推断法",
+   "name_en": "Thoughtlessness Inference (Mental Life Forensics)",
+   "category": "认识论/心智诊断",
+   "domain_zh": "认识论/思考与心智诊断",
+   "domain_en": "Epistemology / Diagnostics of Thinking and Mental Life",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "阿伦特晚年在《心智生活》中把「思考是什么」作为前置问题：思考是无声的自我对话（我与自我的二而一），它不产出真理定理，却能瓦解一切既定规则与套话；无思者恰恰生活在陈词滥调的保护壳内。推断方法：从一个人的语言痕迹（套话密度、被动语态、自我对话的缺失）推断其心智结构，并预警——大规模恶行往往以无思为前提，而非以凶残为前提。",
+   "definition_en": "In The Life of the Mind, Arendt poses 'what is thinking' as the prior question: thinking is the soundless dialogue of me with myself (the two-in-one); it yields no theorems but dissolves established rules and clichés. The thoughtless live inside shells of stock phrases. Inference method: reconstruct a person's mental structure from linguistic traces (density of clichés, passive voice, absence of inner dialogue), and warn—mass evil presupposes thoughtlessness, not ferocity.",
+   "source_chapter": "《心智生活》第一卷第1-4章",
+   "key_concepts": [
+    "无思",
+    "我与自我的二而一",
+    "陈词滥调",
+    "思考与判断分离",
+    "语言痕迹分析"
+   ],
+   "key_quote_zh": "思考是不出声的对话：我与自我之间无声的问答。",
+   "key_quote_en": "Thinking is the soundless dialogue: the silent question-and-answer between me and myself.",
+   "process_zh": [
+    "采集对象的公开语言样本：陈述、访谈、书面记录",
+    "量化套话与借语比例：是否有出自己口的表述",
+    "检验自我对话痕迹：能否呈现两个立场的内在争执",
+    "由语言结构推断心智结构，并据此设定制度性防线（如要求关键决策者书面说理）"
+   ],
+   "process_en": [
+    "Collect public language samples: statements, interviews, written records",
+    "Quantify cliché and borrowed-phrase ratio: any expression of one's own",
+    "Test traces of inner dialogue: can the person stage a dispute between two standpoints",
+    "Infer mental structure from language; build institutional safeguards (e.g. requiring written reasoning from key decision-makers)"
+   ],
+   "representative_cases_zh": [
+    "对艾希曼语言的法证式阅读：官僚套话完全替代第一人称判断的缺失",
+    "《心智生活》对康德式思考（与自己讨论）的重新激活"
+   ],
+   "representative_cases_en": [
+    "Forensic reading of Eichmann's language: stock phrases displacing first-person judgment",
+    "The Life of the Mind's reactivation of Kantian thinking as a dialogue with oneself"
+   ],
+   "modern_applications_zh": [
+    "组织决策诊断：识别「照本宣科」型管理者的风险",
+    "面试与人才评估：考察自我对话与说理能力",
+    "批判性写作训练：从套话中解放第一人称判断",
+    "信息素养：识别无思传播链"
+   ],
+   "modern_applications_en": [
+    "Decision diagnostics: spotting risk in script-reading managers",
+    "Interviewing and talent assessment: probing inner dialogue and reasoning",
+    "Critical writing training: freeing first-person judgment from clichés",
+    "Information literacy: detecting thoughtless transmission chains"
+   ],
+   "related_modes": [
+    "M-AR-002",
+    "M-AR-001",
+    "M-AR-010"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-008"
+  },
+  {
+   "id": "M-AR-009",
+   "name_zh": "讲故事式政治叙事",
+   "name_en": "Storytelling as Political Narrative",
+   "category": "方法论/叙事方法",
+   "domain_zh": "政治理论/叙事方法论",
+   "domain_en": "Political Theory / Narrative Methodology",
+   "level": "重要",
+   "priority": 2,
+   "definition_zh": "阿伦特拒绝体系化哲学写作，认为政治现象的意义只能通过讲故事来把握：「故事揭示行动者，但只有当行动已被其终点打断、成为可讲述的对象时」。她的《拉赫尔·法恩哈根》与《艾希曼报告》都以人物叙事承载理论。方法要点：以具体事件与人物言行为叙述骨架，让概念从叙事中显形；拒绝把经验强行塞入理论框架，承认意义的多元与不可归纳完成。",
+   "definition_en": "Arendt refused systematic philosophical writing, holding that the meaning of political phenomena can only be grasped by storytelling: 'the story reveals the agent, but only once the deed is interrupted by its end and becomes a tellable object.' Rahel Varnhagen and the Eichmann report both carry theory in narrative. Method: build the skeleton from concrete events and persons' words, letting concepts surface from narrative; refuse to force experience into theoretical frames, acknowledging meaning's plurality and incompleteness of induction.",
+   "source_chapter": "《人的境况》第二十四章；《拉赫尔·法恩哈根》；《关于叙事的思考》",
+   "key_concepts": [
+    "讲故事",
+    "意义与归纳",
+    "行动的可讲述性",
+    "反体系写作",
+    "人物叙事"
+   ],
+   "key_quote_zh": "虽然我们每个人都在行动中显现自己，但只有故事的讲述者才能揭示出「是谁」。",
+   "key_quote_en": "Although everybody started his life by inserting himself into the human world through action and speech, only the storyteller reveals who the agent was.",
+   "process_zh": [
+    "选择具体事件与真实人物作为叙述骨架，拒绝抽象化的总括开篇",
+    "让概念随情节显形，而非先立框架再填经验",
+    "保留结局与转折的完整性：故事以其自身的终点打断行动",
+    "自我审查：检查叙事是否被预设理论扭曲，承认不可归纳的剩余"
+   ],
+   "process_en": [
+    "Choose concrete events and real persons as narrative skeleton, refusing totalizing abstraction",
+    "Let concepts surface through the plot instead of framing first and filling in later",
+    "Preserve endings and turns intact: the story interrupts the deed at its own end",
+    "Self-audit: check whether the narrative is distorted by preset theory; admit the residue that resists induction"
+   ],
+   "representative_cases_zh": [
+    "《艾希曼在耶路撒冷》以庭审与人物言行为骨架的报告体写作",
+    "《拉赫尔·法恩哈根》以单个犹太女性一生讲述同化困境的叙事理论化"
+   ],
+   "representative_cases_en": [
+    "The report form of Eichmann in Jerusalem, built on the trial and the person's own words",
+    "Rahel Varnhagen: theorizing the assimilation predicament through one Jewish woman's life"
+   ],
+   "modern_applications_zh": [
+    "案例研究与行业分析写作：以故事承载概念",
+    "组织史与口述史方法",
+    "公共政策传播：用具体人物叙事替代抽象数据堆叠",
+    "学术写作训练：反体系的论证组织"
+   ],
+   "modern_applications_en": [
+    "Case study and industry analysis: carrying concepts in stories",
+    "Organizational history and oral history method",
+    "Public policy communication: concrete narrative over abstract data dumps",
+    "Academic writing training: anti-systematic argument organization"
+   ],
+   "related_modes": [
+    "M-AR-003",
+    "M-AR-010"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-009"
+  },
+  {
+   "id": "M-AR-010",
+   "name_zh": "判断力方法论",
+   "name_en": "Judgment Methodology (Representative Thinking)",
+   "category": "认识论/判断力",
+   "domain_zh": "政治哲学/判断力理论",
+   "domain_en": "Political Philosophy / Theory of Judgment",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "阿伦特晚年重读康德《判断力批判》，把它读成政治理论的奠基文本：判断不是从普遍规则推导，而是「反思维判断」——面对无先例的具体处境，通过「代表式思维」形成意见：尽可能多地到他人位置上思考，把多种视角带进自己的内心对话，再得出一个可言说、可协商的立场。判断力因此是政治能力本身：在无规则可用时，以扩展的心智进行裁决。",
+   "definition_en": "In her late rereading of Kant's Critique of Judgment, Arendt found the foundation of political theory: judgment is not deduction from rules but reflective judgment—confronting unprecedented particulars by 'representative thinking': visiting as many others' standpoints as possible, bringing those perspectives into one's inner dialogue, and only then forming an opinion that is speakable and negotiable. Judgment is thus political capacity itself: adjudicating with an enlarged mentality when no rule is available.",
+   "source_chapter": "《康德政治哲学讲稿》；《文化与政治》论「真理与政治」",
+   "key_concepts": [
+    "判断力",
+    "反思维判断",
+    "代表式思维",
+    "扩展的心智",
+    "意见与真理之别"
+   ],
+   "key_quote_zh": "判断力的尺度之一是「扩展的心智」：能站在他人的位置上思考。",
+   "key_quote_en": "One of the standards of judgment is 'enlarged mentality': the ability to think in the place of everybody else.",
+   "process_zh": [
+    "确认处境无先例可循，放弃套用现成规则的企图",
+    "识别所有受影响的立场，逐一进入其视角做「实地想象」",
+    "在内心对话中并置多视角，检验哪个立场经得起从各处观看",
+    "以可公开言说、可被说服修正的形式输出意见，并接受他人判断的检验"
+   ],
+   "process_en": [
+    "Confirm the situation has no precedent; abandon applying ready-made rules",
+    "Identify all affected standpoints and imaginatively visit each in turn",
+    "Juxtapose perspectives in inner dialogue; test which stance withstands being seen from everywhere",
+    "Output the opinion in speakable, persuadable form, open to others' judgment"
+   ],
+   "representative_cases_zh": [
+    "《真理与政治》对意见（doxa）的辩护：每种意见都是世界从某一位置的揭示",
+    "对「良心」与「判断」的区分：判断需要他人到场，良心只需自我对话"
+   ],
+   "representative_cases_en": [
+    "'Truth and Politics': defending opinion (doxa) as the world's disclosure from a particular position",
+    "Distinguishing conscience from judgment: judgment needs the presence of others, conscience only the dialogue with oneself"
+   ],
+   "modern_applications_zh": [
+    "复杂决策训练：多视角代表式分析框架",
+    "调解与协商机制设计：意见的可言说与可修正",
+    "评审与仲裁方法论：从规则导向转向视角扩展",
+    "公共讨论素养：区分事实、真理与可协商意见"
+   ],
+   "modern_applications_en": [
+    "Complex decision training: representative multi-perspective frameworks",
+    "Designing mediation and deliberation: opinions speakable and revisable",
+    "Review and arbitration method: enlarged mentality over rule application",
+    "Public discourse literacy: separating facts, truth, and negotiable opinion"
+   ],
+   "related_modes": [
+    "M-AR-008",
+    "M-AR-003",
+    "M-AR-009"
+   ],
+   "representative_figures": [
+    "汉娜·阿伦特"
+   ],
+   "mode_code": "M-AR-010"
+  }
+ ]
+}

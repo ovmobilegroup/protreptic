@@ -1,0 +1,617 @@
+{
+  "schema_version": "v6",
+  "id": "H-DRK-001",
+  "code": "H-DRK-001",
+  "figure_name": "德鲁克",
+  "figure_code": "H-DRK-001",
+  "figure_pinyin": "Dé lǔ kè",
+  "birth_year": 1909,
+  "death_year": 2005,
+  "era": "现代管理学奠基期（大萧条与新政年代的维也纳—法兰克福—伦敦—美国，1937年赴美后贯穿罗斯福新政、战后大企业黄金期、日本经济奇迹与信息革命，维也纳—伦敦—纽约—加州克莱蒙特）",
+  "school": "现代管理学创始人（管理作为组织化实践的系统学科化）+ 组织社会学研究（通用汽车田野调查开创企业管理研究先河）+ 目标管理与自我控制（MBO）+ 知识社会与知识工作者理论 + 企业家精神与系统化创新 + 非营利组织管理与社会生态学",
+  "style_name": "Peter Ferdinand Drucker",
+  "courtesy_name": "彼得·德鲁克 / '现代管理学之父'（管理学界通称）/ '大师中的大师'（《商业周刊》评语）/ '社会生态学家'（其自称）/ '预言家'（对知识社会与知识工作者的早期命名者）",
+  "pseudonym": "无化名；早年以记者与银行经济分析师身份写作，1939年《经济人的末日》因预言极权主义而成名，署本名Peter F. Drucker；此后一切著述均用本名",
+  "representative_works": [
+    "《经济人的末日》（The End of Economic Man，1939：分析极权主义兴起的社会根源，丘吉尔列为战时必读——处女作即确立'从社会结构而非经济统计解读时代'的视角）",
+    "《公司的概念》（Concept of the Corporation，1946：对通用汽车的内部田野研究，首次把大企业当作'社会器官'解剖，奠定分权组织与'组织社会学'基础——据称斯隆本人不喜欢此书，因为德鲁克写了斯隆不想让人看见的工人与政治维度）",
+    "《管理的实践》（The Practice of Management，1954：管理学作为一门学科的开山之作，提出目标管理与自我控制（MBO）、'我们的事业是什么'八关键领域——现代管理教育的源头文本）",
+    "《卓有成效的管理者》（The Effective Executive，1966：把管理从'管别人'转为'自我管理'，提出时间管理、聚焦贡献、用人所长、要事优先、有效决策五习惯——史上最畅销管理著作之一）",
+    "《管理：任务、责任、实践》（Management: Tasks, Responsibilities, Practices，1973：管理学的集大成百科全书，把管理定义为组织的'器官'，确立目标管理、绩效精神、社会责任的系统框架）",
+    "《创新与企业家精神》（Innovation and Entrepreneurship，1985：把创新从天才叙事改写为可训练的纪律——七个机会来源+四种企业家策略，与熊彼特'创造性破坏'呼应而更具操作性）",
+    "《21世纪的管理挑战》（Management Challenges for the 21st Century，1999：提出知识工作者生产率为21世纪管理核心课题、自我管理、组织将成为'伙伴型'结构——20年后看几乎全部应验）"
+  ],
+  "historical_significance": "彼得·德鲁克（1909-2005），生于维也纳一个书香官僚家庭，1931年获法兰克福大学国际法与公法博士学位。1933年因反对纳粹离德赴英，1937年定居美国。他不是学院派经济学家，而是把'管理'从职务描述变成一门学科的奠基人：在《公司的概念》中首次以社会组织学的眼光解剖大企业，在《管理的实践》中确立管理教育的课程化框架，在《卓有成效的管理者》中把管理学对象从'管人'倒转为'自我管理'。他发明的'知识工作者'（knowledge worker, 1959）与'知识社会'概念，预见了后工业时代的全部核心议题；他对MBO、分权、企业家精神、非营利组织管理的系统论述，塑造了此后半个世纪全球管理实践与商学院课程。他一生著书39部，坚持'管理是博雅技艺'（management as a liberal art），晚年自称'社会生态学家'——不问组织如何盈利，而问组织如何让社会中的人过上有意义、有地位、有功能的生活。2002年获美国总统自由勋章。",
+  "core_thoughts": [
+    "目标管理与自我控制（MBO的真意不是上级定指标，而是把控制权交回执行者本人——管理是一场关于责任承担的哲学，不是一项KPI技术）",
+    "事业理论（组织的兴衰根源于环境、使命、核心能力三组假设与现实脱节——'Yesterday's assumptions running tomorrow's business'）",
+    "知识工作者生产率（21世纪管理的核心课题：效果先于效率——'做对的事'先于'把事做对'，知识工作者是资产不是成本）",
+    "有计划的放弃（创新第一步是系统放弃昨日业务：若今天尚未进入，还会进入吗？把释放的资源押给明天）",
+    "系统化创新七源（创新是纪律而非灵感：意外事件、不协调、程序需要、结构变化、人口、认知改变、新知识——按风险排序逐一扫描）",
+    "企业家策略四式（孤注一掷、创造性模仿、生态利基、改变价值感知——创新给入场券，策略决定领袖或炮灰）",
+    "联邦制组织（分权不是切小管理而是让成果责任靠近知识所在地：政策统一，经营分散）",
+    "卓有成效五习惯（效能是可学的习惯：时间管理、聚焦贡献、用人所长、要事优先、有效决策——智力与知识本身不构成效能）",
+    "机会优先于问题（解决问题只能恢复昨日正常，捕捉机会才创造明天；组织对问题过敏、对机会迟钝——勇气重于分析）",
+    "管理作为博雅技艺/社会生态学（利润是约束条件不是目的；组织是社会保持'地位与功能'的器官——管理的终极问题是人的尊严与成长）"
+  ],
+  "famous_quote": "管理是把事情做对；领导是做对的事情。（Management is doing things right; leadership is doing the right things.——流传归名于德鲁克的经典对句，其思想与《卓有成效的管理者》一脉相承）；'预测未来的最好方式就是创造它。'（The best way to predict the future is to create it.）",
+  "influence": "德鲁克的影响半径覆盖三重领域：在学科层面，他把管理学从工程师手册升级为社会科学，全世界商学院的MBA课程结构（战略、组织、人力资源、创新）几乎是他《管理的实践》目录的展开；在实践层面，MBO经英特尔与谷歌演化为OKR，分权制经斯隆-德鲁克谱系成为全球集团治理默认，'知识工作者'一词进入所有语言；在公共思想层面，他关于知识社会、非营利组织与'下一个社会'的预言，使管理思想第一次成为公共讨论的一部分。他的著作长期位于全球管理者书架首位，日本战后的产业管理（稻盛和夫等）与海尔'人单合一'均可视为其思想的东方回声。",
+  "thinking_mode_count": 10,
+  "modes": [
+    {
+      "id": "M-DRK-001",
+      "name_zh": "目标管理与自我控制法",
+      "name_en": "Management by Objectives and Self-Control",
+      "mode_code": "M-DRK-001",
+      "category": "核心方法",
+      "domain_zh": "管理学/组织理论",
+      "domain_en": "Management / Organizational Theory",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "组织的每一名成员——从CEO到一线员工——都应当参与设定自己的目标，并以这些目标而非上级的指令作为自我衡量的依据。德鲁克在《管理的实践》中提出MBO，其要害不是'目标'而是'自我控制'：目标一旦确定，控制权下放到执行者本人，上级从监工变为资源提供者。要点有三：其一，目标必须向下推导自'企业是什么、应当是什么'的整体答案，使局部目标与共同愿景对齐；其二，每个目标必须同时包含衡量标准，无衡量则无管理；其三，MBO的前提是信任——它假设知识工作者愿意为成果负责，而不是为动作负责。德鲁克后来警告，MBO若被官僚化成'指标摊派'，就背叛了它的初衷：它是一场哲学（责任承担），不是一项技术（KPI体系）。",
+      "definition_en": "Every member of an organization—from CEO to frontline worker—should participate in setting their own objectives and measure themselves against them, not against their boss's instructions. The crux of MBO is not 'objectives' but 'self-control': once targets are set, control passes to the performer; the manager becomes a resource-provider, not a supervisor.",
+      "source_chapter": "《管理的实践》(The Practice of Management, 1954)，第11章'目标管理与自我控制'",
+      "key_concepts": [
+        "MBO",
+        "自我控制",
+        "知识工作者",
+        "成果导向",
+        "目标对齐"
+      ],
+      "process_zh": [
+        "整体先行：先回答'我们的事业是什么'，把使命拆解为八大关键领域（市场、创新、生产力等）的目标",
+        "共同设定：上级与执行者面对面协商目标与衡量标准，而非单向摊派",
+        "自我衡量：执行者按期对照目标自查，向上报告偏差而非等待检查",
+        "复盘更新：以偏差为学习材料修订目标与方法，管理周期进入下一轮"
+      ],
+      "process_en": [
+        "First answer 'what is our business' and cascade goals across eight key areas (market standing, innovation, productivity...)",
+        "Co-set each objective and its measure face-to-face with the performer, not by top-down quota",
+        "Self-measure: performers check themselves against targets on schedule and report variances upward",
+        "Review and update: use the variance as learning material to revise goals and methods"
+      ],
+      "key_quote_zh": "目标管理的本意不是控制下属，而是让控制权从上级手中转移到知识本身手中。",
+      "key_quote_en": "The point of management by objectives is not to control subordinates, but to shift control from the boss's hands into the hands of knowledge itself.",
+      "representative_cases_zh": [
+        "在通用汽车研究中发现一线工长被架空：决策上收、责任下沉， 提出'负责任的工人'概念予以矫正",
+        "为西尔斯等零售企业设计分权目标体系：门店经理按市场份额与利润双指标自治经营",
+        "晚年批评KPI泛滥：'当目标变成上级的鞭子，MBO就死了'——强调自我控制才是不变内核"
+      ],
+      "representative_cases_en": [
+        "现代OKR体系（谷歌/英特尔）是MBO的工程化后代：双向对齐+公开透明+季度节奏",
+        "个人职业管理：以年度成果清单替代'待办清单'，用产出而非工时自我评估",
+        "远程组织治理：分布式团队必须以目标自我控制替代在场监督，否则管理成本指数上升"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-002",
+        "M-DRK-004",
+        "M-DRK-008"
+      ],
+      "modern_applications_en": [
+        "M-DRK-002",
+        "M-DRK-004",
+        "M-DRK-008"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-002",
+      "name_zh": "事业理论三假设法",
+      "name_en": "The Theory of the Business",
+      "mode_code": "M-DRK-002",
+      "category": "战略思维",
+      "domain_zh": "管理学/企业战略",
+      "domain_en": "Management / Corporate Strategy",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "任何持续经营的组织都运行在一套未言明的'事业理论'上——关于环境、使命与核心竞争力三组假设的总和。德鲁克1994年在HBR提出：当组织突然遭遇困境，病根往往不是执行不力，而是现实已变而假设未变。诊断要领：三组假设必须相互一致（使命与环境匹配）、必须为整个组织所知晓和理解、必须不断经受检验。环境假设回答'钱从哪里来'，使命假设回答'我们为什么存在、对谁有意义'，核心能力假设回答'我们必须做到卓越的事是什么'。三者中任何一项与现实脱节，组织就会'Yesterday's assumptions running tomorrow's business'。德鲁克本人就是用这个框架解释了通用汽车1980年代的溃败、IBM的危机与日本的停滞——都不是坏运气，而是过时的事业理论。",
+      "definition_en": "Every organization runs on an implicit 'theory of the business'—assumptions about environment, mission, and core competencies. When an organization suddenly stumbles, the root cause is usually not execution but outdated assumptions: reality changed while the theory did not. The three sets must be consistent, known to the whole organization, and constantly tested.",
+      "source_chapter": "《哈佛商业评论》'The Theory of the Business'(1994)；《管理：任务、责任、实践》",
+      "key_concepts": [
+        "事业理论",
+        "环境假设",
+        "使命假设",
+        "核心能力",
+        "假设检验"
+      ],
+      "process_zh": [
+        "显性化：把组织实际赖以生存的假设写下来，与墙上使命宣言对照，暴露言行的落差",
+        "三问校验：环境假设还成立吗？使命还有意义吗？核心能力还是卓越所需吗？",
+        "一致性与知晓度：检查三组假设是否互洽，组织里的人是否都知道并按其行事",
+        "预防性再审视：定期（而非危机后）重检假设，把'意外成功/意外失败'当作假设失灵的早期信号"
+      ],
+      "process_en": [
+        "Make explicit the assumptions the organization actually lives on and contrast them with the mission statement on the wall",
+        "Three-question test: do the environment assumptions still hold? does the mission still have meaning? are the competencies still what excellence requires?",
+        "Check consistency and awareness: are the three sets mutually coherent, and does everyone in the organization know and act on them?",
+        "Re-examine preventively on a schedule—treat every unexpected success or failure as an early signal of a failing assumption"
+      ],
+      "key_quote_zh": "当一家公司陷入困境，人们首先指责的是管理层平庸——但真正的原因往往是组织的假设与现实脱节了。",
+      "key_quote_en": "When a company runs into trouble, people blame mediocre management—but the true cause is that the organization's assumptions no longer fit reality.",
+      "representative_cases_zh": [
+        "诊断通用汽车：1970年代'利润=市场份额'的假设随石油危机与小型车革命失效，事业理论未更新",
+        "解释IBM PC成功与主机依赖：IBM对'计算是集中式的'这一环境假设的坚守导致1990年代初濒临解体",
+        "指出日本1990年代停滞根源：'制造业优势永久'的核心能力假设被软件与设计驱动的价值链改写"
+      ],
+      "representative_cases_en": [
+        "创业公司定期'假设审计'：把商业模式画布的九格当作事业理论逐格验证",
+        "个人职业生涯的事业理论：我赖以谋生的环境假设（行业、技能市场）多久没检验了？",
+        "非营利组织转型：用三假设框架重审'捐赠人环境-社会使命-专业能力'的脱节"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-003",
+        "M-DRK-007",
+        "M-DRK-010"
+      ],
+      "modern_applications_en": [
+        "M-DRK-003",
+        "M-DRK-007",
+        "M-DRK-010"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-003",
+      "name_zh": "有计划的放弃法",
+      "name_en": "Planned Abandonment (Slough off Yesterday)",
+      "mode_code": "M-DRK-003",
+      "category": "变革思维",
+      "domain_zh": "管理学/创新管理",
+      "domain_en": "Management / Innovation",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "创新的第一步不是创造新事物，而是系统地放弃不再产生成果的旧事物。德鲁克认为组织的昨日之业务会天然地占用最好的资源——最能干的人、最稀缺的资本——去维护正在过时的产品、流程与政策；而'明天'永远在为'昨天'输血。因此变革不能靠'增加'新业务，必须先问：如果我们还没有做这件事，现在还会去做吗？若答案是否，则'我们该如何放弃，或至少停止投入'。关键机制：每三年对全部产品、流程、政策、技术做一次全面审视；对每一项都要问'它还有生命吗'，并给出处理决定——继续、修改，还是退出。放弃是痛苦的政治过程，因此必须制度化、有计划，而非等待危机逼迫。德鲁克称之为'抛弃昨天'（《卓有成效的管理者》与《创新与企业家精神》的核心引擎）。",
+      "definition_en": "The first step in innovation is not creating something new but systematically abandoning what no longer produces results. Yesterday's business naturally captures the best people and scarcest capital to defend the obsolescent. The test: if we were not in this already, would we enter it now? If not, how do we abandon it? The test must be institutionalized—every three years, every product, process, policy.",
+      "source_chapter": "《创新与企业家精神》(Innovation and Entrepreneurship, 1985)；《21世纪的管理挑战》第1章",
+      "key_concepts": [
+        "有计划的放弃",
+        "抛弃昨天",
+        "资源再配置",
+        "变革管理",
+        "机会成本"
+      ],
+      "process_zh": [
+        "全面清点：列出全部产品、服务、流程、渠道、政策，注明各自投入的骨干与资金",
+        "白手起家测试：对每项问'若尚未进入，今天还会进入吗？'，诚实作答",
+        "分类处置：分'继续加码/维持收割/限期整改/果断放弃'四类，为每项定退出日期",
+        "释放资源：把从放弃中释放的人才与资本，定向投入最有前途的机会，使放弃成为创新的供养"
+      ],
+      "process_en": [
+        "Inventory everything",
+        "apply the greenfield test ('would we enter now?')",
+        "classify into keep/harvest/fix/abandon with exit dates",
+        "then deliberately redirect released people and capital to the most promising opportunities."
+      ],
+      "key_quote_zh": "不要告诉我什么是对的——告诉我什么是不再对的，以及我们打算如何处置它。",
+      "key_quote_en": "Don't tell me what's right—tell me what's no longer right, and what we plan to do about it.",
+      "representative_cases_zh": [
+        "批评铁路公司：'铁路业的溃败不是被汽车取代，而是自我定义为铁路而非运输'——拒绝放弃过时的自我定义",
+        "建议企业每三年对每个产品问一次'若今天尚未做，还会开始吗'，作为组织例行制度",
+        "分析通用电气韦尔奇改革：'数一数二，否则整顿、出售或关闭'即大规模制度化的有计划放弃"
+      ],
+      "representative_cases_en": [
+        "产品组合季度审视：对每个功能问'若今天从零开始，还会建吗'，砍掉维护性投入",
+        "个人技能组合管理：每年淘汰一项过时技能的时间投入，把释放的时间押给新兴领域",
+        "组织变革推行：先列出'停止做什么'清单并公示，再谈新战略——没有放弃清单的变革是加法幻觉"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-002",
+        "M-DRK-006",
+        "M-DRK-009"
+      ],
+      "modern_applications_en": [
+        "M-DRK-002",
+        "M-DRK-006",
+        "M-DRK-009"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-004",
+      "name_zh": "知识工作者生产率法",
+      "name_en": "Knowledge Worker Productivity",
+      "mode_code": "M-DRK-004",
+      "category": "核心方法",
+      "domain_zh": "管理学/人力资源",
+      "domain_en": "Management / Human Capital",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "20世纪管理学的伟大成就是把体力工作者生产率提高了50倍，21世纪的挑战是同样提高知识工作者的生产率——而方法根本不同。德鲁克1969年发明'知识工作者'一词，1999年在《21世纪的管理挑战》给出六个决定因素：任务是知识工作者自己定义的（'任务是什么'比'如何做'更重要）；知识工作者必须自我管理、拥有自主权；持续创新必须成为工作的一部分；学习与教学是工作的一部分；生产率关注的不是量而是质（成果而非产出）；最后，知识工作者被视为资产而非成本——要让他们愿意放弃其他机会来为你工作。核心洞见：体力工作者的生产率来自'把事做对'（效率），知识工作者的生产率首先来自'做对的事'（效果）——错误任务的100%效率是负生产率。",
+      "definition_en": "The 20th century raised manual-worker productivity 50-fold; the 21st-century challenge is the same for knowledge workers—by fundamentally different means. Drucker's six factors: knowledge workers define their own task ('what IS the task' precedes 'how'), must self-manage with autonomy, embed continuous innovation and learning/teaching in the work, prioritize quality over quantity, and must be treated as assets, not costs.",
+      "source_chapter": "《21世纪的管理挑战》(Management Challenges for the 21st Century, 1999)，第5章",
+      "key_concepts": [
+        "知识工作者",
+        "生产率",
+        "效果先于效率",
+        "资产而非成本",
+        "任务定义"
+      ],
+      "process_zh": [
+        "先问任务：对每项知识工作问'这项工作的任务到底是什么、贡献给谁'，再谈方法与工具",
+        "授权自治：给知识工作者对任务的自主权，以成果约定替代过程监督",
+        "质量定义：与工作者共同定义'什么是卓越的成果'，把质量标准置于数量指标之前",
+        "资产经营：以职业发展、挑战性任务与尊重对待知识人才，核算时视其为投资而非费用"
+      ],
+      "process_en": [
+        "Ask first what the task actually is and whom it contributes to, before discussing method or tools",
+        "Grant autonomy over the task and bind by agreed results instead of process supervision",
+        "Define together what an excellent result is, placing the quality bar ahead of any quantity metric",
+        "Operate talent as an asset: careers, challenging assignments, and respect; book them as investment, not expense"
+      ],
+      "key_quote_zh": "知识工作者的生产率，首先是'做正确的事'的问题，其次才是'把事情做正确'的问题。",
+      "key_quote_en": "Knowledge worker productivity is first a question of doing the right things, and only second of doing things right.",
+      "representative_cases_zh": [
+        "预言信息化组织：扁平、以任务小组为单位、专业者直入决策层——三十年后成为硅谷默认结构",
+        "分析医院护士生产率：护士一半时间在找药品填表格——提高生产率靠重新设计任务，而非要求更努力",
+        "对比百年前：矿工与钢铁工人的组织方式若用于实验室科学家必然崩溃——两类劳动者需要完全不同的管理"
+      ],
+      "representative_cases_en": [
+        "工程团队治理：以'问题定义清楚了吗'评审代替工时统计，效果先于效率",
+        "个人工作法：每周先定义'本周最重要的三个成果'，再分配时间——拒绝用忙碌度量价值",
+        "AI时代的分工：把'把事做对'交给机器放大，人专注于'定义什么是对的事'"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-001",
+        "M-DRK-008",
+        "M-DRK-003"
+      ],
+      "modern_applications_en": [
+        "M-DRK-001",
+        "M-DRK-008",
+        "M-DRK-003"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-005",
+      "name_zh": "创新机会系统七源法",
+      "name_en": "Seven Sources of Systematic Innovation",
+      "mode_code": "M-DRK-005",
+      "category": "创新思维",
+      "domain_zh": "管理学/创新管理",
+      "domain_en": "Management / Innovation",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "创新不是灵光一现，而是一项可以系统练习的纪律。德鲁克把创新机会归为七个来源，按风险由低到高排序：四个来自组织内部——(1)意外事件（意外的成功或失败是创新机会最可靠的信号）；(2)不协调（现实与假设之间、应然与实然之间的裂缝）；(3)程序需要（对既有流程中薄弱环节的改进）；(4)产业与市场结构的变化（当旧结构松动，人人都以为不变的东西突然变成机会）。三个来自外部——(5)人口结构变化（最可预测的机会：年龄、教育、职业构成）；(6)认知的改变（'杯子是半满还是半空'——观念变了，事实未变）；(7)新知识（高风险高回报，且从技术出现到商业化往往有很长的间隔期）。方法论签名：刻意地在这些位置'扫描'，把创新从等待天才变成例行公事的搜索。",
+      "definition_en": "Innovation is a discipline, not a flash of genius. Drucker ranks seven sources of opportunity by risk: within the organization—the unexpected, incongruities, process needs, industry/market structure changes; outside—demographics, changes in perception, new knowledge. Scan these positions deliberately and innovation becomes routine search rather than waiting for inspiration.",
+      "source_chapter": "《创新与企业家精神》(Innovation and Entrepreneurship, 1985)，第3-9章",
+      "key_concepts": [
+        "系统化创新",
+        "意外事件",
+        "不协调",
+        "人口结构",
+        "认知改变",
+        "程序需要"
+      ],
+      "process_zh": [
+        "定期扫描：建立每季度的机会扫描例会，逐一过查七个来源，而非只盯'新技术'",
+        "礼遇意外：对每一次意外成功追问'它揭示了什么我们不知道的市场'，禁止当作侥幸忽略",
+        "寻找裂缝：收集'顾客实际行为与厂商假设不符'、'流程瓶颈'类的不协调，逐一评估",
+        "结构优先：优先押注人口与结构变化（可预测、风险低），把新知识型创新放在最后并要求最长周期准备"
+      ],
+      "process_en": [
+        "Hold a quarterly opportunity-scan meeting that walks all seven sources, not just 'new technology'",
+        "Honor the unexpected: interrogate every unexpected success for the unknown market it reveals; never dismiss it as luck",
+        "Hunt incongruities: collect mismatches between customer behavior and producer assumptions, and process bottlenecks",
+        "Bet first on demographic and structural shifts (predictable, lower risk); place new-knowledge bets last with the longest preparation runway"
+      ],
+      "key_quote_zh": "有目的的创新者会系统地分析创新的七个来源，而不是坐等灵感的降临。",
+      "key_quote_en": "The purposeful innovator systematically analyzes the seven sources of innovation rather than waiting for inspiration.",
+      "representative_cases_zh": [
+        "发现青霉素的'意外成功'：弗莱明之后产业界系统研究抗生素，把意外变成新兴工业",
+        "塔钟制造商的失败教训：瑞士发明石英表却因'手表=机械'的认知僵化错失——是日本人借'认知改变'赢走",
+        "美国邮购业衰退被西尔斯抓住：农村人口结构变化（汽车、公路）催生城市零售新机会"
+      ],
+      "representative_cases_en": [
+        "产品经理机会雷达：把'用户异常行为报告'制度化当作第一类创新信号源",
+        "职业规划七源扫描：个人用人口结构与认知变迁选赛道，风险远低于追热点技术",
+        "组织例行'不协调清单'：客户投诉、流程返工、销售与市场数据矛盾都是待开采的裂缝"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-003",
+        "M-DRK-006",
+        "M-DRK-010"
+      ],
+      "modern_applications_en": [
+        "M-DRK-003",
+        "M-DRK-006",
+        "M-DRK-010"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-006",
+      "name_zh": "企业家策略四式法",
+      "name_en": "Entrepreneurial Strategies ('Fustiest' / Bull's Eye / etc.)",
+      "mode_code": "M-DRK-006",
+      "category": "创新思维",
+      "domain_zh": "管理学/企业家精神",
+      "domain_en": "Management / Entrepreneurship",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "德鲁克区分'创新'（发现机会）与'企业家策略'（把创新成功引入市场并占据支配地位）——后者同样是一门纪律，有四种主要打法：(1)全力出击（'孤注一掷'Fustiest)：瞄准一个新领域或新市场，一次性投入全部资源夺取领导地位，风险最高回报也最高；(2)攻其软肋（创造性模仿）：别人已经创新，你理解它并以更好的形式为市场服务——它从顾客角度把产品做成他们'本来就该有的样子'；(3)生态利基（'游击战'）：在别人不屑或无法进入的小生境建立排他性地位——收费站策略（标准不可替代）、专门技能策略（独特专长）、专门市场策略（了解一个顾客群胜过所有竞争者）；(4)改变价值与特征（创造顾客）：给产品重新定义用途、定价与价值感知——香槟变节庆饮料、创可贴变家用药品。方法论签名：创新给的是入场券，策略决定你是领袖还是炮灰。",
+      "definition_en": "Drucker separates innovation (finding the opportunity) from entrepreneurial strategy (bringing it to market and establishing dominance): (1) 'Fustiest'—all-out assault aiming at leadership; (2) hit-them-where-they-ain't / creative imitation; (3) ecological niches—toll-gate, specialty-skill, specialty-market strategies; (4) changing values and characteristics to create the customer. Innovation earns the ticket; strategy decides leader or cannon fodder.",
+      "source_chapter": "《创新与企业家精神》(Innovation and Entrepreneurship, 1985)，第10-17章",
+      "key_concepts": [
+        "企业家策略",
+        "孤注一掷",
+        "创造性模仿",
+        "利基战略",
+        "创造顾客"
+      ],
+      "process_zh": [
+        "评估筹码：先盘点资源、时间窗口与市场结构，孤注一掷只在有致命优势且窗口明确时使用",
+        "模仿定位：若选择创造性模仿，以'顾客原本想要什么'为标尺重构产品，而非照抄对手",
+        "利基锁定：寻找能建立'排他性'的小生境——标准、专长或顾客亲密——并做到隐形冠军",
+        "价值重构：若四式皆不适，回到顾客端重新定义产品用途与价值感知，创造新需求"
+      ],
+      "process_en": [
+        "Assess resources, timing window, and market structure; use the all-out assault only with a decisive edge and a clear window",
+        "For creative imitation, rebuild the product around what customers 'should have had,' not around copying the rival",
+        "For niches, lock an exclusive position via a toll-gate standard, specialty skill, or specialty market and become the invisible champion",
+        "If none fits, return to the customer and redefine the product's use and perceived value to create new demand"
+      ],
+      "key_quote_zh": "创新本身并不创造经济成果——把它成功地引入市场并占据领导地位的策略才创造。",
+      "key_quote_en": "Innovation by itself does not create economic results—only entrepreneurial strategy that brings it successfully to market does.",
+      "representative_cases_zh": [
+        "杜邦尼龙的孤注一掷：以多年研发储备一次性全力进入市场并建立三十年领导地位",
+        "IBM的创造性模仿：Eniac发明后，IBM理解其市场含义，造出商用计算机反超原创者",
+        "Standard Oil的收费站：掌握精炼专利关键环节，使每个竞争者都必须'付费通过'"
+      ],
+      "representative_cases_en": [
+        "创业策略选择器：先判窗口期与资源，再决定四式之一，避免'小型孤注一掷'",
+        "中型企业利基化：与其在红海争份额，不如做某关键环节的'收费站'供应商",
+        "定价即策略：用'定价匹配价值感知'重构产品（订阅制、按效果付费）开辟新客群"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-005",
+        "M-DRK-002",
+        "M-DRK-009"
+      ],
+      "modern_applications_en": [
+        "M-DRK-005",
+        "M-DRK-002",
+        "M-DRK-009"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-007",
+      "name_zh": "联邦制组织设计法",
+      "name_en": "Federal Organization (Decentralization)",
+      "mode_code": "M-DRK-007",
+      "category": "组织设计",
+      "domain_zh": "管理学/组织结构",
+      "domain_en": "Management / Organizational Structure",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "组织规模越大，中央越无法掌握足够的知识与速度，德鲁克从斯隆的通用汽车研究中提炼出'联邦制组织'原则：像联邦国家一样，把经营单位设计成自治的'州'——各事业部对其产品、市场、利润负全责，而总部保留联邦政府级别的职能：战略方向、资源配置、标准制定与高级人事。要义：分权不是把管理切小，而是让'成果责任'尽可能靠近知识所在地；集权与分权不是二选一，而是分层配置——'政策统一，经营分散'。配套条件：各单元必须有可独立核算的成果与市场检验，否则分权退化为诸侯割据；总部必须真有'联邦'级工作可做，否则总部只会成为官僚赘瘤。这是对钱德勒'结构跟随战略'的管理学先声，也是现代事业部制与平台型组织的思想源头。",
+      "definition_en": "Drucker distilled Sloan's GM into the principle of federal organization: operating units as self-governing 'states' fully responsible for products, markets, and profits; headquarters retains federal functions—strategy, resource allocation, standards, top personnel. Decentralize results-responsibility to where knowledge sits; keep policy centralized. Units need independently measurable results and market tests, or decentralization decays into feudalism.",
+      "source_chapter": "《公司的概念》(Concept of the Corporation, 1946)；《管理：任务、责任、实践》(1973)",
+      "key_concepts": [
+        "联邦制组织",
+        "事业部制",
+        "分权",
+        "成果责任",
+        "总部职能"
+      ],
+      "process_zh": [
+        "划分单元：以市场/产品/顾客群为单位划分事业部，确保每个单元有可独立核算的损益",
+        "授权成套：把'做出成果所需的全部决策权'一次性授予单元主管，而非零碎下放",
+        "联邦职能上收：总部只做战略、资本配置、标准与高管梯队，明确不干预日常经营",
+        "市场检验：以外部市场或内部模拟市场检验各单元成果，防止分权变成封闭诸侯"
+      ],
+      "process_en": [
+        "Divide by market/product into units with standalone P&L",
+        "grant each unit head the full set of decisions needed for results",
+        "headquarters keeps strategy, capital allocation, standards, and executive succession only",
+        "test every unit against a real or simulated market."
+      ],
+      "key_quote_zh": "分权的目的不是让每个单位变成小王国，而是让成果责任落到离知识最近的地方。",
+      "key_quote_en": "The purpose of decentralization is not to create little kingdoms, but to place responsibility for results as close to the knowledge as possible.",
+      "representative_cases_zh": [
+        "解剖通用汽车：斯隆的分权模式使GM超越福特，德鲁克据此写出《公司的概念》奠定事业部制理论",
+        "警告大企业总部病：当总部只剩'检查'职能，分权组织反而比集权更官僚——总部必须承担联邦级工作",
+        "设计分权配套：主张给一线工人'参与管理的知识工作者'地位——分权逻辑最终延伸到车间层面"
+      ],
+      "representative_cases_en": [
+        "平台型组织设计：中台提供联邦级标准与资源，前台业务单元对用户成果负全责",
+        "集团管控模式：按'财务/战略/运营'三档匹配总部干预强度，依据是单元成果可否市场检验",
+        "个人知识管理：把'总部职能'（复盘、标准、关系）与'州级职能'（具体产出）分层安排时间"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-001",
+        "M-DRK-004",
+        "M-DRK-010"
+      ],
+      "modern_applications_en": [
+        "M-DRK-001",
+        "M-DRK-004",
+        "M-DRK-010"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-008",
+      "name_zh": "卓有成效五习惯法",
+      "name_en": "The Five Practices of Effectiveness",
+      "mode_code": "M-DRK-008",
+      "category": "个人修炼",
+      "domain_zh": "管理学/个人效能",
+      "domain_en": "Management / Personal Effectiveness",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "德鲁克《卓有成效的管理者》的核心命题：智力、想象与知识本身不构成效能——有才华的人往往最无效；效能是可以学会的一组习惯。五个习惯：(1)记录并管理时间——效能始于知道时间去向，整块时间才有产出；(2)聚焦贡献——问'我能为组织贡献什么'而非'我在组织里是什么职位'，以外部成果而非内部努力定义自己；(3)用人所长——让每个人的长处变得有生产力，包括自己的长处与上级的长处，'因事用人'而非'因人设事'；(4)要事优先——一次只做一件事，专注明天而非昨天，'排定优先次序的真正勇气在于敢于推迟';(5)有效决策——先判断这是常例还是例外，再以'见解先于事实'的假设-验证法决策，并设计反对意见的输入机制。方法论签名：效能不是天赋而是习惯的复利。",
+      "definition_en": "Brilliance is no guarantee of effectiveness; effectiveness is learnable habits: (1) record and manage time; (2) focus on contribution—define yourself by external results, not internal position; (3) build on strengths—yours, subordinates', even your boss's; (4) concentrate on one thing at a time, prioritizing the future over the past; (5) decide effectively—classify the problem first, decide from hypotheses not facts, and institutionalize dissent.",
+      "source_chapter": "《卓有成效的管理者》(The Effective Executive, 1966)",
+      "key_concepts": [
+        "时间管理",
+        "聚焦贡献",
+        "用人所长",
+        "要事优先",
+        "有效决策"
+      ],
+      "process_zh": [
+        "时间审计：连续记录数周时间流水，砍掉不产出的例行事务，为要事保护整块时间",
+        "贡献提问：每季度问一次'我上一季为组织外部成果贡献了什么'，据答案调整职责",
+        "长处清单：为团队成员（含自己）各写一份长处-弱点清单，任务按长处匹配，弱点用补位而非改造",
+        "决策纪律：先归类问题（常例/例外/新常例的开端），列出见解与对立见解，再定验证标准"
+      ],
+      "process_en": [
+        "Audit time: record weeks of time flow, cut unproductive routines, and protect whole blocks for priorities",
+        "Contribution check: each quarter ask what you contributed to the organization's external results and adjust duties accordingly",
+        "Write a strengths-weaknesses profile for each team member (incl. yourself); match tasks to strengths and offset, not retrain, weaknesses",
+        "Decision discipline: classify the problem (generic/exception/start of a new generic), list opposing views, then set verification standards"
+      ],
+      "key_quote_zh": "效能不是把事情做对，而是做对的事情——而这是可以练出来的习惯，不是天生的才华。",
+      "key_quote_en": "Efficiency is doing things right; effectiveness is doing the right things—and effectiveness is a habit that can be learned.",
+      "representative_cases_zh": [
+        "对大量高管的观察：'聪明而无效'者常见失败点——把时间切碎、盯住内部、改造他人短处",
+        "斯隆用人案例：反对意见未充分陈述前不决策——把'争论'设计成决策程序的强制环节",
+        "以'这份工作需要什么样的人'定义岗位，而非'现有谁能干'——因事用人原则"
+      ],
+      "representative_cases_en": [
+        "个人工作流：时间块+贡献清单+季度长处复盘，构成个人效能的最低配置",
+        "团队配置会：用人所长原则下，容忍无伤大雅的短处，围绕长处设计分工而非平均分派",
+        "会议文化：强制'魔鬼代言人'环节，以制度化反对意见对抗共识偏误"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-001",
+        "M-DRK-004",
+        "M-DRK-009"
+      ],
+      "modern_applications_en": [
+        "M-DRK-001",
+        "M-DRK-004",
+        "M-DRK-009"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-009",
+      "name_zh": "机会优先于问题法",
+      "name_en": "Opportunities First, Problems Second",
+      "mode_code": "M-DRK-009",
+      "category": "决策思维",
+      "domain_zh": "管理学/决策",
+      "domain_en": "Management / Decision Making",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "把资源投向问题还是机会，是绩效平庸与卓越的分水岭。德鲁克的观察：问题解决只能恢复昨日的正常，机会捕捉才创造明天的不同；而组织天然对'问题'过敏、对'机会'迟钝——问题会尖叫，机会只会低语。原则有四：优先级必须由'机会'而非'问题'决定；真正重要的不是分析而是勇气——优先次序最终是性格问题而非智力问题；敢于把最好的资源压在机会上，而不是平均分配去救火；最后，'推迟'是最被低估的决策——把低价值问题系统性地推迟到它自己消失或变得简单，本身就是高级行政能力。配套纪律：每个优先项要配'最佳人选+最后期限'，否则优先级只是愿望清单。",
+      "definition_en": "Directing resources at problems restores yesterday; exploiting opportunities creates tomorrow. Organizations are allergic to problems and deaf to opportunities—problems scream, opportunities whisper. Priorities must be set by opportunity; the real issue is courage, not analysis; concentrate the best people on opportunities rather than spreading them over firefighting; and deliberate postponement is itself a high executive art.",
+      "source_chapter": "《卓有成效的管理者》(The Effective Executive, 1966)，第4章'要事优先'；《有效的管理者》诸版",
+      "key_concepts": [
+        "机会导向",
+        "优先次序",
+        "推迟的艺术",
+        "资源配置",
+        "勇气决策"
+      ],
+      "process_zh": [
+        "双清单分流：把待办分为'恢复昨日的问题'与'创造明天的机会'两类，禁止混排",
+        "机会注入：检查优秀人才与增量预算的去向——若70%以上在救问题，即为平庸信号",
+        "系统推迟：为低价值问题设定'不处理'决定与复审日期，让它自行演化或消失",
+        "压力测试优先级：对每个优先项问'若不做会怎样'，敢于把90%的事项降为'不做'"
+      ],
+      "process_en": [
+        "Split the backlog into 'restoring-yesterday problems' and 'creating-tomorrow opportunities'; never mix the two lists",
+        "Audit where the best people and incremental budget go—over 70% on firefighting is a mediocrity signal",
+        "Systematically postpone low-value problems with an explicit 'not now' decision and a review date",
+        "Stress-test each priority with 'what if we never do this?' and dare to downgrade 90% of the list to 'not do'"
+      ],
+      "key_quote_zh": "解决问题的第一法则：先把资源从'维持昨天'抽出来，才有东西投向'开创明天'。",
+      "key_quote_en": "The first rule of problem solving: extract resources from 'sustaining yesterday' before you can invest them in 'creating tomorrow.'",
+      "representative_cases_zh": [
+        "对比两类CEO：'救火英雄'式的管理者把时间献给危机，'耕耘机会'者把最好的人押在新市场",
+        "分析企业衰败前兆：预算流程把新增资源默认给亏损部门'补窟窿'，机会部门反而断粮",
+        "决策勇气案例：主张'把一半最好的工程师调去未知的新领域'需要性格而非数据支持"
+      ],
+      "representative_cases_en": [
+        "每周时间分配审计：统计机会型vs问题型投入比，目标从二八改善为五五",
+        "人生资源配置：把黄金时段（早晨/最佳精力）法定留给机会型工作，问题型工作排在低谷",
+        "项目管理规则：新项目立项时必须回答'它利用什么机会'，只答'解决什么问题'的项目降级"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-003",
+        "M-DRK-008",
+        "M-DRK-002"
+      ],
+      "modern_applications_en": [
+        "M-DRK-003",
+        "M-DRK-008",
+        "M-DRK-002"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-DRK-010",
+      "name_zh": "社会生态学方法",
+      "name_en": "Social Ecology (Management as a Liberal Art)",
+      "mode_code": "M-DRK-010",
+      "category": "综合方法论",
+      "domain_zh": "管理学/社会理论",
+      "domain_en": "Management / Social Theory",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "德鲁克自称'社会生态学家'——管理的本质不是经济学而是社会生态学：组织是社会用来吸收知识、发挥生产力、维持社群感的器官。一个 functioning society（功能社会）需要三重平衡：地位与功能（每个人都有一个可确认身份的领域）、决定权（合法的决策权威）、以及组织与个人之间价值观与承诺的交换。方法论：把每个组织问题同时看作社会问题与个人尊严问题——利润只是约束条件，'让组织成为人的器官'才是目的；管理是一门'博雅技艺'（liberal art），因为它处理知识、自我认知、智慧与领导力，最终服务于人的成长。晚年他把注意力转向非营利组织，认为那是现代社会'地位与功能'的最后避难所。签名：不问'组织如何盈利'，而问'组织如何让人过上有意义的生活'——经济指标是体温计，不是生命本身。",
+      "definition_en": "Drucker called himself a 'social ecologist': organizations are the organs of society for absorbing knowledge, producing, and sustaining community. A functioning society needs status and function (a domain where each person is identifiable), legitimate decision-making authority, and an exchange of values between organization and individual. Management is a liberal art—profit is a constraint; making organizations organs of human meaning is the end. Economics is the thermometer, not life itself.",
+      "source_chapter": "《已经发生的未来》(Landmarks of Tomorrow, 1959)；《管理的新角色：非营利组织》(1990)；'Management as a Liberal Art'演说系列",
+      "key_concepts": [
+        "社会生态学",
+        "功能社会",
+        "地位与功能",
+        "管理的博雅性",
+        "非营利组织"
+      ],
+      "process_zh": [
+        "双重诊断：对任何组织病症，同时寻找经济病灶与社会病灶（身份失落、承诺断绝、权威失位）",
+        "价值观盘点：检查组织给成员的回报清单——除了钱，是否还有地位、认同与成长",
+        "界限管理：划定组织对社会环境的影响边界，不使经济机器吞噬社群土壤",
+        "博雅化实践：在管理决策中引入人性尺度的问题——这个决定让谁更有尊严、谁被工具化"
+      ],
+      "process_en": [
+        "Dual diagnosis: for any organizational ailment, look for both an economic lesion and a social one (lost identity, severed commitment, illegitimate authority)",
+        "Values inventory: check the full list of what the organization gives its members—status, recognition, and growth, not only money",
+        "Boundary management: delimit the organization's impact on its social environment so the economic machine does not consume community soil",
+        "Liberal-art practice: bring human-scale questions into decisions—whom does this dignify, whom does it instrumentalize"
+      ],
+      "key_quote_zh": "管理是把人的长处变为生产力、让人的弱点变得无关紧要的一种博雅技艺。",
+      "key_quote_en": "Management is a liberal art: it makes people's strengths productive and their weaknesses irrelevant.",
+      "representative_cases_zh": [
+        "转向非营利组织：指出志愿者驱动的组织反而最有效管理，因为它们只能靠价值观与使命吸引人",
+        "《公司的概念》的隐忧已现：蓝领工人在流水线上失去'地位与功能'，预示了后来的人事危机",
+        "预言知识社会：知识将带来新的阶级分化——掌握应用知识的人与没有的人之间的鸿沟是社会的核心问题"
+      ],
+      "representative_cases_en": [
+        "组织文化建设：把'成员的身份叙事'（我们是谁、为何在此）作为与财务指标同级的健康指标",
+        "ESG的深层化：不满足于合规披露，检查商业模式对社群'地位与功能'的净效应",
+        "个人意义管理：职业选择同时问'哪里给我成果'与'哪里给我身份'，二者长期错位即危机信号"
+      ],
+      "modern_applications_zh": [
+        "M-DRK-002",
+        "M-DRK-007",
+        "M-DRK-004"
+      ],
+      "modern_applications_en": [
+        "M-DRK-002",
+        "M-DRK-007",
+        "M-DRK-004"
+      ],
+      "related_modes": []
+    }
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-VNY-001",
+      "target_figure_name": "冯·诺依曼",
+      "relation": "知识社会双子预言（自动机与知识工作者的两条未来线）",
+      "note": "冯·诺依曼1945年给出存储程序计算机的工程蓝图，德鲁克1959年命名'知识工作者'——计算机与知识劳动者，正是知识社会的两半：前者提供'处理知识的机器'，后者定义'以知识为产出的人'。冯·诺依曼的自动化把体力劳动从生产中逐出，德鲁克的知识工作者理论恰好回答了被逐出后'人靠什么成为生产力'。本档案 M-DRK-004 与冯·诺依曼档案 M-VNY-005（存储程序架构）、M-VNY-008（自复制自动机）构成'机器替代与人的重新定义'的跨世纪对照链：一个造机器，一个重新定义使用机器的人。"
+    },
+    {
+      "target_figure_code": "H-MZ-001",
+      "target_figure_name": "毛泽东",
+      "relation": "组织动员方法论远源（群众路线与知识工作者的对照）",
+      "note": "毛泽东的群众路线核心是'从群众中来，到群众中去'——把分散的个体经验集中为政策，再回到实践中检验；德鲁克的MBO核心是目标由执行者本人参与设定、以自我控制替代上级检查。两者在'反对单向摊派、相信一线者的知识'这一点上结构同源，尽管价值坐标完全不同：毛泽东动员的是政治热情与阶级觉悟，德鲁克动员的是专业自主与成果责任。本档案 M-DRK-001 与毛泽东档案中'调查研究''群众路线'模式构成'如何让组织末端主动负责'的东方-西方对照链。"
+    }
+  ]
+}

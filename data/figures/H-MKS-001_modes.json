@@ -1,0 +1,569 @@
+{
+  "schema_version": "v6",
+  "figure_id": "H-MKS-001",
+  "figure_name": "马斯克",
+  "figure_code": "H-MKS-001",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-MKS-001",
+      "name_zh": "第一性原理拆解法",
+      "name_en": "First Principles Decomposition",
+      "mode_code": "M-MKS-001",
+      "category": "核心方法",
+      "domain_zh": "物理思维/成本重构",
+      "domain_en": "Physics Reasoning / Cost Reconstruction",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "拒绝'类比思维'（别人怎么做我就怎么做），把问题分解到不可再分解的物理事实，再从这些基石重新推导答案。2002年马斯克想买火箭上火星，市场报价6500万美元一枚；他不找供应商杀价，而是换一个问法——'火箭是用什么做的？航空航天级铝合金、钛、铜、碳纤维。这些原材料在商品市场值多少钱？'答案是原材料成本只占火箭价格的约2%。价格与材料成本之间98%的差额不是物理定律，而是行业惯例、供应链层层加价与'火箭本来就贵'的历史假设。这一区分是他的方法签名：把'贵'拆成'物理约束'与'习惯约束'——只有前者值得付钱，后者等待被拆解。同样的动作在Tesla重演：电池组报价600美元/千瓦时，拆到锂镍钴铝与电解质的伦敦金属交易所价格，材料成本仅占极小比例——于是自建电池厂，把成本压到市价两成。要害有三：其一，第一性原理必须落在'可数的量纲'上（每公斤入轨成本、每千瓦时电池价格、每材料公斤单价），否则沦为空谈哲学；其二，它不是否定类比——类比用于快速导航，第一性原理用于重大成本结构与'不可能'判定；其三，它极其耗能，马斯克自己警告'这需要多得多的脑力'，故只对决定生死的少数问题全功率使用。方法论签名：凡'贵/不可能/一直如此'三字出口，先问这是物理定律还是别人的想象力先一步耗尽了。",
+      "definition_en": "Reject analogy-based reasoning; decompose a problem into irreducible physical facts and re-derive the answer. A $65M rocket's raw materials cost about 2% of its price; a $600/kWh battery pack's commodity materials were a small fraction. The signature: split 'expensive' into physical constraint vs. habitual constraint—pay only for the former, dismantle the latter. Demands countable metrics and enormous mental energy; reserve full power for the few decisive questions.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》'The Algorithm'章节（Simon & Schuster, 2023, p.113）；2002年火星任务访谈（Kevin Rose 2013年访谈与Wired 'Elon Musk Mission to Mars'）；SpaceX创立史（2002年俄罗斯购弹谈判失败后转自研）",
+      "key_concepts": [
+        "第一性原理",
+        "类比思维",
+        "物理约束",
+        "习惯约束",
+        "成本拆解"
+      ],
+      "process_zh": [
+        "枚举惯例：把行业报价、公理、'一直如此'的默认值全部列成清单，标出每一项的出处与人名",
+        "拆到物理：逐项追问'这一项由什么构成、构成物在商品市场/物理定律下值多少'，算出理论底线成本",
+        "重定价差：把报价与物理底线之间的差额逐块归因——供应链加价、历史假设、监管惯性，锁定非物理部分",
+        "自建回推：凡非物理部分超过阈值，推导'如果从原材料自己造会怎样'，以自建/重构方案重新定价整个问题"
+      ],
+      "process_en": [
+        "Enumerate every convention: list industry quotes, axioms and 'always been so' defaults with a name attached to each",
+        "Decompose to physics: ask what each item is made of and what its components cost on commodity markets/laws",
+        "Re-price the gap: attribute each block of the quote-minus-physics difference to margins, legacy assumptions, inertia",
+        "Rebuild in-house: where non-physical cost exceeds threshold, derive the 'what if we build from raw materials' plan and re-price the whole problem"
+      ],
+      "key_quote_zh": "大多数人用别人的答案思考，少少数人从事实的底层重新推导——火箭贵，是因为没有人问过它该多贵。",
+      "key_quote_en": "Most people reason from other people's answers; a rare few re-derive from the facts at the bottom. Rockets were expensive because nobody ever asked how expensive they ought to be.",
+      "representative_cases_zh": [
+        "SpaceX创立（2002）：6500万美元报价被拆解为'2%材料成本+98%惯例'，自研猎鹰系列把入轨成本压低近一个数量级——行业价格表被物理公式重写",
+        "Tesla电池（2008-2014）：电池组600美元/千瓦时的行业报价被拆到原材料级，自建Gigafactory后成本降至约两成——电动车从玩具变成产业的前提",
+        "反例警示：Rocket 3与某些第一性原理误用案例——对'监管与认证这类真实社会约束'也强行拆解，撞回现实；拆解只对习惯约束有效，物理与社会刚性约束须绕行或遵从"
+      ],
+      "representative_cases_en": [
+        "SpaceX (2002): the $65M quote decomposed into 2% materials + 98% convention; in-house Falcon rockets cut launch cost by nearly an order of magnitude",
+        "Tesla batteries (2008-2014): the $600/kWh pack price decomposed to commodity level; Gigafactory brought cost to ~20% of market—making EVs an industry",
+        "Counterexample: first-principles misapplied to genuine regulatory/social constraints bounces off reality; decompose habits, respect physical and social rigidity"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-002",
+        "M-MKS-006",
+        "M-MKS-007"
+      ],
+      "modern_applications_en": [
+        "M-MKS-002",
+        "M-MKS-006",
+        "M-MKS-007"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-002",
+      "name_zh": "五步删除算法",
+      "name_en": "The Five-Step Delete Algorithm",
+      "mode_code": "M-MKS-002",
+      "category": "核心方法",
+      "domain_zh": "工程管理/流程设计",
+      "domain_en": "Engineering Management / Process Design",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "把'改进'固化为有严格顺序的五步：一、质疑每项需求（每条需求必须署名到人，'来自法务部门''来自安全部门'的需求不合法——聪明人提的需求最危险，因为没人敢质疑）；二、尽力删除零件与流程（删错也没关系，'如果加回来的不到删除量的10%，说明你删得还不够'——以过度删除对冲组织的天然保守）；三、简化和优化（必须在删除之后，'聪明工程师最常见的错误是优化一个本不该存在的东西'）；四、加速周期（'在错误方向上加速是在给自己挖坟，别挖得更快'）；五、自动化（放在最后——内华达与弗里蒙特工厂的最大教训就是先自动化再发现问题）。这套算法源自Model 3'量产地狱'的实战：他亲驻工厂数周，发现自动化产线的瓶颈恰是当初被自动化的错误流程。2022年他对星舰团队喊话：'我们要每天晚上应用第一性原理，按照五步工作法的步骤，质疑各项需求，删除不必要的部分。'要害有三：其一，顺序即纪律——五步不可倒换，倒换的代价他在Tesla亲身付过（'很多东西在Tesla被自动化、加速、简化，然后被删除'）；其二，需求署名制把官僚需求还原为人的决定，使质疑成为可能；其三，过度删除是统计校准而非鲁莽——用'10%回填'的预设损失换取组织对冗余的敏感度。方法论签名：改进任何系统前，先走一遍删除——你删除不掉的需求里，藏着系统真正的约束。",
+      "definition_en": "A strictly ordered five-step loop: (1) question every requirement—each must carry a name, never 'the legal department'; (2) delete parts and processes aggressively—re-adding under 10% means you didn't delete enough; (3) simplify and optimize only after deletion—'the most common error of smart engineers is optimizing what shouldn't exist'; (4) accelerate cycle time only then; (5) automate last. Born from the Model 3 production hell and pasted on SpaceX walls, its order is discipline, not advice.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》'The Algorithm'章节（2023, p.113）；2022年8月星舰团队训示（'五步工作法'口述记录）；Jorgenson《The Book of Elon Musk》The Algorithm 篇；Model 3量产地狱（2017-2018）工程复盘",
+      "key_concepts": [
+        "五步工作法",
+        "需求署名",
+        "过度删除",
+        "10%回填",
+        "顺序纪律"
+      ],
+      "process_zh": [
+        "质疑署名：把系统里每条需求翻出来要求署名到人——凡以部门名义存在、无人能为其辩护的需求进入删除候选",
+        "删除狂潮：一次性删除所有 remotely questionable 的部分，公开声明'其中一部分我们会加回来'——以预设10%回填换取删除的彻底性",
+        "删除后再优化：仅对幸存的部分做简化与优化，严防'优化本不该存在的东西'；每轮优化前重问一次'这一步为何还在'",
+        "加速再自动化：方向确认后压周期时间，最后才自动化已稳定的流程——自动化错误的流程等于把错误铸进钢铁"
+      ],
+      "process_en": [
+        "Question with attribution: pull every requirement out and demand a name—anything no one will defend enters the deletion candidate list",
+        "Deletion rampage: remove everything remotely questionable in one pass, publicly announcing that some will be re-added—the 10% buffer buys thoroughness",
+        "Optimize survivors only: simplify what remains, never what shouldn't exist; before each optimization round re-ask why the step is still alive",
+        "Then accelerate, then automate: compress cycle time once direction is confirmed; automate last—automating a wrong process casts the error into steel"
+      ],
+      "key_quote_zh": "最好的零件是不存在的零件，最好的流程是不需要的流程——但在你删够之前，你不知道哪条是哪条。",
+      "key_quote_en": "The best part is no part; the best process is no process—but until you have deleted enough, you cannot tell which is which.",
+      "representative_cases_zh": [
+        "Model 3量产地狱（2017-2018）：先自动化后质疑的顺序错误导致'产能地狱'，马斯克睡在工厂亲手拆掉第四条过度自动化传送带——五步算法的顺序由此被血写定",
+        "星舰删除狂潮（2021-2023）：'今晚删掉任何可疑的管子、传感器、歧管'，星舰质量与工时被连续削减；部分被删项按约10%回填——删除量与回填率成了进度仪表",
+        "SpaceX供应商替代：用五步算法逐项审视1200家传统航天供应商的报价，80-90%零件转入自研自产——每一项外购都先过一遍'能否删除、能否自造'的审问"
+      ],
+      "representative_cases_en": [
+        "Model 3 production hell (2017-2018): automating before questioning was the cardinal error; Musk lived in the factory and ripped out an over-automated conveyor—the algorithm's ordering was written in that pain",
+        "Starship deletion rampage (2021-2023): 'delete any questionable tube, sensor, manifold tonight'; mass and labor shrank continuously with ~10% re-added—the deletion rate itself became a progress gauge",
+        "SpaceX supplier substitution: 1,200 legacy-aerospace suppliers audited step by step; 80-90% of parts moved in-house—every purchase first survives the delete-or-build interrogation"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-001",
+        "M-MKS-006",
+        "M-MKS-004"
+      ],
+      "modern_applications_en": [
+        "M-MKS-001",
+        "M-MKS-006",
+        "M-MKS-004"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-003",
+      "name_zh": "快速迭代硬件法",
+      "name_en": "Hardware Iteration at Software Speed",
+      "mode_code": "M-MKS-003",
+      "category": "核心方法",
+      "domain_zh": "航天工程/硬件研发",
+      "domain_en": "Aerospace Engineering / Rapid Hardware Development",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "把软件业'快速发布、快速失败、快速修正'的循环搬进硬件与航天：不追求一次性设计完美，而是造出原型→发射→爆炸→公开失败录像→修正→再飞。SpaceX在星舰项目上把这一哲学推到极致：马斯克公开说'失败的测试就是好的测试——只要炸掉的不是你没有从中学习的东西'；星舰前几次试飞全部爆炸或解体，但每次爆炸的遥测数据直接喂给下一版设计（隔热瓦布局、级间热分离、栅格翼驱动），三年内从首飞到实现筷子接火箭。他由此改写了航天的验证文化：NASA式的'地面试验穷尽再飞'被替换为'飞行即试验'——飞行试验本身成了最贵的地面试验台，而发射频率就是学习速率。要害有三：其一，迭代有效的前提是爆炸成本可控且不炸人——SpaceX把每次试飞控制在可承受的资金与安全边界内，'失败'被预先定价；其二，每次迭代必须绑定明确假设清单（这一飞验证哪三个设计决策），否则爆炸只是放烟花；其三，'公开失败'是武器：失败录像成为招聘与信心的武器——最顶尖的工程师被'能以十倍速度试错'吸引而来。方法论签名：凡高成本低频次的验证领域（航天、医疗设备、核能），先设计一个'可以安全失败的试验序列'，让学习速率超过烧钱速率。",
+      "definition_en": "Import the software loop—build, launch, fail, learn, repeat—into hardware and aerospace: Starship's first flights exploded publicly, each feeding telemetry into the next design, from first flight to booster catch in three years. 'A failed test is a good test as long as it wasn't something you failed to learn from.' Flying became the test; launch cadence became the learning rate.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》星舰章节（2023）；SpaceX星舰前五次综合飞行试验（IFT-1至IFT-5, 2023-2024）公开遥测与复盘；马斯克2016年IAC'让人类成为多行星物种'演讲中关于迭代制造的论述",
+      "key_concepts": [
+        "飞行即试验",
+        "学习速率",
+        "爆炸定价",
+        "假设清单",
+        "公开失败"
+      ],
+      "process_zh": [
+        "失败定价：为每一轮迭代设定可承受的资金、时间与安全损失上限——'可以安全失败'是迭代飞轮的第一块地基",
+        "假设绑定：每次试验只回答预设的假设清单（本飞验证哪几个设计决策），把爆炸转化为定向信息而非随机噪音",
+        "遥测回灌：把每次失败的传感器数据、高速影像在72小时内变成下一版设计变更——学习周期以周计而非以年计",
+        "频率即学习：让发射/试验频率成为头号KPI，公开失败录像以吸引顶尖人才并锁定'迭代文化'的公众承诺"
+      ],
+      "process_en": [
+        "Price the failure: set a tolerable cap on money, time and safety per iteration—a safely-failable test series is the flywheel's foundation",
+        "Bind hypotheses: each flight answers a preset list of design questions, converting explosions into directed information, not fireworks",
+        "Feed telemetry back: turn each failure's sensor data and high-speed footage into next-version design changes within 72 hours—learning in weeks, not years",
+        "Cadence is learning: make launch frequency the top KPI and publish the failures, attracting elite engineers and locking in the iterative culture publicly"
+      ],
+      "key_quote_zh": "失败是一个选项——如果你没有失败，说明你的创新不够。",
+      "key_quote_en": "Failure is an option here. If things are not failing, you are not innovating enough.",
+      "representative_cases_zh": [
+        "星舰IFT-1~IFT-5（2023-2024）：首飞级间分离失败、IFT-2级间热分离验证、IFT-4软溅落、IFT-5'筷子'回收——每次爆炸都精确兑换为一项设计修正，三年走完传统航天十年的路",
+        "猎鹰1号三连败（2006-2008）：第四次发射成功前的三次爆炸几乎耗尽公司现金，但每次失败都锁定一个真实故障（燃料晃动、级间共振、发动机余热）——濒死公司的迭代教科书",
+        "反例警示： challenger式的'成功压力压倒失败定价' cultures——迭代法的前提是诚实定价失败，当组织不允许'安全失败'时，快速迭代退化为鲁莽赌博"
+      ],
+      "representative_cases_en": [
+        "Starship IFT-1 through IFT-5 (2023-2024): stage-sep failure, then hot-staging, soft splashdown, and the 'chopsticks' catch—each explosion converted into a precise design fix, three years covering a conventional decade",
+        "Falcon 1 triple failure (2006-2008): three explosions nearly bankrupted the company, yet each pinned a real fault (slosh, interstage resonance, engine soak)—a near-death iteration textbook",
+        "Counterexample: cultures where success-pressure overrides failure-pricing—without 'safe failure', rapid iteration degrades into reckless gambling"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-002",
+        "M-MKS-005",
+        "M-MKS-009"
+      ],
+      "modern_applications_en": [
+        "M-MKS-002",
+        "M-MKS-005",
+        "M-MKS-009"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-004",
+      "name_zh": "使命驱动极限压强法",
+      "name_en": "Mission-Driven Extreme Pressure",
+      "mode_code": "M-MKS-004",
+      "category": "决策思维",
+      "domain_zh": "组织管理/领导力",
+      "domain_en": "Organizational Leadership / Crisis Management",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "以'文明级使命'（让人类成为多行星物种、加速可持续能源到来）为组织提供压强与意义的双重燃料：使命大到一个死线failure即文明损失，从而为'疯狂的紧迫感'提供正当性——'疯狂的紧迫感是我们公司运作的法则'。这不是简单的996压榨：其一，使命把挫折重构为剧情而非失败——猎鹰1号三连败后全员没有解散，因为'火星故事'还没写完；其二，马斯克亲自承担最大风险（把PayPal全部身家投入Tesla与SpaceX、2008年同时濒临两家公司破产），压强自上而下时也自下而上地被相信；其三，压强有反噬成本（离职率、健康、家庭），马斯克的解法是用'意义的密度'对冲'强度的密度'——最顶尖的工程师留下不是因为钱，而是因为在别处'造出来的东西不值得'。要害有三：其一，使命必须与真实风险绑定（SpaceX真的会破产）才有动员力，挂在墙上的口号只会制造犬儒；其二，领导者必须第一个被压强压住——睡工厂、买机票改图纸、凌晨三点回邮件；其三，压强需要泄压阀设计：项目节点的阶段性庆祝（第一次回收成功时的疯狂庆祝）是维持长期高压的心理会计。方法论签名：凡要团队跑出十倍速度，先回答'为什么值得十倍速度'——答案必须大到失败也值得，小到明天就能动手。",
+      "definition_en": "Supply an organization with twin fuel—civilizational mission plus deadline pressure. The mission re-frames setbacks as plot rather than failure; the leader absorbs the pressure first (all-in personal capital, sleeping in the factory); and 'meaning density' offsets 'intensity density'. Mission must be bound to real risk or it breeds cynicism; pressure needs relief valves.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》2008年濒危与Model 3章节（2023）；马斯克2006/2008/2016年公开叙事（火星绿洲/可回收火箭/多行星物种演讲）；Vance《硅谷钢铁侠》早期SpaceX章节",
+      "key_concepts": [
+        "使命驱动",
+        "疯狂的紧迫感",
+        "风险自担",
+        "意义密度",
+        "泄压阀"
+      ],
+      "process_zh": [
+        "立使命锚点：把组织目标翻译成一句文明级陈述（多行星物种/可持续能源），并公开承诺与之共存亡——使命必须真到可破产",
+        "风险自证：领导者把个人资源、时间与声誉压入同一赌注，使压强具备'我也在里面'的正当性而非转嫁",
+        "剧情化挫折：每次失败公开归因并写进使命叙事（'第3次爆炸让我们离火箭又近一步'），把士气损耗转化为剧情张力",
+        "节律泄压：在高压节律中预设泄压点（里程碑庆祝、公开复盘会），以意义密度对冲强度密度，防止压强变成纯粹损耗"
+      ],
+      "process_en": [
+        "Set a mission anchor: translate the goal into one civilizational sentence with real bankruptcy risk attached",
+        "Self-certify risk: the leader puts personal capital, time and reputation into the same bet—pressure with 'I am inside it too'",
+        "Narrativize setbacks: attribute each failure publicly and write it into the mission's plot, converting morale loss into dramatic tension",
+        "Rhythm relief valves: pre-set celebrations and public postmortems within the pressure cycle; use meaning density to offset intensity density"
+      ],
+      "key_quote_zh": "火星是我愿意死的地方，只不过别是着陆的时候。",
+      "key_quote_en": "Mars is the one place I'd willingly go to die—just not on landing.",
+      "representative_cases_zh": [
+        "2008年双重濒危：Tesla与SpaceX同时距破产数周，马斯克把PayPal套现的最后一亿美金劈成两半投入两家公司并亲自借钱付房租——使命叙事在真金白银里被验证，团队留下来打完第四发",
+        "Model 3量产地狱（2017-2018）：马斯克睡在弗里蒙特工厂地板上，每周120小时——领导者第一个被压强压住的样板，产能从每周2000爬到5000",
+        "反例警示：使命空转的公司——当'改变世界'只出现在招聘文案而不出现在资源配置里，压强退化为单纯的加班文化，顶尖人才第一个出走"
+      ],
+      "representative_cases_en": [
+        "2008 double near-death: the last PayPal dollar split between Tesla and SpaceX; the mission was validated in cash and the team stayed for flight four",
+        "Model 3 production hell (2017-2018): sleeping on the factory floor at 120 hours a week—the leader absorbs the pressure first as capacity climbed from 2,000 to 5,000 cars weekly",
+        "Counterexample: mission-washing—when 'changing the world' lives in recruiting copy but not in resource allocation, pressure becomes mere overtime and top talent leaves first"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-003",
+        "M-MKS-007",
+        "M-MKS-009"
+      ],
+      "modern_applications_en": [
+        "M-MKS-003",
+        "M-MKS-007",
+        "M-MKS-009"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-005",
+      "name_zh": "垂直整合纵深法",
+      "name_en": "Vertical Integration Depth",
+      "mode_code": "M-MKS-005",
+      "category": "核心方法",
+      "domain_zh": "供应链/制造战略",
+      "domain_en": "Supply Chain / Manufacturing Strategy",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "把关键环节从'外购'改为'自造'，直到体验与成本的关键接缝全部握在自己手里——且每次外购都要过一遍'能否自造'的审问。SpaceX自研发动机（梅林、猛禽）、航电、飞行软件与卫星（星链），自制率80-90%，对照传统航天巨头的1200家供应商体系；Tesla自研电池、芯片（FSD推理芯片、Dojo训练芯片）、电机与软件，甚至直营销售与售后。其经济学逻辑是：供应链的每一层利润+沟通成本+协调延迟都在为最终产品加价，而垂直整合把这些成本换成内部工程问题——更慢吗？短期是。更可控吗？在'供应商无法理解你的激进目标'时，快得多。要害有三：其一，垂直整合的方向由'目标是否超出供应链想象力'决定——若供应商能跟上需求，外购更快；若目标（10倍降本/全新架构）超出其理解，必须自造；其二，整合有极限（先进制程芯片离不开台积电与ASML），马斯克的判断是'整合到物理与垄断的墙边为止'；其三，整合的真正对象是'接缝'——制造机器的机器（'the machine that builds the machine'）：工厂本身才是最难的产品，把工厂设计对，产品几乎顺带而出。方法论签名：凡关键成本或关键体验卡在供应商报价上，先问'这条缝能不能收进自己手里'——能收则收，收到物理墙为止。",
+      "definition_en": "Move critical links from buy to build until every cost- and experience-critical seam is in-house—auditing every purchase with 'could we build it?' SpaceX builds 80-90% of its rockets versus legacy firms' 1,200 suppliers; Tesla builds batteries, chips, motors and software. Vertical integration makes sense when goals exceed the supply chain's imagination; integrate up to the walls of physics and monopoly, and aim at the seams—the factory itself, 'the machine that builds the machine', is the hardest product.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》制造与芯片章节（2023）；SpaceX自产比例与供应商对照（IPO文件与行业分析）；Tesla FSD芯片与一体化压铸（giga casting，120个冲压焊接件合一铸件）案例",
+      "key_concepts": [
+        "垂直整合",
+        "自造审问",
+        "接缝控制",
+        "制造机器的机器",
+        "一体化压铸"
+      ],
+      "process_zh": [
+        "审问外购：把每个关键外购件的报价拆为材料+加工+利润+协调，凡'协调与利润'占比过高且技术可及者进入自造候选",
+        "对准接缝：优先整合的不是零件而是接缝——接口、时序、责任不清的地方，那里藏着最多的成本与最差的体验",
+        "整合到墙：自造推进到物理极限或垄断墙边（先进制程、稀土）即止，墙上部分改为双供应商+战略储备的韧性策略",
+        "工厂即产品：把'造产品的机器'当第一产品持续迭代（Gigafactory、星舰塔架），工厂每快一分，产品迭代就快一分"
+      ],
+      "process_en": [
+        "Audit the buy list: decompose each critical purchase into materials+processing+margin+coordination; anything coordination-heavy and buildable enters the make-candidate list",
+        "Aim at seams: integrate interfaces and timing boundaries first—that is where cost and poor experience hide",
+        "Integrate to the wall: push in-sourcing to the edge of physics or monopoly (leading-edge lithography, rare earths), then switch to dual-sourcing plus strategic reserves",
+        "Factory as product: iterate 'the machine that builds the machine' continuously (Gigafactory, Starship tower)—a faster factory compounds into a faster product"
+      ],
+      "key_quote_zh": "工厂比产品更难——机器才是那个真正的产品。",
+      "key_quote_en": "The factory is harder than the product—the machine is the real product.",
+      "representative_cases_zh": [
+        "星链垂直整合（2019-2024）：卫星、相控阵天线、激光链路、用户终端全部自研，发射用自家火箭零加价——一个供应商也不依赖的星座成为可能，成本约为传统方案的十分之一",
+        "Tesla一体化压铸（2020-）：Model Y后底板120个冲压焊接件被一个铸件替代，产线缩短、公差收紧——'删除'与'整合'在同一动作里完成",
+        "反例警示：过度垂直整合的陷阱——SolarCity并购与某些自研部件（如早期4680产线爬坡）拖慢整体节奏；整合是武器不是信仰，'能跟上目标的外购永远更快'"
+      ],
+      "representative_cases_en": [
+        "Starlink (2019-2024): satellites, phased arrays, laser links and terminals all in-house with zero-margin launches on own rockets—a constellation no supplier could have priced, at ~one tenth of traditional cost",
+        "Tesla giga casting (2020-): 120 stamped-and-welded rear-body parts became one casting—deletion and integration in a single move",
+        "Counterexample: over-integration traps—SolarCity and early 4680 ramp slowed the whole system; integration is a weapon, not a faith—suppliers who can keep pace are always faster"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-001",
+        "M-MKS-002",
+        "M-MKS-006"
+      ],
+      "modern_applications_en": [
+        "M-MKS-001",
+        "M-MKS-002",
+        "M-MKS-006"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-006",
+      "name_zh": "白痴指数审计法",
+      "name_en": "Idiot Index Audit",
+      "mode_code": "M-MKS-006",
+      "category": "核心方法",
+      "domain_zh": "成本工程/供应链审计",
+      "domain_en": "Cost Engineering / Supply-Chain Audit",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "用'白痴指数'（一个零件的成品价格除以其原材料价格）给整个产品做CT扫描：指数越高，说明从原材料到成品之间混入了越多的流程浪费、设计过度、供应商利润与协调成本。艾萨克森记录马斯克在工厂里随手拿起一个零件问三个问题：'这是什么？白痴指数多少？为什么这么高？'——星舰上某个碳纤维零件指数高达50，答案最终指向'没有人质疑过工艺路线'。此法与第一性原理拆解法配对：第一性原理拆出物理底线，白痴指数量化现实报价与底线的距离，为删除与自造排定优先级。要害有三：其一，指数必须落在可查的公开商品价格上（伦敦金属交易所、大宗材料报价），否则审计退化为内部的数字游戏；其二，高指数不一定是坏——某些小件的材料占比天然极低，审计只对'量大或关键'的零件全功率开火；其三，审计的对象不是供应商而是自己的设计：为什么这个零件需要五轴精加工？为什么不用铸件？多数白痴指数是工程师的保险心理（'多留点余量总没错'）攒出来的。方法论签名：把BOM表按白痴指数从高到低排序，前十名就是下一季度的作战地图。",
+      "definition_en": "Scan a product with the idiot index—finished price divided by raw-material price. The higher the index, the more process waste, over-design, supplier margin and coordination hide between commodity and part. Musk picks up parts on the floor and asks three questions: what is it, what's the index, why so high? One carbon-fiber part indexed at 50 because 'nobody ever questioned the process route'. Pair with first-principles decomposition: physics sets the floor, the index prices the gap.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》工厂审计与星舰章节（2023）；Tesla与SpaceX成本工程实践（BOM降本战役、Model 3成本路线图）",
+      "key_concepts": [
+        "白痴指数",
+        "BOM审计",
+        "流程浪费",
+        "设计余量",
+        "工艺路线"
+      ],
+      "process_zh": [
+        "采集指数：对BOM表逐项算'成品价/原材料价'，原材料价格取公开市场报价，指数表每周更新",
+        "排序开火：按指数从高到低排序，锁定量大或关键的头部零件——它们是流程浪费的富矿",
+        "三连追问：对头部零件逐个追问'这是什么、为什么这么贵、工艺路线是谁定的'——直到追到'从未被质疑的默认'为止",
+        "重设计回填：以删除（取消零件）、降级工艺（锻改铸）、合并（多功能一体件）或自造重设价格，把指数压向物理底线"
+      ],
+      "process_en": [
+        "Collect the index: compute finished-price/raw-material-price for every BOM line against public commodity quotes; refresh weekly",
+        "Rank and target: sort descending, lock onto high-volume or critical head items—the richest veins of process waste",
+        "Triple interrogation: for each head item ask what it is, why so expensive, who chose the process route—until you hit an unquestioned default",
+        "Redesign and backfill: delete the part, downgrade the process (forge to cast), merge functions into one piece, or build in-house—push the index toward the physical floor"
+      ],
+      "key_quote_zh": "任何一个零件的白痴指数，都是组织惰性的温度计。",
+      "key_quote_en": "Any part's idiot index is a thermometer of organizational inertia.",
+      "representative_cases_zh": [
+        "星舰碳纤维零件（2018-2019）：某零件指数高达50，追问后以不锈钢301替代碳纤维方案整体重写——材料每公斤3美元对200美元，星舰的成本革命由一次白痴指数审计点燃",
+        "TeslaModel 3降本（2019-2020）：对线束、支架、控制器逐项审计，线束从Model S的3公里减到Model 3的1.5公里目标——BOM按指数排序成为季度作战地图",
+        "反例警示：把指数当唯一KPI会误伤小件与安全件——某些密封件指数天然极高但量极小，审计必须配'量大或关键'的过滤条件，否则工程师把聪明花在错误的地方"
+      ],
+      "representative_cases_en": [
+        "Starship carbon fiber (2018-2019): a part indexing at 50 led to the stainless-steel 301 rewrite—$3/kg versus $200/kg ignited Starship's cost revolution",
+        "Tesla Model 3 cost war (2019-2020): audits on harnesses, brackets, controllers; the harness target fell from 3 km (Model S) to 1.5 km—the index-ranked BOM became the quarterly battle map",
+        "Counterexample: index as sole KPI hurts small and safety parts—some seals are naturally high-index but tiny; filter by volume or criticality before firing"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-001",
+        "M-MKS-002",
+        "M-MKS-005"
+      ],
+      "modern_applications_en": [
+        "M-MKS-001",
+        "M-MKS-002",
+        "M-MKS-005"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-007",
+      "name_zh": "跨域物理同构法",
+      "name_en": "Cross-Domain Physical Isomorphism",
+      "mode_code": "M-MKS-007",
+      "category": "核心方法",
+      "domain_zh": "创新方法/知识迁移",
+      "domain_en": "Innovation Method / Knowledge Transfer",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "把一个领域验证过的物理/工程结构整体搬到另一个领域：Tesla的电池管理→SpaceX的能源系统；火箭的快速迭代→汽车制造；游戏的实时渲染→自动驾驶仿真；火箭的批量制造→星链卫星的产线。与简单的'类比思维'不同，此法搬运的是'结构'而非'词汇'——先抽象出深层结构（反馈回路、成本结构、可靠性数学），确认两域的结构匹配，再整体移植。马斯克的五家公司共享同一个方法论内核：PayPal的资金流、SpaceX的可靠性工程、Tesla的制造、Neuralink的接口、xAI的算力——他自称只做物理题：'宇宙有它自己的计算方式，我只是读它'。要害有三：其一，迁移的合法性靠结构证明而非修辞——必须能写出两域共有的方程或成本模型，否则是讲故事；其二，迁移要选'结构成熟'的源域：火箭迭代法已跑通才搬到汽车，游戏引擎已验证才搬到仿真；其三，每次迁移都要重付一遍领域税：汽车业的安全法规、医疗的审批周期不会因为你的方法先进而消失。方法论签名：进入新领域先问'这里的问题与我已解过的哪个问题同构'——找到同构，就把旧领域的全部学习曲线免费带走。",
+      "definition_en": "Transfer proven structures across domains—battery management to launch vehicles, rocket iteration to car plants, game engines to driving simulation. Unlike analogy, the cargo is structure, not vocabulary: abstract the deep pattern, verify the match, transplant whole. Every transfer re-pays the domain tax—safety codes and approval cycles do not vanish.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》跨公司方法论章节（2023）；马斯克YC演讲（2025，'用第一性原理解决它'）；Tesla→SpaceX人才与结构迁移记录（如Boring Company隧道迭代取自软件发布节奏）",
+      "key_concepts": [
+        "结构迁移",
+        "同构判定",
+        "领域税",
+        "学习曲线复用",
+        "物理同构"
+      ],
+      "process_zh": [
+        "抽象结构：从源域提取已验证的深层结构（反馈回路、成本模型、可靠性数学），剥离行业词汇",
+        "同构判定：写出源域与目标域共有的方程/成本模型，证明结构匹配——修辞级别的相似不通过",
+        "整体移植：以完整模块（团队、工具链、指标体系）而非单点创意移植，让源域的学习曲线整段复用",
+        "重付领域税：清点目标域的法规、审批与安全约束，为每一条预留真实的时间与合规预算——结构迁移不改写社会规则"
+      ],
+      "process_en": [
+        "Abstract the structure: extract the validated deep pattern from the source domain, stripped of industry vocabulary",
+        "Prove the isomorphism: write the shared equation or cost model for both domains—rhetorical resemblance does not pass",
+        "Transplant whole modules: move teams, toolchains and metric systems, not single ideas, carrying the old learning curve intact",
+        "Pay the domain tax: inventory the target domain's regulations, approvals and safety constraints and budget real time for each—structure transfer rewrites nothing social"
+      ],
+      "key_quote_zh": "宇宙的方程是通用的，只是没人愿意把左边学到的答案搬到右边。",
+      "key_quote_en": "The universe's equations are universal—people simply refuse to carry the answer from the left-hand side to the right.",
+      "representative_cases_zh": [
+        "火箭迭代→汽车制造（2017-2020）：SpaceX的'试飞-修正'循环被搬进Tesla工厂，产线问题按'爆炸定价+假设清单'处理——量产爬坡从行业惯例的数年压缩到数月",
+        "游戏引擎→驾驶仿真（2020-）：实时渲染技术整体移植到FSD仿真，虚拟里程以每天百万英里计——源域结构成熟才迁移的范例",
+        "反例警示：结构误判的迁移——Neuralink早期低估了神经生物学的'领域税'（柔性与免疫反应），迁移速度被迫重置；同构判定不严格时，搬运的是错觉"
+      ],
+      "representative_cases_en": [
+        "Rocket iteration into car plants (2017-2020): the fly-test-fix loop imported to Tesla's lines compressed ramp from years to months",
+        "Game engines into driving simulation (2020-): real-time rendering transplanted whole into FSD simulation at millions of virtual miles per day—the exemplar of migrating only mature structures",
+        "Counterexample: Neuralink under-priced biology's domain tax (flexibility, immune response) and the migration was reset—without strict isomorphism you transport an illusion"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-001",
+        "M-MKS-003",
+        "M-MKS-010"
+      ],
+      "modern_applications_en": [
+        "M-MKS-001",
+        "M-MKS-003",
+        "M-MKS-010"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-008",
+      "name_zh": "组织扁平疾行法",
+      "name_en": "Flat-org Marching",
+      "mode_code": "M-MKS-008",
+      "category": "组织思维",
+      "domain_zh": "组织设计/决策链",
+      "domain_en": "Organization Design / Decision Chain",
+      "level": "进阶",
+      "priority": 8,
+      "definition_zh": "以'信息必须沿最短路径流动'为组织第一原理，把层级压到接近零：沟通走信息链而非指挥链——任何人发现任何问题，可以直接找任何能解决它的人，直到问题解决为止（'你要找的是问题，不是 permisson'）。马斯克在Tesla与SpaceX维持'一人多职+极宽汇报跨度'（有的工程师直接向他汇报数月），高管被要求亲驻现场；他自己的决策方式是'深夜巡场+直接下指令'，现场发现问题的两小时内完成从发现到改图。与之配套的是'使节制'（ambassador, not manager）：外派到另一工厂的不是监工而是授权全权的现场决策者。要害有三：其一，扁平的前提是决策者可及——如果CEO不是真的深夜在线，信息链的终点就退化为语音信箱，扁平沦为混乱；其二，扁平必须配'问题路由'纪律：直通不是越级告状，而是带着数据找到有能力修复的最近节点；其三，扁平对组织规模有极限——万人企业里马斯克通过把公司切成'半独立小公司'（Starlink、FSD、Dojo各自像初创）维持扁平密度。方法论签名：凡流程审批超过两跳，先怀疑流程在为低信任付税——能靠现场与数据决策的事，不该走文书。",
+      "definition_en": "Information must flow by the shortest path: talk by information chain, not command chain—anyone who spots a problem goes to whoever can fix it, directly, until it's fixed. Musk's companies run one-person-many-roles, wide spans, executives on the floor, and two hours from discovery to drawing change. Flatness requires an accessible decider, routing discipline (data, not blame), and company-splitting to preserve density at scale.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》管理与弗里蒙特章节（2023）；马斯克2020年Twitter Tesla组织调整说明；Vance《硅谷钢铁侠》SpaceX早期决策链记录",
+      "key_concepts": [
+        "信息链",
+        "扁平组织",
+        "使节制",
+        "现场决策",
+        "问题路由"
+      ],
+      "process_zh": [
+        "打通信息链：公开宣布'沟通走信息链不走指挥链'，把最短路径原则写成明规则——越级不追责，压住问题才追责",
+        "现场密度：决策者与高管排班驻场（工厂、控制室），把'发现-决策'的距离压到同一栋楼同一班次",
+        "使节授权：外派人员按'全权大使'而非'监工'配置，授权清单与问责清单同时签署",
+        "规模切分：组织超过扁平密度极限时切成半独立小公司（各自有自己的CTO与决策权），用联邦制保住扁平"
+      ],
+      "process_en": [
+        "Open the chain: declare communication by information chain, not command chain—skip-level is protected, sitting on a problem is punished",
+        "Floor density: rotate deciders and executives through plants and control rooms; collapse discovery-to-decision into one shift, one building",
+        "Ambassador dispatch: field assignments carry full local authority plus signed accountability—a decision-maker, not a supervisor",
+        "Split at scale: past flat-density limits, carve semi-independent companies (Starlink, FSD, Dojo) so each stays startup-flat inside a federation"
+      ],
+      "key_quote_zh": "有问题就去找能解决它的人，直奔过去——别等许可，许可在问题后面排队。",
+      "key_quote_en": "If you see a problem, walk straight to the person who can fix it—don't wait for permission; permission queues behind the problem.",
+      "representative_cases_zh": [
+        "弗里蒙特深夜巡场（2018）：马斯克凌晨在产线发现电池组装配瓶颈，两小时内现场召集工程师改工装——'发现到改图'的最短路径样板",
+        "Starlink半独立运营（2020-）：以内部'小公司制'维持数千人团队的初创决策速度，星座组网以周为单位迭代——联邦制保住扁平密度的样板",
+        "反例警示：无'问题路由'纪律的扁平化会退化为越级告状与决策撞车——某制造团队推行'人人直通CEO'后重复指令激增，扁平必须配路由规则而非只砍层级"
+      ],
+      "representative_cases_en": [
+        "Fremont night rounds (2018): a battery-pack bottleneck found at 2 a.m. fixed within two hours—discovery-to-drawing in one shift",
+        "Starlink semi-independence (2020-): internal 'company-of-companies' kept a multi-thousand-person team startup-fast, iterating the constellation weekly—federalism preserving flat density",
+        "Counterexample: flatness without routing discipline degrades into skip-level blame and clashing directives—one plant's 'everyone calls the CEO' experiment multiplied duplicate orders; flatness needs routing rules, not just fewer layers"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-004",
+        "M-MKS-009",
+        "M-MKS-005"
+      ],
+      "modern_applications_en": [
+        "M-MKS-004",
+        "M-MKS-009",
+        "M-MKS-005"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-009",
+      "name_zh": "物理级诚实复盘法",
+      "name_en": "Physics-grade Honest Postmortem",
+      "mode_code": "M-MKS-009",
+      "category": "组织思维",
+      "domain_zh": "质量文化/错误处理",
+      "domain_en": "Quality Culture / Error Handling",
+      "level": "进阶",
+      "priority": 9,
+      "definition_zh": "把'对事实诚实'抬到物理测量的精度：错误可以被疯狂制造（爆炸、量产地狱、召回），但不可以被隐藏、修辞化或归罪于人——'犯错没关系，但错了还不肯低头就不行'。SpaceX的每次失败复盘都以遥测数据为唯一证词：把传感器数据摊在桌上，逐层排除假设直到物理证据指向唯一根因，然后用一个设计变更关闭它，并公开宣布'我们知道为什么了'。特斯拉的召回文化同构：问题被公开报告而非公关化。马斯克本人实践'当众认错'——从'到2020年 fully autonomous'的过度承诺到改口，他把认错本身做成信用工具：因为承认过，所以现在的判断更可信。要害有三：其一，复盘的第一句必须是'数据说什么'而非'谁的责任'——归罪会立刻教会全组织隐藏问题；其二，'我们知道为什么了'是关闭标准：没有找到物理根因的失败不算关闭，带着'可能'进入下一轮等于复制错误；其三，领导者先认错是组织的免罚配额——只有当最高处的认错免费流通，中层的认错才不需要勇气。方法论签名：凡事故，先冻结责备，冻结到遥测数据自己说话为止——责备是复盘的天敌，数据是唯一的证词。",
+      "definition_en": "Honesty at measurement precision: failures may be manufactured wildly—explosions, recalls—but never hidden, spun or blamed. SpaceX postmortems take telemetry as the sole testimony, exclude hypotheses layer by layer until physics points to one root cause, close it with one design change, and publicly say 'we know why'. Leaders confess first—public admission is a credit instrument, and only a blame-free top makes mid-level honesty free.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》失败复盘与Model 3章节（2023）；SpaceX事故调查公开记录（AMOS-6、CRS-7、星舰IFT系列）；马斯克公开改口记录（FSD时间表）",
+      "key_concepts": [
+        "遥测证词",
+        "根因关闭",
+        "当众认错",
+        "责备冻结",
+        "物理诚实"
+      ],
+      "process_zh": [
+        "责备冻结：复盘开始即宣布'只对事不对人'，任何人陈述事实免于追责——把心理安全感设为复盘的前置条件",
+        "遥测作证：以传感器数据、影像与日志为唯一证据链，逐层排除假设，直到证据指向唯一物理根因",
+        "单点关闭：用一个可验证的设计/流程变更关闭根因，并写下'为什么此前没有发现'——把根因变成组织的新知识",
+        "先认错领导：最高决策者对自身误判公开认错（时间表、方案、人事），为中层的认错支付'免罚配额'"
+      ],
+      "process_en": [
+        "Freeze blame: open every postmortem with 'facts, not persons'—psychological safety as a precondition, not a byproduct",
+        "Let telemetry testify: sensor data, footage and logs as the sole evidence chain; exclude hypotheses layer by layer to one physical root cause",
+        "Close with one fix: shut the root cause with one verifiable change and write down why it was missed before—turning the failure into institutional knowledge",
+        "Confess first: the top leader publicly admits own misjudgments (timelines, designs, hires), paying the indemnity that makes mid-level honesty free"
+      ],
+      "key_quote_zh": "犯错没关系，错了还不肯低头，才是真正的失败。",
+      "key_quote_en": "Making mistakes is fine—refusing to bow to a mistake is the real failure.",
+      "representative_cases_zh": [
+        "AMOS-6爆炸（2016）：发射台事故后SpaceX以遥测锁定复合材料储罐失效（COPV内固体氧），发布根因公开信并改进加注程序——四个月后复飞，客户未流失",
+        "星舰IFT-1复盘（2023）：混凝土发射台被气流摧毁被如实归因为'低估了33台发动机声学能量'，其后加喷淋与钢甲——把物理欠账写进公开复盘",
+        "反例警示：责备冻结失效的组织——当一次事故有人被公开问责，全组织的信息隐藏立刻升级，下次失败将'安全地'发生在看不见的地方"
+      ],
+      "representative_cases_en": [
+        "AMOS-6 (2016): telemetry pinned COPV solid-oxygen failure; a public root-cause letter and procedural fix led to return-to-flight four months later with customers intact",
+        "Starship IFT-1 postmortem (2023): the destroyed concrete pad was honestly attributed to underestimating 33 engines' acoustic energy—sprays and steel added, the physics debt written publicly",
+        "Counterexample: one public scapegoat upgrades the whole organization's information-hiding—the next failure will happen 'safely' somewhere invisible"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-003",
+        "M-MKS-008",
+        "M-MKS-004"
+      ],
+      "modern_applications_en": [
+        "M-MKS-003",
+        "M-MKS-008",
+        "M-MKS-004"
+      ],
+      "related_modes": []
+    },
+    {
+      "id": "M-MKS-010",
+      "name_zh": "时间表倒逼法",
+      "name_en": "Deadline-driven Forcing",
+      "mode_code": "M-MKS-010",
+      "category": "决策思维",
+      "domain_zh": "目标管理/承诺设计",
+      "domain_en": "Goal Management / Commitment Design",
+      "level": "进阶",
+      "priority": 10,
+      "definition_zh": "把不可能的时间表当工程工具而非承诺：先公开一个'所有人都说不可能'的死线（2018年把Tesla跑车送上火星、2022年星舰轨道首飞、FSD'明年实现'），让死线成为组织资源的聚焦透镜与外部承诺的倒逼机制。马斯克的时间表一贯偏差极大——但他不是在撒谎，而是在使用'斯特金时间表'：把目标写成'如果一切顺利'的最优值，用公开承诺制造不可逆性（公司资源、公众注意力、个人信誉都被抵押在死线上），从而把'应该做'变成'必须做'。他的辩解方式是重新定义测量：'重要的不是日期，而是进度斜率'——只要斜率是指数的，日期就是次要变量。要害有三：其一，倒逼死线必须绑定真实资源（真正的团队、真正的钱）才有聚焦力，纸面死线只会制造狼来了；其二，必须区分'倒逼死线'与'交付承诺'——对客户与安全相关的日期，马斯克明确反对用乐观值欺骗（这与火箭的安全冗余一致）；其三，斜率公开化：把'进度斜率'（每周产出、迭代频率）作为对外叙事，让失败的时间表被斜率的真实性赎回。方法论签名：凡要动员一个不可能的目标，先公开一个不可能的日期，再每周公开斜率——日期会被嘲笑，斜率会 recruiting 信徒。",
+      "definition_en": "Use impossible deadlines as an engineering tool: announce a date everyone calls impossible (a Tesla roadster to Mars, Starship orbital flight), turning it into a focusing lens. The dates miss wildly, but they are bets—optimistic 'if all goes well' values that mortgage company resources and personal credibility to convert 'should' into 'must'. Redefine the metric as slope, not date: an exponential slope redeems a missed date. Distinct from delivery promises, where optimism is fraud.",
+      "source_chapter": "艾萨克森《埃隆·马斯克》时间表与承诺章节（2023）；马斯克FSD/星舰历次时间表公开记录与'斜率'自辩（2019-2024访谈）；Tesla Roadster火星任务宣布（2018 Falcon Heavy首飞）",
+      "key_concepts": [
+        "倒逼死线",
+        "公开承诺",
+        "斜率叙事",
+        "不可逆抵押",
+        "斯特金时间表"
+      ],
+      "process_zh": [
+        "公开抵押：宣布一个'不可能'日期，同时抵押真实资源（团队、资金、个人信誉）——没有抵押的死线只是许愿",
+        "斜率管理：把死线拆解为每周可观测的产出斜率，管理注意力在斜率而非日期上；斜率不足先补资源再谈日期",
+        "区分承诺：对客户、安全与合规的日期单独管理，用保守值——倒逼工具与交付诚信分账核算",
+        "复盘赎回：时间表失守时以'斜率是否为真'复盘——斜率真则修正日期并公开，斜率假则回查资源与方案，两者都公开"
+      ],
+      "process_en": [
+        "Mortgage publicly: announce the impossible date with real resources staked—team, money, credibility; a stakeless deadline is a wish",
+        "Manage the slope: decompose the deadline into weekly observable output; manage attention on slope, not date; add resources before arguing about dates",
+        "Separate the books: customer, safety and compliance dates run on conservative values—the forcing tool and delivery honesty are kept in different accounts",
+        "Redeem by slope review: when dates slip, audit whether the slope was real—true slope gets a public date correction; false slope triggers a resource-and-plan audit, both public"
+      ],
+      "key_quote_zh": "日期是个笑话，但斜率是誓言——人们笑我的日期，跟着我的斜率走。",
+      "key_quote_en": "Dates are jokes; slopes are oaths—people laugh at my dates and follow my slope.",
+      "representative_cases_zh": [
+        "Falcon Heavy火星跑车（2018）：'把一辆Tesla送上火星'被宣称为口号级死线，最终于2018年2月真发射——公开抵押迫使工程团队把'不可能'拆成十八个月内的真实任务链",
+        "星舰轨道级首飞（2022-2023）：日期三度跳票但每周试验斜率公开可见（发动机台架、罐压测试、静态点火），斜率赎回日期——2023年4月如期实现'年内首飞'",
+        "反例警示：FSD时间表的过度透支——'明年实现完全自动驾驶'连用多年且未绑定斜率叙事的早期阶段，透支了部分公众信任；倒逼死线必须与斜率证据同时供货"
+      ],
+      "representative_cases_en": [
+        "Falcon Heavy roadster (2018): a slogan-grade deadline that became a real launch—public mortgage forced 'impossible' into an eighteen-month task chain",
+        "Starship orbital flight (2022-2023): dates slipped thrice while the weekly test slope stayed visible (stand tests, tank pressure, static fires); the slope redeemed the date—first flight in 2023",
+        "Counterexample: FSD's over-drawn timelines—'full self-driving next year' repeated for years without early slope transparency spent public trust; a forcing deadline must ship slope evidence alongside the date"
+      ],
+      "modern_applications_zh": [
+        "M-MKS-004",
+        "M-MKS-003",
+        "M-MKS-008"
+      ],
+      "modern_applications_en": [
+        "M-MKS-004",
+        "M-MKS-003",
+        "M-MKS-008"
+      ],
+      "related_modes": []
+    }
+  ]
+}

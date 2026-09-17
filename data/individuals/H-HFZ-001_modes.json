@@ -1,0 +1,549 @@
+{
+  "schema_version": "v6",
+  "figure_id": "H-HFZ-001",
+  "figure_name": "韩非",
+  "figure_code": "HanFeiDocs",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-HFZ-001",
+      "mode_code": "M-HFZ-001",
+      "name_zh": "参验核言法",
+      "name_en": "Cross-Verification of Claims Method (Canyan)",
+      "category": "科学方法",
+      "domain_zh": "认识论/言辞裁决",
+      "domain_en": "Epistemology / Adjudicating Claims",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "把一切言辞置于'参验'的审判席：韩非在《奸劫弑臣》中提出'循名实而定是非，因参验而审言辞'——判断一个说法真假，不问其是否动听、是否合于圣贤，而问其是否能在事实与功效的对勘中站得住。要害有三：其一，名实对勘——言辞（名）必须与结果（实）逐一对账，对不上即为虚言；其二，多参互验——单一观察不足为凭，须从多个角度、多个事例交叉验证；其三，言行并考——听其言必责其用，观其行必求其功，使漂亮话失去免检特权。方法论签名：言语的信用不由修辞担保，而由对账担保。",
+      "definition_en": "Place every claim on the bench of 'canyan' (cross-verification): in 'Traitors Usurp and Assassinate,' Han Fei ruled 'fix right and wrong by matching name with substance; scrutinize speech by cross-checked evidence.' Whether a claim is true depends not on its eloquence or canonical pedigree, but on whether it survives reconciliation with facts and outcomes. Three essentials: audit names against substances—any statement failing reconciliation with results is empty talk; multiply checks—single observation proves nothing, cross-examine from many angles and cases; and weigh word with deed—demand use from speech and merit from conduct, revoking rhetoric's inspection exemption. Signature: the credit of speech is guaranteed not by rhetoric but by audit.",
+      "source_chapter": "《韩非子·奸劫弑臣》：'循名实而定是非，因参验而审言辞'",
+      "key_concepts": ["参验", "循名责实", "名实对勘", "审言辞", "功效裁决"],
+      "process_zh": [
+        "把待判言辞登记为'名'，把可观察结果登记为'实'，逐条对账",
+        "寻找独立的多条参证：不同来源、不同事例、不同角度交叉核对",
+        "言行并考：对每个主张者，既审其言辞又责其既往功效",
+        "对不上的言辞判为虚言并降其信用等级，对得上的升为可行规程"
+      ],
+      "process_en": [
+        "Register claims as 'names' and observable outcomes as 'substances,' reconciling line by line",
+        "Seek independent corroboration: cross-check across sources, cases, and angles",
+        "Audit speaker and speech together: examine past track record alongside present claims",
+        "Demote unreconcilable claims to empty talk; promote verified ones to actionable protocols"
+      ],
+      "key_quote_zh": "循名实而定是非，因参验而审言辞。",
+      "key_quote_en": "Fix right and wrong by matching name with substance; scrutinize speech by cross-checked evidence.",
+      "representative_cases_zh": [
+        "《显学》驳'贤治'：儒侠被尊而国不治——以'举国实效'参验'尊贤之言'，结论是无参验的尊贤即虚言",
+        "《备内》论防奸：不凭臣下表白而凭其行为轨迹与利害结构参验——'人臣之于其君，非有骨肉之亲也'，故以利害对账测忠诚",
+        "《六反》揭穿六种伪行：显学誉之而于国无功者，一一以功效对账判为奸伪——把社会流行的道德声望全部送入参验程序",
+        "反例警示：《亡征》列'喜淫刑而不周于法'等四十七种亡国征兆，其中多条即君主凭言辞不凭参验用人——无参验是系统性的国家风险"
+      ],
+      "representative_cases_en": [
+        "'Explicating Schools' refutes rule-by-virtue: scholars and knights-errant are honored yet the state decays—verdict by auditing the rhetoric of honoring worthies against actual state outcomes",
+        "'On Guarding the Inside': never trust a minister's self-presentation; verify loyalty by auditing behavior traces and interest structures—'the minister owes the ruler no flesh-and-blood bond,' so interests are the ledger",
+        "'Six Refutations' exposes six types of hypocrisy: conduct praised by fashionable learning but fruitless for the state is convicted claim by claim through outcome audit",
+        "Counter-case: 'Marks of Ruin' lists forty-seven signs of state collapse, several of them rulers appointing by eloquence instead of verification—skipping cross-verification is a systemic national risk"
+      ],
+      "modern_applications_zh": [
+        "循证决策与证据分级制度",
+        "绩效审计与KPI对账（言辞与结果核对）",
+        "尽调中的多源交叉验证",
+        "信用评级与声誉系统的客观化改造"
+      ],
+      "modern_applications_en": [
+        "Evidence-graded decision-making",
+        "Performance audit: reconciling stated claims with measured outcomes",
+        "Multi-source cross-verification in due diligence",
+        "Objectivizing credit and reputation systems"
+      ],
+      "related_modes": ["M-HFZ-002", "M-HFZ-003", "M-HFZ-006"]
+    },
+    {
+      "id": "M-HFZ-002",
+      "mode_code": "M-HFZ-002",
+      "name_zh": "循名责实法",
+      "name_en": "Matching Name with Substance Method (Xingming Shize)",
+      "category": "治理技术",
+      "domain_zh": "组织管理/绩效对账",
+      "domain_en": "Organizational Management / Performance Audit",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "用一套对账机器替掉君主的主观印象：韩非在《二柄》中提出'审合刑名'——臣下先陈述其职守与目标（名），期满后以实绩（实）逐一核对：功当其事、事当其言则赏，功不当其事、事不当其言则罚，且'言大功小'与'言小功大'同罚。要害有三：其一，承诺先于结果登记——先立名，后责实，使赏罚有据可查；其二，双向问责——超额兑现也罚，因为越权的'成功'破坏的是名实系统本身；其三，以术藏于-admin——核对标准公开，核对过程隐秘，使臣下无法表演于上。方法论签名：不看谁说得好，只看谁交的账与说的对得上。",
+      "definition_en": "Replace the ruler's subjective impressions with an audit machine: in 'Two Handles,' Han Fei prescribes 'xingming' reconciliation—ministers first state their office and target (the name), then at term's end actual results (the substance) are matched item by item: reward when merit matches the task and the task matches the words; punish when either fails—and overperformance beyond one's word is punished exactly as underperformance. Three essentials: register commitments before outcomes exist, so rewards and penalties are checkable; two-way accountability—punish even超额 success, because unauthorized 'success' corrodes the name-substance system itself; and hide the technique—publish the standard, conceal the audit, so subordinates cannot perform for it. Signature: not who speaks best, but whose delivered account matches what was said.",
+      "source_chapter": "《韩非子·二柄》：'人主将欲禁奸，则审合刑名；刑名者，言与事也'",
+      "key_concepts": ["审合刑名", "循名责实", "二柄", "双向问责", "术"],
+      "process_zh": [
+        "任职或立项之初，令当事者书面陈述目标、职守与预期（定名）",
+        "期限届满，以可核实的实绩逐项与陈述核对（责实）",
+        "双向对账：不足者罚，越权超额者同罚，只认名实相符",
+        "赏罚严格按对账结果执行，不因声望、哀告、功过相抵而修改"
+      ],
+      "process_en": [
+        "At appointment or project start, require written statement of target, duty, and expectation (fix the name)",
+        "At term's end, reconcile verifiable results against the statement item by item (call for substance)",
+        "Two-way audit: punish shortfall and punish unauthorized overreach alike—accept only name-substance match",
+        "Execute rewards and penalties strictly by audit result—no modification for reputation, pleas, or offsetting merits"
+      ],
+      "key_quote_zh": "功当其事，事当其言，则赏；功不当其事，事不当其言，则罚。",
+      "key_quote_en": "When merit matches the task and the task matches the words, reward; when either fails, punish.",
+      "representative_cases_zh": [
+        "《二柄》韩昭侯案例：典冠替寝者加衣而昭侯并罪二人——越职行善与失职同罚，守住名实边界",
+        "《二柄》'言大功小'之罚：言'我为钟'而钟小者诛其言——夸口者与失职者同罪，遏制浮报",
+        "《难一》'历山之农者侵畔'辨：舜耕渔不谏而民自正属圣人之化不可复制，治世须任法——以名实框架区分'传说'与'可操作治理'",
+        "反例警示：'越官之罪死'若不执行，则人人抢先表演、制度边界崩解——名实系统对例外零容忍"
+      ],
+      "representative_cases_en": [
+        "Marquis Zhao of Han (Two Handles): the crown-keeper who draped a coat on the sleeping ruler and the chamberlain who failed to were both punished—kindness outside one's office counts as breach",
+        "Punishing 'word large, merit small' (Two Handles): promising a great bell and delivering a small one is punished as severely as failure—deterring inflated claims",
+        "'Critiques I' on Shun at Mount Li: the fable of virtue transforming farmers is unreplicable hagiography; governing requires law—the name-substance frame separates legend from operable governance",
+        "Counter-case: if 'death for overstepping office' is waived, everyone performs and the institutional boundary dissolves—zero tolerance for exceptions"
+      ],
+      "modern_applications_zh": [
+        "OKR/KPI的承诺登记与期末对账",
+        "项目经理签字负责制与越权问责",
+        "政府采购与外包的交付验收",
+        "防止'表演型加班'的成果导向考核"
+      ],
+      "modern_applications_en": [
+        "OKR/KPI commitment registration with term-end reconciliation",
+        "Accountable sign-off and overreach liability in project governance",
+        "Acceptance testing in procurement and outsourcing",
+        "Outcome-based appraisal that defeats performative busyness"
+      ],
+      "related_modes": ["M-HFZ-001", "M-HFZ-006", "M-HFZ-009"]
+    },
+    {
+      "id": "M-HFZ-003",
+      "mode_code": "M-HFZ-003",
+      "name_zh": "矛盾之喻法",
+      "name_en": "Contradiction Detection Method (Maodun)",
+      "category": "逻辑方法",
+      "domain_zh": "逻辑学/一致性检验",
+      "domain_en": "Logic / Consistency Testing",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "用一个双联问题引爆说辞的内在矛盾：韩非在《难一》中讲楚人鬻矛与盾——'以子之矛陷子之盾，何如？'其人弗能应。要害有三：其一，捕捉不相容之两许——同时宣称'无坚不摧'与'无物可摧'的体系必然崩塌；其二，以对手自己的 premises 攻击对手——不引入外部标准，只让对方的两句话互相残杀；其三，矛盾即证伪——一旦发现体系自我冲突，整个体系的信用连带着破产，不因局部动人而豁免。方法论签名：最好的检验不是找一个反例，而是让命题自己打自己。",
+      "definition_en": "Detonate a rhetoric's internal contradiction with a paired question: in 'Critiques I,' Han Fei tells of the Chu seller of spears and shields—'with your spear pierce your shield: what then?' The man could not answer. Three essentials: catch incompatible commitments—a system claiming both 'pierce everything' and 'be pierced by nothing' collapses by itself; attack with the opponent's own premises—introduce no external standard, let his two sentences kill each other; and treat contradiction as falsification—once a system conflicts with itself, its whole credit goes bankrupt, exempted by no charming part. Signature: the best test is not finding a counterexample but making a claim duel itself.",
+      "source_chapter": "《韩非子·难一》：'以子之矛陷子之盾，何如？其人弗能应也'",
+      "key_concepts": ["矛盾", "不相容命题", "以子之矛攻子之盾", "一致性检验", "归谬"],
+      "process_zh": [
+        "拆解对方说辞，列出其同时持有的全部断言",
+        "寻找其中的不相容对：A 蕴含非 B 而 B 亦被断言",
+        "以双联问题把两断言并置摊牌，令其互搏",
+        "对方弗能应即为体系性证伪——不再逐条争论，直接降级整体信用"
+      ],
+      "process_en": [
+        "Decompose the opponent's rhetoric; list every assertion held simultaneously",
+        "Locate the incompatible pair: A implies not-B while B is also asserted",
+        "Stage the showdown with a paired question, forcing the two assertions to duel",
+        "Incapacity to answer = systemic falsification—stop debating item by item; downgrade the whole system's credit"
+      ],
+      "key_quote_zh": "夫不可陷之盾与无不陷之矛，不可同世而立。",
+      "key_quote_en": "A shield nothing can pierce and a spear that pierces everything cannot both stand in the same world.",
+      "representative_cases_zh": [
+        "《难一》以矛盾之喻驳'舜之救败'：既颂尧为圣则不得有败，既有败则尧非圣——儒家叙事内部两颂互搏",
+        "《难势》辨'势治'：既言'贤者用势则治'又言'不肖者用势则乱'，则势非治之保证——以对方论势之两语夹击其结论",
+        "《显学》驳'自直之剑'：既云恃自直则无需栝，又云恃自善之民则无需治——把'性善'与'须教'的矛盾钉死",
+        "反例警示：未被戳破的矛盾会以复利膨胀——'弗能应'若无人追问，矛盾说辞即可通行数十年"
+      ],
+      "representative_cases_en": [
+        "Critiques I: the spear-shield parable refutes 'Shun remedying failure'—if Yao was a sage there was no failure; if there was failure, Yao was no sage. The Confucian narrative's two praises duel each other",
+        "'Difficulties of Position': if the worthy wielding power brings order yet the unworthy wielding power brings chaos, then power itself guarantees neither—pinned by his own two premises on shi",
+        "'Explicating Schools': if self-straightening wood needs no frame and self-good people need no governance, the contradiction between innate goodness and the need for teaching is nailed shut",
+        "Counter-case: unexposed contradictions compound—if no one asks the paired question, contradictory rhetoric can circulate for decades"
+      ],
+      "modern_applications_zh": [
+        "商业计划书与政策文件的一致性压力测试",
+        "辩论与质询中的归谬式提问技术",
+        "代码与系统设计的不变量冲突检测",
+        "组织价值观宣言与实际激励的矛盾审计"
+      ],
+      "modern_applications_en": [
+        "Consistency stress-testing of business plans and policy documents",
+        "Reductio questioning in debate and cross-examination",
+        "Invariant-conflict detection in system and code design",
+        "Auditing the contradiction between stated values and actual incentives"
+      ],
+      "related_modes": ["M-HFZ-001", "M-HFZ-004", "M-HFZ-010"]
+    },
+    {
+      "id": "M-HFZ-004",
+      "mode_code": "M-HFZ-004",
+      "name_zh": "法术势三位一体法",
+      "name_en": "Law-Technique-Power Triad Method",
+      "category": "治理技术",
+      "domain_zh": "制度设计/权力工程",
+      "domain_en": "Institutional Design / Power Engineering",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "把治理拆为三个互锁部件而非单一道德工程：韩非综合商鞅之'法'（公开成文的规则与赏罚）、申不害之'术'（君主暗藏的用人核验技术）、慎到之'势'（位与权所生的强制力）——三者缺一，系统即溃：无法则赏罚无据，无术则法为臣下所窃，无势则法术皆空文。要害有三：其一，部件化思维——把'国家为何失控'分解为规则、核验、权柄三个独立故障源；其二，互锁设计——公开的规则约束臣民，隐秘的核验约束官僚，稳固的权位担保前两者不被反噬；其三，反人治冗余——系统运转不押注于君主圣明，庸主亦可借三件套维持秩序。方法论签名：不要一个圣人，要一台庸主也能开动的机器。",
+      "definition_en": "Decompose governance into three interlocking components rather than one moral project: Han Fei synthesized Shang Yang's 'law' (public written rules with rewards and penalties), Shen Buhai's 'technique' (the ruler's concealed personnel-verification craft), and Shen Dao's 'power' (coercive force born of position). Remove any one and the system fails: without law, rewards lack grounds; without technique, ministers steal the law; without power, both are empty paper. Three essentials: component thinking—diagnose 'why states lose control' into three independent failure sources of rule, verification, and leverage; interlocking design—public rules bind subjects, concealed verification binds bureaucrats, secure position shields the first two from backlash; anti-charisma redundancy—operation never bets on a sage ruler; a mediocre one can keep the machine running. Signature: not a saint, but a machine a mediocre ruler can drive.",
+      "source_chapter": "《韩非子·定法》（评商鞅申不害之偏）、《难势》（承慎到论势）",
+      "key_concepts": ["法", "术", "势", "三位一体", "制度互锁", "反人治"],
+      "process_zh": [
+        "诊断系统失控的故障源：规则缺失、核验缺失、权柄缺失各属哪一类",
+        "立法：公开、统一、可预期的规则与赏罚，先立信而后求效",
+        "设术：以循名责实、参验等暗核验技术约束执行层",
+        "固势：确保权位与资源不旁落，使法术的执行有强制力兜底"
+      ],
+      "process_en": [
+        "Diagnose failure sources: is it missing rules, missing verification, or missing leverage?",
+        "Legislate: public, uniform, predictable rules and sanctions—establish credibility before demanding effect",
+        "Deploy technique: concealed verification (name-substance audit, cross-checks) to bind the executing layer",
+        "Consolidate power: ensure position and resources never slip away, backing law and technique with enforcement"
+      ],
+      "key_quote_zh": "君无术则弊于上，臣无法则乱于下，此不可一无，皆帝王之具也。",
+      "key_quote_en": "Without technique the ruler is duped above; without law the ministers chaos below—neither can be lacking; both are the instruments of emperors and kings.",
+      "representative_cases_zh": [
+        "《定法》评商鞅之偏：秦行法而强，然'徒法而无术'，致张仪甘茂之徒得以窃权——有法无术则法为能臣所乘",
+        "《定法》评申不害之偏：韩行术十七年而'托万乘之劲韩，七十年而不至于霸'——有术无法则奸臣以私意断赏罚",
+        "《难势》论势之两可：贤者得势则治、不肖得势则乱，故势必与法合用，不可单独押注",
+        "反例警示：秦二世而亡——法完备而术势倾覆（赵高窃柄），三件套缺二即系统崩盘"
+      ],
+      "representative_cases_en": [
+        "'Determining the Two' on Shang Yang's deficiency: Qin grew strong on law, but 'law without technique' let capable ministers like Zhang Yi and Gan Mao usurp leverage",
+        "'Determining the Two' on Shen Buhai: Han practiced technique for seventeen years yet 'a strong state of ten thousand chariots never attained hegemony'—technique without law lets favorites judge rewards by private whim",
+        "'Difficulties of Position': power brings order under the worthy and chaos under the unworthy—so power must be fused with law, never bet alone",
+        "Counter-case: Qin fell in the second generation—law complete but technique and power subverted (Zhao Gao's usurpation); lose two of three and the system crashes"
+      ],
+      "modern_applications_zh": [
+        "公司治理：章程（法）+ 内审稽核（术）+ 董事会权柄（势）",
+        "平台规则设计：公开规则与暗查机制的组合",
+        "制度工程学的分部件故障分析",
+        "去人格化组织流程（庸主冗余设计）"
+      ],
+      "modern_applications_en": [
+        "Corporate governance: charter (law) + internal audit (technique) + board authority (power)",
+        "Platform rule design combining public rules with covert inspection",
+        "Component-level failure analysis in institutional engineering",
+        "Depersonalized processes with redundancy against mediocre leadership"
+      ],
+      "related_modes": ["M-HFZ-002", "M-HFZ-006", "M-HFZ-009"]
+    },
+    {
+      "id": "M-HFZ-005",
+      "mode_code": "M-HFZ-005",
+      "name_zh": "人性利害基线法",
+      "name_en": "Self-Interest Baseline Method (Renqing Lihai)",
+      "category": "心理学方法",
+      "domain_zh": "行为建模/激励设计",
+      "domain_en": "Behavioral Modeling / Incentive Design",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "以'趋利避害'为一切行为模型的缺省基线，而非以善意为缺省：韩非在《六反》《备内》中反复论证——舆人造车欲人之富贵，匠人棺欲人之早死，'非爱之也，利在人之死也'；父母之于子犹'用计算之心以相待'，君臣更是'计合而从'。要害有三：其一，动机悲观主义不是道德判断而是工程假设——把人预设为利害计算机，设计出的制度在圣人与庸人下都不崩；其二，利害结构可测——不测人心善恶（不可测），而测其处境中的激励（可测）；其三，基线之上再谈道德——道德是奖励出来的变量，不是担保系统的常量。方法论签名：设计制度时假设人人是精明的利己者，你就不会失望；假设人人善良，系统迟早破产。",
+      "definition_en": "Take 'pursuing profit and avoiding harm' as the default baseline of all behavior models, not goodwill: in 'Six Refutations' and 'On Guarding the Inside,' Han Fei shows the carriage-maker wishes men rich, the coffin-maker wishes men dead—'not from hate, but because his profit lies in their death'; even parents treat children 'with a reckoning heart,' and ruler and minister 'ally when interests converge.' Three essentials: motivational pessimism is an engineering assumption, not a moral judgment—institutions designed for interest-calculating humans survive sages and mediocrities alike; interest structures are measurable—do not measure whether hearts are good (unmeasurable), measure the incentives in one's position (measurable); morality sits above the baseline—virtue is a rewarded variable, never the guaranteeing constant. Signature: design for clever egoists and you will not be disappointed; assume universal goodness and the system eventually bankrupts.",
+      "source_chapter": "《韩非子·备内》：'舆人成舆则欲人之富贵，匠人成棺则欲人之夭死'；《六反》《饰邪》",
+      "key_concepts": ["趋利避害", "计算之心", "动机悲观主义", "激励结构", "性本利"],
+      "process_zh": [
+        "为每个行为主体列出其在当前处境下的真实利害清单（升迁、赏罚、依附对象）",
+        "以利害清单预测行为，而非以宣称的价值观预测",
+        "重新设计处境：使所欲之利与所期望之行为同向，使违规之害大于违规之利",
+        "对道德号召降权：凡制度依赖'人人自觉'处，标记为系统脆弱点并加固"
+      ],
+      "process_en": [
+        "List each actor's real interest inventory in their current position (promotion, sanctions, patrons)",
+        "Predict behavior from interests, not from professed values",
+        "Redesign positions: align desired rewards with desired conduct; make violation costlier than violation's gain",
+        "Down-weight moral appeals: wherever a system depends on universal self-restraint, flag it as a fragile node and reinforce"
+      ],
+      "key_quote_zh": "舆人成舆则欲人之富贵，匠人成棺则欲人之夭死也。非爱之也，利在人之死也。",
+      "key_quote_en": "The carriage-maker wishes his customer wealth; the coffin-maker wishes his customer dead—not from hate, but because his profit lies in that death.",
+      "representative_cases_zh": [
+        "《备内》以利害结构论防奸：后妃太子'欲君之死'非因恶君而因继嗣之利——故防内不靠忠心靠结构",
+        "《六反》析'父母之于子也，产男则相贺，产女则杀之'——最亲关系仍按利害计算，是人性基线的极限证明",
+        "《饰邪》论'小知不可使谋事'：朋党之利与公家之利相反，故以私忠期待臣下必落空",
+        "反例警示：齐桓公信易牙、竖刁之'忠'（自宫、烹子）而终饿死——以超常'无私'为凭恰是最大风险信号"
+      ],
+      "representative_cases_en": [
+        "Guarding the Inside: queens and heirs 'wish the ruler dead' not from hatred but from succession gains—guard against insiders by structure, not by trusting loyalty",
+        "Six Refutations: 'when a son is born they congratulate, when a daughter is born they kill her'—even the closest bond computes interests; the baseline's limit proof",
+        "'Adorning Evil': factional interest runs opposite to public interest—expecting private loyalty from ministers always comes up empty",
+        "Counter-case: Duke Huan of Qi trusted Yi Ya and Shu Diao's 'loyalty' (self-castration, cooking his son) and starved to death—extraordinary selflessness is itself the loudest risk signal"
+      ],
+      "modern_applications_zh": [
+        "激励相容的机制设计（对照 Bastiat/史密斯'看不见的手'先声）",
+        "反舞弊的内控设计：假设而非信任",
+        "安全工程中的'零信任'架构同构",
+        "用户增长与定价中的行为经济学建模"
+      ],
+      "modern_applications_en": [
+        "Incentive-compatible mechanism design",
+        "Anti-fraud internal controls: assume, don't trust",
+        "The isomorph of zero-trust architecture in security engineering",
+        "Behavioral-economic modeling in growth and pricing"
+      ],
+      "related_modes": ["M-HFZ-002", "M-HFZ-006", "M-HFZ-008"]
+    },
+    {
+      "id": "M-HFZ-006",
+      "mode_code": "M-HFZ-006",
+      "name_zh": "因情设赏罚法",
+      "name_en": "Reward-Penalty Lever Method (Er Bing)",
+      "category": "治理技术",
+      "domain_zh": "激励工程/行为调控",
+      "domain_en": "Incentive Engineering / Behavior Regulation",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "把赏罚当作操纵行为的两个杠杆，而非表达好恶的仪式：韩非在《二柄》中指出'明主之所导制其臣者，二柄而已矣。二柄者，刑德也'——臣下畏刑而慕赏，则君主只需握住这两根杠杆，即可导出任何所需行为。要害有三：其一，杠杆唯一的排他性——赏罚之柄不可与人，臣下'借德市恩'即是君主失权；其二，令行必践——'赏莫如厚而信，罚莫如重而必'，一次失信即全盘失效，赏罚的可信度比其力度更重要；其三，以利导之而非以理服之——'利之所在民归之，名之所彰士死之'，顺着人性基线设置诱因，比说服更可靠。方法论签名：想让人做什么，别讲道理——把奖励摆在那里，把惩罚摆在那里，然后走开。",
+      "definition_en": "Treat reward and penalty as two levers for steering behavior, not rituals for expressing sentiment: in 'Two Handles,' 'the enlightened ruler controls his ministers by two handles only—penalty and favor.' Ministers fear penalty and crave reward; hold these levers and any needed conduct can be produced. Three essentials: exclusivity—the handles must never be shared; when ministers 'borrow favor to buy gratitude,' sovereignty leaks; credibility over force—'reward generously and keep faith; punish heavily and without fail'—a single broken promise voids the whole system; guide by interest, not persuasion—'where profit is, the people go; where fame shines, gentlemen die': set incentives along the self-interest baseline, more reliable than any sermon. Signature: to make people act, don't argue—place the reward, place the penalty, and walk away.",
+      "source_chapter": "《韩非子·二柄》；《难二》：'利之所在，民归之；名之所彰，士死之'",
+      "key_concepts": ["二柄", "刑德", "赏罚信必", "以利导之", "杠杆排他"],
+      "process_zh": [
+        "明确目标行为清单，为每项行为标定对应的赏与罚刻度",
+        "握紧二柄：赏罚权集中于制度中心，切断任何代理分发渠道",
+        "建立信必记录：凡诺赏必赏、凡断罚必罚，宁可少诺而必践",
+        "定期复盘杠杆效力：行为未变即调刻度，而非加强说教"
+      ],
+      "process_en": [
+        "Enumerate target behaviors; calibrate reward and penalty scales for each",
+        "Grip both handles: concentrate reward/penalty at the institutional core; cut off every delegated dispensing channel",
+        "Build a credibility record: always honor promised rewards, always execute stated penalties—promise less, deliver always",
+        "Review lever efficacy: when behavior does not move, recalibrate the scale—do not escalate the sermon"
+      ],
+      "key_quote_zh": "明主之所导制其臣者，二柄而已矣。二柄者，刑德也。",
+      "key_quote_en": "The enlightened ruler steers his ministers with two handles only: penalty and favor.",
+      "representative_cases_zh": [
+        "《二柄》论'赏莫如厚而信'：商鞅徙木立信的赏罚逻辑被韩非理论化——信必是杠杆的润滑剂",
+        "《内储说上》'火形严，故人鲜灼；水形懦，故人多溺'——罚的威慑来自确定性而非凶残，宽猛之辨即刻度设计",
+        "《难二》'利之所在民归之'：越王好勇而民多轻死，楚灵王好细腰而宫中多饿人——君主之好恶即最强杠杆，不可轻用",
+        "反例警示：'宋襄之仁'式的以德代赏——放下二柄去感动人，感动无效且系统失能"
+      ],
+      "representative_cases_en": [
+        "Two Handles: 'reward generously and keep faith' theorizes Shang Yang's moving-the-wood pact—credibility is the lever's lubricant",
+        "Inner Store of Illustrations: 'fire looks fierce, so few are burned; water looks gentle, so many drown'—deterrence comes from certainty, not cruelty; leniency vs severity is scale design",
+        "Critiques II: 'where profit is, the people go'—King Goujian's love of valor made soldiers scorn death; King Ling's love of slim waists starved his palace—a ruler's mere preference is the strongest lever, never to be used casually",
+        "Counter-case: Duke Xiang of Song's 'benevolence' substituting virtue for reward—laying down the levers to move hearts moves nothing and disables the system"
+      ],
+      "modern_applications_zh": [
+        "薪酬与绩效体系的刻度设计（高确定性、强兑现）",
+        "监管科技中的'确定性威慑'原则",
+        "平台经济中的积分/信用杠杆",
+        "组织变革：先改激励再谈文化"
+      ],
+      "modern_applications_en": [
+        "Calibrated compensation and performance systems: high certainty, strong follow-through",
+        "The certainty-of-deterrence principle in regulatory technology",
+        "Points and credit levers in platform economies",
+        "Organizational change: adjust incentives before preaching culture"
+      ],
+      "related_modes": ["M-HFZ-005", "M-HFZ-002", "M-HFZ-009"]
+    },
+    {
+      "id": "M-HFZ-007",
+      "mode_code": "M-HFZ-007",
+      "name_zh": "世异则事异法",
+      "name_en": "Times-Change-Methods-Change Method (Shiyi)",
+      "category": "历史方法",
+      "domain_zh": "历史哲学/制度演化",
+      "domain_en": "Philosophy of History / Institutional Evolution",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "把'时代变了'当作变革的完整论证：韩非在《五蠹》中给出著名三段——'上古竞于道德，中世逐于智谋，当今争于气力'，故'世异则事异，事异则备变'；守株待兔者'欲以先王之政治当世之民，皆守株之类也'。要害有三：其一，历史分期诊断——先判明当下处于哪个竞争范式（道德/智谋/气力），再用匹配该范式的工具；其二，反祖法默认——先王之政是上一轮环境的解，环境已换则默认其失效，举证责任在沿用者；其三，变革的正当性内置于历史观——改革不是对传统的背叛，而是对'备与世协'这一元规则的忠诚。方法论签名：不必证明新法好，只需证明旧法是给另一个世界设计的。",
+      "definition_en": "Treat 'the times have changed' as a complete argument for reform: in 'Five Vermin,' Han Fei's famous triad—'in high antiquity men competed in virtue, in the middle ages in strategy, today in force'—hence 'when the age changes, its affairs change; when affairs change, preparations must change.' He who waits by the stump for another hare, wanting to govern today's people by former kings' politics, is 'of the stump-watching kind.' Three essentials: periodize before prescribing—identify which competitive paradigm (virtue/strategy/force) the present belongs to, then pick tools matching it; ancestral law is refuted by default—former kings' politics solved a previous environment; once the environment shifts, presumption of failure lies with those who keep it; the meta-rule 'preparations must accord with the age' makes reform loyalty, not betrayal. Signature: you need not prove the new law good—only that the old law was designed for another world.",
+      "source_chapter": "《韩非子·五蠹》：'世异则事异，事异则备变'；'守株待兔'典",
+      "key_concepts": ["世异事异", "事异备变", "历史分期", "守株待兔", "反祖法默认"],
+      "process_zh": [
+        "为当下环境做范式分期诊断：竞争维度、约束条件与上古/中世有何不同",
+        "清点沿用中的旧制度，逐项标注其当初针对的环境条件",
+        "凡旧制度的环境条件已消失者，进入'默认失效'清单，须重新论证方可保留",
+        "以'备与世协'为元规则输出变革方案，并预估新环境再度变化时的退出条件"
+      ],
+      "process_en": [
+        "Diagnose the present environment's paradigm: how its competitive dimension and constraints differ from prior ages",
+        "Inventory inherited institutions, annotating the environmental conditions each originally targeted",
+        "Where those conditions have vanished, move the institution to a 'presumed obsolete' list—retention now needs fresh justification",
+        "Output reform under the meta-rule 'preparations accord with the age,' with exit conditions for when the environment shifts again"
+      ],
+      "key_quote_zh": "世异则事异，事异则备变。上古竞于道德，中世逐于智谋，当今争于气力。",
+      "key_quote_en": "When the age changes, its affairs change; when affairs change, preparations change. High antiquity competed in virtue, the middle ages in strategy, today in force.",
+      "representative_cases_zh": [
+        "《五蠹》论'守株待兔'：以偶然的一次成功（兔触株）为可复用规律——祖法的认识论错误即把历史抽样当总体规律",
+        "《五蠹》论尧舜让天下与今县令之争：'轻辞古之天子，难去今之县令'——厚薄之变因利薄厚，非因道德降，环境变了比较基线也变",
+        "《心度》'法与时转则治，治与世宜则有功'——把'时转'制度化：法须随环境重算而非一次性立法",
+        "反例警示：《亡征》中'慕仁义而弱人者'即守株型国家——以旧世界的道德勋章补贴新世界的竞争失败"
+      ],
+      "representative_cases_en": [
+        "Watching the stump (Five Vermin): mistaking one lucky hare for a reusable law—the epistemic error of all ancestralism, sampling history as if it were a population rule",
+        "Five Vermin on Yao and Shun yielding the throne vs. today's magistrate: 'men lightly quit the ancient Son of Heaven but fight to keep a county magistracy'—generosity tracks scarcity of spoils, not moral decline; the comparison baseline moved",
+        "'Hearts Measured': 'law that turns with the times brings order; governance fitted to the world bears fruit'—institutionalize recalibration, never one-time legislation",
+        "Counter-case: 'Marks of Ruin' names states 'weakened by cherishing benevolence and righteousness'—spending old-world moral medals to subsidize new-world competitive failure"
+      ],
+      "modern_applications_zh": [
+        "技术代际更替中的组织转型（'变革管理'的历史观版本）",
+        "监管沙盒与法律的定时复审条款（sunset clause）",
+        "商业战略中的范式切换识别（Kodak式守株预警）",
+        "历史比较研究的基线校准方法"
+      ],
+      "modern_applications_en": [
+        "Organizational transformation across technology generations",
+        "Regulatory sandboxes and statutory sunset clauses",
+        "Detecting paradigm shifts in strategy—stump-watching early warning (the Kodak case)",
+        "Baseline calibration in comparative historical research"
+      ],
+      "related_modes": ["M-HFZ-008", "M-HFZ-010", "M-HFZ-003"]
+    },
+    {
+      "id": "M-HFZ-008",
+      "mode_code": "M-HFZ-008",
+      "name_zh": "八奸防范法",
+      "name_en": "Threat-Channel Enumeration Method (Ba Jian)",
+      "category": "风险管理",
+      "domain_zh": "安全工程/威胁建模",
+      "domain_en": "Security Engineering / Threat Modeling",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "把'内部威胁'穷举为有限条目逐一设防：韩非在《八奸》中把侵蚀君权的通道完整编目——同床（枕边）、在旁（近臣）、父兄（血亲）、养殃（民誉）、民萌（散财市恩）、流行（游说）、威强（养侠蓄势）、四方（挟外自重）——八条通道各有机理、各有对策。要害有三：其一，通道思维——不罗列具体阴谋，而抽象出权力被侵蚀的结构性入口，入口穷尽则威胁可管理；其二，每条通道对应一个堵截设计而非一句告诫；其三，由内而外的威胁排序——最危险的敌人不是边境的敌国而是身边的受益结构。方法论签名：别问'谁会害我'，问'权力能从哪些口子漏出去'，把口子数清楚。",
+      "definition_en": "Exhaust internal threats into a finite catalog and fortify each: in 'Eight Deceits,' Han Fei compiles the complete list of channels eroding sovereign power—by the bed (consorts), at the side (favorites), father and brothers (kin), fostering calamity (popular renown), the people's hue (buying gratitude with largesse), circulating talk (lobbyists), coercive strength (retained fighters), the four quarters (leveraging foreign powers)—each channel with its mechanism and its counter. Three essentials: channel thinking—never list specific plots; abstract the structural inlets of power leakage; an exhaustible inlets list makes threats manageable; map each channel to a blocking design, not a warning; rank threats from within outward—the deadliest enemy is not the enemy at the border but the benefiting structure at your side. Signature: ask not 'who might harm me' but 'through which apertures does power leak'—count the apertures.",
+      "source_chapter": "《韩非子·八奸》；《备内》：'人主之患在于信人，信人则制于人'",
+      "key_concepts": ["八奸", "威胁通道", "内部威胁", "备内", "堵截设计"],
+      "process_zh": [
+        "为目标系统抽象'权力/资源泄漏'的结构性通道清单，力求穷尽",
+        "对每条通道分析其成立机理：谁受益、经由何种信任缺口",
+        "为每条通道设计专属堵截：隔离、制衡、透明化或利益重构",
+        "按'内大于外'排序风险预算，先堵身边的口子再修外墙"
+      ],
+      "process_en": [
+        "Abstract an exhaustible list of structural channels through which power/resources leak",
+        "For each channel, analyze its enabling mechanism: who benefits, and via which trust gap",
+        "Design a channel-specific block—separation, checks, transparency, or interest restructuring",
+        "Budget risk from inside outward: seal the near apertures before reinforcing the outer wall"
+      ],
+      "key_quote_zh": "人主之患在于信人，信人则制于人。",
+      "key_quote_en": "The ruler's peril lies in trusting men: trust them and you are mastered by them.",
+      "representative_cases_zh": [
+        "《八奸》'同床'条：贵夫人宠姬的威胁不在其言而在其'乘于酒醉饱食'的接近权——对策是隔离决策时刻而非怀疑具体人",
+        "《八奸》'民萌'条：散公财以市私恩者虽得民誉亦是奸——对策是切断代理分发赏赐的渠道",
+        "《备内》'炼得'之防：防妻与近臣非因恶之，而因'万乘之主'的继嗣与亲近结构必生受益者——结构性设防优先于识人",
+        "反例警示：《亡征》'大臣太贵，左右太威'——两大通道同时失防即亡国之征，威胁须逐口设防而非总量感觉"
+      ],
+      "representative_cases_en": [
+        "Eight Deceits, 'by the bed': the favored consort's threat lies not in her words but in her access power 'riding wine and satiety'—countermeasure: isolate decision moments, not suspect individuals",
+        "Eight Deceits, 'the people's hue': dispersing public wealth to buy private gratitude, however popular, is deceit—countermeasure: sever delegated channels of reward",
+        "Guarding the Inside: guarding against wife and favorites is not misanthropy but structure—for a ruler of ten thousand chariots, succession and intimacy inevitably generate beneficiaries; structural defense outranks person-reading",
+        "Counter-case: 'Marks of Ruin'—'ministers too noble, favorites too mighty': two channels breached at once is a mark of ruin; threats need per-aperture defenses, not a vague sense of total danger"
+      ],
+      "modern_applications_zh": [
+        "信息安全威胁建模（STRIDE式通道穷举）与最小权限设计",
+        "公司反舞弊：关联交易、报销、采购各通道分设控制",
+        "内部审计的'信任缺口'清单方法",
+        "关键人物依赖的连续性风险管理"
+      ],
+      "modern_applications_en": [
+        "STRIDE-style threat modeling and least-privilege design",
+        "Corporate anti-fraud: per-channel controls over related-party deals, expenses, procurement",
+        "The trust-gap inventory method in internal audit",
+        "Key-person dependency and continuity risk management"
+      ],
+      "related_modes": ["M-HFZ-005", "M-HFZ-006", "M-HFZ-009"]
+    },
+    {
+      "id": "M-HFZ-009",
+      "mode_code": "M-HFZ-009",
+      "name_zh": "七术察奸法",
+      "name_en": "Seven Techniques of Inspection Method (Qi Shu)",
+      "category": "治理技术",
+      "domain_zh": "监督核查/组织控制",
+      "domain_en": "Supervision / Organizational Control",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "为不可全知的管理者配一套低成本的信息获取技术包：韩非《内储说上》列'七术'——众端参观（多源旁证）、必罚明威、赏誉厚而信、一听责下（逐一听言防串供）、疑诏诡使（故意释出干扰信息测反应）、挟知而问（明知故问验忠诚）、倒言反事（放出假信息钓鱼）——七种技术覆盖'如何知道真相'的全部低成本路径。要害有三：其一，信息不对称是组织的常态病，须以技术包而非勤勉对抗；其二，主动设局优于被动听报——单向听取必被过滤，须制造信息扰动使隐瞒者自行暴露；其三，技术是中性的暗器——七术只对事不对人，公开规则而隐秘执行。方法论签名：管理者最贵的不是权力而是真相——七术是买真相的最低价格。",
+      "definition_en": "Equip the not-omniscient manager with a low-cost toolkit for acquiring truth: the 'Inner Store of Illustrations' lists Seven Techniques—multi-source corroboration; certain punishment to make might known; generous, faithful reward; hearing subordinates one by one to prevent collusion; decoy edicts and covert errands to provoke revealing reactions; asking what you already know to test honesty; and inverted words, reversed deeds—baiting with false information. Seven techniques cover every low-cost path to truth. Three essentials: information asymmetry is the chronic disease of organizations—fight it with a toolkit, not diligence; proactive setups beat passive reports—one-way listening is always filtered; inject perturbation so concealers expose themselves; the techniques are neutral instruments—aimed at conduct, not persons; standards public, execution covert. Signature: a manager's scarcest resource is not power but truth—Seven Techniques are its lowest price.",
+      "source_chapter": "《韩非子·内储说上》：'七术：一曰众端参观……七曰倒言反事'",
+      "key_concepts": ["七术", "众端参观", "一听责下", "疑诏诡使", "挟知而问", "倒言反事"],
+      "process_zh": [
+        "识别组织中最关键的信息盲区：何处谎言成本最低",
+        "配用技术组合：多源旁证对常规事项，逐一听言对串供风险，钓鱼测谎对高危疑点",
+        "保持技术的中性与隐秘：核查标准可公开，设局过程不外泄，结果按名实制度处置",
+        "周期轮换技术组合，防止组织学会对应的反侦察"
+      ],
+      "process_en": [
+        "Map the organization's critical blind spots: where lying is cheapest",
+        "Deploy technique combinations: multi-source corroboration for routine items, one-by-one hearings against collusion, baiting for high-risk suspicions",
+        "Keep techniques neutral and covert: audit standards may be public; the setups must not leak; results are handled by the name-substance system",
+        "Rotate the toolkit periodically so the organization cannot learn matching countermeasures"
+      ],
+      "key_quote_zh": "观听不参则诚不闻，听有门户则臣壅塞。",
+      "key_quote_en": "If observation and hearing are not cross-checked, the truth is never heard; if listening has a single doorway, ministers can block it.",
+      "representative_cases_zh": [
+        "《内储说上》'挟知而问'：韩昭侯明知门外尚有南门牛迹而问'何以城门之外有牛迹'，东门谎报立破——以已知事实做测谎基准",
+        "《内储说上》'一听责下'：齐王逐一听取学者之议而非聚堂共议——防止合谋口径，逐人记录再互核",
+        "《内储说上》'必罚明威'：行小过必罚使大奸不敢试——以低成本小案建立高成本威慑",
+        "反例警示：七术若用于泄愤或赏私，即沦为特务政治——技术的正当性由名实制度的赏罚闭环担保，不由术本身"
+      ],
+      "representative_cases_en": [
+        "'Asking what you know': Marquis Zhao, knowing of ox tracks outside the south gate, demanded an explanation—the east gate's false report collapsed instantly; known facts as a lie-detector baseline",
+        "'Hearing one by one': the King of Qi heard scholars' proposals individually, never in a common hall—defeating orchestrated talking points, recording each then cross-checking",
+        "'Certain punishment makes might known': executing small offenses unfailingly so great traitors dare not try—low-cost small cases building high-cost deterrence",
+        "Counter-case: turned to spite or favor, the Seven Techniques degenerate into secret-police politics—their legitimacy is guaranteed only by the reward-penalty closed loop of the name-substance system, never by the techniques themselves"
+      ],
+      "modern_applications_zh": [
+        "审计抽样与明知故问式盘问技术",
+        "反舞弊中的钓鱼测试与红队演练",
+        "组织沟通的防串供设计（隔离访谈）",
+        "管理信息系统的多源交叉设计（打破单信道）"
+      ],
+      "modern_applications_en": [
+        "Audit sampling and the ask-what-you-know interrogation technique",
+        "Phishing tests and red-team drills in anti-fraud",
+        "Isolated-interview design against collusion",
+        "Multi-source cross-design in management information systems—breaking single channels"
+      ],
+      "related_modes": ["M-HFZ-001", "M-HFZ-002", "M-HFZ-008"]
+    },
+    {
+      "id": "M-HFZ-010",
+      "mode_code": "M-HFZ-010",
+      "name_zh": "孤愤著书法",
+      "name_en": "Lone-Fervor Codification Method (Gu Fen)",
+      "category": "写作方法",
+      "domain_zh": "理论体系化/危局写作",
+      "domain_en": "Theory-Building / Writing Under Peril",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "在人身与思想的双重危局中完成体系的定稿与传世：韩非口吃不能道说而'善著书'，明知《说难》'凡说之难，在知所说之心'而身为韩国公子终死于秦狱，遂把毕生所知熔铸为五十五篇自洽体系——以孤愤之情运冷峻之笔，把游说经验升华为'不可传授于具体君主、但可传授于任何读者'的普遍理论。要害有三：其一，危局定稿——政治上完全失败者的思想因文本的自洽与可传输而统治两千年，文本是比君主更可靠的发行渠道；其二，寓言载体——《守株》《矛与盾》《扁鹊见蔡桓公》等寓言使抽象制度理论获得千年级传播力，理硬而壳轻；其三，文体自觉——《难》体逐篇驳议、《储说》经传分列，为体系配套了可增补的格式。方法论签名：说服不了当世，就写一部能说服所有后世的书。",
+      "definition_en": "Finish and transmit a system amid dual peril—to one's person and one's thought: Han Fei stuttered and could not speak, but 'was good at writing'; knowing from 'The Difficulties of Persuasion' that 'all persuasion lies in knowing the heart of the persuaded,' he—prince of Han—still died in a Qin prison, having forged his life's knowledge into fifty-five self-consistent chapters: cold steel wielded with lone fervor, sublimating a career of failed persuasion into universal theory teachable to any reader, if no longer to any living ruler. Three essentials: codify under peril—the thought of a total political loser has ruled for two millennia because the text was self-consistent and transmissible; the text outships any patron; fable as carrier—Watching the Stump, Spears and Shields, Bian Que and Duke Huan give abstract institutional theory millennial spread: hard core, light shell; genre self-awareness—the 'Critiques' format of chapter-length rebuttal and the Store of Illustrations' separated lemmas and exegeses supply an extensible format for the system. Signature: if you cannot persuade your own age, write the book that persuades every age after.",
+      "source_chapter": "《韩非子·孤愤》《说难》；《史记·老子韩非列传》：'非为人口吃，不能道说，而善著书'",
+      "key_concepts": ["孤愤", "说难", "寓言载体", "文体自觉", "危局定稿", "文本传世"],
+      "process_zh": [
+        "承认直接说服路径已封死（口吃/失势/危局），把全部表达预算转投文本",
+        "以亲历的失败案例为素材库，把'为何失败'升华为普遍理论而非抱怨",
+        "为每条核心理论锻造一枚轻量寓言壳，使其脱离语境仍可传播",
+        "定稿自洽体系并设计可增补格式（驳议体/经传体），把个人危局转化为公共文献资产"
+      ],
+      "process_en": [
+        "Admit the direct-persuasion path is sealed (stutter, disgrace, peril); transfer the entire expression budget to the text",
+        "Mine lived failures as the material base—sublimate 'why it failed' into universal theory, not grievance",
+        "Forge each core theory a lightweight fable shell that travels stripped of context",
+        "Finalize a self-consistent system with extensible formats (rebuttal chapters, lemma-exegesis pairs), converting personal ruin into public literary capital"
+      ],
+      "key_quote_zh": "凡说之难，在知所说之心，可以吾说当之。",
+      "key_quote_en": "The whole difficulty of persuasion lies in knowing the heart of the one you would persuade, and fitting your argument to it.",
+      "representative_cases_zh": [
+        "《孤愤》'智法之士与当涂之人不可两存之仇'——把自己被排挤的处境分析为一般化的组织病：'当涂之人'的五大优势条件使贤者必败，个人遭遇由此升格为制度诊断",
+        "《说难》把游说技术写成风险手册：'所说出于为名高者也，而说之以厚利，则见下节而遇卑贱'——同理心错位即死，经验全部参数化",
+        "寓言工程：'自相矛盾''守株待兔''扁鹊见蔡桓公'三则寓言各自携带一条核心理论，两千年语境无损传播——核心概念的最优编码格式",
+        "反例警示：韩非死于李斯姚贾之构陷——文本传世而人身覆灭，'孤愤'法的边界：文献机器保护思想，不保护作者本人"
+      ],
+      "representative_cases_en": [
+        "Lone Fervor: 'the wise law-officer and the entrenched favorite are mortal enemies who cannot coexist'—his own marginalization analyzed into a general organizational disease: the favorite's five structural advantages doom the worthy; personal ordeal upgraded to institutional diagnosis",
+        "The Difficulties of Persuasion as a risk manual: 'if your hearer seeks lofty name and you argue profit, you are judged base and dismissed'—empathy mismatch is fatal; every experience parameterized",
+        "The fable engineering: 'spears and shields,' 'watching the stump,' 'Bian Que and Duke Huan' each carry one core theory across two millennia intact—the optimal encoding format for core concepts",
+        "Counter-case: Han Fei died framed by Li Si and Yao Jia—the text survived, the man perished: the boundary of the method—the literary machine protects the thought, not the author"
+      ],
+      "modern_applications_zh": [
+        "失势者/在野者的知识定稿策略（把失败经验写成手册）",
+        "技术布道中的寓言式编码（案例故事承载核心论点）",
+        "开源项目的文档工程与可增补体例设计",
+        "高风险环境下的匿名化知识传承"
+      ],
+      "modern_applications_en": [
+        "Codification strategy for the out of power: turning failure into a manual",
+        "Fable-style encoding in tech evangelism—stories carrying core arguments",
+        "Documentation engineering and extensible formats in open-source projects",
+        "Anonymized knowledge transmission in high-risk environments"
+      ],
+      "related_modes": ["M-HFZ-001", "M-HFZ-003", "M-HFZ-007"]
+    }
+  ]
+}
