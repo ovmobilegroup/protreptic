@@ -22,7 +22,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-EXPECT_FIGURES = 501
+EXPECT_FIGURES = 1058
 EXPECT_MODES = 2858
 EXPECT_BY_FIGURE = 284
 EXPECT_MODE_INDEX_SHARDS = 8
