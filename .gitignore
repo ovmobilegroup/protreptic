@@ -26,3 +26,7 @@ logs/
 .hermes-tmp.*
 *.bak
 *.backup*
+
+# 构建产物与生成数据
+web/dist/
+web/public/data/

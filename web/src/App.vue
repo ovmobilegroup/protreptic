@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import LanguageSwitcher from './components/LanguageSwitcher.vue'
 </script>
 
 <template>
@@ -56,7 +57,7 @@ import { RouterView } from 'vue-router'
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p>Protreptic v2.1.0 — 以史为鉴，知兴替；以人为鉴，明得失。</p>
         <p class="mt-2 text-sm">
-          <a href="https://github.com/protreptic/protreptic" class="hover:text-white" target="_blank" rel="noopener">
+          <a href="https://github.com/ovmobilegroup/protreptic" class="hover:text-white" target="_blank" rel="noopener">
             GitHub
           </a>
           · MIT License

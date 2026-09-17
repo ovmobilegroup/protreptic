@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useRouter } from 'vue-router'
+
 import { useI18n } from '../composables/useI18n'
 
 const props = defineProps<{
@@ -8,8 +8,10 @@ const props = defineProps<{
   totalPages: number
 }>()
 
-const router = useRouter()
+
 const { t } = useI18n()
+
+const emit = defineEmits<{ (e: 'page-change', page: number): void }>()
 
 const pages = computed(() => {
   const pages: (number | '...')[] = []
@@ -32,7 +34,8 @@ const pages = computed(() => {
 
 const goToPage = (page: number | '...') => {
   if (page === '...') return
-  router.push({ query: { ...router.currentRoute.value.query, page } })
+  // 由父组件（FiguresView）接管翻页：更新 currentPage 并重新取数，URL 由父组件的 watch 同步
+  emit('page-change', page)
 }
 </script>
 

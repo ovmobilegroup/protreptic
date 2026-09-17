@@ -1,0 +1,126 @@
+# .github/workflows/pages.yml —— 前端 SPA + 文档站合并发布到 GitHub Pages（Phase 29-5）
+#
+# 发布出来的站点结构（Settings → Pages → Source = "GitHub Actions"）：
+#   /          → Vue SPA（web/dist 落在产物根，base=/protreptic/）
+#   /data/**   → tools/export_static_site.py 产出的静态 JSON 分片
+#   /docs/**   → 文档站（mkdocs 构建，配置见 mkdocs.pages.yml）
+#
+# ！！人工一步（CI 做不了）：把 Pages Source 从 "Deploy from a branch: main /docs (Jekyll)"
+#   切到 "GitHub Actions"。切换后 GitHub 不再渲染 Jekyll，所以文档站必须由本 workflow
+#   在同一次发布里重建 —— SPA 与文档站合并成一个 _site/ 产物、一次上传，切换即原子完成，
+#   线上 docs/ 的内容不会静默消失。
+#
+# paths 过滤 + 基线断言：paths 只让「可能改变线上站点」的改动触发发布；基线断言放在
+# tools/pages_preflight.py，当数据源（data/modes_data.json + api/protreptic.db）与站点
+# 基线对不上时直接失败 —— 防的就是「数据更新了、站点没跟上」。三步断言本地可复跑：
+#   python3 tools/export_static_site.py
+#   python3 tools/pages_preflight.py --stage data
+#   cd web && npm run build && python3 ../tools/pages_preflight.py --stage dist
+#   mkdocs build -f mkdocs.pages.yml
+#   python3 tools/pages_preflight.py --stage merged
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pages.yml'
+      - 'mkdocs.pages.yml'
+      - 'web/**'
+      - 'docs/**'
+      - 'tools/export_static_site.py'
+      - 'tools/pages_preflight.py'
+      - 'data/modes_data.json'
+      - 'api/protreptic.db'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 正在发布的 run 不打断，排队执行（官方 Pages 模板同语义）
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: 构建 SPA + 文档站
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Step A：静态数据（Vite 把 web/public/data 原样复制成 dist/data）
+      - name: 构建静态数据分片
+        run: python3 tools/export_static_site.py
+
+      - name: 断言静态数据基线（meta.json 条数）
+        run: python3 tools/pages_preflight.py --stage data
+
+      # Step B：SPA（base 默认 /protreptic/，不要覆盖 VITE_BASE）
+      - name: 构建 SPA
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - name: 断言 dist 产物
+        run: python3 tools/pages_preflight.py --stage dist
+
+      # Step C：文档站（替代因切换 Pages Source 而失效的 Jekyll 渲染）
+      - name: 安装文档站工具链
+        run: python3 -m pip install --disable-pip-version-check "mkdocs==1.6.*" "mkdocs-material==9.*"
+
+      - name: 构建文档站
+        run: mkdocs build -f mkdocs.pages.yml
+
+      # Step D：合并 dist + docs → _site/（产物根是 SPA，/docs/ 是文档站）
+      - name: 合并 SPA + 文档站到 _site
+        run: |
+          set -euo pipefail
+          # runner 每次都是干净的；mkdir 让这一步在热工作区里也能重复执行
+          mkdir -p _site
+          cp -r web/dist/. _site/          # SPA 在产物根，含 404.html 与 data/
+          mkdir -p _site/docs
+          cp -r site_docs/. _site/docs/    # 文档站放在 /docs/，与 Jekyll 时代的路径一致
+          touch _site/.nojekyll
+          du -sh _site
+          ls -1 _site
+
+      - name: 断言合并产物
+        run: python3 tools/pages_preflight.py --stage merged
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    name: 部署
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

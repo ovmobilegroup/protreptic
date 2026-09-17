@@ -1,6 +1,12 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
-import api from '../api/client'
+import apiClient from '../api/client'
+import staticApi from '../api/static'
+import type { AxiosInstance } from 'axios'
+
+// 数据源开关：VITE_DATA_MODE=static → 读 public/data/ 静态 JSON（无后端取数）；否则走原来的 axios API 客户端。
+// staticApi 实现了 axios 形状的最小子集（get(url, { params }) → { data }），其余逻辑零改动。
+const api = (import.meta.env.VITE_DATA_MODE === 'static' ? staticApi : apiClient) as unknown as AxiosInstance
 
 export interface Figure {
   code: string

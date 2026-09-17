@@ -1,0 +1,97 @@
+# mkdocs.pages.yml —— GitHub Pages 文档站构建配置（Phase 29-5）
+#
+# 为什么需要这份配置：
+#   线上 https://ovmobilegroup.github.io/protreptic/ 目前由 GitHub 用 Jekyll 渲染 main /docs
+#   （docs/_config.yml，主题 jekyll-theme-cayman）。一旦把 Pages Source 切到 GitHub Actions，
+#   GitHub 就不再渲染 Jekyll，所以文档站必须由 .github/workflows/pages.yml 在同一次发布里
+#   自己重建 —— 这就是本配置的作用。
+#
+# 为什么不用 docs_site/mkdocs.yml：
+#   * 那份属于更早的独立文档站工程，docs_dir 指向 docs_site/docs，nav 里是 341 场景 / 42 模式 /
+#     321 人物 的旧快照（2026-08 内容），与线上 docs/ 已经不同步；
+#   * 本配置把 docs_dir 直接指向仓库的 docs/，也就是 Jekyll 时代线上发布的那份内容
+#     （315 篇 markdown + 人物档案，docs/index.md 为首页），切换后内容零丢失；
+#   * 故意不写 nav：导航由 mkdocs 按 docs/ 文件树生成，避免再维护一份会漂移的目录。
+#
+# 本地：mkdocs build -f mkdocs.pages.yml（产物 site_docs/）  mkdocs serve -f mkdocs.pages.yml
+
+site_name: Protreptic 思维模式库
+site_description: 2868 条历史人物思维模式 · 284 位人物 · 中英双语
+site_url: https://ovmobilegroup.github.io/protreptic/docs/
+repo_name: ovmobilegroup/protreptic
+repo_url: https://github.com/ovmobilegroup/protreptic
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site_docs
+
+# 与 docs/_config.yml 的 exclude 保持一致（Jekyll 时代 archive/ 不发布）
+exclude_patterns:
+  - archive/*
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search:
+      lang: [zh, en]
+
+extra:
+  generator: false
+
+copyright: © 2025 Protreptic Project Team - MIT License

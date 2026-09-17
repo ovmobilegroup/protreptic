@@ -11,10 +11,10 @@
             关键词搜索
           </button>
           <button 
-            :class="['mode-btn', { active: searchMode === 'semantic' }]"
-            @click="handleModeChange('semantic')"
+            :class="['mode-btn', { active: searchMode === 'smart' }]"
+            @click="handleModeChange('smart')"
           >
-            语义搜索
+            智能检索
           </button>
         </div>
         
@@ -39,6 +39,7 @@
       <div class="sidebar">
         <FilterPanel 
           :filters="filters"
+          :tag-labels="tagLabels"
           @filter-change="handleFilterChange"
           @clear-filters="clearFilters"
         />
@@ -53,30 +54,34 @@
         </div>
 
         <!-- Loading State -->
-        <div v-if="figuresStore.loading" class="loading">
+        <div v-if="figuresStore.loading || smartLoading" class="loading">
           <div class="skeleton-grid">
             <FigureCardSkeleton v-for="i in 12" :key="i" />
           </div>
         </div>
 
         <!-- Results -->
-        <div v-else-if="figuresStore.figures.length > 0" class="results">
+        <div v-else-if="displayedFigures.length > 0" class="results">
           <div class="results-header">
             <h2>搜索结果</h2>
-            <span class="results-count">共 {{ figuresStore.total }} 条结果</span>
+            <span class="results-count">共 {{ displayedTotal }} 条结果</span>
+            <span v-if="searchMode === 'smart'" class="smart-hint">
+              {{ t('智能检索＝编号/名称/领域子串匹配（静态模式下无向量语义检索）', 'Smart search = substring match on code / name / domain (no vector search in static mode)') }}
+            </span>
           </div>
           
           <div class="figures-grid">
             <FigureCard 
-              v-for="figure in figuresStore.figures" 
+              v-for="figure in displayedFigures" 
               :key="figure.code"
               :figure="figure"
+              :lang="locale"
             />
           </div>
 
           <!-- Pagination -->
           <Pagination
-            v-if="figuresStore.total > pageSize"
+            v-if="searchMode === 'keyword' && figuresStore.total > pageSize"
             :current-page="currentPage"
             :total-pages="Math.ceil(figuresStore.total / pageSize)"
             @page-change="currentPage = $event; fetchFigures()"
@@ -102,16 +107,16 @@ import FigureCard from '../components/FigureCard.vue'
 import FilterPanel from '../components/FilterPanel.vue'
 import Pagination from '../components/Pagination.vue'
 import FigureCardSkeleton from '../components/FigureCardSkeleton.vue'
-import { useApi } from '../api/client'
+
 
 const route = useRoute()
 const router = useRouter()
 const figuresStore = useFiguresStore()
 const { t, locale } = useI18n()
-const api = useApi()
 
-// Search mode: 'keyword' | 'semantic'
-const searchMode = ref<'keyword' | 'semantic'>('keyword')
+
+// 检索方式：'keyword'（关键词）| 'smart'（智能检索，静态模式下为内存子串匹配）
+const searchMode = ref<'keyword' | 'smart'>('keyword')
 
 // Search state
 const searchQuery = ref(route.query.q as string || '')
@@ -137,11 +142,11 @@ const filters = ref({
 })
 
 // Semantic search specific
-const semanticResults = ref<any[]>([])
-const semanticLoading = ref(false)
-const semanticTotal = ref(0)
-const semanticPage = ref(1)
-const semanticPageSize = 20
+const smartResults = ref<any[]>([])
+const smartLoading = ref(false)
+const smartTotal = ref(0)
+const smartPage = ref(1)
+const smartPageSize = 20
 
 // Watch for filter/search changes to update URL (only for keyword mode)
 watch([searchQuery, filters, currentPage], () => {
@@ -156,10 +161,10 @@ watch([searchQuery, filters, currentPage], () => {
   }
 }, { deep: true })
 
-// Watch for semantic search query changes
+// Watch for smart search query changes
 watch([() => searchMode.value, searchQuery], async ([newMode]) => {
-  if (newMode === 'semantic' && searchQuery.value) {
-    await performSemanticSearch()
+  if (newMode === 'smart' && searchQuery.value) {
+    await performSmartSearch()
   }
 })
 
@@ -174,42 +179,48 @@ const fetchFigures = async () => {
   })
 }
 
-// Semantic search - ENHANCED for batch H-322 to H-361
-const performSemanticSearch = async () => {
+// 语言切换后按新的 lang 重新取数（名称/描述等字段随 lang 返回）
+watch(locale, async () => {
+  if (searchMode.value === 'smart') {
+    await performSmartSearch()
+  } else {
+    await fetchFigures()
+  }
+})
+
+// 智能检索：由数据源提供（VITE_DATA_MODE=static 时为内存子串匹配；api 模式走 /scenarios/search）
+// 原实现在此调用 /api/v1/scenarios/{batch/,}semantic-search，结果从未被渲染（死代码），
+// 静态模式下亦无向量检索可比，故统一走 store.semanticSearch（静态模式下是 searchFigures 的别名），
+// 并在 UI 上诚实标注为「智能检索」。
+const normalizeResults = (items: any[]): any[] =>
+  items.map(item => ({
+    code: '',
+    name: '',
+    description: '',
+    reason: '',
+    modes: [],
+    era: null,
+    historical_domains: [],
+    domains: [],
+    gender: null,
+    ethnicity: null,
+    ...item,
+  }))
+
+const performSmartSearch = async () => {
   if (!searchQuery.value.trim()) return
-  
-  semanticLoading.value = true
+
+  smartLoading.value = true
   try {
-    // Try enhanced semantic search first
-    const response = await api.get('/api/v1/scenarios/batch/semantic-search', {
-      params: {
-        q: searchQuery.value,
-        lang: locale.value,
-        top_k: semanticPageSize,
-      }
-    })
-    semanticResults.value = response.data?.data || []
-    semanticTotal.value = response.data?.meta?.total || semanticResults.value.length || 0
+    const data = await figuresStore.semanticSearch(searchQuery.value, locale.value, smartPageSize)
+    smartResults.value = normalizeResults(data || [])
+    smartTotal.value = smartResults.value.length
   } catch (error) {
-    console.error('Enhanced semantic search error (fallback to standard):', error)
-    // Fallback to standard semantic search
-    try {
-      const response = await api.get('/api/v1/scenarios/semantic-search', {
-        params: {
-          q: searchQuery.value,
-          lang: locale.value,
-          top_k: semanticPageSize,
-        }
-      })
-      semanticResults.value = response.data?.data || []
-      semanticTotal.value = response.data?.meta?.total || semanticResults.value.length || 0
-    } catch (fallbackError) {
-      console.error('Standard semantic search also failed:', fallbackError)
-      semanticResults.value = []
-      semanticTotal.value = 0
-    }
+    console.error('Smart search failed:', error)
+    smartResults.value = []
+    smartTotal.value = 0
   } finally {
-    semanticLoading.value = false
+    smartLoading.value = false
   }
 }
 
@@ -219,8 +230,8 @@ const handleSearch = async () => {
     currentPage.value = 1
     await fetchFigures()
   } else {
-    semanticPage.value = 1
-    await performSemanticSearch()
+    smartPage.value = 1
+    await performSmartSearch()
   }
 }
 
@@ -258,10 +269,10 @@ const clearFilters = async () => {
 }
 
 // Mode change handler
-const handleModeChange = async (newMode: 'keyword' | 'semantic') => {
+const handleModeChange = async (newMode: 'keyword' | 'smart') => {
   searchMode.value = newMode
-  if (newMode === 'semantic' && searchQuery.value) {
-    await performSemanticSearch()
+  if (newMode === 'smart' && searchQuery.value) {
+    await performSmartSearch()
   }
 }
 
@@ -313,6 +324,10 @@ const tagLabels: Record<string, Record<string, string>> = {
     'Minority': '少数民族',
   },
 }
+
+// 列表展示：关键词模式用 store 的分页结果；智能检索（smart）模式用本地结果集
+const displayedFigures = computed(() => (searchMode.value === 'smart' ? smartResults.value : figuresStore.figures))
+const displayedTotal = computed(() => (searchMode.value === 'smart' ? smartTotal.value : figuresStore.total))
 
 const getTagLabel = (category: string, value: string) => {
   return tagLabels[category]?.[value] || value
@@ -448,6 +463,12 @@ const activeFiltersCount = computed(() => {
 .results-count {
   color: #666;
   font-size: 14px;
+}
+
+.smart-hint {
+  color: #888;
+  font-size: 12px;
+  margin-left: 12px;
 }
 
 .figures-grid {

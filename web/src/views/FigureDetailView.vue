@@ -8,6 +8,9 @@ const route = useRoute()
 const router = useRouter()
 const figuresStore = useFiguresStore()
 const { t, locale } = useI18n()
+// 数据源开关（与 stores/figures.ts 一致）：static 模式下相似人物按标签重叠度计算，不是向量语义相似度
+const DATA_MODE = import.meta.env.VITE_DATA_MODE ?? 'api'
+
 
 const figure = ref<any>(null)
 const loading = ref(false)
@@ -137,7 +140,7 @@ const getRadarData = computed(() => {
   }
 })
 
-const getTimelineEvents = computed(() => {
+const timelineEvents = computed(() => {
   if (!figure.value) return []
   const events: any[] = []
   if (figure.value.era) {
@@ -176,7 +179,7 @@ const getTimelineEvents = computed(() => {
   return events
 })
 
-const getApplicationScenarios = computed(() => {
+const applicationScenarios = computed(() => {
   if (!figure.value) return []
   const scenarios = [
     { title: { zh: '战略规划与决策', en: 'Strategic Planning & Decision Making' }, description: { zh: '适用于长期战略制定、资源分配、竞争格局分析', en: 'Long-term strategy, resource allocation, competitive analysis' }, icon: '🎯', tags: ['Strategic', 'Analytical'] },
@@ -190,11 +193,14 @@ const getApplicationScenarios = computed(() => {
   return scenarios.filter(s => s.tags.some(tag => domainToModeIds[tag]?.some(id => modeIds.has(id)))).slice(0, 4)
 })
 
+// 语言切换后重新取数（name/description/reason 等字段随 lang 变化）
+watch(locale, () => { fetchFigure() })
+
 const backToList = () => { router.push({ name: 'figures' }) }
 
 onMounted(() => { fetchFigure() })
 
-watch(() => route.params.code, (newCode) => { if (newCode !== figureCode.value) { figureCode.value = newCode; fetchFigure() } })
+watch(() => route.params.code, (newCode) => { if (newCode !== figureCode.value) { figureCode.value = newCode as string; fetchFigure() } })
 </script>
 
 <template>
@@ -331,7 +337,7 @@ watch(() => route.params.code, (newCode) => { if (newCode !== figureCode.value) 
               </section>
 
               <section v-if="similarFigures.length > 0" class="mb-6">
-                <h2 class="text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">{{ t('语义相似人物', 'Semantically Similar Figures') }}<svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.547a3.374 3.374 0 00-3.374-3.374l-.548-.547z" /></svg><span class="text-xs bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded">{{ t('语义搜索', 'Semantic Search') }}</span></h2>
+                <h2 class="text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">{{ DATA_MODE === 'static' ? t('相似人物（标签重叠度）', 'Similar Figures (Tag Overlap)') : t('语义相似人物', 'Semantically Similar Figures') }}<svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.547a3.374 3.374 0 00-3.374-3.374l-.548-.547z" /></svg><span class="text-xs bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded">{{ DATA_MODE === 'static' ? t('标签相似度', 'Tag Overlap') : t('语义搜索', 'Semantic Search') }}</span></h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   <article v-for="sim in similarFigures" :key="sim.code" @click="router.push({ name: 'figure-detail', params: { code: sim.code } })" class="bg-white border border-gray-200 rounded-xl p-4 hover:shadow-lg hover:border-indigo-300 transition-all cursor-pointer group">
                     <div class="flex items-start justify-between mb-3">

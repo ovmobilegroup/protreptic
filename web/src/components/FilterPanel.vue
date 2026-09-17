@@ -75,7 +75,7 @@ const clearCategory = (category: keyof typeof props.filters) => {
   emit('update:filters', newFilters)
 }
 
-const categoryCount = (category: string) => {
+const categoryCount = (category: keyof typeof props.filters) => {
   return props.filters[category] ? 1 : 0
 }
 
