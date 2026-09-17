@@ -79,6 +79,9 @@ jobs:
       # Step B：SPA（base 默认 /protreptic/，不要覆盖 VITE_BASE）
       - name: 构建 SPA
         working-directory: web
+        env:
+          # GitHub Pages 无后端：强制走静态数据适配层
+          VITE_DATA_MODE: static
         run: |
           npm ci
           npm run build
