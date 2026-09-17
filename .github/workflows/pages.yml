@@ -65,6 +65,10 @@ jobs:
         with:
           python-version: '3.12'
 
+      # Step 0：从已提交 JSON 重建语料库（api/protreptic.db 不入库，CI 现场生成）
+      - name: 重建 figures 数据库
+        run: python3 tools/build_figures_db.py
+
       # Step A：静态数据（Vite 把 web/public/data 原样复制成 dist/data）
       - name: 构建静态数据分片
         run: python3 tools/export_static_site.py
