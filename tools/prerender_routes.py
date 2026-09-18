@@ -16,9 +16,10 @@
     的 index.html, 因此深链由 404 变成 200; 未覆盖的路径仍然回落到 404.html 的
     SPA 外壳, 行为不变.
 
-    本脚本只改 <head>, 不做内容预渲染: <body> 仍是空的 #app, 正文由客户端 JS
-    渲染, 与现状一致. 内容级预渲染 SSR / hydrate 见
-    docs/architecture/web_p0_architecture.md 1.3 节, 属于 P1, 需要先改数据取数时机.
+    本脚本负责 head (Phase30-A0); 关键路由的静态正文快照由 tools/prerender_body.py
+    在 Phase30-A2 里补上, 见本文件 --body-persons / --no-body 参数. 快照写进
+    <div id="app">, 无 JS 的 UA 也能读到正文; 有 JS 时由 web/src/main.ts 在挂载前
+    清空容器, 因此不会出现两份正文并存, 也不需要 SSR / hydrate 那一套.
 
 产物:
     web/dist/<route>/index.html            795 个路由目录, 默认
@@ -43,8 +44,12 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from prerender_body import check_bodies, collect_bodies, inject_body, plain_text  # noqa: E402
 DEFAULT_BASE = "/protreptic/"
 SITE_ORIGIN = "https://ovmobilegroup.github.io"
+GC_ENDPOINT = "https://YOUR_INSTANCE.goatcounter.local/count"
 SITE_NAME = "Protreptic 思想典藏"
 
 TEMPLATE_IDS = ["longzhong", "baidi", "chibi", "beifa", "jieting", "yiling", "changban"]
@@ -183,6 +188,7 @@ def render_head(shell: str, route: dict, base: str) -> str:
         '\n    <link rel="canonical" href="%s" />' % esc(url)
         + '\n    <meta property="og:url" content="%s" />' % esc(url)
         + '\n    <script type="application/ld+json">%s</script>' % json.dumps(ld, ensure_ascii=False, separators=(",", ":"))
+        + "\n    <script data-goatcounter=\"%s\"\n            data-goatcounter-settings=\"{\\"allow_local": true}\"/>" % GC_ENDPOINT
         + "\n  </head>"
     )
     if "</head>" not in out:
@@ -195,6 +201,12 @@ def main() -> int:
     ap.add_argument("--dist", default=str(REPO / "web" / "dist"))
     ap.add_argument("--base", default=DEFAULT_BASE)
     ap.add_argument("--routes-out", default=str(REPO / "docs" / "architecture" / "web_p0_routes.json"))
+    ap.add_argument("--body-persons", type=int, default=40,
+                    help="为模式数最多的人物页生成正文快照, 0 表示不生成")
+    ap.add_argument("--body-max-modes", type=int, default=12,
+                    help="人物页快照里最多列出的模式条数")
+    ap.add_argument("--no-body", action="store_true",
+                    help="只做 A0 的 head 预渲染, 不写正文快照")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -210,6 +222,13 @@ def main() -> int:
         sys.exit("[prerender] zero routes, aborting")
     unified_codes = {r["code"] for r in routes if r["type"] == "person"}
     excluded = excluded_figure_codes(dist, unified_codes)
+    bodies = {}
+    if not args.no_body:
+        bodies = collect_bodies(routes, dist, persons=args.body_persons, max_modes=args.body_max_modes)
+    for route in routes:
+        route["body"] = route["path"] in bodies
+        route["body_text_chars"] = len(plain_text(bodies[route["path"]])) if route["body"] else 0
+    print("[prerender] 正文快照 %d 条, 共 %.0f KB" % (len(bodies), sum(len(b.encode("utf-8")) for b in bodies.values()) / 1024))
 
     print("[prerender] base=%s routes=%d" % (base, len(routes)))
     if args.dry_run:
@@ -218,7 +237,8 @@ def main() -> int:
 
     total = 0
     for route in routes:
-        html_out = render_head(shell, route, base)
+        body_html = bodies.get(route["path"])
+        html_out = render_head(inject_body(shell, body_html) if body_html else shell, route, base)
         target = dist / route["path"] / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(html_out, encoding="utf-8")
@@ -240,6 +260,9 @@ def main() -> int:
         "count": len(routes),
         "total_html_bytes": total,
         "counts_by_type": by_type,
+        "body_count": len(bodies),
+        "body_total_bytes": sum(len(b.encode("utf-8")) for b in bodies.values()),
+        "body_routes": sorted(bodies),
         "excluded_figure_codes": excluded,
         "routes": sorted(routes, key=lambda r: r["path"]),
     }, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -254,6 +277,10 @@ def main() -> int:
             missing.append(route["path"])
     if missing:
         sys.exit("[prerender] self-check failed for %d routes: %s" % (len(missing), missing[:5]))
+
+    bad_body = check_bodies(dist, routes)
+    if bad_body:
+        sys.exit("[prerender] 正文快照自检失败 (%d): %s" % (len(bad_body), bad_body[:5]))
 
     print("[prerender] wrote %d index.html, total %.0f KB" % (len(routes), total / 1024))
     print("[prerender] route manifest -> %s" % out_path)
