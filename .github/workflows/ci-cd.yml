@@ -35,6 +35,12 @@ jobs:
           pip install -r requirements.txt
           pip install pytest pytest-asyncio httpx
 
+      # 让 Python 测试能与"发布口径"交叉校验：index.unified.json 是
+      # web/public/data/** 与质量门 tools/ci_data_check.py 共用的计数口径，
+      # 其源就是 api/protreptic.db。此步现场生成，不入库（web/public/data/ 已 gitignore）。
+      - name: 构建统一索引（测试口径交叉校验用）
+        run: python3 tools/build_unified_index.py
+
       - name: Run Python tests
         run: |
           cd tools

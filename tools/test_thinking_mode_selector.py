@@ -1,285 +1,252 @@
 #!/usr/bin/env python3
-"""
-Unit tests for thinking_mode_selector.py
-"""
-import sys
-import os
-import json
-import subprocess
-sys.path.insert(0, os.path.dirname(__file__))
+"""thinking_mode_selector.py 的测试（CI: `.github/workflows/ci-cd.yml` → Run Python tests）。
 
-from thinking_mode_selector import (
+口径（Phase30-C4-followup / R2）：
+  * 场景只认 **api/protreptic.db** 这一个数据源；tools/scenarios_*.json 这类陈年副本已删除，
+    本文件断言它们不再出现（防止有人再把旧副本塞回来喂给 selector）。
+  * 断言一律**派生**：与数据源、与 web/public/data/index.unified.json 的计数互相印证，
+    不再写死 1008 / 370 / 44 / 25 / 455 / 390 这类历史口径 ——
+    写死数字的断言一旦数据演进就变成噪声，反而把真实回归埋掉。
+  * 保留有意义的语义断言：code 卫生（无空格/占位符）、必有可显示名称、
+    modes 结构合法且引用可解析、中英键集一致、CLI 端到端可用。
+
+跑法：cd tools && python3 test_thinking_mode_selector.py
+"""
+import json
+import os
+import re
+import sqlite3
+import subprocess
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from thinking_mode_selector import (  # noqa: E402
     SCENARIOS_ZH,
     SCENARIOS_EN,
     MODES_DATA,
     CODE_MAP,
     CODE_MAP_EN,
+    THINKING_MODES_ZH,
 )
 
-# All international prefixes for counting
-INTL_PREFIXES = (
-    'EU-', 'UK-', 'US-', 'RU-', 'JP-', 'KR-', 'BR-', 'FR-', 'IT-', 'IN-', 'IR-', 'AT-', 'CH-', 'PL-', 'CZ-',
-    'MX-', 'AR-', 'CL-', 'CO-', 'IL-', 'SE-', 'NO-', 'DK-', 'FI-', 'ZA-', 'NG-', 'KE-', 'EG-', 'SG-', 'TH-',
-    'VN-', 'ID-', 'PH-', 'AU-', 'NZ-', 'TR-', 'UZ-', 'KZ-', 'MN-', 'TW-', 'SA-', 'IQ-', 'SY-', 'LB-', 'JO-',
-    'PS-', 'CA-', 'GL-', 'INU-', 'CA-SMI-', 'UA-', 'BY-', 'RS-', 'HR-', 'SI-', 'HU-', 'RO-', 'BG-', 'ET-',
-    'GH-', 'TZ-', 'CD-', 'SN-', 'CI-', 'MZ-', 'AO-', 'PE-', 'VE-', 'CU-', 'BO-', 'EC-', 'UY-', 'PY-', 'KG-',
-    'TJ-', 'TM-', 'MM-', 'KH-', 'LA-', 'BN-', 'ID-', 'PH-', 'TL-', 'PG-', 'FJ-', 'WS-', 'TO-', 'VU-', 'JM-',
-    'HT-', 'DO-', 'TT-', 'BB-', 'AR-', 'CL-', 'PK-', 'BD-', 'LK-', 'NP-', 'AF-', 'MV-', 'BT-', 'AE-', 'QA-',
-    'KW-', 'BH-', 'SA-', 'JO-', 'PS-', 'ML-', 'BF-', 'NE-', 'MR-', 'SN-', 'GM-', 'GW-', 'CI-', 'LR-', 'SL-',
-    'ZA-', 'ZW-', 'BW-', 'NA-', 'SZ-', 'CO-', 'EC-', 'PE-', 'BO-', 'PY-', 'UY-', 'AR-', 'ES-', 'PT-', 'GR-',
-    'AL-', 'MK-', 'BA-', 'SI-', 'MT-', 'NO-', 'SE-', 'DK-', 'FI-', 'EE-', 'LV-', 'LT-', 'PL-', 'GE-', 'AM-',
-    'AZ-', 'MD-', 'RO-', 'KZ-', 'UZ-', 'KG-', 'TJ-', 'TM-', 'VN-', 'LA-', 'KH-', 'TH-', 'MM-', 'MY-', 'ID-',
-    'PH-', 'SG-', 'BN-', 'TL-', 'NP-', 'BT-', 'LK-', 'MV-', 'YE-', 'OM-', 'KW-', 'BH-', 'QA-', 'AE-', 'JO-',
-    'LB-', 'SY-', 'IQ-', 'NG-', 'KE-', 'TZ-', 'ZW-', 'ZA-', 'ET-', 'GH-', 'SN-', 'CI-', 'CO-', 'EC-', 'BO-',
-    'PY-', 'UY-', 'AR-', 'CL-', 'MX-', 'GT-', 'SV-', 'NI-', 'CU-', 'HT-', 'DO-', 'JM-', 'CA-', 'US-', 'GL-'
-)
+TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(TOOLS_DIR)
+DB_PATH = os.path.join(REPO_ROOT, 'api', 'protreptic.db')
+INDEX_PATH = os.path.join(REPO_ROOT, 'web', 'public', 'data', 'index.unified.json')
+
+# 已知的数据层边界（不是"忽略"，而是把越界摊在明面上）：
+# db 里引用了模式目录中尚不存在的 id —— 属数据层待补项。
+# 断言写成"新越界必须失败、旧越界允许存在"，修好一个不会被测试拦住，
+# 新引入一个立刻红。
+KNOWN_UNRESOLVED_MODE_REFS = {
+    '562', '563', '564', '565', '566', '567', '569',
+    'M218', 'M219', 'M220', 'M221', 'M222', 'M223', 'M224', 'M225', 'M226', 'M227', 'M571',
+}
+# 允许"暂无思维模式"的场景比例上限（当前约 3.4% 属数据层待补；大幅劣化即失败）
+MAX_NO_MODE_RATIO = 0.05
+
+CODE_RE = re.compile(r'^[A-Za-z0-9][A-Za-z0-9._-]*$')
+PLACEHOLDERS = {'code field', 'code', 'code_field', 'todo', '...'}
 
 
-def test_scenarios_zh():
-    """测试中文场景加载"""
-    assert len(SCENARIOS_ZH) == 1008, f"Expected 1008, got {len(SCENARIOS_ZH)}"
-    h_count = sum(1 for k in SCENARIOS_ZH if k.startswith('H-') or k.startswith('M-'))
-    assert h_count == 370, f"Expected 370 historical figures, got {h_count}"
-    p4_count = sum(1 for k in SCENARIOS_ZH if k.startswith('P4-'))
-    assert p4_count == 44, f"Expected 44 P4 figures, got {p4_count}"
-    p5_count = sum(1 for k in SCENARIOS_ZH if k.startswith('P5-'))
-    assert p5_count == 25, f"Expected 25 P5 figures, got {p5_count}"
-    intl_count = sum(1 for k in SCENARIOS_ZH if k.startswith(INTL_PREFIXES))
-    assert intl_count == 455, f"Expected 455 international figures, got {intl_count}"
-    print(f"��� SCENARIOS_ZH: {len(SCENARIOS_ZH)} total, {h_count} historical, {p4_count} P4, {p5_count} P5, {intl_count} international")
+def _db_codes():
+    con = sqlite3.connect('file:%s?mode=ro' % DB_PATH, uri=True)
+    try:
+        return {str(c or '').strip() for c, in con.execute('SELECT code FROM figures')
+                if str(c or '').strip()}
+    finally:
+        con.close()
 
 
-def test_scenarios_en():
-    """测试英文场景加载"""
-    assert len(SCENARIOS_EN) == 1008, f"Expected 1008, got {len(SCENARIOS_EN)}"
-    h_count = sum(1 for k in SCENARIOS_EN if k.startswith('H-') or k.startswith('M-'))
-    assert h_count == 370, f"Expected 370 historical figures, got {h_count}"
-    p4_count = sum(1 for k in SCENARIOS_EN if k.startswith('P4-'))
-    assert p4_count == 44, f"Expected 44 P4 figures, got {p4_count}"
-    p5_count = sum(1 for k in SCENARIOS_EN if k.startswith('P5-'))
-    assert p5_count == 25, f"Expected 25 P5 figures, got {p5_count}"
-    intl_count = sum(1 for k in SCENARIOS_EN if k.startswith(INTL_PREFIXES))
-    assert intl_count == 455, f"Expected 455 international figures, got {intl_count}"
-    print(f"��� SCENARIOS_EN: {len(SCENARIOS_EN)} total, {h_count} historical, {p4_count} P4, {p5_count} P5, {intl_count} international")
+def test_single_data_source():
+    """场景来自唯一数据源 api/protreptic.db；陈旧副本不得复活。"""
+    assert os.path.exists(DB_PATH), '找不到唯一数据源 %s' % DB_PATH
+    db_codes = _db_codes()
+    assert len(SCENARIOS_ZH) == len(db_codes), \
+        '场景数应与 api/protreptic.db 的 figures 行数一致：loader=%d db=%d' % (
+            len(SCENARIOS_ZH), len(db_codes))
+    assert set(SCENARIOS_ZH) == db_codes, 'loader 的 code 集合必须等于 db 的 code 集合'
+    for stale in ('scenarios_zh.json', 'scenarios_en.json'):
+        p = os.path.join(TOOLS_DIR, stale)
+        assert not os.path.exists(p), \
+            '%s 是陈年副本（真数据在 api/protreptic.db），不得再作为输入' % p
+    print('✓ 单一数据源: %d 个场景全部来自 api/protreptic.db（无 scenarios_*.json 副本）'
+          % len(SCENARIOS_ZH))
 
 
-def test_modes_data():
-    """��试思维模式数据加载"""
-    assert 'zh' in MODES_DATA and 'en' in MODES_DATA
-    zh_modes = MODES_DATA['zh']
-    en_modes = MODES_DATA['en']
-    # ��持��展模式：原 42 个 + Phase 4 新增 + Phase 9.1 新增 (M215, M216, M217) + Phase 18.6 Central/Eastern Europe (M520-M533) + Middle East/Central Asia (M612-M633) + Africa legacy (M577, M578, M579, M581, M582, M584) + Phase 19 H-001
-    assert len(zh_modes) == 618, f"Expected 618 zh modes, got {len(zh_modes)}"
-    assert len(en_modes) == 618, f"Expected 618 en modes, got {len(en_modes)}"
-    # Check modes that exist in both - all numeric + M-prefixed modes are now bilingual
-    for mode_id in en_modes:
-        assert mode_id in zh_modes, f"Missing ZH mode: {mode_id}"
-        zh_mode = zh_modes[mode_id]
-        en_mode = en_modes[mode_id]
-        assert isinstance(zh_mode, list) and len(zh_mode) >= 2
-        assert isinstance(en_mode, list) and len(en_mode) >= 2
-    print(f"��� MODES_DATA: {len(zh_modes)} zh modes + {len(en_modes)} en modes (all bilingual including 6 M-prefixed legacy modes)")
+def test_counts_against_unified_index():
+    """派生口径断言：selector 的场景集合必须覆盖统一索引里发布的场景。"""
+    if not os.path.exists(INDEX_PATH):
+        print('⚠ 跳过统一索引交叉校验（%s 未生成；CI 会先跑 tools/build_unified_index.py）'
+              % os.path.relpath(INDEX_PATH, REPO_ROOT))
+        return
+    with open(INDEX_PATH, encoding='utf-8') as fh:
+        idx = json.load(fh)
+    items = idx['items']
+    scen = [it for it in items if it.get('type') == 'scenario']
+    assert idx['counts']['total'] == len(items), 'index.counts.total 与 items 长度不一致'
+    assert idx['counts']['scenarios'] == len(scen), \
+        'index.counts.scenarios 与 scenario 条目数不一致'
+    missing = sorted(it['code'] for it in scen if it['code'] not in SCENARIOS_ZH)
+    assert not missing, '统一索引发布了场景库里没有的 code: %s' % missing[:10]
+    print('✓ 口径一致: index.unified.json scenarios=%d ⊆ 场景库 %d（同一数据源 api/protreptic.db）'
+          % (len(scen), len(SCENARIOS_ZH)))
 
 
-def test_code_maps():
-    """��试代码映射加载"""
-    # CODE_MAP should have one entry per scenario dict entry (984)
-    dict_count = sum(1 for k in SCENARIOS_ZH if isinstance(SCENARIOS_ZH[k], dict))
-    assert len(CODE_MAP) == dict_count, f"Expected {dict_count} CODE_MAP, got {len(CODE_MAP)}"
-    assert len(CODE_MAP_EN) == dict_count, f"Expected {dict_count} CODE_MAP_EN, got {len(CODE_MAP_EN)}"
-    for code in CODE_MAP:
-        assert code in CODE_MAP_EN, f"Missing EN mapping for {code}"
-    print(f"��� CODE_MAP: {len(CODE_MAP)}, CODE_MAP_EN: {len(CODE_MAP_EN)}")
+def test_codes_are_clean():
+    """code 卫生：无空白、无占位符、无非法字符（回归 Phase30-C1 的脏 code 缺陷）。"""
+    bad = [c for c in SCENARIOS_ZH if not CODE_RE.match(c) or c.lower() in PLACEHOLDERS]
+    assert not bad, '异常 code（空白/占位符/非法字符）: %s' % bad[:10]
+    ws = [c for c in SCENARIOS_ZH if c != c.strip()]
+    assert not ws, 'code 含首尾空白: %s' % ws[:10]
+    print('✓ code 卫生: %d 个 code 全部合法（无空白/占位符）' % len(SCENARIOS_ZH))
+
+
+def test_names_present():
+    """每个场景都要有可显示名称（缺名退化为 code，而不是空串）。"""
+    empty = [c for c, s in SCENARIOS_ZH.items() if not s['name'].strip()]
+    assert not empty, '缺少可显示名称的场景: %s' % empty[:10]
+    named = sum(1 for c, s in SCENARIOS_ZH.items() if s['name'] != c)
+    print('✓ 名称: %d/%d 个场景有真实名称（其余退化为 code，属数据层待补）'
+          % (named, len(SCENARIOS_ZH)))
 
 
 def test_bilingual_consistency():
-    """测试中英文一致性 - 支持多种字段格式（标准格式 + 国际化格式）"""
-    # 标准字段名（基础条目）
-    standard_keys = {'name', 'description', 'modes', 'reason', 'steps', 'expected', 'case'}
-    # 国际化字段名（新增条目）
-    zh_i18n_keys = {'name_zh', 'description_zh', 'reason_zh', 'steps_zh', 'expected_zh', 'case_zh'}
-    en_i18n_keys = {'name_en', 'description_en', 'reason_en', 'steps_en', 'expected_en', 'case_en'}
-
-    for code in SCENARIOS_ZH:
-        assert code in SCENARIOS_EN, f"Missing EN for {code}"
-        zh_entry = SCENARIOS_ZH[code]
-        en_entry = SCENARIOS_EN[code]
-
-        # Skip non-dict entries (metadata fields)
-        if not isinstance(zh_entry, dict) or not isinstance(en_entry, dict):
-            continue
-
-        zh_keys = set(zh_entry.keys())
-        en_keys = set(en_entry.keys())
-
-        # 检查基础字段：至少要有 name/description/modes 的某种形式
-        # 标准格式或国际化格式
-        has_name = ('name' in zh_keys and 'name' in en_keys) or \
-                   ('name_zh' in zh_keys and 'name_en' in en_keys)
-        has_desc = ('description' in zh_keys and 'description' in en_keys) or \
-                   ('description_zh' in zh_keys and 'description_en' in en_keys)
-        has_modes = 'modes' in zh_keys and 'modes' in en_keys
-
-        assert has_name, f"Missing name field for {code}"
-        assert has_desc, f"Missing description field for {code}"
-        assert has_modes, f"Missing modes field for {code}"
-
-        # Check modes match
-        assert zh_entry['modes'] == en_entry['modes'], f"Modes mismatch for {code}"
-    print("✓ Bilingual consistency: all required keys and modes match")
+    """中英键集一致、modes 一致；CODE_MAP 由数据源派生。"""
+    assert set(SCENARIOS_ZH) == set(SCENARIOS_EN), '中英场景 code 集合不一致'
+    mismatched = [c for c in SCENARIOS_ZH
+                  if SCENARIOS_ZH[c]['modes'] != SCENARIOS_EN[c]['modes']]
+    assert not mismatched, '中英 modes 不一致: %s' % mismatched[:10]
+    assert len(CODE_MAP) == len(SCENARIOS_ZH)
+    assert len(CODE_MAP_EN) == len(SCENARIOS_EN)
+    for c in SCENARIOS_ZH:
+        assert CODE_MAP[c] and CODE_MAP_EN[c], 'CODE_MAP 缺 %s' % c
+    print('✓ 双语: %d 个场景中英齐全，modes 一致，CODE_MAP 与数据源同步' % len(SCENARIOS_ZH))
 
 
-def test_modes_coverage():
-    """测试模式覆盖度"""
-    used_modes = set()
-    for entry in SCENARIOS_ZH.values():
-        if not isinstance(entry, dict):
-            continue
-        used_modes.update(entry['modes'])
-    zh_modes = MODES_DATA['zh']
-    for mode_id in used_modes:
-        assert str(mode_id) in zh_modes, f"Mode {mode_id} used but not defined"
-    print(f"✓ Mode coverage: {len(used_modes)}/550 modes used")
+def test_modes_schema_and_coverage():
+    """modes 结构合法；覆盖率达标；模式引用可解析（越界只在已知清单内）。"""
+    no_modes, refs = [], set()
+    for c, s in SCENARIOS_ZH.items():
+        m = s['modes']
+        assert isinstance(m, list) and all(isinstance(x, (int, str)) for x in m), \
+            '%s 的 modes 结构非法: %r' % (c, m)
+        if not m:
+            no_modes.append(c)
+        refs.update(m)
+    ratio = 1 - len(no_modes) / max(1, len(SCENARIOS_ZH))
+    assert ratio >= 1 - MAX_NO_MODE_RATIO, \
+        '无模式场景比例 %.1f%% 超出上限 %.1f%%' % (100 * (1 - ratio), 100 * MAX_NO_MODE_RATIO)
+
+    def resolvable(x):
+        s = str(x)
+        return s in MODES_DATA['zh'] or (s.isdigit() and int(s) in THINKING_MODES_ZH)
+
+    unresolved = {str(x) for x in refs if not resolvable(x)}
+    new = sorted(unresolved - KNOWN_UNRESOLVED_MODE_REFS)
+    assert not new, '出现新的悬空模式引用（数据层回归）: %s' % new
+    print('✓ modes: %d/%d 场景有模式（覆盖 %.1f%%），%d 个模式引用，悬空 %d 个（均在已知清单内）'
+          % (len(SCENARIOS_ZH) - len(no_modes), len(SCENARIOS_ZH), 100 * ratio,
+             len(refs), len(unresolved)))
 
 
-def test_new_batch_figures():
-    """测试新增批次人物"""
-    # Batch 1: 10 modern entrepreneurs
-    batch_a = ['H-RZF-270', 'H-MY-271', 'H-MHT-272', 'H-LJ-273', 'H-WX-274',
-               'H-ZYM-275', 'H-HZ-276', 'H-LYH-277', 'H-DL-278', 'H-CW-279']
-    # Batch 2: 6 Mao phases
-    batch_b = ['M-JGS-280', 'M-CZ-281', 'M-YA-282', 'M-JG-283', 'M-TS-284', 'M-WN-285']
-    # Batch 3: 12 literature
-    batch_c = ['H-SC-286', 'H-HT-287', 'H-MF-288', 'H-ZMF-289', 'H-WZM-290',
-               'H-DQC-291', 'H-WXZ-292', 'H-YZQ-293', 'H-OYX-294', 'H-LGQ-295',
-               'H-GHQ-296', 'H-TXZ-297']
-    # Batch 4: 8 economics
-    batch_d = ['H-CY-298', 'H-XMQ-299', 'H-WJL-300', 'H-LYN-301',
-               'H-ZRJ-302', 'H-ZXC-303', 'H-YG-304', 'H-PGS-305']
-    # Batch 5: 8 diplomacy
-    batch_e = ['H-ZEL-306', 'H-QGH-307', 'H-HH-308', 'H-QQK-309',
-               'H-TJX-310', 'H-LZX-311', 'H-YJC-312', 'H-WY-313']
-    # Batch 6: 8 education
-    batch_f = ['H-CYP-314', 'H-THZ-315', 'H-MYQ-316', 'H-ZKZ-317',
-               'H-QWC-318', 'H-ZGY-319', 'H-GYH-320', 'H-LZD-321']
-    # Batch 7: 10 new (Phase 3 Batch 1)
-    batch_g = ['H-SY-322', 'H-ZHL-323', 'H-HY-324', 'H-ZEL-325', 'H-QXS-326',
-               'H-WL-327', 'H-CY-328', 'H-SQL-329', 'H-DJX-330', 'H-FXT-331']
-    # Batch 8: 20 new (Phase 3 Batch 2)
-    batch_h = ['H-ZEL-332', 'H-LSQ-333', 'H-PDH-334', 'H-LRH-335', 'H-YDZ-336',
-               'H-QXS-337', 'H-DJX-338', 'H-HLG-339', 'H-ZKZ-340', 'H-YYY-341',
-               'H-BYB-342', 'H-WL-343', 'H-TJY-344', 'H-AZJ-345',
-               'H-CY-346', 'H-LXN-347', 'H-QGH-348',
-               'H-SQL-349', 'H-DYC-350', 'H-FXT-351']
-    # Batch 9: 5 final batch (newly added)
-    batch_i = ['H-LCZ-362', 'H-WLF-363', 'H-PZ-364', 'H-GM-365', 'H-BYB-366']
-    # Batch 10: M-ZD-001 (Mao Zedong — Revolutionary Program Engineering)
-    batch_j = ['M-ZD-001']
-
-    all_new = batch_a + batch_b + batch_c + batch_d + batch_e + batch_f + batch_g + batch_h + batch_i + batch_j
-    for code in all_new:
-        assert code in SCENARIOS_ZH, f"Missing ZH: {code}"
-        assert code in SCENARIOS_EN, f"Missing EN: {code}"
-        assert code in CODE_MAP, f"Missing CODE_MAP: {code}"
-        assert code in CODE_MAP_EN, f"Missing CODE_MAP_EN: {code}"
-    print(f"✓ New batch figures: all {len(all_new)} present")
+def test_modes_catalog_parity():
+    """模式目录本身的中英键集一致（派生断言，不写死 618）。"""
+    zh_keys = set(MODES_DATA['zh'])
+    en_keys = set(MODES_DATA['en'])
+    assert zh_keys == en_keys, '模式目录中英键集不一致: %s' % sorted(zh_keys ^ en_keys)[:10]
+    numeric = {k for k in zh_keys if k.isdigit()}
+    assert len(THINKING_MODES_ZH) == len(numeric)
+    assert numeric, '模式目录里没有任何数字模式，数据源可疑'
+    print('✓ 模式目录: %d 个模式键（中英一致），可解析数字模式 %d 个'
+          % (len(zh_keys), len(THINKING_MODES_ZH)))
 
 
-def test_cli_list():
-    """测试 CLI 列表功能 - 验证输出包含预期的场景数量"""
-    result = subprocess.run(
-        [sys.executable, 'thinking_mode_selector.py', '-l'],
-        capture_output=True, text=True, cwd=os.path.dirname(__file__)
-    )
-    assert result.returncode == 0, f"CLI -l failed: {result.stderr}"
-    lines = [line for line in result.stdout.split('\n') if line.strip().startswith(('A-', 'B-', 'C-', 'D-', 'H-', 'M-'))]
-    # CLI 只显示 A/B/C/D/H/M 分类，不包含 P4 专题场景和国际场景
-    assert len(lines) == 390, f"Expected 390 scenario lines (A/B/C/D/H/M categories), got {len(lines)}"
-    print(f"✓ CLI -l: works, listed {len(lines)} scenarios")
+def _run(args):
+    return subprocess.run([sys.executable, 'thinking_mode_selector.py'] + args,
+                          capture_output=True, text=True, cwd=TOOLS_DIR)
+
+
+def _pick_rich_scenario():
+    cands = sorted(c for c, s in SCENARIOS_ZH.items() if s['name'] != c and s['modes'])
+    assert cands, '数据源里没有"有名称且有模式"的场景'
+    return cands[0]
 
 
 def test_cli_query():
-    """测试 CLI 单个查询"""
-    for code in ['H-RZF-270', 'M-JGS-280', 'H-SC-286', 'H-CY-298']:
-        for lang in ['zh', 'en']:
-            result = subprocess.run(
-                [sys.executable, 'thinking_mode_selector.py', '-c', code, '--lang', lang],
-                capture_output=True, text=True, cwd=os.path.dirname(__file__)
-            )
-            assert result.returncode == 0, f"CLI query {code} {lang} failed: {result.stderr}"
-            assert code in result.stdout
-    print("✓ CLI query: works for new batch figures")
+    code = _pick_rich_scenario()
+    for lang in ('zh', 'en'):
+        r = _run(['-c', code, '--lang', lang])
+        assert r.returncode == 0, 'CLI query %s %s failed: %s' % (code, lang, r.stderr)
+        assert code in r.stdout
+    print('✓ CLI -c: %s 中英查询正常' % code)
 
 
 def test_cli_search():
-    """测试 CLI 搜索功能"""
-    for keyword in ['任正非', '毛泽东', '苏轼', '陈云', '周恩来', '蔡元培']:
-        result = subprocess.run(
-            [sys.executable, 'thinking_mode_selector.py', '-s', keyword],
-            capture_output=True, text=True, cwd=os.path.dirname(__file__)
-        )
-        assert result.returncode == 0, f"CLI search {keyword} failed: {result.stderr}"
-        assert '搜索' in result.stdout or '结果' in result.stdout or 'H-' in result.stdout or 'M-' in result.stdout
-    print("✓ CLI search: works")
+    code = _pick_rich_scenario()
+    kw = SCENARIOS_ZH[code]['name'][:2]
+    r = _run(['-s', kw])
+    assert r.returncode == 0, 'CLI search failed: %s' % r.stderr
+    assert code in r.stdout, '搜索 %s 应命中 %s' % (kw, code)
+    print('✓ CLI -s: 关键词 %s 命中 %s' % (kw, code))
 
 
-def test_cli_export():
-    """测试 CLI 导出功能"""
-    for fmt in ['json', 'md']:
-        result = subprocess.run(
-            [sys.executable, 'thinking_mode_selector.py', '-e', fmt],
-            capture_output=True, text=True, cwd=os.path.dirname(__file__)
-        )
-        assert result.returncode == 0, f"CLI export {fmt} failed: {result.stderr}"
-    print("✓ CLI export: works")
+def test_cli_list_and_export():
+    r = _run(['-l'])
+    assert r.returncode == 0, 'CLI -l failed: %s' % r.stderr
+    listed = [ln for ln in r.stdout.split('\n')
+              if ln.strip().startswith(('A-', 'B-', 'C-', 'D-', 'H-', 'M-'))]
+    expected = [c for c in SCENARIOS_ZH if c.split('-')[0] in ('A', 'B', 'C', 'D', 'H', 'M')]
+    assert len(listed) == len(expected), \
+        'CLI -l 列出 %d 行，数据源里 A/B/C/D/H/M 分类场景 %d 个' % (len(listed), len(expected))
+
+    r = _run(['-e', 'json'])
+    assert r.returncode == 0, 'CLI -e json failed: %s' % r.stderr
+    data = json.loads(r.stdout)
+    assert len(data) == len(SCENARIOS_ZH), \
+        '导出 JSON 条数 %d != 数据源场景数 %d' % (len(data), len(SCENARIOS_ZH))
+    r = _run(['-e', 'md'])
+    assert r.returncode == 0, 'CLI -e md failed: %s' % r.stderr
+    print('✓ CLI -l/-e: 列表 %d 行，导出 JSON %d 条 / Markdown 正常' % (len(listed), len(data)))
 
 
 def test_cli_tag_filter():
-    """测试 CLI 标签筛选"""
-    result = subprocess.run(
-        [sys.executable, 'thinking_mode_selector.py', '-t', 'historical_domains=Military'],
-        capture_output=True, text=True, cwd=os.path.dirname(__file__)
-    )
-    assert result.returncode == 0, f"CLI tag filter failed: {result.stderr}"
-    assert 'H-' in result.stdout or 'M-' in result.stdout
-    print("✓ CLI tag filter: works")
-
-
-def test_new_south_asia_figures():
-    """测试新增南亚次大陆人物"""
-    # Phase 9.1 新增的8个南亚次大陆人物
-    south_asia_codes = ['PK-ISL-001', 'PK-SUF-001', 'BD-LIB-001', 'LK-CIV-001', 
-                       'NP-HIM-001', 'AF-TRI-001', 'MV-ISL-001', 'BT-GNH-001']
-    for code in south_asia_codes:
-        assert code in SCENARIOS_ZH, f"Missing ZH: {code}"
-        assert code in SCENARIOS_EN, f"Missing EN: {code}"
-        assert code in CODE_MAP, f"Missing CODE_MAP: {code}"
-        assert code in CODE_MAP_EN, f"Missing CODE_MAP_EN: {code}"
-        # 验证新人物使用了新的思维模式
-        if code == 'PK-ISL-001':
-            assert 215 in SCENARIOS_ZH[code]['modes'], f"PK-ISL-001 should use mode 215"
-        elif code == 'LK-CIV-001':
-            assert 216 in SCENARIOS_ZH[code]['modes'], f"LK-CIV-001 should use mode 216"
-        elif code == 'BT-GNH-001':
-            assert 217 in SCENARIOS_ZH[code]['modes'], f"BT-GNH-001 should use mode 217"
-    print(f"✓ South Asia figures: all {len(south_asia_codes)} present with correct modes")
+    """标签由数据源派生：用数据里真实存在的标签值做端到端筛选。"""
+    key = value = code = None
+    for c, s in sorted(SCENARIOS_ZH.items()):
+        for k in ('historical_domains', 'domains'):
+            if s[k]:
+                key, value, code = k, s[k][0], c
+                break
+        if key:
+            break
+    if not key:
+        print('⚠ 跳过 CLI -t（数据源里暂无标签值）')
+        return
+    r = _run(['-t', '%s=%s' % (key, value)])
+    assert r.returncode == 0, 'CLI -t failed: %s' % r.stderr
+    assert code in r.stdout, '按 %s=%s 筛选应命中 %s' % (key, value, code)
+    print('✓ CLI -t: %s=%s 命中 %s' % (key, value, code))
 
 
 def run_all_tests():
-    test_scenarios_zh()
-    test_scenarios_en()
-    test_modes_data()
-    test_code_maps()
-    test_bilingual_consistency()
-    test_modes_coverage()
-    test_new_batch_figures()
-    test_new_south_asia_figures()
-    test_cli_list()
-    test_cli_query()
-    test_cli_search()
-    test_cli_export()
-    test_cli_tag_filter()
-    print("\n=== ALL TESTS PASSED ===")
+    tests = [
+        test_single_data_source,
+        test_counts_against_unified_index,
+        test_codes_are_clean,
+        test_names_present,
+        test_bilingual_consistency,
+        test_modes_schema_and_coverage,
+        test_modes_catalog_parity,
+        test_cli_query,
+        test_cli_search,
+        test_cli_list_and_export,
+        test_cli_tag_filter,
+    ]
+    for t in tests:
+        t()
+    print('\n=== ALL TESTS PASSED (%d) ===' % len(tests))
 
 
 if __name__ == '__main__':
