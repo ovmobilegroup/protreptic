@@ -1,100 +1,142 @@
 <template>
-  <div class="figures-view">
-    <!-- Search Header -->
-    <div class="search-header">
-      <div class="search-container">
-        <div class="search-modes">
-          <button 
-            :class="['mode-btn', { active: searchMode === 'keyword' }]"
-            @click="handleModeChange('keyword')"
-          >
-            关键词搜索
-          </button>
-          <button 
-            :class="['mode-btn', { active: searchMode === 'smart' }]"
-            @click="handleModeChange('smart')"
-          >
-            智能检索
-          </button>
-        </div>
-        
-        <div class="search-input-container">
-          <input
-            v-model="searchQuery"
-            type="text"
-            placeholder="搜索历史人物、思维模式..."
-            @keyup.enter="handleSearch"
-            class="search-input"
-          />
-          <button @click="handleSearch" class="search-btn">
-            搜索
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Main Content -->
-    <div class="main-content">
-      <!-- Sidebar -->
-      <div class="sidebar">
-        <FilterPanel 
-          :filters="filters"
-          :tag-labels="tagLabels"
-          @filter-change="handleFilterChange"
-          @clear-filters="clearFilters"
-        />
+  <div class="pt-container pb-16 pt-10">
+    <!-- Hero -->
+    <section class="relative mb-10">
+      <div class="mb-3 flex items-center gap-3">
+        <span class="pt-hairline w-10"></span>
+        <span class="pt-code">{{ t('历史人物 · 思维方法', 'HISTORICAL FIGURES · THINKING METHODS') }}</span>
       </div>
 
-      <!-- Content Area -->
-      <div class="content">
-        <!-- Active Filters -->
-        <div v-if="activeFiltersCount > 0" class="active-filters">
-          <span class="filter-count">已选择 {{ activeFiltersCount }} 个筛选条件</span>
-          <button @click="clearFilters" class="clear-btn">清除所有</button>
+      <h1 class="pt-h1">
+        <span class="pt-gradient-text">{{ t('以人为鉴，明得失', 'Learn from minds of history') }}</span>
+      </h1>
+      <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/55">
+        {{ t(
+          '从 284 位历史人物身上提炼的可操作思维方法——每条都有出处、操作步骤与现代应用，供你在真实问题里取用。',
+          'Actionable thinking methods distilled from 284 historical figures—each with source, steps and modern application.'
+        ) }}
+      </p>
+
+      <div class="mt-6 flex flex-wrap items-center gap-2">
+        <span class="pt-chip-gold">{{ t('共 1058 位人物', '1058 figures') }}</span>
+        <span class="pt-chip-jade">{{ t('2858 条思维模式', '2858 modes') }}</span>
+        <span class="pt-chip-mute">{{ t('中英双语', 'Bilingual') }}</span>
+      </div>
+    </section>
+
+    <!-- 检索区 -->
+    <section class="pt-panel relative mb-8 p-4 sm:p-5">
+      <div class="flex flex-col gap-4 lg:flex-row lg:items-center">
+        <!-- 模式切换 -->
+        <div class="flex shrink-0 rounded-xl border border-white/10 bg-ink-950/50 p-1">
+          <button
+            v-for="m in [
+              { key: 'keyword', zh: '关键词', en: 'Keyword' },
+              { key: 'smart', zh: '智能检索', en: 'Smart' },
+            ]"
+            :key="m.key"
+            @click="handleModeChange(m.key as 'keyword' | 'smart')"
+            class="rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-silk"
+            :class="searchMode === m.key
+              ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-ink-950 shadow-glow'
+              : 'text-parchment/55 hover:text-parchment'"
+          >
+            {{ t(m.zh, m.en) }}
+          </button>
         </div>
 
-        <!-- Loading State -->
-        <div v-if="figuresStore.loading || smartLoading" class="loading">
-          <div class="skeleton-grid">
-            <FigureCardSkeleton v-for="i in 12" :key="i" />
-          </div>
-        </div>
-
-        <!-- Results -->
-        <div v-else-if="displayedFigures.length > 0" class="results">
-          <div class="results-header">
-            <h2>搜索结果</h2>
-            <span class="results-count">共 {{ displayedTotal }} 条结果</span>
-            <span v-if="searchMode === 'smart'" class="smart-hint">
-              {{ t('智能检索＝编号/名称/领域子串匹配（静态模式下无向量语义检索）', 'Smart search = substring match on code / name / domain (no vector search in static mode)') }}
-            </span>
-          </div>
-          
-          <div class="figures-grid">
-            <FigureCard 
-              v-for="figure in displayedFigures" 
-              :key="figure.code"
-              :figure="figure"
-              :lang="locale"
+        <!-- 输入 -->
+        <div class="flex flex-1 items-center gap-3">
+          <div class="relative flex-1">
+            <svg class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-parchment/35"
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+            </svg>
+            <input
+              v-model="searchQuery"
+              type="text"
+              :placeholder="t('搜索历史人物、思维模式、领域…', 'Search figures, modes, domains…')"
+              @keyup.enter="handleSearch"
+              class="pt-input pl-11"
             />
           </div>
+          <button @click="handleSearch" class="pt-btn-gold shrink-0">
+            {{ t('检索', 'Search') }}
+          </button>
+        </div>
 
-          <!-- Pagination -->
-          <Pagination
-            v-if="searchMode === 'keyword' && figuresStore.total > pageSize"
-            :current-page="currentPage"
-            :total-pages="Math.ceil(figuresStore.total / pageSize)"
-            @page-change="currentPage = $event; fetchFigures()"
+        <!-- 筛选 -->
+        <div class="shrink-0">
+          <FilterPanel
+            :filters="filters"
+            :tag-labels="tagLabels"
+            @filter-change="handleFilterChange"
+            @clear-filters="clearFilters"
           />
         </div>
-
-        <!-- No Results -->
-        <div v-else class="no-results">
-          <h3>暂无结果</h3>
-          <p>请尝试调整搜索条件或筛选器</p>
-        </div>
       </div>
-    </div>
+
+      <p v-if="searchMode === 'smart'" class="mt-3 flex items-start gap-2 text-xs leading-relaxed text-parchment/40">
+        <span class="mt-0.5 text-jade-400">◆</span>
+        {{ t(
+          '智能检索＝编号 / 名称 / 领域子串匹配（静态站点无向量语义检索）',
+          'Smart search = substring match on code / name / domain (no vector search on a static site)'
+        ) }}
+      </p>
+    </section>
+
+    <!-- 结果区 -->
+    <section>
+      <!-- 已选筛选 -->
+      <div v-if="activeFiltersCount > 0"
+           class="mb-5 flex items-center justify-between rounded-xl border border-gold-500/20 bg-gold-500/[.06] px-4 py-2.5">
+        <span class="text-sm text-gold-200/85">
+          {{ t(`已应用 ${activeFiltersCount} 个筛选条件`, `${activeFiltersCount} filter(s) applied`) }}
+        </span>
+        <button @click="clearFilters"
+                class="rounded-lg px-2.5 py-1 text-xs font-medium text-gold-300 transition-colors hover:bg-gold-500/15">
+          {{ t('清除全部', 'Clear all') }}
+        </button>
+      </div>
+
+      <!-- 计数 -->
+      <div v-if="!loading" class="mb-5 flex items-baseline gap-3">
+        <h2 class="pt-h2">{{ t('思想名录', 'Register of Minds') }}</h2>
+        <span class="font-mono text-sm text-gold-300/80">{{ displayedTotal }}</span>
+        <span class="text-sm text-parchment/40">{{ t('条', 'entries') }}</span>
+      </div>
+
+      <!-- 加载骨架 -->
+      <div v-if="loading" class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <FigureCardSkeleton v-for="i in 12" :key="i" />
+      </div>
+
+      <!-- 结果网格 -->
+      <div v-else-if="displayedFigures.length > 0"
+           class="pt-stagger grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <FigureCard v-for="figure in displayedFigures" :key="figure.code" :figure="figure" :lang="locale" />
+      </div>
+
+      <!-- 空状态 -->
+      <div v-else class="pt-panel flex flex-col items-center gap-3 px-6 py-20 text-center">
+        <span class="text-4xl opacity-60">🕳️</span>
+        <h3 class="pt-h3 text-parchment/85">{{ t('暂无结果', 'No results') }}</h3>
+        <p class="text-sm text-parchment/45">
+          {{ t('试试调整关键词或筛选条件', 'Try adjusting the keyword or filters') }}
+        </p>
+        <button @click="clearFilters" class="pt-btn-ghost mt-2">{{ t('重置条件', 'Reset') }}</button>
+      </div>
+
+      <!-- 分页 -->
+      <Pagination
+        v-if="searchMode === 'keyword' && figuresStore.total > pageSize"
+        class="mt-10"
+        :current-page="currentPage"
+        :total-pages="Math.ceil(figuresStore.total / pageSize)"
+        @page-change="currentPage = $event; fetchFigures()"
+      />
+    </section>
   </div>
 </template>
 
@@ -108,67 +150,54 @@ import FilterPanel from '../components/FilterPanel.vue'
 import Pagination from '../components/Pagination.vue'
 import FigureCardSkeleton from '../components/FigureCardSkeleton.vue'
 
-
 const route = useRoute()
 const router = useRouter()
 const figuresStore = useFiguresStore()
 const { t, locale } = useI18n()
 
-
-// 检索方式：'keyword'（关键词）| 'smart'（智能检索，静态模式下为内存子串匹配）
 const searchMode = ref<'keyword' | 'smart'>('keyword')
-
-// Search state
-const searchQuery = ref(route.query.q as string || '')
+const searchQuery = ref((route.query.q as string) || '')
 const currentPage = ref(Number(route.query.page) || 1)
 const pageSize = 20
 
-// Enhanced filter state (synced with URL)
 const filters = ref({
-  era: route.query.era as string || '',
-  historical_domain: route.query.historical_domain as string || '',
-  domain: route.query.domain as string || '',
-  gender: route.query.gender as string || '',
-  ethnicity: route.query.ethnicity as string || '',
-  theme: route.query.theme as string || '',  // P4 theme: TECH/WOMEN/ETHNIC/MED/COMP
-  // International filters
-  nationality: route.query.nationality as string || '',
-  civilization_sphere: route.query.civilization_sphere as string || '',
-  time_period_standardized: route.query.time_period_standardized as string || '',
-  wiki_id: route.query.wiki_id as string || '',
-  primary_language: route.query.primary_language as string || '',
-  intellectual_tradition: route.query.intellectual_tradition as string || '',
-  cross_cultural_impact: route.query.cross_cultural_impact as string || '',
+  era: (route.query.era as string) || '',
+  historical_domain: (route.query.historical_domain as string) || '',
+  domain: (route.query.domain as string) || '',
+  gender: (route.query.gender as string) || '',
+  ethnicity: (route.query.ethnicity as string) || '',
+  theme: (route.query.theme as string) || '',
+  nationality: (route.query.nationality as string) || '',
+  civilization_sphere: (route.query.civilization_sphere as string) || '',
+  time_period_standardized: (route.query.time_period_standardized as string) || '',
+  wiki_id: (route.query.wiki_id as string) || '',
+  primary_language: (route.query.primary_language as string) || '',
+  intellectual_tradition: (route.query.intellectual_tradition as string) || '',
+  cross_cultural_impact: (route.query.cross_cultural_impact as string) || '',
 })
 
-// Semantic search specific
 const smartResults = ref<any[]>([])
 const smartLoading = ref(false)
 const smartTotal = ref(0)
 const smartPage = ref(1)
 const smartPageSize = 20
 
-// Watch for filter/search changes to update URL (only for keyword mode)
+const loading = computed(() => figuresStore.loading || smartLoading.value)
+
 watch([searchQuery, filters, currentPage], () => {
   if (searchMode.value === 'keyword') {
     const query: Record<string, string> = {}
     if (searchQuery.value) query.q = searchQuery.value
     if (currentPage.value > 1) query.page = String(currentPage.value)
-    Object.entries(filters.value).forEach(([key, value]) => {
-      if (value) query[key] = value
-    })
+    Object.entries(filters.value).forEach(([key, value]) => { if (value) query[key] = value })
     router.replace({ query })
   }
 }, { deep: true })
 
-// Watch for smart search query changes
 watch([() => searchMode.value, searchQuery], async ([newMode]) => {
-  if (newMode === 'smart' && searchQuery.value) {
-    await performSmartSearch()
-  }
+  if (newMode === 'smart' && searchQuery.value) await performSmartSearch()
 })
 
-// Fetch data for keyword search
 const fetchFigures = async () => {
   await figuresStore.fetchFigures({
     page: currentPage.value,
@@ -179,37 +208,20 @@ const fetchFigures = async () => {
   })
 }
 
-// 语言切换后按新的 lang 重新取数（名称/描述等字段随 lang 返回）
 watch(locale, async () => {
-  if (searchMode.value === 'smart') {
-    await performSmartSearch()
-  } else {
-    await fetchFigures()
-  }
+  if (searchMode.value === 'smart') await performSmartSearch()
+  else await fetchFigures()
 })
 
-// 智能检索：由数据源提供（VITE_DATA_MODE=static 时为内存子串匹配；api 模式走 /scenarios/search）
-// 原实现在此调用 /api/v1/scenarios/{batch/,}semantic-search，结果从未被渲染（死代码），
-// 静态模式下亦无向量检索可比，故统一走 store.semanticSearch（静态模式下是 searchFigures 的别名），
-// 并在 UI 上诚实标注为「智能检索」。
 const normalizeResults = (items: any[]): any[] =>
-  items.map(item => ({
-    code: '',
-    name: '',
-    description: '',
-    reason: '',
-    modes: [],
-    era: null,
-    historical_domains: [],
-    domains: [],
-    gender: null,
-    ethnicity: null,
+  items.map((item) => ({
+    code: '', name: '', description: '', reason: '', modes: [],
+    era: null, historical_domains: [], domains: [], gender: null, ethnicity: null,
     ...item,
   }))
 
 const performSmartSearch = async () => {
   if (!searchQuery.value.trim()) return
-
   smartLoading.value = true
   try {
     const data = await figuresStore.semanticSearch(searchQuery.value, locale.value, smartPageSize)
@@ -224,286 +236,54 @@ const performSmartSearch = async () => {
   }
 }
 
-// Search handler
 const handleSearch = async () => {
-  if (searchMode.value === 'keyword') {
-    currentPage.value = 1
-    await fetchFigures()
-  } else {
-    smartPage.value = 1
-    await performSmartSearch()
-  }
+  if (searchMode.value === 'keyword') { currentPage.value = 1; await fetchFigures() }
+  else { smartPage.value = 1; await performSmartSearch() }
 }
 
-// Filter change handler
-const handleFilterChange = async (newFilters: typeof filters.value) => {
-  filters.value = newFilters
-  if (searchMode.value === 'keyword') {
-    currentPage.value = 1
-    await fetchFigures()
-  }
+const handleFilterChange = async (newFilters: Record<string, string>) => {
+  filters.value = { ...filters.value, ...newFilters }
+  if (searchMode.value === 'keyword') { currentPage.value = 1; await fetchFigures() }
 }
 
-// Clear all filters
 const clearFilters = async () => {
   filters.value = {
-    era: '',
-    historical_domain: '',
-    domain: '',
-    gender: '',
-    ethnicity: '',
-    theme: '',
-    // International filters
-    nationality: '',
-    civilization_sphere: '',
-    time_period_standardized: '',
-    wiki_id: '',
-    primary_language: '',
-    intellectual_tradition: '',
-    cross_cultural_impact: '',
+    era: '', historical_domain: '', domain: '', gender: '', ethnicity: '', theme: '',
+    nationality: '', civilization_sphere: '', time_period_standardized: '', wiki_id: '',
+    primary_language: '', intellectual_tradition: '', cross_cultural_impact: '',
   }
-  if (searchMode.value === 'keyword') {
-    currentPage.value = 1
-    await fetchFigures()
-  }
+  if (searchMode.value === 'keyword') { currentPage.value = 1; await fetchFigures() }
 }
 
-// Mode change handler
 const handleModeChange = async (newMode: 'keyword' | 'smart') => {
   searchMode.value = newMode
-  if (newMode === 'smart' && searchQuery.value) {
-    await performSmartSearch()
-  }
+  if (newMode === 'smart' && searchQuery.value) await performSmartSearch()
 }
 
-// Initial load
-onMounted(async () => {
-  await fetchFigures()
-})
+onMounted(async () => { await fetchFigures() })
 
-// Tag labels for display
+// 筛选项来源（中文标签）
 const tagLabels: Record<string, Record<string, string>> = {
   era: {
-    'Pre-Qin': '先秦',
-    'Qin-Han': '秦汉',
-    'Three-Kingdoms-Jin': '三国两晋',
-    'Northern-Southern': '南北朝',
-    'Sui-Tang': '隋唐',
-    'Song-Yuan': '宋元',
-    'Ming-Qing': '明清',
-    'Modern-Early': '近代',
-    'Modern': '现代',
+    'Pre-Qin': '先秦', 'Qin-Han': '秦汉', 'Three-Kingdoms-Jin': '三国两晋',
+    'Northern-Southern': '南北朝', 'Sui-Tang': '隋唐', 'Song-Yuan': '宋元',
+    'Ming-Qing': '明清', 'Modern-Early': '近代', 'Modern': '现代',
   },
   historical_domain: {
-    'Military': '军事',
-    'Philosophy': '哲学',
-    'Governance': '治理',
-    'Science_Tech': '科技',
-    'Historiography': '史学',
-    'Literature_Arts': '文学艺术',
-    'Religion': '宗教',
-    'Education': '教育',
-    'Economics': '经济',
-    'Ethics': '伦理',
+    Military: '军事', Philosophy: '哲学', Governance: '治理', Science_Tech: '科技',
+    Historiography: '史学', Literature_Arts: '文学艺术', Religion: '宗教',
+    Education: '教育', Economics: '经济', Ethics: '伦理',
   },
   domain: {
-    'Strategic': '战略',
-    'Analytical': '分析',
-    'Collaborative': '协作',
-    'Operational': '操作',
-    'Systems': '系统',
-    'Creative': '创新',
-    'Personal': '个人',
+    Strategic: '战略', Analytical: '分析', Collaborative: '协作', Operational: '操作',
+    Systems: '系统', Creative: '创新', Personal: '个人',
   },
-  gender: {
-    'Male': '男性',
-    'Female': '女性',
-  },
-  ethnicity: {
-    'Han': '汉族',
-    'Minority': '少数民族',
-  },
+  gender: { Male: '男性', Female: '女性' },
+  ethnicity: { Han: '汉族', Minority: '少数民族' },
 }
 
-// 列表展示：关键词模式用 store 的分页结果；智能检索（smart）模式用本地结果集
 const displayedFigures = computed(() => (searchMode.value === 'smart' ? smartResults.value : figuresStore.figures))
 const displayedTotal = computed(() => (searchMode.value === 'smart' ? smartTotal.value : figuresStore.total))
 
-const getTagLabel = (category: string, value: string) => {
-  return tagLabels[category]?.[value] || value
-}
-
-const activeFiltersCount = computed(() => {
-  return Object.values(filters.value).filter(v => v).length
-})
+const activeFiltersCount = computed(() => Object.values(filters.value).filter((v) => v).length)
 </script>
-
-<style scoped>
-.figures-view {
-  padding: 20px;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.search-header {
-  margin-bottom: 30px;
-}
-
-.search-container {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
-.search-modes {
-  display: flex;
-  gap: 10px;
-}
-
-.mode-btn {
-  padding: 8px 16px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  background: white;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.mode-btn.active {
-  background: #007bff;
-  color: white;
-  border-color: #007bff;
-}
-
-.search-input-container {
-  display: flex;
-  gap: 10px;
-  flex: 1;
-}
-
-.search-input {
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
-}
-
-.search-btn {
-  padding: 10px 20px;
-  background: #007bff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.main-content {
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 30px;
-}
-
-.sidebar {
-  position: sticky;
-  top: 20px;
-  height: fit-content;
-}
-
-.content {
-  min-height: 400px;
-}
-
-.active-filters {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  padding: 10px;
-  background: #f8f9fa;
-  border-radius: 6px;
-}
-
-.filter-count {
-  color: #666;
-  font-size: 14px;
-}
-
-.clear-btn {
-  padding: 4px 12px;
-  background: #dc3545;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 12px;
-}
-
-.loading {
-  padding: 40px 0;
-}
-
-.skeleton-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.results {
-  min-height: 400px;
-}
-
-.results-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.results-count {
-  color: #666;
-  font-size: 14px;
-}
-
-.smart-hint {
-  color: #888;
-  font-size: 12px;
-  margin-left: 12px;
-}
-
-.figures-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.no-results {
-  text-align: center;
-  padding: 60px 20px;
-  color: #666;
-}
-
-.no-results h3 {
-  margin-bottom: 10px;
-  color: #333;
-}
-
-@media (max-width: 768px) {
-  .main-content {
-    grid-template-columns: 1fr;
-  }
-  
-  .sidebar {
-    position: static;
-  }
-  
-  .search-container {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .search-modes {
-    justify-content: center;
-  }
-}
-</style>

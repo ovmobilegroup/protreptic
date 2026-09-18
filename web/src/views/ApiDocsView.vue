@@ -4,126 +4,126 @@ import { useI18n } from '../composables/useI18n'
 
 const { t, locale } = useI18n()
 
-const endpointList = [
-  { method: 'GET', path: '/api/v1/scenarios', desc: { zh: '获取所有场景（分页/筛选/搜索）', en: 'List all scenarios (pagination/filter/search)' } },
-  { method: 'GET', path: '/api/v1/scenarios/{code}', desc: { zh: '获取单个场景详情', en: 'Get single scenario detail' } },
-  { method: 'GET', path: '/api/v1/scenarios/search', desc: { zh: '关键词搜索场景', en: 'Search scenarios by keyword' } },
-  { method: 'GET', path: '/api/v1/scenarios/filter', desc: { zh: '标签筛选场景', en: 'Filter scenarios by tags' } },
-  { method: 'GET', path: '/api/v1/modes', desc: { zh: '获取所有思维模式', en: 'List all thinking modes' } },
-  { method: 'GET', path: '/api/v1/modes/{id}', desc: { zh: '获取单个思维模式详情', en: 'Get single thinking mode detail' } },
-  { method: 'GET', path: '/api/v1/tags/stats', desc: { zh: '获取标签统计', en: 'Get tag statistics' } },
-  { method: 'GET', path: '/api/v1/tags/values', desc: { zh: '获取可用标签值', en: 'Get available tag values' } },
-  { method: 'GET', path: '/api/v1/export', desc: { zh: '导出数据 (JSON/Markdown)', en: 'Export data (JSON/Markdown)' } },
-  { method: 'GET', path: '/api/v1/health', desc: { zh: '健康检查', en: 'Health check' } },
+// 静态站点实际可用的数据接口（GitHub Pages 无后端）
+const staticEndpoints = [
+  { path: '/data/meta.json', desc: { zh: '数据清单：条数与 sha256 校验', en: 'Manifest: counts + sha256' } },
+  { path: '/data/figures.index.json', desc: { zh: '全部人物轻量索引（1058 条）', en: 'Lightweight figure index (1058)' } },
+  { path: '/data/figures/{code}.json', desc: { zh: '单个人物详情分片', en: 'Single figure detail shard' } },
+  { path: '/data/modes/index-{0..7}.json', desc: { zh: '思维模式摘要（8 分片，共 2858 条）', en: 'Mode summaries (8 shards, 2858 total)' } },
+  { path: '/data/modes/by-figure/{code}.json', desc: { zh: '某位人物的全部模式（284 片）', en: 'All modes of one figure (284 shards)' } },
 ]
 
-const methodColors: Record<string, string> = {
-  GET: 'bg-green-100 text-green-700',
-  POST: 'bg-blue-100 text-blue-700',
-  PUT: 'bg-yellow-100 text-yellow-700',
-  DELETE: 'bg-red-100 text-red-700',
-  PATCH: 'bg-purple-100 text-purple-700',
+// 可选：本地 FastAPI 服务（仓库自带，需自行启动）
+const apiEndpoints = [
+  { method: 'GET', path: '/api/v1/thinking-modes', desc: { zh: '列出/筛选思维模式', en: 'List / filter thinking modes' } },
+  { method: 'GET', path: '/api/v1/thinking-modes/stats', desc: { zh: '库统计', en: 'Library statistics' } },
+  { method: 'GET', path: '/api/v1/thinking-modes/{mode_code}', desc: { zh: '单条模式详情', en: 'Single mode detail' } },
+  { method: 'GET', path: '/api/v1/figures/{code}/modes', desc: { zh: '某位人物的全部模式', en: 'All modes of a figure' } },
+]
+
+const copied = ref('')
+const copy = async (text: string) => {
+  try {
+    await navigator.clipboard.writeText(text)
+    copied.value = text
+    setTimeout(() => { if (copied.value === text) copied.value = '' }, 1600)
+  } catch { /* 剪贴板不可用 */ }
 }
 
-const copyEndpoint = (path: string) => {
-  navigator.clipboard.writeText(`http://localhost:8000${path}`)
-}
+const origin = typeof window !== 'undefined' ? window.location.origin : ''
+const baseUrl = `${origin}${import.meta.env.BASE_URL}`
+
+const pySnippet = `# 克隆仓库后即可查询全部 2868 条模式
+python3 tools/figure_library.py --stats
+python3 tools/figure_library.py -f H-INM-001     # 稻盛和夫的 10 条模式
+python3 tools/figure_library.py -s 矛盾           # 关键词搜索`
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
-    <header class="bg-white border-b border-gray-200">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <h1 class="text-3xl font-bold text-gray-900">{{ t('API 文档', 'API Documentation') }}</h1>
-        <p class="mt-1 text-gray-600">{{ t('Protreptic REST API v2.1.0 - 历史人物思维模式库接口', 'Protreptic REST API v2.1.0 - Historical Figures Thinking Modes Library API') }}</p>
+  <div class="pt-container pb-16 pt-10">
+    <section class="mb-10">
+      <div class="mb-3 flex items-center gap-3">
+        <span class="pt-hairline w-10"></span>
+        <span class="pt-code">{{ t('数据接口 · 静态与本地', 'DATA ACCESS · STATIC & LOCAL') }}</span>
       </div>
-    </header>
+      <h1 class="pt-h1"><span class="pt-gradient-text">{{ t('数据与 API', 'Data & API') }}</span></h1>
+      <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/55">
+        {{ t(
+          '本站为纯静态站点，所有数据以 JSON 分片形式直接可取，无需认证。若需要带筛选能力的服务端接口，可本地启动仓库自带的 FastAPI 服务。',
+          'This site is fully static: all data is available as JSON shards with no auth. For a server-side API with filtering, run the bundled FastAPI service locally.'
+        ) }}
+      </p>
+    </section>
 
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div class="mb-8 bg-white rounded-xl border border-gray-200 p-6">
-        <h2 class="text-xl font-semibold text-gray-900 mb-4">{{ t('基础信息', 'Base Information') }}</h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-          <div class="bg-gray-50 rounded-lg p-4">
-            <h3 class="font-medium text-gray-900 mb-2">{{ t('基础 URL', 'Base URL') }}</h3>
-            <code class="text-sm bg-white px-3 py-2 rounded block">http://localhost:8000/api/v1</code>
-          </div>
-          <div class="bg-gray-50 rounded-lg p-4">
-            <h3 class="font-medium text-gray-900 mb-2">{{ t('格式', 'Format') }}</h3>
-            <p class="text-sm text-gray-600">JSON</p>
-          </div>
-          <div class="bg-gray-50 rounded-lg p-4">
-            <h3 class="font-medium text-gray-900 mb-2">{{ t('认证', 'Authentication') }}</h3>
-            <p class="text-sm text-gray-600">{{ t('无需认证 (公开 API)', 'No auth required (public API)') }}</p>
-          </div>
+    <!-- 基础信息 -->
+    <section class="pt-panel mb-8 p-6">
+      <h2 class="pt-h3 mb-4 text-gold-200">{{ t('基础信息', 'Base information') }}</h2>
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+        <div class="rounded-xl border border-white/10 bg-ink-900/50 p-4">
+          <div class="mb-2 text-xs text-parchment/45">{{ t('站点根地址', 'Site root') }}</div>
+          <code class="pt-code break-all">{{ baseUrl }}</code>
         </div>
-
-        <div class="bg-gray-50 rounded-lg p-4">
-          <h3 class="font-medium text-gray-900 mb-2">{{ t('交互式文档', 'Interactive Docs') }}</h3>
-          <div class="flex gap-4">
-            <a href="http://localhost:8000/docs" target="_blank" class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">
-              Swagger UI
-            </a>
-            <a href="http://localhost:8000/redoc" target="_blank" class="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors">
-              ReDoc
-            </a>
-          </div>
+        <div class="rounded-xl border border-white/10 bg-ink-900/50 p-4">
+          <div class="mb-2 text-xs text-parchment/45">{{ t('数据格式', 'Format') }}</div>
+          <div class="text-sm text-parchment/80">JSON (UTF-8)</div>
+        </div>
+        <div class="rounded-xl border border-white/10 bg-ink-900/50 p-4">
+          <div class="mb-2 text-xs text-parchment/45">{{ t('认证', 'Auth') }}</div>
+          <div class="text-sm text-parchment/80">{{ t('无需认证', 'None') }}</div>
         </div>
       </div>
+    </section>
 
-      <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
-        <div class="overflow-x-auto">
-          <table class="w-full">
-            <thead class="bg-gray-50 border-b border-gray-200">
-              <tr>
-                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">{{ t('方法', 'Method') }}</th>
-                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">{{ t('路径', 'Path') }}</th>
-                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">{{ t('描述', 'Description') }}</th>
-                <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">{{ t('操作', 'Action') }}</th>
-              </tr>
-            </thead>
-            <tbody class="divide-y divide-gray-200">
-              <tr v-for="endpoint in endpointList" :key="endpoint.path">
-                <td class="px-6 py-4">
-                  <span :class="methodColors[endpoint.method]" class="px-2 py-0.5 text-xs font-medium rounded-full">
-                    {{ endpoint.method }}
-                  </span>
-                </td>
-                <td class="px-6 py-4">
-                  <code class="text-sm font-mono text-gray-900">{{ endpoint.path }}</code>
-                  <button @click="copyEndpoint(endpoint.path)" class="ml-2 text-gray-400 hover:text-indigo-600" :aria-label="t('复制路径', 'Copy path')">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2h-2M8 5a2 2 0 00-2 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h2" />
-                    </svg>
-                  </button>
-                </td>
-                <td class="px-6 py-4">
-                  <p class="text-sm text-gray-700">{{ endpoint.desc[locale] }}</p>
-                </td>
-                <td class="px-6 py-4 text-right">
-                  <a :href="`http://localhost:8000${endpoint.path}`" target="_blank" class="text-sm text-indigo-600 hover:text-indigo-900">
-                    {{ t('测试', 'Try') }}
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+    <!-- 静态数据接口 -->
+    <section class="pt-panel mb-8 overflow-hidden">
+      <div class="flex items-center gap-3 border-b border-white/10 px-6 py-4">
+        <span class="pt-chip-jade">STATIC</span>
+        <h2 class="pt-h3 text-parchment/90">{{ t('静态数据接口', 'Static data endpoints') }}</h2>
       </div>
-    </main>
+      <ul class="divide-y divide-white/[0.06]">
+        <li v-for="ep in staticEndpoints" :key="ep.path"
+            class="flex flex-wrap items-center gap-3 px-6 py-4 transition-colors hover:bg-white/[.03]">
+          <code class="pt-code flex-1 min-w-[16rem] break-all text-gold-300/90">{{ ep.path }}</code>
+          <span class="text-sm text-parchment/55">{{ ep.desc[locale] }}</span>
+          <button @click="copy(baseUrl.replace(/\/$/, '') + ep.path)"
+                  class="ml-auto rounded-lg border border-white/10 px-2.5 py-1 text-xs text-parchment/55
+                         transition-colors hover:border-gold-500/40 hover:text-gold-300">
+            {{ copied === baseUrl.replace(/\/$/, '') + ep.path ? t('已复制', 'Copied') : t('复制', 'Copy') }}
+          </button>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 本地 API -->
+    <section class="pt-panel mb-8 overflow-hidden">
+      <div class="flex items-center gap-3 border-b border-white/10 px-6 py-4">
+        <span class="pt-chip-gold">OPTIONAL</span>
+        <h2 class="pt-h3 text-parchment/90">{{ t('本地 FastAPI 服务（可选）', 'Local FastAPI service (optional)') }}</h2>
+      </div>
+      <div class="px-6 py-5">
+        <pre class="mb-5 overflow-x-auto rounded-xl border border-white/10 bg-ink-950/70 p-4 text-xs leading-relaxed text-jade-300/90"><code>cd api
+pip install -r requirements.txt
+python build_figures_db.py &amp;&amp; python load_v6.py
+uvicorn api.main:app --reload      # http://127.0.0.1:8000</code></pre>
+        <ul class="space-y-2">
+          <li v-for="ep in apiEndpoints" :key="ep.path" class="flex flex-wrap items-center gap-3">
+            <span class="pt-chip-jade w-12 justify-center">{{ ep.method }}</span>
+            <code class="pt-code">{{ ep.path }}</code>
+            <span class="text-sm text-parchment/50">{{ ep.desc[locale] }}</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CLI -->
+    <section class="pt-panel overflow-hidden">
+      <div class="flex items-center gap-3 border-b border-white/10 px-6 py-4">
+        <span class="pt-chip-mute">CLI</span>
+        <h2 class="pt-h3 text-parchment/90">{{ t('命令行查询', 'Command-line query') }}</h2>
+      </div>
+      <div class="px-6 py-5">
+        <pre class="overflow-x-auto rounded-xl border border-white/10 bg-ink-950/70 p-4 text-xs leading-relaxed text-parchment/80"><code>{{ pySnippet }}</code></pre>
+      </div>
+    </section>
   </div>
 </template>
-
-<style scoped>
-table {
-  border-collapse: collapse;
-}
-tr:hover {
-  background-color: #f9fafb;
-}
-code {
-  background: #f3f4f6;
-  padding: 2px 6px;
-  border-radius: 4px;
-}
-</style>

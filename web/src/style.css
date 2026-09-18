@@ -2,14 +2,142 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  box-sizing: border-box;
+/* ============================================================
+   Protreptic · 思想典藏 — 设计系统
+   主题：深墨底色 + 鎏金强调 + 宋体标题，取「典藏 / 智库」意象
+   ============================================================ */
+
+@layer base {
+  * { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-ink-950 text-parchment font-sans antialiased;
+    background-image:
+      radial-gradient(1100px 600px at 12% -8%, rgba(212, 162, 76, .10), transparent 60%),
+      radial-gradient(900px 520px at 92% 6%, rgba(94, 234, 212, .07), transparent 55%),
+      linear-gradient(180deg, #04060c 0%, #06090f 40%, #04060c 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: rgba(212, 162, 76, .32);
+    color: #fff;
+  }
+
+  /* 滚动条 */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: rgba(255, 255, 255, .03); }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(212, 162, 76, .5), rgba(212, 162, 76, .2));
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(212, 162, 76, .7); background-clip: padding-box; }
+
+  :focus-visible {
+    outline: 2px solid rgba(212, 162, 76, .8);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
 }
 
-body {
-  @apply bg-gray-50 text-gray-900 antialiased;
+@layer components {
+  /* 容器 */
+  .pt-container { @apply mx-auto w-full max-w-7xl px-5 sm:px-8; }
+
+  /* 玻璃面板 */
+  .pt-panel {
+    @apply rounded-2xl border border-white/[0.12] bg-white/[.045] backdrop-blur-xl;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset, 0 24px 48px -32px rgba(0, 0, 0, .9);
+  }
+
+  /* 鎏金描边按钮 */
+  .pt-btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium
+           transition-all duration-300 ease-silk select-none;
+  }
+  .pt-btn-gold {
+    @apply pt-btn text-ink-950;
+    background: linear-gradient(180deg, #f0d79f, #d4a24c 55%, #b8843a);
+    box-shadow: 0 10px 30px -12px rgba(212, 162, 76, .75);
+  }
+  .pt-btn-gold:hover { filter: brightness(1.08); transform: translateY(-1px); }
+  .pt-btn-ghost {
+    @apply pt-btn border border-white/[0.12] bg-white/[.03] text-parchment/85;
+  }
+  .pt-btn-ghost:hover { @apply border-gold-500/50 text-gold-200 bg-gold-500/10; }
+
+  /* 标签 / 徽记 */
+  .pt-chip {
+    @apply inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium
+           transition-colors duration-200;
+  }
+  .pt-chip-gold { @apply pt-chip border-gold-500/30 bg-gold-500/10 text-gold-300; }
+  .pt-chip-jade { @apply pt-chip border-jade-400/30 bg-jade-400/10 text-jade-300; }
+  .pt-chip-mute { @apply pt-chip border-white/10 bg-white/[.04] text-parchment/60; }
+
+  /* 代码 / 编号 */
+  .pt-code {
+    @apply font-mono text-[11px] tracking-wider text-gold-300/90;
+  }
+
+  /* 分隔金线 */
+  .pt-hairline {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212, 162, 76, .55), transparent);
+  }
+
+  /* 输入框 */
+  .pt-input {
+    @apply w-full rounded-xl border border-white/[0.12] bg-ink-900/70 px-4 py-3 text-parchment
+           placeholder:text-parchment/35 transition-all duration-300;
+  }
+  .pt-input:focus {
+    @apply border-gold-500/60 bg-ink-900 outline-none;
+    box-shadow: 0 0 0 4px rgba(212, 162, 76, .12);
+  }
+
+  /* 标题 */
+  .pt-h1 { @apply font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight; }
+  .pt-h2 { @apply font-display text-2xl sm:text-3xl font-bold tracking-tight; }
+  .pt-h3 { @apply font-display text-lg font-semibold; }
+
+  /* 渐变文字 */
+  .pt-gradient-text {
+    background: linear-gradient(120deg, #f7e6c0 0%, #d4a24c 45%, #8ff0dd 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 }
 
-#app {
-  @apply min-h-screen flex flex-col;
+@layer utilities {
+  /* 骨架屏微光 */
+  .pt-skeleton {
+    background: linear-gradient(90deg, rgba(255,255,255,.04) 25%, rgba(255,255,255,.10) 37%, rgba(255,255,255,.04) 63%);
+    background-size: 400% 100%;
+    @apply animate-shimmer rounded-lg;
+  }
+  .pt-stagger > * { animation: fade-up .5s cubic-bezier(.2,.7,.3,1) both; }
+  .pt-stagger > *:nth-child(1) { animation-delay: .02s; }
+  .pt-stagger > *:nth-child(2) { animation-delay: .06s; }
+  .pt-stagger > *:nth-child(3) { animation-delay: .10s; }
+  .pt-stagger > *:nth-child(4) { animation-delay: .14s; }
+  .pt-stagger > *:nth-child(5) { animation-delay: .18s; }
+  .pt-stagger > *:nth-child(6) { animation-delay: .22s; }
+  .pt-stagger > *:nth-child(n+7) { animation-delay: .26s; }
+
+  .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+  }
 }

@@ -26,37 +26,11 @@ const props = defineProps<Props>()
 const router = useRouter()
 const { t } = useI18n()
 
-// Domain color mapping
-const domainColors: Record<string, string> = {
-  Strategic: 'bg-red-100 text-red-700',
-  Analytical: 'bg-blue-100 text-blue-700',
-  Collaborative: 'bg-green-100 text-green-700',
-  Operational: 'bg-yellow-100 text-yellow-700',
-  Systems: 'bg-purple-100 text-purple-700',
-  Creative: 'bg-pink-100 text-pink-700',
-  Personal: 'bg-indigo-100 text-indigo-700',
-}
-
-// Historical domain color mapping
-const histDomainColors: Record<string, string> = {
-  Military: 'bg-red-100 text-red-700',
-  Philosophy: 'bg-blue-100 text-blue-700',
-  Governance: 'bg-green-100 text-green-700',
-  Science_Tech: 'bg-yellow-100 text-yellow-700',
-  Historiography: 'bg-purple-100 text-purple-700',
-  Literature_Arts: 'bg-pink-100 text-pink-700',
-  Religion: 'bg-indigo-100 text-indigo-700',
-  Education: 'bg-teal-100 text-teal-700',
-  Economics: 'bg-orange-100 text-orange-700',
-  Ethics: 'bg-gray-100 text-gray-700',
-}
-
-// Era labels
 const eraLabels: Record<string, { zh: string; en: string }> = {
   'Pre-Qin': { zh: '先秦', en: 'Pre-Qin' },
   'Qin-Han': { zh: '秦汉', en: 'Qin-Han' },
   'Three-Kingdoms-Jin': { zh: '三国两晋', en: 'Three Kingdoms & Jin' },
-  'Northern-Southern': { zh: '南北朝', en: 'Northern & Southern Dynasties' },
+  'Northern-Southern': { zh: '南北朝', en: 'N. & S. Dynasties' },
   'Sui-Tang': { zh: '隋唐', en: 'Sui-Tang' },
   'Song-Yuan': { zh: '宋元', en: 'Song-Yuan' },
   'Ming-Qing': { zh: '明清', en: 'Ming-Qing' },
@@ -64,143 +38,92 @@ const eraLabels: Record<string, { zh: string; en: string }> = {
   'Modern': { zh: '现代', en: 'Modern' },
 }
 
+const histDomainLabels: Record<string, { zh: string; en: string }> = {
+  Military: { zh: '军事', en: 'Military' },
+  Philosophy: { zh: '哲学', en: 'Philosophy' },
+  Governance: { zh: '治理', en: 'Governance' },
+  Science_Tech: { zh: '科技', en: 'Sci & Tech' },
+  Historiography: { zh: '史学', en: 'History' },
+  Literature_Arts: { zh: '文艺', en: 'Arts' },
+  Religion: { zh: '宗教', en: 'Religion' },
+  Education: { zh: '教育', en: 'Education' },
+  Economics: { zh: '经济', en: 'Economics' },
+  Ethics: { zh: '伦理', en: 'Ethics' },
+}
+
 const navigateToDetail = () => {
   router.push({ name: 'figure-detail', params: { code: props.figure.code } })
 }
 
-const getEraLabel = () => {
+const eraLabel = computed(() => {
   if (!props.figure.era) return ''
   return eraLabels[props.figure.era]?.[props.lang] || props.figure.era
-}
+})
 
-const getDomainLabel = (domain: string) => {
-  return domain // Keep English for domain tags for consistency
-}
-
-const getModeLabel = (modeId: number) => {
-  return modeId.toString()
-}
-
-const getHistDomainLabel = (domain: string) => {
-  return domain
-}
+const histDoms = computed(() =>
+  (props.figure.historical_domains || [])
+    .slice(0, 2)
+    .map((d) => histDomainLabels[d]?.[props.lang] || d)
+)
 </script>
 
 <template>
   <article
     @click="navigateToDetail"
-    class="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-lg hover:border-indigo-300 transition-all duration-200 cursor-pointer group"
     tabindex="0"
     @keydown.enter="navigateToDetail"
     @keydown.space.prevent="navigateToDetail"
+    class="group relative flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-white/10
+           bg-white/[.03] p-5 transition-all duration-500 ease-silk
+           hover:-translate-y-1 hover:border-gold-500/45 hover:bg-white/[.055] hover:shadow-glow"
   >
-    <!-- Header with Code and Era -->
-    <div class="px-5 py-4 border-b border-gray-100 flex items-start justify-between">
-      <div class="flex items-center gap-2">
-        <span class="text-xs font-mono font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">
-          {{ props.figure.code }}
-        </span>
-        <span v-if="props.figure.era" class="text-xs text-gray-500 bg-gray-50 px-2 py-0.5 rounded">
-          {{ getEraLabel() }}
-        </span>
-      </div>
+    <!-- 悬停金晕 -->
+    <div aria-hidden="true"
+         class="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500
+                group-hover:opacity-100"
+         style="background: radial-gradient(420px 180px at 50% 0%, rgba(212,162,76,.14), transparent 70%)"></div>
+
+    <!-- 顶部：编号 + 时代 -->
+    <div class="relative mb-3 flex items-center justify-between gap-2">
+      <span class="pt-code">{{ props.figure.code }}</span>
+      <span v-if="eraLabel" class="pt-chip-mute">{{ eraLabel }}</span>
     </div>
 
-    <!-- Content -->
-    <div class="p-5">
-      <!-- Name -->
-      <h3 class="text-lg font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-indigo-600 transition-colors">
-        {{ props.figure.name }}
-      </h3>
+    <!-- 名称 -->
+    <h3 class="relative font-display text-xl font-bold leading-snug text-parchment
+               transition-colors duration-300 group-hover:text-gold-200 line-clamp-2">
+      {{ props.figure.name }}
+    </h3>
 
-      <!-- Description -->
-      <p v-if="props.figure.description" class="text-sm text-gray-600 mb-4 line-clamp-3">
-        {{ props.figure.description }}
-      </p>
+    <!-- 描述 -->
+    <p v-if="props.figure.description" class="relative mt-2.5 text-sm leading-relaxed text-parchment/55 line-clamp-3">
+      {{ props.figure.description }}
+    </p>
 
-      <!-- Thinking Modes -->
-      <div v-if="props.figure.modes && props.figure.modes.length > 0" class="mb-4">
-        <div class="flex flex-wrap gap-1.5">
-          <span
-            v-for="modeId in props.figure.modes.slice(0, 4)"
-            :key="modeId"
-            class="px-2 py-0.5 text-xs font-medium rounded-full"
-            :class="domainColors[getModeLabel(modeId)] || 'bg-gray-100 text-gray-700'"
-          >
-            #{{ modeId }}
-          </span>
-          <span v-if="props.figure.modes.length > 4" class="px-2 py-0.5 text-xs text-gray-500 bg-gray-100 rounded-full">
-            +{{ props.figure.modes.length - 4 }}
-          </span>
-        </div>
-      </div>
-
-      <!-- Tags Row -->
-      <div class="flex flex-wrap gap-1.5 mb-4">
-        <!-- Historical Domains -->
-        <span
-          v-for="domain in props.figure.historical_domains.slice(0, 2)"
-          :key="domain"
-          class="px-2 py-0.5 text-xs font-medium rounded"
-          :class="histDomainColors[domain] || 'bg-gray-100 text-gray-700'"
-        >
-          {{ getHistDomainLabel(domain) }}
-        </span>
-        <span v-if="props.figure.historical_domains.length > 2" class="px-2 py-0.5 text-xs text-gray-500 bg-gray-100 rounded">
-          +{{ props.figure.historical_domains.length - 2 }}
-        </span>
-
-        <!-- Era badge (if not shown in header) -->
-        <span v-if="props.figure.era" class="px-2 py-0.5 text-xs text-gray-500 bg-gray-100 rounded">
-          {{ eraLabels[props.figure.era]?.[props.lang] || props.figure.era }}
-        </span>
-      </div>
-
-      <!-- Gender/Ethnicity -->
-      <div class="flex items-center gap-2 text-xs text-gray-400">
-        <span v-if="props.figure.gender" class="flex items-center gap-1">
-          <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" />
-          </svg>
-          {{ props.figure.gender }}
-        </span>
-        <span v-if="props.figure.ethnicity" class="flex items-center gap-1">
-          <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414 0l3-3a1 1 0 00.293-.707V6z" clip-rule="evenodd" />
-          </svg>
-          {{ props.figure.ethnicity }}
-        </span>
-      </div>
+    <!-- 思维模式编号 -->
+    <div v-if="props.figure.modes?.length" class="relative mt-4 flex flex-wrap gap-1.5">
+      <span v-for="modeId in props.figure.modes.slice(0, 4)" :key="modeId" class="pt-chip-jade">
+        #{{ modeId }}
+      </span>
+      <span v-if="props.figure.modes.length > 4" class="pt-chip-mute">
+        +{{ props.figure.modes.length - 4 }}
+      </span>
     </div>
 
-    <!-- Hover Action Hint -->
-    <div class="px-5 pb-4 pt-2 border-t border-gray-50 opacity-0 group-hover:opacity-100 transition-opacity">
-      <button
-        @click.stop="navigateToDetail"
-        class="w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 transition-colors"
-      >
-        {{ props.lang === 'zh' ? '查看详情' : 'View Details' }}
-        <svg class="inline w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <!-- 底部：领域 + 箭头 -->
+    <div class="relative mt-4 flex items-center justify-between gap-3 border-t border-white/[0.08] pt-3.5">
+      <div class="flex flex-wrap gap-1.5">
+        <span v-for="d in histDoms" :key="d" class="text-xs text-parchment/45">{{ d }}</span>
+        <span v-if="!(histDoms.length)" class="text-xs text-parchment/30">—</span>
+      </div>
+      <span class="flex items-center gap-1 text-xs font-medium text-gold-400/0 transition-all duration-300
+                   group-hover:text-gold-300">
+        {{ t('查看', 'Open') }}
+        <svg class="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-0.5"
+             fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
-      </button>
+      </span>
     </div>
   </article>
 </template>
-
-<style scoped>
-/* Line clamp utilities */
-.line-clamp-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.line-clamp-3 {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-</style>

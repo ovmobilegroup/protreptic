@@ -4,8 +4,6 @@ import { useI18n } from '../composables/useI18n'
 
 const { t, locale } = useI18n()
 
-// 数据源开关：VITE_DATA_MODE=static → 读 public/data/modes/index-*.json（无后端）；
-// 否则沿用后端 /api/v1/modes（42 条模式定义）。
 const DATA_MODE = import.meta.env.VITE_DATA_MODE ?? 'api'
 const MODE_INDEX_SHARDS = 8
 
@@ -27,178 +25,170 @@ interface ModeItem {
 const modes = ref<ModeItem[]>([])
 const loading = ref(false)
 const error = ref<string | null>(null)
-// 2858 条一次性渲染会拖慢移动端：分批显示
 const visibleCount = ref(120)
+const query = ref('')
+const activeCategory = ref('')
 
-/** 静态模式：8 个摘要分片（md5(mode_code)%8）合并为 2858 条模式实例 */
 const fetchStaticModes = async (): Promise<ModeItem[]> => {
   const shards = await Promise.all(
     Array.from({ length: MODE_INDEX_SHARDS }, async (_, i) => {
-      const response = await fetch(`${import.meta.env.BASE_URL}data/modes/index-${i}.json`)
-      if (!response.ok) throw new Error(`data/modes/index-${i}.json HTTP ${response.status}`)
-      const data = await response.json()
-      if (!Array.isArray(data)) throw new Error(`data/modes/index-${i}.json 结构异常`)
-      return data
+      const r = await fetch(`${import.meta.env.BASE_URL}data/modes/index-${i}.json`)
+      if (!r.ok) throw new Error(`data/modes/index-${i}.json HTTP ${r.status}`)
+      const d = await r.json()
+      if (!Array.isArray(d)) throw new Error(`data/modes/index-${i}.json 结构异常`)
+      return d
     })
   )
-  return shards.flat().map((mode: any) => ({
-    id: String(mode.mode_code ?? ''),
-    name_zh: mode.name_zh ?? '',
-    name_en: mode.name_en ?? '',
-    domain_zh: mode.domain_zh ?? '',
-    domain_en: mode.domain_en ?? '',
-    category: mode.category ?? '',
-    figure_code: mode.figure_code ?? '',
-    figure_name: mode.figure_name ?? '',
+  return shards.flat().map((m: any) => ({
+    id: String(m.mode_code ?? ''),
+    name_zh: m.name_zh ?? '', name_en: m.name_en ?? '',
+    domain_zh: m.domain_zh ?? '', domain_en: m.domain_en ?? '',
+    category: m.category ?? '', figure_code: m.figure_code ?? '', figure_name: m.figure_name ?? '',
   }))
 }
 
-/** api 模式：后端 /api/v1/modes 的 42 条模式定义，归一化成同一形状 */
 const fetchApiModes = async (): Promise<ModeItem[]> => {
-  const response = await fetch('/api/v1/modes')
-  if (!response.ok) throw new Error(`/api/v1/modes HTTP ${response.status}`)
-  const data = await response.json()
-  return (data.data || []).map((mode: any) => ({
-    id: String(mode.id ?? ''),
-    name_zh: mode.name ?? '',
-    name_en: mode.name_en ?? '',
-    domain_zh: mode.domain ?? '',
-    domain_en: mode.domain_en ?? '',
-    description_zh: mode.description ?? '',
-    description_en: mode.description_en ?? '',
-    formula_zh: mode.formula ?? '',
-    formula_en: mode.formula_en ?? '',
+  const r = await fetch('/api/v1/modes')
+  if (!r.ok) throw new Error(`/api/v1/modes HTTP ${r.status}`)
+  const d = await r.json()
+  return (d.data || []).map((m: any) => ({
+    id: String(m.id ?? ''), name_zh: m.name ?? '', name_en: m.name_en ?? '',
+    domain_zh: m.domain ?? '', domain_en: m.domain_en ?? '',
+    description_zh: m.description ?? '', description_en: m.description_en ?? '',
+    formula_zh: m.formula ?? '', formula_en: m.formula_en ?? '',
   }))
 }
 
 const fetchModes = async () => {
-  loading.value = true
-  error.value = null
+  loading.value = true; error.value = null
   try {
     modes.value = DATA_MODE === 'static' ? await fetchStaticModes() : await fetchApiModes()
     visibleCount.value = 120
   } catch (err) {
     error.value = err instanceof Error ? err.message : 'Failed to fetch modes'
-  } finally {
-    loading.value = false
-  }
+  } finally { loading.value = false }
 }
 
-const modeDomainColors: Record<string, string> = {
-  '战略': 'bg-red-100 text-red-700',
-  '分析': 'bg-blue-100 text-blue-700',
-  '协作': 'bg-green-100 text-green-700',
-  '操作': 'bg-yellow-100 text-yellow-700',
-  '系统': 'bg-purple-100 text-purple-700',
-  '创新': 'bg-pink-100 text-pink-700',
-  '个人': 'bg-indigo-100 text-indigo-700',
-}
+const figureCount = computed(() => new Set(modes.value.map((m) => m.figure_code).filter(Boolean)).size)
 
-const domainColors: Record<string, string> = {
-  'Strategic': 'bg-red-100 text-red-700',
-  'Analytical': 'bg-blue-100 text-blue-700',
-  'Collaborative': 'bg-green-100 text-green-700',
-  'Operational': 'bg-yellow-100 text-yellow-700',
-  'Systems': 'bg-purple-100 text-purple-700',
-  'Creative': 'bg-pink-100 text-pink-700',
-  'Personal': 'bg-indigo-100 text-indigo-700',
-}
-
-const visibleModes = computed(() => modes.value.slice(0, visibleCount.value))
-const figureCount = computed(() => new Set(modes.value.map(m => m.figure_code).filter(Boolean)).size)
-const summary = computed(() => {
-  if (!modes.value.length) return ''
-  if (DATA_MODE === 'static') {
-    return t(
-      `${modes.value.length} 条思维模式实例，源自 ${figureCount.value} 位历史人物`,
-      `${modes.value.length} thinking-mode instances from ${figureCount.value} historical figures`
-    )
-  }
-  return t(`${modes.value.length} 种可执行的思维模式`, `${modes.value.length} executable thinking modes`)
+// 分类聚合
+const categories = computed(() => {
+  const c: Record<string, number> = {}
+  for (const m of modes.value) if (m.category) c[m.category] = (c[m.category] || 0) + 1
+  return Object.entries(c).sort((a, b) => b[1] - a[1])
 })
 
-onMounted(async () => {
-  await fetchModes()
+const filtered = computed(() => {
+  const q = query.value.trim().toLowerCase()
+  return modes.value.filter((m) => {
+    if (activeCategory.value && m.category !== activeCategory.value) return false
+    if (!q) return true
+    return [m.id, m.name_zh, m.name_en, m.domain_zh, m.figure_name, m.category]
+      .some((v) => String(v || '').toLowerCase().includes(q))
+  })
 })
+const visibleModes = computed(() => filtered.value.slice(0, visibleCount.value))
+
+onMounted(fetchModes)
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50">
-    <header class="bg-white border-b border-gray-200">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <h1 class="text-3xl font-bold text-gray-900">{{ t('思维模式库', 'Thinking Modes Library') }}</h1>
-        <p class="mt-1 text-gray-600">{{ summary }}</p>
+  <div class="pt-container pb-16 pt-10">
+    <!-- Hero -->
+    <section class="mb-8">
+      <div class="mb-3 flex items-center gap-3">
+        <span class="pt-hairline w-10"></span>
+        <span class="pt-code">{{ t('思维模式 · 可执行方法', 'THINKING MODES · EXECUTABLE METHODS') }}</span>
       </div>
-    </header>
+      <h1 class="pt-h1"><span class="pt-gradient-text">{{ t('思维模式库', 'Thinking Modes') }}</span></h1>
+      <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/55">
+        <template v-if="DATA_MODE === 'static'">
+          {{ t(
+            `${modes.length} 条思维模式实例，源自 ${figureCount} 位历史人物——每条都出自具体人物与具体文本。`,
+            `${modes.length} mode instances from ${figureCount} historical figures.`
+          ) }}
+        </template>
+        <template v-else>
+          {{ t(`${modes.length} 种可执行的思维模式`, `${modes.length} executable thinking modes`) }}
+        </template>
+      </p>
+    </section>
 
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <div v-if="loading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        <ModeCardSkeleton v-for="i in 10" :key="i" />
+    <!-- 检索 + 分类 -->
+    <section class="pt-panel mb-8 p-4">
+      <div class="relative mb-4">
+        <svg class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-parchment/35"
+             fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+        </svg>
+        <input v-model="query" type="text"
+               :placeholder="t('搜索模式名、人物、领域…', 'Search mode, figure, domain…')"
+               class="pt-input pl-11" />
       </div>
 
-      <div v-else-if="error" class="text-center py-16">
-        <p class="text-red-600">{{ error }}</p>
+      <div v-if="categories.length" class="flex flex-wrap gap-2">
+        <button @click="activeCategory = ''"
+                class="pt-chip" :class="!activeCategory ? 'border-gold-500/50 bg-gold-500/15 text-gold-200' : 'border-white/10 bg-white/[.04] text-parchment/60 hover:text-parchment'">
+          {{ t('全部', 'All') }} · {{ modes.length }}
+        </button>
+        <button v-for="[cat, n] in categories" :key="cat" @click="activeCategory = cat"
+                class="pt-chip"
+                :class="activeCategory === cat ? 'border-gold-500/50 bg-gold-500/15 text-gold-200' : 'border-white/10 bg-white/[.04] text-parchment/60 hover:text-parchment'">
+          {{ cat }} · {{ n }}
+        </button>
       </div>
+    </section>
 
-      <div v-else>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          <div v-for="mode in visibleModes" :key="mode.id + '-' + (mode.figure_code || '')" class="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition-shadow">
-            <div class="flex items-start justify-between mb-4">
-              <span class="text-xs font-mono font-semibold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded">
-                #{{ mode.id }}
-              </span>
-              <span :class="modeDomainColors[mode.domain_zh] || 'bg-gray-100 text-gray-700'" class="px-2 py-0.5 text-xs font-medium rounded-full">
-                {{ locale === 'zh' ? mode.domain_zh : mode.domain_en }}
-              </span>
-            </div>
+    <!-- 结果 -->
+    <div v-if="loading" class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div v-for="i in 8" :key="i" class="rounded-2xl border border-white/10 bg-white/[.03] p-5">
+        <div class="pt-skeleton mb-3 h-4 w-20"></div>
+        <div class="pt-skeleton mb-2 h-6 w-2/3"></div>
+        <div class="pt-skeleton h-3.5 w-full"></div>
+      </div>
+    </div>
 
-            <h3 class="text-lg font-semibold text-gray-900 mb-2">
-              {{ locale === 'zh' ? mode.name_zh : mode.name_en }}
-            </h3>
+    <div v-else-if="error" class="pt-panel px-6 py-12 text-center text-red-300/85">
+      {{ error }}
+    </div>
 
-            <p v-if="(locale === 'zh' ? mode.description_zh : mode.description_en)" class="text-sm text-gray-600 mb-4 line-clamp-3">
-              {{ locale === 'zh' ? mode.description_zh : mode.description_en }}
-            </p>
-            <p v-else-if="mode.figure_name" class="text-sm text-gray-600 mb-4">
-              {{ t('代表人物', 'Figure') }}：{{ mode.figure_name }}
-            </p>
-
-            <p v-if="(locale === 'zh' ? mode.formula_zh : mode.formula_en)" class="text-xs text-gray-500 mb-4">
-              <strong>{{ t('公式', 'Formula') }}:</strong> {{ locale === 'zh' ? mode.formula_zh : mode.formula_en }}
-            </p>
-            <p v-else-if="mode.category" class="text-xs text-gray-500 mb-4">
-              <strong>{{ t('分类', 'Category') }}:</strong> {{ mode.category }}
-            </p>
-
-            <div class="flex flex-wrap gap-1">
-              <span v-if="mode.figure_name" class="px-2 py-0.5 text-xs bg-gray-100 text-gray-700 rounded">
-                {{ mode.figure_name }}
-              </span>
-              <span v-if="mode.category" class="px-2 py-0.5 text-xs bg-gray-50 text-gray-500 rounded">
-                {{ mode.category }}
-              </span>
-            </div>
+    <template v-else>
+      <div class="pt-stagger grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <article v-for="m in visibleModes" :key="m.id + '-' + (m.figure_code || '')"
+                 class="group relative flex flex-col rounded-2xl border border-white/10 bg-white/[.03] p-5
+                        transition-all duration-500 ease-silk hover:-translate-y-1 hover:border-jade-400/40 hover:bg-white/[.055]">
+          <div class="mb-3 flex items-start justify-between gap-2">
+            <span class="pt-code">{{ m.id }}</span>
+            <span v-if="m.domain_zh" class="pt-chip-jade shrink-0">
+              {{ locale === 'zh' ? m.domain_zh : (m.domain_en || m.domain_zh) }}
+            </span>
           </div>
-        </div>
-
-        <div v-if="visibleCount < modes.length" class="text-center mt-8">
-          <button
-            @click="visibleCount += 240"
-            class="px-6 py-3 text-sm font-medium text-indigo-700 bg-white border border-indigo-200 rounded-lg hover:bg-indigo-50 transition-colors"
-          >
-            {{ t(`显示更多（剩余 ${modes.length - visibleCount} 条）`, `Show more (${modes.length - visibleCount} left)`) }}
-          </button>
-        </div>
+          <h3 class="font-display text-base font-bold leading-snug text-parchment transition-colors group-hover:text-gold-200">
+            {{ locale === 'zh' ? m.name_zh : (m.name_en || m.name_zh) }}
+          </h3>
+          <p v-if="(locale === 'zh' ? m.description_zh : m.description_en)"
+             class="mt-2 text-sm leading-relaxed text-parchment/50 line-clamp-3">
+            {{ locale === 'zh' ? m.description_zh : m.description_en }}
+          </p>
+          <p v-else-if="m.figure_name" class="mt-2 text-sm text-parchment/50">
+            {{ t('代表人物', 'Figure') }} · <span class="text-gold-300/85">{{ m.figure_name }}</span>
+          </p>
+          <div class="mt-auto flex flex-wrap items-center gap-1.5 pt-4">
+            <span v-if="m.figure_name" class="pt-chip-mute">{{ m.figure_name }}</span>
+            <span v-if="m.category" class="pt-chip-mute">{{ m.category }}</span>
+          </div>
+        </article>
       </div>
-    </main>
+
+      <div v-if="visibleCount < filtered.length" class="mt-10 text-center">
+        <button @click="visibleCount += 240" class="pt-btn-ghost">
+          {{ t(`显示更多（剩余 ${filtered.length - visibleCount} 条）`, `Show more (${filtered.length - visibleCount} left)`) }}
+        </button>
+      </div>
+      <div v-else-if="!filtered.length" class="pt-panel px-6 py-16 text-center text-parchment/50">
+        {{ t('没有匹配的模式', 'No matching modes') }}
+      </div>
+    </template>
   </div>
 </template>
-
-<style scoped>
-.line-clamp-3 {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-</style>

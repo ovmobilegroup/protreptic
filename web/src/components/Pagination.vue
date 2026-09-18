@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-
 import { useI18n } from '../composables/useI18n'
 
 const props = defineProps<{
@@ -8,77 +7,74 @@ const props = defineProps<{
   totalPages: number
 }>()
 
-
 const { t } = useI18n()
-
 const emit = defineEmits<{ (e: 'page-change', page: number): void }>()
 
 const pages = computed(() => {
-  const pages: (number | '...')[] = []
+  const out: (number | '...')[] = []
   const total = props.totalPages
   const current = props.currentPage
-
   if (total <= 7) {
-    for (let i = 1; i <= total; i++) pages.push(i)
+    for (let i = 1; i <= total; i++) out.push(i)
   } else {
-    pages.push(1)
-    if (current > 3) pages.push('...')
+    out.push(1)
+    if (current > 3) out.push('...')
     const start = Math.max(2, current - 1)
     const end = Math.min(total - 1, current + 1)
-    for (let i = start; i <= end; i++) pages.push(i)
-    if (current < total - 2) pages.push('...')
-    pages.push(total)
+    for (let i = start; i <= end; i++) out.push(i)
+    if (current < total - 2) out.push('...')
+    out.push(total)
   }
-  return pages
+  return out
 })
 
 const goToPage = (page: number | '...') => {
   if (page === '...') return
-  // 由父组件（FiguresView）接管翻页：更新 currentPage 并重新取数，URL 由父组件的 watch 同步
   emit('page-change', page)
 }
 </script>
 
 <template>
-  <nav class="flex items-center justify-center gap-2 py-6" aria-label="Pagination">
+  <nav class="flex items-center justify-center gap-1.5" aria-label="分页">
     <button
       @click="goToPage(props.currentPage - 1)"
       :disabled="props.currentPage === 1"
-      class="px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+      class="grid h-10 w-10 place-items-center rounded-xl border border-white/10 bg-white/[.03]
+             text-parchment/70 transition-all duration-300 ease-silk
+             hover:border-gold-500/40 hover:text-gold-300
+             disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-white/10 disabled:hover:text-parchment/70"
       :aria-label="t('上一页', 'Previous page')"
     >
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
       </svg>
     </button>
 
-    <div class="flex items-center gap-1">
-      <template v-for="page in pages" :key="page">
-        <button
-          v-if="page !== '...'"
-          @click="goToPage(page)"
-          :class="[
-            'w-10 h-10 text-sm font-medium rounded-lg transition-colors',
-            page === props.currentPage
-              ? 'bg-indigo-600 text-white'
-              : 'text-gray-700 bg-white border border-gray-300 hover:bg-gray-50'
-          ]"
-          :aria-label="`${t('第', 'Page')} ${page} ${t('页', '')}`"
-          :aria-current="page === props.currentPage ? 'page' : undefined"
-        >
-          {{ page }}
-        </button>
-        <span v-else class="px-2 text-gray-400">...</span>
-      </template>
-    </div>
+    <template v-for="page in pages" :key="page">
+      <button
+        v-if="page !== '...'"
+        @click="goToPage(page)"
+        class="grid h-10 min-w-10 place-items-center rounded-xl px-3 text-sm font-medium transition-all duration-300 ease-silk"
+        :class="page === props.currentPage
+          ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-ink-950 shadow-glow'
+          : 'border border-white/10 bg-white/[.03] text-parchment/70 hover:border-gold-500/40 hover:text-gold-300'"
+        :aria-current="page === props.currentPage ? 'page' : undefined"
+      >
+        {{ page }}
+      </button>
+      <span v-else class="px-1 text-parchment/30">…</span>
+    </template>
 
     <button
       @click="goToPage(props.currentPage + 1)"
       :disabled="props.currentPage === props.totalPages"
-      class="px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+      class="grid h-10 w-10 place-items-center rounded-xl border border-white/10 bg-white/[.03]
+             text-parchment/70 transition-all duration-300 ease-silk
+             hover:border-gold-500/40 hover:text-gold-300
+             disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-white/10 disabled:hover:text-parchment/70"
       :aria-label="t('下一页', 'Next page')"
     >
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
       </svg>
     </button>
