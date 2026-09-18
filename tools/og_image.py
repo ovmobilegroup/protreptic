@@ -140,7 +140,7 @@ def og_rel_path(route_path: str) -> str:
         return "%s/site.png" % OG_DIR
     head, _, tail = path.partition("/")
     if not tail:
-        if head in ("figures", "modes", "templates", "api"):
+        if head in ("daily", "figures", "modes", "templates", "api"):
             return "%s/pages/%s.png" % (OG_DIR, head)
         return "%s/site.png" % OG_DIR
     if "/" in tail:
@@ -225,6 +225,13 @@ def build_specs(index: dict, meta, templates_dir) -> list:
          "%d 位历史人物" % counts["persons"],
          "%d 个现代场景" % counts["scenarios"]],
         "思", "", "%s — %d 条思维模式 × %d 位历史人物" % (SITE_NAME, counts["modes"], counts["persons"]),
+    )
+    add(
+        "daily", "page", "每日一模式 · 日期取模",
+        "每日一模式", "一天一条思维模式，同一天重复打开结果一致",
+        "按「这一天是第几天 mod 模式总数」选出：谁都不掷骰子，因此可复现、可回看任意历史日期。",
+        ["日期取模 · 同一天恒定", "可回看任意历史日期"],
+        "日", "", "每日一模式 — 按日期取模选一条思维模式，同一天重复打开结果一致",
     )
     add(
         "figures", "page", "统一名录 · 人物与场景",

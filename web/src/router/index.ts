@@ -10,11 +10,23 @@ import NotFoundView from '../views/NotFoundView.vue'
 import GraphView from '../views/GraphView'
 import ConceptsView from '../views/ConceptsView.vue'
 import CompareView from '../views/CompareView.vue'
+import DailyView from '../views/DailyView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
     redirect: '/figures',
+  },
+  {
+    // Phase30-B4: 每日一模式归档。选取是「日期对模式总数取模」，历史日期不需要另存记录，随时可算。
+    path: '/daily',
+    name: 'daily',
+    component: DailyView,
+    meta: {
+      title: '每日一模式 - 今日与历史归档',
+      description: '每天按「日期对模式总数取模」选出一条思维模式：同一天重复打开结果一致，可回看任意历史日期。',
+      seoKind: 'static',
+    },
   },
   {
     path: '/figures',

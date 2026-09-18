@@ -110,9 +110,44 @@ def check_data(c: Checker) -> None:
         f"figure shards={len(figure_shards)} by-figure shards={len(by_figure)}"
     )
 
+    check_daily(c)
+
+
+def check_daily(c: Checker) -> None:
+    """Phase30-B4：每日一模式索引（定位 + 名称表，两份必须同长且下标对齐）。
+
+    条数断言用「模式总数 - 隔离名单条数」而不是写死数字：隔离名单来自产物自身的
+    excluded_figures（构建脚本从 build_unified_index.QUARANTINE 导入），改名单时不必改这里，
+    但索引整体缺失 / 构建顺序错（没在 export 之后跑）会立刻被拦住。
+    """
+    index_path = DATA_DIR / "daily" / "index.json"
+    names_path = DATA_DIR / "daily" / "names.json"
+    if not index_path.exists() or not names_path.exists():
+        c.fail("缺 data/daily/index.json 或 names.json：先跑 python3 tools/build_daily_index.py")
+        return
+    payload = c.read_json(index_path)
+    names = c.read_json(names_path)
+    if payload is None or names is None:
+        return
+    entries = payload.get("entries") or []
+    rows = names.get("names") or []
+    excluded = payload.get("excluded_figures") or []
+    excluded_modes = sum(int(f.get("n_modes") or 0) for f in excluded)
+    c.expect(payload.get("total"), len(entries), "daily/index.json total 与 entries 条数")
+    c.expect(len(entries), EXPECT_MODES - excluded_modes, "daily/index.json 条数（模式总数 - 隔离名单）")
+    c.expect(len(rows), len(entries), "daily/names.json 与 entries 下标对齐")
+    bad = [e for e in entries if not (isinstance(e, list) and len(e) == 2 and e[0] and e[1])]
+    if bad:
+        c.fail(f"daily/index.json 有 {len(bad)} 条 entries 不是 [mode_code, figure_code]")
+    c.note(
+        f"daily: {len(entries)} 条（已排除隔离名单 {excluded_modes} 条）names={len(rows)} "
+        f"tz={payload.get('tz')}"
+    )
+
 
 def check_dist(c: Checker) -> None:
-    for rel in ("index.html", "404.html", "favicon.svg", "data/meta.json", "assets"):
+    for rel in ("index.html", "404.html", "favicon.svg", "data/meta.json", "data/daily/index.json",
+                "data/daily/names.json", "assets"):
         if not (DIST_DIR / rel).exists():
             c.fail(f"web/dist/{rel} 缺失")
 

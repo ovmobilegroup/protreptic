@@ -11,6 +11,7 @@ const { t } = useI18n()
 const { theme, toggleTheme } = useTheme()
 
 const links = computed(() => [
+  { to: '/daily', zh: '每日一模式', en: 'Daily' },
   { to: '/figures', zh: '历史人物库', en: 'Figures' },
   { to: '/modes', zh: '思维模式库', en: 'Modes' },
   { to: '/concepts', zh: '概念索引', en: 'Concepts' },
@@ -51,7 +52,9 @@ const isActive = (to: string) => route.path.startsWith(to)
             </span>
           </RouterLink>
 
-          <div class="hidden items-center gap-1 md:flex">
+          <!-- 断点从 md 提到 lg: 加上「每日一模式」后 8 个链接在 768px 会撑出 26px 横向滚动
+               (实测)。lg 以下改用下面那排可横向滚动的入口, 所有链接在任何宽度都可达。 -->
+          <div class="hidden items-center gap-1 lg:flex">
             <RouterLink
               v-for="l in links" :key="l.to" :to="l.to"
               class="relative rounded-lg px-3.5 py-2 text-sm font-medium transition-colors duration-300"
@@ -85,8 +88,8 @@ const isActive = (to: string) => route.path.startsWith(to)
           </div>
         </div>
 
-        <!-- 移动端导航 -->
-        <div class="flex gap-1 overflow-x-auto pb-2 md:hidden">
+        <!-- 窄屏导航 (lg 以下) -->
+        <div class="flex gap-1 overflow-x-auto pb-2 lg:hidden">
           <RouterLink
             v-for="l in links" :key="l.to" :to="l.to"
             class="whitespace-nowrap rounded-lg px-3 py-1.5 text-xs font-medium transition-colors"

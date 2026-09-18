@@ -2,10 +2,10 @@
  "schema": "protreptic.prerendered_routes/v1",
  "generated_by": "tools/prerender_routes.py",
  "base": "/protreptic/",
- "count": 1352,
- "total_html_bytes": 8536671,
+ "count": 1353,
+ "total_html_bytes": 8541471,
  "counts_by_type": {
-  "static": 7,
+  "static": 8,
   "person": 283,
   "scenario": 1055,
   "template": 7
@@ -94,6 +94,15 @@
    "body": false,
    "body_text_chars": 0,
    "canonical": "https://ovmobilegroup.github.io/protreptic/concepts/"
+  },
+  {
+   "path": "daily",
+   "title": "每日一模式 - 今日与历史归档",
+   "description": "每天按「日期对模式总数取模」选出一条思维模式: 同一天重复打开结果一致, 可回看任意历史日期.",
+   "type": "static",
+   "body": false,
+   "body_text_chars": 0,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/daily/"
   },
   {
    "path": "figures",

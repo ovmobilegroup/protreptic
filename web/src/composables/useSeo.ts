@@ -29,14 +29,14 @@ const JSONLD_ID = 'pt-jsonld-dynamic'
  * 这是镜像实现, 两边必须同时改; 后端那侧由 tools/build_og_images.py 画图,
  * 构建期由 tools/apply_og_meta.py 写进每个预渲染页面的 head.
  *   ''            -> og/site.png
- *   figures       -> og/pages/figures.png        (modes/templates/api 同理)
+ *   daily         -> og/pages/daily.png          (figures/modes/templates/api 同理)
  *   minds/<code>  -> og/minds/<code>.png
  *   figures/<code>-> og/figures/<code>.png
  *   templates/<id>-> og/templates/<id>.png
  * 图片文件名用代码原值 (含空格的 code 在 URL 里由 encodeURIComponent 编码).
  * ------------------------------------------------------------------ */
 const OG_DIR = 'og'
-const OG_PAGE_SLUGS = ['figures', 'modes', 'templates', 'api']
+const OG_PAGE_SLUGS = ['daily', 'figures', 'modes', 'templates', 'api']
 
 export function ogImagePath(path = ''): string {
   const clean = String(path || '').replace(/^\/+|\/+$/g, '')

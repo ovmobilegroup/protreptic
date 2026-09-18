@@ -46,6 +46,9 @@ SOFT_PRECACHE = [
     "data/figures.index.json",
     "data/index.unified.json",
     "data/meta.json",
+    # Phase30-B4: 首页「今日一模式」的定位索引 (12 KB gzip). 预缓存它, 装好 SW 后
+    # 首屏那个模块离线也能出内容; 名称表 (175 KB) 不预缓存, 由 /daily 首次访问时按需进 DATA_CACHE.
+    "data/daily/index.json",
 ]
 PLACEHOLDERS = ("__BUILD_ID__", "__DATA_REV__", "__BASE__", "__SHELL_ENTRY__",
                 "__PRECACHE_CRITICAL__", "__PRECACHE_SHELL_SOFT__", "__PRECACHE_DATA__",

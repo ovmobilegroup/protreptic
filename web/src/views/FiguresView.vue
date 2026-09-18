@@ -24,6 +24,19 @@
       </div>
     </section>
 
+    <!-- Phase30-B4: 今日一模式（确定性选取，见 api/dailyMode.ts）-->
+    <section class="mb-8">
+      <div v-if="dailyState === 'loading'" class="pt-panel p-6">
+        <div class="pt-skeleton mb-3 h-6 w-1/2"></div>
+        <div class="pt-skeleton h-20 w-full"></div>
+      </div>
+      <DailyModeCard v-else-if="dailyPick" :pick="dailyPick" />
+      <p v-else class="text-xs leading-relaxed text-parchment/40">
+        {{ t('今日一模式数据未就绪（data/daily/index.json 未加载）：本模块不猜、不随机，宁可空着。',
+             'Daily-mode data unavailable (data/daily/index.json not loaded) — no guessing, no random fallback.') }}
+      </p>
+    </section>
+
     <!-- 检索区 -->
     <section class="pt-panel relative mb-8 p-4 sm:p-5">
       <div class="flex flex-col gap-4 lg:flex-row lg:items-center">
@@ -124,11 +137,18 @@ import EntryCard from '../components/EntryCard.vue'
 import FilterPanel from '../components/FilterPanel.vue'
 import Pagination from '../components/Pagination.vue'
 import FigureCardSkeleton from '../components/FigureCardSkeleton.vue'
+import DailyModeCard from '../components/DailyModeCard.vue'
+import { pickToday, type DailyPick } from '../api/dailyMode'
 
 const route = useRoute()
 const router = useRouter()
 const store = useFiguresStore()
 const { t, locale } = useI18n()
+
+// ---- 今日一模式（Phase30-B4）----
+// 定位索引只有 12 KB gzip，首屏拉它没问题；详情由 DailyModeCard 再拉一次人物分片。
+const dailyState = ref<'loading' | 'ready' | 'empty'>('loading')
+const dailyPick = ref<DailyPick | null>(null)
 
 const items = ref<UnifiedEntry[]>([])
 const counts = ref({ total: 0, figures: 0, scenarios: 0, with_modes: 0 })
@@ -364,6 +384,15 @@ const tagLabels: Record<string, Record<string, string>> = {
   ethnicity: { Han: '汉族', Minority: '少数民族' },
 }
 
-onMounted(load)
+const loadDaily = async () => {
+  const pick = await pickToday()
+  dailyPick.value = pick
+  dailyState.value = pick ? 'ready' : 'empty'
+}
+
+onMounted(() => {
+  load()
+  loadDaily()
+})
 watch(locale, load)
 </script>

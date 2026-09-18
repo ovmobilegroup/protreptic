@@ -34,7 +34,7 @@ DRIVER = Path(tempfile.gettempdir()) / "pt_og_mirror_driver.mjs"
 
 # 覆盖契约里的每一条分支 + 边界: 空 / 列表页 / 人物 / 场景 / 模板 / 空格编码 / 未知
 PATHS = [
-    "", "/", "figures", "modes", "templates", "api",
+    "", "/", "daily", "figures", "modes", "templates", "api",
     "minds/H-WYM-001", "figures/A-1-X-P", "templates/chibi",
     "figures/Sun Quan", "figures/未知场景-01", "nope",
 ]

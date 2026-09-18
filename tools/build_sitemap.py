@@ -56,7 +56,7 @@ PUBLIC_OUT = REPO / "web" / "public" / "sitemap.xml"
 DIST_DIR = REPO / "web" / "dist"
 
 # 首页与四个入口页 (路由清单缺失时的兜底; 清单存在时以其为准)
-FALLBACK_STATIC = ["", "figures", "modes", "concepts", "graph", "compare", "templates", "api"]
+FALLBACK_STATIC = ["", "daily", "figures", "modes", "concepts", "graph", "compare", "templates", "api"]
 
 PRIORITY = {
     "root": "1.0",

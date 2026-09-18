@@ -92,6 +92,14 @@ jobs:
       - name: 构建静态数据分片
         run: python3 tools/export_static_site.py
 
+      # Step B4: 每日一模式索引 Phase30-B4.
+      # 必须紧跟 export (读它产出的 modes/by-figure 分片; 分片顺序就是「每日一模式」的选取顺序),
+      # 且必须在下面的 --stage data 断言之前 —— 那道断言会检查 daily/index.json 与 names.json.
+      # 产出 daily/index.json (定位, ~12 KB gzip) + daily/names.json (名称表, 只有 /daily 拉).
+      # 隔离名单 (H-SX-001) 从 build_unified_index.QUARANTINE 导入, 不复制副本.
+      - name: 构建每日一模式索引
+        run: python3 tools/build_daily_index.py
+
       - name: 断言静态数据基线（meta.json 条数）
         run: python3 tools/pages_preflight.py --stage data
 

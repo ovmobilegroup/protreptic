@@ -63,6 +63,10 @@ jobs:
       - name: 构建静态数据分片
         run: python3 tools/export_static_site.py
 
+      # Step B4: 每日一模式索引 (与 pages.yml 同一脚本, 顺序同样要跟在 export 之后)
+      - name: 构建每日一模式索引
+        run: python3 tools/build_daily_index.py
+
       - name: 构建统一索引
         run: python3 tools/build_unified_index.py
 
