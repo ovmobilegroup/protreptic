@@ -70,6 +70,23 @@ export interface CompareResolveResult {
   missing: string[]
 }
 
+const CJK_RE = /[\u3400-\u9fff\uf900-\ufaff]/
+
+/**
+ * name_zh / name_en 在历史数据里可能是三元组 [中文, English, 分类]（574/2858 条，
+ * 见 api/modeIndex.ts 的同名说明）。text() 会把数组用空格连成
+ * "剪纸即兴法 Papercut-Improvisation Method 创作发生方法论/…" 直接印在对比表上，
+ * 所以名称类字段走这里：中文取首个含汉字项，英文取首个不含汉字项。
+ */
+const firstName = (v: unknown, wantCjk: boolean): string => {
+  const items = Array.isArray(v) ? v : [v]
+  for (const item of items) {
+    const s = String(item ?? '').trim()
+    if (s && CJK_RE.test(s) === wantCjk) return s
+  }
+  return ''
+}
+
 const text = (v: unknown): string => {
   if (Array.isArray(v)) return v.map((x) => text(x)).filter(Boolean).join(' ')
   if (v === null || v === undefined) return ''
@@ -165,8 +182,8 @@ const getShard = (figureCode: string): Promise<Shard> => {
 
 const toCompareMode = (m: Record<string, unknown>): CompareMode => ({
   code: text(m.mode_code),
-  name: text(m.name_zh) || text(m.name_en) || text(m.mode_code),
-  nameEn: text(m.name_en),
+  name: firstOf(m.name_zh) || firstOf(m.name_en) || text(m.mode_code),
+  nameEn: firstName(m.name_en, false) || text(m.name_en),
   category: text(m.category),
   domain: text(m.domain_zh) || text(m.domain_en) || '未标注领域',
   domainEn: text(m.domain_en),
@@ -178,6 +195,9 @@ const toCompareMode = (m: Record<string, unknown>): CompareMode => ({
   quote: text(m.key_quote_zh) || text(m.key_quote_en),
   concepts: list(m.key_concepts),
 })
+
+/** 中文名（首个含汉字项，缺汉字时回落首个非空项） */
+const firstOf = (v: unknown): string => firstName(v, true) || firstName(v, false)
 
 const countDomains = (modes: CompareMode[]): Array<{ domain: string; count: number }> => {
   const map = new Map<string, number>()

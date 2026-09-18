@@ -79,6 +79,39 @@ FIGURE_JSON_COLS = ("modes", "domains", "historical_domains")
 SAFE_NAME = re.compile(r"[A-Za-z0-9._-]+")
 
 
+# name_zh / name_en 在源 data/modes_data.json 里有 574/2858 条是历史三元组
+# [中文, English, 分类]（thinking_modes 表里是标量）。原样导出会让消费方
+# String(数组) 渲染成 "剪纸即兴法,Papercut-Improvisation Method,创作发生方法论/…"
+# 串进 /modes 卡片、/graph 节点与下拉、/compare 对照表——导出层统一折成标量，
+# 前端加载器另有同口径兜底（api/modeIndex.ts / api/compareData.ts）。
+CJK_RE = re.compile(r"[\u3400-\u9fff\uf900-\ufaff]")
+
+
+def pick_name(value, want_cjk: bool) -> str:
+    """标量直接返回；三元组取首个满足「是否含汉字」要求的元素，找不到返回空串。"""
+    if value is None:
+        return ""
+    items = value if isinstance(value, list) else [value]
+    for item in items:
+        s = str(item).strip() if item is not None else ""
+        if s and (bool(CJK_RE.search(s)) == want_cjk):
+            return s
+    return ""
+
+
+def normalize_name_fields(modes: list) -> int:
+    """折平名称字段，返回被改写的模式条数（用于日志与回归断言）。"""
+    changed = 0
+    for m in modes:
+        zh, en = m.get("name_zh"), m.get("name_en")
+        if not isinstance(zh, list) and not isinstance(en, list):
+            continue
+        m["name_zh"] = pick_name(zh, True) or pick_name(zh, False)
+        m["name_en"] = pick_name(en, False) or pick_name(zh, False)
+        changed += 1
+    return changed
+
+
 def log(*a):
     print(*a, flush=True)
 
@@ -233,6 +266,8 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     log("== 读取源数据 ==")
     raw_doc, modes, mode_stats = load_modes(MODES_JSON)
     raw_modes_total = mode_stats["raw"]
+    name_fixed = normalize_name_fields(modes)
+    log(f"  名称字段折平          {name_fixed} 条（name_zh/name_en 历史三元组 -> 标量）")
     figures = load_figures(DB_PATH)
 
     # ---------- 1. figures 索引 + 详情分片 ----------

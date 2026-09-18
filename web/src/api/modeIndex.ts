@@ -24,6 +24,38 @@ export interface ModeIndexEntry {
   domainEn: string
 }
 
+const CJK = /[\u3400-\u9fff\uf900-\ufaff]/
+
+/**
+ * 汇总索引里的名称字段并不总是字符串：源 data/modes_data.json 有 574/2858 条把
+ * name_zh / name_en 写成历史三元组 [中文, English, 分类]（与 thinking_modes 表的
+ * 标量列不一致）。裸 String(数组) 会渲染成 "剪纸即兴法,Papercut-Improvisation Method,创作发生方法论/…"
+ * 串进 /modes 卡片、/graph 节点与下拉、/compare 名称——所以这里取第一个合适元素：
+ * 中文名取首个含汉字项，英文名取首个不含汉字项（缺失时回落中文本名）。
+ * 同一份数据还会被其它加载器读到；本层归一保证调用方永远拿到标量。
+ */
+const pickZh = (v: unknown): string => {
+  const items = Array.isArray(v) ? v : [v]
+  for (const item of items) {
+    const s = String(item ?? '').trim()
+    if (s && CJK.test(s)) return s
+  }
+  for (const item of items) {
+    const s = String(item ?? '').trim()
+    if (s) return s
+  }
+  return ''
+}
+
+const pickEn = (v: unknown): string => {
+  const items = Array.isArray(v) ? v : [v]
+  for (const item of items) {
+    const s = String(item ?? '').trim()
+    if (s && !CJK.test(s)) return s
+  }
+  return ''
+}
+
 const DATA_ROOT = `${import.meta.env.BASE_URL || '/'}data/`
 
 let modeIndexPromise: Promise<ModeIndexEntry[]> | null = null
@@ -45,8 +77,8 @@ const load = async (): Promise<ModeIndexEntry[]> => {
     modeCode: String(m.mode_code ?? ''),
     figureCode: String(m.figure_code ?? ''),
     figureName: String(m.figure_name ?? ''),
-    nameZh: String(m.name_zh ?? ''),
-    nameEn: String(m.name_en ?? ''),
+    nameZh: pickZh(m.name_zh) || pickZh(m.name_en),
+    nameEn: pickEn(m.name_en) || pickEn(m.name_zh),
     category: String(m.category ?? ''),
     domainZh: String(m.domain_zh ?? ''),
     domainEn: String(m.domain_en ?? ''),
