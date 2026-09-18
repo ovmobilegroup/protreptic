@@ -23,6 +23,53 @@ export const SEO_DEFAULT_DESCRIPTION =
 /** 本模块注入的动态 JSON-LD 节点的 id，用来和预渲染写死的那个区分开 */
 const JSONLD_ID = 'pt-jsonld-dynamic'
 
+/* ------------------------------------------------------------------ *
+ * Phase30-A3 社交分享图 (og:image)
+ * 路由 -> 图片路径的规则与 tools/og_image.py 的 og_rel_path() 同构:
+ * 这是镜像实现, 两边必须同时改; 后端那侧由 tools/build_og_images.py 画图,
+ * 构建期由 tools/apply_og_meta.py 写进每个预渲染页面的 head.
+ *   ''            -> og/site.png
+ *   figures       -> og/pages/figures.png        (modes/templates/api 同理)
+ *   minds/<code>  -> og/minds/<code>.png
+ *   figures/<code>-> og/figures/<code>.png
+ *   templates/<id>-> og/templates/<id>.png
+ * 图片文件名用代码原值 (含空格的 code 在 URL 里由 encodeURIComponent 编码).
+ * ------------------------------------------------------------------ */
+const OG_DIR = 'og'
+const OG_PAGE_SLUGS = ['figures', 'modes', 'templates', 'api']
+
+export function ogImagePath(path = ''): string {
+  const clean = String(path || '').replace(/^\/+|\/+$/g, '')
+  if (!clean) return `${OG_DIR}/site.png`
+  const [head, ...rest] = clean.split('/')
+  const tail = rest.join('/')
+  if (!tail) return OG_PAGE_SLUGS.includes(head) ? `${OG_DIR}/pages/${head}.png` : `${OG_DIR}/site.png`
+  if (tail.includes('/')) return `${OG_DIR}/site.png`
+  if (head === 'minds') return `${OG_DIR}/minds/${tail}.png`
+  if (head === 'figures') return `${OG_DIR}/figures/${tail}.png`
+  if (head === 'templates') return `${OG_DIR}/templates/${tail}.png`
+  return `${OG_DIR}/site.png`
+}
+
+/** 分享图绝对 URL: base 已规范化成 '/protreptic/', 每个路径段单独编码 */
+export function ogImageUrl(path = ''): string {
+  const base = import.meta.env.BASE_URL || '/'
+  const encoded = ogImagePath(path).split('/').map((seg) => encodeURIComponent(seg)).join('/')
+  return `${SEO_ORIGIN}${base}${encoded}`
+}
+
+export function ogImageAlt(title = ''): string {
+  return title ? `${title} — ${SEO_SITE_NAME}` : `${SEO_SITE_NAME} — 历史人物思维模式库`
+}
+
+/** og:type: 人物档案用 profile, 模板用 article, 其余 website (与 tools/apply_og_meta.py 一致) */
+export function ogTypeForPath(path = ''): string {
+  const clean = String(path || '').replace(/^\/+|\/+$/g, '')
+  if (clean.startsWith('minds/')) return 'profile'
+  if (clean.startsWith('templates/')) return 'article'
+  return 'website'
+}
+
 export type SeoKind = 'person' | 'scenario' | 'template' | 'static'
 export type JsonLd = Record<string, unknown>
 
@@ -160,6 +207,16 @@ export function setSeo(input: SeoInput = {}): void {
   upsertMeta('property', 'og:title', title || SEO_SITE_NAME)
   upsertMeta('property', 'og:description', description)
   upsertMeta('property', 'og:url', url)
+  const ogPath = input.path ?? currentPath()
+  const ogImage = ogImageUrl(ogPath)
+  upsertMeta('property', 'og:type', ogTypeForPath(ogPath))
+  upsertMeta('property', 'og:image', ogImage)
+  upsertMeta('property', 'og:image:width', '1200')
+  upsertMeta('property', 'og:image:height', '630')
+  upsertMeta('property', 'og:image:alt', ogImageAlt(title))
+  upsertMeta('name', 'twitter:card', 'summary_large_image')
+  upsertMeta('name', 'twitter:image', ogImage)
+  upsertMeta('name', 'twitter:image:alt', ogImageAlt(title))
   upsertCanonical(url)
   syncStructuredData(url, input.jsonLd ?? null)
 }

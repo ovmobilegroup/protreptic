@@ -31,3 +31,7 @@ logs/
 web/dist/
 web/public/data/
 tools/gc/gc
+
+# Phase30-A3 分享图: 字体源文件缓存 (重新子集化时才下载) 与本地 venv
+tools/assets/fonts/.cache/
+.ogvenv/

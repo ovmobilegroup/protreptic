@@ -3,6 +3,7 @@
 # 发布出来的站点结构（Settings → Pages → Source = "GitHub Actions"）：
 #   /          → Vue SPA（web/dist 落在产物根，base=/protreptic/）
 #   /data/**   → tools/export_static_site.py 产出的静态 JSON 分片
+#   /og/**     → tools/build_og_images.py 产出的社交分享图（Phase30-A3）
 #   /docs/**   → 文档站（mkdocs 构建，配置见 mkdocs.pages.yml）
 #
 # ！！人工一步（CI 做不了）：把 Pages Source 从 "Deploy from a branch: main /docs (Jekyll)"
@@ -18,6 +19,13 @@
 #   cd web && npm run build && python3 ../tools/pages_preflight.py --stage dist
 #   mkdocs build -f mkdocs.pages.yml
 #   python3 tools/pages_preflight.py --stage merged
+#
+# 数据步骤顺序（本 job 自给自足，跨 workflow 不共享工作区）：
+#   build_figures_db -> export_static_site -> build_search_index -> build_graph_data
+#   -> build_unified_index -> npm run build -> build_og_images -> prerender_routes
+#   -> apply_og_meta -> build_sitemap
+#   其中 index.unified.json 是 prerender_routes 与 build_og_images 的共同输入，
+#   缺了它们会直接非 0 退出（不是静默降级）。
 
 name: Deploy to GitHub Pages
 
@@ -35,6 +43,12 @@ on:
       - 'tools/prerender_body.py'
       - 'tools/build_unified_index.py'
       - 'tools/build_search_index.py'
+      - 'tools/build_graph_data.py'
+      - 'tools/build_og_images.py'
+      - 'tools/apply_og_meta.py'
+      - 'tools/og_image.py'
+      - 'tools/subset_og_font.py'
+      - 'tools/assets/fonts/**'
       - 'data/modes_data.json'
       - 'api/protreptic.db'
   workflow_dispatch:
@@ -68,6 +82,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      # Step 0：从已提交 JSON 重建语料库（api/protreptic.db 不入库，CI 现场生成）
+      - name: 重建 figures 数据库
+        run: python3 tools/build_figures_db.py
 
       # Step A：静态数据（Vite 把 web/public/data 原样复制成 dist/data）
       - name: 构建静态数据分片
@@ -84,15 +101,37 @@ jobs:
       - name: 构建全文检索索引分片
         run: python3 tools/build_search_index.py
 
+      # Step A4: 关系图谱数据 Phase30-B1.
+      # 必须在 export 之后 (graph 目录在 web/public/data/ 下), 与 search 步骤相邻.
+      # 产出 mode_edges / concept_graph / similar_modes 三组图谱, 总 gzip <= 1.5 MB.
+      - name: 构建关系图谱数据
+        run: python3 tools/build_graph_data.py
+      # Step A2：统一索引（人物 + 场景合并为一份可浏览名录）
+      # prerender_routes.py 与 build_og_images.py 都读它, 缺了会直接失败.
+      - name: 构建统一索引
+        run: python3 tools/build_unified_index.py
+
       # Step B：SPA（base 默认 /protreptic/，不要覆盖 VITE_BASE）
       - name: 构建 SPA
         working-directory: web
+        env:
+          # GitHub Pages 无后端：强制走静态数据适配层
+          VITE_DATA_MODE: static
         run: |
           npm ci
           npm run build
 
       - name: 断言 dist 产物
         run: python3 tools/pages_preflight.py --stage dist
+      # Step B1.5: 社交分享图 og:image Phase30-A3.
+      # 必须在 npm run build 之后 (读 dist/data/index.unified.json + dist/templates),
+      # 在 prerender_routes 之前 (head 由 apply_og_meta 统一收口).
+      # 自检: 字形覆盖 (缺字 = 豆腐块) + 逐张 PNG 魔数/尺寸/体积 + 数量与名录对齐.
+      - name: 安装分享图依赖
+        run: python3 -m pip install --disable-pip-version-check "pillow==11.*" "fonttools==4.*"
+
+      - name: 生成社交分享图 og:image
+        run: python3 tools/build_og_images.py
 
       # Step B2: 路由预渲染 Phase30-A0.
       # GitHub Pages 是纯静态托管, /protreptic/figures 这类深链没有对应文件, 只能回落到
@@ -105,6 +144,11 @@ jobs:
       # 无 JS 的 UA 因此也能读到标题与正文. 有 JS 时 main.ts 在挂载前清空 #app, 不会重复.
       - name: 路由预渲染 深链 200
         run: python3 tools/prerender_routes.py
+      # Step B2.5: 把分享图写进每个预渲染页面的 head Phase30-A3.
+      # 必须在 prerender_routes 之后: 它重写的是路由页自己的 <route>/index.html.
+      # 自检: 图片必须是 dist 里的 1200x630 PNG, 且每页 og:image 恰好一份.
+      - name: 写入 og:image / twitter:image
+        run: python3 tools/apply_og_meta.py
 
       # Step B3: sitemap.xml (Phase30-C1 质量门要求 sitemap 与路由清单一致)
       # 必须在 prerender 之后跑, 因为 build_sitemap 要读 prerender 产出的 routes manifest.
