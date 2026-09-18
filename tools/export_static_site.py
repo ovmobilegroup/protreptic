@@ -14,6 +14,9 @@
     modes/by-figure/{fc}.json   284 个「某人的 10 条模式」分片（按 figure_code 原值分组）
     meta.json                   构建时间戳 + 各产物条数 + sha256
 
+Phase31-R3：by-figure 与 index 两份产物共用清洗后的 domain_zh/domain_en
+（散文值压成短标签，规则见下方 "domain 字段清洗" 注释），消除双口径。
+
 同时输出 docs/architecture/static_data_manifest.json 供数据治理卡引用。
 
 踩坑规则（依据 docs/architecture/web_pages_migration_assessment.md §3.2，必须遵守）：
@@ -84,7 +87,7 @@ SAFE_NAME = re.compile(r"[A-Za-z0-9._-]+")
 # String(数组) 渲染成 "剪纸即兴法,Papercut-Improvisation Method,创作发生方法论/…"
 # 串进 /modes 卡片、/graph 节点与下拉、/compare 对照表——导出层统一折成标量，
 # 前端加载器另有同口径兜底（api/modeIndex.ts / api/compareData.ts）。
-CJK_RE = re.compile(r"[\u3400-\u9fff\uf900-\ufaff]")
+CJK_RE = re.compile(r"[㐀-鿿豈-﫿]")
 
 
 def pick_name(value, want_cjk: bool) -> str:
@@ -109,6 +112,80 @@ def normalize_name_fields(modes: list) -> int:
         m["name_zh"] = pick_name(zh, True) or pick_name(zh, False)
         m["name_en"] = pick_name(en, False) or pick_name(zh, False)
         changed += 1
+    return changed
+
+
+# ---------------------------------------------------------- domain 字段清洗
+# Phase31-R3. 源 data/modes_data.json 里 domain_zh / domain_en 混装两种写法:
+# 1447/2858 条是领域短标签 (多为 "主领域/次领域", 如 "道德哲学/心学"),
+# 其余 1411 条是整段散文 (其中 452 条开头就是 definition_zh 的副本,
+# M-AMP-001 长达 366 字符). 原样导出会让 /minds/:code 卡片的领域徽标与
+# /compare 的领域分布表出现整段叙述, 而且同一字段在 modes/index-*.json 与
+# modes/by-figure/*.json 两份产物里口径不一致 (双口径).
+#
+# 清洗规则 (可复现, 逐条机械判定, 无人工干预, 不引入外部数据):
+#   1. 取原始值并 strip; 空值 -> 直接回落分类标签;
+#   2. 只保留首个 "/" 之前的片段 ("道德哲学/心学" -> "道德哲学",
+#      "Moral Philosophy / Mind Studies" -> "Moral Philosophy");
+#   3. 若该片段仍是散文 (长度 > MAX_DOMAIN_LEN=30 字符, 或含句读标点:
+#      中文 。，、；：！？…, 英文 .,;:!?)
+#      -> 整体丢弃, 回落 m["category"] (源数据里恒非空, 共 18 个 2~5 字短标签;
+#      英文用脚本内固定的 CATEGORY_EN 映射, 保证中英同源, 可在 diff 中审阅);
+#   4. 结果必然非空且 <= MAX_DOMAIN_LEN 字符, run() 末尾有回归断言兜底.
+# 清洗后的字段同时供摘要索引 (modes/index-*.json) 与人物分片
+# (modes/by-figure/*.json) 使用 —— 两份产物从此同源同口径.
+MAX_DOMAIN_LEN = 30
+DOMAIN_PUNCT_ZH = re.compile("[。，、；：！？…\n]")
+DOMAIN_PUNCT_EN = re.compile("[.,;:!?\n]")
+
+CATEGORY_EN = {
+    "伦理修养": "Ethics & Self-Cultivation",
+    "军事战略": "Military Strategy",
+    "医学养生": "Medicine & Wellness",
+    "史学文献": "History & Texts",
+    "哲学形而上": "Philosophy & Metaphysics",
+    "宗教修行": "Religious Practice",
+    "工程技术": "Engineering & Technology",
+    "心理洞察": "Psychological Insight",
+    "战略决策": "Strategic Decision",
+    "探险发现": "Exploration & Discovery",
+    "政治治理": "Politics & Governance",
+    "教育传承": "Education & Transmission",
+    "文艺审美": "Arts & Aesthetics",
+    "方法论通用": "General Methodology",
+    "科学方法": "Scientific Method",
+    "组织领导": "Organizational Leadership",
+    "经济商业": "Economics & Business",
+    "认识论逻辑": "Epistemology & Logic",
+}
+
+
+def _is_prose_domain(s, punct):
+    return len(s) > MAX_DOMAIN_LEN or bool(punct.search(s))
+
+
+def pick_domain(value, fallback, punct):
+    """按上述规则把 domain 原始值压成短标签; 压不出来就回落 fallback."""
+    s = "" if value is None else str(value).strip()
+    if not s:
+        return fallback
+    head = s.split("/", 1)[0].strip()
+    if head and not _is_prose_domain(head, punct):
+        return head
+    return fallback
+
+
+def normalize_domain_fields(modes):
+    """就地清洗 domain_zh / domain_en, 返回被改写的模式条数 (日志与断言语料用)."""
+    changed = 0
+    for m in modes:
+        cat = "" if m.get("category") is None else str(m.get("category")).strip()
+        zh = pick_domain(m.get("domain_zh"), cat, DOMAIN_PUNCT_ZH)
+        en = pick_domain(m.get("domain_en"), CATEGORY_EN.get(cat, cat), DOMAIN_PUNCT_EN)
+        if zh != m.get("domain_zh") or en != m.get("domain_en"):
+            changed += 1
+        m["domain_zh"] = zh
+        m["domain_en"] = en
     return changed
 
 
@@ -268,6 +345,10 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     raw_modes_total = mode_stats["raw"]
     name_fixed = normalize_name_fields(modes)
     log(f"  名称字段折平          {name_fixed} 条（name_zh/name_en 历史三元组 -> 标量）")
+    domain_fixed = normalize_domain_fields(modes)
+    long_domain = sum(1 for m in modes if len(str(m.get("domain_zh") or "")) > MAX_DOMAIN_LEN)
+    log(f"  domain 字段清洗       {domain_fixed} 条（散文/长值 -> 首个 '/' 片段或 category 短标签）"
+        f"，清洗后 len(domain_zh) > {MAX_DOMAIN_LEN} 的条数 = {long_domain}")
     figures = load_figures(DB_PATH)
 
     # ---------- 1. figures 索引 + 详情分片 ----------
@@ -452,6 +533,9 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
             "shard_rule": "by-figure 按 figure_code 原值分组（禁用 H- 前缀分片）；摘引用 md5(mode_code)%8",
             "filename_unsafe_figure_codes": unsafe_names,
             "no_full_modes_file": "不生成单个全量模式文件（18.92 MB raw 不可接受）",
+            "domain_cleaning": ("domain_zh/domain_en 先取首个 '/' 前片段；仍 > %d 字符或含句读标点则"
+                                "回落 category（英文用 CATEGORY_EN）；index 与 by-figure 共用同一份清洗结果"
+                                % MAX_DOMAIN_LEN),
         },
     }
     write_product(out_dir / "meta.json", meta)
@@ -476,6 +560,9 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
              "actual": counts["modes_deduped"]},
             {"rule": "by-figure 分片数 == %d" % EXPECT_BY_FIGURE,
              "actual": counts["mode_by_figure_shards"]},
+            {"rule": "清洗后 domain_zh 长度 <= %d（by-figure 与 index 同源同口径）" % MAX_DOMAIN_LEN,
+             "actual_max_len": max(len(str(m.get("domain_zh") or "")) for m in modes),
+             "normalized_modes": domain_fixed},
             {"rule": "figures.index.json gzip <= 50 KB",
              "actual_gzip_bytes": idx_stat["gzip_bytes"]},
             {"rule": "modes/index-*.json 单片 gzip <= 200 KB",
@@ -502,6 +589,12 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
             failures.append("figures 详情分片数与索引条数不一致")
         if counts["mode_summaries"] != counts["modes_deduped"]:
             failures.append("模式摘要总数与去重条数不一致")
+
+    if long_domain:
+        failures.append(f"清洗后仍有 {long_domain} 条 domain_zh 超过 {MAX_DOMAIN_LEN} 字符")
+    empty_domain = sum(1 for m in modes if not str(m.get("domain_zh") or "").strip())
+    if empty_domain:
+        failures.append(f"清洗后有 {empty_domain} 条 domain_zh 为空")
 
     if idx_stat["gzip_bytes"] > LIMIT_INDEX_GZIP:
         failures.append(f"figures.index.json gzip {idx_stat['gzip_bytes']} > {LIMIT_INDEX_GZIP}")
