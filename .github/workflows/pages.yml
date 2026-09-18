@@ -33,6 +33,7 @@ on:
       - 'tools/pages_preflight.py'
       - 'tools/prerender_routes.py'
       - 'tools/build_unified_index.py'
+      - 'tools/build_search_index.py'
       - 'data/modes_data.json'
       - 'api/protreptic.db'
   workflow_dispatch:
@@ -74,6 +75,14 @@ jobs:
       # Step A：静态数据（Vite 把 web/public/data 原样复制成 dist/data）
       - name: 构建静态数据分片
         run: python3 tools/export_static_site.py
+
+      # Step A3: 全文检索索引分片 Phase30-A5.
+      # 必须在 tools/export_static_site.py 之后 (它会清空 web/public/data/);
+      # 与 tools/build_unified_index.py 相邻, 同样消费 export 的产物.
+      # 脚本内置两条自检: 解码回环一致 + 总 gzip <= 800 KB (超了非 0 退出).
+      # doc_id 契约 = modes/index-0..7.json 拼接下标, 所以这里读的就是 export 刚写下的分片.
+      - name: 构建全文检索索引分片
+        run: python3 tools/build_search_index.py
 
       # Step A2：统一索引（人物 284 + 场景 N 合并为一份可浏览名录）
       - name: 构建统一索引

@@ -535,6 +535,51 @@ web/public/data/search/index-0.bin ... index-15.bin    16 个倒排分片
 web/public/data/search/meta.json                       条数 / 分片数 / 每片体积与 sha256 / 语料 sha256
 ```
 
+### 4.8 A5 落地实现 (2026-09-18, t_4f0b858a: tools/build_search_index.py)
+
+4.3 记录格式的落地版**逐字节一致**，只在文件尾部追加了一段权重表（4.3 的评分模型要求
+「分数为命中 token 的权重和」，但记录格式里没有权重槽位；实测三种补法的体积代价：
+
+| 方案 | 总 gzip | 结论 |
+|------|---------|------|
+| 4.3 原样（无权重） | 747 KB | 评分退化成命中计数 |
+| 权重档分节（token 按权重分节） | 768.8 KB | 权重隐含、零额外字节，但 token 不再全局升序 |
+| **尾部权重表（本实现）** | **773.9 KB** | 记录体与 4.3 逐字节一致，权重纯追加 |
+| 逐 posting 存权重 | 866 KB | 超预算，弃 |
+
+实际文件格式：
+
+```
+file    = varint(len(body)) + body + varint(len(weights)) + weights
+body    = token 记录序列（token 升序）: varint(len(utf8(token))) + utf8(token) + varint(df) + varint(升序 doc_id 差值)
+          （第一个差值 = 首个 doc_id 本身；这一段与 4.3 完全相同）
+weights = 每 token 1 字节，顺序与 body 里的 token 一致，取值 0/1/2 = 权重 4/2/1
+```
+
+权重是 **token 级**（该 token 在九个字段里出现的最高字段权重），不是 posting 级；
+这是预算与排序质量的折中，UI 不得宣称「按字段精确加权」。`search/meta.json` 里
+`format` / `weight_codes` / `tokenize` / `fields` / `shard_fn` / `doc_id_contract` 是
+前端解码的唯一权威描述（版本号 `1.1-a5`）。
+
+实测（`data/modes_data.json` + `modes/index-0..7.json` 拼接，doc=2858）：
+
+```
+token 97,342 (权重 4: 27,175 / 2: 57,037 / 1: 13,130)；postings 276,014
+raw 1,295.3 KB / gzip 773.9 KB（预算 800 KB，余量 26 KB）；单片最大 62.0 KB / 最小 38.5 KB
+解码回环自检：97,342 个 token 全部一致；同一语料重跑 .bin sha256 不变
+抽样查询：良知 -> M-ASHOKA-005/M-NKR-004/M387；王阳明 -> M382/M387/M385（figure_name 进索引后命中正确）；
+          幂势既同 -> M-ZUX-001 祖暅；decision 有结果而 decis 为空（拉丁词无前缀扩展）
+```
+
+与 4.3 推荐值 (741 KB) 的 33 KB 差额 = 权重表（约 27 KB）+ key_concepts 逐条截断口径
+（实测 747 KB / 97,342 token，对应 4.3 表的 741 KB / 99,016 token，差异来自分词口径微差）。
+4.2 的三条超预算红线（拉丁前缀 820 KB、process_zh 816 KB、definition_zh[:60] 818 KB）依旧不碰。
+
+CI 位置：`pages.yml` 的 `构建全文检索索引分片` 步骤，排在 `tools/export_static_site.py`
+（会清空 `web/public/data/`）与 `tools/build_unified_index.py` 之后，脚本自带
+两条断言（解码回环 + 总 gzip <= 800 KB），超预算非 0 退出。产物目录
+`web/public/data/search/` 不入库（`.gitignore` 已忽略 `web/public/data/`），由 CI 现场生成。
+
 ### 4.4 懒加载时机与请求数
 
 - **时机**: 首次触发搜索输入时 (中文长度不小于 2 字, 或拉丁长度不小于 2 字符), 防抖 150 ms 后开始;
