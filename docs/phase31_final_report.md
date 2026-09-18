@@ -319,3 +319,28 @@ npx --yes markdownlint-cli2@0.11.0 "docs/phase31_final_report.md" --config .mark
    硬编码计数会藏在 `web/index.html` / `mkdocs.pages.yml` / 文档站首页、新增文档必须本地跑 markdown-lint、
    以及本技能按 profile 分叉的风险。
 3. 本卡没有动任何代码或数据：所有新发现（4.1、4.2、4.5、4.6 节）都只被记录，未被修改。
+
+---
+
+## 8. 附录：收官提交后的最终 CI 状态（覆盖 3.3 节的快照）
+
+3.3 节里的 CI/CD 一行是本卡取数时刻的快照（in_progress）。本报告自身提交 `32d3646` 后复测，
+四条工作流在 `32d3646` 上全部 success：
+
+| 工作流 | run id | 结论 |
+| --- | --- | --- |
+| CI（markdown-lint） | 35406424779 | success |
+| Deploy to GitHub Pages | 35406424738 | success |
+| Quality Gate | 35406689272 | success |
+| Protreptic CI/CD | 35406424804 | success |
+
+报告线上可达与回读：
+
+```
+curl -s -o /dev/null -w '%{http_code}' https://ovmobilegroup.github.io/protreptic/docs/phase31_final_report/   -> 200
+curl -s -o /tmp/remote.md https://raw.githubusercontent.com/ovmobilegroup/protreptic/main/docs/phase31_final_report.md
+cmp /tmp/remote.md <本地文件>   -> 逐字节一致（echo 输出 RAW == LOCAL）
+```
+
+两仓状态：发布仓 `git status -sb` = `## main...origin/main`（无 `[ahead N]`，HEAD = `32d3646`）；
+工作区仓 `master` 无上游，只能本地提交（见 3.5、4.5 节）。
