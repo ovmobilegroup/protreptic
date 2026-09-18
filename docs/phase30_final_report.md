@@ -139,6 +139,33 @@ python3 tools/ci_link_check.py live --crawl-sample 8
 
 **线上 1359 条 URL 全部可达，失败 0 条**（含 sitemap 全集、路由清单 canonical、入口页自报的站内链接）。
 
+
+### 2.7 本卡提交后触发的 CI 证据（收官定稿）
+
+本卡提交（publish `ba7cacf`）触发的 Pages 部署 run **35353933404 success**（构建 SPA + 文档站 4m8s，部署 15s），
+随后 Quality Gate run **35354531583 success**，三个 job 全绿。从 CI 原始日志（`gh api .../logs` 解包）摘录：
+
+```
+# data-check（job 105630518121）
+  · 名录 1338 条 (人物 283 / 场景 1055, 带模式 1302); 无名字 0 条, 无描述 635 条
+  · 路由 1353 条 {'person': 283, 'scenario': 1055, 'static': 8, 'template': 7}, base='/protreptic/'
+  · sitemap 1354 条 URL (期望 1354 = 路由 1353 + 首页)
+  数据校验: 24 条断言, 失败 0 条 -> PASS
+
+# live-links（job 105630517559）
+  · 线上 sitemap: .../sitemap.xml 读到 1354 条 URL
+  · 页面内链接抽查: 抓 8 页, 抽出站内引用 5 条
+  · 耗时 4.1s, 并发 16, 状态码分布 {'200': 1359}, 重定向后 200 的 0 条
+  [live] ...: 检查 1359 条, 失败 0 条 -> PASS
+
+# lighthouse（job 105630517866）
+  All results processed! / Done running autorun.（预算门通过）
+```
+
+对照：同一提交触发的 `CI`（markdown-lint）仍失败，但本卡新增的 `docs/phase30_final_report.md`
+在该 run 中**违规数 0**（`gh run view --log-failed | grep phase30_final_report` 计数为 0），
+说明红是 R1 的存量违规，而非本文档引入。首次提交时本文档曾有 1 处 MD003（段落紧邻 `---` 被解析成 setext 标题），已修复并复推。
+
 ---
 
 ## 3. 本卡（C5）变更清单
@@ -149,6 +176,7 @@ python3 tools/ci_link_check.py live --crawl-sample 8
 | J2 | 收官报告 | 新增本文 `docs/phase30_final_report.md`，两仓同文。 |
 | J3 | 双仓小漂移对齐 | `tools/ci_link_check.py` 在 workspace 比 publish 多一段「仅本地排查用」的 `--sitemap ""` 跳过分支（本地调试后未同步）。已同步到 publish，消除唯一一处「门脚本」漂移。 |
 | J4 | 技能沉淀 | 更新技能 `protreptic-web-frontend`：新增预渲染 / Service Worker / 检索索引 / CI 步骤顺序 / 双仓漂移 / 发布断言 六类坑位。 |
+| J5 | 报告自身的 CI 证据补全 | 首次提交后本文档在 markdown-lint 报 1 处 MD003（段落与 `---` 之间缺空行被解析成 setext 标题），已修复；并补 §2.7 收录本卡提交触发的Pages run 35353933404 success 与 Quality Gate run 35354531583 三 job 全绿的原始日志证据。 |
 
 **本卡未改任何数据与前端源码**，因此线上产物不变（§2.1 的字节一致仍成立）。
 
