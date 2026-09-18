@@ -47,6 +47,8 @@ on:
       - 'tools/build_og_images.py'
       - 'tools/apply_og_meta.py'
       - 'tools/og_image.py'
+      - 'tools/build_sw.py'
+      - 'tools/build_pwa_icons.py'
       - 'tools/subset_og_font.py'
       - 'tools/assets/fonts/**'
       - 'data/modes_data.json'
@@ -150,6 +152,14 @@ jobs:
       - name: 写入 og:image / twitter:image
         run: python3 tools/apply_og_meta.py
 
+      # Step B2.6: Service Worker Phase30-A4 —— 产物 dist/sw.js = 线上 /protreptic/sw.js.
+      # 必须在 npm run build 之后（读 dist/assets 文件名算 BUILD_ID、读 dist/data/meta.json
+      # 算 DATA_REV），也在 prerender 之后（prerender 只写 HTML，不碰 dist/sw.js）。
+      # 脚本自带三条断言: assets 里必须有 JS+CSS、预缓存清单里每个文件必须真实存在、
+      # 注入后不允许残留 __XXX__ 占位符 —— 任一条不过直接非 0 退出.
+      - name: 生成 service worker (sw.js)
+        run: python3 tools/build_sw.py
+
       # Step B3: sitemap.xml (Phase30-C1 质量门要求 sitemap 与路由清单一致)
       # 必须在 prerender 之后跑, 因为 build_sitemap 要读 prerender 产出的 routes manifest.
       # 顺序: export_static_site -> build_unified_index -> prerender -> build_sitemap
@@ -175,6 +185,16 @@ jobs:
           touch _site/.nojekyll
           du -sh _site
           ls -1 _site
+
+      # 合并后必须真的能拿到 /sw.js 与两个 manifest，否则站点白装一遍 PWA
+      - name: 断言 sw.js 与 manifest 进了产物
+        run: |
+          set -euo pipefail
+          test -f _site/sw.js
+          test -f _site/manifest.webmanifest
+          test -f _site/manifest-light.webmanifest
+          test -f _site/icons/icon-512.png
+          python3 tools/build_sw.py --check
 
       - name: 断言合并产物
         run: python3 tools/pages_preflight.py --stage merged

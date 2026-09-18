@@ -15,11 +15,31 @@ const read = (): Theme => {
 
 const theme = ref<Theme>(read())
 
+/**
+ * Phase30-A4: 安装成 PWA 之后，浏览器窗口/状态栏用的是这几个值，也要跟着主题走。
+ * 两个 manifest 只有 theme_color / background_color 不同（静态托管没有服务端，
+ * 换肤只能靠切换 <link rel="manifest">），meta theme-color 则由这里同步。
+ */
+const THEME_COLOR: Record<Theme, string> = { dark: '#04060c', light: '#f8f5f0' }
+const MANIFEST_FILE: Record<Theme, string> = {
+  dark: 'manifest.webmanifest',
+  light: 'manifest-light.webmanifest',
+}
+
 const apply = (t: Theme) => {
   if (typeof document === 'undefined') return
   const root = document.documentElement
   if (t === 'light') root.setAttribute('data-theme', 'light')
   else root.removeAttribute('data-theme')
+
+  const meta = document.getElementById('pt-theme-color')
+  if (meta) meta.setAttribute('content', THEME_COLOR[t])
+
+  const link = document.getElementById('pt-manifest')
+  if (link) {
+    const base = (import.meta.env.BASE_URL || '/')
+    link.setAttribute('href', `${base}${MANIFEST_FILE[t]}`)
+  }
 }
 
 apply(theme.value)

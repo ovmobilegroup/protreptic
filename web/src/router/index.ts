@@ -6,6 +6,7 @@ import ApiDocsView from '../views/ApiDocsView.vue'
 import FigureDetailView from '../views/FigureDetailView.vue'
 import MindView from '../views/MindView.vue'
 import TemplateDetailView from '../views/TemplateDetailView.vue'
+import NotFoundView from '../views/NotFoundView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -80,6 +81,21 @@ const routes: RouteRecordRaw[] = [
     meta: {
       title: '场景档案',
       description: '现代处境场景关联的思维模式档案：来源人物、操作步骤与引用原话。',
+    },
+  },
+  {
+    // Phase30-A4: 兜底路由。离线时 SW 对未知路径返回缓存外壳（200），在线时 Pages
+    // 对未收录路径返回 404.html（同一份 SPA 外壳）—— 两者都需要一条 catch-all，
+    // 否则用户看到的是空白页，与在线的 404 表现不一致。
+    // noindex + 不写 canonical: 这一页不该进搜索索引。
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    component: NotFoundView,
+    meta: {
+      title: '页面不存在',
+      description: '该地址未被收录：回到历史人物库或思维模式库继续浏览。',
+      noindex: true,
+      noCanonical: true,
     },
   },
 ]

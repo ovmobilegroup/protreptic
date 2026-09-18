@@ -12,7 +12,7 @@
       ],
       "settings": {
         "chromeFlags": "--no-sandbox --disable-dev-shm-usage",
-        "onlyCategories": ["performance", "accessibility", "best-practices", "seo"]
+        "onlyCategories": ["performance", "accessibility", "best-practices", "seo", "pwa"]
       }
     },
     "assert": {
@@ -21,6 +21,7 @@
         "categories:accessibility": ["warn", {"minScore": 0.9, "aggregationMethod": "median"}],
         "categories:best-practices": ["warn", {"minScore": 0.9, "aggregationMethod": "median"}],
         "categories:seo": ["warn", {"minScore": 0.95, "aggregationMethod": "median"}],
+        "categories:pwa": ["warn", {"minScore": 1, "aggregationMethod": "median"}],
         "largest-contentful-paint": ["warn", {"maxNumericValue": 4000, "aggregationMethod": "median"}],
         "total-blocking-time": ["warn", {"maxNumericValue": 800, "aggregationMethod": "median"}],
         "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.15, "aggregationMethod": "median"}],

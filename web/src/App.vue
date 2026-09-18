@@ -4,6 +4,7 @@ import { computed } from 'vue'
 import LanguageSwitcher from './components/LanguageSwitcher.vue'
 import { useI18n } from './composables/useI18n'
 import { useTheme } from './composables/useTheme'
+import OfflineNotice from './components/OfflineNotice.vue'
 
 const route = useRoute()
 const { t } = useI18n()
@@ -127,5 +128,8 @@ const isActive = (to: string) => route.path.startsWith(to)
         </div>
       </div>
     </footer>
+
+    <!-- Phase30-A4: 断网提示 / 新版本提示（右下角浮层，SW 不支持时不渲染） -->
+    <OfflineNotice />
   </div>
 </template>

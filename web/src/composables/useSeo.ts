@@ -79,6 +79,9 @@ declare module 'vue-router' {
     description?: string
     /** 静态入口页（/figures /modes /templates /api）才声明；参数路由由视图在数据到位后自己设 */
     seoKind?: SeoKind
+    /** Phase30-A4: catch-all 兜底页置真 —— 写 meta robots=noindex，并撤掉 canonical */
+    noindex?: boolean
+    noCanonical?: boolean
   }
 }
 
@@ -188,6 +191,10 @@ export interface SeoInput {
   /** 路由路径（不含 base），如 'minds/H-WYM-001'；省略则取当前地址 */
   path?: string
   jsonLd?: JsonLd | null
+  /** 传 null 表示这一页不该有 canonical（兜底页用它撤掉上一条路由留下的 canonical） */
+  canonical?: string | null
+  /** 传 null / 省略表示移除 robots meta；兜底页传 'noindex,follow' */
+  robots?: string | null
 }
 
 function currentPath(): string {
@@ -217,7 +224,15 @@ export function setSeo(input: SeoInput = {}): void {
   upsertMeta('name', 'twitter:card', 'summary_large_image')
   upsertMeta('name', 'twitter:image', ogImage)
   upsertMeta('name', 'twitter:image:alt', ogImageAlt(title))
-  upsertCanonical(url)
+  if (input.canonical === null) {
+    document.head.querySelector('link[rel="canonical"]')?.remove()
+  } else {
+    upsertCanonical(input.canonical || url)
+  }
+
+  if (input.robots) upsertMeta('name', 'robots', input.robots)
+  else document.head.querySelector('meta[name="robots"]')?.remove()
+
   syncStructuredData(url, input.jsonLd ?? null)
 }
 
@@ -236,6 +251,9 @@ export function applyRouteSeo(to: RouteLocationNormalized): void {
     description,
     path: to.path,
     jsonLd: !paramRoute && kind ? buildJsonLd(kind, { name: title, description, path: to.path }) : null,
+    // 兜底页：无 canonical + noindex（预渲染的 1350 个收录路由都不带 noindex）
+    canonical: to.meta.noCanonical ? null : undefined,
+    robots: to.meta.noindex ? 'noindex,follow' : null,
   })
 }
 

@@ -1,0 +1,70 @@
+{
+  "schema": "protreptic.pwa_lighthouse_evidence/v1",
+  "lighthouse_version": "11.7.1",
+  "requested_url": "http://127.0.0.1:4451/protreptic/",
+  "final_url": "http://127.0.0.1:4451/protreptic/figures",
+  "fetch_time": "2026-09-18T05:59:04.863Z",
+  "categories": {
+    "performance": {
+      "title": "Performance",
+      "score": 0.58
+    },
+    "pwa": {
+      "title": "PWA",
+      "score": 1
+    }
+  },
+  "run_warnings": [],
+  "pwa_audits": {
+    "installable-manifest": {
+      "score": 1,
+      "weight": 2,
+      "title": "Web app manifest and service worker meet the installability requirements"
+    },
+    "splash-screen": {
+      "score": 1,
+      "weight": 1,
+      "title": "Configured for a custom splash screen"
+    },
+    "themed-omnibox": {
+      "score": 1,
+      "weight": 1,
+      "title": "Sets a theme color for the address bar."
+    },
+    "content-width": {
+      "score": 1,
+      "weight": 1,
+      "title": "Content is sized correctly for the viewport"
+    },
+    "viewport": {
+      "score": 1,
+      "weight": 2,
+      "title": "Has a `<meta name=\"viewport\">` tag with `width` or `initial-scale`"
+    },
+    "maskable-icon": {
+      "score": 1,
+      "weight": 1,
+      "title": "Manifest has a maskable icon"
+    },
+    "pwa-cross-browser": {
+      "score": null,
+      "weight": 0,
+      "title": "Site works cross-browser"
+    },
+    "pwa-page-transitions": {
+      "score": null,
+      "weight": 0,
+      "title": "Page transitions don't feel like they block on the network"
+    },
+    "pwa-each-page-has-url": {
+      "score": null,
+      "weight": 0,
+      "title": "Each page has a URL"
+    }
+  },
+  "config": {
+    "chrome_flags": "--no-sandbox --disable-dev-shm-usage",
+    "chrome": "chrome-headless-shell 153.0.8010.12 (CHROME_PATH)",
+    "served_from": "本地 Pages 式静态服务（/tmp/a4site，缺文件回落 404.html 且状态码 404）"
+  }
+}

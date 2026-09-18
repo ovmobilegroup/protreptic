@@ -184,13 +184,16 @@ def render_head(shell: str, route: dict, base: str) -> str:
     elif route["type"] == "scenario":
         ld["identifier"] = route.get("code")
 
+    # 下面注入的 <script> 必须写成 <script ...></script>:
+    # 自闭合 <script .../> 会被 HTML 解析器忽略 (script 是 raw text 元素), 它后面的标签
+    # 全部被吞成脚本文本, 预渲染页面直接空白 —— web/index.html 上踩过一次 (Phase30-A3 修复).
     extra = (
-        '\n    <link rel="canonical" href="%s" />' % esc(url)
-        + '\n    <meta property="og:url" content="%s" />' % esc(url)
-        + '\n    <script type="application/ld+json">%s</script>' % json.dumps(ld, ensure_ascii=False, separators=(",", ":"))
-        + "\n    <script data-goatcounter=\"%s\"\n            data-goatcounter-settings=\"{\\"allow_local": true}\"/>" % GC_ENDPOINT
-        + "\n  </head>"
-    )
+            '\n    <link rel="canonical" href="%s" />' % esc(url)
+            + '\n    <meta property="og:url" content="%s" />' % esc(url)
+            + '\n    <script type="application/ld+json">%s</script>' % json.dumps(ld, ensure_ascii=False, separators=(",", ":"))
+            + '\n    <script data-goatcounter="%s"\n            data-goatcounter-settings="{\\"allow_local\\": true}"></script>' % GC_ENDPOINT
+            + "\n  </head>"
+        )
     if "</head>" not in out:
         sys.exit("[prerender] no </head> in index.html")
     return out.replace("</head>", extra, 1)
