@@ -45,7 +45,7 @@ jobs:
   data-check:
     name: 数据校验 (schema + sitemap 一致性)
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -69,6 +69,22 @@ jobs:
 
       - name: 构建统一索引
         run: python3 tools/build_unified_index.py
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # prerender_routes.py 要读 web/dist/index.html 外壳与 dist/data/index.unified.json,
+      # 缺 dist 会直接 sys.exit(这是对的: 没有外壳就生成不出 canonical/深链页).
+      # 与 pages.yml 同步: VITE_DATA_MODE=static 不能少, 否则 dist 里没有数据分片.
+      - name: 构建 SPA（prerender 需要 web/dist）
+        working-directory: web
+        env:
+          VITE_DATA_MODE: static
+        run: |
+          npm ci
+          npm run build
 
       - name: 路由预渲染
         run: python3 tools/prerender_routes.py
