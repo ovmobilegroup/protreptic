@@ -83,8 +83,10 @@ def load_persons():
         fc = str(m.get('figure_code') or '').strip()
         if not fc or fc in QUARANTINE:
             continue
-        g = groups.setdefault(fc, {'n': 0, 'definition': ''})
+        g = groups.setdefault(fc, {'n': 0, 'definition': '', 'name': ''})
         g['n'] += 1
+        if not g['name']:
+            g['name'] = _norm(m.get('figure_name'))
         if not g['definition']:
             g['definition'] = _norm(m.get('definition_zh')) or _norm(m.get('definition_en'))
 
@@ -94,7 +96,7 @@ def load_persons():
         d = meta.get(fc, {})
         out.append({
             'code': fc,
-            'name': named.get(fc, ''),
+            'name': g['name'] or named.get(fc, ''),
             'type': 'figure',
             'era': d.get('era') or '',
             'domains': d.get('domains') or [],
