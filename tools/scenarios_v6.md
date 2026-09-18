@@ -1,10 +1,13 @@
 # Scenarios & Tags v6 更新
 
 ## 概述
+
 Phase 13-16 新增 96 个新国际人物 scenario (96 位人物 × 1 scenario each)，对应的 code 为 `XX-TOPIC-001` 格式 (例如 `GE-PHI-001`, `AM-REV-001`等)。
 
 ### Scenarios 结构 (继承 v5)
+
 每个 scenario 包含字段：
+
 - `name` (中英文)
 - `description` (中英文)
 - `modes` (数组, 包含 ≥1 个 M262-M356 新模式)
@@ -14,6 +17,7 @@ Phase 13-16 新增 96 个新国际人物 scenario (96 位人物 × 1 scenario ea
 - `case` (中英文)
 
 ### 新场景 code 列表 (96 个)
+
 来源: batch_plan_v4.md 中的 12 个 Batch × 8 人 = 96 人
 
 | code | Person | New Mode |
@@ -118,7 +122,9 @@ Phase 13-16 新增 96 个新国际人物 scenario (96 位人物 × 1 scenario ea
 > 这些重复是为了模拟实际研究中的补全模式。具体去重将在 elcano 子任务中处理。
 
 ### Scenario Tags 更新
+
 每个新 scenario 在 `scenario_tags.json` 中添加 tags 条目，包含：
+
 - `code`
 - `name_zh`, `name_en`
 - `nationality`

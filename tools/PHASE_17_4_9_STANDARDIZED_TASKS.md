@@ -1,5 +1,7 @@
 # Phase 17.4-17.9 标准化任务模板
+
 # 每批次拆分为 3 个子任务：Generator / Merger / QA
+
 # 所有子任务通过 kanban 依赖链串联：Generator → Merger → QA
 
 ---
@@ -7,17 +9,20 @@
 ## 批次标准结构
 
 ### 1. Generator (elcano) - 生成人物 JSON
+
 - **输入**：任务体中的人物列表 (含 code, name, modes, 完整 v6 Schema 字段)
 - **输出**：workspace 中的 N 个 JSON 文件
 - **验收**：每个 JSON 通过 `python -m json.tool` 语法检查 + 必填字段校验
 
 ### 2. Merger (data-merger 脚本) - 合并到主数据
+
 - **输入**：Generator 产出的 workspace 路径
 - **动作**：运行 `python data_merger.py <workspace_path>`
 - **输出**：更新 scenarios_zh/en.json, code_maps.json, scenario_tags.json, modes_data.json (如有新模式)
 - **验收**：合并后总数增加 N，无重复 code
 
 ### 3. QA (qa_gate 脚本) - 自动化验收门禁
+
 - **输入**：无 (读取主数据文件)
 - **动作**：运行 `python qa_gate.py`
 - **输出**：通过/失败 + 详细报告
@@ -26,6 +31,7 @@
 ---
 
 ## 依赖链
+
 ```
 [Generator] --(done)--> [Merger] --(done)--> [QA] --(pass)--> 批次完成
      │                      │                      │
@@ -38,9 +44,11 @@
 ## Phase 17.4: 西非/萨赫勒 (12 位)
 
 ### 17.4-Generator
+
 **Title**: [elcano] Phase 17.4-Generator: 西非/萨赫勒 12 位 JSON 生成
 **Assignee**: elcano
-**Body**: 
+**Body**:
+
 ```
 生成 12 个完整 v6 Schema JSON (23 字段)，包含新模式 M386-M397
 
@@ -59,11 +67,13 @@
 | LR-TUB-001 | 图布曼/利比里亚/美裔/铁矿/独裁/内战根源 | M396 美裔精英/铁矿寡头/内战循环 | ✅ |
 | SL-STE-001 | 斯蒂文斯/塞拉利昂/单一党/钻石/腐败/内战 | M397 单一党钻石/腐败内战/西非脆弱 | ✅ |
 ```
+
 **Acceptance**: 12 JSON 文件在 workspace 中，语法正确，含 description_zh/en + modes 字段
 
 ---
 
 ### 17.4-Merger
+
 **Title**: [data-merger] Phase 17.4-Merger: 合并西非/萨赫勒 12 位到主数据
 **Assignee**: data-merger (脚本)
 **Parents**: [17.4-Generator task_id]
@@ -73,6 +83,7 @@
 ---
 
 ### 17.4-QA
+
 **Title**: [qa] Phase 17.4-QA: 西非/萨赫勒验收门禁
 **Assignee**: qa (脚本)
 **Parents**: [17.4-Merger task_id]
@@ -84,9 +95,11 @@
 ## Phase 17.5: 中非/刚果盆地 (9 位)
 
 ### 17.5-Generator
+
 **Title**: [elcano] Phase 17.5-Generator: 中非/刚果盆地 9 位 JSON 生成
 **Assignee**: elcano
-**Body**: 
+**Body**:
+
 ```
 | 代码 | 人物/主题 | 核心模式 | 新模式 |
 |------|-----------|----------|--------|
@@ -106,9 +119,11 @@
 ## Phase 17.6: 东非/大湖区 (10 位)
 
 ### 17.6-Generator
+
 **Title**: [elcano] Phase 17.6-Generator: 东非/大湖区 10 位 JSON 生成
 **Assignee**: elcano
 **Body**:
+
 ```
 | 代码 | 人物/主题 | 核心模式 | 新模式 |
 |------|-----------|----------|--------|
@@ -129,9 +144,11 @@
 ## Phase 17.7: 南部非洲 (12 位)
 
 ### 17.7-Generator
+
 **Title**: [elcano] Phase 17.7-Generator: 南部非洲 12 位 JSON 生成
 **Assignee**: elcano
 **Body**:
+
 ```
 | 代码 | 人物/主题 | 核心模式 | 新模式 |
 |------|-----------|----------|--------|
@@ -154,9 +171,11 @@
 ## Phase 17.8: 安第斯/南锥体 (13 位)
 
 ### 17.8-Generator
+
 **Title**: [elcano] Phase 17.8-Generator: 安第斯/南锥体 13 位 JSON 生成
 **Assignee**: elcano
 **Body**:
+
 ```
 | 代码 | 人物/主题 | 核心模式 | 新模式 |
 |------|-----------|----------|--------|
@@ -180,9 +199,11 @@
 ## Phase 17.9: 中美洲/加勒比 (14 位)
 
 ### 17.9-Generator
+
 **Title**: [elcano] Phase 17.9-Generator: 中美洲/加勒比 14 位 JSON 生成
 **Assignee**: elcano
 **Body**:
+
 ```
 | 代码 | 人物/主题 | 核心模式 | 新模式 |
 |------|-----------|----------|--------|
@@ -205,6 +226,7 @@
 ---
 
 ## 自动派发脚本
+
 ```bash
 # 为每个 Phase 创建 3 个任务 (Generator/Merger/QA)
 # 依赖链：Generator -> Merger -> QA

@@ -1,6 +1,7 @@
 # 国际化 Schema v4.0
 
 ## 概述
+
 支撑 Phase 8 全球扩展的完整数据模型，覆盖 12 文明圈、40+ 国家/地区、140+ 国际人物、15-20 个新思维模式 (M159-M178)。
 
 ---
@@ -80,5 +81,6 @@
 ---
 
 ## 文件命名规范
+
 - 路径：`Protreptic/tools/json/{PREFIX}-{TOPIC}-{NNN}.json`
 - 示例：`SA-WAH-001.json`、`CA-MUL-001.json`、`MN-NOM-001.json`

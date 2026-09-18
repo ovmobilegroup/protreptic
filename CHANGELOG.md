@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-04] - Phase 19 屠呦呦 (H-TYY-001) 人物档案归档
 
 ### Added
+
 - **屠呦呦 (H-TYY-001) 人物档案**: 新增现代药学家屠呦呦的人物档案
   - 核心模式：抽象归纳法(25)+矛盾分析法(1)+实事求是法(5)+制度化制衡法(34)
   - 创立「文献考据→工艺破解→交叉验证→标准化包」四环范式体系
@@ -16,10 +17,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 2015年获诺贝尔生理学或医学奖
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增屠呦呦研究成果总结
 - **README.md**: 更新 Phase 19 成果描述，新增屠呦呦(H-TYY-001)人物档案
 
 ### Fixed
+
 - QA验收通过：H-TYY-156 modes [25,1,5,34] 双语一致，全部测试通过
 
 ---
@@ -27,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-02] - Phase 20 墨子(M-ZG-001) 人物档案归档
 
 ### Added
+
 - **墨子 (M-ZG-001) 人物档案**: 新增战国初期墨家学派创始人墨子的人物档案
   - 核心模式：兼爱非攻/三表法/科学实证/工匠精神/尚同尚贤(18)+类比论证法(5)+守御工程法(6)+经验实证法(42)+尚贤尚同法(14)+节用节葬法(55)
   - 创立「兼爱奠基→三表验证→非攻实践→尚贤制度→节用治理」五环范式体系
@@ -36,10 +40,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「战国平民思想家/科学实证/工匠传统」层空白
 
 ### Changed
+
 - **README.md**: 更新 Phase 20 成果描述，新增墨子(M-ZG-001)人物档案
 - **docs/figures/M-ZG-001.md**: 新增墨子人物档案文档，包含完整思维模式映射和历史意义分析
 
 ### Fixed
+
 - QA验收通过：M-ZG-001 数据完整，6个思维模式全部验证，双语一致，旧存根H-MZ-001已清除
 
 ---
@@ -47,6 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-02] - Phase 20 孟子(H-MQ-001) 人物档案归档
 
 ### Added
+
 - **孟子 (H-MQ-001) 人物档案**: 新增战国中期儒家代表孟子的人物档案
   - 核心模式：类比推理法(15)+道德直觉法(23)+民本辩证思维(40)+历史循环反思法(75)
   - 创立「性善奠基→民本重构→类比论证→历史循环→大丈夫精神」五环范式体系
@@ -57,11 +64,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「战国儒家民本政治/性善论」层空白
 
 ### Changed
+
 - **README.md**: 更新 Phase 20 成果描述，新增孟子(H-MQ-001)人物档案
 - **docs/figures/H-MQ-001.md**: 新增孟子人物档案文档，包含完整思维模式映射和历史意义分析
 - **phase20_summary.md**: 更新Phase 20研究总结，新增黄宗羲研究成果
 
 ### Fixed
+
 - 人物档案文档化：将黄宗羲研究成果结构化归档至 docs/figures/H-HZX-001.md
 - QA验收通过：H-HZX-001 数据完整，10个思维模式全部验证，双语一致，旧存根已清除
 
@@ -70,6 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-02] - Phase 20 蒯通(H-KT-280) 人物档案归档
 
 ### Added
+
 - **蒯通 (H-KT-280) 人物档案**: 新增战国末至汉初纵横家蒯通的思维模式档案
   - 核心模式：审时度势法(45)+风险对冲思维(17)+博弈论思维(20)+权变智慧(39)+驿站制信息流(41)
   - 创立「审时度势→风险对冲→博弈建模→权变适应→信息流通」纵横家五环生存范式
@@ -77,9 +87,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「战国纵横家权变/多极博弈」层空白
 
 ### Changed
+
 - **README.md**: 更新 Phase 20 成果描述，新增蒯通(H-KT-280)人物档案
 
 ### Fixed
+
 - 人物档案文档化：将蒯通研究成果结构化归档至 docs/figures/H-KT-280.md
 - QA验收通过：H-KT-280 数据完整，modes [17, 20, 39, 41, 45] 映射正确，双语一致
 
@@ -88,6 +100,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-02] - Phase 19 候选人(H-001) 人物档案归档
 
 ### Added
+
 - **候选人 (H-001) 人物档案**: 新增「候选人」抽象概念型人物的思维模式档案
   - 核心模式：战略预判法(7)、边际思维(19)、自然选择法(23)、制度化制衡(34)、驿站制/高频反馈(41)
   - 创立「战略预判→边际计算→自然选择→制度制衡→信息高速」五环政治选择完整范式
@@ -95,9 +108,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「政治制度史/人才选拔」层的空白
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增候选人研究成果总结
 
 ### Fixed
+
 - 人物档案文档化：将候选人5个思维模式条目(H-001)归档至 docs/figures/H-001.md
 - QA验收通过：H-001 数据完整，modes [7,19,23,34,41] 映射正确，双语一致
 
@@ -106,6 +121,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-02] - Phase 19 华罗庚(H-HLG-001) 人物档案归档
 
 ### Added
+
 - **华罗庚 (H-HLG-001) 人物档案**: 新增现代数学家华罗庚的思维模式档案
   - 核心模式：独立自主法(9)、多元思维模型(17)、摸石头过河(38)、战略预判法(7)
   - 创立「自学最短路径」硬产出替代学位认证范式，从初中学历到世界级数学大师
@@ -114,10 +130,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「基础科学自主+科学方法论落地」双重空白
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增华罗庚研究成果总结
 - **README.md**: 更新 Phase 19 成果描述和历史人物总数（12→13）
 
 ### Fixed
+
 - 人物档案文档化：将华罗庚研究成果结构化归档至 docs/figures/H-HLG-001.md
 - QA验收通过：H-HLG-001 数据完整，modes [9,17,38,7] 映射正确，scenarios_zh/en 各1008条双语一致
 
@@ -126,6 +144,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-02] - Phase 19 竺可桢(H-ZKZ-001) 人物档案归档
 
 ### Added
+
 - **竺可桢 (H-ZKZ-001) 人物档案**: 新增近现代气象学家/教育家竺可桢的思维模式档案
   - 核心模式：观测网络织密(41)、多源证据交叉归纳(25)、规律—机理双证锚定(12)、通专品三位一体育人(22)、流亡办学韧性(35)
   - 创立「织网→归纳→校验→育人→韧性」五环完整范式
@@ -133,16 +152,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「科学基础设施+教育组织韧性」的双重空白
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增竺可桢研究成果总结
 - **README.md**: 更新 Phase 19 成果描述和历史人物总数
 
 ### Fixed
+
 - 人物档案文档化：将竺可桢5个思维模式条目(H-ZKZ-001~H-ZKZ-005)合并归档至 docs/figures/H-ZKZ-001.md
 - QA验收通过：H-ZKZ-001~H-ZKZ-005 数据完整，modes [41,25,12,22,35] 映射正确，双语一致
 
 ## [2026-09-01] - Phase 19 周恩来(H-ZEL-001) 人物档案归档
 
 ### Added
+
 - **周恩来 (H-ZEL-001) 人物档案**: 新增近现代国家治理家周恩来的思维模式档案
   - 核心模式：制度化制衡(42)、总体性思维(20)、边际思维(6)、驿站制/高频反馈(41)、传承规划/制度化制衡(34)
   - 创立「五位一体国家治理范式」：制度化制衡→总体性思维→边际思维→高频反馈→传承规划
@@ -150,16 +172,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「国家治理体系工程」层空白
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增周恩来研究成果总结
 - **README.md**: 更新历史人物总数从372到373，新增周恩来档案
 
 ### Fixed
+
 - 人物档案文档化：将周恩来研究成果结构化归档至 docs/figures/H-ZEL-001.md
 - scenarios_zh.json / scenarios_en.json / code_maps.json / scenario_tags.json 四文件同步：H-ZEL-001 条目完整，双语一致
 
 ## [2026-09-01] - Phase 19 王选(H-WX-001) 人物档案归档
 
 ### Added
+
 - **王选 (H-WX-001) 人物档案**: 新增现代科技工程家王选的思维模式档案
   - 核心模式：矛盾分析法(1)、笨功夫/死磕到底(36)、摸石头过河(38)、统一战线法(6)、制度化制衡法(34)
   - 创立「华光激光照排系统」自主攻关范式，打破日美垄断
@@ -167,15 +192,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 12年攻关、200版修改、50台样机试制，印刷成本降低90%
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增王选研究成果总结
 
 ### Fixed
+
 - 人物档案文档化：将王选研究成果结构化归档至 docs/figures/H-WX-001.md
 - QA验收通过：H-WX-147 数据完整，modes [1,36,38,6,34] 映射正确
 
 ## [2026-09-01] - Phase 19 彭德怀(H-PDH-001) 人物档案归档
 
 ### Added
+
 - **彭德怀 (H-PDH-001) 人物档案**: 新增现代军事家彭德怀的思维模式档案
   - 核心模式：群众路线法(2)、统一战线法(6)、框架效应法(31)、社会网络分析法(34)、体系化纲领(42)、批评与自我批评法(10)、强化学习思维(35)
   - 创立「七环军事治理闭环」：群众路线→统一战线→框架正名→网络切节点→纪律立规矩→批评纠偏差→学习促优化
@@ -183,15 +211,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - H-PDH-152与H-PDH-334合并归档，scenarios_zh/en双语一致1076条，QA验收通过
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增彭德怀研究成果总结
 
 ### Fixed
+
 - 人物档案文档化：将彭德怀研究成果结构化归档至 docs/figures/H-PDH-001.md
 - QA验收通过：H-PDH-152和H-PDH-334数据完整合并，modes [2,6,31,34,42,10,35]映射正确，双语一致
 
 ## [2026-09-01] - Phase 19 吴有训(H-WYX-001) 人物档案归档
 
 ### Added
+
 - **吴有训 (H-WYX-001) 人物档案**: 新增现代物理学家吴有训的思维模式档案
   - 核心模式：独立自主法(9)、实事求是法(5)、抽象归纳法(25)、知行合一(37)、冗余备份法(28)
   - 创立「自制仪器→自产数据→自建学派」物理实验自主范式
@@ -199,15 +230,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 培养朱光亚、陈佳洱等两弹一星核心骨干
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增吴有训研究成果总结
 
 ### Fixed
+
 - 人物档案文档化：将吴有训研究成果结构化归档至 docs/figures/H-WYX-001.md
 - QA验收通过：H-WYX-146 数据完整，modes [5,9,25,28,37]映射正确，双语一致
 
 ## [2026-09-01] - Phase 19 薛暮桥(H-XMQ-151) 人物档案归档
 
 ### Added
+
 - **薛暮桥 (H-XMQ-151) 人物档案**: 新增当代经济学家薛暮桥的思维模式档案
   - 核心模式：损失厌恶思维(26)、边际思维(19)、摸石头过河(38)、鸟笼经济(39)、驿站制/信息流速(41)
   - 创立「价格改革风险决策框架」：损失厌恶建模→补偿机制设计→双轨容错→信息流速监测
@@ -215,54 +249,64 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 提出「必要的损失vs不必要的损失」成为改革风险决策的核心启发式
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增薛暮桥研究成果总结
 
 ### Fixed
+
 - 人物档案文档化：将薛暮桥研究成果结构化归档至 docs/figures/H-XMQ-151.md
 - QA验收通过：H-XMQ-151 数据完整，scenarios_zh/en 各1051条，双语一致
 
 ## [2026-09-01] - Phase 19 粟裕(H-SY-149) 人物档案归档
 
 ### Added
+
 - **粟裕 (H-SY-149) 人物档案**: 新增现代军事家粟裕的思维模式档案
   - 核心模式：战略迂回法(35)、不对称博弈论(16)、时间思维法(15)、空间思维法(14)、系统思维法(12)
   - 非对称作战完整范式：游击积累→运动歼灭→战果转化
   - "战争艺术=时间+空间+兵力"三维决策模型
 
 ### Changed
+
 - **代码分配说明**: 记录上游任务代码分配错误（H-SY-001→H-SY-149），已在 docs/figures/H-SY-001.md 中注明
 
 ### Fixed
+
 - 人物档案文档化：将粟裕研究成果结构化归档至 docs/figures/H-SY-001.md
 - QA验收通过：H-SY-149 数据完整，qa_gate.py 全部测试通过
 
 ## [2026-09-01] - Phase 19 陈云(H-CY-001) & 黄炎培(H-YYP-001) 人物档案归档
 
 ### Added
+
 - **陈云 (H-CY-001) 人物档案**: 新增近代经济学家陈云的思维模式档案
   - 核心模式：矛盾分析法(1)、游击战十六字诀(16)、总体性思维(22)、统一战线法(6)、多元思维模型(17)
   - 完整史实记录与「鸟笼经济」边界思维范式
 - **Phase 19 研究总结**: docs/research/phase19_summary.md 更新，包含 H-CY-001 和 H-YYP-001 双人物归档
 
 ### Fixed
+
 - H-CY-001 数据合并问题已解决：QA验收通过，scenarios_zh/en 各1051条，双语一致
 - 人物档案文档化：将陈云研究成果结构化归档至 docs/figures/H-CY-001.md
 
 ## [2026-08-27] - 文档站点更新批次3
 
 ### Added
+
 - **文档站点更新批次3**: 完成figures索引页、modes索引页、专题页同步更新
 - **数据统计同步**: 15位历史人物，12个思维模式数据更新
 - **索引页结构优化**: 按领域分类历史人物，按类别组织思维模式
 - **专题页完善**: 保持5个专题索引页（医学健康、女性榜样、民族边疆、科技创新、跨文化）
 
 ### Changed
+
 - figures索引页：从现有数据同步更新15位历史人物
 - modes索引页：新增12个思维模式的完整描述和定义
 - 数据统计：更新人物总数、思维模式覆盖度等关键指标
 - 文档站点导航：优化索引页结构和分类方式
 
 ### Fixed
+
 - 数据同步问题：确保索引页数据与最新数据保持一致
 - 文档结构优化：改善索引页的可读性和导航体验
 - 专题页链接：确保所有专题页正常访问
@@ -270,6 +314,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-01] - Phase 19 李先念(H-LXN-001) 人物档案归档
 
 ### Added
+
 - **李先念 (H-LXN-001) 人物档案**: 新增现代经济治理家李先念的思维模式档案
   - 核心模式：系统思维法(39)、矛盾分析法(5)、历史循环律监测法(32)、动态平衡法(40)
   - 创立「铁算盘」宏观调控范式：系统统筹→矛盾定位→周期监测→动态平衡
@@ -277,16 +322,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 建立全国统一的预算制度、税收征管体系和物资调配机制
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增李先念研究成果总结
 - **README.md**: 更新历史人物总数从366到372
 
 ### Fixed
+
 - 人物档案文档化：将李先念研究成果结构化归档至 docs/figures/H-LXN-001.md
 - 数据源纠正：基于正确的 lixiannian_H-LXN-347_modes.json 数据，修正 H-LXN-001.json 中的错误姓名（"毛先念"→"李先念"）
 
 ## [Unreleased]
 
 ### Added
+
 - **袁隆平 (H-YLP-001) 人物档案**: 新增现代农学家袁隆平的思维模式档案
   - 核心模式：矛盾分析法(1)、笨功夫/死磕到底(36)、自然选择法(23)、间断均衡法(24)、驿站制/信息流速(41)
   - 创立「铁律找缝→笨功筛选→环境诱导→工程推广」杂交水稻攻关五环范式
@@ -294,16 +342,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 建立国家-省-县三级繁推体系，年覆盖2亿亩，养活8000万+人口
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增袁隆平研究成果总结
 - **README.md**: 更新历史人物总数，新增袁隆平档案
 
 ### Fixed
+
 - 人物档案文档化：将袁隆平研究成果结构化归档至 docs/figures/H-YLP-001.md
 - QA验收通过：H-YLP-148 数据完整，scenarios_zh/en 各1052条，modes [1,36,23,24,41] 映射正确，双语一致
 
 ## [2026-09-02] - Phase 20 张载(H-ZZ-001) 人物档案归档
 
 ### Added
+
 - **张载 (H-ZZ-001) 人物档案**: 新增北宋思想家张载的思维模式档案
   - 核心模式：太虚即气法(1)、一物两体法(2)、民胞物与法(3)、变化气质法(4)、大心体物法(5)、知礼成性法(6)、横渠四句法(7)
   - 创立「宇宙论奠基→辩证法构建→伦理共同体确立→人格修养→境界提升→礼教实践→精神坐标确立」关学七环完整范式
@@ -311,10 +362,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「古代哲学宇宙论/关学传统」层空白
 
 ### Changed
+
 - **README.md**: 更新项目版本 v2.5.0，新增 Phase 20 成果描述和历史人物总数（374→375）
 - **Phase 20 研究总结**: 新增张载研究成果总结，确立关学七环范式
 
 ### Fixed
+
 - 人物档案文档化：将张载研究成果结构化归档至 docs/figures/H-ZZ-001.md
 - QA验收通过：H-ZZ-001 数据完整，modes [1,2,3,4,5,6,7] 映射正确，双语一致，7个核心思维模式全部验证通过
 
@@ -323,6 +376,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-02] - Phase 20 王充(H-WC-001) 人物档案归档
 
 ### Added
+
 - **王充 (H-WC-001) 人物档案**: 新增东汉思想家王充的思维模式档案
   - 核心模式：矛盾分析法(1)、实事求是法(5)、自然选择法(23)、认知偏差识别(30)、抽象归纳法(25)
   - 创立「矛盾解剖→效验检验→自然解释→偏差识别→归纳建模」批判理性五环范式
@@ -330,9 +384,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「古代哲学批判/无神论传统」层空白
 
 ### Changed
+
 - **README.md**: 更新项目版本 v2.5.0，新增 Phase 20 成果描述
 
 ### Fixed
+
 - 人物档案文档化：将王充研究成果结构化归档至 docs/figures/H-WC-001.md
 - QA验收通过：H-WC-001 数据完整，modes [1,5,23,25,30] 映射正确，双语一致
 
@@ -341,6 +397,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2026-09-02] - Phase 19 刘少奇(H-LSQ-001) 人物档案归档
 
 ### Added
+
 - **刘少奇 (H-LSQ-001) 人物档案**: 新增近现代党建家刘少奇的思维模式档案
   - 核心模式：体系化纲领(42)、批评与自我批评(10)、程序正义法(32)、制度化制衡(34)、群众路线法(2)、统一战线法(6)
   - 创立「纲领奠基→思想净化→程序准入→制度固化」四环党建工程完整范式
@@ -349,10 +406,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 填补 Protreptic 中「政党内部制度建设」层的空白
 
 ### Changed
+
 - **Phase 19 研究总结**: 更新 docs/research/phase19_summary.md，新增刘少奇研究成果总结
 - **README.md**: 更新历史人物总数从373到374，新增刘少奇档案
 
 ### Fixed
+
 - 人物档案文档化：将刘少奇研究成果结构化归档至 docs/figures/H-LSQ-001.md
 - QA验收通过：H-LSQ-157 modes [42,10,32,34] 与 H-LSQ-333 modes [10,42,6,2] 双语一致，全部测试通过
 

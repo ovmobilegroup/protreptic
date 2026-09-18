@@ -1,6 +1,7 @@
 # Protreptic 结构变更指南 v6.0
 
 ## 概述
+
 记录 Phase 13-16 全球补全结构变更，为 elcano、serrano、马里亚诺后续批量同步做准备。
 
 ---
@@ -27,17 +28,20 @@
 ## 数据模型变更 (v5 → v6)
 
 ### 新增核心字段
+
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | `legacy_type` | string | 遗产类型：cultural/political/scientific/artistic/military |
 
 ### 新增可选字段
+
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | `regional_integration` | string | 区域一体化：EU/ASEAN/AU/MERCOSUR/CIS/SCO/GCC/CARICOM/ECOWAS/SAARC/无 |
 | `conflict_resolution_mechanism` | string | 冲突解决：和解委员会/真相委员会/过渡正义/联邦主义/权力分享/国际仲裁/谈判调解/抵抗革命 |
 
 ### 可选字段枚举扩展
+
 - `education_tradition`: 新增 `东正教`, `中亚`, `高加索`, `东南亚`
 - `legal_system`: 文明圈映射扩展 (Eastern Orthodox, Post-Soviet, Pacific, etc.)
 
@@ -46,6 +50,7 @@
 ## 批次推进计划 (v4)
 
 ### 12 个批次概览
+
 | Batch | 主题 | 前缀 | 人物数 | 新模式 |
 |-------|------|------|--------|--------|
 | 17 | 高加索核心 | GE/AM/AZ/MD | 8 | M262-M269 |
@@ -65,6 +70,7 @@
 > 这些重复旨在为 elcano 等研究者提供补全选项。最终人物数保持在 96。
 
 ### 依赖链
+
 ```
 serrano → albo架构(Schema v6/前缀v5/模式v4/质检v4)
     → Batch 17 (GE/AM/AZ/MD) → Batch 18 (KZ/UZ/KG/TJ/TM) → ... → Batch 28
@@ -75,6 +81,7 @@ serrano → albo架构(Schema v6/前缀v5/模式v4/质检v4)
 ## 新模式定义 (v4)
 
 ### 领域分布
+
 | 领域 | 模式范围 | 数量 |
 |------|----------|------|
 | 高加索/东正教 | M262-M273 | 12 |
@@ -87,7 +94,9 @@ serrano → albo架构(Schema v6/前缀v5/模式v4/质检v4)
 | 边缘文明 | M350-M357 | 8 |
 
 ### 模式元数据要求
+
 每个新模式必须包含:
+
 1. **ID** (M262-M356)
 2. **名称** (中英文双语)
 3. **定义** (200-300 字)
@@ -100,6 +109,7 @@ serrano → albo架构(Schema v6/前缀v5/模式v4/质检v4)
 ## 质检清单 (v4)
 
 ### 新增检查项
+
 - `legacy_type` 字段逻辑一致性校验
 - `regional_integration` 填写时，区域与 nationality 匹配
 - `conflict_resolution_mechanism` 填写时，应与人物历史活动一致
@@ -107,6 +117,7 @@ serrano → albo架构(Schema v6/前缀v5/模式v4/质检v4)
 - 95+ 新前缀全部注册在 code_prefix_registry_v5.csv
 
 ### 校验脚本
+
 ```bash
 # Schema 校验
 python3 check_schema_v6.py --input <json_file>
@@ -120,6 +131,7 @@ python3 quality_checklist_v4.py --all --verbose
 ## 实施计划
 
 ### 阶段 1: 结构文档产出 (已完成)
+
 - [x] international_schema_v6.md
 - [x] code_prefix_registry_v5.csv (95 个新前缀)
 - [x] batch_plan_v4.md (12 批次, 96 人)
@@ -129,11 +141,13 @@ python3 quality_checklist_v4.py --all --verbose
 - [x] scenarios_v6.md (更新说明)
 
 ### 阶段 2: 交付给 elcano
+
 - elcano 读取 batch_plan_v4.md，逐批次执行 96 位人物研究
 - elcano 生成 96 个人物 JSON 文件
 - elcano 更新 scenarios_zh/en.json, scenario_tags.json, code_maps.json
 
 ### 阶段 3: 验收
+
 - 5 个结构文档审阅通过
 - 96 位人物 JSON 通过 Schema v6 校验
 - 4 主数据文件同步完成

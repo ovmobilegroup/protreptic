@@ -1,9 +1,11 @@
 # International Schema Version 3.0
 
 ## Overview
+
 This document defines the international expansion schema for Protreptic's Phase 7 Batch 5: African 8 + Southeast Asian 8 historical figures data model.
 
 ## Current Fields (Phase 7 Focus)
+
 - `code`: Unique identifier (prefix-based: ZA/NG/KE/EG- for African, SG/TH/VN/ID/PH- for Southeast Asian + 3 digits)
 - `name_zh`: Chinese name with title and honorifics
 - `name_en`: English name with title and honorifics  
@@ -34,6 +36,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 ## Phase 7 Special Requirements
 
 ### 1. ZA- (South African) Prefix Specifications
+
 - Geographic scope: South Africa
 - Cultural sphere: African, Xhosa, Zulu
 - Time periods: 19th-20th century (1818-2013)
@@ -41,6 +44,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Politics, Leadership, Peace
 
 ### 2. NG- (Nigerian) Prefix Specifications  
+
 - Geographic scope: Nigeria
 - Cultural sphere: Yoruba, Igbo, Hausa
 - Time periods: 19th-20th century (1809-1975)
@@ -48,6 +52,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Literature, Education, Peace
 
 ### 3. KE- (Kenyan) Prefix Specifications
+
 - Geographic scope: Kenya
 - Cultural sphere: Kikuyu, Maasai, Swahili
 - Time periods: 19th-20th century (1840-1974)
@@ -55,6 +60,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Environment, Technology, Education
 
 ### 4. EG- (Egyptian) Prefix Specifications
+
 - Geographic scope: Egypt
 - Cultural sphere: Arab, Islamic, Ancient
 - Time periods: Ancient-Modern (2500 BCE-1970)
@@ -62,6 +68,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Politics, Islam, Arts
 
 ### 5. SG- (Singapore) Prefix Specifications
+
 - Geographic scope: Singapore
 - Cultural sphere: Chinese, Malay, Tamil
 - Time periods: 19th-20th century (1823-2015)
@@ -69,6 +76,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Government, Technology, Business
 
 ### 6. TH- (Thai) Prefix Specifications
+
 - Geographic scope: Thailand
 - Cultural sphere: Thai, Buddhist, Southeast Asian
 - Time periods: Ancient-Modern (1782-2016)
@@ -76,6 +84,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Sufism, Philosophy, Arts
 
 ### 7. VN- (Vietnamese) Prefix Specifications
+
 - Geographic scope: Vietnam
 - Cultural sphere: Confucian, Buddhist, Southeast Asian
 - Time periods: Ancient-Modern (1890-1969)
@@ -83,6 +92,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Education, Liberation, War
 
 ### 8. ID- (Indonesian) Prefix Specifications
+
 - Geographic scope: Indonesia
 - Cultural sphere: Javanese, Islamic, Southeast Asian
 - Time periods: Ancient-Modern (1908-2024)
@@ -90,6 +100,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Business, Politics, Intercultural
 
 ### 9. PH- (Philippine) Prefix Specifications
+
 - Geographic scope: Philippines
 - Cultural sphere: Tagalog, Catholic, Southeast Asian
 - Time periods: Ancient-Modern (1872-1964)
@@ -97,6 +108,7 @@ This document defines the international expansion schema for Protreptic's Phase 
 - Priority domains: Liberation, Leadership, Education
 
 ## Mode Mapping Rules
+
 - Core mode requirement: Each figure MUST include at least one new mode (146-158)
 - Historical accuracy: Mode assignments must align with actual historical contributions
 - Cross-cultural thinking: Prefer modes showing cross-cultural exchange
@@ -105,12 +117,14 @@ This document defines the international expansion schema for Protreptic's Phase 
 ## Quality Validation
 
 ### 1. Schema Compliance
-- 16 total files created (ZA-* to PH-*)
+
+- 16 total files created (ZA-*to PH-*)
 - All files must have both Chinese and English versions
 
 ## Delivery Standards
 
 ### Phase 7 Batch 5 Results
+
 - ✅ 16 JSON files generated and saved to Protreptic/tools/json/
 - ✅ All files pass quality_checklist_v2.md validation
 - ✅ test_thinking_mode_selector.py 24/24 tests passed
