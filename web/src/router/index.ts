@@ -7,6 +7,8 @@ import FigureDetailView from '../views/FigureDetailView.vue'
 import MindView from '../views/MindView.vue'
 import TemplateDetailView from '../views/TemplateDetailView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
+import GraphView from '../views/GraphView'
+import ConceptsView from '../views/ConceptsView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -30,6 +32,26 @@ const routes: RouteRecordRaw[] = [
     meta: {
       title: '思维模式库 - 可执行方法总览',
       description: '从历史人物案例中提炼的思维模式总览：定义、操作步骤、出处与原话。',
+      seoKind: 'static',
+    },
+  },
+  {
+    path: '/concepts',
+    name: 'concepts',
+    component: ConceptsView,
+    meta: {
+      title: '概念索引 - 跨人物思想连接',
+      description: '按关键概念聚合：探索跨人物的思想连接，发现共同思维模式。',
+      seoKind: 'static',
+    },
+  },
+  {
+    path: '/graph',
+    name: 'graph',
+    component: GraphView,
+    meta: {
+      title: '关系图谱 - 人物-模式-概念可视化',
+      description: '人物-模式-概念关系可视化：探索思维模式的关联网络，发现跨时代的思想连接。',
       seoKind: 'static',
     },
   },

@@ -4,6 +4,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from '../composables/useI18n'
 import { fetchFigureModes } from '../api/static'
 import { buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
+import SimilarModeList from '../components/SimilarModeList.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -147,6 +148,9 @@ onMounted(load)
               <li v-for="(a, j) in m.apps" :key="j" class="flex gap-2"><span class="text-jade-400/70">◆</span><span>{{ a }}</span></li>
             </ul>
           </div>
+
+          <!-- Phase30-B2: 读 B1 预计算的相似模式（key_concepts 交集，非向量语义相似度） -->
+          <SimilarModeList v-if="m.code" :mode-code="m.code" :limit="5" />
         </article>
       </div>
     </template>

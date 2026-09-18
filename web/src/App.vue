@@ -13,6 +13,8 @@ const { theme, toggleTheme } = useTheme()
 const links = computed(() => [
   { to: '/figures', zh: '历史人物库', en: 'Figures' },
   { to: '/modes', zh: '思维模式库', en: 'Modes' },
+  { to: '/concepts', zh: '概念索引', en: 'Concepts' },
+  { to: '/graph', zh: '关系图谱', en: 'Graph' },
   { to: '/templates', zh: '复盘模板', en: 'Templates' },
   { to: '/api', zh: 'API 文档', en: 'API' },
 ])
