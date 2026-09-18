@@ -12,6 +12,8 @@ interface Entry {
   historical_domains?: string[]
   n_modes?: number
   description?: string
+  /** 全文检索命中词权重和（仅静态模式、有查询时由列表页传入） */
+  matchScore?: number
 }
 
 const props = defineProps<{ entry: Entry }>()
@@ -94,6 +96,11 @@ const open = () => {
     <div v-if="entry.n_modes" class="relative mt-4 flex flex-wrap items-center gap-2">
       <span class="pt-chip-mute">{{ t(`${entry.n_modes} 条模式`, `${entry.n_modes} modes`) }}</span>
       <span v-if="eraLabel" class="pt-chip-mute max-w-[14rem] truncate">{{ eraLabel }}</span>
+      <span v-if="entry.matchScore"
+            class="pt-chip-gold"
+            :title="t('命中词权重和（4 人名/模式名 · 2 分类/出处/概念/领域 · 1 定义摘要）', 'Sum of matched token weights (4 name · 2 category/source/concept/domain · 1 definition snippet)')">
+        {{ t('相关度', 'relevance') }} {{ entry.matchScore }}
+      </span>
     </div>
 
     <!-- 底部 -->

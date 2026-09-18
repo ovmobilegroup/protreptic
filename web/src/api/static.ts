@@ -18,8 +18,11 @@
  *   meta.json                条数与 sha256（供数据校验）
  *
  * 已知边界（诚实标注，不假装具备后端能力）：
- *   - 索引只有上述 9 个字段，搜索是「编号 / 名称 / 领域」子串匹配，不是向量语义检索，
- *     故 semanticSearch 降级为 searchFigures 的别名，UI 文案统一写「智能检索」；
+ *   - 检索分两条路：主路径是全文检索（见 api/fulltextSearch.ts，解码 A5 的二进制倒排索引分片，
+ *     覆盖人物名 / 模式名 / 分类 / 出处 / 概念 / 领域 / 定义摘要），本文件的
+ *     「编号 / 名称 / 领域」子串匹配保留为降级与兜底路径（索引不可用、编号、拉丁前缀、场景条目）。
+ *     两者都是字符级匹配、不是向量语义检索，故 semanticSearch 仍降级为 searchFigures 的别名，
+ *     UI 文案不得宣称语义搜索；
  *   - theme(TECH/WOMEN/…)、nationality、civilization_sphere 等国际字段不在索引中，
  *     后端 /api/v1/scenarios 同样未实现这些筛选，传入时忽略（与 api 模式行为一致）；
  *   - getSimilar 未预计算相似度：按 historical_domains / domains / era / gender / ethnicity
@@ -239,10 +242,17 @@ export const searchFigures = async (query: string, lang = 'zh', limit = 20): Pro
 }
 
 /**
- * 静态模式没有向量检索：semanticSearch 是 searchFigures 的别名。
- * UI 文案必须写成「智能检索」，不得再宣称语义搜索（诚实标注）。
+ * 静态模式没有向量检索：semanticSearch 是 searchFigures 的别名（也不走全文倒排索引）。
+ * UI 文案必须写清是「倒排匹配 / 关键词匹配」，不得宣称语义搜索（诚实标注）。
  */
 export const semanticSearch = searchFigures
+
+/**
+ * 全文检索接入点（A0 §4.7 第 5 条约定的 `searchFullText(query)`）。
+ * 实现放在 api/fulltextSearch.ts：解码 A5 的索引分片，按 token 权重和排序；
+ * index 不可用时 searchFullText 返回 null，调用方必须降级为子串匹配并显示「已降级为关键词匹配」。
+ */
+export { searchFullText, loadSearchMeta, tokenizeQuery } from './fulltextSearch'
 
 const overlapCount = (a: string[] = [], b: string[] = []): number => a.filter(value => b.includes(value)).length
 

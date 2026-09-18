@@ -1,15 +1,20 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue'
+import { ref, onMounted, computed, watch } from 'vue'
 import { useI18n } from '../composables/useI18n'
 import { useRouter } from 'vue-router'
+import { loadModeIndex } from '../api/modeIndex'
+import { searchFullText, MIN_QUERY_CHARS } from '../api/fulltextSearch'
 
 const { t, locale } = useI18n()
 const router = useRouter()
 
 const DATA_MODE = import.meta.env.VITE_DATA_MODE ?? 'api'
-const MODE_INDEX_SHARDS = 8
+/** 查询防抖（ms）：与 docs/architecture/web_p0_architecture.md §4.4 一致 */
+const FTS_DEBOUNCE_MS = 150
 
 interface ModeItem {
+  /** 静态模式下 = modes/index-0..7.json 拼接下标，与全文索引的 doc_id 同源 */
+  docId?: number
   id: string
   name_zh: string
   name_en: string
@@ -23,6 +28,8 @@ interface ModeItem {
   formula_zh?: string
   formula_en?: string
   level?: string | number
+  /** 全文检索命中的权重和（仅静态模式、有查询时） */
+  score?: number
 }
 
 const modes = ref<ModeItem[]>([])
@@ -32,22 +39,24 @@ const visibleCount = ref(120)
 const query = ref('')
 const activeCategory = ref('')
 
+type FtsState = 'idle' | 'loading' | 'ready' | 'empty' | 'degraded'
+const ftsState = ref<FtsState>('idle')
+/** doc_id -> 权重和 */
+const ftsHits = ref<Map<number, number>>(new Map())
+const ftsShards = ref<number[]>([])
+let ftsTimer: ReturnType<typeof setTimeout> | undefined
+let ftsSeq = 0
+
+/** 静态模式：8 个模式索引分片（api/modeIndex.ts 共享缓存，/figures 检索用同一份） */
 const fetchStaticModes = async (): Promise<ModeItem[]> => {
-  const shards = await Promise.all(
-    Array.from({ length: MODE_INDEX_SHARDS }, async (_, i) => {
-      const r = await fetch(`${import.meta.env.BASE_URL}data/modes/index-${i}.json`)
-      if (!r.ok) throw new Error(`data/modes/index-${i}.json HTTP ${r.status}`)
-      const d = await r.json()
-      if (!Array.isArray(d)) throw new Error(`data/modes/index-${i}.json 结构异常`)
-      return d
-    })
-  )
-  return shards.flat().map((m: any) => ({
-    id: String(m.mode_code ?? ''),
-    name_zh: m.name_zh ?? '', name_en: m.name_en ?? '',
-    domain_zh: m.domain_zh ?? '', domain_en: m.domain_en ?? '',
-    category: m.category ?? '', figure_code: m.figure_code ?? '', figure_name: m.figure_name ?? '',
-    level: m.level ?? '',
+  const entries = await loadModeIndex()
+  return entries.map((e) => ({
+    docId: e.docId,
+    id: e.modeCode,
+    name_zh: e.nameZh, name_en: e.nameEn,
+    domain_zh: e.domainZh, domain_en: e.domainEn,
+    category: e.category, figure_code: e.figureCode, figure_name: e.figureName,
+    level: '',
   }))
 }
 
@@ -82,16 +91,108 @@ const categories = computed(() => {
   return Object.entries(c).sort((a, b) => b[1] - a[1])
 })
 
+/** 现有子串匹配：保留为降级路径（索引不可用）与兜底（编号、拉丁前缀等索引外字段） */
+const matchesSubstring = (m: ModeItem, q: string): boolean =>
+  [m.id, m.name_zh, m.name_en, m.domain_zh, m.figure_name, m.category]
+    .some((v) => String(v || '').toLowerCase().includes(q))
+
 const filtered = computed(() => {
   const q = query.value.trim().toLowerCase()
-  return modes.value.filter((m) => {
-    if (activeCategory.value && m.category !== activeCategory.value) return false
-    if (!q) return true
-    return [m.id, m.name_zh, m.name_en, m.domain_zh, m.figure_name, m.category]
-      .some((v) => String(v || '').toLowerCase().includes(q))
-  })
+  const base = activeCategory.value ? modes.value.filter((m) => m.category === activeCategory.value) : modes.value
+  if (!q) return base
+
+  const hits = ftsState.value === 'ready' ? ftsHits.value : null
+  if (!hits || hits.size === 0) return base.filter((m) => matchesSubstring(m, q))
+
+  // 倒排命中按相关度（权重和）排序，索引覆盖不到的（编号 / 拉丁前缀）用子串兜底追加在后
+  const ranked: ModeItem[] = []
+  const rest: ModeItem[] = []
+  for (const m of base) {
+    const score = m.docId === undefined ? undefined : hits.get(m.docId)
+    if (score !== undefined) ranked.push({ ...m, score })
+    else if (matchesSubstring(m, q)) rest.push(m)
+  }
+  ranked.sort((a, b) => (b.score || 0) - (a.score || 0) || (a.docId || 0) - (b.docId || 0))
+  return [...ranked, ...rest]
 })
+
 const visibleModes = computed(() => filtered.value.slice(0, visibleCount.value))
+
+const ftsRankedCount = computed(() => filtered.value.filter((m) => m.score !== undefined).length)
+const ftsFallbackCount = computed(() => filtered.value.length - ftsRankedCount.value)
+
+/** 检索能力说明：必须与实现一致，不得宣称语义检索 */
+const searchHint = computed(() => {
+  if (DATA_MODE !== 'static') return ''
+  if (query.value.trim().length < MIN_QUERY_CHARS) {
+    return t(
+      '全文检索：按倒排索引匹配人物名 / 模式名 / 分类 / 出处 / 概念 / 领域 / 定义摘要——不是语义向量检索；拉丁词不做前缀（decis ≠ decision），编号与案例正文需靠子串兜底。',
+      'Full-text search: an inverted index over figure/mode names, category, source chapter, key concepts, domain and definition snippets — not vector semantic search; Latin words are not prefix-expanded, and codes/case bodies rely on substring fallback.'
+    )
+  }
+  if (ftsState.value === 'loading') {
+    return t(
+      '检索中…（首次查询按 token 首字符拉取索引分片，之后常驻内存）',
+      'Searching… (first query fetches only the shards matching token initials, then caches them)'
+    )
+  }
+  if (ftsState.value === 'degraded') {
+    return t(
+      '已降级为关键词匹配（倒排索引分片不可用）。',
+      'Degraded to keyword matching (inverted-index shards unavailable).'
+    )
+  }
+  if (ftsState.value === 'empty') {
+    return t(
+      '倒排索引未命中（拉丁词不做前缀，编号与案例正文不在索引内），以下为编号 / 名称 / 领域子串匹配结果。',
+      'No inverted-index match (Latin words are not prefix-expanded; codes and case bodies are not indexed). Showing substring matches on code / name / domain.'
+    )
+  }
+  if (ftsState.value === 'ready') {
+    const tail = ftsFallbackCount.value > 0
+      ? t(`；另有 ${ftsFallbackCount.value} 条为编号 / 名称子串兜底`, `; ${ftsFallbackCount.value} more from substring fallback`)
+      : ''
+    return t(
+      `倒排索引命中 ${ftsRankedCount.value} 条，按相关度（命中词权重和）排序——不是语义向量检索${tail}。`,
+      `${ftsRankedCount.value} inverted-index hits, ordered by token-weight sum — not vector semantic search${tail}.`
+    )
+  }
+  return ''
+})
+
+const resetFts = () => {
+  ftsSeq += 1
+  ftsState.value = 'idle'
+  ftsHits.value = new Map()
+  ftsShards.value = []
+}
+
+const runFts = async () => {
+  const raw = query.value.trim()
+  if (DATA_MODE !== 'static' || raw.length < MIN_QUERY_CHARS) { resetFts(); return }
+  const seq = ++ftsSeq
+  ftsState.value = 'loading'
+  const outcome = await searchFullText(raw)
+  if (seq !== ftsSeq) return
+  if (!outcome) {
+    ftsState.value = 'degraded'
+    ftsHits.value = new Map()
+    ftsShards.value = []
+    return
+  }
+  const hits = new Map<number, number>()
+  for (const hit of outcome.hits) hits.set(hit.docId, hit.score)
+  ftsHits.value = hits
+  ftsShards.value = outcome.shards
+  ftsState.value = outcome.note === 'ok' ? 'ready' : 'empty'
+}
+
+watch(query, () => {
+  if (DATA_MODE !== 'static') return
+  clearTimeout(ftsTimer)
+  if (query.value.trim().length < MIN_QUERY_CHARS) { resetFts(); return }
+  ftsTimer = setTimeout(runFts, FTS_DEBOUNCE_MS)
+})
 
 onMounted(fetchModes)
 </script>
@@ -127,9 +228,17 @@ onMounted(fetchModes)
                 d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
         </svg>
         <input v-model="query" type="text"
-               :placeholder="t('搜索模式名、人物、领域…', 'Search mode, figure, domain…')"
+               :placeholder="t('检索模式名、人物、领域、概念、出处…', 'Search mode, figure, domain, concept, source…')"
                class="pt-input pl-11" />
       </div>
+
+      <p v-if="searchHint" class="mb-4 text-xs leading-relaxed text-parchment/40"
+         :class="ftsState === 'degraded' ? 'text-amber-200/60' : ''">
+        {{ searchHint }}
+        <span v-if="ftsState === 'ready' && ftsShards.length" class="text-parchment/30">
+          · {{ t(`本次索引分片 ${ftsShards.length} 片`, `${ftsShards.length} index shard(s)`) }}
+        </span>
+      </p>
 
       <div v-if="categories.length" class="flex flex-wrap gap-2">
         <button @click="activeCategory = ''"
@@ -184,6 +293,9 @@ onMounted(fetchModes)
           <div class="mt-auto flex flex-wrap items-center gap-1.5 pt-4">
             <span v-if="m.figure_name" class="pt-chip-mute max-w-full truncate">{{ m.figure_name }}</span>
             <span v-if="m.level" class="pt-chip-mute">{{ t('梯度', 'Tier') }}{{ m.level }}</span>
+            <span v-if="m.score !== undefined" class="pt-chip-gold" :title="t('命中词权重和（4 人名/模式名 · 2 分类/出处/概念/领域 · 1 定义摘要）', 'Sum of matched token weights (4 name · 2 category/source/concept/domain · 1 definition snippet)')">
+              {{ t('相关度', 'relevance') }} {{ m.score }}
+            </span>
           </div>
         </article>
       </div>
