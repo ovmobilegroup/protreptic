@@ -5,7 +5,7 @@
 - 仓库：dev `/opt/data/workspace/Protreptic`（master，本地） / publish `/opt/data/release/Protreptic-publish`（origin main，驱动 Pages）
 - 验收基线：workspace `b089136f` / publish `e5103dc`
 - 线上产物指纹：`assets/index-CE7EoPzT.js`（sha256 `e05d3b97d404...`，与本地 `web/dist/assets/index-CE7EoPzT.js` 逐字节相同）；`sw.js` BUILD_ID `d131673f513e`
-- 本轮 Pages 部署：run **35349687457 success**（4m17s）；Quality Gate：run **35350102915**（workflow_run，已真正执行 3 个 job）
+- 本轮 Pages 部署：run **35349687457 success**（4m17s，数据基线修复后）+ 报告提交后一次 success；Quality Gate：run **35351209916 success**（3 个 job 全绿）
 
 ---
 
@@ -21,7 +21,7 @@
    - **B2** t_dd99310c 的数据修复只落在 workspace，发布仓仍是脏数据，每次 CI 重新生成线上产物时把缺陷带回来：线上 `/minds/H-SUN-001/` 是 404 空壳页，sitemap 有 2 条 `<loc>` 带裸空格。
    - **B3** 清理脏记录后 figures 口径 1058 变 1057，但 `EXPECT_FIGURES` 常量未同步，**Pages 部署被断言卡死失败**，线上停留在旧版本。
    - **B4** 质量门恢复运行后 `data-check` job 仍失败：该 job 从不构建 SPA，`prerender_routes.py` 找不到 `web/dist`。
-3. 修复后复核：B2 的线上症状全部消失（`/minds/H-SUN-001/` -> 200 且渲染 10 条模式；`/minds/Sun%20Quan/`、`/figures/code%20field/` -> 404 退出；sitemap 裸空格 0），B3 后 Pages 部署成功，B1 后质量门恢复真实执行（`live-links` success、`Lighthouse` success）。
+3. 修复后复核：B2 的线上症状全部消失（`/minds/H-SUN-001/` -> 200 且渲染 10 条模式；`/minds/Sun%20Quan/`、`/figures/code%20field/` -> 404 退出；sitemap 裸空格 0），B3 后 Pages 部署成功，B1 后质量门恢复真实执行，B4 修复后首次**三 job 全绿**（run 35351209916：data-check 24/24、live-links 1359/1359、Lighthouse success）。
 4. 未达标但**不影响站点发布**的存量项：`markdown-lint`（CI）与 `ci-cd` 的 Python 测试长期红（根因已定位，见 R1/R2），以及数据语义层问题（R3 到 R9）。这些不是 Phase30 A/B/C 交付本身的功能缺陷，建议单独排卡。
 
 ---
@@ -43,7 +43,7 @@
 | `cd web && VITE_DATA_MODE=static npm run build` | **PASS** | vue-tsc 0 error，137 modules，`dist/assets/index-CE7EoPzT.js` 339.22 kB（gzip 123.95 kB） |
 | 本地构建产物 == 线上产物 | **PASS** | 两侧 `index-CE7EoPzT.js` sha256 `e05d3b97d404326395be376ab9021c142455c095dd3c0ba9f1975e1d3e71d81e` |
 | Pages 部署（`pages.yml`） | **PASS** | run 35349687457 `success` 4m17s（修复 B3 前为 failure 18s，断言 `figures 条数 1057 != 1058`） |
-| Quality Gate（`quality-gate.yml`） | **部分 PASS（修复后恢复运行）** | run 35350102915：`live-links` **success**、`Lighthouse` **success**、`data-check` failure（步骤 `路由预渲染` 缺 `web/dist`，已修 B4，等待下一次 workflow_run 复核） |
+| Quality Gate（`quality-gate.yml`） | **PASS** | run **35351209916 success**：`data-check` **success**（24 条断言 0 失败：名录 1338 = 人物 283 / 场景 1055、路由 1353、sitemap 1354 = 路由 + 首页）、`live-links` **success**、`Lighthouse` **success**。该门自 `d72e25b` 起从未真正运行（见 B1），本次是恢复后第一次跑完且全绿 |
 | `CI`（markdown-lint） | **FAIL（存量，非本阶段引入）** | run 35349687441 failure，违规集中在 `docs/**`、`data/figures/**` 与 B5 新增的 `web/public/templates/*.md`，见 R1 |
 | `Protreptic CI/CD` | **FAIL（存量，非本阶段引入）** | run 35349687510 failure，步骤 `Run Python tests`：`assert len(SCENARIOS_ZH) == 1008` 实测 39，见 R2 |
 
@@ -99,7 +99,7 @@ CI 红对照（证明不是本卡引入）：`markdown-lint` 与 `ci-cd` 的失�
 | B1 | Quality Gate 自 `d72e25b` 起**从未运行**（每个 push 只有 0 job 幻影失败，workflow 名退化成文件路径） | `quality-gate.yml` 被重复追加了 `lighthouse` 与 `data-check-and-links` 两个 job（同一 YAML 映射键出现两次），GitHub 判定文件非法 | 删除重复块，保留 canonical 三 job（`data-check` / `live-links` / `lighthouse`），本地 YAML 校验 job 键唯一 | workspace `a1674724` / publish `38e3d1f` |
 | B2 | 线上 `/minds/H-SUN-001/` 404 空壳页；`/minds/Sun%20Quan/`、`/figures/code%20field/` 才是「真页面」；sitemap 2 条 `<loc>` 带裸空格 | t_dd99310c 的清洗只落在 **workspace**，发布仓 `data/modes_data.json`（10 条 M-SUN 的 `figure_code='Sun Quan'`）、`data/figure_names.json`、`data/figures/H-SUN-001.json`、`tools/json/scenarios_{zh,en}.json`、`code_maps*.json` 仍是脏版本；Pages 从发布仓重新生成，缺陷被持续带回线上 | 把 8 个源文件按内容级 diff 与 workspace 对齐（`data/modes_data.json`、`data/figure_names.json`、`data/figures/H-SUN-001.json`、`tools/json/scenarios_zh.json`、`tools/json/scenarios_en.json`、`api/data/scenarios_en.json`、`tools/json/code_maps.json`、`tools/code_maps_en.json`）；复核 publish 侧 `figure_code` 无空白值，「Sun Quan」仅存在于英文散文 | publish `5203888` |
 | B3 | Pages 部署断言失败被卡死（`figures 条数 1057 != 1058`），线上停在旧版本 | 清洗后 figures 表由 1058 降为 1057，但 `tools/export_static_site.py:EXPECT_FIGURES` 与 `tools/pages_preflight.py:EXPECT_FIGURES` 仍是 1058；本地 `api/protreptic.db` 也未重建（仍 1058 行） | 常量 1058 改 1057（两仓各 2 处）；两仓 `python3 tools/build_figures_db.py` 从清洗后 JSON 重建 figures 表（1057 行、0 条空白 code）；重跑 `export_static_site -> build_daily_index -> build_search_index -> build_graph_data -> build_unified_index`，`pages_preflight --stage data` 两仓全绿 | workspace `b089136f` / publish `e5103dc` |
-| B4 | 质量门恢复运行后 `data-check` job 仍失败：`[prerender] missing .../web/dist/data/index.unified.json` | 该 job 重建数据后直接调用 `prerender_routes.py`，但从不构建 SPA，`web/dist` 不存在（pages.yml 是在 `npm run build` 之后才 prerender） | job 内补 `Set up Node 20` + `cd web && npm ci && VITE_DATA_MODE=static npm run build`，并把 `timeout-minutes` 10 改 15 | workspace/publish `quality-gate.yml`（本报告同批提交） |
+| B4 | 质量门恢复运行后 `data-check` job 仍失败：`[prerender] missing .../web/dist/data/index.unified.json` | 该 job 重建数据后直接调用 `prerender_routes.py`，但从不构建 SPA，`web/dist` 不存在（pages.yml 是在 `npm run build` 之后才 prerender） | job 内补 `Set up Node 20` + `cd web && npm ci && VITE_DATA_MODE=static npm run build`，并把 `timeout-minutes` 10 改 15。复核：run **35351209916** 的 `data-check` **success**（24/24） | workspace/publish `quality-gate.yml`（本报告同批提交） |
 
 ---
 
