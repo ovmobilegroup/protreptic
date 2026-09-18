@@ -360,7 +360,7 @@ onMounted(async () => {
                         <span class="font-medium text-parchment/90">{{ modeName(it.modes[i - 1]) }}</span>
                       </div>
                       <div class="mb-2 flex flex-wrap gap-1.5">
-                        <span class="pt-chip-jade">{{ modeDomain(it.modes[i - 1]) }}</span>
+                        <span class="pt-chip-jade max-w-[14rem] truncate">{{ modeDomain(it.modes[i - 1]) }}</span>
                         <span v-if="it.modes[i - 1].category" class="pt-chip-mute">{{ it.modes[i - 1].category }}</span>
                       </div>
                       <p class="mb-2 text-xs leading-relaxed text-parchment/65">{{ modeDefinition(it.modes[i - 1]) }}</p>
