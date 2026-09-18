@@ -3,6 +3,7 @@ import { ref, onMounted, watch, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from '../composables/useI18n'
 import { fetchFigureModes } from '../api/static'
+import { buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
 
 const route = useRoute()
 const router = useRouter()
@@ -12,10 +13,28 @@ const payload = ref<any>(null)
 const loading = ref(false)
 const code = ref(String(route.params.code || ''))
 
+// 路由 meta 只给了通用标题/描述；真实人名与模式数要等 by-figure 分片到位。
+// 口径与 tools/prerender_routes.py 的 person 路由完全一致，直连与站内跳转看到的 head 相同。
+const applySeo = () => {
+  const data = payload.value
+  if (!data) return
+  const name = data.figure_name || code.value
+  const count = data.count ?? (data.modes || []).length
+  const firstDefinition = (data.modes || []).map((m: any) => m.definition_zh).find((d: any) => !!d)
+  const description = truncateSeo(firstDefinition || `${name} 的 ${count} 条思维模式档案：定义、操作步骤、出处与原话。`)
+  setSeo({
+    title: `${name} - 思维模式档案 ${count} 条`,
+    description,
+    path: `minds/${code.value}`,
+    jsonLd: buildJsonLd('person', { name, description, path: `minds/${code.value}`, code: code.value }),
+  })
+}
+
 const load = async () => {
   loading.value = true
   payload.value = await fetchFigureModes(code.value)
   loading.value = false
+  applySeo()
 }
 
 const pick = (v: any) => (Array.isArray(v) ? (v[0] ?? '') : (v ?? ''))

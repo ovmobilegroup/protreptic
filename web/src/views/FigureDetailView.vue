@@ -3,6 +3,7 @@ import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useFiguresStore } from '../stores/figures'
 import { useI18n } from '../composables/useI18n'
+import { buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
 
 const route = useRoute()
 const router = useRouter()
@@ -63,12 +64,30 @@ Object.entries(modeDomainMap).forEach(([modeId, domain]) => {
   ;(domainToModeIds[domain] ||= []).push(Number(modeId))
 })
 
+// 场景页 head：路由 meta 只有通用描述，真实场景名/模式数要等分片到位。
+// 口径与 tools/prerender_routes.py 的 scenario 路由一致（x - 场景档案 N 条模式）。
+const applySeo = (data: any) => {
+  const code = data.code || figureCode.value
+  const name = data.name || code
+  const count = (data.modes || []).length
+  const description = truncateSeo(data.description || `场景 ${name}（${code}）关联的 ${count} 条思维模式。`)
+  setSeo({
+    title: `${name} - 场景档案 ${count} 条模式`,
+    description,
+    path: `figures/${code}`,
+    jsonLd: buildJsonLd('scenario', { name, description, path: `figures/${code}`, code }),
+  })
+}
+
 const fetchFigure = async () => {
   loading.value = true; error.value = null
   try {
     const data = await figuresStore.fetchFigure(figureCode.value, locale.value)
-    if (data) { figure.value = data; await fetchSimilarFigures() }
-    else error.value = t('人物不存在', 'Figure not found')
+    if (data) {
+      figure.value = data
+      applySeo(data)
+      await fetchSimilarFigures()
+    } else error.value = t('人物不存在', 'Figure not found')
   } catch (err) {
     error.value = err instanceof Error ? err.message : t('加载失败', 'Failed to load')
   } finally { loading.value = false }

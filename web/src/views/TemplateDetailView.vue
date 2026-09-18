@@ -3,6 +3,7 @@ import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { useI18n } from '../composables/useI18n'
+import { buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
 
 const route = useRoute()
 const router = useRouter()
@@ -32,6 +33,31 @@ const html = computed(() => {
   return marked.parse(noH1, { gfm: true, breaks: false }) as string
 })
 
+// 摘要取正文首个非空段落（跳过标题/列表/表格/引用/代码围栏行）。
+const firstParagraph = (text: string): string => {
+  for (const line of text.split('\n')) {
+    const stripped = line.trim().replace(/^>\s*/, '')
+    if (!stripped) continue
+    if (stripped.startsWith('#') || stripped.startsWith('|') || stripped.startsWith('```')) continue
+    if (stripped.startsWith('- ') || stripped.startsWith('* ')) continue
+    return stripped.replace(/[*`]/g, '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').trim()
+  }
+  return ''
+}
+
+// 模板页 head：标题取 markdown 的第一个 H1，摘要取首个正文段落（与预渲染 Article 同口径）。
+const applySeo = () => {
+  const id = String(route.params.id || '')
+  const name = title.value
+  const description = truncateSeo(firstParagraph(body.value) || `${name}：历史经典案例复盘模板。`)
+  setSeo({
+    title: name,
+    description,
+    path: `templates/${id}`,
+    jsonLd: buildJsonLd('template', { name, description, path: `templates/${id}` }),
+  })
+}
+
 const load = async () => {
   const id = String(route.params.id || '')
   loading.value = true
@@ -49,6 +75,7 @@ const load = async () => {
     raw.value = ''
   }
   loading.value = false
+  if (!notFound.value) applySeo()
 }
 
 onMounted(load)

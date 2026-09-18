@@ -1,0 +1,7 @@
+# Protreptic 思想典藏 — https://ovmobilegroup.github.io/protreptic/
+# 全站为公开静态内容（SPA 外壳 + 预渲染路由 + 静态 JSON 分片），无需登录，
+# 因此允许全量抓取；此处只声明 sitemap 位置。
+User-agent: *
+Allow: /
+
+Sitemap: https://ovmobilegroup.github.io/protreptic/sitemap.xml
