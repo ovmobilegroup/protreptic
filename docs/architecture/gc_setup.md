@@ -77,3 +77,36 @@ python3 tools/prerender_routes.py --body-persons all
 
 原来承诺的「不采集个人数据、不设 cookie」现在更严格: 连统计脚本都没有。
 将来若接入，仍需保持这一口径（GoatCounter / Plausible 一类 cookieless 方案满足）。
+
+## 5. 自托管路径实测记录（2026-09-19，本地回环）
+
+没有域名/公网入口，但自托管链路本身已经跑通，证明 `tools/gc/` 可用、缺口只在「一个公网 HTTPS 入口」：
+
+```
+$ mkdir -p /tmp/gc_proof1 && export GOATCOUNTER_DB=/tmp/gc_proof1/protreptic.sqlite3
+$ ./tools/gc/init_site.sh
+[init] db=/tmp/gc_proof1/protreptic.sqlite3
+[init] done. Dashboard: ./tools/gc/gc serve --db sqlite+/tmp/gc_proof1/protreptic.sqlite3 --listen :8080
+
+$ GOATCOUNTER_DB=/tmp/gc_proof1/protreptic.sqlite3 GOATCOUNTER_LISTEN=:8099 ./tools/gc/serve.sh   # 后台常驻
+
+$ curl -s -o /dev/null -w "%{http_code} %{size_download}\n" http://127.0.0.1:8099/count.js
+200 8940
+
+$ curl -s -o /dev/null -w "%{http_code}\n" -A "<Chrome UA>" -e "https://protreptic.goatcounter.local/" \
+    -H "Host: protreptic.goatcounter.local" "http://127.0.0.1:8099/count?p=%2Fproof&t=proof"
+200                      # 无 X-Goatcounter 错误头 => 该次命中被接受
+
+$ ./tools/gc/gc db query --db "sqlite+/tmp/gc_proof1/protreptic.sqlite3" "select * from hit_counts"
+site_id  path_id  hour                 total
+1        1        2026-09-18 22:00:00  1
+
+$ ./tools/gc/gc db query --db "sqlite+/tmp/gc_proof1/protreptic.sqlite3" "select * from hit_stats"
+site_id  path_id  day                  stats
+1        1        2026-09-18 00:00:00  [0,0,...,1(第22小时),0]
+```
+
+结论：`count.js` 加载 → `/count` 上报 → `paths` / `hit_counts` / `hit_stats` 落库，端到端可用。
+唯一缺口是线上页面必须指向 **HTTPS、公网可达** 的 GoatCounter 主机（Pages 是 HTTPS，
+http 端点会被浏览器按混合内容拦掉），以及官方托管站点码需要人工注册。
+因此本卡仍选「撤下占位符」；拿到域名/主机后按第 2 节接入即可。
