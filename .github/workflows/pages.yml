@@ -31,6 +31,8 @@ on:
       - 'docs/**'
       - 'tools/export_static_site.py'
       - 'tools/pages_preflight.py'
+      - 'tools/prerender_routes.py'
+      - 'tools/build_unified_index.py'
       - 'data/modes_data.json'
       - 'api/protreptic.db'
   workflow_dispatch:
@@ -93,6 +95,15 @@ jobs:
       - name: 断言 dist 产物
         run: python3 tools/pages_preflight.py --stage dist
 
+      # Step B2: 路由预渲染 (Phase30-A0).
+      # GitHub Pages 是纯静态托管, /protreptic/figures 这类深链没有对应文件, 只能回落到
+      # 404.html, 页面能渲染但状态码是 404, 已实测. 本步骤为公开名录里的每个路由生成
+      # <route>/index.html, 内容 = dist/index.html + 该路由 head, 让深链返回 200;
+      # 未覆盖的路径仍回落 404.html, 行为不变.
+      # 顺序: 必须在 dist 断言之后. 脚本会用路由壳重写 dist/404.html, 并自检其等于 index.html.
+      - name: 路由预渲染 深链 200
+        run: python3 tools/prerender_routes.py
+
       # Step C：文档站（替代因切换 Pages Source 而失效的 Jekyll 渲染）
       - name: 安装文档站工具链
         run: python3 -m pip install --disable-pip-version-check "mkdocs==1.6.*" "mkdocs-material==9.*"
@@ -106,7 +117,7 @@ jobs:
           set -euo pipefail
           # runner 每次都是干净的；mkdir 让这一步在热工作区里也能重复执行
           mkdir -p _site
-          cp -r web/dist/. _site/          # SPA 在产物根，含 404.html 与 data/
+          cp -r web/dist/. _site/          # SPA in product root: 404.html + data/ + 795 prerendered route dirs
           mkdir -p _site/docs
           cp -r site_docs/. _site/docs/    # 文档站放在 /docs/，与 Jekyll 时代的路径一致
           touch _site/.nojekyll

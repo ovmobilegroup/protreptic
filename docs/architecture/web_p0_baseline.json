@@ -1,0 +1,197 @@
+{
+ "schema": "protreptic.web_p0_baseline/v1",
+ "generated_by": "tools/measure_web_p0_baseline.py",
+ "data_dir": "web/public/data",
+ "data": {
+  "products": {
+   "figures.index.json": {
+    "raw_bytes": 212673,
+    "gzip_bytes": 34606,
+    "sha256": "a26a9cc5fb4d8e95d21473b2b5cf098c27d16e55c76d41eba3f15e20c75448f3"
+   },
+   "index.unified.json": {
+    "raw_bytes": 446804,
+    "gzip_bytes": 116735,
+    "sha256": "0d73f9d9a882101b4e84298660785f0e3e490c1f2a98f0168f45e20c238ac140",
+    "count": 1339,
+    "counts": {
+     "total": 1339,
+     "figures": 283,
+     "scenarios": 1056,
+     "with_modes": 1303
+    }
+   },
+   "modes/index-*.json": {
+    "count_shards": 8,
+    "shards": [
+     {
+      "file": "index-0.json",
+      "raw_bytes": 363155,
+      "gzip_bytes": 158697,
+      "sha256": "bd4e319e1e2205579ca591709054cfb9c1d8bf71865d7bc877ab81e62eb1d9ae"
+     },
+     {
+      "file": "index-1.json",
+      "raw_bytes": 321087,
+      "gzip_bytes": 140676,
+      "sha256": "abbe1e97d8497750db8dc71629cc58bed62f3d763ea1ddebe54da969072b04ce"
+     },
+     {
+      "file": "index-2.json",
+      "raw_bytes": 340955,
+      "gzip_bytes": 149077,
+      "sha256": "b67cb1cd577a26fe78b0ae16ec49ebe0841c028f13f6f67432698f32220143e5"
+     },
+     {
+      "file": "index-3.json",
+      "raw_bytes": 323851,
+      "gzip_bytes": 141780,
+      "sha256": "1ca41c2a566a310fe00f22b5ecefc6a61259f7db29386edefa656d987c061cb1"
+     },
+     {
+      "file": "index-4.json",
+      "raw_bytes": 323261,
+      "gzip_bytes": 140438,
+      "sha256": "df41c3a85d28106f279da42da2e7f5a87384bf4edd1e4fe4ca4de5bed2b7b7fe"
+     },
+     {
+      "file": "index-5.json",
+      "raw_bytes": 317179,
+      "gzip_bytes": 137347,
+      "sha256": "c079bb5374ab8699e51daad9288f3c384b27447daaa93c0b75b9da54849328de"
+     },
+     {
+      "file": "index-6.json",
+      "raw_bytes": 302226,
+      "gzip_bytes": 130595,
+      "sha256": "2e2ddb7a0ec3df29261ebf52812045e1e2cc01e7ec40d5722d24bcaf7a76a4d4"
+     },
+     {
+      "file": "index-7.json",
+      "raw_bytes": 326144,
+      "gzip_bytes": 142870,
+      "sha256": "968a45269100bba18813bb1bcba015df88a0e6d2e655b103b91335385401d416"
+     }
+    ],
+    "raw_bytes": 2617858,
+    "gzip_bytes": 1141480
+   },
+   "figures/*.json": {
+    "count": 1058,
+    "raw_bytes": 1626747,
+    "gzip_bytes": 629885,
+    "raw_median": 333.0,
+    "gzip_median": 191.0,
+    "gzip_p90": 1524
+   },
+   "modes/by-figure/*.json": {
+    "count": 284,
+    "raw_bytes": 19864984,
+    "gzip_bytes": 8121254,
+    "raw_median": 69283.5,
+    "gzip_median": 28519.5,
+    "gzip_p90": 42516
+   }
+  },
+  "corpus": {
+   "modes": 2858,
+   "chars_zh_fields": 3629083,
+   "chars_en_fields": 8653082,
+   "chars_all": 12282165,
+   "top_fields": [
+    [
+     "definition_en",
+     2712701
+    ],
+    [
+     "representative_cases_en",
+     1660060
+    ],
+    [
+     "process_en",
+     1524767
+    ],
+    [
+     "modern_applications_en",
+     1174241
+    ],
+    [
+     "domain_en",
+     968588
+    ],
+    [
+     "definition_zh",
+     801592
+    ],
+    [
+     "representative_cases_zh",
+     491994
+    ],
+    [
+     "process_zh",
+     433128
+    ],
+    [
+     "key_quote_en",
+     354674
+    ],
+    [
+     "representative_figures",
+     345485
+    ],
+    [
+     "modern_applications_zh",
+     344067
+    ],
+    [
+     "domain_zh",
+     281001
+    ],
+    [
+     "source_chapter",
+     245366
+    ],
+    [
+     "key_concepts",
+     232022
+    ],
+    [
+     "name_en",
+     209509
+    ],
+    [
+     "related_modes",
+     99615
+    ]
+   ]
+  }
+ },
+ "dist": {
+  "files": {
+   "index.html": {
+    "raw_bytes": 2094,
+    "gzip_bytes": 1093,
+    "sha256": "597f1f45d1bc62badedcb867363f43c5f617a7b0d9095f43f8ec7a197168e392"
+   },
+   "404.html": {
+    "raw_bytes": 2094,
+    "gzip_bytes": 1093,
+    "sha256": "597f1f45d1bc62badedcb867363f43c5f617a7b0d9095f43f8ec7a197168e392"
+   },
+   "assets/index-BRFwtcFp.css": {
+    "raw_bytes": 41691,
+    "gzip_bytes": 7753,
+    "sha256": "def676d0af61777386bcac93ff769f67c79d3171b5ac98a8600dd311275f3036"
+   },
+   "assets/index-Dmk-GL4Z.js": {
+    "raw_bytes": 258326,
+    "gzip_bytes": 91594,
+    "sha256": "2d03a3b8e8978d01b411d70fc6e4cf59609318854390a20d855057d92a735cc9"
+   }
+  },
+  "app_shell_raw_bytes": 304205,
+  "app_shell_gzip_bytes": 101533,
+  "prerendered_route_dirs": 1350,
+  "prerendered_total_raw_bytes": 3981599
+ }
+}
