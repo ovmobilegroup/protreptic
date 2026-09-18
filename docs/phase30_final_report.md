@@ -138,6 +138,7 @@ python3 tools/ci_link_check.py live --crawl-sample 8
 ```
 
 **线上 1359 条 URL 全部可达，失败 0 条**（含 sitemap 全集、路由清单 canonical、入口页自报的站内链接）。
+
 ---
 
 ## 3. 本卡（C5）变更清单
