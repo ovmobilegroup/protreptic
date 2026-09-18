@@ -27,7 +27,7 @@ const isActive = (to: string) => route.path.startsWith(to)
 <template>
   <div class="relative flex min-h-screen flex-col">
     <!-- 背景光晕 -->
-    <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div aria-hidden="true" class="pt-print-hide pointer-events-none fixed inset-0 -z-10 overflow-hidden">
       <div class="absolute -top-40 left-1/2 h-[520px] w-[820px] -translate-x-1/2 rounded-full
                   bg-gold-500/10 blur-[120px] animate-glow-pulse"></div>
       <div class="absolute top-1/3 -right-40 h-[420px] w-[520px] rounded-full
@@ -37,7 +37,7 @@ const isActive = (to: string) => route.path.startsWith(to)
     </div>
 
     <!-- 顶栏 -->
-    <header class="sticky top-0 z-40 border-b border-white/10 bg-ink-950/70 backdrop-blur-xl">
+    <header class="pt-print-hide sticky top-0 z-40 border-b border-white/10 bg-ink-950/70 backdrop-blur-xl">
       <nav class="pt-container" aria-label="主导航">
         <div class="flex h-16 items-center justify-between gap-4">
           <RouterLink to="/figures" class="group flex items-center gap-3 shrink-0">
@@ -115,7 +115,7 @@ const isActive = (to: string) => route.path.startsWith(to)
       </RouterView>
     </main>
 
-    <footer class="mt-20 border-t border-white/10 bg-ink-950/60">
+    <footer class="pt-print-hide mt-20 border-t border-white/10 bg-ink-950/60">
       <div class="pt-container py-10">
         <div class="pt-hairline mb-8"></div>
         <div class="flex flex-col items-center gap-3 text-center">

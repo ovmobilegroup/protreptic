@@ -47,7 +47,7 @@ onUnmounted(() => {
   >
     <div
       v-if="visible"
-      class="pointer-events-none fixed inset-x-0 bottom-4 z-50 flex justify-center px-4"
+      class="pt-print-hide pointer-events-none fixed inset-x-0 bottom-4 z-50 flex justify-center px-4"
       role="status"
       aria-live="polite"
     >

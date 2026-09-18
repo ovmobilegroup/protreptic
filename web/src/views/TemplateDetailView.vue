@@ -3,7 +3,7 @@ import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { marked } from 'marked'
 import { useI18n } from '../composables/useI18n'
-import { buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
+import { SEO_ORIGIN, buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
 
 const route = useRoute()
 const router = useRouter()
@@ -80,12 +80,44 @@ const load = async () => {
 
 onMounted(load)
 watch(() => route.params.id, load)
+
+/* ---------------- Phase30-B5：导出（Markdown 下载 / 打印 PDF） ---------------- */
+
+// 下载的就是服务端那份 `templates/{id}.md` 原文（fetch 到 raw 后原样落盘），
+// 不做任何再序列化 —— 否则"下载文件"和仓库里的文件会悄悄分叉。
+const byteLength = computed(() => new TextEncoder().encode(raw.value).length)
+const sizeLabel = computed(() => `${(byteLength.value / 1024).toFixed(1)} KB`)
+
+const downloadMarkdown = () => {
+  const id = String(route.params.id || '')
+  if (!raw.value) return
+  const blob = new Blob([raw.value], { type: 'text/markdown;charset=utf-8' })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `${id}.md`
+  a.rel = 'noopener'
+  document.body.appendChild(a)
+  a.click()
+  a.remove()
+  window.setTimeout(() => URL.revokeObjectURL(url), 5000)
+}
+
+// 浏览器打印：样式全部走 style.css 的 @media print（隐藏导航/页脚，白底黑字，表格留框，
+// 标题不落单、行不被切断），这里不注入任何行内样式，保证打印预览和导出 PDF 同一套规则。
+const printTemplate = () => window.print()
+
+// 纸上页脚：纸质件脱离站点后仍能回溯到线上原文
+const printUrl = computed(() => {
+  const id = String(route.params.id || '')
+  return `${SEO_ORIGIN}${import.meta.env.BASE_URL}templates/${id}/`
+})
 </script>
 
 <template>
   <div class="pt-container pb-20 pt-8">
     <button @click="router.push({ name: 'templates' })"
-            class="mb-6 inline-flex items-center gap-2 text-sm text-parchment/50 transition-colors hover:text-gold-300">
+            class="pt-print-hide mb-6 inline-flex items-center gap-2 text-sm text-parchment/50 transition-colors hover:text-gold-300">
       <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
       </svg>
@@ -112,7 +144,33 @@ watch(() => route.params.id, load)
           <span class="pt-chip-gold">{{ t('复盘模板', 'Review template') }}</span>
         </div>
         <h1 class="pt-h1 !text-3xl sm:!text-4xl">{{ title }}</h1>
+
+        <div class="pt-print-hide relative mt-6 flex flex-wrap items-center gap-3">
+          <button type="button" class="pt-btn-gold" @click="printTemplate">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M6 9V3h12v6M6 18H4v-6h16v6h-2M8 14h8v7H8z" />
+            </svg>
+            {{ t('打印 / 导出 PDF', 'Print / Export PDF') }}
+          </button>
+          <button type="button" class="pt-btn-ghost" @click="downloadMarkdown">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16" />
+            </svg>
+            {{ t('下载 Markdown', 'Download Markdown') }}
+            <span class="pt-code ml-1">{{ sizeLabel }}</span>
+          </button>
+          <span class="text-xs leading-relaxed text-parchment/40">
+            {{ t('导出 PDF 走浏览器打印：目标选“另存为 PDF”，勾选“页眉和页脚”即可带页码。',
+                 'PDF export uses the browser print dialog: choose “Save as PDF”; enable headers & footers for page numbers.') }}
+          </span>
+        </div>
       </header>
+
+      <div class="pt-print-only border-b border-white/[0.08] px-7 pb-3 pt-5 text-xs text-parchment/60 sm:px-10">
+        Protreptic · {{ t('复盘模板', 'Review template') }} {{ String(route.params.id || '').toUpperCase() }} · {{ printUrl }}
+      </div>
       <div class="pt-prose px-7 py-8 sm:px-10 sm:py-10" v-html="html"></div>
     </article>
   </div>

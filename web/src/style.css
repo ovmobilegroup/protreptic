@@ -269,3 +269,177 @@
     *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
   }
 }
+
+
+/* ============================================================
+   Phase30-B5 · 打印 / 导出 PDF（@media print）
+   浏览器打印（Ctrl+P / window.print()）时的纸张样式：
+   - 隐藏导航 / 页脚 / 交互控件 / 背景光晕（.pt-print-hide）
+   - 主题变量整体切到纸张配色：白底黑字、加深金玉，而不是深底浅字
+   - 表格保留边框、表头跨页重复、行与块不被拦腰切断
+   - @page 留出页边距：浏览器「页眉和页脚」开启时页码才有地方落
+   只改这一处，不复制第二套模板样式；所有组件走同一套 CSS 变量。
+   ============================================================ */
+@media print {
+  /* 纸张配色。必须带 :root[data-theme='light'] 同特异性覆盖，否则浅色主题下会被上一段吃掉 */
+  :root,
+  :root[data-theme='light'] {
+    --pt-ink-950: 255 255 255;
+    --pt-ink-900: 255 255 255;
+    --pt-ink-850: 255 255 255;
+    --pt-ink-800: 255 255 255;
+    --pt-ink-700: 240 240 240;
+    --pt-ink-600: 221 221 221;
+    --pt-parchment: 17 17 17;
+    --pt-overlay: 0 0 0; /* 叠加层反相：bg-white/[.03] 在纸上才是"极浅灰"而非全白 */
+    --pt-shadow: 255 255 255;
+    --pt-gold-200: 80 56 16;
+    --pt-gold-300: 110 78 20;
+    --pt-gold-400: 132 94 26;
+    --pt-gold-500: 152 110 30;
+    --pt-gold-600: 120 86 24;
+    --pt-gold-700: 96 68 18;
+    --pt-jade-300: 12 108 94;
+    --pt-jade-400: 14 128 111;
+    --pt-jade-500: 16 148 128;
+    --pt-jade-600: 15 116 104;
+    --pt-bg-glow-gold: rgba(0, 0, 0, 0);
+    --pt-bg-glow-jade: rgba(0, 0, 0, 0);
+    --pt-bg-a: #ffffff;
+    --pt-bg-b: #ffffff;
+    --pt-panel-shadow: none;
+    --pt-grad-from: #333333;
+    --pt-grad-mid: #333333;
+    --pt-grad-to: #333333;
+    color-scheme: light;
+  }
+
+  @page {
+    size: A4;
+    margin: 16mm 14mm 18mm 14mm; /* 下边距留宽，页码区不压正文 */
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    background-image: none !important;
+  }
+
+  /* 打印不动效：.pt-stagger 的淡入动画是 fill-mode: both，打印时可能停在 opacity:0
+     把整块内容打成空白；body 的 .35s 配色过渡也可能让"刚打开就 Ctrl+P"取到深墨中间态 */
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+
+  /* 导航 / 页脚 / 按钮工具条 / 背景光晕 / 浮层提示 */
+  .pt-print-hide {
+    display: none !important;
+  }
+
+  /* 深色玻璃面板 → 白纸 + 细边框；毛玻璃与投影在纸上无意义 */
+  .pt-panel {
+    border: 1px solid #bbbbbb !important;
+    background: #fff !important;
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  /* 渐变文字靠 background-clip: text，打印关背景会整段消失，退回实色 */
+  .pt-gradient-text {
+    background: none !important;
+    -webkit-text-fill-color: currentColor !important;
+    color: #111111 !important;
+  }
+
+  /* 鎏金按钮在纸上退成描边按钮，避免打出一坨深底 */
+  .pt-btn-gold {
+    background: #fff !important;
+    color: #111 !important;
+    border: 1px solid #888 !important;
+    box-shadow: none !important;
+  }
+
+  .pt-hairline {
+    background: #999999 !important;
+  }
+
+  /* 正文：链接加下划线便于识别；代码块/引用补边框，底纹关掉也不丢结构 */
+  .pt-prose a {
+    color: #111111 !important;
+    text-decoration: underline;
+  }
+  .pt-prose blockquote {
+    border-left: 3px solid #999999 !important;
+    background: none !important;
+  }
+  .pt-prose code,
+  .pt-prose pre {
+    border: 1px solid #bbbbbb !important;
+    background: #f7f7f7 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .pt-prose pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .pt-prose img {
+    border: 1px solid #dddddd;
+  }
+
+  /* 表格：边框必须留下，表头跨页重复、行不被拦腰截断 */
+  .pt-prose table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+  .pt-prose thead {
+    display: table-header-group;
+    background: #eeeeee !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .pt-prose th,
+  .pt-prose td {
+    border: 1px solid #888888 !important;
+    color: #111111 !important;
+  }
+  .pt-prose tbody tr:nth-child(even) {
+    background: none !important;
+  }
+
+  /* 分页：标题不落单在页尾，表格/行/图/引用/列表项不被切开 */
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid-page;
+    page-break-after: avoid;
+  }
+  .pt-prose table,
+  .pt-prose tr,
+  .pt-prose img,
+  .pt-prose blockquote,
+  .pt-prose li,
+  .pt-prose pre {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* 只在纸上出现的页眉/页脚行 */
+  .pt-print-only {
+    display: block !important;
+  }
+
+  [aria-hidden='true'].pointer-events-none {
+    display: none !important;
+  }
+}
+
+/* 屏幕上隐藏打印专用元素 */
+.pt-print-only {
+  display: none;
+}
