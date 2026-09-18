@@ -355,6 +355,37 @@ export const fetchFigureModes = async (code: string): Promise<FigureModesPayload
   }
 }
 
+/** 统一名录索引：人物(284) + 场景(N) 合并 */
+export interface UnifiedEntry {
+  code: string
+  name: string
+  type: 'figure' | 'scenario'
+  era?: string
+  domains?: string[]
+  historical_domains?: string[]
+  gender?: string
+  ethnicity?: string
+  n_modes?: number
+  description?: string
+  href?: string
+}
+
+export interface UnifiedIndex {
+  schema: string
+  counts: { total: number; figures: number; scenarios: number; with_modes: number }
+  items: UnifiedEntry[]
+}
+
+export const fetchUnifiedIndex = async (): Promise<UnifiedIndex | null> => {
+  try {
+    const res = await fetch(`${DATA_ROOT}index.unified.json`)
+    if (!res.ok) return null
+    return (await res.json()) as UnifiedIndex
+  } catch {
+    return null
+  }
+}
+
 const staticApi = { get }
 
 export const useApi = () => staticApi

@@ -4,7 +4,7 @@
     <section class="relative mb-10">
       <div class="mb-3 flex items-center gap-3">
         <span class="pt-hairline w-10"></span>
-        <span class="pt-code">{{ t('历史人物 · 思维方法', 'HISTORICAL FIGURES · THINKING METHODS') }}</span>
+        <span class="pt-code">{{ t('思想名录 · 人物 × 场景', 'REGISTER · MINDS × SCENARIOS') }}</span>
       </div>
 
       <h1 class="pt-h1">
@@ -12,83 +12,62 @@
       </h1>
       <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/70">
         {{ t(
-          '从 284 位历史人物身上提炼的可操作思维方法——每条都有出处、操作步骤与现代应用，供你在真实问题里取用。',
-          'Actionable thinking methods distilled from 284 historical figures—each with source, steps and modern application.'
+          '284 位历史人物的思维方法，与 1058 个现代处境场景，汇成同一份可检索的名录——每条都有出处与操作步骤，中英双语。',
+          'Thinking methods from 284 historical figures and 1058 modern scenarios, in one searchable register—each with source and steps.'
         ) }}
       </p>
 
       <div class="mt-6 flex flex-wrap items-center gap-2">
-        <span class="pt-chip-gold">{{ t('共 1058 位人物', '1058 figures') }}</span>
-        <span class="pt-chip-jade">{{ t('2858 条思维模式', '2858 modes') }}</span>
-        <span class="pt-chip-mute">{{ t('中英双语', 'Bilingual') }}</span>
+        <span class="pt-chip-gold">{{ t(`人物 ${counts.figures}`, `${counts.figures} figures`) }}</span>
+        <span class="pt-chip-jade">{{ t(`场景 ${counts.scenarios}`, `${counts.scenarios} scenarios`) }}</span>
+        <span class="pt-chip-mute">{{ t(`${counts.with_modes} 条含模式`, `${counts.with_modes} with modes`) }}</span>
       </div>
     </section>
 
     <!-- 检索区 -->
     <section class="pt-panel relative mb-8 p-4 sm:p-5">
       <div class="flex flex-col gap-4 lg:flex-row lg:items-center">
-        <!-- 模式切换 -->
+        <!-- 类型切换 -->
         <div class="flex shrink-0 rounded-xl border border-white/10 bg-ink-950/50 p-1">
-          <button
-            v-for="m in [
-              { key: 'keyword', zh: '关键词', en: 'Keyword' },
-              { key: 'smart', zh: '智能检索', en: 'Smart' },
-            ]"
-            :key="m.key"
-            @click="handleModeChange(m.key as 'keyword' | 'smart')"
-            class="rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-silk"
-            :class="searchMode === m.key
-              ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-ink-950 shadow-glow'
-              : 'text-parchment/55 hover:text-parchment'"
-          >
-            {{ t(m.zh, m.en) }}
+          <button v-for="tb in typeTabs" :key="tb.key"
+                  @click="setType(tb.key as any)"
+                  class="rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-silk"
+                  :class="type === tb.key
+                    ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-ink-950 shadow-glow'
+                    : 'text-parchment/55 hover:text-parchment'">
+            {{ t(tb.zh, tb.en) }}
           </button>
         </div>
 
         <!-- 输入 -->
-        <div class="flex flex-1 items-center gap-3">
-          <div class="relative flex-1">
-            <svg class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-parchment/35"
-                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+        <div class="relative flex-1">
+          <svg class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-parchment/35"
+               fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+          </svg>
+          <input v-model="query" type="text"
+                 :placeholder="t('搜索人名、编号、领域、关键词…', 'Search name, code, domain…')"
+                 class="pt-input pl-11" />
+          <button v-if="query" @click="query = ''"
+                  class="absolute right-3 top-1/2 -translate-y-1/2 rounded-md p-1 text-parchment/35
+                         transition-colors hover:text-parchment/70">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
-            <input
-              v-model="searchQuery"
-              type="text"
-              :placeholder="t('搜索历史人物、思维模式、领域…', 'Search figures, modes, domains…')"
-              @keyup.enter="handleSearch"
-              class="pt-input pl-11"
-            />
-          </div>
-          <button @click="handleSearch" class="pt-btn-gold shrink-0">
-            {{ t('检索', 'Search') }}
           </button>
         </div>
 
         <!-- 筛选 -->
         <div class="shrink-0">
-          <FilterPanel
-            :filters="filters"
-            :tag-labels="tagLabels"
-            @filter-change="handleFilterChange"
-            @clear-filters="clearFilters"
-          />
+          <FilterPanel :filters="filters" :tag-labels="tagLabels"
+                       @filter-change="onFilterChange" @clear-filters="clearFilters" />
         </div>
       </div>
-
-      <p v-if="searchMode === 'smart'" class="mt-3 flex items-start gap-2 text-xs leading-relaxed text-parchment/40">
-        <span class="mt-0.5 text-jade-400">◆</span>
-        {{ t(
-          '智能检索＝编号 / 名称 / 领域子串匹配（静态站点无向量语义检索）',
-          'Smart search = substring match on code / name / domain (no vector search on a static site)'
-        ) }}
-      </p>
     </section>
 
     <!-- 结果区 -->
     <section>
-      <!-- 已选筛选 -->
       <div v-if="activeFiltersCount > 0"
            class="mb-5 flex items-center justify-between rounded-xl border border-gold-500/20 bg-gold-500/[.06] px-4 py-2.5">
         <span class="text-sm text-gold-200/85">
@@ -100,42 +79,30 @@
         </button>
       </div>
 
-      <!-- 计数 -->
       <div v-if="!loading" class="mb-5 flex items-baseline gap-3">
-        <h2 class="pt-h2">{{ t('思想名录', 'Register of Minds') }}</h2>
-        <span class="font-mono text-sm text-gold-300/80">{{ displayedTotal }}</span>
+        <h2 class="pt-h2">{{ t('名录', 'Register') }}</h2>
+        <span class="font-mono text-sm text-gold-300/80">{{ filtered.length }}</span>
         <span class="text-sm text-parchment/40">{{ t('条', 'entries') }}</span>
       </div>
 
-      <!-- 加载骨架 -->
       <div v-if="loading" class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <FigureCardSkeleton v-for="i in 12" :key="i" />
       </div>
 
-      <!-- 结果网格 -->
-      <div v-else-if="displayedFigures.length > 0"
-           class="pt-stagger grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        <FigureCard v-for="figure in displayedFigures" :key="figure.code" :figure="figure" :lang="locale" />
+      <div v-else-if="paged.length > 0" class="pt-stagger grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <EntryCard v-for="e in paged" :key="e.type + '-' + e.code" :entry="e" />
       </div>
 
-      <!-- 空状态 -->
       <div v-else class="pt-panel flex flex-col items-center gap-3 px-6 py-20 text-center">
         <span class="text-4xl opacity-60">🕳️</span>
         <h3 class="pt-h3 text-parchment/85">{{ t('暂无结果', 'No results') }}</h3>
-        <p class="text-sm text-parchment/45">
-          {{ t('试试调整关键词或筛选条件', 'Try adjusting the keyword or filters') }}
-        </p>
+        <p class="text-sm text-parchment/45">{{ t('试试调整关键词或筛选条件', 'Try adjusting the keyword or filters') }}</p>
         <button @click="clearFilters" class="pt-btn-ghost mt-2">{{ t('重置条件', 'Reset') }}</button>
       </div>
 
-      <!-- 分页 -->
-      <Pagination
-        v-if="searchMode === 'keyword' && figuresStore.total > pageSize"
-        class="mt-10"
-        :current-page="currentPage"
-        :total-pages="Math.ceil(figuresStore.total / pageSize)"
-        @page-change="currentPage = $event; fetchFigures()"
-      />
+      <Pagination v-if="totalPages > 1" class="mt-10"
+                  :current-page="page" :total-pages="totalPages"
+                  @page-change="goPage" />
     </section>
   </div>
 </template>
@@ -143,126 +110,102 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useFiguresStore } from '../stores/figures'
 import { useI18n } from '../composables/useI18n'
-import FigureCard from '../components/FigureCard.vue'
+import { fetchUnifiedIndex, type UnifiedEntry } from '../api/static'
+import { useFiguresStore } from '../stores/figures'
+import EntryCard from '../components/EntryCard.vue'
 import FilterPanel from '../components/FilterPanel.vue'
 import Pagination from '../components/Pagination.vue'
 import FigureCardSkeleton from '../components/FigureCardSkeleton.vue'
 
 const route = useRoute()
 const router = useRouter()
-const figuresStore = useFiguresStore()
+const store = useFiguresStore()
 const { t, locale } = useI18n()
 
-const searchMode = ref<'keyword' | 'smart'>('keyword')
-const searchQuery = ref((route.query.q as string) || '')
-const currentPage = ref(Number(route.query.page) || 1)
-const pageSize = 20
+const items = ref<UnifiedEntry[]>([])
+const counts = ref({ total: 0, figures: 0, scenarios: 0, with_modes: 0 })
+const loading = ref(true)
 
-const filters = ref({
+const type = ref<'all' | 'figure' | 'scenario'>((route.query.type as any) || 'all')
+const query = ref((route.query.q as string) || '')
+const page = ref(Number(route.query.page) || 1)
+const PAGE_SIZE = 24
+
+const filters = ref<Record<string, string>>({
   era: (route.query.era as string) || '',
   historical_domain: (route.query.historical_domain as string) || '',
   domain: (route.query.domain as string) || '',
   gender: (route.query.gender as string) || '',
   ethnicity: (route.query.ethnicity as string) || '',
-  theme: (route.query.theme as string) || '',
-  nationality: (route.query.nationality as string) || '',
-  civilization_sphere: (route.query.civilization_sphere as string) || '',
-  time_period_standardized: (route.query.time_period_standardized as string) || '',
-  wiki_id: (route.query.wiki_id as string) || '',
-  primary_language: (route.query.primary_language as string) || '',
-  intellectual_tradition: (route.query.intellectual_tradition as string) || '',
-  cross_cultural_impact: (route.query.cross_cultural_impact as string) || '',
 })
 
-const smartResults = ref<any[]>([])
-const smartLoading = ref(false)
-const smartTotal = ref(0)
-const smartPage = ref(1)
-const smartPageSize = 20
+const typeTabs = [
+  { key: 'all', zh: '全部', en: 'All' },
+  { key: 'figure', zh: '人物', en: 'Figures' },
+  { key: 'scenario', zh: '场景', en: 'Scenarios' },
+]
 
-const loading = computed(() => figuresStore.loading || smartLoading.value)
-
-watch([searchQuery, filters, currentPage], () => {
-  if (searchMode.value === 'keyword') {
-    const query: Record<string, string> = {}
-    if (searchQuery.value) query.q = searchQuery.value
-    if (currentPage.value > 1) query.page = String(currentPage.value)
-    Object.entries(filters.value).forEach(([key, value]) => { if (value) query[key] = value })
-    router.replace({ query })
+const load = async () => {
+  loading.value = true
+  const idx = await fetchUnifiedIndex()
+  if (idx && Array.isArray(idx.items) && idx.items.length) {
+    items.value = idx.items
+    counts.value = idx.counts
+  } else {
+    // 回退：老接口/接口模式
+    const figs = (store.figures || []) as any[]
+    items.value = figs.map((f) => ({
+      code: f.code, name: f.name, type: 'scenario' as const,
+      description: f.description, n_modes: (f.modes || []).length,
+      era: f.era, domains: f.domains, historical_domains: f.historical_domains,
+      gender: f.gender, ethnicity: f.ethnicity,
+    }))
+    counts.value = { total: items.value.length, figures: 0, scenarios: items.value.length, with_modes: items.value.length }
   }
+  loading.value = false
+}
+
+const filtered = computed(() => {
+  const q = query.value.trim().toLowerCase()
+  return items.value.filter((e) => {
+    if (type.value !== 'all' && e.type !== type.value) return false
+    if (filters.value.era && e.era !== filters.value.era) return false
+    if (filters.value.historical_domain && !(e.historical_domains || []).includes(filters.value.historical_domain)) return false
+    if (filters.value.domain && !(e.domains || []).includes(filters.value.domain)) return false
+    if (filters.value.gender && e.gender !== filters.value.gender) return false
+    if (filters.value.ethnicity && e.ethnicity !== filters.value.ethnicity) return false
+    if (!q) return true
+    return [e.code, e.name, e.description, e.era, ...(e.domains || []), ...(e.historical_domains || [])]
+      .some((v) => String(v || '').toLowerCase().includes(q))
+  })
+})
+
+const totalPages = computed(() => Math.max(1, Math.ceil(filtered.value.length / PAGE_SIZE)))
+const paged = computed(() => filtered.value.slice((page.value - 1) * PAGE_SIZE, page.value * PAGE_SIZE))
+
+const goPage = (p: number) => { page.value = p; window.scrollTo({ top: 180, behavior: 'smooth' }) }
+const setType = (v: 'all' | 'figure' | 'scenario') => { type.value = v }
+const onFilterChange = (f: Record<string, string>) => { filters.value = { ...filters.value, ...f } }
+const clearFilters = () => {
+  filters.value = { era: '', historical_domain: '', domain: '', gender: '', ethnicity: '' }
+  if (type.value !== 'all') type.value = 'all'
+}
+
+// URL 同步
+watch([query, type, page, filters], () => {
+  const q: Record<string, string> = {}
+  if (query.value) q.q = query.value
+  if (type.value !== 'all') q.type = type.value
+  if (page.value > 1) q.page = String(page.value)
+  Object.entries(filters.value).forEach(([k, v]) => { if (v) q[k] = v })
+  router.replace({ query: q })
 }, { deep: true })
 
-watch([() => searchMode.value, searchQuery], async ([newMode]) => {
-  if (newMode === 'smart' && searchQuery.value) await performSmartSearch()
-})
+watch([query, type, filters], () => { page.value = 1 }, { deep: true })
 
-const fetchFigures = async () => {
-  await figuresStore.fetchFigures({
-    page: currentPage.value,
-    page_size: pageSize,
-    search: searchQuery.value || undefined,
-    lang: locale.value,
-    ...filters.value,
-  })
-}
+const activeFiltersCount = computed(() => Object.values(filters.value).filter((v) => v).length)
 
-watch(locale, async () => {
-  if (searchMode.value === 'smart') await performSmartSearch()
-  else await fetchFigures()
-})
-
-const normalizeResults = (items: any[]): any[] =>
-  items.map((item) => ({
-    code: '', name: '', description: '', reason: '', modes: [],
-    era: null, historical_domains: [], domains: [], gender: null, ethnicity: null,
-    ...item,
-  }))
-
-const performSmartSearch = async () => {
-  if (!searchQuery.value.trim()) return
-  smartLoading.value = true
-  try {
-    const data = await figuresStore.semanticSearch(searchQuery.value, locale.value, smartPageSize)
-    smartResults.value = normalizeResults(data || [])
-    smartTotal.value = smartResults.value.length
-  } catch (error) {
-    console.error('Smart search failed:', error)
-    smartResults.value = []
-    smartTotal.value = 0
-  } finally {
-    smartLoading.value = false
-  }
-}
-
-const handleSearch = async () => {
-  if (searchMode.value === 'keyword') { currentPage.value = 1; await fetchFigures() }
-  else { smartPage.value = 1; await performSmartSearch() }
-}
-
-const handleFilterChange = async (newFilters: Record<string, string>) => {
-  filters.value = { ...filters.value, ...newFilters }
-  if (searchMode.value === 'keyword') { currentPage.value = 1; await fetchFigures() }
-}
-
-const clearFilters = async () => {
-  filters.value = {
-    era: '', historical_domain: '', domain: '', gender: '', ethnicity: '', theme: '',
-    nationality: '', civilization_sphere: '', time_period_standardized: '', wiki_id: '',
-    primary_language: '', intellectual_tradition: '', cross_cultural_impact: '',
-  }
-  if (searchMode.value === 'keyword') { currentPage.value = 1; await fetchFigures() }
-}
-
-const handleModeChange = async (newMode: 'keyword' | 'smart') => {
-  searchMode.value = newMode
-  if (newMode === 'smart' && searchQuery.value) await performSmartSearch()
-}
-
-onMounted(async () => { await fetchFigures() })
-
-// 筛选项来源（中文标签）
 const tagLabels: Record<string, Record<string, string>> = {
   era: {
     'Pre-Qin': '先秦', 'Qin-Han': '秦汉', 'Three-Kingdoms-Jin': '三国两晋',
@@ -282,8 +225,6 @@ const tagLabels: Record<string, Record<string, string>> = {
   ethnicity: { Han: '汉族', Minority: '少数民族' },
 }
 
-const displayedFigures = computed(() => (searchMode.value === 'smart' ? smartResults.value : figuresStore.figures))
-const displayedTotal = computed(() => (searchMode.value === 'smart' ? smartTotal.value : figuresStore.total))
-
-const activeFiltersCount = computed(() => Object.values(filters.value).filter((v) => v).length)
+onMounted(load)
+watch(locale, load)
 </script>

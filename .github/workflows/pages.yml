@@ -73,6 +73,10 @@ jobs:
       - name: 构建静态数据分片
         run: python3 tools/export_static_site.py
 
+      # Step A2：统一索引（人物 284 + 场景 N 合并为一份可浏览名录）
+      - name: 构建统一索引
+        run: python3 tools/build_unified_index.py
+
       - name: 断言静态数据基线（meta.json 条数）
         run: python3 tools/pages_preflight.py --stage data
 
