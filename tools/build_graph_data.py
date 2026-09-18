@@ -53,17 +53,44 @@ def load_modes():
     return kept
 
 def load_db_modes():
-    if not DB_PATH.is_file(): return {}
-    conn = sqlite3.connect(str(DB_PATH))
-    cur = conn.cursor()
-    cur.execute("SELECT mode_code, key_concepts FROM thinking_modes WHERE key_concepts IS NOT NULL AND key_concepts != '[]'")
+    """mode_code -> key_concepts。
+
+    首选 data/modes_data.json：CI 里 api/protreptic.db 由 build_figures_db.py 现场重建，
+    只建 figures 表，**没有 thinking_modes 表**；旧实现直接查该表会
+    `sqlite3.OperationalError: no such table: thinking_modes` 并让整个 Pages 部署失败。
+    DB 只作回退（本地开发库可能带该表），且任何 DB 错误都不再抛出。
+    """
     result = {}
-    for mc, kc in cur.fetchall():
-        try:
-            if isinstance(kc, str): kc = json.loads(kc)
-            if isinstance(kc, list): result[mc] = kc
-        except: pass
-    conn.close()
+    try:
+        for m in load_modes():
+            mc = m.get("mode_code")
+            kc = m.get("key_concepts")
+            if not mc or not kc:
+                continue
+            if isinstance(kc, str):
+                try: kc = json.loads(kc)
+                except Exception: kc = []
+            if isinstance(kc, list) and kc:
+                result[mc] = kc
+    except Exception:
+        result = {}
+    if result:
+        return result
+
+    if not DB_PATH.is_file():
+        return result
+    try:
+        conn = sqlite3.connect(str(DB_PATH))
+        cur = conn.cursor()
+        cur.execute("SELECT mode_code, key_concepts FROM thinking_modes WHERE key_concepts IS NOT NULL AND key_concepts != '[]'")
+        for mc, kc in cur.fetchall():
+            try:
+                if isinstance(kc, str): kc = json.loads(kc)
+                if isinstance(kc, list): result[mc] = kc
+            except Exception: pass
+        conn.close()
+    except sqlite3.Error:
+        pass
     return result
 
 def build_mode_edges(modes):
