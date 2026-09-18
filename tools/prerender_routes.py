@@ -204,8 +204,8 @@ def main() -> int:
     ap.add_argument("--dist", default=str(REPO / "web" / "dist"))
     ap.add_argument("--base", default=DEFAULT_BASE)
     ap.add_argument("--routes-out", default=str(REPO / "docs" / "architecture" / "web_p0_routes.json"))
-    ap.add_argument("--body-persons", type=int, default=40,
-                    help="为模式数最多的人物页生成正文快照, 0 表示不生成")
+    ap.add_argument("--body-persons", default="40",
+                    help="人物页正文快照覆盖数: N=模式数最多的前 N 名, all=全部人物页, 0=不生成")
     ap.add_argument("--body-max-modes", type=int, default=12,
                     help="人物页快照里最多列出的模式条数")
     ap.add_argument("--no-body", action="store_true",
@@ -227,7 +227,8 @@ def main() -> int:
     excluded = excluded_figure_codes(dist, unified_codes)
     bodies = {}
     if not args.no_body:
-        bodies = collect_bodies(routes, dist, persons=args.body_persons, max_modes=args.body_max_modes)
+        persons = None if str(args.body_persons).strip().lower() == "all" else max(0, int(args.body_persons))
+        bodies = collect_bodies(routes, dist, persons=persons, max_modes=args.body_max_modes)
     for route in routes:
         route["body"] = route["path"] in bodies
         route["body_text_chars"] = len(plain_text(bodies[route["path"]])) if route["body"] else 0

@@ -142,10 +142,10 @@ jobs:
       # 未覆盖的路径仍回落 404.html, 行为不变.
       # 顺序: 必须在 dist 断言之后. 脚本会用路由壳重写 dist/404.html, 并自检其等于 index.html.
       # Phase30-A2: 关键路由还会带一份静态正文快照 (tools/prerender_body.py), 写进 #app,
-      # 覆盖 /figures /modes /templates 列表壳 + 7 个模板页 + 模式数最多的人物页;
+      # 覆盖 /figures /modes /templates 列表壳 + 7 个模板页 + 全部人物页 (--body-persons all);
       # 无 JS 的 UA 因此也能读到标题与正文. 有 JS 时 main.ts 在挂载前清空 #app, 不会重复.
       - name: 路由预渲染 深链 200
-        run: python3 tools/prerender_routes.py
+        run: python3 tools/prerender_routes.py --body-persons all
       # Step B2.5: 把分享图写进每个预渲染页面的 head Phase30-A3.
       # 必须在 prerender_routes 之后: 它重写的是路由页自己的 <route>/index.html.
       # 自检: 图片必须是 dist 里的 1200x630 PNG, 且每页 og:image 恰好一份.

@@ -17,7 +17,7 @@
 覆盖范围 (与卡片验收对齐):
     - /figures /modes /templates 三个列表壳;
     - 7 个模板页: 正文取 dist/templates/*.md, 与前端 marked 用的是同一份 markdown;
-    - 排名靠前的人物页 (按模式条数排序, 默认前 40 名): 正文取
+    - 人物页 (CI 传 --body-persons all, 覆盖全部人物页; 本地默认按模式条数排序的前 40 名): 正文取
       dist/data/modes/by-figure/{code}.json 的定义 / 步骤 / 概念 / 出处 / 原话.
     其余路由仍按 A0 只做 head, 一样返回 200.
 
@@ -413,9 +413,10 @@ def plain_text(markup: str) -> str:
     return WS_RE.sub(" ", TAG_RE.sub(" ", markup or "")).strip()
 
 
-def collect_bodies(routes: list, dist: Path, persons: int = 40, max_modes: int = 12) -> dict:
+def collect_bodies(routes: list, dist: Path, persons: int | None = 40, max_modes: int = 12) -> dict:
     """关键路由 -> 静态正文快照. 生成清单:
-      /figures /modes /templates 列表壳 + 7 个模板页 + 模式数最多的人物页 (persons 条).
+      /figures /modes /templates 列表壳 + 7 个模板页 + 人物页 (persons 条).
+    persons=None 时覆盖全部人物页; persons=0 时不生成人物页快照.
     数据缺失只跳过, 不抛异常."""
     bodies = {}
     tpl_dir = dist / "templates"
@@ -444,8 +445,9 @@ def collect_bodies(routes: list, dist: Path, persons: int = 40, max_modes: int =
             bodies["modes"] = shell
     if "templates" in paths and tpl_entries:
         bodies["templates"] = render_templates_shell(tpl_entries)
-    ranked = sorted([r for r in routes if r.get("type") == "person"],
-                    key=lambda r: (-(r.get("n_modes") or 0), r["path"]))[: max(0, persons)]
+    ranked_all = sorted([r for r in routes if r.get("type") == "person"],
+                    key=lambda r: (-(r.get("n_modes") or 0), r["path"]))
+    ranked = ranked_all if persons is None else ranked_all[: max(0, persons)]
     for route in ranked:
         f = dist / "data" / "modes" / "by-figure" / ("%s.json" % route.get("code"))
         if not f.is_file():
