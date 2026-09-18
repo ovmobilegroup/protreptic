@@ -12,8 +12,8 @@
       </h1>
       <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/70">
         {{ t(
-          '284 位历史人物的思维方法，与 1058 个现代处境场景，汇成同一份可检索的名录——每条都有出处与操作步骤，中英双语。',
-          'Thinking methods from 284 historical figures and 1058 modern scenarios, in one searchable register—each with source and steps.'
+          '283 位历史人物的思维方法，与 1055 个现代处境场景，汇成同一份可检索的名录——每条都有出处与操作步骤，中英双语。',
+          'Thinking methods from 283 historical figures and 1055 modern scenarios, in one searchable register—each with source and steps.'
         ) }}
       </p>
 

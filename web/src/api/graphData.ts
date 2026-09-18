@@ -4,7 +4,7 @@
  * 三个文件都是全量图谱，模块级缓存一次；同一会话内切换 /graph 的视图不会重复下载。
  * 真实口径（B1 实测，见 web/public/data/graph/meta.json）：
  *   mode_edges     3298 节点 / 6684 边（related_modes 双向去重后的无向边）
- *   concept_graph  284 人物 / 13288 概念 / 13552 边（figure_code ↔ key_concepts）
+ *   concept_graph  283 人物 / 13288 概念 / 13552 边（figure_code ↔ key_concepts）
  *   similar_modes  2858 条模式中 599 条有预计算邻居，共 1018 条 Top-10 邻居
  *
  * 措辞纪律：similar_modes 是「key_concepts 交集 + 同域加分」的共现打分，

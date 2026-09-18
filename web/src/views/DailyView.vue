@@ -107,7 +107,7 @@ onMounted(load)
       <p class="mt-4 max-w-3xl text-base leading-relaxed text-parchment/55">
         {{ t(
           '每天从全部历史人物思维模式里选出一条：谁都不掷骰子，直接按「这一天是第几天」对模式总数取模。因此同一天无论何时打开、换哪台设备，看到的都是同一条；往前翻任意历史日期，也能当场算出那天是哪一条（当前条数见下方「为什么是这一条」）。',
-          'One mode a day out of 2848: no dice — the day number modulo the mode count. The same day always yields the same mode, on any device; any past date can be recomputed on the spot.'
+          'One mode a day out of 2858: no dice — the day number modulo the mode count. The same day always yields the same mode, on any device; any past date can be recomputed on the spot.'
         ) }}
       </p>
     </section>

@@ -14,7 +14,7 @@
  *                            historical_domains / gender / ethnicity / n_modes）
  *   figures/{code}.json      501 个详情分片（含 description / reason / steps / expected / case / modes）
  *   modes/index-{0..7}.json  2858 条模式摘要（ModesView 用）
- *   modes/by-figure/…        284 个「某人的 10 条模式」分片
+ *   modes/by-figure/…        283 个「某人的 10 条模式」分片
  *   meta.json                条数与 sha256（供数据校验）
  *
  * 已知边界（诚实标注，不假装具备后端能力）：
@@ -365,7 +365,7 @@ export const fetchFigureModes = async (code: string): Promise<FigureModesPayload
   }
 }
 
-/** 统一名录索引：人物(284) + 场景(N) 合并 */
+/** 统一名录索引：人物(283) + 场景(N) 合并 */
 export interface UnifiedEntry {
   code: string
   name: string

@@ -4,12 +4,12 @@
  * 只读既有静态分片：
  *   data/index.unified.json       统一名录（这里只取 type==='figure'：姓名、时代）
  *   data/modes/index-0..7.json    2858 条模式摘要（api/modeIndex.ts 的共享缓存；用于把 mode_code 反查回人物）
- *   data/modes/by-figure/*.json   284 个「某人的 N 条模式」分片 —— 唯一带 definition/process/source/key_concepts 的来源
+ *   data/modes/by-figure/*.json   283 个「某人的 N 条模式」分片 —— 唯一带 definition/process/source/key_concepts 的来源
  *
  * 实测事实（别想当然）：
  *   - 模式摘要索引只有 8 个字段（mode_code / figure_code / figure_name / name_zh / name_en / category / domain_*），
  *     没有定义与步骤；所以「模式级对比」也必须下载它所属人物的 by-figure 分片（约 22KB，走同一层缓存）。
- *   - 284 个人物代码在摘要索引与 by-figure 分片里一一对应，无缺口。
+ *   - 283 个人物代码在摘要索引与 by-figure 分片里一一对应，无缺口。
  *   - 场景代码（A-1-X-P 这类）没有 by-figure 分片，拿不到定义/步骤，因此不参与对比：
  *     解析不到就返回 null，由 UI 明说「该项没有模式档案」，而不是渲染一列空表。
  */

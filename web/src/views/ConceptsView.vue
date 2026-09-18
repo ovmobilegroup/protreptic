@@ -2,7 +2,7 @@
 /**
  * /concepts 概念索引（Phase30-B2）。
  *
- * 数据源：B1 预计算的 data/graph/concept_graph.json（284 人物 / 13288 概念 / 13552 边）
+ * 数据源：B1 预计算的 data/graph/concept_graph.json（283 人物 / 13288 概念 / 13552 边）
  * 与 data/modes/by-figure/{code}.json（模式级 key_concepts，用来回答「这个概念在这些人物身上
  * 具体落在哪几条模式」）。人物名只取 data/index.unified.json 的真实字段，缺名就显示编号，
  * 不臆造人名。
