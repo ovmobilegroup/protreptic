@@ -1,0 +1,623 @@
+/* ==========================================================================
+   Protreptic · 思想典藏 —— 文档站皮肤（Phase30-C2）
+   --------------------------------------------------------------------------
+   目标：/docs 与 SPA（web/src/style.css）共用同一套设计语言 ——
+         deep-ink 底色 + 鎏金(gold) 强调 + 玉(jade) 次强调 + 宋体标题。
+
+   做法：mkdocs-material 的调色板走 CSS 变量，本文件把这些变量与 SPA 的
+         --pt-* 令牌一一对齐；theme.palette 用 primary/accent = custom，
+         因此 material 预编译的配色完全让位给本文件（无 !important 打架）。
+
+   令牌来源（保持同步，勿手改单边）：
+     SPA  : web/src/style.css  :root / :root[data-theme='light']
+     文档 : 本文件 §1（:root = 深色；[data-md-color-scheme='default'] = 浅色）
+   ========================================================================== */
+
+/* ---------- §1 设计令牌 ---------- */
+:root {
+  /* 墨 — 基底 */
+  --pt-ink-950: #04060c;
+  --pt-ink-900: #080c16;
+  --pt-ink-850: #0c1220;
+  --pt-ink-800: #111a2b;
+  /* 前景 */
+  --pt-parchment: #f3ece0;
+  /* 金 */
+  --pt-gold-200: #f7e6c0;
+  --pt-gold-300: #f0d79f;
+  --pt-gold-400: #e4bd74;
+  --pt-gold-500: #d4a24c;
+  --pt-gold-600: #b8843a;
+  --pt-gold-700: #8f6529;
+  /* 玉 */
+  --pt-jade-300: #8ff0dd;
+  --pt-jade-400: #5eead4;
+  --pt-jade-500: #2fd4b8;
+  --pt-jade-600: #14b8a6;
+  /* 正文/描边（深色主题：用白提亮） */
+  --pt-line: rgb(255 255 255 / .10);
+  --pt-line-strong: rgb(255 255 255 / .18);
+  --pt-overlay-weak: rgb(255 255 255 / .04);
+  --pt-overlay-soft: rgb(255 255 255 / .06);
+  /* 金线（分隔） */
+  --pt-hairline: linear-gradient(90deg, transparent, rgb(212 162 76 / .55), transparent);
+
+  /* 字体栈：与 SPA tailwind.config.js 的 fontFamily 一致；两端都不加载网络字体 */
+  --md-text-font: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --md-code-font: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --pt-font-display: "Noto Serif SC", "Source Han Serif SC", "Songti SC", STSong,
+    SimSun, Georgia, serif;
+}
+
+/* 浅色（宣纸暖白）—— 与 SPA :root[data-theme='light'] 对应 */
+body[data-md-color-scheme="default"] {
+  --pt-ink-950: #f8f5f0;
+  --pt-ink-900: #f3efe8;
+  --pt-ink-850: #ede8e0;
+  --pt-ink-800: #e7e1d7;
+  --pt-parchment: #201c16;
+  --pt-gold-200: #5c4012;
+  --pt-gold-300: #785518;
+  --pt-gold-400: #946a1e;
+  --pt-gold-500: #ad7e26;
+  --pt-gold-600: #96691e;
+  --pt-gold-700: #765014;
+  --pt-jade-300: #0c6c5e;
+  --pt-jade-400: #0e806f;
+  --pt-jade-500: #109480;
+  --pt-jade-600: #0f7468;
+  --pt-line: rgb(32 28 22 / .12);
+  --pt-line-strong: rgb(32 28 22 / .22);
+  --pt-overlay-weak: rgb(24 20 14 / .03);
+  --pt-overlay-soft: rgb(24 20 14 / .05);
+}
+
+/* ---------- §2 mkdocs-material 变量映射 ---------- */
+/* 深色：slate */
+body[data-md-color-scheme="slate"] {
+  --md-hue: 220;
+  --md-default-fg-color: rgb(243 236 224 / .87);
+  --md-default-fg-color--light: rgb(243 236 224 / .62);
+  --md-default-fg-color--lighter: rgb(243 236 224 / .34);
+  --md-default-fg-color--lightest: rgb(243 236 224 / .14);
+  --md-default-bg-color: var(--pt-ink-950);
+  --md-default-bg-color--light: rgb(4 6 12 / .54);
+  --md-default-bg-color--lighter: rgb(4 6 12 / .26);
+  --md-default-bg-color--lightest: rgb(4 6 12 / .07);
+
+  --md-typeset-color: rgb(243 236 224 / .87);
+  --md-typeset-a-color: var(--pt-gold-400);
+
+  --md-primary-fg-color: var(--pt-ink-950);          /* 顶栏/标签栏底色 */
+  --md-primary-fg-color--light: var(--pt-ink-850);
+  --md-primary-fg-color--dark: var(--pt-ink-950);
+  --md-primary-bg-color: var(--pt-parchment);        /* 顶栏文字 */
+  --md-primary-bg-color--light: rgb(243 236 224 / .7);
+
+  --md-accent-fg-color: var(--pt-gold-500);          /* 强调/焦点/当前项 */
+  --md-accent-fg-color--transparent: rgb(212 162 76 / .1);
+  --md-accent-bg-color: var(--pt-ink-950);
+  --md-accent-bg-color--light: rgb(4 6 12 / .7);
+
+  --md-code-fg-color: var(--pt-gold-200);
+  --md-code-bg-color: var(--pt-ink-900);
+  --md-code-hl-color: rgb(212 162 76 / .18);
+  --md-code-hl-color--light: rgb(212 162 76 / .08);
+
+  --md-typeset-mark-color: rgb(212 162 76 / .32);
+  --md-typeset-kbd-color: var(--pt-ink-850);
+  --md-typeset-kbd-accent-color: var(--pt-ink-800);
+  --md-typeset-kbd-border-color: var(--pt-ink-800);
+  --md-typeset-table-color: var(--pt-line);
+  --md-typeset-table-color--light: rgb(243 236 224 / .035);
+
+  --md-footer-bg-color: rgb(4 6 12 / .6);
+  --md-footer-bg-color--dark: var(--pt-ink-950);
+  --md-footer-fg-color: rgb(243 236 224 / .7);
+  --md-footer-fg-color--light: rgb(243 236 224 / .54);
+  --md-footer-fg-color--lighter: rgb(243 236 224 / .32);
+
+  --md-shadow-z1: 0 1px 2px rgb(0 0 0 / .35);
+  --md-shadow-z2: 0 8px 24px -12px rgb(0 0 0 / .8);
+  --md-shadow-z3: 0 24px 48px -32px rgb(0 0 0 / .9);
+}
+
+/* 浅色：default */
+body[data-md-color-scheme="default"] {
+  --md-default-fg-color: rgb(32 28 22 / .87);
+  --md-default-fg-color--light: rgb(32 28 22 / .62);
+  --md-default-fg-color--lighter: rgb(32 28 22 / .38);
+  --md-default-fg-color--lightest: rgb(32 28 22 / .14);
+  --md-default-bg-color: var(--pt-ink-950);
+  --md-default-bg-color--light: rgb(248 245 240 / .54);
+  --md-default-bg-color--lighter: rgb(248 245 240 / .26);
+  --md-default-bg-color--lightest: rgb(24 20 14 / .06);
+
+  --md-typeset-color: rgb(32 28 22 / .87);
+  --md-typeset-a-color: var(--pt-gold-400);
+
+  --md-primary-fg-color: var(--pt-ink-950);
+  --md-primary-fg-color--light: var(--pt-ink-850);
+  --md-primary-fg-color--dark: var(--pt-ink-950);
+  --md-primary-bg-color: var(--pt-parchment);
+  --md-primary-bg-color--light: rgb(32 28 22 / .7);
+
+  --md-accent-fg-color: var(--pt-gold-500);
+  --md-accent-fg-color--transparent: rgb(173 126 38 / .12);
+  --md-accent-bg-color: var(--pt-ink-950);
+  --md-accent-bg-color--light: rgb(248 245 240 / .7);
+
+  --md-code-fg-color: var(--pt-gold-600);
+  --md-code-bg-color: var(--pt-ink-900);
+  --md-code-hl-color: rgb(173 126 38 / .18);
+  --md-code-hl-color--light: rgb(173 126 38 / .08);
+
+  --md-typeset-mark-color: rgb(173 126 38 / .28);
+  --md-typeset-kbd-color: var(--pt-ink-850);
+  --md-typeset-kbd-accent-color: var(--pt-ink-800);
+  --md-typeset-kbd-border-color: var(--pt-ink-800);
+  --md-typeset-table-color: var(--pt-line);
+  --md-typeset-table-color--light: rgb(32 28 22 / .03);
+
+  --md-footer-bg-color: rgb(248 245 240 / .7);
+  --md-footer-bg-color--dark: var(--pt-ink-900);
+  --md-footer-fg-color: rgb(32 28 22 / .7);
+  --md-footer-fg-color--light: rgb(32 28 22 / .54);
+  --md-footer-fg-color--lighter: rgb(32 28 22 / .32);
+
+  --md-shadow-z1: 0 1px 2px rgb(60 45 20 / .12);
+  --md-shadow-z2: 0 12px 28px -18px rgb(60 45 20 / .35);
+  --md-shadow-z3: 0 20px 40px -30px rgb(60 45 20 / .35);
+}
+
+/* ---------- §3 页面底色与光晕（与 SPA body 同构） ---------- */
+html {
+  background-color: var(--pt-ink-950);
+}
+
+body[data-md-color-scheme] {
+  background-color: var(--pt-ink-950);
+  background-image:
+    radial-gradient(1100px 600px at 12% -8%, rgb(212 162 76 / .10), transparent 60%),
+    radial-gradient(900px 520px at 92% 6%, rgb(94 234 212 / .07), transparent 55%),
+    linear-gradient(180deg, #04060c 0%, #06090f 40%, #04060c 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  transition: background-color .35s ease, color .35s ease;
+}
+
+body[data-md-color-scheme="default"] {
+  background-image:
+    radial-gradient(1100px 600px at 12% -8%, rgb(173 126 38 / .12), transparent 60%),
+    radial-gradient(900px 520px at 92% 6%, rgb(16 148 128 / .10), transparent 55%),
+    linear-gradient(180deg, #f8f5f0 0%, #f3efe7 40%, #f8f5f0 100%);
+}
+
+/* ---------- §4 顶栏 / 标签栏 / 返回主站横条 / 页脚 ---------- */
+body .md-header {
+  /* 与 SPA 顶栏 bg-ink-950/70 加 backdrop-blur-xl 对齐 */
+  background-color: rgb(4 6 12 / .70);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--pt-line);
+  color: var(--pt-parchment);
+}
+
+body[data-md-color-scheme="default"] .md-header {
+  background-color: rgb(248 245 240 / .78);
+}
+
+body .md-header--shadow,
+body .md-header--lifted,
+body .md-header[hidden] {
+  box-shadow: none;
+}
+
+body .md-header__title {
+  font-family: var(--pt-font-display);
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+body .md-header__button.md-logo img,
+body .md-header__button.md-logo svg {
+  height: 1.5rem;
+  width: auto;
+  filter: drop-shadow(0 6px 16px rgb(212 162 76 / .35));
+}
+
+/* 标签栏：深墨底 + 鎏金当前项（对齐 SPA 主导航的「金线」高亮） */
+body .md-tabs {
+  background-color: rgb(4 6 12 / .55);
+  border-bottom: 1px solid var(--pt-line);
+  color: var(--pt-parchment);
+}
+
+body[data-md-color-scheme="default"] .md-tabs {
+  background-color: rgb(248 245 240 / .6);
+}
+
+body .md-tabs__link {
+  font-weight: 500;
+  opacity: .62;
+  position: relative;
+}
+
+body .md-tabs__link:hover,
+body .md-tabs__item--active .md-tabs__link {
+  color: var(--pt-gold-300);
+  opacity: 1;
+}
+
+body .md-tabs__item--active .md-tabs__link::after {
+  background: linear-gradient(90deg, transparent, var(--pt-gold-400), transparent);
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: .35rem;
+  position: absolute;
+  right: .35rem;
+}
+
+/* 「返回主站」横条（main.html 的 announce 块） */
+body .md-banner {
+  background:
+    linear-gradient(90deg, rgb(212 162 76 / .16), rgb(212 162 76 / .30) 50%, rgb(94 234 212 / .16));
+  border-bottom: 1px solid rgb(212 162 76 / .35);
+  color: var(--pt-parchment);
+}
+
+.pt-spa-bar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1rem;
+  justify-content: space-between;
+}
+
+.pt-spa-link {
+  align-items: center;
+  color: var(--pt-gold-200);
+  display: inline-flex;
+  font-weight: 600;
+  gap: .45rem;
+  letter-spacing: .02em;
+  text-decoration: none;
+}
+
+.pt-spa-link:hover {
+  color: var(--pt-gold-300);
+  text-decoration: none;
+}
+
+.pt-spa-link .pt-spa-arrow {
+  font-family: var(--md-code-font);
+  transition: transform .3s cubic-bezier(.2, .7, .3, 1);
+}
+
+.pt-spa-link:hover .pt-spa-arrow {
+  transform: translateX(-3px);
+}
+
+.pt-spa-note {
+  color: var(--pt-parchment);
+  font-family: var(--md-code-font);
+  font-size: .6rem;
+  letter-spacing: .14em;
+  opacity: .55;
+  text-transform: uppercase;
+}
+
+body[data-md-color-scheme="default"] .pt-spa-link {
+  color: var(--pt-gold-600);
+}
+
+body[data-md-color-scheme="default"] .pt-spa-note {
+  color: rgb(32 28 22 / .55);
+}
+
+/* 页脚 */
+body .md-footer {
+  background-color: rgb(4 6 12 / .6);
+  border-top: 1px solid var(--pt-line);
+}
+
+body[data-md-color-scheme="default"] .md-footer {
+  background-color: rgb(248 245 240 / .7);
+}
+
+body .md-footer-meta {
+  background-color: transparent;
+  border-top: 1px solid var(--pt-line);
+}
+
+/* 页脚「返回主站」 */
+.pt-footer-bar {
+  padding: 1.2rem .8rem .2rem;
+  text-align: center;
+}
+
+.pt-footer-bar .pt-hairline {
+  background: var(--pt-hairline);
+  height: 1px;
+  margin: 0 auto 1rem;
+  max-width: 26rem;
+}
+
+.pt-footer-quote {
+  color: rgb(243 236 224 / .7);
+  font-family: var(--pt-font-display);
+  font-size: .8rem;
+  margin: 0 0 .35rem;
+}
+
+body[data-md-color-scheme="default"] .pt-footer-quote {
+  color: rgb(32 28 22 / .7);
+}
+
+/* ---------- §5 正文排版（对齐 SPA 的 .pt-prose） ---------- */
+body .md-typeset {
+  font-size: .78rem;
+  line-height: 1.85;
+}
+
+body .md-typeset h1,
+body .md-typeset h2,
+body .md-typeset h3,
+body .md-typeset h4 {
+  font-family: var(--pt-font-display);
+  font-weight: 700;
+  letter-spacing: -.01em;
+}
+
+body .md-typeset h1 {
+  color: var(--pt-parchment);
+}
+
+body .md-typeset h2 {
+  border-left: 2px solid var(--pt-gold-500);
+  padding-left: .55rem;
+}
+
+body .md-typeset h3 {
+  color: var(--pt-gold-200);
+}
+
+body .md-typeset h4 {
+  color: var(--pt-gold-300);
+}
+
+/* 标题锚点链接：默认隐藏，只留金镯色 hover（SPA 无锚点，这里保持低调） */
+body .md-typeset .headerlink {
+  color: var(--pt-gold-500);
+  opacity: .35;
+}
+
+body .md-typeset .headerlink:hover {
+  opacity: .9;
+}
+
+body .md-typeset a {
+  color: var(--pt-gold-300);
+  text-decoration-color: rgb(212 162 76 / .45);
+  text-underline-offset: .18em;
+}
+
+body .md-typeset a:hover {
+  color: var(--pt-gold-200);
+}
+
+body[data-md-color-scheme="default"] .md-typeset a {
+  color: var(--pt-gold-600);
+}
+
+body[data-md-color-scheme="default"] .md-typeset a:hover {
+  color: var(--pt-gold-500);
+}
+
+body .md-typeset hr {
+  background: var(--pt-hairline);
+  border: 0;
+  height: 1px;
+}
+
+body .md-typeset em {
+  color: var(--pt-jade-300);
+}
+
+body .md-typeset blockquote {
+  background-color: rgb(212 162 76 / .06);
+  border-left: .1rem solid rgb(212 162 76 / .6);
+  border-radius: 0 .3rem .3rem 0;
+  color: rgb(243 236 224 / .8);
+}
+
+body[data-md-color-scheme="default"] .md-typeset blockquote {
+  color: rgb(32 28 22 / .8);
+}
+
+/* 菱形列表符号（SPA .pt-prose ul > li::before） */
+body .md-typeset ul > li::before {
+  color: rgb(212 162 76 / .7);
+  content: "◆";
+  font-size: .34rem;
+  left: -.6rem;
+  line-height: 1.85rem;
+  position: absolute;
+  top: .06rem;
+}
+
+body .md-typeset ul > li {
+  position: relative;
+}
+
+body .md-typeset ul > li:has(> label.task-list-control)::before,
+body .md-typeset ul > li:has(> input[type="checkbox"])::before {
+  content: "";
+}
+
+body .md-typeset .task-list-control .task-list-indicator::before {
+  background-color: transparent;
+  border: 1px solid var(--pt-line-strong);
+  border-radius: .1rem;
+  content: "";
+  height: .48rem;
+  left: -.62rem;
+  position: absolute;
+  top: .06rem;
+  width: .48rem;
+}
+
+body .md-typeset .task-list-control [type="checkbox"]:checked + .task-list-indicator::before {
+  background: linear-gradient(180deg, var(--pt-gold-300), var(--pt-gold-500));
+  border-color: rgb(212 162 76 / .8);
+}
+
+/* 行内代码 / 代码块 */
+body .md-typeset code {
+  background-color: var(--pt-overlay-soft);
+  border: 1px solid var(--pt-line);
+  border-radius: .2rem;
+  color: var(--pt-gold-200);
+  padding: .05rem .25rem;
+}
+
+body .md-typeset pre {
+  background-color: rgb(8 12 22 / .8);
+  border: 1px solid var(--pt-line);
+  border-radius: .4rem;
+}
+
+body[data-md-color-scheme="default"] .md-typeset pre {
+  background-color: rgb(243 239 232 / .85);
+}
+
+body .md-typeset pre > code {
+  background: transparent;
+  border: 0;
+  color: rgb(243 236 224 / .85);
+  padding: 0;
+}
+
+body[data-md-color-scheme="default"] .md-typeset pre > code {
+  color: rgb(32 28 22 / .85);
+}
+
+/* 表格 */
+body .md-typeset table:not([class]) {
+  border: 1px solid var(--pt-line);
+  border-radius: .4rem;
+  overflow: hidden;
+}
+
+body .md-typeset table:not([class]) th {
+  background-color: rgb(212 162 76 / .08);
+  color: var(--pt-gold-200);
+  font-weight: 600;
+}
+
+body[data-md-color-scheme="default"] .md-typeset table:not([class]) th {
+  color: var(--pt-gold-600);
+}
+
+body .md-typeset table:not([class]) tr:hover {
+  background-color: rgb(212 162 76 / .05);
+}
+
+/* 提示框 / 详情块 */
+body .md-typeset .admonition,
+body .md-typeset details {
+  border-color: var(--pt-line);
+  border-width: 0 0 0 .1rem;
+  box-shadow: none;
+}
+
+body .md-typeset .admonition-title,
+body .md-typeset summary {
+  background-color: rgb(212 162 76 / .08);
+}
+
+/* 选中文字 / 滚动条（对齐 SPA style.css） */
+body ::selection {
+  background: rgb(212 162 76 / .32);
+  color: var(--pt-parchment);
+}
+
+body * {
+  scrollbar-color: rgb(212 162 76 / .35) transparent;
+}
+
+body ::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+body ::-webkit-scrollbar-track {
+  background: rgb(128 128 128 / .10);
+}
+
+body ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(212 162 76 / .5), rgb(212 162 76 / .2));
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  border-radius: 999px;
+}
+
+/* 焦点环：鎏金 */
+body :focus-visible,
+body .md-nav__link:focus-visible,
+body .md-typeset a:focus-visible {
+  outline: 2px solid rgb(212 162 76 / .8);
+  outline-offset: 2px;
+}
+
+/* ---------- §6 导航 / 搜索 ---------- */
+body .md-nav__link:is(:focus, :hover) {
+  color: var(--pt-gold-300);
+}
+
+/* 当前页高亮取 SPA 的 gold-300，即 rgb(240,215,159)，
+   material 自己的规则是 .md-nav__item .md-nav__link--active，特异性 0,2,0，
+   这里补上 body 前缀给到 0,2,1，才能压住它的 --md-typeset-a-color */
+body .md-nav__item .md-nav__link--active,
+body .md-nav__item .md-nav__link--active code {
+  color: var(--pt-gold-300);
+}
+
+body .md-nav__title,
+body .md-nav__item--section > .md-nav__link {
+  font-family: var(--pt-font-display);
+}
+
+body .md-search__form {
+  background-color: var(--pt-overlay-soft);
+  border: 1px solid var(--pt-line);
+  border-radius: .5rem;
+}
+
+body .md-search__form:hover {
+  background-color: rgb(212 162 76 / .10);
+  border-color: rgb(212 162 76 / .45);
+}
+
+body .md-search__input {
+  color: var(--pt-parchment);
+}
+
+body .md-search__input::placeholder {
+  color: rgb(243 236 224 / .35);
+}
+
+body[data-md-color-scheme="default"] .md-search__input::placeholder {
+  color: rgb(32 28 22 / .35);
+}
+
+/* 目录（右侧）当前项 */
+body .md-nav__link--passed {
+  color: var(--md-default-fg-color--light);
+}
+
+body .md-nav--secondary .md-nav__link--active {
+  border-left: .05rem solid var(--pt-gold-500);
+}

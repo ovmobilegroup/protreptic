@@ -1,0 +1,63 @@
+{#-
+  Protreptic · 思想典藏 —— 文档站模板覆盖（Phase30-C2）
+  --------------------------------------------------------------------------
+  只做三件事，其余全部继承 mkdocs-material 的 base.html（不复制上游 partial，
+  避免跟随 material 版本漂移）：
+
+    1. announce 块  → 顶部「返回 Protreptic 主站」鎏金横条（SPA 入口 #1）
+    2. footer 块    → 页脚金线 + 「以史为鉴…」题辞 + SPA 入口 #2
+    3. extrahead 块 → 主题偏好桥：SPA 的 localStorage['protreptic-theme']
+                      与 material 自己的 __palette 记忆互通，首帧即用对配色
+
+  配色/字体不在此文件，见 assets/stylesheets/protreptic.css
+-#}
+{% extends "base.html" %}
+
+{% block announce %}
+  <div class="pt-spa-bar">
+    <a class="pt-spa-link" href="{{ config.extra.spa_url | d('../') }}">
+      <span class="pt-spa-arrow" aria-hidden="true">←</span>
+      <span>返回 Protreptic · 思想典藏 主站</span>
+    </a>
+    <span class="pt-spa-note">文档站 · ARCHIVE OF MINDS / DOCS</span>
+  </div>
+{% endblock %}
+{% block footer %}
+  {{ super() }}
+  <div class="pt-footer-bar md-typeset">
+    <div class="pt-hairline"></div>
+    <p class="pt-footer-quote">以史为鉴，知兴替；以人为鉴，明得失。</p>
+    <a class="pt-spa-link" href="{{ config.extra.spa_url | d('../') }}">
+      <span class="pt-spa-arrow" aria-hidden="true">←</span>
+      <span>返回主站：思维模式交互检索</span>
+    </a>
+  </div>
+{% endblock %}
+
+{% block extrahead %}
+  <script>
+    /* 主题偏好桥：SPA 把主题选择存在 localStorage 的 protreptic-theme 键，
+       material 存在 __palette 键，这里只在文档站还没有自己的记忆时，
+       按 SPA 的偏好播种，避免首屏闪色；用户在文档站里手动切过之后，
+       material 自己的记忆优先 */
+    (function () {
+      try {
+        var pref = localStorage.getItem('protreptic-theme');
+        if (pref !== 'light' && pref !== 'dark') return;
+        var scope = new URL('{{ config.extra.scope | d(base_url) }}', location);
+        var key = scope.pathname + '.__palette';
+        if (localStorage.getItem(key)) return;
+        var light = pref === 'light';
+        localStorage.setItem(key, JSON.stringify({
+          index: light ? 1 : 0,
+          color: {
+            scheme: light ? 'default' : 'slate',
+            primary: 'custom',
+            accent: 'custom',
+            media: ''
+          }
+        }));
+      } catch (e) { /* 隐私模式或禁用存储：走配置里的默认配色 */ }
+    })();
+  </script>
+{% endblock %}

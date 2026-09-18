@@ -15,8 +15,8 @@
 #
 # 本地：mkdocs build -f mkdocs.pages.yml（产物 site_docs/）  mkdocs serve -f mkdocs.pages.yml
 
-site_name: Protreptic 思维模式库
-site_description: 2868 条历史人物思维模式 · 284 位人物 · 中英双语
+site_name: Protreptic · 思想典藏
+site_description: Protreptic · 思想典藏 —— 2868 条历史人物思维模式 × 284 位人物 · 中英双语
 site_url: https://ovmobilegroup.github.io/protreptic/docs/
 repo_name: ovmobilegroup/protreptic
 repo_url: https://github.com/ovmobilegroup/protreptic
@@ -26,25 +26,39 @@ docs_dir: docs
 site_dir: site_docs
 
 # 与 docs/_config.yml 的 exclude 保持一致（Jekyll 时代 archive/ 不发布）
-exclude_patterns:
-  - archive/*
+# 注意：mkdocs 1.6 已移除 exclude_patterns 这个名字，写成它会被静默忽略
+# （--strict 下只是警告），结果是要排除的 archive/research 又出现在导航里。
+# 这里换成 1.6 的正确写法 exclude_docs，恢复 Jekyll 时代的排除语义。
+exclude_docs: |
+  archive/
+
 
 theme:
   name: material
   language: zh
+  # Phase30-C2 文档站皮肤：模板覆盖在 docs_overrides/，配色在
+  # docs_overrides/assets/stylesheets/protreptic.css
+  custom_dir: docs_overrides
+  logo: assets/images/protreptic.svg
+  favicon: assets/images/protreptic.svg
+  # 与 SPA 一致：只用系统字体栈，不加载 Google Fonts，也没有第三方网络请求
+  font: false
+  # primary/accent 都设为 custom：material 预编译的配色类整体让位给
+  # protreptic.css，由后者把 --md-* 变量对齐 SPA 的 ink/gold/jade 令牌
+  # slate 深墨排第一，与 SPA 的默认深色一致；下标 0=slate / 1=default
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
+    - scheme: slate
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
+        name: 切换到浅色模式
+    - scheme: default
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 切换到深色模式
   features:
     - navigation.tabs
     - navigation.sections
@@ -54,6 +68,10 @@ theme:
     - content.code.copy
     - content.tabs.link
     - content.tooltips
+
+# Phase30-C2：文档站皮肤样式表，跟 docs_overrides/ 同源，随 site 一起发布
+extra_css:
+  - assets/stylesheets/protreptic.css
 
 markdown_extensions:
   - admonition
@@ -93,5 +111,13 @@ plugins:
 
 extra:
   generator: false
+  # Phase30-C2：文档站回到 SPA 的入口，被 main.html 的 announce 横条与页脚链接引用
+  # 线上文档站在 /protreptic/docs/ 下，所以 ../ 就是 SPA 根；本地 mkdocs serve 时
+  # 指向服务根，同样可用
+  spa_url: ../
+  # palette 数组下标：0 = slate 深色，1 = default 浅色
+  # main.html 的主题桥用它们把 SPA 的 protreptic-theme 迁移成 material 的 __palette
+  palette_index_dark: 0
+  palette_index_light: 1
 
 copyright: © 2025 Protreptic Project Team - MIT License

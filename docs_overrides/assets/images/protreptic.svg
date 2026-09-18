@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Protreptic">
+  <defs>
+    <radialGradient id="glow" cx="18%" cy="12%" r="95%">
+      <stop offset="0%" stop-color="#d4a24c" stop-opacity=".30"/>
+      <stop offset="60%" stop-color="#d4a24c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="92%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity=".18"/>
+      <stop offset="70%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#04060c"/>
+  <rect width="64" height="64" rx="12" fill="url(#glow)"/>
+  <rect width="64" height="64" rx="12" fill="url(#glow2)"/>
+  <rect x="6.5" y="6.5" width="51" height="51" rx="9" fill="none" stroke="#d4a24c" stroke-opacity=".55" stroke-width="1.4"/>
+  <rect x="11" y="11" width="42" height="42" rx="6" fill="none" stroke="#d4a24c" stroke-opacity=".22" stroke-width="0.8"/>
+  <line x1="25" y1="47" x2="39" y2="47" stroke="#d4a24c" stroke-opacity=".45" stroke-width="1.6"/>
+</svg>
