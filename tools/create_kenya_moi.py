@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+
+import json
+
+def create_kenya_moi_figure():
+    """Create Daniel Moi figure (KE-MOI-001)"""
+    
+    moi_data = {
+        "code": "KE-MOI-001",
+        "name_zh": "摩伊/肯尼亚/独裁/单一党/族群/继任/基巴基/丹尼尔",
+        "name_en": "Moi/Kenya/Dictatorship/Single_Party/Clan/Inheritance/Kibaki/Daniel",
+        "core_mode": "M571 单一党独裁/族群利益/和平交权/基巴基/丹尼尔统治",
+        "nationality": "肯尼亚",
+        "civilization_sphere": "撒哈拉以南非洲/东非",
+        "time_period_standardized": "1924-至今",
+        "primary_language": "英语",
+        "description_zh": "丹尼尔·莫伊（1924-至今），肯尼亚前总统，1978-2002年在位。他是一位肯尼亚政治家，前教师，1964年成为肯尼亚总理，1978年接替肯雅塔，继续执政，倡导 Kenyatta的政策。他建立了一党制肯尼亚人民党，长期执政，控制了肯尼亚的政治。他的统治时期，肯尼亚经历了经济增长和政治稳定，但也存在权力继承问题。
+        "description_en": "Daniel Moi (1924-present), former President of Kenya, served from 1978 to 2002. He was a Kenyan politician and former teacher, became Prime Minister in 1964, succeeded Kenyatta in 1978, continued Kenyatta's policies. He established the Kenya African National Union as a one-party state, ruling Kenya for decades. His rule saw economic growth and political stability, but also power succession issues.",
+        "reason_zh": "莫伊是肯尼亚长期执政的总统，通过一党制和控制权继承，保持了肯尼亚的稳定。他的统治体现了后殖民时期的权力巩固和政治控制，但也限制了民主的发展。",
+        "reason_en": "Moi was Kenya's long-ruling president, maintaining stability through one-party rule and controlled succession. His rule exemplified post-colonial power consolidation and political control, but limited democratic development.",
+        "steps_zh": ["政治生涯开始：1924 出生/肯尼亚政治家/前教师/政治道路的启动", "独立后政治：1964 成为总理/肯尼亚独立后/继续执政/稳定政治", "长期执政：1978 就任总统/建立一党制/长期统治/保持稳定", "权力交接：2002 卸任/和平权力交接/基巴基接任/民主过渡"],
+        "steps_en": ["Political career start: 1924 birth/Kenyan politician/former teacher/start of political career", "Post-independence politics: 1964 became Prime Minister/Kenya independence/continuing rule/stable politics", "Long-term rule: 1978 became President/established one-party rule/long-term rule/maintained stability", "Power transition: 2002 resigned/peaceful power transition/Kibaki succeeded/democratic transition"],
+        "expected_zh": "建立稳定的政治体系，通过和平过渡实现权力交接。莫伊是肯尼亚后殖民时期的典型统治者，保持了国家的稳定，但限制了民主的发展。",
+        "expected_en": "Established a stable political system, achieving peaceful power transition. Moi was a typical post-colonial ruler in Kenya, maintaining stability but limiting democratic development.",
+        "case_zh": "1924 出生/1964 总理/1978 总统/2002 卸任/肯尼亚独立/莫伊/一党制/权力交接/肯尼亚稳定/永存。",
+        "case_en": "1924 birth/1964 Prime Minister/1978 President/2002 resigned/Kenya independence/Moi/one-party rule/power transition/Kenya stability/endures.",
+        "era": "1924-至今",
+        "historical_domains": ["政治", "社会", "经济", "民族", "民主"],
+        "domains": ["协作", "系统", "分析", "创意", "运营"],
+        "gender": "男",
+        "ethnicity": "肯尼亚"
+    }
+    
+    filename = f"/opt/data/workspace/Protreptic/{moi_data['code']}.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(moi_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"Created {filename}")
+    return moi_data
+
+if __name__ == "__main__":
+    create_kenya_moi_figure()

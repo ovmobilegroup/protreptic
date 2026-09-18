@@ -1,6 +1,6 @@
 import json, os
 
-json_dir = "<repo>/tools/json"
+json_dir = "/opt/data/workspace/Protreptic/tools/json"
 
 figures = [
     # M416 - ZA-MAN-001: Nelson Mandela

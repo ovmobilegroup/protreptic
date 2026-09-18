@@ -1,0 +1,1 @@
+Inspect all JSON files for modes field type issues and empty JSON files

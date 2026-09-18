@@ -1,10 +1,26 @@
 #!/usr/bin/env python3
-"""build_graph_data.py - Phase30-B1 关系图谱数据构建。"""
+"""build_graph_data.py - Phase30-B1 关系图谱数据构建。
+
+隔离名单 (Phase31-R4R5)
+    虚构人物必须在这一层也被过滤 —— Phase30 时 tools/build_unified_index.py 的
+    QUARANTINE 只管名录/每日层, 图谱层漏了它: H-SX-001「苏咸」从 /concepts
+    概念图漏出, concept_graph.json 人物数变成 284 = 283(公开名录) + 1(隔离项), 前端在名录里查不到, 前端在名录里查不到
+    它的人名, 只能把裸编号当人名显示。
+
+    现在 mode / concept / similar 三层统一走 tools/_quarantine.py:
+      * load_modes() 剔除隔离人物的模式, 并清掉其他模式 related_modes 里指向它们的
+        悬挂引用 (不留悬挂边);
+      * run() / --self-test 里再做一次硬断言: 输入里出现任何隔离 code 直接非 0 退出,
+        宁可失败也不产出带虚构人物的图谱。
+"""
 from __future__ import annotations
 import argparse, gzip, hashlib, json, sqlite3, sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _quarantine import QUARANTINE, is_quarantined, drop_quarantined_modes  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUT = REPO_ROOT / "web" / "public" / "data" / "graph"
@@ -42,6 +58,11 @@ def flatten_concepts(val):
     return [c for c in result if c]
 
 def load_modes():
+    """去重后的模式列表。
+
+    隔离人物的模式在此剔除 (三层图谱共用这一份输入), 并清掉 related_modes 里的
+    悬挂引用 —— 否则 M393-M402 仍会以模式节点 / 相似邻居的形式把虚构人物带回产物。
+    """
     if not MODES_JSON.is_file(): raise SystemExit(f"[FAIL] 缺少 {MODES_JSON}")
     raw = json.loads(MODES_JSON.read_text(encoding="utf-8"))
     modes = raw.get("modes")
@@ -50,7 +71,30 @@ def load_modes():
     for m in modes:
         mc = m.get("mode_code")
         if mc and mc not in seen: seen.add(mc); kept.append(m)
+    kept, dropped = drop_quarantined_modes(kept)
+    if dropped:
+        log(f"  [隔离] 剔除 {len(dropped)} 条隔离人物的模式: {', '.join(sorted(dropped))}")
+        log(f"         名单见 tools/_quarantine.py: {', '.join(sorted(QUARANTINE))}")
     return kept
+
+
+def verify_no_quarantine(modes):
+    """输入自检: 隔离人物不得以 figure_code / mode_code / related_modes 引用出现。
+
+    mode/concept/similar 三层都只消费 modes, 因此输入干净 => 三层产物干净。
+    """
+    leaks = []
+    for m in modes:
+        fc, mc = str(m.get("figure_code") or ""), str(m.get("mode_code") or "")
+        if is_quarantined(fc): leaks.append(f"figure_code {fc} (mode {mc})")
+        if is_quarantined(mc): leaks.append(f"mode_code {mc}")
+        for t in (m.get("related_modes") or []):
+            if is_quarantined(t): leaks.append(f"related_modes {mc} -> {t}")
+    if leaks:
+        for x in leaks[:10]: log(f"  [FAIL] 隔离项泄漏: {x}")
+        log(f"  [FAIL] 共 {len(leaks)} 处泄漏; 隔离名单见 tools/_quarantine.py")
+        return False
+    return True
 
 def load_db_modes():
     """mode_code -> key_concepts。
@@ -109,7 +153,7 @@ def build_concept_graph(modes, db_modes):
     fig_nodes, conc_nodes, edge_set = set(), set(), set()
     for m in modes:
         fc = m.get("figure_code")
-        if not fc: continue
+        if not fc or is_quarantined(fc): continue
         fig_nodes.add(fc)
         kc = flatten_concepts(m.get("key_concepts"))
         if not kc:
@@ -164,6 +208,7 @@ def run(out_dir, assert_budget=True, quiet=False):
     if len(out_dir.parts) < 4: raise SystemExit(f"[FAIL] 路径太浅: {out_dir}")
     if not quiet: log(f"仓库根: {REPO_ROOT}  输出: {out_dir}")
     modes = load_modes()
+    if not verify_no_quarantine(modes): return 1
     db_modes = load_db_modes()
     if not quiet: log(f"  modes: {len(modes)}, db_modes: {len(db_modes)}")
     mode_nodes, mode_edges = build_mode_edges(modes)
@@ -208,9 +253,11 @@ def main(argv=None):
     args = ap.parse_args(argv); out = Path(args.out); out = (REPO_ROOT / out).resolve() if not out.is_absolute() else out
     if args.self_test:
         log("自检..."); modes = load_modes(); db_modes = load_db_modes()
+        clean = verify_no_quarantine(modes)
         mn, me = build_mode_edges(modes); fn, cn, ce = build_concept_graph(modes, db_modes); sim = build_similar_modes(modes)
         checks = [("mode_nodes>0", len(mn)>0), ("mode_edges>0", len(me)>0), ("fig_nodes>0", len(fn)>0),
-                  ("conc_nodes>0", len(cn)>0), ("conc_edges>0", len(ce)>0), ("similar>=0", all(len(v)>=0 for v in sim.values()))]
+                  ("conc_nodes>0", len(cn)>0), ("conc_edges>0", len(ce)>0), ("similar>=0", all(len(v)>=0 for v in sim.values())),
+                  ("no_quarantine_leak", clean)]
         ok = True
         for name, r in checks: log(f"  [{'PASS' if r else 'FAIL'}] {name}"); ok = ok and r
         return 0 if ok else 1

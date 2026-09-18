@@ -17,7 +17,7 @@ Authoritative data files:
 import sys
 import os
 
-tools_dir = '<repo>/tools'
+tools_dir = '/opt/data/workspace/Protreptic/tools'
 sys.path.insert(0, tools_dir)
 
 # Import updated test suite

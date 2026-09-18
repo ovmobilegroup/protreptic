@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 EXPECT_FIGURES = 1057
 EXPECT_MODES = 2858
-EXPECT_BY_FIGURE = 284
+EXPECT_BY_FIGURE = 283
 EXPECT_MODE_INDEX_SHARDS = 8
 SPA_BASE = "/protreptic/"
 
@@ -117,7 +117,7 @@ def check_daily(c: Checker) -> None:
     """Phase30-B4：每日一模式索引（定位 + 名称表，两份必须同长且下标对齐）。
 
     条数断言用「模式总数 - 隔离名单条数」而不是写死数字：隔离名单来自产物自身的
-    excluded_figures（构建脚本从 build_unified_index.QUARANTINE 导入），改名单时不必改这里，
+    excluded_figures（构建脚本从 tools/_quarantine.py 的 QUARANTINE 导入），改名单时不必改这里，
     但索引整体缺失 / 构建顺序错（没在 export 之后跑）会立刻被拦住。
     """
     index_path = DATA_DIR / "daily" / "index.json"

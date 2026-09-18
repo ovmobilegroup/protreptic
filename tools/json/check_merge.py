@@ -1,1 +1,1 @@
-<repo>/tools/json/check_merge.py
+/opt/data/workspace/Protreptic/tools/json/check_merge.py

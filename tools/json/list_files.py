@@ -2,7 +2,7 @@
 """List new character source files and check if they exist."""
 import os, json
 
-SOURCE_DIR = '<repo>/tools/json'
+SOURCE_DIR = '/opt/data/workspace/Protreptic/tools/json'
 NEW_FILES = [
     'ES-FER-001.json', 'ES-CHA-001.json', 'ES-FRA-001.json','ES-ASU-001.json',
     'PT-HEN-001.json', 'PT-VAS-001.json', 'PT-SAL-001.json','PT-SPI-001.json',

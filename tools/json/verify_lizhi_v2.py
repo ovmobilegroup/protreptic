@@ -4,7 +4,7 @@
 import json
 from pathlib import Path
 
-BASE = Path("<repo>/tools/json")
+BASE = Path("/opt/data/workspace/Protreptic/tools/json")
 
 print("=" * 60)
 print("李贽(H-LZ-001) 数据质量验收报告")

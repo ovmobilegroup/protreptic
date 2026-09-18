@@ -4,7 +4,7 @@
 import json
 from pathlib import Path
 
-BASE = Path("<repo>/tools/json")
+BASE = Path("/opt/data/workspace/Protreptic/tools/json")
 
 # Li Zhi scenario data
 lizhi_tags = {

@@ -8,7 +8,7 @@
      * counts.total/figures/scenarios/with_modes 与 items 逐项重算一致
      * 每条 item: 必需字段齐全 + 类型正确 + code 唯一非空 + type 属于 {figure, scenario}
                 + n_modes 为非负整数 + 描述/年代等为字符串
-     * 隔离名单 (QUARANTINE, 见 tools/build_unified_index.py) 的数据不得出现在公开名录
+     * 隔离名单 (QUARANTINE, 见 tools/_quarantine.py) 的数据不得出现在公开名录
 
   2) 路由清单 与 名录 双向一致 (docs/architecture/web_p0_routes.json)
      * count == len(routes); counts_by_type 与实际重算一致
@@ -43,7 +43,12 @@ DEFAULT_BASE = "/protreptic/"
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 SCHEMA = "protreptic.unified_index/v1"
 ROUTES_SCHEMA = "protreptic.prerendered_routes/v1"
-QUARANTINED = {"H-SX-001"}  # 已确证虚构, 见 tools/build_unified_index.py QUARANTINE
+# 隔离名单的唯一来源是 tools/_quarantine.py (图谱层 build_graph_data.py 共用同一份),
+# 这里不复制副本 —— 复制过的副本正是 Phase30 里最外层与图谱层口径分裂的成因.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _quarantine import QUARANTINE as _QUARANTINE  # noqa: E402
+
+QUARANTINED = set(_QUARANTINE)  # 已确证虚构: 不得出现在公开名录
 CODE_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9 ._+\-]*$")
 MIN_SITEMAP_ENTRIES = 1300
 

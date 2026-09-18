@@ -11,7 +11,7 @@
     figures.index.json          501 条轻量索引     目标 gzip <= 50 KB
     figures/{code}.json         501 个详情分片
     modes/index-{0..7}.json     2858 条摘要，md5(mode_code)%8 均分   单片 gzip <= 200 KB
-    modes/by-figure/{fc}.json   284 个「某人的 10 条模式」分片（按 figure_code 原值分组）
+    modes/by-figure/{fc}.json   283 个「某人的 10 条模式」分片（按 figure_code 原值分组）
     meta.json                   构建时间戳 + 各产物条数 + sha256
 
 Phase31-R3：by-figure 与 index 两份产物共用清洗后的 domain_zh/domain_en
@@ -22,7 +22,7 @@ Phase31-R3：by-figure 与 index 两份产物共用清洗后的 domain_zh/domain
 踩坑规则（依据 docs/architecture/web_pages_migration_assessment.md §3.2，必须遵守）：
   x 不要按 H- 前缀分片 —— 2858 条里有 1670 条的 figure_code 是旧式三字母 slug
     （HCM / SUK / AlGhazali …），按前缀会把它们全挤进一个 1.78 MB 的分片。
-  v 按 figure_code 原值分组 -> 恰好 284 片。
+  v 按 figure_code 原值分组 -> 恰好 283 片。
   x 不要生成单个全量模式文件 —— 18.92 MB raw / 7.4 MB gzip，移动端不可接受。
   v 摘要索引只放 8 个轻字段（定义全文只出现在 by-figure 分片里）。
 
@@ -61,7 +61,7 @@ GZIP_LEVEL = 9
 
 EXPECT_FIGURES = 1057
 EXPECT_MODES = 2858
-EXPECT_BY_FIGURE = 284
+EXPECT_BY_FIGURE = 283
 
 LIMIT_INDEX_GZIP = 50 * 1024
 LIMIT_MODE_SHARD_GZIP = 200 * 1024

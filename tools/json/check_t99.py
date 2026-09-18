@@ -1,7 +1,7 @@
 import json
 
 # Check the modes_data.json in t_99d75f2f/tools
-with open('<internal>') as fp:
+with open('/opt/data/kanban/boards/protreptic/workspaces/t_99d75f2f/tools/modes_data.json') as fp:
     d = json.load(fp)
 print(f"modes_data.json (t_99d75f2f/tools): {type(d)}")
 if isinstance(d, dict):
@@ -14,23 +14,23 @@ if isinstance(d, dict):
                     print(f"    M480-M494: {mode_key}")
 
 # Check scenarios_zh.json
-with open('<internal>') as fp:
+with open('/opt/data/kanban/boards/protreptic/workspaces/t_99d75f2f/tools/scenarios_zh.json') as fp:
     d = json.load(fp)
 print(f"\nscenarios_zh.json (t_99d75f2f/tools): {len(d)} entries")
 
 # Check scenarios_en.json
-with open('<internal>') as fp:
+with open('/opt/data/kanban/boards/protreptic/workspaces/t_99d75f2f/tools/scenarios_en.json') as fp:
     d = json.load(fp)
 print(f"scenarios_en.json (t_99d75f2f/tools): {len(d)} entries")
 
 # Check code_maps.json
-with open('<internal>') as fp:
+with open('/opt/data/kanban/boards/protreptic/workspaces/t_99d75f2f/tools/code_maps.json') as fp:
     d = json.load(fp)
 print(f"code_maps.json (t_99d75f2f/tools): CODE_MAP={len(d.get('CODE_MAP', {}))}, CODE_MAP_EN={len(d.get('CODE_MAP_EN', {}))}")
 
 # Check scenario_tags.json if exists
 import os
-tags_path = '<internal>'
+tags_path = '/opt/data/kanban/boards/protreptic/workspaces/t_99d75f2f/tools/scenario_tags.json'
 if os.path.exists(tags_path):
     with open(tags_path) as fp:
         d = json.load(fp)

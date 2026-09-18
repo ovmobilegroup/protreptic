@@ -1,6 +1,6 @@
 import json, os
 
-json_dir = "<repo>/tools/json"
+json_dir = "/opt/data/workspace/Protreptic/tools/json"
 
 def write_persona(code, name_zh, name_en, desc_zh, desc_en, reason_zh, reason_en,
                   steps_zh, steps_en, expected_zh, expected_en, case_zh, case_en,

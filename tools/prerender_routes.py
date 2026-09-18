@@ -147,7 +147,7 @@ def build_routes(dist: Path, base: str):
 def excluded_figure_codes(dist, unified_codes):
     """by-figure 分片存在但不在公开名录里的人物编码.
 
-    已知 H-SX-001 被 tools/build_unified_index.py 的 QUARANTINE 隔离, 但
+    已知 H-SX-001 被 tools/_quarantine.py 的 QUARANTINE 隔离（名录/每日/图谱三层共用）, 但
     tools/export_static_site.py 仍会把它的 by-figure 分片写进 data/. 本脚本按
     公开名录预渲染, 因此不为它生成路由, 它继续走 404 外壳. 这里把它报出来,
     供 sitemap 生成器与数据治理卡对齐.

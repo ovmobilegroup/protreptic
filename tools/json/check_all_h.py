@@ -1,6 +1,6 @@
 import json, os
 
-workspace = "<repo>/tools/json"
+workspace = "/opt/data/workspace/Protreptic/tools/json"
 
 # Check all H-* files in DBs
 print("=== Checking modes_data.json for ALL H-* entries ===")

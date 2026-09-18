@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+
+import json
+import os
+import sys
+
+def create_tanzanian_figure():
+    """Create Julius Nyerere (TZ-NYE-001) JSON file"""
+    
+    figure_data = {
+        "code": "TZ-NYE-001",
+        "name_zh": "尼雷尔/坦桑尼亚/乌贾马/非洲社会主义/教师/斯瓦希里/朱利叶斯",
+        "name_en": "Nyerere/Tanzania/Ujamaa/African socialism/Teacher/Swahili/Julius",
+        "core_mode": "M572 乌贾马/非洲社会主义/教师/斯瓦希里/自给自足",
+        "wiki_id": "Julius_Nyerere;Ujamaa;African_socialism;Tanganyika;Tanzania",
+        "nationality": "坦桑尼亚",
+        "civilization_sphere": "撒哈拉以南非洲/东非",
+        "time_period_standardized": "1910-1999",
+        "primary_language": "斯瓦希里语/英语",
+        "intellectual_tradition": "非洲社会主义/乌贾马思想/泛非主义/发展经济学/合作社运动",
+        "description_zh": "朱利叶斯·尼雷尔（1910-1999），坦桑尼亚前总统，乌贾马政治哲学的倡导者，从1961年到1985年担任总统。他是一位教育工作者和政治家，领导坦桑尼亚获得独立并实施乌贾马政策，强调非洲社会主义、自给自足和道德主义。通过推动坦桑尼亚的独立和实施非洲发展模式，他为坦桑尼亚的民族建设和非洲发展做出了重要贡献。",
+        "description_en": "Julius Nyerere (1910-1999), former President of Tanzania, advocated Ujamaa political philosophy. He served as president from 1961 to 1985. An educator and politician, he led Tanzania to independence and implemented Ujamaa policies, emphasizing African socialism, self-reliance, and moralism. Through promoting Tanzania's independence and implementing African development models, he made significant contributions to Tanzania's nation-building and African development.",
+        "reason_zh": "尼雷尔是坦桑尼亚乌贾马政治哲学的奠基人，倡导非洲社会主义、自给自足和道德主义，对坦桑尼亚独立和国家建设做出了重要贡献。他的乌贾马思想成为非洲发展理论的重要组成部分，对非洲政治和经济发展产生了深远影响。",
+        "reason_en": "Nyerere was the founder of Ujamaa political philosophy in Tanzania, advocating African socialism, self-reliance, and moralism. He made significant contributions to Tanzania's independence and national construction. His Ujamaa ideology became a significant component of African development theory and had profound impact on African politics and economic development.",
+        "modes": [572],
+        "steps_zh": [
+            "坦桑尼亚独立运动建立：1954年坦桑尼亚非洲民族联合党建立/尼雷尔领导独立斗争/奠定坦桑尼亚独立基础",
+            "乌贾马政策实施：1961年坦桑尼亚独立/乌贾马政策实施/合作社化运动/非洲社会主义实践",
+            "总统生涯开启：1961年担任坦桑尼亚总统/领导国家建设/实施乌贾马政策/促进坦桑尼亚发展",
+            "非洲发展理论完善：1970年代非洲发展理论形成/乌贾马思想完善/非洲发展模式建立/影响非洲国家"
+        ],
+        "steps_en": [
+            "Tanganyika independence movement establishment: 1954 Tanganyika African National Union established/Nyerere led independence struggle/foundations laid for Tanganyika independence",
+            "Ujamaa policy implementation: 1961 Tanganyika independence/Ujamaa policy implemented/Collectivization movement/African socialism practice",
+            "Presidential career start: 1961 became President of Tanzania/led nation-building/implemented Ujamaa policy/promoted Tanzania development",
+            "African development theory improvement: 1970s African development theory formed/Ujamaa ideology formed/African development model established/impact on African countries"
+        ],
+        "expected_zh": "实现坦桑尼亚独立和乌贾马政策实践，建立非洲发展新模式，推动坦桑尼亚和非洲的自主发展和民族复兴。",
+        "expected_en": "Realizing Tanzania's independence and implementing Ujamaa policies, establishing new African development model, promoting Tanzania and Africa's autonomous development and national rejuvenation.",
+        "case_zh": "1910 出生/1954 成立非洲民族联合党/1961 坦桑尼亚独立/1961 就任总统/1985 卸任/乌贾马政策/坦桑尼亚独立/非洲社会主义/乌贾马思想/坦桑尼亚建设/永存。",
+        "case_en": "1910 birth/1954 Tanganyika African National Union established/1961 Tanganyika independence/1961 became President of Tanzania/1985 resigned/Ujamaa policy/Tanganyika independence/African socialism/Ujamaa ideology/Tanzania construction/endures.",
+        "era": "1910-1999",
+        "historical_domains": ["政治", "经济", "社会", "文化", "思想"],
+        "domains": ["协作", "系统", "分析", "创意", "运营"],
+        "gender": "男",
+        "ethnicity": "坦桑尼亚"
+    }
+    
+    # Write to file
+    filename = f"/opt/data/workspace/Protreptic/TZ-NYE-001.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(figure_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"Created {filename}")
+    return figure_data
+
+if __name__ == "__main__":
+    create_tanzanian_figure()

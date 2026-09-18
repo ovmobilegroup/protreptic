@@ -1,1 +1,1 @@
-<repo>/tools/json/gen_baltic.py
+/opt/data/workspace/Protreptic/tools/json/gen_baltic.py

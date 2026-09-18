@@ -1,6 +1,6 @@
 import json, os, sys
 
-workspace = "<repo>/tools/json"
+workspace = "/opt/data/workspace/Protreptic/tools/json"
 src_main = os.path.join(workspace, "H-MZ-001.json")
 src_modes = os.path.join(workspace, "H-MZ-001_modes.json")
 

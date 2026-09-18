@@ -1,1 +1,1 @@
-<repo>/tools/test_thinking_mode_selector.py
+/opt/data/workspace/Protreptic/tools/test_thinking_mode_selector.py

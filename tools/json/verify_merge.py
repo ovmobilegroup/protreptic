@@ -1,6 +1,6 @@
 import json, os
 
-workspace = "<repo>/tools/json"
+workspace = "/opt/data/workspace/Protreptic/tools/json"
 
 # Verify all 4 DB files
 print("=== VERIFICATION: H-MZ-001 (孟子) across all DB files ===\n")

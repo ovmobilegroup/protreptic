@@ -2,7 +2,7 @@
 """构建统一索引 web/public/data/index.unified.json
 
 合并两套体系：
-  1) 人物（284）  —— data/modes_data.json 按 figure_code 聚合 + data/figures/*.json 元数据
+  1) 人物（283）  —— data/modes_data.json 按 figure_code 聚合 + data/figures/*.json 元数据
   2) 场景（N）    —— api/protreptic.db 的 figures 表（源自 tools/json/scenarios_*.json）
 
 统一形状（前端只读这一个文件即可同时浏览人物与场景）：
@@ -25,12 +25,11 @@ from collections import Counter
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# 隔离名单：已确证为虚构记录，不进入公开名录（保留在源数据，可复核回滚）
-# H-SX-001「苏咸」：全部 10 条模式皆引《苏咸子·权变篇/纵横篇/…》——该人物与该书均不存在
-# （检索仅得「苏秦」；《汉书·艺文志》纵横家著录为《苏子》31 篇，无《苏咸子》）。判为虚构，隔离。
-QUARANTINE = {
-    'H-SX-001': '引证伪造典籍《苏咸子》，人物与书皆不存在',
-}
+# 隔离名单从 tools/_quarantine.py 导入 —— 单一事实来源，图谱层（build_graph_data.py）
+# 与每日层（build_daily_index.py）共用同一份，禁止在此复制副本。
+# 这里仍以模块属性 QUARANTINE 暴露，供既有调用方（pages_preflight 等）读取。
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _quarantine import QUARANTINE, is_quarantined  # noqa: E402
 
 
 def _norm(v):
@@ -81,7 +80,7 @@ def load_persons():
     groups = {}
     for m in modes:
         fc = str(m.get('figure_code') or '').strip()
-        if not fc or fc in QUARANTINE:
+        if not fc or is_quarantined(fc):
             continue
         g = groups.setdefault(fc, {'n': 0, 'definition': '', 'name': ''})
         g['n'] += 1

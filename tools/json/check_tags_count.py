@@ -1,7 +1,7 @@
 import json
 
 # Check root scenario_tags.json in detail
-with open('<repo>/scenario_tags.json') as fp:
+with open('/opt/data/workspace/Protreptic/scenario_tags.json') as fp:
     d = json.load(fp)
 print(f"scenario_tags.json (root): {type(d)}")
 print(f"  keys: {list(d.keys())}")
@@ -20,7 +20,7 @@ if 'tags' in d and isinstance(d['tags'], dict):
         print(f"    {c}")
 
 # Check tools scenario_tags.json
-with open('<repo>/tools/scenario_tags.json') as fp:
+with open('/opt/data/workspace/Protreptic/tools/scenario_tags.json') as fp:
     d = json.load(fp)
 print(f"\nscenario_tags.json (tools): {type(d)}")
 print(f"  keys: {list(d.keys())}")

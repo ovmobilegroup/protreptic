@@ -25,9 +25,10 @@ entries 的顺序就是选取顺序
     不是 bug; 产物里带 total 与 generated_at, 用于核对当时的口径.
 
 隔离名单
-    已确证虚构的人物 (tools/build_unified_index.py 的 QUARANTINE, 现为 H-SX-001) 不进本索引:
-    公开名录已经把它排除, 首页/归档页更不该把它当作「今日一模式」推出来.
-    名单从 build_unified_index 导入 (单一事实来源), 导入失败即报错退出, 不做本地副本.
+    已确证虚构的人物 (现为 H-SX-001) 不进本索引: 公开名录已经把它排除,
+    首页/归档页更不该把它当作「今日一模式」推出来.
+    名单从 tools/_quarantine.py 导入 (单一事实来源, 图谱层 build_graph_data.py 共用同一份),
+    导入失败即报错退出, 不做本地副本.
 
 用法
     python3 tools/build_daily_index.py
@@ -105,13 +106,13 @@ def expected_total(data_dir: Path):
 
 
 def load_quarantine() -> dict:
-    '''隔离名单只在 build_unified_index.py 里定义一处, 这里导入它, 不复制副本.'''
+    '''隔离名单只在 tools/_quarantine.py 里定义一处, 这里导入它, 不复制副本.'''
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     try:
-        import build_unified_index  # noqa: E402
+        import _quarantine  # noqa: E402
     except Exception as exc:  # pragma: no cover - 只有在工具链被改名/破坏时才会走到
-        fail("无法导入 tools/build_unified_index.py 读取隔离名单 (%s): 拒绝在不知道隔离名单的情况下产出索引" % exc)
-    return dict(getattr(build_unified_index, "QUARANTINE", {}) or {})
+        fail("无法导入 tools/_quarantine.py 读取隔离名单 (%s): 拒绝在不知道隔离名单的情况下产出索引" % exc)
+    return dict(getattr(_quarantine, "QUARANTINE", {}) or {})
 
 
 def load_entries(data_dir: Path):

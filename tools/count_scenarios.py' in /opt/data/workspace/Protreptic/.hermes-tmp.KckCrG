@@ -1,0 +1,8 @@
+count_scenarios.py' in /opt/data/workspace/Protreptic/tools. The script should:
+1. Load scenarios_zh.json
+2. Count all keys (total)
+3. Count H-* codes specifically
+4. Print the counts.
+5. Then load scenarios_en.json and do the same for EN version
+
+The output will be used to update test_thinking_mode_selector.py assertions.

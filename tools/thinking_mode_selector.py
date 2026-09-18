@@ -337,7 +337,7 @@ class ThinkingModeSelector:
     def query_code(self, code: str):
         code = code.upper().strip()
         if code not in self.scenarios:
-            # 回退：尝试从 figure_library（2868 条人物专属模式）查询
+            # 回退：尝试从 figure_library（2858 条人物专属模式）查询
             if self._query_figure_fallback(code):
                 return
             if self.lang == "zh":

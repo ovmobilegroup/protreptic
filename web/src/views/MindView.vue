@@ -136,7 +136,7 @@ onMounted(load)
                     @click="addToCompare(m.code)">
               {{ t('加入对比', 'Compare') }}
             </button>
-            <span v-if="m.domain" class="pt-chip-jade ml-auto max-w-[14rem] truncate">{{ m.domain }}</span>
+            <span v-if="m.domain" class="pt-chip-jade ml-auto">{{ m.domain }}</span>
           </div>
 
           <p v-if="m.definition" class="leading-relaxed text-parchment/70">{{ m.definition }}</p>

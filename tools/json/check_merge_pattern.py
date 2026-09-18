@@ -1,6 +1,6 @@
 import json, os
 
-workspace = "<repo>/tools/json"
+workspace = "/opt/data/workspace/Protreptic/tools/json"
 
 # Check what the previous task for Zhu Xi (H-ZZ-001) did
 print("=== Checking main_data.json for H-ZZ-001 (Zhu Xi) ===")

@@ -2,7 +2,7 @@
 """figure_library.py — 历史人物思维模式库查询工具
 
 把 Protreptic 的核心资产（data/modes_data.json，285 位历史人物 × 每人 10 条
-专属思维模式 = 2868 条）接入可查询的产品层。
+专属思维模式 = 2858 条（去重后））接入可查询的产品层。
 
 用法:
     python figure_library.py -L                      # 列出全部历史人物

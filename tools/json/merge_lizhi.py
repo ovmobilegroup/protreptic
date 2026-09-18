@@ -4,7 +4,7 @@
 import json
 from pathlib import Path
 
-BASE = Path("<repo>/tools/json")
+BASE = Path("/opt/data/workspace/Protreptic/tools/json")
 
 def load_json(path):
     with open(BASE / path, 'r', encoding='utf-8') as f:
