@@ -19,6 +19,7 @@ H-CHD-001.md 档案卡片定义 M701-M707（7个模式），但数据库实际�
 ### 1.3 解决方案
 
 遵循「数据优先」原则：
+
 - 数据库（modes_data.json、code_maps.json、scenarios_*.json）是事实来源
 - 重写 H-CHD-001.md 以匹配实际数据
 - 保留旧报告作为历史参考

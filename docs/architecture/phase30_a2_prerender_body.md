@@ -26,15 +26,19 @@ python3 tools/pages_preflight.py --stage dist
 # 2) 预渲染 (head + 关键路由正文快照)
 python3 tools/prerender_routes.py
 ```
+
 # 3) 静态托管深链复核 (Pages 的目录回落语义与 http.server 一致)
+
 mkdir -p /tmp/serve && ln -sfn "$PWD/web/dist" /tmp/serve/protreptic
 cd /tmp/serve && python3 -m http.server 8100   # 另一终端
 curl -s -o /dev/null -w "%{http_code}\\n" http://127.0.0.1:8100/protreptic/minds/ARR/
+
 ```
 
 实测输出 (节选):
 
 ```
+
 [prerender] 正文快照 50 条, 共 1852 KB
 [prerender] base=/protreptic/ routes=1350
 [prerender] wrote 1350 index.html, total 5742 KB
@@ -45,6 +49,7 @@ OK  templates/chibi      http=200 snapshot=True  plain_chars=5029
 OK  minds/ARR            http=200 snapshot=True  plain_chars=6911
 OK  figures/A-1-X-P      http=200 snapshot=False plain_chars=37
 [summary] checked=19 not200=0 missing_snapshot=0 short=0
+
 ```
 
 浏览器复核 (Chromium, `/protreptic/minds/AMU/`): `snapshot_after_mount=false`, `has_nav=true`,

@@ -7,6 +7,7 @@
 ## 目标受众
 
 本手册面向需要重复执行批量导入流程的维护人员，包括：
+
 - 知识库管理员
 - 数据验证人员
 - 系统运维人员
@@ -17,16 +18,19 @@
 ### 输入源
 
 **主要输入文件：**
+
 ```
 <repo>/docs/research/batch_new_figures_research.md
 ```
 
 **数据来源：**
+
 - `batch2_candidates.json` - 第一批候选人物数据
 - `batch3_candidates.json` - 第二批候选人物数据
 - `generate_input.py` - 生成合并输入文件的脚本
 
 **数据格式要求：**
+
 ```json
 {
   "code": "H-XXX-XXX",
@@ -48,17 +52,20 @@
 ### 验证规则
 
 **代码验证：**
+
 - 必须以 "H-" 开头
 - 必须全局唯一（不允许重复）
 - 格式：H-三位数字-三位数字
 
 **字段验证：**
+
 - `name_zh` 和 `name_en` 不能为空
 - `core_modes` 必须是非空数组，包含有效的模式编号
 - `proposed_steps` 必须是 5-6 个步骤的数组
 - `unique_thinking` 不能为空
 
 **模式编号验证：**
+
 - 支持 1-42 的传统模式编号
 - 也支持扩展模式编号（如 36, 38 等）
 - 模式必须在 `modes_data.json` 中有对应条目
@@ -366,6 +373,7 @@ python3 test_thinking_mode_selector.py
 **问题：** `json.decoder.JSONDecodeError`
 
 **解决方案：**
+
 ```bash
 # 检查输入文件格式
 python3 -m json.tool <repo>/docs/research/batch_new_figures_research.md
@@ -381,6 +389,7 @@ python3 -m json.tool <repo>/docs/research/batch_new_figures_research.md
 **问题：** `VALIDATION ERRORS:` 输出
 
 **解决方案：**
+
 ```bash
 # 检查具体验证错误
 python3 import_batch_56.py 2>&1 | grep "VALIDATION ERRORS"
@@ -396,6 +405,7 @@ python3 import_batch_56.py 2>&1 | grep "VALIDATION ERRORS"
 **问题：** `Permission denied`
 
 **解决方案：**
+
 ```bash
 # 检查文件权限
 ls -la <repo>/*.json
@@ -411,6 +421,7 @@ chmod 755 <data>/skills/ultimate-thinking-and-writing-methods/scripts/*.py
 **问题：** `ModuleNotFoundError`
 
 **解决方案：**
+
 ```bash
 # 检查 Python 路径
 python3 -c "import sys; print(sys.path)"
@@ -538,6 +549,7 @@ print(f'Codes in CM only: {cm_codes - zh_codes}')
 ## 联系信息
 
 如果在执行过程中遇到问题，请联系：
+
 - 知识库管理员
 - 系统运维团队
 - 开发支持团队

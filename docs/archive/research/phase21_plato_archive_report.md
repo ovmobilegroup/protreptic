@@ -7,6 +7,7 @@
 独立复跑验证脚本 `verify_blt_doc.py`（40 项检查）：**40 PASS / 0 FAIL**。
 
 覆盖范围：
+
 - docs/figures/H-BLT-001.md：八节结构齐全（历史定位/核心思想/十大思维模式/现代场景应用/现代应用/跨引用/标签/独特成就），M-BLT-001~010 与 C-BLT-001~010 全部在档
 - 数据侧六处一致：figures JSON、individuals JSON(+_modes.json)、code_maps（H-BLT-001 条目，10 模式 10 场景+10 英文场景）、modes_data（含 H-BLT-001 条目，全库总 137）、scenario_tags（+10，全库总 302）、scenarios_zh/en（各 10 条，zh 总 376 / en 总 366）
 - 跨引用 3 条（H-SQR-001/H-YLS-001/H-KZ-001）目标人物全部在库

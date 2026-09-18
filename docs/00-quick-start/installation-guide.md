@@ -50,6 +50,7 @@ cd Protreptic
 4. 粘贴到你常用的 AI 工具的"自定义指令"或"System Prompt"设置里
 
 **支持的 AI 工具**：
+
 - ChatGPT → Settings → Custom Instructions → System Prompt
 - Claude → System Prompt 设置
 - Gemini → System Instructions

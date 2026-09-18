@@ -1,13 +1,16 @@
 # Phase 2 Historical Figures Documentation - Execution Plan
 
 ## Task Overview
+
 We need to generate documentation for Phase 2 historical figures, including:
 
 **Input Files Found:**
+
 - `<repo>/docs/research/candidates_research.md` - Contains candidates list (8,615 words)
 - `<repo>/docs/research/phase2_detailed_research.md` - Contains detailed research (45,418 characters)
 
 **Target Deliverables:**
+
 1. `tools/scenarios_zh.json` - 60 new H-* scenario entries (Chinese)
 2. `tools/scenarios_en.json` - 60 new H-* scenario entries (English)
 3. `tools/code_maps.json` - Updated CODE_MAP and CODE_MAP_EN mappings
@@ -18,17 +21,20 @@ We need to generate documentation for Phase 2 historical figures, including:
 ## Key Requirements:
 
 ### Format Standards:
+
 - Complete alignment with existing H-* entry structure
 - code format: H-XX-NN where XX=Chinese pinyin initials, NN=serial number
 - Mode IDs must be within 1-42 range
 - Chinese and English versions must correspond perfectly
 
 ### Data Sources:
+
 - Merge and consolidate historical figures from both input files
 - Ensure no duplicates and unique serial numbers
 - Follow existing structure patterns from Phase 1
 
 ### Technical Requirements:
+
 - Parallel task generation for efficiency
 - Atomic operations (all or nothing)
 - Comprehensive quality validation
@@ -43,11 +49,13 @@ We need to generate documentation for Phase 2 historical figures, including:
 5. **Final Validation**: Verify completeness and correctness of all outputs
 
 ## Environment
+
 - Working directory: `<repo>`
 - Python environment: Python 3.14.6
 - Available tools: JSON parsing, Excel generation, file operations
 
 ## Next Steps
+
 1. Read and analyze input files
 2. Design data structure for historical figures
 3. Set up parallel execution environment
@@ -56,6 +64,7 @@ We need to generate documentation for Phase 2 historical figures, including:
 6. Final quality checks before completion
 
 ## Monitoring and Reporting
+
 - Progress tracking for each parallel task
 - Quality metrics for each deliverable
 - Timeline tracking for entire process

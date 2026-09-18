@@ -125,6 +125,7 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 **背景**：明亡清兴，黄宗羲反思专制君主制的根源
 
 **黄宗羲论证**：
+
 - 追溯君主起源：人类初始各自为私利，天下公利无人兴举，有人挺身而出服务天下
 - 此人之勤劳千万于普通人却不享其利，故古之人君本是劳苦服务角色
 - 后世君主"以天下为主"变为"以君为主"，将天下视为私产
@@ -137,6 +138,7 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 **背景**：批判秦汉以来专制律令的本质
 
 **黄宗羲论证**：
+
 - 对比三代以上"天下之法"（公法）与秦汉以后"一家之法"（私法）
 - 指出"非法之法，桎梏天下人之手足"，将国家视为筐箧私产
 - 主张"有治法而后有治人"，制度框架优先于个人品德
@@ -149,6 +151,7 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 **背景**：设计制约君权的制度机制
 
 **黄宗羲论证**：
+
 - "必使治天下之具皆出于学校"，学校成为政治议政场所
 - 太学祭酒地位等同宰相，皇帝亦需出席学校参与讨论
 - 地方学校定期评议地方政务，形成自下而上舆论监督
@@ -161,6 +164,7 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 **背景**：编纂中国第一部学术史专著
 
 **黄宗羲论证**：
+
 - 以"一本万殊"为指导思想，不废朱学陆学诸派
 - "有一偏之见，有相反之论，学者于其不同处正宜着眼理会"
 - 各案各自宗旨鲜明，整体又构成统一脉络
@@ -173,6 +177,7 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 **背景**：分析唐代两税法至清代摊丁入亩的税制演变
 
 **黄宗羲论证**：
+
 - "以一姓之规，而欲传之永久，莫如并税"
 - 每次并税简政后，所加又多于并税之前
 - "积累莫返之害"揭示制度性剥削的循环逻辑
@@ -185,6 +190,7 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 ## 预期成果与历史贡献
 
 ### 理论建构层面
+
 - ✅ 最早质疑君主制合法性的中国思想家，比卢梭早70年提出"天下为主君为客"
 - ✅ 首创"治法优于治人"的制度优先论，超越儒家德治传统
 - ✅ 开创中国学术史研究学科，创立学案体例
@@ -193,6 +199,7 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 - ✅ 将考据方法从文本校勘扩展到天文历算验证
 
 ### 实证支撑层面
+
 - ✅ 编撰《明儒学案》六十二卷，涵盖明代近三百年学术流派
 - ✅ 编撰《明文海》四十余年，保存一代文献
 - ✅ 与顾炎武、王夫之并称明末清初三大思想家
@@ -200,6 +207,7 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 - ✅ 其思想直接影响戊戌变法与辛亥革命
 
 ### 思想史地位
+
 - **影响深度**：梁启超称其为"中国自由主义先驱"，《明夷待访录》被革命党人秘密刊印数万册
 - **传承广度**：深刻影响浙东学派、晚清维新运动、近代民主启蒙思潮；对日本明治维新知识精英有间接影响
 - **现代回响**："黄宗羲定律"成为制度经济学经典案例；与卢梭《社会契约论》比较显示中国本土民主思想的独立起源
@@ -218,19 +226,19 @@ Apply "Synthesizing the Many Method" (M310), thoroughly collect original texts f
 
 > **天下为主，君为客**
 > *(Tianxia is the master, the ruler is the guest.)*
-
+>
 > **有治法而后有治人**
 > *(Good law must come before good governance by individuals.)*
-
+>
 > **天下之大害者，君而已矣**
 > *(The greatest harm to Tianxia is the ruler himself.)*
-
+>
 > **学问之道，以各人自用得着者为真**
 > *(The way of learning is that which each person finds genuinely useful to themselves is true.)*
-
+>
 > **理在气中，非气外别有理也**
 > *(Li exists within qi; there is no separate li outside qi.)*
-
+>
 > **积累莫返之害也**
 > *(This is the harm of accumulated irreversibility.)*
 

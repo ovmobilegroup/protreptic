@@ -121,6 +121,7 @@ Phase 2 为 Protreptic 知识体系的核心基础阶段，涵盖 **中国历史
 ## 4. Phase 2 数据规格 (v6 Schema 兼容)
 
 ### 4.1 核心数据文件
+
 - `scenarios_zh.json` - 中文场景库 (367 H/M + 20 A/B/C/D = 387 条目)
 - `scenarios_en.json` - 英文场景库 (同步双语)
 - `code_maps.json` - 代码双向映射 (387 条映射)
@@ -128,6 +129,7 @@ Phase 2 为 Protreptic 知识体系的核心基础阶段，涵盖 **中国历史
 - `modes_data.json` - 思维模式双语库 (M1-M50 核心 + 扩展)
 
 ### 4.2 人物数据结构 (v6 Schema 23 字段)
+
 ```json
 {
   "code": "H-LB-01",
@@ -162,12 +164,14 @@ Phase 2 为 Protreptic 知识体系的核心基础阶段，涵盖 **中国历史
 ## 5. 研究空白与待补齐项
 
 ### 5.1 已完成
+
 - ✅ H-* 360 位中国历史人物核心算子提取
 - ✅ M-* 6 位西方经典人物核心模式映射
 - ✅ 20 个 A/B/C/D 现代场景模式推荐矩阵
 - ✅ v6 Schema 23 字段标准化
 
 ### 5.2 待补齐 (Phase 3+ 任务)
+
 - [ ] H-* 人物英文传记 case_en 完善 (当前 ~60% 覆盖)
 - [ ] M-* 西方人物扩展至 20+ 位 (笛卡尔/牛顿/康德/马克思/韦伯/亚里士多德 深度展开)
 - [ ] 跨文化双重记录规则落地 (爱因斯坦、阿维森纳等)
@@ -180,6 +184,7 @@ Phase 2 为 Protreptic 知识体系的核心基础阶段，涵盖 **中国历史
 ## 6. 落地执行指引 (给 elcano)
 
 ### 6.1 批量写入脚本参数
+
 ```bash
 # 生成 Phase 2 全量数据
 python3 tools/data_merger.py \
@@ -191,6 +196,7 @@ python3 tools/data_merger.py \
 ```
 
 ### 6.2 关键检查点
+
 1. **双语一致性**：`reason_zh` / `reason_en` 语义对等
 2. **模式编号有效性**：`modes` 数组引用的模式必须存在于 `modes_data.json`
 3. **代码唯一性**：`code` 全局唯一，`code_maps.json` 双向映射正确

@@ -24,6 +24,7 @@
 ### P0 级修复：related_modes 不一致
 
 **问题详情**：
+
 - H-ZZ-001.json 中 M01 的 related_modes 为 `[M02, M08]`
 - H-ZZ-001_modes.json 中 M01 的 related_modes 为 `[M02, M06]`
 - 9 个模式的 related_modes 存在差异
@@ -32,6 +33,7 @@
 以 H-ZZ-001_modes.json 为权威源，将相关模式同步到 H-ZZ-001.json
 
 **修复结果**：
+
 ```
 M01: ['M02', 'M08'] -> ['M02', 'M06']
 M02: ['M01', 'M06', 'M09'] -> ['M01', 'M07']
@@ -55,6 +57,7 @@ M10: ['M06', 'M07', 'M08'] -> ['M06', 'M08']
 ### P2 级修复：场景数据编码更新
 
 **问题详情**：
+
 - scenarios_zh.json 和 scenarios_en.json 使用旧编码 `ZZ-001`
 - scenario_tags.json 使用旧编码 `ZZ-001`
 
@@ -62,6 +65,7 @@ M10: ['M06', 'M07', 'M08'] -> ['M06', 'M08']
 将所有 `ZZ-001` 编码更新为正确的 `H-ZZ-001`
 
 **修复结果**：
+
 - scenarios_zh.json: ✓ 已更新
 - scenarios_en.json: ✓ 已更新
 - scenario_tags.json: ✓ 已更新
@@ -70,12 +74,14 @@ M10: ['M06', 'M07', 'M08'] -> ['M06', 'M08']
 
 **问题详情**：
 H-ZZ-001_modes.json 的 cross_references.related_modes 使用了错误格式：
+
 ```
 ["M01-太虚即气", "M02-仇必和而解", ...]
 ```
 
 **修复方案**：
 更新为标准模式 ID 格式：
+
 ```
 ["M01", "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "M10"]
 ```

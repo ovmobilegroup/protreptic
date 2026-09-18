@@ -43,11 +43,13 @@
 ### 2.2 code_maps.json — cross_references.related_modes 格式标准化
 
 **问题**: `code_maps.json` H-ZZ-001 的 `cross_references.related_modes` 使用了带名称的格式：
+
 ```json
 ["M01-太虚即气", "M02-仇必和而解", ...]
 ```
 
 **修复**: 更新为标准纯 ID 格式：
+
 ```json
 ["M01", "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "M10"]
 ```
@@ -101,6 +103,7 @@ M10 知礼成性 ─────→ M06, M08
 ```
 
 **关联对称性验证**:
+
 - M01↔M02: ✓ 双向
 - M01↔M06: ✓ 双向
 - M02↔M07: ✓ 双向

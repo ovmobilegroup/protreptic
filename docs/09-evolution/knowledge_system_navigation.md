@@ -105,6 +105,7 @@
 ```
 
 **条件判断**：
+
 - 如果资源紧张（< 5万启动资金）→ 重点看 `cross_domain_expansion.md` #4 农村包围城市思维
 - 如果需要融资 → 重点看 `selector` 中的"方向性问题"分支
 - 如果产品卡住了 → 重点看 `decision_tree` 中"突破性问题"分支
@@ -144,6 +145,7 @@
 ```
 
 **条件判断**：
+
 - 如果团队效率低 → 重点看 `coach_guide` 的"团队建设"场景 + `decision_tree` 的 C-1-Y/P
 - 如果要做组织变革 → 重点看 `cross_domain_expansion` #8 渐进改革法
 - 如果要培养下属 → 重点看 `coach_guide` 的"教练角色定位"
@@ -185,6 +187,7 @@
 ```
 
 **条件判断**：
+
 - 如果时间很少 → 只做 `quick_start` + `dictionary`（口袋书）
 - 如果想快速见效 → 重点练 `quick_start` 的"1小时实战"
 - 如果想系统进阶 → 按 `daily_training` 的30天计划走
@@ -230,6 +233,7 @@
 ```
 
 **条件判断**：
+
 - 如果关注思想史 → 重点读 `world_spectrum` + `four_writers`
 - 如果关注跨学科 → 按顺序读 `cross_domain_1` → `cross_domain_7`
 - 如果需要写论文 → 重点看 `four_writers_comparison` + `bilingual`
@@ -274,6 +278,7 @@
 ```
 
 **条件判断**：
+
 - 如果写政策报告 → 重点看 `four_writers` 的胡乔木/胡绳范式
 - 如果写评论文章 → 重点看 `four_writers` 的陈伯达范式
 - 如果写调研报告 → 重点看 `four_writers` 的田家英范式
@@ -313,6 +318,7 @@
 ```
 
 **条件判断**：
+
 - 如果问题简单（≤1天决策）→ 跳过诊断，直接看 `dictionary` 速查
 - 如果问题复杂（多方利益冲突）→ 用 `decision_tree` 的"A-方向性问题"分支
 - 如果问题紧急（24小时内要解决）→ 用 `user_manual` 的"急救指南"
@@ -351,6 +357,7 @@
 ```
 
 **条件判断**：
+
 - 如果是纯新手 → 严格按 quick_start → dictionary → handbook 顺序
 - 如果有基础 → 跳过 quick_start，直接从 handbook 开始
 - 如果喜欢动手 → quick_start 之后直接进入 case_library
@@ -396,6 +403,7 @@
 ```
 
 **条件判断**：
+
 - 如果想快速提升 → 重点看 `mistake_book`（纠正错误最快）
 - 如果想系统提升 → 按 `daily_training` 30天计划
 - 如果想教别人 → 重点看 `coach_guide`

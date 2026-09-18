@@ -147,6 +147,7 @@
 **→ 打开 [应用手册](docs/03-practice/thinking_mode_user_manual.md)**
 
 每个思维模式都有：
+
 - ✅ 什么时候用
 - 🚫 什么时候不用
 - 🔧 3步诊断（方法对不对 → 执行到不到位 → 场景匹不匹配）
@@ -155,6 +156,7 @@
 **→ 打开 [错题本](docs/03-practice/thinking_mode_mistake_book.md)**
 
 50个误用案例，按4类错误分类：
+
 - 🔴 过度使用
 - 🟠 误用
 - 🟡 浅尝辄止

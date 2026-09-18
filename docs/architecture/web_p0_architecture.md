@@ -5,6 +5,7 @@
 > 线上: https://ovmobilegroup.github.io/protreptic
 >
 > 本文所有数字都来自本卡的真实取证.取证脚本与产物:
+>
 > - `tools/measure_web_p0_baseline.py` -> `docs/architecture/web_p0_baseline.json` (体积基线)
 > - `tools/prerender_routes.py` -> `docs/architecture/web_p0_routes.json` (预渲染路由清单, 发布仓基线 1350 条)
 > - `docs/architecture/web_p0_evidence.md` (每个数字对应的命令与原始输出)
@@ -511,6 +512,7 @@ mode_code / figure_code / figure_name / name / category / domain 用于展示,
 加上它会直接击穿 800 KB 预算).
 
 **分词规则**
+
 1. 先做 `NFKC` 归一化;
 2. 连续 CJK 串取全部 2-gram; 长度为 1 的串取该字本身;
 3. 连续拉丁 / 数字串转小写后取长度不小于 2 的词;

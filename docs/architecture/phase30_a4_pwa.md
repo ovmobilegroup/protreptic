@@ -24,6 +24,7 @@
 `web/dist/sw.js` 与 `web/dist/sw.build.json` 是**构建产物**（不入库），线上对应 `/protreptic/sw.js`。
 
 ### 为什么模板文件不放 `web/public/`
+
 放 `public/` 会被 Vite 原样拷成 `dist/sw.template.js` —— 线上多一份带 `__BUILD_ID__`
 占位符的死文件。模板属于构建工具链，放在 `web/sw.template.js`，默认路径写在
 `tools/build_sw.py` 里。

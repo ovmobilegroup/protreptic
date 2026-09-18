@@ -6,16 +6,19 @@
 ## 需修改/新增文件
 
 ### 核心数据文件
+
 - [ ] `tools/scenarios_zh.json` - 新增 45 个 H-* 场景条目
 - [ ] `tools/scenarios_en.json` - 新增 45 个 H-* 场景条目（中英对齐）
 - [ ] `tools/code_maps.json` - 同步更新 CODE_MAP / CODE_MAP_EN (新增 45 条)
 - [ ] `tools/modes_data.json` - 若需新增模式则更新 (优先复用现有 42 模式)
 
 ### 文档文件
+
 - [ ] `docs/historical_figures_thinking_modes_library.md` - 重新生成完整档案库 (含 256 位历史人物)
 - [ ] `tools/three_dimensional_comparison_matrix.xlsx` - 重新生成含 256 位历史人物的权重矩阵
 
 ### 规划/研究文档
+
 - [x] `docs/planning/phase3_candidates.md` - 45 位候选人名单 ✓
 - [ ] `docs/research/phase3_detailed_research.md` - 45 位深度调研报告
 - [x] `docs/planning/phase3_file_checklist.md` - 本文件 ✓
@@ -23,9 +26,11 @@
 - [ ] `docs/terminology/phase3_terminology.md` - 术语对照表
 
 ### 测试文件
+
 - [ ] `tools/test_thinking_mode_selector.py` - 更新断言 (总场景数 276，历史人物 256)
 
 ### 技能目录同步
+
 - [ ] `~/.hermes/skills/ultimate-thinking-and-writing-methods/scripts/thinking_mode_selector.py`
 - [ ] `~/.hermes/skills/ultimate-thinking-and-writing-methods/scripts/scenarios_zh.json`
 - [ ] `~/.hermes/skills/ultimate-thinking-and-writing-methods/scripts/scenarios_en.json`
@@ -67,11 +72,13 @@
 ## 当前进度
 
 ✅ **已完成**:
+
 - 历史人物审计文件更新 (211位)
 - Phase2完成情况确认 (15位P0)
 - Phase3候选人物名单规划 (45位P1/P2)
 
 🔄 **待完成**:
+
 - 深度调研报告
 - 批量写入数据文件
 - 审查报告

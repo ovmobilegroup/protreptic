@@ -51,6 +51,7 @@ Protreptic 当前语料**仅覆盖 7/22 个主要文明圈**，且深度极不�
 | 实体类型分布 | 100% figure (code 不以 H- 开头) |
 
 **国家分布**：
+
 - IS/ISL (Islamic early): 30 条 (41%)
 - DE (Germany): 10 条 (14%)
 - Southern Africa (ZA/BW/KE/NA/TZ/UG/ZW/ZM): 16 条 (22%)
@@ -186,6 +187,7 @@ gantt
 | **优先级** | **Critical** — 整个西方文明圈零人物、零模式 |
 
 **关键人物候选**：
+
 - US: Washington, Jefferson, Hamilton, Lincoln, FDR, MLK, Reagan
 - CA: Macdonald, Laurier, Trudeau
 - UK: Cromwell, Burke, Mill, Churchill, Thatcher

@@ -84,6 +84,7 @@ Construct high-speed information networks from counties to capital, establish di
 **背景**：秦末民变四起，刘邦率军进入咸阳
 
 **候选人论证**：
+
 - 战略预判法(M651)：刘邦观察秦朝暴政已失民心，预判天命将转移
 - 边际思维法(M652)：废除秦朝苛法仅保留三条，边际成本低但收益巨大
 - 信息高速法(M655)：迅速向关中民众传递新政策，建立信息优势
@@ -95,6 +96,7 @@ Construct high-speed information networks from counties to capital, establish di
 **背景**：唐太宗观看新科进士及第，得意地说：「天下英雄入吾彀中矣！」
 
 **候选人论证**：
+
 - 自然选择法(M653)：科举制构建乡试→会试→殿试三级筛选，每层淘汰率90%以上
 - 制度化制衡法(M654)：礼部主持考试→皇帝殿试复核，形成权力制衡
 - 信息高速法(M655)：建立驿传系统确保信息畅通
@@ -106,6 +108,7 @@ Construct high-speed information networks from counties to capital, establish di
 **背景**：青苗法低估胥吏盘剥的政治成本，高估制度推行边际收益
 
 **候选人论证**：
+
 - 边际思维法(M652)：低估推行青苗法的边际政治成本（士族反弹、官僚抵制）
 - 制度化制衡法(M654)：缺乏有效的监督和纠错机制
 - 信息高速法(M655)：地方官滥用权力导致信息失真，中央无法获取真实反馈
@@ -117,6 +120,7 @@ Construct high-speed information networks from counties to capital, establish di
 **背景**：宋代台谏双轨分权，台官监察百官，谏官规谏皇帝
 
 **候选人论证**：
+
 - 制度化制衡法(M654)：台谏分立形成权力制衡，程序自动纠错
 - 信息高速法(M655)：台谏系统作为信息反馈通道，直达天听
 
@@ -127,16 +131,19 @@ Construct high-speed information networks from counties to capital, establish di
 ## 预期成果与历史贡献
 
 ### 理论建构层面
+
 - ✅ 建立了完整的「政治选择五环范式」：战略预判→边际计算→自然选择→制度制衡→信息高速
 - ✅ 填补Protreptic中「政治制度史/人才选拔」层空白
 - ✅ 提出「天命靡常，惟德是辅」的核心命题，贯通两千年帝制政治智慧
 
 ### 实证支撑层面
+
 - ✅ 刘邦约法三章实践：战略预判+边际计算+信息高速
 - ✅ 唐太宗科举实践：自然选择+制度制衡+信息高速
 - ✅ 王安石变法失败教训：边际计算失误+制度制衡缺失
 
 ### 思想史地位
+
 - **影响深度**：候选人思维贯穿中国帝制时代两千年，是理解中国古代政治制度演变的关键框架
 - **传承广度**：从禅让制到科举制，候选人制度深刻影响了东亚政治文化圈
 - **现代回响**：为现代公务员制度、组织人才选拔、教育公平改革提供历史镜鉴
@@ -155,7 +162,7 @@ Construct high-speed information networks from counties to capital, establish di
 
 > **天命靡常，惟德是辅**  
 > *(The Mandate of Heaven is not constant; it assists only the virtuous.)*
-
+>
 > **选贤与能，讲信修睦**  
 > *(Select the worthy and capable, cultivate trust and harmony.)*
 

@@ -16,16 +16,19 @@
 ## 文件完整性验收
 
 ### 核心数据文件
+
 - [ ] `tools/scenarios_zh.json` - 276 条记录，含 256 个 H-*
 - [ ] `tools/scenarios_en.json` - 276 条记录，完全对齐
 - [ ] `tools/code_maps.json` - CODE_MAP/CODE_MAP_EN 各 276 条
 - [ ] `tools/modes_data.json` - 42 种模式，中英双语
 
 ### 文档文件
+
 - [ ] `docs/historical_figures_thinking_modes_library.md` - 完整档案库
 - [ ] `tools/three_dimensional_comparison_matrix.xlsx` - 5 工作表，256 位历史人物
 
 ### 规划/研究文档
+
 - [x] `docs/planning/phase3_candidates.md` - 45 位候选人名单 ✓
 - [ ] `docs/research/phase3_detailed_research.md` - 45 位深度调研
 - [x] `docs/planning/phase3_file_checklist.md` - 本文件 ✓
@@ -33,9 +36,11 @@
 - [ ] `docs/terminology/phase3_terminology.md` - 术语对照表
 
 ### 测试文件
+
 - [ ] `tools/test_thinking_mode_selector.py` - 断言更新为 276/256
 
 ### 技能目录同步
+
 - [ ] `~/.hermes/skills/ultimate-thinking-and-writing-methods/scripts/` 全套文件同步
 - [ ] 技能目录 CLI 验证通过
 
@@ -81,12 +86,14 @@ python3 tools/thinking_mode_selector.py -e md -o /tmp/phase3_export.md
 ## 当前进度
 
 ✅ **已完成规划**:
+
 - 历史人物审计文件更新 (211位)
 - Phase2完成情况确认 (15位P0)
 - Phase3候选人物名单规划 (45位P1/P2)
 - 文档框架搭建完成
 
 🔄 **待执行**:
+
 - 深度调研报告撰写
 - 批量写入数据文件
 - 审查报告

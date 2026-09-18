@@ -20,25 +20,30 @@
 ## 详细修改规格
 
 ### 1. tools/scenarios_zh.json
+
 - 在 JSON 对象末尾追加 10 个键值对
 - 键名: `H-WGW-160`, `H-FSN-161`, `H-JX-162`, `H-WXZ-163`, `H-ZH-164`, `H-XZ-165`, `H-LZC-166`, `H-HX-167`, `H-SJR-168`, `H-WYN-169`
 - 值结构参考现有 H-* 条目，包含字段: `name`, `description`, `modes`, `reason`, `steps`, `expected`, `case`
 - `modes` 数组引用 `modes_data.json` 中的 1-42 模式 ID
 
 ### 2. tools/scenarios_en.json
+
 - 同步追加 10 个英文版条目
 - 字段名、结构与中文版完全一致
 - `name`, `description`, `reason`, `steps`, `expected`, `case` 为英文
 
 ### 3. tools/code_maps.json
+
 - 在 `CODE_MAP` 与 `CODE_MAP_EN` 同步追加 10 条映射
 - 格式: `"H-WGW-160": "王国维：人生三境界与双重证据法"` / `"H-WGW-160": "Wang Guowei: Three Realms & Double Evidence Method"`
 
 ### 4. 验收测试
+
 ```bash
 cd <repo>
 python3 tools/test_thinking_mode_selector.py
 ```
+
 预期：全绿通过
 
 ---

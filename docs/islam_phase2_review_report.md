@@ -28,9 +28,11 @@
 ### 1. 结构完整性 — PASS
 
 所有 50 个新模式均包含 10 个必填字段：
+
 - `id`, `name_zh`, `name_en`, `definition_zh`, `definition_en`, `steps`, `representative_figures`, `distinctiveness_score`, `subdomain`, `era`
 
 字段级检查：
+
 - `steps` 长度 = 4 ✓
 - `representative_figures` 长度 ≥ 3 ✓ (均为 3 个)
 
@@ -49,11 +51,13 @@
 ### 4. 零容忍去重 — PASS (含说明)
 
 #### 4.1 跨文明去重
+
 - 对比对象：master_modes_v2.json 中 416 个模式中除伊斯兰外的所有有内容模式
 - 结果：**0 个人物重叠 ≥ 2**，**0 个名称/定义相似度超阈值**
 - ✅ 完全隔离，无跨文明污染
 
 #### 4.2 伊斯兰内部人物复用 (已知且合理)
+
 Ottoman_Mughal_Safavid 子域 (M_ISL_079-098) 内部存在人物复用：
 
 | 模式对 | 共享人物 (≥2) | 合理性说明 |
@@ -67,6 +71,7 @@ Ottoman_Mughal_Safavid 子域 (M_ISL_079-098) 内部存在人物复用：
 **结论**：这些不是"重复模式"，而是**同一历史体系不同侧面的建模**——符合框架简报 §3.2 "允许规范共享"。每个模式的 `name`、`definition`、`steps` 完全不同，体现不同思维切片。
 
 #### 4.3 M429-M443 占位符清理确认
+
 - M429-M443 为空 `name_zh` 占位符 (15 个)，仅保留了 subdomain/era/figures/distinctiveness_score 作为元数据桩
 - 真实完整数据已写入 M_ISL_049-063
 - **未造成数据双份**，无去重风险
@@ -84,6 +89,7 @@ distinctiveness_score 分布:
 ### 6. 标签一致性 — PASS
 
 所有 50 模式 `subdomain` 均属于 5 合法值之一：
+
 - `Early_Caliphate` (原有 19 模式)
 - `Reform_Modern` (新增 15: M_ISL_049-063)
 - `Theology_Law_Sufism` (新增 15: M_ISL_064-078)
@@ -115,9 +121,11 @@ distinctiveness_score 分布:
 ## 结论与建议
 
 ### 结论
+
 **伊斯兰文明二期 50 模式全量通过质量关口，可正式入库。**
 
 ### 建议后续工作
+
 1. **Schema 统一迁移** (独立任务)：将 M_ISL_030-048 从 v1 迁移到 v2 双语 Schema，消除库内双 Schema 共存
 2. **OMS 子域文档化**：在 `docs/islam_oms_figure_sharing.md` 记录 20 模式间的人物复用逻辑，供后续审计/扩展参考
 3. **跨文明去重基线**：本次确认的 "跨文明 0 重叠" 可作为后续文明扩展的回归基线
@@ -125,6 +133,7 @@ distinctiveness_score 分布:
 ---
 
 ## 附件
+
 - 数据源：`data/master_modes_v2.json` (416 模式，含 69 伊斯兰)
 - 验证脚本：`<internal>`
 - 原始合并提交：`5cc7470` (master branch)

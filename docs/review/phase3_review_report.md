@@ -1,6 +1,12 @@
 # Phase 3 一致性与历史实确性审查报告
 
+<!-- markdownlint-disable MD029 -->
+<!-- 本文件的优先级/步骤清单跨标题连续编号（如 P0=1-3、P1 从 4 起），编号即排序信息，
+     重新编号会丢失内容。MD029 对其它文件照常生效；口径见 .markdownlint-cli2.jsonc。 -->
+
+
 ## 任务目标
+
 Phase 3 一致性审查：去重、格式对齐、历史实确、功能摸底测试、技能目录同步。
 
 ---
@@ -20,6 +26,7 @@ Phase 3 一致性审查：去重、格式对齐、历史实确、功能摸底测
 ## 1. 去重检查详情
 
 ### 1.1 代码级去重 ✅
+
 - `code_maps.json` 中 CODE_MAP 与 CODE_MAP_EN 均 231 条，值无重复（每个代码映射唯一场景）
 - scenarios_zh/en.json 顶层键无重复，共 231 条场景
 
@@ -42,10 +49,12 @@ Phase 3 一致性审查：去重、格式对齐、历史实确、功能摸底测
 **统计**：211 条 H-* 记录对应 199 位历史人物，12 位人物重复（共占 22 条记录）。
 
 **额外发现**：
+
 - H-LW-168 与 H-MZ-169 `description` 字段完全相同
 - 9 个场景 `description` 为 "简介待完善..."（H-FSN-171, H-JX-172, H-WXZ-173, H-ZH-174, H-XZ-175, H-LZC-176, H-HX-177, H-SJR-178, H-WYN-179）
 
 **建议**：
+
 - 保留内容更完整/更新的版本，废弃另一版本代码（或合并为单条）
 - 如需保留多条，建议在 code_map 名称中明确区分侧重点（如"王阳明-阳明心学" vs "王阳明-知行合一"）
 
@@ -54,6 +63,7 @@ Phase 3 一致性审查：去重、格式对齐、历史实确、功能摸底测
 ## 2. 格式对齐检查 ✅
 
 ### 2.1 结构一致性
+
 - scenarios_zh.json 与 scenarios_en.json 顶层键完全一致（231 条）
 - 所有场景对象包含相同字段：`name`, `description`, `modes`, `reason`, `steps`, `expected`, `case`，以及可选字段 `era`
 
@@ -71,6 +81,7 @@ Phase 3 一致性审查：去重、格式对齐、历史实确、功能摸底测
 | `reason` | 字符串 | ✅ |
 
 ### 2.3 字段顺序
+
 Python 3.7+ 字典保持插入顺序，两文件字段顺序一致。
 
 ---
@@ -78,9 +89,11 @@ Python 3.7+ 字典保持插入顺序，两文件字段顺序一致。
 ## 3. 历史实确性检查 ❌
 
 ### 3.1 EN 文件中文残留（严重）
+
 **发现**：120/211 条 H-* 场景的 EN 文件中 `reason`、`steps`、`case` 字段仍含大量中文（未翻译为英文）。
 
 **示例**：
+
 - `H-LB-01.reason`："刘邦'三杰'皆不如（张良运筹、萧何治国、韩信将兵），却成就大汉..."
 - `H-ZZ-101.steps[0]`："第1步：认知偏差识别法——齐物论：'彼出于是、是亦因彼'..."
 - `H-QXS-38.case`："钱学森系统工程之父，核心思维：大系统观的工程化落地——从美喷气推进实验室/JPL返国..."
@@ -88,9 +101,11 @@ Python 3.7+ 字典保持插入顺序，两文件字段顺序一致。
 **影响**：双语查询功能在英文模式下返回中文内容，破坏用户体验。
 
 ### 3.2 缺失 era 字段（83 条 H-* 场景）
+
 **发现**：211 条 H-* 中仅 128 条包含 `era` 字段，83 条缺失。
 
 **缺失 era 的代表人物**：
+
 - 郭守敬 (H-GSJ-140)、朱载堉 (H-ZZ-141)、徐光启 (H-XGQ-142)
 - 智顗 (H-ZC-150)、宗喀巴 (H-ZK-151)、李斯 (H-LS-158)
 - 吴起 (H-WQ-159)、白圭 (H-BG-160)、商鞅补充 (H-SY-164)
@@ -137,14 +152,17 @@ Python 3.7+ 字典保持插入顺序，两文件字段顺序一致。
 ## 4. 功能摸底测试 ⚠️
 
 ### 4.1 场景总数统计
+
 ```bash
 python3 tools/thinking_mode_selector.py -l
 ```
+
 **实际输出**：231 个场景（方向性 9 + 突破性 3 + 人相关 4 + 长期性 4 + 历史人物 211 = 231）
 
 **测试断言预期**：238（Phase 2 报告中的旧数据）
 
 ### 4.2 双语查询测试
+
 ```bash
 # 中文查询
 python3 tools/thinking_mode_selector.py -c H-LB-01 --lang zh  # ✅ 正常返回中文
@@ -154,16 +172,20 @@ python3 tools/thinking_mode_selector.py -c H-LB-01 --lang en  # ⚠️ 返回中
 ```
 
 ### 4.3 关键词搜索测试
+
 ```bash
 python3 tools/thinking_mode_selector.py -s 战略  # ✅ 正常返回相关场景
 python3 tools/thinking_mode_selector.py -s 创新  # ✅ 正常返回相关场景
 ```
 
 ### 4.4 单元测试
+
 ```bash
 python3 test_thinking_mode_selector.py
 ```
+
 **结果**：全部测试通过（返回码 0），但需更新以下断言：
+
 - `test_scenarios_zh` / `test_scenarios_en`: `assert len(SCENARIOS_ZH) == 231` （原 238）
 - `test_code_maps`: `assert len(CODE_MAP) == 231` （原 238）
 - `test_categories_coverage`: `categories["H"] >= 211` （原 >= 178）
@@ -184,10 +206,13 @@ python3 test_thinking_mode_selector.py
 | test_thinking_mode_selector.py | 26 个测试 | 26 个测试 | 断言值不同 |
 
 ### 5.2 缺失的场景（技能目录 vs 工作区）
+
 技能目录缺失 86 个场景，主要为新增的历史人物（H-* 代码 150-202 段）以及部分新增的非历史场景。
 
 ### 5.3 同步建议
+
 将 `tools/` 目录下以下文件复制到 `~/.hermes/profiles/espinosa/skills/ultimate-thinking-and-writing-methods/scripts/`：
+
 - `scenarios_zh.json`
 - `scenarios_en.json`
 - `code_maps.json`
@@ -215,16 +240,19 @@ python3 test_thinking_mode_selector.py
 ## 7. 修复清单（优先级排序）
 
 ### P0 - 必须修复（阻断发布）
+
 1. **翻译 scenarios_en.json 中 120 条 H-* 场景的 `reason`、`steps`、`case` 字段为英文**
 2. **为 83 条缺失 era 的 H-* 场景补全 `era` 字段（中英双语）**
 3. **修正邵雍(H-SY-93)案例中的"AI"、王选(H-WX-147)案例中的"软件"**
 
 ### P1 - 应该修复
+
 4. **处理 11 组重复历史人物：合并或明确区分**
 5. **更新 test_thinking_mode_selector.py 中的断言值（238→231，178→211 等）**
 6. **将 tools/ 全部核心文件同步到技能目录**
 
 ### P2 - 建议改进
+
 7. **为 code_maps.json 添加 schema 验证，防止未来重复**
 8. **增加自动化脚本：定期检查 EN 文件中文残留、era 完整性、重复人物**
 

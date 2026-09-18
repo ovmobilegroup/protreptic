@@ -26,30 +26,36 @@ python3 tools/figure_library.py -c 军事战略   # 按类目
 ## 文档导航
 
 ### 入门与使用
+
 - [如何使用 Protreptic](00-quick-start/how-to-use.md)
 - [快速启动包](00-quick-start/thinking_mode_quick_start.md)
 - [安装指南](00-quick-start/installation-guide.md)
 
 ### 工具
+
 - [历史人物模式库查询工具](02-tools/figure_library.md)
 - [思维模式决策树](02-tools/thinking_mode_decision_tree.md)
 - [思维体检表](02-tools/thinking_mode_health_check.md)
 
 ### 核心方法论
+
 - [终极思维方法手册](01-core-methodology/ultimate_thinking_methods_handbook.md)
 - [思维模式词典](01-core-methodology/thinking_mode_dictionary.md)
 - [中英双语对照](01-core-methodology/thinking_mode_bilingual.md)
 
 ### 训练
+
 - [30 天训练](04-training/daily_thinking_training.md)
 - [8 周周练](04-training/weekly_thinking_training.md)
 - [游戏化方案](04-training/thinking_mode_game.md)
 
 ### 教练与团队
+
 - [教练指南](07-coaching/thinking_mode_coach_guide.md)
 - [会议模板](07-coaching/thinking_mode_meeting_templates.md)
 
 ### AI 协作
+
 - [AI 对话模板](06-ai-collaboration/thinking_mode_ai_templates.md)
 - [思维→写作映射](06-ai-collaboration/thinking_to_writing_mapping.md)
 

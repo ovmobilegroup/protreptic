@@ -94,6 +94,7 @@ Apply "Shi-He Adaptation Method" (M-KZi-006), accurately judge historical trends
 **背景**：秦末乱世，范阳令徐公面临赵王武臣的招降压力，同时担忧秦军报复
 
 **蒯通策略**：
+
 - 精准分析徐公顾虑：对秦楚两方势力的风险权衡
 - 设计最优说服方案：传檄降赵可保全性命和地位
 - 实施效果：传檄千里不战而下三十余城
@@ -105,6 +106,7 @@ Apply "Shi-He Adaptation Method" (M-KZi-006), accurately judge historical trends
 **背景**：韩信已受封齐王，但刘邦密使劝降齐国，韩信犹豫不决
 
 **蒯通策略**：
+
 - 逻辑论证："将军受诏击齐而汉独发閒使下齐，宁有诏止将军乎"
 - 利害分析：进攻可获更大封赏，退兵则功败垂成
 - 实施效果：说服韩信不顾封地进攻齐国
@@ -116,6 +118,7 @@ Apply "Shi-He Adaptation Method" (M-KZi-006), accurately judge historical trends
 **背景**：韩信为齐王时，掌握"三分天下"的战略主动权
 
 **蒯通策略**：
+
 - 格局分析：与楚则楚胜，与汉则汉胜
 - 战略提案：不如三分天下，成鼎足之势
 - 实施结果：韩信未采纳，蒯通预见其必败
@@ -127,6 +130,7 @@ Apply "Shi-He Adaptation Method" (M-KZi-006), accurately judge historical trends
 **背景**：韩信造反失败后，蒯通预见自己将受牵连
 
 **蒯通策略**：
+
 - 风险识别：韩信不听三分之策，将招致杀身之祸
 - 脱身设计：详狂为巫祝以避患
 - 实施效果：成功保全性命
@@ -138,6 +142,7 @@ Apply "Shi-He Adaptation Method" (M-KZi-006), accurately judge historical trends
 **背景**：刘邦下令处死蒯通，蒯通在廷辩中为自己辩护
 
 **蒯通策略**：
+
 - 道德重构："跖之狗吠尧，非贵跖而贱尧也，狗固吠非其主"
 - 逻辑辩护："当是时，臣唯独知韩信，非知陛下也"
 - 实施效果：刘邦释之，成功脱险
@@ -149,17 +154,20 @@ Apply "Shi-He Adaptation Method" (M-KZi-006), accurately judge historical trends
 ## 预期成果与历史贡献
 
 ### 理论建构层面
+
 - ✅ 创立"三分天下"战略理论，成为后世战略思考经典案例
 - ✅ 系统保存战国游说权变之术于《隽永》八十一篇
 - ✅ 构建"各为其主"的多元效忠伦理框架
 - ✅ 提出"顺风托势"的顺势变革方法论
 
 ### 实证支撑层面
+
 - ✅ 传檄千里不战而下三十余城的实战验证
 - ✅ 游说范阳令徐公投降的成功案例
 - ✅ 在极端政治危机中成功全身的历史实证
 
 ### 思想史地位
+
 - **影响深度**："一说而丧三俊"（韩信、田横、郦食其），以口舌纵横当世
 - **传承广度**：《隽永》八十一篇成为研究战国纵横家思想的重要文献
 - **后世评价**：刘勰评其"顺风以托势，莫能逆波而溯洄矣"
@@ -177,7 +185,7 @@ Apply "Shi-He Adaptation Method" (M-KZi-006), accurately judge historical trends
 ## 核心语录
 
 > **跖之狗吠尧，非贵跖而贱尧也，狗固吠非其主；天下锐精持锋欲为陛下所为者甚众，顾力不能耳**
-
+>
 > *(Zhi's dog barks at Yao — not because Zhi is noble and Yao is not, but the dog naturally barks for its master. Many in the world sharpen their minds and weapons to do what Your Majesty does, they merely lack the ability.)*
 
 ---

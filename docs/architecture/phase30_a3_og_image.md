@@ -122,7 +122,7 @@ $ grep -o '<meta name="twitter:card[^>]*>' /tmp/ptv_a3/minds/H-WYM-001/index.htm
   <script type="module" src="/src/main.ts"> 被吞进上一个标签的文本里, vite build 只输出
   index.html (113 modules 变成 2 modules, 没有 assets/). 本卡顺手改成 ...></script>;
   页面上任何 script 标签都不允许自闭合.
-- manifest 是唯一真源: apply_og_meta 先删掉页面里所有 og:image* / twitter:image* / og:type
+- manifest 是唯一真源: apply_og_meta 先删掉页面里所有 og:image*/ twitter:image* / og:type
   再按 manifest 写入, 避免静态壳与注入内容出现两份 og:image.
 - og:type 也分级: 人物 profile, 模板 article, 其余 website.
 - era 字段最长 468 字 (一位人物的整段生平), 必须截断; domains 对场景是英文 token
