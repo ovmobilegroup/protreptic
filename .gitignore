@@ -1,37 +1,55 @@
-# 依赖
+# Dependencies
 node_modules/
 vendor/
 __pycache__/
 *.pyc
-.venv/
-venv/
 
-# IDE / OS
+# IDE
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
+
+# OS
 .DS_Store
 Thumbs.db
 
-# 运行时产物
-*.db
-*.faiss
-*.pkl
+# Large files
+*.pdf
+*.zip
+*.tar.gz
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Logs
 *.log
 logs/
-.pytest_cache/
 
-# 临时
+# Temporary
+tmp/
+temp/
 *.tmp
-.hermes-tmp.*
-*.bak
-*.backup*
 
-# 构建产物与生成数据
-web/dist/
+# 静态站点数据（构建期由 tools/export_static_site.py 生成，CI Step B 现算，
+# 不随源码入库；如需入库请先移除本规则）
 web/public/data/
+
+# GitHub Pages 发布产物（.github/workflows/pages.yml 现场生成，不入库）
+_site/
+site_docs/
+
+# 前端构建产物（CI 与本地构建生成；Pages 由 workflow 现场构建，不再跟踪 web/dist）
+web/dist/
+tools/_patch_*.py tools/_probe_*.py tools/ci_link_check.py
 tools/gc/gc
 
-# Phase30-A3 分享图: 字体源文件缓存 (重新子集化时才下载) 与本地 venv
+# Phase30-A3 分享图: 字体源文件缓存 (11-12 MB × 2, 只在重新子集化时用) 与本地 venv
 tools/assets/fonts/.cache/
 .ogvenv/
+
+# 文档站本地构建 venv（mkdocs + mkdocs-material，CI 用 pip 现装）
+.mkdocsvenv/
