@@ -1,0 +1,115 @@
+# .github/workflows/quality-gate.yml —— Phase30-C1 CI 质量门
+#
+# 三道门, 全部真实请求/真实解析, 任一不过则该 job 失败:
+#   1) data-check   : tools/ci_data_check.py
+#                     index.unified.json schema 断言 + 路由清单双向一致 + sitemap 与数据条数一致
+#                     (含 URL 转义断言: <loc>/canonical 里出现裸空格即失败, 爬虫无法解析)
+#   2) live-links   : tools/ci_link_check.py live
+#                     sitemap URL 全集 + 路由清单 canonical + 入口页自报的站内链接, 逐个真实 HTTP
+#                     判定口径: 301/302 允许但跟随重定向后最终状态必须是 200 (线上 /protreptic/figures
+#                     就是 301 转 200; 若按 '不等于 200 即死链' 判会把入口页全部误报)
+#   3) lighthouse   : @lhci/cli autorun (配置 lighthouserc.json)
+#                     性能/可访问性/最佳实践/SEO 四类分数 + 体积/时延预算, 超限失败
+#
+# 触发口径: 门的对象是线上真实产物, 主触发是 Pages 部署完成 (workflow_run), 而不是 push.
+# push 那一刻线上还是上一版, 拿旧站点判新提交会给出误导性结论. 另配每周定时回归与手动派发.
+#
+# 自检 (证明门有牙): 手动派发时把 break_link 打开, live-links 会往待检集合里注入一个必然 404 的
+# URL, 该 job 必须失败 —— 这是 '故意破坏一个链接能触发失败' 的常规化验证方式, 不需要真的改坏数据.
+#
+# 本地等价复跑:
+#   python3 tools/ci_data_check.py
+#   python3 tools/ci_link_check.py live --crawl-sample 8
+#   python3 tools/ci_link_check.py live --break-link      # 自检: 应当非 0 退出
+#   npx --yes @lhci/cli@0.14.1 autorun
+
+name: Quality Gate
+
+on:
+  workflow_run:
+    workflows: ["Deploy to GitHub Pages"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      break_link:
+        description: "自检: 注入必然 404 的链接, 验证死链检测会失败 (期望 job 失败)"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "23 2 * * 1"   # 每周一 02:23 UTC (北京时间 10:23) 回归一次
+
+permissions:
+  contents: read
+
+jobs:
+  data-check:
+    name: 数据校验 (schema + sitemap 一致性)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 断言 index.unified.json schema + 路由清单 + sitemap 一致
+        run: python3 tools/ci_data_check.py
+
+  live-links:
+    name: 线上死链检测 (sitemap + 站内链接)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      BREAK_LINK: ${{ github.event_name == 'workflow_dispatch' && inputs.break_link || 'false' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 全量可达性检测
+        run: |
+          set -euo pipefail
+          if [ "${BREAK_LINK}" = "true" ]; then
+            echo "::warning::自检模式: 注入必然 404 的链接, 本 job 期望失败"
+            python3 tools/ci_link_check.py live --crawl-sample 8 --break-link
+          else
+            python3 tools/ci_link_check.py live --crawl-sample 8
+          fi
+
+  lighthouse:
+    name: Lighthouse 预算门
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Lighthouse CI (预算超限即失败)
+        run: npx --yes @lhci/cli@0.14.1 autorun
+
+      - name: 上传 Lighthouse 原始报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouseci-report
+          path: .lighthouseci/
+          if-no-files-found: warn
+          retention-days: 14

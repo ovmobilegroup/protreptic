@@ -1,0 +1,38 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 1,
+      "url": [
+        "https://ovmobilegroup.github.io/protreptic/",
+        "https://ovmobilegroup.github.io/protreptic/figures/",
+        "https://ovmobilegroup.github.io/protreptic/modes/",
+        "https://ovmobilegroup.github.io/protreptic/templates/",
+        "https://ovmobilegroup.github.io/protreptic/minds/AMP/",
+        "https://ovmobilegroup.github.io/protreptic/figures/A-1-X-P/"
+      ],
+      "settings": {
+        "chromeFlags": "--no-sandbox --disable-dev-shm-usage",
+        "onlyCategories": ["performance", "accessibility", "best-practices", "seo"]
+      }
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["warn", {"minScore": 0.8, "aggregationMethod": "median"}],
+        "categories:accessibility": ["warn", {"minScore": 0.9, "aggregationMethod": "median"}],
+        "categories:best-practices": ["warn", {"minScore": 0.9, "aggregationMethod": "median"}],
+        "categories:seo": ["warn", {"minScore": 0.95, "aggregationMethod": "median"}],
+        "largest-contentful-paint": ["warn", {"maxNumericValue": 4000, "aggregationMethod": "median"}],
+        "total-blocking-time": ["warn", {"maxNumericValue": 800, "aggregationMethod": "median"}],
+        "cumulative-layout-shift": ["warn", {"maxNumericValue": 0.15, "aggregationMethod": "median"}],
+        "resource-summary:total:size": ["warn", {"maxNumericValue": 4000000, "aggregationMethod": "median"}],
+        "resource-summary:script:size": ["warn", {"maxNumericValue": 1500000, "aggregationMethod": "median"}],
+        "resource-summary:stylesheet:size": ["warn", {"maxNumericValue": 400000, "aggregationMethod": "median"}],
+        "resource-summary:third-party:size": ["warn", {"maxNumericValue": 0, "aggregationMethod": "median"}]
+      }
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": ".lighthouseci"
+    }
+  }
+}
