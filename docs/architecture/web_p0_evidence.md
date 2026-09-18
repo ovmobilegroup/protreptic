@@ -251,3 +251,62 @@ steps: ['Checkout','Set up Node 20','Set up Python 3.12','构建静态数据分�
         '合并 SPA + 文档站到 _site','断言合并产物','Setup Pages','Upload Pages artifact']
 paths has prerender: True
 ```
+
+## E15 线上复核 (发布之后)
+
+推送发布仓 (提交 2d7b65b) 后, Pages workflow 真实跑过一次:
+
+```
+$ curl -s https://api.github.com/repos/ovmobilegroup/protreptic/actions/runs/35302747531
+  status=completed  conclusion=success  head_sha=2d7b65bb
+
+$ curl -s .../actions/runs/35302747531/jobs    (构建 job 的步骤)
+  重建 figures 数据库            success
+  构建静态数据分片                success
+  构建统一索引                    success
+  断言静态数据基线（meta.json 条数） success
+  构建 SPA                      success
+  断言 dist 产物                 success
+  路由预渲染 深链 200             success     <-- 本卡新增
+  安装文档站工具链                 success
+  构建文档站                     success
+  合并 SPA + 文档站到 _site        success
+  断言合并产物                    success
+  Setup Pages / Upload Pages artifact / Deploy to GitHub Pages   success
+```
+
+线上全量扫描 (1350 条路由, 每条要求 200 且响应体含 canonical):
+
+```
+LIVE2 routes=1350  status={200: 1350}  bad=0  elapsed=217s
+```
+
+(第一次扫描出现过 34 条 TLS 瞬时 URLError; 对其中 15 条单独重试全部 200;
+带重试的第二次全量扫描 1350/1350 全 200。)
+
+线上定点与 head 实测:
+
+```
+$ for p in /protreptic/figures /protreptic/figures/ /protreptic/modes/ \
+           /protreptic/minds/H-WYM-001/ "/protreptic/minds/Sun%20Quan/" \
+           /protreptic/figures/A-1-X-P/ /protreptic/api/ /protreptic/no-such-page; do
+    printf "%-40s " "$p"; curl -s -o /dev/null -w "%{http_code}\n" "https://ovmobilegroup.github.io$p"
+  done
+/protreptic/figures                       301
+/protreptic/figures/                      200
+/protreptic/modes/                        200
+/protreptic/minds/H-WYM-001/              200
+/protreptic/minds/Sun%20Quan/             200
+/protreptic/figures/A-1-X-P/              200
+/protreptic/api/                          200
+/protreptic/no-such-page                  404
+
+$ curl -s https://ovmobilegroup.github.io/protreptic/minds/H-WYM-001/ | head -14
+<title>王阳明 - 思维模式档案 10 条 | Protreptic 思想典藏</title>
+<meta name="description" content="心之本体即良知，人人皆有良知，只需去除私欲遮蔽，使良知自然呈现。良知是判断是非善恶的根本标准，是道德自觉的源泉。" />
+...
+$ grep -o 'rel="canonical" href="[^"]*"' live1.html
+rel="canonical" href="https://ovmobilegroup.github.io/protreptic/minds/H-WYM-001/"
+$ grep -o 'application/ld+json">.\{0,120\}' live1.html
+application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"王阳明",...
+```

@@ -17,7 +17,7 @@
 
 | # | 问题 | 结论 | 证据 |
 |---|------|------|------|
-| 1 | 深链返回 200 | 已在流水线内解决: 构建后为公开名录的 **1350** 个路由 (发布仓基线) 各生成 `<route>/index.html` (等于 `dist/index.html` 加上该路由的 head).本地静态托管实测 **1350/1350 返回 200** | 2.1 / 2.5 |
+| 1 | 深链返回 200 | 已在流水线内解决: 构建后为公开名录的 **1350** 个路由 (发布仓基线) 各生成 `<route>/index.html` (等于 `dist/index.html` 加上该路由的 head).本地静态托管实测 **1350/1350 返回 200**, 发布后**线上实测同样 1350/1350 返回 200** | 2.1 / 2.5 |
 | 2 | Service Worker 缓存 | scope 为 `/protreptic/`; app shell 加索引在 install 期预缓存 (约 244 KB gzip); `data/**` 为 cache-first 且按数据版本号命名缓存; 导航 network-first 并回退到通用 shell; `modes/index-*.json` (1.11 MB gzip) 在激活后后台预热, 不用它阻塞 install | 3.4 |
 | 3 | 全文检索索引 | 二进制 varint 倒排, 按 token 首字符分 16 片; 推荐规格 **721 KB gzip** (预算 800 KB), 单片最大约 58 KB; 查询按需只拉不超过 3 片 | 4.2 / 4.3 |
 
@@ -99,6 +99,10 @@
 | `/protreptic/404.html` | **200** | 与 SPA 外壳逐字节相同 |
 | `/protreptic/templates/chibi.md` | **200** | 原始 markdown 文本 |
 | `/protreptic/data/meta.json` | **200** | `application/json` , 静态数据路径正常 |
+
+**本卡落地并发布后的复测 (2026-09-18T03:19Z, Pages run 35302747531, 提交 2d7b65b)**:
+上表里的 404 全部变为 200, 详情见 2.5 (e). 该次发布的 CI 日志里新增的一步
+"路由预渲染 深链 200" 状态为 success.
 
 **对是否真的坏了的诚实判定**: 线上 404 的响应体就是 SPA 外壳, 浏览器打开深链时
 Vue Router 会按路径渲染出正确页面, 所以**用户视角基本可用**. 真正坏掉的是三件事:
@@ -218,8 +222,44 @@ files=1350  ld_ok=1350  canonical=1350  bad=0
 单页 gzip 约 1.24 KB. `web/dist` 由约 25.2 MB 增至 29.2 MB 即 29152912 B,
 远低于 Pages 单产物上限.
 
-**结论**: 深链由 404 变为 200 这一目标**已在实现层达成并全量验证**;
-线上验证需等发布, 见第 7 节.
+**(e) 线上复核 (发布之后)**: 把 `docs/architecture/web_p0_routes.json` 的 1350 条路由
+全量打到线上, 每条要求 HTTP 200 且响应体含 `rel="canonical"`:
+
+```
+LIVE2 routes=1350  status={200: 1350}  bad=0  elapsed=217s
+```
+
+定点 (线上, 2026-09-18T03:2xZ):
+
+| URL | 改动前 | 改动后 |
+|-----|--------|--------|
+| `/protreptic/` | 200 | 200 |
+| `/protreptic/figures` | 404 | **301** -> `/protreptic/figures/` -> **200** |
+| `/protreptic/modes` | 404 | **301** -> `/protreptic/modes/` -> **200** |
+| `/protreptic/templates` | 301 -> 404 | 301 -> **200** |
+| `/protreptic/templates/chibi` | 000/404 | 301 -> **200** |
+| `/protreptic/minds/H-WYM-001` | 404 | 301 -> **200** |
+| `/protreptic/minds/Sun%20Quan/` | 404 | **200** |
+| `/protreptic/figures/A-1-X-P/` | 404 | **200** |
+| `/protreptic/api/` | 404 | **200** |
+| `/protreptic/no-such-page` | 404 | 404 (未覆盖路径行为不变) |
+| `/protreptic/data/index.unified.json` | 200 | 200 |
+
+线上 `minds/H-WYM-001/` 的 `<head>` 实测 (curl 原文):
+
+```
+<title>王阳明 - 思维模式档案 10 条 | Protreptic 思想典藏</title>
+<meta name="description" content="心之本体即良知，人人皆有良知，... 是道德自觉的源泉。" />
+<link rel="canonical" href="https://ovmobilegroup.github.io/protreptic/minds/H-WYM-001/" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"王阳明",...}</script>
+```
+
+第一次全量扫描时出现过 34 条 `ERR:URLError` (本机到 Pages 的 TLS 瞬时中断, 同一 URL 用
+`curl` 手工请求均为 200); 带重试重扫后 **1350/1350 全部 200, 0 失败**.
+
+**结论**: 深链由 404 变为 200 这一目标**已在线达成并全量验证** (本地 1350/1350,
+线上 1350/1350). 覆盖面之外的路径 (查询参数筛选态与未知路径) 仍回落 404.html 外壳,
+行为与本卡之前一致.
 
 ### 2.6 P1: 内容级预渲染 (SSR + hydrate) 的前提与分步
 
@@ -648,7 +688,7 @@ decision  -> M-YSS-010 李舜臣 8, M-BELISARI-007 贝利撒留 4
 
 | 项 | 状态 | 说明 |
 |----|------|------|
-| 线上深链已变成 200 | **待发布后复核** | 本卡只保证实现与本地全量验证; 真实状态码要在 Pages 部署完成后重新探测 (第 8 节命令) |
+| 线上深链已变成 200 | **已复核通过** | Pages run 35302747531 (提交 2d7b65b) 发布成功, 线上全量扫描 1350/1350 返回 200 且带 canonical, 见 2.5 (e) |
 | `vite-plugin-prerender` 的实际成本 | 未测 | 未安装试跑, 300 MB 是个量级估计而非实测 |
 | SSR 构建 (`vite build --ssr` + `renderToString`) 能跑通 | 未测 | 只验证了依赖 `@vue/server-renderer` 3.5.40 存在, 以及 `useTheme` / `useI18n` 在 Node 下不会崩 |
 | Pages 对 `sw.js` 返回的 MIME | 未测 | A4 实施前用 `curl -I` 确认 |
