@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable MD029 -->
 <!-- 本文件的优先级/步骤清单跨标题连续编号（如 P0=1-3、P1 从 4 起），编号即排序信息，
-     重新编号会丢失内容。MD029 对其它文件照常生效；口径见 .markdownlint-cli2.jsonc。 -->
+     重新编号会丢失内容。MD029 对其它文件照常生效；口径见 docs/ci/markdown_lint_policy.md。 -->
 
 
 **生成时间**: 2025-07-20  

@@ -10,6 +10,12 @@
 2. **剩下的人工维护文档必须零违规**（`docs/**`、`tools/**`、`data/individuals/**`、
    `CHANGELOG.md`、`README.md`、根目录的 `H-*.md`/研究笔记等，当前 212 个文件 0 违规）。
 
+> 注意：`.markdownlint-cli2.jsonc` 是**严格 JSON（不含注释）**。
+> CI 的 `DavidAnson/markdownlint-cli2-action@v14` 锁定 markdownlint-cli2 **v0.11.0**，
+> 该版本用 `JSON.parse` 读这个文件，带注释会直接报 SyntaxError（本卡首次推送即因此失败）。
+> 因此口径的说明全部住在本文件里，配置本身只放机器可读的清单。
+> 复跑请用与 CI 相同的版本：`npx --yes markdownlint-cli2@0.11.0 "**/*.md"`。
+
 ## 一、不进门的路径（及理由）
 
 | 路径 | 类别 | 理由 |
