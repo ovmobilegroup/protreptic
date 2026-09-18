@@ -85,6 +85,7 @@ const histDoms = computed(() =>
 
     <!-- 顶部：编号 + 时代 -->
     <div class="relative mb-3 flex items-center justify-between gap-2">
+      <span aria-hidden="true" class="absolute -left-5 top-1 h-4 w-0.5 rounded-full bg-gradient-to-b from-gold-400 to-transparent"></span>
       <span class="pt-code">{{ props.figure.code }}</span>
       <span v-if="eraLabel" class="pt-chip-mute">{{ eraLabel }}</span>
     </div>
@@ -96,7 +97,7 @@ const histDoms = computed(() =>
     </h3>
 
     <!-- 描述 -->
-    <p v-if="props.figure.description" class="relative mt-2.5 text-sm leading-relaxed text-parchment/55 line-clamp-3">
+    <p v-if="props.figure.description" class="relative mt-2.5 text-sm leading-relaxed text-parchment/70 line-clamp-3">
       {{ props.figure.description }}
     </p>
 

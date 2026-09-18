@@ -10,7 +10,7 @@
       <h1 class="pt-h1">
         <span class="pt-gradient-text">{{ t('以人为鉴，明得失', 'Learn from minds of history') }}</span>
       </h1>
-      <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/55">
+      <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/70">
         {{ t(
           '从 284 位历史人物身上提炼的可操作思维方法——每条都有出处、操作步骤与现代应用，供你在真实问题里取用。',
           'Actionable thinking methods distilled from 284 historical figures—each with source, steps and modern application.'

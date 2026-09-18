@@ -101,7 +101,7 @@ onMounted(fetchModes)
         <span class="pt-code">{{ t('思维模式 · 可执行方法', 'THINKING MODES · EXECUTABLE METHODS') }}</span>
       </div>
       <h1 class="pt-h1"><span class="pt-gradient-text">{{ t('思维模式库', 'Thinking Modes') }}</span></h1>
-      <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/55">
+      <p class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/70">
         <template v-if="DATA_MODE === 'static'">
           {{ t(
             `${modes.length} 条思维模式实例，源自 ${figureCount} 位历史人物——每条都出自具体人物与具体文本。`,
@@ -168,7 +168,7 @@ onMounted(fetchModes)
             {{ locale === 'zh' ? m.name_zh : (m.name_en || m.name_zh) }}
           </h3>
           <p v-if="(locale === 'zh' ? m.description_zh : m.description_en)"
-             class="mt-2 text-sm leading-relaxed text-parchment/50 line-clamp-3">
+             class="mt-2 text-sm leading-relaxed text-parchment/70 line-clamp-3">
             {{ locale === 'zh' ? m.description_zh : m.description_en }}
           </p>
           <p v-else-if="m.figure_name" class="mt-2 text-sm text-parchment/50">

@@ -96,7 +96,7 @@
 
   /* 输入框 */
   .pt-input {
-    @apply w-full rounded-xl border border-white/[0.12] bg-ink-900/70 px-4 py-3 text-parchment
+    @apply w-full rounded-xl border border-white/[0.18] bg-ink-900/80 px-4 py-3.5 text-parchment
            placeholder:text-parchment/35 transition-all duration-300;
   }
   .pt-input:focus {

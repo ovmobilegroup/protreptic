@@ -176,7 +176,7 @@ const backToList = () => router.push({ name: 'figures' })
                 <span v-if="figure.ethnicity" class="pt-chip-mute">{{ figure.ethnicity }}</span>
               </div>
               <h1 class="pt-h1 !text-4xl sm:!text-5xl">{{ figure.name }}</h1>
-              <p v-if="figure.description" class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/60">
+              <p v-if="figure.description" class="mt-4 max-w-2xl text-base leading-relaxed text-parchment/70">
                 {{ figure.description }}
               </p>
               <div v-if="hasModes" class="mt-5 flex flex-wrap gap-1.5">
