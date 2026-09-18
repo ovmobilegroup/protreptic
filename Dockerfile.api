@@ -14,11 +14,12 @@ COPY api/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Pre-download BGE-m3 model for semantic search (avoid runtime download)
-RUN python -c "
-from sentence_transformers import SentenceTransformer
-model = SentenceTransformer('BAAI/bge-m3')
-print('BGE-m3 model downloaded successfully')
-" 2>&1 | tail -20
+# 注意：这里是单条 RUN 指令（用 \ 续行）。写成跨行裸换行的 RUN python -c " 会让 Dockerfile
+# 把下一行当指令解析，正好撞上 "from sentence_transformers import ..." 的 from -> 报
+# "dockerfile parse error: FROM requires either one or three arguments"。
+RUN python -c "from sentence_transformers import SentenceTransformer; \
+    model = SentenceTransformer('BAAI/bge-m3'); \
+    print('BGE-m3 model downloaded successfully')"
 
 # Copy application code
 COPY api/ ./api/
