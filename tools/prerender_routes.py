@@ -49,7 +49,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from prerender_body import check_bodies, collect_bodies, inject_body, plain_text  # noqa: E402
 DEFAULT_BASE = "/protreptic/"
 SITE_ORIGIN = "https://ovmobilegroup.github.io"
-GC_ENDPOINT = "https://YOUR_INSTANCE.goatcounter.local/count"
 SITE_NAME = "Protreptic 思想典藏"
 
 TEMPLATE_IDS = ["longzhong", "baidi", "chibi", "beifa", "jieting", "yiling", "changban"]
@@ -195,7 +194,6 @@ def render_head(shell: str, route: dict, base: str) -> str:
             '\n    <link rel="canonical" href="%s" />' % esc(url)
             + '\n    <meta property="og:url" content="%s" />' % esc(url)
             + '\n    <script type="application/ld+json">%s</script>' % json.dumps(ld, ensure_ascii=False, separators=(",", ":"))
-            + '\n    <script data-goatcounter="%s"\n            data-goatcounter-settings="{\\"allow_local\\": true}"></script>' % GC_ENDPOINT
             + "\n  </head>"
         )
     if "</head>" not in out:

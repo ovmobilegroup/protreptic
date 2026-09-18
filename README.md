@@ -1,150 +1,263 @@
-# Protreptic · 思维模式库
+# Protreptic · 思维养成系统
 
-> **2868 条思维模式 · 284 位历史人物 · 中英双语**
+> **78种思维模式，引导你走向智慧**
 >
-> 遇到问题不知道用什么方法？查一查历史上有谁遇到过类似问题、他怎么想的——
-> 每个人的方法都有出处、可执行步骤和现代应用。
+> 遇到问题不知道用什么方法？打开这个项目，4个问题定位你的场景，推荐2-3种思维模式组合，附操作步骤。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Modes](https://img.shields.io/badge/modes-2868-blue.svg)](data/modes_data.json)
-[![Figures](https://img.shields.io/badge/figures-284-green.svg)](data/figures)
+[![Version](https://img.shields.io/badge/v2.5.0-blue.svg)](CHANGELOG.md)
+![Language: zh](https://img.shields.io/badge/language-zh-red.svg)
+![Language: en](https://img.shields.io/badge/language-en-blue.svg)
 
 ---
 
-## 这是什么
+## 🎯 Phase 20 研究成果 (v2.5.0)
 
-一座**历史人物的思维方法库**。从古今中外 284 位人物（孔子到费曼、李世民到乔布斯）
-身上，各提炼出 10 条**可操作的思维方法**，共 2868 条，中英双语。
+**2026年9月 - Protreptic Phase 20: 黄宗羲(H-HZX-001) 人物档案归档**
 
-每条模式包含：
+### ✅ 关键成就
 
-- **名称**（中/英）
-- **定义**（60-150 字，含该人物的史实例证）
-- **操作步骤**（4-6 步，可执行）
-- **关键概念**
-- **出处**（具体到著作章节，如《谈谈方法》第三部分）
-- **原话**（名言引文）
-- **史实案例**
-- **现代应用**
+| **Phase 20**
 
-不是鸡汤：每条都能追溯到原始文本或事件，都有可执行的步骤。
+- **黄宗羲 (H-HZX-001)**: 明末清初思想家，浙东学派代表，「中国思想启蒙第一人」。核心模式：一本万殊法(1)+心无本体法(2)+民主君客法(3)+治法优先法(4)+学校议政法(5)+理在气中法(6)+经世致用法(7)+积累莫返法(8)+工商皆本法(9)+批判实证法(10)，创立「认识论奠基→本体论重构→政治哲学批判→制度设计→教育功能扩展→宇宙论转向→方法论转型→经济思想突破→实证研究实践」十环范式体系，「天下为主，君为客」比卢梭《民约论》早33年
+- **张载 (H-ZZ-001)**: 北宋思想家，关学创始人，气一元论创立者，「太虚即气」宇宙论奠基人。核心模式：太虚即气法(1)+一物两体法(2)+民胞物与法(3)+变化气质法(4)+大心体物法(5)+知礼成性法(6)+横渠四句法(7)，创立「宇宙论奠基→辩证法构建→伦理共同体确立→人格修养→境界提升→礼教实践→精神坐标确立」关学七环范式
+- **王充 (H-WC-001)**: 东汉思想家，《论衡》作者，「疾虚妄、立真伪」的批判理性传统奠基人。核心模式：矛盾分析法(1)+实事求是法(5)+自然选择法(23)+认知偏差识别(30)+抽象归纳法(25)，创立「矛盾解剖→效验检验→自然解释→偏差识别→归纳建模」批判理性五环范式
+- **蒯通 (H-KT-280)**: 战国末至汉初纵横家，《蒯子》八篇作者，「三分天下」多极均势博弈模型首倡者。核心模式：审时度势法(45)+风险对冲思维(17)+博弈论思维(20)+权变智慧(39)+驿站制信息流(41)，创立「审时度势→风险对冲→博弈建模→权变适应→信息流通」纵横家五环生存范式
+- **孟子 (H-MQ-001)**: 战国中期儒家代表，「亚圣」，性善论与民本政治哲学创始人。核心模式：类比推理法(15)+道德直觉法(23)+民本辩证思维(40)+历史循环反思法(75)，创立「性善奠基→民本重构→类比论证→历史循环→大丈夫精神」五环范式体系，「民为贵，社稷次之，君为轻」开创中国民本政治哲学传统
+- **墨子 (M-ZG-001)**: 战国初期思想家，墨家学派创始人，「兼爱非攻」倡导者。核心模式：兼爱非攻/三表法/科学实证/工匠精神/尚同尚贤(18)+类比论证法(5)+守御工程法(6)+经验实证法(42)+尚贤尚同法(14)+节用节葬法(55)，创立「兼爱奠基→三表验证→非攻实践→尚贤制度→节用治理」五环范式体系，止楚攻宋实践体现知行合一，墨辩六篇开创中国古代逻辑学先河
 
----
+**Phase 19**
 
-## 快速开始
+- **黄炎培 (H-YYP-001)**: 近代教育家，模式9+38+37+39+29完整闭环
+- **粟裕 (H-SY-149)**: 现代军事家，游击积累→运动歼灭→战果转化范式
+- **薛暮桥 (H-XMQ-151)**: 当代经济学家，价格改革风险决策框架
+- **陈云 (H-CY-001)**: 近代经济学家，鸟笼经济完整范本
+- **吴有训 (H-WYX-001)**: 现代物理学家，自制仪器→自产数据→自建学派范式
+- **李先念 (H-LXN-001)**: 现代经济治理家，「铁算盘」宏观调控范式，系统统筹→矛盾定位→周期监测→动态平衡四环
+- **彭德怀 (H-PDH-001)**: 现代军事家，百团大战指挥艺术，「七环军事治理闭环」群众路线→统一战线→框架正名→网络切节点→纪律立规矩→批评纠偏差→学习促优化
+- **周恩来 (H-ZEL-001)**: 近现代国家治理家，「制度化制衡+总体性思维+边际思维+高频反馈+传承规划」五位一体治理范式
+- **王选 (H-WX-001)**: 现代科技工程家，「华光激光照排系统」自主攻关，矛盾定位→死磕执行→迭代验证→利益整合→标准锁定五环范式
+- **袁隆平 (H-YLP-001)**: 现代农学家，「铁律找缝→笨功筛选→环境诱导→工程推广」杂交水稻攻关五环范式，三系法→两系法范式跃迁
+- **竺可桢 (H-ZKZ-001)**: 近现代气象学家/教育家，「织网→归纳→校验→育人→韧性」五环范式，求是校训贯穿科研与教育
+- **候选人 (H-001)**: 抽象概念型人物，「战略预判→边际计算→自然选择→制度制衡→信息高速」五环政治选择范式，天命靡常惟德是辅
+- **华罗庚 (H-HLG-001)**: 现代数学家，「自学最短路径」硬产出替代学位认证，优选法/统筹法推广至全国20+省市，四级人才漏斗培养一代领军者
+- **屠呦呦 (H-TYY-001)**: 现代药学家，「文献考据+化学分离+药效验证」三重交叉验证法，青蒿素发现开创民族医药现代化范式，挽救数千万生命，2015年获诺贝尔奖
+- **刘少奇 (H-LSQ-001)**: 近现代党建家，「纲领奠基→思想净化→程序准入→制度固化」四环党建工程范式，党内法治体系奠基人
+- **毛泽东 (M-ZD-001)**: 现代革命家，「统一战线、群众路线、独立自主」三位一体革命战略的完整创立者，模式42+1+6+4+34五位一体思维模式的集大成者，马克思主义中国化的理论创新者
+- **Phase 19 完整归档**: 十五位历史人物档案全部完成，QA验收通过
+- **Phase 20 完整归档**: 张载(H-ZZ-001)、王充(H-WC-001)、蒯通(H-KT-280)档案完成，填补 Protreptic 中「古代哲学宇宙论/关学传统」、「古代哲学批判/无神论传统」和「战国纵横家权变/多极博弈」层空白
 
-把仓库克隆下来即可查询，**无需安装任何东西**。
+### 📊 覆盖度详情
+
+- **高覆盖模式**：2个模式覆盖100+场景（冗余备份法、蛰伏积势思维）
+- **中等覆盖模式**：12个模式覆盖50-100场景
+- **基础覆盖模式**：28个模式覆盖<50场景
+- **零低覆盖模式**：所有模式覆盖度≥15
+
+### 🚀 使用方式
+
+#### CLI 直接查询
 
 ```bash
-# 库统计（2868 条 / 284 人 / 18 类目）
-python3 tools/figure_library.py --stats
+# 交互式诊断
+python tools/thinking_mode_selector.py
 
-# 列出全部历史人物
-python3 tools/figure_library.py -L
-
-# 查看某位人物的全部 10 条思维模式
-python3 tools/figure_library.py -f H-INM-001        # 稻盛和夫
-python3 tools/figure_library.py -f H-WYM-001        # 王阳明
-
-# 查看单条模式详情
-python3 tools/figure_library.py -m M-DKR-009        # 笛卡尔·暂行道德准则法
-
-# 关键词搜索
-python3 tools/figure_library.py -s 矛盾
-
-# 按类目列出
-python3 tools/figure_library.py -c 军事战略
+# 直接查询处境代码
+python tools/thinking_mode_selector.py -c A-1-X-P
 
 # 英文输出
-python3 tools/figure_library.py -f H-INM-001 --lang en
+python tools/thinking_mode_selector.py --lang en
 ```
 
-作为 Python 模块使用：
+#### API 调用
 
 ```python
-from tools.figure_library import FigureLibrary
-
-lib = FigureLibrary()
-lib.figures()              # 全部人物 code
-lib.figure("H-INM-001")    # 某人物的全部模式
-lib.mode("M-DKR-009")      # 单条模式
-lib.search("矛盾")          # 关键词搜索
-lib.stats()                # 统计
+from tools.thinking_mode_selector import select_thinking_mode
+result = select_thinking_mode("A-2-Y-P")
 ```
+
+#### Web 前端
+
+访问 `web/` 目录下的静态页面，支持场景选择和模式查询。
 
 ---
 
-## 经典思维方法示例
+## 🚀 快速开始
 
-**笛卡尔 · 暂行道德准则法**（《谈谈方法》第三部分）
-> 知识地基拆除期间生活不能停摆：① 服从所在国法律与习俗；② 一旦决定即如箭在弦，犹豫比选错更消耗；③ 只改变自己的欲望而非世界的秩序。
+> **这个项目不需要安装任何东西。** 打开就能用。
+> 完整说明：[安装和使用指南](docs/00-quick-start/installation-guide.md)
 
-**稻盛和夫 · 会计学经营检验法**（《稻盛和夫的实学：经营与会计》）
-> 把会计改造成经营的中枢神经：每条数字背后必须有实物对应，每件实物必须有数字对应——看不见数字的现场是谣言，看不见现场的数字是谎言。
+### 场景1：遇到问题，4题定位
 
-**孙子 · 庙算先胜五事七计法**（《孙子兵法·计篇》）
-> 战前先算：道、天、地、将、法五事，与七个维度敌我对比——多算胜，少算不胜。
+| 你的情况 | 选什么 |
+|---------|--------|
+| 不知道往哪走 | A 方向性问题 |
+| 卡住了要突破 | B 突破性问题 |
+| 团队/人际问题 | C 人相关问题 |
+| 长期要投入的事 | D 长期性问题 |
 
-更多见 `data/figures/` 下各人物档案。
+| 你的资源 | 选什么 |
+|---------|--------|
+| 充足 | 1 |
+| 有限 | 2 |
+| 极度匮乏 | 3 |
 
----
+| 时间压力 | 选什么 |
+|---------|--------|
+| 不急（半年+） | X |
+| 一般（周到月） | Y |
+| 紧急（天到周） | Z |
 
-## 仓库结构
+| 你最关心 | 选什么 |
+|---------|--------|
+| 赢 | P |
+| 稳 | Q |
+| 长远 | R |
+| 快速 | S |
 
-```
-data/
-  modes_data.json        核心资产：2868 条模式
-  figure_names.json      人物名映射
-  figures/               284 位人物档案（JSON + Markdown）
-  intl_figures/          国际人物补充档案
-tools/
-  figure_library.py      查询工具（CLI + 可导入模块）
-  thinking_mode_selector.py  场景选择器（含人物模式回退查询）
-  json/                  场景与模式数据
-api/                     FastAPI 服务（SQLite + 语义检索）
-web/                     Vue 前端
-docs/                    文档（快速入门/方法论/工具/训练/教练）
-```
+**举例**：A-2-Y-P → 点击[这里看推荐组合](docs/02-tools/thinking_mode_decision_tree.md)
 
----
+### 场景2：想让 AI 自动分析你的问题
 
-## 数据模型
+**30秒搞定**：
 
-```json
-{
-  "mode_code": "M-DKR-009",
-  "figure_code": "H-DKR-001",
-  "figure_name": "笛卡尔",
-  "name_zh": "暂行道德准则法",
-  "name_en": "Provisional Morality Method",
-  "category": "伦理修养",
-  "definition_zh": "知识地基拆除期间生活不能停摆……",
-  "process_zh": ["识别处于'根基悬置期'的领域", "为该领域配备临时操作准则", "..."],
-  "source_chapter": "《谈谈方法》第三部分",
-  "key_quote_zh": "……",
-  "representative_cases_zh": ["……"],
-  "modern_applications_zh": ["……"]
-}
-```
+1. 打开 [docs/06-ai-collaboration/thinking_mode_agent_prompt.md](docs/06-ai-collaboration/thinking_mode_agent_prompt.md)
+2. 复制"完整 System Instruction"那段文字
+3. 粘贴到你的 AI 工具设置里（ChatGPT / Claude / Gemini 都支持）
+4. 以后每次对话，AI 自动用思维模式分析你的问题
 
----
+**不想配置？** 直接复制 [AI对话模板](docs/06-ai-collaboration/thinking_mode_ai_templates.md) 里的填空格式，填好发给 AI 就行。
 
-## API（可选）
+### 场景3：我想持续提升思维
 
-```bash
-cd api
-pip install -r requirements.txt
-python load_v6.py        # 装载 2868 条模式进数据库
-uvicorn api.main:app --reload
-```
+**3分钟**：[快速启动包](docs/00-quick-start/thinking_mode_quick_start.md) → 5种核心思维模式，覆盖80%场景
 
-接口：`/api/v1/thinking-modes`、`/api/v1/thinking-modes/stats`、
-`/api/v1/figures/{code}/modes`、`/api/v1/thinking-modes/{mode_code}`。
+**10分钟**：[体检表](docs/02-tools/thinking_mode_health_check.md) → 20道题测你的思维偏好
+
+**1小时**：[实战演练场](docs/04-training/thinking_mode_gym.md) → 30个对比练习，看直觉和思维模式的差异
+
+**用AI训练自己**：[AI训练指南](docs/04-training/thinking_mode_ai_training.md) → 4种AI辅助训练法
 
 ---
 
-## 许可
+## 📊 这个体系有什么
 
-MIT License — 见 [LICENSE](LICENSE)。
+| 你能得到的 | 具体内容 |
+|-----------|---------|
+|🧠 **78种思维模式** | 30个领域，从矛盾分析到临床决策 |
+|✍️ **10种写作技法** | 对比论证、编号列举、寓言故事化... |
+| **120+实战案例** | 50通用 + 64行业专属 + 375历史人物 |
+|🤖 **AI协作工具** | 20个对话模板 + Agent Prompt |
+|🎮 **训练系统** | 41关游戏 + 30对比练习 + 120专项训练 |
+|📋 **认证体系** | 4级认证（学徒→大师） |
+|🏢 **会议模板** | 8种思维模式驱动的会议 |
+|🌍 **多场景适配** | 人生阶段 × 行业 × 文化 |
+|📊 **完整数据** | 42思维模式全覆盖，0个低覆盖模式(<15) |
 
-本项目收录的思想方法均为对公有领域历史文献与公开史实的整理与分析。
+---
+
+## 🗺️ 按场景选文件
+
+### 🔴 我最急，马上要用
+
+| 你的情况 | 打开这个 | 时间 |
+|---------|---------|------|
+| 遇到问题，不知道用什么方法 | [决策树](docs/02-tools/thinking_mode_decision_tree.md) | 3分钟 |
+| 想让AI帮我分析 | [AI对话模板](docs/06-ai-collaboration/thinking_mode_ai_templates.md) | 5分钟 |
+| 会议要开了，缺流程 | [会议模板](docs/07-coaching/thinking_mode_meeting_templates.md) | 10分钟 |
+| 方法用了没效果 | [应用手册](docs/03-practice/thinking_mode_user_manual.md) → 急救指南 | 5分钟 |
+
+### 🟡 我想系统学习
+
+| 你的情况 | 打开这个 | 时间 |
+|---------|---------|------|
+| 第一次接触，不知道是什么 | [快速启动包](docs/00-quick-start/thinking_mode_quick_start.md) | 10分钟 |
+| 想了解自己的思维偏好 | [体检表](docs/02-tools/thinking_mode_health_check.md) | 15分钟 |
+| 想系统掌握所有模式 | [终极方法论手册](docs/01-core-methodology/ultimate_thinking_methods_handbook.md) | 按需 |
+| 想快速查阅某一种模式 | [词典](docs/01-core-methodology/thinking_mode_dictionary.md) | 30秒 |
+
+### 🟢 我想持续提升
+
+| 你的情况 | 打开这个 | 时间 |
+|---------|---------|------|
+| 想训练自己 | [游戏化方案](docs/04-training/thinking_mode_game.md) | 41关 |
+| 想做量化练习 | [实战演练场](docs/04-training/thinking_mode_gym.md) | 150题 |
+| 想记录成长 | [应用日志](docs/07-coaching/thinking_mode_journal.md) | 每次5分钟 |
+| 想评估水平 | [能力认证](docs/04-training/thinking_mode_certification.md) | 4级 |
+
+### 🔵 我想教别人/带团队
+
+| 你的情况 | 打开这个 | 时间 |
+|---------|---------|------|
+| 做团队教练 | [教练指南](docs/07-coaching/thinking_mode_coach_guide.md) | 30分钟 |
+| 组织团队会议 | [会议模板](docs/07-coaching/thinking_mode_meeting_templates.md) | 按需 |
+| 追踪团队成长 | [个人成长档案](docs/07-coaching/thinking_mode_evolution_portfolio.md) | 季度 |
+| 建立团队知识库 | [社区运营方案](docs/10-community/thinking_community_ops_plan.md) | 按需 |
+
+### 🟣 我想扩展知识
+
+| 你的情况 | 打开这个 | 时间 |
+|---------|---------|------|
+| 看其他领域怎么用 | [跨领域扩展](docs/05-expansion/) | 7辑 |
+| 看人生不同阶段 | [人生阶段匹配](docs/05-expansion/thinking_life_stage_matching.md) | 5阶段 |
+| 看不同行业怎么用 | [行业适配指南](docs/05-expansion/thinking_industry_adaptation.md) | 8行业 |
+| 看不同文化怎么用 | [文化适配指南](docs/05-expansion/thinking_cross_cultural_guide.md) | 4文化 |
+
+### 🟤 我想写东西
+
+| 你的情况 | 打开这个 | 时间 |
+|---------|---------|------|
+| 思维模式 → 写作技法 | [思维→写作映射](docs/06-ai-collaboration/thinking_to_writing_mapping.md) | 10分钟 |
+| 看四大笔杆子怎么写 | [四大笔杆子对比](docs/08-writing/four_writers_comparison.md) | 15分钟 |
+
+---
+
+## 🏗️ 目录结构
+
+```
+Protreptic/
+├── docs/                          # 核心文档（11个分类，40个文件）
+│   ├── 00-quick-start/            # 快速入门（含安装指南）
+│   ├── 01-core-methodology/       # 核心方法论
+│   ├── 02-tools/                  # 工具集
+│   ├── 03-practice/               # 实战
+│   ├── 04-training/               # 训练
+│   ├── 05-expansion/              # 扩展领域
+│   ├── 06-ai-collaboration/       # AI协作
+│   ├── 07-coaching/               # 教练方案
+│   ├── 08-writing/                # 写作技法
+│   ├── 09-evolution/              # 持续演进
+│   └── 10-community/              # 社区运营
+├── CONTRIBUTING.md                # 贡献指南
+├── CHANGELOG.md                   # 更新日志
+├── CODE_OF_CONDUCT.md             # 行为准则
+├── LICENSE                        # MIT License
+├── README.md                      # 中文版项目说明
+└── README_EN.md                   # 英文版项目说明
+```
+
+## 💻 部署
+
+**零安装，零配置。** 所有文档都是 Markdown 格式，任何文本编辑器都能打开。
+
+- **只想阅读**：打开 GitHub 页面或克隆到本地
+- **想让 AI 自动分析**：复制 System Prompt 到 AI 工具设置（30秒）
+- **完整说明**：[安装和使用指南](docs/00-quick-start/installation-guide.md)
+- **访问统计**：当前**未接入** —— 站点不加载任何统计脚本（原因见 [访问统计说明](docs/architecture/gc_setup.md)）
+
+---
+
+## 📖 英文用户
+
+请查看 [README_EN.md](README_EN.md)
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+*Protreptic — 引导人们走向智慧的劝勉*
+*Created 2026-07-12*
