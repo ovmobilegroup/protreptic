@@ -33,7 +33,7 @@
                   @click="setType(tb.key as any)"
                   class="rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-silk"
                   :class="type === tb.key
-                    ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-ink-950 shadow-glow'
+                    ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-obsidian shadow-glow'
                     : 'text-parchment/55 hover:text-parchment'">
             {{ t(tb.zh, tb.en) }}
           </button>

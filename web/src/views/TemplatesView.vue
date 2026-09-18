@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { useRouter } from 'vue-router'
 import { useI18n } from '../composables/useI18n'
 
 const { t, locale } = useI18n()
+const router = useRouter()
 
 const templateList = [
   { id: 'longzhong', title: { zh: '隆中对复盘', en: 'Longzhong Plan Review' }, figure: '诸葛亮', tags: ['战略规划', '创业定位', '年度规划'] },
@@ -14,7 +16,7 @@ const templateList = [
 ]
 
 const openTemplate = (id: string) => {
-  window.open(`${import.meta.env.BASE_URL}templates/${id}.md`, '_blank', 'noopener')
+  router.push({ name: 'template-detail', params: { id } })
 }
 </script>
 

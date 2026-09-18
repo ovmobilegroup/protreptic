@@ -6,8 +6,8 @@
     <title>Protreptic · 思想典藏 — 历史人物思维模式库</title>
     <meta name="description"
           content="2868 条思维模式 × 284 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。" />
-    <meta name="theme-color" content="#04060c" />
-    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#04060c" id="pt-theme-color" />
+    <meta name="color-scheme" content="dark light" />
 
     <!-- 社交分享 -->
     <meta property="og:type" content="website" />
@@ -17,9 +17,23 @@
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
+    <!-- 首屏：在读 localStorage 之前先定主题，避免闪白/闪黑 -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('protreptic-theme')
+          if (t === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light')
+            document.documentElement.style.background = '#f8f5f0'
+          }
+        } catch (e) {}
+      })()
+    </script>
+
     <!-- 首屏防白闪：与主题同色的底色 -->
     <style>
       html, body { margin: 0; background: #04060c; }
+      html[data-theme='light'], html[data-theme='light'] body { background: #f8f5f0; }
       #app:empty::before {
         content: '';
         position: fixed;

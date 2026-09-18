@@ -5,6 +5,7 @@ import TemplatesView from '../views/TemplatesView.vue'
 import ApiDocsView from '../views/ApiDocsView.vue'
 import FigureDetailView from '../views/FigureDetailView.vue'
 import MindView from '../views/MindView.vue'
+import TemplateDetailView from '../views/TemplateDetailView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -27,6 +28,13 @@ const routes: RouteRecordRaw[] = [
     path: '/templates',
     name: 'templates',
     component: TemplatesView,
+    meta: { title: '复盘模板' },
+  },
+  {
+    path: '/templates/:id',
+    name: 'template-detail',
+    component: TemplateDetailView,
+    props: true,
     meta: { title: '复盘模板' },
   },
   {

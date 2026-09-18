@@ -74,7 +74,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onClickOutside))
       </svg>
       <span>{{ t('筛选', 'Filters') }}</span>
       <span v-if="activeCount > 0"
-            class="grid h-5 min-w-[20px] place-items-center rounded-full bg-gold-500 px-1 text-[11px] font-bold text-ink-950">
+            class="grid h-5 min-w-[20px] place-items-center rounded-full bg-gold-500 px-1 text-[11px] font-bold text-obsidian">
         {{ activeCount }}
       </span>
     </button>

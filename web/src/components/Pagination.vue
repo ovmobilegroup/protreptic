@@ -56,7 +56,7 @@ const goToPage = (page: number | '...') => {
         @click="goToPage(page)"
         class="grid h-10 min-w-10 place-items-center rounded-xl px-3 text-sm font-medium transition-all duration-300 ease-silk"
         :class="page === props.currentPage
-          ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-ink-950 shadow-glow'
+          ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-obsidian shadow-glow'
           : 'border border-white/10 bg-white/[.03] text-parchment/70 hover:border-gold-500/40 hover:text-gold-300'"
         :aria-current="page === props.currentPage ? 'page' : undefined"
       >

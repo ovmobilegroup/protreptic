@@ -3,9 +3,11 @@ import { RouterView, RouterLink, useRoute } from 'vue-router'
 import { computed } from 'vue'
 import LanguageSwitcher from './components/LanguageSwitcher.vue'
 import { useI18n } from './composables/useI18n'
+import { useTheme } from './composables/useTheme'
 
 const route = useRoute()
 const { t } = useI18n()
+const { theme, toggleTheme } = useTheme()
 
 const links = computed(() => [
   { to: '/figures', zh: '历史人物库', en: 'Figures' },
@@ -57,7 +59,24 @@ const isActive = (to: string) => route.path.startsWith(to)
             </RouterLink>
           </div>
 
-          <div class="flex items-center gap-3">
+          <div class="flex items-center gap-2 sm:gap-3">
+            <button
+              @click="toggleTheme"
+              :title="theme === 'dark' ? t('切换到浅色模式', 'Switch to light mode') : t('切换到深色模式', 'Switch to dark mode')"
+              :aria-label="theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'"
+              class="grid h-9 w-9 place-items-center rounded-xl border border-white/10 bg-white/[.04]
+                     text-parchment/70 transition-all duration-300 ease-silk
+                     hover:border-gold-500/45 hover:text-gold-300 hover:bg-gold-500/10"
+            >
+              <svg v-if="theme === 'dark'" class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 3v2m0 14v2M5.6 5.6l1.4 1.4m10 10l1.4 1.4M3 12h2m14 0h2M5.6 18.4l1.4-1.4m10-10l1.4-1.4M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+              <svg v-else class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z" />
+              </svg>
+            </button>
             <LanguageSwitcher />
           </div>
         </div>
@@ -67,7 +86,7 @@ const isActive = (to: string) => route.path.startsWith(to)
           <RouterLink
             v-for="l in links" :key="l.to" :to="l.to"
             class="whitespace-nowrap rounded-lg px-3 py-1.5 text-xs font-medium transition-colors"
-            :class="isActive(l.to) ? 'bg-gold-500/12 text-gold-300' : 'text-parchment/55 hover:text-parchment'"
+            :class="isActive(l.to) ? 'bg-gold-500/[0.12] text-gold-300' : 'text-parchment/55 hover:text-parchment'"
           >
             {{ t(l.zh, l.en) }}
           </RouterLink>

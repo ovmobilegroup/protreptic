@@ -5,7 +5,81 @@
 /* ============================================================
    Protreptic · 思想典藏 — 设计系统
    主题：深墨底色 + 鎏金强调 + 宋体标题，取「典藏 / 智库」意象
+   全部核心色走 CSS 变量，[data-theme="light"] 一键换肤
    ============================================================ */
+
+:root {
+  /* 墨 — 基底 */
+  --pt-ink-950: 4 6 12;
+  --pt-ink-900: 8 12 22;
+  --pt-ink-850: 12 18 32;
+  --pt-ink-800: 17 26 43;
+  --pt-ink-700: 24 35 56;
+  --pt-ink-600: 34 48 74;
+  /* 前景 */
+  --pt-parchment: 243 236 224;
+  --pt-overlay: 255 255 255; /* 叠加层：深色主题用白提亮 */
+  --pt-shadow: 0 0 0;
+  /* 金 */
+  --pt-gold-200: 247 230 192;
+  --pt-gold-300: 240 215 159;
+  --pt-gold-400: 228 189 116;
+  --pt-gold-500: 212 162 76;
+  --pt-gold-600: 184 132 58;
+  --pt-gold-700: 143 101 41;
+  /* 玉 */
+  --pt-jade-300: 143 240 221;
+  --pt-jade-400: 94 234 212;
+  --pt-jade-500: 47 212 184;
+  --pt-jade-600: 20 184 166;
+
+  /* 背景装饰 & 阴影 */
+  --pt-bg-glow-gold: rgba(212, 162, 76, .10);
+  --pt-bg-glow-jade: rgba(94, 234, 212, .07);
+  --pt-bg-a: #04060c;
+  --pt-bg-b: #06090f;
+  --pt-panel-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset, 0 24px 48px -32px rgba(0, 0, 0, .9);
+  --pt-grad-from: #f7e6c0;
+  --pt-grad-mid: #d4a24c;
+  --pt-grad-to: #8ff0dd;
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  /* 宣纸暖白底 */
+  --pt-ink-950: 248 245 240;
+  --pt-ink-900: 243 239 232;
+  --pt-ink-850: 237 232 224;
+  --pt-ink-800: 231 225 215;
+  --pt-ink-700: 220 212 200;
+  --pt-ink-600: 200 190 176;
+  /* 深墨字 */
+  --pt-parchment: 32 28 22;
+  --pt-overlay: 24 20 14; /* 叠加层：浅色主题用深墨压暗 */
+  --pt-shadow: 255 255 255;
+  /* 金 — 加深保证对比度 */
+  --pt-gold-200: 92 64 18;
+  --pt-gold-300: 120 85 24;
+  --pt-gold-400: 148 106 30;
+  --pt-gold-500: 173 126 38;
+  --pt-gold-600: 150 105 30;
+  --pt-gold-700: 118 80 22;
+  /* 玉 — 加深 */
+  --pt-jade-300: 12 108 94;
+  --pt-jade-400: 14 128 111;
+  --pt-jade-500: 16 148 128;
+  --pt-jade-600: 15 116 104;
+
+  --pt-bg-glow-gold: rgba(173, 126, 38, .12);
+  --pt-bg-glow-jade: rgba(16, 148, 128, .10);
+  --pt-bg-a: #f8f5f0;
+  --pt-bg-b: #f3efe7;
+  --pt-panel-shadow: 0 1px 0 0 rgba(255, 255, 255, .7) inset, 0 20px 40px -30px rgba(60, 45, 20, .35);
+  --pt-grad-from: #8a5f14;
+  --pt-grad-mid: #b07f27;
+  --pt-grad-to: #0f7a6a;
+  color-scheme: light;
+}
 
 @layer base {
   * { box-sizing: border-box; }
@@ -18,21 +92,22 @@
   body {
     @apply bg-ink-950 text-parchment font-sans antialiased;
     background-image:
-      radial-gradient(1100px 600px at 12% -8%, rgba(212, 162, 76, .10), transparent 60%),
-      radial-gradient(900px 520px at 92% 6%, rgba(94, 234, 212, .07), transparent 55%),
-      linear-gradient(180deg, #04060c 0%, #06090f 40%, #04060c 100%);
+      radial-gradient(1100px 600px at 12% -8%, var(--pt-bg-glow-gold), transparent 60%),
+      radial-gradient(900px 520px at 92% 6%, var(--pt-bg-glow-jade), transparent 55%),
+      linear-gradient(180deg, var(--pt-bg-a) 0%, var(--pt-bg-b) 40%, var(--pt-bg-a) 100%);
     background-attachment: fixed;
     min-height: 100vh;
+    transition: background-color .35s ease, color .35s ease;
   }
 
   ::selection {
     background: rgba(212, 162, 76, .32);
-    color: #fff;
+    color: rgb(var(--pt-parchment));
   }
 
   /* 滚动条 */
   ::-webkit-scrollbar { width: 10px; height: 10px; }
-  ::-webkit-scrollbar-track { background: rgba(255, 255, 255, .03); }
+  ::-webkit-scrollbar-track { background: rgba(128, 128, 128, .10); }
   ::-webkit-scrollbar-thumb {
     background: linear-gradient(180deg, rgba(212, 162, 76, .5), rgba(212, 162, 76, .2));
     border-radius: 999px;
@@ -55,7 +130,7 @@
   /* 玻璃面板 */
   .pt-panel {
     @apply rounded-2xl border border-white/[0.12] bg-white/[.045] backdrop-blur-xl;
-    box-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset, 0 24px 48px -32px rgba(0, 0, 0, .9);
+    box-shadow: var(--pt-panel-shadow);
   }
 
   /* 鎏金描边按钮 */
@@ -64,7 +139,7 @@
            transition-all duration-300 ease-silk select-none;
   }
   .pt-btn-gold {
-    @apply pt-btn text-ink-950;
+    @apply pt-btn text-obsidian;
     background: linear-gradient(180deg, #f0d79f, #d4a24c 55%, #b8843a);
     box-shadow: 0 10px 30px -12px rgba(212, 162, 76, .75);
   }
@@ -76,8 +151,8 @@
 
   /* 标签 / 徽记 */
   .pt-chip {
-    @apply inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium
-           transition-colors duration-200;
+    @apply inline-flex max-w-full items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs font-medium
+           transition-colors duration-200 break-words;
   }
   .pt-chip-gold { @apply pt-chip border-gold-500/30 bg-gold-500/10 text-gold-300; }
   .pt-chip-jade { @apply pt-chip border-jade-400/30 bg-jade-400/10 text-jade-300; }
@@ -111,17 +186,70 @@
 
   /* 渐变文字 */
   .pt-gradient-text {
-    background: linear-gradient(120deg, #f7e6c0 0%, #d4a24c 45%, #8ff0dd 100%);
+    background: linear-gradient(120deg, var(--pt-grad-from) 0%, var(--pt-grad-mid) 45%, var(--pt-grad-to) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
+
+  /* ---------- Markdown 正文（复盘模板） ---------- */
+  .pt-prose { @apply text-[15px] leading-[1.85] text-parchment/85; }
+  .pt-prose h1, .pt-prose h2, .pt-prose h3, .pt-prose h4 {
+    @apply font-display font-bold tracking-tight text-parchment;
+  }
+  .pt-prose h1 { @apply mb-5 mt-2 text-3xl; }
+  .pt-prose h2 {
+    @apply mb-4 mt-10 border-l-2 border-gold-500 pl-3 text-2xl;
+  }
+  .pt-prose h3 { @apply mb-3 mt-7 text-xl text-gold-200; }
+  .pt-prose h4 { @apply mb-2 mt-5 text-base text-gold-300; }
+  .pt-prose p { @apply my-3.5; }
+  .pt-prose strong { @apply font-bold text-parchment; }
+  .pt-prose em { @apply text-jade-300 not-italic; }
+  .pt-prose a { @apply text-gold-300 underline underline-offset-2 hover:text-gold-200; }
+  .pt-prose ul { @apply my-3.5 space-y-1.5 pl-5; }
+  .pt-prose ol { @apply my-3.5 list-decimal space-y-1.5 pl-6; }
+  .pt-prose li { @apply pl-0.5; }
+  .pt-prose ul > li { @apply relative; }
+  .pt-prose ul > li::before {
+    content: '◆';
+    @apply absolute -left-4 text-[9px] text-gold-500/70;
+  }
+  .pt-prose ul > li:has(input[type='checkbox'])::before { content: ''; }
+  .pt-prose li > input[type='checkbox'] {
+    @apply mr-1.5 h-3.5 w-3.5 align-middle accent-[rgb(var(--pt-gold-500))];
+  }
+  .pt-prose blockquote {
+    @apply my-5 rounded-r-lg border-l-2 border-gold-500/60 bg-gold-500/[.06] px-4 py-3 text-parchment/80;
+  }
+  .pt-prose blockquote p { @apply my-1; }
+  .pt-prose hr { @apply my-8 border-0; height: 1px; background: linear-gradient(90deg, transparent, rgba(212,162,76,.5), transparent); }
+  .pt-prose code {
+    @apply rounded-md border border-white/10 bg-white/[.06] px-1.5 py-0.5 font-mono text-[.85em] text-gold-200;
+  }
+  .pt-prose pre {
+    @apply my-5 overflow-x-auto rounded-xl border border-white/10 bg-ink-900/80 p-4;
+  }
+  .pt-prose pre code { @apply border-0 bg-transparent p-0 text-parchment/85; }
+  .pt-prose table {
+    @apply my-5 w-full border-collapse overflow-hidden rounded-xl text-sm;
+    display: table;
+  }
+  .pt-prose thead { @apply bg-gold-500/10; }
+  .pt-prose th {
+    @apply border border-white/[0.12] px-3 py-2 text-left font-semibold text-gold-200;
+  }
+  .pt-prose td {
+    @apply border border-white/[0.12] px-3 py-2 align-top text-parchment/80;
+  }
+  .pt-prose tbody tr:nth-child(even) { @apply bg-white/[.02]; }
+  .pt-prose img { @apply my-4 max-w-full rounded-xl; }
 }
 
 @layer utilities {
   /* 骨架屏微光 */
   .pt-skeleton {
-    background: linear-gradient(90deg, rgba(255,255,255,.04) 25%, rgba(255,255,255,.10) 37%, rgba(255,255,255,.04) 63%);
+    background: linear-gradient(90deg, rgba(140,140,140,.10) 25%, rgba(140,140,140,.22) 37%, rgba(140,140,140,.10) 63%);
     background-size: 400% 100%;
     @apply animate-shimmer rounded-lg;
   }

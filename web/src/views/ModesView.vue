@@ -22,6 +22,7 @@ interface ModeItem {
   description_en?: string
   formula_zh?: string
   formula_en?: string
+  level?: string | number
 }
 
 const modes = ref<ModeItem[]>([])
@@ -46,6 +47,7 @@ const fetchStaticModes = async (): Promise<ModeItem[]> => {
     name_zh: m.name_zh ?? '', name_en: m.name_en ?? '',
     domain_zh: m.domain_zh ?? '', domain_en: m.domain_en ?? '',
     category: m.category ?? '', figure_code: m.figure_code ?? '', figure_name: m.figure_name ?? '',
+    level: m.level ?? '',
   }))
 }
 
@@ -160,13 +162,11 @@ onMounted(fetchModes)
         <article v-for="m in visibleModes" :key="m.id + '-' + (m.figure_code || '')"
                  @click="m.figure_code && router.push({ name: 'mind', params: { code: m.figure_code } })"
                  :class="m.figure_code ? 'cursor-pointer' : ''"
-                 class="group relative flex flex-col rounded-2xl border border-white/10 bg-white/[.03] p-5
+                 class="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[.03] p-5
                         transition-all duration-500 ease-silk hover:-translate-y-1 hover:border-jade-400/40 hover:bg-white/[.055]">
-          <div class="mb-3 flex items-start justify-between gap-2">
-            <span class="pt-code">{{ m.id }}</span>
-            <span v-if="m.domain_zh" class="pt-chip-jade shrink-0">
-              {{ locale === 'zh' ? m.domain_zh : (m.domain_en || m.domain_zh) }}
-            </span>
+          <div class="mb-3 flex items-center justify-between gap-2">
+            <span class="pt-code shrink-0">{{ m.id }}</span>
+            <span v-if="m.category" class="pt-chip-mute max-w-[9rem] truncate">{{ m.category }}</span>
           </div>
           <h3 class="font-display text-base font-bold leading-snug text-parchment transition-colors group-hover:text-gold-200">
             {{ locale === 'zh' ? m.name_zh : (m.name_en || m.name_zh) }}
@@ -178,9 +178,12 @@ onMounted(fetchModes)
           <p v-else-if="m.figure_name" class="mt-2 text-sm text-parchment/50">
             {{ t('代表人物', 'Figure') }} · <span class="text-gold-300/85">{{ m.figure_name }}</span>
           </p>
+          <p v-if="m.domain_zh" class="mt-2 text-xs leading-relaxed text-jade-300/60 line-clamp-1">
+            {{ locale === 'zh' ? m.domain_zh : (m.domain_en || m.domain_zh) }}
+          </p>
           <div class="mt-auto flex flex-wrap items-center gap-1.5 pt-4">
-            <span v-if="m.figure_name" class="pt-chip-mute">{{ m.figure_name }}</span>
-            <span v-if="m.category" class="pt-chip-mute">{{ m.category }}</span>
+            <span v-if="m.figure_name" class="pt-chip-mute max-w-full truncate">{{ m.figure_name }}</span>
+            <span v-if="m.level" class="pt-chip-mute">{{ t('梯度', 'Tier') }}{{ m.level }}</span>
           </div>
         </article>
       </div>

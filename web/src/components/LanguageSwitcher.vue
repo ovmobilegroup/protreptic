@@ -11,8 +11,8 @@ const { locale, setLocale, t } = useI18n()
       @click="setLocale('zh')"
       class="rounded-lg px-3 py-1.5 text-xs font-medium transition-all duration-300 ease-silk"
       :class="locale === 'zh'
-        ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-ink-950 shadow-glow'
-        : 'text-parchment/55 hover:text-parchment'"
+        ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-obsidian shadow-glow'
+        : 'text-parchment/70 hover:text-parchment'"
       :aria-pressed="locale === 'zh'"
     >
       中文
@@ -21,8 +21,8 @@ const { locale, setLocale, t } = useI18n()
       @click="setLocale('en')"
       class="rounded-lg px-3 py-1.5 text-xs font-medium transition-all duration-300 ease-silk"
       :class="locale === 'en'
-        ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-ink-950 shadow-glow'
-        : 'text-parchment/55 hover:text-parchment'"
+        ? 'bg-gradient-to-b from-gold-400/90 to-gold-600 text-obsidian shadow-glow'
+        : 'text-parchment/70 hover:text-parchment'"
       :aria-pressed="locale === 'en'"
     >
       EN

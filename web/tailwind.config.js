@@ -1,35 +1,43 @@
 /** @type {import('tailwindcss').Config} */
+// 所有核心颜色经由 CSS 变量（style.css 的 :root / [data-theme="light"] 定义），
+// 因此切换 data-theme 即可整体换肤（深墨 ↔ 浅色）。
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        // 墨 — 基底
+        // 墨 — 基底（页底 / 面板 / 输入）
         ink: {
-          950: '#04060c',
-          900: '#080c16',
-          850: '#0c1220',
-          800: '#111a2b',
-          700: '#182338',
-          600: '#22304a',
+          950: 'rgb(var(--pt-ink-950) / <alpha-value>)',
+          900: 'rgb(var(--pt-ink-900) / <alpha-value>)',
+          850: 'rgb(var(--pt-ink-850) / <alpha-value>)',
+          800: 'rgb(var(--pt-ink-800) / <alpha-value>)',
+          700: 'rgb(var(--pt-ink-700) / <alpha-value>)',
+          600: 'rgb(var(--pt-ink-600) / <alpha-value>)',
         },
         // 金 — 主强调（典藏 / 智慧）
         gold: {
-          200: '#f7e6c0',
-          300: '#f0d79f',
-          400: '#e4bd74',
-          500: '#d4a24c',
-          600: '#b8843a',
-          700: '#8f6529',
+          200: 'rgb(var(--pt-gold-200) / <alpha-value>)',
+          300: 'rgb(var(--pt-gold-300) / <alpha-value>)',
+          400: 'rgb(var(--pt-gold-400) / <alpha-value>)',
+          500: 'rgb(var(--pt-gold-500) / <alpha-value>)',
+          600: 'rgb(var(--pt-gold-600) / <alpha-value>)',
+          700: 'rgb(var(--pt-gold-700) / <alpha-value>)',
         },
         // 玉 — 次强调
         jade: {
-          300: '#8ff0dd',
-          400: '#5eead4',
-          500: '#2fd4b8',
-          600: '#14b8a6',
+          300: 'rgb(var(--pt-jade-300) / <alpha-value>)',
+          400: 'rgb(var(--pt-jade-400) / <alpha-value>)',
+          500: 'rgb(var(--pt-jade-500) / <alpha-value>)',
+          600: 'rgb(var(--pt-jade-600) / <alpha-value>)',
         },
-        parchment: '#f3ece0',
+        // 正文前景
+        parchment: 'rgb(var(--pt-parchment) / <alpha-value>)',
+        // 叠加层：深色主题=白（提亮），浅色主题=黑（压暗）。组件里统一用 white/10 这类写法。
+        white: 'rgb(var(--pt-overlay) / <alpha-value>)',
+        black: 'rgb(var(--pt-shadow) / <alpha-value>)',
+        // 金底上的固定深色字（按钮/徽记），不随主题翻转
+        obsidian: '#0a0c11',
       },
       fontFamily: {
         display: ['"Noto Serif SC"', '"Source Han Serif SC"', '"Songti SC"', 'STSong', 'SimSun', 'Georgia', 'serif'],
