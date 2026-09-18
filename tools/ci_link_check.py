@@ -257,6 +257,17 @@ def run_dist(args: argparse.Namespace) -> int:
         rep.fail(o)
 
     # sitemap -> dist 文件
+    if args.sitemap == "":
+        rep.note("sitemap 检查被 --sitemap 空串跳过 (仅限本地排查, CI 不允许)")
+        if args.break_link:
+            fake = f"{base}{BREAK_TOKEN}/"
+            rep.note(f"自检注入: {fake} (必然不存在, 期望 PASS 判定失败)")
+            rep.checked += 1
+            if file_exists(dist, path_to_file(dist, fake, base)):
+                rep.fail(f"自检失效: 注入的 {fake} 竟然存在")
+            else:
+                rep.fail(f"[自检注入] 死链未被检出: {fake}")
+        return rep.finish()
     sm = Path(args.sitemap).resolve()
     if sm.is_file():
         locs = sitemap_urls(sm)
