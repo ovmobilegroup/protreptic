@@ -2,10 +2,10 @@
  "schema": "protreptic.prerendered_routes/v1",
  "generated_by": "tools/prerender_routes.py",
  "base": "/protreptic/",
- "count": 1351,
- "total_html_bytes": 8531859,
+ "count": 1352,
+ "total_html_bytes": 8536671,
  "counts_by_type": {
-  "static": 6,
+  "static": 7,
   "person": 283,
   "scenario": 1055,
   "template": 7
@@ -76,6 +76,15 @@
    "body": false,
    "body_text_chars": 0,
    "canonical": "https://ovmobilegroup.github.io/protreptic/api/"
+  },
+  {
+   "path": "compare",
+   "title": "跨人物对比 - 思维模式并排对照",
+   "description": "选 2-4 位历史人物或思维模式, 并排对照定义, 步骤, 出处与领域分布; 地址栏带选中项, 可直接分享.",
+   "type": "static",
+   "body": false,
+   "body_text_chars": 0,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/compare/"
   },
   {
    "path": "concepts",

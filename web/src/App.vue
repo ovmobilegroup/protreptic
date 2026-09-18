@@ -15,6 +15,7 @@ const links = computed(() => [
   { to: '/modes', zh: '思维模式库', en: 'Modes' },
   { to: '/concepts', zh: '概念索引', en: 'Concepts' },
   { to: '/graph', zh: '关系图谱', en: 'Graph' },
+  { to: '/compare', zh: '跨人物对比', en: 'Compare' },
   { to: '/templates', zh: '复盘模板', en: 'Templates' },
   { to: '/api', zh: 'API 文档', en: 'API' },
 ])

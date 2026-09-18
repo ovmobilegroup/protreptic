@@ -5,6 +5,21 @@ import { useI18n } from '../composables/useI18n'
 import { fetchFigureModes } from '../api/static'
 import { buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
 import SimilarModeList from '../components/SimilarModeList.vue'
+import { useCompare } from '../composables/useCompare'
+import { MAX_COMPARE_ITEMS } from '../api/compareData'
+
+// Phase30-B3: 一键加入对比（选中集合由 useCompare 单例持有，/compare 读取同一份）
+const { codes: compareCodes, add: addCompare } = useCompare()
+const compareNotice = ref('')
+const compareFull = computed(() => compareCodes.value.length >= MAX_COMPARE_ITEMS)
+
+const addToCompare = (target: string) => {
+  const result = addCompare(target)
+  compareNotice.value =
+    result === 'added' ? t('已加入对比', 'Added to compare')
+      : result === 'duplicate' ? t('已在对比列表中', 'Already in compare')
+        : t(`最多对比 ${MAX_COMPARE_ITEMS} 项，请先在对比页移除一项`, `At most ${MAX_COMPARE_ITEMS} items — remove one on /compare`)
+}
 
 const route = useRoute()
 const router = useRouter()
@@ -96,6 +111,17 @@ onMounted(load)
             {{ t('以下为该历史人物的全部思维模式，含定义、操作步骤、出处与原话。',
                  'All thinking modes of this figure, with definition, steps, source and quote.') }}
           </p>
+
+          <!-- Phase30-B3: 一键加入对比 -->
+          <div class="mt-5 flex flex-wrap items-center gap-3">
+            <button class="pt-btn-ghost" :disabled="compareFull" @click="addToCompare(code)">
+              {{ t('加入对比', 'Add to compare') }}
+            </button>
+            <RouterLink v-if="compareCodes.length" to="/compare" class="pt-btn-gold">
+              {{ t(`开始对比（${compareCodes.length}/${MAX_COMPARE_ITEMS}）`, `Compare (${compareCodes.length}/${MAX_COMPARE_ITEMS})`) }}
+            </RouterLink>
+            <span v-if="compareNotice" class="text-xs text-gold-300/80">{{ compareNotice }}</span>
+          </div>
         </div>
       </header>
 
@@ -106,6 +132,10 @@ onMounted(load)
             <span class="grid h-7 w-7 place-items-center rounded-full border border-gold-500/40 bg-gold-500/10
                          font-mono text-xs font-bold text-gold-300">{{ i + 1 }}</span>
             <h2 class="pt-h3 text-parchment">{{ m.name }}</h2>
+            <button class="pt-chip-mute transition-colors hover:border-gold-500/40 hover:text-gold-200"
+                    @click="addToCompare(m.code)">
+              {{ t('加入对比', 'Compare') }}
+            </button>
             <span v-if="m.domain" class="pt-chip-jade ml-auto">{{ m.domain }}</span>
           </div>
 

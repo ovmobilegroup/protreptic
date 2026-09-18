@@ -9,6 +9,7 @@ import TemplateDetailView from '../views/TemplateDetailView.vue'
 import NotFoundView from '../views/NotFoundView.vue'
 import GraphView from '../views/GraphView'
 import ConceptsView from '../views/ConceptsView.vue'
+import CompareView from '../views/CompareView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -52,6 +53,16 @@ const routes: RouteRecordRaw[] = [
     meta: {
       title: '关系图谱 - 人物-模式-概念可视化',
       description: '人物-模式-概念关系可视化：探索思维模式的关联网络，发现跨时代的思想连接。',
+      seoKind: 'static',
+    },
+  },
+  {
+    path: '/compare',
+    name: 'compare',
+    component: CompareView,
+    meta: {
+      title: '跨人物对比 - 思维模式并排对照',
+      description: '选 2-4 位历史人物或思维模式，并排对照定义、操作步骤、出处与领域分布；链接带选中项，可直接分享。',
       seoKind: 'static',
     },
   },
