@@ -672,7 +672,28 @@ decision  -> M-YSS-010 李舜臣 8, M-BELISARI-007 贝利撒留 4
 所以目前是死字段而不是线上故障. 但只要有人照抄它就会踩坑, A1 尤其要注意.
 建议改为真实路径或直接删掉该字段.
 
-### 6.3 已验证的一致项 (避免子卡重复排查)
+### 6.3 markdown-lint 这个 CI 任务一直是红的, 根因与 markdown 无关
+
+`CI` workflow 的 `markdown-lint` 任务在**本卡改动之前**就已经失败 (提交 d1d4399 的 run
+35297502340 同样红). 从失败日志取到精确原因:
+
+```
+##[error]Failed due to error: Error: ENOENT: no such file or directory,
+  open '/home/runner/work/protreptic/protreptic/.markdownlint.json'
+```
+
+`.github/workflows/markdown-lint.yml` 里写了 `config: ".markdownlint.json"`, 但两个仓库的根目录
+**都没有这个文件**. 也就是说该任务在拿不到配置时直接报错退出, **一个 markdown 文件都没被检查过**.
+所以:
+
+- 本卡新增的 2 个 markdown 文件不会给它增加任何 violation (它根本没跑检查);
+- 想让它变绿只需要补一个 `.markdownlint.json` (或删掉 `config:` 这一行改用默认规则);
+- 如果真的按默认规则全量检查 `**/*.md`, 历史文档会有大量 MD013 (行长度) 一类问题,
+  需要先决定关掉哪些规则, 属于 C1 与文档治理的范围.
+
+证据见 `web_p0_evidence.md` 的 E16.
+
+### 6.4 已验证的一致项 (避免子卡重复排查)
 
 - **发布仓基线**下 `figures.index.json` 的 1058 条与 `index.unified.json` 的 1056 条 scenario
   指向同一张 figures 表 (1058 行里 2 行未进入场景清单); 与 `data/figures/*.json` 的 1058 个分片一致.

@@ -310,3 +310,19 @@ rel="canonical" href="https://ovmobilegroup.github.io/protreptic/minds/H-WYM-001
 $ grep -o 'application/ld+json">.\{0,120\}' live1.html
 application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"王阳明",...
 ```
+
+## E16 markdown-lint 任务失败根因
+
+```
+$ HOME=/opt/data/home gh run view 35304446385 --repo ovmobilegroup/protreptic --log-failed
+markdown-lint  Run DavidAnson/markdownlint-cli2-action@v14
+  markdownlint-cli2 v0.11.0 (markdownlint v0.32.1)
+  ##[error]Failed due to error: Error: ENOENT: no such file or directory,
+    open '/home/runner/work/protreptic/protreptic/.markdownlint.json'
+
+$ ls -la .markdownlint.json   (工作区与发布仓根目录都没有该文件)
+  两个仓库均不存在
+```
+
+预先存在的红: 提交 d1d4399 的 CI run 35297502340 同样是 markdown-lint 失败.
+本卡新增的 markdown 文件不会加重它, 因为该任务在读配置阶段就退出了, 没有检查任何文件.
