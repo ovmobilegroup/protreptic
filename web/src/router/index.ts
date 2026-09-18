@@ -4,6 +4,7 @@ import ModesView from '../views/ModesView.vue'
 import TemplatesView from '../views/TemplatesView.vue'
 import ApiDocsView from '../views/ApiDocsView.vue'
 import FigureDetailView from '../views/FigureDetailView.vue'
+import MindView from '../views/MindView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -33,6 +34,13 @@ const routes: RouteRecordRaw[] = [
     name: 'api',
     component: ApiDocsView,
     meta: { title: 'API 文档' },
+  },
+  {
+    path: '/minds/:code',
+    name: 'mind',
+    component: MindView,
+    props: true,
+    meta: { title: '人物模式档案' },
   },
   {
     path: '/figures/:code',

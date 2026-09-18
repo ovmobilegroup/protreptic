@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
 import { useI18n } from '../composables/useI18n'
+import { useRouter } from 'vue-router'
 
 const { t, locale } = useI18n()
+const router = useRouter()
 
 const DATA_MODE = import.meta.env.VITE_DATA_MODE ?? 'api'
 const MODE_INDEX_SHARDS = 8
@@ -156,6 +158,8 @@ onMounted(fetchModes)
     <template v-else>
       <div class="pt-stagger grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <article v-for="m in visibleModes" :key="m.id + '-' + (m.figure_code || '')"
+                 @click="m.figure_code && router.push({ name: 'mind', params: { code: m.figure_code } })"
+                 :class="m.figure_code ? 'cursor-pointer' : ''"
                  class="group relative flex flex-col rounded-2xl border border-white/10 bg-white/[.03] p-5
                         transition-all duration-500 ease-silk hover:-translate-y-1 hover:border-jade-400/40 hover:bg-white/[.055]">
           <div class="mb-3 flex items-start justify-between gap-2">

@@ -336,6 +336,25 @@ const get = async <T = any>(url: string, config?: StaticRequestConfig): Promise<
   throw new Error(`[static] 适配层未实现该接口：${url}`)
 }
 
+/** 人物专属模式分片：data/modes/by-figure/{figure_code}.json */
+export interface FigureModesPayload {
+  figure_code: string
+  figure_name: string
+  count: number
+  modes: any[]
+}
+
+export const fetchFigureModes = async (code: string): Promise<FigureModesPayload | null> => {
+  if (!code) return null
+  try {
+    const res = await fetch(`${DATA_ROOT}modes/by-figure/${encodeURIComponent(code)}.json`)
+    if (!res.ok) return null
+    return (await res.json()) as FigureModesPayload
+  } catch {
+    return null
+  }
+}
+
 const staticApi = { get }
 
 export const useApi = () => staticApi
