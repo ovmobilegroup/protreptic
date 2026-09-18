@@ -57,6 +57,21 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: 重建 figures 数据库
+        run: python3 tools/build_figures_db.py
+
+      - name: 构建静态数据分片
+        run: python3 tools/export_static_site.py
+
+      - name: 构建统一索引
+        run: python3 tools/build_unified_index.py
+
+      - name: 路由预渲染
+        run: python3 tools/prerender_routes.py
+
+      - name: 构建 sitemap
+        run: python3 tools/build_sitemap.py
+
       - name: 断言 index.unified.json schema + 路由清单 + sitemap 一致
         run: python3 tools/ci_data_check.py
 
@@ -78,6 +93,62 @@ jobs:
           python-version: '3.12'
 
       - name: 全量可达性检测
+        run: |
+          set -euo pipefail
+          if [ "${BREAK_LINK}" = "true" ]; then
+            echo "::warning::自检模式: 注入必然 404 的链接, 本 job 期望失败"
+            python3 tools/ci_link_check.py live --crawl-sample 8 --break-link
+          else
+            python3 tools/ci_link_check.py live --crawl-sample 8
+          fi
+
+  lighthouse:
+    name: Lighthouse 预算门
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Lighthouse CI (预算超限即失败)
+        run: npx --yes @lhci/cli@0.14.0 autorun
+
+      - name: 上传 Lighthouse 原始报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouseci-report
+          path: .lighthouseci/
+          if-no-files-found: warn
+          retention-days: 14
+  data-check-and-links:
+    name: 数据校验 + 线上死链检测 (合并)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 断言 index.unified.json schema + 路由清单 + sitemap 一致
+        run: python3 tools/ci_data_check.py
+
+      - name: 全量可达性检测
+        env:
+          BREAK_LINK: ${{ github.event_name == 'workflow_dispatch' && inputs.break_link || 'false' }}
         run: |
           set -euo pipefail
           if [ "${BREAK_LINK}" = "true" ]; then
