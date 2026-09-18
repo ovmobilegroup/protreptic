@@ -202,8 +202,9 @@ done
 | 项 | 值 |
 | --- | --- |
 | publish 提交 | `bbcf071`（workspace 对应 `76bfe59f`，本地 dev 分支） |
-| Pages 运行 | run 26 / `35342178368` → **success** |
+| Pages 运行 | run 26 / `35342178368` → **success**（代码修复）· run 27 / `35342727367` → **success**（本报告提交） |
 | 线上 bundle | `index-D1DYwfIq.js`（修复前） → `index-CE7EoPzT.js`（修复后） |
+| 其余工作流 | `ci-cd`（Run Python tests）/ `markdown-lint` / `quality-gate`（0 jobs，工作流级）在 `86453ba`、`bbcf071`、`51a5c56` 三个提交上结论完全一致，均为失败 —— **既有问题，非本卡引入**（`pages.yml` 才是站点可用性判据） |
 | 线上数据 | `data/modes/index-0.json` 数组型 `name_zh` 82 → 0 |
 | 线上 `/graph` | 人物视图 23/23；模式下拉 0/2858 串行；`M-MF-004 · 考据鉴定法` |
 | 线上 `/modes` | 120 卡片 / 0 串行 |
