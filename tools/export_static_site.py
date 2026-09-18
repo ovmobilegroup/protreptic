@@ -47,6 +47,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _quarantine import is_quarantined  # noqa: E402
+
 # ---------------------------------------------------------------- 常量
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -427,7 +430,11 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     fig_stats = []
     fig_items = []
     unsafe_names = []
+    quarantined_shards = 0
     for fc in sorted(by_figure):
+        if is_quarantined(fc):
+            quarantined_shards += 1
+            continue
         rows = sorted(by_figure[fc], key=lambda x: str(x.get("mode_code")))
         if not SAFE_NAME.fullmatch(fc):
             unsafe_names.append(fc)
@@ -449,6 +456,8 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     log(f"  modes/by-figure/        {len(fig_stats):>4} 片  "
         f"raw {human(fig_raw)} / gzip {human(fig_gz)} "
         f"(单片中位 raw {human(med)} / gzip {human(med_gz)})")
+    if quarantined_shards:
+        log(f"  [隔离] 跳过 {quarantined_shards} 个隔离人物的分片 (见 tools/_quarantine.py)")
     if unsafe_names:
         log(f"  [注意] {len(unsafe_names)} 个 figure_code 含文件名特殊字符（按原值落盘，"
             f"前端 fetch 需 encodeURIComponent）：{unsafe_names}")

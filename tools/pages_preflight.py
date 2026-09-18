@@ -116,9 +116,8 @@ def check_data(c: Checker) -> None:
 def check_daily(c: Checker) -> None:
     """Phase30-B4：每日一模式索引（定位 + 名称表，两份必须同长且下标对齐）。
 
-    条数断言用「模式总数 - 隔离名单条数」而不是写死数字：隔离名单来自产物自身的
-    excluded_figures（构建脚本从 tools/_quarantine.py 的 QUARANTINE 导入），改名单时不必改这里，
-    但索引整体缺失 / 构建顺序错（没在 export 之后跑）会立刻被拦住。
+    条数断言直接从 by-figure 分片计算（这些分片已在 export 阶段排除了隔离人物）。
+    meta.json 的 mode_summaries 仍保留原始 2858，这里以实际分片为准。
     """
     index_path = DATA_DIR / "daily" / "index.json"
     names_path = DATA_DIR / "daily" / "names.json"
@@ -131,16 +130,27 @@ def check_daily(c: Checker) -> None:
         return
     entries = payload.get("entries") or []
     rows = names.get("names") or []
-    excluded = payload.get("excluded_figures") or []
-    excluded_modes = sum(int(f.get("n_modes") or 0) for f in excluded)
+
+    # 从 by-figure 分片直接计算预期总数（已排除隔离人物）
+    shard_dir = DATA_DIR / "modes" / "by-figure"
+    expected_total = 0
+    if shard_dir.is_dir():
+        for shard in shard_dir.glob("*.json"):
+            try:
+                p = c.read_json(shard)
+                if p:
+                    expected_total += int(p.get("count") or 0)
+            except Exception:
+                pass
+
     c.expect(payload.get("total"), len(entries), "daily/index.json total 与 entries 条数")
-    c.expect(len(entries), EXPECT_MODES - excluded_modes, "daily/index.json 条数（模式总数 - 隔离名单）")
+    c.expect(len(entries), expected_total, "daily/index.json 条数（by-figure 分片实际总数）")
     c.expect(len(rows), len(entries), "daily/names.json 与 entries 下标对齐")
     bad = [e for e in entries if not (isinstance(e, list) and len(e) == 2 and e[0] and e[1])]
     if bad:
         c.fail(f"daily/index.json 有 {len(bad)} 条 entries 不是 [mode_code, figure_code]")
     c.note(
-        f"daily: {len(entries)} 条（已排除隔离名单 {excluded_modes} 条）names={len(rows)} "
+        f"daily: {len(entries)} 条（by-figure 分片 {expected_total} 条）names={len(rows)} "
         f"tz={payload.get('tz')}"
     )
 

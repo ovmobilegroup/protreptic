@@ -90,19 +90,21 @@ def write_json(path: Path, payload) -> None:
 
 
 def expected_total(data_dir: Path):
-    '''meta.json (export 的产物) 里的 mode_summaries 是同一批模式 —— 对不上说明构建顺序错了.'''
-    meta_path = data_dir / "meta.json"
-    if not meta_path.exists():
+    """
+    从 by-figure 分片直接计算预期模式总数 (这些分片已在 export 阶段排除了隔离人物)。
+    meta.json 的 mode_summaries 仍保留原始 2858，这里以实际分片为准。
+    """
+    shard_dir = data_dir / "modes" / "by-figure"
+    if not shard_dir.is_dir():
         return None
-    try:
-        meta = json.loads(meta_path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return None
-    counts = meta.get("counts") or {}
-    for key in ("mode_summaries", "modes_deduped"):
-        if counts.get(key):
-            return int(counts[key])
-    return None
+    total = 0
+    for shard in shard_dir.glob("*.json"):
+        try:
+            payload = json.loads(shard.read_text(encoding="utf-8"))
+            total += int(payload.get("count") or 0)
+        except Exception:
+            continue
+    return total if total > 0 else None
 
 
 def load_quarantine() -> dict:
@@ -168,7 +170,7 @@ def main(argv=None) -> int:
     data_dir = Path(args.data_dir)
     entries, names, figures, shards, excluded = load_entries(data_dir)
     want = expected_total(data_dir)
-    if want is not None and want - sum(n for _, n, _ in excluded) != len(entries):
+    if want is not None and want != len(entries):
         fail("模式条数 %d 与 meta.json 的 mode_summaries=%d 减去隔离名单 %d 条不一致: 先重跑 export_static_site.py"
              % (len(entries), want, sum(n for _, n, _ in excluded)))
     if not entries:

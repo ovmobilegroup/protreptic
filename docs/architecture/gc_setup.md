@@ -61,6 +61,7 @@ python3 tools/prerender_routes.py --body-persons all
 ```
 
    然后同步进发布仓 -> `git push origin main` -> 等 `pages.yml` 跑完。
+
 1. 验收: 首页 HTML 出现真实端点；打开一次页面后 GoatCounter 侧出现 1 条计数。
 
 ## 3. 本次改动清单
