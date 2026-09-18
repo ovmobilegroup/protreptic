@@ -21,7 +21,7 @@
 #   python3 tools/ci_data_check.py
 #   python3 tools/ci_link_check.py live --crawl-sample 8
 #   python3 tools/ci_link_check.py live --break-link      # 自检: 应当非 0 退出
-#   npx --yes @lhci/cli@0.14.1 autorun
+#   npx --yes @lhci/cli@0.14.0 autorun
 
 name: Quality Gate
 
@@ -103,7 +103,7 @@ jobs:
           node-version: '20'
 
       - name: Lighthouse CI (预算超限即失败)
-        run: npx --yes @lhci/cli@0.14.1 autorun
+        run: npx --yes @lhci/cli@0.14.0 autorun
 
       - name: 上传 Lighthouse 原始报告
         if: always()
