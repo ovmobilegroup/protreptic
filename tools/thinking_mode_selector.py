@@ -17,6 +17,7 @@
 
 import sys
 import json
+import sqlite3
 import argparse
 from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
@@ -47,7 +48,91 @@ def load_json(filename: str) -> Any:
         return json.load(f)
 
 
-# Load data from JSON files
+# ── 数据源：只认 api/protreptic.db ────────────────────────────────────────────
+# 场景（SCENARIOS_ZH/EN）、code→名称（CODE_MAP*）、标签（SCENARIO_TAGS）全部从
+# api/protreptic.db 的 figures 表派生 —— 这是全站（web/public/data/**、
+# index.unified.json、质量门 tools/ci_data_check.py）共用的唯一真相源。
+#
+# 历史坑：本文件曾经读 tools/scenarios_zh.json / tools/scenarios_en.json，
+# 那是 39 键的陈年副本（真数据早已是 db 里的 1000+ 场景），
+# 断言与导出因此长期对着旧数据自说自话。这类副本已删除，不再作为输入。
+# 模式目录仍读 tools/modes_data.json（数字/M 前缀模式的名称与定义，不是场景副本）。
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+
+def _find_db() -> Path:
+    """定位 api/protreptic.db（解析顺序与 figure_library._find_data_file 同构）。"""
+    candidates = [
+        REPO_ROOT / 'api' / 'protreptic.db',                 # <repo>/tools/ -> <repo>/api/
+        Path(__file__).resolve().parent / 'api' / 'protreptic.db',
+        Path.cwd() / 'api' / 'protreptic.db',
+    ]
+    for c in candidates:
+        if c.exists() and c.stat().st_size > 10_000:
+            return c
+    raise FileNotFoundError(
+        '找不到 api/protreptic.db（场景唯一数据源）。已尝试: '
+        + ', '.join(str(c) for c in candidates)
+    )
+
+
+def _as_list(v: Any) -> List[Any]:
+    """db 里的 steps/expected/modes 等列是 JSON 文本；缺失/坏值一律退化为 []。"""
+    if v is None or v == '':
+        return []
+    try:
+        val = json.loads(v)
+    except Exception:
+        return [v] if isinstance(v, str) and v.strip() else []
+    if isinstance(val, list):
+        return val
+    if val is None or val == '':
+        return []
+    return [val]
+
+
+def load_scenarios(lang: str) -> Dict[str, dict]:
+    """从 api/protreptic.db 读全部场景（按 code 索引，英/中各自取本语言字段）。"""
+    db = _find_db()
+    con = sqlite3.connect('file:%s?mode=ro' % db, uri=True)
+    try:
+        rows = con.execute(
+            'SELECT code, name_zh, name_en, description_zh, description_en, '
+            'reason_zh, reason_en, steps_zh, steps_en, expected_zh, expected_en, '
+            'case_zh, case_en, modes, era, historical_domains, domains FROM figures'
+        ).fetchall()
+    finally:
+        con.close()
+
+    zh_first = (lang == 'zh')
+    out: Dict[str, dict] = {}
+    for (code, nz, ne, dz, de, rz, re_, sz, se, ez, ee, cz, ce,
+         modes, era, hd, dm) in rows:
+        code = str(code or '').strip()
+        if not code:
+            continue
+        name = ((nz or ne) if zh_first else (ne or nz)) or code
+        out[code] = {
+            'code': code,
+            # 标准字段（本语言优先，缺则退到另一语言，再缺退到 code）
+            'name': str(name).strip() or code,
+            'description': str(((dz or de) if zh_first else (de or dz)) or '').strip(),
+            'reason': str(((rz or re_) if zh_first else (re_ or rz)) or '').strip(),
+            'steps': _as_list(sz if zh_first else se),
+            'expected': _as_list(ez if zh_first else ee),
+            'case': str(((cz or ce) if zh_first else (ce or cz)) or '').strip(),
+            # 双语原值（测试/对比用，不写死数量）
+            'name_zh': str(nz or '').strip(),
+            'name_en': str(ne or '').strip(),
+            # 语义字段
+            'modes': _as_list(modes),
+            'era': str(era or '').strip(),
+            'historical_domains': _as_list(hd),
+            'domains': _as_list(dm),
+        }
+    return out
+
+
 MODES_DATA = load_json('modes_data.json')
 # Filter out M-prefixed keys (legacy format) - only numeric keys can be converted to int
 zh_modes_numeric = {k: v for k, v in MODES_DATA['zh'].items() if not k.startswith('M')}
@@ -55,20 +140,22 @@ en_modes_numeric = {k: v for k, v in MODES_DATA['en'].items() if not k.startswit
 THINKING_MODES_ZH = {int(k): ThinkingMode(int(k), *v) for k, v in zh_modes_numeric.items()}
 THINKING_MODES_EN = {int(k): ThinkingMode(int(k), *v) for k, v in en_modes_numeric.items()}
 
-SCENARIOS_ZH = load_json('scenarios_zh.json')
-SCENARIOS_EN = load_json('scenarios_en.json')
+SCENARIOS_ZH = load_scenarios('zh')
+SCENARIOS_EN = load_scenarios('en')
 
-# Load code maps from JSON
-CODE_MAPS = load_json('code_maps.json')
-CODE_MAP = CODE_MAPS['CODE_MAP']
-CODE_MAP_EN = CODE_MAPS['CODE_MAP_EN']
+# code → 名称：由唯一数据源派生（不再读 tools/code_maps.json 这份派生副本）
+CODE_MAP = {c: (s['name_zh'] or s['name']) for c, s in SCENARIOS_ZH.items()}
+CODE_MAP_EN = {c: (s['name_en'] or s['name']) for c, s in SCENARIOS_EN.items()}
 
-# Load scenario tags if available
-try:
-    TAGS_DATA = load_json('scenario_tags.json')
-    SCENARIO_TAGS = TAGS_DATA.get('tags', {})
-except:
-    SCENARIO_TAGS = {}
+# 标签：同样由数据源派生（era / historical_domains / domains），不读陈旧副本
+SCENARIO_TAGS = {
+    c: {
+        'era': s['era'],
+        'historical_domains': s['historical_domains'],
+        'domains': s['domains'],
+    }
+    for c, s in SCENARIOS_ZH.items()
+}
 
 
 class ThinkingModeSelector:
@@ -77,6 +164,14 @@ class ThinkingModeSelector:
         self.scenarios = SCENARIOS_ZH if self.lang == "zh" else SCENARIOS_EN
         self.code_map = CODE_MAP if self.lang == "zh" else CODE_MAP_EN
         self.modes = THINKING_MODES_ZH if self.lang == "zh" else THINKING_MODES_EN
+
+    def _mode_name(self, m: Any) -> str:
+        """模式引用 → 名称。db 里的引用可能是 int、'M218' 或目录中不存在的旧 id，
+        解析不到就退回引用本身的字符串（不让 CLI 因 KeyError 崩）。"""
+        mm = self.modes.get(m)
+        if mm is None and isinstance(m, str) and m.isdigit():
+            mm = self.modes.get(int(m))
+        return mm.name if mm else str(m)
 
     def _get_field(self, scenario: dict, field: str) -> Any:
         """Get field value handling both standard and i18n formats."""
@@ -132,7 +227,7 @@ class ThinkingModeSelector:
             for code in sorted(self.scenarios.keys()):
                 if code.startswith(cat_code + "-"):
                     name = self._get_field(self.scenarios[code], "name")
-                    modes = ", ".join([self.modes[m].name for m in self.scenarios[code]["modes"][:3]])
+                    modes = ", ".join([self._mode_name(m) for m in self.scenarios[code]["modes"][:3]])
                     more = "..." if len(self.scenarios[code]["modes"]) > 3 else ""
                     print(f"  {code:<12} {name} [{modes}{more}]")
         print()
@@ -147,13 +242,7 @@ class ThinkingModeSelector:
             name = self._get_field(scenario, "name").lower()
             reason = self._get_field(scenario, "reason").lower()
             # Handle modes that may not be in self.modes (e.g., M-prefixed legacy modes)
-            modes_str_parts = []
-            for m in scenario["modes"]:
-                if m in self.modes:
-                    modes_str_parts.append(self.modes[m].name.lower())
-                else:
-                    # For M-prefixed or unknown modes, use the mode ID as string
-                    modes_str_parts.append(str(m).lower())
+            modes_str_parts = [self._mode_name(m).lower() for m in scenario["modes"]]
             modes_str = " ".join(modes_str_parts)
             if (keyword_lower in name or
                 keyword_lower in reason or
@@ -261,7 +350,7 @@ class ThinkingModeSelector:
 
         scenario = self.scenarios[code]
         name = self._get_field(scenario, "name")
-        mode_names = [self.modes[m].name for m in scenario["modes"]]
+        mode_names = [self._mode_name(m) for m in scenario["modes"]]
         reason = self._get_field(scenario, "reason")
         steps = self._get_field(scenario, "steps")
         expected = self._get_field(scenario, "expected")
@@ -310,7 +399,7 @@ class ThinkingModeSelector:
         if not scenario:
             return f"⚠️ No preset for ({code})" if self.lang == "en" else f"⚠️ 该组合 ({code}) 暂无预设方案"
 
-        mode_names = [self.modes[m].name for m in scenario["modes"]]
+        mode_names = [self._mode_name(m) for m in scenario["modes"]]
 
         if format == "json":
             import json
@@ -357,13 +446,7 @@ class ThinkingModeSelector:
                 # Skip non-dict entries (metadata fields)
                 if not isinstance(scenario, dict):
                     continue
-                mode_names = []
-                for m in scenario["modes"]:
-                    if m in self.modes:
-                        mode_names.append(self.modes[m].name)
-                    else:
-                        # For M-prefixed or unknown modes, use the mode ID as string
-                        mode_names.append(str(m))
+                mode_names = [self._mode_name(m) for m in scenario["modes"]]
                 all_data[code] = {
                     "name": self._get_field(scenario, "name"),
                     "modes": mode_names,
@@ -391,7 +474,7 @@ class ThinkingModeSelector:
                         # Skip non-dict entries (metadata fields)
                         if not isinstance(scenario, dict):
                             continue
-                        mode_names = [self.modes[m].name for m in scenario["modes"]]
+                        mode_names = [self._mode_name(m) for m in scenario["modes"]]
                         lines.append(f"### {self._get_field(scenario, 'name')} ({code})")
                         lines.append("")
                         lines.append(f"**Modes:** {', '.join(mode_names)}")
