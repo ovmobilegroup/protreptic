@@ -6,9 +6,9 @@ Card: `t_c39a6828` (serrano). Method: run the commands, paste raw output only.
 
 | item | value |
 | --- | --- |
-| local time | `2026-09-19 22:35:58 ` |
-| dev repo `/opt/data/workspace/Protreptic` | `f72a0d3d Phase37-X2: findings.json 自检脚本 verify_findings.py + 可复跑生成器 + 补 H-SX-001 全 10 条 + 计数刷新到当前库(2888/284;D1=60 D2=10 D3=6 D4=17 D6=40)` |
-| publish repo `/opt/data/release/Protreptic-publish` | `9f95113 Phase37-X1: D3 豁免口径落地 gate + 两方向自测 + 交付报告（发布仓同步）` |
+| local time | `2026-09-19 22:37:04 ` |
+| dev repo `/opt/data/workspace/Protreptic` | `17462fa7 Phase37-X2: findings.json 自检脚本 verify_findings.py + 可复跑生成器 + 补 H-SX-001 全 10 条 + 计数刷新到当前库(2888/284;D1=60 D2=10 D3=6 D4=17 D6=40)` |
+| publish repo `/opt/data/release/Protreptic-publish` | `d644470 Phase37-X2: findings.json 自检脚本 + 补 H-SX-001 全 10 条 + 计数刷新（发布仓同步）` |
 | `data/modes_data.json` sha256 (dev == pub) | `bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb` |
 | `data/audit/findings.json` sha256 | dev `726be6f4171d08ed253bed1170d056090cd2108471a4e08793b649e50c68abd6` |
 
@@ -324,8 +324,56 @@ Notes on the rescan:
 ## 7. Two-repo sync + push
 
 ```bash
-cd /opt/data/workspace/Protreptic && cp tools/verify_findings.py tools/build_audit_findings.py tools/  # etc.
+cd /opt/data/workspace/Protreptic && git add tools/verify_findings.py tools/build_audit_findings.py data/audit/findings.json docs/qa/phase37_x2_evidence.md
+cd /opt/data/release/Protreptic-publish && git add data/audit/findings.json tools/verify_findings.py tools/build_audit_findings.py docs/qa/phase37_x2_evidence.md
+cd /opt/data/release/Protreptic-publish && git commit && git push -q origin main && git status -sb && git fetch -q origin && git status -sb
+curl -s https://raw.githubusercontent.com/ovmobilegroup/protreptic/main/data/audit/findings.json | sha256sum   # read-back from origin
 ```
 
-(filled in after the push - see section 7.1 below)
+```text
+dev commit: 17462fa7 Phase37-X2: findings.json 自检脚本 verify_findings.py + 可复跑生成器 + 补 H-SX-001 全 10 条 + 计数刷新到当前库(2888/284;D1=60 D2=10 D3=6 D4=17 D6=40)
+
+pub commit: d644470 Phase37-X2: findings.json 自检脚本 + 补 H-SX-001 全 10 条 + 计数刷新（发布仓同步）
+
+
+$ cd /opt/data/release/Protreptic-publish && git status -sb
+## main...origin/main
+ M .github/workflows/ci-cd.yml
+ M .github/workflows/pages.yml
+ M tools/verify_source_links.py
+?? data/audit/credibility_baseline.json
+?? data/audit/source_links_baseline.json
+?? tools/credibility_baseline.py
+
+$ git fetch -q origin && git status -sb
+## main...origin/main
+ M .github/workflows/ci-cd.yml
+ M .github/workflows/pages.yml
+ M tools/verify_source_links.py
+?? data/audit/credibility_baseline.json
+?? data/audit/source_links_baseline.json
+?? tools/credibility_baseline.py
+
+
+$ sha256sum data/audit/findings.json    # dev / pub / origin raw
+726be6f4171d08ed253bed1170d056090cd2108471a4e08793b649e50c68abd6  dev
+726be6f4171d08ed253bed1170d056090cd2108471a4e08793b649e50c68abd6  pub
+726be6f4171d08ed253bed1170d056090cd2108471a4e08793b649e50c68abd6  origin raw read-back
+dev == pub == origin raw: True
+```
+
+The three data/tool files were copied byte-for-byte to the publish repo before committing
+(`cp` then `sha256sum` on both sides - see section 1). This report is committed in the next
+commit on top of the one above; the final `git status -sb` check (no [ahead N]) is recorded in
+the card completion metadata for `t_c39a6828`.
+
+## 8. Drift note for downstream QA
+
+Every count in findings.json is recomputed from data/modes_data.json, so the audit list is pinned to
+`modes_file_sha256 = bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb`.
+If a later card edits that library, run `python3 tools/build_audit_findings.py --write` and then
+`python3 tools/verify_findings.py` again: check E fails loudly on stale counts, which is exactly the
+defect QA6 raised against the previous findings.json.
+
+Snapshot of this run: 2026-09-19 22:37:04 
 
