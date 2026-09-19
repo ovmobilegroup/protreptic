@@ -23,9 +23,9 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 EXPECT_FIGURES = 1057
-# EXPECT_MODES 是「源去重口径」(与站点文案 / export_static_site.EXPECT_MODES 同口径);
-# 实际发布的摘要条数 = 2858 - 隔离名单条数, 见 meta.json 的 mode_summaries_published,
-# 由下面 check_data 的隔离门逐分片重算校验。
+# EXPECT_MODES 是「源去重口径」(与 export_static_site.EXPECT_MODES 同口径)，只用来校验
+# meta.json 与数据源是否同步；它**不是**站点文案口径 —— 站点文案/分享图用发布口径
+# mode_summaries_published = 2858 - 隔离名单条数，由下面 check_data 的隔离门逐分片重算校验。
 EXPECT_MODES = 2858
 EXPECT_BY_FIGURE = 283
 EXPECT_MODE_INDEX_SHARDS = 8

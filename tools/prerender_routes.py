@@ -53,16 +53,29 @@ SITE_NAME = "Protreptic 思想典藏"
 
 TEMPLATE_IDS = ["longzhong", "baidi", "chibi", "beifa", "jieting", "yiling", "changban"]
 
-STATIC_ROUTES = [
-    ("daily", "每日一模式 - 今日与历史归档", "每天按「日期对模式总数取模」选出一条思维模式: 同一天重复打开结果一致, 可回看任意历史日期."),
-    ("figures", "历史人物库 - 统一名录", "283 位历史人物 + 501 个现代场景, 统一检索入口."),
-    ("modes", "思维模式库 - 2858 条可执行方法", "2858 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话."),
-    ("templates", "复盘模板库 - 7 个历史案例工具", "把赤壁, 隆中对等 7 个历史经典案例转化为可直接套用的复盘模板."),
-    ("concepts", "概念索引 - 跨人物思想连接", "按模式档案的 key_concepts 聚合: 概念出现在哪些历史人物身上, 落在哪几条模式里."),
-    ("graph", "关系图谱 - 人物-模式-概念", "人物-模式-概念关系图谱: 本地力导向布局, 数据来自预计算图谱分片."),
-    ("compare", "跨人物对比 - 思维模式并排对照", "选 2-4 位历史人物或思维模式, 并排对照定义, 步骤, 出处与领域分布; 地址栏带选中项, 可直接分享."),
-    ("api", "API 文档", "Protreptic 静态数据与 API 说明."),
-]
+
+def static_routes(meta_counts: dict, unified_counts: dict) -> list:
+    """静态入口页的 title / description —— 计数一律从产物派生, 不写死。
+
+    写死过的教训: /modes 的 title 一直写着「2858 条」(/figures 那句写着「501 个现代场景」),
+    而实际发布的是 2848 条模式 / 1055 个场景 —— 数据涨了脚本没跟着变, 页面就在说谎。
+    口径与站点文案 (tools/apply_site_counts.py) 同源:
+        模式条数 = meta.json counts.mode_summaries_published (真正发布出去的摘要条数)
+        人物 / 场景 = index.unified.json counts.figures / counts.scenarios
+    """
+    modes = meta_counts.get("mode_summaries_published") or meta_counts.get("mode_summaries") or 0
+    persons = unified_counts.get("figures") or 0
+    scenarios = unified_counts.get("scenarios") or 0
+    return [
+        ("daily", "每日一模式 - 今日与历史归档", "每天按「日期对模式总数取模」选出一条思维模式: 同一天重复打开结果一致, 可回看任意历史日期."),
+        ("figures", "历史人物库 - 统一名录", "%d 位历史人物 + %d 个现代场景, 统一检索入口." % (persons, scenarios)),
+        ("modes", "思维模式库 - %d 条可执行方法" % modes, "%d 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话." % modes),
+        ("templates", "复盘模板库 - 7 个历史案例工具", "把赤壁, 隆中对等 7 个历史经典案例转化为可直接套用的复盘模板."),
+        ("concepts", "概念索引 - 跨人物思想连接", "按模式档案的 key_concepts 聚合: 概念出现在哪些历史人物身上, 落在哪几条模式里."),
+        ("graph", "关系图谱 - 人物-模式-概念", "人物-模式-概念关系图谱: 本地力导向布局, 数据来自预计算图谱分片."),
+        ("compare", "跨人物对比 - 思维模式并排对照", "选 2-4 位历史人物或思维模式, 并排对照定义, 步骤, 出处与领域分布; 地址栏带选中项, 可直接分享."),
+        ("api", "API 文档", "Protreptic 静态数据与 API 说明."),
+    ]
 
 TITLE_RE = re.compile(r"<title>.*?</title>", re.S)
 DESC_RE = re.compile(r'<meta name="description"\s*\n?\s*content="[^"]*"\s*/>', re.S)
@@ -101,11 +114,16 @@ def build_routes(dist: Path, base: str):
     if not unified_path.exists():
         sys.exit("[prerender] missing %s, run export_static_site.py + build_unified_index.py first" % unified_path)
 
+    meta_path = dist / "data" / "meta.json"
+    if not meta_path.exists():
+        sys.exit("[prerender] missing %s, run export_static_site.py first" % meta_path)
+
     unified = json.loads(unified_path.read_text(encoding="utf-8"))
+    meta_counts = (json.loads(meta_path.read_text(encoding="utf-8")).get("counts") or {})
     items = unified["items"]
     routes = []
 
-    for slug, title, desc in STATIC_ROUTES:
+    for slug, title, desc in static_routes(meta_counts, unified.get("counts") or {}):
         routes.append({"path": slug, "title": title, "description": desc, "type": "static"})
 
     for item in items:

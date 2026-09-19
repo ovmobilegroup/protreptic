@@ -192,7 +192,11 @@ def unified_counts(index: dict, meta: dict = None) -> dict:
     modes = 0
     if isinstance(meta, dict):
         counts = meta.get("counts") or {}
-        for key in ("modes_raw", "mode_summaries", "modes_deduped"):
+        # 站点口径 = 真正发布出去的模式摘要条数（modes/index-*.json 的合计）。
+        # modes_raw(2868) 是未去重的源记录；mode_summaries(2858) 里还含 10 条被隔离的
+        # 伪造模式（H-SX-001 M393-M402）—— 站上搜不到也打不开，不能拿它们当门面数字。
+        # 字段缺失时逐级回落，老产物仍能出图。
+        for key in ("mode_summaries_published", "mode_summaries", "modes_deduped", "modes_raw"):
             if counts.get(key):
                 modes = int(counts[key])
                 break

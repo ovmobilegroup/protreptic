@@ -513,8 +513,9 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     counts = {
         "figures": len(figures),
         "figure_shards": len(detail_stats),
-        # mode_summaries = 源去重口径 (2858)，与站内文案 / pages_preflight.EXPECT_MODES
-        # 同一口径；实际发布的摘要条数见 mode_summaries_published（扣掉隔离模式）。
+        # mode_summaries = 源去重口径 (2858)，与 pages_preflight.EXPECT_MODES / ci_data_check
+        # 同一口径（数据完整性门）。站点文案与分享图用的是**发布口径**，见
+        # mode_summaries_published（= 2858 - 隔离 10 条，也就是 modes/index-*.json 的合计）。
         "mode_summaries": len(modes),
         "mode_summaries_published": sum(s["count"] for s in shard_stats),
         "modes_quarantined": len(dropped_modes),

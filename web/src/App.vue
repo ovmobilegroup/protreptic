@@ -123,7 +123,7 @@ const isActive = (to: string) => route.path.startsWith(to)
             以史为鉴，知兴替；以人为鉴，明得失。
           </p>
           <p class="text-xs text-parchment/40">
-            Protreptic · 2858 条思维模式 × 283 位历史人物 · 中英双语
+            Protreptic · 2848 条思维模式 × 283 位历史人物 · 中英双语
           </p>
           <div class="mt-2 flex items-center gap-3 text-xs text-parchment/45">
             <a href="https://github.com/ovmobilegroup/protreptic" target="_blank" rel="noopener"

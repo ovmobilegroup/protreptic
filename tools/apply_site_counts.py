@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""apply_site_counts.py -- 首页 head 的"条数 × 人物数"口径收口（Phase32-F2）。
+"""apply_site_counts.py -- 首页 head 的"条数 × 人物数"口径收口（Phase32-F2 / Phase33-L1）。
 
 问题（真实事故，别重犯）
     web/index.html 把计数写死在 <meta name="description"> 与 <meta property="og:description"> 里。
@@ -9,10 +9,18 @@
 
 做法
     单一来源 = dist/data/meta.json（tools/export_static_site.py 的产物）：
-        条数    counts.mode_summaries         （与站内文案 / useSeo.ts 同口径：源去重后的条数）
+        条数    counts.mode_summaries_published （与站内文案 / useSeo.ts / tools/og_image.py
+                同口径：真正发布出去、站上能打开的模式摘要条数 = modes/index-*.json 的合计。
+                不是 modes_raw=2868（未去重的源记录数），也不是 mode_summaries=2858
+                （还含 10 条被隔离的伪造模式 H-SX-001 M393-M402，站上搜不到也打不开））
         人物数  counts.mode_by_figure_shards  （by-figure 分片数 = 人物数）
     文案模板与 web/src/composables/useSeo.ts 的 SEO_DEFAULT_DESCRIPTION 同构 ——
     同一个 URL 的静态 head 与 SPA 运行时 head 必须是同一句话，否则就是两份内容打架。
+
+    口径纪律（Phase33-L1）
+        同一个数字只允许有一个来源、一个取值：站点文案（description / og:description /
+        页脚 / hero / 列表页 / 预渲染的 title·description）与分享图（图内文案 + og:image:alt）
+        全部走 meta.json 的 counts.mode_summaries_published。哪里再写死 2868 / 2858 都是回归。
 
 运行时机
     必须在 prerender_routes.py 与 apply_og_meta.py 之后（这两步会重写 dist 里的 head）。
@@ -22,9 +30,9 @@
     2) dist/index.html 里两条 meta 各恰好一份，写完回读必须等于目标串
     3) 目标串必须能在 dist/assets/*.js 里找到（SPA 运行时用的是同一句，
        用计数的字符串做交叉校验；找不到说明两边文案已经分叉）
-    4) --dist 指向的页面里不允许残留旧口径的 meta（"…× 284 位历史人物"）
-    5) 若页面里还有别的「N 条思维模式」（如 og:image:alt —— 由 tools/og_image.py 用
-       modes_raw=2868 生成，与站点文案的 2858 口径不同）只提示不拦，见 Phase32-F2 遗留项
+    4) --dist 指向的页面里不允许残留旧口径的文案（2868 / 2858 条思维模式）
+    5) 页面里**任何**「N 条思维模式」都必须等于本站口径 —— 含 og:image:alt /
+       twitter:image:alt（由 tools/og_image.py 生成、与本站同源），出现第二个值直接非 0 退出
 
 用法
     python3 tools/apply_site_counts.py                    # 默认 web/dist
@@ -46,12 +54,13 @@ REPO = Path(__file__).resolve().parent.parent
 DESC_RE = re.compile(r'<meta name="description"\s*\n?\s*content="[^"]*"\s*/>')
 OGD_RE = re.compile(r'<meta property="og:description" content="[^"]*"\s*/>')
 
-# 旧 meta 的原样文本：命中即说明这两条 meta 没被覆写干净（2868=源原始条数，284=隔离前的分片数）
+# 旧口径的文案：命中即说明页面上还残留别的门面数字
+#   2868 = 源未去重条数；2858 = 源去重条数（含 10 条隔离的伪造模式 M393-M402）
 STALE_META_MARKERS = (
-    "2868 条思维模式 × 284 位历史人物",
-    "2858 条思维模式 × 284 位历史人物",
+    "2868 条思维模式",
+    "2858 条思维模式",
 )
-# 页面里任何「N 条思维模式」：站点文案口径之外的值只提示（og:image:alt 走 modes_raw）
+# 页面里任何「N 条思维模式」（含 og:image:alt）：必须只有一个值 = 本站口径
 MODES_RE = re.compile(r"(\d{3,5}) 条思维模式")
 
 
@@ -83,10 +92,10 @@ def main() -> int:
         fail("缺少 %s：先跑 cd web && VITE_DATA_MODE=static npm run build" % index_path)
 
     counts = json.loads(meta_path.read_text(encoding="utf-8")).get("counts") or {}
-    for key in ("mode_summaries", "mode_by_figure_shards"):
+    for key in ("mode_summaries_published", "mode_by_figure_shards"):
         if not isinstance(counts.get(key), int):
             fail("meta.json 的 counts.%s 不是整数: %r" % (key, counts.get(key)))
-    modes, figures = counts["mode_summaries"], counts["mode_by_figure_shards"]
+    modes, figures = counts["mode_summaries_published"], counts["mode_by_figure_shards"]
 
     want_desc = desc_text(modes, figures)
     want_ogd = og_desc_text(modes, figures)
@@ -129,12 +138,12 @@ def main() -> int:
     if stale:
         fail("dist/index.html 的 meta 仍残留旧口径: %s" % stale)
 
-    # 软提示：页面里别的计数口径（og:image:alt 来自 tools/og_image.py 的 modes_raw）
+    # 硬门：页面上任何「N 条思维模式」都必须是本站口径（og:image:alt 也走同一来源）
     other_modes = sorted({m for m in MODES_RE.findall(back) if m != str(modes)})
     if other_modes:
-        print("[counts] 提示: dist/index.html 里还有其它口径的条数 %s（站点文案口径 %d，"
-              "og:image:alt 由 tools/og_image.py 取 meta.json 的 modes_raw 生成）"
-              % (other_modes, modes))
+        fail("dist/index.html 里出现第二口径的条数 %s（本站口径 %d）：站点文案与分享图文案"
+             "必须同源（web/src/composables/useSeo.ts / tools/og_image.py::unified_counts）"
+             % (other_modes, modes))
 
     print("[counts] 首页计数已收口: %d 条模式 × %d 位人物 (来源 %s)" % (modes, figures, meta_path))
     return 0

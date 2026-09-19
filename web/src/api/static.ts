@@ -10,10 +10,10 @@
  *      使 stores/figures.ts 只需换一行导入即可切换数据源，其余逻辑零改动。
  *
  * 数据布局（web/public/data/）：
- *   figures.index.json       501 条轻量索引（code / name_zh / name_en / era / domains /
+ *   figures.index.json       1057 条轻量索引（code / name_zh / name_en / era / domains /
  *                            historical_domains / gender / ethnicity / n_modes）
- *   figures/{code}.json      501 个详情分片（含 description / reason / steps / expected / case / modes）
- *   modes/index-{0..7}.json  2858 条模式摘要（ModesView 用）
+ *   figures/{code}.json      1057 个详情分片（含 description / reason / steps / expected / case / modes）
+ *   modes/index-{0..7}.json  2848 条模式摘要（ModesView 用；= meta.json 的 mode_summaries_published）
  *   modes/by-figure/…        283 个「某人的 10 条模式」分片
  *   meta.json                条数与 sha256（供数据校验）
  *

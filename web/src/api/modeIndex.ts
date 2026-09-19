@@ -3,7 +3,7 @@
  *
  * 为什么单独一层：A5 的全文检索倒排索引只存 doc_id，而
  * 「doc_id = 该 mode 在 modes/index-0..7.json 按序拼接后的下标」（见
- * data/search/meta.json 的 doc_id_contract，共 2858 条）。/modes 本来就要拉这 8 片，
+ * data/search/meta.json 的 doc_id_contract，共 2848 条）。/modes 本来就要拉这 8 片，
  * /figures 的检索用同一份缓存把 doc_id 还原成「属于哪位人物」，两个视图共用一次网络请求。
  *
  * 注意：这个文件只做「加载 + 归一」，不做检索。索引里没有 mode_code，所以
@@ -27,9 +27,9 @@ export interface ModeIndexEntry {
 const CJK = /[\u3400-\u9fff\uf900-\ufaff]/
 
 /**
- * 汇总索引里的名称字段并不总是字符串：源 data/modes_data.json 有 574/2858 条把
+ * 汇总索引里的名称字段并不总是字符串：源 data/modes_data.json 里有一批记录把
  * name_zh / name_en 写成历史三元组 [中文, English, 分类]（与 thinking_modes 表的
- * 标量列不一致）。裸 String(数组) 会渲染成 "剪纸即兴法,Papercut-Improvisation Method,创作发生方法论/…"
+ * 标量列不一致；当前已发布的 2848 条摘要实测 0 条如此，归一逻辑保留以防旧分片回落）。裸 String(数组) 会渲染成 "剪纸即兴法,Papercut-Improvisation Method,创作发生方法论/…"
  * 串进 /modes 卡片、/graph 节点与下拉、/compare 名称——所以这里取第一个合适元素：
  * 中文名取首个含汉字项，英文名取首个不含汉字项（缺失时回落中文本名）。
  * 同一份数据还会被其它加载器读到；本层归一保证调用方永远拿到标量。

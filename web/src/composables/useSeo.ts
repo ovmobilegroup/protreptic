@@ -18,7 +18,7 @@ export const SEO_ORIGIN = 'https://ovmobilegroup.github.io'
 export const SEO_SITE_NAME = 'Protreptic 思想典藏'
 export const SEO_DEFAULT_TITLE = 'Protreptic · 思想典藏 — 历史人物思维模式库'
 export const SEO_DEFAULT_DESCRIPTION =
-  '2858 条思维模式 × 283 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。'
+  '2848 条思维模式 × 283 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。'
 
 /** 本模块注入的动态 JSON-LD 节点的 id，用来和预渲染写死的那个区分开 */
 const JSONLD_ID = 'pt-jsonld-dynamic'

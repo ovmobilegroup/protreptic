@@ -92,7 +92,7 @@ def write_json(path: Path, payload) -> None:
 def expected_total(data_dir: Path):
     """
     从 by-figure 分片直接计算预期模式总数 (这些分片已在 export 阶段排除了隔离人物)。
-    meta.json 的 mode_summaries 仍保留原始 2858，这里以实际分片为准。
+    meta.json 的 mode_summaries 仍保留源去重口径 2858，站点文案口径是 mode_summaries_published（2848），这里以实际分片为准。
     """
     shard_dir = data_dir / "modes" / "by-figure"
     if not shard_dir.is_dir():

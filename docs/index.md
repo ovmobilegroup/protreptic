@@ -1,9 +1,9 @@
 # Protreptic 思维模式库
 
-> **2868 条思维模式 · 284 位历史人物 · 中英双语**
+> **2848 条思维模式 · 283 位历史人物 · 中英双语**
 
-一座历史人物的思维方法库。从古今中外 284 位人物身上，各提炼出 10 条可操作的思维方法，
-共 2868 条，每条都有定义、操作步骤、出处、原话、史实案例与现代应用。
+一座历史人物的思维方法库。从古今中外 283 位人物身上提炼可操作的思维方法，站上发布的共 **2848 条**，
+每条都有定义、操作步骤、出处、原话、史实案例与现代应用。
 
 ---
 
@@ -63,8 +63,8 @@ python3 tools/figure_library.py -c 军事战略   # 按类目
 
 ## 数据
 
-- 核心资产：[`data/modes_data.json`](../data/modes_data.json)（2868 条模式）
-- 人物档案：[`data/figures/`](../data/figures)（284 位）
+- 核心资产：[`data/modes_data.json`](../data/modes_data.json)（站上发布的 2848 条模式）
+- 人物与场景档案：[`data/figures/`](../data/figures)
 - 人名映射：[`data/figure_names.json`](../data/figure_names.json)
 
 ---

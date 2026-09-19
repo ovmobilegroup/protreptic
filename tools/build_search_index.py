@@ -16,7 +16,7 @@ definition 做真正的倒排检索。
     web/public/data/search/meta.json                      条数 / 分片数 / 体积 / sha256 / 规格
 
 doc_id 契约（A0 定的，不要改）
-    doc_id = 该 mode 在 modes/index-0.json..index-7.json **按序拼接**后的下标（2858 条）。
+    doc_id = 该 mode 在 modes/index-0.json..index-7.json **按序拼接**后的下标（2848 条）。
     前端为 /modes 本来就要拉这 8 个分片并拼接，因此拿到 doc_id 可直接查表取
     mode_code / figure_code / figure_name / name / category / domain 用于展示，
     所以 **不需要下发词典文件**（单独一份 5 字段词典实测 194 KB gzip，会击穿预算）。

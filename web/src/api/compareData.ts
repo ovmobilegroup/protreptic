@@ -3,7 +3,7 @@
  *
  * 只读既有静态分片：
  *   data/index.unified.json       统一名录（这里只取 type==='figure'：姓名、时代）
- *   data/modes/index-0..7.json    2858 条模式摘要（api/modeIndex.ts 的共享缓存；用于把 mode_code 反查回人物）
+ *   data/modes/index-0..7.json    2848 条模式摘要（api/modeIndex.ts 的共享缓存；用于把 mode_code 反查回人物）
  *   data/modes/by-figure/*.json   283 个「某人的 N 条模式」分片 —— 唯一带 definition/process/source/key_concepts 的来源
  *
  * 实测事实（别想当然）：
@@ -73,8 +73,8 @@ export interface CompareResolveResult {
 const CJK_RE = /[\u3400-\u9fff\uf900-\ufaff]/
 
 /**
- * name_zh / name_en 在历史数据里可能是三元组 [中文, English, 分类]（574/2858 条，
- * 见 api/modeIndex.ts 的同名说明）。text() 会把数组用空格连成
+ * name_zh / name_en 在历史数据里可能是三元组 [中文, English, 分类]（见 api/modeIndex.ts
+ * 的同名说明；当前已发布的摘要索引实测无此情况）。text() 会把数组用空格连成
  * "剪纸即兴法 Papercut-Improvisation Method 创作发生方法论/…" 直接印在对比表上，
  * 所以名称类字段走这里：中文取首个含汉字项，英文取首个不含汉字项。
  */
