@@ -1,0 +1,24 @@
+{
+  "schema": "protreptic.findings_baseline/v1",
+  "generated_at": "2026-09-19T15:20:44+00:00",
+  "generated_by": "tools/verify_findings.py --write-baseline",
+  "policy": "存量冻结、新增即拦：本文件登记的 findings 硬失败只报告不阻断（exit 0）；任何未登记的硬失败在 --hard-fail 下 exit 1；计数过期（E 类）只算警告，不进本文件",
+  "data_path": "data/modes_data.json",
+  "data_sha256": "bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb",
+  "findings_path": "data/audit/findings.json",
+  "findings_sha256": "726be6f4171d08ed253bed1170d056090cd2108471a4e08793b649e50c68abd6",
+  "counts": {
+    "total": 0,
+    "distinct_fingerprints": 0,
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0
+  },
+  "non_blocking_at_freeze": {
+    "warnings": 1,
+    "stale_counts": 0,
+    "note": "计数过期(E)与非 E 警告都不阻断；E 的刷新命令见 STALE_HINT"
+  },
+  "entries": []
+}

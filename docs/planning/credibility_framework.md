@@ -186,3 +186,55 @@ python3 tools/test_credibility_gate.py
   它的语义由两个自测守护：`tools/test_credibility_gate.py`（D3 豁免两方向）与
   `tools/test_credibility_gate_modes.py`（两档七项）。
 - CI 接线与两次真实 run 的原始证据：见 `docs/qa/phase37_x3_ci_gate.md`。
+
+---
+
+## 8. findings.json 自检接进 CI 的两档口径（Phase37-X5）
+
+`tools/verify_findings.py`（Phase37-X2 入库）此前**未接进任何 workflow**：它天然是「新增即拦」
+语义，且把 `findings.json` 的 summary 与**现算**库对照，`data/modes_data.json` 一变（sha256 变）
+就报「过期」—— 照抄接进 CI 会制造新一轮存量红（Phase37-X3 §9.2 已如实记录）。本节定口径。
+
+### 8.1 两档（与 `credibility_gate.py` 同构）
+
+| 档位 | 语义 | 退出码 |
+|---|---|---|
+| `--legacy-report` | 存量（基线内）+ 新增都逐条列出，只报告不阻断 | 恒 `0` |
+| `--hard-fail` | 基线内只报告（`::notice::LEGACY`）；**基线外任何一条硬失败** | 无新增 `0` / 有新增 `1` / 基线缺失 `2` |
+| `--write-baseline` | 用当前硬失败重新冻结基线（改基线必须显式跑） | `0` |
+
+- 基线文件：`data/audit/findings_baseline.json`（入库，两仓字节一致），记录冻结时的
+  `data_sha256` / `findings_sha256` 与指纹计数。**冻结当时源库无存量硬失败（0 条）**，
+  故本文件 `entries` 为空 —— 这不是「没接」，而是「当前没有可冻结的存量债务」；
+  机制在位且 fail-closed：基线缺失时 `--hard-fail` 直接 `exit 2`，不静默放行。
+  将来若出现可接受的历史遗留（迁移期、一次性放宽），必须显式跑 `--write-baseline` 并在报告说明。
+- **指纹 = `规则|规则内稳定键`**：A 结构 → 归一化消息（下标 + 字段名）；B 不存在 →
+  `mode_code=值` / `figure_code=值`；C 锚点 → 归一化消息（**引号内的值被抹掉**，改锚点文字不产生
+  假新增）；D 自洽 → `summary.字段名`。含义：**改存量条目的说明文字不误报**，
+  而**新的失效引用 / 新的结构缺陷 / 新的自洽缺陷**必拦。
+- `--data-path` 的完整语义与 gate 一致：由 `<root>/data/modes_data.json` 反推 root，
+  默认基线取**同一仓**的 `data/audit/findings_baseline.json`。
+- 基线里的路径一律写**仓内相对路径**（`data/modes_data.json`），保证 dev/pub 两仓字节一致。
+
+### 8.2 「计数过期」（E 类）的归属：**警告，不是新增违规**（本卡决策）
+
+`verify_findings.py` 的 A-D 是**清单自身**的硬失败（结构 / code 存在性 / 锚点可定位 / 计数自洽），
+E 是**清单新鲜度**（summary 与现算库是否一致）。归属决策与理由：
+
+| 归属 | 后果 | 判定 |
+|---|---|---|
+| 算新增违规（红） | `modes_data.json` 每次数据更新 sha256 都变，summary 必然过期，于是**每次数据改动都红**，并强迫每次无关数据提交都额外刷新 findings 才能绿 | 否决 |
+| **算警告（不红）** | CI 只打印 `::warning::计数过期(E) ... 刷新：python3 tools/build_audit_findings.py --write`，坏数据仍由 `credibility_gate --hard-fail` 拦 | **采用** |
+
+一句话：**坏数据归 credibility_gate，清单新鲜度归人**。E 的作用是提示刷新，不是拦人；
+真正拦人的是 A-D（清单说谎：引用了不存在的 code、锚点在库里找不到）。
+
+### 8.3 CI 接线位置
+
+- 只接**发布仓** `ci-cd.yml` 的 `test` job（与 X3 的可信度门 / 链接核验相邻）：
+  `python3 tools/verify_findings.py --hard-fail --data-path data/modes_data.json`。
+- **不动** `pages.yml`：发布链已由 X3 的两道门守住，多一道「过期判定」会把部署打红
+  —— 这正是本卡要避免的事故模式。
+- 负对照不能当 CI 步骤（成功语义 = `exit 1`），其语义由 `tools/test_verify_findings_modes.py`
+  八项守护（含「注入不存在 code 必红」「基线缺失 exit 2」「计数过期只警告不红」）。
+- 原始证据（本地命令 + 真实 CI run）见 `docs/qa/phase37_x5_findings_ci.md`。

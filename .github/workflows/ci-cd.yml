@@ -49,6 +49,20 @@ jobs:
             echo "::notice::tools/test_credibility_gate.py 尚未入库，本步跳过（Phase37-X1 落地后自动生效）"
           fi
 
+      # ---- Phase37-X5：findings.json 自检（存量冻结 / 新增即拦）----
+      # 口径见 docs/planning/credibility_framework.md §8：
+      #   硬失败 A-D（清单自身：结构 / code 存在性 / 锚点可定位 / 计数自洽）基线内只报告、基线外必红；
+      #   E 类「计数过期」（summary 与现算库不符）只算警告 —— data/modes_data.json 每次数据更新
+      #   sha256 都会变，算红就会「每次数据改动都红」，并强迫每次无关数据提交额外刷新 findings。
+      # 只在本 workflow 接（发布链 pages.yml 不动：多一道过期判定会把部署打红）。
+      - name: findings 自检 · 新增硬失败必红
+        run: python3 tools/verify_findings.py --hard-fail --data-path data/modes_data.json
+
+      # 负对照不能当 CI 步骤（注入不存在 code 的成功语义就是 exit 1），由八项自测守护：
+      # 干净态 exit 0 / 注入必红 / 移除复绿 / 基线缺失 exit 2 / 存量不阻断 / 计数过期只警告。
+      - name: findings 自检 · 两档八项（含计数过期只警告）
+        run: python3 tools/test_verify_findings_modes.py
+
       - name: Install Python dependencies
         run: |
           cd api
