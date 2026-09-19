@@ -291,3 +291,57 @@ run `name` 均为真实 workflow 名（不是文件路径），jobs 数均 > 0 �
 - 独立扫描结果（JSON）：`/tmp/qa4_scan.json`
 - 线上 docs 页原文：`/tmp/figlib.html` / `/tmp/figlib.txt`
 - Python 侧环境：`/tmp/qa4venv`（CPython 3.12.13 + pillow + fonttools）
+
+### 5.3 本报告自身的提交（head `732826f`）——推送后再跑一遍四个 workflow
+
+本报告落盘后提交并 `git push origin main`（输出见下），该提交触碰 `docs/**`，按 `pages.yml`
+的 `paths` 过滤**会再触发一次真实部署**；QA4 因此对**报告自身的 head** 又复验了一轮：
+
+```bash
+cd /opt/data/release/Protreptic-publish
+git push origin main
+# To https://github.com/ovmobilegroup/protreptic.git
+#    4911a21..732826f  main -> main
+git status -sb        # ## main...origin/main        ← 无 [ahead N]
+git fetch origin -q
+git rev-list --count origin/main..HEAD   # 0
+git rev-list --count HEAD..origin/main   # 0
+```
+
+```text
+35419096873  Deploy to GitHub Pages  success  event=push          sha=732826fd   jobcount=2
+    - 构建 SPA + 文档站: success
+    - 部署: success
+35419096827  CI                     success  event=push          sha=732826fd   jobcount=1
+    - markdown-lint: success
+35419096861  Protreptic CI/CD        success  event=push          sha=732826fd   jobcount=6
+    - Test (Python + TypeScript): success
+    - Build API Docker Image: success
+    - Build Web Docker Image: success
+    - Notify: success
+    - Deploy to Production: skipped
+    - Deploy to Staging: skipped
+35419380604  Quality Gate           success  event=workflow_run  sha=732826fd   jobcount=3
+    - 数据校验 (schema + sitemap 一致性): success
+    - Lighthouse 预算门: success
+    - 线上死链检测 (sitemap + 站内链接): success
+```
+
+### 5.4 重新部署后的线上一手回读（head `732826f` 部署完成之后）
+
+```text
+/manifest.webmanifest:       bytes=1421   '2848 条思维模式'×1  '283 位历史人物'×1  2858×0  2868×0  284 位×0
+/manifest-light.webmanifest: bytes=1421   '2848 条思维模式'×1  '283 位历史人物'×1  2858×0  2868×0  284 位×0
+/                           bytes=3680   '2848 条思维模式'×4  '283 位历史人物'×4  2858×0  2868×0  284 位×0
+/modes/                     bytes=17110  '2848 条思维模式'×1  '283 位历史人物'×0  2858×0  2868×0  284 位×0
+/docs/02-tools/figure_library/ bytes=158899  '2858 条思维模式'×0  '2848 条思维模式'×2  2868×4  284 位×3
+data/meta.json: counts.mode_summaries_published=2848, counts.mode_by_figure_shards=283
+```
+
+即：**重新部署之后**（不是依赖上一次部署的残留），manifest ×2、首页 head、/modes hero、
+docs 工具页仍然全部是站点口径；docs 页 2868（4 处）/284 位（3 处）依旧全部落在
+「源库 / 原始记录」标注行内，无门面旧值。
+
+本报告追加本节后再次提交会再触发一次同样的部署链（`docs/**` 在 `pages.yml` 的 `paths` 里），
+其结论与 §5.3 同构：计数收口硬门 `tools/apply_site_counts.py` 仍在流水线内，
+且本次卡片的交接 metadata 里记录了该最终 head 的四个 run 结论。
