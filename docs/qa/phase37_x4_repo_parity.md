@@ -156,8 +156,8 @@ EXIT=2
 
 | 仓 | commit | 内容 | push | `git status -sb` |
 |---|---|---|---|---|
-| publish | （见下「最终验证」节） | 32 个 docs 保持发布仓版本 + `docs/figures/CD-CD-001_朝代人物档案.md` 新增 + `tools/check_repo_parity.py` + §9 + 本报告 | `origin main` | 无 `[ahead N]` |
-| workspace | （见下） | 34 个 docs 回灌 + `tools/check_repo_parity.py` + §9 + 本报告 | 无 upstream（`master` 为本地开发分支，远端只有 `refs/heads/main`，实测 `git ls-remote origin` 仅 HEAD/main） | `## master`（无 upstream 标记） |
+| publish | `7629f9e` | 32 个 docs 保持发布仓版本 + `docs/figures/CD-CD-001_朝代人物档案.md` 新增 + `tools/check_repo_parity.py` + §9 + 本报告 | `d25d4a7..7629f9e  main -> main` | `## main...origin/main`（**无 `[ahead N]`**，`rev-parse HEAD == origin/main`） |
+| workspace | `a6e183ce` | 34 个 docs 回灌 + `docs/index.md` + `docs/_config.yml` + `tools/check_repo_parity.py` + §9 + 本报告 | 无 upstream（`master` 为本地开发分支，远端只有 `refs/heads/main`，实测 `git ls-remote origin` 仅 HEAD/main；X3/X5 亦同） | `## master`（无 upstream 标记） |
 
 说明：workspace 的 `master` **没有也不打算 push**（远端只有 `main` 一条分支；X3/X5 亦同）。
 本卡纪律「push 后无 [ahead N]」在 **发布仓 main** 上验证。
@@ -177,3 +177,36 @@ EXIT=2
    34 个 md 单独实测：`npx --yes markdownlint-cli2@0.11.0 --config .markdownlint.json <34 个文件>` →
    `Linting: 31 file(s)`（`docs/figures/**` 被配置排除）、**`Summary: 0 error(s)`** —— 没新增 lint 债。
    没去改别人的**证据文档**（原始输出里的空格属证据，第三方不宜代改）。
+
+## 9. 最终验证（真实 CI run + 线上回读）
+
+push `7629f9e`（发布仓 main）触发的 GitHub Actions（`api.github.com/repos/ovmobilegroup/protreptic/actions/runs` 读回）：
+
+| run id | 工作流 | 结论 | 关键步骤 |
+|---|---|---|---|
+| 35451940858 | Deploy to GitHub Pages | **success** | build job **32 步全绿**（可信度门两档 → 链接核验两档 → 重建 db → export → 计数模块 → 每日索引 → data 断言 → 检索/图谱/统一索引 → SPA 构建 → dist 断言 → og 图 → 预渲染 → og meta → 计数收口 → sw → sitemap → **mkdocs 文档站** → 合并 SPA+docs → 产物断言）；deploy job success |
+| 35451940861 | Protreptic CI/CD | **success** | test job 15 步全绿（可信度门·新增违规必红、链接核验·新增坏链必红、负对照自测、findings 两档自检）；API / Web 镜像构建 success |
+| 35452121048 | Quality Gate | **success** | workflow_run 触发 |
+| 35451940887 | CI（markdown-lint） | failure | **存量红，非本卡引入**：本地同版本复现同一结论（仅 `docs/qa/phase37_x2_evidence.md` 两条：`:9:16` MD038、`:378:42` MD009）；本卡 34 个 md 单独 lint = `Summary: 0 error(s)`。该红在 `d25d4a7` / `9235ba6` / `7d6af41` 上同样存在 |
+
+线上回读（原始命令与输出）：
+
+```
+$ curl -s -o /dev/null -w "%{http_code} %{size_download}\n" -L <url>
+https://ovmobilegroup.github.io/protreptic/                                200 4373
+https://ovmobilegroup.github.io/protreptic/docs/                           200 166640   # 文档站首页（<title>Protreptic · 思想典藏</title>）
+https://ovmobilegroup.github.io/protreptic/docs/figures/CD-CD-001_%E6%9C%9D%E4%BB%A3%E4%BA%BA%E7%89%A9%E6%A1%A3%E6%A1%88/   200 187395   # 本次新上线的归档档案页 = 反向同步生效
+https://ovmobilegroup.github.io/protreptic/minds/H-P23F-001/               404 4340     # 伪人物深链仍 404（未回退）
+https://ovmobilegroup.github.io/protreptic/figures/                        200 16968
+https://ovmobilegroup.github.io/protreptic/data/meta.json                  200 3115
+```
+
+计数仍成立（线上 `/data/meta.json`，`generated_at = 2026-09-19T15:29:28+00:00` = 本次构建现场）：
+
+```
+mode_summaries_published: 2798      mode_by_figure_shards: 278
+modes_raw: 2868                     modes_deduped: 2858      modes_quarantined: 60
+sources["data/modes_data.json"].sha256 = bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb   # 与 X1 记录一致
+```
+
+机检在最终状态下重跑（两仓各跑一次）：`[OK] 零差异：1308 个构建图文件两仓逐字节一致（sha256）`，退出码 0。
