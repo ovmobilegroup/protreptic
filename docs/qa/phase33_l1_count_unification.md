@@ -184,3 +184,71 @@ python3 tools/pages_preflight.py --stage dist        # 注意: 该断言按 CI �
 grep -rn "2858\|2868" web/src web/index.html   # 站点文案应零命中（注释里的旧口径也已清）
 python3 tools/build_og_images.py --only site         # 重画 og/site.png 后再用视觉模型读一遍
 ```
+
+## 附录 A（部署后线上回读 · 2026-09-19）
+
+### A.1 push 与部署
+
+```console
+$ cd /opt/data/release/Protreptic-publish && git -c credential.helper=/tmp/l1helper.sh push origin main
+To https://github.com/ovmobilegroup/protreptic.git
+   b40cbc3..f5a8a34  main -> main
+
+$ git -C /opt/data/release/Protreptic-publish status -sb
+## main...origin/main                      ← 无 [ahead N]
+
+$ HOME=/opt/data/home /opt/data/home/.local/bin/gh run list --repo ovmobilegroup/protreptic --limit 4
+completed  success  fix(counts): 统一「思维模式数」口径到发布条数 2848（Phase33-L1）  CI                       main  push  35412591398  12s
+completed  success  fix(counts): 统一「思维模式数」口径到发布条数 2848（Phase33-L1）  Deploy to GitHub Pages   main  push  35412591233  3m55s
+```
+
+### A.2 线上 head 回读（curl 实际输出）
+
+```console
+$ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -o '<meta[^>]*description[^>]*>'
+<meta name="description" content="2848 条思维模式 × 283 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。" />
+<meta property="og:description" content="2848 条思维模式 × 283 位历史人物 · 中英双语" />
+$ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -o '<meta[^>]*image:alt[^>]*>'
+<meta property="og:image:alt" content="Protreptic 思想典藏 — 2848 条思维模式 × 283 位历史人物" />
+<meta name="twitter:image:alt" content="Protreptic 思想典藏 — 2848 条思维模式 × 283 位历史人物" />
+$ curl -sL https://ovmobilegroup.github.io/protreptic/modes/ | grep -o '<title>[^<]*</title>'
+<title>思维模式库 - 2848 条可执行方法 | Protreptic 思想典藏</title>
+$ curl -sL https://ovmobilegroup.github.io/protreptic/modes/ | grep -o '<meta name="description" content="[^"]*"'
+<meta name="description" content="2848 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话."
+$ curl -sL https://ovmobilegroup.github.io/protreptic/figures/ | grep -o '<meta name="description" content="[^"]*"'
+<meta name="description" content="283 位历史人物 + 1055 个现代场景, 统一检索入口."
+$ curl -sL https://ovmobilegroup.github.io/protreptic/docs/ | grep -o '<meta name="description"[^>]*>'
+<meta name="description" content="Protreptic · 思想典藏 —— 2848 条历史人物思维模式 × 283 位人物 · 中英双语">
+$ JS=/protreptic/assets/index-zl7fpKWT.js
+$ curl -sL https://ovmobilegroup.github.io$JS | grep -o "2848 条思维模式 × 283 位历史人物 · 中英双语"
+2848 条思维模式 × 283 位历史人物 · 中英双语      # 页脚
+$ curl -sL https://ovmobilegroup.github.io$JS | grep -o "One mode a day out of [0-9]*"
+One mode a day out of 2848                        # /daily hero
+```
+
+### A.3 线上分享图（部署产物，不是本地文件）
+
+```console
+$ curl -sL https://ovmobilegroup.github.io/protreptic/og/site.png -o /tmp/live_site_og.png
+$ ls -la /tmp/live_site_og.png
+-rw-r--r-- 1 hermes hermes 32676 Sep 19 09:32 /tmp/live_site_og.png
+$ sha256sum /tmp/live_site_og.png web/dist/og/site.png
+96ede786505301369af208ec1a9c932118ca63ea6be5852b3e8a61a3af9b9fe0  /tmp/live_site_og.png
+96ede786505301369af208ec1a9c932118ca63ea6be5852b3e8a61a3af9b9fe0  web/dist/og/site.png
+# 线上文件与本地构建产物逐字节相同（32676 B）—— 线上分享图确实是重画后的那张
+```
+
+用视觉模型读**线上**这张图（`vision_analyze /tmp/live_site_og.png`），逐字转录：
+
+```text
+PROTREPTIC · 思想典藏 / 思想典藏 · Archive of Minds
+Protreptic 思想典藏
+历史人物思维模式库 · 中英双语
+2848 条思维模式   283 位历史人物   1055 个现代场景
+每条都有出处、操作步骤与现代应用。以人为鉴，明得失。
+ovmobilegroup.github.io/protreptic
+```
+
+结论：门面数字在 首页 head / og:image:alt / twitter:image:alt / 分享图图内文字 /
+/modes·/figures 预渲染 head / 页脚 / /daily hero / /api 文档 / docs 站 meta
+九处全部是 **2848 条模式 × 283 位人物（+1055 个场景）**，只有一个口径。
