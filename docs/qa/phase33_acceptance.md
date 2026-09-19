@@ -396,3 +396,42 @@ PROTREPTIC · 思想典藏 / 思想典藏 · Archive of Minds / Protreptic 思�
 历史人物思维模式库 · 中英双语 / 2848 条思维模式 / 283 位历史人物 / 1055 个现代场景 /
 每条都有出处、操作步骤与现代应用。以人为鉴，明得失。 / ovmobilegroup.github.io/protreptic / 思
 ```
+
+---
+
+## 附录 B · 本报告自身的 CI 实况（提交 `6f6d972`）
+
+本报告落盘 → 推送到发布仓 `main` 后，同一提交上四个 workflow 的实况（自取自 gh api）：
+
+```console
+$ git -C /opt/data/release/Protreptic-publish status -sb
+## main...origin/main                     # 无 [ahead N] → ahead=0 behind=0
+$ git -C /opt/data/release/Protreptic-publish rev-list --left-right --count origin/main...HEAD
+0 0     # 左＝origin/main 领先数，右＝HEAD 领先数
+
+$ gh run list --repo ovmobilegroup/protreptic --limit 6   # headSha = 6f6d972
+Quality Gate           35415794772 success   3 jobs: 数据校验 / Lighthouse 预算门 / 线上死链检测
+Protreptic CI/CD       35415578174 success   6 jobs: Test(Python+TS) / Build API Docker / Build Web Docker /
+                                                    Notify 全 success；Deploy to Staging / Production skipped（条件未命中，预期）
+CI                     35415578135 success   1 job : markdown-lint
+Deploy to GitHub Pages 35415578125 success   2 jobs: 构建 SPA + 文档站 / 部署
+```
+
+本报告页面线上可读（渲染非空，标题与关键 sha256 均命中）：
+
+```console
+$ 线上回读 https://ovmobilegroup.github.io/protreptic/docs/qa/phase33_acceptance/
+http 200 bytes 215588
+title: Phase33 独立复验（QA3）· L1 / L2 / L3 逐项实测 - Protreptic · 思想典藏
+contains "Phase33 独立复验"                                  -> True
+contains "不可发布（FAIL）"                                  -> True
+contains "96ede786505301369af208ec1a9c932118ca63ea…"        -> True
+contains "088a99a10476986524d84f7886bfb1dd981f93d…"        -> True
+```
+
+提交前本地 Markdown 预检（与 CI 同工具同配置）：
+
+```console
+$ npx --yes markdownlint-cli2 'docs/qa/phase33_acceptance.md'
+Summary: 0 issues in 0 files
+```
