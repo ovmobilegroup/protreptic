@@ -22,7 +22,9 @@
     2) dist/index.html 里两条 meta 各恰好一份，写完回读必须等于目标串
     3) 目标串必须能在 dist/assets/*.js 里找到（SPA 运行时用的是同一句，
        用计数的字符串做交叉校验；找不到说明两边文案已经分叉）
-    4) --dist 指向的页面里不允许残留旧口径 2868 条 / 284 位
+    4) --dist 指向的页面里不允许残留旧口径的 meta（"…× 284 位历史人物"）
+    5) 若页面里还有别的「N 条思维模式」（如 og:image:alt —— 由 tools/og_image.py 用
+       modes_raw=2868 生成，与站点文案的 2858 口径不同）只提示不拦，见 Phase32-F2 遗留项
 
 用法
     python3 tools/apply_site_counts.py                    # 默认 web/dist
@@ -44,7 +46,13 @@ REPO = Path(__file__).resolve().parent.parent
 DESC_RE = re.compile(r'<meta name="description"\s*\n?\s*content="[^"]*"\s*/>')
 OGD_RE = re.compile(r'<meta property="og:description" content="[^"]*"\s*/>')
 
-STALE_MARKERS = ("2868 条思维模式", "284 位历史人物")
+# 旧 meta 的原样文本：命中即说明这两条 meta 没被覆写干净（2868=源原始条数，284=隔离前的分片数）
+STALE_META_MARKERS = (
+    "2868 条思维模式 × 284 位历史人物",
+    "2858 条思维模式 × 284 位历史人物",
+)
+# 页面里任何「N 条思维模式」：站点文案口径之外的值只提示（og:image:alt 走 modes_raw）
+MODES_RE = re.compile(r"(\d{3,5}) 条思维模式")
 
 
 def desc_text(modes: int, figures: int) -> str:
@@ -117,9 +125,16 @@ def main() -> int:
             fail("dist/assets/*.js 里找不到 %s 目标串 %r：静态 head 与 SPA 运行时文案已分叉"
                  "（见 web/src/composables/useSeo.ts）" % (label, want))
 
-    stale = [m for m in STALE_MARKERS if m in back]
+    stale = [m for m in STALE_META_MARKERS if m in back]
     if stale:
-        fail("dist/index.html 仍残留旧口径: %s" % stale)
+        fail("dist/index.html 的 meta 仍残留旧口径: %s" % stale)
+
+    # 软提示：页面里别的计数口径（og:image:alt 来自 tools/og_image.py 的 modes_raw）
+    other_modes = sorted({m for m in MODES_RE.findall(back) if m != str(modes)})
+    if other_modes:
+        print("[counts] 提示: dist/index.html 里还有其它口径的条数 %s（站点文案口径 %d，"
+              "og:image:alt 由 tools/og_image.py 取 meta.json 的 modes_raw 生成）"
+              % (other_modes, modes))
 
     print("[counts] 首页计数已收口: %d 条模式 × %d 位人物 (来源 %s)" % (modes, figures, meta_path))
     return 0
