@@ -31,6 +31,7 @@
 | **D1** | 伪人物 | `figure_code` 对应实体非真实历史人物（阶段标签 / 流程名 / 占位符） | 出库 + 隔离 |
 | **D2** | 伪造出处 | 书名不存在于任何权威目录；或自引伪造（《X氏子》型） | 隔离 + 复核 |
 | **D3** | 出处污染 | `source_chapter` 含工程痕迹：`sha256` / commit 哈希 / 脚本名 / `双镜像` / `qa_postmerge` / 工作树叙述 | 重写或隔离 |
+| | | **豁免条款**：已隔离（D1）的伪人物 figure 允许保留源库工程痕迹，以导出期过滤为准。豁免名单：`H-P23F-001`、`P24F`、`P25F`、`P26F`、`Phase27Final`。机检方式：D3 gate 跳过 quarantined figure 的模式，仅对公开人物进行 source_chapter 扫描。 |
 | **D4** | 引文不符 | `key_quote_zh` 文本不出现于所标出处的原文 | 复核 |
 | **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年） | 复核 |
 | **D6** | 悬空引用 | `cross_references` / `related_modes` 指向不存在的 `mode_code` | 自动修 |
@@ -92,7 +93,8 @@
 tools/credibility_gate.py：
   D1 伪人物      → 硬 FAIL（新增即拦）
   D2 伪造出处    → 硬 FAIL
-  D3 出处污染    → 硬 FAIL（正则扫描 source_chapter）
+  D3 出处污染    → 硬 FAIL（正则扫描 source_chapter，**豁免已隔离 figure**）
+  | | *豁免逻辑*：跳过 quarantined figure（H-P23F-001/P24F/P25F/P26F/Phase27Final）的模式，仅对公开人物扫描
   D6 悬空引用    → 硬 FAIL
   D4/D5         → WARN（写审计清单，不阻断）
 ```
