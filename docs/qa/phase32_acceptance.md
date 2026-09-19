@@ -113,6 +113,7 @@ index total == published: True
 ```
 
 外加两条独立交叉校验：
+
 - 线上 `meta.json` 记的源 `data/modes_data.json` sha256 = `cc43a609011a…`，与工作区/发布仓
   `data/modes_data.json` 实际 sha256 `cc43a609011a…` **一致** —— 线上数据确实由当前源导出。
 - 线上 `data/search/meta.json` 记的 16 个 `.bin` sha256，与我下载到的文件**逐片一致**（无输出=全一致），
