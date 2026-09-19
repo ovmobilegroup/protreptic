@@ -7,7 +7,7 @@ import { SEO_ORIGIN, buildJsonLd, setSeo, truncateSeo } from '../composables/use
 
 const route = useRoute()
 const router = useRouter()
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 const raw = ref('')
 const loading = ref(true)
@@ -76,6 +76,7 @@ const load = async () => {
   }
   loading.value = false
   if (!notFound.value) applySeo()
+  syncPrintFooter()
 }
 
 onMounted(load)
@@ -112,6 +113,29 @@ const printUrl = computed(() => {
   const id = String(route.params.id || '')
   return `${SEO_ORIGIN}${import.meta.env.BASE_URL}templates/${id}/`
 })
+
+/* Phase32-F2 · 打印页脚改由 @page 的 bottom-center 边距盒绘制（实测数据见 style.css）。
+   旧的 .pt-print-only + position: fixed 在 Chrome 里以「正文框」为基准定位：页脚落在正文框内
+   且与正文同一 y 带（字形重叠），负 bottom 会被推到下一页顶部 —— fixed 叠层做不到"纸面页脚"。
+   边距盒的 content 只能是静态字符串，所以这里按当前模板生成一条 id 固定的全局 <style>，
+   覆写 style.css 里那条占位串；页码由 style.css 的 @bottom-right 计数器负责。 */
+const PRINT_FOOT_STYLE_ID = 'pt-print-page-foot'
+
+const syncPrintFooter = () => {
+  const id = String(route.params.id || '').toUpperCase()
+  // 双引号会截断 CSS 字符串（id 来自路由参数、URL 来自 BASE_URL）：先剔除再用
+  const text = `Protreptic · ${t('复盘模板', 'Review template')} ${id} · ${printUrl.value}`.replace(/"/g, '')
+  let el = document.getElementById(PRINT_FOOT_STYLE_ID) as HTMLStyleElement | null
+  if (!el) {
+    el = document.createElement('style')
+    el.id = PRINT_FOOT_STYLE_ID
+    document.head.appendChild(el)
+  }
+  el.textContent = `@media print{@page{@bottom-center{content:"${text}"}}}`
+}
+
+// 语言切换后页脚文案要跟着换（t() 读的是模块级 locale，不是响应式参数）
+watch(locale, syncPrintFooter)
 </script>
 
 <template>
@@ -162,15 +186,12 @@ const printUrl = computed(() => {
             <span class="pt-code ml-1">{{ sizeLabel }}</span>
           </button>
           <span class="text-xs leading-relaxed text-parchment/40">
-            {{ t('导出 PDF 走浏览器打印：目标选“另存为 PDF”，勾选“页眉和页脚”即可带页码。',
-                 'PDF export uses the browser print dialog: choose “Save as PDF”; enable headers & footers for page numbers.') }}
+            {{ t('导出 PDF 走浏览器打印：目标选“另存为 PDF”，边距保持默认 —— 页脚与页码由页面自身的打印样式给出，不要勾选“页眉和页脚”，否则两行会叠在纸面同一处。',
+                 'PDF export uses the browser print dialog: choose “Save as PDF” and keep the default margins — the footer and page numbers come from the page stylesheet, so leave headers & footers off to avoid double lines.') }}
           </span>
         </div>
       </header>
 
-      <div class="pt-print-only border-b border-white/[0.08] px-7 pb-3 pt-5 text-xs text-parchment/60 sm:px-10">
-        Protreptic · {{ t('复盘模板', 'Review template') }} {{ String(route.params.id || '').toUpperCase() }} · {{ printUrl }}
-      </div>
       <div class="pt-prose px-7 py-8 sm:px-10 sm:py-10" v-html="html"></div>
     </article>
   </div>

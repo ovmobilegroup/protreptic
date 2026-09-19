@@ -160,6 +160,15 @@ jobs:
       - name: 写入 og:image / twitter:image
         run: python3 tools/apply_og_meta.py
 
+      # Step B2.7: 首页计数口径 Phase32-F2 —— dist/index.html 的 description /
+      # og:description 由 dist/data/meta.json 的 counts 覆写。
+      # 首页不在 prerender_routes 的 STATIC_ROUTES 里（首页 = dist/index.html 本身），
+      # 预渲染覆盖不到它；R8R9 清 web/src 硬编码时漏了 web/index.html，线上首页因此
+      # 一直写着 2868 条 / 284 位。必须在 prerender + apply_og_meta 之后（这两步重写 head）。
+      # 自检：两条 meta 各恰好一份且回读等于目标串、SPA 打包产物里有同一句话、旧口径零残留。
+      - name: 首页计数口径收口
+        run: python3 tools/apply_site_counts.py
+
       # Step B2.6: Service Worker Phase30-A4 —— 产物 dist/sw.js = 线上 /protreptic/sw.js.
       # 必须在 npm run build 之后（读 dist/assets 文件名算 BUILD_ID、读 dist/data/meta.json
       # 算 DATA_REV），也在 prerender 之后（prerender 只写 HTML，不碰 dist/sw.js）。

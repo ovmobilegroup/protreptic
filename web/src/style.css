@@ -317,6 +317,38 @@
   @page {
     size: A4;
     margin: 16mm 14mm 18mm 14mm; /* 下边距留宽，页码区不压正文 */
+
+    /* Phase32-F2 · 打印页脚/页码走「页边距盒」（margin box），不再用 fixed 叠层。
+       实测（Chrome 153 / CDP Page.printToPDF，A4，本 @page 16/14/18/14mm，
+       正文框 y=45.4..790.9pt，纸高 841.9pt；7 个模板共 76 页逐页量）：
+         旧做法 .pt-print-only + position: fixed; bottom: 18mm
+           → 页脚 y=735.7pt（距纸底 106.2pt=37.5mm），落在正文框内，且 5 个模板 6 页
+             有正文行与它同一 y 带（最近 1.5pt）—— 不是"位置偏差"，是字形重叠；
+         position: fixed; bottom: 0        → y=786.7pt，仍在正文框内（正文还能压上去）；
+         position: fixed; bottom: -18mm    → 被 Chrome 推到下一页顶部（y≈75pt），第 1 页没有页脚；
+         top 超过正文框（100vh 等）         → 整块被移出，画不到下边距区。
+       原因：Chrome 打印时 position: fixed 以「正文框」而不是纸张为定位基准，正文框之外画不了。
+       @page 边距盒是唯一落点正确的机制 —— 实测 y=819.0pt（距纸底 22.9pt=8.1mm），
+       76/76 页都在纸面下边距区，正文框内零元素（最深的正文行只到 781.5pt）。
+       模板名/原文 URL 由 TemplateDetailView 用 #pt-print-page-foot 覆写这里的占位串；
+       页码用引擎计数器，浏览器打印对话框不必再勾"页眉和页脚"。
+       限制：边距盒要求纸面有下边距 —— 打印对话框「边距」保持默认（选"无"时 @page 边距为 0，
+       实测页脚整块消失）；Firefox/Safari 不支持 @page 边距盒，打印件上没有这一行。 */
+    @bottom-center {
+      content: 'Protreptic · 思想典藏';
+      font-family: Georgia, 'Songti SC', 'Noto Serif SC', STSong, serif;
+      font-size: 9pt;
+      line-height: 1.4;
+      color: #333333;
+    }
+
+    @bottom-right {
+      content: '第 ' counter(page) ' / ' counter(pages) ' 页';
+      font-family: Georgia, 'Songti SC', 'Noto Serif SC', STSong, serif;
+      font-size: 9pt;
+      line-height: 1.4;
+      color: #333333;
+    }
   }
 
   html,
@@ -429,29 +461,16 @@
     page-break-inside: avoid;
   }
 
-  /* 只在纸上出现的页眉/页脚行 */
-  .pt-print-only {
-    display: block !important;
-    position: fixed !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 18mm !important;
-    padding-top: 2mm !important;
-    padding-bottom: 0 !important;
-    border-bottom: 0 !important;
-    border-top: 1px solid #bbbbbb !important;
-    background: #ffffff !important;
-    font-size: 9pt !important;
-    line-height: 1.4 !important;
-    color: #333333 !important;
-  }
+  /* Phase32-F2 起不再有"只在纸上出现的页脚行"：页脚改由上面的 @page 边距盒绘制
+     （旧的 .pt-print-only 是 position: fixed 叠层，实测压在正文上，见上面的注释）。 */
 
   [aria-hidden='true'].pointer-events-none {
     display: none !important;
   }
 }
 
-/* 屏幕上隐藏打印专用元素 */
+/* 屏幕上隐藏打印专用元素。Phase32-F2 起打印页脚走 @page 边距盒（见上），
+   这个类已没有使用者 —— 保留定义只为历史/外部模板引用它时不至于把内容打印出来。 */
 .pt-print-only {
-  display: none;
+  display: none !important;
 }
