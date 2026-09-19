@@ -212,9 +212,16 @@ findings 自检 · 两档八项（含计数过期只警告）
   8/8 passed
 ```
 
-### 6.4 报告 push 后仍绿
+### 6.4 报告 push 后仍绿：run 35452800610
 
-<!-- CI-EVIDENCE-4 -->
+| 项 | 值 |
+|---|---|
+| head | `271da53`「Phase37-X5: 交付报告（发布仓同步）」—— 即本文件当前内容 |
+| run | `Protreptic CI/CD` **35452800610**（push，`main`） |
+| 结论 | `Test (Python + TypeScript)` **success** 2m20s（job id `105922778620`） |
+| 步骤级结论（`gh api repos/.../actions/jobs/105922778620`） | step 4 `可信度门 · 新增违规必红` success / step 5 `链接源核验 · 新增坏链必红` success / step 6 `可信度门 · 负对照自测` success / **step 7 `findings 自检 · 新增硬失败必红` success** / **step 8 `findings 自检 · 两档八项（含计数过期只警告）` success** / 其后的 Python+TypeScript 全步 success |
+
+即：报告本体入库的那次 push，门与自测都是绿的（无「文档一改就红」的耦合）。
 
 ### 6.5 顺带如实记录：`CI`（markdown-lint）本卡 run 仍红，但**非本卡引入**
 
@@ -245,8 +252,19 @@ Summary: 2 error(s)
   （`bf168171...f2e61cb` / `726be6f4...68abd6`），红态注入与移除都只发生在发布仓，
   注入提交 `3a559ce` 已由 `10351a6` 移除（工作树回到注入前字节）。
 - **push 与 ahead**：
+  - 发布会话结束前复核（原始输出）：
 
-<!-- PARITY-FINAL -->
+```
+$ cd /opt/data/release/Protreptic-publish && git status -sb
+## main...origin/main            # 无 ahead / behind => 已全部 push
+
+$ cd /opt/data/workspace/Protreptic && git status -sb
+## master                        # 工作树干净；dev 仓无 upstream（历史上 push 目标一直是发布仓 main）
+```
+
+  - 本卡的 push 序列（发布仓 `main`）：`d25d4a7`（接线 + 工具/基线/文档）→ `3a559ce`（注入坏样本，CI 红态自证）
+    → `10351a6`（移除注入，复绿）→ `271da53`（交付报告）。此后仅本文件文字的增量更新，
+    `git status -sb` 仍为 `## main...origin/main`（ahead=0），对应 run 见卡片 handoff。
 
 ## 8. 遗留与建议（如实列出）
 
