@@ -27,7 +27,7 @@ EXPECT_FIGURES = 1057
 # meta.json 与数据源是否同步；它**不是**站点文案口径 —— 站点文案/分享图用发布口径
 # mode_summaries_published = 2858 - 隔离名单条数，由下面 check_data 的隔离门逐分片重算校验。
 EXPECT_MODES = 2858
-EXPECT_BY_FIGURE = 283
+EXPECT_BY_FIGURE = 278
 EXPECT_MODE_INDEX_SHARDS = 8
 SPA_BASE = "/protreptic/"
 
