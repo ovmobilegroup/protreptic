@@ -156,8 +156,8 @@ EXIT=2
 
 | 仓 | commit | 内容 | push | `git status -sb` |
 |---|---|---|---|---|
-| publish | `7629f9e` | 32 个 docs 保持发布仓版本 + `docs/figures/CD-CD-001_朝代人物档案.md` 新增 + `tools/check_repo_parity.py` + §9 + 本报告 | `d25d4a7..7629f9e  main -> main` | `## main...origin/main`（**无 `[ahead N]`**，`rev-parse HEAD == origin/main`） |
-| workspace | `a6e183ce` | 34 个 docs 回灌 + `docs/index.md` + `docs/_config.yml` + `tools/check_repo_parity.py` + §9 + 本报告 | 无 upstream（`master` 为本地开发分支，远端只有 `refs/heads/main`，实测 `git ls-remote origin` 仅 HEAD/main；X3/X5 亦同） | `## master`（无 upstream 标记） |
+| publish | `7629f9e`（同步提交；其后为报告修订提交 `869c86d` 等，末次以 `git log -1 -- docs/qa/phase37_x4_repo_parity.md` 为准） | 32 个 docs 保持发布仓版本 + `docs/figures/CD-CD-001_朝代人物档案.md` 新增 + `tools/check_repo_parity.py` + §9 + 本报告 | `d25d4a7..7629f9e  main -> main` | `## main...origin/main`（**无 `[ahead N]`**，`rev-parse HEAD == origin/main`） |
+| workspace | `a6e183ce`（同步提交；其后为报告修订提交 `4ca6f6e6` 等，末次以 `git -C <workspace> log -1 -- docs/qa/phase37_x4_repo_parity.md` 为准） | 34 个 docs 回灌 + `docs/index.md` + `docs/_config.yml` + `tools/check_repo_parity.py` + §9 + 本报告 | 无 upstream（`master` 为本地开发分支，远端只有 `refs/heads/main`，实测 `git ls-remote origin` 仅 HEAD/main；X3/X5 亦同） | `## master`（无 upstream 标记） |
 
 说明：workspace 的 `master` **没有也不打算 push**（远端只有 `main` 一条分支；X3/X5 亦同）。
 本卡纪律「push 后无 [ahead N]」在 **发布仓 main** 上验证。
@@ -210,3 +210,7 @@ sources["data/modes_data.json"].sha256 = bf168171af42f8148c3adecbbc1a71258522676
 ```
 
 机检在最终状态下重跑（两仓各跑一次）：`[OK] 零差异：1308 个构建图文件两仓逐字节一致（sha256）`，退出码 0。
+
+**关于卡片纪律 #4（前端改动须 `cd web && VITE_DATA_MODE=static npm run build`）**：本卡**未改 `web/**`**
+（`git diff --name-only` 无 `web/` 前缀路径），本地 npm build 不适用；线上发布链里的同类构建**在 CI 真跑并全绿**
+（Pages run 35451940858 的 step 17「构建 SPA」= `npm ci && npm run build`（`VITE_DATA_MODE=static`）+ step 18 dist 断言）。
