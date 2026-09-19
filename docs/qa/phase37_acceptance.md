@@ -374,6 +374,8 @@ $ cd /opt/data/release/Protreptic-publish && python3 tools/check_repo_parity.py 
 [OK] 零差异：1308 个构建图文件两仓逐字节一致（sha256）      EXIT=0
 ```
 
+（口径注：上面两个数字是本报告入库**之前**的实测值；本报告自身也是构建图文件，提交后机检边界变成 **1309 / 1309，仍零差异、exit 0** —— 见 7 节。）
+
 要点：**在发布仓里跑必须显式带 `--workspace`**。不带的话脚本把 workspace 解析成自身，两次跑的是同一个仓（输出里会打印 `workspace = /opt/data/release/Protreptic-publish`），那是**同义反复、不算核验** —— X4 报告 4 节写「发布仓侧同一条命令同样零差异」时没说明这一点，我按显式 `--workspace` 重跑后才认可。
 
 #### 3.4.2 逐文件 sha256（与线上/构建链直接相关的关键文件）
@@ -614,13 +616,14 @@ git status -sb                                                    # 无 [ahead N
 | CI 红态自证脚本（临时） | `/tmp/qa7/inject.py`、`/tmp/qa7/inject_test.py`、`/tmp/qa7/e_test.py`、`/tmp/qa7/boundary_test.py`、`/tmp/qa7/d3scan.py` |
 | CI 红态自证提交（发布仓） | `a588c4a`（注入，已移除）→ `7eeb56a`（移除，当前 head，`data/modes_data.json` 已回到 `bf168171af42…`） |
 
-同步记录（发布仓 push 后）：
+同步记录（发布仓 push 后；本报告入库使构建图文件数 1308 → 1309）：
 
 ```text
 ## main...origin/main          # 无 [ahead N]
 HEAD == origin/main
 data/modes_data.json 两仓 sha 均为 bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb
-python3 tools/check_repo_parity.py -> [OK] 零差异：1308 个构建图文件两仓逐字节一致（sha256），exit 0
+python3 tools/check_repo_parity.py -> [OK] 零差异：1309 个构建图文件两仓逐字节一致（sha256），exit 0
+（工作仓与发布仓各跑一次，含 --workspace 显式指向；本报告两仓逐字节一致，用 `sha256sum` 复核相等 —— 本报告不做自指哈希，改一次内容就变）
 ```
 
 硬纪律适用性：本卡**未改 `web/**`、未改构建脚本、未改数据**（`data/modes_data.json` 仅在自证期间临时注入并已复原），故 `cd web && VITE_DATA_MODE=static npm run build` 不适用；构建顺序纪律（`build_figures_db → export_static_site → build_unified_index → apply_site_counts`）无触发场景。本报告文件本身进入构建图（`docs/**`），因此**两仓同字节同步 + 机检 exit 0** 已按纪律执行。
