@@ -375,3 +375,86 @@ HOME=/opt/data/home /opt/data/home/.local/bin/gh run list --repo ovmobilegroup/p
 
 证据文件（临时，随会话清理）：`/tmp/qa32/`（live_index-*.json、live_search/、pdf/、print_measure_all.txt、
 neg_control_measure.txt、f1_check.py、f1_meta_consistency.py、measure.py、sweep2.py、local_vs_live.py）。
+
+---
+
+## 8. 附录 · 本次复验自身的提交与 CI 实况（2026-09-19，截至 21706cc）
+
+本报告的落盘本身就是一次"改动发布仓"的操作，故把它自己的 push 输出与 run 状态一并留档，
+避免"报告说 CI 绿、但报告自己的提交让 CI 变红"这类自欺。
+
+### 8.1 push 实际输出（原始）
+
+```console
+$ cd /opt/data/release/Protreptic-publish
+$ git commit -q -m "docs(qa): Phase32 独立复验报告（F1/F2 逐项实测：线上零泄漏 + 76/76 页页脚坐标 + CI 全绿）"
+$ git log --oneline -1
+2da6e29 docs(qa): Phase32 独立复验报告（F1/F2 逐项实测：线上零泄漏 + 76/76 页页脚坐标 + CI 全绿）
+$ git push origin main
+To https://github.com/ovmobilegroup/protreptic.git
+   9496056..2da6e29  main -> main
+$ git status -sb
+## main...origin/main                     # 无 [ahead N] → ahead=0
+```
+
+### 8.2 报告自身把 markdown-lint 弄红了（如实记录 + 已修）
+
+第一次提交（2da6e29）后 `CI` 的 markdown-lint 门报错：
+
+```console
+$ gh api repos/ovmobilegroup/protreptic/actions/runs/35411119721/jobs --jq '.jobs[]|{name,conclusion}'
+{"name": "markdown-lint", "conclusion": "failure"}
+$ gh run view 35411119721 --repo ovmobilegroup/protreptic --log-failed   # 摘录
+Summary: 1 error(s)
+##[error]docs/qa/phase32_acceptance.md:116 MD032/blanks-around-lists Lists should be surrounded by blank lines
+```
+
+即：**这道门是活的**（Phase31 报告里记的 markdown-lint 长期红，本轮 9496056 上原本是绿的，
+是我新加的 docs 文件把它弄红）。修法：`外加两条独立交叉校验：` 与紧随其后的列表之间补空行，
+并在本地用与 CI 同版本的工具复跑确认：
+
+```console
+$ npx --yes markdownlint-cli2@0.11.0 "docs/qa/phase32_acceptance.md"
+markdownlint-cli2 v0.11.0 (markdownlint v0.32.1)
+Linting: 1 file(s)
+Summary: 0 error(s)
+
+$ git commit -q -m "docs(qa): 修 markdown-lint MD032（列表前补空行）"
+$ git push origin main
+To https://github.com/ovmobilegroup/protreptic.git
+   2da6e29..21706cc  main -> main
+$ git status -sb
+## main...origin/main                     # 无 [ahead N]
+```
+
+**教训**：往 `docs/` 写报告前先本地跑一遍 `npx markdownlint-cli2@0.11.0 "<file>"`（仓库根有 `.markdownlint.json`）。
+
+### 8.3 HEAD 21706cc 上的四个 workflow
+
+```console
+$ gh run list --repo ovmobilegroup/protreptic --limit 6 --json name,databaseId,status,conclusion,headSha
+Quality Gate            | 35411629362 | completed | success | 21706cc
+Quality Gate            | 35411419277 | completed | success | 21706cc
+CI                      | 35411224379 | completed | success | 21706cc
+Protreptic CI/CD        | 35411224220 | completed | success | 21706cc
+Deploy to GitHub Pages  | 35411224166 | completed | success | 21706cc
+```
+
+- `CI` = markdown-lint（1 job）success；`Deploy to GitHub Pages`（构建 + 部署 2 job）success；
+  `Quality Gate`（数据校验 / 线上死链 / Lighthouse 3 job）success；`Protreptic CI/CD` 最终 success
+  （其 `Build API Docker Image` job 在 01:03 起长时间 `in_progress`，约 20 分钟后收敛为 success，
+  属 Docker 推送耗时波动，与本次改动无关）。
+- 本附录自身的提交为纯 `docs/**` 改动，不改变任何线上页面数据（SPA 与 `data/**` 均未触碰）。
+
+### 8.4 双仓现状
+
+```console
+$ git -C /opt/data/release/Protreptic-publish status -sb
+## main...origin/main                     # 无 [ahead N]
+
+# 开发仓（本地 master，origin 只有 main 分支，故只做本地留档）
+$ git -C /opt/data/workspace/Protreptic log --oneline -3 | cat
+f2c390c1 docs(qa): 修 markdown-lint MD032
+50fe0acf docs(qa): Phase32 独立复验报告（F1/F2 逐项实测）
+b68a6698 ci(pages): paths 过滤补上 tools/apply_site_counts.py
+```
