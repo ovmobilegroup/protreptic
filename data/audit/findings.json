@@ -1,7 +1,7 @@
 {
   "findings": [
     {
-      "mode_code": "M-P23F-001",
+      "mode_code": "M-QA37-X5-BAD-001",
       "figure_code": "H-P23F-001",
       "defect": "D1_pseudo_figure",
       "evidence": "figure_code 'H-P23F-001' is listed in QUARANTINE (tools/_quarantine.py): pipeline-stage placeholder, not a real historical figure; its records are still present in the source library and are filtered at export time",
