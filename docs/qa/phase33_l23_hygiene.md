@@ -209,3 +209,28 @@ mkdocs.pages.yml 于 09:24:05), 且 t_493e6506 状态为 running.
     git -C /opt/data/release/Protreptic-publish status -sb
     git -C /opt/data/release/Protreptic-publish rev-list --count origin/main..HEAD
     HOME=/opt/data/home PATH=/opt/data/home/.local/bin:$PATH gh run list --repo ovmobilegroup/protreptic --limit 8
+
+## 8. 附录: 收尾实测 (本报告自身提交与终态回读)
+
+本报告提交: 发布仓 3ef02b8, 工作区 435cb6de.
+
+终态两仓工作树:
+
+- 发布仓: status -sb 为 ## main...origin/main, ahead=0, behind=0, 无 dirty 文件
+- 工作区: git status --porcelain --untracked-files=all 输出为空
+- L2 三处 sha256 一致 (发布仓 / 工作区 / 线上直取): 088a99a10476986524d84f7886bfb1dd981f93d23dc1fed6d37e34c532e80e6d
+
+说明: 第 5 节写作时两仓仍有 elcano/Phase33-L1 的在制文件; 在本报告提交前后, elcano 已把那些改动
+自行提交并推送, 因此终态两仓都干净。本卡从未提交任何 elcano 的文件。
+
+本报告自身提交 3ef02b8 上的四个 workflow:
+
+- Deploy to GitHub Pages 35413833992: success, jobs 2 个 (构建 SPA + 文档站, 部署)
+- CI 35413834004: success (markdown-lint); 本地先用 npx markdownlint-cli2@0.13.0 加 .markdownlint.json 预检, 0 error
+- Quality Gate 35414047354: success, jobs 3 个 (数据校验, 线上死链检测, Lighthouse 预算门)
+- Protreptic CI/CD 35413834003: success, jobs = Test (Python + TypeScript) / Build Web Docker Image /
+  Build API Docker Image / Notify; Deploy 两步 skipped
+
+本报告线上地址 (curl http=200, title 已核对):
+
+    https://ovmobilegroup.github.io/protreptic/docs/qa/phase33_l23_hygiene/
