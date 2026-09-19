@@ -238,3 +238,80 @@ E 是**清单新鲜度**（summary 与现算库是否一致）。归属决策与
 - 负对照不能当 CI 步骤（成功语义 = `exit 1`），其语义由 `tools/test_verify_findings_modes.py`
   八项守护（含「注入不存在 code 必红」「基线缺失 exit 2」「计数过期只警告不红」）。
 - 原始证据（本地命令 + 真实 CI run）见 `docs/qa/phase37_x5_findings_ci.md`。
+
+---
+
+## 9. 两仓一致性口径：按构建图推导（Phase37-X4）
+
+> 本章**取代** Phase36-W4 的验收口径「两仓 **2363 个 tracked 文件全字节一致**」——**那是判错了**：
+> workspace 是**开发仓**、publish 是**发布仓**，`Dockerfile.web` / `api/*.py` / `.github/workflows/*`
+> 与部分 `docs/*` **本来就按角色不同**，不是数据漂移。项目原本的纪律只针对 `data/` 与线上部署产物。
+
+### 9.1 标准（本阶段起）
+
+| 仓 | 路径 | 分支 | 角色 |
+|---|---|---|---|
+| workspace | `/opt/data/workspace/Protreptic` | `master` | 编辑语料 / 工具 / 文档 |
+| publish | `/opt/data/release/Protreptic-publish` | `origin main` | **线上唯一事实源**，驱动 GitHub Pages |
+
+**凡进入站点构建图或线上站点的文件，必须逐字节一致（sha256）。** 其余文件按角色各自演进。
+
+### 9.2 构建图文件集（怎么推出来的）
+
+| # | 推导依据（发布仓 `.github/workflows/pages.yml`） | 纳入的文件 |
+|---|---|---|
+| 1 | build job 的 **16** 个 `python3 tools/<x>.py` 步骤 | `tools/` 下 16 个构建脚本 |
+| 2 | 这些脚本的本地 import 闭包 | `tools/site_counts.py`、`tools/_quarantine.py`、`tools/credibility_baseline.py` |
+| 3 | `on.push.paths` 声明的 `tools/*`（改了就触发发布 = 可能改变线上） | `tools/{prerender_body,og_image,build_pwa_icons,subset_og_font}.py` |
+| 4 | CI 门（`ci-cd.yml` 的 test job） | `tools/verify_findings.py` |
+| 5 | 上述脚本读的数据 / 资源 | `data/**`、`tools/json/scenarios_{zh,en}.json`、`tools/json/scenario_tags.json`、`tools/scenario_tags.json`、`tools/assets/fonts/**` |
+| 6 | `mkdocs build -f mkdocs.pages.yml` | `docs/**`（除 `exclude_docs: archive/`）、`docs_overrides/**`（`theme.custom_dir`）、`mkdocs.pages.yml` |
+| 7 | `npm run build`（Vite；`web/public/**` 原样拷进 `dist/`） | `web/**` |
+| 8 | 机检脚本自身（随两仓同步，以示自洽） | `tools/check_repo_parity.py` |
+
+实测（2026-09-19 同步后）：**两仓各 1307 个构建图文件，逐字节一致**。
+
+### 9.3 排除的文件与理由（供 QA 复核）
+
+| 排除项 | publish | workspace | 理由（证据） |
+|---|---|---|---|
+| `data/intl_figures/**` | 637 | 0 | 开发侧原始分片留档；`grep -rIl` 遍 `tools/` + `.github/` + `web/src/` **无任何读取** → 不进构建、不上线 |
+| `docs/archive/**` | 34 | 0 | `mkdocs.pages.yml` 的 `exclude_docs: archive/` → 不构建、不上线 |
+| `web/dist/**` | 5 | 0 | 前端构建产物（CI 现场 `npm run build`）；发布仓是加 `.gitignore` 之前的历史跟踪 |
+| `*.bak*` | 1 | 12 | 备份文件 |
+| `data/backup_merge_*/**` | 0 | 10 | 入库前备份目录（开发仓独有） |
+| `data/merge_staging_*/**` | 0 | 3 | merge 暂存目录（开发仓独有） |
+| `data/all_sources.json` | 0 | 1 | 开发侧汇总实验产物，无构建步骤读取 |
+| `data/semantic_index.faiss` | 0 | 1 | 开发侧 FAISS 索引二进制，无构建步骤读取 |
+| `tools/gc/gc` | 0 | 1 | 开发侧工具二进制，无构建步骤调用 |
+| `web/public/data/**`、`tools/assets/fonts/.cache/**` | 未跟踪 | 未跟踪 | `.gitignore` 已声明（前者由 `export_static_site.py` 现场生成） |
+| `api/protreptic.db` | 1 | 1 | CI Step 0 由 `tools/build_figures_db.py` 清表重建（实测两仓 sha 相同，但 committed 内容不进构建结果） |
+| `Dockerfile.{api,web}`、`docker-compose.yml`、`api/**`、`.github/**`、`tests/`、`cli_tests/`、`scripts/`、`docs_site/**`、`kanban/`、`release/`、`backups_merge_*/`、根目录遗留副本（`modes_data.json`、`scenarios_*.json`、`code_maps.json`、`three_dimensional_comparison_matrix.xlsx` …） | — | — | **角色性差异 / 非构建图**：构建步骤读的是 `data/**` 与 `tools/**` 下的同名文件（见 `build_figures_db.py::find()` 的候选顺序）；`docs_site/` 是更早的独立文档站工程（`mkdocs.pages.yml` 注释明确不用它）；`.github/**` 两仓编排职责不同（发布仓才有 Pages 触发） |
+
+`pages.yml` 的 30 条 `paths` 触发器里只有 2 条不属于构建图，理由写死在脚本的 `EXCLUDED_TRIGGERS`：
+`.github/workflows/pages.yml`（编排本身，两仓职责不同）、`api/protreptic.db`（CI 现场重建）。
+
+### 9.4 机检：`tools/check_repo_parity.py`
+
+```
+python3 tools/check_repo_parity.py            # 人读报告
+python3 tools/check_repo_parity.py --json     # 机读
+python3 tools/check_repo_parity.py --list     # 打印纳入/排除清单（含理由）
+退出码：0 = 零差异；1 = 有差异；2 = 边界过期 / 环境不满足
+```
+
+- 用 `git ls-files` 枚举**跟踪文件**（未跟踪的构建产物天然不进集合；新增文件先 `git add` 才进机检
+  —— 故意不看未跟踪文件，避免把并行卡未提交的工作算成漂移）；
+- 逐文件 sha256：缺一侧 → `MISSING_IN_WORKSPACE` / `MISSING_IN_PUBLISH`；内容不同 → `CONTENT_DIFF`；
+- **边界自检**：每次运行现场解析 `pages.yml` 的构建步骤与 `paths` 触发器，若有新增而未被本清单覆盖
+  → `exit 2`「边界过期」——边界跟着 workflow 走，不许静默漂移（实测：往假发布仓的 workflow 里加一个
+  `python3 tools/fake_new_step.py` 步骤，脚本立刻 exit 2 并点名该步骤）。
+
+### 9.5 同步纪律
+
+1. 内容差异**逐条判角色**，默认以 **publish 为准回灌 workspace**（发布仓是线上唯一事实源，
+   且已做个人引用 / 绝对路径清理）；若 workspace 的构建图文件才是新版，反向补进 publish；
+2. push 后 `git status -sb` 必须无 `[ahead N]`；
+3. 每次同步后重跑机检，必须 `exit 0`。
+
+实测证据（命令 + 原始输出）：`docs/qa/phase37_x4_repo_parity.md`。
