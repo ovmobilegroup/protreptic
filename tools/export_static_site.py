@@ -10,12 +10,20 @@
 
     figures.index.json          501 条轻量索引     目标 gzip <= 50 KB
     figures/{code}.json         501 个详情分片
-    modes/index-{0..7}.json     2858 条摘要，md5(mode_code)%8 均分   单片 gzip <= 200 KB
+    modes/index-{0..7}.json     2848 条摘要（去重 2858 - 隔离 10），md5(mode_code)%8 均分
+                                                        单片 gzip <= 200 KB
     modes/by-figure/{fc}.json   283 个「某人的 10 条模式」分片（按 figure_code 原值分组）
     meta.json                   构建时间戳 + 各产物条数 + sha256
 
 Phase31-R3：by-figure 与 index 两份产物共用清洗后的 domain_zh/domain_en
 （散文值压成短标签，规则见下方 "domain 字段清洗" 注释），消除双口径。
+
+Phase32-F1：modes/index-*.json 与 modes/by-figure/*.json **两路产出都套用**
+tools/_quarantine.py 的共享隔离名单（is_quarantined / drop_quarantined_modes，
+本文件不另写名单副本）。此前 by-figure 只在分组处跳过隔离人物的整片，
+而摘要索引仍按全量 modes 投影、保留模式 related_modes 里指向隔离模式的引用
+也没清 —— 于是 8 个 modes/index-*.json 里有 6 片仍含已隔离的虚构人物
+H-SX-001「苏咸」（10 条模式 M393-M402），线上 /modes 列表照旧显示它们。
 
 同时输出 docs/architecture/static_data_manifest.json 供数据治理卡引用。
 
@@ -48,7 +56,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _quarantine import is_quarantined  # noqa: E402
+from _quarantine import QUARANTINE, drop_quarantined_modes, is_quarantined  # noqa: E402
 
 # ---------------------------------------------------------------- 常量
 
@@ -208,6 +216,31 @@ def sha256_file(path: Path) -> str:
     return h.hexdigest()
 
 
+def scan_quarantine_leaks(out_dir: Path, dropped_mode_codes) -> list:
+    """产物自检: 隔离名单里的 figure_code / mode_code 不得出现在任何落盘 JSON 制品里。
+
+    与 tools/build_graph_data.py 输入自检同源同义(那边命中隔离项直接非零退出);
+    这里把「隔离名单是否真的在所有产出路径上生效」变成可执行的断言, 而不是靠人眼
+    去 grep 八个分片看漏没漏。名单只有一份(见 tools/_quarantine.py)。
+    """
+    codes = [str(c) for c in QUARANTINE]
+    mode_codes = [str(m) for m in dropped_mode_codes if str(m)]
+    leaks = []
+    for path in sorted(out_dir.rglob("*.json")):
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        rel = path.relative_to(out_dir)
+        for code in codes:
+            if code in text:
+                leaks.append("%s: 含隔离 figure_code %s" % (rel, code))
+        for mc in mode_codes:
+            if '"%s"' % mc in text:
+                leaks.append("%s: 含隔离 mode_code %s" % (rel, mc))
+    return leaks
+
+
 def dump_bytes(obj) -> bytes:
     return json.dumps(obj, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
 
@@ -352,6 +385,16 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     long_domain = sum(1 for m in modes if len(str(m.get("domain_zh") or "")) > MAX_DOMAIN_LEN)
     log(f"  domain 字段清洗       {domain_fixed} 条（散文/长值 -> 首个 '/' 片段或 category 短标签）"
         f"，清洗后 len(domain_zh) > {MAX_DOMAIN_LEN} 的条数 = {long_domain}")
+
+    # ---------- 隔离名单（Phase32-F1）：公开产出层统一剔除 ----------
+    # 名单只在 tools/_quarantine.py 里定义一处，此处用共享助手一次算出
+    # 「隔离人物的全部模式」并清掉保留模式 related_modes 里指向它们的引用；
+    # index 与 by-figure 共用这一份模式列表（不各写一份名单、不各判一次）。
+    public_modes, dropped_modes = drop_quarantined_modes(modes)
+    log(f"  [隔离] 剔除 {len(dropped_modes)} 条隔离人物的模式"
+        f"（{', '.join(sorted(dropped_modes))}）：公开模式 {len(modes)} -> {len(public_modes)}"
+        f"；名单见 tools/_quarantine.py：{', '.join(sorted(QUARANTINE))}")
+
     figures = load_figures(DB_PATH)
 
     # ---------- 1. figures 索引 + 详情分片 ----------
@@ -400,14 +443,14 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     by_figure = {}
     no_code_modes = 0
 
-    for m in modes:
+    for m in public_modes:
         fc = m.get("figure_code")
         if fc is None or str(fc).strip() == "":
             no_code_modes += 1
             continue
         by_figure.setdefault(str(fc), []).append(m)
 
-    for m in sorted(modes, key=lambda x: str(x.get("mode_code"))):
+    for m in sorted(public_modes, key=lambda x: str(x.get("mode_code"))):
         mc = str(m.get("mode_code"))
         shards[shard_of(mc)].append({k: m.get(k) for k in SUMMARY_FIELDS})
 
@@ -470,7 +513,11 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     counts = {
         "figures": len(figures),
         "figure_shards": len(detail_stats),
-        "mode_summaries": sum(s["count"] for s in shard_stats),
+        # mode_summaries = 源去重口径 (2858)，与站内文案 / pages_preflight.EXPECT_MODES
+        # 同一口径；实际发布的摘要条数见 mode_summaries_published（扣掉隔离模式）。
+        "mode_summaries": len(modes),
+        "mode_summaries_published": sum(s["count"] for s in shard_stats),
+        "modes_quarantined": len(dropped_modes),
         "mode_index_shards": N_SHARDS,
         "mode_by_figure_shards": len(fig_stats),
         "modes_raw": raw_modes_total,
@@ -550,6 +597,14 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     write_product(out_dir / "meta.json", meta)
     log(f"  meta.json               counts={json.dumps(counts, ensure_ascii=False)}")
 
+    # ---------- 3.5 隔离名单零泄漏自检 ----------
+    leaks = scan_quarantine_leaks(out_dir, dropped_modes)
+    if leaks:
+        log("  [FAIL] 隔离项泄漏 %d 处" % len(leaks))
+    else:
+        log("  [OK] 隔离名单零泄漏 (名单 %s; 被剔模式 %d 条)"
+            % (", ".join(sorted(QUARANTINE)), len(dropped_modes)))
+
     # ---------- 4. 数据治理清单 ----------
     try:
         out_rel = str(out_dir.relative_to(REPO_ROOT))
@@ -569,6 +624,12 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
              "actual": counts["modes_deduped"]},
             {"rule": "by-figure 分片数 == %d" % EXPECT_BY_FIGURE,
              "actual": counts["mode_by_figure_shards"]},
+            {"rule": "发布摘要条数 == 去重条数 - 隔离名单条数",
+             "actual": counts["mode_summaries_published"],
+             "modes_deduped": counts["modes_deduped"],
+             "modes_quarantined": counts["modes_quarantined"]},
+            {"rule": "隔离名单 (tools/_quarantine.py) 零泄漏: 制品里不得出现隔离 figure_code / mode_code",
+             "actual_leaks": len(leaks)},
             {"rule": "清洗后 domain_zh 长度 <= %d（by-figure 与 index 同源同口径）" % MAX_DOMAIN_LEN,
              "actual_max_len": max(len(str(m.get("domain_zh") or "")) for m in modes),
              "normalized_modes": domain_fixed},
@@ -597,7 +658,13 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
         if counts["figure_shards"] != counts["figures"]:
             failures.append("figures 详情分片数与索引条数不一致")
         if counts["mode_summaries"] != counts["modes_deduped"]:
-            failures.append("模式摘要总数与去重条数不一致")
+            failures.append("meta 的 mode_summaries 与源去重条数不一致 (站内口径应为源去重数)")
+        published = counts["mode_summaries_published"]
+        if published != counts["mode_summaries"] - counts["modes_quarantined"]:
+            failures.append("发布摘要条数 %d != 去重 %d - 隔离 %d"
+                            % (published, counts["mode_summaries"], counts["modes_quarantined"]))
+        if published != sum(s["count"] for s in shard_stats):
+            failures.append("发布摘要条数 %d != 八个分片实际条数之和" % published)
 
     if long_domain:
         failures.append(f"清洗后仍有 {long_domain} 条 domain_zh 超过 {MAX_DOMAIN_LEN} 字符")
@@ -610,6 +677,10 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     over = [s for s in shard_stats if s["gzip_bytes"] > LIMIT_MODE_SHARD_GZIP]
     if over:
         failures.append(f"{len(over)} 个 modes/index-*.json 分片 gzip 超 {LIMIT_MODE_SHARD_GZIP}")
+
+    if leaks:
+        for line in leaks[:10]:
+            failures.append("隔离项泄漏: " + line)
 
     meta_on_disk = json.loads((out_dir / "meta.json").read_text(encoding="utf-8"))
     if meta_on_disk["counts"]["modes_deduped"] != counts["modes_deduped"]:
@@ -624,7 +695,9 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     log(f"  [OK] 产物 {total_files} 个文件"
         f"（索引 1 + figures {counts['figure_shards']} + modes 索引 {N_SHARDS}"
         f" + by-figure {counts['mode_by_figure_shards']} + meta 1）")
-    log(f"  [OK] figures={counts['figures']} modes={counts['modes_deduped']}"
+    log(f"  [OK] figures={counts['figures']} modes(源)={counts['modes_deduped']}"
+        f" modes(发布)={counts['mode_summaries_published']}"
+        f" 隔离剔除={counts['modes_quarantined']}"
         f" by-figure={counts['mode_by_figure_shards']}")
     log(f"  [OK] 体积上限：index gzip {human(idx_stat['gzip_bytes'])} <= {human(LIMIT_INDEX_GZIP)}；"
         f"最大模式分片 gzip {human(max(s['gzip_bytes'] for s in shard_stats))}"

@@ -3,7 +3,7 @@
 
 把 .github/workflows/pages.yml 里三道关卡抽成可本地复跑的脚本，CI 与本地用同一条命令：
 
-    --stage data     web/public/data 静态数据基线（meta.json 条数 / 分片数）
+    --stage data     web/public/data 静态数据基线（meta.json 条数 / 分片数 / 隔离名单零泄漏）
     --stage dist     web/dist SPA 产物（404.html 回退、/protreptic/ 前缀、data 随构建进包）
     --stage merged   _site/ 合并产物（SPA 在根 + 文档站在 /docs/ + 404.html 只出现一次）
 
@@ -23,10 +23,18 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 EXPECT_FIGURES = 1057
+# EXPECT_MODES 是「源去重口径」(与站点文案 / export_static_site.EXPECT_MODES 同口径);
+# 实际发布的摘要条数 = 2858 - 隔离名单条数, 见 meta.json 的 mode_summaries_published,
+# 由下面 check_data 的隔离门逐分片重算校验。
 EXPECT_MODES = 2858
 EXPECT_BY_FIGURE = 283
 EXPECT_MODE_INDEX_SHARDS = 8
 SPA_BASE = "/protreptic/"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _quarantine import QUARANTINE as _QUARANTINE  # noqa: E402
+
+QUARANTINED = set(_QUARANTINE)   # 已确证虚构: 不得进入任何公开产出
 
 DATA_DIR = REPO_ROOT / "web" / "public" / "data"
 DIST_DIR = REPO_ROOT / "web" / "dist"
@@ -105,8 +113,34 @@ def check_data(c: Checker) -> None:
     by_figure = sorted((DATA_DIR / "modes" / "by-figure").glob("*.json"))
     c.expect(len(by_figure), EXPECT_BY_FIGURE, "data/modes/by-figure/*.json 分片数")
 
+    # 隔离名单回归门 (Phase32-F1). 名单只有一份 (tools/_quarantine.py), 这里不复制副本。
+    # Phase31 的漏点正是导出层漏套名单: 线上 6 个 modes/index-*.json 里仍带着
+    # H-SX-001 的 10 条模式, 而当时所有断言都是绿的 -- 所以把这条量化成断言:
+    # 逐分片重算条数, 并检查没有任何一条的 figure_code 落在隔离名单里。
+    summary_total = 0
+    quarantined_leaks = []
+    for shard in mode_shards:
+        rows = c.read_json(shard)
+        if not isinstance(rows, list):
+            c.fail("%s 顶层不是数组" % shard.name)
+            continue
+        summary_total += len(rows)
+        for row in rows:
+            if str(row.get("figure_code") or "") in QUARANTINED:
+                quarantined_leaks.append("%s:%s" % (shard.name, row.get("mode_code")))
+    if quarantined_leaks:
+        c.fail("隔离人物出现在公开摘要索引 %d 条: %s"
+               % (len(quarantined_leaks), ", ".join(quarantined_leaks[:5])))
+    published = counts.get("mode_summaries_published")
+    if isinstance(published, int):
+        c.expect(published, summary_total,
+                 "meta.json counts.mode_summaries_published 与 modes/index-*.json 实际条数")
+    else:
+        c.expect(summary_total, EXPECT_MODES, "modes/index-*.json 实际条数")
+
     c.note(
         f"figures={counts.get('figures')} modes={counts.get('mode_summaries')} "
+        f"published={summary_total} 隔离命中={len(quarantined_leaks)} "
         f"figure shards={len(figure_shards)} by-figure shards={len(by_figure)}"
     )
 
