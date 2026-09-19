@@ -31,7 +31,7 @@
 | **D1** | 伪人物 | `figure_code` 对应实体非真实历史人物（阶段标签 / 流程名 / 占位符） | 出库 + 隔离 |
 | **D2** | 伪造出处 | 书名不存在于任何权威目录；或自引伪造（《X氏子》型） | 隔离 + 复核 |
 | **D3** | 出处污染 | `source_chapter` 含工程痕迹：`sha256` / commit 哈希 / 脚本名 / `双镜像` / `qa_postmerge` / 工作树叙述 | 重写或隔离 |
-| | | **豁免条款**：已隔离（D1）的伪人物 figure 允许保留源库工程痕迹，以导出期过滤为准。豁免名单：`H-P23F-001`、`P24F`、`P25F`、`P26F`、`Phase27Final`。机检方式：D3 gate 跳过 quarantined figure 的模式，仅对公开人物进行 source_chapter 扫描。 |
+| | | **豁免条款**：**D1 已隔离记录允许保留源库工程痕迹，以导出期过滤为准**——隔离项不进任何公开产物（名录 / 每日 / 图谱 / 概念层），源库工程痕迹只服务复核与回滚，不对外可见。<br>**名单唯一事实来源**：`tools/_quarantine.py` 的 `QUARANTINE`（当前 6 项：`H-SX-001`、`H-P23F-001`、`P24F`、`P25F`、`P26F`、`Phase27Final`）；gate **不复制名单副本**，改名单只改那一处。<br>**机检方式**：`credibility_gate.py::check_d3_pollution()` 对 `is_d3_exempt(mode, quarantine)` 为真的模式**跳过 D3 扫描**，仅对公开 figure 扫 `source_chapter`；**豁免面必须在 gate 报告里如实打印**，禁止静默跳过。<br>**可关**：`--no-d3-exemption` 关掉豁免（严格模式，连隔离项一起扫），用于审计回看。 |
 | **D4** | 引文不符 | `key_quote_zh` 文本不出现于所标出处的原文 | 复核 |
 | **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年） | 复核 |
 | **D6** | 悬空引用 | `cross_references` / `related_modes` 指向不存在的 `mode_code` | 自动修 |
@@ -94,7 +94,9 @@ tools/credibility_gate.py：
   D1 伪人物      → 硬 FAIL（新增即拦）
   D2 伪造出处    → 硬 FAIL
   D3 出处污染    → 硬 FAIL（正则扫描 source_chapter，**豁免已隔离 figure**）
-  | | *豁免逻辑*：跳过 quarantined figure（H-P23F-001/P24F/P25F/P26F/Phase27Final）的模式，仅对公开人物扫描
+  | | *豁免逻辑*：`is_d3_exempt()` 为真 = 该模式 `figure_code` ∈ `tools/_quarantine.py:QUARANTINE`（唯一事实来源，当前 6 项）；命中即跳过 D3。实现入口 `check_d3_pollution(mode, quarantine, apply_exemption)`。
+  | | *豁免可关*：`--no-d3-exemption` → 严格模式，隔离项也扫。
+  | | *自测*：`python3 tools/test_credibility_gate.py`（6 例：豁免不报 / 非豁免必报 / 严格模式必报 / 负对照必 exit 1 / 干净必 exit 0 / 真实源库 D3=0）。
   D6 悬空引用    → 硬 FAIL
   D4/D5         → WARN（写审计清单，不阻断）
 ```
@@ -103,6 +105,37 @@ tools/credibility_gate.py：
 - 与现有 `preflight` 一样，gate 自身要有**负对照测试**（故意注入一条 D3 → 必须 exit 1）。
 
 ---
+
+### 4.1 D3 豁免实测（Phase37-X1，命令 + 输出）
+
+源库现状（`data/modes_data.json`，2888 条模式）：
+
+```bash
+# 默认：豁免生效（D3 只对公开 figure 扫）
+python3 tools/credibility_gate.py --data-path data/modes_data.json
+  Hard failures (D1/D2/D3/D6): 527
+  of which D3 出处污染: 0
+  D3 exemption: on
+  D3-exempted modes (D1 quarantined figures, not scanned): 43
+  by figure: H-P23F-001=9, H-SX-001=10, P24F=6, P25F=5, P26F=7, Phase27Final=6
+  whitelist source: tools/_quarantine.py QUARANTINE = ['H-P23F-001', 'H-SX-001', 'P24F', 'P25F', 'P26F', 'Phase27Final']
+
+# 严格模式：连隔离项一起扫（D3 反而能看见 6 条）
+python3 tools/credibility_gate.py --no-d3-exemption --data-path data/modes_data.json
+  of which D3 出处污染: 6
+
+# 自测（两个方向都验，防回流）
+python3 tools/test_credibility_gate.py
+  6/6 passed
+```
+
+口径：**D3 在公开人物面上为 0 条**；豁免面 43 条模式、分布在 6 个 D1 隔离 figure 上，逐条可查。
+严格模式下可见的 6 条 D3 命中：`M-P23F-001` / `M-P23F-002` / `M-P23F-009`（H-P23F-001）、
+`M-P25F-006`（P25F）、`M-P26F-001` / `M-P26F-004`（P26F）——全部不进公开产物。
+
+> 边界声明：本豁免**只覆盖 D3**。D1（隔离人物自身）/ D2（伪造出处）/ D6（悬空引用）在源库上仍硬 FAIL
+> （上表 527 条），属**存量债务**，不是本豁免的口径问题；CI 侧「存量不阻断、新增必红」见 Phase37-X3 卡。
+
 
 ## 5. 分阶段路线
 
