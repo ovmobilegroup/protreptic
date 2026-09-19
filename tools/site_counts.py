@@ -205,7 +205,11 @@ PRODUCT_DOCS = ("index.md", "02-tools")
 
 # 允许在 docs 产品页里出现的「源库原始数」——但必须逐行标注口径来源，
 # 否则就是门面数字打架（Phase33-L1 线上翻车的正是这种未标注的旧口径）。
-DOC_SOURCE_LABELS = ("源库", "源数据", "原始记录", "口径")
+DOC_SOURCE_LABELS = ("源库", "源数据", "原始记录")
+# 注意: **不算**"口径" —— "站上发布口径 2848 条" 这种句子正是在声称
+# "站上发布多少"，属于门面而不是源库交代，豁免它会把陈旧数字漏网
+# (Phase35-V1FIX 实测: docs/02-tools/figure_library.md 的 "对外展示的产品规模只有一个口径" 行
+# 因含"口径" 被免检，线上同一页同时写着 2798 和 2848).
 
 
 def scan_product_docs(docs_dir, modes: int, figures: int) -> tuple:

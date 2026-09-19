@@ -11,7 +11,7 @@
 
 ## 数据
 
-- 数据文件：`data/modes_data.json`（源库原始记录 2868 条，21MB；站上发布口径 2848 条）
+- 数据文件：`data/modes_data.json`（源库原始记录 2868 条，21MB；站上发布口径 2798 条）
 - 人物名映射：`data/figure_names.json`
 - 人物档案：`data/figures/*.json`
 
@@ -24,7 +24,7 @@
 # 库统计
 python3 tools/figure_library.py --stats
 
-# 列出全部历史人物（源库 284 位；站上发布口径 283 位）
+# 列出全部历史人物（源库 284 位；站上发布口径 278 位）
 python3 tools/figure_library.py -L
 
 # 查看某位人物的全部 10 条思维模式
@@ -64,7 +64,7 @@ lib.stats()                # 统计
 |------|------|
 | CLI `thinking_mode_selector.py -c <CODE>` | ✅ 未命中场景时回退查询本库 |
 | 每日思维卡片（cron 14b3dfbb，每早 8 点） | ✅ prompt 已指向本库 |
-| API `/api/v1/figures/{code}/modes` 等 | ✅ 数据已入 `thinking_modes` 表（2858 条 = 源库去重口径，含 10 条站上已隔离的伪造记录；站上发布口径 2848 条） |
+| API `/api/v1/figures/{code}/modes` 等 | ✅ 数据已入 `thinking_modes` 表（2858 条 = 源库去重口径，含 10 条站上已隔离的伪造记录；站上发布口径 2798 条） |
 | Web 前端 | ⏳ 待接新接口 |
 
 ## API 接口（FastAPI）
@@ -84,7 +84,7 @@ cd api && python load_v6.py
 
 ## 计数口径（唯一来源）
 
-对外展示的产品规模只有一个口径：**2848 条思维模式 × 283 位历史人物**。
+对外展示的产品规模只有一个口径：**2798 条思维模式 × 278 位历史人物**。
 
 - 唯一来源：`web/public/data/meta.json` 的 `counts.mode_summaries_published`（条数）与
   `counts.mode_by_figure_shards`（人物数）；部署产物 `dist/data/meta.json` 是同一份数据。
@@ -94,6 +94,6 @@ cd api && python load_v6.py
 - 源库 `data/modes_data.json` 是「原始记录」口径：284 位 / 2868 条
   （`python3 tools/figure_library.py --stats`）。其中 10 条没有 `mode_code`、
   10 条是被隔离的伪造记录（H-SX-001 M393–M402，站上搜不到也打不开），
-  扣除后就是站上发布口径 2848 条 / 283 位。
+  扣除后就是站上发布口径 2798 条 / 278 位。
 - 本页正文凡是引用源库规模的地方都写明「源库」，不要把它当成站点的产品规模；
   历史上本页曾把源库口径当成产品规模展示，与站上文案打架。
