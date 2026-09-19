@@ -252,3 +252,25 @@ ovmobilegroup.github.io/protreptic
 结论：门面数字在 首页 head / og:image:alt / twitter:image:alt / 分享图图内文字 /
 /modes·/figures 预渲染 head / 页脚 / /daily hero / /api 文档 / docs 站 meta
 九处全部是 **2848 条模式 × 283 位人物（+1055 个场景）**，只有一个口径。
+
+### A.5 关于源码里残留的 2858 / 2868（不是口径，是「禁止说明」）
+
+```console
+$ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -o "2858\|2868" | wc -l
+2
+$ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -n -B1 "2868"
+8-         counts.mode_summaries_published（真正发布出去、站上能打开的模式摘要条数；
+9:         不是 modes_raw=2868 的源条数，也不是含 10 条隔离伪造模式的 mode_summaries=2858），
+
+$ grep -rn "2858\|2868" web/src web/index.html
+web/index.html:9:         不是 modes_raw=2868 的源条数，也不是含 10 条隔离伪造模式的 mode_summaries=2858），
+```
+
+线上首页里仅剩的两处命中都落在 `web/index.html` 的 HTML 注释中：它们在说明
+`modes_raw` / `mode_summaries` **不是**站点口径 —— 页面上不显示任何数字。
+`web/src/**` 的展示文案与注释里 2858/2868 **零命中**。
+
+保留这段注释是有意的：下一个人若把 `unified_counts()` 改回 `modes_raw`，注释是唯一
+写在「会被改动的那一行旁边」的警告。若不希望对外 HTML 里出现这两个数字，
+删掉该注释即可（但会再次改变 `web/index.html` 外壳长度，需同步重生成
+`docs/architecture/web_p0_routes.json`，见 Phase33-L23 的说明）。
