@@ -6,7 +6,7 @@ Card: `t_c39a6828` (serrano). Method: run the commands, paste raw output only.
 
 | item | value |
 | --- | --- |
-| local time | `2026-09-19 22:37:04 ` |
+| local time | `2026-09-19 22:37:04` |
 | dev repo `/opt/data/workspace/Protreptic` | `17462fa7 Phase37-X2: findings.json 自检脚本 verify_findings.py + 可复跑生成器 + 补 H-SX-001 全 10 条 + 计数刷新到当前库(2888/284;D1=60 D2=10 D3=6 D4=17 D6=40)` |
 | publish repo `/opt/data/release/Protreptic-publish` | `d644470 Phase37-X2: findings.json 自检脚本 + 补 H-SX-001 全 10 条 + 计数刷新（发布仓同步）` |
 | `data/modes_data.json` sha256 (dev == pub) | `bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb` |
@@ -375,5 +375,5 @@ If a later card edits that library, run `python3 tools/build_audit_findings.py -
 `python3 tools/verify_findings.py` again: check E fails loudly on stale counts, which is exactly the
 defect QA6 raised against the previous findings.json.
 
-Snapshot of this run: 2026-09-19 22:37:04 
+Snapshot of this run: 2026-09-19 22:37:04
 
