@@ -3,15 +3,15 @@
  "generated_by": "tools/prerender_routes.py",
  "base": "/protreptic/",
  "count": 1353,
- "total_html_bytes": 8541471,
+ "total_html_bytes": 19399610,
  "counts_by_type": {
   "static": 8,
   "person": 283,
   "scenario": 1055,
   "template": 7
  },
- "body_count": 50,
- "body_total_bytes": 1896454,
+ "body_count": 293,
+ "body_total_bytes": 12599583,
  "body_routes": [
   "figures",
   "minds/AMP",
@@ -52,8 +52,251 @@
   "minds/GJG",
   "minds/GUA",
   "minds/Gauss",
+  "minds/GuoShoujing",
   "minds/H-AE-001",
+  "minds/H-AND-001",
+  "minds/H-AQU-001",
+  "minds/H-AR-001",
+  "minds/H-ARC-001",
+  "minds/H-ASM-001",
+  "minds/H-ATK-001",
+  "minds/H-AUG-001",
+  "minds/H-BA-001",
+  "minds/H-BAC-001",
+  "minds/H-BAK-001",
+  "minds/H-BEN-001",
+  "minds/H-BV-001",
+  "minds/H-CAE-001",
   "minds/H-CC-001",
+  "minds/H-CHN-001",
+  "minds/H-CHU-001",
+  "minds/H-CIC-001",
+  "minds/H-CUR-001",
+  "minds/H-CW-001",
+  "minds/H-CYP-001",
+  "minds/H-DAR-001",
+  "minds/H-DAV-001",
+  "minds/H-DF-001",
+  "minds/H-DKR-001",
+  "minds/H-DSF-001",
+  "minds/H-DY-001",
+  "minds/H-DZS-001",
+  "minds/H-EIN-001",
+  "minds/H-ERA-001",
+  "minds/H-EUC-001",
+  "minds/H-EUL-001",
+  "minds/H-FEI-001",
+  "minds/H-FRE-001",
+  "minds/H-FRK-001",
+  "minds/H-FYJ-001",
+  "minds/H-GAL-001",
+  "minds/H-GAN-001",
+  "minds/H-GAU-001",
+  "minds/H-GHZ-001",
+  "minds/H-GUE-001",
+  "minds/H-HAM-001",
+  "minds/H-HAR-001",
+  "minds/H-HAY-001",
+  "minds/H-HEG-001",
+  "minds/H-HFZ-001",
+  "minds/H-HLG-001",
+  "minds/H-HS-001",
+  "minds/H-HZX-001",
+  "minds/H-IBR-001",
+  "minds/H-IBS-001",
+  "minds/H-INM-001",
+  "minds/H-ISN-001",
+  "minds/H-JBS-001",
+  "minds/H-JEF-001",
+  "minds/H-JSX-001",
+  "minds/H-KD-001",
+  "minds/H-KEY-001",
+  "minds/H-KIE-001",
+  "minds/H-LH-001",
+  "minds/H-LIB-001",
+  "minds/H-LKY-001",
+  "minds/H-LNC-001",
+  "minds/H-LOC-001",
+  "minds/H-LSZ-001",
+  "minds/H-LUT-001",
+  "minds/H-LZ-001",
+  "minds/H-MAN-001",
+  "minds/H-MAR-001",
+  "minds/H-MDL-001",
+  "minds/H-MF-001",
+  "minds/H-MIY-001",
+  "minds/H-MKS-001",
+  "minds/H-MON-001",
+  "minds/H-MT-001",
+  "minds/H-MV-001",
+  "minds/H-MYS-001",
+  "minds/H-NEW-001",
+  "minds/H-NKR-001",
+  "minds/H-NOB-001",
+  "minds/H-ONO-001",
+  "minds/H-P23F-001",
+  "minds/H-PEI-001",
+  "minds/H-PGR-001",
+  "minds/H-QXS-001",
+  "minds/H-SBRY-001",
+  "minds/H-SC-001",
+  "minds/H-SCH-001",
+  "minds/H-SEJ-001",
+  "minds/H-SK-001",
+  "minds/H-SMQ-001",
+  "minds/H-SQ-001",
+  "minds/H-ST-001",
+  "minds/H-SU-001",
+  "minds/H-SUN-001",
+  "minds/H-SW-001",
+  "minds/H-SYS-001",
+  "minds/H-TLS-001",
+  "minds/H-TLY-001",
+  "minds/H-TXZ-001",
+  "minds/H-UM-001",
+  "minds/H-VNY-001",
+  "minds/H-WC-001",
+  "minds/H-WDZ-001",
+  "minds/H-WJM-001",
+  "minds/H-WQ-001",
+  "minds/H-WW-001",
+  "minds/H-WYM-001",
+  "minds/H-WZ-001",
+  "minds/H-WZT-001",
+  "minds/H-XN-001",
+  "minds/H-YC-001",
+  "minds/H-YSS-001",
+  "minds/H-ZKZ-001",
+  "minds/H-ZY-001",
+  "minds/H-ZZ-001",
+  "minds/H-ZZJ-001",
+  "minds/HCM",
+  "minds/HEISENBERG",
+  "minds/HER",
+  "minds/HON",
+  "minds/HRC",
+  "minds/HRD",
+  "minds/HSX",
+  "minds/HT",
+  "minds/Hannibal",
+  "minds/Hawking",
+  "minds/Hippocrates",
+  "minds/HuoQuBing",
+  "minds/IKH",
+  "minds/ISA",
+  "minds/JST",
+  "minds/Jenner",
+  "minds/JoanOfArc",
+  "minds/Justinian",
+  "minds/KUB",
+  "minds/KangXi",
+  "minds/Kautilya",
+  "minds/Khwarizmi",
+  "minds/LAN",
+  "minds/LB",
+  "minds/LIN",
+  "minds/LIQ",
+  "minds/LIS",
+  "minds/LISHIMIN",
+  "minds/LQC",
+  "minds/LUO",
+  "minds/LY",
+  "minds/LZH",
+  "minds/LZX",
+  "minds/LaoZi",
+  "minds/Leibniz",
+  "minds/Lenin",
+  "minds/LiJing",
+  "minds/LiuXiu",
+  "minds/MAI",
+  "minds/MARQ",
+  "minds/MAT",
+  "minds/MCC",
+  "minds/MDLN",
+  "minds/MUS",
+  "minds/MarcoPolo",
+  "minds/MarieCurie",
+  "minds/MartinLuther",
+  "minds/MeijiTenno",
+  "minds/Mendel",
+  "minds/Michelangelo",
+  "minds/Mozart",
+  "minds/NAG",
+  "minds/NAN",
+  "minds/NER",
+  "minds/NIG",
+  "minds/Nobel",
+  "minds/OHM",
+  "minds/OUY",
+  "minds/OdaNobunaga",
+  "minds/P24F",
+  "minds/P25F",
+  "minds/P26F",
+  "minds/PAD",
+  "minds/POI",
+  "minds/PUS",
+  "minds/Phase27Final",
+  "minds/Ptolemy",
+  "minds/QCJ",
+  "minds/QIU",
+  "minds/QJS",
+  "minds/QuYuan",
+  "minds/RFR",
+  "minds/Rhazes",
+  "minds/SAD",
+  "minds/SAU",
+  "minds/SHA",
+  "minds/SMG",
+  "minds/SPI",
+  "minds/SSM",
+  "minds/SUK",
+  "minds/SUL",
+  "minds/SUS",
+  "minds/SUY",
+  "minds/SYX",
+  "minds/Saladin",
+  "minds/Shotoku",
+  "minds/TAN",
+  "minds/TDL",
+  "minds/TIN",
+  "minds/TOKUGAWA",
+  "minds/TOU",
+  "minds/TUT",
+  "minds/TY",
+  "minds/Tesla",
+  "minds/Timur",
+  "minds/VLL",
+  "minds/VOL",
+  "minds/VYG",
+  "minds/Vesalius",
+  "minds/WAT",
+  "minds/WCY",
+  "minds/WEN",
+  "minds/WGW",
+  "minds/WUC",
+  "minds/Watt",
+  "minds/WeiQing",
+  "minds/WrightBrothers",
+  "minds/XZ",
+  "minds/XuGuangQi",
+  "minds/XuanZang",
+  "minds/YAN",
+  "minds/YJ",
+  "minds/YLC",
+  "minds/YZ",
+  "minds/ZAN",
+  "minds/ZEN",
+  "minds/ZHU",
+  "minds/ZKU",
+  "minds/ZSS",
+  "minds/ZZT",
+  "minds/ZengGuoFan",
+  "minds/ZhangHeng",
+  "minds/ZhangQian",
+  "minds/ZhouEnLai",
+  "minds/ZhuYuanZhang",
+  "minds/ZhuangZi",
+  "minds/ZuXuan",
   "modes",
   "templates",
   "templates/baidi",
@@ -64,9 +307,7 @@
   "templates/longzhong",
   "templates/yiling"
  ],
- "excluded_figure_codes": [
-  "H-SX-001"
- ],
+ "excluded_figure_codes": [],
  "routes": [
   {
    "path": "api",
@@ -12791,7 +13032,7 @@
    "code": "AMP",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 6882,
+   "body_text_chars": 6328,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/AMP/"
   },
   {
@@ -12803,7 +13044,7 @@
    "code": "AMU",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 15594,
+   "body_text_chars": 15038,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/AMU/"
   },
   {
@@ -12815,7 +13056,7 @@
    "code": "ARR",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 6873,
+   "body_text_chars": 6319,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ARR/"
   },
   {
@@ -12827,7 +13068,7 @@
    "code": "AUR",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 10779,
+   "body_text_chars": 10223,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/AUR/"
   },
   {
@@ -12839,7 +13080,7 @@
    "code": "AlGhazali",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 2992,
+   "body_text_chars": 2934,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/AlGhazali/"
   },
   {
@@ -12851,7 +13092,7 @@
    "code": "Alexander",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 6744,
+   "body_text_chars": 6697,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Alexander/"
   },
   {
@@ -12863,7 +13104,7 @@
    "code": "Ashoka",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 10310,
+   "body_text_chars": 10259,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Ashoka/"
   },
   {
@@ -12875,7 +13116,7 @@
    "code": "BAI",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 12384,
+   "body_text_chars": 11828,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/BAI/"
   },
   {
@@ -12887,7 +13128,7 @@
    "code": "BAN",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 6588,
+   "body_text_chars": 6032,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/BAN/"
   },
   {
@@ -12899,7 +13140,7 @@
    "code": "BORG",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 13563,
+   "body_text_chars": 13011,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/BORG/"
   },
   {
@@ -12911,7 +13152,7 @@
    "code": "Bach",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 7369,
+   "body_text_chars": 7364,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Bach/"
   },
   {
@@ -12947,7 +13188,7 @@
    "code": "Bismarck",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 8879,
+   "body_text_chars": 8823,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Bismarck/"
   },
   {
@@ -12959,7 +13200,7 @@
    "code": "Bohr",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 2411,
+   "body_text_chars": 2360,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Bohr/"
   },
   {
@@ -12971,7 +13212,7 @@
    "code": "CAI",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 7107,
+   "body_text_chars": 6553,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/CAI/"
   },
   {
@@ -12983,7 +13224,7 @@
    "code": "CL",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 7901,
+   "body_text_chars": 7574,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/CL/"
   },
   {
@@ -12995,7 +13236,7 @@
    "code": "CatherineII",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 10311,
+   "body_text_chars": 10256,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/CatherineII/"
   },
   {
@@ -13007,7 +13248,7 @@
    "code": "Charlemagne",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 9691,
+   "body_text_chars": 9637,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Charlemagne/"
   },
   {
@@ -13019,7 +13260,7 @@
    "code": "Cusanus",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 7192,
+   "body_text_chars": 6640,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Cusanus/"
   },
   {
@@ -13031,7 +13272,7 @@
    "code": "Cyrus",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 9491,
+   "body_text_chars": 9438,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Cyrus/"
   },
   {
@@ -13043,7 +13284,7 @@
    "code": "DLT",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 11692,
+   "body_text_chars": 11134,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/DLT/"
   },
   {
@@ -13055,7 +13296,7 @@
    "code": "DRA",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 13136,
+   "body_text_chars": 12580,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/DRA/"
   },
   {
@@ -13067,7 +13308,7 @@
    "code": "DUM",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 12384,
+   "body_text_chars": 11831,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/DUM/"
   },
   {
@@ -13079,7 +13320,7 @@
    "code": "DUR",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 15219,
+   "body_text_chars": 15105,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/DUR/"
   },
   {
@@ -13091,7 +13332,7 @@
    "code": "DaVinci",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 8787,
+   "body_text_chars": 8738,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/DaVinci/"
   },
   {
@@ -13103,7 +13344,7 @@
    "code": "DengXiaoPing",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 6156,
+   "body_text_chars": 6112,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/DengXiaoPing/"
   },
   {
@@ -13115,7 +13356,7 @@
    "code": "ECL",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 22133,
+   "body_text_chars": 21625,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ECL/"
   },
   {
@@ -13127,7 +13368,7 @@
    "code": "Edison",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 8794,
+   "body_text_chars": 8742,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Edison/"
   },
   {
@@ -13163,7 +13404,7 @@
    "code": "FEB",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 12832,
+   "body_text_chars": 12278,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/FEB/"
   },
   {
@@ -13175,7 +13416,7 @@
    "code": "FOR",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 9640,
+   "body_text_chars": 9378,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/FOR/"
   },
   {
@@ -13199,7 +13440,7 @@
    "code": "GIB",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 6932,
+   "body_text_chars": 6378,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/GIB/"
   },
   {
@@ -13211,7 +13452,7 @@
    "code": "GJG",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 15009,
+   "body_text_chars": 14489,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/GJG/"
   },
   {
@@ -13223,7 +13464,7 @@
    "code": "GUA",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 11523,
+   "body_text_chars": 10968,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/GUA/"
   },
   {
@@ -13246,8 +13487,8 @@
    "name": "郭守敬",
    "code": "GuoShoujing",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 18970,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/GuoShoujing/"
   },
   {
@@ -13259,7 +13500,7 @@
    "code": "H-AE-001",
    "n_modes": 20,
    "body": true,
-   "body_text_chars": 13673,
+   "body_text_chars": 13593,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-AE-001/"
   },
   {
@@ -13270,8 +13511,8 @@
    "name": "安徒生",
    "code": "H-AND-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 16012,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-AND-001/"
   },
   {
@@ -13282,8 +13523,8 @@
    "name": "阿奎那",
    "code": "H-AQU-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11585,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-AQU-001/"
   },
   {
@@ -13294,8 +13535,8 @@
    "name": "汉娜·阿伦特",
    "code": "H-AR-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5495,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-AR-001/"
   },
   {
@@ -13306,8 +13547,8 @@
    "name": "阿基米德",
    "code": "H-ARC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10483,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ARC-001/"
   },
   {
@@ -13318,8 +13559,8 @@
    "name": "亚当·斯密",
    "code": "H-ASM-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 14826,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ASM-001/"
   },
   {
@@ -13330,8 +13571,8 @@
    "name": "凯末尔",
    "code": "H-ATK-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10756,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ATK-001/"
   },
   {
@@ -13342,8 +13583,8 @@
    "name": "奥古斯丁",
    "code": "H-AUG-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11975,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-AUG-001/"
   },
   {
@@ -13354,8 +13595,8 @@
    "name": "八大山人",
    "code": "H-BA-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11136,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-BA-001/"
   },
   {
@@ -13366,8 +13607,8 @@
    "name": "巴哈",
    "code": "H-BAC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11236,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-BAC-001/"
   },
   {
@@ -13378,8 +13619,8 @@
    "name": "培根",
    "code": "H-BAK-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11777,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-BAK-001/"
   },
   {
@@ -13390,8 +13631,8 @@
    "name": "边沁",
    "code": "H-BEN-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11585,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-BEN-001/"
   },
   {
@@ -13402,8 +13643,8 @@
    "name": "波伏娃",
    "code": "H-BV-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8827,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-BV-001/"
   },
   {
@@ -13414,8 +13655,8 @@
    "name": "凯撒",
    "code": "H-CAE-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10868,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CAE-001/"
   },
   {
@@ -13427,7 +13668,7 @@
    "code": "H-CC-001",
    "n_modes": 30,
    "body": true,
-   "body_text_chars": 13017,
+   "body_text_chars": 12955,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CC-001/"
   },
   {
@@ -13438,8 +13679,8 @@
    "name": "陈省身",
    "code": "H-CHN-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10146,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CHN-001/"
   },
   {
@@ -13450,8 +13691,8 @@
    "name": "丘吉尔",
    "code": "H-CHU-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 16783,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CHU-001/"
   },
   {
@@ -13462,8 +13703,8 @@
    "name": "西塞罗",
    "code": "H-CIC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10954,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CIC-001/"
   },
   {
@@ -13474,8 +13715,8 @@
    "name": "居里夫人",
    "code": "H-CUR-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9484,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CUR-001/"
   },
   {
@@ -13486,8 +13727,8 @@
    "name": "克劳塞维茨",
    "code": "H-CW-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11457,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CW-001/"
   },
   {
@@ -13498,8 +13739,8 @@
    "name": "蔡元培",
    "code": "H-CYP-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12301,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CYP-001/"
   },
   {
@@ -13510,8 +13751,8 @@
    "name": "达尔文",
    "code": "H-DAR-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10007,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DAR-001/"
   },
   {
@@ -13522,8 +13763,8 @@
    "name": "达·芬奇",
    "code": "H-DAV-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9635,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DAV-001/"
   },
   {
@@ -13534,8 +13775,8 @@
    "name": "杜甫",
    "code": "H-DF-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12333,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DF-001/"
   },
   {
@@ -13546,8 +13787,8 @@
    "name": "笛卡尔",
    "code": "H-DKR-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8013,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DKR-001/"
   },
   {
@@ -13558,8 +13799,8 @@
    "name": "费奥多尔·陀思妥耶夫斯基",
    "code": "H-DSF-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10373,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DSF-001/"
   },
   {
@@ -13570,8 +13811,8 @@
    "name": "董宇明",
    "code": "H-DY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11513,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DY-001/"
   },
   {
@@ -13582,8 +13823,8 @@
    "name": "董仲舒",
    "code": "H-DZS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 2340,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DZS-001/"
   },
   {
@@ -13594,8 +13835,8 @@
    "name": "爱因斯坦",
    "code": "H-EIN-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11320,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-EIN-001/"
   },
   {
@@ -13606,8 +13847,8 @@
    "name": "伊拉斯谟",
    "code": "H-ERA-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11772,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ERA-001/"
   },
   {
@@ -13618,8 +13859,8 @@
    "name": "欧几里得",
    "code": "H-EUC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9710,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-EUC-001/"
   },
   {
@@ -13630,8 +13871,8 @@
    "name": "欧拉",
    "code": "H-EUL-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9385,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-EUL-001/"
   },
   {
@@ -13642,8 +13883,8 @@
    "name": "非人",
    "code": "H-FEI-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 2851,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-FEI-001/"
   },
   {
@@ -13654,8 +13895,8 @@
    "name": "弗洛伊德",
    "code": "H-FRE-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12447,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-FRE-001/"
   },
   {
@@ -13666,8 +13907,8 @@
    "name": "富兰克林",
    "code": "H-FRK-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8645,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-FRK-001/"
   },
   {
@@ -13678,8 +13919,8 @@
    "name": "福泽谕吉",
    "code": "H-FYJ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7058,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-FYJ-001/"
   },
   {
@@ -13690,8 +13931,8 @@
    "name": "盖伦",
    "code": "H-GAL-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11015,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-GAL-001/"
   },
   {
@@ -13702,8 +13943,8 @@
    "name": "甘地",
    "code": "H-GAN-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10023,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-GAN-001/"
   },
   {
@@ -13714,8 +13955,8 @@
    "name": "高斯",
    "code": "H-GAU-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10085,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-GAU-001/"
   },
   {
@@ -13726,8 +13967,8 @@
    "name": "安萨里",
    "code": "H-GHZ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11000,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-GHZ-001/"
   },
   {
@@ -13738,8 +13979,8 @@
    "name": "切·格瓦拉",
    "code": "H-GUE-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11912,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-GUE-001/"
   },
   {
@@ -13750,8 +13991,8 @@
    "name": "汉密尔顿",
    "code": "H-HAM-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10479,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HAM-001/"
   },
   {
@@ -13762,8 +14003,8 @@
    "name": "哈维",
    "code": "H-HAR-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10714,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HAR-001/"
   },
   {
@@ -13774,8 +14015,8 @@
    "name": "哈耶克",
    "code": "H-HAY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11760,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HAY-001/"
   },
   {
@@ -13786,8 +14027,8 @@
    "name": "黑格尔",
    "code": "H-HEG-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10223,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HEG-001/"
   },
   {
@@ -13798,8 +14039,8 @@
    "name": "韩非",
    "code": "H-HFZ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7253,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HFZ-001/"
   },
   {
@@ -13810,8 +14051,8 @@
    "name": "华罗庚",
    "code": "H-HLG-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 16495,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HLG-001/"
   },
   {
@@ -13822,8 +14063,8 @@
    "name": "胡适",
    "code": "H-HS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7816,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HS-001/"
   },
   {
@@ -13834,8 +14075,8 @@
    "name": "黄宗羲",
    "code": "H-HZX-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6150,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HZX-001/"
   },
   {
@@ -13846,8 +14087,8 @@
    "name": "伊本·鲁世德",
    "code": "H-IBR-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11815,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-IBR-001/"
   },
   {
@@ -13858,8 +14099,8 @@
    "name": "易卜生",
    "code": "H-IBS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 14802,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-IBS-001/"
   },
   {
@@ -13870,8 +14111,8 @@
    "name": "稻盛和夫",
    "code": "H-INM-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9436,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-INM-001/"
   },
   {
@@ -13882,8 +14123,8 @@
    "name": "伊本·西那",
    "code": "H-ISN-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5722,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ISN-001/"
   },
   {
@@ -13894,8 +14135,8 @@
    "name": "乔布斯",
    "code": "H-JBS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10651,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-JBS-001/"
   },
   {
@@ -13906,8 +14147,8 @@
    "name": "杰斐逊",
    "code": "H-JEF-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9915,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-JEF-001/"
   },
   {
@@ -13918,8 +14159,8 @@
    "name": "贾思勰",
    "code": "H-JSX-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6332,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-JSX-001/"
   },
   {
@@ -13930,8 +14171,8 @@
    "name": "康德",
    "code": "H-KD-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9297,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-KD-001/"
   },
   {
@@ -13942,8 +14183,8 @@
    "name": "约翰·梅纳德·凯恩斯",
    "code": "H-KEY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11433,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-KEY-001/"
   },
   {
@@ -13954,8 +14195,8 @@
    "name": "克尔凯郭尔",
    "code": "H-KIE-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 15681,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-KIE-001/"
   },
   {
@@ -13966,8 +14207,8 @@
    "name": "利德尔·哈特",
    "code": "H-LH-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 14154,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LH-001/"
   },
   {
@@ -13978,8 +14219,8 @@
    "name": "李白",
    "code": "H-LIB-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12910,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LIB-001/"
   },
   {
@@ -13990,8 +14231,8 @@
    "name": "李光耀",
    "code": "H-LKY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10196,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LKY-001/"
   },
   {
@@ -14002,8 +14243,8 @@
    "name": "林肯",
    "code": "H-LNC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8782,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LNC-001/"
   },
   {
@@ -14014,8 +14255,8 @@
    "name": "洛克",
    "code": "H-LOC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10974,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LOC-001/"
   },
   {
@@ -14026,8 +14267,8 @@
    "name": "李时珍",
    "code": "H-LSZ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8951,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LSZ-001/"
   },
   {
@@ -14038,8 +14279,8 @@
    "name": "路德",
    "code": "H-LUT-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10782,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LUT-001/"
   },
   {
@@ -14050,8 +14291,8 @@
    "name": "李贽",
    "code": "H-LZ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 3020,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LZ-001/"
   },
   {
@@ -14062,8 +14303,8 @@
    "name": "纳尔逊·曼德拉",
    "code": "H-MAN-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11889,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MAN-001/"
   },
   {
@@ -14074,8 +14315,8 @@
    "name": "马可·奥勒留",
    "code": "H-MAR-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10683,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MAR-001/"
   },
   {
@@ -14086,8 +14327,8 @@
    "name": "德米特里·门捷列夫",
    "code": "H-MDL-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10479,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MDL-001/"
   },
   {
@@ -14098,8 +14339,8 @@
    "name": "米芾",
    "code": "H-MF-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9497,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MF-001/"
   },
   {
@@ -14110,8 +14351,8 @@
    "name": "宫崎骏",
    "code": "H-MIY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10134,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MIY-001/"
   },
   {
@@ -14122,8 +14363,8 @@
    "name": "马斯克",
    "code": "H-MKS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11811,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MKS-001/"
   },
   {
@@ -14134,8 +14375,8 @@
    "name": "孟德斯鸠",
    "code": "H-MON-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11651,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MON-001/"
   },
   {
@@ -14146,8 +14387,8 @@
    "name": "徐霞客",
    "code": "H-MT-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8545,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MT-001/"
   },
   {
@@ -14158,8 +14399,8 @@
    "name": "郑和",
    "code": "H-MV-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10321,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MV-001/"
   },
   {
@@ -14170,8 +14411,8 @@
    "name": "茅以升",
    "code": "H-MYS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 17066,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MYS-001/"
   },
   {
@@ -14182,8 +14423,8 @@
    "name": "牛顿",
    "code": "H-NEW-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9596,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-NEW-001/"
   },
   {
@@ -14194,8 +14435,8 @@
    "name": "恩克鲁玛",
    "code": "H-NKR-001",
    "n_modes": 6,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8958,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-NKR-001/"
   },
   {
@@ -14206,8 +14447,8 @@
    "name": "诺贝尔",
    "code": "H-NOB-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 14654,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-NOB-001/"
   },
   {
@@ -14218,8 +14459,8 @@
    "name": "大野耐一",
    "code": "H-ONO-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8857,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ONO-001/"
   },
   {
@@ -14230,8 +14471,8 @@
    "name": "Phase23收尾整合",
    "code": "H-P23F-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 17017,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-P23F-001/"
   },
   {
@@ -14242,8 +14483,8 @@
    "name": "贝聿铭",
    "code": "H-PEI-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11180,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-PEI-001/"
   },
   {
@@ -14254,8 +14495,8 @@
    "name": "彼得一世（彼得大帝）",
    "code": "H-PGR-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10638,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-PGR-001/"
   },
   {
@@ -14266,8 +14507,8 @@
    "name": "钱学森",
    "code": "H-QXS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 17255,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-QXS-001/"
   },
   {
@@ -14278,8 +14519,8 @@
    "name": "涩泽荣一",
    "code": "H-SBRY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7440,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SBRY-001/"
   },
   {
@@ -14290,8 +14531,8 @@
    "name": "薛定谔",
    "code": "H-SC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10858,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SC-001/"
   },
   {
@@ -14302,8 +14543,8 @@
    "name": "熊彼特",
    "code": "H-SCH-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11879,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SCH-001/"
   },
   {
@@ -14314,8 +14555,8 @@
    "name": "世宗大王",
    "code": "H-SEJ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 13142,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SEJ-001/"
   },
   {
@@ -14326,8 +14567,8 @@
    "name": "沈括",
    "code": "H-SK-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6156,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SK-001/"
   },
   {
@@ -14338,8 +14579,8 @@
    "name": "司马迁",
    "code": "H-SMQ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 3219,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SMQ-001/"
   },
   {
@@ -14350,8 +14591,8 @@
    "name": "司马迁",
    "code": "H-SQ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8495,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SQ-001/"
   },
   {
@@ -14362,8 +14603,8 @@
    "name": "石涛",
    "code": "H-ST-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10464,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ST-001/"
   },
   {
@@ -14374,8 +14615,8 @@
    "name": "苏轼",
    "code": "H-SU-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12209,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SU-001/"
   },
   {
@@ -14386,8 +14627,8 @@
    "name": "孙权",
    "code": "H-SUN-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 3651,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SUN-001/"
   },
   {
@@ -14398,8 +14639,8 @@
    "name": "孙子",
    "code": "H-SW-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11720,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SW-001/"
   },
   {
@@ -14410,8 +14651,8 @@
    "name": "孙中山",
    "code": "H-SYS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9391,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SYS-001/"
   },
   {
@@ -14422,8 +14663,8 @@
    "name": "列夫·托尔斯泰",
    "code": "H-TLS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12418,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-TLS-001/"
   },
   {
@@ -14434,8 +14675,8 @@
    "name": "图灵",
    "code": "H-TLY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11813,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-TLY-001/"
   },
   {
@@ -14446,8 +14687,8 @@
    "name": "陶行知",
    "code": "H-TXZ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11800,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-TXZ-001/"
   },
   {
@@ -14458,8 +14699,8 @@
    "name": "休谟",
    "code": "H-UM-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 13463,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-UM-001/"
   },
   {
@@ -14470,8 +14711,8 @@
    "name": "冯·诺依曼",
    "code": "H-VNY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8299,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-VNY-001/"
   },
   {
@@ -14482,8 +14723,8 @@
    "name": "王充",
    "code": "H-WC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 4140,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WC-001/"
   },
   {
@@ -14494,8 +14735,8 @@
    "name": "吴道子",
    "code": "H-WDZ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10684,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WDZ-001/"
   },
   {
@@ -14506,8 +14747,8 @@
    "name": "威廉·詹姆斯",
    "code": "H-WJM-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10864,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WJM-001/"
   },
   {
@@ -14518,8 +14759,8 @@
    "name": "吴起",
    "code": "H-WQ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10776,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WQ-001/"
   },
   {
@@ -14530,8 +14771,8 @@
    "name": "王维",
    "code": "H-WW-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10718,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WW-001/"
   },
   {
@@ -14542,8 +14783,8 @@
    "name": "王阳明",
    "code": "H-WYM-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 2196,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WYM-001/"
   },
   {
@@ -14554,8 +14795,8 @@
    "name": "王震",
    "code": "H-WZ-001",
    "n_modes": 2,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 509,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WZ-001/"
   },
   {
@@ -14566,8 +14807,8 @@
    "name": "武则天",
    "code": "H-WZT-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6355,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WZT-001/"
   },
   {
@@ -14578,8 +14819,8 @@
    "name": "香农",
    "code": "H-XN-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11446,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-XN-001/"
   },
   {
@@ -14590,8 +14831,8 @@
    "name": "晏阳初",
    "code": "H-YC-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 13415,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-YC-001/"
   },
   {
@@ -14602,8 +14843,8 @@
    "name": "李舜臣",
    "code": "H-YSS-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 13839,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-YSS-001/"
   },
   {
@@ -14614,8 +14855,8 @@
    "name": "竺可桢",
    "code": "H-ZKZ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11981,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZKZ-001/"
   },
   {
@@ -14626,8 +14867,8 @@
    "name": "张仪",
    "code": "H-ZY-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8045,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZY-001/"
   },
   {
@@ -14638,8 +14879,8 @@
    "name": "张载",
    "code": "H-ZZ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6021,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZZ-001/"
   },
   {
@@ -14650,8 +14891,8 @@
    "name": "张仲景",
    "code": "H-ZZJ-001",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8163,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZZJ-001/"
   },
   {
@@ -14662,8 +14903,8 @@
    "name": "胡志明",
    "code": "HCM",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12038,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HCM/"
   },
   {
@@ -14674,8 +14915,8 @@
    "name": "海瑞",
    "code": "HEISENBERG",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 3642,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HEISENBERG/"
   },
   {
@@ -14686,8 +14927,8 @@
    "name": "赫茨尔",
    "code": "HER",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11267,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HER/"
   },
   {
@@ -14698,8 +14939,8 @@
    "name": "本田宗一郎",
    "code": "HON",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9881,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HON/"
   },
   {
@@ -14710,8 +14951,8 @@
    "name": "赫歇尔",
    "code": "HRC",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10045,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HRC/"
   },
   {
@@ -14722,8 +14963,8 @@
    "name": "希罗多德",
    "code": "HRD",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 14833,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HRD/"
   },
   {
@@ -14734,8 +14975,8 @@
    "name": "胡三省",
    "code": "HSX",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6319,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HSX/"
   },
   {
@@ -14746,8 +14987,8 @@
    "name": "华佗",
    "code": "HT",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6765,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HT/"
   },
   {
@@ -14758,8 +14999,8 @@
    "name": "汉尼拔",
    "code": "Hannibal",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8545,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Hannibal/"
   },
   {
@@ -14770,8 +15011,8 @@
    "name": "霍金",
    "code": "Hawking",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6339,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Hawking/"
   },
   {
@@ -14782,20 +15023,20 @@
    "name": "希波克拉底",
    "code": "Hippocrates",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 3837,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Hippocrates/"
   },
   {
    "path": "minds/HuoQuBing",
-   "title": "获取兵 - 思维模式档案 10 条",
+   "title": "霍去病 - 思维模式档案 10 条",
    "description": "以高速机动部队实施深远纵深突击，在敌人反应过来之前完成决定性打击。霍去病18岁时率800轻骑兵深入匈奴腹地，单骑入阵，斩首捕虏两千余级，生擒匈奴相国、当户等。此法的核心逻辑是：在信息不对称的情况下，速度与突然性是弥补兵力劣势的关键。通过高...",
    "type": "person",
-   "name": "获取兵",
+   "name": "霍去病",
    "code": "HuoQuBing",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 3903,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/HuoQuBing/"
   },
   {
@@ -14806,8 +15047,8 @@
    "name": "伊本·赫勒敦",
    "code": "IKH",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 14438,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/IKH/"
   },
   {
@@ -14818,8 +15059,8 @@
    "name": "伊莎贝拉一世",
    "code": "ISA",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 23094,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ISA/"
   },
   {
@@ -14830,8 +15071,8 @@
    "name": "金圣叹",
    "code": "JST",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6746,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/JST/"
   },
   {
@@ -14842,8 +15083,8 @@
    "name": "琴纳",
    "code": "Jenner",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9915,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Jenner/"
   },
   {
@@ -14854,8 +15095,8 @@
    "name": "圣女贞德",
    "code": "JoanOfArc",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5427,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/JoanOfArc/"
   },
   {
@@ -14866,8 +15107,8 @@
    "name": "查士丁尼",
    "code": "Justinian",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6966,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Justinian/"
   },
   {
@@ -14878,8 +15119,8 @@
    "name": "忽必烈",
    "code": "KUB",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12917,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/KUB/"
   },
   {
@@ -14890,8 +15131,8 @@
    "name": "康熙",
    "code": "KangXi",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6370,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/KangXi/"
   },
   {
@@ -14902,8 +15143,8 @@
    "name": "考底利耶",
    "code": "Kautilya",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 1363,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Kautilya/"
   },
   {
@@ -14914,8 +15155,8 @@
    "name": "花剌子米",
    "code": "Khwarizmi",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6987,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Khwarizmi/"
   },
   {
@@ -14926,8 +15167,8 @@
    "name": "朗道",
    "code": "LAN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6216,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LAN/"
   },
   {
@@ -14938,8 +15179,8 @@
    "name": "刘伯温",
    "code": "LB",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7331,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LB/"
   },
   {
@@ -14950,8 +15191,8 @@
    "name": "林彪",
    "code": "LIN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 2090,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LIN/"
   },
   {
@@ -14962,8 +15203,8 @@
    "name": "李清照",
    "code": "LIQ",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6330,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LIQ/"
   },
   {
@@ -14974,8 +15215,8 @@
    "name": "李商隐",
    "code": "LIS",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11768,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LIS/"
   },
   {
@@ -14986,8 +15227,8 @@
    "name": "李世民",
    "code": "LISHIMIN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6158,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LISHIMIN/"
   },
   {
@@ -14998,8 +15239,8 @@
    "name": "梁启超",
    "code": "LQC",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 15040,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LQC/"
   },
   {
@@ -15010,8 +15251,8 @@
    "name": "罗贯中",
    "code": "LUO",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10564,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LUO/"
   },
   {
@@ -15022,8 +15263,8 @@
    "name": "李冶",
    "code": "LY",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6353,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LY/"
   },
   {
@@ -15034,8 +15275,8 @@
    "name": "李泽厚",
    "code": "LZH",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 21551,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LZH/"
   },
   {
@@ -15046,8 +15287,8 @@
    "name": "林则徐",
    "code": "LZX",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9427,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LZX/"
   },
   {
@@ -15058,8 +15299,8 @@
    "name": "老子",
    "code": "LaoZi",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 4898,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LaoZi/"
   },
   {
@@ -15070,8 +15311,8 @@
    "name": "莱布尼茨",
    "code": "Leibniz",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9411,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Leibniz/"
   },
   {
@@ -15082,8 +15323,8 @@
    "name": "列宁",
    "code": "Lenin",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8838,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Lenin/"
   },
   {
@@ -15094,8 +15335,8 @@
    "name": "李靖",
    "code": "LiJing",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5033,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LiJing/"
   },
   {
@@ -15106,8 +15347,8 @@
    "name": "刘秀",
    "code": "LiuXiu",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 4028,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LiuXiu/"
   },
   {
@@ -15118,8 +15359,8 @@
    "name": "迈蒙尼德",
    "code": "MAI",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10634,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MAI/"
   },
   {
@@ -15130,8 +15371,8 @@
    "name": "马尔克斯",
    "code": "MARQ",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12763,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MARQ/"
   },
   {
@@ -15142,8 +15383,8 @@
    "name": "松下幸之助",
    "code": "MAT",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10306,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MAT/"
   },
   {
@@ -15154,8 +15395,8 @@
    "name": "麦克林托克",
    "code": "MCC",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11225,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MCC/"
   },
   {
@@ -15166,8 +15407,8 @@
    "name": "马端临",
    "code": "MDLN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6060,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MDLN/"
   },
   {
@@ -15178,8 +15419,8 @@
    "name": "曼萨·穆萨",
    "code": "MUS",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 15867,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MUS/"
   },
   {
@@ -15190,8 +15431,8 @@
    "name": "马可波罗",
    "code": "MarcoPolo",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 3402,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MarcoPolo/"
   },
   {
@@ -15202,8 +15443,8 @@
    "name": "居里夫人",
    "code": "MarieCurie",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5952,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MarieCurie/"
   },
   {
@@ -15214,8 +15455,8 @@
    "name": "马丁·路德",
    "code": "MartinLuther",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10356,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MartinLuther/"
   },
   {
@@ -15226,8 +15467,8 @@
    "name": "明治天皇",
    "code": "MeijiTenno",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11389,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/MeijiTenno/"
   },
   {
@@ -15238,8 +15479,8 @@
    "name": "施耐庚",
    "code": "Mendel",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 2786,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Mendel/"
   },
   {
@@ -15250,8 +15491,8 @@
    "name": "米开朗基罗",
    "code": "Michelangelo",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9673,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Michelangelo/"
   },
   {
@@ -15262,8 +15503,8 @@
    "name": "莫扎特",
    "code": "Mozart",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7959,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Mozart/"
   },
   {
@@ -15274,8 +15515,8 @@
    "name": "龙树",
    "code": "NAG",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10273,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/NAG/"
   },
   {
@@ -15286,8 +15527,8 @@
    "name": "南泉普愿",
    "code": "NAN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12789,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/NAN/"
   },
   {
@@ -15298,8 +15539,8 @@
    "name": "聂鲁达",
    "code": "NER",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7958,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/NER/"
   },
   {
@@ -15310,8 +15551,8 @@
    "name": "南丁格尔",
    "code": "NIG",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9992,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/NIG/"
   },
   {
@@ -15322,8 +15563,8 @@
    "name": "诺贝尔",
    "code": "Nobel",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5471,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Nobel/"
   },
   {
@@ -15334,8 +15575,8 @@
    "name": "欧姆",
    "code": "OHM",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6470,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/OHM/"
   },
   {
@@ -15346,8 +15587,8 @@
    "name": "欧阳修",
    "code": "OUY",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11903,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/OUY/"
   },
   {
@@ -15358,8 +15599,8 @@
    "name": "织田信长",
    "code": "OdaNobunaga",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 1298,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/OdaNobunaga/"
   },
   {
@@ -15370,8 +15611,8 @@
    "name": "Phase24收尾整合",
    "code": "P24F",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 17519,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/P24F/"
   },
   {
@@ -15382,8 +15623,8 @@
    "name": "Phase25收尾整合",
    "code": "P25F",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 22547,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/P25F/"
   },
   {
@@ -15394,8 +15635,8 @@
    "name": "Phase26收尾整合",
    "code": "P26F",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 14174,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/P26F/"
   },
   {
@@ -15406,8 +15647,8 @@
    "name": "莲花生",
    "code": "PAD",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9710,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/PAD/"
   },
   {
@@ -15418,8 +15659,8 @@
    "name": "彭加勒",
    "code": "POI",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12679,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/POI/"
   },
   {
@@ -15430,8 +15671,8 @@
    "name": "蒲松龄",
    "code": "PUS",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10233,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/PUS/"
   },
   {
@@ -15442,8 +15683,8 @@
    "name": "Phase27收尾整合",
    "code": "Phase27Final",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11718,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Phase27Final/"
   },
   {
@@ -15454,8 +15695,8 @@
    "name": "托勒密",
    "code": "Ptolemy",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 1509,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Ptolemy/"
   },
   {
@@ -15466,8 +15707,8 @@
    "name": "丘处机",
    "code": "QCJ",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6781,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/QCJ/"
   },
   {
@@ -15478,8 +15719,8 @@
    "name": "秋瑾",
    "code": "QIU",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5955,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/QIU/"
   },
   {
@@ -15490,8 +15731,8 @@
    "name": "秦九韶",
    "code": "QJS",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6276,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/QJS/"
   },
   {
@@ -15502,8 +15743,8 @@
    "name": "屈原",
    "code": "QuYuan",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5013,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/QuYuan/"
   },
   {
@@ -15514,8 +15755,8 @@
    "name": "富兰克林(女)",
    "code": "RFR",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10707,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/RFR/"
   },
   {
@@ -15526,8 +15767,8 @@
    "name": "拉齐斯",
    "code": "Rhazes",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6702,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Rhazes/"
   },
   {
@@ -15538,8 +15779,8 @@
    "name": "萨达特",
    "code": "SAD",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 17792,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SAD/"
   },
   {
@@ -15550,8 +15791,8 @@
    "name": "索绪尔",
    "code": "SAU",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 15152,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SAU/"
   },
   {
@@ -15562,8 +15803,8 @@
    "name": "商羯罗",
    "code": "SHA",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8954,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SHA/"
   },
   {
@@ -15574,8 +15815,8 @@
    "name": "司马光",
    "code": "SMG",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 13470,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SMG/"
   },
   {
@@ -15586,8 +15827,8 @@
    "name": "斯宾诺莎",
    "code": "SPI",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10324,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SPI/"
   },
   {
@@ -15598,8 +15839,8 @@
    "name": "孙思邈",
    "code": "SSM",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6186,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SSM/"
   },
   {
@@ -15610,8 +15851,8 @@
    "name": "苏加诺",
    "code": "SUK",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 12198,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SUK/"
   },
   {
@@ -15622,8 +15863,8 @@
    "name": "苏莱曼大帝",
    "code": "SUL",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11170,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SUL/"
   },
   {
@@ -15634,8 +15875,8 @@
    "name": "苏颂",
    "code": "SUS",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11813,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SUS/"
   },
   {
@@ -15646,8 +15887,8 @@
    "name": "粟裕",
    "code": "SUY",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5852,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SUY/"
   },
   {
@@ -15658,8 +15899,8 @@
    "name": "宋应星",
    "code": "SYX",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7080,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/SYX/"
   },
   {
@@ -15670,8 +15911,8 @@
    "name": "萨拉丁",
    "code": "Saladin",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8277,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Saladin/"
   },
   {
@@ -15682,8 +15923,8 @@
    "name": "圣德太子",
    "code": "Shotoku",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6285,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Shotoku/"
   },
   {
@@ -15694,8 +15935,8 @@
    "name": "汤显祖",
    "code": "TAN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10582,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/TAN/"
   },
   {
@@ -15706,8 +15947,8 @@
    "name": "李政道",
    "code": "TDL",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6450,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/TDL/"
   },
   {
@@ -15718,8 +15959,8 @@
    "name": "丁肇中",
    "code": "TIN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6634,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/TIN/"
   },
   {
@@ -15730,8 +15971,8 @@
    "name": "德川家康",
    "code": "TOKUGAWA",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 4671,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/TOKUGAWA/"
   },
   {
@@ -15742,8 +15983,8 @@
    "name": "屠呦呦",
    "code": "TOU",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 11514,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/TOU/"
   },
   {
@@ -15754,8 +15995,8 @@
    "name": "图特摩斯三世",
    "code": "TUT",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 18241,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/TUT/"
   },
   {
@@ -15766,8 +16007,8 @@
    "name": "唐寅",
    "code": "TY",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10924,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/TY/"
   },
   {
@@ -15778,8 +16019,8 @@
    "name": "特斯拉",
    "code": "Tesla",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9355,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Tesla/"
   },
   {
@@ -15790,8 +16031,8 @@
    "name": "帖木儿",
    "code": "Timur",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5473,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Timur/"
   },
   {
@@ -15802,8 +16043,8 @@
    "name": "略萨",
    "code": "VLL",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8460,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/VLL/"
   },
   {
@@ -15814,8 +16055,8 @@
    "name": "伏打",
    "code": "VOL",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6007,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/VOL/"
   },
   {
@@ -15826,8 +16067,8 @@
    "name": "维果茨基",
    "code": "VYG",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 15299,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/VYG/"
   },
   {
@@ -15838,8 +16079,8 @@
    "name": "维萨里",
    "code": "Vesalius",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 1357,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Vesalius/"
   },
   {
@@ -15850,8 +16091,8 @@
    "name": "瓦特",
    "code": "WAT",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10272,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/WAT/"
   },
   {
@@ -15862,8 +16103,8 @@
    "name": "王重阳",
    "code": "WCY",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6534,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/WCY/"
   },
   {
@@ -15874,8 +16115,8 @@
    "name": "文徵明",
    "code": "WEN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9658,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/WEN/"
   },
   {
@@ -15886,8 +16127,8 @@
    "name": "王国维",
    "code": "WGW",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 14482,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/WGW/"
   },
   {
@@ -15898,8 +16139,8 @@
    "name": "吴承恩",
    "code": "WUC",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10100,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/WUC/"
   },
   {
@@ -15910,8 +16151,8 @@
    "name": "瓦特",
    "code": "Watt",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 4622,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Watt/"
   },
   {
@@ -15922,8 +16163,8 @@
    "name": "孙权",
    "code": "WeiQing",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 3769,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/WeiQing/"
   },
   {
@@ -15934,8 +16175,8 @@
    "name": "莱特兄弟",
    "code": "WrightBrothers",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9885,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/WrightBrothers/"
   },
   {
@@ -15946,8 +16187,8 @@
    "name": "孝庄",
    "code": "XZ",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9942,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/XZ/"
   },
   {
@@ -15958,8 +16199,8 @@
    "name": "徐光启",
    "code": "XuGuangQi",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 2874,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/XuGuangQi/"
   },
   {
@@ -15970,8 +16211,8 @@
    "name": "玄奘",
    "code": "XuanZang",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10234,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/XuanZang/"
   },
   {
@@ -15982,8 +16223,8 @@
    "name": "燕肃",
    "code": "YAN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9835,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/YAN/"
   },
   {
@@ -15994,8 +16235,8 @@
    "name": "义净",
    "code": "YJ",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6580,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/YJ/"
   },
   {
@@ -16006,8 +16247,8 @@
    "name": "耶律楚材",
    "code": "YLC",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7282,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/YLC/"
   },
   {
@@ -16018,8 +16259,8 @@
    "name": "雍正",
    "code": "YZ",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8687,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/YZ/"
   },
   {
@@ -16030,8 +16271,8 @@
    "name": "澹台灭明",
    "code": "ZAN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 13063,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZAN/"
   },
   {
@@ -16042,8 +16283,8 @@
    "name": "曾公亮",
    "code": "ZEN",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 10349,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZEN/"
   },
   {
@@ -16054,8 +16295,8 @@
    "name": "祝允明",
    "code": "ZHU",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 8531,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZHU/"
   },
   {
@@ -16066,8 +16307,8 @@
    "name": "朱可夫",
    "code": "ZKU",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 1844,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZKU/"
   },
   {
@@ -16078,8 +16319,8 @@
    "name": "朱舜水",
    "code": "ZSS",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 18803,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZSS/"
   },
   {
@@ -16090,8 +16331,8 @@
    "name": "左宗棠",
    "code": "ZZT",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9447,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZZT/"
   },
   {
@@ -16102,8 +16343,8 @@
    "name": "曾国藩",
    "code": "ZengGuoFan",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6455,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZengGuoFan/"
   },
   {
@@ -16114,8 +16355,8 @@
    "name": "张衡",
    "code": "ZhangHeng",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 21288,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZhangHeng/"
   },
   {
@@ -16126,8 +16367,8 @@
    "name": "张骞",
    "code": "ZhangQian",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9386,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZhangQian/"
   },
   {
@@ -16138,8 +16379,8 @@
    "name": "周恩来",
    "code": "ZhouEnLai",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 6212,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZhouEnLai/"
   },
   {
@@ -16150,8 +16391,8 @@
    "name": "朱元璋",
    "code": "ZhuYuanZhang",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 9486,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZhuYuanZhang/"
   },
   {
@@ -16162,8 +16403,8 @@
    "name": "庄子",
    "code": "ZhuangZi",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 5004,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZhuangZi/"
   },
   {
@@ -16174,8 +16415,8 @@
    "name": "祖暅",
    "code": "ZuXuan",
    "n_modes": 10,
-   "body": false,
-   "body_text_chars": 0,
+   "body": true,
+   "body_text_chars": 7145,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZuXuan/"
   },
   {
@@ -16184,7 +16425,7 @@
    "description": "2858 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话.",
    "type": "static",
    "body": true,
-   "body_text_chars": 3027,
+   "body_text_chars": 2089,
    "canonical": "https://ovmobilegroup.github.io/protreptic/modes/"
   },
   {
