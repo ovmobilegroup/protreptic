@@ -568,6 +568,26 @@ JOB Build API Docker Image      in_progress           <- 镜像构建较慢，�
 
 本报告判定用的是**门所在的 test job（success）**与 `Pages`（success）；workflow 级结论在我截稿时仍 `in_progress`，不做「全绿」的推测。对照：同一条链在 X5 的 `1943a9f`（存量态）上 `Protreptic CI/CD 35453243048 success`、`Deploy to Pages 35453243025 success` —— 存量态绿是成立的。
 
+#### 3.5.6 补记（提交后回读，覆盖 3.5.5 截稿后的变化）
+
+3.5.5 里 `Protreptic CI/CD` 在 `7eeb56a` 上还 `in_progress`（Build API Docker Image 未跑完）。提交本科报告后再回读一次，事实如下（同一 API，原样）：
+
+```text
+35453736507 Protreptic CI/CD       7eeb56a  success    <- 3.5.5 截稿后跑完，仍是 success
+35453994796 Quality Gate           7eeb56a  success
+35454743787 Deploy to GitHub Pages 1e98705  success    构建 SPA + 文档站 success + 部署 success
+35454743774 Protreptic CI/CD       1e98705  success
+35454922502 Quality Gate           1e98705  success
+35454743793 CI (markdown-lint)     1e98705  failure    Summary: 2 error(s) —— 仍是、且仅是 phase37_x2_evidence.md 的同两条
+```
+
+两点值得记下：
+
+1. `1e98705` = 本报告入库后的 head，`CI` 的失败内容**仍是同 2 条**（MD038 `:9:16` + MD009 `:378:42`，全在 `docs/qa/phase37_x2_evidence.md`）—— 反过来证明**本报告自身在 CI 里 0 lint 错误**（本地同版本 `markdownlint-cli2 v0.11.0` 也是 `Summary: 0 error(s)`）。
+2. 本报告每次 push 都会触发新一轮 run（`docs/**` 在 `pages.yml` 的 `paths` 内），所以「报告自身的 head」永远晚一轮；判定基准请以 3.5.4 / 3.5.6 里带 run id 的原始结论为准。
+
+结论不变：除 `CI`（markdown-lint）外全绿；`CI` 的红 = 2 行，归 Phase37-X2，修掉即全绿。
+
 ## 4. 阻塞项与建议（可执行的通过/驳回意见）
 
 | # | 阻塞项 | 归属 | 处置 |
