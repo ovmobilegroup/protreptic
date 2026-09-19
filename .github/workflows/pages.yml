@@ -47,6 +47,7 @@ on:
       - 'tools/build_og_images.py'
       - 'tools/apply_og_meta.py'
       - 'tools/apply_site_counts.py'
+      - 'tools/site_counts.py'
       - 'tools/og_image.py'
       - 'tools/build_sw.py'
       - 'tools/build_pwa_icons.py'
@@ -161,12 +162,15 @@ jobs:
       - name: 写入 og:image / twitter:image
         run: python3 tools/apply_og_meta.py
 
-      # Step B2.7: 首页计数口径 Phase32-F2 —— dist/index.html 的 description /
-      # og:description 由 dist/data/meta.json 的 counts 覆写。
-      # 首页不在 prerender_routes 的 STATIC_ROUTES 里（首页 = dist/index.html 本身），
-      # 预渲染覆盖不到它；R8R9 清 web/src 硬编码时漏了 web/index.html，线上首页因此
-      # 一直写着 2868 条 / 284 位。必须在 prerender + apply_og_meta 之后（这两步重写 head）。
-      # 自检：两条 meta 各恰好一份且回读等于目标串、SPA 打包产物里有同一句话、旧口径零残留。
+      # Step B2.7: 门面计数收口 Phase32-F2 / Phase33-L1 / Phase34-L1B —— 取数一律走共享模块
+      # tools/site_counts.py（唯一来源 = dist/data/meta.json 的 counts），本步骤负责：
+      #   1) dist/index.html 的 description / og:description（首页不在 prerender_routes 的
+      #      STATIC_ROUTES 里，预渲染覆盖不到它）；
+      #   2) 两份 PWA manifest 的 description（web/public/** 由 Vite 原样拷进 dist，线上可直取；
+      #      Phase33-L1 漏了它们 → QA3 判 L1 FAIL，两份都写成 2858）；
+      #   3) dist/** 全量门面扫描 + docs 产品门面页体检（否则每加一个表面就再漏一次）。
+      # 必须在 prerender + apply_og_meta 之后（这两步重写 head），在 build_sw 之前
+      # （sw.js 的预缓存清单里含两份 manifest）。
       - name: 首页计数口径收口
         run: python3 tools/apply_site_counts.py
 

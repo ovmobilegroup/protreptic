@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Protreptic · 思想典藏 — 历史人物思维模式库</title>
-    <!-- 站点计数口径（Phase33-L1）：条数 = web/public/data/meta.json 的
-         counts.mode_summaries_published（真正发布出去、站上能打开的模式摘要条数；
-         不是 modes_raw=2868 的源条数，也不是含 10 条隔离伪造模式的 mode_summaries=2858），
-         人物数 = counts.mode_by_figure_shards。
-         构建期 tools/apply_site_counts.py 用同一来源覆写下面两条 meta 并自检；
-         R8R9 只清了 web/src，漏了本文件 —— 别只改这里。 -->
+    <!-- 站点计数口径：条数 / 人物数的唯一取数入口是 tools/site_counts.py
+         （读部署产物 data/meta.json 的 counts.mode_summaries_published 与
+         counts.mode_by_figure_shards；源记录数与含隔离条目的去重数只是内部计数键，
+         不做门面文案）。
+         构建期 tools/apply_site_counts.py 用它覆写下面两条 meta，并顺带收口两份 PWA
+         manifest 与 docs 产品页；本文件里的数字只是兜底占位，别手改这里。 -->
     <meta name="description"
           content="2848 条思维模式 × 283 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。" />
     <meta name="theme-color" content="#04060c" id="pt-theme-color" />
