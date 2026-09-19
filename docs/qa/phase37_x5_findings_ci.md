@@ -22,8 +22,8 @@
 | `tools/verify_findings.py` | 两档（`--legacy-report` / `--hard-fail` / `--write-baseline`）+ 指纹 + E 降级为警告 | `a5ed85852cbba2a25b40a499a00f31d3786c158c5f74cca7822c00f231eb9456` |
 | `tools/test_verify_findings_modes.py`（新） | 八项自测（负对照语义的机检守护） | `653e5c060dcf71674184bc12b8171063e1e68a0f1da05fdd9cb943e5cdf949fb` |
 | `data/audit/findings_baseline.json`（新） | findings 硬失败基线（当前 0 条，fail-closed） | `a84dd590a83c0d01d46451e4d526d3279c7f7ee2f68538dcc6e975c757e81ea2` |
-| `docs/planning/credibility_framework.md` | 新增 §8（两档 + 计数过期归属 + 接线位置） | `129b7d3b146591c4a3dcbec62df6d67e242bb276d22e2a6df5999c065b894014` |
-| `docs/qa/phase37_x5_findings_ci.md`（新，本文件） | 命令 + 原始输出 + CI run 证据 | 见 §6 |
+| `docs/planning/credibility_framework.md` | 本卡新增 §8（两档 + 计数过期归属 + 接线位置）；收尾时两仓同 sha `dfe2b0e6...a2c`（§9 由 Phase37-X4 追加，非本卡） | `dfe2b0e64a1384a085eb3d740922d833b0f2aaed038b332d40fe6bd7c1ae2a2c` |
+| `docs/qa/phase37_x5_findings_ci.md`（新，本文件） | 命令 + 原始输出 + CI run 证据 | 本报告本体，不做自指 sha；两仓一致性以 `sha256sum` 复核为准 |
 | 发布仓 `.github/workflows/ci-cd.yml` | `test` job 新增 2 步（与 X3 的门相邻） | `8c78537901760c8125e731b5676eef80528feab142eb547b244baabc8cc0b287` |
 
 **未动** `pages.yml`（发布仓 sha256 保持 `615e22699c6b61656a79311037109bf6afa4203162f52c8b35ee1064369d779a`，本卡未触碰）——
@@ -142,11 +142,111 @@ $ python3 tools/test_credibility_gate.py
         run: python3 tools/test_verify_findings_modes.py
 ```
 
-<!-- CI-EVIDENCE -->
+### 6.1 干净态真实 run（绿）：run 35451691994
+
+| 项 | 值 |
+|---|---|
+| workflow | `Protreptic CI/CD`（run id **35451691994**，push，`main`） |
+| head | `d25d4a7`「Phase37-X5: findings 自检接进 ci-cd test job（两档 + 计数过期只警告）；pages.yml 不动」 |
+| 结论 | **success**；`Test (Python + TypeScript)` ✓ 2m27s（job id `105919850698`） |
+| 步骤日志（原始） | 见下 |
+
+```
+findings 自检 · 新增硬失败必红
+  hard failures on this findings file: 0
+  baseline frozen at 2026-09-19T15:20:44+00:00 (total=0, fingerprints=0, A=0 B=0 C=0 D=0)
+  --- 存量（基线内，冻结）: 0 条 [A=0 B=0 C=0 D=0] ---
+  --- 新增（基线外，必拦）: 0 条 ---
+  --- 计数过期（警告，不阻断）: 0 条 ---
+  [OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0
+
+findings 自检 · 两档八项（含计数过期只警告）
+  [PASS] 1 干净态 --hard-fail exit 0
+  [PASS] 2 干净态 --legacy-report exit 0 且两档分节都在
+  [PASS] 3 注入不存在的 mode_code -> exit 1 且 ::error::NEW
+  [PASS] 4 移除注入（原始 findings）-> 复绿 exit 0
+  [PASS] 5 基线缺失 -> exit 2（fail-closed）
+  [PASS] 6 冻结注入态后 -> 存量不阻断 exit 0
+  [PASS] 7 冻结态下再注入第二条坏 code -> exit 1
+  [PASS] 8 计数过期只警告不红（E 归属：警告）
+  8/8 passed
+```
+
+同一 run 里 X3 的两道门照常：`可信度门 · 新增违规必红` → `[OK] hard-fail: 无新增硬失败（存量 527 条已冻结）-> exit 0`；
+`链接源核验 · 新增坏链必红` → `[OK] hard-fail: 无新增坏链（存量 1 条已冻结）-> exit 0`。
+
+### 6.2 注入 1 条不存在 code 的真实 run（红）：run 35452191429
+
+| 项 | 值 |
+|---|---|
+| head | `3a559ce`「QA37-X5 注入 1 条不存在 code（M-QA37-X5-BAD-001，仅用于 CI 红态自证）」 |
+| 结论 | **failure**；`Test (Python + TypeScript)` ✗ 44s（job id `105921169320`） |
+| 步骤序列 | `可信度门 · 新增违规必红` ✓ → `链接源核验 · 新增坏链必红` ✓ → `可信度门 · 负对照自测` ✓ → **`findings 自检 · 新增硬失败必红` ✗** → 其后全部 skipped（含 `findings 自检 · 两档八项`、npm 安装、SPA 构建） |
+
+```
+hard failures on this findings file: 1
+[FAIL] hard-fail: 1 条新增硬失败（基线外）-> exit 1（存量 0 条已冻结）
+##[error]NEW B|M-QA37-X5-BAD-001|mode_code=M-QA37-X5-BAD-001 | B: [M-QA37-X5-BAD-001] mode_code 'M-QA37-X5-BAD-001' does not exist in the source library (data/modes_data.json)
+##[error]Process completed with exit code 1.
+```
+
+注入形态与自测第 3 项同源：把 `findings[0].mode_code` 从 `M-P23F-001` 改成库里不存在的
+`M-QA37-X5-BAD-001`（不改 `modes_data.json`、不改 `summary`）—— 只有 B 类「code 存在性」被打破，
+门按预期拦在**新增硬失败**上。
+
+### 6.3 移除后复绿的真实 run（绿）：run 35452346769
+
+| 项 | 值 |
+|---|---|
+| head | `10351a6`「QA37-X5 移除注入的坏样本，恢复基线态（预期 CI 复绿）」 |
+| 结论 | **success**；`Test (Python + TypeScript)` ✓ 2m22s（job id `105921571313`） |
+
+```
+findings 自检 · 新增硬失败必红
+  --- 计数过期（警告，不阻断）: 0 条 ---
+  [OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0
+
+findings 自检 · 两档八项（含计数过期只警告）
+  [PASS] 3 注入不存在的 mode_code -> exit 1 且 ::error::NEW
+  [PASS] 4 移除注入（原始 findings）-> 复绿 exit 0
+  8/8 passed
+```
+
+### 6.4 报告 push 后仍绿
+
+<!-- CI-EVIDENCE-4 -->
+
+### 6.5 顺带如实记录：`CI`（markdown-lint）本卡 run 仍红，但**非本卡引入**
+
+本卡首个 push 触发的 `CI` run **35451691981**（15s，failure）只有 2 条 error，全部落在
+`docs/qa/phase37_x2_evidence.md`（X2 的文件）：
+
+```
+[error] docs/qa/phase37_x2_evidence.md:9:16 MD038/no-space-in-code
+[error] docs/qa/phase37_x2_evidence.md:378:42 MD009/no-trailing-spaces
+Summary: 2 error(s)
+```
+
+该 run 一共 lint 了 232 个文件，本卡新增的 `docs/qa/phase37_x5_findings_ci.md` **0 error**
+（与 X3 §9.1 记录的存量红完全同一处，归 X2）。
+
 
 ## 7. 两仓同步与 parity
 
-<!-- PARITY -->
+- **字节一致的文件**（本卡交付面，`sha256` 见 §2 表）：`tools/verify_findings.py`、
+  `tools/test_verify_findings_modes.py`、`data/audit/findings_baseline.json`、
+  `docs/planning/credibility_framework.md`、`docs/qa/phase37_x5_findings_ci.md`
+  —— 发布仓副本由开发仓原样 `cp`（报告本身在最终提交里是同一份字节）。
+- **机检**：Phase37-X4 的 `tools/check_repo_parity.py` 收尾时输出
+  `[OK] 零差异：1308 个构建图文件两仓逐字节一致（sha256）`；
+  `.github/**`（CI 编排）在 X4 定义的构建图边界**之外**（两仓职责不同），
+  这正是本卡「只改发布仓 `ci-cd.yml`、不动 dev 仓 workflow、不动 `pages.yml`」的依据。
+- `data/modes_data.json` / `data/audit/findings.json` 两仓同 sha
+  （`bf168171...f2e61cb` / `726be6f4...68abd6`），红态注入与移除都只发生在发布仓，
+  注入提交 `3a559ce` 已由 `10351a6` 移除（工作树回到注入前字节）。
+- **push 与 ahead**：
+
+<!-- PARITY-FINAL -->
 
 ## 8. 遗留与建议（如实列出）
 
