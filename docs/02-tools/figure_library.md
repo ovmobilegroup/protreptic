@@ -91,7 +91,7 @@ cd api && python load_v6.py
 - 唯一取数入口：`tools/site_counts.py`。站点 head、两份 PWA manifest（`manifest.webmanifest` /
   `manifest-light.webmanifest`）、分享图文案、docs 产品页都调它，不各自去读 `meta.json`，
   更不写死数字 —— 这正是一再漏网（首页 head、manifest、本页）的根因。
-- 源库 `data/modes_data.json` 是**原始记录**口径：284 位 / 2868 条
+- 源库 `data/modes_data.json` 是「原始记录」口径：284 位 / 2868 条
   （`python3 tools/figure_library.py --stats`）。其中 10 条没有 `mode_code`、
   10 条是被隔离的伪造记录（H-SX-001 M393–M402，站上搜不到也打不开），
   扣除后就是站上发布口径 2848 条 / 283 位。
