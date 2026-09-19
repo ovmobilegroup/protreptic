@@ -29,6 +29,26 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
+      # ---- Phase37-X3：可信度门（存量冻结 / 新增即拦）----
+      # push / PR 都过这道门：存量债务只报告，基线外的坏数据直接红。
+      - name: 可信度门 · 新增违规必红
+        run: python3 tools/credibility_gate.py --hard-fail --data-path data/modes_data.json
+
+      - name: 链接源核验 · 新增坏链必红
+        run: python3 tools/verify_source_links.py --hard-fail
+
+      # 铁律 §6.4「任何机检规则都要有负对照测试」：门的负对照不能当 CI 步骤
+      # （--negative-test 的成功语义就是 exit 1），改由两个自测守护其语义。
+      - name: 可信度门 · 负对照自测（D3 豁免两方向 + 两档七项）
+        run: |
+          set -euo pipefail
+          python3 tools/test_credibility_gate_modes.py
+          if [ -f tools/test_credibility_gate.py ]; then
+            python3 tools/test_credibility_gate.py
+          else
+            echo "::notice::tools/test_credibility_gate.py 尚未入库，本步跳过（Phase37-X1 落地后自动生效）"
+          fi
+
       - name: Install Python dependencies
         run: |
           cd api

@@ -1,0 +1,18 @@
+{
+  "schema": "protreptic.source_links_baseline/v1",
+  "generated_at": "2026-09-19T14:33:51+00:00",
+  "generated_by": "tools/verify_source_links.py --write-baseline",
+  "policy": "存量冻结、新增即拦：本文件登记的坏链只报告不阻断（exit 0）；任何未登记的确定性坏链在 --hard-fail 下 exit 1；连接层失败只算警告",
+  "counts": {
+    "violations": 1,
+    "distinct": 1
+  },
+  "entries": [
+    {
+      "id": "《天学初函》|https://archive.org/details/tienhocsinhuan",
+      "source": "《天学初函》",
+      "url": "https://archive.org/details/tienhocsinhuan",
+      "status": 404
+    }
+  ]
+}

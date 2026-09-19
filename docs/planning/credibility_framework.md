@@ -157,3 +157,32 @@ python3 tools/test_credibility_gate.py
 3. 「存疑」要如实展示，**不假装 100% 干净**。
 4. 任何机检规则都要有**负对照测试**（能抓到坏样本）。
 5. 两仓同步、字节级一致；push 后 `ahead=0`；CI 自证。
+
+---
+
+## 7. CI 两档门口径：存量冻结 / 新增即拦（Phase37-X3）
+
+问题：源库仍有 **527 条存量硬失败**（D1 60 / D2 9 / D6 458）。`credibility_gate.py` 的默认
+档位是严格口径（任何硬失败 exit 1），照抄接进 CI 的直接后果是 **Pages 永久红、部署永远 skip**
+（QA6 §4.2 实测 exit 1 / 533）。修复办法不是放宽规则，而是**把「存量」和「新增」分开判**。
+
+| 档位 | 语义 | 退出码 |
+|---|---|---|
+| `--legacy-report` | 存量（基线内）+ 新增都逐条列出，只报告不阻断 | 恒 `0` |
+| `--hard-fail` | 基线内只报告（`::notice`）；**基线外任何一条硬失败** | 无新增 `0` / 有新增 `1` / 基线缺失 `2` |
+| `--write-baseline` | 用当前硬失败重新冻结基线（改基线必须显式跑） | `0` |
+
+- 基线文件：`data/audit/credibility_baseline.json`（入库，两仓字节一致），冻结 527 条 /
+  526 个指纹，并记录冻结时的 `data_sha256`。
+- **指纹 = `mode_code|规则|规则内稳定键`**：D1→`figure_code`，D2→伪造书名，D3→命中的污染
+  正则，D6→`字段+被引用的 code 主体`。含义：**改存量条目的说明文字不误报**（不制造假新增），
+  而**新模式 / 新 figure_code / 新伪造书名 / 新污染模式 / 新悬空引用**必拦。
+- 链接源用同一套口径：`data/audit/source_links_baseline.json` 冻结存量坏链；
+  `verify_source_links.py --hard-fail` 下**连接层失败（curl 000 / 超时）只算警告**，不计违规
+  —— CI 的网络抖动不该把发布链打红；确定性坏链（4xx/5xx）才进「存量 / 新增」判定。
+- `--data-path` 的完整语义：**数据 / 白名单（`tools/_quarantine.py`）/ 默认基线三者同仓**
+  （由 `<root>/data/modes_data.json` 反推 root），避免「用 A 仓白名单判 B 仓数据」。
+- **负对照不能当 CI 步骤**：`--negative-test` 的成功语义就是 `exit 1`（证明门有牙）。
+  它的语义由两个自测守护：`tools/test_credibility_gate.py`（D3 豁免两方向）与
+  `tools/test_credibility_gate_modes.py`（两档七项）。
+- CI 接线与两次真实 run 的原始证据：见 `docs/qa/phase37_x3_ci_gate.md`。

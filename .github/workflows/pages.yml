@@ -55,6 +55,13 @@ on:
       - 'tools/build_pwa_icons.py'
       - 'tools/subset_og_font.py'
       - 'tools/assets/fonts/**'
+      - 'tools/credibility_gate.py'
+      - 'tools/credibility_baseline.py'
+      - 'tools/verify_source_links.py'
+      - 'tools/_quarantine.py'
+      - 'data/source_links.json'
+      - 'data/audit/credibility_baseline.json'
+      - 'data/audit/source_links_baseline.json'
       - 'data/modes_data.json'
       - 'api/protreptic.db'
   workflow_dispatch:
@@ -88,6 +95,27 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      # ---- Phase37-X3：可信度门（存量冻结 / 新增即拦）----
+      # 口径见 docs/planning/credibility_framework.md §7 与 docs/qa/phase37_x3_ci_gate.md：
+      #   存量（data/audit/credibility_baseline.json 冻结的 527 条 D1/D2/D6）只报告、不阻断；
+      #   基线外的任何硬失败 → exit 1（这一步红，后面的构建/部署全部不会发生 = 坏数据上不了线）。
+      # 注意：--negative-test 的成功语义是 exit 1（用来证明门有牙），**不能**当 CI 步骤，
+      #       故本 workflow 不调用它；其语义由 tools/test_credibility_gate.py 自测守护。
+      - name: 可信度门 · 存量清单（不阻断）
+        run: python3 tools/credibility_gate.py --legacy-report --data-path data/modes_data.json
+
+      - name: 可信度门 · 新增违规必红
+        run: python3 tools/credibility_gate.py --hard-fail --data-path data/modes_data.json
+
+      - name: 链接源核验 · 存量清单（不阻断）
+        if: always()
+        run: python3 tools/verify_source_links.py --legacy-report
+
+      - name: 链接源核验 · 新增坏链必红
+        if: always()
+        run: python3 tools/verify_source_links.py --hard-fail
+
       # Step 0：从已提交 JSON 重建语料库（api/protreptic.db 不入库，CI 现场生成）
       - name: 重建 figures 数据库
         run: python3 tools/build_figures_db.py
