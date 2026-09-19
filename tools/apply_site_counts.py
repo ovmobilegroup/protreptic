@@ -13,7 +13,7 @@
     取数一律走共享模块 **tools/site_counts.py**（唯一来源 = 部署产物 data/meta.json 的
     counts.mode_summaries_published / counts.mode_by_figure_shards）。本脚本只负责
     「按顺序调用它 + 自检」，自己不拼文案、不读 meta.json 的键：
-      1) dist/index.html 的 description / og:description 覆写为站点口径；
+      1) dist/index.html 与 dist/404.html 的 description / og:description 覆写为站点口径；
       2) 两份 PWA manifest 的 description 收口 —— **源（web/public）+ 产物（dist）一起改**，
          这样哪怕只跑 npm run build 也不会把旧口径带上线；
       3) 全量扫描 dist/**（部署产物，不是源码枚举）：任何「N 条思维模式」「N 位历史人物」
@@ -85,30 +85,44 @@ def main() -> int:
     want_desc = site_counts.description_text(modes, figures)
     want_ogd = site_counts.og_description_text(modes, figures)
 
-    html = index_path.read_text(encoding="utf-8")
-    for label, rx in (("description", DESC_RE), ("og:description", OGD_RE)):
-        n = len(rx.findall(html))
-        if n != 1:
-            fail("dist/index.html 里 %s 有 %d 份（应为 1）" % (label, n))
+    # 首页 head + 404 外壳一起收口.
+    # dist/404.html 是 dist/index.html 的副本 (vite 插件 spaFallback404 在 closeBundle
+    # 拷贝, prerender_routes.py 又用路由壳重写一次), 拷贝都发生在本步骤**之前**:
+    # 只改 index.html 就会留下一个写着旧口径的 404 外壳 -- 未预渲染的深链回落的正是
+    # 它, 而且它是 dist 全量扫描里真实存在的门面文件 (Phase35-V1FIX 实测 4 条违规).
+    head_files = [index_path]
+    fallback = dist / "404.html"
+    if fallback.is_file():
+        head_files.append(fallback)
 
-    out = DESC_RE.sub(lambda _: '<meta name="description" content="%s" />' % want_desc, html, count=1)
-    out = OGD_RE.sub(lambda _: '<meta property="og:description" content="%s" />' % want_ogd, out, count=1)
+    for path in head_files:
+        html = path.read_text(encoding="utf-8")
+        for label, rx in (("description", DESC_RE), ("og:description", OGD_RE)):
+            n = len(rx.findall(html))
+            if n != 1:
+                fail("%s 里 %s 有 %d 份 (应为 1)" % (path, label, n))
+
+        out = DESC_RE.sub(lambda _: '<meta name="description" content="%s" />' % want_desc, html, count=1)
+        out = OGD_RE.sub(lambda _: '<meta property="og:description" content="%s" />' % want_ogd, out, count=1)
+
+        if args.dry_run:
+            print("[counts] dry-run: %s 目标 description=%s" % (path.name, want_desc))
+            print("[counts] dry-run: %s 目标 og:description=%s" % (path.name, want_ogd))
+            continue
+
+        if out != html:
+            path.write_text(out, encoding="utf-8")
+
+        # 回读自检: 两条 meta 必须等于目标串
+        back = path.read_text(encoding="utf-8")
+        for label, want, rx in (("description", want_desc, DESC_RE), ("og:description", want_ogd, OGD_RE)):
+            got = rx.findall(back)
+            if len(got) != 1 or want not in got[0]:
+                fail("回读失败 %s %s: %s" % (path, label, got[:1]))
 
     if args.dry_run:
-        print("[counts] dry-run: 目标 description=%s" % want_desc)
-        print("[counts] dry-run: 目标 og:description=%s" % want_ogd)
         print("[counts] dry-run: manifest description=%s" % site_counts.manifest_description_text(modes, figures))
         return 0
-
-    if out != html:
-        index_path.write_text(out, encoding="utf-8")
-
-    # 回读自检：两条 meta 必须等于目标串
-    back = index_path.read_text(encoding="utf-8")
-    for label, want, rx in (("description", want_desc, DESC_RE), ("og:description", want_ogd, OGD_RE)):
-        got = rx.findall(back)
-        if len(got) != 1 or want not in got[0]:
-            fail("回读失败 %s: %s" % (label, got[:1]))
 
     # 交叉校验：SPA 运行时（打包后的 JS）里必须有同一句话
     assets = sorted((dist / "assets").glob("*.js")) if (dist / "assets").is_dir() else []
@@ -133,6 +147,14 @@ def main() -> int:
              % (len(violations), modes, figures, checked))
 
     # 硬门 2：docs 站产品门面页（历史报告页不在此列，允许保留当时实测数字）
+    # docs 站产品门面页：**先对齐，再体检**（同一把尺、同一套判定规则）。
+    # 历史报告页/研究记录不在此列，它们如实保留当时的实测数字。
+    if not args.dry_run:
+        for rel, lineno, old, new in site_counts.align_product_docs(args.docs, modes, figures):
+            print("[counts] docs 对齐 %s:%d" % (rel, lineno))
+            print("    - %s" % old)
+            print("    + %s" % new)
+
     n_docs, doc_violations = site_counts.scan_product_docs(args.docs, modes, figures)
     if doc_violations:
         for rel, kind, hit in doc_violations:

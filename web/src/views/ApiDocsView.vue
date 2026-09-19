@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useI18n } from '../composables/useI18n'
+import { SITE_COUNTS } from '../generated/siteCounts'
 
 const { t, locale } = useI18n()
 
@@ -9,8 +10,8 @@ const staticEndpoints = [
   { path: '/data/meta.json', desc: { zh: '数据清单：条数与 sha256 校验', en: 'Manifest: counts + sha256' } },
   { path: '/data/figures.index.json', desc: { zh: '全部人物轻量索引（1057 条）', en: 'Lightweight figure index (1057)' } },
   { path: '/data/figures/{code}.json', desc: { zh: '单个人物详情分片', en: 'Single figure detail shard' } },
-  { path: '/data/modes/index-{0..7}.json', desc: { zh: '思维模式摘要（8 分片，共 2848 条）', en: 'Mode summaries (8 shards, 2848 total)' } },
-  { path: '/data/modes/by-figure/{code}.json', desc: { zh: '某位人物的全部模式（283 片）', en: 'All modes of one figure (283 shards)' } },
+  { path: '/data/modes/index-{0..7}.json', desc: { zh: `思维模式摘要（8 分片，共 ${SITE_COUNTS.modes} 条）`, en: `Mode summaries (8 shards, ${SITE_COUNTS.modes} total)` } },
+  { path: '/data/modes/by-figure/{code}.json', desc: { zh: `某位人物的全部模式（${SITE_COUNTS.figures} 片）`, en: `All modes of one figure (${SITE_COUNTS.figures} shards)` } },
 ]
 
 // 可选：本地 FastAPI 服务（仓库自带，需自行启动）
@@ -33,7 +34,7 @@ const copy = async (text: string) => {
 const origin = typeof window !== 'undefined' ? window.location.origin : ''
 const baseUrl = `${origin}${import.meta.env.BASE_URL}`
 
-const pySnippet = `# 克隆仓库后即可查询全部 2848 条模式
+const pySnippet = `# 克隆仓库后即可查询全部 ${SITE_COUNTS.modes} 条模式
 python3 tools/figure_library.py --stats
 python3 tools/figure_library.py -f H-INM-001     # 稻盛和夫的 10 条模式
 python3 tools/figure_library.py -s 矛盾           # 关键词搜索`

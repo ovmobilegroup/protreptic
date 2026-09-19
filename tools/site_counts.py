@@ -217,13 +217,7 @@ def scan_product_docs(docs_dir, modes: int, figures: int) -> tuple:
     docs_dir = Path(docs_dir)
     if not docs_dir.is_dir():
         return 0, []
-    files = []
-    for entry in PRODUCT_DOCS:
-        p = docs_dir / entry
-        if p.is_file():
-            files.append(p)
-        elif p.is_dir():
-            files.extend(sorted(p.rglob("*.md")))
+    files = _product_doc_files(docs_dir)
     violations = []
     want_modes, want_figures = str(modes), str(figures)
     for p in files:
@@ -241,6 +235,55 @@ def scan_product_docs(docs_dir, modes: int, figures: int) -> tuple:
                 if token in line and token not in (want_modes, want_figures):
                     violations.append(("%s:%d" % (rel, lineno), "旧口径裸数字", token))
     return len(files), violations
+
+
+def _product_doc_files(docs_dir):
+    """docs 站**产品门面页**清单（index.md + 02-tools/** 的 md）."""
+    docs_dir = Path(docs_dir)
+    files = []
+    if not docs_dir.is_dir():
+        return files
+    for entry in PRODUCT_DOCS:
+        p = docs_dir / entry
+        if p.is_file():
+            files.append(p)
+        elif p.is_dir():
+            files.extend(sorted(p.rglob("*.md")))
+    return files
+
+
+def _align_line(line: str, want_modes: str, want_figures: str) -> str:
+    """把一行里的门面短语改写成当前口径（只动数字，措辞与其余字节不动）."""
+    out = MODES_PHRASE_RE.sub(lambda m: want_modes + m.group(0)[len(m.group(1)):], line)
+    out = PERSONS_PHRASE_RE.sub(lambda m: want_figures + m.group(0)[len(m.group(1)):], out)
+    return out
+
+
+def align_product_docs(docs_dir, modes: int, figures: int) -> list:
+    """把 docs 产品门面页的门面数字对齐到当前口径，返回 [(rel, lineno, old, new)].
+
+    判定规则与 scan_product_docs 完全一致（逐行、逐短语；标了「源库 / 源数据 / 原始记录 /
+    口径」的行是如实交代源库与原站发布数的差别，不碰）。两者同规则是刻意的：能过扫描的
+    行就是这里不会改的行，避免出现「体检说违规、对齐又不动」的死角。
+    """
+    want_modes, want_figures = str(modes), str(figures)
+    changes = []
+    for p in _product_doc_files(docs_dir):
+        rel = p.relative_to(Path(docs_dir)).as_posix()
+        lines = p.read_text(encoding="utf-8", errors="ignore").splitlines(keepends=True)
+        out = []
+        for lineno, line in enumerate(lines, 1):
+            if any(label in line for label in DOC_SOURCE_LABELS):
+                out.append(line)
+                continue
+            new = _align_line(line, want_modes, want_figures)
+            if new != line:
+                changes.append((rel, lineno, line.strip()[:100], new.strip()[:100]))
+            out.append(new)
+        body = "".join(out)
+        if body != p.read_text(encoding="utf-8", errors="ignore"):
+            p.write_text(body, encoding="utf-8")
+    return changes
 
 
 # ---------------------------------------------------------------- CLI

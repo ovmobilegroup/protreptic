@@ -5,7 +5,7 @@
  * 真实口径（B1 实测，见 web/public/data/graph/meta.json）：
  *   mode_edges     3288 节点 / 6663 边（related_modes 双向去重后的无向边）
  *   concept_graph  283 人物 / 13261 概念 / 13522 边（figure_code ↔ key_concepts）
- *   similar_modes  2848 条模式中 595 条有预计算邻居，共 1010 条 Top-10 邻居
+ *   similar_modes  已发布的模式中 595 条有预计算邻居，共 1010 条 Top-10 邻居
  *
  * 措辞纪律：similar_modes 是「key_concepts 交集 + 同域加分」的共现打分，
  * 不是向量语义相似度；UI 文案不得写成「语义相似」。

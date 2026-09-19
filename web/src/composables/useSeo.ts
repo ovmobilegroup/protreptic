@@ -14,11 +14,18 @@
  */
 import type { RouteLocationNormalized, Router } from 'vue-router'
 
+// 站点门面计数的唯一来源: 生成物 web/src/generated/siteCounts.ts
+// (取数 = 部署产物 data/meta.json, 文案模板 = tools/site_counts.py).
+// 这里曾经写死站点条数/人物数: SPA 文案编译进 dist/assets/*.js, 构建之后改不了,
+// 数据一变就与静态 head 分叉, apply_site_counts 的交叉校验失败,
+// Pages 构建失败, 部署跳过 (Phase35-V1FIX 的真实事故).
+// 任何要显示站点规模的地方都 import 本模块, 不要再写数字.
+import { SITE_COUNTS } from '../generated/siteCounts'
+
 export const SEO_ORIGIN = 'https://ovmobilegroup.github.io'
 export const SEO_SITE_NAME = 'Protreptic 思想典藏'
 export const SEO_DEFAULT_TITLE = 'Protreptic · 思想典藏 — 历史人物思维模式库'
-export const SEO_DEFAULT_DESCRIPTION =
-  '2848 条思维模式 × 283 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。'
+export const SEO_DEFAULT_DESCRIPTION = SITE_COUNTS.description
 
 /** 本模块注入的动态 JSON-LD 节点的 id，用来和预渲染写死的那个区分开 */
 const JSONLD_ID = 'pt-jsonld-dynamic'

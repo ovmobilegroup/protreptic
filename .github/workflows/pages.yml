@@ -22,7 +22,8 @@
 #
 # 数据步骤顺序（本 job 自给自足，跨 workflow 不共享工作区）：
 #   build_figures_db -> export_static_site -> build_search_index -> build_graph_data
-#   -> build_unified_index -> npm run build -> build_og_images -> prerender_routes
+#   -> build_unified_index -> gen_web_site_counts -> npm run build -> build_og_images
+#   -> prerender_routes
 #   -> apply_og_meta -> build_sitemap
 #   其中 index.unified.json 是 prerender_routes 与 build_og_images 的共同输入，
 #   缺了它们会直接非 0 退出（不是静默降级）。
@@ -38,6 +39,7 @@ on:
       - 'web/**'
       - 'docs/**'
       - 'tools/export_static_site.py'
+      - 'tools/gen_web_site_counts.py'
       - 'tools/pages_preflight.py'
       - 'tools/prerender_routes.py'
       - 'tools/prerender_body.py'
@@ -93,6 +95,16 @@ jobs:
       # Step A：静态数据（Vite 把 web/public/data 原样复制成 dist/data）
       - name: 构建静态数据分片
         run: python3 tools/export_static_site.py
+
+      # Step B0.6: SPA 运行时口径注入 (Phase35-V1FIX).
+      # SPA 的文案 (useSeo.ts 的默认 description, App.vue 页脚, ApiDocsView / FiguresView /
+      # DailyView 的条数) 会被编译进 dist/assets/*.js, **构建之后改不了**: 必须在 npm run
+      # build 之前把 data/meta.json 的口径写进 web/src/generated/siteCounts.ts (生成物入库;
+      # 取数与文案模板一律走 tools/site_counts.py).
+      # 不跑这一步就会重演 V1 的事故: 静态 head 跟着数据走, SPA 运行时不动,
+      # apply_site_counts 的字面量交叉校验失败, 构建失败, 部署跳过, 线上照旧.
+      - name: 生成 web 计数模块 (SPA 运行时口径)
+        run: python3 tools/gen_web_site_counts.py
 
       # Step B4: 每日一模式索引 Phase30-B4.
       # 必须紧跟 export (读它产出的 modes/by-figure 分片; 分片顺序就是「每日一模式」的选取顺序),

@@ -13,7 +13,7 @@
  *   figures.index.json       1057 条轻量索引（code / name_zh / name_en / era / domains /
  *                            historical_domains / gender / ethnicity / n_modes）
  *   figures/{code}.json      1057 个详情分片（含 description / reason / steps / expected / case / modes）
- *   modes/index-{0..7}.json  2848 条模式摘要（ModesView 用；= meta.json 的 mode_summaries_published）
+ *   modes/index-{0..7}.json  模式摘要（条数 = meta.json 的 mode_summaries_published；ModesView 用）
  *   modes/by-figure/…        283 个「某人的 10 条模式」分片
  *   meta.json                条数与 sha256（供数据校验）
  *

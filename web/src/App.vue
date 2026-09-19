@@ -5,6 +5,7 @@ import LanguageSwitcher from './components/LanguageSwitcher.vue'
 import { useI18n } from './composables/useI18n'
 import { useTheme } from './composables/useTheme'
 import OfflineNotice from './components/OfflineNotice.vue'
+import { SITE_COUNTS } from './generated/siteCounts'
 
 const route = useRoute()
 const { t } = useI18n()
@@ -123,7 +124,7 @@ const isActive = (to: string) => route.path.startsWith(to)
             以史为鉴，知兴替；以人为鉴，明得失。
           </p>
           <p class="text-xs text-parchment/40">
-            Protreptic · 2848 条思维模式 × 283 位历史人物 · 中英双语
+            Protreptic · {{ SITE_COUNTS.ogDescription }}
           </p>
           <div class="mt-2 flex items-center gap-3 text-xs text-parchment/45">
             <a href="https://github.com/ovmobilegroup/protreptic" target="_blank" rel="noopener"

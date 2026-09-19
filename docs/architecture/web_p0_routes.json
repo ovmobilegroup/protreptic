@@ -2,16 +2,16 @@
  "schema": "protreptic.prerendered_routes/v1",
  "generated_by": "tools/prerender_routes.py",
  "base": "/protreptic/",
- "count": 1353,
- "total_html_bytes": 19651271,
+ "count": 1348,
+ "total_html_bytes": 19337482,
  "counts_by_type": {
   "static": 8,
-  "person": 283,
+  "person": 278,
   "scenario": 1055,
   "template": 7
  },
- "body_count": 293,
- "body_total_bytes": 12599583,
+ "body_count": 288,
+ "body_total_bytes": 12314811,
  "body_routes": [
   "figures",
   "minds/AMP",
@@ -134,7 +134,6 @@
   "minds/H-NKR-001",
   "minds/H-NOB-001",
   "minds/H-ONO-001",
-  "minds/H-P23F-001",
   "minds/H-PEI-001",
   "minds/H-PGR-001",
   "minds/H-QXS-001",
@@ -229,13 +228,9 @@
   "minds/OHM",
   "minds/OUY",
   "minds/OdaNobunaga",
-  "minds/P24F",
-  "minds/P25F",
-  "minds/P26F",
   "minds/PAD",
   "minds/POI",
   "minds/PUS",
-  "minds/Phase27Final",
   "minds/Ptolemy",
   "minds/QCJ",
   "minds/QIU",
@@ -348,7 +343,7 @@
   {
    "path": "figures",
    "title": "历史人物库 - 统一名录",
-   "description": "283 位历史人物 + 1055 个现代场景, 统一检索入口.",
+   "description": "278 位历史人物 + 1055 个现代场景, 统一检索入口.",
    "type": "static",
    "body": true,
    "body_text_chars": 1432,
@@ -14464,18 +14459,6 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ONO-001/"
   },
   {
-   "path": "minds/H-P23F-001",
-   "title": "Phase23收尾整合 - 思维模式档案 10 条",
-   "description": "纯增量并库法的核心命题是：知识库的每次扩张都应该是一次可以整体回滚、且不改变任何既有语义的事务——这既是数据完整性的要求，更是协作信任的要求。混合式扩张（新增的同时顺手改旧条目）的失败机制在于：改动混在新增里，验收者无法区分'哪一行是新的...",
-   "type": "person",
-   "name": "Phase23收尾整合",
-   "code": "H-P23F-001",
-   "n_modes": 10,
-   "body": true,
-   "body_text_chars": 17017,
-   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-P23F-001/"
-  },
-  {
    "path": "minds/H-PEI-001",
    "title": "贝聿铭 - 思维模式档案 10 条",
    "description": "贝聿铭的第一原理：几何是建筑的通用母语，而统一性来自对单一母题的穷尽使用而非对多种风格的拼贴。国家美术馆东馆把不规则的梯形基地沿对角线切分为一个等腰三角形（公共展厅）和一个直角三角形（研究中心与办公室），随后一切决策——展厅平面、天窗网格...",
@@ -15604,42 +15587,6 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/OdaNobunaga/"
   },
   {
-   "path": "minds/P24F",
-   "title": "Phase24收尾整合 - 思维模式档案 10 条",
-   "description": "知识挖掘方法论/跨文明互文法的核心命题是：单人物深挖的产出上限由'对照系'决定——只有一位人物时，其方法的独特性只能靠自我陈述；当主库同时容纳犹太、伊斯兰、印度、中国、欧洲、日本等文明圈的人物时，每一次挖掘都应主动寻找异文明的同构方法做对...",
-   "type": "person",
-   "name": "Phase24收尾整合",
-   "code": "P24F",
-   "n_modes": 10,
-   "body": true,
-   "body_text_chars": 17519,
-   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/P24F/"
-  },
-  {
-   "path": "minds/P25F",
-   "title": "Phase25收尾整合 - 思维模式档案 10 条",
-   "description": "协作组织方法论/上下文隔离岗法的核心命题是：多智能体流水线的第一质量风险不是能力不足而是上下文串味——上游工作者在对话里写下的每一次犹豫（'可能''待定''也许可以'）、每一个未验证的猜测、每一段被压缩丢失的细节，一旦进入下游的上下文，就...",
-   "type": "person",
-   "name": "Phase25收尾整合",
-   "code": "P25F",
-   "n_modes": 10,
-   "body": true,
-   "body_text_chars": 22547,
-   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/P25F/"
-  },
-  {
-   "path": "minds/P26F",
-   "title": "Phase26收尾整合 - 思维模式档案 10 条",
-   "description": "Phase26批次最痛的一次事故不在数据而在身份：郭守敬研究卡（t_4b51be46）启动时，邻近 scratch 工作区（张衡卡）的交付物刚落盘且文件名与格式完全一致，执行者直接复用了邻居的 HANDOFF 与 payload 完成了 ...",
-   "type": "person",
-   "name": "Phase26收尾整合",
-   "code": "P26F",
-   "n_modes": 10,
-   "body": true,
-   "body_text_chars": 14174,
-   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/P26F/"
-  },
-  {
    "path": "minds/PAD",
    "title": "莲花生 - 思维模式档案 10 条",
    "description": "传承设计方法论/成果超出当代接受能力时，把成果封存于系统自身的载体中并预设解锁者与解锁条件——让知识在时间中自我保管，而非强行交付",
@@ -15674,18 +15621,6 @@
    "body": true,
    "body_text_chars": 10233,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/PUS/"
-  },
-  {
-   "path": "minds/Phase27Final",
-   "title": "Phase27收尾整合 - 思维模式档案 10 条",
-   "description": "Phase27批次把身份核对从事前断言推进为全程血缘：P26F 立下的身份锚定法解决的是'交付物自报身份'，但自报的身份仍可能被复用与拼接悄悄置换——本批次的方法是给每份交付物建立可追溯的手迹谱系：构建链（内容源文件 → build 脚本...",
-   "type": "person",
-   "name": "Phase27收尾整合",
-   "code": "Phase27Final",
-   "n_modes": 10,
-   "body": true,
-   "body_text_chars": 11718,
-   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Phase27Final/"
   },
   {
    "path": "minds/Ptolemy",
@@ -16421,8 +16356,8 @@
   },
   {
    "path": "modes",
-   "title": "思维模式库 - 2848 条可执行方法",
-   "description": "2848 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话.",
+   "title": "思维模式库 - 2798 条可执行方法",
+   "description": "2798 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话.",
    "type": "static",
    "body": true,
    "body_text_chars": 2089,
