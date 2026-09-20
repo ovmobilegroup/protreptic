@@ -80,6 +80,10 @@ TOOL_FILES = (
     "tools/site_counts.py",
     "tools/_quarantine.py",
     "tools/credibility_baseline.py",
+    # Phase38-Y1 链接源工具链（source_link_index 将被 export 链 import；
+    # build_source_links 是 data/source_links.json 的唯一生成器）
+    "tools/source_link_index.py",
+    "tools/build_source_links.py",
     # 本机检脚本自身（随两仓同步；纳入以示自洽）
     "tools/check_repo_parity.py",
 )

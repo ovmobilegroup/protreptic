@@ -1,0 +1,4550 @@
+{
+  "schema": "protreptic.source_link_coverage/v1",
+  "generated_at": "2026-09-20",
+  "generated_by": "tools/build_source_links.py",
+  "modes_total": 2868,
+  "modes_with_citations": 2165,
+  "distinct_cited_names": 2174,
+  "candidates_min3": 374,
+  "index_keys_total": 382,
+  "index_keys_linked": 169,
+  "index_keys_unverifiable": 213,
+  "candidates": {
+    "total": 434,
+    "linked": 210,
+    "unverifiable": 224
+  },
+  "provider_distribution": {
+    "wikipedia": 76,
+    "wikisource": 125,
+    "gutenberg": 6,
+    "ctext": 3
+  },
+  "citation_coverage": {
+    "citations_total": 4016,
+    "citations_linked": 1147,
+    "modes_with_citations": 2165,
+    "modes_with_at_least_one_linked_citation": 911
+  },
+  "stale_entries_reprobed": {
+    "《个山小像》": {
+      "url": "",
+      "status": 0
+    },
+    "《中国乡村教育之根本改造》": {
+      "url": "",
+      "status": 0
+    },
+    "《中国古代思想史论》": {
+      "url": "",
+      "status": 0
+    },
+    "《中国近五千年来气候变迁的初步研究》": {
+      "url": "",
+      "status": 0
+    },
+    "《中论》": {
+      "url": "",
+      "status": 0
+    },
+    "《丰田生产方式》": {
+      "url": "",
+      "status": 0
+    },
+    "《丰田生产方式：超越大规模生产》": {
+      "url": "",
+      "status": 0
+    },
+    "《举贤良对策》": {
+      "url": "",
+      "status": 0
+    },
+    "《九十五条论纲》": {
+      "url": "",
+      "status": 0
+    },
+    "《九月约》": {
+      "url": "",
+      "status": 0
+    },
+    "《书信》": {
+      "url": "",
+      "status": 0
+    },
+    "《书史》": {
+      "url": "",
+      "status": 0
+    },
+    "《人的境况》": {
+      "url": "",
+      "status": 0
+    },
+    "《人类学历史本体论》": {
+      "url": "",
+      "status": 0
+    },
+    "《人类理解研究》": {
+      "url": "",
+      "status": 0
+    },
+    "《人类理解论》": {
+      "url": "",
+      "status": 0
+    },
+    "《介绍我自己的思想》": {
+      "url": "",
+      "status": 0
+    },
+    "《代数学》": {
+      "url": "",
+      "status": 0
+    },
+    "《伊莎贝拉传》": {
+      "url": "",
+      "status": 0
+    },
+    "《伦理学》": {
+      "url": "",
+      "status": 0
+    },
+    "《作为本征值问题的量子化》": {
+      "url": "",
+      "status": 0
+    },
+    "《光学》": {
+      "url": "",
+      "status": 0
+    },
+    "《八大山人传》": {
+      "url": "",
+      "status": 0
+    },
+    "《公羊的节日》": {
+      "url": "",
+      "status": 0
+    },
+    "《内战记》": {
+      "url": "",
+      "status": 0
+    },
+    "《军事条例》": {
+      "url": "",
+      "status": 0
+    },
+    "《凯撒传》": {
+      "url": "",
+      "status": 0
+    },
+    "《凯末尔演讲录》": {
+      "url": "",
+      "status": 0
+    },
+    "《出发点》": {
+      "url": "",
+      "status": 0
+    },
+    "《分辨宝鬘》": {
+      "url": "",
+      "status": 0
+    },
+    "《劝学篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《努力号日志》": {
+      "url": "",
+      "status": 0
+    },
+    "《化学原理》": {
+      "url": "",
+      "status": 0
+    },
+    "《千与千寻》": {
+      "url": "",
+      "status": 0
+    },
+    "《千部解脱论》": {
+      "url": "",
+      "status": 0
+    },
+    "《华罗庚传》": {
+      "url": "",
+      "status": 0
+    },
+    "《卓特思维模式考辨》": {
+      "url": "",
+      "status": 0
+    },
+    "《南极》": {
+      "url": "",
+      "status": 0
+    },
+    "《卡拉马佐夫兄弟》": {
+      "url": "",
+      "status": 0
+    },
+    "《印度数字算术》": {
+      "url": "",
+      "status": 0
+    },
+    "《印度自治》": {
+      "url": "",
+      "status": 0
+    },
+    "《历史》": {
+      "url": "",
+      "status": 0
+    },
+    "《原则问题决定书》": {
+      "url": "",
+      "status": 0
+    },
+    "《反异教大全》": {
+      "url": "",
+      "status": 0
+    },
+    "《古史辨》": {
+      "url": "",
+      "status": 0
+    },
+    "《史蒂夫》": {
+      "url": "",
+      "status": 0
+    },
+    "《哈里真》": {
+      "url": "",
+      "status": 0
+    },
+    "《哲学家的矛盾》": {
+      "url": "",
+      "status": 0
+    },
+    "《唐伯虎全集》": {
+      "url": "",
+      "status": 0
+    },
+    "《国家银行报告》": {
+      "url": "",
+      "status": 0
+    },
+    "《图尔税单》": {
+      "url": "",
+      "status": 0
+    },
+    "《图特摩斯三世年代记》": {
+      "url": "",
+      "status": 0
+    },
+    "《圆的度量》": {
+      "url": "",
+      "status": 0
+    },
+    "《圣学复苏》": {
+      "url": "",
+      "status": 0
+    },
+    "《在困境中更要发愤求进》": {
+      "url": "",
+      "status": 0
+    },
+    "《埃隆·马斯克》": {
+      "url": "",
+      "status": 0
+    },
+    "《埃隆》": {
+      "url": "",
+      "status": 0
+    },
+    "《基督教的本质》": {
+      "url": "",
+      "status": 0
+    },
+    "《大明历》": {
+      "url": "",
+      "status": 0
+    },
+    "《大西洋手稿》": {
+      "url": "",
+      "status": 0
+    },
+    "《天体运动论》": {
+      "url": "",
+      "status": 0
+    },
+    "《天学初函》": {
+      "url": "",
+      "status": 0
+    },
+    "《孤禽图》": {
+      "url": "",
+      "status": 0
+    },
+    "《学校与社会》": {
+      "url": "",
+      "status": 0
+    },
+    "《安娜》": {
+      "url": "",
+      "status": 0
+    },
+    "《安徒生传》": {
+      "url": "",
+      "status": 0
+    },
+    "《安積覚笔录》": {
+      "url": "",
+      "status": 0
+    },
+    "《宗教的本质》": {
+      "url": "",
+      "status": 0
+    },
+    "《宗教科学复兴·崇拜篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《宗教科学复兴》": {
+      "url": "",
+      "status": 0
+    },
+    "《实用主义》": {
+      "url": "",
+      "status": 0
+    },
+    "《宪法典》": {
+      "url": "",
+      "status": 0
+    },
+    "《密西拿托拉》": {
+      "url": "",
+      "status": 0
+    },
+    "《密西拿评注》": {
+      "url": "",
+      "status": 0
+    },
+    "《对话集》": {
+      "url": "",
+      "status": 0
+    },
+    "《寻找自我》": {
+      "url": "",
+      "status": 0
+    },
+    "《巴黎评论》": {
+      "url": "",
+      "status": 0
+    },
+    "《希波克拉底集》": {
+      "url": "",
+      "status": 0
+    },
+    "《干法》": {
+      "url": "",
+      "status": 0
+    },
+    "《年代记》": {
+      "url": "",
+      "status": 0
+    },
+    "《幽灵公主》": {
+      "url": "",
+      "status": 0
+    },
+    "《建立我国国防航空工业的意见书》": {
+      "url": "",
+      "status": 0
+    },
+    "《建设性纲领》": {
+      "url": "",
+      "status": 0
+    },
+    "《弗吉尼亚纪事》": {
+      "url": "",
+      "status": 0
+    },
+    "《当英国守卫英伦》": {
+      "url": "",
+      "status": 0
+    },
+    "《微分几何的回顾》": {
+      "url": "",
+      "status": 0
+    },
+    "《德川幕府制度研究》": {
+      "url": "",
+      "status": 0
+    },
+    "《心》": {
+      "url": "",
+      "status": 0
+    },
+    "《心灵与物质》": {
+      "url": "",
+      "status": 0
+    },
+    "《心理学原理》": {
+      "url": "",
+      "status": 0
+    },
+    "《心血运动论》": {
+      "url": "",
+      "status": 0
+    },
+    "《忏悔录》": {
+      "url": "",
+      "status": 0
+    },
+    "《思维与语言》": {
+      "url": "",
+      "status": 0
+    },
+    "《悲愤诗》": {
+      "url": "",
+      "status": 0
+    },
+    "《成为乔布斯》": {
+      "url": "",
+      "status": 0
+    },
+    "《我体验真理的故事》": {
+      "url": "",
+      "status": 0
+    },
+    "《我承认，我历尽沧桑》": {
+      "url": "",
+      "status": 0
+    },
+    "《我的一生》": {
+      "url": "",
+      "status": 0
+    },
+    "《我的一生探险》": {
+      "url": "",
+      "status": 0
+    },
+    "《我的人生与工作》": {
+      "url": "",
+      "status": 0
+    },
+    "《我的早年生活》": {
+      "url": "",
+      "status": 0
+    },
+    "《我谈到自由》": {
+      "url": "",
+      "status": 0
+    },
+    "《战略论：间接路线》": {
+      "url": "",
+      "status": 0
+    },
+    "《护理笔记》": {
+      "url": "",
+      "status": 0
+    },
+    "《拉丁美洲的孤独》": {
+      "url": "",
+      "status": 0
+    },
+    "《拯救论》": {
+      "url": "",
+      "status": 0
+    },
+    "《指引与注记》": {
+      "url": "",
+      "status": 0
+    },
+    "《放射性论》": {
+      "url": "",
+      "status": 0
+    },
+    "《文明论之概略》": {
+      "url": "",
+      "status": 0
+    },
+    "《新仪象法要》": {
+      "url": "",
+      "status": 0
+    },
+    "《新民丛报》": {
+      "url": "",
+      "status": 0
+    },
+    "《无穷分析引论》": {
+      "url": "",
+      "status": 0
+    },
+    "《明成祖实录》": {
+      "url": "",
+      "status": 0
+    },
+    "《易卜生主义的精华》": {
+      "url": "",
+      "status": 0
+    },
+    "《易卜生传》": {
+      "url": "",
+      "status": 0
+    },
+    "《易卜生的群像》": {
+      "url": "",
+      "status": 0
+    },
+    "《晏阳初传》": {
+      "url": "",
+      "status": 0
+    },
+    "《晏阳初全集》": {
+      "url": "",
+      "status": 0
+    },
+    "《普通语言学教程》": {
+      "url": "",
+      "status": 0
+    },
+    "《最后的、非科学性附言》": {
+      "url": "",
+      "status": 0
+    },
+    "《朝着南极并环绕世界航行》": {
+      "url": "",
+      "status": 0
+    },
+    "《未来哲学原理》": {
+      "url": "",
+      "status": 0
+    },
+    "《朱舜水集》": {
+      "url": "",
+      "status": 0
+    },
+    "《李光耀回忆录》": {
+      "url": "",
+      "status": 0
+    },
+    "《李光耀观天下》": {
+      "url": "",
+      "status": 0
+    },
+    "《梵经注》": {
+      "url": "",
+      "status": 0
+    },
+    "《歌谣周刊》": {
+      "url": "",
+      "status": 0
+    },
+    "《民主主义与教育》": {
+      "url": "",
+      "status": 0
+    },
+    "《民间》": {
+      "url": "",
+      "status": 0
+    },
+    "《水中鱼》": {
+      "url": "",
+      "status": 0
+    },
+    "《活法》": {
+      "url": "",
+      "status": 0
+    },
+    "《活着为了讲述》": {
+      "url": "",
+      "status": 0
+    },
+    "《游击战》": {
+      "url": "",
+      "status": 0
+    },
+    "《漫漫自由路》": {
+      "url": "",
+      "status": 0
+    },
+    "《熙德之歌》": {
+      "url": "",
+      "status": 0
+    },
+    "《熙德史》": {
+      "url": "",
+      "status": 0
+    },
+    "《物种起源》": {
+      "url": "",
+      "status": 0
+    },
+    "《犹太国》": {
+      "url": "",
+      "status": 0
+    },
+    "《玩偶之家》": {
+      "url": "",
+      "status": 0
+    },
+    "《现场管理》": {
+      "url": "",
+      "status": 0
+    },
+    "《球与圆柱》": {
+      "url": "",
+      "status": 0
+    },
+    "《瑜伽综合论》": {
+      "url": "",
+      "status": 0
+    },
+    "《登岳阳楼》": {
+      "url": "",
+      "status": 0
+    },
+    "《白痴》": {
+      "url": "",
+      "status": 0
+    },
+    "《百年孤独》": {
+      "url": "",
+      "status": 0
+    },
+    "《眼福之书》": {
+      "url": "",
+      "status": 0
+    },
+    "《矛盾的矛盾》": {
+      "url": "",
+      "status": 0
+    },
+    "《神义论》": {
+      "url": "",
+      "status": 0
+    },
+    "《神圣人生论》": {
+      "url": "",
+      "status": 0
+    },
+    "《福翁自传》": {
+      "url": "",
+      "status": 0
+    },
+    "《科学与方法》": {
+      "url": "",
+      "status": 0
+    },
+    "《秘史》": {
+      "url": "",
+      "status": 0
+    },
+    "《竺可桢日记》": {
+      "url": "",
+      "status": 0
+    },
+    "《第二性》": {
+      "url": "",
+      "status": 0
+    },
+    "《第二次世界大战史》": {
+      "url": "",
+      "status": 0
+    },
+    "《第二次世界大战回忆录》": {
+      "url": "",
+      "status": 0
+    },
+    "《第五才子书》": {
+      "url": "",
+      "status": 0
+    },
+    "《第六才子书》": {
+      "url": "",
+      "status": 0
+    },
+    "《算术研究》": {
+      "url": "",
+      "status": 0
+    },
+    "《粟裕战争回忆录》": {
+      "url": "",
+      "status": 0
+    },
+    "《精神现象学》": {
+      "url": "",
+      "status": 0
+    },
+    "《经济发展理论》": {
+      "url": "",
+      "status": 0
+    },
+    "《经籍考》": {
+      "url": "",
+      "status": 0
+    },
+    "《经验与教育》": {
+      "url": "",
+      "status": 0
+    },
+    "《绘画论》": {
+      "url": "",
+      "status": 0
+    },
+    "《给青年小说家的信》": {
+      "url": "",
+      "status": 0
+    },
+    "《统计力学的基本原理》": {
+      "url": "",
+      "status": 0
+    },
+    "《缀术》": {
+      "url": "",
+      "status": 0
+    },
+    "《联邦党人文集》": {
+      "url": "",
+      "status": 0
+    },
+    "《胡志明全集》": {
+      "url": "",
+      "status": 0
+    },
+    "《腓力匹克》": {
+      "url": "",
+      "status": 0
+    },
+    "《自传》": {
+      "url": "",
+      "status": 0
+    },
+    "《自我与本我》": {
+      "url": "",
+      "status": 0
+    },
+    "《自然哲学的数学原理》": {
+      "url": "",
+      "status": 0
+    },
+    "《致孩子的书》": {
+      "url": "",
+      "status": 0
+    },
+    "《致德意志基督教贵族公开书》": {
+      "url": "",
+      "status": 0
+    },
+    "《航海发现文献集成》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子·主动篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子·利益篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子·合纵篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子·情报篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子·权变篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子·纵横篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子·虚实篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子·言术篇》": {
+      "url": "",
+      "status": 0
+    },
+    "《苏咸子》": {
+      "url": "",
+      "status": 0
+    },
+    "《英国陆军卫生史略》": {
+      "url": "",
+      "status": 0
+    },
+    "《茅以升传》": {
+      "url": "",
+      "status": 0
+    },
+    "《茅以升文集》": {
+      "url": "",
+      "status": 0
+    },
+    "《莱斯特手稿》": {
+      "url": "",
+      "status": 0
+    },
+    "《莲花遗教》": {
+      "url": "",
+      "status": 0
+    },
+    "《西北航道》": {
+      "url": "",
+      "status": 0
+    },
+    "《西塞罗传》": {
+      "url": "",
+      "status": 0
+    },
+    "《观点：我的写作活动自述》": {
+      "url": "",
+      "status": 0
+    },
+    "《计算机器与智能》": {
+      "url": "",
+      "status": 0
+    },
+    "《训民正音解例》": {
+      "url": "",
+      "status": 0
+    },
+    "《论动物的发生》": {
+      "url": "",
+      "status": 0
+    },
+    "《论可计算数》": {
+      "url": "",
+      "status": 0
+    },
+    "《论平面图形的平衡》": {
+      "url": "",
+      "status": 0
+    },
+    "《论系统工程》": {
+      "url": "",
+      "status": 0
+    },
+    "《论语与算盘》": {
+      "url": "",
+      "status": 0
+    },
+    "《论非均匀物质的平衡》": {
+      "url": "",
+      "status": 0
+    },
+    "《评注》": {
+      "url": "",
+      "status": 0
+    },
+    "《词论》": {
+      "url": "",
+      "status": 0
+    },
+    "《诗歌总集》": {
+      "url": "",
+      "status": 0
+    },
+    "《诺贝尔传》": {
+      "url": "",
+      "status": 0
+    },
+    "《谈谈方法》": {
+      "url": "",
+      "status": 0
+    },
+    "《贝聿铭谈贝聿铭》": {
+      "url": "",
+      "status": 0
+    },
+    "《费加罗的婚礼》": {
+      "url": "",
+      "status": 0
+    },
+    "《资本主义、社会主义与民主》": {
+      "url": "",
+      "status": 0
+    },
+    "《赋格的艺术》": {
+      "url": "",
+      "status": 0
+    },
+    "《赵州录》": {
+      "url": "",
+      "status": 0
+    },
+    "《迷途指津》": {
+      "url": "",
+      "status": 0
+    },
+    "《通信的数学理论》": {
+      "url": "",
+      "status": 0
+    },
+    "《通论》": {
+      "url": "",
+      "status": 0
+    },
+    "《郑和航海图》": {
+      "url": "",
+      "status": 0
+    },
+    "《野鸭》": {
+      "url": "",
+      "status": 0
+    },
+    "《钱塘江建桥回忆》": {
+      "url": "",
+      "status": 0
+    },
+    "《钱塘江桥工程施工纪实》": {
+      "url": "",
+      "status": 0
+    },
+    "《钱学森年谱》": {
+      "url": "",
+      "status": 0
+    },
+    "《青年印度》": {
+      "url": "",
+      "status": 0
+    },
+    "《青渊回顾录》": {
+      "url": "",
+      "status": 0
+    },
+    "《音乐的奉献》": {
+      "url": "",
+      "status": 0
+    },
+    "《音注》": {
+      "url": "",
+      "status": 0
+    },
+    "《首次环球航行记》": {
+      "url": "",
+      "status": 0
+    },
+    "《马塞勒斯传》": {
+      "url": "",
+      "status": 0
+    },
+    "《马太受难曲》": {
+      "url": "",
+      "status": 0
+    },
+    "《高卢战记》": {
+      "url": "",
+      "status": 0
+    },
+    "《高等数学引论》": {
+      "url": "",
+      "status": 0
+    },
+    "《魏公谭训》": {
+      "url": "",
+      "status": 0
+    },
+    "《麦哲伦传》": {
+      "url": "",
+      "status": 0
+    },
+    "《麦哲伦航行记》": {
+      "url": "",
+      "status": 0
+    }
+  },
+  "dropped_chapter_keys": [],
+  "entries": [
+    {
+      "name": "神学大全",
+      "key": "《神学大全》",
+      "status": "linked",
+      "citations": 18,
+      "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E5%AD%A6%E5%A4%A7%E5%85%A8",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "自传",
+      "key": "《自传》",
+      "status": "unverifiable",
+      "citations": 16,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "资治通鉴·唐纪",
+      "key": "《资治通鉴》",
+      "status": "linked",
+      "citations": 14,
+      "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "史记",
+      "key": "《史记》",
+      "status": "linked",
+      "citations": 12,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "中论",
+      "key": "《中论》",
+      "status": "unverifiable",
+      "citations": 11,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "历史",
+      "key": "《历史》",
+      "status": "unverifiable",
+      "citations": 11,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "道德经",
+      "key": "《道德经》",
+      "status": "linked",
+      "citations": 11,
+      "url": "https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90_%28%E6%9B%B8%29",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "东游记",
+      "key": "《东游记》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikisource.org/wiki/%E6%9D%B1%E9%81%8A%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "传习录",
+      "key": "《传习录》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B3%E7%BF%92%E9%8C%84",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "几何原本",
+      "key": "《几何原本》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BE%E4%BD%95%E5%8E%9F%E6%9C%AC",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "华罗庚传",
+      "key": "《华罗庚传》",
+      "status": "unverifiable",
+      "citations": 10,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "史蒂夫·乔布斯传",
+      "key": "《史蒂夫·乔布斯传》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E4%B9%94%E5%B8%83%E6%96%AF%E4%BC%A0",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "后汉书·蔡伦传",
+      "key": "《后汉书》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "君主论",
+      "key": "《君主论》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%9B%E4%B8%BB%E8%AE%BA",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "埃隆·马斯克",
+      "key": "《埃隆·马斯克》",
+      "status": "unverifiable",
+      "citations": 10,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "天工开物",
+      "key": "《天工开物》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A9%E5%B7%A5%E9%96%8B%E7%89%A9",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "战争论",
+      "key": "《战争论》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%98%E4%BA%89%E8%AE%BA",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "新工具",
+      "key": "《新工具》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%B7%A5%E5%85%B7%E8%AE%BA%EF%BC%9A%E6%88%96%E8%A7%A3%E9%87%8A%E8%87%AA%E7%84%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8C%87%E5%AF%BC",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "景德传灯录",
+      "key": "《景德传灯录》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B3%E7%87%88%E9%8C%84",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "李忠武公全书",
+      "key": "《李忠武公全书》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikisource.org/wiki/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "沉思录",
+      "key": "《沉思录》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%89%E6%80%9D%E5%BD%95",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "粟裕战争回忆录",
+      "key": "《粟裕战争回忆录》",
+      "status": "unverifiable",
+      "citations": 10,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "西游记",
+      "key": "《西游记》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "论法的精神",
+      "key": "《论法的精神》",
+      "status": "linked",
+      "citations": 10,
+      "url": "https://zh.wikipedia.org/wiki/%E8%AB%96%E6%B3%95%E7%9A%84%E7%B2%BE%E7%A5%9E",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "五灯会元",
+      "key": "《五灯会元》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E7%87%88%E6%9C%83%E5%85%83",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "人性论",
+      "key": "《人性论》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E6%80%A7%E8%AB%96_%28%E6%9B%B8%29",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "历史绪论",
+      "key": "《历史绪论》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikipedia.org/wiki/%E6%AD%B7%E5%8F%B2%E7%B7%92%E8%AB%96",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "史记·仲尼弟子列传",
+      "key": "《史记》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "史记·张仪列传",
+      "key": "《史记》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "史记·苏秦列传",
+      "key": "《史记》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "后汉书·光武帝纪",
+      "key": "《后汉书》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "徐霞客游记",
+      "key": "《徐霞客游记》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%90%E9%9C%9E%E5%AE%A2%E9%81%8A%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "忏悔录",
+      "key": "《忏悔录》",
+      "status": "unverifiable",
+      "citations": 9,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "战略论：间接路线",
+      "key": "《战略论：间接路线》",
+      "status": "unverifiable",
+      "citations": 9,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "数书九章",
+      "key": "《数书九章》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikipedia.org/wiki/%E6%95%B0%E4%B9%A6%E4%B9%9D%E7%AB%A0",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "普通语言学教程",
+      "key": "《普通语言学教程》",
+      "status": "unverifiable",
+      "citations": 9,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "朱子语类",
+      "key": "《朱子语类》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%B1%E5%AD%90%E8%AA%9E%E9%A1%9E",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "武经总要",
+      "key": "《武经总要》",
+      "status": "linked",
+      "citations": 9,
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A6%E7%B6%93%E7%B8%BD%E8%A6%81",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "竺可桢日记",
+      "key": "《竺可桢日记》",
+      "status": "unverifiable",
+      "citations": 9,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "给青年小说家的信",
+      "key": "《给青年小说家的信》",
+      "status": "unverifiable",
+      "citations": 9,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "青渊回顾录",
+      "key": "《青渊回顾录》",
+      "status": "unverifiable",
+      "citations": 9,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "伦理学",
+      "key": "《伦理学》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "千部解脱论",
+      "key": "《千部解脱论》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "南极",
+      "key": "《南极》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "我的人生与工作",
+      "key": "《我的人生与工作》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "易卜生主义的精华",
+      "key": "《易卜生主义的精华》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "最后的、非科学性附言",
+      "key": "《最后的、非科学性附言》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "民主主义与教育",
+      "key": "《民主主义与教育》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "焚书",
+      "key": "《焚书》",
+      "status": "linked",
+      "citations": 8,
+      "url": "https://zh.wikisource.org/wiki/%E7%84%9A%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "独立宣言",
+      "key": "《独立宣言》",
+      "status": "linked",
+      "citations": 8,
+      "url": "https://zh.wikisource.org/wiki/%E7%BE%8E%E5%9B%BD%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "神圣人生论",
+      "key": "《神圣人生论》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "第二性",
+      "key": "《第二性》",
+      "status": "linked",
+      "citations": 8,
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%80%A7",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "算术研究",
+      "key": "《算术研究》",
+      "status": "linked",
+      "citations": 8,
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%97%E6%9C%AF%E7%A0%94%E7%A9%B6",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "联邦党人文集",
+      "key": "《联邦党人文集》",
+      "status": "linked",
+      "citations": 8,
+      "url": "https://zh.wikipedia.org/wiki/%E8%81%94%E9%82%A6%E5%85%9A%E4%BA%BA%E6%96%87%E9%9B%86",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "论语与算盘",
+      "key": "《论语与算盘》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "诺贝尔传",
+      "key": "《诺贝尔传》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "资本主义、社会主义与民主",
+      "key": "《资本主义、社会主义与民主》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "资治通鉴",
+      "key": "《资治通鉴》",
+      "status": "linked",
+      "citations": 8,
+      "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "赵州录",
+      "key": "《赵州录》",
+      "status": "unverifiable",
+      "citations": 8,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "三国志·华佗传",
+      "key": "《三国志》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "与元九书",
+      "key": "《与元九书》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E8%88%87%E5%85%83%E4%B9%9D%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "举贤良对策",
+      "key": "《举贤良对策》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "伤寒论",
+      "key": "《伤寒论》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "公羊的节日",
+      "key": "《公羊的节日》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "凯撒传",
+      "key": "《凯撒传》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "卡拉马佐夫兄弟",
+      "key": "《卡拉马佐夫兄弟》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%8B%89%E9%A6%AC%E4%BD%90%E5%A4%AB%E5%85%84%E5%BC%9F",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "反异教大全",
+      "key": "《反异教大全》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikipedia.org/wiki/%E5%93%B2%E5%AD%A6%E5%A4%A7%E5%85%A8",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "史记·卫将军骠骑列传",
+      "key": "《史记》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "吴子·治兵",
+      "key": "《吴子》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E5%90%B3%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "基督教的本质",
+      "key": "《基督教的本质》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%9D%A3%E6%95%99%E7%9A%84%E6%9C%AC%E8%B4%A8",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "大戴礼记·卫将军文子",
+      "key": "《大戴礼记》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A7%E6%88%B4%E7%A6%AE%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "大西洋手稿",
+      "key": "《大西洋手稿》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "宋史·燕肃传",
+      "key": "《宋史》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "密西拿托拉",
+      "key": "《密西拿托拉》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "心血运动论",
+      "key": "《心血运动论》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikipedia.org/wiki/%E5%BF%83%E8%A1%80%E8%BF%90%E5%8A%A8%E8%AE%BA",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "无穷分析引论",
+      "key": "《无穷分析引论》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "晏阳初全集",
+      "key": "《晏阳初全集》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "梵经注",
+      "key": "《梵经注》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "海岳名言",
+      "key": "《海岳名言》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E6%B5%B7%E5%B6%BD%E5%90%8D%E8%A8%80",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "漫漫自由路",
+      "key": "《漫漫自由路》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikipedia.org/wiki/%E6%BC%AB%E6%BC%AB%E8%87%AA%E7%94%B1%E8%B7%AF",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "瀛涯胜览",
+      "key": "《瀛涯胜览》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E7%80%9B%E6%B6%AF%E5%8B%9D%E8%A6%BD",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "物种起源",
+      "key": "《物种起源》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikipedia.org/wiki/%E7%89%A9%E7%A7%8D%E8%B5%B7%E6%BA%90",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "绘画论",
+      "key": "《绘画论》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "胡志明全集",
+      "key": "《胡志明全集》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "迷途指津",
+      "key": "《迷途指津》",
+      "status": "unverifiable",
+      "citations": 7,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "高卢战记",
+      "key": "《高卢战记》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikipedia.org/wiki/%E9%AB%98%E7%9B%A7%E6%88%B0%E8%A8%98",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "齐民要术",
+      "key": "《齐民要术》",
+      "status": "linked",
+      "citations": 7,
+      "url": "https://zh.wikisource.org/wiki/%E9%BD%8A%E6%B0%91%E8%A6%81%E8%A1%93",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "三国志·吴书·吴主传",
+      "key": "《三国志》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "丰田生产方式",
+      "key": "《丰田生产方式》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "人的境况",
+      "key": "《人的境况》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E7%9A%84%E5%A2%83%E5%86%B5",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "人类理解论",
+      "key": "《人类理解论》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E7%90%86%E8%A7%A3%E8%AB%96",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "元史·郭守敬传",
+      "key": "《元史》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "内战记",
+      "key": "《内战记》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E5%87%B1%E6%92%92%E6%88%B0%E8%A8%98",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "凯末尔演讲录",
+      "key": "《凯末尔演讲录》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "历代名画记",
+      "key": "《历代名画记》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%B7%E4%BB%A3%E5%90%8D%E7%95%AB%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "后汉书·张衡传",
+      "key": "《后汉书》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "圣学复苏",
+      "key": "《圣学复苏》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "干法",
+      "key": "《干法》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "我体验真理的故事",
+      "key": "《我体验真理的故事》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "我的一生探险",
+      "key": "《我的一生探险》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "旧唐书·李靖传",
+      "key": "《旧唐书》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "易卜生传",
+      "key": "《易卜生传》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "李光耀回忆录",
+      "key": "《李光耀回忆录》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "李光耀观天下",
+      "key": "《李光耀观天下》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "梦溪笔谈",
+      "key": "《梦溪笔谈》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "汉书",
+      "key": "《汉书》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "活法",
+      "key": "《活法》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "熙德之歌",
+      "key": "《熙德之歌》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E7%86%99%E5%BE%B7%E4%B9%8B%E6%AD%8C",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "牡丹亭",
+      "key": "《牡丹亭》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E7%89%A1%E4%B8%B9%E4%BA%AD",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "百年孤独",
+      "key": "《百年孤独》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "矛盾的矛盾",
+      "key": "《矛盾的矛盾》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "第二次世界大战回忆录",
+      "key": "《第二次世界大战回忆录》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98%E5%9B%9E%E5%BF%86%E5%BD%95",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "精神现象学",
+      "key": "《精神现象学》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E7%B2%BE%E7%A5%9E%E7%8E%B0%E8%B1%A1%E5%AD%A6",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "自然哲学的数学原理",
+      "key": "《自然哲学的数学原理》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6%E7%9A%84%E6%95%B0%E5%AD%A6%E5%8E%9F%E7%90%86",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "茅以升传",
+      "key": "《茅以升传》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "茅以升文集",
+      "key": "《茅以升文集》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "论语·雍也",
+      "key": "《论语》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "评注",
+      "key": "《评注》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "词论",
+      "key": "《词论》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "谈谈方法",
+      "key": "《谈谈方法》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E8%AB%87%E8%AB%87%E6%96%B9%E6%B3%95",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "道德与立法原理导论",
+      "key": "《道德与立法原理导论》",
+      "status": "linked",
+      "citations": 6,
+      "url": "https://zh.wikipedia.org/wiki/%E9%81%93%E5%BE%B7%E8%88%87%E7%AB%8B%E6%B3%95%E5%8E%9F%E5%89%87%E6%A6%82%E8%AB%96",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "青年印度",
+      "key": "《青年印度》",
+      "status": "unverifiable",
+      "citations": 6,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "人类理解研究",
+      "key": "《人类理解研究》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "介绍我自己的思想",
+      "key": "《介绍我自己的思想》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "出发点",
+      "key": "《出发点》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "化学原理",
+      "key": "《化学原理》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "图特摩斯三世年代记",
+      "key": "《图特摩斯三世年代记》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "城市与狗",
+      "key": "《城市与狗》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E5%9F%8E%E5%B8%82%E8%88%87%E7%8B%97",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "宪法典",
+      "key": "《宪法典》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "寻找自我",
+      "key": "《寻找自我》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "巴黎评论",
+      "key": "《巴黎评论》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "平均律键盘曲集",
+      "key": "《平均律键盘曲集》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%9D%87%E5%BE%8B%E9%94%AE%E7%9B%98%E6%9B%B2%E9%9B%86",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "惩毖录",
+      "key": "《惩毖录》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikisource.org/wiki/%E6%87%B2%E6%AF%96%E9%8C%84",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "我承认，我历尽沧桑",
+      "key": "《我承认，我历尽沧桑》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "文明论之概略",
+      "key": "《文明论之概略》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "文献通考",
+      "key": "《文献通考》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikisource.org/wiki/%E6%96%87%E7%8D%BB%E9%80%9A%E8%80%83",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "文献通考·自序",
+      "key": "《文献通考》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikisource.org/wiki/%E6%96%87%E7%8D%BB%E9%80%9A%E8%80%83",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "新唐书·杜牧传",
+      "key": "《新唐书》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "朝着南极并环绕世界航行",
+      "key": "《朝着南极并环绕世界航行》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "未来哲学原理",
+      "key": "《未来哲学原理》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "本草纲目·凡例",
+      "key": "《本草纲目》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "测圆海镜",
+      "key": "《测圆海镜》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikisource.org/wiki/%E6%B8%AC%E5%9C%93%E6%B5%B7%E9%8F%A1",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "熙德史",
+      "key": "《熙德史》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "瑜伽综合论",
+      "key": "《瑜伽综合论》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "申辩篇",
+      "key": "《申辩篇》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E8%8B%8F%E6%A0%BC%E6%8B%89%E5%BA%95%E7%9A%84%E7%94%B3%E8%BE%A9",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "社会分工论",
+      "key": "《社会分工论》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E5%88%86%E5%B7%A5%E8%AE%BA",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "离骚",
+      "key": "《离骚》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikisource.org/wiki/%E9%9B%A2%E9%A8%B7",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "第一哲学沉思集",
+      "key": "《第一哲学沉思集》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%B8%E6%B2%89%E6%80%9D%E9%9B%86",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "纯粹理性批判",
+      "key": "《纯粹理性批判》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "经济发展理论",
+      "key": "《经济发展理论》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "经验与教育",
+      "key": "《经验与教育》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "罪与罚",
+      "key": "《罪与罚》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E7%BD%AA%E4%B8%8E%E7%BD%9A",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "藏书",
+      "key": "《藏书》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikisource.org/wiki/%E8%97%8F%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "计算机器与智能",
+      "key": "《计算机器与智能》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "训民正音解例",
+      "key": "《训民正音解例》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "论义务",
+      "key": "《论义务》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "论李维",
+      "key": "《论李维》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "论系统工程",
+      "key": "《论系统工程》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "通信的数学理论",
+      "key": "《通信的数学理论》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "通论",
+      "key": "《通论》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "音注",
+      "key": "《音注》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "首次环球航行记",
+      "key": "《首次环球航行记》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "麦哲伦航行记",
+      "key": "《麦哲伦航行记》",
+      "status": "unverifiable",
+      "citations": 5,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "一桩事先张扬的凶杀案",
+      "key": "《一桩事先张扬的凶杀案》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "九月约",
+      "key": "《九月约》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "书信",
+      "key": "《书信》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "人类学历史本体论",
+      "key": "《人类学历史本体论》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "代数学",
+      "key": "《代数学》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "元史",
+      "key": "《元史》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "元史·世祖纪",
+      "key": "《元史》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "八大山人传",
+      "key": "《八大山人传》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "分辨宝鬘",
+      "key": "《分辨宝鬘》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "劝学篇",
+      "key": "《劝学篇》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "千与千寻",
+      "key": "《千与千寻》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "千金要方",
+      "key": "《千金要方》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "卓特思维模式考辨",
+      "key": "《卓特思维模式考辨》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "自指书名，非公开出版物，无可核验源"
+    },
+    {
+      "name": "单子论",
+      "key": "《单子论》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "史记·大宛列传",
+      "key": "《史记》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "后汉书·华佗传",
+      "key": "《后汉书》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "唐太宗李卫公问对",
+      "key": "《唐太宗李卫公问对》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E5%94%90%E6%9D%8E%E5%95%8F%E5%B0%8D",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "国富论",
+      "key": "《国富论》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E5%8E%9F%E5%AF%8C",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "在困境中更要发愤求进",
+      "key": "《在困境中更要发愤求进》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "大复兴",
+      "key": "《大复兴》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "学校与社会",
+      "key": "《学校与社会》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "安徒生传",
+      "key": "《安徒生传》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "宋史·欧阳修传",
+      "key": "《宋史》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "宋史·苏颂传",
+      "key": "《宋史》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "宗教的本质",
+      "key": "《宗教的本质》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "弗吉尼亚纪事",
+      "key": "《弗吉尼亚纪事》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "心理学原理",
+      "key": "《心理学原理》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "思维与语言",
+      "key": "《思维与语言》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "我的一生",
+      "key": "《我的一生》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "我的早年生活",
+      "key": "《我的早年生活》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "新民丛报",
+      "key": "《新民丛报》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "明儒学案·发凡",
+      "key": "《明儒学案》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%84%92%E5%AD%B8%E6%A1%88",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "明史·郑和传",
+      "key": "《明史》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "曾国藩日记",
+      "key": "《曾国藩日记》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E6%97%A5%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "本草纲目·序例",
+      "key": "《本草纲目》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "注孙子序",
+      "key": "《注孙子序》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E6%B3%A8%E5%AD%AB%E5%AD%90%E5%BA%8F",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "犹太国",
+      "key": "《犹太国》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "玩偶之家",
+      "key": "《玩偶之家》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "癔症研究",
+      "key": "《癔症研究》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E7%99%94%E7%97%87%E7%A0%94%E7%A9%B6",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "登高",
+      "key": "《登高》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E7%99%BB%E9%AB%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "白痴",
+      "key": "《白痴》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "福翁自传",
+      "key": "《福翁自传》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "秋兴八首",
+      "key": "《秋兴八首》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E7%A7%8B%E8%88%88%E5%85%AB%E9%A6%96",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "科学与假设",
+      "key": "《科学与假设》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%81%87%E8%AE%BE",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "科学与方法",
+      "key": "《科学与方法》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "秘史",
+      "key": "《秘史》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "窦娥冤",
+      "key": "《窦娥冤》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikisource.org/wiki/%E7%AB%87%E5%A8%A5%E5%86%A4",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "第五才子书",
+      "key": "《第五才子书》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "罗马盛衰原因论",
+      "key": "《罗马盛衰原因论》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E9%A9%AC%E7%9B%9B%E8%A1%B0%E5%8E%9F%E5%9B%A0%E8%AE%BA",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "自由宪章",
+      "key": "《自由宪章》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E7%A7%A9%E5%BA%8F%E5%8E%9F%E7%90%86",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "致德意志基督教贵族公开书",
+      "key": "《致德意志基督教贵族公开书》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "致死的疾病",
+      "key": "《致死的疾病》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%B4%E6%AD%BB%E7%9A%84%E7%96%BE%E7%97%85",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "航海发现文献集成",
+      "key": "《航海发现文献集成》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "英国陆军卫生史略",
+      "key": "《英国陆军卫生史略》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "莱斯特手稿",
+      "key": "《莱斯特手稿》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "论可计算数",
+      "key": "《论可计算数》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "郑和航海图",
+      "key": "《郑和航海图》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "钱塘江建桥回忆",
+      "key": "《钱塘江建桥回忆》",
+      "status": "unverifiable",
+      "citations": 4,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "三国志通俗演义",
+      "key": "《三国志通俗演义》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "上安州裴长史书",
+      "key": "《上安州裴长史书》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%8A%E5%AE%89%E5%B7%9E%E8%A3%B4%E9%95%B7%E5%8F%B2%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "上帝之城",
+      "key": "《上帝之城》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B8%9D%E4%B9%8B%E5%9F%8E",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "个山小像",
+      "key": "《个山小像》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "中国乡村教育之根本改造",
+      "key": "《中国乡村教育之根本改造》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "中国古代思想史论",
+      "key": "《中国古代思想史论》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "中国近五千年来气候变迁的初步研究",
+      "key": "《中国近五千年来气候变迁的初步研究》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "丰田生产方式：超越大规模生产",
+      "key": "《丰田生产方式：超越大规模生产》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "九十五条论纲",
+      "key": "《九十五条论纲》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "书史",
+      "key": "《书史》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "人间词话",
+      "key": "《人间词话》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%97%B4%E8%AF%8D%E8%AF%9D",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "伊莎贝拉传",
+      "key": "《伊莎贝拉传》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "作为本征值问题的量子化",
+      "key": "《作为本征值问题的量子化》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "元史·天文志",
+      "key": "《元史》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "光学",
+      "key": "《光学》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "军事条例",
+      "key": "《军事条例》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "努力号日志",
+      "key": "《努力号日志》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "卖火柴的小女孩",
+      "key": "《卖火柴的小女孩》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%96%E7%81%AB%E6%9F%B4%E7%9A%84%E5%B0%8F%E5%A5%B3%E5%AD%A9",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "南海寄归内法传",
+      "key": "《南海寄归内法传》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%97%E6%B5%B7%E5%AF%84%E6%AD%B8%E5%85%A7%E6%B3%95%E5%82%B3",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "博弈论与经济行为",
+      "key": "《博弈论与经济行为》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA%E4%B8%8E%E7%BB%8F%E6%B5%8E%E8%A1%8C%E4%B8%BA",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "印度数字算术",
+      "key": "《印度数字算术》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "印度自治",
+      "key": "《印度自治》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "原则问题决定书",
+      "key": "《原则问题决定书》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "古史辨",
+      "key": "《古史辨》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "史记·屈原贾生列传",
+      "key": "《史记》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "史记·老子韩非列传",
+      "key": "《史记》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "后汉书·列女传·董祀妻",
+      "key": "《后汉书》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "吴子·应变",
+      "key": "《吴子》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%90%B3%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "哈里真",
+      "key": "《哈里真》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "哲学家的矛盾",
+      "key": "《哲学家的矛盾》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "唐伯虎全集",
+      "key": "《唐伯虎全集》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "唐朝名画录",
+      "key": "《唐朝名画录》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%94%90%E6%9C%9D%E5%90%8D%E7%95%AB%E9%8C%84",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "国家银行报告",
+      "key": "《国家银行报告》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "图尔税单",
+      "key": "《图尔税单》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "图画见闻志",
+      "key": "《图画见闻志》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%9C%96%E7%95%AB%E8%A6%8B%E8%81%9E%E8%AA%8C",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "圆的度量",
+      "key": "《圆的度量》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "大唐西域求法高僧传",
+      "key": "《大唐西域求法高僧传》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A7%E5%94%90%E8%A5%BF%E5%9F%9F%E6%B1%82%E6%B3%95%E9%AB%98%E5%83%A7%E5%82%B3",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "大明历",
+      "key": "《大明历》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "天体运动论",
+      "key": "《天体运动论》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "嫦娥",
+      "key": "《嫦娥》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%B8%B8%E5%A8%A5",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "孙子兵法·虚实篇",
+      "key": "《孙子兵法》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "孙子兵法·计篇",
+      "key": "《孙子兵法》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "孤禽图",
+      "key": "《孤禽图》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "学术的进展",
+      "key": "《学术的进展》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E5%AD%A6%E6%9C%AF%E7%9A%84%E8%BF%9B%E5%B1%95",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "安娜·卡列尼娜",
+      "key": "《安娜·卡列尼娜》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%A8%9C%C2%B7%E5%8D%A1%E5%88%97%E5%B0%BC%E5%A8%9C",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "安積覚笔录",
+      "key": "《安積覚笔录》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "宋史·曾公亮传",
+      "key": "《宋史》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "宗教生活的基本形式",
+      "key": "《宗教生活的基本形式》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%97%E6%95%99%E7%94%9F%E6%B4%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%BD%A2%E5%BC%8F",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "实用主义",
+      "key": "《实用主义》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "密西拿评注",
+      "key": "《密西拿评注》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "对话集",
+      "key": "《对话集》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "年代记",
+      "key": "《年代记》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "幽灵公主",
+      "key": "《幽灵公主》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "建国号诏",
+      "key": "《建国号诏》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "建立我国国防航空工业的意见书",
+      "key": "《建立我国国防航空工业的意见书》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "建设性纲领",
+      "key": "《建设性纲领》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "当英国守卫英伦",
+      "key": "《当英国守卫英伦》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "徐霞客墓志铭",
+      "key": "《徐霞客墓志铭》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "微分几何的回顾",
+      "key": "《微分几何的回顾》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "心",
+      "key": "《心》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "泛指表述，无唯一书名可指"
+    },
+    {
+      "name": "心灵与物质",
+      "key": "《心灵与物质》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "悲愤诗",
+      "key": "《悲愤诗》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "成为乔布斯",
+      "key": "《成为乔布斯》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "我谈到自由",
+      "key": "《我谈到自由》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "战国策·秦一",
+      "key": "《战国策》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "战国纵横家书",
+      "key": "《战国纵横家书》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E5%9C%8B%E7%B8%B1%E6%A9%AB%E5%AE%B6%E6%9B%B8",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "护理笔记",
+      "key": "《护理笔记》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "拉丁美洲的孤独",
+      "key": "《拉丁美洲的孤独》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "拯救论",
+      "key": "《拯救论》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "指引与注记",
+      "key": "《指引与注记》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "摩托日记",
+      "key": "《摩托日记》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E6%91%A9%E6%89%98%E6%97%A5%E8%AE%B0",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "放射性论",
+      "key": "《放射性论》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "新乐府",
+      "key": "《新乐府》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E6%A8%82%E5%BA%9C",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "新仪象法要",
+      "key": "《新仪象法要》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "新唐书",
+      "key": "《新唐书》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "新思潮的意义",
+      "key": "《新思潮的意义》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E6%80%9D%E6%BD%AE%E7%9A%84%E6%84%8F%E7%BE%A9",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "日喻",
+      "key": "《日喻》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%97%A5%E5%96%BB",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "旧唐书",
+      "key": "《旧唐书》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "明史",
+      "key": "《明史》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "明成祖实录",
+      "key": "《明成祖实录》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "易卜生的群像",
+      "key": "《易卜生的群像》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "易经",
+      "key": "《易经》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%91%A8%E6%98%93",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "星槎胜览",
+      "key": "《星槎胜览》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%98%9F%E6%A7%8E%E5%8B%9D%E8%A6%BD",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "春望",
+      "key": "《春望》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "晋书·天文志",
+      "key": "《晋书》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "晏阳初传",
+      "key": "《晏阳初传》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "曾国藩家书",
+      "key": "《曾国藩家书》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "本草纲目",
+      "key": "《本草纲目》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "朱舜水集",
+      "key": "《朱舜水集》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "歌谣周刊",
+      "key": "《歌谣周刊》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "民间",
+      "key": "《民间》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "水中鱼",
+      "key": "《水中鱼》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "治疗论·形而上学",
+      "key": "《治疗论》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%BB%E7%99%82%E4%B9%8B%E6%9B%B8",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "治疗论·论灵魂",
+      "key": "《治疗论》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%BB%E7%99%82%E4%B9%8B%E6%9B%B8",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "波斯人信札",
+      "key": "《波斯人信札》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%96%AF%E4%BA%BA%E4%BF%A1%E6%9C%AD",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "活着为了讲述",
+      "key": "《活着为了讲述》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "海潮论",
+      "key": "《海潮论》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E6%B5%B7%E6%BD%AE%E8%AB%96",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "游击战",
+      "key": "《游击战》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "猪肉颂",
+      "key": "《猪肉颂》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E8%B1%AC%E8%82%89%E9%A0%8C",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "现场管理",
+      "key": "《现场管理》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "球与圆柱",
+      "key": "《球与圆柱》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "登岳阳楼",
+      "key": "《登岳阳楼》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "白氏长庆集序",
+      "key": "《白氏长庆集序》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E7%99%BD%E6%B0%8F%E9%95%B7%E6%85%B6%E9%9B%86%E5%BA%8F",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "皇明祖训",
+      "key": "《皇明祖训》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E7%9A%87%E6%98%8E%E7%A5%96%E8%A8%93",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "眼福之书",
+      "key": "《眼福之书》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "神义论",
+      "key": "《神义论》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "神学政治论",
+      "key": "《神学政治论》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E5%AD%A6%E6%94%BF%E6%B2%BB%E8%AE%BA",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "第二次世界大战史",
+      "key": "《第二次世界大战史》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "第六才子书",
+      "key": "《第六才子书》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "经籍考",
+      "key": "《经籍考》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "统计力学的基本原理",
+      "key": "《统计力学的基本原理》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "绿房子",
+      "key": "《绿房子》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E7%BB%BF%E6%88%BF%E5%AD%90",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "缀术",
+      "key": "《缀术》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "罪言",
+      "key": "《罪言》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E7%BD%AA%E8%A8%80",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "美诺篇",
+      "key": "《美诺篇》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E8%AF%BA%E7%AF%87",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "腓力匹克",
+      "key": "《腓力匹克》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "自我与本我",
+      "key": "《自我与本我》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "致命的自负",
+      "key": "《致命的自负》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%B4%E5%91%BD%E7%9A%84%E8%87%AA%E8%B4%9F",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "致孩子的书",
+      "key": "《致孩子的书》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "莲花遗教",
+      "key": "《莲花遗教》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "虚构集",
+      "key": "《虚构集》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E8%99%9A%E6%9E%84%E9%9B%86",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "西北航道",
+      "key": "《西北航道》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "西塞罗传",
+      "key": "《西塞罗传》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "观点：我的写作活动自述",
+      "key": "《观点：我的写作活动自述》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "训民正音",
+      "key": "《训民正音》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E8%A8%93%E6%B0%91%E6%AD%A3%E9%9F%B3",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "论动体的电动力学",
+      "key": "《论动体的电动力学》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/Translation%3A%E8%AB%96%E5%8B%95%E9%AB%94%E7%9A%84%E9%9B%BB%E5%8B%95%E5%8A%9B%E5%AD%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "论动物的发生",
+      "key": "《论动物的发生》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "论平面图形的平衡",
+      "key": "《论平面图形的平衡》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "论灵魂",
+      "key": "《论灵魂》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E8%AE%BA%E7%81%B5%E9%AD%82",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "论语",
+      "key": "《论语》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "论非均匀物质的平衡",
+      "key": "《论非均匀物质的平衡》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "诗歌总集",
+      "key": "《诗歌总集》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "贝聿铭谈贝聿铭",
+      "key": "《贝聿铭谈贝聿铭》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "费加罗的婚礼",
+      "key": "《费加罗的婚礼》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "赋格的艺术",
+      "key": "《赋格的艺术》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "道德原则研究",
+      "key": "《道德原则研究》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E9%81%93%E5%BE%B7%E5%8E%9F%E5%89%87%E7%A0%94%E7%A9%B6",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "郁离子",
+      "key": "《郁离子》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E9%83%81%E9%9B%A2%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "酬张少府",
+      "key": "《酬张少府》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E9%85%AC%E5%BC%B5%E5%B0%91%E5%BA%9C",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "重阳立教十五论",
+      "key": "《重阳立教十五论》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E9%87%8D%E9%99%BD%E7%AB%8B%E6%95%99%E5%8D%81%E4%BA%94%E8%AB%96",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "野鸭",
+      "key": "《野鸭》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "金石录",
+      "key": "《金石录》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E9%87%91%E7%9F%B3%E5%BD%95",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "钱塘江桥工程施工纪实",
+      "key": "《钱塘江桥工程施工纪实》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "钱学森年谱",
+      "key": "《钱学森年谱》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "锦瑟",
+      "key": "《锦瑟》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E9%8C%A6%E7%91%9F",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "非此即彼",
+      "key": "《非此即彼》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikipedia.org/wiki/%E9%9D%9E%E6%AD%A4%E5%8D%B3%E5%BD%BC",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "韩非子·二柄",
+      "key": "《韩非子》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E9%9F%93%E9%9D%9E%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "韩非子·五蠹",
+      "key": "《韩非子》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E9%9F%93%E9%9D%9E%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "音乐的奉献",
+      "key": "《音乐的奉献》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "马塞勒斯传",
+      "key": "《马塞勒斯传》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "马太受难曲",
+      "key": "《马太受难曲》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "高等数学引论",
+      "key": "《高等数学引论》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "魏公谭训",
+      "key": "《魏公谭训》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "麦哲伦传",
+      "key": "《麦哲伦传》",
+      "status": "unverifiable",
+      "citations": 3,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "三国志",
+      "key": "《三国志》",
+      "status": "linked",
+      "citations": 2,
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "后汉书",
+      "key": "《后汉书》",
+      "status": "linked",
+      "citations": 2,
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "天学初函",
+      "key": "《天学初函》",
+      "status": "unverifiable",
+      "citations": 2,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "宋史",
+      "key": "《宋史》",
+      "status": "linked",
+      "citations": 2,
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "宗教科学复兴·崇拜篇",
+      "key": "《宗教科学复兴·崇拜篇》",
+      "status": "unverifiable",
+      "citations": 2,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "希波克拉底集·论人的本性",
+      "key": "《希波克拉底集·论人的本性》",
+      "status": "unverifiable",
+      "citations": 2,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "德川幕府制度研究",
+      "key": "《德川幕府制度研究》",
+      "status": "unverifiable",
+      "citations": 2,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "战国策",
+      "key": "《战国策》",
+      "status": "linked",
+      "citations": 2,
+      "url": "https://zh.wikipedia.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "报任安书",
+      "key": "《报任安书》",
+      "status": "linked",
+      "citations": 2,
+      "url": "https://zh.wikisource.org/wiki/%E5%A0%B1%E4%BB%BB%E5%B0%91%E5%8D%BF%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "新疆生产建设兵团志",
+      "key": "《新疆生产建设兵团志》",
+      "status": "unverifiable",
+      "citations": 2,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "苏咸子·权变篇",
+      "key": "《苏咸子·权变篇》",
+      "status": "unverifiable",
+      "citations": 2,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "备急千金要方",
+      "key": "《备急千金要方》",
+      "status": "linked",
+      "citations": 1,
+      "url": "https://zh.wikisource.org/wiki/%E5%82%99%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "希波克拉底集",
+      "key": "《希波克拉底集》",
+      "status": "unverifiable",
+      "citations": 1,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "庄子",
+      "key": "《庄子》",
+      "status": "linked",
+      "citations": 1,
+      "url": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "张子语录",
+      "key": "《张子语录》",
+      "status": "linked",
+      "citations": 1,
+      "url": "https://zh.wikisource.org/wiki/%E5%BC%B5%E5%AD%90%E8%AA%9E%E9%8C%84",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "明儒学案",
+      "key": "《明儒学案》",
+      "status": "linked",
+      "citations": 1,
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%84%92%E5%AD%B8%E6%A1%88",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "治疗论",
+      "key": "《治疗论》",
+      "status": "linked",
+      "citations": 1,
+      "url": "https://zh.wikipedia.org/wiki/%E6%B2%BB%E7%99%82%E4%B9%8B%E6%9B%B8",
+      "source_type": "wikipedia",
+      "provider": "zh.wikipedia (wikidata P31)"
+    },
+    {
+      "name": "经学理窟",
+      "key": "《经学理窟》",
+      "status": "linked",
+      "citations": 1,
+      "url": "https://zh.wikisource.org/wiki/%E7%B6%93%E5%AD%B8%E7%90%86%E7%AA%9F",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "苏咸子·主动篇",
+      "key": "《苏咸子·主动篇》",
+      "status": "unverifiable",
+      "citations": 1,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "苏咸子·利益篇",
+      "key": "《苏咸子·利益篇》",
+      "status": "unverifiable",
+      "citations": 1,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "苏咸子·合纵篇",
+      "key": "《苏咸子·合纵篇》",
+      "status": "unverifiable",
+      "citations": 1,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "苏咸子·情报篇",
+      "key": "《苏咸子·情报篇》",
+      "status": "unverifiable",
+      "citations": 1,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "苏咸子·纵横篇",
+      "key": "《苏咸子·纵横篇》",
+      "status": "unverifiable",
+      "citations": 1,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "苏咸子·虚实篇",
+      "key": "《苏咸子·虚实篇》",
+      "status": "unverifiable",
+      "citations": 1,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "苏咸子·言术篇",
+      "key": "《苏咸子·言术篇》",
+      "status": "unverifiable",
+      "citations": 1,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "西铭",
+      "key": "《西铭》",
+      "status": "linked",
+      "citations": 1,
+      "url": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%8A%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "史蒂夫",
+      "key": "《史蒂夫》",
+      "status": "unverifiable",
+      "citations": 0,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "吴子",
+      "key": "《吴子》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E5%90%B3%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "商君书",
+      "key": "《商君书》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "埃隆",
+      "key": "《埃隆》",
+      "status": "unverifiable",
+      "citations": 0,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "大戴礼记",
+      "key": "《大戴礼记》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A7%E6%88%B4%E7%A6%AE%E8%A8%98",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "孙子兵法",
+      "key": "《孙子兵法》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "安娜",
+      "key": "《安娜》",
+      "status": "unverifiable",
+      "citations": 0,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "宗教科学复兴",
+      "key": "《宗教科学复兴》",
+      "status": "unverifiable",
+      "citations": 0,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "晋书",
+      "key": "《晋书》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "正蒙",
+      "key": "《正蒙》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "焚书》《藏书",
+      "key": "《焚书》《藏书》",
+      "status": "unverifiable",
+      "citations": 0,
+      "reason": "权威源未检索到匹配条目（书名不规范或无数字化版本）"
+    },
+    {
+      "name": "苏咸子",
+      "key": "《苏咸子》",
+      "status": "unverifiable",
+      "citations": 0,
+      "reason": "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）"
+    },
+    {
+      "name": "荀子",
+      "key": "《荀子》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "贞观政要",
+      "key": "《贞观政要》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E8%B2%9E%E8%A7%80%E6%94%BF%E8%A6%81",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "韩非子",
+      "key": "《韩非子》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikisource.org/wiki/%E9%9F%93%E9%9D%9E%E5%AD%90",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource"
+    },
+    {
+      "name": "-SUY-001 孙权 (183-252",
+      "key": "H-SUY-001 孙权 (183-252)",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://zh.wikipedia.org/wiki/%E5%AD%99%E6%9D%83",
+      "source_type": "wikipedia",
+      "provider": "存量保留"
+    },
+    {
+      "name": "he History of Astronomy, Sect. II-IV (Wonder, Surprise, Admirable Systems; Newtonian system); WN Introd. & Plan; TMS VI.ii.2.17 (Man of System); Essays on Philosophical Subject",
+      "key": "The History of Astronomy, Sect. II-IV (Wonder, Surprise, Admirable Systems; Newtonian system); WN Introd. & Plan; TMS VI.ii.2.17 (Man of System); Essays on Philosophical Subjects",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "source_type": "gutenberg",
+      "provider": "存量保留"
+    },
+    {
+      "name": "N I.1-3 (Division of Labour, Market Extent); WN II.3 (Productive and Unproductive Labour; Parsimony); WN IV.9 (Agricultural Systems; 'peace, easy taxes, tolerable justice' maxim); Lectures on Jurisprudence (1755 maxim",
+      "key": "WN I.1-3 (Division of Labour, Market Extent); WN II.3 (Productive and Unproductive Labour; Parsimony); WN IV.9 (Agricultural Systems; 'peace, easy taxes, tolerable justice' maxim); Lectures on Jurisprudence (1755 maxim)",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "source_type": "gutenberg",
+      "provider": "存量保留"
+    },
+    {
+      "name": "N I.10.c (Wages and Profit in the different Employments of Labour and Stock); WN I.11 (Rent of Land, conclusion); WN IV.2 & IV.7 (Restraints of Importation, Colonies); WN I.10.c.61 'People of the same trade...",
+      "key": "WN I.10.c (Wages and Profit in the different Employments of Labour and Stock); WN I.11 (Rent of Land, conclusion); WN IV.2 & IV.7 (Restraints of Importation, Colonies); WN I.10.c.61 'People of the same trade...'",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "source_type": "gutenberg",
+      "provider": "存量保留"
+    },
+    {
+      "name": "N I.2 (Of the Principle which gives Occasion to the Division of Labour); TMS I.1.1 (Of Sympathy); TMS IV.1.10 (Invisible Hand); TMS III (Conscience, Impartial Spectator",
+      "key": "WN I.2 (Of the Principle which gives Occasion to the Division of Labour); TMS I.1.1 (Of Sympathy); TMS IV.1.10 (Invisible Hand); TMS III (Conscience, Impartial Spectator)",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "source_type": "gutenberg",
+      "provider": "存量保留"
+    },
+    {
+      "name": "N IV.9.51 (System of Natural Liberty, sovereign's three duties); WN V.1 (Public Works, Institutions, Education); WN V.1.f (Youth and Religious Instruction); WN III (Progress of Opulence); WN IV.7.b (Colony trade monopoly deranges capital allocation",
+      "key": "WN IV.9.51 (System of Natural Liberty, sovereign's three duties); WN V.1 (Public Works, Institutions, Education); WN V.1.f (Youth and Religious Instruction); WN III (Progress of Opulence); WN IV.7.b (Colony trade monopoly deranges capital allocation)",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "source_type": "gutenberg",
+      "provider": "存量保留"
+    },
+    {
+      "name": "一桩事先张扬的凶杀案",
+      "key": "《一桩事先张扬的凶杀案》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%80%E6%A1%A9%E4%BA%8B%E5%85%88%E5%BC%A0%E6%89%AC%E7%9A%84%E8%B0%8B%E6%9D%80%E6%A1%88",
+      "source_type": "wikipedia",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "千金要方",
+      "key": "《千金要方》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E5%A4%87%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9",
+      "source_type": "wikipedia",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "单子论",
+      "key": "《单子论》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E5%96%AE%E5%AD%90%E8%AB%96",
+      "source_type": "wikipedia",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "史记》多篇综",
+      "key": "《史记》多篇综合",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://ctext.org/wiki.pl?if=gb&chapter=228642",
+      "source_type": "ctext",
+      "provider": "存量保留"
+    },
+    {
+      "name": "大复兴",
+      "key": "《大复兴》",
+      "status": "linked",
+      "citations": 4,
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E5%B7%A5%E5%85%B7%E8%AE%BA%EF%BC%9A%E6%88%96%E8%A7%A3%E9%87%8A%E8%87%AA%E7%84%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8C%87%E5%AF%BC",
+      "source_type": "wikipedia",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "天工开物》及相关论",
+      "key": "《天工开物》及相关论著",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://ctext.org/wiki.pl?if=gb&chapter=285265",
+      "source_type": "ctext",
+      "provider": "存量保留"
+    },
+    {
+      "name": "希波克拉底集·论人的本性",
+      "key": "《希波克拉底集·论人的本性》",
+      "status": "linked",
+      "citations": 2,
+      "url": "https://www.gutenberg.org/ebooks/author/62",
+      "source_type": "gutenberg",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "建国号诏",
+      "key": "《建国号诏》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%BB%BA%E5%9C%8B%E8%99%9F%E8%A9%94",
+      "source_type": "wikisource",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "徐霞客墓志铭",
+      "key": "《徐霞客墓志铭》",
+      "status": "linked",
+      "citations": 3,
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%90%E9%9C%9E%E5%AE%A2%E5%A2%93%E5%BF%97%E9%93%AD",
+      "source_type": "wikisource",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "新疆生产建设兵团志",
+      "key": "《新疆生产建设兵团志》",
+      "status": "linked",
+      "citations": 2,
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E7%96%86%E7%94%9F%E4%BA%A7%E5%BB%BA%E8%AE%BE%E5%85%B5%E5%9B%A2",
+      "source_type": "wikipedia",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "焚书》《藏书",
+      "key": "《焚书》《藏书》",
+      "status": "linked",
+      "citations": 0,
+      "url": "https://ctext.org/wiki.pl?if=gb&chapter=244105",
+      "source_type": "ctext",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "论义务",
+      "key": "《论义务》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E8%AE%BA%E4%B9%89%E5%8A%A1",
+      "source_type": "wikipedia",
+      "provider": "存量保留（覆盖未解析占位）"
+    },
+    {
+      "name": "论李维",
+      "key": "《论李维》",
+      "status": "linked",
+      "citations": 5,
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E7%B6%AD%E8%AB%96",
+      "source_type": "wikipedia",
+      "provider": "存量保留（覆盖未解析占位）"
+    }
+  ],
+  "unverifiable_reasons": {
+    "泛指表述，无唯一书名可指": 11,
+    "权威源未检索到匹配条目（书名不规范或无数字化版本）": 203,
+    "自指书名，非公开出版物，无可核验源": 1,
+    "D2 伪造出处：《苏咸子》不存在于任何权威目录（与 data/audit/findings.json 一致）": 9
+  },
+  "same_key_kept_count": 131,
+  "chapter_keys_replaced_from_baseline": [
+    {
+      "dropped_key": "《后汉书·光武帝纪》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=386531",
+      "replaced_by": "《后汉书》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8"
+    },
+    {
+      "dropped_key": "《史记·卫将军骠骑列传》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=234539",
+      "replaced_by": "《史记》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98"
+    },
+    {
+      "dropped_key": "《三国志·吴书·吴主传》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=374995",
+      "replaced_by": "《三国志》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97"
+    },
+    {
+      "dropped_key": "《正蒙·太和篇》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=535445",
+      "replaced_by": "《正蒙》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99"
+    },
+    {
+      "dropped_key": "《正蒙·大心篇》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=535440",
+      "replaced_by": "《正蒙》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99"
+    },
+    {
+      "dropped_key": "《后汉书·蔡伦传》及造纸工艺研究",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=387555",
+      "replaced_by": null,
+      "replaced_url": ""
+    },
+    {
+      "dropped_key": "《后汉书·蔡伦传》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=387555",
+      "replaced_by": "《后汉书》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8"
+    },
+    {
+      "dropped_key": "《旧唐书·李靖传》《资治通鉴·唐纪》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=417267",
+      "replaced_by": "《旧唐书》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8"
+    },
+    {
+      "dropped_key": "《道德经·极经》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=375337",
+      "replaced_by": "《道德经》",
+      "replaced_url": "https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90_%28%E6%9B%B8%29"
+    },
+    {
+      "dropped_key": "《正蒙·诚明篇》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=535450",
+      "replaced_by": "《正蒙》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99"
+    },
+    {
+      "dropped_key": "《正蒙·参两篇》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=535437",
+      "replaced_by": "《正蒙》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99"
+    },
+    {
+      "dropped_key": "《正蒙·中正篇》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=535447",
+      "replaced_by": "《正蒙》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99"
+    },
+    {
+      "dropped_key": "《备急千金要方·大医精诚》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=678905",
+      "replaced_by": "《备急千金要方》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E5%82%99%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9"
+    },
+    {
+      "dropped_key": "《贞观政要·任贤》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=397891",
+      "replaced_by": "《贞观政要》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E8%B2%9E%E8%A7%80%E6%94%BF%E8%A6%81"
+    },
+    {
+      "dropped_key": "《汉书·霍去病传》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=259731",
+      "replaced_by": "《汉书》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8"
+    },
+    {
+      "dropped_key": "《旧唐书·李靖传》《新唐书·李靖传》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=417267",
+      "replaced_by": "《旧唐书》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8"
+    },
+    {
+      "dropped_key": "《庄子·天运》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=273591",
+      "replaced_by": "《庄子》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90"
+    },
+    {
+      "dropped_key": "《商君书·上》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=252249",
+      "replaced_by": "《商君书》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8"
+    },
+    {
+      "dropped_key": "《商君书·垦令》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=252250",
+      "replaced_by": "《商君书》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8"
+    },
+    {
+      "dropped_key": "《荀子·礼论》",
+      "dropped_url": "https://ctext.org/wiki.pl?if=gb&chapter=270092",
+      "replaced_by": "《荀子》",
+      "replaced_url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90"
+    }
+  ],
+  "removed_key_count": 20
+}

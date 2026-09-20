@@ -30,6 +30,7 @@ import argparse
 import json
 import subprocess
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -42,23 +43,38 @@ POLICY = ("存量冻结、新增即拦：本文件登记的坏链只报告不阻
           "任何未登记的确定性坏链在 --hard-fail 下 exit 1；连接层失败只算警告")
 
 
+RETRYABLE_STATUS = (429, 503)   # 限流 / 暂时不可用：重试后仍失败算「连接层抖动」，不算确定性坏链
+
+
 def check_url(url: str, max_time: int = 10) -> tuple[str, int]:
-    """返回 (kind, status)。kind ∈ {ok, dead, unreachable}。"""
+    """返回 (kind, status)。kind ∈ {ok, dead, unreachable}。
+
+    429/503 视为**暂时性**：指数退避重试 3 次；仍失败按 `unreachable`（警告）处理，
+    不计入「存量/新增坏链」判定 —— 与 credibility_framework §7「连接层失败只算警告」
+    同构。理由（Phase38-Y1 实测）：链接源扩到 150 条后绝大多数落在 Wikimedia 主机上，
+    `curl` 连打会被限流成 429，若算 4xx 坏链，CI 会被网络抖动打红。
+    """
     if not url:
         return "unreachable", 0
-    try:
-        result = subprocess.run(
-            ["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "--max-time", str(max_time), url],
-            capture_output=True, text=True, timeout=max_time + 5,
-        )
-        raw = (result.stdout or "").strip()
-        status = int(raw) if raw.isdigit() else 0
-    except Exception:
-        status = 0
-    if status == 200:
-        return "ok", 200
-    if status == 0:
-        return "unreachable", 0
+    status = 0
+    for attempt in range(4):
+        try:
+            result = subprocess.run(
+                ["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "--max-time", str(max_time), url],
+                capture_output=True, text=True, timeout=max_time + 5,
+            )
+            raw = (result.stdout or "").strip()
+            status = int(raw) if raw.isdigit() else 0
+        except Exception:
+            status = 0
+        if status == 200:
+            return "ok", 200
+        if status in RETRYABLE_STATUS:
+            time.sleep(2 + 3 * attempt)
+            continue
+        break
+    if status == 0 or status in RETRYABLE_STATUS:
+        return "unreachable", status
     return "dead", status
 
 
@@ -117,7 +133,7 @@ def main() -> int:
     ap.add_argument("--hard-fail", action="store_true", help="基线外的坏链 exit 1")
     ap.add_argument("--write-baseline", action="store_true", help="用当前坏链重新冻结基线")
     ap.add_argument("--max-time", type=int, default=10, help="单条 curl 超时秒数（默认 10）")
-    ap.add_argument("--jobs", type=int, default=8, help="并发核验线程数（默认 8）")
+    ap.add_argument("--jobs", type=int, default=4, help="并发核验线程数（默认 4；源站限流时调小）")
     args = ap.parse_args()
 
     links_path = Path(args.links_path)
