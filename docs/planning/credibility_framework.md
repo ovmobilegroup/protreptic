@@ -32,8 +32,8 @@
 | **D2** | 伪造出处 | 书名不存在于任何权威目录；或自引伪造（《X氏子》型） | 隔离 + 复核 |
 | **D3** | 出处污染 | `source_chapter` 含工程痕迹：`sha256` / commit 哈希 / 脚本名 / `双镜像` / `qa_postmerge` / 工作树叙述 | 重写或隔离 |
 | | | **豁免条款**：**D1 已隔离记录允许保留源库工程痕迹，以导出期过滤为准**——隔离项不进任何公开产物（名录 / 每日 / 图谱 / 概念层），源库工程痕迹只服务复核与回滚，不对外可见。<br>**名单唯一事实来源**：`tools/_quarantine.py` 的 `QUARANTINE`（当前 6 项：`H-SX-001`、`H-P23F-001`、`P24F`、`P25F`、`P26F`、`Phase27Final`）；gate **不复制名单副本**，改名单只改那一处。<br>**机检方式**：`credibility_gate.py::check_d3_pollution()` 对 `is_d3_exempt(mode, quarantine)` 为真的模式**跳过 D3 扫描**，仅对公开 figure 扫 `source_chapter`；**豁免面必须在 gate 报告里如实打印**，禁止静默跳过。<br>**可关**：`--no-d3-exemption` 关掉豁免（严格模式，连隔离项一起扫），用于审计回看。 | |
-| **D4** | 引文不符 | `key_quote_zh` 文本不出现于所标出处的原文。<br>**实现程度（Phase40-Z2 起，此前为空壳）**：真做**归一化子串核验**——`key_quote_zh` 去标点归一化后切成片段，与 `data/audit/source_texts/` 里缓存的原文比对（缓存由 `tools/fetch_source_texts.py` 按 `source_links.json` 的原文类链接抓取）。**只在「出处有书名号引文 + 引文解析到原文类链接（wikisource/gutenberg/ctext）+ 缓存覆盖整部作品（coverage=single-page/complete）」时可核**；其余一律 `unchecked` 并逐类计数（`no-citation` / `no-fulltext-link` / `partial-coverage` / `no-cache-entry` …），**不假装核过**。 | 复核（WARN，不阻断） |
-| **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年）。<br>**实现程度（Phase40-Z2 起，此前直接 `return []`）**：真做——用 `data/figures/*.json` 的 `birth_year`/`death_year`（含字符串与「约前287」式公元前纪年）× 模式文本里的 4 位年份。**只有同时满足**「字段属本人叙述字段（`definition_zh`/`process_zh`/`representative_cases_zh`）」「年份落在生涯带 `[生年-40, 卒年+30]`」「年份与人物名同现（±20 字）」「上下文无文献 / 卒后余波 / 背景标记」才判矛盾；其余逐类计入**不可判定**（`out-of-window` / `field-not-claim` / `name-not-in-context` / `no-lifespan-for-figure` …）。 | 复核（WARN，不阻断） |
+| **D4** | 引文不符 | `key_quote_zh` 文本不出现于所标出处的原文。<br>**实现程度（Phase40-Z2 起，此前为空壳）**：真做**归一化子串核验**——`key_quote_zh` 去标点归一化后切成片段，与 `data/audit/source_texts/` 里缓存的原文比对（缓存由 `tools/fetch_source_texts.py` 按 `source_links.json` 的原文类链接抓取）。**只在「出处有书名号引文 + 引文解析到原文类链接（wikisource/gutenberg/ctext）+ 缓存覆盖整部作品（coverage=single-page/complete）」时可核**；其余一律 `unchecked` 并逐类计数（`no-citation` / `no-fulltext-link` / `partial-coverage` / `no-cache-entry` …），**不假装核过**。<br>**Phase41-Z3（取文本口径统一）**：list/str/None 混载一律经 `field_text()` 取文本 —— `key_quote_zh` 17 条 list、`source_chapter` 30 条 list 不再被跳过或按类型走岔；全库 `matched 1 / mismatch 22` 不变（17 条 list 引文从 `no-quote` 移入其它**同样不可核**的桶，不假装核过）。 | 复核（WARN，不阻断） |
+| **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年）。<br>**实现程度（Phase40-Z2 起，此前直接 `return []`）**：真做——用 `data/figures/*.json` 的 `birth_year`/`death_year`（含字符串与「约前287」式公元前纪年）× 模式文本里的 4 位年份。**只有同时满足**「字段属本人叙述字段（`definition_zh`/`process_zh`/`representative_cases_zh`）」「年份落在生涯带 `[生年-40, 卒年+30]`」「年份与人物名同现（±20 字）」「上下文无文献 / 卒后余波 / 背景标记」才判矛盾；其余逐类计入**不可判定**（`out-of-window` / `field-not-claim` / `name-not-in-context` / `no-lifespan-for-figure` …）。<br>**Phase41-Z3（字段类型盲区修复）**：`process_zh`（list 2808 条）、`representative_cases_zh`（list 2546 条）此前因 `isinstance(text, str)` 被**整段跳过**（修复前全库 82.3% 模式 tokens=0、conflict 恒为 0）；现统一走 `field_text()` 并**按原子文本扫描**（上下文窗口不跨 list 元素边界）。修复后：年份 token 1252 到 2110、`conflict` 0 到 1、`tokens=0` 82.3% 到 79.4% —— **仍然存在盲区**（人物无生卒年占 61.0%、他人年份归属、未纳入扫描的 `modern_applications_zh`），修复详情与残留盲区见第 10.5 节。 | 复核（WARN，不阻断） |
 | **D6** | 悬空引用 | `cross_references` / `related_modes` 指向不存在的 `mode_code` | 自动修 |
 | **D7** | 重复/近重复 | 同 figure 内 definition 相似度 > 阈值；或跨 figure 文本重复 | 合并/标注 |
 
@@ -350,7 +350,7 @@ python3 tools/check_repo_parity.py --list     # 打印纳入/排除清单（含�
 
 ---
 
-## 10. D4/D5 的真实实现、覆盖与局限（Phase40-Z2）
+## 10. D4/D5 的真实实现、覆盖与局限（Phase40-Z2 实现 / Phase41-Z3 修字段类型盲区）
 
 > 起因：船长 2026-09-20 独立核验（源码证据）发现 `tools/credibility_gate.py` 的 D4/D5 是**空壳**
 > ——`check_d4_quote_mismatch` 只判「有引文但出处为空」（docstring 自述 placeholder）、
@@ -363,7 +363,7 @@ python3 tools/check_repo_parity.py --list     # 打印纳入/排除清单（含�
 | 缺陷 | 依赖 | 判定链 |
 |---|---|---|
 | **D4 引文不符** | `data/audit/source_texts.json` + `data/audit/source_texts/*.txt`（缓存原文，由 `tools/fetch_source_texts.py` 抓取）；匹配规则唯一实现在 `tools/source_text_cache.py` | N0 归一化（只留汉字/字母/数字，去空白与标点）→ N1 把 `key_quote_zh` 按标点切片段，取长度 ≥8 的片段（由长到短最多 8 个）→ N2 任一片段出现在原文 = `matched` → N3 全部落空 = `mismatch` → N4 无可用文本 = `unchecked`（逐类记理由）→ N5 繁简守卫（原文繁体 vs 引文简体 → `script-mismatch`，不判不符） |
-| **D5 时间线矛盾** | `data/figures/*.json` 的 `birth_year`/`death_year`（int / 纯数字字符串 / 「约前287」式公元前纪年都能解析） | 生卒年可用 → 扫 4 位年份（`1xxx`/`20xx`）→ 生涯带 `[生年-40, 卒年+30]` 之外 → `out-of-window` 不可判定；带内但字段不是本人叙述字段 → `field-not-claim`；年份不与人物名同现（±20 字）→ `name-not-in-context`；上下文含文献/出版、卒后余波、背景年代标记 → 对应不可判定；**全部通过才判矛盾** |
+| **D5 时间线矛盾** | `data/figures/*.json` 的 `birth_year`/`death_year`（int / 纯数字字符串 / 「约前287」式公元前纪年都能解析） | 生卒年可用，先**逐字段逐原子文本取文本**（`field_text()` / `iter_field_text()`，list / str / None 三种载荷一致，`process_zh` 的 2808 条 list 不再被整段跳过），再扫 4 位年份（`1xxx`/`20xx`）→ 生涯带 `[生年-40, 卒年+30]` 之外 → `out-of-window` 不可判定；带内但字段不是本人叙述字段 → `field-not-claim`；年份不与人物名同现（±20 字）→ `name-not-in-context`；上下文含文献/出版、卒后余波、背景年代标记 → 对应不可判定；**全部通过才判矛盾** |
 
 抓取口径（`fetch_source_texts.py`）：只抓 `source_type ∈ {wikisource, gutenberg, ctext}` 的原文类链接；
 wikisource 走 `action=raw`，页面若只是目录（如《传习录》卷上/卷中/卷下）**顺着子页抓**并如实标 `coverage`
@@ -372,6 +372,9 @@ gutenberg 的 `/ebooks/<id>` 换成 `/cache/epub/<id>/pg<id>.txt`；ctext 有 Cl
 **抓不到就是抓不到：不伪造、不用二手转述补位。**
 
 ### 10.2 覆盖与实测（2026-09-20，命令与原始输出见 `docs/qa/phase40_z2_d4_d5.md`）
+
+注意：本节数字是 Phase40-Z2 当时的口径，字段类型盲区尚未修（`process_zh` / `representative_cases_zh` 这类 list 字段被整段跳过，82.3% 模式 tokens=0）。Phase41-Z3 修复后的复测数字见第 10.5 节。
+
 
 * 缓存：`source_links.json` 382 个 key 里有 169 个带 url，其中**原文类 96 个**（wikisource 87 / gutenberg 6 / ctext 3）；
   抓取结果 **ok 43 + ok-shared 2 / partial 38 / index-page 11 / fetch-failed 2**，文本 3.2 MB。
@@ -390,7 +393,7 @@ gutenberg 的 `/ebooks/<id>` 换成 `/cache/epub/<id>/pg<id>.txt`；ctext 有 Cl
 ### 10.3 误报控制（这是本次实现的重点，不是附属）
 
 1. **D5 的朴素规则会大量误报 —— 已实测**：全库把「年份落在生卒年之外」直接判矛盾，
-   会得到 **34 个年份 token（20 条模式）**，逐条看**全部**是卒后余波 / 所引文献出版年 / 背景事件
+   会得到 **34 个年份 token（20 条模式）**（旧口径：只认 str 字段。Phase41-Z3 把 list 字段一并纳入后，朴素规则的候选面涨到 **214 个 token / 105 条模式**，含 `source_chapter` / `key_quote_zh` 时是 **276 / 132**，逐条看仍是卒后余波与史料年代，故 D5 仍不采用朴素规则），逐条看**全部**是卒后余波 / 所引文献出版年 / 背景事件
    （例：麦哲伦 1521 卒，《首次环球航行记》约 1522、萨拉戈萨条约 1529；牛顿 1727 卒，Machin《月球理论》1729；
    瓦特 1819 卒，麦克斯韦 1868 年论文；费曼 1988 卒，Gleick 传记 1992）。因此 D5 **不采用**朴素规则，
    只报「字段属本人叙述 + 年份与人物名同现 + 生涯带内 + 无文献/余波/背景标记」的强信号。
@@ -404,8 +407,8 @@ gutenberg 的 `/ebooks/<id>` 换成 `/cache/epub/<id>/pg<id>.txt`；ctext 有 Cl
 
 ### 10.4 局限（如实写，不夸大覆盖面）
 
-* **D4 可核面只有 38 个 key**（96 个原文类链接里 38 个覆盖完整）；`source_chapter` 里没有书名号引文（647 条）、
-  引文只有条目页/不可链接（1585 条）的模式**根本不可核**。因此 D4 的结论**只覆盖全库的一小块**，
+* **D4 可核面只有 38 个 key**（96 个原文类链接里 38 个覆盖完整）；`source_chapter` 里没有书名号引文（658 条）、
+  引文只有条目页/不可链接（1591 条）的模式**根本不可核**。因此 D4 的结论**只覆盖全库的一小块**，
   不能读成「其余 2866 条引文都对」。
 * `partial-coverage` 的 409 条模式要真正可核，需要抓全分卷（当前上限 12 卷/页）或引入章节级链接映射 —— 未做。
 * **繁简/异体字**：当前只做「检测不一致 → 不判不符」，**不做字形转换**；要真正核对繁简混合语料，
@@ -415,6 +418,66 @@ gutenberg 的 `/ebooks/<id>` 换成 `/cache/epub/<id>/pg<id>.txt`；ctext 有 Cl
   `credibility_gate.py` 的 `D5_EXCLUDE_*`），会漏真矛盾、也会放过真矛盾 —— 因此 D5 的产出是
   **候选复核清单**，不是终审判决。
 * D4/D5 都是 **WARN（不阻断）**：只在报告与审计清单里出现，不改变 CI 的通过与否（口径见第 4 节）。
-* 负对照自测：`tools/test_credibility_d45.py`（15 项：矛盾必报 / 干净不误报 / 三条误报控制 /
-  无生卒年标不可判定 / 生卒年解析四形态 / D4 不符必报 / 匹配不误报 / partial 不得判不符 /
-  无缓存标不可核 / 端到端坏样本必报 + 干净不报），已接进发布仓 `ci-cd.yml` 的 test job。
+* **（Phase41-Z3 新增，2026-09-21）D5 的残余盲区**：一、**人物无生卒年占 61.0%**
+  （1762 / 2888 条模式，`no-lifespan-for-figure` 一律不可判定），这是比字段类型更硬的盲区；
+  二、**他人姓名的年份归属**：「牛顿未解决，Clairaut 1749 年以摄动级数解决」这类句子会被判矛盾
+  （全库 1 条误报，已如实进 `suspect`）；三、`modern_applications_zh`（9 条含年份）/
+  `application_zh`（2 条）**未纳入** `D5_CLAIM_FIELDS`；四、单字排除标记 `自` / `起` / `前后` /
+  `之后` 过宽（当前全库零命中，属潜在假阴性）。详见第 10.5 节。
+* 负对照自测：`tools/test_credibility_d45.py`（Phase40-Z2 的 15 项 + Phase41-Z3 新增 10 项共 **25 项**：
+  矛盾必报 / 干净不误报 / 三条误报控制 / 无生卒年标不可判定 / 生卒年解析四形态 /
+  **字段三态口径（list / str / None 等价，含嵌套与 bool）** / **list 载荷矛盾必报** /
+  **str 载荷负对照等价** / **list 混合 None 不崩** / **全 None 不静默放过** / **缺 figure_name 名字回退** /
+  D4 不符必报 / 匹配不误报 / **D4 list 引文与 list 出处仍可核** / partial 不得判不符 / 无缓存标不可核 /
+  端到端坏样本必报 + 干净不报 + **list 载荷坏样本必报且不误报 D4**），
+  已接进发布仓 `ci-cd.yml` 的 test job。
+
+---
+
+### 10.5 Phase41-Z3：D4/D5 字段类型盲区修复（2026-09-21）
+
+**问题（船长独立核验，可复现）**：`d5_scan` / `d4_scan` 用
+`text = mode.get(field); if not isinstance(text, str): continue` 取文本，而真实数据里
+年份最集中的两个字段就是数组 —— `process_zh`（list 2808 / str 20 / None 60）、
+`representative_cases_zh`（list 2546 / str 102 / None 240）；另有 `source_chapter` 30 条 list、
+`key_quote_zh` 17 条 list。后果：修复前全库 2888 条模式里 2376 条（82.3%）`tokens=0`、
+`conflict` 恒为 0 —— **检查在真实数据上形同虚设**。
+
+**修复**：新增 `D45_TEXT_FIELDS` / `_text_atoms()` / `field_text_atoms()` / `field_text()` /
+`iter_field_text()`，作为 D4/D5 **唯一**的取文本口径（str 原样；list/tuple/set 逐层展开成各元素；
+None / 缺字段 / bool 当空；其它标量取字符串）。D5 改为**按原子文本扫描** —— 自测 M1 当场抓到
+「把 list join 成一个大字符串再扫」会让上下文窗口跨元素、前一条元素里的「背景」标记把
+后一条元素里的真矛盾降级成 `background-marker`。另修 `load_figure_lifespans()` 带上
+`figure_name`（模式缺名时的回退；当前全库 0 例受益，属防御性修复，如实记录）。
+
+**修复前后对照（同一份 `data/modes_data.json`）**：
+
+| 指标 | 修复前（f9a60b48） | 修复后（Phase41-Z3） | 变化 |
+|---|---|---|---|
+| 4 位年份 token 总数 | 1252 | **2110** | +858 |
+| `tokens=0` 模式 | 2376 / 2888 = 82.3% | 2292 / 2888 = **79.4%** | -84 |
+| `clean` | 512 | **595** | +83 |
+| `undetermined` | 2376 | 2292 | -84 |
+| `conflict` | 0 | **1** | +1 |
+| 有生卒年子集 `tokens=0` | 620 / 1132 | **536 / 1132** | -84 |
+| 无生卒年子集 `tokens=0` | 1756 / 1756 | 1756 / 1756 | 不变 |
+
+**四态口径更新**：`data/audit/findings.json` 156 条（`D5_timeline_conflict` 从 0 增到 1）；
+`verified` 到 `suspect` 1 条（`M-NEW-007`）；全库 `verified 888 / pending 1589 / suspect 40 /
+unverifiable 351`，公开口径 `suspect 23`（`apply_verification_status.py --check` 无漂移）。
+
+**必须如实说的三件事**：
+
+1. `tokens=0` 只降到 **79.4%，没有「大幅下降」** —— 82% 的主体不是字段类型盲区，而是 1762 条（61.0%）
+   「人物无生卒年」（`no-lifespan-for-figure`）；字段类型修复实际影响的是「有生卒年」子集里的
+   84 条（620 到 536，54.8% 到 47.3%）。余下 536 条确实无 4 位年份可扫（交叉核验见证据文档第 7 节）。
+2. 全库新检出 `conflict` **只有 1 条，且人工复核为误报**（`M-NEW-007` 牛顿：1749 年是 Clairaut
+   在牛顿卒后的成果，句子自己写着「牛顿未解决」）。生涯带内的候选共 45 条，逐条判读 **45/45 确非矛盾**
+   —— 即上报集合精度 0/1，未找到第 2 条可确认的真实矛盾。
+3. 最硬的盲区仍未修：「人物无生卒年」（要补 `data/figures/*.json` 的生卒年）与「他人年份归属」
+   （邻近归属法，未实现）；`modern_applications_zh` / `application_zh` 两个中文叙述字段也**未**纳入
+   D5 扫描口径。
+
+**证据**：`docs/qa/phase41_z3_d4_d5_field_types.md`（字段类型表 / 修复前后对照 / 1 条 conflict 与
+45 条候选逐条判读 / 负对照 25 项 / 复现命令）。自测：`python3 tools/test_credibility_d45.py`
+25/25 passed，exit 0。

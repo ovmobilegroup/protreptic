@@ -1,9 +1,9 @@
 {
   "schema": "protreptic.verification_status/v1",
   "generated_by": "tools/apply_verification_status.py",
-  "generated_at": "2026-09-20",
-  "checked_at": "2026-09-20",
-  "checker": "phase40-z2",
+  "generated_at": "2026-09-21",
+  "checked_at": "2026-09-21",
+  "checker": "phase38-y2",
   "rules": {
     "S1": "suspect      : mode_code 命中 findings.json 的 D4/D5（引文不符 / 时间线矛盾）",
     "S2": "verified     : 出处至少一条引文解析到可达链接（url 非空） -> method=link-resolved, evidence=url",
@@ -18,10 +18,10 @@
   ],
   "inputs": {
     "data/modes_data.json": {
-      "sha256": "ac6fd2c4c73f1d3ce0b0cf4ac267c0b1af6706191331e99d125fbf4340d65a8e",
+      "sha256": "4753a83f74a468e795eabcfb64ad3105ee2797e9d82616ace919fca071eed610",
       "modes": 2868,
       "note": "sha256 为报告生成时刻的盘上文件（--write 走盘后回填）",
-      "bytes": 22814979
+      "bytes": 22814938
     },
     "data/source_links.json": {
       "sha256": "bfce3a5b222134a0e1564320a32b039e1a3076fa3d9a3ab6da6fe6fc6d5bb2d3",
@@ -30,32 +30,30 @@
       "distinct_urls": 164
     },
     "data/audit/findings.json": {
-      "sha256": "86fada2ed037289ad9602efd22c7f937a62e7c50de891cc5fe2e91d16e94f059",
-      "d4_d5_modes": 39
+      "sha256": "8fe949365f0689837ee13acdd120e89c44f628db8c8f5f1d77823088234920e2",
+      "d4_d5_modes": 40
     }
   },
   "counts": {
     "all": {
-      "verified": 889,
+      "verified": 888,
       "pending": 1589,
-      "suspect": 39,
+      "suspect": 40,
       "unverifiable": 351
     },
     "all_total": 2868,
     "published": {
-      "verified": 889,
+      "verified": 888,
       "pending": 1557,
-      "suspect": 22,
+      "suspect": 23,
       "unverifiable": 340
     },
     "published_total": 2808,
     "quarantined_total": 60
   },
   "cross_checks": {
-    "suspect_and_linked_overlap": 22,
+    "suspect_and_linked_overlap": 23,
     "verified_distinct_evidence_urls": 145
   },
-  "changes_vs_library": {
-    "verified -> suspect": 22
-  }
+  "changes_vs_library": {}
 }

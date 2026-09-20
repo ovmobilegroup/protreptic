@@ -250,12 +250,93 @@ def check_d3_pollution(
 # docs/planning/credibility_framework.md §1 的 D4/D5 行与 §10。
 # --------------------------------------------------------------------------
 
+# --------------------------------------------------------------------------
+# Phase41-Z3: D4/D5 统一取文本 —— 修「字段类型盲区」
+#
+# 船长 2026-09-21 独立核验发现：Phase40-Z2 的 d4_scan/d5_scan 用
+#     text = mode.get(field); if not isinstance(text, str): continue
+# 直接跳过非字符串字段，而真实数据里**年份最集中的两个字段就是数组**：
+#   process_zh               list 2808 / str 20 / None 60
+#   representative_cases_zh  list 2546 / str 102 / None 240
+#   source_chapter           str 2808 / list 30 / None 50
+#   key_quote_zh             str 2816 / list 17 / None 55
+# 结果：全库 2888 条模式里 2376 条（82.3%）D5 tokens=0、conflict 恒为 0 —— 检查形同虚设。
+#
+# 下面这组函数是 D4/D5 **唯一**的取文本口径（不许在别处再写一遍 isinstance 判断）：
+#   str            -> 原样
+#   list/tuple/set -> 逐层展开（嵌套也支持）后按行 join；None 元素变空串被丢掉
+#   None / 缺字段   -> ""
+#   bool           -> ""（True/False 不是年份文本，不参与扫描）
+#   其它标量        -> str()（如 number -> "1270"，仍然参与年份扫描）
+# --------------------------------------------------------------------------
+
+D45_TEXT_FIELDS = ("definition_zh", "process_zh", "representative_cases_zh",
+                   "source_chapter", "key_quote_zh")
+
+def _text_atoms(value) -> list:
+    """任意 JSON 值 -> 原子文本列表（不按类型整段跳过）。
+
+    str -> [str]；list/tuple/set -> 逐层展开成各元素（嵌套也支持，set 按 str 排序保稳定）；
+    None / 缺字段 / bool -> []（True/False 不是年份文本）；其它标量 -> [str(value)]。
+    """
+    if value is None or isinstance(value, bool):
+        return []
+    if isinstance(value, str):
+        return [value] if value else []
+    if isinstance(value, (list, tuple)):
+        out = []
+        for v in value:
+            out.extend(_text_atoms(v))
+        return out
+    if isinstance(value, (set, frozenset)):
+        out = []
+        for v in sorted(value, key=str):
+            out.extend(_text_atoms(v))
+        return out
+    return [str(value)]
+
+
+def _text_of(value) -> str:
+    """任意 JSON 值 -> 单块文本（原子之间按行拼接）。"""
+    return "\n".join(_text_atoms(value))
+
+
+def field_text_atoms(mode: dict, field: str) -> list:
+    """取模式字段的原子文本列表（list 字段 = 各元素，str 字段 = 单元素）。"""
+    if not isinstance(mode, dict):
+        return []
+    return _text_atoms(mode.get(field))
+
+
+def field_text(mode: dict, field: str) -> str:
+    """取模式字段的单块文本（D4 的引文与出处、报告与统计用）。缺字段或空值 -> 空串。"""
+    return "\n".join(field_text_atoms(mode, field))
+
+
+def iter_field_text(mode: dict, fields) -> list:
+    """逐个原子文本产出 field 与 atom 之对，这是 D5 的取文本口径。
+
+    为什么不按拼接后的大字符串扫描（Phase41-Z3 自测 M1 实测暴露）：
+    D5 的上下文窗口是正负 D5_NAME_RADIUS 字；若把列表各元素拼成一块再扫，窗口会跨元素，
+    前一条元素里的背景与史料类标记会污染后一条元素里真矛盾的判定，
+    反过来后一条元素里的人名也会替前一条元素里的年份背书。
+    按原子扫描后窗口不越元素边界，列表与字符串两种载荷判定一致。
+    """
+    out = []
+    for f in fields:
+        for atom in field_text_atoms(mode, f):
+            if atom:
+                out.append((f, atom))
+    return out
+
+
 D5_YEAR_RE = re.compile(r"(?<!\d)(1\d{3}|20\d{2})(?!\d)")
 # 只有「本人叙述字段」里的年份才可能构成「本人时间线矛盾」：
 #   * source_chapter 记的是**所引文献**，文献晚于本人生年是常态；
 #   * key_quote_zh 常带「（据 1456 年复审证词）」这类史料/来源标注。
 # 两者都不作为矛盾来源，而是进「不可判定」桶并给理由（d5_scan 的 reason 分类）。
 D5_CLAIM_FIELDS = ("definition_zh", "process_zh", "representative_cases_zh")
+D5_SCAN_FIELDS = D5_CLAIM_FIELDS + ("source_chapter", "key_quote_zh")
 D5_WINDOW_BEFORE = 40   # 早于生年多少年以内仍算「本人时间线附近的年份」
 D5_WINDOW_AFTER = 30    # 晚于卒年多少年以内仍算「本人时间线附近的年份」
 D5_NAME_RADIUS = 20     # 「年份与人物名同现」的上下文窗口（正负各 N 字）
@@ -311,6 +392,7 @@ def load_figure_lifespans(root: Path | None = None) -> dict:
         out[str(code)] = {
             "birth_year": birth,
             "death_year": death,
+            "figure_name": (doc.get("figure_name") or doc.get("name_zh") or "").strip() or None,
             "era": doc.get("era"),
             "provenance": "data/figures/%s.json:birth_year/death_year" % path.stem,
         }
@@ -326,14 +408,17 @@ def d5_scan(mode: dict, lifespans: dict) -> dict:
                 "conflicts": [], "undetermined": [], "tokens": 0}
     birth, death = life["birth_year"], life["death_year"]
     name = str(mode.get("figure_name") or mode.get("figure_name_zh") or "").strip()
+    if not name:
+        # Phase41-Z3：模式缺 figure_name（实测 30 条）时回退到 data/figures 的名字，
+        # 否则这些模式的年份会因「名字为空」被一律降级为不可判定（假盲区）。
+        name = str(life.get("figure_name") or "").strip()
     lo, hi = birth - D5_WINDOW_BEFORE, death + D5_WINDOW_AFTER
 
     conflicts, undetermined = [], []
     tokens = 0
-    for field in D5_CLAIM_FIELDS + ("source_chapter", "key_quote_zh"):
-        text = mode.get(field)
-        if not isinstance(text, str):
-            continue
+    # Phase41-Z3：统一走 iter_field_text —— list/str/None 三种载荷一致对待，
+    # 且按**原子文本**扫描，上下文窗口不跨 list 元素边界。
+    for field, text in iter_field_text(mode, D5_SCAN_FIELDS):
         for m in D5_YEAR_RE.finditer(text):
             year = int(m.group(1))
             tokens += 1
@@ -461,8 +546,10 @@ def d4_scan(mode: dict, cache, link_index) -> dict:
     可核条件（三者同时满足）：出处里有书名号引文 / 引文解析到**原文类**链接
     (wikisource|gutenberg|ctext) / 该 key 的缓存状态为 ok。其余一律 unchecked 并给理由。
     """
-    quote = mode.get("key_quote_zh") or mode.get("key_quote") or ""
-    source = mode.get("source_chapter")
+    # Phase41-Z3：list/str/None 混载一致取文本（key_quote_zh 有 17 条是 list、
+    # source_chapter 有 30 条是 list，旧写法会整段跳过 / 传给 extract_refs 的类型不确定）。
+    quote = field_text(mode, "key_quote_zh") or field_text(mode, "key_quote")
+    source = field_text(mode, "source_chapter")
     if not (isinstance(quote, str) and quote.strip()):
         return {"status": "unchecked", "reason": "no-quote", "key": None}
     if cache is None or link_index is None or getattr(cache, "_module", None) is None:
@@ -588,8 +675,8 @@ def run_gate(
         mode_code = mode.get("mode_code", "UNKNOWN")
 
         # D3 豁免登记（已隔离 figure）——判定依据见 is_d3_exempt()
-        src_text = mode.get("source_chapter", "")
-        has_source = bool(src_text.strip()) if isinstance(src_text, str) else bool(src_text)
+        src_text = field_text(mode, "source_chapter")
+        has_source = bool(src_text.strip())
         if apply_d3_exemption and quarantine and has_source and is_d3_exempt(mode, quarantine):
             d3_exempted.append(str(mode_code))
 

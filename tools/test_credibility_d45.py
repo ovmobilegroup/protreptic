@@ -20,6 +20,20 @@
     L  端到端：负对照夹具跑 gate（--data-path 指向夹具）-> D4 mismatch / D5 conflict 必须出现在
        报告的 warnings 明细里，干净夹具不出现
 
+    Phase41-Z3 增补（字段类型盲区：list 载荷曾被整段跳过，全库 82% 模式 tokens=0）
+    M0 field_text 统一取文本口径：str / list / 嵌套 list / None / 缺字段 / bool / 数字
+    M1 D5 年份在 **list** 载荷里（晚于卒年 + 窗口内 + 与人物名同现）-> 必须判 conflict
+    M2 负对照：同一年份放在 **str** 载荷也要被检出（两种载荷等价，不许只认字符串）
+    M3 两种载荷的 conflict 证据（year / field）必须一致
+    M4 process_zh 是 list 且含 None 元素 -> 仍被扫描，且不因 None 崩
+       （夹具刻意避开含「自」字的措辞：D5_EXCLUDE_BACKGROUND 有单字 '自'，会把窗口内的
+       真矛盾降级成 background-marker —— 见 credibility_framework.md 第 10.5 节残留盲区）
+    M5 五个字段全为 None -> undetermined / no-four-digit-year，不静默放过
+    M6 模式缺 figure_name -> 回退 data/figures 的名字，仍能检出（不因空名假降级）
+    Q  D4 key_quote_zh 为 list -> 仍可核（matched），旧写法直接 unchecked no-quote
+    Q2 D4 source_chapter + key_quote_zh 均为 list -> 仍判 mismatch
+    T  端到端：list 载荷的坏样本必须在 gate 报告的 D5 明细里报出
+
 用法：python3 tools/test_credibility_d45.py    （全过 exit 0，任一失败 exit 1）
 """
 
@@ -148,6 +162,45 @@ def main():
         check("F 无生卒年 -> undetermined 且理由明确",
               f["status"] == "undetermined" and f["reason"] == "no-lifespan-for-figure", f)
 
+        # ---- M: Phase41-Z3 字段类型盲区（list/str/None 三态一致） ----
+        check("M0 field_text 统一取文本口径（str/list/嵌套/None/缺字段/bool/数字）",
+              GATE.field_text({"a": "x"}, "a") == "x"
+              and GATE.field_text({"a": ["x", None, "y"]}, "a") == "x\ny"
+              and GATE.field_text({"a": [["x"], ["y", ""]]}, "a") == "x\ny"
+              and GATE.field_text({"a": None}, "a") == ""
+              and GATE.field_text({}, "a") == ""
+              and GATE.field_text({"a": True}, "a") == ""
+              and GATE.field_text({"a": [True, 1699]}, "a") == "1699"
+              and GATE.field_text(None, "a") == "",
+              "field_text 口径不符: %r" % (GATE.field_text({"a": [["x"], ["y"]]}, "a"),))
+
+        m1 = GATE.d5_scan(mode(representative_cases_zh=["背景铺陈一句", "1699年测试人物主持重修书院，立规三条"]),
+                          life)
+        check("M1 D5 list 载荷里的矛盾年份必被检出（修字段类型盲区）",
+              m1["status"] == "conflict" and len(m1["conflicts"]) == 1
+              and m1["conflicts"][0]["field"] == "representative_cases_zh", m1)
+        m2 = GATE.d5_scan(mode(representative_cases_zh="1699年测试人物主持重修书院，立规三条"), life)
+        check("M2 负对照：同一年份放在 str 载荷也必须被检出（两种载荷等价）",
+              m2["status"] == "conflict" and len(m2["conflicts"]) == 1, m2)
+        check("M3 两种载荷的证据一致（year=1699 / field 相同）",
+              m1["conflicts"][0]["year"] == 1699 and m2["conflicts"][0]["year"] == 1699
+              and m1["conflicts"][0]["field"] == m2["conflicts"][0]["field"],
+              (m1["conflicts"], m2["conflicts"]))
+
+        m4 = GATE.d5_scan(mode(process_zh=["准备环节", None, "1699年测试人物主持定章程"]), life)
+        check("M4 process_zh 为 list 且含 None -> 仍被扫描且不崩",
+              m4["status"] == "conflict" and m4["conflicts"][0]["field"] == "process_zh", m4)
+
+        m5 = GATE.d5_scan(mode(definition_zh=None, process_zh=None, representative_cases_zh=None,
+                               source_chapter=None, key_quote_zh=None), life)
+        check("M5 五字段全 None -> undetermined/no-four-digit-year，不静默放过",
+              m5["status"] == "undetermined" and m5["reason"] == "no-four-digit-year-in-text"
+              and m5["tokens"] == 0, m5)
+
+        m6 = GATE.d5_scan(mode(figure_name=None, representative_cases_zh=["1699年测试人物重修书院，立规三条"]), life)
+        check("M6 模式缺 figure_name -> 回退 data/figures 的名字后仍能检出",
+              m6["status"] == "conflict", m6)
+
         # ---- H-K: D4 ----
         write_cache_fixture(tmp2, coverage="single-page")
         cache = GATE.make_cache(tmp2)
@@ -157,6 +210,15 @@ def main():
               h["status"] == "mismatch" and h["key"] == "《论语》", h)
         i = GATE.d4_scan(mode(source_chapter="《论语·学而》", key_quote_zh="有朋自远方来不亦乐乎"), cache, li)
         check("I D4 干净样本必须 matched（不误报）", i["status"] == "matched", i)
+
+        q = GATE.d4_scan(mode(source_chapter="《论语·学而》",
+                               key_quote_zh=["有朋自远方来不亦乐乎"]), cache, li)
+        check("Q D4 key_quote_zh 为 list -> 仍可核且 matched（旧写法 unchecked no-quote）",
+              q["status"] == "matched", q)
+        q2 = GATE.d4_scan(mode(source_chapter=["《论语·学而》", "《论语·为政》"],
+                               key_quote_zh=["君子坦荡荡小人长戚戚"]), cache, li)
+        check("Q2 D4 source_chapter/key_quote_zh 均为 list -> 仍判 mismatch",
+              q2["status"] == "mismatch" and q2["key"] == "《论语》", q2)
 
         tmp_partial = Path(tempfile.mkdtemp(prefix="d45-partial-"))
         write_cache_fixture(tmp_partial, coverage="partial")
@@ -208,6 +270,18 @@ def main():
         check("L2 端到端：干净样本不得报 D4/D5",
               "D4 引文不符(警告)" not in out2 and "D5 时间线矛盾(警告)" not in out2
               and "matched" in out2, out2[-400:])
+        bad_list = {"modes": [mode(mode_code="M-D45T-LIST", source_chapter="《论语·学而》",
+                                   key_quote_zh=["有朋自远方来不亦乐乎"],
+                                   representative_cases_zh=["背景一句", "1699年测试人物主持重修书院"])]}
+        (tmp3 / "data" / "modes_data.json").write_text(json.dumps(bad_list, ensure_ascii=False),
+                                                        encoding="utf-8")
+        proc3 = subprocess.run([sys.executable, "tools/credibility_gate.py",
+                                "--data-path", str(tmp3 / "data" / "modes_data.json")],
+                               cwd=str(tmp3), capture_output=True, text=True)
+        out3 = proc3.stdout + proc3.stderr
+        check("T 端到端：list 载荷的年份必须在 gate 报告里报 D5（引文 matched，不得误报 D4）",
+              "D5 时间线矛盾(警告)" in out3 and "M-D45T-LIST" in out3
+              and "D4 引文不符(警告)" not in out3, out3[-400:])
     finally:
         for d in (tmp_root, tmp2, tmp3, locals().get("tmp_partial"), locals().get("tmp_empty")):
             if d and Path(d).exists():
