@@ -7,8 +7,8 @@ Implements the defect taxonomy from credibility_framework.md:
 - D3 出处污染    → 硬 FAIL (正则扫描 source_chapter)
                   豁免：已隔离(D1) figure 的记录不扫（见 §D3 豁免条款，名单取自 _quarantine.py）
 - D6 悬空引用    → 硬 FAIL
-- D4 引文不符    → WARN
-- D5 时间线矛盾  → WARN
+- D4 引文不符    → WARN（口径：只核中文引文 key_quote_zh 对中文原文）
+- D5 时间线矛盾  → WARN（Phase42-Z4 起口径：生卒年取值面补齐 + 中英镜像字段同扫）
 
 Interface compatible with existing preflight (exit 0 = pass, 1 = fail).
 Includes negative test mode (--negative-test) that injects a D3 sample and verifies exit 1.
@@ -271,7 +271,9 @@ def check_d3_pollution(
 # --------------------------------------------------------------------------
 
 D45_TEXT_FIELDS = ("definition_zh", "process_zh", "representative_cases_zh",
-                   "source_chapter", "key_quote_zh")
+                   "source_chapter", "key_quote_zh",
+                   "definition_en", "process_en", "representative_cases_en",
+                   "key_quote_en")
 
 def _text_atoms(value) -> list:
     """任意 JSON 值 -> 原子文本列表（不按类型整段跳过）。
@@ -335,8 +337,16 @@ D5_YEAR_RE = re.compile(r"(?<!\d)(1\d{3}|20\d{2})(?!\d)")
 #   * source_chapter 记的是**所引文献**，文献晚于本人生年是常态；
 #   * key_quote_zh 常带「（据 1456 年复审证词）」这类史料/来源标注。
 # 两者都不作为矛盾来源，而是进「不可判定」桶并给理由（d5_scan 的 reason 分类）。
-D5_CLAIM_FIELDS = ("definition_zh", "process_zh", "representative_cases_zh")
-D5_SCAN_FIELDS = D5_CLAIM_FIELDS + ("source_chapter", "key_quote_zh")
+#
+# Phase42-Z4：口径从「只扫中文字段」扩到「中英镜像字段都扫」。`*_en` 是 `*_zh` 的英文镜像，
+# 同一个年份在英文侧同样构成本人时间线陈述；实测「有生卒年但 tokens=0」的模式里，
+# 年份只出现在英文镜像字段（例 M-CC-028 的 `representative_cases_en`）。
+# **与 D4 的区别是有意的**：D4 拿引文去核**中文原文**的字面子串，英文引文不具备可核性，
+# 故 D4 的引文口径仍只认 `key_quote_zh`（理由与局限见 §10.6）。
+D5_CLAIM_FIELDS = ("definition_zh", "process_zh", "representative_cases_zh",
+                   "definition_en", "process_en", "representative_cases_en")
+D5_SCAN_FIELDS = D5_CLAIM_FIELDS + ("source_chapter", "key_quote_zh", "key_quote_en")
+D5_NAME_FIELDS = ("figure_name", "figure_name_zh", "figure_name_en")
 D5_WINDOW_BEFORE = 40   # 早于生年多少年以内仍算「本人时间线附近的年份」
 D5_WINDOW_AFTER = 30    # 晚于卒年多少年以内仍算「本人时间线附近的年份」
 D5_NAME_RADIUS = 20     # 「年份与人物名同现」的上下文窗口（正负各 N 字）
@@ -346,56 +356,200 @@ D5_EXCLUDE_AFTER = ("身后", "卒后", "死后", "逝后", "之后", "以后", 
 D5_EXCLUDE_SOURCE = ("《", "》", "(", ")", "（", "）", "版", "出版", "刊", "手稿",
                      "证词", "诏书", "论文")
 D5_EXCLUDE_BACKGROUND = ("年代", "年间", "期间", "前后", "侵扰", "自", "起", "背景", "世纪")
+# 英文侧的同类标记（Phase42-Z4 随「英文镜像字段入扫描」一起加）：中文标记在英文句子里
+# 一个字都匹配不到，不加这组，英文镜像里的 "after his death ... 1749" / "published 1868"
+# 会被直接判成矛盾（假阳性）。ASCII 标记按小写比对（见 _markers_in）。
+D5_EXCLUDE_AFTER_EN = ("after his death", "after her death", "after his assassination",
+                       "after his execution", "posthumous", "posthumously", "his son",
+                       "her son", "his daughter", "his grandson", "his widow", "his students",
+                       "his disciples", "his followers", "their descendants", "memorial",
+                       "centenary", "anniversary", "tomb", "canonized", "rehabilitated",
+                       "legacy", "biography", "biographer")
+D5_EXCLUDE_SOURCE_EN = ("published", "publication", "edition", "press", "manuscript",
+                        "translated", "translation", "textbook", "treatise", "memoir",
+                        "journal", "preface")
+D5_EXCLUDE_BACKGROUND_EN = ("dynasty", "century", "period", "era", "decade", "background",
+                            "context", "years before", "years after", "by the time")
+
+
+def _markers_in(ctx: str, markers) -> list:
+    """上下文里命中的排除标记（ASCII 标记按小写比对，中文标记按原文比对）。"""
+    low = ctx.lower()
+    hits = []
+    for k in markers:
+        if k.isascii():
+            if k.lower() in low:
+                hits.append(k)
+        elif k in ctx:
+            hits.append(k)
+    return hits
+
+
+def d5_names(mode: dict, life: dict | None) -> list:
+    """「年份与人物名同现」用的人物名候选（模式侧 + figure 文件侧，中英都给）。
+
+    Phase41-Z3 只有「模式名 → figure 文件名」的单一回退；Phase42-Z4 起英文镜像字段也判，
+    故同时收 `figure_name_en`（模式侧 40 条有，figure 文件侧多数有）。
+    """
+    names: list = []
+    for field in D5_NAME_FIELDS:
+        value = mode.get(field) if isinstance(mode, dict) else None
+        if isinstance(value, str):
+            value = value.strip()
+            if len(value) >= 2 and value not in names:
+                names.append(value)
+    if life:
+        for field in ("figure_name", "figure_name_en"):
+            value = life.get(field)
+            if isinstance(value, str):
+                value = value.strip()
+                if len(value) >= 2 and value not in names:
+                    names.append(value)
+    return names
 
 
 def parse_year_value(value) -> int | None:
-    """生卒年字段 -> int（公元前为负）；解析不了返回 None（不猜）。"""
+    """生卒年字段 -> int（公元前为负）；解析不了返回 None（不猜）。
+
+    Phase42-Z4 补「公元前330 / 约公元前330」写法：实测 H-EUC-001 的
+    birth_year="约公元前330"、death_year="约公元前275" 在旧正则下整条解析失败，
+    该 figure 被判「无生卒年」（10 条模式随之 undetermined）——这是**假盲区**，
+    不是数据里没有日期。新正则按「约?公元?前N」「约?前N」「约?-N」三式解析，
+    仍**不猜**其它形态（解析不了就是没有）。
+    """
     if isinstance(value, bool):
         return None
     if isinstance(value, int):
         return value
     if isinstance(value, str):
-        text = value.strip()
-        m = re.fullmatch(r"约?\s*前\s*(\d{1,4})", text)
+        text = value.strip().replace(" ", "").replace("\u3000", "")
+        if not text:
+            return None
+        m = re.fullmatch(r"约?公元?前(\d{1,4})", text)
         if m:
             return -int(m.group(1))
-        m = re.fullmatch(r"约?\s*(-?\d{1,4})", text)
+        m = re.fullmatch(r"约?前(\d{1,4})", text)
+        if m:
+            return -int(m.group(1))
+        m = re.fullmatch(r"约?(-?\d{1,4})", text)
         if m:
             return int(m.group(1))
     return None
 
 
-def load_figure_lifespans(root: Path | None = None) -> dict:
-    """读 data/figures/*.json 的生卒年 -> {figure_code: {...}}。
+# Phase42-Z4：取值键的两种形态 —— 代码（H-xxx-001 式）与人名（纯 ASCII 词）。
+# 时代名（'战国' / '东汉' / '明'）既不是代码也不是人名，**不登记**：它们是多个不同人物
+# 共用的时代标签，登记只会互相覆盖（实测 'Modern' 被 13 个文件争用、'战国' 被 6 个争用）。
+FIGURE_CODE_KEY_RE = re.compile(r"^H-[A-Za-z0-9]+(-\d+)?$")
+FIGURE_NAME_KEY_RE = re.compile(r"^[A-Za-z][A-Za-z0-9]*$")
 
-    年份字段实测三种形态：int（114 个 figure）/ 纯数字字符串（141 个）/
-    「约前287」「-356」式纪年（公元前后混用）。解析不了的**不猜**：该人物整体计为
-    「无生卒年」，D5 对它的模式一律 undetermined 并如实计数。
+# 生卒年装载诊断（供 gate 报告与 tools/backfill_lifespans.py 如实打印，不静默跳过）
+LAST_LIFESPAN_LOAD: dict = {"files": 0, "keys": 0, "skipped": [], "collisions": []}
+
+
+def figure_key_candidates(path: Path, doc: dict) -> list:
+    """figure 文件 -> 可登记的取值键（去重，按优先级）。
+
+    Phase42-Z4 修的是「取值面缺 56 个 figure」：旧实现只取
+    `doc["figure_code"] or doc["code"] or doc["id"]` 里的**第一个非空值**，而实测 347 个
+    figure 文件里有一大批的 `figure_code` 写的是**人物名**（'DaVinci' / 'ZhangHeng' / 'Bach'）
+    或**时代名**（'战国' / 'Modern' / 'Han'）：
+
+    - 模式侧 `figure_code='H-DAV-001'` 与 `figure_code='DaVinci'` 两种写法各自只看得到一半，
+      于是 56 个 figure 的日期**明明在文件里**却对一部分模式不可见（假盲区）；
+    - 13 个文件的 `figure_code` 都写 'Modern'、6 个都写 '战国' → 多个不同人物互相覆盖，
+      胜者由文件遍历顺序决定（实测 'Modern' 键上记的是 H-AN-001 的 1900-1970）。
+
+    现在把「`code` / `id` / `figure_code` / 文件名主干（去 `_modes` 后缀）」里所有
+    **像代码或人名**的候选值都登记；同键不同生卒年 = **键冲突 → 整体丢弃并如实报告**，
+    不猜、不按遍历顺序定胜负。
+    """
+    stem = path.stem
+    base_name = stem[:-6] if stem.endswith("_modes") else stem
+    keys: list = []
+    for cand in [doc.get(f) for f in ("code", "id", "figure_code")] + [base_name]:
+        if not isinstance(cand, str):
+            continue
+        cand = cand.strip()
+        if not cand or cand in keys:
+            continue
+        if FIGURE_CODE_KEY_RE.match(cand) or FIGURE_NAME_KEY_RE.match(cand):
+            keys.append(cand)
+    return keys
+
+
+def load_figure_lifespans(root: Path | None = None) -> dict:
+    """读 data/figures/*.json 的生卒年 -> {取值键: {...}}。
+
+    年份字段实测四种形态：int / 纯数字字符串 / 「约前287」「-356」式纪年 /
+    「约公元前330」式纪年（Phase42-Z4 起可解析）。解析不了的**不猜**：该人物整体计为
+    「无生卒年」，D5 对它的模式一律 undetermined 并如实计数（写进 LAST_LIFESPAN_LOAD）。
+
+    取值键 = `figure_key_candidates()` 的候选（代码与人名两种都登记）；
+    `*_modes.json` 伴随文件排在主文件之后，**仅在主文件没有该键时**才被采用；
+    键冲突整体丢弃（不按遍历顺序定胜负）。每条记录带 `provenance`（文件 + 字段）。
     """
     base = Path(root) if root else REPO_ROOT
     figures_dir = base / "data" / "figures"
     out: dict = {}
+    collisions: list = []
+    skipped: list = []
+    dropped: set = set()
+    LAST_LIFESPAN_LOAD.update({"files": 0, "keys": 0, "skipped": skipped, "collisions": collisions})
     if not figures_dir.is_dir():
         return out
-    for path in sorted(figures_dir.glob("*.json")):
+    # 主文件（无 _modes 后缀）先于伴随文件，顺序确定且可复现
+    files = sorted(figures_dir.glob("*.json"), key=lambda p: (p.stem.endswith("_modes"), p.name))
+    LAST_LIFESPAN_LOAD["files"] = len(files)
+    for path in files:
+        rel = "data/figures/%s" % path.name
         try:
             doc = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
+            skipped.append({"file": rel, "reason": "unreadable-json"})
             continue
-        code = doc.get("figure_code") or doc.get("code") or doc.get("id")
-        if not code:
+        if not isinstance(doc, dict):
+            skipped.append({"file": rel, "reason": "not-an-object"})
             continue
-        birth = parse_year_value(doc.get("birth_year"))
-        death = parse_year_value(doc.get("death_year"))
+        raw_birth, raw_death = doc.get("birth_year"), doc.get("death_year")
+        birth, death = parse_year_value(raw_birth), parse_year_value(raw_death)
         if birth is None or death is None or birth > death:
+            if raw_birth in (None, "") or raw_death in (None, ""):
+                reason = "missing-birth-or-death-field"
+            elif birth is None or death is None:
+                reason = "year-not-parseable"
+            else:
+                reason = "birth-after-death"
+            skipped.append({"file": rel, "reason": reason,
+                            "raw_birth": raw_birth, "raw_death": raw_death})
             continue
-        out[str(code)] = {
+        rec = {
             "birth_year": birth,
             "death_year": death,
-            "figure_name": (doc.get("figure_name") or doc.get("name_zh") or "").strip() or None,
+            "figure_name": (doc.get("figure_name") or doc.get("figure_name_zh")
+                            or doc.get("name_zh") or "").strip() or None,
+            "figure_name_en": (doc.get("figure_name_en") or "").strip() or None,
             "era": doc.get("era"),
-            "provenance": "data/figures/%s.json:birth_year/death_year" % path.stem,
+            "provenance": "%s:birth_year/death_year" % rel,
+            "source_file": rel,
         }
+        for key in figure_key_candidates(path, doc):
+            if key in dropped:
+                continue
+            if key in out:
+                if (out[key]["birth_year"], out[key]["death_year"]) != (birth, death):
+                    collisions.append({
+                        "key": key,
+                        "kept": out[key]["provenance"],
+                        "kept_years": [out[key]["birth_year"], out[key]["death_year"]],
+                        "dropped": rec["provenance"],
+                        "dropped_years": [birth, death],
+                    })
+                    out.pop(key, None)
+                    dropped.add(key)
+                continue
+            out[key] = rec
+    LAST_LIFESPAN_LOAD["keys"] = len(out)
     return out
 
 
@@ -407,11 +561,10 @@ def d5_scan(mode: dict, lifespans: dict) -> dict:
         return {"status": "undetermined", "reason": "no-lifespan-for-figure",
                 "conflicts": [], "undetermined": [], "tokens": 0}
     birth, death = life["birth_year"], life["death_year"]
-    name = str(mode.get("figure_name") or mode.get("figure_name_zh") or "").strip()
-    if not name:
-        # Phase41-Z3：模式缺 figure_name（实测 30 条）时回退到 data/figures 的名字，
-        # 否则这些模式的年份会因「名字为空」被一律降级为不可判定（假盲区）。
-        name = str(life.get("figure_name") or "").strip()
+    # Phase41-Z3：模式缺 figure_name（实测 30 条）时回退到 data/figures 的名字，否则这些模式
+    # 的年份会因「名字为空」被一律降级为不可判定（假盲区）。
+    # Phase42-Z4：名字改为候选集合（中英都给），英文镜像字段里的年份才能与英文名对上。
+    names = d5_names(mode, life)
     lo, hi = birth - D5_WINDOW_BEFORE, death + D5_WINDOW_AFTER
 
     conflicts, undetermined = [], []
@@ -434,13 +587,13 @@ def d5_scan(mode: dict, lifespans: dict) -> dict:
                 item["reason"] = "field-not-claim: %s 记的是所引文献 / 史料标注，不是本人行事" % field
                 undetermined.append(item)
                 continue
-            if not name or len(name) < 2 or name not in ctx:
+            if not names or not any(n in ctx for n in names):
                 item["reason"] = "name-not-in-context: 年份不与人物名同现（背景 / 他人事件）"
                 undetermined.append(item)
                 continue
-            hit_src = [k for k in D5_EXCLUDE_SOURCE if k in ctx]
-            hit_after = [k for k in D5_EXCLUDE_AFTER if k in ctx]
-            hit_bg = [k for k in D5_EXCLUDE_BACKGROUND if k in ctx]
+            hit_src = _markers_in(ctx, D5_EXCLUDE_SOURCE + D5_EXCLUDE_SOURCE_EN)
+            hit_after = _markers_in(ctx, D5_EXCLUDE_AFTER + D5_EXCLUDE_AFTER_EN)
+            hit_bg = _markers_in(ctx, D5_EXCLUDE_BACKGROUND + D5_EXCLUDE_BACKGROUND_EN)
             if hit_src:
                 item["reason"] = "source-marker: 上下文含文献 / 出版形态标记 %s" % ",".join(hit_src[:3])
                 undetermined.append(item)
@@ -625,6 +778,7 @@ def empty_d45_stats() -> dict:
     return {"d4": {}, "d4_reasons": {}, "d4_mismatches": [],
             "d5": {}, "d5_reasons": {}, "d5_undetermined_reasons": {},
             "d5_tokens": 0, "d5_conflicts": [], "d5_undetermined": [],
+            "d5_zero_reasons": {}, "life_diag": {},
             "life_figures": 0, "modes_with_lifespan": 0, "cache_keys": 0, "cache_present": False}
 
 
@@ -656,6 +810,9 @@ def run_gate(
     link_idx = link_index if link_index is not None else load_link_index()
     if stats is not None:
         stats["life_figures"] = len(life)
+        # Phase42-Z4：生卒年装载诊断（文件数 / 键数 / 年份不完整清单 / 键冲突丢弃清单）
+        stats["life_diag"] = {k: (list(v) if isinstance(v, list) else v)
+                              for k, v in LAST_LIFESPAN_LOAD.items()}
         stats["cache_keys"] = len(getattr(cache_obj, "usable_keys", lambda: [])())
         stats["cache_present"] = bool(getattr(cache_obj, "present", False))
     all_mode_codes = {m.get("mode_code", "") for m in all_modes if isinstance(m, dict) and m.get("mode_code")}
@@ -704,6 +861,11 @@ def run_gate(
             if d5["status"] != "undetermined":
                 stats["d5_reasons"][d5["reason"]] = stats["d5_reasons"].get(d5["reason"], 0) + 1
             stats["d5_tokens"] += d5["tokens"]
+            if d5["tokens"] == 0:
+                # tokens=0 的成因必须拆开（Phase42-Z4）：绝大多数不是「文本里没年份」，
+                # 而是「该 figure 无生卒年 → D5 早退」，两者混在一个数里会被读成「已覆盖」。
+                stats["d5_zero_reasons"][d5["reason"]] = \
+                    stats["d5_zero_reasons"].get(d5["reason"], 0) + 1
             if str(mode.get("figure_code") or "") in life:
                 stats["modes_with_lifespan"] += 1
             if d5["conflicts"]:
@@ -745,8 +907,17 @@ def print_d45_report(stats: dict, limit: int = 12) -> None:
           "命中只代表「字面不符」，不等于伪造（繁简/异体/意译都不命中，处置为复核）。")
 
     print("")
-    print("--- D5 时间线矛盾（生卒年 × 文本年份，Phase40-Z2）---")
+    print("--- D5 时间线矛盾（生卒年 × 文本年份，Phase40-Z2 / Phase42-Z4）---")
     d5 = stats.get("d5", {})
+    diag = stats.get("life_diag") or {}
+    print("  生卒年装载: data/figures/*.json 扫 %d 个文件 → 可用取值键 %d 个；"
+          "年份不完整/不可解析 %d 个文件；键冲突丢弃 %d 个键"
+          % (diag.get("files", 0), stats.get("life_figures", 0),
+             len(diag.get("skipped", []) or []), len(diag.get("collisions", []) or [])))
+    for c in (diag.get("collisions") or [])[:limit]:
+        print("    键冲突丢弃: %-14s %s%s vs %s%s"
+              % (c.get("key"), c.get("kept"), c.get("kept_years"),
+                 c.get("dropped"), c.get("dropped_years")))
     print("  生卒年可用人物: %d 个（data/figures/*.json，含字符串/公元前纪年解析）" % stats.get("life_figures", 0))
     print("  可判定模式: %d 条（figure 有生卒年）" % stats.get("modes_with_lifespan", 0))
     print("  扫描到的 4 位年份 token: %d 个" % stats.get("d5_tokens", 0))
@@ -756,6 +927,11 @@ def print_d45_report(stats: dict, limit: int = 12) -> None:
     for k, v in sorted(d5.items()):
         if k not in ("conflict", "clean", "undetermined"):
             print("  %-16s %5d" % (k, v))
+    zr = stats.get("d5_zero_reasons", {})
+    if zr:
+        print("  tokens=0 的成因拆分（禁止把「无生卒年」读成「已覆盖 / 零缺陷」）:")
+        for r, n in sorted(zr.items(), key=lambda kv: -kv[1]):
+            print("    %-56s %5d" % (r[:56], n))
     print("  不可判定（逐类计数，禁止当成「零缺陷」）:")
     for r, n in sorted(stats.get("d5_undetermined_reasons", {}).items(), key=lambda kv: -kv[1])[:limit]:
         print("    %-56s %5d" % (r[:56], n))
@@ -769,6 +945,8 @@ def print_d45_report(stats: dict, limit: int = 12) -> None:
     print("  说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-%d, 卒年+%d] -> 字段为本人叙述字段"
           " -> 年份与人物名同现(±%d 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。"
           % (D5_WINDOW_BEFORE, D5_WINDOW_AFTER, D5_NAME_RADIUS))
+    print("  取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— %s"
+          % ", ".join(D5_SCAN_FIELDS))
 
 
 def main() -> int:

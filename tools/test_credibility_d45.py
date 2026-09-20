@@ -34,6 +34,17 @@
     Q2 D4 source_chapter + key_quote_zh 均为 list -> 仍判 mismatch
     T  端到端：list 载荷的坏样本必须在 gate 报告的 D5 明细里报出
 
+    Phase42-Z4 增补（生卒年取值面 + 英文镜像字段口径）
+    Z0 生卒年解析扩到「公元前330 / 约公元前330」（旧正则整条解析失败 = 假盲区）
+    Z1 英文镜像字段 representative_cases_en 里的矛盾年份必被检出（口径已含 *_en）
+    Z2 负对照：英文里的卒后余波标记（after his death）不得判矛盾
+    Z3 负对照：英文里的文献 / 出版标记（published）不得判矛盾
+    Z4 有年份就不再是 tokens=0：年份只在英文镜像字段时 token 仍计入（不静默 0）
+    Z5 生卒年取值键：figure_code 写人名、code 写代码 -> 两个键都取得到；
+       时代名（'战国'）不登记；同键不同生卒年 -> 整体丢弃（不按遍历顺序定胜负）
+    Z6 「约公元前330」式纪年进 lifespan（公元前人物不再被判无生卒年）
+    Z7 可重入：tools/backfill_lifespans.py --check 对当前数据必须 exit 0（清单不漂移）
+
 用法：python3 tools/test_credibility_d45.py    （全过 exit 0，任一失败 exit 1）
 """
 
@@ -282,6 +293,84 @@ def main():
         check("T 端到端：list 载荷的年份必须在 gate 报告里报 D5（引文 matched，不得误报 D4）",
               "D5 时间线矛盾(警告)" in out3 and "M-D45T-LIST" in out3
               and "D4 引文不符(警告)" not in out3, out3[-400:])
+
+        # ---- Z: Phase42-Z4 生卒年取值面 + 英文镜像字段口径 ----
+        check("Z0 生卒年解析扩到公元前写法（约公元前330 / 公元前275 / 空串）",
+              GATE.parse_year_value("约公元前330") == -330
+              and GATE.parse_year_value("公元前275") == -275
+              and GATE.parse_year_value("约\u3000前\u3000287") == -287
+              and GATE.parse_year_value("") is None
+              and GATE.parse_year_value("不是年份") is None,
+              "parse_year_value 结果不符")
+
+        # Z1/Z4：年份只在英文镜像字段
+        life_en = dict(life)
+        life_en["H-D45T-001"] = dict(life_en["H-D45T-001"], figure_name_en="Test Person")
+        z1 = GATE.d5_scan(mode(figure_name_en="Test Person",
+                               representative_cases_en="In 1699 Test Person rebuilt the academy"),
+                          life_en)
+        check("Z1 英文镜像字段 representative_cases_en 里的矛盾年份必被检出",
+              z1["status"] == "conflict" and z1["conflicts"][0]["field"] == "representative_cases_en",
+              z1)
+        z4 = GATE.d5_scan(mode(figure_name_en="Test Person",
+                               representative_cases_en="In 1644 Test Person rebuilt the academy"),
+                          life_en)
+        check("Z4 年份只在英文镜像字段时 token 仍计入（不再静默 tokens=0）",
+              z4["tokens"] > 0 and z4["status"] == "clean", z4)
+
+        z2 = GATE.d5_scan(mode(figure_name_en="Test Person",
+                               representative_cases_en="After his death in 1699 Test Person's students kept the rules"),
+                          life_en)
+        check("Z2 负对照：英文卒后余波标记 -> 不得判矛盾（afterlife-marker）",
+              z2["status"] == "clean"
+              and any("afterlife-marker" in x["reason"] for x in z2["undetermined"]), z2)
+        z3 = GATE.d5_scan(mode(figure_name_en="Test Person",
+                               representative_cases_en="Test Person in 1699 published the rules"),
+                          life_en)
+        check("Z3 负对照：英文文献 / 出版标记 -> 不得判矛盾（source-marker）",
+              z3["status"] == "clean"
+              and any("source-marker" in x["reason"] for x in z3["undetermined"]), z3)
+
+        # Z5/Z6：取值键与键冲突
+        tmp_keys = Path(tempfile.mkdtemp(prefix="d45-keys-"))
+        figs = tmp_keys / "data" / "figures"
+        figs.mkdir(parents=True, exist_ok=True)
+        (figs / "H-Z4T-001.json").write_text(json.dumps(
+            {"figure_code": "TestPerson", "code": "H-Z4T-001", "figure_name": "测试人物",
+             "birth_year": "约公元前330", "death_year": "约公元前275"},
+            ensure_ascii=False), encoding="utf-8")
+        (figs / "H-Z4T-002.json").write_text(json.dumps(
+            {"figure_code": "战国", "code": "H-Z4T-002", "figure_name": "时代名测试",
+             "birth_year": -145, "death_year": -86}, ensure_ascii=False), encoding="utf-8")
+        life_keys = GATE.load_figure_lifespans(tmp_keys)
+        check("Z5 取值键：人名键与代码键都登记，时代名键不登记",
+              life_keys.get("TestPerson", {}).get("birth_year") == -330
+              and life_keys.get("H-Z4T-001", {}).get("death_year") == -275
+              and "战国" not in life_keys
+              and "H-Z4T-002" in life_keys,
+              life_keys)
+        check("Z6 「约公元前330」式纪年进 lifespan（不再被判无生卒年）",
+              life_keys.get("H-Z4T-001", {}).get("birth_year") == -330
+              and life_keys["H-Z4T-001"]["provenance"].endswith("H-Z4T-001.json:birth_year/death_year"),
+              life_keys.get("H-Z4T-001"))
+        (figs / "H-Z4T-003.json").write_text(json.dumps(
+            {"figure_code": "H-Z4T-003", "birth_year": 1900, "death_year": 1970},
+            ensure_ascii=False), encoding="utf-8")
+        (figs / "H-Z4T-003_modes.json").write_text(json.dumps(
+            {"figure_code": "H-Z4T-003", "birth_year": 1904, "death_year": 1989},
+            ensure_ascii=False), encoding="utf-8")
+        life_col = GATE.load_figure_lifespans(tmp_keys)
+        check("Z5b 同键不同生卒年 -> 整体丢弃并在诊断里如实报告",
+              "H-Z4T-003" not in life_col
+              and any(c["key"] == "H-Z4T-003" for c in GATE.LAST_LIFESPAN_LOAD["collisions"]),
+              (life_col.get("H-Z4T-003"), GATE.LAST_LIFESPAN_LOAD["collisions"]))
+        shutil.rmtree(tmp_keys, ignore_errors=True)
+
+        # Z7：清单可重入
+        proc4 = subprocess.run([sys.executable, "tools/backfill_lifespans.py", "--check"],
+                               cwd=str(REPO_ROOT), capture_output=True, text=True)
+        check("Z7 backfill_lifespans.py --check 对当前数据 exit 0（补数清单可重入不漂移）",
+              proc4.returncode == 0, (proc4.stdout + proc4.stderr)[-300:])
     finally:
         for d in (tmp_root, tmp2, tmp3, locals().get("tmp_partial"), locals().get("tmp_empty")):
             if d and Path(d).exists():

@@ -1555,21 +1555,22 @@
         "note": "只在「出处有书名号引文 + 引文解析到原文类链接 + 缓存覆盖整部作品(single-page/complete)」时判 matched/mismatch；coverage=partial 的缓存**不可核**（在部分文本里找不到引文不能证明引文不符）"
       },
       "d5": {
-        "figures_with_lifespan": 265,
+        "figures_with_lifespan": 616,
         "statuses": {
-          "clean": 595,
-          "undetermined": 2292,
+          "clean": 1341,
+          "undetermined": 1546,
           "conflict": 1
         },
         "reasons": {
-          "no-conflicting-year": 595,
+          "no-conflicting-year": 1341,
           "year-outside-lifespan": 1
         },
         "undetermined_reasons": {
-          "field-not-claim": 24,
-          "name-not-in-context": 44,
-          "out-of-window": 206,
-          "source-marker": 1
+          "field-not-claim": 61,
+          "name-not-in-context": 163,
+          "out-of-window": 521,
+          "background-marker": 2,
+          "source-marker": 10
         },
         "conflicts": [
           {

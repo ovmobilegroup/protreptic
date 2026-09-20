@@ -33,7 +33,7 @@
 | **D3** | 出处污染 | `source_chapter` 含工程痕迹：`sha256` / commit 哈希 / 脚本名 / `双镜像` / `qa_postmerge` / 工作树叙述 | 重写或隔离 |
 | | | **豁免条款**：**D1 已隔离记录允许保留源库工程痕迹，以导出期过滤为准**——隔离项不进任何公开产物（名录 / 每日 / 图谱 / 概念层），源库工程痕迹只服务复核与回滚，不对外可见。<br>**名单唯一事实来源**：`tools/_quarantine.py` 的 `QUARANTINE`（当前 6 项：`H-SX-001`、`H-P23F-001`、`P24F`、`P25F`、`P26F`、`Phase27Final`）；gate **不复制名单副本**，改名单只改那一处。<br>**机检方式**：`credibility_gate.py::check_d3_pollution()` 对 `is_d3_exempt(mode, quarantine)` 为真的模式**跳过 D3 扫描**，仅对公开 figure 扫 `source_chapter`；**豁免面必须在 gate 报告里如实打印**，禁止静默跳过。<br>**可关**：`--no-d3-exemption` 关掉豁免（严格模式，连隔离项一起扫），用于审计回看。 | |
 | **D4** | 引文不符 | `key_quote_zh` 文本不出现于所标出处的原文。<br>**实现程度（Phase40-Z2 起，此前为空壳）**：真做**归一化子串核验**——`key_quote_zh` 去标点归一化后切成片段，与 `data/audit/source_texts/` 里缓存的原文比对（缓存由 `tools/fetch_source_texts.py` 按 `source_links.json` 的原文类链接抓取）。**只在「出处有书名号引文 + 引文解析到原文类链接（wikisource/gutenberg/ctext）+ 缓存覆盖整部作品（coverage=single-page/complete）」时可核**；其余一律 `unchecked` 并逐类计数（`no-citation` / `no-fulltext-link` / `partial-coverage` / `no-cache-entry` …），**不假装核过**。<br>**Phase41-Z3（取文本口径统一）**：list/str/None 混载一律经 `field_text()` 取文本 —— `key_quote_zh` 17 条 list、`source_chapter` 30 条 list 不再被跳过或按类型走岔；全库 `matched 1 / mismatch 22` 不变（17 条 list 引文从 `no-quote` 移入其它**同样不可核**的桶，不假装核过）。 | 复核（WARN，不阻断） |
-| **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年）。<br>**实现程度（Phase40-Z2 起，此前直接 `return []`）**：真做——用 `data/figures/*.json` 的 `birth_year`/`death_year`（含字符串与「约前287」式公元前纪年）× 模式文本里的 4 位年份。**只有同时满足**「字段属本人叙述字段（`definition_zh`/`process_zh`/`representative_cases_zh`）」「年份落在生涯带 `[生年-40, 卒年+30]`」「年份与人物名同现（±20 字）」「上下文无文献 / 卒后余波 / 背景标记」才判矛盾；其余逐类计入**不可判定**（`out-of-window` / `field-not-claim` / `name-not-in-context` / `no-lifespan-for-figure` …）。<br>**Phase41-Z3（字段类型盲区修复）**：`process_zh`（list 2808 条）、`representative_cases_zh`（list 2546 条）此前因 `isinstance(text, str)` 被**整段跳过**（修复前全库 82.3% 模式 tokens=0、conflict 恒为 0）；现统一走 `field_text()` 并**按原子文本扫描**（上下文窗口不跨 list 元素边界）。修复后：年份 token 1252 到 2110、`conflict` 0 到 1、`tokens=0` 82.3% 到 79.4% —— **仍然存在盲区**（人物无生卒年占 61.0%、他人年份归属、未纳入扫描的 `modern_applications_zh`），修复详情与残留盲区见第 10.5 节。 | 复核（WARN，不阻断） |
+| **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年）。<br>**实现程度（Phase40-Z2 起，此前直接 `return []`）**：真做——用 `data/figures/*.json` 的 `birth_year`/`death_year`（含字符串与「约前287」「约公元前330」式公元前纪年）× 模式文本里的 4 位年份。**只有同时满足**「字段属本人叙述字段（Phase42-Z4 起含英文镜像 `definition_en`/`process_en`/`representative_cases_en`；中文侧为 `definition_zh`/`process_zh`/`representative_cases_zh`）」「年份落在生涯带 `[生年-40, 卒年+30]`」「年份与人物名同现（±20 字）」「上下文无文献 / 卒后余波 / 背景标记」才判矛盾；其余逐类计入**不可判定**（`out-of-window` / `field-not-claim` / `name-not-in-context` / `no-lifespan-for-figure` …）。<br>**Phase41-Z3（字段类型盲区修复）**：`process_zh`（list 2808 条）、`representative_cases_zh`（list 2546 条）此前因 `isinstance(text, str)` 被**整段跳过**（修复前全库 82.3% 模式 tokens=0、conflict 恒为 0）；现统一走 `field_text()` 并**按原子文本扫描**（上下文窗口不跨 list 元素边界）。修复后：年份 token 1252 到 2110、`conflict` 0 到 1、`tokens=0` 82.3% 到 79.4% —— **仍然存在盲区**（人物无生卒年占 61.0%、他人年份归属、未纳入扫描的 `modern_applications_zh`），修复详情与残留盲区见第 10.5 节。<br>**Phase42-Z4（生卒年取值面补齐 + 英文镜像口径，2026-09-21）**：`load_figure_lifespans()` 的取值键从「`figure_code`→`code`→`id` 第一个非空值」改为「登记所有像代码或人名的候选键（含文件名主干），同键不同生卒年整体丢弃并如实报告」；`parse_year_value()` 补「公元前330 / 约公元前330」。结果：取值键 265 到 **616**、可判定模式 1132 到 **2318**、年份 token 2110 到 **8557**、`tokens=0` 79.4% 到 **53.5%**（其中「无生卒年」1756 到 570、「文本无 4 位年份」536 到 976），`conflict` 仍为 1（未新增）。**仍不可判定**：55 个 figure（570 条模式）无日期（48 个无 figure 文件、7 个有文件但缺 `birth_year`/`death_year`）与 117 条「年份只落在未扫描字段」的模式 —— 逐条列在第 10.6 节，**不得算作已覆盖**。 | 复核（WARN，不阻断） |
 | **D6** | 悬空引用 | `cross_references` / `related_modes` 指向不存在的 `mode_code` | 自动修 |
 | **D7** | 重复/近重复 | 同 figure 内 definition 相似度 > 阈值；或跨 figure 文本重复 | 合并/标注 |
 
@@ -418,7 +418,7 @@ gutenberg 的 `/ebooks/<id>` 换成 `/cache/epub/<id>/pg<id>.txt`；ctext 有 Cl
   `credibility_gate.py` 的 `D5_EXCLUDE_*`），会漏真矛盾、也会放过真矛盾 —— 因此 D5 的产出是
   **候选复核清单**，不是终审判决。
 - D4/D5 都是 **WARN（不阻断）**：只在报告与审计清单里出现，不改变 CI 的通过与否（口径见第 4 节）。
-- **（Phase41-Z3 新增，2026-09-21）D5 的残余盲区**：一、**人物无生卒年占 61.0%**
+- **（Phase41-Z3 新增，2026-09-21；Phase42-Z4 已部分收口，现状见 §10.6）D5 的残余盲区**：一、**人物无生卒年曾占 61.0%**
   （1762 / 2888 条模式，`no-lifespan-for-figure` 一律不可判定），这是比字段类型更硬的盲区；
   二、**他人姓名的年份归属**：「牛顿未解决，Clairaut 1749 年以摄动级数解决」这类句子会被判矛盾
   （全库 1 条误报，已如实进 `suspect`）；三、`modern_applications_zh`（9 条含年份）/
@@ -483,3 +483,145 @@ unverifiable 351`，公开口径 `suspect 23`（`apply_verification_status.py --
 **证据**：`docs/qa/phase41_z3_d4_d5_field_types.md`（字段类型表 / 修复前后对照 / 1 条 conflict 与
 45 条候选逐条判读 / 负对照 25 项 / 复现命令）。自测：`python3 tools/test_credibility_d45.py`
 25/25 passed，exit 0。
+
+---
+
+### 10.6 Phase42-Z4：生卒年取值面补齐 + 英文镜像口径（2026-09-21）
+
+**问题（船长独立核验，可复现）**：Z3 修完字段类型盲区后，全库 `tokens=0` 仍有 2292 / 2888 = 79.4%，
+拆成因后主因不是「文本里没有年份」，而是「该 figure 拿不到生卒年」——1756 条模式所属 figure 被
+`load_figure_lifespans()` 判为无生卒年，而其中 **56 个 figure 的日期就写在 `data/figures/*.json` 里**，
+只是旧取值口径取不到；另有 107 条「有年份却仍 `tokens=0`」，年份落在**未扫描字段**
+（原例 `M-CC-028` 的年份在 `representative_cases_en`，而当时口径只扫中文字段）。
+
+**修复 1 · 生卒年取值面（`load_figure_lifespans()`）**
+
+- 旧口径 = `doc["figure_code"] or doc["code"] or doc["id"]` 的**第一个非空值**。实测 347 个 figure 文件里，
+  一大批把 `figure_code` 写成**人物名**（`DaVinci` / `ZhangHeng` / `Bach`）或**时代名**
+  （`战国` / `Modern` / `Han`），于是：模式侧写代码（`H-DAV-001`）与写人名（`DaVinci`）的两种写法
+  各自只看得到一半；13 个文件的 `figure_code` 都写 `Modern`、6 个都写 `战国`，互相覆盖，
+  胜者由遍历顺序决定（实测 `Modern` 键上记的是 `H-AN-001` 的 1900–1970）。
+- 新口径：登记「`code` / `id` / `figure_code` / 文件名主干（去 `_modes` 后缀）」里**所有像代码或人名**的候选键；
+  时代名不登记（它们是多人物共用的时代标签）；`*_modes.json` 伴随文件排在主文件之后，仅作补位；
+  **同键不同生卒年 = 键冲突 → 整体丢弃并如实报告**（不猜、不按遍历顺序定胜负）；每条记录带
+  `provenance`（`data/figures/<file>.json:birth_year/death_year`）。
+- 另补年份写法：`parse_year_value()` 支持「公元前330 / 约公元前330」（`H-EUC-001` 旧正则整条解析失败）。
+- 新增可重入工具 `tools/backfill_lifespans.py` + 机读清单 `data/audit/lifespan_backfill.json`：
+  逐条 provenance、键冲突、无日期清单（`--check` 防清单漂移，已由自测 Z7 钉住）。
+
+**修复 2 · 口径扩到英文镜像字段（二选一里的「扩口径」）**
+
+- 选择与理由：`*_en` 是 `*_zh` 的**英文镜像**，同一个年份在英文侧同样是本人时间线的陈述；
+  若只认中文并声明局限，等于**按语言分叉口径**——同一事实在中英两侧会得到不同结论。故 D5 的字段口径
+  扩为 `definition_zh/en`、`process_zh/en`、`representative_cases_zh/en`（本人叙述字段）+
+  `source_chapter`、`key_quote_zh/en`（非本人叙述字段，只作不可判定桶）。
+- **与 D4 的不对称是故意的**：D4 拿引文去核**中文原文**的字面子串，英文引文不具备可核性，
+  故 D4 的引文口径仍只认 `key_quote_zh`（§10.1 / §10.4）。
+- 配套两处：人物名候选加 `figure_name_en`（否则英文句里的年份一律 `name-not-in-context`）；
+  新增英文排除标记 `D5_EXCLUDE_AFTER_EN` / `SOURCE_EN` / `BACKGROUND_EN`
+  （中文标记在英文句里一个字都匹配不到，不加就会把 "after his death ... 1749"、"published 1868"
+  直接判成矛盾 —— 那是自己造的假阳性）。
+- 实测受益：**6 条模式的 token 完全依赖英文镜像字段**（`M-CC-028` / `M-WC-004` / `M-LZH-008` /
+  `M-ZENGGUOF-001` / `M-ZENGGUOF-005` / `M-CYRUS-008`）；英文侧年份另有若干进入
+  `name-not-in-context` / `out-of-window` 不可判定桶（如实计数，不静默）。
+
+**修复前后对照（同一份 `data/modes_data.json`，命令见证据文档）**
+
+| 指标 | Phase41-Z3 | Phase42-Z4 | 变化 |
+|---|---|---|---|
+| 生卒年取值键 | 265 | **616** | +351 |
+| 可判定模式（figure 有生卒年） | 1132 | **2318** | +1186 |
+| 扫描到的 4 位年份 token | 2110 | **8557** | +6447 |
+| `tokens=0` 模式 | 2292 / 2888 = 79.4% | **1546 / 2888 = 53.5%** | −746 |
+| └ 其中「该 figure 无生卒年」 | 1756 | **570** | −1186 |
+| └ 其中「文本无 4 位年份」 | 536 | **976** | +440 |
+| `clean` | 595 | **1341** | +746 |
+| `undetermined` | 2292 | **1546** | −746 |
+| `conflict` | 1 | **1** | 无新增 |
+
+- 不含 `_en` 字段时 token 总数会少一截（英文镜像侧贡献），逐条口径见 `D5_SCAN_FIELDS`（gate 报告末尾会打印）。
+- `data/audit/findings.json` 的 `audit_meta.d4_d5_report` 已按新口径刷新
+  （`figures_with_lifespan` 265 到 616、`undetermined` 2292 到 1546），**findings 条目数不变（156 条）**，
+  `verify_findings.py --hard-fail` exit 0，`apply_verification_status.py --check` 无漂移（`suspect` 23 不变）。
+
+**仍然存在的盲区（全部列出，不淡化；`D5` 对它们一律不可判定）**
+
+1. **55 个 figure / 570 条模式无日期可判**：
+   - 48 个 figure 连 `data/figures/*.json` 都没有（500 条模式），逐条见清单
+     `data/audit/lifespan_backfill.json:still_no_date`；其中 **4 个是 D1 隔离人物**
+     （`P24F` / `P25F` / `P26F` / `Phase27Final`，40 条模式，本就不进公开产物）与 1 个
+     `H-P23F-001`（同样在隔离名单），另有 30 条模式 `figure_code` 为空串；
+   - 7 个 figure 有文件但**缺 `birth_year`/`death_year` 字段**（各 10 条模式，逐条见清单）：
+     `H-DY-001`、`H-DZS-001`、`H-FEI-001`、`H-JSX-001`、`H-MIY-001`、`H-MKS-001`、`H-P23F-001`
+     （其中 `H-MIY-001`/`H-MKS-001` 是**在世人物**只有生年，`H-DY-001` 亦只有生年 —— 无卒年即
+     D5 不可判定，本期**不猜**、不补造日期）。
+2. **117 条「有生卒年、`tokens=0`，但内容里确有年份」——年份只落在未扫描字段**，逐类：
+   - `era` 106 条：实测该字段的 **780 个年份 token 全部落在生卒年内**（它是编者写的生卒 / 时代标注），
+     纳入扫描只会加 token、不会加检出 → **不纳入**；
+   - `representative_figures` 9 条：是**他人**姓名与年份，不是本人行事；
+   - `key_quote_context` / `_zh` / `_en` 共 4 条：是引文语境标注，与 `key_quote_zh/en` 重复；
+   - `domain_zh` / `domain_en` 2 条、`modern_applications_en` 1 条（`modern_applications_zh` 同理未纳入）；
+   - `verification`：2292 条模式的 `verification.checked_at` 都带年份（审计时间戳，如 `2026-09-21`）。
+     **扫它等于把审计日志当史料，绝不纳入** —— 这也是「全库到处都有 4 位年份」的假象来源。
+3. **启发式过滤的假阴性（漏报）**：`name-not-in-context` 163 条里有真·本人语句被过滤，
+   例如 `M-HAR-005`（模式名写「威廉·哈维」、上下文只出现「哈维」，±20 字窗口内名字不严格相等）；
+   `D5_EXCLUDE_*` 是写死的启发式清单，会漏真矛盾也会放过真矛盾 —— D5 的产出是**候选复核清单**，不是终审。
+4. **键冲突丢弃的 3 个键**（`Modern` / `Han` / `H-MZ-001`）相关模式无生卒年：
+   其中 `H-MZ-001` 是**数据内部矛盾**（主文件 `H-MZ-001.json` = 晏阳初 1890–1990，
+   伴随文件 `H-MZ-001_modes.json` = 孟子 -372— -289），本期只如实报告、**不改数据**（改数据是另一张卡的事）。
+   三个键都没有任何模式引用（`grep` 模式侧 `figure_code` 计数为 0），故丢弃不损失覆盖。
+
+**误报与人工抽检（判定标准先写清）**
+
+- 判定标准：D5 意义上的「真矛盾」= 该年份是**本人自己**的行事年份且落在本人有生之年之外。
+  以下一律算「非矛盾」：他人（学生、后继者、批评者）的年份、卒后事件与余波、所引文献 / 案件 /
+  版本的出版年、背景年代（「1960 年代」这类）、以及非年份的数值（如「duty 约 2000 万英尺·磅」）。
+- **新增 `conflict` = 0 条**：修复前后均为 1 条（`M-NEW-007`，Phase41-Z3 已判读为误报：1749 年是
+  Clairaut 在牛顿卒后的成果，句子自称「牛顿未解决」）。
+- 但「0 新增」不能自证过滤器有效，故对**过滤器必须裁决的边界集**做**全量**人工抽检：朴素规则
+  （本人叙述字段里的年份落在生卒年之外，无任何过滤）全库候选 **622 个 token / 190 条模式**，
+  其中「年份与人物名同现」而必须进入最终裁决的只有 **32 条** —— 逐条判读结果：**真矛盾 0 条**；
+  被抑制的 31 条全部是卒后余波 / 所引文献年 / 背景年代（下表为代表例，全表见证据文档）。
+  即：抑制精度 31/31、上报精度 0/1（唯一上报项是已知误报）。
+- 另抽 12 条 `name-not-in-context` 与 6 条 `out-of-window` 逐条判读：**均非本人矛盾**
+  （含 `M-LSZ-010` 的 1596 年金陵本 = 李时珍卒后 3 年刊行；`M-IBR-008` 的 1270/1277 年大谴责；
+  `M-XN-005` 的布尔 1854 年逻辑代数；`M-SQ-008` 的 1973 年马王堆帛书平反）。
+
+| 模式 | figure | 年份 | 生卒年 | D5 结论 | 人工判读（证据摘句） |
+|---|---|---|---|---|---|
+| M-ECL-003 | ECL 熙德 | 1200 | 1043–1099 | out-of-window 抑制 | 《熙德之歌》（约 1200 年）为卒后一个世纪的史诗 → 非矛盾 |
+| M-HER-010 | HER 赫茨尔 | 1949 | 1860–1904 | out-of-window 抑制 | 1904 年遗嘱在 1949 年以国家规格兑现（赫茨尔山迁葬）→ 卒后余波 |
+| M-JENNER-010 | Jenner 琴纳 | 1980 | 1749–1823 | out-of-window 抑制 | 1980 年 WHO 宣布天花消灭，延续其目标 → 后人事件 |
+| M-KD-010 | H-KD-001 康德 | 1945 | 1724–1804 | out-of-window 抑制 | 联合国宪章（1945）重述其条款 → 后世影响 |
+| M-BEN-010 | H-BEN-001 边沁 | 1838/1843 | 1748–1832 | source-marker 抑制 | 鲍林主编《边沁文集》(1838–1843) → 遗稿出版年 |
+| M-HAM-004 | H-HAM-001 汉密尔顿 | 1819 | 1755–1804 | source-marker 抑制 | 麦卡洛克诉马里兰案（1819）沿用其论证 → 身后判例 |
+| M-HRC-006 | HRC 赫歇尔 | 1833/1838 | 1738–1822 | source-marker 抑制 | 约翰·赫歇尔南天巡天（1833–1838）→ 其子之事 |
+| M-SCH-009 | H-SCH-001 熊彼特 | 1954 | 1883–1950 | source-marker 抑制 | 熊彼特 1954 年《经济分析史》→ 遗著出版年 |
+| M-ATK-010 | H-ATK-001 凯末尔 | 1960 | 1881–1938 | background-marker 抑制 | 自 1960 年起军方多次干预 → 卒后政治史 |
+| M-CW-007 | H-CW-001 克劳塞维茨 | 1866 | 1780–1831 | out-of-window 抑制 | 1866/1870 年战役中普军指挥官 → 后人实践 |
+| M-WAT-005 | WAT 瓦特 | 2000 | 1736–1819 | out-of-window 抑制 | duty 约 2000 万英尺·磅/蒲式耳 → 数值不是年份 |
+| M-NEW-007 | H-NEW-001 牛顿 | 1749 | 1643–1727 | **conflict（唯一上报项）** | 「牛顿未解决，Clairaut 1749 年以摄动级数解决」→ **误报**（他人成果） |
+
+**负对照自测（本期新增 9 项，共 34 项全绿）**
+
+- `Z0` 生卒年解析扩到「公元前330 / 约公元前330 / 空串」；
+- `Z1` 年份在 `representative_cases_en` 的矛盾**必被检出**（本卡验收指定的负对照）；
+- `Z2` 英文卒后余波标记（after his death）→ 不得判矛盾；`Z3` 英文文献/出版标记（published）→ 不得判矛盾；
+- `Z4` 年份只在英文镜像字段时 token 仍计入（**不是静默 0**）；
+- `Z5`/`Z5b`/`Z6` 取值键：人名键 + 代码键都登记、时代名键不登记、同键不同生卒年整体丢弃并报告、
+  「约公元前330」进 lifespan（带 provenance）；
+- `Z7` `tools/backfill_lifespans.py --check` 对当前数据 exit 0（补数清单可重入、不漂移）。
+
+**复现命令**
+
+```
+python3 tools/backfill_lifespans.py                 # 逐条 provenance + 无日期清单
+python3 tools/credibility_gate.py --legacy-report   # D5 报告（含 tokens=0 成因拆分）
+python3 tools/test_credibility_d45.py               # 34/34 passed
+python3 tools/build_audit_findings.py --write       # 刷新 audit_meta（findings 条目数不变）
+python3 tools/verify_findings.py --hard-fail --data-path data/modes_data.json
+python3 tools/apply_verification_status.py --check
+```
+
+**证据**：`docs/qa/phase42_z4_d5_closure.md`（修复前 / 修复后原始输出、32 条边界候选全表、
+抽检判读、负对照 34 项、双仓同步与 CI 结果）。
