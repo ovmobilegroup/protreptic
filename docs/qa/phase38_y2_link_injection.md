@@ -320,3 +320,113 @@ gzip 后中位每片只多 410 B；`modes/index` 与 `figures` 完全没变（`m
 **没跑的两步（诚实标注）**：`tools/build_og_images.py` 与 `tools/apply_og_meta.py` 需要 `pillow` / `fonttools`，
 本机 `python3 -m pip` 不存在（`No module named pip`），装不了依赖，所以**只在 CI 里跑**。
 这两步只写 `og:image` / `twitter:image` 与分享图文件，不碰出处渲染，也不影响本次改动的任何结论。
+
+---
+
+## 9. 两仓同步 · push · CI 回读（原始证据）
+
+### 9.1 同步与机检
+
+15 个文件从开发仓镜像进发布仓（`shutil.copy2` + 逐个 sha256 断言相等），新文件两侧都 `git add`：
+
+```
+data/audit/findings.json                         data/modes_data.json
+data/audit/verification_status.json (新)          docs/architecture/static_data_manifest.json
+docs/architecture/web_p0_routes.json             docs/qa/phase38_y2_link_injection.md (新)
+tools/export_static_site.py                      tools/prerender_body.py
+tools/apply_verification_status.py (新)           web/public/sitemap.xml
+web/src/api/compareData.ts                       web/src/components/DailyModeCard.vue
+web/src/components/SourceCitation.vue (新)        web/src/views/CompareView.vue
+web/src/views/MindView.vue
+```
+
+```
+$ python3 tools/check_repo_parity.py
+[OK] 零差异：1316 个构建图文件两仓逐字节一致（sha256）
+```
+
+markdown-lint 本地复跑（CI 用的就是它，`npx markdownlint-cli2@0.13.0`）：
+
+```
+$ npx --yes markdownlint-cli2@0.13.0 "docs/qa/phase38_y2_link_injection.md"
+Summary: 0 error(s)
+```
+
+### 9.2 push 与 CI
+
+发布仓 `main` 两次 push（第二次是 §4 计数口径修正；按项目纪律不改写历史，追加提交）：
+
+```
+$ git push origin main
+   88161b7..8ae8172  main -> main        （第一次：注入 + 四态 + 前端）
+   8ae8172..56cae91  main -> main        （第二次：注入统计口径两级化）
+$ git status -sb           ## main...origin/main       <- 无 [ahead N]
+$ git rev-parse HEAD            56cae91b47a50826b50f5d1a45a5e2355464359c
+$ git ls-remote origin refs/heads/main
+56cae91b47a50826b50f5d1a45a5e2355464359c refs/heads/main    <- 回读一致（sha 与 ref 之间原文为制表符）
+```
+
+`56cae91` 四个工作流全绿（GitHub Actions API 回读）：
+
+| 工作流 | run id | 结论 | 耗时（started -> updated） |
+|---|---|---|---|
+| Protreptic CI/CD | 35485720976 | success | 03:06:34 -> 03:16:32 |
+| Deploy to GitHub Pages | 35485720982 | success | 03:06:34 -> 03:18:0x |
+| CI（markdown-lint） | 35485720987 | success | 03:06:34 -> 03:06:50 |
+| Quality Gate | 35485732308 | success | 03:06:53 -> 03:08:37 |
+
+### 9.3 线上回读（部署后实测，不是「应该已经生效」）
+
+```
+$ curl -s https://ovmobilegroup.github.io/protreptic/data/meta.json
+generated_at: 2026-09-20T03:13:18+00:00
+verification.published: {"verified": 911, "pending": 1547, "suspect": 0, "unverifiable": 340} total 2798
+verification.all     : {"verified": 911, "pending": 1579, "suspect": 17, "unverifiable": 351} total 2858
+citation_links       : {"modes_with_citations": 2154, "modes_with_link": 911, "citations": 4005,
+                        "citations_linked": 1147, "citations_registered_unlinkable": 939,
+                        "citations_unresolved": 1919, "segments": 4064, "segments_linked": 1165}
+自洽: published 求和 = 2798 == published_total 2798
+自洽: citations 求和 = 4005 == citations 4005
+sources sha256 modes_data.json: 9e08650499c56aef     <- 与本机 data/modes_data.json 同一份
+```
+
+```
+$ curl -s https://ovmobilegroup.github.io/protreptic/data/modes/by-figure/KUB.json
+mode: M-KUB-010 大哉乾元命名法
+verification: {"status": "verified", "method": "link-resolved", "evidence": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2", "checked_at": "2026-09-20", "checker": "phase38-y2"}
+source_refs 条数: 6 其中 linked: 4
+source_parts 段数: 14 可点段: 5
+分段文本拼回 == source_chapter: True
+```
+
+```
+$ curl -s -o /dev/null -w "%{http_code}\n" https://ovmobilegroup.github.io/protreptic/
+200
+$ curl -s https://ovmobilegroup.github.io/protreptic/minds/KUB/ | grep -o '<a href="https://[^"]*" target="_blank" rel="noopener noreferrer"' | wc -l
+31
+```
+
+即：线上分片带 `source_refs` / `source_parts`，线上 HTML 的出处已是新窗口可点链接（`target="_blank" rel="noopener noreferrer"`），
+线上 `meta.json` 的四态计数与两级注入计数都自洽。
+
+---
+
+## 10. 边界与未做（不粉饰）
+
+1. **分享图两步本机没跑**：`build_og_images.py` / `apply_og_meta.py` 需要 `pillow` / `fonttools`，
+   本机 `python3 -m pip` 不存在，装不了；只在 CI 里跑。这两步只写 `og:image`，不碰出处渲染。
+2. **D5（时间线矛盾）仍不可机检**：`findings.json` 的 D5 是 `N/A - no figures_db.json available`，
+   所以 `suspect` 这一态目前只可能来自 D4（引文无出处）。这是口径边界，不是本卡遗漏。
+3. **覆盖率没有提升**：去重级仍 1147/4016 = 28.6%、被引 >=3 次书名 178/374 = 47.6%（与 Y1 一致，逐字复跑过）。
+   本卡只做「注入 + 状态 + 渲染」，继续扩链接源属于后续卡的事。
+4. **1919 条 unresolved 引文保持纯文本**：没有链接源就是没有，不猜 URL、不指向搜索页凑数。
+5. **suspect 的公开口径是 0**：17 条 D4 命中全部落在隔离人物上，它们不进公开产物；
+   源库口径 17 条在 `data/audit/verification_status.json` 里可查。展示成 0 而不是藏起来。
+6. **徽章只落在模式卡片与对照表**：credibility_framework.md 第 5 节 P35-E 还提到「统计页」，
+   本卡只做了模式级徽章 + `meta.json` 计数，**没有新建统计页**。
+7. **没有把 `apply_verification_status.py --check` 接进 CI**：它会新增一道「状态漂移必红」的门，
+   本卡不新增门（避免制造新的存量红），工具已具备 `--check`（exit 1）能力，接线留待后续卡决定。
+8. **`api/protreptic.db` 没有提交**：重建字节不确定（两次 sha256 不同），§9.3 也把它排除在一致性口径外。
+9. **一处 pre-existing lint**：`docs/planning/credibility_framework.md` 第 34 行在**本地新版**
+   markdownlint（v0.34）下报 MD056，CI 用的 action 版本不报（Y1 的 CI 是绿的、该文件自 Phase37-X4 未改）。
+   本卡不动它（不在本次改动面内），在此如实标注。
