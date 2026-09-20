@@ -31,7 +31,7 @@
 | **D1** | 伪人物 | `figure_code` 对应实体非真实历史人物（阶段标签 / 流程名 / 占位符） | 出库 + 隔离 |
 | **D2** | 伪造出处 | 书名不存在于任何权威目录；或自引伪造（《X氏子》型） | 隔离 + 复核 |
 | **D3** | 出处污染 | `source_chapter` 含工程痕迹：`sha256` / commit 哈希 / 脚本名 / `双镜像` / `qa_postmerge` / 工作树叙述 | 重写或隔离 |
-| | | **豁免条款**：**D1 已隔离记录允许保留源库工程痕迹，以导出期过滤为准**——隔离项不进任何公开产物（名录 / 每日 / 图谱 / 概念层），源库工程痕迹只服务复核与回滚，不对外可见。<br>**名单唯一事实来源**：`tools/_quarantine.py` 的 `QUARANTINE`（当前 6 项：`H-SX-001`、`H-P23F-001`、`P24F`、`P25F`、`P26F`、`Phase27Final`）；gate **不复制名单副本**，改名单只改那一处。<br>**机检方式**：`credibility_gate.py::check_d3_pollution()` 对 `is_d3_exempt(mode, quarantine)` 为真的模式**跳过 D3 扫描**，仅对公开 figure 扫 `source_chapter`；**豁免面必须在 gate 报告里如实打印**，禁止静默跳过。<br>**可关**：`--no-d3-exemption` 关掉豁免（严格模式，连隔离项一起扫），用于审计回看。 |
+| | | **豁免条款**：**D1 已隔离记录允许保留源库工程痕迹，以导出期过滤为准**——隔离项不进任何公开产物（名录 / 每日 / 图谱 / 概念层），源库工程痕迹只服务复核与回滚，不对外可见。<br>**名单唯一事实来源**：`tools/_quarantine.py` 的 `QUARANTINE`（当前 6 项：`H-SX-001`、`H-P23F-001`、`P24F`、`P25F`、`P26F`、`Phase27Final`）；gate **不复制名单副本**，改名单只改那一处。<br>**机检方式**：`credibility_gate.py::check_d3_pollution()` 对 `is_d3_exempt(mode, quarantine)` 为真的模式**跳过 D3 扫描**，仅对公开 figure 扫 `source_chapter`；**豁免面必须在 gate 报告里如实打印**，禁止静默跳过。<br>**可关**：`--no-d3-exemption` 关掉豁免（严格模式，连隔离项一起扫），用于审计回看。 | |
 | **D4** | 引文不符 | `key_quote_zh` 文本不出现于所标出处的原文 | 复核 |
 | **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年） | 复核 |
 | **D6** | 悬空引用 | `cross_references` / `related_modes` 指向不存在的 `mode_code` | 自动修 |
@@ -323,6 +323,7 @@ python3 tools/check_repo_parity.py --list     # 打印纳入/排除清单（含�
 = 脚本所在仓 = publish，两侧同一目录 → 单侧检测恒为 0、输出假 OK；现加硬守卫，撞上直接 `exit 2`。
 
 修复（Phase39-Z1）：
+
 1. 文件集改为 **索引 ∪ 未跟踪且未被 `.gitignore`**，并区分 `tracked` / `untracked`；
 2. 符号链接按「链接→目标」取指纹；索引里有而工作树缺失记 `absent`，单列一条理由；
 3. 报告新增 `[stats] 两仓都有 N 条（逐字节一致 M）｜仅单侧 K 条` 与「排除规则 × 侧别」表；
