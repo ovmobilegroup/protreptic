@@ -421,3 +421,54 @@ python3 tools/check_repo_parity.py
 | `docs/qa/link_coverage.md` | 本报告 |
 
 同步台账与 push 回读见 §10（**提交后**追加，避免自指哈希失效）。
+
+---
+
+## 10. 同步台账与 push 回读（**提交后**回读）
+
+| 项 | 值 |
+| --- | --- |
+| 开发仓 `master` | `aff2d80d`（本轮提交） |
+| 发布仓 `main` | `08b87ee`（与开发仓逐字节一致的内容提交） |
+| GitHub `refs/heads/main`（`git ls-remote` 回读） | `08b87ee` ✅ 与本地发布仓 HEAD 相同 |
+| 两仓构建图一致 | `python3 tools/check_repo_parity.py` → `[OK] 零差异：1313 个构建图文件两仓逐字节一致（sha256）` |
+| 线上 | `https://ovmobilegroup.github.io/protreptic/` → 200；`/modes/` → 200 |
+
+### 10.1 一个必须记住的环境事实：开发仓 `master` 不是 push 目标
+
+- GitHub 远端 `ovmobilegroup/protreptic` **只有 `main`**（`git ls-remote --heads origin` 返回 1 条）；
+  开发仓本地分支叫 `master` 且**未配置 upstream**。
+- 后果一：开发仓 `git status -sb` 恒为 `## master`（**没有 ahead 信息**），
+  「无 ahead」在开发仓**不构成 push 证据**（此前若有报告据此下结论，应改用下面的 ls-remote 口径）。
+- 后果二：`git push origin master` 在远端没有该分支时会走**全量历史上传**——本机实测 15 分钟未完成
+  （无 pack 落盘），已放弃该路径；发布路径是**发布仓 `main`**（`git push origin main`，秒级完成）。
+- 两仓是**同一远端 URL** 的两个工作副本：发布仓用**内容镜像提交**承载发布历史
+  （消息与开发仓一致、SHA 不同），构建图文件逐字节一致（见上表）。
+
+### 10.2 CI / CD 回读（GitHub Actions，提交 `08b87ee`）
+
+```bash
+$ gh run list --repo ovmobilegroup/protreptic --limit 4
+completed  success  Phase38-Y1: 链接源重建…  CI                        main  push  35482097780  16s
+completed  success  Phase38-Y1: 链接源重建…  Deploy to GitHub Pages    main  push  35482097770  11m29s
+completed  success  Phase38-Y1: 链接源重建…  Protreptic CI/CD          main  push  35482097766
+completed  success                             Quality Gate              main  workflow_run  35482580499  2m4s
+```
+
+`Protreptic CI/CD` 内部四步的门（`gh run view … --json jobs`）：
+
+| 步骤 | 结论 | 耗时 |
+| --- | --- | --- |
+| 可信度门 · 新增违规必红 | success | 瞬时 |
+| **链接源核验 · 新增坏链必红** | **success** | **3m00s**（01:43:25→01:46:25；条目 50→382、需 curl 169 条，此前近乎瞬时） |
+| 可信度门 · 负对照自测（D3 豁免两方向 + 两档七项） | success | 3s |
+| findings 自检 · 两档八项 | success | 7s |
+| Run Python tests / TS type check / lint | success | — |
+| Build Web / API Docker Image | success | 镜像构建长尾（与本轮数据无关） |
+
+**结论：四个工作流全绿**（`CI` / `Deploy to GitHub Pages` / `Protreptic CI/CD` / `Quality Gate`）。
+
+### 10.3 本节自身的提交口径
+
+§10 是对**已推送内容提交**的回读，因此正文里的哈希指 `08b87ee`；本节以 **doc-only 追加提交**
+（只改 `docs/qa/link_coverage.md`，不动任何构建图数据）落到两仓，其流水线与上表同路径、同门。
