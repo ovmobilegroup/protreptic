@@ -32,8 +32,8 @@
 | **D2** | 伪造出处 | 书名不存在于任何权威目录；或自引伪造（《X氏子》型） | 隔离 + 复核 |
 | **D3** | 出处污染 | `source_chapter` 含工程痕迹：`sha256` / commit 哈希 / 脚本名 / `双镜像` / `qa_postmerge` / 工作树叙述 | 重写或隔离 |
 | | | **豁免条款**：**D1 已隔离记录允许保留源库工程痕迹，以导出期过滤为准**——隔离项不进任何公开产物（名录 / 每日 / 图谱 / 概念层），源库工程痕迹只服务复核与回滚，不对外可见。<br>**名单唯一事实来源**：`tools/_quarantine.py` 的 `QUARANTINE`（当前 6 项：`H-SX-001`、`H-P23F-001`、`P24F`、`P25F`、`P26F`、`Phase27Final`）；gate **不复制名单副本**，改名单只改那一处。<br>**机检方式**：`credibility_gate.py::check_d3_pollution()` 对 `is_d3_exempt(mode, quarantine)` 为真的模式**跳过 D3 扫描**，仅对公开 figure 扫 `source_chapter`；**豁免面必须在 gate 报告里如实打印**，禁止静默跳过。<br>**可关**：`--no-d3-exemption` 关掉豁免（严格模式，连隔离项一起扫），用于审计回看。 | |
-| **D4** | 引文不符 | `key_quote_zh` 文本不出现于所标出处的原文 | 复核 |
-| **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年） | 复核 |
+| **D4** | 引文不符 | `key_quote_zh` 文本不出现于所标出处的原文。<br>**实现程度（Phase40-Z2 起，此前为空壳）**：真做**归一化子串核验**——`key_quote_zh` 去标点归一化后切成片段，与 `data/audit/source_texts/` 里缓存的原文比对（缓存由 `tools/fetch_source_texts.py` 按 `source_links.json` 的原文类链接抓取）。**只在「出处有书名号引文 + 引文解析到原文类链接（wikisource/gutenberg/ctext）+ 缓存覆盖整部作品（coverage=single-page/complete）」时可核**；其余一律 `unchecked` 并逐类计数（`no-citation` / `no-fulltext-link` / `partial-coverage` / `no-cache-entry` …），**不假装核过**。 | 复核（WARN，不阻断） |
+| **D5** | 时间线矛盾 | 引文年代 > 人物卒年（或 < 生年）。<br>**实现程度（Phase40-Z2 起，此前直接 `return []`）**：真做——用 `data/figures/*.json` 的 `birth_year`/`death_year`（含字符串与「约前287」式公元前纪年）× 模式文本里的 4 位年份。**只有同时满足**「字段属本人叙述字段（`definition_zh`/`process_zh`/`representative_cases_zh`）」「年份落在生涯带 `[生年-40, 卒年+30]`」「年份与人物名同现（±20 字）」「上下文无文献 / 卒后余波 / 背景标记」才判矛盾；其余逐类计入**不可判定**（`out-of-window` / `field-not-claim` / `name-not-in-context` / `no-lifespan-for-figure` …）。 | 复核（WARN，不阻断） |
 | **D6** | 悬空引用 | `cross_references` / `related_modes` 指向不存在的 `mode_code` | 自动修 |
 | **D7** | 重复/近重复 | 同 figure 内 definition 相似度 > 阈值；或跨 figure 文本重复 | 合并/标注 |
 
@@ -347,3 +347,74 @@ python3 tools/check_repo_parity.py --list     # 打印纳入/排除清单（含�
 3. 每次同步后重跑机检，必须 `exit 0`。
 
 实测证据（命令 + 原始输出）：`docs/qa/phase37_x4_repo_parity.md`。
+
+---
+
+## 10. D4/D5 的真实实现、覆盖与局限（Phase40-Z2）
+
+> 起因：船长 2026-09-20 独立核验（源码证据）发现 `tools/credibility_gate.py` 的 D4/D5 是**空壳**
+> ——`check_d4_quote_mismatch` 只判「有引文但出处为空」（docstring 自述 placeholder）、
+> `check_d5_timeline_conflict` 直接 `return []`；而本文件第 1 节当时把两者列为「已实现检查」。
+> 属**文档失真**，本节起如实写：真实现程序、覆盖范围、局限，一并留原始证据
+> （`docs/qa/phase40_z2_d4_d5.md`）。
+
+### 10.1 实现（规则唯一实现 = `tools/credibility_gate.py`）
+
+| 缺陷 | 依赖 | 判定链 |
+|---|---|---|
+| **D4 引文不符** | `data/audit/source_texts.json` + `data/audit/source_texts/*.txt`（缓存原文，由 `tools/fetch_source_texts.py` 抓取）；匹配规则唯一实现在 `tools/source_text_cache.py` | N0 归一化（只留汉字/字母/数字，去空白与标点）→ N1 把 `key_quote_zh` 按标点切片段，取长度 ≥8 的片段（由长到短最多 8 个）→ N2 任一片段出现在原文 = `matched` → N3 全部落空 = `mismatch` → N4 无可用文本 = `unchecked`（逐类记理由）→ N5 繁简守卫（原文繁体 vs 引文简体 → `script-mismatch`，不判不符） |
+| **D5 时间线矛盾** | `data/figures/*.json` 的 `birth_year`/`death_year`（int / 纯数字字符串 / 「约前287」式公元前纪年都能解析） | 生卒年可用 → 扫 4 位年份（`1xxx`/`20xx`）→ 生涯带 `[生年-40, 卒年+30]` 之外 → `out-of-window` 不可判定；带内但字段不是本人叙述字段 → `field-not-claim`；年份不与人物名同现（±20 字）→ `name-not-in-context`；上下文含文献/出版、卒后余波、背景年代标记 → 对应不可判定；**全部通过才判矛盾** |
+
+抓取口径（`fetch_source_texts.py`）：只抓 `source_type ∈ {wikisource, gutenberg, ctext}` 的原文类链接；
+wikisource 走 `action=raw`，页面若只是目录（如《传习录》卷上/卷中/卷下）**顺着子页抓**并如实标 `coverage`
+（`single-page` 单页即全文 / `complete` 目录+全部子页 / `partial` 分卷数超过上限→**不去抓**，D4 视为不可核）；
+gutenberg 的 `/ebooks/<id>` 换成 `/cache/epub/<id>/pg<id>.txt`；ctext 有 Cloudflare 挑战页 → 如实记 `http-error`。
+**抓不到就是抓不到：不伪造、不用二手转述补位。**
+
+### 10.2 覆盖与实测（2026-09-20，命令与原始输出见 `docs/qa/phase40_z2_d4_d5.md`）
+
+* 缓存：`source_links.json` 382 个 key 里有 169 个带 url，其中**原文类 96 个**（wikisource 87 / gutenberg 6 / ctext 3）；
+  抓取结果 **ok 43 + ok-shared 2 / partial 38 / index-page 11 / fetch-failed 2**，文本 3.2 MB。
+  **可用于 D4 判定的 key = 38 个**（`coverage ∈ {single-page, complete}`）。
+* D4 全库（2888 条模式）：`matched 1` / `mismatch 22` / `quote-too-short 69` / `unchecked 2796`。
+  `unchecked` 理由分布：`no-fulltext-link 1585`、`no-citation 647`、`partial-coverage 409`、
+  `no-quote 72`、`all-fragments-shorter-than-min(8) 69`、`script-mismatch 65`、`index-page 18`。
+* D5 全库：生卒年可用人物 **265 个**、可判定模式 **1132 条**、扫到年份 token **1252 个**；
+  `clean 512` / `undetermined 2376` / **`conflict 0`**；不可判定逐类：
+  `out-of-window 67`、`field-not-claim 24`、`name-not-in-context 13`（其余为「人物无生卒年」1906 条与「文本无 4 位年份」）。
+* 产出接线：D4/D5 命中写入 `data/audit/findings.json`（defect = `D4_quote_mismatch` / `D5_timeline_conflict`），
+  经既有口径（warn → `suspect`）进 `tools/apply_verification_status.py`；本轮四态
+  （全库 2868）：`verified 889 / pending 1589 / suspect 39 / unverifiable 351`，
+  其中 D4/D5 带来的变更是 **verified → suspect 22 条**（公开口径 suspect 22）。
+
+### 10.3 误报控制（这是本次实现的重点，不是附属）
+
+1. **D5 的朴素规则会大量误报 —— 已实测**：全库把「年份落在生卒年之外」直接判矛盾，
+   会得到 **34 个年份 token（20 条模式）**，逐条看**全部**是卒后余波 / 所引文献出版年 / 背景事件
+   （例：麦哲伦 1521 卒，《首次环球航行记》约 1522、萨拉戈萨条约 1529；牛顿 1727 卒，Machin《月球理论》1729；
+   瓦特 1819 卒，麦克斯韦 1868 年论文；费曼 1988 卒，Gleick 传记 1992）。因此 D5 **不采用**朴素规则，
+   只报「字段属本人叙述 + 年份与人物名同现 + 生涯带内 + 无文献/余波/背景标记」的强信号。
+2. **D4 的繁简差异会大量误报 —— 已实测并加守卫**：wikisource 原文为**繁体**、模式引文为**简体**，
+   未加守卫时 `mismatch` 一度高达 **87 条**（例：《孙子兵法》「胜兵先胜而后求战」繁体原文写「勝兵先勝而後求戰」）；
+   加 `script-mismatch` 守卫（411 组常见简繁字对，命中 ≥2 组即判「脚本不同」）后降到 **22 条**，
+   剩下的逐条看是**真·字面不符**（例：《焚书》李贽「不以孔子之是非为是非」原文作「咸以孔子之是非为是非」；
+   《孙子兵法》「对抗中最贵的资产是提问权」是今人改写）。
+3. **部分语料不给结论**：`coverage=partial`（分卷未抓全，如《论语》23 卷、《五灯会元》20 卷）一律 `unchecked`，
+   理由写在报告里 —— 在**部分**文本里找不到引文不能证明「引文不符」。
+
+### 10.4 局限（如实写，不夸大覆盖面）
+
+* **D4 可核面只有 38 个 key**（96 个原文类链接里 38 个覆盖完整）；`source_chapter` 里没有书名号引文（647 条）、
+  引文只有条目页/不可链接（1585 条）的模式**根本不可核**。因此 D4 的结论**只覆盖全库的一小块**，
+  不能读成「其余 2866 条引文都对」。
+* `partial-coverage` 的 409 条模式要真正可核，需要抓全分卷（当前上限 12 卷/页）或引入章节级链接映射 —— 未做。
+* **繁简/异体字**：当前只做「检测不一致 → 不判不符」，**不做字形转换**；要真正核对繁简混合语料，
+  需要 opencc 级转换表（手搓不完整映射会把「未命中」变成假命中，故不做）。
+* **D5 只认 4 位年份（1000–2099）**：公元前（如孔子 551–479 BCE）与 3 位年份不参与判定，
+  计入「不可判定」；`name-not-in-context` / `afterlife-marker` 等是**启发式**清单（写死在
+  `credibility_gate.py` 的 `D5_EXCLUDE_*`），会漏真矛盾、也会放过真矛盾 —— 因此 D5 的产出是
+  **候选复核清单**，不是终审判决。
+* D4/D5 都是 **WARN（不阻断）**：只在报告与审计清单里出现，不改变 CI 的通过与否（口径见第 4 节）。
+* 负对照自测：`tools/test_credibility_d45.py`（15 项：矛盾必报 / 干净不误报 / 三条误报控制 /
+  无生卒年标不可判定 / 生卒年解析四形态 / D4 不符必报 / 匹配不误报 / partial 不得判不符 /
+  无缓存标不可核 / 端到端坏样本必报 + 干净不报），已接进发布仓 `ci-cd.yml` 的 test job。

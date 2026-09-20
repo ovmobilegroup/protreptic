@@ -761,6 +761,204 @@
       "suggested_action": "add source or re-verify quote"
     },
     {
+      "mode_code": "M-BAI-005",
+      "figure_code": "BAI",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《与元九书》；缓存见 data/audit/source_texts.json；最长未命中片段='同是天涯沦落人，相逢何必曾相识——逆境的最优用法是借一个具体他人的故事完成自我转'）",
+      "anchor": "同是天涯沦落人，相逢何必曾相识——逆境的最优用法是借一个具体他人的故事完成自我转",
+      "source_key": "《与元九书》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-DF-004",
+      "figure_code": "H-DF-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《秋兴八首》；缓存见 data/audit/source_texts.json；最长未命中片段='晚节渐于诗律细——先做形式的奴隶，再做形式的主人；自由的深度等于掌握约束的深度。'）",
+      "anchor": "晚节渐于诗律细——先做形式的奴隶，再做形式的主人；自由的深度等于掌握约束的深度。",
+      "source_key": "《秋兴八首》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-EIN-003",
+      "figure_code": "H-EIN-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《论动体的电动力学》；缓存见 data/audit/source_texts.json；最长未命中片段='世界最不可理解之处，就在于它竟然可以被理解。'）",
+      "anchor": "世界最不可理解之处，就在于它竟然可以被理解。",
+      "source_key": "《论动体的电动力学》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-HS-006",
+      "figure_code": "H-HS-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《新思潮的意义》；缓存见 data/audit/source_texts.json；最长未命中片段='新思潮的唯一目的是再造文明——文明不是笼统造成的，是一点一滴造成的。'）",
+      "anchor": "新思潮的唯一目的是再造文明——文明不是笼统造成的，是一点一滴造成的。",
+      "source_key": "《新思潮的意义》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-HS-008",
+      "figure_code": "H-HS-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《新思潮的意义》；缓存见 data/audit/source_texts.json；最长未命中片段='文明是一点一滴的进化，解放是一点一滴的解放——改造也必须是一点一滴的改造。'）",
+      "anchor": "文明是一点一滴的进化，解放是一点一滴的解放——改造也必须是一点一滴的改造。",
+      "source_key": "《新思潮的意义》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-JEF-002",
+      "figure_code": "H-JEF-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《独立宣言》；缓存见 data/audit/source_texts.json；最长未命中片段='我写的不是1776年的妥协，是给1780年、1860年、1960年的人写的一份可'）",
+      "anchor": "我写的不是1776年的妥协，是给1780年、1860年、1960年的人写的一份可",
+      "source_key": "《独立宣言》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-JEF-009",
+      "figure_code": "H-JEF-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《独立宣言》；缓存见 data/audit/source_texts.json；最长未命中片段='我等不到蓝图被所有人同意——先铸第一块基石，剩下的人在基石上争。'）",
+      "anchor": "我等不到蓝图被所有人同意——先铸第一块基石，剩下的人在基石上争。",
+      "source_key": "《独立宣言》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-LIJING-005",
+      "figure_code": "LiJing",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《唐太宗李卫公问对》；缓存见 data/audit/source_texts.json；最长未命中片段='兵之情虽主速，然非以速为上；要在致人而不致于人。（《问对》大意）'）",
+      "anchor": "兵之情虽主速，然非以速为上；要在致人而不致于人。（《问对》大意）",
+      "source_key": "《唐太宗李卫公问对》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-LZ-003",
+      "figure_code": "H-LZ-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《焚书》；缓存见 data/audit/source_texts.json；最长未命中片段='天下万物皆生于两，不生于一'）",
+      "anchor": "天下万物皆生于两，不生于一",
+      "source_key": "《焚书》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-LZ-005",
+      "figure_code": "H-LZ-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《焚书》；缓存见 data/audit/source_texts.json；最长未命中片段='不以孔子之是非为是非'）",
+      "anchor": "不以孔子之是非为是非",
+      "source_key": "《焚书》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-LZ-009",
+      "figure_code": "H-LZ-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《焚书》；缓存见 data/audit/source_texts.json；最长未命中片段='私者，人之心也，人必有私而后其心乃见'）",
+      "anchor": "私者，人之心也，人必有私而后其心乃见",
+      "source_key": "《焚书》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-MF-001",
+      "figure_code": "H-MF-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《海岳名言》；缓存见 data/audit/source_texts.json；最长未命中片段='臣书刷字——八面出锋，快到纸面存得住风声。'）",
+      "anchor": "臣书刷字——八面出锋，快到纸面存得住风声。",
+      "source_key": "《海岳名言》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-MF-005",
+      "figure_code": "H-MF-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《海岳名言》；缓存见 data/audit/source_texts.json；最长未命中片段='无垂不缩，无往不收——作品的完成度等于最薄弱那一笔的完成度。'）",
+      "anchor": "无垂不缩，无往不收——作品的完成度等于最薄弱那一笔的完成度。",
+      "source_key": "《海岳名言》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-MF-007",
+      "figure_code": "H-MF-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《海岳名言》；缓存见 data/audit/source_texts.json；最长未命中片段='临到乱真不是目的——差异清单才是收获，它是你和古人之间全部距离的地图。'）",
+      "anchor": "临到乱真不是目的——差异清单才是收获，它是你和古人之间全部距离的地图。",
+      "source_key": "《海岳名言》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-SW-004",
+      "figure_code": "H-SW-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《孙子兵法》；缓存见 data/audit/source_texts.json；最长未命中片段='致人而不致于人——对抗中最贵的资产是提问权，谁出题谁在赢。'）",
+      "anchor": "致人而不致于人——对抗中最贵的资产是提问权，谁出题谁在赢。",
+      "source_key": "《孙子兵法》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-SW-007",
+      "figure_code": "H-SW-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《孙子兵法》；缓存见 data/audit/source_texts.json；最长未命中片段='以正合，以奇胜——七成排进对手预期的轨道，三成留给预期之外。'）",
+      "anchor": "以正合，以奇胜——七成排进对手预期的轨道，三成留给预期之外。",
+      "source_key": "《孙子兵法》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-WDZ-005",
+      "figure_code": "H-WDZ-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《图画见闻志》；缓存见 data/audit/source_texts.json；最长未命中片段='傅彩于焦墨痕中，略施微染，自然超出缣素——线扛住一切，颜色才有资格克制。'）",
+      "anchor": "傅彩于焦墨痕中，略施微染，自然超出缣素——线扛住一切，颜色才有资格克制。",
+      "source_key": "《图画见闻志》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-ZEN-002",
+      "figure_code": "ZEN",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《武经总要》；缓存见 data/audit/source_texts.json；最长未命中片段='一项技术的真正成熟，不在于有人会用，而在于它被写成任何人按方可制的标准文件——配'）",
+      "anchor": "一项技术的真正成熟，不在于有人会用，而在于它被写成任何人按方可制的标准文件——配",
+      "source_key": "《武经总要》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-ZEN-004",
+      "figure_code": "ZEN",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《武经总要》；缓存见 data/audit/source_texts.json；最长未命中片段='变革最大的风险不是变，而是变与不变的边界失控——成熟的政治是让'因'与'革'各有'）",
+      "anchor": "变革最大的风险不是变，而是变与不变的边界失控——成熟的政治是让'因'与'革'各有",
+      "source_key": "《武经总要》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-ZEN-005",
+      "figure_code": "ZEN",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《武经总要》；缓存见 data/audit/source_texts.json；最长未命中片段='情报工作的成品不是一堆消息，而是一张持续更新的形势底图——底图对了，任何新消息都'）",
+      "anchor": "情报工作的成品不是一堆消息，而是一张持续更新的形势底图——底图对了，任何新消息都",
+      "source_key": "《武经总要》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M-ZEN-006",
+      "figure_code": "ZEN",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《武经总要》；缓存见 data/audit/source_texts.json；最长未命中片段='工程设计的第一问不是能不能造出来，而是它嵌在哪个使用系统里——为体系造物，不为造'）",
+      "anchor": "工程设计的第一问不是能不能造出来，而是它嵌在哪个使用系统里——为体系造物，不为造",
+      "source_key": "《武经总要》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
+      "mode_code": "M387",
+      "figure_code": "H-WYM-001",
+      "defect": "D4_quote_mismatch",
+      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《传习录》；缓存见 data/audit/source_texts.json；最长未命中片段='静坐非是要坐禅入定'）",
+      "anchor": "静坐非是要坐禅入定",
+      "source_key": "《传习录》",
+      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
+    },
+    {
       "mode_code": "M-LENIN-002",
       "figure_code": "Lenin",
       "defect": "D6_orphan_reference",
@@ -1126,10 +1324,11 @@
     "D2_fabricated_source": 10,
     "D3_source_contamination": 6,
     "D4_empty_quote": 17,
-    "D5_timeline_conflict": "N/A - no figures_db.json available",
+    "D4_quote_mismatch": 22,
+    "D5_timeline_conflict": 0,
     "D6_orphan_reference": 40,
     "D7_duplicate_definition": 0,
-    "total": 133
+    "total": 155
   },
   "audit_meta": {
     "scan_date": "2026-09-20",
@@ -1170,6 +1369,16 @@
         "quarantined_figure": 17,
         "public_figure": 0
       },
+      "D4_quote_mismatch": {
+        "total": 22,
+        "quarantined_figure": 0,
+        "public_figure": 22
+      },
+      "D5_timeline_conflict": {
+        "total": 0,
+        "quarantined_figure": 0,
+        "public_figure": 0
+      },
       "D6_orphan_reference": {
         "total": 40,
         "quarantined_figure": 0,
@@ -1177,10 +1386,191 @@
       }
     },
     "methodology": "full regex/grep scan of data/modes_data.json; gate semantics shared with tools/credibility_gate.py; D1 list from tools/_quarantine.py; D3 is a strict scan (no exemption)",
+    "d4_d5_report": {
+      "generated_by": "tools/build_audit_findings.py::scan_d4_d5 (Phase40-Z2)",
+      "rules_source": "tools/credibility_gate.py::d4_scan / d5_scan（规则唯一实现）",
+      "d4": {
+        "cache_index": "data/audit/source_texts.json",
+        "cache_present": true,
+        "usable_keys": 38,
+        "statuses": {
+          "unchecked": 2796,
+          "mismatch": 22,
+          "quote-too-short": 69,
+          "matched": 1
+        },
+        "unchecked_reasons": {
+          "no-fulltext-link": 1585,
+          "no-citation": 647,
+          "cache-not-ok": 427,
+          "no-quote": 72,
+          "script-mismatch(原文繁体 vs 引文简体": 65,
+          "substring-not-found": 22,
+          "all-fragments-shorter-than-min(8)": 69,
+          "substring-found": 1
+        },
+        "mismatches": [
+          {
+            "mode_code": "M-BAI-005",
+            "key": "《与元九书》",
+            "anchor": "同是天涯沦落人，相逢何必曾相识——逆境的最优用法是借一个具体他人的故事完成自我转",
+            "detail": "逆境的最优用法是借一个具体他人的故事完成自我转化"
+          },
+          {
+            "mode_code": "M-DF-004",
+            "key": "《秋兴八首》",
+            "anchor": "晚节渐于诗律细——先做形式的奴隶，再做形式的主人；自由的深度等于掌握约束的深度。",
+            "detail": "自由的深度等于掌握约束的深度"
+          },
+          {
+            "mode_code": "M-EIN-003",
+            "key": "《论动体的电动力学》",
+            "anchor": "世界最不可理解之处，就在于它竟然可以被理解。",
+            "detail": "就在于它竟然可以被理解"
+          },
+          {
+            "mode_code": "M-HS-006",
+            "key": "《新思潮的意义》",
+            "anchor": "新思潮的唯一目的是再造文明——文明不是笼统造成的，是一点一滴造成的。",
+            "detail": "新思潮的唯一目的是再造文明"
+          },
+          {
+            "mode_code": "M-HS-008",
+            "key": "《新思潮的意义》",
+            "anchor": "文明是一点一滴的进化，解放是一点一滴的解放——改造也必须是一点一滴的改造。",
+            "detail": "改造也必须是一点一滴的改造"
+          },
+          {
+            "mode_code": "M-JEF-002",
+            "key": "《独立宣言》",
+            "anchor": "我写的不是1776年的妥协，是给1780年、1860年、1960年的人写的一份可",
+            "detail": "1960年的人写的一份可引用的欠条"
+          },
+          {
+            "mode_code": "M-JEF-009",
+            "key": "《独立宣言》",
+            "anchor": "我等不到蓝图被所有人同意——先铸第一块基石，剩下的人在基石上争。",
+            "detail": "我等不到蓝图被所有人同意"
+          },
+          {
+            "mode_code": "M-LIJING-005",
+            "key": "《唐太宗李卫公问对》",
+            "anchor": "兵之情虽主速，然非以速为上；要在致人而不致于人。（《问对》大意）",
+            "detail": "要在致人而不致于人"
+          },
+          {
+            "mode_code": "M-LZ-003",
+            "key": "《焚书》",
+            "anchor": "天下万物皆生于两，不生于一",
+            "detail": "天下万物皆生于两"
+          },
+          {
+            "mode_code": "M-LZ-005",
+            "key": "《焚书》",
+            "anchor": "不以孔子之是非为是非",
+            "detail": "不以孔子之是非为是非"
+          },
+          {
+            "mode_code": "M-LZ-009",
+            "key": "《焚书》",
+            "anchor": "私者，人之心也，人必有私而后其心乃见",
+            "detail": "人必有私而后其心乃见"
+          },
+          {
+            "mode_code": "M-MF-001",
+            "key": "《海岳名言》",
+            "anchor": "臣书刷字——八面出锋，快到纸面存得住风声。",
+            "detail": "快到纸面存得住风声"
+          },
+          {
+            "mode_code": "M-MF-005",
+            "key": "《海岳名言》",
+            "anchor": "无垂不缩，无往不收——作品的完成度等于最薄弱那一笔的完成度。",
+            "detail": "作品的完成度等于最薄弱那一笔的完成度"
+          },
+          {
+            "mode_code": "M-MF-007",
+            "key": "《海岳名言》",
+            "anchor": "临到乱真不是目的——差异清单才是收获，它是你和古人之间全部距离的地图。",
+            "detail": "它是你和古人之间全部距离的地图"
+          },
+          {
+            "mode_code": "M-SW-004",
+            "key": "《孙子兵法》",
+            "anchor": "致人而不致于人——对抗中最贵的资产是提问权，谁出题谁在赢。",
+            "detail": "对抗中最贵的资产是提问权"
+          },
+          {
+            "mode_code": "M-SW-007",
+            "key": "《孙子兵法》",
+            "anchor": "以正合，以奇胜——七成排进对手预期的轨道，三成留给预期之外。",
+            "detail": "七成排进对手预期的轨道"
+          },
+          {
+            "mode_code": "M-WDZ-005",
+            "key": "《图画见闻志》",
+            "anchor": "傅彩于焦墨痕中，略施微染，自然超出缣素——线扛住一切，颜色才有资格克制。",
+            "detail": "颜色才有资格克制"
+          },
+          {
+            "mode_code": "M-ZEN-002",
+            "key": "《武经总要》",
+            "anchor": "一项技术的真正成熟，不在于有人会用，而在于它被写成任何人按方可制的标准文件——配",
+            "detail": "而在于它被写成任何人按方可制的标准文件"
+          },
+          {
+            "mode_code": "M-ZEN-004",
+            "key": "《武经总要》",
+            "anchor": "变革最大的风险不是变，而是变与不变的边界失控——成熟的政治是让'因'与'革'各有",
+            "detail": "而是变与不变的边界失控"
+          },
+          {
+            "mode_code": "M-ZEN-005",
+            "key": "《武经总要》",
+            "anchor": "情报工作的成品不是一堆消息，而是一张持续更新的形势底图——底图对了，任何新消息都",
+            "detail": "情报工作的成品不是一堆消息"
+          },
+          {
+            "mode_code": "M-ZEN-006",
+            "key": "《武经总要》",
+            "anchor": "工程设计的第一问不是能不能造出来，而是它嵌在哪个使用系统里——为体系造物，不为造",
+            "detail": "工程设计的第一问不是能不能造出来"
+          },
+          {
+            "mode_code": "M387",
+            "key": "《传习录》",
+            "anchor": "静坐非是要坐禅入定",
+            "detail": "静坐非是要坐禅入定"
+          }
+        ],
+        "note": "只在「出处有书名号引文 + 引文解析到原文类链接 + 缓存覆盖整部作品(single-page/complete)」时判 matched/mismatch；coverage=partial 的缓存**不可核**（在部分文本里找不到引文不能证明引文不符）"
+      },
+      "d5": {
+        "figures_with_lifespan": 265,
+        "statuses": {
+          "clean": 512,
+          "undetermined": 2376
+        },
+        "reasons": {
+          "no-conflicting-year": 512
+        },
+        "undetermined_reasons": {
+          "field-not-claim": 24,
+          "name-not-in-context": 13,
+          "out-of-window": 67
+        },
+        "conflicts": [],
+        "note": "只把「本人叙述字段(definition_zh/process_zh/representative_cases_zh) + 年份与人物名同现+ 生在生涯带内 + 无文献/余波/背景标记」的年份判为矛盾；其余逐类计数为不可判定"
+      },
+      "findings_emitted": {
+        "D4_quote_mismatch": 22,
+        "D5_timeline_conflict": 0
+      }
+    },
     "notes": [
       "annotated references ('M-XXX-001(comment)' with an existing prefix code): 417 entries, not counted as D6 per library convention",
       "get_all_modes total 2888 = top-level modes 2868 + embedded figure-node duplicates 20; distinct mode_code 2858 (plus 10 entries with an empty mode_code, dropped at export)",
-      "D5 not machine-checkable: figures_db.json (birth/death years) is absent",
+      "D4/D5 已由 Phase40-Z2 真实现（不再是占位）：D4 对『缓存覆盖整部作品』的出处做 key_quote_zh 归一化子串核验（缓存见 data/audit/source_texts.json）；D5 用 data/figures/*.json 的生卒年 × 模式文本里的 4 位年份，不可核/不可判定的部分逐类计数在 audit_meta.d4_d5_report（禁止当成零缺陷）",
       "D1/D2/D3/D4/D6 的 by_scope 见 audit_meta.by_scope: quarantined_figure 指该条 mode 的 figure_code 在隔离名单中"
     ]
   }

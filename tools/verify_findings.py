@@ -7,6 +7,8 @@ Checks (A-D hard, E warning):
   C locatable      every anchor is verbatim locatable in the library raw text AND, by defect rule, inside
                    the referenced record itself (evidence must contain the anchor too)
   D self-consist.  summary counts == number of findings entries per defect; total == len(findings)
+  （Phase40-Z2 起 summary 还含 D4_quote_mismatch / D5_timeline_conflict 两个真检查键；
+    D5 anchor 必须落在本人叙述字段且含 4 位年份，D4 anchor 必须落在 key_quote_zh 里）
   E library counts a FRESH scan of the live library yields the same summary counts
                    -> **warning, never blocking** (see "口径" below); disable with --no-check-counts
 
@@ -66,6 +68,8 @@ SUMMARY_KEYS = {
     "D2_fabricated_source": "D2_fabricated_source",
     "D3_source_contamination": "D3_source_contamination",
     "D4_empty_quote": "D4_quote_without_source",
+    "D4_quote_mismatch": "D4_quote_mismatch",
+    "D5_timeline_conflict": "D5_timeline_conflict",
     "D6_orphan_reference": "D6_orphan_reference",
     "D7_duplicate_definition": "D7_duplicate_definition",
 }
@@ -408,6 +412,19 @@ def verify(findings_path: Path, data_path: Path, check_counts: bool = True):
                     errors.append("C: [%s] D4 anchor must equal the record key_quote_zh" % label)
                 if _as_text(mode.get("source_chapter")).strip():
                     errors.append("C: [%s] D4 record has a non-empty source_chapter" % label)
+            elif defect == "D4_quote_mismatch":
+                quote = _as_text(mode.get("key_quote_zh"))
+                if anchor not in quote:
+                    errors.append("C: [%s] D4 引文不符的 anchor %r 不在记录 key_quote_zh 里"
+                                  % (label, anchor[:60]))
+            elif defect == "D5_timeline_conflict":
+                fields = " ".join(_as_text(mode.get(f)) for f in
+                                  ("definition_zh", "process_zh", "representative_cases_zh"))
+                if anchor not in fields:
+                    errors.append("C: [%s] D5 时间线矛盾的 anchor %r 不在记录的本人叙述字段里"
+                                  % (label, anchor[:60]))
+                if not re.search(r"(?<!\d)(1\d{3}|20\d{2})(?!\d)", anchor):
+                    errors.append("C: [%s] D5 anchor %r 里没有 4 位年份" % (label, anchor[:60]))
             elif defect == "D6_orphan_reference":
                 refs = []
                 for field in ("cross_references", "related_modes"):

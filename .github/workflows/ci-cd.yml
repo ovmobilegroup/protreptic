@@ -48,6 +48,13 @@ jobs:
           else
             echo "::notice::tools/test_credibility_gate.py 尚未入库，本步跳过（Phase37-X1 落地后自动生效）"
           fi
+          # Phase40-Z2：D4/D5 真实现（引文子串核验 / 生卒年 x 文本年份）的负对照自测
+          # （矛盾必报 / 干净不误报 / partial 缓存不得判不符 / 无生卒年标不可判定）
+          if [ -f tools/test_credibility_d45.py ]; then
+            python3 tools/test_credibility_d45.py
+          else
+            echo "::notice::tools/test_credibility_d45.py 尚未入库，本步跳过"
+          fi
 
       # ---- Phase37-X5：findings.json 自检（存量冻结 / 新增即拦）----
       # 口径见 docs/planning/credibility_framework.md §8：

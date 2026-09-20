@@ -1,0 +1,1841 @@
+{
+  "schema": "protreptic.source_texts/v1",
+  "generated_by": "tools/fetch_source_texts.py",
+  "generated_at": "2026-09-20T14:45:01+00:00",
+  "policy": "只缓存原文类链接（wikisource/gutenberg/ctext）的真实响应文本；目录页顺着子页抓并如实标 coverage（complete/partial/single-page）；抓不到或只有目录的标 index-page / fetch-failed / http-error，不伪造文本、不用二手转述补位（credibility_framework.md 第 6 节铁律 2）",
+  "min_chars": 800,
+  "max_subpages": 12,
+  "counts": {
+    "ok": 43,
+    "ok-shared": 2,
+    "fetch-failed": 2,
+    "partial": 38,
+    "index-page": 11
+  },
+  "entries": [
+    {
+      "key": "The History of Astronomy, Sect. II-IV (Wonder, Surprise, Admirable Systems; Newtonian system); WN Introd. & Plan; TMS VI.ii.2.17 (Man of System); Essays on Philosophical Subjects",
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "url_fetched": "https://www.gutenberg.org/cache/epub/3300/pg3300.txt",
+      "source_type": "gutenberg",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "plain",
+      "chars": 120000,
+      "bytes": 120078,
+      "sha256": "18fae482d6507eac700e7e3ae6f2dd030db7f3d3556eccf19b2783bff4fbf8c3",
+      "file": "data/audit/source_texts/73ed7b4a421c7415.txt",
+      "truncated": true
+    },
+    {
+      "key": "WN I.1-3 (Division of Labour, Market Extent); WN II.3 (Productive and Unproductive Labour; Parsimony); WN IV.9 (Agricultural Systems; 'peace, easy taxes, tolerable justice' maxim); Lectures on Jurisprudence (1755 maxim)",
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "url_fetched": "https://www.gutenberg.org/cache/epub/3300/pg3300.txt",
+      "source_type": "gutenberg",
+      "status": "ok-shared",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "plain",
+      "chars": 120000,
+      "bytes": 120078,
+      "sha256": "18fae482d6507eac700e7e3ae6f2dd030db7f3d3556eccf19b2783bff4fbf8c3",
+      "file": "data/audit/source_texts/73ed7b4a421c7415.txt",
+      "truncated": true
+    },
+    {
+      "key": "WN I.10.c (Wages and Profit in the different Employments of Labour and Stock); WN I.11 (Rent of Land, conclusion); WN IV.2 & IV.7 (Restraints of Importation, Colonies); WN I.10.c.61 'People of the same trade...'",
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "url_fetched": "https://www.gutenberg.org/ebooks/3300",
+      "source_type": "gutenberg",
+      "status": "fetch-failed",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 0,
+      "method": "html",
+      "chars": 0,
+      "bytes": 0,
+      "sha256": null,
+      "file": null,
+      "truncated": false
+    },
+    {
+      "key": "WN I.2 (Of the Principle which gives Occasion to the Division of Labour); TMS I.1.1 (Of Sympathy); TMS IV.1.10 (Invisible Hand); TMS III (Conscience, Impartial Spectator)",
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "url_fetched": "https://www.gutenberg.org/cache/epub/3300/pg3300.txt",
+      "source_type": "gutenberg",
+      "status": "ok-shared",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "plain",
+      "chars": 120000,
+      "bytes": 120078,
+      "sha256": "18fae482d6507eac700e7e3ae6f2dd030db7f3d3556eccf19b2783bff4fbf8c3",
+      "file": "data/audit/source_texts/73ed7b4a421c7415.txt",
+      "truncated": true
+    },
+    {
+      "key": "WN IV.9.51 (System of Natural Liberty, sovereign's three duties); WN V.1 (Public Works, Institutions, Education); WN V.1.f (Youth and Religious Instruction); WN III (Progress of Opulence); WN IV.7.b (Colony trade monopoly deranges capital allocation)",
+      "url": "https://www.gutenberg.org/ebooks/3300",
+      "url_fetched": "https://www.gutenberg.org/ebooks/3300",
+      "source_type": "gutenberg",
+      "status": "fetch-failed",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 0,
+      "method": "html",
+      "chars": 0,
+      "bytes": 0,
+      "sha256": null,
+      "file": null,
+      "truncated": false
+    },
+    {
+      "key": "《三国志》",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        67
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 3774,
+      "bytes": 10078,
+      "sha256": "c2aac63723311c787b968fdda6abb58d339e78e16342a05bbe814954abd5d426",
+      "file": "data/audit/source_texts/5f3a56c61d4a66d5.txt",
+      "truncated": false
+    },
+    {
+      "key": "《上安州裴长史书》",
+      "url": "https://zh.wikisource.org/wiki/%E4%B8%8A%E5%AE%89%E5%B7%9E%E8%A3%B4%E9%95%B7%E5%8F%B2%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E4%B8%8A%E5%AE%89%E5%B7%9E%E8%A3%B4%E9%95%B7%E5%8F%B2%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1346,
+      "bytes": 4038,
+      "sha256": "1800fe8a1c3ce6ef0087f3601f10fcaac803e92075cb526eb012b37dc11303cb",
+      "file": "data/audit/source_texts/11d06dca294620f5.txt",
+      "truncated": false
+    },
+    {
+      "key": "《与元九书》",
+      "url": "https://zh.wikisource.org/wiki/%E8%88%87%E5%85%83%E4%B9%9D%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%88%87%E5%85%83%E4%B9%9D%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 3895,
+      "bytes": 11661,
+      "sha256": "d562f4156fd574f6875b1f31bc1250551cd90387c6124bead3e8e5e32bf36e34",
+      "file": "data/audit/source_texts/93627114edeb9020.txt",
+      "truncated": false
+    },
+    {
+      "key": "《东游记》",
+      "url": "https://zh.wikisource.org/wiki/%E6%9D%B1%E9%81%8A%E8%A8%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%9D%B1%E9%81%8A%E8%A8%98",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        56
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 757,
+      "bytes": 1685,
+      "sha256": "1b92f73d1709aae747836cd4923de161942aaf3f8a2fcaa2d5479346384fe78e",
+      "file": "data/audit/source_texts/26100510b09f38bb.txt",
+      "truncated": false
+    },
+    {
+      "key": "《五灯会元》",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%94%E7%87%88%E6%9C%83%E5%85%83",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E4%BA%94%E7%87%88%E6%9C%83%E5%85%83",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        20
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 122,
+      "bytes": 266,
+      "sha256": "8b0bb4a1570af285fac00fd5210a029f57bc2e0978c16ec12a56c74c32921556",
+      "file": "data/audit/source_texts/123cef55fc88612a.txt",
+      "truncated": false
+    },
+    {
+      "key": "《传习录》",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B3%E7%BF%92%E9%8C%84",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%82%B3%E7%BF%92%E9%8C%84",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        3,
+        3
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 84287,
+      "bytes": 245589,
+      "sha256": "9f1fd22c4b2a890acee3bd1c50a2af90c61492bfb2e5597c9da1e9ac5b66eac6",
+      "file": "data/audit/source_texts/bc96df41c2282ae0.txt",
+      "truncated": false
+    },
+    {
+      "key": "《伤寒论》",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 45748,
+      "bytes": 131116,
+      "sha256": "ab1aab4350db71930b4076fc6239c94acfff00db71ecb7b104607a17706d980a",
+      "file": "data/audit/source_texts/787bedb1b07cc0ef.txt",
+      "truncated": false
+    },
+    {
+      "key": "《元史》",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        211
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 5623,
+      "bytes": 14337,
+      "sha256": "7d200a066b2b620069408f7430cfcb07f35fb98214cf92fc9a5690b68029238f",
+      "file": "data/audit/source_texts/f69a94521e16a9b6.txt",
+      "truncated": false
+    },
+    {
+      "key": "《几何原本》",
+      "url": "https://zh.wikisource.org/wiki/%E5%B9%BE%E4%BD%95%E5%8E%9F%E6%9C%AC",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%B9%BE%E4%BD%95%E5%8E%9F%E6%9C%AC",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        23
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 180,
+      "bytes": 334,
+      "sha256": "ff0a32b09d7332bd420334ca96bad0d9c228b62cdc31140e714dc1c272acd5c9",
+      "file": "data/audit/source_texts/6599317f8600fe5f.txt",
+      "truncated": false
+    },
+    {
+      "key": "《南海寄归内法传》",
+      "url": "https://zh.wikisource.org/wiki/%E5%8D%97%E6%B5%B7%E5%AF%84%E6%AD%B8%E5%85%A7%E6%B3%95%E5%82%B3",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%8D%97%E6%B5%B7%E5%AF%84%E6%AD%B8%E5%85%A7%E6%B3%95%E5%82%B3",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "partial",
+      "subpages": [
+        1,
+        4
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 11810,
+      "bytes": 35032,
+      "sha256": "68fcaaa12c4eb7e8c7e470eda966ff43a357413802d354579e9f6b164884b33e",
+      "file": "data/audit/source_texts/3c2cd1f884eea30a.txt",
+      "truncated": false
+    },
+    {
+      "key": "《历代名画记》",
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%B7%E4%BB%A3%E5%90%8D%E7%95%AB%E8%A8%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%AD%B7%E4%BB%A3%E5%90%8D%E7%95%AB%E8%A8%98",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "partial",
+      "subpages": [
+        8,
+        10
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 39362,
+      "bytes": 113005,
+      "sha256": "a28625679f7012cef02d1e0acf3bf2fd3b592280b213dcd7cc7dfb89dca60ca2",
+      "file": "data/audit/source_texts/c48b0fd57dbf08c8.txt",
+      "truncated": false
+    },
+    {
+      "key": "《史记》",
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        131
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 3366,
+      "bytes": 9198,
+      "sha256": "046ee91903fb1c768f5efb3997993f837d688cc6ea294ab09e1caf52e6ed6487",
+      "file": "data/audit/source_texts/2368366edb13dba9.txt",
+      "truncated": false
+    },
+    {
+      "key": "《史记》多篇综合",
+      "url": "https://ctext.org/wiki.pl?if=gb&chapter=228642",
+      "url_fetched": "https://ctext.org/wiki.pl?if=gb&chapter=228642",
+      "source_type": "ctext",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 1477,
+      "bytes": 1477,
+      "sha256": "133bc32e9e3d1d57a7ff88f47625a568a445160327aacbf39b087eaaafe8a422",
+      "file": "data/audit/source_texts/77ea20d4c4bc0809.txt",
+      "truncated": false
+    },
+    {
+      "key": "《后汉书》",
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        131
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 2702,
+      "bytes": 7216,
+      "sha256": "82aaee388ae5e4ca50f5095df334e0bcaaa45852130da5b6b9e06d3f869983db",
+      "file": "data/audit/source_texts/529e56bbde0cc235.txt",
+      "truncated": false
+    },
+    {
+      "key": "《吴子》",
+      "url": "https://zh.wikisource.org/wiki/%E5%90%B3%E5%AD%90",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%90%B3%E5%AD%90",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 6090,
+      "bytes": 18028,
+      "sha256": "5d6c0c335c7c048f9224bb6b9b1ec1ab62ddaf483a8e1de62750f3f820912dda",
+      "file": "data/audit/source_texts/0d88904bfb9cc082.txt",
+      "truncated": false
+    },
+    {
+      "key": "《唐太宗李卫公问对》",
+      "url": "https://zh.wikisource.org/wiki/%E5%94%90%E6%9D%8E%E5%95%8F%E5%B0%8D",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%94%90%E6%9D%8E%E5%95%8F%E5%B0%8D",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        3,
+        3
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 13873,
+      "bytes": 40253,
+      "sha256": "c33268806181437f6c67b0258a672ab809dd4386dd5eb2c9fe4e6198f9e70913",
+      "file": "data/audit/source_texts/de24a7ed868af14b.txt",
+      "truncated": false
+    },
+    {
+      "key": "《唐朝名画录》",
+      "url": "https://zh.wikisource.org/wiki/%E5%94%90%E6%9C%9D%E5%90%8D%E7%95%AB%E9%8C%84",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%94%90%E6%9C%9D%E5%90%8D%E7%95%AB%E9%8C%84",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 7894,
+      "bytes": 23388,
+      "sha256": "ca1e55d9b0bb8096745889287ef9e3ec1f36a942e4fc2079ff95fb86952f7125",
+      "file": "data/audit/source_texts/f7aae4dd014ce4b5.txt",
+      "truncated": false
+    },
+    {
+      "key": "《商君书》",
+      "url": "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "partial",
+      "subpages": [
+        4,
+        5
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 18907,
+      "bytes": 56183,
+      "sha256": "a31cd22e1d16a82b383293ab661fc099c9c9477c60224b308267f6489eba3c7d",
+      "file": "data/audit/source_texts/efbce95c7d9c5422.txt",
+      "truncated": false
+    },
+    {
+      "key": "《国富论》",
+      "url": "https://zh.wikisource.org/wiki/%E5%8E%9F%E5%AF%8C",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%8E%9F%E5%AF%8C",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "partial",
+      "subpages": [
+        9,
+        10
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 12117,
+      "bytes": 35345,
+      "sha256": "cc6ab21b44300d7dc454062622396f2ea3a763b51d28eea5a8342ff1b2cd5dad",
+      "file": "data/audit/source_texts/728a3b4e84d48ebc.txt",
+      "truncated": false
+    },
+    {
+      "key": "《图画见闻志》",
+      "url": "https://zh.wikisource.org/wiki/%E5%9C%96%E7%95%AB%E8%A6%8B%E8%81%9E%E8%AA%8C",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%9C%96%E7%95%AB%E8%A6%8B%E8%81%9E%E8%AA%8C",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        6,
+        6
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 42129,
+      "bytes": 123398,
+      "sha256": "a27cb62161566622079dfb8a75a1f965d2593245221f2632124f8f793ebaa914",
+      "file": "data/audit/source_texts/dfb543627c586b9b.txt",
+      "truncated": false
+    },
+    {
+      "key": "《备急千金要方》",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%99%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%82%99%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        32
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 326,
+      "bytes": 761,
+      "sha256": "8a3bd902c1e355b21e8b75471c76a4b2c0e6c278511f93e73f239f17f626db00",
+      "file": "data/audit/source_texts/4059d6de85913153.txt",
+      "truncated": false
+    },
+    {
+      "key": "《大唐西域求法高僧传》",
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A7%E5%94%90%E8%A5%BF%E5%9F%9F%E6%B1%82%E6%B3%95%E9%AB%98%E5%83%A7%E5%82%B3",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%A4%A7%E5%94%90%E8%A5%BF%E5%9F%9F%E6%B1%82%E6%B3%95%E9%AB%98%E5%83%A7%E5%82%B3",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        2,
+        2
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 18824,
+      "bytes": 55808,
+      "sha256": "f1ceb3b261ad147fd96eda5ec139bb6c9542ff4b6a192abef3451b7b1378555a",
+      "file": "data/audit/source_texts/915c1e1437847eb5.txt",
+      "truncated": false
+    },
+    {
+      "key": "《大戴礼记》",
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A7%E6%88%B4%E7%A6%AE%E8%A8%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%A4%A7%E6%88%B4%E7%A6%AE%E8%A8%98",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        40
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 576,
+      "bytes": 1343,
+      "sha256": "7e6f87fb47d01042b20f5e885f595974c982ce43487b37365aae3d4f88c70101",
+      "file": "data/audit/source_texts/6da85cea9ce1000f.txt",
+      "truncated": false
+    },
+    {
+      "key": "《天工开物》",
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A9%E5%B7%A5%E9%96%8B%E7%89%A9",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%A4%A9%E5%B7%A5%E9%96%8B%E7%89%A9",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        157
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 867,
+      "bytes": 1663,
+      "sha256": "2da30037916fed473f0149640c6f43aaf0af55abd7bee0229e2f09ad2d115b1d",
+      "file": "data/audit/source_texts/3348b4035c7f74c3.txt",
+      "truncated": false
+    },
+    {
+      "key": "《天工开物》及相关论著",
+      "url": "https://ctext.org/wiki.pl?if=gb&chapter=285265",
+      "url_fetched": "https://ctext.org/wiki.pl?if=gb&chapter=285265",
+      "source_type": "ctext",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 1477,
+      "bytes": 1477,
+      "sha256": "133bc32e9e3d1d57a7ff88f47625a568a445160327aacbf39b087eaaafe8a422",
+      "file": "data/audit/source_texts/d5369d2ac7fe9bdb.txt",
+      "truncated": false
+    },
+    {
+      "key": "《嫦娥》",
+      "url": "https://zh.wikisource.org/wiki/%E5%B8%B8%E5%A8%A5",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%B8%B8%E5%A8%A5",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 274,
+      "bytes": 584,
+      "sha256": "de3baff50a55c805cfc21c8926f339c86faaf294a2fac645a753ceec91887388",
+      "file": "data/audit/source_texts/19802a108afe5465.txt",
+      "truncated": false
+    },
+    {
+      "key": "《孙子兵法》",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 10453,
+      "bytes": 30877,
+      "sha256": "f61308c5f83115415436c5daf8d59749b918b4bddf6808ad688ec841b612d198",
+      "file": "data/audit/source_texts/2a34af9248d5e865.txt",
+      "truncated": false
+    },
+    {
+      "key": "《宋史》",
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        497
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 20778,
+      "bytes": 56261,
+      "sha256": "0370349b2e7621427346074d94891df5311ef9a7bddbe5e03a350a7ea9b43706",
+      "file": "data/audit/source_texts/e2c87e7956b18c53.txt",
+      "truncated": false
+    },
+    {
+      "key": "《希波克拉底集·论人的本性》",
+      "url": "https://www.gutenberg.org/ebooks/author/62",
+      "url_fetched": "https://www.gutenberg.org/ebooks/author/62",
+      "source_type": "gutenberg",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 640,
+      "bytes": 648,
+      "sha256": "1d382599937ab3d06416a69a704f2e4adbefe342a7f650ac611065e3a7329ad3",
+      "file": "data/audit/source_texts/2a156b64b9be8143.txt",
+      "truncated": false
+    },
+    {
+      "key": "《庄子》",
+      "url": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        33
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 344,
+      "bytes": 736,
+      "sha256": "9f4f6e69bcb180a809703ba0c9fcdb5e2816e89e76ac0012159d6fc88b9433e8",
+      "file": "data/audit/source_texts/82d1c7239b8d0fcb.txt",
+      "truncated": false
+    },
+    {
+      "key": "《建国号诏》",
+      "url": "https://zh.wikisource.org/wiki/%E5%BB%BA%E5%9C%8B%E8%99%9F%E8%A9%94",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%BB%BA%E5%9C%8B%E8%99%9F%E8%A9%94",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 567,
+      "bytes": 1475,
+      "sha256": "b21fcffe2cf7c1825fafe7d4d9246ef6452abb69db96a12244d5ab07c1705531",
+      "file": "data/audit/source_texts/a4e897366649401d.txt",
+      "truncated": false
+    },
+    {
+      "key": "《张子语录》",
+      "url": "https://zh.wikisource.org/wiki/%E5%BC%B5%E5%AD%90%E8%AA%9E%E9%8C%84",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%BC%B5%E5%AD%90%E8%AA%9E%E9%8C%84",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        5,
+        5
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 14455,
+      "bytes": 42401,
+      "sha256": "2688f3a2762c57520c0d1991aefbdf69186774a51d70b4cb396cabed6c7e0715",
+      "file": "data/audit/source_texts/2fb70a7d62b8166e.txt",
+      "truncated": false
+    },
+    {
+      "key": "《徐霞客墓志铭》",
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%90%E9%9C%9E%E5%AE%A2%E5%A2%93%E5%BF%97%E9%93%AD",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%BE%90%E9%9C%9E%E5%AE%A2%E5%A2%93%E5%BF%97%E9%93%AD",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 4757,
+      "bytes": 14179,
+      "sha256": "a2c8c0d59667ce037d067c4a98d8dc2b10460c96a2704ff61cf6328fe2937a63",
+      "file": "data/audit/source_texts/24d20fe75dab6a64.txt",
+      "truncated": false
+    },
+    {
+      "key": "《徐霞客游记》",
+      "url": "https://zh.wikisource.org/wiki/%E5%BE%90%E9%9C%9E%E5%AE%A2%E9%81%8A%E8%A8%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%BE%90%E9%9C%9E%E5%AE%A2%E9%81%8A%E8%A8%98",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        52
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 396,
+      "bytes": 944,
+      "sha256": "486b4b342b46fd98eb163149e8bec7d79c4d94c17ddf5eba6ba57b6f1d4db365",
+      "file": "data/audit/source_texts/fe126e57e89bf3f9.txt",
+      "truncated": false
+    },
+    {
+      "key": "《惩毖录》",
+      "url": "https://zh.wikisource.org/wiki/%E6%87%B2%E6%AF%96%E9%8C%84",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%87%B2%E6%AF%96%E9%8C%84",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        18
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 173,
+      "bytes": 427,
+      "sha256": "91a3e686139ad37a22c5dc3f4a7a1b587019857e8e9b2c4a6813b6aa5d1bfa1a",
+      "file": "data/audit/source_texts/0516702d2bd3396d.txt",
+      "truncated": false
+    },
+    {
+      "key": "《报任安书》",
+      "url": "https://zh.wikisource.org/wiki/%E5%A0%B1%E4%BB%BB%E5%B0%91%E5%8D%BF%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%A0%B1%E4%BB%BB%E5%B0%91%E5%8D%BF%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 3112,
+      "bytes": 8666,
+      "sha256": "65f2cf1ce6ed321974aabfc9e1cef66925db4ef67bca82dbb7f4bfd240843fe2",
+      "file": "data/audit/source_texts/118d930e6735b4a6.txt",
+      "truncated": false
+    },
+    {
+      "key": "《文献通考》",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%87%E7%8D%BB%E9%80%9A%E8%80%83",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%96%87%E7%8D%BB%E9%80%9A%E8%80%83",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        349
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 10313,
+      "bytes": 27762,
+      "sha256": "979b468277e92ca65653e46244ba83c9ea1516795ce18f4a7b25d74c5b6a45bf",
+      "file": "data/audit/source_texts/39749f78f7d03d78.txt",
+      "truncated": false
+    },
+    {
+      "key": "《新乐府》",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E6%A8%82%E5%BA%9C",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%96%B0%E6%A8%82%E5%BA%9C",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 14693,
+      "bytes": 40741,
+      "sha256": "4d7055af6545441f23fc987f51dd11849f70339c95a6346af2cd07065511ff43",
+      "file": "data/audit/source_texts/e3bab9df211a5fe9.txt",
+      "truncated": false
+    },
+    {
+      "key": "《新唐书》",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        249
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 10034,
+      "bytes": 28137,
+      "sha256": "09ce3142b716de0153ba35678c1e9e355a108fe011e95980b4ca7d3fbf8f2fd8",
+      "file": "data/audit/source_texts/0cf6e7c1f69f73e0.txt",
+      "truncated": false
+    },
+    {
+      "key": "《新思潮的意义》",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E6%80%9D%E6%BD%AE%E7%9A%84%E6%84%8F%E7%BE%A9",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%96%B0%E6%80%9D%E6%BD%AE%E7%9A%84%E6%84%8F%E7%BE%A9",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 5076,
+      "bytes": 14984,
+      "sha256": "091a5460a6fad15d74553b4749086b063d4fa7ee498b77fdc483a010d97700c3",
+      "file": "data/audit/source_texts/c4134bc091d8da21.txt",
+      "truncated": false
+    },
+    {
+      "key": "《日喻》",
+      "url": "https://zh.wikisource.org/wiki/%E6%97%A5%E5%96%BB",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%97%A5%E5%96%BB",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 660,
+      "bytes": 1766,
+      "sha256": "6ca1235475ac15930baae41e11a9cbbb76acdd0b569f66a921c27b080c418e9a",
+      "file": "data/audit/source_texts/f29fd4cceecb0405.txt",
+      "truncated": false
+    },
+    {
+      "key": "《旧唐书》",
+      "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        215
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 7356,
+      "bytes": 19998,
+      "sha256": "aae55543bccefbc5aa5033a126466f90f51d1bd8fb84493c16f79d1247d63f3f",
+      "file": "data/audit/source_texts/e4c536eca86b778f.txt",
+      "truncated": false
+    },
+    {
+      "key": "《明儒学案》",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%84%92%E5%AD%B8%E6%A1%88",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%84%92%E5%AD%B8%E6%A1%88",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        76
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1685,
+      "bytes": 4139,
+      "sha256": "2334cb28b931362940d83a086486e909b7c8ad351a46eae5f7d282b6e3143234",
+      "file": "data/audit/source_texts/4a7dae94dde3ae3c.txt",
+      "truncated": false
+    },
+    {
+      "key": "《明史》",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        332
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 11073,
+      "bytes": 29074,
+      "sha256": "fbaee577a23bcf585a7535efe8d6d50825185d232aa68f4343c92357d0c62d23",
+      "file": "data/audit/source_texts/d08b95174746c414.txt",
+      "truncated": false
+    },
+    {
+      "key": "《易经》",
+      "url": "https://zh.wikisource.org/wiki/%E5%91%A8%E6%98%93",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%91%A8%E6%98%93",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        73
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 2082,
+      "bytes": 3641,
+      "sha256": "5937e5640c0c54d520c2c00b9e2a3ca211eb363c823df43206cd358bedeb9e28",
+      "file": "data/audit/source_texts/2946e25a6bc272b4.txt",
+      "truncated": false
+    },
+    {
+      "key": "《星槎胜览》",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%9F%E6%A7%8E%E5%8B%9D%E8%A6%BD",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%98%9F%E6%A7%8E%E5%8B%9D%E8%A6%BD",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "partial",
+      "subpages": [
+        4,
+        5
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 15438,
+      "bytes": 45026,
+      "sha256": "79f8f077c8a2ffe1dfcf06ac8ab735afd4ade1caab596bfa836b116804d70023",
+      "file": "data/audit/source_texts/560bc974b1993e8f.txt",
+      "truncated": false
+    },
+    {
+      "key": "《春望》",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 258,
+      "bytes": 554,
+      "sha256": "e53ab21fc65ef19b520081fe3a329902133f0e96eaff8c472fbb26664edc174a",
+      "file": "data/audit/source_texts/841c1502f3bc21b0.txt",
+      "truncated": false
+    },
+    {
+      "key": "《晋书》",
+      "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        130
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 4644,
+      "bytes": 12722,
+      "sha256": "43bf07414ee2949fc14607e1f938329c4ab1d7f71fd69cf17e846e39825162cf",
+      "file": "data/audit/source_texts/a35266de985d68b8.txt",
+      "truncated": false
+    },
+    {
+      "key": "《景德传灯录》",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B3%E7%87%88%E9%8C%84",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%82%B3%E7%87%88%E9%8C%84",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        31
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 216,
+      "bytes": 460,
+      "sha256": "94c779c1eaae35b6adcc4c2e881fa8981131214ef98f657743245cadc907b7dd",
+      "file": "data/audit/source_texts/7f61c9e19969fe5c.txt",
+      "truncated": false
+    },
+    {
+      "key": "《曾国藩家书》",
+      "url": "https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "partial",
+      "subpages": [
+        3,
+        4
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 57892,
+      "bytes": 170903,
+      "sha256": "64d59df015eecee49a41c18dd5c16814e98c39f273b8ea4e52660809da5e1156",
+      "file": "data/audit/source_texts/78edd6d86fcd1ab7.txt",
+      "truncated": false
+    },
+    {
+      "key": "《曾国藩日记》",
+      "url": "https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E6%97%A5%E8%A8%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E6%97%A5%E8%A8%98",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        3,
+        3
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 20063,
+      "bytes": 59091,
+      "sha256": "4bde37c831288d2892bd78d6800edfc1253482db090fae6ccee99337f6f75445",
+      "file": "data/audit/source_texts/324efc1b56c9a791.txt",
+      "truncated": false
+    },
+    {
+      "key": "《本草纲目》",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        65
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 5046,
+      "bytes": 14535,
+      "sha256": "aef496d8bbdc19a15e194616a0879a4388e5e9a8eec54a88e1f1f3c1051eac73",
+      "file": "data/audit/source_texts/3fc206d34e0d2124.txt",
+      "truncated": false
+    },
+    {
+      "key": "《朱子语类》",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%B1%E5%AD%90%E8%AA%9E%E9%A1%9E",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%9C%B1%E5%AD%90%E8%AA%9E%E9%A1%9E",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        140
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1504,
+      "bytes": 3586,
+      "sha256": "f74084f792f5e9173af368050f25d20e46d8dbe47a46ab08f547396c36ed2fb0",
+      "file": "data/audit/source_texts/d66b8b2ed95483e9.txt",
+      "truncated": false
+    },
+    {
+      "key": "《李忠武公全书》",
+      "url": "https://zh.wikisource.org/wiki/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        18
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 89,
+      "bytes": 175,
+      "sha256": "75b6833d091c27fe2c430310541c0776db0c3fa6f8891a248c0738d8e8a51917",
+      "file": "data/audit/source_texts/6212c3c32604feb2.txt",
+      "truncated": false
+    },
+    {
+      "key": "《梦溪笔谈》",
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        29
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 249,
+      "bytes": 615,
+      "sha256": "cad4f133aaa183d3ef91e6069ccab4631491d71df57eb540a8694b46d4ff8d15",
+      "file": "data/audit/source_texts/675a7e235e545e7f.txt",
+      "truncated": false
+    },
+    {
+      "key": "《正蒙》",
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        19
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 142,
+      "bytes": 342,
+      "sha256": "439a84588a6465b0a8ed6560f82fb00afa1c218d19446c3f269a4cb5de5dc436",
+      "file": "data/audit/source_texts/baaf98cb195683d2.txt",
+      "truncated": false
+    },
+    {
+      "key": "《武经总要》",
+      "url": "https://zh.wikisource.org/wiki/%E6%AD%A6%E7%B6%93%E7%B8%BD%E8%A6%81",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%AD%A6%E7%B6%93%E7%B8%BD%E8%A6%81",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        2,
+        2
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 2445,
+      "bytes": 6897,
+      "sha256": "6c06ec6e75eeab8b5c195b6929331995ede9d2dcb298244aca7e37e4f70d3cdd",
+      "file": "data/audit/source_texts/7c7b54ad8ecaa38b.txt",
+      "truncated": false
+    },
+    {
+      "key": "《汉书》",
+      "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        110
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 2251,
+      "bytes": 6283,
+      "sha256": "ba4366e9c1bc8cbef77ec45e33b7d62b2a48c115cd4913b3177e9f5947ca8244",
+      "file": "data/audit/source_texts/b9fe1487a4f874a3.txt",
+      "truncated": false
+    },
+    {
+      "key": "《注孙子序》",
+      "url": "https://zh.wikisource.org/wiki/%E6%B3%A8%E5%AD%AB%E5%AD%90%E5%BA%8F",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%B3%A8%E5%AD%AB%E5%AD%90%E5%BA%8F",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1465,
+      "bytes": 4369,
+      "sha256": "60b7d88eaedfe98807e88dde2dc90d329021e2a224b106536a587b0c643a9c32",
+      "file": "data/audit/source_texts/1f482eeb81df5eaf.txt",
+      "truncated": false
+    },
+    {
+      "key": "《测圆海镜》",
+      "url": "https://zh.wikisource.org/wiki/%E6%B8%AC%E5%9C%93%E6%B5%B7%E9%8F%A1",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%B8%AC%E5%9C%93%E6%B5%B7%E9%8F%A1",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        14
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 56,
+      "bytes": 114,
+      "sha256": "3403c3bb0aa91c9aadb623050500d6b9a1b7f716ff9b25da1c0fe0129476dc0f",
+      "file": "data/audit/source_texts/323a9ad74dbe895b.txt",
+      "truncated": false
+    },
+    {
+      "key": "《海岳名言》",
+      "url": "https://zh.wikisource.org/wiki/%E6%B5%B7%E5%B6%BD%E5%90%8D%E8%A8%80",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%B5%B7%E5%B6%BD%E5%90%8D%E8%A8%80",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1965,
+      "bytes": 5737,
+      "sha256": "309ed7de797936660a68a99da39e72d48fc39ac22d2808edbc116ba06db9a9bb",
+      "file": "data/audit/source_texts/bbb05008390e8358.txt",
+      "truncated": false
+    },
+    {
+      "key": "《海潮论》",
+      "url": "https://zh.wikisource.org/wiki/%E6%B5%B7%E6%BD%AE%E8%AB%96",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E6%B5%B7%E6%BD%AE%E8%AB%96",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 8667,
+      "bytes": 25575,
+      "sha256": "f8da2dbe38c68fd3ebceadfa458242b7ffc55c667ad1e046ad56ee292c6ad275",
+      "file": "data/audit/source_texts/f60afcd06cf2598d.txt",
+      "truncated": false
+    },
+    {
+      "key": "《瀛涯胜览》",
+      "url": "https://zh.wikisource.org/wiki/%E7%80%9B%E6%B6%AF%E5%8B%9D%E8%A6%BD",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%80%9B%E6%B6%AF%E5%8B%9D%E8%A6%BD",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 21409,
+      "bytes": 63494,
+      "sha256": "2735e6f8ea02d09fbe8c3f16fbf69adf718988b71802bf718916121390bd4253",
+      "file": "data/audit/source_texts/0307ceec9d0eaf22.txt",
+      "truncated": false
+    },
+    {
+      "key": "《焚书》",
+      "url": "https://zh.wikisource.org/wiki/%E7%84%9A%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%84%9A%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        7,
+        7
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 120000,
+      "bytes": 356582,
+      "sha256": "eb359d13cca318446e5fa7c6f3bfc2396c81dd0a01fa72995966085879f24149",
+      "file": "data/audit/source_texts/f41114413a607c98.txt",
+      "truncated": true
+    },
+    {
+      "key": "《焚书》《藏书》",
+      "url": "https://ctext.org/wiki.pl?if=gb&chapter=244105",
+      "url_fetched": "https://ctext.org/wiki.pl?if=gb&chapter=244105",
+      "source_type": "ctext",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 1477,
+      "bytes": 1477,
+      "sha256": "133bc32e9e3d1d57a7ff88f47625a568a445160327aacbf39b087eaaafe8a422",
+      "file": "data/audit/source_texts/3eff2920d93f8c06.txt",
+      "truncated": false
+    },
+    {
+      "key": "《牡丹亭》",
+      "url": "https://zh.wikisource.org/wiki/%E7%89%A1%E4%B8%B9%E4%BA%AD",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%89%A1%E4%B8%B9%E4%BA%AD",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        55
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 629,
+      "bytes": 1087,
+      "sha256": "568ea807cabe259457b63f97798fa48ad86e91ced875e65689467eccf4b16887",
+      "file": "data/audit/source_texts/1e849ec163e09718.txt",
+      "truncated": false
+    },
+    {
+      "key": "《独立宣言》",
+      "url": "https://zh.wikisource.org/wiki/%E7%BE%8E%E5%9B%BD%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%BE%8E%E5%9B%BD%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 4227,
+      "bytes": 12395,
+      "sha256": "65fffef9bbfba5b88cce363b2cc00b3bb8d0bb34186a967d34fe900b9ad635f4",
+      "file": "data/audit/source_texts/5e852ff06a2cd81a.txt",
+      "truncated": false
+    },
+    {
+      "key": "《猪肉颂》",
+      "url": "https://zh.wikisource.org/wiki/%E8%B1%AC%E8%82%89%E9%A0%8C",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%B1%AC%E8%82%89%E9%A0%8C",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 242,
+      "bytes": 530,
+      "sha256": "35a995f0203b128fe8790299de9aa2410314b1a26c7af2920b9fad5d13a50fcc",
+      "file": "data/audit/source_texts/a2454a68d194503f.txt",
+      "truncated": false
+    },
+    {
+      "key": "《登高》",
+      "url": "https://zh.wikisource.org/wiki/%E7%99%BB%E9%AB%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%99%BB%E9%AB%98",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 305,
+      "bytes": 662,
+      "sha256": "881af23ea7cb56c152ffa150bcd1d5c6faa3630f573b4ddfa976e3c80068788b",
+      "file": "data/audit/source_texts/afaa0758d2a9e6db.txt",
+      "truncated": false
+    },
+    {
+      "key": "《白氏长庆集序》",
+      "url": "https://zh.wikisource.org/wiki/%E7%99%BD%E6%B0%8F%E9%95%B7%E6%85%B6%E9%9B%86%E5%BA%8F",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%99%BD%E6%B0%8F%E9%95%B7%E6%85%B6%E9%9B%86%E5%BA%8F",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 808,
+      "bytes": 2368,
+      "sha256": "db33f224cf426ba81e32a76635933d0cd9498ef830148dffaac46ace7e39f7bb",
+      "file": "data/audit/source_texts/c90478aba0bdd01b.txt",
+      "truncated": false
+    },
+    {
+      "key": "《皇明祖训》",
+      "url": "https://zh.wikisource.org/wiki/%E7%9A%87%E6%98%8E%E7%A5%96%E8%A8%93",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%9A%87%E6%98%8E%E7%A5%96%E8%A8%93",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 13773,
+      "bytes": 38921,
+      "sha256": "f48cdbd4d19a86f94a3b2cb6c2a19d685ba1dfcc029974b5d0a44ac6951c526d",
+      "file": "data/audit/source_texts/35b0dc79f3265bc6.txt",
+      "truncated": false
+    },
+    {
+      "key": "《离骚》",
+      "url": "https://zh.wikisource.org/wiki/%E9%9B%A2%E9%A8%B7",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E9%9B%A2%E9%A8%B7",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 2232,
+      "bytes": 6183,
+      "sha256": "285edf9b687aee1284e297333e79256706ef21eb940745b850dd474277571166",
+      "file": "data/audit/source_texts/660a524e358f670e.txt",
+      "truncated": false
+    },
+    {
+      "key": "《秋兴八首》",
+      "url": "https://zh.wikisource.org/wiki/%E7%A7%8B%E8%88%88%E5%85%AB%E9%A6%96",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%A7%8B%E8%88%88%E5%85%AB%E9%A6%96",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 966,
+      "bytes": 2423,
+      "sha256": "3749dabd618d36c95f9ec753b4be2916b22c45f8ab4bf04dc27c891f091e6f68",
+      "file": "data/audit/source_texts/30a35873ed7800c5.txt",
+      "truncated": false
+    },
+    {
+      "key": "《窦娥冤》",
+      "url": "https://zh.wikisource.org/wiki/%E7%AB%87%E5%A8%A5%E5%86%A4",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%AB%87%E5%A8%A5%E5%86%A4",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 14406,
+      "bytes": 37321,
+      "sha256": "8c583b25571d72c6fe90d502b9d552ca12fe2e39af4588bc895a8249d4ac0e99",
+      "file": "data/audit/source_texts/20bdd0cbb8b6184a.txt",
+      "truncated": false
+    },
+    {
+      "key": "《经学理窟》",
+      "url": "https://zh.wikisource.org/wiki/%E7%B6%93%E5%AD%B8%E7%90%86%E7%AA%9F",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%B6%93%E5%AD%B8%E7%90%86%E7%AA%9F",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "partial",
+      "subpages": [
+        11,
+        12
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 21996,
+      "bytes": 64850,
+      "sha256": "73e62d00c3f4cdbbaadb83971059dd423325a45190d695998e4ccfb195cef02e",
+      "file": "data/audit/source_texts/96b5b15036b78cbc.txt",
+      "truncated": false
+    },
+    {
+      "key": "《罪言》",
+      "url": "https://zh.wikisource.org/wiki/%E7%BD%AA%E8%A8%80",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E7%BD%AA%E8%A8%80",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 562,
+      "bytes": 1486,
+      "sha256": "bfe0cfff0fb84bfe859ffd6ab3223ac34380e58993e622a8d23b76930535f46f",
+      "file": "data/audit/source_texts/042d8eafa4551af9.txt",
+      "truncated": false
+    },
+    {
+      "key": "《荀子》",
+      "url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        33
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 179,
+      "bytes": 427,
+      "sha256": "63ae00616ace571b66075278409cd6ed97d034f479973f1c3be3e1d9dc34c2b9",
+      "file": "data/audit/source_texts/8d5586a19a32b110.txt",
+      "truncated": false
+    },
+    {
+      "key": "《藏书》",
+      "url": "https://zh.wikisource.org/wiki/%E8%97%8F%E6%9B%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%97%8F%E6%9B%B8",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        136
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1886,
+      "bytes": 4818,
+      "sha256": "65a336332a6a1e9a26b410671ef67a3c9d1b1b1f35e2faf4c160031ca887f393",
+      "file": "data/audit/source_texts/ae5b63958aa4a58f.txt",
+      "truncated": false
+    },
+    {
+      "key": "《西游记》",
+      "url": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        101
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 2470,
+      "bytes": 6976,
+      "sha256": "b04cd622ffb45a8681cd9dfaf3287a73043a3b754d6b99a5e3e576ee2e206a08",
+      "file": "data/audit/source_texts/3ae77de62cdf6511.txt",
+      "truncated": false
+    },
+    {
+      "key": "《西铭》",
+      "url": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%8A%98",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%A5%BF%E9%8A%98",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 493,
+      "bytes": 1281,
+      "sha256": "8e09ad97b8433dfece2d44cda5797e3ba243c52946b0e0e7963f8c1687f76dd8",
+      "file": "data/audit/source_texts/c4881aca8032cca9.txt",
+      "truncated": false
+    },
+    {
+      "key": "《训民正音》",
+      "url": "https://zh.wikisource.org/wiki/%E8%A8%93%E6%B0%91%E6%AD%A3%E9%9F%B3",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%A8%93%E6%B0%91%E6%AD%A3%E9%9F%B3",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 6884,
+      "bytes": 19387,
+      "sha256": "42cb4b951a1f624f0d6eab77c45d87014254e24399bad24d02f65b702bbda5a3",
+      "file": "data/audit/source_texts/f5a94cb170945db8.txt",
+      "truncated": false
+    },
+    {
+      "key": "《论动体的电动力学》",
+      "url": "https://zh.wikisource.org/wiki/Translation%3A%E8%AB%96%E5%8B%95%E9%AB%94%E7%9A%84%E9%9B%BB%E5%8B%95%E5%8A%9B%E5%AD%B8",
+      "url_fetched": "https://zh.wikisource.org/wiki/Translation%3A%E8%AB%96%E5%8B%95%E9%AB%94%E7%9A%84%E9%9B%BB%E5%8B%95%E5%8A%9B%E5%AD%B8",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 7021,
+      "bytes": 16319,
+      "sha256": "6fd2d41d7d5354a170c5e435551b27bc104ba11471622749bee169f317c1969b",
+      "file": "data/audit/source_texts/4a0152a23f9630c6.txt",
+      "truncated": false
+    },
+    {
+      "key": "《论语》",
+      "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        23
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 223,
+      "bytes": 461,
+      "sha256": "36f6fa60e95d040fced24f2f8ae97d80fcfae5c8b2f1c335a451013e362c6b9d",
+      "file": "data/audit/source_texts/f47f086b90051a29.txt",
+      "truncated": false
+    },
+    {
+      "key": "《贞观政要》",
+      "url": "https://zh.wikisource.org/wiki/%E8%B2%9E%E8%A7%80%E6%94%BF%E8%A6%81",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%B2%9E%E8%A7%80%E6%94%BF%E8%A6%81",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        10,
+        10
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 89129,
+      "bytes": 264911,
+      "sha256": "29d70bd8caf77b8e93211ab68a2d55078f7dc976ad6192601295cf94a28dec2e",
+      "file": "data/audit/source_texts/edb8f06e7121007e.txt",
+      "truncated": false
+    },
+    {
+      "key": "《资治通鉴》",
+      "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        294
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 14922,
+      "bytes": 34478,
+      "sha256": "b6aa3d27730029b18427aeb5da409373bf7886bd0516bf88f7f2277b334c2bd2",
+      "file": "data/audit/source_texts/89a05e6c8b7fad57.txt",
+      "truncated": false
+    },
+    {
+      "key": "《郁离子》",
+      "url": "https://zh.wikisource.org/wiki/%E9%83%81%E9%9B%A2%E5%AD%90",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E9%83%81%E9%9B%A2%E5%AD%90",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        181
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1098,
+      "bytes": 2324,
+      "sha256": "3c96660b59c2e55ec7f5afd8d2e0f200c2a8dce985699b1f859c682dc9248f76",
+      "file": "data/audit/source_texts/976b6ebd905fe665.txt",
+      "truncated": false
+    },
+    {
+      "key": "《酬张少府》",
+      "url": "https://zh.wikisource.org/wiki/%E9%85%AC%E5%BC%B5%E5%B0%91%E5%BA%9C",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E9%85%AC%E5%BC%B5%E5%B0%91%E5%BA%9C",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 255,
+      "bytes": 540,
+      "sha256": "08a6e12f74b52eb3227cb8b4ef15efdd4c6f2fe82ca4637d5b21946a74a7b5ce",
+      "file": "data/audit/source_texts/4726ec1f4f6b163e.txt",
+      "truncated": false
+    },
+    {
+      "key": "《重阳立教十五论》",
+      "url": "https://zh.wikisource.org/wiki/%E9%87%8D%E9%99%BD%E7%AB%8B%E6%95%99%E5%8D%81%E4%BA%94%E8%AB%96",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E9%87%8D%E9%99%BD%E7%AB%8B%E6%95%99%E5%8D%81%E4%BA%94%E8%AB%96",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1867,
+      "bytes": 5433,
+      "sha256": "cb4ef174e7169e0dbdba5fa348696ae8dfa202d7faa3544645a09effb49537b7",
+      "file": "data/audit/source_texts/ba88d4ad74824918.txt",
+      "truncated": false
+    },
+    {
+      "key": "《锦瑟》",
+      "url": "https://zh.wikisource.org/wiki/%E9%8C%A6%E7%91%9F",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E9%8C%A6%E7%91%9F",
+      "source_type": "wikisource",
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html",
+      "chars": 279,
+      "bytes": 618,
+      "sha256": "2694e874dcfff508e691a3d83fce5d652ffb8a4aa340f8e3312c5108b7dd33bf",
+      "file": "data/audit/source_texts/ad9030b69ad379a0.txt",
+      "truncated": false
+    },
+    {
+      "key": "《韩非子》",
+      "url": "https://zh.wikisource.org/wiki/%E9%9F%93%E9%9D%9E%E5%AD%90",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E9%9F%93%E9%9D%9E%E5%AD%90",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        75
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 687,
+      "bytes": 1617,
+      "sha256": "f1244dad0bdcf07386c7762a4f5197940ed3ef4131697148bee27a6ab62ce480",
+      "file": "data/audit/source_texts/169bccbb005a4cad.txt",
+      "truncated": false
+    },
+    {
+      "key": "《齐民要术》",
+      "url": "https://zh.wikisource.org/wiki/%E9%BD%8A%E6%B0%91%E8%A6%81%E8%A1%93",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E9%BD%8A%E6%B0%91%E8%A6%81%E8%A1%93",
+      "source_type": "wikisource",
+      "status": "partial",
+      "coverage": "partial",
+      "subpages": [
+        0,
+        14
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 89,
+      "bytes": 191,
+      "sha256": "23f581d7a33052786567b15c58e392a661a0e444e5de6372a753f6217b152b8c",
+      "file": "data/audit/source_texts/6946c93fcdd5322d.txt",
+      "truncated": false
+    }
+  ]
+}

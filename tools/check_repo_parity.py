@@ -105,6 +105,11 @@ TOOL_FILES = (
     # build_source_links 是 data/source_links.json 的唯一生成器）
     "tools/source_link_index.py",
     "tools/build_source_links.py",
+    # Phase40-Z2 D4/D5 工具链（gate 的 import 闭包 + 缓存生成器 + 其负对照自测）
+    "tools/source_text_cache.py",
+    "tools/fetch_source_texts.py",
+    "tools/test_credibility_d45.py",
+    "tools/build_audit_findings.py",
     # 本机检脚本与它的负对照自测（随两仓同步；纳入以示自洽，不得单侧漂移）
     "tools/check_repo_parity.py",
     "tools/test_check_repo_parity.py",
