@@ -409,6 +409,26 @@ $ curl -s https://ovmobilegroup.github.io/protreptic/minds/KUB/ | grep -o '<a hr
 即：线上分片带 `source_refs` / `source_parts`，线上 HTML 的出处已是新窗口可点链接（`target="_blank" rel="noopener noreferrer"`），
 线上 `meta.json` 的四态计数与两级注入计数都自洽。
 
+### 9.4 报告自身的提交（收敛约定）
+
+本报告先随内容一起推送（`56cae91`，四绿见 9.2）；补 §9/§10 的追加提交是 `50a9e4f`（纯 `docs/`，不碰任何产物），
+其四绿回读如下：
+
+| 工作流 | run id | 结论 | started -> updated |
+|---|---|---|---|
+| Protreptic CI/CD | 35486492813 | success | 03:24:39 -> 03:32:46 |
+| Deploy to GitHub Pages | 35486492868 | success | 03:24:39 -> 03:34:59 |
+| CI（markdown-lint） | 35486492875 | success | 03:24:39 -> 03:24:53 |
+| Quality Gate | 35486948559 | success | 03:35:01 -> 03:36:42 |
+
+收敛约定：**文档改动不改变任何产物**，所以「让报告登记自己的最后一次提交」会无限自指 ——
+本节登记到 `50a9e4f` 为止；本次把它登记进来的追加提交是最后一次 `docs/` 提交，它自身的四绿
+用 9.2 里同一条命令回读（`gh` 不在本机，用的是 GitHub Actions REST API）：
+
+```
+curl -s "https://api.github.com/repos/ovmobilegroup/protreptic/actions/runs?per_page=5"   # 只看 head_sha 与 conclusion
+```
+
 ---
 
 ## 10. 边界与未做（不粉饰）
