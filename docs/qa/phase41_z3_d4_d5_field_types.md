@@ -42,7 +42,7 @@ tokens=0 的模式: 2376 / 2888 = 82.3%
 | `data/audit/findings.json` | **改**：156 条（D5_timeline_conflict 从 0 增到 1；D4_quote_mismatch 22 不变） |
 | `data/audit/verification_status.json` | **改**：四态口径更新（全库 suspect 39 -> 40） |
 | `data/modes_data.json` | **改**：`verification.status` 按既有规则推进（verified -> suspect 1 条：`M-NEW-007`） |
-| `docs/planning/credibility_framework.md` | **改**：第 1 节 D4/D5 行补第 41 期口径；第 10 节改为「修复后的真实覆盖 + 残留盲区」 |
+| `docs/planning/credibility_framework.md` | **改**：第 1 节 D4/D5 行补第 41 期口径；第 10 节改为「修复后的真实覆盖 + 残留盲区」；另修 **MD004**（第 10 节的无序列表标记从 `*` 统一为 `-`）——`markdown-lint` 自 2b1e66f（Phase39-Z1）起一直红（上两期未发现，本期用 GitHub API 拉 annotations 定位后一并转绿） |
 | `docs/qa/phase41_z3_d4_d5_field_types.md` | **新增**：本报告 |
 
 ## 2. 修复内容

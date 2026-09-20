@@ -376,16 +376,16 @@ gutenberg 的 `/ebooks/<id>` 换成 `/cache/epub/<id>/pg<id>.txt`；ctext 有 Cl
 注意：本节数字是 Phase40-Z2 当时的口径，字段类型盲区尚未修（`process_zh` / `representative_cases_zh` 这类 list 字段被整段跳过，82.3% 模式 tokens=0）。Phase41-Z3 修复后的复测数字见第 10.5 节。
 
 
-* 缓存：`source_links.json` 382 个 key 里有 169 个带 url，其中**原文类 96 个**（wikisource 87 / gutenberg 6 / ctext 3）；
+- 缓存：`source_links.json` 382 个 key 里有 169 个带 url，其中**原文类 96 个**（wikisource 87 / gutenberg 6 / ctext 3）；
   抓取结果 **ok 43 + ok-shared 2 / partial 38 / index-page 11 / fetch-failed 2**，文本 3.2 MB。
   **可用于 D4 判定的 key = 38 个**（`coverage ∈ {single-page, complete}`）。
-* D4 全库（2888 条模式）：`matched 1` / `mismatch 22` / `quote-too-short 69` / `unchecked 2796`。
+- D4 全库（2888 条模式）：`matched 1` / `mismatch 22` / `quote-too-short 69` / `unchecked 2796`。
   `unchecked` 理由分布：`no-fulltext-link 1585`、`no-citation 647`、`partial-coverage 409`、
   `no-quote 72`、`all-fragments-shorter-than-min(8) 69`、`script-mismatch 65`、`index-page 18`。
-* D5 全库：生卒年可用人物 **265 个**、可判定模式 **1132 条**、扫到年份 token **1252 个**；
+- D5 全库：生卒年可用人物 **265 个**、可判定模式 **1132 条**、扫到年份 token **1252 个**；
   `clean 512` / `undetermined 2376` / **`conflict 0`**；不可判定逐类：
   `out-of-window 67`、`field-not-claim 24`、`name-not-in-context 13`（其余为「人物无生卒年」1906 条与「文本无 4 位年份」）。
-* 产出接线：D4/D5 命中写入 `data/audit/findings.json`（defect = `D4_quote_mismatch` / `D5_timeline_conflict`），
+- 产出接线：D4/D5 命中写入 `data/audit/findings.json`（defect = `D4_quote_mismatch` / `D5_timeline_conflict`），
   经既有口径（warn → `suspect`）进 `tools/apply_verification_status.py`；本轮四态
   （全库 2868）：`verified 889 / pending 1589 / suspect 39 / unverifiable 351`，
   其中 D4/D5 带来的变更是 **verified → suspect 22 条**（公开口径 suspect 22）。
@@ -407,24 +407,24 @@ gutenberg 的 `/ebooks/<id>` 换成 `/cache/epub/<id>/pg<id>.txt`；ctext 有 Cl
 
 ### 10.4 局限（如实写，不夸大覆盖面）
 
-* **D4 可核面只有 38 个 key**（96 个原文类链接里 38 个覆盖完整）；`source_chapter` 里没有书名号引文（658 条）、
+- **D4 可核面只有 38 个 key**（96 个原文类链接里 38 个覆盖完整）；`source_chapter` 里没有书名号引文（658 条）、
   引文只有条目页/不可链接（1591 条）的模式**根本不可核**。因此 D4 的结论**只覆盖全库的一小块**，
   不能读成「其余 2866 条引文都对」。
-* `partial-coverage` 的 409 条模式要真正可核，需要抓全分卷（当前上限 12 卷/页）或引入章节级链接映射 —— 未做。
-* **繁简/异体字**：当前只做「检测不一致 → 不判不符」，**不做字形转换**；要真正核对繁简混合语料，
+- `partial-coverage` 的 409 条模式要真正可核，需要抓全分卷（当前上限 12 卷/页）或引入章节级链接映射 —— 未做。
+- **繁简/异体字**：当前只做「检测不一致 → 不判不符」，**不做字形转换**；要真正核对繁简混合语料，
   需要 opencc 级转换表（手搓不完整映射会把「未命中」变成假命中，故不做）。
-* **D5 只认 4 位年份（1000–2099）**：公元前（如孔子 551–479 BCE）与 3 位年份不参与判定，
+- **D5 只认 4 位年份（1000–2099）**：公元前（如孔子 551–479 BCE）与 3 位年份不参与判定，
   计入「不可判定」；`name-not-in-context` / `afterlife-marker` 等是**启发式**清单（写死在
   `credibility_gate.py` 的 `D5_EXCLUDE_*`），会漏真矛盾、也会放过真矛盾 —— 因此 D5 的产出是
   **候选复核清单**，不是终审判决。
-* D4/D5 都是 **WARN（不阻断）**：只在报告与审计清单里出现，不改变 CI 的通过与否（口径见第 4 节）。
-* **（Phase41-Z3 新增，2026-09-21）D5 的残余盲区**：一、**人物无生卒年占 61.0%**
+- D4/D5 都是 **WARN（不阻断）**：只在报告与审计清单里出现，不改变 CI 的通过与否（口径见第 4 节）。
+- **（Phase41-Z3 新增，2026-09-21）D5 的残余盲区**：一、**人物无生卒年占 61.0%**
   （1762 / 2888 条模式，`no-lifespan-for-figure` 一律不可判定），这是比字段类型更硬的盲区；
   二、**他人姓名的年份归属**：「牛顿未解决，Clairaut 1749 年以摄动级数解决」这类句子会被判矛盾
   （全库 1 条误报，已如实进 `suspect`）；三、`modern_applications_zh`（9 条含年份）/
   `application_zh`（2 条）**未纳入** `D5_CLAIM_FIELDS`；四、单字排除标记 `自` / `起` / `前后` /
   `之后` 过宽（当前全库零命中，属潜在假阴性）。详见第 10.5 节。
-* 负对照自测：`tools/test_credibility_d45.py`（Phase40-Z2 的 15 项 + Phase41-Z3 新增 10 项共 **25 项**：
+- 负对照自测：`tools/test_credibility_d45.py`（Phase40-Z2 的 15 项 + Phase41-Z3 新增 10 项共 **25 项**：
   矛盾必报 / 干净不误报 / 三条误报控制 / 无生卒年标不可判定 / 生卒年解析四形态 /
   **字段三态口径（list / str / None 等价，含嵌套与 bool）** / **list 载荷矛盾必报** /
   **str 载荷负对照等价** / **list 混合 None 不崩** / **全 None 不静默放过** / **缺 figure_name 名字回退** /
@@ -477,6 +477,8 @@ unverifiable 351`，公开口径 `suspect 23`（`apply_verification_status.py --
 3. 最硬的盲区仍未修：「人物无生卒年」（要补 `data/figures/*.json` 的生卒年）与「他人年份归属」
    （邻近归属法，未实现）；`modern_applications_zh` / `application_zh` 两个中文叙述字段也**未**纳入
    D5 扫描口径。
+
+**本节的 lint 收口**：第 10 节原本用 `*` 作无序列表标记，与文件既有 `-` 风格不一致，触发 MD004（`markdown-lint` 自 2b1e66f 起一直红），本期改为 `-` 后转绿。
 
 **证据**：`docs/qa/phase41_z3_d4_d5_field_types.md`（字段类型表 / 修复前后对照 / 1 条 conflict 与
 45 条候选逐条判读 / 负对照 25 项 / 复现命令）。自测：`python3 tools/test_credibility_d45.py`
