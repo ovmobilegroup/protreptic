@@ -19,6 +19,11 @@
     **只有本模块**把这两个数字变成文案。其它工具一律 import 它（或调它的 CLI）：
     不许自己 json.load(meta.json) 拼串，更不许在源码里写死数字。
 
+    Phase38-Y3 起，本模块同时是**可信度四态统计**（counts.verification）的唯一取数入口：
+        load_verification(data_dir)      -> {published{...}, all{...}, *_total, quarantined_total}
+        credibility_title_text / credibility_description_text -> 预渲染 head 的标题与描述
+    SPA 侧的同一组数字由 tools/gen_web_site_counts.py 注入 web/src/generated/siteCounts.ts。
+
 调用点（改口径只改这一个文件，下面这些地方自动跟着走）
     tools/apply_site_counts.py     首页 head 覆写 + manifest 收口 + 全量门面扫描（CI 步骤）
     （可选）任何新增表面：import site_counts 后用 description_text / og_description_text /
@@ -92,6 +97,101 @@ def load_counts(data_dir: Path) -> tuple:
         if not isinstance(counts.get(key), int):
             fail("%s 的 counts.%s 不是整数: %r" % (meta, key, counts.get(key)))
     return counts["mode_summaries_published"], counts["mode_by_figure_shards"]
+
+
+# ---------------------------------------------------------------- 可信度四态取数（Phase38-Y3）
+
+VERIFICATION_STATUSES = ("verified", "pending", "suspect", "unverifiable")
+
+# 唯一一份「四态统计」文案模板：预渲染 head（prerender_routes.py）从这里取，
+# SPA 侧的数字由 tools/gen_web_site_counts.py 从同一份 meta.json 注入 siteCounts.ts。
+# 措辞纪律（tools/apply_site_counts.py 的全量扫描）：这里**不许**出现「N 条思维模式」
+# 「N 位历史人物」两种门面短语，否则统计口径会混进门面口径。
+CREDIBILITY_TITLE_FMT = "可信度统计 - 已核验 %d / 待核验 %d / 存疑 %d / 一手材料 %d"
+CREDIBILITY_DESC_FMT = (
+    "发布口径 %d 条模式摘要的核验状态：已核验 %d、待核验 %d、存疑 %d、一手材料 %d"
+    "（源库另有 %d 条隔离记录不进公开产物）；数据取自 data/meta.json。"
+)
+
+
+def load_verification(data_dir: Path) -> dict:
+    """读 counts.verification —— 发布口径 / 源库口径 / 隔离数（缺键即 fail，不静默补 0）。"""
+    meta = Path(data_dir) / "meta.json"
+    if not meta.is_file():
+        fail("缺少 %s：先跑 python3 tools/export_static_site.py" % meta)
+    try:
+        counts = json.loads(meta.read_text(encoding="utf-8")).get("counts") or {}
+    except json.JSONDecodeError as exc:
+        fail("%s 不是合法 JSON：%s" % (meta, exc))
+    v = counts.get("verification")
+    if not isinstance(v, dict):
+        fail("%s 缺 counts.verification —— 先跑 python3 tools/apply_verification_status.py" % meta)
+    out = {}
+    for scope in ("published", "all"):
+        block = v.get(scope)
+        if not isinstance(block, dict):
+            fail("%s 的 counts.verification.%s 缺失或不是对象" % (meta, scope))
+        for st in VERIFICATION_STATUSES:
+            if not isinstance(block.get(st), int):
+                fail("%s 的 counts.verification.%s.%s 不是整数: %r" % (meta, scope, st, block.get(st)))
+        total = v.get("%s_total" % scope)
+        if not isinstance(total, int) or total != sum(block[st] for st in VERIFICATION_STATUSES):
+            fail("%s 的 counts.verification.%s_total=%r 与四态之和不符" % (meta, scope, total))
+        out[scope] = dict((st, block[st]) for st in VERIFICATION_STATUSES)
+        out["%s_total" % scope] = total
+    if not isinstance(v.get("quarantined_total"), int):
+        fail("%s 的 counts.verification.quarantined_total 不是整数" % meta)
+    out["quarantined_total"] = v["quarantined_total"]
+    # 源库规模（如实交代「发布口径 vs 源库口径」的差别用；住在 counts 顶层）
+    for key in ("mode_summaries", "modes_raw"):
+        out[key] = counts.get(key) if isinstance(counts.get(key), int) else None
+    return out
+
+
+CITATION_LINK_KEYS = ("modes_with_citations", "modes_with_link", "citations", "citations_linked",
+                     "citations_registered_unlinkable", "citations_unresolved",
+                     "segments", "segments_linked")
+
+
+def load_citation_links(data_dir: Path) -> dict:
+    """读 counts.citation_links —— 可点链接覆盖率（去重级 citations / 出现级 segments）。
+
+    只做读取与校验：缺键即 fail，缺失的键不补 0（补 0 等于把「没数」说成「覆盖率 0」）。
+    """
+    meta = Path(data_dir) / "meta.json"
+    if not meta.is_file():
+        fail("缺少 %s：先跑 python3 tools/export_static_site.py" % meta)
+    try:
+        counts = json.loads(meta.read_text(encoding="utf-8")).get("counts") or {}
+    except json.JSONDecodeError as exc:
+        fail("%s 不是合法 JSON：%s" % (meta, exc))
+    block = counts.get("citation_links")
+    if not isinstance(block, dict):
+        fail("%s 缺 counts.citation_links —— 先跑 python3 tools/export_static_site.py" % meta)
+    out = {}
+    for key in CITATION_LINK_KEYS:
+        if not isinstance(block.get(key), int):
+            fail("%s 的 counts.citation_links.%s 不是整数: %r" % (meta, key, block.get(key)))
+        out[key] = block[key]
+    # 求和自洽：分母类 >= 分子类（构建期已断言过，这里复核，防手改产物）
+    for num, den in (("citations_linked", "citations"),
+                     ("segments_linked", "segments"),
+                     ("modes_with_link", "modes_with_citations")):
+        if out[num] > out[den]:
+            fail("%s 的 counts.citation_links.%s=%d > %s=%d，分片统计不自洽"
+                 % (meta, num, out[num], den, out[den]))
+    return out
+
+
+def credibility_title_text(v: dict) -> str:
+    p = v["published"]
+    return CREDIBILITY_TITLE_FMT % (p["verified"], p["pending"], p["suspect"], p["unverifiable"])
+
+
+def credibility_description_text(v: dict) -> str:
+    p = v["published"]
+    return CREDIBILITY_DESC_FMT % (v["published_total"], p["verified"], p["pending"],
+                                   p["suspect"], p["unverifiable"], v["quarantined_total"])
 
 
 def description_text(modes: int, figures: int) -> str:
@@ -312,6 +412,14 @@ def main(argv=None) -> int:
         print("[counts] description          : %s" % description_text(modes, figures))
         print("[counts] og:description       : %s" % og_description_text(modes, figures))
         print("[counts] manifest description : %s" % manifest_description_text(modes, figures))
+        try:
+            v = load_verification(data_dir)
+        except SystemExit:
+            print("[counts] 可信度四态             : 缺 counts.verification（跑 tools/apply_verification_status.py 后重试）")
+        else:
+            print("[counts] 可信度四态             : 发布口径 %d（已核验 %d / 待核验 %d / 存疑 %d / 一手材料 %d），源库口径合计 %d"
+                  % (v["published_total"], v["published"]["verified"], v["published"]["pending"],
+                     v["published"]["suspect"], v["published"]["unverifiable"], v["all_total"]))
 
     if args.sync:
         for p, changed, old, new in sync_manifests(args.dist, args.public, modes, figures, args.dry_run):

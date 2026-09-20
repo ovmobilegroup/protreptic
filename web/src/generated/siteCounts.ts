@@ -20,6 +20,35 @@ export const SITE_COUNTS = {
   description: "2798 条思维模式 × 278 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。",
   /** og:description / 页脚文案 (与 site_counts.og_description_text 同值) */
   ogDescription: "2798 条思维模式 × 278 位历史人物 · 中英双语",
+  /**
+   * 可信度四态 (meta.json counts.verification) —— Phase38-Y3 统计页 /credibility 与卡片徽章
+   * CredibilityBadge.vue 的唯一取数入口. 别在任何组件里手写这四个数字.
+   *   published = 站上打得开的模式摘要口径 (counts.verification.published)
+   *   all       = 源库口径 (含隔离记录), 只用于如实交代两者差别, 不冒充发布数据
+   */
+  verification: {
+    published: { verified: 911, pending: 1547, suspect: 0, unverifiable: 340 },
+    publishedTotal: 2798,
+    all: { verified: 911, pending: 1579, suspect: 17, unverifiable: 351 },
+    allTotal: 2858,
+    quarantinedTotal: 60,
+    /** 源库去重后的模式记录数 (counts.mode_summaries); 抽查不到时为 null, 不编数字 */
+    sourceTotal: 2858,
+  },
+  /**
+   * 可点链接覆盖率 (meta.json counts.citation_links) —— 统计页照实公布, 不声称全链.
+   * citations* 是去重级 (同一本书只算一次), segments* 是出现级 (每条出处里的每个分段).
+   */
+  citationLinks: {
+    modesWithCitations: 2154,
+    modesWithLink: 911,
+    citations: 4005,
+    citationsLinked: 1147,
+    citationsRegisteredUnlinkable: 939,
+    citationsUnresolved: 1919,
+    segments: 4064,
+    segmentsLinked: 1165,
+  },
 } as const
 
 export type SiteCounts = typeof SITE_COUNTS

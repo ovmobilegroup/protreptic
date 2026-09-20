@@ -1,0 +1,104 @@
+{
+ "credibility_page": {
+  "url": "/protreptic/credibility/",
+  "legend": [
+   {
+    "status": "verified",
+    "mark": "✓",
+    "text": "✓已核验",
+    "tooltip": "可信度：已核验 —— 出处可达，且有可点链接\n核验方式: 未记录\n证据: 未记录\n核验时间: 未记录\n核验人: 未记录",
+    "outerHTML": "<span class=\"inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-[11px] font-medium leading-5 border-jade-400/45 bg-jade-400/10 text-jade-200\" data-credibility=\"verified\" data-credibility-mark=\"✓\" title=\"可信度：已核验 —— 出处可达，且有可点链接\n核验方式: 未记录\n证据: 未记录\n核验时间: 未记录\n核验人: 未记录\"><span aria-hidden=\"true\" class=\"font-mono\">✓</span><span>已核验</span></span>"
+   },
+   {
+    "status": "pending",
+    "mark": "○",
+    "text": "○待核验",
+    "tooltip": "可信度：待核验 —— 尚未核验（schema 缺省态）\n核验方式: 未记录\n证据: 未记录\n核验时间: 未记录\n核验人: 未记录",
+    "outerHTML": "<span class=\"inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-[11px] font-medium leading-5 border-white/15 bg-white/[.04] text-parchment/60\" data-credibility=\"pending\" data-credibility-mark=\"○\" title=\"可信度：待核验 —— 尚未核验（schema 缺省态）\n核验方式: 未记录\n证据: 未记录\n核验时间: 未记录\n核验人: 未记录\"><span aria-hidden=\"true\" class=\"font-mono\">○</span><span>待核验</span></span>"
+   },
+   {
+    "status": "suspect",
+    "mark": "⚠",
+    "text": "⚠存疑",
+    "tooltip": "可信度：存疑 —— 命中缺陷规则，待复核\n核验方式: 未记录\n证据: 未记录\n核验时间: 未记录\n核验人: 未记录",
+    "outerHTML": "<span class=\"inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-[11px] font-medium leading-5 border-amber-400/70 bg-amber-400/15 text-amber-200\" data-credibility=\"suspect\" data-credibility-mark=\"⚠\" title=\"可信度：存疑 —— 命中缺陷规则，待复核\n核验方式: 未记录\n证据: 未记录\n核验时间: 未记录\n核验人: 未记录\"><span aria-hidden=\"true\" class=\"font-mono\">⚠</span><span>存疑</span></span>"
+   },
+   {
+    "status": "unverifiable",
+    "mark": "—",
+    "text": "—一手材料",
+    "tooltip": "可信度：一手材料 —— 口述/信札等本质不可链接，诚实标注\n核验方式: 未记录\n证据: 未记录\n核验时间: 未记录\n核验人: 未记录",
+    "outerHTML": "<span class=\"inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-[11px] font-medium leading-5 border-white/15 bg-white/[.04] text-parchment/60\" data-credibility=\"unverifiable\" data-credibility-mark=\"—\" title=\"可信度：一手材料 —— 口述/信札等本质不可链接，诚实标注\n核验方式: 未记录\n证据: 未记录\n核验时间: 未记录\n核验人: 未记录\"><span aria-hidden=\"true\" class=\"font-mono\">—</span><span>一手材料</span></span>"
+   }
+  ],
+  "cards": [
+   {
+    "status": "verified",
+    "count": "911"
+   },
+   {
+    "status": "pending",
+    "count": "1547"
+   },
+   {
+    "status": "suspect",
+    "count": "0"
+   },
+   {
+    "status": "unverifiable",
+    "count": "340"
+   }
+  ]
+ },
+ "minds_Bach": {
+  "url": "/protreptic/daily/",
+  "title": "- 今日与历史归档 | Protreptic 思想典藏",
+  "badge_total": 1,
+  "counts_by_state": {
+   "pending": 1
+  },
+  "badges": [
+   {
+    "status": "pending",
+    "mark": "○",
+    "text": "○待核验",
+    "tooltip": "可信度：待核验 —— 尚未核验（schema 缺省态）\n核验方式: auto-scan\n证据: unresolved: 引文未在 source_links.json 建立链接源\n核验时间: 2026-09-20\n核验人: phase38-y2",
+    "outerHTML": "<span class=\"inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-[11px] font-medium leading-5 border-white/15 bg-white/[.04] text-parchment/60\" data-credibility=\"pending\" data-credibility-mark=\"○\" title=\"可信度：待核验 —— 尚未核验（schema 缺省态）\n核验方式: auto-scan\n证据: unresolved: 引文未在 source_links.json 建立链接源\n核验时间: 2026-09-20\n核验人: phase38-y2\"><span aria-hidden=\"true\" class=\"font-mono\">○</span><span>待核验</span></span>"
+   }
+  ]
+ },
+ "daily": {
+  "url": "/protreptic/daily/",
+  "title": "- 今日与历史归档 | Protreptic 思想典藏",
+  "badge_total": 1,
+  "counts_by_state": {
+   "pending": 1
+  },
+  "badges": [
+   {
+    "status": "pending",
+    "mark": "○",
+    "text": "○待核验",
+    "tooltip": "可信度：待核验 —— 尚未核验（schema 缺省态）\n核验方式: auto-scan\n证据: unresolved: 引文未在 source_links.json 建立链接源\n核验时间: 2026-09-20\n核验人: phase38-y2",
+    "outerHTML": "<span class=\"inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-[11px] font-medium leading-5 border-white/15 bg-white/[.04] text-parchment/60\" data-credibility=\"pending\" data-credibility-mark=\"○\" title=\"可信度：待核验 —— 尚未核验（schema 缺省态）\n核验方式: auto-scan\n证据: unresolved: 引文未在 source_links.json 建立链接源\n核验时间: 2026-09-20\n核验人: phase38-y2\"><span aria-hidden=\"true\" class=\"font-mono\">○</span><span>待核验</span></span>"
+   }
+  ]
+ },
+ "minds_KUB": {
+  "url": "/protreptic/daily/",
+  "title": "- 今日与历史归档 | Protreptic 思想典藏",
+  "badge_total": 1,
+  "counts_by_state": {
+   "pending": 1
+  },
+  "badges": [
+   {
+    "status": "pending",
+    "mark": "○",
+    "text": "○待核验",
+    "tooltip": "可信度：待核验 —— 尚未核验（schema 缺省态）\n核验方式: auto-scan\n证据: unresolved: 引文未在 source_links.json 建立链接源\n核验时间: 2026-09-20\n核验人: phase38-y2",
+    "outerHTML": "<span class=\"inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-2.5 py-0.5 text-[11px] font-medium leading-5 border-white/15 bg-white/[.04] text-parchment/60\" data-credibility=\"pending\" data-credibility-mark=\"○\" title=\"可信度：待核验 —— 尚未核验（schema 缺省态）\n核验方式: auto-scan\n证据: unresolved: 引文未在 source_links.json 建立链接源\n核验时间: 2026-09-20\n核验人: phase38-y2\"><span aria-hidden=\"true\" class=\"font-mono\">○</span><span>待核验</span></span>"
+   }
+  ]
+ }
+}

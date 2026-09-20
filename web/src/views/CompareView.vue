@@ -18,6 +18,7 @@ import { useI18n } from '../composables/useI18n'
 import { setSeo } from '../composables/useSeo'
 import { useCompare } from '../composables/useCompare'
 import SourceCitation from '../components/SourceCitation.vue'
+import CredibilityBadge from '../components/CredibilityBadge.vue'
 import {
   MAX_COMPARE_ITEMS,
   loadCompareItems,
@@ -363,6 +364,7 @@ onMounted(async () => {
                       <div class="mb-2 flex flex-wrap gap-1.5">
                         <span class="pt-chip-jade">{{ modeDomain(it.modes[i - 1]) }}</span>
                         <span v-if="it.modes[i - 1].category" class="pt-chip-mute">{{ it.modes[i - 1].category }}</span>
+                        <CredibilityBadge :verification="it.modes[i - 1].verification" />
                       </div>
                       <p class="mb-2 text-xs leading-relaxed text-parchment/65">{{ modeDefinition(it.modes[i - 1]) }}</p>
                       <ol v-if="modeSteps(it.modes[i - 1]).length" class="mb-2 space-y-1 text-xs text-parchment/55">
@@ -370,7 +372,7 @@ onMounted(async () => {
                           <span class="shrink-0 font-mono text-gold-400/60">{{ j + 1 }}.</span><span>{{ s }}</span>
                         </li>
                       </ol>
-                      <div class="text-xs text-parchment/45"><span>{{ t('出处', 'Source') }}：</span><SourceCitation v-if="it.modes[i - 1].source" :parts="it.modes[i - 1].sourceParts" :text="it.modes[i - 1].source" :verification="it.modes[i - 1].verification" /><span v-else>—</span></div>
+                      <div class="text-xs text-parchment/45"><span>{{ t('出处', 'Source') }}：</span><SourceCitation v-if="it.modes[i - 1].source" :parts="it.modes[i - 1].sourceParts" :text="it.modes[i - 1].source" /><span v-else>—</span></div>
                       <blockquote v-if="it.modes[i - 1].quote"
                                   class="mt-2 border-l-2 border-gold-500/40 pl-3 font-display text-xs leading-relaxed text-parchment/70">
                         {{ it.modes[i - 1].quote }}

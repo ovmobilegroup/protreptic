@@ -19,6 +19,7 @@ const links = computed(() => [
   { to: '/graph', zh: '关系图谱', en: 'Graph' },
   { to: '/compare', zh: '跨人物对比', en: 'Compare' },
   { to: '/templates', zh: '复盘模板', en: 'Templates' },
+  { to: '/credibility', zh: '可信度', en: 'Credibility' },
   { to: '/api', zh: 'API 文档', en: 'API' },
 ])
 
@@ -53,9 +54,10 @@ const isActive = (to: string) => route.path.startsWith(to)
             </span>
           </RouterLink>
 
-          <!-- 断点从 md 提到 lg: 加上「每日一模式」后 8 个链接在 768px 会撑出 26px 横向滚动
-               (实测)。lg 以下改用下面那排可横向滚动的入口, 所有链接在任何宽度都可达。 -->
-          <div class="hidden items-center gap-1 lg:flex">
+          <!-- 断点从 md 提到 lg、Phase38-Y3 再加「可信度」后再提到 xl: 每加一个入口，
+               窄一档就会撑出横向滚动(实测 md 时 8 个链接差 26px)。xl 以下改用下面那排
+               可横向滚动的入口, 所有链接在任何宽度都可达。 -->
+          <div class="hidden items-center gap-1 xl:flex">
             <RouterLink
               v-for="l in links" :key="l.to" :to="l.to"
               class="relative rounded-lg px-3.5 py-2 text-sm font-medium transition-colors duration-300"
@@ -89,8 +91,8 @@ const isActive = (to: string) => route.path.startsWith(to)
           </div>
         </div>
 
-        <!-- 窄屏导航 (lg 以下) -->
-        <div class="flex gap-1 overflow-x-auto pb-2 lg:hidden">
+        <!-- 窄屏导航 (xl 以下，与上面那排的断点严格互补) -->
+        <div class="flex gap-1 overflow-x-auto pb-2 xl:hidden">
           <RouterLink
             v-for="l in links" :key="l.to" :to="l.to"
             class="whitespace-nowrap rounded-lg px-3 py-1.5 text-xs font-medium transition-colors"
@@ -126,7 +128,16 @@ const isActive = (to: string) => route.path.startsWith(to)
           <p class="text-xs text-parchment/40">
             Protreptic · {{ SITE_COUNTS.ogDescription }}
           </p>
+          <RouterLink to="/credibility" class="text-xs text-parchment/45 transition-colors hover:text-gold-300">
+            {{ t(`已核验 ${SITE_COUNTS.verification.published.verified} · 待核验 ${SITE_COUNTS.verification.published.pending} · 存疑 ${SITE_COUNTS.verification.published.suspect} · 一手材料 ${SITE_COUNTS.verification.published.unverifiable}`,
+                 `Verified ${SITE_COUNTS.verification.published.verified} · Pending ${SITE_COUNTS.verification.published.pending} · Suspect ${SITE_COUNTS.verification.published.suspect} · Primary ${SITE_COUNTS.verification.published.unverifiable}`) }}
+          </RouterLink>
           <div class="mt-2 flex items-center gap-3 text-xs text-parchment/45">
+            <RouterLink to="/credibility"
+                        class="rounded-lg px-3 py-1.5 transition-colors hover:bg-white/5 hover:text-gold-300">
+              {{ t('可信度统计', 'Credibility') }}
+            </RouterLink>
+            <span class="text-parchment/20">·</span>
             <a href="https://github.com/ovmobilegroup/protreptic" target="_blank" rel="noopener"
                class="rounded-lg px-3 py-1.5 transition-colors hover:bg-white/5 hover:text-gold-300">GitHub</a>
             <span class="text-parchment/20">·</span>

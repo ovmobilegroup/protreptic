@@ -11,6 +11,7 @@ import GraphView from '../views/GraphView'
 import ConceptsView from '../views/ConceptsView.vue'
 import CompareView from '../views/CompareView.vue'
 import DailyView from '../views/DailyView.vue'
+import CredibilityView from '../views/CredibilityView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -96,6 +97,18 @@ const routes: RouteRecordRaw[] = [
     meta: {
       title: '复盘模板',
       description: '历史经典案例复盘模板：把历史决策现场转成可直接套用的复盘清单。',
+    },
+  },
+  {
+    // Phase38-Y3: 可信度统计页。四态数字来自 meta.json（构建期注入 siteCounts.ts），
+    // 页面照实公布已核验/待核验/存疑/一手材料，空态也如实显示。
+    path: '/credibility',
+    name: 'credibility',
+    component: CredibilityView,
+    meta: {
+      title: '可信度统计 - 四态如实公布',
+      description: '每条模式的核验状态如实公布：已核验、待核验、存疑、一手材料，数字取自部署产物 data/meta.json。',
+      seoKind: 'static',
     },
   },
   {

@@ -1,0 +1,67 @@
+CREDIBILITY
+Statistics
+Credibility
+
+This page publishes, as it stands, the verification status of every mode: verified, pending, suspect and primary source. Flagging doubts beats pretending everything is clean.
+
+Published scope: 2798 mode summaries (the ones reachable on the site). Source scope: 2858, of which 60 quarantined records never enter public output and are excluded from the four states below.
+
+✓
+Verified
+32.6%
+911
+
+Source reachable, with a clickable link resolved at build time
+
+○
+Pending
+55.3%
+1547
+
+Not yet checked (schema default)
+
+⚠
+Suspect
+0.0%
+0
+
+Matched a defect rule, pending review — flagged, never smoothed over
+
+—
+Primary source
+12.2%
+340
+
+Not linkable by nature (oral accounts, letters) — labelled, never faked
+
+Public "suspect" currently equals 0 — that is a measurement, not an omission: the source scope holds 17 more suspect records, all inside quarantined figures, excluded from public output.
+
+Clickable-link coverage
+
+Distinct citations with a genuinely reachable link: 1147 / 4005 (28.6%); citation segments: 1165 / 4064; modes with at least one clickable source: 911 / 2154.
+
+Coverage is far from 100%: sources without a resolved link stay plain text — better unclickable than faked.
+
+How the four states are decided
+✓
+Verified
+Source reachable + link resolved at build time
+○
+Pending
+Not yet checked — the schema default
+⚠
+Suspect
+Matched one of the D1–D5 defect rules, pending review
+—
+Primary source
+Oral accounts, letters, archives — not linkable by nature
+
+Rules and dispositions: docs/planning/credibility_framework.md §1 and §3 in the repository.
+
+Where the numbers come from
+Single source: counts.verification in the deployed data/meta.json. data/meta.json
+The SPA numbers are injected before the build by tools/gen_web_site_counts.py (this page hardcodes nothing and fetches no second copy).
+The prerendered head computes them from the same meta.json; any divergence fails the build.
+NOT DONE YET (LISTED HONESTLY)
+D4 verbatim quote matching and D5 timeline checks still lack inputs and are not wired into the pipeline — so "verified" claims a reachable source, not a verbatim-checked quote.
+Link sources are partial: most cited titles still have no link source — see the coverage above.

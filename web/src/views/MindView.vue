@@ -6,6 +6,7 @@ import { fetchFigureModes } from '../api/static'
 import { buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
 import SimilarModeList from '../components/SimilarModeList.vue'
 import SourceCitation from '../components/SourceCitation.vue'
+import CredibilityBadge from '../components/CredibilityBadge.vue'
 import { useCompare } from '../composables/useCompare'
 import { MAX_COMPARE_ITEMS } from '../api/compareData'
 
@@ -140,6 +141,7 @@ onMounted(load)
                     @click="addToCompare(m.code)">
               {{ t('加入对比', 'Compare') }}
             </button>
+            <CredibilityBadge :verification="m.verification" />
             <span v-if="m.domain" class="pt-chip-jade ml-auto">{{ m.domain }}</span>
           </div>
 
@@ -161,7 +163,7 @@ onMounted(load)
           <div class="mt-5 grid gap-4 sm:grid-cols-2">
             <div v-if="m.source" class="rounded-xl border border-white/10 bg-white/[.02] p-4">
               <div class="mb-1 text-xs uppercase tracking-wider text-parchment/40">{{ t('出处', 'Source') }}</div>
-              <div class="flex flex-wrap items-baseline text-sm text-parchment/70"><SourceCitation :parts="m.sourceParts" :text="m.source" :verification="m.verification" /></div>
+              <div class="flex flex-wrap items-baseline text-sm text-parchment/70"><SourceCitation :parts="m.sourceParts" :text="m.source" /></div>
             </div>
             <div v-if="m.quote" class="rounded-xl border border-gold-500/20 bg-gold-500/[.05] p-4">
               <div class="mb-1 text-xs uppercase tracking-wider text-gold-300/70">{{ t('原话', 'Quote') }}</div>

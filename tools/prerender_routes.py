@@ -22,8 +22,12 @@
     清空容器, 因此不会出现两份正文并存, 也不需要 SSR / hydrate 那一套.
 
 产物:
-    web/dist/<route>/index.html            795 个路由目录, 默认
+    web/dist/<route>/index.html            路由目录, 默认
     docs/architecture/web_p0_routes.json   路由清单, 供 sitemap 生成器消费
+
+Phase38-Y3: 静态入口新增 credibility (可信度统计页), 其标题/描述里的四态数字取自
+    dist/data/meta.json 的 counts.verification (tools/site_counts.py::load_verification),
+    与 SPA 侧 web/src/generated/siteCounts.ts 同源, 不写死.
 
 用法:
     python3 tools/prerender_routes.py
@@ -47,6 +51,11 @@ REPO = Path(__file__).resolve().parent.parent
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from prerender_body import check_bodies, collect_bodies, inject_body, plain_text  # noqa: E402
+from site_counts import (  # noqa: E402
+    credibility_description_text,
+    credibility_title_text,
+    load_verification,
+)
 DEFAULT_BASE = "/protreptic/"
 SITE_ORIGIN = "https://ovmobilegroup.github.io"
 SITE_NAME = "Protreptic 思想典藏"
@@ -54,7 +63,7 @@ SITE_NAME = "Protreptic 思想典藏"
 TEMPLATE_IDS = ["longzhong", "baidi", "chibi", "beifa", "jieting", "yiling", "changban"]
 
 
-def static_routes(meta_counts: dict, unified_counts: dict) -> list:
+def static_routes(meta_counts: dict, unified_counts: dict, verification: dict) -> list:
     """静态入口页的 title / description —— 计数一律从产物派生, 不写死。
 
     写死过的教训: /modes 的 title 一直写着「2858 条」(/figures 那句写着「501 个现代场景」),
@@ -75,6 +84,9 @@ def static_routes(meta_counts: dict, unified_counts: dict) -> list:
         ("graph", "关系图谱 - 人物-模式-概念", "人物-模式-概念关系图谱: 本地力导向布局, 数据来自预计算图谱分片."),
         ("compare", "跨人物对比 - 思维模式并排对照", "选 2-4 位历史人物或思维模式, 并排对照定义, 步骤, 出处与领域分布; 地址栏带选中项, 可直接分享."),
         ("api", "API 文档", "Protreptic 静态数据与 API 说明."),
+        # Phase38-Y3: 可信度统计页. 标题与描述里的四态数字由 meta.json counts.verification
+        # 现算 (tools/site_counts.py 是唯一取数入口), 不写死; 与 SPA 侧 siteCounts.ts 同源.
+        ("credibility", credibility_title_text(verification), credibility_description_text(verification)),
     ]
 
 TITLE_RE = re.compile(r"<title>.*?</title>", re.S)
@@ -120,10 +132,11 @@ def build_routes(dist: Path, base: str):
 
     unified = json.loads(unified_path.read_text(encoding="utf-8"))
     meta_counts = (json.loads(meta_path.read_text(encoding="utf-8")).get("counts") or {})
+    verification = load_verification(meta_path.parent)  # 缺 counts.verification 直接非 0 退出
     items = unified["items"]
     routes = []
 
-    for slug, title, desc in static_routes(meta_counts, unified.get("counts") or {}):
+    for slug, title, desc in static_routes(meta_counts, unified.get("counts") or {}, verification):
         routes.append({"path": slug, "title": title, "description": desc, "type": "static"})
 
     for item in items:

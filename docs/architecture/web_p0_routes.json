@@ -2,10 +2,10 @@
  "schema": "protreptic.prerendered_routes/v1",
  "generated_by": "tools/prerender_routes.py",
  "base": "/protreptic/",
- "count": 1348,
- "total_html_bytes": 19705419,
+ "count": 1349,
+ "total_html_bytes": 19710853,
  "counts_by_type": {
-  "static": 8,
+  "static": 9,
   "person": 278,
   "scenario": 1055,
   "template": 7
@@ -330,6 +330,15 @@
    "body": false,
    "body_text_chars": 0,
    "canonical": "https://ovmobilegroup.github.io/protreptic/concepts/"
+  },
+  {
+   "path": "credibility",
+   "title": "可信度统计 - 已核验 911 / 待核验 1547 / 存疑 0 / 一手材料 340",
+   "description": "发布口径 2798 条模式摘要的核验状态：已核验 911、待核验 1547、存疑 0、一手材料 340（源库另有 60 条隔离记录不进公开产物）；数据取自 data/meta.json。",
+   "type": "static",
+   "body": false,
+   "body_text_chars": 0,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/credibility/"
   },
   {
    "path": "daily",
