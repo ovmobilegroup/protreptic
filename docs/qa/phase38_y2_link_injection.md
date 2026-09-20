@@ -47,11 +47,27 @@ D4 命中 17 条、D5 = 0 条（findings.json 里 D5 是 `N/A - no figures_db.js
 
 ```
 $ python3 tools/export_static_site.py
-  [出处] 注入可点引用: 2154 条模式带引文, 911 条有至少 1 个可点链接; 引文 4005 条
-         (linked 1165 / registered-unlinkable 961 / unresolved 1938)
+  [出处] 注入可点引用: 2154 条模式带引文, 911 条有至少 1 个可点链接
+         去重级引文 4005 条 (linked 1147 / registered-unlinkable 939 / unresolved 1919); 出现级书名号段 4064 段 (linked 1165)
 ```
 
-（口径：公开产物 = 2798 条模式，已剔除 60 条隔离人物的模式）
+**计数分两个层级，键名里写死，不许混着说**（这就是本卡自己先踩过的坑：第一版日志把「去重级总数 4005」
+和「出现级 linked 1165」印在同一行，加起来对不上，已改成两级各自成句）：
+
+* **去重级** `citations_*`：一条模式内同一条引文出现多次只算 1 条 —— 与 `source_link_index.py --coverage`
+  的 `extract_refs` 同口径，也是 Y1 覆盖率报告的口径；`1147 + 939 + 1919 = 4005`（三态求和自洽，导出里是硬断言）；
+* **出现级** `segments_*`：出处文本里每个书名号跨度算 1 段 —— 渲染层真正处理的粒度（同一本书在同一条出处里
+  被引两次 = 2 段 / 1 条引文）；`1165 + 2899 = 4064`。
+
+与 Y1 覆盖率报告的对账（`tools/source_link_index.py --coverage` 原样复跑，逐字一致）：
+
+| 口径 | 去重级引文 | 去重级 linked | 出现级书名号段 | 出现级 linked |
+|---|---|---|---|---|
+| 全库 2868（Y1 覆盖率口径） | 4016 | 1147 | 4075 | 1165 |
+| 公开 2798（本卡产物口径） | 4005 | 1147 | 4064 | 1165 |
+
+差 11 条引文全部在隔离人物（60 条模式）里，且它们都不是可点链接，所以 linked 两级都不变 —— 三份数字（Y1 报告、
+`--coverage`、本卡产物）因此可以逐条对上，不是「各说各话」。
 
 ---
 
@@ -161,14 +177,16 @@ $ python3 tools/export_static_site.py
       "unverifiable": 340}, "published_total": 2798, "all": {"verified": 911, "pending": 1579,
       "suspect": 17, "unverifiable": 351}, "all_total": 2858, "quarantined_total": 60},
       "citation_links": {"modes_with_citations": 2154, "modes_with_link": 911, "citations": 4005,
-      "linked": 1165, "registered_unlinkable": 961, "unresolved": 1938}}
+      "citations_linked": 1147, "citations_registered_unlinkable": 939, "citations_unresolved": 1919,
+      "segments": 4064, "segments_linked": 1165}}
 ```
 
-自洽关系（三条，逐条可复算）：
+自洽关系（四条，逐条可复算）：
 
 1. 公开口径求和 `911 + 1547 + 0 + 340 = 2798` = `counts.mode_summaries_published`（= `modes/index-*.json` 合计）；
 2. 源库口径求和 `911 + 1579 + 17 + 351 = 2858` = `counts.mode_summaries`（去重口径；另有 10 条空 `mode_code` 在导出时丢弃）；
-3. `all_total - published_total = 60` = `counts.modes_quarantined`。
+3. `all_total - published_total = 60` = `counts.modes_quarantined`；
+4. `citation_links` 两级各自自洽：`1147 + 939 + 1919 = 4005`（去重级），`segments_linked 1165 <= segments 4064`（出现级）。
 
 公开口径与「数据准备工具」口径的差异也是明的：本文件第 3 节的「公开 2808」是**源库按 figure_code 非隔离**算的
 （含 10 条空 code 记录），导出的「2798」是**去掉空 code 之后真正写进分片**的条数，两者相差 10，可逐条对上。

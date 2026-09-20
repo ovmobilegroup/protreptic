@@ -219,15 +219,22 @@ def inject_citation_links(modes: list, index: dict) -> dict:
     """构建期把 source_chapter 里的书名/事件匹配到 source_links.json, 写进站点数据.
 
     产物 (只在模式对象上加两个新字段, 不改任何既有字段):
-      source_refs   每条引文的机读匹配结果 [citation, key, url, status, match_rule]
-      source_parts  出处文本的分段: 纯文本段 {text} + 可点段 {text, url, key}
+      source_refs   每条**引文**的机读匹配结果 [citation, key, url, status, match_rule] (去重级)
+      source_parts  出处文本的分段: 纯文本段 {text} + 可点段 {text, url, key} (出现级 / 渲染用)
     铁律 (承接 credibility_framework.md 第 2 节): 匹配不到就不给 url, **不伪造**;
     未解析的引文原样留在纯文本段里, 前端渲染成纯文本.
     自洽: 分段文本拼回去必须与 source_chapter 逐字相等, 不等就 exit 1 (不静默降级).
+    计数口径要说清 (两个层级, 别混):
+      citations_*  = **去重级**: 一条模式内同一引文出现多次只算 1 条 (与 source_link_index
+                     --coverage 的 extract_refs 同口径, 也是 Y1 覆盖率报告的口径);
+      segments_*   = **出现级**: 出处文本里每个书名号跨度都算 1 段 (渲染层真实处理的对象).
+                    同一本书在同一段出处里被引两次 -> 2 段 / 1 条引文.
     """
     stats = {"modes_with_citations": 0, "modes_with_link": 0, "parts": 0,
-             "citations": 0, "linked": 0, "unverifiable": 0, "unresolved": 0,
-             "added_raw_bytes": 0}
+             "citations": 0, "citations_linked": 0,
+             "citations_registered_unlinkable": 0, "citations_unresolved": 0,
+             "segments": 0, "segments_linked": 0, "segments_registered_unlinkable": 0,
+             "segments_unresolved": 0}
     for m in modes:
         text = source_text(m.get("source_chapter"))
         if not text:
@@ -238,6 +245,13 @@ def inject_citation_links(modes: list, index: dict) -> dict:
         by_citation = {}
         for r in refs:
             by_citation.setdefault(r["citation"], r)
+            stats["citations"] += 1
+            if r["status"] == "linked":
+                stats["citations_linked"] += 1
+            elif r["status"] == "unresolved":
+                stats["citations_unresolved"] += 1
+            else:
+                stats["citations_registered_unlinkable"] += 1
         parts = []
         pos = 0
         for match in CITATION_RE.finditer(text):
@@ -248,16 +262,16 @@ def inject_citation_links(modes: list, index: dict) -> dict:
             if match.start() > pos:
                 parts.append({"text": text[pos:match.start()]})
             seg = {"text": match.group(0)}
+            stats["segments"] += 1
             if res["status"] == "linked":
                 seg["url"] = res["url"]
                 seg["key"] = res["key"]
-                stats["linked"] += 1
+                stats["segments_linked"] += 1
             elif res["status"] == "unresolved":
-                stats["unresolved"] += 1
+                stats["segments_unresolved"] += 1
             else:
-                stats["unverifiable"] += 1
+                stats["segments_registered_unlinkable"] += 1
             parts.append(seg)
-            stats["parts"] += 1
             pos = match.end()
         if pos < len(text):
             parts.append({"text": text[pos:]})
@@ -268,9 +282,17 @@ def inject_citation_links(modes: list, index: dict) -> dict:
         m["source_refs"] = compact_refs
         m["source_parts"] = parts
         stats["modes_with_citations"] += 1
-        stats["citations"] += len(compact_refs)
         if any(r["status"] == "linked" for r in refs):
             stats["modes_with_link"] += 1
+    # 自洽: 两个层级各自四态求和必须等于各自总数
+    if stats["citations"] != (stats["citations_linked"]
+                              + stats["citations_registered_unlinkable"]
+                              + stats["citations_unresolved"]):
+        raise SystemExit("去重级计数不自洽: %s" % stats)
+    if stats["segments"] != (stats["segments_linked"]
+                             + stats["segments_registered_unlinkable"]
+                             + stats["segments_unresolved"]):
+        raise SystemExit("出现级计数不自洽: %s" % stats)
     return stats
 
 
@@ -492,9 +514,11 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     link_index = load_index(LINKS_PATH)
     link_stats = inject_citation_links(public_modes, link_index)
     log(f"  [出处] 注入可点引用: {link_stats['modes_with_citations']} 条模式带引文, "
-        f"{link_stats['modes_with_link']} 条有至少 1 个可点链接; 引文 {link_stats['citations']} 条 "
-        f"(linked {link_stats['linked']} / registered-unlinkable {link_stats['unverifiable']} / "
-        f"unresolved {link_stats['unresolved']})")
+        f"{link_stats['modes_with_link']} 条有至少 1 个可点链接")
+    log(f"         去重级引文 {link_stats['citations']} 条 (linked {link_stats['citations_linked']} / "
+        f"registered-unlinkable {link_stats['citations_registered_unlinkable']} / "
+        f"unresolved {link_stats['citations_unresolved']}); "
+        f"出现级书名号段 {link_stats['segments']} 段 (linked {link_stats['segments_linked']})")
     src_counts = {"published": verification_counts(public_modes), "all": verification_counts(modes)}
 
     figures = load_figures(DB_PATH)
@@ -638,14 +662,18 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
             "all_total": src_counts["all"]["total"],
             "quarantined_total": src_counts["all"]["total"] - src_counts["published"]["total"],
         },
-        # 出处 -> 可点引用 的注入统计 (条数口径, 供前端/QA 复核; 事实源仍是每个模式的 source_refs)
+        # 出处 -> 可点引用 的注入统计 (事实源仍是每个模式的 source_refs / source_parts).
+        # 两个层级都写在键名里: citations_* 去重级 (与 source_link_index --coverage 同口径),
+        # segments_* 出现级 (渲染层真实处理的书名号跨度数).
         "citation_links": {
             "modes_with_citations": link_stats["modes_with_citations"],
             "modes_with_link": link_stats["modes_with_link"],
             "citations": link_stats["citations"],
-            "linked": link_stats["linked"],
-            "registered_unlinkable": link_stats["unverifiable"],
-            "unresolved": link_stats["unresolved"],
+            "citations_linked": link_stats["citations_linked"],
+            "citations_registered_unlinkable": link_stats["citations_registered_unlinkable"],
+            "citations_unresolved": link_stats["citations_unresolved"],
+            "segments": link_stats["segments"],
+            "segments_linked": link_stats["segments_linked"],
         },
     }
 
