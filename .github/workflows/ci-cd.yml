@@ -63,6 +63,15 @@ jobs:
       - name: findings 自检 · 两档八项（含计数过期只警告）
         run: python3 tools/test_verify_findings_modes.py
 
+      # ---- Phase39-Z1：两仓一致性机检的双向单侧负对照自测（铁律：机检规则必须有负对照）----
+      # 十九项：只在工作仓（未跟踪 / 已跟踪）/ 只在发布仓 / 内容不同 / 排除口径不回退 /
+      # 边界多一步 exit 2 / 排除撞构建图必报；并断言旧口径 --tracked-only 对同一未跟踪文件 exit 0
+      # （即船长发现在构建图内造单侧文件却零差异的那个盲区，确实出在「只看索引」）；另含自比守卫（workspace == publish -> exit 2）与「自测脚本本身也在 TOOL_FILES」两项。
+      # 机检本体 tools/check_repo_parity.py 需要两个仓同时在场，CI 里跑不了（它在本机/worker 上跑），
+      # 本步守护它的「有牙」语义。口径见 docs/planning/credibility_framework.md §9.4.1。
+      - name: 两仓一致性机检 · 双向单侧负对照自测（19 项）
+        run: python3 tools/test_check_repo_parity.py
+
       - name: Install Python dependencies
         run: |
           cd api

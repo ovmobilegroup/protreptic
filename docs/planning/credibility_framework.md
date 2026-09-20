@@ -300,12 +300,43 @@ python3 tools/check_repo_parity.py --list     # 打印纳入/排除清单（含�
 退出码：0 = 零差异；1 = 有差异；2 = 边界过期 / 环境不满足
 ```
 
-- 用 `git ls-files` 枚举**跟踪文件**（未跟踪的构建产物天然不进集合；新增文件先 `git add` 才进机检
-  —— 故意不看未跟踪文件，避免把并行卡未提交的工作算成漂移）；
+- 文件集 = **索引（已跟踪）∪ 未跟踪且未被 `.gitignore`**（Phase39-Z1 起，理由见 §9.4.1）；
 - 逐文件 sha256：缺一侧 → `MISSING_IN_WORKSPACE` / `MISSING_IN_PUBLISH`；内容不同 → `CONTENT_DIFF`；
+  每条差异都带**侧别 + 理由分类**（未跟踪 / 已跟踪 / 工作树缺失 / 内容不同），
+  「并行卡未提交的在制工作」与「真漂移」一眼可分；
+- **排除项不静默吞掉**：报告按「排除规则 × 侧别」列出条数与理由（含只在单侧的条数），
+  另有硬自检 —— 任何被排除的路径若撞上纳入清单或 `pages.yml` 触发器 → `exit 2`；
 - **边界自检**：每次运行现场解析 `pages.yml` 的构建步骤与 `paths` 触发器，若有新增而未被本清单覆盖
   → `exit 2`「边界过期」——边界跟着 workflow 走，不许静默漂移（实测：往假发布仓的 workflow 里加一个
   `python3 tools/fake_new_step.py` 步骤，脚本立刻 exit 2 并点名该步骤）。
+
+#### 9.4.1 盲区与修复（Phase39-Z1）
+
+船长独立核验（2026-09-20）在构建图内造了一个**只在工作仓**的文件 `docs/qa/__parity_probe__.md`，
+旧脚本仍输出 `[OK] 零差异：1325 个构建图文件两仓逐字节一致`、`exit 0` —— 未报警。真实事故同型：
+`docs/qa/phase38_acceptance.md` 曾只在开发仓、发布仓缺失（phase35/36/37 的报告都在发布仓）。
+
+根因：旧口径只枚举 `git ls-files`（**索引里的已跟踪文件**）。探针与事故文件当时都还是**未跟踪**状态，
+根本没进集合，所以「缺一侧」的判定分支形同虚设。同处另有两个小盲区：索引里有但工作树已被删除的文件
+（两侧都记 `None` → 被跳过）、符号链接（两侧都记 `None` → 被跳过）。
+第四个同族假 OK 路径：本脚本随两仓同步，在发布仓里直接跑（不传 `--workspace`）时默认 workspace
+= 脚本所在仓 = publish，两侧同一目录 → 单侧检测恒为 0、输出假 OK；现加硬守卫，撞上直接 `exit 2`。
+
+修复（Phase39-Z1）：
+1. 文件集改为 **索引 ∪ 未跟踪且未被 `.gitignore`**，并区分 `tracked` / `untracked`；
+2. 符号链接按「链接→目标」取指纹；索引里有而工作树缺失记 `absent`，单列一条理由；
+3. 报告新增 `[stats] 两仓都有 N 条（逐字节一致 M）｜仅单侧 K 条` 与「排除规则 × 侧别」表；
+4. `--tracked-only` 保留旧口径（诊断用），`--json` 增 `counts.both_sides / only_workspace /
+   only_publish`、`untracked_in_boundary`、`excluded_sides`、`excluded_by_rule`。
+5. 自比守卫：`workspace == publish`（realpath 比较）→ `exit 2`，不留「自比恒零差异」的假 OK；
+6. `tools/test_check_repo_parity.py` 本身也纳入 TOOL_FILES（机检脚本与它的自测不得单侧漂移）。
+
+负对照自测（铁律「任何机检规则都要有负对照测试」）：`tools/test_check_repo_parity.py`，19 项，
+用两个临时 git 仓现场复现「只在工作仓（未跟踪 / 已跟踪）」「只在发布仓」「内容不同」
+「排除口径不回退」「边界多一步 → exit 2」「排除撞构建图 → 必须报」，并断言旧口径 `--tracked-only`
+对同一未跟踪文件 `exit 0` —— 自比守卫（`workspace == publish` → `exit 2`）与「自测脚本本身也在 TOOL_FILES 内」各一项；即盲区确实是「只看索引」造成的。已接进发布仓 `ci-cd.yml` 的 test job。
+
+实测证据（命令 + 原始输出）：`docs/qa/phase39_z1_parity_bidirectional.md`。
 
 ### 9.5 同步纪律
 
