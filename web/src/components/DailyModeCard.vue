@@ -10,6 +10,7 @@
 import { computed, ref, watch } from 'vue'
 import { useI18n } from '../composables/useI18n'
 import { fetchFigureModes } from '../api/static'
+import SourceCitation from './SourceCitation.vue'
 import { weekdayLabel, type DailyNameRow, type DailyPick } from '../api/dailyMode'
 import { useCompare } from '../composables/useCompare'
 import { MAX_COMPARE_ITEMS } from '../api/compareData'
@@ -78,6 +79,13 @@ const steps = computed(() => {
 })
 
 const source = computed(() => String(mode.value?.source_chapter || ''))
+
+// Phase38-Y2：构建期注入的出处分段 + 核验状态（分片没有这两个字段时退回纯文本，行为与注入前一致）
+const sourceParts = computed<unknown[]>(() => {
+  const raw = mode.value?.source_parts
+  return Array.isArray(raw) ? raw : []
+})
+const verification = computed(() => mode.value?.verification ?? null)
 
 const quote = computed(() => {
   const m = mode.value
@@ -167,7 +175,7 @@ watch(() => props.pick.modeCode, load, { immediate: true })
 
         <blockquote v-if="source || quote"
                     class="mt-4 border-l-2 border-gold-500/40 pl-4 text-[13px] leading-relaxed text-parchment/60">
-          <p v-if="source" class="mb-1"><span class="text-gold-300/80">{{ t('出处', 'Source') }}</span> · {{ source }}</p>
+          <p v-if="source" class="mb-1"><span class="text-gold-300/80">{{ t('出处', 'Source') }}</span> · <SourceCitation :parts="sourceParts" :text="source" :verification="verification" /></p>
           <p v-if="quote" class="text-jade-200/80">「{{ quote }}」</p>
         </blockquote>
 

@@ -17,6 +17,7 @@ import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from '../composables/useI18n'
 import { setSeo } from '../composables/useSeo'
 import { useCompare } from '../composables/useCompare'
+import SourceCitation from '../components/SourceCitation.vue'
 import {
   MAX_COMPARE_ITEMS,
   loadCompareItems,
@@ -369,7 +370,7 @@ onMounted(async () => {
                           <span class="shrink-0 font-mono text-gold-400/60">{{ j + 1 }}.</span><span>{{ s }}</span>
                         </li>
                       </ol>
-                      <div class="text-xs text-parchment/45">{{ t('出处', 'Source') }}：{{ it.modes[i - 1].source || '—' }}</div>
+                      <div class="text-xs text-parchment/45"><span>{{ t('出处', 'Source') }}：</span><SourceCitation v-if="it.modes[i - 1].source" :parts="it.modes[i - 1].sourceParts" :text="it.modes[i - 1].source" :verification="it.modes[i - 1].verification" /><span v-else>—</span></div>
                       <blockquote v-if="it.modes[i - 1].quote"
                                   class="mt-2 border-l-2 border-gold-500/40 pl-3 font-display text-xs leading-relaxed text-parchment/70">
                         {{ it.modes[i - 1].quote }}

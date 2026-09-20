@@ -234,6 +234,53 @@ def render_template(tid: str, md_text: str) -> str:
     return head % (esc(tid.upper()), esc(title), md_to_html(body))
 
 
+def _link_attr(url: str) -> str:
+    """属性位转义（esc() 用 quote=False，URL 里的 & 必须自己转）。"""
+    return html.escape(str(url or ""), quote=True)
+
+
+def source_html(mode: dict) -> str:
+    """出处 -> HTML：有 source_parts（构建期注入）就按段渲染，可点段给 <a>，其余保持纯文本。
+
+    没有 source_parts（旧分片 / 未注入）就退回 esc(source_chapter)，行为与注入前逐字节一致。
+    铁律：只有构建期真的解析到链接的段才有 url；本函数不猜、不补、不伪造。
+    """
+    segs = mode.get("source_parts")
+    if isinstance(segs, list) and segs:
+        out = []
+        for seg in segs:
+            if not isinstance(seg, dict):
+                continue
+            text = esc(seg.get("text") or "")
+            url = str(seg.get("url") or "").strip()
+            if url:
+                out.append('<a href="%s" target="_blank" rel="noopener noreferrer" '
+                           'class="text-gold-300/90 underline decoration-gold-500/40 '
+                           'underline-offset-2 hover:text-gold-200">%s</a>'
+                           % (_link_attr(url), text))
+            else:
+                out.append(text)
+        joined = "".join(out)
+        if joined.strip():
+            return joined
+    return esc(pick(mode.get("source_chapter")))
+
+
+def verification_badge(mode: dict) -> str:
+    """可信度徽章（credibility_framework.md 第 3 节）。四态各自一句话，缺字段就不显示。"""
+    v = mode.get("verification")
+    status = v.get("status") if isinstance(v, dict) else None
+    if status == "verified":
+        return ' <span class="pt-chip-jade">已核验</span>'
+    if status == "suspect":
+        return ' <span class="pt-chip-mute">存疑</span>'
+    if status == "unverifiable":
+        return ' <span class="pt-chip-mute">一手材料</span>'
+    if status == "pending":
+        return ' <span class="pt-chip-mute">待核验</span>'
+    return ""
+
+
 def _mode_block(idx: int, mode: dict) -> list:
     parts = ["<article class=\"pt-panel p-7\">"]
     parts.append("<div class=\"mb-4 flex flex-wrap items-center gap-2\">")
@@ -265,7 +312,8 @@ def _mode_block(idx: int, mode: dict) -> list:
         parts.append("</div>")
     source = pick(mode.get("source_chapter"))
     if source:
-        parts.append("<p class=\"mt-4 text-sm text-parchment/55\">出处：%s</p>" % esc(source))
+        parts.append("<p class=\"mt-4 text-sm text-parchment/55\">出处：%s%s</p>"
+                     % (source_html(mode), verification_badge(mode)))
     quote = pick(mode.get("key_quote_zh"))
     if quote:
         parts.append("<p class=\"mt-2 text-sm text-gold-200/90\">原话：%s</p>" % esc(quote))

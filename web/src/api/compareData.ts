@@ -21,6 +21,13 @@ export const MAX_COMPARE_ITEMS = 4
 
 export type CompareKind = 'figure' | 'mode'
 
+/** 出处分段（构建期注入的 source_parts 元素）：可点段有 url，其余保持纯文本 */
+export interface CompareSourcePart {
+  text: string
+  url?: string
+  key?: string
+}
+
 export interface CompareMode {
   code: string
   name: string
@@ -33,6 +40,10 @@ export interface CompareMode {
   stepsZh: string[]
   stepsEn: string[]
   source: string
+  /** 出处分段；空数组 = 分片里没有 source_parts（退回纯文本 source），不伪造链接 */
+  sourceParts: CompareSourcePart[]
+  /** 可信度状态（verified / pending / suspect / unverifiable）；空串 = 分片里没有 verification */
+  verification: string
   quote: string
   concepts: string[]
 }
@@ -192,6 +203,13 @@ const toCompareMode = (m: Record<string, unknown>): CompareMode => ({
   stepsZh: list(m.process_zh),
   stepsEn: list(m.process_en),
   source: text(m.source_chapter),
+  sourceParts: Array.isArray(m.source_parts)
+    ? (m.source_parts as unknown[]).filter((s): s is CompareSourcePart =>
+      !!s && typeof s === 'object' && typeof (s as CompareSourcePart).text === 'string')
+    : [],
+  verification: (m.verification && typeof m.verification === 'object')
+    ? text((m.verification as Record<string, unknown>).status)
+    : '',
   quote: text(m.key_quote_zh) || text(m.key_quote_en),
   concepts: list(m.key_concepts),
 })

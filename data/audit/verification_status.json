@@ -1,0 +1,59 @@
+{
+  "schema": "protreptic.verification_status/v1",
+  "generated_by": "tools/apply_verification_status.py",
+  "generated_at": "2026-09-20",
+  "checked_at": "2026-09-20",
+  "checker": "phase38-y2",
+  "rules": {
+    "S1": "suspect      : mode_code 命中 findings.json 的 D4/D5（引文不符 / 时间线矛盾）",
+    "S2": "verified     : 出处至少一条引文解析到可达链接（url 非空） -> method=link-resolved, evidence=url",
+    "S3": "unverifiable : 出处有引文且全部命中『已登记不可链接』（url 为空：口述/信札等一手材料）",
+    "S4": "pending      : 其余（无书名号引文 / 引文全部 unresolved）"
+  },
+  "precedence": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "inputs": {
+    "data/modes_data.json": {
+      "sha256": "9e08650499c56aef99237fae82d03f8c55e2e7fde282cb2b5a0ea52d428d86a5",
+      "modes": 2868,
+      "note": "sha256 为报告生成时刻的盘上文件（--write 走盘后回填）",
+      "bytes": 22814954
+    },
+    "data/source_links.json": {
+      "sha256": "bfce3a5b222134a0e1564320a32b039e1a3076fa3d9a3ab6da6fe6fc6d5bb2d3",
+      "keys": 382,
+      "links_with_url": 169,
+      "distinct_urls": 164
+    },
+    "data/audit/findings.json": {
+      "sha256": "726be6f4171d08ed253bed1170d056090cd2108471a4e08793b649e50c68abd6",
+      "d4_d5_modes": 17
+    }
+  },
+  "counts": {
+    "all": {
+      "verified": 911,
+      "pending": 1589,
+      "suspect": 17,
+      "unverifiable": 351
+    },
+    "all_total": 2868,
+    "published": {
+      "verified": 911,
+      "pending": 1557,
+      "suspect": 0,
+      "unverifiable": 340
+    },
+    "published_total": 2808,
+    "quarantined_total": 60
+  },
+  "cross_checks": {
+    "suspect_and_linked_overlap": 0,
+    "verified_distinct_evidence_urls": 146
+  },
+  "changes_vs_library": {}
+}

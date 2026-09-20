@@ -5,6 +5,7 @@ import { useI18n } from '../composables/useI18n'
 import { fetchFigureModes } from '../api/static'
 import { buildJsonLd, setSeo, truncateSeo } from '../composables/useSeo'
 import SimilarModeList from '../components/SimilarModeList.vue'
+import SourceCitation from '../components/SourceCitation.vue'
 import { useCompare } from '../composables/useCompare'
 import { MAX_COMPARE_ITEMS } from '../api/compareData'
 
@@ -65,6 +66,9 @@ const modes = computed(() =>
     process: (locale.value === 'zh' ? m.process_zh : (m.process_en || m.process_zh)) || [],
     concepts: Array.isArray(m.key_concepts) ? m.key_concepts : [],
     source: m.source_chapter || '',
+    // Phase38-Y2：构建期注入的出处分段与核验状态（缺字段时退回上面的纯文本）
+    sourceParts: Array.isArray(m.source_parts) ? m.source_parts : [],
+    verification: m.verification || null,
     quote: locale.value === 'zh' ? (m.key_quote_zh || '') : (m.key_quote_en || m.key_quote_zh || ''),
     cases: (locale.value === 'zh' ? m.representative_cases_zh : (m.representative_cases_en || m.representative_cases_zh)) || [],
     apps: (locale.value === 'zh' ? m.modern_applications_zh : (m.modern_applications_en || m.modern_applications_zh)) || [],
@@ -157,7 +161,7 @@ onMounted(load)
           <div class="mt-5 grid gap-4 sm:grid-cols-2">
             <div v-if="m.source" class="rounded-xl border border-white/10 bg-white/[.02] p-4">
               <div class="mb-1 text-xs uppercase tracking-wider text-parchment/40">{{ t('出处', 'Source') }}</div>
-              <div class="text-sm text-parchment/70">{{ m.source }}</div>
+              <div class="flex flex-wrap items-baseline text-sm text-parchment/70"><SourceCitation :parts="m.sourceParts" :text="m.source" :verification="m.verification" /></div>
             </div>
             <div v-if="m.quote" class="rounded-xl border border-gold-500/20 bg-gold-500/[.05] p-4">
               <div class="mb-1 text-xs uppercase tracking-wider text-gold-300/70">{{ t('原话', 'Quote') }}</div>

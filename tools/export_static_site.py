@@ -57,6 +57,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _quarantine import QUARANTINE, drop_quarantined_modes, is_quarantined  # noqa: E402
+from source_link_index import load_index, resolve_source_chapter  # noqa: E402
 
 # ---------------------------------------------------------------- 常量
 
@@ -198,6 +199,96 @@ def normalize_domain_fields(modes):
         m["domain_zh"] = zh
         m["domain_en"] = en
     return changed
+
+
+LINKS_PATH = REPO_ROOT / "data" / "source_links.json"
+CITATION_RE = re.compile(r"《([^》]{1,60})》")
+VERIFICATION_STATUSES = ("verified", "pending", "suspect", "unverifiable")
+
+
+def source_text(value) -> str:
+    """source_chapter 少数条目是 list (实测 30 条): 拼成文本, 与 source_link_index 同口径."""
+    if isinstance(value, list):
+        return " ".join(str(x) for x in value)
+    if value is None:
+        return ""
+    return str(value)
+
+
+def inject_citation_links(modes: list, index: dict) -> dict:
+    """构建期把 source_chapter 里的书名/事件匹配到 source_links.json, 写进站点数据.
+
+    产物 (只在模式对象上加两个新字段, 不改任何既有字段):
+      source_refs   每条引文的机读匹配结果 [citation, key, url, status, match_rule]
+      source_parts  出处文本的分段: 纯文本段 {text} + 可点段 {text, url, key}
+    铁律 (承接 credibility_framework.md 第 2 节): 匹配不到就不给 url, **不伪造**;
+    未解析的引文原样留在纯文本段里, 前端渲染成纯文本.
+    自洽: 分段文本拼回去必须与 source_chapter 逐字相等, 不等就 exit 1 (不静默降级).
+    """
+    stats = {"modes_with_citations": 0, "modes_with_link": 0, "parts": 0,
+             "citations": 0, "linked": 0, "unverifiable": 0, "unresolved": 0,
+             "added_raw_bytes": 0}
+    for m in modes:
+        text = source_text(m.get("source_chapter"))
+        if not text:
+            continue
+        refs = resolve_source_chapter(m.get("source_chapter"), index)
+        if not refs:
+            continue
+        by_citation = {}
+        for r in refs:
+            by_citation.setdefault(r["citation"], r)
+        parts = []
+        pos = 0
+        for match in CITATION_RE.finditer(text):
+            inner = match.group(1).strip()
+            res = by_citation.get(inner)
+            if res is None:
+                continue
+            if match.start() > pos:
+                parts.append({"text": text[pos:match.start()]})
+            seg = {"text": match.group(0)}
+            if res["status"] == "linked":
+                seg["url"] = res["url"]
+                seg["key"] = res["key"]
+                stats["linked"] += 1
+            elif res["status"] == "unresolved":
+                stats["unresolved"] += 1
+            else:
+                stats["unverifiable"] += 1
+            parts.append(seg)
+            stats["parts"] += 1
+            pos = match.end()
+        if pos < len(text):
+            parts.append({"text": text[pos:]})
+        if "".join(p["text"] for p in parts) != text:
+            raise SystemExit("source_parts 与 source_chapter 不相等 (mode_code=%s)" % m.get("mode_code"))
+        compact_refs = [{"citation": r["citation"], "key": r["key"], "url": r["url"],
+                         "status": r["status"], "match_rule": r["match_rule"]} for r in refs]
+        m["source_refs"] = compact_refs
+        m["source_parts"] = parts
+        stats["modes_with_citations"] += 1
+        stats["citations"] += len(compact_refs)
+        if any(r["status"] == "linked" for r in refs):
+            stats["modes_with_link"] += 1
+    return stats
+
+
+def verification_counts(modes: list) -> dict:
+    """四态计数 (credibility_framework.md 第 3 节): 只认四个状态, 其他值当场报错."""
+    out = {s: 0 for s in VERIFICATION_STATUSES}
+    unknown = {}
+    for m in modes:
+        v = m.get("verification")
+        status = v.get("status") if isinstance(v, dict) else None
+        if status in out:
+            out[status] += 1
+        else:
+            unknown[str(status)] = unknown.get(str(status), 0) + 1
+    if unknown:
+        raise SystemExit("verification.status 出现四态之外的值: %s" % unknown)
+    out["total"] = sum(out[s] for s in VERIFICATION_STATUSES)
+    return out
 
 
 def log(*a):
@@ -395,6 +486,17 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
         f"（{', '.join(sorted(dropped_modes))}）：公开模式 {len(modes)} -> {len(public_modes)}"
         f"；名单见 tools/_quarantine.py：{', '.join(sorted(QUARANTINE))}")
 
+    # ---------- 1.0 出处链接注入 (Phase38-Y2): 出处 -> 可点引用 ----------
+    # 匹配规则唯一实现在 tools/source_link_index.py (R0-R3), 本步骤只做注入 + 自洽断言;
+    # 匹配不到的引文保持纯文本、不给 url (不伪造). 新字段: source_refs / source_parts.
+    link_index = load_index(LINKS_PATH)
+    link_stats = inject_citation_links(public_modes, link_index)
+    log(f"  [出处] 注入可点引用: {link_stats['modes_with_citations']} 条模式带引文, "
+        f"{link_stats['modes_with_link']} 条有至少 1 个可点链接; 引文 {link_stats['citations']} 条 "
+        f"(linked {link_stats['linked']} / registered-unlinkable {link_stats['unverifiable']} / "
+        f"unresolved {link_stats['unresolved']})")
+    src_counts = {"published": verification_counts(public_modes), "all": verification_counts(modes)}
+
     figures = load_figures(DB_PATH)
 
     # ---------- 1. figures 索引 + 详情分片 ----------
@@ -526,7 +628,35 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
         "modes_duplicates_dropped": mode_stats["dropped_dup"],
         "modes_empty_mode_code_dropped": mode_stats["dropped_nocode"],
         "modes_without_figure_code": no_code_modes,
+        "verification": {
+            # 四态计数 (credibility_framework.md 第 3 节). 两个口径都给:
+            # published = 站上真正打得开的模式 (modes/index-*.json 合计);
+            # all = 源库全量 (含被隔离人物的模式, 它们不进任何公开产物).
+            "published": {k: src_counts["published"][k] for k in VERIFICATION_STATUSES},
+            "published_total": src_counts["published"]["total"],
+            "all": {k: src_counts["all"][k] for k in VERIFICATION_STATUSES},
+            "all_total": src_counts["all"]["total"],
+            "quarantined_total": src_counts["all"]["total"] - src_counts["published"]["total"],
+        },
+        # 出处 -> 可点引用 的注入统计 (条数口径, 供前端/QA 复核; 事实源仍是每个模式的 source_refs)
+        "citation_links": {
+            "modes_with_citations": link_stats["modes_with_citations"],
+            "modes_with_link": link_stats["modes_with_link"],
+            "citations": link_stats["citations"],
+            "linked": link_stats["linked"],
+            "registered_unlinkable": link_stats["unverifiable"],
+            "unresolved": link_stats["unresolved"],
+        },
     }
+
+
+    # 自洽: 四态计数 (公开口径) 必须等于 modes/index-*.json 的合计, 否则 meta.json 在说谎.
+    if src_counts["published"]["total"] != counts["mode_summaries_published"]:
+        raise SystemExit("四态计数 published=%d 与 mode_summaries_published=%d 不等"
+                         % (src_counts["published"]["total"], counts["mode_summaries_published"]))
+    log("  [核验] verification 四态 (公开口径): "
+        + " / ".join("%s=%d" % (s, src_counts["published"][s]) for s in VERIFICATION_STATUSES)
+        + " / total=%d" % src_counts["published"]["total"])
 
     products = {
         "figures.index.json": {
