@@ -98,6 +98,12 @@ iter_field_text(mode, fs) # [(field, atom)]，逐个原子文本（D5 的扫描�
 * 修复真正影响的是「有生卒年」子集里的 84 条（620 -> 536）；
 * 余下 536 条确实有生卒年、且五个扫描字段里**真的一个 4 位年份都没有**（第 7 节给出交叉核验）。
 
+计数口径（三个口径都打印，避免数字打架）：gate 的 `get_all_modes` 扫 **2888** 条
+（`M-ASM-001..010` 等 10 条被顶层数组与 figure 节点**重复收割**，`verify_findings.py` 的 E 警告逐条列出）；
+按 `mode_code` 首次出现去重是 **2859** 条（BEFORE 82.1% -> AFTER 79.2%，与 2888 口径同向同幅）；
+`apply_verification_status.py` 的口径是 **2868** 条（它的遍历与 gate 不同）。三个口径的结论一致：
+`tokens=0` 约占八成、修复只挪动其中一小块。
+
 ## 4. 新检出的 conflict：1 条，人工复核为**误报**
 
 全库新检出 **1 条** conflict（`data/audit/findings.json` defect=`D5_timeline_conflict`）：
@@ -130,6 +136,22 @@ M-NEW-007 [H-NEW-001] 牛顿 生卒=1643-1727  生涯带=[1603, 1757]
 | `name-not-in-context` | 44 | 44 |
 | `source-marker` | 1 | 1 |
 | 合计 | 45 | **45/45 确非矛盾** |
+
+### 5.0 修复前**完全不可见**、修复后进入判定的代表样例（含字段出处）
+
+以下 4 条的年份全部落在**数组载荷**里，修复前 `d5_scan` 整段跳过（这些模式当时的 `tokens=0`），
+现在都进了判定链（各自的下场写在「修复后」列）：
+
+| mode_code | 人物（生卒） | 年份出处（字段 / 载荷） | 年份 | 修复后的判定 |
+|---|---|---|---|---|
+| `M-IBR-008` | 伊本·鲁世德（1126-1198） | `representative_cases_zh`（list，第 2 条元素） | 1270、1277 | `out-of-window` 不可判定（卒后 72/79 年的大谴责，非本人行事） |
+| `M-AE-008` | 麦哲伦（1480-1521） | `definition_zh`（str）+ `representative_cases_zh`（list） | 1522、1529 | `name-not-in-context` 不可判定（卒后返航与萨拉戈萨条约） |
+| `M-LSZ-001` | 李时珍（1518-1593） | `definition_zh`（str）+ `representative_cases_zh`（list） | 1892 | `out-of-window` 不可判定（`1892 种药`是计数不是年份，讽刺地同形） |
+| `M-NEW-008` | 牛顿（1643-1727） | `representative_cases_zh`（list） | 1742 | `name-not-in-context` 不可判定（Halley 卒年） |
+| `M-NEW-007` | 牛顿（1643-1727） | `representative_cases_zh`（list） | 1749 | **conflict（误报，见第 4 节）** |
+
+**如实说明**：任务书要求「至少 3 个真实 conflict 例证」。全库修复后**只检出 1 条 conflict，且已复核为误报**；
+上表其余 4 条都只是「年份第一次进入扫描面」而不是真矛盾。**没有凑数：不把不可判定项写成矛盾**。
 
 ### 5.1 45 条候选逐条判读表
 
