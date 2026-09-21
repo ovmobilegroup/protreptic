@@ -81,4 +81,7 @@ python3 tools/figure_library.py -c 军事战略   # 按类目
 
 ## 许可
 
-MIT License — 见仓库根目录 [LICENSE](../LICENSE)。
+本仓库是「代码 + 内容」混合体，分开授权：
+
+- **代码**（`web/`、`tools/`、`api/` 等）：**MIT License** —— 见仓库根目录 [LICENSE](https://github.com/ovmobilegroup/protreptic/blob/main/LICENSE)。
+- **内容与数据**（本站文档与模式数据）：**CC BY-SA 4.0** —— 见 [LICENSE-CONTENT](https://github.com/ovmobilegroup/protreptic/blob/main/LICENSE-CONTENT)。

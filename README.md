@@ -1,263 +1,149 @@
 # Protreptic · 思维养成系统
 
-> **78种思维模式，引导你走向智慧**
->
-> 遇到问题不知道用什么方法？打开这个项目，4个问题定位你的场景，推荐2-3种思维模式组合，附操作步骤。
+> **把「历史上的人怎么想问题」变成你今天能照着做的步骤。**
+> 在线站点（免安装，打开即用）：**https://ovmobilegroup.github.io/protreptic/**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/v2.5.0-blue.svg)](CHANGELOG.md)
-![Language: zh](https://img.shields.io/badge/language-zh-red.svg)
-![Language: en](https://img.shields.io/badge/language-en-blue.svg)
+[![站点](https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E7%AB%99%E7%82%B9-GitHub%20Pages-blue.svg)](https://ovmobilegroup.github.io/protreptic/)
+[![代码许可: MIT](https://img.shields.io/badge/%E4%BB%A3%E7%A0%81-MIT-yellow.svg)](LICENSE)
+[![内容许可: CC BY-SA 4.0](https://img.shields.io/badge/%E5%86%85%E5%AE%B9-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE-CONTENT)
 
 ---
 
-## 🎯 Phase 20 研究成果 (v2.5.0)
+## 这是什么
 
-**2026年9月 - Protreptic Phase 20: 黄宗羲(H-HZX-001) 人物档案归档**
+Protreptic 是一个**可检索、可核对出处的历史人物思维模式库**。
+它从 **278 位历史人物**的真实决策中提炼出 **2798 条思维模式**，每一条都给出四样东西：
 
-### ✅ 关键成就
+1. **定义**（中英双语）——这套方法到底在做什么
+2. **操作步骤**——今天遇到同类处境，照着做的动作清单
+3. **出处**——来自哪本书、哪一篇，能点击就点击
+4. **现代应用场景**——它在你这个时代对应什么问题
 
-| **Phase 20**
+- 不是「名言集」：每条模式都有可执行步骤与适用边界
+- 不是「凭空生成」：每条都标注来源篇章，并带**核验状态徽章**（见下一节）
+- 不是「只能看」：站点可检索、可跨人物对比、可套用复盘模板，还能离线使用（PWA）
 
-- **黄宗羲 (H-HZX-001)**: 明末清初思想家，浙东学派代表，「中国思想启蒙第一人」。核心模式：一本万殊法(1)+心无本体法(2)+民主君客法(3)+治法优先法(4)+学校议政法(5)+理在气中法(6)+经世致用法(7)+积累莫返法(8)+工商皆本法(9)+批判实证法(10)，创立「认识论奠基→本体论重构→政治哲学批判→制度设计→教育功能扩展→宇宙论转向→方法论转型→经济思想突破→实证研究实践」十环范式体系，「天下为主，君为客」比卢梭《民约论》早33年
-- **张载 (H-ZZ-001)**: 北宋思想家，关学创始人，气一元论创立者，「太虚即气」宇宙论奠基人。核心模式：太虚即气法(1)+一物两体法(2)+民胞物与法(3)+变化气质法(4)+大心体物法(5)+知礼成性法(6)+横渠四句法(7)，创立「宇宙论奠基→辩证法构建→伦理共同体确立→人格修养→境界提升→礼教实践→精神坐标确立」关学七环范式
-- **王充 (H-WC-001)**: 东汉思想家，《论衡》作者，「疾虚妄、立真伪」的批判理性传统奠基人。核心模式：矛盾分析法(1)+实事求是法(5)+自然选择法(23)+认知偏差识别(30)+抽象归纳法(25)，创立「矛盾解剖→效验检验→自然解释→偏差识别→归纳建模」批判理性五环范式
-- **蒯通 (H-KT-280)**: 战国末至汉初纵横家，《蒯子》八篇作者，「三分天下」多极均势博弈模型首倡者。核心模式：审时度势法(45)+风险对冲思维(17)+博弈论思维(20)+权变智慧(39)+驿站制信息流(41)，创立「审时度势→风险对冲→博弈建模→权变适应→信息流通」纵横家五环生存范式
-- **孟子 (H-MQ-001)**: 战国中期儒家代表，「亚圣」，性善论与民本政治哲学创始人。核心模式：类比推理法(15)+道德直觉法(23)+民本辩证思维(40)+历史循环反思法(75)，创立「性善奠基→民本重构→类比论证→历史循环→大丈夫精神」五环范式体系，「民为贵，社稷次之，君为轻」开创中国民本政治哲学传统
-- **墨子 (M-ZG-001)**: 战国初期思想家，墨家学派创始人，「兼爱非攻」倡导者。核心模式：兼爱非攻/三表法/科学实证/工匠精神/尚同尚贤(18)+类比论证法(5)+守御工程法(6)+经验实证法(42)+尚贤尚同法(14)+节用节葬法(55)，创立「兼爱奠基→三表验证→非攻实践→尚贤制度→节用治理」五环范式体系，止楚攻宋实践体现知行合一，墨辩六篇开创中国古代逻辑学先河
+## 规模
 
-**Phase 19**
+| 项 | 数量 | 说明 |
+|---|---|---|
+| 历史人物 | **278 位** | 先秦诸子到近现代科学家、企业家，跨 30 个领域 |
+| 思维模式 | **2798 条** | 站点发布口径；源库去重后 2858 条 |
+| 其中被隔离 | 60 条 | 核验存疑的记录不进公开产物（站点上看不到） |
+| 现代处境场景 | **1055 个** | 与人物合并为同一份可检索名录 |
+| 复盘模板 | **7 个** | 赤壁、隆中对、北伐、白帝城等历史决策现场 |
+| 语言 | 中英双语 | 每条模式都有中英定义、步骤与原话 |
 
-- **黄炎培 (H-YYP-001)**: 近代教育家，模式9+38+37+39+29完整闭环
-- **粟裕 (H-SY-149)**: 现代军事家，游击积累→运动歼灭→战果转化范式
-- **薛暮桥 (H-XMQ-151)**: 当代经济学家，价格改革风险决策框架
-- **陈云 (H-CY-001)**: 近代经济学家，鸟笼经济完整范本
-- **吴有训 (H-WYX-001)**: 现代物理学家，自制仪器→自产数据→自建学派范式
-- **李先念 (H-LXN-001)**: 现代经济治理家，「铁算盘」宏观调控范式，系统统筹→矛盾定位→周期监测→动态平衡四环
-- **彭德怀 (H-PDH-001)**: 现代军事家，百团大战指挥艺术，「七环军事治理闭环」群众路线→统一战线→框架正名→网络切节点→纪律立规矩→批评纠偏差→学习促优化
-- **周恩来 (H-ZEL-001)**: 近现代国家治理家，「制度化制衡+总体性思维+边际思维+高频反馈+传承规划」五位一体治理范式
-- **王选 (H-WX-001)**: 现代科技工程家，「华光激光照排系统」自主攻关，矛盾定位→死磕执行→迭代验证→利益整合→标准锁定五环范式
-- **袁隆平 (H-YLP-001)**: 现代农学家，「铁律找缝→笨功筛选→环境诱导→工程推广」杂交水稻攻关五环范式，三系法→两系法范式跃迁
-- **竺可桢 (H-ZKZ-001)**: 近现代气象学家/教育家，「织网→归纳→校验→育人→韧性」五环范式，求是校训贯穿科研与教育
-- **候选人 (H-001)**: 抽象概念型人物，「战略预判→边际计算→自然选择→制度制衡→信息高速」五环政治选择范式，天命靡常惟德是辅
-- **华罗庚 (H-HLG-001)**: 现代数学家，「自学最短路径」硬产出替代学位认证，优选法/统筹法推广至全国20+省市，四级人才漏斗培养一代领军者
-- **屠呦呦 (H-TYY-001)**: 现代药学家，「文献考据+化学分离+药效验证」三重交叉验证法，青蒿素发现开创民族医药现代化范式，挽救数千万生命，2015年获诺贝尔奖
-- **刘少奇 (H-LSQ-001)**: 近现代党建家，「纲领奠基→思想净化→程序准入→制度固化」四环党建工程范式，党内法治体系奠基人
-- **毛泽东 (M-ZD-001)**: 现代革命家，「统一战线、群众路线、独立自主」三位一体革命战略的完整创立者，模式42+1+6+4+34五位一体思维模式的集大成者，马克思主义中国化的理论创新者
-- **Phase 19 完整归档**: 十五位历史人物档案全部完成，QA验收通过
-- **Phase 20 完整归档**: 张载(H-ZZ-001)、王充(H-WC-001)、蒯通(H-KT-280)档案完成，填补 Protreptic 中「古代哲学宇宙论/关学传统」、「古代哲学批判/无神论传统」和「战国纵横家权变/多极博弈」层空白
+> 数字口径来源：部署产物 `data/meta.json` 的 `counts`（构建期注入站点页面，站点与本文档同源，不各写一套）。
 
-### 📊 覆盖度详情
+## 可信度：不假装每条都可信
 
-- **高覆盖模式**：2个模式覆盖100+场景（冗余备份法、蛰伏积势思维）
-- **中等覆盖模式**：12个模式覆盖50-100场景
-- **基础覆盖模式**：28个模式覆盖<50场景
-- **零低覆盖模式**：所有模式覆盖度≥15
+「每条都有出处」这句话要能被检验，所以站点给每条模式一枚**核验状态徽章**，四态如下：
 
-### 🚀 使用方式
+| 徽章 | 状态 | 含义 |
+|---|---|---|
+| ✓ | 已核验 | 出处可达，且已解析出可点击链接 |
+| ○ | 待核验 | 尚未核验（schema 缺省态） |
+| ⚠ | 存疑 | 机检命中缺陷规则（如引文与原文不符、时间线矛盾），隔离或待复核 |
+| — | 一手材料 | 口述、信札等本质上不可链接的文献：诚实标注，不硬造链接 |
 
-#### CLI 直接查询
+配套的三条纪律：
+
+- **出处可点击**：模式详情页的出处逐条给链接；无法解析到链接的会如实标成「一手材料 / 待核验」，不假装全部可点
+- **存疑不进公开产物**：源库中被判定存疑的模式会被隔离，站点只呈现发布口径，源库与发布口径的差额在统计页如实交代
+- **数字实时可查**：四态数量随核验进度变动，以线上统计页为准 —— https://ovmobilegroup.github.io/protreptic/credibility/
+
+## 站点能做什么
+
+| 功能 | 入口 | 说明 |
+|---|---|---|
+| 人物 × 场景统一检索 | https://ovmobilegroup.github.io/protreptic/figures/ | 278 位人物 + 1055 个现代场景，同一份名录 |
+| 思维模式库 | https://ovmobilegroup.github.io/protreptic/modes/ | 定义、操作步骤、出处、原话 |
+| 概念索引 | https://ovmobilegroup.github.io/protreptic/concepts/ | 按关键概念聚合，探索跨人物的思想连接 |
+| 关系图谱 | https://ovmobilegroup.github.io/protreptic/graph/ | 人物 — 模式 — 概念 的关系可视化 |
+| 跨人物对比 | https://ovmobilegroup.github.io/protreptic/compare/ | 选 2–4 位并排对照，链接带选中项可直接分享 |
+| 每日一模式 | https://ovmobilegroup.github.io/protreptic/daily/ | 每天一条，历史日期可回看 |
+| 复盘模板 | https://ovmobilegroup.github.io/protreptic/templates/ | 7 个历史案例转成可直接套用的复盘清单 |
+| 可信度统计 | https://ovmobilegroup.github.io/protreptic/credibility/ | 四态数字如实公布 |
+| 数据与结构说明 | https://ovmobilegroup.github.io/protreptic/api/ | 静态数据分片、字段与读取方式 |
+| 离线使用（PWA） | 任意页面 | 浏览器安装一次，断网也能查 |
+| 文档站 | https://ovmobilegroup.github.io/protreptic/docs/ | 方法论、工具、训练、扩展等长文 |
+
+## 怎么用
+
+### 路径一：直接开站点（推荐）
+
+打开 https://ovmobilegroup.github.io/protreptic/ ，在「人物 × 场景」名录里检索你的处境关键词，点进任意人物或模式即可看到定义、步骤与出处。零安装、零配置。
+
+### 路径二：让 AI 用这套方法分析你的问题
+
+复制 [思维模式 Agent Prompt](https://ovmobilegroup.github.io/protreptic/docs/06-ai-collaboration/thinking_mode_agent_prompt/) 里的 System Instruction，粘进你的 AI 工具设置；之后每次提问，AI 都会按这套模式库拆解问题。
+
+### 路径三：本地跑或读源码
 
 ```bash
-# 交互式诊断
-python tools/thinking_mode_selector.py
+git clone https://github.com/ovmobilegroup/protreptic.git
+cd protreptic
 
-# 直接查询处境代码
-python tools/thinking_mode_selector.py -c A-1-X-P
-
-# 英文输出
-python tools/thinking_mode_selector.py --lang en
+# 命令行选择器（Python 3，无第三方依赖）
+python3 tools/thinking_mode_selector.py            # 交互式诊断
+python3 tools/thinking_mode_selector.py -c A-1-X-P # 直接查处境代码
 ```
 
-#### API 调用
+### 想系统学
 
-```python
-from tools.thinking_mode_selector import select_thinking_mode
-result = select_thinking_mode("A-2-Y-P")
-```
+- 10 分钟入门：[快速启动包](https://ovmobilegroup.github.io/protreptic/docs/00-quick-start/thinking_mode_quick_start/)
+- 全量工具与使用手册：[文档站索引](https://ovmobilegroup.github.io/protreptic/docs/)
+- 训练与自测：[实战演练场](https://ovmobilegroup.github.io/protreptic/docs/04-training/thinking_mode_gym/)
 
-#### Web 前端
+## 怎么贡献
 
-访问 `web/` 目录下的静态页面，支持场景选择和模式查询。
+欢迎任何形式的修正与补充，最需要的是**指出出处错误**与**补充真实案例**。
 
----
+1. 读 [CONTRIBUTING.md](CONTRIBUTING.md)（贡献类型、案例格式、新模式的提议格式）
+2. 用 issue 模板提交（[Bug](.github/ISSUE_TEMPLATE/bug.md) / [Feature](.github/ISSUE_TEMPLATE/feature.md) / [案例](.github/ISSUE_TEMPLATE/case.md)）
+3. 提 PR 时请按 [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) 填写；涉及内容改动的请附出处
 
-## 🚀 快速开始
+行为准则见 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)。
 
-> **这个项目不需要安装任何东西。** 打开就能用。
-> 完整说明：[安装和使用指南](docs/00-quick-start/installation-guide.md)
+## 许可：代码与内容分开授权
 
-### 场景1：遇到问题，4题定位
+本仓库是「代码 + 内容」混合体，两者各归各的许可：
 
-| 你的情况 | 选什么 |
-|---------|--------|
-| 不知道往哪走 | A 方向性问题 |
-| 卡住了要突破 | B 突破性问题 |
-| 团队/人际问题 | C 人相关问题 |
-| 长期要投入的事 | D 长期性问题 |
+| 范围 | 许可 | 许可文件 |
+|---|---|---|
+| **代码**：`web/`、`tools/`、`api/`、`scripts/` 及构建/CI 脚本 | **MIT** | [LICENSE](LICENSE) |
+| **内容与数据**：`docs/` 下的文档、`data/` 与模式数据、复盘模板文本 | **CC BY-SA 4.0** | [LICENSE-CONTENT](LICENSE-CONTENT) |
 
-| 你的资源 | 选什么 |
-|---------|--------|
-| 充足 | 1 |
-| 有限 | 2 |
-| 极度匮乏 | 3 |
+- 代码（MIT）：可自由使用、修改、分发、商用，保留版权声明即可
+- 内容（CC BY-SA 4.0）：可自由共享与改编（含商用），但需**署名**并以**相同方式共享**；官方正文见 https://creativecommons.org/licenses/by-sa/4.0/legalcode
+- 为什么分开：CC 官方不建议用 CC 协议授权软件，MIT 也不适合覆盖文本内容；「代码服 MIT、内容服 CC BY-SA」是这类混合仓库的标准做法
 
-| 时间压力 | 选什么 |
-|---------|--------|
-| 不急（半年+） | X |
-| 一般（周到月） | Y |
-| 紧急（天到周） | Z |
-
-| 你最关心 | 选什么 |
-|---------|--------|
-| 赢 | P |
-| 稳 | Q |
-| 长远 | R |
-| 快速 | S |
-
-**举例**：A-2-Y-P → 点击[这里看推荐组合](docs/02-tools/thinking_mode_decision_tree.md)
-
-### 场景2：想让 AI 自动分析你的问题
-
-**30秒搞定**：
-
-1. 打开 [docs/06-ai-collaboration/thinking_mode_agent_prompt.md](docs/06-ai-collaboration/thinking_mode_agent_prompt.md)
-2. 复制"完整 System Instruction"那段文字
-3. 粘贴到你的 AI 工具设置里（ChatGPT / Claude / Gemini 都支持）
-4. 以后每次对话，AI 自动用思维模式分析你的问题
-
-**不想配置？** 直接复制 [AI对话模板](docs/06-ai-collaboration/thinking_mode_ai_templates.md) 里的填空格式，填好发给 AI 就行。
-
-### 场景3：我想持续提升思维
-
-**3分钟**：[快速启动包](docs/00-quick-start/thinking_mode_quick_start.md) → 5种核心思维模式，覆盖80%场景
-
-**10分钟**：[体检表](docs/02-tools/thinking_mode_health_check.md) → 20道题测你的思维偏好
-
-**1小时**：[实战演练场](docs/04-training/thinking_mode_gym.md) → 30个对比练习，看直觉和思维模式的差异
-
-**用AI训练自己**：[AI训练指南](docs/04-training/thinking_mode_ai_training.md) → 4种AI辅助训练法
-
----
-
-## 📊 这个体系有什么
-
-| 你能得到的 | 具体内容 |
-|-----------|---------|
-|🧠 **78种思维模式** | 30个领域，从矛盾分析到临床决策 |
-|✍️ **10种写作技法** | 对比论证、编号列举、寓言故事化... |
-| **120+实战案例** | 50通用 + 64行业专属 + 375历史人物 |
-|🤖 **AI协作工具** | 20个对话模板 + Agent Prompt |
-|🎮 **训练系统** | 41关游戏 + 30对比练习 + 120专项训练 |
-|📋 **认证体系** | 4级认证（学徒→大师） |
-|🏢 **会议模板** | 8种思维模式驱动的会议 |
-|🌍 **多场景适配** | 人生阶段 × 行业 × 文化 |
-|📊 **完整数据** | 42思维模式全覆盖，0个低覆盖模式(<15) |
-
----
-
-## 🗺️ 按场景选文件
-
-### 🔴 我最急，马上要用
-
-| 你的情况 | 打开这个 | 时间 |
-|---------|---------|------|
-| 遇到问题，不知道用什么方法 | [决策树](docs/02-tools/thinking_mode_decision_tree.md) | 3分钟 |
-| 想让AI帮我分析 | [AI对话模板](docs/06-ai-collaboration/thinking_mode_ai_templates.md) | 5分钟 |
-| 会议要开了，缺流程 | [会议模板](docs/07-coaching/thinking_mode_meeting_templates.md) | 10分钟 |
-| 方法用了没效果 | [应用手册](docs/03-practice/thinking_mode_user_manual.md) → 急救指南 | 5分钟 |
-
-### 🟡 我想系统学习
-
-| 你的情况 | 打开这个 | 时间 |
-|---------|---------|------|
-| 第一次接触，不知道是什么 | [快速启动包](docs/00-quick-start/thinking_mode_quick_start.md) | 10分钟 |
-| 想了解自己的思维偏好 | [体检表](docs/02-tools/thinking_mode_health_check.md) | 15分钟 |
-| 想系统掌握所有模式 | [终极方法论手册](docs/01-core-methodology/ultimate_thinking_methods_handbook.md) | 按需 |
-| 想快速查阅某一种模式 | [词典](docs/01-core-methodology/thinking_mode_dictionary.md) | 30秒 |
-
-### 🟢 我想持续提升
-
-| 你的情况 | 打开这个 | 时间 |
-|---------|---------|------|
-| 想训练自己 | [游戏化方案](docs/04-training/thinking_mode_game.md) | 41关 |
-| 想做量化练习 | [实战演练场](docs/04-training/thinking_mode_gym.md) | 150题 |
-| 想记录成长 | [应用日志](docs/07-coaching/thinking_mode_journal.md) | 每次5分钟 |
-| 想评估水平 | [能力认证](docs/04-training/thinking_mode_certification.md) | 4级 |
-
-### 🔵 我想教别人/带团队
-
-| 你的情况 | 打开这个 | 时间 |
-|---------|---------|------|
-| 做团队教练 | [教练指南](docs/07-coaching/thinking_mode_coach_guide.md) | 30分钟 |
-| 组织团队会议 | [会议模板](docs/07-coaching/thinking_mode_meeting_templates.md) | 按需 |
-| 追踪团队成长 | [个人成长档案](docs/07-coaching/thinking_mode_evolution_portfolio.md) | 季度 |
-| 建立团队知识库 | [社区运营方案](docs/10-community/thinking_community_ops_plan.md) | 按需 |
-
-### 🟣 我想扩展知识
-
-| 你的情况 | 打开这个 | 时间 |
-|---------|---------|------|
-| 看其他领域怎么用 | [跨领域扩展](docs/05-expansion/) | 7辑 |
-| 看人生不同阶段 | [人生阶段匹配](docs/05-expansion/thinking_life_stage_matching.md) | 5阶段 |
-| 看不同行业怎么用 | [行业适配指南](docs/05-expansion/thinking_industry_adaptation.md) | 8行业 |
-| 看不同文化怎么用 | [文化适配指南](docs/05-expansion/thinking_cross_cultural_guide.md) | 4文化 |
-
-### 🟤 我想写东西
-
-| 你的情况 | 打开这个 | 时间 |
-|---------|---------|------|
-| 思维模式 → 写作技法 | [思维→写作映射](docs/06-ai-collaboration/thinking_to_writing_mapping.md) | 10分钟 |
-| 看四大笔杆子怎么写 | [四大笔杆子对比](docs/08-writing/four_writers_comparison.md) | 15分钟 |
-
----
-
-## 🏗️ 目录结构
+## 项目结构
 
 ```
 Protreptic/
-├── docs/                          # 核心文档（11个分类，40个文件）
-│   ├── 00-quick-start/            # 快速入门（含安装指南）
-│   ├── 01-core-methodology/       # 核心方法论
-│   ├── 02-tools/                  # 工具集
-│   ├── 03-practice/               # 实战
-│   ├── 04-training/               # 训练
-│   ├── 05-expansion/              # 扩展领域
-│   ├── 06-ai-collaboration/       # AI协作
-│   ├── 07-coaching/               # 教练方案
-│   ├── 08-writing/                # 写作技法
-│   ├── 09-evolution/              # 持续演进
-│   └── 10-community/              # 社区运营
-├── CONTRIBUTING.md                # 贡献指南
-├── CHANGELOG.md                   # 更新日志
-├── CODE_OF_CONDUCT.md             # 行为准则
-├── LICENSE                        # MIT License
-├── README.md                      # 中文版项目说明
-└── README_EN.md                   # 英文版项目说明
+├── web/                  # Vite + Vue 3 单页应用（站点 UI，含 PWA）
+├── tools/                # 数据管线、校验门与构建脚本（Python）
+├── data/                 # 模式、人物、场景数据与审计基线（JSON）
+├── docs/                 # 方法论 / 工具 / 训练 / 扩展 等长文（11 个分类）
+├── api/                  # 可选的后端（FastAPI；站点本身走静态数据）
+├── .github/              # CI：Pages 发布、质量门、markdown lint + issue/PR 模板
+├── LICENSE               # 代码许可：MIT
+├── LICENSE-CONTENT       # 内容许可：CC BY-SA 4.0
+├── CONTRIBUTING.md       # 贡献指南
+├── CODE_OF_CONDUCT.md    # 行为准则
+└── CHANGELOG.md          # 逐版变更记录
 ```
 
-## 💻 部署
+## 研究历程
 
-**零安装，零配置。** 所有文档都是 Markdown 格式，任何文本编辑器都能打开。
+项目从 2026-07 起按阶段推进（Phase 1 → Phase 44）：先写思维方法与写作技法手册，再逐位归档历史人物档案，随后转入工程化 ——
+静态数据分片、可信度四态、出处链接核验门、两仓一致性机检、CI 质量门。
 
-- **只想阅读**：打开 GitHub 页面或克隆到本地
-- **想让 AI 自动分析**：复制 System Prompt 到 AI 工具设置（30秒）
-- **完整说明**：[安装和使用指南](docs/00-quick-start/installation-guide.md)
-- **访问统计**：当前**未接入** —— 站点不加载任何统计脚本（原因见 [访问统计说明](docs/architecture/gc_setup.md)）
+逐阶段的详细记录（含每阶段的验收报告与遗留问题）见 [CHANGELOG.md](CHANGELOG.md) 与 [docs/qa/](docs/qa/)。
 
 ---
 
-## 📖 英文用户
-
-请查看 [README_EN.md](README_EN.md)
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-*Protreptic — 引导人们走向智慧的劝勉*
-*Created 2026-07-12*
+*Protreptic —— 引导人们走向智慧的劝勉。*
+*站点界面支持中英文切换（右上角）。*

@@ -18,7 +18,7 @@
 2. 创建你的分支 (`git checkout -b feature/amazing-feature`)
 3. 提交你的更改 (`git commit -m 'Add some amazing feature'`)
 4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 提交 Pull Request
+5. 提交 Pull Request（请按 `.github/PULL_REQUEST_TEMPLATE.md` 填写）
 
 ### 3. 案例提交格式
 
@@ -61,4 +61,11 @@
 
 ## 许可证
 
-本项目采用 MIT 许可证。你的贡献也将遵循同一许可证。
+本仓库是「代码 + 内容」混合体，贡献按**改动范围**适用对应许可：
+
+- **代码**（`web/`、`tools/`、`api/`、`scripts/` 等）：**MIT** —— 见 [LICENSE](LICENSE)
+- **内容与数据**（`docs/` 下的文档、模式与人物数据、复盘模板文本等）：**CC BY-SA 4.0** —— 见 [LICENSE-CONTENT](LICENSE-CONTENT)
+
+也就是说：内容类贡献将以 CC BY-SA 4.0 授权（允许他人共享与改编，需署名并以相同方式共享）；
+代码类贡献以 MIT 授权。提交 PR 即表示你同意该授权，并确认你有权提交这些材料
+（引用他人材料请注明出处与许可）。

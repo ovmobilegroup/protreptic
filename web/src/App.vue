@@ -147,7 +147,7 @@ const isActive = (to: string) => route.path.startsWith(to)
                class="rounded-lg px-3 py-1.5 transition-colors hover:bg-white/5 hover:text-gold-300"
             >{{ t('参与贡献', 'Contribute') }}</a>
             <span class="text-parchment/20">·</span>
-            <span>MIT License</span>
+            <span>{{ t('代码 MIT · 内容 CC BY-SA 4.0', 'Code MIT · Content CC BY-SA 4.0') }}</span>
           </div>
         </div>
       </div>

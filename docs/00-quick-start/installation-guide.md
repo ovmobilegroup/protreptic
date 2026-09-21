@@ -102,7 +102,13 @@ git pull origin main
 
 ### Q: 我可以商用吗？
 
-**可以。** MIT 许可证允许自由使用、修改、分发。
+**可以。** 但要看你用的是哪一部分：
+
+- **代码**（`web/`、`tools/`、`api/` 等）按 **MIT**：自由使用、修改、分发。
+- **内容与数据**（`docs/` 文档与模式数据）按 **CC BY-SA 4.0**：同样可商用，但需**署名**并以**相同方式共享**。
+
+适用范围见 [LICENSE](https://github.com/ovmobilegroup/protreptic/blob/main/LICENSE)
+与 [LICENSE-CONTENT](https://github.com/ovmobilegroup/protreptic/blob/main/LICENSE-CONTENT)。
 
 ### Q: 我可以贡献吗？
 
