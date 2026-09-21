@@ -539,7 +539,10 @@ unverifiable 351`，公开口径 `suspect 23`（`apply_verification_status.py --
 | `undetermined` | 2292 | **1546** | −746 |
 | `conflict` | 1 | **1** | 无新增 |
 
-- 不含 `_en` 字段时 token 总数会少一截（英文镜像侧贡献），逐条口径见 `D5_SCAN_FIELDS`（gate 报告末尾会打印）。
+- 英文镜像侧的量化：**同一批「有生卒年」模式**里，只扫中文字段是 **5584** 个 token，
+  含 `*_en` 镜像字段后是 **8557**（净增 2973），其中 **6 条模式**的 token **完全**依赖英文镜像字段
+  （`M-CC-028` / `M-WC-004` / `M-LZH-008` / `M-ZENGGUOF-001` / `M-ZENGGUOF-005` / `M-CYRUS-008`）。
+  口径清单由 gate 报告末尾打印（`D5_SCAN_FIELDS`）。
 - `data/audit/findings.json` 的 `audit_meta.d4_d5_report` 已按新口径刷新
   （`figures_with_lifespan` 265 到 616、`undetermined` 2292 到 1546），**findings 条目数不变（156 条）**，
   `verify_findings.py --hard-fail` exit 0，`apply_verification_status.py --check` 无漂移（`suspect` 23 不变）。

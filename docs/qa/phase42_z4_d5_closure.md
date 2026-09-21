@@ -85,6 +85,14 @@ $ python3 tools/credibility_gate.py --legacy-report
 `tokens=0` 的成因拆分是本期的关键改动之一：修复前这个数字把「文本里没有年份」与「该 figure 没有生卒年」
 混成一本账，读起来像「已覆盖」——现在两者分开计数。
 
+英文镜像字段的量化（同一批「有生卒年」模式）：
+
+```text
+有生卒年子集 token：只扫中文字段 5584 → 含 *_en 镜像 8557（净增 2973）
+token 完全依赖 *_en 的模式：6 条（M-CC-028 / M-WC-004 / M-LZH-008 / M-ZENGGUOF-001 /
+                                  M-ZENGGUOF-005 / M-CYRUS-008）
+```
+
 ## 3. 补数清单（可重入，逐条 provenance）
 
 ```text
@@ -291,6 +299,31 @@ python3 tools/apply_verification_status.py --check
 python3 tools/check_repo_parity.py
 ```
 
-## 9. 双仓同步与 CI
+## 9. 双仓同步与 CI（真实命令输出）
 
-（见下方「运行记录」一节的真实命令输出）
+```text
+$ cd /opt/data/release/Protreptic-publish
+$ python3 tools/check_repo_parity.py --workspace /opt/data/workspace/Protreptic \
+      --publish /opt/data/release/Protreptic-publish
+[stats] 两仓都有 1433 条（其中逐字节一致 1433）｜仅单侧 0 条（仅工作仓 0 · 仅发布仓 0）
+[OK] 零差异：1433 个构建图文件两仓逐字节一致（sha256）
+
+$ git push origin main
+   b6b6f80..4cf5aee  main -> main
+$ git status -sb
+## main...origin/main          # 无 [ahead N]
+```
+
+工作仓提交 `2bfe14d9`（branch `master`，开发仓无 upstream，按既有纪律不推）；发布仓提交 `4cf5aee` 指向同一批文件。
+
+CI（发布仓 GitHub Actions，commit `4cf5aee`，四个 workflow 全绿）：
+
+| workflow | 结论 | run | 用时 |
+|---|---|---|---|
+| CI（markdown-lint，`**/*.md`） | success | [35545681976](https://github.com/ovmobilegroup/protreptic/actions/runs/35545681976) | 15s |
+| Deploy to GitHub Pages（站内跑 `credibility_gate --legacy-report` 与 `--hard-fail`） | success | [35545681977](https://github.com/ovmobilegroup/protreptic/actions/runs/35545681977) | 11m21s |
+| Quality Gate（部署完成后触发：schema / 真实链接可达 / Lighthouse） | success | [35546199672](https://github.com/ovmobilegroup/protreptic/actions/runs/35546199672) | 1m52s |
+| Protreptic CI/CD（test job：`check_repo_parity.py` + selector 自测 + web 构建） | success | [35545681979](https://github.com/ovmobilegroup/protreptic/actions/runs/35545681979) | 16m54s |
+
+> 注：本次证据文档与方案文档的**纯文档修订**（补 `*_en` 量化数字与本节 CI 结果）另有一次提交，
+> 其四个 workflow 同样全绿 —— 见任务交接摘要（`t_c66b11ff`）。
