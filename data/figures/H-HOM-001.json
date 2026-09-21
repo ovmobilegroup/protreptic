@@ -1,0 +1,891 @@
+{
+  "schema_version": "v6",
+  "id": "H-HOM-001",
+  "code": "HOM",
+  "figure_name": "荷马",
+  "figure_name_en": "Homer",
+  "figure_code": "Homer",
+  "figure_pinyin": "Hémǎ",
+  "aliases": [
+    "荷马（Ὅμηρος / Homeros；古希腊史诗《伊利亚特》与《奥德赛》的传统署名作者；活动年代通常定在约前 8-前 7 世纪，具体生卒、籍贯与生平均无可核查的古代证据）",
+    "《伊利亚特》（Ἰλιάς，24 卷，约 15,693 行）与《奥德赛》（Ὀδύσσεια，24 卷，约 12,109 行）的作者名；两部史诗以六音步长短短格（dactylic hexameter）写成，语言是一种从未在任何地方实际通行的诗歌混合语（Kunstsprache，以伊奥尼亚方言为主并含埃俄利亚成分）",
+    "「荷马史诗」传统的中心名号：古代还把《荷马颂诗》（Homeric Hymns）与「史诗循环」（Epic Cycle）诸篇归在其名下，现代学界一般只承认《伊利亚特》《奥德赛》两部为「荷马」核心",
+    "「盲诗人」形象（传说其为希俄斯岛的盲歌者；「荷马」一名的词源有「人质」「拼合者」等异说），以及「七城争荷马」的古代传说（士麦那、希俄斯、科洛丰、萨拉米斯、罗得斯、阿耳戈斯、雅典等自称其乡里）",
+    "「希腊的教师」：柏拉图《理想国》606e 称荷马养育了希腊（τὴν Ἑλλάδα πεπαίδευκεν），古代教育与修辞训练长期以荷马为起点；亚历山大据普鲁塔克《亚历山大传》随身携带《伊利亚特》并加批注",
+    "帕里—洛德口头诗歌理论（Milman Parry、Albert Lord，20 世纪）所刻画的「口头程式诗人」典范：以程式套语、典型场景与主题在表演中即时编织长篇叙事；此说为现代方法论，不是古代对荷马的描述",
+    "legacy 提示：本档案为净新增，库内与 data/figures 均无 H-HOM-* / M-HOM-*；前缀 M-HOM 在此之前零占用；同区字母族 M-HON-* 属另一人物（figure_code=HON），严禁混用"
+  ],
+  "birth_year": -800,
+  "death_year": -750,
+  "era": "希腊古风时代（约前 8-前 7 世纪；「荷马问题」至今未有定论：古代传记把他放在特洛伊战争之后数代，现代通行说法多定为约前 750-前 700 前后活动，也有学者主张前 7 世纪甚至更晚。两部史诗所叙述的事件背景是迈锡尼时代的特洛伊战争（传统定年约前 12 世纪），但诗中呈现的器物、制度与观念是古风时代（铁器、城邦、贵族宴饮、泛希腊竞技与祭仪）的混合物，学界据此区分「叙事内的英雄世界」与「表演时代的现实世界」。荷马之名在公元前 7-前 6 世纪开始见于引述与图像（如公元前 7 世纪的「荷马与埃阿斯」铭文陶片、希俄斯岛的荷马族歌者行会 Homeridai），公元前 6 世纪雅典僭主佩西斯特拉托斯时期据传有整理文本之举，前 3-前 2 世纪亚历山大里亚学者（泽诺多托斯、阿里斯塔科斯）编订校本，中世纪拜占庭抄本（以 10 世纪的 Venetus A 为骨干）传下今日文本。关于「谁、何时、何地写下或唱出这些诗」的全部说法都属于推测性重构，本档案在 caveats 中显式标注)",
+  "school": "希腊口头史诗传统（爱琴海东岸与希俄斯岛一带的职业歌者/诵诗人 rhapsōidoi 行会，前 6 世纪起在泛雅典娜节等公共节庆上诵唱）+ 迈锡尼—古风英雄歌传统与神祇叙事（特洛伊战争、忒拜与阿尔戈斯诸英雄故事）+ 六音步诗歌语言与程式化套语体系（Parry-Lord 意义上的「口头程式」）+ 泛希腊祭仪与竞技文化 + 后世（古风与古典时代）以荷马为共同课本的教育与修辞传统",
+  "style_name": "荷马风格（Homeric style）：程式化套语与重复、六音步格律、长明喻、直接引语与演说体、环形结构与叙述延迟、以第三人称全知叙述者并偶入「诗人呼告」的插入语",
+  "courtesy_name": "无（古希腊无字、号制度）",
+  "pseudonym": "古代别号与传说称谓：「盲诗人」（希俄斯岛盲歌者的传说）、「七城争荷马」中的各家乡里说、与赫西俄德竞赛的故事（《荷马与赫西俄德之竞赛》Certamen）。这些称谓与轶事均出自晚出材料，无同时代证据。传世文本中没有作者自述，一切关于其创作方法的论断都是后世（亚里士多德《诗学》、亚历山大里亚学者、现代口头诗歌理论）的重构与归纳，引用时必须标明是他人追述而非其自述。",
+  "historical_significance": "荷马是欧洲文学传统的第一块基石，也是口头长篇叙事方法的第一个清晰样本。其一，文本规模与形态：两部史诗共约两万八千行六音步诗，构成一个自足的叙事宇宙——一次战争（《伊利亚特》只写特洛伊战争第十年的五十余天）与一次归返（《奥德赛》写战后十年间的漂泊与回家）。其二，方法的公共性：史诗不是在私人书斋里阅读的文本，而是在祭仪与节庆上向共同体诵唱的表演；「以诗存名」（kleos aphthiton，不朽的荣光）既是诗中人物的动机，也是诗歌自身的功能。其三，教育功能：柏拉图说荷马养育了希腊，古风与古典时代的希腊人从荷马获得神谱、英雄谱、修辞范本与价值教育，整个希腊文学（悲剧、抒情诗、历史、哲学）都与他对话——索福克勒斯的悲剧、希罗多德与修昔底德的历史书写、柏拉图对诗人的批判都在回应荷马。其四，跨时代传承：文本经亚历山大里亚校勘与拜占庭抄本传世，文艺复兴以来成为欧洲叙事艺术的结构来源（从维吉尔《埃涅阿斯纪》到乔伊斯《尤利西斯》、从但丁到德里克·沃尔科特，无不在与荷马对话）。其五，方法论价值：帕里—洛德的口头程式理论从荷马出发，建立了「口头创作如何在每一次表演中即时完成」的整门学科，使「荷马」成为理解一切口传文学传统的钥匙。",
+  "unique_thinking": "荷马的独特之处在于：他把「用现成的语言零件在表演中即时拼出长篇叙事」当作创作的基本条件来经营，而不是把写作当成先在纸上成形的私事。他的独门路径是：其一，以程式化套语为基本单位——固定的名词—形容词组合（「足下生风的阿喀琉斯」「玫瑰色手指的黎明」）按格律位置成套备用，让歌者在演出压力下不必逐字发明即可稳态产出（M-HOM-001）；其二，把大型段落做成首尾相抱的环形结构，同一意象或词句在段首与段尾重现，使听觉中的听众也能感到闭合（M-HOM-002）；其三，用长明喻把第二个世界整块搬进来——战场上的士兵被比作农夫的橄榄苗、被比作雪融的河水，明喻从战场逃逸到和平劳动与自然，使叙事获得厚度（M-HOM-003）；其四，从中间开场：史诗不从战争起点而从不和的第九年、不从漂泊起点而从英雄被扣在女神岛上的时刻起讲，把前情交给倒叙与内嵌叙述（奥德修斯在淮阿喀亚宫廷讲自己的历险，M-HOM-004）；其五，让敌人也成为可哭的人：普里阿摩斯吻杀死自己儿子的手，阿喀琉斯与他同哭，敌方亲属的哀悼被给予正面的段落（M-HOM-005）；其六，把社会冲突写成荣誉的账本——阿伽门农拿走阿喀琉斯的战利品，等于在公开的分配账上抹掉其荣誉，冲突的根源是分配规则而非单纯脾气（M-HOM-006）；其七，同时保住「命运注定」与「他在自己决定」两种说法，使事件既属于必然也属于人（M-HOM-007）；其八，以待客之礼（xenia）为主线设计一连串试炼：谁守礼、谁越礼、谁在一再受礼遇中仍能保持自制（M-HOM-008）；其九，用伪装、延迟与标记物完成认出：伤疤、弓、床、橄榄树桩让身份在最后一刻被确认，而认出之所以有力是因为它被延迟到极点（M-HOM-009）；其十，把整部作品交付给共同体的记忆制度：诗人请求缪斯赐歌，诗歌的功能是让英雄的名字不随尸体腐朽（M-HOM-010）。与后来的书面叙事者相比，他少了交往性的文体个性，多了对「即时表演」这一硬约束的彻底利用：重复不是缺陷而是设施，套语不是陈词而是可装配的构件。",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-HOM-001",
+    "M-HOM-002",
+    "M-HOM-003",
+    "M-HOM-004",
+    "M-HOM-005",
+    "M-HOM-006",
+    "M-HOM-007",
+    "M-HOM-008",
+    "M-HOM-009",
+    "M-HOM-010"
+  ],
+  "mode_ids_note": "M-HOM-001~010 为本档案深度挖掘的 10 个 v6 思维模式。卡面 literal 写定 'M-HOM-001~010'，与 code 规范（figure_code 去空格、大写、至多 8 字符：Maxwell->M-MAX、Watt->M-WATT、Thucydides->M-THU、Kepler->M-KEP、WangXizhi->M-WAN、Sophocles->M-SOP）一致：'Homer' 取前三字母 HOM。实测 data/modes_data.json（2938 条，2026-09-21 20:45 CST）与 data/figures（286 个入口）：'M-HOM' 前缀零占用；同区 'M-HON-001~010' 属另一人物（figure_code=HON，模式名为三现主义法等），与本档案无关，严禁混用；figure_code 'Homer' 不在库亦不在 figures 目录，故无需改写前缀，库内亦无任何 H-HOM-* 键。",
+  "key_concepts": [
+    "口头程式（formula）",
+    "程式化套语",
+    "典型场景（type-scene）",
+    "六音步长短短格",
+    "诗歌混合语（Kunstsprache）",
+    "环形结构（ring composition）",
+    "长明喻（Homeric simile）",
+    "叙述延迟",
+    "中段开场（in medias res）",
+    "内嵌叙述（apologoi）",
+    "缪斯呼告",
+    "荣誉（timē）",
+    "战利品（geras）",
+    "不朽荣光（kleos aphthiton）",
+    "命运与自主（double motivation）",
+    "待客之礼（xenia）",
+    "伪装与认出（anagnorisis）",
+    "哀悼与共泪",
+    "敌方人性化",
+    "以诗存名",
+    "口头诗歌理论（Parry-Lord）",
+    "荷马问题",
+    "七城争荷马",
+    "泛希腊诵唱"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-SOP-001",
+      "target_figure_name": "索福克勒斯",
+      "relation_type": "史诗叙事术到悲剧结构的继承与改造：前知、追查与哀悼的两种装置",
+      "description_zh": "索福克勒斯的悲剧把荷马史诗的两项核心装置改造成舞台技术。其一是知情落差的再分配：史诗里听众早已知道阿喀琉斯的结局而不影响其选择的力量，索福克勒斯把这层「听众前知」变成结构引擎，让观众持有结局、让角色一无所知（M-SOP-001），而荷马的方法是把命运提前告知听众却仍让英雄的行动承担全部重量（M-HOM-007）——同一种「前知」，一个用于制造戏剧张力，一个用于给行动加权。其二是哀悼的公共化：荷马让普里阿摩斯与阿喀琉斯同哭、让赫克托耳的葬礼成为全城的公共事务（M-HOM-005），索福克勒斯把哀悼提炼为共同体可承担的形式（M-SOP-008），使「给死者葬礼」成为对抗权力、确认人性的正面动作。两者共享同一套素材（特洛伊与忒拜神话、英雄与家礼），差别在于乐器：荷马用六音步诵唱与明喻的厚度，索福克勒斯用三个演员与歌队的当场承担。",
+      "bidirectional_hint": "索福克勒斯档案（H-SOP-001 / M-SOP-*）未来修订时，可在 M-SOP-008（哀悼的公共形式）处补一条指向 Homer / M-HOM-005 的对照：悲剧的哀悼形式承自史诗的公共葬礼与共泪场面；亦可在 M-SOP-001（前知与落差）处对照 M-HOM-007 的宿命—自主双称，指出「听众前知」在史诗与悲剧中的两种用途。",
+      "mode_pair": [
+        "M-HOM-005",
+        "M-SOP-008"
+      ]
+    },
+    {
+      "target_figure_code": "Herodotus",
+      "target_figure_name": "希罗多德",
+      "relation_type": "史诗传统到历史书写的过渡：口述材料、多声并置与叙事成史",
+      "description_zh": "希罗多德的历史书写站在荷马史诗的延长线上：他把史诗的口述—巡访—并置方法转用于关于真实人事的探究。荷马以待客之礼与身份试炼串联异邦见闻（M-HOM-008），希罗多德把它发展为田野巡证（M-HRD-004）与风俗相对（M-HRD-005），让异邦人的礼俗以自身标准被记述；荷马用内嵌叙述让漂泊者讲述远方的城市与人心（M-HOM-004），希罗多德则把「听闻—核实—存疑」做成明示的取材纪律（M-HRD-001 询证存疑法、M-HRD-006 口述档案法）。两人的差别在于目标：荷马的叙述为荣誉与哀悼服务，把事例纳入一首可歌的诗；希罗多德把事例排成多声并置的原因之网（M-HRD-003），让读者自己承担判断。但两者都拒绝单一裁决者的口吻——史诗让双方英雄各自发言，历史让对立叙述并列。",
+      "bidirectional_hint": "希罗多德档案（H-HRD-001 / M-HRD-*）未来修订时，可在 M-HRD-006（口述档案）与 M-HRD-009（叙事成史）处补一条指向 Homer / M-HOM-004 与 M-HOM-008 的对照：史家的口述取材与异邦风俗记述的口传前身即史诗的漂泊者叙事与待客之礼。",
+      "mode_pair": [
+        "M-HOM-004",
+        "M-HRD-006"
+      ]
+    },
+    {
+      "target_figure_code": "Alexander",
+      "target_figure_name": "亚历山大大帝",
+      "relation_type": "荷马作为行动者的课本：以史诗人物为自我书写的模板",
+      "description_zh": "亚历山大据普鲁塔克《亚历山大传》随身携《伊利亚特》（得自亚里士多德校订的本子，枕下常置），并以阿喀琉斯自比：他自认阿喀琉斯一系的血脉，远征途中祭阿喀琉斯之墓、以英雄谱系给征服叙事赋形。这是一种对荷马的特殊使用方式：不是把史诗当故事读，而是把诗中的英雄当作可认领的身份与行动模板，用史诗的荣誉逻辑（kleos，不朽的荣光，M-HOM-010）为自己的远征制作合法性叙事。反过来，这一接受史也说明了荷马的独特位置：史诗提供的不只是叙事技术，更是一套「何为值得纪念的一生」的价值语言，后世的政治行动者反复从中取材。需要注意性质区分：亚历山大式的「荷马叙事法」是后世对史诗的征用（接受史），不是荷马本人对战争方法的论述；荷马史诗对战争残酷的呈现远非单纯的英雄礼赞。",
+      "bidirectional_hint": "亚历山大档案（H-ALEXANDE-001 / M-ALEXANDE-*）未来修订时，可在 M-ALEXANDE-008（荷马叙事法）处补一条指向 Homer / M-HOM-010 的对照：以诗存名的荣誉机制如何被后世政治家征用为合法性叙事，并注明这属于接受史而非荷马自述。",
+      "mode_pair": [
+        "M-HOM-010",
+        "M-ALEXANDE-008"
+      ]
+    }
+  ],
+  "tags": [
+    "荷马",
+    "Homer",
+    "Ὅμηρος",
+    "伊利亚特",
+    "Iliad",
+    "Ἰλιάς",
+    "奥德赛",
+    "Odyssey",
+    "Ὀδύσσεια",
+    "六音步",
+    "Dactylic Hexameter",
+    "口头诗歌",
+    "Oral Poetry",
+    "程式化套语",
+    "Formula",
+    "帕里",
+    "Parry",
+    "Lord",
+    "典型场景",
+    "Type-scene",
+    "环形结构",
+    "Ring Composition",
+    "长明喻",
+    "Homeric Simile",
+    "叙述延迟",
+    "中段开场",
+    "In Medias Res",
+    "内嵌叙述",
+    "Apologoi",
+    "缪斯",
+    "Muse",
+    "阿喀琉斯",
+    "Achilles",
+    "赫克托耳",
+    "Hector",
+    "奥德修斯",
+    "Odysseus",
+    "普里阿摩斯",
+    "Priam",
+    "佩涅洛佩",
+    "Penelope",
+    "荣誉",
+    "Timē",
+    "Kleos",
+    "待客之礼",
+    "Xenia",
+    "认出",
+    "Anagnorisis",
+    "荷马问题",
+    "Homeric Question",
+    "七城争荷马",
+    "特洛伊",
+    "Troy",
+    "泛希腊"
+  ],
+  "caveats": [
+    "荷马问题未决（作者与年代）：本档案的一切「荷马方法」都是在《伊利亚特》《奥德赛》两部文本之上作出的归纳，而这两部史诗的作者问题至今没有定论。主要立场包括：统一论（unitarian，主张一人所作）、分离论（analyst，主张《伊利亚特》与《奥德赛》分属不同作者，或各由多层材料拼合）、新分析派（neo-analysis，主张书面诗人对前代史诗材料作了个体化改写）、口述派（oralist，主张文本是口头传统在表演—传抄过程中逐渐定型的产物，Parry-Lord 一系）。「荷马」是否为一个真实个人、是一个人还是两个或更多人、是一位歌者还是一位编纂者，都无法由现存证据判定。生卒年代的通说（约前 8-前 7 世纪）本身波动达一个世纪以上，且建立在极稀少的引述与图像证据之上。任何方法论的归属都应写作「文本呈现出的方法」而不是「荷马本人的主张」。",
+    "文本是后世产物，无亲笔原作：两部史诗由口头表演传统孕育，今本却是书写、传抄、校订的产物。古代提到公元前 6 世纪雅典佩西斯特拉托斯时期对荷马文本的整理（「佩西斯特拉托斯校订」之说，史料本身晚出且有争议）；前 3-前 2 世纪亚历山大里亚图书馆学者（泽诺多托斯、阿里斯托芬、阿里斯塔科斯）编订校本并留下大量异文与怀疑标记；中世纪拜占庭抄本（以 10 世纪 Venetus A 与若干纸草残片为骨干）传下现存文本。抄本之间的异文、重复段落与「可疑行」的判定直接影响方法论的引用，引用具体行号时应标明版次（如 Allen OCT、West Teubner），不可把现代校勘本的划分当作口头表演的实况。",
+    "传记材料属传说：关于荷马的生平几乎没有可信证据。「希俄斯岛的盲歌者」「七城争荷马」（士麦那、希俄斯、科洛丰、萨拉米斯、罗得斯、阿耳戈斯、雅典等自称其乡里）、与赫西俄德的诗歌竞赛、因《伊利亚特》某句而受罚等故事，全部出自古典时代晚期与希腊化时期的材料，其性质是「古代对荷马的想象与崇拜」，不是可核查的史实。「荷马」一名本身可能是职业或传统标签而非个人姓名（词源异说之一为「拼合者」）。Homēridai（希俄斯岛上自称荷马后裔的诵诗人行会）的存在只能证明早期已有以荷马为名的职业传承，不能证明其人。",
+    "后世理论不可读回作者：本档案所提炼的「程式化套语」「环形结构」「双称动机」等概念是后世的方法论重构，不是荷马的自述。帕里—洛德的口头程式理论（20 世纪，以荷马与南斯拉夫口传歌手对比）是研究工具，其结论在学界仍有争论（如程式与独创的关系、口述与书写的边界）；亚里士多德《诗学》、亚历山大里亚学者的评注、普罗提诺与早期基督教寓意解经都是不同时代的阅读框架。古代对荷马的寓意解释（如把神战读成自然元素冲突）、柏拉图对诗人的批判（《理想国》卷十）与「荷马养育了希腊」的推崇（606e）都是接受史。把这些读法写进方法描述时必须标明其时代与来源。",
+    "历史与社会语境的引用限度：史诗叙述的是迈锡尼时代（约前 12 世纪）的特洛伊战争背景，呈现的却是古风时代（约前 8-前 7 世纪）的器物与制度（铁器与青铜并用、战车作运输而非冲锋、城邦与贵族宴饮、泛希腊祭仪与竞技），并含明显的年代错置（野猪牙头盔属更早的时代遗存）。把史诗当历史文献使用必须极为谨慎：特洛伊遗址（希萨利克）的考古层次与赫梯文献中的 Wilusa/Alaksandu 对应关系仍属争论中的假说，不能据诗歌复原一场战争。同时，诗中的价值（以杀戮获取荣誉、战败者沦为奴隶、妇女作为战利品分配）属于那个世界，本档案在「现代应用」处只提取其结构方法，不对其价值立场作背书。"
+  ],
+  "modes": [
+    {
+      "id": "M-HOM-001",
+      "mode_code": "M-HOM-001",
+      "figure_code": "Homer",
+      "name_zh": "程式化套语编织法（用可装配的现成构件在表演中即时成篇）",
+      "name_en": "Weaving with Formulas: Composing a Long Narrative Live from Prefabricated Units",
+      "category": "文艺审美",
+      "category_raw": "核心方法",
+      "domain_zh": "口头诗歌/即席编排",
+      "domain_en": "Oral Poetry / Composition in Performance",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "荷马史诗不是先在纸上写成的文本，而是在祭仪与节庆上向听众诵唱的表演：歌者必须在演出压力下当场编织上万行六音步诗。支撑这件事的是一套高度可装配的语言零件——固定的名词—形容词组合（「足下生风的阿喀琉斯」「玫瑰色手指的黎明」「牧人的慰藉黑夜」）按格律位置成套备用，同一人物在句首、句中被六个以上不同套语覆盖，歌者只需按格律与句法槽位选取、拼接，就能在不逐字发明的情况下稳态产出。套语之上还有更高一级的模块：典型场景（type-scene）——武装、宴饮、献祭、航行、天明、待客、出战——各有固定的动作序列与词句骨架，叙述者填入具体人物即可生成整段；再上一层是「主题」（theme），如「伪装者归家」「诱骗—再诱骗」。这套方法的关键不是「重复」本身，而是一个纪律：把语言预先切成能与格律彼此咬合的构件，让创作的负担从「发明字句」转移到「选择与装配」，从而把注意力留给整体结构与听众的现场反应。程式不是陈腐，它是有信息量的设施：听见「足下生风」即知道来者是阿喀琉斯，听见「玫瑰色手指」即知道天已破晓。方法论签名：先建立一套按格律槽位成套备用的构件库（套语、场景骨架、主题模块），再把创作改写为「在实时压力下选择并装配构件」的动作，让形式负担前置、现场注意力留给结构与听众。",
+      "definition_en": "The Homeric epics were not written out first and recited afterwards: they were sung to audiences at festivals and sacrifices, and the singer had to weave tens of thousands of hexameter lines live under performance pressure. What makes that possible is a set of highly assemblable verbal parts. Fixed noun-epithet combinations - swift-footed Achilles, rosy-fingered dawn, the kindly dark, the shepherd of the people - are kept ready in sets keyed to metrical position, so a single character is covered by half a dozen different phrases according to where in the line he must fall; the singer selects and joins rather than inventing word by word. Above the phrase there are larger modules. The type-scene - arming, feasting, sacrifice, launching a ship, daybreak, guest-reception, going into battle - has a fixed sequence of actions and a skeleton of phrases into which any character can be slotted, generating a whole episode. Above that again are themes: the disguised wanderer's return, the trick and the counter-trick. The method's core is not repetition but a discipline: cut the language in advance into units that interlock with the metre, so that the burden of composition moves from inventing words to choosing and assembling them, and the mind is left free for the architecture and for the audience in front of you. Formulas are not stale filler; they are informative: hearing swift-footed tells you which man has entered, hearing rosy-fingered tells you the day has broken. Two conditions belong to this method. The stock must be internally consistent, so that any combination still scans and still makes sense, and the singer must be able to identify the decisive moment of a scene and vary the routine there rather than everywhere, since recomposition without selection produces monotony. Method signature: build a stock of parts keyed to fixed positions (phrases, scene skeletons, theme modules), then recast composition as the act of selecting and assembling those parts under real-time pressure, front-loading formal decisions so that live attention can go to structure and audience.",
+      "source_chapter": "《伊利亚特》与《奥德赛》全篇的表述层（重复套语、固定修饰语与典型场景序列）；《奥德赛》中歌者得摩多科斯（Demodocus，卷 8）与费米俄斯（Phemius，卷 1、22）的表演场面为诗内对自身演唱传统的自画像；现代方法论依据：Milman Parry 与 Albert Lord 的「口头程式」理论（以荷马与南斯拉夫口传歌手的现场记录相较）",
+      "key_quote_zh": "「ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος / οὐλομένην...」——《伊利亚特》第 1 卷第 1-2 行开篇：「女神啊，请歌唱佩琉斯之子阿喀琉斯的致命的忿怒。」（古希腊文原文；中文按通行义直译。开篇即以一套预制构件开场：「女神」「请歌唱」「佩琉斯之子」「阿喀琉斯」「致命的」「忿怒」各自是格律槽位上的成品。）",
+      "key_quote_en": "\"ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος / οὐλομένην...\" - Iliad 1.1-2, the opening: \"Sing, goddess, the accursed wrath of Peleus' son Achilles.\" (Greek text; English rendered according to the standard sense. The opening is itself an assembly of prefabricated parts - goddess, sing, son of Peleus, Achilles, accursed, wrath - each a ready unit in a metrical slot.)",
+      "key_concepts": [
+        "口头程式（formula）",
+        "固定修饰语",
+        "名词—形容词套语",
+        "格律槽位",
+        "典型场景（type-scene）",
+        "主题模块",
+        "即席编排",
+        "构件库"
+      ],
+      "process_zh": [
+        "清点构件：把领域里的高频单元（术语、句式、标准动作、常用场景）逐项列出，标明各自可安放的位置与搭配限制，形成一份可装配的清单",
+        "按槽位成套备用：为同一个人物、事物或动作准备多个长度不同、位置不同的表述，使任何相邻组合都能彼此咬合而不返工",
+        "把整段动作编成骨架：为反复出现的活动（开场、汇报、评审、交付）写好固定的动作序列与句式骨架，具体内容按当时情况填入",
+        "在关键节拍上做选择性变奏：只在真正决定成败的一两处打破常规，把变化集中于该处，其余部分保持可预期的稳态产出"
+      ],
+      "process_en": [
+        "Inventory the parts: list the high-frequency units of your domain - terms, sentence shapes, standard actions, recurring scenes - with the position and the combinations each one can take, so you hold an assemblable list",
+        "Keep multiple ready versions per slot: prepare several phrases of different length and position for the same person, thing or action, so that any adjacent pair locks together without rework",
+        "Skeletonize the routine: write a fixed sequence of actions and a phrase skeleton for each recurring activity - openings, reports, reviews, deliveries - leaving the content to be filled from the situation",
+        "Vary selectively at the decisive beat: break the routine in the one or two places that actually decide the outcome, concentrating change there and keeping the rest predictable"
+      ],
+      "representative_cases_zh": [
+        "《伊利亚特》与《奥德赛》的套语体系：同一位阿喀琉斯随格律位置被称为「足下生风的」「佩琉斯之子」「最杰出的阿开亚人」等多种成品；「玫瑰色手指的黎明」重复数十次，用以标记新的一天并按节律推进叙事；听众听到套语即可确认人物与情境，不必等待解释",
+        "典型场景的复用：武装（先披挂顺序、再武器细节、再出场）、宴饮（备食、分配、取食、撤席）、献祭（选牲、净手、撒麦、宰杀、烧烤、分享）、待客（引入、让座、洗浴、赠礼、留宿）各有固定骨架，填入不同人物即成不同段落；《奥德赛》卷 8 得摩多科斯的演唱与卷 1、22 费米俄斯的演唱，也在诗内给出了歌者当着听众取材、承命演唱、因政治处境而改词的自画像",
+        "反面警示：把程式当成偷懒的复制——无差别地重复同一句式与同一修饰语，遇到任何情境都用同一套词，结果构件彼此冲突（位置、语气或对象不合）却仍强行拼装。另一种失误是只备构件不改结构：把「即时装配」当成「永不变化」，于是作品在第二次交付时仍逐字照念上一次的稿子。真正的做法是构件稳定、装配随情境选择——荷马在《奥德赛》里让同一场待客骨架在前后的不同主人处承担完全不同的伦理含义（守礼者与越礼者都用同一骨架，对照才成立）。"
+      ],
+      "representative_cases_en": [
+        "The formulaic system of the two epics: the same Achilles is addressed as swift-footed, son of Peleus, or best of the Achaeans according to metrical position; rosy-fingered dawn recurs scores of times to mark the new day and pace the narrative; a listener who hears the phrase knows who has entered and in what situation, without waiting for explanation",
+        "Reuse of type-scenes: arming (order of pieces, detail of weapons, then the exit), feasting (preparing, portioning, taking food, clearing), sacrifice (choosing the victim, washing hands, scattering barley, killing, roasting, sharing), guest-reception (leading in, seating, bathing, gifts, lodging) each have a fixed skeleton that takes any character and becomes a different episode. Within the poems, the performances of Demodocus in Odyssey 8 and of Phemius in 1 and 22 give a self-portrait of the singer working from a stock, taking requests, and adjusting words to a political situation",
+        "Cautionary: treating the stock as mere copying - repeating one sentence shape and one epithet without discrimination, applying the same phrasing to every situation, so that units conflict in position, tone or object and are forced together anyway. The other failure is keeping the parts and losing the assembly: reading last time's script verbatim as though live composition meant never changing. The genuine practice holds the parts stable and makes the assembly chosen - and note that Homer runs the same guest-reception skeleton through hosts who honour it and hosts who violate it, so that the contrast, not the repetition, carries the meaning."
+      ],
+      "modern_applications_zh": [
+        "演讲与现场表达：为常用开场、转承与收束各准备若干长度不同的成品句式，现场只做选择与装配，把注意力留给听众反应而不是临时造句",
+        "组织知识管理与文档体系：把反复出现的流程、模板、标准段落做成可装配构件库，并明确各自的适用槽位与搭配限制，避免每次从零起草",
+        "客服与运营话术：建立覆盖同一意图的多档表述（简短/完整/安抚/拒答），使不同情境都能即时取用且彼此衔接，同时保留在关键处个性化变奏的权限",
+        "即兴表演与教学：教师的课堂用语、乐手的过门、主持人的串场都可按套语思路预制骨架，把创作力集中到真正需要变化的一两个节拍上"
+      ],
+      "modern_applications_en": [
+        "Speaking and live delivery: prepare several ready-made sentence shapes at different lengths for openings, transitions and closings, so that on stage you select and assemble rather than compose, and your attention stays on the room",
+        "Organizational knowledge and documentation: turn recurring processes, templates and standard passages into an assemblable stock, with the slot and the combination limits of each unit made explicit, so that nothing is drafted from zero each time",
+        "Support and operations scripts: build several registers for the same intent - terse, full, reassuring, refusing - so that any situation can draw instantly and the registers still join cleanly, while keeping the right to vary at the decisive moment",
+        "Improvisation and teaching: classroom phrasing, a musician's transitions and a host's links can all follow the formulaic logic of a prepared skeleton, concentrating invention on the one or two beats that genuinely need change"
+      ],
+      "related_modes": [
+        "M-HOM-002",
+        "M-HOM-003",
+        "M-HRD-006"
+      ],
+      "representative_figures": [
+        "荷马",
+        "得摩多科斯（《奥德赛》中的歌者）",
+        "帕里—洛德（口头诗歌理论）"
+      ]
+    },
+    {
+      "id": "M-HOM-002",
+      "mode_code": "M-HOM-002",
+      "figure_code": "Homer",
+      "name_zh": "环形包孕结构法（让段落的开头与结尾互相抱住）",
+      "name_en": "Ring Composition: Making a Passage Close by Returning to Its Opening",
+      "category": "文艺审美",
+      "category_raw": "核心方法",
+      "domain_zh": "叙事结构/听觉组织",
+      "domain_en": "Narrative Structure / Organization for the Ear",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "荷马的听众不是向后翻页的读者，而是只能靠耳朵一次性接收的现场观众。为了让长段落可被记住与定位，史诗反复使用一种结构：段落的开头与结尾用相同的词句、意象或动作互相呼应，中间则可以展开很远——这就是环形包孕（ring composition）。形式可以是一层（A … A'），也可以嵌套数层（A B C … C' B' A'），像俄罗斯套娃一样把内容裹在中间。最著名的样本是《伊利亚特》第 1 卷：全卷以阿喀琉斯与阿伽门农的争吵（因分配战利品而起）开头，以阿喀琉斯与母亲忒提斯在海岸的会面、以及宙斯对忒提斯的承诺收束，把「羞辱—申诉—补偿承诺」包成一个闭环；《奥德赛》的叙述整体也常以离家与归家的镜像相互回应。环形结构的功能有四：一是闭合感——听众听到熟悉的词句回返，就知道一段结束了；二是记忆支撑——首尾互指为整段提供可抓取的把手；三是意义生成——当同一意象在末尾重新出现时，它已被中段的内容重新赋义（同一次争吵在卷末听来是另一件事）；四是可以无限嵌套而不失定位。方法论签名：为每一段设计首尾互相呼应的锚点（词句、意象或动作），在中间自由展开，使段落因回返而闭合、因闭合而可被记住，并让回返处承担被中段重新赋义的功能。",
+      "definition_en": "Homer's audience did not turn pages; it heard the poem once, in performance. To keep long passages locatable and memorable, the epics use a recurring shape: the opening of a passage is answered at its close by the same words, image or action, while the middle may travel a long way - ring composition. The frame may be single (A ... A') or nested several layers deep (A B C ... C' B' A'), wrapping the content like a set of dolls. The best-known instance is Iliad 1, which opens with the quarrel of Achilles and Agamemnon over the distribution of a prize and closes with Achilles meeting his mother Thetis by the shore and Zeus promising her redress, so that insult, appeal and pledge of compensation form one closed circuit; the Odyssey as a whole is repeatedly framed by mirrored departures and returns. The device does four jobs. It gives closure, because the ear hears the familiar phrase come back and knows the unit is over. It supports memory, because the opening and closing cross-reference each other and give the whole a handle. It generates meaning, because when the same image reappears at the end it has been re-meaned by everything in between - the same quarrel sounds like a different thing by the close of the book. And it nests without limit while still keeping the listener oriented. Three conditions hold the method up. The frame must be recognisable, so the echoed element has to be distinctive enough to be heard as an echo; the return must be altered by what happened in the middle, or the ring is mere repetition; and the nesting must not be deeper than the ear can track in one pass. Method signature: give every passage opening and closing anchors that answer each other - a phrase, an image, an action - let the middle travel freely, and let the point of return carry the new meaning that the middle has produced.",
+      "source_chapter": "《伊利亚特》第 1 卷（争吵开场—忒提斯申诉—宙斯承诺收束的完整环）与第 24 卷（赫克托耳葬礼收束全诗）；《奥德赛》卷 1（宙斯与雅典娜的框架）与卷 22-24（复仇与和解的对应）；学界对「环形结构」的系统研究始于 19-20 世纪对荷马与《圣经》叙事的文体分析",
+      "key_quote_zh": "「μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος / οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε」——《伊利亚特》第 1 卷第 1-2 行：请歌唱佩琉斯之子阿喀琉斯的忿怒，那给阿开亚人带来无数苦难的忿怒。（古希腊文原文；中文按通行义直译。首句立下的「忿怒」正是全诗到卷 24 才被「平息—安葬」所回答的那个锚点。）",
+      "key_quote_en": "\"μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος / οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε\" - Iliad 1.1-2: sing, goddess, the wrath of Peleus' son Achilles, the accursed wrath that put countless pains on the Achaeans. (Greek text; English rendered according to the standard sense. The wrath set up in the first line is the anchor that only the reconciliation and burial of Book 24 answer.)",
+      "key_concepts": [
+        "环形结构（ring composition）",
+        "首尾呼应",
+        "嵌套包孕",
+        "闭合感",
+        "记忆把手",
+        "回返赋义",
+        "听觉定位",
+        "A-B-C-B'-A' 框架"
+      ],
+      "process_zh": [
+        "为每段设定锚点：先决定这一段用什么词句、意象或动作来标记它的开始，并预设它将在结尾以回应形态回返",
+        "允许中段自由展开：把嵌套内容放进锚点之间，不必迁就时间顺序，只要保证每一层都有自己的首尾呼应",
+        "让回返携带新义：结尾重现开头时，必须因为中段发生的事而被重新赋义，避免只是原样复述",
+        "控制嵌套深度：按听众一次接收的限度决定层数，并用不同强度的标记区分「这一段结束」与「整章结束」"
+      ],
+      "process_en": [
+        "Set the anchors first: decide which phrase, image or action will mark the opening of the passage, and pre-decide the answering form in which it will return at the close",
+        "Let the middle travel: place the nested content between the anchors without obeying chronological order, so long as every layer has its own matching close",
+        "Make the return carry new meaning: when the opening reappears at the end it must be re-meaned by what happened in between, never simply restated",
+        "Control the depth: set the number of layers by what an audience can track in one pass, and use markers of different strength to distinguish the end of a passage from the end of a whole movement"
+      ],
+      "representative_cases_zh": [
+        "《伊利亚特》第 1 卷的完整环：争吵（阿喀琉斯受辱、退战）→ 阿喀琉斯向母亲申诉 → 忒提斯面见宙斯 → 宙斯应允惩戒阿开亚人 → 神界争执（赫拉与宙斯）→ 回返奥林波斯，全卷终于神界的安排与争吵的后果。听众听到开头的「忿怒」在卷末已被重新赋义：它不只是脾气，而是整个战争走向的转折点",
+        "《伊利亚特》第 24 卷的收束环：全诗以阿喀琉斯的忿怒开头，以他接受普里阿摩斯的赎礼、交还赫克托耳尸体、双方同哭并举行葬礼收束——同一个英雄在开头拒绝和解，在结尾亲手把敌人的尸体交给其父，全诗的环形因此在最高层闭合（M-HOM-005 的共泪场面正是此环的回返点）",
+        "反面警示：把首尾呼应做成无意义的复读——结尾原样抄回开头而没有中段的赋义，听众感到的是绕了一圈白走（所谓「环形空转」）。另一种失误是嵌套过深或标记过弱：里外数层都用同样的句式与意象，听众分不清哪一层结束了，反而失去定位功能。还有一种是只做形式不做承重：把呼应放在无关紧要的修饰上（同一个月亮被提了两次），而对真正的转折点不加标记。"
+      ],
+      "representative_cases_en": [
+        "The full ring of Iliad 1: the quarrel (Achilles dishonoured, withdrawing from battle), his appeal to his mother, Thetis before Zeus, Zeus's promise to punish the Achaeans, the quarrel of the gods (Hera against Zeus), and the return to Olympus, closing the book on the consequences of the opening quarrel. By the close the audience re-hears the opening wrath as something else: not a temper, but the hinge of the whole war",
+        "The closing ring of Iliad 24: the poem opens on Achilles' wrath and ends with him accepting Priam's ransom, returning Hector's body, weeping with the old man and holding the funeral, so that the same hero who refused reconciliation at the start hands his enemy's corpse to his enemy's father at the end and the largest ring shuts - the shared-lament scene of the humanizing-the-enemy method is exactly this ring's point of return",
+        "Cautionary: making the frame an empty restatement - the opening copied back at the end with no re-meaning from the middle, so the audience feels it has walked a circle for nothing. The second failure is nesting too deep or marking too faintly: several layers sharing one sentence shape and one image, so the ear cannot tell which layer has closed and the orientation is lost. The third is framing something weightless - echoing an incidental detail such as the moon mentioned twice, while the real turning point goes unmarked."
+      ],
+      "modern_applications_zh": [
+        "演讲与报告结构：为开场立一个明确的锚点（一句判断、一个场景），结尾让它在完成论证后回返，听众因此得到闭合感并记住整场的关键",
+        "长篇文档与课程设计：每一章用首尾呼应的方式闭合，章内小节也如此嵌套，使读者在任何位置都知道自己处于哪一层",
+        "影视与游戏叙事：用视觉母题（同一物件、同一构图、同一句台词）标记段落的开合，让观众在回返处感到意义的位移而非重复",
+        "会议与复盘的组织：以同一问题开场、以对同一问题的回答收束，中间展开讨论，闭合处自然暴露前后认识的变化"
+      ],
+      "modern_applications_en": [
+        "Talks and report structure: set one clear anchor at the opening - a judgement, a scene - and let it return after the argument is done, so the audience gets closure and remembers the spine of the whole",
+        "Long documents and course design: close every chapter by answering its own opening, and nest the same shape in sub-sections, so a reader always knows which layer they are inside",
+        "Film, television and game narrative: use visual motifs - one object, one composition, one line of dialogue - to mark where passages open and shut, so the point of return reads as a shift in meaning rather than a repeat",
+        "Meetings and reviews: open on a question and close by answering the same question, with the discussion in between, so the closing moment makes the change in understanding visible"
+      ],
+      "related_modes": [
+        "M-HOM-001",
+        "M-HOM-003",
+        "M-HOM-008",
+        "M-SOP-004"
+      ],
+      "representative_figures": [
+        "荷马",
+        "维吉尔（承此结构写《埃涅阿斯纪》）",
+        "《圣经》叙事文体研究者（环形结构分析传统）"
+      ]
+    },
+    {
+      "id": "M-HOM-003",
+      "mode_code": "M-HOM-003",
+      "figure_code": "Homer",
+      "name_zh": "长明喻扩容法（把整个第二世界搬进一句比较里）",
+      "name_en": "The Extended Simile: Importing a Whole Second World into a Comparison",
+      "category": "文艺审美",
+      "category_raw": "核心方法",
+      "domain_zh": "意象与修辞/意义扩容",
+      "domain_en": "Imagery and Rhetoric / Expansion of Meaning",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "荷马史诗最醒目的修辞装置是「荷马式长明喻」：它不满足于一个词的类比，而是把整个场景搬进来——两军冲锋被比作山洪冲下的两块滚石，一名士兵倒下被比作花园里被风吹倒的罂粟，阿喀琉斯追击赫克托耳被比作猎鹰与鸽子的追逐，奥德修斯的眼泪被比作雪融成的水流。这些明喻普遍取自和平的领域：农事、牧养、狩猎、木工、航海、季节、星辰。它的运作方式是：先把战场（或任何当下事件）悬置，展开一幅独立自足的小画面（常常长达数行，有动作主体、场景与细节），再在句末回到被比较的对象上。效果有三重：一是厚度——听众在厮杀中忽然被带进农夫扶犁、女子纺织、木匠造船的世界，叙事因此不只是一条事件线，而是一个完整社会的显影；二是距离与节奏——惨烈处插入一幅平静画面，形成呼吸与控制，使暴力不被消费成连续刺激；三是判断——被选中的第二世界自带评价，把士兵比作被砍倒的树，比直接说「他死了」更重，因为读者的注意力被引向生命的生长与终止本身。方法论签名：在关键处把当下事件暂时悬置，展开一幅取自另一领域、独立成立的小画面，再在句末回到比较对象上，让第二个世界自己带来厚度、节奏与判断。",
+      "definition_en": "The most conspicuous rhetorical device in the epics is the Homeric or extended simile: rather than a one-word analogy it imports an entire scene. Two armies charging are compared to two boulders torn loose by a mountain torrent; a soldier falling is a poppy in a garden bowed by the wind; Achilles hunting Hector is a falcon after a dove; Odysseus weeping is snow melting into a river. The comparanda come overwhelmingly from the world of peace - farming, herding, hunting, carpentry, seafaring, seasons, stars. The device works by suspending the present event, unfolding a small self-sufficient picture of its own (often several lines long, with its own agent, scene and details), and then returning at the end of the sentence to the thing compared. Its effects are threefold. It gives thickness: in the middle of killing, the audience is carried into the world of the ploughman, the weaver, the shipwright, so the narrative shows a whole society rather than a line of events. It gives distance and tempo: a calm image inside a violent passage creates a breath and a control, so that violence is not consumed as continuous stimulation. And it judges: the second world carries its own evaluation. Comparing a soldier to a felled tree says more than he died, because attention is drawn to growth and its ending. Three conditions make it work. The second scene must be self-sufficient - it must stand as a picture even if the comparison were removed. It must come from outside the immediate domain, so that it genuinely adds a world rather than restating the scene. And the return must land on the precise point of likeness, or the picture turns into a decorative digression. Method signature: at a decisive point suspend the present event, unfold a small self-sufficient picture drawn from another domain, then return to the thing compared at the sentence's end, letting the second world supply thickness, tempo and judgement on its own.",
+      "source_chapter": "《伊利亚特》第 4 卷（两军冲撞的滚石喻）、第 8 卷（倒下的兵士如被风吹倒的罂粟）、第 22 卷（阿喀琉斯追赫克托耳如猎鹰逐鸽）、第 5、11、17 卷（多处长明喻）；《奥德赛》卷 5（奥德修斯的眼泪如雪融水流）、卷 23（佩涅洛佩如海中礁石）等",
+      "key_quote_zh": "「οἵη δὲ μάκων στήθεσσι κάρη μίμνει...」——《伊利亚特》第 8 卷第 306-308 行：那名兵士倒下的头颅，如同花园里被风吹弯的罂粟（中文按通行义撮译；原文为荷马式长明喻，先展开花园中被风雨压弯的植物景象，再回到被击倒的战士）。",
+      "key_quote_en": "\"μήκων δ᾽ ὡς ἑτέρωσε κάρη βάλεν, ἥ τ᾽ ἐνὶ κήπῳ\" - Iliad 8.306: his head dropped to one side like a poppy in a garden (Greek text; English rendered according to the standard sense. The line belongs to an extended simile that first unfolds a garden plant bowed by rain, then returns to the stricken soldier.)",
+      "key_concepts": [
+        "长明喻（Homeric simile）",
+        "第二世界",
+        "自足小画面",
+        "和平领域取材",
+        "悬置与回返",
+        "节奏控制",
+        "评价性意象"
+      ],
+      "process_zh": [
+        "找出需要扩容的节点：选择事件的决定性瞬间（倒下、冲锋、哭泣、认出），而不是均匀地铺满比喻",
+        "从另一领域取景：选一个与当下事件距离够远的领域（劳作、自然、工艺、季节），使画面真正带来新的世界而不是复述现场",
+        "把画面写成能独立成立的小段：给出主体、动作与一两处细节，使其抽离比较之后仍然是一幅画",
+        "在句末精确回返：把落点对准被比较者的要害（生命的终止、控制权的转移、情绪的临界），让画面自行作出判断"
+      ],
+      "process_en": [
+        "Locate the node that needs expansion: choose the decisive instant of the event - the fall, the charge, the tears, the recognition - rather than spreading comparisons evenly",
+        "Take the picture from another domain: pick a field distant enough from the present event (labour, nature, craft, season) so the image really adds a world instead of restating the scene",
+        "Write the picture so it stands alone: give it an agent, an action and one or two details, so that it remains a picture even if the comparison were removed",
+        "Return precisely at the sentence's end: land on the exact point of likeness in the thing compared - the ending of a life, the transfer of control, the threshold of feeling - and let the picture pass its own judgement"
+      ],
+      "representative_cases_zh": [
+        "《伊利亚特》第 8 卷的罂粟喻：战士被击中倒地，诗句没有停留在伤口，而是走进一座花园，让一株罂粟被风雨压弯头颅，再回到死者身上——这幅小画面把「头颅低垂」的形态、脆弱与被照料过的生长同时带进来，死亡因此被感知为生命的终止而非一个数字",
+        "《伊利亚特》第 4 卷的滚石喻：两军相接被比作山间两条河道的激流把巨石互相撞碎，画面里有山、雨、洪流与卵石，随后回到盾牌相击、长矛相交的战场；《奥德赛》卷 5 的眼泪喻把奥德修斯在海边哭泣比作山地雪水汇入河口，和平的自然尺度因此承载了漂泊者的绝望",
+        "反面警示：把长明喻用成装饰——画面本身漂亮却与被比较者只有表面相似（只因为「都很快」就把人和风相比），或者画面喧宾夺主，听众记住了花园却忘了阵亡者。另一种失误是取材同域：用战争解释战争（把他冲得猛比作另一个猛攻的人），等于零扩容。第三是不加节制：每一句都展开一幅画，节奏被拖垮，长明喻的稀缺价值也随之消失——荷马的长明喻之所以重，正因为它被留给关键时刻。"
+      ],
+      "representative_cases_en": [
+        "The poppy simile of Iliad 8: a soldier is struck down, and instead of dwelling on the wound the line walks into a garden and bows a poppy's head under the rain before returning to the dead man. The small picture imports the shape of the drooping head, its fragility, and the care that once grew it, so the death registers as the ending of a life rather than a statistic",
+        "The boulder simile of Iliad 4: the clash of armies becomes a mountain torrent hurling two boulders against each other, with the mountain, the rain and the shingle all present before the line returns to shields struck and spears crossing. In Odyssey 5 the tears of Odysseus by the shore are mountain snow melting into a river mouth, so a peaceful natural scale carries the wanderer's despair",
+        "Cautionary: using the extended simile as ornament - a pretty scene with only superficial likeness to what it explains (a man compared to the wind merely because both are fast), or a picture so dominant that the audience remembers the garden and forgets the dead. The second failure is drawing from the same domain, explaining war by war, which adds nothing. The third is the loss of restraint: unfolding a picture in every sentence, which sags the tempo and destroys the scarcity value of the device - the Homeric simile weighs as much as it does because it is reserved for the decisive moment."
+      ],
+      "modern_applications_zh": [
+        "数据分析与报告写作：在关键结论处引入一个来自生活经验的类比场景，让抽象数字获得可感知的尺度，而不是堆叠更多数字",
+        "产品说明与科普：用用户熟悉的另一领域（家务、出行、烹饪）展开一段完整的小场景来解释机制，使听众记住的是画面而不是术语",
+        "危机沟通：在最紧张信息的旁边放置一幅平稳、日常的画面，给接收者一个呼吸点，避免把恐慌当作唯一刺激",
+        "教学与培训：把抽象概念落到一个可独立成立的例子场景上，让学生先获得画面，再回到概念本身，记忆与理解同时提高"
+      ],
+      "modern_applications_en": [
+        "Data analysis and report writing: at the key conclusion introduce a comparison scene drawn from ordinary experience, so the number acquires a felt scale instead of being followed by more numbers",
+        "Product explanation and popular science: unfold a complete little scene from a domain the audience knows - housework, travel, cooking - to explain a mechanism, so what they retain is the picture, not the term",
+        "Crisis communication: place a calm, everyday image beside the most alarming information, giving the receiver a breath rather than leaving alarm as the only stimulus",
+        "Teaching and training: land an abstract concept on a self-sufficient example scene, so students get the picture first and return to the concept afterwards, improving both memory and understanding"
+      ],
+      "related_modes": [
+        "M-HOM-001",
+        "M-HOM-002",
+        "M-HOM-005"
+      ],
+      "representative_figures": [
+        "荷马",
+        "维吉尔",
+        "但丁（《神曲》承荷马式明喻传统）"
+      ]
+    },
+    {
+      "id": "M-HOM-004",
+      "mode_code": "M-HOM-004",
+      "figure_code": "Homer",
+      "name_zh": "中段开场与倒叙回溯法（从最晚处起讲，把前情交给故事内叙述）",
+      "name_en": "In Medias Res and Embedded Retrospection: Starting Late and Handing the Past to a Character",
+      "category": "文艺审美",
+      "category_raw": "核心方法",
+      "domain_zh": "叙事方法/时间调度",
+      "domain_en": "Narrative Method / Scheduling of Time",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "《伊利亚特》不从战争爆发讲起，而从不和的第九年、从阿波罗降瘟疫、阿喀琉斯受辱的那一刻讲起；《奥德赛》不从特洛伊陷落讲起，而从战后第十年、英雄被扣在女神卡吕普索的岛上、其子在家中被求婚者围困的时刻讲起——主角到第 5 卷才第一次出场。荷马把整段前情交给两个装置：一是叙述者的压缩回顾（简要交代战争与漂泊的由来），二是故事内叙述——让角色自己把过去讲出来。最重要的样本是《奥德赛》卷 9-12：奥德修斯在淮阿喀亚人的宫廷上，当着主人的面用第一人称讲述独眼巨人、喀耳刻、塞壬与冥府之行（学界称这一段为 apologoi，「讲述」）。这一安排同时完成四件事：压缩了十年漂泊的年表，只保留可听的部分；把叙述权交给当事人，使他的自述成为对其人格的现场检验（主人与听众都在评价讲述者）；在故事内制造了「听众」这一层，让外部听众可以对照两面；并用第一人称的不可靠性给叙述本身埋下张力。方法论签名：从一个高张力的晚近时刻开场，用压缩回顾交代最低必要的前情，再把大段过去交回给当事人以第一人称讲述——同时保留外部视角，让听众能对叙述者本人作出判断。",
+      "definition_en": "The Iliad does not begin with the outbreak of the Trojan War but with the ninth year, the plague sent by Apollo, and the moment Achilles is dishonoured. The Odyssey does not begin with the fall of Troy but with the tenth year after it, the hero detained on Calypso's island while his son is besieged at home by suitors - and the protagonist does not appear in person until Book 5. Homer hands the missing past to two devices: the narrator's compressed retrospect (a brief account of the war and the wandering), and embedded narration - letting a character tell the past in his own voice. The most important instance is Odyssey 9-12, where Odysseus, a guest at the Phaeacian court, narrates in the first person the Cyclops, Circe, the Sirens and the descent to the dead, a passage scholars call the apologoi. The arrangement does four things at once. It compresses ten years of wandering into the part that can be heard, dropping the rest. It hands the narrative right to the man himself, so his account becomes a live examination of his character before his hosts and listeners. It creates an internal audience inside the story, against which the external audience can compare its own judgement. And it plants tension in the narration itself, since a first-person account can be shaped by its teller. Three conditions belong to the method. The chosen entry point must already be high-tension, not merely late. The retrospect must be cut to the minimum needed to make the present intelligible, since an overloaded background buries the present. And the narrator must be exposed to an on-stage audience whose reaction gives the external audience something to test the story against - otherwise a first-person block is an unopposed monologue. Method signature: open at a late, high-tension moment, fill in the minimum necessary past by compressed retrospect, then hand the largest stretch of the past back to a participant who narrates it in the first person - keeping an outside viewpoint alive so the audience can judge the narrator and not only the tale.",
+      "source_chapter": "《伊利亚特》第 1 卷开场（战争第九年、瘟疫与争吵，前情靠回溯交代）；《奥德赛》第 1-4 卷（忒勒马科斯的寻父之旅）、第 5 卷（奥德修斯首次出场）、第 9-12 卷（在淮阿喀亚宫廷的第一人称历险叙述 apologoi）",
+      "key_quote_zh": "「ἄνδρα μοι ἔννεπε, Μοῦσα, πολύτροπον, ὃς μάλα πολλὰ / πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν· / πολλῶν δ᾽ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω」——《奥德赛》第 1 卷第 1-3 行：「告诉我，缪斯，那位多智多谋的人，他在攻陷神圣的特洛伊城之后漂泊了许多地方，见过许多人的城邦，也懂得了他们的心思。」（古希腊文原文；中文按通行义直译。开篇即用「漂泊之后」把故事置于后段。）",
+      "key_quote_en": "\"ἄνδρα μοι ἔννεπε, Μοῦσα, πολύτροπον, ὃς μάλα πολλὰ / πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν\" - Odyssey 1.1-2: tell me, Muse, of the man of many turns, who wandered far after he sacked the sacred citadel of Troy. (Greek text; English rendered according to the standard sense. The opening places the story after the wandering, not at its start.)",
+      "key_concepts": [
+        "中段开场（in medias res）",
+        "压缩回顾",
+        "内嵌叙述（apologoi）",
+        "第一人称自述",
+        "故事内听众",
+        "叙述权分配",
+        "时间调度",
+        "叙述者可靠性"
+      ],
+      "process_zh": [
+        "选择入场时刻：把开场定在矛盾已经积累、尚可改变的最近时刻，而不是事件的起点或终点",
+        "压缩最低必要前情：用一段简短回顾交代不得不说的背景（谁、为何在此、赌注是什么），其余交给后文按需释放",
+        "把过去交回当事人：让关键人物以第一人称讲述大段亲历，并给他一个明确的在场听众与讲述理由",
+        "保留外部视角与对照：让听众既听到自述、又看到自述者的行为与他人评价，使叙述本身可被判断"
+      ],
+      "process_en": [
+        "Choose the entry point: open at the latest moment at which the conflict is already loaded and events can still turn, not at the beginning or the end of the affair",
+        "Compress the minimum necessary past: give one short retrospect covering only what must be known - who, why here, what is at stake - and release the rest on demand later",
+        "Hand the past back to a participant: let a key figure narrate a large stretch of his own experience in the first person, with an explicit on-stage audience and a stated reason to tell it",
+        "Keep an outside viewpoint alive: let the audience hear the narration and also see the narrator's conduct and others' judgements of him, so the telling itself can be appraised"
+      ],
+      "representative_cases_zh": [
+        "《奥德赛》卷 9-12 的 apologoi：奥德修斯在淮阿喀亚宫廷上应主人之请，用第一人称讲述独眼巨人、风袋、喀耳刻、冥府与塞壬；阿尔喀诺俄斯与在场的贵族既是听众也是评判者，而外部听众已经看过他在岛上的哭泣与自制，于是可以拿自述与行为互校。十年漂泊因此被压缩为可听的数段，且叙述者本人被置于检验之下",
+        "《伊利亚特》的中段开场：全诗从第九年的瘟疫与争吵起讲，特洛伊战争的十年正义性、海伦之劫、舰队集结全部靠零散回溯补出；因为省略了「战争从何而起」，诗得以把全部重量压在一个内部冲突上（战利品的分配），使一场战争的第十年被写成全诗的主题",
+        "反面警示：从中段开场却从不补前情——听众始终不知道赌注是什么，紧张感无法转化为意义。另一种失误是把前情一次倒完（长达数十页的背景铺陈），使开场的高张力被稀释为履历式叙述。第三是让第一人称自述缺少在场听众与理由：角色突然对着空气讲几卷往事，既无压力也无对照，叙述因此变成可靠到无趣的独白。"
+      ],
+      "representative_cases_en": [
+        "The apologoi of Odyssey 9-12: at the Phaeacian court Odysseus, asked by his host, narrates the Cyclops, the bag of winds, Circe, the dead and the Sirens in the first person. Alcinous and the nobles present are simultaneously audience and judges, while the external audience has already watched him weep and hold himself in check on the island, so the account can be cross-checked against the conduct. Ten years of wandering are compressed into a few audible stretches, and the teller himself is put on trial",
+        "The late opening of the Iliad: the poem starts in the ninth year, with the plague and the quarrel, and reconstructs the war's justification, the taking of Helen and the mustering of the fleet only in scattered retrospect. Because the origin of the war is skipped, the full weight can rest on an internal conflict - the distribution of a prize - and the tenth year of a war becomes the poem's subject",
+        "Cautionary: opening late and never supplying the past, so the audience never learns what is at stake and tension cannot turn into meaning. The second failure is dumping the whole background in one block of dozens of pages, thinning the opening's tension into a résumé. The third is a first-person narration with no on-stage audience and no stated reason: a character suddenly addresses the air for several books, under no pressure and with nothing to test him, so the narration becomes an unopposed and therefore weightless monologue."
+      ],
+      "modern_applications_zh": [
+        "报道与案例写作：从事件的关键之夜或转折点写起，把起因压缩成最短必要背景，把过程让当事人自己讲述，并以多方在场者的反应构成对照",
+        "产品发布与项目叙事：从用户第一次遇到问题的具体时刻开场，把研发史压缩成必要说明，其余留给可用性测试与用户自述",
+        "培训案例与复盘：让当事人用自己的话叙述经过，同时提供日志、他人评价与结果作为外部视角，避免单一自述垄断解释权",
+        "纪录片与播客：用第一人称亲历作为主干，用旁白补足最低必要背景，并保留现场他人的反应镜头，使叙述者被检验而非被推销"
+      ],
+      "modern_applications_en": [
+        "Reporting and case writing: begin at the decisive night or turning point, compress the causes into the shortest necessary background, let the participants tell the process themselves, and set the reactions of others present as a counterweight",
+        "Product launches and project narrative: open at the specific moment a user first meets the problem, compress the development history into what must be explained, and leave the rest to usability testing and users' own accounts",
+        "Training cases and post-mortems: have the participant narrate in his own words while supplying logs, others' assessments and outcomes as the outside view, so that no single account monopolizes the explanation",
+        "Documentary and podcast work: use first-person experience as the spine, add narration only for the minimum background, and keep the on-scene reactions of others in frame, so the narrator is tested rather than promoted"
+      ],
+      "related_modes": [
+        "M-HOM-001",
+        "M-HOM-002",
+        "M-HOM-008",
+        "M-HRD-006"
+      ],
+      "representative_figures": [
+        "荷马",
+        "奥德修斯（《奥德赛》中的叙述者）",
+        "希罗多德（承口述材料之传统）"
+      ]
+    },
+    {
+      "id": "M-HOM-005",
+      "mode_code": "M-HOM-005",
+      "figure_code": "Homer",
+      "name_zh": "敌方人性化与共泪法（让敌人成为可哭的人）",
+      "name_en": "Humanizing the Enemy: Giving the Other Side a Voice and a Grief",
+      "category": "伦理修养",
+      "category_raw": "核心方法",
+      "domain_zh": "伦理叙事/冲突中的人性呈现",
+      "domain_en": "Ethical Narrative / Human Depiction Under Conflict",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "《伊利亚特》是在希腊人一方的视角里写成的战歌，却反复把最动人的段落留给特洛伊人。第 6 卷写赫克托耳回城与妻子安德洛玛刻、幼子阿斯提阿那克斯的告别：他预见到城破妻奴的未来，仍然返回战场，并祈祷儿子将来胜过自己。第 22 卷写他被阿喀琉斯杀死后，其父普里阿摩斯在第 24 卷夜里冒险进入敌营，抱住阿喀琉斯的膝、吻那双杀死自己儿子的手，两人同哭——「两人都想起了各自的亲人」。全诗以交还赫克托耳尸体与全城的葬礼收束。这条方法的运作机制是：给敌人具体的名字、家庭、来源与恐惧，让他在自己人的面前说话（而非只在对阵时作为靶子）；把敌方的损失写成有姓名的哀悼（安德洛玛刻、赫卡柏、海伦的挽歌）；设置一个跨阵营的共同动作（赎礼、握手、共食、同哭），使双方在最敌对处被同一件事连接；并且明确让战场上的杀戮与哀悼交替出现，使「杀死」与「为他哭」在文本中同时成立。方法论签名：为基础对立中的另一侧写足姓名、家属与可理解的动机，在最敌对处安排一个使双方共同承受的动作，并用交替出现的哀悼段落使对应方的损失被具体地记住。",
+      "definition_en": "The Iliad is a war poem written from the Greek side, and yet it repeatedly gives its most moving passages to the Trojans. Book 6 has Hector return to the city to take leave of Andromache and the infant Astyanax: he foresees the sack and his wife's slavery, goes back to the wall anyway, and prays that his son will be better than he. Book 22 has him killed by Achilles, and Book 24 has his father Priam come by night into the enemy camp, take Achilles' knees, kiss the hands that killed his son, and weep with him - the two men remembering their own. The poem ends with the return of the body and a funeral for the whole city. The mechanism is this: give the adversary a specific name, family, origin and fear, and let him speak in front of his own people rather than appear only as a target; write the losses of the other side as named laments (Andromache, Hecuba, Helen); stage one action that crosses the line - ransom, clasped hands, shared meal, shared tears - so that the two sides are joined at the point of greatest enmity; and let killing and lamentation alternate, so that slaying and mourning for the slain both stand within one text. Two conditions keep it honest. The enemy must not be sentimentalized into a victim who loses his own responsibility for the war; the poem grants the Trojans full agency, including their own errors. And the humanisation must cost the home side something - the poem lets Achilles be diminished by his own rage and enlarged by his pity, so the enemy's humanity is a mirror, not a decoration. Method signature: for the other side of a basic opposition, write in full names, families and intelligible motives, stage at the point of greatest enmity one action that both sides carry together, and use alternating lament so the counterpart's losses are remembered concretely.",
+      "source_chapter": "《伊利亚特》第 6 卷（赫克托耳与安德洛玛刻的城墙告别）、第 22 卷（赫克托耳之死与安德洛玛刻的目睹）、第 24 卷（普里阿摩斯的夜访、赎礼、共哭与葬礼）",
+      "key_quote_zh": "「τὼ δὲ μνησαμένω ἑτέρωσε... / Πηλεΐδης μὲν... κλαῖε... Πρίαμος δ᾽ αὖτ᾽ Ἀχιλῆος ἔκλαεν」——《伊利亚特》第 24 卷第 509-512 行前后：两人都想起了各自的亲人，阿喀琉斯为父亲、为亡友帕特罗克洛斯而哭，普里阿摩斯则为赫克托耳而哭（古希腊文原文；中文按通行义撮译。此处是全诗的共泪场面）。",
+      "key_quote_en": "\"τὼ δὲ μνησαμένω... κλαῖε... Πρίαμος δ᾽ αὖτ᾽ Ἀχιλῆος ἔκλαεν\" - Iliad 24.509-512: the two men, remembering, wept - Achilles for his own father and for Patroclus, Priam for Hector (Greek text; English rendered according to the standard sense. This is the shared-lament scene of the poem.)",
+      "key_concepts": [
+        "敌方人性化",
+        "共泪场面",
+        "赎礼与跨阵营动作",
+        "有姓名的哀悼",
+        "交替的杀戮与哀悼",
+        "对手的能动性",
+        "镜像式同情"
+      ],
+      "process_zh": [
+        "给对手写足具体身份：姓名、家庭、来处、牵挂与恐惧，使其在最低谷也有可被理解的动机，而不是抽象的威胁",
+        "让对手在自己的场合发言：安排他面对自己人（家人、同伴、属下）说话，展示其判断与代价，而不只在与己方对阵时出场",
+        "设计一个跨越阵线的共同动作：赎礼、握手、共食、共哭、共同安葬，使双方在最敌对处被同一件事连接",
+        "交替安排杀戮与哀悼，并让己方为此付出代价：承认对手的能动性与错误，同时让己方的立场在这一过程中被检验和修正"
+      ],
+      "process_en": [
+        "Give the adversary a full concrete identity: name, family, origin, attachments and fears, so that even at his lowest he has intelligible motives rather than being an abstract threat",
+        "Let the adversary speak on his own ground: stage him addressing his own people - family, comrades, subordinates - showing his judgement and what it costs, instead of appearing only in confrontation with your side",
+        "Design one action that crosses the line: ransom, clasped hands, a shared meal, shared weeping, a joint burial, so that the two sides are joined at the point of greatest enmity",
+        "Alternate killing and lamentation, and make your own side pay: grant the adversary agency and error, and let your own position be examined and revised in the process"
+      ],
+      "representative_cases_zh": [
+        "《伊利亚特》第 6 卷的城墙告别：赫克托耳回城，安德洛玛刻抱着孩子哀求他不要出战，他回答「我也知道特洛伊终将陷落」，然后伸手抱儿子，孩子被盔缨吓哭，他脱下头盔、举起孩子祈祷其胜过父亲，再返回战场。敌方英雄的私人世界（婚姻、亲子、对失败的预见）被完整地写出来，其死因而在后续卷次中具有人格重量",
+        "第 24 卷的赎礼与共泪：普里阿摩斯夜入敌营，抱住阿喀琉斯的膝、吻其双手（「那双手杀死了我许多儿子」），阿喀琉斯先是惊讶，随后与他同哭——一个为父亲帕琉斯与亡友帕特罗克洛斯，一个为赫克托耳。随后共同进餐、休战、交还尸体、举行葬礼，全诗在最敌对处结束于共同承担损失，而非胜利庆典",
+        "反面警示：把对手写成纯功能性的靶子——只有数量、装备与威胁，没有姓名与家属，读者因此只能消费胜利而不是理解代价。另一种失误是单面化：把对手写成无辜受害的天使、抹掉其自身的判断与错误（特洛伊人也为战争承担选择与后果，帕里斯、赫克托耳与普里阿摩斯各不相同），同情因此变成廉价的说教。第三是把人性化做成一次性的姿态：在结尾放一个感人的和解场面，而全篇其余部分仍把对手当纯粹的暴力来源，使那次共泪缺少前面卷次积累的支撑。"
+      ],
+      "representative_cases_en": [
+        "The wall scene of Iliad 6: Hector returns to the city, Andromache begs him with the child in her arms not to go out, he answers that he knows Troy will fall, reaches for his son, the child shrinks from the horsehair crest, so he takes off the helmet, lifts the boy and prays that he may be better than his father, and then goes back to the wall. The private world of the enemy hero - marriage, fatherhood, foresight of defeat - is written out in full, and his death therefore carries personal weight in the later books",
+        "The ransom and shared tears of Book 24: Priam comes into the enemy camp by night, takes Achilles' knees and kisses the hands that killed many of his sons; Achilles is astonished, then weeps with him - one for his own father Peleus and for Patroclus, the other for Hector. A shared meal, a truce, the return of the body and a funeral follow, and the poem closes at its point of greatest enmity on shared loss rather than on a victory parade",
+        "Cautionary: making the adversary purely functional - a count, a kit and a threat with no name and no family, so the audience can only consume the victory and never understand the cost. The second failure is one-sidedness: writing the other side as innocent victims and stripping them of judgement and error (the Trojans bear their own choices and consequences, and Paris, Hector and Priam differ from one another), which turns sympathy into cheap sermon. The third is a one-off gesture: a moving reconciliation at the end while everything else treats the enemy as a source of violence, so the shared tears lack the support of the preceding books."
+      ],
+      "modern_applications_zh": [
+        "冲突报道与纪录片：给对立各方的普通人姓名、家庭与来源，让他们在自己的生活场景中说话，并记录其损失的具体哀悼，而不只拍摄冲突瞬间",
+        "谈判与危机处置：识别对方的关切与牵挂（家人、名誉、底线），在关键处设计一个双方共同承担的动作（共同声明、共同善后），使对抗有可退出的一步",
+        "组织内部冲突与人事处理：把对方的具体处境与理由写清，承认其判断与错误并存，避免把对方塑造成纯粹的麻烦制造者",
+        "教育与公共历史书写：在讲授战争或历史事件时并列双方的私人记录与丧葬哀悼，使学习者理解代价与责任，而不是单方面的成败叙事"
+      ],
+      "modern_applications_en": [
+        "Conflict reporting and documentary: give ordinary people on each side names, families and origins, let them speak where they live, and record the concrete laments of their losses instead of shooting only the moment of clash",
+        "Negotiation and crisis response: identify the other side's attachments and limits - family, reputation, bottom line - and design at the decisive point one action both parties carry together (a joint statement, joint follow-up) so the confrontation has a way out",
+        "Internal conflict and personnel handling: write out the other party's concrete situation and reasons, acknowledge both judgement and error, and avoid casting them as a pure troublemaker",
+        "Education and public history writing: when teaching a war or a historical event, set the private records and funerals of both sides side by side, so learners grasp cost and responsibility rather than a one-sided story of victory"
+      ],
+      "related_modes": [
+        "M-HOM-002",
+        "M-HOM-003",
+        "M-HOM-007",
+        "M-SOP-005"
+      ],
+      "representative_figures": [
+        "荷马",
+        "普里阿摩斯（《伊利亚特》中的特洛伊老王）",
+        "索福克勒斯（承此写对等正当性冲突）"
+      ]
+    },
+    {
+      "id": "M-HOM-006",
+      "mode_code": "M-HOM-006",
+      "figure_code": "Homer",
+      "name_zh": "荣誉账本与分成冲突法（把冲突还原为公开的分配规则）",
+      "name_en": "The Ledger of Honour: Reducing Conflict to the Public Rules of Distribution",
+      "category": "战略决策",
+      "category_raw": "核心方法",
+      "domain_zh": "冲突分析/分配与激励",
+      "domain_en": "Conflict Analysis / Distribution and Incentives",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "《伊利亚特》的主题不是「愤怒」本身，而是一次分配冲突：联军攻下城邦后按功分配战利品（geras），阿喀琉斯获得女俘布里塞伊斯作为其荣誉的实物标记；当祭司求赎其女、阿波罗降瘟疫时，主帅阿伽门农为弥补自己的损失，凭权势直接把阿喀琉斯的份额夺走，于是阿喀琉斯退战，希腊方连遭败绩，直到阿伽门农承认自己「被迷了心窍」并以丰厚补偿（包括归还布里塞伊斯与大量礼物）请求和解。这条方法的可迁移要点是：把冲突还原为分配规则的问题——谁按什么标准获得什么、份额由谁裁定、篡改份额需要何种公开程序；识别「面子损失」在账本上的可计量形式（份额被拿走等于荣誉被抹去）；把补偿设计成公开的、可核验的、由全体见证的账目调整，而不是私下的安抚；并承认权力的不对称会使劝告失效——阿喀琉斯的退战之所以持续，是因为没有任何机制能强制主帅归还；最终的解扣只能靠当事人自己在代价面前的选择。方法论签名：把对立还原为一份公开的分配账目（标准、份额、裁定者与变更程序），把面子损失写成账面上的可计量亏欠，并用公开可核验的补偿而非私下的安抚来收束冲突。",
+      "definition_en": "The subject of the Iliad is not anger as such but a distribution conflict. When the allied army sacks a town it divides the spoil by contribution, and Achilles receives the captive Briseis as the tangible mark of his share of honour. When a priest comes to ransom his daughter and Apollo sends a plague, the commander Agamemnon, to replace his own loss, takes Achilles' portion by sheer authority. Achilles withdraws from battle, the Greeks are beaten, and only when Agamemnon admits he was blinded and offers enormous compensation - the girl returned plus a list of gifts - is a reconciliation attempted. The transferable points are these. Reduce the conflict to the rules of distribution: who gets what by which standard, who adjudicates shares, and what public procedure a change requires. Identify the measurable form of the loss of face: a portion taken away is honour erased in the ledger. Design compensation as a public, checkable adjustment of the accounts witnessed by everyone, not a private soothing. And recognise that asymmetric power makes advice fail: Achilles' withdrawal lasts because no mechanism can compel the commander to give back what he took, and the knot is finally untied only by the parties' own choices in the face of cost. Two conditions matter. The ledger must be visible to all parties, since a share that is privately negotiated cannot be contested or repaid. And the compensation must restore the standard, not merely the object: the girl is only part of the settlement, and the rest of the list exists because the point at issue was the rule that produced the share. Method signature: reduce the opposition to a public ledger of distribution - standard, share, adjudicator and procedure for change - write the loss of face as a measurable debit on that ledger, and close the conflict with publicly verifiable compensation rather than private reassurance.",
+      "source_chapter": "《伊利亚特》第 1 卷（瘟疫、赎女之争、阿伽门农夺走布里塞伊斯、阿喀琉斯退战、忒提斯申诉）、第 9 卷（使节团携礼物求和，阿喀琉斯拒受）、第 19 卷（阿伽门农承认「迷了心窍」交还布里塞伊斯并兑现礼物清单）",
+      "key_quote_zh": "「οὐ γὰρ ἐμοὶ ψυχῆς ἀντάξιον οὐδ᾽ ὅσα φασὶν / Ἴλιον ἐκτῆσθαι...」——《伊利亚特》第 9 卷第 401-403 行前后：阿喀琉斯在使节团面前说，任何财物都抵不上他的生命（并随后拒绝全部礼物）。（古希腊文原文；中文按通行义撮译。全篇的分配冲突在此被推到极点：他宣布退出这套以战利品计量荣誉的账本，转而面对生与死的选择。）",
+      "key_quote_en": "\"οὐ γὰρ ἐμοὶ ψυχῆς ἀντάξιον οὐδ᾽ ὅσα φασὶν / Ἴλιον ἐκτῆσθαι\" - Iliad 9.401-402: nothing, he says before the envoys, is worth his life, not all that they say Troy holds (Greek text; English rendered according to the standard sense. The distribution conflict reaches its extreme here: Achilles steps out of the ledger in which honour is measured in spoil and turns to the choice between living and dying.)",
+      "key_concepts": [
+        "荣誉（timē）",
+        "战利品（geras）",
+        "份额分配",
+        "公开账目",
+        "面子损失",
+        "可核验补偿",
+        "权力不对称",
+        "分配规则变更程序"
+      ],
+      "process_zh": [
+        "写出账本：把冲突涉及的资源、分配标准、实际份额与裁定者逐项列出，明确每一次份额变化是由谁、依据什么作出的",
+        "把情绪翻译为亏欠：识别「被羞辱」在账面上的具体形态（谁拿走多少、以何种理由、是否公开），使不满有可讨论的对象",
+        "设计公开可核验的补偿：把和解放进由全体见证的账目调整中（归还、补足、重定标准），而不是私下的安抚或口头保证",
+        "承认权力不对称并给出出路：判断是否有机制能强制强者退让，若无，则说明冲突只能靠代价面前的自主选择或外部程序变更来收束"
+      ],
+      "process_en": [
+        "Write out the ledger: list the resources at issue, the standards of distribution, the actual shares and the adjudicator, and specify who changed each share and on what authority",
+        "Translate feeling into a debit: identify the concrete bookkeeping form of the humiliation - who took how much, on what grounds, and whether in public - so the grievance has an object that can be discussed",
+        "Design publicly verifiable compensation: put the settlement into an adjustment of the accounts witnessed by everyone (restoration, top-up, revised standard) rather than private reassurance or verbal promises",
+        "Acknowledge asymmetric power and show the way out: judge whether any mechanism can compel the stronger party to yield, and if not, state that the conflict can only close through the parties' own choices under cost, or through a change of procedure from outside"
+      ],
+      "representative_cases_zh": [
+        "《伊利亚特》第 1 卷的分配冲突：阿伽门农以权夺走布里塞伊斯，等于在公开账本上抹掉阿喀琉斯的荣誉标记；阿喀琉斯不是为「一个女俘」退战，而是为「份额可以被权力随意改写」退战——他的申诉对象是规则，不是物件；《奥德赛》卷 22 中求婚者被清算也遵循同一逻辑：他们对家产、宴饮与婚姻的越权索取最终由公开的清算结算",
+        "第 9 卷与第 19 卷的补偿对照：第 9 卷使节团带来的礼物清单又长又厚，但阿喀琉斯拒绝了——因为补偿仍由夺走份额的一方单方裁定，账本本身没有被修正；到第 19 卷，阿伽门农当众承认「迷了心窍」，归还布里塞伊斯并把礼物清单公开兑现，账目才真正被调整。两次礼物的差别不在数量，而在程序是否公开、账本是否被修正",
+        "反面警示：用私下的安抚替代公开的账目修正——给受损方一些补偿却不承认分配标准有问题，于是同类冲突反复发生。另一种失误是只追回物件而不修复规则：把东西还了就宣布和解，而下一次的分配仍由同一不对称的裁定权决定。第三是把分配冲突误读为性格冲突：把阿喀琉斯的退战说成「脾气暴躁」，于是解法变成劝他「大度些」，而不是修正那个允许份额被单方改写的机制。"
+      ],
+      "representative_cases_en": [
+        "The distribution conflict of Iliad 1: Agamemnon takes Briseis by authority, erasing the mark of Achilles' honour from the public ledger. Achilles does not withdraw over a captive but over the fact that a share can be rewritten by power at will - his appeal is to the rule, not the object. The reckoning with the suitors in Odyssey 22 follows the same logic: their unauthorized consumption of property, feasting and marriage is settled by a public accounting",
+        "The two compensations compared: in Book 9 the envoys bring a long, lavish list of gifts and Achilles refuses, because the compensation is still unilaterally set by the side that took the share and the ledger itself remains uncorrected; by Book 19 Agamemnon admits publicly that he was blinded, returns Briseis and actually delivers the list, and only then are the accounts adjusted. The difference between the two offers is not quantity but whether the procedure was public and whether the ledger was amended",
+        "Cautionary: substituting private reassurance for a public correction of the accounts - paying the injured party something while refusing to admit the standard was flawed, so the same conflict recurs. The second failure is restoring the object and leaving the rule: declaring peace once the thing is returned while the next division still rests on the same asymmetric adjudication. The third is misreading a distribution conflict as a character conflict: calling Achilles' withdrawal a hot temper, so the remedy becomes urging him to be generous rather than fixing the mechanism that lets a share be rewritten by one party."
+      ],
+      "modern_applications_zh": [
+        "薪酬与激励设计：把「谁按什么标准获得多少」写成公开可见的账目，明确变更份额的程序与裁定者，避免同类争议反复出现",
+        "合伙人与股权纠纷：识别争议的账面形态（份额被单方稀释或改写），把和解做成公开可核验的账目调整，而不是私下的补偿承诺",
+        "跨部门资源分配：在资源争夺中先明确分配标准与裁定权，把「被轻视」翻译为具体的资源亏欠，再讨论补偿与规则修订",
+        "国际谈判与盟友关系：承认权力不对称下劝告的限度，把可执行的机制（第三方核验、公开兑现清单）作为和解的前提条件"
+      ],
+      "modern_applications_en": [
+        "Pay and incentive design: write who gets how much by which standard into a publicly visible ledger, with an explicit procedure and adjudicator for changing shares, so the same dispute does not return",
+        "Partnership and equity disputes: identify the bookkeeping form of the grievance - a share diluted or rewritten by one side - and make the settlement a publicly verifiable adjustment of the accounts rather than a private promise",
+        "Cross-departmental resource allocation: establish the standard and the adjudicator before the contest, translate being slighted into a concrete resource debit, and then discuss both compensation and revision of the rule",
+        "International negotiation and alliances: acknowledge the limits of advice under asymmetric power, and make enforceable mechanisms - third-party verification, a public delivery list - the precondition of any settlement"
+      ],
+      "related_modes": [
+        "M-HOM-007",
+        "M-HOM-010",
+        "M-THU-005"
+      ],
+      "representative_figures": [
+        "荷马",
+        "阿喀琉斯（《伊利亚特》中的主将）",
+        "阿伽门农（《伊利亚特》中的联军主帅）"
+      ]
+    },
+    {
+      "id": "M-HOM-007",
+      "mode_code": "M-HOM-007",
+      "figure_code": "Homer",
+      "name_zh": "宿命与自主双称法（让必然与选择同时成立）",
+      "name_en": "Double Motivation: Holding Fate and Agency True at the Same Time",
+      "category": "哲学形而上",
+      "category_raw": "核心方法",
+      "domain_zh": "命运与能动性/行动哲学",
+      "domain_en": "Fate and Agency / Philosophy of Action",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "荷马史诗同时说两件看似矛盾的话：事件是命定的，而人是在自己决定的。阿喀琉斯既被告知「你的死期已定」，也在第 9 卷自己权衡两条命途——光荣短命或长寿无名——并作出选择；宙斯在关键时刻举起黄金天平称量生死，同时诗中的人物仍按自己的性格、愤怒与判断行动；赫克托耳明知城破妻奴，仍选择出城迎战。这种「双重动因」（双重称述）不是含糊，而是一种被刻意维持的并置：神意或命运的句子说明事情不可能有别的结局，人物自己的动机句子说明这个结局是怎样由他走到的。它的功能是同时保住两样东西——必然性带来的庄严与限度意识，以及选择带来的责任与人格。操作要点是：把「结果已定」的陈述与「他因何而动」的陈述分开写、都写足，不互相取消；让人物的选择具有可核查的内部逻辑（他会这样选，因为他就是这样的人）；在关键处显式给出「两条路」的对照，再让他走其中一条；并且不让任何一个层面的陈述去解释掉另一个层面。方法论签名：在同一事件上并置两句都成立的话——「这是必然的」与「这是他自己选的」——分别写足各自的依据，使结果获得庄严与限度，使过程获得责任与人格。",
+      "definition_en": "The epics say two apparently contradictory things at once: events are fated, and people decide for themselves. Achilles is told his death is fixed, and in Book 9 he himself weighs two destinies - a short glorious life or a long obscure one - and chooses. Zeus lifts the golden scales to weigh lives at the decisive moment, and the characters on the ground still act out of their own tempers, angers and judgements; Hector, knowing the city will fall and his wife be enslaved, chooses to go out and fight. This double motivation is not muddle but a deliberate, sustained juxtaposition: the sentences about divine will or fate state that things could not end otherwise, while the sentences about the agent's own motives state how he arrived at that end. Its function is to hold two things at once - the solemnity and the sense of limit that necessity brings, and the responsibility and personhood that choice brings. Four points of practice follow. Keep the statement of the fixed outcome and the statement of the agent's reasons separate and each fully written, so that neither cancels the other. Give the choice a checkable internal logic: he chooses this way because this is the man he is. At the decisive point lay out two roads explicitly and let him take one. And never let one level be used to explain away the other - not fate as an excuse, and not agency as a denial that limits exist. Two conditions protect it from collapse. The necessity must be stated as a limit on outcomes, not as a script that removes deliberation. And the deliberation must have real alternatives, or the double statement becomes decoration. Method signature: for the same event, place side by side two statements that are both true - this was necessary, and this was his own choice - writing out the grounds of each, so the outcome carries solemnity and limit while the process carries responsibility and character.",
+      "source_chapter": "《伊利亚特》第 9 卷（阿喀琉斯权衡两种命运，第 410-416 行）、第 16 卷（帕特罗克洛斯之死与萨耳佩冬的命运）、第 22 卷（宙斯举天平称量赫克托耳与阿喀琉斯的生死）、第 6 卷（赫克托耳预见城破仍出战）；《奥德赛》卷 1（宙斯论人类把自己的苦难归咎于命运）与卷 5（奥德修斯在木筏上凭判断求生）",
+      "key_quote_zh": "「μήτηρ γάρ τέ μέ φησι θεὰ Θέτις ἀργυρόπεζα / διχθαδίας κῆρας φερέμεν θανάτοιο τέλος δέ」——《伊利亚特》第 9 卷第 410-411 行：我的母亲、银足的忒提斯女神说，我负有两条通往死亡的命运（随后他说明：若留下围攻特洛伊则名声不朽而生命短促，若返回家乡则长寿而名声消逝）。（古希腊文原文；中文按通行义撮译。命运被以「两条路」的形式说出，选择因此被交还给当事人。）",
+      "key_quote_en": "\"μήτηρ γάρ τέ μέ φησι θεὰ Θέτις ἀργυρόπεζα / διχθαδίας κῆρας φερέμεν θανάτοιο τέλος δέ\" - Iliad 9.410-411: my mother, the goddess Thetis of the silver feet, says I bear two destinies toward death (he goes on to name them: stay before Troy for imperishable fame and a short life, or sail home to a long life and a name that fades). (Greek text; English rendered according to the standard sense. Fate is stated as two roads, and the choice is handed back to the man.)",
+      "key_concepts": [
+        "双重动因（double motivation）",
+        "命运（moira）",
+        "两条命途",
+        "宙斯的天平",
+        "必然性与限度",
+        "选择与责任",
+        "并置之陈述",
+        "可核查的内部逻辑"
+      ],
+      "process_zh": [
+        "分别写足两层句子：一层陈述「结果不可能有别」（结构、资源、时限的硬约束），一层陈述「他因何而动」（他的判断、情感与价值），两层都写具体依据",
+        "让选择具有人格逻辑：预先说明这个人会这样选的原因（过去的经历、誓言、身份），使选择可在事后被核查",
+        "在关键处显式给出两条路：把可选的结局并列写出各自的代价与回报，再让当事人走其中一条",
+        "禁止相互解释消解：不允许用「这是命」解释掉责任，也不允许用「他自己选的」否认限度，复盘时两层都要保留"
+      ],
+      "process_en": [
+        "Write both layers in full: one statement that the outcome could not be otherwise (hard constraints of structure, resources, time), and one that states his reasons - his judgement, feeling and values - each with concrete grounds",
+        "Give the choice a logic of character: set out in advance why this person would choose this way (past experience, oaths, identity) so the choice can be checked afterwards",
+        "Lay out the two roads explicitly at the decisive point: write the alternatives side by side with their costs and rewards, then let the agent take one",
+        "Forbid mutual cancellation: never let fate explain away responsibility, and never let choice deny the limits - keep both layers in the review"
+      ],
+      "representative_cases_zh": [
+        "《伊利亚特》第 9 卷的两条命途：阿喀琉斯在使节团面前明确说出母亲给他的两条命运（留下则声名不朽而早死，归乡则长寿而声名消逝），并在拒绝礼物之后实际上选择了前者。命运在这里不是抹去选择的脚本，而是被选择的两条路；其后的每一次行动（拒绝和解、放帕特罗克洛斯出战、最终杀赫克托耳）都可在这个选择上被追溯",
+        "第 22 卷的天平与赫克托耳的选择：宙斯举起黄金天平称量两人的生死，结果赫克托耳一端下沉；与此同时，诗中写赫克托耳明知父亲、母亲与妻子的哀求，明知城破后的惨状，仍然选择出城迎战。必然的判决与自主的行动同时成立：天平说明结局已定，选择说明这个结局是他走到的",
+        "反面警示：用命运取消责任——把一切写成注定，人物的动机与抉择因此沦为装饰，故事失去可核查的因果，读者也无法学习任何判断。另一种失误是反过来彻底取消限度：只写「他选择了」，而抹去结构、资源与时限的硬约束，于是选择变成无限自由的表演，人物既不真实也无法承担后果。第三是让两层互相打折：嘴上说命运已定，情节却处处显示当事人随时可以改主意，使庄严与责任一并落空。"
+      ],
+      "representative_cases_en": [
+        "The two destinies of Iliad 9: before the envoys Achilles states plainly the two fates his mother gave him - stay for imperishable fame and an early death, or sail home for a long life and a fading name - and after refusing the gifts he in effect takes the first. Fate here is not a script that erases choice but the two roads that are chosen between, and every later act - refusing reconciliation, sending Patroclus out, killing Hector - can be traced back to that choice",
+        "The scales of Book 22 and Hector's choice: Zeus lifts the golden scales to weigh the two men's lives and Hector's side sinks; at the same time the poem has him go out to fight knowing his father's, mother's and wife's pleas and knowing what will happen to the city. The verdict of necessity and the act of choice stand together: the scales state that the end is fixed, the choice states how he arrived at it",
+        "Cautionary: using fate to cancel responsibility - writing everything as foreordained, so motives and decisions become ornament, the causal chain cannot be checked, and the reader learns nothing that could guide judgement. The other failure is the opposite: writing only he chose, and erasing the hard limits of structure, resources and time, so choice becomes a performance of unlimited freedom and the character neither feels real nor bears consequences. The third is letting the two layers discount each other - declaring fate fixed while the plot shows the agent could change his mind at any moment, collapsing both solemnity and responsibility."
+      ],
+      "modern_applications_zh": [
+        "重大决策复盘：把「客观上不可能有别的最佳结果」与「我们当时为何这样判断」分开记录，避免用宿命解释失误或用自由否认约束",
+        "战略规划与风险评估：先列明不可改变的硬约束（时限、资源、对手结构），再列明可选择的路径与各自代价，使决策既有边界又有人格",
+        "个人生涯选择：把「结构性条件」（行业周期、家庭状况）与「我自己的价值排序」都写足，在做选择时承认两者的同时成立",
+        "历史与传记写作：在叙述重大转折时既写出结构与时代的必然，也写出当事人的判断与错误，避免单方面的英雄叙事或决定论叙事"
+      ],
+      "modern_applications_en": [
+        "Reviewing major decisions: record separately the outcomes that were objectively impossible to improve and the reasons we judged as we did, so that neither fate explains away failure nor freedom denies constraint",
+        "Strategy and risk planning: first list the hard constraints that cannot be changed (time, resources, the opponent's structure), then the available paths and their costs, so the decision has both boundaries and character",
+        "Personal career choices: write out both the structural conditions (industry cycles, family situation) and your own ordering of values, and acknowledge that both are true as you choose",
+        "History and biography: in narrating a turning point, set down both the necessity of structure and era and the judgement and error of the person, avoiding one-sided hero narrative and determinism alike"
+      ],
+      "related_modes": [
+        "M-HOM-005",
+        "M-HOM-006",
+        "M-HOM-010",
+        "M-SOP-007"
+      ],
+      "representative_figures": [
+        "荷马",
+        "阿喀琉斯",
+        "赫克托耳"
+      ]
+    },
+    {
+      "id": "M-HOM-008",
+      "mode_code": "M-HOM-008",
+      "figure_code": "Homer",
+      "name_zh": "待客之礼与越礼试炼法（用一套接待规则测试所有人与所有地点）",
+      "name_en": "Guest-Friendship as Test: Running One Reception Rule Through Every Host and Place",
+      "category": "伦理修养",
+      "category_raw": "核心方法",
+      "domain_zh": "伦理/礼俗与身份试炼",
+      "domain_en": "Ethics / Custom and the Testing of Character",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "《奥德赛》的结构主轴是一套关于「待客之礼」（xenia）的规则：陌生来客应被引入、让座、洗浴、供食、赠礼、留宿，并在告别时获得护送；客人则应守礼、回报、不滥用主人的财物。奥德修斯归乡之旅因此成为一场对该规则的连续测试：独眼巨人波吕斐摩斯根本不守礼（吃客人），喀耳刻先以魔法扣留客人，淮阿喀亚人则完整地践行待客之道并护送他回国；回家后，求婚者在他家中长期滥用待客规则（吃光家产、逼迫主母），而忠心的牧猪人欧迈俄斯在极为贫寒的条件下仍尽心接待陌生的乞丐。同一个测试被反复施加在不同的人与地点上，每个接待者的行为自动给出判断，叙述者不必出声评价。方法的要点是：先立一套明确、可观察、可复用的行为规则（接待、交易、协作、信息披露），再把它当作测试装置遍历所有相关的人与场景；让违反者暴露自己的方式就是让他有机会守礼却选择了不守；并安排一个条件最差却仍守礼的样本，使规则的普遍性可被检验。方法论签名：确立一套可观察、可复用的行为规则，用一个共同场景把它依次施加在所有相关人与地点上，让每个主体的选择自动给出判断，并保留一个条件最差仍守礼的对照样本。",
+      "definition_en": "The structural spine of the Odyssey is a rule about guest-friendship, xenia: a stranger must be brought in, seated, bathed, fed, given gifts, housed and escorted on his way, while the guest must behave, repay, and not consume the host's property. Odysseus' journey home becomes a continuous test of that rule. The Cyclops Polyphemus ignores it altogether and eats his guests; Circe first detains hers by magic; the Phaeacians practise it fully and carry him home. Back on Ithaca the suitors abuse it for years, eating the household out and pressuring the mistress, while the loyal swineherd Eumaeus, in the poorest conditions, receives a strange beggar as well as he can. The same test is applied again and again to different people and places, and each host's conduct delivers the verdict automatically, with no need for the narrator to comment. Four points of practice follow. Establish a clear, observable and reusable rule of conduct - reception, exchange, collaboration, disclosure. Then use it as a test device by running every relevant person and scene through it. Let the violator expose himself by having the chance to keep the rule and choosing not to. And keep one contrast case who keeps it under the worst conditions, so the universality of the rule can actually be examined. Two conditions hold it together. The rule must be genuinely observable from outside, since a norm no one can witness cannot test anyone. And the test must be applied without announcement, or the subjects will perform for the examiner rather than reveal themselves. Method signature: fix an observable, reusable rule of conduct, apply it through one shared scene to every relevant person and place, let each subject's choices deliver the verdict without narration, and keep a worst-case sample who keeps the rule anyway.",
+      "source_chapter": "《奥德赛》卷 9（波吕斐摩斯食客）、卷 10（喀耳刻扣客、风神埃俄洛斯赠风袋）、卷 7-8、13（淮阿喀亚人的完整待客与护送）、卷 14（牧猪人欧迈俄斯接待陌生乞丐）、卷 1-2、17-22（求婚者长期滥用家产与待客规则）",
+      "key_quote_zh": "「Ζεὺς δ᾽ ἐπιτιμήτωρ ἱκετάων τε ξείνων τε, / ξείνιος, ὃς ξείνοισιν ἅμ᾽ αἰδοίοισιν ὀπηδεῖ」——《奥德赛》第 9 卷第 270-271 行前后：宙斯是祈求者与客人的保护者，是主客之神，他伴随可敬的客人。（古希腊文原文；中文按通行义撮译。待客之礼在此被写成有神意担保的规则，越礼因此不只是失礼。）",
+      "key_quote_en": "\"Ζεὺς δ᾽ ἐπιτιμήτωρ ἱκετάων τε ξείνων τε, / ξείνιος, ὃς ξείνοισιν ἅμ᾽ αἰδοίοισιν ὀπηδεῖ\" - Odyssey 9.270-271: Zeus is the avenger of suppliants and strangers, the god of hospitality, who attends on reverend guests. (Greek text; English rendered according to the standard sense. Guest-friendship is written as a rule under divine guarantee, so a violation is more than bad manners.)",
+      "key_concepts": [
+        "待客之礼（xenia）",
+        "接待规则",
+        "越礼暴露",
+        "统一测试装置",
+        "礼俗的神意担保",
+        "对照样本",
+        "主客互惠",
+        "家产滥用"
+      ],
+      "process_zh": [
+        "确立可观察的规则：把希望检验的行为标准写成可被第三方观察到的具体动作（迎入、供给、回报、披露、护送），而不是模糊的态度要求",
+        "用同一场景遍历所有人：设计一个所有人都会遇到的共同情境（陌生来访、资源分配、信息交换），依次施加于每个相关对象",
+        "不预告地施加测试：让被测者在不知情的情况下选择守礼或越礼，避免照本宣科式的表演",
+        "保留对照组并公开结算：安排一个条件最差仍守礼的样本作为标准的上限，并让越礼者在规则公开后承担后果"
+      ],
+      "process_en": [
+        "Fix an observable rule: write the standard of conduct you want to test as concrete actions a third party can see (receiving, providing, repaying, disclosing, escorting) rather than as vague expectations of attitude",
+        "Run one shared scene through everyone: design a situation all of them will meet (a stranger arriving, a resource to divide, information to exchange) and apply it to each subject in turn",
+        "Apply the test unannounced: let the subjects choose to keep or break the rule without knowing they are being observed, so that performance for the examiner is ruled out",
+        "Keep a control case and settle in the open: include a sample who keeps the rule under the worst conditions as the upper bound, and let violators bear the consequences once the rule is made public"
+      ],
+      "representative_cases_zh": [
+        "《奥德赛》的连续待客测试：独眼巨人食客（越礼的极端形态）；喀耳刻以魔法扣客；风神赠风袋却因同伴贪念而失效；淮阿喀亚人完整守礼并护送他归乡；求婚者在他家中长期越礼；牧猪人欧迈俄斯在最贫寒处仍尽心接待陌生人。同一套规则遍历所有人与地点，每个主体的判断不必由叙述者宣布即已成立",
+        "卷 14 的对照样本：欧迈俄斯自己处境艰难，仍分给陌生乞丐食物与毛毯、如实讲述主人家的困境、并保持对主人一家的忠诚。这一样本的意义是证明规则不是富人的余裕：待客之礼在最贫寒处仍可被完整践行，因此求婚者的越礼无法用「条件所迫」辩解",
+        "反面警示：规则模糊或不可观察——标准的表述是「要尊重客人」，于是没有人能判断谁违反了它，测试沦为印象打分。另一种失误是测试公开化：被测者知道自己在被考察，于是人人表演守礼，规则失去区分能力。第三是缺少对照与结算：只有越礼的样本、没有守礼的样本，规则显得不可能被遵守；或者记录了越礼却不作任何公开结算，使规则退化为叙述者的抱怨。"
+      ],
+      "representative_cases_en": [
+        "The continuous hospitality test of the Odyssey: the Cyclops eats his guests, the extreme violation; Circe detains hers by magic; Aeolus gives a bag of winds undone by his crew's greed; the Phaeacians keep the rule fully and carry him home; the suitors abuse it in his own house for years; the swineherd Eumaeus keeps it in the poorest conditions. One rule is run through every person and place, and each subject's verdict stands without the narrator having to announce it",
+        "The control case of Book 14: Eumaeus, himself hard pressed, still shares food and a cloak with a strange beggar, tells him honestly of the household's troubles, and stays loyal to his absent master. The point of the sample is to prove that the rule is not the luxury of the rich: guest-friendship can be kept completely in the worst poverty, which removes any excuse of circumstance from the suitors",
+        "Cautionary: a rule so vague or invisible that no one can tell who broke it - respect your guests - so the test collapses into an impression score. The second failure is making the test public: subjects who know they are being examined all perform virtue and the rule loses its power to discriminate. The third is having no contrast and no settlement: only violators and no keeper, so the rule looks impossible to follow; or a record of violations with no public reckoning, which reduces the rule to the narrator's complaint."
+      ],
+      "modern_applications_zh": [
+        "服务与接待标准检验：把服务规范写成可观察动作，用同一情境（投诉、退换、咨询）遍历各门店与各岗位，让行为自己给出结论",
+        "组织文化与合规检验：在被测者不知情的情况下以常规业务场景检验诚信与合规行为，并设置条件最差仍守规的对照样本",
+        "社区与平台治理：以待客之礼的思路设计接待陌生用户的规则（注册、申诉、投诉、退出），观察不同处置者的表现并公开结算",
+        "人际关系与自我检验：为自己列一套接待规则（守时、回报、不说他人隐私），在无人监督的场合检验自己是否仍能守礼"
+      ],
+      "modern_applications_en": [
+        "Testing service and reception standards: write the standard as observable actions, then run one shared situation (a complaint, a return, an enquiry) through every branch and role, letting the conduct deliver the conclusion",
+        "Organizational culture and compliance checks: test honesty and compliance through ordinary business situations the subjects do not know are being examined, and keep a control who keeps the rule under the worst conditions",
+        "Community and platform governance: design rules for receiving strangers - sign-up, appeals, complaints, exit - in the spirit of guest-friendship, observe how different handlers behave, and settle publicly",
+        "Personal conduct and self-examination: draw up your own rule of reception - punctuality, repayment, not repeating others' confidences - and test whether you keep it when no one is watching"
+      ],
+      "related_modes": [
+        "M-HOM-002",
+        "M-HOM-004",
+        "M-HOM-009",
+        "M-HRD-005"
+      ],
+      "representative_figures": [
+        "荷马",
+        "欧迈俄斯（《奥德赛》中的牧猪人）",
+        "淮阿喀亚人（《奥德赛》中的守礼者）"
+      ]
+    },
+    {
+      "id": "M-HOM-009",
+      "mode_code": "M-HOM-009",
+      "figure_code": "Homer",
+      "name_zh": "伪装延迟与认出揭示法（用标记物把身份确认推到极点）",
+      "name_en": "Disguise, Delay and Recognition: Confirming Identity at the Last Possible Moment",
+      "category": "心理洞察",
+      "category_raw": "核心方法",
+      "domain_zh": "心理与身份/揭示的时点设计",
+      "domain_en": "Psychology and Identity / Timing of Disclosure",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "《奥德赛》的后半部是一部「认出」之书：归乡的奥德修斯先被雅典娜变成老乞丐，于是身份被层层遮蔽，认出被拆成多次、并且只给真正有资格的人：老狗阿尔戈斯先认出主人而后死去（无言而无误的认出）；老乳母欧律克勒娅在洗脚时触到膝上的野猪牙伤疤而识破（必须封口，否则计划毁掉）；牧猪人与牧牛人经试探后加入；儿子忒勒马科斯被显形告知；而妻子佩涅洛佩则留到最后——她先用只有主人知道的秘密记号（婚床由活橄榄树桩做成、无法搬动）设下陷阱，确认来者是真的，再完成相认。认出被如此延迟的原因不是作者的拖延，而是三件事在起作用：一是安全，身份一旦泄露，复仇计划即告失败；二是检验，只有握有共同过往的人才有资格确认，认出因此成为关系的验证；三是情感，延迟把长年的分离压缩到相认的一刻。方法论签名：把身份确认拆成由标记物触发的多次、分级揭示，按资格与风险决定每一层的开启时点，把最后的确认留给握有共同私密记号的人，并让延迟本身承担安全、检验与情感的三重功能。",
+      "definition_en": "The second half of the Odyssey is a book of recognitions. The returned Odysseus is first turned into an old beggar by Athena, so his identity is progressively screened and the recognition broken into stages, granted only to those entitled to it. The old dog Argos knows his master first and dies immediately afterwards, a recognition without words and without error. The old nurse Eurycleia finds the boar's-tusk scar on his thigh while washing his feet and sees through the disguise, and must be silenced or the plan collapses. The swineherd and the cowherd are tested and then brought in. His son Telemachus is shown the truth directly. And his wife Penelope is kept for last: she first sets a trap with a secret sign only her husband could know - the marriage bed carved from a living olive stump, which cannot be moved - and only when the stranger passes it does she accept him. The delay is not authorial stalling; it does three jobs. It gives safety, since one leak of identity destroys the revenge plan. It gives verification, since only those who share the common past are entitled to confirm, so recognition becomes a test of the relationship. And it gives feeling, since the whole separation is compressed into the instant of acknowledgement. Four points of practice follow. Break the confirmation into several graded disclosures triggered by tokens rather than by announcement. Let the entitlement and the risk of each audience set when its layer opens. Reserve the final confirmation for the person holding a private sign known only to the two of you. And let the delay itself carry the work of safety, verification and emotion rather than being filled with filler. Method signature: split identity confirmation into multiple graded reveals triggered by tokens, set the timing of each layer by entitlement and risk, reserve the last confirmation for the holder of a shared private sign, and let the delay carry safety, verification and feeling at once.",
+      "source_chapter": "《奥德赛》卷 13（雅典娜的伪装）、卷 17（老狗阿尔戈斯认出主人而死）、卷 19（欧律克勒娅洗脚触疤、佩涅洛佩的梦与洗脚情节）、卷 21（拉弓比赛）、卷 23（婚床记号与夫妻相认）、卷 24（与父亲的相认）",
+      "key_quote_zh": "「αὐτὰρ ἐπὴν... ἐϋσταθέος... λέχους... ἐπιβήομεν」——《奥德赛》第 23 卷第 175-204 行：佩涅洛佩以「把婚床搬出来」试探，奥德修斯说明那张床以活橄榄树桩为基、无人能搬动，记号一出，相认完成（古希腊文原文；中文按通行义撮译。相认由一件只有二人知道的旧事触发。）",
+      "key_quote_en": "\"αὐτὰρ ἐπὴν... ἐϋσταθέος... λέχους... ἐπιβήομεν\" - Odyssey 23.175-204: Penelope tests him by ordering the bed to be moved out, and Odysseus describes how it was built on a living olive stump and cannot be shifted; the sign given, the recognition is complete (Greek text; English rendered according to the standard sense. The confirmation is triggered by one shared fact only the two of them know.)",
+      "key_concepts": [
+        "伪装",
+        "分级认出",
+        "标记物",
+        "共享私密记号",
+        "延迟的时点设计",
+        "资格与风险",
+        "关系验证",
+        "相认的情感压缩"
+      ],
+      "process_zh": [
+        "拆分确认层级：把一次性的身份揭示拆成若干层，为每层指定一位接收者、一个触发标记与一个开启条件",
+        "按资格与风险排序：先给最可靠、最无泄漏风险的人确认（老仆、同盟），把可能危及目标的层级放到安全条件具备之后",
+        "设置共享私密记号：用只有双方知道的旧事、物件或技能作为最终验证，使冒充者无法通过，确认因此也是关系的检验",
+        "让延迟承担功能：用延迟换取安全、验证与情感强度，明确每一段延迟在做什么，避免以拖延充数"
+      ],
+      "process_en": [
+        "Split the confirmation into layers: break a single reveal into several stages, each with a designated recipient, a triggering token and a condition for opening",
+        "Order by entitlement and risk: confirm first with the most reliable and least leaky people (long-serving staff, allies), and keep any layer that could endanger the objective until safety permits",
+        "Set a shared private sign: use an old fact, object or skill known only to the two parties as the final verification, so an impostor cannot pass and the confirmation also tests the relationship",
+        "Let the delay do work: use the delay to buy safety, verification and emotional force, stating what each stretch of delay is for, and never padding it out as filler"
+      ],
+      "representative_cases_zh": [
+        "阿尔戈斯的无声认出：老狗被弃于粪堆、浑身是虫，听到主人的声音即竖起耳朵摇尾，随即死去。没有一点语言与解释，认出因此更纯：连动物都记得他，而人的世界尚未承认他。这一层被安排在最早，因为它零风险且语义强度最高",
+        "欧律克勒娅的伤疤：她在洗脚时摸到膝上的野猪牙伤疤，立即认出主人并要叫出声来，奥德修斯按住她的嘴说出「否则你会毁了我」。认出在此被当作风险处理：标记物是可靠的，但接收者必须被管理。与之对照的是佩涅洛佩的婚床记号——她把确认留到复仇完成之后，并用只有二人知道的旧事把冒充者排除干净",
+        "反面警示：让认出过早发生——身份在计划未完成前泄露，导致整个行动失败（把戏剧的张力一次性用掉，也把关系的验证降级为偶然的看见）。另一种失误是用不可靠的标记物作最终判据：任何能被模仿的特征（声音、衣着、头衔）都会被冒充者利用，确认因此失去验证功能。第三是把延迟填成空白：中间加入大量与确认无关的内容，读者感到的是拖延而不是蓄势，情感的压缩也就不再发生。"
+      ],
+      "representative_cases_en": [
+        "The silent recognition of Argos: the old dog, thrown on a dung heap and covered with vermin, pricks up his ears and wags his tail at his master's voice, then dies. There is no speech and no explanation, so the recognition is the purer: even the animal remembers him while the human world has not yet admitted him. This layer is placed first because it carries no risk and the highest semantic charge",
+        "The scar of Eurycleia: while washing his feet she touches the boar's-tusk scar on his thigh, recognizes him instantly and is about to cry out, and Odysseus claps a hand over her mouth with the warning that she will destroy him. Recognition is handled here as a risk: the token is reliable but the recipient must be managed. The counterpoint is Penelope's bed sign - she keeps the confirmation until after the revenge is done and uses an old fact known only to the two of them to exclude any impostor completely",
+        "Cautionary: letting the recognition happen too early - identity leaking before the plan is finished, which destroys the operation, spends the tension in one stroke, and degrades the verification of the relationship into an accidental sighting. The second failure is using an unreliable token as the final proof: any imitable feature - voice, clothing, title - can be exploited by an impostor, and the confirmation stops verifying anything. The third is filling the delay with emptiness: long stretches unrelated to the confirmation, so the audience feels stalling rather than gathering, and the compression of feeling never happens."
+      ],
+      "modern_applications_zh": [
+        "危机与安全处置：把敏感信息的披露拆成分级确认，按泄漏风险决定每一层的开启时点，并把最终验证留给只有双方知道的凭据",
+        "身份与凭证设计：用不可模仿、只双方共享的私密记号作为最终校验（旧事、技能、共同经历），避免用可复制的特征作判据",
+        "谈判与关系推进：把关键让步或真相反馈的时点留给条件具备之后，用延迟换取信任验证与承诺强度，而不是急于一次性交底",
+        "叙事与教学案例：把揭示设计成由标记物逐级触发的过程，让每一层确认都为关系与情节服务，避免一次性的说明式揭露"
+      ],
+      "modern_applications_en": [
+        "Crisis and security handling: split disclosure of sensitive information into layered confirmations, set when each layer opens by leak risk, and reserve the final verification for a credential known only to the two parties",
+        "Identity and credential design: use a non-imitable sign shared only by the two sides (an old fact, a skill, a shared experience) as the final check, and never rest proof on a reproducible feature",
+        "Negotiation and relationship building: hold the key concession or the telling of the truth until conditions permit, buying verified trust and firmer commitment with the delay rather than disclosing everything at once",
+        "Narrative and teaching cases: design the reveal as a staged process triggered by tokens, so every layer serves the relationship and the plot, instead of a single explanatory disclosure"
+      ],
+      "related_modes": [
+        "M-HOM-004",
+        "M-HOM-008",
+        "M-SOP-001"
+      ],
+      "representative_figures": [
+        "荷马",
+        "奥德修斯",
+        "佩涅洛佩（《奥德赛》中的妻子）"
+      ]
+    },
+    {
+      "id": "M-HOM-010",
+      "mode_code": "M-HOM-010",
+      "figure_code": "Homer",
+      "name_zh": "以诗存名与口传共同体交付法（把作品当作共同体的记忆制度）",
+      "name_en": "Kleos Aphthiton: Delivering the Work to a Community as Its Memory Institution",
+      "category": "教育传承",
+      "category_raw": "核心方法",
+      "domain_zh": "文化传承/公共交付与记忆制度",
+      "domain_en": "Cultural Transmission / Public Delivery and Memory Institutions",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "荷马史诗从第一行就把自己的功能说出来：诗人请求缪斯赐歌，歌唱「给阿开亚人带来无数苦难的忿怒」，而诗中的英雄们拼命争取的正是「不朽的荣光」（kleos aphthiton）——名字不随尸体腐朽。史诗因此不只是叙述，而是一套记忆制度：它在祭仪与节庆上向共同体诵唱，把英雄的名字、家族谱系、城邦的祭仪由来与共同价值以可背诵的形式固定下来，使个人生命在诗中获得超出自身的延续。诗中反复出现对这一制度的自觉：阿喀琉斯在两条命运之间选择「留名而短命」；萨耳佩冬对同伴解释为何人要为荣誉冒死；赫克托耳祈祷儿子胜过自己；歌者得摩多科斯在淮阿喀亚宫廷上唱出英雄的事迹而听众落泪。这条方法的可迁移要点是：先明确作品要替共同体记住什么（谁、为谁、因何值得被记住），再设计可背诵、可重演、可在公共场合交付的形式；把「被记住」写成作品内部的价值，使参与者知道自己的行动将被如何叙述；并接受公共检验——作品的价值由它在共同体中的反复使用而非私人品味决定。方法论签名：把作品当作共同体的记忆制度来设计——先定要记住的对象与理由，再选可背诵、可重演、可在公共场合交付的形式，并把「被如何记住」写进作品内部的价值系统，让传承本身成为内容的一部分。",
+      "definition_en": "The epics state their own function in the first line: the poet asks the Muse for the song, the song is of the wrath that brought countless pains on the Achaeans, and what the heroes in it fight for is imperishable glory, kleos aphthiton - a name that does not rot with the body. The epic is therefore not only narration but a memory institution. It is sung to a community at festivals and sacrifices, fixing in recitable form the names of heroes, the genealogies of families, the origins of local cults and the shared values, so that an individual life gains a continuation beyond itself in the poem. The poems are repeatedly conscious of this function. Achilles chooses between two fates and takes the short life with the name; Sarpedon explains to his companion why men risk death for honour; Hector prays that his son may be better than he; Demodocus sings heroic deeds in the Phaeacian hall while his audience weeps. Four points of practice follow. Decide first what the work must remember for the community - who, for whom, and why they deserve to be remembered. Then design a form that can be recited, re-performed and delivered in public. Write being remembered into the work's internal system of value, so participants know how their actions will be told. And accept public testing: the work's worth is set by its repeated use in a community, not by private taste. Two conditions keep it from becoming propaganda. What is remembered must include cost and failure, not only triumph - the Iliad is a poem about a victory army's suffering. And the community must be able to re-perform the work without the author, since a memory institution that depends on one living performer is not an institution. Method signature: design the work as a community's memory institution - fix what and why it must remember, choose a recitable, re-performable, publicly delivered form, write how one will be remembered into the internal value system, and make transmission part of the content.",
+      "source_chapter": "《伊利亚特》第 1 卷（缪斯呼告与「无数苦难」的主题）、第 9 卷（两条命运与不朽荣光）、第 12 卷（萨耳佩冬论荣誉与死亡）、第 6 卷（赫克托耳为儿子祈祷）、第 24 卷（葬礼与哀悼的公共形式）；《奥德赛》卷 1、8（歌者与听众：得摩多科斯演唱、奥德修斯落泪）、卷 8 与卷 9（对往事的歌唱即英雄的延续）",
+      "key_quote_zh": "「ἀεὶ δέ μοι... κλέος... ἄφθιτον」——《伊利亚特》第 9 卷第 413 行：若我留下围攻特洛伊，我的名声将不朽（κλέος ἄφθιτον），而生命将早早结束（古希腊文原文；中文按通行义撮译。全诗的价值系统在第一卷的「愤怒」之后，由英雄自己对「被记住」的选择说出来）。",
+      "key_quote_en": "\"ἀεὶ δέ μοι... κλέος... ἄφθιτον\" - Iliad 9.413: if I stay and besiege Troy, my glory will be imperishable and my life will end early (Greek text; English rendered according to the standard sense. After the wrath of Book 1, the poem's system of value is stated by the hero himself as a choice about being remembered.)",
+      "key_concepts": [
+        "不朽荣光（kleos aphthiton）",
+        "被记住的价值",
+        "共同体的记忆制度",
+        "可背诵形式",
+        "公共交付",
+        "重演与传承",
+        "记忆包含代价",
+        "脱离作者的存续"
+      ],
+      "process_zh": [
+        "确定要记住什么：明确作品替共同体保存的对象（人名、事迹、祭仪缘由、共同价值）与记住它的理由，避免无选择的纪念",
+        "设计可背诵可重演的形式：选择能被重复使用、能被他人独立交付的形态（唱段、仪式、口号、可传抄的文本），而不是依赖作者在场的私人交付",
+        "把「被如何记住」写进内容：让人物与参与者知道自己的行动将被怎样叙述，使荣誉机制在作品内部成立并可被审视",
+        "接受公共检验并留下代价：在公共场合交付、由共同体反复使用来决定价值，同时把失败与损失一并记住，避免只留胜利"
+      ],
+      "process_en": [
+        "Decide what must be remembered: fix what the work preserves for the community - names, deeds, the origins of rites, shared values - and why, so that commemoration is selective rather than indiscriminate",
+        "Design a recitable, re-performable form: choose a shape that others can reuse and deliver independently (a song section, a rite, a slogan, a text that can be copied and passed on) rather than a private delivery that depends on the author's presence",
+        "Write how one will be remembered into the content: let characters and participants know in what terms their actions will be told, so that the mechanism of honour exists inside the work and can be examined",
+        "Submit to public testing and keep the cost: deliver in public and let repeated use by the community set the value, while remembering losses and failures along with victories"
+      ],
+      "representative_cases_zh": [
+        "萨耳佩冬的荣誉论（《伊利亚特》第 12 卷）：吕基亚的王子对同伴说，我们之所以享有最好的肉、酒与土地，正是因为我们站在最前面冒死作战；如果逃走就能长生，我不会上阵，但死亡的命运早已注定，因此我们只能去争那份「被人记住」的荣光。这段话把作品的价值系统明说：分配（更好的份额）与义务（站在最前）被绑定，记忆是这套交换的最终支付",
+        "得摩多科斯的演唱与听众落泪（《奥德赛》卷 8）：歌者在淮阿喀亚宫廷上唱特洛伊的战事，奥德修斯掩面流泪；随后他本人要求歌者唱木马之事，并以此讲述自己的经历。作品在此展示了自身的运作：一个共同体的公共场合以歌唱保存过去的苦难，而当事人在场听见自己被如何记忆——记忆制度与内容互为镜像",
+        "反面警示：只记胜利不记代价——把传承做成单纯的庆祝，失败、损失与错误被删去，作品因此无法承担真实（《伊利亚特》并不回避联军遭受的惨败与主将的过失）。另一种失误是形式不可重演：依赖作者本人在场的一次性交付，一旦作者离场作品即消失，无法成为共同体的记忆制度。第三是把记忆变成操纵：只写被选中的人与被要求的荣誉理由，让共同体失去对「为何值得记住」进行审议的余地，传承退化为宣传。"
+      ],
+      "representative_cases_en": [
+        "Sarpedon's account of honour, Iliad 12: the Lycian prince tells his companion that the reason they hold the best meat, wine and land is that they stand in the front line and risk death; if fleeing brought long life he would not fight, but since death is fixed for us all, the only ground left is the glory of being remembered. The passage states the poem's value system outright: distribution (a better share) is bound to obligation (standing first), and memory is the final payment in that exchange",
+        "Demodocus sings and his audience weeps, Odyssey 8: the bard performs the events of Troy in the Phaeacian hall and Odysseus hides his face and cries; later he himself asks for the song of the wooden horse and uses it to introduce his own story. The work shows its own operation here: a community's public occasion preserves past suffering in song, and the man who lived it hears how he is remembered - the memory institution and the content become mirrors of each other",
+        "Cautionary: remembering only the victory and not the cost - turning transmission into celebration with losses, failures and errors deleted, so the work cannot carry the truth (the Iliad does not conceal the army's defeats or its commander's faults). The second failure is a form that cannot be re-performed: a one-off delivery that depends on the author's presence, so the work vanishes when he leaves and never becomes an institution. The third is turning memory into manipulation: writing only the chosen names and the required reasons for honour, leaving the community no room to examine why something deserves remembering, at which point transmission degrades into propaganda."
+      ],
+      "modern_applications_zh": [
+        "组织史与纪念体系：明确要为组织保存哪些人与事、为何值得记住，并设计可被后人独立重述与引用的形式，而不是只靠当事人讲述",
+        "公共教育与课程建设：把要传承的内容做成可背诵、可重演、可交付他人的形式（案例、仪式、作品），让学习者成为再一次的传承者",
+        "品牌与共同体叙事：把「我们希望客户如何讲述这件事」写进体验设计，让用户自己成为故事的传述者，同时保留挫折与代价以免叙事失真",
+        "个人写作与遗产整理：把想给后人留下的东西做成不依赖本人存在的可传形态（可读文本、可复用的方法），并写清为何值得被记住"
+      ],
+      "modern_applications_en": [
+        "Organizational history and commemoration: decide which people and events the organization must keep, and why, and design a form later members can restate and cite independently instead of depending on a living witness",
+        "Public education and curriculum: make what is to be transmitted recitable, re-performable and deliverable to someone else (a case, a rite, a work), so learners become the next transmitters",
+        "Brand and community narrative: write how you want customers to retell the story into the experience design, so users themselves become the narrators, while keeping setbacks and costs in view so the narrative stays truthful",
+        "Personal writing and legacy work: turn what you want to leave behind into a form that does not depend on your presence (readable text, reusable method), and state plainly why it deserves to be remembered"
+      ],
+      "related_modes": [
+        "M-HOM-006",
+        "M-HOM-007",
+        "M-THU-003",
+        "M-ALEXANDE-008"
+      ],
+      "representative_figures": [
+        "荷马",
+        "萨耳佩冬（《伊利亚特》中的吕基亚王子）",
+        "得摩多科斯（《奥德赛》中的歌者）"
+      ]
+    }
+  ]
+}
