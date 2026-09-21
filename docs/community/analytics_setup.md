@@ -2,9 +2,9 @@
 
 > Phase45-A / 卡片 `t_eb3de8e7` / 线上站 https://ovmobilegroup.github.io/protreptic
 >
-> 现状: 集成已就位, **缺省 inert** 状态。没有填站点码之前, 线上不加载任何统计脚本、
-> 不产生第三方请求。填一行值即激活, 清空该值即回滚。
-> 本文每条结论都附上可复现命令与实测输出。
+> 现状: 集成已就位。开关是 `web/goatcounter.json` 的 `code` 字段:
+> 填站点码即激活, 清空即回滚; 值为空 (缺省) 时线上不加载任何统计脚本、不产生第三方请求。
+> 这里不复制该字段的当前值, 以仓库里的文件为准, 免得两处打架。
 
 ## 0. 为什么选 GoatCounter
 
@@ -100,11 +100,20 @@ $ grep -n data-goatcounter dist/index.html
 - 从 `/protreptic/` 进入并重定向到 `/figures` 时得到 `[{"path":"/protreptic/figures", ...}]`;
 - 控制台没有 error 或 unhandledrejection 这两类报错。
 
-线上回读 (激活前应为 0):
+线上回读。结果取决于 `code` 的当前值: 空则应为 0, 非空则应为 1 条。
 
 ```bash
 $ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -c goatcounter
 0
+```
+
+激活状态下实测 (2026-09-21, 首页 / `404.html` / 深链页各出现一次):
+
+```bash
+$ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -c goatcounter
+1
+$ curl -sL https://ovmobilegroup.github.io/protreptic/minds/H-MIY-001/ | grep -n data-goatcounter
+72:      <script data-goatcounter="https://protreptic.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 ```
 
 ## 5. 怎么回滚
