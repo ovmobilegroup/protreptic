@@ -314,7 +314,7 @@ $ python3 tools/check_repo_parity.py
 [OK] 零差异：1440 个构建图文件两仓逐字节一致（sha256）
 ```
 
-- 本报告 `docs/qa/phase45_acceptance.md` 已在两仓目录逐字节同步，sha256 `0d28edf0193929e6016353ac608406b758c36dfc3547af660a93132d0bc05e2b`（构建图内文件，parity 要求两仓逐字节一致）。
+- 本报告 `docs/qa/phase45_acceptance.md` 已在两仓目录逐字节同步（`diff` 无输出；报告自身的 sha256 随本文修订而变，故不写死，用 `diff` 自校）—— 构建图内文件，parity 要求两仓逐字节一致。
 - 发布仓：`git add docs/qa/phase45_acceptance.md` → commit `35929f7` → `git push origin main` **成功**，`git status -sb` = `## main...origin/main`（**无 `[ahead N]`**）。发布仓工作树残留 `web/dist` 的 4 删 1 改（历史 tracked 构建产物，parity 已列为排除项、不参与判定），非本卡产生、本卡未触碰。
 - 工作仓：`git status -sb` = `## master`（干净）。本报告已提交为工作仓 `70afd75d`，但 `git push origin master` 被 GitHub 服务端 **pre-receive hook 拒绝**，原文如下：
 
