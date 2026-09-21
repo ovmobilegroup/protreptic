@@ -1,0 +1,3968 @@
+{
+  "schema": "protreptic.figure_field_fix_manifest/v1",
+  "generated_at": "2026-09-21T10:38:42+00:00",
+  "generator": "tools/fix_figure_fields.py",
+  "card": "t_e3f8cf8f",
+  "applied": true,
+  "audit_input": "data/audit/figure_field_defects.json",
+  "files_changed": [
+    {
+      "file": "H-AMU-001.json",
+      "sha256_before": "22c1998c0ceb77fd09df6e881aed2571fba52f34bac0becd94d63eb87e2c3753",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Amundsen",
+          "new": "H-AMU-001",
+          "evidence": "文件名主干='H-AMU-001'; id='H-AMU-001'; code='AMU'"
+        },
+        {
+          "field": "code",
+          "old": "AMU",
+          "new": "AMU",
+          "evidence": "文件名主干='H-AMU-001'; id='H-AMU-001'; code='AMU'"
+        }
+      ],
+      "sha256_after": "0116d3bf1c63e9927223dd908576cc8070bc601b581f5a3662c8548cf3efd4bb"
+    },
+    {
+      "file": "H-AN-001.json",
+      "sha256_before": "b8d624e0b1d7d73744ebb3970308fcb5ef08cd818055de121e5ffd2f5b4ad179",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-AN-001",
+          "evidence": "文件名主干='H-AN-001'; id=None; code='H-AN-001'"
+        }
+      ],
+      "sha256_after": "3c3f110c035ee2412c01a0d81cdcb105f77ecccbd2394b7f4d1e4b53e337c059"
+    },
+    {
+      "file": "H-AND-001.json",
+      "sha256_before": "d495ff114bfd5d598a573f121e319c8a2e76dee063dcd35b0e6077679dc2470c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Andersen",
+          "new": "H-AND-001",
+          "evidence": "文件名主干='H-AND-001'; id='H-AND-001'; code='AND'"
+        }
+      ],
+      "sha256_after": "386ba822b2c90780636da924491549d04ed43ee5438039afd08706b2535c7300"
+    },
+    {
+      "file": "H-ARC-001.json",
+      "sha256_before": "ceadb6dee78ebe95d263fe137d8b9f81ca611f81664c135d366752053ff5ac27",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Archimedes",
+          "new": "H-ARC-001",
+          "evidence": "文件名主干='H-ARC-001'; id='H-ARC-001'; code='ARC'"
+        }
+      ],
+      "sha256_after": "774207ddbf217c1be94973e65ed2462d442ee353c57b0640361cf6392e6b3710"
+    },
+    {
+      "file": "H-ATK-001.json",
+      "sha256_before": "62e92fae832f71abeba16ddd29b464353ca851a8c71a9120c3aceba6723b62b2",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Ataturk",
+          "new": "H-ATK-001",
+          "evidence": "文件名主干='H-ATK-001'; id='H-ATK-001'; code='ATK'"
+        }
+      ],
+      "sha256_after": "11c03bf7ce2000dd72a9f3ddf068e695cea927c6385921cc06d7a034ecae826e"
+    },
+    {
+      "file": "H-AUR-001.json",
+      "sha256_before": "a75dbaffe4738befcf2b41b764c4b983b398543f2137cc3b4c4c3f2ef74a05d3",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Aurobindo",
+          "new": "H-AUR-001",
+          "evidence": "文件名主干='H-AUR-001'; id='H-AUR-001'; code='AUR'"
+        },
+        {
+          "field": "code",
+          "old": "AUR",
+          "new": "AUR",
+          "evidence": "文件名主干='H-AUR-001'; id='H-AUR-001'; code='AUR'"
+        }
+      ],
+      "sha256_after": "07a70161f4f02aa28d8f7fafc3767c43896bd97fb1402c81feabdb7347d56d66"
+    },
+    {
+      "file": "H-AlGhazali-001.json",
+      "sha256_before": "b6a8c880d14540112f3c18c23b2c37a725d7008b2a4bab04906ca1a352679529",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-AlGhazali-001",
+          "evidence": "文件名主干='H-AlGhazali-001'; id='H-ALGHAZAL-001'; code='AlGhazali'"
+        },
+        {
+          "field": "code",
+          "old": "AlGhazali",
+          "new": "AlGhazali",
+          "evidence": "文件名主干='H-AlGhazali-001'; id='H-ALGHAZAL-001'; code='AlGhazali'"
+        },
+        {
+          "field": "figure_name",
+          "old": "加括友",
+          "new": "阿斋逊",
+          "evidence": "historical_significance 首句 [阿斋逊(1058-1111), 伊斯兰黄金时代思想家...]; 原 name='加括友' 与 pinyin='Jia Ku You' 为杜撰读音. 同人文件 H-GHZ-163.json 用正式名[安萨里](Al-Ghazali), 是否统一为安萨里留待船长裁定 -> 同时进待核名清单"
+        }
+      ],
+      "sha256_after": "4104297ebfd3d42111d3216d3481ff602738738659fc9371e2680dfcc9403454"
+    },
+    {
+      "file": "H-Alexander-001.json",
+      "sha256_before": "d504301ac8918dcb7e248196eeb1f24f7169a1a89371881816f1e29571ac2363",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Alexander",
+          "new": "H-Alexander-001",
+          "evidence": "文件名主干='H-Alexander-001'; id='H-ALEXANDE-001'; code='Alexander'"
+        },
+        {
+          "field": "code",
+          "old": "Alexander",
+          "new": "Alexander",
+          "evidence": "文件名主干='H-Alexander-001'; id='H-ALEXANDE-001'; code='Alexander'"
+        }
+      ],
+      "sha256_after": "3365d9107f94ce7b63b61fd6a636ad6abb7feb78d7beca1c47f3c894a7a44313"
+    },
+    {
+      "file": "H-Ashoka-001.json",
+      "sha256_before": "52d92cc7815d1f63da659ee32c1d66fab7a7e365c81fd89ba8e258af544f3afd",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Ashoka",
+          "new": "H-Ashoka-001",
+          "evidence": "文件名主干='H-Ashoka-001'; id='H-ASHOKA-001'; code='Ashoka'"
+        },
+        {
+          "field": "code",
+          "old": "Ashoka",
+          "new": "Ashoka",
+          "evidence": "文件名主干='H-Ashoka-001'; id='H-ASHOKA-001'; code='Ashoka'"
+        }
+      ],
+      "sha256_after": "029da5e096b7df6adef28e42dc515aafc4864130aeb8a1c8eae2199e2eaeb5ba"
+    },
+    {
+      "file": "H-BA-001.json",
+      "sha256_before": "a4fd8950c1e87e2028fd9019bf1e655cd6197b40f12df752224ad3dffdc2ab3d",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Bada",
+          "new": "H-BA-001",
+          "evidence": "文件名主干='H-BA-001'; id='H-BA-001'; code='BA'"
+        }
+      ],
+      "sha256_after": "7d2e6e98c2240cafe9dd944758a954c6e7a9025e5b20e2073f7e9dafdc2293e4"
+    },
+    {
+      "file": "H-BAC-001.json",
+      "sha256_before": "20c32f8d7fef84d08575fc96e2ac87c7caf105431858b7c82efded00d83b4d74",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Bach",
+          "new": "H-BAC-001",
+          "evidence": "文件名主干='H-BAC-001'; id='H-BAC-001'; code='H-BAC-001'"
+        },
+        {
+          "field": "code",
+          "old": "H-BAC-001",
+          "new": "Bach",
+          "evidence": "文件名主干='H-BAC-001'; id='H-BAC-001'; code='H-BAC-001'"
+        }
+      ],
+      "sha256_after": "90808d4155357454687c7842d1e08856974c81cf2e9215d4f8c1d77d37da2cc6"
+    },
+    {
+      "file": "H-BAK-001.json",
+      "sha256_before": "65d8de7ef7e0e685a2bd00a6271812801d26bf0e1cf8a94ff63ae1778a93020e",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Bacon",
+          "new": "H-BAK-001",
+          "evidence": "文件名主干='H-BAK-001'; id='H-BAK-001'; code='BAK'"
+        }
+      ],
+      "sha256_after": "4a7f6dd51d6ed3730320651f77d82e3c887b6f1310ba82e35ba658c416fd4053"
+    },
+    {
+      "file": "H-BEN-001.json",
+      "sha256_before": "10e8a86146875e7155c84c2d59ffdf266b355ad0f04c3cf45d41da3bb3ff74e5",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Bentham",
+          "new": "H-BEN-001",
+          "evidence": "文件名主干='H-BEN-001'; id='H-BEN-001'; code='H-BEN-001'"
+        }
+      ],
+      "sha256_after": "6a47257279c40a90eb4f61d6d16511b0235169006fa6ac9ec0c51bef2353c7fe"
+    },
+    {
+      "file": "H-BG-001.json",
+      "sha256_before": "7ba70ced699694044f21f6245123c2e4070044c7e8cf567614cdd68a06bca271",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "班固",
+          "evidence": "figure_name_zh='班固'"
+        },
+        {
+          "field": "figure_code",
+          "old": "Han",
+          "new": "H-BG-001",
+          "evidence": "文件名主干='H-BG-001'; id=None; code='H-BG-001'"
+        }
+      ],
+      "sha256_after": "bf15af72aaaf89c4289491d3cd7dfe057858b73120cbf9c927265f535ec81674"
+    },
+    {
+      "file": "H-BORG-001.json",
+      "sha256_before": "d473a76ba091930e26d82192c35fda92f2a100fedecf9907912a4566d2306aa6",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Borges",
+          "new": "H-BORG-001",
+          "evidence": "文件名主干='H-BORG-001'; id='H-BORG-001'; code='BORG'"
+        },
+        {
+          "field": "code",
+          "old": "BORG",
+          "new": "BORG",
+          "evidence": "文件名主干='H-BORG-001'; id='H-BORG-001'; code='BORG'"
+        }
+      ],
+      "sha256_after": "15d73ee94d238655dd111f5fb4541b4aa8b94daafea6ec8a7cec6c51b6444fde"
+    },
+    {
+      "file": "H-Belisarius-001.json",
+      "sha256_before": "bc52d6ade884191913e79bd216d6ab5f87201a569590afbc80c2af0e404de118",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-Belisarius-001",
+          "evidence": "文件名主干='H-Belisarius-001'; id='H-BELISARI-001'; code='Belisarius'"
+        },
+        {
+          "field": "code",
+          "old": "Belisarius",
+          "new": "Belisarius",
+          "evidence": "文件名主干='H-Belisarius-001'; id='H-BELISARI-001'; code='Belisarius'"
+        }
+      ],
+      "sha256_after": "4cc6fe827b9991c1e29751ca089268b7a24172d40b3a16ee6db1030acc049668"
+    },
+    {
+      "file": "H-Bell-001.json",
+      "sha256_before": "b6fe7698cc1854182cfa89230b40dc2e9dd59434e605278c1e8deea08b833736",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-Bell-001",
+          "evidence": "文件名主干='H-Bell-001'; id='H-BELL-001'; code='Bell'"
+        },
+        {
+          "field": "code",
+          "old": "Bell",
+          "new": "Bell",
+          "evidence": "文件名主干='H-Bell-001'; id='H-BELL-001'; code='Bell'"
+        }
+      ],
+      "sha256_after": "41a787515a13e387899b965e0208ee49a758a9bbf704947d5e4977cbfdacd9ba"
+    },
+    {
+      "file": "H-Bismarck-001.json",
+      "sha256_before": "9fbcecfc68c2ddd865f6b148e850c1f065d8c7522d929fab1142e7214939cd57",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Bismarck",
+          "new": "H-Bismarck-001",
+          "evidence": "文件名主干='H-Bismarck-001'; id='H-BISMARCK-001'; code='Bismarck'"
+        },
+        {
+          "field": "code",
+          "old": "Bismarck",
+          "new": "Bismarck",
+          "evidence": "文件名主干='H-Bismarck-001'; id='H-BISMARCK-001'; code='Bismarck'"
+        }
+      ],
+      "sha256_after": "f53b61180ab300d664835b472e2b5172f99101984f0c5b9886c1498baed35b5a"
+    },
+    {
+      "file": "H-Bohr-001.json",
+      "sha256_before": "7876a21dbe8e52234658167dd1e1a6e18cc7e6a9c2577f4183d56a654f3b245a",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-Bohr-001",
+          "evidence": "文件名主干='H-Bohr-001'; id='H-BOHR-001'; code='Bohr'"
+        },
+        {
+          "field": "code",
+          "old": "Bohr",
+          "new": "Bohr",
+          "evidence": "文件名主干='H-Bohr-001'; id='H-BOHR-001'; code='Bohr'"
+        }
+      ],
+      "sha256_after": "14e8bf70f11f8e7565e65c60c729d6500d1c742c61d78dc1df2ac93d6fe11e90"
+    },
+    {
+      "file": "H-CAE-001.json",
+      "sha256_before": "020abf9ebfd1d72d6cacba36aa79ad25acd13c211039abe44b6af8c9fe76db40",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Caesar",
+          "new": "H-CAE-001",
+          "evidence": "文件名主干='H-CAE-001'; id='H-CAE-001'; code='CAE'"
+        }
+      ],
+      "sha256_after": "9185c9c40ff330151a638493c2d478a26ade11e900b05d26edccfff29a184f8b"
+    },
+    {
+      "file": "H-CH-001.json",
+      "sha256_before": "9ff4cfc400d80e718eaaf915efb9237113e90fea1f2f29b07ae2c9e26270f489",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "程颢",
+          "evidence": "figure_name_zh='程颢'"
+        }
+      ],
+      "sha256_after": "cc500ce6e2eb684aee666454422ae3ff2b9f4dd1eb3f5fcd960575a100f619d3"
+    },
+    {
+      "file": "H-CHB-001.json",
+      "sha256_before": "68a6e3ba09d950baca71dd4d8bd7021ee20a61b16852d91c284573907455466d",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-CHB-001",
+          "evidence": "文件名主干='H-CHB-001'; id=None; code='H-CHB-001'"
+        }
+      ],
+      "sha256_after": "51466c543271355a504613a3f0dc458102bf14071c3ec919492a71fc0c696cef"
+    },
+    {
+      "file": "H-CHN-001.json",
+      "sha256_before": "9d464182e425fb5b15ae6489790ed32b6ac9ec4412a2d92f6f0a4c2502c5d309",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Chern",
+          "new": "H-CHN-001",
+          "evidence": "文件名主干='H-CHN-001'; id='H-CHN-001'; code='CHN'"
+        }
+      ],
+      "sha256_after": "d7e3e087219db307f6b74b61182d1db2c76008a5a1d4a2fb2020905dccb153dd"
+    },
+    {
+      "file": "H-CHU-001.json",
+      "sha256_before": "1c4a9776fc3f47fd02d69bb913cd6bf0ece4fb30c45a3e2eb095cdad2e7a675d",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Churchill",
+          "new": "H-CHU-001",
+          "evidence": "文件名主干='H-CHU-001'; id='H-CHU-001'; code='CHU'"
+        }
+      ],
+      "sha256_after": "958cca11a5393e442ce19ca32d77251ce919a819dbbe7dccfabfc00e6706df90"
+    },
+    {
+      "file": "H-CIC-001.json",
+      "sha256_before": "f8575a8d192bf5e12dec7cf76415ca8f706c26ed2c31fcc7f58086511ec50edf",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Cicero",
+          "new": "H-CIC-001",
+          "evidence": "文件名主干='H-CIC-001'; id='H-CIC-001'; code='CIC'"
+        }
+      ],
+      "sha256_after": "b864b0975936b6d49bec238100e919642c82f94ae5f080d66a16bc196abf6cad"
+    },
+    {
+      "file": "H-CL-001.json",
+      "sha256_before": "db4ef4f594eaf2b18540c4741aec300675a96aceee1e42a0dd1491136bc88144",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "CaiLun",
+          "new": "H-CL-001",
+          "evidence": "文件名主干='H-CL-001'; id='H-CL-001'; code='CL'"
+        },
+        {
+          "field": "code",
+          "old": "CL",
+          "new": "CL",
+          "evidence": "文件名主干='H-CL-001'; id='H-CL-001'; code='CL'"
+        }
+      ],
+      "sha256_after": "b5653c72521fd1551c00793c911a8dac10d7e20c9a5d8e8053a19d2d10aee7ec"
+    },
+    {
+      "file": "H-CatherineII-001.json",
+      "sha256_before": "21ad38ef45a5e88f13c7fd56ecc3bc9a54b39de2c21b43fcc5f38a3f6be3efd3",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "CatherineII",
+          "new": "H-CatherineII-001",
+          "evidence": "文件名主干='H-CatherineII-001'; id='H-CATHERIN-001'; code='CatherineII'"
+        },
+        {
+          "field": "code",
+          "old": "CatherineII",
+          "new": "CatherineII",
+          "evidence": "文件名主干='H-CatherineII-001'; id='H-CATHERIN-001'; code='CatherineII'"
+        }
+      ],
+      "sha256_after": "3bdd5b5a0b71852f0176244e0fcb49cd5f95061ccdec5e7c5b9892d74664ec6b"
+    },
+    {
+      "file": "H-Charlemagne-001.json",
+      "sha256_before": "5c64ac6afddb30170cbcd55eab36f7f8ed312d11876dc76d04ea13e92160bdad",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Charlemagne",
+          "new": "H-Charlemagne-001",
+          "evidence": "文件名主干='H-Charlemagne-001'; id='H-CHARLEM-001'; code='Charlemagne'"
+        },
+        {
+          "field": "code",
+          "old": "Charlemagne",
+          "new": "Charlemagne",
+          "evidence": "文件名主干='H-Charlemagne-001'; id='H-CHARLEM-001'; code='Charlemagne'"
+        }
+      ],
+      "sha256_after": "9eb14da48df09b3ccd621a1c75a8602d49cff7df53398b46b8f6b83f914f4ef7"
+    },
+    {
+      "file": "H-Cyrus-001.json",
+      "sha256_before": "f3199ce70263ae7f4978cc31b6389c169f5c7fa4e992c4b466ede041249d3e1e",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Cyrus",
+          "new": "H-Cyrus-001",
+          "evidence": "文件名主干='H-Cyrus-001'; id='H-CYRUS-001'; code='Cyrus'"
+        },
+        {
+          "field": "code",
+          "old": "Cyrus",
+          "new": "Cyrus",
+          "evidence": "文件名主干='H-Cyrus-001'; id='H-CYRUS-001'; code='Cyrus'"
+        }
+      ],
+      "sha256_after": "b884fd68b331bcf3fe9c721499d7cb26125472f9f86386e18806292b89feffb7"
+    },
+    {
+      "file": "H-DA-001.json",
+      "sha256_before": "4d8f79355e0b62fc1ecf069aad42aae3d09245923de774caafee4b63024dca5a",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "道安",
+          "evidence": "figure_name_zh='道安'"
+        }
+      ],
+      "sha256_after": "436fbd3aed30e37e51dfe2653ba5dc7d1e656df51ee02362dba7c13cbb637665"
+    },
+    {
+      "file": "H-DAV-001.json",
+      "sha256_before": "03667051fa7ec712f146d7c7328f804b9af76211997d156b20527420b4ef48d8",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "DaVinci",
+          "new": "H-DAV-001",
+          "evidence": "文件名主干='H-DAV-001'; id='H-DAV-001'; code='H-DAV-001'"
+        },
+        {
+          "field": "code",
+          "old": "H-DAV-001",
+          "new": "DaVinci",
+          "evidence": "文件名主干='H-DAV-001'; id='H-DAV-001'; code='H-DAV-001'"
+        }
+      ],
+      "sha256_after": "7751254384340c75384191da1e3a453a767d2f48f77ea0af75849fde217401fd"
+    },
+    {
+      "file": "H-DF-001.json",
+      "sha256_before": "6c3becba0085559083d7aaed244733a8b2019351b7cb3cd8e31f77eb1798ee83",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "DuFu",
+          "new": "H-DF-001",
+          "evidence": "文件名主干='H-DF-001'; id='H-DF-001'; code='DF'"
+        }
+      ],
+      "sha256_after": "a46afc27d881a979677983034f05e4fcd9d4ce0b89288b0f001c9ff3ee0391e7"
+    },
+    {
+      "file": "H-DLT-001.json",
+      "sha256_before": "140237836c4b67268ee048089ef32dd009e20e72e74bdc98de12ba5f4e93f30e",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Dalton",
+          "new": "H-DLT-001",
+          "evidence": "文件名主干='H-DLT-001'; id='H-DLT-001'; code='DLT'"
+        },
+        {
+          "field": "code",
+          "old": "DLT",
+          "new": "DLT",
+          "evidence": "文件名主干='H-DLT-001'; id='H-DLT-001'; code='DLT'"
+        }
+      ],
+      "sha256_after": "e1a77f8c23965cf6741720a7fcd97d6522e866f79000ac0186f57fa0bd25399e"
+    },
+    {
+      "file": "H-DRA-001.json",
+      "sha256_before": "c7dc3ad49d0b2cc4a041fe95cfae84d7beb771a5e03d08aa7735d70db2142189",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Drake",
+          "new": "H-DRA-001",
+          "evidence": "文件名主干='H-DRA-001'; id='H-DRA-001'; code='DRA'"
+        },
+        {
+          "field": "code",
+          "old": "DRA",
+          "new": "DRA",
+          "evidence": "文件名主干='H-DRA-001'; id='H-DRA-001'; code='DRA'"
+        }
+      ],
+      "sha256_after": "3ecf085fcb2e1095cc00b5b8325cdebb62d75d97296d8d035cf29dc0343e3f47"
+    },
+    {
+      "file": "H-DSF-001.json",
+      "sha256_before": "c979fe5d8a1ee95a35e1590574be42539db3e44a34a0bd35cc43edf57390ffdb",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Dostoevsky",
+          "new": "H-DSF-001",
+          "evidence": "文件名主干='H-DSF-001'; id='H-DSF-001'; code='DSF'"
+        }
+      ],
+      "sha256_after": "0332023e652e7c64f254ad6db7e4895c466542c4f3c2fab7168d5e857fa45942"
+    },
+    {
+      "file": "H-DUR-001.json",
+      "sha256_before": "ef969c6679525923bc73fe3a46b1a814804a6ff44a786090706a14dab728f211",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Durkheim",
+          "new": "H-DUR-001",
+          "evidence": "文件名主干='H-DUR-001'; id='H-DUR-001'; code='DUR'"
+        },
+        {
+          "field": "code",
+          "old": "DUR",
+          "new": "DUR",
+          "evidence": "文件名主干='H-DUR-001'; id='H-DUR-001'; code='DUR'"
+        }
+      ],
+      "sha256_after": "23baeb28fcca5b44ae42fd1d655c0ad9e31e6af89945c85971e6523bdb0ac408"
+    },
+    {
+      "file": "H-DY-001.json",
+      "sha256_before": "404191bc770108760e5fbe69dadb88268d770852f0a7c20dfa0f0a1f4ac0b5d5",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-DY-001",
+          "evidence": "文件名主干='H-DY-001'; id=None; code='H-DY-001'"
+        }
+      ],
+      "sha256_after": "5fa491941594d037421abd821a3b89a0aca0fcaf67e3fc0390bb904933b4bc16"
+    },
+    {
+      "file": "H-DZ-001.json",
+      "sha256_before": "f4b121aeb0f58c549ee3b170982cfb1381a5a92a4df6dea7dcee2ac9b2ea5000",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "戴震",
+          "evidence": "figure_name_zh='戴震'"
+        }
+      ],
+      "sha256_after": "8cc206b8df63c3ea0b8d3d82dca679603dd9c8591af675a5a34516c39703e1ee"
+    },
+    {
+      "file": "H-DZS-001.json",
+      "sha256_before": "3707e32490c80ed5eeca0c99559482606ffe70b2fd54fad50f81b69ffd50f757",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "H-DZS",
+          "new": "H-DZS-001",
+          "evidence": "文件名主干='H-DZS-001'; id=None; code=None"
+        }
+      ],
+      "sha256_after": "f41fbfc0bd9ea5795dbe8239bd9827c2da07b81218be01f4623945629b67abf8"
+    },
+    {
+      "file": "H-DengXiaoPing-001.json",
+      "sha256_before": "4023480739e00413b3f6005b300f53b1823b827d93bd76cedba8ded25a5dc685",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "DengXiaoPing",
+          "new": "H-DengXiaoPing-001",
+          "evidence": "文件名主干='H-DengXiaoPing-001'; id='H-DENGXIAO-001'; code='DengXiaoPing'"
+        },
+        {
+          "field": "code",
+          "old": "DengXiaoPing",
+          "new": "DengXiaoPing",
+          "evidence": "文件名主干='H-DengXiaoPing-001'; id='H-DENGXIAO-001'; code='DengXiaoPing'"
+        }
+      ],
+      "sha256_after": "67bacb4d0bc054871e4896d14e2b021f86bd25c71fe329c52dfa6adfb34c687f"
+    },
+    {
+      "file": "H-ECL-001.json",
+      "sha256_before": "0b92d344c600c30f60602eca092ee7f29025d1e15031b6b1024a0f0793866f5f",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ElCid",
+          "new": "H-ECL-001",
+          "evidence": "文件名主干='H-ECL-001'; id='H-ECL-001'; code='ECL'"
+        },
+        {
+          "field": "code",
+          "old": "ECL",
+          "new": "ECL",
+          "evidence": "文件名主干='H-ECL-001'; id='H-ECL-001'; code='ECL'"
+        }
+      ],
+      "sha256_after": "bb13c3eaf660a3bd2c0e8d7178558335d417db48d42fa58341959de657b0bf63"
+    },
+    {
+      "file": "H-EUC-001.json",
+      "sha256_before": "f5eb3dccafeaebb23f753397cf2ac0a255a610f93490579314601b89193d55e5",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Euclid",
+          "new": "H-EUC-001",
+          "evidence": "文件名主干='H-EUC-001'; id='H-EUC-001'; code='EUC'"
+        }
+      ],
+      "sha256_after": "a6eb2a42376b54b195465844ab25647d75ee7e974a59427f86215c7dc9219b03"
+    },
+    {
+      "file": "H-EUL-001.json",
+      "sha256_before": "f2f8ee88a7740556d7ce0ca4362bdf00fb740740df5b038c073ed223273eca21",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Euler",
+          "new": "H-EUL-001",
+          "evidence": "文件名主干='H-EUL-001'; id='H-EUL-001'; code='EUL'"
+        },
+        {
+          "field": "code",
+          "old": "EUL",
+          "new": "Euler",
+          "evidence": "文件名主干='H-EUL-001'; id='H-EUL-001'; code='EUL'"
+        }
+      ],
+      "sha256_after": "5bd25adffa1a0ff047e2c32d312b52ffdb6a1ba6c74585f5990a8a81bc1bae96"
+    },
+    {
+      "file": "H-Edison-001.json",
+      "sha256_before": "544a083713784a1a620da0403f7d95a20627e09054af868631be747df38be527",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Edison",
+          "new": "H-Edison-001",
+          "evidence": "文件名主干='H-Edison-001'; id='H-EDISON-001'; code='Edison'"
+        },
+        {
+          "field": "code",
+          "old": "Edison",
+          "new": "Edison",
+          "evidence": "文件名主干='H-Edison-001'; id='H-EDISON-001'; code='Edison'"
+        }
+      ],
+      "sha256_after": "5ca53b69f3e896d927f98009fbbc4e32ecc4910b5f71e4113cc44a0b6eb1b4b5"
+    },
+    {
+      "file": "H-ElizabethI-001.json",
+      "sha256_before": "17d8ad449a4f4cb28cb7b4289a9273ead8bc966b072cfce35c21b84c87dba37e",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-ElizabethI-001",
+          "evidence": "文件名主干='H-ElizabethI-001'; id='H-ELIZABET-001'; code='ElizabethI'"
+        },
+        {
+          "field": "code",
+          "old": "ElizabethI",
+          "new": "ElizabethI",
+          "evidence": "文件名主干='H-ElizabethI-001'; id='H-ELIZABET-001'; code='ElizabethI'"
+        }
+      ],
+      "sha256_after": "54035b7626feb5aaae4e1b2ae3a2d5e44b769786aa21c0f5af79d5540ce665b9"
+    },
+    {
+      "file": "H-FEB-001.json",
+      "sha256_before": "940bad2e8ce4d2e8492c288cde3b785151123969dc78b57bf7e3057e32f789d0",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Feuerbach",
+          "new": "H-FEB-001",
+          "evidence": "文件名主干='H-FEB-001'; id='H-FEB-001'; code='FEB'"
+        },
+        {
+          "field": "code",
+          "old": "FEB",
+          "new": "FEB",
+          "evidence": "文件名主干='H-FEB-001'; id='H-FEB-001'; code='FEB'"
+        }
+      ],
+      "sha256_after": "85394b9e42902a8b86b709146e7c5998705f9116351637b34efad6a9a0c31dc5"
+    },
+    {
+      "file": "H-FEYNMAN-001.json",
+      "sha256_before": "ac2cc0a6df0bbff36acb87aa9a3b05ce6b32e32b68bcc79933ba94bf70aa6766",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Feynman",
+          "new": "H-FEYNMAN-001",
+          "evidence": "文件名主干='H-FEYNMAN-001'; id='H-FEYNMAN-001'; code='FEYNMAN'"
+        },
+        {
+          "field": "code",
+          "old": "FEYNMAN",
+          "new": "Feynman",
+          "evidence": "文件名主干='H-FEYNMAN-001'; id='H-FEYNMAN-001'; code='FEYNMAN'"
+        }
+      ],
+      "sha256_after": "390dc58ebd0aa162fb0aa41f6af4ca2f5f48c81e42af7632670bad264dfb2a12"
+    },
+    {
+      "file": "H-FOR-001.json",
+      "sha256_before": "38368add63e36f91d0306e189eac1a03966848a26d481ad311f294c408d43f76",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Ford",
+          "new": "H-FOR-001",
+          "evidence": "文件名主干='H-FOR-001'; id='H-FOR-001'; code='FOR'"
+        },
+        {
+          "field": "code",
+          "old": "FOR",
+          "new": "FOR",
+          "evidence": "文件名主干='H-FOR-001'; id='H-FOR-001'; code='FOR'"
+        }
+      ],
+      "sha256_after": "9894d5c8b181204a5f26864bf0fba5cd250f02a0b980af4da4c79ee4098cad71"
+    },
+    {
+      "file": "H-FRK-001.json",
+      "sha256_before": "78f2b8145284b8dc0d5021626c487fe215e6de8bcb8cb10216eb7054620b81eb",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Franklin",
+          "new": "H-FRK-001",
+          "evidence": "文件名主干='H-FRK-001'; id='H-FRK-001'; code='FRK'"
+        }
+      ],
+      "sha256_after": "95f1161bc0d768820ddf163ab6cca9bb4dd6668ae973c733fff79a1f7c52445e"
+    },
+    {
+      "file": "H-GAU-001.json",
+      "sha256_before": "aae9420d27309e40e5ae52cd5cba81273a5c70bb4dbbf2f9f1759e438f159017",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Gauss",
+          "new": "H-GAU-001",
+          "evidence": "文件名主干='H-GAU-001'; id='H-GAU-001'; code='GAU'"
+        },
+        {
+          "field": "code",
+          "old": "GAU",
+          "new": "Gauss",
+          "evidence": "文件名主干='H-GAU-001'; id='H-GAU-001'; code='GAU'"
+        }
+      ],
+      "sha256_after": "9fb0ba7615b1b693cb7d47d5a81f0a0523c52b864c484c119062f1f7e00feaf5"
+    },
+    {
+      "file": "H-GJG-001.json",
+      "sha256_before": "dfd4039eda1395934718e7ff6e3abba463bd41aaaee5e0024577b789e85ec152",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "GuJiegang",
+          "new": "H-GJG-001",
+          "evidence": "文件名主干='H-GJG-001'; id='H-GJG-001'; code='GJG'"
+        },
+        {
+          "field": "code",
+          "old": "GJG",
+          "new": "GJG",
+          "evidence": "文件名主干='H-GJG-001'; id='H-GJG-001'; code='GJG'"
+        }
+      ],
+      "sha256_after": "8b43f99304a0e4cdabc2fec116d81658a94eb39df53d1f4a16f73bb0e1edb2a1"
+    },
+    {
+      "file": "H-GSJ-001.json",
+      "sha256_before": "7c5ebb5b6a82686742aae5f0985ef21a272c7641f45c77d7d24d7efc5f82292e",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "GuoShoujing",
+          "new": "H-GSJ-001",
+          "evidence": "文件名主干='H-GSJ-001'; id='H-GSJ-001'; code='GSJ'"
+        },
+        {
+          "field": "code",
+          "old": "GSJ",
+          "new": "GuoShoujing",
+          "evidence": "文件名主干='H-GSJ-001'; id='H-GSJ-001'; code='GSJ'"
+        }
+      ],
+      "sha256_after": "26a55db99defa7157617289cee8c3e62a6352beb9434a7c9fcda1dd4ec609458"
+    },
+    {
+      "file": "H-GUE-001.json",
+      "sha256_before": "b078b1e97792a9e179d7eb09926efc32000817170d5d08c256387bf781c405ef",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Guevara",
+          "new": "H-GUE-001",
+          "evidence": "文件名主干='H-GUE-001'; id='H-GUE-001'; code='GUE'"
+        }
+      ],
+      "sha256_after": "8e0e39e8363affc21b8bdf578dd8ed7d10d99447605f7e8ac694a04a035db6fd"
+    },
+    {
+      "file": "H-GX-001.json",
+      "sha256_before": "346fb90c04c6da34b822fb7ea19df7b60c71a34468f3b0750cebf35fb5636f89",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "郭象",
+          "evidence": "figure_name_zh='郭象'"
+        }
+      ],
+      "sha256_after": "7e099aaced20132798b255b34f75ad4034ab2804b5abf79eccbac3d19a1b0fe3"
+    },
+    {
+      "file": "H-GYW-001.json",
+      "sha256_before": "3eff264bc720fb8ecbc4d0e1b33679a75f144d4ad3cfe423b3ec64dc984bdeb2",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "顾炎武",
+          "evidence": "figure_name_zh='顾炎武'"
+        }
+      ],
+      "sha256_after": "409bc80bc43ae1d9e67b77ac60cbb3d1fe059358bd91029745cfa24319360ba6"
+    },
+    {
+      "file": "H-HAM-001.json",
+      "sha256_before": "f5edeba502db85e0263170f903ddc99a371f3e9d2e0db98b0fd1ccf98483fc67",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Hamilton",
+          "new": "H-HAM-001",
+          "evidence": "文件名主干='H-HAM-001'; id='H-HAM-001'; code='HAM'"
+        }
+      ],
+      "sha256_after": "b26fe6eefb8392d7154421dd9c53de8ce8771fbf9c930ce65eb393dc9f6bab51"
+    },
+    {
+      "file": "H-HAN-001.json",
+      "sha256_before": "dda2097f724941823192351987f845ae0ed3897ac63f3c71aa5956b9f95cd23e",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "沈幅",
+          "evidence": "figure_name_zh='沈幅'"
+        },
+        {
+          "field": "figure_code",
+          "old": "Han",
+          "new": "H-HAN-001",
+          "evidence": "文件名主干='H-HAN-001'; id=None; code='H-HAN-001'"
+        }
+      ],
+      "sha256_after": "83b882fda4adf68cca0815c4022eaed0c4878eebeaecdeb916d53a1ec982c960"
+    },
+    {
+      "file": "H-HAWKING-001.json",
+      "sha256_before": "58283f427a06d6ad032d939c4d9f3a19c6312919be098b366231f0bb7845be45",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Hawking",
+          "new": "H-HAWKING-001",
+          "evidence": "文件名主干='H-HAWKING-001'; id='H-HAWKING-001'; code='HAWKING'"
+        },
+        {
+          "field": "code",
+          "old": "HAWKING",
+          "new": "Hawking",
+          "evidence": "文件名主干='H-HAWKING-001'; id='H-HAWKING-001'; code='HAWKING'"
+        }
+      ],
+      "sha256_after": "89ea0932d6d7641355ea4740ff1c926fea19eaa57c3ff9c655528b82fc0df261"
+    },
+    {
+      "file": "H-HAY-001.json",
+      "sha256_before": "91ab5749f5126b33fda78ac8220071e2197522390bcc4af6fc146626fd17c738",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Hayek",
+          "new": "H-HAY-001",
+          "evidence": "文件名主干='H-HAY-001'; id='H-HAY-001'; code='H-HAY-001'"
+        }
+      ],
+      "sha256_after": "997e5c03a4c56756bc0242de7ffd53454730c8f1f79838a5378d0477dea2bb9c"
+    },
+    {
+      "file": "H-HCM-001.json",
+      "sha256_before": "75e2247944d26cb489f3d70c1e4f9cd91913acaf0821d504440b27a8ab270c7a",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "HoChiMinh",
+          "new": "H-HCM-001",
+          "evidence": "文件名主干='H-HCM-001'; id='H-HCM-001'; code='HCM'"
+        },
+        {
+          "field": "code",
+          "old": "HCM",
+          "new": "HCM",
+          "evidence": "文件名主干='H-HCM-001'; id='H-HCM-001'; code='HCM'"
+        }
+      ],
+      "sha256_after": "8b75444112c74292b18047142f3d408273c8ef0668bac37a6dedac09d002cb02"
+    },
+    {
+      "file": "H-HEISENBERG-001.json",
+      "sha256_before": "b88d3d8183c9b6f1f439124e83da1f946533835cbbfe1da48e9808be29cfe4d0",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Heisenberg",
+          "new": "H-HEISENBERG-001",
+          "evidence": "文件名主干='H-HEISENBERG-001'; id='H-HEISENBERG-001'; code='HEISENBERG'"
+        },
+        {
+          "field": "code",
+          "old": "HEISENBERG",
+          "new": "HEISENBERG",
+          "evidence": "文件名主干='H-HEISENBERG-001'; id='H-HEISENBERG-001'; code='HEISENBERG'"
+        }
+      ],
+      "sha256_after": "706629bcac48605e5270e976297046da0aa0b35410cbf040b84c472a53ba6ac0"
+    },
+    {
+      "file": "H-HER-001.json",
+      "sha256_before": "7bc30c5da287ff271325f6dacee8c27ac4a2cc97ee17eec60be75a7d918b2e9f",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Herzl",
+          "new": "H-HER-001",
+          "evidence": "文件名主干='H-HER-001'; id='H-HER-001'; code='HER'"
+        },
+        {
+          "field": "code",
+          "old": "HER",
+          "new": "HER",
+          "evidence": "文件名主干='H-HER-001'; id='H-HER-001'; code='HER'"
+        }
+      ],
+      "sha256_after": "971d961086ec8c32e777ed83dbbe9a62150fa5dd638fa620d42b9886ff7213ae"
+    },
+    {
+      "file": "H-HIPPOCRA-001.json",
+      "sha256_before": "19c6d425b8674abc5a51bbf20d068a84154b8728609ac33529bb680df57bb84d",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Hippocrates",
+          "new": "H-HIPPOCRA-001",
+          "evidence": "文件名主干='H-HIPPOCRA-001'; id='H-HIPPOCRA-001'; code='HIPPOCRA'"
+        },
+        {
+          "field": "code",
+          "old": "HIPPOCRA",
+          "new": "Hippocrates",
+          "evidence": "文件名主干='H-HIPPOCRA-001'; id='H-HIPPOCRA-001'; code='HIPPOCRA'"
+        }
+      ],
+      "sha256_after": "132ffc569beb2c935d1d9ddcd4a928526ed7d95c3c6f20b1bf4d3647dc99f099"
+    },
+    {
+      "file": "H-HLG-001.json",
+      "sha256_before": "84712e2f15c3ed5bd2c0297000d5dc0a77107ccbe05d27c835766bf8ca337d25",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "HuaLuogeng",
+          "new": "H-HLG-001",
+          "evidence": "文件名主干='H-HLG-001'; id='H-HLG-001'; code='HLG'"
+        }
+      ],
+      "sha256_after": "e7da0646926087b4bd06651bffe8060915b02ac9f31c4eb70e3365bfacb8cacb"
+    },
+    {
+      "file": "H-HON-001.json",
+      "sha256_before": "eaffa57e2f1f3cc34f66441e180fdf56d99f70ccea910bdc122364e358f1e59b",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Honda",
+          "new": "H-HON-001",
+          "evidence": "文件名主干='H-HON-001'; id='H-HON-001'; code='HON'"
+        },
+        {
+          "field": "code",
+          "old": "HON",
+          "new": "HON",
+          "evidence": "文件名主干='H-HON-001'; id='H-HON-001'; code='HON'"
+        }
+      ],
+      "sha256_after": "0db79bc8746915ab17fab57e8d3b7df08b0a79873fc83d6738b85fbf9aea7f4c"
+    },
+    {
+      "file": "H-HRC-001.json",
+      "sha256_before": "ca0852e4ec1e76a6c78f1f833f393fdaec4c3832feec7133d1b7e25dc8ca1c4c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Herschel",
+          "new": "H-HRC-001",
+          "evidence": "文件名主干='H-HRC-001'; id='H-HRC-001'; code='HRC'"
+        },
+        {
+          "field": "code",
+          "old": "HRC",
+          "new": "HRC",
+          "evidence": "文件名主干='H-HRC-001'; id='H-HRC-001'; code='HRC'"
+        }
+      ],
+      "sha256_after": "a38a0a210e89054b6b68c4d86a57ede1a7745834dee02080a43e21b80d735be2"
+    },
+    {
+      "file": "H-HRD-001.json",
+      "sha256_before": "36f23e6701a40880eebd8c1f8315c914d7e4382a1f0396862388b9c125609a24",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Herodotus",
+          "new": "H-HRD-001",
+          "evidence": "文件名主干='H-HRD-001'; id='H-HRD-001'; code='HRD'"
+        },
+        {
+          "field": "code",
+          "old": "HRD",
+          "new": "HRD",
+          "evidence": "文件名主干='H-HRD-001'; id='H-HRD-001'; code='HRD'"
+        }
+      ],
+      "sha256_after": "f17c05f18d8950074d372fab7e83bea71844a55a16f1d263bd1073d8d83c8627"
+    },
+    {
+      "file": "H-HSX-001.json",
+      "sha256_before": "b2f1e5c470c97dfe43e6dcb0ad75a60bd9f121adc240999f1399b68c3eeabc26",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "HuSanxing",
+          "new": "H-HSX-001",
+          "evidence": "文件名主干='H-HSX-001'; id='H-HSX-001'; code='HSX'"
+        },
+        {
+          "field": "code",
+          "old": "HSX",
+          "new": "HSX",
+          "evidence": "文件名主干='H-HSX-001'; id='H-HSX-001'; code='HSX'"
+        }
+      ],
+      "sha256_after": "f83818f56f0c5160070da656f0fccb4da7466f18d9509cb2fa7397f80219a1d8"
+    },
+    {
+      "file": "H-HT-001.json",
+      "sha256_before": "3d8c7ad01c971e135e72855cbba76eda3f78137e03ce5aafeb4fab673b05dd8f",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "HuaTuo",
+          "new": "H-HT-001",
+          "evidence": "文件名主干='H-HT-001'; id='H-HT-001'; code='HT'"
+        },
+        {
+          "field": "code",
+          "old": "HT",
+          "new": "HT",
+          "evidence": "文件名主干='H-HT-001'; id='H-HT-001'; code='HT'"
+        }
+      ],
+      "sha256_after": "c3a2e9057b8466f2ce9c18ac7eb83fc89ea9cd2a030bab0392c28ea13c40d704"
+    },
+    {
+      "file": "H-HZX-002.json",
+      "sha256_before": "c82dfb9d087f93c18ae63b7995b85f634d492b61feb0697ceddfa8ba7dccee1f",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "东岳",
+          "new": "H-HZX-002",
+          "evidence": "文件名主干='H-HZX-002'; id=None; code='H-HZX-002'"
+        }
+      ],
+      "sha256_after": "8c40067cb04565a6504c27f627c710cae0b4b79cf088ae897bb6e3c6eee25e1e"
+    },
+    {
+      "file": "H-Hannibal-001.json",
+      "sha256_before": "2626d9f0756912a87f0bb883cdedaa5f97bfafc74886e74baf2db2a3ef3e8fc9",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Hannibal",
+          "new": "H-Hannibal-001",
+          "evidence": "文件名主干='H-Hannibal-001'; id='H-HANNIBAL-001'; code='Hannibal'"
+        },
+        {
+          "field": "code",
+          "old": "Hannibal",
+          "new": "Hannibal",
+          "evidence": "文件名主干='H-Hannibal-001'; id='H-HANNIBAL-001'; code='Hannibal'"
+        }
+      ],
+      "sha256_after": "c4f1b8afbe2548eb1ca68a17111fca10b9d8df469ab875880d75fcb907a531d2"
+    },
+    {
+      "file": "H-HuoQuBing-001.json",
+      "sha256_before": "5f7532ee543cf6060a0722061eeafad8a590f2835d89fa3ad0b46defa51e59b2",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "HuoQuBing",
+          "new": "H-HuoQuBing-001",
+          "evidence": "文件名主干='H-HuoQuBing-001'; id='H-HuoQuBing-001'; code='HuoQuBing'"
+        },
+        {
+          "field": "code",
+          "old": "HuoQuBing",
+          "new": "HuoQuBing",
+          "evidence": "文件名主干='H-HuoQuBing-001'; id='H-HuoQuBing-001'; code='HuoQuBing'"
+        }
+      ],
+      "sha256_after": "65fd0933e92603c4377deb9dc6e6d22229964560047e2ee35eef8b3bfa023247"
+    },
+    {
+      "file": "H-IBS-001.json",
+      "sha256_before": "17e51513c5b320867dcb4591dbd4ae9081454d39278a55e1e65a6f1e95c7355c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Ibsen",
+          "new": "H-IBS-001",
+          "evidence": "文件名主干='H-IBS-001'; id='H-IBS-001'; code='IBS'"
+        }
+      ],
+      "sha256_after": "558dc0451ffa42de5af688b90284041137d457402a076b085049397a104e2360"
+    },
+    {
+      "file": "H-IKH-001.json",
+      "sha256_before": "3d0d411c9a6cc2f8b494272db7bd145809262d6b0646b031ed067e7ab4585e9b",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "IbnKhaldun",
+          "new": "H-IKH-001",
+          "evidence": "文件名主干='H-IKH-001'; id='H-IKH-001'; code='IKH'"
+        },
+        {
+          "field": "code",
+          "old": "IKH",
+          "new": "IKH",
+          "evidence": "文件名主干='H-IKH-001'; id='H-IKH-001'; code='IKH'"
+        }
+      ],
+      "sha256_after": "b4523121a5d381c315b72c1bcbe4a1d56af78141ba547f80967aceb37323fe74"
+    },
+    {
+      "file": "H-ISA-001.json",
+      "sha256_before": "c9edd6da6d7984725f15cc674de3bfaa8f5aca99ff190ae70fa9adb415d536c9",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Isabella",
+          "new": "H-ISA-001",
+          "evidence": "文件名主干='H-ISA-001'; id='H-ISA-001'; code='ISA'"
+        },
+        {
+          "field": "code",
+          "old": "ISA",
+          "new": "ISA",
+          "evidence": "文件名主干='H-ISA-001'; id='H-ISA-001'; code='ISA'"
+        }
+      ],
+      "sha256_after": "cd4035f8e8c15da7d7e13cc09d17e9104949f5a0f2bef1c8afd8b7f3a878b260"
+    },
+    {
+      "file": "H-JEF-001.json",
+      "sha256_before": "61803344007f93f76f3191a91781a5aa0505e1756de3c20ba283835507ed4c1a",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Jefferson",
+          "new": "H-JEF-001",
+          "evidence": "文件名主干='H-JEF-001'; id='H-JEF-001'; code='JEF'"
+        }
+      ],
+      "sha256_after": "53be707b41e76583d3af69b67036fb72eb15023ec3e90bcfa54cbe5cf8a268cc"
+    },
+    {
+      "file": "H-JST-001.json",
+      "sha256_before": "3b58155529278f18401afa10e3777141da7b7c4ac29fc71cf123033266ab5a64",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "JinShengtan",
+          "new": "H-JST-001",
+          "evidence": "文件名主干='H-JST-001'; id='H-JST-001'; code='JST'"
+        },
+        {
+          "field": "code",
+          "old": "JST",
+          "new": "JST",
+          "evidence": "文件名主干='H-JST-001'; id='H-JST-001'; code='JST'"
+        }
+      ],
+      "sha256_after": "a03cfed8fb38a1726261665f26cd48de807d05973498e005fa6c5eb95324a688"
+    },
+    {
+      "file": "H-JSX-001.json",
+      "sha256_before": "058649ea13bb41018477b9aaae2121002ddf6a2f11aa90f12690a517f43a504e",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "贾思勰",
+          "evidence": "historical_significance 首名='贾思勰'"
+        }
+      ],
+      "sha256_after": "c794d0d26d5ba478be32dd23b801730a203b81db1ae09772bb00dd04bd0fbb6d"
+    },
+    {
+      "file": "H-JX-001.json",
+      "sha256_before": "1cb67898e2473ace0b0aee82b8bdefa30d0985d4e7ca6154f05cae33159c22b3",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-JX-001",
+          "evidence": "文件名主干='H-JX-001'; id=None; code='H-JX-001'"
+        }
+      ],
+      "sha256_after": "602ae1acd2c4aa8d578acf476256cb8266957b17d3eb759555fe53b5dfe1b590"
+    },
+    {
+      "file": "H-JY-001.json",
+      "sha256_before": "b15dbbe78c16fb1013f9c57f83b30e570b220fc629fc7215d18d2662b2b8ebd1",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "贾谊",
+          "evidence": "figure_name_zh='贾谊'"
+        }
+      ],
+      "sha256_after": "6366ea7680233593f51a9245bfce94929090c85550b72dde7373fe703a0b2a88"
+    },
+    {
+      "file": "H-Jenner-001.json",
+      "sha256_before": "ae1a3f896c9198c7ff6a6db37c64a171bb9a7e5ffcd57d0260028d9c62995348",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Jenner",
+          "new": "H-Jenner-001",
+          "evidence": "文件名主干='H-Jenner-001'; id='H-JENNER-001'; code='Jenner'"
+        },
+        {
+          "field": "code",
+          "old": "Jenner",
+          "new": "Jenner",
+          "evidence": "文件名主干='H-Jenner-001'; id='H-JENNER-001'; code='Jenner'"
+        }
+      ],
+      "sha256_after": "1b15191a336a23f4ffc6dca8810a041f98d82c7a2b72a18b6fd30d4fd220ddd6"
+    },
+    {
+      "file": "H-JoanOfArc-001.json",
+      "sha256_before": "29ba2a16e090726039b779346d38ffa4c651ac767488ce085d2e27a9d79ef7c9",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-JoanOfArc-001",
+          "evidence": "文件名主干='H-JoanOfArc-001'; id='H-JOANOFAR-001'; code='JoanOfArc'"
+        },
+        {
+          "field": "code",
+          "old": "JoanOfArc",
+          "new": "JoanOfArc",
+          "evidence": "文件名主干='H-JoanOfArc-001'; id='H-JOANOFAR-001'; code='JoanOfArc'"
+        }
+      ],
+      "sha256_after": "ea9b2599c95ddd8c10783007b7859c75b8884fb19ba7d287d9fdbdf9c73bbfc0"
+    },
+    {
+      "file": "H-Justinian-001.json",
+      "sha256_before": "71002f80fbdd1f2cc1521ecd3bb5fc1766e059d1913199259ae28d8a66f351ea",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-Justinian-001",
+          "evidence": "文件名主干='H-Justinian-001'; id='H-JUSTINIA-001'; code='Justinian'"
+        },
+        {
+          "field": "code",
+          "old": "Justinian",
+          "new": "Justinian",
+          "evidence": "文件名主干='H-Justinian-001'; id='H-JUSTINIA-001'; code='Justinian'"
+        }
+      ],
+      "sha256_after": "8871ff61ee1d15b66da450929888fdd2d430d36e94dea06c1a654d1e44a5f5dc"
+    },
+    {
+      "file": "H-KIE-001.json",
+      "sha256_before": "855eee49030c2c1a8d46f0c0fae842904f552ab67abc6d7065ce234ef8657515",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Kierkegaard",
+          "new": "H-KIE-001",
+          "evidence": "文件名主干='H-KIE-001'; id='H-KIE-001'; code='KIE'"
+        }
+      ],
+      "sha256_after": "61ccfae1f19614ca97f3a8118dc577a3f31a973fcc535258bdda69ea5fc745b3"
+    },
+    {
+      "file": "H-KKQ-001.json",
+      "sha256_before": "2dda11af6e7d2d48e821d3ef89e12615b893e3ad60ff7282da9b0696a49ace10",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-KKQ-001",
+          "evidence": "文件名主干='H-KKQ-001'; id=None; code='H-KKQ-001'"
+        }
+      ],
+      "sha256_after": "4c4189ade620c92d4b4fecb075ce5f545b6b8157c979d4efcf5c5330cf52a6bc"
+    },
+    {
+      "file": "H-KQ-001.json",
+      "sha256_before": "4277cf3700bcd1699a5684a48129167e262d93bb0b82fd003ea3e422b97ce578",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "西京",
+          "new": "H-KQ-001",
+          "evidence": "文件名主干='H-KQ-001'; id=None; code='H-KQ-001'"
+        }
+      ],
+      "sha256_after": "1d3f06b81fa73d9ee7d291b6ec9c40c4cb1d0b5efb057f52322476ce10fc54b8"
+    },
+    {
+      "file": "H-KS-001.json",
+      "sha256_before": "b773572f41ba2d79698b919bc78f367d0a226762bc4ca1628b996911b99b3099",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "康生",
+          "evidence": "figure_name_zh='康生'"
+        },
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-KS-001",
+          "evidence": "文件名主干='H-KS-001'; id='H-KS-001'; code='H-KS-001'"
+        }
+      ],
+      "sha256_after": "f58491b23e4bc1d681147ff15631d934645fd4722410c557a719fdf4a1c31e85"
+    },
+    {
+      "file": "H-KUB-001.json",
+      "sha256_before": "331f28713e553b5d501398051c77a797d5dfb971480e7452841109ca91cc88d1",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "KublaiKhan",
+          "new": "H-KUB-001",
+          "evidence": "文件名主干='H-KUB-001'; id='H-KUB-001'; code='KUB'"
+        },
+        {
+          "field": "code",
+          "old": "KUB",
+          "new": "KUB",
+          "evidence": "文件名主干='H-KUB-001'; id='H-KUB-001'; code='KUB'"
+        }
+      ],
+      "sha256_after": "4532679474f4695a1bf5c5ffe648d22e32fc718c910b115659150054c9d193cf"
+    },
+    {
+      "file": "H-KZ-001.json",
+      "sha256_before": "6c459512581dd250187028a2509cb4fa4bb73eae5e57f7b1d7c5d720837c57e1",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "春秋",
+          "new": "H-KZ-001",
+          "evidence": "文件名主干='H-KZ-001'; id=None; code='H-KZ-001'"
+        }
+      ],
+      "sha256_after": "88562450b35f9a7a7b933fbb680928d792c894ce75e229bd61c5b3b9708ed00e"
+    },
+    {
+      "file": "H-KangXi-001.json",
+      "sha256_before": "7f74dbaa5a49c71ce76df2aa6121b7d0a77b38ac8bb1dedb090f320245e048f5",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-KangXi-001",
+          "evidence": "文件名主干='H-KangXi-001'; id='H-KANGXI-001'; code='KangXi'"
+        },
+        {
+          "field": "code",
+          "old": "KangXi",
+          "new": "KangXi",
+          "evidence": "文件名主干='H-KangXi-001'; id='H-KANGXI-001'; code='KangXi'"
+        }
+      ],
+      "sha256_after": "5170d95664b9d8c5896955b0fbefb92900b88a63ae804e043242f3d880c1b767"
+    },
+    {
+      "file": "H-Kautilya-001.json",
+      "sha256_before": "39699a84f6af4f6b93497d75a0c65bbc181aa4fcecb8940535ace10cbe350bd0",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Kautilya",
+          "new": "H-Kautilya-001",
+          "evidence": "文件名主干='H-Kautilya-001'; id=None; code=None"
+        },
+        {
+          "field": "code",
+          "old": null,
+          "new": "Kautilya",
+          "evidence": "文件名主干='H-Kautilya-001'; id=None; code=None"
+        }
+      ],
+      "sha256_after": "144bf20b93ac29c5cd4780bee3785c0297bd130444ff9c2526842599af100257"
+    },
+    {
+      "file": "H-Khwarizmi-001.json",
+      "sha256_before": "a6f013025d367666c5706c015c99c7f697322c753634f3dfa3428f14e7dffb6c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-Khwarizmi-001",
+          "evidence": "文件名主干='H-Khwarizmi-001'; id='H-KHWARIZM-001'; code='Khwarizmi'"
+        },
+        {
+          "field": "code",
+          "old": "Khwarizmi",
+          "new": "Khwarizmi",
+          "evidence": "文件名主干='H-Khwarizmi-001'; id='H-KHWARIZM-001'; code='Khwarizmi'"
+        }
+      ],
+      "sha256_after": "f5a4b6dcf4957e0a8093134a72af830e7744bc2d8e121c64e7a79078d112c62f"
+    },
+    {
+      "file": "H-LB-001.json",
+      "sha256_before": "bf6fb0810f578318d82b3bb3b36db6000e1142a6b9c44a97f2064df130cd9ff1",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LiuBowen",
+          "new": "H-LB-001",
+          "evidence": "文件名主干='H-LB-001'; id='H-LB-001'; code='LB'"
+        },
+        {
+          "field": "code",
+          "old": "LB",
+          "new": "LB",
+          "evidence": "文件名主干='H-LB-001'; id='H-LB-001'; code='LB'"
+        }
+      ],
+      "sha256_after": "1bb9ae2245abd66e264ce9c01417670b4578ad33ac03ea589e6f091770cd46ed"
+    },
+    {
+      "file": "H-LC-001.json",
+      "sha256_before": "5cd59ff10b1de15004d99991491846fcf9c43dc7e9547f371f9b809b66c53ada",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-LC-001",
+          "evidence": "文件名主干='H-LC-001'; id=None; code='H-LC-001'"
+        }
+      ],
+      "sha256_after": "ff985b8000b549b83fcc6ebf28031fb587271fb512994ad6b1e6249fb37f37f0"
+    },
+    {
+      "file": "H-LIB-001.json",
+      "sha256_before": "9368ca9a36a63b77a4caba2179d59331a9e43d35d0e4ea03f8942431db9a048d",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Libai",
+          "new": "H-LIB-001",
+          "evidence": "文件名主干='H-LIB-001'; id='H-LIB-001'; code='LIB'"
+        }
+      ],
+      "sha256_after": "8891e5dbc67b1a5f854b2aaab86fb50784b5e79187ea855d613fbcdbc4f0bff0"
+    },
+    {
+      "file": "H-LISHIMIN-001.json",
+      "sha256_before": "4b135244546c19e7b0434ba8bae2c07396425facb5f3c3cae0a6a839f9f505e4",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LiShiMin",
+          "new": "H-LISHIMIN-001",
+          "evidence": "文件名主干='H-LISHIMIN-001'; id='H-LISHIMIN-001'; code='LISHIMIN'"
+        },
+        {
+          "field": "code",
+          "old": "LISHIMIN",
+          "new": "LISHIMIN",
+          "evidence": "文件名主干='H-LISHIMIN-001'; id='H-LISHIMIN-001'; code='LISHIMIN'"
+        }
+      ],
+      "sha256_after": "0cf6b232f01b6c88a752b03b4f2af05258b945219ea6aa7b974b129d1b4dff18"
+    },
+    {
+      "file": "H-LJY-001.json",
+      "sha256_before": "33dad9e54b1dd5c878001b9cc9dfba0a997111d094afcc7623a4e5ee86446028",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "陆九渊",
+          "evidence": "figure_name_zh='陆九渊'"
+        }
+      ],
+      "sha256_after": "8b79242dee4cb8d2d93a166a8dab74ec37055e6f877485a5c9c71ad4c112afa7"
+    },
+    {
+      "file": "H-LKY-001.json",
+      "sha256_before": "9c058273ae04ee4a478e3934eb85f4f56a7245d06df5ab2824b585abacac21ab",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LeeKuanYew",
+          "new": "H-LKY-001",
+          "evidence": "文件名主干='H-LKY-001'; id='H-LKY-001'; code='LKY'"
+        }
+      ],
+      "sha256_after": "30dcad93448be9384604b4fd86278bd6e276012510976438e8d3342ebe5a1aa5"
+    },
+    {
+      "file": "H-LNC-001.json",
+      "sha256_before": "f606196af55ba068588b375a67c98eb14eb1b61f84dfac4459685d2122f25c11",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Lincoln",
+          "new": "H-LNC-001",
+          "evidence": "文件名主干='H-LNC-001'; id='H-LNC-001'; code='LNC'"
+        }
+      ],
+      "sha256_after": "4c636c89e6a743c154638cbda5292444f4b76f9e53563dde831c54e7237ef2d1"
+    },
+    {
+      "file": "H-LOC-001.json",
+      "sha256_before": "831ef0923467c697ade790c4bf4d146aa6ae78f4a4507f73feee7413b8091edb",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Locke",
+          "new": "H-LOC-001",
+          "evidence": "文件名主干='H-LOC-001'; id='H-LOC-001'; code='LOC'"
+        }
+      ],
+      "sha256_after": "e23c33eb67edcf6cef4d24af70c751ba92bd7f2930201e64df8192b54032fcc5"
+    },
+    {
+      "file": "H-LQC-001.json",
+      "sha256_before": "e46d522c96ae36432e828e8f6ece975d437c7b0962e8d0bc9a62be3b2349e806",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LiangQichao",
+          "new": "H-LQC-001",
+          "evidence": "文件名主干='H-LQC-001'; id='H-LQC-001'; code='LQC'"
+        },
+        {
+          "field": "code",
+          "old": "LQC",
+          "new": "LQC",
+          "evidence": "文件名主干='H-LQC-001'; id='H-LQC-001'; code='LQC'"
+        }
+      ],
+      "sha256_after": "252381376bc4dc6a79c9bbb974e41bd97c10682324768a131897e23b3030aeaa"
+    },
+    {
+      "file": "H-LWH-001.json",
+      "sha256_before": "9ba729afc0bef479ce83940e5e4c0531ce9285560499e889bd19a96af2597204",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-LWH-001",
+          "evidence": "文件名主干='H-LWH-001'; id=None; code='H-LWH-001'"
+        }
+      ],
+      "sha256_after": "fe3beff67d36d84daa90b47627660982ea20dfbe9ffe806d9b27b354874d49e6"
+    },
+    {
+      "file": "H-LY-001.json",
+      "sha256_before": "e08c3b6ff75b1fcfae8c238670fc1f7337875f44dab82aefda6f38a4cf1a04d3",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LiYe",
+          "new": "H-LY-001",
+          "evidence": "文件名主干='H-LY-001'; id='H-LY-001'; code='LY'"
+        },
+        {
+          "field": "code",
+          "old": "LY",
+          "new": "LY",
+          "evidence": "文件名主干='H-LY-001'; id='H-LY-001'; code='LY'"
+        }
+      ],
+      "sha256_after": "d0daa1e612503d6ed95e8c88c3bcd11ca51ced7d109886383695105f45341d6f"
+    },
+    {
+      "file": "H-LZ-001.json",
+      "sha256_before": "da1b051a7229a8555e813849352cd986f0bac46cb28bc033ee046a6abffc7b82",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "李贽",
+          "evidence": "name_zh='李贽'"
+        }
+      ],
+      "sha256_after": "2efd4979bc1bfc13d5c925998bdec806cc2a36d40bb3bb6befe8384160987a4f"
+    },
+    {
+      "file": "H-LZH-001.json",
+      "sha256_before": "434dc8f4618497213bf87dc332d7250b33f2c8f5075abe73ad010beeeb18e777",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LiZehou",
+          "new": "H-LZH-001",
+          "evidence": "文件名主干='H-LZH-001'; id='H-LZH-001'; code='LZH'"
+        },
+        {
+          "field": "code",
+          "old": "LZH",
+          "new": "LZH",
+          "evidence": "文件名主干='H-LZH-001'; id='H-LZH-001'; code='LZH'"
+        }
+      ],
+      "sha256_after": "4e6b4aa7c98215bce23c0335dc10ec9982f95e6d4adeb7be53dbf484b7d2be28"
+    },
+    {
+      "file": "H-LZX-001.json",
+      "sha256_before": "7c4bd2899cbec0ebf7d3c29423900136ef4089069d676b51781f259f20685438",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LinZexu",
+          "new": "H-LZX-001",
+          "evidence": "文件名主干='H-LZX-001'; id='H-LZX-001'; code='LZX'"
+        },
+        {
+          "field": "code",
+          "old": "LZX",
+          "new": "LZX",
+          "evidence": "文件名主干='H-LZX-001'; id='H-LZX-001'; code='LZX'"
+        }
+      ],
+      "sha256_after": "9d5d3b9e9fe03ac3a6d8bbe70c512fdcac40055087ede6503f3f750aa9ae6c25"
+    },
+    {
+      "file": "H-LaoZi-001.json",
+      "sha256_before": "b33dcfb5f19340cac85647f9bf7ff71ad4d931718459683d66831e1806f8a37a",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LaoZi",
+          "new": "H-LaoZi-001",
+          "evidence": "文件名主干='H-LaoZi-001'; id='H-LAOZI-001'; code='LaoZi'"
+        },
+        {
+          "field": "code",
+          "old": "LaoZi",
+          "new": "LaoZi",
+          "evidence": "文件名主干='H-LaoZi-001'; id='H-LAOZI-001'; code='LaoZi'"
+        }
+      ],
+      "sha256_after": "c23b62826a49619e70b4c8ad277df3dc3028daa542cfdc3709926d7f8f262bc4"
+    },
+    {
+      "file": "H-Leibniz-001.json",
+      "sha256_before": "f8d98c9de0a36cec0bd52bdf92be1f3e1dd267438a86cc8250bfff26bc9c3fa3",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Leibniz",
+          "new": "H-Leibniz-001",
+          "evidence": "文件名主干='H-Leibniz-001'; id='H-LEIBNIZ-001'; code='Leibniz'"
+        },
+        {
+          "field": "code",
+          "old": "Leibniz",
+          "new": "Leibniz",
+          "evidence": "文件名主干='H-Leibniz-001'; id='H-LEIBNIZ-001'; code='Leibniz'"
+        }
+      ],
+      "sha256_after": "d943d4b4d2b18c6902d627067cd9e8f1fdb391febd753c04a69d11384e4c925e"
+    },
+    {
+      "file": "H-Lenin-001.json",
+      "sha256_before": "6806adc39f09cfbe6fd44009745356121fcafd1471c614c7490e9756e9636429",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Lenin",
+          "new": "H-Lenin-001",
+          "evidence": "文件名主干='H-Lenin-001'; id='H-LENIN-001'; code='Lenin'"
+        },
+        {
+          "field": "code",
+          "old": "Lenin",
+          "new": "Lenin",
+          "evidence": "文件名主干='H-Lenin-001'; id='H-LENIN-001'; code='Lenin'"
+        }
+      ],
+      "sha256_after": "33df7cadb198225f4c16641d2a621bfda936fb6f6dc5bf0ddc3f57d31ca2f609"
+    },
+    {
+      "file": "H-LiJing-001.json",
+      "sha256_before": "e6af0b85a84f5de6b06659d35e3a52adaf36d097922846c0c1e07378adcfca08",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LiJing",
+          "new": "H-LiJing-001",
+          "evidence": "文件名主干='H-LiJing-001'; id='H-LiJing-001'; code='LiJing'"
+        },
+        {
+          "field": "code",
+          "old": "LiJing",
+          "new": "LiJing",
+          "evidence": "文件名主干='H-LiJing-001'; id='H-LiJing-001'; code='LiJing'"
+        }
+      ],
+      "sha256_after": "1359f5bcfdbfb5bba3cb5efe8cbb738217d5199b58dc3c160f3466ad2a06c9f3"
+    },
+    {
+      "file": "H-LiuXiu-001.json",
+      "sha256_before": "3cf96dd5b6703f9c487c0c47d2b467e6f9fd433429f943a2e69500d7666441d7",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "LiuXiu",
+          "new": "H-LiuXiu-001",
+          "evidence": "文件名主干='H-LiuXiu-001'; id='H-LiuXiu-001'; code='LiuXiu'"
+        },
+        {
+          "field": "code",
+          "old": "LiuXiu",
+          "new": "LiuXiu",
+          "evidence": "文件名主干='H-LiuXiu-001'; id='H-LiuXiu-001'; code='LiuXiu'"
+        }
+      ],
+      "sha256_after": "ccca43eb6de84b36335c561b840ef7a39f65a732252a1ffd10637208a5efe209"
+    },
+    {
+      "file": "H-MAI-001.json",
+      "sha256_before": "95e6d906238053fcebfca2f11201126825938090e970e7d2ac2c23a08e5f130a",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Maimonides",
+          "new": "H-MAI-001",
+          "evidence": "文件名主干='H-MAI-001'; id='H-MAI-001'; code='MAI'"
+        },
+        {
+          "field": "code",
+          "old": "MAI",
+          "new": "MAI",
+          "evidence": "文件名主干='H-MAI-001'; id='H-MAI-001'; code='MAI'"
+        }
+      ],
+      "sha256_after": "a5f7809b7d4b0838dfe86f408b25e877ad5c677245e3dd5c55decf507c0afd50"
+    },
+    {
+      "file": "H-MAR-001.json",
+      "sha256_before": "12721921d0f2173eced4dc6c98dcec3c49304605fa01f2099a36330db7de70f7",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "MarcusAurelius",
+          "new": "H-MAR-001",
+          "evidence": "文件名主干='H-MAR-001'; id='H-MAR-001'; code='MAR'"
+        }
+      ],
+      "sha256_after": "99189b24e84cb238b43a86b50328a0461cb6e6bf18824d3ea92b986d1a9f7eca"
+    },
+    {
+      "file": "H-MARCOPOL-001.json",
+      "sha256_before": "6dc2c3fc992dbfaf627bd6309cb199fab53ee7e2ff7c7ebd52416faf7caec4bb",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "MarcoPolo",
+          "new": "H-MARCOPOL-001",
+          "evidence": "文件名主干='H-MARCOPOL-001'; id='H-MARCOPOL-001'; code='MARCOPOL'"
+        },
+        {
+          "field": "code",
+          "old": "MARCOPOL",
+          "new": "MarcoPolo",
+          "evidence": "文件名主干='H-MARCOPOL-001'; id='H-MARCOPOL-001'; code='MARCOPOL'"
+        }
+      ],
+      "sha256_after": "96aad1619c934deb58eefa3bc5738eb48f28aa56dfc7133278c1ee4d59be0268"
+    },
+    {
+      "file": "H-MARQ-001.json",
+      "sha256_before": "81ad83df26f0e9d1ad6d1f1f342ae1ef03342d1936fde9be65e575c12496cbff",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Márquez",
+          "new": "H-MARQ-001",
+          "evidence": "文件名主干='H-MARQ-001'; id='H-MARQ-001'; code='MARQ'"
+        },
+        {
+          "field": "code",
+          "old": "MARQ",
+          "new": "MARQ",
+          "evidence": "文件名主干='H-MARQ-001'; id='H-MARQ-001'; code='MARQ'"
+        }
+      ],
+      "sha256_after": "f5aaf0e5f19842837e9891f95488c98a2b51e3dd9bb5396b628347205a4ca0a5"
+    },
+    {
+      "file": "H-MAT-001.json",
+      "sha256_before": "024b1ca6cf96abe1dbfdfbffe3d6367ea934447e07d9d6eb420dd9fa7a2bbce6",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Matsushita",
+          "new": "H-MAT-001",
+          "evidence": "文件名主干='H-MAT-001'; id='H-MAT-001'; code='MAT'"
+        },
+        {
+          "field": "code",
+          "old": "MAT",
+          "new": "MAT",
+          "evidence": "文件名主干='H-MAT-001'; id='H-MAT-001'; code='MAT'"
+        }
+      ],
+      "sha256_after": "0d134e16b20f348e22c5d14ffded50bf099bcf03d2f7e448dcdc6d7cd266a5dc"
+    },
+    {
+      "file": "H-MCC-001.json",
+      "sha256_before": "fc5a10cd27222198c1a1c7317a8844eecf34145d691bcb6df917783e9224026f",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "McClintock",
+          "new": "H-MCC-001",
+          "evidence": "文件名主干='H-MCC-001'; id='H-MCC-001'; code='MCC'"
+        },
+        {
+          "field": "code",
+          "old": "MCC",
+          "new": "MCC",
+          "evidence": "文件名主干='H-MCC-001'; id='H-MCC-001'; code='MCC'"
+        }
+      ],
+      "sha256_after": "37dba1a44c2793512cd6f3d635943969f96a2e4c43f29b33b1e18d11ce687939"
+    },
+    {
+      "file": "H-MDL-001.json",
+      "sha256_before": "b618fac0ce4065b1563a9094a42c1ef4d1c12a642a795bfdb32715980c800bc4",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Mendeleev",
+          "new": "H-MDL-001",
+          "evidence": "文件名主干='H-MDL-001'; id='H-MDL-001'; code='MDL'"
+        }
+      ],
+      "sha256_after": "1d565852097da20dd3b6e07e98bf816570e3db5e47b1181e7c47da876c4e08cd"
+    },
+    {
+      "file": "H-MDLN-001.json",
+      "sha256_before": "c24d3c0db28139753704157e3667a42f6283d5be077f568341ba713413f39dc2",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "MaDuanlin",
+          "new": "H-MDLN-001",
+          "evidence": "文件名主干='H-MDLN-001'; id='H-MDLN-001'; code='MDLN'"
+        },
+        {
+          "field": "code",
+          "old": "MDLN",
+          "new": "MDLN",
+          "evidence": "文件名主干='H-MDLN-001'; id='H-MDLN-001'; code='MDLN'"
+        }
+      ],
+      "sha256_after": "e69413150bdc3666f81fd30a052d35adb378aad4ddc47ae9184b3bde56ee1b73"
+    },
+    {
+      "file": "H-MF-001.json",
+      "sha256_before": "cfa0310db827e90f9300a4268750cb84e0296e72e018491dc1d60c25aab87e9b",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "MiFu",
+          "new": "H-MF-001",
+          "evidence": "文件名主干='H-MF-001'; id='H-MF-001'; code='MF'"
+        }
+      ],
+      "sha256_after": "1173762b075977e79f9c4c8fc28b129262b33af43518a82c82b11dcf0df3f435"
+    },
+    {
+      "file": "H-MIY-001.json",
+      "sha256_before": "1b65f811428691c3d3323545fd5ae3e9f96e60d5c6feb3155a9267b8fdfccda7",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Miyazaki",
+          "new": "H-MIY-001",
+          "evidence": "文件名主干='H-MIY-001'; id='H-MIY-001'; code='MIY'"
+        }
+      ],
+      "sha256_after": "42fcec52a0642b25c4138145a6745f81330d1ef01fc9d58411fc65f9c01ea53d"
+    },
+    {
+      "file": "H-MO-001.json",
+      "sha256_before": "8d7567207c194270cd7888eacb71a86c45b427316774214d8eb3d6380a25f399",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "战国",
+          "new": "H-MO-001",
+          "evidence": "文件名主干='H-MO-001'; id=None; code='H-MO-001'"
+        }
+      ],
+      "sha256_after": "a65e221e361b5881054021fc32c16130899901e69887590dd15115007b22f4c1"
+    },
+    {
+      "file": "H-MODERN-001.json",
+      "sha256_before": "d9a961e435d08efba622b7c54ec9340221dbe6395378ae698f2f5c62d032a448",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-MODERN-001",
+          "evidence": "文件名主干='H-MODERN-001'; id=None; code='H-MODERN-001'"
+        }
+      ],
+      "sha256_after": "896b25ec42ca8092e82d9ea5daddaa74796dca341a78d9c230b86be6dfe55ed0"
+    },
+    {
+      "file": "H-MODERN-002.json",
+      "sha256_before": "4653ccbf83640b7c15034f767daeff3cf876101a1791c961258535db3637862d",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-MODERN-002",
+          "evidence": "文件名主干='H-MODERN-002'; id='H-MODERN-002'; code='H-MODERN-002'"
+        }
+      ],
+      "sha256_after": "54247df51bcdc255d2008dbaf67431c9f904622c5b2fa10ca5d8e61b6e081d28"
+    },
+    {
+      "file": "H-MON-001.json",
+      "sha256_before": "1fbd92e0bbf370a15c3d916b51778726f718afaa71fad04f4da53a2af9acfb5e",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Montesquieu",
+          "new": "H-MON-001",
+          "evidence": "文件名主干='H-MON-001'; id='H-MON-001'; code='H-MON-001'"
+        }
+      ],
+      "sha256_after": "83fb6e038d6861378347625fd52bb0a36554ede7b1b79734683311305dd0ac80"
+    },
+    {
+      "file": "H-MUS-001.json",
+      "sha256_before": "6808982112a9151720b13f6a9b5b0df4f6a8d3a55c7def6ecf9d1ae665d070d4",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "MansaMusa",
+          "new": "H-MUS-001",
+          "evidence": "文件名主干='H-MUS-001'; id='H-MUS-001'; code='MUS'"
+        },
+        {
+          "field": "code",
+          "old": "MUS",
+          "new": "MUS",
+          "evidence": "文件名主干='H-MUS-001'; id='H-MUS-001'; code='MUS'"
+        }
+      ],
+      "sha256_after": "d2c57f1b428a32acf95ad110ce3efedcc298d48c670689b73599eedcc2123e2a"
+    },
+    {
+      "file": "H-MYS-001.json",
+      "sha256_before": "04a152170cf29b5345bb48254c9503107c734aa6b2086b314ca51436a6fb4488",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "MaoYisheng",
+          "new": "H-MYS-001",
+          "evidence": "文件名主干='H-MYS-001'; id='H-MYS-001'; code='MYS'"
+        }
+      ],
+      "sha256_after": "a7366309dbacc0b9fb37b9490a4a65b96024ab416fb46ef5e9d76337811bcaa9"
+    },
+    {
+      "file": "H-MarieCurie-001.json",
+      "sha256_before": "0ed31d6888838a8b9df7625fc48ef597f9aaa35e0d93b2114d69e75f23a05271",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-MarieCurie-001",
+          "evidence": "文件名主干='H-MarieCurie-001'; id='H-MARIECUR-001'; code='MarieCurie'"
+        },
+        {
+          "field": "code",
+          "old": "MarieCurie",
+          "new": "MarieCurie",
+          "evidence": "文件名主干='H-MarieCurie-001'; id='H-MARIECUR-001'; code='MarieCurie'"
+        }
+      ],
+      "sha256_after": "66d771fcc2d779a32aa32ffdcc40c588f1780755b2a588b3adcb5cc69fe68d89"
+    },
+    {
+      "file": "H-MartinLuther-001.json",
+      "sha256_before": "ae917258dbc8b85298f12940ad967624567f29783ff67b3b14684877c4331d48",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "MartinLuther",
+          "new": "H-MartinLuther-001",
+          "evidence": "文件名主干='H-MartinLuther-001'; id='H-MARTINLU-001'; code='MartinLuther'"
+        },
+        {
+          "field": "code",
+          "old": "MartinLuther",
+          "new": "MartinLuther",
+          "evidence": "文件名主干='H-MartinLuther-001'; id='H-MARTINLU-001'; code='MartinLuther'"
+        }
+      ],
+      "sha256_after": "2fcc7f35d173b5dc82c0fae5492c7c7910f67357116041fa360e0065bf907ffa"
+    },
+    {
+      "file": "H-MeijiTenno-001.json",
+      "sha256_before": "dd8d13bc3454946c14f0c4ef7c3fadc1f266da3e2460b10973b70932adb4cdda",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "MeijiTenno",
+          "new": "H-MeijiTenno-001",
+          "evidence": "文件名主干='H-MeijiTenno-001'; id='H-MEIJITEN-001'; code='MeijiTenno'"
+        },
+        {
+          "field": "code",
+          "old": "MeijiTenno",
+          "new": "MeijiTenno",
+          "evidence": "文件名主干='H-MeijiTenno-001'; id='H-MEIJITEN-001'; code='MeijiTenno'"
+        }
+      ],
+      "sha256_after": "28f137b97deadab00da95c48d1079569b11dca3613619e98ee1d8db763becf70"
+    },
+    {
+      "file": "H-Mendel-001.json",
+      "sha256_before": "04a9d2240a51fad5da73aaf1a4f4e9a322a6a03bdc8db507df1e58573f4e4b8e",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-Mendel-001",
+          "evidence": "文件名主干='H-Mendel-001'; id='H-MENDEL-001'; code='Mendel'"
+        },
+        {
+          "field": "code",
+          "old": "Mendel",
+          "new": "Mendel",
+          "evidence": "文件名主干='H-Mendel-001'; id='H-MENDEL-001'; code='Mendel'"
+        },
+        {
+          "field": "figure_name",
+          "old": "施耐庚",
+          "new": "孟德尔",
+          "evidence": "historical_significance 首句 [孟德尔(1822-1884), 奥地利奥古斯丁会修士, 遗传学之父]; id=H-MENDEL-001 / code=Mendel; figure_pinyin='Shi Nai Geng' 与 name='施耐庚' 同为整体误写"
+        }
+      ],
+      "sha256_after": "23998d80219dfb9ef4b802e4d4d91cb1382a0e40896576f39b6997fbb934790d"
+    },
+    {
+      "file": "H-Michelangelo-001.json",
+      "sha256_before": "d84998060b3b2a1ce690715534bf4b8676bc606b07aa7f49eadef0c00da622fb",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Michelangelo",
+          "new": "H-Michelangelo-001",
+          "evidence": "文件名主干='H-Michelangelo-001'; id='H-MICHELAN-001'; code='Michelangelo'"
+        },
+        {
+          "field": "code",
+          "old": "Michelangelo",
+          "new": "Michelangelo",
+          "evidence": "文件名主干='H-Michelangelo-001'; id='H-MICHELAN-001'; code='Michelangelo'"
+        }
+      ],
+      "sha256_after": "21fe92f2fb6f757143d3af0b115c90e40f750bd8aa21812562d622f96028edfa"
+    },
+    {
+      "file": "H-Mozart-001.json",
+      "sha256_before": "43460b54451404cfb25b7829c8afa16c8644ec2c5961ac0432a408fec9c840e0",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Mozart",
+          "new": "H-Mozart-001",
+          "evidence": "文件名主干='H-Mozart-001'; id='H-MOZART-001'; code='Mozart'"
+        },
+        {
+          "field": "code",
+          "old": "Mozart",
+          "new": "Mozart",
+          "evidence": "文件名主干='H-Mozart-001'; id='H-MOZART-001'; code='Mozart'"
+        }
+      ],
+      "sha256_after": "ae7cfe40fc858aaad5104864c784d15fa84891a20349553bedc047e11cd7c817"
+    },
+    {
+      "file": "H-NAG-001.json",
+      "sha256_before": "8cc0f8dc551f592d8af5600ba1613b8833c79ffa3133b1cc9041bc0522b72083",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Nagarjuna",
+          "new": "H-NAG-001",
+          "evidence": "文件名主干='H-NAG-001'; id='H-NAG-001'; code='NAG'"
+        },
+        {
+          "field": "code",
+          "old": "NAG",
+          "new": "NAG",
+          "evidence": "文件名主干='H-NAG-001'; id='H-NAG-001'; code='NAG'"
+        }
+      ],
+      "sha256_after": "b70c82187301ae8c0996db480bdb90f5e1de6732ce7f7dfbece85dcfef14b6fb"
+    },
+    {
+      "file": "H-NAN-001.json",
+      "sha256_before": "d68da28196775f580ddeefe00d009da588758bd5407036513b29b902a9bc15a5",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Nansen",
+          "new": "H-NAN-001",
+          "evidence": "文件名主干='H-NAN-001'; id='H-NAN-001'; code='NAN'"
+        },
+        {
+          "field": "code",
+          "old": "NAN",
+          "new": "NAN",
+          "evidence": "文件名主干='H-NAN-001'; id='H-NAN-001'; code='NAN'"
+        }
+      ],
+      "sha256_after": "823755f4d4eec79a6742102d95a46d993c85863fe0a2ce42692256cdfc11a6bd"
+    },
+    {
+      "file": "H-NER-001.json",
+      "sha256_before": "b6e8dec704821a9fad84d11414a329d2ba3455bb6c102f5979379120adb2e0f7",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Neruda",
+          "new": "H-NER-001",
+          "evidence": "文件名主干='H-NER-001'; id='H-NER-001'; code='NER'"
+        },
+        {
+          "field": "code",
+          "old": "NER",
+          "new": "NER",
+          "evidence": "文件名主干='H-NER-001'; id='H-NER-001'; code='NER'"
+        }
+      ],
+      "sha256_after": "848adc1a88ed67b136c3a6d79815eae8b029dec267c92533e14741e724c1a9f7"
+    },
+    {
+      "file": "H-NIG-001.json",
+      "sha256_before": "700bd202ef49fda1011c4b921eb26fa69f7c414bf912b1186970caa365ed1eee",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Nightingale",
+          "new": "H-NIG-001",
+          "evidence": "文件名主干='H-NIG-001'; id='H-NIG-001'; code='NIG'"
+        },
+        {
+          "field": "code",
+          "old": "NIG",
+          "new": "NIG",
+          "evidence": "文件名主干='H-NIG-001'; id='H-NIG-001'; code='NIG'"
+        }
+      ],
+      "sha256_after": "51b92f99aec1ed25a98cace49641535efc9e301ff44be8627bb92dbb7b4ff63b"
+    },
+    {
+      "file": "H-NKR-001.json",
+      "sha256_before": "16e106dddac3cba3dbb9fbbfde341562b14e8db115592eb670e541872eb7aa66",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Nkrumah",
+          "new": "H-NKR-001",
+          "evidence": "文件名主干='H-NKR-001'; id='H-NKR-001'; code='NKR'"
+        }
+      ],
+      "sha256_after": "67ddf33cd2cb7e27a836a8afedf7cbca849761a798e575636eb8c547961f9dab"
+    },
+    {
+      "file": "H-NOB-001.json",
+      "sha256_before": "a2027e3548e11b769e7f84dbb0d8a4cf17aa6ec98c8fdf079f1768076352cc33",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Nobel",
+          "new": "H-NOB-001",
+          "evidence": "文件名主干='H-NOB-001'; id='H-NOB-001'; code='NOB'"
+        },
+        {
+          "field": "code",
+          "old": "NOB",
+          "new": "Nobel",
+          "evidence": "文件名主干='H-NOB-001'; id='H-NOB-001'; code='NOB'"
+        }
+      ],
+      "sha256_after": "6e6b7e1bad46115f05674e8ea3aa550d57b0e92c7815ee9c1723f0f8c27e61c4"
+    },
+    {
+      "file": "H-OdaNobunaga-001.json",
+      "sha256_before": "4dc7f60a52b1087b782bade48e8d9446328c973ff7c541abca4995a3f2e4d09b",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "OdaNobunaga",
+          "new": "H-OdaNobunaga-001",
+          "evidence": "文件名主干='H-OdaNobunaga-001'; id=None; code=None"
+        },
+        {
+          "field": "code",
+          "old": null,
+          "new": "OdaNobunaga",
+          "evidence": "文件名主干='H-OdaNobunaga-001'; id=None; code=None"
+        }
+      ],
+      "sha256_after": "9d8f0fc1d9f5ac3485d89aefee8f8e9135577e738cfbb4a4b27e59d674fe3a84"
+    },
+    {
+      "file": "H-P23F-001.json",
+      "sha256_before": "e99affd6494fc235710acefaf1e7631ab84bbddf4dcf09dc19ff57610b82afa0",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Phase23Final",
+          "new": "H-P23F-001",
+          "evidence": "文件名主干='H-P23F-001'; id='H-P23F-001'; code='P23F'"
+        }
+      ],
+      "sha256_after": "424405005ff6e314a914ada5a681f06b99f1313320bc8260a9797d51aaf59896"
+    },
+    {
+      "file": "H-P24F-001.json",
+      "sha256_before": "3a019a006267304f59cbdfc4490db3049ce9629062dac705682500e2a96a1201",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Phase24Final",
+          "new": "H-P24F-001",
+          "evidence": "文件名主干='H-P24F-001'; id='H-P24F-001'; code='P24F'"
+        },
+        {
+          "field": "code",
+          "old": "P24F",
+          "new": "P24F",
+          "evidence": "文件名主干='H-P24F-001'; id='H-P24F-001'; code='P24F'"
+        }
+      ],
+      "sha256_after": "27c7752c94791ff512ff545a6a2dff5cf445919acc9481395f775662d3f872f7"
+    },
+    {
+      "file": "H-P25F-001.json",
+      "sha256_before": "8bde7e898ee50d60f99e7369c0bbf4c8b2f0ac759ede43ccb9ecd334a833c1b0",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Phase25Final",
+          "new": "H-P25F-001",
+          "evidence": "文件名主干='H-P25F-001'; id='H-P25F-001'; code='P25F'"
+        },
+        {
+          "field": "code",
+          "old": "P25F",
+          "new": "P25F",
+          "evidence": "文件名主干='H-P25F-001'; id='H-P25F-001'; code='P25F'"
+        }
+      ],
+      "sha256_after": "121c3744744bb136e3e99979df6423758e691ea22646879a2f8593c5cc9a4122"
+    },
+    {
+      "file": "H-P26F-001.json",
+      "sha256_before": "0ede3e4ab6ff57bcab31c6c770477a1c25c5be86cf539950e143f248c09374fe",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Phase26Final",
+          "new": "H-P26F-001",
+          "evidence": "文件名主干='H-P26F-001'; id='H-P26F-001'; code='P26F'"
+        },
+        {
+          "field": "code",
+          "old": "P26F",
+          "new": "P26F",
+          "evidence": "文件名主干='H-P26F-001'; id='H-P26F-001'; code='P26F'"
+        }
+      ],
+      "sha256_after": "2a777d04a79c17ce3135c286366fbd084154ef618e61f7a6bc87559d5c2742b7"
+    },
+    {
+      "file": "H-PAD-001.json",
+      "sha256_before": "1d5b1aba2a54f0ec477a5507b25c0b3aeab807e2b5e904e8b3c32751b23afd9d",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Padmasambhava",
+          "new": "H-PAD-001",
+          "evidence": "文件名主干='H-PAD-001'; id='H-PAD-001'; code='PAD'"
+        },
+        {
+          "field": "code",
+          "old": "PAD",
+          "new": "PAD",
+          "evidence": "文件名主干='H-PAD-001'; id='H-PAD-001'; code='PAD'"
+        }
+      ],
+      "sha256_after": "4253b0492c32a229f2f5ae4c90d45d250acdd176add718bf895f57f98bf71da9"
+    },
+    {
+      "file": "H-PEI-001.json",
+      "sha256_before": "acd32434d028aecf241ffd552667a38d92e501335e9ae355f921e71154fd2cb4",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Pei",
+          "new": "H-PEI-001",
+          "evidence": "文件名主干='H-PEI-001'; id='H-PEI-001'; code='H-PEI-001'"
+        }
+      ],
+      "sha256_after": "32da14339166d5b2ed8464731600ce0e1731c968d1d3e9a1212c5ad5624511e4"
+    },
+    {
+      "file": "H-PGR-001.json",
+      "sha256_before": "c76f7dd4dd40fcf2784c011fc811b5b85bc017c05d9f0133bb12d9434d2b7b64",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "PeterGreat",
+          "new": "H-PGR-001",
+          "evidence": "文件名主干='H-PGR-001'; id='H-PGR-001'; code='PGR'"
+        }
+      ],
+      "sha256_after": "bbfcf56ce3b1085ca6152bc3f00fe8382fade32ca2ffd47069ed0b319660f2d4"
+    },
+    {
+      "file": "H-POI-001.json",
+      "sha256_before": "adca79018681688d8be6d5313178c9550fb75195c9c4977caf5d65c40b09a431",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Poincare",
+          "new": "H-POI-001",
+          "evidence": "文件名主干='H-POI-001'; id='H-POI-001'; code='POI'"
+        },
+        {
+          "field": "code",
+          "old": "POI",
+          "new": "POI",
+          "evidence": "文件名主干='H-POI-001'; id='H-POI-001'; code='POI'"
+        }
+      ],
+      "sha256_after": "ae8177f52f22bc36d8f48419667b396127f6f7fb36e73448e80ae95569c74451"
+    },
+    {
+      "file": "H-Ptolemy-001.json",
+      "sha256_before": "ddbd441bddd6cda385b6e4739a1e1b3879f864052bdf6edbc93bdecbee271ce7",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Ptolemy",
+          "new": "H-Ptolemy-001",
+          "evidence": "文件名主干='H-Ptolemy-001'; id=None; code=None"
+        },
+        {
+          "field": "code",
+          "old": null,
+          "new": "Ptolemy",
+          "evidence": "文件名主干='H-Ptolemy-001'; id=None; code=None"
+        }
+      ],
+      "sha256_after": "0957dfe24b21979818a7ef9b3d55f1d8eb419bbeefac2e30b1f4ebacf48df903"
+    },
+    {
+      "file": "H-QCJ-001.json",
+      "sha256_before": "35579484da2112c25b46c38f85a83e8b06a1d6bbc22465aa67cb766bfc19daae",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "QiuChuji",
+          "new": "H-QCJ-001",
+          "evidence": "文件名主干='H-QCJ-001'; id='H-QCJ-001'; code='QCJ'"
+        },
+        {
+          "field": "code",
+          "old": "QCJ",
+          "new": "QCJ",
+          "evidence": "文件名主干='H-QCJ-001'; id='H-QCJ-001'; code='QCJ'"
+        }
+      ],
+      "sha256_after": "d92996e9d55a30c9b08ff1208276b5c23b4b9f819c78f856a545005223426763"
+    },
+    {
+      "file": "H-QGH-001.json",
+      "sha256_before": "317c626cc389d579aeee1e629c4fde965c18e7a96870eabfc72aa09981224c05",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "乔冠华",
+          "evidence": "figure_name_zh='乔冠华'"
+        },
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-QGH-001",
+          "evidence": "文件名主干='H-QGH-001'; id='H-QGH-001'; code='H-QGH-001'"
+        }
+      ],
+      "sha256_after": "e6bc6b141cd6111ae35f45efebfc2fdea8f1d479dd672f9b86a99d6d79d7314c"
+    },
+    {
+      "file": "H-QIN-001.json",
+      "sha256_before": "19228767d2c7956ea6bd14884a2330b8e83a9a57a937865306d47c088144ebc7",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "战国",
+          "new": "H-QIN-001",
+          "evidence": "文件名主干='H-QIN-001'; id=None; code='H-QIN-001'"
+        }
+      ],
+      "sha256_after": "26fbe8f1a3341922db0de86742bb271d9feadb7bcbced373658851a8f1f93228"
+    },
+    {
+      "file": "H-QJS-001.json",
+      "sha256_before": "59184d32c55bdd03196185d09c5bdf99fdf491ff08db257db38f8e2e35562b4f",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "QinJiushao",
+          "new": "H-QJS-001",
+          "evidence": "文件名主干='H-QJS-001'; id='H-QJS-001'; code='QJS'"
+        },
+        {
+          "field": "code",
+          "old": "QJS",
+          "new": "QJS",
+          "evidence": "文件名主干='H-QJS-001'; id='H-QJS-001'; code='QJS'"
+        }
+      ],
+      "sha256_after": "b5ce3627fed6f728c07ed3efdde9edb6446ed70ff817c55e4c0b7d905099824b"
+    },
+    {
+      "file": "H-QXS-001.json",
+      "sha256_before": "ab3dfab49c004d67b2f9726d7da3db3f1564346ce584b6ad24cea236aefeac19",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-QXS-001",
+          "evidence": "文件名主干='H-QXS-001'; id=None; code='H-QXS-001'"
+        }
+      ],
+      "sha256_after": "188cf4f14080aed28885ed9cdec530f7129bb22331412fca041ec6dede8908c8"
+    },
+    {
+      "file": "H-QuYuan-001.json",
+      "sha256_before": "7536927f154a33a447f5242eedaa8cd0ce8f3b4b00b1d9c1c5e45bbb9b6acb48",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-QuYuan-001",
+          "evidence": "文件名主干='H-QuYuan-001'; id='H-QUYUAN-001'; code='QuYuan'"
+        },
+        {
+          "field": "code",
+          "old": "QuYuan",
+          "new": "QuYuan",
+          "evidence": "文件名主干='H-QuYuan-001'; id='H-QUYUAN-001'; code='QuYuan'"
+        }
+      ],
+      "sha256_after": "9f91e2117faae4c636fd456a7cdc8a4152fa08be0c0a9cea954dc4f510e1876e"
+    },
+    {
+      "file": "H-RFR-001.json",
+      "sha256_before": "de95f0f37e0f3915a2eb4c1e247d22dc17b238f0205958a9bb3d1c42bed03f45",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "RFranklin",
+          "new": "H-RFR-001",
+          "evidence": "文件名主干='H-RFR-001'; id='H-RFR-001'; code='RFR'"
+        },
+        {
+          "field": "code",
+          "old": "RFR",
+          "new": "RFR",
+          "evidence": "文件名主干='H-RFR-001'; id='H-RFR-001'; code='RFR'"
+        }
+      ],
+      "sha256_after": "cff717cd35abafe762ec9d772ed364b444997231d10f15303b39eb8b500880a7"
+    },
+    {
+      "file": "H-Rhazes-001.json",
+      "sha256_before": "a5da68fd07a1a886ee11f42cf82a1f6af20a3813223368e73f53710849ed659c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-Rhazes-001",
+          "evidence": "文件名主干='H-Rhazes-001'; id='H-RHAZES-001'; code='Rhazes'"
+        },
+        {
+          "field": "code",
+          "old": "Rhazes",
+          "new": "Rhazes",
+          "evidence": "文件名主干='H-Rhazes-001'; id='H-RHAZES-001'; code='Rhazes'"
+        }
+      ],
+      "sha256_after": "45dc18477eb1a54a064bf9e04f7a954e5090ae7bc2109eeddc138e0a9f1cc96d"
+    },
+    {
+      "file": "H-SAD-001.json",
+      "sha256_before": "be43f8647cada0538ec70a015993eb5e755cdcbde67f133f0bfe985115e1454c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Sadat",
+          "new": "H-SAD-001",
+          "evidence": "文件名主干='H-SAD-001'; id='H-SAD-001'; code='SAD'"
+        },
+        {
+          "field": "code",
+          "old": "SAD",
+          "new": "SAD",
+          "evidence": "文件名主干='H-SAD-001'; id='H-SAD-001'; code='SAD'"
+        }
+      ],
+      "sha256_after": "a14f61408036ba94343b52183e98f5cc75be8cd254567df6c889360a66ec6b68"
+    },
+    {
+      "file": "H-SAU-001.json",
+      "sha256_before": "3d5d417bed12e485613f61cb11c916ba09e7e8ac0522b529b5c91e0475d2d6b2",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Saussure",
+          "new": "H-SAU-001",
+          "evidence": "文件名主干='H-SAU-001'; id='H-SAU-001'; code='SAU'"
+        },
+        {
+          "field": "code",
+          "old": "SAU",
+          "new": "SAU",
+          "evidence": "文件名主干='H-SAU-001'; id='H-SAU-001'; code='SAU'"
+        }
+      ],
+      "sha256_after": "9154e29496af401852ca535d918ec67f30f50d3d8149d8cfdea53d0c3de2ebb2"
+    },
+    {
+      "file": "H-SC-001.json",
+      "sha256_before": "2ba138b05234fc9e3ce770096839a1278a6f945e10d42dfb5036b6d96bd71a60",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Schrodinger",
+          "new": "H-SC-001",
+          "evidence": "文件名主干='H-SC-001'; id='H-SC-001'; code='SC'"
+        }
+      ],
+      "sha256_after": "6fbe106b7327388044fc4fe2b2e8c809755ed833dec0d4a0c02826bb42c11399"
+    },
+    {
+      "file": "H-SCH-001.json",
+      "sha256_before": "405bbfa4a6356c16605b9383355d6b2be1c06057a2a2a858432f46cec788bd04",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Schumpeter",
+          "new": "H-SCH-001",
+          "evidence": "文件名主干='H-SCH-001'; id='H-SCH-001'; code='H-SCH-001'"
+        }
+      ],
+      "sha256_after": "440f5efa4a72d6ef75189724ba7dd25c6e09e4dcb6ffc4a486fb1113811185ed"
+    },
+    {
+      "file": "H-SEJ-001.json",
+      "sha256_before": "76bdce56e6c04599b62c0dc467dd94028cd63c58db9da5fd57e82e9c9357dd39",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Sejong",
+          "new": "H-SEJ-001",
+          "evidence": "文件名主干='H-SEJ-001'; id='H-SEJ-001'; code='SEJ'"
+        }
+      ],
+      "sha256_after": "976d00a502ba7e33515628cc3a4a64723ceca2fa033bb3f394a822c3161325a0"
+    },
+    {
+      "file": "H-SHA-001.json",
+      "sha256_before": "503d411cfe6aa07c06effb20be1fb4044709f7b4fa9dc91223d7f2600b83d86c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Shankara",
+          "new": "H-SHA-001",
+          "evidence": "文件名主干='H-SHA-001'; id='H-SHA-001'; code='SHA'"
+        },
+        {
+          "field": "code",
+          "old": "SHA",
+          "new": "SHA",
+          "evidence": "文件名主干='H-SHA-001'; id='H-SHA-001'; code='SHA'"
+        }
+      ],
+      "sha256_after": "bf4e9977dc744d41bf8575a8a615672eb05870a35ed95de954ea1eec9cbe6226"
+    },
+    {
+      "file": "H-SK-001.json",
+      "sha256_before": "94d3f104c9431c1a0b2e4d6060497411ad3cdc251fa34998b121bc51aaeb25ba",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "沈括",
+          "evidence": "figure_name_zh='沈括'"
+        }
+      ],
+      "sha256_after": "66871e469c8e97368000254aba6de035eca33b68e47317e773b8b75fbe26081d"
+    },
+    {
+      "file": "H-SMG-001.json",
+      "sha256_before": "4ec7470691db0181de6a073c4d67819d501134098f0ab08af3064f1d784e31b9",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "SimaGuang",
+          "new": "H-SMG-001",
+          "evidence": "文件名主干='H-SMG-001'; id='H-SMG-001'; code='SMG'"
+        },
+        {
+          "field": "code",
+          "old": "SMG",
+          "new": "SMG",
+          "evidence": "文件名主干='H-SMG-001'; id='H-SMG-001'; code='SMG'"
+        }
+      ],
+      "sha256_after": "179dae19542e383017d76592a962fa16755ad90341e8ba95f38b9018453cafe7"
+    },
+    {
+      "file": "H-SMQ-001.json",
+      "sha256_before": "4f2dc6b3e4e5c855ae30843c4a07a4eb1837b0220c0eb96bf22f90959a75e5f6",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "司马迁",
+          "evidence": "figure_name_zh='司马迁'"
+        }
+      ],
+      "sha256_after": "0332a24d6ed123cb7219ee9ec4d1070e3800befb7560118a09abf3f9d353a400"
+    },
+    {
+      "file": "H-SPI-001.json",
+      "sha256_before": "7a46df15b6ce29d7fc03b99649b5ac8a3773b0adb87701521a789582eba2b4f7",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Spinoza",
+          "new": "H-SPI-001",
+          "evidence": "文件名主干='H-SPI-001'; id='H-SPI-001'; code='SPI'"
+        },
+        {
+          "field": "code",
+          "old": "SPI",
+          "new": "SPI",
+          "evidence": "文件名主干='H-SPI-001'; id='H-SPI-001'; code='SPI'"
+        }
+      ],
+      "sha256_after": "4d847f798acffe1ea95d724e260845116b75be6610f43f1355c6847ae7f081cc"
+    },
+    {
+      "file": "H-SQ-001.json",
+      "sha256_before": "fb11c10e4a59abd7a13fda5591473a9834f741599384f7e7b370406ca0ee5915",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "战国",
+          "new": "H-SQ-001",
+          "evidence": "文件名主干='H-SQ-001'; id=None; code='H-SQ-001'"
+        }
+      ],
+      "sha256_after": "65fd65897d9cc6b022b6b1364af27d0497b1887dee248476519b0b25301d025c"
+    },
+    {
+      "file": "H-SQL-001.json",
+      "sha256_before": "a0d26d00d8c9ab7f61a9680a4d4a2dd7b7abfc1ba22ec52b70d1094d85afff58",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "宋庆龄",
+          "evidence": "figure_name_zh='宋庆龄'"
+        }
+      ],
+      "sha256_after": "d85bfee4923ae30efe997583274100f88ff98f420f4bea10d50b1ccfc2988bbf"
+    },
+    {
+      "file": "H-SQR-001.json",
+      "sha256_before": "0c3262827dcc7b407b70859e58be237ca40d9f23cdb00a3d99dc07ff9865786d",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "苏格拉底",
+          "evidence": "figure_name_zh='苏格拉底'"
+        }
+      ],
+      "sha256_after": "4cd5513e5795f453c3ce8f16de013f29ff484857578b858773332786d5f3b1f4"
+    },
+    {
+      "file": "H-SSM-001.json",
+      "sha256_before": "3446cbd4d3228ac780f5f46ef81c320b1e2057f60ededba237376c9b22b55320",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "SunSimiao",
+          "new": "H-SSM-001",
+          "evidence": "文件名主干='H-SSM-001'; id='H-SSM-001'; code='SSM'"
+        },
+        {
+          "field": "code",
+          "old": "SSM",
+          "new": "SSM",
+          "evidence": "文件名主干='H-SSM-001'; id='H-SSM-001'; code='SSM'"
+        }
+      ],
+      "sha256_after": "f5496631f5e8f34106799da0d3891d3568a42b9c84e907c7901475110baa6099"
+    },
+    {
+      "file": "H-ST-001.json",
+      "sha256_before": "af82eb797d45cbf13464502d0dff34c582e0427e4b423c434793f4140a602a36",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ShiTao",
+          "new": "H-ST-001",
+          "evidence": "文件名主干='H-ST-001'; id='H-ST-001'; code='ST'"
+        }
+      ],
+      "sha256_after": "12a36fbb684c87e5b2eb1feb5f1e65d2e4a936728eaa80a02613cee0311f3565"
+    },
+    {
+      "file": "H-SU-001.json",
+      "sha256_before": "ff96e917e56813437bf034364c057fab7464c8e3591aa5ef9e9b038c98c9db89",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "SuShi",
+          "new": "H-SU-001",
+          "evidence": "文件名主干='H-SU-001'; id='H-SU-001'; code='SU'"
+        }
+      ],
+      "sha256_after": "b7b2f38bcd7f085ce74e6c89ef1dc10610c9d58ca5e3592c343d5f4db19ba30d"
+    },
+    {
+      "file": "H-SUK-001.json",
+      "sha256_before": "76c0e8ff50a0539e479dd88b71ed514c57edc3b5cc26c5fa0163e77ca9452747",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Sukarno",
+          "new": "H-SUK-001",
+          "evidence": "文件名主干='H-SUK-001'; id='H-SUK-001'; code='SUK'"
+        },
+        {
+          "field": "code",
+          "old": "SUK",
+          "new": "SUK",
+          "evidence": "文件名主干='H-SUK-001'; id='H-SUK-001'; code='SUK'"
+        }
+      ],
+      "sha256_after": "2cd7effefe07587ac85a16e0aec850d31c4bb37f336a9fce2280a3e7a9ed9458"
+    },
+    {
+      "file": "H-SUL-001.json",
+      "sha256_before": "f508fa183b763139fee6eb41acc93a44240bcc6b7fd9ff6a5d8e95a151ef6a5f",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Suleiman",
+          "new": "H-SUL-001",
+          "evidence": "文件名主干='H-SUL-001'; id='H-SUL-001'; code='SUL'"
+        },
+        {
+          "field": "code",
+          "old": "SUL",
+          "new": "SUL",
+          "evidence": "文件名主干='H-SUL-001'; id='H-SUL-001'; code='SUL'"
+        }
+      ],
+      "sha256_after": "ebc2f9b68c2b799ebeff2b406622893098053d46ee5dc201d5fb772d3bdbfc8e"
+    },
+    {
+      "file": "H-SW-001.json",
+      "sha256_before": "e00264280aee09e805c381a8f68eb2bcebd5fe528a8eac6fae6497e88f8d811b",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "孙子",
+          "evidence": "figure_name_zh='孙子'"
+        },
+        {
+          "field": "figure_code",
+          "old": "战国",
+          "new": "H-SW-001",
+          "evidence": "文件名主干='H-SW-001'; id=None; code='H-SW-001'"
+        }
+      ],
+      "sha256_after": "b67216b8dc2c57e75f1e2306fe3d094b1d2e38521561ee18bfc2f469a77df47f"
+    },
+    {
+      "file": "H-SY-001.json",
+      "sha256_before": "f2dbea316184399e5de29be06cc6065b328ed965aa9919844cf0fbb60a54f7aa",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "商君",
+          "evidence": "figure_name_zh='商君'"
+        },
+        {
+          "field": "figure_code",
+          "old": "WarringStates",
+          "new": "H-SY-001",
+          "evidence": "文件名主干='H-SY-001'; id=None; code='H-SY-001'"
+        }
+      ],
+      "sha256_after": "a9152cfa41b87547077505874db0367a688a90e34364d69664092a9a1f1203ca"
+    },
+    {
+      "file": "H-SYU3-001.json",
+      "sha256_before": "bb072e7166934f765a09441c7cab26b37253514abd1dd6f101da0d29034e67ec",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "SuYuGeneral",
+          "new": "H-SYU3-001",
+          "evidence": "文件名主干='H-SYU3-001'; id='H-SYU3-001'; code='SUY'"
+        },
+        {
+          "field": "code",
+          "old": "SUY",
+          "new": "SUY",
+          "evidence": "文件名主干='H-SYU3-001'; id='H-SYU3-001'; code='SUY'"
+        }
+      ],
+      "sha256_after": "9a2a69e3207317c6a9d420fb3e3e40907a4dbc823857620a347e7c8278c04770"
+    },
+    {
+      "file": "H-SYX-001.json",
+      "sha256_before": "cf87f5d34020e6a13b0f11caef7702c79aa18d31238115c24997a86ffe7b90c8",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "SongYingxing",
+          "new": "H-SYX-001",
+          "evidence": "文件名主干='H-SYX-001'; id='H-SYX-001'; code='SYX'"
+        },
+        {
+          "field": "code",
+          "old": "SYX",
+          "new": "SYX",
+          "evidence": "文件名主干='H-SYX-001'; id='H-SYX-001'; code='SYX'"
+        }
+      ],
+      "sha256_after": "bd13965b2b25b80e3de412f50753e75bab3c29de7bf2ce6e0ce202fc5c073fec"
+    },
+    {
+      "file": "H-Saladin-001.json",
+      "sha256_before": "cd3a683fb5c46bb064d51694e609f4174098c3034cd1ef9713868923bc5139ac",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Saladin",
+          "new": "H-Saladin-001",
+          "evidence": "文件名主干='H-Saladin-001'; id='H-SALADIN-001'; code='Saladin'"
+        },
+        {
+          "field": "code",
+          "old": "Saladin",
+          "new": "Saladin",
+          "evidence": "文件名主干='H-Saladin-001'; id='H-SALADIN-001'; code='Saladin'"
+        }
+      ],
+      "sha256_after": "80ad902847dbe0a0ca19b4fe5eb0d86da2aeba158c10ca8e0b3e07b582602f8d"
+    },
+    {
+      "file": "H-Shotoku-001.json",
+      "sha256_before": "e67d61a3625322b3dc9c4d0dc2379f302380b9c662041d38a76f68bc8032b353",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Shotoku",
+          "new": "H-Shotoku-001",
+          "evidence": "文件名主干='H-Shotoku-001'; id=None; code=None"
+        },
+        {
+          "field": "code",
+          "old": null,
+          "new": "Shotoku",
+          "evidence": "文件名主干='H-Shotoku-001'; id=None; code=None"
+        }
+      ],
+      "sha256_after": "ecc610830d33c4aaf5e644ae0d5aad2738bf913ad972d7fcf4e879ca58bd30b2"
+    },
+    {
+      "file": "H-TLS-001.json",
+      "sha256_before": "fae8e8be3850c8dbd467222370350f73f02d542b2e437062e82b36d4b7aa225b",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Tolstoy",
+          "new": "H-TLS-001",
+          "evidence": "文件名主干='H-TLS-001'; id='H-TLS-001'; code='TLS'"
+        }
+      ],
+      "sha256_after": "6dd452344220ccb23e032e2176b3bbb2cfe079a8490aa933c39e00c5b405bcf2"
+    },
+    {
+      "file": "H-TOKUGAWA-001.json",
+      "sha256_before": "ca7112f15a51bbcaddfa86b4c968741f7db3495f3a386e2972beb189dcdfcb16",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Tokugawa",
+          "new": "H-TOKUGAWA-001",
+          "evidence": "文件名主干='H-TOKUGAWA-001'; id='H-TOKUGAWA-001'; code='TOKUGAWA'"
+        },
+        {
+          "field": "code",
+          "old": "TOKUGAWA",
+          "new": "TOKUGAWA",
+          "evidence": "文件名主干='H-TOKUGAWA-001'; id='H-TOKUGAWA-001'; code='TOKUGAWA'"
+        }
+      ],
+      "sha256_after": "102ae599bf7925c2a407dfc1718b2eb5eb8025847bd93d36cede9c7c510c65bd"
+    },
+    {
+      "file": "H-TOU-001.json",
+      "sha256_before": "095019eaf00c65dde6d505853896ac6f3a6c4c9b59696514b20e35b2eef4647e",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "TuYouyou",
+          "new": "H-TOU-001",
+          "evidence": "文件名主干='H-TOU-001'; id='H-TOU-001'; code='TOU'"
+        },
+        {
+          "field": "code",
+          "old": "TOU",
+          "new": "TOU",
+          "evidence": "文件名主干='H-TOU-001'; id='H-TOU-001'; code='TOU'"
+        }
+      ],
+      "sha256_after": "7ce89092daa2ef6b30204e2240ef6a8e6e2750d3669b7894062e24a281d878c1"
+    },
+    {
+      "file": "H-TUT-001.json",
+      "sha256_before": "664f0df96664e5ff86cedcc7e6c417b512acb8f2fbf700effc51a80211185cda",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Thutmose",
+          "new": "H-TUT-001",
+          "evidence": "文件名主干='H-TUT-001'; id='H-TUT-001'; code='TUT'"
+        },
+        {
+          "field": "code",
+          "old": "TUT",
+          "new": "TUT",
+          "evidence": "文件名主干='H-TUT-001'; id='H-TUT-001'; code='TUT'"
+        }
+      ],
+      "sha256_after": "1c1336cfbffe991330e6511c4df48bfcad3e765423c329d94997bd8b038986eb"
+    },
+    {
+      "file": "H-Tesla-001.json",
+      "sha256_before": "4bec6a462762bd44dccd89fc8fb904b9ea4bfc9727fa488afc8b6b09bb44e9ad",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Tesla",
+          "new": "H-Tesla-001",
+          "evidence": "文件名主干='H-Tesla-001'; id='H-TESLA-001'; code='Tesla'"
+        },
+        {
+          "field": "code",
+          "old": "Tesla",
+          "new": "Tesla",
+          "evidence": "文件名主干='H-Tesla-001'; id='H-TESLA-001'; code='Tesla'"
+        }
+      ],
+      "sha256_after": "c7a26ebab49566fe2ee480b76ead62a0237d43b865277526a8210a66b86a4939"
+    },
+    {
+      "file": "H-Timur-001.json",
+      "sha256_before": "dccaaa483d1e0dc096ec94f5b69a8c24e60d78832af90fe3931e04a0f83c00a3",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Timur",
+          "new": "H-Timur-001",
+          "evidence": "文件名主干='H-Timur-001'; id='H-TIMUR-001'; code='Timur'"
+        },
+        {
+          "field": "code",
+          "old": "Timur",
+          "new": "Timur",
+          "evidence": "文件名主干='H-Timur-001'; id='H-TIMUR-001'; code='Timur'"
+        }
+      ],
+      "sha256_after": "c15a3de7445d8fc1977f1fc67f687b80a1a15d876ea6d89420de14ba09ef8eaa"
+    },
+    {
+      "file": "H-UM-001.json",
+      "sha256_before": "3a05a91f43373b84691f7e67ca8a7fd23c331d0bb896a34ba2218a928b84a466",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Hume",
+          "new": "H-UM-001",
+          "evidence": "文件名主干='H-UM-001'; id='H-UM-001'; code='UM'"
+        }
+      ],
+      "sha256_after": "69bc0152918cbb25f5cdcc326c9c7723b58243f335642e39126d70ab2fb5c0c3"
+    },
+    {
+      "file": "H-VLL-001.json",
+      "sha256_before": "e0ba45cfb64958598c84da993bc06fb56f402022d413da6d8c7ede19477bfe97",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "VargasLlosa",
+          "new": "H-VLL-001",
+          "evidence": "文件名主干='H-VLL-001'; id='H-VLL-001'; code='VLL'"
+        },
+        {
+          "field": "code",
+          "old": "VLL",
+          "new": "VLL",
+          "evidence": "文件名主干='H-VLL-001'; id='H-VLL-001'; code='VLL'"
+        }
+      ],
+      "sha256_after": "19d3fe3efefbbb321b608d6491d43b353a07fd6b330ca49aa5d6068143d76577"
+    },
+    {
+      "file": "H-VYG-001.json",
+      "sha256_before": "abd334becfb06920ee7e5b4ba738134ec0157d458d7f13c7b6573e9b667d72a5",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Vygotsky",
+          "new": "H-VYG-001",
+          "evidence": "文件名主干='H-VYG-001'; id='H-VYG-001'; code='VYG'"
+        },
+        {
+          "field": "code",
+          "old": "VYG",
+          "new": "VYG",
+          "evidence": "文件名主干='H-VYG-001'; id='H-VYG-001'; code='VYG'"
+        }
+      ],
+      "sha256_after": "3d71a0b2c56e2f3894ca348e50d77db9d53d462dc3f4b2bc370f653de511cc6a"
+    },
+    {
+      "file": "H-Vesalius-001.json",
+      "sha256_before": "9ced1a42dc3238ab9a54d63091f658ed5f999143c1d6955e1972271c281bdd73",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Vesalius",
+          "new": "H-Vesalius-001",
+          "evidence": "文件名主干='H-Vesalius-001'; id=None; code=None"
+        },
+        {
+          "field": "code",
+          "old": null,
+          "new": "Vesalius",
+          "evidence": "文件名主干='H-Vesalius-001'; id=None; code=None"
+        }
+      ],
+      "sha256_after": "9e20a2d8ffed4ca4dc560f81d28ea36e54a5c82c455a43e9cb98d55eb369bd3e"
+    },
+    {
+      "file": "H-WB-001.json",
+      "sha256_before": "a5a0cc71d754eda8cd45c279c7a61a841568bc9fb2bb7918cfa9efaa2716ee1c",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "王弼",
+          "evidence": "figure_name_zh='王弼'"
+        }
+      ],
+      "sha256_after": "3327666c85a1290d02a1fb0b81c6e3b996ef237c57584b7b00d53358542bfd9c"
+    },
+    {
+      "file": "H-WCY-001.json",
+      "sha256_before": "1eae9bded55404805bc333133ce4ae18a7173937c6585875e425908ffea43db9",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "WangChongyang",
+          "new": "H-WCY-001",
+          "evidence": "文件名主干='H-WCY-001'; id='H-WCY-001'; code='WCY'"
+        },
+        {
+          "field": "code",
+          "old": "WCY",
+          "new": "WCY",
+          "evidence": "文件名主干='H-WCY-001'; id='H-WCY-001'; code='WCY'"
+        }
+      ],
+      "sha256_after": "fb7e2ff3d1b686d30098710d6484dcc3baec355556d448ad3380c2b3f4f07e2e"
+    },
+    {
+      "file": "H-WDZ-001.json",
+      "sha256_before": "499ee366548b3cce3ea7b00d18a89ebfeb034570506dc1944ea9c8fa8b9cb7c6",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "WuDaozi",
+          "new": "H-WDZ-001",
+          "evidence": "文件名主干='H-WDZ-001'; id='H-WDZ-001'; code='WDZ'"
+        }
+      ],
+      "sha256_after": "5cf13019ed4e30d7c744204772eaef72332486cff476f589c862613b3d6fad6c"
+    },
+    {
+      "file": "H-WFZ-001.json",
+      "sha256_before": "30db3679eb8f112703a3d5fcba0885ce5535e61cb4264498cd8e2df83c6e5b20",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "王夫之",
+          "evidence": "figure_name_zh='王夫之'"
+        }
+      ],
+      "sha256_after": "7cc3362b304c0d144014e9f6a9f328f8138887ffe1ddd39858311d8d72d014ac"
+    },
+    {
+      "file": "H-WGW-001.json",
+      "sha256_before": "2239890b0a74bc5752866bca184de33ef6809a5a6fccb828754b7bc118c7c6d1",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "WangGuowei",
+          "new": "H-WGW-001",
+          "evidence": "文件名主干='H-WGW-001'; id='H-WGW-001'; code='WGW'"
+        },
+        {
+          "field": "code",
+          "old": "WGW",
+          "new": "WGW",
+          "evidence": "文件名主干='H-WGW-001'; id='H-WGW-001'; code='WGW'"
+        }
+      ],
+      "sha256_after": "66dda228dc65045b2307504e035f3e73ff8c43ad880aa309d2ab1c01b2aa3512"
+    },
+    {
+      "file": "H-WW-001.json",
+      "sha256_before": "8db107302c28d62abd44f257687ca2a99958dfa34c1660266d32dac3880877b7",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "WangWei",
+          "new": "H-WW-001",
+          "evidence": "文件名主干='H-WW-001'; id='H-WW-001'; code='WW'"
+        }
+      ],
+      "sha256_after": "fe19520b335bf5dd2a16105ba5b8be72c61fc5bb506f2b3b6816281d44b4aeb3"
+    },
+    {
+      "file": "H-WYM-001.json",
+      "sha256_before": "cb1578be42ae061dd7a41e71f0d664528e12334e368b23c4d922da7e1503176c",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "王阳明",
+          "evidence": "figure_name_zh='王阳明'"
+        }
+      ],
+      "sha256_after": "da0a6c92ef2615d9dfe10fd8467af6bf3e62581e8373f82be5c6970b6c4aaf1c"
+    },
+    {
+      "file": "H-WeiQing-001.json",
+      "sha256_before": "ba156caefdc276e9bd3230bf684367a2b8a8b08acfaf9f67553b5f9d8fc10b32",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "WeiQing",
+          "new": "H-WeiQing-001",
+          "evidence": "文件名主干='H-WeiQing-001'; id='H-WeiQing-001'; code='WeiQing'"
+        },
+        {
+          "field": "code",
+          "old": "WeiQing",
+          "new": "WeiQing",
+          "evidence": "文件名主干='H-WeiQing-001'; id='H-WeiQing-001'; code='WeiQing'"
+        }
+      ],
+      "sha256_after": "1cabbc28bf47a51612d7a4c60a36120254bb6f85827e511d863ddb0474cd5dce"
+    },
+    {
+      "file": "H-WrightBrothers-001.json",
+      "sha256_before": "c833d8314544a120fb5917b9fbd74f4db0185f57c5ee8f78740d9ffed8fd8019",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "WrightBrothers",
+          "new": "H-WrightBrothers-001",
+          "evidence": "文件名主干='H-WrightBrothers-001'; id='H-WRIGHT-001'; code='WrightBrothers'"
+        },
+        {
+          "field": "code",
+          "old": "WrightBrothers",
+          "new": "WrightBrothers",
+          "evidence": "文件名主干='H-WrightBrothers-001'; id='H-WRIGHT-001'; code='WrightBrothers'"
+        }
+      ],
+      "sha256_after": "48279f43eb8558e6d123dde656281b5b8d0472284eb50ddfd18f0fc7da2be4cf"
+    },
+    {
+      "file": "H-XFZ-001.json",
+      "sha256_before": "2638681871adca9ce098b05cf0af0ea5dcaf692b095d864ba6e3d2bba8b04727",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-XFZ-001",
+          "evidence": "文件名主干='H-XFZ-001'; id=None; code=None"
+        }
+      ],
+      "sha256_after": "40c2413b0422b4e79f38f403bae205dbf840bce04fecfa2da319496b4d4d7918"
+    },
+    {
+      "file": "H-XUGUANGQ-001.json",
+      "sha256_before": "f61784c74ad044b694e268c75be6c4a82580dd7c364efb6a8ee752c6182795ee",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "XuGuangQi",
+          "new": "H-XUGUANGQ-001",
+          "evidence": "文件名主干='H-XUGUANGQ-001'; id='H-XUGUANGQ-001'; code='XUGUANGQ'"
+        },
+        {
+          "field": "code",
+          "old": "XUGUANGQ",
+          "new": "XuGuangQi",
+          "evidence": "文件名主干='H-XUGUANGQ-001'; id='H-XUGUANGQ-001'; code='XUGUANGQ'"
+        }
+      ],
+      "sha256_after": "895a5d54faba71129ca1ab4e61c903f5ac3c13e824432494b66da677942e3d4c"
+    },
+    {
+      "file": "H-XZ-001.json",
+      "sha256_before": "0adfb549e730d0226de0a3c49776daec65aa3e9bec4f87138125783eab9c7389",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Xiaozhuang",
+          "new": "H-XZ-001",
+          "evidence": "文件名主干='H-XZ-001'; id='H-XZ-001'; code='XZ'"
+        },
+        {
+          "field": "code",
+          "old": "XZ",
+          "new": "XZ",
+          "evidence": "文件名主干='H-XZ-001'; id='H-XZ-001'; code='XZ'"
+        }
+      ],
+      "sha256_after": "a178604bd44d2bdcc6ebff5cd30f5e0ab056570e401c5712efd948ac7c8b97cf"
+    },
+    {
+      "file": "H-XuanZang-001.json",
+      "sha256_before": "61e7d1b43aee75618d9d0029e83aa638bf7aaa16dcd660336d157c947710973a",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "XuanZang",
+          "new": "H-XuanZang-001",
+          "evidence": "文件名主干='H-XuanZang-001'; id='H-XUANZANG-001'; code='XuanZang'"
+        },
+        {
+          "field": "code",
+          "old": "XuanZang",
+          "new": "XuanZang",
+          "evidence": "文件名主干='H-XuanZang-001'; id='H-XUANZANG-001'; code='XuanZang'"
+        }
+      ],
+      "sha256_after": "bf31a60539612c49bc149b3eb37a83db2972e6a3ccf97c31f61c9b228e12acf9"
+    },
+    {
+      "file": "H-YE-001.json",
+      "sha256_before": "c3fc1fad600c2c44b7ec76cf200d95ac6a4b3840a18c33d88af009e082b563ed",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": null,
+          "new": "H-YE-001",
+          "evidence": "文件名主干='H-YE-001'; id=None; code='H-YE-001'"
+        }
+      ],
+      "sha256_after": "cb1929d3d94e9ab94070a8328c50c6bf1bb65b9ffb9ff5491af8a2d8c7c2cdd7"
+    },
+    {
+      "file": "H-YJ-001.json",
+      "sha256_before": "07b7919cfe795ba37bc7da2dcd75a17f587dc91d029a25681b8e2497b8804ec5",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Yijing",
+          "new": "H-YJ-001",
+          "evidence": "文件名主干='H-YJ-001'; id='H-YJ-001'; code='YJ'"
+        },
+        {
+          "field": "code",
+          "old": "YJ",
+          "new": "YJ",
+          "evidence": "文件名主干='H-YJ-001'; id='H-YJ-001'; code='YJ'"
+        }
+      ],
+      "sha256_after": "95b7a6a381f348ed44998f285ced834bf960b9848d27d3f8cf78755155acf8da"
+    },
+    {
+      "file": "H-YJY-001.json",
+      "sha256_before": "bc7485b071f529c23ef8353ffb82add4f0d2c2c39ad569b3ad3d53748bd2a611",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "叶剑英",
+          "evidence": "name_zh='叶剑英'"
+        }
+      ],
+      "sha256_after": "b91900e8dc38ba99cf4a47d16853421b01ff32b53a014658b06b2c10b3d1569e"
+    },
+    {
+      "file": "H-YLC-001.json",
+      "sha256_before": "3552b614aafa4bd26f76153d0f192551ecd012463175e1278102b39bbf883e4c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "YelvChucai",
+          "new": "H-YLC-001",
+          "evidence": "文件名主干='H-YLC-001'; id='H-YLC-001'; code='YLC'"
+        },
+        {
+          "field": "code",
+          "old": "YLC",
+          "new": "YLC",
+          "evidence": "文件名主干='H-YLC-001'; id='H-YLC-001'; code='YLC'"
+        }
+      ],
+      "sha256_after": "cf857cd927e21cefebb87f84e1fec4d735a82bf2b3695f234476227a6bb3add1"
+    },
+    {
+      "file": "H-YSS-001.json",
+      "sha256_before": "d34ad2d9c167660f4a5a51498f76390af2f40fe3c40e54e116f6f27b0d9946f4",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "YiSunsin",
+          "new": "H-YSS-001",
+          "evidence": "文件名主干='H-YSS-001'; id='H-YSS-001'; code='YSS'"
+        }
+      ],
+      "sha256_after": "002677a7c22850e6ad17ce7b2d82cb47c5d341e43c5a6cb8b33e56d9b5991371"
+    },
+    {
+      "file": "H-YZ-001.json",
+      "sha256_before": "d53529d99324a34800300dc4f8916cea32ba2f3e8d92e8a32f97f58c13a184aa",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Yongzheng",
+          "new": "H-YZ-001",
+          "evidence": "文件名主干='H-YZ-001'; id='H-YZ-001'; code='YZ'"
+        },
+        {
+          "field": "code",
+          "old": "YZ",
+          "new": "YZ",
+          "evidence": "文件名主干='H-YZ-001'; id='H-YZ-001'; code='YZ'"
+        }
+      ],
+      "sha256_after": "9f978fbbd100f0b94b7d5bd80d19ab957c17fb41c3cb2e031f9c9c13752f9e21"
+    },
+    {
+      "file": "H-ZAN-001.json",
+      "sha256_before": "fcf54386e5da9a459d28bdf1fa4fc50cc932b2b2665acdca4bc44824db2c8c95",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Zantai",
+          "new": "H-ZAN-001",
+          "evidence": "文件名主干='H-ZAN-001'; id='H-ZAN-001'; code='ZAN'"
+        },
+        {
+          "field": "code",
+          "old": "ZAN",
+          "new": "ZAN",
+          "evidence": "文件名主干='H-ZAN-001'; id='H-ZAN-001'; code='ZAN'"
+        }
+      ],
+      "sha256_after": "781431d99a1cfce9e4b7876cac3685c8eeac8b25a1aeb1295427123a516e91e4"
+    },
+    {
+      "file": "H-ZDY-001.json",
+      "sha256_before": "595af08e524f949ec3fbd1f79d26a78ac012dbdea4eadcd25416f1e67bf1bc3b",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "周敦颐",
+          "evidence": "figure_name_zh='周敦颐'"
+        }
+      ],
+      "sha256_after": "f1765cabf3148bd4e0f09be2ed05ef5fac12faf8f6af8b1bb84e646bb9da8919"
+    },
+    {
+      "file": "H-ZHH-001.json",
+      "sha256_before": "d064a09c107649f189132a4d281043b1366683e8cf6a8832bdbb0a37e388e8e8",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZhangHeng",
+          "new": "H-ZHH-001",
+          "evidence": "文件名主干='H-ZHH-001'; id='H-ZHH-001'; code='ZHH'"
+        },
+        {
+          "field": "code",
+          "old": "ZHH",
+          "new": "ZhangHeng",
+          "evidence": "文件名主干='H-ZHH-001'; id='H-ZHH-001'; code='ZHH'"
+        }
+      ],
+      "sha256_after": "3f533fb39f99610738e66e2dcfd2a860105926b70da94ae4cd00f8baf8118c50"
+    },
+    {
+      "file": "H-ZHX-001.json",
+      "sha256_before": "b5596a0a7a5b44a526455c3211e089957845582bbbbd508ed53173bafac90999",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "朱熹",
+          "evidence": "figure_name_zh='朱熹'"
+        }
+      ],
+      "sha256_after": "0a4bfe47d71bfdcf33d9429c980d8f976683b6ea5a8e8fe3cb359eb54a3c5dd5"
+    },
+    {
+      "file": "H-ZJ-001.json",
+      "sha256_before": "212538824abf0eaa24161c56d6b3472876816c23b333c29600e1d336647725ce",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "东汉",
+          "new": "H-ZJ-001",
+          "evidence": "文件名主干='H-ZJ-001'; id=None; code='H-ZJ-001'"
+        }
+      ],
+      "sha256_after": "ecbbcb100cbe58987527f6d4515adc7b75fd67ef3fff6d8a27962b4007cb73c3"
+    },
+    {
+      "file": "H-ZKZ-001.json",
+      "sha256_before": "b1707f8f6b19351827ce77cb0e390715b4ee23b502ff427e6c99d4cb12bc432d",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZhuKezhen",
+          "new": "H-ZKZ-001",
+          "evidence": "文件名主干='H-ZKZ-001'; id='H-ZKZ-001'; code='ZKZ'"
+        }
+      ],
+      "sha256_after": "8e5d4a17ced8272b9ffcd02f320a877ebbf9c7a91e2d6c62343c68482a3d2ba9"
+    },
+    {
+      "file": "H-ZOU-001.json",
+      "sha256_before": "66b9885cfe1b0f316c3eb786aa786b5dcf211eefed438def8f59a7541c1a413c",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "Modern",
+          "new": "H-ZOU-001",
+          "evidence": "文件名主干='H-ZOU-001'; id=None; code='H-ZOU-001'"
+        }
+      ],
+      "sha256_after": "646bb167a643ef230409231b44ee669edfc9f694b80618b2530ead3fe8bd8b49"
+    },
+    {
+      "file": "H-ZSS-001.json",
+      "sha256_before": "b24396a093e6e9b3cc2d97bed28d0aa8f427869dbd4ea0890c1d65fba6453ce0",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZhuShunshui",
+          "new": "H-ZSS-001",
+          "evidence": "文件名主干='H-ZSS-001'; id='H-ZSS-001'; code='ZSS'"
+        },
+        {
+          "field": "code",
+          "old": "ZSS",
+          "new": "ZSS",
+          "evidence": "文件名主干='H-ZSS-001'; id='H-ZSS-001'; code='ZSS'"
+        }
+      ],
+      "sha256_after": "3560c0c20a766482eeee904b699247da001891d95c7b92b359f946d9c807fccc"
+    },
+    {
+      "file": "H-ZX-001.json",
+      "sha256_before": "4f371d8c99bdf15db3e8fdf5dda5606ff14c6e1753afe8830e3b9c4eeb4f10c9",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "曾子",
+          "evidence": "figure_name_zh='曾子'"
+        },
+        {
+          "field": "figure_code",
+          "old": "春秋",
+          "new": "H-ZX-001",
+          "evidence": "文件名主干='H-ZX-001'; id=None; code='H-ZX-001'"
+        }
+      ],
+      "sha256_after": "502df5b86e831b683632b9225d5e6e0b2768546975e6d1ca5b9be970ab8d38b2"
+    },
+    {
+      "file": "H-ZXC-001.json",
+      "sha256_before": "45d48d72a8654ce351f3f1e32f00559c5e1b35695067ea5dda9060b163d3cf28",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "章学诚",
+          "evidence": "figure_name_zh='章学诚'"
+        }
+      ],
+      "sha256_after": "6747de2cadd0950c43ea7bce63113f601d46dd1f9e7c20b99c7d5fabc4a4bfad"
+    },
+    {
+      "file": "H-ZY-001.json",
+      "sha256_before": "9e294fa5b73c80cbc3035feda5611e90f6a9fd1c0eacf4003b7597c1213fde0b",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "张仪",
+          "evidence": "figure_name_zh='张仪'"
+        }
+      ],
+      "sha256_after": "86f4c6f198909f019754f71fc8610a36f1b5baa14596599855390640b8f99dcc"
+    },
+    {
+      "file": "H-ZZJ-001.json",
+      "sha256_before": "8c990ec8d746bf84dfcb6a77975f32bec991e4d4719356c78c78fe3b1931aa51",
+      "changes": [
+        {
+          "field": "figure_name",
+          "old": null,
+          "new": "张仲景",
+          "evidence": "figure_name_zh='张仲景'"
+        }
+      ],
+      "sha256_after": "301f8f28ecb48027535bfc9cc39e825a7f43d490a6033235cc49db6807612d1a"
+    },
+    {
+      "file": "H-ZZT-001.json",
+      "sha256_before": "4aa429a2819fc0600c25de2f0233ba5e4d2eb8ff0ce9fee0ca8ff4155e20dcef",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZuoZongtang",
+          "new": "H-ZZT-001",
+          "evidence": "文件名主干='H-ZZT-001'; id='H-ZZT-001'; code='ZZT'"
+        },
+        {
+          "field": "code",
+          "old": "ZZT",
+          "new": "ZZT",
+          "evidence": "文件名主干='H-ZZT-001'; id='H-ZZT-001'; code='ZZT'"
+        }
+      ],
+      "sha256_after": "3e0443a5f79d4403bbc9f6d719bcfe14eecc9016711308554d75a490945243df"
+    },
+    {
+      "file": "H-ZengGuoFan-001.json",
+      "sha256_before": "0902685e8752e57008fa30f2c39b046b77d9e3464bcd6f0d114066580b21d291",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZengGuoFan",
+          "new": "H-ZengGuoFan-001",
+          "evidence": "文件名主干='H-ZengGuoFan-001'; id='H-ZENGGUOF-001'; code='ZengGuoFan'"
+        },
+        {
+          "field": "code",
+          "old": "ZengGuoFan",
+          "new": "ZengGuoFan",
+          "evidence": "文件名主干='H-ZengGuoFan-001'; id='H-ZENGGUOF-001'; code='ZengGuoFan'"
+        }
+      ],
+      "sha256_after": "d1615ab9bfe189275fc29f77c1e0c2f33b396bc41832af52c98f73e7456eea56"
+    },
+    {
+      "file": "H-ZhangQian-001.json",
+      "sha256_before": "66b40d6ab6998d6b397499d9c04317f22d849f74dd4b82b910a3d19221cd5144",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZhangQian",
+          "new": "H-ZhangQian-001",
+          "evidence": "文件名主干='H-ZhangQian-001'; id='H-ZHANGQ-001'; code='ZhangQian'"
+        },
+        {
+          "field": "code",
+          "old": "ZhangQian",
+          "new": "ZhangQian",
+          "evidence": "文件名主干='H-ZhangQian-001'; id='H-ZHANGQ-001'; code='ZhangQian'"
+        }
+      ],
+      "sha256_after": "a71bd009406cfc8c65f48709106d8c756e78dcf987d57032228e9a4c1a219788"
+    },
+    {
+      "file": "H-ZhouEnLai-001.json",
+      "sha256_before": "7dfd151c5bf71c98a36580e4bfc205cca4a8ff2fdb83c035955add6b9d213669",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZhouEnLai",
+          "new": "H-ZhouEnLai-001",
+          "evidence": "文件名主干='H-ZhouEnLai-001'; id='H-ZHOUENLA-001'; code='ZhouEnLai'"
+        },
+        {
+          "field": "code",
+          "old": "ZhouEnLai",
+          "new": "ZhouEnLai",
+          "evidence": "文件名主干='H-ZhouEnLai-001'; id='H-ZHOUENLA-001'; code='ZhouEnLai'"
+        }
+      ],
+      "sha256_after": "27420f49830a03ea517cf5cd0708ac94ee0200094cf93ce3f8e547e63b824c9d"
+    },
+    {
+      "file": "H-ZhuYuanZhang-001.json",
+      "sha256_before": "31d5d6b93d545afd8f13eb5ea66b7efb2bfd7a50ebab69aa37f07315e87ad500",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZhuYuanZhang",
+          "new": "H-ZhuYuanZhang-001",
+          "evidence": "文件名主干='H-ZhuYuanZhang-001'; id='H-ZHUYUANZ-001'; code='ZhuYuanZhang'"
+        },
+        {
+          "field": "code",
+          "old": "ZhuYuanZhang",
+          "new": "ZhuYuanZhang",
+          "evidence": "文件名主干='H-ZhuYuanZhang-001'; id='H-ZHUYUANZ-001'; code='ZhuYuanZhang'"
+        }
+      ],
+      "sha256_after": "e94f5b5bbd96823fd59d7c767c87d2c6f9bc58bdc3bd77f0bc0312b7b6d13241"
+    },
+    {
+      "file": "H-ZhuangZi-001.json",
+      "sha256_before": "b5eb04c8fbbeba30abbda06c621ddb10e89b449f7155180318f44b6836e250ff",
+      "changes": [
+        {
+          "field": "figure_code",
+          "old": "ZhuangZi",
+          "new": "H-ZhuangZi-001",
+          "evidence": "文件名主干='H-ZhuangZi-001'; id='H-ZHUANGZI-001'; code='ZhuangZi'"
+        },
+        {
+          "field": "code",
+          "old": "ZhuangZi",
+          "new": "ZhuangZi",
+          "evidence": "文件名主干='H-ZhuangZi-001'; id='H-ZHUANGZI-001'; code='ZhuangZi'"
+        }
+      ],
+      "sha256_after": "909bf6e1d97980441f334fe7fac68d87422593ec52ce4570013a0b56136fdd2a"
+    }
+  ],
+  "archived": [
+    {
+      "file": "H-Bach-001.json",
+      "to": "data/figures/_duplicates/H-Bach-001.json",
+      "reason": "全部取值键都被保留者覆盖(H-BAC-001, Bach), 可安全归档",
+      "sha256": "d8c9b9af7ba55cc2837619ad608b07084172fce24e6bee87e2705247b7e5dd4c"
+    },
+    {
+      "file": "H-DaVinci-001.json",
+      "to": "data/figures/_duplicates/H-DaVinci-001.json",
+      "reason": "全部取值键都被保留者覆盖(H-DAV-001, DaVinci), 可安全归档",
+      "sha256": "739612108b7f3fed89da2db544574d7bcc43aadb417a3d550efec2c6985d9b6c"
+    },
+    {
+      "file": "H-Euler-001.json",
+      "to": "data/figures/_duplicates/H-Euler-001.json",
+      "reason": "全部取值键都被保留者覆盖(EUL, H-EUL-001, Euler), 可安全归档",
+      "sha256": "9f71c71a3050f0cf3b35c653e7d35bf06b8dc3ee32c7bc50938c04263ef47327"
+    },
+    {
+      "file": "H-Feynman-001.json",
+      "to": "data/figures/_duplicates/H-Feynman-001.json",
+      "reason": "全部取值键都被保留者覆盖(FEYNMAN, H-FEYNMAN-001, Feynman), 可安全归档",
+      "sha256": "ac2cc0a6df0bbff36acb87aa9a3b05ce6b32e32b68bcc79933ba94bf70aa6766"
+    },
+    {
+      "file": "H-Gauss-001.json",
+      "to": "data/figures/_duplicates/H-Gauss-001.json",
+      "reason": "全部取值键都被保留者覆盖(GAU, H-GAU-001, Gauss), 可安全归档",
+      "sha256": "e430de9d2b00e474509eba8ff17471dbb26b76c85b9122fff0dc623111c8c0a2"
+    },
+    {
+      "file": "H-Hawking-001.json",
+      "to": "data/figures/_duplicates/H-Hawking-001.json",
+      "reason": "全部取值键都被保留者覆盖(HAWKING, H-HAWKING-001, Hawking), 可安全归档",
+      "sha256": "58283f427a06d6ad032d939c4d9f3a19c6312919be098b366231f0bb7845be45"
+    },
+    {
+      "file": "H-Heisenberg-001.json",
+      "to": "data/figures/_duplicates/H-Heisenberg-001.json",
+      "reason": "全部取值键都被保留者覆盖(HEISENBERG, H-HEISENBERG-001, Heisenberg), 可安全归档",
+      "sha256": "b88d3d8183c9b6f1f439124e83da1f946533835cbbfe1da48e9808be29cfe4d0"
+    },
+    {
+      "file": "H-Hippocrates-001.json",
+      "to": "data/figures/_duplicates/H-Hippocrates-001.json",
+      "reason": "全部取值键都被保留者覆盖(HIPPOCRA, H-HIPPOCRA-001, Hippocrates), 可安全归档",
+      "sha256": "19c6d425b8674abc5a51bbf20d068a84154b8728609ac33529bb680df57bb84d"
+    },
+    {
+      "file": "H-LiShiMin-001.json",
+      "to": "data/figures/_duplicates/H-LiShiMin-001.json",
+      "reason": "全部取值键都被保留者覆盖(LISHIMIN, H-LISHIMIN-001, LiShiMin), 可安全归档",
+      "sha256": "4b135244546c19e7b0434ba8bae2c07396425facb5f3c3cae0a6a839f9f505e4"
+    },
+    {
+      "file": "H-MarcoPolo-001.json",
+      "to": "data/figures/_duplicates/H-MarcoPolo-001.json",
+      "reason": "全部取值键都被保留者覆盖(MARCOPOL, H-MARCOPOL-001, MarcoPolo), 可安全归档",
+      "sha256": "6dc2c3fc992dbfaf627bd6309cb199fab53ee7e2ff7c7ebd52416faf7caec4bb"
+    },
+    {
+      "file": "H-Nobel-001.json",
+      "to": "data/figures/_duplicates/H-Nobel-001.json",
+      "reason": "全部取值键都被保留者覆盖(NOB, H-NOB-001, Nobel), 可安全归档",
+      "sha256": "880b1ca5056e842474e5f02c1d3f058c1e4d46c0ab253e0c54994605d979932d"
+    },
+    {
+      "file": "H-SJL-001.json",
+      "to": "data/figures/_duplicates/H-SJL-001.json",
+      "reason": "全部取值键都被保留者覆盖(SHA, H-SHA-001, Shankara), 可安全归档",
+      "sha256": "7a39d21538a7b7ad8bdf078568bf978ec70f873e6be1d56d8c2f408c7f73d3f6"
+    },
+    {
+      "file": "H-Tokugawa-001.json",
+      "to": "data/figures/_duplicates/H-Tokugawa-001.json",
+      "reason": "全部取值键都被保留者覆盖(TOKUGAWA, H-TOKUGAWA-001, Tokugawa), 可安全归档",
+      "sha256": "ca7112f15a51bbcaddfa86b4c968741f7db3495f3a386e2972beb189dcdfcb16"
+    },
+    {
+      "file": "H-Watt-001.json",
+      "to": "data/figures/_duplicates/H-Watt-001.json",
+      "reason": "全部取值键都被保留者覆盖(WAT, H-WAT-001, Watt), 可安全归档",
+      "sha256": "5f34958a1210b08ab74e7950fe0ff81c769185c36e66a4b13cbf9313ffa1e5b2"
+    },
+    {
+      "file": "H-WY-001.json",
+      "to": "data/figures/_duplicates/H-WY-001.json",
+      "reason": "全部取值键都被保留者覆盖(H-WYM-001), 可安全归档",
+      "sha256": "af7ceae626471e7f9f7595cfa8ef76dc20378c90f826a0929ead1b6db28b4ccb"
+    },
+    {
+      "file": "H-XuGuangQi-001.json",
+      "to": "data/figures/_duplicates/H-XuGuangQi-001.json",
+      "reason": "全部取值键都被保留者覆盖(XUGUANGQ, H-XUGUANGQ-001, XuGuangQi), 可安全归档",
+      "sha256": "f61784c74ad044b694e268c75be6c4a82580dd7c364efb6a8ee752c6182795ee"
+    },
+    {
+      "file": "H-ZS-001.json",
+      "to": "data/figures/_duplicates/H-ZS-001.json",
+      "reason": "全部取值键都被保留者覆盖(H-ZX-001, 春秋), 可安全归档",
+      "sha256": "697922d0722e150e29ab03036b09e940f331ece0c9f8b6fc7d3ae183ff0c18b4"
+    }
+  ],
+  "deferred": [
+    {
+      "file": "H-DZS-001_modes.json",
+      "class": "empty_name",
+      "reason": "figure_name 缺失或为空"
+    },
+    {
+      "file": "H-HZX-001_modes.json",
+      "class": "empty_name",
+      "reason": "figure_name 缺失或为空"
+    },
+    {
+      "file": "H-ZX-001_modes.json",
+      "class": "empty_name",
+      "reason": "figure_name 缺失或为空"
+    },
+    {
+      "file": "H-YE-001.json",
+      "class": "name_mismatch",
+      "reason": "正文首名 '现代中国政治思考家' 与声明名 '叶筱' 不一致"
+    },
+    {
+      "file": "H-MarieCurie-001.json",
+      "class": "duplicate",
+      "reason": "其取值键 ['MarieCurie'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理"
+    },
+    {
+      "file": "H-SQ-001.json",
+      "class": "duplicate",
+      "reason": "其取值键 ['H-SQ-001'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理"
+    },
+    {
+      "file": "H-WeiQing-001.json",
+      "class": "duplicate",
+      "reason": "其取值键 ['WeiQing'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理"
+    }
+  ],
+  "skipped": [
+    {
+      "file": "H-WAT-001.json",
+      "field": "figure_code",
+      "reason": "取值键 ['WAT', 'Watt'] 同时被模式引用, code 字段只装得下一处 -> 跳过本文件(改 fc 必丢引用), 待人工"
+    }
+  ]
+}

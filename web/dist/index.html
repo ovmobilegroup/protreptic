@@ -3,10 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Protreptic - 历史人物思维模式库</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <script type="module" crossorigin src="/assets/index-DhuN4bel.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-0_7iAHxO.css">
+    <title>Protreptic · 思想典藏 — 历史人物思维模式库</title>
+    <!-- 站点计数口径：条数 / 人物数的唯一取数入口是 tools/site_counts.py
+         （读部署产物 data/meta.json 的 counts.mode_summaries_published 与
+         counts.mode_by_figure_shards；源记录数与含隔离条目的去重数只是内部计数键，
+         不做门面文案）。
+         构建期 tools/apply_site_counts.py 用它覆写下面两条 meta，并顺带收口两份 PWA
+         manifest 与 docs 产品页；本文件里的数字只是兜底占位，别手改这里。 -->
+    <meta name="description"
+          content="2848 条思维模式 × 283 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。" />
+    <meta name="theme-color" content="#04060c" id="pt-theme-color" />
+    <meta name="color-scheme" content="dark light" />
+
+    <!-- 社交分享 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Protreptic · 思想典藏" />
+    <meta property="og:description" content="2848 条思维模式 × 283 位历史人物 · 中英双语" />
+    <meta property="og:image" content="https://ovmobilegroup.github.io/protreptic/og/site.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Protreptic 思想典藏 — 历史人物思维模式库" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://ovmobilegroup.github.io/protreptic/og/site.png" />
+    <meta name="twitter:image:alt" content="Protreptic 思想典藏 — 历史人物思维模式库" />
+
+    <link rel="icon" type="image/svg+xml" href="/protreptic/favicon.svg" />
+
+    <!-- Phase30-A4: PWA —— manifest（图标/名称/主题色）、iOS 主屏图标。
+         两个 manifest 只有 theme_color / background_color 不同：静态托管没有服务端，
+         浅色模式下由 useTheme 切换 <link rel="manifest"> 的 href。 -->
+    <link rel="manifest" href="/protreptic/manifest.webmanifest" id="pt-manifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/protreptic/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="思想典藏" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- 首屏：在读 localStorage 之前先定主题，避免闪白/闪黑 -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('protreptic-theme')
+          if (t === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light')
+            document.documentElement.style.background = '#f8f5f0'
+            // 浅色主题：窗口主题色与 manifest 也要一起切（值必须与 useTheme 一致）
+            var m = document.getElementById('pt-theme-color')
+            if (m) m.setAttribute('content', '#f8f5f0')
+            var l = document.getElementById('pt-manifest')
+            if (l) {
+              var base = document.baseURI.replace(/[^/]*$/, '')
+              l.setAttribute('href', base + 'manifest-light.webmanifest')
+            }
+          }
+        } catch (e) {}
+      })()
+    </script>
+
+    <!-- 首屏防白闪：与主题同色的底色 -->
+    <style>
+      html, body { margin: 0; background: #04060c; }
+      html[data-theme='light'], html[data-theme='light'] body { background: #f8f5f0; }
+      #app:empty::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background:
+          radial-gradient(1100px 600px at 12% -8%, rgba(212,162,76,.10), transparent 60%),
+          radial-gradient(900px 520px at 92% 6%, rgba(94,234,212,.07), transparent 55%);
+      }
+    </style>
+
+    <!-- 访问统计 Phase45-A: 本文件不含统计脚本, 脚本由构建期开关注入。
+         开关有值 -> 构建产物 head 里多出一行第三方计数脚本;
+         开关缺省 (当前状态) -> 一个字节都不注入, 线上不加载任何统计脚本。
+         开关落点 / 注册 / 填值 / 本地验证 / 回滚步骤见 docs/community/analytics_setup.md
+         本注释刻意不写厂商名: 构建产物里出现该名即等于脚本已注入, 便于 grep 验收。 -->
+    <script type="module" crossorigin src="/protreptic/assets/index-CALgjOtJ.js"></script>
+    <link rel="stylesheet" crossorigin href="/protreptic/assets/index-uLX7QpAY.css">
+      <script data-goatcounter="https://protreptic.goatcounter.com/count" async src="/protreptic/count.js"></script>
   </head>
   <body>
     <div id="app"></div>

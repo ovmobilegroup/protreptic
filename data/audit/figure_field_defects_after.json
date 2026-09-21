@@ -1,0 +1,1196 @@
+{
+  "schema": "protreptic.figure_field_defects/v1",
+  "generated_at": "2026-09-21T10:38:43+00:00",
+  "generator": "tools/audit_figure_fields.py",
+  "card": "t_e3f8cf8f",
+  "scope": {
+    "figures_dir": "data/figures",
+    "json_total": 330,
+    "figure_files": 302,
+    "companion_modes_files": 28,
+    "mode_records": 2868,
+    "mode_distinct_figure_code": 284
+  },
+  "canonical_rule": {
+    "figure_code": "等于文件名主干 H-<CODE>-001(与 id 及根 modes_data.json 的 figure code 同形)",
+    "figure_name": "非空中文人名, 且必须与文件内正文/拼音/英文名/id 锚点一致",
+    "note": "改动 figure_code 时, 若旧值仍被模式引用, 必须把旧值保留在 code 字段(取值键不丢)"
+  },
+  "class_counts": {
+    "empty_name": 3,
+    "bad_figure_code": 1,
+    "name_mismatch": 33,
+    "duplicate": 3
+  },
+  "defects": [
+    {
+      "file": "H-DZS-001_modes.json",
+      "figure_name": null,
+      "figure_code": "H-DZS",
+      "code": null,
+      "defect_class": "empty_name",
+      "detail": "figure_name 缺失或为空",
+      "in_file_name": "",
+      "in_file_field": "",
+      "body_lead": "",
+      "mode_side_name": null,
+      "evidence": "伴随模式包(非 figure 文件), 不进 figure_name 回填范围",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-HZX-001_modes.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": "H-HZX-001",
+      "defect_class": "empty_name",
+      "detail": "figure_name 缺失或为空",
+      "in_file_name": "黄宗羲",
+      "in_file_field": "figure_name_zh",
+      "body_lead": "",
+      "mode_side_name": "黄宗羲",
+      "evidence": "伴随模式包(非 figure 文件), 不进 figure_name 回填范围",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-ZX-001_modes.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": "H-ZX-001",
+      "defect_class": "empty_name",
+      "detail": "figure_name 缺失或为空",
+      "in_file_name": "曾子：慎独自省·修齐治平·道统传承",
+      "in_file_field": "name_zh",
+      "body_lead": "",
+      "mode_side_name": null,
+      "evidence": "伴随模式包(非 figure 文件), 不进 figure_name 回填范围",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-WAT-001.json",
+      "figure_name": "瓦特",
+      "figure_code": "Watt",
+      "code": "WAT",
+      "defect_class": "bad_figure_code",
+      "detail": "figure_code='Watt' 非规范(应为 'H-WAT-001'); 子类=person_name_anchor",
+      "subtype": "person_name_anchor",
+      "mode_refs": 10,
+      "preserve_alias": "Watt",
+      "evidence": "文件名主干='H-WAT-001'; id='H-WAT-001'; code='WAT'",
+      "proposed_fix": {
+        "field": "figure_code",
+        "value": "H-WAT-001",
+        "alias_field": "code",
+        "alias_value": "Watt"
+      },
+      "status": "fixable"
+    },
+    {
+      "file": "H-ASM-001.json",
+      "figure_name": "亚当·斯密",
+      "figure_code": "H-ASM-001",
+      "code": "H-ASM-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '亚当·斯密' 与声明名 '亚当·斯密' 不一致",
+      "evidence": "historical_significance 首名='亚当·斯密'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-CHB-001.json",
+      "figure_name": "陈伯达",
+      "figure_code": "H-CHB-001",
+      "code": "H-CHB-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '中共四大笔杆子之一' 与声明名 '陈伯达' 不一致",
+      "evidence": "historical_significance 首名='中共四大笔杆子之一'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-CUR-001.json",
+      "figure_name": "居里夫人",
+      "figure_code": "H-CUR-001",
+      "code": "H-CUR-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '两度获诺贝尔奖' 与声明名 '居里夫人' 不一致",
+      "evidence": "historical_significance 首名='两度获诺贝尔奖'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-Cyrus-001.json",
+      "figure_name": "居鲁士大帝",
+      "figure_code": "H-Cyrus-001",
+      "code": "Cyrus",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '居鲁士二世' 与声明名 '居鲁士大帝' 不一致",
+      "evidence": "historical_significance 首名='居鲁士二世'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-DZS-001.json",
+      "figure_name": "董仲舒",
+      "figure_code": "H-DZS-001",
+      "code": null,
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '汉代第一大儒' 与声明名 '董仲舒' 不一致",
+      "evidence": "historical_significance 首名='汉代第一大儒'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-EIN-001.json",
+      "figure_name": "爱因斯坦",
+      "figure_code": "H-EIN-001",
+      "code": "H-EIN-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '相对论的奠基人' 与声明名 '爱因斯坦' 不一致",
+      "evidence": "historical_significance 首名='相对论的奠基人'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-ERA-001.json",
+      "figure_name": "伊拉斯谟",
+      "figure_code": "H-ERA-001",
+      "code": "H-ERA-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '北方文艺复兴的旗手' 与声明名 '伊拉斯谟' 不一致",
+      "evidence": "historical_significance 首名='北方文艺复兴的旗手'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-ElizabethI-001.json",
+      "figure_name": "伊丽莎白一世",
+      "figure_code": "H-ElizabethI-001",
+      "code": "ElizabethI",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '伊丽莎白·都铎' 与声明名 '伊丽莎白一世' 不一致",
+      "evidence": "historical_significance 首名='伊丽莎白·都铎'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-FRE-001.json",
+      "figure_name": "弗洛伊德",
+      "figure_code": "H-FRE-001",
+      "code": "H-FRE-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '精神分析学的创始人' 与声明名 '弗洛伊德' 不一致",
+      "evidence": "historical_significance 首名='精神分析学的创始人'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-GAL-001.json",
+      "figure_name": "盖伦",
+      "figure_code": "H-GAL-001",
+      "code": "H-GAL-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '古代医学的集大成者' 与声明名 '盖伦' 不一致",
+      "evidence": "historical_significance 首名='古代医学的集大成者'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-HAR-001.json",
+      "figure_name": "哈维",
+      "figure_code": "H-HAR-001",
+      "code": "H-HAR-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '血液循环的发现者' 与声明名 '哈维' 不一致",
+      "evidence": "historical_significance 首名='血液循环的发现者'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-IBR-001.json",
+      "figure_name": "伊本·鲁世德",
+      "figure_code": "H-IBR-001",
+      "code": "H-IBR-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '伊本·鲁世德' 与声明名 '伊本·鲁世德' 不一致",
+      "evidence": "historical_significance 首名='伊本·鲁世德'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-ISA-001.json",
+      "figure_name": "伊莎贝拉一世",
+      "figure_code": "H-ISA-001",
+      "code": "ISA",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '卡斯蒂利亚女王' 与声明名 '伊莎贝拉一世' 不一致",
+      "evidence": "historical_significance 首名='卡斯蒂利亚女王'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-ISN-001.json",
+      "figure_name": "伊本·西那",
+      "figure_code": "H-ISN-001",
+      "code": "H-ISN-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '伊本·西那' 与声明名 '伊本·西那' 不一致",
+      "evidence": "historical_significance 首名='伊本·西那'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-LH-001.json",
+      "figure_name": "利德尔·哈特",
+      "figure_code": "H-LH-001",
+      "code": "H-LH-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '利德尔·哈特' 与声明名 '利德尔·哈特' 不一致",
+      "evidence": "historical_significance 首名='利德尔·哈特'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-LUT-001.json",
+      "figure_name": "路德",
+      "figure_code": "H-LUT-001",
+      "code": "H-LUT-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '宗教改革的发动者' 与声明名 '路德' 不一致",
+      "evidence": "historical_significance 首名='宗教改革的发动者'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-MAR-001.json",
+      "figure_name": "马可·奥勒留",
+      "figure_code": "H-MAR-001",
+      "code": "MAR",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '马可·奥勒留' 与声明名 '马可·奥勒留' 不一致",
+      "evidence": "historical_significance 首名='马可·奥勒留'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-MDL-001.json",
+      "figure_name": "德米特里·门捷列夫",
+      "figure_code": "H-MDL-001",
+      "code": "MDL",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '德米特里·门捷列夫' 与声明名 '德米特里·门捷列夫' 不一致",
+      "evidence": "historical_significance 首名='德米特里·门捷列夫'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-MO-001.json",
+      "figure_name": "墨子",
+      "figure_code": "H-MO-001",
+      "code": "H-MO-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '战国初期鲁国' 与声明名 '墨子' 不一致",
+      "evidence": "historical_significance 首名='战国初期鲁国'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-MUS-001.json",
+      "figure_name": "曼萨·穆萨",
+      "figure_code": "H-MUS-001",
+      "code": "MUS",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '马里帝国第九位曼萨' 与声明名 '曼萨·穆萨' 不一致",
+      "evidence": "historical_significance 首名='马里帝国第九位曼萨'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-MartinLuther-001.json",
+      "figure_name": "马丁·路德",
+      "figure_code": "H-MartinLuther-001",
+      "code": "MartinLuther",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '马丁·路德' 与声明名 '马丁·路德' 不一致",
+      "evidence": "historical_significance 首名='马丁·路德'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-RFR-001.json",
+      "figure_name": "富兰克林(女)",
+      "figure_code": "H-RFR-001",
+      "code": "RFR",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '把纤维' 与声明名 '富兰克林(女)' 不一致",
+      "evidence": "historical_significance 首名='把纤维'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-SAD-001.json",
+      "figure_name": "萨达特",
+      "figure_code": "H-SAD-001",
+      "code": "SAD",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '埃及总统' 与声明名 '萨达特' 不一致",
+      "evidence": "historical_significance 首名='埃及总统'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-SC-001.json",
+      "figure_name": "薛定谔",
+      "figure_code": "H-SC-001",
+      "code": "SC",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '波动力学的缔造者' 与声明名 '薛定谔' 不一致",
+      "evidence": "historical_significance 首名='波动力学的缔造者'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-SEJ-001.json",
+      "figure_name": "世宗大王",
+      "figure_code": "H-SEJ-001",
+      "code": "SEJ",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '李裪' 与声明名 '世宗大王' 不一致",
+      "evidence": "historical_significance 首名='李裪'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-SQ-001.json",
+      "figure_name": "司马迁",
+      "figure_code": "H-SQ-001",
+      "code": "H-SQ-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '中国史学奠基人' 与声明名 '司马迁' 不一致",
+      "evidence": "historical_significance 首名='中国史学奠基人'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-SUL-001.json",
+      "figure_name": "苏莱曼大帝",
+      "figure_code": "H-SUL-001",
+      "code": "SUL",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '苏莱曼一世' 与声明名 '苏莱曼大帝' 不一致",
+      "evidence": "historical_significance 首名='苏莱曼一世'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-TLS-001.json",
+      "figure_name": "列夫·托尔斯泰",
+      "figure_code": "H-TLS-001",
+      "code": "TLS",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '列夫·托尔斯泰' 与声明名 '列夫·托尔斯泰' 不一致",
+      "evidence": "historical_significance 首名='列夫·托尔斯泰'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-VNY-001.json",
+      "figure_name": "冯·诺依曼",
+      "figure_code": "H-VNY-001",
+      "code": "H-VNY-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '冯·诺依曼' 与声明名 '冯·诺依曼' 不一致",
+      "evidence": "historical_significance 首名='冯·诺依曼'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-VYG-001.json",
+      "figure_name": "维果茨基",
+      "figure_code": "H-VYG-001",
+      "code": "VYG",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '俄国与苏联心理学家' 与声明名 '维果茨基' 不一致",
+      "evidence": "historical_significance 首名='俄国与苏联心理学家'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-WC-001.json",
+      "figure_name": "王充",
+      "figure_code": "H-WC-001",
+      "code": "H-WC-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '东汉唯物主义思想家' 与声明名 '王充' 不一致",
+      "evidence": "historical_significance 首名='东汉唯物主义思想家'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-WrightBrothers-001.json",
+      "figure_name": "莱特兄弟",
+      "figure_code": "H-WrightBrothers-001",
+      "code": "WrightBrothers",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '威尔伯·莱特' 与声明名 '莱特兄弟' 不一致",
+      "evidence": "historical_significance 首名='威尔伯·莱特'",
+      "proposed_fix": null,
+      "status": "false_positive",
+      "verdict": "非缺陷: 正文首句为身份描述语(如 两度获诺贝尔奖 / 精神分析学的创始人 等), 不是人名; 或为同一人的写法变体(如 居鲁士大帝 / 居鲁士二世)"
+    },
+    {
+      "file": "H-YE-001.json",
+      "figure_name": "叶筱",
+      "figure_code": "H-YE-001",
+      "code": "H-YE-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '现代中国政治思考家' 与声明名 '叶筱' 不一致",
+      "evidence": "historical_significance 首名='现代中国政治思考家'",
+      "proposed_fix": null,
+      "status": "needs_human",
+      "verdict": "name='叶筱', 正文只有泛泛描述 (birth/death=1900/1975 无出处) -> 不改, 待人工核名"
+    },
+    {
+      "file": "H-MarieCurie-001.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": null,
+      "defect_class": "duplicate",
+      "detail": "与 H-CUR-001.json 为同一人物(confirmed); 处置=defer",
+      "evidence": "其取值键 ['MarieCurie'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-SQ-001.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": null,
+      "defect_class": "duplicate",
+      "detail": "与 H-SMQ-001.json 为同一人物(confirmed); 处置=defer",
+      "evidence": "其取值键 ['H-SQ-001'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-WeiQing-001.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": null,
+      "defect_class": "duplicate",
+      "detail": "与 H-SUN-001.json 为同一人物(name-match-years-differ); 处置=defer",
+      "evidence": "其取值键 ['WeiQing'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理",
+      "proposed_fix": null,
+      "status": "needs_human"
+    }
+  ],
+  "duplicates": [
+    {
+      "group_keys": [
+        [
+          "zh",
+          "居里夫人"
+        ]
+      ],
+      "verdict": "confirmed",
+      "identical_files": false,
+      "same_years": true,
+      "members": [
+        {
+          "file": "H-CUR-001.json",
+          "size": 89375,
+          "keys": 20,
+          "sha256": "f87884f968bf762b233c91f24f0b67176382663b4701746f8b372674847257fb",
+          "years": [
+            1867,
+            1934
+          ],
+          "years_key": "1867|1934",
+          "has_modes": true,
+          "aliases": [
+            "H-CUR-001"
+          ],
+          "figure_name": "居里夫人",
+          "figure_code": "H-CUR-001",
+          "code": "H-CUR-001"
+        },
+        {
+          "file": "H-MarieCurie-001.json",
+          "size": 8452,
+          "keys": 27,
+          "sha256": "66d771fcc2d779a32aa32ffdcc40c588f1780755b2a588b3adcb5cc69fe68d89",
+          "years": [
+            "1867",
+            "1934"
+          ],
+          "years_key": "1867|1934",
+          "has_modes": false,
+          "aliases": [
+            "MarieCurie",
+            "H-MARIECUR-001",
+            "H-MarieCurie-001"
+          ],
+          "figure_name": "居里夫人",
+          "figure_code": "H-MarieCurie-001",
+          "code": "MarieCurie"
+        }
+      ],
+      "survivor": "H-CUR-001.json",
+      "redundants": [
+        {
+          "file": "H-MarieCurie-001.json",
+          "unique_aliases": [
+            "MarieCurie",
+            "H-MARIECUR-001",
+            "H-MarieCurie-001"
+          ],
+          "mode_referenced_aliases": [
+            "MarieCurie"
+          ],
+          "action": "defer",
+          "reason": "其取值键 ['MarieCurie'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理"
+        }
+      ]
+    },
+    {
+      "group_keys": [
+        [
+          "zh",
+          "司马迁"
+        ]
+      ],
+      "verdict": "confirmed",
+      "identical_files": false,
+      "same_years": true,
+      "members": [
+        {
+          "file": "H-SMQ-001.json",
+          "size": 20168,
+          "keys": 31,
+          "sha256": "0332a24d6ed123cb7219ee9ec4d1070e3800befb7560118a09abf3f9d353a400",
+          "years": [
+            -145,
+            -86
+          ],
+          "years_key": "145|86",
+          "has_modes": true,
+          "aliases": [
+            "H-SMQ-001"
+          ],
+          "figure_name": "司马迁",
+          "figure_code": "H-SMQ-001",
+          "code": "H-SMQ-001"
+        },
+        {
+          "file": "H-SQ-001.json",
+          "size": 17546,
+          "keys": 20,
+          "sha256": "65fd65897d9cc6b022b6b1364af27d0497b1887dee248476519b0b25301d025c",
+          "years": [
+            -145,
+            -86
+          ],
+          "years_key": "145|86",
+          "has_modes": true,
+          "aliases": [
+            "H-SQ-001"
+          ],
+          "figure_name": "司马迁",
+          "figure_code": "H-SQ-001",
+          "code": "H-SQ-001"
+        }
+      ],
+      "survivor": "H-SMQ-001.json",
+      "redundants": [
+        {
+          "file": "H-SQ-001.json",
+          "unique_aliases": [
+            "H-SQ-001"
+          ],
+          "mode_referenced_aliases": [
+            "H-SQ-001"
+          ],
+          "action": "defer",
+          "reason": "其取值键 ['H-SQ-001'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理"
+        }
+      ]
+    },
+    {
+      "group_keys": [
+        [
+          "zh",
+          "孙权"
+        ]
+      ],
+      "verdict": "name-match-years-differ",
+      "identical_files": false,
+      "same_years": false,
+      "members": [
+        {
+          "file": "H-SUN-001.json",
+          "size": 6729,
+          "keys": 24,
+          "sha256": "19f675972747667cca29f724c77d7aa95f6c3b2848a4ca8298cb4bc20dfd5347",
+          "years": [
+            183,
+            252
+          ],
+          "years_key": "183|252",
+          "has_modes": false,
+          "aliases": [
+            "H-SUN-001"
+          ],
+          "figure_name": "孙权",
+          "figure_code": "H-SUN-001",
+          "code": "H-SUN-001"
+        },
+        {
+          "file": "H-WeiQing-001.json",
+          "size": 3982,
+          "keys": 22,
+          "sha256": "1cabbc28bf47a51612d7a4c60a36120254bb6f85827e511d863ddb0474cd5dce",
+          "years": [
+            "182",
+            "234"
+          ],
+          "years_key": "182|234",
+          "has_modes": true,
+          "aliases": [
+            "WeiQing",
+            "H-WeiQing-001"
+          ],
+          "figure_name": "孙权",
+          "figure_code": "H-WeiQing-001",
+          "code": "WeiQing"
+        }
+      ],
+      "survivor": "H-SUN-001.json",
+      "redundants": [
+        {
+          "file": "H-WeiQing-001.json",
+          "unique_aliases": [
+            "WeiQing",
+            "H-WeiQing-001"
+          ],
+          "mode_referenced_aliases": [
+            "WeiQing"
+          ],
+          "action": "defer",
+          "reason": "其取值键 ['WeiQing'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理"
+        }
+      ]
+    }
+  ],
+  "companion_modes_files": [
+    {
+      "file": "H-DRK-001_modes.json",
+      "figure_code": "H-DRK-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-DYC-001_modes.json",
+      "figure_code": "Modern",
+      "code": "H-DYC-001",
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-DZS-001_modes.json",
+      "figure_code": "H-DZS",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-FXT-001_modes.json",
+      "figure_code": "H-FXT-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-GHZ-163_modes.json",
+      "figure_code": "H-GHZ-163",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-HEG-001_modes.json",
+      "figure_code": "H-HEG-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-HFZ-001_modes.json",
+      "figure_code": "HanFeiDocs",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-HZX-001_modes.json",
+      "figure_code": null,
+      "code": "H-HZX-001",
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-HZX-002_modes.json",
+      "figure_code": "H",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-IBR-001_modes.json",
+      "figure_code": "H-IBR-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-INM-001_modes.json",
+      "figure_code": "H-INM-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-JBS-001_modes.json",
+      "figure_code": "H-JBS-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-JSX-001_modes.json",
+      "figure_code": "H-JSX-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-KD-001_modes.json",
+      "figure_code": "H-KD-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-LSZ-001_modes.json",
+      "figure_code": "H-LSZ-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-MKS-001_modes.json",
+      "figure_code": "H-MKS-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-MZ-001_modes.json",
+      "figure_code": "战国",
+      "code": "H-MZ-001",
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-ONO-001_modes.json",
+      "figure_code": "H-ONO-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-SJL-001_modes.json",
+      "figure_code": "H-SJL-001",
+      "code": null,
+      "main_file_exists": false,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-SK-001_modes.json",
+      "figure_code": "H-SK-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-SQIN-001_modes.json",
+      "figure_code": "H-SQIN-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-TLY-001_modes.json",
+      "figure_code": "H-TLY-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-VNY-001_modes.json",
+      "figure_code": "H-VNY-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-WC-001_modes.json",
+      "figure_code": "H-WC-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-XN-001_modes.json",
+      "figure_code": "H-XN-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-ZX-001_modes.json",
+      "figure_code": null,
+      "code": "H-ZX-001",
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-ZY-001_modes.json",
+      "figure_code": "H-ZY-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    },
+    {
+      "file": "H-ZZJ-001_modes.json",
+      "figure_code": "H-ZZJ-001",
+      "code": null,
+      "main_file_exists": true,
+      "note": "仓库既有约定: tools/credibility_gate.py 的 figure_key_candidates / load_figure_lifespans 显式支持 <stem>_modes.json 伴随文件(主文件先, 伴随包后) -> 不算文件名异常, 本卡不改名"
+    }
+  ],
+  "observations": [
+    {
+      "file": "H-HAN-001.json",
+      "kind": "suspect-name",
+      "note": "name='沈幅'/en='Shen Fu' 与生卒年 -100~180 三者互不吻合; 疑似沈复(清,1763-1830) 但文件内无证据 -> 不改名, 进待人工核名清单"
+    },
+    {
+      "file": "H-MZ-001_modes.json",
+      "kind": "lifespan-key-collision",
+      "note": "fc='战国' 且 birth/death=-372/-289, 与主文件 H-MZ-001.json(1890/1990) 在键 'H-MZ-001' 上冲突 (credibility_gate 整体丢弃该键) -- 伴随包不属 figure 文件, 本卡不动"
+    },
+    {
+      "file": "H-ZS-001.json",
+      "kind": "body-year-corrupted",
+      "note": "historical_significance 内 [曾子(前505-57617935年)], 年份字段本身为 -505/-435 (正常) -- 正文年份损坏, 修它属引证/文本治理线"
+    }
+  ],
+  "mode_to_figure_unresolved": [
+    {
+      "figure_code": "AMP",
+      "modes": 10,
+      "mode_side_name": "安培"
+    },
+    {
+      "figure_code": "ARR",
+      "modes": 10,
+      "mode_side_name": "阿伦尼乌斯"
+    },
+    {
+      "figure_code": "BAI",
+      "modes": 10,
+      "mode_side_name": "白居易"
+    },
+    {
+      "figure_code": "BAN",
+      "modes": 10,
+      "mode_side_name": "班固"
+    },
+    {
+      "figure_code": "CAI",
+      "modes": 10,
+      "mode_side_name": "蔡文姬"
+    },
+    {
+      "figure_code": "Cusanus",
+      "modes": 10,
+      "mode_side_name": "库萨的尼古拉"
+    },
+    {
+      "figure_code": "DUM",
+      "modes": 10,
+      "mode_side_name": "杜牧"
+    },
+    {
+      "figure_code": "GIB",
+      "modes": 10,
+      "mode_side_name": "吉布斯"
+    },
+    {
+      "figure_code": "GUA",
+      "modes": 10,
+      "mode_side_name": "关汉卿"
+    },
+    {
+      "figure_code": "H-GHZ-001",
+      "modes": 10,
+      "mode_side_name": "安萨里"
+    },
+    {
+      "figure_code": "H-YC-001",
+      "modes": 10,
+      "mode_side_name": "晏阳初"
+    },
+    {
+      "figure_code": "LAN",
+      "modes": 10,
+      "mode_side_name": "朗道"
+    },
+    {
+      "figure_code": "LIN",
+      "modes": 10,
+      "mode_side_name": "林彪"
+    },
+    {
+      "figure_code": "LIQ",
+      "modes": 10,
+      "mode_side_name": "李清照"
+    },
+    {
+      "figure_code": "LIS",
+      "modes": 10,
+      "mode_side_name": "李商隐"
+    },
+    {
+      "figure_code": "LUO",
+      "modes": 10,
+      "mode_side_name": "罗贯中"
+    },
+    {
+      "figure_code": "OHM",
+      "modes": 10,
+      "mode_side_name": "欧姆"
+    },
+    {
+      "figure_code": "OUY",
+      "modes": 10,
+      "mode_side_name": "欧阳修"
+    },
+    {
+      "figure_code": "PUS",
+      "modes": 10,
+      "mode_side_name": "蒲松龄"
+    },
+    {
+      "figure_code": "Phase27Final",
+      "modes": 10,
+      "mode_side_name": "Phase27收尾整合"
+    },
+    {
+      "figure_code": "QIU",
+      "modes": 10,
+      "mode_side_name": "秋瑾"
+    },
+    {
+      "figure_code": "SUS",
+      "modes": 10,
+      "mode_side_name": "苏颂"
+    },
+    {
+      "figure_code": "TAN",
+      "modes": 10,
+      "mode_side_name": "汤显祖"
+    },
+    {
+      "figure_code": "TDL",
+      "modes": 10,
+      "mode_side_name": "李政道"
+    },
+    {
+      "figure_code": "TIN",
+      "modes": 10,
+      "mode_side_name": "丁肇中"
+    },
+    {
+      "figure_code": "TY",
+      "modes": 10,
+      "mode_side_name": "唐寅"
+    },
+    {
+      "figure_code": "VOL",
+      "modes": 10,
+      "mode_side_name": "伏打"
+    },
+    {
+      "figure_code": "WEN",
+      "modes": 10,
+      "mode_side_name": "文徵明"
+    },
+    {
+      "figure_code": "WUC",
+      "modes": 10,
+      "mode_side_name": "吴承恩"
+    },
+    {
+      "figure_code": "YAN",
+      "modes": 10,
+      "mode_side_name": "燕肃"
+    },
+    {
+      "figure_code": "ZEN",
+      "modes": 10,
+      "mode_side_name": "曾公亮"
+    },
+    {
+      "figure_code": "ZHU",
+      "modes": 10,
+      "mode_side_name": "祝允明"
+    },
+    {
+      "figure_code": "ZKU",
+      "modes": 10,
+      "mode_side_name": "朱可夫"
+    },
+    {
+      "figure_code": "ZuXuan",
+      "modes": 10,
+      "mode_side_name": "祖暅"
+    }
+  ],
+  "needs_human": [
+    {
+      "file": "H-DZS-001_modes.json",
+      "figure_name": null,
+      "figure_code": "H-DZS",
+      "code": null,
+      "defect_class": "empty_name",
+      "detail": "figure_name 缺失或为空",
+      "in_file_name": "",
+      "in_file_field": "",
+      "body_lead": "",
+      "mode_side_name": null,
+      "evidence": "伴随模式包(非 figure 文件), 不进 figure_name 回填范围",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-HZX-001_modes.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": "H-HZX-001",
+      "defect_class": "empty_name",
+      "detail": "figure_name 缺失或为空",
+      "in_file_name": "黄宗羲",
+      "in_file_field": "figure_name_zh",
+      "body_lead": "",
+      "mode_side_name": "黄宗羲",
+      "evidence": "伴随模式包(非 figure 文件), 不进 figure_name 回填范围",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-ZX-001_modes.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": "H-ZX-001",
+      "defect_class": "empty_name",
+      "detail": "figure_name 缺失或为空",
+      "in_file_name": "曾子：慎独自省·修齐治平·道统传承",
+      "in_file_field": "name_zh",
+      "body_lead": "",
+      "mode_side_name": null,
+      "evidence": "伴随模式包(非 figure 文件), 不进 figure_name 回填范围",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-YE-001.json",
+      "figure_name": "叶筱",
+      "figure_code": "H-YE-001",
+      "code": "H-YE-001",
+      "defect_class": "name_mismatch",
+      "detail": "正文首名 '现代中国政治思考家' 与声明名 '叶筱' 不一致",
+      "evidence": "historical_significance 首名='现代中国政治思考家'",
+      "proposed_fix": null,
+      "status": "needs_human",
+      "verdict": "name='叶筱', 正文只有泛泛描述 (birth/death=1900/1975 无出处) -> 不改, 待人工核名"
+    },
+    {
+      "file": "H-MarieCurie-001.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": null,
+      "defect_class": "duplicate",
+      "detail": "与 H-CUR-001.json 为同一人物(confirmed); 处置=defer",
+      "evidence": "其取值键 ['MarieCurie'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-SQ-001.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": null,
+      "defect_class": "duplicate",
+      "detail": "与 H-SMQ-001.json 为同一人物(confirmed); 处置=defer",
+      "evidence": "其取值键 ['H-SQ-001'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理",
+      "proposed_fix": null,
+      "status": "needs_human"
+    },
+    {
+      "file": "H-WeiQing-001.json",
+      "figure_name": null,
+      "figure_code": null,
+      "code": null,
+      "defect_class": "duplicate",
+      "detail": "与 H-SUN-001.json 为同一人物(name-match-years-differ); 处置=defer",
+      "evidence": "其取值键 ['WeiQing'] 仍被 10 条模式引用 -- 移走会让这些模式找不到主体(figures/生卒年), 须与 code 改名 + 模式侧同步同批处理",
+      "proposed_fix": null,
+      "status": "needs_human"
+    }
+  ]
+}
