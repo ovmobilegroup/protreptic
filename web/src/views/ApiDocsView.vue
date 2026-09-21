@@ -126,5 +126,31 @@ uvicorn api.main:app --reload      # http://127.0.0.1:8000</code></pre>
         <pre class="overflow-x-auto rounded-xl border border-white/10 bg-ink-950/70 p-4 text-xs leading-relaxed text-parchment/80"><code>{{ pySnippet }}</code></pre>
       </div>
     </section>
+
+    <!-- 参与贡献（Phase44-C2：本知识库开源，欢迎贡献） -->
+    <section class="pt-panel mt-8 overflow-hidden">
+      <div class="flex items-center gap-3 border-b border-white/10 px-6 py-4">
+        <span class="pt-chip-gold">OPEN SOURCE</span>
+        <h2 class="pt-h3 text-parchment/90">{{ t('参与贡献', 'Contribute') }}</h2>
+      </div>
+      <div class="px-6 py-5">
+        <p class="max-w-2xl text-sm leading-relaxed text-parchment/60">
+          {{ t(
+            '本知识库开源，欢迎贡献：补充案例、纠正出处、提议新思维模式、补充译文。',
+            'This knowledge base is open source and contributions are welcome: add cases, fix citations, propose new thinking modes, or translate.'
+          ) }}
+        </p>
+        <div class="mt-4 flex flex-wrap items-center gap-3">
+          <a href="https://github.com/ovmobilegroup/protreptic/blob/main/CONTRIBUTING.md"
+             target="_blank" rel="noopener" class="pt-btn-gold">
+            {{ t('贡献指南', 'Contributing guide') }}
+          </a>
+          <a href="https://github.com/ovmobilegroup/protreptic/issues/new/choose"
+             target="_blank" rel="noopener" class="pt-btn-ghost">
+            {{ t('提交 issue', 'Open an issue') }}
+          </a>
+        </div>
+      </div>
+    </section>
   </div>
 </template>

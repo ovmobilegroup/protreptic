@@ -141,6 +141,12 @@ const isActive = (to: string) => route.path.startsWith(to)
             <a href="https://github.com/ovmobilegroup/protreptic" target="_blank" rel="noopener"
                class="rounded-lg px-3 py-1.5 transition-colors hover:bg-white/5 hover:text-gold-300">GitHub</a>
             <span class="text-parchment/20">·</span>
+            <!-- Phase44-C2 贡献入口：指向仓库 CONTRIBUTING.md，读者想贡献时有路可走 -->
+            <a href="https://github.com/ovmobilegroup/protreptic/blob/main/CONTRIBUTING.md"
+               target="_blank" rel="noopener"
+               class="rounded-lg px-3 py-1.5 transition-colors hover:bg-white/5 hover:text-gold-300"
+            >{{ t('参与贡献', 'Contribute') }}</a>
+            <span class="text-parchment/20">·</span>
             <span>MIT License</span>
           </div>
         </div>
