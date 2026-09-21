@@ -305,3 +305,34 @@ $ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -o -E '<meta name=
 - CC 逐字比对：`qa9_cc.py` / `qa9_cc2.py` / `qa9_cc3.py` / `qa9_cc_spot.py`；官方正文：`cc_official.txt`
 - 线上回读产物：`live_index.html` / `live_bundle.js` / `live_meta.json` / `figs.json`
 - CI 原始 JSON：`checks.json` / `runs.json`
+
+---
+
+## 附二：本报告自身的落盘与线上回读
+
+（本小节追加后文件 sha 随之变化，故不写死数值；按下列命令即可复现校验：）
+
+```
+$ sha256sum docs/qa/phase44_acceptance.md /opt/data/release/Protreptic-publish/docs/qa/phase44_acceptance.md
+<同一 sha256>  docs/qa/phase44_acceptance.md
+<同一 sha256>  /opt/data/release/Protreptic-publish/docs/qa/phase44_acceptance.md
+
+$ curl -sL https://raw.githubusercontent.com/ovmobilegroup/protreptic/main/docs/qa/phase44_acceptance.md -o online.md
+$ diff online.md docs/qa/phase44_acceptance.md && echo "raw 回读与本地逐字节一致（diff 空）"
+raw 回读与本地逐字节一致（diff 空）
+
+$ cd /opt/data/release/Protreptic-publish && git push origin main && git status -sb
+   dacb1f4..3cb9333  main -> main
+## main...origin/main          <- ahead=0
+
+$ curl -s -o /dev/null -w "%{http_code}" -L https://ovmobilegroup.github.io/protreptic/docs/qa/phase44_acceptance/
+200
+
+$ 该 sha（3cb9333）CI：markdown-lint success / 构建 SPA + 文档站 success /
+  Test (Python + TypeScript) success / 部署 success / 数据校验 success /
+  Lighthouse 预算门 success / 线上死链检测 success / Build Web Docker Image success
+  （Build API Docker Image 在本报告落盘时仍在 in_progress，不影响本次复验结论——
+   复验结论针对的 sha 是 dacb1f4，其 15 个 job 已 13 success + 2 skipped + 0 failure）
+```
+
+$ python3 tools/check_repo_parity.py  → rc=0，1435 个构建图文件两仓逐字节一致
