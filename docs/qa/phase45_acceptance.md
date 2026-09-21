@@ -134,7 +134,7 @@ x.placeholder=re.el / if(e.placeholder)return e.placeholder;…          （Vue 
 （b）构建与路由/SEO 回归：
 
 ```text
-本轮共 4 次 `cd web && VITE_DATA_MODE=static npm run build` → exit 0（inert×2 / abc123×1 / protreptic×1）
+本轮共 6 次 `cd web && VITE_DATA_MODE=static npm run build` → 全部 exit 0（inert×2 / abc123×2 / protreptic×2）
 web/package.json 的 scripts 只有 dev/build/preview/lint —— 仓库内没有前端单测入口，故按卡片「跑现有测试或构建」以构建 + 浏览器行为验证为闸门。
 ```
 
@@ -283,7 +283,7 @@ verification = {"published": {"verified": 888, "pending": 1547, "suspect": 23, "
 citation_links = {"modes_with_citations": 2154, "modes_with_link": 911, ...}
 ```
 
-即：草稿门面数字 **2798 / 278**、四态 **888 / 1547 / 23 / 340**（合计 2798）、`modes_with_link` **911**，本地与线上一一致。
+即：草稿门面数字 **2798 / 278**、四态 **888 / 1547 / 23 / 340**（合计 2798）、`modes_with_link` **911**，本地与线上一致。
 
 出处覆盖两条也逐字复现：
 
@@ -310,9 +310,11 @@ $ python3 /tmp/qa10_src.py（草稿附录一的 source_chapter 片段原样重�
 
 ```text
 $ python3 tools/check_repo_parity.py
-[stats] 两仓都有 1440 条（其中逐字节一致 1440）｜仅单侧 0 条（仅工作仓 0 · 仅发布仓 0）
-[OK] 零差异：1440 个构建图文件两仓逐字节一致（sha256）
+[stats] 两仓都有 1441 条（其中逐字节一致 1441）｜仅单侧 0 条（仅工作仓 0 · 仅发布仓 0）
+[OK] 零差异：1441 个构建图文件两仓逐字节一致（sha256）
 ```
+
+（加入本报告前该口径为 1440 / 1440；本报告是构建图内文件，两仓逐字节一致，故 +1。）
 
 - 本报告 `docs/qa/phase45_acceptance.md` 已在两仓目录逐字节同步（`diff` 无输出；报告自身的 sha256 随本文修订而变，故不写死，用 `diff` 自校）—— 构建图内文件，parity 要求两仓逐字节一致。
 - 发布仓：`git add docs/qa/phase45_acceptance.md` → commit `35929f7` → `git push origin main` **成功**，`git status -sb` = `## main...origin/main`（**无 `[ahead N]`**）。发布仓工作树残留 `web/dist` 的 4 删 1 改（历史 tracked 构建产物，parity 已列为排除项、不参与判定），非本卡产生、本卡未触碰。
