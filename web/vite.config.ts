@@ -76,7 +76,7 @@ function goatcounterHead(code: string): Plugin {
       if (!code) return html
       const tag =
         `<script data-goatcounter="https://${code}.goatcounter.com/count" ` +
-        `async src="https://gc.zgo.at/count.js"></script>`
+        `async src="${BASE_PATH}count.js"></script>`  // 自托管(ISC)，绕过对 gc.zgo.at 的拦截
       if (!html.includes('</head>')) {
         throw new Error('[goatcounter] web/index.html 里找不到 </head>, 注入位置无法确定')
       }
