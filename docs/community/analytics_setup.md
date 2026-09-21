@@ -54,9 +54,11 @@ cd web && VITE_GOATCOUNTER_CODE=protreptic npm run build
 构建期 (`web/vite.config.ts` 的 `goatcounter-head` 插件) 往 `</head>` 之前注入一行:
 
 ```html
-<script data-goatcounter="https://<code>.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script data-goatcounter="https://<code>.goatcounter.com/count" async src="/protreptic/count.js"></script>
 ```
 
+- 脚本 src 是自托管副本 `/protreptic/count.js`, 而不是 `https://gc.zgo.at/count.js`:
+  ISC 许可的上游文件已随仓库发布 (`web/public/count.js`), 这样更少受广告屏蔽与网络拦截影响。
 - 没有站点码时一个字节都不注入: 不留 404 脚本, 不留占位域名。
   Phase30-C3 的 `YOUR_INSTANCE` 占位符就是这么撤掉的。不要再犯。
 - 深链不必另改一处: `tools/prerender_routes.py` 的预渲染页是以构建产物 `dist/index.html`
@@ -86,7 +88,7 @@ $ grep -ci goatcounter dist/index.html
 ```bash
 $ cd web && VITE_DATA_MODE=static VITE_GOATCOUNTER_CODE=abc123 npm run build
 $ grep -n data-goatcounter dist/index.html
-82:      <script data-goatcounter="https://abc123.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+82:      <script data-goatcounter="https://abc123.goatcounter.com/count" async src="/protreptic/count.js"></script>
 ```
 
 浏览器内验证 (不用发真实请求也能验): 先 `npx vite preview --base=/protreptic/ --port 4210`
@@ -107,13 +109,15 @@ $ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -c goatcounter
 0
 ```
 
-激活状态下实测 (2026-09-21, 首页 / `404.html` / 深链页各出现一次):
+激活状态下实测 (2026-09-21, 判据取 data-goatcounter 属性; 首页 / `404.html` / 深链页各出现一次):
 
 ```bash
 $ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -c goatcounter
 1
-$ curl -sL https://ovmobilegroup.github.io/protreptic/minds/H-MIY-001/ | grep -n data-goatcounter
-72:      <script data-goatcounter="https://protreptic.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+$ curl -sL https://ovmobilegroup.github.io/protreptic/minds/H-MIY-001/ | grep -c goatcounter
+1
+$ curl -sL https://ovmobilegroup.github.io/protreptic/ | grep -o 'data-goatcounter="[^"]*"'
+data-goatcounter="https://protreptic.goatcounter.com/count"
 ```
 
 ## 5. 怎么回滚
