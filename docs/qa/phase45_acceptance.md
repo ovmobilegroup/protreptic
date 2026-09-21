@@ -317,8 +317,8 @@ $ python3 tools/check_repo_parity.py
 （加入本报告前该口径为 1440 / 1440；本报告是构建图内文件，两仓逐字节一致，故 +1。）
 
 - 本报告 `docs/qa/phase45_acceptance.md` 已在两仓目录逐字节同步（`diff` 无输出；报告自身的 sha256 随本文修订而变，故不写死，用 `diff` 自校）—— 构建图内文件，parity 要求两仓逐字节一致。
-- 发布仓：`git add docs/qa/phase45_acceptance.md` → commit `35929f7` → `git push origin main` **成功**，`git status -sb` = `## main...origin/main`（**无 `[ahead N]`**）。发布仓工作树残留 `web/dist` 的 4 删 1 改（历史 tracked 构建产物，parity 已列为排除项、不参与判定），非本卡产生、本卡未触碰。
-- 工作仓：`git status -sb` = `## master`（干净）。本报告已提交为工作仓 `70afd75d`，但 `git push origin master` 被 GitHub 服务端 **pre-receive hook 拒绝**，原文如下：
+- 发布仓：`git add docs/qa/phase45_acceptance.md` → 首次 commit `35929f7` → 后续两次措辞校正 `7cb5c70` / `681d626` → 本条口径校正（终版，`git log -1` 可查），每次 `git push origin main` 均**成功**，`git status -sb` = `## main...origin/main`（**无 `[ahead N]`**）。发布仓工作树残留 `web/dist` 的 4 删 1 改（历史 tracked 构建产物，parity 已列为排除项、不参与判定），非本卡产生、本卡未触碰。
+- 工作仓：`git status -sb` = `## master`（干净）。本报告在工作仓为同文件的若干次历史提交（终版见 `git log -1`），因下列原因未能推送到远端，但 `git push origin master` 被 GitHub 服务端 **pre-receive hook 拒绝**，原文如下：
 
   ```text
   remote: error: File api/triton/_C/libtriton.so is 440.19 MB; this exceeds GitHub's file size limit of 100.00 MB
