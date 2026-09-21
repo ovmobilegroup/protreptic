@@ -3,7 +3,7 @@
 > Phase45-A: 官方托管 (GoatCounter) 的接入路径已就位, 是构建期开关、缺省 inert 状态。
 > 注册 / 填值 / 本地验证 / 回滚步骤见 `docs/community/analytics_setup.md` 文件。
 > 本文保留的是自托管路径与「当初为什么没接」的实测记录。
-
+>
 > 卡片 `t_7f963543` / 日期: 2026-09-19 / 线上: https://ovmobilegroup.github.io/protreptic
 >
 > 现状: **站点不加载任何统计脚本**。C3 交付时留下的占位符端点已从
