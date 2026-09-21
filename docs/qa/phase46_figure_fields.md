@@ -15,17 +15,17 @@
 
 PASS (口径: 只修字段, 不新增/删除人物内容, 引用零丢失)。四条硬判据, 全部有命令与原始输出:
 
-1. mode -> figure 一致性自检: 模式侧无法定位的 figure_code 修前修后完全相同, 都是 34 个 code / 340 条模式 (见第 4 节)。本次改动没有让任何一条模式失去 figure 主体或生卒年: 丢失的取值键 128 个, 其中被模式引用的 0 个。
-2. 可信度门 (CI 里 --hard-fail 那一步): exit 0; 输出与修前逐字符比对只差 2 行统计口径 (扫到的文件数, 可用取值键数), D5 判定结果 (可判定 2318 / conflict 1 / clean 1341 / undetermined 1546 / 命中 1) 与 D1/D2/D3/D6 计数完全不变 (见第 5 节)。
-3. tools/backfill_lifespans.py 现场重算: modes_covered 2318, mode_figures_covered 230, still_no_date 55 三个口径全部不变 (见第 5 节)。
+1. mode -> figure 一致性自检: 模式侧无法定位的 figure_code 修前修后完全相同, 都是 34 个 code / 340 条模式 (见第 3.1 节)。本次改动没有让任何一条模式失去 figure 主体或生卒年: 丢失的取值键 150 个, 其中被模式引用的 0 个。
+2. 可信度门 (CI 里 --hard-fail 那一步): exit 0; 输出与修前逐字符比对只差 2 行统计口径 (扫到的文件数, 可用取值键数), D5 判定结果 (可判定 2318 / conflict 1 / clean 1341 / undetermined 1546 / 命中 1) 与 D1/D2/D3/D6 计数完全不变 (见第 3.2 节)。
+3. tools/backfill_lifespans.py 现场重算: modes_covered 2318, mode_figures_covered 230, still_no_date 55 三个口径全部不变 (见第 3.3 节)。
 4. 两仓 parity: python3 tools/check_repo_parity.py 零差异 (见第 8 节)。
 
 四类缺陷计数 (修前 -> 修后):
 
 | 缺陷类 | 修前 | 修后 | 剩余项去向 |
 | --- | --- | --- | --- |
-| empty_name | 33 | 3 | 剩余 3 个全部是 *_modes.json 伴随模式包 (非 figure 文件), 见第 7 节 |
-| bad_figure_code | 223 | 1 | 剩余 1 个 H-WAT-001, 改它必丢引用, 列入待人工 (见第 6 节) |
+| empty_name | 33 | 3 | 剩余 3 个全部是 *_modes.json 伴随模式包 (非 figure 文件), 见第 6 节第 2 条 |
+| bad_figure_code | 223 | 1 | 剩余 1 个 H-WAT-001, 改它必丢引用, 列入待人工 (见第 5 节) |
 | name_mismatch | 37 | 33 | 修掉 4 条 (3 个文件, 其中 1 对是逐字节重复件); 剩余 32 条是 detector 误报 (正文首句是身份描述语或同一人写法变体), 1 条待人工核名 |
 | duplicate | 20 组 | 3 组 | 归档 17 个冗余件; 剩余 3 组 (2 组改 code 必动模式引用, 1 组同名且年份互斥) 列入待人工 |
 
@@ -47,7 +47,7 @@ empty_name 30 个 figure 文件: 回填 figure_name, 值全部来自文件内证
 - H-SW-001 -> 孙子 (取 figure_name_zh)
 - H-JSX-001 -> 贾思勰 (该文件无 figure_name_zh / name_zh, 取 historical_significance 首名 "贾思勰(约480-约550)", 与模式侧 figure_name 一致)
 - H-LZ-001 -> 李贽 (取 name_zh)
-- 三个 *_modes.json 伴随包不在回填范围 (非 figure 文件), 见第 7 节
+- 三个 *_modes.json 伴随包不在回填范围 (非 figure 文件), 见第 5 节
 
 bad_figure_code 222 个文件: figure_code := 文件名主干。
 
@@ -58,7 +58,7 @@ bad_figure_code 222 个文件: figure_code := 文件名主干。
 name_mismatch 3 个文件 (4 条), 全部按文件内证据改:
 
 - H-Mendel-001: 施耐庚 -> 孟德尔 (正文首句 "孟德尔(1822-1884), 奥地利奥古斯丁会修士, 遗传学之父")
-- H-AlGhazali-001: 加括友 -> 阿斋逊 (正文首句 "阿斋逊(1058-1111), 伊斯兰黄金时代思想家"; 同人文件 H-GHZ-163.json 用正式名 "安萨里", 是否统一留待船长裁定, 见第 6 节)
+- H-AlGhazali-001: 加括友 -> 阿斋逊 (正文首句 "阿斋逊(1058-1111), 伊斯兰黄金时代思想家"; 同人文件 H-GHZ-163.json 用正式名 "安萨里", 是否统一留待船长裁定, 见第 5 节)
 - H-HEISENBERG-001 与 H-Heisenberg-001 (两份逐字节相同): 海瑞 -> 海森堡 (正文全文是 Werner Karl Heisenberg 1901-1976 与不确定原理, figure_pinyin 就是 He Sen Bei, 而 海瑞 是明代官员 1514-1587)
 
 ### 2.2 重复件归档 (17 个)
@@ -194,3 +194,13 @@ python3 tools/backfill_lifespans.py
 - 没有改任何人物叙述、生卒年、模式内容。
 - 没有新增或删除人物 (34 个缺口不凭空补)。
 - 没有把 figure_code 规范化推广到其它目录 (data/individuals 等), 卡面只要求 figures 这一层。
+
+## 8 双仓同步与 CI 自检
+
+- 工作仓提交: 3780e43b (master)
+- 发布仓提交: fefc79b (同步 figure 修复) + 8b238f1 (仅回滚一条误入的 web/dist 构建产物改动)
+- 同步方式: 按工作仓提交的 name-status 逐路径复制或删除 (A/M 复制, R 拆成 删除 + 新增), 不用 rsync 整目录, 避免把开发侧杂物带进发布仓
+- 同步后自检: python3 tools/check_repo_parity.py 输出 "两仓都有 1446 条 (其中逐字节一致 1446) 仅单侧 0 条" 与 "零差异"
+- 推送: git push origin main 成功 (2faefa9..fefc79b, 8b238f1), git rev-list --left-right --count origin/main...HEAD 为 0 0
+- 抽查: 两仓的 H-BG-001.json (figure_name=班固, figure_code=H-BG-001), H-BAC-001.json (figure_code=H-BAC-001, code=Bach), H-Mendel-001.json (figure_name=孟德尔) 完全一致; 发布仓已无 H-DaVinci-001.json, 归档件在 data/figures/_duplicates/ 下
+- 遗留说明: data/figures 下约 130 个文件在工作仓的权限位本来就是 755, 本次同步把该权限位也带进了发布仓 (内容 sha256 一致, parity 按内容判定, 不受影响)
