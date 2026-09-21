@@ -314,9 +314,18 @@ $ python3 tools/check_repo_parity.py
 [OK] 零差异：1440 个构建图文件两仓逐字节一致（sha256）
 ```
 
-- 工作仓 `git status -sb` = `## master`（干净）。
-- 发布仓 `git status -sb` = `## main...origin/main`（**无 `[ahead N]`**）。发布仓工作树残留 `web/dist` 的 4 删 1 改（历史 tracked 构建产物，parity 已列为排除项、不参与判定），非本卡产生、本卡未触碰。
-- 本报告 `docs/qa/phase45_acceptance.md` 已同步两仓并推送（构建图内文件，parity 要求两仓逐字节一致）。
+- 本报告 `docs/qa/phase45_acceptance.md` 已在两仓目录逐字节同步，sha256 `0d28edf0193929e6016353ac608406b758c36dfc3547af660a93132d0bc05e2b`（构建图内文件，parity 要求两仓逐字节一致）。
+- 发布仓：`git add docs/qa/phase45_acceptance.md` → commit `35929f7` → `git push origin main` **成功**，`git status -sb` = `## main...origin/main`（**无 `[ahead N]`**）。发布仓工作树残留 `web/dist` 的 4 删 1 改（历史 tracked 构建产物，parity 已列为排除项、不参与判定），非本卡产生、本卡未触碰。
+- 工作仓：`git status -sb` = `## master`（干净）。本报告已提交为工作仓 `70afd75d`，但 `git push origin master` 被 GitHub 服务端 **pre-receive hook 拒绝**，原文如下：
+
+  ```text
+  remote: error: File api/triton/_C/libtriton.so is 440.19 MB; this exceeds GitHub's file size limit of 100.00 MB
+  remote: error: GH001: Large files detected.
+  To https://github.com/ovmobilegroup/protretic.git
+   ! [remote rejected]   master -> master (pre-receive hook declined)
+  ```
+
+  核实结论：**与本卡无关的既有状况**。该 440 MB 二进制不在 `HEAD` 里（`git cat-file -e HEAD:api/triton/_C/libtriton.so` → `does not exist in 'HEAD'`），它属于干流历史里的 `2b01f97f`；而工作仓的 `master` 没有配置上游（`git branch -vv` 只显示本地 `master`，远端仅有陈旧的 `refs/remotes/origin/main cd14ba6e`），所以 `push master` 会把整段本地历史（含该大文件）推到远端。工作仓一直是**开发侧仓、不作为上线来源**（线上只认 `/opt/data/release/Protreptic-publish` 的 `main`），因此本卡不为此改写既有历史：报告以**发布仓 `main` 上的那份**为交付物，两仓文件 sha256 相同，无内容损失。
 
 ## 本卡未做的事（如实声明）
 
