@@ -37,8 +37,14 @@ doc_id 契约（A0 定的，不要改）
     权重是 token 级（该 token 在全部字段里出现的最高字段权重），不是 posting 级：
     逐 posting 存权重实测 866 KB gzip 超预算，token 级权重表只多约 20 KB。
 
+预算口径（Phase43-R10，2026-09-21 改）
+    有效预算 = min(1024 KB, max(800 KB, ceil(模式数 × 0.32 KB)))
+    超有效预算 → 非 0 退出；使用率 >= 90% → 打印 WARN（不阻断，GitHub Actions 下额外发 ::warning)。
+    --budget-kb 显式指定时以该值为准，不加地板/天花板（用于本地压测与负对照）。
+
 用法
     python3 tools/build_search_index.py                     # 写 web/public/data/search
+    python3 tools/build_search_index.py --budget-kb 700     # 显式覆盖有效预算（压测/负对照）
     python3 tools/build_search_index.py --out public/data/search
     python3 tools/build_search_index.py --no-assert-budget  # 数据涨了、临时放行
     python3 tools/build_search_index.py --quiet             # 不打印抽样查询
@@ -53,6 +59,7 @@ import argparse
 import gzip
 import hashlib
 import json
+import math
 import os
 import sys
 import unicodedata
@@ -70,7 +77,14 @@ MODES_INDEX_SHARDS = 8
 SPEC_VERSION = "1.1-a5"
 N_SHARDS = 16
 GZIP_LEVEL = 9
-BUDGET_GZIP_KB = 800          # A5 卡硬约束：索引总 gzip <= 800 KB
+# ---- 预算口径（Phase43-R10 收口，依据与推导见 docs/architecture/web_p0_architecture.md §4.10）----
+# 硬失败不变：总 gzip > 有效预算 → 非 0 退出（CI 卡死发布）。
+# 有效预算 = min(天花板, max(地板, ceil(模式数 × 每条系数)))，三段都有实测依据：
+BUDGET_FLOOR_GZIP_KB = 800     # A5 卡原始约束；数据规模 <= 2500 条时它就是有效预算
+BUDGET_PER_MODE_KB = 0.32      # 每条模式配额 = 实测均值 0.2711 KB/条 ÷ 0.85（相对预算口径留 15% 余量）
+BUDGET_CEILING_GZIP_KB = 1024  # 绝对天花板：分片按需拉取 + SW cache-first，一次性离线预算上限
+WARN_BUDGET_RATIO = 0.90       # 使用率达到有效预算的该比例 → WARN（只提示，不阻断）
+MEASURED_MARGINAL_BYTES = 243  # 实测边际：2500→2798 条时 0.237 KB/条（仅用于 WARN 文案的换算）
 WEIGHT_TIERS = (4, 2, 1)
 # 权重表编码：1 字节/token，取值 0/1/2 对应权重 4/2/1（顺序即 WEIGHT_TIERS 下标）
 WEIGHT_CODE = {w: i for i, w in enumerate(WEIGHT_TIERS)}
@@ -331,6 +345,22 @@ def query(postings, token_weight, docs, q: str, limit: int = 5):
     return [(docs[d].get("mode_code"), docs[d].get("figure_name"), s) for d, s in ranked]
 
 
+def effective_budget_kb(doc_count: int, override: int | None = None) -> tuple[int, str]:
+    """有效 gzip 预算（KB）与来源标签。
+
+    override（--budget-kb）显式给出时优先，且不加地板/天花板 —— 显式旋钮就该是显式语义。
+    派生口径：min(天花板, max(地板, ceil(模式数 × 每条系数)))，见文档 §4.10。
+    """
+    if override is not None:
+        return override, "cli-override"
+    derived = math.ceil(doc_count * BUDGET_PER_MODE_KB)
+    if derived > BUDGET_CEILING_GZIP_KB:
+        return BUDGET_CEILING_GZIP_KB, "ceiling"
+    if derived < BUDGET_FLOOR_GZIP_KB:
+        return BUDGET_FLOOR_GZIP_KB, "floor"
+    return derived, "per-mode"
+
+
 # ------------------------------------------------------------------ 主流程
 
 def main() -> int:
@@ -338,7 +368,8 @@ def main() -> int:
     ap.add_argument("--out", default=str(DEFAULT_OUT), help="输出目录（相对仓库根或绝对路径）")
     ap.add_argument("--modes-dir", default=str(MODES_INDEX_DIR), help="modes index 分片目录")
     ap.add_argument("--modes-data", default=str(MODES_JSON), help="data/modes_data.json 路径")
-    ap.add_argument("--budget-kb", type=int, default=BUDGET_GZIP_KB, help="总 gzip 预算 KB")
+    ap.add_argument("--budget-kb", type=int, default=None,
+                    help="显式覆盖有效预算 KB（默认按模式数派生，见模块 docstring 与文档 §4.10）")
     ap.add_argument("--no-assert-budget", action="store_true", help="超预算不失败（临时放行）")
     ap.add_argument("--quiet", action="store_true", help="不打印抽样查询")
     ap.add_argument("--self-test", action="store_true", help="只做解码回环自检，不写盘")
@@ -365,10 +396,15 @@ def main() -> int:
     total_raw = sum(len(b) for b in shards)
     total_gz = sum(len(b) for b in gz)
 
+    budget_kb, budget_source = effective_budget_kb(len(docs), args.budget_kb)
+    usage_ratio = total_gz / (budget_kb * 1024)
+
     print(f"[search-index] docs={len(docs)} tokens={len(postings)} "
           f"postings={sum(len(v) for v in postings.values())}")
     print(f"[search-index] raw={total_raw / 1024:.1f} KB gzip={total_gz / 1024:.1f} KB "
-          f"(预算 {args.budget_kb} KB) max_shard={max(len(b) for b in gz) / 1024:.1f} KB "
+          f"(预算 {budget_kb} KB [{budget_source}]，使用率 {usage_ratio * 100:.1f}%，"
+          f"余量 {(budget_kb * 1024 - total_gz) / 1024:.1f} KB) "
+          f"max_shard={max(len(b) for b in gz) / 1024:.1f} KB "
           f"min_shard={min(len(b) for b in gz) / 1024:.1f} KB")
     print(f"[search-index] 解码回环自检通过：{tokens_seen} 个 token 全部一致")
 
@@ -380,10 +416,26 @@ def main() -> int:
     if args.self_test:
         return 0
 
-    if total_gz > args.budget_kb * 1024 and not args.no_assert_budget:
+    if usage_ratio >= WARN_BUDGET_RATIO:
+        headroom_kb = (budget_kb * 1024 - total_gz) / 1024
+        if total_gz > budget_kb * 1024:
+            tail = "已超有效预算（见下方 FATAL）"
+        else:
+            tail = (f"接近硬上限：按实测边际 {MEASURED_MARGINAL_BYTES} B/条折算，"
+                    f"约剩 {max(budget_kb * 1024 - total_gz, 0) // MEASURED_MARGINAL_BYTES} 条模式的量")
+        warn = (f"[search-index] WARN 预算使用率 {usage_ratio * 100:.1f}% >= "
+                f"{WARN_BUDGET_RATIO * 100:.0f}%（{total_gz / 1024:.1f} / {budget_kb} KB "
+                f"[{budget_source}]，余量 {headroom_kb:.1f} KB）—— {tail}；"
+                f"字段加宽/新增字段会立刻击穿（见文档 §4.10）")
+        print(warn)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print(f"::warning title=search-index budget::{warn.split('] ', 1)[1]}")
+
+    if total_gz > budget_kb * 1024 and not args.no_assert_budget:
         raise SystemExit(
-            f"[FATAL] 索引总 gzip {total_gz / 1024:.1f} KB 超预算 {args.budget_kb} KB —— "
-            f"请按 A0 第 4.2 节收缩字段/截断（不要动 idx 契约），或临时用 --no-assert-budget"
+            f"[FATAL] 索引总 gzip {total_gz / 1024:.1f} KB 超有效预算 {budget_kb} KB "
+            f"[{budget_source}]（模式数 {len(docs)}）—— 请按 A0 第 4.2 节收缩字段/截断"
+            f"（不要动 idx 契约），或显式用 --budget-kb 调整（文档 §4.10）"
         )
 
     # 幂等重跑：清掉本脚本自己的产物（不动 by-figure / index-*.json 等别人家的分片）
@@ -424,7 +476,21 @@ def main() -> int:
         "total_raw_bytes": total_raw,
         "total_gzip_bytes": total_gz,
         "total_gzip_kb": round(total_gz / 1024, 1),
-        "budget_gzip_kb": args.budget_kb,
+        "budget_gzip_kb": budget_kb,
+        "budget": {
+            "effective_gzip_kb": budget_kb,
+            "source": budget_source,
+            "formula": "min(ceiling_gzip_kb, max(floor_gzip_kb, ceil(doc_count * per_mode_kb)))",
+            "per_mode_kb": BUDGET_PER_MODE_KB,
+            "floor_gzip_kb": BUDGET_FLOOR_GZIP_KB,
+            "ceiling_gzip_kb": BUDGET_CEILING_GZIP_KB,
+            "warn_ratio": WARN_BUDGET_RATIO,
+            "usage_ratio": round(usage_ratio, 4),
+            "headroom_gzip_kb": round((budget_kb * 1024 - total_gz) / 1024, 1),
+            "warn_triggered": usage_ratio >= WARN_BUDGET_RATIO,
+            "doc_count": len(docs),
+            "measured_bytes_per_mode": round(total_gz / len(docs), 1),
+        },
         "max_shard_gzip_kb": round(max(len(b) for b in gz) / 1024, 1),
         "min_shard_gzip_kb": round(min(len(b) for b in gz) / 1024, 1),
         "shards": shard_meta,

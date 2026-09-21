@@ -213,7 +213,7 @@ python3 tools/ci_link_check.py live --crawl-sample 8
 | R7 | P3 | `docs_site/docs/templates/*.md` 是过期副本（10505 B 对源 12033 B） | 文档归档卡 |
 | R8 | P3 | 文案硬编码「2868 条 x 284 位」与站内统计（2858 / 283）不一致：本卡实测线上 `index.html` 的 description 仍是 2868，`mkdocs.pages.yml` 的 `site_description` 也是 2868 | 让文案从 `data/meta.json` 读取，或改口径说明 |
 | R9 | P3 | `/figures` hero 与 `/api` 写「1058 个场景」，名录实为 1055 | 同 R8 |
-| **R10** | **P3（新）** | **检索索引已用掉 96.7% 预算**：16 片 gzip 合计 773.9 KB 对门限 800 KB | 数据量再增长就会撞门（`build_search_index.py` 超限直接非 0 退出、卡死发布）。建议把预算改为相对数据量，或提高门限并同步记录 |
+| **R10** | **P3（新）** | **检索索引已用掉 96.7% 预算**：16 片 gzip 合计 773.9 KB 对门限 800 KB | 数据量再增长就会撞门（`build_search_index.py` 超限直接非 0 退出、卡死发布）。建议把预算改为相对数据量，或提高门限并同步记录。**→ 已收口 (Phase43-R10, 2026-09-21)**: 口径改为 `min(1024, max(800, ceil(模式数 × 0.32)))` KB 的派生式 + 90% 使用率 WARN，硬失败保留；实测与推导见 `docs/architecture/web_p0_architecture.md` 4.10 |
 | **R11** | **P3（新）** | **`docs/` 历史文档双仓漂移 33 个文件**（publish 侧缺） | 不影响站点（publish 用自己那份 `docs/` 构建），但会让「两仓同文」的假设失真；建议一次性对齐，或明确 publish 只保留发布所需文档 |
 | J1 | — | workspace `tools/` 20 个垃圾跟踪路径 | **本卡已清理** |
 

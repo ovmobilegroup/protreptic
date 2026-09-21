@@ -20,7 +20,7 @@
 |---|------|------|------|
 | 1 | 深链返回 200 | 已在流水线内解决: 构建后为公开名录的 **1350** 个路由 (发布仓基线) 各生成 `<route>/index.html` (等于 `dist/index.html` 加上该路由的 head).本地静态托管实测 **1350/1350 返回 200**, 发布后**线上实测同样 1350/1350 返回 200** | 2.1 / 2.5 |
 | 2 | Service Worker 缓存 | scope 为 `/protreptic/`; app shell 加索引在 install 期预缓存 (约 244 KB gzip); `data/**` 为 cache-first 且按数据版本号命名缓存; 导航 network-first 并回退到通用 shell; `modes/index-*.json` (1.11 MB gzip) 在激活后后台预热, 不用它阻塞 install | 3.4 |
-| 3 | 全文检索索引 | 二进制 varint 倒排, 按 token 首字符分 16 片; 推荐规格 **721 KB gzip** (预算 800 KB), 单片最大约 58 KB; 查询按需只拉不超过 3 片 | 4.2 / 4.3 |
+| 3 | 全文检索索引 | 二进制 varint 倒排, 按 token 首字符分 16 片; 推荐规格 **721 KB gzip**, 单片最大约 58 KB; 查询按需只拉不超过 3 片; 预算口径自 Phase43-R10 起改为派生式 (**min(1024, max(800, ceil(模式数 × 0.32))) KB**), 见 4.10 | 4.2 / 4.3 / 4.10 |
 
 **本卡交付的代码产物 (均已落盘并实跑)**
 
@@ -501,7 +501,9 @@ N 从 16 加到 24 时总体积几乎不变但最大片反而从 56 KB 涨到 57
 | `definition_en` | 1 | 30 字符 | 英文定义首部 |
 
 **实测体积**: token 数 99,016, 总 **741 KB gzip** (N=16), 最大片 59 KB, 最小片 37 KB.
-预算 800 KB, 余量 59 KB. (数字是在 doc_id 与 `modes/index-0..7.json` 的拼接顺序对齐之后测的.)
+预算 800 KB, 余量 59 KB —— 这是 **A5 当时的固定口径**; Phase43-R10 起改为按模式数派生的有效预算
+(地板 800 / 系数 0.32 KB/条 / 天花板 1024 KB), 依据与实测见 4.10。
+(数字是在 doc_id 与 `modes/index-0..7.json` 的拼接顺序对齐之后测的.)
 
 **doc_id 契约 (这一条决定了不需要额外的词典文件)**
 `doc_id` 定义为该 mode 在 `data/modes/index-0.json` 到 `index-7.json` **按序拼接**后的下标
@@ -579,7 +581,8 @@ raw 1,295.3 KB / gzip 773.9 KB（预算 800 KB，余量 26 KB）；单片最大 
 
 CI 位置：`pages.yml` 的 `构建全文检索索引分片` 步骤，排在 `tools/export_static_site.py`
 （会清空 `web/public/data/`）与 `tools/build_unified_index.py` 之后，脚本自带
-两条断言（解码回环 + 总 gzip <= 800 KB），超预算非 0 退出。产物目录
+两条断言（解码回环 + 总 gzip <= 有效预算），超预算非 0 退出；有效预算自 Phase43-R10 起为
+`min(1024, max(800, ceil(模式数 × 0.32)))` KB（原来固定 800 KB），并加 90% 使用率 WARN，见 4.10。产物目录
 `web/public/data/search/` 不入库（`.gitignore` 已忽略 `web/public/data/`），由 CI 现场生成。
 
 ### 4.9 A6 UI 接入 (2026-09-18, t_a1364212: web/src/api/fulltextSearch.ts + modeIndex.ts)
@@ -617,6 +620,112 @@ CI 位置：`pages.yml` 的 `构建全文检索索引分片` 步骤，排在 `to
 /figures 良知      -> 4 个人物由索引命中 + 5 条子串兜底
 /figures 王阳明 (拦截 data/search/ 模拟索引不可用) -> 「已降级为关键词匹配」, 子串结果 5 条
 ```
+
+### 4.10 检索索引预算口径收口 (Phase43-R10, 2026-09-21)
+
+**问题 (R10)**: 预算写死在 `tools/build_search_index.py` 的 `BUDGET_GZIP_KB = 800`, 超限直接
+非 0 退出 —— 失败方式是「发布构建红」, 而不是降级。Phase30 收官时实测 773.9 KB / 800 KB = 96.7%;
+数据隔离 60 条后回落到 **758.3 KB / 800 KB = 94.8%**, 余量只剩 41.7 KB。这是一笔会自己爆的债,
+本小节给出量化、口径选择与落地。
+
+**1) 量化 (本次实测, 2026-09-21)**
+
+条件: `docs=2798` (`modes/index-0..7.json` 拼接), `records=2858` (`data/modes_data.json`, 60 条隔离未入索引),
+token 95,779 / postings 269,580, raw 1,271.4 KB / **gzip 758.3 KB**, 单片 max 60.9 / min 37.7 KB。
+
+| 口径 | 值 |
+|------|-----|
+| 平均每条模式 gzip | **277.5 B/条** (758.3 KB ÷ 2,798) |
+| 边际 (2,500 → 2,798 条) | **243 B/条** |
+| 边际 (2,000 → 2,798 条) | 242 B/条 |
+
+文档数曲线 (同字段规格实测): 1,000 条 316.4 KB / 1,500 条 446.1 KB / 2,000 条 569.4 KB /
+2,500 条 686.7 KB / 2,798 条 758.3 KB。
+
+**撞门预测 (旧固定 800 KB 口径)**: 余量 41.7 KB ÷ 243 B/条 约为 **176 条模式** (当前语料的 6.3%)
+就会让 `pages.yml` 的构建步骤非 0 退出。
+
+字段膨胀敏感性 (同语料单变量实测, 基线 758.3 KB):
+
+| 变更 | 总 gzip | Δ |
+|------|---------|----|
+| `source_chapter[:40]` 改为不截断 | 950.0 KB | **+191.6 KB** |
+| 新增 `key_quote_zh[:40]` | 891.3 KB | **+132.9 KB** |
+| `definition_zh[:30]` 改 `[:60]` | 880.4 KB | **+122.1 KB** |
+| 新增 `process_zh[:30]` | 872.5 KB | **+114.2 KB** |
+| `domain_zh[:30]` 改 `[:60]` | 812.1 KB | +53.8 KB |
+| `definition_en[:30]` 改 `[:60]` | 774.7 KB | +16.4 KB |
+| `key_concepts[:60]` 改 `[:120]` | 768.6 KB | +10.3 KB |
+| 去掉 `key_concepts` | 609.2 KB | -149.2 KB |
+
+结论: **模式数增长是慢变量 (约 176 条触发), 字段口径是快变量 (任一条加宽或新增索引字段当天就击穿)**;
+所以治理口径不能只盯「还剩多少条」, 还要让「单位配额」可见.
+
+**2) 选定口径: B (相对预算) + A (绝对天花板); 不做 C (砍字段)**
+
+```
+有效预算 KB = min(1024, max(800, ceil(模式数 × 0.32)))
+```
+
+- **系数 0.32 的推导**: 实测均值 0.2711 KB/条 (758.3 ÷ 2,798)。取 `0.2711 ÷ 0.85 = 0.319 ≈ 0.32`,
+  语义是「当前规模的使用率回到 85%」= 相对实测均值预留 15% 余量; 它也是实测边际 0.237 KB/条的 1.35 倍。
+  当前规模 (2,798 条) 下有效预算 = **896 KB**, 使用率 84.6%, 余量 137.7 KB, 约合 580 条模式的量。
+- **保留 800 KB 地板**: 固定开销 (token 词表的唯一性) 不随条数线性增长 —— n=1,000 时实测就要 316.4 KB,
+  若纯按 `0.32 × n` = 320 KB 派生, 语料一缩就会误红。地板保证小数据量下口径不比 A5 更严。
+- **为什么提高上限 (选 A 的依据)**: 800 KB 是 A5 卡片给的上限, 不是实测出来的用户面 SLO。三条事实支持放宽到 1024 KB:
+
+  1. 16 片按 `crc32(token 首字符)` 分片, 一次查询只拉「查询串首字符」命中的 1~3 片 (4.9 实测 3 片, 单片 38~61 KB),
+     **不是每次访问都下全量**;
+  2. 搜索分片不在 precache 清单里 (`tools/build_sw.py` 的 `SOFT_PRECACHE` 只有 figures.index / index.unified /
+     meta / daily), `data/**` 走 SW 的 **cache-first 运行时缓存** (`web/sw.template.js`), 首屏与 install 期都不受影响;
+  3. 参照系: `/modes` 本身就要拉 `modes/index-0..7.json` 的 **1,114.7 KB gzip** (3.4 的 T2), 已被接受。
+
+  因此天花板定在 1024 KB: 与既有数据量同级, 同时仍是一次性离线预算的**有界值**。
+- **为什么不做 C (压缩/砍字段)**: gzip level 9 已用满, JSON 编码方案实测更差 (4.2 的 C); 剩下的可砍对象
+  (`key_concepts` -149.2 KB) 是 4.3 按检索效果选定的字段 —— 那是拿功能换体积, 本卡不做, 字段口径保持不变。
+- **硬失败保留**: 超有效预算依旧非 0 退出; `--no-assert-budget` 只是显式临时开关, CI 不用它。
+
+**3) 预警带 (90% WARN, 不阻断)**
+
+有效预算使用率 >= 90% 时打印 `WARN` 行 (含当前用量、有效预算、来源、余量、按 243 B/条折算还能加多少条);
+在 GitHub Actions 下额外发一条 `::warning title=search-index budget::`, 运行页直接可见。
+当前 84.6% **不触发**; 天花板真正咬住的时间点: 派生预算在约 3,200 条时已到 1024 KB 并不再增长,
+而实测用量撞到 1024 KB 约在 **n ≈ 3,920 条** (当前 2,798 条 + 约 1,120 条)。
+
+**4) meta.json 同步**
+
+`search/meta.json` 新增 `budget` 段: `effective_gzip_kb` / `source` (per-mode / floor / ceiling / cli-override) /
+`formula` / `per_mode_kb` / `floor_gzip_kb` / `ceiling_gzip_kb` / `warn_ratio` / `usage_ratio` /
+`headroom_gzip_kb` / `warn_triggered` / `measured_bytes_per_mode`。
+顶层 `budget_gzip_kb` 现在写**有效预算**, 不再是 CLI 默认值。**文件格式与 `spec_version` (1.1-a5) 未变**,
+前端解码不受影响。
+
+**5) 复现命令与原始输出**
+
+```console
+$ python3 tools/build_search_index.py --quiet
+[search-index] docs=2798 tokens=95779 postings=269580
+[search-index] raw=1271.4 KB gzip=758.3 KB (预算 896 KB [per-mode]，使用率 84.6%，余量 137.7 KB) max_shard=60.9 KB min_shard=37.7 KB
+[search-index] 解码回环自检通过：95779 个 token 全部一致
+[search-index] 写出 16 个分片 + meta.json -> web/public/data/search
+$ echo $?
+0
+
+$ python3 tools/build_search_index.py --quiet --budget-kb 820      # 演示 WARN (92.5%, 不阻断)
+[search-index] raw=1271.4 KB gzip=758.3 KB (预算 820 KB [cli-override]，使用率 92.5%，余量 61.7 KB) ...
+[search-index] WARN 预算使用率 92.5% >= 90%（758.3 / 820 KB [cli-override]，余量 61.7 KB）—— 接近硬上限：按实测边际 243 B/条折算，约剩 260 条模式的量；字段加宽/新增字段会立刻击穿（见文档 §4.10）
+$ echo $?
+0
+
+$ python3 tools/build_search_index.py --quiet --budget-kb 700      # 负对照: 硬失败仍在
+[search-index] WARN 预算使用率 108.3% >= 90%（758.3 / 700 KB [cli-override]，余量 -58.3 KB）—— 已超有效预算（见下方 FATAL）；...
+[FATAL] 索引总 gzip 758.3 KB 超有效预算 700 KB [cli-override]（模式数 2798）—— ...
+$ echo $?
+1
+```
+
+量化过程用的只读分析脚本 (读 `tools/build_search_index.py` 的函数 + 现成语料, 不改仓库任何文件):
+`budget_analysis.py` —— 曲线、边际、变体敏感性三组数字即来自它的输出。
 
 ### 4.4 懒加载时机与请求数
 
@@ -668,7 +777,8 @@ decision  -> M-YSS-010 李舜臣 8, M-BELISARI-007 贝利撒留 4
    语料 sha256, 以及本卡的规格版本号;
 3. **必须在 `tools/export_static_site.py` 之后跑** (该脚本会清空 `web/public/data/`),
    位置与 `tools/build_unified_index.py` 相邻;
-4. 自检断言: 总 gzip 不超过 800 KB; 写成脚本内的 assert, 超了直接非 0 退出;
+4. 自检断言: 总 gzip 不超过有效预算 (A5 当时写死 800 KB; Phase43-R10 起为派生式, 见 4.10);
+   写成脚本内的 assert, 超了直接非 0 退出;
 5. 前端接入点: `web/src/api/static.ts` 新增 `searchFullText(query)`, UI 层保留既有子串匹配
    作为降级路径与 "关键词模式" 开关; UI 文案必须写清是倒排匹配而不是语义检索.
 
