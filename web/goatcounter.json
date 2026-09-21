@@ -1,0 +1,11 @@
+{
+  "_readme": [
+    "Phase45-A 访问统计 GoatCounter 的构建期开关。",
+    "code 留空 (缺省) = 一个字节都不注入: 不加载统计脚本, 不产生第三方请求, 站点 inert 状态。",
+    "填入站点码 (GoatCounter 注册后拿到的子域名前缀) 即激活; 清空即回滚。",
+    "环境变量 VITE_GOATCOUNTER_CODE 优先于本文件, 便于 CI / 本地临时验证:",
+    "  cd web && VITE_GOATCOUNTER_CODE=abc123 npm run build",
+    "完整步骤 (注册 / 填值 / 本地验证 / 回滚) 见 docs/community/analytics_setup.md"
+  ],
+  "code": ""
+}
