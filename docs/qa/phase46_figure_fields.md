@@ -189,6 +189,8 @@ python3 tools/backfill_lifespans.py
 5. H-MZ-001 键冲突 (既有, 未动): H-MZ-001.json (墨子, 记录的生卒年 1890-1990) 与 H-MZ-001_modes.json (公元前 372-289) 同名同键但生卒年互斥, 其中一份年份大概率是错的。本卡不改人物内容, 仅记录。
 6. 其它数据质量存疑 (已记录未动): H-HAN-001 (沈幅 / Shen Fu, 记录生卒年 -100 至 180 与人物不吻合, 疑似沈复), H-ZS-001 正文把卒年写成 1630 年 (锚点 -435), H-YE-001 见第 5 节。
 
+7. 文件名异常 (卡面第 5 条) 本卡不重命名, 理由与证据: 实测 28 个 *_modes.json 全部成对存在 (主文件 H-XXX-001.json 加伴随包 H-XXX-001_modes.json), 是仓库既有约定, 且工具会读它们 —— credibility_gate 扫描 figures 目录下所有 *.json 并按 figure_key_candidates 登记取值键, 例: 键 H-SJL-001 就是靠 H-SJL-001_modes.json 提供的 (主文件已归档也不丢键), 键冲突统计里也出现过主文件与伴随包的同年键冲突 (H-MZ-001 与 H-MZ-001_modes.json)。重命名会打断配对并可能丢键, 属于改约定, 应另立一张卡同时改工具与数据; 本卡只把 3 个伴随包 figure_name 为空记入待人工 (见第 5 节 #4 至 #6)。
+
 ## 7 未做的事
 
 - 没有改任何人物叙述、生卒年、模式内容。
@@ -204,3 +206,17 @@ python3 tools/backfill_lifespans.py
 - 抽查: 两仓的 H-BG-001.json (figure_name=班固, figure_code=H-BG-001), H-BAC-001.json (figure_code=H-BAC-001, code=Bach), H-Mendel-001.json (figure_name=孟德尔) 完全一致; 发布仓已无 H-DaVinci-001.json, 归档件在 data/figures/_duplicates/ 下
 - 一次事故与处置: 第一次同步时 git add -A 误把发布仓里既有的 5 条 web/dist 构建产物改动 (与本次修复无关) 一起提交, 随后用一条回滚提交把这 5 条恢复原状
 - 遗留说明: data/figures 下约 130 个文件在工作仓的权限位本来就是 755, 本次同步把该权限位也带进了发布仓 (内容 sha256 一致, parity 按内容判定, 不受影响)
+
+## 9 影响面核对 (顺带回答卡面背景里的 278 与 347 之疑)
+
+结论: data/figures 的文件数从来不是线上"278 位历史人物"的来源, 两者是不同数据集的口径, 不是同一个数对不上。
+
+证据链 (逐条可复核):
+
+- web/public/data/meta.json 里 counts.mode_by_figure_shards = 278, counts.figures = counts.figure_shards = 1057, counts.mode_summaries = 2858。
+- tools/site_counts.py 的注释写明: figures = counts.mode_by_figure_shards (人物数, by-figure 分片数)。
+- tools/build_figures_db.py 建 figures 表时只读 tools/scenarios_zh.json 与 tools/scenarios_en.json (取中英文俱全的条目), 与 data/figures 无关。
+- tools/export_static_site.py 只从该 SQLite DB 与模式侧取数导出, 并断言 figure_shards == figures == 1057 / mode_summaries == 2858 / mode_by_figure_shards == 278。
+- 所以 347 (data/figures 的 H-*.json 文件数) 与 278 (有模式的人物数) 是两个不同来源的计数; 本次归档 17 个重复件后 data/figures 变为 330 个 json (302 figure 文件 + 28 伴随包), 对 278 / 1057 / 2858 三个线上计数都没有影响, 因为它们不读 data/figures。
+- 顺带实测: 本地跑 python3 tools/ci_data_check.py 会因缺少 web/public/data/index.unified.json (构建现场生成, 未提交) 而 FAIL 2 条, 与本卡改动无关; 它打印的路由统计里 person 路由仍是 278。
+- data/figures 的实际读取方 (本卡实测): tools/credibility_gate.py (D5 生卒年, --hard-fail exit 0 且判定不变), tools/backfill_lifespans.py (modes_covered 2318 不变), 本卡新增的审计与修复工具; 其余按 glob figures/*.json 读取的工具都是非递归的, 因此 data/figures/_duplicates/ 不会被任何构建步骤误读。
