@@ -725,6 +725,33 @@ $ echo $?
 ```
 
 量化过程用的只读分析脚本 (读 `tools/build_search_index.py` 的函数 + 现成语料, 不改仓库任何文件):
+**6) 上线与 CI 验证 (2026-09-21)**
+
+双仓同步后推送发布仓 `main`（`ccc1e5d`；配套 dev `b19b99c1`），以下四个 workflow 在**该 sha 上全绿**
+（`api.github.com/repos/ovmobilegroup/protreptic/actions/runs` 读回）：
+
+| workflow | run | 结论 |
+|----------|-----|------|
+| Deploy to GitHub Pages | 35551972265 | success（构建 SPA + 文档站 / 部署两个 job 均 success） |
+| Protreptic CI/CD | 35551972289 | success（Test / 两个 Docker Image / Notify 全 success） |
+| CI（markdown-lint） | 35551972272 | success |
+| Quality Gate | 35552351166 | success |
+
+**线上回读**（部署产物，不是本地文件）:
+
+```console
+$ curl -s https://ovmobilegroup.github.io/protreptic/data/search/meta.json
+spec_version 1.1-a5 ; total_gzip_kb 758.3 ; doc_count 2798
+budget_gzip_kb(top) 896
+"budget": {"effective_gzip_kb": 896, "source": "per-mode", "per_mode_kb": 0.32,
+           "floor_gzip_kb": 800, "ceiling_gzip_kb": 1024, "warn_ratio": 0.9,
+           "usage_ratio": 0.8464, "headroom_gzip_kb": 137.7, "warn_triggered": false,
+           "doc_count": 2798, "measured_bytes_per_mode": 277.5}
+```
+
+即 CI 现场生成的索引与本地实测一致（758.3 KB / 896 KB / 84.6%，WARN 未触发），
+新预算口径已随 Pages 上线，`spec_version` 未变（前端解码不受影响）。
+
 `budget_analysis.py` —— 曲线、边际、变体敏感性三组数字即来自它的输出。
 
 ### 4.4 懒加载时机与请求数
