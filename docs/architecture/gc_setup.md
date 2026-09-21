@@ -1,4 +1,4 @@
-# 访问统计：当前未接入（Phase31-AN 收口）
+# 访问统计：官方托管接入路径已就位（自托管路径未启用）
 
 > Phase45-A: 官方托管 (GoatCounter) 的接入路径已就位, 是构建期开关、缺省 inert 状态。
 > 注册 / 填值 / 本地验证 / 回滚步骤见 `docs/community/analytics_setup.md` 文件。
