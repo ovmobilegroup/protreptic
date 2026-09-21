@@ -197,7 +197,7 @@ python3 tools/backfill_lifespans.py
 
 ## 8 双仓同步与 CI 自检
 
-- 工作仓: master 上两条 Phase46-R 提交 (figure 修复本体 + 报告口径校正); 发布仓: main 上三条 Phase46-R 提交 (figure 修复同步 + web/dist 回滚 + 报告校正同步)。具体哈希见两仓 git log 的 Phase46-R 条目, 本文不写死 (避免自指)。
+- 工作仓 master 与发布仓 main 上各有一组 Phase46-R 提交 (figure 修复本体, web/dist 回滚, 报告口径校正及其同步)。具体条数与哈希见两仓 git log 的 Phase46-R 条目, 本文不写死 (避免自指)。
 - 同步方式: 按工作仓提交的 name-status 逐路径复制或删除 (A/M 复制, R 拆成 删除 + 新增), 不用 rsync 整目录, 避免把开发侧杂物带进发布仓
 - 同步后自检: python3 tools/check_repo_parity.py 输出 "两仓都有 1446 条 (其中逐字节一致 1446) 仅单侧 0 条" 与 "零差异"
 - 推送: git push origin main 成功, git rev-list --left-right --count origin/main...HEAD 为 0 0 (发布仓与远端一致)
