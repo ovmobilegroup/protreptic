@@ -1,0 +1,92 @@
+=== CREDIBILITY GATE · 存量/新增两档 ===
+mode: hard-fail
+resolved data path:     scratch/legacy20_rev6_samples/combined_library_entries.json (exists=True)
+resolved baseline path: /opt/data/workspace/Protreptic/data/audit/credibility_baseline.json (exists=True)
+hard failures on this dataset: 0
+baseline frozen at 2026-09-19T14:30:15+00:00 (total=527, fingerprints=526, D1=60 D2=9 D3=0 D6=457)
+baseline data_sha256: bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb
+current  data_sha256: 6fe84330d70c12e13809dc0607ecb0ca2d313bb1f6d7f62faf9e8337d7668947
+D3 exemption: on, exempted modes: 0
+
+--- 存量（基线内，冻结）: 0 条 [D1=0 D2=0 D3=0 D6=0] ---
+
+--- 新增（基线外，必拦）: 0 条 ---
+  (none)
+
+--- 基线里已不再成立（可重新冻结）: 526 条 ---
+  ::warning::STALE M-AUR-001|D6|related_modes=M-AUR-002
+  ::warning::STALE M-AUR-001|D6|related_modes=M-AUR-003
+  ::warning::STALE M-AUR-001|D6|related_modes=M-DAR-002
+  ::warning::STALE M-AUR-001|D6|related_modes=M-HEG-001
+  ::warning::STALE M-AUR-002|D6|related_modes=M-AUR-001
+  ::warning::STALE M-AUR-002|D6|related_modes=M-AUR-003
+  ::warning::STALE M-AUR-002|D6|related_modes=M-HEG-001
+  ::warning::STALE M-AUR-002|D6|related_modes=M-KD-001
+  ::warning::STALE M-AUR-003|D6|related_modes=M-AUR-001
+  ::warning::STALE M-AUR-003|D6|related_modes=M-AUR-005
+  ::warning::STALE M-AUR-003|D6|related_modes=M-CC-021
+  ::warning::STALE M-AUR-003|D6|related_modes=M-WJM-004
+  ::warning::STALE M-AUR-004|D6|related_modes=M-AUR-003
+  ::warning::STALE M-AUR-004|D6|related_modes=M-AUR-009
+  ::warning::STALE M-AUR-004|D6|related_modes=M-HEG-001
+  ::warning::STALE M-AUR-004|D6|related_modes=M-JBS-006
+  ::warning::STALE M-AUR-005|D6|related_modes=M-AUR-003
+  ::warning::STALE M-AUR-005|D6|related_modes=M-AUR-004
+  ::warning::STALE M-AUR-005|D6|related_modes=M-DAR-005
+  ::warning::STALE M-AUR-005|D6|related_modes=M-WZT-001
+  ::warning::STALE M-AUR-006|D6|related_modes=M-AUR-001
+  ::warning::STALE M-AUR-006|D6|related_modes=M-AUR-003
+  ::warning::STALE M-AUR-006|D6|related_modes=M-KD-001
+  ::warning::STALE M-AUR-006|D6|related_modes=M-WJM-004
+  ::warning::STALE M-AUR-007|D6|related_modes=M-AUR-005
+  ::warning::STALE M-AUR-007|D6|related_modes=M-AUR-010
+  ::warning::STALE M-AUR-007|D6|related_modes=M-LKY-006
+  ::warning::STALE M-AUR-007|D6|related_modes=M-WZT-010
+  ::warning::STALE M-AUR-008|D6|related_modes=M-AQU-006
+  ::warning::STALE M-AUR-008|D6|related_modes=M-AUR-007
+  ::warning::STALE M-AUR-008|D6|related_modes=M-LKY-006
+  ::warning::STALE M-AUR-008|D6|related_modes=M-WZT-010
+  ::warning::STALE M-AUR-009|D6|related_modes=M-AUR-004
+  ::warning::STALE M-AUR-009|D6|related_modes=M-CC-021
+  ::warning::STALE M-AUR-009|D6|related_modes=M-HEG-001
+  ::warning::STALE M-AUR-009|D6|related_modes=M-SHA-004
+  ::warning::STALE M-AUR-010|D6|related_modes=M-AUR-007
+  ::warning::STALE M-AUR-010|D6|related_modes=M-AUR-008
+  ::warning::STALE M-AUR-010|D6|related_modes=M-JEF-001
+  ::warning::STALE M-AUR-010|D6|related_modes=M-NAG-010
+  ::warning::STALE M-HER-001|D6|related_modes=M-GAN-001
+  ::warning::STALE M-HER-001|D6|related_modes=M-HER-002
+  ::warning::STALE M-HER-001|D6|related_modes=M-HER-007
+  ::warning::STALE M-HER-001|D6|related_modes=M-HER-010
+  ::warning::STALE M-HER-002|D6|related_modes=M-AUG-001
+  ::warning::STALE M-HER-002|D6|related_modes=M-HER-001
+  ::warning::STALE M-HER-002|D6|related_modes=M-HER-004
+  ::warning::STALE M-HER-002|D6|related_modes=M-MAI-002
+  ::warning::STALE M-HER-003|D6|related_modes=M-CIC-002
+  ::warning::STALE M-HER-003|D6|related_modes=M-FYJ-007
+  ... and 476 more stale entries
+
+[OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0
+
+--- D4 引文不符（真子串核验，Phase40-Z2）---
+  可核面: 缓存 key 可用 38 个 (index present=True)；参与判定的模式 20 条
+  unchecked           20
+  不可核理由分布（unchecked/quote-too-short 逐类计数）:
+    no-fulltext-link                                            13
+    no-citation: 出处里没有书名号引文                                      7
+  说明: 只对「出处有书名号引文 + 引文解析到原文类链接 + 缓存状态 ok」的模式可核；其余一律 unchecked 并计入上面的理由分布 —— **不假装核过**。命中只代表「字面不符」，不等于伪造（繁简/异体/意译都不命中，处置为复核）。
+
+--- D5 时间线矛盾（生卒年 × 文本年份，Phase40-Z2 / Phase42-Z4）---
+  生卒年装载: data/figures/*.json 扫 366 个文件 → 可用取值键 579 个；年份不完整/不可解析 51 个文件；键冲突丢弃 1 个键
+    键冲突丢弃: H-MZ-001       data/figures/H-MZ-001.json:birth_year/death_year[1890, 1990] vs data/figures/H-MZ-001_modes.json:birth_year/death_year[-372, -289]
+  生卒年可用人物: 579 个（data/figures/*.json，含字符串/公元前纪年解析）
+  可判定模式: 20 条（figure 有生卒年）
+  扫描到的 4 位年份 token: 4 个
+  clean                4
+  undetermined        16
+  tokens=0 的成因拆分（禁止把「无生卒年」读成「已覆盖 / 零缺陷」）:
+    no-four-digit-year-in-text                                  16
+  不可判定（逐类计数，禁止当成「零缺陷」）:
+  D5 命中: 0 条（本次全库扫描无「通过全部过滤」的矛盾）
+  说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。
+  取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en

@@ -1,0 +1,706 @@
+{
+ "schema_version": "v6",
+ "code": "H-CHB-001",
+ "figure_name_zh": "陈伯达",
+ "figure_name_en": "Chen Boda",
+ "mode_count": 10,
+ "modes": [
+  {
+   "id": "M-CHB-001",
+   "mode_code": "M-CHB-001",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "理论批判法",
+   "name_en": "Theoretical Critique Method",
+   "category": "政治治理",
+   "category_raw": "政治哲学思维",
+   "domain_zh": "马克思主义批判理论",
+   "domain_en": "Marxist Critique Theory",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "运用马克思主义理论武器，从阶级立场、历史唯物主义角度对敌对观点进行系统批驳，揭示其阶级本质和理论谬误。通过引经据典、逐条辨析、逻辑推演的方式，达到理论清算的目的。",
+   "definition_en": "Utilize Marxist theoretical weapons to systematically critique opposing viewpoints from class position and historical materialism, revealing their class essence and theoretical fallacies. Through classical citations, point-by-point analysis, and logical deduction, achieve theoretical清算.",
+   "source_chapter": "《评〈中国之命运〉》《中国四大家族》",
+   "key_concepts": [
+    "理论批判",
+    "阶级分析",
+    "历史唯物主义",
+    "理论清算",
+    "逐条批驳"
+   ],
+   "key_quote_zh": "批判的武器当然不能代替武器的批判，物质力量只能用物质力量来摧毁。",
+   "key_quote_en": "The weapon of criticism当然 cannot replace criticism by weapons, material force must be overthrown by material force.",
+   "process_zh": [
+    "确立批判的理论武器：熟练掌握马克思主义基本原理",
+    "识别批判对象的理论谬误：找出其逻辑矛盾和历史错误",
+    "逐条批驳：有理有据地逐一化解对方论点",
+    "揭示阶级本质：从经济基础和阶级关系层面剖析对手立场",
+    "得出批判结论：形成明确的是非判断"
+   ],
+   "process_en": [
+    "Establish theoretical weapons: master basic principles of Marxism",
+    "Identify theoretical fallacies of the target: find logical contradictions and historical errors",
+    "Point-by-point refutation: systematically dismantle each argument with evidence",
+    "Reveal class essence: analyze opponent's stance from economic base and class relations",
+    "Draw critical conclusions: form clear judgment of right and wrong"
+   ],
+   "representative_cases_zh": [
+    "《评〈中国之命运〉》：运用马克思主义理论逐条批驳蒋介石著作，揭露其反动本质",
+    "《中国四大家族》：从阶级分析角度揭露蒋宋孔陈四大家族垄断经济，被斯大林称赞"
+   ],
+   "representative_cases_en": [
+    "Critique of 'China's Destiny': Systematically refuted Chiang Kai-shek's work using Marxist theory, exposing its reactionary essence",
+    "The Four Big Families: Revealed the monopolistic economy of the Jiang, Song, Kong, and Chen families from a class analysis perspective, praised by Stalin"
+   ],
+   "modern_applications_zh": [
+    "学术评论：对错误观点的理论性批判",
+    "政策辩论：政策制定的阶级立场分析",
+    "舆论监督：对现象的阶级本质揭露"
+   ],
+   "modern_applications_en": [
+    "Academic commentary: Theoretical critique of erroneous viewpoints",
+    "Policy debate: Class stance analysis in policy formulation",
+    "Public opinion supervision: Exposing class essence of phenomena"
+   ],
+   "related_modes": [
+    "M-CHB-002",
+    "M-CHB-003",
+    "M-CHB-005",
+    "M-CHB-008"
+   ],
+   "legacy_mode_id": "M211",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-002",
+   "mode_code": "M-CHB-002",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "阶级分析法",
+   "name_en": "Class Analysis Method",
+   "category": "经济商业",
+   "category_raw": "政治经济学思维",
+   "domain_zh": "马克思主义阶级理论",
+   "domain_en": "Marxist Class Theory",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "将社会现象置于阶级关系中理解，分析各阶级的经济地位、政治立场和利益诉求。任何社会问题都可追溯至阶级关系，任何思想观点都有其阶级根源。",
+   "definition_en": "Understand social phenomena within class relations, analyzing the economic position, political stance, and interest demands of each class. Any social issue can be traced to class relations; any idea or viewpoint has its class roots.",
+   "source_chapter": "《中国四大家族》《人民公敌蒋介石》",
+   "key_concepts": [
+    "阶级划分",
+    "阶级利益",
+    "阶级斗争",
+    "经济基础",
+    "上层建筑"
+   ],
+   "key_quote_zh": "一切阶级斗争都是政治斗争。",
+   "key_quote_en": "All class struggle is political struggle.",
+   "process_zh": [
+    "识别分析对象的阶级属性：谁站在什么阶级立场上",
+    "分析各阶级的经济利益：他们代表什么生产关系",
+    "判断阶级立场的政治后果：其行为对谁有利",
+    "揭示隐藏在观点背后的阶级利益"
+   ],
+   "process_en": [
+    "Identify class attributes of the analysis target: which class stands where",
+    "Analyze economic interests of each class: what relations of production they represent",
+    "Judge political consequences of class stance: who benefits from their actions",
+    "Uncover class interests hidden behind viewpoints"
+   ],
+   "representative_cases_zh": [
+    "《中国四大家族》将近代中国经济概括为四大家族垄断资本，揭示民族资产阶级的两面性",
+    "《人民公敌蒋介石》分析蒋介石从革命者转变为反革命阶级的过程"
+   ],
+   "representative_cases_en": [
+    "'The Four Big Families' summarized modern Chinese economy as monopoly capitalism of four families, revealing the ambivalence of the national bourgeoisie",
+    "'The People's Enemy Chiang Kai-shek' analyzed Chiang's transformation from revolutionary to reactionary class"
+   ],
+   "modern_applications_zh": [
+    "社会阶层分析",
+    "利益集团研究",
+    "政策受益群体评估"
+   ],
+   "modern_applications_en": [
+    "Social stratification analysis",
+    "Interest group research",
+    "Policy beneficiary group assessment"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-003",
+    "M-CHB-006"
+   ],
+   "legacy_mode_id": "M212",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-003",
+   "mode_code": "M-CHB-003",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "政治敏锐法",
+   "name_en": "Political Sensitivity Method",
+   "category": "战略决策",
+   "category_raw": "政治策略思维",
+   "domain_zh": "政治战略/权力博弈",
+   "domain_en": "Political Strategy / Power Game",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "准确把握政治风向、斗争态势和权力格局，在复杂政治环境中判断时机、选择策略。既要有理论高度，也要有实践智慧，知道何时进、何时退、如何借势。",
+   "definition_en": "Accurately grasp political trends, struggle dynamics, and power structures; judge timing and choose strategies in complex political environments. Requires both theoretical height and practical wisdom—knowing when to advance, when to retreat, and how to leverage circumstances.",
+   "source_chapter": "《论毛泽东思想》及相关政治实践",
+   "key_concepts": [
+    "政治风向",
+    "斗争策略",
+    "权力格局",
+    "时机把握",
+    "借势而为"
+   ],
+   "key_quote_zh": "政治是各阶级之间的斗争，是无产阶级夺取政权之前用以发动群众的武器。",
+   "key_quote_en": "Politics is the struggle between classes, the weapon used by the proletariat to mobilize the masses before seizing power.",
+   "process_zh": [
+    "观察政治格局：识别主要力量及其关系",
+    "判断政治风向：把握主流意识形态和权力走向",
+    "选择策略位置：在政治光谱中找到自己的位置",
+    "把握介入时机：在关键时刻发声或保持沉默"
+   ],
+   "process_en": [
+    "Observe political landscape: identify major forces and their relations",
+    "Judge political trends: grasp mainstream ideology and power dynamics",
+    "Choose strategic position: find one's place on the political spectrum",
+    "Master intervention timing: speak or remain silent at critical moments"
+   ],
+   "representative_cases_zh": [
+    "在延安时期准确把握毛泽东思想地位，撰写《论毛泽东思想》确立其理论权威",
+    "文革期间利用政治风向迅速崛起，但也因风向转变而迅速失势"
+   ],
+   "representative_cases_en": [
+    "Accurately grasped the status of Mao Zedong Thought during the Yan'an period, writing 'On Mao Zedong Thought' to establish its theoretical authority",
+    "Rapidly rose during the Cultural Revolution by leveraging political trends, but also rapidly fell when the wind changed"
+   ],
+   "modern_applications_zh": [
+    "政治形势研判",
+    "组织策略制定",
+    "危机预警与应对"
+   ],
+   "modern_applications_en": [
+    "Political situation assessment",
+    "Organizational strategy formulation",
+    "Crisis early warning and response"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-004",
+    "M-CHB-009"
+   ],
+   "legacy_mode_id": "M213",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-004",
+   "mode_code": "M-CHB-004",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "战斗檄文法",
+   "name_en": "Combat Manifesto Method",
+   "category": "方法论通用",
+   "category_raw": "写作方法论",
+   "domain_zh": "政治写作/舆论动员",
+   "domain_en": "Political Writing / Public Opinion Mobilization",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "以战斗性、煽动性为特征的政论写作方法。语言犀利、逻辑严密、感情充沛，善于用强烈的措辞和生动的比喻激发读者的政治热情，达到动员群众、打击敌人的目的。",
+   "definition_en": "A polemical writing method characterized by combativeness and agitation. Language is sharp, logic is rigorous, emotion is full—skillfully using strong wording and vivid metaphors to stimulate readers' political enthusiasm, achieving the goal of mobilizing the masses and striking enemies.",
+   "source_chapter": "《人民公敌蒋介石》《评〈中国之命运〉》",
+   "key_concepts": [
+    "战斗性",
+    "煽动性",
+    "政治动员",
+    "犀利文风",
+    "舆论武器"
+   ],
+   "key_quote_zh": "笔墨当随时代，批评应当具有战斗性。",
+   "key_quote_en": "Writing should follow the times; criticism ought to be combative.",
+   "process_zh": [
+    "确定批判对象和战斗目标",
+    "选择最具冲击力的切入点和核心论点",
+    "运用排比、反问、比喻等修辞手法增强气势",
+    "以强烈的情感表达激发读者共鸣",
+    "给出明确的行动号召"
+   ],
+   "process_en": [
+    "Determine the critique target and combat objective",
+    "Select the most impactful entry point and core argument",
+    "Use rhetorical devices such as parallelism, rhetorical questions, and metaphors to enhance momentum",
+    "Evoke reader resonance through strong emotional expression",
+    "Provide a clear call to action"
+   ],
+   "representative_cases_zh": [
+    "《人民公敌蒋介石》以极具感染力的笔调将蒋介石定义为'人民公敌'，在解放区广为流传",
+    "《评〈中国之命运〉》以犀利文笔逐条批驳蒋介石的理论谬误，被称为'一篇战斗檄文'"
+   ],
+   "representative_cases_en": [
+    "'The People's Enemy Chiang Kai-shek' defined Chiang as 'the enemy of the people' with highly infectious prose, widely circulated in liberation areas",
+    "'Critique of China's Destiny' systematically refuted Chiang's theoretical fallacies with sharp writing, called 'a combat manifesto'"
+   ],
+   "modern_applications_zh": [
+    "政治评论写作",
+    "社论撰写",
+    "舆论战策略"
+   ],
+   "modern_applications_en": [
+    "Political commentary writing",
+    "Editorial composition",
+    "Public opinion warfare strategy"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-005",
+    "M-CHB-007"
+   ],
+   "legacy_mode_id": "M214",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-005",
+   "mode_code": "M-CHB-005",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "系统批判法",
+   "name_en": "Systematic Critique Method",
+   "category": "方法论通用",
+   "category_raw": "方法论思维",
+   "domain_zh": "批判方法论/逻辑分析",
+   "domain_en": "Critique Methodology / Logical Analysis",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "不是零散地反驳对方观点，而是从理论体系的高度进行系统性批驳。先理解对方完整的理论框架，再找出其根本矛盾和逻辑漏洞，最后从整体上瓦解其理论体系。",
+   "definition_en": "Not fragmentarily refuting opposing views, but conducting systematic critique from the height of theoretical frameworks. First understand the opponent's complete theoretical framework, then identify fundamental contradictions and logical loopholes, finally dismantle the entire theoretical system holistically.",
+   "source_chapter": "《评〈中国之命运〉》",
+   "key_concepts": [
+    "系统性",
+    "整体批驳",
+    "逻辑瓦解",
+    "理论解构",
+    "框架批判"
+   ],
+   "key_quote_zh": "不破不立，破字当头，立也就在其中了。",
+   "key_quote_en": "Nothing is established without being broken; with breaking as the priority, establishment follows.",
+   "process_zh": [
+    "全面理解对方的理论体系和论证逻辑",
+    "找出理论内部的矛盾点和薄弱环节",
+    "从根本前提上质疑对方理论的合法性",
+    "通过逻辑推演展示对方理论的荒谬后果",
+    "提出替代性的理论框架"
+   ],
+   "process_en": [
+    "Comprehensively understand the opponent's theoretical system and argumentation logic",
+    "Identify internal contradictions and weak points in the theory",
+    "Question the legitimacy of the opponent's theory at its fundamental premises",
+    "Demonstrate absurd consequences of the opponent's theory through logical deduction",
+    "Propose an alternative theoretical framework"
+   ],
+   "representative_cases_zh": [
+    "对《中国之命运》的系统批驳：从历史观、政治观、文化观三个层面逐一拆解蒋介石的理论体系",
+    "对国民党御用文人的批判：从理论根源到现实表现进行全面清算"
+   ],
+   "representative_cases_en": [
+    "Systematic critique of 'China's Destiny': Dismantled Chiang Kai-shek's theoretical system layer by layer from historical, political, and cultural perspectives",
+    "Critique of Kuomintang sycophantic intellectuals: Comprehensive清算 from theoretical roots to realistic manifestations"
+   ],
+   "modern_applications_zh": [
+    "理论争议解决",
+    "学术辩论",
+    "思想路线分析"
+   ],
+   "modern_applications_en": [
+    "Theoretical dispute resolution",
+    "Academic debate",
+    "Ideological line analysis"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-002",
+    "M-CHB-006"
+   ],
+   "legacy_mode_id": "M215",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-006",
+   "mode_code": "M-CHB-006",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "历史唯物分析法",
+   "name_en": "Historical Materialist Analysis Method",
+   "category": "史学文献",
+   "category_raw": "史学方法论",
+   "domain_zh": "历史唯物主义/社会发展规律",
+   "domain_en": "Historical Materialism / Social Development Patterns",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "从物质生产方式出发理解历史发展，认为经济基础决定上层建筑，生产力决定生产关系。任何历史现象都应从经济根源和阶级关系中寻找解释，而非从观念或英雄人物出发。",
+   "definition_en": "Understand historical development starting from material production modes, believing that the economic base determines the superstructure and productive forces determine relations of production. Any historical phenomenon should be explained from economic roots and class relations, not from ideas or heroic figures.",
+   "source_chapter": "《中国四大家族》及相关历史分析",
+   "key_concepts": [
+    "经济基础",
+    "上层建筑",
+    "生产力",
+    "生产关系",
+    "历史规律"
+   ],
+   "key_quote_zh": "不是人们的意识决定人们的存在，相反，是人们的社会存在决定人们的意识。",
+   "key_quote_en": "It is not the consciousness of men that determines their existence, but their social existence that determines their consciousness.",
+   "process_zh": [
+    "确定分析对象所处的历史时代和生产方式",
+    "分析该时代的经济基础和阶级结构",
+    "追溯上层建筑现象的经济根源",
+    "揭示历史发展的客观规律性"
+   ],
+   "process_en": [
+    "Determine the historical era and production mode of the analysis target",
+    "Analyze the economic base and class structure of that era",
+    "Trace economic roots of superstructural phenomena",
+    "Reveal the objectivity of historical development patterns"
+   ],
+   "representative_cases_zh": [
+    "《中国四大家族》将四大家族的形成追溯到半殖民地半封建社会的经济结构",
+    "对蒋介石政权的分析：从官僚垄断资本的角度揭示其阶级本质"
+   ],
+   "representative_cases_en": [
+    "'The Four Big Families' traced the formation of the four families back to the semi-colonial semi-feudal social economic structure",
+    "Analysis of Chiang Kai-shek's regime: Revealed its class essence from the perspective of bureaucratic monopoly capitalism"
+   ],
+   "modern_applications_zh": [
+    "历史事件分析",
+    "社会现象解读",
+    "经济发展规律研究"
+   ],
+   "modern_applications_en": [
+    "Historical event analysis",
+    "Social phenomenon interpretation",
+    "Economic development pattern research"
+   ],
+   "related_modes": [
+    "M-CHB-002",
+    "M-CHB-005",
+    "M-CHB-008"
+   ],
+   "legacy_mode_id": "M216",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-007",
+   "mode_code": "M-CHB-007",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "群众路线法",
+   "name_en": "Mass Line Method",
+   "category": "政治治理",
+   "category_raw": "政治哲学思维",
+   "domain_zh": "群众观点/政治动员",
+   "domain_en": "Mass Perspective / Political Mobilization",
+   "level": "辅助",
+   "priority": 7,
+   "definition_zh": "相信群众、依靠群众、从群众中来、到群众中去。将群众意见集中起来，化为系统的政策主张，再到群众中宣传解释，化为群众的行动。这是毛泽东思想的活的灵魂之一。",
+   "definition_en": "Believe in the masses, rely on the masses, come from the masses, go to the masses. Concentrate mass opinions into systematic policy propositions, then propagate and explain them among the masses, turning them into mass action. This is one of the living souls of Mao Zedong Thought.",
+   "source_chapter": "《论毛泽东思想》及相关政治实践",
+   "key_concepts": [
+    "群众路线",
+    "从群众中来",
+    "到群众中去",
+    "集中起来",
+    "坚持下去"
+   ],
+   "key_quote_zh": "群众是真正的英雄，而我们自己则往往是幼稚可笑的。",
+   "key_quote_en": "The masses are the true heroes, while we ourselves are often childish and ridiculous.",
+   "process_zh": [
+    "深入群众，了解群众的真实想法和诉求",
+    "将分散的群众意见集中为系统的政策主张",
+    "向群众宣传解释政策，使其成为群众的自觉行动",
+    "在实践中检验政策，不断修正完善"
+   ],
+   "process_en": [
+    "Go deep among the masses, understand their real thoughts and demands",
+    "Concentrate scattered mass opinions into systematic policy propositions",
+    "Propagate and explain policies among the masses, making them conscious action",
+    "Test policies in practice, continuously revising and perfecting them"
+   ],
+   "representative_cases_zh": [
+    "在延安整风运动中贯彻群众路线，反对主观主义、宗派主义和党八股",
+    "文革初期利用群众运动推动政治斗争"
+   ],
+   "representative_cases_en": [
+    "Implemented the mass line during the Yan'an Rectification Movement, opposing subjectivism, sectarianism, and party stereotyped writing",
+    "Initially utilized mass movements during the early Cultural Revolution to advance political struggles"
+   ],
+   "modern_applications_zh": [
+    "民主决策",
+    "社会治理",
+    "政策制定"
+   ],
+   "modern_applications_en": [
+    "Democratic decision-making",
+    "Social governance",
+    "Policy formulation"
+   ],
+   "related_modes": [
+    "M-CHB-003",
+    "M-CHB-004",
+    "M-CHB-009"
+   ],
+   "legacy_mode_id": "M217",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-008",
+   "mode_code": "M-CHB-008",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "意识形态分析法",
+   "name_en": "Ideological Analysis Method",
+   "category": "文化批判思维",
+   "category_raw": "文化批判思维",
+   "domain_zh": "意识形态理论/文化批判",
+   "domain_en": "Ideological Theory / Cultural Criticism",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "将文化、思想、学术现象视为意识形态的反映，分析其背后的阶级利益和政治目的。任何理论都不是中立的，都有其意识形态立场和阶级属性。",
+   "definition_en": "View culture, thought, and academic phenomena as reflections of ideology, analyzing the underlying class interests and political purposes. No theory is neutral; all have ideological stances and class attributes.",
+   "source_chapter": "《评〈中国之命运〉》及文化批判实践",
+   "key_concepts": [
+    "意识形态",
+    "阶级立场",
+    "文化批判",
+    "理论政治性",
+    "思想斗争"
+   ],
+   "key_quote_zh": "在意识形态领域，无产阶级不去占领，资产阶级就必然去占领。",
+   "key_quote_en": "In the ideological sphere, if the proletariat does not occupy it, the bourgeoisie will inevitably take over.",
+   "process_zh": [
+    "识别文化现象背后的意识形态倾向",
+    "分析意识形态服务的阶级利益",
+    "揭示文化观点的政治功能和作用",
+    "在思想战线上进行必要的斗争"
+   ],
+   "process_en": [
+    "Identify ideological tendencies behind cultural phenomena",
+    "Analyze class interests served by the ideology",
+    "Reveal the political function and role of cultural viewpoints",
+    "Conduct necessary struggles on the ideological front"
+   ],
+   "representative_cases_zh": [
+    "对胡适实用主义的批判：揭示其'实用'背后的帝国主义依附性",
+    "对梁实秋人性论的批判：指出其掩盖阶级对立的资产阶级意识形态本质"
+   ],
+   "representative_cases_en": [
+    "Critique of Hu Shi's pragmatism: Revealed the imperialist dependency behind its 'practicality'",
+    "Critique of Liang Shiqiu's human nature theory: Pointed out its bourgeois ideological essence masking class antagonism"
+   ],
+   "modern_applications_zh": [
+    "文化现象批判",
+    "思想路线分析",
+    "舆论导向研究"
+   ],
+   "modern_applications_en": [
+    "Cultural phenomenon critique",
+    "Ideological line analysis",
+    "Public opinion orientation research"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-002",
+    "M-CHB-010"
+   ],
+   "legacy_mode_id": "M218",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-009",
+   "mode_code": "M-CHB-009",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "辩证否定法",
+   "name_en": "Dialectical Negation Method",
+   "category": "哲学思维",
+   "category_raw": "哲学思维",
+   "domain_zh": "辩证法/否定之否定",
+   "domain_en": "Dialectics / Negation of Negation",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "通过对旧事物的否定实现新事物的产生，否定不是简单的抛弃，而是'扬弃'——既克服又保留。事物发展是通过肯定、否定、否定之否定的螺旋式上升过程实现的。",
+   "definition_en": "Achieve the emergence of new things through negation of the old. Negation is not simple abandonment but 'sublation'—both overcoming and preserving. Development proceeds through the spiral ascent of affirmation, negation, and negation of negation.",
+   "source_chapter": "马克思主义经典著作及《论毛泽东思想》",
+   "key_concepts": [
+    "辩证否定",
+    "扬弃",
+    "螺旋上升",
+    "否定之否定",
+    "发展观"
+   ],
+   "key_quote_zh": "辩证的否定是发展的环节，是通过矛盾而发展的。",
+   "key_quote_en": "Dialectical negation is a link in development, developing through contradiction.",
+   "process_zh": [
+    "认识事物的内在矛盾是发展的动力",
+    "理解否定是发展的环节而非简单的消灭",
+    "把握扬弃的含义：既克服又保留",
+    "预见否定之否定带来的更高发展阶段"
+   ],
+   "process_en": [
+    "Recognize internal contradictions as the driving force of development",
+    "Understand negation as a link in development, not simple elimination",
+    "Grasp the meaning of sublation: both overcoming and preserving",
+    "Foresee the higher development stage brought by negation of negation"
+   ],
+   "representative_cases_zh": [
+    "对中国传统文化的分析：既反对全盘西化，也反对盲目守旧，主张批判继承",
+    "对苏联模式的反思：吸收其经验教训，探索中国自己的社会主义道路"
+   ],
+   "representative_cases_en": [
+    "Analysis of Chinese traditional culture: Opposing both wholesale Westernization and blind conservatism, advocating critical inheritance",
+    "Reflection on the Soviet model: Absorbing its lessons while exploring China's own socialist path"
+   ],
+   "modern_applications_zh": [
+    "文化传承与创新",
+    "理论发展",
+    "社会变革分析"
+   ],
+   "modern_applications_en": [
+    "Cultural inheritance and innovation",
+    "Theoretical development",
+    "Social change analysis"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-006",
+    "M-CHB-010"
+   ],
+   "legacy_mode_id": "M219",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  },
+  {
+   "id": "M-CHB-010",
+   "mode_code": "M-CHB-010",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "综合方法论",
+   "name_en": "Comprehensive Methodology Method",
+   "category": "方法论通用",
+   "category_raw": "综合方法论",
+   "domain_zh": "方法论集成/系统性思维",
+   "domain_en": "Methodology Integration / Systems Thinking",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "将多种思维方法综合运用，根据具体情境灵活选择和分析。理论批判、阶级分析、政治敏锐、战斗檄文等方法不是孤立的，而是在具体实践中相互配合、相互支撑，形成完整的思想方法体系。",
+   "definition_en": "Comprehensively integrate multiple thinking methods, flexibly selecting and analyzing according to specific contexts. Theoretical critique, class analysis, political sensitivity, combat manifesto methods are not isolated but mutually supportive in practice, forming a complete system of thought methods.",
+   "source_chapter": "陈伯达思想方法综合",
+   "key_concepts": [
+    "方法论综合",
+    "灵活应用",
+    "系统思维",
+    "实践智慧",
+    "知行合一"
+   ],
+   "key_quote_zh": "方法是为解决问题服务的，不能脱离实际空谈方法。",
+   "key_quote_en": "Methods serve problem-solving and cannot be discussed in abstraction from reality.",
+   "process_zh": [
+    "识别问题的性质和领域：属于哪个学科范畴",
+    "选择合适的思维工具组合",
+    "综合运用多种方法进行系统分析",
+    "在实践中检验和修正方法论"
+   ],
+   "process_en": [
+    "Identify the nature and domain of the problem: which disciplinary category it belongs to",
+    "Select appropriate combinations of thinking tools",
+    "Comprehensively apply multiple methods for systematic analysis",
+    "Test and revise methodology in practice"
+   ],
+   "representative_cases_zh": [
+    "对《中国之命运》的批判综合运用了理论批判、阶级分析、历史唯物分析等多种方法",
+    "文革初期理论准备综合运用意识形态分析、政治敏锐、战斗檄文等多种方法"
+   ],
+   "representative_cases_en": [
+    "Critique of 'China's Destiny' comprehensively employed theoretical critique, class analysis, and historical materialist analysis",
+    "Theoretical preparation in early Cultural Revolution integrated ideological analysis, political sensitivity, and combat manifesto methods"
+   ],
+   "modern_applications_zh": [
+    "复杂问题分析",
+    "跨学科研究",
+    "综合决策支持"
+   ],
+   "modern_applications_en": [
+    "Complex problem analysis",
+    "Interdisciplinary research",
+    "Comprehensive decision support"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-003",
+    "M-CHB-008"
+   ],
+   "legacy_mode_id": "M220",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-sample",
+    "evidence": "旧世代载荷复刻样例（scratch 未入库）；引文/出处未独立核验，复刻入库前须走核验流程",
+    "checked_at": "2026-09-22",
+    "checker": "albo"
+   }
+  }
+ ]
+}
