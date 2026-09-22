@@ -225,6 +225,17 @@ phase21r/backup_modes_data_20260922_172740.json（2948 条），可整库回滚�
 - 跟踪型产物：docs/architecture/static_data_manifest.json、web/src/generated/siteCounts.ts
   （3072 条模式 x 304 位人物）；web/public/data/** 为 .gitignore 产物，由 CI 现场重建。
 
+### 5.3 恢复条目与 figure 内嵌的一致性核验
+
+- 方法：对 194 条恢复条目，逐一在对应 data/figures/<figure_code>.json 的内嵌 modes 中按 id 找同一条目，逐字段比对；
+- 有 dict 条目的内嵌共 34 条覆盖恢复 id：H-YLS-001 10、H-SJM-001 10、H-DRK-001 10、H-NKR-001 4；
+  这 34 条的内容字段（name_zh / name_en / definition_zh / definition_en / domain_* / key_quote_* / source_chapter 等）
+  与内嵌逐字一致 —— 差异只出现在 3 个「库内专属」字段：verification（34 条，内嵌本不含验证块）、
+  figure_name（34 条，内嵌为 null）、figure_code（30 条，内嵌为 null），即内嵌侧本无这些键，非内容冲突，内容 mismatch = 0；
+- 其余 160 条：对应图档的内嵌形态是 mode_ids 清单或仅图档元数据（无条目体），无条目体可比对；
+  其 id 与库内一一对应（F1 claims 扫描 0 缺失佐证）；
+- 恩克鲁玛 4 条的 category 归一已同步进图档内嵌（第 3.3 节），故这 4 条同为 0 内容差异。
+
 ## 6. 两仓同步与 parity
 
 - 工具口径：tools/check_repo_parity.py（构建图文件逐字节 sha256；含未跟踪但不被 .gitignore 的文件；排除产物/备份/不参与构建者，排除项带理由）；
