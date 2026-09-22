@@ -1,0 +1,863 @@
+{
+  "schema_version": "v6",
+  "id": "H-THU-001",
+  "code": "THU",
+  "figure_name": "修昔底德",
+  "figure_name_en": "Thucydides",
+  "figure_code": "Thucydides",
+  "figure_pinyin": "Xiūxīdǐdé",
+  "aliases": [
+    "修昔底德（Thucydides，约前 460 生于雅典阿洛佩刻区 [Halimous/Alopeke]，约前 400 卒），父名奥洛罗斯（Oloros），与色雷斯王族同名，家族在色雷斯有金矿利益",
+    "雅典十将军之一（strategos，前 424/423 年），受命守色雷斯；安菲波利斯（Amphipolis）失守后被判流放二十年，流放期间得以遍访交战双方『既与伯罗奔尼撒人、也与雅典人』——此点见《战争史》5.26",
+    "《伯罗奔尼撒战争史》（History of the Peloponnesian War）作者：八卷，止于前 411 年第 21 年战事，全书未完成",
+    "『科学史学之父』（father of scientific history）：主张严格取证、不诉诸神意、分析因果；但他本人只承认自己写的是『所有人的永恒财富』（κτῆμα ἐς αἰεί）",
+    "legacy code 提示：本档案为新入库，库内无 H-THU-* / M-THU-*，勿与他人物前缀混用；近名 M-TUT-*（图特摩斯三世）属他人"
+  ],
+  "birth_year": -460,
+  "death_year": -400,
+  "era": "雅典古典时期/伯罗奔尼撒战争时代（约前 460 生于雅典阿洛佩刻区—前 431 战争爆发即着手撰写，自称『开战之初便已预知其将是一场大战』—前 430/429 染雅典大疫并幸存，亲历者之一—前 424/423 当选十将军受命守色雷斯，冬季安菲波利斯失守，被召回国受审，遂流亡二十年—流亡期间游历伯罗奔尼撒、西西里，遍访双方当事人—前 404 战争以雅典投降结束，其著作未能写到终点—约前 400 卒，一说归国途中遇害、葬于雅典墨利忒门附近，一说客死色雷斯）",
+  "school": "雅典城邦政治与军事实践＋爱奥尼亚『探究』（historia）传统（赫卡泰俄斯、希罗多德）＋智者派（Sophists）辩论术与语言批判＋希腊悲剧的世界观（福祸翻转、命运与性格）＋修昔底德本人的流放经历（使他成为交战双方的观察者而非一方代言人）",
+  "style_name": "Thucydides",
+  "courtesy_name": "Thoukydides / Θουκυδίδης（父名 Oloros；后世传记家 Marcellinus 约千年后为其作传，其中年代多不可靠）",
+  "pseudonym": "无笔名。古代抄本以『Θουκυδίδης Ἀθηναῖος』（雅典人修昔底德）开篇自署；其书在古代无名，八卷分卷与《伯罗奔尼撒战争史》这一书名均为后世（很可能亚历山大里亚的图书馆学者）所加",
+  "historical_significance": "修昔底德是西方史学从『记录所见所闻』转向『可检验的因果解释』的分水岭。他的四步贡献是：其一，把取证的纪律写成公开方法——不采信随便听来的说法、不用自己的揣测，而是逐事核对（1.22），并直言『人对真相的探究如此漫不经心，随手接受第一个听到的故事』（1.20）；其二，把战争的原因分成两层——各方公开援引的争端（αἰτίαι）与『最少被说出口、却最真实的原因』：雅典势力的增长与由此引起的斯巴达恐惧（1.23）；其三，坚持人性（τὸ ἀνθρώπινον）在和平与动荡中恒定，因此内乱、瘟疫、帝国过度伸展这类事情『只要人性不变，就会以大体相同的方式重演』，他由此为写作立下跨时代的目标（1.22、3.82）；其四，把『强权与正义』的边界写成一场对话——米洛斯对话中，雅典人放弃一切道德辩护，直陈『强者行其所能，弱者忍其所必须』（5.89），成为后世现实主义政治学与国际关系理论的源头之一。此外，他首创大量『演讲词』（speeches）的文学形式并坦白其为文学重构而非逐字记录（1.22），以科基拉内乱为样本记录语言本身如何在暴力中失去含义（3.82），并把西西里远征写成一场由希望取代算计、由过度自信走向灭顶灾难的悲剧（7.87）。他将事件史、病理学、政治学与悲剧诗学四种写法熔于一炉，此后两千年的战争史与政治史写作都在他设定的坐标系里进行。",
+  "unique_thinking": "修昔底德的独特之处在于：他把『证据纪律』『因果分层』『人性常量』三者拧成一根轴，再用悲剧的叙事负载它。他的独门路径是：其一，先立取证规则——目击优先、传闻过滤、逐事核对，宁可写得『不悦耳』也不加神话与夸大（M-THU-001）；其二，把原因分成『公开说出的借口』与『最少说出口的真实起因』，让结构性力量而非道义指控承担解释职责（M-THU-002）；其三，以『人性不变』为跨时代写作立法，把当代事件变成后世的诊断样本（M-THU-003）；其四，让交锋双方各自把话说完，用并置的演说词暴露立场背后的价值尺度，而史家几乎不作直接宣判（M-THU-004）；其五，在米洛斯对话里把道德修辞一层层剥掉，只留下力量、恐惧与利害的算术（M-THU-005）；其六，把瘟疫与内乱当作极端条件下的自然实验，观察制度、习俗与语言在压力下如何解体（M-THU-006）；其七，用『增长—恐惧—战争』的链条解释同盟体系的崩溃，把开战责任从个人恶意转译为结构动力（M-THU-007）；其八，反复警告成功带来的傲慢与希望取代算计的过度伸展，并把西西里远征写成这一警告的完整案例（M-THU-008）；其九，坚持叙述者克制、拒绝装饰、不取悦听众，把判断尽可能交还给读者（M-THU-009）；其十，用悲剧式的灾难叙事承担『记录人类苦难』的伦理任务，让后世从受难本身而不仅是胜败中学到东西（M-THU-010）。与希罗多德相比，他把多声部的『探究』收窄为收紧到当场证据的单一裁决；与克劳塞维茨相比，他不给战争立法，而是让战争自己暴露人性与制度的边界。",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-THU-001",
+    "M-THU-002",
+    "M-THU-003",
+    "M-THU-004",
+    "M-THU-005",
+    "M-THU-006",
+    "M-THU-007",
+    "M-THU-008",
+    "M-THU-009",
+    "M-THU-010"
+  ],
+  "mode_ids_note": "M-THU-001~010 为本档案深度挖掘的 10 个 v6 思维模式。卡面写定 'M-THU-001~010'，与 code 规范（figure_code 去空格大写、<=8 字符：Maxwell->M-MAX、Faraday->M-FAR、Herodotus->M-HRD）一致。实测 data/modes_data.json（2898 条，2026-09-21 CST）中 'M-THU' 前缀零占用，'M-TH' 前缀亦空，figure_code 'Thucydides' 不在库，故无需改写前缀；库内 M-TUT-*（图特摩斯三世）属他人，不得归并。",
+  "key_concepts": [
+    "目击证据优先",
+    "传闻过滤",
+    "逐事核对（akribeia）",
+    "永恒财富（ktema es aei）",
+    "最真实的起因",
+    "公开借口与结构性原因分层",
+    "人性常量（to anthropinon）",
+    "演说词并置",
+    "米洛斯对话",
+    "强者行其所能",
+    "内乱（stasis）与语言崩解",
+    "瘟疫作为极端实验",
+    "增长—恐惧—战争链条",
+    "希望取代算计",
+    "西西里远征",
+    "叙述者克制",
+    "悲剧式灾难叙事"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "Herodotus",
+      "target_figure_name": "希罗多德",
+      "relation_type": "史学伦理的分岔：多声部『探究』（historia）vs 收紧到当场证据的单一裁决",
+      "description_zh": "希罗多德与修昔底德是西方史学第一次、也是最彻底的一次方法论分岔。希罗多德称自己的写作目的是『使人类的作为不至因年深日久而湮没』，他把听来的多种说法并置、把神谕与奇闻一并记入，甚至在承认无从判断时明说『我有责任记下听到的，但没有责任相信它』（《历史》7.152）——多声部、开放、拒下终判（M-HRD-003/M-HRD-006）；修昔底德则把这一切收窄：他明确说『我不认为把随便听来的第一个说法写下来是合适的』，要求逐事核对、目击优先，并宣布自己的著作『不是为了迎合当下听众的喝彩，而是为了成为所有人的永恒财富』（1.22），因而删去了诗人与纪事家所热衷的、无法检验的神话成分（1.21）。两人的差异在对象上也可见：希罗多德写的是『希腊人与异族人的伟大功业』的广谱世界，修昔底德几乎只写政治与战争，且自认要为后世提供可复用的因果结构。本档案 M-THU-001 与希罗多德档案 M-HRD-003 构成『目击证据收窄 vs 多源并置』的对照链，M-THU-004 与 M-HRD-006 构成『演说并置但不宣判 vs 多声部但明示存疑』的对照链。",
+      "bidirectional_hint": "希罗多德档案（H-HRD-001）未来修订时，可在 M-HRD-003/M-HRD-006 处补一条指向 Thucydides/M-THU-001 的跨引用（后继者以『严格当场证据』拒绝传闻——两种史学伦理的分野从这里开始）；亦可在 M-HRD-006 处对照 M-THU-004（并置双方却不掩藏史家裁决的强化）。",
+      "mode_pair": [
+        "M-THU-001",
+        "M-HRD-003"
+      ]
+    },
+    {
+      "target_figure_code": "H-CW-001",
+      "target_figure_name": "克劳塞维茨",
+      "relation_type": "战争分析的两种层级：从政治结构解释战争 vs 从战争内部提炼理论",
+      "description_zh": "克劳塞维茨把战争理解为『政治的延续』，主张用政治目的解释战争的形态与限度，并反对把战争当成独立于社会之外的技艺；修昔底德则更早地把战争放回城邦政治与同盟结构中理解，用『势力的增长与由此引起的恐惧』解释战争的爆发（1.23），并把战争写成暴露人性与制度边界的情境（3.82）。两人的方法论也有镜像关系：克劳塞维茨在《战争论》中追求『把战争中的各项因素归结为可训练的概念』并为统帅立法（M-CW-001/M-CW-002）；修昔底德则拒绝给出配方，他提供的是可复用的诊断结构——因果分层、恐惧机制、过度伸展的警告，判决权交给读者（M-THU-002、M-THU-007）。对『摩擦与偶然』的处理尤其值得并读：克劳塞维茨把摩擦、雾与偶然系统化为战争理论的核心概念，修昔底德则说『偶然的突发不是计算所能确定的』（1.84）并在西西里远征中把它演示为灾难的直接触发器（M-THU-008）。本档案 M-THU-007 与克劳塞维茨档案 M-CW-001 构成『结构—恐惧诊断 vs 政治目的分析』的对照链。",
+      "bidirectional_hint": "克劳塞维茨档案（H-CW-001）未来修订时，可在 M-CW-001/M-CW-002 处补一条指向 Thucydides/M-THU-007 的跨引用（以政治结构解释开战动力的最早样本），并对照 M-THU-008（偶然与过度伸展如何摧毁精密的计划）。",
+      "mode_pair": [
+        "M-THU-007",
+        "M-CW-001"
+      ]
+    },
+    {
+      "target_figure_code": "H-SW-001",
+      "target_figure_name": "孙武",
+      "relation_type": "现实主义的两种写法：胜战之算（兵家）vs 开战之因与战中之苦（史家）",
+      "description_zh": "孙武与修昔底德都把道德修辞从战争分析中剥离，但剥离的方向不同。《孙子》以『知彼知己』『先胜而后战』为轴，为取胜提供计算框架——利害、虚实、奇正、地形（M-SW-001/M-SW-002）；修昔底德则把同样的现实主义用在更冷的地方：他不是教人如何取胜，而是追究城邦为何必然走向战争（1.23），以及一旦开战，制度、习俗与语言如何在极端条件下解体（3.82），并让强者直言『强者行其所能，弱者忍其所必须』（5.89）。一个显著的分工是：孙武的受众是将帅，目标是可用之策；修昔底德的受众是后世读史者，目标是可辨之因果。两人也各自给出关于『希望』的警告：兵家强调以实击虚、不打无把握之仗；修昔底德则把『把所渴望的托付给漫不经心的希望，而用自以为是的理性推开所不愿面对的』（4.108）视为人类通病（M-THU-008）。本档案 M-THU-005 与孙武档案 M-SW-001 构成『权力算术的现实主义 vs 兵家胜算的现实主义』的对照链。",
+      "bidirectional_hint": "孙武档案（H-SW-001）未来修订时，可在 M-SW-001/M-SW-002 处补一条指向 Thucydides/M-THU-005 的跨引用（两种现实主义的边界：谋胜 vs 究因），并对照 M-THU-008（希望如何替代计算并导致过伸）。",
+      "mode_pair": [
+        "M-THU-005",
+        "M-SW-001"
+      ]
+    }
+  ],
+  "tags": [
+    "修昔底德",
+    "Thucydides",
+    "伯罗奔尼撒战争史",
+    "History of the Peloponnesian War",
+    "科学史学",
+    "Scientific History",
+    "目击证据",
+    "Eyewitness Testimony",
+    "传闻过滤",
+    "Filtering Hearsay",
+    "逐事核对",
+    "Akribeia",
+    "永恒财富",
+    "Ktema es Aei",
+    "最真实的起因",
+    "Truest Cause",
+    "公开借口",
+    "Stated Pretext",
+    "人性不变",
+    "Human Nature Constant",
+    "演说词",
+    "Set Speeches",
+    "米洛斯对话",
+    "Melian Dialogue",
+    "强者行其所能",
+    "The Strong Do What They Can",
+    "雅典瘟疫",
+    "Plague of Athens",
+    "科基拉内乱",
+    "Corcyra Stasis",
+    "语言崩解",
+    "Degradation of Language",
+    "增长与恐惧",
+    "Growth and Fear",
+    "同盟体系",
+    "Alliance System",
+    "西西里远征",
+    "Sicilian Expedition",
+    "过度伸展",
+    "Overreach",
+    "希望取代算计",
+    "Hope over Calculation",
+    "叙述者克制",
+    "Narrative Restraint",
+    "悲剧叙事",
+    "Tragic History",
+    "现实主义",
+    "Political Realism",
+    "雅典帝国",
+    "Athenian Empire"
+  ],
+  "caveats": [
+    "生卒与生平须按一手材料与低可靠性二手材料分开表述：修昔底德本人只提供国籍、父名、出生地、参战、染疫与流放（主要在 1.1、1.22、5.26）；约前 460 生、约 400 卒、流放二十年、归国途中遇害、葬于墨利忒门附近等细节，来自千余年后的 Marcellinus 传记与 Pausanias，均不可当作确证。引用时应写『约』，并注明哪些是本人自述、哪些是后世追记。",
+    "书中的演说词不是逐字记录：修昔底德自述会让发言者『说出在我看来最切合当时情境的话，尽可能贴近实际所说的大意』（1.22），因此伯里克利葬礼演说、米洛斯对话、科基拉内乱诸篇都应作为文学重构而非会议记录引用。尤其米洛斯对话：修昔底德当时已流放，并不在场，该篇是他『所相信被讨论过的内容』的转写（维基百科 Siege of Melos 条目亦如此说明），不是加密会议纪要。",
+    "『修昔底德陷阱』（Thucydides Trap）是 Graham Allison 在 2010 年代提出的现代概念（『守成大国与崛起大国必然冲突』的类比警示），不是修昔底德的术语，也不是他做出的预言。他所说的是『雅典势力的增长与由此引起的斯巴达恐惧，使战争不可避免』（1.23）这一具体历史判断；把现代大国博弈直接套上其名时，必须注明这是借名而非原义，且该类比本身在学界有争议。",
+    "大量流行引语并非出自修昔底德，引用前须核对：『社会把学者与战士分开，就会……』出自 William Francis Butler（1889）；『一切力量的表现中，克制最令人敬畏』出自 19 世纪 F. B. Jevons 关于文风的论述，经 Charles Forster Smith 无署名引用后讹传为修昔底德；『历史是以实例教人的哲学』来自 3 世纪伪托 Dionysius 的《修辞术》；『正义不会降临雅典……』出自梭伦传记材料（Diogenes Laërtius、Plutarch）；『和平只是无尽战争的停战』出自柏拉图《法律篇》626a 的意译；『第九卷』任何引语均为玩笑（修昔底德只写了八卷）。",
+    "文本状态与译名须分别处理：《战争史》未完成，止于前 411 年第 21 年战事，第八卷风格与全书不同（无演说词），其作者身份与研究归属在学界长期有争论；今本八卷分卷与书名均非作者自定。所有希腊文引语在本档案中一律给出通行英译（主要参照 Richard Crawley 译本），不同译本措辞差异明显（如 3.82 的 βίαιος διδάσκαλος 有『violent teacher』『violent taskmaster』『a violent schoolmaster』多种译法），引用时必须注明译本源流，不可把某一英译当作原文的唯一含义。"
+  ],
+  "modes": [
+    {
+      "id": "M-THU-001",
+      "mode_code": "M-THU-001",
+      "figure_code": "Thucydides",
+      "name_zh": "目击取证与传闻过滤法",
+      "name_en": "Eyewitness First: Filtering Hearsay into Verifiable Fact",
+      "category": "史学文献",
+      "category_raw": "核心方法",
+      "domain_zh": "史学方法/证据等级与事实核验",
+      "domain_en": "Historical Method / Evidence Grading and Fact Verification",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "修昔底德面对的第一道难题不是解释战争，而是确定『发生了什么』。他亲眼看着人们如何对待事实：『人对真相的探究如此漫不经心，随手就接受第一个到手的故事』（1.20）。他的应对不是更勤奋地收集，而是先立一套证据规则，然后按规则取舍。规则有三条。其一，来源分级：把『随便听来的第一个说法』与『我亲眼所见』、『我逐一向当事人核对所得』分开，后者才可用；他甚至明说对于无法亲历的事，也要『尽最大可能精确地』逐事核查（1.22）。其二，抵牾处不抹平：当目击者说法不一致时（他承认『目击者对同一件事的说法并不相同，视其偏爱或记忆而定』），他不取平均、不取听起来最顺的一个，而是记录分歧本身，把不确定性留在文本里。其三，明确拒绝装饰：删去诗人夸大的渲染与纪事家为取悦听众而牺牲真相的成分，因为那些题材『超出证据所能及』（1.21）。代价是文本『不够悦耳』，他接受这个代价，因为目标不是当场的喝彩，而是『所有人的永恒财富』。方法论签名：先给证据定级、再让事实入场——凡无法核对者宁可存疑标注，也不为叙事顺畅而补足。",
+      "definition_en": "The first problem Thucydides faced was not explaining the war but establishing what had happened, and he had watched how carelessly people treated that question: so little pains do most men take in the search for truth that they accept the first story that comes to hand (1.20). His response was not to collect harder but to fix a rule of evidence first and let the rule decide what entered the text. The rule has three parts. First, sources are graded: what one hears from the first comer is separated from what one saw oneself and from what one verified item by item with the participants; only the latter counts, and where he could not be present he still investigated each event with the greatest possible accuracy (1.22). Second, disagreement is not smoothed over: since eyewitnesses did not agree but spoke according to favour or memory, he neither averages the accounts nor picks the one that reads best; the disagreement itself is recorded and the uncertainty is left standing in the text. Third, ornament is refused outright: the exaggerations of poets and the embellishments of chroniclers who are attractive at truth's expense are dropped, because their subjects lie beyond the reach of evidence (1.21). The cost is a narrative that is less pleasing to the ear, and he accepts the cost, because the aim is not the applause of the moment but a possession for all time. Method signature: grade the evidence before letting any fact in - what cannot be checked is marked as uncertain rather than quietly filled in for the sake of a smooth story.",
+      "source_chapter": "《伯罗奔尼撒战争史》(History of the Peloponnesian War) I.1『雅典人修昔底德……开战之初即着手撰写』；I.20.3『人对真相的探究如此漫不经心』；I.21.1 拒绝诗人夸大与纪事家『以牺牲真相换取可读性』；I.22.2-4 取证方法自述与『不属于当下喝彩，而是永恒财富』；V.26 自述流放期间得以遍访双方",
+      "key_quote_zh": "关于所发生的事，我不认为从随便遇到的第一个说法写下来是合适的，也不依据我自己的揣测；凡我亲身经历或从他人处听来之事，我都尽力逐事核实到最精确的程度。……本书不是为迎合当下听众的喝彩，而是为了成为所有人的永恒财富。——《战争史》I.22（Crawley 译本）",
+      "key_quote_en": "With reference to the narrative of events, far from permitting myself to derive it from the first source that came to hand, I did not even trust my own impressions, but it rests partly on what I saw myself, partly on what others saw for me, the accuracy of the report being always tried by the most severe and detailed tests possible... it was composed to be a possession for all time, not as a prize-essay to be heard for the moment.",
+      "key_concepts": [
+        "目击优先",
+        "来源分级",
+        "逐事核对",
+        "分歧留痕",
+        "拒绝装饰",
+        "永恒财富",
+        "可检验性"
+      ],
+      "process_zh": [
+        "先给证据定级：把『听来的第一手说法』『自己揣测』『亲眼所见』『逐事核对所得』分成不同等级，只有后两级可以进入结论",
+        "对每一件关键事实逐一核对：向在场者交叉询问、比对不同来源，不因时间紧或叙事顺畅而跳过核验",
+        "不一致处照实保留：当来源互相矛盾时记录分歧与不确定，不取平均值、不选最好听的一种，也不替当事人圆场",
+        "删除无法检验的装饰：凡超出证据所能及的内容（传闻、狂热传说、为取悦听众的渲染）一律不收，并接受文本因此『不悦耳』的代价"
+      ],
+      "process_en": [
+        "Grade the evidence first: separate first-hearsay, one's own conjecture, direct eyewitness and item-by-item verification into distinct classes, and admit only the last two into conclusions",
+        "Verify each key fact one by one: cross-question those present, compare independent sources, and never skip verification because time is short or the story is flowing well",
+        "Preserve disagreement as it stands: when sources conflict, record the divergence and the uncertainty rather than averaging, choosing the best-sounding version, or smoothing things over for the actors",
+        "Delete what cannot be tested: refuse every element beyond the reach of evidence - rumour, pious legend, flattery for the audience - and accept that the text will for that reason be less pleasing to the ear"
+      ],
+      "representative_cases_zh": [
+        "《战争史》I.22 的方法自述：修昔底德公开写出自己的取证程序——不采信随便听来的说法、不信任自己的揣测、宁可让文本『缺少神话色彩而不够悦耳』，也要把每件事核实到最精确的程度；这是西方文献中最早的、公开可检验的取证声明之一",
+        "I.20-21 对前人叙事的清理：他逐条指出流行说法（如雅典僭主哈摩狄乌斯与阿里斯托革顿的故事）与事实不符，并批评诗人夸大、纪事家『以牺牲真相换取可读性』；由此把『史』从『传说的延长线』里切出来",
+        "反面警示：取证纪律最常见的失效不是造假，而是『叙事优先』——为了让故事完整，把缺口用合理推测填上，把互相矛盾的材料取一个听起来最顺的版本，把『据说』降格为『确实』。修昔底德恰恰相反，他宁可留下断裂（如第八卷风格突变、多处不作终判），也不把不确定伪装成确定；反例则是后世许多『读起来太顺』的记载，其顺畅本身就是未经核验的信号（同型风险：用流畅的叙述掩盖取证薄弱的调研报告）。"
+      ],
+      "representative_cases_en": [
+        "The methodological statement at I.22: Thucydides writes out his own procedure in public - refusing the first story that came to hand, distrusting his own impressions, accepting a narrative that lacks the romantic element and is therefore less easy to read, so that every event is tested to the greatest possible precision. It is one of the earliest openly testable statements of evidentiary method in Western literature",
+        "Clearing the ground at I.20-21: he points out case by case where popular accounts (for instance the story of the tyrant-slayers Harmodius and Aristogeiton) contradict the facts, and criticises poets for exaggeration and chroniclers who are attractive at truth's expense, cutting history away from being an extension of legend",
+        "Cautionary: the usual failure of evidentiary discipline is not fabrication but narrative priority - filling gaps with plausible guesswork, choosing the smoothest version of conflicting material, and demoting it is said to it is established. Thucydides does the opposite, preferring to leave breaks in the record rather than dress uncertainty as certainty; the counter-example is any account that reads too smoothly, for its very smoothness is a signal that verification was thin (same-type risk: a research report whose fluency hides weak evidence)."
+      ],
+      "modern_applications_zh": [
+        "情报与调研：进入陌生事件时先建立来源等级（亲历/一手文件/二手转述/推测），并规定只有前两级可作为结论依据；对关键事实执行双源交叉核验",
+        "新闻与内容生产：把『据说』『网传』与已核实信息在文本上显式区分，矛盾之处照实并列而非合成一个顺滑版本；宁可保留不确定，也不为可读性补全",
+        "数据分析与事实核查：为每条数据标注出处与可信等级，发现源间冲突时记录冲突而不是取均值掩盖；建立『不可检验即隔离』的流程",
+        "个人决策与历史复盘：区分『我自己看到的』与『我听别人说的』，并主动寻找与自己结论相反的证词；在复盘文档中保留未决项而不是强行给出因果"
+      ],
+      "modern_applications_en": [
+        "Intelligence and field research: entering an unfamiliar event, establish source grades first (direct experience, primary document, second-hand report, conjecture) and rule that only the top two may ground conclusions; require two independent sources for every key fact",
+        "Journalism and content production: mark it is said and circulating online as textually distinct from verified information, set contradictions side by side instead of blending them into one smooth version, and accept uncertainty rather than completing the story for readability",
+        "Data work and fact-checking: tag every data point with provenance and a confidence grade, record conflicts between sources instead of averaging them away, and run a quarantine rule for anything that cannot be tested",
+        "Personal decisions and post-mortems: separate what you saw yourself from what you were told, actively seek testimony against your own conclusion, and keep unresolved items open in the record rather than forcing a tidy causal story"
+      ],
+      "related_modes": [
+        "M-THU-002",
+        "M-THU-009",
+        "M-THU-004"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "希罗多德",
+        "司马迁"
+      ]
+    },
+    {
+      "id": "M-THU-002",
+      "mode_code": "M-THU-002",
+      "figure_code": "Thucydides",
+      "name_zh": "最真实起因与公开借口分离法",
+      "name_en": "Separating the Truest Cause from the Stated Pretext",
+      "category": "方法论通用",
+      "category_raw": "核心方法",
+      "domain_zh": "因果分析/结构原因与表层争端的分离",
+      "domain_en": "Causal Analysis / Structural Cause versus Surface Dispute",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "伯罗奔尼撒战争爆发前，几乎所有公开可见的理由都是具体争端：科基拉的冲突、波提狄亚的围城、墨伽拉的禁令——各方都在为自己的行为援引正当性。修昔底德反而把解释的重心移到一个没人愿意公开说的东西上：『我认为，最少被说出口的那个原因才是真实的：雅典势力的增长，以及由此在斯巴达引起的恐惧，使战争不可避免』（1.23）。他由此建立了一套两层因果结构：表层是各方援引的争端与道义理由（αἰτίαι），深层是力量对比的变化与由恐惧驱动的安全困境。分工是清楚的——表层解释『以什么为名开战』，深层解释『为什么必战』。他的操作有三个要点。其一，把道义语言视为需要解释的现象，而不是解释本身：当双方都能讲出正当理由时，正当性就不是变量。其二，找出结构性驱动力：力量的增长、同盟的连带、恐惧的自我实现（我还怕我们自己的失误，胜过怕敌人的计谋）。其三，用『若不如此会怎样』检验归因：如果一场冲突可以随时被挑明的小事引爆，那么真正的原因通常不在那件小事里。方法论签名：先把『人们说出口的理由』与『让冲突变得不可避免的力量』分成两层，再判断哪一层决定走向。",
+      "definition_en": "When the Peloponnesian War broke out, nearly every publicly visible reason was a concrete dispute - Corcyra, Potidaea, the Megarian decree - and each side cited its own justification. Thucydides moved the weight of explanation onto something nobody wished to say aloud: the truest cause, though least spoken of, I consider to be the growth of the power of Athens and the fear this inspired in Sparta, which made war inevitable (1.23). Out of this he built a two-layer causal structure: on the surface, the grievances and moral claims the parties advanced; beneath it, changes in the balance of power and the security dilemma driven by fear. The division of labour is clear - the surface explains in whose name war was begun, the depth explains why war became unavoidable. Three operating points follow. First, moral language is treated as a phenomenon to be explained rather than as an explanation: when both sides can produce a justice claim, the claim is not the variable that decides. Second, locate the structural driver - growth of power, entanglement of alliances, and fear that fulfils itself (I am more afraid of our own blunders than of the enemy's devices). Third, test attribution counterfactually: if a conflict can be set off by whichever small incident happens to come along, the incident is not the cause. Method signature: sort the reasons people state aloud from the forces that make conflict unavoidable, then decide which layer actually governs the outcome.",
+      "source_chapter": "《战争史》I.23.5-6『最真实的起因』原文；I.66 斯巴达人认定雅典已然违约并决意开战；I.88 斯巴达投票开战的真实理由是『雅典势力的增长与其自身的恐惧』；I.23 关于公开争端（科基拉、波提狄亚、墨伽拉）的叙述；I.84.4『我更怕我们自己的失误』",
+      "key_quote_zh": "至于战争的真实起因（最少被说出口的那个），我认为是：雅典势力的增长引起了斯巴达的恐惧，迫使双方走向战争。至于双方公开援引的争端，则是如下几件。——《战争史》I.23.5-6（Crawley 译本）",
+      "key_quote_en": "The real cause I consider to be the one which was formerly most kept out of sight. The growth of the power of Athens, and the alarm which this inspired in Lacedaemon, made war inevitable. Still, the grounds of complaint which were openly alleged by both sides were these.",
+      "key_concepts": [
+        "最真实的起因",
+        "公开借口",
+        "结构原因",
+        "力量增长",
+        "恐惧驱动的安全困境",
+        "反事实检验",
+        "道义语言的现象化"
+      ],
+      "process_zh": [
+        "把各方公开援引的理由先列全并原样保留：不否认它们的真实性，而是把它们登记为『以什么为名』这一层，暂不作为解释",
+        "寻找使冲突不可避免的结构力量：力量对比的变化、同盟的连带效应、恐惧的自我实现机制，并对它做反事实检验（若无此结构，冲突是否只是可化解的纠纷）",
+        "区分『触发事件』与『根本原因』：识别那些随时可被替换的小争端，判断它们是否只是被选中的导火索",
+        "对两层原因分别给出可检验的判断：表层解释名义与时机，深层解释必然性与走向，并在结论中注明证据强度"
+      ],
+      "process_en": [
+        "List and preserve every publicly stated grievance as given: do not deny its truth, but file it in the layer of in whose name, and withhold it from explanatory duty for now",
+        "Look for the structural force that made conflict unavoidable - shifts in the balance of power, alliance entanglement, self-fulfilling fear - and test it counterfactually (without this structure, would the conflict have remained a soluble quarrel)",
+        "Distinguish triggering incident from root cause: identify small disputes that could have been swapped for any other and judge whether they were merely the chosen fuse",
+        "Give testable judgements for each layer separately: the surface explains the name and the timing, the depth explains the necessity and the direction, and state the evidential strength of each in the conclusion"
+      ],
+      "representative_cases_zh": [
+        "I.23-88 的开战归因：修昔底德把科基拉、波提狄亚、墨伽拉三件公开争端与『雅典势力的增长引起斯巴达恐惧』这一结构原因分开，并在 I.88 明说斯巴达人投赞成票的真实理由是『雅典已然强大、令人恐惧』——同一场战争被拆成『以什么为名』与『为何必战』两层",
+        "I.84 斯巴达王的判断：他承认准备应以对敌人的能力评估为基础，而不是指望对方犯错，并说自己更怕己方的失误——这既是现实主义，也是把解释权从中人的道德指责转回结构的一面",
+        "反面警示：归因最常见的滑落方式是『抓住最近的那件坏事』——找到一份挑衅声明、一次制裁、一场事故，就把它当成全部原因，因为具体事件比结构调整更好讲述、也更容易指认责任人。这种写法能迅速得到立场鲜明但不可检验的结论：把可替换的导火索当作根本原因，就无法回答『若没有这件事，冲突是否仍会发生』。与之相反，若把所有冲突一律归因于抽象结构、否认任何具体行为的因果作用，同样会滑向不可证伪的空话（同型风险：把行业周期解释成某次人事变动，或把某次事故解释成必然的宿命）。"
+      ],
+      "representative_cases_en": [
+        "The attribution of the war's outbreak at I.23-88: Thucydides separates the three open disputes - Corcyra, Potidaea, Megara - from the structural cause, the growth of Athenian power and the fear it aroused, and at I.88 states that the Spartans voted for war because Athens had already grown great and alarming. One war is split into in whose name and why it became necessary",
+        "The judgement of the Spartan king at I.84: he insists that preparations rest on an assessment of the enemy's capacity rather than on the hope that he will blunder, and that he fears his own side's mistakes more than the enemy's devices - at once realism and a shift of explanatory weight from personal malice back to structure",
+        "Cautionary: the commonest slide in attribution is seizing the nearest bad thing - a provocative statement, a sanction, an accident - and calling it the whole cause, because a concrete incident is easier to narrate and to blame than a structural shift. Such writing yields conclusions that are vivid but untestable: take a swappable fuse for the root cause and you can no longer answer whether the conflict would still have happened. The opposite failure is equally serious: attributing every conflict to abstract structure and denying any causal role to concrete acts slides into unfalsifiable talk (same-type risk: explaining an industry cycle by one personnel change, or an accident by inevitability)."
+      ],
+      "modern_applications_zh": [
+        "战略与政策分析：把『公开给出的理由』（公报、声明、法律依据）与『驱动力』（力量对比、依赖关系、恐惧循环）分层记录，先判断哪一层决定行为再制定对策",
+        "冲突与谈判复盘：面对可以互相替换的争端清单，追问『若没有这一件，冲突是否仍会发生』；把反复出现的模式而非单次事件当作诊断对象",
+        "组织与商业竞争：区分竞争对手的公开叙事与结构性动机（成本结构、渠道依赖、资本压力），避免把一次公开表态当作其全部战略",
+        "个人关系与自我诊断：当自己坚持某个具体委屈时，追问这类冲突是否反复发生、其背后的力量格局是什么，避免把可替换的导火索当成根本问题"
+      ],
+      "modern_applications_en": [
+        "Strategy and policy analysis: record the reasons given publicly (communiques, statements, legal grounds) separately from the drivers (balance of power, dependency, fear cycles), and decide which layer governs behaviour before choosing a response",
+        "Conflict and negotiation review: faced with a swappable list of disputes, ask whether the conflict would still have happened without any one item, and diagnose the recurring pattern rather than the single incident",
+        "Organisations and competition: separate a rival's public narrative from its structural motives (cost base, channel dependence, capital pressure) instead of treating one public statement as its whole strategy",
+        "Personal relationships and self-diagnosis: when clinging to a particular grievance, ask whether this kind of conflict keeps recurring and what the underlying balance is, so a swappable fuse is not mistaken for the root problem"
+      ],
+      "related_modes": [
+        "M-THU-007",
+        "M-THU-001",
+        "M-THU-005"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "克劳塞维茨",
+        "马基雅维利"
+      ]
+    },
+    {
+      "id": "M-THU-003",
+      "mode_code": "M-THU-003",
+      "figure_code": "Thucydides",
+      "name_zh": "人性常量与跨世鉴戒法",
+      "name_en": "Human Nature as a Constant: Writing for Readers Not Yet Born",
+      "category": "史学文献",
+      "category_raw": "核心方法",
+      "domain_zh": "史学方法/跨时代可复用性",
+      "domain_en": "Historical Method / Cross-generational Reusability",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "修昔底德给写作定的目标不是记录一场战争，而是给出一个能反复使用的诊断样本：他声称本书『不是为迎合当下听众的喝彩，而是为了成为所有人的永恒财富』，理由是他相信自己所写的事『只要人性不变，就会以大体相同的方式再次发生』（1.22、3.82）。这条信念决定了他的取材与写法。第一，他不为人名与奇闻立传，而抽取可复用的机制：内乱中派系如何互相激化、瘟疫下习俗如何瓦解、帝国的扩张何时反噬——这些机制的载体是人性与环境，而不是具体城邦。第二，他把环境视为变量、人性视为常量：同一批人在和平时期与极端压力下会表现出完全不同的行为，因此解释必须写成『在何种条件下，人会怎样』，而不是『某民族天生如何』。第三，由此得出史学的时间功能：写作是为未来读者在同类情境发生之前提供预演，使他们在局势恶化时能认出自己所处的位置。方法论签名：把当代事件抽象为以人性为常量的条件—行为关系，使结论对未经历此事的后人仍然可用。",
+      "definition_en": "Thucydides set his work a target larger than recording a war: he claimed to have composed it not as a prize-essay to be heard for the moment but as a possession for all time, on the ground that the events he described would recur, so long as human nature remains the same, in much the same manner (1.22, 3.82). That belief dictates what he includes and how he writes. First, he refuses biography and marvels and extracts reusable mechanisms instead - how factions inflame one another in civil strife, how customs dissolve under plague, when an empire's expansion turns against it - and the vehicles of these mechanisms are human nature and circumstance, not the particular city. Second, he treats circumstance as the variable and human nature as the constant: the same people behave utterly differently in peace and under extreme pressure, so the explanation must take the form under what conditions people do what, never this nation is by nature so. Third, from this follows the temporal function of history: to give future readers a rehearsal before the same situation reaches them, so that they can recognise where they stand as matters deteriorate. Method signature: abstract present events into condition-and-behaviour relations whose constant term is human nature, so the conclusions remain usable for readers who never lived through them.",
+      "source_chapter": "《战争史》I.22.4『永恒财富』；III.82.2『只要人性不变，这类事就会以相似方式重演』；II.53 瘟疫下习俗崩坏；III.82-84 内乱的行为通则；I.1.1 开战之初即预判其规模；V.26 贯穿全战（含战后）的写作跨度",
+      "key_quote_zh": "我这部著作不是为迎合当下听众的喝彩，而是为了成为所有人的永恒财富。它是为那些希望清楚了解过去、并因人性不变而理解未来同类事件的人而写。——《战争史》I.22.4（Crawley 译本）",
+      "key_quote_en": "In fine, I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time... it is written for those who desire to look at the truth of what happened and, human nature being what it is, of what will happen again in the same or a similar way.",
+      "key_concepts": [
+        "人性常量",
+        "永恒财富",
+        "条件—行为关系",
+        "可复用机制",
+        "环境为变量",
+        "跨世预演",
+        "非民族本质论"
+      ],
+      "process_zh": [
+        "把事件抽象成机制而非故事：从具体人物与奇闻中抽出可复用的条件—行为关系（何种压力下派系如何激化、何种条件下语言与习俗如何崩解）",
+        "明确区分常量与变量：把『人性』设为不便项、把制度与处境设为变项，使解释写成『在何等条件下人会如何』，而非『某群体天性如何』",
+        "为未来读者组织材料：按复发情境归档证据（危机初起、派系极化、极端压力、胜利后的傲慢），使后人能按处境检索先例",
+        "为结论标注适用边界：说明该机制成立的条件与已观察到的不适用情形，避免把历史类比无限外推"
+      ],
+      "process_en": [
+        "Abstract events into mechanisms rather than stories: from particular persons and marvels extract reusable condition-and-behaviour relations (under what pressure factions inflame, under what conditions language and custom dissolve)",
+        "Separate constant from variable explicitly: hold human nature fixed and treat institutions and circumstance as the changing terms, so that explanations read under what conditions people do what rather than that group is by nature so",
+        "Organise the material for future readers: file the evidence by recurrent situation (crisis onset, factional polarisation, extreme pressure, arrogance after success) so later readers can retrieve precedent by circumstance",
+        "Mark the boundary of validity on every conclusion: state the conditions under which the mechanism holds and the observed cases where it fails, refusing to extend a historical analogy without limit"
+      ],
+      "representative_cases_zh": [
+        "III.82-84 内乱通则：修昔底德在描述科基拉内乱后，明确指出这类事『过去发生过，将来只要人性不变也会再次发生』，并把叙述从具体城邦提升为派系暴力的一般机制——这是他『永恒财富』主张最直接的一次执行",
+        "II.53 瘟疫下的习俗瓦解：极端灾害中，人因不知明日如何而对宗教与法律一概漠然，原先被禁忌的丧葬方式变得随意——修昔底德把瘟疫写成一次极端条件下的社会实验，结论属于『压力—行为』而非『某民族道德』",
+        "反面警示：跨世鉴戒最容易被错用两次。先是把人性常量偷换为民族本质论：把『在极端压力下人会如此』读成『某民族天生如此』，历史判断就退化为偏见。再是把类比无限外推：只要结构相似就宣布结果必然相同，忽略条件差异与偶然。修昔底德本人清楚偶然的分量（他说偶然的突发不是计算所能确定），因此他提供的是辨认真实处境的能力，而不是命运判决书（同型风险：用历史类比为当下政策背书，或把统计规律当作个体宿命）。"
+      ],
+      "representative_cases_en": [
+        "The general law of faction at III.82-84: describing the Corcyran civil war, Thucydides states plainly that such things have happened before and will happen again as long as human nature remains the same, lifting the account from one city to a general mechanism of factional violence - the most direct execution of his possession-for-all-time claim",
+        "The collapse of custom under plague at II.53: in overwhelming disaster men, not knowing what would come next, became indifferent to every rule of religion and law, and previously forbidden forms of burial were practised at random - plague is written as an experiment under extreme conditions whose conclusion concerns pressure and behaviour, not the morals of a people",
+        "Cautionary: the cross-generational lesson is misused in two ways. The first is substituting ethnic essence for the human-nature constant: read under extreme pressure people do this as that nation is by nature like this, and historical judgement degenerates into prejudice. The second is extrapolating an analogy without limit: structural similarity is announced to guarantee an identical outcome, ignoring differences of condition and the role of chance. Thucydides himself knew the weight of chance - the freaks of chance are not determinable by calculation - so what he offers is the capacity to recognise a real situation, not a verdict of fate (same-type risk: backing a present policy with a historical analogy, or treating a statistical tendency as an individual's destiny)."
+      ],
+      "modern_applications_zh": [
+        "风险与危机管理：把以往案例整理为『触发条件—升级机制—典型后果』的模式库，使新情况发生时能按条件检索先例，而不是依赖个别人的记忆",
+        "制度建设：在制度文件中写入压力测试式的通则（极端资源短缺、领导真空、外部冲击下各角色会如何），并明确这些推定的适用边界",
+        "教育与写作：讲授历史时优先交付可复用的机制与辨认信号，而非事件名单；同时训练学生识别『民族本质论』与『类比无限外推』两种误用",
+        "个人修养与团队管理：把自身反复出现的失态归因为处境与人性而非性格宿命，并据此设计条件干预（在何种压力前先布防），使教训可迁移"
+      ],
+      "modern_applications_en": [
+        "Risk and crisis management: turn past cases into a pattern library of trigger conditions, escalation mechanisms and typical outcomes, so that a new situation can be matched to precedent by condition instead of by whoever happens to remember it",
+        "Institutional design: write pressure-tested general laws into policy documents (what each role does under extreme scarcity, a leadership vacuum, an external shock) and state explicitly where those presumptions cease to hold",
+        "Teaching and writing: deliver reusable mechanisms and recognition signals before event lists, and train readers to spot the two misuses - ethnic essence and unlimited analogy",
+        "Personal practice and team management: attribute one's own recurring breakdowns to circumstance and human nature rather than to fixed character, and design condition-based interventions (pre-position defences before known pressures) so the lesson travels"
+      ],
+      "related_modes": [
+        "M-THU-001",
+        "M-THU-006",
+        "M-THU-010"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "司马迁",
+        "希罗多德"
+      ]
+    },
+    {
+      "id": "M-THU-004",
+      "mode_code": "M-THU-004",
+      "figure_code": "Thucydides",
+      "name_zh": "演说并置与双方自辩法",
+      "name_en": "Setting the Speeches Side by Side",
+      "category": "史学文献",
+      "category_raw": "核心方法",
+      "domain_zh": "史学方法/立场呈现与判断保留",
+      "domain_en": "Historical Method / Presenting Standpoints and Withholding Verdicts",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "修昔底德的叙事里插入了大量演讲词：伯里克利的葬礼演说、米提列涅辩论、普拉提亚人的申辩、米洛斯对话。他自己给出了这些文本的规格：他会让发言者『说出在我看来最切合当时情境的话，同时尽可能贴近实际所说的大意』（1.22）——这是最早的、公开承认部分构造性的引述规范。更关键的是并置原则：他的做法不是在叙事中替某方下结论，而是让互相冲突的立场以各自的逻辑完整呈现。以米提列涅辩论为例，克里昂主张严惩以儆效尤、狄奥多托斯主张保全平民以免资敌，两篇论证各自成立、互相不能兼容，修昔底德不派任何人在文中裁决，读者必须自己承担判断。这种方法有三个作用：暴露每一方内部逻辑的完整链条；让价值尺度本身成为观察对象（同一件事在不同利益位置上会被如何论证）；也强迫读者放弃『谁是好人是坏人的简单结论』。方法论签名：让利害相关的各方把话按自己的逻辑说完，史家负责组织并置与交代处境，而不是代替读者宣判。",
+      "definition_en": "Into his narrative Thucydides inserts a large number of speeches: the funeral oration of Pericles, the Mytilenaean debate, the Plataean defence, the Melian dialogue. He states the specification himself: he makes each speaker say what seemed to him most demanded by the situation, keeping as close as possible to the general sense of what was actually said (1.22) - the earliest openly acknowledged rule that quoted speech is partly constructed. More important is the principle of juxtaposition: rather than delivering a verdict inside the narrative, he lets incompatible positions stand complete, each in its own logic. In the Mytilenaean debate, Cleon argues for exemplary punishment and Diodotus for sparing the common people so as not to drive them into the enemy's arms; each case holds, neither can be reconciled with the other, and no character in the text is appointed to decide - the reader must. The method does three things: it exposes the full chain of reasoning inside each side; it turns the scale of values itself into an object of observation (how the same fact is argued from different positions of interest); and it forces the reader to abandon the simple verdict of who is good and who is bad. Method signature: let each interested party finish the argument in its own logic, while the historian organises the juxtaposition and supplies the situation instead of passing sentence for the reader.",
+      "source_chapter": "《战争史》I.22.1 演讲词的构造规范；I.31-43 伯里克利葬礼演说；III.37-49 米提列涅辩论（克里昂 vs 狄奥多托斯）；III.53-59 普拉提亚人的申辩与底比斯人的控诉；V.85-113 米洛斯对话；VI.9-23 西西里远征前尼西亚斯与阿尔喀比亚德的辩论",
+      "key_quote_zh": "至于演说词，我让每位发言者说出在我看来最切合当时情境的话，同时尽可能贴近实际所说的大意。——《战争史》I.22.1（Crawley 译本）",
+      "key_quote_en": "With reference to the speeches in this history... I have made each speaker say what seemed to me demanded by the situation, keeping as closely as possible to the general sense of what was actually said.",
+      "key_concepts": [
+        "演说并置",
+        "构造性引述规范",
+        "双方自辩",
+        "判断保留",
+        "价值尺度观察",
+        "利益位置的论证差异"
+      ],
+      "process_zh": [
+        "先把争议拆成可对抗的结构：确认存在两个（或多个）互相不能兼容、却各自内部自洽的立场，而不是一方明显错误的伪论争",
+        "让每一方按自己的逻辑把话说完：为其找出最强的论证链与它所依赖的前提，不用对方的语言改写它，也不预设其荒谬",
+        "交代并置的处境：记录双方的力量位置、可选项与真实约束，使读者理解各自为何如此论证，而不把论证与处境割裂",
+        "把判断留给读者并自守克制：不在叙述中直接宣判胜负或善恶；如需评论，标明这是史家的推断而非各方原意"
+      ],
+      "process_en": [
+        "First restructure the dispute into adversarial form: confirm there are two or more mutually incompatible positions, each internally coherent, rather than a sham debate with one obviously wrong side",
+        "Let each side finish in its own logic: reconstruct its strongest chain of argument and the premises it rests on, without rewriting it in the opponent's vocabulary or assuming it absurd",
+        "Supply the situation around the juxtaposition: record each side's position of power, options and real constraints so that readers see why each argues as it does, instead of detaching the argument from circumstance",
+        "Leave the verdict to the reader and keep restraint: do not pronounce victory or virtue inside the narrative; where comment is needed, mark it as the historian's inference rather than the speakers' meaning"
+      ],
+      "representative_cases_zh": [
+        "III.37-49 米提列涅辩论：克里昂主张把叛城成年男子处死、妇女儿童为奴，理由是威慑需要一贯；狄奥多托斯主张只惩处主谋、保全平民，理由是惩罚若伤及亲雅典的多数反而资敌。两篇论证各自完整且互不兼容，修昔底德不作裁决，仅呈现雅典最终勉强改判的过程",
+        "V.85-113 米洛斯对话：雅典人拒绝辩论道德，只谈必要与利害；米洛人诉诸正义、神明与斯巴达的援助。双方各自把逻辑推到尽头，史家不加旁白——这一形式使力量与正义的冲突本身成为可观察的对象",
+        "反面警示：并置法最危险的失效是被偷换成『两边都有道理』的相对主义——把证明责任等量分配给强弱不同的双方，或为明显基于掠夺的立场补出体面的理由。另一种失效是形式上的假并置：先立一个稻草人对手，再让它轻易败下阵来，或只呈现与自己一致的一方演讲。真正的并置要求两方都以最强形态出现，并且读者能看出它们为何不能同时成立（同型风险：把公共争议写成『各有各的立场』以回避判断，或把异见当作陪衬）。"
+      ],
+      "representative_cases_en": [
+        "The Mytilenaean debate at III.37-49: Cleon demands the execution of the rebel city's adult men and the enslavement of the rest on grounds of deterrence, Diodotus argues for punishing only the ringleaders and sparing the people so as not to push the friendly majority toward the enemy. Both cases are complete and irreconcilable, and Thucydides passes no verdict, showing only how Athens narrowly reversed its decision",
+        "The Melian dialogue at V.85-113: the Athenians refuse to debate morality and speak only of necessity and advantage, while the Melians appeal to justice, the gods and Spartan help. Each side drives its logic to the end and the historian adds no aside - the form makes the clash of power and justice itself observable",
+        "Cautionary: the method fails most dangerously when it is surreptitiously converted into the relativism of both sides have a point - distributing the burden of proof equally between parties of very unequal power, or supplying a respectable case for a position grounded in plunder. The other failure is fake juxtaposition: a straw opponent set up to lose easily, or only the speech of one's own side shown. Genuine juxtaposition requires both sides at their strongest and the reader seeing why they cannot both be true (same-type risk: writing a public controversy as everyone has their own view in order to avoid judging, or treating dissent as decoration)."
+      ],
+      "modern_applications_zh": [
+        "公共写作与评论：在争议性报道中并列呈现各方的完整论证与真实约束，把评判与事实分离；避免为叙事顺畅而预设立场或设置稻草人",
+        "决策会议设计：把关键分歧写成两份自强的对立简报（红队/蓝队），要求每方以最强形态论证，主持人只交代约束不提前裁决，逼出真正的分歧点",
+        "教学与阅读训练：让学生为与自己立场相反的方案写出最强论证，并解释为什么双方不能同时成立，以此训练立场识别与逻辑还原能力",
+        "产品与谈判准备：在谈判前为对手写一份『他们对情势的最强判断』，据此检验自身方案的脆弱点，而不是只准备自己的论证"
+      ],
+      "modern_applications_en": [
+        "Public writing and commentary: in contested reporting, set each side's full argument and real constraints side by side, separating judgement from fact, and avoid pre-set positions or straw men that make the narrative flow",
+        "Designing decision meetings: write the key disagreement as two strong opposing briefs (red team and blue team), require each to argue at its strongest, and have the chair supply constraints without pre-judging, so the real point of disagreement surfaces",
+        "Teaching and reading practice: have readers write the strongest case for the position opposite their own, then explain why both cannot hold at once, training standpoint recognition and reconstruction of logic",
+        "Product and negotiation preparation: before negotiating, write the opponent's strongest reading of the situation and use it to test where your own proposal is fragile, instead of preparing only your own arguments"
+      ],
+      "related_modes": [
+        "M-THU-009",
+        "M-THU-005",
+        "M-THU-001"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "希罗多德",
+        "克劳塞维茨"
+      ]
+    },
+    {
+      "id": "M-THU-005",
+      "mode_code": "M-THU-005",
+      "figure_code": "Thucydides",
+      "name_zh": "强权算术与利益还原法",
+      "name_en": "The Arithmetic of Power: Reducing Claims to Interests",
+      "category": "政治治理",
+      "category_raw": "核心方法",
+      "domain_zh": "政治理论/现实主义与权力分析",
+      "domain_en": "Political Theory / Realism and the Analysis of Power",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "米洛斯对话是修昔底德最冷的一篇文本。雅典使节拒绝讨论己方的正当性，把议题限定在可行性与必要之上：『你们和我们一样清楚，在人类事务中，正义只在力量相等者之间才有讨论余地；强者行其所能，弱者忍其所必须』（5.89）。随后他们进一步给出所谓自然法则：『就神明我们相信、就人我们知道，凡有力量之处，循其本性必行统治』（5.105）。这条路径的要点不是赞成丛林法则，而是把权力关系本身当作解释变量。第一，先剥离道义修辞：对任何一方的正当性主张都问『若力量对比反过来，这套主张会被如何使用』。第二，还原到可计算的东西：安全、声望、资源、报复的成本与收益，并承认恐惧与荣誉也是真实动机而非伪装。第三，注意这种还原的双刃性：修昔底德从不隐藏它的代价——米洛斯人最终被屠杀、妇孺被卖为奴，而雅典随后在西西里遭遇灭顶之灾；把利益还原做到底，也就把代价暴露到底。方法论签名：把每一个立场主张翻译成它在力量格局中的利害计算，同时记录该计算造成的实际后果，不作辩护也不作控诉。",
+      "definition_en": "The Melian dialogue is the coldest text Thucydides wrote. The Athenian envoys refuse to discuss their own justice and confine the question to feasibility and necessity: you know as well as we do that right, as the world goes, is only in question between equals in power, while the strong do what they can and the weak suffer what they must (5.89). They then add a supposed law of nature: of the gods we believe, and of men we know, that by a necessary law of their nature they rule wherever they can (5.105). The point of the passage is not to endorse jungle law but to install the power relation itself as the explanatory variable. First, strip the moral rhetoric: of any party's claim to justice ask how it would be used if the balance of power were reversed. Second, reduce to what can be counted: security, prestige, resources, the costs and benefits of vengeance - while granting that fear and honour are real motives and not mere disguises. Third, note the double edge: Thucydides never hides what the reduction costs - the Melians are killed and their women and children enslaved, and Athens itself is destroyed in Sicily soon after. Carrying the reduction of interest to its end exposes the price to its end. Method signature: translate every stated position into its calculus of advantage within the balance of power, and record what that calculus actually produced, neither defending nor indicting.",
+      "source_chapter": "《战争史》V.85-113 米洛斯对话（V.89『强者行其所能』、V.105『循其本性凡有力量处必行统治』、V.103 希望之辩）；I.75-77 雅典人在斯巴达自述帝国由恐惧、荣誉与利益驱动；III.82 内乱中利益压倒正义；V.84-116 米洛斯之围与其后果",
+      "key_quote_zh": "因为你们知道，也和我们一样明白：正义只在力量对等者之间才有讨论的余地；强者行其所能，弱者忍其所必须。——《战争史》V.89（Crawley 译本）",
+      "key_quote_en": "For you know as well as we do that right, as the world goes, is only in question between equals in power, while the strong do what they can and the weak suffer what they must.",
+      "key_concepts": [
+        "权力分析",
+        "利益还原",
+        "强权与正义",
+        "恐惧与荣誉作为真实动机",
+        "反事实的权力镜像检验",
+        "代价暴露",
+        "安全困境"
+      ],
+      "process_zh": [
+        "先剥离道义修辞：把各方援引的正当性主张先记为待解释的话语，并用『力量对比若反转，这套主张会被如何使用』做镜像检验",
+        "还原为可计算的利害：列出安全、声望、资源、报复与威慑的成本收益，把恐惧与荣誉也计入真实动机而非虚假借口",
+        "标定力量格局与可选项：明确各方的实力、替代方案与其真实底线，判断何者其实是『被迫的选择』而何者真有回旋余地",
+        "把后果与计算一并记录：追踪该利害计算的真实结果（包括对自身的长远代价），不作道德辩护，也不作情绪化控诉"
+      ],
+      "process_en": [
+        "Strip the moral rhetoric first: file each party's justice claim as discourse to be explained, and mirror-test it by asking how that claim would be used if the balance of power were reversed",
+        "Reduce to countable interests: list the costs and benefits of security, prestige, resources, vengeance and deterrence, counting fear and honour as genuine motives rather than false excuses",
+        "Map the power structure and the options: establish each side's strength, alternatives and real bottom line, and judge which choices are actually forced and which have room to move",
+        "Record consequences alongside the calculation: follow what the calculus of advantage actually produced, including its long-run cost to the calculator, without moral defence or emotional indictment"
+      ],
+      "representative_cases_zh": [
+        "V.85-113 米洛斯对话：雅典使节把议题限定在必要与利害，拒绝讨论正义；米洛人诉诸正义、神明与斯巴达援助，最终拒绝投降。修昔底德如实记下后果——成年男子被处死、妇孺被卖为奴，雅典随后在西西里全军覆没，证明这场『必要的强硬』并未带来安全",
+        "I.75-77 雅典人在斯巴达的自我陈述：他们承认帝国是被恐惧、荣誉与利益三重动机推着扩张的，并说『我们并非第一个这样做的人，弱者受强者支配一向如此』——把自身行为还原为可理解的权力逻辑，而非德性叙事",
+        "反面警示：利益还原有两重风险。其一是把还原当成辩护：由『凡强者都会如此』推出『强者就该如此』，把描述性的自然法则偷换成规范性的许可，从而免除任何对代价的追问。其二是把还原当成人性彻底算计论：否认荣誉、忠诚、正义感在任何时刻的真实驱动力，于是无法解释为何会有米洛人拒绝投降、为何雅典会为米洛斯之屠感到震动。修昔底德本人两种都避开了——他记录算计，也记录算计之外的选择与其代价（同型风险：以『现实如此』为不当行为开脱，或把所有行为一律解释为私利而误判对手）。"
+      ],
+      "representative_cases_en": [
+        "The Melian dialogue at V.85-113: the Athenian envoys confine the question to necessity and advantage and refuse to discuss justice, while the Melians appeal to justice, the gods and Spartan help and finally refuse to surrender. Thucydides records the outcome plainly - the men executed, the women and children enslaved - and Athens is destroyed in Sicily soon after, showing that the necessary severity bought no security",
+        "The Athenians' own statement at Sparta, I.75-77: they admit their empire was driven by fear, honour and interest, and say they are not the first to behave so, since the weaker has always been subject to the stronger - reducing their own conduct to an intelligible logic of power rather than a story of virtue",
+        "Cautionary: reducing to interest fails in two ways. First, the reduction is mistaken for a defence: from the strong always do this it is inferred the strong should do this, converting a descriptive law of nature into normative permission and exempting the whole question of cost. Second, the reduction becomes a total cynicism about human nature: denying that honour, loyalty or a sense of justice ever really motivates, which cannot then explain why the Melians refused to surrender or why Athens was shaken by the massacre. Thucydides avoids both - he records the calculation and also the choices made outside it, with their costs (same-type risk: excusing misconduct with that is how the world works, or misjudging an opponent by reading all behaviour as self-interest)."
+      ],
+      "modern_applications_zh": [
+        "国际关系与地缘分析：把盟友与对手的公开立场翻译为力量格局中的利害计算，同时保留对其声望与内部政治需要的敏感性，避免只信公开话语或只信私利",
+        "商业谈判与博弈：谈判前写清双方的强制项（不可放弃者）与可交换项，判断哪些让步是被迫、哪些是真让步；不为自身立场制作道德包装",
+        "组织政治与治理：识别制度中『强者行其所能』的隐性机制（资源分配、话语权、否决权），并对由此产生的代价建立问责与记录机制",
+        "个人伦理反思：在使用『现实就是如此』为自己或组织的做法辩护前，先写下该做法的代价承担者与长远后果，避免把描述偷换成许可"
+      ],
+      "modern_applications_en": [
+        "International relations and geopolitical analysis: translate allies' and rivals' public positions into a calculus of interest within the balance of power, while staying sensitive to prestige and domestic political need, avoiding the twin errors of trusting only rhetoric or only self-interest",
+        "Business negotiation and games: before negotiating, write each side's forced items (things they cannot concede) and tradable items, judge which concessions are compelled and which are real, and make no moral packaging for your own position",
+        "Organisational politics and governance: detect the hidden mechanics by which the strong do what they can (resource allocation, agenda control, veto power), and build recording and accountability mechanisms for the costs this produces",
+        "Personal ethics: before using that is how the world works to justify your own or your organisation's conduct, write down who bears the cost of that conduct and what its long-run consequences are, refusing to slip from description to permission"
+      ],
+      "related_modes": [
+        "M-THU-002",
+        "M-THU-007",
+        "M-THU-004"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "马基雅维利",
+        "孙武"
+      ]
+    },
+    {
+      "id": "M-THU-006",
+      "mode_code": "M-THU-006",
+      "figure_code": "Thucydides",
+      "name_zh": "极端情境人性实验室法",
+      "name_en": "Extreme Situations as a Laboratory of Human Nature",
+      "category": "心理洞察",
+      "category_raw": "核心方法",
+      "domain_zh": "社会心理/极端压力下的制度与语言崩解",
+      "domain_en": "Social Psychology / Collapse of Institutions and Language under Extreme Pressure",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "修昔底德两次把笔停下来，专门写『极端情境』：一是雅典大疫（II.47-54），一是科基拉内乱（III.81-84）。这两段之所以重要，是因为他明说了方法：和平与繁荣时，人与城邦都较好相处，因为没有被无法回避的匮乏逼问；战争剥夺了日常的从容，于是成为一个『暴烈的教师』，并把多数人的品性塑造成与处境相应（3.82）。这就是把灾难当作实验：极端压力不是异常，而是把平时被制度与体面压住的机制放大显现。他给出三条观察路径。其一，观察制度失效：法律与宗教的约束在灾害中怎样被绕过（瘟疫中丧葬禁忌崩坏）。其二，观察语言的失效：词汇改变含义——鲁莽被当作忠诚的勇敢，审慎被当作怯懦的伪装，能看全局被当作不善行动（3.82）；语言崩解是暴力最深的痕迹，因为它使共同体失去辨别能力。其三，观察缓和的可能：他也指出祸乱起于贪欲与野心、而派系之所以能得手，是因为各方都愿为私利引入外力。方法论签名：不要等极端情境出现才研究它，而是把灾害与内乱当成杠杆，用它撬开平时看不见的制度与人心。",
+      "definition_en": "Twice Thucydides stops and writes about extreme situations as such: the great plague at Athens (II.47-54) and the civil war at Corcyra (III.81-84). They matter because he states the method behind them: in peace and prosperity both states and individuals are better disposed because they are not pressed by inescapable need, while war takes away the ease of daily life, becomes a violent teacher, and assimilates most people's tempers to their conditions (3.82). Disaster is treated as experiment: extreme pressure is not an anomaly but a magnifier that brings out mechanisms normally held down by institutions and decency. He marks three lines of observation. First, watch institutions fail - how law and religion are circumvented under disaster (funeral customs abandoned in the plague). Second, watch language fail - words change their ordinary meaning, reckless audacity passes for loyal courage, prudent hesitation for specious cowardice, seeing all sides of a question for inaptness to act (3.82); the collapse of language is the deepest mark of violence, because it destroys a community's capacity to distinguish. Third, watch how things might de-escalate: he notes that faction succeeds where each party is willing to bring in outside force for its own advantage. Method signature: do not wait for an extreme situation in order to study it; use disaster and civil strife as a lever to open up what is normally invisible in institutions and in people.",
+      "source_chapter": "《战争史》II.47-54 雅典大疫（II.52-53 习俗崩坏）；III.81-84 科基拉内乱与人性通则（III.82.2『暴烈的教师』、III.82.4 语言改变含义、III.82.8 贪欲与野心）；III.84 内乱中的行为通则；II.53『人不知明日如何，便对宗教与法律一概漠然』",
+      "key_quote_zh": "在和平与安泰之时，人与城邦都较为善良，因为没有被无法回避的匮乏所逼迫；而战争剥夺了日常的安逸，成为一位暴烈的教师，把多数人的性情塑造成与身处之境相合。——《战争史》III.82.2（据 Crawley 译本与学术译文合并）",
+      "key_quote_en": "In peace and prosperity, states and individuals have better sentiments, because they are not pressed by inescapable necessities; but war, taking away the ease of daily life, is a violent teacher, and assimilates most men's tempers to their conditions.",
+      "key_concepts": [
+        "极端情境",
+        "暴烈的教师",
+        "制度失效",
+        "语言改变含义",
+        "习俗崩坏",
+        "派系激化",
+        "压力—行为通则"
+      ],
+      "process_zh": [
+        "把灾害或冲突当作实验条件而非例外：明确记录压力变量（资源匮乏、持续恐惧、权威真空），并观察平时被压住的机制如何在此时放大显现",
+        "逐项检查制度与习俗的失效点：法律、宗教、程序、禁忌在何处被绕过、被例外化，记录『被允许的越界』如何累积",
+        "追踪语言的漂移：列出关键政治词汇在冲突中的含义变化（勇敢、忠诚、审慎、中立、叛徒），因为语言崩解比暴力更早也更难愈合",
+        "寻找缓和机制并记录其条件：查清派系与暴力在何处停住（哪一方不愿引入外力、哪种制度仍然可信），把反向条件也当作结论的一部分"
+      ],
+      "process_en": [
+        "Treat disaster or conflict as experimental conditions rather than an exception: record the pressure variables (scarcity, sustained fear, absence of authority) and watch which normally suppressed mechanisms are magnified",
+        "Inspect institutions and customs for failure points one by one: law, religion, procedure, taboo - where are they circumvented and exceptionalised, and how do permitted transgressions accumulate",
+        "Track the drift of language: list how key political words change meaning during the conflict (courage, loyalty, prudence, neutrality, traitor), for the collapse of language is earlier and harder to heal than violence",
+        "Look for de-escalation and record its conditions: find where faction and violence stop (which party declines to bring in outside force, which institution is still trusted) and treat the reverse conditions as part of the conclusion"
+      ],
+      "representative_cases_zh": [
+        "II.47-54 雅典大疫：修昔底德不仅记录症状与死亡，还记录社会后果——人不知明日如何，便对宗教与法律一概漠然，丧葬禁忌被打破，原先谨守的体面在恐惧面前消散；他把瘟疫写成一次制度与习俗的压力测试",
+        "III.81-84 科基拉内乱：他把内乱写成语言与道德的双重崩解——鲁莽被当作忠诚的勇敢、审慎被当作怯懦、洞观全局被当作不善行动；父杀子、人从神庙中被拖出处死，体制性的禁忌逐一失效；他并指出这类事只要人性不变便会在别处重演",
+        "反面警示：把灾难当实验最容易被误用为『灾难文学化』——只渲染恐怖与暴行细节，把它当成民族本性的证明，或反过来低估结构性压力、把一切归因于坏人作恶。修昔底德的做法恰恰相反：他给出压力变量与机制，让读者能从中提取条件—行为关系，并且他不把内乱写成某一城邦的专属污点，而是写成有条件的普遍现象。另一种失效是『灾难之后的健忘』：危机过去后，制度与习俗被迅速修复而未留下记录，于是下一轮同样的压力再次打穿同样的缺口（同型风险：把事故当作个案处理而忽略压力条件，或把灾难当作政治攻击材料）。"
+      ],
+      "representative_cases_en": [
+        "The plague at Athens, II.47-54: Thucydides records not only symptoms and deaths but the social aftermath - men, not knowing what would come next, became indifferent to every rule of religion and law, burial customs were overturned, and previously observed decencies dissolved in fear. Plague is written as a stress test of institutions and customs",
+        "The Corcyran civil war, III.81-84: he writes civil strife as a double collapse of language and morals - reckless audacity taken for loyal courage, prudence for cowardice, the ability to see all sides for inaptness to act; fathers killed sons, men were dragged from temples and executed, taboo after taboo failed. He adds that such things will recur elsewhere so long as human nature remains the same",
+        "Cautionary: treating disaster as experiment is easily misused into disaster literature - dwelling on horror for its own sake, taking it as proof of a nation's nature, or else underestimating structural pressure and blaming everything on the wickedness of a few. Thucydides does the opposite: he supplies pressure variables and mechanisms so that a condition-and-behaviour relation can be extracted, and he refuses to make civil strife the unique stain of one city. A second failure is post-disaster amnesia: once the crisis passes, institutions and customs are patched up without a record being kept, and the next round of the same pressure breaks through the same gap (same-type risk: handling an accident as an isolated case while ignoring the pressure conditions, or turning a disaster into political ammunition)."
+      ],
+      "modern_applications_zh": [
+        "事故与危机复盘：把重大事故写成『压力条件 + 制度失效点 + 语言漂移』三栏记录，避免只追责个人或只庆幸渡过；为下一次同类压力保留可检索的预警信号",
+        "组织管理：在资源紧张或权威更替时预设『极端情境行为表』（谁在何时会走捷径、哪些流程最易被例外化），提前设定例外审批与记录机制",
+        "公共传播与舆情：监测高压争议中关键政治词汇的含义漂移（如把合作说成软弱、把审慎说成拖延），因为语言崩解往往先于关系崩解",
+        "个人心理与家庭：识别自身在匮乏、恐惧或孤立状态下的可预测失态，把它记为条件反应而非性格缺陷，并在压力来临前先安排外部支持"
+      ],
+      "modern_applications_en": [
+        "Incident and crisis review: write a major incident in three columns - pressure conditions, institutional failure points, language shift - instead of only assigning blame or merely being relieved to have survived, and keep searchable warning signals for the next time the same pressure arrives",
+        "Organisational management: under scarcity or a change of authority, prepare an extreme-situation behaviour table in advance (who starts cutting corners when, which processes are easiest to exceptionalise) and set exception-approval and recording mechanisms early",
+        "Public communication and sentiment: monitor how key political words drift in a high-pressure controversy (cooperation called weakness, prudence called delay), because the collapse of language usually precedes the collapse of relationships",
+        "Personal psychology and family: identify your own predictable breakdowns under scarcity, fear or isolation, record them as reactions to conditions rather than defects of character, and arrange external support before the pressure arrives"
+      ],
+      "related_modes": [
+        "M-THU-003",
+        "M-THU-010",
+        "M-AR-001"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "汉娜·阿伦特",
+        "司马迁"
+      ]
+    },
+    {
+      "id": "M-THU-007",
+      "mode_code": "M-THU-007",
+      "figure_code": "Thucydides",
+      "name_zh": "增长—恐惧诊断与均势推演法",
+      "name_en": "Growth, Fear and the Balance of Power",
+      "category": "战略决策",
+      "category_raw": "核心方法",
+      "domain_zh": "战略研究/联盟体系与安全困境",
+      "domain_en": "Strategic Studies / Alliance Systems and the Security Dilemma",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "修昔底德给出过一句被反复引用的开战判断：使战争不可避免的，是雅典势力的增长与由此在斯巴达引起的恐惧（1.23）。这既是历史结论，也是一套可迁移的诊断法。它的结构是三点连成的链条：某一方的力量增长（未必出于侵略意图）→ 另一方感到相对地位被侵蚀而产生恐惧 → 恐惧驱动先发制人的准备与同盟加固 → 加固又被对方读作威胁，恐惧自我实现。修昔底德还补了一条冷峻的联盟学：『唯一可靠的结盟基础，是双方互相惧怕』（3.11）——同盟的黏合剂不是共同价值而是彼此的需要，因此同盟体系的松动与再捆绑本身就会改变战争概率。他的操作要点有三。其一，测量相对而非绝对：危险来自差距的变化而非某一方的绝对强弱。其二，把意图与能力分开：判断对方是否怀有恶意远不如判断其能力与结构位置可信，因为善意无法约束能力。其三，关注二阶效应：一个为自保而采取的措施（扩军、结盟、先占要地）如何被对手解读并放大，从而加速它本想避免的结果。其四，对『防患于未然』的代价做账：先发制人的收益往往被随之而来的长期对立与道义透支抵消。方法论签名：不要问谁先动手，而要问力量差距的变化把双方推到了何种只能自证预言的位置。",
+      "definition_en": "Thucydides left one much-quoted verdict on the outbreak of the war: what made it inevitable was the growth of the power of Athens and the fear this inspired in Sparta (1.23). That is both a historical conclusion and a transferable diagnostic. Its structure is a chain of three links: one party's growth of power (not necessarily from aggressive intent) produces in the other a fear of relative decline; fear drives pre-emptive preparation and the tightening of alliances; and that tightening is read by the first party as a threat, so the fear fulfils itself. He adds a cold lesson in alliance theory: the only sure basis of an alliance is for each party to be equally afraid of the other (3.11) - alliances are held together by mutual need rather than shared values, so the loosening and re-binding of alliance systems changes the probability of war by itself. Four operating points follow. First, measure relative not absolute power: danger lies in the changing gap, not in how strong anyone is in isolation. Second, separate intention from capability: judging whether a rival means harm is far less reliable than judging its capacity and structural position, since goodwill cannot bind capability. Third, watch second-order effects: how a measure taken for self-preservation (armament, alliance, pre-occupation of a key point) is read by the other side and amplified, accelerating the very outcome it was meant to prevent. Fourth, keep accounts on pre-emption: the gains of striking first are often cancelled by the long hostility and moral overdraft that follow. Method signature: do not ask who moved first; ask what change in the power gap pushed both sides into a position where each could only fulfil the other's fear.",
+      "source_chapter": "《战争史》I.23.6『最真实的起因』；I.88 斯巴达开战的真实理由；I.75-77 雅典人对帝国动力的自述（恐惧、荣誉、利益）；III.11.2『唯一可靠的结盟基础是双方互相惧怕』；I.33、I.44 科基拉求盟与雅典的两难；VI.18 阿尔喀比亚德论扩张与预防性打击",
+      "key_quote_zh": "唯一可靠的结盟基础，是让双方都同样地惧怕对方；因为想进攻的人不会因朋友的好意而收敛，只有实力对等才使人畏惧。——《战争史》III.11.2（Crawley 译本）",
+      "key_quote_en": "Now the only sure basis of an alliance is for each party to be equally afraid of the other... for he who is minded to attack is deterred not by the goodwill of a friend but by the manifest equality of strength.",
+      "key_concepts": [
+        "相对力量",
+        "力量差距的变化",
+        "恐惧的自我实现",
+        "安全困境",
+        "意图与能力分离",
+        "同盟黏合剂",
+        "先发制人的代价",
+        "二阶效应"
+      ],
+      "process_zh": [
+        "测量相对力量的走势而非绝对实力：把关注点放在差距变化的速度与方向上，判断谁感到自己的位置正在被侵蚀",
+        "把意图与能力分开评估：以对方的能力与结构位置为主要推演依据，善意只作为附加信息，不承担遏制能力的职能",
+        "推演恐惧循环：列出各方为自保将采取的措施，以及这些措施在对方眼中会被如何解读，找出恐惧自我实现的闭环",
+        "为先发与加固做全账：把先发制人的短期收益与随之而来的长期对立、军备竞赛与道义成本一并计入，判断是否值得"
+      ],
+      "process_en": [
+        "Measure the trend of relative power rather than absolute strength: focus on the speed and direction of the changing gap and infer who feels their position eroding",
+        "Assess intention and capability separately: build the forecast mainly on the rival's capacity and structural position, treating goodwill as supplementary information that cannot restrain capability",
+        "Run the fear loop forward: list the measures each side will take for self-preservation and how those measures will be read by the other, identifying the closed circle in which fear fulfils itself",
+        "Keep full accounts on pre-emption and alliance-building: set the short-run gains of striking first against the long hostility, arms race and moral cost that follow, and judge whether the trade is worth it"
+      ],
+      "representative_cases_zh": [
+        "I.23、I.88 的开战归因：修昔底德拒绝把战争归给道德败坏或个人恶意，而写成雅典势力增长与斯巴达恐惧相互推动的结构过程；斯巴达人投票开战不是因为某项具体违约，而是因为『雅典已然强大且令人恐惧』",
+        "I.33-44 科基拉求盟：科基拉以『你若拒绝，我们便另寻他处，而你将面对既成的海上力量』相要挟，雅典既怕拒绝使科基拉倒向斯巴达、又怕接受会激怒斯巴达——修昔底德把这一两难完整写出，展示同盟重建如何直接改变战争概率",
+        "反面警示：增长—恐惧模型最容易被误用为『必然冲突论』——把任何力量差距的缩小都宣布为战争前夜，进而为扩军与先发制人背书，使自我实现的预言真的实现。另一种失效是只看对方恶意、不看自身行为如何被对方解读：把自身为安全而做的动作视为纯防御，把对方同样的动作视为挑衅。修昔底德并未断言增长必然导致战争，他描述的是在特定同盟结构与恐惧强度下的历史路径，并让读者看到雅典后来在极度自信中主动扩张（西西里远征）才是它真正的自毁步骤（同型风险：以『结构性对抗不可避免』为对抗升级开脱，而不留外交余地）。"
+      ],
+      "representative_cases_en": [
+        "The attribution at I.23 and I.88: Thucydides refuses to assign the war to moral decay or individual malice and writes it as a structural process in which Athenian growth and Spartan fear drove each other. The Spartans voted for war not over one specific breach but because Athens had already grown great and alarming",
+        "Corcyra's request for alliance, I.33-44: the Corcyrans threaten that refusal will send them elsewhere and leave Athens facing an established sea power, so Athens fears both rejecting Corcyra (who would turn to Sparta) and accepting (which would provoke Sparta). Thucydides sets out the dilemma in full, showing how the re-binding of an alliance directly alters the probability of war",
+        "Cautionary: the growth-and-fear model is easily misused as inevitable-conflict theory - declaring any narrowing of a power gap to be the eve of war, and thereby licensing armament and pre-emption so that the self-fulfilling prophecy comes true. The other failure is seeing only the rival's malice and never how one's own behaviour is read: treating your own security measures as purely defensive and the other side's identical measures as provocation. Thucydides does not claim growth must cause war; he describes a historical path under a particular alliance structure and intensity of fear, and he lets the reader see that Athens' own ruinous step was not deterrence but confident expansion in Sicily (same-type risk: excusing escalation with structural rivalry is unavoidable while leaving no room for diplomacy)."
+      ],
+      "modern_applications_zh": [
+        "地缘政治与国家安全：以相对位置变化与恐惧机制为分析框架，同时对『崛起必然冲突』的类推保持警惕，为外交与威慑保留并行的选项",
+        "企业竞争战略：识别对手对相对份额变化的恐惧如何转化为激进动作（价格战、封锁渠道、抢先占位），并为自身动作被如何解读做准备",
+        "军备与安全治理：在扩军或加固同盟时评估对手的解读与反应链，用透明化与沟通机制降低对方误读，减少二阶效应",
+        "团队与组织关系：冲突中先查『力量或资源差距的变化』而非谁先失礼，并把对方的自保动作与自身的安全动作对称看待，避免恐惧循环升级"
+      ],
+      "modern_applications_en": [
+        "Geopolitics and national security: use changing relative position and the mechanism of fear as the analytic frame, while staying alert to the analogy that a rising power must mean war, keeping diplomacy and deterrence as parallel options",
+        "Corporate competitive strategy: identify how a rival's fear of a shrinking share turns into aggressive moves (price war, channel blocking, pre-emptive positioning), and prepare for how your own moves will be read",
+        "Armaments and security governance: when arming or hardening alliances, assess the rival's reading and the reaction chain, using transparency and communication to reduce misreading and second-order effects",
+        "Teams and organisations: in a conflict, check first what changed in the balance of power or resources rather than who was first rude, and treat the other side's self-protective moves symmetrically with your own to avoid an escalating fear loop"
+      ],
+      "related_modes": [
+        "M-THU-002",
+        "M-THU-008",
+        "M-CW-001"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "克劳塞维茨",
+        "孙武"
+      ]
+    },
+    {
+      "id": "M-THU-008",
+      "mode_code": "M-THU-008",
+      "figure_code": "Thucydides",
+      "name_zh": "过度伸展与反转警告法",
+      "name_en": "Overreach and the Warning of Reversal",
+      "category": "军事战略",
+      "category_raw": "核心方法",
+      "domain_zh": "战略研究/希望取代算计与灾难性过伸",
+      "domain_en": "Strategic Studies / Hope Displacing Calculation and Catastrophic Overreach",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "修昔底德反复警告同一件事：人会把所渴望的托付给漫不经心的希望，却用自以为是的理性推开所不愿面对的（4.108）；而『突如其来的巨大好运往往使人傲慢』，成功一旦来自侥幸而非算计，就更容易滑向过伸（3.39）。他在西西里远征上把这套警告写成完整案例：雅典在和平协议尚存时，被阿尔喀比亚德的扩张论证说服，倾全国之力远征西西里，出发时船队之盛冠绝一时，结果全军覆没，主帅被处死，舰队与人力尽失，城邦自此再未恢复。他还给了两条冷兵器般的补充判断：其一，『偶然的突发不是计算所能确定的』（1.84）——所以好的计划必须为运气预留位置；其二，被击碎的自负伤害更深，因为预期过高的人在受挫时往往过度放弃（7.66）。他的操作要点是：把希望与被期待的事实分开登记；为『成功之后』单独设防，因为傲慢总在胜势处出现；以及在计划里明确写入『若局势反转，退路在哪』。方法论签名：在任何扩张或加注之前，先问清楚这笔投入是在兑现已有优势，还是在为挽回预期而追加赌注。",
+      "definition_en": "Thucydides warns repeatedly of one thing: men entrust to careless hope what they long for, and use sovereign reason to thrust aside what they do not desire (4.108); and great good fortune coming suddenly and unexpectedly tends to make a people insolent, so that success won by luck rather than by reckoning slides more easily into overreach (3.39). He makes the Sicilian expedition the complete case: while a peace still nominally held, Athens was persuaded by Alcibiades' argument for expansion, committed the resources of the whole city to Sicily, and sailed with a fleet whose splendour surpassed anything seen before - then lost everything, executed its commanders, destroyed its ships and manpower, and never recovered. He adds two cold, weapon-like judgements. First, the freaks of chance are not determinable by calculation (1.84), so a good plan must leave room for luck. Second, when men are once checked in what they consider their special excellence, their whole opinion of themselves suffers more than if they had not at first believed in their superiority (7.66), so the undoing of an over-confident force is often self-inflicted. The operating points: keep hope and expected fact in separate ledgers; post a guard specifically for after success, because arrogance appears at the point of advantage; and write into every plan where the retreat lies if the situation reverses. Method signature: before any expansion or escalation, establish whether the commitment is cashing in an existing advantage or adding to a bet to recover an expectation.",
+      "source_chapter": "《战争史》IV.108.4『把所渴望的托付给漫不经心的希望』；III.39.3『突来的好运使人傲慢』；I.84.3『偶然的突发不是计算所能确定』；V.111 米洛人『侥幸』之辩；VI.1-32 西西里远征决策与出发时的盛况；VI.24 群众在情绪中投票出征；VII.66.3 自负受挫后的过度放弃；VII.75-87 叙拉古之败与全军覆没",
+      "key_quote_zh": "一个民族的习惯是：把所渴望的事情托付给漫不经心的希望，而用自以为是、不容置疑的理性去推开自己所不愿面对的东西。——《战争史》IV.108.4（Crawley 译本）",
+      "key_quote_en": "For it is a habit of mankind to entrust to careless hope what they long for, and to use sovereign reason to thrust aside what they do not desire.",
+      "key_concepts": [
+        "过度伸展",
+        "希望与算计分离",
+        "侥幸的成功",
+        "成功后的傲慢",
+        "偶然不可计算",
+        "自负受挫的过度放弃",
+        "退路预设"
+      ],
+      "process_zh": [
+        "把『所渴望的』与『有证据的』分栏登记：逐条标注每项判断的依据，凡无依据而只靠愿望支持的，一律标注为希望并降低其权重",
+        "为『成功之后』单独设防：在进入有利地位前预设傲慢检查点（是否开始轻视对手、是否开始追加无法撤回的投入）",
+        "为偶然留出余量：评估计划中哪些环节由运气决定，据此设定冗余、备选与止损线，而不是假定顺利会持续",
+        "检视投入的性质：区分这笔资源是在兑现已有优势，还是在为挽回预期与面子而加注；若是后者，先接受损失再决定是否继续"
+      ],
+      "process_en": [
+        "Keep the longed-for and the evidenced in separate columns: label the basis of every judgement, and mark anything supported only by desire as hope, reducing its weight",
+        "Post a guard specifically for after success: set arrogance checkpoints before entering a position of advantage (are we beginning to despise the opponent, to commit resources we cannot withdraw)",
+        "Leave room for chance: identify which parts of the plan are decided by luck and set redundancy, alternatives and a stop-loss accordingly, rather than assuming a run of good fortune will continue",
+        "Examine the nature of the commitment: distinguish spending to cash in an advantage from spending to recover an expectation or save face; if it is the latter, take the loss first and then decide whether to continue"
+      ],
+      "representative_cases_zh": [
+        "VI-VII 西西里远征：雅典在名义上的和平期内，被扩张论证说服而全军远征，出发时舰队规模冠绝希腊史；结果舰队与陆军尽失、主帅被处死，雅典自此元气不复——修昔底德把这一败写成由希望取代算计所导致的完整过伸案例",
+        "III.39.3 米提列涅人的教训：修昔底德说他们的失败不是被打败者的榜样吓住，而是『突来的好运使人傲慢』，在超出自身力量的希望中宣战——这是一条与西西里同构、规模较小的过伸样本",
+        "反面警示：过伸警告最常被两种方式滥用。一是事后聪明：在任何失败上贴『他太贪心』的标签，而不区分失败源于算计失误还是运气不利，于是吸取不到真正的教训。二是过度保守：由『要留退路』推出『绝不加注』，把谨慎变成不敢在确有优势时兑现优势，同样背离修昔底德——他反对的是希望取代算计，不是反对计算后的果断投入。真正的纪律在于：成功之后主动检查傲慢，且把偶然写进计划（同型风险：在牛市尾部加倍下注，或危机中因恐惧放弃原本稳妥的既定方案）。"
+      ],
+      "representative_cases_en": [
+        "The Sicilian expedition, VI-VII: during a nominal peace Athens was persuaded by the argument for expansion and sent the resources of the whole city to Sicily, sailing with a fleet whose scale surpassed anything in Greek history; the fleet and army were destroyed, the commanders executed, and Athens never recovered. Thucydides writes this defeat as the complete case of overreach in which hope displaced calculation",
+        "The lesson of the Mytilenaeans at III.39.3: Thucydides says they were not deterred by the fate of neighbours already subdued, but that great good fortune coming suddenly makes a people insolent, and they declared war on hopes beyond their power - a smaller overreach isomorphic to Sicily",
+        "Cautionary: the warning is misused in two ways. The first is hindsight wisdom: tagging any failure as he was too greedy without separating a misreckoning from bad luck, so no real lesson is drawn. The second is excessive caution: inferring never escalate from always keep a way back, converting prudence into an inability to cash in a genuine advantage - equally foreign to Thucydides, who opposes hope displacing calculation, not decisive commitment after calculation. Real discipline means checking for arrogance after success and writing chance into the plan (same-type risk: doubling the bet at the top of a bull market, or abandoning a sound existing plan out of fear in a crisis)."
+      ],
+      "modern_applications_zh": [
+        "投资与资源分配：为每个加注决策标明它是兑现优势还是挽回损失，并在连续成功后设置『傲慢检查』与不可撤回投入的上限",
+        "项目管理：把计划中依赖运气的环节单列，为关键路径设置冗余、备选方案与止损线；为项目『成功上线之后』的松懈期预设监控",
+        "战略与政策：在评估扩张提案时区分『优势使行动成为可能』与『行动被用来支撑一个已经过高的预期』，并要求提案方给出反转情境下的退路",
+        "个人决策：在顺境中主动征询反对意见与坏消息，把『我希望会这样』与『我有依据认为会这样』分开记录，避免在预期落空后过度自责或加倍投入"
+      ],
+      "modern_applications_en": [
+        "Investment and resource allocation: label every escalation as cashing in an advantage or recovering a loss, and set an arrogance check and a ceiling on irreversible commitment after a run of successes",
+        "Project management: isolate the parts of the plan that depend on luck, set redundancy, alternatives and stop-losses on the critical path, and pre-arrange monitoring for the post-launch complacency that follows success",
+        "Strategy and policy: when assessing an expansion proposal, separate this advantage makes action possible from this action is being used to support an expectation already too high, and require the proposer to state the retreat under reversal",
+        "Personal decisions: in good times actively seek dissenting views and bad news, record I hope it will be so separately from I have reason to think it will be so, and avoid self-reproach or doubling down when the expectation fails"
+      ],
+      "related_modes": [
+        "M-THU-007",
+        "M-THU-005",
+        "M-THU-003"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "克劳塞维茨",
+        "孙武"
+      ]
+    },
+    {
+      "id": "M-THU-009",
+      "mode_code": "M-THU-009",
+      "figure_code": "Thucydides",
+      "name_zh": "克制叙述与史家自守法",
+      "name_en": "Restraint in Narration and the Historian's Self-Discipline",
+      "category": "史学文献",
+      "category_raw": "核心方法",
+      "domain_zh": "史学方法/叙述者角色与解释边界",
+      "domain_en": "Historical Method / The Narrator's Role and the Limits of Explanation",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "修昔底德选择了历史写作中最难的一条路：几乎不给自己留位置。他不宣称有神意指引，不把事件裁剪成道德寓言，也极少在叙事中直接为谁定罪；他宁愿让事件、演说与后果自行排列，把结论留给读者。他给出的理由既关于方法也关于效果：他的书因缺少神话色彩而不够悦耳，他接受这一点（1.22）；他拒绝诗人式的夸大与纪事家『以牺牲真相换取可读性』的做法（1.21）。这种自守包含三项纪律。其一，区分『发生了什么』与『这意味着什么』：先把事件如实排布，解释尽量不嵌入叙事，必要时才单独提出并标明是判断。其二，不用叙事技巧取代证据：不靠命运、神罚、性格褒贬来闭合因果，凡是证据不到之处就留白，如第八卷风格突变与全书戛然而止，都不被修饰。其三，承认自己的立场与局限：他如实写出自己曾任将军、被流放，也写出这使他得以遍访双方；他把自己的位置交代给读者，而不是隐去。方法论签名：叙述者的克制是一项主动的能力——沉默是为了让证据说话，而不是为了回避判断。",
+      "definition_en": "Thucydides chose the hardest route in historical writing: to leave almost no space for himself. He claims no divine guidance, cuts events into no moral fable, and rarely convicts anyone directly inside the narrative; he prefers to let events, speeches and consequences arrange themselves and hands the conclusion to the reader. His reasons concern both method and effect: his book is less pleasing to the ear because it lacks the romantic element, and he accepts the cost (1.22); he refuses the exaggeration of poets and the practice of chroniclers who are attractive at truth's expense (1.21). The self-discipline has three parts. First, separate what happened from what it means: arrange events truthfully first, keep interpretation out of the narrative where possible, and where a judgement is needed present it separately and label it as a judgement. Second, do not let narrative technique substitute for evidence: never close a causal gap with fate, divine punishment, or praise and blame of character; where evidence stops, leave the gap open - the abrupt change of style in Book 8 and the work's unfinished end are not dressed up. Third, acknowledge one's own position and limits: he records plainly that he was a general, that he was exiled, and that this let him see both sides, handing his own standpoint to the reader rather than hiding it. Method signature: restraint is an active capacity - silence is there to let the evidence speak, not to avoid judgement.",
+      "source_chapter": "《战争史》I.1.1 开篇自署雅典人修昔底德；I.21-22 拒绝诗人夸大与『不够悦耳』的自陈；V.26 自述任职将军与流放使他得以见证双方；VIII 全书风格突变与终止于前 411 年；I.23、II.65、VIII.97 等少数史家直接评论段落（用于对比：他只在极少数处出面）",
+      "key_quote_zh": "由于本书缺少神话色彩，它读起来也许不那么悦耳；但凡是希望清楚了解过去、并因人性不变而理解未来的人，若判定它有用，我便满足了。——《战争史》I.22.4（Crawley 译本）",
+      "key_quote_en": "And it may well be that my history will seem less easy to read because of the absence in it of a romantic element... it will be enough if it is judged useful by those inquirers who desire an exact knowledge of the past.",
+      "key_concepts": [
+        "叙述者克制",
+        "判断与事实分离",
+        "拒绝叙事代替证据",
+        "留白",
+        "立场透明",
+        "解释的边界"
+      ],
+      "process_zh": [
+        "先把事实与解释分开排布：按时间与因果如实排列事件，把推断、评价与情绪另置，凡需判断处明确标注为判断而非事实",
+        "不以技巧闭合因果：当证据不足时保留缺口，不用命运、神意、性格褒贬或戏剧性转折补全叙事，宁可使文本不完整也不失真",
+        "交代叙述者的位置：明确写出自己的身份、利害、参与程度与信息来源，让读者能据此校正可能的偏向",
+        "保留少数必须出面的评论：只在对理解全局必需处提出判断，并说明其依据与限度，其余交给读者"
+      ],
+      "process_en": [
+        "Lay out fact and interpretation separately: arrange events truthfully in time and cause, put inference, evaluation and emotion elsewhere, and label any judgement as a judgement rather than as a fact",
+        "Refuse to close causal gaps with technique: where the evidence is insufficient keep the gap open, refusing fate, providence, praise and blame of character or dramatic reversal as filler - better an incomplete text than a distorted one",
+        "State the narrator's position: make explicit your role, interests, degree of participation and sources, so the reader can correct for possible bias",
+        "Keep only the few comments that must be made: offer a judgement only where it is necessary to understand the whole, state its grounds and its limits, and leave the rest to the reader"
+      ],
+      "representative_cases_zh": [
+        "I.21-22 的自陈：修昔底德公开说明自己删去了诗人与纪事家为取悦听众而加入的成分，宁可让文本『不够悦耳』；这种把可读性让位于可核验性的取舍，是叙述者自守的样板",
+        "V.26 的立场交代：他在讨论战争持续时间时写出自己曾任将军、被判流放，并说正是流放使他得以同时接触双方战事——他把自己在材料获取上的特殊位置交给读者评估，而非隐去",
+        "反面警示：叙述者克制最容易被两种方式破坏。一是『叙述即判决』——用形容词、视角与选材把结论预先写进事件里，使读者以为在看事实，实则在看立场；二是『什么都不说』被当作客观：把回避判断、堆砌『各有各的说法』包装成中立，实际是把解释责任推给读者却仍受自己选材影响。修昔底德的做法与之都不同：他极少数处会明确出面评论（如对内战与帝国动力的判断），但每次都标明依据；其余时间让证据自己说话（同型风险：以『客观报道』之名编辑事实，或以『保持中立』之名放弃核查）。"
+      ],
+      "representative_cases_en": [
+        "The statement at I.21-22: Thucydides says openly that he dropped the elements poets and chroniclers add to please an audience, accepting a text that is less pleasing to the ear. Subordinating readability to verifiability is the model of narratorial self-discipline",
+        "Declaring his standpoint at V.26: discussing the length of the war, he writes that he was a general, that he was exiled, and that exile let him follow both sides' operations - handing his special position in obtaining material to the reader for correction rather than hiding it",
+        "Cautionary: restraint is destroyed in two ways. The first is narration as verdict - loading the conclusion into the events through adjectives, viewpoint and selection, so that readers believe they are seeing facts when they are seeing a position. The second is mistaking saying nothing for objectivity: dressing up the avoidance of judgement, or a heap of each side has its own account, as neutrality, while still letting one's own selection shape the picture. Thucydides does neither: on the few occasions he does comment directly (as on civil war and the dynamics of empire) he marks his grounds each time, and the rest of the time he lets the evidence speak (same-type risk: editing facts under the name of objective reporting, or abandoning verification under the name of neutrality)."
+      ],
+      "modern_applications_zh": [
+        "研究报告与写作：把事实栏与判断栏分开，结论处标注证据强度与推断链；不用修辞、视角与选材把结论偷偷写进描述",
+        "数据分析与审计：区分『数据能支持的结论』与『我们希望得到的结论』，对数据缺口如实标注，不用模型平滑填补",
+        "信息公开与披露：在披露重大事项时标明自身立场、信息来源与已知局限，让受众能够校正偏向而非被动接受叙事",
+        "个人沟通：在汇报与争论中主动区分观察到的事实与自己的解释，说明自己在事件中的位置与利益，减少因隐去立场造成的误信"
+      ],
+      "modern_applications_en": [
+        "Research writing: keep a fact column and a judgement column apart, and at each conclusion mark the evidential strength and the chain of inference rather than smuggling the verdict into the description through rhetoric, viewpoint or selection",
+        "Data work and auditing: separate what the data can support from what we want it to support, mark data gaps honestly, and do not smooth them over with a model",
+        "Disclosure and publication: when disclosing something material, state your position, your sources and the known limits, so readers can correct for bias instead of passively accepting a narrative",
+        "Personal communication: in reports and arguments, distinguish what you observed from how you interpret it, and state your position and interest in the matter to reduce misplaced trust caused by hidden standpoints"
+      ],
+      "related_modes": [
+        "M-THU-001",
+        "M-THU-004",
+        "M-THU-010"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "司马迁",
+        "希罗多德"
+      ]
+    },
+    {
+      "id": "M-THU-010",
+      "mode_code": "M-THU-010",
+      "figure_code": "Thucydides",
+      "name_zh": "灾难叙事与人类苦难书写法",
+      "name_en": "Writing Catastrophe: Suffering as the Historian's Subject",
+      "category": "文艺审美",
+      "category_raw": "核心方法",
+      "domain_zh": "历史写作/悲剧诗学与伦理承担",
+      "domain_en": "Historical Writing / Tragic Poetics and Ethical Bearing",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "修昔底德写战争，最终写的是受苦。西西里远征的结尾被公认为全书最沉重的一段：他把失败书写成一次彻底的毁灭——舰队与陆军尽失，生还者被投入石场，死者无人收殓，而亲历者留下的记录里没有任何装饰。这里的方法不是煽情，而是把苦难当作历史的对象。它的结构有三层。其一，把灾难放在因果链条的末端：苦难不是意外降临，而是由过度自信、希望取代算计、以及一连串可追溯的决定累积而成——悲剧感恰来自『本可不同』。其二，让代价落到具体的人：他不写抽象的『损失惨重』，而写伤者比死者更可悯、写被留在石场中的人、写船队离开时两岸的哭泣；历史的分量由具体苦难承担。其三，把受难与教训连结：修昔底德并不宣称苦难必有回报，他提供的是让后人认出同类情境的能力——他的悲剧不是命运的判决，而是人自己的选择所导致的后果图景。方法论签名：写灾难时不作美化也不作猎奇，而是同时完成三件事——追清因果、还原具体受难者、为后世留下可辨认的处境。",
+      "definition_en": "Thucydides writes war and ends up writing suffering. The close of the Sicilian expedition is held to be the heaviest passage in his work: he writes the defeat as complete destruction - the fleet and the army lost, survivors thrown into the stone quarries, the dead left unburied - and the record left by those who lived through it carries no ornament. The method here is not to arouse feeling but to make suffering the subject of history. Its structure has three layers. First, catastrophe is placed at the end of a causal chain: it does not descend by accident but accumulates out of over-confidence, hope displacing calculation, and a series of traceable decisions - the tragic feeling comes precisely from it could have been otherwise. Second, the cost is made to fall on particular people: he does not write the loss was heavy but writes that the wounded were more pitiable than the dead, that men were left in the quarries, that the shore wept as the fleet departed; the weight of history is carried by concrete suffering. Third, suffering is joined to instruction: Thucydides does not claim that suffering is repaid; what he offers is the capacity for later readers to recognise the same situation - his tragedy is not a verdict of fate but a picture of consequences produced by human choices. Method signature: in writing catastrophe, neither beautify nor sensationalise, but do three things at once - trace the causation, restore the particular sufferers, and leave a situation later readers can recognise.",
+      "source_chapter": "《战争史》VII.75 撤离叙拉古时的哭泣与丢弃伤员；VII.87 叙拉古之败的总结（『本战争中最大的一次行动……对胜者最为辉煌，对败者最为悲惨』）与石场中的生还者；II.47-54 瘟疫中人的苦难；III.81-84 内乱中的杀戮；II.43 伯里克利葬礼演说中『整个大地都是名人的坟墓』（与苦难书写的对照面）",
+      "key_quote_zh": "这是本次战争中最大的一次行动，在我看来，对胜者最为辉煌，对败者最为悲惨；因为他们被彻底、全面地击溃，所遭受的苦难无可比拟。——《战争史》VII.87.5（Crawley 译本）",
+      "key_quote_en": "This was the greatest action that happened in this war, and, to the victors the most brilliant of successes, to the vanquished the most calamitous of defeats; for they were utterly and entirely defeated, and their sufferings were beyond measure.",
+      "key_concepts": [
+        "灾难叙事",
+        "悲剧因果",
+        "具体受难者",
+        "本可不同",
+        "代价还原",
+        "受难与教训连结",
+        "不过度美化也不猎奇"
+      ],
+      "process_zh": [
+        "把灾难接回因果链：逐项梳理导致灾难的决定与转折，并把『本可不如此』的替代路径写清，使悲剧感来自可追溯的选择而非宿命",
+        "让代价落到具体的人：用具体处境、具体损失与具体声音承载后果，避免用抽象的总量数字代替受苦本身",
+        "克制修辞而不回避重量：不作美化、不作猎奇、不作煽情，让事实与细节自带的重量说话",
+        "把受苦与可辨认的情境相连：提取出后人能够认出的处境与信号（自信过盛、希望取代算计、退路消失），使苦难同时成为可复用的警示"
+      ],
+      "process_en": [
+        "Reconnect the catastrophe to its causal chain: go through the decisions and turns that led to it, and write out the alternatives that show it need not have been so, so that the tragic sense comes from traceable choices rather than fate",
+        "Let the cost fall on particular people: carry the consequences in concrete situations, concrete losses and concrete voices, instead of substituting an abstract total for the suffering itself",
+        "Restrain the rhetoric without evading the weight: neither beautify nor sensationalise nor tug at feeling, letting the weight carried by fact and detail speak",
+        "Join suffering to a recognisable situation: extract the circumstances and signals later readers can identify (overconfidence, hope displacing calculation, the disappearance of a line of retreat), so that suffering is also a reusable warning"
+      ],
+      "representative_cases_zh": [
+        "VII.75、VII.87 西西里之败：修昔底德写下撤退时的哭泣、被弃的伤员、石场中的生还者，并以『对败者最为悲惨』作结；他把全书最沉重的分量交给一场由雅典自己选择、且本可避免的灾难",
+        "II.47-54 瘟疫中的人：他不满足于统计死亡，而写下人们因恐惧而抛弃病人、丧葬禁忌崩坏、幸存者失去对法律的敬畏——苦难被写成社会现象而非数字",
+        "反面警示：灾难叙事有两种常见堕落。一是把苦难审美化、猎奇化：以灾难的血腥程度取胜，把受难者当成画面，久之读者只记住恐怖而学不到结构。二是把苦难工具化：将灾难简化为道德寓言或政治论据，让某一方成为纯粹恶人，于是因果被替换为控诉，教训也随之消失。修昔底德两者都避开了——他既写下石场里无人收殓的死者，也写下导致这一切的决定链条，让灾难同时是惨剧与诊断（同型风险：灾难报道只求冲击力，或事故反思只求一个可归罪的部门）。"
+      ],
+      "representative_cases_en": [
+        "The Sicilian defeat at VII.75 and VII.87: Thucydides writes the weeping of the retreat, the wounded left behind, the survivors in the quarries, and closes with the most calamitous of defeats - assigning the heaviest weight of the whole work to a disaster Athens chose and could have avoided",
+        "People in the plague, II.47-54: he is not content with counting the dead but writes of men abandoning the sick out of fear, burial customs overturned, and survivors losing their awe of the law - suffering written as a social phenomenon rather than a number",
+        "Cautionary: disaster writing decays in two familiar ways. The first is aestheticising or sensationalising suffering: winning by the volume of blood, treating the sufferers as images, so that readers remember only horror and learn nothing structural. The second is instrumentalising suffering: shrinking the disaster into a moral fable or a political argument, making one side purely evil, so that causation is replaced by indictment and the lesson vanishes with it. Thucydides avoids both - he writes the unburied dead in the quarries and also the chain of decisions that produced them, so the catastrophe is at once tragedy and diagnosis (same-type risk: disaster coverage that seeks only impact, or an incident review that seeks only a department to blame)."
+      ],
+      "modern_applications_zh": [
+        "灾难与事故报道：在还原灾难时同时给出因果链与具体受难者的处境，避免只求冲击力或只求归罪；把『本可不同』的转折点写出来",
+        "纪念与档案工作：为重大损失建立包含具体姓名、处境与原因的记录，使纪念与教训统一，防止苦难被抽象成数字或口号",
+        "组织复盘与安全文化：在重大失败复盘中写出代价落到谁身上、由哪些决定累积而来，既不安慰性淡化也不找替罪者",
+        "文学与叙事创作：以具体细节与可辨认处境承载重量，克制修辞而不回避沉重，让读者从受难中识别人性与结构的信号"
+      ],
+      "modern_applications_en": [
+        "Disaster and incident reporting: restore the causal chain and the situation of particular sufferers together, rather than seeking only impact or only blame, and write out the turning points where it could have been otherwise",
+        "Commemoration and archives: build records of major losses that contain concrete names, circumstances and causes, so that commemoration and lesson are one, and suffering is not abstracted into a number or a slogan",
+        "Organisational post-mortems and safety culture: in reviewing a serious failure, set down on whom the cost fell and which decisions accumulated into it, neither softening it for comfort nor hunting a scapegoat",
+        "Literary and narrative craft: carry weight with concrete detail and a recognisable situation, restraining the rhetoric without evading the heaviness, so readers can read human and structural signals from the suffering"
+      ],
+      "related_modes": [
+        "M-THU-006",
+        "M-THU-008",
+        "M-THU-003"
+      ],
+      "representative_figures": [
+        "修昔底德",
+        "司马迁",
+        "汉娜·阿伦特"
+      ]
+    }
+  ]
+}

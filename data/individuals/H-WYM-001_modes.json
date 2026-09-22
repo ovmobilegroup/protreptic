@@ -163,5 +163,760 @@
       "thinking_skill": "在决策时把受影响者的边界画到'一体'范围（远端利益相关者）；用恻隐直觉作为共同体想象的起点而非结论。",
       "pitfalls": "一体之仁若无制度配套易成道德动员口号；无限扩充的'一体'在资源有限时面临优先级难题，仍需次序安排。"
     }
-  ]
+  ],
+  "thinking_modes_v6_phase20": [
+    {
+      "id": "M-WYM-001",
+      "mode_code": "M-WYM-001",
+      "research_mode_id": "M-WAN-001",
+      "name_zh": "心即理法",
+      "name_en": "Mind-Is-Principle Method",
+      "category": "本体论",
+      "domain_zh": "道德形上学/主体性",
+      "domain_en": "Moral Metaphysics / Subjectivity",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "心之本体即是天理，理不在心外，不必向外求索。良知即是天理，天理即是良知。此法是阳明心学的本体论根基，将道德的根源从外在规范转向内在主体，使道德判断获得了不可动摇的自主性。所谓'心即理'，并非否定外在事物的客观规律，而是指道德价值的判断标准不在外物，而在人心之良知。",
+      "definition_en": "The original substance of the mind is Heavenly Principle; principle does not exist outside the mind, no need to seek it externally. Liangzhi (innate knowing) is Heavenly Principle, and Heavenly Principle is Liangzhi. This is the ontological foundation of Yangming's School of Mind, shifting the root of morality from external norms to inner subjectivity and giving moral judgment an unshakable autonomy. 'Mind is principle' does not deny the objective laws of external things, but indicates that the standard for moral evaluation resides in the liangzhi of the human heart.",
+      "source_chapter": "《传习录》卷上",
+      "key_concepts": [
+        "心即理",
+        "良知即天理",
+        "心外无物",
+        "心外无理",
+        "道德主体性"
+      ],
+      "process_zh": [
+        "识别向外求理的惯性思维",
+        "体认心之本体即是天理",
+        "以良知为判断是非的最终依据",
+        "在日用常行中印证心即理"
+      ],
+      "process_en": [
+        "Identify the habitual tendency to seek principle externally",
+        "Apprehend that the original substance of mind is Heavenly Principle",
+        "Take liangzhi as the ultimate criterion for judging right and wrong",
+        "Verify mind-is-principle in daily affairs"
+      ],
+      "key_quote_zh": "心即理也。天下又有心外之事，心外之理乎？",
+      "key_quote_en": "Mind is principle. Is there anything outside the mind, or any principle outside the mind, in the world?",
+      "representative_cases_zh": [
+        "王阳明年轻时无视朱熹'即物穷理'的教导，对着竹子'格'了七天七夜，病倒后领悟理不在外物而在内心，由此开启心学之路",
+        "阳明答弟子问：'草碍吾庭，去之可乎？'曰：'草有妨碍，理亦宜去，去之而已。偶未即去，亦不累心。'——去草之事是理，但理在心上，不在草上",
+        "反例警示：若把'心即理'理解为否定一切客观规律，则会陷入主观唯心主义的狂禅——阳明强调心即理是针对道德价值而言，并非否认物理世界的客观性"
+      ],
+      "representative_cases_en": [
+        "In his youth, Wang ignored Zhu Xi's teaching of 'investigating things to exhaust principle,' staring at bamboo for seven days and nights until he fell ill, then realized principle was not in external things but in the mind, thus beginning his path of the School of Mind",
+        "When asked whether to remove grass blocking his courtyard, Wang replied: 'If grass is an obstacle, principle dictates its removal — just remove it. If you cannot yet remove it, let it not disturb the mind.' The principle of removing grass is in the mind, not in the grass itself",
+        "Counterexample: reading 'mind is principle' as denying all objective laws leads to subjective idealist Zen-like arrogance — Wang meant this specifically for moral values, not for denying the objectivity of the physical world"
+      ],
+      "modern_applications_zh": [
+        "价值判断的自主性",
+        "道德教育的内在化",
+        "企业文化中的价值观内化",
+        "个人成长中的自我认同"
+      ],
+      "modern_applications_en": [
+        "Autonomy of value judgment",
+        "Internalization of moral education",
+        "Value internalization in corporate culture",
+        "Self-identity in personal growth"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-002",
+        "M-WYM-003",
+        "M-WYM-005"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-002",
+      "mode_code": "M-WYM-002",
+      "research_mode_id": "M-WAN-002",
+      "name_zh": "知行合一法",
+      "name_en": "Unity-of-Knowing-and-Acting Method",
+      "category": "认识论",
+      "domain_zh": "知行关系/实践哲学",
+      "domain_en": "Knowledge-Action Relationship / Practical Philosophy",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "知与行是本体的两面，不可割裂。知是行的主意，行是知的功夫；知是行之始，行是知之成。真知必能行，不行不足谓之知。一念发动处，便即是行了。此法是阳明对当时学者'知而不行'弊病的有力针砭，强调道德认知必须落实为道德实践，二者本是一事。",
+      "definition_en": "Knowing and acting are two sides of one substance and cannot be separated. Knowing is the intention of acting; acting is the effort of knowing. Knowing is the beginning of acting; acting is the completion of knowing. True knowing necessarily leads to action; without action, it is not truly knowing. The moment a thought arises, it is already action. This is Wang's powerful corrective to the contemporary flaw of 'knowing without acting,' emphasizing that moral cognition must be implemented as moral practice, and the two are fundamentally one thing.",
+      "source_chapter": "《传习录》卷上",
+      "key_concepts": [
+        "知行本体",
+        "知是行之始",
+        "行是知之成",
+        "一念发动",
+        "真知必行"
+      ],
+      "process_zh": [
+        "识别知而不行的自我欺骗",
+        "体认知行本是一体",
+        "在念头上察识善恶",
+        "将道德认知落实为道德实践"
+      ],
+      "process_en": [
+        "Identify self-deception of knowing without acting",
+        "Apprehend that knowing and acting are one substance",
+        "Discern good and evil at the level of thought",
+        "Implement moral cognition as moral practice"
+      ],
+      "key_quote_zh": "知是行的主意，行是知的功夫；知是行之始，行是知之成。",
+      "key_quote_en": "Knowing is the intention of acting; acting is the effort of knowing. Knowing is the beginning of acting; acting is the completion of knowing.",
+      "representative_cases_zh": [
+        "阳明说：'真知即所以为行，不行不足谓之知。'如知孝必已行了孝，知君必已行了忠，未有知孝而不行孝者",
+        "有人问：'目前人是知温清奉养的，如何不行？'阳明曰：'他不知，只是不会。若能知，未有不知行的。'——不知温清之节，故不行温清；不知奉养之宜，故不行奉养",
+        "反例警示：若把知行合一理解为'知了就行'而忽略实践的艰难，则会陷入轻率的行动主义——阳明强调的是知行在本体上的一致性，而非取消实践的艰巨性"
+      ],
+      "representative_cases_en": [
+        "Wang said: 'True knowing is that which enables acting; without acting, it cannot be called knowing.' For example, to truly know filial piety means one has already practiced it; to know loyalty means one has already been loyal — there is no one who knows filial piety yet does not practice it",
+        "Someone asked: 'People nowadays know the proper ways to warm and serve their parents, so why don't they practice it?' Wang replied: 'They do not truly know; they simply lack the ability. If they truly knew, they would not fail to act.' — not knowing the proper methods of warming and serving means not practicing them",
+        "Counterexample: reading unity-of-knowing-and-acting as 'once known, automatically done' while ignoring the difficulty of practice leads to reckless activism — Wang emphasizes the ontological consistency of knowing and acting, not the elimination of practice's arduousness"
+      ],
+      "modern_applications_zh": [
+        "克服知行脱节",
+        "行为改变的策略",
+        "教育中的实践导向",
+        "组织执行力提升"
+      ],
+      "modern_applications_en": [
+        "Overcoming knowledge-action gap",
+        "Strategies for behavior change",
+        "Practice-oriented education",
+        "Enhancing organizational execution"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-001",
+        "M-WYM-003",
+        "M-WYM-004"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-003",
+      "mode_code": "M-WYM-003",
+      "research_mode_id": "M-WAN-003",
+      "name_zh": "致良知法",
+      "name_en": "Extending-Innate-Knowing Method",
+      "category": "工夫论",
+      "domain_zh": "修养方法论/道德实践",
+      "domain_en": "Cultivation Methodology / Moral Practice",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "致吾心之良知于事事物物，使事事物物皆得其理。良知是心之本体，是人人本具的是非准则。致良知，就是将此内在的是非准则推至事事物物，使一切行为皆符合良知的要求。此法是阳明晚年所提的学问宗旨，'吾平生讲学，只是致良知三字'，是心学的最高概括和最终归宿。",
+      "definition_en": "Extend the liangzhi (innate knowing) within one's mind to all things, so that all things receive their proper order. Liangzhi is the original substance of the mind, the innate criterion of right and wrong present in every person. Extending innate knowing means applying this inner criterion to all affairs, so that all actions accord with liangzhi. This is the ultimate teaching principle Wang proposed in his later years: 'In my life of teaching, I have only spoken these three words — extend innate knowing.' It is the highest summary and final destination of the School of Mind.",
+      "source_chapter": "《传习录》卷中",
+      "key_concepts": [
+        "致良知",
+        "良知即天理",
+        "推致",
+        "是非之心",
+        "学问头脑"
+      ],
+      "process_zh": [
+        "确认良知是本具的是非准则",
+        "在念念中觉察良知之发用",
+        "将良知推致于事事物物",
+        "使一切行为皆符合良知的要求"
+      ],
+      "process_en": [
+        "Confirm that liangzhi is the innate criterion of right and wrong",
+        "Discern the functioning of liangzhi in each thought",
+        "Extend liangzhi to all affairs and things",
+        "Bring all actions into accord with the demands of liangzhi"
+      ],
+      "key_quote_zh": "致吾心之良知于事事物物也。吾心之良知，即所谓天理也。致吾心良知之天理于事事物物，则事事物物皆得其理矣。",
+      "key_quote_en": "Extend the liangzhi of my mind to all things. The liangzhi of my mind is what is called Heavenly Principle. To extend the Heavenly Principle of my liangzhi to all things is so that all things receive their proper order.",
+      "representative_cases_zh": [
+        "阳明答弟子问格物：'格者，正也，正其不正以归于正也。'格物不是穷究外物之理，而是正心之物——使意之所在之事归于正",
+        "阳明说：'尔那一点良知，是尔自家的准则。尔意念着处，他是便知是，非便知非，更瞒他一些不得。此便是格物的真诀，致知的实功。'",
+        "反例警示：若把致良知理解为纯粹的内省冥想而忽略外在实践，则会落入禅定式的空修——阳明强调致良知必须在事上磨练，在人情事变中体认"
+      ],
+      "representative_cases_en": [
+        "When asked about Gewu (investigating things), Wang replied: 'Ge means rectify — to rectify what is not upright and return it to uprightness.' Investigating things is not exhausting the principle of external objects, but rectifying the matters of the mind",
+        "Wang said: 'That point of liangzhi in you is your own standard. When your thoughts arise, it knows what is right, knows what is wrong, and cannot be deceived even slightly. This is the true secret of Gewu and the real work of extending knowledge'",
+        "Counterexample: reading extending innate knowing as pure introspective meditation while ignoring external practice falls into Zen-like empty cultivation — Wang emphasizes that extending liangzhi must be practiced in affairs, discerned in human relationships and worldly events"
+      ],
+      "modern_applications_zh": [
+        "道德直觉的培养",
+        "决策中的良知判断",
+        "自我监督与反思",
+        "领导力的道德根基"
+      ],
+      "modern_applications_en": [
+        "Cultivation of moral intuition",
+        "Liangzhi-based judgment in decision-making",
+        "Self-supervision and reflection",
+        "Moral foundation of leadership"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-001",
+        "M-WYM-002",
+        "M-WYM-004"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-004",
+      "mode_code": "M-WYM-004",
+      "research_mode_id": "M-WAN-004",
+      "name_zh": "念念察识法",
+      "name_en": "Discerning-Each-Thought Method",
+      "category": "工夫论",
+      "domain_zh": "心性修养/自我觉察",
+      "domain_en": "Mind-Nature Cultivation / Self-Awareness",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "在每一个念头的发动处保持良知的觉察，善念即行之，恶念即克之。此法是致良知工夫的具体操作，强调在意念初动之时就要保持警觉，因为一念发动处便即是行了。善念须当即扩充推行，恶念须当即克制消除，不可任其潜滋暗长。",
+      "definition_en": "Maintain the discernment of liangzhi at the moment each thought arises: promote good thoughts, suppress evil thoughts. This is the specific operation of extending innate knowing, emphasizing vigilance at the initial movement of thought, because the moment a thought arises, it is already action. Good thoughts must be immediately expanded and practiced; evil thoughts must be immediately suppressed and eliminated, not allowed to grow secretly.",
+      "source_chapter": "《传习录》卷上",
+      "key_concepts": [
+        "念念察识",
+        "一念发动",
+        "克己",
+        "善念扩充",
+        "恶念克制"
+      ],
+      "process_zh": [
+        "在念头初动时保持警觉",
+        "以良知判别念头的善恶",
+        "善念当即推行，恶念当即克制",
+        "持之以恒，不间断察识"
+      ],
+      "process_en": [
+        "Maintain vigilance when thoughts first arise",
+        "Discern good and evil of thoughts through liangzhi",
+        "Immediately practice good thoughts, immediately suppress evil thoughts",
+        "Persevere without interruption in discernment"
+      ],
+      "key_quote_zh": "善念发而知之，而充之；恶念发而知之，而遏之。",
+      "key_quote_en": "When a good thought arises, one knows it and expands it; when an evil thought arises, one knows it and restrains it.",
+      "representative_cases_zh": [
+        "阳明教导弟子：'克己须要扫除廓清，一毫不存方是。有一毫在，则众恶相引而来。'——强调在念头上用功，须彻底清除私欲，不可留一丝一毫",
+        "有人问：'静时意思亦好，及遇事时便不能。'阳明曰：'此只是用功不力。静时功夫，亦须有事上磨练方可。'",
+        "反例警示：若把念念察识理解为压抑正常情感和欲望，则会陷入枯寂的禁欲主义——阳明强调的是在念头上用功，而非消灭念头本身"
+      ],
+      "representative_cases_en": [
+        "Wang instructed disciples: 'Suppressing oneself requires sweeping and clearing completely; not leaving the slightest trace is correct. If even a hair's breadth remains, all evils will be drawn together.' — emphasizing work on thoughts, one must thoroughly eliminate selfish desires without leaving the smallest trace",
+        "Someone asked: 'When alone in stillness my thoughts are good, but when events arise I cannot maintain them.' Wang replied: 'This is simply insufficient effort. Stillness practice must also be tempered through affairs'",
+        "Counterexample: reading discerning each thought as suppressing normal emotions and desires leads to ascetic emptiness — Wang emphasizes working on thoughts, not eliminating thoughts themselves"
+      ],
+      "modern_applications_zh": [
+        "正念冥想",
+        "情绪管理",
+        "习惯养成",
+        "自我监督"
+      ],
+      "modern_applications_en": [
+        "Mindfulness meditation",
+        "Emotional management",
+        "Habit formation",
+        "Self-supervision"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-002",
+        "M-WYM-003",
+        "M-WYM-005"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-005",
+      "mode_code": "M-WYM-005",
+      "research_mode_id": "M-WAN-005",
+      "name_zh": "龙场悟本法",
+      "name_en": "Longchang Enlightenment Method",
+      "category": "认识论",
+      "domain_zh": "认知转折/顿悟方法",
+      "domain_en": "Cognitive Turning Point / Sudden Enlightenment Method",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "在极端困境中超越生死执念，回归内心，体认'圣人之道，吾性自足'。正德元年（1506年），王阳明被贬至贵州龙场，在瘴疠之地、生死边缘，日夜端居澄默，终于一夜大悟，认识到向之求理于事物者皆是误也。此法是阳明心学的源头，也是其在绝境中实现认知突破的经典案例。",
+      "definition_en": "Transcending the obsession with life and death in extreme adversity, returning to the inner self, and apprehending 'the Way of the sage is fully present within my nature.' In 1506, Wang was exiled to Longchang in Guizhou, where in a land of miasma facing death and life, he sat in meditation day and night. Finally, in one night he had a great enlightenment, realizing that seeking principle in external things had all been erroneous. This is the source of Yangming's School of Mind and a classic case of cognitive breakthrough in desperate circumstances.",
+      "source_chapter": "《王阳明年谱》",
+      "key_concepts": [
+        "龙场悟道",
+        "吾性自足",
+        "困境突破",
+        "生死超越",
+        "向内求索"
+      ],
+      "process_zh": [
+        "处于极端困境，放下对外在的依赖",
+        "日夜端居澄默，向内观照",
+        "超越生死执念，直面生命本质",
+        "忽然大悟，体认圣人之道吾性自足"
+      ],
+      "process_en": [
+        "In extreme adversity, let go of dependence on external things",
+        "Sit in still meditation day and night, turning inward",
+        "Transcend the obsession with life and death, face the essence of existence",
+        "Suddenly achieve great enlightenment, apprehend that the Way of the sage is fully within"
+      ],
+      "key_quote_zh": "圣人之道，吾性自足，向之求理于事物者误也。",
+      "key_quote_en": "The Way of the sage is fully present within my nature; seeking principle in external things was the error all along.",
+      "representative_cases_zh": [
+        "龙场悟道后，阳明豁然贯通，从此'始知圣人之道，吾性自足'，不再向外求索，开启了心学的伟大事业",
+        "阳明自述悟道过程：'其夜宿龙冈庵，忽中夜大悟格物致知之旨，不觉呼跃而起，从者皆惊。'",
+        "反例警示：若把龙场悟道理解为神秘主义的个人体验，则会错失其方法论意义——悟道的关键在于放下对外在权威的依赖，回归内心的主体性"
+      ],
+      "representative_cases_en": [
+        "After the Longchang enlightenment, Wang achieved sudden breakthrough, realizing 'the Way of the sage is fully within,' no longer seeking externally, thus beginning the great enterprise of the School of Mind",
+        "Wang described the process: 'That night at Longgang Hermitage, suddenly in the middle of the night I had a great enlightenment on the meaning of Gewu and zhizhi, involuntarily leaping up in excitement, startling my followers.'",
+        "Counterexample: reading Longchang enlightenment as mystical personal experience misses its methodological significance — the key is letting go of dependence on external authority and returning to the subjectivity of the inner self"
+      ],
+      "modern_applications_zh": [
+        "逆境中的认知突破",
+        "人生转折的应对",
+        "创造性思维的激发",
+        "自我认知的重构"
+      ],
+      "modern_applications_en": [
+        "Cognitive breakthrough in adversity",
+        "Coping with life turning points",
+        "Stimulating creative thinking",
+        "Reconstructing self-understanding"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-001",
+        "M-WYM-006",
+        "M-WYM-008"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-006",
+      "mode_code": "M-WYM-006",
+      "research_mode_id": "M-WAN-006",
+      "name_zh": "四句教心法",
+      "name_en": "Four-Sentence Teaching Method",
+      "category": "工夫论",
+      "domain_zh": "心性修养/境界论",
+      "domain_en": "Mind-Nature Cultivation / Theory of Realm",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "无善无恶心之体，有善有恶意之动，知善知恶是良知，为善去恶是格物。四句教是阳明晚年对心学体系的完整概括，涵盖了本体、发用、工夫三个层面：心之本体超越善恶对待，意念发动则有善恶之分，良知具有辨别善恶的能力，格物就是为善去恶的实践工夫。此法是阳明心学的总纲，也是其后学分化的重要节点。",
+      "definition_en": "The substance of mind transcends good and evil; when thoughts arise, there is good and evil; innate knowing discerns good and evil; Gewu is the practical work of promoting good and eliminating evil. The Four-Sentence Teaching is Wang's late-life complete summary of the School of Mind, covering ontology, manifestation, and practice: the substance of mind transcends the duality of good and evil, thoughts bring the distinction of good and evil, liangzhi has the capacity to discern good and evil, Gewu is the practical work of promoting good and eliminating evil. This is the general outline of Yangming's School of Mind and an important node in the later differentiation of his disciples.",
+      "source_chapter": "《传习录》卷下",
+      "key_concepts": [
+        "无善无恶",
+        "心之体",
+        "意之动",
+        "良知",
+        "格物"
+      ],
+      "process_zh": [
+        "体认心之本体超越善恶对待",
+        "觉察意念发动时的善恶分别",
+        "以良知判别是非善恶",
+        "在为善去恶中实践格物"
+      ],
+      "process_en": [
+        "Apprehend that the substance of mind transcends the duality of good and evil",
+        "Discern the distinction of good and evil when thoughts arise",
+        "Use liangzhi to judge right and wrong",
+        "Practice Gewu in promoting good and eliminating evil"
+      ],
+      "key_quote_zh": "无善无恶心之体，有善有恶意之动，知善知恶是良知，为善去恶是格物。",
+      "key_quote_en": "The substance of mind transcends good and evil; when thoughts arise, there is good and evil; innate knowing discerns good and evil; Gewu is the practical work of promoting good and eliminating evil.",
+      "representative_cases_zh": [
+        "天泉证道时，阳明向钱德洪、王畿宣讲四句教，叮嘱二人'以后再不可更此四字'，显示此教法的根本性和重要性",
+        "四句教中'无善无恶心之体'并非否定道德，而是指心体本身超越善恶对待，是绝对的至善；'有善有恶意之动'说明善恶来自意念的发动",
+        "反例警示：若把'无善无恶'理解为道德虚无主义，则会滑向纵欲的借口——阳明强调的是心体的超越性，而非否定善恶的价值判断"
+      ],
+      "representative_cases_en": [
+        "At Tianquan Bridge, Wang expounded the Four-Sentence Teaching to Qian Dehong and Wang Ji, instructing them never to change these words, showing the fundamental importance of this teaching",
+        "In the four sentences, 'the substance of mind transcends good and evil' does not deny morality, but indicates that the mind's substance transcends the duality of good and evil, being absolute perfect goodness; 'when thoughts arise, there is good and evil' shows that good and evil come from the movement of thoughts",
+        "Counterexample: reading 'transcending good and evil' as moral nihilism leads to the excuse for indulgence — Wang emphasizes the transcendence of the mind's substance, not the denial of value judgment regarding good and evil"
+      ],
+      "modern_applications_zh": [
+        "超越二元对立的思维",
+        "道德判断的深层根基",
+        "心理健康中的境界提升",
+        "领导力的道德修养"
+      ],
+      "modern_applications_en": [
+        "Thinking beyond binary opposition",
+        "Deep root of moral judgment",
+        "Realm elevation in mental health",
+        "Moral cultivation of leadership"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-001",
+        "M-WYM-003",
+        "M-WYM-007"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-007",
+      "mode_code": "M-WYM-007",
+      "research_mode_id": "M-WAN-007",
+      "name_zh": "事上磨练法",
+      "name_en": "Tempering-in-Affairs Method",
+      "category": "工夫论",
+      "domain_zh": "实践修养/处世哲学",
+      "domain_en": "Practical Cultivation / Philosophy of Engagement",
+      "level": "次要",
+      "priority": 7,
+      "definition_zh": "人须在事上磨，方立得住，方能静亦定、动亦定。修养不能脱离实际事务，必须在具体的人情事变中磨练心性。静坐澄心只是辅助手段，真正的工夫在于日用常行、应酬交错之间保持良知的觉察与运用。此法是对抗空谈玄理的有力武器，强调实践是最好的修行。",
+      "definition_en": "One must be tempered in affairs to stand firm, to be stable in motion as in stillness. Cultivation cannot be divorced from practical affairs; it must be tempered in concrete human relationships and worldly events. Stillness meditation is only an auxiliary means; the real work lies in maintaining the discernment and application of liangzhi in daily affairs and social interactions. This method is a powerful weapon against empty speculation, emphasizing that practice is the best cultivation.",
+      "source_chapter": "《传习录》卷上",
+      "key_concepts": [
+        "事上磨练",
+        "动静一如",
+        "日用常行",
+        "不累于境",
+        "真定"
+      ],
+      "process_zh": [
+        "在日常事务中保持良知觉察",
+        "不为外境所动，也不逃避事务",
+        "在困难和冲突中检验心志",
+        "达到静亦定、动亦定的境界"
+      ],
+      "process_en": [
+        "Maintain liangzhi discernment in daily affairs",
+        "Not disturbed by external conditions, nor fleeing from affairs",
+        "Test one's resolve in difficulties and conflicts",
+        "Reach the state of stability in both motion and stillness"
+      ],
+      "key_quote_zh": "人须在事上磨，方立得住，方能静亦定、动亦定。",
+      "key_quote_en": "One must be tempered in affairs to stand firm, to be stable in motion as in stillness.",
+      "representative_cases_zh": [
+        "阳明平定宁王之乱时，在军务繁忙中依然讲学不辍，正是事上磨练的典范",
+        "有人问：'欲静坐，又觉得百事纷纭，如何？'阳明曰：'且就此事理会。'——不逃避事务，就在事务中用功",
+        "反例警示：若把事上磨练理解为忙碌中忽略内心修养，则会陷入事务主义的忙碌——阳明强调的是在事务中保持良知的自觉，而非被事务牵着走"
+      ],
+      "representative_cases_en": [
+        "When suppressing the Prince of Ning's rebellion, Wang continued teaching amid busy military affairs, a paradigm of tempering in affairs",
+        "Someone asked: 'I want to sit in stillness, yet feel overwhelmed by countless affairs, what should I do?' Wang replied: 'Attend to these affairs.' — not fleeing from affairs, working within them",
+        "Counterexample: reading tempering in affairs as busyness that ignores inner cultivation leads to the trap of mere activity — Wang emphasizes maintaining conscious liangzhi in affairs, not being dragged along by them"
+      ],
+      "modern_applications_zh": [
+        "职场中的修行",
+        "压力管理",
+        "领导力培养",
+        "生活与工作的整合"
+      ],
+      "modern_applications_en": [
+        "Cultivation in the workplace",
+        "Stress management",
+        "Leadership development",
+        "Integration of life and work"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-002",
+        "M-WYM-004",
+        "M-WYM-009"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-008",
+      "mode_code": "M-WYM-008",
+      "research_mode_id": "M-WAN-008",
+      "name_zh": "人人成圣法",
+      "name_en": "Everyone-Becomes-Sage Method",
+      "category": "境界论",
+      "domain_zh": "人性论/教育哲学",
+      "domain_en": "Theory of Human Nature / Educational Philosophy",
+      "level": "次要",
+      "priority": 8,
+      "definition_zh": "愚夫愚妇与圣人同类，良知人人本具，人人皆可成圣。圣人与凡人之间的差别不在本性，而在是否能去除私欲遮蔽、恢复良知的本然状态。此法是阳明心学的平等主义面向，打破了传统社会中圣人遥不可及的神话，为每个人提供了自我超越的可能性和内在动力。",
+      "definition_en": "Common folk and sages share the same nature; liangzhi is innately present in everyone, and everyone can become a sage. The difference between sage and ordinary person lies not in their original nature, but in whether they can remove the obscuration of selfish desires and restore the original state of liangzhi. This is the egalitarian dimension of Yangming's School of Mind, breaking the myth that sages are unreachable and providing everyone with the possibility and inner motivation for self-transcendence.",
+      "source_chapter": "《传习录》卷上",
+      "key_concepts": [
+        "人人可为尧舜",
+        "良知本具",
+        "去蔽复性",
+        "圣人可学",
+        "平等主义"
+      ],
+      "process_zh": [
+        "确认良知人人本具",
+        "理解圣凡之别在于去蔽与否",
+        "在去除私欲中恢复本性",
+        "以圣人为目标持续修炼"
+      ],
+      "process_en": [
+        "Confirm that liangzhi is innately present in everyone",
+        "Understand the difference between sage and ordinary person lies in removing obscuration",
+        "Restore original nature by eliminating selfish desires",
+        "Take the sage as the goal and practice continuously"
+      ],
+      "key_quote_zh": "圣人可学而至。",
+      "key_quote_en": "The sage can be reached through learning.",
+      "representative_cases_zh": [
+        "阳明常说：'个个人心有仲尼'——每个人都有内在的孔子，关键在于是否自觉",
+        "阳明以满街人都可以成圣来鼓励学者，显示其平等主义的胸怀",
+        "反例警示：若把人人成圣理解为消解标准和差别，则会陷入相对主义的平庸——阳明同时强调必须通过切实的工夫才能恢复本性"
+      ],
+      "representative_cases_en": [
+        "Wang often said: 'Everyone has a Confucius in their heart' — everyone has an inner Confucius, the key is whether one is conscious of it",
+        "Wang encouraged scholars by saying that everyone on the street could become a sage, showing his egalitarian breadth",
+        "Counterexample: reading everyone-becomes-sage as dissolving standards and differences leads to relativistic mediocrity — Wang simultaneously emphasizes that through practical work one must restore original nature"
+      ],
+      "modern_applications_zh": [
+        "自我提升的动力",
+        "教育平等的理念",
+        "领导力的普惠性",
+        "个体潜能开发"
+      ],
+      "modern_applications_en": [
+        "Motivation for self-improvement",
+        "Philosophy of educational equality",
+        "Inclusive leadership",
+        "Individual potential development"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-001",
+        "M-WYM-006",
+        "M-WYM-010"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-009",
+      "mode_code": "M-WYM-009",
+      "research_mode_id": "M-WAN-009",
+      "name_zh": "心外无物法",
+      "name_en": "Nothing-Outside-Mind Method",
+      "category": "本体论",
+      "domain_zh": "存在论/意义建构",
+      "domain_en": "Ontology / Meaning Construction",
+      "level": "次要",
+      "priority": 9,
+      "definition_zh": "心外无物，心外无事，心外无理。事物的意义和价值只有在心的观照下才得以显现。岩中花树之喻：'你未看此花时，此花与汝心同归于寂；你来看此花时，则此花颜色一时明白起来。'此法强调主体性与客观世界的不可分割，事物的存在意义由心赋予。",
+      "definition_en": "Nothing exists outside the mind; no affairs exist outside the mind; no principle exists outside the mind. The meaning and value of things only manifest under the illumination of the mind. The metaphor of flowers in the rock: 'When you have not yet looked at this flower, the flower and your mind return to silence together; when you come to look at this flower, its color suddenly becomes clear.' This method emphasizes the inseparability of subjectivity and the objective world; the meaning of things is given by the mind.",
+      "source_chapter": "《传习录》卷下",
+      "key_concepts": [
+        "心外无物",
+        "意义建构",
+        "岩中花树",
+        "主体性",
+        "观照"
+      ],
+      "process_zh": [
+        "体认心是意义赋予的主体",
+        "在观照中理解事物与心的关系",
+        "不以心为物役，而以心御物",
+        "使每一事物在心的观照下各得其位"
+      ],
+      "process_en": [
+        "Apprehend that mind is the subject giving meaning",
+        "Understand the relationship between things and mind through illumination",
+        "Do not let mind be enslaved by things, but let mind govern things",
+        "Let each thing attain its proper place under the mind's illumination"
+      ],
+      "key_quote_zh": "你未看此花时，此花与汝心同归于寂；你来看此花时，则此花颜色一时明白起来。",
+      "key_quote_en": "When you have not yet looked at this flower, the flower and your mind return to silence together; when you come to look at this flower, its color suddenly becomes clear.",
+      "representative_cases_zh": [
+        "阳明游南镇，友人生疑：'岩中花树'之问，阳明以心外无物作答，显示事物与心的不可分割",
+        "阳明说：'我的发萌不息处，就是造化精灵。'——心的活动与宇宙的生生机一体",
+        "反例警示：若把心外无物理解为否定客观世界的存在，则会陷入主观唯心主义的极端——阳明强调的是事物的意义和价值在心之观照下才得以显现"
+      ],
+      "representative_cases_en": [
+        "Wang visited Nan Mountain, and when a friend questioned about the flowers in the rocks, Wang answered with nothing-outside-mind, showing the inseparability of things and mind",
+        "Wang said: 'The source of my vibrant growth is the spirit of creation.' — the activity of mind and the vitality of the cosmos are one",
+        "Counterexample: reading nothing-outside-mind as denying the existence of the objective world leads to the extreme of subjective idealism — Wang emphasizes that the meaning and value of things only manifest under the illumination of mind"
+      ],
+      "modern_applications_zh": [
+        "意义建构的方法",
+        "价值观教育",
+        "审美体验的深化",
+        "主客体关系的重构"
+      ],
+      "modern_applications_en": [
+        "Methods of meaning construction",
+        "Value education",
+        "Deepening aesthetic experience",
+        "Reconstructing subject-object relationship"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-001",
+        "M-WYM-003",
+        "M-WYM-010"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-WYM-010",
+      "mode_code": "M-WYM-010",
+      "research_mode_id": "M-WAN-010",
+      "name_zh": "此心光明法",
+      "name_en": "This-Mind-Is-Luminous Method",
+      "category": "境界论",
+      "domain_zh": "终极境界/生命态度",
+      "domain_en": "Ultimate Realm / Attitude Toward Life",
+      "level": "次要",
+      "priority": 10,
+      "definition_zh": "此心光明，亦复何言。这是王阳明临终遗言，也是其一生践履心学的最高境界。心体光明，无所亏欠，无所隐瞒，坦然面对生死，无惧无忧。此法是阳明心学的终极指向，也是其人格魅力的最高体现——良知朗现，光明磊落，无须多言。",
+      "definition_en": "This mind is luminous, what more is there to say? These were Wang Yangming's last words on his deathbed, and the highest realm of his lifelong practice of the School of Mind. The mind's substance is luminous, lacking nothing, hiding nothing, facing death calmly without fear or worry. This is the ultimate direction of Yangming's School of Mind and the highest manifestation of his personal charisma — liangzhi fully manifest, open and upright, requiring no further words.",
+      "source_chapter": "《王阳明年谱》",
+      "key_concepts": [
+        "此心光明",
+        "良知朗现",
+        "生死超然",
+        "光明磊落",
+        "终极境界"
+      ],
+      "process_zh": [
+        "在念念中保持良知的觉察",
+        "去除私欲遮蔽，恢复心体光明",
+        "达到无所亏欠、无所隐瞒的境界",
+        "坦然面对生死，此心光明"
+      ],
+      "process_en": [
+        "Maintain liangzhi discernment in each thought",
+        "Remove the obscuration of selfish desires, restore the luminosity of the mind's substance",
+        "Reach the realm of lacking nothing and hiding nothing",
+        "Calmly face life and death, this mind is luminous"
+      ],
+      "key_quote_zh": "此心光明，亦复何言。",
+      "key_quote_en": "This mind is luminous, what more is there to say?",
+      "representative_cases_zh": [
+        "正德十六年（1529年），阳明病逝于南安，临终遗言'此心光明，亦复何言'，成为千古佳话",
+        "阳明一生历经廷杖、贬谪、叛乱、疾病，始终以良知为导，光明磊落，无愧于心",
+        "反例警示：若把此心光明理解为自我满足或固执己见，则会陷入道德优越感的陷阱——阳明强调的是经过切实工夫后达到的良知朗现，而非未经修炼的自我感觉良好"
+      ],
+      "representative_cases_en": [
+        "In 1529, Wang died in Nan'an, his last words 'this mind is luminous, what more is there to say' became a legend for the ages",
+        "Throughout his life, facing beatings, exile, rebellion, and illness, Wang always took liangzhi as his guide, open and upright, with nothing to be ashamed of",
+        "Counterexample: reading this-mind-is-luminous as self-satisfaction or stubbornness leads to the trap of moral superiority — Wang emphasizes the liangzhi fully manifest after genuine work, not unearned self-satisfaction"
+      ],
+      "modern_applications_zh": [
+        "生命意义的追问",
+        "临终关怀与死亡教育",
+        "人格修养的终极目标",
+        "内心的平静与力量"
+      ],
+      "modern_applications_en": [
+        "Searching for the meaning of life",
+        "End-of-life care and death education",
+        "Ultimate goal of character cultivation",
+        "Inner peace and strength"
+      ],
+      "representative_figures": [
+        "王阳明"
+      ],
+      "related_modes": [
+        "M-WYM-006",
+        "M-WYM-008",
+        "M-WYM-009"
+      ],
+      "figure_code": "H-WYM-001",
+      "figure_name": "王阳明",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_143757",
+        "checker": "elcano"
+      }
+    }
+  ],
+  "modes_ref": [
+    "M-WYM-001",
+    "M-WYM-002",
+    "M-WYM-003",
+    "M-WYM-004",
+    "M-WYM-005",
+    "M-WYM-006",
+    "M-WYM-007",
+    "M-WYM-008",
+    "M-WYM-009",
+    "M-WYM-010"
+  ],
+  "phase20_note": "Phase 20 落地 (t_6077a578)：10 条 v6 模式已并入主库 data/modes_data.json，ID 统一为 M-WYM-001~010（research_mode_id 记录研究稿 M-WAN-* 原始 ID）。本文件 modes 为 Phase 21 建档数据，保留不动。"
 }

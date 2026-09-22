@@ -460,9 +460,789 @@
   ],
   "qa_summary": {
     "mode_count": 10,
-    "mode_ids": ["M-LJY-001","M-LJY-002","M-LJY-003","M-LJY-004","M-LJY-005","M-LJY-006","M-LJY-007","M-LJY-008","M-LJY-009","M-LJY-010"],
+    "mode_ids": [
+      "M-LJY-001",
+      "M-LJY-002",
+      "M-LJY-003",
+      "M-LJY-004",
+      "M-LJY-005",
+      "M-LJY-006",
+      "M-LJY-007",
+      "M-LJY-008",
+      "M-LJY-009",
+      "M-LJY-010"
+    ],
     "dedup_check": "与已完成人物模式无同名重复；M-CH-003(定性/情绪自由)与M-LJY-007(收拾精神/注意力主权)侧重不同已区分",
     "evidence_coverage": "每模式含 definition_zh/en、key_principles、typical_outputs、practical_applications、mental_model、contrast_modes、cross_domain_mapping、mode_examples",
-    "cross_refs": ["H-ZX-001 (朱熹·同时代对峙)", "H-CH-001 (程颢·精神先声)", "H-DZS-001 (董仲舒·内外超越对照)"]
-  }
+    "cross_refs": [
+      "H-ZX-001 (朱熹·同时代对峙)",
+      "H-CH-001 (程颢·精神先声)",
+      "H-DZS-001 (董仲舒·内外超越对照)"
+    ]
+  },
+  "thinking_modes_v6_phase20": [
+    {
+      "id": "M-LJY-001",
+      "mode_code": "M-LJY-001",
+      "research_mode_id": "M-LUJ-001",
+      "name_zh": "心即理法",
+      "name_en": "Mind-As-Principle Method (Xin-Ji-Li Method)",
+      "category": "本体论",
+      "domain_zh": "道德形上学/主体性确立",
+      "domain_en": "Moral Metaphysics / Subjective Foundation",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "心与理不是两物，而是同一本体的两个名称。人皆有是心，心皆具是理，心即是理，理即是心。道德法则不在外物之中，不在经典文字之上，而在每个人心中的本然良知。此法是陆九渊心学体系的根本命题，它将程朱理学外在的'性即理'转化为内在的'心即理'，确立了道德判断的主体性根基——人不必外求于经典训诂或事物观察，只需返观内照，本心自能明理。",
+      "definition_en": "Mind and principle are not two separate things but two names for the same ontological ground. Every person possesses this mind, and this mind fully contains principle; mind is principle, principle is mind. Moral norms do not reside in external objects or classical texts but in the innate moral knowing within each person's heart. This is the foundational proposition of Lu Jiuyuan's mind philosophy: it transforms the Cheng-Zhu external 'nature-is-principle' into the internal 'mind-is-principle,' establishing the subjective foundation of moral judgment — one need not seek externally through classical exegesis or empirical observation, but only turn inward, for the original mind naturally apprehends principle.",
+      "source_chapter": "《陆九渊集》卷十一《与李辛甫》；《语录》卷三十五",
+      "key_concepts": [
+        "心即理",
+        "此心此理",
+        "万物皆备于我",
+        "先天良知",
+        "主体性"
+      ],
+      "process_zh": [
+        "确认道德法则的根源不在外部权威或经典文字",
+        "体认本心自具天理，不假外求",
+        "以本心为道德判断的最终依据",
+        "在日用常行中印证心与理的同一体性"
+      ],
+      "process_en": [
+        "Affirm that the source of moral norms lies not in external authority or classical texts",
+        "Apprehend that the original mind inherently contains heavenly principle, requiring no external seeking",
+        "Take the original mind as the ultimate criterion for moral judgment",
+        "Verify the identity of mind and principle in everyday practice"
+      ],
+      "key_quote_zh": "人皆有是心，心皆具是理，心即理也。",
+      "key_quote_en": "Every person has this mind, and every mind fully contains principle; mind is principle.",
+      "representative_cases_zh": [
+        "陆九渊提出'心即理'，直接回应并超越程颐'性即理'的命题，将理学从客观唯心转向主观唯心",
+        "朱熹批评陆学'析心理为一'，认为理是客观实在而心是认识主体，不可混为一谈——这正凸显了陆学的核心创新",
+        "反例警示：若把'心即理'理解为任意主观臆断，则会滑向相对主义——陆九渊强调的是'此心此理'的普遍必然性，而非个人私意"
+      ],
+      "representative_cases_en": [
+        "Lu Jiuyuan's 'mind is principle' directly responds to and transcends Cheng Yi's 'nature is principle,' shifting neo-Confucianism from objective to subjective idealism",
+        "Zhu Xi criticized Lu's school for conflating mind and principle, arguing principle is objective reality while mind is the knowing subject — this very critique highlights Lu's core innovation",
+        "Counterexample: reading 'mind is principle' as arbitrary subjective opinion leads to relativism — Lu emphasizes the universal necessity of 'this mind, this principle,' not personal whims"
+      ],
+      "modern_applications_zh": [
+        "道德自主性教育",
+        "价值观内化与主体建构",
+        "企业伦理建设",
+        "领导力中的内在原则"
+      ],
+      "modern_applications_en": [
+        "Moral autonomy education",
+        "Value internalization and subject construction",
+        "Corporate ethics building",
+        "Inner principle in leadership"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-002",
+        "M-LJY-004",
+        "M-LJY-006",
+        "M-LJY-010"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-002",
+      "mode_code": "M-LJY-002",
+      "research_mode_id": "M-LUJ-002",
+      "name_zh": "宇宙本体法",
+      "name_en": "Cosmic-Body Method (Yuzhou Benti Method)",
+      "category": "宇宙论",
+      "domain_zh": "宇宙本体论/主体宇宙观",
+      "domain_en": "Cosmological Ontology / Subjective Cosmology",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "将个体之心提升到宇宙本体的高度，主张'宇宙便是吾心，吾心便是宇宙'。陆九渊十三岁读'宇宙'二字忽悟'无穷'之理，题壁曰'宇宙内事乃己分内事，己分内事乃宇宙内事'。此法打破个体与宇宙的界限，将有限的个人存在与无限的宇宙整体打通，使主体不再是被动认识宇宙的观察者，而是与宇宙同构的本体存在。",
+      "definition_en": "Elevating the individual mind to the height of cosmic ontology, asserting 'the universe is my mind, my mind is the universe.' At thirteen, Lu Jiuyuan suddenly apprehended the principle of 'infinity' upon reading the characters 'universe,' writing on the wall: 'What happens within the universe is my own affair, and what is my own affair is what happens within the universe.' This method dissolves the boundary between individual and cosmos, connecting finite personal existence with infinite cosmic totality, making the subject not a passive observer of the universe but an ontological being coextensive with it.",
+      "source_chapter": "《陆九渊集》卷三十六《年谱》；《语录》卷三十五",
+      "key_concepts": [
+        "宇宙吾心",
+        "己分内事",
+        "无穷",
+        "东海西海心同理同",
+        "主体宇宙观"
+      ],
+      "process_zh": [
+        "从'宇宙'概念出发体悟'无穷'之理",
+        "打破个体与宇宙的隔阂，体认'宇宙内事即己分内事'",
+        "确立心与宇宙的同构关系",
+        "在有限生命中体证无限宇宙本体"
+      ],
+      "process_en": [
+        "Contemplate the principle of 'infinity' starting from the concept of 'universe'",
+        "Dissolve the barrier between individual and cosmos, apprehending 'cosmic affairs are my own affairs'",
+        "Establish the isomorphic relationship between mind and cosmos",
+        "Empirically verify the infinite cosmic ontology within finite life"
+      ],
+      "key_quote_zh": "宇宙便是吾心，吾心即是宇宙。东海有圣人出焉，此心同也，此理同也。西海有圣人出焉，此心同也，此理同也。",
+      "key_quote_en": "The universe is my mind, my mind is the universe. If a sage arises in the East Sea, this mind is the same, this principle is the same. If a sage arises in the West Sea, this mind is the same, this principle is the same.",
+      "representative_cases_zh": [
+        "陆九渊十三岁题壁'宇宙内事乃己分内事'，标志着其一生学术方向的奠定",
+        "'东海西海心同理同'的命题，确立了心学的跨时空普遍性基础",
+        "反例警示：若将宇宙本体法理解为个人意志万能，则会陷入主观唯我论——陆九渊强调'此心此理'的普遍性，是公共之心而非私己之意"
+      ],
+      "representative_cases_en": [
+        "Lu Jiuyuan's wall inscription at thirteen 'cosmic affairs are my own affairs' marks the foundation of his entire academic direction",
+        "The 'East Sea and West Sea share same mind and principle' proposition establishes the trans-temporal universality of mind philosophy",
+        "Counterexample: reading cosmic-body method as omnipotence of personal will leads to solipsistic subjectivism — Lu emphasizes the universality of 'this mind, this principle,' which is public mind not private intent"
+      ],
+      "modern_applications_zh": [
+        "全球意识培养",
+        "生态整体主义思维",
+        "个人使命与时代责任的统一",
+        "格局拓展与视野提升"
+      ],
+      "modern_applications_en": [
+        "Cultivation of global consciousness",
+        "Ecological holistic thinking",
+        "Unity of personal mission and era responsibility",
+        "Perspective expansion and vision elevation"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-001",
+        "M-LJY-003",
+        "M-LJY-005",
+        "M-LJY-009"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-003",
+      "mode_code": "M-LJY-003",
+      "research_mode_id": "M-LUJ-003",
+      "name_zh": "发明本心法",
+      "name_en": "Discovering Original Mind Method (Faming Benxin Method)",
+      "category": "工夫论",
+      "domain_zh": "修养方法论/主体觉醒",
+      "domain_en": "Cultivation Methodology / Subjective Awakening",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "为学的根本在于发明（发现并显发）每个人本有的良知本心，而非向外求知。陆九渊认为人人皆有先天的道德本心，只是被物欲所蔽。修养工夫不在于博览群书或格物穷理，而在于'切己自反'——反省自身、去除遮蔽、恢复本心的光明。此法是心学工夫论的核心，与朱熹'道问学'的渐进积累形成鲜明对照。",
+      "definition_en": "The fundamental task of learning is to discover and manifest the innate moral original mind that every person already possesses, rather than seeking knowledge externally. Lu Jiuyuan held that everyone has an innate moral original mind, merely obscured by material desires. The work of cultivation lies not in extensive reading or investigating things, but in 'cutting oneself and reflecting inwardly' — self-examination, removing obscurations, and restoring the brightness of the original mind. This is the core of mind-philosophy methodology, forming a sharp contrast with Zhu Xi's gradual accumulation via 'investigation of learning.'",
+      "source_chapter": "《陆九渊集》卷三十四《语录上》；《与朱元晦》",
+      "key_concepts": [
+        "发明本心",
+        "切己自反",
+        "存夜气",
+        "求其放心",
+        "去蔽复明"
+      ],
+      "process_zh": [
+        "确立本心为学问的根本，而非外在知识积累",
+        "通过切己自反识别本心被物欲遮蔽的状态",
+        "以'求其放心'为工夫入口，恢复本心的清明",
+        "在日常践履中保养本心，使其不断扩充"
+      ],
+      "process_en": [
+        "Establish the original mind as the root of learning, not external knowledge accumulation",
+        "Identify the state of original mind obscured by material desires through self-reflection",
+        "Use 'recovering the lost mind' as the entry point of cultivation, restoring the mind's clarity",
+        "Nurture the original mind in daily practice, allowing it to continuously expand"
+      ],
+      "key_quote_zh": "学苟知本，六经皆我注脚。",
+      "key_quote_en": "If one knows the root in learning, the Six Classics are all my footnotes.",
+      "representative_cases_zh": [
+        "陆九渊教人以'切己自反，改过迁善'为为学之方，反对朱熹泛观博览的渐进路径",
+        "他在白鹿洞书院讲'君子喻于义'，听者泣下，正是发明本心的感通力量",
+        "反例警示：若把发明本心理解为完全废弃读书，则会落入空疏虚妄——陆九渊晚年已有所修正，承认读书讲论亦有助益"
+      ],
+      "representative_cases_en": [
+        "Lu Jiuyuan taught 'cut yourself and reflect inwardly, reform errors and advance toward goodness' as the method of learning, opposing Zhu Xi's gradual path of extensive reading",
+        "His lecture at White Deer Grotto Academy on 'the gentleman understands principle' moved listeners to tears, demonstrating the empathic power of discovering the original mind",
+        "Counterexample: reading discovering original mind as completely abandoning reading leads to empty vagueness — Lu himself later modified this stance, acknowledging that reading and discussion also have value"
+      ],
+      "modern_applications_zh": [
+        "自我认知与内省训练",
+        "价值观澄清与重建",
+        "心理健康教育",
+        "领导力发展中的自我觉察"
+      ],
+      "modern_applications_en": [
+        "Self-awareness and introspective training",
+        "Value clarification and reconstruction",
+        "Mental health education",
+        "Self-awareness in leadership development"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-004",
+        "M-LJY-006",
+        "M-LJY-007",
+        "M-LJY-008"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-004",
+      "mode_code": "M-LJY-004",
+      "research_mode_id": "M-LUJ-004",
+      "name_zh": "易简工夫法",
+      "name_en": "Easy-and-Simple Cultivation Method (Yijian Gongfu Method)",
+      "category": "工夫论",
+      "domain_zh": "修养方法论/效率思维",
+      "domain_en": "Cultivation Methodology / Efficiency Thinking",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "为学工夫应当简易直截，直指本心，不假繁复阶次。陆九渊在鹅湖之会上以诗明志：'易简工夫终久大，支离事业竟浮沉。'他认为朱熹的格物穷理方法过于支离破碎，而自己的发明本心才是'易简工夫'——虽简而实深刻，虽易而实根本。此法强调抓住根本、化繁为简，以简约的方式达到深远的效果。",
+      "definition_en": "Cultivation should be easy and simple, pointing directly to the original mind without complex intermediate steps. At the Goose Lake Conference, Lu Jiuyuan declared in verse: 'Easy and simple cultivation is ultimately lasting and great; the fragmented enterprise sinks and floats in vain.' He considered Zhu Xi's method of investigating things too fragmented, while his own discovering-the-original-mind approach is 'easy and simple cultivation' — simple yet profound, easy yet fundamental. This method emphasizes grasping the root, reducing complexity, and achieving far-reaching effects through simplicity.",
+      "source_chapter": "《陆九渊集》卷二十五《鹅湖和教授兄韵》；《与高应朝》卷五",
+      "key_concepts": [
+        "易简工夫",
+        "简易直截",
+        "立乎其大",
+        "根本",
+        "久大"
+      ],
+      "process_zh": [
+        "识别问题的根本所在，抓住核心要点",
+        "摒弃繁琐的中间环节和枝节细节",
+        "以简易直截的方式直接触及本质",
+        "以根本立定为基础，自然日新久大"
+      ],
+      "process_en": [
+        "Identify the root of the problem, grasping the core point",
+        "Discard cumbersome intermediaries and marginal details",
+        "Reach the essence directly through easy and simple means",
+        "With the root firmly established, natural daily renewal and lasting greatness follow"
+      ],
+      "key_quote_zh": "易简工夫终久大，支离事业竟浮沉。",
+      "key_quote_en": "Easy and simple cultivation is ultimately lasting and great; the fragmented enterprise sinks and floats in vain.",
+      "representative_cases_zh": [
+        "鹅湖之会上，陆九渊以'易简工夫终久大'自况，批评朱熹治学为'支离事业'",
+        "陆九渊强调'学无二事，无二道，根本苟立，保养不替，自然日新'，体现了简易工夫的持续性和累积性",
+        "反例警示：若把简易理解为粗糙简单，则会流于空疏——陆九渊的'易简'是抓住根本后的简明，而非未经深入的空谈"
+      ],
+      "representative_cases_en": [
+        "At the Goose Lake Conference, Lu Jiuyuan described himself with 'easy and simple cultivation is ultimately lasting and great,' criticizing Zhu Xi's scholarship as 'fragmented enterprise'",
+        "Lu emphasized 'learning has no two affairs, no two ways; if the root is established and maintained without neglect, it naturally renews daily,' demonstrating the persistence and cumulative nature of easy-and-simple cultivation",
+        "Counterexample: reading easy-and-simple as rough simplicity leads to emptiness — Lu's 'easy and simple' is clarity after grasping the root, not unfounded empty talk"
+      ],
+      "modern_applications_zh": [
+        "战略思维中的抓主要矛盾",
+        "管理中的简化原则",
+        "问题解决中的本质思考",
+        "学习方法论优化"
+      ],
+      "modern_applications_en": [
+        "Grasping principal contradictions in strategic thinking",
+        "Simplification principle in management",
+        "Essential thinking in problem solving",
+        "Learning methodology optimization"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-001",
+        "M-LJY-003",
+        "M-LJY-005",
+        "M-LJY-008"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-005",
+      "mode_code": "M-LJY-005",
+      "research_mode_id": "M-LUJ-005",
+      "name_zh": "义利之辨法",
+      "name_en": "Righteousness-vs-Interest Discrimination Method (Yili Zhibian Method)",
+      "category": "价值论",
+      "domain_zh": "价值判断/动机澄清",
+      "domain_en": "Value Judgment / Motivation Clarification",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "辨别义与利是为学的根本出发点。陆九渊在白鹿洞书院主讲'君子喻于义，小人喻于利'，强调以义利之辨确定人生志向的根本方向。他认为义利之辨是学问的第一义，志在义则一切学问皆为正途，志在利则学问皆为伪饰。此法将价值观置于知识之上，确立了动机优先的原则。",
+      "definition_en": "Discriminating between righteousness (yi) and interest (li) is the fundamental starting point of learning. Lu Jiuyuan's lecture at White Deer Grotto Academy on 'the gentleman understands righteousness, the small man understands interest' emphasized establishing the fundamental direction of life through this discrimination. He held that the righteousness-interest distinction is the first principle of scholarship — if one's aspiration is righteousness, all learning follows the proper path; if one's aspiration is interest, all learning is mere ornamentation. This method places values above knowledge, establishing the principle of motivation priority.",
+      "source_chapter": "《陆九渊集》卷三十五《语录下》；白鹿洞书院讲义",
+      "key_concepts": [
+        "义利之辨",
+        "君子小人",
+        "立志",
+        "动机优先",
+        "公义私利"
+      ],
+      "process_zh": [
+        "在学问之初即辨别义利，确立正确的志向方向",
+        "以义为出发点检验一切学问和行动",
+        "在关键时刻以义利之辨校准人生选择",
+        "保持义利之辨的持续自觉，防止动机腐化"
+      ],
+      "process_en": [
+        "At the outset of learning, discriminate between righteousness and interest, establishing the correct direction of aspiration",
+        "Test all learning and action through the lens of righteousness",
+        "Calibrate life choices at critical moments through the righteousness-interest distinction",
+        "Maintain continuous self-awareness of this discrimination, preventing motivation corruption"
+      ],
+      "key_quote_zh": "学者之大病，在于无志。志苟立矣，则无往而不成功。",
+      "key_quote_en": "The great disease of scholars lies in having no aspiration. Once aspiration is established, there is nowhere one cannot succeed.",
+      "representative_cases_zh": [
+        "白鹿洞书院讲'君子喻于义'，听者莫不悚然动心，甚至有泣下者，朱熹叹服并请刻碑",
+        "陆九渊在荆门任上'厚风俗'，即以义利之辨教化百姓，使地方道德风气为之一新",
+        "反例警示：若把义利之辨理解为完全否定利益，则会陷入禁欲主义的极端——陆九渊区分的是'公义'与'私利'，并非否定一切利益考量"
+      ],
+      "representative_cases_en": [
+        "His lecture at White Deer Grotto Academy on 'the gentleman understands righteousness' moved all listeners deeply, some even to tears; Zhu Xi praised it and requested the lecture be carved on stone",
+        "In his Jingmen magistracy, Lu 'strengthened local customs' by teaching the righteousness-interest discrimination, profoundly transforming local moral climate",
+        "Counterexample: reading righteousness-interest discrimination as complete rejection of interest leads to ascetic extremism — Lu distinguishes 'public righteousness' from 'private interest,' not negating all interest considerations"
+      ],
+      "modern_applications_zh": [
+        "职业伦理建设",
+        "企业社会责任",
+        "个人价值观澄清",
+        "公共利益与个人利益的平衡"
+      ],
+      "modern_applications_en": [
+        "Professional ethics building",
+        "Corporate social responsibility",
+        "Personal value clarification",
+        "Balancing public and private interests"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-003",
+        "M-LJY-006",
+        "M-LJY-007",
+        "M-LJY-010"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-006",
+      "mode_code": "M-LJY-006",
+      "research_mode_id": "M-LUJ-006",
+      "name_zh": "先立其大法",
+      "name_en": "First-Establish-the-Great Method (Xianli Qida Method)",
+      "category": "工夫论",
+      "domain_zh": "修养方法论/优先级设定",
+      "domain_en": "Cultivation Methodology / Priority Setting",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "为学之道，当先立乎其大者。陆九渊强调'先立乎其大者，则其小者不能夺也'，与孟子'先立乎其大'的思想一脉相承。此法要求在学问工夫中优先确立本心这个根本，一旦大者确立，小者（具体知识、技艺）自然有所统摄而不致迷失方向。此法是鹅湖之会上陆氏兄弟与朱熹分歧的核心：朱熹主张泛观博览而后归之约，陆氏主张先发明本心而后使之博览。",
+      "definition_en": "In learning, one must first establish the great part. Lu Jiuyuan insisted 'first establish the great, then the small cannot usurp it,' in direct lineage from Mencius's 'first establish the great.' This method requires prioritizing the establishment of the original mind as the fundamental root in cultivation; once the great is established, the small (specific knowledge, skills) naturally falls under its governance without losing direction. This was the core of the Lu-Zhu divergence at Goose Lake: Zhu advocated extensive reading first then returning to essentials, while the Lu brothers advocated discovering the original mind first then reading extensively.",
+      "source_chapter": "《陆九渊集》卷三十四《语录上》；《孟子·尽心上》",
+      "key_concepts": [
+        "先立其大",
+        "本心为本",
+        "轻重有序",
+        "大体小体",
+        "统摄"
+      ],
+      "process_zh": [
+        "明确学问的根本在于确立本心，而非积累知识",
+        "优先进行主体性觉醒和价值方向的确立",
+        "在本心确立之后，让具体知识在正确方向上自然展开",
+        "防止'以小夺大'——被枝节知识淹没而迷失根本"
+      ],
+      "process_en": [
+        "Clarify that the root of learning lies in establishing the original mind, not accumulating knowledge",
+        "Prioritize subjective awakening and value direction establishment",
+        "After the original mind is established, let specific knowledge unfold naturally in the correct direction",
+        "Prevent 'the small usurping the great' — being overwhelmed by marginal knowledge while losing the root"
+      ],
+      "key_quote_zh": "先立乎其大者，则其小者不能夺也。",
+      "key_quote_en": "First establish the great, then the small cannot usurp it.",
+      "representative_cases_zh": [
+        "鹅湖之会上，陆九渊主张先发明本心而后博览，与朱熹'泛观博览而后归之约'形成鲜明对比",
+        "陆九渊强调'大抵学者各倚其资质闻见，病状虽复多端，要为戕贼其本心，则一而已'，指出支离之学的根本危害在于伤害本心",
+        "反例警示：若把'先立其大'理解为可以完全忽略知识积累，则会陷入空疏——陆九渊晚年已承认读书讲论亦有辅助作用"
+      ],
+      "representative_cases_en": [
+        "At the Goose Lake Conference, Lu Jiuyuan advocated discovering the original mind before reading extensively, forming a sharp contrast with Zhu Xi's 'extensive reading then returning to essentials'",
+        "Lu emphasized 'scholars each rely on their natural endowment and acquired knowledge; though symptoms vary widely, the fundamental harm is that they all damage the original mind,' identifying the root danger of fragmented scholarship",
+        "Counterexample: reading 'first establish the great' as dispensing with knowledge accumulation entirely leads to vacuity — Lu himself later acknowledged that reading and discussion also provide auxiliary value"
+      ],
+      "modern_applications_zh": [
+        "战略优先级管理",
+        "核心价值观教育",
+        "领导力的根本修养",
+        "人才培养中的通识与专业关系"
+      ],
+      "modern_applications_en": [
+        "Strategic priority management",
+        "Core value education",
+        "Fundamental cultivation of leadership",
+        "General education versus specialization in talent development"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-001",
+        "M-LJY-003",
+        "M-LJY-004",
+        "M-LJY-005"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-007",
+      "mode_code": "M-LJY-007",
+      "research_mode_id": "M-LUJ-007",
+      "name_zh": "切己自反法",
+      "name_en": "Self-Reflection Method (Qieji Zifan Method)",
+      "category": "工夫论",
+      "domain_zh": "自我认知/内省修养",
+      "domain_en": "Self-Knowledge / Introspective Cultivation",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "为学之道不过'切己自反，改过迁善'。陆九渊将一切学问工夫归结为向内反省：反省自身是否偏离本心，反省行为是否符合天理，反省私欲是否遮蔽良知。此法不依赖经典注解或师长教导，而是依靠主体自身的内省能力。它与朱熹的'即物穷理'形成根本对立——朱熹主张向外格物，陆九渊主张向内切己。",
+      "definition_en": "The way of learning is nothing but 'cut yourself and reflect inwardly, reform errors and advance toward goodness.' Lu Jiuyuan reduced all cultivation to inward reflection: examining whether one has deviated from the original mind, whether one's actions conform to heavenly principle, whether personal desires obscure innate knowing. This method does not depend on classical commentaries or teacher guidance, but relies on the subject's own introspective capacity. It fundamentally opposes Zhu Xi's 'investigating things to exhaust principle' — Zhu advocates outward investigation, Lu advocates inward self-reflection.",
+      "source_chapter": "《陆九渊集》卷三十四《语录上》",
+      "key_concepts": [
+        "切己自反",
+        "改过迁善",
+        "内省",
+        "去蔽",
+        "反求诸己"
+      ],
+      "process_zh": [
+        "在日常行为中觉察本心的偏离",
+        "通过内省识别私欲遮蔽的状态",
+        "立即改正过失，趋向善的方向",
+        "将切己自反作为持续不断的修养习惯"
+      ],
+      "process_en": [
+        "Detect deviations from the original mind in daily behavior",
+        "Identify states of desire obscuration through introspection",
+        "Immediately reform errors, moving toward goodness",
+        "Make self-reflection a continuous cultivated habit"
+      ],
+      "key_quote_zh": "或问：先生之学当自何处入？曰：不过切己自反，改过迁善。",
+      "key_quote_en": "Someone asked: From where does your learning enter? He said: It is nothing but cutting oneself and reflecting inwardly, reforming errors and advancing toward goodness.",
+      "representative_cases_zh": [
+        "陆九渊回答学生问学之门径时，直指'切己自反，改过迁善'，不假外求",
+        "他在荆门任上以'厚风俗'为政，即以切己自反教化百姓，使民风为之一变",
+        "反例警示：若把切己自反理解为纯粹的内向封闭，则会错失与现实世界的互动——陆九渊同时强调'事父自能孝，事兄自能弟'，表明内省最终要落实到日用伦常"
+      ],
+      "representative_cases_en": [
+        "When a student asked about the entry point of learning, Lu pointed directly to 'cut yourself and reflect inwardly, reform errors and advance toward goodness,' requiring no external seeking",
+        "In his Jingmen magistracy, he 'strengthened local customs' through self-reflection teaching, transforming the moral climate of the region",
+        "Counterexample: reading self-reflection as purely inward closure misses engagement with the real world — Lu simultaneously emphasized 'one naturally knows filial piety to parents and deference to elder brothers,' showing that introspection ultimately grounds itself in the moral relations of daily life"
+      ],
+      "modern_applications_zh": [
+        "个人反思实践",
+        "自我改进循环",
+        "道德修养的日常训练",
+        "心理治疗中的反思技术"
+      ],
+      "modern_applications_en": [
+        "Personal reflection practice",
+        "Self-improvement cycles",
+        "Daily moral cultivation training",
+        "Reflective techniques in psychotherapy"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-002",
+        "M-LJY-003",
+        "M-LJY-005",
+        "M-LJY-009"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-008",
+      "mode_code": "M-LJY-008",
+      "research_mode_id": "M-LUJ-008",
+      "name_zh": "尊德性为先法",
+      "name_en": "Honoring Moral Nature First Method (Zun Dexing Weixian Method)",
+      "category": "方法论",
+      "domain_zh": "为学次第/价值排序",
+      "domain_en": "Learning Sequence / Value Ordering",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "在'尊德性'与'道问学'二者关系中，尊德性为本，道问学为末。陆九渊并非完全否定读书问学，而是主张以德性为统领，问学为辅助。《中庸》有'尊德性而道问学'之语，朱熹偏重道问学，陆九渊偏重尊德性。此法确立了价值优先于知识、德性统领学问的基本原则。",
+      "definition_en": "In the relationship between 'honoring moral nature' (zun dexing) and 'pursuing learning' (dao wenxue), honoring moral nature is primary and pursuing learning is secondary. Lu Jiuyuan did not completely deny reading and learning, but insisted that moral nature should lead and learning should assist. The Doctrine of the Mean contains 'honor moral nature and pursue learning'; Zhu Xi emphasized the latter, Lu Jiuyuan the former. This method establishes the fundamental principle that values precede knowledge and moral nature commands learning.",
+      "source_chapter": "《陆九渊集》卷五《与高应朝》；《中庸》",
+      "key_concepts": [
+        "尊德性",
+        "道问学",
+        "德性优先",
+        "本末有序",
+        "统帅"
+      ],
+      "process_zh": [
+        "确立德性为学问的根本和统帅",
+        "以尊德性为第一义，道问学为第二义",
+        "在德性统领下进行知识积累，防止知识脱离价值",
+        "以问学滋养德性，而非以德性为问学所取代"
+      ],
+      "process_en": [
+        "Establish moral nature as the root and commander of learning",
+        "Take honoring moral nature as the first principle, pursuing learning as the second",
+        "Accumulate knowledge under moral command, preventing knowledge from detaching from value",
+        "Nourish moral nature through learning, not replacing moral nature with learning"
+      ],
+      "key_quote_zh": "《易》赞乾坤之简易，曰：'易知易从，有亲有功，可久可大。'然则学无二事，无二道，根本苟立，保养不替，自然日新。",
+      "key_quote_en": "The Book of Changes praises the ease and simplicity of Qian and Kun: 'Easily known and easily followed, with closeness and merit, lasting and great.' Thus learning has no two affairs, no two ways; if the root is established and maintained without neglect, it naturally renews daily.",
+      "representative_cases_zh": [
+        "鹅湖之会上，陆氏兄弟以'古圣相传只此心'为尊德性辩护，朱熹以'旧学商量加邃密'回应",
+        "朱熹批评陆学'尽废讲学而专务践履'，正是对陆九渊尊德性优先立场的最好反证",
+        "反例警示：若把尊德性理解为完全排斥知识，则会陷入反智主义——陆九渊晚年已承认问学对发明的辅助作用"
+      ],
+      "representative_cases_en": [
+        "At the Goose Lake Conference, the Lu brothers defended honoring moral nature with 'the ancient sages passed down only this mind,' while Zhu Xi responded with 'discussing old learning adds precision; cultivating new knowledge turns deep.'",
+        "Zhu Xi's criticism that Lu's school 'completely abandons scholarly discussion for practice alone' is itself the best evidence of Lu's 'honoring moral nature' (zun dexing) priority stance",
+        "Counterexample: reading 'honoring moral nature' as completely excluding knowledge leads to anti-intellectualism — Lu himself later acknowledged the auxiliary role of learning in discovering the original mind"
+      ],
+      "modern_applications_zh": [
+        "德育与智育的关系处理",
+        "价值观引领的知识教育",
+        "企业文化的价值核心",
+        "人才培养的价值导向"
+      ],
+      "modern_applications_en": [
+        "Managing the relationship between moral and intellectual education",
+        "Value-guided knowledge education",
+        "Value core of corporate culture",
+        "Value orientation in talent development"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-004",
+        "M-LJY-005",
+        "M-LJY-006",
+        "M-LJY-010"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-009",
+      "mode_code": "M-LJY-009",
+      "research_mode_id": "M-LUJ-009",
+      "name_zh": "本体即用法",
+      "name_en": "Substance-As-Function Method (Benti Jiyong Method)",
+      "category": "本体论",
+      "domain_zh": "体用关系/实践指向",
+      "domain_en": "Substance-Function Relation / Practical Orientation",
+      "level": "扩展",
+      "priority": 9,
+      "definition_zh": "心之体甚大，若能尽我之心，便与天同。陆九渊认为心之本体与心之发用本是一体，不能割裂。心之体是宇宙本体，心之用则是日常的道德践履——事父自能孝，事兄自能弟，见孺子入井而有恻隐之心。此法强调本体不在发用之外，发用即是本体的显现，二者不可分。",
+      "definition_en": "The substance of mind is vast; if one fully realizes one's own mind, one becomes one with heaven. Lu Jiuyuan held that the substance and function of mind are originally one, indivisible. The substance of mind is the cosmic ground, while its function is daily moral practice — naturally knowing filial piety to parents, natural deference to elder brothers, natural compassion upon seeing a child about to fall into a well. This method emphasizes that substance does not exist apart from function, and function is the manifestation of substance.",
+      "source_chapter": "《陆九渊集》卷三《与曾宅之》；《语录》卷三十五",
+      "key_concepts": [
+        "心之体",
+        "心之用",
+        "体用不二",
+        "即用见体",
+        "尽心知天"
+      ],
+      "process_zh": [
+        "体认心之本体为宇宙之理",
+        "在日常发用中觉察本心的显现",
+        "不以本体为玄远之物，而以日用为体用合一的场域",
+        "通过充分的道德践履实现尽心知天的工夫"
+      ],
+      "process_en": [
+        "Apprehend the substance of mind as the principle of the cosmos",
+        "Detect the manifestation of the original mind in daily functions",
+        "Do not regard substance as distant and metaphysical, but take daily life as the field of substance-function unity",
+        "Achieve the cultivation of fully realizing mind and knowing heaven through sufficient moral practice"
+      ],
+      "key_quote_zh": "心之体甚大，若能尽我之心，便与天同。",
+      "key_quote_en": "The substance of mind is very great; if one can fully realize my mind, one becomes one with heaven.",
+      "representative_cases_zh": [
+        "陆九渊以'事父自能孝，事兄自能弟'说明心之用自然显现，不假外求",
+        "他在荆门筑城御敌，以行政实务体现心学不是空谈，而是'即体即用'的实践哲学",
+        "反例警示：若把本体理解为脱离日常的神秘体验，则会滑向禅宗的虚空——陆九渊始终强调本心在日用伦常中的发用"
+      ],
+      "representative_cases_en": [
+        "Lu Jiuyuan used 'naturally knowing filial piety to parents and deference to elder brothers' to illustrate that the function of mind manifests naturally, requiring no external seeking",
+        "His construction of city walls in Jingmen to defend against enemies demonstrated that mind philosophy is not empty talk but a practical philosophy of 'substance-function as one'",
+        "Counterexample: reading substance as a mysterious experience detached from daily life slides toward Chan Buddhist emptiness — Lu consistently emphasized the manifestation of original mind in daily moral practice"
+      ],
+      "modern_applications_zh": [
+        "理论与实践的统一",
+        "知行合一的教育理念",
+        "企业管理中的价值观落地",
+        "个人成长的内外一致"
+      ],
+      "modern_applications_en": [
+        "Unity of theory and practice",
+        "Knowledge-action unity in education",
+        "Value implementation in enterprise management",
+        "Internal-external consistency in personal growth"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-001",
+        "M-LJY-002",
+        "M-LJY-003",
+        "M-LJY-007"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-LJY-010",
+      "mode_code": "M-LJY-010",
+      "research_mode_id": "M-LUJ-010",
+      "name_zh": "六经注我法",
+      "name_en": "Six Classics As Footnotes Method (Liu Jing Zhu Wo Method)",
+      "category": "认识论",
+      "domain_zh": "经典诠释学/主体性确立",
+      "domain_en": "Classical Hermeneutics / Subjective Establishment",
+      "level": "扩展",
+      "priority": 10,
+      "definition_zh": "学苟知本，六经皆我注脚。陆九渊将经典与主体的关系彻底翻转：不是经典注解我心，而是我心注解经典。经典的价值在于印证和阐明本心已有的道理，而非作为外在权威强制规范主体思想。此法是陆九渊对传统经学诠释学的革命性突破，将诠释的主体从经典文本转向心性主体。",
+      "definition_en": "If one knows the root in learning, the Six Classics are all my footnotes. Lu Jiuyuan completely reversed the relationship between classics and the subject: it is not the classics annotating my mind, but my mind annotating the classics. The value of classics lies in corroborating and elucidating the principles already present in the original mind, not as external authority coercively regulating subjective thought. This method represents a revolutionary breakthrough in traditional classical hermeneutics, shifting the hermeneutic subject from classical texts to the mind-nature subject.",
+      "source_chapter": "《陆九渊集》卷三十四《语录上》",
+      "key_concepts": [
+        "六经注我",
+        "我注六经",
+        "经典诠释",
+        "主体性",
+        "以心统经"
+      ],
+      "process_zh": [
+        "确立本心为理解经典的前提和依据",
+        "以本心为尺度衡量经典诠释的得失",
+        "在经典中寻找与本心相印证的依据",
+        "不被经典文字所束缚，保持主体的自由与创造性"
+      ],
+      "process_en": [
+        "Establish the original mind as the prerequisite and criterion for understanding classics",
+        "Measure the gains and losses of classical interpretation through the original mind",
+        "Seek corroboration with the original mind within the classics",
+        "Do not be bound by classical texts, maintaining subjective freedom and creativity"
+      ],
+      "key_quote_zh": "或问：先生何不著书？对曰：六经注我，我注六经。",
+      "key_quote_en": "Someone asked: Why do you not write a book? He replied: The Six Classics annotate me, and I annotate the Six Classics.",
+      "representative_cases_zh": [
+        "陆九渊对'何不著书'的回答'六经注我'，彻底颠覆了传统经学以经典为本的诠释范式",
+        "朱熹强烈反对此说，认为会导向'束书不观，游谈无根'——这正说明该法的革命性",
+        "反例警示：若把六经注我理解为完全否定经典价值，则会陷入主观随意——陆九渊并非不要读书，而是主张在'知本'的前提下读书"
+      ],
+      "representative_cases_en": [
+        "Lu Jiuyuan's response 'the Six Classics annotate me' to 'why don't you write a book' completely subverted the traditional classical hermeneutic paradigm that takes classics as primary",
+        "Zhu Xi strongly opposed this view, warning it would lead to 'abandoning books and engaging in rootless speculation' — precisely demonstrating the revolutionary nature of this method",
+        "Counterexample: reading six classics annotate me as completely negating classical value leads to subjective arbitrariness — Lu did not oppose reading, but insisted on reading under the premise of 'knowing the root'"
+      ],
+      "modern_applications_zh": [
+        "批判性阅读能力培养",
+        "知识创新中的主体性",
+        "学术研究的原创思维",
+        "传统文化创造性转化"
+      ],
+      "modern_applications_en": [
+        "Cultivation of critical reading ability",
+        "Subjectivity in knowledge innovation",
+        "Original thinking in academic research",
+        "Creative transformation of traditional culture"
+      ],
+      "representative_figures": [
+        "陆九渊"
+      ],
+      "related_modes": [
+        "M-LJY-001",
+        "M-LJY-003",
+        "M-LJY-004",
+        "M-LJY-008"
+      ],
+      "figure_code": "H-LJY-001",
+      "figure_name": "陆九渊",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_140937",
+        "checker": "elcano"
+      }
+    }
+  ],
+  "modes_ref": [
+    "M-LJY-001",
+    "M-LJY-002",
+    "M-LJY-003",
+    "M-LJY-004",
+    "M-LJY-005",
+    "M-LJY-006",
+    "M-LJY-007",
+    "M-LJY-008",
+    "M-LJY-009",
+    "M-LJY-010"
+  ],
+  "phase20_note": "Phase 20 落地 (t_3f82e962)：10 条 v6 模式已并入主库 data/modes_data.json，ID 统一为 M-LJY-001~010（research_mode_id 记录研究稿 M-LUJ-* 原始 ID）。本文件 thinking_modes 为 Phase 21 建档数据，保留不动。"
 }

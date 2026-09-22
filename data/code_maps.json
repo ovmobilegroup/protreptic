@@ -3070,44 +3070,68 @@
       "modes_count": 10
     },
     "H-WYM-001": {
-      "figure_name": "王阳明",
-      "figure_code": "H-WYM-001",
-      "figure_pinyin": "Wáng Yángmíng",
-      "birth_year": 1472,
-      "death_year": 1529,
-      "era": "明代",
-      "school": "阳明心学",
-      "representative_works": [
-        "《传习录》",
-        "《大学问》",
-        "《王文成公全书》",
-        "《阳明先生集》"
-      ],
-      "thinking_mode_count": 10,
       "mode_ids": [
-        "M381",
-        "M382",
-        "M383",
-        "M384",
-        "M385",
-        "M386",
-        "M387",
-        "M388",
-        "M389",
-        "M390"
+        "M-WYM-001",
+        "M-WYM-002",
+        "M-WYM-003",
+        "M-WYM-004",
+        "M-WYM-005",
+        "M-WYM-006",
+        "M-WYM-007",
+        "M-WYM-008",
+        "M-WYM-009",
+        "M-WYM-010"
       ],
       "tags": [
-        "心学",
-        "明代",
-        "哲学家",
-        "军事家",
-        "教育家"
+        "心即理法",
+        "知行合一法",
+        "致良知法",
+        "念念察识法",
+        "龙场悟本法",
+        "四句教心法",
+        "事上磨练法",
+        "人人成圣法",
+        "心外无物法",
+        "此心光明法"
       ],
-      "cross_references": {
-        "vs_huangzongxi": "王阳明重'致良知'的主观心性修养，黄宗羲虽服膺王学但转向'理在气中'的客观实证与'经世应务'的制度建构",
-        "vs_wangfuzhi": "王阳明强调'致良知'，王夫之强调'气为理之基'，两者在心性论上有根本差异",
-        "vs_rousseau": "王阳明的'致良知'与卢梭的'良心论'都强调内在道德自觉，但文化背景不同"
-      }
+      "cross_references": [
+        {
+          "target_figure_code": "H-ZHX-001",
+          "relation_type": "vs",
+          "description_zh": "心即理 vs 性即理：王阳明批评朱子'析心与理为二'，主张理不在事物而在吾心；朱子格物穷理是外向认识论，阳明格物正念头是内向实践论。这是宋明理学'理学'与'心学'两系的分水岭。",
+          "description_en": "Mind-is-Principle vs Nature-is-Principle: Wang criticized Zhu Xi's splitting of mind and principle; Zhu's investigation of things is outward-directed epistemology, Wang's is inward-directed praxis. This is the watershed between Neo-Confucian rationalism and the School of Mind."
+        },
+        {
+          "target_figure_code": "H-LJY-001",
+          "relation_type": "inheritance",
+          "description_zh": "王阳明承陆九渊'心即理''六经注我'之旨，以'致良知'完成心学体系化；陆发其端而未畅，阳明扩充到底，故并称'陆王心学'。",
+          "description_en": "Wang inherited Lu Jiuyuan's 'mind is principle' and 'the classics annotate me,' completing the systematization of the School of Mind through 'extending innate knowledge'; hence the joint name Lu-Wang."
+        },
+        {
+          "target_figure_code": "H-KZ-001",
+          "relation_type": "inheritance",
+          "description_zh": "王阳明自述'所学皆由孔子之统绪'，知行合一与万物一体之仁直承孔子'吾道一以贯之'与仁学传统。",
+          "description_en": "Wang claimed his learning continued Confucius's line: unity of knowledge and action and the benevolence of all-things-one-body carry forward 'my way is strung on one thread' and the ren tradition."
+        },
+        {
+          "target_figure_code": "H-HZX-001",
+          "relation_type": "philosophical_debate",
+          "description_zh": "王阳明'满街都是圣人'的人人皆可为圣论，与黄宗羲以《明夷待访录》批判君主专制一脉相通：黄宗羲师承刘宗周，刘宗周承阳明蕺山一系，阳明学的心性平等观为明清批判思想提供了内在资源。",
+          "description_en": "Wang's doctrine that 'the whole street is full of sages' connects to Huang Zongxi's critique of despotism: Huang, heir of Liu Zongzhou in the Yangming line, drew on the Yangming view of moral equality of all minds."
+        },
+        {
+          "target_figure_code": "H-DZS-001",
+          "relation_type": "vs",
+          "description_zh": "良知内在自律 vs 天人感应他律：董仲舒以超验之天制约君权，王阳明以人人内在良知作为道德最高法庭。外在权威与内在权威构成中国政治伦理思想史的两极。",
+          "description_en": "Innate-conscience autonomy vs heaven-human heteronomy: Dong constrained rulers through transcendent Heaven; Wang made each person's innate moral knowing the supreme court. External versus internal authority as two poles of Chinese ethical-political thought."
+        },
+        {
+          "target_figure_code": "H-SMQ-001",
+          "relation_type": "comparison",
+          "description_zh": "王阳明'心外无物'与司马迁'究天人之际'：两者都把探究焦点从外在天命转向人的世界——司马迁转向历史人事，王阳明转向本心良知。",
+          "description_en": "Wang's 'nothing outside the mind' and Sima Qian's 'probing heaven and humanity': both shifted inquiry from external mandate to the human world—Sima to history and affairs, Wang to the mind's innate knowing."
+        }
+      ]
     },
     "H-WZ-001": {
       "figure_name": "王震",
@@ -16181,6 +16205,323 @@
         "技能沉淀",
         "并行入库",
         "归因回溯"
+      ]
+    },
+    "H-CHE-001": {
+      "mode_ids": [
+        "M-CHE-001",
+        "M-CHE-002",
+        "M-CHE-003",
+        "M-CHE-004",
+        "M-CHE-005",
+        "M-CHE-006",
+        "M-CHE-007",
+        "M-CHE-008",
+        "M-CHE-009",
+        "M-CHE-010"
+      ],
+      "tags": [
+        "万物一体法",
+        "理必有对法",
+        "天理体贴法",
+        "天人一本法",
+        "敬义双修法",
+        "圣人标则法",
+        "性即理也法",
+        "识仁为先法",
+        "定性不动法",
+        "生生可观法"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-ZZ-001",
+          "relation_type": "debate_on_settling_the_nature",
+          "description_zh": "张载问'定性未能不动，犹累于外物'，程颢答以《定性书》",
+          "description_en": "Zhang Zai asked about settling nature; Cheng Hao replied with On Calming the Nature"
+        },
+        {
+          "target_figure_code": "H-ZDY-001",
+          "relation_type": "teacher_inheritance_and_inversion",
+          "description_zh": "周敦颐令二程'寻孔颜乐处'，程颢答为'仁者浑然与物同体'",
+          "description_en": "Zhou Dunyi posed 'seek the joy of Confucius and Yan Hui'; Cheng Hao answered with oneness"
+        }
+      ]
+    },
+    "H-CHI-001": {
+      "mode_ids": [
+        "M-CHI-001",
+        "M-CHI-002",
+        "M-CHI-003",
+        "M-CHI-004",
+        "M-CHI-005",
+        "M-CHI-006",
+        "M-CHI-007",
+        "M-CHI-008",
+        "M-CHI-009",
+        "M-CHI-010"
+      ],
+      "tags": [
+        "性即理法",
+        "主敬涵养法",
+        "格物穷理法",
+        "体用一源法",
+        "理一分殊法",
+        "渐进贯通法",
+        "存理灭欲法",
+        "先知后行法",
+        "经学入德法",
+        "内外一理法"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-CHE-001",
+          "relation_type": "complementary_methods",
+          "description_zh": "程颐与程颢同为理学奠基人，但路径不同：程颢以识仁为先、动亦定静亦定为工夫入口，重顿悟本体；程颐以主敬涵养、格物穷理为工夫路径，重渐进积累。朱熹评明道如大地，伊川如秋霜——明道气象宽平，伊川严肃精密。二人同以天理为核心，但工夫论迥异：明道重体认，伊川重积累。",
+          "description_en": "Cheng Hao and Cheng Yi are co-founders of Neo-Confucianism but differ in approach: Cheng Hao uses recognizing ren first and settled in motion and stillness as cultivation entry points, emphasizing sudden apprehension of the ground; Cheng Yi uses reverence-nurturing and investigating things to exhaust principle as the cultivation path, emphasizing gradual accumulation."
+        },
+        {
+          "target_figure_code": "H-ZDY-001",
+          "relation_type": "teacher-student",
+          "description_zh": "二程少年时奉父命从周敦颐问学一年余。周敦颐令二程寻孔颜乐处，这一追问成为二程终身受用的根本问题。程颢答为仁者浑然与物同体，程颐则以性即理也回应。周敦颐的主静工夫被程颐翻转为{主敬}——静不再是特权状态，任何处境中皆可修养。",
+          "description_en": "The two Chengs studied under Zhou Dunyi for over a year in their youth. Zhou posed seek the joy of Confucius and Yan Hui, which became the fundamental question both brothers carried throughout life."
+        },
+        {
+          "target_figure_code": "H-ZZ-001",
+          "relation_type": "philosophical_debate",
+          "description_zh": "程颐与张载的哲学争论：张载以太虚即气为本体论，程颐以性即理也为本体论。张载认为理是气的运行规律，程颐认为理是先于气的宇宙本体。这一争论影响了后世理气关系的讨论，成为宋明理学内部的重要分歧。",
+          "description_en": "The philosophical debate between Cheng Yi and Zhang Zai: Zhang Zai takes Tai Xu is qi as ontology; Cheng Yi takes nature is principle as ontology."
+        },
+        {
+          "target_figure_code": "H-HZX-001",
+          "relation_type": "critical_inheritance",
+          "description_zh": "黄宗羲对程朱理学的批判性继承：黄宗羲反对程朱理在气先的二元论，主张理在气中。但他继承了程颐格物穷理的方法论，将其发展为史料考辨法。黄宗羲的一本万殊法与程颐的理一分殊形成有趣的对话。",
+          "description_en": "Huang Zongxi's critical inheritance of Cheng-Zhu Neo-Confucianism: Huang opposed Cheng-Zhu's dualism of principle prior to qi, advocating principle within qi."
+        }
+      ]
+    },
+    "H-ZDY-001": {
+      "mode_ids": [
+        "M-ZDY-001",
+        "M-ZDY-002",
+        "M-ZDY-003",
+        "M-ZDY-004",
+        "M-ZDY-005",
+        "M-ZDY-006",
+        "M-ZDY-007",
+        "M-ZDY-008",
+        "M-ZDY-009",
+        "M-ZDY-010"
+      ],
+      "tags": [
+        "无极而太极法",
+        "动静互根法",
+        "诚为本体法",
+        "五性感动法",
+        "主静立极法",
+        "万物各一太极法",
+        "阴阳五行贯通法",
+        "原始反终法",
+        "几微洞察法",
+        "无欲静虚法"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-ZZ-001",
+          "relation_type": "contemporary_complementary_ontology",
+          "description_zh": "周敦颐与张载同处北宋理学奠基期：周以'无极而太极'的理本论图式立宇宙论总纲，张以'太虚即气'的气一元论立本体，二人共同奠定理学形上学格局。",
+          "description_en": "Zhou Dunyi and Zhang Zai both founded Neo-Confucian metaphysics: Zhou's 'Wuji er Taiji' gives a principle-based cosmology, Zhang's 'the Great Void is qi' a qi-monism ontology."
+        },
+        {
+          "target_figure_code": "H-CHE-001",
+          "relation_type": "teacher_of_disciples",
+          "description_zh": "程颢与其弟程颐少年时师事周敦颐，周令其'寻孔颜乐处'，这一设问直接塑造了程颢'仁者浑然与物同体'的境界追求。",
+          "description_en": "Cheng Hao and his brother Cheng Yi studied under Zhou Dunyi in youth; Zhou's charge to 'seek the joy of Confucius and Yan Hui' shaped Cheng Hao's teaching of oneness with all things."
+        },
+        {
+          "target_figure_code": "H-CHI-001",
+          "relation_type": "teacher_of_disciples",
+          "description_zh": "程颐受周敦颐'主静立人极'与'诚'论影响，将其发展为'主敬涵养'与'性即理'的工夫—本体体系，构成濂学向洛学的转进。",
+          "description_en": "Cheng Yi inherited Zhou's 'establishing the human ultimate through stillness' and his doctrine of sincerity, developing them into 'reverent cultivation' and 'nature is principle'."
+        }
+      ]
+    },
+    "H-LJY-001": {
+      "mode_ids": [
+        "M-LJY-001",
+        "M-LJY-002",
+        "M-LJY-003",
+        "M-LJY-004",
+        "M-LJY-005",
+        "M-LJY-006",
+        "M-LJY-007",
+        "M-LJY-008",
+        "M-LJY-009",
+        "M-LJY-010"
+      ],
+      "tags": [
+        "心即理法",
+        "宇宙本体法",
+        "发明本心法",
+        "易简工夫法",
+        "义利之辨法",
+        "先立其大法",
+        "切己自反法",
+        "尊德性为先法",
+        "本体即用法",
+        "六经注我法"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-ZHX-001",
+          "relation_type": "lineage_inheritance_and_inversion",
+          "relation_note": "朱熹(1130-1200)为陆九渊(1139-1193)同时代人，此处为思想谱系对照",
+          "description_zh": "陆九渊与朱熹同源而反：同承二程'天理'之教，朱熹把理放在事物之上而'即物穷理'，陆九渊把理收进本心而'心即理'。鹅湖之辩是这两条路线的公开交锋——尊德性（先立大本）对道问学（泛观博览）。二人终身相辩又终身相敬，朱晚年取陆之简易，陆后学则渐融于朱学，直到王阳明重新点燃象山之脉。",
+          "description_en": "Lu and Zhu share the Cheng lineage yet invert each other: Zhu locates principle in things and studies them outward, Lu gathers principle into the mind—'mind is principle.' The Goose Lake debate staged reverence-for-virtue against inquiry-and-study; they contested all their lives yet honored each other, until Wang Yangming rekindled the Xiangshan line."
+        },
+        {
+          "target_figure_code": "H-CHE-001",
+          "relation_type": "spiritual_ancestry",
+          "description_zh": "程颢'天理二字自家体贴出来'与'仁者浑然与物同体'为心学埋下伏笔：陆九渊把明道'体贴'的路径推到底——本体既在自家体贴处，则不必外索，'心即理'。朱熹尊明道而折向伊川，陆九渊则自认全接明道血脉；'尊德性/道问学'两脉在二程兄弟处已见分野。",
+          "description_en": "Cheng Hao's 'self-realized Tianli' and 'one body with all things' prefigure the School of Mind: Lu radicalizes the Mingdao path—since the root is self-attained, seek nothing outside, hence 'mind is principle.' Zhu followed Yichuan; Lu claimed Cheng Hao entire."
+        },
+        {
+          "target_figure_code": "H-DZS-001",
+          "relation_type": "inner_vs_outer_authority",
+          "description_zh": "董仲舒把真理的担保放在'天'——'道之大原出于天'，人须敬畏地顺应天道秩序；陆九渊把担保移入人心——'万物皆备于我'。同样是确立道德的客观性，一个向外立天以约束君权，一个向内立心以解放个体：中国思想中'外在超越'与'内在超越'的两种方案。",
+          "description_en": "Dong Zhongshu anchors truth in Heaven, restraining the ruler by an outer order; Lu anchors it in the mind—'all things are complete in me.' Outer transcendence versus inner transcendence: two Chinese solutions to securing morality."
+        }
+      ]
+    },
+    "H-WFZ-001": {
+      "mode_ids": [
+        "M-WFZ-001",
+        "M-WFZ-002",
+        "M-WFZ-003",
+        "M-WFZ-004",
+        "M-WFZ-005",
+        "M-WFZ-006",
+        "M-WFZ-007",
+        "M-WFZ-008",
+        "M-WFZ-009",
+        "M-WFZ-010"
+      ],
+      "tags": [
+        "理气相即法",
+        "天下惟器法",
+        "日新之化法",
+        "继善成性法",
+        "行可兼知法",
+        "理在欲中法",
+        "理势合一法",
+        "两端一致法",
+        "鉴古酌今法",
+        "六经开新法"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-HZX-001",
+          "relation_type": "comparison",
+          "description_zh": "黄宗羲重'制度设计'与'学术史'（学校的议政功能、学案体的知识整理），王夫之重'形而上建构'与'历史哲学'（气一元论、理势合一）；黄是制度工程师，王是体系哲学家。",
+          "description_en": "Huang Zongxi stressed institutional design and intellectual history (deliberative schools, the juan'an genre), while Wang Fuzhi built metaphysics and philosophy of history (monism of qi, unity of principle and momentum). Huang was the institutional engineer; Wang the systematic philosopher."
+        },
+        {
+          "target_figure_code": "H-GYW-001",
+          "relation_type": "comparison",
+          "description_zh": "王夫之重'历史循环论'与'气一元论'的形而上建构，顾炎武重'实证考据'与'实地调研'的现实指向；王偏哲学思辨，顾偏方法工程与知识工程。",
+          "description_en": "Wang Fuzhi stressed the metaphysical construction of historical cycles and the monism of qi, while Gu Yanwu pursued evidential scholarship and field research. Wang inclined to philosophical speculation; Gu to method engineering and knowledge engineering."
+        }
+      ]
+    },
+    "H-DZ-001": {
+      "mode_ids": [
+        "M-DZ-001",
+        "M-DZ-002",
+        "M-DZ-003",
+        "M-DZ-004",
+        "M-DZ-005",
+        "M-DZ-006",
+        "M-DZ-007",
+        "M-DZ-008",
+        "M-DZ-009",
+        "M-DZ-010"
+      ],
+      "tags": [
+        "由字通道法",
+        "气化流行法",
+        "理存欲中法",
+        "血气心知法",
+        "絜情平欲法",
+        "以理杀人批判法",
+        "体民遂欲法",
+        "十分之见法",
+        "实证归纳法",
+        "汉宋兼采法"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-ZHX-001",
+          "relation_type": "comparison",
+          "description_zh": "朱熹以「理」为超验本体、主张「存天理灭人欲」；戴震把「理」还原为情欲之条理、斥后儒之理为「以理杀人」。二人同释一「理」字，方向截然相反：朱是形上学的道德形制，戴是经验论的启蒙伦理。",
+          "description_en": "Zhu Xi made 'principle' a transcendent ontology and urged preserving heavenly principle while extinguishing human desire; Dai Zhen reduced principle to the ordered pattern of feeling and desire, denouncing the later Confucian 'principle' as 'killing by principle.' The same character, opposite directions: Zhu's metaphysical moral order versus Dai's empiricist enlightenment ethics."
+        },
+        {
+          "target_figure_code": "H-GYW-001",
+          "relation_type": "influence",
+          "description_zh": "顾炎武开清代考据学之先河（'经学即理学'），戴震承其路数而登峰造极：把考据从方法论提升为哲学重建（由词通道），并使皖派考据规范（段玉裁、王念孙王引之）成为乾嘉学术的正统。",
+          "description_en": "Gu Yanwu pioneered Qing evidential scholarship ('classical learning is precisely the study of principle'); Dai Zhen inherited his path and brought it to its summit, elevating philology from method to philosophical reconstruction (from words to the Way), and making the Anhui-school standards the orthodoxy of Qianlong-Jiaqing learning."
+        },
+        {
+          "target_figure_code": "H-WFZ-001",
+          "relation_type": "comparison",
+          "description_zh": "王夫之与戴震都重建理欲关系（'人欲之各得即天理之大同'与'理存于欲'），但路径不同：王以气学形上学历程抵达，戴以训诂考据的经验方法抵达——一为体系哲学，一为语言学论证的启蒙伦理。",
+          "description_en": "Both Wang Fuzhi and Dai Zhen rebuilt the principle-desire relation ('the due satisfaction of each desire is the great commonality of heavenly principle' vs. 'principle resides in desire'), but by different routes: Wang through qi-learning metaphysics, Dai through the empirical method of philology—one systematic philosophy, one enlightenment ethics argued linguistically."
+        }
+      ]
+    },
+    "H-ZXC-001": {
+      "mode_ids": [
+        "M-ZXC-001",
+        "M-ZXC-002",
+        "M-ZXC-003",
+        "M-ZXC-004",
+        "M-ZXC-005",
+        "M-ZXC-006",
+        "M-ZXC-007",
+        "M-ZXC-008",
+        "M-ZXC-009",
+        "M-ZXC-010"
+      ],
+      "tags": [
+        "六经皆史法",
+        "撰述记注二分法",
+        "史德养心法",
+        "别识心裁法",
+        "道器不离法",
+        "辨章学术考镜源流法",
+        "方志立三书法",
+        "通史家风法",
+        "文德敬恕法",
+        "学术为公·嘉惠后学法"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-DZ-001",
+          "relation_type": "comparison",
+          "description_zh": "戴震由词通道（训诂明而后义理明），章学诚由史见道（六经皆史、道在事中）——同为反宋明空言之实证路线，戴自语言文字入，章自史事制度入，构成清代方法论双峰。",
+          "description_en": "Dai Zhen reaches the Way through words (philology first), Zhang Xuecheng through history (the classics are records of affairs) — both empirical anti-empty-talk routes, one via language, one via institutions. The two were rivals in life (Zhang criticized Dai's lexicon) yet twin peaks in method."
+        },
+        {
+          "target_figure_code": "H-GYW-001",
+          "relation_type": "comparison",
+          "description_zh": "顾炎武立考据学方法（音韵证经、采铜于山）而以经学为归；章学诚承浙东史学，以史学统经学，强调别识心裁与成一家之言——顾重功夫之实，章重别裁之神。",
+          "description_en": "Gu Yanwu founded evidential method subordinated to classical studies; Zhang, heir of the eastern-Zhejiang historiographical school, subsumes classics under history and prizes independent insight — Gu values laborious verification, Zhang creative synthesis."
+        },
+        {
+          "target_figure_code": "H-HZX-001",
+          "relation_type": "influence",
+          "description_zh": "章学诚为浙东学派殿军，承黄宗羲「学必原本于经术」而后文史学一脉；黄创学案体以明学术流变，章以「辨章学术、考镜源流」将其升级为系统的知识谱系学。",
+          "description_en": "Zhang as the last master of the eastern-Zhejiang school inherits Huang Zongxi's union of classics and history; Huang's case-history genre is systematized by Zhang into a full genealogy of knowledge."
+        }
       ]
     }
   }

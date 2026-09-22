@@ -1,0 +1,1287 @@
+{
+ "schema": "phase21r.audit/v1",
+ "generated_at": "2026-09-22",
+ "card": "t_3e74b456",
+ "scope": "Phase21-R 主库数据修复：恢复 16 位人物缺失模式块 + 恩克鲁玛补缺 + 全量审计（两仓同步·站点重建·推送）",
+ "root_cause": "9/9 大重写提交 91832eb6 (Fix M381-M390 mode ID conflict) 之后，9/7-9/9 已入库的 Phase21 人物模式块持续缺失；9/10-9/17 的 boards->workspace 全量镜像未带回",
+ "restore": {
+  "totals": {
+   "A": 140,
+   "C": 20,
+   "C-closure": 20,
+   "D-NKR": 4,
+   "B-QIN": 10
+  },
+  "grand_total": 194,
+  "figures": [
+   {
+    "figure_code": "H-BLT-001",
+    "code": "H-BLT-001",
+    "figure_name": "柏拉图",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-BLT-001",
+     "M-BLT-002",
+     "M-BLT-003",
+     "M-BLT-004",
+     "M-BLT-005",
+     "M-BLT-006",
+     "M-BLT-007",
+     "M-BLT-008",
+     "M-BLT-009",
+     "M-BLT-010"
+    ],
+    "sources": [
+     "archive",
+     "commit:072bd72a"
+    ]
+   },
+   {
+    "figure_code": "H-SQR-001",
+    "code": "H-SQR-001",
+    "figure_name": "苏格拉底",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-SQR-001",
+     "M-SQR-002",
+     "M-SQR-003",
+     "M-SQR-004",
+     "M-SQR-005",
+     "M-SQR-006",
+     "M-SQR-007",
+     "M-SQR-008",
+     "M-SQR-009",
+     "M-SQR-010"
+    ],
+    "sources": [
+     "archive",
+     "commit:f8514b54"
+    ]
+   },
+   {
+    "figure_code": "H-ZHX-001",
+    "code": "H-ZHX-001",
+    "figure_name": "朱熹",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-ZHX-001",
+     "M-ZHX-002",
+     "M-ZHX-003",
+     "M-ZHX-004",
+     "M-ZHX-005",
+     "M-ZHX-006",
+     "M-ZHX-007",
+     "M-ZHX-008",
+     "M-ZHX-009",
+     "M-ZHX-010"
+    ],
+    "sources": [
+     "commit:8e4e5dd4"
+    ]
+   },
+   {
+    "figure_code": "H-YLS-001",
+    "code": "H-YLS-001",
+    "figure_name": "亚里士多德",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-YLS-001",
+     "M-YLS-002",
+     "M-YLS-003",
+     "M-YLS-004",
+     "M-YLS-005",
+     "M-YLS-006",
+     "M-YLS-007",
+     "M-YLS-008",
+     "M-YLS-009",
+     "M-YLS-010"
+    ],
+    "sources": [
+     "archive",
+     "commit:47bf8546"
+    ]
+   },
+   {
+    "figure_code": "H-SJM-001",
+    "code": "H-SJM-001",
+    "figure_name": "释迦牟尼",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-SJM-001",
+     "M-SJM-002",
+     "M-SJM-003",
+     "M-SJM-004",
+     "M-SJM-005",
+     "M-SJM-006",
+     "M-SJM-007",
+     "M-SJM-008",
+     "M-SJM-009",
+     "M-SJM-010"
+    ],
+    "sources": [
+     "archive",
+     "commit:a6c37c4d"
+    ]
+   },
+   {
+    "figure_code": "H-DRK-001",
+    "code": "H-DRK-001",
+    "figure_name": "德鲁克",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-DRK-001",
+     "M-DRK-002",
+     "M-DRK-003",
+     "M-DRK-004",
+     "M-DRK-005",
+     "M-DRK-006",
+     "M-DRK-007",
+     "M-DRK-008",
+     "M-DRK-009",
+     "M-DRK-010"
+    ],
+    "sources": [
+     "archive",
+     "commit:5a4758fa"
+    ]
+   },
+   {
+    "figure_code": "H-DA-001",
+    "code": "H-DA-001",
+    "figure_name": "道安",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-DA-001",
+     "M-DA-002",
+     "M-DA-003",
+     "M-DA-004",
+     "M-DA-005",
+     "M-DA-006",
+     "M-DA-007",
+     "M-DA-008",
+     "M-DA-009",
+     "M-DA-010"
+    ],
+    "sources": [
+     "commit:0e78ffa5"
+    ]
+   },
+   {
+    "figure_code": "H-GX-001",
+    "code": "H-GX-001",
+    "figure_name": "郭象",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-GX-001",
+     "M-GX-002",
+     "M-GX-003",
+     "M-GX-004",
+     "M-GX-005",
+     "M-GX-006",
+     "M-GX-007",
+     "M-GX-008",
+     "M-GX-009",
+     "M-GX-010"
+    ],
+    "sources": [
+     "archive",
+     "commit:e51bdae6"
+    ]
+   },
+   {
+    "figure_code": "H-JY-001",
+    "code": "H-JY-001",
+    "figure_name": "贾谊",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-JY-001",
+     "M-JY-002",
+     "M-JY-003",
+     "M-JY-004",
+     "M-JY-005",
+     "M-JY-006",
+     "M-JY-007",
+     "M-JY-008",
+     "M-JY-009",
+     "M-JY-010"
+    ],
+    "sources": [
+     "commit:99a47440"
+    ]
+   },
+   {
+    "figure_code": "H-WB-001",
+    "code": "H-WB-001",
+    "figure_name": "王弼",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-WB-001",
+     "M-WB-002",
+     "M-WB-003",
+     "M-WB-004",
+     "M-WB-005",
+     "M-WB-006",
+     "M-WB-007",
+     "M-WB-008",
+     "M-WB-009",
+     "M-WB-010"
+    ],
+    "sources": [
+     "commit:af79031a"
+    ]
+   },
+   {
+    "figure_code": "H-SY-001",
+    "code": "H-SY-001",
+    "figure_name": "商君",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-SY-001",
+     "M-SY-002",
+     "M-SY-003",
+     "M-SY-004",
+     "M-SY-005",
+     "M-SY-006",
+     "M-SY-007",
+     "M-SY-008",
+     "M-SY-009",
+     "M-SY-010"
+    ],
+    "sources": [
+     "archive"
+    ]
+   },
+   {
+    "figure_code": "H-XFZ-001",
+    "code": "H-XFZ-001",
+    "figure_name": "谢富治",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-XFZ-001",
+     "M-XFZ-002",
+     "M-XFZ-003",
+     "M-XFZ-004",
+     "M-XFZ-005",
+     "M-XFZ-006",
+     "M-XFZ-007",
+     "M-XFZ-008",
+     "M-XFZ-009",
+     "M-XFZ-010"
+    ],
+    "sources": [
+     "archive"
+    ]
+   },
+   {
+    "figure_code": "H-GYW-001",
+    "code": "H-GYW-001",
+    "figure_name": "顾炎武",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M311",
+     "M312",
+     "M313",
+     "M314",
+     "M315",
+     "M316",
+     "M317",
+     "M318",
+     "M319",
+     "M320"
+    ],
+    "sources": [
+     "archive",
+     "commit:959525d4"
+    ]
+   },
+   {
+    "figure_code": "H-JMLS-001",
+    "code": "H-JMLS-001",
+    "figure_name": "鸠摩罗什",
+    "kind": "A",
+    "n": 10,
+    "ids": [
+     "M-JMLS-001",
+     "M-JMLS-002",
+     "M-JMLS-003",
+     "M-JMLS-004",
+     "M-JMLS-005",
+     "M-JMLS-006",
+     "M-JMLS-007",
+     "M-JMLS-008",
+     "M-JMLS-009",
+     "M-JMLS-010"
+    ],
+    "sources": [
+     "commit:1b8c56ce"
+    ]
+   },
+   {
+    "figure_code": "Homer",
+    "code": "H-HOM-001",
+    "figure_name": "荷马",
+    "kind": "C",
+    "n": 10,
+    "ids": [
+     "M-HOM-001",
+     "M-HOM-002",
+     "M-HOM-003",
+     "M-HOM-004",
+     "M-HOM-005",
+     "M-HOM-006",
+     "M-HOM-007",
+     "M-HOM-008",
+     "M-HOM-009",
+     "M-HOM-010"
+    ],
+    "sources": [
+     "archive",
+     "figure-embed"
+    ]
+   },
+   {
+    "figure_code": "Coubertin",
+    "code": "H-COU-001",
+    "figure_name": "顾拜旦",
+    "kind": "C",
+    "n": 10,
+    "ids": [
+     "M-COU-001",
+     "M-COU-002",
+     "M-COU-003",
+     "M-COU-004",
+     "M-COU-005",
+     "M-COU-006",
+     "M-COU-007",
+     "M-COU-008",
+     "M-COU-009",
+     "M-COU-010"
+    ],
+    "sources": [
+     "archive",
+     "figure-embed"
+    ]
+   },
+   {
+    "figure_code": "Sophocles",
+    "code": "H-SOP-001",
+    "figure_name": "索福克勒斯",
+    "kind": "C-closure",
+    "n": 10,
+    "ids": [
+     "M-SOP-001",
+     "M-SOP-002",
+     "M-SOP-003",
+     "M-SOP-004",
+     "M-SOP-005",
+     "M-SOP-006",
+     "M-SOP-007",
+     "M-SOP-008",
+     "M-SOP-009",
+     "M-SOP-010"
+    ],
+    "sources": [
+     "boards-archive",
+     "boards-figure-embed"
+    ]
+   },
+   {
+    "figure_code": "Thucydides",
+    "code": "H-THU-001",
+    "figure_name": "修昔底德",
+    "kind": "C-closure",
+    "n": 10,
+    "ids": [
+     "M-THU-001",
+     "M-THU-002",
+     "M-THU-003",
+     "M-THU-004",
+     "M-THU-005",
+     "M-THU-006",
+     "M-THU-007",
+     "M-THU-008",
+     "M-THU-009",
+     "M-THU-010"
+    ],
+    "sources": [
+     "boards-archive",
+     "boards-figure-embed"
+    ]
+   },
+   {
+    "figure_code": "H-NKR-001",
+    "code": "H-NKR-001",
+    "figure_name": "恩克鲁玛",
+    "kind": "D-NKR",
+    "n": 4,
+    "ids": [
+     "M-NKR-006",
+     "M-NKR-007",
+     "M-NKR-008",
+     "M-NKR-009"
+    ],
+    "sources": [
+     "commit:c949e76d",
+     "figure-embed"
+    ]
+   },
+   {
+    "figure_code": "H-QIN-001",
+    "code": "H-QIN-001",
+    "figure_name": "李斯",
+    "kind": "B-QIN",
+    "n": 10,
+    "ids": [
+     "M-QIN-001",
+     "M-QIN-002",
+     "M-QIN-003",
+     "M-QIN-004",
+     "M-QIN-005",
+     "M-QIN-006",
+     "M-QIN-007",
+     "M-QIN-008",
+     "M-QIN-009",
+     "M-QIN-010"
+    ],
+    "sources": [
+     "archive"
+    ]
+   }
+  ],
+  "before": {
+   "raw_entries": 2948,
+   "distinct_mode_codes": 2938,
+   "empty_mode_code": 10
+  },
+  "after": {
+   "raw_entries": 3142,
+   "distinct_mode_codes": 3132,
+   "empty_mode_code": 10,
+   "duplicate_mode_codes": {
+    "None": 10
+   }
+  },
+  "ids_all_present": true
+ },
+ "normalizations": {
+  "WB_field_rename": {
+   "figure": "H-WB-001",
+   "ids": [
+    "M-WB-001~M-WB-010"
+   ],
+   "from": "related_modes",
+   "to": "failure_pitfalls_zh",
+   "reason": "payload field 内为自由文本失败陷阱，非模式码；迁移后相关内容保真、原键不再占用"
+  },
+  "NKR_category": {
+   "figure": "H-NKR-001",
+   "ids": [
+    "M-NKR-006",
+    "M-NKR-007",
+    "M-NKR-008",
+    "M-NKR-009"
+   ],
+   "before": "payload 把 [name_zh, name_en, domain 标签] 三元组写进 category/name_zh/name_en（c949e76d 与 figure 内嵌同型）",
+   "after": {
+    "M-NKR-006": "政治治理",
+    "M-NKR-007": "哲学形而上",
+    "M-NKR-008": "哲学形而上",
+    "M-NKR-009": "政治治理"
+   },
+   "rule": "依同人物既有 6 条既定归一：三元组[2] 首段 政治* -> 政治治理、哲学* -> 哲学形而上、个人品格 -> 伦理修养",
+   "figure_embed_synced": true,
+   "why": "category 为三元组时 export_static_site 的 domain 清洗回退失效 -> 断言 4 条 domain_zh 超 30 字符；归一后 category 与库内 18 类词汇一致，且 figure 内嵌同步 -> 0 mismatch",
+   "raw_preserved_at": [
+    "git show c949e76d:data/modes_data.json",
+    "data/figures/H-NKR-001.json (HEAD)",
+    "boards/workspaces/t_d6a190f8"
+   ]
+  },
+  "verification_status": {
+   "note": "194 条恢复条目均带 verification 块（四态合法）；全库四态由 apply_verification_status.py 口径校验，公开口径 3082 + 隔离 60 = 全库 3142"
+  }
+ },
+ "audit_F": {
+  "F1_v6_claims": {
+   "script": "card F.1",
+   "before": "18 件清单",
+   "after": [
+    {
+     "file": "data/figures/H-BG-001.json",
+     "missing": 10,
+     "basis": "E1 码系（figure/floder 用 H-BG-001/M-BG-*，库内 canonical 为 M-BAN-* 10 条）"
+    },
+    {
+     "file": "data/individuals/H-SJL-001_modes.json",
+     "missing": 10,
+     "basis": "E2 旧码（canonical H-SHA-001/M-SHA-* 在库）"
+    }
+   ],
+   "unresolved": 0
+  },
+  "F2_merge_xref": {
+   "script": "card F.2",
+   "flagged": [
+    {
+     "code": "BG",
+     "count": "0/10",
+     "basis": "E1：库内 M-BAN-* 10 条（figure_code=BAN）"
+    },
+    {
+     "code": "CH",
+     "count": "0/10",
+     "basis": "H-CH-001 已清档旧码（ws 侧档案已删，publish 侧本次同步删除）"
+    },
+    {
+     "code": "DZS",
+     "count": "1/10",
+     "basis": "董仲舒 10 条在库（figure_code=H-DZS-001，id 为 M01~M10 旧编号，非 M-DZS-* 口径；卡外遗留）"
+    },
+    {
+     "code": "GYW",
+     "count": "0/10",
+     "basis": "本次恢复；id 口径为上游 M311~M320（959525d4 payload），按 figure_code=H-GYW-001 计 10/10"
+    },
+    {
+     "code": "SJL",
+     "count": "0/10",
+     "basis": "E2：旧码副本，canonical M-SHA-* 在库"
+    },
+    {
+     "code": "SQIN",
+     "count": "0/10",
+     "basis": "已核清：入库码为 M-SQ-*（10 条在库）"
+    },
+    {
+     "code": "SX",
+     "count": "0/10",
+     "basis": "H-SX-001 已知隔离（QUARANTINE，M393-M402），不得恢复"
+    },
+    {
+     "code": "ZX",
+     "count": "0/10",
+     "basis": "B 组：曾子（figure 档仅元数据、无载荷、无合并提交）-> 列待决策"
+    }
+   ],
+   "unresolved": 0
+  },
+  "F3_mode_code_without_id": {
+   "total_entries": 3142,
+   "with_id": 2742,
+   "without_id": 390,
+   "without_mode_code": 10,
+   "restored_194_without_id": 0,
+   "impact": "id 缺失条目对以 mode_code 为键的工具链（export/gate/verify/前端）无影响（产物 1371 文件断言与门禁均通过）；仅对以 id 集合判归属的扫描（如 card F.1 脚本）不可见，故 F1/F2 解读须以 mode_code/figure_code 为准"
+  },
+  "E1_BG_suggestion": "figure 档侧码系 H-BG-001/M-BG-* 与库内 canonical M-BAN-* 二码并存：建议按 ZX->ZHX 先例统一为单码（推荐保留库内 M-BAN-*，figure/档案侧改名），或至少在 CLAUDE/工具白名单记录",
+  "E2_SJL_suggestion": "SJL 旧码档案（figure+individuals+legacy payload）可按 H-CH-001 清档先例归档/清档；canonical 保留 H-SHA-001",
+  "E3_legacy_20": [
+   {
+    "code": "AN",
+    "name": "安子",
+    "figure_code": "H-AN-001",
+    "figure_file_owner": "安子",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-AN-001.json",
+      "figure_name": "安子",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/individuals",
+      "file": "H-AN-001_modes.json",
+      "figure_name": "安子",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/individuals",
+      "file": "H-HAN-001_modes.json",
+      "figure_name": "沈幅",
+      "n": 8,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/individuals",
+      "file": "H-GAN-001.json",
+      "figure_name": "甘地",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/individuals",
+      "file": "H-MAN-001.json",
+      "figure_name": "纳尔逊·曼德拉",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-GAN-001.json",
+      "figure_name": "甘地",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-MAN-001.json",
+      "figure_name": "纳尔逊·曼德拉",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-AN-001.json",
+      "figure_name": "安子",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-AND-001.json",
+      "figure_name": "安徒生",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-HAN-001.json",
+      "figure_name": "沈幅",
+      "n": 8,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-NAN-001.json",
+      "figure_name": "南泉普愿",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-ZAN-001.json",
+      "figure_name": "澹台灭明",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-TAN-001.json",
+      "figure_name": "汤显祖",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-YAN-001.json",
+      "figure_name": "燕肃",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "CHB",
+    "name": "陈伯达",
+    "figure_code": "H-CHB-001",
+    "figure_file_owner": "陈伯达",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-CHB-001_modes.json",
+      "figure_name": "陈伯达",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-CHB-001.json",
+      "figure_name": "陈伯达",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 1,
+    "git_latest": "9f48b44d Phase 20 陈伯达(H-CHB-001)数据合并完成：10个v6思维模式(M211-M220)集成data/figures/data/individuals，code_maps.json含15 t",
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "CY",
+    "name": "陈云",
+    "figure_code": "H-CY-001",
+    "figure_file_owner": "陈云",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/figures",
+      "file": "H-CY-001.json",
+      "figure_name": "陈云",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-CYP-001.json",
+      "figure_name": "蔡元培",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 2,
+    "git_latest": "d2f24c9d docs: Phase 19 研究总结更新 - 补充陈云(H-CY-001)研究成果归档",
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "DY",
+    "name": "董宇明",
+    "figure_code": "H-DY-001",
+    "figure_file_owner": "董宇明",
+    "library_entries": 10,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-DY-001_modes.json",
+      "figure_name": "董宇明",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/individuals",
+      "file": "H-ZDY-001.json",
+      "figure_name": "周敦颐",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-DYC-001_modes.json",
+      "figure_name": "邓颖超",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-DYC-001.json",
+      "figure_name": "邓颖超",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-DY-001.json",
+      "figure_name": "董宇明",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-ZDY-001.json",
+      "figure_name": "周敦颐",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "已在库: 10 条 (H-...-001 同名) -> 档案归档, 无需恢复"
+   },
+   {
+    "code": "DYC",
+    "name": "邓颖超",
+    "figure_code": "H-DYC-001",
+    "figure_file_owner": "邓颖超",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/figures",
+      "file": "H-DYC-001_modes.json",
+      "figure_name": "邓颖超",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-DYC-001.json",
+      "figure_name": "邓颖超",
+      "n": 10,
+      "id_style": "legacy-M###"
+     }
+    ],
+    "git_name_commits": 1,
+    "git_latest": "853309a0 Phase 20: Add H-DYC-001 (邓颖超) to code_maps and scenario_tags",
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "FXT",
+    "name": "费孝通",
+    "figure_code": "H-FXT-001",
+    "figure_file_owner": "费孝通",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-FXT-001_modes.json",
+      "figure_name": "费孝通",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-FXT-001.json",
+      "figure_name": "费孝通",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "HAN",
+    "name": "沈幅",
+    "figure_code": "H-HAN-001",
+    "figure_file_owner": "沈幅",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-HAN-001_modes.json",
+      "figure_name": "沈幅",
+      "n": 8,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-HAN-001.json",
+      "figure_name": "沈幅",
+      "n": 8,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 1,
+    "git_latest": "f66bb2fd Phase 21: 班固(H-BG-001)增量合并入主库",
+    "suggestion": "待决策: 仅部分载荷 (H-HAN-001_modes.json(8),H-HAN-001.json(8)) -> 单独评估"
+   },
+   {
+    "code": "HZX-002",
+    "name": "王祥",
+    "figure_code": "H-HZX-002",
+    "figure_file_owner": "王祥",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/figures",
+      "file": "H-HZX-002.json",
+      "figure_name": "王祥",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, v6) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "JX",
+    "name": "纪弦",
+    "figure_code": "H-JX-001",
+    "figure_file_owner": "纪弦",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/figures",
+      "file": "H-JX-001.json",
+      "figure_name": "纪弦",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, v6) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "KKQ",
+    "name": "康克清",
+    "figure_code": "H-KKQ-001",
+    "figure_file_owner": "康克清",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/figures",
+      "file": "H-KKQ-001.json",
+      "figure_name": "康克清",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 1,
+    "git_latest": "d4098177 Phase 20 归档完成: 康克清 (H-KKQ-001) 成果文档化",
+    "suggestion": "待决策: 载荷在档 (10 条, v6) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "LC",
+    "name": "陆沉",
+    "figure_code": "H-LC-001",
+    "figure_file_owner": "陆沉",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/figures",
+      "file": "H-YLC-001.json",
+      "figure_name": "耶律楚材",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, v6) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "LUORQ",
+    "name": "罗瑞卿",
+    "figure_code": "H-LUORQ-001",
+    "figure_file_owner": "罗瑞卿",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-LUORQ-001_modes.json",
+      "figure_name": "陆有",
+      "n": 10,
+      "id_style": "legacy-M###"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "LWH",
+    "name": "李维汉",
+    "figure_code": "H-LWH-001",
+    "figure_file_owner": "李维汉",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-LWH-001_modes.json",
+      "figure_name": "李维汉",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/individuals",
+      "file": "H-LWH-001.json",
+      "figure_name": "李维汉",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-LWH-001.json",
+      "figure_name": "李维汉",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 1,
+    "git_latest": "26376031 Fix H-LWH-001 (李维汉) data merge: add 10 modes, 20 scenarios, 10 tags to all data sources",
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "MODERN-002",
+    "name": "大云",
+    "figure_code": "H-MODERN-002",
+    "figure_file_owner": "大云",
+    "library_entries": 0,
+    "payload_layers": [],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 无模式载荷, 仅元数据 -> 归档或立项补做"
+   },
+   {
+    "code": "SQL",
+    "name": "宋庆龄",
+    "figure_code": "H-SQL-001",
+    "figure_file_owner": "宋庆龄",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-SQL-001.json",
+      "figure_name": "宋庆龄",
+      "n": 10,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-SQL-001.json",
+      "figure_name": "宋庆龄",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 1,
+    "git_latest": "4f3c39b4 Phase 20 归档完成: 宋庆龄 (H-SQL-001) 成果文档化",
+    "suggestion": "待决策: 载荷在档 (10 条, v6) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "WL",
+    "name": "万里",
+    "figure_code": "H-WL-001",
+    "figure_file_owner": "万里",
+    "library_entries": 0,
+    "payload_layers": [],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 无模式载荷, 仅元数据 -> 归档或立项补做"
+   },
+   {
+    "code": "WZ",
+    "name": "王震",
+    "figure_code": "H-WZ-001",
+    "figure_file_owner": "王震",
+    "library_entries": 2,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-WZ-001.json",
+      "figure_name": "王震",
+      "n": 2,
+      "id_style": "v6"
+     },
+     {
+      "layer": "data/individuals",
+      "file": "H-WZ-001_modes.json",
+      "figure_name": "王震",
+      "n": 2,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-WZ-001.json",
+      "figure_name": "王震",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-WZT-001.json",
+      "figure_name": "武则天",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 2,
+    "git_latest": "b78b5d09 Phase 21: WuZetian (H-WZT-001) deep-mode research entry into main library - 10 v6 modes M-WZT-001~010",
+    "suggestion": "已在库: 2 条 (H-...-001 同名) -> 档案归档, 无需恢复"
+   },
+   {
+    "code": "YE",
+    "name": "叶筱",
+    "figure_code": "H-YE-001",
+    "figure_file_owner": "叶筱",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-YE-001_modes.json",
+      "figure_name": "叶筱",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-YE-001.json",
+      "figure_name": "叶筱",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "YSK",
+    "name": "杨尚昆",
+    "figure_code": "H-YSK-001",
+    "figure_file_owner": "杨尚昆",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-YSK-001_modes.json",
+      "figure_name": "杨尚昆",
+      "n": 10,
+      "id_style": "legacy-M###"
+     },
+     {
+      "layer": "data/figures",
+      "file": "H-YSK-001.json",
+      "figure_name": "杨尚昆",
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, legacy-M###) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   },
+   {
+    "code": "ZOU",
+    "name": "邹文献",
+    "figure_code": "H-ZOU-001",
+    "figure_file_owner": "邹文献",
+    "library_entries": 0,
+    "payload_layers": [
+     {
+      "layer": "data/individuals",
+      "file": "H-ZOU-001_modes.json",
+      "figure_name": null,
+      "n": 10,
+      "id_style": "v6"
+     }
+    ],
+    "git_name_commits": 0,
+    "git_latest": null,
+    "suggestion": "待决策: 载荷在档 (10 条, v6) 但库内 0 条 -> 旧世代未入库; 单独评估 v6 复刻 or 归档"
+   }
+  ],
+  "B_zengzi": {
+   "figure_code": "H-ZX-001",
+   "figure_file": "data/figures/H-ZX-001.json (figure_name=曾子, 16899B, 无 modes/mode_ids)",
+   "individuals": "data/individuals/H-ZX-001_modes.json 不存在（ws/boards 均缺）",
+   "library": "无 M-ZX-*、无曾子条目（0 条）",
+   "git": "无独立合并提交；git log --grep 曾子 仅见 9c074ddd/5956dd8b 等的「H-ZX-001->H-ZHX-001 曾子误码」交叉引用修复记录",
+   "conclusion": "列待决策（不恢复）：无模式载荷、无入库史 -> 属从未入库而非丢失；本卡不编造内容；建议船长决定是否立项补做"
+  },
+  "F_summary": "F1/F2 重跑：未决 0 条（全部列明依据）；F3 观察项已上报"
+ },
+ "gates": {
+  "ws": {
+   "credibility_gate_hard_fail": "exit 0 · 存量 525 (D1=60 D2=9 D3=0 D6=456) · 新增 0",
+   "verify_findings_hard_fail": "exit 0 · 存量 0 · 新增 0",
+   "verify_source_links_hard_fail": "exit 0 · 无新增坏链（存量 0 已冻结）",
+   "export_static_site": "exit 0 · 产物 1371 · figures=1057 modes(源)=3132 modes(发布)=3072 隔离=60 by-figure=304",
+   "pages_preflight_stage_data": "[OK] 全部断言通过"
+  },
+  "publish": {
+   "credibility_gate_hard_fail": "exit 0 · 存量 525 · 新增 0",
+   "verify_findings_hard_fail": "exit 0 · 存量 0 · 新增 0",
+   "data_chain": "build_figures_db/export/gen_web_site_counts/build_daily_index/build_search_index/build_graph_data/build_unified_index 全 exit 0",
+   "pages_preflight_stage_data": "[OK] figures=1057 modes=3132 published=3072 隔离命中=0 by-figure=304"
+  }
+ },
+ "findings_delta": {
+  "before": {
+   "D1_pseudo_figure": 60,
+   "D2_fabricated_source": 10,
+   "D3_source_contamination": 6,
+   "D4_quote_without_source": 17,
+   "D4_quote_mismatch": 22,
+   "D5_timeline_conflict": 1,
+   "D6_orphan_reference": 40
+  },
+  "after": {
+   "D1_pseudo_figure": 60,
+   "D2_fabricated_source": 10,
+   "D3_source_contamination": 6,
+   "D4_quote_without_source": 27,
+   "D4_quote_mismatch": 23,
+   "D5_timeline_conflict": 1,
+   "D6_orphan_reference": 38
+  },
+  "before_total": 156,
+  "after_total": 165,
+  "new_flagged": [
+   "M-WYM-003",
+   "M-ZHX-001",
+   "M-ZHX-002",
+   "M-ZHX-003",
+   "M-ZHX-004",
+   "M-ZHX-005",
+   "M-ZHX-006",
+   "M-ZHX-007",
+   "M-ZHX-008",
+   "M-ZHX-009",
+   "M-ZHX-010"
+  ],
+  "removed": [
+   "M-NKR-010"
+  ],
+  "note": "+10 D4_quote_without_source 为朱熹批忠实恢复（上游 8e4e5dd4 payload 无 source_chapter 字段，档案侧为旧世代 thinking_modes 亦无来源字段）；+1 D4_quote_mismatch 为并行卡（M-WYM-003）；D6 净 -2 为引用闭包补齐收益"
+ },
+ "site_counts": {
+  "before": {
+   "expect_modes": 2858,
+   "expect_by_figure": 278,
+   "meta_published": 2798,
+   "expect_figures": 1057
+  },
+  "after": {
+   "expect_modes": 3132,
+   "expect_by_figure": 304,
+   "meta_published": 3072,
+   "expect_figures": 1057
+  },
+  "anchors_updated": [
+   "tools/export_static_site.py: EXPECT_MODES 2858->3132, EXPECT_BY_FIGURE 278->304",
+   "tools/pages_preflight.py: 同上（单一构建源同步改）"
+  ],
+  "note": "3132 = 2858 + 80（并行 Phase20 批未同步增量）+ 194（本卡恢复）；304 = 278 + 26"
+ },
+ "publish_sync": {
+  "mode": "ws->publish 镜像（parity 工具口径）",
+  "files_copied": 92,
+  "files_deleted": 4,
+  "deleted_paths": [
+   "data/figures/H-CH-001.json",
+   "data/individuals/H-CH-001.json",
+   "data/individuals/H-CH-001_modes.json",
+   "docs/figures/H-CH-001.md"
+  ],
+  "parity_after": "0 差异（tools/check_repo_parity.py exit 0）"
+ },
+ "legacy_observations": [
+  {
+   "item": "verification 状态漂移 73 条",
+   "detail": "apply_verification_status.py --check exit 1：72 条 verified->pending、1 条 verified->suspect；多为 H-CHE-001 批（checked_at=20260922_122743 由并行卡合并脚本写入）；非本卡引入（恢复前快照上同样 73 条）；CI 不跑 --check"
+  },
+  {
+   "item": "H-DY-001 码冲突",
+   "detail": "data/figures/H-DY-001.json 与 figure_names.json 现持「董宇明」（legacy M11~M20 载荷），而主库 figure_code=H-DY-001 的 10 条为杜威 M-DY-001~010（2026-09-10 1c13431e 入库）-> 归一/换码建议报船长，本卡不动"
+  },
+  {
+   "item": "E3 旧世代 20 件",
+   "detail": "逐件清单见 E3_legacy_20；均未入库、载荷在档（部分 legacy M### 编号），本卡不动"
+  },
+  {
+   "item": "隔离名单未触碰",
+   "detail": "H-SX-001 / P23F-001 / P24F / P25F / P26F / Phase27Final 未恢复、未进入任何公开产出（export 隔离命中=0）"
+  }
+ ]
+}

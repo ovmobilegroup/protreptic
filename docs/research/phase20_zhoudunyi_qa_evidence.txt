@@ -1,0 +1,38 @@
+Phase 20 QA evidence: 周敦颐 (H-ZDY-001) — QA card t_0e566445 (espinosa)
+generated at HEAD = 65ead7c95112f33fa9ab458dd38e0d7b83ea9a83
+reviewed commit (入库) = 564a5f58a339c8dac66dc53c6e0f3c49563ad673
+hotfix commit           = dc15c89aa13004e6a4b7c72698bccde5f47d0f26
+
+commits authored by this QA card:
+dc15c89a Phase20-QA: 周敦颐 (H-ZDY-001) 验收热修 —— 修复 10 处中英混排/字符缺陷 (M-ZDY-009 中文叙述夹带未译英文 4 处, M-ZDY-003 英文粘连+双引号 4 处, M-ZDY-004 西里尔字母е 1 处, M-ZDY-005 vacuuous 错拼 2 处), 三镜像同步 (modes_data / individuals v6 块 / docs md) + 独立 QA 脚本 qa_zhoudunyi_deep.py
+ data/individuals/H-ZDY-001_modes.json |  18 +--
+ data/modes_data.json                  |  18 +--
+ docs/figures/H-ZDY-001.md             |  10 +-
+ qa_zhoudunyi_deep.py                  | 205 ++++++++++++++++++++++++++++++++++
+ 4 files changed, 228 insertions(+), 23 deletions(-)
+
+
+===== evidence_deep_564a5f58.txt =====
+========================================================================
+FAIL | QA2 no Latin words spliced into the 10 modes *_zh narrative | [('M-ZDY-009.process_zh[0]', '识别"几"的来临——感知到一个关键临界点正在 approaching'), ('M-ZDY-009.process_zh[1]', '将全部注意力 bring 到当下——不让心念游移到过去的后悔或未'), ('M-ZDY-009.process_zh[2]', '观察正在 emerging 的念头，但不立即行动——在刺激与反应之'), ('M-ZDY-009.representative_cases_zh[2]', '的命运节点（"一切早已注定"），就完全误解了周敦颐——"几"的 crucial 之处正在于它是"未形"的，即尚未确定，')]
+FAIL | QA4 no Cyrillic/Greek/fullwidth confusables in modes/figure/individuals | [('M-ZDY-004.process_en[3]', 'Attributе behavioral responsibility to t')]
+FAIL | QA6 no doubled apostrophes in *_en content | [('M-ZDY-003.definition_en', "Zhou elevates 'cheng' (sincerity/authenticity) from a moral ")]
+FAIL | QA7 no known misspellings/glue in *_en content | [('M-ZDY-003', 'istruth'), ('M-ZDY-003', 'thistruth'), ('M-ZDY-004', 'Attributе'), ('M-ZDY-005', 'vacuuous'), ('M-ZDY-005', 'vacuuous')]
+========================================================================
+snapshot=564a5f58
+PASS=17 WARN=0 FAIL=4 TOTAL=21
+
+===== evidence_deep_hotfix.txt =====
+========================================================================
+========================================================================
+snapshot=65ead7c9
+PASS=21 WARN=0 FAIL=0 TOTAL=21
+
+===== evidence_repair_diff.txt =====
+BASE=564a5f58 FIX=dc15c89a PARENT=3d504236 PASS=22 FAIL=0
+
+===== working-tree / HEAD asset check =====
+HEAD:data/modes_data.json -> residual defect strings: ['approaching', 'emerging']
+HEAD:data/individuals/H-ZDY-001_modes.json -> residual defect strings: ['approaching', 'emerging']
+HEAD:docs/figures/H-ZDY-001.md -> residual defect strings: ['approaching', 'emerging']
+HEAD modes total field=2908 len=2908 ; H-ZDY modes=10

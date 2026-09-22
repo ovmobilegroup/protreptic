@@ -1,0 +1,875 @@
+{
+  "schema_version": "v6",
+  "id": "H-SOP-001",
+  "code": "SOP",
+  "figure_name": "索福克勒斯",
+  "figure_name_en": "Sophocles",
+  "figure_code": "Sophocles",
+  "figure_pinyin": "Suǒfúkèlèsī",
+  "aliases": [
+    "索福克勒斯（约前 496/497 - 前 406/405，雅典人，科洛诺斯（Colonus）德莫出身；古希腊三大悲剧诗人之一，与埃斯库罗斯、欧里庇得斯并称）",
+    "Σοφοκλῆς（古希腊文名；拉丁化 Sophocles；后世常以「雅典的蜜蜂」形容其文风之甜润，此说见于古代评注传统）",
+    "《安提戈涅》《俄狄浦斯王》《埃阿斯》《特拉基斯少女》《厄勒克特拉》《菲罗克忒忒斯》《俄狄浦斯在科洛诺斯》七部传世剧作的作者（古代署名其名下的剧作约一百二十余部，仅七部完整传世）",
+    "「第三个演员」与「画景」的引入者（亚里士多德《诗学》1449a 的记载），即把二人对话的悲剧扩展为三人同台的悲剧",
+    "《俄狄浦斯王》被亚里士多德《诗学》当作悲剧结构的典范文本（突转与认知的最佳例子）",
+    "前 468 年首次在酒神节竞赛中获胜（据古代传记，击败埃斯库罗斯）的剧作家；此后长期参赛，古代传记称其获二十余次胜利",
+    "前 443/442 年曾任雅典财政官（Hellenotamiai 之一，古代传记所记），并据传在伯罗奔尼撒战争初期任将军（strategos，前 441/440 年，与伯里克利同列）",
+    "前 406/405 年卒于雅典；据古代传记，斯巴达将军吕山德（Lysander）曾为其停战让路，以示对其声望的敬意",
+    "legacy 提示：本档案为净新增，库内与 data/figures 均无 H-SOP-* / M-SOP-*；前缀 M-SO* 与 M-SOP 系列在此之前零占用，严禁与其他人物前缀混用"
+  ],
+  "birth_year": -496,
+  "death_year": -406,
+  "era": "古典时代雅典（约前 496/497 生于雅典近郊科洛诺斯德莫；少年与青年期正值波斯战争与雅典帝国的兴起，据古代传记曾在萨拉米斯海战（前 480）后的庆典中领唱阿波罗颂歌——此说属后世传记材料；前 468 年首次在狄奥尼索斯节竞赛中获奖，此后六十余年间长期参赛，与埃斯库罗斯、欧里庇得斯先后同台竞争；前 5 世纪后半叶雅典经历伯罗奔尼撒战争（前 431-404）的全程，他的创作期与城邦由盛转衰的过程几乎重合；据古代传记曾任财政官（前 443/442）与将军（前 441/440，与伯里克利同列）；晚年写出《菲罗克忒忒斯》（前 409）与《俄狄浦斯在科洛诺斯》（前 401 年身后演出）；前 406/405 年卒，年约九十。其剧作的演出场合是以城邦名义举办的大狄奥尼西亚节悲剧竞赛，观众是全体公民。生卒年与生平细节主要来自晚出的古代传记（Suda 词条、无名氏《索福克勒斯的生平》等）与残缺的竞赛记录（didascaliae），年代多存在异说，本档案在 caveats 中显式标注）",
+  "school": "雅典悲剧竞赛传统（大狄奥尼西亚节的三剧作家竞赛制度）+ 埃斯库罗斯所确立的悲剧体裁与三联剧结构（索福克勒斯在其基础上引入第三个演员与画景，并让单部剧作自足成篇）+ 荷马史诗与忒拜、特洛伊神话体系（俄狄浦斯家族、安提戈涅、埃阿斯、菲罗克忒忒斯等题材来源）+ 雅典民主城邦的公共审议文化（剧场作为全体公民集会与自我认识的场合）+ 前 5 世纪雅典的智者派讨论、医学与历史书写（希波克拉底医学与希罗多德、修昔底德的「探究」传统在同代并行）",
+  "style_name": "索福克勒斯",
+  "courtesy_name": "无（古希腊无字、号制度）",
+  "pseudonym": "古代评注传统称其为「雅典的蜜蜂」（Attic bee），用以形容其文风的甜润与工整；具体称谓的语用年代与来源不确。传世文本中无作者自述性材料，全部关于其创作方法的说法都来自后世（亚里士多德《诗学》、古代传记、抄本旁注 scholia）的记载与归纳，引用时必须标明是他人的追述而非其自述。",
+  "historical_significance": "索福克勒斯是雅典悲剧的成熟形态的完成者，也是西方戏剧结构方法的第一个清晰样本。其一，形式上的三项交付：据亚里士多德《诗学》1449a 的记载，他引入第三个演员（tritagonist）并加入画景（skenographia）；前者把舞台上的人际关系从一对一扩展为三角博弈，后者把剧场从空场面变为有背景的空间。他放弃了埃斯库罗斯式的连贯三联剧，让每一部剧作独立自足，从而使「一部剧」成为可以单独评判的完整艺术品。其二，结构上的典范：《俄狄浦斯王》被亚里士多德当作悲剧结构的最佳范本——认知（anagnorisis）与突转（peripeteia）在同一时刻发生，观众的知情与角色的无知构成全剧的张力引擎。其三，伦理上的深度：《安提戈涅》把城邦法（克瑞翁的命令）与神律/家礼（埋葬兄长）之间的冲突排成对等的两造，两方都有不可让弃的理由，此后两千余年关于「法律与更高法」「个体与城邦」的讨论几乎都从这部戏取例（黑格尔的伦理实体冲突论即以它为核心案例）。其四，公共功能：他的剧作在前 5 世纪雅典的大狄奥尼西亚节上以竞赛形式演出，观众是全体城邦公民——悲剧不是私人读物，而是城邦在公共场合自我审议、自我认识的形式。其五，传承：七部完整剧本经中世纪拜占庭抄本传世，成为后世欧洲戏剧（从罗马、文艺复兴到 20 世纪）的结构与方法来源；其「追查—认知—不可撤销的抉择」三件套，至今仍是叙事艺术的通用零件。",
+  "unique_thinking": "索福克勒斯的独特之处在于：他把「人知道什么、什么时候知道、知道之后还能不能挽回」当作戏剧结构的核心变量来操作，而不是当作情节的附带效果。他的独门路径是：其一，把结局前置：观众早已知道俄狄浦斯是谁，剧作因此放弃「会怎样」的悬念，改以「何时、怎样知道」作为张力（M-SOP-001）；其二，把剧情做成一条不断收紧的追查链：俄狄浦斯为解救城邦而查凶手，每一轮新证词都缩短包围圈，最终把他自己指认为凶手——追问的每一步都在他自己的义务感驱动下完成（M-SOP-002）；其三，他敢于改动舞台工艺以扩大冲突的可能空间：加进第三个演员，使对话由对峙变为三角（M-SOP-003）；其四，他把作品单位切到自足——放弃连环三联剧，让每一部戏独立成立而仍在母题上可互相映照（M-SOP-004）；其五，他不写善人对恶人，而写两种正当性相撞：安提戈涅的神律与克瑞翁的城邦律各自成立，冲突的代价由双方共同支付（M-SOP-005）；其六，他让人格在极端处境的压迫下显形：不是先给出性格再安排情节，而是让被逼到极限的选择暴露出人是谁（M-SOP-006）；其七，他让关键决定不可撤销：安提戈涅埋下第一把土之后就不再回头，俄狄浦斯看清自己后刺瞎双眼——不可逆性为行动施加全部道德重量（M-SOP-007）；其八，他把哀悼变成公共形式：给死者葬礼、为死者歌唱，都是把无法弥补的损失变成可被共同体看见与承担的东西（M-SOP-008）；其九，他反复给出限度意识：人类是「最可惊叹的」，也是最容易越界的，认识你自己与「勿过度」是他剧作反复推演的命题（M-SOP-009）；其十，他把作品交付给城邦的公共节日：写戏即向全体公民交付一面镜子，作品的价值由公共场合的检验而非私人趣味决定（M-SOP-010）。与埃斯库罗斯相比，他少了神义论的宏大三联，多了对人自身认知进程的解剖；与欧里庇得斯相比，他少了当代辩论与心理破碎的写实，多了两造对等的伦理张力与结构的严整。",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-SOP-001",
+    "M-SOP-002",
+    "M-SOP-003",
+    "M-SOP-004",
+    "M-SOP-005",
+    "M-SOP-006",
+    "M-SOP-007",
+    "M-SOP-008",
+    "M-SOP-009",
+    "M-SOP-010"
+  ],
+  "mode_ids_note": "M-SOP-001~010 为本档案深度挖掘的 10 个 v6 思维模式。卡面 literal 写定 'M-SOP-001~010'，与 code 规范（figure_code 去空格、大写、至多 8 字符：Maxwell->M-MAX、Watt->M-WATT、Thucydides->M-THU、Kepler->M-KEP、WangXizhi->M-WAN）一致：'Sophocles' 取前三字母 SOP，与同字母族已有的 SPI / SUY(M-SYU3) / SUS 不冲突。实测 data/modes_data.json（2928 条，2026-09-21 20:20 CST）与 data/figures（336 个入口）：'M-SOP' 前缀零占用，figure_code 'Sophocles' 不在库亦不在 figures 目录，故无需改写前缀；库内无任何以 SOP 为前缀的模式行，亦无 H-SOP-* 键。",
+  "key_concepts": [
+    "认知落差",
+    "戏剧性反讽",
+    "突转（peripeteia）",
+    "认知（anagnorisis）",
+    "追查结构",
+    "第三个演员",
+    "画景",
+    "自足单元",
+    "对等正当性",
+    "伦理冲突",
+    "性格即命运（后世概括）",
+    "不可撤销性",
+    "哀悼的公共形式",
+    "神律与城邦法",
+    "限度意识",
+    "认识你自己",
+    "勿过度",
+    "人类是最可惊叹的（Antigone 332）",
+    "公共剧场",
+    "大狄奥尼西亚节",
+    "竞赛制度",
+    "七部传世剧作",
+    "忒拜神话体系",
+    "诗学范式"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-THU-001",
+      "target_figure_name": "修昔底德",
+      "relation_type": "同代雅典的两套苦难书写：史家的灾难叙事 vs 悲剧诗人的哀悼形式",
+      "description_zh": "索福克勒斯与修昔底德几乎同时在写雅典的失败，但两人选择了不同的装置。修昔底德把战争与瘟疫写成可核查的灾难叙事（M-THU-010）：先记症状与数字，再记人性在极端处境中的行为规律，叙述克制到几乎不抒情，把判断留给读者与后世。索福克勒斯则把灾难放进剧场的公共形式里：他让观众在哀歌与歌队的咏叹中一同承接损失，把「给死者葬礼与哀哭」当作共同体的义务与意义生产（M-SOP-008）；他的追查结构（M-SOP-002）与修昔底德的取证纪律（M-THU-001 目击取证与传闻过滤）是同一种认知冲动的两种用途——一个用于判断城邦的命运，一个用于让个体在认知完成的瞬间被摧毁。两人的差异正是「史家之克制」与「诗人哀悼」之间的分工：修昔底德怕情绪污染证据，索福克勒斯怕证据压住人类苦难的重量。",
+      "bidirectional_hint": "修昔底德档案（H-THU-001 / M-THU-*）未来修订时，可在 M-THU-010（灾难叙事）处补一条指向 Sophocles / M-SOP-008 的对照：同代雅典把同一场苦难分别放进史书与剧场，前者追求可核查，后者追求可共同承担；亦可在 M-THU-001 处对照 M-SOP-002 的追查结构，指出两者都建立在「逐项取证与排除」之上，但索福克勒斯的取证终点是被查者本人。",
+      "mode_pair": [
+        "M-SOP-008",
+        "M-THU-010"
+      ]
+    },
+    {
+      "target_figure_code": "H-HEG-001",
+      "target_figure_name": "黑格尔",
+      "relation_type": "后世哲学对《安提戈涅》的接受：《安提戈涅》成为伦理实体冲突的哲学母本",
+      "description_zh": "索福克勒斯在《安提戈涅》里把克瑞翁的城邦命令与安提戈涅的神律/家礼义务并置，双方各自成立、各自不可让步，冲突的代价由双方共同支付（M-SOP-005）。古希腊的观众看到的是两造对等的悲剧，而黑格尔把它读成辩证法的原型：伦理实体在家庭与城邦两个环节上分裂，冲突的解决不是一方战胜另一方，而是双方共同毁灭之后在一个更高的统一中被扬弃（M-HEG-008 伦理实体三级法）。两者在同一部剧上完成了一次跨越两千年的合作：索福克勒斯提供了对等的、不预设裁决者的冲突结构（这与把一方写成恶人的通俗悲剧完全不同），黑格尔提供了把这种结构读成历史运动机制的方法。此外，黑格尔《法哲学》中「密涅瓦的猫头鹰在黄昏起飞」这一认识论命题（M-HEG-010），与索福克勒斯让认知在灾难既成之后才完成的设定（M-SOP-007）构成同一种向后看的智慧。",
+      "bidirectional_hint": "黑格尔档案（H-HEG-001 / M-HEG-*）未来修订时，可在 M-HEG-008 处补一条指向 Sophocles / M-SOP-005 的跨引用：《安提戈涅》是伦理实体分裂的实际剧本来源，黑格尔的解读本身属于接受史（并非索福克勒斯的自述）；亦可在 M-HEG-010（猫头鹰黄昏后知）处对照 M-SOP-007 的不可撤销时刻。",
+      "mode_pair": [
+        "M-SOP-005",
+        "M-HEG-008"
+      ]
+    },
+    {
+      "target_figure_code": "Hippocrates",
+      "target_figure_name": "希波克拉底",
+      "relation_type": "同代雅典的两条「诊断」路线：临床观察与悲剧的追查结构",
+      "description_zh": "希波克拉底医学与索福克勒斯的悲剧同在古典时代的希腊形成，并且都在回答「如何在不确知全部原因的情况下做出可靠判断」。希波克拉底一系的临床观察法要求医生逐日记录症状（M-HIPPOCRA-001）、以病程与预后的可预测性检验判断（M-HIPPOCRA-006），把疾病的可见过程当作判断的依据。索福克勒斯的追查结构（M-SOP-002）把同一种纪律用在城邦的瘟疫上：俄狄浦斯为解除灾疫而追查凶手，证人、证词与时间点逐一核对，每一轮回答都缩短包围圈——区别在于临床观察的终点是病因与疗法，而悲剧的终点是让追问者认出自己就是病因。二者共同构成「诊断式认知」在希腊的两个方向：医学把诊断指向外部的自然，悲剧把诊断指向提问者自身。",
+      "bidirectional_hint": "希波克拉底档案（Hippocrates / M-HIPPOCRA-*）未来修订时，可在 M-HIPPOCRA-006（预后判断法）处补一条指向 Sophocles / M-SOP-002 的对照：同代希腊同时发展出「对自然的预测」与「对自我的追查」两种诊断术；亦可在 M-HIPPOCRA-001 处对照 M-SOP-002 的逐项取证纪律。",
+      "mode_pair": [
+        "M-SOP-002",
+        "M-HIPPOCRA-001"
+      ]
+    }
+  ],
+  "tags": [
+    "索福克勒斯",
+    "Sophocles",
+    "Σοφοκλῆς",
+    "雅典悲剧",
+    "Attic Tragedy",
+    "三大悲剧诗人",
+    "安提戈涅",
+    "Antigone",
+    "俄狄浦斯王",
+    "Oedipus Rex",
+    "Oedipus Tyrannus",
+    "俄狄浦斯在科洛诺斯",
+    "Oedipus at Colonus",
+    "埃阿斯",
+    "Ajax",
+    "厄勒克特拉",
+    "Electra",
+    "菲罗克忒忒斯",
+    "Philoctetes",
+    "特拉基斯少女",
+    "Women of Trachis",
+    "忒拜三联剧（非连贯三联剧）",
+    "第三个演员",
+    "Tritagonist",
+    "画景",
+    "Skenographia",
+    "认知",
+    "Anagnorisis",
+    "突转",
+    "Peripeteia",
+    "戏剧性反讽",
+    "Dramatic Irony",
+    "对等正当性",
+    "神律",
+    "城邦法",
+    "伦理冲突",
+    "哀悼",
+    "葬礼",
+    "限度",
+    "勿过度",
+    "认识你自己",
+    "大狄奥尼西亚节",
+    "City Dionysia",
+    "悲剧竞赛",
+    "希波克拉底",
+    "修昔底德",
+    "黑格尔",
+    "亚里士多德诗学",
+    "古典雅典"
+  ],
+  "caveats": [
+    "七部与一百二十余部：古代署名索福克勒斯的剧作约一百二十余部（竞赛记录与剧目残篇所反映的数量，具体数字本身即出自晚出材料），完整传世的只有七部——《埃阿斯》《安提戈涅》《俄狄浦斯王》《特拉基斯少女》《厄勒克特拉》《菲罗克忒忒斯》《俄狄浦斯在科洛诺斯》。任何关于「索福克勒斯的创作方法」的论断都是在这七部完整文本与残篇、剧目名称的基础上作出的归纳，不能当作对一位写了六十余年剧作的作者的全面描述。七部剧的确切演出年代多不可考，学界通行的大致系年（安提戈涅约前 442、俄狄浦斯王约前 429-425、菲罗克忒忒斯前 409、俄狄浦斯在科洛诺斯前 401 年身后演出等）本身也含推测成分。",
+    "生平材料的性质：生卒年采用通行的约前 496/497 - 前 406/405，但古代传记（Suda 词条、无名氏《索福克勒斯的生平》）与抄本旁注（scholia）中的事迹多属后世传说与轶事：在萨拉米斯海战（前 480）后的庆典中领唱阿波罗颂歌、前 468 年首胜并击败埃斯库罗斯、老年被儿子诉为「老糊涂」而当众朗读《俄狄浦斯在科洛诺斯》自辩、卒时斯巴达将军吕山德为其停战——这些故事流传极广，但证据链出自晚出文本，只能作为「古代对他的评价与形象」的证据，不可当作可核查的史实。他任财政官（前 443/442）与将军（前 441/440，与伯里克利同列）的记载同样出自古代传记，且与其剧作家的身份并置时需注明来源。",
+    "文本传承：索福克勒斯无亲笔手稿存世。七部剧本经中世纪拜占庭抄本传统（以 Laurentianus 32.9 等为骨干）传下，抄本的校勘问题直接影响方法论的引用：例如《安提戈涅》第 904-920 行（「爱神颂」后的段落）有学者主张属后人窜入，《俄狄浦斯在科洛诺斯》的结尾与《特拉基斯少女》的部分段落亦有争议。歌队唱词的分段、演员人数与场面调度在文本中没有完整指示。引用具体行号时应以版次标明，不可把现代校勘本的划分当作演出实况。",
+    "后世理论不可读回作者：「性格即命运」「卡塔西斯」「悲剧的净化说」都是后世（前者为近代概括，后者为亚里士多德《诗学》的理论）叠加在索福克勒斯身上的标签。索福克勒斯本人没有传世的理论文本，其剧作中也没有提出悲剧理论；亚里士多德《诗学》以《俄狄浦斯王》为例，是**对既有剧作的理论化**，不是索福克勒斯的方法自述。据《诗学》1449a 记「第三个演员」与「画景」由他引入，这是亚里士多德（一部晚出百余年的著作）的追述，虽属最接近的古代证据，仍须注明其性质。「雅典的蜜蜂」等雅号同样出自后世评注传统。",
+    "《安提戈涅》的哲学化是接受史：黑格尔以家庭与城邦的伦理实体冲突解读《安提戈涅》，克尔凯郭尔、荷尔德林、拉康、巴特勒等人各有重读，这些解读极大丰富了这部剧，但它们是接受史而非古希腊的观看方式。把「安提戈涅代表个体良心的现代原型」写进她的方法描述时，必须标明这是后世（尤其近代）的解读框架；剧中的安提戈涅诉诸的是神律与家礼（埋葬亲人、敬奉下界神），而不是「个人权利」或「良心自由」这类近代语汇。同理，克瑞翁也不是反派或僭主样板，而是把城邦秩序（尤其在内战创伤之后）置于首位的统治者。"
+  ],
+  "modes": [
+    {
+      "id": "M-SOP-001",
+      "mode_code": "M-SOP-001",
+      "figure_code": "Sophocles",
+      "name_zh": "谜底前置与认知落差设计法（把观众的知情当作结构材料）",
+      "name_en": "Foreknown Outcome and the Knowledge Gap: Making the Audience's Superior Knowledge the Engine of Structure",
+      "category": "文艺审美",
+      "category_raw": "核心方法",
+      "domain_zh": "戏剧结构/信息不对称设计",
+      "domain_en": "Dramatic Structure / Design of Information Asymmetry",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "《俄狄浦斯王》的开场就放弃了悬念：观众早已知道俄狄浦斯杀父娶母，剧中的角色却一无所知。索福克勒斯因此把张力从「将会发生什么」移到「他们何时、以何种方式知道」，并让每一句台词同时具备两重意义——在角色耳中是一个意思，在观众耳中是完全相反的意思。使用这条方法要处理四个变量：观众知道多少（完整的神话结局）、每个角色各自知道多少（俄狄浦斯不知、忒瑞西阿斯知而不说、伊俄卡斯忒知道一部分而急于阻止、报信人与牧羊人各握一块碎片）、落差何时闭合（认知 anagnorisis 的时点）、闭合之后承担什么后果（突转 peripeteia 与灾难）。纪律在于：落差必须承重，不能只是趣味；知情的角色不得提前泄底；每一次新的信息披露都要重新分配各方的知识，并让落差朝闭合方向移动一步；闭合的那一刻由最不愿意知道的人来完成。方法论签名：先把「观众已知—角色未知」的落差定下来，再把它当作可调度的结构材料，每一场戏都追问「此刻谁知道什么」，使认知闭合的瞬间承担全部灾难的重量。",
+      "definition_en": "Oedipus Rex gives up suspense at the outset: the audience has long known that Oedipus killed his father and married his mother, while the characters on stage know nothing. Sophocles therefore moves the tension away from what will happen and onto when and how they will learn it, and lets almost every line carry two meanings at once - one in the character's ear, the opposite in the audience's. Working the method means managing four variables: how much the audience knows (the whole mythic outcome), how much each character knows (Oedipus knows nothing, Teiresias knows and will not say, Jocasta knows a part and is desperate to stop the inquiry, the messenger and the herdsman each hold one fragment), when the gap closes (the moment of anagnorisis), and what is paid once it closes (peripeteia and catastrophe). The discipline is severe. The gap must be load-bearing, not decorative. No character who knows may leak the answer early. Every new disclosure must be redistributed - who knows what now - and must move the gap one step toward closure. And the closure itself must be executed by the person who least wants to know. Method signature: fix the gap between what the audience knows and what the characters know, treat that gap as schedulable structural material, and interrogate every scene with the question of who knows what at this moment - so that the instant of recognition carries the entire weight of the disaster.",
+      "source_chapter": "《俄狄浦斯王》（Oedipus Tyrannus，约前 429-425 演出）全剧；亚里士多德《诗学》第 6、11、14 章以《俄狄浦斯王》论突转（peripeteia）与认知（anagnorisis）；古代关于忒拜神话体系（荷马史诗、赫西俄德、史诗《忒拜战记》残篇）为观众提供的前知识",
+      "key_quote_zh": "「ἰὼ ἰώ· τὰ πάντ᾽ ἂν ἐξήκοι σαφῆ」——《俄狄浦斯王》第 1182 行，伊俄卡斯忒退场后俄狄浦斯的惊呼：「啊！啊！这一切恐怕都要真相大白了。」（古希腊文原文；中文为按通行义直译）",
+      "key_quote_en": "\"ἰὼ ἰώ· τὰ πάντ᾽ ἂν ἐξήκοι σαφῆ\" - Oedipus Tyrannus 1182, Oedipus's cry after Jocasta rushes off stage: \"Ah! Ah! Then everything would come out clear.\" (Greek text; English rendered according to the standard sense.)",
+      "key_concepts": [
+        "认知落差",
+        "戏剧性反讽",
+        "认知（anagnorisis）",
+        "突转（peripeteia）",
+        "知识分配",
+        "闭合时点",
+        "观众前知识"
+      ],
+      "process_zh": [
+        "先划定终点：明确观众已知的完整结局（神话、历史或常识中的既定事实），并把它写成一份观众执有的知识清单，作为所有设计的前提",
+        "再为每个角色签订知识清单：逐场写出每个人物此刻知道什么、不知道什么、误信什么，特别标出「知而不说」与「知道一半」的中间态",
+        "把落差编进台词：让同一句话在角色的意义与观众的意义之间形成两读，并让每次新信息披露都重新分配各方知识、把落差推进一格",
+        "把闭合交给最不愿知道的人，并结算后果：认知发生的那一刻同时触发不可逆的损失，落差闭合的重量由承担后果的角色支付"
+      ],
+      "process_en": [
+        "Fix the destination first: state the complete outcome the audience already holds (from myth, history or common knowledge) and write it up as the audience's knowledge list, the premise of everything else",
+        "Then write a knowledge list for every character: scene by scene, what each person knows, does not know, wrongly believes, and especially the in-between states - knowing and refusing to say, knowing only half",
+        "Encode the gap into the dialogue: let a single line mean one thing to the character and the opposite to the audience, and let each new disclosure redistribute knowledge and advance the gap one notch",
+        "Hand the closure to the person who least wants it and settle the cost: the moment of recognition must trigger an irreversible loss at the same instant, so the closing of the gap is paid for by whoever must live with it"
+      ],
+      "representative_cases_zh": [
+        "《俄狄浦斯王》的知识分配表：观众持有全部真相；忒瑞西阿斯知道却拒绝直说，只说「你就是你要找的凶手」式的判词；伊俄卡斯忒知道神谕的片段而急于用「父母之命不足信」安慰俄狄浦斯，反而一步步把他推向真相；科林斯报信人与老牧羊人各握一块碎片，必须两人同时在场才能拼出全貌。剧作的正是一张不断被重新分配的知识表，而非一条事件线",
+        "《厄勒克特拉》的同类设计：观众知道俄瑞斯忒斯归来复仇的结局，舞台上的厄勒克忒拉却以为弟弟已死，长段哀歌与误信构成反讽；报信（假死的消息）与真相同时在场，闭合时点的选择决定了整部戏的重心",
+        "反面警示：把观众置于比角色更少的知情位置（靠封闭结局制造惊奇）——这种设计能换来一次性的「反转快感」，代价是重看价值为零，且人物的每一句话都无法承载双重意义。另一种失误是让知情的角色为了拖延而变得愚蠢：当观众看出「只要某人说一句实话，全剧立刻结束」时，落差就从结构变成了漏洞。落差必须由各方合理的动机维持，而不是由作者强行封口。"
+      ],
+      "representative_cases_en": [
+        "The knowledge ledger of Oedipus Rex: the audience holds the whole truth; Teiresias knows and will not speak plainly, delivering instead a sentence that names Oedipus as the killer; Jocasta holds fragments of the oracle and, trying to comfort him with the unreliability of prophecies, drives him toward the truth; the messenger from Corinth and the old herdsman each hold one fragment and must be on stage together before the whole can be assembled. The play is a ledger of knowledge being continuously redistributed, not a line of events",
+        "The same design in Electra: the audience knows Orestes has returned to take revenge, while Electra on stage believes her brother dead, so her long laments play ironically against what we know; the false report of his death and the truth are on stage at once, and the choice of when the gap closes sets the whole play's centre of gravity",
+        "Cautionary: placing the audience below the characters in knowledge and extracting surprise from a sealed ending. This buys a single moment of reversal at the price of zero value on a second reading, and it strips every line of its doubleness. The other failure is making an informed character stupid in order to delay: once the audience sees that one honest sentence would end the play, the gap stops being structure and becomes a hole. The gap must be held open by each party's own reasons, never by the author gagging them."
+      ],
+      "modern_applications_zh": [
+        "叙事写作与剧本创作：为读者与每个角色分别建立知识清单，把「谁知道什么」当作结构变量，而不是到最后才决定何时揭底",
+        "产品与信息发布设计：在公开的信息（用户已知）与内部的信息（团队已知）之间主动设计落差，让每一次披露处理一部分落差，而不是靠一次性的发布承压",
+        "谈判与危机沟通：先盘点各方掌握的事实与误信，判断「对方其实知道多少」，据此安排披露顺序与措辞的双重可读性",
+        "调研与尽职调查：把「我们已知、被查方未知」的信息优势当作工具使用（突击访谈、交叉验证），而不是提前泄底使对方有时间准备说法"
+      ],
+      "modern_applications_en": [
+        "Narrative writing and screenwriting: keep a separate knowledge ledger for the audience and for each character, and treat who knows what as a structural variable instead of deciding at the last minute when to reveal",
+        "Product and disclosure design: deliberately shape the gap between public information (what users know) and internal information (what the team knows), and let each release close a slice of it rather than loading the whole burden onto one announcement",
+        "Negotiation and crisis communication: inventory the facts and false beliefs each side holds, estimate what the other side actually knows, and set the order of disclosure and the doubleness of your wording accordingly",
+        "Research and due diligence: use the advantage of knowing more than the subject as an instrument (unannounced interviews, cross-verification) rather than leaking it away and giving the other side time to prepare a story"
+      ],
+      "related_modes": [
+        "M-SOP-002",
+        "M-SOP-007",
+        "M-THU-001"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "亚里士多德",
+        "埃斯库罗斯"
+      ]
+    },
+    {
+      "id": "M-SOP-002",
+      "mode_code": "M-SOP-002",
+      "figure_code": "Sophocles",
+      "name_zh": "层层追查式结构法（每一轮追问都缩短包围圈）",
+      "name_en": "The Tightening Inquiry: A Structure in Which Every Round of Questioning Narrows the Circle",
+      "category": "方法论通用",
+      "category_raw": "核心方法",
+      "domain_zh": "叙事结构/调查与求证",
+      "domain_en": "Narrative Structure / Investigation and Verification",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "《俄狄浦斯王》的情节发动机不是命运，而是一次公开的调查。俄狄浦斯为解除城邦的瘟疫下令追查杀害前王拉伊俄斯的凶手，随后依次询问神谕、盲先知忒瑞西阿斯、伊俄卡斯忒、科林斯报信人、老牧羊人；每一轮回答都不改变目标，只缩短包围圈，直到被指认的凶手是提问者本人。这条方法可迁移的要点是：调查由当事人的义务感驱动而非外力推动（是他自己的拯救城邦的承诺把追问进行到底）；每一轮都必须带来可核实的新事实而不是情绪；每得到一项新事实，就要回头修正前面的解释，允许新证据推翻旧结论；最终结果必须指向提问者本人或提问者的立场（自我指认），否则调查只是一次外部破案。方法论签名：把一次调查设计成一串彼此咬合的追问，每一问都由上一答产生，每答都使被查范围缩小一格，且不回避最坏的可能——当证据指向自己时，继续追下去。",
+      "definition_en": "The engine of Oedipus Rex is not fate but a public inquiry. To lift the plague from the city, Oedipus orders a search for the killer of the former king Laius and then questions, in order, the oracle, the blind seer Teiresias, Jocasta, the messenger from Corinth and the old herdsman. Each answer leaves the goal untouched and simply narrows the circle, until the killer named is the questioner himself. The transferable points are these. The inquiry is driven by the agent's own sense of obligation rather than by outside force - it is his own promise to save the city that carries the questioning to the end. Each round must produce a verifiable new fact, not emotion. Every new fact forces a revision of the previous explanation, and new evidence is allowed to overturn old conclusions. And the endpoint must point back at the questioner or the questioner's own position; otherwise it is just an external case being solved. One further condition belongs here: the record of the inquiry must stay intelligible to someone who was not present, since an investigation that can only be retold by its own author cannot be checked by anyone else. Method signature: design an inquiry as a chain of interlocking questions, each produced by the previous answer, each shrinking the field by one step, and never flinching from the worst possibility - when the evidence points at you, keep asking.",
+      "source_chapter": "《俄狄浦斯王》第 1-1310 行（开场瘟疫、神谕、忒瑞西阿斯之问、伊俄卡斯忒之问、科林斯报信人与老牧羊人的对质）；同代希罗多德《历史》与希波克拉底医学的「探究—记录—判断」传统；亚里士多德《诗学》第 11 章论认知与突转的因果链",
+      "key_quote_zh": "「ἅπανθ᾽ ὁ μακρὸς κἀναρίθμητος χρόνος / φύει τ᾽ ἄδηλα καὶ φανέντα κρύπτεται」——《埃阿斯》第 646-647 行：漫长的、无从计数的时光使隐藏之事显形，也使已显形之事重新隐没。（古希腊文原文；中文为按通行义直译。索福克勒斯常让「时间」承担揭露与掩埋的双重功能）",
+      "key_quote_en": "\"ἅπανθ᾽ ὁ μακρὸς κἀναρίθμητος χρόνος / φύει τ᾽ ἄδηλα καὶ φανέντα κρύπτεται\" - Ajax 646-647: long and numberless time brings hidden things to light, and hides again what has appeared. (Greek text; English rendered according to the standard sense. Sophocles repeatedly lets time do the double work of revealing and burying.)",
+      "key_concepts": [
+        "追查结构",
+        "义务驱动",
+        "可核实事实",
+        "解释修正",
+        "自我指认",
+        "证据链",
+        "包围圈收窄"
+      ],
+      "process_zh": [
+        "用一个必须回答的问题开场并给出时限：把调查与当事人的切身义务绑定（拯救城邦、还清债务、挽回名誉），使追问不再需要外部推动",
+        "按由远及近的次序安排证人与证据：先问公开可查的材料，再问持有关键碎片的人，确保每一轮都带来可核实的新事实而不是意见",
+        "每得到新事实就回头改写前一阶段结论：明确记录被推翻的解释，让修正过程可见，避免用新证据去贴合旧立场",
+        "让证据指向自己并完成指认：预设最坏的可能（被查者或提问者本人有责），在证据闭合时当众完成自我指认，并承担全部后果"
+      ],
+      "process_en": [
+        "Open with a question that must be answered and attach it to a deadline: bind the inquiry to the agent's own immediate obligation (to save the city, clear a debt, restore a name) so that no outside force is needed to keep it going",
+        "Order the witnesses and evidence from far to near: take publicly checkable material first, then the person holding the decisive fragment, and make sure every round yields a verifiable new fact rather than an opinion",
+        "Rewrite the previous conclusion each time a new fact arrives: record explicitly which explanation has been overturned so the revision stays visible, and refuse to bend new evidence back to fit an old position",
+        "Let the evidence point at you and complete the identification: assume the worst possibility in advance - that the subject, or the questioner, is responsible - and when the proof closes, name yourself in public and absorb the whole cost"
+      ],
+      "representative_cases_zh": [
+        "俄狄浦斯的五轮追问：神谕（揭示方向）→ 忒瑞西阿斯（指名凶手）→ 伊俄卡斯忒（提供「拉伊俄斯死在三岔路口」的偶然细节，本意是安慰，效果是逼近）→ 科林斯报信人（提供「你不是科林斯王的亲生子」）→ 老牧羊人（确认他就是那个被交出的婴儿）。每一轮都只是在缩小范围，目标从未改变；终点是被追问者本人",
+        "《特拉基斯少女》的同构：得阿涅拉为挽回丈夫而送出涂毒的衣袍，随后逐项核实消息（丈夫的俘虏、伊俄勒的身份、衣袍的效果），当事实闭合时她认出凶手是自己；追查在此剧中被压缩为单线，但「由义务驱动、逐项核实、自我指认」三件套完整",
+        "反面警示：只收集支持既定结论的材料（确认偏误）——调查沦为论证，每一轮追问都只是在挑选有利证词，遇到反证就解释掉、忽略或迁怒证人。另一种失误是把追查无限延长：设定一个永远无法闭合的提问，用悬念本身代替结果，使当事人的义务永远悬空。第三是缺少自我指认的可能：如果调查在设计上排除了「问题出在自己身上」，它就只是一场对外部归因的表演。"
+      ],
+      "representative_cases_en": [
+        "The five rounds of Oedipus: the oracle (which gives direction), Teiresias (who names the killer), Jocasta (who supplies the incidental detail that Laius died where three roads meet, meaning to comfort and in fact closing the net), the messenger from Corinth (who reveals that Oedipus is not the son of the Corinthian king), and the old herdsman (who confirms he is the exposed infant). Each round only narrows the field; the target never changes; and the endpoint is the questioner himself",
+        "The same structure in Women of Trachis: Deianira, trying to win back her husband, sends him a robe soaked in poison and then verifies the reports one by one - the captives he has taken, the identity of Iole, the effect of the robe - until, when the facts close, she identifies the killer as herself. The inquiry is compressed into a single line here, but the trio of obligation, item-by-item verification and self-identification is intact",
+        "Cautionary: collecting only material that supports a conclusion already reached. The inquiry becomes advocacy, each round merely selecting favourable testimony while contrary evidence is explained away, ignored, or blamed on the witness. The second failure is an inquiry that can never close: an unanswerable question used to keep suspense alive in place of a result, leaving the agent's obligation permanently suspended. The third is designing out the possibility of self-identification: if the question of one's own responsibility has been excluded by construction, the investigation is only a performance of blaming others."
+      ],
+      "modern_applications_zh": [
+        "事故复盘与根因调查：由责任人自己发起、逐项核实、明确记录被推翻的假设，并预设「根因在本团队」的可能性，避免调查变成对外部原因的搜寻",
+        "审计与合规核查：按由远及近的顺序安排证据，每一轮只推进一格，任何一轮的新事实都必须回写前一轮结论",
+        "学术与文献研究：把研究问题绑定到自身必须回答的义务，用可核实的材料层层收窄，主动寻找能够推翻自己假设的证据",
+        "个人决策复盘：为重要决定做一次「五轮追问」，从外部原因问到自己的判断与动机，直到能指认自己在这件事中的位置"
+      ],
+      "modern_applications_en": [
+        "Incident post-mortems and root-cause work: have the responsible party launch the inquiry, verify item by item, log which hypotheses were overturned, and admit in advance that the root cause may lie inside the team, so the process does not become a hunt for an external villain",
+        "Audit and compliance review: order evidence from far to near, advance exactly one step per round, and write every new fact back into the previous round's conclusion",
+        "Academic and documentary research: bind the research question to an obligation you personally must discharge, narrow it layer by layer with checkable material, and actively look for evidence that would refute your own hypothesis",
+        "Personal decision review: run a five-round interrogation of an important decision, moving from external causes to your own judgement and motives until you can locate your own position in what happened"
+      ],
+      "related_modes": [
+        "M-SOP-001",
+        "M-SOP-005",
+        "M-HIPPOCRA-001"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "俄狄浦斯（剧中人物）",
+        "希波克拉底"
+      ]
+    },
+    {
+      "id": "M-SOP-003",
+      "mode_code": "M-SOP-003",
+      "figure_code": "Sophocles",
+      "name_zh": "三演员三角重组法（用一个新变量重构冲突结构）",
+      "name_en": "The Third Actor: Reconfiguring Conflict by Adding One New Variable",
+      "category": "文艺审美",
+      "category_raw": "核心方法",
+      "domain_zh": "戏剧形式/冲突结构的变量扩展",
+      "domain_en": "Dramatic Form / Expanding the Conflict Structure with One Variable",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "据亚里士多德《诗学》1449a 的记载，悲剧的第三个演员由索福克勒斯引入，同时他还加入了画景。这件事在方法论上不是技术细节，而是冲突结构的升级：在只有两个演员的条件下，舞台只能呈现对峙（甲对乙），第三者在场时，对峙被改造成三角关系——甲与乙之间多了一个可以被争取、被欺骗、被当作见证或替罪的人，且第三者的存在会改变前两人的每一句话。使用这条方法要抓住三点：先确认现有结构是否已经穷尽（当双方立场固定、对话只剩重复时，缺的不是更强的措辞而是新的变量）；新变量必须有独立立场与自己的利益，不能是传声筒；要重新分配舞台上的位置与信息，让三人各自掌握不同的信息片段，从而让每一场对话存在不止一种可能的组合。方法论签名：当两方对峙陷入重复时，不要加大力度，而是问「缺的是谁」——引入一个有自身立场的新当事人，让结构从对峙变为三角，使原本固定的立场重新变成可选择的行动。",
+      "definition_en": "According to Aristotle, Poetics 1449a, the third actor in tragedy was introduced by Sophocles, along with scene-painting. Methodologically this is not a technical detail but an upgrade of the conflict structure. With only two actors the stage can present a confrontation, A against B. With a third party present, the confrontation is rebuilt as a triangle: between A and B there now stands someone who can be won over, deceived, used as a witness or made a scapegoat, and the mere presence of that third person changes what each of the first two can say. Three points carry the method. First, establish whether the existing structure is exhausted - when both positions are fixed and the dialogue is only repetition, what is missing is not stronger language but a new variable. Second, the new variable must have its own interests and its own position; it must not be a mouthpiece. Third, redistribute stage positions and information so that all three hold different fragments, which makes more than one combination possible in any given scene. Method signature: when a two-party confrontation has begun to repeat itself, do not raise the volume - ask who is missing, bring in a new party with its own stake, and let the structure shift from a line into a triangle so that fixed positions become available actions again.",
+      "source_chapter": "亚里士多德《诗学》1449a（「第三个演员」与「画景」的记载）；《安提戈涅》（安提戈涅—伊斯墨涅—克瑞翁的三方结构，以及守卫、海蒙、忒瑞西阿斯等第三者在场者的功能）；《俄狄浦斯王》（伊俄卡斯忒与报信人作为介入对峙的第三方）；《菲罗克忒忒斯》（涅俄普托勒摩斯作为被双方争夺的第三方）",
+      "key_quote_zh": "亚里士多德《诗学》1449a16-19：「（悲剧）又把演员的数目从两个增加到三个，索福克勒斯是这一改动的引入者；并引入了画景。」（据通行希腊文本译出；此系亚里士多德晚出的追述，非索福克勒斯自述）",
+      "key_quote_en": "Aristotle, Poetics 1449a16-19: the number of actors was raised from two to three, with Sophocles introducing the change, and scene-painting was added. (Rendered from the standard Greek text; this is Aristotle's later testimony, not Sophocles's own statement.)",
+      "key_concepts": [
+        "第三个演员",
+        "三角结构",
+        "冲突升级",
+        "新变量介入",
+        "独立立场",
+        "信息再分配",
+        "结构穷尽判断"
+      ],
+      "process_zh": [
+        "先判断结构是否已经穷尽：如果双方立场固定、对话只剩重复与相互指责，说明缺的不是力度而是变量，此时才引入第三方",
+        "给新变量独立的立场与利益：明确第三方的诉求、他掌握的信息以及他可以失去什么，确保他不是任何一方的传声筒",
+        "重新分配信息与在场关系：让三人各自持有不同的信息片段，安排谁在什么时候在场，使同一场对话存在多种可能的结盟与翻转",
+        "在新结构里重跑原有冲突并检验收敛：观察原有两方的立场是否因此松动或被迫暴露，若新变量只是增加噪声而未改变可能的行动，就撤回并重选第三方"
+      ],
+      "process_en": [
+        "First judge whether the structure is exhausted: if both positions are fixed and the dialogue is only repetition and mutual accusation, the missing element is a variable rather than intensity - only then bring in a third party",
+        "Give the new variable its own position and interests: state what the third party wants, what information it holds, and what it stands to lose, so that it is nobody's mouthpiece",
+        "Redistribute information and presence: let the three hold different fragments, and decide who is present when, so that any given conversation admits several possible alliances and reversals",
+        "Re-run the original conflict inside the new structure and test for convergence: watch whether the original two positions loosen or are forced into the open, and if the new element only adds noise without changing available actions, withdraw it and choose differently"
+      ],
+      "representative_cases_zh": [
+        "《安提戈涅》的三方结构：安提戈涅与克瑞翁的对峙是本剧的主轴，但真正让对峙无法简单收场的是第三方的存在——伊斯墨涅（拒绝同谋却劝妹妹退让，构成安提戈涅的第一道压力）、守卫（带来尸体被埋的消息，把抽象的法令变成必须回应的具体事件）、海蒙（既是克瑞翁之子又是安提戈涅的未婚夫，他的在场使「城邦法」与「家」在同一人身上撞车）、忒瑞西阿斯（以神谕的权威作出最后通牒）",
+        "《菲罗克忒忒斯》的第三方设计：全剧的核心是涅俄普托勒摩斯在奥德修斯的命令与菲罗克忒忒斯之间的摇摆——他不是传声筒，而是拥有自己是非判断的第三方；正因为他在场，奥德修斯的策略才必须以「欺骗」而非「命令」实施，剧情也因此获得「欺骗能否成功」这一独立变量",
+        "反面警示：把第三方写成工具人——只为了传达信息或制造巧合而存在，没有自己的利益与判断。这种「伪三角」会增加出场人数而不改变结构，观众感到对话变多而张力不变。另一种失误是在结构尚未穷尽时就引入新角色救场，使原有冲突失去完成的机会，最终每一方都没有被逼到极限。",
+        "（补充正面例证）《俄狄浦斯王》中伊俄卡斯忒的介入：她本意是安抚（劝俄狄浦斯不要相信神谕），却因为身处「妻子、母亲、知情人」三重位置而成为追查的加速器；同一句安慰在不同在场者的耳中具有不同含义，这正是三角结构的功能。"
+      ],
+      "representative_cases_en": [
+        "The triangle in Antigone: the confrontation between Antigone and Creon is the axis of the play, but what makes it impossible to settle cheaply is the presence of third parties - Ismene, who refuses complicity yet urges her sister to yield and thus applies the first pressure to Antigone; the guard, who brings news of the buried body and turns an abstract decree into a concrete event that must be answered; Haemon, at once Creon's son and Antigone's betrothed, whose presence makes the city's law and the household collide inside one person; and Teiresias, who delivers a final ultimatum on the authority of the gods",
+        "The third-party design of Philoctetes: the play turns on Neoptolemus wavering between Odysseus's orders and Philoctetes himself. He is no mouthpiece but a third party with his own sense of right, and precisely because he is present, Odysseus's scheme must be executed by deception rather than command, which gives the plot the independent variable of whether the deception will hold",
+        "Cautionary: writing the third party as a tool - present only to deliver information or manufacture coincidence, with no stake and no judgement of its own. Such a fake triangle adds bodies without changing the structure; the dialogue grows and the tension does not. The other failure is bringing in a new character to rescue a structure that is not yet exhausted, which robs the original conflict of its chance to complete and leaves every party short of its limit.",
+        "(A further positive case) Jocasta's intervention in Oedipus Rex: she means to soothe Oedipus by discrediting prophecy, but because she stands in three positions at once - wife, mother, and someone who already knows a part - she becomes an accelerator of the inquiry; the same comforting sentence means different things to each person on stage, which is exactly what the triangle does."
+      ],
+      "modern_applications_zh": [
+        "会议与谈判僵局：当双方各执立场重复陈词时，引入一个利益独立的第三方（专业顾问、受影响的执行方、监管方），让原本的两方立场重新变成可选择的行为",
+        "产品与组织设计：在两人协作的界面里增加一个有独立目标的角色（评审者、用户代表、运维方），用第三方的在场暴露被忽略的约束",
+        "叙事与游戏设计：对峙型剧情陷入重复时，以「引入谁」而非「加大冲突」作为升级手段，并让新角色持有独立目标与信息",
+        "家庭与团队冲突调解：不要自己充当裁判，而是引入一个双方都需回应的第三方（共同的利益相关者、期限、外部标准），使对话从互相指责转为对第三方的解释义务"
+      ],
+      "modern_applications_en": [
+        "Deadlocked meetings and negotiations: when both sides restate fixed positions, bring in a third party with independent interests (a specialist adviser, the team that must execute, a regulator) so that the old positions become available actions again",
+        "Product and organisation design: add a role with its own objective (a reviewer, a user representative, operations) into a two-person interface, and use that third presence to surface constraints nobody had voiced",
+        "Narrative and game design: when a confrontation plot starts repeating, escalate by asking whom to bring in rather than by raising the stakes, and give the new character independent goals and information",
+        "Mediation in families and teams: refuse the role of judge yourself and introduce a third party both sides must answer to - a shared stakeholder, a deadline, an external standard - so that mutual accusation turns into an obligation to explain to that third party"
+      ],
+      "related_modes": [
+        "M-SOP-005",
+        "M-SOP-006",
+        "M-SOP-010"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "亚里士多德",
+        "埃斯库罗斯"
+      ]
+    },
+    {
+      "id": "M-SOP-004",
+      "mode_code": "M-SOP-004",
+      "figure_code": "Sophocles",
+      "name_zh": "自足单元与母题对读法（放弃连环三联剧，让每部独立成立）",
+      "name_en": "Self-Contained Units with Readable Motifs: Dropping the Connected Trilogy So Each Play Stands Alone",
+      "category": "文艺审美",
+      "category_raw": "核心方法",
+      "domain_zh": "作品结构/交付单位的选择",
+      "domain_en": "Structure of a Body of Work / Choosing the Unit of Delivery",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "埃斯库罗斯的悲剧以连贯三联剧为单位：三部戏连续演出、共享同一神话的连续段落（《俄瑞斯忒亚》即其典范）。索福克勒斯放弃了这一做法，改为每部剧自足成篇、单独参赛，即便处理同一神话家族（忒拜的俄狄浦斯家族：《安提戈涅》《俄狄浦斯王》《俄狄浦斯在科洛诺斯》），也不构成连续的情节三部曲——三部戏各有独立的冲突与结局，且写作年代相隔数十年。这条方法的价值在于交付单位的重新选择：当作品必须独立面对评审与观众时，每一部都能被单独检验，标题、开端、高潮与结局自成闭环；同时保留母题层面的对读关系（同一家族的命运、同一组概念如城邦与家、法与神律），使独立单元之间仍能互相照明。方法论签名：把交付单位切到自足——保证每一件作品单独拿出时不依赖前作即可成立，同时刻意让同一组母题在不同作品间反复出现，使单元独立而母题连贯。",
+      "definition_en": "Aeschylus built his tragedies as connected trilogies: three plays performed in sequence and sharing a continuous stretch of one myth, the Oresteia being the model. Sophocles abandoned this, making each play self-contained and separately entered in the competition. Even when he works on the same mythic house - the Theban line of Oedipus, in Antigone, Oedipus Rex and Oedipus at Colonus - the three do not form a continuous plot trilogy: each has its own conflict and its own ending, and they were written decades apart. The value of the method lies in this choice of delivery unit. When each work must face the judges and the audience alone, every piece can be tested on its own, with title, opening, climax and ending forming a closed loop. At the same time the motifs stay legible across works - the same family's fate, the same pair of concepts such as city against household, law against divine ordinance - so that independent units still illuminate one another. Method signature: cut the delivery unit down to self-sufficiency, so that any single work stands complete without its predecessors, while deliberately letting one set of motifs recur across works - the units separate, the motifs continuous.",
+      "source_chapter": "埃斯库罗斯《俄瑞斯忒亚》三联剧（作为对照）；索福克勒斯《安提戈涅》（约前 442）、《俄狄浦斯王》（约前 429-425）、《俄狄浦斯在科洛诺斯》（前 401 身后演出）三者写作年代相隔数十年而共享忒拜母题；大狄奥尼西亚节的竞赛制度（每位剧作家以一组剧目参赛，索福克勒斯的三部是否连属可由剧目残篇与竞赛记录部分推知）",
+      "key_quote_zh": "（要点转述，非剧中引文）古代演出制度中的三联剧与单剧之争：埃斯库罗斯以连贯三联剧（如《俄瑞斯忒亚》三部）交付一个完整的连续故事，索福克勒斯则让每一部剧作自足成篇、可单独参赛与单独评判。学界通常把这一变化描述为「把作品单位从三部一体的连续叙事改为单部自足的艺术整体」。",
+      "key_quote_en": "(Paraphrase of the evidence, not a line from the plays) The shift from the connected trilogy to the self-contained play: Aeschylus delivered one continuous story across three plays, as in the Oresteia, whereas Sophocles made each play stand on its own, separately entered and separately judged. Scholarship generally describes this as a change of the unit of the artwork from a three-part continuous narrative to a single self-sufficient whole.",
+      "key_concepts": [
+        "自足单元",
+        "交付单位",
+        "母题对读",
+        "三联剧的放弃",
+        "可单独评判",
+        "闭环结构",
+        "跨作品照亮"
+      ],
+      "process_zh": [
+        "先确定交付单位：判断受众会以什么单位接触作品（一次演出、一篇文章、一次发布），把每一件作品设计成在该单位内能独立成立的整体",
+        "为每件作品建闭环：标题、开端、冲突、高潮与结局自成一套，确保读者从任意一件进入都不需要前作的前情",
+        "在单元之上保留母题层：选定一组跨作品反复出现的母题与概念对，让它们在各自独立的作品中承担不同的结论",
+        "做单件压力测试：拿掉其他所有作品，只留这一件，检验它是否仍然完整可懂；若必须依赖前作才成立，就把它并回上一件或补足其闭环"
+      ],
+      "process_en": [
+        "Fix the delivery unit first: decide in what unit the audience will actually meet the work (one performance, one article, one release) and design each piece to stand complete within that unit",
+        "Give every piece a closed loop: title, opening, conflict, climax and ending must form one set, so that a reader entering anywhere is never dependent on earlier instalments",
+        "Keep a motif layer above the units: choose one set of recurring motifs and concept pairs, and let each self-contained work draw a different conclusion from them",
+        "Stress-test the single piece: remove everything else and check whether this one still stands and remains intelligible; if it only works with its predecessors, either fold it back into the previous piece or complete its loop"
+      ],
+      "representative_cases_zh": [
+        "忒拜三剧的「非三部曲」状态：《安提戈涅》（约前 442）写在《俄狄浦斯王》（约前 429-425）之前数十年，《俄狄浦斯在科洛诺斯》则在前 401 年身后演出——按剧中年表，俄狄浦斯的结局（科洛诺斯）应在《安提戈涅》之前发生，但写作与演出次序相反。三部戏因此不是连续三部曲，而是同一家族母题上的三次独立处理：城邦命令与家礼（《安提戈涅》）、认知与自我指认（《俄狄浦斯王》）、晚年和解与离世（《俄狄浦斯在科洛诺斯》）",
+        "《厄勒克特拉》与埃斯库罗斯《奠酒人》的对照：同一神话（俄瑞斯忒斯复仇）在埃斯库罗斯那里是三联剧的中段（承担时序功能），在索福克勒斯这里是可以独立成立的一部戏——复仇被压缩进单一舞台时间，重心从「家族诅咒的世代传递」移到「等待与辨认」",
+        "反面警示：把每一件作品都写成需要前情提要的「第 N 部」——观众从中间进入便完全无法理解，交付单位被无限拉长，单件作品失去独立价值；另一种失误是相反方向的过度切碎：每件都自足却彼此毫无关系，母题层不存在，作品集只是同类物的堆积，无法互相照明，也无法形成可辨识的整体面貌。"
+      ],
+      "representative_cases_en": [
+        "The Theban plays are not a trilogy: Antigone (about 442 BC) was written decades before Oedipus Rex (about 429-425 BC), and Oedipus at Colonus was produced after his death in 401 BC. In the plays' internal chronology Oedipus's end at Colonus precedes the action of Antigone, yet the order of writing and production is the reverse. The three are thus not a continuous trilogy but three independent treatments of one family's motifs: civic decree against household rite (Antigone), recognition and self-identification (Oedipus Rex), late reconciliation and departure (Oedipus at Colonus)",
+        "Electra set against Aeschylus's Libation Bearers: the same myth of Orestes's revenge, which in Aeschylus is the middle play of a trilogy and performs a sequencing function, becomes in Sophocles a play that stands alone - the revenge is compressed into a single stage time, and the centre of gravity moves from the inherited curse across generations to waiting and recognition",
+        "Cautionary: writing every piece as instalment N, dependent on a recap, so that an audience entering in the middle understands nothing, the delivery unit stretches without limit, and no single work holds value on its own. The opposite failure is over-fragmentation: each piece self-contained but connected to nothing, with no motif layer at all, so the body of work is only an accumulation of similar objects that cannot illuminate one another or form a recognisable whole."
+      ],
+      "modern_applications_zh": [
+        "内容产品设计：判断受众实际消费的单位（一条短视频、一篇文章、一期发布），按该单位设计闭环，避免动辄要求用户先补完前置内容",
+        "系列作品规划：保留跨作品的母题与世界观对照，但让每一部单独成立，不把关键理解权交给前作",
+        "产品版本与模块划分：让每个版本、每个模块可独立交付与验收，同时在设计层保留统一的概念体系，使模块之间可互相解释",
+        "知识体系建设：把每篇方法论写成独立可用的工具，再通过概念索引让它们彼此对读，而不是写成必须按顺序阅读的长链条"
+      ],
+      "modern_applications_en": [
+        "Content product design: determine the unit your audience actually consumes (one short video, one article, one release) and design the loop for that unit, instead of routinely demanding that users catch up on prior instalments",
+        "Planning a series: keep motifs and world-view echoes across works while making each instalment stand alone, and never make comprehension of one depend on having read another",
+        "Product versions and module boundaries: let every release and every module be delivered and accepted independently, while keeping a shared conceptual scheme at the design level so modules can explain one another",
+        "Building a knowledge system: write each method as a tool usable on its own, then connect them through a concept index, rather than producing a long chain that must be read in order"
+      ],
+      "related_modes": [
+        "M-SOP-003",
+        "M-SOP-010",
+        "M-SOP-008"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "埃斯库罗斯",
+        "荷马"
+      ]
+    },
+    {
+      "id": "M-SOP-005",
+      "mode_code": "M-SOP-005",
+      "figure_code": "Sophocles",
+      "name_zh": "对等正当性冲突法（不写善人对恶人，而写两种正当性相撞）",
+      "name_en": "Collision of Equal Claims: Staging Two Legitimate Positions Instead of Good against Evil",
+      "category": "伦理修养",
+      "category_raw": "核心方法",
+      "domain_zh": "伦理冲突/对立面的正当性构建",
+      "domain_en": "Ethical Conflict / Constructing the Legitimacy of Both Sides",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "《安提戈涅》的两造都不是恶人。安提戈涅要埋葬兄长波吕尼刻斯，依据的是下界神律与家族义务：不埋葬死者会使亲人无法安息，也是对家礼的背叛；克瑞翁下令禁止埋葬叛城者，依据的是城邦必须在内战创伤后重建权威：若叛徒与被保卫者同享葬礼，城邦的秩序与牺牲者的意义将一并瓦解。两人都诉诸超越自身的东西（神律 / 城邦），都不肯退让，冲突因此无法由调解解决，只能由毁灭来结算。使用这条方法要求：把双方的依据都写到最强形式（用对方最强的论证版本，而不是最弱的），确认双方各自愿意付出多大的代价，拒绝用「其中一方其实只是坏人」的方式偷偷解决冲突，并让冲突的代价由双方共同支付而非只由一方承担。方法论签名：把两造的正当性各写到其最强版本，使冲突不可被简单裁决；让代价由双方共同支付，从而迫使读者或观众在无法站边的处境中自行作出判断。",
+      "definition_en": "Neither party in Antigone is a villain. Antigone must bury her brother Polyneices, on the authority of the gods below and the obligations of the household: an unburied kin cannot rest, and to leave him so is to betray the rites of the family. Creon has forbidden the burial of the man who attacked the city, on the authority of the polis, which must rebuild its authority after civil war: if traitor and defender receive the same funeral, the order of the city and the meaning of those who died for it collapse together. Both appeal to something beyond themselves - divine ordinance on one side, the city on the other - and neither will yield, so the conflict cannot be settled by mediation; it can only be settled by ruin. Working the method requires: stating each side's grounds in their strongest form, using the best version of the opponent's argument rather than a caricature; establishing how much each side is willing to pay; refusing to dissolve the conflict by quietly making one party merely wicked; and making the cost fall on both sides rather than one. Method signature: write each claim in its strongest form so that the conflict cannot be adjudicated, and let both parties pay, forcing the reader or audience to judge from a position where taking a side is not available.",
+      "source_chapter": "《安提戈涅》全剧（安提戈涅与克瑞翁的两次正面交锋 450-525、克瑞翁与海蒙的对峙、忒瑞西阿斯的警告、克瑞翁的悔悟与双重丧亲）；亚里士多德《诗学》第 13 章关于悲剧人物「并非因恶而毁灭，而是因某种过失」的论述；黑格尔以降对「伦理实体冲突」的解读（接受史，见 caveats）",
+      "key_quote_zh": "「οὐ γάρ μοι Ζεὺς ἦν ὁ κηρύξας τάδε, / οὐδ᾽ ἡ ξύνοικος τῶν κάτω θεῶν Δίκη」——《安提戈涅》第 450-451 行，安提戈涅回答克瑞翁：「颁布这道命令的并不是宙斯，与下界诸神同住的正义也不是这样规定的。」（古希腊文原文；中文为按通行义直译）",
+      "key_quote_en": "\"οὐ γάρ μοι Ζεὺς ἦν ὁ κηρύξας τάδε, / οὐδ᾽ ἡ ξύνοικος τῶν κάτω θεῶν Δίκη\" - Antigone 450-451, Antigone to Creon: \"It was not Zeus who proclaimed this for me, nor did Justice, who dwells with the gods below, lay down such laws.\" (Greek text; English rendered according to the standard sense.)",
+      "key_concepts": [
+        "对等正当性",
+        "神律",
+        "城邦法",
+        "家礼",
+        "不可裁决的冲突",
+        "共同代价",
+        "最强版本论证"
+      ],
+      "process_zh": [
+        "先各自写下两方的正当性，并用对方所能提出的最强版本互相回应：确认每一方诉诸的更高依据是什么、它是否在其自身框架内成立",
+        "检查是否被写成了善恶对立：如果冲突可能靠「指出一方的私欲或愚蠢」解决，就把它改回对等状态，补齐弱势一方的正当理由",
+        "测算双方的代价意愿：把每一方为坚持到底愿意付出的最大代价写成明确的条目（权力、亲情、生命、名誉），据此判断冲突是否真的不可调和",
+        "把代价分给双方并取消外部裁决者：避免安排一个权威在结尾宣布谁对谁错，让两造的毁灭共同完成结算，把判断留给观看者"
+      ],
+      "process_en": [
+        "Write out both sides' grounds first, and answer each with the strongest version the other can offer: establish what higher authority each invokes and whether it holds inside that side's own framework",
+        "Check whether you have written good against evil: if the conflict could be dissolved by pointing out one party's greed or stupidity, restore the symmetry and supply the weaker side with the reasons it deserves",
+        "Measure what each side will pay: list explicitly the maximum each is willing to sacrifice for its position - power, kin, life, reputation - and use that to judge whether the conflict really is irresolvable",
+        "Split the cost and remove the external judge: do not install an authority to announce at the end who was right; let the ruin of both sides settle the account together and leave the verdict to the audience"
+      ],
+      "representative_cases_zh": [
+        "《安提戈涅》的双重毁灭：安提戈涅坚持埋葬兄长，被关入石窟后自尽；海蒙因她的死而自刎；欧律狄刻随之自尽；克瑞翁活着而失去全部家人。两造的正当性都没有被推翻，付出的是同一个代价——剧作没有让任何一方在道理上取胜",
+        "《厄勒克特拉》中的对等性：克吕泰墨涅斯特拉与厄勒克特拉各自都握有理由（母亲为被献祭的女儿复仇，女儿为被杀害的父亲复仇），剧作既不宣布弑母为正义，也不把克吕泰墨涅斯特拉写成纯然的恶；复仇的完成伴随长期的压抑与悔恨，代价由双方的家庭共同承担",
+        "反面警示：把一方写成纯粹的反派以获得观众的痛快——这样可以迅速取得立场上的清晰，但代价是冲突失去重量（观众只需站在「正确的一方」，无须自己思考），作品也从伦理思考降级为道德消费。另一种失误是伪对等：表面上让双方各说各话，实际上一方的理由被故意写成软弱或荒谬，冲突仍然是一边倒，只是多了一层虚伪的中立。"
+      ],
+      "representative_cases_en": [
+        "The double ruin in Antigone: Antigone buries her brother, is walled into the tomb and takes her own life; Haemon kills himself over her death; Eurydice follows; Creon survives, stripped of his family. Neither side's grounds have been refuted, and the same price is paid by both - the play never lets one party win the argument",
+        "The symmetry in Electra: Clytemnestra and Electra each hold reasons (a mother avenging a sacrificed daughter, a daughter avenging a murdered father), and the play neither declares matricide just nor paints Clytemnestra as pure evil; the revenge is completed at the cost of long-suppressed grief and remorse, and the whole house pays",
+        "Cautionary: writing one side as sheer villain so the audience can feel satisfied. This buys immediate moral clarity at the price of the conflict's weight - the audience need only side with the right party and never think for themselves - and the work is demoted from ethical inquiry to moral consumption. The other failure is fake symmetry: both sides are nominally given a hearing, but one is quietly written as weak or absurd, so the conflict remains one-sided under a veneer of neutrality."
+      ],
+      "modern_applications_zh": [
+        "政策与制度争议分析：把争议双方的依据都写成最强版本（安全、效率、公平、隐私），在承认双方都有道理的前提下设计代价分担与补偿机制",
+        "组织内部冲突处理：避免把冲突归因于某人的品格或动机，先重建双方立场的正当性，再检验不可调和之处是否真的无法折中",
+        "技术伦理评估：在隐私与效能、自由与安全这类对等价值冲突中，先各自给出最强论证，再明确每方愿意付出与不愿放弃的底线",
+        "家庭与代际冲突调解：把两代人的依据写完整（秩序与安全 vs 自主与探索），防止把长辈写成落后、把年轻人写成任性，让冲突的真实结构显现"
+      ],
+      "modern_applications_en": [
+        "Analysing policy and institutional disputes: write both sides' grounds in their strongest form (security, efficiency, fairness, privacy), and design cost-sharing and compensation on the premise that both have a case",
+        "Handling conflict inside an organisation: resist attributing the conflict to someone's character or motive, first reconstruct the legitimacy of both positions, then test whether the irreconcilable part really cannot be split",
+        "Technology ethics assessment: in clashes of equal values such as privacy against capability, or liberty against safety, state each side's strongest argument first and then fix what each will pay and what it will not give up",
+        "Mediating family and generational conflict: write both generations' grounds in full (order and safety against autonomy and exploration) and refuse the easy caricature of elders as backward and the young as wilful, so that the real shape of the conflict becomes visible"
+      ],
+      "related_modes": [
+        "M-SOP-003",
+        "M-SOP-006",
+        "M-HEG-008"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "安提戈涅（剧中人物）",
+        "黑格尔"
+      ]
+    },
+    {
+      "id": "M-SOP-006",
+      "mode_code": "M-SOP-006",
+      "figure_code": "Sophocles",
+      "name_zh": "处境压出人格法（用极端选择显示人是谁）",
+      "name_en": "Pressure Reveals Character: Let an Extreme Choice Show Who Someone Is",
+      "category": "心理洞察",
+      "category_raw": "核心方法",
+      "domain_zh": "人物塑造/人格的处境检验",
+      "domain_en": "Characterisation / Testing Personality Through Situation",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "索福克勒斯塑造人物的方式与先给性格再安排情节相反：他把人物放进一个不可推卸的处境（亲人暴尸、瘟疫压城、被囚荒岛、必须在父仇与母命之间选择），再让其在压力下的选择暴露他是谁。安提戈涅不是先被描写成勇敢的人然后去埋葬兄长，而是在明知必死时仍然埋下第一把土的动作里成为那个人；她被捉拿后的自述只确认自己早已预知结果（「我本就知道自己会死」），说明这个选择不是冲动而是认知之后的行为。使用这条方法要注意：处境必须真的不可推卸（退出机制被移除，否则压力无效）；压力要落在「代价已知」之上，让人物在知道代价的前提下选择；不给人物一个可以两全的第三选项（否则暴露的只是偏好而非人格）；选择之后的解释不能替代选择本身，人物事后如何自辩属次要材料。方法论签名：先设计一个退无可退、代价已知的处境，再让选择本身来说明人物——人格不是事先给定的属性，而是在压力下被压出的形态。",
+      "definition_en": "Sophocles builds character in the opposite order to the familiar one of first supplying traits and then arranging a plot. He puts a person into a situation that cannot be evaded - a kinsman lying unburied, a plague crushing the city, imprisonment on a deserted island, a choice between a father's murder and a mother's command - and lets the choice made under pressure reveal who that person is. Antigone is not first described as brave and then sent to bury her brother; she becomes that person in the act of casting the first dust, knowing she will die for it, and her later account only confirms that she had foreseen the outcome (\"I knew I would die - how could I not?\"), showing the choice was not impulse but conduct after recognition. Working the method requires: the situation must be genuinely unavoidable, with exit routes removed, since pressure without compulsion proves nothing; the pressure must fall on known costs, so the person chooses while knowing the price; no third option may be offered that lets them have both, or what is revealed is only a preference; and explanations after the choice cannot substitute for the choice itself, since self-justification is secondary material. Method signature: design a situation with no way out and a known price, then let the choice itself describe the person - character is not a property given in advance but a shape pressed out under pressure.",
+      "source_chapter": "《安提戈涅》（安提戈涅两度埋尸与被捕后的自述，460-461 行）；《菲罗克忒忒斯》（被弃荒岛十年的处境与拒绝）；《厄勒克特拉》（长期受压后的复仇抉择）；《俄狄浦斯王》（瘟疫压力下的公开承诺）；亚里士多德《诗学》第 13、15 章关于性格通过行动显示、以及「性格必须与处境相称」的论述",
+      "key_quote_zh": "「θανουμένη γὰρ ἐξῄδη, τί δ᾽ οὔ;」——《安提戈涅》第 460-461 行，安提戈涅回答克瑞翁：「我本就知道自己会死——怎么会不知道呢？」（古希腊文原文；中文为按通行义直译。此句表明她的选择建立在已知代价之上，而非一时冲动）",
+      "key_quote_en": "\"θανουμένη γὰρ ἐξῄδη, τί δ᾽ οὔ;\" - Antigone 460-461, Antigone answering Creon: \"I knew I would die - how could I not?\" (Greek text; English rendered according to the standard sense. The line shows that her choice rested on a known cost rather than impulse.)",
+      "key_concepts": [
+        "处境压出人格",
+        "不可推卸性",
+        "已知代价",
+        "无第三选项",
+        "行动即定义",
+        "性格即命运（后世概括）",
+        "压力测试"
+      ],
+      "process_zh": [
+        "移出所有退出机制：先确认人物无法回避这个处境（无处申诉、无法离开、不能拖延），否则压力不成立，选择只能暴露偏好",
+        "让代价先被知晓：把最坏结果明确告诉人物（写进对白或人物的自述），使他是在知情前提下作出选择，而不是被蒙在鼓里",
+        "关闭两全的第三选项：剔除可以让双方都接受的中间方案，若中间方案客观存在就必须先让它失效（例如被拒绝、被撤销），否则不构成人格检验",
+        "让行动自行说明，并只在事后给解释：把人物的自我辨护放到选择之后，且不以其解释作为人格的依据，只以选择本身作为证据"
+      ],
+      "process_en": [
+        "Remove every exit first: confirm the person cannot avoid the situation (no appeal, no departure, no delay), because pressure without compulsion proves nothing and the choice will only expose a preference",
+        "Let the cost be known in advance: state the worst outcome plainly, in dialogue or in the person's own account, so the choice is made with full knowledge rather than in ignorance",
+        "Close off the third option: eliminate any middle course that would satisfy both sides, and if such a course objectively exists, invalidate it first (refused, withdrawn), or there is no test of character at all",
+        "Let the action speak and give explanations only afterwards: place the person's self-defence after the choice, and treat the choice itself, not the defence, as the evidence"
+      ],
+      "representative_cases_zh": [
+        "安提戈涅的两次埋尸：她明知克瑞翁的法令与死刑威胁，仍在夜里以薄土掩埋兄长；被守卫清除后她再次前往。第二次行动证明第一次不是偶然的冲动，而是可以重复的意志；被捕后她的自述（「我本就知道自己会死」）把选择的时间点前移到认知完成的时刻",
+        "菲罗克忒忒斯的拒绝：《菲罗克忒忒斯》中主角被同伴遗弃在荒岛十年，脚伤未愈。当涅俄普托勒摩斯最终愿意带他回国时，他仍拒绝回特洛伊——不是因为他不知道回国的好处，而是因为他知道对方此前欺骗过他。荒岛这一无可回避的处境，把「不向欺骗者让步」压成了人格的定义",
+        "反面警示：先宣布性格再用情节去证明——为人物的每次选择都准备退路与免责理由，使人物从未真正为大代价付过账，性格因此无法被验证。另一种失误是制造伪压力：把处境设计得看似严重但随时可以退出（疾病会突然痊愈、上级会及时批准、误会会及时澄清），人物在紧要关头总能等到救援，压力成为装饰，人格从未被压出来。"
+      ],
+      "representative_cases_en": [
+        "Antigone's two burials: she knows Creon's decree and the death it threatens, yet covers her brother with dust by night, and when the guards uncover him she returns. The second act proves the first was not a passing impulse but a repeatable will; her later account - that she knew she would die - moves the moment of choice back to the point at which recognition was complete",
+        "Philoctetes refuses: in Philoctetes the protagonist has been abandoned by his comrades on a deserted island for ten years with an unhealed wound. When Neoptolemus finally offers to take him home, he still refuses to sail for Troy - not because he does not understand the advantages, but because he knows this man has deceived him. The island, which cannot be evaded, presses his stance toward deceivers into an identity",
+        "Cautionary: announcing a character first and then arranging a plot to prove it - giving every choice an escape hatch and an excuse, so the person never actually pays a heavy price and the character can never be verified. The other failure is fake pressure: a situation that looks severe but can be exited at any time (the illness recovers, the superior approves in time, the misunderstanding is cleared up), so the person always waits out the crisis and the pressure is decoration; no character is ever pressed out."
+      ],
+      "modern_applications_zh": [
+        "招聘与选拔：用真实代价下的选择记录（放弃短期利益、在无人监督时的处理方式）判断一个人的标准，而不是听其对价值观的自述",
+        "写作与人物设定：先给出不可回避的处境，再让人物用行动定义自己；避免用旁白直接宣布性格标签",
+        "组织价值观检验：设计无退路的场景（利益冲突、客户施压、时间紧张），观察实际选择；价值观若从不需要付出代价，就从未被验证",
+        "自我评估：回看自己在已知代价下作出的两三个关键选择，用它们而不是自我描述来确认自己的实际准则"
+      ],
+      "modern_applications_en": [
+        "Hiring and selection: judge a person by choices made under real cost (foregone short-term gain, conduct when unobserved) rather than by their account of their own values",
+        "Writing and character design: set an unavoidable situation first and let action define the person, instead of having a narrator announce a trait label",
+        "Testing organisational values: design situations with no exit (conflicts of interest, client pressure, tight deadlines) and observe the choice actually made; a value that never costs anything has never been verified",
+        "Self-assessment: revisit two or three key choices you made while knowing the cost, and use them, not your self-description, to establish what you actually stand by"
+      ],
+      "related_modes": [
+        "M-SOP-007",
+        "M-SOP-005",
+        "M-MAR-003"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "安提戈涅（剧中人物）",
+        "菲罗克忒忒斯（剧中人物）"
+      ]
+    },
+    {
+      "id": "M-SOP-007",
+      "mode_code": "M-SOP-007",
+      "figure_code": "Sophocles",
+      "name_zh": "不可撤销时刻法（让决定一次性、让认知不早于行动）",
+      "name_en": "The Point of No Return: Make the Decision Singular and Let Recognition Arrive Too Late",
+      "category": "战略决策",
+      "category_raw": "核心方法",
+      "domain_zh": "决策结构/不可逆性与时点选择",
+      "domain_en": "Decision Structure / Irreversibility and Timing",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "索福克勒斯的剧作反复使用同一种时间结构：重大行动一旦做出就不能收回，而认知往往在行动之后才到。《俄狄浦斯王》中他先立下追查与惩罚凶手的公开誓言，随后才发现凶手是自己——誓言使自我惩罚成为必须；《安提戈涅》中克瑞翁先把安提戈涅关入石窟，听完忒瑞西阿斯的警告后才改变主意，赶到时她已自尽；《特拉基斯少女》中得阿涅拉送出毒袍时不知其毒。使用这条方法要处理三件事：把关键决定做成一次性（撤销成本极高或技术上不可撤销），使决定带上全部道德重量；决定是否公开、是否有承诺，会决定它能否被收回（公开誓言比私下想法更难撤销）；认知的时点本身是可设计的位置——把认知放在行动之后，产生「来不及」的结构，把认知放在行动之前，则产生取舍与克制。方法论签名：把关键决定设计成不可撤销，并把认知的时点放在它的前后作为刻度——不可逆性为行动施加全部重量，时点决定重量落在谁身上。",
+      "definition_en": "Sophocles returns again and again to one temporal structure: once a decisive act is performed it cannot be taken back, and recognition usually arrives after the act rather than before. In Oedipus Rex he first swears a public oath to find and punish the killer, and only then discovers that the killer is himself, which makes self-punishment mandatory rather than optional. In Antigone, Creon has Antigone walled into the tomb before he heeds Teiresias's warning; he changes his mind and arrives too late. In Women of Trachis, Deianira sends the poisoned robe without knowing it is poison. Working the method means handling three things: make the key decision singular, with reversal either technically impossible or prohibitively costly, so it carries its full moral weight; decide whether it is public and promised, since an oath sworn in public is far harder to retract than a private intention; and treat the timing of recognition as a designable position - placing recognition after the act produces the structure of too late, while placing it before the act produces trade-offs and restraint. Method signature: design the key decision as irreversible and use the timing of recognition as the dial around it - irreversibility gives the act its full weight, and timing determines whose shoulders that weight lands on.",
+      "source_chapter": "《俄狄浦斯王》（开场的公开誓言 216-275 行与自我惩罚 1182-1310 行）；《安提戈涅》（石窟之刑与克瑞翁的迟到的改变 770-1114 行）；《特拉基斯少女》（毒袍的送出与后果得知）；《埃阿斯》（伪装的和解言辞与自杀的顺序）；亚里士多德《诗学》第 11 章论突转（peripeteia）与认知（anagnorisis）的同时发生",
+      "key_quote_zh": "「ὦ φῶς, τελευταῖόν σε προσβλέψαιμι νῦν」——《俄狄浦斯王》第 1183 行，俄狄浦斯在认清真相之后：「光啊，让我现在最后看你一眼。」（古希腊文原文；中文为按通行义直译。认知在最不该晚的时刻完成，此后的一切行动都不可撤销）",
+      "key_quote_en": "\"ὦ φῶς, τελευταῖόν σε προσβλέψαιμι νῦν\" - Oedipus Tyrannus 1183, Oedipus after the truth closes on him: \"O light, may I look on you now for the last time.\" (Greek text; English rendered according to the standard sense. Recognition is completed at the worst possible moment, and everything that follows is irreversible.)",
+      "key_concepts": [
+        "不可撤销性",
+        "时点设计",
+        "公开誓言",
+        "认知（anagnorisis）",
+        "突转（peripeteia）",
+        "来不及",
+        "一次性决定"
+      ],
+      "process_zh": [
+        "把关键决定做成一次性：移除撤销、延期与部分执行的可能（或让其成本高到实质不可行），使决定无法被稀释为一种姿态",
+        "公开化与承诺化：让决定被当众宣布或写成承诺，从而把撤销的道德成本提高到无法忽略的水平；私下想法不具备这种重量",
+        "选择认知的时点：决定认知发生在行动之前（产生克制与取舍）还是之后（产生来不及与后果追认），并把时点明确写进结构",
+        "结算后果并拒绝回退：在认知到来后不提供任何回退路径（不安排救助、不安排赦免），让不可逆性真正兑现，否则此前全部设计失效"
+      ],
+      "process_en": [
+        "Make the key decision singular: remove the possibility of reversal, postponement or partial execution, or make their cost prohibitive, so the decision cannot be diluted into a gesture",
+        "Make it public and promissory: have it announced before witnesses or written as a commitment, which raises the moral cost of retraction beyond what can be ignored; a private intention carries no such weight",
+        "Choose the timing of recognition: decide whether recognition comes before the act (producing restraint and trade-offs) or after it (producing too late and retroactive acknowledgement), and write that timing into the structure explicitly",
+        "Settle the consequences and refuse the way back: once recognition has arrived, provide no retreat (no rescue, no pardon), so that irreversibility is actually paid out; otherwise the whole design was decorative"
+      ],
+      "representative_cases_zh": [
+        "俄狄浦斯的公开誓言与自我惩罚：开场他为解除瘟疫当众宣告，凶手必须被驱逐或处死（无论他是谁、是否藏在自己家中），此后真相闭合，誓言立刻反过来要求他向自己执行。剧作的张力正来自「他自己立下的规则不能为自己破例」",
+        "克瑞翁的迟到：《安提戈涅》中他先后下达三项不可轻易收回的命令（禁止埋葬、处死安提戈涅、把她关入石窟而非当众处决），直到忒瑞西阿斯的警告才改变主意。他赶到石窟时安提戈涅已自尽，随后海蒙与欧律狄刻相继自尽。他的悔悟不是因为不明白道理，而是因为认知来迟——他改变主意的时点决定了整部戏的结局",
+        "反面警示：制造「假不可逆」——把决定说成重大，却随时准备在压力下撤回（备有内部的替代方案、声明可以解释为个人意见、留出事后包装的空间）。这样处理的决定不承担重量，认知也就永远不必付出全部代价。另一种失误是把认知安排在行动之前，却仍要求行动者承担事后的全部后果，这在结构上是自相矛盾的：如果一个人已经知道，他的选择就必须由取舍来描述，而不能用「来不及」来解释。"
+      ],
+      "representative_cases_en": [
+        "Oedipus's public oath and self-punishment: at the opening he proclaims that the killer must be driven out or put to death, whoever he is and even if he hides inside his own house; once the truth closes, the oath immediately requires him to execute it on himself. The tension comes from the fact that the rule he set cannot make an exception for its author",
+        "Creon arrives too late: in Antigone he issues three orders that cannot lightly be withdrawn (no burial, death for Antigone, entombment rather than public execution) and only changes his mind after Teiresias's warning. He reaches the tomb after Antigone has hanged herself, and Haemon and Eurydice follow. His reversal does not come from a failure to understand; recognition simply arrives after the act, and the timing of that change of mind decides the play",
+        "Cautionary: fake irreversibility - calling a decision momentous while keeping a fallback ready (an internal alternative, wording that can be reinterpreted as personal opinion, room to repackage it later). Such a decision carries no weight and recognition never has to pay full price. The other failure is placing recognition before the act and still demanding that the agent bear the full after-the-fact consequences; structurally that is self-contradictory, because a person who already knows must be described through trade-offs, not through being too late."
+      ],
+      "modern_applications_zh": [
+        "重大决策流程：区分可逆与不可逆决定，为不可逆决定设置更高的证据与审议门槛，为可逆决定加快节奏、降低审批成本",
+        "承诺与契约设计：把关键承诺公开化程度与撤销成本对应起来，明白公开宣布的承诺会把回旋余地压缩到接近于零",
+        "事故管理：在不可逆的损害（数据删除、公开发布、人员处置）之前强制设置确认点，把「认知」安排在行动之前，避免事后追认",
+        "个人生活决策：对涉及他人且难以恢复的选择（辞职、搬迁、断绝关系），先确认自己已完成认知再行动，而不是先行动再用认知来追认"
+      ],
+      "modern_applications_en": [
+        "Major decision processes: separate reversible from irreversible decisions, set a higher evidence and review bar for the irreversible ones, and speed up the reversible ones by lowering approval cost",
+        "Commitments and contracts: match the publicity of a commitment to its cost of reversal, recognising that a publicly announced promise compresses your room to manoeuvre to almost nothing",
+        "Incident management: force a confirmation point before irreversible damage (deleting data, publishing, dealing with people) so that recognition is placed before the act rather than acknowledged after it",
+        "Personal decisions: for choices involving others that are hard to undo (resigning, relocating, cutting off a relationship), confirm that recognition is complete before acting instead of acting first and letting recognition catch up"
+      ],
+      "related_modes": [
+        "M-SOP-001",
+        "M-SOP-006",
+        "M-THU-008"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "俄狄浦斯（剧中人物）",
+        "克瑞翁（剧中人物）"
+      ]
+    },
+    {
+      "id": "M-SOP-008",
+      "mode_code": "M-SOP-008",
+      "figure_code": "Sophocles",
+      "name_zh": "哀悼的公共形式法（把无法弥补的损失变成共同体可承担的形式）",
+      "name_en": "Public Forms of Mourning: Turning Irreparable Loss into Something a Community Can Bear",
+      "category": "宗教修行",
+      "category_raw": "核心方法",
+      "domain_zh": "仪式与公共情感/损失的共同体处理",
+      "domain_en": "Ritual and Public Emotion / Handling Loss as a Community",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "在《安提戈涅》里，全剧的起因是一次拒绝：克瑞翁禁止埋葬叛城者。索福克勒斯把这项禁令写成最严重的侵犯，不是因为它冷酷，而是因为它剥夺了哀悼的形式——死者不得入土，亲属不能哭丧，损失因此无法被承认，也无法被承担。与禁令相对的正面动作是：守礼、埋葬、哭丧、歌队与角色共同的哀叹（kommos），以及把个人的悲痛说成公共可以听见的言辞。这条方法的要点是：无法弥补的损失需要一个可见的形式（仪式、葬礼、纪念、公开的悼词），否则它只能以压抑、内耗或转移的形式继续存在；哀悼的形式必须由共同体共同承担，而不是留给当事人独自处理；形式不等于遗忘，它是对损失的公开承认，因此不能被用来匆忙结案；同时要警惕形式被权力接管——由谁主持、按谁的规格、是否允许哭，都是权力问题。方法论签名：为无法弥补的损失提供一个共同体可以共同参与的可见形式，让哀痛被公开承认而非独自压抑；形式的意义在于承担而不是结案。",
+      "definition_en": "In Antigone the whole plot springs from a refusal: Creon forbids the burial of the man who attacked the city. Sophocles writes that prohibition as the gravest of violations, not because it is harsh but because it strips mourning of its form - the dead may not be buried, the kin may not lament, and the loss therefore cannot be acknowledged or borne. The positive acts set against the decree are the performance of rites, burial, lamentation, the kommos in which chorus and characters mourn together, and the conversion of private grief into speech the whole city can hear. The method turns on several points. An irreparable loss needs a visible form - a rite, a funeral, a memorial, a public eulogy - or it persists as suppression, internal attrition, or displacement. That form must be borne by the community, not left to the bereaved alone. Form is not forgetting: it is public acknowledgement of the loss, and so it must not be used to close the file in a hurry. And a form can always be seized by power - who presides, at whose specification, whether weeping is permitted are all questions of authority. Method signature: give an irreparable loss a visible form the community can take part in, so that grief is publicly acknowledged rather than privately suppressed; the point of the form is to bear the loss, not to close it.",
+      "source_chapter": "《安提戈涅》（埋葬禁令、两次埋尸、被捕后的哀叹、安提戈涅的挽歌 806-943 行、克瑞翁的悔悟与收尸 1198-1256 行）；《埃阿斯》（埃阿斯的自杀与忒克墨萨、透克洛斯的哀悼及葬礼争议）；《俄狄浦斯在科洛诺斯》（离世与哀悼的处理）；《厄勒克特拉》（长期无法完成的哀悼与对死者的反复呼唤）",
+      "key_quote_zh": "「οὔτοι συνέχθειν, ἀλλὰ συμφιλεῖν ἔφυν」——《安提戈涅》第 523 行，安提戈涅：「我的天性不是与人同恨，而是与人同爱。」（古希腊文原文；中文为按通行义直译。哀悼与埋葬在此不是立场之争，而是共同生活的条件）",
+      "key_quote_en": "\"οὔτοι συνέχθειν, ἀλλὰ συμφιλεῖν ἔφυν\" - Antigone 523: \"I was born not to share hatred but to share love.\" (Greek text; English rendered according to the standard sense. Mourning and burial are not a matter of taking sides here but a condition of living together.)",
+      "key_concepts": [
+        "哀悼的公共形式",
+        "葬礼与仪式",
+        "损失的可承担性",
+        "歌队的共同哀叹（kommos）",
+        "形式的权力归属",
+        "不许遗忘也不许仓促结案"
+      ],
+      "process_zh": [
+        "先承认损失的不可弥补性：明确哪些东西已经无法恢复（生命、时间、信任），停止用「本可以避免」的解释去替代哀悼本身",
+        "为损失设计可见的形式：确定由谁主持、以何种规格、在何处、由谁参与（葬礼、纪念、公开悼词、集体默哀），使形式足以承载损失的分量",
+        "把形式交给共同体共同承担：让与损失相关的人共同参与，避免把哀悼私有化给最亲近的当事人，也避免由权力单方面规定哀悼的规格与时限",
+        "区分承担与结案：形式完成之后仍保留后续的承认与追问（纪念、记录、责任处理），防止仪式被用来宣布事情已经过去"
+      ],
+      "process_en": [
+        "Acknowledge the irreparability first: state plainly what can no longer be restored (a life, time, trust) and stop substituting explanations of how it could have been avoided for mourning itself",
+        "Design a visible form for the loss: decide who presides, to what standard, where, and who takes part (funeral, memorial, public eulogy, collective silence) so that the form can hold the weight of the loss",
+        "Let the community bear the form together: involve everyone connected to the loss, neither privatising grief onto those closest to the dead nor letting power unilaterally fix the standard and the deadline for mourning",
+        "Distinguish bearing from closing: after the form is completed, keep the subsequent acknowledgement and inquiry alive (remembrance, records, accountability work) so the ritual is not used to declare that the matter is finished"
+      ],
+      "representative_cases_zh": [
+        "《安提戈涅》的埋尸之争：克瑞翁以「叛徒不得下葬」为城邦立威，安提戈涅以「亲人必须入土」为家礼与神律。前者禁止的不只是仪式，而是共同体承认损失的能力；当克瑞翁最终改变主意亲自去收尸时，秩序已经由三个人的死来偿付",
+        "《埃阿斯》的葬礼争议：埃阿斯自杀后，墨涅拉俄斯与阿伽门农主张暴尸，透克洛斯坚持埋葬并以兄弟身份抗争，奥德修斯出人意料地支持安葬（理由是埃阿斯曾是战场上最好的同伴）。剧作把「给死者一个形式」处理为需要说服的公共事务，而不是私人的事",
+        "反面警示：把哀悼形式化到只剩流程——仪式照办但无人真正参与，规格越高、承认越少；死者被用作政治工具（以葬礼动员、以纪念划线），损失的实质被形式吸收。另一种失误是以「向前看」为名压缩哀悼的时间：形式尚未承担损失就被宣布结案，结果是损失以更隐蔽的方式（慢性抑郁、持续冲突、情绪转移）继续发生。"
+      ],
+      "representative_cases_en": [
+        "The burial dispute in Antigone: Creon refuses burial for a traitor in order to make the city's authority felt, while Antigone insists a kinsman must be given to the earth, invoking household rite and divine ordinance. What Creon prohibits is not merely a ritual but the community's capacity to acknowledge its loss; when he finally relents and goes to bury the body himself, the order is paid for with three deaths",
+        "The funeral dispute in Ajax: after Ajax kills himself, Menelaus and Agamemnon want the body left exposed, Teucer insists on burial and appeals to his brother's memory, and Odysseus unexpectedly supports interment because Ajax was the best fighter on the field. The play treats giving the dead a form as a public matter requiring persuasion, not a private one",
+        "Cautionary: formalising mourning until only procedure remains - the rite is performed but nobody truly takes part, and the grander the specification the less acknowledgement there is; the dead are used as political instruments, mobilisation through funerals and lines drawn through commemoration, and the substance of the loss is absorbed by its form. The other failure is compressing the time allowed for grief in the name of moving on: the file is closed before the form has borne the loss, and the loss then continues in more hidden ways - chronic depression, persistent conflict, displaced emotion."
+      ],
+      "modern_applications_zh": [
+        "组织中的事故与伤亡处理：为重大损失安排公共的承认形式（追悼、公开说明、纪念），并明确形式不等于责任终结",
+        "团队解散与项目终止：给结束一个被共同参与的仪式，承认已投入的时间与关系损失，而不是用一句「下一步」直接翻页",
+        "公共卫生与灾难治理：设计允许公众哀悼与记念的渠道，避免把损失压入私人领域导致长期心理代价",
+        "家庭重大变故：把葬礼与纪念的安排交给共同参与，而不是由一人独断；同时保留后续的承认与谈话，防止仪式被用作终结话题的方式"
+      ],
+      "modern_applications_en": [
+        "Handling deaths and serious incidents inside an organisation: arrange a public form of acknowledgement for the loss (a memorial, an open account, commemoration) and state clearly that the form does not end accountability",
+        "Team disbandment and project shutdown: give the ending a rite that people take part in, acknowledging the time and relationships lost, rather than turning the page with a phrase about next steps",
+        "Public health and disaster governance: build channels that let the public mourn and commemorate, so that loss is not pushed into private space where it produces long-term psychological cost",
+        "Major events in a family: share the arrangement of funeral and commemoration rather than leaving it to one person's decision, and keep the later acknowledgement and conversation alive so the ceremony is not used to close the subject"
+      ],
+      "related_modes": [
+        "M-SOP-005",
+        "M-SOP-004",
+        "M-THU-010"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "安提戈涅（剧中人物）",
+        "修昔底德"
+      ]
+    },
+    {
+      "id": "M-SOP-009",
+      "mode_code": "M-SOP-009",
+      "figure_code": "Sophocles",
+      "name_zh": "限度意识与「认识你自己」法（把人的可惊叹与可越界放在同一句里）",
+      "name_en": "Awareness of Limits: Holding Human Wonder and Human Overreach in the Same Breath",
+      "category": "认识论逻辑",
+      "category_raw": "核心方法",
+      "domain_zh": "认知与限度/自我认识",
+      "domain_en": "Cognition and Limits / Self-Knowledge",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "《安提戈涅》第一合唱歌的开头是索福克勒斯最著名的判断：世间有许多奇异之事，但没有比人更奇异（δεινός，兼指可惊叹与可畏）的。这句话把人的两种可能放在同一个词里：人能航海、耕作、狩猎、立法、建造城邦，也能越界、以技艺与权力对抗不可对抗的东西。俄狄浦斯的智谋让他解开了斯芬克斯之谜，也让他自信到可以在瘟疫中当众立誓追查而不留退路；克瑞翁对秩序的坚持使他能重建城邦权威，也使他听不进忒瑞西阿斯与海蒙的警告。使用这条方法的要点是：把「能力」与「越界」写成同一个东西的两面，而不是两种人；限度不是来自外部的禁令，而是来自人自身的结构（认知有限、寿命有限、立场有限）；自我认识（德尔斐的「认识你自己」）因此是能力管理的一部分，而不是道德装饰；在具体情境中，限度意识表现为：为自己的知识标注边界、为不确定留出余地、在最强的时候安排检验机制。方法论签名：把人的可惊叹与可越界算作同一种能力的两种结果，把「认识你自己」当作能力管理的一环——先标注自己知识的边界，再决定行动的范围与检验方式。",
+      "definition_en": "The opening of the first choral ode in Antigone carries Sophocles's most famous judgement: there are many strange things, and nothing is stranger than man - where the Greek word carries both wonderful and terrible at once. The line puts two possibilities inside one term. Humans can sail, plough, hunt, legislate and build cities; and they can also overstep, using skill and power against what cannot be resisted. Oedipus's cleverness lets him solve the riddle of the Sphinx, and also makes him confident enough to swear an oath in the middle of a plague leaving himself no retreat; Creon's commitment to order lets him rebuild the city's authority, and also deafens him to Teiresias and Haemon. Working the method means several things: write capability and overreach as two sides of one thing rather than two kinds of people; treat the limit as arising from human structure itself - finite knowledge, finite lifespan, situated standpoint - rather than from an external prohibition; and treat self-knowledge, the Delphic know yourself, as part of managing capability rather than as moral decoration. In concrete settings the awareness shows up as marking the boundaries of your own knowledge, leaving room for uncertainty, and installing checks precisely when you are strongest. Method signature: count human wonder and human overreach as two results of one capacity, and treat know yourself as a component of capability management - mark the edge of what you know before deciding how far to act and how to check yourself.",
+      "source_chapter": "《安提戈涅》第一合唱歌 332-383 行（「世间有许多奇异之事，没有比人更奇异者」及其后列举的航海、耕作、狩猎、驯兽、语言、思想、立法、避难等技艺）；《俄狄浦斯王》（解开斯芬克斯之谜的智谋与追查誓言）；德尔斐阿波罗神庙的「认识你自己」（γνῶθι σεαυτόν）与「勿过度」（μηδὲν ἄγαν）传统；亚里士多德《诗学》第 13 章论人物因过失而非因恶而毁灭",
+      "key_quote_zh": "「πολλὰ τὰ δεινά, κοὐδὲν ἀνθρώπου δεινότερον πέλει」——《安提戈涅》第 332-333 行，第一合唱歌开头：「世间有许多奇异之事，但没有比人更奇异（可惊叹亦复可畏）的了。」（古希腊文原文；中文为按通行义直译。δεινός 一词兼含「可惊叹」与「可畏」，此双义正是本条的要点）",
+      "key_quote_en": "\"πολλὰ τὰ δεινά, κοὐδὲν ἀνθρώπου δεινότερον πέλει\" - Antigone 332-333, opening of the first choral ode: \"Many are the wonders, and nothing is more wondrous than man.\" (Greek text; English rendered according to the standard sense. The word δεινός carries both wondrous and terrible, and that doubleness is the point of this mode.)",
+      "key_concepts": [
+        "限度意识",
+        "认识你自己",
+        "勿过度",
+        "可惊叹与可越界同源",
+        "认知有限性",
+        "过失而非恶",
+        "最强时的检验机制"
+      ],
+      "process_zh": [
+        "把能力与越界写成同一个来源：先列出自己在当前领域最依赖的能力，再写出这种能力过度使用时会产生的典型越界形态",
+        "标注自己知识的边界：明确哪些部分是有证据的、哪些是推断、哪些是不知道，并在不确定处留出余地而不是用确信的语气补足",
+        "在最强的时刻安排检验：不要等到出错才设检查；在评价最高、阻力最小、连续成功之后主动引入外部意见与反证机制",
+        "按限度调整行动范围：把行动的范围对齐到已被验证的认知范围，超出部分以试验、可撤回步骤或延迟决定来处理"
+      ],
+      "process_en": [
+        "Trace capability and overreach to the same source: list the capability you most rely on in this domain, then write out the typical form of overreach produced when that capability is used past its measure",
+        "Mark the edges of your knowledge: state which parts rest on evidence, which are inference, and which are unknown, and leave room at the uncertain places instead of filling them with a confident tone",
+        "Install checks when you are strongest: do not wait for a failure to set up review; after the highest praise, the least resistance, or a run of successes, actively bring in outside opinion and a mechanism for counter-evidence",
+        "Scale action to the limit: align the scope of action with the scope of verified knowledge, and handle anything beyond it through experiments, reversible steps, or deferred decisions"
+      ],
+      "representative_cases_zh": [
+        "俄狄浦斯的智谋与越界：他因解开斯芬克斯之谜而成为城邦的拯救者，这份智谋让他在瘟疫中自信地当众立誓追查凶手、拒绝忒瑞西阿斯的暗示、把伊俄卡斯忒的劝阻当作妇人之见。剧作把他的毁灭写成同一能力的过度使用，而不是偶然的厄运",
+        "合唱歌的技艺清单：《安提戈涅》332-383 行列举人如何航海、耕地、捕鸟、驯服野兽、使用语言与思想、制定法律、为城邦避难；随后立即指出：人若把技艺用在不当之处，城邦会把他驱逐——同一段史诗把创造与越界并列陈述",
+        "反面警示：把限度意识做成消极的自我限制——以「人不能知道太多」为理由停止调查、拒绝新证据；或者相反，把「认识你自己」做成口号，只在事后用于解释失败，而从不用于事前限定行动范围。两种做法都使这条方法失效：前者把限度当作停止思考的许可，后者把它变成事后免责的修辞。"
+      ],
+      "representative_cases_en": [
+        "Oedipus's cleverness and his overreach: solving the riddle of the Sphinx makes him the city's saviour, and the same cleverness leads him to swear a public oath in the plague, dismiss Teiresias's hints, and treat Jocasta's warning as a woman's superstition. The play writes his destruction as over-use of one capability, not as accidental misfortune",
+        "The chorus's inventory of skills: Antigone 332-383 lists how humans sail, plough, snare birds, tame animals, use speech and thought, make law, and shelter the city; it then says at once that if skill is turned to the wrong use, the city drives the person out. The same ode states creation and overreach side by side",
+        "Cautionary: turning awareness of limits into passive self-restriction - stopping an inquiry or refusing new evidence on the grounds that humans cannot know too much; or the reverse, using know yourself as a slogan reserved for explaining failure afterwards and never for bounding the scope of action in advance. Both ruin the method: the first takes the limit as licence to stop thinking, the second converts it into retrospective excuse-making."
+      ],
+      "modern_applications_zh": [
+        "风险管理与安全文化：把最擅长的能力列为最大风险的来源之一，在连续成功之后主动引入外部审计与反证",
+        "研究与技术开发：为结论标注证据等级与适用边界，在最强的主张旁边列出不确定项",
+        "领导力与个人成长：在评价最高的时期安排反馈机制与继任讨论，防止能力与自信同幅增长而失去检验",
+        "投资与重大决策：把行动范围限制在已验证的判断上，超出的部分用小规模试验、可撤回的投入与延迟决定来处理"
+      ],
+      "modern_applications_en": [
+        "Risk management and safety culture: list your strongest capability as one of your largest sources of risk, and bring in outside audit and counter-evidence after a run of successes",
+        "Research and technology development: attach an evidence grade and a boundary of applicability to every conclusion, and list the uncertainties right beside your strongest claims",
+        "Leadership and personal growth: schedule feedback mechanisms and succession discussions during the period of highest regard, so that capability and confidence do not grow together untested",
+        "Investment and major decisions: limit action to judgements already verified, and handle the rest through small experiments, reversible commitments, and deferred decisions"
+      ],
+      "related_modes": [
+        "M-SOP-002",
+        "M-SOP-007",
+        "M-HIPPOCRA-006"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "俄狄浦斯（剧中人物）",
+        "克瑞翁（剧中人物）"
+      ]
+    },
+    {
+      "id": "M-SOP-010",
+      "mode_code": "M-SOP-010",
+      "figure_code": "Sophocles",
+      "name_zh": "城邦公共剧场交付法（把作品交给全体公民的公共场合）",
+      "name_en": "Delivery in the Civic Theatre: Handing the Work to the Whole Citizen Body in Public",
+      "category": "政治治理",
+      "category_raw": "核心方法",
+      "domain_zh": "公共交付/作品与制度的关系",
+      "domain_en": "Public Delivery / The Relation Between Work and Institution",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "索福克勒斯的作品不是在私人圈子里流传的文本，而是每年在雅典的大狄奥尼西斯节上、以城邦名义举办的悲剧竞赛中，向全体公民（含妇女、外邦人与盟邦使节）演出一次的作品：三部悲剧加一部萨提尔剧为一组参赛，由抽签产生的评判者评奖。这项制度决定了作品的形态：戏必须在一次演出中把全部意义交付完毕；观众是政治共同体本身，因此剧中的每一次伦理冲突同时也是一次公共审议；作品一经演出即进入公共记忆，此后能否重演取决于文本能否被保存与重读。使用这条方法的要点：先确定交付对象与交付场合（谁在看、在什么场合、几个人一次看完），据此决定作品的长度、密度与呈现方式；把公共场合当作检验场而不是宣传场（作品要承担被共同体讨论、引用与质疑的后果）；为作品准备可脱离作者而存续的形态（文本、记录、可再演的结构），否则公共交付只有一次机会。方法论签名：先确定交付的场合与受众共同体，把作品设计成能在该场合一次交付完毕的整体，并为它准备可脱离作者存续的形态——作品的价值由公共场合的检验而非私人趣味决定。",
+      "definition_en": "The works of Sophocles were not texts circulated in private circles but plays performed once, in the city's name, before the whole citizen body at the Great Dionysia - including women, resident foreigners and envoys of allied states - within a competition in which three tragedies and a satyr play formed one entry and prizes were awarded by judges chosen by lot. That institution shaped the form of the work. The play had to deliver its whole meaning in a single performance. The audience was the political community itself, so each ethical conflict inside the drama was also an act of public deliberation. And once performed, the work entered public memory, its later life depending on whether the text could be preserved and reread. Working the method requires: fixing the audience and the occasion first (who is watching, on what occasion, how many will see it through at once) and letting that determine length, density and mode of presentation; treating the public occasion as a place of testing rather than of promotion, so the work accepts being discussed, quoted and contested by the community; and preparing a form that can outlive its author - a text, a record, a structure that can be staged again - or the public delivery happens only once. Method signature: fix the occasion and the community you deliver to, design the work as a whole that can be delivered completely in that occasion, and give it a form that survives without you - its value is decided by public testing rather than private taste.",
+      "source_chapter": "大狄奥尼西斯节（City Dionysia，雅典）的悲剧竞赛制度：三悲剧加一萨提尔剧为一组参赛、评判者抽签产生、优胜者记录（didascaliae）残存；索福克勒斯的传世剧作全部为该竞赛而写；亚里士多德《诗学》对悲剧作为公共演出的讨论（尤其第 6、14、26 章）；古代传记所记其竞赛成绩与晚年演出《俄狄浦斯在科洛诺斯》（前 401 身后演出）",
+      "key_quote_zh": "（要点转述，非剧中引文）雅典大狄奥尼西斯节的交付制度：剧作家以三部悲剧加一部萨提尔剧为一组参赛，全城公民作为观众在同一场合观看，优胜由抽签产生的评判者评定；索福克勒斯的剧作正是为这一公共场合写作和交付的，作品的生命取决于它能否在演出之后继续被保存、重读与重演。",
+      "key_quote_en": "(Paraphrase of the evidence, not a line from the plays) The delivery arrangement of the Athenian Great Dionysia: a playwright entered three tragedies plus a satyr play as one group, the citizens watched as an audience in a single public occasion, and victory was decided by judges selected by lot. The plays of Sophocles were written and delivered for exactly that public occasion, and their afterlife depended on whether they could be preserved, reread and restaged after the performance.",
+      "key_concepts": [
+        "公共剧场",
+        "大狄奥尼西斯节",
+        "竞赛制度",
+        "一次交付完毕",
+        "公共审议",
+        "可脱离作者存续的形态",
+        "受众共同体"
+      ],
+      "process_zh": [
+        "先确定交付对象与场合：写清谁是真正的受众、他们在什么场合、以多长时间与怎样的注意力接触作品，并据此决定长度、密度与形式",
+        "把作品设计成一次交付完毕的整体：假设只有一次机会，让全部意义在该场合内完成，不依赖后续补充阅读或解释",
+        "主动接受公共检验：把作品交给一个会讨论、引用与质疑它的共同体，并准备好承担被解读、被反对与被使用（包括被误用）的后果",
+        "为存续准备可脱离作者的形态：留下文本、记录或可重演的结构，使作品在作者离场后仍能被重读、重演与检验"
+      ],
+      "process_en": [
+        "Fix the audience and the occasion first: state who the real audience is, on what occasion, for how long, and with what kind of attention - then let that decide length, density and form",
+        "Design the work as something delivered completely in one occasion: assume a single chance, and complete the whole meaning within it, without relying on later supplementary reading or explanation",
+        "Accept public testing deliberately: hand the work to a community that will discuss, quote and contest it, and be ready to bear the consequences of being interpreted, opposed and used, including being misused",
+        "Prepare a form that survives without you: leave a text, a record, or a structure that can be staged again, so the work can be reread, restaged and tested after you are gone"
+      ],
+      "representative_cases_zh": [
+        "《安提戈涅》与前 442 年的竞赛：这部剧在城邦刚经历内战创伤之后上演，剧中的核心冲突（城邦命令与家礼、叛乱者的尸体能否入土）正是观众自己正在处理的公共议题；作品因此不是在描述一个遥远的传说，而是在公共场合重演共同体自己的争论。据古代传记，此剧使索福克勒斯获得胜利并因此被选为将军——此事出自晚出材料，但可说明作品与公共生涯的紧密关系",
+        "《菲罗克忒忒斯》（前 409）与《俄狄浦斯在科洛诺斯》（前 401 身后演出）：前者在伯罗奔尼撒战争的最后阶段上演，剧中的欺骗、遗弃与伤员处境与当时雅典的战争经验直接相关；后者写于晚年而在身后由家人演出并获奖，说明作品已获得可脱离作者存续的形态——文本先于重演而存在，作者离场后作品仍能交付",
+        "反面警示：把公共交付当作一次性的宣传场合——只求当场夺目、不考虑作品被重读时的成立与否，结果是作品随演出结束而失效，公共记忆里只剩一个标题。另一种失误是不区分交付对象：把小圈子的讨论方式（预设共识、术语自洽）直接投向公共场合，作品在共同体面前即刻失义；或者完全相反，为迎合最广大的受众而放弃复杂结构，使公共检验变成检验谁能被最多人立即听懂。"
+      ],
+      "representative_cases_en": [
+        "Antigone and the competition of about 442 BC: the play was staged while the city was still carrying the trauma of civil war, and its central conflict - civic decree against household rite, whether the body of a rebel may be buried - was precisely the public question the audience was living through. The work therefore did not describe a distant legend so much as restage the community's own argument in public. Ancient biography claims the play won him a victory and, on that basis, a generalship; the report comes from late material, but it illustrates how closely the work was bound to public life",
+        "Philoctetes (409 BC) and Oedipus at Colonus (produced posthumously in 401 BC): the first was staged in the final phase of the Peloponnesian War, and its deception, abandonment and wounded soldier spoke directly to Athenian wartime experience; the second was written late in life and produced by his family after his death, winning the prize - evidence that the work had acquired a form that outlived its author, the text existing before any restaging and allowing delivery to continue after the author had gone",
+        "Cautionary: treating public delivery as a one-off promotional occasion - aiming only at impact on the day and never asking whether the work holds up when reread, so that it expires when the performance ends and public memory retains only a title. The other failure is not distinguishing audiences: taking a small circle's manner (shared premises, self-consistent jargon) straight into a public setting, where the work loses meaning immediately; or the opposite, abandoning complex structure to please the widest audience, so the public test becomes a test of who can be understood fastest by the most people."
+      ],
+      "modern_applications_zh": [
+        "公开发布与产品上线：先定受众与场合（谁会看到、在什么时间与注意力条件下），据此设计一次交付完毕的完整体验，而不是依赖后续文档补救",
+        "公共沟通与政策说明：把复杂议题写成公共场合可被讨论、引用与质疑的形式，并预备承担被误读与反对的后果",
+        "知识与作品存续：为作品准备可脱离作者存续的形态（文本、源码、标准、课程），使内容在作者离场后仍可被检验与复用",
+        "内容与教育交付：区分小圈子讨论与公共服务两种场合，按场合调整预设、术语密度与结构复杂度，避免把内部语言直接投给公共受众"
+      ],
+      "modern_applications_en": [
+        "Public launches and product releases: fix the audience and the occasion first (who will see it, at what time and with what attention), then design a complete experience delivered in one go rather than one patched by later documentation",
+        "Public communication and policy explanation: write complex issues in a form that can be discussed, quoted and contested in public, and be prepared to bear misreading and opposition",
+        "Keeping knowledge and work alive: give the work a form that survives without you (a text, source code, a standard, a course) so its content can still be tested and reused after you have left",
+        "Content and educational delivery: distinguish between small-circle discussion and public service, and adjust premises, terminology density and structural complexity to the occasion instead of throwing internal language straight at a public audience"
+      ],
+      "related_modes": [
+        "M-SOP-004",
+        "M-SOP-003",
+        "M-SOP-008"
+      ],
+      "representative_figures": [
+        "索福克勒斯",
+        "埃斯库罗斯",
+        "伯里克利"
+      ]
+    }
+  ]
+}

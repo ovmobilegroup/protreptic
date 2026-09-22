@@ -1,24 +1,168 @@
 {
   "schema_version": "v6",
-  "figure_code": "H-WYM-001",
+  "code": "H-WYM-001",
+  "figure_name_zh": "王阳明",
   "figure_name": "王阳明",
   "figure_name_en": "Wang Yangming",
+  "figure_code": "H-WYM-001",
+  "figure_pinyin": "Wáng Yángmíng",
+  "birth_year": 1472,
+  "death_year": 1529,
   "era": "明 (1472 - 1529)",
-  "region": "东亚",
-  "country": "中国（明）",
-  "domain": "哲学/心学/军事",
-  "biography_zh": "王阳明（1472—1529），名守仁，字伯安，浙江余姚人，明代最杰出的思想家、教育家、军事家，心学集大成者。弘治十二年进士，因得罪刘瑾谪贬贵州龙场驿丞，于龙场悟道，确立'心即理'宗旨。后任南赣巡抚平定匪乱，仅三十五日平定宁王朱宸濠之乱，创立'致良知'学说。晚年提出'知行合一''四句教'（无善无恶心之体，有善有恶意之动，知善知恶是良知，为善去恶是格物），天泉证道确立晚年定论。其学上承陆九渊'心即理'，下启泰州学派与日本阳明学，打破朱子学'析心与理为二'的格局，强调'心外无物、心外无理'，圣人之道吾性自足。用兵'此心不动，随机而动'，以良知用兵，声东击西、攻心为上。代表作《传习录》《大学问》《王文成公全书》。",
-  "biography_en": "Wang Yangming (1472-1529), courtesy name Shouren, from Yuyao, Zhejiang, was the Ming dynasty's most distinguished philosopher, educator, and military strategist, and the crowning synthesizer of the School of Mind. A jinshi of 1499, he was exiled to Longchang, Guizhou after offending eunuch Liu Jin; there he attained enlightenment, establishing that 'mind is principle.' As Grand Coordinator of southern Jiangxi he suppressed banditry, and in just thirty-five days quelled Prince Ning's rebellion, developing his doctrine of 'extending innate knowledge' (zhi liangzhi). His final teaching crystallized in the Four-Sentence Teaching and the Tianquan verification. Breaking Zhu Xi's separation of mind and principle, he taught that there is nothing outside the mind; the way of the sage is self-sufficient in one's own nature. In war he practiced 'an unmoved mind, acting according to circumstances.' Major works: Chuanxilu (Instructions for Practical Living), Da Xue Wen, and the Complete Works.",
-  "key_works_zh": ["《传习录》", "《大学问》", "《王文成公全书》"],
-  "key_works_en": ["Chuanxilu (Instructions for Practical Living)", "Da Xue Wen (Inquiry on the Great Learning)", "Complete Works of Wang Wencheng"],
-  "core_concepts_zh": ["心即理", "知行合一", "致良知", "心外无物", "龙场悟道", "四句教", "事上磨练", "万物一体", "圣人之道吾性自足", "此心不动随机而动"],
-  "core_concepts_en": ["Mind is Principle", "Unity of Knowledge and Action", "Extending Innate Knowledge", "Nothing Outside the Mind", "Longchang Enlightenment", "Four-Sentence Teaching", "Refinement through Affairs", "All Things Form One Body", "The Sage's Way is Self-Sufficient in My Nature", "Unmoved Mind Acting on Circumstances"],
-  "mode_ids": ["M01", "M02", "M03", "M04", "M05", "M06", "M07", "M08", "M09", "M10"],
-  "tags": ["心即理", "心外无物", "心外无理", "岩中花树", "龙场悟道", "圣人之道吾性自足", "向之求理于事物者误也", "知行合一", "知是行之始", "行是知之成", "知而不行只是未知", "一念发动处便是行", "致良知", "良知良能", "是非之心", "良知是个是非之心", "四句教", "无善无恶心之体", "有善有恶意之动", "知善知恶是良知", "为善去恶是格物", "天泉证道", "四有四无", "事上磨练", "人须在事上磨", "静亦定动亦定", "破山中贼易破心中贼难", "省察克治", "格物正念头", "拔本塞源", "万物一体之仁", "视天下犹一家", "精一之功", "惟精惟一", "立必为圣人之志", "立志", "持志如心痛", "减法功夫", "去人欲存天理", "吾辈用功只求日减", "随才成就", "因材施教", "各人尽着自己力量精神", "满街都是圣人", "点化人才", "此心不动随机而动", "以良知用兵", "攻心为上", "声东击西", "先声夺人", "用兵何术但学问纯笃", "徐爱问答", "南镇观花", "遗命四句", "无善无恶理之静", "有善有恶气之动", "陆王心学", "姚江学派", "泰州学派", "知行本体", "诚意慎独", "戒慎恐惧", "致知格物"],
-  "tags_en": ["Mind is Principle", "Unity of Knowledge and Action", "Extending Innate Knowledge", "Four-Sentence Teaching", "Refinement through Affairs", "All Things One Body", "Unmoved Mind in Warfare", "Longchang Enlightenment", "Lu-Wang School of Mind"],
+  "gender": "Male",
+  "ethnicity": "汉族",
+  "nationality": "中国（明）",
+  "civilization_sphere": "East Asian Confucian Cultural Sphere",
+  "time_period_standardized": "1472-1529 CE",
+  "primary_language": "Chinese",
+  "intellectual_tradition": "Yangming School of Mind (synthesizer of Lu-Wang tradition), from Yuyao, Zhejiang; founder of Yaojiang School, ancestor of Taizhou School and Japanese Yangming studies",
+  "school": "School of Mind / Yangming School",
+  "style_name": "Bo'an",
+  "courtesy_name": "Master Yangming",
+  "representative_works": [
+    "《传习录》",
+    "《大学问》",
+    "《王文成公全书》"
+  ],
+  "historical_significance": "王阳明（1472—1529），名守仁，字伯安，浙江余姚人，明代最杰出的思想家、教育家、军事家，心学集大成者。弘治十二年进士，因得罪刘瑾谪贬贵州龙场驿丞，于龙场悟道，确立'心即理'宗旨。后任南赣巡抚平定匪乱，仅三十五日平定宁王朱宸濠之乱，创立'致良知'学说。晚年提出'知行合一''四句教'（无善无恶心之体，有善有恶意之动，知善知恶是良知，为善去恶是格物），天泉证道确立晚年定论。其学上承陆九渊'心即理'，下启泰州学派与日本阳明学，打破朱子学'析心与理为二'的格局，强调'心外无物、心外无理'，圣人之道吾性自足。用兵'此心不动，随机而动'，以良知用兵，声东击西、攻心为上。代表作《传习录》《大学问》《王文成公全书》。",
+  "core_thoughts": [
+    "心即理法（道德形上学/主体性）",
+    "知行合一法（知行关系/实践哲学）",
+    "致良知法（修养方法论/道德实践）",
+    "念念察识法（心性修养/自我觉察）",
+    "龙场悟本法（认知转折/顿悟方法）",
+    "四句教心法（心性修养/境界论）",
+    "事上磨练法（实践修养/处世哲学）",
+    "人人成圣法（人性论/教育哲学）",
+    "心外无物法（存在论/意义建构）",
+    "此心光明法（终极境界/生命态度）"
+  ],
+  "famous_quote": "Unity of knowledge and action: knowing is the beginning of action, action is the completion of knowing; Extending innate knowledge: that bit of innate knowing is your own criterion; Unmoved mind acting on circumstances; Four-sentence teaching: Mind substance is neither good nor evil, intention stirring has good and evil, innate knowing knows good and evil, rectifying affairs is doing good and removing evil",
+  "influence": "Wang Yangming (1472-1529), courtesy name Shouren, from Yuyao, Zhejiang, was the Ming dynasty's most distinguished philosopher, educator, and military strategist, and the crowning synthesizer of the School of Mind. A jinshi of 1499, he was exiled to Longchang, Guizhou after offending eunuch Liu Jin; there he attained enlightenment, establishing that 'mind is principle.' As Grand Coordinator of southern Jiangxi he suppressed banditry, and in just thirty-five days quelled Prince Ning's rebellion, developing his doctrine of 'extending innate knowledge.' His final teaching crystallized in the Four-Sentence Teaching and the Tianquan verification. Breaking Zhu Xi's separation of mind and principle, he taught that there is nothing outside the mind; the way of the sage is self-sufficient in one's own nature. In war he practiced 'an unmoved mind, acting according to circumstances.' Major works: Chuanxilu, Da Xue Wen, and the Complete Works.",
+  "thinking_mode_count": 10,
+  "mode_evidence": [
+    {
+      "mode_id": "M-WYM-001",
+      "evidence_zh": "《传习录》卷上：心即理也。天下又有心外之事，心外之理乎？",
+      "evidence_en": "Mind is principle. Is there anything outside the mind, or any principle outside the mind, in the world?",
+      "source": "《传习录》卷上"
+    },
+    {
+      "mode_id": "M-WYM-002",
+      "evidence_zh": "《传习录》卷上：知是行的主意，行是知的功夫；知是行之始，行是知之成。",
+      "evidence_en": "Knowing is the intention of acting; acting is the effort of knowing. Knowing is the beginning of acting; acting is the completion of knowing.",
+      "source": "《传习录》卷上"
+    },
+    {
+      "mode_id": "M-WYM-003",
+      "evidence_zh": "《传习录》卷中：致吾心之良知于事事物物也。吾心之良知，即所谓天理也。致吾心良知之天理于事事物物，则事事物物皆得其理矣。",
+      "evidence_en": "Extend the liangzhi of my mind to all things. The liangzhi of my mind is what is called Heavenly Principle. To extend the Heavenly Principle of my liangzhi to all things is so that all things receive their proper order.",
+      "source": "《传习录》卷中"
+    },
+    {
+      "mode_id": "M-WYM-004",
+      "evidence_zh": "《传习录》卷上：善念发而知之，而充之；恶念发而知之，而遏之。",
+      "evidence_en": "When a good thought arises, one knows it and expands it; when an evil thought arises, one knows it and restrains it.",
+      "source": "《传习录》卷上"
+    },
+    {
+      "mode_id": "M-WYM-005",
+      "evidence_zh": "《王阳明年谱》：圣人之道，吾性自足，向之求理于事物者误也。",
+      "evidence_en": "The Way of the sage is fully present within my nature; seeking principle in external things was the error all along.",
+      "source": "《王阳明年谱》"
+    },
+    {
+      "mode_id": "M-WYM-006",
+      "evidence_zh": "《传习录》卷下：无善无恶心之体，有善有恶意之动，知善知恶是良知，为善去恶是格物。",
+      "evidence_en": "The substance of mind transcends good and evil; when thoughts arise, there is good and evil; innate knowing discerns good and evil; Gewu is the practical work of promoting good and eliminating evil.",
+      "source": "《传习录》卷下"
+    },
+    {
+      "mode_id": "M-WYM-007",
+      "evidence_zh": "《传习录》卷上：人须在事上磨，方立得住，方能静亦定、动亦定。",
+      "evidence_en": "One must be tempered in affairs to stand firm, to be stable in motion as in stillness.",
+      "source": "《传习录》卷上"
+    },
+    {
+      "mode_id": "M-WYM-008",
+      "evidence_zh": "《传习录》卷上：圣人可学而至。",
+      "evidence_en": "The sage can be reached through learning.",
+      "source": "《传习录》卷上"
+    },
+    {
+      "mode_id": "M-WYM-009",
+      "evidence_zh": "《传习录》卷下：你未看此花时，此花与汝心同归于寂；你来看此花时，则此花颜色一时明白起来。",
+      "evidence_en": "When you have not yet looked at this flower, the flower and your mind return to silence together; when you come to look at this flower, its color suddenly becomes clear.",
+      "source": "《传习录》卷下"
+    },
+    {
+      "mode_id": "M-WYM-010",
+      "evidence_zh": "《王阳明年谱》：此心光明，亦复何言。",
+      "evidence_en": "This mind is luminous, what more is there to say?",
+      "source": "《王阳明年谱》"
+    }
+  ],
+  "tags": [
+    "心即理",
+    "心外无物",
+    "心外无理",
+    "岩中花树",
+    "龙场悟道",
+    "圣人之道吾性自足",
+    "向之求理于事物者误也",
+    "知行合一",
+    "知是行之始",
+    "行是知之成",
+    "知而不行只是未知",
+    "一念发动处便是行",
+    "致良知",
+    "良知良能",
+    "是非之心",
+    "良知是个是非之心",
+    "四句教",
+    "无善无恶心之体",
+    "有善有恶意之动",
+    "知善知恶是良知",
+    "为善去恶是格物",
+    "天泉证道",
+    "四有四无",
+    "事上磨练",
+    "人须在事上磨",
+    "静亦定动亦定",
+    "破山中贼易破心中贼难",
+    "省察克治",
+    "格物正念头",
+    "拔本塞源",
+    "心即理法",
+    "知行合一法",
+    "致良知法",
+    "念念察识法",
+    "龙场悟本法",
+    "四句教心法",
+    "事上磨练法",
+    "人人成圣法",
+    "心外无物法",
+    "此心光明法",
+    "Mind-Is-Principle Method",
+    "Unity-of-Knowing-and-Acting Method",
+    "Extending-Innate-Knowing Method",
+    "Discerning-Each-Thought Method",
+    "Longchang Enlightenment Method",
+    "Four-Sentence Teaching Method",
+    "Tempering-in-Affairs Method",
+    "Everyone-Becomes-Sage Method",
+    "Nothing-Outside-Mind Method",
+    "This-Mind-Is-Luminous Method",
+    "Wang Yangming",
+    "WangYangming",
+    "School of Mind",
+    "Mind-is-Principle",
+    "阳明心学",
+    "心学"
+  ],
   "cross_references": [
     {
-      "target_figure_code": "H-ZX-001",
+      "target_figure_code": "H-ZHX-001",
       "relation_type": "vs",
       "description_zh": "心即理 vs 性即理：王阳明批评朱子'析心与理为二'，主张理不在事物而在吾心；朱子格物穷理是外向认识论，阳明格物正念头是内向实践论。这是宋明理学'理学'与'心学'两系的分水岭。",
       "description_en": "Mind-is-Principle vs Nature-is-Principle: Wang criticized Zhu Xi's splitting of mind and principle; Zhu's investigation of things is outward-directed epistemology, Wang's is inward-directed praxis. This is the watershed between Neo-Confucian rationalism and the School of Mind."
@@ -55,12 +199,151 @@
     }
   ],
   "protreptic_mapping": {
-    "认识论": ["M01", "M02", "M03"],
-    "伦理学": ["M04", "M05"],
-    "方法论": ["M06", "M07"],
-    "教育学": ["M08"],
-    "军事学": ["M09"],
-    "价值论": ["M10"]
+    "本体论": [
+      "M-WYM-001",
+      "M-WYM-009"
+    ],
+    "认识论": [
+      "M-WYM-002",
+      "M-WYM-005"
+    ],
+    "工夫论": [
+      "M-WYM-003",
+      "M-WYM-004",
+      "M-WYM-006",
+      "M-WYM-007"
+    ],
+    "境界论": [
+      "M-WYM-008",
+      "M-WYM-010"
+    ]
   },
-  "source_files": ["H-WYM-001.json", "H-WYM-001_modes.json"]
+  "source_files": [
+    "H-WYM-001.json",
+    "H-WYM-001_modes.json",
+    "H-WAN-001_modes.json (Phase 20 research, t_18e6db0b)",
+    "phase20_wangyangming_research.md"
+  ],
+  "modern_value_zh": [
+    "心即理法——价值判断的自主性",
+    "知行合一法——克服知行脱节",
+    "致良知法——道德直觉的培养",
+    "念念察识法——正念冥想",
+    "龙场悟本法——逆境中的认知突破",
+    "四句教心法——超越二元对立的思维",
+    "事上磨练法——职场中的修行",
+    "人人成圣法——自我提升的动力",
+    "心外无物法——意义建构的方法",
+    "此心光明法——生命意义的追问"
+  ],
+  "modern_value_en": [
+    "Mind-Is-Principle Method: Autonomy of value judgment",
+    "Unity-of-Knowing-and-Acting Method: Overcoming knowledge-action gap",
+    "Extending-Innate-Knowing Method: Cultivation of moral intuition",
+    "Discerning-Each-Thought Method: Mindfulness meditation",
+    "Longchang Enlightenment Method: Cognitive breakthrough in adversity",
+    "Four-Sentence Teaching Method: Thinking beyond binary opposition",
+    "Tempering-in-Affairs Method: Cultivation in the workplace",
+    "Everyone-Becomes-Sage Method: Motivation for self-improvement",
+    "Nothing-Outside-Mind Method: Methods of meaning construction",
+    "This-Mind-Is-Luminous Method: Searching for the meaning of life"
+  ],
+  "place_of_origin": "Shaoxing Prefecture, Yuyao County (now Yuyao, Zhejiang)",
+  "modes": [
+    "M-WYM-001",
+    "M-WYM-002",
+    "M-WYM-003",
+    "M-WYM-004",
+    "M-WYM-005",
+    "M-WYM-006",
+    "M-WYM-007",
+    "M-WYM-008",
+    "M-WYM-009",
+    "M-WYM-010"
+  ],
+  "unique_thing": "Wang Yangming's core achievement was 'a total mobilization of thought': he moved the 'external heavenly principle' of Neo-Confucianism back into the human mind—'mind is principle,' 'nothing outside the mind,' 'my nature is self-sufficient'—thus relocating moral authority from external classics to inner illumination. He was not just a armchair philosopher but a military genius with real power—quelling Prince Ning's rebellion in thirty-five days with 'an unmoved mind, acting according to circumstances'; he used the 'Four-Sentence Teaching' as his final doctrine, a framework integrating both sudden and gradual paths. He proved: thought need not be suspended in abstraction, philosophy can govern—the greatest legacy of Yangming studies is the command of 'unity of knowledge and action': knowing and doing cannot be separated in concept, true knowing necessarily entails doing.",
+  "region": "东亚",
+  "country": "中国（明）",
+  "domain": "哲学/心学/军事",
+  "biography_zh": "王阳明（1472—1529），名守仁，字伯安，浙江余姚人，明代最杰出的思想家、教育家、军事家，心学集大成者。弘治十二年进士，因得罪刘瑾谪贬贵州龙场驿丞，于龙场悟道，确立'心即理'宗旨。后任南赣巡抚平定匪乱，仅三十五日平定宁王朱宸濠之乱，创立'致良知'学说。晚年提出'知行合一''四句教'（无善无恶心之体，有善有恶意之动，知善知恶是良知，为善去恶是格物），天泉证道确立晚年定论。其学上承陆九渊'心即理'，下启泰州学派与日本阳明学，打破朱子学'析心与理为二'的格局，强调'心外无物、心外无理'，圣人之道吾性自足。用兵'此心不动，随机而动'，以良知用兵，声东击西、攻心为上。代表作《传习录》《大学问》《王文成公全书》。",
+  "biography_en": "Wang Yangming (1472-1529), courtesy name Shouren, from Yuyao, Zhejiang, was the Ming dynasty's most distinguished philosopher, educator, and military strategist, and the crowning synthesizer of the School of Mind. A jinshi of 1499, he was exiled to Longchang, Guizhou after offending eunuch Liu Jin; there he attained enlightenment, establishing that 'mind is principle.' As Grand Coordinator of southern Jiangxi he suppressed banditry, and in just thirty-five days quelled Prince Ning's rebellion, developing his doctrine of 'extending innate knowledge' (zhi liangzhi). His final teaching crystallized in the Four-Sentence Teaching and the Tianquan verification. Breaking Zhu Xi's separation of mind and principle, he taught that there is nothing outside the mind; the way of the sage is self-sufficient in one's own nature. In war he practiced 'an unmoved mind, acting according to circumstances.' Major works: Chuanxilu (Instructions for Practical Living), Da Xue Wen, and the Complete Works.",
+  "key_works_zh": [
+    "《传习录》",
+    "《大学问》",
+    "《王文成公全书》"
+  ],
+  "key_works_en": [
+    "Chuanxilu (Instructions for Practical Living)",
+    "Da Xue Wen (Inquiry on the Great Learning)",
+    "Complete Works of Wang Wencheng"
+  ],
+  "core_concepts_zh": [
+    "心即理",
+    "知行合一",
+    "致良知",
+    "心外无物",
+    "龙场悟道",
+    "四句教",
+    "事上磨练",
+    "万物一体",
+    "圣人之道吾性自足",
+    "此心不动随机而动"
+  ],
+  "core_concepts_en": [
+    "Mind is Principle",
+    "Unity of Knowledge and Action",
+    "Extending Innate Knowledge",
+    "Nothing Outside the Mind",
+    "Longchang Enlightenment",
+    "Four-Sentence Teaching",
+    "Refinement through Affairs",
+    "All Things Form One Body",
+    "The Sage's Way is Self-Sufficient in My Nature",
+    "Unmoved Mind Acting on Circumstances"
+  ],
+  "mode_ids": [
+    "M-WYM-001",
+    "M-WYM-002",
+    "M-WYM-003",
+    "M-WYM-004",
+    "M-WYM-005",
+    "M-WYM-006",
+    "M-WYM-007",
+    "M-WYM-008",
+    "M-WYM-009",
+    "M-WYM-010"
+  ],
+  "tags_en": [
+    "Mind is Principle",
+    "Unity of Knowledge and Action",
+    "Extending Innate Knowledge",
+    "Four-Sentence Teaching",
+    "Refinement through Affairs",
+    "All Things One Body",
+    "Unmoved Mind in Warfare",
+    "Longchang Enlightenment",
+    "Lu-Wang School of Mind"
+  ],
+  "mode_ids_note": "Phase 20 深度研究（上游 t_18e6db0b）产出 10 条 v6 模式，研究稿临时 ID 为 M-WAN-001~010；入库时统一为库内既有编码 M-WYM-001~010（figure code H-WYM-001，Phase 21 已由 code_maps 裁定），每条模式的 research_mode_id 字段保留研究稿原始 ID。图档 mode_evidence/core_thoughts/protreptic_mapping 已按 Phase 20 模式重写；Phase 21 建档的 10 条档案模式保留在 data/individuals/H-WYM-001_modes.json。",
+  "phase20": {
+    "landed_by": "elcano",
+    "task": "t_6077a578",
+    "research_task": "t_18e6db0b",
+    "research_code": "H-WAN-001",
+    "library_code": "H-WYM-001",
+    "mode_id_mapping": {
+      "M-WAN-001": "M-WYM-001",
+      "M-WAN-002": "M-WYM-002",
+      "M-WAN-003": "M-WYM-003",
+      "M-WAN-004": "M-WYM-004",
+      "M-WAN-005": "M-WYM-005",
+      "M-WAN-006": "M-WYM-006",
+      "M-WAN-007": "M-WYM-007",
+      "M-WAN-008": "M-WYM-008",
+      "M-WAN-009": "M-WYM-009",
+      "M-WAN-010": "M-WYM-010"
+    },
+    "landed_at": "20260922_143757",
+    "supersedes": "Phase 21 建档模式内容（保留于 data/individuals/H-WYM-001_modes.json）"
+  }
 }

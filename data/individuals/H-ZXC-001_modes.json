@@ -543,5 +543,711 @@
     "generation_date": "2026-09-09",
     "mode_count": 10,
     "phase": "Phase 21"
-  }
+  },
+  "thinking_modes_v6_phase20": [
+    {
+      "id": "M-ZXC-001",
+      "mode_code": "M-ZXC-001",
+      "research_mode_id": "M359",
+      "name_zh": "六经皆史法",
+      "name_en": "All Six Classics Are History Method",
+      "category": "历史哲学",
+      "domain_zh": "经典观/知识论",
+      "domain_en": "View of Classics / Epistemology",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "六经皆史也：古人未尝离事而言理，六经皆先王之政典。经的神圣性不在于超验教条，而在于它们是曾经运作过的制度与事务的记录——道在事中，即器存道。此法把一切「经典」还原为「史料」，把义理之辩还原为对具体政事实践的理解，釜底抽薪地取消了空谈心性与悬空立说的合法性。",
+      "definition_en": "'All the Six Classics are history': the ancients never discoursed on principle apart from affairs; the Classics are records of the governance of former kings. The authority of a classic lies not in transcendent dogma but in its being a record of institutions once in operation—Dao resides in affairs. This method reduces 'classics' to 'historical sources,' grounding principle in concrete institutional practice and deflating empty theorizing.",
+      "source_chapter": "《文史通义·易教上》",
+      "key_concepts": [
+        "六经皆史",
+        "道在事中",
+        "即器存道",
+        "先王政典",
+        "未尝离事而言理"
+      ],
+      "process_zh": [
+        "把被尊为「经」的文本重新定位为其时代的政典记录",
+        "追问每一义理命题背后对应的制度与事务实践",
+        "以「事」检验「言」：凡离事而言理者皆存疑",
+        "在具体制度史中重建思想的本义"
+      ],
+      "process_en": [
+        "Relocate canonical texts as records of the governance of their era",
+        "Trace every doctrinal claim back to the institutions and affairs behind it",
+        "Test words by deeds: suspect any principle detached from affairs",
+        "Reconstruct original meaning within institutional history"
+      ],
+      "key_quote_zh": "六经皆史也。古人不著书，古人未尝离事而言理，六经皆先王之政典也。",
+      "key_quote_en": "All the Six Classics are history. The ancients did not 'author books'; they never spoke of principle apart from affairs; the Six Classics are all governmental records of former kings.",
+      "representative_cases_zh": [
+        "《文史通义》开篇即以《易教》诸篇论证六经皆为政典，颠覆尊经贬史的传统等级",
+        "以「官师治教合而为一」解释三代学术何以无私人著述"
+      ],
+      "representative_cases_en": [
+        "The opening chapters of 'Wenshi Tongyi' argue that all Six Classics are governmental records, overturning the traditional hierarchy that exalts classics above history",
+        "Explains why the Three Dynasties had no private scholarship through the concept of 'unity of official and teacher in governance and education'"
+      ],
+      "modern_applications_zh": [
+        "一手制度档案优先于抽象理论文本的研究策略",
+        "把「权威文本」历史化、语境化的批判性阅读",
+        "治理研究以实际运作记录而非口号为据"
+      ],
+      "modern_applications_en": [
+        "Prioritize institutional archives over abstract theoretical texts",
+        "Historicize and contextualize 'authoritative' texts critically",
+        "Ground governance research in operational records, not slogans"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-002",
+        "M-ZXC-005"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-002",
+      "mode_code": "M-ZXC-002",
+      "research_mode_id": "M360",
+      "name_zh": "撰述记注二分法",
+      "name_en": "Creative Composition vs. Documentary Registration Method",
+      "category": "方法论",
+      "domain_zh": "史学方法论",
+      "domain_en": "Historiographical Methodology",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "圆神而撰，方智以记：史有二体——撰述欲其圆而神，记注欲其方以智也。「撰述」是成一家之言的创造性著作，需别识心裁、因事命篇、不为成法所拘；「记注」是史官有定律的资料保存。混淆二者则产生以考据琐碎冒充著述、或以空论冒充著作的双重弊病。此法为知识生产确立了「资料层」与「创作层」的分工界面。",
+      "definition_en": "History has two genres: 'creative composition' (yuan er shen) — one's own voice, shaped by insight, free of fixed formula — and 'documentary registration' (fang yi zhi) — rule-bound preservation by the historiographical office. Confusing them produces both pedantry masquerading as authorship and empty discourse masquerading as books. This method defines the interface between the data layer and the creation layer of knowledge production.",
+      "source_chapter": "《文史通义·书教下》",
+      "key_concepts": [
+        "圆神",
+        "方智",
+        "撰述",
+        "记注",
+        "成一家之言",
+        "别识心裁"
+      ],
+      "process_zh": [
+        "先判明手中材料是原始记注还是已有撰述",
+        "为记注立严格的体例与留存规范，不让著述野心侵入",
+        "为撰述保留「因事命篇」的自由：不迁就旧例",
+        "以「成一家之言」检验撰述：无别识心裁者不作"
+      ],
+      "process_en": [
+        "Classify material: raw registration or existing composition",
+        "Enforce strict conventions for registration; keep it free of authorial ambition",
+        "Reserve compositional freedom ('ordering chapters by subject, not by precedent') for creative work",
+        "Test composition by 'making one's own voice': no insight, no book"
+      ],
+      "key_quote_zh": "《尚书》圆而神，其于史也，可谓天之至矣；撰述欲其圆而神，记注欲其方以智也。迁书体圆用神，班氏体方用智。",
+      "key_quote_en": "The Documents are round and spiritual—the utmost of history; creative composition should be round and spiritual, documentary registration square and wise. Sima Qian's Shiji embodies roundness with spirit; Ban Gu's Hanshu squareness with wisdom.",
+      "representative_cases_zh": [
+        "《书教下》以《尚书》《春秋》两系梳理三千年史体流变，为纪事本末体正名",
+        "批评类书纂辑之家冒充著述"
+      ],
+      "representative_cases_en": [
+        "'Shujiao Xia' traces three millennia of historiographical tradition through two lineages of Documents and Spring and Autumn, legitimizing the narrative-episode form",
+        "Critiques encyclopedists who masquerade as authors"
+      ],
+      "modern_applications_zh": [
+        "数据基础设施与上层分析创作的分层架构设计",
+        "区分「记录系统」与「叙事系统」的软件/组织设计",
+        "学术规范：原始数据留存与观点写作分离"
+      ],
+      "modern_applications_en": [
+        "Layered architecture separating data infrastructure from analytic authorship",
+        "Distinguish recording systems from narrative systems in software and organizations",
+        "Separate raw data preservation from interpretive writing in research practice"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-001",
+        "M-ZXC-004"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-003",
+      "mode_code": "M-ZXC-003",
+      "research_mode_id": "M361",
+      "name_zh": "史德养心法",
+      "name_en": "Historical Virtue Method (Cultivating the Historian's Heart)",
+      "category": "史学伦理",
+      "domain_zh": "学术伦理/心术",
+      "domain_en": "Scholarly Ethics / Rectitude of Heart",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "才学识三长，得一犹不易，而史德尤为其要：能具史识者，必知史德；德者何？谓著书者之心术也。史家之病不在公然伪造事实，而在「似公实私」——以理抗势易，以理制情难；文章之士务求胜人而不惧其偏。故须「慎辨于天人之际，尽其天而不益以人」：把史家主观的「人」压到最低，让事实之「天」自己显现。",
+      "definition_en": "To the three classical qualifications (talent, learning, insight) Zhang adds 'historical virtue' — the rectitude of the author's heart. The danger is not crude falsification but 'seemingly impartial yet privately motivated' writing: resisting power with principle is easy; restraining one's own partiality is hard. Hence 'carefully discern the boundary between the natural (tian) and the human (ren): exhaust what is natural and add nothing human' — minimize the historian's subjectivity so facts may show themselves.",
+      "source_chapter": "《文史通义·史德》",
+      "key_concepts": [
+        "史德",
+        "心术",
+        "慎辨天人之际",
+        "尽其天而不益以人",
+        "似公实私"
+      ],
+      "process_zh": [
+        "著述前先审自己的动机：求胜人还是求真？",
+        "识别「气」与「情」对叙述的染色：气失则荡，情失则流",
+        "以「天」（事实）为量，不以「人」（己意）为量",
+        "事后复核：文中何处是事实陈述、何处是自我立场渗入"
+      ],
+      "process_en": [
+        "Audit motive before writing: to defeat rivals or to reach truth?",
+        "Detect coloring by temperament and emotion: excess qi makes narrative dissolute",
+        "Measure by facts (tian), not by one's own intent (ren)",
+        "Audit afterward: mark where fact ends and self intrudes"
+      ],
+      "key_quote_zh": "能具史识者，必知史德。德者何？谓著书者之心术也。当慎辨于天人之际，尽其天而不益以人。",
+      "key_quote_en": "Whoever possesses historical insight must know historical virtue. What is virtue? The rectitude of the writer's heart... Carefully discern the boundary between the natural and the human: exhaust the natural and add nothing human.",
+      "representative_cases_zh": [
+        "《史德》篇以《史记》《汉书》文胜之弊说明心术之微影响叙述之公",
+        "提出救弊之方在养心：气贵于平、情贵于正"
+      ],
+      "representative_cases_en": [
+        "The 'Shide' chapter uses the literary excesses of Records and Book of Han to show how subtle shifts in heart-mind affect narrative fairness",
+        "Proposes nurturing the heart as remedy: qi must be balanced, emotion must be upright"
+      ],
+      "modern_applications_zh": [
+        "研究者利益冲突与立场偏差的自我审计",
+        "新闻报道与历史写作的中立性操作规程",
+        "数据可视化中防止叙事性夸大"
+      ],
+      "modern_applications_en": [
+        "Self-audit of researcher bias and conflicts of interest",
+        "Operational neutrality protocols for reporting and history writing",
+        "Guarding against narrative inflation in data visualization"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-004",
+        "M-ZXC-009"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-004",
+      "mode_code": "M-ZXC-004",
+      "research_mode_id": "M362",
+      "name_zh": "别识心裁法",
+      "name_en": "Independent Insight Method (Bieshi Xincai)",
+      "category": "创作论",
+      "domain_zh": "学术创新/著述论",
+      "domain_en": "Scholarly Innovation / Authorship",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "独断之学与考索之功，非但用功有难易，抑且用心有深浅：高明者多独断之学，沉潜者尚考索之功。学问之可贵的不是材料的堆集，而是「别识心裁」——从材料中见出他人未见之条理与问题，作成一家之言。考据家以驳杂为博、以絮募为功，实为学之蔽。此法把「提问的原创性」置于「答案的完整性」之上。",
+      "definition_en": "'Original judgment' (duanxue) and 'investigative labor' (kaosuo) differ not only in difficulty but in the depth of mind required. The bold excel at original judgment; the thorough at investigation. The value of scholarship lies not in heaped material but in bieshi xincai — seeing structure and questions others miss, and making one's own voice. This method ranks originality of questioning above completeness of answer.",
+      "source_chapter": "《文史通义·答客问中》/《博约》",
+      "key_concepts": [
+        "独断之学",
+        "考索之功",
+        "别识心裁",
+        "成一家之言",
+        "高明沉潜"
+      ],
+      "process_zh": [
+        "读完材料后强制自问：这里的真问题是什么？",
+        "拒绝以「考据完备」替代「判断成形」",
+        "以「一家之言」标准要求成果：有统摄的论点而非散点结论",
+        "区分自己所见与前人所见，明确增量"
+      ],
+      "process_en": [
+        "After surveying material, force the question: what is the real problem here?",
+        "Refuse to let exhaustive verification substitute for formed judgment",
+        "Demand a unitary thesis, not scattered conclusions",
+        "State explicitly the increment beyond prior views"
+      ],
+      "key_quote_zh": "独断之学，非是不为取裁；考索之功，非是不为按据。高明者由大略而切求，沉潜者循度数而徐达。",
+      "key_quote_en": "Original judgment is not without its material for selection; investigative labor is not without its grounds of evidence. The bold proceed from broad outline to exacting inquiry; the thorough advance slowly through measured degrees.",
+      "representative_cases_zh": [
+        "《答客问》三篇以问答体为「独断之学」辩护，反击乾嘉考据家对史论之作的轻视",
+        "自许《文史通义》为「一家之言」，不当与一般考据比量"
+      ],
+      "representative_cases_en": [
+        "The 'Da Ke Wen' trilogy defends 'original judgment' through dialogue form, countering Qing evidential scholars' disdain for works of historiographical judgment",
+        "Claims 'Wenshi Tongyi' as 'one's own voice,' refusing to be measured against mere evidential scholarship"
+      ],
+      "modern_applications_zh": [
+        "研究与工程中区分「解决问题」与「定义问题」的能力",
+        "评审标准设计：奖励原创问题而非只奖励工作量",
+        "个人知识管理：由资料收集转向观点锻造"
+      ],
+      "modern_applications_en": [
+        "Distinguish solving problems from defining problems in research and engineering",
+        "Design review criteria rewarding original questions, not just effort",
+        "Shift personal knowledge work from collecting to forging viewpoints"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-002",
+        "M-ZXC-008"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-005",
+      "mode_code": "M-ZXC-005",
+      "research_mode_id": "M363",
+      "name_zh": "道器不离法",
+      "name_en": "Dao Inseparable from Vessels Method",
+      "category": "本体论",
+      "domain_zh": "道器论/实践哲学",
+      "domain_en": "Metaphysics / Philosophy of Practice",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "道不离器，犹影不离形：道因器而显，不因器而亡。天下岂有离器言道、离形存影者哉？道不能离开具体的制度、事业、器物而独存；同样，「理」不能离开事象独谈。宋明理学悬「道」于空言，恰是离器言道之病。此法把一切抽象原理落实为「在何种具体结构中运作」的追问，是清代「实学」转向的哲学基础。",
+      "definition_en": "Dao is inseparable from vessels as shadow from form: Dao manifests through vessels and perishes not with any one vessel. There is no speaking of Dao apart from concrete institutions, undertakings, and things. Neo-Confucianism's suspension of Dao in empty discourse is precisely the disease of separating Dao from vessels. This method converts every abstract principle into the question: in what concrete structure does it operate?",
+      "source_chapter": "《文史通义·原道中》/《原道下》",
+      "key_concepts": [
+        "道不离器",
+        "即器存道",
+        "影不离形",
+        "道因器而显"
+      ],
+      "process_zh": [
+        "遇抽象命题先问：它的「器」是什么（制度、实践、载体）？",
+        "考察该器物史：道如何随器演变",
+        "拒绝离开载体的纯理论争论",
+        "改造或替换器物时同步重估道之表述"
+      ],
+      "process_en": [
+        "For any abstract claim ask: what is its vessel (institution, practice, medium)?",
+        "Trace vessel-history: how Dao shifts as vessels change",
+        "Refuse purely theoretical disputes detached from carriers",
+        "Re-evaluate doctrinal formulations when vessels are reformed"
+      ],
+      "key_quote_zh": "道不离器，犹影不离形。夫天下岂有离器言道、离形存影者哉？",
+      "key_quote_en": "Dao does not leave its vessel, as shadow does not leave its form. Is there anywhere in the world a Dao discussed apart from vessels, a shadow preserved apart from its shape?",
+      "representative_cases_zh": [
+        "《原道》三篇重构「道」的谱系：自三人居室而至制作典宪，道在人群协作之器中渐显",
+        "以「六经皆先王政典」支撑六经皆史——经之为道正因其为器"
+      ],
+      "representative_cases_en": [
+        "The 'Yuandao' trilogy reconstructs the genealogy of Dao: from three-person households to institutional codes, Dao emerges gradually in the vessels of human collaboration",
+        "Supports 'all classics are history' through 'six classics are former kings' governmental records' — the classics embody Dao precisely because they are vessels"
+      ],
+      "modern_applications_zh": [
+        "制度设计优先于口号倡导的改革路径",
+        "组织能力建设：能力寓于流程与工具而非文档",
+        "技术哲学：媒介即讯息的中国先声"
+      ],
+      "modern_applications_en": [
+        "Reform via institutional design rather than slogan advocacy",
+        "Organizational capability resides in processes and tools, not documents",
+        "An indigenous anticipation of 'the medium is the message'"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-001",
+        "M-ZXC-007"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-006",
+      "mode_code": "M-ZXC-006",
+      "research_mode_id": "M364",
+      "name_zh": "辨章学术考镜源流法",
+      "name_en": "Genealogy of Knowledge Method (Bianzhang Kaojing)",
+      "category": "知识组织",
+      "domain_zh": "目录学/校雠学",
+      "domain_en": "Bibliography / Knowledge Organization",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "校雠之义，盖自刘向父子：部次条别，将以辨章学术，考镜源流。目录不是图书清单，而是知识谱系的地图：通过分类结构与源流梳理，呈现一门学问如何发生、分派、传承、亡佚。非深明于道术精微、群言得失之故者，不足与言校雠。此法把知识组织本身升级为一门研究方法——以结构理解内容。",
+      "definition_en": "The purpose of bibliographic collation, since Liu Xiang and Liu Xin, is 'to delineate the scholarship and mirror its sources' — a catalogue is not an inventory but a genealogical map of knowledge, showing how a discipline arose, branched, was transmitted, and was lost. This method upgrades knowledge organization itself into a research method: understanding content through structure.",
+      "source_chapter": "《校雠通义·叙》/《互著》",
+      "key_concepts": [
+        "辨章学术",
+        "考镜源流",
+        "部次条别",
+        "互著别裁",
+        "即类求书因书究学"
+      ],
+      "process_zh": [
+        "为一知识领域建立分类结构，分类标准反映学术分派而非藏书方便",
+        "为每一支派梳理源流：创于谁、变于谁、亡于何时",
+        "用互著（一书两属）处理跨类知识，避免单一分类暴力",
+        "以谱系图输出：让结构自己显出知识盲区与断层"
+      ],
+      "process_en": [
+        "Build classifications that reflect intellectual lineages, not shelving convenience",
+        "Trace each lineage: founder, transformers, extinction point",
+        "Use cross-listing for interdisciplinary works, avoiding single-taxonomy violence",
+        "Output genealogy charts that expose gaps and lost branches"
+      ],
+      "key_quote_zh": "校雠之义，盖自刘向父子，部次条别，将以辨章学术，考镜源流。",
+      "key_quote_en": "The meaning of bibliographic collation, from Liu Xiang and his son onward, is to order and classify so as to delineate scholarship and mirror its sources.",
+      "representative_cases_zh": [
+        "《校雠通义》重评《七略》《汉志》分类得失，主张「即类求书，因书究学」",
+        "为《史籍考》设计分类框架，以目录学完成史学总梳理"
+      ],
+      "representative_cases_en": [
+        "'Xiaochou Tongyi' re-evaluates the classification gains and losses of 'Qilue' and 'Han Zhi', advocating 'seek books by category, investigate learning through books'",
+        "Designed the classification framework for 'Shiji Kao', completing a comprehensive historiographical survey through bibliographic methods"
+      ],
+      "modern_applications_zh": [
+        "知识库/本体的分类设计：以学科谱系为纲",
+        "文献综述的方法论升级：源流梳理而非清单罗列",
+        "组织知识资产的审计与断层发现"
+      ],
+      "modern_applications_en": [
+        "Design taxonomies/ontologies along disciplinary genealogy",
+        "Upgrade literature reviews from lists to lineage analysis",
+        "Audit organizational knowledge assets and expose gaps"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-001",
+        "M-ZXC-008"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-007",
+      "mode_code": "M-ZXC-007",
+      "research_mode_id": "M365",
+      "name_zh": "方志立三书法",
+      "name_en": "Gazetteer Three-Books Method",
+      "category": "制度设计",
+      "domain_zh": "方志学/地方史",
+      "domain_en": "Gazetteers / Local History",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "方志乃一方全史：志（著述正文，仿纪传之体）、掌故（典章制度档案，仿会要之体）、文征（诗文汇录，仿文选之体）三书并立。旧志以地理书、图经自限，实为大谬。此法把地方从「行政区划」升格为「完整的史料单元」，为地方建立与国家正史同构的知识工程：一地之叙事、制度、文献各有其载体，相互独立又互相印证。",
+      "definition_en": "A gazetteer is the complete history of a locality: three parallel books — the main chronicle (after the dynastic histories), institutional records (zhanggu, after the compendia), and literary collection (wenzheng, after the anthologies). Old gazetteers wrongly limited themselves to geography. This method upgrades the locality into a complete evidential unit, an isomorphic knowledge project mirroring the national history.",
+      "source_chapter": "《方志立三书议》",
+      "key_concepts": [
+        "一方全史",
+        "志",
+        "掌故",
+        "文征",
+        "三书并立",
+        "志科"
+      ],
+      "process_zh": [
+        "把记录对象拆为三层：叙事（志）、制度档案（掌故）、原始文献（文征）",
+        "三层各自独立成书、各自守其体例",
+        "以「全史」标准校验覆盖面：凡一地之大者不可缺层",
+        "叙事层须以档案与文献层为据，避免凭空撰述"
+      ],
+      "process_en": [
+        "Split the record into three layers: narrative, institutional archive, primary documents",
+        "Each layer an independent book under its own conventions",
+        "Check coverage against the 'complete history' standard",
+        "Ground the narrative layer in the archival and documentary layers"
+      ],
+      "key_quote_zh": "凡欲经纪一方之文献，必立三家之学，而始可以通古人之遗意也。仿纪传正史之体而作志，仿律令典例之体而作掌故，仿文选文苑之体而作文征。",
+      "key_quote_en": "To manage the records of a region one must establish three learning-tracks: a chronicle after the annals-biography form of the standard histories, institutional records after the statute form, and a literary collection after the anthology form.",
+      "representative_cases_zh": [
+        "主修《永清县志》《和州志》《湖北通志》时实践三书体，并设志科以常设机构保存地方档案",
+        "提议州县设立「志科」，把方志修纂从临时工程变为常设制度"
+      ],
+      "representative_cases_en": [
+        "Practiced the three-book system while editing 'Yongqing County Gazetteer', 'Hezhou Gazetteer', and 'Hubei General Gazetteer', establishing standing archive offices",
+        "Proposed establishing 'zhi ke' (gazetteer offices) at county level, transforming local history compilation from ad hoc project to permanent institution"
+      ],
+      "modern_applications_zh": [
+        "地方/组织知识库的三层架构：叙事层+制度层+文献层",
+        "常设档案机制（志科）即现代记录管理制度",
+        "城市史、企业史的编撰框架"
+      ],
+      "modern_applications_en": [
+        "Three-layer knowledge base: narrative + institutional + documentary",
+        "Standing archive mechanism = modern records management",
+        "Framework for urban and corporate history projects"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-002",
+        "M-ZXC-006"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-008",
+      "mode_code": "M-ZXC-008",
+      "research_mode_id": "M366",
+      "name_zh": "通史家风法",
+      "name_en": "Comprehensive-History Method (Tongshi Jiafeng)",
+      "category": "史学方法",
+      "domain_zh": "通史/会通",
+      "domain_en": "General History / Synthetic Mastery",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "通史之修，其便有六（免重复、均类例、便铨配、平是非、去抵牾、详邻事），其长有二（具翦裁、立家法）。断代为史各不相谋，通史家必须「会通」：于全史大势中安放每一时段，使各段互为照应。史以事义为经，不以朝代为界。此法反对把知识切成互不相干的断代孤岛，主张纵向贯通之「通」。",
+      "definition_en": "Compiling a general history has six advantages (avoiding repetition, unifying categories, facilitating coordination, balancing judgments, eliminating contradictions, detailing neighboring affairs) and two strengths (editorial shaping, establishing a school method). Dynastic histories never talk to each other; the general historian must 'conjoin' (huitong), placing every period within the whole's trajectory. History is threaded by affairs and meanings, not by dynastic boundaries.",
+      "source_chapter": "《文史通义·答客问上》/《释通》",
+      "key_concepts": [
+        "会通",
+        "通古今之变",
+        "述而不作",
+        "成一家之言",
+        "断代之弊"
+      ],
+      "process_zh": [
+        "先立全史大势的问题框架，再分段落笔",
+        "每一段落须说明其与前后的因果与对照",
+        "拒绝纯以朝代/组织周期切分知识单元",
+        "以「通」检验：抽去任一段，整体论证是否受损"
+      ],
+      "process_en": [
+        "Frame the whole-arc problem first, then write period by period",
+        "In each section state its causal and contrastive ties to neighbors",
+        "Refuse knowledge units cut purely by dynasty or org cycle",
+        "Test by removal: does the argument degrade without any one part?"
+      ],
+      "key_quote_zh": "通史之修，其便有六：一曰免重复，二曰均类例，三曰便铨配，四曰平是非，五曰去抵牾，六曰详邻事。其长有二：一曰具翦裁，二曰立家法。",
+      "key_quote_en": "Compiling a general history has six advantages: avoiding repetition; unifying categories; facilitating coordination; balancing judgments; eliminating contradictions; and detailing neighboring affairs. It has two strengths: editorial shaping, and establishing a school method.",
+      "representative_cases_zh": [
+        "《释通》篇系统论通史之利与弊，为通史与断代之辩立论",
+        "以会通眼光批评断代诸史互相矛盾处"
+      ],
+      "representative_cases_en": [
+        "The 'Shitong' chapter systematically discusses the advantages and disadvantages of general history, establishing the debate between continuous and dynastic histories",
+        "Uses a comprehensive-historical perspective to critique contradictions among dynastic histories"
+      ],
+      "modern_applications_zh": [
+        "长周期研究与战略叙事的跨期整合",
+        "组织历史知识时以问题为纲而非以部门为纲",
+        "跨领域综述的会通式写作法"
+      ],
+      "modern_applications_en": [
+        "Integrate long-arc research and strategic narrative across periods",
+        "Organize knowledge by problems rather than departments",
+        "Synthesis-style writing for cross-domain reviews"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-004",
+        "M-ZXC-006"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-009",
+      "mode_code": "M-ZXC-009",
+      "research_mode_id": "M367",
+      "name_zh": "文德敬恕法",
+      "name_en": "Literary Virtue of Reverence and Forbearance Method",
+      "category": "写作伦理",
+      "domain_zh": "文德论/批评方法",
+      "domain_en": "Ethics of Writing / Critical Method",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "文德即敬恕：敬则不苟，恕则公——「论古必恕」，非宽容之谓，谓能为古人设身而处地。批评任何作者，必须先还原其所处之情境与所对之问题，不以后见之明苛责前人。凡为文者必敬其事、恕其人：敬是不苟且下笔，恕是不轻易断人。此法把「理解先于评判」确立为批评的铁律。",
+      "definition_en": "Literary virtue is reverence (jing) and empathetic forbearance (shu): reverence forbids careless writing; forbearance means 'in judging antiquity, one must be shu' — not leniency but the capacity to place oneself in the ancients' situation. Before criticizing any author, reconstruct their context and the problem they faced; never judge predecessors with hindsight. Understanding precedes judgment.",
+      "source_chapter": "《文史通义·文德》",
+      "key_concepts": [
+        "文德",
+        "敬",
+        "恕",
+        "论古必恕",
+        "设身处地"
+      ],
+      "process_zh": [
+        "批评前先重建对方的处境：他所知什么、面对什么问题",
+        "区分「时代局限」与「个人过失」，两者批评的力度不同",
+        "检查自己的批评是否依赖后见之明",
+        "以「敬」约束表达：无确据不下断语"
+      ],
+      "process_en": [
+        "Reconstruct the author's situation: what they knew, what problem they faced",
+        "Distinguish epochal limits from personal faults; calibrate criticism accordingly",
+        "Check whether one's critique rides on hindsight",
+        "Let reverence discipline expression: no verdicts without evidence"
+      ],
+      "key_quote_zh": "凡为古文辞者，必敬以恕。临文必敬，非修德之谓也；论古必恕，非宽容之谓也。敬非修德之谓者，气摄而不纵，纵必不能中节也；恕非宽容之谓者，能为古人设身而处地也。",
+      "key_quote_en": "Whoever writes in the ancient style must be reverent and forbearing. Reverence before the text is not moral cultivation; forbearance toward antiquity is not leniency. Reverence is not moral cultivation: one gathers one's qi and does not let it run loose, for indulgence can never hit the mark. Forbearance is not leniency: it is the capacity to place oneself in the ancients' situation.",
+      "representative_cases_zh": [
+        "《文德》篇以知人论世重释批评之恕，为争议史家作语境化重估",
+        "主张「论古必先设身」，知其世而后论其文"
+      ],
+      "representative_cases_en": [
+        "The 'Wende' chapter reinterprets critical forbearance through contextual understanding, offering re-evaluation of controversial historians",
+        "Advocates that 'in judging antiquity one must first place oneself in the ancients' situation' — know their age before judging their writing"
+      ],
+      "modern_applications_zh": [
+        "代码评审与学术评审中的钢人论证原则（先重构对方最强论证再评判）",
+        "历史人物评价的语境化方法",
+        "公共讨论中「先理解再反驳」的规范"
+      ],
+      "modern_applications_en": [
+        "Steelmanning in code and peer review",
+        "Contextualized evaluation of historical figures",
+        "Norm of understanding before rebutting in public discourse"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-003",
+        "M-ZXC-004"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-ZXC-010",
+      "mode_code": "M-ZXC-010",
+      "research_mode_id": "M368",
+      "name_zh": "学术为公·嘉惠后学法",
+      "name_en": "Scholarship as Public Legacy Method",
+      "category": "学术志业",
+      "domain_zh": "学问观/传承伦理",
+      "domain_en": "Vocation of Learning / Legacy Ethics",
+      "level": "进阶",
+      "priority": 2,
+      "definition_zh": "学业将以救风气之敝，而风气之所由敝，正坐学术不明之故。学问非一人之私产：藏之名山、传之其人，「经世」之志不在当世得名，而在嘉惠后学。章学诚一生依人篱下、著述难刊，仍以「身后之名」自期，把完成体系置于当世荣辱之上。此法把学术的回报周期拉长到身后，以对抗流俗评价的短期主义。",
+      "definition_en": "Learning exists to remedy the diseases of the age, which stem from obscured scholarship. Knowledge is no private possession: to bequeath it to later learners is the true statecraft of the scholar. Zhang, dependent on patrons all his life and rarely published in his day, staked himself on posthumous recognition, valuing completing his system above contemporary applause — stretching the reward horizon of scholarship beyond one's own lifetime.",
+      "source_chapter": "《文史通义·浙东学术》/《家书》",
+      "key_concepts": [
+        "救风气之敝",
+        "嘉惠后学",
+        "藏之名山",
+        "身后之名",
+        "学术为公器"
+      ],
+      "process_zh": [
+        "以「是否有益于学风」而非「是否显于当世」选择课题",
+        "著述以体系完整为目标，不为速刊而碎片化",
+        "主动为后学铺设阶梯：体例、注释、入门之径",
+        "忍受当世不解，以长期价值自证"
+      ],
+      "process_en": [
+        "Choose problems by whether they remedy the scholarly climate, not by current fashion",
+        "Aim at systematic completeness; resist fragmenting work for quick publication",
+        "Build ladders for successors: conventions, annotations, entry paths",
+        "Endure incomprehension; let long-term value be the arbiter"
+      ],
+      "key_quote_zh": "学者不可无宗主，而必不可有门户。",
+      "key_quote_en": "A scholar must have a master-tradition but must never form a faction.",
+      "representative_cases_zh": [
+        "临终以文稿托付，后经王宗炎整理、嘉业堂刊《章氏遗书》而学显",
+        "《家书》数通反复叮咛子弟学脉，把家学作为公器经营"
+      ],
+      "representative_cases_en": [
+        "Entrusted manuscripts before death; scholarship illuminated through Wang Zongyan's editing and Jiayetang's publication of 'Zhangshi Yishu'",
+        "'Family letters' repeatedly instruct descendants on scholarly lineage, managing family learning as a public good"
+      ],
+      "modern_applications_zh": [
+        "开源与公共知识产品的长期主义",
+        "抵制考核短期化的学术策略",
+        "导师伦理：为学生铺路而非占为己有"
+      ],
+      "modern_applications_en": [
+        "Long-termism in open source and public knowledge goods",
+        "Resisting short-cycle metrics in scholarship",
+        "Mentorship ethics: paving successors' way, not capturing credit"
+      ],
+      "representative_figures": [
+        "章学诚"
+      ],
+      "related_modes": [
+        "M-ZXC-004",
+        "M-ZXC-009"
+      ],
+      "figure_code": "H-ZXC-001",
+      "figure_name": "章学诚",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_153920",
+        "checker": "elcano"
+      }
+    }
+  ],
+  "modes_ref": [
+    "M-ZXC-001",
+    "M-ZXC-002",
+    "M-ZXC-003",
+    "M-ZXC-004",
+    "M-ZXC-005",
+    "M-ZXC-006",
+    "M-ZXC-007",
+    "M-ZXC-008",
+    "M-ZXC-009",
+    "M-ZXC-010"
+  ],
+  "phase20_note": "Phase 20 落地 (t_43a3ef20)：10 条 v6 模式已并入主库 data/modes_data.json，ID 统一为 M-ZXC-001~010（research_mode_id 记录研究稿 M359~M368 原始 ID）。本文件 modes 为 Phase 21 建档数据，保留不动。"
 }

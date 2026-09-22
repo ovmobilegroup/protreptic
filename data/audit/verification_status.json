@@ -1,8 +1,8 @@
 {
   "schema": "protreptic.verification_status/v1",
   "generated_by": "tools/apply_verification_status.py",
-  "generated_at": "2026-09-21",
-  "checked_at": "2026-09-21",
+  "generated_at": "2026-09-22",
+  "checked_at": "2026-09-22",
   "checker": "phase38-y2",
   "rules": {
     "S1": "suspect      : mode_code 命中 findings.json 的 D4/D5（引文不符 / 时间线矛盾）",
@@ -18,10 +18,10 @@
   ],
   "inputs": {
     "data/modes_data.json": {
-      "sha256": "4753a83f74a468e795eabcfb64ad3105ee2797e9d82616ace919fca071eed610",
-      "modes": 2868,
+      "sha256": "d649f9736616c633f44a8987055c6b90c169cb62b326ef6eb9f065a008badc98",
+      "modes": 3142,
       "note": "sha256 为报告生成时刻的盘上文件（--write 走盘后回填）",
-      "bytes": 22814938
+      "bytes": 24205902
     },
     "data/source_links.json": {
       "sha256": "bfce3a5b222134a0e1564320a32b039e1a3076fa3d9a3ab6da6fe6fc6d5bb2d3",
@@ -30,30 +30,36 @@
       "distinct_urls": 164
     },
     "data/audit/findings.json": {
-      "sha256": "8fe949365f0689837ee13acdd120e89c44f628db8c8f5f1d77823088234920e2",
-      "d4_d5_modes": 40
+      "sha256": "f591df7cd5efd9183aa272150fe702478c74e758599e93fc4ae266efb45fe870",
+      "d4_d5_modes": 51
     }
   },
   "counts": {
     "all": {
-      "verified": 888,
-      "pending": 1589,
-      "suspect": 40,
+      "verified": 915,
+      "pending": 1825,
+      "suspect": 51,
       "unverifiable": 351
     },
-    "all_total": 2868,
+    "all_total": 3142,
     "published": {
-      "verified": 888,
-      "pending": 1557,
-      "suspect": 23,
+      "verified": 915,
+      "pending": 1793,
+      "suspect": 34,
       "unverifiable": 340
     },
-    "published_total": 2808,
+    "published_total": 3082,
     "quarantined_total": 60
   },
   "cross_checks": {
-    "suspect_and_linked_overlap": 23,
+    "suspect_and_linked_overlap": 24,
     "verified_distinct_evidence_urls": 145
   },
-  "changes_vs_library": {}
+  "changes_vs_library": {
+    "None -> pending": 164,
+    "None -> suspect": 10,
+    "None -> verified": 20,
+    "verified -> pending": 72,
+    "verified -> suspect": 1
+  }
 }

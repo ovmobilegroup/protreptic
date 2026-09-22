@@ -1,14 +1,23 @@
 {
   "schema_version": "v6",
   "code": "H-DZ-001",
+  "figure_name_zh": "戴震",
   "figure_name": "戴震",
-  "figure_code": "Qing",
+  "figure_name_en": "Dai Zhen",
+  "figure_code": "H-DZ-001",
   "figure_pinyin": "Dài Zhèn",
   "birth_year": 1724,
   "death_year": 1777,
   "era": "清朝（乾嘉）",
+  "gender": "Male",
+  "ethnicity": "汉族",
+  "nationality": "中国（清）",
+  "civilization_sphere": "East Asian Confucian Cultural Sphere",
+  "time_period_standardized": "1724-1777 CE",
+  "primary_language": "Chinese",
+  "intellectual_tradition": "Summit of Qianlong-Jiaqing evidential scholarship (Anhui school, puxue); materialist naturalism; pioneer of Chinese enlightenment ethics; from Xiuning, Anhui",
   "school": "乾嘉考据学/皖派/朴学",
-  "style_name": "东原",
+  "style_name": "Dongyuan",
   "courtesy_name": "东原先生",
   "representative_works": [
     "《孟子字义疏证》",
@@ -30,458 +39,225 @@
   "famous_quote": "人死于法，犹有怜之者；死于理，其谁怜之！",
   "influence": "戴震是乾嘉学术最高峰与清代哲学最深刻者。他以训诂考据的实证方法重释《孟子》，从字义疏证中解构程朱「理欲对立」的形上学，把「理」还原为「条分缕析之情」，把伦理学还原为对民生疾苦的体察，开出中国本土的启蒙主义路径。其「以理杀人」之论影响了龚自珍、谭嗣同、章太炎至五四一代对礼教批判的思想脉络；其考据方法奠定皖派规范，段玉裁、王念孙王引之父子皆出其门墙或受其沾溉。",
   "thinking_mode_count": 10,
-  "modes": [
+  "mode_evidence": [
     {
-      "id": "M331",
-      "name_zh": "理存于欲法",
-      "name_en": "Principle Resides in Desire Method (Li Within Yu)",
-      "mode_code": "M331",
-      "category": "伦理学",
-      "domain_zh": "伦理学",
-      "domain_en": "Ethics",
-      "level": "核心",
-      "priority": 1,
-      "definition_zh": "理也者，情之不爽失也。天理不在人心之外高悬，而存在于人的自然情欲的恰当实现之中。凡事为皆有于欲，无欲则无为矣；有欲而后有为，有为而归于至当不易之谓理。此法把道德的根据从超验的「理」拉回到活生生的「欲」，主张体民之情、遂民之欲，反对以天理压制人欲。",
-      "definition_en": "Principle (li) is precisely the condition in which feeling (qing) does not err. Tianli (Heavenly Principle) is not suspended outside the human mind but resides in the proper fulfillment of natural desires. Where there is no desire there is no action; where there is desire there is action, and action attaining what is fitting and unchanging is called li. This method grounds morality in living desire rather than transcendent principle, advocating empathy for people's feelings and fulfillment of their needs.",
-      "source_chapter": "《孟子字义疏证·理》",
-      "key_concepts": [
-        "理存于欲",
-        "体民之情",
-        "遂民之欲",
-        "情之不爽失"
-      ],
-      "process_zh": [
-        "承认欲是人的自然本性，是行为的原动力（凡事为皆有于欲） → 拒绝把理与欲对立起来的二元框架 → 以『情之不爽失』为标准：己之情通乎人之情 → 在满足欲望的过程中寻求其恰当分寸，即理之所在"
-      ],
-      "process_en": [
-        "Acknowledge desire as human nature and the spring of action → reject the dualist framework opposing principle to desire → take 'feeling without error' as the standard: my feelings connect to others' → seek the fitting measure in fulfilling desire; there lies principle"
-      ],
-      "key_quote_zh": "理也者，情之不爽失也。……有欲而后有为，有为而归于至当不易之谓理。",
-      "key_quote_en": "Principle is precisely the condition in which feeling does not err. … Where there is desire there is action, and action attaining what is fitting and unchanging is called principle.",
-      "representative_cases_zh": [
-        "《孟子字义疏证·理》：「理也者，情之不爽失也。……有欲而后有为，有为而归……」——理存于欲法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "人本主义管理与制度设计",
-        "公共政策中的需求导向思维",
-        "对伪道德绑架的识别与反制"
-      ],
-      "modern_applications_en": [
-        "Humanistic management and institutional design",
-        "Needs-oriented thinking in public policy",
-        "Identifying and countering pseudo-moral coercion"
-      ],
-      "related_modes": [
-        "M332",
-        "M340"
-      ]
+      "mode_id": "M-DZ-001",
+      "evidence_zh": "《与是仲明论学书》：由字以通其词，由词以通其道，必有渐。求所谓字，考诸篆书，得许氏《说文解字》，三年知其节目，渐睹古圣人生制作本始。",
+      "evidence_en": "\"From characters we reach words, from words we reach the Way — this requires gradual progress.\" To seek the meaning of characters, examine seal script and consult Xu Shen's Shuowen Jiezi; after three years mastering its structure, one gradually discerns the original designs of the ancient sages.",
+      "source": "《与是仲明论学书》"
     },
     {
-      "id": "M332",
-      "name_zh": "以理杀人批判法",
-      "name_en": "Critique of Killing by Principle Method (Deconstructing Moral Tyranny)",
-      "mode_code": "M332",
-      "category": "伦理学",
-      "domain_zh": "伦理学",
-      "domain_en": "Ethics",
-      "level": "核心",
-      "priority": 2,
-      "definition_zh": "人死于法，犹有怜之者；死于理，其谁怜之！尊者以理责卑，长者以理责幼，贵者以理责贱，虽失谓之顺；卑幼贱以理争之，虽得谓之逆。此法揭示当「理」被权力垄断后如何异化为压迫工具——上位者以抽象名义行具体迫害，且受害者无处申辩。",
-      "definition_en": "'One who dies by law still receives pity; who pities one killed by Principle?' Elders, superiors, and the powerful use 'Principle' to blame the young, the inferior, and the lowly — even when they are wrong they are called compliant; when the lowly argue by Principle and are right, they are called rebellious. This method exposes how 'Principle', once monopolized by power, degenerates into an instrument of oppression that leaves victims no recourse.",
-      "source_chapter": "《孟子字义疏证》/《与某书》",
-      "key_concepts": [
-        "以理杀人",
-        "理之异化为权力工具",
-        "尊者理责卑",
-        "深求隐微之罪"
-      ],
-      "process_zh": [
-        "识别以抽象名义（理、大局、传统）包装的具体压迫 → 检查该名义的适用是否单向：只约束下位者 → 追问受害者的申辩通道是否存在（死于理其谁怜之） → 把批判从道德义愤升级为结构分析：谁在定义理，谁被理定义"
-      ],
-      "process_en": [
-        "Identify concrete oppression packaged under abstract names (principle, the greater good, tradition) → check whether the name applies one-way, binding only subordinates → ask whether the victim has any channel of appeal → upgrade critique from moral indignation to structural analysis: who defines the principle, who is defined by it"
-      ],
-      "key_quote_zh": "人死于法，犹有怜之者；死于理，其谁怜之！",
-      "key_quote_en": "One who dies by law still has those who pity him; one who dies by 'principle'—who would pity him!",
-      "representative_cases_zh": [
-        "《孟子字义疏证》/《与某书》：「人死于法，犹有怜之者；死于理，其谁怜之！……」——以理杀人批判法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "识别职场与家庭中的以道德名义PUA",
-        "对制度性话语权力的批判分析",
-        "舆论审判与网暴的结构性透视"
-      ],
-      "modern_applications_en": [
-        "Detecting moralized PUA in workplaces and families",
-        "Critical analysis of institutional discursive power",
-        "A structural reading of trial by public opinion"
-      ],
-      "related_modes": [
-        "M331",
-        "M336"
-      ]
+      "mode_id": "M-DZ-002",
+      "evidence_zh": "《孟子字义疏证·天道》：道，指其实体实事之名。阴阳五行，道之实体也。天地之气化流行不已，生生不息。",
+      "evidence_en": "\"Dao\" names the real substance and actual events. Yin and yang and the five phases are the substance of the Way. The qi-circulation of heaven and earth proceeds without cease, generating and transforming endlessly.",
+      "source": "《孟子字义疏证·天道》"
     },
     {
-      "id": "M333",
-      "name_zh": "由词通道法",
-      "name_en": "From Words to the Way Method (Philology as the Path to Principle)",
-      "mode_code": "M333",
-      "category": "方法论",
-      "domain_zh": "方法论",
-      "domain_en": "Methodology",
-      "level": "核心",
-      "priority": 3,
-      "definition_zh": "经之至者道也，所以明道者其词也，所以成词者字也。由字以通其词，由词以通其道，必有渐。训诂明而后义理明，义理不凭空立，必附丽于文字的准确理解。此法把哲学重建置于语言考证的坚实基础上，使每一义理判断都可追溯到字义的证据链。",
-      "definition_en": "'What is ultimate in the classics is the Way; what clarifies the Way are the words; what forms the words are the characters.' From characters one understands words, from words one reaches the Way — each step by degrees. Only when philology is clear can moral principle be clear: philosophy must be rebuilt on the solid ground of textual and linguistic evidence, with every doctrinal claim traceable to an evidential chain of word-meanings.",
-      "source_chapter": "《与是仲明论学书》/《尔雅注疏笺补序》",
-      "key_concepts": [
-        "由词通道",
-        "训诂明而后义理明",
-        "字—词—道三级递进",
-        "考据与义理统一"
-      ],
-      "process_zh": [
-        "从最基础的语言单位（字、音、训）入手 → 逐级上升：由字通词，由词通经义 → 以字义证据链检验义理诠释，凡无据者不立 → 用明确的语言学结论重构哲学命题（如以《说文》《尔雅》证「理」之本义）"
-      ],
-      "process_en": [
-        "Start from the basic units of language (characters, sounds, glosses) → ascend stepwise: from characters to words, from words to classical meaning → test every interpretation of principle against a chain of lexical evidence; admit nothing without basis → rebuild philosophical claims on settled linguistic conclusions"
-      ],
-      "key_quote_zh": "由字以通其词，由词以通其道。……训诂明而后义理明。",
-      "key_quote_en": "From characters, reach the words; from words, reach the Way. … Only when philological exegesis is clear can moral principle be clear.",
-      "representative_cases_zh": [
-        "《与是仲明论学书》/《尔雅注疏笺补序》：「由字以通其词，由词以通其道。……训诂明而后义理明……」——由词通道法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "概念史与术语考证方法",
-        "法律与合同中的语义精确化",
-        "把大问题分解为可验证的小证据单元"
-      ],
-      "modern_applications_en": [
-        "Conceptual history and terminological philology",
-        "Semantic precision in law and contracts",
-        "Decomposing big questions into verifiable units of evidence"
-      ],
-      "related_modes": [
-        "M334",
-        "M339"
-      ]
+      "mode_id": "M-DZ-003",
+      "evidence_zh": "《孟子字义疏证·理》：理也者，情之不爽失也；未有情不得而理得者也。凡事为皆有于欲，无欲则无为矣。有欲而后有为，有为而归于至当不可易之谓理。",
+      "evidence_en": "\"Principle is nothing but emotion not going astray; there has never been a case where emotion is unsatisfied yet principle is attained. All human activities arise from desire; without desire there is no action. When action achieves the utmost appropriateness that cannot be altered, this is called principle.\"",
+      "source": "《孟子字义疏证·理》"
     },
     {
-      "id": "M334",
-      "name_zh": "分理分析法",
-      "name_en": "Analytic Discrimination Method (Li as Differentiated Detail)",
-      "mode_code": "M334",
-      "category": "方法论",
-      "domain_zh": "方法论",
-      "domain_en": "Methodology",
-      "level": "核心",
-      "priority": 4,
-      "definition_zh": "理者，察之而几微必区以别之名也，是故谓之分理。理不是笼统的玄谈，而是对事物之间细微差别的精确区分：肌理、腠理、文理，皆是条分缕析之谓。得其分则有条而不紊，谓之条理。此法确立了一种分析性的理性观——真理在细节的分辨之中，不在笼统的断言之中。",
-      "definition_en": "'Li is the name for what, when examined, must be differentiated in its finest details — hence called fenli (divided principle).' Li is not vague metaphysical talk but precise discrimination of subtle differences among things: the grain of muscle, the lines of skin, the pattern of text are all cases of ordered analysis. This method establishes an analytic rationality: truth resides in the discrimination of details, not in sweeping assertions.",
-      "source_chapter": "《孟子字义疏证·理》",
-      "key_concepts": [
-        "分理",
-        "察之几微",
-        "区以别",
-        "条理"
-      ],
-      "process_zh": [
-        "拒绝先验地宣布笼统结论（理不是玄想） → 对对象做逐层分类，识别其内部的细微差别 → 在每一个分辨点上求证（必区以别） → 把差异组织为条理，得出可以指认、可以检验的分理"
-      ],
-      "process_en": [
-        "Refuse to announce sweeping conclusions a priori → classify the object layer by layer, marking its fine internal distinctions → seek evidence at each point of discrimination → organize differences into an articulable, testable order"
-      ],
-      "key_quote_zh": "理者，察之而几微必区以别之名也。",
-      "key_quote_en": "Principle is the name for that which, on close examination of its subtlest details, must be discriminated into distinct particulars.",
-      "representative_cases_zh": [
-        "《孟子字义疏证·理》：「理者，察之而几微必区以别之名也。……」——分理分析法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "定性研究中的细粒度分析",
-        "产品与流程的颗粒度优化",
-        "从「讲道理」到「分道理」的论证升级"
-      ],
-      "modern_applications_en": [
-        "Fine-grained analysis in qualitative research",
-        "Granularity optimization of products and processes",
-        "Upgrading argument from 'reasoning in general' to 'discriminating particulars'"
-      ],
-      "related_modes": [
-        "M333",
-        "M339"
-      ]
+      "mode_id": "M-DZ-004",
+      "evidence_zh": "《孟子字义疏证·性》：血气心知，性之实体也。人之异于禽兽者，以其心之神明也。",
+      "evidence_en": "\"Blood-qi and mind-knowing are the substance of human nature. What distinguishes humans from animals is their mind's capacity for illumination.\"",
+      "source": "《孟子字义疏证·性》"
     },
     {
-      "id": "M335",
-      "name_zh": "血气心知法",
-      "name_en": "Blood-Qi and Mind-Knowing Method (Naturalistic Theory of Human Nature)",
-      "mode_code": "M335",
-      "category": "人性论",
-      "domain_zh": "人性论",
-      "domain_en": "Theory of Human Nature",
-      "level": "核心",
-      "priority": 5,
-      "definition_zh": "性者，分于阴阳五行以为血气、心知、品物者也。人的性由血气（形体的欲求能力）与心知（认知能力）构成，与万物同源于气化，只有等差之别而无超绝之分。血气资饮寒以养，心知之自然通过学习而扩充，德性资于学问，进而神明。此法把人性论建立在自然主义与可塑性的基础上，反对先验的「义理之性」。",
-      "definition_en": "Human nature consists of blood-qi (xueqi — the body's capacity of desire) and mind-knowing (xinzhi — the capacity of cognition), both allotted from yin-yang and the five phases; humans differ from other beings in degree, not in transcendence. Blood-qi is nourished by food and warmth; mind-knowing is expanded through learning — 'virtue is supplied by learning' — until the spirit illuminates. This method grounds human nature in naturalism and plasticity, rejecting the a priori 'righteous nature' of Neo-Confucianism.",
-      "source_chapter": "《孟子字义疏证·性》/《原善》",
-      "key_concepts": [
-        "血气",
-        "心知",
-        "德性资于学问",
-        "神明之盛"
-      ],
-      "process_zh": [
-        "承认人的双重能力：欲望能力（血气）与认知能力（心知） → 认识到两者皆需滋养：血气资饮食，心知资学问 → 通过学习把心的自然状态提升为神明（明察）状态 → 以可扩展的心知驾驭可节制的血气，而非以禁欲压制欲望"
-      ],
-      "process_en": [
-        "Recognize the twin capacities: desire (blood-qi) and cognition (mind-knowing) → note that both need nourishment: blood-qi by sustenance, mind-knowing by learning → raise the mind from its natural state to luminous clarity through study → let the enlarged knowing govern the restrained desires, rather than suppressing desire by asceticism"
-      ],
-      "key_quote_zh": "血气资饮食以养，心知于前世之开明，资于学问以进于神明。",
-      "key_quote_en": "Blood and qi are nourished by food and drink; the mind's knowing, nourished by learning, advances toward luminous clarity.",
-      "representative_cases_zh": [
-        "《孟子字义疏证·性》/《原善》：「血气资饮食以养，心知于前世之开明，资于学问以进于……」——血气心知法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "成长型人格与终身学习观",
-        "身心一体化健康观",
-        "对人性先验论的批判与教育设计"
-      ],
-      "modern_applications_en": [
-        "Growth mindset and lifelong learning",
-        "An integrated view of physical and mental health",
-        "Critiquing a priori theories of human nature in educational design"
-      ],
-      "related_modes": [
-        "M331",
-        "M337"
-      ]
+      "mode_id": "M-DZ-005",
+      "evidence_zh": "《孟子字义疏证·理》：天理云者，言乎自然之分理也；自然之分理，以我之情絜人之情，而无不得其平者是也。",
+      "evidence_en": "\"Heavenly principle\" means the natural differentiated order; the natural differentiated order is using my own emotions to measure others' emotions, achieving balance for all.",
+      "source": "《孟子字义疏证·理》"
     },
     {
-      "id": "M336",
-      "name_zh": "解蔽去私法",
-      "name_en": "Uncovering Obscuration and Removing Self-Interest Method",
-      "mode_code": "M336",
-      "category": "认识论",
-      "domain_zh": "认识论",
-      "domain_en": "Epistemology",
-      "level": "核心",
-      "priority": 6,
-      "definition_zh": "天下大乱之源有二：曰蔽，曰私。蔽生于知之失——人之患在好为师，以己见为理而人从之；私生于欲之失——以一己之欲为天下之公。去私莫如强恕，解蔽莫如学。此法诊断认知错误的两大病灶：一是自我中心导致以私为公，二是认知局限导致以蔽为明。",
-      "definition_en": "'The sources of great disorder in the world are two: obscuration (bi) and self-interest (si).' Bi arises from the failure of knowing — the human failing of loving to be a teacher, taking one's own view as Principle; si arises from the failure of desire — taking one's private wish as the public good. 'To remove self-interest, nothing is better than strengthened sympathy; to dispel obscuration, nothing is better than learning.' This method diagnoses the two root pathologies of cognition: mistaking the private for the public, and mistaking the obscured for the clear.",
-      "source_chapter": "《孟子字义疏证·理》",
-      "key_concepts": [
-        "蔽",
-        "私",
-        "解蔽莫如学",
-        "去私莫如强恕"
-      ],
-      "process_zh": [
-        "自查双重病灶：我的判断是被知识之蔽扭曲，还是被利益之私扭曲 → 对蔽：扩大学习面，接触对立观点，破除师心自用 → 对私：强恕——推己及人，检验主张在互换立场后是否仍成立 → 建立『不敢以己见为理』的谦抑性认知纪律"
-      ],
-      "process_en": [
-        "Self-audit the twin defects: is my judgment distorted by ignorance or by interest → for obscuration: widen learning, engage opposing views, break self-conceit → for self-interest: practice empathy, test whether one's claim survives position-swapping → adopt the discipline of never presuming one's own view is principle"
-      ],
-      "key_quote_zh": "人之患在私与蔽：去私莫如强恕，解蔽莫如学。",
-      "key_quote_en": "The human ailments are self-interest and obscuration: nothing removes self-interest better than empathy; nothing removes obscuration better than learning.",
-      "representative_cases_zh": [
-        "《孟子字义疏证·理》：「人之患在私与蔽：去私莫如强恕，解蔽莫如学。……」——解蔽去私法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "认知偏差与利益冲突的自觉排查",
-        "决策前的立场互换检验",
-        "学者与专家的谦抑性纪律"
-      ],
-      "modern_applications_en": [
-        "Conscious screening for cognitive bias and conflicts of interest",
-        "Position-swap tests before decisions",
-        "Disciplinary humility for scholars and experts"
-      ],
-      "related_modes": [
-        "M332",
-        "M340"
-      ]
+      "mode_id": "M-DZ-006",
+      "evidence_zh": "《孟子字义疏证·理》：人死于法，犹有怜之者；死于理，其谁怜之！尊者以理责卑，长者以理责幼，贵者以理责贱，虽失，谓之顺；卑者、幼者、贱者以理争之，虽得，谓之逆。",
+      "evidence_en": "\"People die by law, and there are still those who pity them; but when they die by principle, who pities them? The superior blames the inferior with principle, the elder blames the young, the noble blames the base — even when wrong, it is called obedience; the inferior, the young, the base dispute with principle — even when right, it is called rebellion.\"",
+      "source": "《孟子字义疏证·理》"
     },
     {
-      "id": "M337",
-      "name_zh": "气化即道法",
-      "name_en": "Qi-Transformation as the Way Method (Dynamic Naturalism)",
-      "mode_code": "M337",
-      "category": "本体论",
-      "domain_zh": "本体论",
-      "domain_en": "Ontology",
-      "level": "核心",
-      "priority": 7,
-      "definition_zh": "道，犹行也；气化流行，生生不息，是故谓之道。道不是超越气化之上的静态实体，而是气化过程本身——阴阳五行运行不息即道之实体。天地之气化流行不已，生生之德即在其中。此法以过程本体论取代实体本体论，反对朱熹「理在气先」的二元架构。",
-      "definition_en": "'The Way is like moving (xing); qi flows and transforms, generating life without cease — this is called the Dao.' The Way is not a static entity transcending qi-transformation but the process of qi-transformation itself — the ceaseless operation of yin-yang and the five phases is the very substance of the Dao. This method replaces substance ontology with process ontology, opposing Zhu Xi's dichotomy of 'Principle before qi'.",
-      "source_chapter": "《孟子字义疏证·天道》/《绪言》",
-      "key_concepts": [
-        "道犹行也",
-        "气化流行",
-        "生生不息",
-        "一阴一阳"
-      ],
-      "process_zh": [
-        "把研究对象视为过程而非静物（道犹行也） → 追踪其内在的运行机制（气化）而非外在的主宰（理/神） → 在连续变化中把握生生不息的生成性 → 拒绝在过程之外另设第一因或超验实体"
-      ],
-      "process_en": [
-        "Treat the object of study as a process, not a static thing → trace its inner mechanism (qi-transformation), not an external governor → grasp generativity within continuous change → refuse to posit a first cause or transcendent entity outside the process"
-      ],
-      "key_quote_zh": "道犹行也；气化流行，生生不息，是故谓之道。",
-      "key_quote_en": "The Way is like movement: the flowing transformation of qi, generating life without cease—this is called the Way.",
-      "representative_cases_zh": [
-        "《孟子字义疏证·天道》/《绪言》：「道犹行也；气化流行，生生不息，是故谓之道。……」——气化即道法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "过程思维与动态系统分析",
-        "演化论视角下的组织与文化研究",
-        "反对本质主义僵化思维"
-      ],
-      "modern_applications_en": [
-        "Process thinking and dynamic systems analysis",
-        "Evolutionary study of organizations and culture",
-        "Against essentialist rigidity"
-      ],
-      "related_modes": [
-        "M335",
-        "M338"
-      ]
+      "mode_id": "M-DZ-007",
+      "evidence_zh": "《孟子字义疏证》：圣人之道，使天下无不达之情，求遂其欲而天下治。后儒不知此，而曰『存天理，去人欲』，是以理为如有物焉，得于天而具于心，而轻重其欲也。",
+      "evidence_en": "\"The way of the sage is to let all under heaven have their emotions expressed and their desires fulfilled, and then the world is governed. Later Confucians did not understand this, and said 'preserve heavenly principle, eliminate human desires,' treating principle as if it were a thing obtained from Heaven and contained in the heart, and weighing desires as heavy or light.\"",
+      "source": "《孟子字义疏证》"
     },
     {
-      "id": "M338",
-      "name_zh": "挈情度理法",
-      "name_en": "Empathic Weighing Method (Qing-Qing as the Source of Justice)",
-      "mode_code": "M338",
-      "category": "伦理学",
-      "domain_zh": "伦理学",
-      "domain_en": "Ethics",
-      "level": "核心",
-      "priority": 8,
-      "definition_zh": "情之不爽失谓之理；以我之情絜人之情，而无不得其平是也。心所同然谓之理、谓之义：理义非他，所照所察者之不谬也。判断正当性不靠上位的抽象规范，而靠以己度人、推己及人的公平性检验——凡我之情与他人之情在换位后皆得其平者，即理义所在。",
-      "definition_en": "'What does not err in feeling is called li; taking my own feeling to gauge another's feeling, and finding equity throughout — that is it.' What all minds agree upon is li and yi: Principle and rightness are nothing but what, when illuminated and examined, proves without error. Justification comes not from abstract superior norms but from the fairness test of putting oneself in another's place: whatever balances the feelings of all parties upon exchange of positions is where li lies.",
-      "source_chapter": "《孟子字义疏证·理》",
-      "key_concepts": [
-        "以情絜情",
-        "心所同然",
-        "无不得其平",
-        "理义出于衡断"
-      ],
-      "process_zh": [
-        "取一件事，先述我方之情（欲望、损失、感受） → 以我之情絜人之情：模拟对方在同等处境之情 → 检视双方之情是否皆得其平——偏重任何一方即为不公 → 以换位平衡的结论为衡断，替代诉诸权威或抽象名义"
-      ],
-      "process_en": [
-        "Take a case; first state my own feelings (desires, losses, sentiments) → measure others' feelings against mine, simulating their state in the same situation → check whether both sides' feelings are balanced; one-sidedness is injustice → take the balanced conclusion as the verdict, replacing appeal to authority or abstract names"
-      ],
-      "key_quote_zh": "以我之情絜人之情，而无不得其平。",
-      "key_quote_en": "Weigh others' feelings with one's own as the measure, and equilibrium is found in every case.",
-      "representative_cases_zh": [
-        "《孟子字义疏证·理》：「以我之情絜人之情，而无不得其平。……」——挈情度理法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "调解与协商中的利益平衡技术",
-        "用户体验与人因设计中的换位测试",
-        "公平性评估的可操作化方法"
-      ],
-      "modern_applications_en": [
-        "Balancing techniques in mediation and negotiation",
-        "Empathy testing in UX and human factors design",
-        "Operationalizing fairness assessment"
-      ],
-      "related_modes": [
-        "M331",
-        "M336"
-      ]
+      "mode_id": "M-DZ-008",
+      "evidence_zh": "《与姚孝廉姬传书》：所谓十分之见，必征之古而靡不条贯，合诸道而不留馀议，巨细毕究，本末兼察。若夫依于传闻以拟其是，择于众说以裁其优，出于空言以定其论，据于孤证以信其通，虽溯源可以知流，不目睹渊泉所导；循根可以达杪，不手披枝肄所歧，皆未至十分之见也。",
+      "evidence_en": "\"The so-called complete evidence must be verified against antiquity without exception, consistent with the Way without leaving unexamined residues, investigating both major and minor points, examining both root and branch. As for relying on hearsay to judge correctness, choosing among theories to judge the better, establishing doctrine from empty words, believing universality from solitary evidence — though tracing the source can know the flow, not witnessing the spring; following the root can reach the tip, not manually examining the branches — all are incomplete evidence.\"",
+      "source": "《与姚孝廉姬传书》"
     },
     {
-      "id": "M339",
-      "name_zh": "证据递进考据法",
-      "name_en": "Cumulative-Evidence Verification Method (Qian-Jia Evidential Rigor)",
-      "mode_code": "M339",
-      "category": "方法论",
-      "domain_zh": "方法论",
-      "domain_en": "Methodology",
-      "level": "核心",
-      "priority": 9,
-      "definition_zh": "戴震治学：每一结论必有本证、旁证、反证三层检验，孤证不立；天文历算、地理沿革、音韵训诂诸科互参，多学科证据交叉锁定结论。辨《尚书》伪古文、正《方言》传讹，皆以实证驳成见。此法把「实事求是，无征不信」确立为学术铁律——不以权威、不以多数、不以成说，唯以证据。",
-      "definition_en": "Dai Zhen's scholarship tests every conclusion through three tiers of evidence — direct, corroborative, and counter-evidence; a single source never suffices. Astronomy, chronology, geography, phonology, and philology are cross-referenced so multiple disciplines converge to lock a conclusion. In exposing the forged 'Old Text' Documents and correcting corruptions in the Fangyan, empirical evidence always overrules received opinion. This method establishes 'seek truth from facts, believe nothing without evidence' as the iron law of scholarship.",
-      "source_chapter": "《与姚孝廉姬传书》/《方言疏证》《考工记图》",
-      "key_concepts": [
-        "实事求是",
-        "无征不信",
-        "本证旁证反证",
-        "多学科互证"
-      ],
-      "process_zh": [
-        "列出结论所需证据链，标明每环的来源与强度 → 分置本证（直接）、旁证（间接）、反证（不利）三栏 → 引入其他学科的证据交叉验证（天文、地理、音韵等） → 孤证存疑、反证优先：凡有不利证据，结论必须修正或悬置"
-      ],
-      "process_en": [
-        "List the chain of evidence a conclusion needs, marking each link's source and strength → set direct evidence, indirect evidence, and counterevidence in separate columns → cross-validate with other disciplines (astronomy, geography, phonology) → suspect solitary evidence and prioritize counterevidence: revise or suspend conclusions when adverse evidence appears"
-      ],
-      "key_quote_zh": "凡学未至贯本末、彻精粗，徒以意衡量，终身不得闻道。",
-      "key_quote_en": "If learning has not reached through root and branch, fine and coarse, but relies on mere opinion, one will never in a lifetime hear the Way.",
-      "representative_cases_zh": [
-        "《与姚孝廉姬传书》/《方言疏证》《考工记图》：「凡学未至贯本末、彻精粗，徒以意衡量，终身不得闻道……」——证据递进考据法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "事实核查与信源分级",
-        "多源交叉验证的研究设计",
-        "对成见与权威断言的实证审查"
-      ],
-      "modern_applications_en": [
-        "Fact-checking and source grading",
-        "Multi-source cross-validation in research design",
-        "Empirical audit of prejudice and authoritative claims"
-      ],
-      "related_modes": [
-        "M333",
-        "M334"
-      ]
+      "mode_id": "M-DZ-009",
+      "evidence_zh": "《戴震文集》：凡仆所以寻求于遗经，惧圣人之绪言暗汶于后世也。然寻求而获，有十分之见，有未至十分之见。",
+      "evidence_en": "\"All that I seek in the lost classics is fear that the sages' teachings will be obscured in later generations. But what is sought and obtained has complete evidence and incomplete evidence.\"",
+      "source": "《戴震文集》"
     },
     {
-      "id": "M340",
-      "name_zh": "学以去蔽·主敬精审法",
-      "name_en": "Learning as Disillusion Method (Self-Cultivation through Disciplined Inquiry)",
-      "mode_code": "M340",
-      "category": "方法论",
-      "domain_zh": "方法论",
-      "domain_en": "Methodology",
-      "level": "核心",
-      "priority": 10,
-      "definition_zh": "戴震自述：仆自十七岁有志闻道，谓非求之六经孔孟不得，非从事于字义制度名物无由通其语言。读书一字之义当贯群经，本六书然后考定；日知其所亡，月无忘其所能。其一生贫病而学不辍，主张以持敬之心、精确之功，终身以学问解除生而之蔽，达于神明之圣。",
-      "definition_en": "Dai Zhen relates: 'At seventeen I set my will on reaching the Way, holding that it could only be sought in the Six Classics and Confucius-Mencius, and that without working through word-meanings, institutions, and names one cannot penetrate their language.' The meaning of a single character must run through all the classics; only via the six categories of script can a reading be settled — daily adding to what one knows, monthly never forgetting what one has mastered. Through a lifetime of study amid poverty and illness, disciplined reverence and meticulous precision dispel the obscuration we are born with, until the mind reaches illuminated clarity.",
-      "source_chapter": "《孟子字义疏证·才》/《答郑丈用牧书》",
-      "key_concepts": [
-        "有志闻道",
-        "一字之义当贯群经",
-        "日知其所亡",
-        "神明之圣"
-      ],
-      "process_zh": [
-        "确立终身问题（闻道）作为一切学习的统摄目标 → 把大目标分解为可日课的精确工序（字义、制度、名物、算学） → 以贯通检验局部：一字之义必贯群经方为定论 → 日积月累、贫病不辍，以纪律将心知扩充至神明"
-      ],
-      "process_en": [
-        "Fix a lifelong question (hearing the Way) as the goal governing all study → decompose it into daily precise routines (word meanings, institutions, names, mathematics) → test the part against the whole: a single character's meaning is settled only when it accords across the classics → accumulate day by day, undeterred by poverty or illness, expanding knowing into clarity by discipline"
-      ],
-      "key_quote_zh": "仆自十七岁以来，有志闻道，谓非求之六经孔孟不得，非从事于字义制度名物，无由以通其语言。",
-      "key_quote_en": "Since seventeen I have aspired to hear the Way; it cannot be sought except in the Six Classics and Confucius and Mencius, and their language cannot be mastered except through the study of word meanings, institutions, and names of things.",
-      "representative_cases_zh": [
-        "《孟子字义疏证·才》/《答郑丈用牧书》：「仆自十七岁以来，有志闻道，谓非求之六经孔孟不得，……」——学以去蔽·主敬精审法的典据来源"
-      ],
-      "modern_applications_zh": [
-        "长期主义的知识积累策略",
-        "以日课纪律对抗认知懈怠",
-        "跨学科贯通式的问题驱动学习"
-      ],
-      "modern_applications_en": [
-        "Long-termist knowledge accumulation",
-        "Daily-routine discipline against cognitive slack",
-        "Cross-disciplinary, question-driven learning"
-      ],
-      "related_modes": [
-        "M335",
-        "M339"
-      ]
+      "mode_id": "M-DZ-010",
+      "evidence_zh": "《与姚孝廉姬传书》：凡仆所以寻求于遗经，惧圣人之绪言暗汶于后世也。先儒之学，如汉郑氏、宋程子、张子、朱子，其为书至详博，然犹得失中判。",
+      "evidence_en": "\"All that I seek in the lost classics is fear that the sages' teachings will be obscured in later generations. The scholarship of earlier Confucians, such as Zheng of Han, Cheng and Zhang and Zhu of Song, their writings are most detailed and comprehensive, yet still divided in gains and losses.\"",
+      "source": "《与姚孝廉姬传书》"
     }
   ],
+  "tags": [
+    "理存于欲",
+    "体民之情",
+    "遂民之欲",
+    "情之不爽失",
+    "理存于欲法",
+    "以理杀人",
+    "理之异化为权力工具",
+    "尊者理责卑",
+    "深求隐微之罪",
+    "以理杀人批判法",
+    "由词通道",
+    "训诂明而后义理明",
+    "字—词—道三级递进",
+    "考据与义理统一",
+    "由词通道法",
+    "分理",
+    "察之几微",
+    "区以别",
+    "条理",
+    "分理分析法",
+    "血气",
+    "心知",
+    "德性资于学问",
+    "神明之盛",
+    "血气心知法",
+    "蔽",
+    "私",
+    "解蔽莫如学",
+    "去私莫如强恕",
+    "解蔽去私法",
+    "道犹行也",
+    "气化流行",
+    "生生不息",
+    "一阴一阳",
+    "气化即道法",
+    "以情絜情",
+    "心所同然",
+    "无不得其平",
+    "理义出于衡断",
+    "挈情度理法",
+    "实事求是",
+    "无征不信",
+    "本证旁证反证",
+    "多学科互证",
+    "证据递进考据法",
+    "有志闻道",
+    "一字之义当贯群经",
+    "日知其所亡",
+    "神明之圣",
+    "学以去蔽·主敬精审法",
+    "由字通道法",
+    "气化流行法",
+    "理存欲中法",
+    "絜情平欲法",
+    "体民遂欲法",
+    "十分之见法",
+    "实证归纳法",
+    "汉宋兼采法",
+    "Word-to-Way Method (Etymology as Path to Truth)",
+    "Qi-Circulation Method (Cosmology as Continuous Process)",
+    "Principle-in-Desire Method (Rejection of Desire-Suppression)",
+    "Blood-Qi-Mind-Knowing Method (Natural Human Nature Theory)",
+    "Empathic Equilibrium Method (Measuring Emotion for Justice)",
+    "Anti-Principle-Killing Critique Method (Exposing Ideological Tyranny)",
+    "Governance-for-People Method (Understanding Emotions, Fulfilling Desires)",
+    "Complete Evidence Method (The Standard of Thorough Verification)",
+    "Empirical Induction Method (Evidence-Based Research)",
+    "Han-Song Synthesis Method (Eclectic Scholarship)",
+    "Dai Zhen",
+    "DaiZhen",
+    "乾嘉考据学",
+    "Qian-Jia Evidential Scholarship",
+    "皖派",
+    "Anhui School",
+    "朴学",
+    "Puxue",
+    "中国近代启蒙先驱"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-ZHX-001",
+      "relation_type": "comparison",
+      "description_zh": "朱熹以「理」为超验本体、主张「存天理灭人欲」；戴震把「理」还原为情欲之条理、斥后儒之理为「以理杀人」。二人同释一「理」字，方向截然相反：朱是形上学的道德形制，戴是经验论的启蒙伦理。",
+      "description_en": "Zhu Xi made 'principle' a transcendent ontology and urged preserving heavenly principle while extinguishing human desire; Dai Zhen reduced principle to the ordered pattern of feeling and desire, denouncing the later Confucian 'principle' as 'killing by principle.' The same character, opposite directions: Zhu's metaphysical moral order versus Dai's empiricist enlightenment ethics."
+    },
+    {
+      "target_figure_code": "H-GYW-001",
+      "relation_type": "influence",
+      "description_zh": "顾炎武开清代考据学之先河（'经学即理学'），戴震承其路数而登峰造极：把考据从方法论提升为哲学重建（由词通道），并使皖派考据规范（段玉裁、王念孙王引之）成为乾嘉学术的正统。",
+      "description_en": "Gu Yanwu pioneered Qing evidential scholarship ('classical learning is precisely the study of principle'); Dai Zhen inherited his path and brought it to its summit, elevating philology from method to philosophical reconstruction (from words to the Way), and making the Anhui-school standards the orthodoxy of Qianlong-Jiaqing learning."
+    },
+    {
+      "target_figure_code": "H-WFZ-001",
+      "relation_type": "comparison",
+      "description_zh": "王夫之与戴震都重建理欲关系（'人欲之各得即天理之大同'与'理存于欲'），但路径不同：王以气学形上学历程抵达，戴以训诂考据的经验方法抵达——一为体系哲学，一为语言学论证的启蒙伦理。",
+      "description_en": "Both Wang Fuzhi and Dai Zhen rebuilt the principle-desire relation ('the due satisfaction of each desire is the great commonality of heavenly principle' vs. 'principle resides in desire'), but by different routes: Wang through qi-learning metaphysics, Dai through the empirical method of philology—one systematic philosophy, one enlightenment ethics argued linguistically."
+    }
+  ],
+  "protreptic_mapping": {
+    "方法论": [
+      "M-DZ-001",
+      "M-DZ-008",
+      "M-DZ-009",
+      "M-DZ-010"
+    ],
+    "本体论": [
+      "M-DZ-002"
+    ],
+    "伦理学": [
+      "M-DZ-003",
+      "M-DZ-005"
+    ],
+    "人性论": [
+      "M-DZ-004"
+    ],
+    "政治哲学": [
+      "M-DZ-006",
+      "M-DZ-007"
+    ]
+  },
+  "source_files": [
+    "H-DZ-001.json",
+    "H-DZ-001_modes.json",
+    "H-DAI-001_modes.json (Phase 20 research, t_d2b15144)",
+    "phase20_daizhen_research.md"
+  ],
+  "modern_value_zh": [
+    "理存于欲——制度的人性基准：谈道德先问是否体民之情、遂民之欲，反对以抽象名义压制基本人性",
+    "以理杀人批判——话语权力审计：谁在定义'理'，谁被'理'定义；单向施加的道德即是压迫",
+    "由词通道——概念纪律：用词先考其本义与演变，警惕大词空洞化替代思考",
+    "分理分析——分析性理性：拒绝笼统结论，逐层分辨、逐点求证",
+    "证据递进考据——事实核查纪律：本证、旁证、反证分栏，孤证存疑、反证优先",
+    "解蔽去私——认知与利益双自查：判断被扭曲，先查是学力不足还是利益驱动"
+  ],
+  "modern_value_en": [
+    "Principle resides in desire: the human baseline of institutions—ask whether they empathize with people's feelings and fulfill their needs before moralizing",
+    "Critique of killing by principle: audit discursive power—who defines the principle, who is defined by it; one-way moralism is oppression",
+    "From words to the Way: conceptual discipline—examine a term's root meaning before using it; beware hollow big words replacing thought",
+    "Analytic discrimination: analytical rationality—refuse sweeping conclusions; discriminate layer by layer and verify point by point",
+    "Cumulative-evidence verification: fact-checking discipline—separate direct, indirect, and adverse evidence; suspect solitary evidence, prioritize counterevidence",
+    "Uncovering obscuration and self-interest: double self-audit of cognition and interest—when judgment goes wrong, first ask whether it is ignorance or incentive"
+  ],
+  "place_of_origin": "Longfu, Xiuning County, Huizhou, Anhui (now Longfu, Huangshan, Anhui)",
+  "modes": [
+    "M-DZ-001",
+    "M-DZ-002",
+    "M-DZ-003",
+    "M-DZ-004",
+    "M-DZ-005",
+    "M-DZ-006",
+    "M-DZ-007",
+    "M-DZ-008",
+    "M-DZ-009",
+    "M-DZ-010"
+  ],
+  "unique_thing": "Dai Zhen's core achievement was 'grounding morality back in living desire and rebuilding philosophy through philology.' From a poor merchant's family and largely self-taught, he rose to be the greatest scholar of his age by insisting that 'only when philological exegesis is clear can moral principle be clear'—then used that method to deconstruct the Neo-Confucian opposition of heavenly principle to human desire. His verdict—'one who dies by law still has those who pity him; one who dies by principle, who would pity him?'—made him, in the eyes of Zhang Taiyan, Liang Qichao and Hu Shi, the herald of China's own enlightenment: conscience audited structurally, desire restored to dignity, and every big word held to the test of evidence.",
   "meta": {
     "source": "《孟子字义疏证》《原善》《绪言》《考工记图》《方言疏证》及戴震文集书信",
     "methodology": "文献分析法、训诂考据法、概念疏证法、多学科互证法",
@@ -489,5 +265,38 @@
     "generation_date": "2026-09-09",
     "mode_count": 10,
     "phase": "Phase 21"
+  },
+  "mode_ids": [
+    "M-DZ-001",
+    "M-DZ-002",
+    "M-DZ-003",
+    "M-DZ-004",
+    "M-DZ-005",
+    "M-DZ-006",
+    "M-DZ-007",
+    "M-DZ-008",
+    "M-DZ-009",
+    "M-DZ-010"
+  ],
+  "mode_ids_note": "Phase 20 深度研究（上游 t_d2b15144）产出 10 条 v6 模式，研究稿临时 ID 为 M-DAI-001~010（研究壳码 H-DAI-001）；入库统一为库内既有编码 M-DZ-001~010（figure code H-DZ-001，figure_names 唯一映射），每条模式的 research_mode_id 字段保留研究稿原始 ID。图档 mode_evidence/protreptic_mapping 已按 Phase 20 模式重写；Phase 21 建档的 10 条模式（M331~M340）保留在 data/individuals/H-DZ-001_modes.json。",
+  "phase20": {
+    "landed_by": "elcano",
+    "task": "t_d5d770a7",
+    "research_task": "t_d2b15144",
+    "research_code": "H-DAI-001",
+    "library_code": "H-DZ-001",
+    "mode_id_mapping": {
+      "M-DAI-001": "M-DZ-001",
+      "M-DAI-002": "M-DZ-002",
+      "M-DAI-003": "M-DZ-003",
+      "M-DAI-004": "M-DZ-004",
+      "M-DAI-005": "M-DZ-005",
+      "M-DAI-006": "M-DZ-006",
+      "M-DAI-007": "M-DZ-007",
+      "M-DAI-008": "M-DZ-008",
+      "M-DAI-009": "M-DZ-009",
+      "M-DAI-010": "M-DZ-010"
+    },
+    "landed_at": "20260922_152128"
   }
 }

@@ -455,5 +455,762 @@
         "M339"
       ]
     }
-  ]
+  ],
+  "thinking_modes_v6_phase20": [
+    {
+      "id": "M-DZ-001",
+      "mode_code": "M-DZ-001",
+      "research_mode_id": "M-DAI-001",
+      "name_zh": "由字通道法",
+      "name_en": "Word-to-Way Method (Etymology as Path to Truth)",
+      "category": "方法论",
+      "domain_zh": "语言哲学/经学诠释",
+      "domain_en": "Philosophy of Language / Classical Hermeneutics",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "「经之至者道也，所以明道者其词也，所以成词者字也。由字以通其词，由词以通其道，必有渐。」戴震认为，道的载体是经典，经典的载体是语言，语言的载体是字。要理解圣人之道，必须从训诂考据入手——先明字义，再通词意，最终抵达义理。此法把语言学置于哲学之前，以客观的语言考据对抗主观的臆测，是乾嘉学派的方法论基石。",
+      "definition_en": "\"The classics contain the Way; the words express the classics; the characters compose the words. From characters we reach words, from words we reach the Way — this requires gradual progress.\" Dai Zhen held that the Way is carried by the classics, the classics by language, and language by characters. To understand the sages' Way, one must begin with philological research — first clarify character meanings, then word usages, and only then reach principle. The method places linguistics before philosophy, opposing subjective speculation with objective textual evidence; it is the methodological cornerstone of the Qian-Jia evidential scholarship.",
+      "source_chapter": "《与是仲明论学书》",
+      "key_concepts": [
+        "由字通词",
+        "由词通道",
+        "训诂",
+        "考据",
+        "十分之见"
+      ],
+      "process_zh": [
+        "选定目标术语（如「理」「性」「道」等核心概念）",
+        "追溯该字的字形源流（《说文》为本）",
+        "遍考群经中该字的使用语境与用法",
+        "综合训诂证据还原字的本义与引申义",
+        "以还原后的词义重新理解经典中的义理",
+        "检验是否与古人原意「合诸道而不留余议」"
+      ],
+      "process_en": [
+        "Select the target term (e.g., 'li', 'xing', 'dao' — core philosophical concepts)",
+        "Trace the etymology of the character (Shuowen Jiezi as the foundation)",
+        "Survey all contexts and usages of the character across the Six Classics",
+        "Synthesize philological evidence to reconstruct the character's original and extended meanings",
+        "Reinterpret the philosophical doctrine in the classics based on the recovered meaning",
+        "Verify whether the reconstruction coheres with ancient intent — 'consistent with the Way, leaving no unexamined residue'"
+      ],
+      "key_quote_zh": "由字以通其词，由词以通其道，必有渐。求所谓字，考诸篆书，得许氏《说文解字》，三年知其节目，渐睹古圣人生制作本始。",
+      "key_quote_en": "\"From characters we reach words, from words we reach the Way — this requires gradual progress.\" To seek the meaning of characters, examine seal script and consult Xu Shen's Shuowen Jiezi; after three years mastering its structure, one gradually discerns the original designs of the ancient sages.",
+      "representative_cases_zh": [
+        "戴震对「理」字的训诂：从《说文》「分理」出发，考证「理」的本义为事物的条理纹理（肌理、腠理、文理），而非宋儒所构想的形上实体。由此颠覆了程朱「理在气先」「理如有物焉」的本体论建构",
+        "戴震对「天道」「性」「命」等核心概念的逐一疏证，每字皆有详尽的语源追溯与经典用例汇编，形成《孟子字义疏证》全书的诠释架构",
+        "反例警示：若跳过训诂直接进入义理，就会重蹈宋儒「以己之见硬坐为古贤圣立言之意」的覆辙——语言知识不足而以胸臆代经典，正是戴震所痛斥的「空言以定其论」"
+      ],
+      "representative_cases_en": [
+        "Dai's philological reconstruction of 'li' (principle): starting from Shuowen's definition 'dividing pattern,' he traced 'li' to its original sense of structural grain — muscle grain, skin texture, wood grain — rather than the Neo-Confucian imagined transcendent entity. This overturned the Cheng-Zhu ontology of 'principle precedes qi' and 'principle as if it were a thing'",
+        "Dai's item-by-item exegesis of 'heavenly way,' 'nature,' 'destiny,' and other core concepts in the Méngzǐ Zìyì Shūzhèng — each term receives exhaustive etymological tracing and a compilation of classic usages, forming the interpretive architecture of the entire work",
+        "Counterexample: leaping directly from text to doctrine without philological groundwork reproduces the Song error of 'superimposing one's own opinion as the sage's original intent' — insufficient knowledge of language substituted for the classics is precisely what Dai condemned as 'establishing doctrine from empty words'"
+      ],
+      "modern_applications_zh": [
+        "学术诠释中的文本细读原则",
+        "语言哲学与概念史研究",
+        "避免过度解读的文本分析方法"
+      ],
+      "modern_applications_en": [
+        "Close-reading discipline in scholarly interpretation",
+        "Conceptual history and philosophy of language research",
+        "Text-analysis methods that resist over-interpretation"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-002",
+        "M-DZ-003",
+        "M-DZ-005"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-002",
+      "mode_code": "M-DZ-002",
+      "research_mode_id": "M-DAI-002",
+      "name_zh": "气化流行法",
+      "name_en": "Qi-Circulation Method (Cosmology as Continuous Process)",
+      "category": "本体论",
+      "domain_zh": "宇宙论/气一元论",
+      "domain_en": "Cosmology / Qi Monism",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "「一阴一阳之谓道」，道即是阴阳五行气化流行的总过程。「天地之气化流行不已，生生不息。」宇宙不是由某个超越的理或天主宰的静态结构，而是气自身不断聚散变化、生生不已的动态总过程。形而上与形而下不是两个世界，而是气的两种状态——未成形质为形上，已成形质为形下。此法以连续变化的过程本体取代了实体本体，消解了理气二元论的根基。",
+      "definition_en": "\"One yin and one yang is called the Way\" — the Way is the totality of yin-yang five-phases qi-circulation. \"The qi-circulation of heaven and earth never ceases, generating and transforming endlessly.\" The universe is not a static structure governed by some transcendent li or Heaven, but a dynamic total process of qi condensing, dispersing, and transforming by itself. The formless (before shape) and the formed (after shape) are not two worlds but two states of qi — the unformed being the formless state, the formed being shaped matter. This method replaces substance ontology with process ontology, dissolving the foundation of li-qi dualism.",
+      "source_chapter": "《孟子字义疏证·天道》",
+      "key_concepts": [
+        "气化流行",
+        "阴阳五行",
+        "生生不息",
+        "形上形下",
+        "道之实体"
+      ],
+      "process_zh": [
+        "将宇宙理解为气的持续流动而非静态结构",
+        "区分形上（未成形质）与形下（已成形质）为同一实体的不同相位",
+        "拒绝超越于气化之上的抽象本体（如「理」作为独立实体）",
+        "以「生生」为宇宙的根本特征——变化本身就是实在",
+        "在具体事物中识别气的聚合形态，在消散中看见回归"
+      ],
+      "process_en": [
+        "Understand the cosmos as continuous qi-flow rather than a static structure",
+        "Distinguish the formless (before shape) and formed (after shape) as two phases of one substance",
+        "Reject transcendent abstractions (such as 'li' as an independent entity) above qi-circulation",
+        "Take 'generating-transforming' (shengsheng) as the fundamental character of the cosmos — change itself is reality",
+        "Identify condensed qi-forms in particular things, recognize return-to-dispersion in dissolution"
+      ],
+      "key_quote_zh": "道，指其实体实事之名。阴阳五行，道之实体也。天地之气化流行不已，生生不息。",
+      "key_quote_en": "\"Dao\" names the real substance and actual events. Yin and yang and the five phases are the substance of the Way. The qi-circulation of heaven and earth proceeds without cease, generating and transforming endlessly.",
+      "representative_cases_zh": [
+        "戴震将「形而上」「形而下」重新诠释为时间性概念而非本体论等级：形上是「形以前」即气未凝结的状态，形下是「形以后」即气已凝结的状态。这直接摧毁了程朱理气二分的形上根基",
+        "「气化流行，生生不息」把宇宙论从静态层级结构转变为动态过程模型——这一模型比怀特海的过程哲学早了两个世纪，却在中国本土独立发展",
+        "反例警示：把「气化」简化为机械唯物主义的「物质运动」，会丢失戴震思想中「生生」的价值维度——气化的根本特征是生成而非仅仅位移"
+      ],
+      "representative_cases_en": [
+        "Dai reinterprets 'formless' and 'formed' as temporal rather than ontological categories: the formless is qi before condensation, the formed is qi after condensation. This directly destroys the Cheng-Zhu li-qi dichotomy at its root",
+        "\"Qi-circulation, generating endlessly\" transforms cosmology from a static hierarchy into a dynamic process model — this model anticipates Whitehead's process philosophy by two centuries, yet developed independently within the Chinese tradition",
+        "Counterexample: reducing 'qi-circulation' to mechanistic materialist 'matter in motion' loses the value-dimension of 'shengsheng' (generative becoming) in Dai's thought — the fundamental character of qi-circulation is generative becoming, not mere displacement"
+      ],
+      "modern_applications_zh": [
+        "过程哲学与系统科学的古典资源",
+        "动态演化模型的构建",
+        "反对本质主义的思维方式"
+      ],
+      "modern_applications_en": [
+        "Classical resources for process philosophy and systems science",
+        "Building dynamic-evolution models",
+        "Thinking that resists essentialism"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-001",
+        "M-DZ-003",
+        "M-DZ-004"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-003",
+      "mode_code": "M-DZ-003",
+      "research_mode_id": "M-DAI-003",
+      "name_zh": "理存欲中法",
+      "name_en": "Principle-in-Desire Method (Rejection of Desire-Suppression)",
+      "category": "伦理学",
+      "domain_zh": "价值论/理欲之辨",
+      "domain_en": "Axiology / the Reason-Desire Debate",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "「理者，存乎欲者也。」戴震从根本上否定了理欲二分与理在欲先的命题。他认为一切作为皆以欲望为基础——「无欲则无为，有为而归于至当不可易之谓理」。理不是超越于情欲之上的抽象规范，而是情欲得到恰当满足时所呈现的「至当不可易」。此法把道德的基础从超越领域拉回人间日用，彻底颠覆了程朱「存天理灭人欲」的禁欲主义伦理。",
+      "definition_en": "\"Principle resides within desire.\" Dai Zhen fundamentally negated the dichotomy of principle and desire and the priority of principle over desire. He held that all human activity is grounded in desire — 'without desire there is no action; when action achieves the utmost appropriateness that cannot be altered, this is called principle.' Principle is not a transcendent norm above emotions and desires, but the 'utmost appropriateness' manifested when desires are properly satisfied. The method pulls the foundation of ethics from the transcendent realm back to everyday human life, entirely overturning the Cheng-Zhu ascetic ethic of 'preserving heavenly principle, eliminating human desires.'",
+      "source_chapter": "《孟子字义疏证·理》",
+      "key_concepts": [
+        "理存欲中",
+        "无欲无为",
+        "至当不可易",
+        "存天理灭人欲批判",
+        "启蒙思想"
+      ],
+      "process_zh": [
+        "承认欲望的自然性与合理性——「有欲、有情、有知」是人之本性",
+        "分析欲望满足的条件与界限——「节欲」而非「灭欲」",
+        "在具体情境中寻求「至当不可易」的恰当满足",
+        "以「情之不爽失」作为判断理的标准",
+        "批判「舍情求理」导致的「以理杀人」社会危害"
+      ],
+      "process_en": [
+        "Acknowledge the naturalness and legitimacy of desire — 'having desires, emotions, and knowledge' is human nature",
+        "Analyze the conditions and boundaries of desire satisfaction — 'moderate desire' not 'eliminate desire'",
+        "Seek the 'utmost appropriateness that cannot be altered' in concrete situations",
+        "Use 'emotion not going astray' as the criterion for judging principle",
+        "Critique the social harm of 'seeking principle apart from emotion' leading to 'killing people with principle'"
+      ],
+      "key_quote_zh": "理也者，情之不爽失也；未有情不得而理得者也。凡事为皆有于欲，无欲则无为矣。有欲而后有为，有为而归于至当不可易之谓理。",
+      "key_quote_en": "\"Principle is nothing but emotion not going astray; there has never been a case where emotion is unsatisfied yet principle is attained. All human activities arise from desire; without desire there is no action. When action achieves the utmost appropriateness that cannot be altered, this is called principle.\"",
+      "representative_cases_zh": [
+        "戴震批判程朱「存天理灭人欲」：「今以情之不爽失为理，是理者存乎欲者也。后儒不知情之至于纤微无憾是谓理，而其所谓理者，同于酷吏之所谓法。酷吏以法杀人，后儒以理杀人，浸浸乎舍法而论理，死矣，更无所救矣！」",
+        "戴震提出「体民之情，遂民之欲」的政治理想，认为圣人之道在于使「天下之人各得其情，各遂其欲」，这是对封建礼教压抑人性的最直接批判",
+        "反例警示：若把「理存欲中」曲解为纵欲主义，就会走向另一个极端——戴震强调的是「节欲」而非「穷欲」，「无过情无不及情」才是理的标准"
+      ],
+      "representative_cases_en": [
+        "Dai critiques Cheng-Zhu 'preserving heavenly principle, eliminating human desires': 'What we take as principle is emotion not going astray; principle resides within desire. Later scholars did not understand that when emotion is perfectly satisfied without regret, this is called principle — their so-called principle is identical to what cruel officials call law. Cruel officials kill with law; later scholars kill with principle. Gradually, as law is set aside and principle is made the measure, people die with no remedy.'",
+        "Dai proposed the political ideal of 'understanding the people's emotions and fulfilling their desires,' arguing that the sage's way is to let 'all under heaven each get their emotions and each fulfill their desires' — this is the most direct critique of feudal ritual suppression of human nature",
+        "Counterexample: misreading 'principle in desire' as licentiousness leads to the opposite extreme — Dai emphasized 'moderating desire' not 'indulging desire'; 'neither excessive nor deficient emotion' is the standard of principle"
+      ],
+      "modern_applications_zh": [
+        "消费伦理与合理欲望管理",
+        "组织管理中的激励机制设计",
+        "心理健康与需求层次理论"
+      ],
+      "modern_applications_en": [
+        "Consumer ethics and rational desire management",
+        "Motivation design in organizational management",
+        "Mental health and Maslow's hierarchy of needs"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-001",
+        "M-DZ-004",
+        "M-DZ-005"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-004",
+      "mode_code": "M-DZ-004",
+      "research_mode_id": "M-DAI-004",
+      "name_zh": "血气心知法",
+      "name_en": "Blood-Qi-Mind-Knowing Method (Natural Human Nature Theory)",
+      "category": "人性论",
+      "domain_zh": "人性论/自然主义",
+      "domain_en": "Theory of Human Nature / Naturalism",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "「血气心知，性之实体也。」戴震以气一元论为基础，提出人性即「血气心知」——人有血气故有欲有情，有心知故能辨别是非。性是一元的，不是程朱所谓的「天命之性」与「气质之性」二分。此法从自然主义角度定义人性，把道德建立在人的自然属性之上，反对把人性分为两个层次的形上建构。",
+      "definition_en": "\"Blood-qi and mind-knowing are the substance of human nature.\" Based on qi monism, Dai Zhen proposed that human nature is 'blood-qi and mind-knowing' — humans have blood-qi so they have desires and emotions, and they have mind-knowing so they can distinguish right from wrong. Nature is unitary, not the dualistic 'heavenly mandate nature' and 'physical nature' of Cheng-Zhu. The method defines human nature from a naturalistic perspective, grounding morality in human natural attributes, opposing the metaphysical construction of dividing human nature into two levels.",
+      "source_chapter": "《孟子字义疏证·性》",
+      "key_concepts": [
+        "血气心知",
+        "性一元论",
+        "自然人性",
+        "心知神明",
+        "天赋材质"
+      ],
+      "process_zh": [
+        "承认人的自然属性——血气、欲望、情感是性的组成部分",
+        "认识心知的辨别能力——「心之神明」使人能知仁义",
+        "理解「才、性、命」三者统一于气禀",
+        "以心知的扩充达到「神明」境界——「学以开其榛蔽」",
+        "反对「复其初」的修养论——人性是发展的而非回归的"
+      ],
+      "process_en": [
+        "Acknowledge human natural attributes — blood-qi, desires, emotions are components of nature",
+        "Recognize the discriminative capacity of mind-knowing — 'the mind's illumination' enables knowledge of benevolence and righteousness",
+        "Understand the unity of 'talent, nature, destiny' in qi endowment",
+        "Expand mind-knowing to reach the 'illumination' state — 'learning opens what was obstructed'",
+        "Oppose the 'return to origin' cultivation theory — human nature develops rather than regresses"
+      ],
+      "key_quote_zh": "血气心知，性之实体也。人之异于禽兽者，以其心之神明也。",
+      "key_quote_en": "\"Blood-qi and mind-knowing are the substance of human nature. What distinguishes humans from animals is their mind's capacity for illumination.\"",
+      "representative_cases_zh": [
+        "戴震批判程朱的性二分论：「故截气质为一性，言君子不谓之性；截理义为一性，别而归之天，以附合孟子。」他认为这种二分是受到佛老影响，背离了先秦儒学的性一元论",
+        "戴震提出「性者，分于阴阳五行以为血气心知」，人之与万物同出于气化，但人独得心知之全，故能「进乎神明」",
+        "反例警示：若把「血气心知」理解为纯粹的生物决定论，就会忽视戴震强调的「心知」的能动性——心知可以通过学习达到「神明」境界"
+      ],
+      "representative_cases_en": [
+        "Dai critiques Cheng-Zhu's dual nature theory: 'Thus they cut off the physical endowment as one nature, saying the gentleman does not call it nature; and cut off moral principle as another nature, assigning it to Heaven, to make it accord with Mencius.' He believed this duality was influenced by Buddhism and Daoism, deviating from the unitary nature theory of pre-Qin Confucianism",
+        "Dai proposed 'nature is divided from yin-yang five-phases into blood-qi and mind-knowing' — humans and all things originate from qi-circulation, but humans alone receive the fullness of mind-knowing, thus able to 'advance to illumination'",
+        "Counterexample: interpreting 'blood-qi and mind-knowing' as pure biological determinism would ignore Dai's emphasis on the agency of 'mind-knowing' — mind-knowing can reach the 'illumination' state through learning"
+      ],
+      "modern_applications_zh": [
+        "自然主义人性论的哲学基础",
+        "心理学中的生物-社会互动模型",
+        "教育学中的潜能开发理论"
+      ],
+      "modern_applications_en": [
+        "Philosophical foundation of naturalistic theory of human nature",
+        "Bio-social interaction models in psychology",
+        "Potential development theory in education"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-002",
+        "M-DZ-003",
+        "M-DZ-006"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-005",
+      "mode_code": "M-DZ-005",
+      "research_mode_id": "M-DAI-005",
+      "name_zh": "絜情平欲法",
+      "name_en": "Empathic Equilibrium Method (Measuring Emotion for Justice)",
+      "category": "伦理学",
+      "domain_zh": "道德认识论/正义论",
+      "domain_en": "Moral Epistemology / Theory of Justice",
+      "level": "重要",
+      "priority": 5,
+      "definition_zh": "「以我之情絜人之情，而无不得其平者，是为理。」戴震的道德认识论核心：通过共情（絜情）实现普遍正义。理不是外在规范，而是通过推己及人达到的情感平衡状态。此法强调道德判断的主观体验基础——「情之不爽失」即为理，要求在不同主体的情感之间寻求公正的平衡点。",
+      "definition_en": "\"Using my own emotions to measure others' emotions, and achieving balance for all, this is called principle.\" The core of Dai Zhen's moral epistemology: universal justice is achieved through empathy (xie qing). Principle is not an external norm, but an emotional equilibrium state reached through extending oneself to others. The method emphasizes the subjective experiential basis of moral judgment — 'emotion not going astray' is principle, requiring the seeking of a fair balance between different subjects' emotions.",
+      "source_chapter": "《孟子字义疏证·理》",
+      "key_concepts": [
+        "絜情",
+        "情之不爽失",
+        "以情絜情",
+        "普遍正义",
+        "情感平衡"
+      ],
+      "process_zh": [
+        "从自身情感体验出发——「己所不欲，勿施于人」",
+        "推己及人——将心比心，理解他人的情感需求",
+        "寻求情感平衡点——「无不得其平」是理的标准",
+        "在具体情境中检验——理不是抽象规则，而是情境化的恰当判断",
+        "避免「以理杀人」——防止用抽象原则压制具体情感"
+      ],
+      "process_en": [
+        "Start from own emotional experience — 'do not impose on others what you do not want for yourself'",
+        "Extend from self to others — empathize and understand others' emotional needs",
+        "Seek emotional balance point — 'no one unbalanced' is the standard of principle",
+        "Verify in concrete situations — principle is not abstract rule but contextualized appropriate judgment",
+        "Avoid 'killing with principle' — prevent using abstract principles to suppress concrete emotions"
+      ],
+      "key_quote_zh": "天理云者，言乎自然之分理也；自然之分理，以我之情絜人之情，而无不得其平者是也。",
+      "key_quote_en": "\"Heavenly principle\" means the natural differentiated order; the natural differentiated order is using my own emotions to measure others' emotions, achieving balance for all.",
+      "representative_cases_zh": [
+        "戴震的「絜情」方法与康德的「定言命令」形成有趣对比：两者都强调普遍化，但戴震的出发点是情感共鸣而非理性法则。他说「理者，存乎欲者也」，意味着道德判断必须考虑具体情感需求，而非抽象原则",
+        "「以我之情絜人之情」实际上是一种朴素的社会契约论——通过情感共鸣达成相互理解的平衡，这比霍布斯的理性契约论更早地触及了情感基础",
+        "反例警示：絜情不是简单的「己所欲施于人」——戴震明确区分了「情」与「私」，「私」是「情之失」，絜情的目标是「无不得其平」而非满足一己之欲"
+      ],
+      "representative_cases_en": [
+        "Dai's 'empathic measurement' method forms an interesting contrast with Kant's 'categorical imperative': both emphasize universalization, but Dai starts from emotional resonance rather than rational rules. He said 'principle resides in desire,' meaning moral judgment must consider concrete emotional needs, not abstract principles",
+        "'Using my emotions to measure others' emotions' is essentially a naive social contract theory — achieving balanced mutual understanding through emotional resonance, touching the emotional foundation earlier than Hobbes' rational contract theory",
+        "Counterexample: empathic measurement is not simple 'do unto others what you would have them do to you' — Dai clearly distinguished 'emotion' from 'selfishness'; 'selfishness' is 'emotion gone astray,' and the goal of empathic measurement is 'no one unbalanced' not satisfying one's own desires"
+      ],
+      "modern_applications_zh": [
+        "道德困境的共情决策方法",
+        "冲突调解中的利益平衡",
+        "伦理学中的情感主义路径"
+      ],
+      "modern_applications_en": [
+        "Empathic decision-making in moral dilemmas",
+        "Interest balancing in conflict mediation",
+        "Emotivist approaches in ethics"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-003",
+        "M-DZ-006",
+        "M-DZ-007"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-006",
+      "mode_code": "M-DZ-006",
+      "research_mode_id": "M-DAI-006",
+      "name_zh": "以理杀人批判法",
+      "name_en": "Anti-Principle-Killing Critique Method (Exposing Ideological Tyranny)",
+      "category": "政治哲学",
+      "domain_zh": "批判理论/权力分析",
+      "domain_en": "Critical Theory / Power Analysis",
+      "level": "重要",
+      "priority": 6,
+      "definition_zh": "戴震最著名的批判命题：「酷吏以法杀人，后儒以理杀人。」此法揭示意识形态如何将抽象原则武器化——当「理」被抽离具体情感和经验，成为权力者压制他人的工具时，其危害甚于法律。戴震指出尊者以理责卑、长者以理责幼、贵者以理责贱，虽失谓之顺，形成了一套隐蔽的压迫机制。",
+      "definition_en": "Dai Zhen's most famous critical proposition: 'Cruel officials kill with law; later Confucians kill with principle.' This method reveals how ideology weaponizes abstract principles — when 'principle' is detached from concrete emotion and experience, becoming a tool for power holders to suppress others, its harm exceeds that of law. Dai pointed out that the superior blames the inferior with principle, the elder blames the young, the noble blames the base — even when wrong, it is called 'obedience,' forming a hidden mechanism of oppression.",
+      "source_chapter": "《孟子字义疏证·理》",
+      "key_concepts": [
+        "以理杀人",
+        "意识形态批判",
+        "权力话语",
+        "抽象原则的危害",
+        "启蒙批判"
+      ],
+      "process_zh": [
+        "识别「理」如何被权力话语绑架——谁有资格定义理",
+        "分析「理」如何成为压制工具——「以理责卑」的权力不对称",
+        "揭露「理」对具体情感的遮蔽——「舍情求理」的意识形态功能",
+        "恢复「理」的情感基础——「理者存乎欲者」",
+        "建立批判意识——警惕任何脱离具体经验的抽象原则"
+      ],
+      "process_en": [
+        "Identify how 'principle' is hijacked by power discourse — who has the authority to define principle",
+        "Analyze how 'principle' becomes a tool of suppression — the power asymmetry of 'blaming the inferior with principle'",
+        "Expose how 'principle' obscures concrete emotions — the ideological function of 'seeking principle apart from emotion'",
+        "Restore the emotional foundation of 'principle' — 'principle resides in desire'",
+        "Establish critical consciousness — be vigilant about any abstract principle detached from concrete experience"
+      ],
+      "key_quote_zh": "人死于法，犹有怜之者；死于理，其谁怜之！尊者以理责卑，长者以理责幼，贵者以理责贱，虽失，谓之顺；卑者、幼者、贱者以理争之，虽得，谓之逆。",
+      "key_quote_en": "\"People die by law, and there are still those who pity them; but when they die by principle, who pities them? The superior blames the inferior with principle, the elder blames the young, the noble blames the base — even when wrong, it is called obedience; the inferior, the young, the base dispute with principle — even when right, it is called rebellion.\"",
+      "representative_cases_zh": [
+        "戴震的批判直指封建礼教的本质：「以理杀人」比「以法杀人」更可怕，因为法律尚有明文可循，而「理」是抽象的、主观的、可由权力者任意解释的。这使得压迫具有了道德正当性外衣",
+        "章学诚批评戴震「心术不纯」，恰恰证明了戴震的批判触及了意识形态的核心——当「理」成为统治工具，任何质疑都是对既得利益的挑战",
+        "反例警示：批判「以理杀人」不等于否定一切原则——戴震并非要抛弃「理」，而是要恢复「理」的情感基础和经验根基"
+      ],
+      "representative_cases_en": [
+        "Dai's critique strikes at the essence of feudal ritual: 'killing with principle' is more terrifying than 'killing with law' because law has written provisions, while 'principle' is abstract, subjective, and can be arbitrarily interpreted by power holders. This gives oppression the cloak of moral legitimacy",
+        "Zhang Xuecheng criticized Dai for 'impure intentions,' which precisely proves that Dai's critique touched the core of ideology — when 'principle' becomes a tool of domination, any questioning is a challenge to vested interests",
+        "Counterexample: critiquing 'killing with principle' does not mean rejecting all principles — Dai was not advocating abandoning 'principle,' but restoring its emotional foundation and empirical grounding"
+      ],
+      "modern_applications_zh": [
+        "意识形态批判与话语分析",
+        "组织权力结构的反思",
+        "法律与道德的边界辨析"
+      ],
+      "modern_applications_en": [
+        "Ideological critique and discourse analysis",
+        "Reflection on organizational power structures",
+        "Boundary discrimination between law and morality"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-003",
+        "M-DZ-005",
+        "M-DZ-007"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-007",
+      "mode_code": "M-DZ-007",
+      "research_mode_id": "M-DAI-007",
+      "name_zh": "体民遂欲法",
+      "name_en": "Governance-for-People Method (Understanding Emotions, Fulfilling Desires)",
+      "category": "政治哲学",
+      "domain_zh": "治理理论/民生思想",
+      "domain_en": "Governance Theory / Livelihood Thought",
+      "level": "重要",
+      "priority": 7,
+      "definition_zh": "「圣人之道，使天下无不达之情，求遂其欲而天下治。」戴震的政治理想：统治者的职责是「体民之情，遂民之欲」，而非以抽象的「天理」压制百姓。此法把治理的合法性基础从道德形上学转移到民生实际需求，要求政策制定必须考虑百姓的真实情感和欲望，而非精英阶层的抽象规范。",
+      "definition_en": "\"The way of the sage is to let all under heaven have their emotions expressed and their desires fulfilled, and then the world is governed.\" Dai Zhen's political ideal: the ruler's duty is to 'understand the people's emotions and fulfill their desires,' not to suppress the people with abstract 'heavenly principle.' The method shifts the legitimacy foundation of governance from moral metaphysics to practical livelihood needs, requiring policy-making to consider the people's real emotions and desires, not the elite's abstract norms.",
+      "source_chapter": "《孟子字义疏证》",
+      "key_concepts": [
+        "体民之情",
+        "遂民之欲",
+        "民生政治",
+        "去欲存理批判",
+        "启蒙治理"
+      ],
+      "process_zh": [
+        "诊断民生疾苦——了解百姓的真实情感和需求",
+        "区分「公欲」与「私欲」——遂天下之欲而非一己之欲",
+        "设计满足民生的政策——「遂其欲」而非「节其欲」",
+        "检验政策效果——是否「无不达之情」",
+        "反对精英主义的道德说教——治理必须接地气"
+      ],
+      "process_en": [
+        "Diagnose livelihood hardships — understand the people's real emotions and needs",
+        "Distinguish 'public desire' from 'selfish desire' — fulfill the desires of all, not just one's own",
+        "Design policies to satisfy livelihood — 'fulfill desires' not 'moderate desires'",
+        "Verify policy effectiveness — whether 'all emotions are expressed'",
+        "Oppose elitist moral preaching — governance must be grounded in reality"
+      ],
+      "key_quote_zh": "圣人之道，使天下无不达之情，求遂其欲而天下治。后儒不知此，而曰『存天理，去人欲』，是以理为如有物焉，得于天而具于心，而轻重其欲也。",
+      "key_quote_en": "\"The way of the sage is to let all under heaven have their emotions expressed and their desires fulfilled, and then the world is governed. Later Confucians did not understand this, and said 'preserve heavenly principle, eliminate human desires,' treating principle as if it were a thing obtained from Heaven and contained in the heart, and weighing desires as heavy or light.\"",
+      "representative_cases_zh": [
+        "戴震的「体民遂欲」思想与近代启蒙思想家的民生主张遥相呼应——梁启超、胡适都将戴震视为中国近代启蒙的先驱，正是因为其思想中包含了尊重个体需求、批判专制压迫的启蒙因子",
+        "与黄宗羲《明夷待访录》的「天下为主，君为客」相比，戴震更具体地指出了治理的技术路径——不是抽象的主客颠倒，而是具体的「遂其欲」",
+        "反例警示：「遂民之欲」不等于放纵民欲——戴震强调的是「情之不爽失」，即恰当的满足，而非无节制的纵欲"
+      ],
+      "representative_cases_en": [
+        "Dai's 'understand emotions and fulfill desires' thought echoes the livelihood advocacy of modern Enlightenment thinkers — Liang Qichao and Hu Shi both regarded Dai as the pioneer of Chinese modern Enlightenment, precisely because his thought contains Enlightenment factors respecting individual needs and criticizing authoritarian oppression",
+        "Compared with Huang Zongxi's 'the world is master, the ruler is guest' in Mingyi Daifang Lu, Dai is more specific about the technical path of governance — not abstract inversion of master and guest, but concrete 'fulfilling desires'",
+        "Counterexample: 'fulfilling the people's desires' does not mean indulging desires — Dai emphasizes 'emotion not going astray,' i.e., appropriate satisfaction, not unrestrained license"
+      ],
+      "modern_applications_zh": [
+        "民生政策制定的人性化考量",
+        "公共服务中的需求导向设计",
+        "社会治理的情感维度"
+      ],
+      "modern_applications_en": [
+        "Humanized considerations in livelihood policy-making",
+        "Need-oriented design in public services",
+        "Emotional dimension of social governance"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-003",
+        "M-DZ-005",
+        "M-DZ-006"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-008",
+      "mode_code": "M-DZ-008",
+      "research_mode_id": "M-DAI-008",
+      "name_zh": "十分之见法",
+      "name_en": "Complete Evidence Method (The Standard of Thorough Verification)",
+      "category": "方法论",
+      "domain_zh": "学术标准/证据理论",
+      "domain_en": "Academic Standards / Evidence Theory",
+      "level": "重要",
+      "priority": 8,
+      "definition_zh": "「所谓十分之见，必征之古而靡不条贯，合诸道而不留馀议，巨细毕究，本末兼察。」戴震的学术标准：真正的见识必须经得起全面检验——古今贯通、本末兼察、无有余议。此法是对「未至十分之见」的批判，包括「依于传闻以拟其是」「择于众说以裁其优」「出于空言以定其论」「据于孤证以信其通」四种缺陷。",
+      "definition_en": "\"The so-called complete evidence must be verified against antiquity without exception, consistent with the Way without leaving unexamined residues, investigating both major and minor points, examining both root and branch.\" Dai Zhen's academic standard: true insight must withstand comprehensive verification — spanning ancient and modern, thorough investigation, no unexamined residues. This method criticizes 'incomplete evidence,' including four defects: 'relying on hearsay to judge correctness,' 'choosing among theories to judge the better,' 'establishing doctrine from empty words,' 'believing universality from solitary evidence.'",
+      "source_chapter": "《与姚孝廉姬传书》",
+      "key_concepts": [
+        "十分之见",
+        "征之古",
+        "合诸道",
+        "巨细毕究",
+        "本末兼察"
+      ],
+      "process_zh": [
+        "全面收集证据——不依赖传闻，要目睹渊泉",
+        "多角度验证——合诸道而不留馀议",
+        "细节与全局并重——巨细毕究，本末兼察",
+        "警惕四种缺陷：传闻拟是、众说裁优、空言定论、孤证信通",
+        "追求「十分之见」——无余议、有条贯、兼本末"
+      ],
+      "process_en": [
+        "Comprehensively collect evidence — do not rely on hearsay, witness the source",
+        "Multi-angle verification — consistent with the Way without leaving unexamined residues",
+        "Balance detail and whole — investigate both major and minor, examine both root and branch",
+        "Beware of four defects: hearsay judging correctness, choosing among theories, empty words establishing doctrine, solitary evidence believing universality",
+        "Pursue 'complete evidence' — no unexamined residues, coherent, examining both root and branch"
+      ],
+      "key_quote_zh": "所谓十分之见，必征之古而靡不条贯，合诸道而不留馀议，巨细毕究，本末兼察。若夫依于传闻以拟其是，择于众说以裁其优，出于空言以定其论，据于孤证以信其通，虽溯源可以知流，不目睹渊泉所导；循根可以达杪，不手披枝肄所歧，皆未至十分之见也。",
+      "key_quote_en": "\"The so-called complete evidence must be verified against antiquity without exception, consistent with the Way without leaving unexamined residues, investigating both major and minor points, examining both root and branch. As for relying on hearsay to judge correctness, choosing among theories to judge the better, establishing doctrine from empty words, believing universality from solitary evidence — though tracing the source can know the flow, not witnessing the spring; following the root can reach the tip, not manually examining the branches — all are incomplete evidence.\"",
+      "representative_cases_zh": [
+        "戴震对郑玄、程颐、朱熹的评价体现了「十分之见」的标准：「先儒之学，如汉郑氏、宋程子、张子、朱子，其为书至详博，然犹得失中判。」即使最详博的注疏，也仍有未至十分之处",
+        "戴震本人对《说文》的研究——「三年知其节目，渐睹古圣人生制作本始」——正是「十分之见」方法的实践",
+        "反例警示：乾嘉学派后期出现了「为考据而考据」的倾向，恰恰违背了戴震「考据以闻道」的初衷——考据是手段，明道是目的"
+      ],
+      "representative_cases_en": [
+        "Dai's evaluation of Zheng Xuan, Cheng Yi, and Zhu Xi embodies the standard of 'complete evidence': 'The scholarship of earlier Confucians, such as Zheng of Han, Cheng and Zhang and Zhu of Song, their writings are most detailed and comprehensive, yet still divided in gains and losses.' Even the most detailed commentaries still have incompleteness",
+        "Dai's own research on Shuowen Jiezi — 'after three years mastering its structure, gradually discerning the original designs of the ancient sages' — is precisely the practice of the 'complete evidence' method",
+        "Counterexample: the later Qian-Jia school developed a tendency to 'conduct research for research's sake,' precisely violating Dai's original intention of 'research to understand the Way' — research is the means, understanding the Way is the end"
+      ],
+      "modern_applications_zh": [
+        "学术研究的方法论标准",
+        "证据评估的系统性方法",
+        "避免认知偏见的检验程序"
+      ],
+      "modern_applications_en": [
+        "Methodological standards for academic research",
+        "Systematic methods for evidence evaluation",
+        "Procedures for avoiding cognitive biases"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-001",
+        "M-DZ-009",
+        "M-DZ-010"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-009",
+      "mode_code": "M-DZ-009",
+      "research_mode_id": "M-DAI-009",
+      "name_zh": "实证归纳法",
+      "name_en": "Empirical Induction Method (Evidence-Based Research)",
+      "category": "方法论",
+      "domain_zh": "科学方法/归纳推理",
+      "domain_en": "Scientific Method / Inductive Reasoning",
+      "level": "重要",
+      "priority": 9,
+      "definition_zh": "戴震的学术方法强调「实事求是」——以实际证据为基础，不轻信权威，不凭空臆测。他精通天文、算学、地理、音韵、训诂等多个领域，每个领域都以实证为基础。此法要求研究必须从具体材料出发，通过归纳总结规律，而非从抽象原则演绎具体结论。",
+      "definition_en": "Dai Zhen's academic method emphasizes 'seeking truth from facts' — based on actual evidence, not blindly trusting authority, not speculating from thin air. He was proficient in astronomy, mathematics, geography, phonology, and philology, with each field based on empirical evidence. The method requires research to start from concrete materials, summarizing patterns through induction, rather than deducing specific conclusions from abstract principles.",
+      "source_chapter": "《戴震文集》",
+      "key_concepts": [
+        "实事求是",
+        "实证",
+        "归纳",
+        "不主一家",
+        "广征博考"
+      ],
+      "process_zh": [
+        "从具体材料和证据出发",
+        "广泛收集各类证据——不偏主一家",
+        "通过归纳发现规律",
+        "用证据检验结论——「合诸道而不留馀议」",
+        "保持开放——「不知为不知」"
+      ],
+      "process_en": [
+        "Start from concrete materials and evidence",
+        "Extensively collect various types of evidence — do not favor one school",
+        "Discover patterns through induction",
+        "Verify conclusions with evidence — 'consistent with the Way without leaving unexamined residues'",
+        "Maintain openness — 'know that you do not know'"
+      ],
+      "key_quote_zh": "凡仆所以寻求于遗经，惧圣人之绪言暗汶于后世也。然寻求而获，有十分之见，有未至十分之见。",
+      "key_quote_en": "\"All that I seek in the lost classics is fear that the sages' teachings will be obscured in later generations. But what is sought and obtained has complete evidence and incomplete evidence.\"",
+      "representative_cases_zh": [
+        "戴震在音韵学上的成就——古音九类二十五部之说，首创阴阳入对转理论，都是基于对大量文献的实证分析，而非凭空构拟",
+        "戴震对《方言》的疏证——以《永乐大典》本及古书所引《方言》与明本对勘，改正错字281个，补脱字27个，删衍字17个，体现了扎实的实证功夫",
+        "反例警示：乾嘉后期出现「臆改古书」的流弊——没有充分证据就擅自改动经典文本，恰恰违背了戴震「实事求是」的原则"
+      ],
+      "representative_cases_en": [
+        "Dai's achievements in phonology — the theory of nine categories and twenty-five parts of ancient pronunciation, pioneering the yin-yang-ru mutual transformation theory — were all based on empirical analysis of a large body of texts, not groundless reconstruction",
+        "Dai's collation-annotations on the Fangyan (the ancient dialect glossary) — comparing the Yongle Dadian text and old-book quotations against the Ming editions, correcting 281 wrong characters, adding 27 omitted characters, deleting 17 superfluous characters — embodies solid empirical craftsmanship",
+        "Counterexample: the later Qian-Jia period saw the abuse of 'arbitrarily altering ancient texts' — changing classical texts without sufficient evidence precisely violates Dai's principle of 'seeking truth from facts'"
+      ],
+      "modern_applications_zh": [
+        "实证研究的方法论基础",
+        "数据驱动决策",
+        "学术诚信与规范"
+      ],
+      "modern_applications_en": [
+        "Methodological foundation of empirical research",
+        "Data-driven decision making",
+        "Academic integrity and norms"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-001",
+        "M-DZ-008",
+        "M-DZ-010"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    },
+    {
+      "id": "M-DZ-010",
+      "mode_code": "M-DZ-010",
+      "research_mode_id": "M-DAI-010",
+      "name_zh": "汉宋兼采法",
+      "name_en": "Han-Song Synthesis Method (Eclectic Scholarship)",
+      "category": "方法论",
+      "domain_zh": "学术史/方法论",
+      "domain_en": "History of Scholarship / Methodology",
+      "level": "重要",
+      "priority": 10,
+      "definition_zh": "戴震虽为乾嘉汉学代表，但不排斥宋学。他批评宋儒「恃胸臆为断」，但也承认朱熹等人「其得者，取义远，资理闳」。他主张「实事求是，不偏主一家」——无论汉学宋学，唯求是。此法体现了戴震方法论的包容性和开放性：学术之争不应是门户之见，而应以真理为标准。",
+      "definition_en": "Though Dai Zhen was a representative of Qian-Jia Han learning, he did not reject Song learning. He criticized Song scholars for 'relying on personal opinion to judge,' but also acknowledged that Zhu Xi and others 'their gains were far-reaching in meaning and extensive in reasoning.' He advocated 'seeking truth from facts, not favoring one school' — whether Han or Song learning, only truth matters. The method embodies the inclusiveness and openness of Dai's methodology: academic disputes should not be about sectarian views, but should take truth as the standard.",
+      "source_chapter": "《与姚孝廉姬传书》",
+      "key_concepts": [
+        "汉宋兼采",
+        "实事求是",
+        "不偏主一家",
+        "批判继承",
+        "学术包容"
+      ],
+      "process_zh": [
+        "承认各家学说的价值——不因门户之见而否定",
+        "识别各家学说的局限——「得失中判」",
+        "以真理为标准取舍——「必征之古而靡不条贯」",
+        "综合各家之长——超越汉宋之争",
+        "保持开放——「不知为不知」"
+      ],
+      "process_en": [
+        "Acknowledge the value of each school's doctrine — do not deny due to sectarian prejudice",
+        "Identify the limitations of each school's doctrine — 'divided in gains and losses'",
+        "Use truth as the standard for selection — 'verified against antiquity without exception'",
+        "Synthesize the strengths of each school — transcend the Han-Song debate",
+        "Maintain openness — 'know that you do not know'"
+      ],
+      "key_quote_zh": "凡仆所以寻求于遗经，惧圣人之绪言暗汶于后世也。先儒之学，如汉郑氏、宋程子、张子、朱子，其为书至详博，然犹得失中判。",
+      "key_quote_en": "\"All that I seek in the lost classics is fear that the sages' teachings will be obscured in later generations. The scholarship of earlier Confucians, such as Zheng of Han, Cheng and Zhang and Zhu of Song, their writings are most detailed and comprehensive, yet still divided in gains and losses.\"",
+      "representative_cases_zh": [
+        "戴震对朱熹的评价体现了「汉宋兼采」的态度：既批评朱熹「杂袭老释之言以解之」，又承认「其得者，取义远，资理闳」。这种批判性继承的态度，比简单否定或全盘接受都更成熟",
+        "戴震的学术实践——既精于汉学训诂，又敢于批判宋学义理，更不满足于仅为考据而考据，而是「考据以闻道」。这种综合超越了当时汉宋之争的狭隘框架",
+        "反例警示：乾嘉学派后期出现的「为考据而考据」倾向，恰恰是丢失了戴震「汉宋兼采」「考据以闻道」的综合性视野"
+      ],
+      "representative_cases_en": [
+        "Dai's evaluation of Zhu Xi embodies the attitude of 'Han-Song synthesis': both criticizing Zhu Xi for 'mixing Lao-Zhuang and Buddhist statements to interpret,' and acknowledging 'their gains were far-reaching in meaning and extensive in reasoning.' This critical inheritance attitude is more mature than simple denial or wholesale acceptance",
+        "Dai's academic practice — proficient in Han learning philology, yet daring to critique Song learning doctrine, and not satisfied with conducting research for research's sake, but 'researching to understand the Way.' This synthesis transcends the narrow framework of the Han-Song debate of his time",
+        "Counterexample: the later Qian-Jia school's tendency to 'conduct research for research's sake' precisely lost Dai's comprehensive vision of 'Han-Song synthesis' and 'researching to understand the Way'"
+      ],
+      "modern_applications_zh": [
+        "跨学科研究的包容性方法",
+        "学术传承中的批判性继承",
+        "避免门户之见的开放心态"
+      ],
+      "modern_applications_en": [
+        "Inclusive methods for interdisciplinary research",
+        "Critical inheritance in academic tradition",
+        "Open mindset avoiding sectarian prejudice"
+      ],
+      "representative_figures": [
+        "戴震"
+      ],
+      "related_modes": [
+        "M-DZ-001",
+        "M-DZ-008",
+        "M-DZ-009"
+      ],
+      "figure_code": "H-DZ-001",
+      "figure_name": "戴震",
+      "verification": {
+        "status": "verified",
+        "method": "phase20",
+        "checked_at": "20260922_152128",
+        "checker": "elcano"
+      }
+    }
+  ],
+  "modes_ref": [
+    "M-DZ-001",
+    "M-DZ-002",
+    "M-DZ-003",
+    "M-DZ-004",
+    "M-DZ-005",
+    "M-DZ-006",
+    "M-DZ-007",
+    "M-DZ-008",
+    "M-DZ-009",
+    "M-DZ-010"
+  ],
+  "phase20_note": "Phase 20 落地 (t_d5d770a7)：10 条 v6 模式已并入主库 data/modes_data.json，ID 统一为 M-DZ-001~010（research_mode_id 记录研究稿 M-DAI-* 原始 ID）。本文件 modes 为 Phase 21 建档数据，保留不动。"
 }
