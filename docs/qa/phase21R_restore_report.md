@@ -267,12 +267,15 @@ phase21r/backup_modes_data_20260922_172740.json（2948 条），可整库回滚�
 
 ## 9. 提交与推送状态
 
-- 工作仓（master）：提交范围 = 本卡路径（data/modes_data.json、figures/individuals/docs 图档镜像、
-  data/audit 审计产物、本报告、tools 计数锚点、web/src/generated/siteCounts.ts、
-  docs/architecture/static_data_manifest.json、api/protreptic.db）；
-  其中 data/modes_data.json 为多卡共享文件，含并行卡已落盘未提交的少量字段热修（第 7 节第 6 条），随本提交入库；
-- 发布仓（main）：提交范围 = 本次镜像同步的 92 文件更新 + 4 文件删除 + 本报告与审计 json；
-- 推送后核验：两仓 `git status --short` 无剩余改动、`git rev-list --count origin/<branch>..HEAD` = 0（ahead=0）；
-- 具体提交哈希与推送回执见 kanban 卡 t_3e74b456 的完成交接（summary / metadata）。
+- 工作仓（master）提交：`0309093a`（16 路径：主库 modes_data.json + 图档镜像 6 件 + 审计产物与报告 +
+  计数锚点 2 件 + siteCounts.ts + static_data_manifest.json + api/protreptic.db）；
+  data/modes_data.json 为多卡共享文件，随提交一并入库的还有并行卡已落盘未提交的少量字段热修（第 7 节第 6 条）；
+- 工作仓 master 的远端：origin 上只有 main 一条分支（发布支线），master 无远端同名分支，
+  故本次不推送 master（与仓库既有流程一致：工作仓内容以镜像方式进入发布仓）；
+  工作仓仍留有并行卡在制未提交文件：data/audit/verification_status.json、docs/figures/H-LJY-001.md、
+  docs/research/phase20_zhoudunyi_qa_evidence.txt（其内容已在发布仓镜像提交）；
+- 发布仓（main）提交：`bc8efec`，已 push 到 origin/main；推送后核验：
+  `git status --short` 无剩余改动、`git rev-list --count origin/main..HEAD` = 0、反向 = 0（干净且齐平）；
+- 持久记录：提交哈希与推送回执亦见 kanban 卡 t_3e74b456 的完成交接（summary / metadata）。
 
 （报告完）
