@@ -1,0 +1,394 @@
+{
+  "schema": "protreptic.phase21r4_greyzone_evidence/v1",
+  "card": "t_ea3a32e5",
+  "generated_at": "2026-09-23T00:15:14",
+  "authorization": "卡面：船长已批准 G1~G5 全部执行（用户 2026-09-22 '都做' 拍板，含公开侧变化）",
+  "sources": {
+    "fact_pack": "docs/qa/phase21r2_cleanup_report.md §4/§5/§6/§9 + docs/research/phase21r2_cleanup_evidence.json",
+    "g4_restore_source": "f66bb2fd:data/modes_data.json H-BG-001.thinking_modes（逐字段溯源，cross-check data/individuals/H-BG-001_modes.json）",
+    "backups": [
+      "/opt/data/kanban/boards/protreptic/workspaces/t_ea3a32e5/backup/backup_greyzone_20260922_233311",
+      "/opt/data/kanban/boards/protreptic/workspaces/t_ea3a32e5/backup/backup_zx_sync_20260922_235449",
+      "/opt/data/kanban/boards/protreptic/workspaces/t_ea3a32e5/backup"
+    ]
+  },
+  "counts": {
+    "modes_raw": {
+      "before": 3152,
+      "after": 3162,
+      "delta": 10
+    },
+    "modes_deduped_site": {
+      "before": 3132,
+      "after": 3152,
+      "delta": 20,
+      "note": "+20 = 班固 +10 入库 与 董仲舒 M01~M10 归一后不再落入空模式码丢弃面（该面由 20 -> 10 条壳）"
+    },
+    "mode_by_figure_shards": {
+      "before": 304,
+      "after": 306,
+      "delta": 2
+    },
+    "figures": {
+      "before": 1057,
+      "after": 1057,
+      "delta": 0
+    },
+    "code_maps_figures": {
+      "before": 212,
+      "after": 212,
+      "delta": 0
+    },
+    "scenarios_zh": {
+      "before": 2183,
+      "after": 2183,
+      "delta": 0
+    },
+    "scenarios_en": {
+      "before": 2183,
+      "after": 2183,
+      "delta": 0
+    },
+    "scenario_tags": {
+      "before": 7278,
+      "after": 7278,
+      "delta": 0
+    },
+    "verification_published": {
+      "verified": 932,
+      "pending": 1786,
+      "suspect": 34,
+      "unverifiable": 340
+    },
+    "verification_all": {
+      "verified": 932,
+      "pending": 1818,
+      "suspect": 51,
+      "unverifiable": 351
+    },
+    "verification_published_before": {
+      "verified": 988,
+      "pending": 1731,
+      "suspect": 33,
+      "unverifiable": 340
+    }
+  },
+  "items": {
+    "G1": {
+      "action": "M-BAN-* 10 条 figure_name 班固->班昭",
+      "changes": 10,
+      "verify": "verify_greyzone_phase21r4.py G1.1~G1.4"
+    },
+    "G2": {
+      "action": "M-DY-001~010 figure_name 董宇明->约翰·杜威",
+      "changes": 10,
+      "verify": "G2.1~G2.3"
+    },
+    "G4": {
+      "action": "班固 M-BG-001~010 回库（f66bb2fd 源档逐字段）",
+      "changes": 10,
+      "purity_fix": 1,
+      "verify": "G4.1~G4.6（含 9 组 legacy->v6 字段映射 x 10 条）"
+    },
+    "G5": {
+      "action": "董仲舒 id/mode_code M01~M10 -> M-DZS-001~010（research_mode_id 留旧号溯源）",
+      "changes": {
+        "id_mode_code": 10,
+        "code_maps": 3,
+        "scenarios_zh": 1,
+        "scenarios_en": 1
+      },
+      "referrer_migration": 9,
+      "verify": "G5.1~G5.10"
+    },
+    "G3": {
+      "action": "verification 全库四态归位（tools/apply_verification_status.py --write）",
+      "tool_check": "python3 tools/apply_verification_status.py --check -> exit 0（零漂移）",
+      "post": {
+        "published": {
+          "verified": 932,
+          "pending": 1786,
+          "suspect": 34,
+          "unverifiable": 340
+        },
+        "published_total": 3092,
+        "all": {
+          "verified": 932,
+          "pending": 1818,
+          "suspect": 51,
+          "unverifiable": 351
+        },
+        "all_total": 3152,
+        "quarantined_total": 60
+      },
+      "verify": "G3.1~G3.3"
+    }
+  },
+  "apply_log": {
+    "changes_total": 47,
+    "by_item": {
+      "G4": 11,
+      "G1": 10,
+      "G2": 10,
+      "G5": 16
+    },
+    "pre_sha256": {
+      "data/modes_data.json": "9d9c98c5547a7edd4414858dc6c8e498bd659935289f6e4007d495a44eb70d3f",
+      "data/code_maps.json": "b4a6cf13d35d8c57b4cec3e7297c987247a3ea1e0d7d03d97789e10be22ee40c",
+      "data/scenarios_zh.json": "65a85dba9f51ea70d83e8cc158766311a68c234949e78b9bc9c2a36bd7577af5",
+      "data/scenarios_en.json": "af6ee58fe810305c1884976c934476f186548fb96b3b44e174248fef7171417c"
+    },
+    "post_sha256": {
+      "data/modes_data.json": "a75c96d18e7fdc8e71da9438977a04066cbcd2cf59d8281253996355a7ab3dcf",
+      "data/code_maps.json": "b723cbb245438fdd065d2dc5de60aa7ec775325768a898825097424af769ba34",
+      "data/scenarios_zh.json": "5055aa83d70630b522ad8d1ed053bf0e0f7ac42472cf304dad7ccbe13caea8d6",
+      "data/scenarios_en.json": "ab0ca1bb95bde91f633c8d2086b4393778a4fe7cd3f1164f43fc5a40ffa0a170"
+    }
+  },
+  "referrer_migration": {
+    "total": 9,
+    "fixes": [
+      {
+        "mode_code": "M-CC-023",
+        "figure_code": "H-CC-001",
+        "slot": 3,
+        "old": "M01",
+        "new": "M-DZS-001",
+        "target_name_zh": "天人感应法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      },
+      {
+        "mode_code": "M-CC-026",
+        "figure_code": "H-CC-001",
+        "slot": 3,
+        "old": "M01",
+        "new": "M-DZS-001",
+        "target_name_zh": "天人感应法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      },
+      {
+        "mode_code": "M-MIY-006",
+        "figure_code": "H-MIY-001",
+        "slot": 3,
+        "old": "M01",
+        "new": "M-DZS-001",
+        "target_name_zh": "天人感应法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      },
+      {
+        "mode_code": "M-GUE-007",
+        "figure_code": "H-GUE-001",
+        "slot": 3,
+        "old": "M01",
+        "new": "M-DZS-001",
+        "target_name_zh": "天人感应法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      },
+      {
+        "mode_code": "M-GUE-009",
+        "figure_code": "H-GUE-001",
+        "slot": 3,
+        "old": "M01",
+        "new": "M-DZS-001",
+        "target_name_zh": "天人感应法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      },
+      {
+        "mode_code": "M-LIB-006",
+        "figure_code": "H-LIB-001",
+        "slot": 3,
+        "old": "M03",
+        "new": "M-DZS-003",
+        "target_name_zh": "三纲五常法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      },
+      {
+        "mode_code": "M-WDZ-008",
+        "figure_code": "H-WDZ-001",
+        "slot": 2,
+        "old": "M01",
+        "new": "M-DZS-001",
+        "target_name_zh": "天人感应法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      },
+      {
+        "mode_code": "M-WDZ-010",
+        "figure_code": "H-WDZ-001",
+        "slot": 2,
+        "old": "M10",
+        "new": "M-DZS-010",
+        "target_name_zh": "原心定罪法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      },
+      {
+        "mode_code": "M-LZH-004",
+        "figure_code": "LZH",
+        "slot": 5,
+        "old": "M01",
+        "new": "M-DZS-001",
+        "target_name_zh": "天人感应法",
+        "rule": "改号前裸码解析到 H-DZS-001 -> 随迁新号"
+      }
+    ],
+    "annotated_left": [
+      {
+        "mode_code": "M-NAG-008",
+        "value": "M01（董仲舒·天人感应法——反向对照：董仲舒把体系锚定在不可质疑的'天'上，龙树拆除一切锚点包括自己的——两种体系自稳"
+      },
+      {
+        "mode_code": "M-PAD-001",
+        "value": "M01（董仲舒·天人感应法——反向对照：董仲舒把体系合法性锚定在天意上、由当代权力保证，莲花生把体系延续性交给未来接受者"
+      },
+      {
+        "mode_code": "M-MAI-001",
+        "value": "M10（董仲舒·原心定罪法——反向对照：董仲舒以经义补充律法空缺、保持经与法的张力，迈蒙尼德把裁决本身法典化、消除裁决者"
+      }
+    ],
+    "dangling_bare_after": 0
+  },
+  "zx_regression_fix": {
+    "trigger": "QA 卡 t_8ceed107 hotspot 报知（comment 2926）",
+    "decision": "(b) 全域标准化为四态口径 + 同步正本/三镜像/伴随包 + manifest 留证（(a) 排除方案与站点导出强约束冲突：非四态值会令 export_static_site.py verification_counts SystemExit）",
+    "changes": 30,
+    "mirrors_identical": true,
+    "manifests": [
+      "data/audit/phase20R_zengzi_landing_manifest.json#verification_restamp",
+      "data/audit/phase20R_zengzi_merge_manifest.json#verification_restamp"
+    ],
+    "reruns": {
+      "verify_hzx_phase20R.py": "31 PASS / 0 FAIL",
+      "verify_hzx_landing.py": "26 PASS / 0 FAIL",
+      "verify_hzx_merge_phase20R.py": "61 PASS / 5 FAIL（胜 A10/A11/B1 已修复；余 A17/A17b/E1/E3/E4 为口径过时项）",
+      "verify_zengzi_qa_espinosa.py": "78 PASS / 3 FAIL（余 0.4/G2/H1）"
+    },
+    "obsolete_assertions": [
+      "verify_hzx_merge_phase20R A17/A17b：断言 verification.status 属 Phase20R 定稿枚举（SANC）——与 G3 四态口径不可兼得（站点导出强约束），留证转由 manifest#verification_restamp + QA 证据包承载",
+      "verify_hzx_merge_phase20R E1/E3/E4：断言库 3152 且相对合并前备份前缀全等——被本卡 G4/G5 与班固批次 +10 合法改变",
+      "verify_zengzi_qa_espinosa 0.4：比对合并提交快照的 Zengzi 足迹（含 verification）——G3 归一后必然不同",
+      "verify_zengzi_qa_espinosa G2：硬编码落地态镜像 sha 前缀 ba2ad769f5ba7eef——镜像已随四态口径同步，前缀断言过时",
+      "verify_zengzi_qa_espinosa H1：依赖上面 merge 脚本全绿——同上"
+    ]
+  },
+  "site_chain": {
+    "anchors": [
+      {
+        "file": "tools/export_static_site.py",
+        "old_anchor": [
+          3132,
+          304
+        ],
+        "new_anchor": [
+          3152,
+          306
+        ]
+      },
+      {
+        "file": "tools/pages_preflight.py",
+        "old_anchor": [
+          3132,
+          304
+        ],
+        "new_anchor": [
+          3152,
+          306
+        ]
+      }
+    ],
+    "measured": {
+      "modes_deduped": 3152,
+      "mode_by_figure_shards": 306,
+      "modes_raw": 3162,
+      "modes_empty_mode_code_dropped": 10,
+      "figures": 1057
+    },
+    "commands": {
+      "export_static_site": {
+        "cmd": "python3 tools/export_static_site.py",
+        "exit": 0,
+        "tail": "输出目录：/opt/data/workspace/Protreptic/web/public/data / 完成 OK"
+      },
+      "gen_web_site_counts": {
+        "cmd": "python3 tools/gen_web_site_counts.py",
+        "exit": 0,
+        "tail": "[counts] 可信度四态 (发布口径 3092): 已核验 932 / 待核验 1786 / 存疑 34 / 一手材料 340 / [counts] 可点链接覆盖率: 去重级 1192/4404, 出现级 1210/4465, 带引文模式 956/2418 至少一个可点"
+      },
+      "apply_site_counts": {
+        "cmd": "python3 tools/apply_site_counts.py",
+        "exit": 0,
+        "tail": "[counts] 收口完成: 2798 条模式 × 278 位人物 (来源 /opt/data/workspace/Protreptic/web/dist/data/meta.json) / [counts] dist 扫描 1367 个文件零违规；docs 产品门面页 6 个零违规"
+      },
+      "build_daily_index": {
+        "cmd": "python3 tools/build_daily_index.py",
+        "exit": 0,
+        "tail": "[daily] 写出 /opt/data/workspace/Protreptic/web/public/data/daily/index.json  raw 80.8 KB / gzip 12.9 KB / [daily] 写出 /opt/data/workspace/Protreptic/web/public/data/daily/names.json  raw 272.6 KB / gzip"
+      },
+      "pages_preflight_stage_data": {
+        "cmd": "python3 tools/pages_preflight.py --stage data",
+        "exit": 0,
+        "tail": "      daily: 3092 条（by-figure 分片 3092 条）names=3092 tz=Asia/Shanghai / [OK] stage=data：全部断言通过"
+      }
+    }
+  },
+  "gates": {
+    "credibility_gate": {
+      "cmd": "python3 tools/credibility_gate.py --hard-fail",
+      "exit": 0,
+      "tail": "[OK] hard-fail: 无新增硬失败（存量 524 条已冻结）-> exit 0"
+    },
+    "verify_findings": {
+      "cmd": "python3 tools/verify_findings.py --hard-fail",
+      "exit": 0,
+      "tail": "[OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0"
+    },
+    "verify_source_links": {
+      "cmd": "python3 tools/verify_source_links.py --hard-fail",
+      "exit": 0,
+      "tail": "[OK] hard-fail: 无新增坏链（存量 0 条已冻结）-> exit 0"
+    }
+  },
+  "parity": {
+    "before": "69 差异（CONTENT_DIFF 16 / 仅工作仓 50 / 仅发布仓 3）",
+    "mirror": "已跟踪面全量镜像 + 仅发布仓 3 件删除（H-ZS-001 清档：data/individuals/H-ZS-001.json、data/individuals/H-ZS-001_modes.json、docs/figures/H-ZS-001.md）",
+    "after": "见 docs/qa/phase21r3_greyzone_report.md §6（本卡路径 0 差异；余量为他卡在制未跟踪产物）"
+  },
+  "verifier": {
+    "script": "verify_greyzone_phase21r4.py",
+    "result": "38 PASS / 0 FAIL / 6 INFO",
+    "log": "/opt/data/kanban/boards/protreptic/workspaces/t_ea3a32e5/evidence/verify_greyzone_phase21r4.txt"
+  },
+  "residuals": [
+    "modes_data.json total=2948 与 len(modes)=3162 漂移（Phase21-R 遗留 +194 / 本批 +10 未回填）；本卡零写入，建议编排一次性裁定",
+    "董仲舒 legacy 档案层编号（data/figures/H-DZS-001_modes.json、data/individuals/H-DZS-001_modes.json 的 id/code = M01~M10 + docs/figures/H-DZS-001.md 的 M01-M10 叙述）；属 legacy20 复刻评估（t_a060cd41）范围，本卡只归一回主库与引用面",
+    "班固恢复条目 _en 字段含中文 3 处（源档逐字继承：文献/论证），未做编码改写以保零捏造",
+    "他卡在制未跟踪产物（docs/scratch/legacy20_rev6_samples/** 16 件 + docs/research/legacy20_rev6_assessment.md、docs/research/phase20R_zengzi_archive_report.md）仍为单侧在制，待其归属卡提交/镜像后自然消解",
+    "曾子批次三脚本 8 条断言口径过时（见 zx_regression_fix.obsolete_assertions），建议编排按新四态口径改版"
+  ],
+  "file_sha256_now": {
+    "data/modes_data.json": "0c627b73015ee3bddd5b1aabf48653bf157be3aa1dac05b0685a9b959c9d98fe",
+    "data/code_maps.json": "b723cbb245438fdd065d2dc5de60aa7ec775325768a898825097424af769ba34",
+    "data/scenarios_zh.json": "5055aa83d70630b522ad8d1ed053bf0e0f7ac42472cf304dad7ccbe13caea8d6",
+    "data/scenarios_en.json": "ab0ca1bb95bde91f633c8d2086b4393778a4fe7cd3f1164f43fc5a40ffa0a170",
+    "data/individuals/H-BG-001_modes.json": "ed693d3f8cfa8f8116735cf90f0f241a24ffe48a64143a21052ee41ccf65679e",
+    "data/figures/H-ZX-001.json": "11a14e349c2281906bbaee4ab2b6567d185ed55f1abbfe056bfe3ee96d6a9a9c",
+    "data/figures/H-ZX-001_modes.json": "e7ef1159f95369dc042691b10d8d2e2fed6616c7edfb0fc16af34781b5f28c54",
+    "data/individuals/H-ZX-001.json": "11a14e349c2281906bbaee4ab2b6567d185ed55f1abbfe056bfe3ee96d6a9a9c",
+    "data/individuals/H-ZX-001_modes.json": "d5f43a4a3ed49289022cfb2088f92d93135724fcf0b0775893310c4660cccf63",
+    "docs/figures/H-ZX-001.json": "11a14e349c2281906bbaee4ab2b6567d185ed55f1abbfe056bfe3ee96d6a9a9c",
+    "data/audit/verification_status.json": "32661224820d423022579955d37afb129383a46e31b433ffeb7ac92f6477b155",
+    "data/audit/findings.json": "d4de3bd25bc389362b86d34f9c93d1aa7c736aaa37f630e92e142d5ba15f4491",
+    "data/audit/phase20R_zengzi_landing_manifest.json": "517cc5dbff5ae661b9646d4f4521f6c71365bab1234fbde99cfb11b16fa04e58",
+    "data/audit/phase20R_zengzi_merge_manifest.json": "61379ee7e388a31b1df919ab23c4e6903034f35c6f677ddb6adffcdd6b1d2662",
+    "tools/export_static_site.py": "f0e53a0ecfe21873022c3d9a27b494788cbc907486896b5ef014eca6106aa136",
+    "tools/pages_preflight.py": "70e20a4915779b1739c1083b470df02f64bab2ab5d0fb576b4ba50c58ad3f340",
+    "web/src/generated/siteCounts.ts": "ee05bb45f294e18f94d776ba8efc3c529a04fa64573466445f492f927e765331",
+    "docs/architecture/static_data_manifest.json": "0386f0c92a2238f9fd4725c9f188e90868dbda24a43b6d21ae0c43b614d3dc90",
+    "verify_greyzone_phase21r4.py": "dcf1d0e9a3f6c62c9d00ebfcf3f59c1e6a95f141c41bc60c09018162cdbeee42",
+    "docs/qa/phase21r3_greyzone_report.md": "cd7f0f9363fe46c729bf710f61d5a0055aaf10674213e295fd97a2c7e234a5e9",
+    "docs/research/phase21r3_greyzone_evidence.json": "caf8c17d8428eec9cec03f7416632ae4f650ed620f675791eb8f1430a6779adf"
+  },
+  "git": {
+    "workspace_head_before_commit": "19b220ab",
+    "chunk_commit": "f66bb2fd",
+    "merge_commit": "da4b240e"
+  }
+}
