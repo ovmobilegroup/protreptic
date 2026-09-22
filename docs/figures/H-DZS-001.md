@@ -16,7 +16,7 @@
 | **主要语言** | 古汉语 |
 | **思想传统** | 公羊学/汉代儒学 |
 
-> **数据说明**: 本档案基于 `modes_data.json`、`scenarios_zh.json`、`scenarios_en.json`、`code_maps.json`、`scenario_tags.json` 研究数据生成，QA 验证通过（EXIT_CODE=0，10 个思维模式 M01-M10 全部映射，双语一致，schema_valid=true）。
+> **数据说明**: 本档案基于 `modes_data.json`、`scenarios_zh.json`、`scenarios_en.json`、`code_maps.json`、`scenario_tags.json` 研究数据生成，QA 验证通过（EXIT_CODE=0，10 个思维模式 M-DZS-001~010 全部映射，双语一致，schema_valid=true）。
 
 ---
 
@@ -210,7 +210,7 @@
 ---
 
 **档案生成时间**: 2026-09-08
-**QA状态**: 已通过（QA 验收 EXIT_CODE=0，10 个思维模式 M01-M10 全部映射，双语一致，schema_valid=true）
+**QA状态**: 已通过（QA 验收 EXIT_CODE=0，10 个思维模式 M-DZS-001~010 全部映射，双语一致，schema_valid=true）
 **数据来源**: `modes_data.json`, `scenarios_zh.json`, `scenarios_en.json`, `code_maps.json`, `scenario_tags.json`
 **依赖任务**: t_e88612d0（Phase 21 增量合并）
 **备注**: 西汉大儒，公羊学代表人物，「罢黜百家独尊儒术」建议者，《春秋繁露》作者，被尊为「汉代孔子」

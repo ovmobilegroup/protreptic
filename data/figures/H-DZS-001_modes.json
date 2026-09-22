@@ -4,8 +4,8 @@
   "mode_count": 10,
   "modes": [
     {
-      "id": "M01",
-      "code": "H-DZS-M01",
+      "id": "M-DZS-001",
+      "code": "M-DZS-001",
       "name": "天人相副法",
       "name_en": "Heaven-Human Correspondence Method",
       "category": "认识论",
@@ -20,8 +20,8 @@
       "pitfalls": "类比可能过度延伸；结构性对应不等于因果性联系；需注意副类与副数的适用范围。"
     },
     {
-      "id": "M02",
-      "code": "H-DZS-M02",
+      "id": "M-DZS-002",
+      "code": "M-DZS-002",
       "name": "阴阳比附法",
       "name_en": "Yin-Yang Analogy Method",
       "category": "方法论",
@@ -36,8 +36,8 @@
       "pitfalls": "自然属性不直接蕴含社会价值；阳尊阴卑是价值判断而非事实描述；需警惕以自然秩序证成社会等级的谬误。"
     },
     {
-      "id": "M03",
-      "code": "H-DZS-M03",
+      "id": "M-DZS-003",
+      "code": "M-DZS-003",
       "name": "同类相动法",
       "name_en": "Same-Category Resonance Method",
       "category": "认识论",
@@ -52,8 +52,8 @@
       "pitfalls": "感应关系缺乏可验证的机制；容易陷入事后归因；类比推理的可靠性需限定条件。"
     },
     {
-      "id": "M04",
-      "code": "H-DZS-M04",
+      "id": "M-DZS-004",
+      "code": "M-DZS-004",
       "name": "屈伸制衡法",
       "name_en": "屈伸制衡法",
       "category": "政治哲学",
@@ -68,8 +68,8 @@
       "pitfalls": "天的制约依赖君主的道德自觉；灾异解释易被政治力量操控；民本在实际操作中常被忽视。"
     },
     {
-      "id": "M05",
-      "code": "H-DZS-M05",
+      "id": "M-DZS-005",
+      "code": "M-DZS-005",
       "name": "德主刑辅法",
       "name_en": "Virtue-Primary Punishment-Support Method",
       "category": "治理方法",
@@ -84,8 +84,8 @@
       "pitfalls": "阴阳类比不能直接证成政策；主辅界限在实践中易滑向极端；可能低估刑罚的独立价值。"
     },
     {
-      "id": "M06",
-      "code": "H-DZS-M06",
+      "id": "M-DZS-006",
+      "code": "M-DZS-006",
       "name": "性三品教化法",
       "name_en": "Three-Tier Human Nature and Education Method",
       "category": "人性论",
@@ -100,8 +100,8 @@
       "pitfalls": "品类划分带有先验判断；可能为阶层固化提供理论依据；忽视个体差异和环境因素。"
     },
     {
-      "id": "M07",
-      "code": "H-DZS-M07",
+      "id": "M-DZS-007",
+      "code": "M-DZS-007",
       "name": "大一统统合法",
       "name_en": "Great Unity Legitimation Method",
       "category": "政治哲学",
@@ -116,8 +116,8 @@
       "pitfalls": "思想垄断抑制学术创新；绝其道手段过于强硬；可能忽视多元价值的合理成分。"
     },
     {
-      "id": "M08",
-      "code": "H-DZS-M08",
+      "id": "M-DZS-008",
+      "code": "M-DZS-008",
       "name": "灾异谴告法",
       "name_en": "Disaster-Warning Method",
       "category": "政治方法论",
@@ -132,8 +132,8 @@
       "pitfalls": "灾异解释具有高度主观性；可能被用作政治斗争工具；过度依赖神秘主义削弱理性决策。"
     },
     {
-      "id": "M09",
-      "code": "H-DZS-M09",
+      "id": "M-DZS-009",
+      "code": "M-DZS-009",
       "name": "三统循环法",
       "name_en": "Three Dynasties Cycle Method",
       "category": "历史观",
@@ -148,8 +148,8 @@
       "pitfalls": "循环史观限制进步性想象；改制理论可能被用于合理化革命；不易道的标准模糊。"
     },
     {
-      "id": "M10",
-      "code": "H-DZS-M10",
+      "id": "M-DZS-010",
+      "code": "M-DZS-010",
       "name": "正谊明道法",
       "name_en": "Righteousness-over-Utility Method",
       "category": "价值论",
@@ -163,5 +163,18 @@
       "thinking_skill": "在价值冲突中确立优先级；区分价值的绝对性与相对性；将道德理想转化为行为准则。",
       "pitfalls": "过度贬抑功利可能导致虚伪；义利二分在实践中难以坚持；可能被用于道德绑架。"
     }
-  ]
+  ],
+  "mode_id_mapping": {
+    "M01": "M-DZS-001",
+    "M02": "M-DZS-002",
+    "M03": "M-DZS-003",
+    "M04": "M-DZS-004",
+    "M05": "M-DZS-005",
+    "M06": "M-DZS-006",
+    "M07": "M-DZS-007",
+    "M08": "M-DZS-008",
+    "M09": "M-DZS-009",
+    "M10": "M-DZS-010"
+  },
+  "mode_ids_note": "模式号定稿 M-DZS-001~010（旧号 M01~M10 与 H-DZS-M01~M10 作废；主库 research_mode_id 保留 M01~M10 溯源）。归一卡：t_36c4079c（Phase21-R5 微清理，2026-09-23）。"
 }
