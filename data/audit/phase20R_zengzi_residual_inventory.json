@@ -1,0 +1,337 @@
+{
+ "phase": "Phase20R 补做（第6代干净链）",
+ "card": "t_6c92966b",
+ "generated_on": "2026-09-22",
+ "figure_name": "曾子",
+ "figure_code": "H-ZX-001",
+ "scope": "全量扫描 H-ZS*/H-ZX*/M-ZS*/M-ZX*（并入 H-ZZ-166/H-ZZ-222 邻近遗留码、H-ZSS-001/H-ZXC-001 避让项）",
+ "raw_scan": "data/audit/phase20R_zengzi_residual_scan.json（grep 全仓 476 命中文件原始记录）",
+ "summary": {
+  "total_items": 31,
+  "classes": [
+   "canonical-figure(1)",
+   "companion-modes-package(1)",
+   "legacy-mode-doc(1)",
+   "backup(1)",
+   "legacy-research-draft(1)",
+   "stale-root-copy(2)",
+   "gen-f-residual(3)",
+   "quarantined-duplicate(1)",
+   "key-registry(1)",
+   "legacy-web-data(1)",
+   "code-registry(2)",
+   "main-library(1)",
+   "scenario-tags(1)",
+   "staging-residual(1)",
+   "external-crossref-defect(1)",
+   "external-crossref-unclear(1)",
+   "qa-archive(2)",
+   "one-shot-scripts(1)",
+   "id-collision-avoid(1)",
+   "unrelated(2)",
+   "audit-archive(1)",
+   "historical-backup(1)",
+   "snapshot-publish(1)",
+   "site-build-output(1)",
+   "namespace-scan(1)"
+  ],
+  "by_owner": {
+   "serrano_本卡_已完成": 3,
+   "elcano": 14,
+   "另卡": 4,
+   "记录/避让": 6,
+   "不适用": 4
+  },
+  "rename_conflict_check": {
+   "M-ZX-001~010": "全库 0 命中，零冲突 ✓",
+   "M-ZS-*": "全库 0 命中 ✓",
+   "M230-M239": "仅曾子侧文件与历史备份引用，无他人占用 ✓"
+  }
+ },
+ "items": [
+  {
+   "no": 1,
+   "path": "data/figures/H-ZX-001.json",
+   "size": 50768,
+   "class": "canonical-figure",
+   "determination": "曾子 v6 人物档正本",
+   "action": "本卡已更新：M-ZX-001~010 定稿 + 引文修正 + 归属标注 + phase20R 溯源块",
+   "owner": "serrano（本卡完成）"
+  },
+  {
+   "no": 2,
+   "path": "data/figures/H-ZX-001_modes.json",
+   "size": 8412,
+   "class": "companion-modes-package",
+   "determination": "曾子伴随模式包（core_modes 旧为 [230..239]）",
+   "action": "本卡已更新 ID（core_modes/mode_evidence/mode_id_mapping）；v6 schema 对齐交落地卡",
+   "owner": "serrano（ID）+elcano（对齐）"
+  },
+  {
+   "no": 3,
+   "path": "docs/figures/H-ZX-001.md",
+   "size": 13205,
+   "class": "legacy-mode-doc",
+   "determination": "第3代变体：10 条中 M232×2 / M236×2 重复；含『与孔子、孟子并称曾孟』等不可溯源表述；『10个专属思维模式（M234-M239）』计数错误；与 v6 定稿不一致",
+   "action": "待重写为定稿或归档（不得作为数据源）",
+   "owner": "elcano / 另卡"
+  },
+  {
+   "no": 4,
+   "path": "docs/figures/H-ZX-001.md.bak_zengzi_fix",
+   "size": 13156,
+   "class": "backup",
+   "determination": "旧 md 内容快照备份",
+   "action": "建议清理（如需留证可保留）",
+   "owner": "elcano"
+  },
+  {
+   "no": 5,
+   "path": "docs/research/phase20_zengzi_research.md",
+   "size": 15521,
+   "class": "legacy-research-draft",
+   "determination": "旧研究稿 v1.0（2026-09-02）：含旧号 M230-M239、伪造引文（M238）与误引（M239）",
+   "action": "已由 docs/research/phase20_zengzi_research_final.md 取代（旧稿保留只读备查）",
+   "owner": "serrano（本卡）"
+  },
+  {
+   "no": 6,
+   "path": "H-ZX-001.json",
+   "size": 24051,
+   "class": "stale-root-copy",
+   "determination": "工作仓根目录旧版副本：figure_code=『春秋』（非规范）、无 figure_name",
+   "action": "归档/删除（取值键已由 data/figures 版覆盖）",
+   "owner": "elcano"
+  },
+  {
+   "no": 7,
+   "path": "H-ZX-001_modes.json",
+   "size": 6305,
+   "class": "stale-root-copy",
+   "determination": "根目录旧版伴随包副本",
+   "action": "归档/删除",
+   "owner": "elcano"
+  },
+  {
+   "no": 8,
+   "path": "data/individuals/H-ZS-001.json",
+   "size": 2161,
+   "class": "gen-f-residual",
+   "determination": "Gen F 残留：8 模式 M311-M318；系统性错字（儒→浙、孝→效、恕→念）；生卒年损坏『前505-57617935年』；figure_code 缺失",
+   "action": "废弃/归档（H-ZS-00x 与朱升研究 H-ZS-001~004 编号冲突，禁止回收编号）",
+   "owner": "elcano"
+  },
+  {
+   "no": 9,
+   "path": "data/individuals/H-ZS-001_modes.json",
+   "size": 889,
+   "class": "gen-f-residual",
+   "determination": "Gen F 模式清单（M311-M318）；M311-M318 已为顾炎武 H-GYW-001 占用（phase21R restore）",
+   "action": "废弃（不得复用 M311-M318 于曾子）",
+   "owner": "elcano"
+  },
+  {
+   "no": 10,
+   "path": "data/figures/_duplicates/H-ZS-001.json",
+   "size": 9565,
+   "class": "quarantined-duplicate",
+   "determination": "Phase46 已隔离副本（sha256 697922d0…，全部取值键由 H-ZX-001/春秋 覆盖）",
+   "action": "保留为隔离证据；不得回迁主目录",
+   "owner": "elcano"
+  },
+  {
+   "no": 11,
+   "path": "docs/figures/H-ZS-001.md",
+   "size": 1802,
+   "class": "gen-f-residual",
+   "determination": "Gen F 文档（M311-M318，含『曾子传子思』等旧表述）",
+   "action": "归档/删除",
+   "owner": "elcano"
+  },
+  {
+   "no": 12,
+   "path": "data/figure_names.json",
+   "size": 30086,
+   "class": "key-registry",
+   "determination": "键面：H-ZX-001/H-ZX-001_modes/H-ZX-001_MODES 为现役键（后两者＝伴随包键＋大小写变体，与 H-MZ-001/H-WC-001/H-DYC-001 等既有成对约定一致）；H-ZS-001:『曾子』为废弃旧键",
+   "action": "保留 H-ZX-001* 三键；H-ZS-001 键删除或改注（避免工具继续解析为曾子主键，并避让朱升 H-ZS-001~004）",
+   "owner": "elcano"
+  },
+  {
+   "no": 13,
+   "path": "web/public/data/figures/H-ZZ-166.json ; web/public/data/figures/H-ZZ-222.json ; web/dist 同件",
+   "size": 946,
+   "class": "legacy-web-data",
+   "determination": "旧数字码 H-ZZ-166/H-ZZ-222 的 web 数据（含『待完善』占位与工程化改写文本，modes 字段为数字序号[9,36,37,28,35]）",
+   "action": "建议下架或重写映射到 H-ZX-001（另卡：web 层映射与数字码清理）",
+   "owner": "另卡（web）"
+  },
+  {
+   "no": 14,
+   "path": "tools/json/code_maps.json",
+   "size": 200401,
+   "class": "code-registry",
+   "determination": "H-ZX-001 已注册（10 模式中文名清单，与定稿模式名逐一对应 ✓）；另有遗留别名 H-ZZ-166/H-ZZ-222→曾子（数字序列遗留，与 H-ZZ-001 张载不同键号，不冲突）",
+   "action": "保留（模式名未变，零改动）；H-ZZ-166/222 标注 deprecated",
+   "owner": "elcano/记录"
+  },
+  {
+   "no": 15,
+   "path": "tools/code_maps_en.json",
+   "size": 86424,
+   "class": "code-registry",
+   "determination": "H-ZZ-166/222 遗留别名同 #14",
+   "action": "同上（记录）",
+   "owner": "记录"
+  },
+  {
+   "no": 16,
+   "path": "modes_data.json",
+   "size": 610302,
+   "class": "main-library",
+   "determination": "含 H-ZX-001 人物块（内嵌 10 模式，旧号 M230-M239，行 ~5502-5900）",
+   "action": "由落地卡 t_4a9c2c2e 按定稿 rebase 到 M-ZX-001~010（本卡不改主库）",
+   "owner": "elcano"
+  },
+  {
+   "no": 17,
+   "path": "scenario_tags.json ; tools/json/scenario_tags.json",
+   "size": 31079,
+   "class": "scenario-tags",
+   "determination": "H-ZX-001 键存在，内容为模式名清单（无 M 编号）",
+   "action": "保留（模式名未变，零改动）；如需补 mode_ids 交落地卡",
+   "owner": "elcano"
+  },
+  {
+   "no": 18,
+   "path": "scenarios_zh_add.json ; scenarios_zh_new.json ; scenarios_en_add.json",
+   "size": 584,
+   "class": "staging-residual",
+   "determination": "HS-ZS-001/ES-ZS-001 待入库条目（figure_code=H-ZS-001，modes=M311-M318）；scenarios_zh.json/en.json 中无 HS-ZS-001（未入库）",
+   "action": "废弃或改码为 H-ZX-001 + M-ZX-001~010 后重提（elcano/另卡）",
+   "owner": "elcano"
+  },
+  {
+   "no": 19,
+   "path": "data/individuals/H-LJY-001_modes.json:478",
+   "size": 78365,
+   "class": "external-crossref-defect",
+   "determination": "吕祖谦档 cross_references 残留『H-ZX-001 (朱熹·同时代对峙)』——H-ZX-001 曾被误用作朱熹代号，canonical 应为 H-ZHX-001",
+   "action": "另立卡修复（吕祖谦档交叉引用；人工核读后改码）",
+   "owner": "另卡"
+  },
+  {
+   "no": 20,
+   "path": "data/figures/H-PGR-001.json (cross_references)",
+   "size": 99098,
+   "class": "external-crossref-unclear",
+   "determination": "cross_references 含『H-ZX-001』，指向曾子还是误码朱熹待核",
+   "action": "下游核对后改码或保留",
+   "owner": "另卡"
+  },
+  {
+   "no": 21,
+   "path": "docs/figures/H-ZHX-001.md ; docs/figures/H-LJY-001.md ; docs/figures/H-WYM-001.md",
+   "size": 15798,
+   "class": "qa-archive",
+   "determination": "记录 H-ZX-001 曾为朱熹误码→改 H-ZHX-001 的修复历史（Phase21 入库 QA）",
+   "action": "只读保留",
+   "owner": "—"
+  },
+  {
+   "no": 22,
+   "path": "tools/update_zengzi_db.py ; tools/verify_zengzi.py ; verify_zengzi.py ; verify_zengzi_data.py ; check_zengzi.py",
+   "size": 3100,
+   "class": "one-shot-scripts",
+   "determination": "Phase20 旧号时代一次性脚本（引用根目录 H-ZX-001_modes.json 与旧号）",
+   "action": "归档（不要重跑：会把旧号写回）",
+   "owner": "elcano"
+  },
+  {
+   "no": 23,
+   "path": "release/zhusheng-jiuzi-sance/**",
+   "size": 2913,
+   "class": "id-collision-avoid",
+   "determination": "朱升九字三策研究占用 H-ZS-001~004（非曾子）",
+   "action": "禁止改动/回收编号；曾子侧一律不得再用 H-ZS-*",
+   "owner": "（避让项）"
+  },
+  {
+   "no": 24,
+   "path": "data/figures/H-ZSS-001.json ; docs/figures/H-ZSS-001.json",
+   "size": 104953,
+   "class": "unrelated",
+   "determination": "朱舜水（H-ZSS-001），前缀相似",
+   "action": "勿动",
+   "owner": "—"
+  },
+  {
+   "no": 25,
+   "path": "data/figures/H-ZXC-001* ; web/public/data/figures/H-ZXC-*.json ; web H-ZX-<num>.json",
+   "size": null,
+   "class": "unrelated",
+   "determination": "章学诚（H-ZXC）与 web 数字键命名空间（H-ZX-62/172/252…）",
+   "action": "勿动",
+   "owner": "—"
+  },
+  {
+   "no": 26,
+   "path": "data/audit/**（figure_field_defects.json 等 + 本卡新增 phase20R_zengzi_residual_scan.json / inventory.json）",
+   "size": 54590,
+   "class": "audit-archive",
+   "determination": "字段审计/修复清单档案（提及 H-ZS-001/H-ZX-001 的历史记录）",
+   "action": "只读保留；本卡新增两份扫描/清单文件",
+   "owner": "serrano（新增）"
+  },
+  {
+   "no": 27,
+   "path": "backups_merge_*/** ; code_maps.json.backup_qa_zhx_20260908 ; data/*.bak.fix-* ; modes_data.json.backup_homer_* ; backups/**",
+   "size": null,
+   "class": "historical-backup",
+   "determination": "历史备份/快照（含旧号 M230-M239 与 H-ZX-001 块）",
+   "action": "只读保留（勿作为数据源回写）",
+   "owner": "—"
+  },
+  {
+   "no": 28,
+   "path": "docs/qa/phase46_figure_fields.md ; docs/qa/phase21R_restore_report.md ; docs/research/phase20_chenghao_orphan_cleanup_evidence.json ; docs/qa/phase21R_qa_report.md",
+   "size": null,
+   "class": "qa-archive",
+   "determination": "QA 结论档案（H-ZS-001 归档决策、『无 M-ZX-*、无曾子条目』历史结论等）；含并发卡 QA 报告（20:27 落盘，记录本卡在制状态快照：『H-ZX-001.json: 10 (M-ZX-001~010 尚未合并入库)，主库 M-ZX-* id 数=0』——合并卡 t_16ebe5c9 完成后期望自然消解）",
+   "action": "只读保留",
+   "owner": "—"
+  },
+  {
+   "no": 29,
+   "path": "api/data/scenarios_en.json ; main_data.json ; tools/json/scenarios_zh.json/en.json ; docs_site/** ; release/v2.0.0/**",
+   "size": null,
+   "class": "snapshot-publish",
+   "determination": "发布/快照件，含 H-ZZ-166/H-ZZ-222 旧码",
+   "action": "不手改（发布快照）；如需统一另起发布卡",
+   "owner": "—"
+  },
+  {
+   "no": 30,
+   "path": "site_docs/**（含 figures/H-ZS-001/index.html、figures/H-ZX-001/index.html、search_index.json、sitemap.xml）",
+   "size": null,
+   "class": "site-build-output",
+   "determination": "mkdocs 构建产物，含 H-ZS-001/H-ZX-001 旧内容快照",
+   "action": "不手改（重新构建再生）",
+   "owner": "—"
+  },
+  {
+   "no": 31,
+   "path": "M-ZS-* / M-ZX-*（全库扫描）",
+   "size": null,
+   "class": "namespace-scan",
+   "determination": "M-ZS-* 0 命中；M-ZX-* 0 命中（仅 phase21r 审计记录历史结论『无 M-ZX-*、无曾子条目（0 条）』）",
+   "action": "无需处理；本卡定稿启用 M-ZX-001~010（renumber 后与全库零冲突）",
+   "owner": "serrano（本卡）"
+  }
+ ],
+ "notes": [
+  "H-ZX-001 在历届中曾被误用作朱熹（H-ZHX-001）研究卡代号，已在 Phase21 修复（docs/figures/H-ZHX-001.md:157）；本次扫描发现吕祖谦档与彼得大帝档仍有可疑残留（#19/#20）。",
+  "H-ZS-001 曾子旧号与朱升研究 H-ZS-001~004 编号冲突（release/zhusheng-jiuzi-sance），旧号一律作废且不得回收。",
+  "H-ZZ-166/H-ZZ-222 为曾子旧数字代号（H-ZZ 前缀与张载 H-ZZ-001 同前缀不同键号），存在于 code_maps（中/英）与 web 数据层。"
+ ]
+}

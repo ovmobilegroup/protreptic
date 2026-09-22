@@ -1,0 +1,191 @@
+{
+  "card": "t_16ebe5c9",
+  "figure_code": "H-ZX-001",
+  "figure_name": "曾子",
+  "phase": "Phase20R 补做 (3/5 合并卡)",
+  "merge_script": "merge_hzx_phase20R.py",
+  "merge_script_sha256": "176d692e2ff1bc4049a6aee38b7769b3fa6ce1d035f5ad4e3bd298d6b20fbd84",
+  "timestamp": "20260922_230038",
+  "mode_ids": [
+    "M-ZX-001",
+    "M-ZX-002",
+    "M-ZX-003",
+    "M-ZX-004",
+    "M-ZX-005",
+    "M-ZX-006",
+    "M-ZX-007",
+    "M-ZX-008",
+    "M-ZX-009",
+    "M-ZX-010"
+  ],
+  "research_mode_id_mapping": {
+    "M230": "M-ZX-001",
+    "M231": "M-ZX-002",
+    "M232": "M-ZX-003",
+    "M233": "M-ZX-004",
+    "M234": "M-ZX-005",
+    "M235": "M-ZX-006",
+    "M236": "M-ZX-007",
+    "M237": "M-ZX-008",
+    "M238": "M-ZX-009",
+    "M239": "M-ZX-010"
+  },
+  "scenario_ids_zh": [
+    "C-ZX-001",
+    "C-ZX-002",
+    "C-ZX-003",
+    "C-ZX-004",
+    "C-ZX-005",
+    "C-ZX-006",
+    "C-ZX-007",
+    "C-ZX-008",
+    "C-ZX-009",
+    "C-ZX-010"
+  ],
+  "scenario_ids_en": [
+    "C-ZX-001E",
+    "C-ZX-002E",
+    "C-ZX-003E",
+    "C-ZX-004E",
+    "C-ZX-005E",
+    "C-ZX-006E",
+    "C-ZX-007E",
+    "C-ZX-008E",
+    "C-ZX-009E",
+    "C-ZX-010E"
+  ],
+  "counts": {
+    "modes_before": 3142,
+    "modes_after": 3152,
+    "modes_delta": 10,
+    "code_maps_figures_before": 211,
+    "code_maps_figures_after": 212,
+    "code_maps_new_keys": [
+      "H-ZX-001"
+    ],
+    "scenarios_zh_before": 2173,
+    "scenarios_zh_after": 2183,
+    "scenarios_en_before": 2173,
+    "scenarios_en_after": 2183,
+    "scenario_tags_before": 7258,
+    "scenario_tags_after": 7278,
+    "scenario_tags_delta": 20,
+    "library_total_field_untouched": 2948
+  },
+  "files": {
+    "data/modes_data.json": {
+      "sha256_before": "83be45b5bf63185ff6960ae27cde4f178d2d86af28ba5213236f045763ded911",
+      "sha256_after": "9d9c98c5547a7edd4414858dc6c8e498bd659935289f6e4007d495a44eb70d3f",
+      "backup_sha256": "83be45b5bf63185ff6960ae27cde4f178d2d86af28ba5213236f045763ded911"
+    },
+    "data/code_maps.json": {
+      "sha256_before": "b7e590e76d1661e79ee49264f95b4ba945c63819f1a7e0229b14683995ae014d",
+      "sha256_after": "b4a6cf13d35d8c57b4cec3e7297c987247a3ea1e0d7d03d97789e10be22ee40c",
+      "backup_sha256": "b7e590e76d1661e79ee49264f95b4ba945c63819f1a7e0229b14683995ae014d"
+    },
+    "data/scenarios_zh.json": {
+      "sha256_before": "f99c5a6259adc5849521a415030a4db2ed8a6ed7851772ffbb1fecd31c574396",
+      "sha256_after": "65a85dba9f51ea70d83e8cc158766311a68c234949e78b9bc9c2a36bd7577af5",
+      "backup_sha256": "f99c5a6259adc5849521a415030a4db2ed8a6ed7851772ffbb1fecd31c574396"
+    },
+    "data/scenarios_en.json": {
+      "sha256_before": "bb9bfc28d800f2039c95e3e1f318bb071c3b6b3671436ad6d6b155816ff611d5",
+      "sha256_after": "af6ee58fe810305c1884976c934476f186548fb96b3b44e174248fef7171417c",
+      "backup_sha256": "bb9bfc28d800f2039c95e3e1f318bb071c3b6b3671436ad6d6b155816ff611d5"
+    },
+    "data/scenario_tags.json": {
+      "sha256_before": "ce5557e5d9c014fac93e93855fe80a59778a11bfd85909be2e2e89b2da74f0f6",
+      "sha256_after": "5d36fae364674a96a8bb56e39dd7c5e7daaa8d335935202c0fbc4098ad66530d",
+      "backup_sha256": "ce5557e5d9c014fac93e93855fe80a59778a11bfd85909be2e2e89b2da74f0f6"
+    }
+  },
+  "add_only_proof": {
+    "modes_prefix_identical": true,
+    "figures_others_identical": true,
+    "figures_new_keys": [
+      "H-ZX-001"
+    ],
+    "scen_zh_others_identical": true,
+    "scen_en_others_identical": true,
+    "tags_prefix_identical": true,
+    "scen_new_keys": [
+      "C-ZX-001",
+      "C-ZX-002",
+      "C-ZX-003",
+      "C-ZX-004",
+      "C-ZX-005",
+      "C-ZX-006",
+      "C-ZX-007",
+      "C-ZX-008",
+      "C-ZX-009",
+      "C-ZX-010",
+      "C-ZX-001E",
+      "C-ZX-002E",
+      "C-ZX-003E",
+      "C-ZX-004E",
+      "C-ZX-005E",
+      "C-ZX-006E",
+      "C-ZX-007E",
+      "C-ZX-008E",
+      "C-ZX-009E",
+      "C-ZX-010E"
+    ],
+    "tags_appended": 20,
+    "modes_appended": 10
+  },
+  "legacy_ban_checked": [
+    "M230",
+    "M231",
+    "M232",
+    "M233",
+    "M234",
+    "M235",
+    "M236",
+    "M237",
+    "M238",
+    "M239",
+    "M-ZS-",
+    "H-ZS-001",
+    "H-ZS-00",
+    "M311",
+    "M318"
+  ],
+  "legacy_ban_excluded_fields": [
+    "research_mode_id",
+    "legacy_field_aliases",
+    "correction_zh",
+    "verification"
+  ],
+  "backup_dir": "/opt/data/kanban/boards/protreptic/workspaces/t_16ebe5c9/backup_merge_H-ZX-001_20260922_230038",
+  "verification_restamp": {
+    "card": "t_ea3a32e5",
+    "restamped_on": "2026-09-22",
+    "scope": "data/modes_data.json M-ZX-001~010 verification 字段（其余字段零改写）",
+    "理由_pointer": "见 data/audit/phase20R_zengzi_landing_manifest.json#verification_restamp",
+    "old_statuses": {
+      "M-ZX-001": "quote-verified",
+      "M-ZX-002": "quote-verified",
+      "M-ZX-003": "quote-verified",
+      "M-ZX-004": "quote-verified",
+      "M-ZX-005": "quote-verified",
+      "M-ZX-006": "quote-verified",
+      "M-ZX-007": "source-verified-corrected",
+      "M-ZX-008": "quote-verified",
+      "M-ZX-009": "corrected-fabricated-quote",
+      "M-ZX-010": "corrected-misattribution"
+    },
+    "new_statuses": {
+      "M-ZX-001": "pending",
+      "M-ZX-002": "pending",
+      "M-ZX-003": "verified",
+      "M-ZX-004": "verified",
+      "M-ZX-005": "verified",
+      "M-ZX-006": "verified",
+      "M-ZX-007": "verified",
+      "M-ZX-008": "verified",
+      "M-ZX-009": "pending",
+      "M-ZX-010": "verified"
+    },
+    "historical_sha_untouched": true
+  }
+}

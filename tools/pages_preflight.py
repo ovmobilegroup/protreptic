@@ -25,12 +25,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 EXPECT_FIGURES = 1057
 # EXPECT_MODES 是「源去重口径」(与 export_static_site.EXPECT_MODES 同口径)，只用来校验
 # meta.json 与数据源是否同步；它**不是**站点文案口径 —— 站点文案/分享图用发布口径
-# mode_summaries_published = 3132 - 隔离名单条数，由下面 check_data 的隔离门逐分片重算校验。
-# Phase21-R (2026-09-22) site-data rebuild anchor update: EXPECT_MODES 2858 -> 3132
-# (+194 restored by this card; +80 from other merge cards not yet synced to the site),
-# EXPECT_BY_FIGURE 278 -> 304. EXPECT_FIGURES unchanged.
-EXPECT_MODES = 3132
-EXPECT_BY_FIGURE = 304
+# mode_summaries_published = 3152 - 隔离名单条数，由下面 check_data 的隔离门逐分片重算校验。
+# Phase21-R4 (2026-09-22) site-data rebuild anchor update: EXPECT_MODES 3132 -> 3152
+# (曾子 M-ZX-* 的 +10 已含于上批；本卡 +10 班固 M-BG-001~010 与 +10 董仲舒 M01~M10 归一回填
+# 去重口径 —— 净 +20：3008 条目的空模式码降至 10 条壳 + 10 班固入库),
+# EXPECT_BY_FIGURE 304 -> 306 (曾子/班固 各 +1 分片)。EXPECT_FIGURES unchanged.
+EXPECT_MODES = 3152
+EXPECT_BY_FIGURE = 306
 EXPECT_MODE_INDEX_SHARDS = 8
 SPA_BASE = "/protreptic/"
 
@@ -154,7 +155,7 @@ def check_daily(c: Checker) -> None:
     """Phase30-B4：每日一模式索引（定位 + 名称表，两份必须同长且下标对齐）。
 
     条数断言直接从 by-figure 分片计算（这些分片已在 export 阶段排除了隔离人物）。
-    meta.json 的 mode_summaries 仍保留原始 3132，这里以实际分片为准。
+    meta.json 的 mode_summaries 仍保留原始 3152，这里以实际分片为准。
     """
     index_path = DATA_DIR / "daily" / "index.json"
     names_path = DATA_DIR / "daily" / "names.json"

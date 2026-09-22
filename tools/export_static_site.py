@@ -3,14 +3,14 @@
 
 把两套核心资产导出为前端可直接 fetch 的静态 JSON 分片（GitHub Pages 无后端）：
 
-    源 1  data/modes_data.json   -> modes 列表（3142 -> 按 mode_code 首现去重 3132）
+    源 1  data/modes_data.json   -> modes 列表（3162 -> 按 mode_code 首现去重 3152）
     源 2  api/protreptic.db      -> figures 表（501 行）
 
 产物（默认落在 web/public/data/，Vite 会原样复制进 dist/）：
 
     figures.index.json          501 条轻量索引     目标 gzip <= 50 KB
     figures/{code}.json         501 个详情分片
-    modes/index-{0..7}.json     3072 条摘要（去重 3132 - 隔离 60），md5(mode_code)%8 均分
+    modes/index-{0..7}.json     3092 条摘要（去重 3152 - 隔离 60），md5(mode_code)%8 均分
                                                         单片 gzip <= 200 KB
     modes/by-figure/{fc}.json   304 个「某人的 10 条模式」分片（按 figure_code 原值分组）
     meta.json                   构建时间戳 + 各产物条数 + sha256
@@ -72,11 +72,12 @@ N_SHARDS = 8
 GZIP_LEVEL = 9
 
 EXPECT_FIGURES = 1057
-# Phase21-R (2026-09-22) site-data rebuild anchor update: EXPECT_MODES 2858 -> 3132
-# (+194 restored by this card; +80 from other merge cards not yet synced to the site),
-# EXPECT_BY_FIGURE 278 -> 304. EXPECT_FIGURES unchanged.
-EXPECT_MODES = 3132
-EXPECT_BY_FIGURE = 304
+# Phase21-R4 (2026-09-22) site-data rebuild anchor update: EXPECT_MODES 3132 -> 3152
+# (曾子 M-ZX-* 的 +10 已含于上批；本卡 +10 班固 M-BG-001~010 与 +10 董仲舒 M01~M10 归一回填
+# 去重口径 —— 净 +20：3008 条目的空模式码降至 10 条壳 + 10 班固入库),
+# EXPECT_BY_FIGURE 304 -> 306 (曾子/班固 各 +1 分片)。EXPECT_FIGURES unchanged.
+EXPECT_MODES = 3152
+EXPECT_BY_FIGURE = 306
 
 LIMIT_INDEX_GZIP = 50 * 1024
 LIMIT_MODE_SHARD_GZIP = 200 * 1024
@@ -642,9 +643,9 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
     counts = {
         "figures": len(figures),
         "figure_shards": len(detail_stats),
-        # mode_summaries = 源去重口径 (3132)，与 pages_preflight.EXPECT_MODES / ci_data_check
+        # mode_summaries = 源去重口径 (3152)，与 pages_preflight.EXPECT_MODES / ci_data_check
         # 同一口径（数据完整性门）。站点文案与分享图用的是**发布口径**，见
-        # mode_summaries_published（= 3132 - 隔离 60 条，也就是 modes/index-*.json 的合计）。
+        # mode_summaries_published（= 3152 - 隔离 60 条，也就是 modes/index-*.json 的合计）。
         "mode_summaries": len(modes),
         "mode_summaries_published": sum(s["count"] for s in shard_stats),
         "modes_quarantined": len(dropped_modes),

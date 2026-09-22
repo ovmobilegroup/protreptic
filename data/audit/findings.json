@@ -1210,15 +1210,6 @@
       "suggested_action": "auto-fix: repoint to a real code or drop the reference"
     },
     {
-      "mode_code": "M-SALADIN-006",
-      "figure_code": "Saladin",
-      "defect": "D6_orphan_reference",
-      "evidence": "related_modes points to a mode_code that does not exist in the library: 'M-DZS-001'",
-      "anchor": "M-DZS-001",
-      "dangling_ref": "M-DZS-001",
-      "suggested_action": "auto-fix: repoint to a real code or drop the reference"
-    },
-    {
       "mode_code": "M-SEJ-001",
       "figure_code": "H-SEJ-001",
       "defect": "D6_orphan_reference",
@@ -1406,20 +1397,20 @@
     "D4_empty_quote": 27,
     "D4_quote_mismatch": 23,
     "D5_timeline_conflict": 1,
-    "D6_orphan_reference": 38,
+    "D6_orphan_reference": 37,
     "D7_duplicate_definition": 0,
-    "total": 165
+    "total": 164
   },
   "audit_meta": {
     "scan_date": "2026-09-22",
     "modes_file": "data/modes_data.json",
-    "modes_file_sha256": "83be45b5bf63185ff6960ae27cde4f178d2d86af28ba5213236f045763ded911",
-    "total_modes_count": 3162,
-    "top_level_modes_entries": 3142,
-    "distinct_mode_codes": 3132,
+    "modes_file_sha256": "0c627b73015ee3bddd5b1aabf48653bf157be3aa1dac05b0685a9b959c9d98fe",
+    "total_modes_count": 3182,
+    "top_level_modes_entries": 3162,
+    "distinct_mode_codes": 3152,
     "modes_empty_mode_code": 10,
     "embedded_figure_mode_entries": 20,
-    "total_figures": 310,
+    "total_figures": 312,
     "quarantined_figures": [
       "H-P23F-001",
       "H-SX-001",
@@ -1460,9 +1451,9 @@
         "public_figure": 1
       },
       "D6_orphan_reference": {
-        "total": 38,
+        "total": 37,
         "quarantined_figure": 0,
-        "public_figure": 38
+        "public_figure": 37
       }
     },
     "methodology": "full regex/grep scan of data/modes_data.json; gate semantics shared with tools/credibility_gate.py; D1 list from tools/_quarantine.py; D3 is a strict scan (no exemption)",
@@ -1474,15 +1465,15 @@
         "cache_present": true,
         "usable_keys": 38,
         "statuses": {
-          "unchecked": 3063,
+          "unchecked": 3083,
           "mismatch": 23,
           "quote-too-short": 74,
           "matched": 2
         },
         "unchecked_reasons": {
-          "no-fulltext-link": 1809,
+          "no-fulltext-link": 1812,
           "no-citation": 678,
-          "cache-not-ok": 445,
+          "cache-not-ok": 462,
           "no-quote": 65,
           "script-mismatch(原文繁体 vs 引文简体": 66,
           "substring-not-found": 23,
@@ -1632,14 +1623,14 @@
         "note": "只在「出处有书名号引文 + 引文解析到原文类链接 + 缓存覆盖整部作品(single-page/complete)」时判 matched/mismatch；coverage=partial 的缓存**不可核**（在部分文本里找不到引文不能证明引文不符）"
       },
       "d5": {
-        "figures_with_lifespan": 578,
+        "figures_with_lifespan": 579,
         "statuses": {
-          "clean": 1487,
-          "undetermined": 1674,
+          "clean": 1497,
+          "undetermined": 1684,
           "conflict": 1
         },
         "reasons": {
-          "no-conflicting-year": 1487,
+          "no-conflicting-year": 1497,
           "year-outside-lifespan": 1
         },
         "undetermined_reasons": {
@@ -1666,8 +1657,8 @@
       }
     },
     "notes": [
-      "annotated references ('M-XXX-001(comment)' with an existing prefix code): 417 entries, not counted as D6 per library convention",
-      "get_all_modes total 3162 = top-level modes 3142 + embedded figure-node duplicates 20; distinct mode_code 3132 (plus 10 entries with an empty mode_code, dropped at export)",
+      "annotated references ('M-XXX-001(comment)' with an existing prefix code): 414 entries, not counted as D6 per library convention",
+      "get_all_modes total 3182 = top-level modes 3162 + embedded figure-node duplicates 20; distinct mode_code 3152 (plus 10 entries with an empty mode_code, dropped at export)",
       "D4/D5 已由 Phase40-Z2 真实现（不再是占位）：D4 对『缓存覆盖整部作品』的出处做 key_quote_zh 归一化子串核验（缓存见 data/audit/source_texts.json）；D5 用 data/figures/*.json 的生卒年 × 模式文本里的 4 位年份，不可核/不可判定的部分逐类计数在 audit_meta.d4_d5_report（禁止当成零缺陷）",
       "D1/D2/D3/D4/D6 的 by_scope 见 audit_meta.by_scope: quarantined_figure 指该条 mode 的 figure_code 在隔离名单中"
     ]

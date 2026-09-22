@@ -1,0 +1,1804 @@
+{
+  "schema_version": "v6",
+  "code": "H-ZX-001",
+  "figure_name_zh": "曾子",
+  "figure_name_en": "Zengzi (Zeng Shen)",
+  "mode_count": 10,
+  "modes": [
+    {
+      "id": "M-ZX-001",
+      "mode_code": "M-ZX-001",
+      "research_mode_id": "M230",
+      "name_zh": "慎独自省法",
+      "name_en": "Shen-Du Watchfulness Method",
+      "category": "工夫论",
+      "domain_zh": "修养方法论/道德自律",
+      "domain_en": "Practice Methodology / Moral Self-Discipline",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "『君子必慎其独也』——《大学》诚意章与《中庸》首章共同申明的工夫：在无人监督的独处之境（朱熹所谓『人所不知而己独知』之地）仍保持道德自觉，不自欺、不欺隐。慎独把外在规范内化为自我要求，专在『隐』『微』处用力，是人前慎行的根基；曾子一系以之作为修身工夫的起点。（按：慎独非曾子一系专用术语，《荀子·不苟》与马王堆帛书《五行》皆言慎独。）",
+      "definition_en": "'The gentleman must be watchful over himself when alone.' A practice jointly affirmed by the Great Learning (chapter on making the will sincere) and the Doctrine of the Mean (ch. 1): keeping moral awareness in solitude — where no one watches but oneself alone knows — neither self-deceiving nor concealing. Shen-du internalizes external norms and works precisely at the hidden and the minute; the Zengzi line takes it as the entry practice of self-cultivation. (Note: shen-du is not exclusive to the Zengzi line — the Xunzi and the silk-manuscript Wuxing also discuss it.)",
+      "source_chapter": "《大学》诚意章；《中庸》首章",
+      "key_concepts": [
+        "慎独",
+        "诚意",
+        "毋自欺",
+        "独知之地",
+        "道德自觉"
+      ],
+      "process_zh": [
+        "培养独处时的自我觉察能力",
+        "在无人监督时检查内心念头的纯正性（毋自欺）",
+        "将外在规范完全内化为自我要求",
+        "在独处中保持甚至加强道德自律"
+      ],
+      "process_en": [
+        "Cultivate the capacity for self-awareness in solitude",
+        "Check, when no one is watching, whether one's inner intentions are pure (wu-zi-qi: not deceiving oneself)",
+        "Fully internalize external norms as one's own demands",
+        "Sustain and even strengthen moral self-discipline when alone"
+      ],
+      "key_quote_zh": "此谓诚于中，形于外，故君子必慎其独也。（《大学》）／莫见乎隐，莫显乎微，故君子慎其独也。（《中庸》）",
+      "key_quote_en": "'This is what is meant by sincerity within giving form without: the gentleman must be watchful over himself when alone.' (Great Learning) / 'Nothing is more visible than the hidden, nothing more manifest than the minute: therefore the gentleman is watchful over himself when alone.' (Doctrine of the Mean)",
+      "representative_cases_zh": [
+        "《大学》诚意章以『诚于中，形于外』说明内心真实必显露于外，紧接『故君子必慎其独也』——诚意与慎独是一体两面（原文既定稿核验）",
+        "《中庸》首章以『莫见乎隐，莫显乎微』指出隐蔽细微之处最见心术，故君子在独处时尤须谨慎；定稿已移除旧稿混入的后世成语『不欺暗室』并标注留证"
+      ],
+      "representative_cases_en": [
+        "The Great Learning's chapter on sincerity: 'sincerity within gives form without' — what is truly in the mind always shows; it concludes 'therefore the gentleman must be watchful over himself when alone': sincerity and shen-du are two sides of one practice",
+        "The Doctrine of the Mean's opening chapter: 'nothing is more visible than the hidden, nothing more manifest than the minute' — hence the gentleman is especially careful alone; the later idiom 'not deceiving in a dark room' was removed and documented"
+      ],
+      "modern_applications_zh": [
+        "职业道德自律",
+        "自我监控与反思",
+        "诚信体系建设",
+        "内在动机培养"
+      ],
+      "modern_applications_en": [
+        "Professional ethical self-discipline",
+        "Self-monitoring and reflection",
+        "Building integrity systems",
+        "Cultivating intrinsic motivation"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-005",
+        "M-ZX-006"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "《大学》《中庸》传统上系于曾子一系：朱熹《大学章句》称『经一章，盖孔子之言，而曾子述之；其传十章，则曾子之意而门人记之也』；《中庸》依《史记·孔子世家》系于孔子之孙孔伋（子思）。但两篇的作者与成书年代今有争议（《大学》本为《礼记》第四十二篇，现代学者多定为战国晚期之作），故『慎独工夫＝曾子』属唐宋以来传统归属，非先秦实证定论。",
+      "attribution_note_en": "The Great Learning and the Doctrine of the Mean are traditionally tied to the Zengzi line (Zhu Xi's Great Learning commentary: 'the classic chapter is the words of Confucius as narrated by Zengzi; the ten commentaries are Zengzi's meaning recorded by his disciples'; the Doctrine of the Mean is attributed by the Shiji to Confucius's grandson Kong Ji/Zisi). Yet the authorship and date of both are disputed in modern scholarship (the Great Learning was ch. 42 of the Liji, now usually dated to the late Warring States), so 'shen-du = Zengzi' is a traditional attribution, not an empirically settled fact.",
+      "verification": {
+        "status": "pending",
+        "method": "auto-scan",
+        "evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "培养独处时的自我觉察能力",
+        "在无人监督时检查内心念头的纯正性（毋自欺）",
+        "将外在规范完全内化为自我要求",
+        "在独处中保持甚至加强道德自律"
+      ],
+      "modern_applications": [
+        "职业道德自律",
+        "自我监控与反思",
+        "诚信体系建设",
+        "内在动机培养"
+      ]
+    },
+    {
+      "id": "M-ZX-002",
+      "mode_code": "M-ZX-002",
+      "research_mode_id": "M231",
+      "name_zh": "修齐治平法",
+      "name_en": "Eight Steps Method (Ge-Zhi-Qi-Guo-Ping-Tianxia)",
+      "category": "实践哲学",
+      "domain_zh": "政治伦理/实践次第",
+      "domain_en": "Political Ethics / Sequential Practice",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "『古之欲明明德于天下者，先治其国……』《大学》提出三纲领（明明德、亲民、止于至善）与八条目（格物、致知、诚意、正心、修身、齐家、治国、平天下），构成由内而外、由个体到天下的完整实践链条，是儒家『修己治人』工夫的系统化表达，也是中国古代影响最大的政治—伦理实践方法论。",
+      "definition_en": "'The ancients who wished to illustrate illustrious virtue throughout the world first ordered well their states…' The Great Learning sets out the Three Guidelines (illustrating virtue, renewing the people, resting in the highest good) and the Eight Steps (investigating things, extending knowledge, sincere will, rectified mind, cultivated self, regulated family, governed state, peaceful world), forming a complete practical chain from the inner self to the world — ancient China's most influential political-ethical methodology of self-cultivation and governance.",
+      "source_chapter": "《大学》（经文；《礼记》第四十二篇）",
+      "key_concepts": [
+        "三纲领",
+        "八条目",
+        "修齐治平",
+        "格物致知",
+        "诚意正心"
+      ],
+      "process_zh": [
+        "格物：探究事物原理以获得真知",
+        "致知：扩展认知至全面理解",
+        "诚意：使意念真诚不欺",
+        "正心：端正内心不受情绪干扰",
+        "修身：完善个人品德修养",
+        "齐家：管理好家庭家族",
+        "治国：治理国家社会",
+        "平天下：实现天下太平"
+      ],
+      "process_en": [
+        "Ge-wu: investigate the principles of things to gain true knowledge",
+        "Zhi-zhi: extend knowledge to comprehensive understanding",
+        "Cheng-yi: make the will sincere and undeceived",
+        "Zheng-xin: rectify the mind so it is not disturbed by emotion",
+        "Xiu-shen: perfect one's personal character",
+        "Qi-jia: order one's family and household",
+        "Zhi-guo: govern the state and society",
+        "Ping-tianxia: bring peace to the world"
+      ],
+      "key_quote_zh": "古之欲明明德于天下者，先治其国；欲治其国者，先齐其家；欲齐其家者，先修其身；欲修其身者，先正其心；欲正其心者，先诚其意；欲诚其意者，先致其知；致知在格物。（《大学》）",
+      "key_quote_en": "'The ancients who wished to illustrate illustrious virtue throughout the world first ordered well their states; wishing to order well their states, they first regulated their families; wishing to regulate their families, they first cultivated themselves; wishing to cultivate themselves, they first rectified their minds; wishing to rectify their minds, they first made their wills sincere; wishing to make their wills sincere, they first extended their knowledge; the extension of knowledge lies in the investigation of things.' (Great Learning)",
+      "representative_cases_zh": [
+        "《大学》经文以八条目排成先后相因的阶梯：格物→致知→诚意→正心→修身→齐家→治国→平天下，并以『物有本末，事有终始』点明本末次序（引文逐字核验）",
+        "三纲领（明明德、亲民、止于至善）与八条目相互支撑：纲领定方向，条目定次第。定稿补全『三纲领＋八条目』表述，并标注『内圣外王』语出《庄子·天下篇》而非儒家原语"
+      ],
+      "representative_cases_en": [
+        "The Great Learning's classic text arranges the eight steps as a dependent ladder — ge-wu, zhi-zhi, cheng-yi, zheng-xin, xiu-shen, qi-jia, zhi-guo, ping-tianxia — noting that 'things have root and branch, affairs have end and beginning' (quote verified)",
+        "The three guidelines (manifest virtue, renew the people, rest in the highest good) and eight steps support each other: guidelines set direction, steps set order. The final text restored the 'three guidelines + eight steps' formulation and noted that 'inner sage, outer king' comes from Zhuangzi, not the Confucian canon"
+      ],
+      "modern_applications_zh": [
+        "领导力发展路径",
+        "组织管理实践",
+        "个人成长规划",
+        "社会治理设计"
+      ],
+      "modern_applications_en": [
+        "Leadership development pathways",
+        "Organizational management practice",
+        "Personal growth planning",
+        "Social governance design"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-003",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "文本归属争议同 M-ZX-001（《大学》作者系于曾子的说法本于二程—朱熹一系）。又：概括语『内圣外王』语出《庄子·天下篇》『是故内圣外王之道，闇而不明，郁而不发』，非儒家原语，属后世（尤其宋明理学）对儒家修养—事功结构的概括，使用时宜标注来源。",
+      "attribution_note_en": "Textual attribution is as disputed as in M-ZX-001 (the Zengzi authorship claim stems from the Cheng-Zhu tradition). Note also that the summarizing phrase 'inner sage, outer king' comes from the Zhuangzi (Tian Xia chapter), not from the Confucian corpus — it is a later (especially Song-Ming Neo-Confucian) shorthand.",
+      "verification": {
+        "status": "pending",
+        "method": "auto-scan",
+        "evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "格物：探究事物原理以获得真知",
+        "致知：扩展认知至全面理解",
+        "诚意：使意念真诚不欺",
+        "正心：端正内心不受情绪干扰",
+        "修身：完善个人品德修养",
+        "齐家：管理好家庭家族",
+        "治国：治理国家社会",
+        "平天下：实现天下太平"
+      ],
+      "modern_applications": [
+        "领导力发展路径",
+        "组织管理实践",
+        "个人成长规划",
+        "社会治理设计"
+      ]
+    },
+    {
+      "id": "M-ZX-003",
+      "mode_code": "M-ZX-003",
+      "research_mode_id": "M232",
+      "name_zh": "孝道本体法",
+      "name_en": "Filial Piety Ontology Method",
+      "category": "伦理学",
+      "domain_zh": "孝道哲学/伦理根基",
+      "domain_en": "Philosophy of Filial Piety / Ethical Foundations",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "『夫孝，德之本也，教之所由生也』——《孝经》径将孝推为一切德行的根本与教化的起点，认为忠、义、礼等德目皆可自孝道推衍（『移孝作忠』『天经地义』）。《大戴礼记·曾子大孝》更称『夫孝者，天下之大经也』『身者，亲之遗体也』，把孝由家庭伦理提升为贯通天人、连接个体与政治秩序的普遍原则——这是曾子一系对中国伦理—政治思想最具穿透力的贡献之一。",
+      "definition_en": "'Filial piety is the root of all virtue, and the source from which all moral teaching springs.' The Classic of Filial Piety raises filial piety to the root of the virtues and the origin of moral teaching, from which loyalty, righteousness and propriety may be extended ('transferring filial service into loyalty'; 'the constant of heaven and righteousness of earth'). The Da Dai Liji (Zengzi on Great Filial Piety) goes further: 'filial piety is the great constant of the world'; 'the body is the legacy of one's parents.' Family ethics is thereby elevated into a universal principle linking heaven, the individual and political order — one of the Zengzi line's most penetrating contributions.",
+      "source_chapter": "《孝经·开宗明义章》；《大戴礼记·曾子大孝》",
+      "key_concepts": [
+        "德之本",
+        "教之所由生",
+        "移孝作忠",
+        "天经地义",
+        "孝为天下大经"
+      ],
+      "process_zh": [
+        "认识孝道是一切德行的根本来源",
+        "将孝敬父母的情感推广至对师长、社会的责任",
+        "在政治领域中实现『移孝作忠』",
+        "以孝道为基点构建完整的道德秩序"
+      ],
+      "process_en": [
+        "Recognize filial piety as the root source of all virtues",
+        "Extend the affection of serving parents to teachers and society at large",
+        "Translate filial devotion into civic loyalty in public life ('moving filial piety to loyalty')",
+        "Build a complete moral order on the foundation of filial piety"
+      ],
+      "key_quote_zh": "夫孝，德之本也，教之所由生也。（《孝经·开宗明义章》）／夫孝者，天下之大经也。（《大戴礼记·曾子大孝》）",
+      "key_quote_en": "'Filial piety is the root of all virtue and the source of all moral teaching.' (Classic of Filial Piety, ch. 1) / 'Filial piety is the great constant of the world.' (Da Dai Liji, Zengzi on Great Filial Piety)",
+      "representative_cases_zh": [
+        "《史记·仲尼弟子列传》载『孔子以为能通孝道，故授之业，作孝经』——曾子被传统视为《孝经》一系的传述者（归属争议已标注，不作实证断言）",
+        "《大戴礼记·曾子大孝》以『孝有三：大孝尊亲，其次不辱，其下能养』『夫孝者，天下之大经也』分孝为三等并上升为天下大经；定稿新增该篇原文比证，补强曾子文献依据"
+      ],
+      "representative_cases_en": [
+        "The Shiji records that 'Confucius, considering him able to understand filial piety, gave him the teaching and composed the Classic of Filial Piety' — Zengzi is traditionally seen as its transmitter (attribution flagged as traditional, not asserted as fact)",
+        "The Da Dai Liji's 'Zengzi on Great Filial Piety' grades filial piety ('the greatest honors parents, next does not disgrace them, the least merely supports them') and calls it 'the great constant of the world'; the final text added this textual comparison to strengthen Zengzi's documentary basis"
+      ],
+      "modern_applications_zh": [
+        "家庭伦理建设",
+        "代际关系协调",
+        "价值观教育设计",
+        "社会道德体系构建"
+      ],
+      "modern_applications_en": [
+        "Family ethics building",
+        "Intergenerational relationship mediation",
+        "Values education design",
+        "Social moral system construction"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-005",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "《孝经》开宗明义章为孔子答曾子之问（『仲尼居，曾子侍』），传统以《孝经》归曾子：《史记·仲尼弟子列传》载『孔子以为能通孝道，故授之业，作孝经』，《汉书·艺文志》称『《孝经》者，孔子为曾子陈孝道也』；但今本《孝经》的成书与作者（战国末至汉初说）今有争议。『移孝作忠』出《孝经·广扬名章》，『天经地义』出《孝经·三才章》，皆经文而非曾子自撰之语。",
+      "attribution_note_en": "The opening chapter of the Classic of Filial Piety records Confucius answering Zengzi; the book is traditionally ascribed to Zengzi (Shiji: 'Confucius, judging him able to master filial piety, imparted the tradition to him — he made the Classic of Filial Piety'; Hanshu Yiwenzhi: 'the Classic of Filial Piety is Confucius setting forth filial piety for Zengzi'). Modern scholarship, however, dates its composition to the late Warring States or early Han. 'Transferring filial service into loyalty' and 'the constant of heaven and righteousness of earth' are scripture phrases, not Zengzi's own words.",
+      "verification": {
+        "status": "verified",
+        "method": "link-resolved",
+        "evidence": "https://zh.wikisource.org/wiki/%E5%A4%A7%E6%88%B4%E7%A6%AE%E8%A8%98",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "认识孝道是一切德行的根本来源",
+        "将孝敬父母的情感推广至对师长、社会的责任",
+        "在政治领域中实现『移孝作忠』",
+        "以孝道为基点构建完整的道德秩序"
+      ],
+      "modern_applications": [
+        "家庭伦理建设",
+        "代际关系协调",
+        "价值观教育设计",
+        "社会道德体系构建"
+      ]
+    },
+    {
+      "id": "M-ZX-004",
+      "mode_code": "M-ZX-004",
+      "research_mode_id": "M233",
+      "name_zh": "忠恕一贯法",
+      "name_en": "Loyalty-Reciprocity Unity Method (Zhong-Shu Yi-Guan)",
+      "category": "伦理学",
+      "domain_zh": "伦理实践/关系之道",
+      "domain_en": "Ethical Practice / Relational Way",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "『吾道一以贯之』——孔子以此语授曾子，曾子以『忠恕而已矣』一言概括之：忠是尽己之心（正己），恕是推己及人（达人），二者一体两面，构成儒家伦理实践的一贯之道，也为理解孔子思想体系提供了最简洁的钥匙。",
+      "definition_en": "'My Way is bound together with one thread': Confucius gave this teaching to Zengzi, who summed it up as 'loyalty and reciprocity alone.' Zhong (loyalty) is fulfilling one's own heart; shu (reciprocity) is extending oneself to others. Two sides of one body, together they form the consistent way of Confucian ethical practice — the simplest key to the Master's thought.",
+      "source_chapter": "《论语·里仁》",
+      "key_concepts": [
+        "一以贯之",
+        "忠恕",
+        "尽己推己",
+        "正己达人",
+        "仁之方"
+      ],
+      "process_zh": [
+        "以忠道尽己之心，做到真诚无欺",
+        "以恕道推己及人，理解包容他人",
+        "在忠与恕的辩证统一中把握儒家核心精神",
+        "将一贯之道贯彻于一切伦理实践中"
+      ],
+      "process_en": [
+        "Practice loyalty (zhong) by fully exerting one's own heart with sincerity",
+        "Practice reciprocity (shu) by extending oneself to others with understanding",
+        "Grasp the Confucian core in the dialectical unity of zhong and shu",
+        "Carry the single thread through all ethical practice"
+      ],
+      "key_quote_zh": "子曰：『参乎！吾道一以贯之。』曾子曰：『唯。』子出，门人问曰：『何谓也？』曾子曰：『夫子之道，忠恕而已矣。』（《论语·里仁》）",
+      "key_quote_en": "'Shen, my Way is bound together with one thread.' The Master went out, and the other disciples asked, 'What does he mean?' Zengzi said, 'The Master's Way is nothing but loyalty and reciprocity.' (Analects, Li Ren)",
+      "representative_cases_zh": [
+        "《论语·里仁》记孔子呼『参乎！吾道一以贯之』，曾子答『唯』；出而告门人『夫子之道，忠恕而已矣』——一问一答间以忠恕两点概括一贯之道（含对话全段核验）",
+        "『尽己之谓忠，推己之谓恕』（朱熹《论语集注》）为宋代注疏的经典界定；定稿已将该句标注为注疏语，不与曾子原语混同"
+      ],
+      "representative_cases_en": [
+        "In the Analects (Li Ren) Confucius calls, 'Shen, my Way is one thread running through it'; Zengzi answers 'Yes'; questioned by the disciples he explains, 'the Master's Way is simply loyalty and reciprocity' — the whole dialogue verified",
+        "'Exerting oneself to the utmost is zhong; extending oneself to others is shu' (Zhu Xi's Collected Commentaries) is the classic Song-dynasty gloss; the final text flags it as commentary language, not Zengzi's own words"
+      ],
+      "modern_applications_zh": [
+        "人际关系处理",
+        "组织信任建设",
+        "冲突化解策略",
+        "领导力的真诚维度"
+      ],
+      "modern_applications_en": [
+        "Interpersonal relationship handling",
+        "Building trust in organizations",
+        "Conflict resolution strategy",
+        "The sincerity dimension of leadership"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-002",
+        "M-ZX-006"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "定义中『忠＝尽己之心、恕＝推己及人』的训释本于朱熹《论语集注》『尽己之谓忠，推己之谓恕』（并见《中庸》『忠恕违道不远，施诸己而不愿，亦勿施于人』），属宋代注疏语，非先秦原文，此处按注疏惯例标明。",
+      "attribution_note_en": "The gloss 'loyalty = fulfilling one's own heart; reciprocity = extending oneself to others' follows Zhu Xi's Analects commentary ('fulfilling oneself is called zhong; extending oneself is called shu'), a Song-dynasty gloss rather than pre-Qin wording; it is flagged here as commentary.",
+      "verification": {
+        "status": "verified",
+        "method": "link-resolved",
+        "evidence": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "以忠道尽己之心，做到真诚无欺",
+        "以恕道推己及人，理解包容他人",
+        "在忠与恕的辩证统一中把握儒家核心精神",
+        "将一贯之道贯彻于一切伦理实践中"
+      ],
+      "modern_applications": [
+        "人际关系处理",
+        "组织信任建设",
+        "冲突化解策略",
+        "领导力的真诚维度"
+      ]
+    },
+    {
+      "id": "M-ZX-005",
+      "mode_code": "M-ZX-005",
+      "research_mode_id": "M234",
+      "name_zh": "自省改过法",
+      "name_en": "Self-Reflection and Error-Correction Method (Zi-Sheng)",
+      "category": "工夫论",
+      "domain_zh": "修身工夫/日常自省",
+      "domain_en": "Self-Cultivation / Daily Self-Examination",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "『吾日三省吾身』——曾子创立的制度化自省方法：每日从忠（为人谋是否尽心）、信（与朋友交是否诚信）、习（所传之学是否躬行）三个维度检视自身，发现偏差即行纠正，把道德修养从偶然的顿悟转化为日常的习惯性训练，是儒家修身工夫的核心机制。",
+      "definition_en": "'Each day I examine myself on three counts': the systematic self-examination Zengzi instituted — checking daily three dimensions: loyalty (in serving others), trustworthiness (with friends), and practice (whether what was passed on is practiced). Deviations are corrected as found, turning moral cultivation from occasional insight into daily habit: the core mechanism of Confucian self-cultivation.",
+      "source_chapter": "《论语·学而》",
+      "key_concepts": [
+        "三省吾身",
+        "忠信习",
+        "内自省",
+        "改过迁善",
+        "日常自省"
+      ],
+      "process_zh": [
+        "建立日常自省的习惯和框架",
+        "从忠（对人）、信（交友）、习（学问）三个维度检视自身",
+        "发现偏差后及时纠正并调整行为",
+        "通过持续自省实现道德境界的阶梯式提升"
+      ],
+      "process_en": [
+        "Establish a daily habit and framework of self-examination",
+        "Examine oneself on three counts: loyalty in serving others, trustworthiness with friends, practice of what one teaches",
+        "Correct deviations promptly and adjust behavior",
+        "Climb the ladder of moral cultivation through sustained self-reflection"
+      ],
+      "key_quote_zh": "曾子曰：『吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？』（《论语·学而》）",
+      "key_quote_en": "'Each day I examine myself on three counts: in planning for others, have I been unfaithful? In intercourse with friends, have I been untrustworthy? Have I failed to practice what was passed down to me?' (Analects, Xue Er)",
+      "representative_cases_zh": [
+        "《论语·学而》曾子自述『吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？』——把自省固定为每日三问的例行功课（引文逐字核验，无归属争议）",
+        "『三省』旧注有两解：朱熹《集注》以忠、信、习『三事』解（与曾子三问相应），另一解为『三次』；定稿从『三事』说并在 verification.note 记录"
+      ],
+      "representative_cases_en": [
+        "In the Analects (Xue Er) Zengzi says, 'I examine myself daily on three points: in serving others, have I been unfaithful? In dealings with friends, have I been untrustworthy? Have I practiced what I was taught?' — reflection fixed as a daily routine (quote verified)",
+        "'Three examinations' has two readings: Zhu Xi's commentary takes three matters (loyalty, trust, practice), matching Zengzi's three questions; the other reading is 'three times.' The final text follows the 'three matters' reading and records the alternative"
+      ],
+      "modern_applications_zh": [
+        "个人成长反思",
+        "绩效评估机制设计",
+        "团队文化建设",
+        "持续改进系统"
+      ],
+      "modern_applications_en": [
+        "Personal growth reflection",
+        "Performance review mechanism design",
+        "Team culture building",
+        "Continuous improvement systems"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-006",
+        "M-ZX-007"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "无归属争议：《论语·学而》该章明文系于曾子（『曾子曰』），非转述、非后人推定。",
+      "attribution_note_en": "No attribution dispute: the Xue Er chapter explicitly attributes the saying to Zengzi ('Zengzi said'), directly and not by later inference.",
+      "verification": {
+        "status": "verified",
+        "method": "link-resolved",
+        "evidence": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "建立日常自省的习惯和框架",
+        "从忠（对人）、信（交友）、习（学问）三个维度检视自身",
+        "发现偏差后及时纠正并调整行为",
+        "通过持续自省实现道德境界的阶梯式提升"
+      ],
+      "modern_applications": [
+        "个人成长反思",
+        "绩效评估机制设计",
+        "团队文化建设",
+        "持续改进系统"
+      ]
+    },
+    {
+      "id": "M-ZX-006",
+      "mode_code": "M-ZX-006",
+      "research_mode_id": "M235",
+      "name_zh": "士人担当法",
+      "name_en": "Scholar-Official Responsibility Method (Shi-Dan-Dang)",
+      "category": "志业伦理",
+      "domain_zh": "志业伦理/责任担当",
+      "domain_en": "Vocational Ethics / Responsibility",
+      "level": "重要",
+      "priority": 6,
+      "definition_zh": "『士不可以不弘毅，任重而道远』——曾子将士人的道德担当提升到极致：以推行仁道为终身使命，生命终结方可止息。这种把个人命运与天下大道紧扣的担当精神，成为后世士大夫的精神支柱与身份认同来源。",
+      "definition_en": "'A scholar cannot be without breadth of mind and vigorous endurance: his burden is heavy and his course is long.' Zengzi raised the scholar's moral charge to its utmost — making the promotion of humaneness a lifelong mission that ends only with death. This identification of personal destiny with the Way became the spiritual mainstay of later Chinese scholar-officials.",
+      "source_chapter": "《论语·泰伯》",
+      "key_concepts": [
+        "弘毅",
+        "任重道远",
+        "士人精神",
+        "仁以为己任",
+        "死而后已"
+      ],
+      "process_zh": [
+        "确立以天下道义为个人使命的宏大志向",
+        "认识责任的重大和道路的长远",
+        "在困境中坚持道义担当不后退",
+        "将个人价值与社会责任融为一体"
+      ],
+      "process_en": [
+        "Set a grand aspiration making the Way one's personal mission",
+        "Recognize the weight of the burden and the length of the road",
+        "Hold to one's ethical commitment without retreat under hardship",
+        "Fuse personal worth with social responsibility"
+      ],
+      "key_quote_zh": "曾子曰：『士不可以不弘毅，任重而道远。仁以为己任，不亦重乎？死而后已，不亦远乎？』（《论语·泰伯》）",
+      "key_quote_en": "'A scholar cannot be without breadth and resoluteness; his burden is heavy and his course long. Making humaneness his burden — is it not heavy? Ceasing only at death — is it not long?' (Analects, Tai Bo)",
+      "representative_cases_zh": [
+        "《论语·泰伯》『士不可以不弘毅，任重而道远。仁以为己任，不亦重乎？死而后已，不亦远乎？』——以终身践行仁道界定士的使命（引文逐字核验，无归属争议）",
+        "该章以『任重』对应『仁以为己任』、以『道远』对应『死而后已』，把责任与时间尺度一并立为标准，成为后世士人精神认同的经典出处"
+      ],
+      "representative_cases_en": [
+        "Analects (Tai Bo): 'The scholar cannot but be strong and resolute, for his burden is heavy and his road is long. To take humaneness as one's own burden — is it not heavy? To end only with death — is it not long?' — the scholar's mission defined by lifelong practice of ren (quote verified)",
+        "The chapter maps 'heavy burden' to 'taking ren as one's own' and 'long road' to 'ending only with death,' setting both weight and time-scale as the standard — a classic locus of scholar-official identity"
+      ],
+      "modern_applications_zh": [
+        "社会责任感培养",
+        "使命驱动型领导",
+        "公共知识分子角色定位",
+        "长期主义价值观"
+      ],
+      "modern_applications_en": [
+        "Cultivating social responsibility",
+        "Mission-driven leadership",
+        "Role definition of public intellectuals",
+        "Long-termist values"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-004",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "无归属争议：《论语·泰伯》该章明文系于曾子（『曾子曰』）。",
+      "attribution_note_en": "No attribution dispute: the Tai Bo chapter explicitly attributes the saying to Zengzi ('Zengzi said').",
+      "verification": {
+        "status": "verified",
+        "method": "link-resolved",
+        "evidence": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "确立以天下道义为个人使命的宏大志向",
+        "认识责任的重大和道路的长远",
+        "在困境中坚持道义担当不后退",
+        "将个人价值与社会责任融为一体"
+      ],
+      "modern_applications": [
+        "社会责任感培养",
+        "使命驱动型领导",
+        "公共知识分子角色定位",
+        "长期主义价值观"
+      ]
+    },
+    {
+      "id": "M-ZX-007",
+      "mode_code": "M-ZX-007",
+      "research_mode_id": "M236",
+      "name_zh": "临终大节法",
+      "name_en": "Final Integrity Method (Lin-Zhong)",
+      "category": "伦理学",
+      "domain_zh": "人格完整/生命伦理",
+      "domain_en": "Personal Integrity / Life Ethics",
+      "level": "重要",
+      "priority": 7,
+      "definition_zh": "『启予足，启予手』——曾子临终命弟子检视手足，以《诗》『战战兢兢，如临深渊，如履薄冰』自述一生守身之慎，以身体发肤的完好作为一生践行孝道的最终验证：『身体发肤，受之父母，不敢毁伤，孝之始也』（《孝经》）。将生命最后一刻的道德完整性视为最高价值，体现儒家对道德完整与人格尊严的极致追求（曾子易箦之事，见《礼记·檀弓上》，则为临终守礼的另一证例）。",
+      "definition_en": "'Open my feet; open my hands.' On his deathbed Zengzi had his disciples inspect his body, quoting the Odes ('trembling and fearful, as if on the brink of a deep abyss, as if treading on thin ice') to describe a lifetime of careful keeping — the intactness of body and hair being the final proof of a life of filial piety ('the body, hair and skin are received from parents; not daring to injure them is the beginning of filial piety'). To treat moral integrity at the very end as the highest value is the Confucian pursuit of completeness and dignity in extremis. (Zengzi's changing of his mat, recorded in the Liji, Tan Gong, offers a further example of ritual care at death.)",
+      "source_chapter": "《论语·泰伯》；《孝经·开宗明义章》；补充：《礼记·檀弓上》",
+      "key_concepts": [
+        "战战兢兢",
+        "如临深渊",
+        "如履薄冰",
+        "身体发肤",
+        "临终守身"
+      ],
+      "process_zh": [
+        "将生命全程视为对道德责任的践行",
+        "在生命的每个阶段保持谨慎敬畏的态度",
+        "以最终的道德完整性为人生画上句号",
+        "将『不敢毁伤』扩展为对一切道德承诺的坚守"
+      ],
+      "process_en": [
+        "Treat the whole of life as the practice of a moral commitment",
+        "Keep a cautious, reverent attitude at every stage of life",
+        "Close one's life with final moral integrity intact",
+        "Extend 'not daring to injure' to every moral pledge"
+      ],
+      "key_quote_zh": "曾子有疾，召门弟子曰：『启予足！启予手！《诗》云：战战兢兢，如临深渊，如履薄冰。而今而后，吾知免夫！小子！』（《论语·泰伯》）／身体发肤，受之父母，不敢毁伤，孝之始也。（《孝经·开宗明义章》）",
+      "key_quote_en": "'Zengzi being ill, he called his disciples: Open my feet; open my hands. The Odes say: Trembling and fearful, as if on the brink of a deep abyss, as if treading on thin ice. From now on I know I am spared, my children!' (Analects, Tai Bo) / 'Our bodies — to every hair and bit of skin — are received from our parents, and we must not presume to injure them: this is the beginning of filial piety.' (Classic of Filial Piety, ch. 1)",
+      "representative_cases_zh": [
+        "《论语·泰伯》曾子临终召门弟子『启予足！启予手！』并引《诗》『战战兢兢，如临深渊，如履薄冰』，以守身完好自证一生谨慎（引文逐字核验）",
+        "《礼记·檀弓上》『曾子易箦』：临终坚持换掉不合礼制的席子，守礼至最后一刻；定稿将出处补全为《论语·泰伯》＋《孝经·开宗明义章》并补此证例"
+      ],
+      "representative_cases_en": [
+        "Analects (Tai Bo): on his deathbed Zengzi has his disciples inspect his hands and feet, quoting the Odes — 'trembling with caution, as if on the brink of a deep abyss, as if treading on thin ice' — proving a lifetime's care (quote verified)",
+        "The Liji (Tangong I) tells 'Zengzi changes his mat': dying, he insists on replacing a mat that does not accord with ritual, keeping propriety to the last moment; the final text completed the sources (Analects, Classic of Filial Piety) and added this example"
+      ],
+      "modern_applications_zh": [
+        "职业伦理终身坚持",
+        "人生规划与目标管理",
+        "诚信档案建设",
+        "声誉风险管理"
+      ],
+      "modern_applications_en": [
+        "Lifelong adherence to professional ethics",
+        "Life planning and goal management",
+        "Integrity record systems",
+        "Reputation risk management"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-005",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "『身体发肤，受之父母』为《孝经·开宗明义章》孔子告曾子之语，其归属争议同 M-ZX-003；『曾子易箦』见《礼记·檀弓上》，属后出记载，仅作补充例证。",
+      "attribution_note_en": "'Body, hair and skin received from parents' are words of Confucius to Zengzi in the Classic of Filial Piety (attribution disputed as in M-ZX-003); the 'changing of the mat' story is recorded in the Liji, Tan Gong, and is used here only as supplementary evidence.",
+      "verification": {
+        "status": "verified",
+        "method": "link-resolved",
+        "evidence": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "将生命全程视为对道德责任的践行",
+        "在生命的每个阶段保持谨慎敬畏的态度",
+        "以最终的道德完整性为人生画上句号",
+        "将『不敢毁伤』扩展为对一切道德承诺的坚守"
+      ],
+      "modern_applications": [
+        "职业伦理终身坚持",
+        "人生规划与目标管理",
+        "诚信档案建设",
+        "声誉风险管理"
+      ],
+      "correction_zh": "出处补全：旧稿 source_chapter 仅记《论语·泰伯》，而定义并引《孝经》『身体发肤』语，出处不完整；定稿并列两处出处并补《礼记·檀弓上》证例。"
+    },
+    {
+      "id": "M-ZX-008",
+      "mode_code": "M-ZX-008",
+      "research_mode_id": "M237",
+      "name_zh": "内圣外王贯通法",
+      "name_en": "Inner Sage Outer King Integration Method",
+      "category": "实践哲学",
+      "domain_zh": "内圣外王/政治哲学",
+      "domain_en": "Inner Sage & Outer King / Political Philosophy",
+      "level": "重要",
+      "priority": 8,
+      "definition_zh": "『可以托六尺之孤，可以寄百里之命，临大节而不可夺也』——曾子以此界定真正的君子：在重大关头怀抱不可动摇的道德定力。此条把内在修养（诚意正心）与外在事功（治国平天下）贯通为一，是《大学》八目结构的人格化表达，也是后世儒家政治哲学的核心范式。",
+      "definition_en": "'One who can be entrusted with the orphan of a young state, whose authority can be trusted with the command of a hundred li, whose character cannot be shaken when facing great crises' — Zengzi's definition of the true gentleman: unshakable moral firmness at the decisive moment. The mode binds inner cultivation (sincere will, rectified mind) to outer achievement (governing the state, pacifying the world): the Eight Steps of the Great Learning rendered as character, and a core paradigm of later Confucian political philosophy.",
+      "source_chapter": "《论语·泰伯》；《大学》",
+      "key_concepts": [
+        "托孤寄命",
+        "临大节不可夺",
+        "内圣外王",
+        "诚意正心",
+        "道义定力"
+      ],
+      "process_zh": [
+        "通过内省修养建立不可动摇的道德根基",
+        "将内在德性转化为外在治理能力",
+        "在重大危机和抉择面前保持道义定力",
+        "通过传承将个人修养扩展为制度化的教化体系"
+      ],
+      "process_en": [
+        "Build an unshakable moral foundation through inner cultivation",
+        "Convert inner virtue into the capacity for outward governance",
+        "Keep ethical resolve at moments of great crisis and choice",
+        "Extend personal cultivation into institutionalized edification through transmission"
+      ],
+      "key_quote_zh": "曾子曰：『可以托六尺之孤，可以寄百里之命，临大节而不可夺也。君子人与？君子人也。』（《论语·泰伯》）",
+      "key_quote_en": "'One who can be entrusted with the orphan of a young state, whose authority can be trusted with the command of a hundred li — when facing great crises his character cannot be shaken. Is he a gentleman? He is a gentleman.' (Analects, Tai Bo)",
+      "representative_cases_zh": [
+        "《论语·泰伯》曾子以『可以托六尺之孤，可以寄百里之命，临大节而不可夺也』界定君子——大节关头不可夺其志（引文逐字核验）",
+        "《大学》八目把诚意正心（内）与治国平天下（外）连为一条路径，此条即其人格化表达；定稿已标注『内圣外王』语出《庄子·天下篇》，属后世概括"
+      ],
+      "representative_cases_en": [
+        "Analects (Tai Bo): Zengzi defines the gentleman as one 'to whom one can entrust an orphan of six cubits, and the command of a hundred li, whom no great crisis can shake' (quote verified)",
+        "The Great Learning's eight steps link sincerity and rectified mind (inner) with governing the state and pacifying the world (outer); this mode personifies that structure. The final text notes that 'inner sage, outer king' comes from Zhuangzi and is a later summary"
+      ],
+      "modern_applications_zh": [
+        "危机领导力",
+        "制度建设与传承",
+        "核心价值观培育",
+        "组织文化塑造"
+      ],
+      "modern_applications_en": [
+        "Crisis leadership",
+        "Institution building and transmission",
+        "Cultivating core values",
+        "Organizational culture shaping"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-006",
+        "M-ZX-007"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "术语注意：『内圣外王』语出《庄子·天下篇》『是故内圣外王之道，闇而不明，郁而不发』，非曾子原语，亦非先秦儒家自用语汇，系后世（尤其宋明理学）对儒家修养—事功结构的概括；本条以之命名而须标注来源，避免误植为曾子原创术语。",
+      "attribution_note_en": "Terminological note: 'inner sage, outer king' comes from the Zhuangzi (Tian Xia): 'Thus the way of the inner sage and outer king was obscured and not illuminated.' It is neither Zengzi's phrase nor native Confucian vocabulary, but a later (especially Neo-Confucian) shorthand; the name is retained but its provenance is flagged.",
+      "verification": {
+        "status": "verified",
+        "method": "link-resolved",
+        "evidence": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "通过内省修养建立不可动摇的道德根基",
+        "将内在德性转化为外在治理能力",
+        "在重大危机和抉择面前保持道义定力",
+        "通过传承将个人修养扩展为制度化的教化体系"
+      ],
+      "modern_applications": [
+        "危机领导力",
+        "制度建设与传承",
+        "核心价值观培育",
+        "组织文化塑造"
+      ]
+    },
+    {
+      "id": "M-ZX-009",
+      "mode_code": "M-ZX-009",
+      "research_mode_id": "M238",
+      "name_zh": "民本教化法",
+      "name_en": "People-Centered Education Method (Min-Ben-Jiao-Hua)",
+      "category": "政治哲学",
+      "domain_zh": "教化论/治理哲学",
+      "domain_en": "Theory of Edification / Governance Philosophy",
+      "level": "重要",
+      "priority": 9,
+      "definition_zh": "『先王见教之可以化民也』——《孝经·三才章》载孔子之言：古之圣王以博爱、德义、敬让、礼乐、好恶五事为先导，以教化而非刑威化民成俗，故『其教不肃而成，其政不严而治』。此条将家庭伦理（孝）推广为社会政治秩序的基础，以道德教化置于刑罚之前，是儒家『以德治国』的经典表述（曾子一系所传《孝经》为其文献载体）。",
+      "definition_en": "'The former kings saw that teaching could transform the people' — words of Confucius recorded in the Classic of Filial Piety (ch. 3, 'Three Powers'): the ancient kings led with love, righteousness, deference, ritual and music, and clear likes and dislikes; transformation came by teaching rather than by punishment, so that 'their teaching was accomplished without severity, their government ordered without harshness.' Family ethics (filial piety) is extended into the basis of social and political order — the classic statement of Confucian 'rule by virtue,' carried in the Classic of Filial Piety transmitted by the Zengzi line.",
+      "source_chapter": "《孝经·三才章》",
+      "key_concepts": [
+        "以教代刑",
+        "化民成俗",
+        "先教后刑",
+        "其教不肃而成",
+        "以德治国"
+      ],
+      "process_zh": [
+        "将道德教化置于刑罚之前作为首要治理手段",
+        "通过孝道建立社会伦理基础",
+        "以榜样示范引导民风转变",
+        "在教化中实现自愿的社会秩序"
+      ],
+      "process_en": [
+        "Put moral edification before punishment as the primary means of governance",
+        "Build a social ethical foundation through filial piety",
+        "Guide popular custom by exemplary leadership",
+        "Achieve voluntary social order through edification"
+      ],
+      "key_quote_zh": "子曰：『……先王见教之可以化民也，是故先之以博爱，而民莫遗其亲；陈之以德义，而民兴行；先之以敬让，而民不争；导之以礼乐，而民和睦；示之以好恶，而民知禁。』（《孝经·三才章》）",
+      "key_quote_en": "'…The former kings saw that teaching could transform the people: therefore they set love first, and none neglected their parents; they set forth righteousness, and the people rose to practice it; they set deference first, and the people did not contend; they guided with ritual and music, and the people were harmonious; they showed what to love and hate, and the people knew their prohibitions.' (Classic of Filial Piety, ch. 3)",
+      "representative_cases_zh": [
+        "《孝经·三才章》载孔子答曾子『甚哉，孝之大也』之问：『先王见教之可以化民也，是故先之以博爱……示之以好恶，而民知禁』——以五事为先导，教成而政治（定稿替换旧伪句后逐字核验）",
+        "同章『其教不肃而成，其政不严而治』二句为原文表述（定稿据此改写定义与关键概念，废去今人概括『不刑而治』；旧伪句已作废并留证）"
+      ],
+      "representative_cases_en": [
+        "Classic of Filial Piety (San Cai): answering Zengzi's question 'how great is filial piety,' Confucius says the ancient kings saw that teaching could transform the people and led with universal love ... and 'showed them likes and dislikes, and the people knew their prohibitions' (verified after replacing a fabricated sentence)",
+        "The same chapter's 'its teaching succeeds without severity, its government rules without harshness' is the original wording on which the final text rewrote the definition and key concepts; the old fabricated sentence is voided and documented"
+      ],
+      "modern_applications_zh": [
+        "社会治理创新",
+        "公共政策伦理维度",
+        "公民道德建设",
+        "非强制性管理策略"
+      ],
+      "modern_applications_en": [
+        "Social governance innovation",
+        "Ethical dimension of public policy",
+        "Civic morality building",
+        "Non-coercive management strategies"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-003",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "引文出自《孝经·三才章》孔子之言（曾子问『甚哉，孝之大也』而孔子答），《孝经》归属争议同 M-ZX-003。",
+      "attribution_note_en": "The quotation is Confucius's answer to Zengzi in the Classic of Filial Piety; attribution of the book as a whole is disputed as in M-ZX-003.",
+      "verification": {
+        "status": "pending",
+        "method": "auto-scan",
+        "evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "将道德教化置于刑罚之前作为首要治理手段",
+        "通过孝道建立社会伦理基础",
+        "以榜样示范引导民风转变",
+        "在教化中实现自愿的社会秩序"
+      ],
+      "modern_applications": [
+        "社会治理创新",
+        "公共政策伦理维度",
+        "公民道德建设",
+        "非强制性管理策略"
+      ],
+      "correction_zh": "重大修正：旧稿引文『君子所乎民者，则民亦如是乎』遍检《孝经》全文及先秦文献无此句（联网整句检索 0 命中），判定为伪造/讹变引文，已替换为《孝经·三才章》原文；出处由笼统『《孝经》』精确至『《孝经·三才章》』；『不刑而治』系今人概括，原文作『其教不肃而成，其政不严而治』，定义与关键概念已按原文改写。"
+    },
+    {
+      "id": "M-ZX-010",
+      "mode_code": "M-ZX-010",
+      "research_mode_id": "M239",
+      "name_zh": "道统传承法",
+      "name_en": "Dao-School Transmission Method (Dao-Tong)",
+      "category": "传承论",
+      "domain_zh": "道统传承/学术谱系",
+      "domain_en": "Dao-Tradition Transmission / Intellectual Lineage",
+      "level": "重要",
+      "priority": 10,
+      "definition_zh": "『君子所贵乎道者三』——曾子临终对孟敬子的告诫：动容貌、正颜色、出辞气三事，是君子守道之要（『鸟之将死，其鸣也哀；人之将死，其言也善』）。此条概括曾子作为孔门『传道者』的角色：不仅忠实承受孔子之教（『吾道一以贯之』），且以可传授的工夫与临终的教言把斯文托付后学；后世（唐宋以来）以『孔子—曾子—子思—孟子』为道统谱系，曾子居承上启下之枢。",
+      "definition_en": "'There are three things the gentleman values in the Way' — Zengzi's deathbed charge to Meng Jingzi: composure of demeanor, sincerity of countenance, and care of speech and tone ('when a bird is about to die, its song is mournful; when a man is about to die, his words are good'). The mode captures Zengzi as the Confucian tradition's transmitter: faithfully receiving the Master's teaching ('my Way is one thread') and handing the cultural heritage on through transmissible practice and a final charge. From Tang-Song times the lineage 'Confucius–Zengzi–Zisi–Mencius' was enshrined as the orthodox transmission, with Zengzi as its hinge.",
+      "source_chapter": "《论语·泰伯》",
+      "key_concepts": [
+        "道之三贵",
+        "文脉传续",
+        "临终教言",
+        "思孟学派",
+        "士人使命"
+      ],
+      "process_zh": [
+        "准确理解并概括核心思想精髓",
+        "建立可传承的教学体系和工夫论框架",
+        "通过弟子一代代传递道统血脉",
+        "在传承中保持核心精神的纯正性"
+      ],
+      "process_en": [
+        "Accurately grasp and summarize the essence of core thought",
+        "Build a transmissible teaching system and framework of practice",
+        "Pass the lineage on through generations of disciples",
+        "Preserve the purity of the core spirit in transmission"
+      ],
+      "key_quote_zh": "曾子有疾，孟敬子问之。曾子言曰：『鸟之将死，其鸣也哀；人之将死，其言也善。君子所贵乎道者三：动容貌，斯远暴慢矣；正颜色，斯近信矣；出辞气，斯远鄙倍矣。笾豆之事，则有司存。』（《论语·泰伯》）",
+      "key_quote_en": "'Zengzi being ill, Meng Jingzi came to ask after him. Zengzi said: When a bird is about to die, its song is mournful; when a man is about to die, his words are good. There are three things the gentleman values in the Way: in demeanor, to keep far from violence and arrogance; in countenance, to keep near to sincerity; in speech and tone, to keep far from meanness and perversity. As for the sacrificial vessels, there are officers for those.' (Analects, Tai Bo)",
+      "representative_cases_zh": [
+        "《论语·泰伯》曾子临终告孟敬子『君子所贵乎道者三：动容貌、正颜色、出辞气』——以可传授的工夫与临终教言把斯文托付后学（定稿替换旧误引《子罕》章孔子语）",
+        "后世以『孔子—曾子—子思—孟子』为道统谱系（韩愈《原道》首倡、朱熹《中庸章句序》定型）；可考者为《史记》载孔子之孙孔伋（子思）与孟子『受业子思之门人』，曾子与子思的直接师承为后世推定，已作归属标注"
+      ],
+      "representative_cases_en": [
+        "Analects (Tai Bo): dying, Zengzi charges Meng Jingzi that 'the gentleman values three things in the Way: demeanor, countenance, and speech' — entrusting the tradition through transmissible practice and last words (replacing an earlier misattributed quote from Confucius in the Zi Han chapter)",
+        "Later ages formed the lineage 'Confucius-Zengzi-Zisi-Mencius' (initiated by Han Yu's Yuan Dao, fixed by Zhu Xi's preface to the Doctrine of the Mean); documented facts are the Shiji's record of Confucius's grandson Kong Ji (Zisi) and that Mencius 'studied under Zisi's disciples' — a direct Zengzi-to-Zisi link is a later inference and is flagged as such"
+      ],
+      "modern_applications_zh": [
+        "知识传承与教育体系设计",
+        "组织文化代际传递",
+        "学术传统的延续与创新",
+        "文化遗产保护与传承"
+      ],
+      "modern_applications_en": [
+        "Knowledge transmission and education system design",
+        "Intergenerational transmission of organizational culture",
+        "Continuity and innovation of scholarly traditions",
+        "Cultural heritage preservation"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-004",
+        "M-ZX-006"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "『道统』为唐宋建构的概念（韩愈《原道》首倡、朱熹《中庸章句序》定型），『孔子—曾子—子思—孟子』谱系属该叙事：可考者为《史记·孔子世家》载孔子之孙孔伋（子思），《史记·孟子荀卿列传》载孟子『受业子思之门人』（非亲授）；曾子与子思的直接师承为后世推定，本卡不作实证断言。",
+      "attribution_note_en": "'Dao-tong' (the orthodox transmission) is a Tang-Song construct (Han Yu's Yuan Dao; Zhu Xi's preface to the Doctrine of the Mean). What is documented: the Shiji records Confucius's grandson Kong Ji (Zisi) and that Mencius 'studied under the disciples of Zisi' (not directly); a direct Zengzi-to-Zisi master-disciple link is a later inference and is not asserted here as fact.",
+      "verification": {
+        "status": "verified",
+        "method": "link-resolved",
+        "evidence": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E",
+        "checked_at": "2026-09-22",
+        "checker": "phase38-y2"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "准确理解并概括核心思想精髓",
+        "建立可传承的教学体系和工夫论框架",
+        "通过弟子一代代传递道统血脉",
+        "在传承中保持核心精神的纯正性"
+      ],
+      "modern_applications": [
+        "知识传承与教育体系设计",
+        "组织文化代际传递",
+        "学术传统的延续与创新",
+        "文化遗产保护与传承"
+      ],
+      "correction_zh": "重大修正：旧稿引文『天之未丧斯文也，匡人其如予何』出自《论语·子罕》『子畏于匡』章，系孔子之言而非曾子语（误引），已替换为曾子本人临终传道之语（《论语·泰伯》告孟敬子『君子所贵乎道者三』）；旧稿『通过弟子传给了曾申、曾元、曾西，再通过子思传给孟子』的紧密师承链缺乏早期文献依据，已改为审慎表述。"
+    }
+  ],
+  "thinking_modes_v6_phase20": [
+    {
+      "id": "M-ZX-001",
+      "mode_code": "M-ZX-001",
+      "research_mode_id": "M230",
+      "name_zh": "慎独自省法",
+      "name_en": "Shen-Du Watchfulness Method",
+      "category": "工夫论",
+      "domain_zh": "修养方法论/道德自律",
+      "domain_en": "Practice Methodology / Moral Self-Discipline",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "『君子必慎其独也』——《大学》诚意章与《中庸》首章共同申明的工夫：在无人监督的独处之境（朱熹所谓『人所不知而己独知』之地）仍保持道德自觉，不自欺、不欺隐。慎独把外在规范内化为自我要求，专在『隐』『微』处用力，是人前慎行的根基；曾子一系以之作为修身工夫的起点。（按：慎独非曾子一系专用术语，《荀子·不苟》与马王堆帛书《五行》皆言慎独。）",
+      "definition_en": "'The gentleman must be watchful over himself when alone.' A practice jointly affirmed by the Great Learning (chapter on making the will sincere) and the Doctrine of the Mean (ch. 1): keeping moral awareness in solitude — where no one watches but oneself alone knows — neither self-deceiving nor concealing. Shen-du internalizes external norms and works precisely at the hidden and the minute; the Zengzi line takes it as the entry practice of self-cultivation. (Note: shen-du is not exclusive to the Zengzi line — the Xunzi and the silk-manuscript Wuxing also discuss it.)",
+      "source_chapter": "《大学》诚意章；《中庸》首章",
+      "key_concepts": [
+        "慎独",
+        "诚意",
+        "毋自欺",
+        "独知之地",
+        "道德自觉"
+      ],
+      "process_zh": [
+        "培养独处时的自我觉察能力",
+        "在无人监督时检查内心念头的纯正性（毋自欺）",
+        "将外在规范完全内化为自我要求",
+        "在独处中保持甚至加强道德自律"
+      ],
+      "process_en": [
+        "Cultivate the capacity for self-awareness in solitude",
+        "Check, when no one is watching, whether one's inner intentions are pure (wu-zi-qi: not deceiving oneself)",
+        "Fully internalize external norms as one's own demands",
+        "Sustain and even strengthen moral self-discipline when alone"
+      ],
+      "key_quote_zh": "此谓诚于中，形于外，故君子必慎其独也。（《大学》）／莫见乎隐，莫显乎微，故君子慎其独也。（《中庸》）",
+      "key_quote_en": "'This is what is meant by sincerity within giving form without: the gentleman must be watchful over himself when alone.' (Great Learning) / 'Nothing is more visible than the hidden, nothing more manifest than the minute: therefore the gentleman is watchful over himself when alone.' (Doctrine of the Mean)",
+      "representative_cases_zh": [
+        "《大学》诚意章以『诚于中，形于外』说明内心真实必显露于外，紧接『故君子必慎其独也』——诚意与慎独是一体两面（原文既定稿核验）",
+        "《中庸》首章以『莫见乎隐，莫显乎微』指出隐蔽细微之处最见心术，故君子在独处时尤须谨慎；定稿已移除旧稿混入的后世成语『不欺暗室』并标注留证"
+      ],
+      "representative_cases_en": [
+        "The Great Learning's chapter on sincerity: 'sincerity within gives form without' — what is truly in the mind always shows; it concludes 'therefore the gentleman must be watchful over himself when alone': sincerity and shen-du are two sides of one practice",
+        "The Doctrine of the Mean's opening chapter: 'nothing is more visible than the hidden, nothing more manifest than the minute' — hence the gentleman is especially careful alone; the later idiom 'not deceiving in a dark room' was removed and documented"
+      ],
+      "modern_applications_zh": [
+        "职业道德自律",
+        "自我监控与反思",
+        "诚信体系建设",
+        "内在动机培养"
+      ],
+      "modern_applications_en": [
+        "Professional ethical self-discipline",
+        "Self-monitoring and reflection",
+        "Building integrity systems",
+        "Cultivating intrinsic motivation"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-005",
+        "M-ZX-006"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "《大学》《中庸》传统上系于曾子一系：朱熹《大学章句》称『经一章，盖孔子之言，而曾子述之；其传十章，则曾子之意而门人记之也』；《中庸》依《史记·孔子世家》系于孔子之孙孔伋（子思）。但两篇的作者与成书年代今有争议（《大学》本为《礼记》第四十二篇，现代学者多定为战国晚期之作），故『慎独工夫＝曾子』属唐宋以来传统归属，非先秦实证定论。",
+      "attribution_note_en": "The Great Learning and the Doctrine of the Mean are traditionally tied to the Zengzi line (Zhu Xi's Great Learning commentary: 'the classic chapter is the words of Confucius as narrated by Zengzi; the ten commentaries are Zengzi's meaning recorded by his disciples'; the Doctrine of the Mean is attributed by the Shiji to Confucius's grandson Kong Ji/Zisi). Yet the authorship and date of both are disputed in modern scholarship (the Great Learning was ch. 42 of the Liji, now usually dated to the late Warring States), so 'shen-du = Zengzi' is a traditional attribution, not an empirically settled fact.",
+      "verification": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": "旧稿 key_concepts 含『不欺暗室』：该语为后世成语（汉·刘向《列女传·卫灵公夫人》述蘧伯玉事，唐·骆宾王《萤火赋》『入暗室而不欺』），不在《大学》《中庸》原文，已移除并在研究报告中标注。"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "培养独处时的自我觉察能力",
+        "在无人监督时检查内心念头的纯正性（毋自欺）",
+        "将外在规范完全内化为自我要求",
+        "在独处中保持甚至加强道德自律"
+      ],
+      "modern_applications": [
+        "职业道德自律",
+        "自我监控与反思",
+        "诚信体系建设",
+        "内在动机培养"
+      ]
+    },
+    {
+      "id": "M-ZX-002",
+      "mode_code": "M-ZX-002",
+      "research_mode_id": "M231",
+      "name_zh": "修齐治平法",
+      "name_en": "Eight Steps Method (Ge-Zhi-Qi-Guo-Ping-Tianxia)",
+      "category": "实践哲学",
+      "domain_zh": "政治伦理/实践次第",
+      "domain_en": "Political Ethics / Sequential Practice",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "『古之欲明明德于天下者，先治其国……』《大学》提出三纲领（明明德、亲民、止于至善）与八条目（格物、致知、诚意、正心、修身、齐家、治国、平天下），构成由内而外、由个体到天下的完整实践链条，是儒家『修己治人』工夫的系统化表达，也是中国古代影响最大的政治—伦理实践方法论。",
+      "definition_en": "'The ancients who wished to illustrate illustrious virtue throughout the world first ordered well their states…' The Great Learning sets out the Three Guidelines (illustrating virtue, renewing the people, resting in the highest good) and the Eight Steps (investigating things, extending knowledge, sincere will, rectified mind, cultivated self, regulated family, governed state, peaceful world), forming a complete practical chain from the inner self to the world — ancient China's most influential political-ethical methodology of self-cultivation and governance.",
+      "source_chapter": "《大学》（经文；《礼记》第四十二篇）",
+      "key_concepts": [
+        "三纲领",
+        "八条目",
+        "修齐治平",
+        "格物致知",
+        "诚意正心"
+      ],
+      "process_zh": [
+        "格物：探究事物原理以获得真知",
+        "致知：扩展认知至全面理解",
+        "诚意：使意念真诚不欺",
+        "正心：端正内心不受情绪干扰",
+        "修身：完善个人品德修养",
+        "齐家：管理好家庭家族",
+        "治国：治理国家社会",
+        "平天下：实现天下太平"
+      ],
+      "process_en": [
+        "Ge-wu: investigate the principles of things to gain true knowledge",
+        "Zhi-zhi: extend knowledge to comprehensive understanding",
+        "Cheng-yi: make the will sincere and undeceived",
+        "Zheng-xin: rectify the mind so it is not disturbed by emotion",
+        "Xiu-shen: perfect one's personal character",
+        "Qi-jia: order one's family and household",
+        "Zhi-guo: govern the state and society",
+        "Ping-tianxia: bring peace to the world"
+      ],
+      "key_quote_zh": "古之欲明明德于天下者，先治其国；欲治其国者，先齐其家；欲齐其家者，先修其身；欲修其身者，先正其心；欲正其心者，先诚其意；欲诚其意者，先致其知；致知在格物。（《大学》）",
+      "key_quote_en": "'The ancients who wished to illustrate illustrious virtue throughout the world first ordered well their states; wishing to order well their states, they first regulated their families; wishing to regulate their families, they first cultivated themselves; wishing to cultivate themselves, they first rectified their minds; wishing to rectify their minds, they first made their wills sincere; wishing to make their wills sincere, they first extended their knowledge; the extension of knowledge lies in the investigation of things.' (Great Learning)",
+      "representative_cases_zh": [
+        "《大学》经文以八条目排成先后相因的阶梯：格物→致知→诚意→正心→修身→齐家→治国→平天下，并以『物有本末，事有终始』点明本末次序（引文逐字核验）",
+        "三纲领（明明德、亲民、止于至善）与八条目相互支撑：纲领定方向，条目定次第。定稿补全『三纲领＋八条目』表述，并标注『内圣外王』语出《庄子·天下篇》而非儒家原语"
+      ],
+      "representative_cases_en": [
+        "The Great Learning's classic text arranges the eight steps as a dependent ladder — ge-wu, zhi-zhi, cheng-yi, zheng-xin, xiu-shen, qi-jia, zhi-guo, ping-tianxia — noting that 'things have root and branch, affairs have end and beginning' (quote verified)",
+        "The three guidelines (manifest virtue, renew the people, rest in the highest good) and eight steps support each other: guidelines set direction, steps set order. The final text restored the 'three guidelines + eight steps' formulation and noted that 'inner sage, outer king' comes from Zhuangzi, not the Confucian canon"
+      ],
+      "modern_applications_zh": [
+        "领导力发展路径",
+        "组织管理实践",
+        "个人成长规划",
+        "社会治理设计"
+      ],
+      "modern_applications_en": [
+        "Leadership development pathways",
+        "Organizational management practice",
+        "Personal growth planning",
+        "Social governance design"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-003",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "文本归属争议同 M-ZX-001（《大学》作者系于曾子的说法本于二程—朱熹一系）。又：概括语『内圣外王』语出《庄子·天下篇》『是故内圣外王之道，闇而不明，郁而不发』，非儒家原语，属后世（尤其宋明理学）对儒家修养—事功结构的概括，使用时宜标注来源。",
+      "attribution_note_en": "Textual attribution is as disputed as in M-ZX-001 (the Zengzi authorship claim stems from the Cheng-Zhu tradition). Note also that the summarizing phrase 'inner sage, outer king' comes from the Zhuangzi (Tian Xia chapter), not from the Confucian corpus — it is a later (especially Song-Ming Neo-Confucian) shorthand.",
+      "verification": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "格物：探究事物原理以获得真知",
+        "致知：扩展认知至全面理解",
+        "诚意：使意念真诚不欺",
+        "正心：端正内心不受情绪干扰",
+        "修身：完善个人品德修养",
+        "齐家：管理好家庭家族",
+        "治国：治理国家社会",
+        "平天下：实现天下太平"
+      ],
+      "modern_applications": [
+        "领导力发展路径",
+        "组织管理实践",
+        "个人成长规划",
+        "社会治理设计"
+      ]
+    },
+    {
+      "id": "M-ZX-003",
+      "mode_code": "M-ZX-003",
+      "research_mode_id": "M232",
+      "name_zh": "孝道本体法",
+      "name_en": "Filial Piety Ontology Method",
+      "category": "伦理学",
+      "domain_zh": "孝道哲学/伦理根基",
+      "domain_en": "Philosophy of Filial Piety / Ethical Foundations",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "『夫孝，德之本也，教之所由生也』——《孝经》径将孝推为一切德行的根本与教化的起点，认为忠、义、礼等德目皆可自孝道推衍（『移孝作忠』『天经地义』）。《大戴礼记·曾子大孝》更称『夫孝者，天下之大经也』『身者，亲之遗体也』，把孝由家庭伦理提升为贯通天人、连接个体与政治秩序的普遍原则——这是曾子一系对中国伦理—政治思想最具穿透力的贡献之一。",
+      "definition_en": "'Filial piety is the root of all virtue, and the source from which all moral teaching springs.' The Classic of Filial Piety raises filial piety to the root of the virtues and the origin of moral teaching, from which loyalty, righteousness and propriety may be extended ('transferring filial service into loyalty'; 'the constant of heaven and righteousness of earth'). The Da Dai Liji (Zengzi on Great Filial Piety) goes further: 'filial piety is the great constant of the world'; 'the body is the legacy of one's parents.' Family ethics is thereby elevated into a universal principle linking heaven, the individual and political order — one of the Zengzi line's most penetrating contributions.",
+      "source_chapter": "《孝经·开宗明义章》；《大戴礼记·曾子大孝》",
+      "key_concepts": [
+        "德之本",
+        "教之所由生",
+        "移孝作忠",
+        "天经地义",
+        "孝为天下大经"
+      ],
+      "process_zh": [
+        "认识孝道是一切德行的根本来源",
+        "将孝敬父母的情感推广至对师长、社会的责任",
+        "在政治领域中实现『移孝作忠』",
+        "以孝道为基点构建完整的道德秩序"
+      ],
+      "process_en": [
+        "Recognize filial piety as the root source of all virtues",
+        "Extend the affection of serving parents to teachers and society at large",
+        "Translate filial devotion into civic loyalty in public life ('moving filial piety to loyalty')",
+        "Build a complete moral order on the foundation of filial piety"
+      ],
+      "key_quote_zh": "夫孝，德之本也，教之所由生也。（《孝经·开宗明义章》）／夫孝者，天下之大经也。（《大戴礼记·曾子大孝》）",
+      "key_quote_en": "'Filial piety is the root of all virtue and the source of all moral teaching.' (Classic of Filial Piety, ch. 1) / 'Filial piety is the great constant of the world.' (Da Dai Liji, Zengzi on Great Filial Piety)",
+      "representative_cases_zh": [
+        "《史记·仲尼弟子列传》载『孔子以为能通孝道，故授之业，作孝经』——曾子被传统视为《孝经》一系的传述者（归属争议已标注，不作实证断言）",
+        "《大戴礼记·曾子大孝》以『孝有三：大孝尊亲，其次不辱，其下能养』『夫孝者，天下之大经也』分孝为三等并上升为天下大经；定稿新增该篇原文比证，补强曾子文献依据"
+      ],
+      "representative_cases_en": [
+        "The Shiji records that 'Confucius, considering him able to understand filial piety, gave him the teaching and composed the Classic of Filial Piety' — Zengzi is traditionally seen as its transmitter (attribution flagged as traditional, not asserted as fact)",
+        "The Da Dai Liji's 'Zengzi on Great Filial Piety' grades filial piety ('the greatest honors parents, next does not disgrace them, the least merely supports them') and calls it 'the great constant of the world'; the final text added this textual comparison to strengthen Zengzi's documentary basis"
+      ],
+      "modern_applications_zh": [
+        "家庭伦理建设",
+        "代际关系协调",
+        "价值观教育设计",
+        "社会道德体系构建"
+      ],
+      "modern_applications_en": [
+        "Family ethics building",
+        "Intergenerational relationship mediation",
+        "Values education design",
+        "Social moral system construction"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-005",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "《孝经》开宗明义章为孔子答曾子之问（『仲尼居，曾子侍』），传统以《孝经》归曾子：《史记·仲尼弟子列传》载『孔子以为能通孝道，故授之业，作孝经』，《汉书·艺文志》称『《孝经》者，孔子为曾子陈孝道也』；但今本《孝经》的成书与作者（战国末至汉初说）今有争议。『移孝作忠』出《孝经·广扬名章》，『天经地义』出《孝经·三才章》，皆经文而非曾子自撰之语。",
+      "attribution_note_en": "The opening chapter of the Classic of Filial Piety records Confucius answering Zengzi; the book is traditionally ascribed to Zengzi (Shiji: 'Confucius, judging him able to master filial piety, imparted the tradition to him — he made the Classic of Filial Piety'; Hanshu Yiwenzhi: 'the Classic of Filial Piety is Confucius setting forth filial piety for Zengzi'). Modern scholarship, however, dates its composition to the late Warring States or early Han. 'Transferring filial service into loyalty' and 'the constant of heaven and righteousness of earth' are scripture phrases, not Zengzi's own words.",
+      "verification": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": "新增《大戴礼记·曾子大孝》原文比证（『孝有三：大孝尊亲，其次不辱，其下能养』『夫孝者，天下之大经也』『身者，亲之遗体也』），补强『孝道本体』的曾子文献依据。"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "认识孝道是一切德行的根本来源",
+        "将孝敬父母的情感推广至对师长、社会的责任",
+        "在政治领域中实现『移孝作忠』",
+        "以孝道为基点构建完整的道德秩序"
+      ],
+      "modern_applications": [
+        "家庭伦理建设",
+        "代际关系协调",
+        "价值观教育设计",
+        "社会道德体系构建"
+      ]
+    },
+    {
+      "id": "M-ZX-004",
+      "mode_code": "M-ZX-004",
+      "research_mode_id": "M233",
+      "name_zh": "忠恕一贯法",
+      "name_en": "Loyalty-Reciprocity Unity Method (Zhong-Shu Yi-Guan)",
+      "category": "伦理学",
+      "domain_zh": "伦理实践/关系之道",
+      "domain_en": "Ethical Practice / Relational Way",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "『吾道一以贯之』——孔子以此语授曾子，曾子以『忠恕而已矣』一言概括之：忠是尽己之心（正己），恕是推己及人（达人），二者一体两面，构成儒家伦理实践的一贯之道，也为理解孔子思想体系提供了最简洁的钥匙。",
+      "definition_en": "'My Way is bound together with one thread': Confucius gave this teaching to Zengzi, who summed it up as 'loyalty and reciprocity alone.' Zhong (loyalty) is fulfilling one's own heart; shu (reciprocity) is extending oneself to others. Two sides of one body, together they form the consistent way of Confucian ethical practice — the simplest key to the Master's thought.",
+      "source_chapter": "《论语·里仁》",
+      "key_concepts": [
+        "一以贯之",
+        "忠恕",
+        "尽己推己",
+        "正己达人",
+        "仁之方"
+      ],
+      "process_zh": [
+        "以忠道尽己之心，做到真诚无欺",
+        "以恕道推己及人，理解包容他人",
+        "在忠与恕的辩证统一中把握儒家核心精神",
+        "将一贯之道贯彻于一切伦理实践中"
+      ],
+      "process_en": [
+        "Practice loyalty (zhong) by fully exerting one's own heart with sincerity",
+        "Practice reciprocity (shu) by extending oneself to others with understanding",
+        "Grasp the Confucian core in the dialectical unity of zhong and shu",
+        "Carry the single thread through all ethical practice"
+      ],
+      "key_quote_zh": "子曰：『参乎！吾道一以贯之。』曾子曰：『唯。』子出，门人问曰：『何谓也？』曾子曰：『夫子之道，忠恕而已矣。』（《论语·里仁》）",
+      "key_quote_en": "'Shen, my Way is bound together with one thread.' The Master went out, and the other disciples asked, 'What does he mean?' Zengzi said, 'The Master's Way is nothing but loyalty and reciprocity.' (Analects, Li Ren)",
+      "representative_cases_zh": [
+        "《论语·里仁》记孔子呼『参乎！吾道一以贯之』，曾子答『唯』；出而告门人『夫子之道，忠恕而已矣』——一问一答间以忠恕两点概括一贯之道（含对话全段核验）",
+        "『尽己之谓忠，推己之谓恕』（朱熹《论语集注》）为宋代注疏的经典界定；定稿已将该句标注为注疏语，不与曾子原语混同"
+      ],
+      "representative_cases_en": [
+        "In the Analects (Li Ren) Confucius calls, 'Shen, my Way is one thread running through it'; Zengzi answers 'Yes'; questioned by the disciples he explains, 'the Master's Way is simply loyalty and reciprocity' — the whole dialogue verified",
+        "'Exerting oneself to the utmost is zhong; extending oneself to others is shu' (Zhu Xi's Collected Commentaries) is the classic Song-dynasty gloss; the final text flags it as commentary language, not Zengzi's own words"
+      ],
+      "modern_applications_zh": [
+        "人际关系处理",
+        "组织信任建设",
+        "冲突化解策略",
+        "领导力的真诚维度"
+      ],
+      "modern_applications_en": [
+        "Interpersonal relationship handling",
+        "Building trust in organizations",
+        "Conflict resolution strategy",
+        "The sincerity dimension of leadership"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-002",
+        "M-ZX-006"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "定义中『忠＝尽己之心、恕＝推己及人』的训释本于朱熹《论语集注》『尽己之谓忠，推己之谓恕』（并见《中庸》『忠恕违道不远，施诸己而不愿，亦勿施于人』），属宋代注疏语，非先秦原文，此处按注疏惯例标明。",
+      "attribution_note_en": "The gloss 'loyalty = fulfilling one's own heart; reciprocity = extending oneself to others' follows Zhu Xi's Analects commentary ('fulfilling oneself is called zhong; extending oneself is called shu'), a Song-dynasty gloss rather than pre-Qin wording; it is flagged here as commentary.",
+      "verification": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "以忠道尽己之心，做到真诚无欺",
+        "以恕道推己及人，理解包容他人",
+        "在忠与恕的辩证统一中把握儒家核心精神",
+        "将一贯之道贯彻于一切伦理实践中"
+      ],
+      "modern_applications": [
+        "人际关系处理",
+        "组织信任建设",
+        "冲突化解策略",
+        "领导力的真诚维度"
+      ]
+    },
+    {
+      "id": "M-ZX-005",
+      "mode_code": "M-ZX-005",
+      "research_mode_id": "M234",
+      "name_zh": "自省改过法",
+      "name_en": "Self-Reflection and Error-Correction Method (Zi-Sheng)",
+      "category": "工夫论",
+      "domain_zh": "修身工夫/日常自省",
+      "domain_en": "Self-Cultivation / Daily Self-Examination",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "『吾日三省吾身』——曾子创立的制度化自省方法：每日从忠（为人谋是否尽心）、信（与朋友交是否诚信）、习（所传之学是否躬行）三个维度检视自身，发现偏差即行纠正，把道德修养从偶然的顿悟转化为日常的习惯性训练，是儒家修身工夫的核心机制。",
+      "definition_en": "'Each day I examine myself on three counts': the systematic self-examination Zengzi instituted — checking daily three dimensions: loyalty (in serving others), trustworthiness (with friends), and practice (whether what was passed on is practiced). Deviations are corrected as found, turning moral cultivation from occasional insight into daily habit: the core mechanism of Confucian self-cultivation.",
+      "source_chapter": "《论语·学而》",
+      "key_concepts": [
+        "三省吾身",
+        "忠信习",
+        "内自省",
+        "改过迁善",
+        "日常自省"
+      ],
+      "process_zh": [
+        "建立日常自省的习惯和框架",
+        "从忠（对人）、信（交友）、习（学问）三个维度检视自身",
+        "发现偏差后及时纠正并调整行为",
+        "通过持续自省实现道德境界的阶梯式提升"
+      ],
+      "process_en": [
+        "Establish a daily habit and framework of self-examination",
+        "Examine oneself on three counts: loyalty in serving others, trustworthiness with friends, practice of what one teaches",
+        "Correct deviations promptly and adjust behavior",
+        "Climb the ladder of moral cultivation through sustained self-reflection"
+      ],
+      "key_quote_zh": "曾子曰：『吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？』（《论语·学而》）",
+      "key_quote_en": "'Each day I examine myself on three counts: in planning for others, have I been unfaithful? In intercourse with friends, have I been untrustworthy? Have I failed to practice what was passed down to me?' (Analects, Xue Er)",
+      "representative_cases_zh": [
+        "《论语·学而》曾子自述『吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？』——把自省固定为每日三问的例行功课（引文逐字核验，无归属争议）",
+        "『三省』旧注有两解：朱熹《集注》以忠、信、习『三事』解（与曾子三问相应），另一解为『三次』；定稿从『三事』说并在 verification.note 记录"
+      ],
+      "representative_cases_en": [
+        "In the Analects (Xue Er) Zengzi says, 'I examine myself daily on three points: in serving others, have I been unfaithful? In dealings with friends, have I been untrustworthy? Have I practiced what I was taught?' — reflection fixed as a daily routine (quote verified)",
+        "'Three examinations' has two readings: Zhu Xi's commentary takes three matters (loyalty, trust, practice), matching Zengzi's three questions; the other reading is 'three times.' The final text follows the 'three matters' reading and records the alternative"
+      ],
+      "modern_applications_zh": [
+        "个人成长反思",
+        "绩效评估机制设计",
+        "团队文化建设",
+        "持续改进系统"
+      ],
+      "modern_applications_en": [
+        "Personal growth reflection",
+        "Performance review mechanism design",
+        "Team culture building",
+        "Continuous improvement systems"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-006",
+        "M-ZX-007"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "无归属争议：《论语·学而》该章明文系于曾子（『曾子曰』），非转述、非后人推定。",
+      "attribution_note_en": "No attribution dispute: the Xue Er chapter explicitly attributes the saying to Zengzi ('Zengzi said'), directly and not by later inference.",
+      "verification": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": "旧注对『三省』有『三事（忠、信、习）』与『三次』两解（朱熹《集注》以三事解，与曾子三问对应），本条从『三事』说。"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "建立日常自省的习惯和框架",
+        "从忠（对人）、信（交友）、习（学问）三个维度检视自身",
+        "发现偏差后及时纠正并调整行为",
+        "通过持续自省实现道德境界的阶梯式提升"
+      ],
+      "modern_applications": [
+        "个人成长反思",
+        "绩效评估机制设计",
+        "团队文化建设",
+        "持续改进系统"
+      ]
+    },
+    {
+      "id": "M-ZX-006",
+      "mode_code": "M-ZX-006",
+      "research_mode_id": "M235",
+      "name_zh": "士人担当法",
+      "name_en": "Scholar-Official Responsibility Method (Shi-Dan-Dang)",
+      "category": "志业伦理",
+      "domain_zh": "志业伦理/责任担当",
+      "domain_en": "Vocational Ethics / Responsibility",
+      "level": "重要",
+      "priority": 6,
+      "definition_zh": "『士不可以不弘毅，任重而道远』——曾子将士人的道德担当提升到极致：以推行仁道为终身使命，生命终结方可止息。这种把个人命运与天下大道紧扣的担当精神，成为后世士大夫的精神支柱与身份认同来源。",
+      "definition_en": "'A scholar cannot be without breadth of mind and vigorous endurance: his burden is heavy and his course is long.' Zengzi raised the scholar's moral charge to its utmost — making the promotion of humaneness a lifelong mission that ends only with death. This identification of personal destiny with the Way became the spiritual mainstay of later Chinese scholar-officials.",
+      "source_chapter": "《论语·泰伯》",
+      "key_concepts": [
+        "弘毅",
+        "任重道远",
+        "士人精神",
+        "仁以为己任",
+        "死而后已"
+      ],
+      "process_zh": [
+        "确立以天下道义为个人使命的宏大志向",
+        "认识责任的重大和道路的长远",
+        "在困境中坚持道义担当不后退",
+        "将个人价值与社会责任融为一体"
+      ],
+      "process_en": [
+        "Set a grand aspiration making the Way one's personal mission",
+        "Recognize the weight of the burden and the length of the road",
+        "Hold to one's ethical commitment without retreat under hardship",
+        "Fuse personal worth with social responsibility"
+      ],
+      "key_quote_zh": "曾子曰：『士不可以不弘毅，任重而道远。仁以为己任，不亦重乎？死而后已，不亦远乎？』（《论语·泰伯》）",
+      "key_quote_en": "'A scholar cannot be without breadth and resoluteness; his burden is heavy and his course long. Making humaneness his burden — is it not heavy? Ceasing only at death — is it not long?' (Analects, Tai Bo)",
+      "representative_cases_zh": [
+        "《论语·泰伯》『士不可以不弘毅，任重而道远。仁以为己任，不亦重乎？死而后已，不亦远乎？』——以终身践行仁道界定士的使命（引文逐字核验，无归属争议）",
+        "该章以『任重』对应『仁以为己任』、以『道远』对应『死而后已』，把责任与时间尺度一并立为标准，成为后世士人精神认同的经典出处"
+      ],
+      "representative_cases_en": [
+        "Analects (Tai Bo): 'The scholar cannot but be strong and resolute, for his burden is heavy and his road is long. To take humaneness as one's own burden — is it not heavy? To end only with death — is it not long?' — the scholar's mission defined by lifelong practice of ren (quote verified)",
+        "The chapter maps 'heavy burden' to 'taking ren as one's own' and 'long road' to 'ending only with death,' setting both weight and time-scale as the standard — a classic locus of scholar-official identity"
+      ],
+      "modern_applications_zh": [
+        "社会责任感培养",
+        "使命驱动型领导",
+        "公共知识分子角色定位",
+        "长期主义价值观"
+      ],
+      "modern_applications_en": [
+        "Cultivating social responsibility",
+        "Mission-driven leadership",
+        "Role definition of public intellectuals",
+        "Long-termist values"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-004",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "无归属争议：《论语·泰伯》该章明文系于曾子（『曾子曰』）。",
+      "attribution_note_en": "No attribution dispute: the Tai Bo chapter explicitly attributes the saying to Zengzi ('Zengzi said').",
+      "verification": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "确立以天下道义为个人使命的宏大志向",
+        "认识责任的重大和道路的长远",
+        "在困境中坚持道义担当不后退",
+        "将个人价值与社会责任融为一体"
+      ],
+      "modern_applications": [
+        "社会责任感培养",
+        "使命驱动型领导",
+        "公共知识分子角色定位",
+        "长期主义价值观"
+      ]
+    },
+    {
+      "id": "M-ZX-007",
+      "mode_code": "M-ZX-007",
+      "research_mode_id": "M236",
+      "name_zh": "临终大节法",
+      "name_en": "Final Integrity Method (Lin-Zhong)",
+      "category": "伦理学",
+      "domain_zh": "人格完整/生命伦理",
+      "domain_en": "Personal Integrity / Life Ethics",
+      "level": "重要",
+      "priority": 7,
+      "definition_zh": "『启予足，启予手』——曾子临终命弟子检视手足，以《诗》『战战兢兢，如临深渊，如履薄冰』自述一生守身之慎，以身体发肤的完好作为一生践行孝道的最终验证：『身体发肤，受之父母，不敢毁伤，孝之始也』（《孝经》）。将生命最后一刻的道德完整性视为最高价值，体现儒家对道德完整与人格尊严的极致追求（曾子易箦之事，见《礼记·檀弓上》，则为临终守礼的另一证例）。",
+      "definition_en": "'Open my feet; open my hands.' On his deathbed Zengzi had his disciples inspect his body, quoting the Odes ('trembling and fearful, as if on the brink of a deep abyss, as if treading on thin ice') to describe a lifetime of careful keeping — the intactness of body and hair being the final proof of a life of filial piety ('the body, hair and skin are received from parents; not daring to injure them is the beginning of filial piety'). To treat moral integrity at the very end as the highest value is the Confucian pursuit of completeness and dignity in extremis. (Zengzi's changing of his mat, recorded in the Liji, Tan Gong, offers a further example of ritual care at death.)",
+      "source_chapter": "《论语·泰伯》；《孝经·开宗明义章》；补充：《礼记·檀弓上》",
+      "key_concepts": [
+        "战战兢兢",
+        "如临深渊",
+        "如履薄冰",
+        "身体发肤",
+        "临终守身"
+      ],
+      "process_zh": [
+        "将生命全程视为对道德责任的践行",
+        "在生命的每个阶段保持谨慎敬畏的态度",
+        "以最终的道德完整性为人生画上句号",
+        "将『不敢毁伤』扩展为对一切道德承诺的坚守"
+      ],
+      "process_en": [
+        "Treat the whole of life as the practice of a moral commitment",
+        "Keep a cautious, reverent attitude at every stage of life",
+        "Close one's life with final moral integrity intact",
+        "Extend 'not daring to injure' to every moral pledge"
+      ],
+      "key_quote_zh": "曾子有疾，召门弟子曰：『启予足！启予手！《诗》云：战战兢兢，如临深渊，如履薄冰。而今而后，吾知免夫！小子！』（《论语·泰伯》）／身体发肤，受之父母，不敢毁伤，孝之始也。（《孝经·开宗明义章》）",
+      "key_quote_en": "'Zengzi being ill, he called his disciples: Open my feet; open my hands. The Odes say: Trembling and fearful, as if on the brink of a deep abyss, as if treading on thin ice. From now on I know I am spared, my children!' (Analects, Tai Bo) / 'Our bodies — to every hair and bit of skin — are received from our parents, and we must not presume to injure them: this is the beginning of filial piety.' (Classic of Filial Piety, ch. 1)",
+      "representative_cases_zh": [
+        "《论语·泰伯》曾子临终召门弟子『启予足！启予手！』并引《诗》『战战兢兢，如临深渊，如履薄冰』，以守身完好自证一生谨慎（引文逐字核验）",
+        "《礼记·檀弓上》『曾子易箦』：临终坚持换掉不合礼制的席子，守礼至最后一刻；定稿将出处补全为《论语·泰伯》＋《孝经·开宗明义章》并补此证例"
+      ],
+      "representative_cases_en": [
+        "Analects (Tai Bo): on his deathbed Zengzi has his disciples inspect his hands and feet, quoting the Odes — 'trembling with caution, as if on the brink of a deep abyss, as if treading on thin ice' — proving a lifetime's care (quote verified)",
+        "The Liji (Tangong I) tells 'Zengzi changes his mat': dying, he insists on replacing a mat that does not accord with ritual, keeping propriety to the last moment; the final text completed the sources (Analects, Classic of Filial Piety) and added this example"
+      ],
+      "modern_applications_zh": [
+        "职业伦理终身坚持",
+        "人生规划与目标管理",
+        "诚信档案建设",
+        "声誉风险管理"
+      ],
+      "modern_applications_en": [
+        "Lifelong adherence to professional ethics",
+        "Life planning and goal management",
+        "Integrity record systems",
+        "Reputation risk management"
+      ],
+      "related_modes": [
+        "M-ZX-001",
+        "M-ZX-005",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "『身体发肤，受之父母』为《孝经·开宗明义章》孔子告曾子之语，其归属争议同 M-ZX-003；『曾子易箦』见《礼记·檀弓上》，属后出记载，仅作补充例证。",
+      "attribution_note_en": "'Body, hair and skin received from parents' are words of Confucius to Zengzi in the Classic of Filial Piety (attribution disputed as in M-ZX-003); the 'changing of the mat' story is recorded in the Liji, Tan Gong, and is used here only as supplementary evidence.",
+      "verification": {
+        "status": "source-verified-corrected",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "将生命全程视为对道德责任的践行",
+        "在生命的每个阶段保持谨慎敬畏的态度",
+        "以最终的道德完整性为人生画上句号",
+        "将『不敢毁伤』扩展为对一切道德承诺的坚守"
+      ],
+      "modern_applications": [
+        "职业伦理终身坚持",
+        "人生规划与目标管理",
+        "诚信档案建设",
+        "声誉风险管理"
+      ],
+      "correction_zh": "出处补全：旧稿 source_chapter 仅记《论语·泰伯》，而定义并引《孝经》『身体发肤』语，出处不完整；定稿并列两处出处并补《礼记·檀弓上》证例。"
+    },
+    {
+      "id": "M-ZX-008",
+      "mode_code": "M-ZX-008",
+      "research_mode_id": "M237",
+      "name_zh": "内圣外王贯通法",
+      "name_en": "Inner Sage Outer King Integration Method",
+      "category": "实践哲学",
+      "domain_zh": "内圣外王/政治哲学",
+      "domain_en": "Inner Sage & Outer King / Political Philosophy",
+      "level": "重要",
+      "priority": 8,
+      "definition_zh": "『可以托六尺之孤，可以寄百里之命，临大节而不可夺也』——曾子以此界定真正的君子：在重大关头怀抱不可动摇的道德定力。此条把内在修养（诚意正心）与外在事功（治国平天下）贯通为一，是《大学》八目结构的人格化表达，也是后世儒家政治哲学的核心范式。",
+      "definition_en": "'One who can be entrusted with the orphan of a young state, whose authority can be trusted with the command of a hundred li, whose character cannot be shaken when facing great crises' — Zengzi's definition of the true gentleman: unshakable moral firmness at the decisive moment. The mode binds inner cultivation (sincere will, rectified mind) to outer achievement (governing the state, pacifying the world): the Eight Steps of the Great Learning rendered as character, and a core paradigm of later Confucian political philosophy.",
+      "source_chapter": "《论语·泰伯》；《大学》",
+      "key_concepts": [
+        "托孤寄命",
+        "临大节不可夺",
+        "内圣外王",
+        "诚意正心",
+        "道义定力"
+      ],
+      "process_zh": [
+        "通过内省修养建立不可动摇的道德根基",
+        "将内在德性转化为外在治理能力",
+        "在重大危机和抉择面前保持道义定力",
+        "通过传承将个人修养扩展为制度化的教化体系"
+      ],
+      "process_en": [
+        "Build an unshakable moral foundation through inner cultivation",
+        "Convert inner virtue into the capacity for outward governance",
+        "Keep ethical resolve at moments of great crisis and choice",
+        "Extend personal cultivation into institutionalized edification through transmission"
+      ],
+      "key_quote_zh": "曾子曰：『可以托六尺之孤，可以寄百里之命，临大节而不可夺也。君子人与？君子人也。』（《论语·泰伯》）",
+      "key_quote_en": "'One who can be entrusted with the orphan of a young state, whose authority can be trusted with the command of a hundred li — when facing great crises his character cannot be shaken. Is he a gentleman? He is a gentleman.' (Analects, Tai Bo)",
+      "representative_cases_zh": [
+        "《论语·泰伯》曾子以『可以托六尺之孤，可以寄百里之命，临大节而不可夺也』界定君子——大节关头不可夺其志（引文逐字核验）",
+        "《大学》八目把诚意正心（内）与治国平天下（外）连为一条路径，此条即其人格化表达；定稿已标注『内圣外王』语出《庄子·天下篇》，属后世概括"
+      ],
+      "representative_cases_en": [
+        "Analects (Tai Bo): Zengzi defines the gentleman as one 'to whom one can entrust an orphan of six cubits, and the command of a hundred li, whom no great crisis can shake' (quote verified)",
+        "The Great Learning's eight steps link sincerity and rectified mind (inner) with governing the state and pacifying the world (outer); this mode personifies that structure. The final text notes that 'inner sage, outer king' comes from Zhuangzi and is a later summary"
+      ],
+      "modern_applications_zh": [
+        "危机领导力",
+        "制度建设与传承",
+        "核心价值观培育",
+        "组织文化塑造"
+      ],
+      "modern_applications_en": [
+        "Crisis leadership",
+        "Institution building and transmission",
+        "Cultivating core values",
+        "Organizational culture shaping"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-006",
+        "M-ZX-007"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "术语注意：『内圣外王』语出《庄子·天下篇》『是故内圣外王之道，闇而不明，郁而不发』，非曾子原语，亦非先秦儒家自用语汇，系后世（尤其宋明理学）对儒家修养—事功结构的概括；本条以之命名而须标注来源，避免误植为曾子原创术语。",
+      "attribution_note_en": "Terminological note: 'inner sage, outer king' comes from the Zhuangzi (Tian Xia): 'Thus the way of the inner sage and outer king was obscured and not illuminated.' It is neither Zengzi's phrase nor native Confucian vocabulary, but a later (especially Neo-Confucian) shorthand; the name is retained but its provenance is flagged.",
+      "verification": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": "旧稿 key_concepts 含『道统传承』与本条论证无关，已移入 M-ZX-010；旧稿 related_modes 指向 M236（临终大节）之外的相关链条已按新号重建。"
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "通过内省修养建立不可动摇的道德根基",
+        "将内在德性转化为外在治理能力",
+        "在重大危机和抉择面前保持道义定力",
+        "通过传承将个人修养扩展为制度化的教化体系"
+      ],
+      "modern_applications": [
+        "危机领导力",
+        "制度建设与传承",
+        "核心价值观培育",
+        "组织文化塑造"
+      ]
+    },
+    {
+      "id": "M-ZX-009",
+      "mode_code": "M-ZX-009",
+      "research_mode_id": "M238",
+      "name_zh": "民本教化法",
+      "name_en": "People-Centered Education Method (Min-Ben-Jiao-Hua)",
+      "category": "政治哲学",
+      "domain_zh": "教化论/治理哲学",
+      "domain_en": "Theory of Edification / Governance Philosophy",
+      "level": "重要",
+      "priority": 9,
+      "definition_zh": "『先王见教之可以化民也』——《孝经·三才章》载孔子之言：古之圣王以博爱、德义、敬让、礼乐、好恶五事为先导，以教化而非刑威化民成俗，故『其教不肃而成，其政不严而治』。此条将家庭伦理（孝）推广为社会政治秩序的基础，以道德教化置于刑罚之前，是儒家『以德治国』的经典表述（曾子一系所传《孝经》为其文献载体）。",
+      "definition_en": "'The former kings saw that teaching could transform the people' — words of Confucius recorded in the Classic of Filial Piety (ch. 3, 'Three Powers'): the ancient kings led with love, righteousness, deference, ritual and music, and clear likes and dislikes; transformation came by teaching rather than by punishment, so that 'their teaching was accomplished without severity, their government ordered without harshness.' Family ethics (filial piety) is extended into the basis of social and political order — the classic statement of Confucian 'rule by virtue,' carried in the Classic of Filial Piety transmitted by the Zengzi line.",
+      "source_chapter": "《孝经·三才章》",
+      "key_concepts": [
+        "以教代刑",
+        "化民成俗",
+        "先教后刑",
+        "其教不肃而成",
+        "以德治国"
+      ],
+      "process_zh": [
+        "将道德教化置于刑罚之前作为首要治理手段",
+        "通过孝道建立社会伦理基础",
+        "以榜样示范引导民风转变",
+        "在教化中实现自愿的社会秩序"
+      ],
+      "process_en": [
+        "Put moral edification before punishment as the primary means of governance",
+        "Build a social ethical foundation through filial piety",
+        "Guide popular custom by exemplary leadership",
+        "Achieve voluntary social order through edification"
+      ],
+      "key_quote_zh": "子曰：『……先王见教之可以化民也，是故先之以博爱，而民莫遗其亲；陈之以德义，而民兴行；先之以敬让，而民不争；导之以礼乐，而民和睦；示之以好恶，而民知禁。』（《孝经·三才章》）",
+      "key_quote_en": "'…The former kings saw that teaching could transform the people: therefore they set love first, and none neglected their parents; they set forth righteousness, and the people rose to practice it; they set deference first, and the people did not contend; they guided with ritual and music, and the people were harmonious; they showed what to love and hate, and the people knew their prohibitions.' (Classic of Filial Piety, ch. 3)",
+      "representative_cases_zh": [
+        "《孝经·三才章》载孔子答曾子『甚哉，孝之大也』之问：『先王见教之可以化民也，是故先之以博爱……示之以好恶，而民知禁』——以五事为先导，教成而政治（定稿替换旧伪句后逐字核验）",
+        "同章『其教不肃而成，其政不严而治』二句为原文表述（定稿据此改写定义与关键概念，废去今人概括『不刑而治』；旧伪句已作废并留证）"
+      ],
+      "representative_cases_en": [
+        "Classic of Filial Piety (San Cai): answering Zengzi's question 'how great is filial piety,' Confucius says the ancient kings saw that teaching could transform the people and led with universal love ... and 'showed them likes and dislikes, and the people knew their prohibitions' (verified after replacing a fabricated sentence)",
+        "The same chapter's 'its teaching succeeds without severity, its government rules without harshness' is the original wording on which the final text rewrote the definition and key concepts; the old fabricated sentence is voided and documented"
+      ],
+      "modern_applications_zh": [
+        "社会治理创新",
+        "公共政策伦理维度",
+        "公民道德建设",
+        "非强制性管理策略"
+      ],
+      "modern_applications_en": [
+        "Social governance innovation",
+        "Ethical dimension of public policy",
+        "Civic morality building",
+        "Non-coercive management strategies"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-003",
+        "M-ZX-008"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "引文出自《孝经·三才章》孔子之言（曾子问『甚哉，孝之大也』而孔子答），《孝经》归属争议同 M-ZX-003。",
+      "attribution_note_en": "The quotation is Confucius's answer to Zengzi in the Classic of Filial Piety; attribution of the book as a whole is disputed as in M-ZX-003.",
+      "verification": {
+        "status": "corrected-fabricated-quote",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "将道德教化置于刑罚之前作为首要治理手段",
+        "通过孝道建立社会伦理基础",
+        "以榜样示范引导民风转变",
+        "在教化中实现自愿的社会秩序"
+      ],
+      "modern_applications": [
+        "社会治理创新",
+        "公共政策伦理维度",
+        "公民道德建设",
+        "非强制性管理策略"
+      ],
+      "correction_zh": "重大修正：旧稿引文『君子所乎民者，则民亦如是乎』遍检《孝经》全文及先秦文献无此句（联网整句检索 0 命中），判定为伪造/讹变引文，已替换为《孝经·三才章》原文；出处由笼统『《孝经》』精确至『《孝经·三才章》』；『不刑而治』系今人概括，原文作『其教不肃而成，其政不严而治』，定义与关键概念已按原文改写。"
+    },
+    {
+      "id": "M-ZX-010",
+      "mode_code": "M-ZX-010",
+      "research_mode_id": "M239",
+      "name_zh": "道统传承法",
+      "name_en": "Dao-School Transmission Method (Dao-Tong)",
+      "category": "传承论",
+      "domain_zh": "道统传承/学术谱系",
+      "domain_en": "Dao-Tradition Transmission / Intellectual Lineage",
+      "level": "重要",
+      "priority": 10,
+      "definition_zh": "『君子所贵乎道者三』——曾子临终对孟敬子的告诫：动容貌、正颜色、出辞气三事，是君子守道之要（『鸟之将死，其鸣也哀；人之将死，其言也善』）。此条概括曾子作为孔门『传道者』的角色：不仅忠实承受孔子之教（『吾道一以贯之』），且以可传授的工夫与临终的教言把斯文托付后学；后世（唐宋以来）以『孔子—曾子—子思—孟子』为道统谱系，曾子居承上启下之枢。",
+      "definition_en": "'There are three things the gentleman values in the Way' — Zengzi's deathbed charge to Meng Jingzi: composure of demeanor, sincerity of countenance, and care of speech and tone ('when a bird is about to die, its song is mournful; when a man is about to die, his words are good'). The mode captures Zengzi as the Confucian tradition's transmitter: faithfully receiving the Master's teaching ('my Way is one thread') and handing the cultural heritage on through transmissible practice and a final charge. From Tang-Song times the lineage 'Confucius–Zengzi–Zisi–Mencius' was enshrined as the orthodox transmission, with Zengzi as its hinge.",
+      "source_chapter": "《论语·泰伯》",
+      "key_concepts": [
+        "道之三贵",
+        "文脉传续",
+        "临终教言",
+        "思孟学派",
+        "士人使命"
+      ],
+      "process_zh": [
+        "准确理解并概括核心思想精髓",
+        "建立可传承的教学体系和工夫论框架",
+        "通过弟子一代代传递道统血脉",
+        "在传承中保持核心精神的纯正性"
+      ],
+      "process_en": [
+        "Accurately grasp and summarize the essence of core thought",
+        "Build a transmissible teaching system and framework of practice",
+        "Pass the lineage on through generations of disciples",
+        "Preserve the purity of the core spirit in transmission"
+      ],
+      "key_quote_zh": "曾子有疾，孟敬子问之。曾子言曰：『鸟之将死，其鸣也哀；人之将死，其言也善。君子所贵乎道者三：动容貌，斯远暴慢矣；正颜色，斯近信矣；出辞气，斯远鄙倍矣。笾豆之事，则有司存。』（《论语·泰伯》）",
+      "key_quote_en": "'Zengzi being ill, Meng Jingzi came to ask after him. Zengzi said: When a bird is about to die, its song is mournful; when a man is about to die, his words are good. There are three things the gentleman values in the Way: in demeanor, to keep far from violence and arrogance; in countenance, to keep near to sincerity; in speech and tone, to keep far from meanness and perversity. As for the sacrificial vessels, there are officers for those.' (Analects, Tai Bo)",
+      "representative_cases_zh": [
+        "《论语·泰伯》曾子临终告孟敬子『君子所贵乎道者三：动容貌、正颜色、出辞气』——以可传授的工夫与临终教言把斯文托付后学（定稿替换旧误引《子罕》章孔子语）",
+        "后世以『孔子—曾子—子思—孟子』为道统谱系（韩愈《原道》首倡、朱熹《中庸章句序》定型）；可考者为《史记》载孔子之孙孔伋（子思）与孟子『受业子思之门人』，曾子与子思的直接师承为后世推定，已作归属标注"
+      ],
+      "representative_cases_en": [
+        "Analects (Tai Bo): dying, Zengzi charges Meng Jingzi that 'the gentleman values three things in the Way: demeanor, countenance, and speech' — entrusting the tradition through transmissible practice and last words (replacing an earlier misattributed quote from Confucius in the Zi Han chapter)",
+        "Later ages formed the lineage 'Confucius-Zengzi-Zisi-Mencius' (initiated by Han Yu's Yuan Dao, fixed by Zhu Xi's preface to the Doctrine of the Mean); documented facts are the Shiji's record of Confucius's grandson Kong Ji (Zisi) and that Mencius 'studied under Zisi's disciples' — a direct Zengzi-to-Zisi link is a later inference and is flagged as such"
+      ],
+      "modern_applications_zh": [
+        "知识传承与教育体系设计",
+        "组织文化代际传递",
+        "学术传统的延续与创新",
+        "文化遗产保护与传承"
+      ],
+      "modern_applications_en": [
+        "Knowledge transmission and education system design",
+        "Intergenerational transmission of organizational culture",
+        "Continuity and innovation of scholarly traditions",
+        "Cultural heritage preservation"
+      ],
+      "related_modes": [
+        "M-ZX-002",
+        "M-ZX-004",
+        "M-ZX-006"
+      ],
+      "figure_code": "H-ZX-001",
+      "figure_name": "曾子",
+      "attribution_note_zh": "『道统』为唐宋建构的概念（韩愈《原道》首倡、朱熹《中庸章句序》定型），『孔子—曾子—子思—孟子』谱系属该叙事：可考者为《史记·孔子世家》载孔子之孙孔伋（子思），《史记·孟子荀卿列传》载孟子『受业子思之门人』（非亲授）；曾子与子思的直接师承为后世推定，本卡不作实证断言。",
+      "attribution_note_en": "'Dao-tong' (the orthodox transmission) is a Tang-Song construct (Han Yu's Yuan Dao; Zhu Xi's preface to the Doctrine of the Mean). What is documented: the Shiji records Confucius's grandson Kong Ji (Zisi) and that Mencius 'studied under the disciples of Zisi' (not directly); a direct Zengzi-to-Zisi master-disciple link is a later inference and is not asserted here as fact.",
+      "verification": {
+        "status": "corrected-misattribution",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "legacy_field_aliases": {
+        "process": "同 process_zh，兼容父卡验收脚本口径",
+        "modern_applications": "同 modern_applications_zh，兼容父卡验收脚本口径"
+      },
+      "process": [
+        "准确理解并概括核心思想精髓",
+        "建立可传承的教学体系和工夫论框架",
+        "通过弟子一代代传递道统血脉",
+        "在传承中保持核心精神的纯正性"
+      ],
+      "modern_applications": [
+        "知识传承与教育体系设计",
+        "组织文化代际传递",
+        "学术传统的延续与创新",
+        "文化遗产保护与传承"
+      ],
+      "correction_zh": "重大修正：旧稿引文『天之未丧斯文也，匡人其如予何』出自《论语·子罕》『子畏于匡』章，系孔子之言而非曾子语（误引），已替换为曾子本人临终传道之语（《论语·泰伯》告孟敬子『君子所贵乎道者三』）；旧稿『通过弟子传给了曾申、曾元、曾西，再通过子思传给孟子』的紧密师承链缺乏早期文献依据，已改为审慎表述。"
+    }
+  ],
+  "modes_ref": [
+    "M-ZX-001",
+    "M-ZX-002",
+    "M-ZX-003",
+    "M-ZX-004",
+    "M-ZX-005",
+    "M-ZX-006",
+    "M-ZX-007",
+    "M-ZX-008",
+    "M-ZX-009",
+    "M-ZX-010"
+  ],
+  "phase20_note": "Phase 20R 补做，卡号 t_4a9c2c2e；10 条 v6 模式定稿 M-ZX-001~010，research_mode_id 保留 M230~M239 溯源。本文件由落地卡新建，为模式字段正本；主库 modes_data.json 的 H-ZX-001 块 rebase 由合并卡 t_16ebe5c9 执行。"
+}

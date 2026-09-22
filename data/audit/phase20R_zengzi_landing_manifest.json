@@ -1,0 +1,316 @@
+{
+  "_meta": {
+    "artifact": "Phase20R Zengzi landing manifest and fingerprints",
+    "card": "t_4a9c2c2e (elcano)",
+    "upstream_research_card": "t_6c92966b",
+    "generated_on": "2026-09-22",
+    "downstream_merge_card": "t_16ebe5c9"
+  },
+  "figure_code": "H-ZX-001",
+  "artifacts": [
+    {
+      "path": "data/figures/H-ZX-001.json",
+      "role": "figure doc v6 (canonical)",
+      "sha256": "11a14e349c2281906bbaee4ab2b6567d185ed55f1abbfe056bfe3ee96d6a9a9c",
+      "bytes": 90525,
+      "sha256_prev_phase20R_landing": "ba2ad769f5ba7eefc1f1ee2198accbe42335a0939f87d439e9868257e08161b3"
+    },
+    {
+      "path": "data/individuals/H-ZX-001.json",
+      "role": "figure doc mirror (individuals layer)",
+      "sha256": "ba2ad769f5ba7eefc1f1ee2198accbe42335a0939f87d439e9868257e08161b3",
+      "bytes": 91153
+    },
+    {
+      "path": "docs/figures/H-ZX-001.json",
+      "role": "figure doc mirror (docs layer)",
+      "sha256": "ba2ad769f5ba7eefc1f1ee2198accbe42335a0939f87d439e9868257e08161b3",
+      "bytes": 91153
+    },
+    {
+      "path": "data/individuals/H-ZX-001_modes.json",
+      "role": "v6 mode records (merge-card input)",
+      "sha256": "d5f43a4a3ed49289022cfb2088f92d93135724fcf0b0775893310c4660cccf63",
+      "bytes": 124009,
+      "sha256_prev_phase20R_landing": "27d8f5c6bad40de902327b6fd0c00643f03abfd899db4a062752b7f10440bb0b"
+    },
+    {
+      "path": "data/figures/H-ZX-001_modes.json",
+      "role": "companion package v6-aligned",
+      "sha256": "e7ef1159f95369dc042691b10d8d2e2fed6616c7edfb0fc16af34781b5f28c54",
+      "bytes": 70277,
+      "sha256_prev_phase20R_landing": "b3935360534e8201011b954fa159b755f144feb00711646c6e18a671f1e5f9fc"
+    },
+    {
+      "path": "docs/figures/H-ZX-001.md",
+      "role": "finalized archive page (generated)",
+      "sha256": "ba36b50b1ad72c227edc3f179f1eb344106e2151142601880f602fb7b83e1689",
+      "bytes": 31820
+    },
+    {
+      "path": "scenarios_zh_add.json",
+      "role": "re-coded scenario staging zh (C-ZX-001~010)",
+      "sha256": "3c69117d37e474e6b8820513e32743a6758ba1ab326d28cd0886c0da31971d8d",
+      "bytes": 11351
+    },
+    {
+      "path": "scenarios_en_add.json",
+      "role": "re-coded scenario staging en (C-ZX-001E~010E)",
+      "sha256": "4fd93f7b9643eebcfbd5fa85bd37f6bc117bba896e8a162c4004bc20d6beff75",
+      "bytes": 11361
+    },
+    {
+      "path": "data/figure_names.json",
+      "role": "key registry (H-ZS-001 removed)",
+      "sha256": "417e3b2821623ffacc7dee3d4dfe7d9725c87d78b8c71ecabee28301eeb2fcb4",
+      "bytes": 31125
+    }
+  ],
+  "mirrors": {
+    "sha256": "11a14e349c2281906bbaee4ab2b6567d185ed55f1abbfe056bfe3ee96d6a9a9c",
+    "paths": [
+      "data/figures/H-ZX-001.json",
+      "data/individuals/H-ZX-001.json",
+      "docs/figures/H-ZX-001.json"
+    ],
+    "identical": true
+  },
+  "quarantine": [
+    {
+      "src": "data/individuals/H-ZS-001.json",
+      "quarantine": "data/figures/_duplicates/H-ZS-001_genf_individuals.json",
+      "sha256": "0a5de88c16358ffb403f04dbfe390e4c28ccb5f8711585a5d46b1b4d93ea8576",
+      "bytes": 2161,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "data/individuals/H-ZS-001_modes.json",
+      "quarantine": "data/figures/_duplicates/H-ZS-001_genf_individuals_modes.json",
+      "sha256": "58f637c1be1e52cf07fe9525cd77c710d3a47a80cb4975401f7f820b510d530e",
+      "bytes": 889,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "docs/figures/H-ZS-001.md",
+      "quarantine": "data/figures/_duplicates/H-ZS-001_genf_docs_page.md",
+      "sha256": "af7044fafd48286e237ca7d0d34ed44c25b9f152579ee702825d433053b6cbd9",
+      "bytes": 1802,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "docs/figures/H-ZX-001.md.bak_zengzi_fix",
+      "quarantine": "data/figures/_duplicates/H-ZX-001_legacy_docs_page.bak_zengzi_fix.md",
+      "sha256": "623d1c31e6f852ef21c46d8ba7a68536b219af65eb304ffc85f59a4b71d51c9e",
+      "bytes": 13156,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "H-ZX-001.json",
+      "quarantine": "data/figures/_duplicates/H-ZX-001_root_copy.json",
+      "sha256": "4f371d8c99bdf15db3e8fdf5dda5606ff14c6e1753afe8830e3b9c4eeb4f10c9",
+      "bytes": 24051,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "H-ZX-001_modes.json",
+      "quarantine": "data/figures/_duplicates/H-ZX-001_modes_root_copy.json",
+      "sha256": "546cc1b759cf035ea39f9b7925b9e62b15602f2db3b18ac95340fb34d3b9d5eb",
+      "bytes": 6305,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "docs/figures/H-ZX-001.md",
+      "quarantine": "data/figures/_duplicates/H-ZX-001_legacy_docs_page.md",
+      "sha256": "220dead2f89cc127c17a326d1ad49f1d166624b9224500440d621a7a855f4a18",
+      "bytes": 13205,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "tools/update_zengzi_db.py",
+      "quarantine": "data/figures/_duplicates/zengzi_legacy_scripts/update_zengzi_db.py",
+      "sha256": "2a88a03c3c2eec10ca0f2a107f8bacd16696bada8fc6a6c98fe3f031bf249a47",
+      "bytes": 3219,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "tools/verify_zengzi.py",
+      "quarantine": "data/figures/_duplicates/zengzi_legacy_scripts/verify_zengzi.py",
+      "sha256": "3252e20a2ecc6fa7a48f67c36fac714d12865906683d226a9d456ab986727b2a",
+      "bytes": 1468,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "verify_zengzi_data.py",
+      "quarantine": "data/figures/_duplicates/zengzi_legacy_scripts/verify_zengzi_data.py",
+      "sha256": "561b3eddd868b908dc7da8b8816a98b27d09adbac016a39716cef8ec23f70c99",
+      "bytes": 2296,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "check_zengzi.py",
+      "quarantine": "data/figures/_duplicates/zengzi_legacy_scripts/check_zengzi.py",
+      "sha256": "75cd6946aa156e62db99bbb21328b59f6e79f777001dfa6b933294ee12c5c932",
+      "bytes": 2230,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "scenarios_zh_add.json",
+      "quarantine": "data/figures/_duplicates/zengzi_genf_staging/scenarios_zh_add.json",
+      "sha256": "9a73077099ebab998c1ac854087fdd02f469de9049d617aea76ce4ea1c01432b",
+      "bytes": 584,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "scenarios_zh_new.json",
+      "quarantine": "data/figures/_duplicates/zengzi_genf_staging/scenarios_zh_new.json",
+      "sha256": "16bf7598a91ddeabf0efd33010c23d8927b07885b96a13f59a466c9571f66468",
+      "bytes": 586,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "scenarios_en_add.json",
+      "quarantine": "data/figures/_duplicates/zengzi_genf_staging/scenarios_en_add.json",
+      "sha256": "b4d7ba46079afecabceee5b5a75111f9e1a283f3f87b490d9a5b2a68ca9bfced",
+      "bytes": 656,
+      "git_mv_rc": 0,
+      "ok": true
+    },
+    {
+      "src": "verify_zengzi.py",
+      "quarantine": "data/figures/_duplicates/zengzi_legacy_scripts/verify_zengzi_root.py",
+      "sha256": "877b58fd9f5cf0086d40a1234c86ef5d018bea744e6b1a1f59992a9571227d45",
+      "bytes": 3100,
+      "git_mv_rc": 0,
+      "ok": true
+    }
+  ],
+  "figure_names": {
+    "removed_key": "H-ZS-001",
+    "removed_value": "Zengzi",
+    "count_before": 1099,
+    "count_after": 1098,
+    "kept": [
+      "H-ZX-001",
+      "H-ZX-001_modes",
+      "H-ZX-001_MODES"
+    ]
+  },
+  "not_written_by_this_card": [
+    "data/modes_data.json",
+    "data/code_maps.json",
+    "tools/json/code_maps.json",
+    "data/scenarios_zh.json",
+    "data/scenarios_en.json",
+    "data/scenario_tags.json",
+    "web/**"
+  ],
+  "record_only": [
+    {
+      "item": "web/public/data/figures/H-ZZ-166.json / H-ZZ-222.json",
+      "disposition": "other card (web layer takedown or remap)"
+    },
+    {
+      "item": "data/individuals/H-LJY-001_modes.json:478",
+      "disposition": "other card (H-ZX-001 misused as Zhu Xi; canonical H-ZHX-001)"
+    },
+    {
+      "item": "data/figures/H-PGR-001.json cross_references",
+      "disposition": "other card (verify)"
+    }
+  ],
+  "notes": [
+    "H-ZZ-166/222 kept as-is in code_maps; deprecated annotation suggested for the web card",
+    "verify_hzx_phase20R.py reference-surface whitelist updated by design after landing; only that assertion changed, other 30 untouched"
+  ],
+  "verification_restamp": {
+    "card": "t_ea3a32e5 (phase21-r4 greyzone 收尾)",
+    "restamped_on": "2026-09-22",
+    "reason": "Phase20R 定稿留证 status（quote-verified/source-verified-corrected/corrected-*）非站点四态口径，会令 export_static_site.py verification_counts SystemExit；按 Phase21-R4 卡 G3 以 tools/apply_verification_status.py --write 全库归一为 verified/pending/suspect/unverifiable，镜像随库同步以维持四面同体。",
+    "canonical_tool": "tools/apply_verification_status.py --write",
+    "affected_field": "verification",
+    "old_blocks": {
+      "M-ZX-001": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": "旧稿 key_concepts 含『不欺暗室』：该语为后世成语（汉·刘向《列女传·卫灵公夫人》述蘧伯玉事，唐·骆宾王《萤火赋》『入暗室而不欺』），不在《大学》《中庸》原文，已移除并在研究报告中标注。"
+      },
+      "M-ZX-002": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "M-ZX-003": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": "新增《大戴礼记·曾子大孝》原文比证（『孝有三：大孝尊亲，其次不辱，其下能养』『夫孝者，天下之大经也』『身者，亲之遗体也』），补强『孝道本体』的曾子文献依据。"
+      },
+      "M-ZX-004": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "M-ZX-005": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": "旧注对『三省』有『三事（忠、信、习）』与『三次』两解（朱熹《集注》以三事解，与曾子三问对应），本条从『三事』说。"
+      },
+      "M-ZX-006": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "M-ZX-007": {
+        "status": "source-verified-corrected",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "M-ZX-008": {
+        "status": "quote-verified",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": "旧稿 key_concepts 含『道统传承』与本条论证无关，已移入 M-ZX-010；旧稿 related_modes 指向 M236（临终大节）之外的相关链条已按新号重建。"
+      },
+      "M-ZX-009": {
+        "status": "corrected-fabricated-quote",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      },
+      "M-ZX-010": {
+        "status": "corrected-misattribution",
+        "checked_on": "2026-09-22",
+        "method": "逐条原文比对（ctext.org/维基文库/Wikidata 等公开底本）",
+        "note": ""
+      }
+    },
+    "old_mirror_sha256": "ba2ad769f5ba7eefc1f1ee2198accbe42335a0939f87d439e9868257e08161b3",
+    "new_mirror_sha256": "11a14e349c2281906bbaee4ab2b6567d185ed55f1abbfe056bfe3ee96d6a9a9c",
+    "old_manifest_mirrors_recorded": true,
+    "evidence": [
+      "data/audit/phase20R_zengzi_residual_inventory.json",
+      "docs/qa/phase20R_zengzi_qa_report.md §5.4",
+      "docs/qa/phase20R_zengzi_qa_evidence.txt §5"
+    ],
+    "note": "留证内容（逐条 note）在新状态中不保留于库；原始块全文存档于本段 old_blocks 与 QA 证据包，供溯源。"
+  }
+}

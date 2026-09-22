@@ -18,10 +18,10 @@
   ],
   "inputs": {
     "data/modes_data.json": {
-      "sha256": "d649f9736616c633f44a8987055c6b90c169cb62b326ef6eb9f065a008badc98",
-      "modes": 3142,
+      "sha256": "4a22a7e501fe72f4c686618f53eaf7f5e10b5cc7b6ce31f959694fdfb3000484",
+      "modes": 3162,
       "note": "sha256 为报告生成时刻的盘上文件（--write 走盘后回填）",
-      "bytes": 24205902
+      "bytes": 24297308
     },
     "data/source_links.json": {
       "sha256": "bfce3a5b222134a0e1564320a32b039e1a3076fa3d9a3ab6da6fe6fc6d5bb2d3",
@@ -30,25 +30,25 @@
       "distinct_urls": 164
     },
     "data/audit/findings.json": {
-      "sha256": "f591df7cd5efd9183aa272150fe702478c74e758599e93fc4ae266efb45fe870",
+      "sha256": "995fa043c38f9451fc503a375f7cdfb5c36431c9efd9459e986a29a5afc9f7e2",
       "d4_d5_modes": 51
     }
   },
   "counts": {
     "all": {
-      "verified": 915,
-      "pending": 1825,
+      "verified": 932,
+      "pending": 1828,
       "suspect": 51,
       "unverifiable": 351
     },
-    "all_total": 3142,
+    "all_total": 3162,
     "published": {
-      "verified": 915,
-      "pending": 1793,
+      "verified": 932,
+      "pending": 1796,
       "suspect": 34,
       "unverifiable": 340
     },
-    "published_total": 3082,
+    "published_total": 3102,
     "quarantined_total": 60
   },
   "cross_checks": {
@@ -56,9 +56,12 @@
     "verified_distinct_evidence_urls": 145
   },
   "changes_vs_library": {
-    "None -> pending": 164,
-    "None -> suspect": 10,
-    "None -> verified": 20,
+    "None -> verified": 10,
+    "corrected-fabricated-quote -> pending": 1,
+    "corrected-misattribution -> verified": 1,
+    "quote-verified -> pending": 2,
+    "quote-verified -> verified": 5,
+    "source-verified-corrected -> verified": 1,
     "verified -> pending": 72,
     "verified -> suspect": 1
   }

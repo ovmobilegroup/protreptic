@@ -1,0 +1,68 @@
+[Phase20R 曾子补做] 独立验收证据  —  研究卡 t_6c92966b（serrano）· 2026-09-22
+执行：`python3 verify_hzx_phase20R.py`（工作副本 /opt/data/workspace/Protreptic，第二执行路径；生成路径为 browser_exec）
+
+==============================================================================
+验收输出（复跑，31 项断言）
+==============================================================================
+sha256 data/figures/H-ZX-001.json 349e20deebcd31e380ddfa1e8d2d6dcf7898bcf280872177ac41ae3bd28bacf7
+sha256 data/figures/H-ZX-001_modes.json 549439c3a24f5a2098e07731dfeedae67a1b051a5026d84ad81b946bf5b8ded6
+sha256 data/audit/phase20R_zengzi_residual_inventory.json 8c9523ce3842a0c0e917f330c0289534dcdc1be7164ee5db9dc63349ee7ca7d4
+sha256 data/audit/phase20R_zengzi_residual_scan.json 7c8efa4ea1310bd366a46ec7f34f1bab3247e80e73dde1e4462d3d0ca59410a1
+
+PASS | figure_code=H-ZX-001 | H-ZX-001
+PASS | 人物名=曾子 | 
+PASS | 10 条模式 | 10
+PASS | 模式ID=M-ZX-001~010 | M-ZX-001,M-ZX-002,M-ZX-003,M-ZX-004,M-ZX-005,M-ZX-006,M-ZX-007,M-ZX-008,M-ZX-009,M-ZX-010
+PASS | research_mode_id 溯源保留 | 
+PASS | mode_ids 与模式表一致 | 
+PASS | mode_id_mapping 全对（1:1 顺序） | {"M230": "M-ZX-001", "M231": "M-ZX-002", "M232": "M-ZX-003", "M233": "M-ZX-004", "M234": "M-ZX-005", "M235": "M-ZX-006", "M236": "M-ZX-007", "M237": "M-ZX-008", "M238": "M-ZX-009", "M239": "M-ZX-010"}
+PASS | 伴随包 core_modes 换新号 | ['M-ZX-001', 'M-ZX-002', 'M-ZX-003', 'M-ZX-004', 'M-ZX-005', 'M-ZX-006', 'M-ZX-007', 'M-ZX-008', 'M-ZX-009', 'M-ZX-010']
+PASS | 伴随包 mode_id_mapping 一致 | 
+PASS | 伴随包 mode_evidence 10 条含双号 | 
+PASS | 旧伪造引文不在定稿引文/定义中 | 
+PASS | 旧误引（子罕句）不在定稿引文/定义中 | 
+PASS | 旧伪文写入修正记录（留证） | 
+PASS | 旧误引写入修正记录（留证） | 
+PASS | M-ZX-009 原文到位（三才章） | 
+PASS | M-ZX-010 原文到位（泰伯·孟敬子章） | 
+PASS | M-ZX-007 出处补全（孝经+檀弓） | 
+PASS | wiki_id 修正为 Q1207671 | 
+PASS | Q562 仅存于修正记录 | 
+PASS | 不欺暗室不在 key_concepts | 
+PASS | 归属标注 6 条 | 6
+PASS | corrections_log ≥10 条 | 10
+PASS | 10 条模式关键引文逐字在位（23 串） | []
+PASS | 模式必备字段齐全（16 字段） | []
+PASS | related_modes 全为新号（无旧号残链） | 
+PASS | verification 逐条就位 | 
+PASS | 身份核验块就位（反混淆） | 
+PASS | 反混淆原始记录存在 | 
+PASS | 残留清单 31 项 | 
+PASS | 扫描原始件覆盖 H-ZS/H-ZX/H-ZZ 遗留 | 
+PASS | M-ZX-001 引用面=本卡产物集合 | []
+
+== RESULT: 31 PASS / 0 FAIL ==
+
+==============================================================================
+交付物指纹清单（sha256 全长 / 字节数）
+==============================================================================
+349e20deebcd31e380ddfa1e8d2d6dcf7898bcf280872177ac41ae3bd28bacf7    51648  data/figures/H-ZX-001.json
+549439c3a24f5a2098e07731dfeedae67a1b051a5026d84ad81b946bf5b8ded6     8412  data/figures/H-ZX-001_modes.json
+57289a6ba7a135144ba353674b83301fb39bd3b393b816e9c84dd7822351c47e    21624  docs/research/phase20_zengzi_research_final.md
+617b85d7532b90ff68322c4431315595e7360a9301e32ecd3c33f3f94a090833    13595  docs/research/phase20R_zengzi_residual_inventory.md
+e9d11d75ffeeda7f4fe04f0a4c08159f9a9d27d28f40ef6a3e826be9f46d34d1     3179  docs/research/phase20R_zengzi_identity_check.txt
+e73caaf40aaec8a546bb8726766a3b124b27d644b938e9950963a1dcbd239014     4208  docs/research/phase20R_zengzi_verification_evidence.txt
+8c9523ce3842a0c0e917f330c0289534dcdc1be7164ee5db9dc63349ee7ca7d4    13084  data/audit/phase20R_zengzi_residual_inventory.json
+7c8efa4ea1310bd366a46ec7f34f1bab3247e80e73dde1e4462d3d0ca59410a1    54590  data/audit/phase20R_zengzi_residual_scan.json
+0da9b4a4a4670d59e3da8bd314e61e542d5c55c9c65347b37be6d42515db2125     7131  verify_hzx_phase20R.py
+502df5b86e831b683632b9225d5e6e0b2768546975e6d1ca5b9be970ab8d38b2    24080  data/backup_phase20R_H-ZX-001_20260922_2021/H-ZX-001.json
+546cc1b759cf035ea39f9b7925b9e62b15602f2db3b18ac95340fb34d3b9d5eb     6305  data/backup_phase20R_H-ZX-001_20260922_2021/H-ZX-001_modes.json
+220dead2f89cc127c17a326d1ad49f1d166624b9224500440d621a7a855f4a18    13205  data/backup_phase20R_H-ZX-001_20260922_2021/H-ZX-001.md
+b4fe0c0f38ef6d91e0b244ac430cc95bc0179bfea2a18e3544c7dfeaa5d77d62    15521  data/backup_phase20R_H-ZX-001_20260922_2021/phase20_zengzi_research.md
+
+备份目录 data/backup_phase20R_H-ZX-001_20260922_2021/ 为**改前**快照（4 件，本卡写入前拷贝）：
+  改前备档 H-ZX-001.json  sha256(16)=502df5b86e831b68
+  改前备档 H-ZX-001.md  sha256(16)=220dead2f89cc127
+  改前备档 H-ZX-001_modes.json  sha256(16)=546cc1b759cf035e
+  改前备档 phase20_zengzi_research.md  sha256(16)=b4fe0c0f38ef6d91
+（该 4 件即本次修改前的工作副本原样；H-ZX-001.json / H-ZX-001_modes.json 的定稿新值见上表。）

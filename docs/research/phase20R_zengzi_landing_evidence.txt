@@ -1,0 +1,75 @@
+Phase20R Zengzi (H-ZX-001) landing evidence - card t_4a9c2c2e (elcano) - 2026-09-22T22:35:05.111906
+
+[1] upstream script verify_hzx_phase20R.py (reference-surface whitelist updated after landing)
+sha256 data/figures/H-ZX-001.json ba2ad769f5ba7eefc1f1ee2198accbe42335a0939f87d439e9868257e08161b3
+sha256 data/figures/H-ZX-001_modes.json b3935360534e8201011b954fa159b755f144feb00711646c6e18a671f1e5f9fc
+sha256 data/audit/phase20R_zengzi_residual_inventory.json 8c9523ce3842a0c0e917f330c0289534dcdc1be7164ee5db9dc63349ee7ca7d4
+sha256 data/audit/phase20R_zengzi_residual_scan.json 7c8efa4ea1310bd366a46ec7f34f1bab3247e80e73dde1e4462d3d0ca59410a1
+
+PASS | figure_code=H-ZX-001 | H-ZX-001
+PASS | 人物名=曾子 | 
+PASS | 10 条模式 | 10
+PASS | 模式ID=M-ZX-001~010 | M-ZX-001,M-ZX-002,M-ZX-003,M-ZX-004,M-ZX-005,M-ZX-006,M-ZX-007,M-ZX-008,M-ZX-009,M-ZX-010
+PASS | research_mode_id 溯源保留 | 
+PASS | mode_ids 与模式表一致 | 
+PASS | mode_id_mapping 全对（1:1 顺序） | {"M230": "M-ZX-001", "M231": "M-ZX-002", "M232": "M-ZX-003", "M233": "M-ZX-004", "M234": "M-ZX-005", "M235": "M-ZX-006", "M236": "M-ZX-007", "M237": "M-ZX-008", "M238": "M-ZX-009", "M239": "M-ZX-010"}
+PASS | 伴随包 core_modes 换新号 | ['M-ZX-001', 'M-ZX-002', 'M-ZX-003', 'M-ZX-004', 'M-ZX-005', 'M-ZX-006', 'M-ZX-007', 'M-ZX-008', 'M-ZX-009', 'M-ZX-010']
+PASS | 伴随包 mode_id_mapping 一致 | 
+PASS | 伴随包 mode_evidence 10 条含双号 | 
+PASS | 旧伪造引文不在定稿引文/定义中 | 
+PASS | 旧误引（子罕句）不在定稿引文/定义中 | 
+PASS | 旧伪文写入修正记录（留证） | 
+PASS | 旧误引写入修正记录（留证） | 
+PASS | M-ZX-009 原文到位（三才章） | 
+PASS | M-ZX-010 原文到位（泰伯·孟敬子章） | 
+PASS | M-ZX-007 出处补全（孝经+檀弓） | 
+PASS | wiki_id 修正为 Q1207671 | 
+PASS | Q562 仅存于修正记录 | 
+PASS | 不欺暗室不在 key_concepts | 
+PASS | 归属标注 6 条 | 6
+PASS | corrections_log ≥10 条 | 10
+PASS | 10 条模式关键引文逐字在位（23 串） | []
+PASS | 模式必备字段齐全（16 字段） | []
+PASS | related_modes 全为新号（无旧号残链） | 
+PASS | verification 逐条就位 | 
+PASS | 身份核验块就位（反混淆） | 
+PASS | 反混淆原始记录存在 | 
+PASS | 残留清单 31 项 | 
+PASS | 扫描原始件覆盖 H-ZS/H-ZX/H-ZZ 遗留 | 
+PASS | M-ZX-001 引用面=本卡产物集合(落地后: +落地产物) | []
+
+== RESULT: 31 PASS / 0 FAIL ==
+
+exit=0
+
+[2] landing script verify_hzx_landing.py
+PASS | figure v6 field set (19) | []
+PASS | mode ids == M-ZX-001..010 | ['M-ZX-001', 'M-ZX-002', 'M-ZX-003', 'M-ZX-004', 'M-ZX-005', 'M-ZX-006', 'M-ZX-007', 'M-ZX-008', 'M-ZX-009', 'M-ZX-010']
+PASS | research_mode_id provenance M230..M239 | 
+PASS | per-mode v6 field set complete | []
+PASS | protreptic_mapping covers 10 ids | {'工夫论': ['M-ZX-001', 'M-ZX-005'], '实践哲学': ['M-ZX-002', 'M-ZX-008'], '伦理学': ['M-ZX-003', 'M-ZX-004', 'M-ZX-007'], '志业伦理': ['M-ZX-006'], '政治哲学': ['M-ZX-009'], '传承论': ['M-ZX-010']}
+PASS | mode_evidence 10 | 
+PASS | tags >=40 | 59
+PASS | cross_references 3 with existing-codes | ['H-KZ-001', 'H-MZ-001', 'H-ZHX-001']
+PASS | modern_value zh/en 7 | 
+PASS | thinking_mode_count==10 | 
+PASS | three mirrors identical sha256 | ('ba2ad769f5ba7eef', 'ba2ad769f5ba7eef', 'ba2ad769f5ba7eef')
+PASS | manifest mirror sha matches disk | ba2ad769f5ba7eef
+PASS | individuals modes package 10 + refs | 
+PASS | companion core_modes == new ids | ['M-ZX-001', 'M-ZX-002', 'M-ZX-003', 'M-ZX-004', 'M-ZX-005', 'M-ZX-006', 'M-ZX-007', 'M-ZX-008', 'M-ZX-009', 'M-ZX-010']
+PASS | companion v6 block 10 | 
+PASS | no legacy M230-M239 in active v6 fields | []
+PASS | banned legacy token only in correction records | 
+PASS | no M311-M318 in active figure/mode files | 
+PASS | voided quotes absent from quote/definition | 
+PASS | quarantine: archived bytes match sha; origins gone or replaced | []
+PASS | figure_names: H-ZS-001 key removed | 
+PASS | staging recoded 10+10 | 
+PASS | staging free of GenF codes | 
+PASS | main library untouched by this card | 
+PASS | archive page regenerated (10 mode headings) | 
+PASS | RD: overlay leftover removed | 
+
+== RESULT: 26 PASS / 0 FAIL ==
+
+exit=0

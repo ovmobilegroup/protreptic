@@ -3993,16 +3993,16 @@
       "figure_code": "H-DZS-001",
       "figure_name": "董仲舒",
       "mode_ids": [
-        "M01",
-        "M02",
-        "M03",
-        "M04",
-        "M05",
-        "M06",
-        "M07",
-        "M08",
-        "M09",
-        "M10"
+        "M-DZS-001",
+        "M-DZS-002",
+        "M-DZS-003",
+        "M-DZS-004",
+        "M-DZS-005",
+        "M-DZS-006",
+        "M-DZS-007",
+        "M-DZS-008",
+        "M-DZS-009",
+        "M-DZS-010"
       ],
       "tags": [
         "董仲舒",
@@ -4072,94 +4072,94 @@
       ],
       "protreptic_mapping": {
         "政治哲学": [
-          "M01",
-          "M02",
-          "M06"
+          "M-DZS-001",
+          "M-DZS-002",
+          "M-DZS-006"
         ],
         "社会伦理": [
-          "M03",
-          "M07"
+          "M-DZS-003",
+          "M-DZS-007"
         ],
         "人性修养": [
-          "M04",
-          "M08"
+          "M-DZS-004",
+          "M-DZS-008"
         ],
         "治理方略": [
-          "M05",
-          "M10"
+          "M-DZS-005",
+          "M-DZS-010"
         ],
         "历史哲学": [
-          "M09"
+          "M-DZS-009"
         ]
       },
       "scenarios_zh": {
         "C-DZS-001": {
           "code": "C-DZS-001",
           "figure_id": "H-DZS-001",
-          "mode_id": "M01",
+          "mode_id": "M-DZS-001",
           "title_zh": "天人感应法",
           "description_zh": "将天象变化与人间政治建立因果对应关系。董仲舒认为天是有意志的最高主宰，通过灾异祥瑞表达对君主施政的肯定或警示。核心命题：天之道，人之道一也。"
         },
         "C-DZS-002": {
           "code": "C-DZS-002",
           "figure_id": "H-DZS-001",
-          "mode_id": "M02",
+          "mode_id": "M-DZS-002",
           "title_zh": "春秋大一统法",
           "description_zh": "以春秋经义论证政治统一与思想统一的必然性。核心命题：《春秋》大一统者，天地之常经，古今之通谊也。"
         },
         "C-DZS-003": {
           "code": "C-DZS-003",
           "figure_id": "H-DZS-001",
-          "mode_id": "M03",
+          "mode_id": "M-DZS-003",
           "title_zh": "三纲五常法",
           "description_zh": "以阴阳宇宙论为三纲五常提供形上学论证。核心命题：王道之三纲，可求于天。"
         },
         "C-DZS-004": {
           "code": "C-DZS-004",
           "figure_id": "H-DZS-001",
-          "mode_id": "M04",
+          "mode_id": "M-DZS-004",
           "title_zh": "性三品法",
           "description_zh": "将人性划分为圣人之性、中民之性、斗筲之性三等。核心命题：性有善质，而未能以为善也。"
         },
         "C-DZS-005": {
           "code": "C-DZS-005",
           "figure_id": "H-DZS-001",
-          "mode_id": "M05",
+          "mode_id": "M-DZS-005",
           "title_zh": "德主刑辅法",
           "description_zh": "主张以道德教化为主、刑罚为辅。核心命题：阳为德，阴为刑，刑主杀而德主生。"
         },
         "C-DZS-006": {
           "code": "C-DZS-006",
           "figure_id": "H-DZS-001",
-          "mode_id": "M06",
+          "mode_id": "M-DZS-006",
           "title_zh": "屈君伸天法",
           "description_zh": "将天置于君之上的最高仲裁者位置，以灾异说制约君权。核心命题：屈民而伸君，屈君而伸天。"
         },
         "C-DZS-007": {
           "code": "C-DZS-007",
           "figure_id": "H-DZS-001",
-          "mode_id": "M07",
+          "mode_id": "M-DZS-007",
           "title_zh": "阳尊阴卑法",
           "description_zh": "以阳尊阴卑的宇宙论原理为社会等级秩序提供哲学论证。核心命题：阳尊阴卑，天之制也。"
         },
         "C-DZS-008": {
           "code": "C-DZS-008",
           "figure_id": "H-DZS-001",
-          "mode_id": "M08",
+          "mode_id": "M-DZS-008",
           "title_zh": "教化成性法",
           "description_zh": "以教化作为人性改造的核心手段。核心命题：质朴之谓性，性非教化不成。"
         },
         "C-DZS-009": {
           "code": "C-DZS-009",
           "figure_id": "H-DZS-001",
-          "mode_id": "M09",
+          "mode_id": "M-DZS-009",
           "title_zh": "法天则古法",
           "description_zh": "将奉天法古作为政治合法性的双重来源，提出三统循环历史哲学。核心命题：承天意以从事。"
         },
         "C-DZS-010": {
           "code": "C-DZS-010",
           "figure_id": "H-DZS-001",
-          "mode_id": "M10",
+          "mode_id": "M-DZS-010",
           "title_zh": "原心定罪法",
           "description_zh": "以行为动机而非外在结果作为道德评判和法律裁断的首要依据。核心命题：本其事而原其志。"
         }
@@ -4168,70 +4168,70 @@
         "C-DZS-001E": {
           "code": "C-DZS-001E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M01",
+          "mode_id": "M-DZS-001",
           "title_en": "Heaven-Human Resonance Method",
           "description_en": "Establish causal correspondence between cosmic phenomena and human governance. Core proposition: The Way of Heaven and the Way of humanity are one."
         },
         "C-DZS-002E": {
           "code": "C-DZS-002E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M02",
+          "mode_id": "M-DZS-002",
           "title_en": "Great Unity Method",
           "description_en": "Demonstrate the necessity of political and ideological unity through Spring and Autumn doctrine. Core proposition: The Great Unity is the constant principle of heaven and earth."
         },
         "C-DZS-003E": {
           "code": "C-DZS-003E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M03",
+          "mode_id": "M-DZS-003",
           "title_en": "Three Bonds and Five Constants Method",
           "description_en": "Provide metaphysical grounding for ethical order through Yin-Yang cosmology. Core proposition: The three bonds of the royal way can be sought in Heaven."
         },
         "C-DZS-004E": {
           "code": "C-DZS-004E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M04",
+          "mode_id": "M-DZS-004",
           "title_en": "Three Grades of Human Nature Method",
           "description_en": "Classify human nature into three grades: sages, common people, and incapable. Core proposition: Nature has goodness potential but cannot yet be called good."
         },
         "C-DZS-005E": {
           "code": "C-DZS-005E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M05",
+          "mode_id": "M-DZS-005",
           "title_en": "Virtue Primary Punishment Auxiliary Method",
           "description_en": "Advocate virtue-primacy and punishment-auxiliary as governing strategy. Core proposition: Yang is virtue, yin is punishment."
         },
         "C-DZS-006E": {
           "code": "C-DZS-006E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M06",
+          "mode_id": "M-DZS-006",
           "title_en": "Subordinate Ruler to Heaven Method",
           "description_en": "Position Heaven above the ruler as ultimate arbiter, checking imperial authority through disaster warnings."
         },
         "C-DZS-007E": {
           "code": "C-DZS-007E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M07",
+          "mode_id": "M-DZS-007",
           "title_en": "Yang Superior Yin Inferior Method",
           "description_en": "Use cosmological principle to justify social hierarchical order. Core proposition: Yang superior, yin inferior is Heaven ordinance."
         },
         "C-DZS-008E": {
           "code": "C-DZS-008E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M08",
+          "mode_id": "M-DZS-008",
           "title_en": "Transformative Education Method",
           "description_en": "Position education as core mechanism for human nature transformation. Core proposition: Innate disposition is nature, but nature cannot become virtue without education."
         },
         "C-DZS-009E": {
           "code": "C-DZS-009E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M09",
+          "mode_id": "M-DZS-009",
           "title_en": "Emulate Heaven and Follow Antiquity Method",
           "description_en": "Establish following Heaven and emulating antiquity as dual source of political legitimacy. Core proposition: Receive Heaven will and act accordingly."
         },
         "C-DZS-010E": {
           "code": "C-DZS-010E",
           "figure_id": "H-DZS-001",
-          "mode_id": "M10",
+          "mode_id": "M-DZS-010",
           "title_en": "Judge by Motive Method",
           "description_en": "Use behavioral motive as primary criterion for moral judgment and legal adjudication. Core proposition: Examine the facts and trace the intent."
         }
@@ -16521,6 +16521,52 @@
           "relation_type": "influence",
           "description_zh": "章学诚为浙东学派殿军，承黄宗羲「学必原本于经术」而后文史学一脉；黄创学案体以明学术流变，章以「辨章学术、考镜源流」将其升级为系统的知识谱系学。",
           "description_en": "Zhang as the last master of the eastern-Zhejiang school inherits Huang Zongxi's union of classics and history; Huang's case-history genre is systematized by Zhang into a full genealogy of knowledge."
+        }
+      ]
+    },
+    "H-ZX-001": {
+      "mode_ids": [
+        "M-ZX-001",
+        "M-ZX-002",
+        "M-ZX-003",
+        "M-ZX-004",
+        "M-ZX-005",
+        "M-ZX-006",
+        "M-ZX-007",
+        "M-ZX-008",
+        "M-ZX-009",
+        "M-ZX-010"
+      ],
+      "tags": [
+        "慎独自省法",
+        "修齐治平法",
+        "孝道本体法",
+        "忠恕一贯法",
+        "自省改过法",
+        "士人担当法",
+        "临终大节法",
+        "内圣外王贯通法",
+        "民本教化法",
+        "道统传承法"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-KZ-001",
+          "relation_type": "inheritance",
+          "description_zh": "曾子为孔子晚年弟子，亲受『吾道一以贯之』之教并以『忠恕而已矣』概括孔子之道；《论语》曾子诸章是其学说的直接文献来源。",
+          "description_en": "Zengzi was a late disciple of Confucius, receiving the teaching that the Way is one thread and summarizing it as loyalty and reciprocity; the Zengzi chapters of the Analects are the direct documentary source of his thought."
+        },
+        {
+          "target_figure_code": "H-MZ-001",
+          "relation_type": "lineage",
+          "description_zh": "传统道统谱系以曾子-子思-孟子相承（唐宋建构）；可考者为《史记》载孟子『受业子思之门人』（非亲授），直接师承为后世推定，本档已作归属标注。",
+          "description_en": "The traditional lineage runs Zengzi-Zisi-Mencius (a Tang-Song construct); what is documented is the Shiji record that Mencius studied under the disciples of Zisi (not directly). The direct link is a later inference, flagged in this file."
+        },
+        {
+          "target_figure_code": "H-ZHX-001",
+          "relation_type": "comparison",
+          "description_zh": "朱熹《大学章句》以《大学》经文为『孔子之言而曾子述之』、传文为『曾子之意而门人记之』，并以《论语集注》《中庸章句序》塑造了曾子的道统位置——属传统归属，本档已标注为后世建构。",
+          "description_en": "The Zhu Xi commentary took the Great Learning classic text as the words of Confucius narrated by Zengzi and the commentaries as the meaning of Zengzi recorded by disciples, shaping his place in the lineage; a traditional attribution flagged here as a later construct."
         }
       ]
     }
