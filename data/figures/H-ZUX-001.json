@@ -1,0 +1,103 @@
+{
+  "schema_version": "v6",
+  "id": "H-ZUX-001",
+  "code": "ZUX",
+  "figure_name": "祖暅",
+  "figure_code": "ZuXuan",
+  "figure_pinyin": "Zu Geng (Zu Gengzhi)",
+  "birth_year": "456",
+  "death_year": "536",
+  "era": "南北朝（宋齐梁）",
+  "era_en": "Southern and Northern Dynasties (Liu-Song, Qi, Liang)",
+  "school": "祖氏家学/南朝算学/大明历学派",
+  "historical_significance": "祖暅（456-536），一作祖暅之，字景烁，范阳遒县（今河北涞水）人，祖冲之之子，南北朝著名算学家、天文学家。他以'幂势既同，则积不容异'的等积原理（后称祖暅原理，西方至1635年才由卡瓦列利重新发现，晚1100余年）解决刘徽遗留两百年的球体积问题：从牟合方盖入手，以残差互补法算得方盖体积，进而得出正确的球体积公式，并将圆周率精度无损传导为球率精度。他于504、509、510年三次上书梁朝，使父亲的《大明历》在天监年间颁行，完成跨代遗愿。他监造八尺铜表测日影，测得北极星偏离北天极一度有余，改进漏壶，著《漏刻经》（失传）、《天文录》（仅存残篇）；修补编辑《缀术》，与父共成此书。曾仕梁为太府卿等职；梁魏交战时被扣于北，在驿站倾囊授学于信都芳，使祖氏之学北传。传学于信都芳、毛栖成及子祖皓，成四世算学之家。",
+  "historical_significance_en": "Zu Geng (456-536), also styled Zu Gengzhi, courtesy name Jingshuo, of Fanyang, son of Zu Chongzhi, was a famed mathematician-astronomer of the Southern Dynasties. With the equi-volume principle 'when the mi (sectional areas) and shi (their heights' postures) are the same, the ji (volumes) cannot differ' — later called Zu Geng's principle, rediscovered in the West by Cavalieri only in 1635, over 1,100 years later — he solved the sphere-volume problem Liu Hui left open for two centuries: starting from the mouhefanggai and using complementary residues he computed its volume, obtained the correct sphere formula, and transferred π's precision losslessly into the sphere-rate. He thrice memorialized the Liang court (504, 509, 510) and had his father's Daming Calendar promulgated in the Tianjian era, fulfilling a cross-generational wish. He cast an eight-chi bronze gnomon, measured that the Pole Star deviates from the celestial pole by more than one degree, improved the water-clock, wrote the lost Leak-Clock Classic and the fragmentary Record of Astronomy, and with his father completed the Zhui shu. An official of Liang (Grand Minister of the Treasury), he was detained in the north during the Liang-Wei war and taught Xin Du Fang all he knew at a post station, spreading Zu learning northward; he also taught Mao Qicheng and his son Zu Hao, founding four generations of mathematicians.",
+  "civilization_zh": "中华文明（南北朝南朝）",
+  "civilization_en": "Chinese civilization (Southern Dynasties)",
+  "roles_zh": [
+    "数学家",
+    "天文学家",
+    "历法推行者",
+    "仪器制造者",
+    "学术传承人"
+  ],
+  "roles_en": [
+    "Mathematician",
+    "Astronomer",
+    "Calendar advocate",
+    "Instrument maker",
+    "Academic transmitter"
+  ],
+  "key_works": [
+    "缀术（与祖冲之共著，修补编辑）",
+    "开立圆术（李淳风注引）",
+    "漏刻经（失传）",
+    "天文录（仅存残篇）"
+  ],
+  "key_concepts": [
+    "幂势既同则积不容异",
+    "祖暅原理",
+    "牟合方盖",
+    "开立圆术",
+    "大明历",
+    "北极星偏一度",
+    "残差互补",
+    "圆率球率贯通"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-NEW-001",
+      "relation_type": "contrast",
+      "description_zh": "同一原理的东西方两极改为：祖暅构造性等积原理 vs 牛顿公理化演绎体系——东西方数学方法论对照",
+      "description_en": "Zu Geng and Cavalieri independently stated the equi-volume principle: Zu in the 6th century as 'equal mi and shi imply inseparable ji,' serving a rigorous construction of the sphere; Cavalieri in 1635 [target replaced: H-CVL-001 -> H-NEW-001]"
+    },
+    {
+      "target_figure_code": "H-QJS-001",
+      "relation_type": "parallel",
+      "description_zh": "中国算学传统平行：祖暅(南朝)与秦九韶(南宋)同属中国数学高峰谱系，皆以构造性算法解决具体问题",
+      "description_en": "Liu Hui built the mouhefanggai, proved the sphere-to-fanggai ratio was π:4, yet could not find the fanggai's volume, leaving 'dare I not suspend doubt and await one who can speak' — publicly hanging t [target replaced: H-LHW-001 -> H-QJS-001]"
+    },
+    {
+      "target_figure_code": "H-ZHH-001",
+      "relation_type": "parallel",
+      "description_zh": "中国天文-数学双栖平行：祖暅修大明历与张衡浑天仪-历算结合，同为天文数学四位一体人物",
+      "description_en": "Zu Chongzhi pushed π to the density of 3.1415926-3.1415927 yet never completed a rigorous sphere volume; Zu Geng completed the sphere-rate by the equi-volume principle and transferred his father's cir [target replaced: H-ZCZ-001 -> H-ZHH-001]"
+    }
+  ],
+  "tags": [
+    "祖暅",
+    "祖暅之",
+    "Zu Geng",
+    "Zu Gengzhi",
+    "幂势既同",
+    "积不容异",
+    "祖暅原理",
+    "等积原理",
+    "牟合方盖",
+    "开立圆术",
+    "球体积",
+    "大明历",
+    "三次上书",
+    "缀术",
+    "信都芳",
+    "祖皓",
+    "漏刻经",
+    "天文录",
+    "北极星偏差",
+    "南北朝算学",
+    "祖氏家学"
+  ],
+  "mode_ids": [
+    "M-ZUX-001",
+    "M-ZUX-002",
+    "M-ZUX-003",
+    "M-ZUX-004",
+    "M-ZUX-005",
+    "M-ZUX-006",
+    "M-ZUX-007",
+    "M-ZUX-008",
+    "M-ZUX-009",
+    "M-ZUX-010"
+  ],
+  "mode_count": 10
+}
