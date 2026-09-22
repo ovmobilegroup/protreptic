@@ -1,39 +1,813 @@
 {
   "schema_version": "v6",
+  "id": "H-DY-001",
   "code": "H-DY-001",
-  "figure_name": "董宇明",
+  "figure_name": "约翰·杜威",
   "figure_code": "H-DY-001",
-  "figure_pinyin": "Dong Yu Ming",
-  "era": "Modern",
-  "birth_year": 1980,
-  "death_year": null,
-  "school": "现代科技思考流派",
-  "representative_works": [
-    "《人工智能与人类未来》",
-    "《科技伦理与社会发展》",
-    "《数字经济时代的管理哲学》"
-  ],
-  "historical_significance": "中国当代重要的科技思想家，活跃于21世纪。专注于人工智能、数字经济和科技伦理领域的研究，致力于推动科技与人文的融合。其思想既体现了对技术发展的深刻理解，又强调科技发展的人文关怀和社会责任，为中国的科技现代化和数字化转型提供了重要的理论支撑。",
-  "core_thoughts": [
-    "智能思维（运用人工智能技术解决复杂问题）",
-    "系统整合（将科技与人文有机结合）",
-    "伦理思考（在技术发展中坚持人文关怀）",
-    "创新驱动（以科技创新推动社会进步）",
-    "全球化视野（在全球科技竞争中保持战略定力）"
-  ],
-  "famous_quote": "人工智能不是要取代人类，而是要增强人类的智慧，让科技真正服务于人类的美好生活",
-  "influence": "对中国人工智能发展、数字经济建设以及科技伦理研究产生深远影响，为中国的科技现代化提供了重要的思想指导",
+  "figure_pinyin": "Yuēhàn·Dùwēi",
+  "birth_year": 1859,
+  "death_year": 1952,
+  "era": "现代教育时代（1859年佛蒙特州伯灵顿杂货商之家—佛蒙特大学（1875-1879，受赫胥黎《进化论伦理学》激发）—霍普金斯大学博士（1882-1884，师从霍尔，修皮尔士课程）—密歇根大学教职（1884-1894，遇詹姆斯《心理学原理》转向 functionalism）—芝加哥大学（1894-1904，哲学·心理学·教育学三系主任，1896年创办芝加哥大学实验学校'杜威学校'）—《学校与社会》（1899）—哥伦比亚大学（1905-1930）—《我们怎样思维》（1910）—《民主主义与教育》（1916）—访华两年两月（1919.4.30-1921.7，胡适/陶行知/蒋梦麟迎于东京—沪—杭—宁—京—晋—鲁—辽，讲演汇编《杜威五大讲演》）—《经验与教育》（1938，对进步教育滥用的自我清算）—《逻辑：探究的理论》（1938）—1952年6月1日逝于纽约：伯灵顿—巴尔的摩—安阿伯—芝加哥—纽约）",
+  "school": "实用主义（工具主义）集大成者 + 芝加哥学派机能心理学创始人 + 芝加哥大学实验学校（'杜威学校'）创办人 + 进步教育运动哲学奠基人 + 民主教育理论体系化者（《民主主义与教育》）+ 探究逻辑（instrumental logic）创立者",
+  "style_name": "John Dewey；自称其哲学为'工具主义'（Instrumentalism），晚年亦用'经验自然主义'（Empirical Naturalism）；《实验逻辑论文集》署名立场为'实验主义'（Experimentalism）",
+  "courtesy_name": "本名 John Dewey（无字）；学生与舆论称 'America's philosopher'；在中国被尊称'杜威博士'，胡适拟'但开风气不为师'评之",
+  "pseudonym": "笔名使用极少；早期论文署 J. D.；教书、办刊（《小学教师》《新学校》）多用本名；晚年公共写作署本名——与陶行知以改名做认识论声明恰成对照",
+  "historical_significance": "约翰·杜威（1859-1952），美国哲学家、心理学家、教育家，实用主义第三代集大成者（皮尔士创名、詹姆斯推广、杜威体系化并落实于教育与社会）。在密歇根遇詹姆斯《心理学原理》后从黑格尔观念论转向机能心理学；1896年在芝加哥大学创办实验学校，把'学习即经验的改造'变成可运行的学校；《民主主义与教育》（1916）把民主定义为'共同经验的交流'，教育是民主的第一题而非应用题——被公认为教育哲学史上最系统的体系著作。1919-1921年访华两年，五大讲演直接滋养了胡适'大胆假设小心求证'的方法论与陶行知'生活教育'运动——20世纪中国教育现代化的一半谱系里都有杜威的签名。他晚年对进步教育运动的浪漫化（《经验与教育》1938）做了自我清算：经验教育不等于放任，教育者须辨'什么经验值得有'。一生著述四十卷，横跨逻辑、伦理、心理、政治与美育；《逻辑：探究的理论》把一切认知重写为'从困惑情境到有据断言'的受控探究——这是他对20世纪认识论最长的一次工程改造。",
+  "unique_thinking": "杜威的独特贡献是把'认知'与'教育'从静态拥有改写为动态探究与经验改造，并把每一主张都落成可运行的机构：其一，探究发生学——认知不始于命题而始于'困惑情境'（indeterminate situation），思想的全部功能是把不确定情境改写为确定情境，知识是探究的副产品而非起点；其二，工具主义真理观——观念是行动的工具，'真'由'是否解决所遇问题'判，不由'是否符合某先天秩序'判；其三，经验的连续性与交互性原则——《经验与教育》给出经验质量的两条判据：当下经验须向未来开放（连续性）、个体须与环境真实交互（交互性），由此'什么经验值得有'成为教育者可操作的选择标准；其四，反思性思维五步法——暗示→问题→假设→推理→检验，《我们怎样思维》把思维训练写成可教的工序；其五，教育无外在目的论——'教育过程以外无目的，教育过程自身即目的'，反对外在目的对学习的殖民；其六，民主作为交流结构——民主不是政体而是'共同生活经验交流的广度与深度'，学校是民主的胚胎社会而非社会的驯化所；其七，学校即社会——学校要做'简化、净化、平衡'过的社会环境，实习社会生活的合作与责任；其八，职业教育的去阶级化——职业教育不是给工人子弟的窄门技能，而是'关于职业的教育'，反对把人钉在单一工种上；其九，经验与知识的分辨——经验可以是反教育的（恶习的经验同样连续），知识必须通过公共可检验的探究才成立；其十，自我清算的方法诚实——进步教育跑偏时，他不出面护短而写《经验与教育》逐条清算自己的追随者：理论的严肃性由自我修正的记录担保。",
   "thinking_mode_count": 10,
+  "mode_ids": [
+    "M-DY-001",
+    "M-DY-002",
+    "M-DY-003",
+    "M-DY-004",
+    "M-DY-005",
+    "M-DY-006",
+    "M-DY-007",
+    "M-DY-008",
+    "M-DY-009",
+    "M-DY-010"
+  ],
+  "key_concepts": [
+    "工具主义",
+    "探究理论",
+    "反思性思维",
+    "经验连续性",
+    "教育即生活",
+    "学校即社会",
+    "从做中学",
+    "民主作为交流",
+    "教育无外在目的",
+    "经验与教育"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-TXZ-001",
+      "target_figure_name": "陶行知",
+      "relation_type": "师承与三重倒置：教育即生活→生活即教育；学校即社会→社会即学校；从做中学→在劳力上劳心",
+      "description_zh": "陶行知是杜威在哥伦比亚大学的中国弟子，但他的三句核心命题全部是对师说的倒置：杜威说'教育即生活'，从学校出发把生活引进来；陶说'生活即教育'，从生活出发把学校送出去。杜威说'学校即社会'——在学校里模拟一个社会；陶说'社会即学校'——把真社会直接当学校，不要仿真。杜威说'从做中学'（learning by doing），做是教法；陶说'在劳力上劳心'，做是认识论——行动产生知识而非 merely 巩固知识。倒置的动力来自场景落差：杜威的实验学校面对芝加哥中产儿童，陶面对的是失学的四万万农民——当学习者的第一需要是识字与生计，'预备'论立即破产，教育必须是生活本身。杜威本人1919-1921在华两年目睹了这种改造的发生，他在华讲演反而强调'教育须与一国之生活相合'——师说提供了问题框架，答案由现场情境改写。对照链：M-DY-001（教育即生活）× M-TXZ-001（生活即教育）——同一命题的先导版与倒置版。",
+      "bidirectional_hint": "本档案（H-DY-001）入库后，陶行知档案（H-TXZ-001）cross_references 中 H-DY-001 的'待入库'标注即自然生效，mode_pair M-TXZ-001 × M-DY-001 两端皆可解析，无需修改主库。",
+      "mode_pair": [
+        "M-DY-001",
+        "M-TXZ-001"
+      ]
+    },
+    {
+      "target_figure_code": "H-KD-001",
+      "target_figure_name": "康德",
+      "relation_type": "认识论分野：先天范畴 vs 受控探究",
+      "description_zh": "杜威的知识论是对康德哥白尼革命的又一次翻转：康德把认识的普遍性安放在先天范畴（知性为自然立法），杜威把普遍性安放在探究程序本身——'受控探究'的规则（证据、推理、公共检验）是普遍的，但它管的是过程而非先天地形。康德的知性范畴先于经验并规定经验；杜威的观念生于经验内部的困惑，是解决经验问题的工具，用完即被改造。分野的实质是必然性来源：康德从主体结构找必然，杜威从方法与共同体的公共约束找必然——必然性从形而上学移到程序主义。教育上的余波：康德式教育重'形式训练'（练先天的官能），杜威在《我们怎样思维》与《民主主义与教育》里专门批判形式训练说，主张思维在处理真实问题的探究中生长。对照链：M-DY-004（反思性思维五步法）× 康德判断力训练——同在训练判断，一者向先天找根据，一者向受控程序找根据。",
+      "bidirectional_hint": "康德档案（H-KD-001）未来修订时可在认识论相关模式处补一条指向 H-DY-001 的跨引用（必然性从先天范畴移交给探究程序）。",
+      "mode_pair": [
+        "M-DY-002",
+        "M-KD-002"
+      ]
+    },
+    {
+      "target_figure_code": "H-GAN-001",
+      "target_figure_name": "甘地",
+      "relation_type": "民主与教育作为生活方式的同型主张：交流结构与共同生活",
+      "description_zh": "杜威与甘地共享一个反国家中心的教育-民主观：杜威把民主定义为'共同生活经验交流的广度与深度'——民主首先是共同体内部交流质量的度量，政体只是其结晶；甘地把真正的印度定位在'七十万个村庄'，自治（swaraj）是社区自我治理能力的生长，而非中央政权的移交。两者都拒绝'民主=投票仪式'：杜威批'民主的化装舞会'（选举齐全而交流贫瘠），甘地批'没有纪律的议会政治'。分野在于改造的杠杆：杜威押在学校——'学校是民主的胚胎社会'，从儿童的合作经验里长出公民；甘地押在村社——从成年人的自我纪律与乡村工业里长出自治。同向不同杠杆：一个自下而上经儿童，一个自下而上经共同体。对照链：M-DY-007（民主作为交流）× 甘地'村社自治'模式——民主的两种草根工程学。",
+      "bidirectional_hint": "甘地档案（H-GAN-001）已在库，未来修订时可在民主/村社相关模式处补一条指向 H-DY-001 的跨引用（民主作为交流结构的平行定义）。",
+      "mode_pair": [
+        "M-DY-007",
+        "M-GAN-002"
+      ]
+    }
+  ],
+  "tags": [
+    "约翰·杜威",
+    "John Dewey",
+    "实用主义",
+    "Pragmatism",
+    "工具主义",
+    "Instrumentalism",
+    "探究理论",
+    "Theory of Inquiry",
+    "反思性思维",
+    "Reflective Thinking",
+    "经验连续性",
+    "Continuity of Experience",
+    "教育即生活",
+    "Education as Life",
+    "学校即社会",
+    "School as Society",
+    "从做中学",
+    "Learning by Doing",
+    "民主主义与教育",
+    "Democracy and Education",
+    "教育无外在目的",
+    "No External Ends of Education",
+    "杜威学校",
+    "Dewey School",
+    "进步教育",
+    "Progressive Education",
+    "经验与教育",
+    "Experience and Education",
+    "五大讲演",
+    "Five Lectures in China",
+    "芝加哥实验学校",
+    "Laboratory School",
+    "经验自然主义",
+    "Empirical Naturalism"
+  ],
+  "mode_ids_note": "M-DY-001~010 为本档案深度挖掘的10个v6思维模式，待并入主库 modes_data.json（H-DY-001 已被陶行知档案预留为跨引用目标，模式/场景前缀 M-DY/C-DY 全库无占用，零冲突）",
+  "caveats": [
+    "'杜威学校'（芝加哥实验学校，1896-1904）的实际课程远比《学校与社会》的叙述复杂琐碎，且常因教材不足而调整；其'成功'叙述多出自杜威本人与同事的总结，学校的最终关闭（经费与人事冲突）常被进步教育叙事省略",
+    "杜威与进步教育运动的关系须分层：他是哲学奠基人，但'儿童中心''放任式活动课程'等标签多为其追随者（如克伯屈）的放大，他本人在《经验与教育》里明确批评这些滥用——引用时不可把他当成进步教育一切实践的替罪羊",
+    "访华讲演对胡适、陶行知的实际影响量级存在学术争议：胡适的方法论自述不可全信（有自我建构成分），陶行知的'倒置'发生在杜威离开中国之后；'杜威塑造了现代中国教育'是简洁但过强的概括",
+    "他的政治与民主著作（《公众及其问题》等）在20世纪中叶的接受高度政治化：美国冷战时期把他塑造为'美国生活方式'的理论家，苏联时期则被批为'帝国主义辩护士'——两侧阵营叙事都须剥离，原始文本与诠释层分开引用",
+    "《逻辑：探究的理论》在专业哲学界的接受度有限（分析传统认为其'探究'概念含糊），把杜威描述为'重建了认识论'须注明这是实用主义复兴运动（普特南、罗蒂等）的当代评价，而非其生前的公认地位"
+  ],
   "modes": [
-    "M11",
-    "M12",
-    "M13",
-    "M14",
-    "M15",
-    "M16",
-    "M17",
-    "M18",
-    "M19",
-    "M20"
+    {
+      "id": "M-DY-001",
+      "name_zh": "教育即生活法",
+      "name_en": "Education as Life: Growth as Its Own End",
+      "mode_code": "M-DY-001",
+      "category": "核心方法",
+      "domain_zh": "教育学/教育目的论",
+      "domain_en": "Education / Aims of Education",
+      "level": "核心",
+      "priority": "1",
+      "definition_zh": "杜威的元命题：'教育即生活'——教育不是为某种遥远成年生活做的预备，而是当下生活本身的展开；'教育过程以外无目的，教育过程自身即目的'。方法论签名有三：其一，反预备论——把人生切成'先读书后生活'两段，是对儿童当下生命力的否定，预备的表面合理性掩盖着成年人对儿童生活的剥夺；其二，生长判据——教育的目的是'更多的生长'，当下经验是否开启了进一步的生长可能，是衡量教育质量的唯一内在标准，除此之外任何外在目的（升学率、职业表、教义）都是对教育过程的殖民；其三，生活的完整性——'生活'指个体与环境持续相互作用的全部，学习因此不在铃声之间，而在共同做事、解决真实问题的每一刻。这一命题在1916年《民主主义与教育》中系统化，1938年《经验与教育》进一步补强：不是一切生活都是教育，只有具有连续性与交互性的生活才是——这句话后来被他的中国弟子陶行知倒转为'生活即教育'，师说与倒置构成同一问题的两个解。",
+      "definition_en": "Dewey's master proposition: education IS life — not preparation for some remote adult life but the unfolding of present life itself; 'there is nothing outside the educative process which is its aim; the process itself is its own aim.' Three signatures define the mode. First, anti-preparationism: slicing life into 'read first, live later' is a negation of the child's present vitality; preparation's surface plausibility conceals the adult's dispossession of childhood. Second, the growth criterion: the aim of education is 'more growth'; whether present experience opens further possibilities of growth is the only intrinsic measure of educational quality — every external end (pass rates, job tables, doctrines) is a colonization of the educative process. Third, the wholeness of living: 'life' means the whole continuing interaction of individual and environment, so learning does not run between bells but in every act of doing things together and solving real problems. Systematized in Democracy and Education (1916), the proposition was reinforced in Experience and Education (1938): not all life is education — only life with continuity and interaction is. His Chinese student Tao Xingzhi would later invert this into 'life is education'; the master's thesis and the inversion are two solutions to one problem.",
+      "source_chapter": "杜威《民主主义与教育》第4-6章（1916）；《学校与社会》（1899）；《经验与教育》（1938）",
+      "key_concepts": [
+        "教育即生活",
+        "反预备论",
+        "教育无外在目的",
+        "生长判据",
+        "生活完整性",
+        "当下经验"
+      ],
+      "process_zh": [
+        "审计预备论债务：列出教育安排中一切'为将来而忍受当下'的成分（死记、操练、悬空的课程），逐项追问其对儿童当下生活的实际意义",
+        "以生长为纲重排目的：废除任何超出过程的外在指标，改问'这项安排是否开启了参与者进一步的生长可能'",
+        "把学习嵌回生活事件：凡可由真实共同事务承载的内容（经营、种植、记录、议事），不再另设悬空课程",
+        "设连续性检验：定期检查'当下经验是否通向下一层经验'——中断、重复原地、纯感官刺激的经验都要重造"
+      ],
+      "process_en": [
+        "Audit the debt of preparationism: list every arrangement of 'enduring the present for the future' (rote drills, suspended courses) and ask what it actually means for the child's present life.",
+        "Re-anchor aims on growth: abolish external indicators beyond the process; ask instead 'does this arrangement open further growth for its participants.'",
+        "Embed learning back into life-events: content that real shared affairs can carry — running a shop, growing, recording, deliberating — is no longer given a suspended course of its own.",
+        "Apply the continuity check: periodically test whether present experience leads to the next layer of experience; interrupted, treadmill, or bare-sensory experiences must be rebuilt."
+      ],
+      "representative_cases_zh": [
+        "芝加哥实验学校（1896）：课程围绕'职业阶段的人类文明史'组织——儿童纺线、印染、经营小商店，学的是当下做的文明活动本身，杜威学校没有'为将来做准备的课'",
+        "《学校与社会》里对'读书识字即教育'的清算：移民儿童在传统学校里被剥夺了与美国家庭儿童平等的当下生活经验，纸面课程制造了双重的落后",
+        "反面警示：杜威晚年点名批评把'教育即生活'滑成'活动即教育'的进步教育者——无方向的喧闹活动既无连续性也无交互性，是'以儿童为中心'名义下的放弃教育；他在《经验与教育》中写明：教育即生活成立的前提是经验本身经过选择与组织"
+      ],
+      "representative_cases_en": [
+        "The Laboratory School (1896): curriculum organized around the occupational stages of civilization — children spun thread, dyed cloth, ran a small shop; what they studied was the civilizational activity of the present moment, and there was no course 'in preparation for the future.'",
+        "The reckoning in The School and Society: immigrant children, under traditional schooling, were dispossessed of present life-experience on equal terms with American-born peers; the paper curriculum manufactured a double backwardness.",
+        "Cautionary counterexample: in his late years Dewey named and blamed progressives who slid 'education as life' into 'activity as education' — directionless bustle, without continuity or interaction, abandons education in the name of 'child-centeredness'; Experience and Education states it plainly: education-as-life holds only where experience itself is selected and organized."
+      ],
+      "modern_applications_zh": [
+        "学校课程审计：凡'为升学而悬空'的内容须给出当下生活意义，否则重造为真实事务（办刊物、经营菜园、社区服务）",
+        "企业学习设计：培训不建'结业即失效'的课件库，而以当下工作难题为课程单元——生长判据为'本季度解决了什么'",
+        "儿童时间表检查：兴趣班排满即预备论债务，先问每一项对儿童当下的意义再谈'将来有用'",
+        "终身学习机构：课程按'经验连续性'设计——每期产出直接成为下期的输入，学习与工作互为土壤"
+      ],
+      "modern_applications_en": [
+        "Curriculum audit: anything suspended 'for the exam' must show its present-life meaning or be rebuilt as real affairs — a journal, a garden, community service.",
+        "Corporate learning design: no courseware libraries that expire at certification; units are current work problems, with growth measured by 'what got solved this quarter.'",
+        "A child's timetable check: a wall of enrichment classes is preparationist debt; ask each item's meaning for the child's present before invoking 'useful someday.'",
+        "Lifelong learning institutions: design on continuity of experience — each cohort's output is the next cohort's input; work and learning become each other's soil."
+      ],
+      "related_modes": [
+        "M-DY-003",
+        "M-DY-005",
+        "M-TXZ-001"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "陶行知（把本命题倒置为'生活即教育'的高足）",
+        "卢梭（'儿童期自身即有价值'的先声）",
+        "克伯屈（设计教学法，本命题的放大与走样者）"
+      ],
+      "key_quote_zh": "教育即生活，不是为未来生活的预备；教育过程以外无目的，教育过程自身即目的。",
+      "key_quote_en": "Education is life, not a preparation for future living; there is no end outside the educative process — the process is its own end."
+    },
+    {
+      "id": "M-DY-002",
+      "name_zh": "探究发生学法",
+      "name_en": "Inquiry from Indeterminate Situations: Where Knowing Begins",
+      "mode_code": "M-DY-002",
+      "category": "核心方法",
+      "domain_zh": "认识论/探究理论",
+      "domain_en": "Epistemology / Theory of Inquiry",
+      "level": "核心",
+      "priority": "2",
+      "definition_zh": "杜威《逻辑：探究的理论》（1938）的基石：认知不始于命题或直觉，而始于'困惑情境'（indeterminate situation）——一个已有的习惯与工具失效、有机体与环境的关系出现断裂的处境。思想的全部功能是把不确定情境转化为确定情境：知识是这场'受控探究'的副产品，而非探究的起点。方法论签名有三：其一，情境优先——先于一切推理的是'出了问题'这个事实本身，脱离情境的'纯认知'是哲学的虚构；其二，受控性——探究之所以产生知识而非意见，在于操作受规则约束（证据、可重复、公共可检验），杜威把'客观性'从先天结构改写到程序约束上；其三，知识的工具地位——探究的结论（命题、理论）是下一次行动的工具，用旧即改，无终极确定性可言，确定性只属于探究程序而非其任何一项产出。这一模式把两千年来'寻求绝对确定性'的哲学议程改写为'改进探究质量'的工程议程，是实用主义对认识论最长的一次改造。",
+      "definition_en": "The bedrock of Logic: The Theory of Inquiry (1938): knowing begins not from propositions or intuitions but from an indeterminate situation — a condition where existing habits and tools fail and the organism-environment relation breaks. Thought's whole function is to convert indeterminate situations into determinate ones: knowledge is a by-product of this controlled inquiry, never its starting point. Three signatures define the mode. First, priority of the situation: before all reasoning stands the bare fact that something has gone wrong; 'pure cognition' detached from situation is a philosopher's fiction. Second, controlledness: inquiry yields knowledge rather than opinion because its operations are rule-bound — evidence, repeatability, public checkability; Dewey moves 'objectivity' from innate structure onto procedural constraint. Third, the instrumental status of knowledge: inquiry's conclusions are tools for the next action, revised as worn, with no final certainty; certainty belongs to the procedure of inquiry, not to any of its products. The mode rewrites philosophy's two-thousand-year agenda of 'seeking absolute certainty' into an engineering agenda of 'improving the quality of inquiry' — pragmatism's longest renovation of epistemology.",
+      "source_chapter": "杜威《逻辑：探究的理论》第1-7章（1938）；《确定性的寻求》（1929）；《哲学的改造》第2章",
+      "key_concepts": [
+        "困惑情境",
+        "受控探究",
+        "确定性寻求批判",
+        "知识工具论",
+        "程序客观性",
+        "不确定情境转化"
+      ],
+      "process_zh": [
+        "确认困惑为起点：一切认知工作先如实记录'哪里失效了'——禁止以既有结论为起点倒装探究",
+        "给探究上程序约束：明确证据标准、可重复要求与公共可检验方式，使'解决'可被共同体复核而非自我宣布",
+        "以行动检验转化：提出的解必须回到真实情境中操作，以情境是否转为确定为准——纸面自洽不构成解决",
+        "把结论登记为工具：每一结论附适用条件与失效征兆，过期即改——禁止把上一轮探究的产物供成教条"
+      ],
+      "process_en": [
+        "Fix the indeterminate as the start: record honestly 'where things broke' before any cognitive work; never run inquiry backwards from a ready conclusion.",
+        "Impose procedural constraints: state evidence standards, repeatability requirements, and public checkability, so the 'solution' can be audited by the community rather than self-declared.",
+        "Convert by acting: return every proposed solution into the real situation and judge by whether the situation turns determinate — paper consistency is not a solution.",
+        "Register conclusions as tools: attach conditions of applicability and signs of failure to each conclusion; revise when worn — never enshrine one round's product as doctrine."
+      ],
+      "representative_cases_zh": [
+        "《确定性的寻求》的诊断：从柏拉图到笛卡尔，哲学一直在'更高处'寻找不变确定物（理念、上帝、天赋观念）——杜威把这一整个议程诊断为对不确定处境的逃避，真出路是把确定性安放在方法上",
+        "芝加哥实验学校的教学即探究雏形：儿童遇到'布为什么染不上色'的真实失败后，老师不给答案而是组织受控的试错——困惑被当资产而非事故",
+        "反面警示：他批评学校里的'问答法'——问题由教师预设、答案早已备好，学生在演一场'没有困惑的探究'；没有真实失效就没有真实探究，表演出来的探究只生产背诵"
+      ],
+      "representative_cases_en": [
+        "The Quest for Certainty's diagnosis: from Plato to Descartes, philosophy hunted an immutable certainty 'higher up' — Ideas, God, innate ideas; Dewey reads the whole agenda as flight from uncertainty, and locates the real remedy in method.",
+        "The Laboratory School as inquiry in embryo: when children met the real failure of 'why won't the cloth take the dye,' the teacher gave no answer but organized controlled trial — confusion treated as an asset, not an accident.",
+        "Cautionary counterexample: his attack on the classroom 'question-and-answer method' — questions pre-set by the teacher, answers ready in advance, students performing inquiry without perplexity; without real failure there is no real inquiry, and staged inquiry produces only recitation."
+      ],
+      "modern_applications_zh": [
+        "复盘工程化：项目复盘不从结论开始，先固定'当时哪里失效'的原始记录，再走受控探究程序——防止复盘变成追认",
+        "组织决策的知识管理：每份'经验教训'必须附失效条件与适用边界，禁止无边界引用",
+        "研究评审改革：资助与发表评审改问'探究是否受控'（证据、可重复、可检验），少问'结论是否惊人'",
+        "个人学习起点管理：从真实困惑出发定学习计划（哪里失效学什么），废'按清单先修'式学习"
+      ],
+      "modern_applications_en": [
+        "Engineered retrospectives: begin from the raw record of 'what actually broke,' then run the controlled-inquiry procedure — never a retrospective that merely ratifies.",
+        "Knowledge management for decisions: every 'lesson learned' must carry failure conditions and boundaries of applicability; unbounded citation is banned.",
+        "Research review reform: ask grant and publication reviewers 'was the inquiry controlled' (evidence, repeatability, checkability) more than 'is the conclusion striking.'",
+        "Personal learning starts: plan study from live perplexities (learn where things break), against the syllabus-first model of learning."
+      ],
+      "related_modes": [
+        "M-DY-004",
+        "M-DY-005",
+        "M-KD-002"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "皮尔士（《信念的确定》：探究源于怀疑的原创者）",
+        "波普尔（猜想与反驳的同构平行者）",
+        "库恩（范式内困惑触发探究的后续者）"
+      ],
+      "key_quote_zh": "探究是把不确定情境转化为确定情境的活动——知识不是探究的起点，而是探究的产物。",
+      "key_quote_en": "Inquiry is the activity that converts an indeterminate situation into a determinate one; knowledge is not inquiry's starting point but its product."
+    },
+    {
+      "id": "M-DY-003",
+      "name_zh": "学校即社会法",
+      "name_en": "School as Society: The Embryonic Community",
+      "mode_code": "M-DY-003",
+      "category": "核心方法",
+      "domain_zh": "教育学/教育组织形态",
+      "domain_en": "Education / Organizational Form of Schooling",
+      "level": "核心",
+      "priority": "3",
+      "definition_zh": "杜威要把学校从'与社会隔绝的读书所'改写为'社会生活的胚胎形式'：'学校即社会'——学校应当是一个简化、净化、平衡了的社会环境。方法论签名有三：其一，简化——社会太复杂，学校从中选取最有价值的要素（合作、分工、责任、交换）做可理解的浓缩，让儿童在小尺度上经历真实的社会运作；其二，净化——选取'经过筛选的最好社会生活'，排除流行偏见与恶性竞争，学校不是社会的缩影而是社会的优选；其三，平衡——让每个儿童脱离其出身环境的狭隘经验，接触更广的文明成果，学校是对家庭与阶层经验的纠偏器。关键在'真社会'与'仿真社会'的分界：学校里的商店要真经营、账要真记、分歧要真协商——若只是摆设式的'模拟'，儿童立即识别出那是另一个鸟笼。这一命题与'教育即生活'互为表里：既然教育即生活，学校就必须首先是生活共同体；后来陶行知把它倒置为'社会即学校'——杜威在校内造社会，陶把学校送进社会，同一直觉的两个相反方向。",
+      "definition_en": "Dewey rewrote the school from 'a reading-house walled off from society' into 'the embryonic form of social life': school as society — a simplified, purified, and balanced social environment. Three signatures define the mode. First, simplification: society is too complex; the school selects its most valuable elements (cooperation, division of labor, responsibility, exchange) into an intelligible concentrate, letting children run real social operations at small scale. Second, purification: it selects 'the best of filtered social life,' excluding prevailing prejudice and vicious competition — the school is not society in miniature but society curated. Third, balancing: every child is lifted out of the narrow experience of their birth environment into a wider civilization; the school is a corrector of family and class experience. The crux is the line between a real society and a staged one: the school shop must truly trade, the accounts truly kept, the disputes truly negotiated — set up as decoration, children instantly recognize another birdcage. The proposition is the twin of 'education as life': if education is life, the school must first be a living community. Tao Xingzhi later inverted it into 'society as school' — Dewey builds society inside the school; Tao sends the school out into society: one intuition, two opposite directions.",
+      "source_chapter": "杜威《学校与社会》第1章'学校与社会进步'（1899）；《民主主义与教育》第2、25章",
+      "key_concepts": [
+        "学校即社会",
+        "胚胎社会",
+        "简化净化平衡",
+        "真社会判据",
+        "经验纠偏器",
+        "合作共同体"
+      ],
+      "process_zh": [
+        "选取社会要素：列出学校要承载的'社会运作'清单（合作、分工、账目、议事、服务），宁少而真，不多而假",
+        "做真判据审查：每一项活动问'失败是否有真实代价、成功是否有真实受益者'——两者皆无即为摆设，重造",
+        "配置纠偏功能：检查课程经验是否覆盖了不同出身儿童的盲区——学校必须补家庭经验的狭隘而非复制它",
+        "以共同体规则治理：校规由使用者参与修订，冲突走协商程序——治理本身即是最好的社会课"
+      ],
+      "process_en": [
+        "Select the social elements: list the social operations the school will carry — cooperation, division of labor, accounts, deliberation, service; few and real rather than many and fake.",
+        "Run the realness audit: for each activity ask 'does failure carry real cost, does success have real beneficiaries' — if neither, it is a prop; rebuild.",
+        "Wire in the corrective function: check whether curricular experience covers the blind spots of children from every background — the school must remedy the narrowness of home experience, not replicate it.",
+        "Govern by community rules: rules revised with the participation of their subjects, conflicts run through deliberation — governance itself is the best lesson in society."
+      ],
+      "representative_cases_zh": [
+        "杜威学校的'木工与烹饪课'：七至九岁儿童在真实厨房与工坊里分工协作，饭是真做真吃、工具是真买真养——'作业即社会生活'，读书识数在作业的需要里生长",
+        "学校办'交换与记录'：儿童的产品（织物、木器）与校外真实市场连接，账目公开——社会运作的完整循环在学校内部可观测",
+        "反面警示：杜威讽刺当时'手工课'的装饰化——纸编花篮挂在墙上，与任何真实需要无关：那是把'社会活动'做成教具的社会仿真；判据始终是'真'，不是'像'"
+      ],
+      "representative_cases_en": [
+        "Woodwork and cooking at the Dewey School: children aged seven to nine divided real labor in a working kitchen and shop — meals truly cooked and eaten, tools truly bought and maintained; 'occupations as social life,' with reading and number growing inside their needs.",
+        "Exchange and record-keeping in school: children's products — cloth, woodwork — connected to a real outside market with open accounts; the full cycle of social operation observable within the school.",
+        "Cautionary counterexample: Dewey mocked the ornamental 'handicraft class' — paper baskets on the wall, tied to no real need: society simulated as a teaching aid. The criterion is always 'real,' never 'lifelike.'"
+      ],
+      "modern_applications_zh": [
+        "学校真实经营：校园咖啡屋、快递站、二手市集由学生真实运营并对全校负责——'真'字判据检验每一环",
+        "企业内'胚胎组织'：让管培生团队真实接手一个小业务单元（含盈亏），管理课在经营里发生",
+        "社区'优选社会'设计：社区花园、共治议事从'活动'升级为'制度'——有真实代价与真实受益者",
+        "线上社群治理：社群规则由成员参与修订、纠纷走公开协商——把' embryonic community'搬进数字空间"
+      ],
+      "modern_applications_en": [
+        "Real operation in schools: a campus cafe, parcel desk, or flea market run by students with accountability to the whole school — every link passing the 'realness' test.",
+        "The embryonic unit in firms: a management trainee team truly takes over one small business line, P&L included — management learned inside operating.",
+        "Designing the 'curated society' in communities: upgrade community gardens and co-governance from 'activities' to 'institutions' — real costs, real beneficiaries.",
+        "Governance of online communities: rules revised by members, disputes settled in open deliberation — the embryonic community carried into digital space."
+      ],
+      "related_modes": [
+        "M-DY-001",
+        "M-DY-006",
+        "M-TXZ-002"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "陶行知（倒置为'社会即学校'的再创造者）",
+        "帕克（弗朗西斯·帕克，'昆西运动'的先行者）",
+        "杜威学校师生（胚胎社会的第一批居民）"
+      ],
+      "key_quote_zh": "学校主要是一种社会生活的形式——学校即社会；教育是生活的过程，而不是将来生活的预备。",
+      "key_quote_en": "The school is primarily a form of social life — school as society; education is a process of living, not a preparation for future living."
+    },
+    {
+      "id": "M-DY-004",
+      "name_zh": "反思性思维五步法",
+      "name_en": "The Five Steps of Reflective Thinking",
+      "mode_code": "M-DY-004",
+      "category": "核心方法",
+      "domain_zh": "认识论/思维训练",
+      "domain_en": "Epistemology / Training of Thinking",
+      "level": "核心",
+      "priority": "4",
+      "definition_zh": "《我们怎样思维》（1910）把'思维'从玄虚名词改写为可教工序：反思性思维按五步运行——（1）暗示：情境中浮现的初步想法；（2）理智化：把困难转成明确的问题；（3）假设：提出可能的解决；（4）推理：以已知推演假设的后果；（5）检验：回到行动中证实或推翻。方法论签名有三：其一，问题化是枢纽——第二步把弥漫的不适凝成可陈述的问题，'把感觉变成问题'是整条工序中最大的增值动作，多数失败不是解错而是问错；其二，推理不等于解决——第四步的推演只是纸上检验，结论必须回到第五步行动中受审，推理与检验之间的落差即认知增长的空间；其三，工序可教但不可程式化——五步是思维的自然结构而非机械程序，杜威明确反对把它编成固定表格让学生背诵：步骤的顺序可在真实情境中往复交错。这一模式与'探究发生学'互补：五步法是探究的微观工序图，也是杜威教育方法论中被引用最多、被滥用也最多的部分——他警告：五步的价值在于情境的真实，一旦离开真实困惑，五步就退化成新的背诵科目。",
+      "definition_en": "How We Think (1910) rewrote 'thinking' from a mystic noun into a teachable procedure: reflective thinking runs in five steps — (1) suggestion: a first idea surfaces in the situation; (2) intellectualization: the difficulty is turned into a definite problem; (3) hypothesis: possible solutions are proposed; (4) reasoning: consequences of the hypothesis are worked out from what is known; (5) testing: back in action, the idea is confirmed or overthrown. Three signatures define the mode. First, problematization is the hinge: step two condenses a diffuse discomfort into a statable problem; 'turning a feeling into a question' is the highest-value move of the whole line — most failures are wrong questions, not wrong answers. Second, reasoning is not solution: step four is only a paper test; the conclusion must return to step five and stand trial in action — the gap between reasoning and testing is where cognition grows. Third, teachable but not formulable: the five steps are the natural structure of thought, not a mechanical routine; Dewey explicitly opposed stamping them into a fixed table for recitation — the order may loop and interleave in real situations. The mode complements the theory of inquiry: the five steps are inquiry's micro-process diagram — and the most cited, most abused part of Dewey's pedagogy; he warned that their worth lies in the reality of the situation — strip away live perplexity and the five steps decay into a new subject of recitation.",
+      "source_chapter": "杜威《我们怎样思维》第6-7章（1910，1933修订版扩为六步语境）；《民主主义与教育》第12章",
+      "key_concepts": [
+        "反思性思维",
+        "五步法",
+        "问题化",
+        "假设-检验",
+        "思维可教",
+        "反程式化"
+      ],
+      "process_zh": [
+        "捕捉暗示并悬置：出现初步想法先不执行也不否决，记录下来——直接行动与直接否决都跳过了思维",
+        "把困难写成问题：用一句话陈述'真正的困难是什么'，直至团队可以各自复述且一致——问题陈述即半程",
+        "假设并行展开：至少两个可行解同时推演（各自推到可检验的后果），禁止单解过河",
+        "以行动终审：选定的假设回到真实情境执行并设检验点，把'推理预料'与'行动实测'的落差记回问题库"
+      ],
+      "process_en": [
+        "Catch and suspend the suggestion: register the first idea without executing or vetoing — both direct action and direct dismissal skip thinking.",
+        "Write the difficulty as a problem: state in one sentence 'what the real difficulty is' until every member can restate it identically — the problem statement is half the journey.",
+        "Open parallel hypotheses: work at least two viable solutions to testable consequences; crossing on a single bridge is banned.",
+        "Final trial in action: the chosen hypothesis runs in the real situation with checkpoints; the gap between predicted and measured flows back into the problem bank."
+      ],
+      "representative_cases_zh": [
+        "杜威学校'去码头看船'单元：儿童先被真实问题卡住（如何把货物运进城），暗示与假设由儿童自己涌出，教师只在'问题化'处给一根杠杆——五步全程由真实情境驱动",
+        "《我们怎样思维》的名例： columbus 与 egg 的讨论——'地球是圆的'若只是背诵则是死知识，只有在'如何证明'的问题里经历五步，才成为活的探究",
+        "反面警示：杜威1933年修订版专门增补警告——进步学校把五步做成'科学方法表格'贴在墙上让学生填空：工序离开真实困惑即成新八股，填表不等于思考；他称这是对自己方法'最忠诚的背叛'"
+      ],
+      "representative_cases_en": [
+        "The Dewey School's 'to the wharf to see ships' unit: children first stall on a real problem (how to move the goods into town); suggestions and hypotheses come from them, the teacher inserting one lever at 'problematization' — all five steps driven by the live situation.",
+        "The famous case in How We Think: 'the earth is round' as recitation is dead knowledge; only inside the problem 'how would we prove it' does it pass through the five steps and become living inquiry.",
+        "Cautionary counterexample: the 1933 revision added an explicit warning — progressive schools turning the five steps into a 'scientific method form' pasted on the wall for students to fill in; a procedure cut from live perplexity is a new formalism, and filling forms is not thinking. He called it the 'most faithful betrayal' of his method."
+      ],
+      "modern_applications_zh": [
+        "会议问题化规程：任何讨论开始前先共同确认'真正的问题是什么'的一句话陈述，未达成一致不进入方案环节",
+        "产品决策双假设制：重要决策至少两个假设并行推演到可检验后果再选边——防止'单解式论证'",
+        "复盘对接问题库：每次行动的'预料-实测'落差结构化登记，成为下一轮反思性思维的输入",
+        "教育者训练：教思维先教'把感觉写成问题'——出题能力重于解题能力"
+      ],
+      "modern_applications_en": [
+        "A problematization rule for meetings: before any discussion, one sentence stating 'what the real problem is,' agreed by all — no solutions until agreed.",
+        "Dual-hypothesis product decisions: major calls run at least two hypotheses to testable consequences before choosing — against single-bridge argument.",
+        "Retrospectives feeding a problem bank: predicted-versus-measured gaps are structured entries — the next round's reflective input.",
+        "Educator training: to teach thinking, first teach 'writing the feeling as a question' — question-craft outranks answer-craft."
+      ],
+      "related_modes": [
+        "M-DY-002",
+        "M-DY-003",
+        "M-KD-006"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "皮尔士（怀疑-信念-探究的先声）",
+        "波普尔（猜想与反驳的同构）",
+        "克伯屈（把工序放大为'设计教学法'的放大者）"
+      ],
+      "key_quote_zh": "思维起于直接经验的情境中所生的疑难与问题——把困难理智化为问题，是反思性思维的关键一步。",
+      "key_quote_en": "Thinking arises in the difficulty and problem born of a directly experienced situation — to intellectualize the difficulty into a problem is the pivotal step of reflective thinking."
+    },
+    {
+      "id": "M-DY-005",
+      "name_zh": "从做中学法",
+      "name_en": "Learning by Doing: Knowledge Grown in Purposeful Action",
+      "mode_code": "M-DY-005",
+      "category": "核心方法",
+      "domain_zh": "教育学/学习方法论",
+      "domain_en": "Education / Method of Learning",
+      "level": "核心",
+      "priority": "5",
+      "definition_zh": "'从做中学'常被缩写为口号，杜威的原意是一个完整的认知结构：'做'不是任何活动，而是'有目的的作业'（occupation）——有始有终、包含真实问题与检验的社会性工作。方法论签名有三：其一，以事载知——知识的组织单位不是学科而是'事情'：纺纱织布、经营商店、烹饪用餐各自内嵌着读、写、算、化学与历史，学科从事情里抽引而非先于事情；其二，目的-手段回路——真正的做必须有儿童自己认可的目的，方法因目的而生（想做饭才学配比，想航海才学经纬），无目的的动手只是手工操练；其三，在检验中成形——做的结果要经受真实世界的检验（饭能吃、账能平、桥能站），检验的反馈把'动作'升级为'经验'。这一命题的边界同样明确：杜威反对把'做'浪漫化为'儿童随意活动'，1938年他清算道：无方向的活动是'以活动代替教育'的懒惰——做必须是有组织的作业。陶行知把本命题推进为'在劳力上劳心'与'教学做合一'：杜威以做组织学习，陶以做统一教学——同一直觉在中国乡村条件下的更彻底形式。",
+      "definition_en": "'Learning by doing' is usually quoted as a slogan; Dewey's meaning is a complete cognitive structure: 'doing' is not any activity but a purposeful occupation — a social undertaking with beginning and end, containing real problems and real checks. Three signatures define the mode. First, knowledge carried by the deed: the organizing unit of knowledge is not the discipline but the undertaking — spinning, weaving, running a shop, cooking each embeds reading, writing, arithmetic, chemistry, and history; disciplines are drawn out of the deed, not prior to it. Second, the purpose-means loop: genuine doing requires a purpose the child himself endorses; method is born of purpose (one learns ratios to cook, longitude to sail), and purposeless handiwork is mere drill. Third, formed in the check: the deed's result must stand the real world's test — the food edible, the accounts balancing, the bridge standing — and that feedback upgrades 'motion' into 'experience.' The boundaries are equally explicit: Dewey opposed romanticizing 'doing' into children's arbitrary activity; in 1938 he reckoned that directionless activity is laziness that 'substitutes activity for education' — doing must be organized occupation. Tao Xingzhi advanced this into 'thinking within laboring' and the unity of teaching-learning-doing: Dewey organizes learning by doing; Tao unifies teaching by doing — one intuition, made more radical under Chinese village conditions.",
+      "source_chapter": "杜威《民主主义与教育》第14-15章'作业'（1916）；《学校与社会》；《经验与教育》第2-3章",
+      "key_concepts": [
+        "从做中学",
+        "有目的的作业",
+        "以事载知",
+        "目的-手段回路",
+        "真实检验",
+        "反无方向活动"
+      ],
+      "process_zh": [
+        "选定有目的的作业：每单元锚定一件参与者自己认可的事（办报、开店、种田），禁止教师强加'假装想做的事'",
+        "从事中抽引学科：把该事内嵌的读算、原理、历史列成'事内课程'，学在需要处而非学期初",
+        "给做以真实检验：产出对接真实使用者或真实环境（真卖、真吃、真用），反馈回流入下一轮作业",
+        "防止活动漂移：定期检查作业是否仍围绕核心目的——从'做事'漂成'热闹'即须重新锚定"
+      ],
+      "process_en": [
+        "Choose purposeful occupations: anchor every unit on an undertaking the participants themselves endorse (run a paper, a shop, a plot); teacher-imposed 'pretend purposes' are banned.",
+        "Draw the disciplines from the deed: list the reading, arithmetic, principles, and history embedded in it as 'curriculum inside the task,' learned at the point of need, not at term's start.",
+        "Give doing a real check: route outputs to real users or real environments — truly sold, truly eaten, truly used — with feedback flowing into the next round.",
+        "Guard against activity drift: periodically verify the occupation still serves its core purpose; drifting from 'the deed' into 'the buzz' requires re-anchoring."
+      ],
+      "representative_cases_zh": [
+        "杜威学校的纺织作业线：儿童为给全班做窗帘而从种棉叙事进入纺、织、染，其间自然学习纤维化学、机械原理与工业史——学科全部内嵌在'做窗帘'这一件事里",
+        "烹饪课的算术与化学：配比、称量、温度测量都因'要做出能吃的饭'而被需要——知识在用途的张力中被记忆",
+        "反面警示：杜威批评某些进步学校把'做中学'做成'剪纸贴画自由时光'——没有目的、没有检验、没有知识抽引的活动量再大也只是'忙碌的空转'；1938年他直指这是进步教育的堕落形式"
+      ],
+      "representative_cases_en": [
+        "The weaving line at the Dewey School: to make curtains for the whole class, children entered through the cotton story into spinning, weaving, and dyeing — learning fiber chemistry, mechanics, and industrial history naturally embedded in 'making curtains.'",
+        "Arithmetic and chemistry in cooking: ratios, weighing, and temperature were needed because 'the meal must be edible' — knowledge memorized under the tension of use.",
+        "Cautionary counterexample: Dewey attacked schools that turned learning-by-doing into 'scissors-and-paste free time' — purposeless, unchecked, drawing out no knowledge; however large the activity volume, it is busy idling. In 1938 he named it progressive education's degenerate form."
+      ],
+      "modern_applications_zh": [
+        "课程事内化：把学科知识点映射到真实作业（办一场展览、修一段路），教学按'事的需要'而非章节表推进",
+        "企业'目的-手段'培训：新技能培训必须由学员自己的真实项目承载，禁'通用课件先行'",
+        "产品以真检验收：学习成果对接真实用户试用而非模拟评分——反馈回流入下一轮作业设计",
+        "防止活动漂移审计：创新工作坊每两周期检查'还在做最初那件事吗'，漂移即重新锚定"
+      ],
+      "modern_applications_en": [
+        "Deed-internalized curricula: map discipline knowledge onto real undertakings (mount an exhibition, repair a path); teach by the task's needs, not the chapter table.",
+        "Purpose-means corporate training: new-skill training must be carried by trainees' own real projects; generic courseware first is banned.",
+        "Real-check acceptance: learning outputs face real users, not simulated scores; feedback flows back into the next cycle's design.",
+        "Activity-drift audits: every two cycles, innovation workshops check 'are we still doing the thing we set out to do' — on drift, re-anchor."
+      ],
+      "related_modes": [
+        "M-DY-001",
+        "M-DY-003",
+        "M-TXZ-003"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "陶行知（推进为'教学做合一'的高足）",
+        "裴斯泰洛齐（手工与心智结合的先声）",
+        "杜威学校教师（Mayhew 与 Camp 的作业记录者）"
+      ],
+      "key_quote_zh": "学校中求知的真正方法，不是消极地接受知识，而是积极地从事有目的的作业——从做中学。",
+      "key_quote_en": "The true method of knowledge in school is not passive reception but active engagement in purposeful occupation — learning by doing."
+    },
+    {
+      "id": "M-DY-006",
+      "name_zh": "经验连续性交互性判别法",
+      "name_en": "Continuity and Interaction: The Criteria of Educative Experience",
+      "mode_code": "M-DY-006",
+      "category": "核心方法",
+      "domain_zh": "教育学/经验质量判据",
+      "domain_en": "Education / Criteria of Experience Quality",
+      "level": "核心",
+      "priority": "6",
+      "definition_zh": "《经验与教育》（1938）给出杜威最有操作价值的一对判据：不是一切经验都有教育价值——赌博、恶习的经验同样连续同样投入；一条经验是否具有教育性，取决于两条性质。其一，连续性：当下经验须从过去经验中生长出来，并向未来经验开放——它改变着经验者的方向与偏好，好的经验使后续经验更容易更深，坏的经验使后续经验更窄更难（'成长'本身也要辨方向：小偷的经验也连续，但朝向封闭）。其二，交互性：当下经验须是个体内部状态与真实环境之间的双向作用——只运转于个人内部的（白日梦）与只来自外部灌输的（填鸭）都不成经验。方法论签名有三：其一，质量判据替代活动判据——衡量教育不问'做了多少活动'而问'经验的连续性与交互性质量如何'；其二，'什么经验值得有'成为教育者的核心职责——进步教育的失败正是放弃了这个选择权，把'儿童想要'当成了'对儿童好'；其三，纵向风险评估——设计任何教育安排时，评估它为未来经验准备了什么条件：开放了还是封闭了后续生长的可能。",
+      "definition_en": "Experience and Education (1938) gives Dewey's most operational pair of criteria: not every experience is educative — gambling and vice are equally continuous and absorbing. An experience is educative by two properties. First, continuity: present experience must grow out of past experience and open into future experience — it changes the person's direction and preference; good experiences make later ones easier and deeper, bad ones narrower and harder ('growth' itself needs a direction audit: the thief's experience is continuous too, but toward closure). Second, interaction: present experience must be a two-way transaction between inner states and a real environment — what runs only inside (daydream) and what comes only from outside (cramming) are both experienceless. Three signatures define the mode. First, quality criteria replace activity counts: measure education not by 'how much activity' but by the continuity-and-interaction quality of experience. Second, 'what experiences are worthwhile' becomes the educator's core duty — progressive education failed by surrendering this power of selection, taking 'the child wants' for 'good for the child.' Third, longitudinal risk assessment: in designing any arrangement, evaluate what conditions it lays down for future experience — does it open or close further growth?",
+      "source_chapter": "杜威《经验与教育》第1-3章（1938）；《民主主义与教育》第11章'经验与思维'",
+      "key_concepts": [
+        "经验连续性",
+        "交互性",
+        "经验质量判据",
+        "什么经验值得有",
+        "教育者选择权",
+        "成长方向审计"
+      ],
+      "process_zh": [
+        "给经验做双维体检：对每项教育安排问两问——它连接了哪些过去经验、为哪些未来经验开放？它是个体与环境的真实交互还是单向灌输/纯内部空转？",
+        "做方向审计：连续不等于好——检查经验的连续性朝向开放（兴趣扩展）还是封闭（偏好窄化、依赖加深）",
+        "收回选择权：教育者对'什么经验值得有'给出明确判断并负其责——'儿童喜欢'是证据不是答案",
+        "以未来条件复盘：每学期末评估这些经验为参与者准备了什么条件（更愿学？更会学？更依赖？），据此重排下期"
+      ],
+      "process_en": [
+        "Give experience a two-dimensional checkup: for each arrangement ask — which past experiences does it connect, which future ones does it open? Is it real transaction between person and environment, or one-way pouring / pure internal spinning?",
+        "Run the direction audit: continuity is not goodness — check whether continuity opens (interests expanding) or closes (preferences narrowing, dependence deepening).",
+        "Reclaim the power of selection: educators state clearly which experiences are worthwhile and own the judgment — 'the child likes it' is evidence, not answer.",
+        "Review by future conditions: at term's end, assess what conditions these experiences laid down (more willing to learn? more able? more dependent?) and re-sequence accordingly."
+      ],
+      "representative_cases_zh": [
+        "《经验与教育》的直接靶子：进步学校废除一切传统后放任儿童'自由活动'——活动照常、经验质量崩塌：无连续性（与过去所学断开）、无交互性（环境只是背景布）；杜威以这本小书对追随者做公开清算",
+        "'传统教育与进步教育共同的错误'诊断：两者都错在把'教育是经验的有组织改造'降为单向控制或完全放任——他主张第三条路：教育者按双判据组织经验",
+        "反面警示：他举'儿童讨厌数学'的例子——按进步逻辑应弃数学，但按连续性判据，弃学的经验朝向'遇难即退'的封闭；教育者的职责是重设计数学的经验入口，而不是替儿童确认退出"
+      ],
+      "representative_cases_en": [
+        "The direct target of Experience and Education: progressive schools, after abolishing every tradition, let children 'do as they please' — activity continued, experience quality collapsed: no continuity (cut off from prior learning), no interaction (environment as backdrop); the little book is Dewey's public reckoning with his followers.",
+        "Diagnosis of 'the common error of old and new education': both degrade 'education as the organized reconstruction of experience' into one-way control or total laissez-faire; his third way: the educator organizes experience by the twin criteria.",
+        "Cautionary counterexample: the child who 'hates math' — progressive logic says drop it; but by the continuity criterion, quitting-orients toward the closure of 'retreat when hard.' The educator's duty is to redesign the experiential entry to mathematics, not to ratify the exit."
+      ],
+      "modern_applications_zh": [
+        "课程双维体检表：每门课按'连续性（与前后课程/经验的接口）×交互性（学员与真实环境的双向度）'打分，双低即重造",
+        "企业培训的方向审计：培训后员工更愿学更会学，还是更依赖课件？——后者是封闭型连续性",
+        "教育产品的选择权声明：个性化学习产品须明示'我们判断什么经验值得有'，而非只按点击偏好推送",
+        "成长型复盘：个人年度复盘不问'忙了什么'，问'哪些经验打开了后续可能、哪些把路走窄了'"
+      ],
+      "modern_applications_en": [
+        "A two-dimensional curriculum checkup: score each course on continuity (interfaces with prior and later experience) x interaction (two-way engagement with the real world); double-low means rebuild.",
+        "Direction audit in corporate training: does training leave employees more willing and able to learn — or more dependent on courseware? The latter is continuity toward closure.",
+        "The selection-power statement: personalized learning products must declare 'which experiences we judge worthwhile,' not merely push by click preference.",
+        "Growth retrospection: the personal annual review asks not 'what kept me busy' but 'which experiences opened later possibilities, which narrowed the road.'"
+      ],
+      "related_modes": [
+        "M-DY-001",
+        "M-DY-005",
+        "M-DY-007"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "克伯屈（被本判据批评的'儿童中心'放大者）",
+        "科尔布（经验学习圈的后继形式化者）",
+        "进步教育协会（被清算的对象与见证者）"
+      ],
+      "key_quote_zh": "教育即经验的不断改造——相信一切真正的教育都来自经验，并不意味着一切经验都真正具有教育意义。",
+      "key_quote_en": "Education is the continuous reconstruction of experience — but the belief that all genuine education comes through experience does not mean that all experiences are genuinely educative."
+    },
+    {
+      "id": "M-DY-007",
+      "name_zh": "民主作为交流结构法",
+      "name_en": "Democracy as Communicative Community",
+      "mode_code": "M-DY-007",
+      "category": "核心方法",
+      "domain_zh": "政治哲学/民主与教育",
+      "domain_en": "Political Philosophy / Democracy and Education",
+      "level": "核心",
+      "priority": "7",
+      "definition_zh": "《民主主义与教育》第7章给出杜威的非政体定义：民主'首先是一种共同生活的方式，是共同交流经验的方式'——衡量民主的不是选举装置而是共同经验交流的广度与深度：社会成员分享的利益有多少、与其他群体的交流有多少样、对交流后果的适应有多灵活。方法论签名有三：其一，交流判据——一个共同体民主与否，看信息与经验能否跨越阶层、世代、群体自由流动，阻塞处即不民主处；其二，自由作为有效交流的条件——言论、集会、教育的自由不是天赋权利清单，而是'交流得以发生的工程条件'，没有交流能力的自由是形式自由；其三，学校为民主的胚胎社会——民主不能靠讲授获得，只能在共同生活的经验中长出，学校若按权威-服从组织，则无论课程讲多少民主都是负教育。这一模式与甘地的村社自治同向：两者都把民主定位于生活方式而非政权装置，一个以学校为杠杆，一个以村社为杠杆。它也是对形式民主最有力的诊断工具：投票仪式齐全而经验交流贫瘠的社会，杜威会判其'低民主'。",
+      "definition_en": "Chapter 7 of Democracy and Education gives Dewey's non-polity definition: democracy is 'primarily a mode of associated living, of conjoint communicated experience' — measured not by electoral apparatus but by the breadth and depth of shared experience: how numerous and varied are the interests a community consciously shares, how full and free is the interplay with other forms of association. Three signatures define the mode. First, the communicative criterion: a community is democratic to the degree that information and experience flow freely across classes, generations, and groups — wherever it blocks, it is undemocratic. Second, freedom as the engineering condition of effective communication: speech, assembly, and educational freedom are not a checklist of innate rights but the enabling infrastructure of communication; freedom without communicative capacity is formal freedom. Third, the school as democracy's embryonic society: democracy is acquired not by lecturing but grown in shared living; a school organized on authority-obedience is negative education no matter how much democracy its curriculum preaches. The mode runs parallel to Gandhi's village swaraj: both locate democracy in a way of life, not a state apparatus — one with the school as lever, the other the village. It is also the sharpest diagnostic of formal democracy: a society with complete voting ritual and impoverished communication Dewey would score 'low democracy.'",
+      "source_chapter": "杜威《民主主义与教育》第7章（1916）；《公众及其问题》（1927）；《新旧个人主义》（1930）",
+      "key_concepts": [
+        "民主作为生活方式",
+        "共同经验交流",
+        "交流判据",
+        "自由的工程条件",
+        "胚胎社会",
+        "形式民主批判"
+      ],
+      "process_zh": [
+        "做交流普查：绘制共同体的经验流动图——哪些群体的经验从未进入公共讨论？阻塞点即不民主点",
+        "检查自由的工程条件：言论、集会、教育自由是否配套了使用能力（读写、议事、信息素养）——无能力的自由是形式自由",
+        "把治理做成交互结构：决策过程向受影响者开放听证与反馈回路，交流质量作为治理指标纳入考核",
+        "以学校为苗圃：审查学校的组织方式是否与所教的民主一致——权威-服从型学校教不出民主公民"
+      ],
+      "process_en": [
+        "Census the communication: map how experience flows through the community — whose experience never enters public discussion? Blockages are the undemocratic points.",
+        "Check the engineering conditions of freedom: do speech, assembly, and educational freedoms come with capacities (literacy, deliberation, information skills)? Freedom without capacity is formal freedom.",
+        "Run governance as interactive structure: decisions open to hearings and feedback loops with the affected; communication quality becomes a governance KPI.",
+        "Use the school as nursery: audit whether the school's own organization matches the democracy it teaches — authority-obedience schools cannot grow democratic citizens."
+      ],
+      "representative_cases_zh": [
+        "《公众及其问题》的诊断：工业时代的'公众'被机器与资本的规模'蒸发'了——问题复杂到公众看不见自己，民主危机是交流结构的危机而非投票技术的危机；重建公众即重建交流基础设施",
+        "杜威学校的'讨论式治理'：课程与校务向儿童开放协商——他坚持儿童在共同生活中练习民主，比任何公民教科书都有效",
+        "反面警示：他批评一战期间美国学校的'爱国仪式化'——每天向国旗宣誓的学校却在训练服从而非交流：仪式化的民主教学是民主的反面教材，因为学校自身的组织方式否定了所教内容"
+      ],
+      "representative_cases_en": [
+        "The Public and Its Problems' diagnosis: the industrial 'public' was 'eclipsed' by the scale of machines and capital — problems grew too complex for the public to see itself; the crisis of democracy is a crisis of communication structure, not voting technology; rebuilding the public means rebuilding communication infrastructure.",
+        "Deliberative governance at the Dewey School: curriculum and school affairs negotiated openly with children — democracy practiced in shared living, more effective than any civics textbook.",
+        "Cautionary counterexample: his attack on wartime American schools' 'patriotic ritualization' — schools that pledged allegiance daily while training obedience, not communication: ritualized democratic instruction is democracy's negative example, for the school's own organization denies what it teaches."
+      ],
+      "modern_applications_zh": [
+        "组织'低民主'诊断：会议记录里谁的声音从未出现？信息上行走几层？——交流阻塞处即治理改造处",
+        "平台治理交流判据：社区规则的修订是否让受影响者真实参与？反馈是否回流？——以交流质量而非用户量评平台",
+        "学校自组织审计：教民主的学校先查自己的管理方式与课程是否一致",
+        "公共参与设计：城市更新先做'经验交流基础设施'（听证、共研、信息公开），程序仪式放第二位"
+      ],
+      "modern_applications_en": [
+        "Organizational 'low democracy' diagnosis: whose voices never appear in meeting minutes? How many layers does information climb? Blockages mark the governance fixes.",
+        "The communicative criterion for platforms: are community rules revised with real participation of the affected? Does feedback return? Rate platforms by communication quality, not user count.",
+        "School self-organization audit: schools teaching democracy first audit whether their own management matches their curriculum.",
+        "Public participation design: for urban renewal, build the communication infrastructure (hearings, co-research, open records) before the procedural ceremony."
+      ],
+      "related_modes": [
+        "M-DY-003",
+        "M-DY-010",
+        "M-GAN-002"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "甘地（村社自治的平行路线）",
+        "哈贝马斯（公共领域与交往理性的后继者）",
+        "简·亚当斯（赫尔馆：交流结构的现场实践者）"
+      ],
+      "key_quote_zh": "民主首先是一种共同生活的方式，是共同交流经验的方式——衡量民主的标尺是共同经验的广度与深度。",
+      "key_quote_en": "Democracy is primarily a mode of associated living, of conjoint communicated experience — its measure the breadth and depth of shared experience."
+    },
+    {
+      "id": "M-DY-008",
+      "name_zh": "教育无外在目的法",
+      "name_en": "No External Ends: Against the Colonization of Learning",
+      "mode_code": "M-DY-008",
+      "category": "核心方法",
+      "domain_zh": "教育学/目的论与课程政治",
+      "domain_en": "Education / Teleology and the Politics of Curriculum",
+      "level": "核心",
+      "priority": "8",
+      "definition_zh": "《民主主义与教育》第8章的反殖民命题：凡由外部强加于教育过程的目的，都是把儿童当下经验的价值打了折扣——'教育过程以外无目的'。杜威并不否认目的，他反对的是目的的位置：好目的产生于过程内部（参与者当下的经验与需要），坏目的从外部（朝廷、教会、雇主、排行榜）注入并奴役过程。方法论签名有三：其一，目的来源审计——每一项教育目标追问'谁定的、为谁的利益、参与者此刻在其中经验到什么'，三问有一答不实即为殖民目的；其二，一般目的与具体目的之分——'生长''民主''健康'是一般方向，需要不断翻译为参与者内部的具体目的；把一般目的直接当操作目标（如把'升学'当教育目的）即范畴错误；其三，目的的工具性——目的本身是经验的指南针而非终点站，随过程修正，'好的目的'的特征是能被经验改进。这一命题把课程政治摊开在桌面上：一切'为了将来好'的说辞都要接受'此刻儿童的经验发生了什么'的审查——是20世纪教育目的论上最锋利的一次去魅。",
+      "definition_en": "Chapter 8 of Democracy and Education is an anti-colonial proposition: any aim imposed on the educative process from outside discounts the value of the child's present experience — 'there is no end outside the process.' Dewey denies not aims but their position: good aims arise inside the process (from participants' present experience and needs); bad aims are injected from outside (court, church, employer, ranking) to enslave the process. Three signatures define the mode. First, the aim-source audit: for every educational goal ask 'who set it, in whose interest, what do participants experience in it now' — any false answer marks a colonial aim. Second, general versus concrete aims: 'growth,' 'democracy,' 'health' are general directions requiring continuous translation into participants' own concrete aims; taking a general aim directly as an operating target (as when 'exam success' becomes the aim of education) is a category error. Third, the instrumentality of aims: an aim is a compass of experience, not a terminus, revised as the process moves; the mark of a good aim is that experience can improve it. The proposition lays curriculum politics on the table: every 'for your own future good' claim must stand the review of 'what is happening to this child's experience right now' — the sharpest demystification in 20th-century educational teleology.",
+      "source_chapter": "杜威《民主主义与教育》第8章'教育中之目的'（1916）；《经验与教育》第3章",
+      "key_concepts": [
+        "教育无外在目的",
+        "目的来源审计",
+        "内在目的",
+        "一般目的与具体目的",
+        "课程政治",
+        "目的工具性"
+      ],
+      "process_zh": [
+        "做目的来源审计：对本机构每项教育目标问三问——谁定的？为谁的利益？参与者此刻经验到什么？",
+        "把一般方向翻译为内部目的：'成长''素养'等方向性目标须转写为参与者自己认可的具体事项，否则不进课程表",
+        "给目的留修正通道：每学期检讨目标本身是否被经验推翻——不可修正的目标即是教条",
+        "清理殖民条款：凡以未来许诺压制当下经验的安排（体罚、悬空操练、恐惧驱动），列为优先废除对象"
+      ],
+      "process_en": [
+        "Audit aim sources: for every educational goal in the institution ask — who set it, for whose interest, what do participants experience in it now?",
+        "Translate general directions into internal aims: 'growth' and 'literacy' as directions must be rewritten as concrete items participants endorse, or they stay off the timetable.",
+        "Keep a revision channel for aims: each term review whether the aims themselves were overthrown by experience — an un-revisable aim is doctrine.",
+        "Sweep out colonial clauses: arrangements that suppress present experience with future promises (corporal discipline, suspended drills, fear-driven study) head the abolition list."
+      ],
+      "representative_cases_zh": [
+        "'预备论'的清算（第8章核心案例）：把'为成年做准备'设为教育目的，即把儿童期降格为工具期——杜威指出这掩盖着成年人对儿童生活的实际支配：目的的位置错了，方法必然跟着错",
+        "对'为帝国服务''为教会存续'式教育目的的历史批评：他点名欧洲旧式学校把国家与教会的目的注入课程，儿童的当下经验只是耗材",
+        "反面警示：杜威同时警告'无目的'的误读——废除外部目的不等于废除一切计划：教育者的职责是把一般方向翻译为参与者内部的具体目的并随经验修正；'彻底放手'是把殖民目的换成混乱，不是解放"
+      ],
+      "representative_cases_en": [
+        "The reckoning with preparationism (the chapter's core case): setting 'preparation for adulthood' as education's aim demotes childhood to an instrument — Dewey shows this conceals the adult's actual dominion over the child's life; with the aim's position wrong, method must follow wrong.",
+        "His historical critique of 'for the empire' and 'for the church' aims: he names old European schools that injected state and church purposes into the curriculum, the child's present experience serving as consumable.",
+        "Cautionary counterexample: Dewey simultaneously warned against the 'no aims' misreading — abolishing external ends does not abolish all planning: the educator's duty is to translate general directions into participants' own concrete aims and revise them with experience; 'letting go entirely' swaps colonial aims for chaos, not liberation."
+      ],
+      "modern_applications_zh": [
+        "机构目的审计：学校/培训机构的对外宣称目标与学员内部目的逐条对照，错位处即课程政治问题",
+        "KPI 翻译规程：把'培养创新人才'式一般目标翻译为参与者认可的具体产出，禁止直接当考核指标",
+        "给目标留修正通道：年度目标评审须回答'经验推翻了哪条目标'——答不出的机构在执行教条",
+        "儿童时间支配权检查：家庭与学校清单里，由儿童自己发起的活动占比是多少？"
+      ],
+      "modern_applications_en": [
+        "Institutional aim audits: set the institution's declared goals against participants' internal aims item by item; misalignment marks the curriculum-politics problem.",
+        "KPI translation rules: general aims like 'cultivating innovators' must be rewritten as concrete outputs participants endorse — never used directly as assessment metrics.",
+        "A revision channel for targets: the annual review must answer 'which aims did experience overthrow' — institutions that cannot answer are executing doctrine.",
+        "A check on children's time sovereignty: in family and school schedules, what share of activity is initiated by the child?"
+      ],
+      "related_modes": [
+        "M-DY-001",
+        "M-DY-006",
+        "M-DY-009"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "罗素（《教育论》：无外在目的的平行论证）",
+        "伊利奇（'非学校化'的激进后裔）",
+        "泰勒（课程目标模式——被本命题批判的对立极）"
+      ],
+      "key_quote_zh": "教育过程以外无目的；它自身的目的，就是它的过程。",
+      "key_quote_en": "There is nothing outside the educative process which is its aim; its own aim is its own process."
+    },
+    {
+      "id": "M-DY-009",
+      "name_zh": "职业教育去阶级化法",
+      "name_en": "Vocational Education Against Class Fixation",
+      "mode_code": "M-DY-009",
+      "category": "核心方法",
+      "domain_zh": "教育学/职业教育与平等",
+      "domain_en": "Education / Vocational Education and Equality",
+      "level": "核心",
+      "priority": "9",
+      "definition_zh": "《民主主义与教育》第23章是杜威最尖锐的社会批判之一：当时美国的'职业教育'运动实质是资本对劳动力的分级定制——让工人子弟早点学一门窄技能、认命于一个工种；杜威反驳：真正的职业教育不是'给人谋生的窄门训练'，而是'关于职业的教育'——让所有人理解劳动、产业与文明的关系，并保持随产业变迁而重新选择的能力。方法论签名有三：其一，反固定化——'把人钉死在一个职业上'是工业封建主义，职业是经验的流动形态而非身份判决；其二，智识与体力不可分——手工艺中内含科学、经济与历史，'把读写算与文化留给白领、把操作留给蓝领'的分工在教育里必须拒绝；其三，职业教育的公共性——产业变迁的知识必须公共可得，否则教育制度沦为等级再生产的机器。这一命题在1916年即预判了此后百年的职教分轨陷阱：窄技能培训越高效，阶级固化越彻底——陶行知'教学做合一'与黄炎培'大职业教育主义'都在此延长线上。",
+      "definition_en": "Chapter 23 of Democracy and Education is among Dewey's sharpest social critiques: the American 'vocational education' movement was in substance capital's tiered tailoring of labor — teaching workers' children a narrow skill early and resignation to one trade. Dewey's rebuttal: true vocational education is not narrow training for subsistence but 'education about occupations' — letting everyone understand the relations of labor, industry, and civilization, and keeping the capacity to re-choose as industry changes. Three signatures define the mode. First, anti-fixation: 'pinning a person to one occupation' is industrial feudalism; an occupation is a fluid form of experience, not an identity verdict. Second, the indivisibility of intellect and labor: crafts embed science, economics, and history; the division that leaves 'reading, writing, arithmetic, and culture' to white collars and 'operations' to blue collars must be refused inside education. Third, the publicness of vocational knowledge: knowledge of industrial change must be publicly available, or the school system becomes a machine reproducing hierarchy. The 1916 proposition predicted a century of vocational-tracking traps: the more efficient the narrow-skill training, the deeper the class fixation — Tao Xingzhi's 'unity of teaching-learning-doing' and Huang Yanpei's 'great vocationalism' both extend this line.",
+      "source_chapter": "杜威《民主主义与教育》第23章'教育与职业'（1916）；《学校与社会》第3章",
+      "key_concepts": [
+        "职业教育批判",
+        "关于职业的教育",
+        "反职业固定化",
+        "智识与体力不可分",
+        "阶级再生产",
+        "产业变迁适应力"
+      ],
+      "process_zh": [
+        "审计职教的分轨动机：每项'实用技能课程'问三问——它开放还是关闭了学生未来的选择？它教了技能也教了对产业的理解吗？它默认了谁该留在哪个位置？",
+        "把'关于职业'并入课程：任何技能训练都配以该产业的历史、经济与变迁知识——技能与理解同授",
+        "拒绝窄门早分轨：基础教育阶段禁止以'就业率'为由把儿童定型于单一工种训练",
+        "给职业知识以公共性：产业数据、技能图谱与转轨路径公开可查，使再选择成为可操作的权利"
+      ],
+      "process_en": [
+        "Audit the tracking motive of vocational courses: for every 'practical skills course' ask — does it open or close the student's future choices? Does it teach industry, not just skill? Whom does it assume stays where?",
+        "Fold 'about occupations' into the curriculum: every skill training carries the industry's history, economics, and change — skill and understanding taught together.",
+        "Refuse early narrow tracking: in basic education, no fixing a child to a single trade in the name of employment rates.",
+        "Make vocational knowledge public: industry data, skill maps, and transition paths openly searchable, making re-choice an operable right."
+      ],
+      "representative_cases_zh": [
+        "1916年的预判：他反对史密斯-休斯法案式的联邦职教拨款逻辑——'为工厂定制工人'的效率越高，民主社会的流动性越低；百年后'职普分流'争议仍是同一命题的延长线",
+        "杜威学校的作业即反窄门设计：木工、烹饪、纺织全部配以文明史与科学原理——'做'与'理解产业'一体，没有'只教操作'的课",
+        "反面警示：他批评'双轨制'学校的伪善——名义上'因材施教'，实质按家庭出身分流：给工头儿子白领取向课程、工人儿子操作取向课程；分轨的判据是出身而非才能时，教育即等级的分配员"
+      ],
+      "representative_cases_en": [
+        "The 1916 prophecy: he opposed the federal vocational-funding logic of the Smith-Hughes type — the more efficient the 'factory-tailored worker,' the lower the mobility of a democratic society; a century later, the 'vocational-versus-academic tracking' dispute runs on the same line.",
+        "The Dewey School's occupations as anti-narrow-gate design: woodwork, cooking, and weaving all carried civilizational history and scientific principles — doing and understanding industry as one; no course taught 'operation only.'",
+        "Cautionary counterexample: his attack on the hypocrisy of dual-track schools — nominally 'teaching by aptitude,' in substance sorting by family origin: foremen's sons get white-collar-oriented courses, workers' sons operation-oriented ones. Where tracking's criterion is birth rather than talent, education is the allocator of rank."
+      ],
+      "modern_applications_zh": [
+        "职教课程'关于产业'配比审计：每门技能课须含产业史、经济结构与转轨知识，占比列入质量指标",
+        "禁止早分轨条款：义务教育阶段不以就业率为由固化学生方向；分流推迟且可逆",
+        "技能图谱公共化：区域产业技能与薪酬数据公开，使'再选择'有信息基础",
+        "企业内训反窄门：培训不只教岗位操作，同时教该职能在全价值链中的位置与变动——防止'工具人化'"
+      ],
+      "modern_applications_en": [
+        "An 'about-industry' ratio audit for vocational courses: every skills course carries industry history, economic structure, and transition knowledge, ratio counted in quality metrics.",
+        "An early-tracking ban clause: compulsory education never fixes a student's direction for employment rates; tracking delayed and reversible.",
+        "Public skill maps: regional industry skills and pay data open to all, giving re-choice an information base.",
+        "Anti-narrow-gate corporate training: teach not just the post's operation but the function's place and movement in the whole value chain — against 'tool-person' fixation."
+      ],
+      "related_modes": [
+        "M-DY-003",
+        "M-DY-005",
+        "M-TXZ-003"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "黄炎培（'大职业教育主义'的同题中国方案）",
+        "保罗·威利斯（《学会劳动》：阶级再生产的实证后继）",
+        "史密斯-休斯法案起草者（被批判的对立面）"
+      ],
+      "key_quote_zh": "必须防止把职业固定化的观念——职业教育不是给人单一技能去服侍一个工种，而是让人理解劳动与文明并保持重新选择的能力。",
+      "key_quote_en": "The notion of fixing an occupation must be guarded against: vocational education is not one skill for one trade's service, but understanding labor and civilization with the capacity to choose again."
+    },
+    {
+      "id": "M-DY-010",
+      "name_zh": "理论的自我清算法",
+      "name_en": "The Self-Reckoning: A Theory that Audits Its Own Followers",
+      "mode_code": "M-DY-010",
+      "category": "核心方法",
+      "domain_zh": "方法论/学术诚实与理论修正",
+      "domain_en": "Methodology / Intellectual Honesty and Theory Revision",
+      "level": "核心",
+      "priority": "10",
+      "definition_zh": "1938年《经验与教育》是方法论上罕见的仪式：一位理论的创立者，公开逐条清算该理论的追随者对它的滥用——进步教育把'儿童中心'做成放任、把'活动'做成喧闹、把'兴趣'做成讨好；杜威不护短、不切割，而是用自己最好的概念（连续性、交互性、有目的的作业）给运动开诊断书。方法论签名有三：其一，理论的可错性声明——创立者本人是理论的第一检验者，理论的严肃性由其修正记录担保而非由其拥护者数量担保；其二，区分'原理'与'滥用'——清算不是抛弃，而是把可错的执行与有效的内核分离：放任不是儿童中心，喧闹不是活动，讨好不是兴趣；其三，以共同体为修正单位——理论的堕落常发生在传播链上，因此修正的文本必须面向共同体而非私下修订。这一模式是杜威探究哲学的自我应用：他对追随者做的事（暴露失效、受控检验、修订）正是他要求一切探究做的事——一个认识论者最彻底的诚实，是让方法论审判自己的运动。",
+      "definition_en": "Experience and Education (1938) is a rare methodological rite: the founder of a theory publicly reckons, item by item, with his followers' abuse of it — progressives had made 'child-centeredness' into laissez-faire, 'activity' into bustle, 'interest' into indulgence. Dewey neither covers for his camp nor severs ties; he uses his own best concepts (continuity, interaction, purposeful occupation) to write the movement's diagnosis. Three signatures define the mode. First, the fallibility declaration: the founder is the theory's first examiner, and a theory's seriousness is guaranteed by its record of revision, not by the size of its following. Second, separating principle from abuse: reckoning is not abandonment, but splitting fallible execution from valid core — laissez-faire is not child-centeredness, bustle is not activity, indulgence is not interest. Third, the community as the unit of revision: theories decay along transmission chains, so the corrective text must face the community, not a private amendment. The mode is Dewey's philosophy of inquiry applied to himself: what he does to his followers — exposing failure, controlled testing, revision — is exactly what he demands of all inquiry. An epistemologist's most radical honesty is to let his own methodology judge his own movement.",
+      "source_chapter": "杜威《经验与教育》全篇（1938）；《进步教育与教育科学》（1928）；《旧个人主义与新个人主义》（1930）",
+      "key_concepts": [
+        "经验与教育",
+        "自我清算",
+        "原理与滥用之分",
+        "理论可错性",
+        "修正记录担保",
+        "共同体修正"
+      ],
+      "process_zh": [
+        "建立'滥用清单'：定期收集本理论在传播中被执行的变形（口号化、放任化、教条化），逐条登记证据",
+        "以自身核心概念为判据：用理论最好的工具（而非立场情感）诊断滥用——判定'这是误用'须给出概念层面的论证",
+        "公开修订文本：清算面向共同体发布（书、公开信、会议），不私下修正立场；区分'应弃的执行'与'应守的内核'",
+        "把清算纳入理论生命周期：修订记录作为理论的资产公开累积——追随者以引用修订记录而非原始口号为常态"
+      ],
+      "process_en": [
+        "Keep an abuse inventory: periodically collect the mutations of the theory in transmission (sloganized, laissez-fairized, doctrinized), registering evidence item by item.",
+        "Diagnose with the theory's own best tools: judge abuse by the core concepts, not by camp feeling — 'this is a misuse' demands a conceptual argument.",
+        "Publish the corrective text: reckonings go to the community (a book, an open letter, a conference), never a private amendment of position; separate 'execution to abandon' from 'core to keep.'",
+        "Fold reckoning into the theory's lifecycle: revision records accumulate openly as the theory's assets — followers cite the revision record, not the original slogan, as the norm."
+      ],
+      "representative_cases_zh": [
+        "《经验与教育》的诞生：1930年代进步教育运动声势最大之时，杜威发表全书对追随者开刀——'新教育的信条若退化为无组织活动，就是以自由之名放弃教育'；运动领袖大多公开接受批评",
+        "对'儿童中心'的精确区分：他并不反对儿童中心，而指出其滥用形态——把'从儿童出发'做成'止于儿童'；理论的内核（以儿童经验为起点）与滥用（以儿童当下偏好为终点）被清楚切开",
+        "反面警示：对照案例是某些创立者的反面做法——理论走样时发表声明切割追随者（'那不是我们的本意'）却不修订理论本身；切割护住了名望，放任了滥用，理论在传播链上继续堕落：杜威证明了修正文本必须是共同体的公共资产"
+      ],
+      "representative_cases_en": [
+        "The birth of Experience and Education: at progressive education's loudest moment in the 1930s, Dewey published a whole book to cut into his followers — 'if the new education's creed degenerates into unorganized activity, it abandons education in the name of freedom'; most movement leaders accepted the critique in public.",
+        "The precise distinction on 'child-centeredness': he opposed not the principle but its abused form — turning 'start from the child' into 'end at the child'; the core (the child's experience as starting point) and the abuse (the child's present whim as terminus) cleanly cut apart.",
+        "Cautionary counterexample: the contrast is founders who, when their theory deforms, issue statements disowning followers — 'that is not what we meant' — while revising nothing; the disavowal guards reputation, abandons the abuse, and the theory keeps decaying down the transmission chain. Dewey proved the corrective text must be the community's public asset."
+      ],
+      "modern_applications_zh": [
+        "方法论社区的'滥用清单'制度：敏捷、OKR、正念等方法的原创社区定期发布'常见滥用'诊断，以核心概念为判据",
+        "开源项目的公开修订记录：设计哲学被误用时以 RFC 公开清算，而非私下改文档",
+        "创始人'公开清算'替代'公开切割'：立规者对追随者的走样发布修订文本，把修正变成共同体资产",
+        "个人知识管理：每套自用方法论附'失效记录'与'滥用记录'——自己即是第一检验者"
+      ],
+      "modern_applications_en": [
+        "An 'abuse inventory' institution for method communities: the originators of Agile, OKR, or mindfulness periodically publish diagnoses of common abuse, judged by core concepts.",
+        "Public revision records in open source: when a design philosophy is misused, reckoning comes as an RFC, not a private doc edit.",
+        "Founders' public reckoning instead of public disowning: rule-setters publish corrective texts on followers' deformations, making revision a community asset.",
+        "Personal knowledge management: every self-used methodology carries 'failure records' and 'abuse records' — oneself as the first examiner."
+      ],
+      "related_modes": [
+        "M-DY-006",
+        "M-DY-002",
+        "M-TXZ-010"
+      ],
+      "representative_figures": [
+        "杜威（核心）",
+        "克伯屈（被清算又受教的追随者代表）",
+        "波普尔（证伪主义的后继同构）",
+        "进步教育协会（清算的受文者与执行者）"
+      ],
+      "key_quote_zh": "相信一切真正的教育都来自经验，并不是说一切经验都真正具有教育意义——对追随者的最大忠诚，是公开修订对信条的滥用。",
+      "key_quote_en": "Belief that all genuine education comes through experience does not mean that all experiences are genuinely educative — the greatest loyalty to one's followers is publicly reckoning with the abuse of one's creed."
+    }
   ]
 }

@@ -6,6 +6,77 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2026-09-22] - Phase21-R2 编码归一清理（商羯罗旧码清档 / 董宇明·杜威归一 / 班固·班昭登记对齐）
+
+### Changed
+
+- **`data/figure_names.json` 登记修正 7 键**（卡 `t_72e34e75`）：`BAN` 班固→**班昭**、新增 `H-BAN-001`→班昭（班固/班昭为两位不同人物，非"同人两码"）；`H-DY-001` 董宇明→**约翰·杜威**、新增 `H-DYM-001`→董宇明；删除 `H-SJL-001` / `H-SJL-001_modes` / `H-SJL-001_MODES` 三键（旧码，canonical `H-SHA-001`/`SHA`/`Shankara` 保留）。
+
+### Added
+
+- **商羯罗 `H-SJL-001` 旧码四件字节原件归档**至 `data/figures/_duplicates/`（`H-SJL-001_individuals.json` 42,523 B、`H-SJL-001_individuals_modes.json` 36,271 B、`H-SJL-001_figures_modes.json` 36,991 B、`H-SJL-001_archive_page.md` 24,370 B），活跃层零悬空且内容零丢失（不删数据本体）。
+- **董宇明 `H-DYM-001` 新码三件**：`data/figures/H-DYM-001.json`、`data/individuals/H-DYM-001_modes.json`、`docs/figures/H-DYM-001.md`（由 `H-DY-001` 改码而来，内容随件保留）。
+- **杜威 `H-DY-001` 三镜像恢复**：`data/figures/H-DY-001.json`（sha256 `cb64cdfb…`）与 `docs/figures/H-DY-001.md`（sha256 `9e7b5e15…`）自 `1c13431e` 取回字节原件。
+- 报告 `docs/qa/phase21r2_cleanup_report.md`、证据 `docs/research/phase21r2_cleanup_evidence.json`（含 verification 漂移 73 行逐条留痕）、核验脚本 `verify_phase21r2_cleanup.py`（31 断言）。
+
+### Notes
+
+- 主库 `data/modes_data.json` 全卡零写入（sha256 `83be45b5…` 开工=收工）；verification 漂移 73 条（72 `verified→pending`、1 `verified→suspect`）按卡面"属他卡登记留痕"处置，未写回，灰区报船长。
+- 门禁全绿：credibility_gate / verify_findings / verify_source_links / export_static_site（1371 文件断言）/ build_daily_index / pages_preflight --stage data / check_repo_parity 两仓一致。
+
+---
+
+## [2026-09-22] - Phase 20 程颢 (H-CHE-001) 旧码孤儿文件清档
+
+### Removed
+
+- **旧码 `H-CH-001` 孤儿三文件清档**（Phase 21 基础版死档案，对应 figure 档已随 `c06d438a` 删除，卡 `t_6cf3089f`）：
+  `data/individuals/H-CH-001.json`（13,973 B）、`data/individuals/H-CH-001_modes.json`（35,212 B）、
+  `docs/figures/H-CH-001.md`（21,299 B，Phase 21 研究档案）
+  - 删除前核查：`data/audit/*` 对该码的引用属历史留痕（不连带修改）；活跃数据层（figure_names / code_maps / modes_data / 场景 / 标签 / figures）零引用；canonical `H-CHE-001` 三镜像（SHA256 `40aa4b20…`）与档案 md 完整
+  - 删除后扫描：全仓 `H-CH-001` 命中 36 个文件，全部为历史报告 / 审计留痕 / 备份快照 / QA 脚本字面量 / 陆九渊·程颐邻卡注记 / 根目录遗留副本；`data/figures/*.json` 指向旧码的悬空引用 = 0
+  - 验收：`qa_chenghao_archive.py` 34 PASS / 0 FAIL 复跑通过；新增 `verify_chenghao_orphan_cleanup.py` 23 PASS / 0 FAIL；报告 `docs/research/phase20_chenghao_orphan_cleanup_report.md` + 证据 `…_evidence.json`（含孤儿独有字段留痕与 git blob 取回命令）
+
+---
+
+## [2026-09-22] - Phase 20 周敦颐 (H-ZDY-001) 人物档案归档
+
+### Added
+
+- **周敦颐 (H-ZDY-001) 人物档案文档补齐**: `docs/figures/H-ZDY-001.md` 53.2KB/289 行 → 75.8KB/524 行，按同批最新归档体例（H-LJY-001）补齐双语字段与章节
+  - 10 条模式（M-ZDY-001~010）逐条补齐 `领域`（中英）、`研究稿ID`（M-ZHO-* 溯源）、`操作步骤(EN)`、`代表性案例(EN)`、`当代应用(EN)`，全部逐字取自 `data/modes_data.json`
+  - 新增「四、双语场景索引」（C-ZDY-001~010 / C-ZDY-001E~010E 共 10 对）与「六、现代价值」（图档 `modern_value_zh` 5 条）
+  - 「五、入库说明」升级为「七、入库说明与 QA 验收记录」（落地/热修提交号、三镜像 SHA、库总量口径、独立脚本）
+  - 新增归档报告 `docs/research/phase20_zhoudunyi_archive_report.md`、库数据驱动生成器 `build_zhoudunyi_archive.py`（幂等）、验收脚本 `qa_zhoudunyi_archive.py`（56 项：54 PASS / 1 WARN / 0 FAIL）
+
+### Changed
+
+- **docs/figures/H-ZDY-001.md**: 既有中文正文零改写，仅在原行之后插入双语字段与新增章节；生成器内置「既有行保留」安全网
+
+---
+
+## [2026-09-22] - Phase 20 程颢 (H-CHE-001) 人物档案归档
+
+### Added
+
+- **程颢 (H-CHE-001) 人物档案文档**: 重建 `docs/figures/H-CHE-001.md`（6.3KB 骨架件 → 29.8KB 完整研究档案），补齐 10 条模式的完整字段（中英定义、原文依据、操作步骤、代表性案例、当代应用、关联模式）
+  - 核心模式：天理体贴法/万物一体法/识仁为先法/定性不动法/性即理也法/生生可观法/理必有对法/敬义双修法/天人一本法/圣人标则法（M-CHE-001~010）
+  - 建立 `docs/figures/H-CHE-001.json` 文档镜像（与 data/figures、data/individuals 字节一致）
+  - 新增归档报告 `docs/research/phase20_chenghao_archive_report.md` 与验收脚本 `qa_chenghao_archive.py`（34 项 全 PASS）
+
+### Changed
+
+- **data/figure_names.json**: 程颢登记码由已删除的旧码 `H-CH-001` 更正为 canonical 码 `H-CHE-001`
+- **docs/research/phase20_summary.md**: 理学脉络表周敦颐/程颢/程颐三行由「暂缺」填入已核验模式区间与映射；数据来源与「下一步」同步更正
+
+### Fixed
+
+- 人物档案 md 的 10 处截断定义（以「…」结尾）与空「跨引用」章节
+- 缺失的 docs JSON 镜像（与周敦颐/荷马同批体例对齐）
+- 人物名登记表指向已删除旧码导致的工具解析回退
+
+---
+
 ## [2026-09-04] - Phase 19 屠呦呦 (H-TYY-001) 人物档案归档
 
 ### Added

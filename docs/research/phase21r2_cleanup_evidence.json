@@ -1,0 +1,1078 @@
+{
+ "schema": "protreptic.phase21r2_cleanup_evidence/v1",
+ "card": "t_72e34e75",
+ "generated_at": "2026-09-22T20:45:54+0800",
+ "generated_by": "elcano",
+ "basis": {
+  "workspace_head": "452e3c37",
+  "workspace_head_subject": "Phase21-R-QA: 报告补提交注记（b5d27039 携带并行卡已索引路径说明，属记录性补正）",
+  "publish_head": "2617587"
+ },
+ "snapshots": {
+  "pre": {
+   "data/individuals/H-SJL-001.json": {
+    "bytes": 42523,
+    "sha256": "f46eff6fb8f8aecf83fd4c19907dc7c9f616b6fb4e167cc1ddd057b99519f12e"
+   },
+   "data/individuals/H-SJL-001_modes.json": {
+    "bytes": 36271,
+    "sha256": "1aee3b80e79fe37920bb0f3188b703790adbdac245d02f98526092ff01202285"
+   },
+   "data/figures/H-SJL-001_modes.json": {
+    "bytes": 36991,
+    "sha256": "e1e226e562e6537e89c1e7eaafcaa3a9605cecb7dddd80fe5b75914fa0d0fdc6"
+   },
+   "docs/figures/H-SJL-001.md": {
+    "bytes": 24370,
+    "sha256": "594129711349e3e95df6912315dd920eb192535f62320afb49ab883bbf750f36"
+   },
+   "data/figures/H-DY-001.json": {
+    "bytes": 1599,
+    "sha256": "5fa491941594d037421abd821a3b89a0aca0fcaf67e3fc0390bb904933b4bc16"
+   },
+   "data/individuals/H-DY-001_modes.json": {
+    "bytes": 12218,
+    "sha256": "aedf9b7b740f723479f463f350b71fc111a7063bce48d5618c0e349b0b863244"
+   },
+   "docs/figures/H-DY-001.md": {
+    "bytes": 13894,
+    "sha256": "3078b4b32a61b26dc5b9d17260fb4b7f3937e7f752ac40ac79191e8d1c601cb4"
+   }
+  },
+  "post": {
+   "data/figures/H-DYM-001.json": {
+    "bytes": 1601,
+    "sha256": "3b2e71fb984f822e8ef4b8d268e46ceb4fc4060d0d8e45137365fb357fded34d"
+   },
+   "data/individuals/H-DYM-001_modes.json": {
+    "bytes": 12219,
+    "sha256": "c9ac05dc13c33c87d3d89e67d19c5d09df7c8cd83f51598adf24ca81cb5a42a3"
+   },
+   "docs/figures/H-DYM-001.md": {
+    "bytes": 13896,
+    "sha256": "1f47d4c1463b577b171288f77299132b6dd4ab5f59a54bd2e43fd33b8931ccd4"
+   },
+   "data/figures/H-DY-001.json": {
+    "bytes": 96515,
+    "sha256": "cb64cdfbeac0841194b4db85d73ab656d2d9a88028f54afe8d4549f9137050b6"
+   },
+   "docs/figures/H-DY-001.md": {
+    "bytes": 7623,
+    "sha256": "9e7b5e1522bc5bb9cf047b72a1aca95e71c032e33ae7a0c9013dbf4611b7f650"
+   },
+   "data/figure_names.json": {
+    "bytes": 30049,
+    "sha256": "945bb2d170b25a121e16fd8e9159cd328eaa25744c505d9aa1a93f051e10a508"
+   },
+   "data/figures/_duplicates/H-SJL-001_individuals.json": {
+    "bytes": 42523,
+    "sha256": "f46eff6fb8f8aecf83fd4c19907dc7c9f616b6fb4e167cc1ddd057b99519f12e"
+   },
+   "data/figures/_duplicates/H-SJL-001_individuals_modes.json": {
+    "bytes": 36271,
+    "sha256": "1aee3b80e79fe37920bb0f3188b703790adbdac245d02f98526092ff01202285"
+   },
+   "data/figures/_duplicates/H-SJL-001_figures_modes.json": {
+    "bytes": 36991,
+    "sha256": "e1e226e562e6537e89c1e7eaafcaa3a9605cecb7dddd80fe5b75914fa0d0fdc6"
+   },
+   "data/figures/_duplicates/H-SJL-001_archive_page.md": {
+    "bytes": 24370,
+    "sha256": "594129711349e3e95df6912315dd920eb192535f62320afb49ab883bbf750f36"
+   }
+  },
+  "figure_names_changes": [
+   {
+    "key": "BAN",
+    "old": "班固",
+    "new": "班昭"
+   },
+   {
+    "key": "H-DY-001",
+    "old": "董宇明",
+    "new": "约翰·杜威"
+   },
+   {
+    "key": "H-SJL-001",
+    "old": "商羯罗",
+    "new": "<removed>"
+   },
+   {
+    "key": "H-SJL-001_modes",
+    "old": "商羯罗",
+    "new": "<removed>"
+   },
+   {
+    "key": "H-SJL-001_MODES",
+    "old": "商羯罗",
+    "new": "<removed>"
+   },
+   {
+    "key": "H-BAN-001",
+    "old": "<absent>",
+    "new": "班昭"
+   },
+   {
+    "key": "H-DYM-001",
+    "old": "<absent>",
+    "new": "董宇明"
+   }
+  ]
+ },
+ "item2_shankara_sjl": {
+  "canonical": {
+   "figure": "data/figures/H-SHA-001.json",
+   "individuals": "data/individuals/H-SHA-001.json",
+   "individuals_modes": "data/individuals/H-SHA-001_modes.json",
+   "docs": "docs/figures/H-SHA-001.md",
+   "note": "canonical H-SHA-001 全程未动"
+  },
+  "archived": {
+   "data/figures/_duplicates/H-SJL-001_individuals.json": {
+    "sha256": "f46eff6fb8f8aecf83fd4c19907dc7c9f616b6fb4e167cc1ddd057b99519f12e",
+    "bytes": 42523
+   },
+   "data/figures/_duplicates/H-SJL-001_individuals_modes.json": {
+    "sha256": "1aee3b80e79fe37920bb0f3188b703790adbdac245d02f98526092ff01202285",
+    "bytes": 36271
+   },
+   "data/figures/_duplicates/H-SJL-001_figures_modes.json": {
+    "sha256": "e1e226e562e6537e89c1e7eaafcaa3a9605cecb7dddd80fe5b75914fa0d0fdc6",
+    "bytes": 36991
+   },
+   "data/figures/_duplicates/H-SJL-001_archive_page.md": {
+    "sha256": "594129711349e3e95df6912315dd920eb192535f62320afb49ab883bbf750f36",
+    "bytes": 24370
+   },
+   "pre_existing": "data/figures/_duplicates/H-SJL-001.json (Phase46-R 已归档, 本次未动)"
+  },
+  "scan_after": {
+   "data_layer_text_mentions": [
+    "data/individuals/H-IBR-001.md",
+    "data/figures/H-IBR-001.md"
+   ],
+   "data_layer_text_mentions_note": "H-IBR-001 档案内『按 H-ISN-001/H-SJL-001 九节先例生成』沿革注记（非键引用，保留）",
+   "docs_layer_mentions": [
+    "docs/research/phase20_chenghao_orphan_cleanup_evidence.json",
+    "docs/research/phase21r2_cleanup_evidence.json",
+    "docs/figures/H-IBR-001.md",
+    "docs/qa/phase46_figure_fields.md",
+    "docs/qa/phase21R_restore_report.md",
+    "docs/qa/phase21R_qa_report.md"
+   ],
+   "docs_layer_mentions_note": "QA/报告层历史记录（清档记录本身，保留）",
+   "tools_web_api_mentions": [],
+   "remaining_mentions": [
+    "data/figures/H-IBR-001.md:244:- Phase 21 文档归档 (t_b9bbdc2a): 本档案按 H-ISN-001/H-SJL-001 九节先例生成，内容逐条对照 data/ 五处数据源（individuals 两文件、code_maps.json、scenarios_zh/en.json、scenario_tags.json）。",
+    "data/individuals/H-IBR-001.md:265:- Phase 21 文档归档 (t_b9bbdc2a): 本档案按 H-ISN-001/H-SJL-001 九节先例生成，内容逐条对照 data/ 五处数据源（individuals 两文件、code_maps.json、scenarios_zh/en.json、scenario_tags.json）。",
+    "docs/figures/H-IBR-001.md:244:- Phase 21 文档归档 (t_b9bbdc2a): 本档案按 H-ISN-001/H-SJL-001 九节先例生成，内容逐条对照 data/ 五处数据源（individuals 两文件、code_maps.json、scenarios_zh/en.json、scenario_tags.json）。"
+   ]
+  },
+  "restore_command": "git show <commit>:? 无 —— 内容以字节原件留在 data/figures/_duplicates/ (uncommitted 之前的工作树快照 sha256 见上)",
+  "unique_keys_vs_canonical": {
+   "data/figures/_duplicates/H-SJL-001_individuals.json": [
+    "core_thoughts",
+    "courtesy_name",
+    "famous_quote",
+    "influence",
+    "protreptic_mapping",
+    "pseudonym",
+    "representative_works",
+    "style_name"
+   ],
+   "data/figures/_duplicates/H-SJL-001_individuals_modes.json": [],
+   "data/figures/_duplicates/H-SJL-001_figures_modes.json": []
+  },
+  "unique_keys_note": "仅在归档件登记与 canonical(SHA/H-SHA-001) 档案/主库条目的字段差异；四件档案以字节原件保留于 _duplicates，无裁剪、无弃置物"
+ },
+ "item3_dongyuming_dewey": {
+  "dewey_restored": {
+   "source_commit": "1c13431e",
+   "data/figures/H-DY-001.json": {
+    "sha256": "cb64cdfbeac0841194b4db85d73ab656d2d9a88028f54afe8d4549f9137050b6",
+    "bytes": 96515
+   },
+   "docs/figures/H-DY-001.md": {
+    "sha256": "9e7b5e1522bc5bb9cf047b72a1aca95e71c032e33ae7a0c9013dbf4611b7f650",
+    "bytes": 7623
+   },
+   "cross_check": "sha256 与『董宇明/杜威』研究卡交接元数据声明的 H-DY-001.json=cb64cdfb / 镜像 9e7b5e15 一致"
+  },
+  "dewey_archive_fields": {
+   "figure_name": "约翰·杜威",
+   "code": "H-DY-001",
+   "figure_code": "H-DY-001",
+   "mode_ids": [
+    "M-DY-001",
+    "M-DY-002",
+    "M-DY-003",
+    "M-DY-004",
+    "M-DY-005",
+    "M-DY-006",
+    "M-DY-007",
+    "M-DY-008",
+    "M-DY-009",
+    "M-DY-010"
+   ],
+   "n_modes_embedded": 10
+  },
+  "dongyuming_recoded": {
+   "data/figures/H-DYM-001.json": {
+    "sha256": "3b2e71fb984f822e8ef4b8d268e46ceb4fc4060d0d8e45137365fb357fded34d",
+    "code": "H-DYM-001"
+   },
+   "data/individuals/H-DYM-001_modes.json": {
+    "sha256": "c9ac05dc13c33c87d3d89e67d19c5d09df7c8cd83f51598adf24ca81cb5a42a3",
+    "code": "H-DYM-001",
+    "n_modes": 10
+   },
+   "docs/figures/H-DYM-001.md": {
+    "sha256": "1f47d4c1463b577b171288f77299132b6dd4ab5f59a54bd2e43fd33b8931ccd4",
+    "bytes": 13896
+   }
+  },
+  "library_consistency": {
+   "library H-DY-001 entries": [
+    [
+     "M-DY-001",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-002",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-003",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-004",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-005",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-006",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-007",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-008",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-009",
+     "董宇明",
+     "H-DY-001"
+    ],
+    [
+     "M-DY-010",
+     "董宇明",
+     "H-DY-001"
+    ]
+   ],
+   "library H-DYM-001 entries": [],
+   "verdict": "恢复后主库 H-DY-001(10 条, 约翰·杜威) 与档案 mode_ids 一一对应；董宇明 M11~M20 不在主库(旧码档)"
+  },
+  "registry": {
+   "H-DY-001": "约翰·杜威",
+   "H-DYM-001": "董宇明"
+  },
+  "residual": {
+   "主库 figure_name 字段": "10 条 H-DY-001 记录的 figure_name=董宇明(未改, 见灰区)",
+   "说明": "现状图档/文档镜像与登记已归位；主库内嵌 figure_name 属对'杜威 10 条不得删改'的保守留痕"
+  }
+ },
+ "item1_bangu_banshao": {
+  "finding": "H-BG-001(班固) 与 BAN/H-BAN-001(班昭) 不是同一人：卡题 E1 的『同人两码』前提不成立",
+  "evidence": {
+   "archives_present": [
+    "data/figures/H-BG-001.json (figure_name=班固)",
+    "data/individuals/H-BG-001_modes.json (M-BG-001~010)",
+    "docs/figures/H-BG-001.md",
+    "data/figures/H-BAN-001.json (figure_name=班昭, 未并入主库)",
+    "data/individuals/H-BAN-001_modes.json",
+    "docs/figures/H-BAN-001.md"
+   ],
+   "library": {
+    "figure_code=BAN": [
+     "M-BAN-001",
+     "M-BAN-002",
+     "M-BAN-003",
+     "M-BAN-004",
+     "M-BAN-005",
+     "M-BAN-006",
+     "M-BAN-007",
+     "M-BAN-008",
+     "M-BAN-009",
+     "M-BAN-010"
+    ],
+    "figure_name(BAN 组)": [
+     "班固"
+    ],
+    "figure_code=H-BAN-001 组条数": 0,
+    "figure_code=H-BG-001/M-BG 条数": 0
+   },
+   "git": {
+    "M-BG-001 出现在": "91832eb6 Fix M381-M390 mode ID conflict: renumber 商君 H-SY-001 → M-SY-001~010, 谢富治 H-XFZ-001 → M-XFZ-001~010, align H-WYM-001 code_maps to M-WYM-001~010 (file prefix). Keep tools/modes_data.json M381-390 (Islamic/MENA modes) intact. Resolves P0 conflict flagged by QA block t_70b0f6b3.\nf66bb2fd Phase 21: 班固(H-BG-001)增量合并入主库",
+    "91832eb6 (09-09 主库重写类) 前后": {
+     "parent_hits": "5",
+     "commit_hits": "0"
+    }
+   }
+  },
+  "action": {
+   "figure_names": [
+    {
+     "key": "BAN",
+     "old": "班固",
+     "new": "班昭"
+    },
+    {
+     "key": "H-BAN-001",
+     "old": "<absent>",
+     "new": "班昭"
+    }
+   ],
+   "library": "零改动（M-BAN-* 组内嵌 figure_name=班固 保留 -> 灰区）"
+  },
+  "gray_zone": {
+   "library M-BAN-* figure_name": "10 条记录 figure_name=班固，规范值应为班昭（图档 H-BAN-001.json 内已有 canonical 档案）",
+   "M-BG 缺失": "班固 10 条 M-BG-* 不在主库，其档 data/individuals/H-BG-001_modes.json 完整持有正文；是否恢复需另卡评估(旧世代未恢复类)"
+  }
+ },
+ "item5_dongzhongshu_dzs_advisory": {
+  "library": {
+   "figure_code=H-DZS-001": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10"
+   ],
+   "ids": "M01~M10（无 figure 前缀）"
+  },
+  "archives": [
+   "data/figures/H-DZS-001.json (2548B stub)",
+   "data/figures/H-DZS-001_modes.json",
+   "data/individuals/H-DZS-001.json",
+   "data/individuals/H-DZS-001_modes.json",
+   "docs/figures/H-DZS-001.md"
+  ],
+  "issue": "以 id 前缀判归属的扫描(F1)把 10 条读成 1/10；非本卡范围",
+  "recommendation": "另卡把 ids 归一为 M-DZS-001~010（或在登记层显式记录旧编号例外）",
+  "action": "零改动（咨询性）"
+ },
+ "item4_verification_drift": {
+  "stamp_method_counts": {
+   "link-resolved": 908,
+   "auto-scan": 2154,
+   "phase20": 80
+  },
+  "phase20_stamps": 80,
+  "mismatch_total": 73,
+  "by_figure": {
+   "H-CHE-001": 10,
+   "H-CHI-001": 10,
+   "H-ZDY-001": 10,
+   "H-LJY-001": 10,
+   "H-WYM-001": 3,
+   "H-WFZ-001": 10,
+   "H-DZ-001": 10,
+   "H-ZXC-001": 10
+  },
+  "transition": {
+   "verified->pending": 72,
+   "verified->suspect": 1
+  },
+  "rows": [
+   {
+    "mode_code": "M-CHE-001",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-002",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-003",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-004",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-005",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-006",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-007",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-008",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-009",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHE-010",
+    "figure_code": "H-CHE-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_122743"
+   },
+   {
+    "mode_code": "M-CHI-001",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-002",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-003",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-004",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-005",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-006",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-007",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-008",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-009",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-CHI-010",
+    "figure_code": "H-CHI-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_130315"
+   },
+   {
+    "mode_code": "M-ZDY-001",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-002",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-003",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-004",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-005",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-006",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-007",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-008",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-009",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-ZDY-010",
+    "figure_code": "H-ZDY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_132519"
+   },
+   {
+    "mode_code": "M-LJY-001",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-002",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-003",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-004",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-005",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-006",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-007",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-008",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-009",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-LJY-010",
+    "figure_code": "H-LJY-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_140937"
+   },
+   {
+    "mode_code": "M-WYM-003",
+    "figure_code": "H-WYM-001",
+    "stamp_status": "verified",
+    "canonical_status": "suspect",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "D4/D5 hit in data/audit/findings.json (quote mismatch or timeline conflict)",
+    "checked_at": "20260922_143757"
+   },
+   {
+    "mode_code": "M-WYM-005",
+    "figure_code": "H-WYM-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_143757"
+   },
+   {
+    "mode_code": "M-WYM-010",
+    "figure_code": "H-WYM-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_143757"
+   },
+   {
+    "mode_code": "M-WFZ-001",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-002",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-003",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-004",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-005",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-006",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-007",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-008",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-009",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-WFZ-010",
+    "figure_code": "H-WFZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_145939"
+   },
+   {
+    "mode_code": "M-DZ-001",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-002",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-003",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-004",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-005",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-006",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-007",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-008",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-009",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-DZ-010",
+    "figure_code": "H-DZ-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_152128"
+   },
+   {
+    "mode_code": "M-ZXC-001",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-002",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-003",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-004",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-005",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-006",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-007",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-008",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-009",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   },
+   {
+    "mode_code": "M-ZXC-010",
+    "figure_code": "H-ZXC-001",
+    "stamp_status": "verified",
+    "canonical_status": "pending",
+    "canonical_method": "auto-scan",
+    "canonical_evidence": "unresolved: 引文未在 source_links.json 建立链接源",
+    "checked_at": "20260922_153920"
+   }
+  ],
+  "disposition": "留痕（逐条列于本表）；未写回主库 —— 归位动作涉及全库重签/公开计数变更，按卡面『属他卡登记留痕 / 灰区报船长不硬改』处置",
+  "check_command": "python3 tools/apply_verification_status.py --check   # exit 1（存量 73 条漂移，其中 0 条为本卡引入）",
+  "remedy_ready": "python3 tools/apply_verification_status.py --write --checker phase38-y2 --checked-at <date>  # 会把 3142 条 verification 块全部重签(含 checked_at)，公开侧 verified 988->916 / pending 1711->1783 / suspect 33->34（需先跑 export_static_site + gen_web_site_counts + 站点重建）"
+ },
+ "gates": {
+  "credibility_gate": "python3 tools/credibility_gate.py --hard-fail --data-path data/modes_data.json -> exit 0（D5 命中 1 条存量 M-NEW-007，与基线同）",
+  "verify_findings": "python3 tools/verify_findings.py --hard-fail --data-path data/modes_data.json -> exit 0（0 新增；1 条非阻断警告 M-ASM-001~010 重复收录，存量）",
+  "verify_source_links": "python3 tools/verify_source_links.py --hard-fail -> exit 0（0 新增坏链）",
+  "export_static_site": "python3 tools/export_static_site.py -> exit 0（figures=1057 / modes=3132 / 发布 3072 / 隔离 60 / by-figure=304 / 产物 1371 文件）",
+  "build_daily_index": "python3 tools/build_daily_index.py -> exit 0（3072 条 / 304 人物）",
+  "pages_preflight": "python3 tools/pages_preflight.py --stage data -> exit 0（全部断言通过）",
+  "parity": "python3 tools/check_repo_parity.py -> 见报告 §6"
+ }
+}
