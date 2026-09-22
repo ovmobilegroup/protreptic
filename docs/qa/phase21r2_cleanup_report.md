@@ -131,7 +131,7 @@
 | 每日索引 | `python3 tools/build_daily_index.py` | exit 0（3,072 条 / 304 人物） |
 | 发布预检 | `python3 tools/pages_preflight.py --stage data` | exit 0（全部断言通过） |
 | 独立核验 | `python3 verify_phase21r2_cleanup.py` | 31 PASS / 0 FAIL（A 12 + B 10 + C 5 + D 1 + E 1 + 汇总） |
-| 两仓一致 | `python3 tools/check_repo_parity.py` | exit 0（构建图文件两仓逐字节一致） |
+| 两仓一致 | `python3 tools/check_repo_parity.py` | 本卡 11 条改动路径两仓逐字节一致（sha256 复核）；差异条目 0 条属本卡路径。当前全量口径下另有并发卡 `t_6c92966b`（曾子补做）未跟踪产物 `docs/research/phase20_zengzi_research_final.md` 单侧在制（其卡 QA 交接 §10 已声明"随该卡提交/镜像自然消解"，非本卡引入） |
 
 （首轮 `pages_preflight` 缺 `data/daily/*` 而报 1 条失败，按 `pages.yml` 既有顺序补跑 `build_daily_index.py` 后全绿 —— 属复现 CI 步骤顺序，非数据缺陷。）
 
@@ -155,8 +155,8 @@
 
 ## 10. 提交与推送状态
 
-- 工作仓（master，无远端同名分支，按既有流程不推送）：数据/文档提交 `<WS_COMMIT>`（本卡改动路径 + 报告 + 证据 + 核验脚本 + CHANGELOG + 生成本账），报告修订提交 `<WS_COMMIT2>`。
-- 发布仓（`/opt/data/release/Protreptic-publish`，main）：镜像提交 `<PB_COMMIT>`，已 push 至 `origin/main`；推送后核验 `git status --short` 无本卡残留、`git rev-list --count origin/main..HEAD` = 0。
+- 工作仓（master，无远端同名分支，按既有流程不推送）：数据/文档提交 `dae8ac5e`（11 路径：figure_names 登记 7 键 + 董宇明改码 3 件 + 杜威恢复 2 件 + 报告/证据/核验脚本/CHANGELOG/生成本账），修订提交 `<WS_COMMIT2>`（本报告第 10 节与核验脚本 E 组口径）。
+- 发布仓（`/opt/data/release/Protreptic-publish`，main）：镜像提交 `7106867`（14 路径：10 数据/文档 + 报告/证据/CHANGELOG/生成本账），已 push 至 `origin/main`（回执 `2617587..7106867  main -> main`），修订提交 `<PB_COMMIT2>` 同步更新；推送后核验 `git rev-list --count origin/main..HEAD` = 0、`git status --short` 无本卡残留（仅余并发 QA 卡报告一份）。
 - 最终提交哈希与推送回执以 kanban 卡 `t_72e34e75` 完成交接（summary / metadata）为准。
 
 ## 11. 产物与复现
