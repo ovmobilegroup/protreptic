@@ -1,0 +1,87 @@
+{
+  "schema": "protreptic.r6c_pending_identity/v1",
+  "card": "t_4a9cf2cb",
+  "date": "2026-09-23",
+  "title": "待权威身份清单（C 组 6 件）",
+  "criteria": "docs/research/legacy20_rev6_assessment.md §4.3：身份未能核实（库内/git/docs 无独立证据）判归档并单列",
+  "items": [
+    {
+      "code": "H-AN-001",
+      "name_card": "安子",
+      "name_registered": "安子",
+      "identity_status": "未能核实",
+      "assessment_verdict": "不可",
+      "disposition": "归档；若保留另立研究卡",
+      "evidence_basis": "身份未能核实：库内 0 条、git 无合并提交、docs 无独立研究件",
+      "payload": "旧号 M001-M010（10 个）；载荷 10 条",
+      "keep_condition": "若保留须另立研究卡：先给出权威身份与可落源出处，再谈 v6 复刻；归档件不得直接复用",
+      "renumber_plan": "暂不分配；M-AN-（0 碰撞）",
+      "notes": "载荷 10 条全字段，但出处《辩证论》《历史观》《实践观》均不可落源；定义均 59.9 字，模板化"
+    },
+    {
+      "code": "H-LC-001",
+      "name_card": "陆沉",
+      "name_registered": "陆沉",
+      "identity_status": "未能核实",
+      "assessment_verdict": "不可",
+      "disposition": "归档；若保留另立研究卡",
+      "evidence_basis": "疑似旧世代虚构人物：库内、docs、git 均无独立证据；来源《沉潜之道》不可落源",
+      "payload": "旧号 M401-M410（10 个）；载荷 10 条",
+      "keep_condition": "若保留须另立研究卡：先给出权威身份与可落源出处，再谈 v6 复刻；归档件不得直接复用",
+      "renumber_plan": "暂不分配；M-LC-（0 碰撞）",
+      "notes": "载荷 10 条（定义均 73.6 字）；案例为现代咨询口吻，来源不明"
+    },
+    {
+      "code": "H-YE-001",
+      "name_card": "叶筱",
+      "name_registered": "叶筱",
+      "identity_status": "未能核实",
+      "assessment_verdict": "不可",
+      "disposition": "归档或整卡替换",
+      "evidence_basis": "无人名证据：phase46 报告列为 name_mismatch，文件内无人名证据",
+      "payload": "旧号 M401-M410（10 个）；载荷 10 条",
+      "keep_condition": "若保留须另立研究卡：先给出权威身份与可落源出处，再谈 v6 复刻；归档件不得直接复用",
+      "renumber_plan": "暂不分配；M-YE-（0 碰撞）",
+      "notes": "载荷 10 条（定义均 54 字，引文与案例空）；出处《现代政治理论选集》不可落源"
+    },
+    {
+      "code": "H-ZOU-001",
+      "name_card": "邹文献",
+      "name_registered": "邹文献",
+      "identity_status": "未能核实",
+      "assessment_verdict": "不可",
+      "disposition": "归档；若保留另立研究卡",
+      "evidence_basis": "零出处内容不可核：公开检索无独立证据；项目内仅自产文档互引",
+      "payload": "旧号 M401-M410（10 个）；载荷 10 条",
+      "keep_condition": "若保留须另立研究卡：先给出权威身份与可落源出处，再谈 v6 复刻；归档件不得直接复用",
+      "renumber_plan": "暂不分配；M-ZOU-（0 碰撞）",
+      "notes": "载荷 10 条（定义均 46.8 字，引文、出处、案例全空）；docs/figures/H-ZOU-001.md 为同批自产件"
+    },
+    {
+      "code": "H-HAN-001",
+      "name_card": "沈幅",
+      "name_registered": "沈幅",
+      "identity_status": "未能核实",
+      "assessment_verdict": "不可",
+      "disposition": "归档；若保留另立研究卡",
+      "evidence_basis": "身份与生卒不符：生卒记录 -100 至 180 与人物不符（phase46 已记疑似沈复）；公开检索无此人此作",
+      "payload": "旧号 M351-M358（8 个）；载荷 8 条",
+      "keep_condition": "若保留须另立研究卡：先给出权威身份与可落源出处，再谈 v6 复刻；归档件不得直接复用",
+      "renumber_plan": "暂不分配；M-HAN-（0 碰撞）",
+      "notes": "载荷 8 条不足 10（引文与案例空，出处《捕鱼记》）；定义均 41.5 字"
+    },
+    {
+      "code": "H-MODERN-002",
+      "name_card": "大云",
+      "name_registered": "大云",
+      "identity_status": "未能核实",
+      "assessment_verdict": "不可",
+      "disposition": "归档或立项",
+      "evidence_basis": "元数据虚标 10 条：项目内大云仅指《大云经》，无此人证据",
+      "payload": "旧号 M001-M010（10 个）；载荷 10 条；元数据虚标 10（无载荷）",
+      "keep_condition": "若保留须另立研究卡：先给出权威身份与可落源出处，再谈 v6 复刻；归档件不得直接复用",
+      "renumber_plan": "暂不分配；若立项 M-DAYUN-（0 碰撞）",
+      "notes": "三个文件均 0 条载荷（仅元数据，thinking_mode_count 却写 10）；无内容可查"
+    }
+  ]
+}

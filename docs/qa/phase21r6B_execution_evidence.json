@@ -1,0 +1,292 @@
+{
+  "schema": "protreptic.r6b_execution_evidence/v1",
+  "card": "t_f3aabe2c",
+  "title": "Phase21-R6B B 组收口：王祥入库/归档 · 王震对齐 · 董宇明登记",
+  "date": "2026-09-23",
+  "pre_head": "98f34377b9c69a6c1a241a82091f7142e9dc3e14",
+  "prep_card": {
+    "id": "t_434af550",
+    "commit": "37045418",
+    "payload": "docs/scratch/legacy20_r6b/"
+  },
+  "items": {
+    "wangzhen": {
+      "figure": "H-WZ-001",
+      "action": "merge",
+      "entries_moved": 10,
+      "renumbered": {
+        "M392": "M-WZ-011"
+      },
+      "archived_dedupe": {
+        "M391": "duplicate of M371"
+      },
+      "counts": {
+        "modes_array": "3262 -> 3271",
+        "figure_modes": "10 -> 11",
+        "individuals_modes": "2 -> 11",
+        "code_maps_mode_ids": "2 -> 11",
+        "scenario_tags": "2 remapped"
+      },
+      "sha_before": {
+        "data/modes_data.json": "4ca4eda2a9c47b2d84c1393559930a7b5c10ecda7b57c8143a14322173aa8101",
+        "data/code_maps.json": "82fc77d5c0db13f8aab1d70ade27256b714edf009366e681d364c3d573ba5551",
+        "data/scenario_tags.json": "d467bd6d0219b1a586f4884ea900237b5ed4dcf555aacae832b5033b8f0c37c8"
+      },
+      "sha_after_step1": {
+        "data/modes_data.json": "4b0e625469e0c86f111be89bf4ce3aca47930858c5647bc42d1b9d1c26a06cb5",
+        "data/code_maps.json": "df62a33f9671702640c3d45cf8996fdce4c3fb87925e432241af008e7b5d2449",
+        "data/scenario_tags.json": "40bdb194da045dae27b7919976315927761d1a46407914720c9aa83de3fa8c1b",
+        "data/figures/H-WZ-001.json": "cb1a74835a27120b17b1643ba9f7a753f1fc6e796b09715a454f9bf7fa35613e",
+        "data/individuals/H-WZ-001.json": "37e48795d23d2ad997390b092c46512a28d17aec32273fff52913c546c107df5",
+        "data/individuals/H-WZ-001_modes.json": "5589b7a738f96cb85ee8ae6775135d39d5a4532644a2a8502ce85be6e8ee8f66"
+      },
+      "sha_after_final": {
+        "data/modes_data.json": "bdf672a24f17875a3477dd40ec944e050757296b9f4593b4e46ee2572783a686",
+        "data/code_maps.json": "df62a33f9671702640c3d45cf8996fdce4c3fb87925e432241af008e7b5d2449",
+        "data/scenario_tags.json": "40bdb194da045dae27b7919976315927761d1a46407914720c9aa83de3fa8c1b",
+        "data/figures/H-WZ-001.json": "cb1a74835a27120b17b1643ba9f7a753f1fc6e796b09715a454f9bf7fa35613e",
+        "data/individuals/H-WZ-001.json": "37e48795d23d2ad997390b092c46512a28d17aec32273fff52913c546c107df5",
+        "data/individuals/H-WZ-001_modes.json": "5589b7a738f96cb85ee8ae6775135d39d5a4532644a2a8502ce85be6e8ee8f66"
+      },
+      "released_code_repoint": {
+        "library": "M-EUC-006.related_modes M391/M392 -> M-WZ-001/M-WZ-011",
+        "figure_archive": "data/figures/H-EUC-001.json embedded entry",
+        "log": {
+          "schema": "protreptic.r6b_euc_repoint/v1",
+          "card": "t_f3aabe2c",
+          "date": "2026-09-23",
+          "why": "M391 archived / M392 renamed to M-WZ-011; M-EUC-006 cross-ref to the same logical modes re-pointed",
+          "figure": {
+            "path": "data/figures/H-EUC-001.json",
+            "sha_before": "a6eb2a42376b54b195465844ab25647d75ee7e974a59427f86215c7dc9219b03",
+            "sha_after": "dc2ae134e70450d412ec1eec2cb2939b9ed41b5d3eef88b007411823d01aa3c1"
+          },
+          "library": {
+            "path": "data/modes_data.json",
+            "sha_before": "4b0e625469e0c86f111be89bf4ce3aca47930858c5647bc42d1b9d1c26a06cb5",
+            "sha_after": "bdf672a24f17875a3477dd40ec944e050757296b9f4593b4e46ee2572783a686"
+          }
+        }
+      },
+      "dedupe_archive": [
+        "data/figures/_duplicates/H-WZ-001_M391_archive_snapshot.json",
+        "data/figures/_duplicates/H-WZ-001_M391_relation_analysis.json"
+      ],
+      "backup": "data/backup_r6_H-WZ-001_20260923/ + card ws backup/merge_r6b_20260923/"
+    },
+    "wangxiang": {
+      "figure": "H-HZX-002",
+      "action": "archive_plus_redo",
+      "archived": [
+        {
+          "source": "data/figures/H-HZX-002.json",
+          "target": "data/figures/_duplicates/H-HZX-002_figures.json",
+          "bytes": 1931,
+          "sha256": "8c40067cb04565a6504c27f627c710cae0b4b79cf088ae897bb6e3c6eee25e1e",
+          "tracked": true,
+          "kind": "archive"
+        },
+        {
+          "source": "data/figures/H-HZX-002_modes.json",
+          "target": "data/figures/_duplicates/H-HZX-002_figures_modes.json",
+          "bytes": 12489,
+          "sha256": "1e3e97d41f4135cbdc1a6cb4de812e8d40b3d7c86ba9f68df03d749e07f87b00",
+          "tracked": true,
+          "kind": "archive"
+        },
+        {
+          "source": "docs/figures/phase20_wangxiang_research.md",
+          "target": "data/figures/_duplicates/H-HZX-002_research_phase20.md",
+          "bytes": 4255,
+          "sha256": "8b63cda2991a5b969f3eb2d03a61df31aa9cef55d1ff55a98b245fa549a252b3",
+          "tracked": true,
+          "kind": "archive"
+        }
+      ],
+      "figure_names_cleared": [
+        "H-HZX-002",
+        "H-HZX-002_modes",
+        "H-HZX-002_MODES",
+        "H",
+        "东岳"
+      ],
+      "redo_list": "docs/research/phase21r6B_wangxiang_redo_list.md",
+      "redo_items": 10,
+      "code_note": "H-WX-001 already taken by 王选 (assessment judgment corrected); redo not conditioned on code change"
+    },
+    "dongyuming": {
+      "figure": "H-DYM-001",
+      "action": "archive",
+      "archived": [
+        {
+          "source": "data/figures/H-DYM-001.json",
+          "target": "data/figures/_duplicates/H-DYM-001_figures.json",
+          "bytes": 1601,
+          "sha256": "3b2e71fb984f822e8ef4b8d268e46ceb4fc4060d0d8e45137365fb357fded34d",
+          "tracked": true,
+          "kind": "archive"
+        },
+        {
+          "source": "data/individuals/H-DYM-001_modes.json",
+          "target": "data/figures/_duplicates/H-DYM-001_individuals_modes.json",
+          "bytes": 12219,
+          "sha256": "c9ac05dc13c33c87d3d89e67d19c5d09df7c8cd83f51598adf24ca81cb5a42a3",
+          "tracked": true,
+          "kind": "archive"
+        },
+        {
+          "source": "docs/figures/H-DYM-001.md",
+          "target": "data/figures/_duplicates/H-DYM-001_archive_page.md",
+          "bytes": 13896,
+          "sha256": "1f47d4c1463b577b171288f77299132b6dd4ab5f59a54bd2e43fd33b8931ccd4",
+          "tracked": true,
+          "kind": "archive"
+        }
+      ],
+      "figure_names_cleared": [
+        "H-DYM-001"
+      ],
+      "library_rows": 0
+    }
+  },
+  "figure_names": {
+    "keys_before": 1089,
+    "keys_after": 1083,
+    "removed": {
+      "before": 1089,
+      "after": 1083,
+      "removed_keys": [
+        "H-HZX-002",
+        "H-HZX-002_modes",
+        "H-HZX-002_MODES",
+        "H",
+        "东岳",
+        "H-DYM-001"
+      ],
+      "removed_values": {
+        "H-HZX-002": "王祥",
+        "H-HZX-002_modes": "王祥",
+        "H-HZX-002_MODES": "王祥",
+        "H": "王祥",
+        "东岳": "王祥",
+        "H-DYM-001": "董宇明"
+      },
+      "sha_after": "fa4b43d41a8c450e22768745a90b3ff0349ea0dd04235ac5f792791b4de3f661",
+      "registry": "docs/scratch/legacy20_r6b/removed_registrations_r6b.json"
+    },
+    "archive_record": "docs/scratch/legacy20_r6b/removed_registrations_r6b.json"
+  },
+  "ledger": {
+    "schema": "protreptic.r6b_ledger_refresh/v1",
+    "card": "t_f3aabe2c",
+    "date": "2026-09-23",
+    "sha_before": {
+      "tsv": "8bbf05fddfbac46c5f2be0106e3e6aef28a6927c35680388b3e161b817687ade",
+      "json": "067ee70fb61dd9ddfd4336eb54ce9a07c1943c36247b950bb6afdfaee6848ab8"
+    },
+    "sha_after": {
+      "tsv": "9d21986e92c497187f49d5ece2553092103dea4461695a650c39ef2747ca2b01",
+      "json": "879d2f1e4646b597943b5fe63aa5b30f893740a0f374f477286058dc70cc469c"
+    },
+    "b_rows": 32,
+    "statuses": {
+      "wangzhen": "已落盘（B 收口 t_f3aabe2c，已提交）",
+      "archive": "已归档（字节件入 _duplicates；B 收口 t_f3aabe2c 执行）"
+    },
+    "dedupe_refresh": {
+      "in_modes_data": "100 -> 111",
+      "in_code_maps": "100 -> 111"
+    },
+    "note": "C7 recompute (R6C verify) kept true; A/C rows untouched"
+  },
+  "current_shas": {
+    "data/modes_data.json": "bdf672a24f17875a3477dd40ec944e050757296b9f4593b4e46ee2572783a686",
+    "data/code_maps.json": "df62a33f9671702640c3d45cf8996fdce4c3fb87925e432241af008e7b5d2449",
+    "data/figure_names.json": "fa4b43d41a8c450e22768745a90b3ff0349ea0dd04235ac5f792791b4de3f661",
+    "data/scenario_tags.json": "40bdb194da045dae27b7919976315927761d1a46407914720c9aa83de3fa8c1b",
+    "data/figures/H-WZ-001.json": "cb1a74835a27120b17b1643ba9f7a753f1fc6e796b09715a454f9bf7fa35613e",
+    "data/individuals/H-WZ-001.json": "37e48795d23d2ad997390b092c46512a28d17aec32273fff52913c546c107df5",
+    "data/individuals/H-WZ-001_modes.json": "5589b7a738f96cb85ee8ae6775135d39d5a4532644a2a8502ce85be6e8ee8f66",
+    "data/audit/phase21r6_id_mapping_ledger.json": "879d2f1e4646b597943b5fe63aa5b30f893740a0f374f477286058dc70cc469c",
+    "data/audit/phase21r6_id_mapping_ledger.tsv": "9d21986e92c497187f49d5ece2553092103dea4461695a650c39ef2747ca2b01",
+    "data/figures/H-EUC-001.json": "dc2ae134e70450d412ec1eec2cb2939b9ed41b5d3eef88b007411823d01aa3c1"
+  },
+  "gates": {
+    "credibility_gate --hard-fail": {
+      "exit": 0,
+      "new_hard_failures": 0,
+      "first_round": "exit 1 with 2 new hard failures (M-EUC-006 -> released M391/M392), fixed then rerun pass"
+    },
+    "verify_findings --hard-fail": {
+      "exit": 0,
+      "baseline_refresh": "tools/build_audit_findings.py --write"
+    },
+    "verify_source_links --hard-fail": {
+      "exit": 0,
+      "new_bad_links": 0
+    },
+    "apply_verification_status --check": {
+      "exit": 0,
+      "identity": "public 3211 + quarantine 60 = 3271"
+    }
+  },
+  "site_chain": {
+    "steps": [
+      "export_static_site",
+      "gen_web_site_counts",
+      "apply_site_counts",
+      "build_daily_index",
+      "pages_preflight --stage data"
+    ],
+    "modes_deduped": 3261,
+    "published": 3201,
+    "figures": 1057,
+    "by_figure_shards": 316,
+    "anchors": {
+      "EXPECT_MODES": "3252 -> 3261",
+      "EXPECT_BY_FIGURE": 316,
+      "EXPECT_FIGURES": 1057
+    }
+  },
+  "verify": {
+    "script": "verify_r6b_exec_indep.py",
+    "result": "94 PASS / 0 FAIL / 1 INFO",
+    "info": "frozen legacy dangling refs 452 (baseline noise)",
+    "console": "card ws evidence/verify_r6b_exec_indep.out.txt"
+  },
+  "parity_pre": {
+    "status": "DIFF",
+    "counts": {
+      "workspace_in_boundary": 1790,
+      "publish_in_boundary": 1762,
+      "both_sides": 1734,
+      "identical": 1721,
+      "only_workspace": 56,
+      "only_publish": 28,
+      "excluded_publish": 673,
+      "excluded_workspace": 54
+    },
+    "diffs": {
+      "total": 97,
+      "content_diff": 13,
+      "missing_in_publish": 56,
+      "missing_in_workspace": 28
+    },
+    "evidence": "card ws evidence/parity_pre_json.json"
+  },
+  "deviations": [
+    "figure_names 口径：前置件建议（王祥机制键保留 / 董宇明键保留）与 R6C 统一口径（全清 + 登记）不同；本卡按 albo 通报的 R6C 口径执行并逐字留档（键级可回填）",
+    "门禁首轮 2 条新增硬失败（M-EUC-006 指向已释放码）按本卡职责重指清零，过程如实登记",
+    "台账 dedupe.in_modes_data/in_code_maps 100 -> 111（B 组新号入主库后状态刷新，保持 R6C C7 可复算）"
+  ],
+  "residuals": [
+    "site_docs 本地镜像（非跟踪、非构建图）残留 phase20_wangxiang_research 页与搜索索引提及，登记为后续站点重建项",
+    "未跟踪在制（他卡）：docs/qa/phase21r6_qa_*、web/dist、scratch/、data/backup_merge_H-ZDY-001_2026*",
+    "M391 富字段吸收为后续精修候选（本批未扩写）"
+  ],
+  "paths": {
+    "card_ws": "/opt/data/kanban/boards/protreptic/workspaces/t_f3aabe2c",
+    "scripts": "card ws scripts/01~07",
+    "evidence_dir": "card ws evidence/"
+  }
+}

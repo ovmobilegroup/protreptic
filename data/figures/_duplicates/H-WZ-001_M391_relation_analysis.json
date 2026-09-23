@@ -1,0 +1,194 @@
+{
+ "basis": {
+  "files": {
+   "library": {
+    "path": "data/modes_data.json",
+    "sha256": "2aef1275b05fe15b4bfafc2e894c3db2e9942aed2457e18e54109f14fcd53c5f"
+   },
+   "archive_figure": {
+    "path": "data/figures/H-WZ-001.json",
+    "sha256": "f0e78a969b5bbc08845252c1d8b9c3d19cbc249775532b21ab00fa18561c34b1"
+   },
+   "archive_individuals": {
+    "path": "data/individuals/H-WZ-001.json",
+    "sha256": "9bf4d63ad301d418563e8bf6e9a0e2b46db6b51849e590ec6be224289e76aeae"
+   },
+   "archive_modes": {
+    "path": "data/individuals/H-WZ-001_modes.json",
+    "sha256": "1f924bdb1d2527c4fe3f8ef4cd2c7c0c6913f74445825cefb4fc60654f2ad1b9"
+   }
+  }
+ },
+ "pairs": {
+  "M391_vs_M371": {
+   "verdict": "重复（同题「屯垦戍边法」，两版正文；非字节级重复）",
+   "identical_fields": [
+    "name_zh"
+   ],
+   "differing_fields": [
+    "category",
+    "definition_en",
+    "definition_zh",
+    "domain_zh",
+    "id",
+    "key_concepts",
+    "mode_code",
+    "name_en",
+    "representative_cases_zh",
+    "source_chapter"
+   ],
+   "diff_detail": {
+    "category": {
+     "old_M391": "政治治理",
+     "new_M371": "战略建设"
+    },
+    "definition_en": {
+     "old_M391": "Combine military garrison with agricultural production, achieve economic self-sufficiency and national defense security in border regions through Tunten, forming a stable mechanism of 'soldier-farmer integration'.",
+     "new_M371": "Combining military frontier defense with economic construction through reclamation to achieve long-term stability in border regions"
+    },
+    "definition_zh": {
+     "old_M391": "将军事驻防与农业生产相结合，通过屯垦实现边疆地区的经济自给和国防安全，形成'兵农合一'的稳定机制。",
+     "new_M371": "将军事戍边与经济建设相结合，通过屯田开发实现边疆的长治久安"
+    },
+    "domain_zh": {
+     "old_M391": "国防经济/区域发展",
+     "new_M371": "边疆开发与国防安全"
+    },
+    "id": {
+     "old_M391": "M391",
+     "new_M371": "M371"
+    },
+    "key_concepts": {
+     "old_M391": [
+      "屯垦戍边",
+      "兵农合一",
+      "军垦",
+      "边疆稳定",
+      "经济自给"
+     ],
+     "new_M371": [
+      "屯垦戍边",
+      "兵民合一",
+      "耕战结合"
+     ]
+    },
+    "mode_code": {
+     "old_M391": "M391",
+     "new_M371": "M371"
+    },
+    "name_en": {
+     "old_M391": "Tunten Shubian Method",
+     "new_M371": "Frontier Reclamation and Defense Method"
+    },
+    "representative_cases_zh": {
+     "old_M391": [
+      "王震率部进军新疆",
+      "创建新疆生产建设兵团",
+      "开发天山南北"
+     ],
+     "new_M371": [
+      "创建新疆生产建设兵团",
+      "北大荒开发"
+     ]
+    },
+    "source_chapter": {
+     "old_M391": "《新疆生产建设兵团志》",
+     "new_M371": "新疆生产建设兵团创建与建设实践(1949-1993)"
+    }
+   },
+   "only_in_old_M391": [
+    "application_en",
+    "application_zh",
+    "category_raw",
+    "domain_en",
+    "figure_code",
+    "figure_name",
+    "key_quote_en",
+    "key_quote_zh",
+    "level",
+    "modern_parallel_zh",
+    "pitfalls_zh",
+    "priority",
+    "process_en",
+    "process_zh",
+    "related_modes",
+    "representative_cases_en",
+    "thinking_skill_zh",
+    "verification"
+   ],
+   "only_in_new_M371": [],
+   "recommendation": "M371 入库为 M-WZ-001（档案 10 条批次口径）；M391 归档去重（快照留存，含上方差异化富字段），其 process/application/pitfalls/key_quote 等字段吸收列入精修候选，不在本批并入"
+  },
+  "M392_vs_archive10": {
+   "same_name_entry": null,
+   "nearest": [
+    {
+     "id": "M374",
+     "name": "军政融合法",
+     "note": "同属军政-兵团主题族；M392 为组织形式/制度设计，M374 为职能融合，二者可区分"
+    },
+    {
+     "id": "M371",
+     "name": "屯垦戍边法",
+     "note": "M392 的案例域（兵团体制）与 M371 实践域相邻"
+    }
+   ],
+   "verdict": "独立（10 条无同名同题条目）",
+   "recommendation": "并轨为 M-WZ-011（推荐：字段保全、内容完整、含既有 link-resolved 核验记录，退一档保留王震‘兵团模式’标签）；备选=同 M391 路径归档（不推荐）"
+  }
+ },
+ "coverage_summary": "王震区块共 12 条 = 档案 10 条（figures/H-WZ-001.json=M371~380，库内 0 条）+ 库内 legacy 2 条（M391/M392）＋旧档 individuals 伴随包 2 条（与库内同文，仅 category 未归一）。关系：同名重复 1 对（屯垦戍边法）；独立 1 条（兵团模式法）；新增 10 条。评估稿『加 8 条未入库差异』以本实测为准。",
+ "category_mapping_policy": "候选映射表（照 A 组样例口径批量应用；不改变正文，原值入 category_raw）；逐条依据见 modes_library_entries.json 生成说明与报告 §3。",
+ "category_mapping": {
+  "M371": {
+   "new": "政治治理",
+   "raw": "战略建设",
+   "basis": "库内同题 M391「屯垦戍边法」已归 政治治理；左宗棠「收复新疆屯垦戍边法」同为 政治治理"
+  },
+  "M372": {
+   "new": "方法论通用",
+   "raw": "工作方法",
+   "basis": "对应样例映射「…方法论思维→方法论通用」一档（工作方法类）"
+  },
+  "M373": {
+   "new": "伦理修养",
+   "raw": "精神品质",
+   "basis": "精神品质/革命传统 归伦理修养（近例：孝庄「忠诚网络织造法」=伦理修养）"
+  },
+  "M374": {
+   "new": "政治治理",
+   "raw": "制度创新",
+   "basis": "军政体制/制度类 归政治治理"
+  },
+  "M375": {
+   "new": "政治治理",
+   "raw": "政治品格",
+   "basis": "政治品格/党性修养 归政治治理（近例：格瓦拉「医者革命融合法」个人品格类=政治治理）"
+  },
+  "M376": {
+   "new": "方法论通用",
+   "raw": "工作方法",
+   "basis": "工作方法类 归方法论通用（与 M372 同档）"
+  },
+  "M377": {
+   "new": "方法论通用",
+   "raw": "创新精神",
+   "basis": "创新精神/改革突破 归方法论通用（候选，无直接先例）"
+  },
+  "M378": {
+   "new": "战略决策",
+   "raw": "政治策略",
+   "basis": "对应样例映射「政治策略思维→战略决策」一档"
+  },
+  "M379": {
+   "new": "政治治理",
+   "raw": "党的建设",
+   "basis": "党的建设/廉政 归政治治理（候选；近例：朱元璋反腐条目为方法论通用，两种口径并存）"
+  },
+  "M380": {
+   "new": "认识论逻辑",
+   "raw": "思想路线",
+   "basis": "思想路线/实事求是：库内林则徐「实事求是验伪法」、邓小平「实事求是解放思想法」均为 认识论逻辑"
+  }
+ }
+}

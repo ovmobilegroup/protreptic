@@ -31,7 +31,10 @@ EXPECT_FIGURES = 1057
 # 去重口径 —— 净 +20：3008 条目的空模式码降至 10 条壳 + 10 班固入库),
 # EXPECT_BY_FIGURE 304 -> 306 (曾子/班固 各 +1 分片)。EXPECT_FIGURES unchanged.
 # Phase21-R6 (2026-09-23, card t_10089b19) anchor bump: 3152 -> 3252 (+100 A-group modes)
-EXPECT_MODES = 3252
+# Phase21-R6B (2026-09-23, card t_f3aabe2c) anchor bump: 3252 -> 3261
+# (+10 王震 M-WZ-001~010 迁入，M392 重编号为 M-WZ-011 净 0，M391 归档去重 -1；空模式码壳 10 条口径不变；
+# EXPECT_BY_FIGURE 316 / EXPECT_FIGURES 1057 unchanged)
+EXPECT_MODES = 3261
 EXPECT_BY_FIGURE = 316
 EXPECT_MODE_INDEX_SHARDS = 8
 SPA_BASE = "/protreptic/"

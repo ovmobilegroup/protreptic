@@ -1,0 +1,28 @@
+[PASS] A1 归档清单 22 件（实得 22）
+[PASS] A2 22 件归档 sha/字节/源清空（异常 []）
+[PASS] A3 归档件 git 跟踪 22（实得 22）
+[PASS] B1 figure_names 9 键已撤（残留 []）
+[PASS] B2 code_maps 3 条目已撤（残留 []）
+[PASS] B3 scenarios 60 条已撤（残留 []）
+[PASS] B4 scenarios 撤下计数 zh/en 各 30
+[PASS] B5 modes_data 冻结值不变（零写入）
+[PASS] B6 C 组活跃层档案件清零（残留 []）
+[PASS] B7 复扫集合 == 证据登记集合（零未登记残留；差异 [] / []）
+[PASS] B8 web/public 零提及
+[PASS] C1 A 组 100 行可复算一致（重算 100 / 账本 100）
+[PASS] C2 B 组 32 行（WZ 12 + DYM 10 + HZX 10；账本 32）
+[PASS] C3 C 组 78 行可复算一致（重算 78 / 账本 78）
+[PASS] C4 新号 111 个且唯一（实得 111/111）
+[PASS] C5 code_maps 归属碰撞 0（异常 []）
+[PASS] C6 账本 total 210（tsv 210 / json 210）
+[PASS] C7 in_modes_data 计数可复算
+[PASS] C8 账本 dedupe 碰撞 0（构建时点）
+[PASS] D1 待身份清单 6 件字段齐（['H-AN-001', 'H-LC-001', 'H-YE-001', 'H-ZOU-001', 'H-HAN-001', 'H-MODERN-002']）
+[PASS] D2 线上变化 3 页（实得 3）
+[PASS] D3 撤下计数 9/3/30/30（{'figure_names': 9, 'code_maps': 3, 'scenarios': {'data/scenarios_zh.json': 30, 'data/scenarios_en.json': 30}}）
+[PASS] D4 products sha 一致（异常 []）
+[PASS] D5 残留登记表非空（45 行）
+[PASS] D6 隔离说明含陆有/编号预案
+[PASS] D7 报告覆盖 7 码
+
+SUMMARY: PASS 26 / FAIL 0

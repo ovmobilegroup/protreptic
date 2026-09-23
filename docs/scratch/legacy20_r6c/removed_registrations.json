@@ -1,0 +1,928 @@
+{
+ "schema": "protreptic.r6c_removed_registrations/v1",
+ "card": "t_4a9cf2cb",
+ "date": "20260923",
+ "figure_names": {
+  "H-AN-001": "安子",
+  "H-LC-001": "陆沉",
+  "H-YE-001": "叶筱",
+  "H-ZOU-001": "邹文献",
+  "H-HAN-001": "沈幅",
+  "Han": "沈幅",
+  "HAN": "沈幅",
+  "H-MODERN-002": "大云",
+  "H-LUORQ-001": "罗瑞卿"
+ },
+ "code_maps": {
+  "H-ZOU-001": {
+   "figure_name": "邹文献",
+   "figure_code": "H-ZOU-001",
+   "figure_pinyin": "Zou Wenlian",
+   "era": "Modern",
+   "school": "革命理论与实践",
+   "representative_works": [
+    "中国革命根据地的历史研究",
+    "中国共产党思想路线的理论创新"
+   ],
+   "scenarios_zh_count": 10,
+   "modes_count": 10
+  },
+  "H-MODERN-002": {
+   "figure_name": "大云",
+   "figure_code": "Modern",
+   "figure_pinyin": "Dà Yún",
+   "birth_year": 1970,
+   "death_year": null,
+   "era": "现代/Modern Era",
+   "school": "现代综合学派/Modern Synthesis School",
+   "representative_works": [
+    "《现代思维模式创新研究》",
+    "《东西方文明融合之路》",
+    "《系统思考与实践》",
+    "《创新管理与变革》",
+    "《人文科技和谐发展》"
+   ],
+   "historical_significance": "现代转型时期的重要思想家和实践者，致力于将东西方文化精华融合创新，建立具有现代特色的综合思维体系。在现代社会发展和文化建设中产生了深远影响，为现代人的思维方式和价值观念提供了重要指导。",
+   "core_thoughts": [
+    "系统整合思维",
+    "创新突破思维",
+    "实用导向思维",
+    "多元融合思维",
+    "动态适应思维"
+   ],
+   "famous_quote": "融合创新，实用为本，动态发展，人文关怀",
+   "influence": "大云的思想影响了现代教育、管理、科技等多个领域，其'系统整合、创新突破'的理念被广泛应用于现代社会发展和文化建设中。通过实践验证和理论创新，形成了独特的现代思维模式，为现代社会价值重建和方法论创新提供了重要参考。",
+   "thinking_mode_count": 10,
+   "mode_ids": [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008",
+    "M009",
+    "M010"
+   ],
+   "tags": [
+    "现代思维",
+    "系统整合",
+    "创新突破",
+    "实用导向",
+    "多元融合",
+    "动态适应",
+    "东西方文化",
+    "综合思维",
+    "现代价值",
+    "方法论创新"
+   ],
+   "cross_references": [
+    {
+     "target_figure_code": "H-MODERN-001",
+     "relation_type": "comparison",
+     "description_zh": "陆一波侧重现代综合学派的系统整合，大云侧重现代思维模式的创新突破；前者重理论框架建构，后者重实践方法论创新。"
+    }
+   ],
+   "related_figures": [
+    "H-MODERN-001"
+   ],
+   "scenarios_zh": {
+    "C-MODERN-002-001": {
+     "code": "C-MODERN-002-001",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M001",
+     "title_zh": "系统整合思维——现代知识体系构建案例",
+     "description_zh": "大云在现代社会研究中提出系统整合思维，主张将东西方文化精华、传统与现代、理论与实践进行系统性整合。这一思维模式通过《现代思维模式创新研究》等著作推广，为现代知识体系的重构提供了方法论基础，成为现代学术研究的重要指导原则。"
+    },
+    "C-MODERN-002-002": {
+     "code": "C-MODERN-002-002",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M002",
+     "title_zh": "创新突破思维——传统与现代的辩证统一案例",
+     "description_zh": "大云强调创新突破思维，认为现代发展需要在继承传统的基础上进行创新突破。这一理念体现在《创新管理与变革》中，通过具体案例分析展示了如何在现代企业管理中实现传统价值与现代创新的辩证统一，为现代组织发展提供了实践指导。"
+    },
+    "C-MODERN-002-003": {
+     "code": "C-MODERN-002-003",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M003",
+     "title_zh": "实用导向思维——现代问题解决的方法论案例",
+     "description_zh": "大云提出实用导向思维，主张现代思维应以解决实际问题为导向。这一理念在《系统思考与实践》中得到充分体现，通过具体案例展示了如何运用系统思维解决现代社会的复杂问题，为现代实践提供了方法论支持。"
+    },
+    "C-MODERN-002-004": {
+     "code": "C-MODERN-002-004",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M004",
+     "title_zh": "多元融合思维——文化整合的实践案例",
+     "description_zh": "大云倡导多元融合思维，主张在全球化背景下实现不同文化、不同学科的有机融合。这一理念在《东西方文明融合之路》中得到系统阐述，通过具体案例展示了如何在现代社会中实现东西方文化的深度整合，为现代文化建设提供了理论指导。"
+    },
+    "C-MODERN-002-005": {
+     "code": "C-MODERN-002-005",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M005",
+     "title_zh": "动态适应思维——现代环境变化的应对策略案例",
+     "description_zh": "大云提出动态适应思维，主张现代思维需要适应不断变化的环境。这一理念在《人文科技和谐发展》中得到体现，通过具体案例展示了如何在科技快速发展的背景下保持人文关怀，实现科技与人文的动态平衡。"
+    },
+    "C-MODERN-002-006": {
+     "code": "C-MODERN-002-006",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M006",
+     "title_zh": "现代价值重构——传统价值的现代转化案例",
+     "description_zh": "大云致力于现代价值的重构，主张将传统价值进行现代转化。这一理念通过《人文科技和谐发展》等著作得到系统阐述，通过具体案例展示了如何在现代社会中重新诠释和转化传统价值，为现代价值体系建设提供了理论支持。"
+    },
+    "C-MODERN-002-007": {
+     "code": "C-MODERN-002-007",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M007",
+     "title_zh": "方法论创新——现代思维工具的创造案例",
+     "description_zh": "大云在方法论创新方面做出了重要贡献，创造了一系列现代思维工具。这些工具在《系统思考与实践》中得到系统介绍，通过具体案例展示了如何运用这些工具解决现代社会的复杂问题，为现代思维方法的发展提供了实践基础。"
+    },
+    "C-MODERN-002-008": {
+     "code": "C-MODERN-002-008",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M008",
+     "title_zh": "跨学科整合——现代知识体系的建设案例",
+     "description_zh": "大云强调跨学科整合的重要性，主张打破学科壁垒进行知识整合。这一理念在《现代思维模式创新研究》中得到充分体现，通过具体案例展示了如何在跨学科研究中实现知识的有机整合，为现代知识体系建设提供了方法论指导。"
+    },
+    "C-MODERN-002-009": {
+     "code": "C-MODERN-002-009",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M009",
+     "title_zh": "实践验证——现代理论的现实检验案例",
+     "description_zh": "大云强调实践验证的重要性，主张现代理论需要在实践中得到检验。这一理念通过其具体的研究和实践项目得到体现，通过案例展示了如何将理论应用于实践并通过实践来验证理论的正确性，为现代理论研究提供了实践基础。"
+    },
+    "C-MODERN-002-010": {
+     "code": "C-MODERN-002-010",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M010",
+     "title_zh": "持续创新——现代思维的发展模式案例",
+     "description_zh": "大云提出持续创新的理念，主张现代思维需要不断发展和创新。这一理念贯穿其所有著作，通过具体案例展示了如何在现代社会中保持思维的持续创新能力，为现代思维的发展提供了理论指导。"
+    }
+   },
+   "scenarios_en": {
+    "C-MODERN-002E-001": {
+     "code": "C-MODERN-002E-001",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M001",
+     "title_en": "System Integration Thinking — Modern Knowledge System Construction Case",
+     "description_en": "Dayun proposes system integration thinking in modern social research, advocating systematic integration of Eastern and Western cultural essences, tradition and modernity, theory and practice. This thinking pattern, promoted through works like 'Modern Thinking Model Innovation Research,' provides a methodological foundation for reconstructing modern knowledge systems, becoming an important guiding principle for modern academic research."
+    },
+    "C-MODERN-002E-002": {
+     "code": "C-MODERN-002E-002",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M002",
+     "title_en": "Innovation Breakthrough Thinking — Dialectical Unity of Tradition and Modernity Case",
+     "description_en": "Dayun emphasizes innovation breakthrough thinking, arguing that modern development requires innovation breakthrough based on inheriting tradition. This concept is embodied in 'Innovation Management and Change,' demonstrating through specific case studies how to achieve dialectical unity of traditional values and modern innovation in modern enterprise management, providing practical guidance for modern organizational development."
+    },
+    "C-MODERN-002E-003": {
+     "code": "C-MODERN-002E-003",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M003",
+     "title_en": "Practical Orientation Thinking — Modern Problem-Solving Methodology Case",
+     "description_en": "Dayun proposes practical orientation thinking, advocating that modern thinking should be guided by solving practical problems. This concept is fully reflected in 'Systematic Thinking and Practice,' showing through specific cases how to apply systematic thinking to solve complex problems in modern society, providing methodological support for modern practice."
+    },
+    "C-MODERN-002E-004": {
+     "code": "C-MODERN-002E-004",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M004",
+     "title_en": "Multiple Integration Thinking — Cultural Integration Practice Case",
+     "description_en": "Dayun advocates multiple integration thinking,主张实现不同文化、不同学科的有机融合 in the context of globalization. This concept is systematically elaborated in 'The Path of Integration of Eastern and Western Civilizations,' demonstrating through specific cases how to achieve deep integration of Eastern and Western cultures in modern society, providing theoretical guidance for modern cultural construction."
+    },
+    "C-MODERN-002E-005": {
+     "code": "C-MODERN-002E-005",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M005",
+     "title_en": "Dynamic Adaptation Thinking — Modern Environmental Change Response Strategy Case",
+     "description_en": "Dayun proposes dynamic adaptation thinking, arguing that modern thinking needs to adapt to constantly changing environments. This concept is reflected in 'Harmonious Development of Humanities and Technology,' demonstrating through specific cases how to maintain humanistic care while achieving rapid technological development, achieving dynamic balance between technology and humanities."
+    },
+    "C-MODERN-002E-006": {
+     "code": "C-MODERN-002E-006",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M006",
+     "title_en": "Modern Value Reconstruction — Traditional Value Modern Transformation Case",
+     "description_en": "Dayun is dedicated to modern value reconstruction, advocating the modern transformation of traditional values. This concept is systematically elaborated in works like 'Harmonious Development of Humanities and Technology,' demonstrating through specific cases how to reinterpret and transform traditional values in modern society, providing theoretical support for modern value system construction."
+    },
+    "C-MODERN-002E-007": {
+     "code": "C-MODERN-002E-007",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M007",
+     "title_en": "Methodology Innovation — Creation of Modern Thinking Tools Case",
+     "description_en": "Dayun has made important contributions to methodology innovation, creating a series of modern thinking tools. These tools are systematically introduced in 'Systematic Thinking and Practice,' demonstrating through specific cases how to apply these tools to solve complex problems in modern society, providing a practical foundation for the development of modern thinking methods."
+    },
+    "C-MODERN-002E-008": {
+     "code": "C-MODERN-002E-008",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M008",
+     "title_en": "Interdisciplinary Integration — Modern Knowledge System Construction Case",
+     "description_en": "Dayun emphasizes the importance of interdisciplinary integration, advocating breaking down disciplinary barriers for knowledge integration. This concept is fully reflected in 'Modern Thinking Model Innovation Research,' demonstrating through specific cases how to achieve organic integration of knowledge in interdisciplinary research, providing methodological guidance for modern knowledge system construction."
+    },
+    "C-MODERN-002E-009": {
+     "code": "C-MODERN-002E-009",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M009",
+     "title_en": "Practical Verification — Modern Theory Reality Testing Case",
+     "description_en": "Dayun emphasizes the importance of practical verification, advocating that modern theories need to be tested in practice. This concept is reflected in his specific research and practice projects, demonstrating through cases how to apply theories to practice and verify theoretical correctness through practice, providing a practical foundation for modern theoretical research."
+    },
+    "C-MODERN-002E-010": {
+     "code": "C-MODERN-002E-010",
+     "figure_id": "H-MODERN-002",
+     "mode_id": "M010",
+     "title_en": "Continuous Innovation — Modern Thinking Development Model Case",
+     "description_en": "Dayun proposes the concept of continuous innovation, arguing that modern thinking needs constant development and innovation. This concept runs through all his works, demonstrating through specific cases how to maintain continuous innovation ability in modern society, providing theoretical guidance for the development of modern thinking."
+    }
+   },
+   "meta": {
+    "source": "现代思想研究文献、东西方文化融合研究、系统思考理论、创新管理实践",
+    "methodology": "历史文献分析法、理论解析法、案例验证法",
+    "validation": "与现代社会发展轨迹交叉验证，对照东西方文化融合研究",
+    "generation_date": "2026-09-05",
+    "mode_count": 10,
+    "figure_code_ref": "H-MODERN-002",
+    "phase": "Phase 20"
+   }
+  },
+  "H-LUORQ-001": {
+   "figure_name": "罗瑞卿",
+   "figure_code": "H-LUORQ-001",
+   "figure_pinyin": "Luo Ruiqing",
+   "birth_year": 1906,
+   "death_year": 1978,
+   "era": "现代/Modern Era",
+   "school": "安全保卫学派/Security and Intelligence School",
+   "representative_works": [
+    "《罗瑞卿文选》",
+    "《公安工作文集》"
+   ],
+   "historical_significance": "中华人民共和国开国大将，新中国第一任公安部长和国防部长。中国安全保卫工作和情报工作的奠基人之一，在建国初期的国家安全体系建设、公安机关建立与整顿、军队正规化建设等方面作出了开创性贡献。",
+   "core_thoughts": [
+    "安全保卫优先法——将国家安全置于一切工作的首位",
+    "专门工作与群众路线相结合法——公安工作既要依靠专业力量又要发动群众",
+    "预防为主、防患未然法——强调事前预防和情报预警",
+    "军队正规化建设法——推动人民解放军从游击战向现代化战争转型",
+    "情报主导决策法——以情报分析支撑战略决策"
+   ],
+   "famous_quote": "公安工作是国家政权的重要支柱，必须牢牢掌握在党和人民手中。",
+   "influence": "罗瑞卿的安全保卫思想和军队正规化建设理念对中国现代国家安全体系和人民解放军现代化建设产生了深远影响。",
+   "thinking_mode_count": 10,
+   "mode_ids": [
+    "M351",
+    "M352",
+    "M353",
+    "M354",
+    "M355",
+    "M356",
+    "M357",
+    "M358",
+    "M359",
+    "M360"
+   ],
+   "tags": [
+    "安全保卫",
+    "情报工作",
+    "公安建设",
+    "军队正规化",
+    "预防为主",
+    "群众路线",
+    "专门工作",
+    "国家安全",
+    "国防建设",
+    "政治可靠"
+   ],
+   "cross_references": [
+    {
+     "target_figure_code": "H-LC-001",
+     "relation_type": "parallel",
+     "description_zh": "陈云侧重经济建设的综合平衡，罗瑞卿侧重安全保卫的国家体系；两者分别从经济和军事安全两个维度支撑新中国政权稳固。",
+     "description_en": "Chen Yun focused on comprehensive economic balance, while Luo Ruiqing focused on security defense national system; both supported the stability of New China's regime from economic and military security dimensions."
+    },
+    {
+     "target_figure_code": "H-LRH-001",
+     "relation_type": "parallel",
+     "description_zh": "罗荣桓侧重军队政治工作，罗瑞卿侧重军队安全保卫和正规化建设；两者共同构成了人民解放军现代化建设的两大支柱。",
+     "description_en": "Luo Ronghuan focused on political work in the army, while Luo Ruiqing focused on security defense and regularization of the military; together they formed the two pillars of the PLA's modernization."
+    }
+   ],
+   "related_figures": [
+    "H-LC-001",
+    "H-LRH-001"
+   ],
+   "scenarios_zh": {
+    "C-LUORQ-001": {
+     "code": "C-LUORQ-001",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M351",
+     "title_zh": "安全保卫优先——建国初期国家安全体系建设案例",
+     "description_zh": "新中国成立初期，罗瑞卿主持筹建中央公安部，将国家安全置于一切工作的首位。他主导建立了覆盖全国的公安系统，肃清国民党特务和土匪势力，巩固了新生人民政权的安全基础。",
+     "title_en": "Security First — Early PRC National Security System Construction Case",
+     "description_en": "In the early days of New China, Luo Ruiqing presided over the establishment of the Ministry of Public Security, placing national security above all other work. He led the creation of a nationwide public security system to eliminate KMT agents and bandit forces, consolidating the security foundation of the nascent people's regime."
+    },
+    "C-LUORQ-002": {
+     "code": "C-LUORQ-002",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M352",
+     "title_zh": "专门工作与群众路线相结合——镇反运动中的工作方法案例",
+     "description_zh": "罗瑞卿在镇压反革命运动中，坚持专门机关与群众路线相结合的原则：既依靠公安专业力量深入调查，又广泛发动群众检举揭发反革命分子，实现了高效的社会治安整顿。",
+     "title_en": "Specialized Work Combined with Mass Line — Public Security in the Suppression of Counterrevolutionaries Case",
+     "description_en": "During the suppression of counterrevolutionary activities, Luo Ruiqing adhered to combining specialized police work with the mass line: relying on professional public security forces for in-depth investigations while mobilating masses to denounce counterrevolutionaries, achieving efficient social order restoration."
+    },
+    "C-LUORQ-003": {
+     "code": "C-LUORQ-003",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M353",
+     "title_zh": "预防为主——公安预警机制建设案例",
+     "description_zh": "罗瑞卿强调'预防为主、防患未然'，推动建立了覆盖全国的治安预警和情报收集网络。通过建立基层派出所和群众联防组织，将安全隐患消灭在萌芽状态。",
+     "title_en": "Prevention First — Early Warning Mechanism Construction Case",
+     "description_en": "Luo Ruiqing emphasized 'prevention first,防患未然', establishing a nationwide public security early warning and intelligence network. By setting up grassroots police stations and mass defense organizations, he eliminated potential security threats at their source."
+    },
+    "C-LUORQ-004": {
+     "code": "C-LUORQ-004",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M354",
+     "title_zh": "军队正规化建设——解放军现代化建设推进案例",
+     "description_zh": "罗瑞卿担任国防部长期间，大力推动人民解放军从游击战向正规化、现代化战争转型。他主导建立了军事院校体系、军衔制度和军队条令条例，为人民军队的现代化建设奠定了基础。",
+     "title_en": "Military Regularization — PLA Modernization Reform Case",
+     "description_en": "As Minister of National Defense, Luo Ruiqing vigorously promoted the transformation of the PLA from guerrilla warfare to regularized and modern warfare. He established military academies, a rank system, and service regulations, laying the foundation for modernization of China's armed forces."
+    },
+    "C-LUORQ-005": {
+     "code": "C-LUORQ-005",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M355",
+     "title_zh": "情报主导决策——国家安全战略制定案例",
+     "description_zh": "罗瑞卿在担任公安部长和国防部长期间，始终坚持情报主导决策的理念。他建立了覆盖全国的情报网络，通过系统的情报分析为中央的战略决策提供科学依据。",
+     "title_en": "Intelligence-Led Decision Making — National Security Strategy Formulation Case",
+     "description_en": "While serving as Minister of Public Security and Minister of National Defense, Luo Ruiqing consistently adhered to intelligence-led decision making. He built a nationwide intelligence network and provided scientific analysis for central strategic decisions."
+    },
+    "C-LUORQ-006": {
+     "code": "C-LUORQ-006",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M356",
+     "title_zh": "政治可靠优先——公安队伍政治审查案例",
+     "description_zh": "罗瑞卿在组建新中国公安系统时，将政治可靠性作为首要标准。他建立了严格的公安人员政治审查制度，确保这支重要力量绝对忠诚于党和人民。",
+     "title_en": "Political Reliability First — Public Security Personnel Vetting Case",
+     "description_en": "When building New China's public security system, Luo Ruiqing placed political reliability as the primary criterion. He established strict vetting procedures for public security personnel to ensure absolute loyalty to the Party and the people."
+    },
+    "C-LUORQ-007": {
+     "code": "C-LUORQ-007",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M357",
+     "title_zh": "法制化公安建设——新中国第一部公安机关组织法案例",
+     "description_zh": "罗瑞卿推动制定了新中国第一部《公安机关组织条例》，以法律形式确立了公安系统的组织架构、职能定位和工作原则，为公安工作的法制化奠定了制度基础。",
+     "title_en": "Legalization of Public Security — New China's First Public Security Organization Law Case",
+     "description_en": "Luo Ruiqing promoted the formulation of New China's first 'Public Security Organ Regulations', legally establishing the organizational structure, functions, and principles of the public security system."
+    },
+    "C-LUORQ-008": {
+     "code": "C-LUORQ-008",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M358",
+     "title_zh": "军队纪律建设——高级干部违纪处理案例",
+     "description_zh": "罗瑞卿在军队纪律建设中坚持'严字当头、一视同仁'的原则。他推动对高级干部违纪行为的严肃处理，维护了人民解放军的纪律严明和军队形象。",
+     "title_en": "Military Discipline — Senior Cadre Violation Handling Case",
+     "description_en": "Luo Ruiqing insisted on 'strict discipline applied equally to all' in military disciplinary construction. He promoted the serious handling of senior cadre violations, maintaining the PLA's strict discipline and military image."
+    },
+    "C-LUORQ-009": {
+     "code": "C-LUORQ-009",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M359",
+     "title_zh": "国家安全战略——抗美援朝时期的安全决策案例",
+     "description_zh": "在抗美援朝战争期间，罗瑞卿作为中央重要决策成员之一，从国家安全全局出发，统筹国内治安、情报工作和前线作战保障，为战争的胜利提供了坚实的安全后盾。",
+     "title_en": "National Security Strategy — Korean War Security Decision Case",
+     "description_en": "During the Korean War, as an important central decision-maker, Luo Ruiqing coordinated domestic security, intelligence operations and front-line combat support from a national security perspective, providing solid security backing for the war's victory."
+    },
+    "C-LUORQ-010": {
+     "code": "C-LUORQ-010",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M360",
+     "title_zh": "历史经验——新中国安全保卫工作体系总结案例",
+     "description_zh": "罗瑞卿晚年回顾新中国安全保卫工作的发展历程，从公安系统建设、军队正规化改革等实践中提炼出宝贵经验：国家安全必须置于首位，专门工作与群众路线相结合是唯一正确道路。",
+     "title_en": "Historical Experience — Summary of New China's Security and Protection System",
+     "description_en": "In his later years, Luo Ruiqing reviewed the development of China's security and protection work, extracting key lessons from public security system building and military regularization: national security must be placed first, and combining specialized work with the mass line is the only correct path."
+    }
+   },
+   "scenarios_en": {
+    "C-LUORQ-001E": {
+     "code": "C-LUORQ-001E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M351",
+     "title_en": "Security First — Early PRC National Security System Construction Case",
+     "description_en": "In the early days of New China, Luo Ruiqing presided over the establishment of the Ministry of Public Security, placing national security above all other work. He led the creation of a nationwide public security system to eliminate KMT agents and bandit forces, consolidating the security foundation of the nascent people's regime."
+    },
+    "C-LUORQ-002E": {
+     "code": "C-LUORQ-002E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M352",
+     "title_en": "Specialized Work Combined with Mass Line — Public Security in the Suppression of Counterrevolutionaries Case",
+     "description_en": "During the suppression of counterrevolutionary activities, Luo Ruiqing adhered to combining specialized police work with the mass line: relying on professional public security forces for in-depth investigations while mobilating masses to denounce counterrevolutionaries, achieving efficient social order restoration."
+    },
+    "C-LUORQ-003E": {
+     "code": "C-LUORQ-003E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M353",
+     "title_en": "Prevention First — Early Warning Mechanism Construction Case",
+     "description_en": "Luo Ruiqing emphasized 'prevention first,防患未然', establishing a nationwide public security early warning and intelligence network. By setting up grassroots police stations and mass defense organizations, he eliminated potential security threats at their source."
+    },
+    "C-LUORQ-004E": {
+     "code": "C-LUORQ-004E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M354",
+     "title_en": "Military Regularization — PLA Modernization Reform Case",
+     "description_en": "As Minister of National Defense, Luo Ruiqing vigorously promoted the transformation of the PLA from guerrilla warfare to regularized and modern warfare. He established military academies, a rank system, and service regulations, laying the foundation for modernization of China's armed forces."
+    },
+    "C-LUORQ-005E": {
+     "code": "C-LUORQ-005E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M355",
+     "title_en": "Intelligence-Led Decision Making — National Security Strategy Formulation Case",
+     "description_en": "While serving as Minister of Public Security and Minister of National Defense, Luo Ruiqing consistently adhered to intelligence-led decision making. He built a nationwide intelligence network and provided scientific analysis for central strategic decisions."
+    },
+    "C-LUORQ-006E": {
+     "code": "C-LUORQ-006E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M356",
+     "title_en": "Political Reliability First — Public Security Personnel Vetting Case",
+     "description_en": "When building New China's public security system, Luo Ruiqing placed political reliability as the primary criterion. He established strict vetting procedures for public security personnel to ensure absolute loyalty to the Party and the people."
+    },
+    "C-LUORQ-007E": {
+     "code": "C-LUORQ-007E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M357",
+     "title_en": "Legalization of Public Security — New China's First Public Security Organization Law Case",
+     "description_en": "Luo Ruiqing promoted the formulation of New China's first 'Public Security Organ Regulations', legally establishing the organizational structure, functions, and principles of the public security system."
+    },
+    "C-LUORQ-008E": {
+     "code": "C-LUORQ-008E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M358",
+     "title_en": "Military Discipline — Senior Cadre Violation Handling Case",
+     "description_en": "Luo Ruiqing insisted on 'strict discipline applied equally to all' in military disciplinary construction. He promoted the serious handling of senior cadre violations, maintaining the PLA's strict discipline and military image."
+    },
+    "C-LUORQ-009E": {
+     "code": "C-LUORQ-009E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M359",
+     "title_en": "National Security Strategy — Korean War Security Decision Case",
+     "description_en": "During the Korean War, as an important central decision-maker, Luo Ruiqing coordinated domestic security, intelligence operations and front-line combat support from a national security perspective, providing solid security backing for the war's victory."
+    },
+    "C-LUORQ-010E": {
+     "code": "C-LUORQ-010E",
+     "figure_id": "H-LUORQ-001",
+     "mode_id": "M360",
+     "title_en": "Historical Experience — Summary of New China's Security and Protection System",
+     "description_en": "In his later years, Luo Ruiqing reviewed the development of China's security and protection work, extracting key lessons from public security system building and military regularization: national security must be placed first, and combining specialized work with the mass line is the only correct path."
+    }
+   },
+   "protreptic_mapping": {
+    "安全保卫/情报工作": [
+     "M351",
+     "M352",
+     "M353",
+     "M355"
+    ],
+    "军队正规化/制度建设": [
+     "M354",
+     "M357",
+     "M358"
+    ],
+    "国家安全战略/统筹规划": [
+     "M356",
+     "M359",
+     "M360"
+    ]
+   },
+   "meta": {
+    "source": "《罗瑞卿文选》、《公安工作文集》、中共中央文献研究室编撰资料",
+    "methodology": "历史文献分析法、案例验证法、实践经验总结法",
+    "validation": "与新中国公安体系建设和军队正规化改革历史交叉验证",
+    "generation_date": "2026-09-05",
+    "mode_count": 10,
+    "figure_code_ref": "H-LUORQ-001",
+    "phase": "Phase 20"
+   }
+  }
+ },
+ "scenarios": {
+  "data/scenarios_zh.json": {
+   "C-MODERN-002-001": {
+    "code": "C-MODERN-002-001",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M001",
+    "title_zh": "系统整合思维——现代知识体系构建案例",
+    "description_zh": "大云在现代社会研究中提出系统整合思维，主张将东西方文化精华、传统与现代、理论与实践进行系统性整合。这一思维模式通过《现代思维模式创新研究》等著作推广，为现代知识体系的重构提供了方法论基础，成为现代学术研究的重要指导原则。"
+   },
+   "C-MODERN-002-002": {
+    "code": "C-MODERN-002-002",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M002",
+    "title_zh": "创新突破思维——传统与现代的辩证统一案例",
+    "description_zh": "大云强调创新突破思维，认为现代发展需要在继承传统的基础上进行创新突破。这一理念体现在《创新管理与变革》中，通过具体案例分析展示了如何在现代企业管理中实现传统价值与现代创新的辩证统一，为现代组织发展提供了实践指导。"
+   },
+   "C-MODERN-002-003": {
+    "code": "C-MODERN-002-003",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M003",
+    "title_zh": "实用导向思维——现代问题解决的方法论案例",
+    "description_zh": "大云提出实用导向思维，主张现代思维应以解决实际问题为导向。这一理念在《系统思考与实践》中得到充分体现，通过具体案例展示了如何运用系统思维解决现代社会的复杂问题，为现代实践提供了方法论支持。"
+   },
+   "C-MODERN-002-004": {
+    "code": "C-MODERN-002-004",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M004",
+    "title_zh": "多元融合思维——文化整合的实践案例",
+    "description_zh": "大云倡导多元融合思维，主张在全球化背景下实现不同文化、不同学科的有机融合。这一理念在《东西方文明融合之路》中得到系统阐述，通过具体案例展示了如何在现代社会中实现东西方文化的深度整合，为现代文化建设提供了理论指导。"
+   },
+   "C-MODERN-002-005": {
+    "code": "C-MODERN-002-005",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M005",
+    "title_zh": "动态适应思维——现代环境变化的应对策略案例",
+    "description_zh": "大云提出动态适应思维，主张现代思维需要适应不断变化的环境。这一理念在《人文科技和谐发展》中得到体现，通过具体案例展示了如何在科技快速发展的背景下保持人文关怀，实现科技与人文的动态平衡。"
+   },
+   "C-MODERN-002-006": {
+    "code": "C-MODERN-002-006",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M006",
+    "title_zh": "现代价值重构——传统价值的现代转化案例",
+    "description_zh": "大云致力于现代价值的重构，主张将传统价值进行现代转化。这一理念通过《人文科技和谐发展》等著作得到系统阐述，通过具体案例展示了如何在现代社会中重新诠释和转化传统价值，为现代价值体系建设提供了理论支持。"
+   },
+   "C-MODERN-002-007": {
+    "code": "C-MODERN-002-007",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M007",
+    "title_zh": "方法论创新——现代思维工具的创造案例",
+    "description_zh": "大云在方法论创新方面做出了重要贡献，创造了一系列现代思维工具。这些工具在《系统思考与实践》中得到系统介绍，通过具体案例展示了如何运用这些工具解决现代社会的复杂问题，为现代思维方法的发展提供了实践基础。"
+   },
+   "C-MODERN-002-008": {
+    "code": "C-MODERN-002-008",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M008",
+    "title_zh": "跨学科整合——现代知识体系的建设案例",
+    "description_zh": "大云强调跨学科整合的重要性，主张打破学科壁垒进行知识整合。这一理念在《现代思维模式创新研究》中得到充分体现，通过具体案例展示了如何在跨学科研究中实现知识的有机整合，为现代知识体系建设提供了方法论指导。"
+   },
+   "C-MODERN-002-009": {
+    "code": "C-MODERN-002-009",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M009",
+    "title_zh": "实践验证——现代理论的现实检验案例",
+    "description_zh": "大云强调实践验证的重要性，主张现代理论需要在实践中得到检验。这一理念通过其具体的研究和实践项目得到体现，通过案例展示了如何将理论应用于实践并通过实践来验证理论的正确性，为现代理论研究提供了实践基础。"
+   },
+   "C-MODERN-002-010": {
+    "code": "C-MODERN-002-010",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M010",
+    "title_zh": "持续创新——现代思维的发展模式案例",
+    "description_zh": "大云提出持续创新的理念，主张现代思维需要不断发展和创新。这一理念贯穿其所有著作，通过具体案例展示了如何在现代社会中保持思维的持续创新能力，为现代思维的发展提供了理论指导。"
+   },
+   "C-LUORQ-001": {
+    "code": "C-LUORQ-001",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M351",
+    "title_zh": "安全保卫优先——建国初期国家安全体系建设案例",
+    "description_zh": "新中国成立初期，罗瑞卿主持筹建中央公安部，将国家安全置于一切工作的首位。他主导建立了覆盖全国的公安系统，肃清国民党特务和土匪势力，巩固了新生人民政权的安全基础。"
+   },
+   "C-LUORQ-002": {
+    "code": "C-LUORQ-002",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M352",
+    "title_zh": "专门工作与群众路线相结合——镇反运动中的工作方法案例",
+    "description_zh": "罗瑞卿在镇压反革命运动中，坚持专门机关与群众路线相结合的原则：既依靠公安专业力量深入调查，又广泛发动群众检举揭发反革命分子，实现了高效的社会治安整顿。"
+   },
+   "C-LUORQ-003": {
+    "code": "C-LUORQ-003",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M353",
+    "title_zh": "预防为主——公安预警机制建设案例",
+    "description_zh": "罗瑞卿强调'预防为主、防患未然'，推动建立了覆盖全国的治安预警和情报收集网络。通过建立基层派出所和群众联防组织，将安全隐患消灭在萌芽状态。"
+   },
+   "C-LUORQ-004": {
+    "code": "C-LUORQ-004",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M354",
+    "title_zh": "军队正规化建设——解放军现代化建设推进案例",
+    "description_zh": "罗瑞卿担任国防部长期间，大力推动人民解放军从游击战向正规化、现代化战争转型。他主导建立了军事院校体系、军衔制度和军队条令条例，为人民军队的现代化建设奠定了基础。"
+   },
+   "C-LUORQ-005": {
+    "code": "C-LUORQ-005",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M355",
+    "title_zh": "情报主导决策——国家安全战略制定案例",
+    "description_zh": "罗瑞卿在担任公安部长和国防部长期间，始终坚持情报主导决策的理念。他建立了覆盖全国的情报网络，通过系统的情报分析为中央的战略决策提供科学依据。"
+   },
+   "C-LUORQ-006": {
+    "code": "C-LUORQ-006",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M356",
+    "title_zh": "政治可靠优先——公安队伍政治审查案例",
+    "description_zh": "罗瑞卿在组建新中国公安系统时，将政治可靠性作为首要标准。他建立了严格的公安人员政治审查制度，确保这支重要力量绝对忠诚于党和人民。"
+   },
+   "C-LUORQ-007": {
+    "code": "C-LUORQ-007",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M357",
+    "title_zh": "法制化公安建设——新中国第一部公安机关组织法案例",
+    "description_zh": "罗瑞卿推动制定了新中国第一部《公安机关组织条例》，以法律形式确立了公安系统的组织架构、职能定位和工作原则，为公安工作的法制化奠定了制度基础。"
+   },
+   "C-LUORQ-008": {
+    "code": "C-LUORQ-008",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M358",
+    "title_zh": "军队纪律建设——高级干部违纪处理案例",
+    "description_zh": "罗瑞卿在军队纪律建设中坚持'严字当头、一视同仁'的原则。他推动对高级干部违纪行为的严肃处理，维护了人民解放军的纪律严明和军队形象。"
+   },
+   "C-LUORQ-009": {
+    "code": "C-LUORQ-009",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M359",
+    "title_zh": "国家安全战略——抗美援朝时期的安全决策案例",
+    "description_zh": "在抗美援朝战争期间，罗瑞卿作为中央重要决策成员之一，从国家安全全局出发，统筹国内治安、情报工作和前线作战保障，为战争的胜利提供了坚实的安全后盾。"
+   },
+   "C-LUORQ-010": {
+    "code": "C-LUORQ-010",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M360",
+    "title_zh": "历史经验——新中国安全保卫工作体系总结案例",
+    "description_zh": "罗瑞卿晚年回顾新中国安全保卫工作的发展历程，从公安系统建设、军队正规化改革等实践中提炼出宝贵经验：国家安全必须置于首位，专门工作与群众路线相结合是唯一正确道路。"
+   },
+   "C-ZOU-001": {
+    "code": "C-ZOU-001",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M401",
+    "title_zh": "思想自由——学术自由探索案例",
+    "description_zh": "邹文献在革命根据地期间，坚持学术思维的自由探索，突破了陈旧的思想教条，主张在革命实践中保持思维的自由和创新，为新的思想解放创造了理论空间。"
+   },
+   "C-ZOU-002": {
+    "code": "C-ZOU-002",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M402",
+    "title_zh": "历史辩证——革命历史分析案例",
+    "description_zh": "邹文献运用辩证法观察中国革命历史的发展脉络，统一了对革命历史的肯定与批判，从具体实践中提炼出了具有普遍意义的历史规律，为后续的历史研究提供了方法论指导。"
+   },
+   "C-ZOU-003": {
+    "code": "C-ZOU-003",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M403",
+    "title_zh": "群众路线——基层调查研究案例",
+    "description_zh": "邹文献坚持以人民群众为根本出发点，通过深入开展调查研究，广泛收集群众意见和建议，联系群众实际情况分析问题，把群众的创造性转化为党的创造性，实现了基层治理的有效开展。"
+   },
+   "C-ZOU-004": {
+    "code": "C-ZOU-004",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M404",
+    "title_zh": "理论创新——马克思主义继承与发展案例",
+    "description_zh": "邹文献在继承马克思主义基本理论的基础上，结合中国革命实践的新特点和新问题，进行了创新性的理论构建和升华，为当代马克思主义理论研究提供了重要的参考价值。"
+   },
+   "C-ZOU-005": {
+    "code": "C-ZOU-005",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M405",
+    "title_zh": "革命实践——理论验证与优化案例",
+    "description_zh": "邹文献将理论转化为具体的革命行动，通过实践验证理论的正确性，并根据实践反馈不断优化和发展理论，形成了具有行动指导意义的理论成果。"
+   },
+   "C-ZOU-006": {
+    "code": "C-ZOU-006",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M406",
+    "title_zh": "统一战线——政治联盟协调案例",
+    "description_zh": "邹文献在复杂的国内外形势下，统各派别、各阶层的力量，团结一切可以团结的力量，对抗共同的敌人，建立了有效的统一战线组织机构，协调了各方利益和需求。"
+   },
+   "C-ZOU-007": {
+    "code": "C-ZOU-007",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M407",
+    "title_zh": "党性锻炼——思想修养提升案例",
+    "description_zh": "邹文献通过理论学习、实践锻炼和反思总结，提高了共产党员的政治素质和党性修养，做到知行合一，为党员教育提供了科学的方法论。"
+   },
+   "C-ZOU-008": {
+    "code": "C-ZOU-008",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M408",
+    "title_zh": "历史回顾——经验总结案例",
+    "description_zh": "邹文献对过去的革命实践进行系统回顾和总结，从中提炼出宝贵的经验和教训，形成了系统的评价体系和结论，为后续的实践提供了经验指导。"
+   },
+   "C-ZOU-009": {
+    "code": "C-ZOU-009",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M409",
+    "title_zh": "文化自信——传统文化现代转化案例",
+    "description_zh": "邹文献在继承和发扬中华优秀传统文化的基础上，增强文化自信，推动文化创新和发展，促进了文化的传承与创新发展。"
+   },
+   "C-ZOU-010": {
+    "code": "C-ZOU-010",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M410",
+    "title_zh": "综合评价——多维度实践评价案例",
+    "description_zh": "邹文献从政治、经济、文化、社会等多个维度对革命实践进行综合评价，形成了系统的评价体系和结论，对当代问题的多角度评估提供了重要的参考。"
+   }
+  },
+  "data/scenarios_en.json": {
+   "C-MODERN-002E-001": {
+    "code": "C-MODERN-002E-001",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M001",
+    "title_en": "System Integration Thinking — Modern Knowledge System Construction Case",
+    "description_en": "Dayun proposes system integration thinking in modern social research, advocating systematic integration of Eastern and Western cultural essences, tradition and modernity, theory and practice. This thinking pattern, promoted through works like 'Modern Thinking Model Innovation Research,' provides a methodological foundation for reconstructing modern knowledge systems, becoming an important guiding principle for modern academic research."
+   },
+   "C-MODERN-002E-002": {
+    "code": "C-MODERN-002E-002",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M002",
+    "title_en": "Innovation Breakthrough Thinking — Dialectical Unity of Tradition and Modernity Case",
+    "description_en": "Dayun emphasizes innovation breakthrough thinking, arguing that modern development requires innovation breakthrough based on inheriting tradition. This concept is embodied in 'Innovation Management and Change,' demonstrating through specific case studies how to achieve dialectical unity of traditional values and modern innovation in modern enterprise management, providing practical guidance for modern organizational development."
+   },
+   "C-MODERN-002E-003": {
+    "code": "C-MODERN-002E-003",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M003",
+    "title_en": "Practical Orientation Thinking — Modern Problem-Solving Methodology Case",
+    "description_en": "Dayun proposes practical orientation thinking, advocating that modern thinking should be guided by solving practical problems. This concept is fully reflected in 'Systematic Thinking and Practice,' showing through specific cases how to apply systematic thinking to solve complex problems in modern society, providing methodological support for modern practice."
+   },
+   "C-MODERN-002E-004": {
+    "code": "C-MODERN-002E-004",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M004",
+    "title_en": "Multiple Integration Thinking — Cultural Integration Practice Case",
+    "description_en": "Dayun advocates multiple integration thinking,主张实现不同文化、不同学科的有机融合 in the context of globalization. This concept is systematically elaborated in 'The Path of Integration of Eastern and Western Civilizations,' demonstrating through specific cases how to achieve deep integration of Eastern and Western cultures in modern society, providing theoretical guidance for modern cultural construction."
+   },
+   "C-MODERN-002E-005": {
+    "code": "C-MODERN-002E-005",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M005",
+    "title_en": "Dynamic Adaptation Thinking — Modern Environmental Change Response Strategy Case",
+    "description_en": "Dayun proposes dynamic adaptation thinking, arguing that modern thinking needs to adapt to constantly changing environments. This concept is reflected in 'Harmonious Development of Humanities and Technology,' demonstrating through specific cases how to maintain humanistic care while achieving rapid technological development, achieving dynamic balance between technology and humanities."
+   },
+   "C-MODERN-002E-006": {
+    "code": "C-MODERN-002E-006",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M006",
+    "title_en": "Modern Value Reconstruction — Traditional Value Modern Transformation Case",
+    "description_en": "Dayun is dedicated to modern value reconstruction, advocating the modern transformation of traditional values. This concept is systematically elaborated in works like 'Harmonious Development of Humanities and Technology,' demonstrating through specific cases how to reinterpret and transform traditional values in modern society, providing theoretical support for modern value system construction."
+   },
+   "C-MODERN-002E-007": {
+    "code": "C-MODERN-002E-007",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M007",
+    "title_en": "Methodology Innovation — Creation of Modern Thinking Tools Case",
+    "description_en": "Dayun has made important contributions to methodology innovation, creating a series of modern thinking tools. These tools are systematically introduced in 'Systematic Thinking and Practice,' demonstrating through specific cases how to apply these tools to solve complex problems in modern society, providing a practical foundation for the development of modern thinking methods."
+   },
+   "C-MODERN-002E-008": {
+    "code": "C-MODERN-002E-008",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M008",
+    "title_en": "Interdisciplinary Integration — Modern Knowledge System Construction Case",
+    "description_en": "Dayun emphasizes the importance of interdisciplinary integration, advocating breaking down disciplinary barriers for knowledge integration. This concept is fully reflected in 'Modern Thinking Model Innovation Research,' demonstrating through specific cases how to achieve organic integration of knowledge in interdisciplinary research, providing methodological guidance for modern knowledge system construction."
+   },
+   "C-MODERN-002E-009": {
+    "code": "C-MODERN-002E-009",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M009",
+    "title_en": "Practical Verification — Modern Theory Reality Testing Case",
+    "description_en": "Dayun emphasizes the importance of practical verification, advocating that modern theories need to be tested in practice. This concept is reflected in his specific research and practice projects, demonstrating through cases how to apply theories to practice and verify theoretical correctness through practice, providing a practical foundation for modern theoretical research."
+   },
+   "C-MODERN-002E-010": {
+    "code": "C-MODERN-002E-010",
+    "figure_id": "H-MODERN-002",
+    "mode_id": "M010",
+    "title_en": "Continuous Innovation — Modern Thinking Development Model Case",
+    "description_en": "Dayun proposes the concept of continuous innovation, arguing that modern thinking needs constant development and innovation. This concept runs through all his works, demonstrating through specific cases how to maintain continuous innovation ability in modern society, providing theoretical guidance for the development of modern thinking."
+   },
+   "C-LUORQ-001E": {
+    "code": "C-LUORQ-001E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M351",
+    "title_en": "Security First — Early PRC National Security System Construction Case",
+    "description_en": "In the early days of New China, Luo Ruiqing presided over the establishment of the Ministry of Public Security, placing national security above all other work. He led the creation of a nationwide public security system to eliminate KMT agents and bandit forces, consolidating the security foundation of the nascent people's regime."
+   },
+   "C-LUORQ-002E": {
+    "code": "C-LUORQ-002E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M352",
+    "title_en": "Specialized Work Combined with Mass Line — Public Security in the Suppression of Counterrevolutionaries Case",
+    "description_en": "During the suppression of counterrevolutionary activities, Luo Ruiqing adhered to combining specialized police work with the mass line: relying on professional public security forces for in-depth investigations while mobilating masses to denounce counterrevolutionaries, achieving efficient social order restoration."
+   },
+   "C-LUORQ-003E": {
+    "code": "C-LUORQ-003E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M353",
+    "title_en": "Prevention First — Early Warning Mechanism Construction Case",
+    "description_en": "Luo Ruiqing emphasized 'prevention first,防患未然', establishing a nationwide public security early warning and intelligence network. By setting up grassroots police stations and mass defense organizations, he eliminated potential security threats at their source."
+   },
+   "C-LUORQ-004E": {
+    "code": "C-LUORQ-004E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M354",
+    "title_en": "Military Regularization — PLA Modernization Reform Case",
+    "description_en": "As Minister of National Defense, Luo Ruiqing vigorously promoted the transformation of the PLA from guerrilla warfare to regularized and modern warfare. He established military academies, a rank system, and service regulations, laying the foundation for modernization of China's armed forces."
+   },
+   "C-LUORQ-005E": {
+    "code": "C-LUORQ-005E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M355",
+    "title_en": "Intelligence-Led Decision Making — National Security Strategy Formulation Case",
+    "description_en": "While serving as Minister of Public Security and Minister of National Defense, Luo Ruiqing consistently adhered to intelligence-led decision making. He built a nationwide intelligence network and provided scientific analysis for central strategic decisions."
+   },
+   "C-LUORQ-006E": {
+    "code": "C-LUORQ-006E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M356",
+    "title_en": "Political Reliability First — Public Security Personnel Vetting Case",
+    "description_en": "When building New China's public security system, Luo Ruiqing placed political reliability as the primary criterion. He established strict vetting procedures for public security personnel to ensure absolute loyalty to the Party and the people."
+   },
+   "C-LUORQ-007E": {
+    "code": "C-LUORQ-007E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M357",
+    "title_en": "Legalization of Public Security — New China's First Public Security Organization Law Case",
+    "description_en": "Luo Ruiqing promoted the formulation of New China's first 'Public Security Organ Regulations', legally establishing the organizational structure, functions, and principles of the public security system."
+   },
+   "C-LUORQ-008E": {
+    "code": "C-LUORQ-008E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M358",
+    "title_en": "Military Discipline — Senior Cadre Violation Handling Case",
+    "description_en": "Luo Ruiqing insisted on 'strict discipline applied equally to all' in military disciplinary construction. He promoted the serious handling of senior cadre violations, maintaining the PLA's strict discipline and military image."
+   },
+   "C-LUORQ-009E": {
+    "code": "C-LUORQ-009E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M359",
+    "title_en": "National Security Strategy — Korean War Security Decision Case",
+    "description_en": "During the Korean War, as an important central decision-maker, Luo Ruiqing coordinated domestic security, intelligence operations and front-line combat support from a national security perspective, providing solid security backing for the war's victory."
+   },
+   "C-LUORQ-010E": {
+    "code": "C-LUORQ-010E",
+    "figure_id": "H-LUORQ-001",
+    "mode_id": "M360",
+    "title_en": "Historical Experience — Summary of New China's Security and Protection System",
+    "description_en": "In his later years, Luo Ruiqing reviewed the development of China's security and protection work, extracting key lessons from public security system building and military regularization: national security must be placed first, and combining specialized work with the mass line is the only correct path."
+   },
+   "C-ZOU-001": {
+    "code": "C-ZOU-001",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M401",
+    "title_en": "Thinking Freedom — Academic Freedom Case",
+    "description_en": "Zou Wenlian insisted on free exploration of academic thought during the revolutionary base areas, breaking through outdated ideological dogmas, advocating for maintaining free and innovative thinking in revolutionary practice, creating theoretical space for new thought liberation."
+   },
+   "C-ZOU-002": {
+    "code": "C-ZOU-002",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M402",
+    "title_en": "Historical Dialectic — Revolutionary History Analysis Case",
+    "description_en": "Zou Wenlian observed the development patterns of Chinese revolutionary history using dialectics, unified affirmation and critique of revolutionary history, and extracted universally meaningful historical laws from concrete practices, providing methodological guidance for subsequent historical research."
+   },
+   "C-ZOU-003": {
+    "code": "C-ZOU-003",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M403",
+    "title_en": "Mass Line — Grassroots Investigation Case",
+    "description_en": "Zou Wenlian adhered to taking the masses as the fundamental starting point and return, conducted in-depth investigative research, widely collected mass opinions and suggestions, connected with actual mass situations to analyze problems, and transformed the masses' creativity into the Party's creativity, achieving effective grassroots governance."
+   },
+   "C-ZOU-004": {
+    "code": "C-ZOU-004",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M404",
+    "title_en": "Theoretical Innovation — Marxist Inheritance and Development Case",
+    "description_en": "Zou Wenlian, on the basis of inheriting the basic principles of Marxism, combined with new characteristics and problems in Chinese revolutionary practice carried out innovative theoretical construction and elevation, providing important reference value for contemporary Marxist theoretical research."
+   },
+   "C-ZOU-005": {
+    "code": "C-ZOU-005",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M405",
+    "title_en": "Revolutionary Practice — Theory Verification and Optimization Case",
+    "description_en": "Zou Wenlian transformed theory into concrete revolutionary action, verified the correctness of theory through practice, and continuously optimized and developed theory based on practice feedback, forming theoretical outcomes with guiding significance for practice."
+   },
+   "C-ZOU-006": {
+    "code": "C-ZOU-006",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M406",
+    "title_en": "United Front — Political Alliance Coordination Case",
+    "description_en": "Zou Wenlian, under complex domestic and international situations, united various factions and classes, united all forces that can be united, and confronted common enemies, establishing effective united front organizational mechanisms and coordinating various interests and needs."
+   },
+   "C-ZOU-007": {
+    "code": "C-ZOU-007",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M407",
+    "title_en": "Party Spirit Cultivation — Ideological Cultivation Case",
+    "description_en": "Zou Wenlian, through theoretical learning, practical exercise and reflective summary, improved the political quality and party spirit cultivation of Communist Party members, achieving unity of knowledge and action, providing scientific methodology for party member education."
+   },
+   "C-ZOU-008": {
+    "code": "C-ZOU-008",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M408",
+    "title_en": "Historical Review — Experience Summary Case",
+    "description_en": "Zou Wenlian reviewed and summarized past revolutionary practices, extracted valuable experiences and lessons therefrom, formed a systematic evaluation system and conclusions, and provided experiential guidance for subsequent practice."
+   },
+   "C-ZOU-009": {
+    "code": "C-ZOU-009",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M409",
+    "title_en": "Cultural Confidence — Modern Transformation of Traditional Culture Case",
+    "description_en": "Zou Wenlian, on the basis of inheriting and carrying forward excellent traditional Chinese culture, enhanced cultural confidence, and promoted cultural innovation and development, promoting the inheritance and innovative development of culture."
+   },
+   "C-ZOU-010": {
+    "code": "C-ZOU-010",
+    "figure_id": "H-ZOU-001",
+    "mode_id": "M410",
+    "title_en": "Comprehensive Evaluation — Multi-Dimensional Practice Evaluation Case",
+    "description_en": "Zou Wenlian evaluated revolutionary practice from multiple dimensions such as politics, economy, culture, and society, forming a systematic evaluation system and conclusions, providing important reference for multi-angle evaluation of contemporary issues."
+   }
+  }
+ }
+}
