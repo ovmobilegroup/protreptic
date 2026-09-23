@@ -232,5 +232,36 @@
   "data/backup_merge_H-ZDY-001_20260922_13*（在制备份目录）",
   "scratch/（工作区临时）"
  ],
- "commits": {}
+ "commits": {
+  "workspace_delivery_round1": "10ddc66f (2026-09-23 20:50:16 +0800)",
+  "publish_mirror_round1": "f1b02f3 (2026-09-23 20:50:24 +0800)",
+  "publish_push_receipt_round1": "646a9c7..f1b02f3  main -> main（fetch 实测 origin/main == f1b02f3，ahead=0）",
+  "workspace_delivery_round2": "见本证据文件本轮提交（收尾回执）",
+  "note_workspace_push": "工作仓无 upstream/推送目标（remote.origin 仅 fetch）；依 R5/R6/R7 先例：推送=发布仓；工作仓为本地提交。"
+ },
+ "parity": {
+  "tool": "tools/check_repo_parity.py",
+  "before_change": "exit 1；两仓 1825 件逐字节一致 1825；仅单侧 4 条（仅工作仓）= 本卡新建备份目录尚未镜像",
+  "after_mirror_round1": "exit 1；两仓 1831 件逐字节一致 1831；仅单侧 17 条（仅工作仓，全部为兄弟 R8 卡在制未跟踪件：王祥 H-HZX-002 落地与 azj345 处置）；本卡全部路径零差异",
+  "attribution": "17 条均为兄弟卡产物（非本卡路径）；本卡 9 条路径两侧逐字节同体（镜像前后 sha256 逐件实测 IDENTICAL）",
+  "final": "见 kanban 完成交接 metadata（收尾终态复检）"
+ },
+ "deliverables": [
+  {
+   "path": "docs/research/phase21r8_cgroup_residual_report.md",
+   "role": "人读报告",
+   "round1_sha256": "ac9cab42944f300af8fb28f8c80ad2b22d840b9213553a3d4380bc61318b7bb0",
+   "round1_bytes": 10013
+  },
+  {
+   "path": "data/audit/phase21r8_cgroup_residual_evidence.json",
+   "role": "机读证据",
+   "round1_sha256": "d857a87f24b87bc4cbf34a293a7158d20c3f17a0c51a6c25e1fb3e8e5ebe00f7",
+   "round1_bytes": 10836
+  },
+  {
+   "dir": "data/backup_phase21r8_cgroup_residual_20260923",
+   "role": "三件 byte-exact 前像 + README（指纹/恢复法）"
+  }
+ ]
 }
