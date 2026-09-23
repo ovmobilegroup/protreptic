@@ -111,3 +111,4 @@ tools/json/ 下 4 件清档码草稿删除: SG-Lee-001.json / MY-Mah-001.json / 
 - 远端 raw 校验: 4/4 逐字节一致 (report 41e2fa8f / H-LXN-001.json fc6e9884 / static.ts 9917a7b1 / export_static_site.py bfc6514a, 前 16 位)。
 - 备份 sha 清单: data/backup_phase21w4_fix_20260924/MANIFEST.sha256 (11 件 before sha, 读取即验)
 - 报告 v2 镜像 push 回执: 8ca52c04 -> faccfbe (main -> main rc=0); remote main = faccfbeaaa27a98b8cb9b33de123453d50025452; 报告 v2 sha256(前 16 位) = d2dc8e53cff9d366。
+- 回执终版 (v4): 完整 sha 链与 remote main 终值见 kanban 卡 t_536073f4 metadata; 备份清单 MANIFEST.sha256 (标准 sha256sum -c 格式) 11/11 PASS; 发布仓 web/public/data 与工作仓逐字节全等 (1410 文件, 1054 分片, 残件 0)。
