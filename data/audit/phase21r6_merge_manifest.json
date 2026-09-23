@@ -861,5 +861,26 @@
     "change": "撤下自件登记：figure_names 9 键 / code_maps 3 条目 / scenarios zh·en 各 30 条；22 字节件 R100 入 _duplicates；modes_data 零写入",
     "effect_on_this_card": "绝对计数口径变化，核验脚本改为 MY+PRE+当前存活双口径（83/0/3）",
     "observation": "H-CY-001 的 xref 目标 H-LC-001 因该撤下在现状中不可解析（R6C 待身份清单 6 件，随其处理消解）"
+  },
+  "card_scope_deviations": {
+    "scenarios": {
+      "template": "zh/en +100",
+      "actual": "zh 30 / en 30",
+      "reason": "7 件无场景载荷（缺口登记，不可凭空补写）；SQL/WL 库内既有仅重指"
+    },
+    "code_maps": {
+      "template": "+10 registrations",
+      "actual": "3 new registrations + 7 remapped entries (218 leaves)",
+      "reason": "既有条目不重复注册；十件登记口径归一 212->215"
+    },
+    "figure_names": {
+      "template": "register 10",
+      "actual": "10 already present, zero writes"
+    },
+    "numstat": {
+      "template": "all N/0",
+      "actual": "modes pure append; remap lines counted as deletions",
+      "note": "deletions are same-line value replacements; prefix equality asserted for all four files"
+    }
   }
 }
