@@ -9,9 +9,9 @@
   "workspace_data": "2857a525 (2026-09-23T19:55:49+08:00)",
   "publish_mirror_data": "c72d007 (2026-09-23T19:56:41+08:00)",
   "publish_push_receipt_data": "dc8ca3b..c72d007  main -> main",
-  "workspace_report": "SEE_LATEST_COMMIT",
-  "publish_mirror_report": "SEE_LATEST_PUBLISH_COMMIT",
-  "publish_push_receipt_report": "SEE_PUSH_LOG",
+  "workspace_report": "ce9800d2 (v1 报告 sha256 c644fa0e..., 12300B; v2 补记随提交更新)",
+  "publish_mirror_report": "2821874",
+  "publish_push_receipt_report": "c72d007..2821874  main -> main (origin/main == 2821874)",
   "note_workspace_push": "工作仓无 upstream/推送目标（remote 仅 fetch 用于 parity 对比；远端唯一分支 main=发布侧线）。依 R5/R6 先例：推送=发布仓；工作仓为本地提交。"
  },
  "archives": [
@@ -235,7 +235,7 @@
    "single_side": 4,
    "detail": "4 条均为兄弟 R7 卡待镜像：docs/research/phase21r7_cgroup_identity_report.{md,json}、phase21r7_wangxiang_sourcing_report.{md,json}（MISSING_IN_PUBLISH）；本卡路径零差异"
   },
-  "final": "见完成交接（kanban metadata）与本卡评论"
+  "final": "exit 1 (终态实测, v2 补记前时点): 两仓 1821 条逐字节一致 1821; 仅单侧 4 = 兄弟 R7 卡待镜像 (cgroup/wangxiang 报告对, MISSING_IN_PUBLISH); 本卡路径零差异"
  },
  "inputs_unchanged": {
   "data_modes_data_json": "零写入（本卡仅删除非输入面副本与新增归档）",
@@ -257,5 +257,11 @@
   "data/audit/phase21r7_leftovers_inventory.json（709 件逐件 class + sha256）",
   "docs/research/phase21r7_leftovers_evidence.json（本文件）",
   "归档 README ×4（指纹与 git 恢复法）"
- ]
+ ],
+ "report_v1": {
+  "path": "docs/qa/phase21r7_leftovers_report.md",
+  "size": 12300,
+  "sha256": "c644fa0e8b966d19df03563f7c0ecf9771fb779f1c2be5c3a0a697030b2e7f8e"
+ },
+ "evidence_v1_sha256": "52bceb97b89114ed17c0d87ac1501b8db050e842ea5780e38e706a7bdd277079"
 }
