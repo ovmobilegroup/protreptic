@@ -1,0 +1,67 @@
+PASS A1 docs/scratch/legacy20_r8_wangxiang_landing/modes_library_entries.json sha256 == landing manifest
+PASS A1 docs/scratch/legacy20_r8_wangxiang_landing/combined_library_entries.json sha256 == landing manifest
+PASS A1 docs/scratch/legacy20_r8_wangxiang_landing/id_mapping.tsv sha256 == landing manifest
+PASS A1 docs/scratch/legacy20_r8_wangxiang_landing/category_mapping.tsv sha256 == landing manifest
+PASS A1 docs/scratch/legacy20_r8_wangxiang_landing/scenario_notes.json sha256 == landing manifest
+PASS A1 data/figures/H-HZX-002.json sha256 == landing manifest
+PASS A1 data/individuals/H-HZX-002.json sha256 == landing manifest
+PASS A1 data/individuals/H-HZX-002_modes.json sha256 == landing manifest
+PASS A2 合并 manifest 记录的 entries sha256 复算一致
+PASS A3 combined 载荷 sha256 复算一致
+PASS A4 上游落盘 commit == 1fe4c451(A1 回执)
+PASS B1 计数 3271 -> 3281(+10)
+PASS B2 旧 3271 条逐对象全等(纯追加零删改)
+PASS B3 新增 10 条逐字等于 A1 entries(json 全等)
+PASS B4 modes_data 除 modes 外整体未动(含 total 标量 3271, 收尾卡先例)
+PASS B5 total 仍为 3271(本卡零改写口径)
+PASS B6 新增 mode_code 序列 == M-WX-001~010
+PASS B7 10 条 figure_code/figure_name 口径
+PASS B8 新增 10 条键序逐条一致(27 键口径)
+PASS B9 全库重复码集合未新增(before 1 项 == after)
+PASS B10 新增 10 条 verification 全 pending(核验状态保持 pending)
+PASS C1 scenarios_zh/en inner count +10 each (2183->2193 / 2183->2193)
+PASS C2 旧键序全等(纯追加于末)
+PASS C3 旧场景逐对象全等(零删改)
+PASS C4 新增键序 == C-WX-001~010 / C-WX-001~010E
+PASS C5 顶层其余键(含 legacy C-SAD 面)未动
+PASS C6 新条目 8 键结构一致: ['application_area_en', 'application_area_zh', 'code', 'mode_code', 'text_en', 'text_zh', 'title_en', 'title_zh']
+PASS C7 zh 新条目 mode_code/title 与模式逐条联动
+PASS C8 zh text/application 生成规则复算逐条一致(与 C-ZX 先例同式)
+PASS C9 en 新条目与模式逐条联动, 生成规则复算一致
+PASS C10 全库 C-WX 前缀 0 既有碰撞(新占面之外无残留)
+PASS D1 scenario_tags 计数 7478 -> 7498(+20)
+PASS D2 旧 tags 逐对象全等(纯追加)
+PASS D3 新 tags 4 键结构一致: ['figure_code', 'language', 'mode_code', 'tag']
+PASS D4 每 mode 恰 zh+en 两条, 命名 == 名称+_zh/_en, 序先 zh 后 en
+PASS D5 新 tags figure_code 全 == H-HZX-002
+PASS D6 scenario_tags 顶层其余键未动
+PASS E1 figures 212 -> 213, 旧键序全等(纯追加于末)
+PASS E2 追加键 == H-HZX-002(文末)
+PASS E3 3 键口径 {mode_ids, tags, cross_references}
+PASS E4 mode_ids == M-WX-001~010
+PASS E5 tags == 10 条中文模式名
+PASS E6 cross_references 逐字取自图档
+PASS E7 cross_references 目标 0 悬空(图档/人名册均在已知面)
+PASS F1 计数 +1, 旧键序全等(追加于末)
+PASS F2 H-HZX-002 -> 王祥
+PASS F3 键唯一
+PASS G1 图档内嵌 modes == A1 entries(逐字)
+PASS G2 individuals modes == A1 entries(逐字)
+PASS G3 主库新增 == 图档 == individuals(三面逐字同体)
+PASS H1 credibility_gate --hard-fail exit 0(新增硬失败 0)
+PASS H2 verify_findings --hard-fail exit 0(findings 已随库刷新 sha)
+PASS H3 verify_source_links --hard-fail exit 0(新增坏链 0)
+PASS H4 verifstatus --check exit 1 且漂移 == 9 条(保持 pending 的预期机械差异)
+PASS H5 漂移集合 == M-WX-001~010 除 003(003 源《孝经》未登记, pending 与规则一致)
+PASS H6 漂移方向 pending -> verified/link-resolved(《晋书》在 source_links 有 wikisource url)
+PASS H7 全库 verification.status 无四态之外取值
+PASS I1 export 锚点 == 实测 3271/317
+PASS I2 preflight 锚点 == 实测 3271/317
+PASS I3 siteCounts.ts 含 3211 条模式 / 317 位人物
+PASS I4 meta.json counts 3271 口径, 发布 3211 / 分片 317 / figures 1057
+PASS I5 四态自洽(全库 931/1938/51/351, 含王祥 10 条 pending)
+PASS I6 daily/index.json total == 3211, 分片 317
+PASS I7 pages_preflight --stage data exit 0 全断言通过
+PASS J1 A1 脚本(合并后口径)复跑 0 FAIL: RESULT: 59 PASS / 0 FAIL
+PASS J2 A1 原证据文件未被覆盖(== commit 1fe4c451 版本)
+DOC H 漂移登记: 9 条待核验回填卡裁定; 本卡纪律不回填, 未跑 --write(全库重签与公开计数变化属授权面)

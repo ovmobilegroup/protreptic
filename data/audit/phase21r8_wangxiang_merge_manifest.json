@@ -1,0 +1,162 @@
+{
+  "schema": "protreptic.phase21r8_wangxiang_merge/v1",
+  "card": "t_8c521af7",
+  "date": "2026-09-23",
+  "ts": "20260923_212150",
+  "dry": false,
+  "figure_code": "H-HZX-002",
+  "upstream": {
+    "landing_card": "t_5c183962",
+    "landing_commit": "1fe4c451",
+    "landing_dir": "docs/scratch/legacy20_r8_wangxiang_landing/",
+    "entries_sha256": "e2b9f472c13e6826244dbb31d9afa6a02fb90b910aafaf979ae4f26bdbc9c143",
+    "combined_sha256": "d1229dd0b3ea49411867ee6d324c45e74db890f84d2eb2cbabdefa2db81d7a9d"
+  },
+  "inputs": {
+    "data/modes_data.json": {
+      "sha256": "2d732efde9dbce85edcaa6d775c9100fda6510741be869f6757cc62c908af41b"
+    },
+    "data/code_maps.json": {
+      "sha256": "51ab0ef1fa7c35c0f64836fa007afeaa761c5b069f8548479349a869dbbba96e"
+    },
+    "data/scenarios_zh.json": {
+      "sha256": "4491498c7978e9e681cf9a4c50e72d8ea0aa638acccd055de019129b49e1c5a2"
+    },
+    "data/scenarios_en.json": {
+      "sha256": "0bd5cd78c01e3b582cbec2446fd9973496741e6a1c9eec2114d1285dd0c187f5"
+    },
+    "data/scenario_tags.json": {
+      "sha256": "fc562f9263a593669f4882422d793c69023bfb3fb525971756b9e6abad448fb5"
+    },
+    "data/figure_names.json": {
+      "sha256": "b226e3dba7400a33244434b889a9548e57d9f14249c1938f11178967b64d15a3"
+    }
+  },
+  "added": {
+    "modes": [
+      "M-WX-001",
+      "M-WX-002",
+      "M-WX-003",
+      "M-WX-004",
+      "M-WX-005",
+      "M-WX-006",
+      "M-WX-007",
+      "M-WX-008",
+      "M-WX-009",
+      "M-WX-010"
+    ],
+    "code_maps": "H-HZX-002",
+    "scenarios_zh": [
+      "C-WX-001",
+      "C-WX-002",
+      "C-WX-003",
+      "C-WX-004",
+      "C-WX-005",
+      "C-WX-006",
+      "C-WX-007",
+      "C-WX-008",
+      "C-WX-009",
+      "C-WX-010"
+    ],
+    "scenarios_en": [
+      "C-WX-001E",
+      "C-WX-002E",
+      "C-WX-003E",
+      "C-WX-004E",
+      "C-WX-005E",
+      "C-WX-006E",
+      "C-WX-007E",
+      "C-WX-008E",
+      "C-WX-009E",
+      "C-WX-010E"
+    ],
+    "scenario_tags": 20,
+    "figure_names": {
+      "H-HZX-002": "王祥"
+    }
+  },
+  "rules": {
+    "scenario_prefix_ruling": "C-WX-001~010（模式前缀配对；C-HZX 已被 H-HZX-001 黄宗羲占用；全库 0 碰撞）",
+    "scenario_structure": "8 字段 {code, mode_code, title_zh, title_en, text_zh, text_en, application_area_zh, application_area_en}（H-ZX-001 先例同构）",
+    "scenario_text_rule": "title=mode 名；area=mode.modern_applications_*；text=模板拼接（与 C-ZX-001~010 生成规则逐条一致）",
+    "tags": "4 键 {mode_code, tag, figure_code, language}；tag=mode 中英名+_zh/_en；每 mode zh+en 各一条（20 条）",
+    "code_maps": "3 键 {mode_ids, tags, cross_references}；tags=10 中文模式名；cross_references 逐条取自图档（0 悬空）",
+    "figure_names": "键级回填（R6B removed_registrations_r6b.json 留档：H-HZX-002 -> 王祥）；追加于文末",
+    "total_scalar": "modes_data.total 本卡零改写（3271 保持；合并只追加数组；对齐属收尾卡先例）"
+  },
+  "before": {
+    "data/modes_data.json": {
+      "count": 3271,
+      "sha256": "09c1e988d8998b3b835997ec2d1a33164e9172e73ed9f4f7b628dc91ba45dc9e",
+      "bytes": 24653380
+    },
+    "data/code_maps.json": {
+      "count": 212,
+      "sha256": "29c133eb607b89c41f5d364b4c5f6671a10b97c11068a2ccd9f9b218e5a9f13f",
+      "bytes": 857069
+    },
+    "data/scenarios_zh.json": {
+      "count": 2183,
+      "sha256": "5be09a47cc08d30ae29abbb8ee3e54284a995b8ae5faf24af80b332bc2709497",
+      "bytes": 1906155
+    },
+    "data/scenarios_en.json": {
+      "count": 2183,
+      "sha256": "38974e7b351cda13c95e4f7be7ea316bc6f9d209cbf95f8d322733ef315120dc",
+      "bytes": 2166390
+    },
+    "data/scenario_tags.json": {
+      "count": 7478,
+      "sha256": "40bdb194da045dae27b7919976315927761d1a46407914720c9aa83de3fa8c1b",
+      "bytes": 1151058
+    },
+    "data/figure_names.json": {
+      "count": 1081,
+      "sha256": "6c6c347eaa17e8eb901c071d9ed7ea7108e15b85be4850a30366579507511dd9",
+      "bytes": 30700
+    }
+  },
+  "after": {
+    "data/modes_data.json": {
+      "count": 3281,
+      "sha256": "2d732efde9dbce85edcaa6d775c9100fda6510741be869f6757cc62c908af41b",
+      "bytes": 24697394
+    },
+    "data/code_maps.json": {
+      "count": 213,
+      "sha256": "51ab0ef1fa7c35c0f64836fa007afeaa761c5b069f8548479349a869dbbba96e",
+      "bytes": 858058
+    },
+    "data/scenarios_zh.json": {
+      "count": 2193,
+      "sha256": "4491498c7978e9e681cf9a4c50e72d8ea0aa638acccd055de019129b49e1c5a2",
+      "bytes": 1917853
+    },
+    "data/scenarios_en.json": {
+      "count": 2193,
+      "sha256": "0bd5cd78c01e3b582cbec2446fd9973496741e6a1c9eec2114d1285dd0c187f5",
+      "bytes": 2178108
+    },
+    "data/scenario_tags.json": {
+      "count": 7498,
+      "sha256": "fc562f9263a593669f4882422d793c69023bfb3fb525971756b9e6abad448fb5",
+      "bytes": 1153976
+    },
+    "data/figure_names.json": {
+      "count": 1082,
+      "sha256": "b226e3dba7400a33244434b889a9548e57d9f14249c1938f11178967b64d15a3",
+      "bytes": 30725
+    }
+  },
+  "backup": {
+    "dir": "/opt/data/kanban/boards/protreptic/workspaces/t_8c521af7/backup_merge_H-HZX-002_20260923_212150",
+    "files": [
+      "code_maps.json",
+      "figure_names.json",
+      "modes_data.json",
+      "scenario_tags.json",
+      "scenarios_en.json",
+      "scenarios_zh.json"
+    ]
+  }
+}

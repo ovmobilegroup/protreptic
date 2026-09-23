@@ -25,7 +25,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 EXPECT_FIGURES = 1057
 # EXPECT_MODES 是「源去重口径」(与 export_static_site.EXPECT_MODES 同口径)，只用来校验
 # meta.json 与数据源是否同步；它**不是**站点文案口径 —— 站点文案/分享图用发布口径
-# mode_summaries_published = 3252 - 隔离名单条数，由下面 check_data 的隔离门逐分片重算校验。
+# mode_summaries_published = 3271 - 隔离名单条数，由下面 check_data 的隔离门逐分片重算校验。
 # Phase21-R4 (2026-09-22) site-data rebuild anchor update: EXPECT_MODES 3132 -> 3152
 # (曾子 M-ZX-* 的 +10 已含于上批；本卡 +10 班固 M-BG-001~010 与 +10 董仲舒 M01~M10 归一回填
 # 去重口径 —— 净 +20：3008 条目的空模式码降至 10 条壳 + 10 班固入库),
@@ -34,8 +34,10 @@ EXPECT_FIGURES = 1057
 # Phase21-R6B (2026-09-23, card t_f3aabe2c) anchor bump: 3252 -> 3261
 # (+10 王震 M-WZ-001~010 迁入，M392 重编号为 M-WZ-011 净 0，M391 归档去重 -1；空模式码壳 10 条口径不变；
 # EXPECT_BY_FIGURE 316 / EXPECT_FIGURES 1057 unchanged)
-EXPECT_MODES = 3261
-EXPECT_BY_FIGURE = 316
+# Phase21-R8 (2026-09-23, card t_8c521af7) anchor bump: 3261 -> 3271 (+10 H-HZX-002/王祥 M-WX-001~010 入库；空模式码壳 10 条口径不变；
+# EXPECT_BY_FIGURE 316 -> 317（+1 分片）；EXPECT_FIGURES 1057 unchanged)
+EXPECT_MODES = 3271
+EXPECT_BY_FIGURE = 317
 EXPECT_MODE_INDEX_SHARDS = 8
 SPA_BASE = "/protreptic/"
 

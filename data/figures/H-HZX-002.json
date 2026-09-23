@@ -1,0 +1,812 @@
+{
+ "schema_version": "v6",
+ "id": "H-HZX-002",
+ "code": "H-HZX-002",
+ "figure_name": "王祥",
+ "figure_code": "H-HZX-002",
+ "figure_pinyin": "Wang Xiang",
+ "birth_year": 184,
+ "death_year": 268,
+ "era": "汉末至西晋",
+ "time_period_standardized": "184-268",
+ "nationality": "中国",
+ "ethnicity": "汉族",
+ "school": "孝道/儒家",
+ "intellectual_tradition": "孝道实践/德性伦理",
+ "courtesy_name": "休徵",
+ "style_name": "",
+ "representative_works": [],
+ "historical_significance": "王祥（184—268），字休徵，琅邪临沂（今山东临沂）人，历东汉、魏、西晋三代；仕魏官至司空、太尉，入晋拜太保，封睢陵公，谥曰元。中国古代孝行的典范，《二十四孝》「卧冰求鲤」的主人公，亦为琅邪王氏家族史上的关键人物。据《晋书·王祥传》《搜神记》卷十一：继母朱氏不慈而祥愈恭谨；母欲生鱼，时天寒冰冻，祥解衣将剖冰求之，冰忽自解，双鲤跃出；母思黄雀炙，有黄雀数十飞入其幕；丹柰结实，每风雨抱树而泣——乡里惊叹，以为孝感所致。",
+ "core_thoughts": [
+  "侍疾尝药法（衣不解带、汤药亲尝的贴身侍疾）",
+  "卧冰求鲤法（剖冰得鲤以应母欲的极致事亲）",
+  "孝道至上法（孝为德本、始于守身终于扬名的价值序列）",
+  "以身许物法（以身体亲当其难换取父母所需）",
+  "孝道循环法（日常细微处反复用力、笃孝纯至）",
+  "求而得之法（主动求索、必使父母之欲得偿）",
+  "修心养性法（逆境中愈恭谨、心志愈坚）",
+  "立身五本：信德孝悌让（遗令五者，立身之本）",
+  "孝道传世法（佩刀授览与元代《二十四孝》教材化）",
+  "功德圆满法（身后哀荣、策谥曰元与史臣定评）"
+ ],
+ "famous_quote": "時人歌之曰：「海沂之康，實賴王祥。邦國不空，別駕之功。」",
+ "famous_quote_source": "《晋书》卷三十三·王祥传·第3段（R7 素材包 P12）",
+ "influence": "其孝行故事传遍中国，成为历代劝孝的典范。《晋书》史臣称「孝为德本，王祥所以当仁」；元代郭居敬《二十四孝》收录「卧冰求鲤」，诗赞「继母人间有，王祥天下无」，流传尤广；宋以降更多以其事为孝义教材，其影响超越宗教界限，成为中华民族传统美德叙事的重要组成部分。",
+ "tags": [
+  "孝道",
+  "侍疾",
+  "卧冰求鲤",
+  "黄雀入幕",
+  "抱树守柰",
+  "遗令五者",
+  "立身之本",
+  "佩刀授览",
+  "二十四孝",
+  "孝感",
+  "笃孝纯至",
+  "扬名显亲",
+  "琅邪王氏",
+  "元代教材化",
+  "哀荣谥元"
+ ],
+ "cross_references": [
+  {
+   "target_figure_code": "H-ZX-001",
+   "relation_type": "comparison",
+   "description_zh": "曾子为《孝经》一系的传统传述者（归属争议见其档），属孝道义理的奠基者；王祥以《晋书》本传所载行迹成为孝道实践的典范——《孝经·开宗明义章第一》章句与其事迹互为经义与事证。"
+  }
+ ],
+ "meta": {
+  "source": "《晋书》卷三十三·王祥传（含王览附传、卷末史臣曰）；《二十四孝》；《孝经·开宗明义章第一》；《搜神记》卷十一（旁证）",
+  "methodology": "Phase21-R8 重建落盘：以 R7 重制素材包（P01-P16）逐条引文重锚，旧自造引文与失据出处全部弃用",
+  "validation": "verification pending（10 条）；引文与素材包逐字比对由 verify_phase21r8_wangxiang.py 执行；入库前须走独立核验流程",
+  "generation_date": "2026-09-23",
+  "mode_count": 10,
+  "figure_code_ref": "H-HZX-002",
+  "phase": "Phase 21-R8"
+ },
+ "related_figures": [
+  "H-ZX-001"
+ ],
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-WX-001",
+  "M-WX-002",
+  "M-WX-003",
+  "M-WX-004",
+  "M-WX-005",
+  "M-WX-006",
+  "M-WX-007",
+  "M-WX-008",
+  "M-WX-009",
+  "M-WX-010"
+ ],
+ "mode_ids_note": "王祥重做（Phase21-R8）：旧号 M301~M310 已随 R6B 归档释放，不复用；本档新码 M-WX-001~010（落盘前全库查重 0 碰撞），旧号仅保留于各条 legacy_mode_id 与 id_mapping.tsv",
+ "caveats": [
+  "Phase21-R8 重建落盘：10 条 key_quote 逐字取自 R7 重制素材包（P01-P16），出处均为可落源文献（《晋书》卷三十三 等）；旧版自造引文与失据出处全部弃用；核验状态 pending，入库前须走独立核验流程",
+  "底本用字：依船长裁定从 W1/W3 通行本（未/灸/覆）；异文 V1（未/末）、V2（灸/炙）、V3（覆/復）登记于条目备注与产出证据，figure 层基线文本照录不擅改字",
+  "题旨裁定执行：M-WX-001 与 M-WX-008 已按船长裁定改题；两处旧题旨字符串在本档全字段零使用（登记见产出证据 rulings / forbidden registry）",
+  "A08 标签按船长裁定用中性表述「长揖晋王」（原文「及武帝爲晉王」按《晋书》用例武帝=司馬炎）；该锚未入素材包，未作引文入条目，裁定登记见产出证据",
+  "figure 层 historical_significance / influence / courtesy_name / era / school / representative_works 照录 R6B 修正稿基线（含其原有表述口径）；M-WX-009 子项已按裁定降级为元代《二十四孝》教材化实证，逐代专证另立研究卡",
+  "场景附随件（scenarios_zh/en、scenario_tags）不在本卡产出范围：属合并卡（2/4）注册事项；注意 C-HZX-001~010 场景码已被 H-HZX-001 占用，接入前须另行定码",
+  "figure 层待核项（卒年异说、wiki_id、别名残留）另卡处理（修正稿 _pending_verification 登记），本卡未处置"
+ ],
+ "modes": [
+  {
+   "id": "M-WX-001",
+   "mode_code": "M-WX-001",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "侍疾尝药法",
+   "name_en": "Attending the Sick and Tasting Medicine Method",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "孝道伦理/侍疾奉养",
+   "domain_en": "Filial Ethics / Sickbed Care",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "父母患病时以贴身守护为务：衣不解带、昼夜不离榻前，汤药必先亲口尝验再奉于亲。此法把孝道落在病榻之侧最具体、最不可替代的照料上——照护者以自己的作息与安适为代价，换取父母病中的安妥。",
+   "definition_en": "When parents fall ill, one attends them in person: not undoing one's belt to rest, staying at the bedside day and night, and personally tasting every medicine before serving it. The method grounds filial devotion in the most concrete and least delegable form of care - the caregiver pays with his own rest and comfort to secure the parents' ease in illness.",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "key_concepts": [
+    "侍疾",
+    "衣不解带",
+    "汤药亲尝",
+    "亲身照料",
+    "昼夜守护"
+   ],
+   "key_quote_zh": "父母有疾，衣不解帶，湯藥必親嘗。",
+   "key_quote_en": "When his parents were ill, he did not undo his belt to rest, and he always tasted the broth and medicine himself.",
+   "process_zh": [
+    "父母卧病，亲至榻前贴身照护",
+    "衣不解带、昼夜不离，不以休息为由离开",
+    "汤药先亲口尝验，确认温凉适宜再奉于亲",
+    "持续照料直至病愈，不因日久而生懈怠"
+   ],
+   "process_en": [
+    "Attend the bedside in person once parents fall ill",
+    "Do not undo one's belt; stay day and night, never leaving on the pretext of rest",
+    "Taste every medicine first and serve it only when fit",
+    "Continue the care until recovery, without slackening over time"
+   ],
+   "representative_cases_zh": [
+    "《晋书·王祥传》第2段载其侍疾之状：衣不解带、汤药必亲尝（素材包 P01，锚 A04）——本传对王祥日常事亲的直接记载。",
+    "本条为旧号 M301 号位的重建：题旨、引文与出处全部改锚本传原文；旧题旨与旧出处均已弃用，登记见产出证据 rulings。"
+   ],
+   "representative_cases_en": [
+    "The second passage of the Wang Xiang biography records his sickbed attendance: he did not undo his belt to rest and always tasted the medicine himself (pack P01, anchor A04) - a direct record of his daily service to his parents.",
+    "This entry rebuilds the former slot M301: theme, quotation and source are re-anchored to the biography text; the former theme and unfounded source are retired (see the rulings registry in the output evidence)."
+   ],
+   "modern_applications_zh": [
+    "重病家属陪护中的亲身照料",
+    "养老与临终关怀中的高质量陪伴",
+    "以「亲自在场」作为照护质量的核心标准",
+    "长期照护中防止以代劳替代亲为"
+   ],
+   "modern_applications_en": [
+    "Hands-on caregiving for seriously ill family members",
+    "High-quality companionship in eldercare and hospice care",
+    "Being present in person as the core standard of care quality",
+    "Avoiding substitution of instrumental care for personal care in long-term attendance"
+   ],
+   "related_modes": [
+    "M-WX-005",
+    "M-WX-003"
+   ],
+   "legacy_mode_id": "M301",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P01，锚 A04（《晋书》卷三十三·王祥传；可落源）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-002",
+   "mode_code": "M-WX-002",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "卧冰求鲤法",
+   "name_en": "Lying on Ice for Carp Method",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "孝道伦理/极致事亲",
+   "domain_en": "Filial Ethics / Utmost Service",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "天寒冰冻而母欲生鱼，则解衣将剖冰以求；冰忽自解，双鲤跃出，持之而归。此法记《晋书》王祥传最著名的孝感之举：以极寒中亲履其险的方式回应母亲的欲求。名从《二十四孝》「卧冰求鲤」，本传原文作「剖冰」，两存并注。",
+   "definition_en": "When his mother wanted fresh fish in freezing weather, he took off his clothes and was about to break the ice to seek them; the ice suddenly split, two carp leapt out, and he carried them home. The method records the most famous deed of responsive filial devotion in the Book of Jin biography: answering a parent's want by personally facing peril in bitter cold. The name follows the Twenty-Four Paragons title \"lying on ice for carp\", while the biography text reads \"breaking the ice\" - both are kept and noted.",
+   "source_chapter": "《晋书》卷三十三·王祥传（辅：元·郭居敬《全相二十四孝诗选》「卧冰求鲤」）",
+   "key_concepts": [
+    "卧冰求鲤",
+    "剖冰",
+    "双鲤跃出",
+    "极致事亲",
+    "天寒冰冻"
+   ],
+   "key_quote_zh": "母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。",
+   "key_quote_en": "His mother once wanted fresh fish; the weather was cold and the ice frozen, so Xiang took off his clothes and was about to break the ice to seek them; the ice suddenly split of itself, two carp leapt out, and he carried them home.",
+   "process_zh": [
+    "感知父母欲求（母欲生鱼）",
+    "不以天寒冰冻为阻，亲往求取",
+    "解衣将剖冰——以身体亲历其事",
+    "冰解鲤出，持之而归以奉亲"
+   ],
+   "process_en": [
+    "Perceive the parent's want (the mother wanted live fish)",
+    "Go and seek it in person, undeterred by freezing weather",
+    "Take off one's clothes and break the ice - personally undergoing the hardship",
+    "The ice splits and carp leap out; carry them home and serve the parent"
+   ],
+   "representative_cases_zh": [
+    "《晋书·王祥传》原文：母欲生鱼、天寒冰冻、解衣剖冰、冰解鲤出（素材包 P02，锚 A01）——本传直接记载。",
+    "《二十四孝》「卧冰求鲤」题下收录此事并有诗赞（素材包 P14/P15，锚 A12）：「繼母人間有。王祥天下無。至今河上水。留得臥冰模。」",
+    "版本用字注记：本传通行本作「剖冰」，《二十四孝》化表述作「卧冰」；P16《搜神記》卷十一王祥条为旁证（含「黃雀炙」「复」等异文，见异文 V2 登记）。"
+   ],
+   "representative_cases_en": [
+    "Book of Jin biography text: the mother wanted live fish, the weather was freezing, he took off his clothes and broke the ice, the ice split and carp leapt out (pack P02, anchor A01) - directly recorded in the biography.",
+    "The Twenty-Four Paragons, under the title \"lying on ice for carp\", includes the story and a verse (pack P14/P15, anchor A12).",
+    "Character note: the received biography reads \"breaking the ice\", while the Twenty-Four Paragons stylizes it as \"lying on ice\"; Soushenji vol. 11 (pack P16) serves as a corroborating witness (with variants such as the sparrow passage; see variance V2)."
+   ],
+   "modern_applications_zh": [
+    "为父母的急需亲履其难",
+    "照料中的极限付出与安全权衡",
+    "把「亲自去求」作为回应家人需求的第一反应",
+    "家庭应急场景中的决断力"
+   ],
+   "modern_applications_en": [
+    "Personally facing hardship for a parent's urgent need",
+    "Weighing extreme effort against safety in caregiving",
+    "Seeking it oneself as the first response to family need",
+    "Decisiveness in family emergencies"
+   ],
+   "related_modes": [
+    "M-WX-004",
+    "M-WX-006",
+    "M-WX-009"
+   ],
+   "legacy_mode_id": "M302",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P02，锚 A01（《晋书》卷三十三·王祥传（辅锚 A12）；可落源；本传主锚；辅锚 A12《二十四孝》诗赞）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-003",
+   "mode_code": "M-WX-003",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "孝道至上法",
+   "name_en": "Filial Piety Supremacy Method",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "儒家伦理/价值序列",
+   "domain_en": "Confucian Ethics / Priority of Values",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "以《孝经·开宗明义章第一》为义理出处：孝是德的根本、教化的由来；孝之始在保全受之父母的身体髮肤，孝之终在立身行道、扬名后世以显父母。此法把孝置于价值序列的首位，并给出从孝之始到孝之终的完整路径。",
+   "definition_en": "Grounded in the first chapter of the Classic of Filial Piety: filial piety is the root of virtue and the source of teaching; it begins with protecting the body received from one's parents and ends with establishing oneself, practicing the Way, and making a name that glorifies them. The method places filial piety first in the order of values and marks a complete path from beginning to end.",
+   "source_chapter": "《孝经·开宗明义章第一》",
+   "key_concepts": [
+    "孝为德本",
+    "孝之始",
+    "孝之终",
+    "守身",
+    "扬名显亲"
+   ],
+   "key_quote_zh": "夫孝，德之本也，教之所由生也。／身體髮膚，受之父母，不敢毀傷，孝之始也；立身行道，揚名於後世，以顯父母，孝之終也。",
+   "key_quote_en": "Filial piety is the root of all virtue and that from which teaching arises. / The body, hair and skin are received from one's parents - one dares not injure them: this is the beginning of filial piety. To establish oneself and practice the Way, to make a name for later generations and thus glorify one's parents: this is the end of filial piety.",
+   "process_zh": [
+    "确立孝为德之本、教之所由生的根本定位",
+    "从守身做起——不敢毁伤受之父母的身体",
+    "以立身行道、扬名显亲为孝的完成",
+    "在价值冲突时以孝为先"
+   ],
+   "process_en": [
+    "Establish filial piety as the root of virtue and source of teaching",
+    "Begin with guarding the body received from one's parents",
+    "Complete it by establishing oneself, practicing the Way and glorifying one's parents",
+    "Keep filial piety first when values conflict"
+   ],
+   "representative_cases_zh": [
+    "《孝经·开宗明义章第一》章句直引（素材包 P13，见证 W6 已核）——本条出处已按报告路线改锚具体篇章，旧出处登记见产出证据 rulings。",
+    "本传遗令平行见证：「揚名顯親，孝之至也」（素材包 P08，锚 A09）——同一原则在《晋书》本传语境中的表述。"
+   ],
+   "representative_cases_en": [
+    "Direct quotation of the first chapter of the Classic of Filial Piety (pack P13, witness W6 verified) - the source is re-anchored to a specific chapter per the report route.",
+    "A parallel in the testamentary injunction of the biography: \"to make a name and glorify one's parents is the height of filial piety\" (pack P08, anchor A09)."
+   ],
+   "modern_applications_zh": [
+    "家庭伦理中的价值排序实践",
+    "赡养义务与个人事业的取舍",
+    "把「立身行道」当作长期人生目标",
+    "社会公共伦理的底线意识"
+   ],
+   "modern_applications_en": [
+    "Ordering values in family ethics",
+    "Balancing eldercare duties against personal career",
+    "Taking establishing oneself and practicing the Way as a long-term life goal",
+    "Bottom-line awareness in public ethics"
+   ],
+   "related_modes": [
+    "M-WX-008",
+    "M-WX-001"
+   ],
+   "legacy_mode_id": "M303",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P13，义理出处为《孝经·开宗明义章第一》（今文孝经）（可落源；非传记锚）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-004",
+   "mode_code": "M-WX-004",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "以身许物法",
+   "name_en": "Body as Gift Method",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "孝道伦理/身体践行",
+   "domain_en": "Filial Ethics / Bodily Practice",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "以身体为兑现父母所需的第一资源：天寒冰冻而解衣将剖冰，即是以个人安危与体温直接换取父母所欲之物。此法记录孝行中「以身许之」的决断方式——不计自身代价，亲当其难。",
+   "definition_en": "The body is the first resource pledged to meet a parent's need: taking off one's clothes to break the ice in freezing weather is exchanging one's own safety and warmth directly for what the parent wants. The method records the decisive manner of pledging oneself in filial conduct - counting no personal cost and facing the hardship in person.",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "key_concepts": [
+    "以身许物",
+    "解衣剖冰",
+    "身体为资源",
+    "亲当其难",
+    "不计代价"
+   ],
+   "key_quote_zh": "母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。",
+   "key_quote_en": "His mother once wanted fresh fish; the weather was cold and the ice frozen, so Xiang took off his clothes and was about to break the ice to seek them; the ice suddenly split of itself, two carp leapt out, and he carried them home.",
+   "process_zh": [
+    "明确父母的欲求事项",
+    "评估可以动用的第一资源——自身",
+    "亲身当难（解衣将剖冰），不以危险委人",
+    "事成而后归，将所得用作奉养"
+   ],
+   "process_en": [
+    "Identify what the parent wants",
+    "Assess the first resource available - oneself",
+    "Face the hardship in person (undressing to break the ice), never delegating the risk",
+    "Return once it is done, using what was obtained for the parent's support"
+   ],
+   "representative_cases_zh": [
+    "《晋书·王祥传》剖冰句（素材包 P02，锚 A01）：解衣将剖冰，即以身体赴寒当难——本条取其中「以身许物」的决断面。",
+    "「黄雀入幕」事（素材包 P03，锚 A02）为同一实践谱系的另一见证：所求之物以「飛入其幕」的方式供母。"
+   ],
+   "representative_cases_en": [
+    "The ice-breaking sentence of the biography (pack P02, anchor A01): undressing to break the ice - the body itself is pledged against the cold; this entry takes that decisive dimension.",
+    "The \"yellow sparrows into the tent\" episode (pack P03, anchor A02) is another witness in the same practical lineage."
+   ],
+   "modern_applications_zh": [
+    "危急时刻以自身资源换取家人所需",
+    "公益救援中的自我承担",
+    "把个人安危纳入家庭责任的考量",
+    "风险面前「亲当其难」的担当伦理"
+   ],
+   "modern_applications_en": [
+    "Exchanging one's own resources for family needs in emergencies",
+    "Personal commitment in rescue and public service",
+    "Including personal safety in the calculus of family duty",
+    "The ethic of facing hardship in person"
+   ],
+   "related_modes": [
+    "M-WX-002",
+    "M-WX-006"
+   ],
+   "legacy_mode_id": "M304",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P02，锚 A01（《晋书》卷三十三·王祥传；可落源；A01 同段复用）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-005",
+   "mode_code": "M-WX-005",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "孝道循环法",
+   "name_en": "Filial Piety Cycle Method",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "孝道伦理/持续践行",
+   "domain_en": "Filial Ethics / Sustained Practice",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "孝行不在一时一事，而在日复一日的持续循环：丹柰结实则奉命守之，每遇风雨辄抱树而泣，其笃孝纯至如此。此法给出把孝道做成长期机制的路径——在重复的日常细节中反复用力，使孝行成为长期品行。",
+   "definition_en": "Filial conduct is not a single act but a daily, enduring cycle: ordered to guard the ripe nai fruit, he would embrace the tree and weep whenever wind and rain came - such was the depth of his filial devotion. The method charts a path of making filial piety a long-term mechanism: repeated effort in ordinary details until it becomes character.",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "key_concepts": [
+    "持续孝行",
+    "抱树守柰",
+    "每风雨辄泣",
+    "笃孝纯至",
+    "日常反复"
+   ],
+   "key_quote_zh": "有丹柰結實，母命守之，每風雨，祥輒抱樹而泣。其篤孝純至如此。",
+   "key_quote_en": "There was a cluster of ripe nai fruit; his mother ordered him to guard it, and whenever wind and rain came, Xiang would embrace the tree and weep. Such was the depth of his filial devotion.",
+   "process_zh": [
+    "承接父母交办的日常事务（母命守之）",
+    "在每次极端情境中亲自守候（每风雨，抱树而泣）",
+    "不因事小而懈怠，事事认真",
+    "日积月累，使「篤孝純至」成为品格定评"
+   ],
+   "process_en": [
+    "Take on the daily tasks assigned by parents (ordered to guard the fruit)",
+    "Stand guard in person in every extreme situation (embracing the tree and weeping in wind and rain)",
+    "Never slacken because a matter is small",
+    "Accumulate day by day until devotion becomes a settled character"
+   ],
+   "representative_cases_zh": [
+    "《晋书·王祥传》守柰事（素材包 P04，锚 A03）——本传直接记载，句末以「其篤孝純至如此」总评其长期笃行。",
+    "侍疾事（素材包 P01，锚 A04）为同一持续性孝行的另一见证：衣不解带、汤药亲尝，皆非一时之举。"
+   ],
+   "representative_cases_en": [
+    "The fruit-guarding episode (pack P04, anchor A03) - directly recorded in the biography, closing with the summary \"such was the depth of his filial devotion\".",
+    "The sickbed attendance (pack P01, anchor A04) is another witness to the same sustained conduct."
+   ],
+   "modern_applications_zh": [
+    "长期照护中的持续性投入",
+    "把善意做成习惯的日常机制",
+    "家庭责任的稳定履行",
+    "个人坚持中的风雨无阻原则"
+   ],
+   "modern_applications_en": [
+    "Sustained investment in long-term care",
+    "Turning good intentions into daily habit mechanisms",
+    "Steady fulfillment of family duties",
+    "The principle of persistence through wind and rain"
+   ],
+   "related_modes": [
+    "M-WX-001",
+    "M-WX-007"
+   ],
+   "legacy_mode_id": "M305",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P04，锚 A03（《晋书》卷三十三·王祥传；可落源）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-006",
+   "mode_code": "M-WX-006",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "求而得之法",
+   "name_en": "Seeking and Attaining Method",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "孝道伦理/求取事亲",
+   "domain_en": "Filial Ethics / Seeking for Parents",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "主动求取，必使父母之欲得偿：母思黄雀，则有黄雀数十飞入其幕以供母；母欲生鱼，则剖冰而双鲤跃出。此法记录「求而得之」的实践结构——先有主动求索之志与行动，所得之物接续而至，复以供母。",
+   "definition_en": "Seek actively, so that the parent's wish is fulfilled: when his mother longed for sparrows, dozens flew into his tent to be served to her; when she wanted live fish, the ice broke and two carp leapt out. The method records the structure of seeking-and-attaining: the will and act of seeking come first, what is sought then follows, and is served to the parent again and again.",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "key_concepts": [
+    "求而得之",
+    "黄雀入幕",
+    "主动求索",
+    "复以供母",
+    "欲求必应"
+   ],
+   "key_quote_zh": "母又思黃雀灸，復有黃雀數十飛入其幕，復以供母。",
+   "key_quote_en": "His mother again longed for sparrows; again dozens of yellow sparrows flew into his tent, and again he served them to his mother.",
+   "process_zh": [
+    "获知父母的欲求（母又思黄雀）",
+    "主动施为，不待外力安排",
+    "所求之物接续而至（黄雀数十飞入其幕）",
+    "反复供奉，确保父母得偿所愿"
+   ],
+   "process_en": [
+    "Learn what the parent longs for",
+    "Act on one's own initiative, awaiting no outside arrangement",
+    "What was sought follows (dozens of sparrows flew into his tent)",
+    "Serve it repeatedly until the parent's wish is fulfilled"
+   ],
+   "representative_cases_zh": [
+    "《晋书·王祥传》黄雀入幕事（素材包 P03，锚 A02）——本传直接记载；用字从 W1/W3 通行本（异文 V2 见下一条）。",
+    "版本用字注记：异文 V2「黃雀灸」灸/炙两存——W1/W3 通行本作「灸」，四库本（W2）与《搜神記》（W4，素材包 P16）作「炙」；本档从裁定底本作「灸」，异文登记不擅改字。",
+    "剖冰求鱼事（素材包 P02，锚 A01）为同一「求而得之」结构的另一见证。"
+   ],
+   "representative_cases_en": [
+    "The sparrows-into-the-tent episode (pack P03, anchor A02) - directly recorded; characters follow the received W1/W3 text (variance V2 below).",
+    "Character note (variance V2): the received W1/W3 text reads one character while the Siku edition (W2) and Soushenji (W4, pack P16) read another; this file follows the ruled base text and registers the variance without altering characters.",
+    "The ice-breaking fish episode (pack P02, anchor A01) is another witness to the same seek-and-attain structure."
+   ],
+   "modern_applications_zh": [
+    "主动为家人解决需求",
+    "把「求」与「得」接续起来的执行结构",
+    "服务中的主动意识",
+    "家庭照护中的资源筹措"
+   ],
+   "modern_applications_en": [
+    "Proactively solving family needs",
+    "The execution structure linking seeking to attaining",
+    "Initiative in service",
+    "Mobilizing resources in family care"
+   ],
+   "related_modes": [
+    "M-WX-002",
+    "M-WX-004"
+   ],
+   "legacy_mode_id": "M306",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P03，锚 A02（《晋书》卷三十三·王祥传；可落源）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-007",
+   "mode_code": "M-WX-007",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "修心养性法",
+   "name_en": "Heart Cultivation Method",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "修养方法/逆境持守",
+   "domain_en": "Cultivation Method / Constancy in Adversity",
+   "level": "核心",
+   "priority": 7,
+   "definition_zh": "面对役使与贬抑而不失其恭谨：每使扫除牛下，祥愈恭谨。此法把修养落在逆境中的心性锤炼上——外境愈难，内志愈坚，终以「其篤孝純至如此」收其定评。",
+   "definition_en": "Facing menial orders and disparagement without losing respectfulness: whenever he was made to sweep below the oxen, Xiang became all the more respectful and careful. The method locates cultivation in the tempering of the heart amid adversity - the harder the circumstance, the firmer the inner resolve, closing with the biography's verdict on his deep devotion.",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "key_concepts": [
+    "恭谨",
+    "扫除牛下",
+    "愈恭谨",
+    "逆境持守",
+    "心性锤炼"
+   ],
+   "key_quote_zh": "每使掃除牛下，祥愈恭謹。",
+   "key_quote_en": "Whenever he was made to sweep below the oxen, Xiang became all the more respectful and careful.",
+   "process_zh": [
+    "在屈辱性事务中不辩解、不怨怼",
+    "以「愈恭謹」回应每一次役使",
+    "把外部压力转化为内部修养的功课",
+    "长期积累，形成为品格层面的定评"
+   ],
+   "process_en": [
+    "Without excuse or resentment in demeaning tasks",
+    "Answer every imposition with greater respectfulness",
+    "Convert external pressure into inner cultivation",
+    "Accumulate over time into a settled character assessment"
+   ],
+   "representative_cases_zh": [
+    "《晋书·王祥传》第2段前部（素材包 P05，锚 A04 段内）——「每使掃除牛下，祥愈恭謹」为其修心功夫的直接记载。",
+    "同段末句「其篤孝純至如此」（素材包 P06）以总评收束，可见修养功夫属于长期品格锤炼。"
+   ],
+   "representative_cases_en": [
+    "The opening of the biography's second passage (pack P05, within anchor A04) - the direct record of his cultivation under humiliation.",
+    "The closing summary of the same passage (pack P06) shows the cultivation to be long-term character building."
+   ],
+   "modern_applications_zh": [
+    "逆境中的自我管理与情绪克制",
+    "以修养回应不公而非对抗",
+    "长期主义的品格建设",
+    "职业场景中的涵养功夫"
+   ],
+   "modern_applications_en": [
+    "Self-management and emotional restraint in adversity",
+    "Responding to unfairness through cultivation rather than confrontation",
+    "Long-term character building",
+    "Composure in professional settings"
+   ],
+   "related_modes": [
+    "M-WX-005",
+    "M-WX-008"
+   ],
+   "legacy_mode_id": "M307",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P05，锚 A04（《晋书》卷三十三·王祥传；可落源；段内后续）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-008",
+   "mode_code": "M-WX-008",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "立身五本：信德孝悌让",
+   "name_en": "Five Foundations of Character: Trust, Virtue, Filial Piety, Fraternal Love, Yielding",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "儒家伦理/立身之本",
+   "domain_en": "Confucian Ethics / Foundations of Conduct",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "王祥遗令训子孙，以五者为立身之本：言行可覆是信之至，推美引过是德之至，扬名显亲是孝之至，兄弟怡怡、宗族欣欣是悌之至，临财莫过乎让。此法把孝道嵌入完整的德目体系——信、德、孝、悌、让五者并举，孝为其中一环而非孤悬。",
+   "definition_en": "In his testamentary injunction Wang Xiang instructed his descendants with five foundations of conduct: verifiable words and deeds as the height of trust; advancing others' merits and taking blame as the height of virtue; making a name and glorifying parents as the height of filial piety; brothers in harmony and clan rejoicing as the height of fraternal devotion; yielding in the face of gain. The method embeds filial piety in a complete system of virtues - all five stand together, filial piety being one strand among them rather than standing alone.",
+   "source_chapter": "《晋书》卷三十三·王祥传·遗令",
+   "key_concepts": [
+    "立身五本",
+    "信",
+    "德",
+    "孝",
+    "悌",
+    "让"
+   ],
+   "key_quote_zh": "夫言行可覆，信之至也；推美引過，德之至也；揚名顯親，孝之至也；兄弟怡怡，宗族欣欣，悌之至也；臨財莫過乎讓：此五者，立身之本。",
+   "key_quote_en": "That words and deeds can be verified is the height of trustworthiness; to advance others' merits and take blame upon oneself is the height of virtue; to make a name and glorify one's parents is the height of filial piety; brothers in harmony and the clan rejoicing is the height of fraternal devotion; in the face of gain, nothing exceeds yielding - these five are the foundation of personal conduct.",
+   "process_zh": [
+    "以「言行可覆」立信——说到做到、经得起核对",
+    "以「推美引過」立德——让功担过",
+    "以「揚名顯親」立孝——守身且行道",
+    "以「兄弟怡怡，宗族欣欣」立悌——兄弟宗族和睦",
+    "以「臨財莫過乎讓」收束——利前知让"
+   ],
+   "process_en": [
+    "Establish trust by verifiable words and deeds",
+    "Establish virtue by advancing others' merits and taking blame",
+    "Establish filial piety by guarding oneself and practicing the Way",
+    "Establish fraternal devotion by harmony in brothers and clan",
+    "Close with yielding in the face of gain"
+   ],
+   "representative_cases_zh": [
+    "遗令五者并举（素材包 P07，锚 A09·遗令段）——本传直接记载，且为全档唯一具名的德目自我总结。",
+    "其中「揚名顯親，孝之至也」可单引（素材包 P08）——与《孝经》「立身行道，揚名於後世，以顯父母」同调（见 M-WX-003）。",
+    "版本用字注记：异文 V3「言行可覆」覆/復两存——W1/W3 通行本作「覆」，四库本（W2）作「復」；本档从裁定底本作「覆」，异文登记不擅改字。",
+    "题旨裁定执行：本条按船长裁定改题「立身五本：信德孝悌让」，独立成目、不并入 M-WX-009；旧题旨字符串不出现在本档字段，登记见产出证据 rulings。"
+   ],
+   "representative_cases_en": [
+    "The five foundations in the testamentary injunction (pack P07, anchor A09) - directly recorded, and the only named self-summary of virtues in this file.",
+    "One line can be quoted singly: \"to make a name and glorify one's parents is the height of filial piety\" (pack P08) - in tune with the Classic of Filial Piety (see M-WX-003).",
+    "Theme ruling applied: retitled \"Five Foundations of Character\" per the captain's ruling, standing as its own entry and not merged into M-WX-009; the former theme string appears in no field of this file (see the rulings registry in the output evidence)."
+   ],
+   "modern_applications_zh": [
+    "个人立身准则的清单化",
+    "组织价值观的多德目建设",
+    "家风家训的现代转化",
+    "把道德要求落到可核对的行为上"
+   ],
+   "modern_applications_en": [
+    "Codifying personal principles of conduct",
+    "Multi-virtue organizational value systems",
+    "Modernizing family precepts and traditions",
+    "Grounding moral requirements in verifiable behavior"
+   ],
+   "related_modes": [
+    "M-WX-003",
+    "M-WX-009"
+   ],
+   "legacy_mode_id": "M308",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P07，锚 A09（《晋书》卷三十三·王祥传·遗令段；可落源）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-009",
+   "mode_code": "M-WX-009",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "孝道传世法",
+   "name_en": "Filial Piety Legacy Method",
+   "category": "教育传承",
+   "category_raw": "教育传承",
+   "domain_zh": "家族传承/伦理教化",
+   "domain_en": "Family Transmission / Moral Education",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "孝行经两路传世：家族之内——临终以佩刀授览，寄语其必兴，而后王氏奕世多贤才、兴于江左；社会之间——元代教材化见《二十四孝》：收录「卧冰求鲤」并以诗赞流传。子项（历代教材化）按裁定降级为上述元代实证表述。",
+   "definition_en": "Filial conduct is transmitted on two tracks: within the family - on his deathbed he gave his knife to Lan with words that he would flourish, and later the Wang clan produced many worthies and rose in Jiangzuo; in society - Yuan-era textbook transmission seen in the Twenty-Four Paragons, which includes \"lying on ice for carp\" with a verse. The subitem on textbook transmission is downgraded per ruling to the Yuan-era evidence of the Twenty-Four Paragons.",
+   "source_chapter": "《晋书》卷三十三·王览附传（辅：元·郭居敬《全相二十四孝诗选》「卧冰求鲤」）",
+   "key_concepts": [
+    "佩刀授览",
+    "家族传承",
+    "奕世贤才",
+    "二十四孝",
+    "元代教材化"
+   ],
+   "key_quote_zh": "祥臨薨，以刀授覽，曰：「汝後必興，足稱此刀。」覽後奕世多賢才，興於江左矣。",
+   "key_quote_en": "When Xiang was about to pass away, he gave his knife to Lan and said: you will surely flourish hereafter; this knife is worthy of you. Later, Lan's generations produced many men of worth, and the family rose in Jiangzuo (east of the Yangtze).",
+   "process_zh": [
+    "以信物（佩刀）与寄语完成家族交接",
+    "把孝道品格转化为可继承的家风",
+    "经由蒙学教材（《二十四孝》）进入公共教化",
+    "形成跨代传播的稳定载体"
+   ],
+   "process_en": [
+    "Complete the family handover with a token (the knife) and words",
+    "Turn filial character into inheritable family ethos",
+    "Enter public education through a primer (the Twenty-Four Paragons)",
+    "Form a stable vehicle of transmission across generations"
+   ],
+   "representative_cases_zh": [
+    "佩刀授览原文（素材包 P09，锚 A10·王览附传）——家族传承节点；注意此句属王览附传，王览非王祥本人（身份锚点，勿混）。",
+    "元代教材化见《二十四孝》「卧冰求鲤」题下诗赞（素材包 P14，锚 A12）：「繼母人間有。王祥天下無。至今河上水。留得臥冰模。」",
+    "子项表述降级记录：R7 报告（§4 M309）判定历代逐代专证路线未获直接文献佐证；本条只保留元代《二十四孝》实证，逐代专证如需要另立研究卡。"
+   ],
+   "representative_cases_en": [
+    "The knife-to-Lan text (pack P09, anchor A10) - the family transmission node; note this passage belongs to the Wang Lan appendix; Lan is not Wang Xiang himself.",
+    "Yuan-era textbook transmission: the verse under \"lying on ice for carp\" in the Twenty-Four Paragons (pack P14, anchor A12).",
+    "Subitem downgrade record: the R7 report found no direct documentary support for a dynasty-by-dynasty transmission claim; this entry keeps only the Yuan-era evidence."
+   ],
+   "modern_applications_zh": [
+    "家族价值观的代际传递",
+    "以信物与仪式完成交接",
+    "把家训转化为可传授的教材",
+    "公共教育中的美德叙事"
+   ],
+   "modern_applications_en": [
+    "Intergenerational transmission of family values",
+    "Handover through tokens and rituals",
+    "Turning family precepts into teachable materials",
+    "Virtue narratives in public education"
+   ],
+   "related_modes": [
+    "M-WX-008",
+    "M-WX-010",
+    "M-WX-002"
+   ],
+   "legacy_mode_id": "M309",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P09，锚 A10（《晋书》卷三十三·王览附传；可落源；主锚；辅锚 A12《二十四孝》诗赞）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  },
+  {
+   "id": "M-WX-010",
+   "mode_code": "M-WX-010",
+   "figure_code": "H-HZX-002",
+   "figure_name": "王祥",
+   "name_zh": "功德圆满法",
+   "name_en": "Virtue Perfection Method",
+   "category": "伦理修养",
+   "category_raw": "伦理修养",
+   "domain_zh": "伦理评价/身后荣典",
+   "domain_en": "Ethical Assessment / Posthumous Honor",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "孝行的最终落点见于两处：传末记泰始五年薨，诏赐东园秘器、朝服钱帛，明年策谥曰元；卷末史臣以「孝爲德本，王祥所以當仁」为其定评。此法把一生的孝行收束为可被史笔确认的完成态——哀荣与史评互为印证。",
+   "definition_en": "The final point of a life of filial conduct appears in two places: the close of the biography records his death in the fifth year of Taishi, the bestowal of grave gifts, robes, coins and cloth, and the posthumous title Yuan the next year; the historian's verdict at the volume's end names filial piety as the root of virtue and Wang Xiang as one who truly matched it. The method gathers a lifetime of filial conduct into a completion confirmed by the historical brush - honors and verdicts mirroring each other.",
+   "source_chapter": "《晋书》卷三十三·王祥传（传末）；《晋书》卷三十三·史臣曰",
+   "key_concepts": [
+    "卒后哀荣",
+    "策谥曰元",
+    "史臣定评",
+    "孝为德本",
+    "功德圆满"
+   ],
+   "key_quote_zh": "泰始五年薨，詔賜東園秘器，朝服一具，衣一襲，錢三十萬，布帛百匹。……明年，策諡曰元。",
+   "key_quote_en": "In the fifth year of Taishi he passed away; an edict bestowed the Eastern Garden secret vessel, one court robe, one suit of clothes, three hundred thousand coins, and a hundred bolts of cloth. The next year, the posthumous title Yuan was conferred.",
+   "process_zh": [
+    "以终身孝行积累德望",
+    "身后获朝廷哀荣之典（赐器、谥号）",
+    "史笔以德本之评作结",
+    "个人行迹进入公共历史记忆"
+   ],
+   "process_en": [
+    "Accumulate moral standing through a lifetime of filial conduct",
+    "Receive court honors after death (grave gifts, a posthumous title)",
+    "Close with the historian's verdict on virtue as the root",
+    "Enter public historical memory"
+   ],
+   "representative_cases_zh": [
+    "传末哀荣与谥元（素材包 P11，锚 A11 邻段·本传传末）——引文含中略号，按素材包照录，未补改。",
+    "史臣定评（素材包 P10，锚 A11）：「史臣曰：若夫經爲帝師，鄭沖於焉無愧；孝爲德本，王祥所以當仁；何曾善其親而及其親之黨者也。」",
+    "卒年异说（268/269）属 figure 层待核项（R6B 修正稿 _pending_verification 登记），非本条引文缺口。"
+   ],
+   "representative_cases_en": [
+    "Posthumous honors and the title Yuan (pack P11, near anchor A11, close of the biography) - the quotation contains an ellipsis reproduced exactly as in the pack.",
+    "The historian's verdict (pack P10, anchor A11): filial piety as the root of virtue, Wang Xiang as one who matched it.",
+    "The disputed year of death (268/269) is a figure-level pending item, not a gap in this entry's quotation."
+   ],
+   "modern_applications_zh": [
+    "终身主义者的成就评价",
+    "身后评价与遗产管理",
+    "以德行进入公共记忆的路径",
+    "组织中的荣誉与传承机制"
+   ],
+   "modern_applications_en": [
+    "Assessing a lifetime of achievement",
+    "Posthumous evaluation and legacy management",
+    "Paths into public memory through virtue",
+    "Honor and transmission mechanisms in organizations"
+   ],
+   "related_modes": [
+    "M-WX-009",
+    "M-WX-003"
+   ],
+   "legacy_mode_id": "M310",
+   "verification": {
+    "status": "pending",
+    "method": "phase21r8-wangxiang-rebuild-landing",
+    "evidence": "引文逐字取自 R7 重制素材包 P11，锚 A11（《晋书》卷三十三·王祥传（传末）；可落源；及其邻段）；底本从 W1/W3 通行本用字；核验 pending，入库前须走独立核验流程",
+    "checked_at": "2026-09-23",
+    "checker": "elcano"
+   }
+  }
+ ]
+}

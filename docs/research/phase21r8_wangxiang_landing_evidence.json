@@ -1,0 +1,402 @@
+{
+ "schema": "protreptic.phase21r8_wangxiang_landing/v1",
+ "card": "t_5c183962",
+ "title": "[Phase21-R8 王祥重做] 重建落盘：10 条 M-WX-001~010 + figure 修正稿",
+ "date": "2026-09-23",
+ "figure_code": "H-HZX-002",
+ "figure_name": "王祥",
+ "inputs": [
+  {
+   "path": "docs/research/phase21r7_wangxiang_sourcing_report.json",
+   "sha256": "57bbc189fa7ab65697158eb6e789877b43e421a870736d92665ff3bff2a72e89"
+  },
+  {
+   "path": "docs/research/phase21r7_wangxiang_sourcing_report.md",
+   "sha256": "98f0a1183705fe111737578c8eed336b47893d7676c5191697d5f214f119454e"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-HZX-002/corrected_record.json",
+   "sha256": "4dd579620c179ec33f5bcf8091a47243c9b8b0d137ee390fe4820472f0f7b780"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-HZX-002/redo_checklist.json",
+   "sha256": "47846eb834edb1c269cc483cb0bb4632bfc4f95f048e3d0dc8ab35871f84beed"
+  },
+  {
+   "path": "docs/research/phase21r6B_wangxiang_redo_list.md",
+   "sha256": "ce4f8e01eac1fe6ab57c2c5892dbbfb0ed984f25034af47bae0a9bcfb98a819c"
+  }
+ ],
+ "preflight_collision": {
+  "codes": [
+   "M-WX-001",
+   "M-WX-002",
+   "M-WX-003",
+   "M-WX-004",
+   "M-WX-005",
+   "M-WX-006",
+   "M-WX-007",
+   "M-WX-008",
+   "M-WX-009",
+   "M-WX-010"
+  ],
+  "hits_outside_known_mentions": {},
+  "verdict": "0 碰撞"
+ },
+ "files": [
+  {
+   "path": "data/figures/H-HZX-002.json",
+   "sha256": "eb7b7f5c1c691439c51039132ff7980eecaddcd8a320124985da4400d90f69cb",
+   "bytes": 47232,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "data/individuals/H-HZX-002.json",
+   "sha256": "c98a8e8047576d37ab79df68216df197031c7138694bbd42050828a88c13821a",
+   "bytes": 5667,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "data/individuals/H-HZX-002_modes.json",
+   "sha256": "ddc9bcbf8c5f6688056624381b8a0a9679d7f3d9f420f3bdc315c1919842ffdf",
+   "bytes": 41696,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "docs/scratch/legacy20_r8_wangxiang_landing/figures/H-HZX-002.json",
+   "sha256": "eb7b7f5c1c691439c51039132ff7980eecaddcd8a320124985da4400d90f69cb",
+   "bytes": 47232,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "docs/scratch/legacy20_r8_wangxiang_landing/individuals/H-HZX-002.json",
+   "sha256": "c98a8e8047576d37ab79df68216df197031c7138694bbd42050828a88c13821a",
+   "bytes": 5667,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "docs/scratch/legacy20_r8_wangxiang_landing/individuals/H-HZX-002_modes.json",
+   "sha256": "ddc9bcbf8c5f6688056624381b8a0a9679d7f3d9f420f3bdc315c1919842ffdf",
+   "bytes": 41696,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "docs/scratch/legacy20_r8_wangxiang_landing/modes_library_entries.json",
+   "sha256": "e2b9f472c13e6826244dbb31d9afa6a02fb90b910aafaf979ae4f26bdbc9c143",
+   "bytes": 40837,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "docs/scratch/legacy20_r8_wangxiang_landing/combined_library_entries.json",
+   "sha256": "d1229dd0b3ea49411867ee6d324c45e74db890f84d2eb2cbabdefa2db81d7a9d",
+   "bytes": 41593,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "docs/scratch/legacy20_r8_wangxiang_landing/id_mapping.tsv",
+   "sha256": "c25c20263d2a4bec88ad9bbe4a51cad62ebf4e70f29c49eba08c4dc60c8c17f6",
+   "bytes": 1115,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "docs/scratch/legacy20_r8_wangxiang_landing/category_mapping.tsv",
+   "sha256": "699ec04f7bdf0ea549e20af02d9efedb83ac7002683b370892eefa70ee00dd3f",
+   "bytes": 737,
+   "pre_existing": false,
+   "action": "written"
+  },
+  {
+   "path": "docs/scratch/legacy20_r8_wangxiang_landing/scenario_notes.json",
+   "sha256": "4192034f155b913d425633ded48b28bee849e46275eb26b58a00966ee62c9949",
+   "bytes": 565,
+   "pre_existing": false,
+   "action": "written"
+  }
+ ],
+ "entries_summary": {
+  "count": 10,
+  "codes": [
+   "M-WX-001",
+   "M-WX-002",
+   "M-WX-003",
+   "M-WX-004",
+   "M-WX-005",
+   "M-WX-006",
+   "M-WX-007",
+   "M-WX-008",
+   "M-WX-009",
+   "M-WX-010"
+  ],
+  "legacy_ids": [
+   "M301",
+   "M302",
+   "M303",
+   "M304",
+   "M305",
+   "M306",
+   "M307",
+   "M308",
+   "M309",
+   "M310"
+  ],
+  "level": "核心",
+  "priority_range": "1..10"
+ },
+ "quote_verification": [
+  {
+   "mode_code": "M-WX-001",
+   "pack_id": "P01",
+   "anchor": "A04",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "exact_match": true,
+   "quote": "父母有疾，衣不解帶，湯藥必親嘗。"
+  },
+  {
+   "mode_code": "M-WX-002",
+   "pack_id": "P02",
+   "anchor": "A01",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "本传主锚；辅锚 A12《二十四孝》诗赞",
+   "source_chapter": "《晋书》卷三十三·王祥传（辅：元·郭居敬《全相二十四孝诗选》「卧冰求鲤」）",
+   "exact_match": true,
+   "quote": "母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。"
+  },
+  {
+   "mode_code": "M-WX-003",
+   "pack_id": "P13",
+   "anchor": "",
+   "anchor_kind": "doctrinal_source",
+   "anchor_note": "义理出处《孝经·开宗明义章第一》，不占 A01-A12 传记锚",
+   "source_chapter": "《孝经·开宗明义章第一》",
+   "exact_match": true,
+   "quote": "夫孝，德之本也，教之所由生也。／身體髮膚，受之父母，不敢毀傷，孝之始也；立身行道，揚名於後世，以顯父母，孝之終也。"
+  },
+  {
+   "mode_code": "M-WX-004",
+   "pack_id": "P02",
+   "anchor": "A01",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "A01 同段复用",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "exact_match": true,
+   "quote": "母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。"
+  },
+  {
+   "mode_code": "M-WX-005",
+   "pack_id": "P04",
+   "anchor": "A03",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "exact_match": true,
+   "quote": "有丹柰結實，母命守之，每風雨，祥輒抱樹而泣。其篤孝純至如此。"
+  },
+  {
+   "mode_code": "M-WX-006",
+   "pack_id": "P03",
+   "anchor": "A02",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "exact_match": true,
+   "quote": "母又思黃雀灸，復有黃雀數十飛入其幕，復以供母。"
+  },
+  {
+   "mode_code": "M-WX-007",
+   "pack_id": "P05",
+   "anchor": "A04",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "段内后续",
+   "source_chapter": "《晋书》卷三十三·王祥传",
+   "exact_match": true,
+   "quote": "每使掃除牛下，祥愈恭謹。"
+  },
+  {
+   "mode_code": "M-WX-008",
+   "pack_id": "P07",
+   "anchor": "A09",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "",
+   "source_chapter": "《晋书》卷三十三·王祥传·遗令",
+   "exact_match": true,
+   "quote": "夫言行可覆，信之至也；推美引過，德之至也；揚名顯親，孝之至也；兄弟怡怡，宗族欣欣，悌之至也；臨財莫過乎讓：此五者，立身之本。"
+  },
+  {
+   "mode_code": "M-WX-009",
+   "pack_id": "P09",
+   "anchor": "A10",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "主锚；辅锚 A12《二十四孝》诗赞",
+   "source_chapter": "《晋书》卷三十三·王览附传（辅：元·郭居敬《全相二十四孝诗选》「卧冰求鲤」）",
+   "exact_match": true,
+   "quote": "祥臨薨，以刀授覽，曰：「汝後必興，足稱此刀。」覽後奕世多賢才，興於江左矣。"
+  },
+  {
+   "mode_code": "M-WX-010",
+   "pack_id": "P11",
+   "anchor": "A11",
+   "anchor_kind": "biographical_anchor",
+   "anchor_note": "及其邻段",
+   "source_chapter": "《晋书》卷三十三·王祥传（传末）；《晋书》卷三十三·史臣曰",
+   "exact_match": true,
+   "quote": "泰始五年薨，詔賜東園秘器，朝服一具，衣一襲，錢三十萬，布帛百匹。……明年，策諡曰元。"
+  }
+ ],
+ "anchor_registry": [
+  {
+   "id": "A01",
+   "label": "卧冰求鲤",
+   "used_by": [
+    "M-WX-002",
+    "M-WX-004"
+   ],
+   "verdict": "可落源"
+  },
+  {
+   "id": "A02",
+   "label": "黄雀入幕",
+   "used_by": [
+    "M-WX-006"
+   ],
+   "verdict": "可落源"
+  },
+  {
+   "id": "A03",
+   "label": "抱树守柰",
+   "used_by": [
+    "M-WX-005"
+   ],
+   "verdict": "可落源"
+  },
+  {
+   "id": "A04",
+   "label": "侍疾",
+   "used_by": [
+    "M-WX-001",
+    "M-WX-007"
+   ],
+   "verdict": "可落源"
+  },
+  {
+   "id": "A05",
+   "label": "避乱隐居",
+   "used_by": [],
+   "verdict": "可落源",
+   "note": "未入本卡条目；异文 V1（未/末）登记于本证据"
+  },
+  {
+   "id": "A06",
+   "label": "治州政绩与民谣",
+   "used_by": [],
+   "verdict": "可落源",
+   "note": "素材包 P12 作 figure.famous_quote 采用；条目层未用"
+  },
+  {
+   "id": "A07",
+   "label": "三老讲学",
+   "used_by": [],
+   "verdict": "可落源",
+   "note": "未入本卡条目"
+  },
+  {
+   "id": "A08",
+   "label": "长揖晋王",
+   "used_by": [],
+   "verdict": "可落源",
+   "note": "标签按船长裁定用中性表述「长揖晋王」；原文「及武帝爲晉王」按《晋书》用例武帝=司馬炎（R7 报告 §8-2）；该锚未入素材包，未作引文入条目，登记于此"
+  },
+  {
+   "id": "A09",
+   "label": "遗令五者（立身之本）",
+   "used_by": [
+    "M-WX-008"
+   ],
+   "verdict": "可落源"
+  },
+  {
+   "id": "A10",
+   "label": "佩刀授览（家族传承）",
+   "used_by": [
+    "M-WX-009"
+   ],
+   "verdict": "可落源"
+  },
+  {
+   "id": "A11",
+   "label": "史评",
+   "used_by": [
+    "M-WX-010"
+   ],
+   "verdict": "可落源"
+  },
+  {
+   "id": "A12",
+   "label": "二十四孝诗赞",
+   "used_by": [],
+   "aux_used_by": [
+    "M-WX-002",
+    "M-WX-009"
+   ],
+   "verdict": "可落源",
+   "note": "诗赞作辅证：M-WX-002 引《二十四孝》题名与诗赞（辅锚 A12）；M-WX-009 元代教材化证据（辅锚 A12）"
+  }
+ ],
+ "version_variances": [
+  {
+   "id": "V1",
+   "item": "漢未遭亂 未/末",
+   "base_used": "未（W1/W3 通行本）",
+   "variant": "末（W2 四库全书本）",
+   "registry": "未入本卡条目（A05 未引用）；登记于本证据与 figure caveats"
+  },
+  {
+   "id": "V2",
+   "item": "黃雀灸 灸/炙",
+   "base_used": "灸（W1/W3 通行本）",
+   "variant": "炙（W2 四库全书本、W4 搜神記）",
+   "registry": "M-WX-006 representative_cases 备注 + 本证据"
+  },
+  {
+   "id": "V3",
+   "item": "言行可覆 覆/復",
+   "base_used": "覆（W1/W3 通行本）",
+   "variant": "復（W2 四库全书本）",
+   "registry": "M-WX-008 representative_cases 备注 + 本证据"
+  }
+ ],
+ "rulings_applied": [
+  "条数=10，编号 M-WX-001~010（落盘前全库编码集查重：0 碰撞）",
+  "M-WX-001（原 M301）换题旨「侍疾尝药法」，锚 A04/P01；禁用旧题旨（数据文件零使用，仅证据登记）",
+  "M-WX-002（原 M302）更名「卧冰求鲤法」，主锚 A01/P02 + 辅锚 A12/P14/P15",
+  "M-WX-008（原 M308）改题「立身五本：信德孝悌让」（遗令五者），锚 A09/P07/P08，独立成目不并入 M-WX-009；禁用旧题旨（数据文件零使用，仅证据登记）",
+  "M-WX-009（原 M309）子项降级为「元代教材化见《二十四孝》」（A12/P14）",
+  "其余 003/004/005/006/007/010 按报告 §4 路线逐条锚定（素材 A03-A11/P03-P13）",
+  "底本=W1/W3 通行本用字（未/灸/覆）；V1-V3 异文于 evidence/备注登记，不擅改字",
+  "A08 标签用中性表述「长揖晋王」+ evidence 注记（原文「及武帝爲晉王」按《晋书》用例武帝=司馬炎）",
+  "figure 层以 corrected_record.json 为基线（字休徵/汉末至西晋/孝道儒家/works 清空生效）；figure 码维持 H-HZX-002",
+  "key_quote 逐字取自 P 系列；source_chapter 用可落源格式（《晋书》卷三十三·王祥传 等）；旧自造句零保留"
+ ],
+ "forbidden_string_policy": "禁用的旧题旨字符串仅出现于本证据登记（RULINGS_APPLIED 记为「禁用旧题旨」处），数据文件（data/figures/H-HZX-002.json、data/individuals/H-HZX-002*.json）零使用；zombie_scan 逐件核验",
+ "zombie_scan": {
+  "data/figures/H-HZX-002.json": [],
+  "data/individuals/H-HZX-002.json": [],
+  "data/individuals/H-HZX-002_modes.json": []
+ },
+ "boundaries": {
+  "main_library_writes": 0,
+  "archive_bytes_touched": 0,
+  "duplicates_dir": "data/figures/_duplicates/ 三件未动",
+  "scope": "本卡只写 data/figures/H-HZX-002*、data/individuals/H-HZX-002*、docs/scratch/legacy20_r8_wangxiang_landing/**、产出证据"
+ }
+}

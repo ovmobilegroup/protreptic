@@ -1,0 +1,167 @@
+{
+ "card": "t_5c183962",
+ "generated_at": "2026-09-23",
+ "figure_code": "H-HZX-002",
+ "pass": 58,
+ "fail": 0,
+ "checks": [
+  "A 落盘 entries 10 条",
+  "A 编号序列 == M-WX-001~010",
+  "A 编号唯一",
+  "A figure_code/图名",
+  "A legacy_mode_id 逐条对照 M301~M310",
+  "A verification 全 pending",
+  "A evidence 明写出处口径（素材包 Pxx / 可落源 / pending）",
+  "A 图档 caveats 存在",
+  "B 三面一致（figure / 伴随包 / entries / combined / 双冻结副本逐对象相等）",
+  "B mode_ids 字段存在",
+  "B mode_ids == M-WX-001~010（figure/mirror）",
+  "B 镜像不含 modes",
+  "B 镜像 == 图档去 modes",
+  "B 冻结副本与 data 侧字节一致（individuals）",
+  "B 冻结副本与 data 侧字节一致（figures）",
+  "C related_modes 0 悬空（悬空 []）",
+  "C cross_references 目标在 code_maps 已注册（0 悬空）",
+  "C related_figures 与 cross_references 一致",
+  "D 10 条 key_quote_zh 逐字命中素材包 P 条目",
+  "D key_quote 全为素材包字符串",
+  "D 条目内「」引文片段均为素材包子串或白名单（越界 {}）",
+  "E 全库 0 主体占用（本卡路径与已知文档之外 []）",
+  "E 新码唯一",
+  "F 主库六文件 0 占用（异常 []）",
+  "G 27 键口径逐条一致",
+  "G 关键字段非空（空值 []）",
+  "G category 属标准 18 类",
+  "G level 全为 核心",
+  "G priority 1..10",
+  "G key_concepts 齐备",
+  "H M-WX-006 引文从底本作「灸」",
+  "H M-WX-006 备注登记异文 V2",
+  "H M-WX-008 引文从底本作「覆」",
+  "H M-WX-008 备注登记异文 V3",
+  "H figure caveats 含 V1/V2/V3 异文登记",
+  "H M-WX-002 引文从本传原文作「剖冰」",
+  "I M-WX-001 题旨 == 侍疾尝药法",
+  "I M-WX-001 锚 A04/P01",
+  "I M-WX-008 题旨 == 立身五本：信德孝悌让",
+  "I M-WX-008 锚 A09/P07",
+  "I M-WX-009 子项降级为元代教材化（逐代专证另卡）",
+  "I 禁用旧题旨字符串数据文件零出现（命中 []）",
+  "I A08 中性标签与 evidence 注记（长揖晋王 / 武帝=司馬炎）",
+  "I 锚点登记 12 条齐全",
+  "I figure 基线（字休徵 / 汉末至西晋 / 孝道儒家）",
+  "I representative_works 清空生效",
+  "I famous_quote == 素材包 P12（图档候选落实）",
+  "I figure 计数与码位",
+  "I2 锚字段取值 ∈ A01-A12 ∪ {空（义理出处）}",
+  "I2 锚登记 used_by 与条目实际锚定逐一致（[]）",
+  "I2 A12 辅证登记（M-WX-002 / M-WX-009）",
+  "I2 M-WX-003 义理出处口径（P13 / 非传记锚）",
+  "I2 anchor_kind 口径区分",
+  "I2 A12 覆盖 002/009（主+辅并集）",
+  "J _duplicates 三件 sha256 与 R7 登记一致（异常 []）",
+  "J 旧号不在 id/mode_code/mode_ids 主体位置（异常 {}）",
+  "K credibility_gate --hard-fail exit 0（exit=0）",
+  "K 新增硬失败 0 条"
+ ],
+ "failures": [],
+ "info": [
+  "C 互引条数 22（全部块内）",
+  "D 白名单片段：亲当其难、亲自去求、亲自在场、以身许之、以身许物、卧冰、卧冰求鲤、求而得之、黄雀入幕",
+  "F 主库 HEAD 对比（并发他卡改动只报告）: {\"data/modes_data.json\": true, \"data/code_maps.json\": true, \"data/scenarios_zh.json\": true, \"data/scenarios_en.json\": true, \"data/scenario_tags.json\": true, \"data/figure_names.json\": true}",
+  "J 旧号出现面：figure 内仅 legacy_mode_id / mode_ids_note 字段（结构级核验通过）；id_mapping.tsv 10 行",
+  "K 门禁输出末行：  不可判定（逐类计数，禁止当成「零缺陷」）: |   D5 命中: 0 条（本次全库扫描无「通过全部过滤」的矛盾） |   说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。 |   取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en"
+ ],
+ "quote_detail": [
+  {
+   "mode_code": "M-WX-001",
+   "pack_id": "P01"
+  },
+  {
+   "mode_code": "M-WX-002",
+   "pack_id": "P02"
+  },
+  {
+   "mode_code": "M-WX-003",
+   "pack_id": "P13"
+  },
+  {
+   "mode_code": "M-WX-004",
+   "pack_id": "P02"
+  },
+  {
+   "mode_code": "M-WX-005",
+   "pack_id": "P04"
+  },
+  {
+   "mode_code": "M-WX-006",
+   "pack_id": "P03"
+  },
+  {
+   "mode_code": "M-WX-007",
+   "pack_id": "P05"
+  },
+  {
+   "mode_code": "M-WX-008",
+   "pack_id": "P07"
+  },
+  {
+   "mode_code": "M-WX-009",
+   "pack_id": "P09"
+  },
+  {
+   "mode_code": "M-WX-010",
+   "pack_id": "P11"
+  }
+ ],
+ "global": {
+  "collision_outside_own": {},
+  "main_library_occupancy": {},
+  "main_library_status": {
+   "data/modes_data.json": {
+    "worktree_sha256": "09c1e988d8998b3b835997ec2d1a33164e9172e73ed9f4f7b628dc91ba45dc9e",
+    "head_sha256": "09c1e988d8998b3b835997ec2d1a33164e9172e73ed9f4f7b628dc91ba45dc9e",
+    "same_as_head": true
+   },
+   "data/code_maps.json": {
+    "worktree_sha256": "29c133eb607b89c41f5d364b4c5f6671a10b97c11068a2ccd9f9b218e5a9f13f",
+    "head_sha256": "29c133eb607b89c41f5d364b4c5f6671a10b97c11068a2ccd9f9b218e5a9f13f",
+    "same_as_head": true
+   },
+   "data/scenarios_zh.json": {
+    "worktree_sha256": "5be09a47cc08d30ae29abbb8ee3e54284a995b8ae5faf24af80b332bc2709497",
+    "head_sha256": "5be09a47cc08d30ae29abbb8ee3e54284a995b8ae5faf24af80b332bc2709497",
+    "same_as_head": true
+   },
+   "data/scenarios_en.json": {
+    "worktree_sha256": "38974e7b351cda13c95e4f7be7ea316bc6f9d209cbf95f8d322733ef315120dc",
+    "head_sha256": "38974e7b351cda13c95e4f7be7ea316bc6f9d209cbf95f8d322733ef315120dc",
+    "same_as_head": true
+   },
+   "data/scenario_tags.json": {
+    "worktree_sha256": "40bdb194da045dae27b7919976315927761d1a46407914720c9aa83de3fa8c1b",
+    "head_sha256": "40bdb194da045dae27b7919976315927761d1a46407914720c9aa83de3fa8c1b",
+    "same_as_head": true
+   },
+   "data/figure_names.json": {
+    "worktree_sha256": "6c6c347eaa17e8eb901c071d9ed7ea7108e15b85be4850a30366579507511dd9",
+    "head_sha256": "6c6c347eaa17e8eb901c071d9ed7ea7108e15b85be4850a30366579507511dd9",
+    "same_as_head": true
+   }
+  },
+  "gate_exit": 0,
+  "gate_tail": [
+   "  tokens=0 的成因拆分（禁止把「无生卒年」读成「已覆盖 / 零缺陷」）:",
+   "    no-four-digit-year-in-text                                  10",
+   "  不可判定（逐类计数，禁止当成「零缺陷」）:",
+   "  D5 命中: 0 条（本次全库扫描无「通过全部过滤」的矛盾）",
+   "  说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。",
+   "  取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en"
+  ],
+  "archive_sha256_checked": [
+   "H-HZX-002_figures.json",
+   "H-HZX-002_figures_modes.json",
+   "H-HZX-002_research_phase20.md"
+  ]
+ }
+}
