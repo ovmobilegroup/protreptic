@@ -1,0 +1,279 @@
+{
+ "task": "t_ff294775",
+ "target_task": "t_3669eb4a",
+ "kind": "independent_qa_azj345_clear",
+ "checked_at": "2026-09-24T03:00:00+08:00",
+ "verdict": "pass",
+ "workspace_commits": [
+  "8adbdabd981ba7c32f70c9e6d93854a5f0e7e4e3",
+  "1de660cfd5964f72313f3a4a3f38670c5e745240"
+ ],
+ "publish_mirror_head": "c32f66955a6fb996e546b531f1e26812c1feda07",
+ "remote_main": "c32f66955a6fb996e546b531f1e26812c1feda07",
+ "baseline_pre_clear": "bd039538",
+ "items": {
+  "1_independent_scan": {
+   "ws": "PASS live=0 (532 hits all exempt: card-archive 41 / other-historical 37 / site_docs 454=302 nav-only anchored + 152 report pages)",
+   "pb": "FAIL live=21 (+stale site_docs 335, exempt 56)"
+  },
+  "2_counts": {
+   "verdict": "PASS",
+   "cur": {
+    "db_figures": 1056,
+    "meta_figures": 1056,
+    "figures_index": 1056,
+    "figure_shards": 1056,
+    "by_figure": 318,
+    "unified": {
+     "total": 1371,
+     "figures": 318,
+     "scenarios": 1053
+    },
+    "routes": 1387,
+    "sitemap": 1388,
+    "scenarios_zh": 1069,
+    "scenarios_en": 1069
+   },
+   "delta_vs_pre": {
+    "db": -1,
+    "scenarios": -1,
+    "routes": 38,
+    "sitemap": 38
+   },
+   "attribution": "+38 = +40 minds/* (stale products caught up, data merged 09-21..23) - 2 figures/* (H-AZJ-345 target; H-CY-001 reclass scenario->figure); data-layer no overreach"
+  },
+  "3_tests_gates": {
+   "test_full_backup": "FAIL (858 expected vs 1056/1057; pre-existing, fails identically at bd039538)",
+   "test_thinking_mode_selector": "PASS 11/11",
+   "gates": {
+    "G1_credibility": "exit 0",
+    "G2_findings": "exit 0",
+    "G4_source_links": "exit 0",
+    "ci_data_check": "PASS 24/0"
+   },
+   "pages_preflight_data": "exit 0",
+   "apply_verification_status_check": "exit 1 (19 pending->verified, W5 pilot pending, child t_fdc1589e scope)",
+   "site_chain_five_steps_isolated_copy": "all exit 0; products byte-identical except generated_at-style fields; db logically identical (only AZJ row removed + id renumber)"
+  },
+  "4_archive": {
+   "verdict": "PASS",
+   "fragments_12_before_after": "12/12 ok",
+   "byte_archives_8": "8/8 ok",
+   "preimages_31_manifest": "31/31 ok"
+  },
+  "5_parity": {
+   "official_tool": "exit 1 DIFF 27 = 11 CONTENT_DIFF + 16 MISSING_IN_PUBLISH",
+   "remote_main_checked": "c32f669 (not pushed)",
+   "mirror_commit": "absent (only 2 untracked additions)",
+   "parent_selfcheck": "--quick 16/16 PASS (publish checks skipped); full re-run 16/18 exit 1"
+  },
+  "6_reverse_checks": {
+   "verdict": "PASS",
+   "scenarios_deep_diff": "only H-AZJ-345 removed; common keys deep-equal",
+   "db_diff": "only H-AZJ-345 row removed; id renumbered; order preserved; 19 other columns equal for all rows",
+   "samples": [
+    "H-HZX-002",
+    "H-LUORQ-001",
+    "H-ZX-001"
+   ]
+  }
+ },
+ "objections": [
+  {
+   "id": 1,
+   "level": "must_fix",
+   "title": "publish mirror not committed/not pushed",
+   "evidence": [
+    "PB HEAD c32f669 unchanged (01:59:54)",
+    "ls-remote origin main = c32f669",
+    "PB untracked: backup dir + _archive/ only (02:07)",
+    "21 live files still contain H-AZJ-345",
+    "check_repo_parity exit 1",
+    "metadata commits.publish_mirror=1de660cf is actually workspace 2nd commit (02:14:23)"
+   ],
+   "resolution": "闭环：补正卡 t_6acd458b 全链 push；复验实测（ls-remote de1b0eb / parity CONTENT_DIFF 0 / 公开面 404）"
+  },
+  {
+   "id": 2,
+   "level": "must_fix",
+   "title": "clear_report.md missing",
+   "evidence": [
+    "metadata report_paths/artifacts reference nonexistent docs/research/phase21r8_azj345_clear_report.md; only .json present, uncommitted/unmirrored"
+   ],
+   "resolution": "闭环：clear_report.md/.json 已提交并镜像（b4155f5 起），两仓逐字节一致"
+  },
+  {
+   "id": 3,
+   "level": "captain_decision",
+   "title": "chain rebuild refresh exceeds AZJ scope",
+   "evidence": [
+    "routes/sitemap +38 = +40 minds - 2 figures",
+    "products vintage 2026-09-20 12:22 while data merged 09-21..23",
+    "AZJ+H-CY-001 removed",
+    "no stop-and-report action as card required"
+   ],
+   "resolution": "船长裁定：追认接受（刷新面 +38 属站点产物自然刷新，数据层零越界）"
+  },
+  {
+   "id": 4,
+   "level": "observation",
+   "title": "test_full_backup red (pre-existing)",
+   "evidence": [
+    "fails at bd039538 identically"
+   ],
+   "resolution": "船长裁定：登记为既有债务（非本卡/本链引入），修复候选入 backlog，不阻断"
+  },
+  {
+   "id": 5,
+   "level": "observation",
+   "title": "1de660cf carries 27 out-of-list files",
+   "evidence": [
+    "data/backup_merge_H-ZDY-001_* x21 + phase21r8_w4/phase21w4/phase21w6 reports x6"
+   ],
+   "resolution": "船长裁定：此前收口流程已追认，维持登记不阻断"
+  },
+  {
+   "id": 6,
+   "level": "observation_pending",
+   "title": "apply_verification_status --check exit 1 (19 pending->verified)",
+   "evidence": [
+    "W5 pilot landing pending; child card t_fdc1589e"
+   ],
+   "resolution": "船长裁定：归子卡 t_fdc1589e 范围，本卡完成后由链自行消化"
+  },
+  {
+   "id": 7,
+   "level": "observation_wording",
+   "title": "residual_exempt label imprecision",
+   "evidence": [
+    "'site_docs_nav_only=454' is actually 302 nav-only + 152 report pages"
+   ],
+   "resolution": "船长裁定：登记；复验以实测表述（两仓 site_docs 对称、verifier bad=[]）"
+  },
+  {
+   "id": 8,
+   "level": "observation",
+   "title": "mirror site_docs stale (2026-09-18 build)",
+   "evidence": [
+    "contains H-AN-001 person page + H-AZJ-345 x13 in 5 stale files"
+   ],
+   "resolution": "闭环：随补正同步（两仓对称、diff 空），复验确认"
+  }
+ ],
+ "recommendations": [
+  "A (recommended): open fix card for elcano - full mirror sync + publish-repo commit (incl. clear_report.md and QA report) + push origin main + receipts; then QA re-run",
+  "B: captain decides objection 3 (accept refresh) first",
+  "C: do not close - publish face not closed yet"
+ ],
+ "qa_artifacts": [
+  "docs/research/phase21r8_azj345_clear_qa.md",
+  "docs/research/phase21r8_azj345_clear_qa.json"
+ ],
+ "evidence_dir": "/opt/data/profiles/espinosa/cache/scratch/azjqa/",
+ "verdict_history": [
+  {
+   "at": "2026-09-24T03:00:00+08:00",
+   "verdict": "conditional_reject",
+   "note": "首轮：数据层与归档链通过；发布面未闭环（异议 1/2）→ 有条件驳回"
+  }
+ ],
+ "reverified_at": "2026-09-24T03:20:31+08:00",
+ "reverify": {
+  "ordered_by": "magallanes 裁定 comment 2026-09-24 03:15 CST；补正卡 t_6acd458b 已 done 03:01",
+  "window": "2026-09-24 03:14-03:19 CST（扫描/parity/见证器/curl/审计）",
+  "scan": {
+   "ws": {
+    "files_scanned": 29046,
+    "hits": 535,
+    "classes": {
+     "card_archive": 44,
+     "other_historical": 36,
+     "site_docs": 454,
+     "controlled_archive_registered": 1
+    },
+    "effective_live": 0
+   },
+   "pb": {
+    "files_scanned": 10744,
+    "hits": 521,
+    "classes": {
+     "card_archive": 41,
+     "other_historical": 25,
+     "site_docs": 454,
+     "controlled_archive_registered": 1
+    },
+    "effective_live": 0
+   },
+   "files_with_code_literal": {
+    "ws": 526,
+    "pb": 512,
+    "all_exempt": true
+   }
+  },
+  "boundary_item": {
+   "path": "data/figures/_duplicates/H-AN-001_archive_page.md",
+   "sha256": "326145b341634e42a201fa76b0c2a4370d1f7003e41cd663a0123f52f242b819",
+   "code_hits": 0,
+   "name_hits": 29,
+   "decision": "exempt: 他卡受控归档（R6C t_4a9cf2cb；evidence+ledger 登记齐全；清前基线同 blob；零构建/上线读取；clear_report 残留豁免表已列）",
+   "round1_correction": "首轮报告将该件并入他卡历史 37 / PB live 21 叙述而未显式登记；本轮更正（WS 他卡类 36；首轮 PB LIVE 实为 22 行）"
+  },
+  "appendix_a_21_items": {
+   "byte_equal_both_repos": 18,
+   "both_absent": 3,
+   "azj_code_or_name": 0,
+   "both_absent_paths": [
+    "tools/json/code_maps.json",
+    "web/dist/data/figures/H-AZJ-345.json",
+    "web/public/data/figures/H-AZJ-345.json"
+   ]
+  },
+  "parity": {
+   "tool": "tools/check_repo_parity.py --json",
+   "content_diff": 0,
+   "both_sides": 2268,
+   "identical": 2268,
+   "only_workspace": 8,
+   "only_publish": 0,
+   "untracked_ws": 2,
+   "untracked_pb": 0,
+   "only_workspace_breakdown": {
+    "qa_pair_inflight": 2,
+    "w4_w6_other_chains": 6
+   }
+  },
+  "remote_main": {
+   "ls_remote": "de1b0eba05c49ea87a3f19e7370ea8e8e06c80fe",
+   "equals_pb_head": true
+  },
+  "verifier": {
+   "cmd": "python3 verify_azj345_clear.py",
+   "result": "18/18 PASS",
+   "exit_code": 0,
+   "log": "reverify/verifier_full2.log"
+  },
+  "public_face": {
+   "controls_200": [
+    "figures/AE-FED-001/",
+    "data/figures/AE-FED-001.json",
+    "minds/H-HZX-002/"
+   ],
+   "targets_404": [
+    "figures/H-AZJ-345/",
+    "minds/H-AZJ-345/",
+    "data/figures/H-AZJ-345.json",
+    "data/figures/_duplicates/H-AN-001_archive_page.md"
+   ],
+   "live_data_azj": {
+    "sitemap_locs": 1388,
+    "sitemap_azj": 0,
+    "figures_index": 1056,
+    "figures_index_azj": 0,
+    "unified": 1371,
+    "unified_azj": 0,
+    "meta_figures": 1056
+   }
+  },
+  "reverify_evidence_dir": "/opt/data/profiles/espinosa/cache/scratch/azjqa/reverify/"
+ }
+}
