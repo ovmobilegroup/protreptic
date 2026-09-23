@@ -1,0 +1,69 @@
+{
+  "card_id": "t_3de0af0e",
+  "figure_code": "H-AZJ-345",
+  "figure_name_zh": "安子介：对外开放/特区建设/摸着石头过河",
+  "figure_name_en": "An Zijie: Opening Up / SEZ Construction / Crossing River by Feeling Stones",
+  "determination": "不可用（判死）",
+  "date": "2026-09-23",
+  "author": "serrano",
+  "upstream": {
+    "r7_report": "docs/research/phase21r7_cgroup_identity_report.md",
+    "r7_section": "§4.2",
+    "r6c_precedent": "docs/research/phase21r6C_archive_report.md"
+  },
+  "chain_status": "在链（全链路已进入公开站点产物）",
+  "conflict_degree": "完全冲突（与真实安子介 1912-2000 履历无交集）",
+  "source_refs_invalid": [
+    "《安子介回忆录》- 公开检索不可得",
+    "《深圳特区建设档案》- 公开检索不可得"
+  ],
+  "description_placeholder": "【待补充】H-AZJ-345的描述（批量占位，未研究填写）",
+  "disposition_recommendation": "清（沿 R6C/R7 口径全链路清除）",
+  "船长裁定项": [
+    {
+      "id": "B1",
+      "topic": "figure_names Modern 键清理",
+      "status": "工作树已删除未提交，需兄弟卡协调"
+    },
+    {
+      "id": "B2",
+      "topic": "EXPECT_FIGURES 锚点更新",
+      "value_from": 1057,
+      "value_to": 1056,
+      "files": [
+        "tools/pages_preflight.py",
+        "tools/export_static_site.py"
+      ]
+    },
+    {
+      "id": "B3",
+      "topic": "MIN_SITEMAP_ENTRIES 调整",
+      "value_from": 1300,
+      "value_to": 1299,
+      "file": "tools/ci_data_check.py",
+      "note": "或维持 1300 观察实际值"
+    },
+    {
+      "id": "B4",
+      "topic": "归档口径确认",
+      "precedent": "R6C 归档至 data/figures/_duplicates/",
+      "proposal": "归档至 docs/research/_archive/H-AZJ-345_archive.json"
+    },
+    {
+      "id": "B5",
+      "topic": "真安子介研究卡立项",
+      "proposal": "另立研究卡按真实安子介 (1912-2000) 全新构建 10 条思维模式",
+      "numbering": "可沿用 H-AN-001（当前 0 占用）",
+      "constraint": "禁止复用旧载荷"
+    }
+  ],
+  "estimated_workload_hours": {
+    "清方案": "2-3",
+    "留方案（另立研究卡）": "5-8"
+  },
+  "risk_notes": [
+    "sitemap 条目减少 1，可能低于门禁阈值",
+    "CI test_full_backup.py 会因 H-AZJ-345 缺失失败",
+    "figure_names Modern 键清理需在同期兄弟卡合并前完成"
+  ]
+}
