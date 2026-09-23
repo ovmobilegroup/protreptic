@@ -1,0 +1,603 @@
+{
+ "code": "H-DYC-001",
+ "figure_name": "邓颖超",
+ "legacy_ids": [
+  "M321",
+  "M322",
+  "M323",
+  "M324",
+  "M325",
+  "M326",
+  "M327",
+  "M328",
+  "M329",
+  "M330"
+ ],
+ "id_mapping": {
+  "M321": "M-DYC-001",
+  "M322": "M-DYC-002",
+  "M323": "M-DYC-003",
+  "M324": "M-DYC-004",
+  "M325": "M-DYC-005",
+  "M326": "M-DYC-006",
+  "M327": "M-DYC-007",
+  "M328": "M-DYC-008",
+  "M329": "M-DYC-009",
+  "M330": "M-DYC-010"
+ },
+ "header_decisions": [
+  {
+   "field": "(header base)",
+   "chosen": "fig_modes",
+   "reason": "图档侧候选按必填字段最全者为准（CHB/FXT 与样例一致）"
+  },
+  {
+   "field": "unique_thinking",
+   "chosen": "fig_modes.core_thoughts",
+   "reason": "样例口径：core_thoughts 改名 unique_thinking"
+  },
+  {
+   "field": "id",
+   "chosen": "individuals",
+   "reason": "必填缺项回填（取较长者）"
+  },
+  {
+   "field": "tags",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "mode_ids",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "mode_ids_note",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "caveats",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "representative_works",
+   "chosen": "fig_modes（基版）",
+   "alt": "figures",
+   "alt_value": [
+    "推动《中华人民共和国婚姻法》（1950）",
+    "推动《妇女权益保障法》相关立法实践",
+    "周恩来邓颖超家风：廉洁、朴素、严以律己"
+   ],
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "historical_significance",
+   "chosen": "fig_modes（基版）",
+   "alt": "figures",
+   "alt_value": "邓颖超（1904-1992），广西南宁人，中国妇女运动先驱、杰出的无产阶级革命家和政治家。周恩来总理的夫人，全国政协第四届全国委员会主席（1983-1988）。她毕生致力于中国妇女解放事业，推动《婚姻法》立法，主张'妇女能顶半边天'；在外交中以柔性智慧促成中美、中日关系正常化。其思想体系涵盖10种思维模式，是中国现代政治实践的重要理论贡献者。",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "influence",
+   "chosen": "fig_modes（基版）",
+   "alt": "figures",
+   "alt_value": "中国女性政治参与的立法和制度奠基人，妇女运动、政治外交、党内民主三维实践范式开创者。",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "cross_references",
+   "chosen": "回填自 figures（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "figure_name_en",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "time_period_standardized",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "nationality",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "ethnicity",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "civilization_sphere",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "primary_language",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "school",
+   "chosen": "fig_modes（基版）",
+   "alt": "individuals",
+   "alt_value": "妇女运动理论/政治外交实践/党内民主建设",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "intellectual_tradition",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "personal_background",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "historical_significance",
+   "chosen": "fig_modes（基版）",
+   "alt": "individuals",
+   "alt_value": "邓颖超（1904-1992），中国妇女运动先驱、杰出的无产阶级革命家和政治家。她毕生致力于妇女解放事业，推动《婚姻法》立法，主张'妇女能顶半边天'；在外交中以柔性智慧化解中美、中日关系僵局；党内倡导民主集中制制度化，是中国共产党早期妇女运动的主要领导人之一。她的三维实践（妇女运动/政治外交/党内民主）为当代中国女性政治参与奠定了制度基础。",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "key_contributions",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "thinking_characteristics",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "major_achievements",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "intellectual_heritage",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "historical_context",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "modern_relevance",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "data_sources",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "legacy_verification_status",
+   "chosen": "回填自 individuals（原档自报状态字段改名保留）",
+   "reason": "落盘统一置 pending，原自报值不作当前状态"
+  },
+  {
+   "field": "legacy_verification_status",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "created_at",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "updated_at",
+   "chosen": "丢弃（与既有字段同值）",
+   "alt": "individuals",
+   "reason": "规范性去重"
+  },
+  {
+   "field": "figure_era",
+   "chosen": "丢弃（与既有字段同值）",
+   "alt": "ind_modes",
+   "reason": "规范性去重"
+  },
+  {
+   "field": "figure_description_zh",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "figure_description_en",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "legacy_verification_status",
+   "chosen": "回填自 ind_modes（原档自报状态字段改名保留）",
+   "reason": "落盘统一置 pending，原自报值不作当前状态"
+  },
+  {
+   "field": "updated_at",
+   "chosen": "丢弃（与既有字段同值）",
+   "alt": "ind_modes",
+   "reason": "规范性去重"
+  }
+ ],
+ "record_merge_log": [
+  {
+   "mode": "M321",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M321",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M321",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M321",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M321",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M322",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M322",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M322",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M322",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M322",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M323",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M323",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M323",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M323",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M323",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M324",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M324",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M324",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M324",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M324",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M325",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M325",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M325",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M325",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M325",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M326",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M326",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M326",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M326",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M326",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M327",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M327",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M327",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M327",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M327",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M328",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M328",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M328",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M328",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M328",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M329",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M329",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M329",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M329",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M329",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  },
+  {
+   "mode": "M330",
+   "field": "definition_zh/definition_en",
+   "chosen": "A(figures/_modes 详式)",
+   "alt": "B(individuals/_modes 简式)",
+   "reason": "取长：A 详式且中英双全"
+  },
+  {
+   "mode": "M330",
+   "field": "key_concepts",
+   "chosen": "A∪B 去重并集",
+   "reason": "取长：两版概念互补，并集不丢项"
+  },
+  {
+   "mode": "M330",
+   "field": "source_chapter",
+   "chosen": "A",
+   "reason": "取长：取较完整出处串"
+  },
+  {
+   "mode": "M330",
+   "field": "related_modes",
+   "chosen": "A∪B 去重并集（后重指新号）",
+   "reason": "两版互引互补"
+  },
+  {
+   "mode": "M330",
+   "field": "process/modern_applications",
+   "chosen": "B 的中英对照配对进正字段",
+   "alt": "A 的详式中文版原样存入 legacy_fields",
+   "reason": "配对完整性：A 版无英译，避免中英错位；A 版内容不丢"
+  }
+ ],
+ "missing_fields_per_mode": [],
+ "category_review": [
+  {
+   "mode": "M-DYC-001",
+   "raw": "社会变革思维",
+   "applied": "社会变革思维"
+  },
+  {
+   "mode": "M-DYC-002",
+   "raw": "国际关系思维",
+   "applied": "国际关系思维"
+  },
+  {
+   "mode": "M-DYC-003",
+   "raw": "政党治理思维",
+   "applied": "政党治理思维"
+  },
+  {
+   "mode": "M-DYC-004",
+   "raw": "法制建设思维",
+   "applied": "法制建设思维"
+  },
+  {
+   "mode": "M-DYC-005",
+   "raw": "组织建设思维",
+   "applied": "组织建设思维"
+  },
+  {
+   "mode": "M-DYC-006",
+   "raw": "社会政策思维",
+   "applied": "社会政策思维"
+  },
+  {
+   "mode": "M-DYC-007",
+   "raw": "国际关系思维",
+   "applied": "国际关系思维"
+  },
+  {
+   "mode": "M-DYC-008",
+   "raw": "道德伦理思维",
+   "applied": "道德伦理思维"
+  },
+  {
+   "mode": "M-DYC-009",
+   "raw": "社会变革思维",
+   "applied": "社会变革思维"
+  }
+ ],
+ "related_modes_remap": "全部块内引用已重指新号；块外/未知引用：0"
+}

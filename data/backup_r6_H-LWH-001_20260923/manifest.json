@@ -1,0 +1,35 @@
+{
+ "code": "H-LWH-001",
+ "date": "20260923",
+ "card": "t_2d5112c6",
+ "note": "字节备份（落盘前原档，相对路径斜杠转下划线）",
+ "files": [
+  {
+   "source_path": "data/figures/H-LWH-001.json",
+   "read_path": "data/backup_r6_H-LWH-001_20260923/data_figures_H-LWH-001.json",
+   "key": "figures",
+   "backup_path": "data/backup_r6_H-LWH-001_20260923/data_figures_H-LWH-001.json",
+   "sha256": "fe3beff67d36d84daa90b47627660982ea20dfbe9ffe806d9b27b354874d49e6",
+   "bytes": 1697,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/individuals/H-LWH-001.json",
+   "read_path": "data/backup_r6_H-LWH-001_20260923/data_individuals_H-LWH-001.json",
+   "key": "individuals",
+   "backup_path": "data/backup_r6_H-LWH-001_20260923/data_individuals_H-LWH-001.json",
+   "sha256": "45565cfce83e93b9a79480ed21d394a647e0a67ff14370734bbd96673f3838b3",
+   "bytes": 1830,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/individuals/H-LWH-001_modes.json",
+   "read_path": "data/backup_r6_H-LWH-001_20260923/data_individuals_H-LWH-001_modes.json",
+   "key": "ind_modes",
+   "backup_path": "data/backup_r6_H-LWH-001_20260923/data_individuals_H-LWH-001_modes.json",
+   "sha256": "70b00f86fd2cd84c89f34fa439181b3231fdcc562ea0bff9735c1a57db90d2ba",
+   "bytes": 18705,
+   "backup_state": "preexisting_first_run"
+  }
+ ]
+}

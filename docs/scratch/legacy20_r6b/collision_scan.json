@@ -1,0 +1,618 @@
+{
+ "schema": "protreptic.r6b_collision_scan/v1",
+ "card": "t_434af550",
+ "date": "2026-09-23",
+ "method": "grep -rl <code> over data/ docs/ tools/ web/public/ site_docs/ (abs path), excluding: _duplicates, backup_merge*, *.bak*, *.pyc, docs/scratch/legacy20_r6b/**, docs/scratch/legacy20_r6c/**, docs/research/phase21r6B_**",
+ "codes": {
+  "M391": {
+   "n_files": 28,
+   "files": [
+    {
+     "path": "data/code_maps.json",
+     "layer": "registry (Wang Zhen own)"
+    },
+    {
+     "path": "data/figures/H-EUC-001.json",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "data/figures/H-EUC-001.md",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "data/figures/H-QIN-001.json",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "data/figures/H-YDZ-001.json",
+     "layer": "cross-figure-file (Yang Dezhi legacy M391-M400)"
+    },
+    {
+     "path": "data/individuals/H-QIN-001.json",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "data/individuals/H-QIN-001_modes.json",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "data/individuals/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_modes.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-YDZ-001_modes.json",
+     "layer": "cross-figure-file (Yang Dezhi legacy M391-M400)"
+    },
+    {
+     "path": "data/islam/islam_modes_deep.json",
+     "layer": "other-namespace (islam/MENA M381-M402)"
+    },
+    {
+     "path": "data/master_modes_v2.json",
+     "layer": "other-namespace (islam/MENA M381-M402)"
+    },
+    {
+     "path": "data/modes_data.json",
+     "layer": "library"
+    },
+    {
+     "path": "data/scenario_tags.json",
+     "layer": "registry (Wang Zhen own)"
+    },
+    {
+     "path": "docs/figures/H-EUC-001.md",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "docs/figures/H-QIN-001.md",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "docs/figures/H-YDZ-001.md",
+     "layer": "cross-figure-file (Yang Dezhi legacy M391-M400)"
+    },
+    {
+     "path": "docs/qa/phase21R_qa_report.md",
+     "layer": "historical-report"
+    },
+    {
+     "path": "docs/research/legacy20_rev6_assessment.md",
+     "layer": "historical-report"
+    },
+    {
+     "path": "site_docs/figures/H-EUC-001/index.html",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "site_docs/figures/H-QIN-001/index.html",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "site_docs/figures/H-YDZ-001/index.html",
+     "layer": "cross-figure-file (Yang Dezhi legacy M391-M400)"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    },
+    {
+     "path": "tools/PHASE_17_4_9_STANDARDIZED_TASKS.md",
+     "layer": "tools"
+    },
+    {
+     "path": "web/public/data/daily/index.json",
+     "layer": "derived-web"
+    },
+    {
+     "path": "web/public/data/modes/by-figure/H-EUC-001.json",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "web/public/data/modes/by-figure/H-WZ-001.json",
+     "layer": "derived-web"
+    },
+    {
+     "path": "web/public/data/modes/index-4.json",
+     "layer": "derived-web"
+    }
+   ]
+  },
+  "M392": {
+   "n_files": 27,
+   "files": [
+    {
+     "path": "data/code_maps.json",
+     "layer": "registry (Wang Zhen own)"
+    },
+    {
+     "path": "data/figures/H-EUC-001.json",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "data/figures/H-EUC-001.md",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "data/figures/H-QIN-001.json",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "data/figures/H-YDZ-001.json",
+     "layer": "cross-figure-file (Yang Dezhi legacy M391-M400)"
+    },
+    {
+     "path": "data/individuals/H-QIN-001.json",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "data/individuals/H-QIN-001_modes.json",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "data/individuals/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_modes.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-YDZ-001_modes.json",
+     "layer": "cross-figure-file (Yang Dezhi legacy M391-M400)"
+    },
+    {
+     "path": "data/islam/islam_modes_deep.json",
+     "layer": "other-namespace (islam/MENA M381-M402)"
+    },
+    {
+     "path": "data/master_modes_v2.json",
+     "layer": "other-namespace (islam/MENA M381-M402)"
+    },
+    {
+     "path": "data/modes_data.json",
+     "layer": "library"
+    },
+    {
+     "path": "data/scenario_tags.json",
+     "layer": "registry (Wang Zhen own)"
+    },
+    {
+     "path": "docs/figures/H-EUC-001.md",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "docs/figures/H-QIN-001.md",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "docs/figures/H-YDZ-001.md",
+     "layer": "cross-figure-file (Yang Dezhi legacy M391-M400)"
+    },
+    {
+     "path": "docs/research/legacy20_rev6_assessment.md",
+     "layer": "historical-report"
+    },
+    {
+     "path": "site_docs/figures/H-EUC-001/index.html",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "site_docs/figures/H-QIN-001/index.html",
+     "layer": "cross-figure-file (Li Si legacy M391-M400)"
+    },
+    {
+     "path": "site_docs/figures/H-YDZ-001/index.html",
+     "layer": "cross-figure-file (Yang Dezhi legacy M391-M400)"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    },
+    {
+     "path": "tools/PHASE_17_4_9_STANDARDIZED_TASKS.md",
+     "layer": "tools"
+    },
+    {
+     "path": "web/public/data/daily/index.json",
+     "layer": "derived-web"
+    },
+    {
+     "path": "web/public/data/modes/by-figure/H-EUC-001.json",
+     "layer": "cross-ref (Euclid M-EUC-006 related_modes)"
+    },
+    {
+     "path": "web/public/data/modes/by-figure/H-WZ-001.json",
+     "layer": "derived-web"
+    },
+    {
+     "path": "web/public/data/modes/index-0.json",
+     "layer": "derived-web"
+    }
+   ]
+  },
+  "M371": {
+   "n_files": 10,
+   "files": [
+    {
+     "path": "data/asia/individuals/brucelee_mapping.csv",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/asia/individuals/brucelee_modes.json",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/phase20_zhangxuecheng_research.md",
+     "layer": "other"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "docs/research/legacy20_rev6_assessment.md",
+     "layer": "historical-report"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    }
+   ]
+  },
+  "M372": {
+   "n_files": 9,
+   "files": [
+    {
+     "path": "data/asia/individuals/brucelee_mapping.csv",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/asia/individuals/brucelee_modes.json",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/phase20_zhangxuecheng_research.md",
+     "layer": "other"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    }
+   ]
+  },
+  "M373": {
+   "n_files": 10,
+   "files": [
+    {
+     "path": "data/asia/individuals/brucelee_mapping.csv",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/asia/individuals/brucelee_modes.json",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/phase20_zhangxuecheng_research.md",
+     "layer": "other"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    },
+    {
+     "path": "tools/PHASE_18_20_GLOBAL_DEEP_EXCAVATION_PLAN.md",
+     "layer": "tools"
+    }
+   ]
+  },
+  "M374": {
+   "n_files": 8,
+   "files": [
+    {
+     "path": "data/asia/individuals/brucelee_mapping.csv",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/asia/individuals/brucelee_modes.json",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    }
+   ]
+  },
+  "M375": {
+   "n_files": 8,
+   "files": [
+    {
+     "path": "data/asia/individuals/brucelee_mapping.csv",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/asia/individuals/brucelee_modes.json",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    }
+   ]
+  },
+  "M376": {
+   "n_files": 8,
+   "files": [
+    {
+     "path": "data/asia/individuals/brucelee_mapping.csv",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/asia/individuals/brucelee_modes.json",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    }
+   ]
+  },
+  "M377": {
+   "n_files": 8,
+   "files": [
+    {
+     "path": "data/asia/individuals/brucelee_mapping.csv",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/asia/individuals/brucelee_modes.json",
+     "layer": "other-namespace (asia legacy)"
+    },
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    }
+   ]
+  },
+  "M378": {
+   "n_files": 6,
+   "files": [
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    }
+   ]
+  },
+  "M379": {
+   "n_files": 6,
+   "files": [
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_en.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/individuals/H-WZ-001_scenarios_zh.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    }
+   ]
+  },
+  "M380": {
+   "n_files": 7,
+   "files": [
+    {
+     "path": "data/figures/H-WZ-001.json",
+     "layer": "archive-wz"
+    },
+    {
+     "path": "data/islam/islam_modes_deep.json",
+     "layer": "other-namespace (islam/MENA M381-M402)"
+    },
+    {
+     "path": "data/master_modes_v2.json",
+     "layer": "other-namespace (islam/MENA M381-M402)"
+    },
+    {
+     "path": "docs/figures/H-WZ-001.md",
+     "layer": "docs-image"
+    },
+    {
+     "path": "site_docs/figures/H-WZ-001/index.html",
+     "layer": "derived-site"
+    },
+    {
+     "path": "site_docs/search/search_index.json",
+     "layer": "derived-site"
+    },
+    {
+     "path": "tools/build_islamic_insert.py",
+     "layer": "tools"
+    }
+   ]
+  },
+  "M-WZ-": {
+   "n_files": 1,
+   "files": [
+    {
+     "path": "docs/research/legacy20_rev6_assessment.md",
+     "layer": "historical-report"
+    }
+   ],
+   "availability": "expected: only docs/research/legacy20_rev6_assessment.md (pre-allocation text); zero occupancy in data/library/tools/site layers"
+  }
+ }
+}

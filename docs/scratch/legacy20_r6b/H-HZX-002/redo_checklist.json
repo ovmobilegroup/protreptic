@@ -1,0 +1,172 @@
+{
+ "schema": "protreptic.r6b_wangxiang_redo_list/v1",
+ "card": "t_434af550",
+ "date": "2026-09-23",
+ "figure": {
+  "code": "H-HZX-002",
+  "name": "王祥",
+  "identity": "真实，184-268，字休徵，二十四孝卧冰求鲤（已核）"
+ },
+ "global_actions": [
+  "以《晋书·王祥传》原文为第一锚点重建 10 条（或经船长裁定按可用素材数定条数）；《搜神记》卷十一、《二十四孝》为辅",
+  "引文（key_quote）逐条取自文献原文；不保留旧自造句",
+  "出处（source_chapter）全部改为可落源文献（建议格式：书名·篇卷）",
+  "figure 层 metadata 采用本卡 corrected_record.json 修正稿为基线",
+  "码位：figure 维持 H-HZX-002（H-WX-001 已被王选占用，评估稿『未占用』系误判）；模式前缀建议 M-WX-001~010（全库 0 碰撞）或与船长另定",
+  "完成后按 R6 门禁三连 + 核验流程（verification pending→核验→回填）"
+ ],
+ "sourcing_anchors": [
+  {
+   "anchor": "卧冰求鲤",
+   "quote": "母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。",
+   "source": "《晋书·卷三十三·王祥传》"
+  },
+  {
+   "anchor": "黄雀入幕",
+   "quote": "母又思黃雀灸，復有黃雀數十飛入其幕，復以供母。",
+   "source": "同上"
+  },
+  {
+   "anchor": "抱树守柰",
+   "quote": "有丹柰結實，母命守之，每風雨，祥輒抱樹而泣。其篤孝純至如此。",
+   "source": "同上"
+  },
+  {
+   "anchor": "侍疾",
+   "quote": "父母有疾，衣不解帶，湯藥必親嘗。",
+   "source": "同上"
+  },
+  {
+   "anchor": "避乱隐居",
+   "quote": "漢未遭亂，扶母攜弟覽避地廬江，隱居三十餘年，不應州郡之命。",
+   "source": "同上"
+  },
+  {
+   "anchor": "治州政绩与民谣",
+   "quote": "時人歌之曰：「海沂之康，實賴王祥。邦國不空，別駕之功。」",
+   "source": "同上"
+  },
+  {
+   "anchor": "三老讲学",
+   "quote": "天子幸太學，命祥爲三老。祥南面几杖，以師道自居。",
+   "source": "同上"
+  },
+  {
+   "anchor": "不拜司马昭（长揖）",
+   "quote": "及入，顗遂拜，而祥獨長揖。帝曰：「今日方知君見顧之重矣！」",
+   "source": "同上"
+  },
+  {
+   "anchor": "遗令五者（立身之本）",
+   "quote": "夫言行可覆，信之至也；推美引過，德之至也；揚名顯親，孝之至也；兄弟怡怡，宗族欣欣，悌之至也；臨財莫過乎讓：此五者，立身之本。",
+   "source": "同上"
+  },
+  {
+   "anchor": "佩刀授览（家族传承）",
+   "quote": "祥臨薨，以刀授覽，曰：「汝後必興，足稱此刀。」覽後奕世多賢才，興於江左矣。",
+   "source": "《晋书·卷三十三》王览附传"
+  },
+  {
+   "anchor": "史评",
+   "quote": "史臣曰：…孝爲德本，王祥所以當仁",
+   "source": "《晋书·卷三十三》"
+  },
+  {
+   "anchor": "二十四孝诗赞",
+   "quote": "繼母人間有。王祥天下無。至今河上水。留得臥冰模。",
+   "source": "元·郭居敬《全相二十四孝诗选》（维基文库《二十四孝》）"
+  }
+ ],
+ "modes": [
+  {
+   "mode_id": "M301",
+   "name_zh": "温席求鱼法",
+   "name_en": "Warm Mat Seeking Fish Method",
+   "problem": "硬伤核心：『温席』属黄香《扇枕温衾》，『求鱼』失据；名称与正文均不可修正",
+   "redo_suggestion": "重做候选锚点：本传『父母有疾，衣不解带，汤药必亲尝』→可重拟侍疾主题条目（如『侍疾尝药法』）；或并入卧冰条目后按 9-10 条重建",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M302",
+   "name_zh": "卧冰求梨法",
+   "name_en": "Lying on Ice for Pear Method",
+   "problem": "『梨』为讹字；『卧冰』属《二十四孝》化表述（本传作『剖冰』）",
+   "redo_suggestion": "更名『卧冰求鲤法』；正文按本传『解衣将剖冰求之，冰忽自解，双鲤跃出』重锚",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M303",
+   "name_zh": "孝道至上法",
+   "name_en": "Filial Piety Supremacy Method",
+   "problem": "source_chapter『《孝经》核心原则』不可落源（无篇目）",
+   "redo_suggestion": "出处锚定：《孝经》具体章句 或 本传遗令『扬名显亲，孝之至也』",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M304",
+   "name_zh": "以身许物法",
+   "name_en": "Body as Gift Method",
+   "problem": "source_chapter『传统孝道行为模式分析』非文献",
+   "redo_suggestion": "出处重做：锚卧冰求鲤/黄雀入幕事（本传原文）",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M305",
+   "name_zh": "孝道循环法",
+   "name_en": "Filial Piety Cycle Method",
+   "problem": "source_chapter『孝道行为的持续性分析』非文献",
+   "redo_suggestion": "出处重做：锚本传侍疾/守柰等持续性孝行事例",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M306",
+   "name_zh": "求而得之法",
+   "name_en": "Seeking and Attaining Method",
+   "problem": "source_chapter『《孝经》实践路径』不可落源",
+   "redo_suggestion": "出处重做：锚本传求鱼/黄雀事原文",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M307",
+   "name_zh": "修心养性法",
+   "name_en": "Heart Cultivation Method",
+   "problem": "source_chapter 泛（儒家修身理论）",
+   "redo_suggestion": "出处重做：锚本传『祥愈恭谨』『笃孝纯至』段落",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M308",
+   "name_zh": "天人合德法",
+   "name_en": "Heaven-Earth Moral Unity Method",
+   "problem": "题旨与本传相关性弱（本传无天人叙说）；出处泛",
+   "redo_suggestion": "建议重审题旨；候选替换锚点：遗令五者（信德孝悌让）立身之本",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M309",
+   "name_zh": "孝道传世法",
+   "name_en": "Filial Piety Legacy Method",
+   "problem": "source_chapter『孝道的历史传承分析』非文献",
+   "redo_suggestion": "出处重做：锚琅邪王氏家风（遗令）、佩刀授览、历代孝义教材化",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  },
+  {
+   "mode_id": "M310",
+   "name_zh": "功德圆满法",
+   "name_en": "Virtue Perfection Method",
+   "problem": "source_chapter『孝道的终极目标分析』非文献",
+   "redo_suggestion": "出处重做：锚本传卒后哀荣/谥元/『孝为德本』史评",
+   "sourcing_status": "不可落源（现状）",
+   "salvage": "正文骨架可复用者如题旨中性（如孝道至上/传世），须重出处与表述；M301 不可修正"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "card": "t_4481df98",
+ "code": "H-JX-001",
+ "date": "20260923",
+ "created_at": "2026-09-23",
+ "note": "落盘前字节备份（先备份后写入）",
+ "files": [
+  {
+   "path": "data/figures/H-JX-001.json",
+   "backup": "data_figures_H-JX-001.json",
+   "sha256_before": "602ae1acd2c4aa8d578acf476256cb8266957b17d3eb759555fe53b5dfe1b590",
+   "bytes": 1856,
+   "git_head_sha256": "602ae1acd2c4aa8d578acf476256cb8266957b17d3eb759555fe53b5dfe1b590"
+  },
+  {
+   "path": "data/individuals/H-JX-001.json",
+   "backup": "data_individuals_H-JX-001.json",
+   "sha256_before": "246fa898e2c7b3772b3a13c44504a56d388bb81b7c532e4a542bb66820758204",
+   "bytes": 16724,
+   "git_head_sha256": "246fa898e2c7b3772b3a13c44504a56d388bb81b7c532e4a542bb66820758204"
+  },
+  {
+   "path": "data/individuals/H-JX-001_modes.json",
+   "backup": "data_individuals_H-JX-001_modes.json",
+   "sha256_before": "b6bdd1b5aaf650b2919304a3f504fca6e774478fa74968483228343e286cc3aa",
+   "bytes": 31152,
+   "git_head_sha256": "b6bdd1b5aaf650b2919304a3f504fca6e774478fa74968483228343e286cc3aa"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "schema": "protreptic.r6b_dongyuming_archive_manifest/v1",
+ "card": "t_434af550",
+ "date": "2026-09-23",
+ "subject": {
+  "code": "H-DYM-001",
+  "name": "董宇明(figure_name=董宇明)",
+  "note": "档案归位轨迹：R2 换码（提交 dae8ac5e，三件 git mv 至 H-DYM-001，码内字段改正）；R4 灰区收尾（t_ea3a32e5，杜威侧显示名纠正等）。现状复核（本卡）：主库 0 条 figure_code=H-DYM-001；M-DY-001 至 010 figure_name=约翰·杜威（已修正）；H-DYM-001 三件在位。旧 M11-M20 载荷按旧码档归档，无需恢复。"
+ },
+ "basis": [
+  "docs/qa/phase21r2_cleanup_evidence.json item3（pre/post sha 登记）",
+  "docs/research/legacy20_rev6_assessment.md §4.2/§3(E3)",
+  "本卡实测（sha256 逐件复核）",
+  "卡面标注：H-DYM-001 档案已由 R4 归位，库内显示名已修正（本卡逐项复核属实；board 卡 t_ea3a32e5 已 done）"
+ ],
+ "files": [
+  {
+   "path": "data/figures/H-DYM-001.json",
+   "sha256": "3b2e71fb984f822e8ef4b8d268e46ceb4fc4060d0d8e45137365fb357fded34d",
+   "bytes": 1601,
+   "role": "figure 档案（code=H-DYM-001，figure_name=董宇明；内嵌 modes=M11-M20 列表）",
+   "r2_post_sha256": "3b2e71fb984f822e8ef4b8d268e46ceb4fc4060d0d8e45137365fb357fded34d",
+   "unchanged_since_r2_post": true,
+   "target": "data/figures/_duplicates/H-DYM-001_figures.json"
+  },
+  {
+   "path": "data/individuals/H-DYM-001_modes.json",
+   "sha256": "c9ac05dc13c33c87d3d89e67d19c5d09df7c8cd83f51598adf24ca81cb5a42a3",
+   "bytes": 12219,
+   "role": "M11-M20 载荷伴随包（10 条全文：智能思维法/系统整合法/伦理思考法/创新驱动法/全球化视野法/数据驱动法/人机协同法/智能预测法/智能优化法/智能治理法）",
+   "r2_post_sha256": "c9ac05dc13c33c87d3d89e67d19c5d09df7c8cd83f51598adf24ca81cb5a42a3",
+   "unchanged_since_r2_post": true,
+   "target": "data/figures/_duplicates/H-DYM-001_individuals_modes.json"
+  },
+  {
+   "path": "docs/figures/H-DYM-001.md",
+   "sha256": "1f47d4c1463b577b171288f77299132b6dd4ab5f59a54bd2e43fd33b8931ccd4",
+   "bytes": 13896,
+   "role": "档案页（docs 层镜像）",
+   "r2_post_sha256": "1f47d4c1463b577b171288f77299132b6dd4ab5f59a54bd2e43fd33b8931ccd4",
+   "unchanged_since_r2_post": true,
+   "target": "data/figures/_duplicates/H-DYM-001_archive_page.md"
+  }
+ ],
+ "checks": {
+  "sha_consistency": "三件当前 sha256 与 R2 post 快照逐一相同（未再被改动）",
+  "library": "主库 0 条（grep figure_code=H-DYM-001 得 0）",
+  "web_public": "web/public 无 H-DYM-001/M11-M20 引用（已核）",
+  "site_docs": "现行 site_docs/web 无 H-DYM-001 页、搜索索引 0 处提及（R2 报告曾记载文档站新增 /figures/H-DYM-001/ 页；现行构建未见，以现盘为准；本件为字节登记，不含站点动作，如需撤页或建页由站点链条卡处理）",
+  "registry": "figure_names['H-DYM-001']=董宇明（R2 归位登记，1 键；本次建议保留，待归档收官/R6C 统一口径）",
+  "code_maps": "data/code_maps.json 无 H-DYM-001 条目（已核）",
+  "M11-M20_other_claims": "M11-M20 裸码在 data/ 层另有散点（H-SW-001 孙子的混合旧块含 M20 等；涉 H-SW-001.json/_modes/figures 4 文件）——归档不触及主库编号，登记备查"
+ },
+ "residual_note": "R2 报告行文对 M11-M20 领域有一处笼统描述；本件按实测载荷内容为准（AI/科技类 10 条）。",
+ "executor_recipe": [
+  "cp 三件到目标 _duplicates 路径（保留原字节；命名循 R2 先例）",
+  "git rm 三件原路径（活跃层清档）",
+  "登记：目标文件 sha256 = 源 sha256（逐字相同）",
+  "活跃层零悬空复扫（H-DYM-001/M11-M20 应只剩历史报告层与归档位）",
+  "不触碰：主库、约翰·杜威 H-DY-001 侧、figure_names（保留键）"
+ ],
+ "flagged": [
+  {
+   "item": "【存疑登记】R-恢复报告 4.5 节表 DY 行：将 H-ZDY-001.json 列为董宇明侧文件，并注「已在库 10 条，同名」。",
+   "finding": "与现盘不符：主库无董宇明条目；H-ZDY-001 实为周敦颐。疑似生成脚本按 DY 二字误配所致。",
+   "impact": "不影响本登记件结论（按实测：登记归档三件，不恢复）",
+   "action": "登记备查，不修改历史报告。"
+  }
+ ]
+}

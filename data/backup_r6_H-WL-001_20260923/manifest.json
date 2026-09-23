@@ -1,0 +1,30 @@
+{
+ "card": "t_4481df98",
+ "code": "H-WL-001",
+ "date": "20260923",
+ "created_at": "2026-09-23",
+ "note": "落盘前字节备份（先备份后写入）",
+ "files": [
+  {
+   "path": "data/figures/H-WL-001.json",
+   "backup": "data_figures_H-WL-001.json",
+   "sha256_before": "ef64b7c7f69647dad1f1c02f0ea45bf03e2fb9a96fd098b4b018d3d65eefe521",
+   "bytes": 11632,
+   "git_head_sha256": "ef64b7c7f69647dad1f1c02f0ea45bf03e2fb9a96fd098b4b018d3d65eefe521"
+  },
+  {
+   "path": "data/individuals/H-WL-001.json",
+   "backup": "data_individuals_H-WL-001.json",
+   "sha256_before": "07ec197b4ce452a287b19fce604b140619750dc0affea1d1c8fafae96f43012f",
+   "bytes": 11760,
+   "git_head_sha256": "07ec197b4ce452a287b19fce604b140619750dc0affea1d1c8fafae96f43012f"
+  },
+  {
+   "path": "data/individuals/H-WL-001_modes.json",
+   "backup": "data_individuals_H-WL-001_modes.json",
+   "sha256_before": "7c26a6b744667dc09d249c4bbf7ac069f25575d3e483c2cee6f0b3acb8dfe4fa",
+   "bytes": 21536,
+   "git_head_sha256": "7c26a6b744667dc09d249c4bbf7ac069f25575d3e483c2cee6f0b3acb8dfe4fa"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "card": "t_4481df98",
+ "code": "H-YSK-001",
+ "date": "20260923",
+ "created_at": "2026-09-23",
+ "note": "落盘前字节备份（先备份后写入）",
+ "files": [
+  {
+   "path": "data/figures/H-YSK-001.json",
+   "backup": "data_figures_H-YSK-001.json",
+   "sha256_before": "346ba5428878279c7f889f13e66dbccccc345f73fd9b76f4958b01c7770ae57f",
+   "bytes": 1870,
+   "git_head_sha256": "346ba5428878279c7f889f13e66dbccccc345f73fd9b76f4958b01c7770ae57f"
+  },
+  {
+   "path": "data/individuals/H-YSK-001.json",
+   "backup": null,
+   "sha256_before": null,
+   "bytes": null,
+   "git_head_sha256": null,
+   "note": "absent_before_landing"
+  },
+  {
+   "path": "data/individuals/H-YSK-001_modes.json",
+   "backup": "data_individuals_H-YSK-001_modes.json",
+   "sha256_before": "1aae91a02d27a8a618e64633a8d18ab46f5f9398312a12b71e26ee5aa6776566",
+   "bytes": 31958,
+   "git_head_sha256": "1aae91a02d27a8a618e64633a8d18ab46f5f9398312a12b71e26ee5aa6776566"
+  }
+ ]
+}

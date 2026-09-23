@@ -1,0 +1,3819 @@
+{
+ "schema_version": "v6",
+ "modes": [
+  {
+   "id": "M-CHB-001",
+   "mode_code": "M-CHB-001",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "理论批判法",
+   "name_en": "Theoretical Critique Method",
+   "category": "政治治理",
+   "category_raw": "政治哲学思维",
+   "domain_zh": "马克思主义批判理论",
+   "domain_en": "Marxist Critique Theory",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "运用马克思主义理论武器，从阶级立场、历史唯物主义角度对敌对观点进行系统批驳，揭示其阶级本质和理论谬误。通过引经据典、逐条辨析、逻辑推演的方式，达到理论清算的目的。",
+   "definition_en": "Utilize Marxist theoretical weapons to systematically critique opposing viewpoints from class position and historical materialism, revealing their class essence and theoretical fallacies. Through classical citations, point-by-point analysis, and logical deduction, achieve theoretical清算.",
+   "source_chapter": "《评〈中国之命运〉》《中国四大家族》",
+   "key_concepts": [
+    "理论批判",
+    "阶级分析",
+    "历史唯物主义",
+    "理论清算",
+    "逐条批驳"
+   ],
+   "key_quote_zh": "批判的武器当然不能代替武器的批判，物质力量只能用物质力量来摧毁。",
+   "key_quote_en": "The weapon of criticism当然 cannot replace criticism by weapons, material force must be overthrown by material force.",
+   "process_zh": [
+    "确立批判的理论武器：熟练掌握马克思主义基本原理",
+    "识别批判对象的理论谬误：找出其逻辑矛盾和历史错误",
+    "逐条批驳：有理有据地逐一化解对方论点",
+    "揭示阶级本质：从经济基础和阶级关系层面剖析对手立场",
+    "得出批判结论：形成明确的是非判断"
+   ],
+   "process_en": [
+    "Establish theoretical weapons: master basic principles of Marxism",
+    "Identify theoretical fallacies of the target: find logical contradictions and historical errors",
+    "Point-by-point refutation: systematically dismantle each argument with evidence",
+    "Reveal class essence: analyze opponent's stance from economic base and class relations",
+    "Draw critical conclusions: form clear judgment of right and wrong"
+   ],
+   "representative_cases_zh": [
+    "《评〈中国之命运〉》：运用马克思主义理论逐条批驳蒋介石著作，揭露其反动本质",
+    "《中国四大家族》：从阶级分析角度揭露蒋宋孔陈四大家族垄断经济，被斯大林称赞"
+   ],
+   "representative_cases_en": [
+    "Critique of 'China's Destiny': Systematically refuted Chiang Kai-shek's work using Marxist theory, exposing its reactionary essence",
+    "The Four Big Families: Revealed the monopolistic economy of the Jiang, Song, Kong, and Chen families from a class analysis perspective, praised by Stalin"
+   ],
+   "modern_applications_zh": [
+    "学术评论：对错误观点的理论性批判",
+    "政策辩论：政策制定的阶级立场分析",
+    "舆论监督：对现象的阶级本质揭露"
+   ],
+   "modern_applications_en": [
+    "Academic commentary: Theoretical critique of erroneous viewpoints",
+    "Policy debate: Class stance analysis in policy formulation",
+    "Public opinion supervision: Exposing class essence of phenomena"
+   ],
+   "related_modes": [
+    "M-CHB-002",
+    "M-CHB-003",
+    "M-CHB-005",
+    "M-CHB-008"
+   ],
+   "legacy_mode_id": "M211",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-002",
+   "mode_code": "M-CHB-002",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "阶级分析法",
+   "name_en": "Class Analysis Method",
+   "category": "经济商业",
+   "category_raw": "政治经济学思维",
+   "domain_zh": "马克思主义阶级理论",
+   "domain_en": "Marxist Class Theory",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "将社会现象置于阶级关系中理解，分析各阶级的经济地位、政治立场和利益诉求。任何社会问题都可追溯至阶级关系，任何思想观点都有其阶级根源。",
+   "definition_en": "Understand social phenomena within class relations, analyzing the economic position, political stance, and interest demands of each class. Any social issue can be traced to class relations; any idea or viewpoint has its class roots.",
+   "source_chapter": "《中国四大家族》《人民公敌蒋介石》",
+   "key_concepts": [
+    "阶级划分",
+    "阶级利益",
+    "阶级斗争",
+    "经济基础",
+    "上层建筑"
+   ],
+   "key_quote_zh": "一切阶级斗争都是政治斗争。",
+   "key_quote_en": "All class struggle is political struggle.",
+   "process_zh": [
+    "识别分析对象的阶级属性：谁站在什么阶级立场上",
+    "分析各阶级的经济利益：他们代表什么生产关系",
+    "判断阶级立场的政治后果：其行为对谁有利",
+    "揭示隐藏在观点背后的阶级利益"
+   ],
+   "process_en": [
+    "Identify class attributes of the analysis target: which class stands where",
+    "Analyze economic interests of each class: what relations of production they represent",
+    "Judge political consequences of class stance: who benefits from their actions",
+    "Uncover class interests hidden behind viewpoints"
+   ],
+   "representative_cases_zh": [
+    "《中国四大家族》将近代中国经济概括为四大家族垄断资本，揭示民族资产阶级的两面性",
+    "《人民公敌蒋介石》分析蒋介石从革命者转变为反革命阶级的过程"
+   ],
+   "representative_cases_en": [
+    "'The Four Big Families' summarized modern Chinese economy as monopoly capitalism of four families, revealing the ambivalence of the national bourgeoisie",
+    "'The People's Enemy Chiang Kai-shek' analyzed Chiang's transformation from revolutionary to reactionary class"
+   ],
+   "modern_applications_zh": [
+    "社会阶层分析",
+    "利益集团研究",
+    "政策受益群体评估"
+   ],
+   "modern_applications_en": [
+    "Social stratification analysis",
+    "Interest group research",
+    "Policy beneficiary group assessment"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-003",
+    "M-CHB-006"
+   ],
+   "legacy_mode_id": "M212",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-003",
+   "mode_code": "M-CHB-003",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "政治敏锐法",
+   "name_en": "Political Sensitivity Method",
+   "category": "战略决策",
+   "category_raw": "政治策略思维",
+   "domain_zh": "政治战略/权力博弈",
+   "domain_en": "Political Strategy / Power Game",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "准确把握政治风向、斗争态势和权力格局，在复杂政治环境中判断时机、选择策略。既要有理论高度，也要有实践智慧，知道何时进、何时退、如何借势。",
+   "definition_en": "Accurately grasp political trends, struggle dynamics, and power structures; judge timing and choose strategies in complex political environments. Requires both theoretical height and practical wisdom—knowing when to advance, when to retreat, and how to leverage circumstances.",
+   "source_chapter": "《论毛泽东思想》及相关政治实践",
+   "key_concepts": [
+    "政治风向",
+    "斗争策略",
+    "权力格局",
+    "时机把握",
+    "借势而为"
+   ],
+   "key_quote_zh": "政治是各阶级之间的斗争，是无产阶级夺取政权之前用以发动群众的武器。",
+   "key_quote_en": "Politics is the struggle between classes, the weapon used by the proletariat to mobilize the masses before seizing power.",
+   "process_zh": [
+    "观察政治格局：识别主要力量及其关系",
+    "判断政治风向：把握主流意识形态和权力走向",
+    "选择策略位置：在政治光谱中找到自己的位置",
+    "把握介入时机：在关键时刻发声或保持沉默"
+   ],
+   "process_en": [
+    "Observe political landscape: identify major forces and their relations",
+    "Judge political trends: grasp mainstream ideology and power dynamics",
+    "Choose strategic position: find one's place on the political spectrum",
+    "Master intervention timing: speak or remain silent at critical moments"
+   ],
+   "representative_cases_zh": [
+    "在延安时期准确把握毛泽东思想地位，撰写《论毛泽东思想》确立其理论权威",
+    "文革期间利用政治风向迅速崛起，但也因风向转变而迅速失势"
+   ],
+   "representative_cases_en": [
+    "Accurately grasped the status of Mao Zedong Thought during the Yan'an period, writing 'On Mao Zedong Thought' to establish its theoretical authority",
+    "Rapidly rose during the Cultural Revolution by leveraging political trends, but also rapidly fell when the wind changed"
+   ],
+   "modern_applications_zh": [
+    "政治形势研判",
+    "组织策略制定",
+    "危机预警与应对"
+   ],
+   "modern_applications_en": [
+    "Political situation assessment",
+    "Organizational strategy formulation",
+    "Crisis early warning and response"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-004",
+    "M-CHB-009"
+   ],
+   "legacy_mode_id": "M213",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-004",
+   "mode_code": "M-CHB-004",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "战斗檄文法",
+   "name_en": "Combat Manifesto Method",
+   "category": "方法论通用",
+   "category_raw": "写作方法论",
+   "domain_zh": "政治写作/舆论动员",
+   "domain_en": "Political Writing / Public Opinion Mobilization",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "以战斗性、煽动性为特征的政论写作方法。语言犀利、逻辑严密、感情充沛，善于用强烈的措辞和生动的比喻激发读者的政治热情，达到动员群众、打击敌人的目的。",
+   "definition_en": "A polemical writing method characterized by combativeness and agitation. Language is sharp, logic is rigorous, emotion is full—skillfully using strong wording and vivid metaphors to stimulate readers' political enthusiasm, achieving the goal of mobilizing the masses and striking enemies.",
+   "source_chapter": "《人民公敌蒋介石》《评〈中国之命运〉》",
+   "key_concepts": [
+    "战斗性",
+    "煽动性",
+    "政治动员",
+    "犀利文风",
+    "舆论武器"
+   ],
+   "key_quote_zh": "笔墨当随时代，批评应当具有战斗性。",
+   "key_quote_en": "Writing should follow the times; criticism ought to be combative.",
+   "process_zh": [
+    "确定批判对象和战斗目标",
+    "选择最具冲击力的切入点和核心论点",
+    "运用排比、反问、比喻等修辞手法增强气势",
+    "以强烈的情感表达激发读者共鸣",
+    "给出明确的行动号召"
+   ],
+   "process_en": [
+    "Determine the critique target and combat objective",
+    "Select the most impactful entry point and core argument",
+    "Use rhetorical devices such as parallelism, rhetorical questions, and metaphors to enhance momentum",
+    "Evoke reader resonance through strong emotional expression",
+    "Provide a clear call to action"
+   ],
+   "representative_cases_zh": [
+    "《人民公敌蒋介石》以极具感染力的笔调将蒋介石定义为'人民公敌'，在解放区广为流传",
+    "《评〈中国之命运〉》以犀利文笔逐条批驳蒋介石的理论谬误，被称为'一篇战斗檄文'"
+   ],
+   "representative_cases_en": [
+    "'The People's Enemy Chiang Kai-shek' defined Chiang as 'the enemy of the people' with highly infectious prose, widely circulated in liberation areas",
+    "'Critique of China's Destiny' systematically refuted Chiang's theoretical fallacies with sharp writing, called 'a combat manifesto'"
+   ],
+   "modern_applications_zh": [
+    "政治评论写作",
+    "社论撰写",
+    "舆论战策略"
+   ],
+   "modern_applications_en": [
+    "Political commentary writing",
+    "Editorial composition",
+    "Public opinion warfare strategy"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-005",
+    "M-CHB-007"
+   ],
+   "legacy_mode_id": "M214",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-005",
+   "mode_code": "M-CHB-005",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "系统批判法",
+   "name_en": "Systematic Critique Method",
+   "category": "方法论通用",
+   "category_raw": "方法论思维",
+   "domain_zh": "批判方法论/逻辑分析",
+   "domain_en": "Critique Methodology / Logical Analysis",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "不是零散地反驳对方观点，而是从理论体系的高度进行系统性批驳。先理解对方完整的理论框架，再找出其根本矛盾和逻辑漏洞，最后从整体上瓦解其理论体系。",
+   "definition_en": "Not fragmentarily refuting opposing views, but conducting systematic critique from the height of theoretical frameworks. First understand the opponent's complete theoretical framework, then identify fundamental contradictions and logical loopholes, finally dismantle the entire theoretical system holistically.",
+   "source_chapter": "《评〈中国之命运〉》",
+   "key_concepts": [
+    "系统性",
+    "整体批驳",
+    "逻辑瓦解",
+    "理论解构",
+    "框架批判"
+   ],
+   "key_quote_zh": "不破不立，破字当头，立也就在其中了。",
+   "key_quote_en": "Nothing is established without being broken; with breaking as the priority, establishment follows.",
+   "process_zh": [
+    "全面理解对方的理论体系和论证逻辑",
+    "找出理论内部的矛盾点和薄弱环节",
+    "从根本前提上质疑对方理论的合法性",
+    "通过逻辑推演展示对方理论的荒谬后果",
+    "提出替代性的理论框架"
+   ],
+   "process_en": [
+    "Comprehensively understand the opponent's theoretical system and argumentation logic",
+    "Identify internal contradictions and weak points in the theory",
+    "Question the legitimacy of the opponent's theory at its fundamental premises",
+    "Demonstrate absurd consequences of the opponent's theory through logical deduction",
+    "Propose an alternative theoretical framework"
+   ],
+   "representative_cases_zh": [
+    "对《中国之命运》的系统批驳：从历史观、政治观、文化观三个层面逐一拆解蒋介石的理论体系",
+    "对国民党御用文人的批判：从理论根源到现实表现进行全面清算"
+   ],
+   "representative_cases_en": [
+    "Systematic critique of 'China's Destiny': Dismantled Chiang Kai-shek's theoretical system layer by layer from historical, political, and cultural perspectives",
+    "Critique of Kuomintang sycophantic intellectuals: Comprehensive清算 from theoretical roots to realistic manifestations"
+   ],
+   "modern_applications_zh": [
+    "理论争议解决",
+    "学术辩论",
+    "思想路线分析"
+   ],
+   "modern_applications_en": [
+    "Theoretical dispute resolution",
+    "Academic debate",
+    "Ideological line analysis"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-002",
+    "M-CHB-006"
+   ],
+   "legacy_mode_id": "M215",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-006",
+   "mode_code": "M-CHB-006",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "历史唯物分析法",
+   "name_en": "Historical Materialist Analysis Method",
+   "category": "史学文献",
+   "category_raw": "史学方法论",
+   "domain_zh": "历史唯物主义/社会发展规律",
+   "domain_en": "Historical Materialism / Social Development Patterns",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "从物质生产方式出发理解历史发展，认为经济基础决定上层建筑，生产力决定生产关系。任何历史现象都应从经济根源和阶级关系中寻找解释，而非从观念或英雄人物出发。",
+   "definition_en": "Understand historical development starting from material production modes, believing that the economic base determines the superstructure and productive forces determine relations of production. Any historical phenomenon should be explained from economic roots and class relations, not from ideas or heroic figures.",
+   "source_chapter": "《中国四大家族》及相关历史分析",
+   "key_concepts": [
+    "经济基础",
+    "上层建筑",
+    "生产力",
+    "生产关系",
+    "历史规律"
+   ],
+   "key_quote_zh": "不是人们的意识决定人们的存在，相反，是人们的社会存在决定人们的意识。",
+   "key_quote_en": "It is not the consciousness of men that determines their existence, but their social existence that determines their consciousness.",
+   "process_zh": [
+    "确定分析对象所处的历史时代和生产方式",
+    "分析该时代的经济基础和阶级结构",
+    "追溯上层建筑现象的经济根源",
+    "揭示历史发展的客观规律性"
+   ],
+   "process_en": [
+    "Determine the historical era and production mode of the analysis target",
+    "Analyze the economic base and class structure of that era",
+    "Trace economic roots of superstructural phenomena",
+    "Reveal the objectivity of historical development patterns"
+   ],
+   "representative_cases_zh": [
+    "《中国四大家族》将四大家族的形成追溯到半殖民地半封建社会的经济结构",
+    "对蒋介石政权的分析：从官僚垄断资本的角度揭示其阶级本质"
+   ],
+   "representative_cases_en": [
+    "'The Four Big Families' traced the formation of the four families back to the semi-colonial semi-feudal social economic structure",
+    "Analysis of Chiang Kai-shek's regime: Revealed its class essence from the perspective of bureaucratic monopoly capitalism"
+   ],
+   "modern_applications_zh": [
+    "历史事件分析",
+    "社会现象解读",
+    "经济发展规律研究"
+   ],
+   "modern_applications_en": [
+    "Historical event analysis",
+    "Social phenomenon interpretation",
+    "Economic development pattern research"
+   ],
+   "related_modes": [
+    "M-CHB-002",
+    "M-CHB-005",
+    "M-CHB-008"
+   ],
+   "legacy_mode_id": "M216",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-007",
+   "mode_code": "M-CHB-007",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "群众路线法",
+   "name_en": "Mass Line Method",
+   "category": "政治治理",
+   "category_raw": "政治哲学思维",
+   "domain_zh": "群众观点/政治动员",
+   "domain_en": "Mass Perspective / Political Mobilization",
+   "level": "辅助",
+   "priority": 7,
+   "definition_zh": "相信群众、依靠群众、从群众中来、到群众中去。将群众意见集中起来，化为系统的政策主张，再到群众中宣传解释，化为群众的行动。这是毛泽东思想的活的灵魂之一。",
+   "definition_en": "Believe in the masses, rely on the masses, come from the masses, go to the masses. Concentrate mass opinions into systematic policy propositions, then propagate and explain them among the masses, turning them into mass action. This is one of the living souls of Mao Zedong Thought.",
+   "source_chapter": "《论毛泽东思想》及相关政治实践",
+   "key_concepts": [
+    "群众路线",
+    "从群众中来",
+    "到群众中去",
+    "集中起来",
+    "坚持下去"
+   ],
+   "key_quote_zh": "群众是真正的英雄，而我们自己则往往是幼稚可笑的。",
+   "key_quote_en": "The masses are the true heroes, while we ourselves are often childish and ridiculous.",
+   "process_zh": [
+    "深入群众，了解群众的真实想法和诉求",
+    "将分散的群众意见集中为系统的政策主张",
+    "向群众宣传解释政策，使其成为群众的自觉行动",
+    "在实践中检验政策，不断修正完善"
+   ],
+   "process_en": [
+    "Go deep among the masses, understand their real thoughts and demands",
+    "Concentrate scattered mass opinions into systematic policy propositions",
+    "Propagate and explain policies among the masses, making them conscious action",
+    "Test policies in practice, continuously revising and perfecting them"
+   ],
+   "representative_cases_zh": [
+    "在延安整风运动中贯彻群众路线，反对主观主义、宗派主义和党八股",
+    "文革初期利用群众运动推动政治斗争"
+   ],
+   "representative_cases_en": [
+    "Implemented the mass line during the Yan'an Rectification Movement, opposing subjectivism, sectarianism, and party stereotyped writing",
+    "Initially utilized mass movements during the early Cultural Revolution to advance political struggles"
+   ],
+   "modern_applications_zh": [
+    "民主决策",
+    "社会治理",
+    "政策制定"
+   ],
+   "modern_applications_en": [
+    "Democratic decision-making",
+    "Social governance",
+    "Policy formulation"
+   ],
+   "related_modes": [
+    "M-CHB-003",
+    "M-CHB-004",
+    "M-CHB-009"
+   ],
+   "legacy_mode_id": "M217",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-008",
+   "mode_code": "M-CHB-008",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "意识形态分析法",
+   "name_en": "Ideological Analysis Method",
+   "category": "文化批判思维",
+   "category_raw": "文化批判思维",
+   "domain_zh": "意识形态理论/文化批判",
+   "domain_en": "Ideological Theory / Cultural Criticism",
+   "level": "核心",
+   "priority": 8,
+   "definition_zh": "将文化、思想、学术现象视为意识形态的反映，分析其背后的阶级利益和政治目的。任何理论都不是中立的，都有其意识形态立场和阶级属性。",
+   "definition_en": "View culture, thought, and academic phenomena as reflections of ideology, analyzing the underlying class interests and political purposes. No theory is neutral; all have ideological stances and class attributes.",
+   "source_chapter": "《评〈中国之命运〉》及文化批判实践",
+   "key_concepts": [
+    "意识形态",
+    "阶级立场",
+    "文化批判",
+    "理论政治性",
+    "思想斗争"
+   ],
+   "key_quote_zh": "在意识形态领域，无产阶级不去占领，资产阶级就必然去占领。",
+   "key_quote_en": "In the ideological sphere, if the proletariat does not occupy it, the bourgeoisie will inevitably take over.",
+   "process_zh": [
+    "识别文化现象背后的意识形态倾向",
+    "分析意识形态服务的阶级利益",
+    "揭示文化观点的政治功能和作用",
+    "在思想战线上进行必要的斗争"
+   ],
+   "process_en": [
+    "Identify ideological tendencies behind cultural phenomena",
+    "Analyze class interests served by the ideology",
+    "Reveal the political function and role of cultural viewpoints",
+    "Conduct necessary struggles on the ideological front"
+   ],
+   "representative_cases_zh": [
+    "对胡适实用主义的批判：揭示其'实用'背后的帝国主义依附性",
+    "对梁实秋人性论的批判：指出其掩盖阶级对立的资产阶级意识形态本质"
+   ],
+   "representative_cases_en": [
+    "Critique of Hu Shi's pragmatism: Revealed the imperialist dependency behind its 'practicality'",
+    "Critique of Liang Shiqiu's human nature theory: Pointed out its bourgeois ideological essence masking class antagonism"
+   ],
+   "modern_applications_zh": [
+    "文化现象批判",
+    "思想路线分析",
+    "舆论导向研究"
+   ],
+   "modern_applications_en": [
+    "Cultural phenomenon critique",
+    "Ideological line analysis",
+    "Public opinion orientation research"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-002",
+    "M-CHB-010"
+   ],
+   "legacy_mode_id": "M218",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-009",
+   "mode_code": "M-CHB-009",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "辩证否定法",
+   "name_en": "Dialectical Negation Method",
+   "category": "哲学思维",
+   "category_raw": "哲学思维",
+   "domain_zh": "辩证法/否定之否定",
+   "domain_en": "Dialectics / Negation of Negation",
+   "level": "核心",
+   "priority": 9,
+   "definition_zh": "通过对旧事物的否定实现新事物的产生，否定不是简单的抛弃，而是'扬弃'——既克服又保留。事物发展是通过肯定、否定、否定之否定的螺旋式上升过程实现的。",
+   "definition_en": "Achieve the emergence of new things through negation of the old. Negation is not simple abandonment but 'sublation'—both overcoming and preserving. Development proceeds through the spiral ascent of affirmation, negation, and negation of negation.",
+   "source_chapter": "马克思主义经典著作及《论毛泽东思想》",
+   "key_concepts": [
+    "辩证否定",
+    "扬弃",
+    "螺旋上升",
+    "否定之否定",
+    "发展观"
+   ],
+   "key_quote_zh": "辩证的否定是发展的环节，是通过矛盾而发展的。",
+   "key_quote_en": "Dialectical negation is a link in development, developing through contradiction.",
+   "process_zh": [
+    "认识事物的内在矛盾是发展的动力",
+    "理解否定是发展的环节而非简单的消灭",
+    "把握扬弃的含义：既克服又保留",
+    "预见否定之否定带来的更高发展阶段"
+   ],
+   "process_en": [
+    "Recognize internal contradictions as the driving force of development",
+    "Understand negation as a link in development, not simple elimination",
+    "Grasp the meaning of sublation: both overcoming and preserving",
+    "Foresee the higher development stage brought by negation of negation"
+   ],
+   "representative_cases_zh": [
+    "对中国传统文化的分析：既反对全盘西化，也反对盲目守旧，主张批判继承",
+    "对苏联模式的反思：吸收其经验教训，探索中国自己的社会主义道路"
+   ],
+   "representative_cases_en": [
+    "Analysis of Chinese traditional culture: Opposing both wholesale Westernization and blind conservatism, advocating critical inheritance",
+    "Reflection on the Soviet model: Absorbing its lessons while exploring China's own socialist path"
+   ],
+   "modern_applications_zh": [
+    "文化传承与创新",
+    "理论发展",
+    "社会变革分析"
+   ],
+   "modern_applications_en": [
+    "Cultural inheritance and innovation",
+    "Theoretical development",
+    "Social change analysis"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-006",
+    "M-CHB-010"
+   ],
+   "legacy_mode_id": "M219",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-CHB-010",
+   "mode_code": "M-CHB-010",
+   "figure_code": "H-CHB-001",
+   "figure_name": "陈伯达",
+   "name_zh": "综合方法论",
+   "name_en": "Comprehensive Methodology Method",
+   "category": "方法论通用",
+   "category_raw": "综合方法论",
+   "domain_zh": "方法论集成/系统性思维",
+   "domain_en": "Methodology Integration / Systems Thinking",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "将多种思维方法综合运用，根据具体情境灵活选择和分析。理论批判、阶级分析、政治敏锐、战斗檄文等方法不是孤立的，而是在具体实践中相互配合、相互支撑，形成完整的思想方法体系。",
+   "definition_en": "Comprehensively integrate multiple thinking methods, flexibly selecting and analyzing according to specific contexts. Theoretical critique, class analysis, political sensitivity, combat manifesto methods are not isolated but mutually supportive in practice, forming a complete system of thought methods.",
+   "source_chapter": "陈伯达思想方法综合",
+   "key_concepts": [
+    "方法论综合",
+    "灵活应用",
+    "系统思维",
+    "实践智慧",
+    "知行合一"
+   ],
+   "key_quote_zh": "方法是为解决问题服务的，不能脱离实际空谈方法。",
+   "key_quote_en": "Methods serve problem-solving and cannot be discussed in abstraction from reality.",
+   "process_zh": [
+    "识别问题的性质和领域：属于哪个学科范畴",
+    "选择合适的思维工具组合",
+    "综合运用多种方法进行系统分析",
+    "在实践中检验和修正方法论"
+   ],
+   "process_en": [
+    "Identify the nature and domain of the problem: which disciplinary category it belongs to",
+    "Select appropriate combinations of thinking tools",
+    "Comprehensively apply multiple methods for systematic analysis",
+    "Test and revise methodology in practice"
+   ],
+   "representative_cases_zh": [
+    "对《中国之命运》的批判综合运用了理论批判、阶级分析、历史唯物分析等多种方法",
+    "文革初期理论准备综合运用意识形态分析、政治敏锐、战斗檄文等多种方法"
+   ],
+   "representative_cases_en": [
+    "Critique of 'China's Destiny' comprehensively employed theoretical critique, class analysis, and historical materialist analysis",
+    "Theoretical preparation in early Cultural Revolution integrated ideological analysis, political sensitivity, and combat manifesto methods"
+   ],
+   "modern_applications_zh": [
+    "复杂问题分析",
+    "跨学科研究",
+    "综合决策支持"
+   ],
+   "modern_applications_en": [
+    "Complex problem analysis",
+    "Interdisciplinary research",
+    "Comprehensive decision support"
+   ],
+   "related_modes": [
+    "M-CHB-001",
+    "M-CHB-003",
+    "M-CHB-008"
+   ],
+   "legacy_mode_id": "M220",
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-001",
+   "mode_code": "M-FXT-001",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "差序格局分析法",
+   "name_en": "Differential Mode Analysis Method",
+   "category": "社会学",
+   "category_raw": "社会结构分析",
+   "domain_zh": "中国社会学理论",
+   "domain_en": "Chinese Sociological Theory",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "运用差序格局理论分析中国传统社会结构，指出以己为中心、按亲疏远近向外推展的社会关系模式。费孝通在《乡土中国》中提出，中国传统社会不是团体格局，而是像石子投入水中形成的波纹式差序结构，每个人都是其社会影响圈的中心。",
+   "definition_en": "Using differential mode theory to analyze traditional Chinese social structure, identifying the pattern where relationships radiate outward from self in concentric circles of proximity. Fei Xiaotong proposed that traditional Chinese society is not organized as groups but as differential waves radiating from the self.",
+   "source_chapter": "《乡土中国》（1948年）",
+   "key_concepts": [
+    "差序格局",
+    "波纹扩散",
+    "亲疏远近",
+    "自我中心",
+    "弹性边界"
+   ],
+   "key_quote_zh": "中国传统社会不是团体格局，而是差序格局。",
+   "key_quote_en": "Traditional Chinese society is not organized as groups but as differential mode.",
+   "process_zh": [
+    "识别社会网络中心节点：确定个人在社会关系中的核心位置",
+    "绘制关系远近图谱：按亲疏远近划分社会关系层次",
+    "分析资源分配的亲疏差异：理解人情社会的运作机制",
+    "预测关系变动趋势：把握社会关系动态变化规律"
+   ],
+   "process_en": [
+    "Identify social network center nodes: determine individual's core position in social relationships",
+    "Draw relationship proximity maps: divide social relationships into layers of closeness",
+    "Analyze resource allocation differences: understand the operating mechanism of favor-based society",
+    "Predict relationship change trends: grasp the dynamic patterns of social relationships"
+   ],
+   "representative_cases_zh": [
+    "《乡土中国》：系统阐述差序格局理论，成为中国社会学经典",
+    "江村经济研究：通过实地调查验证差序格局理论的实际应用"
+   ],
+   "representative_cases_en": [
+    "From the Soil: Systematically elaborated differential mode theory, becoming a classic of Chinese sociology",
+    "Jiangcun Economic Research: Verified practical application of differential mode theory through field research"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M341",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-002",
+   "mode_code": "M-FXT-002",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "多元一体格局理论",
+   "name_en": "Unity in Diversity Framework Theory",
+   "category": "政治治理",
+   "category_raw": "民族认同建构",
+   "domain_zh": "中华民族理论",
+   "domain_en": "Chinese National Theory",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "提出中华民族多元一体格局理论，认为中国56个民族在历史长河中形成了'多元'与'一体'的辩证统一。各民族文化多样性是'多元'，中华民族共同体意识是'一体'。这一理论为多民族国家的认同建设提供了核心理论框架。",
+   "definition_en": "Proposing the 'unity in diversity' framework for the Chinese nation, arguing that China's 56 ethnic groups formed a dialectical unity of 'diversity' and 'oneness' through historical processes. The multicultural diversity of each group represents 'diversity', while the Chinese nation community consciousness represents 'oneness'.",
+   "source_chapter": "《中华民族多元一体格局》（1989年）",
+   "key_concepts": [
+    "多元并存",
+    "一体认同",
+    "历史融合",
+    "文化多样性",
+    "共同体建设"
+   ],
+   "key_quote_zh": "各美其美，美人之美，美美与共，天下大同。",
+   "key_quote_en": "Each culture's beauty, others' beauty, shared beauty together leads to universal harmony.",
+   "process_zh": [
+    "识别各民族文化的独特性：尊重和保护各民族的文化传统",
+    "分析历史上民族交融的轨迹：理解中华民族形成的历史过程",
+    "构建多元一体的认同框架：在多样性中寻求统一性",
+    "制定兼顾差异与统一的区域政策：促进各民族共同发展"
+   ],
+   "process_en": [
+    "Identify uniqueness of each ethnic culture: respect and protect cultural traditions",
+    "Analyze historical trajectory of ethnic integration: understand the historical process of Chinese nation formation",
+    "Construct unity-in-diversity identity framework: seek unity within diversity",
+    "Formulate policies balancing difference and unity: promote common development of all ethnic groups"
+   ],
+   "representative_cases_zh": [
+    "《中华民族多元一体格局》：系统阐述56个民族的多元一体结构",
+    "民族区域自治实践：为多民族国家治理提供理论支撑"
+   ],
+   "representative_cases_en": [
+    "Unity in Diversity of Chinese Nation: Systematically elaborated the structure of 56 ethnic groups' unity in diversity",
+    "Ethnic Regional Autonomy Practice: Provided theoretical support for multi-ethnic state governance"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M342",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-003",
+   "mode_code": "M-FXT-003",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "乡土社会转型分析法",
+   "name_en": "Rural-Social Transformation Analysis Method",
+   "category": "经济商业",
+   "category_raw": "农村现代化",
+   "domain_zh": "乡村发展理论",
+   "domain_en": "Rural Development Theory",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "从乡土社会的土地依附关系出发，分析中国农村向现代社会转型的内在动力与路径。费孝通认为乡土中国的核心特征是'贴着地皮生活'，土地是农民的根本依托。现代化进程中的农村转型需要在理解乡土文化逻辑的基础上推进。",
+   "definition_en": "Analyzing the internal dynamics and pathways of China's rural-to-modern transition from the perspective of land-attachment in rural society. Fei Xiaotong believed that the core characteristic of rural China is 'living close to the land', where land is farmers' fundamental foundation.",
+   "source_chapter": "《乡土中国》《乡土重建》（1948年）",
+   "key_concepts": [
+    "土地依附",
+    "乡土逻辑",
+    "渐进转型",
+    "文化延续",
+    "城乡协调"
+   ],
+   "key_quote_zh": "现代化不是简单地用城市模式取代农村模式。",
+   "key_quote_en": "Modernization is not simply replacing rural models with urban models.",
+   "process_zh": [
+    "分析乡土社会的内在特征：理解传统农村的社会结构和文化特征",
+    "识别现代化冲击下的文化断裂点：发现传统与现代的冲突",
+    "设计渐进式转型方案：尊重乡土文化逻辑的现代化路径",
+    "建立城乡协调的发展机制：避免简单照搬城市模式"
+   ],
+   "process_en": [
+    "Analyze inherent characteristics of rural society: understand traditional rural social structure and cultural features",
+    "Identify cultural breakpoints under modernization impact: discover conflicts between tradition and modernity",
+    "Design gradual transformation plans: modernization paths respecting rural cultural logic",
+    "Establish urban-rural coordinated development mechanisms: avoid simply copying urban models"
+   ],
+   "representative_cases_zh": [
+    "江村土地制度改革研究：探索符合中国国情的农村转型路径",
+    "乡镇企业发展实践：验证农村工业化的可行性"
+   ],
+   "representative_cases_en": [
+    "Jiangcun land system reform research: explored rural transformation paths suitable for China's conditions",
+    "Township enterprise development practice: verified the feasibility of rural industrialization"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M343",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-004",
+   "mode_code": "M-FXT-004",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "实地调查研究法",
+   "name_en": "Field Research Methodology",
+   "category": "科学方法",
+   "category_raw": "研究方法论",
+   "domain_zh": "社会学人类学",
+   "domain_en": "Sociology Anthropology",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "开创中国社会学实地调查研究范式，强调'脚板底下出学问'。费孝通在江苏开弦弓村（江村）进行的长期田野调查，成为中国社会学实地研究的经典范例。该方法主张研究者必须深入实际生活场景，从直接观察和访谈中获取第一手资料。",
+   "definition_en": "Pioneering Chinese sociological field research methodology, emphasizing 'knowledge comes from walking the ground'. Fei Xiaotong's long-term field investigation in Kialiang Village (Jiangcun), Jiangsu, became a classic example of Chinese sociological field research.",
+   "source_chapter": "《江村经济》（1939年）",
+   "key_concepts": [
+    "实地深入",
+    "第一手资料",
+    "参与观察",
+    "长期跟踪",
+    "理论联系实际"
+   ],
+   "key_quote_zh": "脚板底下出学问，田野调查出真知。",
+   "key_quote_en": "Knowledge comes from walking the ground, truth emerges from field research.",
+   "process_zh": [
+    "选择具有代表性的研究场域：确定典型的研究对象和地点",
+    "进行长期参与观察：深入生活实际，建立信任关系",
+    "系统收集访谈与文献资料：多角度获取研究数据",
+    "从实际数据中提炼理论：形成具有普遍意义的理论概念"
+   ],
+   "process_en": [
+    "Select representative research sites: determine typical research subjects and locations",
+    "Conduct long-term participatory observation: deeply engage in daily life, build trust relationships",
+    "Systematically collect interview and documentary data: obtain research data from multiple angles",
+    "Extract theories from actual data: form theoretically significant concepts with universal meaning"
+   ],
+   "representative_cases_zh": [
+    "江村经济调查：通过长期田野调查获得第一手农村数据",
+    "少数民族地区研究：将西方人类学理论应用于中国实际"
+   ],
+   "representative_cases_en": [
+    "Jiangcun economic research: obtained firsthand rural data through long-term field investigation",
+    "Ethnic minority area research: applied Western anthropological theories to Chinese reality"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M344",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-005",
+   "mode_code": "M-FXT-005",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "文化自觉理论",
+   "name_en": "Cultural Self-Awareness Theory",
+   "category": "文艺审美",
+   "category_raw": "文化认同",
+   "domain_zh": "文化研究",
+   "domain_en": "Cultural Studies",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "晚年提出'文化自觉'概念，强调在全球化背景下重新认识自身文化的价值与局限。费孝通认为文化自觉不是文化复古，而是'各美其美，美人之美，美美与共，天下大同'——在认识自身文化的基础上，理解并尊重其他文化的价值。",
+   "definition_en": "In his later years, proposed the concept of 'cultural self-awareness', emphasizing the need to re-examine one's own cultural value and limitations in a globalized context. Fei believed cultural self-awareness means 'appreciate one's own culture, appreciate others' cultures, beauty shared together leads to universal harmony'.",
+   "source_chapter": "费孝通晚年系列论述",
+   "key_concepts": [
+    "自我认知",
+    "文化反思",
+    "多元尊重",
+    "天下大同",
+    "文明对话"
+   ],
+   "key_quote_zh": "文化自觉是当今时代发展的精神基础。",
+   "key_quote_en": "Cultural self-awareness is the spiritual foundation for contemporary development.",
+   "process_zh": [
+    "梳理本文化的历史脉络与核心价值：建立文化主体意识",
+    "识别文化在现代社会中的挑战与机遇：反思传统文化的现代意义",
+    "建立与其他文明的对话机制：促进不同文明间的交流互鉴",
+    "在实践中探索文化创新：推动传统文化的创造性转化"
+   ],
+   "process_en": [
+    "Sort out historical context and core values of one's culture: establish cultural subjectivity",
+    "Identify challenges and opportunities for culture in modern society: reflect on contemporary significance of traditional culture",
+    "Establish dialogue mechanisms with other civilizations: promote exchange and mutual learning",
+    "Explore cultural innovation in practice: promote creative transformation of traditional culture"
+   ],
+   "representative_cases_zh": [
+    "费孝通晚年文化自觉论述：系统阐述文化自觉的理论内涵",
+    "跨文化交流实践：推动中西文化的深度对话"
+   ],
+   "representative_cases_en": [
+    "Fei Xiaotong's later cultural self-awareness writings: systematically elaborated the theoretical connotation",
+    "Cross-cultural communication practice: promoted in-depth dialogue between Chinese and Western cultures"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M345",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-006",
+   "mode_code": "M-FXT-006",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "社区综合研究法",
+   "name_en": "Comprehensive Community Study Method",
+   "category": "社会学",
+   "category_raw": "社区研究",
+   "domain_zh": "社区治理",
+   "domain_en": "Community Governance",
+   "level": "应用",
+   "priority": 6,
+   "definition_zh": "将社区作为完整的社会系统来研究，从微观到宏观层层展开分析。费孝通主张以具体社区为切入点，通过经济、社会、文化、政治等多维度综合分析，揭示中国农村社会的整体结构及其与外部世界的联系。",
+   "definition_en": "Treating the community as a complete social system, analyzing layer by layer from micro to macro. Fei advocated using specific communities as entry points for multi-dimensional comprehensive analysis of Chinese rural society's overall structure and its connections to the outside world.",
+   "source_chapter": "费孝通社区研究系列",
+   "key_concepts": [
+    "系统思维",
+    "微观切入",
+    "多维分析",
+    "内外联系",
+    "整体把握"
+   ],
+   "key_quote_zh": "社区是社会的基本单位，也是社会研究的切入点。",
+   "key_quote_en": "Community is the basic unit of society and also the entry point for social research.",
+   "process_zh": [
+    "选择典型社区作为研究样本：确定具有代表性的研究对象",
+    "从经济、社会、文化多维度展开调查：全面收集社区信息",
+    "分析社区与外部环境的联系：理解社区发展的外部条件",
+    "总结社区发展的一般规律：形成具有普遍意义的理论"
+   ],
+   "process_en": [
+    "Select typical communities as research samples: determine representative research subjects",
+    "Conduct comprehensive survey from economic, social, cultural dimensions: collect comprehensive community information",
+    "Analyze connections between community and external environment: understand external conditions for community development",
+    "Summarize general patterns of community development: form theories with universal significance"
+   ],
+   "representative_cases_zh": [
+    "江村系列研究：建立从微观社区到宏观社会的分析框架",
+    "小城镇研究：探索城乡结合部的发展模式"
+   ],
+   "representative_cases_en": [
+    "Jiangcun series research: established analysis framework from micro-community to macro-society",
+    "Small town research: explored development models of urban-rural fringe areas"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M346",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-007",
+   "mode_code": "M-FXT-007",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "区域协调发展法",
+   "name_en": "Regional Coordinated Development Method",
+   "category": "经济商业",
+   "category_raw": "区域发展",
+   "domain_zh": "区域经济学",
+   "domain_en": "Regional Economics",
+   "level": "应用",
+   "priority": 7,
+   "definition_zh": "从地理经济学角度分析中国区域发展的不平衡性，提出小城镇建设作为城乡协调的中介机制。费孝通晚年关注中国区域发展差距问题，提出通过小城镇建设带动农村工业化，实现城乡协调发展。",
+   "definition_en": "Analyzing China's regional development imbalances from a geographical economics perspective, proposing small town construction as an intermediary mechanism for urban-rural coordination. In his later years, Fei focused on China's regional development gaps.",
+   "source_chapter": "费孝通区域发展论述",
+   "key_concepts": [
+    "区域平衡",
+    "小城镇中介",
+    "城乡协调",
+    "农村工业化",
+    "梯度发展"
+   ],
+   "key_quote_zh": "小城镇大问题，小城镇大战略。",
+   "key_quote_en": "Small towns, big problems; small towns, big strategy.",
+   "process_zh": [
+    "识别区域发展的关键瓶颈：分析制约区域发展的主要因素",
+    "规划小城镇的功能定位：确定小城镇在区域发展中的作用",
+    "推动农村工业化与城镇化同步发展：促进城乡产业融合",
+    "建立区域协调的政策机制：为区域发展提供制度保障"
+   ],
+   "process_en": [
+    "Identify key bottlenecks in regional development: analyze main factors constraining regional development",
+    "Plan functional positioning of small towns: determine the role of small towns in regional development",
+    "Promote simultaneous rural industrialization and urbanization: promote urban-rural industrial integration",
+    "Establish policy mechanisms for regional coordination: provide institutional guarantee for regional development"
+   ],
+   "representative_cases_zh": [
+    "苏南乡镇企业研究：探索农村工业化的发展路径",
+    "区域协调发展实践：为区域政策制定提供理论支撑"
+   ],
+   "representative_cases_en": [
+    "Southern Jiangsu township enterprise research: explored development paths of rural industrialization",
+    "Regional coordinated development practice: provided theoretical support for regional policy formulation"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M347",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-008",
+   "mode_code": "M-FXT-008",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "民族政策综合评估法",
+   "name_en": "Comprehensive Ethnic Policy Assessment Method",
+   "category": "政治治理",
+   "category_raw": "民族政策",
+   "domain_zh": "民族学",
+   "domain_en": "Ethnology",
+   "level": "应用",
+   "priority": 8,
+   "definition_zh": "从民族学角度综合评估中国民族政策的理论与实践效果，提出在尊重文化多样性的基础上构建中华民族共同体。费孝通通过对西南少数民族的长期田野调查，形成了对民族政策效果的系统性评估框架。",
+   "definition_en": "Comprehensively evaluating the theoretical and practical effects of China's ethnic policies from an anthropological perspective, proposing the construction of a Chinese nation community on the basis of respecting cultural diversity.",
+   "source_chapter": "费孝通民族研究",
+   "key_concepts": [
+    "文化尊重",
+    "区域自治",
+    "共同体建设",
+    "平等发展",
+    "文化保护"
+   ],
+   "key_quote_zh": "各民族共同繁荣是民族政策的根本目标。",
+   "key_quote_en": "Common prosperity of all ethnic groups is the fundamental goal of ethnic policies.",
+   "process_zh": [
+    "评估各民族文化的生存状况：了解民族文化的发展现状",
+    "分析民族政策的实际效果：评价政策实施的实际影响",
+    "识别文化保护与发展的关键问题：找出政策制定中的不足",
+    "提出兼顾差异与统一的政策建议：完善民族政策体系"
+   ],
+   "process_en": [
+    "Evaluate survival status of each ethnic culture: understand current development status",
+    "Analyze practical effects of ethnic policies: evaluate actual impact of policy implementation",
+    "Identify key issues in cultural protection and development: find shortcomings in policy formulation",
+    "Propose policy suggestions balancing difference and unity: improve ethnic policy system"
+   ],
+   "representative_cases_zh": [
+    "西南少数民族社会历史调查：为民族政策制定提供实证基础",
+    "民族区域自治制度评估：完善民族治理体系"
+   ],
+   "representative_cases_en": [
+    "Southwest ethnic minority social historical survey: provided empirical basis for ethnic policy formulation",
+    "Ethnic regional autonomy system evaluation: improved ethnic governance system"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M348",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-009",
+   "mode_code": "M-FXT-009",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "知识生产田野转化法",
+   "name_en": "Field-to-Knowledge Production Method",
+   "category": "科学方法",
+   "category_raw": "知识生产",
+   "domain_zh": "社会科学方法论",
+   "domain_en": "Social Science Methodology",
+   "level": "方法",
+   "priority": 9,
+   "definition_zh": "将田野调查获得的经验材料转化为理论知识的系统方法。费孝通主张从具体社会现象出发，通过科学的分析框架提炼出具有普遍意义的理论概念。其'差序格局''多元一体'等核心概念均源于田野调查的理论升华。",
+   "definition_en": "A systematic method for transforming empirical materials obtained from field research into theoretical knowledge. Fei advocated starting from concrete social phenomena and extracting theoretically significant concepts through scientific analytical frameworks.",
+   "source_chapter": "费孝通学术方法论",
+   "key_concepts": [
+    "从现象到本质",
+    "经验理论化",
+    "概念创造",
+    "实践检验",
+    "理论创新"
+   ],
+   "key_quote_zh": "理论源于实践，又指导实践。",
+   "key_quote_en": "Theory originates from practice and guides practice.",
+   "process_zh": [
+    "深入田野获取经验材料：通过实地调查获得第一手资料",
+    "从具体现象中发现理论问题：识别现象背后的理论意义",
+    "提炼具有概括性的核心概念：形成具有普遍解释力的理论",
+    "通过更多案例验证理论的适用性：检验理论的解释力"
+   ],
+   "process_en": [
+    "Deeply enter field to obtain empirical materials: get firsthand data through field research",
+    "Discover theoretical problems from concrete phenomena: identify theoretical significance behind phenomena",
+    "Extract core concepts with generalization: form theories with universal explanatory power",
+    "Verify theory applicability through more cases: test theory's explanatory power"
+   ],
+   "representative_cases_zh": [
+    "差序格局概念提出：从江村调查中提炼出核心理论概念",
+    "多元一体理论建构：从民族研究中形成系统理论框架"
+   ],
+   "representative_cases_en": [
+    "Differential mode concept proposal: extracted core theoretical concept from Jiangcun research",
+    "Unity in diversity theory construction: formed systematic theoretical framework from ethnic research"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M349",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-FXT-010",
+   "mode_code": "M-FXT-010",
+   "figure_code": "H-FXT-001",
+   "figure_name": "费孝通",
+   "name_zh": "跨文化比较分析法",
+   "name_en": "Cross-Cultural Comparative Analysis Method",
+   "category": "跨文化治理",
+   "category_raw": "跨文化研究",
+   "domain_zh": "比较社会学",
+   "domain_en": "Comparative Sociology",
+   "level": "方法",
+   "priority": 10,
+   "definition_zh": "将中国社会置于世界文明比较的视野中，通过中西社会结构对比揭示中国社会的独特性。费孝通早年留学英国伦敦大学，师从马林诺夫斯基学习功能主义人类学，回国后将西方理论框架与中国社会实际相结合，开创了中西比较社会学的先河。",
+   "definition_en": "Placing Chinese society within the framework of world civilization comparison, revealing the uniqueness of Chinese society through East-West structural analysis. Fei studied functionalist anthropology at LSE under Malinowski, later combining Western theoretical frameworks with Chinese social reality.",
+   "source_chapter": "费孝通比较研究",
+   "key_concepts": [
+    "中西对比",
+    "文明对话",
+    "理论本土化",
+    "比较视野",
+    "理论创新"
+   ],
+   "key_quote_zh": "中西结合，推陈出新。",
+   "key_quote_en": "Combine Chinese and Western, innovate from tradition.",
+   "process_zh": [
+    "掌握西方理论框架的核心逻辑：理解西方理论的基础原理",
+    "将其与中国社会实际进行对照分析：识别中西社会的异同",
+    "识别中西社会的结构性差异：发现中国社会的独特性",
+    "提炼具有普遍意义的理论贡献：为世界社会科学贡献中国智慧"
+   ],
+   "process_en": [
+    "Master core logic of Western theoretical frameworks: understand basic principles of Western theories",
+    "Compare with Chinese social reality for analysis: identify similarities and differences between Chinese and Western societies",
+    "Identify structural differences between Chinese and Western societies: discover uniqueness of Chinese society",
+    "Extract theoretical contributions with universal significance: contribute Chinese wisdom to world social sciences"
+   ],
+   "representative_cases_zh": [
+    "《江村经济》中西比较研究：成功运用西方理论分析中国农村",
+    "功能主义人类学本土化：将西方理论框架与中国实际相结合"
+   ],
+   "representative_cases_en": [
+    "Jiangcun Economic Research East-West comparison: successfully applied Western theories to analyze Chinese rural areas",
+    "Localization of functionalist anthropology: combined Western theoretical frameworks with Chinese reality"
+   ],
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M350",
+   "legacy_missing_fields": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（自样例基线沿用（仅 provenance 字段更新，内容未改））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-001",
+   "mode_code": "M-DYC-001",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "妇女解放法",
+   "name_en": "Women's Liberation Method",
+   "category": "社会变革思维",
+   "category_raw": "社会变革思维",
+   "domain_zh": "马克思主义妇女观/性别平等",
+   "domain_en": "Marxist Women's Theory / Gender Equality",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "以妇女解放为核心推动社会变革的系统性动员方法。邓颖超认为，妇女解放不是简单的'男女平权'口号，而是通过组织化、制度化的方式将分散的妇女力量凝聚为改变社会的政治能量。她创立天津女界爱国同志会，建立全国妇联，推动《婚姻法》立法，将妇女从家庭私有制中解放出来纳入公共生产领域。此法强调：第一，妇女必须走出家门参与社会活动；第二，妇女解放与民族解放、阶级解放不可分割；第三，必须通过法律和组织手段保障妇女权益。'妇女能顶半边天'是其最凝练的表达——不是比喻，而是对中国妇女社会地位和政治作用的本体论断言。",
+   "definition_en": "A systematic mobilization method centering women's liberation as the core driver of social transformation. Deng Yingchao believed that women's liberation is not a simple 'gender equality' slogan, but the organized and institutionalized aggregation of dispersed women's forces into political energy for societal change. She established the Tianjin Women's Patriots' Association, built the All-China Women's Federation for 30+ years, and promoted the Marriage Law legislation. This method emphasizes: first, women must leave homes to participate in social activities; second, women's liberation is inseparable from national and class liberation; third, legal and organizational means must guarantee women's rights. 'Women hold up half the sky' is its most condensed expression — not a metaphor, but an ontological claim about Chinese women's social status and political role.",
+   "source_chapter": "天津女界爱国同志会成立宣言、全国妇联工作报告、《中华人民共和国婚姻法》（1950）",
+   "key_concepts": [
+    "妇女解放",
+    "半边天",
+    "组织化动员",
+    "妇联体制",
+    "走出家门",
+    "社会生产参与",
+    "法律保障",
+    "性别平等",
+    "半边天理论",
+    "组织化运动"
+   ],
+   "key_quote_zh": "妇女能顶半边天",
+   "key_quote_en": "Women hold up half the sky.",
+   "process_zh": [
+    "确立妇女解放目标",
+    "推动法律保障体系",
+    "建立组织网络",
+    "开展宣传教育",
+    "实现制度固化"
+   ],
+   "process_en": [
+    "Establish women's liberation goals",
+    "Promote legal protection system",
+    "Build organizational networks",
+    "Conduct education and propaganda",
+    "Institutionalize achievements"
+   ],
+   "representative_cases_zh": [
+    "推动《婚姻法》颁布，废除封建婚姻制度",
+    "建立全国妇联及地方各级妇联组织网络"
+   ],
+   "representative_cases_en": [
+    "Promulgation of the Marriage Law abolishing feudal marriage system",
+    "Establishment of All-China Women's Federation and local branches"
+   ],
+   "modern_applications_zh": [
+    "性别平等政策制定",
+    "妇女权益法律保障",
+    "女性政治参与"
+   ],
+   "modern_applications_en": [
+    "Gender equality policy making",
+    "Women's rights legal protection",
+    "Female political participation"
+   ],
+   "related_modes": [
+    "M-DYC-004",
+    "M-DYC-006",
+    "M-DYC-005",
+    "M-DYC-002"
+   ],
+   "legacy_mode_id": "M321",
+   "legacy_fields": {
+    "process": [
+     "识别妇女群体在社会结构中的被压迫地位",
+     "建立妇女专属组织（如天津女界爱国同志会）",
+     "将妇女运动与民族解放、阶级解放相联结",
+     "通过法律手段保障妇女权益（婚姻法、劳动法）",
+     "推动妇女大规模参与公共生产和社会治理"
+    ],
+    "modern_applications": [
+     "性别平等政策制定",
+     "妇女组织与NGO管理",
+     "职场平权立法",
+     "女性领导力培养"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-002",
+   "mode_code": "M-DYC-002",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "柔性外交法",
+   "name_en": "Flexible Diplomacy Method",
+   "category": "国际关系思维",
+   "category_raw": "国际关系思维",
+   "domain_zh": "外交策略/民间交流",
+   "domain_en": "Diplomatic Strategy / People-to-People Exchange",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "以温和、灵活、非对抗性的方式处理复杂国际关系的外交方法论。邓颖超在1970年代负责中美、中日关系正常化工作中的对台和对国外交事务，创造性地运用'柔性'策略：她利用与国民党的人脉网络、个人声誉和统一战线经验，以非正式渠道推进官方难以直接开展的外交接触。在1972年尼克松访华前夕和1973年美国驻北京联络处成立过程中，邓颖超承担了大量秘密外交任务。她以'私人交情'为掩护处理敏感政治议题，既维护国家利益又避免外交僵局。此法的核心是：将'柔'（温和、灵活、非正式）与'刚'（坚定的国家立场和原则）有机结合，在体制约束下寻找创新空间。",
+   "definition_en": "A diplomatic methodology that handles complex international relations through gentle, flexible, non-confrontational approaches. Deng Yingchao managed China-US and China-Japan normalization relations in the 1970s, creatively applying 'flexible' strategies: she used her KMT-era networks, personal reputation and united front experience to advance sensitive diplomatic contacts through informal channels. She undertook secret diplomacy tasks during Nixon's 1972 visit and the 1973 US Liaison Office establishment. Covering sensitive political issues as 'personal connections' while safeguarding national interests and avoiding diplomatic deadlocks. Core: combining 'softness' (gentle, flexible, informal) with 'firmness' (resolute national principles), finding innovative space within institutional constraints.",
+   "source_chapter": "中美建交谈判档案、中日关系正常化文献、邓颖超外交工作回忆录",
+   "key_concepts": [
+    "柔性外交",
+    "非正式渠道",
+    "统一战线",
+    "秘密接触",
+    "私人交情",
+    "体制内创新",
+    "人文关怀",
+    "民间交流",
+    "制度对话",
+    "政治僵局化解"
+   ],
+   "key_quote_zh": "外交以柔性化解僵局，以人文关怀推动理解",
+   "key_quote_en": "Diplomacy resolves deadlocks through flexibility, promotes understanding through humanitarian care.",
+   "process_zh": [
+    "识别外交僵局核心矛盾",
+    "确定柔性突破点",
+    "开展人文交流",
+    "推动制度对话",
+    "实现关系正常化"
+   ],
+   "process_en": [
+    "Identify core deadlock in diplomacy",
+    "Determine flexible breakthrough point",
+    "Conduct cultural exchange",
+    "Promote institutional dialogue",
+    "Achieve normalization"
+   ],
+   "representative_cases_zh": [
+    "中美建交前外交破冰",
+    "中日邦交正常化过程中的民间交流推动"
+   ],
+   "representative_cases_en": [
+    "Diplomatic breakthrough before Sino-US normalization",
+    "People-to-people exchange during Sino-Japanese relations"
+   ],
+   "modern_applications_zh": [
+    "国际关系谈判",
+    "跨国文化交流",
+    "外交危机处理"
+   ],
+   "modern_applications_en": [
+    "International relations negotiation",
+    "Cross-cultural exchange",
+    "Diplomatic crisis management"
+   ],
+   "related_modes": [
+    "M-DYC-007",
+    "M-DYC-009",
+    "M-DYC-001",
+    "M-DYC-005"
+   ],
+   "legacy_mode_id": "M322",
+   "legacy_fields": {
+    "process": [
+     "识别官方外交受阻的关键节点",
+     "利用已有的人脉网络和非正式关系建立接触渠道",
+     "以'私人交情'名义传递敏感政治信息",
+     "在维护国家核心利益前提下保持灵活性和创造性",
+     "将非正式成果转化为制度化安排"
+    ],
+    "modern_applications": [
+     "危机外交与秘密谈判",
+     "多边关系协调",
+     "公共外交与人道交流",
+     "跨文化沟通策略"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-003",
+   "mode_code": "M-DYC-003",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "党内民主法",
+   "name_en": "Party Internal Democracy Method",
+   "category": "政党治理思维",
+   "category_raw": "政党治理思维",
+   "domain_zh": "党的建设/民主集中制",
+   "domain_en": "Party Building / Democratic Centralism",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "在中国共产党内部倡导民主集中制制度化、保障党员民主权利的组织治理方法。邓颖超长期担任党内重要领导职务，她深刻认识到'没有民主就没有社会主义，就没有社会主义现代化'。在历次党内斗争中（特别是文革期间），她坚持正确的组织原则，既不盲从也不对抗，而是通过制度化渠道维护党的团结和统一。她主张'民主集中制不是简单的一说了之'，而应建立规范的决策程序和监督机制。文革后，她推动党内民主制度的恢复和重建，强调'批评与自我批评'不是运动式的批判斗争，而应是常态化的党内政治生活。此法的核心：在集中统一领导的前提下保障充分的民主讨论，以制度化方式实现党内决策的科学化和规范化。",
+   "definition_en": "An organizational governance method advocating institutionalization of democratic centralism and safeguarding party members' democratic rights within the CCP. Deng Yingchao, holding key internal leadership positions for decades, profoundly recognized that 'without democracy there is no socialism.' During various party struggles (especially the Cultural Revolution), she upheld correct organizational principles — neither blindly following nor directly confronting — instead maintaining party unity through institutional channels. Post-Cultural Revolution, she promoted the restoration of intra-party democratic institutions, emphasizing that 'criticism and self-criticism' should be normalized party life rather than campaign-style struggles. Core: guaranteeing full democratic discussion within unified leadership, achieving scientific and standardized party decision-making through institutionalized processes.",
+   "source_chapter": "中共十一大、十二大报告文献、邓颖超党内民主思想论述",
+   "key_concepts": [
+    "民主集中制",
+    "党内民主",
+    "批评与自我批评",
+    "制度化治理",
+    "决策科学化",
+    "制度化建设",
+    "政党廉洁"
+   ],
+   "key_quote_zh": "党内民主是党的生命",
+   "key_quote_en": "Intra-party democracy is the life of the Party.",
+   "process_zh": [
+    "建立民主讨论机制",
+    "制度化批评与自我批评",
+    "完善选举制度",
+    "强化监督体系",
+    "推进决策科学化"
+   ],
+   "process_en": [
+    "Establish democratic discussion mechanisms",
+    "Institutionalize criticism and self-criticism",
+    "Improve election systems",
+    "Strengthen oversight",
+    "Advance scientific decision-making"
+   ],
+   "representative_cases_zh": [
+    "推动批评与自我批评制度化",
+    "党内民主集中制建设的长期实践"
+   ],
+   "representative_cases_en": [
+    "Promotion of institutionalized criticism and self-criticism",
+    "Long-term practice of democratic centralism"
+   ],
+   "modern_applications_zh": [
+    "政党治理现代化",
+    "党内监督体系建设",
+    "决策科学化"
+   ],
+   "modern_applications_en": [
+    "Party governance modernization",
+    "Intra-party oversight system construction",
+    "Scientific decision-making"
+   ],
+   "related_modes": [
+    "M-DYC-008",
+    "M-DYC-001",
+    "M-DYC-004"
+   ],
+   "legacy_mode_id": "M323",
+   "legacy_fields": {
+    "process": [
+     "识别党内民主运行的制度性障碍",
+     "建立规范的决策程序和监督机制",
+     "推动'批评与自我批评'常态化而非运动化",
+     "在集中统一领导下保障充分的民主讨论空间",
+     "通过制度化渠道实现党内决策的科学化和规范化"
+    ],
+    "modern_applications": [
+     "政党治理与制度建设",
+     "组织决策机制优化",
+     "党内民主评估体系"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-004",
+   "mode_code": "M-DYC-004",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "婚姻立法推动法",
+   "name_en": "Marriage Law Promotion Method",
+   "category": "法制建设思维",
+   "category_raw": "法制建设思维",
+   "domain_zh": "婚姻家庭法/妇女权益保障",
+   "domain_en": "Marriage and Family Law / Women's Rights Protection",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "通过法律制度建设推动社会基础关系变革的立法方法论。邓颖超是新中国第一部《婚姻法》（1950）的主要推动者之一，她主持起草、反复修改、积极推动该法的颁布实施。这部婚姻法废除了封建包办婚姻、纳妾制度、童养媳等旧习俗，确立了婚姻自由、一夫一妻、男女平等、保护妇女和子女权益的新原则。邓颖超的立法推动法强调：第一，法律是改变社会基础关系的最有力工具；第二，婚姻问题不仅是个人私事，更是国家社会治理的核心议题；第三，法律的实施需要同广泛的群众动员相结合。她亲自到全国各地宣讲婚姻法，发动群众监督执行，使这部法律成为新中国社会改革的重要里程碑。",
+   "definition_en": "A legislative methodology that uses legal institutional construction to drive fundamental social transformation. Deng Yingchao was one of the main promoters of New China's first Marriage Law (1950), presiding over its drafting, revisions and promotion. This law abolished feudal arranged marriage, concubinage, child bride customs, establishing new principles of free marriage, monogamy, gender equality and protection of women's and children's rights. Deng emphasized: first, law is the most powerful tool for changing fundamental social relations; second, marriage is not merely a private matter but core to national governance; third, legal implementation must be combined with mass mobilization. She traveled nationwide promoting the Marriage Law, launching public oversight of its enforcement — making it a milestone in New China's social reform.",
+   "source_chapter": "《中华人民共和国婚姻法》（1950）起草过程、邓颖超关于婚姻法的讲话和报告",
+   "key_concepts": [
+    "婚姻法",
+    "废除封建婚姻制度",
+    "一夫一妻制",
+    "男女平等",
+    "群众动员立法",
+    "法律保障",
+    "封建废除",
+    "婚姻自由",
+    "制度变革"
+   ],
+   "key_quote_zh": "废除封建婚姻制度，确立男女平等、婚姻自由",
+   "key_quote_en": "Abolish feudal marriage system, establish gender equality and marital freedom.",
+   "process_zh": [
+    "识别社会核心矛盾",
+    "推动关键法律立法",
+    "废除封建制度残余",
+    "确立平等原则",
+    "建立配套保障体系"
+   ],
+   "process_en": [
+    "Identify core social contradictions",
+    "Promote key legislation",
+    "Abolish feudal remnants",
+    "Establish equality principles",
+    "Build supporting guarantee system"
+   ],
+   "representative_cases_zh": [
+    "1950年《婚姻法》颁布，废除包办婚姻、纳妾等封建制度",
+    "推动后续妇女权益保障相关立法"
+   ],
+   "representative_cases_en": [
+    "1950 Marriage Law abolishing arranged marriage and concubinage",
+    "Subsequent legislation on women's rights protection"
+   ],
+   "modern_applications_zh": [
+    "婚姻家庭法律改革",
+    "性别平等政策推进",
+    "弱势群体权益保障"
+   ],
+   "modern_applications_en": [
+    "Marriage and family law reform",
+    "Gender equality policy advancement",
+    "Vulnerable group rights protection"
+   ],
+   "related_modes": [
+    "M-DYC-001",
+    "M-DYC-006",
+    "M-DYC-005",
+    "M-DYC-009"
+   ],
+   "legacy_mode_id": "M324",
+   "legacy_fields": {
+    "process": [
+     "识别旧社会婚姻制度中的不合理因素",
+     "主持起草和反复修改婚姻法草案",
+     "推动立法机构审议通过",
+     "亲自到全国各地宣讲并组织群众监督执行",
+     "通过实施效果反馈推动法律的进一步完善"
+    ],
+    "modern_applications": [
+     "社会改革立法策略",
+     "家庭法与婚姻法修订",
+     "性别平等法律保障",
+     "法律实施监督机制"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-005",
+   "mode_code": "M-DYC-005",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "组织网络构建法",
+   "name_en": "Organizational Network Construction Method",
+   "category": "组织建设思维",
+   "category_raw": "组织建设思维",
+   "domain_zh": "社会组织/群众运动",
+   "domain_en": "Social Organization / Mass Movement",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "通过建立多层次、广覆盖的群众组织网络来实现大规模社会动员的方法论。邓颖超是中国妇女组织的创建者和长期领导者，她深知'没有组织就没有力量'。从天津女界爱国同志会到全国妇联，她构建了覆盖城乡的妇女组织网络：城市中有工厂女工委员会、街道妇联；农村中有生产队妇女小组、农妇协会。这种网络不仅是一个组织体系，更是一种社会治理模式——将分散的个体妇女通过组织架构凝聚为有组织的社会力量。她在文革期间仍坚持组织联系，确保妇联工作不断线。此法的关键在于：第一，组织架构必须深入基层（'从群众中来，到群众中去'）；第二，组织网络要具有灵活性和适应性，能够根据不同历史时期的任务调整工作重点；第三，组织领导者的个人魅力与制度化建设相结合。",
+   "definition_en": "A mass mobilization methodology building multi-level, extensively-covered organizational networks. As creator and long-term leader of China's women organizations, Deng knew 'without organization there is no strength.' From the Tianjin Women's Patriots' Association to the All-China Women's Federation, she built an urban-rural women's network: factory women's committees and street-level federations in cities; women's groups in production teams and peasant associations in rural areas. This network is not merely an organizational system but a governance model — consolidating scattered individual women into organized social forces through structural frameworks. Even during the Cultural Revolution, she maintained organizational continuity ensuring women's federation work never stopped.",
+   "source_chapter": "全国妇联组织史、天津女界爱国同志会档案、邓颖超组织工作论述",
+   "key_concepts": [
+    "群众组织网络",
+    "妇联体制",
+    "基层组织",
+    "城乡覆盖",
+    "组织连续性",
+    "三级网络",
+    "组织覆盖",
+    "群众动员",
+    "制度建设",
+    "基层渗透"
+   ],
+   "key_quote_zh": "建全国妇联、地方妇联、基层妇代会三级组织网络",
+   "key_quote_en": "Establish a three-tier network of national, local Women's Federations and grassroots committees.",
+   "process_zh": [
+    "确立组织目标",
+    "建立中央领导机构",
+    "完善地方层级",
+    "深入基层网络",
+    "实现全面覆盖"
+   ],
+   "process_en": [
+    "Establish organizational goals",
+    "Build central leadership body",
+    "Improve local tiers",
+    "Grassroots network penetration",
+    "Achieve comprehensive coverage"
+   ],
+   "representative_cases_zh": [
+    "全国妇联体系建立",
+    "地方各级妇联组织建设",
+    "基层妇代会网络覆盖"
+   ],
+   "representative_cases_en": [
+    "All-China Women's Federation system establishment",
+    "Local branch construction",
+    "Grassroots committee network coverage"
+   ],
+   "modern_applications_zh": [
+    "社会组织体系建设",
+    "群众运动组织化",
+    "基层治理创新"
+   ],
+   "modern_applications_en": [
+    "Social organization system construction",
+    "Mass movement organization",
+    "Grassroots governance innovation"
+   ],
+   "related_modes": [
+    "M-DYC-001",
+    "M-DYC-007",
+    "M-DYC-003",
+    "M-DYC-006"
+   ],
+   "legacy_mode_id": "M325",
+   "legacy_fields": {
+    "process": [
+     "识别社会变革所需的群众动员规模",
+     "设计多层次组织架构（中央—省—市—基层）",
+     "建立覆盖城乡的组织网络节点",
+     "培养各级组织骨干力量",
+     "保持组织在困难时期的连续性和适应性"
+    ],
+    "modern_applications": [
+     "社会组织与NGO网络建设",
+     "社区治理体系构建",
+     "群众动员策略设计"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-006",
+   "mode_code": "M-DYC-006",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "民生保障法",
+   "name_en": "Livelihood Protection Method",
+   "category": "社会政策思维",
+   "category_raw": "社会政策思维",
+   "domain_zh": "妇女权益/民生保障",
+   "domain_en": "Women's Rights / Livelihood Protection",
+   "level": "重要",
+   "priority": 6,
+   "definition_zh": "将妇女权益保障与民生改善相结合的综合性社会政策方法。邓颖超始终认为，妇女解放不能脱离广大劳动人民的民生改善而孤立进行。她推动的妇女权益保障政策始终与解决实际问题相结合：关注女工劳动保护、妇幼保健、托幼设施建设、农村妇女土地承包权益等具体民生问题。她主持制定了大量保护妇女儿童权益的法规政策，如《女职工劳动保护规定》、《未成年人保护法》等。邓颖超的民生保障法强调：第一，妇女权益保障必须具体化、可操作，不能停留在口号层面；第二，民生问题是妇女解放的物质基础——没有经济独立就没有真正的人格独立；第三，保障妇女儿童权益是国家社会治理现代化的重要指标。",
+   "definition_en": "A comprehensive social policy method integrating women's rights protection with livelihood improvement. Deng Yingchao always believed that women's liberation cannot be pursued in isolation from broader working-class livelihood improvement. She promoted policies combining women's rights with practical issues: female worker labor protection, maternal and child health care, childcare facilities, rural women's land contract rights. She presided over numerous regulations including the 'Female Worker Labor Protection Regulations' and 'Law on the Protection of Minors'. This method emphasizes: first, women's rights protection must be concrete and actionable; second, livelihood issues are the material foundation of women's liberation — without economic independence there is no true personal independence; third, protecting women and children's rights is an important indicator of national governance modernization.",
+   "source_chapter": "《女职工劳动保护规定》、《未成年人保护法》相关立法文献、邓颖超关于妇女儿童工作的论述",
+   "key_concepts": [
+    "妇女权益保障",
+    "女职工保护",
+    "妇幼保健",
+    "托幼设施",
+    "经济独立",
+    "法律体系",
+    "平等权利",
+    "社会保障",
+    "权益保障",
+    "政策配套"
+   ],
+   "key_quote_zh": "以法律保障妇女权益，实现真正的社会平等",
+   "key_quote_en": "Protect women's rights through law to achieve true social equality.",
+   "process_zh": [
+    "识别妇女核心需求",
+    "制定专门法律",
+    "建立配套政策",
+    "完善执法机制",
+    "持续监督评估"
+   ],
+   "process_en": [
+    "Identify core women's needs",
+    "Draft specialized legislation",
+    "Establish supporting policies",
+    "Improve enforcement mechanisms",
+    "Continuous supervision and evaluation"
+   ],
+   "representative_cases_zh": [
+    "推动《妇女权益保障法》相关立法",
+    "妇女就业、教育、健康等多领域法律保障"
+   ],
+   "representative_cases_en": [
+    "Promotion of Women's Rights Protection legislation",
+    "Multi-domain legal protection: employment, education, health"
+   ],
+   "modern_applications_zh": [
+    "妇女权益保障",
+    "社会公平政策制定",
+    "弱势群体法律保护"
+   ],
+   "modern_applications_en": [
+    "Women's rights protection",
+    "Social equity policy making",
+    "Vulnerable group legal protection"
+   ],
+   "related_modes": [
+    "M-DYC-001",
+    "M-DYC-004",
+    "M-DYC-010"
+   ],
+   "legacy_mode_id": "M326",
+   "legacy_fields": {
+    "process": [
+     "识别妇女群体面临的实际民生困难",
+     "制定针对性的保护性法规政策",
+     "推动具体项目落地（托幼设施、妇幼保健站等）",
+     "建立监督执行机制保障政策实效",
+     "通过民生改善巩固妇女解放的物质基础"
+    ],
+    "modern_applications": [
+     "社会福利制度设计",
+     "劳动权益保障立法",
+     "妇女儿童公共服务体系建设"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-007",
+   "mode_code": "M-DYC-007",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "民间外交法",
+   "name_en": "People-to-People Diplomacy Method",
+   "category": "国际关系思维",
+   "category_raw": "国际关系思维",
+   "domain_zh": "外交策略/文化交流",
+   "domain_en": "Diplomatic Strategy / Cultural Exchange",
+   "level": "重要",
+   "priority": 7,
+   "definition_zh": "通过民间交流和私人关系网络推进国家外交目标的非正式外交方法论。邓颖超在1970年代承担了大量对台、对外民间外交工作，她利用与国民党人士的旧有关系网（包括早年革命时期的交往），在官方渠道受阻时开辟民间交流通道。她主持成立了'中国人民对外友好协会'，通过文化、教育、体育等民间往来促进国际理解。在中美建交过程中，她接待了大量美国友人、议员和记者；在中日关系正常化中，她利用与日本政界人士的长期友谊推动民间交流先行。此法的核心：国家利益可以通过非官方渠道实现，但必须以坚定的政治立场为前提；民间交流不是替代正式外交，而是为正式外交创造条件和氛围。",
+   "definition_en": "An informal diplomatic methodology advancing national foreign policy goals through civilian exchanges and personal networks. Deng Yingchao managed substantial Taiwan-related and international people-to-people diplomacy in the 1970s, utilizing her old connections with KMT figures (including early revolutionary-era associations) to open civilian channels when official ones were blocked. She presided over the 'Chinese People's Association for Friendship with Foreign Countries,' promoting international understanding through cultural, educational and sports exchanges. During US-China normalization, she received numerous American friends, congressmen and journalists; in China-Japan relations, she leveraged long-standing friendships with Japanese political figures to advance civilian exchanges first.",
+   "source_chapter": "中美民间交流档案、中日关系正常化文献、中国人民对外友好协会工作记录",
+   "key_concepts": [
+    "民间外交",
+    "私人关系网络",
+    "对台工作",
+    "友好协会",
+    "非官方渠道",
+    "文化交流",
+    "政治隔绝打破",
+    "桥梁作用"
+   ],
+   "key_quote_zh": "以民间交流打破政治隔绝，积累互信推动官方关系",
+   "key_quote_en": "Break political isolation through people-to-people exchange, accumulate trust to advance official relations.",
+   "process_zh": [
+    "识别外交突破口",
+    "建立民间交流渠道",
+    "开展文化互动",
+    "积累互信基础",
+    "推动官方关系正常化"
+   ],
+   "process_en": [
+    "Identify diplomatic breakthrough points",
+    "Establish people-to-people channels",
+    "Conduct cultural interaction",
+    "Accumulate mutual trust",
+    "Advance official normalization"
+   ],
+   "representative_cases_zh": [
+    "中美建交前民间文化往来",
+    "中日邦交正常化中的民间交流推动"
+   ],
+   "representative_cases_en": [
+    "Sino-US cultural exchanges before normalization",
+    "People-to-people diplomacy during Sino-Japanese relations"
+   ],
+   "modern_applications_zh": [
+    "国际文化交流",
+    "跨国合作推进",
+    "外交破冰"
+   ],
+   "modern_applications_en": [
+    "International cultural exchange",
+    "Cross-border cooperation advancement",
+    "Diplomatic breakthrough"
+   ],
+   "related_modes": [
+    "M-DYC-002",
+    "M-DYC-001",
+    "M-DYC-010"
+   ],
+   "legacy_mode_id": "M327",
+   "legacy_fields": {
+    "process": [
+     "识别正式外交受阻的关键领域",
+     "梳理和利用已有的人脉关系网络",
+     "建立民间友好组织作为交流平台",
+     "通过文化、教育等低敏感度领域先行突破",
+     "将民间交流成果引导至官方外交渠道"
+    ],
+    "modern_applications": [
+     "公共外交与文化交流",
+     "民间调解与国际友谊促进",
+     "侨务工作策略"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-008",
+   "mode_code": "M-DYC-008",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "家风传承法",
+   "name_en": "Family Tradition Inheritance Method",
+   "category": "道德伦理思维",
+   "category_raw": "道德伦理思维",
+   "domain_zh": "廉政建设/家风文化",
+   "domain_en": "Anti-corruption / Family Culture",
+   "level": "重要",
+   "priority": 8,
+   "definition_zh": "通过严格自律、廉洁朴素的家风教育来传递政治品格和道德规范的代际传承方法。邓颖超与周恩来总理共同树立了中国共产党人廉洁奉公、朴素生活的典范。他们无子女，收养了烈士遗孤孙维世等孩子，但始终坚持'不搞特殊化'的原则：不利用职权为子女谋取任何便利，要求孩子穿旧衣、吃粗粮、自己洗衣服。邓颖超的家风传承法强调：第一，领导人的家风不是私事而是公事——领导者的家庭作风直接影响党和政府在人民心中的形象；第二，廉洁朴素不是贫穷而是境界——拒绝特权享受是对革命初心的坚守；第三，身教重于言传——通过日常生活的严格自律传递政治信念。这种家风在文革期间尤其珍贵，当其他领导人子女受到冲击时，邓颖超以朴素的家风保护了孩子们免受特权标签的祸害。",
+   "definition_en": "A generational transmission method passing political character and moral norms through strict self-discipline, integrity and simple living family education. Deng Yingchao and Premier Zhou Enlai set an exemplary model of integrity and simplicity for CCP members. Childless, they adopted orphans of martyrs like Sun Weishi but strictly maintained 'no special treatment': no using power for children's benefit, requiring them to wear old clothes, eat coarse food and wash their own clothes. This method emphasizes: first, leaders' family tradition is not private but public — a leader's family conduct directly affects how the party and government are perceived by the people; second, integrity is not poverty but a state of mind — rejecting privilege is坚守 revolutionary original intention; third, example precedes teaching.",
+   "source_chapter": "周恩来邓颖超家风文献、《周恩来日记》、孙维世回忆录",
+   "key_concepts": [
+    "廉洁奉公",
+    "朴素生活",
+    "不搞特殊化",
+    "身教重于言传",
+    "革命初心",
+    "廉洁",
+    "朴素",
+    "严以律己",
+    "家风建设",
+    "道德标杆"
+   ],
+   "key_quote_zh": "廉洁、朴素、严以律己",
+   "key_quote_en": "Integrity, frugality and strict self-discipline.",
+   "process_zh": [
+    "确立廉洁标准",
+    "践行朴素生活",
+    "严格自我约束",
+    "传承家庭美德",
+    "发挥示范效应"
+   ],
+   "process_en": [
+    "Establish integrity standards",
+    "Practice frugal living",
+    "Strict self-discipline",
+    "Transmit family virtues",
+    "Exemplary effect"
+   ],
+   "representative_cases_zh": [
+    "周恩来邓颖超家风：廉洁、朴素、严以律己",
+    "为中国党员干部树立道德标杆"
+   ],
+   "representative_cases_en": [
+    "Zhou-Enlai-Deng-Yingchao family tradition: integrity, frugality and strict self-discipline",
+    "Moral benchmark for Party members and officials"
+   ],
+   "modern_applications_zh": [
+    "党风廉政建设",
+    "家风文化建设",
+    "党员干部教育"
+   ],
+   "modern_applications_en": [
+    "Party conduct and anti-corruption construction",
+    "Family culture building",
+    "Official education"
+   ],
+   "related_modes": [
+    "M-DYC-003",
+    "M-DYC-001",
+    "M-DYC-010"
+   ],
+   "legacy_mode_id": "M328",
+   "legacy_fields": {
+    "process": [
+     "确立'不搞特殊化'的家庭基本原则",
+     "在日常生活的每一个细节中践行廉洁朴素",
+     "不利用职权为子女或亲属谋取任何便利",
+     "通过言传身教传递政治信念和道德标准",
+     "在特殊时期以朴素家风保护家庭成员"
+    ],
+    "modern_applications": [
+     "领导干部家风建设",
+     "反腐败教育与预防",
+     "公务员职业道德培训"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-009",
+   "mode_code": "M-DYC-009",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "渐进改革法",
+   "name_en": "Gradual Reform Method",
+   "category": "社会变革思维",
+   "category_raw": "社会变革思维",
+   "domain_zh": "制度改革/渐进式改革",
+   "domain_en": "System Reform / Gradual Reform",
+   "level": "重要",
+   "priority": 9,
+   "definition_zh": "在社会变革中采取逐步推进、试点先行、稳中求进的改革方法论。邓颖超在推动妇女解放和社会改革的过程中，始终坚持'循序渐进、稳步前进'的原则。她深知中国国情复杂，妇女解放不能一蹴而就——需要先在城市中建立示范点（如天津女界爱国同志会、北平妇女互助社），然后在农村逐步推广；先通过法律确立原则（婚姻法），再通过群众运动落实执行。在文革后的社会改革中，她也是渐进主义的坚定支持者：主张'摸着石头过河'式的改革策略，反对激进冒进。她的渐进改革法强调：第一，改革必须有明确的阶段性目标；第二，试点先行、总结经验后再推广；第三，在保持社会稳定的前提下推进变革。这种稳健的改革风格使她在历次政治风浪中都能保持正确方向，避免犯下'左'或右的错误。",
+   "definition_en": "A reform methodology advocating gradual advancement, pilot-first testing and steady progress in social transformation. Deng Yingchao always adhered to 'step-by-step, steady advance' principles in promoting women's liberation and social reform. She knew China's complex conditions meant women's liberation could not be achieved overnight — pilot demonstrations (Tianjin Women's Patriots' Association, Peking Women's Mutual Aid Society) first in cities, then gradually extended to rural areas; legal principles established (Marriage Law) before mass mobilization implementation. Post-Cultural Revolution, she was a firm supporter of gradualism — advocating 'crossing the river by feeling the stones' strategy, opposing radical hastiness.",
+   "source_chapter": "邓颖超关于改革工作的论述、全国妇联工作史",
+   "key_concepts": [
+    "渐进改革",
+    "试点先行",
+    "稳中求进",
+    "摸着石头过河",
+    "阶段性目标",
+    "渐进式改革",
+    "试点推广",
+    "稳妥推进",
+    "制度改革",
+    "可持续性"
+   ],
+   "key_quote_zh": "稳妥推进，逐步推广",
+   "key_quote_en": "Steady advancement, gradual promotion.",
+   "process_zh": [
+    "识别改革必要性",
+    "选择试点区域",
+    "总结经验教训",
+    "逐步推广",
+    "制度固化"
+   ],
+   "process_en": [
+    "Identify reform necessity",
+    "Select pilot areas",
+    "Summarize experiences",
+    "Gradual promotion",
+    "Institutionalize achievements"
+   ],
+   "representative_cases_zh": [
+    "《婚姻法》分地区逐步推广",
+    "妇联组织从城市到农村的渐进覆盖"
+   ],
+   "representative_cases_en": [
+    "Gradual regional promotion of Marriage Law",
+    "Women's Federation gradual coverage from cities to rural areas"
+   ],
+   "modern_applications_zh": [
+    "社会制度改革",
+    "政策试点推广",
+    "渐进式治理"
+   ],
+   "modern_applications_en": [
+    "Social system reform",
+    "Policy pilot and promotion",
+    "Gradual governance"
+   ],
+   "related_modes": [
+    "M-DYC-007",
+    "M-DYC-001",
+    "M-DYC-004",
+    "M-DYC-006"
+   ],
+   "legacy_mode_id": "M329",
+   "legacy_fields": {
+    "process": [
+     "评估社会变革的复杂性和阻力",
+     "确定明确的阶段性目标和优先次序",
+     "选择典型地区和领域进行试点",
+     "总结经验教训后逐步推广到更大范围",
+     "在保持社会稳定的前提下持续推进改革"
+    ],
+    "modern_applications": [
+     "社会政策改革设计",
+     "经济体制改革策略",
+     "社会治理创新试点"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-DYC-010",
+   "mode_code": "M-DYC-010",
+   "figure_code": "H-DYC-001",
+   "figure_name": "邓颖超",
+   "name_zh": "综合创新法",
+   "name_en": "Comprehensive Innovation Method",
+   "category": "方法论通用",
+   "category_raw": "方法论思维",
+   "domain_zh": "综合创新/系统治理",
+   "domain_en": "Comprehensive Innovation / System Governance",
+   "level": "重要",
+   "priority": 10,
+   "definition_zh": "将多种思维模式、工作方法和社会资源进行系统性整合以实现复杂目标的综合创新方法论。邓颖超一生处理的事务极其复杂——从妇女运动到统一战线，从外交工作到党内民主，从法律建设到民生保障——她始终以'综合创新'的方法论处理跨领域问题。例如在中美建交中，她将民间外交（M-DYC-007）、柔性外交（M-DYC-002）和组织网络构建（M-DYC-005）综合运用：通过民间友好协会建立接触渠道，利用个人关系网络传递信息，在妇联系统内动员妇女群体支持外交大局。她的综合创新法强调：第一，复杂问题不能靠单一方法解决；第二，不同思维模式之间可以相互补充和强化；第三，创新不是凭空创造而是对既有资源的重新组合。邓颖超晚年仍坚持学习新事物、研究新问题，体现了终身学习和综合创新的精神。",
+   "definition_en": "A comprehensive innovation methodology systematically integrating multiple thinking modes, work methods and social resources to achieve complex goals. Deng Yingchao handled extremely diverse affairs throughout her life — from women's liberation to united front, foreign relations to intra-party democracy, legal construction to livelihood security — always applying 'comprehensive innovation' to cross-domain problems. For example in US-China normalization, she integrated people-to-people diplomacy (M-DYC-007), flexible diplomacy (M-DYC-002) and organizational network construction (M-DYC-005): establishing contact channels through civilian associations, transmitting information via personal networks, mobilizing women's groups through the federation system to support overall diplomatic objectives.",
+   "source_chapter": "邓颖超跨领域工作综述、综合创新思想论述",
+   "key_concepts": [
+    "综合创新",
+    "跨领域整合",
+    "系统思维",
+    "资源整合",
+    "终身学习",
+    "系统整合",
+    "多维度协同",
+    "多维一体",
+    "最佳方案"
+   ],
+   "key_quote_zh": "妇女运动、政治外交与党内民主三维实践的统一",
+   "key_quote_en": "The unity of women's movement, political diplomacy and party internal democracy.",
+   "process_zh": [
+    "识别多维度需求",
+    "制定综合策略",
+    "协调各方利益",
+    "统筹资源分配",
+    "实现系统优化"
+   ],
+   "process_en": [
+    "Identify multi-dimensional needs",
+    "Develop comprehensive strategies",
+    "Coordinate interests",
+    "Allocate resources holistically",
+    "Achieve system optimization"
+   ],
+   "representative_cases_zh": [
+    "邓颖超三维实践体系：妇女运动/政治外交/党内民主",
+    "多维度统筹推动中国女性政治参与"
+   ],
+   "representative_cases_en": [
+    "Deng Yingchao's three-dimensional practice: women's movement / political diplomacy / party democracy",
+    "Multi-dimensional coordination promoting Chinese female political participation"
+   ],
+   "modern_applications_zh": [
+    "综合治理",
+    "政策系统设计",
+    "跨领域协调"
+   ],
+   "modern_applications_en": [
+    "Comprehensive governance",
+    "Policy system design",
+    "Cross-domain coordination"
+   ],
+   "related_modes": [
+    "M-DYC-001",
+    "M-DYC-002",
+    "M-DYC-005",
+    "M-DYC-007",
+    "M-DYC-003"
+   ],
+   "legacy_mode_id": "M330",
+   "legacy_fields": {
+    "process": [
+     "识别复杂问题的多维度特征",
+     "拆解问题为若干子领域和关键要素",
+     "选择适用于各子领域的思维模式和工作方法",
+     "将不同方法进行系统性整合和互补设计",
+     "通过实践反馈持续优化综合方案"
+    ],
+    "modern_applications": [
+     "复杂社会治理系统设计",
+     "跨领域政策整合",
+     "综合创新战略制定"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（三版本合并取长（figures/_modes 详式定义 + individuals/_modes 结构字段），仅字段搬迁）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-001",
+   "mode_code": "M-KKQ-001",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "群众路线法",
+   "name_en": "Mass Line Method",
+   "category": "工作方法思维",
+   "category_raw": "工作方法思维",
+   "domain_zh": "群众工作/妇女动员",
+   "domain_en": "Mass Work / Women Mobilization",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "深入基层了解群众真实情况，从群众中来、到群众中去，发动和组织广大妇女群众投身革命和建设事业。",
+   "definition_en": "Go deep into the grassroots to understand the real situation of the masses, come from the masses and go to the masses, mobilize and organize women masses to participate in revolution and construction.",
+   "source_chapter": "井冈山时期妇女工作实践",
+   "key_concepts": [
+    "深入调研",
+    "依靠群众",
+    "从群众中来",
+    "到群众中去"
+   ],
+   "key_quote_zh": "妇女要翻身，必须自己站起来",
+   "key_quote_en": "Women must stand up for themselves to be liberated",
+   "process_zh": [
+    "实地调研了解真实情况",
+    "广泛听取群众诉求和建议",
+    "集中归纳为政策主张",
+    "向群众宣传并组织实施",
+    "在实践中检验修正完善"
+   ],
+   "process_en": [
+    "Field research to understand reality",
+    "Listen to mass demands and suggestions",
+    "Synthesize into policy proposals",
+    "Propagate and organize implementation",
+    "Test and revise in practice"
+   ],
+   "representative_cases_zh": [
+    "井冈山时期发动妇女参加土地革命",
+    "晋东南组织妇救会和妇女自卫队",
+    "全国妇联时期深入工厂农村调研"
+   ],
+   "representative_cases_en": [
+    "Mobilized women for land revolution in Jinggangshan period",
+    "Organized women's salvation associations in Jinshannan",
+    "Conducted grassroots research nationwide as All-China Women's Federation chair"
+   ],
+   "modern_applications_zh": [
+    "基层治理",
+    "群众工作方法",
+    "社会组织建设"
+   ],
+   "modern_applications_en": [
+    "Grassroots governance",
+    "Mass work methods",
+    "Social organization building"
+   ],
+   "related_modes": [
+    "M-KKQ-002",
+    "M-KKQ-005",
+    "M-KKQ-009"
+   ],
+   "legacy_mode_id": "M321",
+   "legacy_fields": {
+    "application_context": "妇女运动和群众工作",
+    "specific_application": "在井冈山时期和长征途中，深入基层了解女战士和妇女群众的需求，组织妇女参加革命斗争",
+    "expected_outcomes": [
+     "增强群众信任",
+     "提高组织效率",
+     "推动政策落地",
+     "形成良性互动"
+    ],
+    "implementation_steps": [
+     "实地调研：深入基层了解真实情况",
+     "听取意见：广泛听取群众诉求和建议",
+     "集中归纳：将分散意见集中为政策主张",
+     "宣传执行：向群众宣传并组织实施",
+     "检验修正：在实践中检验并修正完善"
+    ],
+    "evaluation_criteria": [
+     "群众满意度：群众对工作的认可程度",
+     "参与度：妇女参与革命和建设的积极性",
+     "问题解决：实际问题解决的效果",
+     "信任建立：与群众的信任关系"
+    ],
+    "historical_examples": [
+     "在井冈山发动妇女参加土地革命",
+     "在晋东南组织妇救会和妇女自卫队",
+     "新中国成立后深入工厂农村调研妇女状况"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-002",
+   "mode_code": "M-KKQ-002",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "组织建设法",
+   "name_en": "Organizational Construction Method",
+   "category": "组织管理思维",
+   "category_raw": "组织管理思维",
+   "domain_zh": "群众组织/机构建设",
+   "domain_en": "Mass Organizations / Institutional Construction",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "建立各类群众组织网络，通过组织架构实现广泛动员和有效管理。",
+   "definition_en": "Establish various mass organizational networks to achieve widespread mobilization and effective management through organizational structures.",
+   "source_chapter": "妇救会、战时儿童保育会创建实践",
+   "key_concepts": [
+    "组织建设",
+    "网络覆盖",
+    "制度保障",
+    "层级管理"
+   ],
+   "key_quote_zh": "组织起来，力量大",
+   "key_quote_en": "United we stand, divided we fall",
+   "process_zh": [
+    "需求分析了解工作需要哪些组织形式",
+    "方案设计组织架构和运行机制",
+    "试点推广先行积累经验",
+    "全面展开逐步扩大范围",
+    "完善巩固健全组织制度"
+   ],
+   "process_en": [
+    "Needs analysis for organizational forms",
+    "Design organizational structure and mechanisms",
+    "Pilot and accumulate experience",
+    "Expand comprehensively",
+    "Improve and consolidate"
+   ],
+   "representative_cases_zh": [
+    "创建晋东南妇女救国会发展会员数万",
+    "建立解放区战时儿童保育会网络",
+    "领导全国妇联建立各级组织体系"
+   ],
+   "representative_cases_en": [
+    "Founded Jinshannan Women's Salvation Association with tens of thousands of members",
+    "Established wartime children's care network in liberated areas",
+    "Led the construction of All-China Women's Federation organizational system"
+   ],
+   "modern_applications_zh": [
+    "社会组织管理",
+    "群团组织建设",
+    "非营利组织运营"
+   ],
+   "modern_applications_en": [
+    "Social organization management",
+    "Mass organization building",
+    "Non-profit operations"
+   ],
+   "related_modes": [
+    "M-KKQ-001",
+    "M-KKQ-009",
+    "M-KKQ-010"
+   ],
+   "legacy_mode_id": "M322",
+   "legacy_fields": {
+    "application_context": "妇女组织和儿童机构建设",
+    "specific_application": "建立晋东南妇女救国会、解放区战时儿童保育会等组织，形成覆盖全国的妇儿工作网络",
+    "expected_outcomes": [
+     "形成组织网络",
+     "提升动员能力",
+     "保障工作持续",
+     "扩大社会影响"
+    ],
+    "implementation_steps": [
+     "需求分析：分析工作需要哪些组织形式",
+     "方案设计：设计组织架构和运行机制",
+     "试点推广：先行试点积累经验",
+     "全面展开：逐步推广至更大范围",
+     "完善巩固：不断健全组织制度"
+    ],
+    "evaluation_criteria": [
+     "组织覆盖率：组织的覆盖范围",
+     "动员能力：组织动员的效率",
+     "运行效率：组织运行的顺畅度",
+     "可持续性：组织的长期生命力"
+    ],
+    "historical_examples": [
+     "创建晋东南妇女救国会并发展会员数万",
+     "建立解放区战时儿童保育会网络",
+     "领导全国妇联建立各级组织体系"
+    ],
+    "modern_applications": [
+     "社会组织管理",
+     "群众团体建设",
+     "非营利组织运营"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-003",
+   "mode_code": "M-KKQ-003",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "妇女解放法",
+   "name_en": "Women's Liberation Method",
+   "category": "政治治理",
+   "category_raw": "政治哲学思维",
+   "domain_zh": "妇女解放/性别平等",
+   "domain_en": "Women's Liberation / Gender Equality",
+   "level": "核心",
+   "priority": 3,
+   "definition_zh": "主张妇女解放必须与阶级解放相结合，只有社会主义制度才能真正实现妇女解放。",
+   "definition_en": "Advocate that women's liberation must be combined with class liberation; only the socialist system can truly achieve women's liberation.",
+   "source_chapter": "《没有中国共产党就没有中国妇女的解放》",
+   "key_concepts": [
+    "阶级解放",
+    "制度保障",
+    "平等权利",
+    "自食其力"
+   ],
+   "key_quote_zh": "没有中国共产党就没有中国妇女的解放",
+   "key_quote_en": "Without the Communist Party of China, there would be no liberation of Chinese women",
+   "process_zh": [
+    "理论建构阐明妇女解放的理论基础",
+    "实践探索在具体工作中推进妇女解放",
+    "法律保障推动相关法律法规制定",
+    "宣传教育提高全社会性别平等意识",
+    "持续深化不断完善妇女解放事业"
+   ],
+   "process_en": [
+    "Theoretical construction of liberation basis",
+    "Practical exploration in women's work",
+    "Legal guarantee through legislation",
+    "Public education on gender equality",
+    "Continuous deepening of the cause"
+   ],
+   "representative_cases_zh": [
+    "参与指导1979年《婚姻法》修改",
+    "推动废除封建婚姻制度",
+    "倡导妇女参加社会劳动获得经济独立"
+   ],
+   "representative_cases_en": [
+    "Guided the revision of the Marriage Law in 1979",
+    "Promoted the abolition of feudal marriage system",
+    "Advocated women's economic independence through social labor"
+   ],
+   "modern_applications_zh": [
+    "性别平等政策制定",
+    "妇女权益保护",
+    "女性职业发展"
+   ],
+   "modern_applications_en": [
+    "Gender equality policy formulation",
+    "Women's rights protection",
+    "Women's career development"
+   ],
+   "related_modes": [
+    "M-KKQ-006",
+    "M-KKQ-010",
+    "M-KKQ-004"
+   ],
+   "legacy_mode_id": "M323",
+   "legacy_fields": {
+    "application_context": "妇女解放理论与实践",
+    "expected_outcomes": [
+     "明确解放道路",
+     "增强妇女自信",
+     "推动性别平等",
+     "促进妇女发展"
+    ],
+    "implementation_steps": [
+     "理论建构：阐明妇女解放的理论基础",
+     "实践探索：在具体工作中推进妇女解放",
+     "法律保障：推动相关法律法规制定",
+     "宣传教育：提高全社会性别平等意识",
+     "持续深化：不断完善妇女解放事业"
+    ],
+    "evaluation_criteria": [
+     "法律保障：妇女权益法律保护程度",
+     "社会认同：性别平等的社会共识",
+     "经济独立：妇女经济自主程度",
+     "政治参与：妇女政治参与水平"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-004",
+   "mode_code": "M-KKQ-004",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "儿童保育法",
+   "name_en": "Children's Care Method",
+   "category": "社会政策思维",
+   "category_raw": "社会政策思维",
+   "domain_zh": "儿童福利/社会事业",
+   "domain_en": "Children's Welfare / Social Services",
+   "level": "核心",
+   "priority": 4,
+   "definition_zh": "将儿童保育视为培养革命接班人的重要事业，建立托儿所、保育院等机构，保障儿童健康成长。",
+   "definition_en": "View children's care as an important cause of cultivating revolutionary successors, establish nurseries and orphanages to ensure healthy growth of children.",
+   "source_chapter": "解放区战时儿童保育会实践",
+   "key_concepts": [
+    "儿童为本",
+    "集体保育",
+    "卫生健康",
+    "教育优先"
+   ],
+   "key_quote_zh": "儿童是革命的未来，是社会主义事业的接班人",
+   "key_quote_en": "Children are the future of the revolution, successors of the socialist cause",
+   "process_zh": [
+    "需求调研了解儿童和家庭实际需求",
+    "机构设置建立托儿所保育院等机构",
+    "人员培训培养保育和教育人员",
+    "规范管理建立科学的保育管理制度",
+    "持续改进不断完善保育服务质量"
+   ],
+   "process_en": [
+    "Needs assessment for children and families",
+    "Institution establishment of nurseries and care centers",
+    "Personnel training for caregivers and educators",
+    "Standardized management for quality care",
+    "Continuous improvement of services"
+   ],
+   "representative_cases_zh": [
+    "新中国成立后在全国兴办托儿所",
+    "1960-1963年将2000多名孤儿送往内蒙古抚养",
+    "倡导成立中国儿童少年基金会"
+   ],
+   "representative_cases_en": [
+    "Established nurseries across the country after 1949",
+    "Sent over 2000 orphans to Inner Mongolia 1960-1963",
+    "Advocated establishment of China Children and Teenagers' Fund"
+   ],
+   "modern_applications_zh": [
+    "学前教育管理",
+    "儿童福利政策",
+    "孤儿收养安置"
+   ],
+   "modern_applications_en": [
+    "Preschool education management",
+    "Children's welfare policy",
+    "Orphan adoption placement"
+   ],
+   "related_modes": [
+    "M-KKQ-001",
+    "M-KKQ-002",
+    "M-KKQ-009"
+   ],
+   "legacy_mode_id": "M324",
+   "legacy_fields": {
+    "application_context": "儿童福利事业",
+    "specific_application": "领导创办全国各地托儿所，将2000多名孤儿送往内蒙古抚养，建立中国儿童少年基金会",
+    "expected_outcomes": [
+     "提高儿童存活率",
+     "改善儿童健康",
+     "解放妇女劳动力",
+     "培养社会主义接班人"
+    ],
+    "implementation_steps": [
+     "需求调研：了解儿童和家庭的实际需求",
+     "机构设置：建立托儿所、保育院等机构",
+     "人员培训：培训保育和教育人员",
+     "规范管理：建立科学的保育管理制度",
+     "持续改进：不断完善保育服务质量"
+    ],
+    "evaluation_criteria": [
+     "覆盖率：托幼机构覆盖范围",
+     "质量指标：儿童健康状况和发育水平",
+     "满意度：家长和社会的认可度",
+     "可持续性：保育事业的长期发展"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-005",
+   "mode_code": "M-KKQ-005",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "实事求是法",
+   "name_en": "Seeking Truth from Facts Method",
+   "category": "政治品格思维",
+   "category_raw": "政治品格思维",
+   "domain_zh": "党性修养/政治立场",
+   "domain_en": "Party Spirit / Political Stance",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "坚持真理、修正错误，在重大政治是非面前保持清醒立场，敢于抵制错误路线。",
+   "definition_en": "Adhere to truth and correct errors, maintain clear political stance on major issues, dare to resist erroneous lines.",
+   "source_chapter": "文革期间的政治斗争实践",
+   "key_concepts": [
+    "坚持真理",
+    "实事求是",
+    "敢于斗争",
+    "修正错误"
+   ],
+   "key_quote_zh": "王子犯法，与庶民同罪",
+   "key_quote_en": "Even princes who break the law are guilty like commoners",
+   "process_zh": [
+    "认清形势准确把握政治形势本质",
+    "坚持原则坚守党的原则和信念",
+    "策略斗争采取适当方式抵制错误",
+    "保存实力在逆境中保存革命力量",
+    "等待时机等待拨乱反正的历史时机"
+   ],
+   "process_en": [
+    "Recognize the situation's true nature",
+    "Adhere to principles and beliefs",
+    "Strategic resistance against errors",
+    "Preserve strength in adversity",
+    "Await the right historical moment"
+   ],
+   "representative_cases_zh": [
+    "文革中抵制林彪江青反革命集团的阴谋",
+    "1983年对孙子朱国华犯罪问题坚持依法处理",
+    "坚持实事求是的工作作风"
+   ],
+   "representative_cases_en": [
+    "Resisted Lin Biao and Jiang Qing counter-revolutionary clique during Cultural Revolution",
+    "Insisted on legal handling of grandson Zhu Guohua's case in 1983",
+    "Maintained pragmatic work style throughout career"
+   ],
+   "modern_applications_zh": [
+    "党性锻炼",
+    "政治品格培养",
+    "廉政建设"
+   ],
+   "modern_applications_en": [
+    "Party spirit cultivation",
+    "Political character building",
+    "Anti-corruption construction"
+   ],
+   "related_modes": [
+    "M-KKQ-006",
+    "M-KKQ-001",
+    "M-KKQ-003"
+   ],
+   "legacy_mode_id": "M325",
+   "legacy_fields": {
+    "application_context": "政治立场和党性修养",
+    "specific_application": "文革中坚持实事求是，对林彪、江青反革命集团进行抵制和斗争",
+    "expected_outcomes": [
+     "保持政治清醒",
+     "维护党的原则",
+     "保护干部群众",
+     "积蓄正义力量"
+    ],
+    "implementation_steps": [
+     "认清形势：准确把握政治形势本质",
+     "坚持原则：坚守党的原则和信念",
+     "策略斗争：采取适当方式抵制错误",
+     "保存实力：在逆境中保存革命力量",
+     "等待时机：等待拨乱反正的历史时机"
+    ],
+    "evaluation_criteria": [
+     "立场坚定：政治立场的坚定性",
+     "斗争勇气：抵制错误的勇气",
+     "策略得当：斗争方式的恰当性",
+     "历史检验：经得起历史检验"
+    ],
+    "historical_examples": [
+     "文革中抵制林彪、江青反革命集团的阴谋",
+     "1983年严打时对孙子朱国华态度：'王子犯法与庶民同罪'",
+     "坚持实事求是的工作作风"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-006",
+   "mode_code": "M-KKQ-006",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "平等法治法",
+   "name_en": "Equality and Rule of Law Method",
+   "category": "法治思维",
+   "category_raw": "法治思维",
+   "domain_zh": "法治建设/公平正义",
+   "domain_en": "Rule of Law / Fairness and Justice",
+   "level": "核心",
+   "priority": 6,
+   "definition_zh": "坚持法律面前人人平等，不徇私情，不论身份地位，违法必究。",
+   "definition_en": "Insist that all are equal before the law, do not show favoritism regardless of status; violations of law will be investigated.",
+   "source_chapter": "对亲属犯罪问题的态度",
+   "key_concepts": [
+    "法律面前人人平等",
+    "不徇私情",
+    "违法必究",
+    "公正执法"
+   ],
+   "key_quote_zh": "王子犯法与庶民同罪",
+   "key_quote_en": "Princes breaking the law are punished like commoners",
+   "process_zh": [
+    "确立原则法律面前人人平等",
+    "以身作则自身率先垂范",
+    "严格执法对违法行为依法处理",
+    "教育引导加强法治宣传教育",
+    "持续完善推进法治体系建设"
+   ],
+   "process_en": [
+    "Establish the principle of equality before law",
+    "Lead by personal example",
+    "Strict law enforcement for violations",
+    "Education and guidance on rule of law",
+    "Continuous improvement of legal system"
+   ],
+   "representative_cases_zh": [
+    "对孙子朱国华犯罪问题坚持依法处理",
+    "推动《婚姻法》修改保障妇女权益",
+    "签署《消除对妇女一切形式歧视公约》"
+   ],
+   "representative_cases_en": [
+    "Insisted on legal handling of grandson's crime",
+    "Guided Marriage Law revision to protect women's rights",
+    "Signed UN Convention on Eliminating Discrimination against Women"
+   ],
+   "modern_applications_zh": [
+    "法治社会建设",
+    "领导干部家风建设",
+    "公平正义维护"
+   ],
+   "modern_applications_en": [
+    "Rule of law society building",
+    "Leading cadres' family values",
+    "Justice and fairness maintenance"
+   ],
+   "related_modes": [
+    "M-KKQ-005",
+    "M-KKQ-003",
+    "M-KKQ-007"
+   ],
+   "legacy_mode_id": "M326",
+   "legacy_fields": {
+    "application_context": "法治建设和道德教育",
+    "expected_outcomes": [
+     "维护法律尊严",
+     "树立公正形象",
+     "教育后代子孙",
+     "推进法治建设"
+    ],
+    "implementation_steps": [
+     "确立原则：确立法律面前人人平等的原则",
+     "以身作则：自身率先垂范",
+     "严格执法：对违法行为依法处理",
+     "教育引导：加强法治宣传教育",
+     "持续完善：推进法治体系建设"
+    ],
+    "evaluation_criteria": [
+     "公正性：处理问题的公平公正",
+     "示范性：对后代的示范效果",
+     "公信力：社会对法治的信仰",
+     "制度化：法治建设的推进程度"
+    ],
+    "historical_examples": [
+     "对孙子朱国华犯罪问题的表态",
+     "推动《婚姻法》修改保障妇女权益",
+     "签署《消除对妇女一切形式歧视公约》"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-007",
+   "mode_code": "M-KKQ-007",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "国际视野法",
+   "name_en": "International Vision Method",
+   "category": "外交战略思维",
+   "category_raw": "外交战略思维",
+   "domain_zh": "国际事务/妇女外交",
+   "domain_en": "International Affairs / Women's Diplomacy",
+   "level": "辅助",
+   "priority": 7,
+   "definition_zh": "立足中国实际，放眼世界，积极参与国际妇女和儿童事务，展现中国形象。",
+   "definition_en": "Rooted in China's reality while looking at the world, actively participate in international women's and children's affairs, showcase China's image.",
+   "source_chapter": "联合国妇女会议及国际交流活动",
+   "key_concepts": [
+    "国际视野",
+    "和平进步",
+    "交流互鉴",
+    "中国贡献"
+   ],
+   "key_quote_zh": "妇女解放是国际性的事业",
+   "key_quote_en": "Women's liberation is an international cause",
+   "process_zh": [
+    "了解国际形势把握国际妇女运动趋势",
+    "参与国际会议积极参加国际交流活动",
+    "签署国际公约履行国际义务",
+    "宣传中国经验讲好中国故事",
+    "促进国际合作推动国际妇女合作"
+   ],
+   "process_en": [
+    "Understand international situation and trends",
+    "Participate in international conferences",
+    "Sign international conventions",
+    "Promote Chinese experience",
+    "Foster international cooperation"
+   ],
+   "representative_cases_zh": [
+    "1952年率团出席国际保卫儿童会议",
+    "1980年代表中国出席联合国妇女十年中期会议",
+    "多次出访增进国际妇女交流"
+   ],
+   "representative_cases_en": [
+    "Led delegation to International Conference for the Protection of Children in 1952",
+    "Represented China at UN Women's Decade mid-term conference in 1980",
+    "Multiple diplomatic visits for international women's exchange"
+   ],
+   "modern_applications_zh": [
+    "国际外交",
+    "跨文化交流",
+    "国际组织合作"
+   ],
+   "modern_applications_en": [
+    "International diplomacy",
+    "Cross-cultural exchange",
+    "International organization cooperation"
+   ],
+   "related_modes": [
+    "M-KKQ-003",
+    "M-KKQ-006",
+    "M-KKQ-008"
+   ],
+   "legacy_mode_id": "M327",
+   "legacy_fields": {
+    "specific_application": "代表中国出席联合国妇女会议，签署国际公约，率团出访增进国际交流",
+    "expected_outcomes": [
+     "提升国际影响力",
+     "促进国际交流",
+     "贡献中国智慧",
+     "维护世界和平"
+    ],
+    "implementation_steps": [
+     "了解国际形势：把握国际妇女运动趋势",
+     "参与国际会议：积极参加国际交流活动",
+     "签署国际公约：履行国际义务",
+     "宣传中国经验：讲好中国故事",
+     "促进国际合作：推动国际妇女合作"
+    ],
+    "evaluation_criteria": [
+     "国际参与：国际活动的参与度",
+     "话语影响：国际话语权",
+     "交流成果：国际合作成果",
+     "形象塑造：中国国际形象"
+    ],
+    "historical_examples": [
+     "1952年率团出席国际保卫儿童会议",
+     "1980年代表中国出席联合国妇女十年中期会议",
+     "签署《消除对妇女一切形式歧视公约》"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-008",
+   "mode_code": "M-KKQ-008",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "自力更生法",
+   "name_en": "Self-Reliance Method",
+   "category": "个人成长思维",
+   "category_raw": "个人成长思维",
+   "domain_zh": "个人奋斗/革命精神",
+   "domain_en": "Personal Struggle / Revolutionary Spirit",
+   "level": "辅助",
+   "priority": 8,
+   "definition_zh": "不依赖他人，自强不息，通过自身努力改变命运，艰苦奋斗创业。",
+   "definition_en": "Do not rely on others, strive for self-improvement, change fate through personal effort, and build careers through hard struggle.",
+   "source_chapter": "个人成长经历和革命生涯",
+   "key_concepts": [
+    "自强不息",
+    "艰苦奋斗",
+    "自立自强",
+    "勤俭朴素"
+   ],
+   "key_quote_zh": "我什么都不要",
+   "key_quote_en": "I want nothing",
+   "process_zh": [
+    "认识自我了解自身优势和不足",
+    "设定目标确立奋斗方向",
+    "刻苦学习不断提升能力和素质",
+    "艰苦奋斗在困难中磨砺意志",
+    "坚持不懈持之以恒地努力奋斗"
+   ],
+   "process_en": [
+    "Self-awareness of strengths and weaknesses",
+    "Set goals and direction",
+    "Study hard to improve abilities",
+    "Struggle through difficulties to forge will",
+    "Persevere in continuous effort"
+   ],
+   "representative_cases_zh": [
+    "不识一字入红军后成为优秀革命家",
+    "长征途中扛步枪帮助战友",
+    "一生俭朴临终遗言体现无私奉献"
+   ],
+   "representative_cases_en": [
+    "Rose from illiterate to outstanding revolutionary",
+    "Carried rifles to help comrades during Long March",
+    "Lived frugally, left nothing but dedication"
+   ],
+   "modern_applications_zh": [
+    "个人成长规划",
+    "创业励志教育",
+    "家风建设"
+   ],
+   "modern_applications_en": [
+    "Personal growth planning",
+    "Entrepreneurial motivation education",
+    "Family tradition building"
+   ],
+   "related_modes": [
+    "M-KKQ-001",
+    "M-KKQ-003",
+    "M-KKQ-010"
+   ],
+   "legacy_mode_id": "M328",
+   "legacy_fields": {
+    "application_context": "个人成长和革命实践",
+    "specific_application": "出身贫苦渔家，不识一字入红军，通过刻苦学习成为优秀革命家",
+    "expected_outcomes": [
+     "实现个人成长",
+     "改变自身命运",
+     "树立奋斗榜样",
+     "传承优良家风"
+    ],
+    "implementation_steps": [
+     "认识自我：认识自身优势和不足",
+     "设定目标：确立奋斗方向和 goals",
+     "刻苦学习：不断提升能力和素质",
+     "艰苦奋斗：在困难中磨砺意志",
+     "坚持不懈：持之以恒地努力奋斗"
+    ],
+    "evaluation_criteria": [
+     "成长幅度：能力和素质的提升",
+     "贡献程度：对社会和革命的贡献",
+     "榜样效应：对他人的激励作用",
+     "家风传承：优良品德的传承"
+    ],
+    "historical_examples": [
+     "不识一字入红军，后成为优秀革命家",
+     "长征途中扛三四支步枪帮助战友",
+     "一生俭朴，临终遗言'我什么都不要'"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-009",
+   "mode_code": "M-KKQ-009",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "综合协调法",
+   "name_en": "Comprehensive Coordination Method",
+   "category": "管理方法思维",
+   "category_raw": "管理方法思维",
+   "domain_zh": "统筹兼顾/资源整合",
+   "domain_en": "Overall Coordination / Resource Integration",
+   "level": "辅助",
+   "priority": 9,
+   "definition_zh": "统筹兼顾各方利益，协调各部门资源，形成工作合力。",
+   "definition_en": "Balance interests of all parties, coordinate resources across departments, and form a joint force for work.",
+   "source_chapter": "儿童保育和妇女工作实践",
+   "key_concepts": [
+    "统筹兼顾",
+    "协调联动",
+    "资源整合",
+    "形成合力"
+   ],
+   "key_quote_zh": "一手摘棉花，一手抱娃娃",
+   "key_quote_en": "One hand picking cotton, one hand holding a baby",
+   "process_zh": [
+    "全局规划统筹考虑整体工作布局",
+    "部门协调协调各相关部门行动",
+    "资源整合整合各类资源力量",
+    "分工协作明确各方责任和分工",
+    "合力推进形成工作合力共同推进"
+   ],
+   "process_en": [
+    "Overall planning of work layout",
+    "Department coordination across sectors",
+    "Resource integration of all forces",
+    "Division of labor and collaboration",
+    "Joint promotion for common goals"
+   ],
+   "representative_cases_zh": [
+    "协调多方力量将孤儿送往内蒙古抚养",
+    "'一手摘棉花一手抱娃娃'的工作方针",
+    "推动成立全国儿童少年工作协调委员会"
+   ],
+   "representative_cases_en": [
+    "Coordinated multi-party efforts to send orphans to Inner Mongolia",
+    "Advocated balancing work and family care",
+    "Pushed establishment of National Children's Work Coordination Committee"
+   ],
+   "modern_applications_zh": [
+    "公共管理协调",
+    "跨部门合作",
+    "社会资源整合"
+   ],
+   "modern_applications_en": [
+    "Public administration coordination",
+    "Cross-department cooperation",
+    "Social resource integration"
+   ],
+   "related_modes": [
+    "M-KKQ-002",
+    "M-KKQ-004",
+    "M-KKQ-001"
+   ],
+   "legacy_mode_id": "M329",
+   "legacy_fields": {
+    "application_context": "妇女儿童工作统筹协调",
+    "specific_application": "协调政府、社会、家庭等多方力量推动儿童保育工作，一手抓妇女生产一手抓儿童保育",
+    "expected_outcomes": [
+     "资源整合效率高",
+     "工作协同效果好",
+     "问题解决全面",
+     "各方满意度高"
+    ],
+    "implementation_steps": [
+     "全局规划：统筹考虑整体工作布局",
+     "部门协调：协调各相关部门行动",
+     "资源整合：整合各类资源力量",
+     "分工协作：明确各方责任和分工",
+     "合力推进：形成工作合力共同推进"
+    ],
+    "evaluation_criteria": [
+     "协调效率：跨部门协作的效率",
+     "资源整合：资源利用的有效性",
+     "工作成效：整体工作的完成情况",
+     "各方满意：各方的满意度"
+    ],
+    "historical_examples": [
+     "协调多方力量将孤儿送往内蒙古抚养",
+     "'一手摘棉花，一手抱娃娃'的工作方针",
+     "推动成立全国儿童少年工作协调委员会"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-KKQ-010",
+   "mode_code": "M-KKQ-010",
+   "figure_code": "H-KKQ-001",
+   "figure_name": "康克清",
+   "name_zh": "四自精神法",
+   "name_en": "Four-Self Spirit Method",
+   "category": "精神建设思维",
+   "category_raw": "精神建设思维",
+   "domain_zh": "妇女建设/精神激励",
+   "domain_en": "Women's Development / Spiritual Motivation",
+   "level": "核心",
+   "priority": 10,
+   "definition_zh": "倡导妇女自尊、自信、自立、自强的精神，提高妇女自身素质，激发妇女主体意识。",
+   "definition_en": "Advocate the spirit of self-respect, self-confidence, self-reliance and self-strengthening for women, improve women's qualities, and stimulate women's subjective consciousness.",
+   "source_chapter": "新时期妇女工作指导思想",
+   "key_concepts": [
+    "自尊",
+    "自信",
+    "自立",
+    "自强"
+   ],
+   "key_quote_zh": "四个现代化需要妇女，妇女需要四个现代化",
+   "key_quote_en": "Four modernizations need women, women need four modernizations",
+   "process_zh": [
+    "精神倡导广泛宣传四自精神",
+    "素质提升加强妇女文化科学知识学习",
+    "能力建设提高妇女参与社会建设的能力",
+    "典型引领树立妇女先进典型",
+    "持续深化不断丰富四自精神内涵"
+   ],
+   "process_en": [
+    "Spiritual advocacy of four-self spirit",
+    "Quality improvement through education",
+    "Capacity building for social participation",
+    "Role model leadership",
+    "Continuous deepening of the concept"
+   ],
+   "representative_cases_zh": [
+    "提出四自精神并推广至全国",
+    "强调妇女提高文化科学素质",
+    "推动妇女在四个现代化中发挥作用"
+   ],
+   "representative_cases_en": [
+    "Promoted four-self spirit nationwide",
+    "Emphasized women's cultural and scientific education",
+    "Advanced women's role in four modernizations"
+   ],
+   "modern_applications_zh": [
+    "女性教育",
+    "女性发展",
+    "性别平等促进"
+   ],
+   "modern_applications_en": [
+    "Women's education",
+    "Women's development",
+    "Gender equality promotion"
+   ],
+   "related_modes": [
+    "M-KKQ-003",
+    "M-KKQ-008",
+    "M-KKQ-001"
+   ],
+   "legacy_mode_id": "M330",
+   "legacy_fields": {
+    "application_context": "妇女素质提升和精神建设",
+    "expected_outcomes": [
+     "提升妇女自信",
+     "激发主体意识",
+     "增强发展能力",
+     "促进全面发展"
+    ],
+    "implementation_steps": [
+     "精神倡导：广泛宣传四自精神",
+     "素质提升：加强妇女文化科学知识学习",
+     "能力建设：提高妇女参与社会建设的能力",
+     "典型引领：树立妇女先进典型",
+     "持续深化：不断丰富四自精神内涵"
+    ],
+    "evaluation_criteria": [
+     "精神面貌：妇女的精神状态",
+     "能力素质：妇女的综合能力",
+     "参与程度：妇女社会参与度",
+     "发展水平：妇女整体发展水平"
+    ]
+   },
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（两版本合并（按现状保真，未扩写））；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-001",
+   "mode_code": "M-LWH-001",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "爱国统一法",
+   "name_en": "Patriotic Unity Method",
+   "category": "政治哲学",
+   "category_raw": "政治哲学",
+   "domain_zh": "统一战线理论",
+   "domain_en": "United Front Theory",
+   "level": "核心",
+   "priority": 1,
+   "definition_zh": "以爱国主义为最大公约数，将不同政治立场、宗教信仰、社会阶层的人士纳入统一战线的包容性框架。超越意识形态分歧，以'爱国'作为团结的政治基础，通过渐进方式提升各群体的政治意识，而非强制改造。",
+   "definition_en": "Using patriotism as the greatest common divisor, incorporating people of different political stands, religious beliefs, and social classes into an inclusive united front framework. Transcends ideological differences with 'patriotism' as the political foundation for unity.",
+   "source_chapter": "《关于统一战线和民族问题的几个问题》",
+   "key_concepts": [
+    "爱国统一战线",
+    "最大公约数",
+    "包容性团结",
+    "渐进改造"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "识别共同的政治基础",
+    "划定团结范围",
+    "建立对话机制",
+    "渐进提升意识",
+    "维护统一战线"
+   ],
+   "process_en": [
+    "Identify common political basis",
+    "Define unity scope",
+    "Establish dialogue mechanisms",
+    "Gradual consciousness elevation",
+    "Maintain united front"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M341",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-002",
+   "mode_code": "M-LWH-002",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "民族区域自治法",
+   "name_en": "Regional Ethnic Autonomy Method",
+   "category": "制度设计",
+   "category_raw": "制度设计",
+   "domain_zh": "民族政策",
+   "domain_en": "Ethnic Policy",
+   "level": "核心",
+   "priority": 2,
+   "definition_zh": "在统一国家框架内，根据少数民族聚居区的特点，设立自治机关，行使自治权，保障少数民族管理本民族内部事务的权利。既维护国家统一，又尊重民族差异。",
+   "definition_en": "Within a unified state framework, establish autonomous organs based on characteristics of ethnic minority concentrated areas, exercise autonomy rights, and guarantee minorities' right to manage their internal affairs.",
+   "source_chapter": "《民族政策的理论与实践》",
+   "key_concepts": [
+    "区域自治",
+    "民族平等",
+    "国家统一",
+    "自治权"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "确认民族分布格局",
+    "设计自治区域",
+    "建立自治机关",
+    "赋予自治权力",
+    "协调民族关系",
+    "促进共同发展"
+   ],
+   "process_en": [
+    "Confirm ethnic distribution pattern",
+    "Design autonomous regions",
+    "Establish autonomous organs",
+    "Grant autonomy powers",
+    "Coordinate ethnic relations",
+    "Promote common development"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M342",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-003",
+   "mode_code": "M-LWH-003",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "宗教渐进法",
+   "name_en": "Gradual Religious Approach",
+   "category": "方法论",
+   "category_raw": "方法论",
+   "domain_zh": "宗教政策",
+   "domain_en": "Religious Policy",
+   "level": "重要",
+   "priority": 3,
+   "definition_zh": "承认宗教存在的长期性和复杂性，对宗教信徒采取温和、耐心的态度。认为大多数宗教信徒是爱国的，应通过教育和引导逐步提高其政治觉悟。",
+   "definition_en": "Recognizing the long-term existence and complexity of religion, taking a gentle and patient attitude toward religious believers. Believes most religious believers are patriotic.",
+   "source_chapter": "《关于宗教问题的几个问题》",
+   "key_concepts": [
+    "宗教长期性",
+    "爱国信徒",
+    "渐进引导",
+    "反对左倾"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "区分两类矛盾",
+    "评估信徒政治立场",
+    "选择温和策略",
+    "开展教育引导",
+    "建立统一战线"
+   ],
+   "process_en": [
+    "Distinguish two types of contradictions",
+    "Assess believers' political stance",
+    "Choose moderate strategy",
+    "Conduct education and guidance",
+    "Build united front"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M343",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-004",
+   "mode_code": "M-LWH-004",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "党校培养法",
+   "name_en": "Party School Training Method",
+   "category": "组织建设",
+   "category_raw": "组织建设",
+   "domain_zh": "干部培养",
+   "domain_en": "Cadre Development",
+   "level": "重要",
+   "priority": 4,
+   "definition_zh": "通过党校系统培养党的各级干部，将理论学习与实践锻炼相结合，使干部既掌握马克思主义理论，又具备解决实际问题的能力。",
+   "definition_en": "Cultivating party cadres at all levels through party school system, combining theoretical study with practical training.",
+   "source_chapter": "延安中央党校工作实践(1933-1935, 1937-1938)",
+   "key_concepts": [
+    "理论联系实际",
+    "干部培养",
+    "思想政治教育",
+    "系统化训练"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "确定培养目标",
+    "设计课程体系",
+    "开展思想教育",
+    "组织实践锻炼",
+    "考核评估效果",
+    "跟踪培养发展"
+   ],
+   "process_en": [
+    "Define training objectives",
+    "Design curriculum",
+    "Conduct ideological education",
+    "Organize practical training",
+    "Evaluate effectiveness",
+    "Track development"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M344",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-005",
+   "mode_code": "M-LWH-005",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "实事求是调察法",
+   "name_en": "Seeking Truth from Facts Investigation Method",
+   "category": "认识论",
+   "category_raw": "认识论",
+   "domain_zh": "调查研究",
+   "domain_en": "Investigation and Research",
+   "level": "核心",
+   "priority": 5,
+   "definition_zh": "坚持从实际出发，通过深入调查了解真实情况，形成正确的决策。反对主观主义、教条主义，强调政策制定必须建立在充分了解实际情况的基础上。",
+   "definition_en": "Adhering to proceeding from reality, understanding true situations through in-depth investigation, forming correct decisions. Opposes subjectivism and dogmatism.",
+   "source_chapter": "《农村调查》序言及相关论述",
+   "key_concepts": [
+    "实事求是",
+    "调查研究",
+    "反对主观主义",
+    "第一手资料"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "明确调查目的",
+    "选择调查对象",
+    "深入实地调研",
+    "整理分析资料",
+    "形成决策建议",
+    "跟踪验证效果"
+   ],
+   "process_en": [
+    "Define investigation purpose",
+    "Select survey subjects",
+    "Conduct field research",
+    "Organize and analyze data",
+    "Formulate recommendations",
+    "Track and verify"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M345",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-006",
+   "mode_code": "M-LWH-006",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "妥协联合艺术",
+   "name_en": "Art of Compromise and Coalition",
+   "category": "政治艺术",
+   "category_raw": "政治艺术",
+   "domain_zh": "统一战线策略",
+   "domain_en": "United Front Strategy",
+   "level": "重要",
+   "priority": 6,
+   "definition_zh": "在保持原则性的前提下，通过妥协和让步联合尽可能多的力量。区分主要敌人和次要敌人，暂时联合可能联合的一切力量，孤立最主要的敌人。",
+   "definition_en": "Through compromise and concession while maintaining principled stance, unite as many forces as possible. Distinguish primary and secondary enemies.",
+   "source_chapter": "《统一战线工作中的几个问题》",
+   "key_concepts": [
+    "又联合又斗争",
+    "分化敌人",
+    "原则性妥协",
+    "孤立主要敌人"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "分析政治力量格局",
+    "确定主要矛盾",
+    "划分联合范围",
+    "制定妥协方案",
+    "实施联合行动",
+    "保持独立地位"
+   ],
+   "process_en": [
+    "Analyze political power landscape",
+    "Determine principal contradiction",
+    "Define unity scope",
+    "Formulate compromise plan",
+    "Implement joint action",
+    "Maintain independence"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M346",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-007",
+   "mode_code": "M-LWH-007",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "群众利益代表法",
+   "name_en": "Mass Interest Representation Method",
+   "category": "价值论",
+   "category_raw": "价值论",
+   "domain_zh": "群众路线",
+   "domain_en": "Mass Line",
+   "level": "重要",
+   "priority": 7,
+   "definition_zh": "始终代表最广大人民的根本利益，将群众利益作为一切工作的出发点和落脚点。通过深入群众了解真实诉求，将分散的群众意见集中为系统的政策主张。",
+   "definition_en": "Always representing fundamental interests of the broadest masses, taking people's interests as the starting point and ultimate goal of all work.",
+   "source_chapter": "《群众路线问题》",
+   "key_concepts": [
+    "为人民服务",
+    "从群众中来",
+    "到群众中去",
+    "反对官僚主义"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "深入群众生活",
+    "倾听群众呼声",
+    "分析群众利益",
+    "形成政策主张",
+    "贯彻到群众中去",
+    "检验政策效果"
+   ],
+   "process_en": [
+    "Deep into mass life",
+    "Listen to mass voices",
+    "Analyze mass interests",
+    "Form policy proposals",
+    "Implement among masses",
+    "Test policy effects"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M347",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-008",
+   "mode_code": "M-LWH-008",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "批评自我批评法",
+   "name_en": "Criticism and Self-Criticism Method",
+   "category": "方法论",
+   "category_raw": "方法论",
+   "domain_zh": "党内政治生活",
+   "domain_en": "Intraparty Political Life",
+   "level": "重要",
+   "priority": 8,
+   "definition_zh": "通过批评和自我批评纠正错误、统一思想、增强团结。主张'惩前毖后、治病救人'，批评的目的是帮助同志改正错误而非打击报复。",
+   "definition_en": "Correcting errors and unifying thinking through criticism and self-criticism. Advocates 'learn from past mistakes to avoid future ones, cure the illness to save the patient'.",
+   "source_chapter": "《关于党的生活的几个问题》",
+   "key_concepts": [
+    "惩前毖后",
+    "治病救人",
+    "自我批评",
+    "民主生活"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "营造批评氛围",
+    "开展自我批评",
+    "进行相互批评",
+    "分析错误根源",
+    "制定改进措施",
+    "跟踪整改效果"
+   ],
+   "process_en": [
+    "Create criticism atmosphere",
+    "Conduct self-criticism",
+    "Perform mutual criticism",
+    "Analyze error roots",
+    "Formulate improvement measures",
+    "Track rectification results"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M348",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-009",
+   "mode_code": "M-LWH-009",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "封建主义批判法",
+   "name_en": "Feudalism Criticism Method",
+   "category": "批判理论",
+   "category_raw": "批判理论",
+   "domain_zh": "政治改革",
+   "domain_en": "Political Reform",
+   "level": "重要",
+   "priority": 9,
+   "definition_zh": "批判党内存在的封建主义残余，包括个人崇拜、家长制、特权思想、等级观念等。认为这些封建残余阻碍社会主义民主政治建设。",
+   "definition_en": "Critiquing feudal remnants existing within the party, including personality cult, patriarchy, privilege mentality, hierarchical concepts.",
+   "source_chapter": "《关于社会主义民主与法制的几个问题》",
+   "key_concepts": [
+    "反对封建主义",
+    "党内民主",
+    "集体领导",
+    "个人崇拜批判"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "识别封建残余表现",
+    "追溯封建思想根源",
+    "揭示危害性",
+    "提出整改措施",
+    "推进制度变革",
+    "长期坚持改造"
+   ],
+   "process_en": [
+    "Identify feudal remnants",
+    "Trace ideological roots",
+    "Reveal harmfulness",
+    "Propose rectification",
+    "Promote institutional change",
+    "Persist long-term reform"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M349",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  },
+  {
+   "id": "M-LWH-010",
+   "mode_code": "M-LWH-010",
+   "figure_code": "H-LWH-001",
+   "figure_name": "李维汉",
+   "name_zh": "历史经验总结法",
+   "name_en": "Historical Experience Summarization Method",
+   "category": "史学方法",
+   "category_raw": "史学方法",
+   "domain_zh": "党史研究",
+   "domain_en": "Party History Research",
+   "level": "重要",
+   "priority": 10,
+   "definition_zh": "通过对历史经验的系统总结和反思，提炼出具有普遍指导意义的规律性认识。强调'以史为鉴'，从成功和失败中汲取智慧。",
+   "definition_en": "Through systematic summarization and reflection on historical experiences, extracting universally guiding regular understandings. Emphasizes 'taking history as mirror'.",
+   "source_chapter": "《党史工作的几个问题》",
+   "key_concepts": [
+    "以史为鉴",
+    "经验教训",
+    "历史唯物主义",
+    "档案整理"
+   ],
+   "key_quote_zh": null,
+   "key_quote_en": null,
+   "process_zh": [
+    "收集历史资料",
+    "核实史料真伪",
+    "梳理历史脉络",
+    "分析成败原因",
+    "总结规律认识",
+    "服务现实工作"
+   ],
+   "process_en": [
+    "Collect historical materials",
+    "Verify source authenticity",
+    "Sort historical context",
+    "Analyze causes",
+    "Summarize regular understandings",
+    "Serve current work"
+   ],
+   "representative_cases_zh": null,
+   "representative_cases_en": null,
+   "modern_applications_zh": null,
+   "modern_applications_en": null,
+   "related_modes": [],
+   "legacy_mode_id": "M350",
+   "legacy_missing_fields": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ],
+   "verification": {
+    "status": "pending",
+    "method": "legacy20-rev6-landing",
+    "evidence": "旧世代载荷复刻落盘（单版本搬迁；引文与案例源档即空，本批未补写）；引文与出处未独立核验，核验另立卡",
+    "checked_at": "2026-09-23",
+    "checker": "san-martin (Phase21-R6 落盘卡 t_2d5112c6)"
+   }
+  }
+ ]
+}

@@ -13,13 +13,13 @@
  */
 export const SITE_COUNTS = {
   /** 站点发布口径的模式摘要条数 (meta.json counts.mode_summaries_published) */
-  modes: 3092,
+  modes: 3192,
   /** 人物数 (meta.json counts.mode_by_figure_shards, 与 /figures 名录一致) */
-  figures: 306,
+  figures: 316,
   /** 首页 description (与 site_counts.description_text 同值) */
-  description: "3092 条思维模式 × 306 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。",
+  description: "3192 条思维模式 × 316 位历史人物：每条都有出处、操作步骤与现代应用。以人为鉴，明得失。",
   /** og:description / 页脚文案 (与 site_counts.og_description_text 同值) */
-  ogDescription: "3092 条思维模式 × 306 位历史人物 · 中英双语",
+  ogDescription: "3192 条思维模式 × 316 位历史人物 · 中英双语",
   /**
    * 可信度四态 (meta.json counts.verification) —— Phase38-Y3 统计页 /credibility 与卡片徽章
    * CredibilityBadge.vue 的唯一取数入口. 别在任何组件里手写这四个数字.
@@ -27,26 +27,26 @@ export const SITE_COUNTS = {
    *   all       = 源库口径 (含隔离记录), 只用于如实交代两者差别, 不冒充发布数据
    */
   verification: {
-    published: { verified: 932, pending: 1786, suspect: 34, unverifiable: 340 },
-    publishedTotal: 3092,
-    all: { verified: 932, pending: 1818, suspect: 51, unverifiable: 351 },
-    allTotal: 3152,
+    published: { verified: 932, pending: 1886, suspect: 34, unverifiable: 340 },
+    publishedTotal: 3192,
+    all: { verified: 932, pending: 1918, suspect: 51, unverifiable: 351 },
+    allTotal: 3252,
     quarantinedTotal: 60,
     /** 源库去重后的模式记录数 (counts.mode_summaries); 抽查不到时为 null, 不编数字 */
-    sourceTotal: 3152,
+    sourceTotal: 3252,
   },
   /**
    * 可点链接覆盖率 (meta.json counts.citation_links) —— 统计页照实公布, 不声称全链.
    * citations* 是去重级 (同一本书只算一次), segments* 是出现级 (每条出处里的每个分段).
    */
   citationLinks: {
-    modesWithCitations: 2418,
+    modesWithCitations: 2475,
     modesWithLink: 956,
-    citations: 4404,
+    citations: 4467,
     citationsLinked: 1192,
     citationsRegisteredUnlinkable: 941,
-    citationsUnresolved: 2271,
-    segments: 4465,
+    citationsUnresolved: 2334,
+    segments: 4528,
     segmentsLinked: 1210,
   },
 } as const

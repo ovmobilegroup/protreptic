@@ -1,0 +1,60 @@
+{
+ "H-CY-001": {
+  "figure_code": "H-CY-001",
+  "zh_new": 10,
+  "en_new": 10,
+  "remap_needed_zh": 0,
+  "remap_needed_en": 0,
+  "gaps": [
+   "英文场景码沿用载荷原码 C-CY-001~010（与库内 C-*-001E 规范不同，合并卡并入前须裁定）"
+  ],
+  "embedded_source": "data/individuals/H-CY-001.json"
+ },
+ "H-SQL-001": {
+  "figure_code": "H-SQL-001",
+  "zh_new": 0,
+  "en_new": 0,
+  "remap_needed_zh": 10,
+  "remap_needed_en": 10,
+  "gaps": [
+   "中文与英文场景条目（C-SQL-001~010 / C-SQL-001E~010E）均已在库内，本卡登记待重指"
+  ]
+ },
+ "H-YSK-001": {
+  "figure_code": "H-YSK-001",
+  "zh_new": 0,
+  "en_new": 0,
+  "remap_needed_zh": 0,
+  "remap_needed_en": 0,
+  "gaps": [
+   "原始场景载荷 data/scenarios_yang_shangkun_zh.json 为 5 条（覆盖 5/10 模式），格式非库内 scenarios_*.json 规范，并入前须由合并卡裁定",
+   "原始场景载荷 data/scenarios_yang_shangkun_en.json 为 5 条（覆盖 5/10 模式），格式非库内 scenarios_*.json 规范，并入前须由合并卡裁定",
+   "场景覆盖 5/10（其余 5 个模式无既有场景载荷），本卡不补齐"
+  ],
+  "raw_zh_count": 5,
+  "raw_source": "data/scenarios_yang_shangkun_en.json",
+  "raw_en_count": 5
+ },
+ "H-WL-001": {
+  "figure_code": "H-WL-001",
+  "zh_new": 0,
+  "en_new": 0,
+  "remap_needed_zh": 10,
+  "remap_needed_en": 10,
+  "gaps": [
+   "中文与英文场景条目（C-WL-001~010 / C-WL-001E~010E）均已在库内，本卡登记待重指"
+  ],
+  "embedded_source": "data/individuals/H-WL-001.json"
+ },
+ "H-JX-001": {
+  "figure_code": "H-JX-001",
+  "zh_new": 10,
+  "en_new": 10,
+  "remap_needed_zh": 0,
+  "remap_needed_en": 0,
+  "gaps": [
+   "英文场景码沿用载荷原码 C-JXE-001~010（风格与库内规范不一致，合并卡并入前须裁定）"
+  ],
+  "embedded_source": "data/individuals/H-JX-001.json"
+ }
+}

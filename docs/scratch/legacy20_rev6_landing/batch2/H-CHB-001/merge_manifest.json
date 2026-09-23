@@ -1,0 +1,152 @@
+{
+ "code": "H-CHB-001",
+ "figure_name": "陈伯达",
+ "legacy_ids": [
+  "M211",
+  "M212",
+  "M213",
+  "M214",
+  "M215",
+  "M216",
+  "M217",
+  "M218",
+  "M219",
+  "M220"
+ ],
+ "id_mapping": {
+  "M211": "M-CHB-001",
+  "M212": "M-CHB-002",
+  "M213": "M-CHB-003",
+  "M214": "M-CHB-004",
+  "M215": "M-CHB-005",
+  "M216": "M-CHB-006",
+  "M217": "M-CHB-007",
+  "M218": "M-CHB-008",
+  "M219": "M-CHB-009",
+  "M220": "M-CHB-010"
+ },
+ "header_decisions": [
+  {
+   "field": "(header base)",
+   "chosen": "figures",
+   "reason": "图档侧候选按必填字段最全者为准（CHB/FXT 与样例一致）"
+  },
+  {
+   "field": "unique_thinking",
+   "chosen": "figures.core_thoughts",
+   "reason": "样例口径：core_thoughts 改名 unique_thinking"
+  },
+  {
+   "field": "id",
+   "chosen": "individuals",
+   "reason": "必填缺项回填（取较长者）"
+  },
+  {
+   "field": "tags",
+   "chosen": "individuals",
+   "reason": "必填缺项回填（取较长者）"
+  },
+  {
+   "field": "mode_ids",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "mode_ids_note",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "caveats",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "figure_name_en",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "time_period_standardized",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "nationality",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "ethnicity",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "civilization_sphere",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "primary_language",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "school",
+   "chosen": "figures（基版）",
+   "alt": "individuals",
+   "alt_value": "马克思主义理论/现代批判主义",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "intellectual_tradition",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "historical_significance",
+   "chosen": "figures（基版）",
+   "alt": "individuals",
+   "alt_value": "陈伯达（1904-1989），福建泉州人，中共四大笔杆子之一。早年留学日本，归国后投身革命。1938年加入中国共产党，长期担任毛泽东政治秘书，是毛泽东思想理论体系的重要阐释者。文革期间曾任中央文革小组组长，权倾一时，文革结束后被定为反革命集团首要分子，判处有期徒刑。其人生轨迹折射了中国现代政治的复杂性和残酷性。他精通马克思主义理论，擅长理论批判和阶级分析，其文章在当时产生了重大影响。但同时，他的政治投机倾向也导致了悲惨的结局。",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "influence",
+   "chosen": "figures（基版）",
+   "alt": "individuals",
+   "alt_value": "对中国现代批判性思维的发展产生重要影响，但其政治投机倾向也为后人提供了深刻的历史教训。其理论批判方法在特定历史时期产生了重大影响，但也揭示了理论脱离实践、沦为政治工具的危险。",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "cross_references",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "protreptic_mapping",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "mode_count",
+   "chosen": "丢弃（与既有字段同值）",
+   "alt": "ind_modes",
+   "reason": "规范性去重"
+  }
+ ],
+ "record_merge_log": [],
+ "missing_fields_per_mode": [],
+ "category_review": [
+  {
+   "mode": "M-CHB-008",
+   "raw": "文化批判思维",
+   "applied": "文化批判思维"
+  },
+  {
+   "mode": "M-CHB-009",
+   "raw": "哲学思维",
+   "applied": "哲学思维"
+  }
+ ],
+ "related_modes_remap": "全部块内引用已重指新号；块外/未知引用：0"
+}

@@ -1,0 +1,20 @@
+=== CREDIBILITY GATE (batch2 combined entries) ===
+command: python3 tools/credibility_gate.py --data-path docs/scratch/legacy20_rev6_landing/batch2/combined_library_entries.json --hard-fail
+exit: 0
+
+=== CREDIBILITY GATE · 存量/新增两档 ===
+mode: hard-fail
+resolved data path:     docs/scratch/legacy20_rev6_landing/batch2/combined_library_entries.json (exists=True)
+resolved baseline path: /opt/data/workspace/Protreptic/data/audit/credibility_baseline.json (exists=True)
+hard failures on this dataset: 0
+baseline frozen at 2026-09-19T14:30:15+00:00 (total=527, fingerprints=526, D1=60 D2=9 D3=0 D6=457)
+baseline data_sha256: bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb
+current  data_sha256: 1db5869b363eaa186abf06478bb679df91395cd6c222c4456ebc3c253b1a0fb8
+D3 exemption: on, exempted modes: 0
+
+--- 存量（基线内，冻结）: 0 条 [D1=0 D2=0 D3=0 D6=0] ---
+
+--- 新增（基线外，必拦）: 0 条 ---
+  (none)
+
+--- 基线里已不再成立（可重新冻结）: 526 条 ---

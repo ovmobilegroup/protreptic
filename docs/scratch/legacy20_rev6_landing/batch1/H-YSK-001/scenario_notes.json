@@ -1,0 +1,141 @@
+{
+ "figure_code": "H-YSK-001",
+ "notes": {
+  "figure_code": "H-YSK-001",
+  "zh_new": 0,
+  "en_new": 0,
+  "remap_needed_zh": 0,
+  "remap_needed_en": 0,
+  "gaps": [
+   "原始场景载荷 data/scenarios_yang_shangkun_zh.json 为 5 条（覆盖 5/10 模式），格式非库内 scenarios_*.json 规范，并入前须由合并卡裁定",
+   "原始场景载荷 data/scenarios_yang_shangkun_en.json 为 5 条（覆盖 5/10 模式），格式非库内 scenarios_*.json 规范，并入前须由合并卡裁定",
+   "场景覆盖 5/10（其余 5 个模式无既有场景载荷），本卡不补齐"
+  ],
+  "raw_zh_count": 5,
+  "raw_source": "data/scenarios_yang_shangkun_en.json",
+  "raw_en_count": 5
+ },
+ "remap_needed": [],
+ "raw_scenarios": {
+  "raw_zh": {
+   "source": "data/scenarios_yang_shangkun_zh.json",
+   "items": [
+    {
+     "code": "C-YSK-001",
+     "name": "杨尚昆/中枢协调/中共中央办公厅主任的体制运转",
+     "core_mode": "M-YSK-001 中枢协调法",
+     "figure_id": "H-YSK-001",
+     "category": "中国/现代/政治体制",
+     "region": "东亚",
+     "country": "中国",
+     "year": 1988,
+     "tag": "中枢协调/政治体制/办公厅主任/信息整合/体制运转"
+    },
+    {
+     "code": "C-YSK-002",
+     "name": "杨尚昆/地下工作/重庆南方局情报网络建设",
+     "core_mode": "M-YSK-002 地下工作法",
+     "figure_id": "H-YSK-001",
+     "category": "中国/现代/情报工作",
+     "region": "东亚",
+     "country": "中国",
+     "year": 1930,
+     "tag": "地下工作/情报网络/秘密联络/重庆南方局/隐蔽战线"
+    },
+    {
+     "code": "C-YSK-003",
+     "name": "杨尚昆/后勤保障/长征通信与陕甘宁边区物资调度",
+     "core_mode": "M-YSK-003 后勤统筹法",
+     "figure_id": "H-YSK-001",
+     "category": "中国/现代/后勤保障",
+     "region": "东亚",
+     "country": "中国",
+     "year": 1934,
+     "tag": "后勤保障/长征通信/物资调度/陕甘宁边区/战略支撑"
+    },
+    {
+     "code": "C-YSK-004",
+     "name": "杨尚昆/组织建设/党的制度建设和干部培养",
+     "core_mode": "M-YSK-004 组织建设法",
+     "figure_id": "H-YSK-001",
+     "category": "中国/现代/政治体制",
+     "region": "东亚",
+     "country": "中国",
+     "year": 1978,
+     "tag": "组织建设/制度建设/干部培养/规范化运作/长期稳定"
+    },
+    {
+     "code": "C-YSK-005",
+     "name": "杨尚昆/信息整合/中共中央秘书长情报体系",
+     "core_mode": "M-YSK-007 信息整合法",
+     "figure_id": "H-YSK-001",
+     "category": "中国/现代/决策支持",
+     "region": "东亚",
+     "country": "中国",
+     "year": 1980,
+     "tag": "信息整合/情报分析/决策支持/多源过滤/战略研判"
+    }
+   ]
+  },
+  "raw_en": {
+   "source": "data/scenarios_yang_shangkun_en.json",
+   "items": [
+    {
+     "code": "C-YSK-001E",
+     "name": "Yang Shangkun/Central Coordination/General Office System Operations",
+     "core_mode": "M-YSK-001 Central Hub Coordination Method",
+     "figure_id": "H-YSK-001",
+     "category": "China/Modern/Political System",
+     "region": "East Asia",
+     "country": "China",
+     "year": 1988,
+     "tag": "central_coordination/political_system/general_office/information_integration/system_operations"
+    },
+    {
+     "code": "C-YSK-002E",
+     "name": "Yang Shangkun/Underground Work/Chongqing South Bureau Intelligence Network Construction",
+     "core_mode": "M-YSK-002 Underground Operations Method",
+     "figure_id": "H-YSK-001",
+     "category": "China/Modern/Intelligence Work",
+     "region": "East Asia",
+     "country": "China",
+     "year": 1930,
+     "tag": "underground_work/intelligence_network/secret_communication/chongqing_south_bureau/covert_operations"
+    },
+    {
+     "code": "C-YSK-003E",
+     "name": "Yang Shangkun/Logistics Support/Long March Communication and Border Region Material Scheduling",
+     "core_mode": "M-YSK-003 Logistics Systematization Method",
+     "figure_id": "H-YSK-001",
+     "category": "China/Modern/Logistics Support",
+     "region": "East Asia",
+     "country": "China",
+     "year": 1934,
+     "tag": "logistics_support/long_march_communication/material_scheduling/shaanxi_gansu_ningxia_border_region/strategic_support"
+    },
+    {
+     "code": "C-YSK-004E",
+     "name": "Yang Shangkun/Organizational Construction/Party Institution Building and Cadre Cultivation",
+     "core_mode": "M-YSK-004 Organizational Construction Method",
+     "figure_id": "H-YSK-001",
+     "category": "China/Modern/Political System",
+     "region": "East Asia",
+     "country": "China",
+     "year": 1978,
+     "tag": "organizational_construction/institution_building/cadre_cultivation/standardized_operations/long_term_stability"
+    },
+    {
+     "code": "C-YSK-005E",
+     "name": "Yang Shangkun/Information Integration/CPC Central Secretariat Intelligence System",
+     "core_mode": "M-YSK-007 Information Integration Method",
+     "figure_id": "H-YSK-001",
+     "category": "China/Modern/Decision Support",
+     "region": "East Asia",
+     "country": "China",
+     "year": 1980,
+     "tag": "information_integration/intelligence_analysis/decision_support/multi_source_filtering/strategic_assessment"
+    }
+   ]
+  }
+ }
+}

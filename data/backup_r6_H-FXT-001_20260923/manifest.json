@@ -1,0 +1,35 @@
+{
+ "code": "H-FXT-001",
+ "date": "20260923",
+ "card": "t_2d5112c6",
+ "note": "字节备份（落盘前原档，相对路径斜杠转下划线）",
+ "files": [
+  {
+   "source_path": "data/figures/H-FXT-001.json",
+   "read_path": "data/backup_r6_H-FXT-001_20260923/data_figures_H-FXT-001.json",
+   "key": "figures",
+   "backup_path": "data/backup_r6_H-FXT-001_20260923/data_figures_H-FXT-001.json",
+   "sha256": "0e82e8279a954406ee21e59f321eaa74e4ac5518bb65c64c4e9d3878697ab388",
+   "bytes": 6675,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/figures/H-FXT-001_modes.json",
+   "read_path": "data/backup_r6_H-FXT-001_20260923/data_figures_H-FXT-001_modes.json",
+   "key": "fig_modes",
+   "backup_path": "data/backup_r6_H-FXT-001_20260923/data_figures_H-FXT-001_modes.json",
+   "sha256": "ab7b8f2c28af022dca84cfcf1a18cb268ccb68c0acd4552ea72c78451b064bb0",
+   "bytes": 19492,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/individuals/H-FXT-001_modes.json",
+   "read_path": "data/backup_r6_H-FXT-001_20260923/data_individuals_H-FXT-001_modes.json",
+   "key": "ind_modes",
+   "backup_path": "data/backup_r6_H-FXT-001_20260923/data_individuals_H-FXT-001_modes.json",
+   "sha256": "08e2ed5f10250f5c86925f9e0ce52cefbe5e504be9b37b441d46fc2663de60c4",
+   "bytes": 27151,
+   "backup_state": "preexisting_first_run"
+  }
+ ]
+}

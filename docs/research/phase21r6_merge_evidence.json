@@ -1,0 +1,359 @@
+{
+  "card": "t_10089b19",
+  "pre_commit": "60a14a384a91767e1d6b413afa9c5b13cfb2d563",
+  "pass": [
+    {
+      "name": "A0 基线 3162",
+      "detail": 3162
+    },
+    {
+      "name": "A1 合并后 3262 (+100)",
+      "detail": 3262
+    },
+    {
+      "name": "A2 既有 3162 条逐对象全等（纯追加）",
+      "detail": ""
+    },
+    {
+      "name": "A3 根级非 modes 字段全等",
+      "detail": ""
+    },
+    {
+      "name": "A4 total 保持 3162（漂移 100 如实登记）",
+      "detail": ""
+    },
+    {
+      "name": "A5 新增 100 条 id/顺序与落盘一致",
+      "detail": ""
+    },
+    {
+      "name": "A6 新增 100 条与落盘条目逐对象全等（零改写）",
+      "detail": ""
+    },
+    {
+      "name": "A7 新号自唯一 100",
+      "detail": ""
+    },
+    {
+      "name": "A8 新号在全库 id/mode_code 各出现恰一次",
+      "detail": ""
+    },
+    {
+      "name": "A9 10 件 x 10 条分组齐全",
+      "detail": ""
+    },
+    {
+      "name": "A10 新号命名 M-<COD>-NNN 且 id==mode_code",
+      "detail": ""
+    },
+    {
+      "name": "A11 新增条目 related_modes 0 悬空",
+      "detail": []
+    },
+    {
+      "name": "A12 新增条目 verification 全 pending",
+      "detail": ""
+    },
+    {
+      "name": "A13 evidence 明写未独立核验",
+      "detail": ""
+    },
+    {
+      "name": "A14 新增条目旧号仅存于 legacy_* 留证字段",
+      "detail": []
+    },
+    {
+      "name": "B1 figures +3",
+      "detail": [
+        212,
+        215
+      ]
+    },
+    {
+      "name": "B2 新增键 == YSK/JX/LWH",
+      "detail": ""
+    },
+    {
+      "name": "B3 零删除既有 figure",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-CY-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-SQL-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-YSK-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-WL-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-JX-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-CHB-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-FXT-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-DYC-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-KKQ-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B4/H-LWH-001 mode_ids 归一新号",
+      "detail": ""
+    },
+    {
+      "name": "B5 非本批 figure 条目逐对象全等",
+      "detail": []
+    },
+    {
+      "name": "B6/H-YSK-001 注册含 tags",
+      "detail": 15
+    },
+    {
+      "name": "B6/H-YSK-001 注册含 cross_references",
+      "detail": 1
+    },
+    {
+      "name": "B7/H-YSK-001 注册 mode_ids 全新号",
+      "detail": ""
+    },
+    {
+      "name": "B6/H-JX-001 注册含 tags",
+      "detail": 15
+    },
+    {
+      "name": "B6/H-JX-001 注册含 cross_references",
+      "detail": 3
+    },
+    {
+      "name": "B7/H-JX-001 注册 mode_ids 全新号",
+      "detail": ""
+    },
+    {
+      "name": "B6/H-LWH-001 注册含 tags",
+      "detail": 10
+    },
+    {
+      "name": "B6/H-LWH-001 注册含 cross_references",
+      "detail": 3
+    },
+    {
+      "name": "B7/H-LWH-001 注册 mode_ids 全新号",
+      "detail": ""
+    },
+    {
+      "name": "B8 既有 7 件改动叶子全部为旧->新映射",
+      "detail": []
+    },
+    {
+      "name": "B9 既有 7 件改动叶子数 == 218",
+      "detail": 218
+    },
+    {
+      "name": "B10a new 3 registrations xref 0 dangling",
+      "detail": []
+    },
+    {
+      "name": "B10b ten-figure dangling set identical to baseline (zero added)",
+      "detail": []
+    },
+    {
+      "name": "B11 十件 code_maps 条目零旧号残留",
+      "detail": []
+    },
+    {
+      "name": "C1 zh 2183 -> 2213 (+30)",
+      "detail": [
+        2183,
+        2213
+      ]
+    },
+    {
+      "name": "C2 en 2183 -> 2213 (+30)",
+      "detail": [
+        2183,
+        2213
+      ]
+    },
+    {
+      "name": "C3 zh 新增键精确",
+      "detail": [
+        "C-CY-001",
+        "C-CY-002",
+        "C-CY-003"
+      ]
+    },
+    {
+      "name": "C4 en 新增键精确",
+      "detail": ""
+    },
+    {
+      "name": "C5 zh new entries equal to landing",
+      "detail": ""
+    },
+    {
+      "name": "C6 en new entries equal to landing (canonical E suffix)",
+      "detail": ""
+    },
+    {
+      "name": "C7 新增场景 mode_code 全部可达",
+      "detail": []
+    },
+    {
+      "name": "C8 库内既有 60 条 mode_id 重指正确",
+      "detail": []
+    },
+    {
+      "name": "C9 zh 非重指既有条目逐对象全等",
+      "detail": []
+    },
+    {
+      "name": "C10 en 非重指既有条目逐对象全等",
+      "detail": []
+    },
+    {
+      "name": "C11 十件场景条目零旧号残留",
+      "detail": []
+    },
+    {
+      "name": "D1 标签 7278 -> 7478 (+200)",
+      "detail": [
+        7278,
+        7478
+      ]
+    },
+    {
+      "name": "D2 新增 200 条标签与推导内容全等（zh/en 配对）",
+      "detail": ""
+    },
+    {
+      "name": "D3 既有平铺 7278 条除重指外逐对象全等",
+      "detail": []
+    },
+    {
+      "name": "D4 顶层键集合不变（零键改名）",
+      "detail": ""
+    },
+    {
+      "name": "D5 dict 级重指全部为旧->新映射",
+      "detail": []
+    },
+    {
+      "name": "D6 平铺重指全部为旧->新映射",
+      "detail": 10
+    },
+    {
+      "name": "D7 十件标签条目零旧号残留",
+      "detail": []
+    },
+    {
+      "name": "D8 dict 级既有条目除重指外全等",
+      "detail": []
+    },
+    {
+      "name": "E1 figure_names 与基线逐对象全等（本卡零写入）",
+      "detail": ""
+    },
+    {
+      "name": "E2 十件 figure_names 登记齐全",
+      "detail": ""
+    },
+    {
+      "name": "E3 十件登记名与条目 figure_name 一致",
+      "detail": ""
+    },
+    {
+      "name": "F 门禁 credibility_gate --hard-fail",
+      "detail": "exit=0"
+    },
+    {
+      "name": "F 门禁 verify_findings --hard-fail",
+      "detail": "exit=0"
+    },
+    {
+      "name": "F 门禁 verify_source_links --hard-fail",
+      "detail": "exit=0"
+    },
+    {
+      "name": "F 门禁 apply_verification_status --check",
+      "detail": "exit=0"
+    },
+    {
+      "name": "G1 站点 meta 计数 3252/316/1057",
+      "detail": [
+        3252,
+        316,
+        1057
+      ]
+    },
+    {
+      "name": "G2 锚点（两工具）已同步 3252/316",
+      "detail": []
+    },
+    {
+      "name": "G3 daily 索引 3192 条",
+      "detail": [
+        [
+          3192,
+          3192
+        ]
+      ]
+    },
+    {
+      "name": "G4 siteCounts.ts 含 3192/316",
+      "detail": ""
+    },
+    {
+      "name": "H 交付物存在 verify_r6_merge_indep.py",
+      "detail": ""
+    },
+    {
+      "name": "H 交付物存在 docs/research/phase21r6_merge_report.md",
+      "detail": ""
+    },
+    {
+      "name": "H 交付物存在 docs/research/phase21r6_merge_evidence.json",
+      "detail": ""
+    },
+    {
+      "name": "H 交付物存在 data/audit/phase21r6_merge_manifest.json",
+      "detail": ""
+    }
+  ],
+  "fail": [],
+  "info": [
+    {
+      "name": "A15 新增足迹（前/后缀）",
+      "detail": "head=['M-CY-001', 'M-CY-002'] tail=['M-LWH-009', 'M-LWH-010']"
+    },
+    {
+      "name": "B10c pre-existing dangling (ten figures, not ours)",
+      "detail": [
+        [
+          "H-SQL-001",
+          "H-MZD-001"
+        ],
+        [
+          "H-SQL-001",
+          "H-ZET-001"
+        ]
+      ]
+    }
+  ]
+}

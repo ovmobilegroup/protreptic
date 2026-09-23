@@ -1,0 +1,53 @@
+{
+ "code": "H-DYC-001",
+ "date": "20260923",
+ "card": "t_2d5112c6",
+ "note": "字节备份（落盘前原档，相对路径斜杠转下划线）",
+ "files": [
+  {
+   "source_path": "data/figures/H-DYC-001.json",
+   "read_path": "data/backup_r6_H-DYC-001_20260923/data_figures_H-DYC-001.json",
+   "key": "figures",
+   "backup_path": "data/backup_r6_H-DYC-001_20260923/data_figures_H-DYC-001.json",
+   "sha256": "3f3cce3693bccabda6a5b9805d50dcfc4c51bf3d69d95d8d0f435740e3f56bb0",
+   "bytes": 4208,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/figures/H-DYC-001_modes.json",
+   "read_path": "data/backup_r6_H-DYC-001_20260923/data_figures_H-DYC-001_modes.json",
+   "key": "fig_modes",
+   "backup_path": "data/backup_r6_H-DYC-001_20260923/data_figures_H-DYC-001_modes.json",
+   "sha256": "1b0b3bc9fd90e90f6781cd38d1e1bfccc3909ad869bab768bf8511d673ccabad",
+   "bytes": 29775,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/individuals/H-DYC-001.json",
+   "read_path": "data/backup_r6_H-DYC-001_20260923/data_individuals_H-DYC-001.json",
+   "key": "individuals",
+   "backup_path": "data/backup_r6_H-DYC-001_20260923/data_individuals_H-DYC-001.json",
+   "sha256": "87a66f0c4736a9a37af73a52f6e13852a5c8e5abbe617e44109408558bac4483",
+   "bytes": 5107,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/individuals/H-DYC-001_modes.json",
+   "read_path": "data/backup_r6_H-DYC-001_20260923/data_individuals_H-DYC-001_modes.json",
+   "key": "ind_modes",
+   "backup_path": "data/backup_r6_H-DYC-001_20260923/data_individuals_H-DYC-001_modes.json",
+   "sha256": "e82c3910f61c069b85299dd82382b4078f4ce10404110ecf40e3464cf88dd03d",
+   "bytes": 21430,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/H-DYC-001_modes.json",
+   "read_path": "data/backup_r6_H-DYC-001_20260923/data_H-DYC-001_modes.json",
+   "key": "root_modes",
+   "backup_path": "data/backup_r6_H-DYC-001_20260923/data_H-DYC-001_modes.json",
+   "sha256": "71891767ce16e4e43831e8d3c6a0cf7eba562ad57a8e20f16c5a1f09d45be589",
+   "bytes": 29778,
+   "backup_state": "preexisting_first_run"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "card": "t_4481df98",
+ "code": "H-SQL-001",
+ "date": "20260923",
+ "created_at": "2026-09-23",
+ "note": "落盘前字节备份（先备份后写入）",
+ "files": [
+  {
+   "path": "data/figures/H-SQL-001.json",
+   "backup": "data_figures_H-SQL-001.json",
+   "sha256_before": "d85bfee4923ae30efe997583274100f88ff98f420f4bea10d50b1ccfc2988bbf",
+   "bytes": 2054,
+   "git_head_sha256": "d85bfee4923ae30efe997583274100f88ff98f420f4bea10d50b1ccfc2988bbf"
+  },
+  {
+   "path": "data/individuals/H-SQL-001.json",
+   "backup": "data_individuals_H-SQL-001.json",
+   "sha256_before": "d79cf04559adf52a4710081bd56615dc5b0577eacdf446eb056c2c9e0e3b260f",
+   "bytes": 2079,
+   "git_head_sha256": "d79cf04559adf52a4710081bd56615dc5b0577eacdf446eb056c2c9e0e3b260f"
+  },
+  {
+   "path": "data/individuals/H-SQL-001_modes.json",
+   "backup": "data_individuals_H-SQL-001_modes.json",
+   "sha256_before": "82d934de00f3d3a038a76cb1775ef4cb0f09691c6b742f49778119e5a480ab9f",
+   "bytes": 29866,
+   "git_head_sha256": "82d934de00f3d3a038a76cb1775ef4cb0f09691c6b742f49778119e5a480ab9f"
+  }
+ ]
+}

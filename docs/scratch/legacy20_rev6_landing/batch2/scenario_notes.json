@@ -1,0 +1,60 @@
+{
+ "note": "批2 场景落盘汇总（本卡不新增事实内容；FXT 为载荷内嵌旧码归一；其余 4 件载荷与库内均无场景条目）",
+ "figures": {
+  "H-CHB-001": {
+   "figure_code": "H-CHB-001",
+   "zh_new": 0,
+   "en_new": 0,
+   "remap_needed_zh": 0,
+   "remap_needed_en": 0,
+   "gaps": [
+    "载荷与库内均无场景条目；C-CHB-001~010（E）双语缺口，需归档/精修卡补写（本卡不新增事实内容）"
+   ],
+   "embedded_source": null
+  },
+  "H-FXT-001": {
+   "figure_code": "H-FXT-001",
+   "zh_new": 10,
+   "en_new": 10,
+   "remap_needed_zh": 0,
+   "remap_needed_en": 0,
+   "gaps": [
+    "载荷内嵌旧码 C-FXT-001-001~010 已归一为 C-FXT-001~010 / E（英文按库内 xE 规范）；条目仅含标题（源即如此），无描述字段，未补写"
+   ],
+   "embedded_source": "data/figures/H-FXT-001.json"
+  },
+  "H-DYC-001": {
+   "figure_code": "H-DYC-001",
+   "zh_new": 0,
+   "en_new": 0,
+   "remap_needed_zh": 0,
+   "remap_needed_en": 0,
+   "gaps": [
+    "载荷与库内均无场景条目；C-DYC-001~010（E）双语缺口，需归档/精修卡补写（本卡不新增事实内容）"
+   ],
+   "embedded_source": null
+  },
+  "H-KKQ-001": {
+   "figure_code": "H-KKQ-001",
+   "zh_new": 0,
+   "en_new": 0,
+   "remap_needed_zh": 0,
+   "remap_needed_en": 0,
+   "gaps": [
+    "载荷与库内均无场景条目；C-KKQ-001~010（E）双语缺口，需归档/精修卡补写（本卡不新增事实内容）"
+   ],
+   "embedded_source": null
+  },
+  "H-LWH-001": {
+   "figure_code": "H-LWH-001",
+   "zh_new": 0,
+   "en_new": 0,
+   "remap_needed_zh": 0,
+   "remap_needed_en": 0,
+   "gaps": [
+    "载荷与库内均无场景条目；C-LWH-001~010（E）双语缺口，需归档/精修卡补写（本卡不新增事实内容）"
+   ],
+   "embedded_source": null
+  }
+ }
+}

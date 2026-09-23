@@ -1,0 +1,484 @@
+{
+ "card": "t_4481df98",
+ "date": "20260923",
+ "generated_at": "2026-09-23",
+ "scope": "Phase21-R6 A组复刻·批1（5 件）",
+ "figures": [
+  {
+   "code": "H-CY-001",
+   "name": "陈云",
+   "prefix": "CY",
+   "legacy_ids": [
+    "M101",
+    "M102",
+    "M103",
+    "M104",
+    "M105",
+    "M106",
+    "M107",
+    "M108",
+    "M109",
+    "M110"
+   ],
+   "mode_codes": [
+    "M-CY-001",
+    "M-CY-002",
+    "M-CY-003",
+    "M-CY-004",
+    "M-CY-005",
+    "M-CY-006",
+    "M-CY-007",
+    "M-CY-008",
+    "M-CY-009",
+    "M-CY-010"
+   ],
+   "payload_source": "data/figures/H-CY-001.json#modes",
+   "figure_rows": 10,
+   "refs_dropped": [],
+   "backup_dir": "data/backup_r6_H-CY-001_20260923",
+   "backup_files": [
+    {
+     "path": "data/figures/H-CY-001.json",
+     "backup": "data_figures_H-CY-001.json",
+     "sha256_before": "e283567ea5548a560a3cd6a1f69643d1528fe04bb400015ce318a471002af55c",
+     "bytes": 29040,
+     "git_head_sha256": "e283567ea5548a560a3cd6a1f69643d1528fe04bb400015ce318a471002af55c"
+    },
+    {
+     "path": "data/individuals/H-CY-001.json",
+     "backup": "data_individuals_H-CY-001.json",
+     "sha256_before": "e6d1bbd03c21fabd8d46254983fd21ff3c478bd48b5bf4cbb53f5e1609d53534",
+     "bytes": 12735,
+     "git_head_sha256": "e6d1bbd03c21fabd8d46254983fd21ff3c478bd48b5bf4cbb53f5e1609d53534"
+    },
+    {
+     "path": "data/individuals/H-CY-001_modes.json",
+     "backup": "data_individuals_H-CY-001_modes.json",
+     "sha256_before": "460572b4a6ecf47d900c2fc8cbd4a5adff40610f4351e82eba4215a45daa6f06",
+     "bytes": 23993,
+     "git_head_sha256": "460572b4a6ecf47d900c2fc8cbd4a5adff40610f4351e82eba4215a45daa6f06"
+    }
+   ],
+   "written": [
+    {
+     "path": "data/figures/H-CY-001.json",
+     "sha256": "2d5e418b854df93ec1314d203f4e49c55fdc58d4af2f16ed27b17b2b064f0280",
+     "bytes": 40965
+    },
+    {
+     "path": "data/individuals/H-CY-001.json",
+     "sha256": "be9d5a4bca07899c3ab62c812feb80f15dd0f44d6a6f1ffa7dbc519cd06c3b1d",
+     "bytes": 13110
+    },
+    {
+     "path": "data/individuals/H-CY-001_modes.json",
+     "sha256": "4579154f31a976951bb79feaeb7ae2141e676b92f3dcc8114491b5709b10f1f1",
+     "bytes": 27983
+    }
+   ],
+   "scenario_notes": {
+    "figure_code": "H-CY-001",
+    "zh_new": 10,
+    "en_new": 10,
+    "remap_needed_zh": 0,
+    "remap_needed_en": 0,
+    "gaps": [
+     "英文场景码沿用载荷原码 C-CY-001~010（与库内 C-*-001E 规范不同，合并卡并入前须裁定）"
+    ],
+    "embedded_source": "data/individuals/H-CY-001.json"
+   },
+   "category_summary": {
+    "方法论->方法论通用": 9,
+    "认识论->认识论逻辑": 1
+   },
+   "legacy_reuse_note": "旧号 M101-M110 仅本件档案使用，无跨人物重码"
+  },
+  {
+   "code": "H-SQL-001",
+   "name": "宋庆龄",
+   "prefix": "SQL",
+   "legacy_ids": [
+    "M361",
+    "M362",
+    "M363",
+    "M364",
+    "M365",
+    "M366",
+    "M367",
+    "M368",
+    "M369",
+    "M370"
+   ],
+   "mode_codes": [
+    "M-SQL-001",
+    "M-SQL-002",
+    "M-SQL-003",
+    "M-SQL-004",
+    "M-SQL-005",
+    "M-SQL-006",
+    "M-SQL-007",
+    "M-SQL-008",
+    "M-SQL-009",
+    "M-SQL-010"
+   ],
+   "payload_source": "data/individuals/H-SQL-001_modes.json#thinking_modes",
+   "figure_rows": 10,
+   "refs_dropped": [],
+   "backup_dir": "data/backup_r6_H-SQL-001_20260923",
+   "backup_files": [
+    {
+     "path": "data/figures/H-SQL-001.json",
+     "backup": "data_figures_H-SQL-001.json",
+     "sha256_before": "d85bfee4923ae30efe997583274100f88ff98f420f4bea10d50b1ccfc2988bbf",
+     "bytes": 2054,
+     "git_head_sha256": "d85bfee4923ae30efe997583274100f88ff98f420f4bea10d50b1ccfc2988bbf"
+    },
+    {
+     "path": "data/individuals/H-SQL-001.json",
+     "backup": "data_individuals_H-SQL-001.json",
+     "sha256_before": "d79cf04559adf52a4710081bd56615dc5b0577eacdf446eb056c2c9e0e3b260f",
+     "bytes": 2079,
+     "git_head_sha256": "d79cf04559adf52a4710081bd56615dc5b0577eacdf446eb056c2c9e0e3b260f"
+    },
+    {
+     "path": "data/individuals/H-SQL-001_modes.json",
+     "backup": "data_individuals_H-SQL-001_modes.json",
+     "sha256_before": "82d934de00f3d3a038a76cb1775ef4cb0f09691c6b742f49778119e5a480ab9f",
+     "bytes": 29866,
+     "git_head_sha256": "82d934de00f3d3a038a76cb1775ef4cb0f09691c6b742f49778119e5a480ab9f"
+    }
+   ],
+   "written": [
+    {
+     "path": "data/figures/H-SQL-001.json",
+     "sha256": "924b3cd18c47656f4df7b1c6ed082bcd19c1c85b45f258ead282be5f0af03038",
+     "bytes": 30889
+    },
+    {
+     "path": "data/individuals/H-SQL-001.json",
+     "sha256": "8eb5e7b18d53494333b40a90c8f5d558088b72a5f857d7222db224c306f76f17",
+     "bytes": 3035
+    },
+    {
+     "path": "data/individuals/H-SQL-001_modes.json",
+     "sha256": "b880737467ead70175b6ada94e7fc0d06bcf29b710d49babf78bdf50d4a35f15",
+     "bytes": 27994
+    }
+   ],
+   "scenario_notes": {
+    "figure_code": "H-SQL-001",
+    "zh_new": 0,
+    "en_new": 0,
+    "remap_needed_zh": 10,
+    "remap_needed_en": 10,
+    "gaps": [
+     "中文与英文场景条目（C-SQL-001~010 / C-SQL-001E~010E）均已在库内，本卡登记待重指"
+    ]
+   },
+   "category_summary": {
+    "伦理哲学->伦理哲学": 1,
+    "国际关系->国际关系": 1,
+    "社会运动->社会运动": 1,
+    "政治策略->战略决策": 1,
+    "外交策略->外交策略": 2,
+    "社会治理->政治治理": 1,
+    "教育哲学->教育传承": 1,
+    "政治哲学->政治治理": 1,
+    "方法论->方法论通用": 1
+   },
+   "legacy_reuse_note": "旧号 M361-M370 与其他档案及库内场景/标签存在重码（全库引用清单见核验证据 json）"
+  },
+  {
+   "code": "H-YSK-001",
+   "name": "杨尚昆",
+   "prefix": "YSK",
+   "legacy_ids": [
+    "M431",
+    "M432",
+    "M433",
+    "M434",
+    "M435",
+    "M436",
+    "M437",
+    "M438",
+    "M439",
+    "M440"
+   ],
+   "mode_codes": [
+    "M-YSK-001",
+    "M-YSK-002",
+    "M-YSK-003",
+    "M-YSK-004",
+    "M-YSK-005",
+    "M-YSK-006",
+    "M-YSK-007",
+    "M-YSK-008",
+    "M-YSK-009",
+    "M-YSK-010"
+   ],
+   "payload_source": "data/individuals/H-YSK-001_modes.json#modes",
+   "figure_rows": 10,
+   "refs_dropped": [],
+   "backup_dir": "data/backup_r6_H-YSK-001_20260923",
+   "backup_files": [
+    {
+     "path": "data/figures/H-YSK-001.json",
+     "backup": "data_figures_H-YSK-001.json",
+     "sha256_before": "346ba5428878279c7f889f13e66dbccccc345f73fd9b76f4958b01c7770ae57f",
+     "bytes": 1870,
+     "git_head_sha256": "346ba5428878279c7f889f13e66dbccccc345f73fd9b76f4958b01c7770ae57f"
+    },
+    {
+     "path": "data/individuals/H-YSK-001.json",
+     "backup": null,
+     "sha256_before": null,
+     "bytes": null,
+     "git_head_sha256": null,
+     "note": "absent_before_landing"
+    },
+    {
+     "path": "data/individuals/H-YSK-001_modes.json",
+     "backup": "data_individuals_H-YSK-001_modes.json",
+     "sha256_before": "1aae91a02d27a8a618e64633a8d18ab46f5f9398312a12b71e26ee5aa6776566",
+     "bytes": 31958,
+     "git_head_sha256": "1aae91a02d27a8a618e64633a8d18ab46f5f9398312a12b71e26ee5aa6776566"
+    }
+   ],
+   "written": [
+    {
+     "path": "data/figures/H-YSK-001.json",
+     "sha256": "844f555276cf4200eedbb8b0076e06e52d19180f804dc5926efc48ff372a18b7",
+     "bytes": 40134
+    },
+    {
+     "path": "data/individuals/H-YSK-001.json",
+     "sha256": "cd98cd58bff89045f0355594b8cf4c273ba089b65726db0636d3659b7e81d03e",
+     "bytes": 2916
+    },
+    {
+     "path": "data/individuals/H-YSK-001_modes.json",
+     "sha256": "d4f697e4df87acc1021da1333483d9cd0be68f3800a4409865a643242a12993c",
+     "bytes": 37355
+    }
+   ],
+   "scenario_notes": {
+    "figure_code": "H-YSK-001",
+    "zh_new": 0,
+    "en_new": 0,
+    "remap_needed_zh": 0,
+    "remap_needed_en": 0,
+    "gaps": [
+     "原始场景载荷 data/scenarios_yang_shangkun_zh.json 为 5 条（覆盖 5/10 模式），格式非库内 scenarios_*.json 规范，并入前须由合并卡裁定",
+     "原始场景载荷 data/scenarios_yang_shangkun_en.json 为 5 条（覆盖 5/10 模式），格式非库内 scenarios_*.json 规范，并入前须由合并卡裁定",
+     "场景覆盖 5/10（其余 5 个模式无既有场景载荷），本卡不补齐"
+    ],
+    "raw_zh_count": 5,
+    "raw_source": "data/scenarios_yang_shangkun_en.json",
+    "raw_en_count": 5
+   },
+   "category_summary": {
+    "组织管理->组织领导": 1,
+    "情报策略->情报策略": 2,
+    "后勤保障->后勤保障": 1,
+    "政治体制->政治治理": 2,
+    "区域治理->政治治理": 1,
+    "决策支持->战略决策": 1,
+    "人力资源管理->组织领导": 1,
+    "战略思维->战略决策": 1
+   },
+   "legacy_reuse_note": "旧号 M431-M440 另被 data/scenarios_yang_shangkun_*.json 引用"
+  },
+  {
+   "code": "H-WL-001",
+   "name": "万里",
+   "prefix": "WL",
+   "legacy_ids": [
+    "M274",
+    "M275",
+    "M276",
+    "M277",
+    "M278",
+    "M279",
+    "M280",
+    "M281",
+    "M282",
+    "M283"
+   ],
+   "mode_codes": [
+    "M-WL-001",
+    "M-WL-002",
+    "M-WL-003",
+    "M-WL-004",
+    "M-WL-005",
+    "M-WL-006",
+    "M-WL-007",
+    "M-WL-008",
+    "M-WL-009",
+    "M-WL-010"
+   ],
+   "payload_source": "data/individuals/H-WL-001_modes.json#list",
+   "figure_rows": 10,
+   "refs_dropped": [],
+   "backup_dir": "data/backup_r6_H-WL-001_20260923",
+   "backup_files": [
+    {
+     "path": "data/figures/H-WL-001.json",
+     "backup": "data_figures_H-WL-001.json",
+     "sha256_before": "ef64b7c7f69647dad1f1c02f0ea45bf03e2fb9a96fd098b4b018d3d65eefe521",
+     "bytes": 11632,
+     "git_head_sha256": "ef64b7c7f69647dad1f1c02f0ea45bf03e2fb9a96fd098b4b018d3d65eefe521"
+    },
+    {
+     "path": "data/individuals/H-WL-001.json",
+     "backup": "data_individuals_H-WL-001.json",
+     "sha256_before": "07ec197b4ce452a287b19fce604b140619750dc0affea1d1c8fafae96f43012f",
+     "bytes": 11760,
+     "git_head_sha256": "07ec197b4ce452a287b19fce604b140619750dc0affea1d1c8fafae96f43012f"
+    },
+    {
+     "path": "data/individuals/H-WL-001_modes.json",
+     "backup": "data_individuals_H-WL-001_modes.json",
+     "sha256_before": "7c26a6b744667dc09d249c4bbf7ac069f25575d3e483c2cee6f0b3acb8dfe4fa",
+     "bytes": 21536,
+     "git_head_sha256": "7c26a6b744667dc09d249c4bbf7ac069f25575d3e483c2cee6f0b3acb8dfe4fa"
+    }
+   ],
+   "written": [
+    {
+     "path": "data/figures/H-WL-001.json",
+     "sha256": "46e51ee8159a28ee5bfdf28388e79d05c9432636d5b4a35eb704d2c9ed7159fe",
+     "bytes": 38853
+    },
+    {
+     "path": "data/individuals/H-WL-001.json",
+     "sha256": "d5bd847fc6517ed664bac78dce80c36b9b30b3f6e89d18b6022f6b18157d1bcc",
+     "bytes": 12260
+    },
+    {
+     "path": "data/individuals/H-WL-001_modes.json",
+     "sha256": "f781aa5c176fce96ee8e810c02076a4a726b9f20c1fb1c6d6adb7b2cb593ea0c",
+     "bytes": 26719
+    }
+   ],
+   "scenario_notes": {
+    "figure_code": "H-WL-001",
+    "zh_new": 0,
+    "en_new": 0,
+    "remap_needed_zh": 10,
+    "remap_needed_en": 10,
+    "gaps": [
+     "中文与英文场景条目（C-WL-001~010 / C-WL-001E~010E）均已在库内，本卡登记待重指"
+    ],
+    "embedded_source": "data/individuals/H-WL-001.json"
+   },
+   "category_summary": {
+    "方法论->方法论通用": 10
+   },
+   "legacy_reuse_note": "旧号 M274-M283 另被库内 code_maps.json 与 scenarios_zh/en.json 引用"
+  },
+  {
+   "code": "H-JX-001",
+   "name": "纪弦",
+   "prefix": "JX",
+   "legacy_ids": [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M005",
+    "M006",
+    "M007",
+    "M008",
+    "M009",
+    "M010"
+   ],
+   "mode_codes": [
+    "M-JX-001",
+    "M-JX-002",
+    "M-JX-003",
+    "M-JX-004",
+    "M-JX-005",
+    "M-JX-006",
+    "M-JX-007",
+    "M-JX-008",
+    "M-JX-009",
+    "M-JX-010"
+   ],
+   "payload_source": "data/individuals/H-JX-001_modes.json#list",
+   "figure_rows": 10,
+   "refs_dropped": [],
+   "backup_dir": "data/backup_r6_H-JX-001_20260923",
+   "backup_files": [
+    {
+     "path": "data/figures/H-JX-001.json",
+     "backup": "data_figures_H-JX-001.json",
+     "sha256_before": "602ae1acd2c4aa8d578acf476256cb8266957b17d3eb759555fe53b5dfe1b590",
+     "bytes": 1856,
+     "git_head_sha256": "602ae1acd2c4aa8d578acf476256cb8266957b17d3eb759555fe53b5dfe1b590"
+    },
+    {
+     "path": "data/individuals/H-JX-001.json",
+     "backup": "data_individuals_H-JX-001.json",
+     "sha256_before": "246fa898e2c7b3772b3a13c44504a56d388bb81b7c532e4a542bb66820758204",
+     "bytes": 16724,
+     "git_head_sha256": "246fa898e2c7b3772b3a13c44504a56d388bb81b7c532e4a542bb66820758204"
+    },
+    {
+     "path": "data/individuals/H-JX-001_modes.json",
+     "backup": "data_individuals_H-JX-001_modes.json",
+     "sha256_before": "b6bdd1b5aaf650b2919304a3f504fca6e774478fa74968483228343e286cc3aa",
+     "bytes": 31152,
+     "git_head_sha256": "b6bdd1b5aaf650b2919304a3f504fca6e774478fa74968483228343e286cc3aa"
+    }
+   ],
+   "written": [
+    {
+     "path": "data/figures/H-JX-001.json",
+     "sha256": "126d18aa89336832e53113bb5a424aa11bc4480391057d821eace31668360ba3",
+     "bytes": 51572
+    },
+    {
+     "path": "data/individuals/H-JX-001.json",
+     "sha256": "a2610baf06de0bc11e2c7a9c7ad6c3a9e8b998867c7a5b414df6b472fc3abae6",
+     "bytes": 16027
+    },
+    {
+     "path": "data/individuals/H-JX-001_modes.json",
+     "sha256": "ce7d6edd57c50122934a6248a9e0a8364d918338a2e5dc0d46e0057b87a7a4e2",
+     "bytes": 35672
+    }
+   ],
+   "scenario_notes": {
+    "figure_code": "H-JX-001",
+    "zh_new": 10,
+    "en_new": 10,
+    "remap_needed_zh": 0,
+    "remap_needed_en": 0,
+    "gaps": [
+     "英文场景码沿用载荷原码 C-JXE-001~010（风格与库内规范不一致，合并卡并入前须裁定）"
+    ],
+    "embedded_source": "data/individuals/H-JX-001.json"
+   },
+   "category_summary": {
+    "方法论->方法论通用": 10
+   },
+   "legacy_reuse_note": "旧号 M001-M010 重码面广，跨多个人物档案与库内场景（全库引用清单见核验证据 json）"
+  }
+ ],
+ "global": {
+  "entries_total": 50,
+  "codes_unique": 50,
+  "scenarios_zh_new": 20,
+  "scenarios_en_new": 20,
+  "scenario_remap_needed": 40,
+  "replaced_readonly_targets": [],
+  "library_zero_write": [
+   "data/modes_data.json",
+   "data/code_maps.json",
+   "data/scenarios_zh.json",
+   "data/scenarios_en.json",
+   "data/scenario_tags.json",
+   "data/figure_names.json"
+  ]
+ }
+}

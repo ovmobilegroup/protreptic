@@ -1,0 +1,839 @@
+{
+  "card": "t_10089b19",
+  "phase": "Phase21-R6 A组 10 件（批1+批2）合并入主库",
+  "pre_merge_commit": "60a14a384a91767e1d6b413afa9c5b13cfb2d563",
+  "timestamp": "20260923",
+  "merge_script": "merge_r6_a_group.py (card workspace scripts/)",
+  "merge_script_sha256": "4c732e489c043f9d481496c76e6f9257841599ea851faaafb9320856e4147c48",
+  "verify_script": "verify_r6_merge_indep.py (repo root)",
+  "verify_script_sha256": "38b7890c82ba624adeec97fdd032aac2bb0bd1a84b7618e470238bda9cb4bca6",
+  "figures": [
+    {
+      "figure_code": "H-CY-001",
+      "figure_name": "陈云",
+      "batch": "batch1",
+      "mode_ids": [
+        "M-CY-001",
+        "M-CY-002",
+        "M-CY-003",
+        "M-CY-004",
+        "M-CY-005",
+        "M-CY-006",
+        "M-CY-007",
+        "M-CY-008",
+        "M-CY-009",
+        "M-CY-010"
+      ],
+      "old_mode_ids": [
+        "M101",
+        "M102",
+        "M103",
+        "M104",
+        "M105",
+        "M106",
+        "M107",
+        "M108",
+        "M109",
+        "M110"
+      ],
+      "scenario_ids_zh": [
+        "C-CY-001",
+        "C-CY-002",
+        "C-CY-003",
+        "C-CY-004",
+        "C-CY-005",
+        "C-CY-006",
+        "C-CY-007",
+        "C-CY-008",
+        "C-CY-009",
+        "C-CY-010"
+      ],
+      "scenario_ids_en": [
+        "C-CY-001E",
+        "C-CY-002E",
+        "C-CY-003E",
+        "C-CY-004E",
+        "C-CY-005E",
+        "C-CY-006E",
+        "C-CY-007E",
+        "C-CY-008E",
+        "C-CY-009E",
+        "C-CY-010E"
+      ]
+    },
+    {
+      "figure_code": "H-SQL-001",
+      "figure_name": "宋庆龄",
+      "batch": "batch1",
+      "mode_ids": [
+        "M-SQL-001",
+        "M-SQL-002",
+        "M-SQL-003",
+        "M-SQL-004",
+        "M-SQL-005",
+        "M-SQL-006",
+        "M-SQL-007",
+        "M-SQL-008",
+        "M-SQL-009",
+        "M-SQL-010"
+      ],
+      "old_mode_ids": [
+        "M361",
+        "M362",
+        "M363",
+        "M364",
+        "M365",
+        "M366",
+        "M367",
+        "M368",
+        "M369",
+        "M370"
+      ],
+      "scenario_ids_zh": [
+        "C-SQL-001",
+        "C-SQL-002",
+        "C-SQL-003",
+        "C-SQL-004",
+        "C-SQL-005",
+        "C-SQL-006",
+        "C-SQL-007",
+        "C-SQL-008",
+        "C-SQL-009",
+        "C-SQL-010"
+      ],
+      "scenario_ids_en": [
+        "C-SQL-001E",
+        "C-SQL-002E",
+        "C-SQL-003E",
+        "C-SQL-004E",
+        "C-SQL-005E",
+        "C-SQL-006E",
+        "C-SQL-007E",
+        "C-SQL-008E",
+        "C-SQL-009E",
+        "C-SQL-010E"
+      ]
+    },
+    {
+      "figure_code": "H-YSK-001",
+      "figure_name": "杨尚昆",
+      "batch": "batch1",
+      "mode_ids": [
+        "M-YSK-001",
+        "M-YSK-002",
+        "M-YSK-003",
+        "M-YSK-004",
+        "M-YSK-005",
+        "M-YSK-006",
+        "M-YSK-007",
+        "M-YSK-008",
+        "M-YSK-009",
+        "M-YSK-010"
+      ],
+      "old_mode_ids": [
+        "M431",
+        "M432",
+        "M433",
+        "M434",
+        "M435",
+        "M436",
+        "M437",
+        "M438",
+        "M439",
+        "M440"
+      ],
+      "scenario_ids_zh": [
+        "C-YSK-001",
+        "C-YSK-002",
+        "C-YSK-003",
+        "C-YSK-004",
+        "C-YSK-005",
+        "C-YSK-006",
+        "C-YSK-007",
+        "C-YSK-008",
+        "C-YSK-009",
+        "C-YSK-010"
+      ],
+      "scenario_ids_en": [
+        "C-YSK-001E",
+        "C-YSK-002E",
+        "C-YSK-003E",
+        "C-YSK-004E",
+        "C-YSK-005E",
+        "C-YSK-006E",
+        "C-YSK-007E",
+        "C-YSK-008E",
+        "C-YSK-009E",
+        "C-YSK-010E"
+      ]
+    },
+    {
+      "figure_code": "H-WL-001",
+      "figure_name": "万里",
+      "batch": "batch1",
+      "mode_ids": [
+        "M-WL-001",
+        "M-WL-002",
+        "M-WL-003",
+        "M-WL-004",
+        "M-WL-005",
+        "M-WL-006",
+        "M-WL-007",
+        "M-WL-008",
+        "M-WL-009",
+        "M-WL-010"
+      ],
+      "old_mode_ids": [
+        "M274",
+        "M275",
+        "M276",
+        "M277",
+        "M278",
+        "M279",
+        "M280",
+        "M281",
+        "M282",
+        "M283"
+      ],
+      "scenario_ids_zh": [
+        "C-WL-001",
+        "C-WL-002",
+        "C-WL-003",
+        "C-WL-004",
+        "C-WL-005",
+        "C-WL-006",
+        "C-WL-007",
+        "C-WL-008",
+        "C-WL-009",
+        "C-WL-010"
+      ],
+      "scenario_ids_en": [
+        "C-WL-001E",
+        "C-WL-002E",
+        "C-WL-003E",
+        "C-WL-004E",
+        "C-WL-005E",
+        "C-WL-006E",
+        "C-WL-007E",
+        "C-WL-008E",
+        "C-WL-009E",
+        "C-WL-010E"
+      ]
+    },
+    {
+      "figure_code": "H-JX-001",
+      "figure_name": "纪弦",
+      "batch": "batch1",
+      "mode_ids": [
+        "M-JX-001",
+        "M-JX-002",
+        "M-JX-003",
+        "M-JX-004",
+        "M-JX-005",
+        "M-JX-006",
+        "M-JX-007",
+        "M-JX-008",
+        "M-JX-009",
+        "M-JX-010"
+      ],
+      "old_mode_ids": [
+        "M001",
+        "M002",
+        "M003",
+        "M004",
+        "M005",
+        "M006",
+        "M007",
+        "M008",
+        "M009",
+        "M010"
+      ],
+      "scenario_ids_zh": [
+        "C-JX-001",
+        "C-JX-002",
+        "C-JX-003",
+        "C-JX-004",
+        "C-JX-005",
+        "C-JX-006",
+        "C-JX-007",
+        "C-JX-008",
+        "C-JX-009",
+        "C-JX-010"
+      ],
+      "scenario_ids_en": [
+        "C-JX-001E",
+        "C-JX-002E",
+        "C-JX-003E",
+        "C-JX-004E",
+        "C-JX-005E",
+        "C-JX-006E",
+        "C-JX-007E",
+        "C-JX-008E",
+        "C-JX-009E",
+        "C-JX-010E"
+      ]
+    },
+    {
+      "figure_code": "H-CHB-001",
+      "figure_name": "陈伯达",
+      "batch": "batch2",
+      "mode_ids": [
+        "M-CHB-001",
+        "M-CHB-002",
+        "M-CHB-003",
+        "M-CHB-004",
+        "M-CHB-005",
+        "M-CHB-006",
+        "M-CHB-007",
+        "M-CHB-008",
+        "M-CHB-009",
+        "M-CHB-010"
+      ],
+      "old_mode_ids": [
+        "M211",
+        "M212",
+        "M213",
+        "M214",
+        "M215",
+        "M216",
+        "M217",
+        "M218",
+        "M219",
+        "M220"
+      ],
+      "scenario_ids_zh": [
+        "C-CHB-001",
+        "C-CHB-002",
+        "C-CHB-003",
+        "C-CHB-004",
+        "C-CHB-005",
+        "C-CHB-006",
+        "C-CHB-007",
+        "C-CHB-008",
+        "C-CHB-009",
+        "C-CHB-010"
+      ],
+      "scenario_ids_en": [
+        "C-CHB-001E",
+        "C-CHB-002E",
+        "C-CHB-003E",
+        "C-CHB-004E",
+        "C-CHB-005E",
+        "C-CHB-006E",
+        "C-CHB-007E",
+        "C-CHB-008E",
+        "C-CHB-009E",
+        "C-CHB-010E"
+      ]
+    },
+    {
+      "figure_code": "H-FXT-001",
+      "figure_name": "费孝通",
+      "batch": "batch2",
+      "mode_ids": [
+        "M-FXT-001",
+        "M-FXT-002",
+        "M-FXT-003",
+        "M-FXT-004",
+        "M-FXT-005",
+        "M-FXT-006",
+        "M-FXT-007",
+        "M-FXT-008",
+        "M-FXT-009",
+        "M-FXT-010"
+      ],
+      "old_mode_ids": [
+        "M341",
+        "M342",
+        "M343",
+        "M344",
+        "M345",
+        "M346",
+        "M347",
+        "M348",
+        "M349",
+        "M350"
+      ],
+      "scenario_ids_zh": [
+        "C-FXT-001",
+        "C-FXT-002",
+        "C-FXT-003",
+        "C-FXT-004",
+        "C-FXT-005",
+        "C-FXT-006",
+        "C-FXT-007",
+        "C-FXT-008",
+        "C-FXT-009",
+        "C-FXT-010"
+      ],
+      "scenario_ids_en": [
+        "C-FXT-001E",
+        "C-FXT-002E",
+        "C-FXT-003E",
+        "C-FXT-004E",
+        "C-FXT-005E",
+        "C-FXT-006E",
+        "C-FXT-007E",
+        "C-FXT-008E",
+        "C-FXT-009E",
+        "C-FXT-010E"
+      ]
+    },
+    {
+      "figure_code": "H-DYC-001",
+      "figure_name": "邓颖超",
+      "batch": "batch2",
+      "mode_ids": [
+        "M-DYC-001",
+        "M-DYC-002",
+        "M-DYC-003",
+        "M-DYC-004",
+        "M-DYC-005",
+        "M-DYC-006",
+        "M-DYC-007",
+        "M-DYC-008",
+        "M-DYC-009",
+        "M-DYC-010"
+      ],
+      "old_mode_ids": [
+        "M321",
+        "M322",
+        "M323",
+        "M324",
+        "M325",
+        "M326",
+        "M327",
+        "M328",
+        "M329",
+        "M330"
+      ],
+      "scenario_ids_zh": [
+        "C-DYC-001",
+        "C-DYC-002",
+        "C-DYC-003",
+        "C-DYC-004",
+        "C-DYC-005",
+        "C-DYC-006",
+        "C-DYC-007",
+        "C-DYC-008",
+        "C-DYC-009",
+        "C-DYC-010"
+      ],
+      "scenario_ids_en": [
+        "C-DYC-001E",
+        "C-DYC-002E",
+        "C-DYC-003E",
+        "C-DYC-004E",
+        "C-DYC-005E",
+        "C-DYC-006E",
+        "C-DYC-007E",
+        "C-DYC-008E",
+        "C-DYC-009E",
+        "C-DYC-010E"
+      ]
+    },
+    {
+      "figure_code": "H-KKQ-001",
+      "figure_name": "康克清",
+      "batch": "batch2",
+      "mode_ids": [
+        "M-KKQ-001",
+        "M-KKQ-002",
+        "M-KKQ-003",
+        "M-KKQ-004",
+        "M-KKQ-005",
+        "M-KKQ-006",
+        "M-KKQ-007",
+        "M-KKQ-008",
+        "M-KKQ-009",
+        "M-KKQ-010"
+      ],
+      "old_mode_ids": [
+        "M321",
+        "M322",
+        "M323",
+        "M324",
+        "M325",
+        "M326",
+        "M327",
+        "M328",
+        "M329",
+        "M330"
+      ],
+      "scenario_ids_zh": [
+        "C-KKQ-001",
+        "C-KKQ-002",
+        "C-KKQ-003",
+        "C-KKQ-004",
+        "C-KKQ-005",
+        "C-KKQ-006",
+        "C-KKQ-007",
+        "C-KKQ-008",
+        "C-KKQ-009",
+        "C-KKQ-010"
+      ],
+      "scenario_ids_en": [
+        "C-KKQ-001E",
+        "C-KKQ-002E",
+        "C-KKQ-003E",
+        "C-KKQ-004E",
+        "C-KKQ-005E",
+        "C-KKQ-006E",
+        "C-KKQ-007E",
+        "C-KKQ-008E",
+        "C-KKQ-009E",
+        "C-KKQ-010E"
+      ]
+    },
+    {
+      "figure_code": "H-LWH-001",
+      "figure_name": "李维汉",
+      "batch": "batch2",
+      "mode_ids": [
+        "M-LWH-001",
+        "M-LWH-002",
+        "M-LWH-003",
+        "M-LWH-004",
+        "M-LWH-005",
+        "M-LWH-006",
+        "M-LWH-007",
+        "M-LWH-008",
+        "M-LWH-009",
+        "M-LWH-010"
+      ],
+      "old_mode_ids": [
+        "M341",
+        "M342",
+        "M343",
+        "M344",
+        "M345",
+        "M346",
+        "M347",
+        "M348",
+        "M349",
+        "M350"
+      ],
+      "scenario_ids_zh": [
+        "C-LWH-001",
+        "C-LWH-002",
+        "C-LWH-003",
+        "C-LWH-004",
+        "C-LWH-005",
+        "C-LWH-006",
+        "C-LWH-007",
+        "C-LWH-008",
+        "C-LWH-009",
+        "C-LWH-010"
+      ],
+      "scenario_ids_en": [
+        "C-LWH-001E",
+        "C-LWH-002E",
+        "C-LWH-003E",
+        "C-LWH-004E",
+        "C-LWH-005E",
+        "C-LWH-006E",
+        "C-LWH-007E",
+        "C-LWH-008E",
+        "C-LWH-009E",
+        "C-LWH-010E"
+      ]
+    }
+  ],
+  "counts": {
+    "modes_before": 3162,
+    "modes_after": 3262,
+    "modes_delta": 100,
+    "code_maps_figures_before": 212,
+    "code_maps_figures_after": 215,
+    "code_maps_new_keys": [
+      "H-YSK-001",
+      "H-JX-001",
+      "H-LWH-001"
+    ],
+    "scenarios_zh_before": 2183,
+    "scenarios_zh_after": 2213,
+    "scenarios_en_before": 2183,
+    "scenarios_en_after": 2213,
+    "scenario_tags_before": 7278,
+    "scenario_tags_after": 7478,
+    "figure_names_before": 1098,
+    "figure_names_after": 1098
+  },
+  "files": {
+    "data/modes_data.json": {
+      "sha256_before": "2aef1275b05fe15b4bfafc2e894c3db2e9942aed2457e18e54109f14fcd53c5f",
+      "sha256_after": "4ca4eda2a9c47b2d84c1393559930a7b5c10ecda7b57c8143a14322173aa8101",
+      "bytes_before": 24297379,
+      "bytes_after": 24645806,
+      "sha256_equals_git_pre": true,
+      "backup": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/backup/merge_r6_20260923/modes_data.json"
+    },
+    "data/code_maps.json": {
+      "sha256_before": "b723cbb245438fdd065d2dc5de60aa7ec775325768a898825097424af769ba34",
+      "sha256_after": "0a425312c1d85a5fda11f271f8da9cdefb346b07093d7e8455e3ca4c5caf911c",
+      "bytes_before": 885715,
+      "bytes_after": 890900,
+      "sha256_equals_git_pre": true,
+      "backup": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/backup/merge_r6_20260923/code_maps.json"
+    },
+    "data/scenarios_zh.json": {
+      "sha256_before": "5055aa83d70630b522ad8d1ed053bf0e0f7ac42472cf304dad7ccbe13caea8d6",
+      "sha256_after": "9851d7819799592a662f61a89ae10bb31826f89dde47665052320f9e77658100",
+      "bytes_before": 1907187,
+      "bytes_after": 1919943,
+      "sha256_equals_git_pre": true,
+      "backup": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/backup/merge_r6_20260923/scenarios_zh.json"
+    },
+    "data/scenarios_en.json": {
+      "sha256_before": "ab0ca1bb95bde91f633c8d2086b4393778a4fe7cd3f1164f43fc5a40ffa0a170",
+      "sha256_after": "ae5284d1b856a85f14aa17cfe0cd0819ea9da52128fe2b254a44f25563689ae7",
+      "bytes_before": 2168358,
+      "bytes_after": 2182893,
+      "sha256_equals_git_pre": true,
+      "backup": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/backup/merge_r6_20260923/scenarios_en.json"
+    },
+    "data/scenario_tags.json": {
+      "sha256_before": "5d36fae364674a96a8bb56e39dd7c5e7daaa8d335935202c0fbc4098ad66530d",
+      "sha256_after": "d467bd6d0219b1a586f4884ea900237b5ed4dcf555aacae832b5033b8f0c37c8",
+      "bytes_before": 1120767,
+      "bytes_after": 1151050,
+      "sha256_equals_git_pre": true,
+      "backup": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/backup/merge_r6_20260923/scenario_tags.json"
+    },
+    "data/figure_names.json": {
+      "sha256_before": "417e3b2821623ffacc7dee3d4dfe7d9725c87d78b8c71ecabee28301eeb2fcb4",
+      "sha256_after": "417e3b2821623ffacc7dee3d4dfe7d9725c87d78b8c71ecabee28301eeb2fcb4",
+      "bytes_before": 31125,
+      "bytes_after": 31125,
+      "sha256_equals_git_pre": true,
+      "backup": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/backup/merge_r6_20260923/figure_names.json"
+    }
+  },
+  "figure_names_policy": "verify-only 零写入（10 件登记齐全）",
+  "add_only_proof": {
+    "modes_prefix_identical": true,
+    "figures_others_identical": true,
+    "figures_new_keys": [
+      "H-YSK-001",
+      "H-JX-001",
+      "H-LWH-001"
+    ],
+    "scen_zh_new_keys": [
+      "C-CY-001",
+      "C-CY-002",
+      "C-CY-003",
+      "C-CY-004",
+      "C-CY-005",
+      "C-CY-006",
+      "C-CY-007",
+      "C-CY-008",
+      "C-CY-009",
+      "C-CY-010",
+      "C-FXT-001",
+      "C-FXT-002",
+      "C-FXT-003",
+      "C-FXT-004",
+      "C-FXT-005",
+      "C-FXT-006",
+      "C-FXT-007",
+      "C-FXT-008",
+      "C-FXT-009",
+      "C-FXT-010",
+      "C-JX-001",
+      "C-JX-002",
+      "C-JX-003",
+      "C-JX-004",
+      "C-JX-005",
+      "C-JX-006",
+      "C-JX-007",
+      "C-JX-008",
+      "C-JX-009",
+      "C-JX-010"
+    ],
+    "scen_en_new_keys": [
+      "C-CY-001E",
+      "C-CY-002E",
+      "C-CY-003E",
+      "C-CY-004E",
+      "C-CY-005E",
+      "C-CY-006E",
+      "C-CY-007E",
+      "C-CY-008E",
+      "C-CY-009E",
+      "C-CY-010E",
+      "C-FXT-001E",
+      "C-FXT-002E",
+      "C-FXT-003E",
+      "C-FXT-004E",
+      "C-FXT-005E",
+      "C-FXT-006E",
+      "C-FXT-007E",
+      "C-FXT-008E",
+      "C-FXT-009E",
+      "C-FXT-010E",
+      "C-JX-001E",
+      "C-JX-002E",
+      "C-JX-003E",
+      "C-JX-004E",
+      "C-JX-005E",
+      "C-JX-006E",
+      "C-JX-007E",
+      "C-JX-008E",
+      "C-JX-009E",
+      "C-JX-010E"
+    ],
+    "tags_appended": 200,
+    "modes_appended": 100
+  },
+  "remap_scope": {
+    "code_maps_leaf_changes_total": 218,
+    "code_maps_per_figure": {
+      "H-CY-001": 10,
+      "H-SQL-001": 38,
+      "H-WL-001": 30,
+      "H-CHB-001": 40,
+      "H-FXT-001": 30,
+      "H-DYC-001": 30,
+      "H-KKQ-001": 40
+    },
+    "scenarios_remap": {
+      "H-SQL-001": {
+        "zh": 10,
+        "en": 10
+      },
+      "H-WL-001": {
+        "zh": 10,
+        "en": 10
+      },
+      "H-CHB-001": {
+        "zh": 10,
+        "en": 10
+      }
+    },
+    "scenario_tags_remap": {
+      "flat": 10,
+      "dict_level": 40,
+      "total": 50
+    }
+  },
+  "known_drift": {
+    "library_total_field": 3162,
+    "note": "total 字段保持 3162（合并只追加数组，未改标量；如实登记）"
+  },
+  "pre_existing_dangling": [
+    [
+      "H-SQL-001",
+      "H-MZD-001"
+    ],
+    [
+      "H-SQL-001",
+      "H-ZET-001"
+    ]
+  ],
+  "backup_dir": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/backup/merge_r6_20260923",
+  "evidence_dir": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/evidence",
+  "rework": {
+    "item": "EN 场景码风格裁定（落盘批1报告移交第 7.3 项）",
+    "decision": "统一为 库约定: en 键 = zh 键 + E（C-JX-001 -> C-JX-001E）",
+    "renamed": [
+      {
+        "from": "C-JXE-001E",
+        "to": "C-JX-001E"
+      },
+      {
+        "from": "C-JXE-002E",
+        "to": "C-JX-002E"
+      },
+      {
+        "from": "C-JXE-003E",
+        "to": "C-JX-003E"
+      },
+      {
+        "from": "C-JXE-004E",
+        "to": "C-JX-004E"
+      },
+      {
+        "from": "C-JXE-005E",
+        "to": "C-JX-005E"
+      },
+      {
+        "from": "C-JXE-006E",
+        "to": "C-JX-006E"
+      },
+      {
+        "from": "C-JXE-007E",
+        "to": "C-JX-007E"
+      },
+      {
+        "from": "C-JXE-008E",
+        "to": "C-JX-008E"
+      },
+      {
+        "from": "C-JXE-009E",
+        "to": "C-JX-009E"
+      },
+      {
+        "from": "C-JXE-010E",
+        "to": "C-JX-010E"
+      }
+    ],
+    "renamed_count": 10,
+    "sha256_before": "3d4869568c57663c6698c6b393fc76ea65a1370b5216cbc1d3ca8e13495d5862",
+    "sha256_after": "ae5284d1b856a85f14aa17cfe0cd0819ea9da52128fe2b254a44f25563689ae7"
+  },
+  "gates": {
+    "credibility_gate --hard-fail": "exit 0（新增硬失败 0，存量 524 冻结）",
+    "verify_findings --hard-fail": "exit 0（新增 0）",
+    "verify_source_links --hard-fail": "exit 0（新增坏链 0）",
+    "apply_verification_status --check": "exit 0（无漂移；发布口径 3202）",
+    "runner": "verify_r6_merge_indep.py F 组复跑"
+  },
+  "site_chain": {
+    "steps": {
+      "export_static_site.py": {
+        "exit": 0,
+        "log": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/evidence/chain_export_static_site.py.txt"
+      },
+      "gen_web_site_counts.py": {
+        "exit": 0,
+        "log": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/evidence/chain_gen_web_site_counts.py.txt"
+      },
+      "apply_site_counts.py": {
+        "exit": 0,
+        "log": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/evidence/chain_apply_site_counts.py.txt"
+      },
+      "build_daily_index.py": {
+        "exit": 0,
+        "log": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/evidence/chain_build_daily_index.py.txt"
+      },
+      "pages_preflight.py --stage data": {
+        "exit": 0,
+        "log": "/opt/data/kanban/boards/protreptic/workspaces/t_10089b19/evidence/chain_pages_preflight.txt"
+      }
+    },
+    "meta_counts": {
+      "modes_deduped": 3252,
+      "published": 3192,
+      "by_figure_shards": 316,
+      "figures": 1057
+    }
+  },
+  "anchors": {
+    "EXPECT_MODES": 3252,
+    "EXPECT_BY_FIGURE": 316,
+    "EXPECT_FIGURES": 1057,
+    "files": {
+      "tools/export_static_site.py": {
+        "sha256_after": "3a708e52cb024efe1409692b5b861383ea1096273f1ad54ee96371e7eacbc0d1"
+      },
+      "tools/pages_preflight.py": {
+        "sha256_after": "527e3ec60000228e662b767d70fa30ff12b7205d64f6e47d0a24d53e5724c625"
+      }
+    },
+    "note": "tools/export_static_site.py 与 tools/pages_preflight.py 同步更新"
+  },
+  "audit_findings_refresh": {
+    "file": "data/audit/findings.json",
+    "note": "build_audit_findings.py --write（sha 刷新，清除审计过期警告）"
+  }
+}

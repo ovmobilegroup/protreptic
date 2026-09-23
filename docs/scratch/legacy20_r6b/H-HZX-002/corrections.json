@@ -1,0 +1,322 @@
+{
+ "schema": "protreptic.r6b_wangxiang_corrections/v1",
+ "card": "t_434af550",
+ "date": "2026-09-23",
+ "figure": {
+  "code": "H-HZX-002",
+  "name": "王祥"
+ },
+ "files": {
+  "figure": {
+   "path": "data/figures/H-HZX-002.json",
+   "sha256": "8c40067cb04565a6504c27f627c710cae0b4b79cf088ae897bb6e3c6eee25e1e",
+   "bytes": 1931
+  },
+  "modes": {
+   "path": "data/figures/H-HZX-002_modes.json",
+   "sha256": "1e3e97d41f4135cbdc1a6cb4de812e8d40b3d7c86ba9f68df03d749e07f87b00",
+   "bytes": 12489
+  },
+  "research_md": {
+   "path": "docs/figures/phase20_wangxiang_research.md",
+   "sha256": "8b63cda2991a5b969f3eb2d03a61df31aa9cef55d1ff55a98b245fa549a252b3",
+   "bytes": 4255
+  }
+ },
+ "hard_fixes": [
+  {
+   "id": "F1",
+   "group": "字",
+   "title": "字=休徵（原误作『承宣』）",
+   "occurrences": [
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "style_name",
+     "old": "承宣",
+     "new": "",
+     "note": "原值系误写字；正确字『休徵』写入 courtesy_name（循 H-HZX-001 黄宗羲档案先例：courtesy_name 持字，style_name 非字字段）"
+    },
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "courtesy_name",
+     "old": "无",
+     "new": "休徵"
+    },
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "historical_significance",
+     "old": "…字承宣…",
+     "new": "…字休徵…（见修正稿 corrected_record.json）"
+    },
+    {
+     "file": "docs/figures/phase20_wangxiang_research.md",
+     "line": 11,
+     "old": "承宣",
+     "new": "休徵（旧件作废源之一）"
+    }
+   ],
+   "source": [
+    {
+     "ref": "《晋书·卷三十三·王祥传》",
+     "quote": "王祥，字休徵，琅邪臨沂人",
+     "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7033"
+    },
+    {
+     "ref": "《搜神记》卷十一（东晋·干宝）",
+     "quote": "王祥，字休征，琅邪人，性至孝"
+    },
+    {
+     "ref": "维基百科·王祥（身份核验）",
+     "quote": "字休徵，琅邪郡臨沂縣人",
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A5%A5"
+    }
+   ],
+   "status": "已落源（本传直证）"
+  },
+  {
+   "id": "F2",
+   "group": "典故",
+   "title": "典故=卧冰求鲤（『温席』属黄香；旧稿『温席求鱼/卧冰求梨』两词皆误）",
+   "occurrences": [
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "historical_significance",
+     "old": "冬天将屋内席子铺开…夏天则卧于冰上…让父母食用其中的果实。这种'温席求鱼、卧冰求梨'的典故…",
+     "new": "见修正稿（改为卧冰求鲤：解衣剖冰、双鲤跃出）"
+    },
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "famous_quote",
+     "old": "冬则铺席以候温，夏则卧冰以求梨。",
+     "new": "(移除；原文未落源且据错误典故自造)"
+    },
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "core_thoughts[0..1]",
+     "old": "温席求鱼法（以身化暖供养父母）／卧冰求梨法（以身化冷获取食物）",
+     "new": "(移除；见修正稿)"
+    },
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "representative_works",
+     "old": "['可能有关孝道教说的记录','古代文献中的温席求鱼传说']",
+     "new": "(清空；旧值不可落源)"
+    },
+    {
+     "file": "data/figures/H-HZX-002_modes.json",
+     "field": "thinking_modes[M301].name_zh 等",
+     "old": "温席求鱼法 / Warm Mat Seeking Fish Method",
+     "new": "(逐条处置见 redo_checklist.json；M301 无有效修正路径)"
+    },
+    {
+     "file": "data/figures/H-HZX-002_modes.json",
+     "field": "thinking_modes[M302].name_zh",
+     "old": "卧冰求梨法 / Lying on Ice for Pear Method",
+     "new": "卧冰求鲤法（『梨』为讹字；本传作『剖冰』，《二十四孝》作『卧冰』）"
+    }
+   ],
+   "source": [
+    {
+     "ref": "《晋书·卷三十三·王祥传》",
+     "quote": "母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。",
+     "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7033"
+    },
+    {
+     "ref": "《二十四孝·卧冰求鲤》（元·郭居敬《全相二十四孝诗选》）",
+     "quote": "晉。王祥母喪。繼母朱氏。不慈…母欲食鮮魚。時天寒地凍。祥解衣。臥冰求之。冰忽自解。雙鯉躍出。持歸供母。詩曰：繼母人間有。王祥天下無。至今河上水。留得臥冰模。",
+     "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%AD%9D"
+    },
+    {
+     "ref": "温席/扇枕温衾 归属：后汉黄香（《二十四孝·扇枕温衾》；《后汉书·文苑列传》黄香传）",
+     "quote": "扇枕溫衾（黄香）——与王祥无涉，系旧稿串接",
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A5%A5"
+    }
+   ],
+   "status": "已落源（本传/二十四孝直证；温席归属另有黄香专条）"
+  },
+  {
+   "id": "F3",
+   "group": "时代",
+   "title": "时代=汉末至西晋（旧稿作『东汉』）",
+   "occurrences": [
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "era",
+     "old": "东汉",
+     "new": "汉末至西晋"
+    },
+    {
+     "file": "data/figures/H-HZX-002_modes.json",
+     "field": "era",
+     "old": "东汉",
+     "new": "汉末至西晋"
+    },
+    {
+     "file": "data/figures/H-HZX-002_modes.json",
+     "field": "time_period_standardized",
+     "old": "uncertain",
+     "new": "184-268（附存异）"
+    },
+    {
+     "file": "docs/figures/phase20_wangxiang_research.md",
+     "line": 12,
+     "old": "东汉",
+     "new": "汉末至西晋"
+    }
+   ],
+   "source": [
+    {
+     "ref": "维基百科·王祥",
+     "quote": "王祥（184年—268年4月30日），字休徵，琅邪郡臨沂縣（今山東臨沂）人，历東漢、魏、西晋三代。",
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A5%A5"
+    },
+    {
+     "ref": "《晋书·卷三十三·王祥传》",
+     "quote": "漢未遭亂，扶母攜弟覽避地廬江，隱居三十餘年…（传载历魏入晋，卒谥元）",
+     "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7033"
+    }
+   ],
+   "variance_note": "生卒存异：寿数本传遗令作『吾年八十有五』；生年 184（一说 180）；卒年维基作 268，本传作『泰始五年薨』（269）——修正稿采 184-268 并登记异说。",
+   "status": "已落源（含异说登记）"
+  },
+  {
+   "id": "F4",
+   "group": "出处",
+   "title": "出处按《晋书·王祥传》/《搜神记》口径重写（旧稿『后汉书裴松之注』双重错误）",
+   "occurrences": [
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "influence",
+     "old": "东晋裴松之注《后汉书》中专门记载其事迹。唐代李绅有诗云…",
+     "new": "见修正稿（改为晋书/搜神记/二十四孝源流）"
+    },
+    {
+     "file": "data/figures/H-HZX-002_modes.json",
+     "field": "thinking_modes[M301].source_chapter",
+     "old": "《后汉书》裴松之注、《孝经》经典解读",
+     "new": "（逐条见 redo_checklist；禁止沿用）"
+    },
+    {
+     "file": "data/figures/H-HZX-002.json",
+     "field": "historical_significance",
+     "old": "（未列出处）",
+     "new": "补《晋书》/《搜神记》源流（修正稿）"
+    }
+   ],
+   "source": [
+    {
+     "ref": "版本归属纠偏",
+     "quote": "裴松之（南朝宋）注《三国志》（非《后汉书》；《后汉书》注为唐·李贤等）；王祥事迹主要载唐修《晋书·卷三十三》与东晋干宝《搜神记》卷十一。",
+     "url": "https://zh.wikipedia.org/wiki/%E8%A3%B4%E6%9D%BE%E4%B9%8B"
+    }
+   ],
+   "status": "已落源（纠偏；修正稿出处改晋书/搜神记/二十四孝）"
+  }
+ ],
+ "attribution_fixes": [
+  {
+   "item": "『东晋裴松之注《后汉书》』",
+   "verdict": "双重错误：朝代与书名均误（应作 南朝宋·裴松之 注《三国志》）",
+   "action": "修正稿改源流表述；不保留原句"
+  },
+  {
+   "item": "『唐代李绅有诗云：廊庠乡校多斯人，化被流芳泽被人。』",
+   "verdict": "未找到任何文献佐证（公开检索 0 命中；疑旧世代自产）",
+   "action": "修正稿移除；如需保留须待重做卡另查《全唐诗》"
+  },
+  {
+   "item": "history 段『夏天卧于冰上…果实』",
+   "verdict": "与全部文献不符（季节、对象颠倒）",
+   "action": "修正稿整段重写"
+  }
+ ],
+ "unverifiable_or_flagged": [
+  {
+   "item": "wiki_id = Q123456789（modes 文件）",
+   "verdict": "伪占位（顺序号，非真实 Wikidata 编号）",
+   "action": "修正稿清空并标『待核』；重做卡查证后回填"
+  },
+  {
+   "item": "modes 文件 figure_code = \"H\"",
+   "verdict": "残损值（应为 H-HZX-002）",
+   "action": "修正稿改正；属数据修复建议"
+  },
+  {
+   "item": "figure_names.json 别名键 \"H\" 与 \"东岳\" → 王祥",
+   "verdict": "旧世代残留（'H' 为孤键；'东岳' 未见于任何文献，仅旧研究件标题使用）",
+   "action": "建议清理（见 archive_recommendation.json）"
+  },
+  {
+   "item": "school = 孝道/道家",
+   "verdict": "『道家』无据（文献语境为儒家孝道；魏晋玄学影响不构成道家归属）",
+   "action": "修正稿改『孝道/儒家』并注"
+  },
+  {
+   "item": "M301-M310 中 4 条 source_chapter 为分析性占位（传统孝道行为模式分析/孝道行为的持续性分析/孝道的历史传承分析/孝道的终极目标分析）",
+   "verdict": "非文献，不可落源",
+   "action": "列入重做清单"
+  }
+ ],
+ "sourcing_ledger": [
+  {
+   "claim": "身份：王祥，字休徵，琅邪临沂人，历东汉·魏·西晋",
+   "status": "已落源",
+   "source": "《晋书·王祥传》开篇；维基百科"
+  },
+  {
+   "claim": "典故：卧冰求鲤（剖冰得双鲤）",
+   "status": "已落源",
+   "source": "《晋书·王祥传》；《二十四孝·卧冰求鲤》"
+  },
+  {
+   "claim": "黄雀入幕 / 抱树守柰 / 侍疾尝药",
+   "status": "已落源",
+   "source": "《晋书·王祥传》（黄雀数十飞入其幕；丹柰抱树而泣；衣不解带汤药必亲尝）"
+  },
+  {
+   "claim": "温席（扇枕温衾）属黄香，非王祥",
+   "status": "已落源",
+   "source": "《二十四孝·扇枕温衾》黄香条"
+  },
+  {
+   "claim": "仕历：魏司空、太尉；晋太保、睢陵公、谥元",
+   "status": "已落源",
+   "source": "《晋书·王祥传》；维基百科"
+  },
+  {
+   "claim": "生卒 184-268（寿85）",
+   "status": "已落源（含异说）",
+   "source": "维基百科；本传遗令『吾年八十有五』"
+  },
+  {
+   "claim": "吕虔佩刀、王览争酖（家族线）",
+   "status": "已落源",
+   "source": "《晋书·卷三十三》王览附传"
+  },
+  {
+   "claim": "引文层：figure famous_quote / mode key_quote",
+   "status": "未落源（原值为自造或无）",
+   "source": "—（修正稿移除/清空，重做时从本传取句）"
+  },
+  {
+   "claim": "李绅诗一句",
+   "status": "未落源",
+   "source": "公开检索 0 命中"
+  },
+  {
+   "claim": "wiki_id",
+   "status": "未核（伪占位）",
+   "source": "—"
+  }
+ ],
+ "verdict": {
+  "conclusion": "归档建议 + 待重做清单（不制备入库 payload）",
+  "criteria_eval": {
+   "核心事实": "可修正并可落源（4 处硬伤全部直证）",
+   "引文": "不可全量落源——figure 引文为自造（无源），模式层引文全空，M301/M302 题旨建立在错误典故上",
+   "模式层": "M301（温席求鱼法）无有效修正路径（温席属他人、求鱼失据）；4 条 source_chapter 为非文献占位；其余多题旨泛化",
+   "纪律面": "修正所需动作（更名、重写正文、重建出处）超出『字段搬迁+编号/类别归一』批次口径，属内容重做"
+  },
+  "basis": "legacy20_rev6_assessment.md §4.2（『内容重做，或先修正 4 处硬伤再议』）+ 本卡逐条落源实测"
+ }
+}

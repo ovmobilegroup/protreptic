@@ -1,0 +1,991 @@
+{
+ "code": "H-KKQ-001",
+ "figure_name": "康克清",
+ "legacy_ids": [
+  "M321",
+  "M322",
+  "M323",
+  "M324",
+  "M325",
+  "M326",
+  "M327",
+  "M328",
+  "M329",
+  "M330"
+ ],
+ "id_mapping": {
+  "M321": "M-KKQ-001",
+  "M322": "M-KKQ-002",
+  "M323": "M-KKQ-003",
+  "M324": "M-KKQ-004",
+  "M325": "M-KKQ-005",
+  "M326": "M-KKQ-006",
+  "M327": "M-KKQ-007",
+  "M328": "M-KKQ-008",
+  "M329": "M-KKQ-009",
+  "M330": "M-KKQ-010"
+ },
+ "header_decisions": [
+  {
+   "field": "(header base)",
+   "chosen": "figures",
+   "reason": "图档侧候选按必填字段最全者为准（CHB/FXT 与样例一致）"
+  },
+  {
+   "field": "unique_thinking",
+   "chosen": "figures.core_thoughts",
+   "reason": "样例口径：core_thoughts 改名 unique_thinking"
+  },
+  {
+   "field": "id",
+   "chosen": "individuals",
+   "reason": "必填缺项回填（取较长者）"
+  },
+  {
+   "field": "tags",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "mode_ids",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "mode_ids_note",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "caveats",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "figure_name_en",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "time_period_standardized",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "nationality",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "ethnicity",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "civilization_sphere",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "primary_language",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "intellectual_tradition",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "historical_significance",
+   "chosen": "figures（基版）",
+   "alt": "individuals",
+   "alt_value": "康克清（1911-1992），江西万安人，朱德同志夫人。中国共产党的优秀党员，久经考验的无产阶级革命家，中国妇女解放运动的卓越领导人。从贫苦渔家女到红军女司令，参加二万五千里长征，历任全国妇联主席、全国政协副主席。她提出了'四个现代化需要妇女，妇女需要四个现代化'的号召，倡导妇女自尊自信自立自强精神。文革中坚持实事求是，对林彪江青反革命集团进行抵制。她的思想方法体现了群众路线、组织建设、实事求是、国际视野等核心特点。",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "influence",
+   "chosen": "figures（基版）",
+   "alt": "individuals",
+   "alt_value": "开创了中国妇女解放运动和儿童保育事业的新局面，将马克思主义妇女理论与中国实际相结合，形成了具有中国特色的妇女工作方法体系。她的'四自'精神（自尊自信自立自强）对当代女性发展仍有重要指导意义。",
+   "reason": "同名字段多版本异文：基版为准，异文存档"
+  },
+  {
+   "field": "cross_references",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "protreptic_mapping",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "data_sources",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "figure_era",
+   "chosen": "丢弃（与既有字段同值）",
+   "alt": "ind_modes",
+   "reason": "规范性去重"
+  },
+  {
+   "field": "figure_description",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "figure_description_en",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "cross_mode_analysis",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "historical_context",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "modern_relevance",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  }
+ ],
+ "record_merge_log": [
+  {
+   "mode": "M321",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M321",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M321",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M321",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M321",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M321",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M321",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M321",
+   "field": "specific_application",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M321",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M321",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M321",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M321",
+   "field": "historical_examples",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M321",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M322",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M322",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M322",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M322",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M322",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M322",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M322",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M322",
+   "field": "specific_application",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M322",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M322",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M322",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M322",
+   "field": "historical_examples",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M322",
+   "field": "modern_applications",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M323",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M323",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M323",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M323",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M323",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M323",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M323",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M323",
+   "field": "specific_application",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M323",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M323",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M323",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M323",
+   "field": "historical_examples",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M323",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M324",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M324",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M324",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M324",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M324",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M324",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M324",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M324",
+   "field": "specific_application",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M324",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M324",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M324",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M324",
+   "field": "historical_examples",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M324",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M325",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M325",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M325",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M325",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M325",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M325",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M325",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M325",
+   "field": "specific_application",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M325",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M325",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M325",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M325",
+   "field": "historical_examples",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M325",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M326",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M326",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M326",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M326",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M326",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M326",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M326",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M326",
+   "field": "specific_application",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M326",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M326",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M326",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M326",
+   "field": "historical_examples",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M326",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M327",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M327",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M327",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M327",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M327",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M327",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M327",
+   "field": "application_context",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M327",
+   "field": "specific_application",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M327",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M327",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M327",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M327",
+   "field": "historical_examples",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M327",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M328",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M328",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M328",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M328",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M328",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M328",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M328",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M328",
+   "field": "specific_application",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M328",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M328",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M328",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M328",
+   "field": "historical_examples",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M328",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M329",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M329",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M329",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M329",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M329",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M329",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M329",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M329",
+   "field": "specific_application",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M329",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M329",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M329",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M329",
+   "field": "historical_examples",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M329",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "mode_id",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "mode_name",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "mode_name_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "mode_description",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "mode_description_en",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "core_principles",
+   "chosen": "丢弃（与 A 版同义/同名）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "application_context",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M330",
+   "field": "specific_application",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "expected_outcomes",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M330",
+   "field": "implementation_steps",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M330",
+   "field": "evaluation_criteria",
+   "chosen": "保留于 legacy_fields（B 版独有内容）",
+   "reason": "不删数据本体"
+  },
+  {
+   "mode": "M330",
+   "field": "historical_examples",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  },
+  {
+   "mode": "M330",
+   "field": "modern_applications",
+   "chosen": "丢弃（与正字段近似重复）",
+   "reason": "规范性去重"
+  }
+ ],
+ "missing_fields_per_mode": [],
+ "category_review": [
+  {
+   "mode": "M-KKQ-001",
+   "raw": "工作方法思维",
+   "applied": "工作方法思维"
+  },
+  {
+   "mode": "M-KKQ-002",
+   "raw": "组织管理思维",
+   "applied": "组织管理思维"
+  },
+  {
+   "mode": "M-KKQ-004",
+   "raw": "社会政策思维",
+   "applied": "社会政策思维"
+  },
+  {
+   "mode": "M-KKQ-005",
+   "raw": "政治品格思维",
+   "applied": "政治品格思维"
+  },
+  {
+   "mode": "M-KKQ-006",
+   "raw": "法治思维",
+   "applied": "法治思维"
+  },
+  {
+   "mode": "M-KKQ-007",
+   "raw": "外交战略思维",
+   "applied": "外交战略思维"
+  },
+  {
+   "mode": "M-KKQ-008",
+   "raw": "个人成长思维",
+   "applied": "个人成长思维"
+  },
+  {
+   "mode": "M-KKQ-009",
+   "raw": "管理方法思维",
+   "applied": "管理方法思维"
+  },
+  {
+   "mode": "M-KKQ-010",
+   "raw": "精神建设思维",
+   "applied": "精神建设思维"
+  }
+ ],
+ "related_modes_remap": "全部块内引用已重指新号；块外/未知引用：0"
+}

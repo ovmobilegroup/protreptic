@@ -3,16 +3,16 @@
   "figures": {
     "H-CHB-001": {
       "mode_ids": [
-        "M211",
-        "M212",
-        "M213",
-        "M214",
-        "M215",
-        "M216",
-        "M217",
-        "M218",
-        "M219",
-        "M220"
+        "M-CHB-001",
+        "M-CHB-002",
+        "M-CHB-003",
+        "M-CHB-004",
+        "M-CHB-005",
+        "M-CHB-006",
+        "M-CHB-007",
+        "M-CHB-008",
+        "M-CHB-009",
+        "M-CHB-010"
       ],
       "tags": [
         "延安整风",
@@ -53,31 +53,31 @@
       ],
       "protreptic_mapping": {
         "政治哲学": [
-          "M211",
-          "M212",
-          "M213",
-          "M217"
+          "M-CHB-001",
+          "M-CHB-002",
+          "M-CHB-003",
+          "M-CHB-007"
         ],
         "方法论": [
-          "M215",
-          "M219",
-          "M220"
+          "M-CHB-005",
+          "M-CHB-009",
+          "M-CHB-010"
         ],
         "史学": [
-          "M216"
+          "M-CHB-006"
         ],
         "文化批判": [
-          "M218"
+          "M-CHB-008"
         ],
         "写作方法": [
-          "M214"
+          "M-CHB-004"
         ]
       },
       "scenarios_en": {
         "C-CHB-001E": {
           "code": "C-CHB-001E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M211",
+          "mode_id": "M-CHB-001",
           "title_zh": "理论批判法在《评中国之命运》中的应用",
           "description_zh": "陈伯达运用理论批判法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Theoretical Critique Method in Critique of China's Destiny",
@@ -86,7 +86,7 @@
         "C-CHB-002E": {
           "code": "C-CHB-002E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M212",
+          "mode_id": "M-CHB-002",
           "title_zh": "阶级分析法在《中国四大家族》中的应用",
           "description_zh": "陈伯达运用阶级分析法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Class Analysis Method in The Four Big Families",
@@ -95,7 +95,7 @@
         "C-CHB-003E": {
           "code": "C-CHB-003E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M213",
+          "mode_id": "M-CHB-003",
           "title_zh": "政治敏锐法在延安时期理论建构中的应用",
           "description_zh": "陈伯达运用政治敏锐法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Political Sensitivity Method in Yan'an Theoretical Construction",
@@ -104,7 +104,7 @@
         "C-CHB-004E": {
           "code": "C-CHB-004E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M214",
+          "mode_id": "M-CHB-004",
           "title_zh": "战斗檄文法在《人民公敌蒋介石》中的应用",
           "description_zh": "陈伯达运用战斗檄文法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Combat Manifesto Method in The People's Enemy Chiang Kai-shek",
@@ -113,7 +113,7 @@
         "C-CHB-005E": {
           "code": "C-CHB-005E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M215",
+          "mode_id": "M-CHB-005",
           "title_zh": "系统批判法在理论清算中的运用",
           "description_zh": "陈伯达运用系统批判法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Systematic Critique Method in Theoretical清算",
@@ -122,7 +122,7 @@
         "C-CHB-006E": {
           "code": "C-CHB-006E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M216",
+          "mode_id": "M-CHB-006",
           "title_zh": "历史唯物分析法在社会现象解读中的应用",
           "description_zh": "陈伯达运用历史唯物分析法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Historical Materialist Analysis Method in Social Phenomenon Interpretation",
@@ -131,7 +131,7 @@
         "C-CHB-007E": {
           "code": "C-CHB-007E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M217",
+          "mode_id": "M-CHB-007",
           "title_zh": "群众路线法在政治动员中的应用",
           "description_zh": "陈伯达运用群众路线法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Mass Line Method in Political Mobilization",
@@ -140,7 +140,7 @@
         "C-CHB-008E": {
           "code": "C-CHB-008E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M218",
+          "mode_id": "M-CHB-008",
           "title_zh": "意识形态分析法在文化批判中的应用",
           "description_zh": "陈伯达运用意识形态分析法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Ideological Analysis Method in Cultural Criticism",
@@ -149,7 +149,7 @@
         "C-CHB-009E": {
           "code": "C-CHB-009E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M219",
+          "mode_id": "M-CHB-009",
           "title_zh": "辩证否定法在文化传承中的应用",
           "description_zh": "陈伯达运用辩证否定法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Dialectical Negation Method in Cultural Inheritance",
@@ -158,7 +158,7 @@
         "C-CHB-010E": {
           "code": "C-CHB-010E",
           "figure_id": "H-CHB-001",
-          "mode_id": "M220",
+          "mode_id": "M-CHB-010",
           "title_zh": "综合方法论在复杂问题分析中的应用",
           "description_zh": "陈伯达运用综合方法论思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Comprehensive Methodology in Complex Problem Analysis",
@@ -169,7 +169,7 @@
         "C-CHB-001": {
           "code": "C-CHB-001",
           "figure_id": "H-CHB-001",
-          "mode_id": "M211",
+          "mode_id": "M-CHB-001",
           "title_zh": "理论批判法在《评中国之命运》中的应用",
           "description_zh": "陈伯达运用理论批判法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Theoretical Critique Method in Critique of China's Destiny",
@@ -178,7 +178,7 @@
         "C-CHB-002": {
           "code": "C-CHB-002",
           "figure_id": "H-CHB-001",
-          "mode_id": "M212",
+          "mode_id": "M-CHB-002",
           "title_zh": "阶级分析法在《中国四大家族》中的应用",
           "description_zh": "陈伯达运用阶级分析法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Class Analysis Method in The Four Big Families",
@@ -187,7 +187,7 @@
         "C-CHB-003": {
           "code": "C-CHB-003",
           "figure_id": "H-CHB-001",
-          "mode_id": "M213",
+          "mode_id": "M-CHB-003",
           "title_zh": "政治敏锐法在延安时期理论建构中的应用",
           "description_zh": "陈伯达运用政治敏锐法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Political Sensitivity Method in Yan'an Theoretical Construction",
@@ -196,7 +196,7 @@
         "C-CHB-004": {
           "code": "C-CHB-004",
           "figure_id": "H-CHB-001",
-          "mode_id": "M214",
+          "mode_id": "M-CHB-004",
           "title_zh": "战斗檄文法在《人民公敌蒋介石》中的应用",
           "description_zh": "陈伯达运用战斗檄文法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Combat Manifesto Method in The People's Enemy Chiang Kai-shek",
@@ -205,7 +205,7 @@
         "C-CHB-005": {
           "code": "C-CHB-005",
           "figure_id": "H-CHB-001",
-          "mode_id": "M215",
+          "mode_id": "M-CHB-005",
           "title_zh": "系统批判法在理论清算中的运用",
           "description_zh": "陈伯达运用系统批判法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Systematic Critique Method in Theoretical清算",
@@ -214,7 +214,7 @@
         "C-CHB-006": {
           "code": "C-CHB-006",
           "figure_id": "H-CHB-001",
-          "mode_id": "M216",
+          "mode_id": "M-CHB-006",
           "title_zh": "历史唯物分析法在社会现象解读中的应用",
           "description_zh": "陈伯达运用历史唯物分析法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Historical Materialist Analysis Method in Social Phenomenon Interpretation",
@@ -223,7 +223,7 @@
         "C-CHB-007": {
           "code": "C-CHB-007",
           "figure_id": "H-CHB-001",
-          "mode_id": "M217",
+          "mode_id": "M-CHB-007",
           "title_zh": "群众路线法在政治动员中的应用",
           "description_zh": "陈伯达运用群众路线法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Mass Line Method in Political Mobilization",
@@ -232,7 +232,7 @@
         "C-CHB-008": {
           "code": "C-CHB-008",
           "figure_id": "H-CHB-001",
-          "mode_id": "M218",
+          "mode_id": "M-CHB-008",
           "title_zh": "意识形态分析法在文化批判中的应用",
           "description_zh": "陈伯达运用意识形态分析法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Ideological Analysis Method in Cultural Criticism",
@@ -241,7 +241,7 @@
         "C-CHB-009": {
           "code": "C-CHB-009",
           "figure_id": "H-CHB-001",
-          "mode_id": "M219",
+          "mode_id": "M-CHB-009",
           "title_zh": "辩证否定法在文化传承中的应用",
           "description_zh": "陈伯达运用辩证否定法思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Dialectical Negation Method in Cultural Inheritance",
@@ -250,7 +250,7 @@
         "C-CHB-010": {
           "code": "C-CHB-010",
           "figure_id": "H-CHB-001",
-          "mode_id": "M220",
+          "mode_id": "M-CHB-010",
           "title_zh": "综合方法论在复杂问题分析中的应用",
           "description_zh": "陈伯达运用综合方法论思维方法，在其著作中展现了深刻的理论批判能力和政治敏锐性。",
           "title_en": "Application of Comprehensive Methodology in Complex Problem Analysis",
@@ -284,16 +284,16 @@
       "influence": "邓颖超的妇女解放思想为中国社会主义妇女运动奠定了理论基础，她参与制定的《婚姻法》和土地法成为新中国妇女解放的法律基石。",
       "thinking_mode_count": 10,
       "mode_ids": [
-        "M321",
-        "M322",
-        "M323",
-        "M324",
-        "M325",
-        "M326",
-        "M327",
-        "M328",
-        "M329",
-        "M330"
+        "M-DYC-001",
+        "M-DYC-002",
+        "M-DYC-003",
+        "M-DYC-004",
+        "M-DYC-005",
+        "M-DYC-006",
+        "M-DYC-007",
+        "M-DYC-008",
+        "M-DYC-009",
+        "M-DYC-010"
       ],
       "tags": [
         "妇女解放",
@@ -336,70 +336,70 @@
         "C-DYC-001_001": {
           "code": "C-DYC-001_001",
           "figure_id": "H-DYC-001",
-          "mode_id": "M321",
+          "mode_id": "M-DYC-001",
           "title_zh": "妇女解放经济分析——《经济压迫下的少女》的批判",
           "description_zh": "邓颖超1923年在《经济压迫下的少女》中，运用马克思主义经济学原理，指出私有制是妇女受压制的根源。"
         },
         "C-DYC-001_002": {
           "code": "C-DYC-001_002",
           "figure_id": "H-DYC-001",
-          "mode_id": "M322",
+          "mode_id": "M-DYC-002",
           "title_zh": "社会解放优先综合——抗日战争时的妇女运动",
           "description_zh": "邓颖超在《关于《蓝滩中一点淡漠》的批判》中，主张抗敌、解除封建压迫是妇女解放的前提。"
         },
         "C-DYC-001_003": {
           "code": "C-DYC-001_003",
           "figure_id": "H-DYC-001",
-          "mode_id": "M323",
+          "mode_id": "M-DYC-003",
           "title_zh": "统一战线协调——解放战争时的统一战线",
           "description_zh": "邓颖超以中共方协代表身份，在重庆从事抗日民族统一战线工作。"
         },
         "C-DYC-001_004": {
           "code": "C-DYC-001_004",
           "figure_id": "H-DYC-001",
-          "mode_id": "M324",
+          "mode_id": "M-DYC-004",
           "title_zh": "劳动参与社会评价——八大妇女工作报告",
           "description_zh": "邓颖超1956年在八大上作报告，明确提出'广泛动员妇女参加生产劳动，是争取妇女彻底解放的关键'。"
         },
         "C-DYC-001_005": {
           "code": "C-DYC-001_005",
           "figure_id": "H-DYC-001",
-          "mode_id": "M325",
+          "mode_id": "M-DYC-005",
           "title_zh": "立法保障实践——第一部《婚姻法》起草",
           "description_zh": "邓颖超主持起草了中华人民共和国第一部《婚姻法》，坚持写入'一方坚迷离婚可以离婚'的条款。"
         },
         "C-DYC-001_006": {
           "code": "C-DYC-001_006",
           "figure_id": "H-DYC-001",
-          "mode_id": "M326",
+          "mode_id": "M-DYC-006",
           "title_zh": "婚姻自由倡导——苏维奥布区农妇工工作（1930）",
           "description_zh": "邓颖超在《苏维奥布区农妇工工作》中明确规定'经双方同意而离婚，一方不同意时提交苏维奥政府解决'。"
         },
         "C-DYC-001_007": {
           "code": "C-DYC-001_007",
           "figure_id": "H-DYC-001",
-          "mode_id": "M327",
+          "mode_id": "M-DYC-007",
           "title_zh": "严格自律规范——'个人名利淡如水'的道路",
           "description_zh": "邓颖超'个人名利淡如水，党的事业重如山'的人生品质，她严于律己，以身作则。"
         },
         "C-DYC-001_008": {
           "code": "C-DYC-001_008",
           "figure_id": "H-DYC-001",
-          "mode_id": "M328",
+          "mode_id": "M-DYC-008",
           "title_zh": "多层次协调管理——中央纪委第二书记",
           "description_zh": "邓颖超1978年出任新设立的中央纪律检查委员会第二书记，同时被增选为中央政治局委员。"
         },
         "C-DYC-001_009": {
           "code": "C-DYC-001_009",
           "figure_id": "H-DYC-001",
-          "mode_id": "M329",
+          "mode_id": "M-DYC-009",
           "title_zh": "对台独立民主协调——对台工作思路",
           "description_zh": "邓颖超1981年任中央对台工作领导小组组长，推动对台工作的实施。"
         },
         "C-DYC-010": {
           "code": "C-DYC-010",
           "figure_id": "H-DYC-001",
-          "mode_id": "M330",
+          "mode_id": "M-DYC-010",
           "title_zh": "妇女运动组织——天津女界爱国同志会（1919）",
           "description_zh": "邓颖超1919年五四运动时，与郑立若、张若明等人组织'天津女界爱国同志会'。"
         }
@@ -408,70 +408,70 @@
         "C-DYC-001E_001": {
           "code": "C-DYC-001E_001",
           "figure_id": "H-DYC-001",
-          "mode_id": "M321",
+          "mode_id": "M-DYC-001",
           "title_en": "Women's Liberation Economic Analysis — Critique in 'Young Girls Under Economic Oppression'",
           "description_en": "In 1923's 'Young Girls Under Economic Oppression,' Deng applied Marxist economic principles, identifying private ownership as the root of women's oppression."
         },
         "C-DYC-001E_002": {
           "code": "C-DYC-001E_002",
           "figure_id": "H-DYC-001",
-          "mode_id": "M322",
+          "mode_id": "M-DYC-002",
           "title_en": "Social Liberation Priority — Women's Movement During Anti-Japanese War",
           "description_en": "Deng criticized the view of 'women returning home' in her work, advocating that anti-fascism and removing feudal oppression are prerequisites for women's liberation."
         },
         "C-DYC-001E_003": {
           "code": "C-DYC-001E_003",
           "figure_id": "H-DYC-001",
-          "mode_id": "M323",
+          "mode_id": "M-DYC-003",
           "title_en": "United Front Coordination — Revolutionary War United Front Work",
           "description_en": "As the CCP representative in united front work, Deng worked on anti-fascist national united front."
         },
         "C-DYC-001E_004": {
           "code": "C-DYC-001E_004",
           "figure_id": "H-DYC-001",
-          "mode_id": "M324",
+          "mode_id": "M-DYC-004",
           "title_en": "Labor Participation Evaluation — Women's Work Report at the Eighth Congress",
           "description_en": "At the 1956 Eighth Congress, Deng stated: 'Extensively mobilizing women to participate in productive labor is the key to achieving thorough women's liberation.'"
         },
         "C-DYC-001E_005": {
           "code": "C-DYC-001E_005",
           "figure_id": "H-DYC-001",
-          "mode_id": "M325",
+          "mode_id": "M-DYC-005",
           "title_en": "Legislative Protection Practice — Drafting the First Marriage Law",
           "description_en": "Deng presided over drafting China's first Marriage Law, insisting on including divorce freedom clauses."
         },
         "C-DYC-001E_006": {
           "code": "C-DYC-001E_006",
           "figure_id": "H-DYC-001",
-          "mode_id": "M326",
+          "mode_id": "M-DYC-006",
           "title_en": "Marriage Freedom Advocacy — Soviet Marriage Regulations (1930)",
           "description_en": "In her 1930 'Women's Work in Soviet Areas,' Deng stipulated: 'Divorce with mutual consent; if one party disagrees, submit to the Soviet government for resolution.'"
         },
         "C-DYC-001E_007": {
           "code": "C-DYC-001E_007",
           "figure_id": "H-DYC-001",
-          "mode_id": "M327",
+          "mode_id": "M-DYC-007",
           "title_en": "Strict Self-Discipline — The Path of 'Personal Fame is Like Light Water'",
           "description_en": "Deng's life quality of 'personal fame is like light water, party affairs weigh heavy as mountains' — strict self-discipline and leading by example."
         },
         "C-DYC-001E_008": {
           "code": "C-DYC-001E_008",
           "figure_id": "H-DYC-001",
-          "mode_id": "M328",
+          "mode_id": "M-DYC-008",
           "title_en": "Multi-level Coordination Management — Second Secretary of CCDI",
           "description_en": "Deng served as Second Secretary of the newly established Central Commission for Discipline Inspection in 1978."
         },
         "C-DYC-001E_009": {
           "code": "C-DYC-001E_009",
           "figure_id": "H-DYC-001",
-          "mode_id": "M329",
+          "mode_id": "M-DYC-009",
           "title_en": "Cross-Strait Democratic Coordination — Taiwan Work Direction",
           "description_en": "Deng served as head of the Central Taiwan Work Leading Group starting 1981, proposing 'democratic judgment and economic development'."
         },
         "C-DYC-010E": {
           "code": "C-DYC-010E",
           "figure_id": "H-DYC-001",
-          "mode_id": "M330",
+          "mode_id": "M-DYC-010",
           "title_en": "Women's Movement Organization — Tianjin Women's Patriotic Association",
           "description_en": "During the May Fourth Movement (1919), Deng organized the Tianjin Women's Patriotic Association."
         }
@@ -513,16 +513,16 @@
       "influence": "费孝通的社会学理论为中国农村改革、民族区域发展和文化政策制定提供了重要的理论基础。他的差序格局理论成为理解中国传统社会结构的核心分析工具，多元一体格局理论为多民族国家的认同建设提供了框架。",
       "thinking_mode_count": 10,
       "mode_ids": [
-        "M341",
-        "M342",
-        "M343",
-        "M344",
-        "M345",
-        "M346",
-        "M347",
-        "M348",
-        "M349",
-        "M350"
+        "M-FXT-001",
+        "M-FXT-002",
+        "M-FXT-003",
+        "M-FXT-004",
+        "M-FXT-005",
+        "M-FXT-006",
+        "M-FXT-007",
+        "M-FXT-008",
+        "M-FXT-009",
+        "M-FXT-010"
       ],
       "tags": [
         "社会学",
@@ -550,61 +550,61 @@
         "C-FXT-001-001": {
           "code": "C-FXT-001-001",
           "figure_id": "H-FXT-001",
-          "mode_id": "M341",
+          "mode_id": "M-FXT-001",
           "title_zh": "差序格局——中国传统社会结构分析案例"
         },
         "C-FXT-001-002": {
           "code": "C-FXT-001-002",
           "figure_id": "H-FXT-001",
-          "mode_id": "M342",
+          "mode_id": "M-FXT-002",
           "title_zh": "多元一体——中华民族认同建构案例"
         },
         "C-FXT-001-003": {
           "code": "C-FXT-001-003",
           "figure_id": "H-FXT-001",
-          "mode_id": "M343",
+          "mode_id": "M-FXT-003",
           "title_zh": "乡土中国——从土地到社会转型分析案例"
         },
         "C-FXT-001-004": {
           "code": "C-FXT-001-004",
           "figure_id": "H-FXT-001",
-          "mode_id": "M344",
+          "mode_id": "M-FXT-004",
           "title_zh": "实地调查——从江村到乡村治理的方法论案例"
         },
         "C-FXT-001-005": {
           "code": "C-FXT-001-005",
           "figure_id": "H-FXT-001",
-          "mode_id": "M345",
+          "mode_id": "M-FXT-005",
           "title_zh": "文化自觉——全球化背景下的身份认同案例"
         },
         "C-FXT-001-006": {
           "code": "C-FXT-001-006",
           "figure_id": "H-FXT-001",
-          "mode_id": "M346",
+          "mode_id": "M-FXT-006",
           "title_zh": "社区研究——从微观到宏观的社会分析案例"
         },
         "C-FXT-001-007": {
           "code": "C-FXT-001-007",
           "figure_id": "H-FXT-001",
-          "mode_id": "M347",
+          "mode_id": "M-FXT-007",
           "title_zh": "区域发展——从沿海到内地的经济地理案例"
         },
         "C-FXT-001-008": {
           "code": "C-FXT-001-008",
           "figure_id": "H-FXT-001",
-          "mode_id": "M348",
+          "mode_id": "M-FXT-008",
           "title_zh": "民族政策——多元文化治理的理论与实践案例"
         },
         "C-FXT-001-009": {
           "code": "C-FXT-001-009",
           "figure_id": "H-FXT-001",
-          "mode_id": "M349",
+          "mode_id": "M-FXT-009",
           "title_zh": "知识生产——从田野到理论的学术建构案例"
         },
         "C-FXT-001-010": {
           "code": "C-FXT-001-010",
           "figure_id": "H-FXT-001",
-          "mode_id": "M350",
+          "mode_id": "M-FXT-010",
           "title_zh": "跨文化比较——东西方社会结构对比分析案例"
         }
       },
@@ -612,61 +612,61 @@
         "C-FXT-001-001": {
           "code": "C-FXT-001-001",
           "figure_id": "H-FXT-001",
-          "mode_id": "M341",
+          "mode_id": "M-FXT-001",
           "title_en": "Differential Mode — Analysis of Traditional Chinese Social Structure"
         },
         "C-FXT-001-002": {
           "code": "C-FXT-001-002",
           "figure_id": "H-FXT-001",
-          "mode_id": "M342",
+          "mode_id": "M-FXT-002",
           "title_en": "Unity in Diversity — Construction of Chinese National Identity"
         },
         "C-FXT-001-003": {
           "code": "C-FXT-001-003",
           "figure_id": "H-FXT-001",
-          "mode_id": "M343",
+          "mode_id": "M-FXT-003",
           "title_en": "From the Soil — Rural-to-Social-Transformation Analysis"
         },
         "C-FXT-001-004": {
           "code": "C-FXT-001-004",
           "figure_id": "H-FXT-001",
-          "mode_id": "M344",
+          "mode_id": "M-FXT-004",
           "title_en": "Field Research — From Village to Rural Governance Methodology"
         },
         "C-FXT-001-005": {
           "code": "C-FXT-001-005",
           "figure_id": "H-FXT-001",
-          "mode_id": "M345",
+          "mode_id": "M-FXT-005",
           "title_en": "Cultural Self-Awareness — Identity in Globalization Context"
         },
         "C-FXT-001-006": {
           "code": "C-FXT-001-006",
           "figure_id": "H-FXT-001",
-          "mode_id": "M346",
+          "mode_id": "M-FXT-006",
           "title_en": "Community Study — Micro-to-Macro Social Analysis"
         },
         "C-FXT-001-007": {
           "code": "C-FXT-001-007",
           "figure_id": "H-FXT-001",
-          "mode_id": "M347",
+          "mode_id": "M-FXT-007",
           "title_en": "Regional Development — Coastal-to-Inland Economic Geography"
         },
         "C-FXT-001-008": {
           "code": "C-FXT-001-008",
           "figure_id": "H-FXT-001",
-          "mode_id": "M348",
+          "mode_id": "M-FXT-008",
           "title_en": "Ethnic Policy — Multicultural Governance Theory and Practice"
         },
         "C-FXT-001-009": {
           "code": "C-FXT-001-009",
           "figure_id": "H-FXT-001",
-          "mode_id": "M349",
+          "mode_id": "M-FXT-009",
           "title_en": "Knowledge Production — From Fieldwork to Theoretical Framework"
         },
         "C-FXT-001-010": {
           "code": "C-FXT-001-010",
           "figure_id": "H-FXT-001",
-          "mode_id": "M350",
+          "mode_id": "M-FXT-010",
           "title_en": "Cross-Cultural Comparison — East-West Social Structure Analysis"
         }
       }
@@ -697,16 +697,16 @@
       "influence": "康克清的思想方法体系围绕妇女解放和儿童保育展开，具有鲜明的实践性、制度性和人民性。",
       "thinking_mode_count": 10,
       "mode_ids": [
-        "M321",
-        "M322",
-        "M323",
-        "M324",
-        "M325",
-        "M326",
-        "M327",
-        "M328",
-        "M329",
-        "M330"
+        "M-KKQ-001",
+        "M-KKQ-002",
+        "M-KKQ-003",
+        "M-KKQ-004",
+        "M-KKQ-005",
+        "M-KKQ-006",
+        "M-KKQ-007",
+        "M-KKQ-008",
+        "M-KKQ-009",
+        "M-KKQ-010"
       ],
       "tags": [
         "妇女解放",
@@ -742,7 +742,7 @@
         "C-KKQ-001": {
           "code": "C-KKQ-001",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M321",
+          "mode_id": "M-KKQ-001",
           "title_zh": "群众路线法——深入基层发动妇女群众案例",
           "description_zh": "康克清在井冈山时期深入农村发动妇女参加土地革命，创建中国第一个红军女子义勇队。她通过走访贫苦渔家、倾听妇女心声，将分散的诉求归纳为系统的改革方案，体现了'从群众中来，到群众中去'的群众路线思维。",
           "title_en": "Mass Line Method — Grassroots Women Mobilization Case",
@@ -751,7 +751,7 @@
         "C-KKQ-002": {
           "code": "C-KKQ-002",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M322",
+          "mode_id": "M-KKQ-002",
           "title_zh": "组织建设法——晋东南妇救会建设案例",
           "description_zh": "康克清创建晋东南妇女救国会，发展会员数万人，建立了从乡妇救会到县妇联的层层组织体系。她重视组织网络的严密性，认为只有严密的组织才能凝聚妇女解放的力量，体现了系统化的组织建设思维。",
           "title_en": "Organizational Construction Method — Jindongnan Women's Association Case",
@@ -760,7 +760,7 @@
         "C-KKQ-003": {
           "code": "C-KKQ-003",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M323",
+          "mode_id": "M-KKQ-003",
           "title_zh": "妇女解放法——制度变革推动性别平等案例",
           "description_zh": "康克清撰写《没有中国共产党就没有中国妇女的解放》，系统论述妇女解放与社会主义的关系。她参与指导1979年《婚姻法》修改，推动废除封建婚姻制度，主张只有通过社会主义制度变革才能实现妇女的真正解放。",
           "title_en": "Women's Liberation Method — Institutional Transformation for Gender Equality Case",
@@ -769,7 +769,7 @@
         "C-KKQ-004": {
           "code": "C-KKQ-004",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M324",
+          "mode_id": "M-KKQ-004",
           "title_zh": "儿童保育法——孤儿抚养安置创举案例",
           "description_zh": "1960-1963年，康克清协调多方力量将2000多名孤儿送往内蒙古抚养，开创了新中国孤儿安置工作的新模式。她将儿童工作提升到'培养革命接班人'的高度，体现了对下一代的高度责任感。",
           "title_en": "Childcare Method — Orphan Placement Innovation Case",
@@ -778,7 +778,7 @@
         "C-KKQ-005": {
           "code": "C-KKQ-005",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M325",
+          "mode_id": "M-KKQ-005",
           "title_zh": "实事求是法——文革中坚持原则案例",
           "description_zh": "文革期间，康克清抵制林彪、江青反革命集团的阴谋，在复杂政治环境中始终保持清醒立场，坚持实事求是的工作方法，体现了无产阶级革命家的政治品格和原则坚守。",
           "title_en": "Seeking Truth from Facts Method — Upholding Principles during Cultural Revolution Case",
@@ -787,7 +787,7 @@
         "C-KKQ-006": {
           "code": "C-KKQ-006",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M326",
+          "mode_id": "M-KKQ-006",
           "title_zh": "平等法治法——王子犯法与庶民同罪案例",
           "description_zh": "1983年，面对孙子朱国华犯罪问题，康克清表态'王子犯法，与庶民同罪'，体现了法律面前人人平等的坚定立场。她推动《婚姻法》修改和签署《消除对妇女一切形式歧视公约》，彰显法治精神。",
           "title_en": "Equal Rule of Law Method — Even a Prince Shares the Same Crime Case",
@@ -796,7 +796,7 @@
         "C-KKQ-007": {
           "code": "C-KKQ-007",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M327",
+          "mode_id": "M-KKQ-007",
           "title_zh": "国际视野法——联合国妇女会议外交案例",
           "description_zh": "1980年康克清代表中国出席联合国妇女十年中期会议，向世界展示中国妇女解放成就。她多次率团参加国际妇女会议，推动中国妇女参与全球治理，展现了宽广的国际视野。",
           "title_en": "International Perspective Method — UN Women's Conference Diplomacy Case",
@@ -805,7 +805,7 @@
         "C-KKQ-008": {
           "code": "C-KKQ-008",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M328",
+          "mode_id": "M-KKQ-008",
           "title_zh": "自力更生法——贫苦渔家女成长为革命家案例",
           "description_zh": "康克清出身贫苦渔家，不识一字入红军，通过刻苦学习成为卓越革命家。她一生俭朴，临终遗言'我什么都不要'，体现了自力更生、自强不息的革命者品格。",
           "title_en": "Self-Reliance Method — From Poor Fishing Girl to Revolutionary Leader Case",
@@ -814,7 +814,7 @@
         "C-KKQ-009": {
           "code": "C-KKQ-009",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M329",
+          "mode_id": "M-KKQ-009",
           "title_zh": "综合协调法——一手摘棉花一手抱娃娃案例",
           "description_zh": "康克清提出'一手摘棉花，一手抱娃娃'的工作方针，统筹兼顾妇女解放和儿童福利事业。她协调多方力量成立全国儿童少年工作协调委员会，体现了高超的综合协调能力。",
           "title_en": "Comprehensive Coordination Method — Picking Cotton While Holding Baby Case",
@@ -823,7 +823,7 @@
         "C-KKQ-010": {
           "code": "C-KKQ-010",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M330",
+          "mode_id": "M-KKQ-010",
           "title_zh": "四自精神法——激励妇女自主发展案例",
           "description_zh": "康克清倡导'四自'精神（自尊、自信、自立、自强），提出'四个现代化需要妇女，妇女需要四个现代化'的理念。她强调提高妇女文化科学素质，激发妇女主体意识和社会参与能力。",
           "title_en": "Four Self-Spirits Method — Inspiring Women's Self-Development Case",
@@ -834,96 +834,96 @@
         "C-KKQE-001": {
           "code": "C-KKQE-001",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M321",
+          "mode_id": "M-KKQ-001",
           "title_en": "Mass Line Method — Grassroots Women Mobilization Case",
           "description_en": "During the Jinggangshan period, Kang Keqing went deep into rural areas to mobilize women to participate in the land revolution and created China's first Red Army Women's Volunteer Brigade. She visited poor fishing families, listened to women's voices, and summarized scattered demands into systematic reform plans."
         },
         "C-KKQE-002": {
           "code": "C-KKQE-002",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M322",
+          "mode_id": "M-KKQ-002",
           "title_en": "Organizational Construction Method — Jindongnan Women's Association Case",
           "description_en": "Kang Keqing created the Jindongnan Women's Salvation Association, developing tens of thousands of members, and established a layered organizational system from township associations to county federations."
         },
         "C-KKQE-003": {
           "code": "C-KKQE-003",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M323",
+          "mode_id": "M-KKQ-003",
           "title_en": "Women's Liberation Method — Institutional Transformation for Gender Equality Case",
           "description_en": "Kang Keqing wrote 'Without the Communist Party of China, There Would Be No Women's Liberation in China,' systematically discussing the relationship between women's liberation and socialism. She participated in guiding the 1979 Marriage Law revision."
         },
         "C-KKQE-004": {
           "code": "C-KKQE-004",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M324",
+          "mode_id": "M-KKQ-004",
           "title_en": "Childcare Method — Orphan Placement Innovation Case",
           "description_en": "From 1960-1963, Kang Keqing coordinated multiple forces to send over 2,000 orphans to Inner Mongolia for foster care, pioneering a new model for orphan placement in New China."
         },
         "C-KKQE-005": {
           "code": "C-KKQE-005",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M325",
+          "mode_id": "M-KKQ-005",
           "title_en": "Seeking Truth from Facts Method — Upholding Principles during Cultural Revolution Case",
           "description_en": "During the Cultural Revolution, Kang Keqing resisted the conspiracy of Lin Biao and Jiang Qing counter-revolutionary groups, maintaining a clear position in complex political environments."
         },
         "C-KKQE-006": {
           "code": "C-KKQE-006",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M326",
+          "mode_id": "M-KKQ-006",
           "title_en": "Equal Rule of Law Method — Even a Prince Shares the Same Crime Case",
           "description_en": "In 1983, facing her grandson Zhu Guohua's crime, Kang Keqing stated 'Even a prince who breaks the law shares the same crime as commoners,' demonstrating firm commitment to equality before the law."
         },
         "C-KKQE-007": {
           "code": "C-KKQE-007",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M327",
+          "mode_id": "M-KKQ-007",
           "title_en": "International Perspective Method — UN Women's Conference Diplomacy Case",
           "description_en": "In 1980, Kang Keqing represented China at the UN Women's Decade Mid-Decade Conference, showcasing China's women's liberation achievements to the world."
         },
         "C-KKQE-008": {
           "code": "C-KKQE-008",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M328",
+          "mode_id": "M-KKQ-008",
           "title_en": "Self-Reliance Method — From Poor Fishing Girl to Revolutionary Leader Case",
           "description_en": "Born into a poor fishing family, Kang Keqing joined the Red Army without knowing any characters and became an outstanding revolutionary through diligent study. She lived frugally throughout her life, with final words 'I want nothing'."
         },
         "C-KKQE-009": {
           "code": "C-KKQE-009",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M329",
+          "mode_id": "M-KKQ-009",
           "title_en": "Comprehensive Coordination Method — Picking Cotton While Holding Baby Case",
           "description_en": "Kang Keqing proposed the working principle of 'picking cotton with one hand, holding a baby with the other,' balancing women's liberation and child welfare work. She coordinated multiple forces to establish the National Children and Teenists Work Coordination Committee."
         },
         "C-KKQE-010": {
           "code": "C-KKQE-010",
           "figure_id": "H-KKQ-001",
-          "mode_id": "M330",
+          "mode_id": "M-KKQ-010",
           "title_en": "Four Self-Spirits Method — Inspiring Women's Self-Development Case",
           "description_en": "Kang Keqing advocated the 'Four Self-Spirits' (self-respect, self-confidence, independence, strength) and proposed the concept that 'the Four Modernizations need women, and women need the Four Modernizations.'"
         }
       },
       "protreptic_mapping": {
         "群众工作/动员方法": [
-          "M321",
-          "M325"
+          "M-KKQ-001",
+          "M-KKQ-005"
         ],
         "组织管理/制度建设": [
-          "M322",
-          "M329"
+          "M-KKQ-002",
+          "M-KKQ-009"
         ],
         "妇女解放/性别平等": [
-          "M323",
-          "M326",
-          "M330"
+          "M-KKQ-003",
+          "M-KKQ-006",
+          "M-KKQ-010"
         ],
         "社会事业/儿童福利": [
-          "M324"
+          "M-KKQ-004"
         ],
         "国际交流/外交策略": [
-          "M327"
+          "M-KKQ-007"
         ],
         "个人精神建设": [
-          "M328"
+          "M-KKQ-008"
         ]
       },
       "meta": {
@@ -1427,477 +1427,6 @@
         "application_context": "政治建军/Political Military Building"
       }
     },
-    "H-LUORQ-001": {
-      "figure_name": "罗瑞卿",
-      "figure_code": "H-LUORQ-001",
-      "figure_pinyin": "Luo Ruiqing",
-      "birth_year": 1906,
-      "death_year": 1978,
-      "era": "现代/Modern Era",
-      "school": "安全保卫学派/Security and Intelligence School",
-      "representative_works": [
-        "《罗瑞卿文选》",
-        "《公安工作文集》"
-      ],
-      "historical_significance": "中华人民共和国开国大将，新中国第一任公安部长和国防部长。中国安全保卫工作和情报工作的奠基人之一，在建国初期的国家安全体系建设、公安机关建立与整顿、军队正规化建设等方面作出了开创性贡献。",
-      "core_thoughts": [
-        "安全保卫优先法——将国家安全置于一切工作的首位",
-        "专门工作与群众路线相结合法——公安工作既要依靠专业力量又要发动群众",
-        "预防为主、防患未然法——强调事前预防和情报预警",
-        "军队正规化建设法——推动人民解放军从游击战向现代化战争转型",
-        "情报主导决策法——以情报分析支撑战略决策"
-      ],
-      "famous_quote": "公安工作是国家政权的重要支柱，必须牢牢掌握在党和人民手中。",
-      "influence": "罗瑞卿的安全保卫思想和军队正规化建设理念对中国现代国家安全体系和人民解放军现代化建设产生了深远影响。",
-      "thinking_mode_count": 10,
-      "mode_ids": [
-        "M351",
-        "M352",
-        "M353",
-        "M354",
-        "M355",
-        "M356",
-        "M357",
-        "M358",
-        "M359",
-        "M360"
-      ],
-      "tags": [
-        "安全保卫",
-        "情报工作",
-        "公安建设",
-        "军队正规化",
-        "预防为主",
-        "群众路线",
-        "专门工作",
-        "国家安全",
-        "国防建设",
-        "政治可靠"
-      ],
-      "cross_references": [
-        {
-          "target_figure_code": "H-LC-001",
-          "relation_type": "parallel",
-          "description_zh": "陈云侧重经济建设的综合平衡，罗瑞卿侧重安全保卫的国家体系；两者分别从经济和军事安全两个维度支撑新中国政权稳固。",
-          "description_en": "Chen Yun focused on comprehensive economic balance, while Luo Ruiqing focused on security defense national system; both supported the stability of New China's regime from economic and military security dimensions."
-        },
-        {
-          "target_figure_code": "H-LRH-001",
-          "relation_type": "parallel",
-          "description_zh": "罗荣桓侧重军队政治工作，罗瑞卿侧重军队安全保卫和正规化建设；两者共同构成了人民解放军现代化建设的两大支柱。",
-          "description_en": "Luo Ronghuan focused on political work in the army, while Luo Ruiqing focused on security defense and regularization of the military; together they formed the two pillars of the PLA's modernization."
-        }
-      ],
-      "related_figures": [
-        "H-LC-001",
-        "H-LRH-001"
-      ],
-      "scenarios_zh": {
-        "C-LUORQ-001": {
-          "code": "C-LUORQ-001",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M351",
-          "title_zh": "安全保卫优先——建国初期国家安全体系建设案例",
-          "description_zh": "新中国成立初期，罗瑞卿主持筹建中央公安部，将国家安全置于一切工作的首位。他主导建立了覆盖全国的公安系统，肃清国民党特务和土匪势力，巩固了新生人民政权的安全基础。",
-          "title_en": "Security First — Early PRC National Security System Construction Case",
-          "description_en": "In the early days of New China, Luo Ruiqing presided over the establishment of the Ministry of Public Security, placing national security above all other work. He led the creation of a nationwide public security system to eliminate KMT agents and bandit forces, consolidating the security foundation of the nascent people's regime."
-        },
-        "C-LUORQ-002": {
-          "code": "C-LUORQ-002",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M352",
-          "title_zh": "专门工作与群众路线相结合——镇反运动中的工作方法案例",
-          "description_zh": "罗瑞卿在镇压反革命运动中，坚持专门机关与群众路线相结合的原则：既依靠公安专业力量深入调查，又广泛发动群众检举揭发反革命分子，实现了高效的社会治安整顿。",
-          "title_en": "Specialized Work Combined with Mass Line — Public Security in the Suppression of Counterrevolutionaries Case",
-          "description_en": "During the suppression of counterrevolutionary activities, Luo Ruiqing adhered to combining specialized police work with the mass line: relying on professional public security forces for in-depth investigations while mobilating masses to denounce counterrevolutionaries, achieving efficient social order restoration."
-        },
-        "C-LUORQ-003": {
-          "code": "C-LUORQ-003",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M353",
-          "title_zh": "预防为主——公安预警机制建设案例",
-          "description_zh": "罗瑞卿强调'预防为主、防患未然'，推动建立了覆盖全国的治安预警和情报收集网络。通过建立基层派出所和群众联防组织，将安全隐患消灭在萌芽状态。",
-          "title_en": "Prevention First — Early Warning Mechanism Construction Case",
-          "description_en": "Luo Ruiqing emphasized 'prevention first,防患未然', establishing a nationwide public security early warning and intelligence network. By setting up grassroots police stations and mass defense organizations, he eliminated potential security threats at their source."
-        },
-        "C-LUORQ-004": {
-          "code": "C-LUORQ-004",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M354",
-          "title_zh": "军队正规化建设——解放军现代化建设推进案例",
-          "description_zh": "罗瑞卿担任国防部长期间，大力推动人民解放军从游击战向正规化、现代化战争转型。他主导建立了军事院校体系、军衔制度和军队条令条例，为人民军队的现代化建设奠定了基础。",
-          "title_en": "Military Regularization — PLA Modernization Reform Case",
-          "description_en": "As Minister of National Defense, Luo Ruiqing vigorously promoted the transformation of the PLA from guerrilla warfare to regularized and modern warfare. He established military academies, a rank system, and service regulations, laying the foundation for modernization of China's armed forces."
-        },
-        "C-LUORQ-005": {
-          "code": "C-LUORQ-005",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M355",
-          "title_zh": "情报主导决策——国家安全战略制定案例",
-          "description_zh": "罗瑞卿在担任公安部长和国防部长期间，始终坚持情报主导决策的理念。他建立了覆盖全国的情报网络，通过系统的情报分析为中央的战略决策提供科学依据。",
-          "title_en": "Intelligence-Led Decision Making — National Security Strategy Formulation Case",
-          "description_en": "While serving as Minister of Public Security and Minister of National Defense, Luo Ruiqing consistently adhered to intelligence-led decision making. He built a nationwide intelligence network and provided scientific analysis for central strategic decisions."
-        },
-        "C-LUORQ-006": {
-          "code": "C-LUORQ-006",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M356",
-          "title_zh": "政治可靠优先——公安队伍政治审查案例",
-          "description_zh": "罗瑞卿在组建新中国公安系统时，将政治可靠性作为首要标准。他建立了严格的公安人员政治审查制度，确保这支重要力量绝对忠诚于党和人民。",
-          "title_en": "Political Reliability First — Public Security Personnel Vetting Case",
-          "description_en": "When building New China's public security system, Luo Ruiqing placed political reliability as the primary criterion. He established strict vetting procedures for public security personnel to ensure absolute loyalty to the Party and the people."
-        },
-        "C-LUORQ-007": {
-          "code": "C-LUORQ-007",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M357",
-          "title_zh": "法制化公安建设——新中国第一部公安机关组织法案例",
-          "description_zh": "罗瑞卿推动制定了新中国第一部《公安机关组织条例》，以法律形式确立了公安系统的组织架构、职能定位和工作原则，为公安工作的法制化奠定了制度基础。",
-          "title_en": "Legalization of Public Security — New China's First Public Security Organization Law Case",
-          "description_en": "Luo Ruiqing promoted the formulation of New China's first 'Public Security Organ Regulations', legally establishing the organizational structure, functions, and principles of the public security system."
-        },
-        "C-LUORQ-008": {
-          "code": "C-LUORQ-008",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M358",
-          "title_zh": "军队纪律建设——高级干部违纪处理案例",
-          "description_zh": "罗瑞卿在军队纪律建设中坚持'严字当头、一视同仁'的原则。他推动对高级干部违纪行为的严肃处理，维护了人民解放军的纪律严明和军队形象。",
-          "title_en": "Military Discipline — Senior Cadre Violation Handling Case",
-          "description_en": "Luo Ruiqing insisted on 'strict discipline applied equally to all' in military disciplinary construction. He promoted the serious handling of senior cadre violations, maintaining the PLA's strict discipline and military image."
-        },
-        "C-LUORQ-009": {
-          "code": "C-LUORQ-009",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M359",
-          "title_zh": "国家安全战略——抗美援朝时期的安全决策案例",
-          "description_zh": "在抗美援朝战争期间，罗瑞卿作为中央重要决策成员之一，从国家安全全局出发，统筹国内治安、情报工作和前线作战保障，为战争的胜利提供了坚实的安全后盾。",
-          "title_en": "National Security Strategy — Korean War Security Decision Case",
-          "description_en": "During the Korean War, as an important central decision-maker, Luo Ruiqing coordinated domestic security, intelligence operations and front-line combat support from a national security perspective, providing solid security backing for the war's victory."
-        },
-        "C-LUORQ-010": {
-          "code": "C-LUORQ-010",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M360",
-          "title_zh": "历史经验——新中国安全保卫工作体系总结案例",
-          "description_zh": "罗瑞卿晚年回顾新中国安全保卫工作的发展历程，从公安系统建设、军队正规化改革等实践中提炼出宝贵经验：国家安全必须置于首位，专门工作与群众路线相结合是唯一正确道路。",
-          "title_en": "Historical Experience — Summary of New China's Security and Protection System",
-          "description_en": "In his later years, Luo Ruiqing reviewed the development of China's security and protection work, extracting key lessons from public security system building and military regularization: national security must be placed first, and combining specialized work with the mass line is the only correct path."
-        }
-      },
-      "scenarios_en": {
-        "C-LUORQ-001E": {
-          "code": "C-LUORQ-001E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M351",
-          "title_en": "Security First — Early PRC National Security System Construction Case",
-          "description_en": "In the early days of New China, Luo Ruiqing presided over the establishment of the Ministry of Public Security, placing national security above all other work. He led the creation of a nationwide public security system to eliminate KMT agents and bandit forces, consolidating the security foundation of the nascent people's regime."
-        },
-        "C-LUORQ-002E": {
-          "code": "C-LUORQ-002E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M352",
-          "title_en": "Specialized Work Combined with Mass Line — Public Security in the Suppression of Counterrevolutionaries Case",
-          "description_en": "During the suppression of counterrevolutionary activities, Luo Ruiqing adhered to combining specialized police work with the mass line: relying on professional public security forces for in-depth investigations while mobilating masses to denounce counterrevolutionaries, achieving efficient social order restoration."
-        },
-        "C-LUORQ-003E": {
-          "code": "C-LUORQ-003E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M353",
-          "title_en": "Prevention First — Early Warning Mechanism Construction Case",
-          "description_en": "Luo Ruiqing emphasized 'prevention first,防患未然', establishing a nationwide public security early warning and intelligence network. By setting up grassroots police stations and mass defense organizations, he eliminated potential security threats at their source."
-        },
-        "C-LUORQ-004E": {
-          "code": "C-LUORQ-004E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M354",
-          "title_en": "Military Regularization — PLA Modernization Reform Case",
-          "description_en": "As Minister of National Defense, Luo Ruiqing vigorously promoted the transformation of the PLA from guerrilla warfare to regularized and modern warfare. He established military academies, a rank system, and service regulations, laying the foundation for modernization of China's armed forces."
-        },
-        "C-LUORQ-005E": {
-          "code": "C-LUORQ-005E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M355",
-          "title_en": "Intelligence-Led Decision Making — National Security Strategy Formulation Case",
-          "description_en": "While serving as Minister of Public Security and Minister of National Defense, Luo Ruiqing consistently adhered to intelligence-led decision making. He built a nationwide intelligence network and provided scientific analysis for central strategic decisions."
-        },
-        "C-LUORQ-006E": {
-          "code": "C-LUORQ-006E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M356",
-          "title_en": "Political Reliability First — Public Security Personnel Vetting Case",
-          "description_en": "When building New China's public security system, Luo Ruiqing placed political reliability as the primary criterion. He established strict vetting procedures for public security personnel to ensure absolute loyalty to the Party and the people."
-        },
-        "C-LUORQ-007E": {
-          "code": "C-LUORQ-007E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M357",
-          "title_en": "Legalization of Public Security — New China's First Public Security Organization Law Case",
-          "description_en": "Luo Ruiqing promoted the formulation of New China's first 'Public Security Organ Regulations', legally establishing the organizational structure, functions, and principles of the public security system."
-        },
-        "C-LUORQ-008E": {
-          "code": "C-LUORQ-008E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M358",
-          "title_en": "Military Discipline — Senior Cadre Violation Handling Case",
-          "description_en": "Luo Ruiqing insisted on 'strict discipline applied equally to all' in military disciplinary construction. He promoted the serious handling of senior cadre violations, maintaining the PLA's strict discipline and military image."
-        },
-        "C-LUORQ-009E": {
-          "code": "C-LUORQ-009E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M359",
-          "title_en": "National Security Strategy — Korean War Security Decision Case",
-          "description_en": "During the Korean War, as an important central decision-maker, Luo Ruiqing coordinated domestic security, intelligence operations and front-line combat support from a national security perspective, providing solid security backing for the war's victory."
-        },
-        "C-LUORQ-010E": {
-          "code": "C-LUORQ-010E",
-          "figure_id": "H-LUORQ-001",
-          "mode_id": "M360",
-          "title_en": "Historical Experience — Summary of New China's Security and Protection System",
-          "description_en": "In his later years, Luo Ruiqing reviewed the development of China's security and protection work, extracting key lessons from public security system building and military regularization: national security must be placed first, and combining specialized work with the mass line is the only correct path."
-        }
-      },
-      "protreptic_mapping": {
-        "安全保卫/情报工作": [
-          "M351",
-          "M352",
-          "M353",
-          "M355"
-        ],
-        "军队正规化/制度建设": [
-          "M354",
-          "M357",
-          "M358"
-        ],
-        "国家安全战略/统筹规划": [
-          "M356",
-          "M359",
-          "M360"
-        ]
-      },
-      "meta": {
-        "source": "《罗瑞卿文选》、《公安工作文集》、中共中央文献研究室编撰资料",
-        "methodology": "历史文献分析法、案例验证法、实践经验总结法",
-        "validation": "与新中国公安体系建设和军队正规化改革历史交叉验证",
-        "generation_date": "2026-09-05",
-        "mode_count": 10,
-        "figure_code_ref": "H-LUORQ-001",
-        "phase": "Phase 20"
-      }
-    },
-    "H-MODERN-002": {
-      "figure_name": "大云",
-      "figure_code": "Modern",
-      "figure_pinyin": "Dà Yún",
-      "birth_year": 1970,
-      "death_year": null,
-      "era": "现代/Modern Era",
-      "school": "现代综合学派/Modern Synthesis School",
-      "representative_works": [
-        "《现代思维模式创新研究》",
-        "《东西方文明融合之路》",
-        "《系统思考与实践》",
-        "《创新管理与变革》",
-        "《人文科技和谐发展》"
-      ],
-      "historical_significance": "现代转型时期的重要思想家和实践者，致力于将东西方文化精华融合创新，建立具有现代特色的综合思维体系。在现代社会发展和文化建设中产生了深远影响，为现代人的思维方式和价值观念提供了重要指导。",
-      "core_thoughts": [
-        "系统整合思维",
-        "创新突破思维",
-        "实用导向思维",
-        "多元融合思维",
-        "动态适应思维"
-      ],
-      "famous_quote": "融合创新，实用为本，动态发展，人文关怀",
-      "influence": "大云的思想影响了现代教育、管理、科技等多个领域，其'系统整合、创新突破'的理念被广泛应用于现代社会发展和文化建设中。通过实践验证和理论创新，形成了独特的现代思维模式，为现代社会价值重建和方法论创新提供了重要参考。",
-      "thinking_mode_count": 10,
-      "mode_ids": [
-        "M001",
-        "M002",
-        "M003",
-        "M004",
-        "M005",
-        "M006",
-        "M007",
-        "M008",
-        "M009",
-        "M010"
-      ],
-      "tags": [
-        "现代思维",
-        "系统整合",
-        "创新突破",
-        "实用导向",
-        "多元融合",
-        "动态适应",
-        "东西方文化",
-        "综合思维",
-        "现代价值",
-        "方法论创新"
-      ],
-      "cross_references": [
-        {
-          "target_figure_code": "H-MODERN-001",
-          "relation_type": "comparison",
-          "description_zh": "陆一波侧重现代综合学派的系统整合，大云侧重现代思维模式的创新突破；前者重理论框架建构，后者重实践方法论创新。"
-        }
-      ],
-      "related_figures": [
-        "H-MODERN-001"
-      ],
-      "scenarios_zh": {
-        "C-MODERN-002-001": {
-          "code": "C-MODERN-002-001",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M001",
-          "title_zh": "系统整合思维——现代知识体系构建案例",
-          "description_zh": "大云在现代社会研究中提出系统整合思维，主张将东西方文化精华、传统与现代、理论与实践进行系统性整合。这一思维模式通过《现代思维模式创新研究》等著作推广，为现代知识体系的重构提供了方法论基础，成为现代学术研究的重要指导原则。"
-        },
-        "C-MODERN-002-002": {
-          "code": "C-MODERN-002-002",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M002",
-          "title_zh": "创新突破思维——传统与现代的辩证统一案例",
-          "description_zh": "大云强调创新突破思维，认为现代发展需要在继承传统的基础上进行创新突破。这一理念体现在《创新管理与变革》中，通过具体案例分析展示了如何在现代企业管理中实现传统价值与现代创新的辩证统一，为现代组织发展提供了实践指导。"
-        },
-        "C-MODERN-002-003": {
-          "code": "C-MODERN-002-003",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M003",
-          "title_zh": "实用导向思维——现代问题解决的方法论案例",
-          "description_zh": "大云提出实用导向思维，主张现代思维应以解决实际问题为导向。这一理念在《系统思考与实践》中得到充分体现，通过具体案例展示了如何运用系统思维解决现代社会的复杂问题，为现代实践提供了方法论支持。"
-        },
-        "C-MODERN-002-004": {
-          "code": "C-MODERN-002-004",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M004",
-          "title_zh": "多元融合思维——文化整合的实践案例",
-          "description_zh": "大云倡导多元融合思维，主张在全球化背景下实现不同文化、不同学科的有机融合。这一理念在《东西方文明融合之路》中得到系统阐述，通过具体案例展示了如何在现代社会中实现东西方文化的深度整合，为现代文化建设提供了理论指导。"
-        },
-        "C-MODERN-002-005": {
-          "code": "C-MODERN-002-005",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M005",
-          "title_zh": "动态适应思维——现代环境变化的应对策略案例",
-          "description_zh": "大云提出动态适应思维，主张现代思维需要适应不断变化的环境。这一理念在《人文科技和谐发展》中得到体现，通过具体案例展示了如何在科技快速发展的背景下保持人文关怀，实现科技与人文的动态平衡。"
-        },
-        "C-MODERN-002-006": {
-          "code": "C-MODERN-002-006",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M006",
-          "title_zh": "现代价值重构——传统价值的现代转化案例",
-          "description_zh": "大云致力于现代价值的重构，主张将传统价值进行现代转化。这一理念通过《人文科技和谐发展》等著作得到系统阐述，通过具体案例展示了如何在现代社会中重新诠释和转化传统价值，为现代价值体系建设提供了理论支持。"
-        },
-        "C-MODERN-002-007": {
-          "code": "C-MODERN-002-007",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M007",
-          "title_zh": "方法论创新——现代思维工具的创造案例",
-          "description_zh": "大云在方法论创新方面做出了重要贡献，创造了一系列现代思维工具。这些工具在《系统思考与实践》中得到系统介绍，通过具体案例展示了如何运用这些工具解决现代社会的复杂问题，为现代思维方法的发展提供了实践基础。"
-        },
-        "C-MODERN-002-008": {
-          "code": "C-MODERN-002-008",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M008",
-          "title_zh": "跨学科整合——现代知识体系的建设案例",
-          "description_zh": "大云强调跨学科整合的重要性，主张打破学科壁垒进行知识整合。这一理念在《现代思维模式创新研究》中得到充分体现，通过具体案例展示了如何在跨学科研究中实现知识的有机整合，为现代知识体系建设提供了方法论指导。"
-        },
-        "C-MODERN-002-009": {
-          "code": "C-MODERN-002-009",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M009",
-          "title_zh": "实践验证——现代理论的现实检验案例",
-          "description_zh": "大云强调实践验证的重要性，主张现代理论需要在实践中得到检验。这一理念通过其具体的研究和实践项目得到体现，通过案例展示了如何将理论应用于实践并通过实践来验证理论的正确性，为现代理论研究提供了实践基础。"
-        },
-        "C-MODERN-002-010": {
-          "code": "C-MODERN-002-010",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M010",
-          "title_zh": "持续创新——现代思维的发展模式案例",
-          "description_zh": "大云提出持续创新的理念，主张现代思维需要不断发展和创新。这一理念贯穿其所有著作，通过具体案例展示了如何在现代社会中保持思维的持续创新能力，为现代思维的发展提供了理论指导。"
-        }
-      },
-      "scenarios_en": {
-        "C-MODERN-002E-001": {
-          "code": "C-MODERN-002E-001",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M001",
-          "title_en": "System Integration Thinking — Modern Knowledge System Construction Case",
-          "description_en": "Dayun proposes system integration thinking in modern social research, advocating systematic integration of Eastern and Western cultural essences, tradition and modernity, theory and practice. This thinking pattern, promoted through works like 'Modern Thinking Model Innovation Research,' provides a methodological foundation for reconstructing modern knowledge systems, becoming an important guiding principle for modern academic research."
-        },
-        "C-MODERN-002E-002": {
-          "code": "C-MODERN-002E-002",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M002",
-          "title_en": "Innovation Breakthrough Thinking — Dialectical Unity of Tradition and Modernity Case",
-          "description_en": "Dayun emphasizes innovation breakthrough thinking, arguing that modern development requires innovation breakthrough based on inheriting tradition. This concept is embodied in 'Innovation Management and Change,' demonstrating through specific case studies how to achieve dialectical unity of traditional values and modern innovation in modern enterprise management, providing practical guidance for modern organizational development."
-        },
-        "C-MODERN-002E-003": {
-          "code": "C-MODERN-002E-003",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M003",
-          "title_en": "Practical Orientation Thinking — Modern Problem-Solving Methodology Case",
-          "description_en": "Dayun proposes practical orientation thinking, advocating that modern thinking should be guided by solving practical problems. This concept is fully reflected in 'Systematic Thinking and Practice,' showing through specific cases how to apply systematic thinking to solve complex problems in modern society, providing methodological support for modern practice."
-        },
-        "C-MODERN-002E-004": {
-          "code": "C-MODERN-002E-004",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M004",
-          "title_en": "Multiple Integration Thinking — Cultural Integration Practice Case",
-          "description_en": "Dayun advocates multiple integration thinking,主张实现不同文化、不同学科的有机融合 in the context of globalization. This concept is systematically elaborated in 'The Path of Integration of Eastern and Western Civilizations,' demonstrating through specific cases how to achieve deep integration of Eastern and Western cultures in modern society, providing theoretical guidance for modern cultural construction."
-        },
-        "C-MODERN-002E-005": {
-          "code": "C-MODERN-002E-005",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M005",
-          "title_en": "Dynamic Adaptation Thinking — Modern Environmental Change Response Strategy Case",
-          "description_en": "Dayun proposes dynamic adaptation thinking, arguing that modern thinking needs to adapt to constantly changing environments. This concept is reflected in 'Harmonious Development of Humanities and Technology,' demonstrating through specific cases how to maintain humanistic care while achieving rapid technological development, achieving dynamic balance between technology and humanities."
-        },
-        "C-MODERN-002E-006": {
-          "code": "C-MODERN-002E-006",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M006",
-          "title_en": "Modern Value Reconstruction — Traditional Value Modern Transformation Case",
-          "description_en": "Dayun is dedicated to modern value reconstruction, advocating the modern transformation of traditional values. This concept is systematically elaborated in works like 'Harmonious Development of Humanities and Technology,' demonstrating through specific cases how to reinterpret and transform traditional values in modern society, providing theoretical support for modern value system construction."
-        },
-        "C-MODERN-002E-007": {
-          "code": "C-MODERN-002E-007",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M007",
-          "title_en": "Methodology Innovation — Creation of Modern Thinking Tools Case",
-          "description_en": "Dayun has made important contributions to methodology innovation, creating a series of modern thinking tools. These tools are systematically introduced in 'Systematic Thinking and Practice,' demonstrating through specific cases how to apply these tools to solve complex problems in modern society, providing a practical foundation for the development of modern thinking methods."
-        },
-        "C-MODERN-002E-008": {
-          "code": "C-MODERN-002E-008",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M008",
-          "title_en": "Interdisciplinary Integration — Modern Knowledge System Construction Case",
-          "description_en": "Dayun emphasizes the importance of interdisciplinary integration, advocating breaking down disciplinary barriers for knowledge integration. This concept is fully reflected in 'Modern Thinking Model Innovation Research,' demonstrating through specific cases how to achieve organic integration of knowledge in interdisciplinary research, providing methodological guidance for modern knowledge system construction."
-        },
-        "C-MODERN-002E-009": {
-          "code": "C-MODERN-002E-009",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M009",
-          "title_en": "Practical Verification — Modern Theory Reality Testing Case",
-          "description_en": "Dayun emphasizes the importance of practical verification, advocating that modern theories need to be tested in practice. This concept is reflected in his specific research and practice projects, demonstrating through cases how to apply theories to practice and verify theoretical correctness through practice, providing a practical foundation for modern theoretical research."
-        },
-        "C-MODERN-002E-010": {
-          "code": "C-MODERN-002E-010",
-          "figure_id": "H-MODERN-002",
-          "mode_id": "M010",
-          "title_en": "Continuous Innovation — Modern Thinking Development Model Case",
-          "description_en": "Dayun proposes the concept of continuous innovation, arguing that modern thinking needs constant development and innovation. This concept runs through all his works, demonstrating through specific cases how to maintain continuous innovation ability in modern society, providing theoretical guidance for the development of modern thinking."
-        }
-      },
-      "meta": {
-        "source": "现代思想研究文献、东西方文化融合研究、系统思考理论、创新管理实践",
-        "methodology": "历史文献分析法、理论解析法、案例验证法",
-        "validation": "与现代社会发展轨迹交叉验证，对照东西方文化融合研究",
-        "generation_date": "2026-09-05",
-        "mode_count": 10,
-        "figure_code_ref": "H-MODERN-002",
-        "phase": "Phase 20"
-      }
-    },
     "H-QGH-001": {
       "figure_name": "乔冠华",
       "figure_pinyin": "Qiáo Guànhuá",
@@ -2156,16 +1685,16 @@
       "historical_significance": "宋庆龄（1893-1981），20世纪中国伟大的政治家、社会活动家，孙中山夫人，中华人民共和国名誉主席。作为中国近代史上杰出的女性领导人，她以博爱精神、国际主义立场和妇女解放实践著称于世。宋庆龄一生致力于妇女儿童福利事业、国际和平运动以及中国革命事业，在国共两党之间架起桥梁，为中国革命和建设事业作出了不可磨灭的贡献。她既是孙中山革命事业的忠实继承者，又是新中国建设的重要参与者，在复杂的历史环境中展现了非凡的政治智慧和人格魅力。",
       "thinking_mode_count": 10,
       "mode_ids": [
-        "M361",
-        "M362",
-        "M363",
-        "M364",
-        "M365",
-        "M366",
-        "M367",
-        "M368",
-        "M369",
-        "M370"
+        "M-SQL-001",
+        "M-SQL-002",
+        "M-SQL-003",
+        "M-SQL-004",
+        "M-SQL-005",
+        "M-SQL-006",
+        "M-SQL-007",
+        "M-SQL-008",
+        "M-SQL-009",
+        "M-SQL-010"
       ],
       "tags": [
         "人道主义",
@@ -2203,7 +1732,7 @@
         "C-SQL-001": {
           "code": "C-SQL-001",
           "figure_id": "H-SQL-001",
-          "mode_id": "M361",
+          "mode_id": "M-SQL-001",
           "title_zh": "人道主义博爱法",
           "description_zh": "基于基督教博爱精神和革命人道主义，将无私的关爱转化为具体的革命实践和社会行动。通过关怀弱势群体、救助受难民众、推动社会福利来实现人类共同福祉的理念和方法。",
           "key_concepts": [
@@ -2222,7 +1751,7 @@
         "C-SQL-002": {
           "code": "C-SQL-002",
           "figure_id": "H-SQL-001",
-          "mode_id": "M362",
+          "mode_id": "M-SQL-002",
           "title_zh": "国际主义团结法",
           "description_zh": "超越民族国家的界限，建立广泛的国际统一战线，推动世界和平与发展。通过国际合作、反帝反战、支援民族解放运动来实现人类共同进步的理念和方法。",
           "key_concepts": [
@@ -2241,7 +1770,7 @@
         "C-SQL-003": {
           "code": "C-SQL-003",
           "figure_id": "H-SQL-001",
-          "mode_id": "M363",
+          "mode_id": "M-SQL-003",
           "title_zh": "妇女解放实践法",
           "description_zh": "争取妇女平等权利，推动妇女参与政治、经济、社会活动，通过具体实践来实现妇女解放的理念和方法。强调妇女在革命和建设中的重要作用，推动妇女全面发展。",
           "key_concepts": [
@@ -2260,7 +1789,7 @@
         "C-SQL-004": {
           "code": "C-SQL-004",
           "figure_id": "H-SQL-001",
-          "mode_id": "M364",
+          "mode_id": "M-SQL-004",
           "title_zh": "统战艺术法",
           "description_zh": "在复杂的政治环境中，团结一切可以团结的力量，建立广泛的统一战线。通过政治智慧、利益协调、情感共鸣来实现政治目标，化解政治分歧，促进政治团结的理念和方法。",
           "key_concepts": [
@@ -2279,7 +1808,7 @@
         "C-SQL-005": {
           "code": "C-SQL-005",
           "figure_id": "H-SQL-001",
-          "mode_id": "M365",
+          "mode_id": "M-SQL-005",
           "title_zh": "和平统一倡导法",
           "description_zh": "反对内战和暴力冲突，主张通过和平对话、协商谈判来解决争端，实现国家统一和社会稳定。强调和平发展的重要性和可行性，为民族复兴创造有利条件。",
           "key_concepts": [
@@ -2298,7 +1827,7 @@
         "C-SQL-006": {
           "code": "C-SQL-006",
           "figure_id": "H-SQL-001",
-          "mode_id": "M366",
+          "mode_id": "M-SQL-006",
           "title_zh": "社会福利建设法",
           "description_zh": "专注于妇女儿童卫生、文化教育和社会福利事业，通过具体的项目和机构建设来改善民生，提高人民生活质量。强调社会公益事业的重要性和持续性。",
           "key_concepts": [
@@ -2317,7 +1846,7 @@
         "C-SQL-007": {
           "code": "C-SQL-007",
           "figure_id": "H-SQL-001",
-          "mode_id": "M367",
+          "mode_id": "M-SQL-007",
           "title_zh": "文化教育提升法",
           "description_zh": "通过文化教育和知识传播来提升国民素质，培养具有理想和能力的社会主义建设者。重视文化传承与创新，推动教育事业的发展，提高民族的文化自信。",
           "key_concepts": [
@@ -2336,7 +1865,7 @@
         "C-SQL-008": {
           "code": "C-SQL-008",
           "figure_id": "H-SQL-001",
-          "mode_id": "M368",
+          "mode_id": "M-SQL-008",
           "title_zh": "国际外交桥梁法",
           "description_zh": "在国际舞台上为中国争取国际支持，促进国际合作，建立中外友好关系。通过民间外交、文化交流等方式，增进国际社会对中国的了解和支持，提升中国的国际地位。",
           "key_concepts": [
@@ -2355,7 +1884,7 @@
         "C-SQL-009": {
           "code": "C-SQL-009",
           "figure_id": "H-SQL-001",
-          "mode_id": "M369",
+          "mode_id": "M-SQL-009",
           "title_zh": "政治斗争韧性法",
           "description_zh": "在复杂严峻的政治环境中，坚持革命原则和政治立场，展现非凡的政治智慧和人格魅力。通过坚韧不拔的意志、灵活的策略和崇高的品格来应对政治挑战，实现政治目标。",
           "key_concepts": [
@@ -2374,7 +1903,7 @@
         "C-SQL-001E": {
           "code": "C-SQL-001E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M361",
+          "mode_id": "M-SQL-001",
           "title_en": "Humanitarian Love Method",
           "description_en": "Based on Christian love spirit and revolutionary humanitarianism, transforms selfless care into concrete revolutionary practice and social action. Achieves common human welfare through caring for vuln",
           "key_concepts": [
@@ -2393,7 +1922,7 @@
         "C-SQL-002E": {
           "code": "C-SQL-002E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M362",
+          "mode_id": "M-SQL-002",
           "title_en": "Internationalist Unity Method",
           "description_en": "Transcends national boundaries, establishes broad international united front, promotes world peace and development. Achieves common human progress through international cooperation, anti-imperialist a",
           "key_concepts": [
@@ -2412,7 +1941,7 @@
         "C-SQL-003E": {
           "code": "C-SQL-003E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M363",
+          "mode_id": "M-SQL-003",
           "title_en": "Women's Liberation Method",
           "description_en": "Strives for women's equal rights, promotes women's participation in political, economic, and social activities, achieves women's liberation through concrete practice. Emphasizes women's important role",
           "key_concepts": [
@@ -2431,7 +1960,7 @@
         "C-SQL-004E": {
           "code": "C-SQL-004E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M364",
+          "mode_id": "M-SQL-004",
           "title_en": "United Front Art Method",
           "description_en": "In complex political environments, unites all possible forces, establishes broad united front. Achieves political goals through political wisdom, interest coordination, and emotional resonance, resolv",
           "key_concepts": [
@@ -2450,7 +1979,7 @@
         "C-SQL-005E": {
           "code": "C-SQL-005E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M365",
+          "mode_id": "M-SQL-005",
           "title_en": "Peaceful Unification Method",
           "description_en": "Opposes civil war and violent conflict, advocates resolving disputes through peaceful dialogue and negotiation to achieve national unity and social stability. Emphasizes importance and feasibility of ",
           "key_concepts": [
@@ -2469,7 +1998,7 @@
         "C-SQL-006E": {
           "code": "C-SQL-006E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M366",
+          "mode_id": "M-SQL-006",
           "title_en": "Social Welfare Construction Method",
           "description_en": "Focuses on women and children's health, cultural education, and social welfare, improves people's living quality through specific projects and institutional construction. Emphasizes importance and sus",
           "key_concepts": [
@@ -2488,7 +2017,7 @@
         "C-SQL-007E": {
           "code": "C-SQL-007E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M367",
+          "mode_id": "M-SQL-007",
           "title_en": "Cultural Education Enhancement Method",
           "description_en": "Enhances national quality through cultural education and knowledge dissemination, cultivates ideal-capable socialist builders. Emphasizes cultural inheritance and innovation, promotes educational deve",
           "key_concepts": [
@@ -2507,7 +2036,7 @@
         "C-SQL-008E": {
           "code": "C-SQL-008E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M368",
+          "mode_id": "M-SQL-008",
           "title_en": "International Diplomatic Bridge Method",
           "description_en": "Seeks international support for China on the international stage, promotes international cooperation, establishes China-foreign friendly relations. Enhances international community's understanding and",
           "key_concepts": [
@@ -2526,7 +2055,7 @@
         "C-SQL-009E": {
           "code": "C-SQL-009E",
           "figure_id": "H-SQL-001",
-          "mode_id": "M369",
+          "mode_id": "M-SQL-009",
           "title_en": "Political Struggle Resilience Method",
           "description_en": "In complex and severe political environments, adheres to revolutionary principles and political positions, demonstrates extraordinary political wisdom and personal charm. Handles political challenges ",
           "key_concepts": [
@@ -2545,30 +2074,30 @@
       },
       "protreptic_mapping": {
         "人道主义/博爱精神": [
-          "M361"
+          "M-SQL-001"
         ],
         "国际主义/和平运动": [
-          "M362",
-          "M368"
+          "M-SQL-002",
+          "M-SQL-008"
         ],
         "妇女解放/权益保障": [
-          "M363"
+          "M-SQL-003"
         ],
         "统一战线/政治智慧": [
-          "M364",
-          "M369"
+          "M-SQL-004",
+          "M-SQL-009"
         ],
         "和平统一/对话协商": [
-          "M365"
+          "M-SQL-005"
         ],
         "社会福利/民生建设": [
-          "M366"
+          "M-SQL-006"
         ],
         "文化教育/素质提升": [
-          "M367"
+          "M-SQL-007"
         ],
         "理想实践统一": [
-          "M370"
+          "M-SQL-010"
         ]
       },
       "meta": {
@@ -2611,16 +2140,16 @@
       "influence": "万里的务实改革思想对中国改革开放进程产生了深远影响，其'敢于担当、注重实效'的思维方式成为政策制定的重要指导原则。",
       "thinking_mode_count": 10,
       "mode_ids": [
-        "M274",
-        "M275",
-        "M276",
-        "M277",
-        "M278",
-        "M279",
-        "M280",
-        "M281",
-        "M282",
-        "M283"
+        "M-WL-001",
+        "M-WL-002",
+        "M-WL-003",
+        "M-WL-004",
+        "M-WL-005",
+        "M-WL-006",
+        "M-WL-007",
+        "M-WL-008",
+        "M-WL-009",
+        "M-WL-010"
       ],
       "tags": [
         "务实改革",
@@ -2660,70 +2189,70 @@
         "C-WL-001": {
           "code": "C-WL-001",
           "figure_id": "H-WL-001",
-          "mode_id": "M274",
+          "mode_id": "M-WL-001",
           "title_zh": "实事求是——安徽农村改革方向判断案例",
           "description_zh": "改革开放初期，万里在安徽省委领导岗位上，坚持从农村实际情况出发，支持小岗村'大包干'实践。他不唯上、不唯书，以农民的实际生活改善作为判断政策正确性的唯一标准。"
         },
         "C-WL-002": {
           "code": "C-WL-002",
           "figure_id": "H-WL-001",
-          "mode_id": "M275",
+          "mode_id": "M-WL-002",
           "title_zh": "大胆探索——经济特区建设中的突破案例",
           "description_zh": "万里在中央领导层中积极支持经济特区的建立，主张突破传统计划经济的体制束缚，大胆探索市场经济的新路径。"
         },
         "C-WL-003": {
           "code": "C-WL-003",
           "figure_id": "H-WL-001",
-          "mode_id": "M276",
+          "mode_id": "M-WL-003",
           "title_zh": "注重实效——政策效果检验案例",
           "description_zh": "万里在推动各项改革措施时，始终坚持以实践成果作为评判标准：农村增产、城市搞活、人民生活改善，用实际数据验证改革方向的正确性。"
         },
         "C-WL-004": {
           "code": "C-WL-004",
           "figure_id": "H-WL-001",
-          "mode_id": "M277",
+          "mode_id": "M-WL-004",
           "title_zh": "渐进稳妥——改革与稳定并重案例",
           "description_zh": "万里在推进农村经济体制改革的过程中，始终坚持稳妥原则：先在小岗村等少数地区试点，成功后逐步推广，既推动了改革又保持了社会稳定。"
         },
         "C-WL-005": {
           "code": "C-WL-005",
           "figure_id": "H-WL-001",
-          "mode_id": "M278",
+          "mode_id": "M-WL-005",
           "title_zh": "实事求是用人——干部制度改革案例",
           "description_zh": "万里在中央领导岗位上，大力推动干部制度改革，主张打破论资排辈的旧有体制，任人唯贤、不拘一格选拔年轻干部。"
         },
         "C-WL-006": {
           "code": "C-WL-006",
           "figure_id": "H-WL-001",
-          "mode_id": "M279",
+          "mode_id": "M-WL-006",
           "title_zh": "调查研究——经济政策制定案例",
           "description_zh": "万里主持国务院工作期间，坚持深入各地调研实际情况，在制定经济政策前充分听取基层意见和掌握一手资料。"
         },
         "C-WL-007": {
           "code": "C-WL-007",
           "figure_id": "H-WL-001",
-          "mode_id": "M280",
+          "mode_id": "M-WL-007",
           "title_zh": "重点突破——产业结构调整案例",
           "description_zh": "万里在国务院领导工作中，抓住农业和能源两个关键环节进行重点突破，同时兼顾轻工业发展和人民生活改善。"
         },
         "C-WL-008": {
           "code": "C-WL-008",
           "figure_id": "H-WL-001",
-          "mode_id": "M281",
+          "mode_id": "M-WL-008",
           "title_zh": "党内民主——重大决策过程案例",
           "description_zh": "万里在担任全国人大常委会委员长期间，大力推动党内民主和人大制度的完善，强调集体讨论、集思广益的决策方式。"
         },
         "C-WL-009": {
           "code": "C-WL-009",
           "figure_id": "H-WL-001",
-          "mode_id": "M282",
+          "mode_id": "M-WL-009",
           "title_zh": "制度创新——法治建设推进案例",
           "description_zh": "万里在人大工作期间，推动了一系列重要的立法和制度改革：完善人民代表大会制度、加强社会主义法制建设。"
         },
         "C-WL-010": {
           "code": "C-WL-010",
           "figure_id": "H-WL-001",
-          "mode_id": "M283",
+          "mode_id": "M-WL-010",
           "title_zh": "历史经验——改革历程总结案例",
           "description_zh": "万里晚年回顾改革开放历程，从自身参与农村改革、经济特区建设的实践中提炼出宝贵的历史经验，为后续改革提供参考。"
         }
@@ -2732,70 +2261,70 @@
         "C-WL-001E": {
           "code": "C-WL-001E",
           "figure_id": "H-WL-001",
-          "mode_id": "M274",
+          "mode_id": "M-WL-001",
           "title_en": "Seeking Truth from Facts — Anhui Rural Reform Direction Judgment Case",
           "description_en": "During the early reform and opening-up period, Wan Li, as a provincial party secretary in Anhui, insisted on judging policies based on actual rural conditions. He supported the Xiaogang Village 'contract responsibility' practice without deferring to established doctrines."
         },
         "C-WL-002E": {
           "code": "C-WL-002E",
           "figure_id": "H-WL-001",
-          "mode_id": "M275",
+          "mode_id": "M-WL-002",
           "title_en": "Bold Exploration — Economic Special Zone Development Case",
           "description_en": "Wan Li actively supported the establishment of economic special zones in central leadership, advocating breakthrough beyond traditional planned economy constraints and bold exploration of market-oriented pathways."
         },
         "C-WL-003E": {
           "code": "C-WL-003E",
           "figure_id": "H-WL-001",
-          "mode_id": "M276",
+          "mode_id": "M-WL-003",
           "title_en": "Results-Oriented — Policy Effectiveness Verification Case",
           "description_en": "Wan Li consistently used practical outcomes as the evaluation criterion: increased agricultural production, revitalized cities, and improved people livelihoods."
         },
         "C-WL-004E": {
           "code": "C-WL-004E",
           "figure_id": "H-WL-001",
-          "mode_id": "M277",
+          "mode_id": "M-WL-004",
           "title_en": "Gradual and Prudent — Reform and Stability Balance Case",
           "description_en": "While advancing rural economic reform, Wan Li adhered to prudence: first piloting in Xiaogang Village and a few areas, then gradually expanding after successful results."
         },
         "C-WL-005E": {
           "code": "C-WL-005E",
           "figure_id": "H-WL-001",
-          "mode_id": "M278",
+          "mode_id": "M-WL-005",
           "title_en": "Merit-Based Personnel — Cadre System Reform Case",
           "description_en": "In central leadership positions, Wan Li vigorously promoted cadre system reform, advocating the abolition of seniority-based promotion and selection of young cadres based on merit."
         },
         "C-WL-006E": {
           "code": "C-WL-006E",
           "figure_id": "H-WL-001",
-          "mode_id": "M279",
+          "mode_id": "M-WL-006",
           "title_en": "Investigation and Research — Economic Policy Formulation Case",
           "description_en": "While presiding over the State Council, Wan Li insisted on visiting various regions for field investigations and fully listening to grassroots opinions before formulating economic policies."
         },
         "C-WL-007E": {
           "code": "C-WL-007E",
           "figure_id": "H-WL-001",
-          "mode_id": "M280",
+          "mode_id": "M-WL-007",
           "title_en": "Key Breakthrough — Industrial Structure Adjustment Case",
           "description_en": "In State Council leadership, Wan Li focused on agriculture and energy as two key breakthrough areas while balancing light industry development and people livelihood."
         },
         "C-WL-008E": {
           "code": "C-WL-008E",
           "figure_id": "H-WL-001",
-          "mode_id": "M281",
+          "mode_id": "M-WL-008",
           "title_en": "Intra-Party Democracy — Major Decision Process Case",
           "description_en": "As Chairman of the NPC Standing Committee, Wan Li vigorously promoted intra-party democracy and improvement of the people congress system."
         },
         "C-WL-009E": {
           "code": "C-WL-009E",
           "figure_id": "H-WL-001",
-          "mode_id": "M282",
+          "mode_id": "M-WL-009",
           "title_en": "Institutional Innovation — Rule of Law Construction Case",
           "description_en": "During his NPC work, Wan Li promoted important legislative and institutional reforms: improving the people congress system and strengthening socialist rule of law."
         },
         "C-WL-010E": {
           "code": "C-WL-010E",
           "figure_id": "H-WL-001",
-          "mode_id": "M283",
+          "mode_id": "M-WL-010",
           "title_en": "Historical Experience — Reform Process Summary Case",
           "description_en": "In his later years, Wan Li reviewed the reform and opening-up process, extracting valuable historical experiences from his participation in rural reform and special zone development."
         }
@@ -3056,19 +2585,6 @@
         "phase": "Phase 20"
       }
     },
-    "H-ZOU-001": {
-      "figure_name": "邹文献",
-      "figure_code": "H-ZOU-001",
-      "figure_pinyin": "Zou Wenlian",
-      "era": "Modern",
-      "school": "革命理论与实践",
-      "representative_works": [
-        "中国革命根据地的历史研究",
-        "中国共产党思想路线的理论创新"
-      ],
-      "scenarios_zh_count": 10,
-      "modes_count": 10
-    },
     "H-WYM-001": {
       "mode_ids": [
         "M-WYM-001",
@@ -3178,16 +2694,16 @@
       ],
       "thinking_mode_count": 10,
       "mode_ids": [
-        "M101",
-        "M102",
-        "M103",
-        "M104",
-        "M105",
-        "M106",
-        "M107",
-        "M108",
-        "M109",
-        "M110"
+        "M-CY-001",
+        "M-CY-002",
+        "M-CY-003",
+        "M-CY-004",
+        "M-CY-005",
+        "M-CY-006",
+        "M-CY-007",
+        "M-CY-008",
+        "M-CY-009",
+        "M-CY-010"
       ],
       "tags": [
         "务实思维",
@@ -16567,6 +16083,140 @@
           "relation_type": "comparison",
           "description_zh": "朱熹《大学章句》以《大学》经文为『孔子之言而曾子述之』、传文为『曾子之意而门人记之』，并以《论语集注》《中庸章句序》塑造了曾子的道统位置——属传统归属，本档已标注为后世建构。",
           "description_en": "The Zhu Xi commentary took the Great Learning classic text as the words of Confucius narrated by Zengzi and the commentaries as the meaning of Zengzi recorded by disciples, shaping his place in the lineage; a traditional attribution flagged here as a later construct."
+        }
+      ]
+    },
+    "H-YSK-001": {
+      "mode_ids": [
+        "M-YSK-001",
+        "M-YSK-002",
+        "M-YSK-003",
+        "M-YSK-004",
+        "M-YSK-005",
+        "M-YSK-006",
+        "M-YSK-007",
+        "M-YSK-008",
+        "M-YSK-009",
+        "M-YSK-010"
+      ],
+      "tags": [
+        "杨尚昆",
+        "中办主任",
+        "中共中央秘书长",
+        "川东地下党",
+        "长征通信保障",
+        "陕甘宁边区",
+        "中央书记处",
+        "国家主席",
+        "政治体制运行",
+        "党的组织建设",
+        "情报工作",
+        "后勤组织",
+        "重庆地下工作",
+        "北平学运",
+        "解放战争后勤"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-MZ-001",
+          "relation_type": "execution",
+          "description_zh": "杨尚昆是毛泽东政治体制建设思想的重要执行者和党的组织工作核心人物",
+          "description_en": "Yang Shangkun was an important executor of Mao Zedong's political system construction thought and a core figure in party organizational work",
+          "target_figure_name": "毛泽东"
+        }
+      ]
+    },
+    "H-JX-001": {
+      "mode_ids": [
+        "M-JX-001",
+        "M-JX-002",
+        "M-JX-003",
+        "M-JX-004",
+        "M-JX-005",
+        "M-JX-006",
+        "M-JX-007",
+        "M-JX-008",
+        "M-JX-009",
+        "M-JX-010"
+      ],
+      "tags": [
+        "现代诗",
+        "横的移植",
+        "知性强调",
+        "纯粹的诗",
+        "存在主义诗学",
+        "六大信条",
+        "蓝星论战",
+        "独狼精神",
+        "《现代诗》季刊",
+        "台湾三老",
+        "西方现代主义",
+        "诗学理论",
+        "\"你的名字\"",
+        "反传统倾向",
+        "终身创作"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-CY-001",
+          "relation_type": "comparison",
+          "description_zh": "陈云侧重务实经济思维，纪弦侧重诗学现代性建构；前者面向经济建设实践，后者面向文学艺术革新。"
+        },
+        {
+          "target_figure_code": "H-QXS-001",
+          "relation_type": "comparison",
+          "description_zh": "钱学森与纪弦都追求传统与现代的融合，但钱学森的跨学科融合法侧重于科学知识整合，纪弦的'横的移植'侧重于文学艺术的现代主义借鉴。"
+        },
+        {
+          "target_figure_code": "H-MODERN-001",
+          "relation_type": "comparison",
+          "description_zh": "陆一波的现代主义理论框架侧重系统整合与创新，纪弦的'六大信条'则聚焦于诗歌领域的现代主义实践；前者重理论建构的系统性，后者重诗学理念的纯粹性与革命性。"
+        }
+      ]
+    },
+    "H-LWH-001": {
+      "mode_ids": [
+        "M-LWH-001",
+        "M-LWH-002",
+        "M-LWH-003",
+        "M-LWH-004",
+        "M-LWH-005",
+        "M-LWH-006",
+        "M-LWH-007",
+        "M-LWH-008",
+        "M-LWH-009",
+        "M-LWH-010"
+      ],
+      "tags": [
+        "统一战线",
+        "民族政策",
+        "宗教政策",
+        "干部培养",
+        "群众路线",
+        "党校教育",
+        "调查研究",
+        "政治协商",
+        "封建主义批判",
+        "历史经验"
+      ],
+      "cross_references": [
+        {
+          "target_figure_code": "H-DZS-001",
+          "relation_type": "vs",
+          "description_zh": "天人感应 vs 实事求是",
+          "description_en": "Heaven-Human Correspondence vs Seeking Truth from Facts"
+        },
+        {
+          "target_figure_code": "H-HSX-001",
+          "relation_type": "vs",
+          "description_zh": "经世致用 vs 历史经验总结",
+          "description_en": "Practical Statecraft vs Historical Experience Summarization"
+        },
+        {
+          "target_figure_code": "H-CHB-001",
+          "relation_type": "vs",
+          "description_zh": "理论批判 vs 务实妥协",
+          "description_en": "Theoretical Criticism vs Pragmatic Compromise"
         }
       ]
     }

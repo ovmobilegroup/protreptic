@@ -1,0 +1,145 @@
+{
+ "schema": "protreptic.r6b_prep_evidence/v1",
+ "card": "t_434af550",
+ "date": "2026-09-23",
+ "executor": "serrano",
+ "kind": "prep_and_verification_only",
+ "notes": "本卡为 B 组前置准备件：未写 data、未动站点、未提交远端。产物细节见 phase21r6B_prep_report.md；核验与门禁输出见同目录 out 与 txt 两件。",
+ "summaries": {
+  "wangxiang_H-HZX-002": {
+   "disposition": "archive_plus_redo_checklist",
+   "hard_fixes": 4,
+   "redo_modes": 10,
+   "sources": [
+    "jinshu_33",
+    "soushenji_11",
+    "ershisixiao"
+   ]
+  },
+  "wangzhen_H-WZ-001": {
+   "payload_entries": 10,
+   "bingtu_entry": 1,
+   "mapping_rows": 12,
+   "library_occupancy": 0,
+   "same_title_duplicate_pairs": 1
+  },
+  "dongyuming_H-DYM-001": {
+   "manifest_ready": true,
+   "unchanged_since_r2_post": true,
+   "r2_commit": "dae8ac5e",
+   "library_rows": 0
+  }
+ },
+ "checks": {
+  "verify": {
+   "out": "docs/scratch/legacy20_r6b/verify_r6b_prep.out.txt",
+   "pass": 29,
+   "fail": 0,
+   "exit": 0
+  },
+  "gate": {
+   "evidence": "docs/scratch/legacy20_r6b/gate_evidence.txt",
+   "mode": "hard-fail",
+   "exit": 0,
+   "new_hard_failures": 0
+  }
+ },
+ "collisions_n_files": {
+  "M-WZ-": 1,
+  "M371": 10,
+  "M372": 9,
+  "M373": 10,
+  "M374": 8,
+  "M375": 8,
+  "M376": 8,
+  "M377": 8,
+  "M378": 6,
+  "M379": 6,
+  "M380": 7,
+  "M391": 28,
+  "M392": 27
+ },
+ "artifacts": [
+  {
+   "path": "docs/scratch/legacy20_r6b/README.md",
+   "bytes": 643,
+   "sha256": "8a9c73c7cad28ecd4f19895ceddbe3d1709359a2dd4f59985d5f03291faf361d"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/collision_scan.json",
+   "bytes": 15069,
+   "sha256": "d637a62f0ff5ee4997a4b55f5d6904dfeb0f7f28caa49ee9bbbf8b8c999c5e66"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/combined_library_entries.json",
+   "bytes": 12652,
+   "sha256": "e3ec2f8bc2f6e4f03c521734d08251315633f8991d7cd6813c496ac902396453"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/gate_evidence.txt",
+   "bytes": 5799,
+   "sha256": "cc5e999b17aad4489aafd5b8ebce1c16086eed2f663959d627fff4c1105c9160"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/verify_r6b_prep.out.txt",
+   "bytes": 2176,
+   "sha256": "caceba2b4630ace250ab14b34da4fc28668e7e0161b233a688d504c06e13948a"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-WZ-001/id_mapping.tsv",
+   "bytes": 1848,
+   "sha256": "a86d462ef4a8f31ee16be8a004cf5031e7f9a9d28ae36a46d958fb289059f54a"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-WZ-001/m391_archive_snapshot.json",
+   "bytes": 5941,
+   "sha256": "9d478de840feb6a940f51263d5a760dd73fc95f7e6e8a8bf3d4116165fe2457a"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-WZ-001/modes_library_entries.json",
+   "bytes": 9542,
+   "sha256": "78103abe3d069df3a16ece5028d10f5851456594ae902df498664c676ccc4887"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-WZ-001/modes_library_entries_bingtu_M-WZ-011.json",
+   "bytes": 2732,
+   "sha256": "0e4917fbaf3e8e723ce8d4dcce13df6ec7b2f1bc53ba911a2bfde97f48586c2e"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-WZ-001/relation_analysis.json",
+   "bytes": 6674,
+   "sha256": "dbf6971d285e68a09eedc6d7e60572d66896e4355ab0ac00cf9b78bfaab03b5b"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-HZX-002/archive_recommendation.json",
+   "bytes": 2555,
+   "sha256": "8cee87ae763c06f41dbbcf8852737ba7f14e13a812285e747852ceadb06e1ee7"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-HZX-002/corrected_record.json",
+   "bytes": 2932,
+   "sha256": "4dd579620c179ec33f5bcf8091a47243c9b8b0d137ee390fe4820472f0f7b780"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-HZX-002/corrections.json",
+   "bytes": 12138,
+   "sha256": "71a77c31eaffcd1b23adf69bc1b6d39a8e64056313e883b79627c7bf0adedc41"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-HZX-002/redo_checklist.json",
+   "bytes": 8010,
+   "sha256": "47846eb834edb1c269cc483cb0bb4632bfc4f95f048e3d0dc8ab35871f84beed"
+  },
+  {
+   "path": "docs/scratch/legacy20_r6b/H-DYM-001/archive_manifest.json",
+   "bytes": 4286,
+   "sha256": "b361ccee09283a67976fa4fbb20a4bf1b13d0c0003805c63a78d22ea4a930dfe"
+  },
+  {
+   "path": "docs/research/phase21r6B_prep_report.md",
+   "bytes": 11396,
+   "sha256": "02525b30dfbc3d6a0ff044ac6c062c0aa0963a518b86229f9f94354bc1731e35"
+  }
+ ],
+ "count": 16
+}

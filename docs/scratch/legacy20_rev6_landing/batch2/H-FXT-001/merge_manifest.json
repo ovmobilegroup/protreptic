@@ -1,0 +1,167 @@
+{
+ "code": "H-FXT-001",
+ "figure_name": "费孝通",
+ "legacy_ids": [
+  "M341",
+  "M342",
+  "M343",
+  "M344",
+  "M345",
+  "M346",
+  "M347",
+  "M348",
+  "M349",
+  "M350"
+ ],
+ "id_mapping": {
+  "M341": "M-FXT-001",
+  "M342": "M-FXT-002",
+  "M343": "M-FXT-003",
+  "M344": "M-FXT-004",
+  "M345": "M-FXT-005",
+  "M346": "M-FXT-006",
+  "M347": "M-FXT-007",
+  "M348": "M-FXT-008",
+  "M349": "M-FXT-009",
+  "M350": "M-FXT-010"
+ },
+ "header_decisions": [
+  {
+   "field": "(header base)",
+   "chosen": "figures",
+   "reason": "图档侧候选按必填字段最全者为准（CHB/FXT 与样例一致）"
+  },
+  {
+   "field": "unique_thinking",
+   "chosen": "figures.core_thoughts",
+   "reason": "样例口径：core_thoughts 改名 unique_thinking"
+  },
+  {
+   "field": "id",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "mode_ids",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "mode_ids_note",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "caveats",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "figure_name_en",
+   "chosen": "回填自 fig_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "figure_era",
+   "chosen": "丢弃（与既有字段同值）",
+   "alt": "fig_modes",
+   "reason": "规范性去重"
+  },
+  {
+   "field": "figure_description",
+   "chosen": "回填自 fig_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "figure_description_en",
+   "chosen": "回填自 fig_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "mode_count",
+   "chosen": "丢弃（与既有字段同值）",
+   "alt": "ind_modes",
+   "reason": "规范性去重"
+  },
+  {
+   "field": "meta",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  }
+ ],
+ "record_merge_log": [],
+ "missing_fields_per_mode": [
+  {
+   "mode": "M-FXT-001",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-002",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-003",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-004",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-005",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-006",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-007",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-008",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-009",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-FXT-010",
+   "missing": [
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  }
+ ],
+ "category_review": [],
+ "related_modes_remap": "全部块内引用已重指新号；块外/未知引用：0"
+}

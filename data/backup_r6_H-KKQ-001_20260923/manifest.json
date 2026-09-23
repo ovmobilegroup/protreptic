@@ -1,0 +1,35 @@
+{
+ "code": "H-KKQ-001",
+ "date": "20260923",
+ "card": "t_2d5112c6",
+ "note": "字节备份（落盘前原档，相对路径斜杠转下划线）",
+ "files": [
+  {
+   "source_path": "data/figures/H-KKQ-001.json",
+   "read_path": "data/backup_r6_H-KKQ-001_20260923/data_figures_H-KKQ-001.json",
+   "key": "figures",
+   "backup_path": "data/backup_r6_H-KKQ-001_20260923/data_figures_H-KKQ-001.json",
+   "sha256": "4c4189ade620c92d4b4fecb075ce5f545b6b8157c979d4efcf5c5330cf52a6bc",
+   "bytes": 2035,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/individuals/H-KKQ-001.json",
+   "read_path": "data/backup_r6_H-KKQ-001_20260923/data_individuals_H-KKQ-001.json",
+   "key": "individuals",
+   "backup_path": "data/backup_r6_H-KKQ-001_20260923/data_individuals_H-KKQ-001.json",
+   "sha256": "10286652aa6ad4abad5fa288bb4f208f2c283ea8fd440a1eddf779cd4295208e",
+   "bytes": 24763,
+   "backup_state": "preexisting_first_run"
+  },
+  {
+   "source_path": "data/individuals/H-KKQ-001_modes.json",
+   "read_path": "data/backup_r6_H-KKQ-001_20260923/data_individuals_H-KKQ-001_modes.json",
+   "key": "ind_modes",
+   "backup_path": "data/backup_r6_H-KKQ-001_20260923/data_individuals_H-KKQ-001_modes.json",
+   "sha256": "31ce43274eb98be0304a5dd21a4ded218bd7cb3b535778aa60b3afce31b48057",
+   "bytes": 20671,
+   "backup_state": "preexisting_first_run"
+  }
+ ]
+}

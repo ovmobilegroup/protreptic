@@ -76,8 +76,9 @@ EXPECT_FIGURES = 1057
 # (曾子 M-ZX-* 的 +10 已含于上批；本卡 +10 班固 M-BG-001~010 与 +10 董仲舒 M01~M10 归一回填
 # 去重口径 —— 净 +20：3008 条目的空模式码降至 10 条壳 + 10 班固入库),
 # EXPECT_BY_FIGURE 304 -> 306 (曾子/班固 各 +1 分片)。EXPECT_FIGURES unchanged.
-EXPECT_MODES = 3152
-EXPECT_BY_FIGURE = 306
+# Phase21-R6 (2026-09-23, card t_10089b19) anchor bump: 3152 -> 3252 (+100 A-group modes)
+EXPECT_MODES = 3252
+EXPECT_BY_FIGURE = 316
 
 LIMIT_INDEX_GZIP = 50 * 1024
 LIMIT_MODE_SHARD_GZIP = 200 * 1024

@@ -1,0 +1,34 @@
+/opt/data/profiles/serrano/cache/scratch/r6b/verify_r6b_prep.py:79: SyntaxWarning: invalid escape sequence '\.'
+  cmd = "grep -rl '" + code + "' /opt/data/workspace/Protreptic/data /opt/data/workspace/Protreptic/docs /opt/data/workspace/Protreptic/tools /opt/data/workspace/Protreptic/web/public /opt/data/workspace/Protreptic/site_docs 2>/dev/null | grep -v _duplicates | grep -v backup_merge | grep -v '\\.bak' | grep -v 'docs/scratch/legacy20_r6b' | grep -v 'docs/research/phase21r6B_' | grep -v 'docs/scratch/legacy20_r6c' | grep -v '\.pyc' | sed 's#/opt/data/workspace/Protreptic/##' | sort"
+PASS: A1 entries count == 10 | 10
+PASS: A2 ids M-WZ-001..010 unique | ['M-WZ-001', 'M-WZ-002', 'M-WZ-003', 'M-WZ-004', 'M-WZ-005', 'M-WZ-006', 'M-WZ-007', 'M-WZ-008', 'M-WZ-009', 'M-WZ-010']
+PASS: A3 all figure_code H-WZ-001
+PASS: A4 key whitelist (no fabricated fields)
+PASS: A5 verification all pending/method
+PASS: A6 verbatim field migration from archive
+PASS: B1 bingtu id/code M-WZ-011
+PASS: B2 bingtu related_modes == [M-WZ-001]
+PASS: B3 bingtu only transformed keys differ from library M392 | ['related_modes', 'legacy_mode_id', 'mode_code', 'id']
+PASS: C1 tsv 12 rows | 12
+PASS: C2 tsv legacy set | ['M371', 'M372', 'M373', 'M374', 'M375', 'M376', 'M377', 'M378', 'M379', 'M380', 'M391', 'M392']
+PASS: C3 tsv v6 codes match entries
+PASS: D1 library has zero M-WZ-* occupancy
+PASS: D2 M-WZ-* absent from data/tools/web/site_docs
+PASS: E1 sha256 current data/figures/H-HZX-002.json
+PASS: E1 sha256 current data/figures/H-HZX-002_modes.json
+PASS: E1 sha256 current docs/figures/phase20_wangxiang_research.md
+PASS: E2 4 hard fixes present
+PASS: E3 every hard fix has source
+PASS: E4 sourcing ledger >= 10 items | 10
+PASS: E5 verdict present
+PASS: F1 sha256 live data/figures/H-DYM-001.json
+PASS: F1 sha256 live data/individuals/H-DYM-001_modes.json
+PASS: F1 sha256 live docs/figures/H-DYM-001.md
+PASS: F2 unchanged since R2 post
+PASS: G M391 file list identical (scan vs live) | 28 vs 28
+PASS: G M392 file list identical (scan vs live) | 27 vs 27
+PASS: G M371 file list identical (scan vs live) | 10 vs 10
+PASS: H1 redo list 10 modes | 10
+
+TOTAL FAILS: 0
+ALL PASS -> exit 0

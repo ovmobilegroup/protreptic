@@ -1,0 +1,625 @@
+{
+  "schema_version": "v6",
+  "code": "H-CY-001",
+  "figure_name": "陈云",
+  "figure_code": "H-CY-001",
+  "figure_pinyin": "Chén Yún",
+  "birth_year": 1905,
+  "death_year": 1995,
+  "era": "Modern",
+  "time_period_standardized": "1905-1995",
+  "nationality": "中国",
+  "ethnicity": "汉族",
+  "school": "务实思维学派/Pragmatic Thinking School",
+  "intellectual_tradition": "实事求是/综合平衡/渐进改革",
+  "representative_works": [
+    "《陈云文选》",
+    "《陈云论经济建设》",
+    "《陈云经济思想研究》",
+    "《实事求是集》",
+    "《陈云的思维方式与实践智慧》"
+  ],
+  "historical_significance": "陈云是中国现代经济建设和改革开放的重要领导人之一，以'实事求是、稳健务实'的思维方式著称。其思想核心在于'不唯上、不唯书、只唯实，交换、比较、反复'十五字诀，强调调查研究是一切工作的基础。他提出的'摸着石头过河''计划与市场相结合''综合平衡'等理念，对中国改革开放和经济发展产生了深远影响。其务实思维方法在政策制定、经济改革、企业管理等领域具有重要指导价值。",
+  "core_thoughts": [
+    "实事求是法（不唯上、不唯书、只唯实）",
+    "调查研究先行法（没有调查就没有发言权）",
+    "交换比较反复决策法（十五字诀）",
+    "摸着石头过河渐进改革法",
+    "综合平衡经济思维法（按比例发展）",
+    "计划与市场统一思维法",
+    "重点突破与全面兼顾法（抓住关键矛盾）",
+    "稳定优先渐进变革思维法",
+    "实践检验真理思维法",
+    "量力而行稳健决策法"
+  ],
+  "famous_quote": "不唯上、不唯书、只唯实；交换、比较、反复。",
+  "influence": "陈云的务实思维方法深刻影响了中国改革开放的进程，其'摸着石头过河''综合平衡''计划与市场相结合'等思想成为中国经济转型的核心方法论。他对经济工作中'农轻重'比例的重视、对稳定与改革关系的把握，以及对调查研究方法的坚持，至今仍是政策制定和企业管理的重要指导原则。",
+  "thinking_mode_count": 10,
+  "mode_ids": [
+    "M101",
+    "M102",
+    "M103",
+    "M104",
+    "M105",
+    "M106",
+    "M107",
+    "M108",
+    "M109",
+    "M110"
+  ],
+  "modes": [
+    {
+      "id": "M101",
+      "name_zh": "实事求是法",
+      "name_en": "Seeking Truth from Facts Method",
+      "mode_code": "M101",
+      "category": "方法论",
+      "domain_zh": "决策科学/务实思维",
+      "domain_en": "Decision Science / Pragmatic Thinking",
+      "level": "核心",
+      "priority": 1,
+      "definition_zh": "一切从实际出发，不唯上、不唯书、只唯实。实事求是法要求决策者摒弃教条主义和主观臆断，以客观事实作为判断和行动的唯一依据。这是陈云思维体系的核心原则，也是毛泽东思想精髓所在。",
+      "definition_en": "Proceed from reality in all things: not deferring blindly to superiors, not blindly following texts, but only pursuing truth from facts. This method requires decision-makers to abandon dogmatism and subjectivity, using objective reality as the sole basis for judgment and action. It is the core principle of Chen Yun's thinking system.",
+      "source_chapter": "《陈云文选》",
+      "key_concepts": [
+        "实事求是",
+        "不唯上",
+        "不唯书",
+        "只唯实",
+        "客观实际"
+      ],
+      "process_zh": [
+        "全面了解实际情况，掌握第一手资料",
+        "摒弃主观臆断和教条主义思维",
+        "以客观事实为依据进行判断分析",
+        "从实际情况出发制定行动方案"
+      ],
+      "process_en": [
+        "Comprehensively understand actual conditions, obtain first-hand data",
+        "Abandon subjective assumptions and dogmatic thinking",
+        "Make judgments based on objective facts",
+        "Formulate action plans starting from actual conditions"
+      ],
+      "key_quote_zh": "不唯上、不唯书、只唯实；交换、比较、反复。",
+      "key_quote_en": "Not deferring blindly to superiors, not blindly following texts, but only pursuing truth from facts; exchange views, compare options, deliberate repeatedly.",
+      "representative_cases_zh": [
+        "改革开放初期提出'计划经济为主、市场调节为辅'的务实判断",
+        "农村改革中基于小岗村实地调查提出支持家庭联产承包责任制的政策建议"
+      ],
+      "modern_applications_zh": [
+        "经济体制改革方向判断",
+        "政策制定前的事实核查",
+        "企业战略决策中的客观分析"
+      ],
+      "modern_applications_en": [
+        "Economic system reform direction judgment",
+        "Fact verification before policy formulation",
+        "Objective analysis in corporate strategic decision-making"
+      ],
+      "related_modes": [
+        "M102",
+        "M109"
+      ]
+    },
+    {
+      "id": "M102",
+      "name_zh": "调查研究先行法",
+      "name_en": "Investigation and Research First Method",
+      "mode_code": "M102",
+      "category": "方法论",
+      "domain_zh": "调查研究/实证分析",
+      "domain_en": "Investigation and Research / Empirical Analysis",
+      "level": "核心",
+      "priority": 2,
+      "definition_zh": "没有调查就没有发言权。调查研究先行法强调在做出任何决策之前，必须通过深入实际的调查研究掌握真实情况。调查不是走马观花式的表面浏览，而是系统性地收集、整理和分析数据与事实。",
+      "definition_en": "Without investigation, there is no right to speak. This method emphasizes that before making any decision, one must thoroughly investigate actual conditions through systematic data collection, organization and analysis.",
+      "source_chapter": "《陈云论经济建设》",
+      "key_concepts": [
+        "调查研究",
+        "没有调查就没有发言权",
+        "深入实际",
+        "数据收集",
+        "事实分析"
+      ],
+      "process_zh": [
+        "明确调查目的和问题焦点",
+        "深入一线获取第一手资料",
+        "系统整理和分析调查数据",
+        "基于调查结果形成决策建议"
+      ],
+      "process_en": [
+        "Clarify investigation objectives and problem focus",
+        "Go to the frontlines to obtain first-hand data",
+        "Systematically organize and analyze investigation data",
+        "Formulate decision recommendations based on investigation results"
+      ],
+      "key_quote_zh": "不作调查没有发言权，不作研究没有决策权。",
+      "key_quote_en": "Without investigation, no right to speak; without research, no power to decide.",
+      "representative_cases_zh": [
+        "安徽小岗村实地调查后支持家庭联产承包责任制",
+        "对沿海与内地经济发展差距的多次实地调研"
+      ],
+      "modern_applications_zh": [
+        "政策制定前的实地调研",
+        "企业市场研究与用户洞察",
+        "社会问题诊断与解决方案设计"
+      ],
+      "modern_applications_en": [
+        "Field research before policy formulation",
+        "Corporate market research and user insights",
+        "Social problem diagnosis and solution design"
+      ],
+      "related_modes": [
+        "M101",
+        "M103"
+      ]
+    },
+    {
+      "id": "M103",
+      "name_zh": "交换比较反复决策法",
+      "name_en": "Exchange-Compare-Repeated Decision Method",
+      "mode_code": "M103",
+      "category": "方法论",
+      "domain_zh": "决策科学/集体智慧",
+      "domain_en": "Decision Science / Collective Wisdom",
+      "level": "核心",
+      "priority": 3,
+      "definition_zh": "'交换、比较、反复'十五字决策法。交换：充分听取各方面意见，集思广益；比较：对多种方案进行利弊分析对比；反复：经过多次论证和修正，最终形成可靠决策。这是陈云最重要的方法论贡献之一。",
+      "definition_en": "The 'exchange-compare-repeated' fifteen-character decision method. Exchange: fully soliciting opinions from all sides; Compare: analyzing pros and cons of multiple plans; Repeated: after repeated deliberation and revision, forming reliable decisions.",
+      "source_chapter": "《陈云文选》",
+      "key_concepts": [
+        "交换",
+        "比较",
+        "反复",
+        "集思广益",
+        "决策质量"
+      ],
+      "process_zh": [
+        "广泛交换意见，收集各方观点和信息",
+        "对多个方案进行系统比较分析",
+        "经过反复论证、修正和完善",
+        "在充分讨论基础上形成最终决策"
+      ],
+      "process_en": [
+        "Extensively exchange opinions, collect perspectives and information from all sides",
+        "Systematically compare and analyze multiple plans",
+        "After repeated deliberation, revision and refinement",
+        "Form final decisions based on thorough discussion"
+      ],
+      "key_quote_zh": "交换、比较、反复，这六个字是决策的基本方法。",
+      "key_quote_en": "Exchange, compare, repeated — these are the basic methods of decision-making.",
+      "representative_cases_zh": [
+        "改革开放重大决策过程中反复征求各方意见并比较多种方案",
+        "经济特区政策的制定经历了多次讨论和试点验证"
+      ],
+      "modern_applications_zh": [
+        "重大政策制定的民主决策",
+        "企业战略方案评估与选择",
+        "复杂项目多方案比选"
+      ],
+      "modern_applications_en": [
+        "Democratic decision-making in major policy formulation",
+        "Corporate strategic plan evaluation and selection",
+        "Multi-plan comparison for complex projects"
+      ],
+      "related_modes": [
+        "M102",
+        "M110"
+      ]
+    },
+    {
+      "id": "M104",
+      "name_zh": "摸着石头过河渐进改革法",
+      "name_en": "Crossing the River by Feeling Stones — Gradual Reform Method",
+      "mode_code": "M104",
+      "category": "方法论",
+      "domain_zh": "改革策略/渐进变革",
+      "domain_en": "Reform Strategy / Gradual Change",
+      "level": "核心",
+      "priority": 4,
+      "definition_zh": "在不确定性环境中采取渐进式改革策略，通过小范围试点积累经验，成功后逐步推广。摸着石头过河法承认改革的复杂性和不可预测性，主张在实践中探索前进道路，避免大起大落的剧烈变革。",
+      "definition_en": "Adopt gradual reform strategy in uncertain environments, accumulating experience through small-scale pilot programs and gradually expanding after successful results. This method acknowledges the complexity and unpredictability of reform, advocating exploration through practice rather than drastic changes.",
+      "source_chapter": "《陈云经济思想研究》",
+      "key_concepts": [
+        "渐进改革",
+        "摸着石头过河",
+        "小范围试点",
+        "经验积累",
+        "逐步推广"
+      ],
+      "process_zh": [
+        "识别需要改革的领域和难点",
+        "选择小范围进行试点探索",
+        "积累试点经验和教训",
+        "在条件成熟时逐步推广成功经验"
+      ],
+      "process_en": [
+        "Identify areas and difficulties requiring reform",
+        "Select small scope for pilot exploration",
+        "Accumulate pilot experience and lessons learned",
+        "Gradually expand successful experiences when conditions are ripe"
+      ],
+      "key_quote_zh": "摸着石头过河，就是要在探索中前进，不能一蹴而就。",
+      "key_quote_en": "Crossing the river by feeling stones means progressing through exploration, not achieving everything at once.",
+      "representative_cases_zh": [
+        "农村家庭联产承包责任制先在小岗村试点，成功后逐步推广全国",
+        "经济特区从深圳等少数城市起步，逐步扩展至沿海开放城市"
+      ],
+      "modern_applications_zh": [
+        "经济体制改革渐进推进",
+        "创新项目试点与推广",
+        "组织变革的小步快跑"
+      ],
+      "modern_applications_en": [
+        "Gradual advancement of economic system reform",
+        "Pilot and expansion of innovation projects",
+        "Small-step rapid iteration in organizational transformation"
+      ],
+      "related_modes": [
+        "M101",
+        "M108"
+      ]
+    },
+    {
+      "id": "M105",
+      "name_zh": "综合平衡经济思维法",
+      "name_en": "Comprehensive Balance Economic Thinking Method",
+      "mode_code": "M105",
+      "category": "方法论",
+      "domain_zh": "经济学/系统协调",
+      "domain_en": "Economics / System Coordination",
+      "level": "核心",
+      "priority": 5,
+      "definition_zh": "国民经济各部门、各环节之间必须保持合理的比例关系，反对片面追求某一部门的发展而忽视其他部门。综合平衡法强调按比例发展的重要性，是陈云经济思想的核心内容之一。",
+      "definition_en": "All sectors and links of the national economy must maintain reasonable proportional relationships, opposing one-sided pursuit of development in any single sector while neglecting others. Comprehensive balance emphasizes the importance of proportional development.",
+      "source_chapter": "《陈云论经济建设》",
+      "key_concepts": [
+        "综合平衡",
+        "按比例发展",
+        "农轻重比例",
+        "协调发展",
+        "反对片面性"
+      ],
+      "process_zh": [
+        "全面分析国民经济各部门的相互关系",
+        "确定农业、轻工业、重工业的合理比例",
+        "制定平衡协调的经济计划",
+        "在实施中动态调整各产业比例"
+      ],
+      "process_en": [
+        "Comprehensively analyze interrelationships among economic sectors",
+        "Determine reasonable proportions of agriculture, light industry and heavy industry",
+        "Formulate balanced and coordinated economic plans",
+        "Dynamically adjust sectoral proportions during implementation"
+      ],
+      "key_quote_zh": "经济建设必须按比例发展，农轻重要协调。",
+      "key_quote_en": "Economic development must proceed proportionally; agriculture, light industry and heavy industry must be coordinated.",
+      "representative_cases_zh": [
+        "'一五'计划中强调农轻重比例协调，反对片面追求重工业发展",
+        "改革开放初期对农业基础地位的重新确认"
+      ],
+      "modern_applications_zh": [
+        "国民经济规划与产业政策制定",
+        "企业集团多元化经营平衡",
+        "投资组合的风险分散"
+      ],
+      "modern_applications_en": [
+        "National economic planning and industrial policy formulation",
+        "Corporate diversification balance",
+        "Risk diversification in investment portfolios"
+      ],
+      "related_modes": [
+        "M106",
+        "M110"
+      ]
+    },
+    {
+      "id": "M106",
+      "name_zh": "计划与市场统一思维法",
+      "name_en": "Planned-Market Unity Thinking Method",
+      "mode_code": "M106",
+      "category": "方法论",
+      "domain_zh": "经济体制/制度创新",
+      "domain_en": "Economic System / Institutional Innovation",
+      "level": "核心",
+      "priority": 6,
+      "definition_zh": "计划经济不等于社会主义，资本主义也有计划；市场经济不等于资本主义，社会主义也有市场。计划与市场都是经济手段，可以统一运用于经济建设之中。这是陈云对社会主义经济理论的重大突破。",
+      "definition_en": "Planned economy does not equal socialism, and capitalism also has planning; market economy does not equal capitalism, and socialism also has markets. Plans and markets are both economic tools that can be unified in economic construction — a major breakthrough in Chen Yun's socialist economic theory.",
+      "source_chapter": "《陈云文选》",
+      "key_concepts": [
+        "计划市场统一",
+        "经济手段中性论",
+        "双轨制",
+        "体制创新",
+        "社会主义市场"
+      ],
+      "process_zh": [
+        "打破计划与市场的传统对立观念",
+        "理解计划和市场都是经济手段的本质",
+        "根据实际需要灵活组合运用",
+        "在实践中探索最佳结合方式"
+      ],
+      "process_en": [
+        "Break through traditional opposition concepts between planning and markets",
+        "Understand the essence that plans and markets are both economic tools",
+        "Flexibly combine and apply according to actual needs",
+        "Explore optimal integration methods through practice"
+      ],
+      "key_quote_zh": "计划经济为主，市场调节为辅。",
+      "key_quote_en": "Planned economy as the mainstay, market regulation as supplementary.",
+      "representative_cases_zh": [
+        "价格双轨制的探索：重要物资计划定价，一般商品市场调节",
+        "经济特区中计划与市场的有机结合"
+      ],
+      "modern_applications_zh": [
+        "混合经济体制设计",
+        "产业政策与市场机制协调",
+        "国企改革中的政企关系处理"
+      ],
+      "modern_applications_en": [
+        "Mixed economic system design",
+        "Coordination of industrial policy and market mechanisms",
+        "Government-enterprise relations in state-owned enterprise reform"
+      ],
+      "related_modes": [
+        "M104",
+        "M107"
+      ]
+    },
+    {
+      "id": "M107",
+      "name_zh": "重点突破与全面兼顾法",
+      "name_en": "Key Breakthrough and Comprehensive Balance Method",
+      "mode_code": "M107",
+      "category": "方法论",
+      "domain_zh": "战略管理/资源配置",
+      "domain_en": "Strategic Management / Resource Allocation",
+      "level": "核心",
+      "priority": 7,
+      "definition_zh": "在资源有限的条件下，抓住关键环节进行重点突破，同时兼顾其他部门的协调发展。重点突破与全面兼顾法体现了抓主要矛盾和统筹兼顾的辩证统一，是经济工作中最重要的战略思维方法之一。",
+      "definition_en": "Under limited resources, focus on key areas for breakthrough while balancing coordinated development across other sectors. This method embodies the dialectical unity of grasping principal contradictions and comprehensive coordination.",
+      "source_chapter": "《陈云经济思想研究》",
+      "key_concepts": [
+        "重点突破",
+        "全面兼顾",
+        "抓主要矛盾",
+        "统筹兼顾",
+        "资源优化配置"
+      ],
+      "process_zh": [
+        "识别影响全局的关键环节",
+        "集中资源进行重点突破",
+        "同时关注其他部门的协调发展",
+        "在动态平衡中实现整体最优"
+      ],
+      "process_en": [
+        "Identify key links affecting the overall situation",
+        "Concentrate resources for breakthrough in priority areas",
+        "Simultaneously attend to coordinated development of other sectors",
+        "Achieve overall optimization through dynamic balance"
+      ],
+      "key_quote_zh": "要抓住关键，兼顾全局。",
+      "key_quote_en": "Grasp the key points while considering the overall picture.",
+      "representative_cases_zh": [
+        "改革开放初期抓住农业和能源交通两个关键环节进行重点突破",
+        "经济特区建设中先集中资源发展沿海开放城市"
+      ],
+      "modern_applications_zh": [
+        "企业战略优先级排序",
+        "区域经济发展规划",
+        "创新资源分配策略"
+      ],
+      "modern_applications_en": [
+        "Corporate strategic priority ranking",
+        "Regional economic development planning",
+        "Innovation resource allocation strategy"
+      ],
+      "related_modes": [
+        "M105",
+        "M108"
+      ]
+    },
+    {
+      "id": "M108",
+      "name_zh": "稳定优先渐进变革思维法",
+      "name_en": "Stability-First Gradual Change Thinking Method",
+      "mode_code": "M108",
+      "category": "方法论",
+      "domain_zh": "宏观经济/风险管理",
+      "domain_en": "Macroeconomics / Risk Management",
+      "level": "核心",
+      "priority": 8,
+      "definition_zh": "在推进改革和发展的过程中，始终将社会稳定和经济稳定放在首位。稳定优先法认识到剧烈变革可能带来的风险和代价，主张在确保稳定的前提下稳步推进改革，避免经济过热或衰退。",
+      "definition_en": "Throughout the process of advancing reform and development, always place social stability and economic stability first. This method recognizes the risks and costs of drastic changes, advocating steady reform advancement while ensuring stability.",
+      "source_chapter": "《陈云文选》",
+      "key_concepts": [
+        "稳定优先",
+        "渐进变革",
+        "风险防控",
+        "经济过热调控",
+        "社会稳定"
+      ],
+      "process_zh": [
+        "评估改革措施可能带来的稳定风险",
+        "制定风险防范和应急预案",
+        "在确保稳定的前提下推进改革",
+        "对经济过热或衰退及时调控"
+      ],
+      "process_en": [
+        "Assess potential stability risks from reform measures",
+        "Develop risk prevention and contingency plans",
+        "Advance reforms while ensuring stability",
+        "Timely regulation of economic overheating or recession"
+      ],
+      "key_quote_zh": "慢就是快，稳就是进。",
+      "key_quote_en": "Slow is fast, stability is progress.",
+      "representative_cases_zh": [
+        "80年代中期经济过热时主张控制投资规模、压缩基本建设",
+        "多次在改革开放关键节点强调'稳定压倒一切'"
+      ],
+      "modern_applications_zh": [
+        "宏观经济风险预警与调控",
+        "金融系统稳定性管理",
+        "社会政策改革的渐进推进"
+      ],
+      "modern_applications_en": [
+        "Macroeconomic risk early warning and regulation",
+        "Financial system stability management",
+        "Gradual advancement of social policy reform"
+      ],
+      "related_modes": [
+        "M104",
+        "M110"
+      ]
+    },
+    {
+      "id": "M109",
+      "name_zh": "实践检验真理思维法",
+      "name_en": "Practice as Criterion Thinking Method",
+      "mode_code": "M109",
+      "category": "认识论",
+      "domain_zh": "实践哲学/真理标准",
+      "domain_en": "Practical Philosophy / Criterion of Truth",
+      "level": "核心",
+      "priority": 9,
+      "definition_zh": "一切理论、政策和方案都必须通过实践来检验其正确性。实践检验法强调以实际效果作为评判标准，不以权威、书本或主观愿望为依据。这是马克思主义认识论的核心观点在陈云思想中的具体体现。",
+      "definition_en": "All theories, policies and plans must be tested by practice for their correctness. This method emphasizes using actual results as the evaluation criterion, not relying on authority, texts or subjective wishes.",
+      "source_chapter": "《实事求是集》",
+      "key_concepts": [
+        "实践检验",
+        "真理标准",
+        "实际效果",
+        "实事求是",
+        "马克思主义认识论"
+      ],
+      "process_zh": [
+        "制定可检验的政策或方案",
+        "在实施过程中持续观察实际效果",
+        "用数据和事实评判政策成效",
+        "根据实践反馈及时调整修正"
+      ],
+      "process_en": [
+        "Formulate testable policies and plans",
+        "Continuously observe actual effects during implementation",
+        "Evaluate policy effectiveness using data and facts",
+        "Timely adjust and revise based on practice feedback"
+      ],
+      "key_quote_zh": "实践是检验真理的唯一标准。",
+      "key_quote_en": "Practice is the sole criterion for testing truth.",
+      "representative_cases_zh": [
+        "深圳特区的成功以实际发展数据验证了改革开放方向的正确性",
+        "乡镇企业崛起证明了农村改革的巨大潜力"
+      ],
+      "modern_applications_zh": [
+        "政策效果评估与迭代优化",
+        "企业战略方案的实践验证",
+        "创新技术的商业化测试"
+      ],
+      "modern_applications_en": [
+        "Policy effectiveness evaluation and iterative optimization",
+        "Practical verification of corporate strategic plans",
+        "Commercial testing of innovative technologies"
+      ],
+      "related_modes": [
+        "M101",
+        "M104"
+      ]
+    },
+    {
+      "id": "M110",
+      "name_zh": "量力而行稳健决策法",
+      "name_en": "Act According to Capability — Steady Decision Method",
+      "mode_code": "M110",
+      "category": "方法论",
+      "domain_zh": "财政管理/投资决策",
+      "domain_en": "Financial Management / Investment Decision",
+      "level": "核心",
+      "priority": 10,
+      "definition_zh": "在制定重大决策时，必须首先评估自身能力和资源条件，不超越实际承受能力盲目扩张。量力而行法强调在决策前进行充分的可行性分析，确保方案与资源禀赋相匹配，避免好高骛远造成的巨大损失。",
+      "definition_en": "When making major decisions, one must first assess own capabilities and resource conditions, not expand blindly beyond actual capacity. This method emphasizes thorough feasibility analysis before decisions, ensuring plans match resource endowments.",
+      "source_chapter": "《陈云经济思想研究》",
+      "key_concepts": [
+        "量力而行",
+        "稳健决策",
+        "可行性分析",
+        "资源匹配",
+        "风险意识"
+      ],
+      "process_zh": [
+        "全面评估自身资源和能力条件",
+        "进行充分的可行性分析论证",
+        "制定与资源禀赋相匹配的方案",
+        "在实施中严格控制规模和节奏"
+      ],
+      "process_en": [
+        "Comprehensively assess own resources and capabilities",
+        "Conduct thorough feasibility analysis and justification",
+        "Formulate plans matching resource endowments",
+        "Strictly control scale and pace during implementation"
+      ],
+      "key_quote_zh": "建设规模的大小必须与国力相适应。",
+      "key_quote_en": "The size of construction must be compatible with national capacity.",
+      "representative_cases_zh": [
+        "'南水北调'等重大工程先评估财政和资源条件再确定投资规模",
+        "改革开放初期严格控制基建投资规模，避免经济过热"
+      ],
+      "modern_applications_zh": [
+        "企业投资规模决策",
+        "政府基础设施建设规划",
+        "个人财务稳健管理"
+      ],
+      "modern_applications_en": [
+        "Corporate investment scale decision-making",
+        "Government infrastructure planning",
+        "Personal financial prudence management"
+      ],
+      "related_modes": [
+        "M103",
+        "M105"
+      ]
+    }
+  ],
+  "tags": [
+    "务实思维",
+    "实事求是",
+    "调查研究",
+    "综合平衡",
+    "渐进改革",
+    "计划市场统一",
+    "稳定优先",
+    "实践检验",
+    "量力而行",
+    "重点突破",
+    "交换比较反复",
+    "摸着石头过河",
+    "农轻重比例",
+    "稳健决策",
+    "问题导向"
+  ],
+  "cross_references": [
+    {
+      "target_figure_code": "H-LC-001",
+      "relation_type": "comparison",
+      "description_zh": "陆沉侧重方法论层面的深度思维技术，陈云侧重实践导向的务实决策；前者面向现代复杂系统分析，后者面向经济改革与政策制定。"
+    },
+    {
+      "target_figure_code": "H-MODERN-001",
+      "relation_type": "comparison",
+      "description_zh": "陆一波侧重系统整合与创新的理论框架，陈云侧重从实践中来的经验总结；前者重理论建构，后者重实践检验。"
+    },
+    {
+      "target_figure_code": "H-HZX-001",
+      "relation_type": "comparison",
+      "description_zh": "黄宗羲的'综合平衡'思维侧重古代经济思想，陈云的'综合平衡'面向现代经济建设的实际运作；前者是理论建构，后者是实践经验。"
+    }
+  ],
+  "meta": {
+    "source": "《陈云文选》、中共中央文献研究室编撰资料、改革开放经济政策研究",
+    "methodology": "历史文献分析法、案例验证法、实践经验总结法",
+    "validation": "与改革开放经济政策实施效果交叉验证",
+    "generation_date": "2026-09-04",
+    "mode_count": 10,
+    "figure_code_ref": "H-CY-001",
+    "phase": "Phase 20"
+  }
+}

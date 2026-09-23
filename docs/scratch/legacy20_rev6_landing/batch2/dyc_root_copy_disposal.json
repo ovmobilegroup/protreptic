@@ -1,0 +1,22 @@
+{
+ "note": "DYC data 根目录游离副本已按 R2/_duplicates 先例字节归档（未删字节），活跃面不再保留",
+ "from": "data/H-DYC-001_modes.json",
+ "to": "data/figures/_duplicates/H-DYC-001_root_modes.json",
+ "sha256": "71891767ce16e4e43831e8d3c6a0cf7eba562ad57a8e20f16c5a1f09d45be589",
+ "bytes": 29778,
+ "identical_to_figures_modes_except": [
+  {
+   "mode": "M321",
+   "field": "definition_en",
+   "figures_modes": "A systematic mobilization method centering women's liberation as the core driver of social transformation. Deng Yingchao believed that women's liberation is not a simple 'gender equality' slogan, but the organized and institutionalized aggregation of dispersed women's forces into political energy for societal change. She established the Tianjin Women's Patriots' Association, built the All-China Women's Federation for 30+ years, and promoted the Marriage Law legislation. This method emphasizes: first, women must leave homes to participate in social activities; second, women's liberation is inseparable from national and class liberation; third, legal and organizational means must guarantee women's rights. 'Women hold up half the sky' is its most condensed expression — not a metaphor, but an ontological claim about Chinese women's social status and political role.",
+   "root_copy": "A systematic mobilization method centering women's liberation as the core driver of social transformation. Deng Yingchao believed that women's liberation is not a simple 'gender equality' slogan, but the organized and institutionalized aggregation of dispersed women's forces into political energy for societal change. She established the Tianjin Women's Patriots' Association, built the All-China Women's Federation for 30+ years, and promoted the Marriage Law legislation. This method emphasizes: first, women must leave home to participate in social activities; second, women's liberation is inseparable from national and class liberation; third, legal and organizational means must protect women's rights. 'Women hold up half the sky' is its most concise expression — not a metaphor, but an ontological statement about Chinese women's social status and political role."
+  },
+  {
+   "mode": "M328",
+   "field": "definition_en",
+   "figures_modes": "A generational transmission method passing political character and moral norms through strict self-discipline, integrity and simple living family education. Deng Yingchao and Premier Zhou Enlai set an exemplary model of integrity and simplicity for CCP members. Childless, they adopted orphans of martyrs like Sun Weishi but strictly maintained 'no special treatment': no using power for children's benefit, requiring them to wear old clothes, eat coarse food and wash their own clothes. This method emphasizes: first, leaders' family tradition is not private but public — a leader's family conduct directly affects how the party and government are perceived by the people; second, integrity is not poverty but a state of mind — rejecting privilege is坚守 revolutionary original intention; third, example precedes teaching.",
+   "root_copy": "A generational transmission method passing political character and moral norms through strict self-discipline, integrity and simple living family education. Deng Yingchao and Premier Zhou Enlai set an exemplary model of integrity and simplicity for CCP members. Childless, they adopted orphans of martyrs like Sun Weishi but strictly maintained 'no special treatment': no using power for children's benefit, requiring them to wear old clothes, eat coarse food and wash their own clothes. This method emphasizes: first, leaders' family tradition is not private but public — a leader's family conduct directly affects how the party and government are perceived by the people; second, integrity is not poverty but a state of mind — rejecting privilege is upholding revolutionary original intention; third, example precedes teaching."
+  }
+ ],
+ "verdict": "内容为 figures/_modes 的近重复（仅下列英文字段差异），归档 _duplicates 位，待归并卡决定是否并入"
+}

@@ -1,0 +1,59 @@
+{
+ "schema_version": "v6",
+ "id": "H-YSK-001",
+ "code": "H-YSK-001",
+ "figure_name": "杨尚昆",
+ "figure_code": "H-YSK-001",
+ "figure_pinyin": "Yáng Shàngkūn",
+ "birth_year": 1907,
+ "death_year": 1998,
+ "era": "Modern",
+ "school": "无产阶级革命思想/毛泽东思想体系",
+ "historical_significance": "杨尚昆（1907-1998），四川潼南人，中国共产党、中华人民共和国卓越的政治工作领导人。从川东地下党创建者到中共中央办公厅主任（1988-1993），从中央书记处书记到中华人民共和国主席（1988-1993），一生致力于党的组织建设、情报工作和政治体制运行。在土地革命时期担任中共中央秘书长，长征中负责中央机关后勤与通信保障；抗日战争和解放战争期间主持陕甘宁边区工作，为中央根据地建设作出重要贡献；改革开放后担任中共中央办公厅主任、中央书记处书记等职，是中国共产党政治体制高效运转的关键组织者。",
+ "tags": [
+  "杨尚昆",
+  "中办主任",
+  "中共中央秘书长",
+  "川东地下党",
+  "长征通信保障",
+  "陕甘宁边区",
+  "中央书记处",
+  "国家主席",
+  "政治体制运行",
+  "党的组织建设",
+  "情报工作",
+  "后勤组织",
+  "重庆地下工作",
+  "北平学运",
+  "解放战争后勤"
+ ],
+ "cross_references": [
+  {
+   "target_code": "H-MZ-001",
+   "relation_type": "execution",
+   "description_zh": "杨尚昆是毛泽东政治体制建设思想的重要执行者和党的组织工作核心人物",
+   "description_en": "Yang Shangkun was an important executor of Mao Zedong's political system construction thought and a core figure in party organizational work",
+   "target_name_zh": "毛泽东"
+  }
+ ],
+ "thinking_mode_count": 10,
+ "mode_ids": [
+  "M-YSK-001",
+  "M-YSK-002",
+  "M-YSK-003",
+  "M-YSK-004",
+  "M-YSK-005",
+  "M-YSK-006",
+  "M-YSK-007",
+  "M-YSK-008",
+  "M-YSK-009",
+  "M-YSK-010"
+ ],
+ "mode_ids_note": "由旧世代编号重编：M431->M-YSK-001, M432->M-YSK-002, M433->M-YSK-003, M434->M-YSK-004, M435->M-YSK-005, M436->M-YSK-006, M437->M-YSK-007, M438->M-YSK-008, M439->M-YSK-009, M440->M-YSK-010",
+ "caveats": [
+  "v6 复刻落盘（Phase21-R6 批1）：只做字段搬迁与编号/类目归一，载荷内容未独立核验——引文与出处未独立核验，入库前须走核验流程",
+  "mode_ids 由旧世代编号重编（M431->M-YSK-001, M432->M-YSK-002, M433->M-YSK-003, M434->M-YSK-004, M435->M-YSK-005, M436->M-YSK-006, M437->M-YSK-007, M438->M-YSK-008, M439->M-YSK-009, M440->M-YSK-010）；旧号全局不唯一（跨人物重码），旧号仅保留于 legacy_mode_id 与 mode_ids_note",
+  "类目归一：7 条按映射表归一（category_raw 保留原值），3 条不在表内按原值保留并标记待核",
+  "representative_cases_zh 案例字段空缺按现状保真、未扩写；引文与 key_quote 未独立核验"
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "schema": "protreptic.r6b_wangxiang_archive/v1",
+ "card": "t_434af550",
+ "date": "2026-09-23",
+ "figure": {
+  "code": "H-HZX-002",
+  "name": "王祥"
+ },
+ "trigger": "按卡面：核心事实与引文『全量落源』不成立（见 corrections.json verdict）→ 归档（字节件入隔离位）+ 单列待重做清单",
+ "files": [
+  {
+   "path": "data/figures/H-HZX-002.json",
+   "sha256": "8c40067cb04565a6504c27f627c710cae0b4b79cf088ae897bb6e3c6eee25e1e",
+   "bytes": 1931,
+   "role": "figure 档案（含 4 硬伤与错误故事段）",
+   "target": "data/figures/_duplicates/H-HZX-002_figures.json"
+  },
+  {
+   "path": "data/figures/H-HZX-002_modes.json",
+   "sha256": "1e3e97d41f4135cbdc1a6cb4de812e8d40b3d7c86ba9f68df03d749e07f87b00",
+   "bytes": 12489,
+   "role": "modes 伴随包（M301-M310 载荷；figure_code='H' 残损）",
+   "target": "data/figures/_duplicates/H-HZX-002_figures_modes.json"
+  },
+  {
+   "path": "docs/figures/phase20_wangxiang_research.md",
+   "sha256": "8b63cda2991a5b969f3eb2d03a61df31aa9cef55d1ff55a98b245fa549a252b3",
+   "bytes": 4255,
+   "role": "旧世代自产研究件（错误源）",
+   "target": "data/figures/_duplicates/H-HZX-002_research_phase20.md"
+  }
+ ],
+ "research_md_disposition": "随件归档（不删字节，sha 登记）；不保留在 docs/figures 活跃层，避免被当作参考引用。站内历史引用（docs/qa/phase36_acceptance.md、docs/qa/phase37_x4_repo_parity.md、site_docs/architecture/* 旧快照）属历史记录，保留不动（循 R2 董宇明/商羯罗先例）。",
+ "figure_names": {
+  "current": {
+   "H-HZX-002_modes": "王祥",
+   "H-HZX-002_MODES": "王祥",
+   "H": "王祥",
+   "H-HZX-002": "王祥",
+   "东岳": "王祥"
+  },
+  "recommendation": "删除垃圾键『H』『东岳』（旧世代残留，无据）；机制键 H-HZX-002/_modes/_MODES 保留（待重做卡使用；重做不以换码为前提）。若收口倾向与 H-SJL 清档先例完全对齐（全删），需同步登记删除记录。"
+ },
+ "online_surface": {
+  "site_docs_page": "无（site_docs/figures 无 H-HZX-002 页）",
+  "search_index": "site_docs/search/search_index.json 含 1 处 H-HZX-002/1 处 M301 提及——站点重建后自然移除",
+  "web_public": "无 web/public 引用（已核）",
+  "main_library": "库内 0 条（本就未入库）"
+ },
+ "post_archive_checks": [
+  "活跃层扫描：grep H-HZX-002/M301-M310 应只剩历史报告层（docs/qa、docs/research）与归档位",
+  "figure_names 处置后扫描",
+  "站点重建链（收口/合并卡）"
+ ]
+}

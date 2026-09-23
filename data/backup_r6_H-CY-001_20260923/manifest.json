@@ -1,0 +1,30 @@
+{
+ "card": "t_4481df98",
+ "code": "H-CY-001",
+ "date": "20260923",
+ "created_at": "2026-09-23",
+ "note": "落盘前字节备份（先备份后写入）",
+ "files": [
+  {
+   "path": "data/figures/H-CY-001.json",
+   "backup": "data_figures_H-CY-001.json",
+   "sha256_before": "e283567ea5548a560a3cd6a1f69643d1528fe04bb400015ce318a471002af55c",
+   "bytes": 29040,
+   "git_head_sha256": "e283567ea5548a560a3cd6a1f69643d1528fe04bb400015ce318a471002af55c"
+  },
+  {
+   "path": "data/individuals/H-CY-001.json",
+   "backup": "data_individuals_H-CY-001.json",
+   "sha256_before": "e6d1bbd03c21fabd8d46254983fd21ff3c478bd48b5bf4cbb53f5e1609d53534",
+   "bytes": 12735,
+   "git_head_sha256": "e6d1bbd03c21fabd8d46254983fd21ff3c478bd48b5bf4cbb53f5e1609d53534"
+  },
+  {
+   "path": "data/individuals/H-CY-001_modes.json",
+   "backup": "data_individuals_H-CY-001_modes.json",
+   "sha256_before": "460572b4a6ecf47d900c2fc8cbd4a5adff40610f4351e82eba4215a45daa6f06",
+   "bytes": 23993,
+   "git_head_sha256": "460572b4a6ecf47d900c2fc8cbd4a5adff40610f4351e82eba4215a45daa6f06"
+  }
+ ]
+}

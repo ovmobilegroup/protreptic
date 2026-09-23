@@ -1,0 +1,413 @@
+{
+ "code": "H-LWH-001",
+ "figure_name": "李维汉",
+ "legacy_ids": [
+  "M341",
+  "M342",
+  "M343",
+  "M344",
+  "M345",
+  "M346",
+  "M347",
+  "M348",
+  "M349",
+  "M350"
+ ],
+ "id_mapping": {
+  "M341": "M-LWH-001",
+  "M342": "M-LWH-002",
+  "M343": "M-LWH-003",
+  "M344": "M-LWH-004",
+  "M345": "M-LWH-005",
+  "M346": "M-LWH-006",
+  "M347": "M-LWH-007",
+  "M348": "M-LWH-008",
+  "M349": "M-LWH-009",
+  "M350": "M-LWH-010"
+ },
+ "header_decisions": [
+  {
+   "field": "(header base)",
+   "chosen": "figures",
+   "reason": "图档侧候选按必填字段最全者为准（CHB/FXT 与样例一致）"
+  },
+  {
+   "field": "unique_thinking",
+   "chosen": "figures.core_thoughts",
+   "reason": "样例口径：core_thoughts 改名 unique_thinking"
+  },
+  {
+   "field": "id",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "tags",
+   "chosen": "individuals",
+   "reason": "必填缺项回填（取较长者）"
+  },
+  {
+   "field": "mode_ids",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "mode_ids_note",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "caveats",
+   "chosen": null,
+   "reason": "全源档缺项：置 null 并登记待补（本批不造内容）"
+  },
+  {
+   "field": "figure_name_en",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "birth_place",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "political_affiliation",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "key_positions",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "cross_references",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "sources",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "legacy_status",
+   "chosen": "回填自 individuals（原档自报状态字段改名保留）",
+   "reason": "落盘统一置 pending，原自报值不作当前状态"
+  },
+  {
+   "field": "legacy_status",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "created_at",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "created_by",
+   "chosen": "回填自 individuals（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  },
+  {
+   "field": "mode_count",
+   "chosen": "丢弃（与既有字段同值）",
+   "alt": "ind_modes",
+   "reason": "规范性去重"
+  },
+  {
+   "field": "meta",
+   "chosen": "回填自 ind_modes（源档独有字段，原样保留）",
+   "reason": "不删数据本体"
+  }
+ ],
+ "record_merge_log": [
+  {
+   "mode": "M341",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M341",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M342",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M342",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M343",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M343",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M344",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M344",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M345",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M345",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M346",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M346",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M347",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M347",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M348",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M348",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M349",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M349",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  },
+  {
+   "mode": "M350",
+   "field": "key_quote_zh/en, representative_cases_zh/en, modern_applications_zh/en",
+   "chosen": "null（源档即空）",
+   "reason": "按现状保真，本批不补写（标注缺项）"
+  },
+  {
+   "mode": "M350",
+   "field": "application_zh/en, modern_parallel, thinking_skill, pitfalls",
+   "chosen": "原样保留原字段名",
+   "reason": "库内已存在同名/近名字段，本批不改名"
+  }
+ ],
+ "missing_fields_per_mode": [
+  {
+   "mode": "M-LWH-001",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-002",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-003",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-004",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-005",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-006",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-007",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-008",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-009",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  },
+  {
+   "mode": "M-LWH-010",
+   "missing": [
+    "key_quote_zh",
+    "key_quote_en",
+    "representative_cases_zh",
+    "representative_cases_en",
+    "modern_applications_zh",
+    "modern_applications_en"
+   ]
+  }
+ ],
+ "category_review": [
+  {
+   "mode": "M-LWH-001",
+   "raw": "政治哲学",
+   "applied": "政治哲学"
+  },
+  {
+   "mode": "M-LWH-002",
+   "raw": "制度设计",
+   "applied": "制度设计"
+  },
+  {
+   "mode": "M-LWH-003",
+   "raw": "方法论",
+   "applied": "方法论"
+  },
+  {
+   "mode": "M-LWH-004",
+   "raw": "组织建设",
+   "applied": "组织建设"
+  },
+  {
+   "mode": "M-LWH-005",
+   "raw": "认识论",
+   "applied": "认识论"
+  },
+  {
+   "mode": "M-LWH-006",
+   "raw": "政治艺术",
+   "applied": "政治艺术"
+  },
+  {
+   "mode": "M-LWH-007",
+   "raw": "价值论",
+   "applied": "价值论"
+  },
+  {
+   "mode": "M-LWH-008",
+   "raw": "方法论",
+   "applied": "方法论"
+  },
+  {
+   "mode": "M-LWH-009",
+   "raw": "批判理论",
+   "applied": "批判理论"
+  },
+  {
+   "mode": "M-LWH-010",
+   "raw": "史学方法",
+   "applied": "史学方法"
+  }
+ ],
+ "related_modes_remap": "全部块内引用已重指新号；块外/未知引用：0"
+}

@@ -1,0 +1,800 @@
+{
+ "card": "t_4481df98",
+ "generated_at": "2026-09-23",
+ "pass": 113,
+ "fail": 0,
+ "checks": [
+  "H-CY-001 A 载荷 10 条",
+  "H-CY-001 A 编号序列 == M-CY-001..010",
+  "H-CY-001 A 编号唯一",
+  "H-CY-001 A figure_code/name",
+  "H-CY-001 A legacy_mode_id 对照",
+  "H-CY-001 A verification 全 pending",
+  "H-CY-001 A evidence 明写「引文与出处未独立核验」",
+  "H-CY-001 A 图档 caveats 含未核验声明",
+  "H-CY-001 B 三面一致（figure/pack/entries/双副本逐对象相等）",
+  "H-CY-001 B mode_ids 三处一致",
+  "H-CY-001 B 镜像不含 modes",
+  "H-CY-001 B 镜像 == 图档去 modes",
+  "H-CY-001 B 落盘副本与 data 归档字节一致",
+  "H-CY-001 C 互引 0 悬空（悬空项 []）",
+  "H-CY-001 D 备份目录与 manifest 存在",
+  "H-CY-001 D 备份哈希登记一致（异常 []）",
+  "H-CY-001 G 原档载荷可读 10 条",
+  "H-CY-001 G 搬移字段逐字段保真（差异 []）",
+  "H-CY-001 G 无表外新增字段（多余 []）",
+  "H-CY-001 H 类目归一与 category_raw 原值保留（异常 []）",
+  "H-SQL-001 A 载荷 10 条",
+  "H-SQL-001 A 编号序列 == M-SQL-001..010",
+  "H-SQL-001 A 编号唯一",
+  "H-SQL-001 A figure_code/name",
+  "H-SQL-001 A legacy_mode_id 对照",
+  "H-SQL-001 A verification 全 pending",
+  "H-SQL-001 A evidence 明写「引文与出处未独立核验」",
+  "H-SQL-001 A 图档 caveats 含未核验声明",
+  "H-SQL-001 B 三面一致（figure/pack/entries/双副本逐对象相等）",
+  "H-SQL-001 B mode_ids 三处一致",
+  "H-SQL-001 B 镜像不含 modes",
+  "H-SQL-001 B 镜像 == 图档去 modes",
+  "H-SQL-001 B 落盘副本与 data 归档字节一致",
+  "H-SQL-001 C 互引 0 悬空（悬空项 []）",
+  "H-SQL-001 D 备份目录与 manifest 存在",
+  "H-SQL-001 D 备份哈希登记一致（异常 []）",
+  "H-SQL-001 G 原档载荷可读 10 条",
+  "H-SQL-001 G 搬移字段逐字段保真（差异 []）",
+  "H-SQL-001 G 无表外新增字段（多余 []）",
+  "H-SQL-001 H 类目归一与 category_raw 原值保留（异常 []）",
+  "H-YSK-001 A 载荷 10 条",
+  "H-YSK-001 A 编号序列 == M-YSK-001..010",
+  "H-YSK-001 A 编号唯一",
+  "H-YSK-001 A figure_code/name",
+  "H-YSK-001 A legacy_mode_id 对照",
+  "H-YSK-001 A verification 全 pending",
+  "H-YSK-001 A evidence 明写「引文与出处未独立核验」",
+  "H-YSK-001 A 图档 caveats 含未核验声明",
+  "H-YSK-001 B 三面一致（figure/pack/entries/双副本逐对象相等）",
+  "H-YSK-001 B mode_ids 三处一致",
+  "H-YSK-001 B 镜像不含 modes",
+  "H-YSK-001 B 镜像 == 图档去 modes",
+  "H-YSK-001 B 落盘副本与 data 归档字节一致",
+  "H-YSK-001 C 互引 0 悬空（悬空项 []）",
+  "H-YSK-001 D 备份目录与 manifest 存在",
+  "H-YSK-001 D 备份哈希登记一致（异常 []）",
+  "H-YSK-001 G 原档载荷可读 10 条",
+  "H-YSK-001 G 搬移字段逐字段保真（差异 []）",
+  "H-YSK-001 G 无表外新增字段（多余 []）",
+  "H-YSK-001 H 类目归一与 category_raw 原值保留（异常 []）",
+  "H-YSK-001 I 缺档案（individuals）已建立镜像",
+  "H-YSK-001 I 备份 manifest 记录落盘前缺档",
+  "H-WL-001 A 载荷 10 条",
+  "H-WL-001 A 编号序列 == M-WL-001..010",
+  "H-WL-001 A 编号唯一",
+  "H-WL-001 A figure_code/name",
+  "H-WL-001 A legacy_mode_id 对照",
+  "H-WL-001 A verification 全 pending",
+  "H-WL-001 A evidence 明写「引文与出处未独立核验」",
+  "H-WL-001 A 图档 caveats 含未核验声明",
+  "H-WL-001 B 三面一致（figure/pack/entries/双副本逐对象相等）",
+  "H-WL-001 B mode_ids 三处一致",
+  "H-WL-001 B 镜像不含 modes",
+  "H-WL-001 B 镜像 == 图档去 modes",
+  "H-WL-001 B 落盘副本与 data 归档字节一致",
+  "H-WL-001 C 互引 0 悬空（悬空项 []）",
+  "H-WL-001 D 备份目录与 manifest 存在",
+  "H-WL-001 D 备份哈希登记一致（异常 []）",
+  "H-WL-001 G 原档载荷可读 10 条",
+  "H-WL-001 G 搬移字段逐字段保真（差异 []）",
+  "H-WL-001 G 无表外新增字段（多余 []）",
+  "H-WL-001 H 类目归一与 category_raw 原值保留（异常 []）",
+  "H-WL-001 I 引文原文保真未改",
+  "H-WL-001 I 引文勘误标注存在",
+  "H-WL-001 I evidence 记录勘误",
+  "H-JX-001 A 载荷 10 条",
+  "H-JX-001 A 编号序列 == M-JX-001..010",
+  "H-JX-001 A 编号唯一",
+  "H-JX-001 A figure_code/name",
+  "H-JX-001 A legacy_mode_id 对照",
+  "H-JX-001 A verification 全 pending",
+  "H-JX-001 A evidence 明写「引文与出处未独立核验」",
+  "H-JX-001 A 图档 caveats 含未核验声明",
+  "H-JX-001 B 三面一致（figure/pack/entries/双副本逐对象相等）",
+  "H-JX-001 B mode_ids 三处一致",
+  "H-JX-001 B 镜像不含 modes",
+  "H-JX-001 B 镜像 == 图档去 modes",
+  "H-JX-001 B 落盘副本与 data 归档字节一致",
+  "H-JX-001 C 互引 0 悬空（悬空项 []）",
+  "H-JX-001 D 备份目录与 manifest 存在",
+  "H-JX-001 D 备份哈希登记一致（异常 []）",
+  "H-JX-001 G 原档载荷可读 10 条",
+  "H-JX-001 G 搬移字段逐字段保真（差异 []）",
+  "H-JX-001 G 无表外新增字段（多余 []）",
+  "H-JX-001 H 类目归一与 category_raw 原值保留（异常 []）",
+  "H-JX-001 I figure_code 字段修复（旧值 Modern）",
+  "H-JX-001 I caveats 记录字段修复",
+  "E 全库 0 主体占用：50 新码作为模式编号仅本卡路径（异常 []）",
+  "E 50 个新码唯一",
+  "F 主库零主体写入（异常 {}）",
+  "J 门禁 credibility_gate --hard-fail exit 0",
+  "J 新增硬失败 0 条",
+  "J 数据集硬失败 0 条"
+ ],
+ "failures": [],
+ "info": [
+  "H-CY-001 C 互引条数 20（全部块内）",
+  "H-CY-001 D HEAD 归因：提交后 HEAD 等于落盘后字节、备份仍为旧档字节的路径 ['data/figures/H-CY-001.json', 'data/individuals/H-CY-001.json', 'data/individuals/H-CY-001_modes.json']",
+  "H-CY-001 PASS 累计 20",
+  "H-SQL-001 C 互引条数 24（全部块内）",
+  "H-SQL-001 D HEAD 归因：提交后 HEAD 等于落盘后字节、备份仍为旧档字节的路径 ['data/figures/H-CY-001.json', 'data/individuals/H-CY-001.json', 'data/individuals/H-CY-001_modes.json', 'data/figures/H-SQL-001.json', 'data/individuals/H-SQL-001.json', 'data/individuals/H-SQL-001_modes.json']",
+  "H-SQL-001 PASS 累计 40",
+  "H-YSK-001 C 互引条数 21（全部块内）",
+  "H-YSK-001 D HEAD 归因：提交后 HEAD 等于落盘后字节、备份仍为旧档字节的路径 ['data/figures/H-CY-001.json', 'data/individuals/H-CY-001.json', 'data/individuals/H-CY-001_modes.json', 'data/figures/H-SQL-001.json', 'data/individuals/H-SQL-001.json', 'data/individuals/H-SQL-001_modes.json', 'data/figures/H-YSK-001.json', 'data/individuals/H-YSK-001_modes.json']",
+  "H-YSK-001 PASS 累计 62",
+  "H-WL-001 C 互引条数 20（全部块内）",
+  "H-WL-001 D HEAD 归因：提交后 HEAD 等于落盘后字节、备份仍为旧档字节的路径 ['data/figures/H-CY-001.json', 'data/individuals/H-CY-001.json', 'data/individuals/H-CY-001_modes.json', 'data/figures/H-SQL-001.json', 'data/individuals/H-SQL-001.json', 'data/individuals/H-SQL-001_modes.json', 'data/figures/H-YSK-001.json', 'data/individuals/H-YSK-001_modes.json', 'data/figures/H-WL-001.json', 'data/individuals/H-WL-001.json', 'data/individuals/H-WL-001_modes.json']",
+  "H-WL-001 PASS 累计 85",
+  "H-JX-001 C 互引条数 21（全部块内）",
+  "H-JX-001 D HEAD 归因：提交后 HEAD 等于落盘后字节、备份仍为旧档字节的路径 ['data/figures/H-CY-001.json', 'data/individuals/H-CY-001.json', 'data/individuals/H-CY-001_modes.json', 'data/figures/H-SQL-001.json', 'data/individuals/H-SQL-001.json', 'data/individuals/H-SQL-001_modes.json', 'data/figures/H-YSK-001.json', 'data/individuals/H-YSK-001_modes.json', 'data/figures/H-WL-001.json', 'data/individuals/H-WL-001.json', 'data/individuals/H-WL-001_modes.json', 'data/figures/H-JX-001.json', 'data/individuals/H-JX-001.json', 'data/individuals/H-JX-001_modes.json']",
+  "H-JX-001 PASS 累计 107",
+  "E 历史备份目录命中（不计入活库）: {\"data/backup_merge_H-HRD-001_20260912_070855/modes_data.json\": [\"M-SQL-001\"], \"data/backup_merge_H-HRD-001_20260912_070855/code_maps.json\": [\"M-SQL-001\"], \"data/backup_merge_H-HRD-001_20260912_070903/modes_data.json\": [\"M-SQL-001\"], \"data/backup_merge_H-HRD-001_20260912_070903/code_maps.json\": [\"M-SQL-001\"], \"data/backup_merge_H-CHE-001_20260922_122743/modes_data.json\": [\"M-SQL-001\"], \"data/backup_merge_H-CHE-001_20260922_122743/code_maps.json\": [\"M-SQL-001\"], \"data/backup_merge_H-ZDY-001_20260922_131851/modes_data.json\": [\"M-SQL-001\"], \"data/backup_merge_H-ZDY-001_20260922_131851/code_maps.json\": [\"M-SQL-001\"], \"data/backup_merge_H-ZDY-001_20260922_132324/modes_data.json\": [\"M-SQL-001\"], \"data/backup_merge_H-ZDY-001_20260922_132324/code_maps.json\": [\"M-SQL-001\"], \"data/backup_merge_H-ZDY-001_20260922_132519/modes_data.json\": [\"M-SQL-001\"], \"data/backup_merge_H-ZDY-001_20260922_132519/code_maps.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/modes_data.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/code_maps.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/20260912_045312/modes_data.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/20260912_045312/code_maps.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/20260912_045336/modes_data.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/20260912_045336/code_maps.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/20260912_045423/modes_data.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/20260912_045423/code_maps.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/20260912_045614/modes_data.json\": [\"M-SQL-001\"], \"backups_merge_H-LQC-001/20260912_045614/code_maps.json\": [\"M-SQL-001\"]}",
+  "E 活库既有预期引用（他卡已写、合并后解析）: {\"data/code_maps.json\": {\"M-SQL-001\": [\"/figures/H-MAN-001/cross_references[2]/mode_pair[1]\", \"/figures/H-KEY-001/cross_references[1]/description_zh\", \"/figures/H-KEY-001/cross_references[1]/mode_pair[1]\"]}, \"data/modes_data.json\": {\"M-SQL-001\": [\"/H-MAN-001/cross_references[2]/mode_pair[1]\"]}, \"data/individuals/H-SK-001_modes.json\": {\"M-WL-001\": [\"/modes[8]/related_modes[2]\"]}, \"data/individuals/H-MAN-001.json\": {\"M-SQL-001\": [\"/cross_references[2]/mode_pair[1]\"]}, \"data/individuals/H-KEY-001.json\": {\"M-SQL-001\": [\"/cross_references[1]/description_zh\", \"/cross_references[1]/mode_pair[1]\"]}, \"data/figures/H-SK-001_modes.json\": {\"M-WL-001\": [\"/modes[8]/related_modes[2]\"]}, \"data/figures/H-MAN-001.json\": {\"M-SQL-001\": [\"/cross_references[2]/mode_pair[1]\"]}, \"data/figures/H-KEY-001.json\": {\"M-SQL-001\": [\"/cross_references[1]/description_zh\", \"/cross_references[1]/mode_pair[1]\"]}, \"site_docs/search/search_index.json\": {\"M-SQL-001\": [\"/docs[5510]/text\"]}}",
+  "F 主库 HEAD 对比（并发他卡改动不计入本卡）: {\"data/modes_data.json\": true, \"data/code_maps.json\": true, \"data/scenarios_zh.json\": true, \"data/scenarios_en.json\": true, \"data/scenario_tags.json\": true, \"data/figure_names.json\": true}",
+  "E/G 旧号在活库其他文件的占用（重码面）: {\"H-JX-001\": {\"check_mode_ids.py\": 2, \"fix_wc_ids2.py\": 2, \"_fix_lz.py\": 10, \"_fix_lz_remaining.py\": 6, \"qa_wym_v2.py\": 1, \"qa_wym_final.py\": 1, \"qa_wym_clean.py\": 1, \"check_current.py\": 1, \"docs/research/legacy20_rev6_assessment.md\": 2, \"docs/terminology/phase3_terminology.md\": 10, \"docs/figures/H-LZ-001.md\": 10, \"docs/figures/H-AN-001.md\": 10, \"docs/figures/H-MODERN-003.md\": 2, \"docs/figures/H-MODERN-001.md\": 10, \"data/code_maps.json\": 10, \"data/individuals/phase20_anzi_research.md\": 10, \"data/individuals/phase20_wangfuzhi_research.md\": 10, \"site_docs/search/search_index.json\": 10}, \"H-YSK-001\": {\"validate_ysk.py\": 2, \"tools/PHASE_17_4_9_STANDARDIZED_TASKS.md\": 10}, \"H-SQL-001\": {\"qa_zxc_collision.py\": 1, \"verify_zhangxuecheng_phase20.py\": 1, \"verify_zxc_merge_indep.py\": 4, \"zxc_merge_recheck_report.md\": 5, \"verify_zxc_qa_espinosa.py\": 1, \"build_zhangxuecheng_archive.py\": 1, \"verify_zxc_archive.py\": 1, \"docs/research/phase20_zhangxuecheng_merge_report.md\": 1, \"docs/research/phase20_zhangxuecheng_qa_report.md\": 1, \"docs/research/phase20_zhangxuecheng_archive_report.md\": 1, \"docs/figures/H-ZXC-001.md\": 8, \"docs/figures/H-SQR-001.md\": 1, \"docs/figures/H-QGH-001.md\": 10, \"docs/figures/H-SQL-001.md\": 10, \"tools/PHASE_18_20_GLOBAL_DEEP_EXCAVATION_PLAN.md\": 1, \"data/code_maps.json\": 10, \"data/modes_data.json\": 10, \"data/individuals/phase20_zhangxuecheng_research.md\": 10, \".mkdocsvenv/lib/python3.13/site-packages/dateutil/rrule.py\": 2, \"site_docs/search/search_index.json\": 10}, \"H-CY-001\": {\"docs/research/legacy20_rev6_assessment.md\": 1, \"docs/terminology/phase3_terminology.md\": 10, \"docs/figures/H-CY-001.md\": 10, \"data/code_maps.json\": 10, \".ogvenv/lib/python3.13/site-packages/_virtualenv.py\": 1, \".mkdocsvenv/lib/python3.13/site-packages/_virtualenv.py\": 1, \"site_docs/search/search_index.json\": 10}, \"H-WL-001\": {\"docs/research/legacy20_rev6_assessment.md\": 1, \"docs/figures/KZ-ZG-001.md\": 1, \"docs/figures/H-KZ-001.md\": 1, \"docs/figures/H-LWH-001.md\": 1, \"docs/figures/H-WL"
+ ],
+ "global": {
+  "owner_hits_outside": {},
+  "preexisting_references": {
+   "data/code_maps.json": {
+    "M-SQL-001": [
+     "/figures/H-MAN-001/cross_references[2]/mode_pair[1]",
+     "/figures/H-KEY-001/cross_references[1]/description_zh",
+     "/figures/H-KEY-001/cross_references[1]/mode_pair[1]"
+    ]
+   },
+   "data/modes_data.json": {
+    "M-SQL-001": [
+     "/H-MAN-001/cross_references[2]/mode_pair[1]"
+    ]
+   },
+   "data/individuals/H-SK-001_modes.json": {
+    "M-WL-001": [
+     "/modes[8]/related_modes[2]"
+    ]
+   },
+   "data/individuals/H-MAN-001.json": {
+    "M-SQL-001": [
+     "/cross_references[2]/mode_pair[1]"
+    ]
+   },
+   "data/individuals/H-KEY-001.json": {
+    "M-SQL-001": [
+     "/cross_references[1]/description_zh",
+     "/cross_references[1]/mode_pair[1]"
+    ]
+   },
+   "data/figures/H-SK-001_modes.json": {
+    "M-WL-001": [
+     "/modes[8]/related_modes[2]"
+    ]
+   },
+   "data/figures/H-MAN-001.json": {
+    "M-SQL-001": [
+     "/cross_references[2]/mode_pair[1]"
+    ]
+   },
+   "data/figures/H-KEY-001.json": {
+    "M-SQL-001": [
+     "/cross_references[1]/description_zh",
+     "/cross_references[1]/mode_pair[1]"
+    ]
+   },
+   "site_docs/search/search_index.json": {
+    "M-SQL-001": [
+     "/docs[5510]/text"
+    ]
+   }
+  },
+  "historical_backup_hits": {
+   "data/backup_merge_H-HRD-001_20260912_070855/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-HRD-001_20260912_070855/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-HRD-001_20260912_070903/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-HRD-001_20260912_070903/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-CHE-001_20260922_122743/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-CHE-001_20260922_122743/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-ZDY-001_20260922_131851/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-ZDY-001_20260922_131851/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-ZDY-001_20260922_132324/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-ZDY-001_20260922_132324/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-ZDY-001_20260922_132519/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "data/backup_merge_H-ZDY-001_20260922_132519/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/20260912_045312/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/20260912_045312/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/20260912_045336/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/20260912_045336/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/20260912_045423/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/20260912_045423/code_maps.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/20260912_045614/modes_data.json": [
+    "M-SQL-001"
+   ],
+   "backups_merge_H-LQC-001/20260912_045614/code_maps.json": [
+    "M-SQL-001"
+   ]
+  },
+  "main_library_reference_hits": {
+   "data/code_maps.json": {
+    "M-SQL-001": [
+     "/figures/H-MAN-001/cross_references[2]/mode_pair[1]",
+     "/figures/H-KEY-001/cross_references[1]/description_zh",
+     "/figures/H-KEY-001/cross_references[1]/mode_pair[1]"
+    ]
+   },
+   "data/modes_data.json": {
+    "M-SQL-001": [
+     "/H-MAN-001/cross_references[2]/mode_pair[1]"
+    ]
+   }
+  },
+  "main_library_status": {
+   "data/modes_data.json": {
+    "worktree_sha256": "2aef1275b05fe15b4bfafc2e894c3db2e9942aed2457e18e54109f14fcd53c5f",
+    "head_sha256": "2aef1275b05fe15b4bfafc2e894c3db2e9942aed2457e18e54109f14fcd53c5f",
+    "same_as_head": true
+   },
+   "data/code_maps.json": {
+    "worktree_sha256": "b723cbb245438fdd065d2dc5de60aa7ec775325768a898825097424af769ba34",
+    "head_sha256": "b723cbb245438fdd065d2dc5de60aa7ec775325768a898825097424af769ba34",
+    "same_as_head": true
+   },
+   "data/scenarios_zh.json": {
+    "worktree_sha256": "5055aa83d70630b522ad8d1ed053bf0e0f7ac42472cf304dad7ccbe13caea8d6",
+    "head_sha256": "5055aa83d70630b522ad8d1ed053bf0e0f7ac42472cf304dad7ccbe13caea8d6",
+    "same_as_head": true
+   },
+   "data/scenarios_en.json": {
+    "worktree_sha256": "ab0ca1bb95bde91f633c8d2086b4393778a4fe7cd3f1164f43fc5a40ffa0a170",
+    "head_sha256": "ab0ca1bb95bde91f633c8d2086b4393778a4fe7cd3f1164f43fc5a40ffa0a170",
+    "same_as_head": true
+   },
+   "data/scenario_tags.json": {
+    "worktree_sha256": "5d36fae364674a96a8bb56e39dd7c5e7daaa8d335935202c0fbc4098ad66530d",
+    "head_sha256": "5d36fae364674a96a8bb56e39dd7c5e7daaa8d335935202c0fbc4098ad66530d",
+    "same_as_head": true
+   },
+   "data/figure_names.json": {
+    "worktree_sha256": "417e3b2821623ffacc7dee3d4dfe7d9725c87d78b8c71ecabee28301eeb2fcb4",
+    "head_sha256": "417e3b2821623ffacc7dee3d4dfe7d9725c87d78b8c71ecabee28301eeb2fcb4",
+    "same_as_head": true
+   }
+  },
+  "legacy_reuse": {
+   "H-JX-001": {
+    "check_mode_ids.py": [
+     "M001",
+     "M002"
+    ],
+    "fix_wc_ids2.py": [
+     "M001",
+     "M010"
+    ],
+    "_fix_lz.py": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ],
+    "_fix_lz_remaining.py": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M007",
+     "M010"
+    ],
+    "qa_wym_v2.py": [
+     "M001"
+    ],
+    "qa_wym_final.py": [
+     "M001"
+    ],
+    "qa_wym_clean.py": [
+     "M001"
+    ],
+    "check_current.py": [
+     "M001"
+    ],
+    "docs/research/legacy20_rev6_assessment.md": [
+     "M001",
+     "M010"
+    ],
+    "docs/terminology/phase3_terminology.md": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ],
+    "docs/figures/H-LZ-001.md": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ],
+    "docs/figures/H-AN-001.md": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ],
+    "docs/figures/H-MODERN-003.md": [
+     "M005",
+     "M008"
+    ],
+    "docs/figures/H-MODERN-001.md": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ],
+    "data/code_maps.json": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ],
+    "data/individuals/phase20_anzi_research.md": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ],
+    "data/individuals/phase20_wangfuzhi_research.md": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ],
+    "site_docs/search/search_index.json": [
+     "M001",
+     "M002",
+     "M003",
+     "M004",
+     "M005",
+     "M006",
+     "M007",
+     "M008",
+     "M009",
+     "M010"
+    ]
+   },
+   "H-YSK-001": {
+    "validate_ysk.py": [
+     "M431",
+     "M440"
+    ],
+    "tools/PHASE_17_4_9_STANDARDIZED_TASKS.md": [
+     "M431",
+     "M432",
+     "M433",
+     "M434",
+     "M435",
+     "M436",
+     "M437",
+     "M438",
+     "M439",
+     "M440"
+    ]
+   },
+   "H-SQL-001": {
+    "qa_zxc_collision.py": [
+     "M368"
+    ],
+    "verify_zhangxuecheng_phase20.py": [
+     "M368"
+    ],
+    "verify_zxc_merge_indep.py": [
+     "M362",
+     "M364",
+     "M365",
+     "M368"
+    ],
+    "zxc_merge_recheck_report.md": [
+     "M362",
+     "M364",
+     "M365",
+     "M367",
+     "M368"
+    ],
+    "verify_zxc_qa_espinosa.py": [
+     "M368"
+    ],
+    "build_zhangxuecheng_archive.py": [
+     "M368"
+    ],
+    "verify_zxc_archive.py": [
+     "M368"
+    ],
+    "docs/research/phase20_zhangxuecheng_merge_report.md": [
+     "M368"
+    ],
+    "docs/research/phase20_zhangxuecheng_qa_report.md": [
+     "M368"
+    ],
+    "docs/research/phase20_zhangxuecheng_archive_report.md": [
+     "M368"
+    ],
+    "docs/figures/H-ZXC-001.md": [
+     "M361",
+     "M362",
+     "M363",
+     "M364",
+     "M365",
+     "M366",
+     "M367",
+     "M368"
+    ],
+    "docs/figures/H-SQR-001.md": [
+     "M368"
+    ],
+    "docs/figures/H-QGH-001.md": [
+     "M361",
+     "M362",
+     "M363",
+     "M364",
+     "M365",
+     "M366",
+     "M367",
+     "M368",
+     "M369",
+     "M370"
+    ],
+    "docs/figures/H-SQL-001.md": [
+     "M361",
+     "M362",
+     "M363",
+     "M364",
+     "M365",
+     "M366",
+     "M367",
+     "M368",
+     "M369",
+     "M370"
+    ],
+    "tools/PHASE_18_20_GLOBAL_DEEP_EXCAVATION_PLAN.md": [
+     "M362"
+    ],
+    "data/code_maps.json": [
+     "M361",
+     "M362",
+     "M363",
+     "M364",
+     "M365",
+     "M366",
+     "M367",
+     "M368",
+     "M369",
+     "M370"
+    ],
+    "data/modes_data.json": [
+     "M361",
+     "M362",
+     "M363",
+     "M364",
+     "M365",
+     "M366",
+     "M367",
+     "M368",
+     "M369",
+     "M370"
+    ],
+    "data/individuals/phase20_zhangxuecheng_research.md": [
+     "M361",
+     "M362",
+     "M363",
+     "M364",
+     "M365",
+     "M366",
+     "M367",
+     "M368",
+     "M369",
+     "M370"
+    ],
+    ".mkdocsvenv/lib/python3.13/site-packages/dateutil/rrule.py": [
+     "M365",
+     "M366"
+    ],
+    "site_docs/search/search_index.json": [
+     "M361",
+     "M362",
+     "M363",
+     "M364",
+     "M365",
+     "M366",
+     "M367",
+     "M368",
+     "M369",
+     "M370"
+    ]
+   },
+   "H-CY-001": {
+    "docs/research/legacy20_rev6_assessment.md": [
+     "M101"
+    ],
+    "docs/terminology/phase3_terminology.md": [
+     "M101",
+     "M102",
+     "M103",
+     "M104",
+     "M105",
+     "M106",
+     "M107",
+     "M108",
+     "M109",
+     "M110"
+    ],
+    "docs/figures/H-CY-001.md": [
+     "M101",
+     "M102",
+     "M103",
+     "M104",
+     "M105",
+     "M106",
+     "M107",
+     "M108",
+     "M109",
+     "M110"
+    ],
+    "data/code_maps.json": [
+     "M101",
+     "M102",
+     "M103",
+     "M104",
+     "M105",
+     "M106",
+     "M107",
+     "M108",
+     "M109",
+     "M110"
+    ],
+    ".ogvenv/lib/python3.13/site-packages/_virtualenv.py": [
+     "M105"
+    ],
+    ".mkdocsvenv/lib/python3.13/site-packages/_virtualenv.py": [
+     "M105"
+    ],
+    "site_docs/search/search_index.json": [
+     "M101",
+     "M102",
+     "M103",
+     "M104",
+     "M105",
+     "M106",
+     "M107",
+     "M108",
+     "M109",
+     "M110"
+    ]
+   },
+   "H-WL-001": {
+    "docs/research/legacy20_rev6_assessment.md": [
+     "M274"
+    ],
+    "docs/figures/KZ-ZG-001.md": [
+     "M278"
+    ],
+    "docs/figures/H-KZ-001.md": [
+     "M278"
+    ],
+    "docs/figures/H-LWH-001.md": [
+     "M278"
+    ],
+    "docs/figures/H-WL-001.md": [
+     "M274",
+     "M275",
+     "M276",
+     "M277",
+     "M278",
+     "M279",
+     "M280",
+     "M281",
+     "M282",
+     "M283"
+    ],
+    "tools/batch_plan_v4.md": [
+     "M274",
+     "M275",
+     "M276",
+     "M277",
+     "M278",
+     "M279",
+     "M280",
+     "M281",
+     "M282",
+     "M283"
+    ],
+    "tools/scenarios_v6.md": [
+     "M274",
+     "M275",
+     "M276",
+     "M277",
+     "M278",
+     "M279",
+     "M280",
+     "M281",
+     "M282",
+     "M283"
+    ],
+    "tools/fix_phase13_16.py": [
+     "M281",
+     "M282"
+    ],
+    "tools/phase_9_12_batch_plan_v3.md": [
+     "M274",
+     "M275"
+    ],
+    "tools/PHASE_13_16_GLOBAL_COMPLETION_PLAN.md": [
+     "M274",
+     "M275",
+     "M276",
+     "M277",
+     "M278",
+     "M279",
+     "M280",
+     "M281",
+     "M282",
+     "M283"
+    ],
+    "tools/international_schema_v6.md": [
+     "M276",
+     "M277",
+     "M278",
+     "M279",
+     "M280",
+     "M281",
+     "M282",
+     "M283"
+    ],
+    "tools/structural_change_guide_v6.md": [
+     "M274",
+     "M277",
+     "M278"
+    ],
+    "tools/PHASE_18_20_GLOBAL_DEEP_EXCAVATION_PLAN.md": [
+     "M282"
+    ],
+    "data/code_maps.json": [
+     "M274",
+     "M275",
+     "M276",
+     "M277",
+     "M278",
+     "M279",
+     "M280",
+     "M281",
+     "M282",
+     "M283"
+    ],
+    "data/modes_data.json": [
+     "M274",
+     "M275",
+     "M276",
+     "M277",
+     "M278",
+     "M279",
+     "M280",
+     "M281",
+     "M282",
+     "M283"
+    ],
+    "site_docs/search/search_index.json": [
+     "M274",
+     "M275",
+     "M276",
+     "M277",
+     "M278",
+     "M279",
+     "M280",
+     "M281",
+     "M282",
+     "M283"
+    ]
+   }
+  },
+  "gate_exit": 0,
+  "gate_tail": [
+   "  tokens=0 的成因拆分（禁止把「无生卒年」读成「已覆盖 / 零缺陷」）:",
+   "    no-four-digit-year-in-text                                  39",
+   "  不可判定（逐类计数，禁止当成「零缺陷」）:",
+   "  D5 命中: 0 条（本次全库扫描无「通过全部过滤」的矛盾）",
+   "  说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。",
+   "  取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en"
+  ]
+ }
+}
