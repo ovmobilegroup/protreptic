@@ -271,3 +271,35 @@ push rc=0
 
 ---
 *本报告由 t_6acd458b（elcano）生成，2026-09-24 02:5x CST；补记见文末。*
+## 收口回执补记（2026-09-24 02:5x CST，二批；两仓同批更新，逐字节一致）
+
+- 工作仓提交（本批）：`31dbb5eb`「报告补全 + .json 修正」（2 files，317 insertions；报告 md 22,259 B；.json 修正 publish_sha=35061ce…）；本补记随二批提交入库。
+- 发布仓提交（本批）：`b4155f5`「报告补全镜像（对齐工作仓 31dbb5eb）」；push 原文 `35061ce..b4155f5  main -> main`（rc=0）；ls-remote 复核 `b4155f576b56e5a2fd0806fe57d452a2a41ffa2a  refs/heads/main` == 本地 HEAD。
+- 最终 parity（报告件镜像后，02:48）：exit 1／**8 处** = CONTENT_DIFF **0** ＋ MISSING_IN_PUBLISH 8（全为他链/在途：W4/W6 报告 6 件 = 1de660cf；验收卡 t_ff294775 在途 clear_qa.{md,json} 2 件）；`[stats] 两仓都有 2268 条（其中逐字节一致 2268）｜仅单侧 8 条（仅工作仓 8 · 仅发布仓 0）`；**本卡相关路径差异 0**。
+- 最终见证器（全量口径，02:48）：**18/18 PASS（exit 0）** —— 含 `scan.publish.live_zero :: live=0`、`parity.key_files :: mismatch=[]`（18 项逐条见附录 C）。
+- 公开面复测（旧代次仍在服务，Pages CI 重建中）：02:44:42／02:46:19／02:48:46／02:52:20 复测四次，`/figures/H-AZJ-345/` 均 HTTP 200、分片 `/data/figures/H-AZJ-345.json` 200、`/sitemap.xml` 与 `/data/figures.index.json` 各含 1 处 AZJ —— 与 push 时点对照均在部署延迟内。按卡面口径：持续 200 超过 30 分钟（03:13 后仍 200）需标红升级；本卡收口时点的最终复测记录见卡面 comment 回执（scratch/curl_*.txt 留档）。
+- 遗留交船长裁定（3 项）：① `data/semantic_index_metadata.pkl`（两仓同像，含 AZJ）与 `api/data/semantic_index_metadata.pkl`（仅工作仓）—— 属见证器 allowed 类目豁免；清除需重新生成语义索引＝新数据内容，本卡未动；② R7 同源镜像滞后 4 件（`tools/json/main_data.json`、`tools/json/modes_data.json`、`tools/json/, print(`、`tools/json/.json`；无 AZJ 字面量、不阻塞）；③ `tools/json/code_maps.json` 移除为跨链补做（零内容损失，如需由 R7 链自理可单文件 revert）。
+
+## 附录 C：最终见证器 18/18 全项清单（02:48，原文）
+
+```
+[PASS] scan.workspace.live_zero :: live hit files=0
+[PASS] scan.site_docs.only_nav_or_reports :: nav-only=434 bad=[]
+[PASS] scan.docs_site.zero :: []
+[PASS] scan.products.zero :: []
+[PASS] scan.products.azj_shard_absent
+[PASS] counts.db :: figures=1056 azj_rows=0
+[PASS] counts.aligned(db==meta==index) :: db=1056 meta=1056 index=1056
+[PASS] counts.anchors :: 1056/1056
+[PASS] counts.sitemap :: min=1388 urls=1388 routes=1387
+[PASS] counts.unified :: items=1371 counts={'total': 1371, 'figures': 318, 'scenarios': 1053, 'with_modes': 1335}
+[PASS] archive.byte_archives_sha
+[PASS] archive.backup_manifest_sha
+[PASS] archive.fragments_cover_12 :: fragments=12
+[PASS] registry.zero_12 :: []
+[PASS] registry.zh_en_parity :: zh=1069 en=1069
+[PASS] reverse.others_intact :: {"H-HZX-002": true, "H-LUORQ-001": true, "H-BYB-342.scenario": true, "H-TJY-344.scenario": true, "H-CY-346.scenario": true, "registry.no_azj": true}
+[PASS] scan.publish.live_zero :: live=0
+[PASS] parity.key_files :: mismatch=[]
+=== 18/18 PASS ===
+```
