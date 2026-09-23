@@ -72,12 +72,19 @@ A1 交接要求「C-HZX-001~010 已被 H-HZX-001(黄宗羲)占用, 须另定前�
 
 ## 8. 两仓 parity / 镜像 / push
 
-- 工作仓提交: **见第 9 节补记**
-- 发布仓镜像与 push: **见第 9 节补记**
+- 工作仓提交: **d95a7b53**(18 路径, 卡 t_8c521af7)
+- 发布仓镜像: **9c4ff9e**(32 路径: 本卡构建图面 + A1 落盘 18 件随链收敛; 对应工作仓 d95a7b53)
+- push 回执: 6e38c31..9c4ff9e  main -> main(ls-remote origin main == 9c4ff9e2c24e950609e7df7f5d9677087f258ca7 复核一致)
+- 镜像前 parity: 36 条差异(32 tracked 本链 + 4 untracked 他人在制); 镜像后 parity: 4 条差异, 全部为他人未跟踪在制文件(luorq/w4), **本链 tracked 差异残留 0**
 
 ## 9. 收尾回执 v2(补记)
 
-(本卡第二提交在此补记: 工作仓/发布仓 commit, push 回执, 镜像后 parity 结果, 交付清单.)
+- 工作仓 commit: d95a7b53c9a9802818a13c5dd4b65774329003b7(18 路径: 六件主库数据 + findings sha 刷新 + 合并审计 manifest + 锚点 2 件 + siteCounts + 本卡核验脚本 + 上游脚本合并口径更新 + 报告/证据 4 件)
+- 发布仓镜像 commit: 9c4ff9e2c24e950609e7df7f5d9677087f258ca7(32 路径; 提交信息: Phase21-R8 王祥重做链 2/4 合并镜像, 对齐工作仓 d95a7b53)
+- push: origin main 6e38c31..9c4ff9e(已 push; ls-remote 远端 main 与本地一致)
+- 镜像后 parity: 4 条差异全部为**他人未跟踪在制文件**(docs/research/phase21r8_luorq_sourcing_report.json/.md, docs/research/phase21r8_w4_names_recon.json/.md); 本链 tracked 差异 0(镜像前 36 = 32 本链 + 4 他人)
+- 回执 JSON: 卡工作区 evidence/two_repo_receipts.json, evidence/mirror_log_wx.json, evidence/parity_pre_json.json, evidence/parity_post_json.json
+- 交付清单: data/audit/phase21r8_wangxiang_merge_manifest.json; docs/research/phase21r8_wangxiang_merge_report.md; docs/research/phase21r8_wangxiang_merge_evidence.json/.txt; docs/research/phase21r8_wangxiang_verify_evidence_merged.json; verify_wx_merge_indep.py
 
 ## 10. 待裁定 / 开放项
 

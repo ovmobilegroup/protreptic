@@ -65,3 +65,4 @@ PASS I7 pages_preflight --stage data exit 0 全断言通过
 PASS J1 A1 脚本(合并后口径)复跑 0 FAIL: RESULT: 59 PASS / 0 FAIL
 PASS J2 A1 原证据文件未被覆盖(== commit 1fe4c451 版本)
 DOC H 漂移登记: 9 条待核验回填卡裁定; 本卡纪律不回填, 未跑 --write(全库重签与公开计数变化属授权面)
+TWO_REPO workspace_commit=d95a7b53 publish_commit=9c4ff9e push=6e38c31..9c4ff9e  main -> main parity_pre=36(32tracked) parity_post=4(all other cards untracked) chain_residual=0

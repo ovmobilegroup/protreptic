@@ -78,5 +78,35 @@
   ],
   "info": [
     "C rule sample: 侍疾尝药法的当代应用场景：重病家属陪护中的亲身照料；养老与临终关怀中的高"
-  ]
+  ],
+  "two_repo": {
+    "schema": "protreptic.phase21r8_wangxiang_two_repo_receipts/v1",
+    "card": "t_8c521af7",
+    "date": "2026-09-23",
+    "workspace_commit": "d95a7b53c9a9802818a13c5dd4b65774329003b7",
+    "workspace_commit_short": "d95a7b53",
+    "workspace_paths": 18,
+    "publish_commit": "9c4ff9e2c24e950609e7df7f5d9677087f258ca7",
+    "publish_commit_short": "9c4ff9e",
+    "publish_paths": 32,
+    "push_receipt": "6e38c31..9c4ff9e  main -> main",
+    "ls_remote_main": "9c4ff9e2c24e950609e7df7f5d9677087f258ca7",
+    "parity_pre": {
+      "diffs_total": 36,
+      "tracked": 32,
+      "untracked_other_cards": 4
+    },
+    "parity_post": {
+      "diffs_total": 4,
+      "tracked": 0,
+      "untracked_other_cards": 4,
+      "other_cards": [
+        "docs/research/phase21r8_luorq_sourcing_report.json",
+        "docs/research/phase21r8_luorq_sourcing_report.md",
+        "docs/research/phase21r8_w4_names_recon.json",
+        "docs/research/phase21r8_w4_names_recon.md"
+      ]
+    },
+    "mirror_log": "evidence/mirror_log_wx.json"
+  }
 }
