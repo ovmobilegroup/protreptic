@@ -334,6 +334,30 @@
     {
       "name": "H 交付物存在 data/audit/phase21r6_merge_manifest.json",
       "detail": ""
+    },
+    {
+      "name": "I1 新增 100 号当前存活",
+      "detail": []
+    },
+    {
+      "name": "I2 十件 code_maps 当前存活",
+      "detail": ""
+    },
+    {
+      "name": "I3 十件 mode_ids 新号口径当前一致",
+      "detail": ""
+    },
+    {
+      "name": "I4 30+30 新增场景当前存活",
+      "detail": []
+    },
+    {
+      "name": "I5 新增标签模式码当前存活",
+      "detail": []
+    },
+    {
+      "name": "I6 十件 figure_names 当前登记齐全",
+      "detail": ""
     }
   ],
   "fail": [],
@@ -354,6 +378,10 @@
           "H-ZET-001"
         ]
       ]
+    },
+    {
+      "name": "I7 当前口径计数（他卡可增删自身项，仅记录）",
+      "detail": "modes=3262 figures=212 scen_zh=2183 scen_en=2183 tags=7478 fn=1089"
     }
   ]
 }

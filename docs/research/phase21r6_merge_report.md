@@ -85,7 +85,10 @@
 
 ### 核验结果
 
-（最终复跑数字写入此处）
+- 最终复跑：83 PASS / 0 FAIL / 3 INFO，exit 0（机器可读 docs/research/phase21r6_merge_evidence.json；控制台誊本 卡工作区 evidence/verify_final_console.txt）。
+- 口径（本卡提交后他卡落盘的口径修订，如实登记）：合并态经 git show d0f1bb65:<path> 读（MY 口径），基线经 git show 60a14a38:<path> 读（PRE 口径），另加 I 组 6 项「当前工作区存活复核」（他卡可增删自身项，仅断言本批 100 号 / 十件注册 / 30+30 场景 / 200 标签仍存活）。
+- 三处 INFO：新增号足迹（M-CY-001 起 / M-LWH-010 止）、十件历史悬空存量（H-SQL-001 指向 H-MZD-001 / H-ZET-001，非本批引入）、当前口径计数快照。
+- 修订缘由：R6C 卡（t_4a9cf2cb）于本卡提交后落盘 7b767f39，撤下其自件登记（figure_names 9 键 / code_maps 3 条目 / scenarios zh·en 各 30 条；modes_data 零写入），绝对计数随之变化；核验脚本改为「MY 合并态 + 当前存活」双口径后复跑全过（执行于 d0f1bb65 之后的运行时事实，非数据改动）。
 
 ## 9. 备份与回滚
 
@@ -97,6 +100,7 @@
 - data/modes_data.json 顶层 total 字段为 3162（数组已 3262）——合并只追加数组未改标量，manifest 已登记为漂移。
 - code_maps 悬空存量：H-SQL-001 的 cross_references 指向 H-MZD-001 / H-ZET-001，二者在 figures/code_maps/figure_names 三层均不可解析（合并前后集合完全一致，非本次引入）；独立核验以「本批零新增悬空」为断言口径。
 - scenario_tags 键名未改（C-SQL-0010、env_un_strategy_actions_zh 等历史命名保留原样），不在本卡口径内。
+- 跨卡观察（仅登记，本卡不动作）：R6C 撤下 H-LC-001 注册后，本批 H-CY-001 的 cross_references 目标 H-LC-001 在现状中不可解析；该件列入 R6C「待身份清单 6 件」，随其后续处理消解。
 
 ## 11. 移交
 
@@ -106,7 +110,12 @@
 
 ## 12. 提交与推送
 
-（提交哈希与推送回执写入此处）
+- 工作仓提交：d0f1bb65（master，14 路径：五数据文件 + audit/findings + 合并 manifest + static_data_manifest + 报告/证据 + 两工具锚点 + siteCounts + 核验脚本）。工作仓远端仅 main 分支（本仓不作为发布通道），未推送。
+- 发布仓提交：48afa7b（main），内容与工作仓构建图文件一一对应（本卡 13 条构建图路径逐文件 sha256 一致，见 evidence/mirror_completeness.json）。
+- 镜像：复制 207 路径 / 归档移除 1 路径（data/H-DYC-001_modes.json 归入 data/backup_r6_H-DYC-001_20260923/）/ 跳过 5 路径（他卡未跟踪在制）。日志 evidence/mirror_log_r6a.json、镜像前 parity evidence/parity_pre_json.json。
+- 推送回执：git push origin main -> 65eb1c8..48afa7b（main）；复核 git ls-remote --heads origin 得远端 main = 48afa7bbf235ca474fde0cfeac7ecda17b4a979e。
+- 快照后差异（如实登记）：post parity（evidence/parity_post_json.json）新增 58 项他卡后续提交，其中 R6C 卡已落盘 7b767f39（C 组 7 件清档：_duplicates 落位、自件登记撤下 9/3/30/30、LUORQ 载荷隔离说明），另有 phase21r6_id_mapping_ledger、data/figure_names.json 随动、R5 收尾 efe7a806 等；均属镜像快照之后的新提交，由各卡自身镜像步骤消解，本卡不代镜像。
+- 收尾提交（本卡）：报告/manifest/证据与核验脚本口径修订随最终提交落盘（见 §12 之后的提交记录）。
 
 ## 13. 证据索引
 

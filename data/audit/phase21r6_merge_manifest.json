@@ -6,7 +6,7 @@
   "merge_script": "merge_r6_a_group.py (card workspace scripts/)",
   "merge_script_sha256": "4c732e489c043f9d481496c76e6f9257841599ea851faaafb9320856e4147c48",
   "verify_script": "verify_r6_merge_indep.py (repo root)",
-  "verify_script_sha256": "38b7890c82ba624adeec97fdd032aac2bb0bd1a84b7618e470238bda9cb4bca6",
+  "verify_script_sha256": "5400ee4dd1dc45aefd278a42fc91088823c53e87bc847c4d2f25f5af82cd21eb",
   "figures": [
     {
       "figure_code": "H-CY-001",
@@ -835,5 +835,31 @@
   "audit_findings_refresh": {
     "file": "data/audit/findings.json",
     "note": "build_audit_findings.py --write（sha 刷新，清除审计过期警告）"
+  },
+  "commits": {
+    "workspace": "d0f1bb65",
+    "publish": "48afa7b",
+    "publish_push": "git push origin main -> 65eb1c8..48afa7b; remote main = 48afa7bbf235ca474fde0cfeac7ecda17b4a979e",
+    "mirror": {
+      "snapshot": "evidence/parity_pre_json.json",
+      "copied": 207,
+      "deleted": 1,
+      "skipped_untracked": 5,
+      "log": "evidence/mirror_log_r6a.json"
+    },
+    "post_parity": "evidence/parity_post_json.json（58 项为快照后他卡提交，随其镜像消解）"
+  },
+  "verify_final": {
+    "result": "83 PASS / 0 FAIL / 3 INFO",
+    "exit": 0,
+    "evidence": "docs/research/phase21r6_merge_evidence.json",
+    "scope": "合并态经 git show d0f1bb65 读（MY）+ 基线经 60a14a38 读（PRE）+ I 组当前存活复核（他卡后续提交容忍口径）"
+  },
+  "post_commit_cross_card": {
+    "card": "t_4a9cf2cb (R6C)",
+    "commit": "7b767f39",
+    "change": "撤下自件登记：figure_names 9 键 / code_maps 3 条目 / scenarios zh·en 各 30 条；22 字节件 R100 入 _duplicates；modes_data 零写入",
+    "effect_on_this_card": "绝对计数口径变化，核验脚本改为 MY+PRE+当前存活双口径（83/0/3）",
+    "observation": "H-CY-001 的 xref 目标 H-LC-001 因该撤下在现状中不可解析（R6C 待身份清单 6 件，随其处理消解）"
   }
 }
