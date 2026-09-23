@@ -62,9 +62,14 @@
 - 上游回归 L01: verify_phase21r8_luorq.py(合并后口径) 0 FAIL(69 PASS/0 FAIL); L02 原判据(「未被覆盖」)实际仅断言文件非空, 属判据弱点 -- 见 §4 附注.
 - 证据: docs/research/phase21r8_luorq_merge_evidence.json / .txt; docs/qa/phase21r8_luorq_merge_verify_evidence/run.log
 
-## 6. 提交 / 镜像 / push 回执(本卡补记, Task D 落)
+## 6. 提交 / 镜像 / push 回执(本卡补记)
 
-(待 Task D 补记: 工作仓提交 sha / 发布仓镜像 sha / 两仓 push old..new / 镜像后 parity)
+- 工作仓提交: **0cbf6ab6**(21 路径, 卡 t_2d15bd2e 收尾补交; 父 dc9fe529; 白名单逐件 add, 名单外 0; 数据内容零改动)
+- 发布仓镜像: **ec0a06bf**(39 路径: 白名单 21 件 + A1 落盘包 18 件随链收敛; 逐件 cp 后 sha256 全量比对 39/39; 对应工作仓 0cbf6ab6)
+- push 回执: dab8213..ec0a06b  main -> main(ls-remote origin main == ec0a06bfadd455aec01920c9e0412e744d81eed2 复核一致)
+- 工作仓 push: **不适用**(开发仓 master 非 push 目标: 远端仅 main; dry-run 显示 new branch = 全量历史上传; master 历史含 440.19MB blob(461572032 B) 触发服务端 pre-receive 拒绝, 既有事实见 phase45_acceptance.md / link_coverage.md §10.1) -- 未执行, 如实登记
+- parity(镜像1 后实测, tools/check_repo_parity.py --json): 313 条差异(6 内容差 + 307 仅工作仓), 全部属他链在制(W5/W4/王祥 QA t_b92cc1cf/QA t_8773cb6b/王祥归档/王崇 scratch); **本卡覆盖 39 件 0 残留**
+- 回执补记: docs/research/phase21r8_luorq_merge_evidence.json/.txt(two_repo 块/行); 完成报告 docs/qa/phase21r8_luorq_receipt_report.md; 二次提交/镜像/推送回执见卡回执 metadata(文件自指限制)
 
 ## 7. 开放项 / 待裁定
 

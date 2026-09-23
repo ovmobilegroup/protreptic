@@ -438,5 +438,73 @@
       }
     ]
   },
-  "verdict": "HAS FAILURES"
+  "verdict": "HAS FAILURES",
+  "two_repo": {
+    "schema": "protreptic.phase21r8_luorq_two_repo_receipts/v1",
+    "card": "t_2d15bd2e",
+    "merge_card": "t_08bbb73d",
+    "date": "2026-09-24",
+    "workspace_commit": "0cbf6ab63059353ab9e7f2f5d9b9d76423b6c1c1",
+    "workspace_commit_short": "0cbf6ab6",
+    "workspace_parent": "dc9fe52942e8ece57c38519763b3061176288237",
+    "workspace_paths": 21,
+    "workspace_whitelist_exact": true,
+    "workspace_note": "选择性提交：白名单逐件 git add；git diff --cached --name-only 与白名单完全一致（名单外 0）；run.log 因 .gitignore *.log 规则以 git add -f 纳入；数据内容零改动（六件 sha256 == merge manifest after）",
+    "publish_commit": "ec0a06bfadd455aec01920c9e0412e744d81eed2",
+    "publish_commit_short": "ec0a06bf",
+    "publish_parent": "dab8213d5bfd8834c8cc380534ac80541acfd777",
+    "publish_paths": 39,
+    "publish_byte_same": "39/39",
+    "publish_note": "逐件 cp（byte-exact）后 sha256 全量比对 39/39 一致；内容 = A1 落盘包 18 件随链收敛 + 白名单 21 件 + 合并报告",
+    "push_receipt": "dab8213..ec0a06b  main -> main",
+    "ls_remote_main": "ec0a06bfadd455aec01920c9e0412e744d81eed2",
+    "workspace_push": "not_applicable",
+    "workspace_push_evidence": {
+      "ls_remote": "远端仅 refs/heads/main（git ls-remote origin 1 条；无 master）",
+      "dry_run": "git push origin master --dry-run -> '* [new branch] master -> master'（远端无该分支 = 全量历史上传）",
+      "blocker": "master 历史含 440.19MB blob（1ff8dcb9:api/triton/_C/libtriton.so = 461572032 B）-> GitHub 100MB 上限 pre-receive 拒绝（phase45_acceptance.md 双仓同步节实测）",
+      "prior_finding": "docs/qa/link_coverage.md §10.1：开发仓 master 不是 push 目标；全量历史上传 15 分钟未完成（无 pack 落盘），已放弃该路径；发布路径 = 发布仓 main",
+      "action": "本卡未执行工作仓 master 推送（全量历史上传不可行且已被服务端拒绝）；以 ls-remote + dry-run 现状复核代替并如实登记"
+    },
+    "parity_after_mirror1": {
+      "tool": "tools/check_repo_parity.py --json",
+      "measured_at": "2026-09-24 01:07 CST（镜像1 后、回执提交前）",
+      "status": "DIFF",
+      "counts": {
+        "both_sides": 1880,
+        "identical": 1874,
+        "only_workspace": 307,
+        "only_publish": 0
+      },
+      "diffs_total": 313,
+      "both_sides_content_diff": 6,
+      "missing_in_publish": 307,
+      "content_diff_paths": [
+        "data/audit/source_texts.json",
+        "data/source_links.json",
+        "tools/credibility_gate.py",
+        "tools/fetch_source_texts.py",
+        "tools/source_text_cache.py",
+        "tools/test_credibility_d45.py"
+      ],
+      "missing_in_publish_breakdown": {
+        "docs/scratch/phase21w5_wangchong": 271,
+        "docs/qa": 25,
+        "docs/research": 8,
+        "data/audit/source_texts": 2,
+        "docs/figures/H-HZX-002.md": 1
+      },
+      "luorq_card_files_with_diff": 0,
+      "luorq_related_other_cards": [
+        "docs/qa/phase21r8_luorq_qa_evidence/result.json",
+        "docs/qa/phase21r8_luorq_qa_evidence/result.txt",
+        "docs/qa/phase21r8_luorq_qa_evidence/_inject_tmp/modes_data.json",
+        "docs/qa/phase21r8_luorq_qa_gates/gate_credibility_gate.txt",
+        "docs/qa/phase21r8_luorq_qa_gates/gate_verify_findings.txt",
+        "docs/qa/phase21r8_luorq_qa_selftest.json"
+      ],
+      "attribution": "313 条差异全部为他链在制/未镜像：W5 t_f09365bb（6 内容差 + source_texts + 大部分 scratch）、W4、王祥 QA t_b92cc1cf（19 件）、王祥归档 H-HZX-002.md、QA t_8773cb6b（6 件，在制）、王崇 scratch；本卡覆盖 39 件 0 残留 -> 「整体差异不为本卡新增」成立"
+    },
+    "mirror_log": "卡工作区未留 mirror_log（本轮 mirror 脚本产物在 barbosa cache scratch: mirror_sha.json / precommit_sha256.txt / parity_run1.json）"
+  }
 }
