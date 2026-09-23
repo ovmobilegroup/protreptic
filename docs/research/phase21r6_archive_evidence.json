@@ -1,0 +1,161 @@
+{
+ "card": "t_aad01d0e",
+ "worker": "pigafetta",
+ "phase": "Phase21-R6",
+ "artifact": "A-group 10 pages legacy-archive; docs/figures/H-XX-001.md x10 + data/figures/_duplicates/H-XX-001_legacy_docs_page.md x8",
+ "head_at_archive": "5c3db0cdbe0b5e084b60e01745d93ee9642a8902",
+ "ledger": "modes=3271; total=3162; code_maps=212; scenarios_zh=2183; scenarios_en=2183; scenario_tags=7478; figure_names=1083",
+ "pages": {
+  "H-CHB-001": {
+   "bytes": 28564,
+   "sha256": "3529d96ca9a9868446c5e9d0bdc889a96d0acf8130cc8309e931d01c8df02b3a"
+  },
+  "H-CY-001": {
+   "bytes": 29340,
+   "sha256": "9d79f8fef68070a92cd50620be25c64b6a6012d7288d1f0d5cbc036ee42944b5"
+  },
+  "H-DYC-001": {
+   "bytes": 29815,
+   "sha256": "20b003eca8fcc8bc800e5384caa5ce072f28a075fbb22fcf4af6abd4f4fa3670"
+  },
+  "H-FXT-001": {
+   "bytes": 23628,
+   "sha256": "228b7d48dc21f580e9dae5d5868d26741bc96a5a0ca5824ddde75c1af4cc4e86"
+  },
+  "H-JX-001": {
+   "bytes": 36119,
+   "sha256": "e36312306052cd5762e323770c1902433d2ca271ae26a6405d9c2b67c2b5c142"
+  },
+  "H-KKQ-001": {
+   "bytes": 21870,
+   "sha256": "1158b022a2031f8074b79c614ed256563a816cdda80f751721e591b19e9b4d3a"
+  },
+  "H-LWH-001": {
+   "bytes": 18674,
+   "sha256": "3164d6c3145b998f2ec4c81b55c5eaed09a3de78e911b436567c2c766bf4813b"
+  },
+  "H-SQL-001": {
+   "bytes": 29596,
+   "sha256": "89d263716008d1e05f2c6eba830133434975ad027fe989c3409b1b7da81a8bbe"
+  },
+  "H-WL-001": {
+   "bytes": 27183,
+   "sha256": "b4687fe8e6d6ec325c0880354c3da4d071d47275be814f364f1b82ea948e6f49"
+  },
+  "H-YSK-001": {
+   "bytes": 27535,
+   "sha256": "f2d11f48bf17a535330998fe23d9eb0bbf1dc2812eb6f1599b548c51f4d76a36"
+  }
+ },
+ "legacy_archived": {
+  "H-CHB-001": {
+   "bytes": 6770,
+   "sha256": "d0939bc2138d03a7386b1667c10f8cabf17b397e262e960b585a5282489c4d1d"
+  },
+  "H-CY-001": {
+   "bytes": 15101,
+   "sha256": "fd37fbfb029cc3d0dbe692bf624fc928022c6918121de2aad5c05b6766078f32"
+  },
+  "H-DYC-001": {
+   "bytes": 15894,
+   "sha256": "f7187c35a75c63beb4ecc86af8c2202b7ee2b8f1a7df5d8a34d59f14c419a103"
+  },
+  "H-FXT-001": {
+   "bytes": 7236,
+   "sha256": "c34602a4c85ffcd250e7c1029d5dab09320da01322f48928c521c35a84a0d4e6"
+  },
+  "H-KKQ-001": {
+   "bytes": 6533,
+   "sha256": "a444e409e822184feeb9970cb9bb9e21920d96ddaaf6a93f02264448ec41e6af"
+  },
+  "H-LWH-001": {
+   "bytes": 8249,
+   "sha256": "7c569645aa1365c55bd6c9785d09dab939703ba568fbc02289f6add94fa29f32"
+  },
+  "H-SQL-001": {
+   "bytes": 9334,
+   "sha256": "38b38e0ed4ddf16aa910fdeee7d18e8c34f98ddc086a021919aaed336e04417b"
+  },
+  "H-WL-001": {
+   "bytes": 19734,
+   "sha256": "0b934f263b7de059212ca700bffd1325ca5e24543fbe5800ffae6ddcb01bd337"
+  }
+ },
+ "legacy": {
+  "CHB": {
+   "dup_file_bytes": 6770,
+   "dup_file_sha256": "d0939bc2138d03a7386b1667c10f8cabf17b397e262e960b585a5282489c4d1d",
+   "git_blob_bytes": 6770,
+   "git_blob_sha256": "d0939bc2138d03a7386b1667c10f8cabf17b397e262e960b585a5282489c4d1d",
+   "match": true
+  },
+  "CY": {
+   "dup_file_bytes": 15101,
+   "dup_file_sha256": "fd37fbfb029cc3d0dbe692bf624fc928022c6918121de2aad5c05b6766078f32",
+   "git_blob_bytes": 15101,
+   "git_blob_sha256": "fd37fbfb029cc3d0dbe692bf624fc928022c6918121de2aad5c05b6766078f32",
+   "match": true
+  },
+  "DYC": {
+   "dup_file_bytes": 15894,
+   "dup_file_sha256": "f7187c35a75c63beb4ecc86af8c2202b7ee2b8f1a7df5d8a34d59f14c419a103",
+   "git_blob_bytes": 15894,
+   "git_blob_sha256": "f7187c35a75c63beb4ecc86af8c2202b7ee2b8f1a7df5d8a34d59f14c419a103",
+   "match": true
+  },
+  "FXT": {
+   "dup_file_bytes": 7236,
+   "dup_file_sha256": "c34602a4c85ffcd250e7c1029d5dab09320da01322f48928c521c35a84a0d4e6",
+   "git_blob_bytes": 7236,
+   "git_blob_sha256": "c34602a4c85ffcd250e7c1029d5dab09320da01322f48928c521c35a84a0d4e6",
+   "match": true
+  },
+  "JX": null,
+  "KKQ": {
+   "dup_file_bytes": 6533,
+   "dup_file_sha256": "a444e409e822184feeb9970cb9bb9e21920d96ddaaf6a93f02264448ec41e6af",
+   "git_blob_bytes": 6533,
+   "git_blob_sha256": "a444e409e822184feeb9970cb9bb9e21920d96ddaaf6a93f02264448ec41e6af",
+   "match": true
+  },
+  "LWH": {
+   "dup_file_bytes": 8249,
+   "dup_file_sha256": "7c569645aa1365c55bd6c9785d09dab939703ba568fbc02289f6add94fa29f32",
+   "git_blob_bytes": 8249,
+   "git_blob_sha256": "7c569645aa1365c55bd6c9785d09dab939703ba568fbc02289f6add94fa29f32",
+   "match": true
+  },
+  "SQL": {
+   "dup_file_bytes": 9334,
+   "dup_file_sha256": "38b38e0ed4ddf16aa910fdeee7d18e8c34f98ddc086a021919aaed336e04417b",
+   "git_blob_bytes": 9334,
+   "git_blob_sha256": "38b38e0ed4ddf16aa910fdeee7d18e8c34f98ddc086a021919aaed336e04417b",
+   "match": true
+  },
+  "WL": {
+   "dup_file_bytes": 19734,
+   "dup_file_sha256": "0b934f263b7de059212ca700bffd1325ca5e24543fbe5800ffae6ddcb01bd337",
+   "git_blob_bytes": 19734,
+   "git_blob_sha256": "0b934f263b7de059212ca700bffd1325ca5e24543fbe5800ffae6ddcb01bd337",
+   "match": true
+  },
+  "YSK": null
+ },
+ "verify": {
+  "generator": "build_legacy20_r6_archive.py",
+  "verifier": "verify_legacy20_r6_archive.py",
+  "assertions_pass": 3022,
+  "assertions_fail": 0,
+  "inject_caught": 11,
+  "inject_total": 11,
+  "idempotent": true
+ },
+ "parity": {
+  "tool": "tools/check_repo_parity.py --json",
+  "pre_count": 8,
+  "mid_count": 26,
+  "post_count": null,
+  "post_paths": []
+ },
+ "mirror": null
+}
