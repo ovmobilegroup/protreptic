@@ -1,0 +1,292 @@
+{
+ "schema": "protreptic.phase21r5_micro_cleanup_evidence/v1",
+ "card": "t_36c4079c",
+ "generated_at": "2026-09-23T08:00:19",
+ "authorization": "卡面（magallanes）：船长授权直接执行（记录性残留清理）；来源 docs/qa/phase21r3_greyzone_report.md 第 9 节 2/3/4/5 项 + docs/research/phase20R_zengzi_merge_report.md 残留 #16",
+ "discipline": "先取证后动手；归档而非删除；本卡主库写先于 R6 批次归档完成并已提交（观测期主库无并发写；此后主库写为 R6 卡自身窗口）",
+ "commits": {
+  "workspace_r5": "45c5f43a",
+  "publish_mirror_data": "65eb1c8",
+  "publish_push_receipt_data": "a4906e7..65eb1c8  main -> main"
+ },
+ "items": {
+  "1_bg_en_remnants": {
+   "status": "fixed",
+   "points": [
+    {
+     "mode": "M-BG-003",
+     "field": "process_en[0]",
+     "old": "Collect multiple-source accounts and文献 for same events",
+     "new": "Collect multiple-source accounts and documents for same events"
+    },
+    {
+     "mode": "M-BG-010",
+     "field": "process_en[0]",
+     "old": "Collect and organize relevant genealogical文献 and historical records",
+     "new": "Collect and organize relevant genealogical documents and historical records"
+    },
+    {
+     "mode": "M-BG-010",
+     "field": "modern_applications_en[1]",
+     "old": "Brand origin论证",
+     "new": "Brand origin argumentation"
+    }
+   ],
+   "consumers": "docs/figures/H-BG-001.md 中文页无 EN 段；H-BG-001 fig/ind 档案 legacy 体例无 en 字段（扫描 0 命中）；web/public by-figure 分片为现场产物（站点链条重导、旧串零）",
+   "old_string_scan": "现役面（data/ docs/ web/src）旧串零命中；仅存 2 个历史备份留档",
+   "hashes": {
+    "before": "0c627b73015ee3bddd5b1aabf48653bf157be3aa1dac05b0685a9b959c9d98fe",
+    "after_45c5f43a": "2aef1275b05fe15b4bfafc2e894c3db2e9942aed2457e18e54109f14fcd53c5f"
+   }
+  },
+  "2_hdzs_archive_layer": {
+   "files": [
+    "data/figures/H-DZS-001_modes.json",
+    "data/individuals/H-DZS-001_modes.json",
+    "docs/figures/H-DZS-001.md"
+   ],
+   "before_ids": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10"
+   ],
+   "before_codes": [
+    "H-DZS-M01",
+    "H-DZS-M02",
+    "H-DZS-M03",
+    "H-DZS-M04",
+    "H-DZS-M05",
+    "H-DZS-M06",
+    "H-DZS-M07",
+    "H-DZS-M08",
+    "H-DZS-M09",
+    "H-DZS-M10"
+   ],
+   "after_ids": [
+    "M-DZS-001",
+    "M-DZS-002",
+    "M-DZS-003",
+    "M-DZS-004",
+    "M-DZS-005",
+    "M-DZS-006",
+    "M-DZS-007",
+    "M-DZS-008",
+    "M-DZS-009",
+    "M-DZS-010"
+   ],
+   "after_codes": [
+    "M-DZS-001",
+    "M-DZS-002",
+    "M-DZS-003",
+    "M-DZS-004",
+    "M-DZS-005",
+    "M-DZS-006",
+    "M-DZS-007",
+    "M-DZS-008",
+    "M-DZS-009",
+    "M-DZS-010"
+   ],
+   "mapping": {
+    "M01": "M-DZS-001",
+    "M02": "M-DZS-002",
+    "M03": "M-DZS-003",
+    "M04": "M-DZS-004",
+    "M05": "M-DZS-005",
+    "M06": "M-DZS-006",
+    "M07": "M-DZS-007",
+    "M08": "M-DZS-008",
+    "M09": "M-DZS-009",
+    "M10": "M-DZS-010"
+   },
+   "note": "模式号定稿 M-DZS-001~010（旧号 M01~M10 与 H-DZS-M01~M10 作废；主库 research_mode_id 保留 M01~M10 溯源）。归一卡：t_36c4079c（Phase21-R5 微清理，2026-09-23）。",
+   "hashes": {
+    "data/figures/H-DZS-001_modes.json": {
+     "before": "f1f9e845936ab0d68995cc50de17c1d098c40973fa2471db9bbe6a26739d912a",
+     "after_45c5f43a": "717efd3bd4b15b80597dc116297d08ddd70239b7219aecac917120384f9a1d37"
+    },
+    "data/individuals/H-DZS-001_modes.json": {
+     "before": "f1f9e845936ab0d68995cc50de17c1d098c40973fa2471db9bbe6a26739d912a",
+     "after_45c5f43a": "717efd3bd4b15b80597dc116297d08ddd70239b7219aecac917120384f9a1d37"
+    },
+    "docs/figures/H-DZS-001.md": {
+     "before": "236afc1bcdbb698cc92f5b8da2df250227a855bb2189cd6c07b59c6f88dcd5f8",
+     "after_45c5f43a": "b942fefb0c3195af6fc44fa57caa907380230ecb9b04bde98628eced39373891"
+    },
+    "byte_exact": "双件同体（图档 == 个体包）"
+   }
+  },
+  "3_zengzi_assertions": {
+   "points": [
+    {
+     "id": "A17",
+     "file": "verify_hzx_merge_phase20R.py",
+     "before": "status in SANC 四值（quote-verified 等）",
+     "after": "status in FOUR 且 manifest#verification_restamp.old_statuses 覆盖 10 条"
+    },
+    {
+     "id": "A17b",
+     "file": "verify_hzx_merge_phase20R.py",
+     "before": "非 quote-verified 带 correction_zh（0 条成立）",
+     "after": "留证旧态（source-verified-corrected / corrected-*）-> 3 条 M-ZX-007/009/010"
+    },
+    {
+     "id": "E1",
+     "file": "verify_hzx_merge_phase20R.py",
+     "before": "库模式数 == 3152",
+     "after": "== 3162（随批次台账）"
+    },
+    {
+     "id": "E2",
+     "file": "verify_hzx_merge_phase20R.py",
+     "before": "total == 2948（冻结说明）",
+     "after": "total == len(modes)（R5 裁定现口径）"
+    },
+    {
+     "id": "E3",
+     "file": "verify_hzx_merge_phase20R.py",
+     "before": "备份比对 3142 -> 3152",
+     "after": "3142 -> 3162"
+    },
+    {
+     "id": "E4",
+     "file": "verify_hzx_merge_phase20R.py",
+     "before": "前缀逐字全等（R4 改名后失真）",
+     "after": "授权面台账 2909/20/10/9 + 越界报点"
+    },
+    {
+     "id": "0.4",
+     "file": "verify_zengzi_qa_espinosa.py",
+     "before": "模式面零差异（R4 四态归位后失真）",
+     "after": "差异仅限 verification 且属四态、留证在位"
+    },
+    {
+     "id": "G2",
+     "file": "verify_zengzi_qa_espinosa.py",
+     "before": "镜像 sha 前缀 == ba2ad769（旧落地态）",
+     "after": "与 restamp.new_mirror_sha256 同体同步 + old_mirror_sha256 留档"
+    },
+    {
+     "id": "H1",
+     "file": "verify_zengzi_qa_espinosa.py",
+     "before": "66/31/26 全绿（依赖同批改版）",
+     "after": "随改版复跑全绿"
+    }
+   ],
+   "replays": {
+    "verify_hzx_merge_phase20R.py": "66 PASS / 0 FAIL",
+    "verify_hzx_phase20R.py": "31 PASS / 0 FAIL",
+    "verify_hzx_landing.py": "26 PASS / 0 FAIL",
+    "verify_zengzi_qa_espinosa.py": "81 PASS / 0 FAIL / 7 INFO"
+   },
+   "script_hashes": {
+    "verify_hzx_merge_phase20R.py": {
+     "before": "4f7ed16e9b15be37d9ecd2ca6fce04f3c08c00facffc7205b4c1e5b75469442c",
+     "after_45c5f43a": "7b8b534056624ce47e1824cd972caae21ba34fc6fddb91aef6f005fc7ed74ad2"
+    },
+    "verify_hzx_phase20R.py": {
+     "before": "5229a9d494bb52ead94cc4bc2e13ca0ad6a8a6946f31901a22fb25c2f86ed5bd",
+     "after_45c5f43a": "8b8f17d66d6cdc412d1469ee5e4ed580b9fc94b6fab2beb63adb551cb4e95d2f"
+    },
+    "verify_zengzi_qa_espinosa.py": {
+     "before": "a92c196d7de84655b354e79ba3d5ecf2e3ff0c7f54c125b98796666079315008",
+     "committed_45c5f43a": "108f1411e38ab6f5ccbae518571570ebef682fd8a70c40ff85719197f7fc2eb3",
+     "final": "fdb73ef7ab3027057f6ff0898b4e0e9acd2d8df164c863ff4643bfde45c20710"
+    }
+   }
+  },
+  "4a_total": {
+   "before": 2948,
+   "after": 3162,
+   "len_modes": 3162,
+   "consumers": "grep tools/ web/ api/ 与提交面脚本：total 字段零现役消费方（站点计数走独立来源）",
+   "ruling": "按仓库先例（total 与 len(modes) 一致）随计数对齐 3162"
+  },
+  "4b_root_legacy": {
+   "root_path": "modes_data.json（根目录）",
+   "bytes_before": 610302,
+   "sha256_before": "34b734d2ce998684e2a8b89f97997ee28839aadb623c914a27b2a4e6584453fb",
+   "git_blob_before": "44b9675dc8eee7ee1b20499a9729016062efdebe",
+   "last_rewrite_commit": "2371a585",
+   "references": "仅历史一次性脚本（merge_script.py / merge_workspace_json.py / fix_gulf_*.py / fix_qa_batch4.py，最后改动 2026-08-15，不在任何管线；现役工具链一律读 data/modes_data.json）",
+   "disposal": "byte-exact 归档 data/backup_root_legacy_modes_data_20260923/（modes_data.json + README.md 含指纹/恢复法），git rm 根副本（git 识别 R100 rename）",
+   "archive_sha256": "34b734d2ce998684e2a8b89f97997ee28839aadb623c914a27b2a4e6584453fb"
+  }
+ },
+ "gates": {
+  "credibility_gate": {
+   "cmd": "python3 tools/credibility_gate.py --hard-fail --data-path data/modes_data.json",
+   "exit": 0,
+   "note": "存量冻结基线；无新增硬失败（D5 存量 1 条 M-NEW-007）"
+  },
+  "verify_findings": {
+   "cmd": "python3 tools/verify_findings.py --hard-fail --data-path data/modes_data.json",
+   "exit": 0,
+   "note": "无新增硬失败；非阻断警告 2 条（audit_meta.modes_file_sha256 待刷 + M-ASM-001~010 双重收割存量）"
+  },
+  "verify_source_links": {
+   "cmd": "python3 tools/verify_source_links.py --hard-fail",
+   "exit": 0,
+   "note": "无新增坏链（存量冻结 0）；UNREACHABLE 软告警随网络波动（历次复跑 1~20 条）"
+  },
+  "apply_verification_status_check": {
+   "cmd": "python3 tools/apply_verification_status.py --check",
+   "exit": 0,
+   "note": "四态求和 == 模式条数；公开 3102 加隔离 60 == 全库 3162；逐条一致"
+  }
+ },
+ "site_chain": {
+  "steps": [
+   "export_static_site",
+   "gen_web_site_counts",
+   "apply_site_counts",
+   "build_daily_index",
+   "pages_preflight --stage data"
+  ],
+  "result": "五步全 exit 0（R5 前轮实测）",
+  "preflight": {
+   "figures": 1057,
+   "modes": 3152,
+   "published": 3092,
+   "quarantine_hits": 0,
+   "by_figure": 306
+  },
+  "manifest_source_sha256": "2aef1275b05fe15b4bfafc2e894c3db2e9942aed2457e18e54109f14fcd53c5f",
+  "note": "R6 合并批次将随其卡重跑链条并 bump 锚点（3252/3192），不在本卡范围"
+ },
+ "parity": {
+  "tool": "tools/check_repo_parity.py",
+  "measured_at": "2026-09-23 收尾（报告/证据镜像 P2 前）",
+  "result": "211 处差异：MISSING_IN_PUBLISH 170 / CONTENT_DIFF 40 / MISSING_IN_WORKSPACE 1",
+  "attribution": "R6 在制/产物 210 处（t_10089b19 主库合并与站点在制、t_434af550 B 组产物、t_4a9cf2cb C 组在制、批1/批2 产物与 docs/scratch 归档）+ 本卡报告 1 处（未跟踪；随 P2 镜像收敛）",
+  "r5_data_surface": "P1 镜像 7 路径逐字节一致（sha 核对：data/modes_data.json 2aef1275 / H-DZS 双件 717efd3b / docs/figures/H-DZS-001.md b942fefb / static_data_manifest.json 824d2573 / 归档 README f00a6a9e）"
+ },
+ "verification": {
+  "script": "verify_phase21r5_micro_cleanup.py",
+  "script_sha256": "b57b5a322108a643d236e9c936f8edc6f1bb64560d73ab2331f78260b41b26c7",
+  "frozen_run": {
+   "env": "git worktree 快照（HEAD 37045418 = 45c5f43a 数据面 + R6 批1/批2/B 组前置提交）+ espinosa BASE 重定向副本（仅 1 行路径、逻辑零改动，副本不入库）",
+   "result": "27 PASS / 0 FAIL / 5 INFO",
+   "exit": 0
+  },
+  "live_tree_observation": "复核时点 live 树存在 R6 卡在制主库合并（+100 条，3262）；espinosa 内嵌 live BASE，live 运行 80 PASS / 1 FAIL / 7 INFO，唯一 FAIL 为其内部合并脚本重放按在制数据（3262）撞台账断言（3162）的预期漂移，非本卡四项缺陷；快照复算全绿"
+ },
+ "public_side_changes": [
+  "站点静态数据 manifest 源 sha 随动（data/modes_data.json -> 2aef1275…）",
+  "H-DZS 档案页模式号显示由 M01-M10 变为 M-DZS-001~010",
+  "M-BG-003/M-BG-010 英文内容三处归一（上线文案字段）",
+  "根目录旧档归档件入库（data/backup_root_legacy_modes_data_20260923/）"
+ ],
+ "leftovers_for_orchestrator": [
+  "根目录 tracked 遗留：modes_data.json.backup_homer_20260922_070524、main_data.json（含 H-DZS-M 旧号）、tools/json 旧副本——本卡范围外",
+  "发布仓根目录遗留副本（modes_data.json 492499B、code_maps.json、scenarios_*.json，2026-09-17）——本卡范围外",
+  "台账类断言随批次更新点：E1/E2 与 verify_phase21r5 的 4a 的 3162 锚点在 R6 合并（+100）入库后需随批次刷新（R6 卡既有流程）",
+  "R6 在制（t_10089b19 主库 +100 合并、t_4a9cf2cb C 组、t_434af550 后续）的 parity 差异与站点锚点 bump（3252/3192）由各卡自行收敛"
+ ]
+}
