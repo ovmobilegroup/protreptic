@@ -472,7 +472,7 @@
  "verifier": {
   "path": "verify_rwkag_clear.py",
   "quick": "16/16 PASS",
-  "full": "见回执（含发布面）"
+  "full": "21/21 PASS (全量, 含发布面)"
  },
  "residuals": [
   {
@@ -512,14 +512,14 @@
   }
  ],
  "receipts": {
-  "workspace_commit": "{{WS_COMMIT}}",
-  "workspace_head_after": "{{WS_HEAD}}",
-  "publish_mirror_commit": "{{PB_COMMIT}}",
-  "push": "{{PUSH}}",
-  "remote_main": "{{REMOTE_MAIN}}",
-  "parity": "{{PARITY}}",
-  "remote_raw_verified": "{{RAW}}",
-  "backup_mirrored": "{{BAK_MIRROR}}",
-  "report_v2": "{{V2}}"
+  "workspace_commit": "33762c4e (110 files: 43A/13M/54R; +31425/-499)",
+  "workspace_head_after": "33762c4e (单提交, 工作仓 master 本地; 工作仓不设远端 push 义务)",
+  "publish_mirror_commit": "74c5522 (110 files: 43A/13M/54R; +31171/-508; 发布仓 main)",
+  "push": "e5c111a..74c5522 main -> main (rc=0)",
+  "remote_main": "74c5522ba106c5c7e6e4bf7f3fa60482aff63188 (= 74c5522, origin/main 已对齐)",
+  "parity": "共同件 2388 = 逐字节 2388; CONTENT_DIFF 0; ONLY_PUBLISH 0; MISSING_IN_PUBLISH 6 (R-a 他链文档, 同 t_536073f4 登记口径); rc=1 (已知, 由 R-a 缺件所致)",
+  "remote_raw_verified": "4/4 OK (raw.githubusercontent.com @74c5522, sha256 本地=远端): report.md f37ec37d / scenarios_zh 9727c8ea / sitemap e0e49df8 / archive 31a69329",
+  "backup_mirrored": "93/93 byte-exact (PB data/backup_phase21w4_rwkag_clear_20260924); web/public/data 1383 全等; web/dist 全树 2765 对齐",
+  "report_v2": "本提交 = 报告回执补记 v2 (报告对 + 证据 JSON 回执区同步)"
  }
 }
