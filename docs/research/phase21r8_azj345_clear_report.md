@@ -303,3 +303,12 @@ push rc=0
 [PASS] parity.key_files :: mismatch=[]
 === 18/18 PASS ===
 ```
+
+
+### 10.1 公开面最终复测（补记二；两仓同批更新，逐字节一致）
+
+- **`/figures/H-AZJ-345/` = HTTP 404（02:59:18 实测）；分片 `/data/figures/H-AZJ-345.json` = 404** —— 旧代次下线，公开面残余归零。
+- 站点自证健康：根页 200；sitemap 中真实人物页（如 `A-1-X-P` 等）200；`sitemap.xml` 1388 URL／figures 段 1054 条／AZJ 0 处；`figures.index.json` AZJ 0 处。**sitemap URL 集合与本地新构建逐条一致（live 1388 = local 1388，diff 0 行）** → 线上即新构建产物。
+- Deploy 链（Actions API 实测）：`Deploy to GitHub Pages` #188（35061ce）完成部署（404 生效）；#189（b4155f5）cancelled；#190（f93bfb3）在本卡收口时点 in_progress（仅 docs/** 差异，站点内容与 #188 同构）。
+- CI 复核（Actions API 实测，jobs 明细）：CI/CD #202（35061ce）仅存红色步骤 =「可信度门 · 负对照自测（D3 豁免两方向 + 两档七项）」，与 push 前 c32f669（#201）失败步骤完全相同，且 #195 起连续全红 = **存量红、非本卡引入**；其余步骤（新增违规必红／链接源核验／findings 自检／两仓一致性机检／Python 测试／TS 类型检查／linting）全部通过。`markdown-lint`（workflow「CI」）同为存量红（c32f669 即红）。
+- 卡面「持续 200 超 30 分钟需标红升级」条件**未触发**：404 出现在 push 后约 15 分钟（部署延迟内）。
