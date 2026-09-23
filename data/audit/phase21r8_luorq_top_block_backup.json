@@ -1,0 +1,287 @@
+{
+  "schema": "protreptic.phase21r8_luorq_top_block_backup/v1",
+  "card": "t_08bbb73d",
+  "date": "2026-09-23",
+  "figure_code": "H-LUORQ-001",
+  "source_path": "data/modes_data.json",
+  "location": "top-level key H-LUORQ-001",
+  "ruling": "船长裁定：先冻结后替换——byte 级备份（值导出＋sha256 登记）后以 B2 提案替换",
+  "backup": {
+    "card_workspace_dir": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627",
+    "backup_ledger": "backup_ledger.json",
+    "files": {
+      "data/modes_data.json": {
+        "backup_path": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627/modes_data.json",
+        "sha256": "2d732efde9dbce85edcaa6d775c9100fda6510741be869f6757cc62c908af41b",
+        "bytes": 24697394,
+        "count_before": 3281
+      },
+      "data/code_maps.json": {
+        "backup_path": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627/code_maps.json",
+        "sha256": "51ab0ef1fa7c35c0f64836fa007afeaa761c5b069f8548479349a869dbbba96e",
+        "bytes": 858058,
+        "count_before": 213
+      },
+      "data/scenarios_zh.json": {
+        "backup_path": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627/scenarios_zh.json",
+        "sha256": "4491498c7978e9e681cf9a4c50e72d8ea0aa638acccd055de019129b49e1c5a2",
+        "bytes": 1917853,
+        "count_before": 2193
+      },
+      "data/scenarios_en.json": {
+        "backup_path": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627/scenarios_en.json",
+        "sha256": "0bd5cd78c01e3b582cbec2446fd9973496741e6a1c9eec2114d1285dd0c187f5",
+        "bytes": 2178108,
+        "count_before": 2193
+      },
+      "data/scenario_tags.json": {
+        "backup_path": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627/scenario_tags.json",
+        "sha256": "fc562f9263a593669f4882422d793c69023bfb3fb525971756b9e6abad448fb5",
+        "bytes": 1153976,
+        "count_before": 7498
+      },
+      "data/figure_names.json": {
+        "backup_path": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627/figure_names.json",
+        "sha256": "b226e3dba7400a33244434b889a9548e57d9f14249c1938f11178967b64d15a3",
+        "bytes": 30725,
+        "count_before": 1082
+      }
+    }
+  },
+  "top_block": {
+    "source_path": "data/modes_data.json",
+    "location": "top-level key H-LUORQ-001",
+    "old_canonical_sha256": "ffb905f68572682aa4a210a83585d55bd10ebc114a0406bab1727d5adf7c8757",
+    "old_keys": 23,
+    "old_name_zh": "罗瑞卿：安全立军·整编革新·参谋统筹",
+    "new_canonical_sha256": "17326104d2f739226b91bb7d56c393156428ecf724a153fc639fff6bdd80a5dd",
+    "new_keys": 23,
+    "new_name_zh": "罗瑞卿：公安创建·军警分途·警卫思想",
+    "stripped_field": "proposal_note",
+    "backup_files": [
+      "top_block_old_H-LUORQ-001.json",
+      "top_block_new_H-LUORQ-001.json",
+      "top_block_proposal_original.json"
+    ]
+  },
+  "before_image": {
+    "schema_version": "v6",
+    "code": "H-LUORQ-001",
+    "name_zh": "罗瑞卿：安全立军·整编革新·参谋统筹",
+    "name_en": "Luo Ruiqing: Security-Based Military · Reorganization & Innovation · Staff Coordination",
+    "era": "现代/Modern Era (1906-1978)",
+    "historical_domains": [
+      "军事安全学/国家安全体系",
+      "组织管理学/军队整编",
+      "参谋科学/战略协调",
+      "政治建军/纪律建设"
+    ],
+    "domains": [
+      "军事安全学",
+      "组织管理学",
+      "参谋科学",
+      "政治建军"
+    ],
+    "core_modes": [
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360
+    ],
+    "gender": "Male",
+    "ethnicity": "汉族 / Han Chinese",
+    "nationality": "中国 / China",
+    "civilization_sphere": "现代中国/人民解放军安全体系/军事现代化 / Modern China / PLA Security System / Military Modernization",
+    "time_period_standardized": "1906-1978 CE",
+    "primary_language": "现代汉语 / Modern Mandarin",
+    "intellectual_tradition": "马克思主义军事理论/人民军队安全思想 / Marxist Military Theory / People's Army Security Thought",
+    "unique_thinking_zh": "罗瑞卿（1906-1978），四川南充人，中国人民解放军主要创建者之一，首任公安部部长、国防委员会副主席。他创造性地提出'安全立军思维'，将国家安全体系作为军队建设的核心基础，建立了从中央到地方的完整安全保卫制度。他倡导'整编革新思维'，在军队体制编制改革中大胆创新，推动军队正规化、现代化建设。罗瑞卿主张'参谋统筹思维'，善于从全局出发进行战略协调和资源调配。他强调'纪律严明法'，将铁的纪律作为军队战斗力的根本保证。他还提出'情报先行思维'，重视情报工作在国家安全中的关键作用。作为开国大将之一，他的安全保卫思想和军队整编实践为新中国国防安全体系奠定了坚实基础。",
+    "unique_thinking_en": "Luo Ruiqing (1906-1978), from Nanchong, Sichuan, was one of the main founders of the Chinese People's Liberation Army and the first Minister of Public Security. He creatively proposed 'security-based military thinking,' making national security system the core foundation of military construction, establishing a complete security and defense system from central to local levels. He advocated 'reorganization and innovation thinking,' boldly innovating in military institutional reform, promoting the regularization and modernization of the military. Luo Ruiqing emphasized 'staff coordination thinking,' excelling in strategic coordination and resource allocation from a global perspective. He stressed 'iron discipline as law,' regarding strict discipline as the fundamental guarantee of military combat effectiveness. As one of the Ten Marshals, his security defense thoughts and military reorganization practice laid a solid foundation for New China's national defense security system.",
+    "mode_evidence": [
+      {
+        "mode_id": "M351",
+        "example_zh": "建立新中国安全保卫体系",
+        "example_en": "Establishing New China's security defense system"
+      },
+      {
+        "mode_id": "M352",
+        "example_zh": "军队体制编制改革实践",
+        "example_en": "Military institutional reform practice"
+      },
+      {
+        "mode_id": "M353",
+        "example_zh": "战略协调与资源调配",
+        "example_en": "Strategic coordination and resource allocation"
+      },
+      {
+        "mode_id": "M354",
+        "example_zh": "军队纪律建设实践",
+        "example_en": "Military discipline construction practice"
+      },
+      {
+        "mode_id": "M355",
+        "example_zh": "情报工作体系建设",
+        "example_en": "Intelligence work system construction"
+      },
+      {
+        "mode_id": "M356",
+        "example_zh": "公安系统创建与运作",
+        "example_en": "Public security system creation and operation"
+      },
+      {
+        "mode_id": "M357",
+        "example_zh": "军队正规化建设",
+        "example_en": "Military regularization construction"
+      },
+      {
+        "mode_id": "M358",
+        "example_zh": "国家安全战略制定",
+        "example_en": "National security strategy formulation"
+      },
+      {
+        "mode_id": "M359",
+        "example_zh": "国防现代化建设实践",
+        "example_en": "National defense modernization practice"
+      },
+      {
+        "mode_id": "M360",
+        "example_zh": "军事安全理论创新",
+        "example_en": "Military security theory innovation"
+      }
+    ],
+    "key_texts": [
+      "《罗瑞卿文选》",
+      "《公安机关组织条例》"
+    ],
+    "key_concepts": [
+      "安全立军",
+      "整编革新",
+      "参谋统筹",
+      "纪律严明"
+    ],
+    "intellectual_lineage": [
+      "马克思列宁主义军事理论",
+      "毛泽东思想"
+    ],
+    "legacy_assessment": "罗瑞卿作为开国大将之一，首任公安部部长，为中国国家安全体系和军队整编作出了开创性贡献。他提出的安全立军思想和军队正规化建设理念，为新中国国防安全体系奠定了坚实基础。",
+    "scholarly_value": "罗瑞卿的安全保卫思想和军队整编实践对新时代国防安全体系建设具有重要理论指导意义。"
+  },
+  "after_image": {
+    "schema_version": "v6",
+    "code": "H-LUORQ-001",
+    "name_zh": "罗瑞卿：公安创建·军警分途·警卫思想",
+    "name_en": "Luo Ruiqing: Public Security Founding · Separate Police and Military Tracks · Guarding Doctrine",
+    "era": "现代/Modern Era (1906-1978)",
+    "historical_domains": [
+      "公安创建与队伍建设",
+      "公安军与内卫边防体制",
+      "情报与安全保卫",
+      "军队政治工作"
+    ],
+    "domains": [
+      "公安创建",
+      "内卫边防体制",
+      "安全保卫",
+      "军队政治工作"
+    ],
+    "core_modes": [
+      "M-LUORQ-001",
+      "M-LUORQ-002",
+      "M-LUORQ-003",
+      "M-LUORQ-004",
+      "M-LUORQ-005",
+      "M-LUORQ-006",
+      "M-LUORQ-007",
+      "M-LUORQ-008",
+      "M-LUORQ-009",
+      "M-LUORQ-010"
+    ],
+    "gender": "Male",
+    "ethnicity": "汉族 / Han Chinese",
+    "nationality": "中国 / China",
+    "civilization_sphere": "现代中国/人民公安与内卫体系/军队政治工作 / Modern China / People’s Public Security and Internal Security / Military Political Work",
+    "time_period_standardized": "1906-1978 CE",
+    "primary_language": "现代汉语 / Modern Mandarin",
+    "intellectual_tradition": "马克思主义军事理论/人民公安工作 / Marxist Military Theory / People’s Public Security Work",
+    "unique_thinking_zh": "罗瑞卿（1906-1978），四川南充人，中国人民解放军的杰出领导人，新中国首任公安部部长（1949.10–1959.9），1955 年被授予大将军衔（开国十大大将之一）。主持公安工作期间，他确立「党委领导＋群众路线」的根本路线，形成「镇压与宽大相结合」的政策表述与「杀一批，关一批，管一批」的分类处置；在武装力量编成上主张军警分途，提出公安部队「既是公安，又是部队」、指挥关系属军委、工作关系属公安部；在纪律作风上以「不准坐霸王车、吃霸王饭、看霸王戏」立规并推动《公安人员八大纪律、十项注意》。他领导中央警卫工作，把「一要保证不出乱子，二要不脱离群众」的二元约束贯彻到部署细节；在军队政治工作中坚持政治与军事、政治与业务的辩证统一，反对「空头政治」；1978 年支持「实践是检验真理的唯一标准」的讨论，同年 8 月 3 日逝世，悼词与 1980 年平反通知为其官方评价坐标（相关条目均据 1949–1965 年文献与 1978/1980 年评价文件）。",
+    "unique_thinking_en": "Luo Ruiqing (1906-1978), from Nanchong, Sichuan, was an outstanding leader of the Chinese People’s Liberation Army, the first Minister of Public Security of New China (Oct 1949 - Sep 1959), and one of the ten senior generals (1955). While leading public security work he established the fundamental line of Party committee leadership plus the mass line; he shaped the policy formulation of combining suppression with leniency and the classification of \"execute a batch, imprison a batch, supervise a batch\"; on the composition of armed forces he advocated separate tracks for police and military, holding that the public security forces are \"both police and troops\", with command belonging to the Military Commission and working relations to the Ministry of Public Security; on conduct he laid down the bans on \"bully cars, bully meals and bully shows\" and promoted the eight disciplines and ten attentions for public security personnel. He directed central guarding work and carried the dual constraint of \"no disturbances and no divorce from the masses\" into deployment detail; in military political work he upheld the dialectical unity of politics with military affairs and professional work, opposing \"empty politics\"; in 1978 he backed the debate on practice as the sole criterion of truth. He died on 3 August 1978; the eulogy and the 1980 rehabilitation notice form the coordinates of his official evaluation. (All entries are anchored to sources of 1949-1965 and the evaluative documents of 1978/1980.)",
+    "mode_evidence": [
+      {
+        "mode_id": "M-LUORQ-001",
+        "example_zh": "镇压与宽大相结合的方针表述与分类处置（W1）",
+        "example_en": "Stating suppression combined with leniency and classifying cases (W1)"
+      },
+      {
+        "mode_id": "M-LUORQ-002",
+        "example_zh": "公安部队编成与「指挥属军委、工作属公安部」双重关系（W7/W9）",
+        "example_en": "Composition of the public security forces and dual command relations (W7/W9)"
+      },
+      {
+        "mode_id": "M-LUORQ-003",
+        "example_zh": "党委领导＋群众路线的根本路线（W6）",
+        "example_en": "The fundamental line of Party committee leadership plus the mass line (W6)"
+      },
+      {
+        "mode_id": "M-LUORQ-004",
+        "example_zh": "郭兴福教学法的推广链条与群众练兵（W20/ch063、ch064）",
+        "example_en": "The diffusion chain of the Guo Xingfu method and mass training (W20/ch063, ch064)"
+      },
+      {
+        "mode_id": "M-LUORQ-005",
+        "example_zh": "警卫工作的二元约束与部署细节（W13、W20/ch054）",
+        "example_en": "The dual constraint of guarding work and deployment detail (W13, W20/ch054)"
+      },
+      {
+        "mode_id": "M-LUORQ-006",
+        "example_zh": "作风纪律：霸王车禁令到八大纪律十项注意（W10）",
+        "example_en": "Conduct and discipline: from the bully-car bans to the eight disciplines (W10)"
+      },
+      {
+        "mode_id": "M-LUORQ-007",
+        "example_zh": "悼词与平反的评价坐标（W3/W4）",
+        "example_en": "The eulogy and rehabilitation as coordinates of evaluation (W3/W4)"
+      },
+      {
+        "mode_id": "M-LUORQ-008",
+        "example_zh": "反对空头政治与文本修订（W15、W20/ch065）",
+        "example_en": "Opposing empty politics and revising texts (W15, W20/ch065)"
+      },
+      {
+        "mode_id": "M-LUORQ-009",
+        "example_zh": "反孤立主义、反神秘主义与专群结合（W6）",
+        "example_en": "Against isolationism and mysticism; combining specialists with the masses (W6)"
+      },
+      {
+        "mode_id": "M-LUORQ-010",
+        "example_zh": "支持真理标准讨论（W12）",
+        "example_en": "Backing the truth-standard debate (W12)"
+      }
+    ],
+    "key_texts": [
+      "《关于彻底肃清反革命的破坏活动的报告》（1951-03-15）",
+      "《关于建设公安部队的报告》（1950-05-20）",
+      "《公安工作必须进一步地贯彻群众路线》（1958-06-11）",
+      "《公安人员八大纪律、十项注意》（1958-08）"
+    ],
+    "key_concepts": [
+      "镇压与宽大相结合",
+      "军警分途",
+      "党委领导＋群众路线",
+      "警卫思想",
+      "八大纪律、十项注意"
+    ],
+    "intellectual_lineage": [
+      "马克思列宁主义军事理论",
+      "毛泽东思想"
+    ],
+    "legacy_assessment": "罗瑞卿长期主持新中国公安工作与公安部队建设，参与中央警卫与国家内卫体系的组织实施，并在军队政治工作中坚持政治与军事、政治与业务的辩证统一；1978-08-12 悼词与 1980-05-20 平反通知为其官方评价坐标（评价与记录文本分层使用）。",
+    "scholarly_value": "公安工作路线、军警体制沿革与军队政治工作的标本性史料（1949—1965 年文献＋1978/1980 年评价文件）。"
+  },
+  "after_image_sha256": "17326104d2f739226b91bb7d56c393156428ecf724a153fc639fff6bdd80a5dd"
+}

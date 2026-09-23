@@ -1,0 +1,209 @@
+{
+  "schema": "protreptic.phase21r8_luorq_merge/v1",
+  "card": "t_08bbb73d",
+  "date": "2026-09-23",
+  "ts": "20260923_231321",
+  "dry": false,
+  "figure_code": "H-LUORQ-001",
+  "figure_name": "罗瑞卿",
+  "upstream": {
+    "landing_card": "t_bf2d9b82",
+    "landing_commit": "21edc5f8",
+    "landing_dir": "docs/scratch/legacy20_r8_luorq_landing/",
+    "entries_sha256": "c960b0716397cfa9eb23c55affc76ee3f42578262f6f82a4b006a3321acf337f",
+    "combined_sha256": "4b3498e3a6362e03a12e64a93516032bdeaf2d5866d585535d6a0bb56d3ad4c8",
+    "figure_sha256": "d609b968a8d324eacb2a52ae6f9b03cba512d644ef6c4ae4ab167961b5056640",
+    "individuals_sha256": "91efb1b79a672bef9196d04e926c8ee3c2f9154b895e84f74534165f85d9c73f",
+    "individuals_modes_sha256": "a75decd03f71d7447c9a220d06b6a71fa379942200615b176cb01e17b68f3e8f",
+    "top_block_proposal_sha256": "dd43241369ddc7a431e160aa644a11a1ea970fc4ece433fa23e29ee7f84ac2f9",
+    "scenario_notes_sha256": "370abdb329f2b9e453778d8640144049729487a7c662a1b05dfd094a3081c92b"
+  },
+  "inputs": {
+    "data/modes_data.json": {
+      "sha256": "2d732efde9dbce85edcaa6d775c9100fda6510741be869f6757cc62c908af41b",
+      "count": 3281
+    },
+    "data/code_maps.json": {
+      "sha256": "51ab0ef1fa7c35c0f64836fa007afeaa761c5b069f8548479349a869dbbba96e",
+      "count": 213
+    },
+    "data/scenarios_zh.json": {
+      "sha256": "4491498c7978e9e681cf9a4c50e72d8ea0aa638acccd055de019129b49e1c5a2",
+      "count": 2193
+    },
+    "data/scenarios_en.json": {
+      "sha256": "0bd5cd78c01e3b582cbec2446fd9973496741e6a1c9eec2114d1285dd0c187f5",
+      "count": 2193
+    },
+    "data/scenario_tags.json": {
+      "sha256": "fc562f9263a593669f4882422d793c69023bfb3fb525971756b9e6abad448fb5",
+      "count": 7498
+    },
+    "data/figure_names.json": {
+      "sha256": "b226e3dba7400a33244434b889a9548e57d9f14249c1938f11178967b64d15a3",
+      "count": 1082
+    }
+  },
+  "added": {
+    "modes": [
+      "M-LUORQ-001",
+      "M-LUORQ-002",
+      "M-LUORQ-003",
+      "M-LUORQ-004",
+      "M-LUORQ-005",
+      "M-LUORQ-006",
+      "M-LUORQ-007",
+      "M-LUORQ-008",
+      "M-LUORQ-009",
+      "M-LUORQ-010"
+    ],
+    "code_maps": "H-LUORQ-001",
+    "scenarios_zh": [
+      "C-LUORQ-001",
+      "C-LUORQ-002",
+      "C-LUORQ-003",
+      "C-LUORQ-004",
+      "C-LUORQ-005",
+      "C-LUORQ-006",
+      "C-LUORQ-007",
+      "C-LUORQ-008",
+      "C-LUORQ-009",
+      "C-LUORQ-010"
+    ],
+    "scenarios_en": [
+      "C-LUORQ-001E",
+      "C-LUORQ-002E",
+      "C-LUORQ-003E",
+      "C-LUORQ-004E",
+      "C-LUORQ-005E",
+      "C-LUORQ-006E",
+      "C-LUORQ-007E",
+      "C-LUORQ-008E",
+      "C-LUORQ-009E",
+      "C-LUORQ-010E"
+    ],
+    "scenario_tags": 20,
+    "figure_names": {
+      "H-LUORQ-001": "罗瑞卿"
+    }
+  },
+  "top_block_disposition": {
+    "location": "data/modes_data.json top-level key H-LUORQ-001",
+    "ruling": "船长裁定：先冻结后替换（byte 级备份 → 以 B2 提案替换）",
+    "before": {
+      "sha256": "ffb905f68572682aa4a210a83585d55bd10ebc114a0406bab1727d5adf7c8757",
+      "keys": 23,
+      "name_zh": "罗瑞卿：安全立军·整编革新·参谋统筹"
+    },
+    "after": {
+      "sha256": "17326104d2f739226b91bb7d56c393156428ecf724a153fc639fff6bdd80a5dd",
+      "keys": 23,
+      "name_zh": "罗瑞卿：公安创建·军警分途·警卫思想"
+    },
+    "stripped_field": "proposal_note（提案过程字段，含旧值对照；不入库以保持库内 23 键口径且禁字零残留）",
+    "backup": {
+      "dir": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_231321",
+      "dir_is_temp": true,
+      "note": "卡工作区备份目录（随卡留档）；sha256 登记见 backup_ledger.json 与本 manifest"
+    },
+    "deprecated_names_in_block_after": 0
+  },
+  "rules": {
+    "scenario_prefix_ruling": "C-LUORQ-001~010 / C-LUORQ-001~010E（B2 scenario_notes new_prefix_suggestion：旧码未在主库活跃，可直接复用；全库 0 碰撞）",
+    "scenario_pairing": "1:1 配对 M-LUORQ-001~010（同 H-ZX-001/H-HZX-002 先例：code 序号 = mode 序号）",
+    "scenario_structure": "8 字段 {code, mode_code, title_zh, title_en, text_zh, text_en, application_area_zh, application_area_en}（H-ZX-001 先例同构）",
+    "scenario_text_rule": "title=mode 名；area=mode.modern_applications_*；text=模板拼接（与 C-ZX-001~010 / C-WX-001~010 生成规则逐条一致）",
+    "old_scenario_dispositions": "C-LUORQ-001~010 旧场景处置（弃用/删除/改写/重写）作用于归档件（_duplicates，字节冻结未动）；主库 0 活跃残留；改写锚已在新模式与新场景文本内落实（C-007/008 的八大纪律十项注意与宋德贵案→M-LUORQ-006）",
+    "tags": "4 键 {mode_code, tag, figure_code, language}；tag=mode 中英名+_zh/_en；每 mode zh+en 各一条（20 条）",
+    "code_maps": "3 键 {mode_ids, tags, cross_references}；tags=10 中文模式名；cross_references 逐条取自图档（0 悬空）",
+    "figure_names": "键级追加（文末）：H-LUORQ-001 -> 罗瑞卿",
+    "total_scalar": "modes_data.total 本卡零改写（3271 保持；口径对齐属收尾卡先例）"
+  },
+  "before": {
+    "data/modes_data.json": {
+      "count": 3281,
+      "sha256": "2d732efde9dbce85edcaa6d775c9100fda6510741be869f6757cc62c908af41b",
+      "bytes": 24697394
+    },
+    "data/code_maps.json": {
+      "count": 213,
+      "sha256": "51ab0ef1fa7c35c0f64836fa007afeaa761c5b069f8548479349a869dbbba96e",
+      "bytes": 858058
+    },
+    "data/scenarios_zh.json": {
+      "count": 2193,
+      "sha256": "4491498c7978e9e681cf9a4c50e72d8ea0aa638acccd055de019129b49e1c5a2",
+      "bytes": 1917853
+    },
+    "data/scenarios_en.json": {
+      "count": 2193,
+      "sha256": "0bd5cd78c01e3b582cbec2446fd9973496741e6a1c9eec2114d1285dd0c187f5",
+      "bytes": 2178108
+    },
+    "data/scenario_tags.json": {
+      "count": 7498,
+      "sha256": "fc562f9263a593669f4882422d793c69023bfb3fb525971756b9e6abad448fb5",
+      "bytes": 1153976
+    },
+    "data/figure_names.json": {
+      "count": 1082,
+      "sha256": "b226e3dba7400a33244434b889a9548e57d9f14249c1938f11178967b64d15a3",
+      "bytes": 30725
+    },
+    "H-LUORQ-001#top_block": {
+      "sha256": "ffb905f68572682aa4a210a83585d55bd10ebc114a0406bab1727d5adf7c8757",
+      "keys": 23
+    }
+  },
+  "after": {
+    "data/modes_data.json": {
+      "count": 3291,
+      "sha256": "2d3eb9eaf41bc95e7870bae98ced5eeee46ff216272d6dfa444c5441c0a6a964",
+      "bytes": 24762525
+    },
+    "data/code_maps.json": {
+      "count": 214,
+      "sha256": "53154b9ddd5e2e3f4ae0bbde746d4ce6ffc41c4f7bd91ce7c9fa047ae4999d83",
+      "bytes": 859463
+    },
+    "data/scenarios_zh.json": {
+      "count": 2203,
+      "sha256": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+      "bytes": 1934861
+    },
+    "data/scenarios_en.json": {
+      "count": 2203,
+      "sha256": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+      "bytes": 2195136
+    },
+    "data/scenario_tags.json": {
+      "count": 7518,
+      "sha256": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+      "bytes": 1157132
+    },
+    "data/figure_names.json": {
+      "count": 1083,
+      "sha256": "69f531fd0153fd3b762ca9641657121552a792ae420d6ba98016b209a7ddf3fd",
+      "bytes": 30755
+    },
+    "H-LUORQ-001#top_block": {
+      "sha256": "17326104d2f739226b91bb7d56c393156428ecf724a153fc639fff6bdd80a5dd",
+      "keys": 23
+    }
+  },
+  "backup": {
+    "dir": "/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_231321",
+    "files": [
+      "backup_ledger.json",
+      "code_maps.json",
+      "figure_names.json",
+      "modes_data.json",
+      "scenario_tags.json",
+      "scenarios_en.json",
+      "scenarios_zh.json",
+      "top_block_new_H-LUORQ-001.json",
+      "top_block_old_H-LUORQ-001.json",
+      "top_block_proposal_original.json"
+    ]
+  }
+}

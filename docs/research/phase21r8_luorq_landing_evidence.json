@@ -1,0 +1,754 @@
+{
+ "card": "t_bf2d9b82",
+ "figure_code": "H-LUORQ-001",
+ "figure_name": "罗瑞卿",
+ "date": "2026-09-23",
+ "baseline_commit": "f821792b",
+ "method": "Phase21-R8 重建落盘：B1 素材包逐条重锚（本卡零库写）",
+ "deliverables": {
+  "data/figures/H-LUORQ-001.json": {
+   "bytes": 68296,
+   "sha256": "d609b968a8d324eacb2a52ae6f9b03cba512d644ef6c4ae4ab167961b5056640"
+  },
+  "data/individuals/H-LUORQ-001.json": {
+   "bytes": 7704,
+   "sha256": "91efb1b79a672bef9196d04e926c8ee3c2f9154b895e84f74534165f85d9c73f"
+  },
+  "data/individuals/H-LUORQ-001_modes.json": {
+   "bytes": 60729,
+   "sha256": "a75decd03f71d7447c9a220d06b6a71fa379942200615b176cb01e17b68f3e8f"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/modes_library_entries.json": {
+   "bytes": 59856,
+   "sha256": "c960b0716397cfa9eb23c55affc76ee3f42578262f6f82a4b006a3321acf337f"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/combined_library_entries.json": {
+   "bytes": 60620,
+   "sha256": "4b3498e3a6362e03a12e64a93516032bdeaf2d5866d585535d6a0bb56d3ad4c8"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/id_mapping.tsv": {
+   "bytes": 1493,
+   "sha256": "81e145a2683517a96202cdc4ce28f66d7817d4eb7f15896f2f8954584aa806cc"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/category_mapping.tsv": {
+   "bytes": 892,
+   "sha256": "582085e67f3794988e56eb7689df5f00b2e6fcfe90e8890227034c4fd5e337d2"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/scenario_notes.json": {
+   "bytes": 3740,
+   "sha256": "370abdb329f2b9e453778d8640144049729487a7c662a1b05dfd094a3081c92b"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/top_block_proposal.json": {
+   "bytes": 8107,
+   "sha256": "dd43241369ddc7a431e160aa644a11a1ea970fc4ece433fa23e29ee7f84ac2f9"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/figures/H-LUORQ-001.json": {
+   "bytes": 68296,
+   "sha256": "d609b968a8d324eacb2a52ae6f9b03cba512d644ef6c4ae4ab167961b5056640"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/individuals/H-LUORQ-001.json": {
+   "bytes": 7704,
+   "sha256": "91efb1b79a672bef9196d04e926c8ee3c2f9154b895e84f74534165f85d9c73f"
+  },
+  "docs/scratch/legacy20_r8_luorq_landing/individuals/H-LUORQ-001_modes.json": {
+   "bytes": 60729,
+   "sha256": "a75decd03f71d7447c9a220d06b6a71fa379942200615b176cb01e17b68f3e8f"
+  }
+ },
+ "counts": {
+  "modes": 10,
+  "quotes": 10,
+  "legacy_ids": 10,
+  "hard_fixes": 5,
+  "scenario_dispositions": 10
+ },
+ "preflight": {
+  "scanned": 4441,
+  "skipped": 248,
+  "m": {
+   "data/audit/phase21r8_luorq_landing_manifest.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "data/figures/H-LUORQ-001.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "data/individuals/H-LUORQ-001.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "data/individuals/H-LUORQ-001_modes.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/research/legacy20_rev6_assessment.md": [],
+   "docs/research/phase21r6C_luorq_isolation_note.md": [],
+   "docs/research/phase21r7_cgroup_identity_report.json": [],
+   "docs/research/phase21r7_cgroup_identity_report.md": [],
+   "docs/research/phase21r8_luorq_landing_evidence.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/research/phase21r8_luorq_sourcing_report.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/research/phase21r8_luorq_sourcing_report.md": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/research/phase21r8_luorq_verify_evidence.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/scratch/legacy20_r6c/build_r6c_products.py": [],
+   "tools/build_phase21r8_luorq.py": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "verify_phase21r8_luorq.py": [
+    "M-LUORQ-001"
+   ]
+  },
+  "h": {
+   "data/audit/phase20R_zengzi_residual_scan.json": true,
+   "data/audit/phase21r6_id_mapping_ledger.json": true,
+   "data/audit/phase21r6_id_mapping_ledger.tsv": true,
+   "data/audit/phase21r8_luorq_landing_manifest.json": true,
+   "data/audit/phase21r_audit.json": true,
+   "data/figures/H-LUORQ-001.json": true,
+   "data/individuals/H-LUORQ-001.json": true,
+   "data/individuals/H-LUORQ-001_modes.json": true,
+   "data/modes_data.json": true,
+   "docs/qa/phase21R_restore_report.md": true,
+   "docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt": true,
+   "docs/research/legacy20_rev6_assessment.md": true,
+   "docs/research/phase20_chenghao_orphan_cleanup_evidence.json": true,
+   "docs/research/phase21r6C_archive_evidence.json": true,
+   "docs/research/phase21r6C_archive_report.md": true,
+   "docs/research/phase21r6C_luorq_isolation_note.md": true,
+   "docs/research/phase21r7_cgroup_identity_report.json": true,
+   "docs/research/phase21r7_cgroup_identity_report.md": true,
+   "docs/research/phase21r8_luorq_landing_evidence.json": true,
+   "docs/research/phase21r8_luorq_sourcing_report.json": true,
+   "docs/research/phase21r8_luorq_sourcing_report.md": true,
+   "docs/research/phase21r8_luorq_verify_evidence.json": true,
+   "docs/scratch/legacy20_r6c/apply_r6c_archive.py": true,
+   "docs/scratch/legacy20_r6c/build_r6c_products.py": true,
+   "docs/scratch/legacy20_r6c/r6c_archive_manifest.json": true,
+   "docs/scratch/legacy20_r6c/removed_registrations.json": true,
+   "tools/build_phase21r8_luorq.py": true,
+   "verify_phase21r6C_archive.py": true,
+   "verify_phase21r8_luorq.py": true
+  },
+  "c": {
+   "data/audit/phase21r8_luorq_landing_manifest.json": true,
+   "data/figures/H-LUORQ-001.json": true,
+   "data/individuals/H-LUORQ-001.json": true,
+   "docs/research/phase21r6C_archive_report.md": true,
+   "docs/research/phase21r7_cgroup_identity_report.json": true,
+   "docs/research/phase21r7_cgroup_identity_report.md": true,
+   "docs/research/phase21r8_luorq_landing_evidence.json": true,
+   "docs/research/phase21r8_luorq_sourcing_report.json": true,
+   "docs/research/phase21r8_luorq_sourcing_report.md": true,
+   "docs/research/phase21r8_luorq_verify_evidence.json": true,
+   "docs/scratch/legacy20_r6c/removed_registrations.json": true,
+   "tools/build_phase21r8_luorq.py": true,
+   "verify_phase21r8_luorq.py": true
+  },
+  "archive_ok": {
+   "H-LUORQ-001_figures.json": true,
+   "H-LUORQ-001_individuals.json": true,
+   "H-LUORQ-001_individuals_modes_ISOLATED_crossfile.json": true,
+   "H-LUORQ-001_archive_page.md": true
+  },
+  "collisions_m": [],
+  "prefix_mentions": [
+   "docs/research/legacy20_rev6_assessment.md",
+   "docs/research/phase21r6C_luorq_isolation_note.md",
+   "docs/research/phase21r7_cgroup_identity_report.json",
+   "docs/research/phase21r7_cgroup_identity_report.md",
+   "docs/scratch/legacy20_r6c/build_r6c_products.py"
+  ],
+  "registered_hc": {
+   "audit_ledger": [
+    "data/audit/phase20R_zengzi_residual_scan.json",
+    "data/audit/phase21r6_id_mapping_ledger.json",
+    "data/audit/phase21r6_id_mapping_ledger.tsv",
+    "data/audit/phase21r_audit.json"
+   ],
+   "own_or_known": [
+    "data/audit/phase21r8_luorq_landing_manifest.json",
+    "data/figures/H-LUORQ-001.json",
+    "data/individuals/H-LUORQ-001.json",
+    "data/individuals/H-LUORQ-001_modes.json",
+    "docs/research/phase21r6C_luorq_isolation_note.md",
+    "docs/research/phase21r7_cgroup_identity_report.json",
+    "docs/research/phase21r7_cgroup_identity_report.md",
+    "docs/research/phase21r8_luorq_landing_evidence.json",
+    "docs/research/phase21r8_luorq_sourcing_report.json",
+    "docs/research/phase21r8_luorq_sourcing_report.md",
+    "docs/research/phase21r8_luorq_verify_evidence.json",
+    "tools/build_phase21r8_luorq.py",
+    "verify_phase21r8_luorq.py"
+   ],
+   "merge_scope": [
+    "data/modes_data.json"
+   ],
+   "docs_history": [
+    "docs/qa/phase21R_restore_report.md",
+    "docs/research/legacy20_rev6_assessment.md",
+    "docs/research/phase20_chenghao_orphan_cleanup_evidence.json"
+   ],
+   "unclassified": [
+    "docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt"
+   ],
+   "r6c_registry": [
+    "docs/research/phase21r6C_archive_evidence.json",
+    "docs/research/phase21r6C_archive_report.md",
+    "docs/scratch/legacy20_r6c/apply_r6c_archive.py",
+    "docs/scratch/legacy20_r6c/build_r6c_products.py",
+    "docs/scratch/legacy20_r6c/r6c_archive_manifest.json",
+    "docs/scratch/legacy20_r6c/removed_registrations.json"
+   ],
+   "tools_verify": [
+    "verify_phase21r6C_archive.py"
+   ]
+  }
+ },
+ "quote_table": [
+  {
+   "entry": "M-LUORQ-001",
+   "pack_mode": "M-LUORQ-001",
+   "quote_index": 1,
+   "date": "1951-03-15",
+   "source": "",
+   "witness": "W1",
+   "attribution": "罗瑞卿",
+   "key_quote_zh": "我们的政策从来就是镇压与宽大相结合的，现在也还是镇压与宽大相结合的，这乃是我们的基本政策。",
+   "pack_raw_substring": true,
+   "chars": 45
+  },
+  {
+   "entry": "M-LUORQ-002",
+   "pack_mode": "M-LUORQ-002",
+   "quote_index": 2,
+   "date": "1950-05-20",
+   "source": "《罗瑞卿军事文选》2006 第 566 页",
+   "witness": "W7/W9",
+   "attribution": "罗瑞卿《关于建设公安部队的报告》",
+   "key_quote_zh": "公安部队的指挥关系属军委，工作关系属公安部",
+   "pack_raw_substring": true,
+   "chars": 21
+  },
+  {
+   "entry": "M-LUORQ-003",
+   "pack_mode": "M-LUORQ-003",
+   "quote_index": 1,
+   "date": "1958-06-11",
+   "source": "",
+   "witness": "W6",
+   "attribution": "罗瑞卿",
+   "key_quote_zh": "把公安工作置于党中央和各级党委的绝对领导之下，并在工作中实行放手发动群众，大胆依靠群众的路线，这是我们党在长期革命实践中一个独特的创造。",
+   "pack_raw_substring": true,
+   "chars": 68
+  },
+  {
+   "entry": "M-LUORQ-004",
+   "pack_mode": "M-LUORQ-004",
+   "quote_index": 4,
+   "date": "1964-05-24",
+   "source": "",
+   "witness": "W20/ch064",
+   "attribution": "罗瑞卿",
+   "key_quote_zh": "训练要做到红、硬、活，又红又专；红第一，专第二，但一定要红专结合。",
+   "pack_raw_substring": true,
+   "chars": 33
+  },
+  {
+   "entry": "M-LUORQ-005",
+   "pack_mode": "M-LUORQ-005",
+   "quote_index": 1,
+   "date": "",
+   "source": "",
+   "witness": "W20/ch054",
+   "attribution": "罗瑞卿（传记转述）",
+   "key_quote_zh": "警卫工作一要保证不出乱子，二要不脱离群众。",
+   "pack_raw_substring": true,
+   "chars": 21
+  },
+  {
+   "entry": "M-LUORQ-006",
+   "pack_mode": "M-LUORQ-006",
+   "quote_index": 1,
+   "date": "",
+   "source": "",
+   "witness": "W10",
+   "attribution": "罗瑞卿",
+   "key_quote_zh": "我们必须反对侵犯人民利益、脱离群众的国民党作风。不准坐霸王车、吃霸王饭、看霸王戏!",
+   "pack_raw_substring": true,
+   "chars": 41
+  },
+  {
+   "entry": "M-LUORQ-007",
+   "pack_mode": "M-LUORQ-007",
+   "quote_index": 1,
+   "date": "1978-08-12",
+   "source": "",
+   "witness": "W3",
+   "attribution": "邓小平悼词",
+   "key_quote_zh": "罗瑞卿同志是无产阶级久经考验的忠诚的革命战士，中国人民解放军的杰出领导人，伟大导师毛主席的好学生。",
+   "pack_raw_substring": true,
+   "chars": 49
+  },
+  {
+   "entry": "M-LUORQ-008",
+   "pack_mode": "M-LUORQ-008",
+   "quote_index": 3,
+   "date": "",
+   "source": "",
+   "witness": "W15",
+   "attribution": "罗瑞卿",
+   "key_quote_zh": "如果单纯把政治搞好，别的都不好，垮下来，这种政治恐怕不能算好政治，是空头政治，哪里有这种政治！",
+   "pack_raw_substring": true,
+   "chars": 47
+  },
+  {
+   "entry": "M-LUORQ-009",
+   "pack_mode": "M-LUORQ-009",
+   "quote_index": 1,
+   "date": "1958-06-11",
+   "source": "",
+   "witness": "W6",
+   "attribution": "罗瑞卿",
+   "key_quote_zh": "主要表现为只相信自己，不相信群众；只相信上面，不相信下面；迷信某些技术，看不到人的作用。",
+   "pack_raw_substring": true,
+   "chars": 44
+  },
+  {
+   "entry": "M-LUORQ-010",
+   "pack_mode": "M-LUORQ-010",
+   "quote_index": 1,
+   "date": "1978-03-26",
+   "source": "",
+   "witness": "W12",
+   "attribution": "罗瑞卿（对华楠）",
+   "key_quote_zh": "什么是检验真理的标准？马列主义、毛泽东思想是真理，但不能用来检验自己，只有实践才是检验真理的标准。",
+   "pack_raw_substring": true,
+   "chars": 49
+  }
+ ],
+ "hard_fixes": [
+  {
+   "no": 1,
+   "issue": "「国防部长」误",
+   "where": "旧图档正文与旧场景 C-LUORQ-004",
+   "disposition": "纠偏：一律改写为「国防部副部长（1959 起，兼总参谋长）」；本档全字段零出现「国防部长」",
+   "basis": "W3/W10/W16",
+   "status": "已落实（本档＋登记面）"
+  },
+  {
+   "no": 2,
+   "issue": "「主要创建者之一」（失度）",
+   "where": "旧图档正文",
+   "disposition": "降格：改用悼词口径「中国人民解放军的杰出领导人」；本档全字段零出现「主要创建者」",
+   "basis": "W3",
+   "status": "已落实"
+  },
+  {
+   "no": 3,
+   "issue": "「Ten Marshals」误译",
+   "where": "modes_data 顶层块 unique_thinking_en",
+   "disposition": "替换：one of the ten senior generals（开国十大大将之一）；替换文本见 top_block_proposal.json（落库由合并卡执行）",
+   "basis": "W3/W10",
+   "status": "替换文本已产出（本档零出现 Ten Marshals）"
+  },
+  {
+   "no": 4,
+   "issue": "无源自拟命名（安全立军 / 整编革新 / 参谋统筹 / 情报先行）",
+   "where": "旧图档命名与旧顶层块",
+   "disposition": "弃用：四式永久废名、不得任何形式回填；十条命名全部改用素材包 §三 可落源描述式命名",
+   "basis": "素材包 §三 命名对照",
+   "status": "已落实（本档零出现四式）"
+  },
+  {
+   "no": 5,
+   "issue": "C-LUORQ-007/008/009 泛化场景",
+   "where": "归档件旧场景",
+   "disposition": "逐条处置：C-007 改写锚 1958-08 八大纪律十项注意（或 1956-12-28 条例草案说明）；C-008 以宋德贵案/合肥事件重写；C-009 删除或改锚；全表见 scenario_notes.json",
+   "basis": "W10/W20/ch053/W21",
+   "status": "处置表已产出（新场景注册属合并卡）"
+  }
+ ],
+ "frag_whitelist": [
+  {
+   "fragment": "按照",
+   "mode": "M-LUORQ-001",
+   "reason": "纠错语境（素材包 md §三 M-001 引注：原文为「依照」非「按照」）"
+  },
+  {
+   "fragment": "决不会根据一两封告密信去捉人，去杀人，我们主要是依靠调查研究，依靠证据来办事的",
+   "mode": "M-LUORQ-001",
+   "reason": "素材包 md §三 M-001 自设边界原文（W1）；json quotes 未载"
+  },
+  {
+   "fragment": "决不牵连一个好人，也决不放走一个反革命分子",
+   "mode": "M-LUORQ-001",
+   "reason": "素材包 md §三 M-001 自设边界原文（W1）；json quotes 未载"
+  },
+  {
+   "fragment": "片面宽大",
+   "mode": "M-LUORQ-001",
+   "reason": "素材包 json core 字段（先纠片面宽大）"
+  },
+  {
+   "fragment": "纠偏—定策—试点—复盘",
+   "mode": "M-LUORQ-001",
+   "reason": "素材包 json use 字段（运动式治理结构）"
+  },
+  {
+   "fragment": "政府为人民除暴，大快人心",
+   "mode": "M-LUORQ-001",
+   "reason": "素材包 md §三 M-001 群众反映原文（W1，全段）；json q5 为节录"
+  },
+  {
+   "fragment": "建设与使用的矛盾",
+   "mode": "M-LUORQ-002",
+   "reason": "素材包 json boundary 字段（W8）"
+  },
+  {
+   "fragment": "条条与块块关系",
+   "mode": "M-LUORQ-002",
+   "reason": "素材包 json boundary 字段（W8）"
+  },
+  {
+   "fragment": "性质—规模—质量—指挥关系",
+   "mode": "M-LUORQ-002",
+   "reason": "素材包 json use 字段（四要素）"
+  },
+  {
+   "fragment": "党委绝对领导＋群众路线",
+   "mode": "M-LUORQ-003",
+   "reason": "素材包 json core 字段"
+  },
+  {
+   "fragment": "放手动员群众",
+   "mode": "M-LUORQ-003",
+   "reason": "素材包 json q1 note（同篇异文，双注见开放项 3）"
+  },
+  {
+   "fragment": "兵怎么练",
+   "mode": "M-LUORQ-004",
+   "reason": "素材包 json core 字段（和平时期的解法）"
+  },
+  {
+   "fragment": "典型示范—以点带面—评比检验",
+   "mode": "M-LUORQ-004",
+   "reason": "素材包 json use 字段"
+  },
+  {
+   "fragment": "安全—亲民",
+   "mode": "M-LUORQ-005",
+   "reason": "素材包 json use 字段（张力管理）"
+  },
+  {
+   "fragment": "个案严处→制度立规→基层检查→群众监督",
+   "mode": "M-LUORQ-006",
+   "reason": "素材包 json core 字段（四环闭环）"
+  },
+  {
+   "fragment": "我们内部如果有很多像宋德贵等这样的共产党员，还得了吗？如果这样，我们就有亡党的危险。",
+   "mode": "M-LUORQ-006",
+   "reason": "素材包 md §二.5/§五 备选素材（宋德贵案，W10）；json 未载"
+  },
+  {
+   "fragment": "冲击一切",
+   "mode": "M-LUORQ-008",
+   "reason": "素材包 md §三 M-008 核心观点（「政治可以冲击一切」）"
+  },
+  {
+   "fragment": "政治可以冲击其他",
+   "mode": "M-LUORQ-008",
+   "reason": "素材包 md §三 M-008 核心观点（林彪指示表述，W20/ch065）"
+  },
+  {
+   "fragment": "局部／全局",
+   "mode": "M-LUORQ-008",
+   "reason": "素材包 md §三 M-008 核心观点（以「局部／全局」区分）"
+  },
+  {
+   "fragment": "公开表态—私下保留—文本修订",
+   "mode": "M-LUORQ-008",
+   "reason": "素材包 json use 字段（三层操作样本）"
+  },
+  {
+   "fragment": "还有孤立主义和神秘主义的残余",
+   "mode": "M-LUORQ-009",
+   "reason": "素材包 md §三 M-009 全段（W6）；json q1 为节录"
+  },
+  {
+   "fragment": "专群结合",
+   "mode": "M-LUORQ-009",
+   "reason": "素材包 json modern 字段"
+  },
+  {
+   "fragment": "有限能动",
+   "mode": "M-LUORQ-010",
+   "reason": "素材包 json core 字段（复出后半年的有限能动）"
+  }
+ ],
+ "merge_card_scope": [
+  "data/modes_data.json 顶层「H-LUORQ-001」块替换（top_block_proposal.json）",
+  "主库注册：code_maps / figure_names / scenarios（C-LUORQ-001~010 / E）/ scenario_tags",
+  "modes_data.json 新增 10 条 M-LUORQ-001~010"
+ ],
+ "zero_library_write": true,
+ "archive_untouched": [
+  "H-LUORQ-001_archive_page.md",
+  "H-LUORQ-001_figures.json",
+  "H-LUORQ-001_individuals.json",
+  "H-LUORQ-001_individuals_modes_ISOLATED_crossfile.json"
+ ],
+ "unrelated_mentions": "主库 code_maps/scenarios 中「罗瑞卿」字样仅出现于 H-XFZ-001（谢富治）场景文本内（C-XFZ-001-002 等），非本链面、勿动",
+ "postflight": {
+  "scanned": 4441,
+  "skipped": 248,
+  "m": {
+   "data/audit/phase21r8_luorq_landing_manifest.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "data/figures/H-LUORQ-001.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "data/individuals/H-LUORQ-001.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "data/individuals/H-LUORQ-001_modes.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/research/legacy20_rev6_assessment.md": [],
+   "docs/research/phase21r6C_luorq_isolation_note.md": [],
+   "docs/research/phase21r7_cgroup_identity_report.json": [],
+   "docs/research/phase21r7_cgroup_identity_report.md": [],
+   "docs/research/phase21r8_luorq_landing_evidence.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/research/phase21r8_luorq_sourcing_report.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/research/phase21r8_luorq_sourcing_report.md": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/research/phase21r8_luorq_verify_evidence.json": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "docs/scratch/legacy20_r6c/build_r6c_products.py": [],
+   "tools/build_phase21r8_luorq.py": [
+    "M-LUORQ-001",
+    "M-LUORQ-002",
+    "M-LUORQ-003",
+    "M-LUORQ-004",
+    "M-LUORQ-005",
+    "M-LUORQ-006",
+    "M-LUORQ-007",
+    "M-LUORQ-008",
+    "M-LUORQ-009",
+    "M-LUORQ-010"
+   ],
+   "verify_phase21r8_luorq.py": [
+    "M-LUORQ-001"
+   ]
+  },
+  "h": {
+   "data/audit/phase20R_zengzi_residual_scan.json": true,
+   "data/audit/phase21r6_id_mapping_ledger.json": true,
+   "data/audit/phase21r6_id_mapping_ledger.tsv": true,
+   "data/audit/phase21r8_luorq_landing_manifest.json": true,
+   "data/audit/phase21r_audit.json": true,
+   "data/figures/H-LUORQ-001.json": true,
+   "data/individuals/H-LUORQ-001.json": true,
+   "data/individuals/H-LUORQ-001_modes.json": true,
+   "data/modes_data.json": true,
+   "docs/qa/phase21R_restore_report.md": true,
+   "docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt": true,
+   "docs/research/legacy20_rev6_assessment.md": true,
+   "docs/research/phase20_chenghao_orphan_cleanup_evidence.json": true,
+   "docs/research/phase21r6C_archive_evidence.json": true,
+   "docs/research/phase21r6C_archive_report.md": true,
+   "docs/research/phase21r6C_luorq_isolation_note.md": true,
+   "docs/research/phase21r7_cgroup_identity_report.json": true,
+   "docs/research/phase21r7_cgroup_identity_report.md": true,
+   "docs/research/phase21r8_luorq_landing_evidence.json": true,
+   "docs/research/phase21r8_luorq_sourcing_report.json": true,
+   "docs/research/phase21r8_luorq_sourcing_report.md": true,
+   "docs/research/phase21r8_luorq_verify_evidence.json": true,
+   "docs/scratch/legacy20_r6c/apply_r6c_archive.py": true,
+   "docs/scratch/legacy20_r6c/build_r6c_products.py": true,
+   "docs/scratch/legacy20_r6c/r6c_archive_manifest.json": true,
+   "docs/scratch/legacy20_r6c/removed_registrations.json": true,
+   "tools/build_phase21r8_luorq.py": true,
+   "verify_phase21r6C_archive.py": true,
+   "verify_phase21r8_luorq.py": true
+  },
+  "c": {
+   "data/audit/phase21r8_luorq_landing_manifest.json": true,
+   "data/figures/H-LUORQ-001.json": true,
+   "data/individuals/H-LUORQ-001.json": true,
+   "docs/research/phase21r6C_archive_report.md": true,
+   "docs/research/phase21r7_cgroup_identity_report.json": true,
+   "docs/research/phase21r7_cgroup_identity_report.md": true,
+   "docs/research/phase21r8_luorq_landing_evidence.json": true,
+   "docs/research/phase21r8_luorq_sourcing_report.json": true,
+   "docs/research/phase21r8_luorq_sourcing_report.md": true,
+   "docs/research/phase21r8_luorq_verify_evidence.json": true,
+   "docs/scratch/legacy20_r6c/removed_registrations.json": true,
+   "tools/build_phase21r8_luorq.py": true,
+   "verify_phase21r8_luorq.py": true
+  }
+ }
+}

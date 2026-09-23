@@ -1,0 +1,89 @@
+Phase21-R8 罗瑞卿合并卡 t_08bbb73d 独立核验
+生成: 2026-09-24 00:02:47
+PASS 83 / FAIL 2
+
+PASS  A01    A1 docs/scratch/legacy20_r8_luorq_landing/modes_library_entries.json sha256 == landing manifest
+PASS  A01    A1 docs/scratch/legacy20_r8_luorq_landing/combined_library_entries.json sha256 == landing manifest
+PASS  A01    A1 docs/scratch/legacy20_r8_luorq_landing/id_mapping.tsv sha256 == landing manifest
+PASS  A01    A1 docs/scratch/legacy20_r8_luorq_landing/category_mapping.tsv sha256 == landing manifest
+PASS  A01    A1 docs/scratch/legacy20_r8_luorq_landing/scenario_notes.json sha256 == landing manifest
+PASS  A01    A1 docs/scratch/legacy20_r8_luorq_landing/top_block_proposal.json sha256 == landing manifest
+PASS  A01    A1 data/figures/H-LUORQ-001.json sha256 == landing manifest
+PASS  A01    A1 data/individuals/H-LUORQ-001.json sha256 == landing manifest
+PASS  A01    A1 data/individuals/H-LUORQ-001_modes.json sha256 == landing manifest
+PASS  A02    备份 code_maps.json sha256 == ledger
+PASS  A02    备份 figure_names.json sha256 == ledger
+PASS  A02    备份 modes_data.json sha256 == ledger
+PASS  A02    备份 scenario_tags.json sha256 == ledger
+PASS  A02    备份 scenarios_en.json sha256 == ledger
+PASS  A02    备份 scenarios_zh.json sha256 == ledger
+PASS  A03    A1 entries sha256 == merge manifest upstream
+PASS  A04    备份副本 == 合并前状态 sha（manifest.inputs）
+PASS  B01    旧块值导出存在且 name_zh=旧叙事
+PASS  B03    备份目录内 modes_data.json 的顶层块 == 旧块导出
+PASS  B04    主库现行顶层块 == 冻结新值（逐字）
+PASS  B06    新块 23 键、键序与旧块口径一致
+PASS  B07    新块禁字零残留（四式旧命名/Ten Marshals/主要创建者/国防部长）
+PASS  B08    硬伤 2/3 修正落实（杰出领导人 + ten senior generals）
+PASS  B09    顶层其余键与旧块逐字全等（仅 H-LUORQ-001 一处差异）
+PASS  B10    total 标量零改写（3271）
+PASS  B11    剥离字段 proposal_note 未入库
+PASS  B12    audit 登记文件含前后像（before/after image）
+PASS  C01    +10 且居文末（前缀逐对象全等）
+PASS  C02    10 条 id 序 == M-LUORQ-001~010
+PASS  C03    10 条逐字等于 A1 entries
+PASS  C04    新入库 10 条 id/mode_code 无重复
+PASS  C05    旧号 M351~M360 不在现役 id/mode_code
+PASS  C06    10 条 verification 全 pending
+PASS  C07    figure_code/figure_name 一致
+PASS  C08    新入库 10 条 name_zh/name_en 无重复
+PASS  D01    zh/en 各 +10 纯追加（旧键逐对象全等）
+PASS  D02    新增键集 == C-LUORQ-001~010 / ·E 且居层面文末
+PASS  D03    8 键结构
+PASS  D04    text 模板复算逐字一致（zh/en x 10）
+PASS  D05    mode 1:1 配对（code 序号 == mode 序号）
+PASS  D06    title == 模式名；application_area == modern_applications
+PASS  D07    新场景禁字零残留
+PASS  E01    +20 纯追加
+PASS  E02    4 键结构
+PASS  E03    每 mode zh+en 各一条（先 zh 后 en）
+PASS  E04    tag 命名 = 模式中英名 + _zh/_en
+PASS  E05    figure_code == H-LUORQ-001 且 language 全 zh/en
+PASS  F01    +1 纯追加（旧 figures 键逐对象全等）
+PASS  F02    3 键 {mode_ids, tags, cross_references}
+PASS  F03    mode_ids == M-LUORQ-001~010
+PASS  F04    tags == 10 中文模式名
+PASS  F05    cross_references 逐字取自图档
+PASS  F06    xref 目标 0 悬空（均在 figure_names 且在册）
+PASS  F07    本链新增 xref 目标为历史在册件（H-XFZ-001 / H-HZX-001）
+PASS  G01    +1 且居文末
+PASS  G02    旧键逐字全等
+PASS  G03    H-LUORQ-001 -> 罗瑞卿
+PASS  H01    figure.modes == individuals_modes.modes == landing combined
+PASS  H02    figure.modes == 主库新增 10 条（逐字）
+PASS  H03    individuals.code/figure_code 一致且 thinking_mode_count=10
+PASS  H04    figure.mode_ids == code_maps.mode_ids
+PASS  I01    credibility_gate --hard-fail exit 0（新增硬失败 0）
+PASS  I02    verify_findings --hard-fail exit 0（存量冻结/新增 0）
+PASS  I02b   findings.json data_sha256 == 现库 sha
+PASS  I03    verifstatus --check 漂移 == 前链 9 条（M-WX），本链 10 条不在漂移集
+PASS  I04    verify_source_links --hard-fail exit 0（新增坏链 0）
+PASS  J01    锚点 == 实测（EXPECT_MODES 3281 / EXPECT_BY_FIGURE 318）
+PASS  J02    figures == 1057（db 口径，本卡未动 db）
+PASS  J03    发布口径 == 去重 - 隔离 60 == 3221
+PASS  J04    siteCounts.ts 3221 x 318 + 四态自洽
+PASS  J05    gen_web_site_counts --check exit 0
+PASS  J06    pages_preflight --stage data exit 0（隔离命中 0）
+PASS  J07    daily 索引 3221 条 / 318 分片
+PASS  K01    新入库 LUORQ 内容禁字零残留（四式旧命名/Ten Marshals/主要创建者/国防部长）
+PASS  K02    归档 H-LUORQ-001_archive_page.md 字节未变
+PASS  K02    归档 H-LUORQ-001_figures.json 字节未变
+PASS  K02    归档 H-LUORQ-001_individuals.json 字节未变
+PASS  K02    归档 H-LUORQ-001_individuals_modes_ISOLATED_crossfile.json 字节未变
+PASS  K03    旧场景处置仅留登记面（_duplicates 与历史报告），主库 0 活跃
+PASS  K04    merge manifest 记录顶层块处置前后像与备份 sha
+PASS  K05    备份目录留档（六件 + 旧/新块 + proposal 原文 + ledger）
+PASS  L01    verify_phase21r8_luorq.py（合并后口径）0 FAIL
+PASS  L02    A1 原核验证据文件未被覆盖（commit 21edc5f8 版）
+FAIL  B02    旧块 canonical sha == ledger + audit | computed=4a40dcd76fae519b... ledger=ffb905f68572682a... audit=...
+FAIL  B05    新块 canonical sha == manifest.after + audit | computed=a7dab5177718b5ba... manifest=17326104d2f73922... audit=...

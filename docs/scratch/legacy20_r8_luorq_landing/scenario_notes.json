@@ -1,0 +1,83 @@
+{
+ "figure_code": "H-LUORQ-001",
+ "notes": {
+  "scenarios_zh_new": 0,
+  "scenarios_en_new": 0,
+  "reason": "场景注册属合并卡（3/5）范围；本卡按素材包 §二 硬伤 5 处置旧场景（归档件内 C-LUORQ-001~010；主库 0 活跃残留）",
+  "old_code_dispositions": [
+   {
+    "code": "C-LUORQ-001",
+    "old_mode": "M351",
+    "title": "安全保卫优先——建国初期国家安全体系建设案例",
+    "disposition": "弃用（旧题旨属弃用四式「安全立军」）",
+    "reanchor": "M-LUORQ-002（军警分途，W7/W9）"
+   },
+   {
+    "code": "C-LUORQ-002",
+    "old_mode": "M352",
+    "title": "专门工作与群众路线相结合——镇反运动中的工作方法案例",
+    "disposition": "改写重锚（题旨可用，描述需落到素材包引文）",
+    "reanchor": "M-LUORQ-003（党委领导＋群众路线，W6）/ M-LUORQ-009（专群结合，W6）"
+   },
+   {
+    "code": "C-LUORQ-003",
+    "old_mode": "M353",
+    "title": "预防为主——公安预警机制建设案例",
+    "disposition": "删除（「预防为主、防患未然」无源，泛化）",
+    "reanchor": "如保留改锚 M-LUORQ-006（群众监督与作风，W6/W10）"
+   },
+   {
+    "code": "C-LUORQ-004",
+    "old_mode": "M354",
+    "title": "军队正规化建设——解放军现代化建设推进案例",
+    "disposition": "删除并纠偏（含「国防部长」硬伤；题旨非新素材面）",
+    "reanchor": "如保留须改写为「国防部副部长（1959 起，兼总参谋长）」（W3/W10/W16）"
+   },
+   {
+    "code": "C-LUORQ-005",
+    "old_mode": "M355",
+    "title": "情报主导决策——国家安全战略制定案例",
+    "disposition": "弃用（旧题旨属弃用四式「情报先行」）",
+    "reanchor": "M-LUORQ-009（反孤立主义、反神秘主义，W6）"
+   },
+   {
+    "code": "C-LUORQ-006",
+    "old_mode": "M356",
+    "title": "政治可靠优先——公安队伍政治审查案例",
+    "disposition": "删除（泛化，无逐条落源）",
+    "reanchor": "M-LUORQ-006（人民警察作风与警民关系，W10/W20-ch053）"
+   },
+   {
+    "code": "C-LUORQ-007",
+    "old_mode": "M357",
+    "title": "法制化公安建设——新中国第一部公安机关组织法案例",
+    "disposition": "改写（原件未获；按素材包口径重锚可核篇目）",
+    "reanchor": "《公安人员八大纪律、十项注意》（1958-08，W10）或《关于〈中华人民共和国治安管理处罚条例（草案）〉的说明》（1956-12-28，W21）→ 归属 M-LUORQ-006"
+   },
+   {
+    "code": "C-LUORQ-008",
+    "old_mode": "M358",
+    "title": "军队纪律建设——高级干部违纪处理案例",
+    "disposition": "重写（以已落源真案例替换泛化叙述）",
+    "reanchor": "宋德贵案（1952-01-16，W10）或合肥事件（1952-08，W20/ch053、W10）→ 归属 M-LUORQ-006"
+   },
+   {
+    "code": "C-LUORQ-009",
+    "old_mode": "M359",
+    "title": "国家安全战略——抗美援朝时期的安全决策案例",
+    "disposition": "建议删除（无反证亦无正证；2007 文汇报转述属疑似，W11）",
+    "reanchor": ""
+   },
+   {
+    "code": "C-LUORQ-010",
+    "old_mode": "M360",
+    "title": "历史经验——新中国安全保卫工作体系总结案例",
+    "disposition": "弃用（泛化＋旧题旨）",
+    "reanchor": "M-LUORQ-007（悼词与平反，W3/W4）/ M-LUORQ-010（支持真理标准讨论，W12）"
+   }
+  ],
+  "new_prefix_suggestion": "C-LUORQ-001~010 / C-LUORQ-001~010E（旧码未在主库活跃，可直接复用；全库 0 碰撞）",
+  "code_collision_check": "主库六件 C-LUORQ-* 命中 0；H-LUORQ-001 仅存 modes_data 顶层块（合并卡面）"
+ },
+ "remap_needed": []
+}
