@@ -1,0 +1,44 @@
+{
+ "card": "t_3669eb4a",
+ "title": "Phase21-R8 残留清除 H-AZJ-345（安子介·特区叙事）",
+ "execution_time": "2026-09-24 02:14 CST",
+ "steps": [
+  "A",
+  "B",
+  "C",
+  "E",
+  "F",
+  "G",
+  "I",
+  "J"
+ ],
+ "measured": {
+  "db_figures": 1056,
+  "scenarios_zh": 1069,
+  "scenarios_en": 1069,
+  "min_sitemap_entries": 1388,
+  "sitemap_urls": 1388,
+  "routes": 1387
+ },
+ "gates": {
+  "credibility_gate": 0,
+  "verify_findings": 0,
+  "verify_source_links": 0,
+  "ci_data_check": "PASS"
+ },
+ "worktree_sha": "8adbdabd981ba7c32f70c9e6d93854a5f0e7e4e3",
+ "publish_sha": "35061ce0f3935b086c21918c1b9fd686955ef564",
+ "publish_push_receipt": "c32f66955a6fb996e546b531f1e26812c1feda07..35061ce0f3935b086c21918c1b9fd686955ef564 main -> main (rc=0)",
+ "mirror": {
+  "change_set_paths": 60,
+  "byte_exact": 58,
+  "exempt_no_publish_path": 2,
+  "publish_files": {
+   "modified": 19,
+   "added": 40,
+   "deleted": 1
+  },
+  "publish_live_before": 21,
+  "publish_live_after": 0
+ }
+}
