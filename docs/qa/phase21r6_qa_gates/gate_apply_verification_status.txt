@@ -1,0 +1,30 @@
+库: /opt/data/profiles/espinosa/cache/scratch/r6qa_state_my/data/modes_data.json (3262 条模式, sha256 4ca4eda2a9c47b2d)
+链接源: /opt/data/profiles/espinosa/cache/scratch/r6qa_state_my/data/source_links.json (382 key, 其中有 url 169)
+D4/D5 命中: 51 条模式 {"present": true, "by_defect": {"D4_quote_without_source": 27, "D4_quote_mismatch": 23, "D5_timeline_conflict": 1}}
+规则优先级: S1 > S2 > S3 > S4
+  suspect      : mode_code 命中 findings.json 的 D4/D5（引文不符 / 时间线矛盾）
+  verified     : 出处至少一条引文解析到可达链接（url 非空） -> method=link-resolved, evidence=url
+  unverifiable : 出处有引文且全部命中『已登记不可链接』（url 为空：口述/信札等一手材料）
+  pending      : 其余（无书名号引文 / 引文全部 unresolved）
+
+四态（全库 3262 条）:
+  verified        932
+  pending        1928
+  suspect          51
+  unverifiable    351
+四态（公开口径 3202 条, 已剔除隔离人物）:
+  verified        932
+  pending        1896
+  suspect          34
+  unverifiable    340
+
+S1 交 S2 的重叠（既命中 D4/D5 又解析出可达链接）: 24 条
+与库中现状态相比的变更: 无（已一致）
+
+[OK] 自洽断言: 四态求和等于模式条数; verified 的 evidence 全部回查到索引 url (145 个不同 url)
+[OK] 公开口径求和自洽: 公开 3202 加隔离 60 等于全库 3262
+[OK] --check: 库中状态与本规则逐条一致
+
+[cmd]
+python3 tools/apply_verification_status.py --check --data-path /opt/data/profiles/espinosa/cache/scratch/r6qa_state_my/data/modes_data.json --links-path /opt/data/profiles/espinosa/cache/scratch/r6qa_state_my/data/source_links.json --findings-path /opt/data/profiles/espinosa/cache/scratch/r6qa_state_my/data/audit/findings.json
+[stderr]

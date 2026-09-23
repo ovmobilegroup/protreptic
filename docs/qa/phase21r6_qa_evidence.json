@@ -1,0 +1,605 @@
+{
+ "card": "t_cd63c892",
+ "generated_by": "verify_legacy20_r6_qa_espinosa.py (espinosa independent QA)",
+ "repo_head": "5a4f4483f325995ffb6cf8cbfb14a59597787f15 Phase21-R6B B组收口（卡 t_f3aabe2c）: 报告/证据 v3 补第二次推送回执（ec8f688..262c7bc，远端 main 复核）",
+ "checkpoints": {
+  "pass": 74,
+  "fail": 0
+ },
+ "results": [
+  {
+   "group": "A",
+   "name": "modes 数组 3262 条",
+   "ok": true,
+   "detail": "3262"
+  },
+  {
+   "group": "A",
+   "name": "全库 id 0 重复",
+   "ok": true,
+   "detail": "dup_id=[]"
+  },
+  {
+   "group": "A",
+   "name": "全库 mode_code 0 重复",
+   "ok": true,
+   "detail": "dup_mc=[]"
+  },
+  {
+   "group": "A",
+   "name": "新增 100 条齐全（M-<COD>-001..010）",
+   "ok": true,
+   "detail": "100"
+  },
+  {
+   "group": "A",
+   "name": "新增条目 id==mode_code",
+   "ok": true,
+   "detail": "new=[]; 存量 id!=mode_code 计 11 处（非本批）"
+  },
+  {
+   "group": "A",
+   "name": "新码 0 越界出现（他人档案文件）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "A",
+   "name": "code_maps：新码只在本人条目",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "A",
+   "name": "A100 的 80 个 legacy 旧号在合并态编码空间 0 残留（20 个跨人物共号已消解）",
+   "ok": true,
+   "detail": "{'still': [], 'cross_figure_shared_legacy_ids': ['M321', 'M322', 'M323', 'M324', 'M325', 'M326', 'M327', 'M328', 'M329', 'M330', 'M341', 'M342', 'M343', 'M344', 'M345', 'M346', 'M347', 'M348', 'M349', 'M350']}"
+  },
+  {
+   "group": "B",
+   "name": "落盘清单 100 条（批1 50 + 批2 50）",
+   "ok": true,
+   "detail": "100"
+  },
+  {
+   "group": "B",
+   "name": "合并条目 == 落盘清单条目（逐字段全等）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "B",
+   "name": "  H-CY-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-SQL-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-YSK-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-WL-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-JX-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-CHB-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-FXT-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-DYC-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-KKQ-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "  H-LWH-001：10 条 item 文件",
+   "ok": true,
+   "detail": "10"
+  },
+  {
+   "group": "B",
+   "name": "item 文件 == 清单；id_mapping.tsv 与条目一致",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "B",
+   "name": "备份字节 == 登记 sha256 == git 落盘前原档（批1 45c5f43a / 批2 d879eb9c）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "B",
+   "name": "内容字段逐条可溯源旧档（0 捏造；内联重指后溯源 2 处）",
+   "ok": true,
+   "detail": "notfound=0 ws-diff=0 sample=[]"
+  },
+  {
+   "group": "B",
+   "name": "条目旧号仅存留证字段（0 残留）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "C",
+   "name": "三面逐条全等（图档内嵌 == 伴随包 == 主库；10件×10条）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "C",
+   "name": "镜像 == 图档去 modes（其余字段逐对象相等）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "C",
+   "name": "图档（及镜像）mode_ids == 001..010 顺序",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "C",
+   "name": "主库内嵌 figure 块（存量 2 件）code 一致",
+   "ok": true,
+   "detail": "[('H-SQL-001', True, 10), ('H-CHB-001', True, 10)]"
+  },
+  {
+   "group": "D",
+   "name": "标准类目集解析（export_static_site.CATEGORY_EN）",
+   "ok": true,
+   "detail": "18"
+  },
+  {
+   "group": "D",
+   "name": "category/mapped 与 category_mapping.tsv 逐条一致",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "D",
+   "name": "归一目标 ∈ 标准集/样例表/库内词表（不得新造）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "D",
+   "name": "category_raw 可溯源旧档记录原值",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "E",
+   "name": "100/100 verification.status == pending",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "E",
+   "name": "100/100 evidence 明写「未独立核验」",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "E",
+   "name": "无任何条目声称 verified",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "E",
+   "name": "legacy_missing_fields 所列字段确为空",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "E",
+   "name": "WL M-WL-001 引文保真 + attribution_note 登记",
+   "ok": true,
+   "detail": "attr=True"
+  },
+  {
+   "group": "E",
+   "name": "DYC M-DYC-010 内联旧号已重指",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "F",
+   "name": "新增 100 条 related_modes 0 悬空（共 204 引用）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "F",
+   "name": "全库 related_modes 悬空零新增（现 452 / 基线 452）",
+   "ok": true,
+   "detail": "{'cur': [('M-LOC-003', 'M-HOB-001'), ('M-LOC-003', 'M-RUS-001'), ('M-LOC-005', 'M-HOB-001'), ('M-LOC-005', 'M-RUS-001'), ('M-LOC-006', 'M-SMI-001')], 'new': []}"
+  },
+  {
+   "group": "F",
+   "name": "合并态（d0f1bb65）十件 code_maps 悬空零新增（基线 2 -> 合并态 2）",
+   "ok": true,
+   "detail": "{'base': [('H-SQL-001', 'H-MZD-001'), ('H-SQL-001', 'H-ZET-001')], 'my': [('H-SQL-001', 'H-MZD-001'), ('H-SQL-001', 'H-ZET-001')], 'new': []}"
+  },
+  {
+   "group": "F",
+   "name": "现状 vs 合并态新增悬空（他卡后置撤下归因，登记）",
+   "ok": true,
+   "detail": "{'cur': [('H-CY-001', 'H-LC-001'), ('H-SQL-001', 'H-MZD-001'), ('H-SQL-001', 'H-ZET-001')], 'my': [('H-SQL-001', 'H-MZD-001'), ('H-SQL-001', 'H-ZET-001')], 'post_merge_delta': [('H-CY-001', 'H-LC-001')]}"
+  },
+  {
+   "group": "G",
+   "name": "新增场景 30+30 == 落盘件（键/码归一允许）",
+   "ok": true,
+   "detail": "bad=[] 键名归一处=[('CY', 'en', 'C-CY-001', '->', 'C-CY-001E'), ('CY', 'en', 'C-CY-002', '->', 'C-CY-002E'), ('CY', 'en', 'C-CY-003', '->', 'C-CY-003E')]"
+  },
+  {
+   "group": "G",
+   "name": "既有场景重指 60 处（仅 mode_id 旧→新，其余全等）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "G",
+   "name": "十件场景条目 0 旧号残留",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "G",
+   "name": "标签平铺净增 +200（7278 -> 7478）",
+   "ok": true,
+   "detail": "200"
+  },
+  {
+   "group": "G",
+   "name": "新增标签 200 条逐条可由条目名推导（zh/en 配对）",
+   "ok": true,
+   "detail": "n=200 bad=[]"
+  },
+  {
+   "group": "G",
+   "name": "FXT 平铺标签 10 处重指 == 旧条目改号（其余字段全等）",
+   "ok": true,
+   "detail": "n=10 bad=[]"
+  },
+  {
+   "group": "G",
+   "name": "标签 dict 级变化仅限十件且仅 mode_id 重指（40 处）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "G",
+   "name": "标签顶层键集合不变（0 增 0 删）",
+   "ok": true,
+   "detail": "{'add': [], 'rm': []}"
+  },
+  {
+   "group": "G",
+   "name": "十件标签（平铺+dict）0 旧号残留",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "K",
+   "name": "合并 100 条在现状存活且逐字段未改",
+   "ok": true,
+   "detail": "missing=[] changed=0 []"
+  },
+  {
+   "group": "K",
+   "name": "现状 vs 合并态 id 增删/改动（他卡在制动向，INFO）",
+   "ok": true,
+   "detail": "{'added_n': 11, 'added': ['M-WZ-001', 'M-WZ-002', 'M-WZ-003', 'M-WZ-004', 'M-WZ-005', 'M-WZ-006', 'M-WZ-007', 'M-WZ-008', 'M-WZ-009', 'M-WZ-010', 'M-WZ-011'], 'removed_n': 2, 'removed': ['M391', 'M392'], 'changed_n': 1, 'changed': ['M-EUC-006'], 'cur_total': 3271}"
+  },
+  {
+   "group": "K",
+   "name": "现状 vs 合并态：code_maps/场景/标签 计数与增删（INFO）",
+   "ok": true,
+   "detail": "{'cm_figs': '215->212', 'sz': '2213->2183 (+0/-30)', 'se': '2213->2183 (+0/-30)', 'tags_flat': '7478->7478'}"
+  },
+  {
+   "group": "H",
+   "name": "门禁 credibility_gate exit 0",
+   "ok": true,
+   "detail": "rc=0 |     background-marker                                            2     afterlife-marker                                             1   D5 命中（本人叙述字段里的"
+  },
+  {
+   "group": "H",
+   "name": "门禁 verify_findings exit 0",
+   "ok": true,
+   "detail": "rc=0 |   (none)  --- 其他警告（不阻断）: 1 条 ---   ::warning::E: these mode codes are harvested twice by get_all_modes (present both in the top-level modes array and "
+  },
+  {
+   "group": "H",
+   "name": "门禁 verify_source_links exit 0",
+   "ok": true,
+   "detail": "rc=0 |   ::warning::UNREACHABLE 《金石录》 -> https://zh.wikipedia.org/wiki/%E9%87%91%E7%9F%B3%E5%BD%95   ::warning::UNREACHABLE 《锦瑟》 -> https://zh.wikisource.org"
+  },
+  {
+   "group": "H",
+   "name": "门禁 apply_verification_status exit 0",
+   "ok": true,
+   "detail": "rc=0 | S1 交 S2 的重叠（既命中 D4/D5 又解析出可达链接）: 24 条 与库中现状态相比的变更: 无（已一致）  [OK] 自洽断言: 四态求和等于模式条数; verified 的 evidence 全部回查到索引 url (145 个不同 url) [OK] 公开口径求和自洽: 公开 3202"
+  },
+  {
+   "group": "I",
+   "name": "合并态锚点 export_static_site = 3252/316/1057（git 冻结证据）",
+   "ok": true,
+   "detail": "['3252', '316', '1057']"
+  },
+  {
+   "group": "I",
+   "name": "合并态锚点 pages_preflight.EXPECT_MODES = 3252（git 冻结证据）",
+   "ok": true,
+   "detail": "3252"
+  },
+  {
+   "group": "I",
+   "name": "合并态 siteCounts.ts modes: 3192 / figures: 316（git 冻结证据）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "I",
+   "name": "现网三处 EXPECT_MODES 同值（export=3261 / pages=3261 / meta=3261）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "I",
+   "name": "现网 EXPECT_BY_FIGURE/FIGURES == meta.counts（316/1057）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "I",
+   "name": "static_data_manifest 计数 == meta.json 计数",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "I",
+   "name": "分片实文件 figures/index/by-figure == EXPECT（1057/8/316）",
+   "ok": true,
+   "detail": "实文件 1057/8/316"
+  },
+  {
+   "group": "I",
+   "name": "pages_preflight --stage data exit 0",
+   "ok": true,
+   "detail": "rc=0"
+  },
+  {
+   "group": "I",
+   "name": "锚点漂移登记（合并态 3252/3192 -> 现网 3261/3201，归因他卡在制）",
+   "ok": true,
+   "detail": "{'合并态': {'EXPECT_MODES': '3252', 'published': '3192', 'as_of': 'd0f1bb65'}, '现网': {'EXPECT_MODES': '3261', 'published': 3201, 'raw': 3271}}"
+  },
+  {
+   "group": "J",
+   "name": "parity 差异逐件可归因（未解释 0；内容差 0 件）",
+   "ok": true,
+   "detail": "{'他卡在制（工作区未提交）': 0, '工作区已提交未镜像': 0, '两侧各异': 0, '未解释': 0}"
+  },
+  {
+   "group": "J",
+   "name": "合并面 12 件发布仓字节可归属已知态（0 无法归属）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "J",
+   "name": "合并交付件发布仓 == 工作区（报告/证据/manifest）",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "J",
+   "name": "数据面五件发布仓状态可归属（合并态或其后已知态）",
+   "ok": true,
+   "detail": "{}"
+  },
+  {
+   "group": "J",
+   "name": "十件载荷 50 件跨仓 sha 一致",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "J",
+   "name": "发布仓工作树干净",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "J",
+   "name": "远端 main == 发布仓 HEAD",
+   "ok": true,
+   "detail": "remote=70c97abee20e head=70c97abee20e"
+  }
+ ],
+ "shell": {
+  "gate_inputs": {
+   "state": "/opt/data/profiles/espinosa/cache/scratch/r6qa_state_my",
+   "modes_sha": "4ca4eda2a9c47b2d",
+   "tools_sha": {
+    "credibility_gate.py": "3e6d00ec836d7800",
+    "verify_findings.py": "090a2455eae46ad4",
+    "verify_source_links.py": "86eb3681b0333c97",
+    "apply_verification_status.py": "479a9591daa8015f"
+   }
+  },
+  "gate_credibility_gate": {
+   "rc": 0,
+   "tail": "    background-marker                                            2\n    afterlife-marker                                             1\n  D5 命中（本人叙述字段里的年份落在生卒年之外）:\n    M-NEW-007  representative_cases_zh=1749  动差一半：牛顿未解决，Clairaut 1749 年以摄动级数升阶解决——方法误差而非理\n  说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。\n  取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en"
+  },
+  "gate_verify_findings": {
+   "rc": 0,
+   "tail": "  (none)\n\n--- 其他警告（不阻断）: 1 条 ---\n  ::warning::E: these mode codes are harvested twice by get_all_modes (present both in the top-level modes array and inside a figure node): ['M-ASM-001', 'M-ASM-002', 'M-ASM-003', 'M-ASM-004', 'M-ASM-005', 'M-ASM-006', 'M-ASM-007', 'M-ASM-008', 'M-ASM-009', 'M-ASM-010']\n\n[OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0"
+  },
+  "gate_verify_source_links": {
+   "rc": 0,
+   "tail": "  ::warning::UNREACHABLE 《金石录》 -> https://zh.wikipedia.org/wiki/%E9%87%91%E7%9F%B3%E5%BD%95\n  ::warning::UNREACHABLE 《锦瑟》 -> https://zh.wikisource.org/wiki/%E9%8C%A6%E7%91%9F\n  ::warning::UNREACHABLE 《非此即彼》 -> https://zh.wikipedia.org/wiki/%E9%9D%9E%E6%AD%A4%E5%8D%B3%E5%BD%BC\n  ::warning::UNREACHABLE 《高卢战记》 -> https://zh.wikipedia.org/wiki/%E9%AB%98%E7%9B%A7%E6%88%B0%E8%A8%98\n\n[OK] hard-fail: 无新增坏链（存量 0 条已冻结）-> exit 0"
+  },
+  "gate_apply_verification_status": {
+   "rc": 0,
+   "tail": "S1 交 S2 的重叠（既命中 D4/D5 又解析出可达链接）: 24 条\n与库中现状态相比的变更: 无（已一致）\n\n[OK] 自洽断言: 四态求和等于模式条数; verified 的 evidence 全部回查到索引 url (145 个不同 url)\n[OK] 公开口径求和自洽: 公开 3202 加隔离 60 等于全库 3262\n[OK] --check: 库中状态与本规则逐条一致"
+  },
+  "pages_preflight": {
+   "rc": 0,
+   "tail": "figures=1057 modes=3261 published=3201 隔离命中=0 figure shards=1057 by-figure shards=316\n      daily: 3201 条（by-figure 分片 3201 条）names=3201 tz=Asia/Shanghai\n[OK] stage=data：全部断言通过"
+  },
+  "parity": {
+   "rc": 1,
+   "status": "DIFF",
+   "counts": {
+    "workspace_in_boundary": 1790,
+    "publish_in_boundary": 1783,
+    "both_sides": 1783,
+    "identical": 1783,
+    "only_workspace": 7,
+    "only_publish": 0,
+    "excluded_publish": 673,
+    "excluded_workspace": 54
+   },
+   "content_diff_n": 0,
+   "missing_in_publish_n": 7,
+   "missing_in_workspace_n": 0
+  },
+  "parity_buckets": {
+   "他卡在制（工作区未提交）": {
+    "n": 0,
+    "sample": []
+   },
+   "工作区已提交未镜像": {
+    "n": 0,
+    "sample": []
+   },
+   "两侧各异": {
+    "n": 0,
+    "sample": []
+   },
+   "未解释": {
+    "n": 0,
+    "sample": []
+   }
+  },
+  "mirror_attribution": {
+   "data/modes_data.json": [
+    "5a4f4483"
+   ],
+   "data/scenario_tags.json": [
+    "5a4f4483"
+   ],
+   "data/code_maps.json": [
+    "5a4f4483"
+   ],
+   "data/scenarios_zh.json": [
+    "dcedfefa",
+    "ce3caec5",
+    "7b767f39",
+    "5a4f4483"
+   ],
+   "data/scenarios_en.json": [
+    "dcedfefa",
+    "ce3caec5",
+    "7b767f39",
+    "5a4f4483"
+   ],
+   "data/figure_names.json": [
+    "5a4f4483"
+   ],
+   "docs/architecture/static_data_manifest.json": [
+    "5a4f4483"
+   ],
+   "web/src/generated/siteCounts.ts": [
+    "5a4f4483"
+   ],
+   "tools/export_static_site.py": [
+    "5a4f4483"
+   ],
+   "tools/pages_preflight.py": [
+    "5a4f4483"
+   ],
+   "docs/research/phase21r6_merge_report.md": [
+    "ce3caec5",
+    "5a4f4483"
+   ],
+   "data/audit/phase21r6_merge_manifest.json": [
+    "ce3caec5",
+    "5a4f4483"
+   ]
+  },
+  "data5_publish_state": {
+   "data/modes_data.json": [
+    "5a4f4483"
+   ],
+   "data/scenario_tags.json": [
+    "5a4f4483"
+   ],
+   "data/code_maps.json": [
+    "5a4f4483"
+   ],
+   "data/scenarios_zh.json": [
+    "dcedfefa",
+    "ce3caec5",
+    "7b767f39",
+    "5a4f4483"
+   ],
+   "data/scenarios_en.json": [
+    "dcedfefa",
+    "ce3caec5",
+    "7b767f39",
+    "5a4f4483"
+   ]
+  },
+  "item_payload": {
+   "n": 50,
+   "bad": []
+  },
+  "publish": {
+   "status": "",
+   "head": "70c97abee20e7c6f20ff15525ddb2223b937efaf Phase21-R6B B组收口镜像（卡 t_f3aabe2c）: 报告/证据 v3 补第二次推送回执（ec8f688..262c7bc）",
+   "ahead_of_origin": "0",
+   "ws_head": "5a4f4483",
+   "ls_remote": {
+    "rc": 0,
+    "out": "70c97abee20e7c6f20ff15525ddb2223b937efaf\trefs/heads/main"
+   }
+  }
+ }
+}

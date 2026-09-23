@@ -1,0 +1,7 @@
+      figures=1057 modes=3261 published=3201 隔离命中=0 figure shards=1057 by-figure shards=316
+      daily: 3201 条（by-figure 分片 3201 条）names=3201 tz=Asia/Shanghai
+[OK] stage=data：全部断言通过
+
+[cmd]
+python3 tools/pages_preflight.py --stage data
+[stderr]
