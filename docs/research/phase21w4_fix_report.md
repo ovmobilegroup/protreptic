@@ -110,4 +110,4 @@ tools/json/ 下 4 件清档码草稿删除: SG-Lee-001.json / MY-Mah-001.json / 
 - push: 465c19a..da1e9bc main -> main rc=0; ls-remote remote main = da1e9bc9634f7c0b3a250241de4d21e1308fb72f (与本地一致)。
 - 远端 raw 校验: 4/4 逐字节一致 (report 41e2fa8f / H-LXN-001.json fc6e9884 / static.ts 9917a7b1 / export_static_site.py bfc6514a, 前 16 位)。
 - 备份 sha 清单: data/backup_phase21w4_fix_20260924/MANIFEST.sha256 (11 件 before sha, 读取即验)
-- 报告 v2 自身镜像 push 回执: (待补记)
+- 报告 v2 镜像 push 回执: 8ca52c04 -> faccfbe (main -> main rc=0); remote main = faccfbeaaa27a98b8cb9b33de123453d50025452; 报告 v2 sha256(前 16 位) = d2dc8e53cff9d366。
