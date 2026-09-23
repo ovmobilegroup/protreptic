@@ -18,7 +18,7 @@
 | 4 | total 字段 + 根目录旧档 | total 2948 -> 3162 随计数对齐；根档归档 data/backup_root_legacy_modes_data_20260923/ 并 git rm | 610302B / 34b734d2 |
 
 收尾：门禁三连 exit 0；verification --check 零漂移；站点链条五步 exit 0；两仓 parity 见 §7；发布仓镜像+push 见 §6。
-独立核验脚本 verify_phase21r5_micro_cleanup.py 全绿（结果见 §10）。
+独立核验脚本 verify_phase21r5_micro_cleanup.py 于 R5 时点全绿，结果与后续时点金丝雀说明见 §10。
 
 ## 1. ① 班固恢复件 _en 中文残留 3 处（主库逐字归一）
 
@@ -128,6 +128,8 @@
 3. 台账类断言随批次更新点：`verify_hzx_merge_phase20R.py` E1（3162）/E2 与本卡核验 4a 的 3162 锚点，在 R6 合并（+100）入库后需随批次刷新（R6 卡既有流程；不改口径以避免伪造台账）。
 4. R6 在制（t_10089b19 主库 +100、t_434af550 后续、t_4a9cf2cb C 组）的 parity 差异与站点锚点 bump（EXPECT_MODES 3252 / siteCounts 3192 人 316）由各卡自行收敛。
 5. `verify_zengzi_qa_espinosa.py` 内嵌 live BASE（/opt/data/workspace/Protreptic）：并发在制期的快照复算需用 BASE 重定向副本（本卡做法见 §10），供编排知悉该脚本属性。
+6. R6 A 组合并（d0f1bb65，len 3162->3262）后 total 仍 3162：R6 侧已在其合并报告（§58/§109）与 manifest 登记「只追加数组、未改标量」；与 R5 裁定（total 随计数对齐）冲突。本卡不写入，供编排一次性裁定：改为 3262，或去字段并冻结说明。
+
 ## 9. 复现顺序（可复跑）
 
 ```
@@ -144,10 +146,10 @@ python3 tools/check_repo_parity.py                   # 两仓 parity
 # 发布仓核对：cd /opt/data/release/Protreptic-publish && git log --oneline -3 && git rev-list --count origin/main..HEAD
 ```
 
-## 10. 独立核验结果（verify_phase21r5_micro_cleanup.py）
+## 10. 独立核验结果（verify_phase21r5_micro_cleanup.py，v2）
 
-- 脚本 sha256：b57b5a322108a643...（全量见证据 json verification.script_sha256）；断言面：1a~1c / 2a~2g / 3a~3g / 4a~4g 共 27 条。
-- **快照复算（推荐口径）**：worktree = 45c5f43a 数据面 + R6 批1/批2/B 组前置提交（HEAD 37045418），espinosa BASE 重定向副本 —— **27 PASS / 0 FAIL / 5 INFO（exit 0）**；其中 H1 四脚本重放：merge 66/0、phase20R 31/0、landing 26/0、qa_espinosa 81/0/7。
-- live 树复核（收尾时点）：R6 卡在制主库合并（+100，3262）使 espinosa 内部重放按在制数据撞 3162 台账断言 —— live 结果 80 PASS / 1 FAIL / 7 INFO，属预期漂移、非本卡四项缺陷；本卡四项在 live 与快照两面单点复算均一致（字段/SHA 逐项命中）。
-- 并发观测：本卡提交 45c5f43a 先于 R6 批次归档；复核时点主库在制写为 t_10089b19（+100 合并）—— 本卡零写入窗口已结束，与主库写操作本卡排他口径不冲突。
-- 证据包：`docs/research/phase21r5_micro_cleanup_evidence.json`（逐项：现状、消费方证据、处置、前后 sha256 指纹）。
+- 脚本 sha256：33c8ea732eb9111521ff6900a6fc2305fdf2121710f94cf55908dd5da5c389b1（v2；全量见证据 json verification.script_sha256）；断言面：1a~1c / 2a~2g / 3a~3g / 4a~4g 共 27 条；其中 3g 为时点条件化：R5 时点（len=3162）强制全绿，后续批次演进后转 INFO 记录重放结果，台账锚点随批次刷新口径见 §8.3。
+- 复算 A（R5 时点快照；worktree = 45c5f43a 数据面 + R6 批1/批2/B 组前置提交；len(modes)=3162）：**27 PASS / 0 FAIL / 5 INFO（exit 0）**；H1 四脚本重放：merge 66/0、phase20R 31/0、landing 26/0、qa_espinosa 81/0/7。
+- 复算 B（R6 A 组合并入库后时点；worktree = efe7a806；len(modes)=3262）：**22 PASS / 1 FAIL / 10 INFO** —— 唯一 FAIL 为 4a 金丝雀：total 仍 3162 未随 +100 刷新，属 §8.6 登记的 R6 侧漂移；四项本体断言（1/2/4b 与结构类）全绿。
+- 复算环境：espinosa 内嵌 live BASE（/opt/data/workspace/Protreptic）；快照复算用 BASE 重定向副本，仅 1 行路径、逻辑零改动，副本不入库。并发在制期的观测见执行记录。
+- 证据包：docs/research/phase21r5_micro_cleanup_evidence.json —— 逐项含现状、消费方证据、处置与前后 sha256 指纹。

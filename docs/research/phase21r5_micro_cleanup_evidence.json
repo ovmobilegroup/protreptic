@@ -7,7 +7,10 @@
  "commits": {
   "workspace_r5": "45c5f43a",
   "publish_mirror_data": "65eb1c8",
-  "publish_push_receipt_data": "a4906e7..65eb1c8  main -> main"
+  "publish_push_receipt_data": "a4906e7..65eb1c8  main -> main",
+  "workspace_final": "efe7a806",
+  "publish_mirror_report": "294abda",
+  "publish_push_receipt_report": "48afa7b..294abda  main -> main"
  },
  "items": {
   "1_bg_en_remnants": {
@@ -206,7 +209,8 @@
    "after": 3162,
    "len_modes": 3162,
    "consumers": "grep tools/ web/ api/ 与提交面脚本：total 字段零现役消费方（站点计数走独立来源）",
-   "ruling": "按仓库先例（total 与 len(modes) 一致）随计数对齐 3162"
+   "ruling": "按仓库先例（total 与 len(modes) 一致）随计数对齐 3162",
+   "r6_drift_note": "R6 A 组合并（d0f1bb65，3162->3262）未随批次刷新 total，R6 已在其报告 §58/§109 与 manifest 登记只追加数组未改标量；与 R5 裁定 total 随计数对齐冲突，供编排一次性裁定"
   },
   "4b_root_legacy": {
    "root_path": "modes_data.json（根目录）",
@@ -269,13 +273,21 @@
  },
  "verification": {
   "script": "verify_phase21r5_micro_cleanup.py",
-  "script_sha256": "b57b5a322108a643d236e9c936f8edc6f1bb64560d73ab2331f78260b41b26c7",
+  "script_sha256": "33c8ea732eb9111521ff6900a6fc2305fdf2121710f94cf55908dd5da5c389b1",
   "frozen_run": {
    "env": "git worktree 快照（HEAD 37045418 = 45c5f43a 数据面 + R6 批1/批2/B 组前置提交）+ espinosa BASE 重定向副本（仅 1 行路径、逻辑零改动，副本不入库）",
    "result": "27 PASS / 0 FAIL / 5 INFO",
    "exit": 0
   },
-  "live_tree_observation": "复核时点 live 树存在 R6 卡在制主库合并（+100 条，3262）；espinosa 内嵌 live BASE，live 运行 80 PASS / 1 FAIL / 7 INFO，唯一 FAIL 为其内部合并脚本重放按在制数据（3262）撞台账断言（3162）的预期漂移，非本卡四项缺陷；快照复算全绿"
+  "live_tree_observation": "复核时点 live 树存在 R6 卡在制主库合并（+100 条，3262）；espinosa 内嵌 live BASE，live 运行 80 PASS / 1 FAIL / 7 INFO，唯一 FAIL 为其内部合并脚本重放按在制数据（3262）撞台账断言（3162）的预期漂移，非本卡四项缺陷；快照复算全绿",
+  "script_version": "v2：3g 时点条件化 + 1b 证据档豁免 + 4a 恒等式",
+  "post_merge_recheck": {
+   "worktree": "efe7a806",
+   "len_modes": 3262,
+   "result": "22 PASS / 1 FAIL / 10 INFO",
+   "fail": "4a 金丝雀：total 3162 未随 +100 刷新，R6 侧已登记漂移，见报告 §8.6",
+   "note": "3g 重放按 R5 时点口径转 INFO 记录"
+  }
  },
  "public_side_changes": [
   "站点静态数据 manifest 源 sha 随动（data/modes_data.json -> 2aef1275…）",
