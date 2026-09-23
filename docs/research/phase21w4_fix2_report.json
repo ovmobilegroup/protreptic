@@ -1,0 +1,416 @@
+{
+ "card": "t_33240de8",
+ "title": "Phase21 W4 补正·R2 zh 扩展位落盘",
+ "generated_at": "2026-09-24T07:11:16",
+ "version": "v1 (回执补记 v2 覆盖 receipts)",
+ "basis": "manifest §八-1 待复核第 1 项 (船长裁定: 采纳执行); 卡 t_33240de8",
+ "upstream": "t_ee203180 (done)",
+ "downstream": [
+  "t_8bad8d98 (独立 QA)",
+  "t_616e4991 (文档)"
+ ],
+ "precheck": {
+  "board_only_this_card_running": true,
+  "ws_head_before": "8a0ac56db7e961b39c98035197bc5d5676fdee2e",
+  "pb_head_before": "332188d9ec4812711eb966be611b6ce0f812d91a",
+  "ws_git_clean": "开工前 tracked 零改动 / untracked 零件"
+ },
+ "edit": {
+  "file": "tools/json/scenarios_zh.json",
+  "object": "$.H-LXN-001.name_zh/description_zh/reason_zh/case_zh",
+  "sha256_before": "9727c8eaaf96ab92899a26409f949ff4caf3c1bf10c363acc2b58b33da54e470",
+  "sha256_after": "8b218e717cdb8cb5490e4951632907dac0b3ee0cd366c9f9c81bd0ac11702ceb",
+  "bytes_before": 2981559,
+  "bytes_after": 2981559,
+  "occ_before": {
+   "MAO": 4,
+   "LI": 30
+  },
+  "occ_after": {
+   "MAO": 0,
+   "LI": 34
+  },
+  "windows": [
+   [
+    645895,
+    645904
+   ],
+   [
+    646237,
+    646246
+   ],
+   [
+    647666,
+    647675
+   ],
+   [
+    651341,
+    651350
+   ]
+  ],
+  "diff_runs": [
+   [
+    645896,
+    645897
+   ],
+   [
+    646238,
+    646239
+   ],
+   [
+    647667,
+    647668
+   ],
+   [
+    651342,
+    651343
+   ]
+  ],
+  "diff_width_per_run": 2,
+  "fields_changed": [
+   "case_zh",
+   "description_zh",
+   "name_zh",
+   "reason_zh"
+  ],
+  "other_entries_changed": 0,
+  "name_key_note": "name 键此前已为 李先念 (R1 回填), 未动"
+ },
+ "backup": {
+  "dir": "data/backup_phase21w4_fix2_20260924/",
+  "files": [
+   "tools/json/scenarios_zh.json",
+   "fields_before.json",
+   "README.md",
+   "backup_manifest.json",
+   "MANIFEST.sha256"
+  ],
+  "manifest_verify": "sha256sum -c 4/4 PASS",
+  "copy_byte_exact": true,
+  "fields_before": "before 全文 + before_sha256 + after_expected + 字节偏移"
+ },
+ "chain": {
+  "steps": 18,
+  "all_rc0": true,
+  "log_dir": "scratch/w4fix2/chain_logs/01..18 (*.out)",
+  "key_lines": {
+   "01_build_figures_db": [
+    "✅ figures 表重建完成: 1027 行 -> /opt/data/workspace/Protreptic/api/protreptic.db"
+   ],
+   "02_export_static_site": [
+    "[隔离] 剔除 60 条隔离人物的模式（M-P23F-001, M-P23F-002, M-P23F-003, M-P23F-004, M-P23F-005, M-P23F-006, M-P23F-007, M-P23F-008, M-P23F-009, M-P23F-010, M-P24F-001, M-P24F-002, M-P24F-003, M-P24F-004, M-P24F-005, ",
+    "去重级引文 4489 条 (linked 1230 / registered-unlinkable 941 / unresolved 2318); 出现级书名号段 4551 段 (linked 1249)",
+    "protreptic.db   : figures = 1027 行",
+    "== 生成 figures ==",
+    "figures.index.json      1027 条  raw 203.8 KB / gzip 34.0 KB (上限 50.0 KB)",
+    "figures/                1027 片  raw 1.54 MB / gzip 609.1 KB (单片中位 raw 350 B)"
+   ],
+   "03_gen_web_site_counts": [
+    "[counts] /opt/data/workspace/Protreptic/web/src/generated/siteCounts.ts 已最新 (3221 x 318), 未改动"
+   ],
+   "04_build_daily_index": [
+    "[daily] 模式 3221 条 / 人物 318 位 / 分片 318 个"
+   ],
+   "05_preflight_data": [
+    "figures=1027 modes=3281 published=3221 隔离命中=0 figure shards=1027 by-figure shards=318",
+    "daily: 3221 条（by-figure 分片 3221 条）names=3221 tz=Asia/Shanghai",
+    "[OK] stage=data：全部断言通过"
+   ],
+   "06_build_search_index": [
+    "[search-index] docs=3221 tokens=102291 postings=296937",
+    "[search-index] 良知 -> [('M-ASHOKA-005', '阿育王', 4), ('M-NKR-004', '恩克鲁玛', 4), ('M-WYM-010', '王阳明', 4), ('M387', '王阳明', 4), ('M-LJY-001', '陆九渊', 4)]",
+    "[search-index] 战略 决策 -> [('M-ASHOKA-007', '阿育王', 8), ('M-CATHERIN-007', '叶卡捷琳娜二世', 8), ('M-EUC-007', '欧几里得', 8), ('M-GAN-009', '甘地', 8), ('M-JUSTINIA-005', '查士丁尼', 8)]"
+   ],
+   "07_build_graph_data": [
+    "modes: 3221, db_modes: 2981",
+    "概念图: 318 人物, 14786 概念, 15214 边"
+   ],
+   "08_build_unified_index": [
+    "total=1342  figures=318  scenarios=1024  with_modes=1306"
+   ],
+   "09_credibility_gate": [
+    "::notice::LEGACY M-PAD-006|D6|related_modes=M-PAD-007 | [M-PAD-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-007（中阴导引法——中阴导引本身是'词义灌顶'层级的知识：最深的导引只授予完成全部层级者）",
+    "::notice::LEGACY M-PAD-010|D6|related_modes=M-NAG-010 | [M-PAD-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-010（龙树·感恩收束法——深层同构：龙树'我稽首礼佛'与莲师'法非我造'共享'归源防神化'的收束结构——两位体系缔造者都以自贬完成自稳）",
+    "::notice::LEGACY M-AUR-002|D6|related_modes=M-HEG-001 | [M-AUR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HEG-001（黑格尔·辩证扬弃三段法——近缘对照：黑格尔的过程终结于绝对知识的自我完成，'过渡'最终到达终点；奥罗宾多的过程开放于尚未降临的下一层——有终点与无终点的过程哲学之分",
+    "::notice::LEGACY M-AUR-003|D6|related_modes=M-AUR-005 | [M-AUR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-005（降入检验法——第三程的完成判据正是降入：高而不降不算过）",
+    "::notice::LEGACY M-AUR-005|D6|related_modes=M-AUR-003 | [M-AUR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-003（三重转化分程法——降入是第三程的完成判据：分程为降入安排了位置与时间）",
+    "::notice::LEGACY M-MAI-006|D6|related_modes=M-MAI-004 | [M-MAI-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-004（寓言解码法——分程法在文本层的执行工具：冲突的第一步'重读'由解码规程完成）"
+   ],
+   "10_verify_source_links": [
+    "[OK 200] H-SUY-001 孙权 (183-252) -> https://zh.wikipedia.org/wiki/%E5%AD%99%E6%9D%83",
+    "[OK 200] The History of Astronomy, Sect. II-IV (Wonder, Surprise, Admirable Systems; Newtonian system); WN Introd. & Plan; TMS VI.ii.2.17 (Man of System); Essays on Philosophical Subjects -> https://w",
+    "[OK 200] WN I.1-3 (Division of Labour, Market Extent); WN II.3 (Productive and Unproductive Labour; Parsimony); WN IV.9 (Agricultural Systems; 'peace, easy taxes, tolerable justice' maxim); Lectures o",
+    "[OK 200] WN I.10.c (Wages and Profit in the different Employments of Labour and Stock); WN I.11 (Rent of Land, conclusion); WN IV.2 & IV.7 (Restraints of Importation, Colonies); WN I.10.c.61 'People o",
+    "[OK 200] WN I.2 (Of the Principle which gives Occasion to the Division of Labour); TMS I.1.1 (Of Sympathy); TMS IV.1.10 (Invisible Hand); TMS III (Conscience, Impartial Spectator) -> https://www.guten",
+    "[OK 200] WN IV.9.51 (System of Natural Liberty, sovereign's three duties); WN V.1 (Public Works, Institutions, Education); WN V.1.f (Youth and Religious Instruction); WN III (Progress of Opulence); WN"
+   ],
+   "11_verify_findings": [
+    "[OK] verify_findings: all checks passed"
+   ],
+   "12_ci_data_check": [
+    "· 名录 1342 条 (人物 318 / 场景 1024, 带模式 1306); 无名字 0 条, 无描述 606 条",
+    "· 路由 1358 条 {'person': 318, 'scenario': 1024, 'static': 9, 'template': 7}, base='/protreptic/'",
+    "· sitemap 1359 条 URL (期望 1359 = 路由 1358 + 首页)",
+    "数据校验: 24 条断言, 失败 0 条",
+    "数据校验: PASS"
+   ],
+   "13_npm_build": [],
+   "14_preflight_dist": [
+    "[OK] stage=dist：全部断言通过"
+   ],
+   "15_prerender_routes": [
+    "[prerender] base=/protreptic/ routes=1358",
+    "[prerender] wrote 1358 index.html, total 21313 KB"
+   ],
+   "16_apply_site_counts": [
+    "[counts] manifest 已一致: /opt/data/workspace/Protreptic/web/public/manifest.webmanifest -> 3221 条思维模式 × 318 位历史人物：每条都有出处、操作步骤与现代应用，中英双语，可离线查阅。",
+    "[counts] manifest 已一致: /opt/data/workspace/Protreptic/web/public/manifest-light.webmanifest -> 3221 条思维模式 × 318 位历史人物：每条都有出处、操作步骤与现代应用，中英双语，可离线查阅。",
+    "[counts] manifest 已一致: /opt/data/workspace/Protreptic/web/dist/manifest.webmanifest -> 3221 条思维模式 × 318 位历史人物：每条都有出处、操作步骤与现代应用，中英双语，可离线查阅。",
+    "[counts] manifest 已一致: /opt/data/workspace/Protreptic/web/dist/manifest-light.webmanifest -> 3221 条思维模式 × 318 位历史人物：每条都有出处、操作步骤与现代应用，中英双语，可离线查阅。",
+    "[counts] 收口完成: 3221 条模式 × 318 位人物 (来源 /opt/data/workspace/Protreptic/web/dist/data/meta.json)",
+    "[counts] dist 扫描 2739 个文件零违规；docs 产品门面页 6 个零违规"
+   ],
+   "17_build_sw": [],
+   "18_build_sitemap": [
+    "[sitemap] 路由清单 docs/architecture/web_p0_routes.json: count=1358, counts_by_type={'static': 9, 'person': 318, 'scenario': 1024, 'template': 7}",
+    "[sitemap] 统一名录 web/public/data/index.unified.json: items=1342",
+    "[sitemap] entries=1359 (root=1)",
+    "[sitemap] by kind: {\"person\": 318, \"root\": 1, \"scenario\": 1024, \"static\": 9, \"template\": 7}",
+    "[sitemap] /opt/data/workspace/Protreptic/web/public/sitemap.xml  (1359 条, 207.6 KB)",
+    "[sitemap] /opt/data/workspace/Protreptic/web/dist/sitemap.xml  (1359 条, 207.6 KB)"
+   ]
+  }
+ },
+ "counts": {
+  "figures_db": 1027,
+  "routes": 1358,
+  "sitemap": 1359,
+  "unified": {
+   "total": 1342,
+   "figures": 318,
+   "scenarios": 1024
+  },
+  "modes_published": 3221,
+  "by_figure": 318,
+  "sitecounts": "3221 x 318 未改动 (零 diff)"
+ },
+ "attribution": {
+  "raw_churn_total": 26,
+  "stamp_files": [
+   "web/public/data/meta.json",
+   "web/public/data/daily/index.json",
+   "web/public/data/daily/names.json",
+   "web/public/data/search/meta.json",
+   "web/public/data/graph/meta.json",
+   "web/public/data/graph/concept_graph.json",
+   "web/public/data/graph/concept_graph.json.gz",
+   "web/public/data/graph/mode_edges.json",
+   "web/public/data/graph/mode_edges.json.gz",
+   "web/public/data/graph/similar_modes.json",
+   "web/public/data/graph/similar_modes.json.gz",
+   "web/dist/data/meta.json",
+   "web/dist/data/daily/index.json",
+   "web/dist/data/daily/names.json",
+   "web/dist/data/search/meta.json",
+   "web/dist/data/graph/meta.json",
+   "web/dist/data/graph/concept_graph.json",
+   "web/dist/data/graph/concept_graph.json.gz",
+   "web/dist/data/graph/mode_edges.json",
+   "web/dist/data/graph/mode_edges.json.gz",
+   "web/dist/data/graph/similar_modes.json",
+   "web/dist/data/graph/similar_modes.json.gz",
+   "web/dist/sw.js",
+   "web/dist/sw.build.json"
+  ],
+  "db_layout": {
+   "file": "api/protreptic.db",
+   "canonical_row_sha256": "1e0c8e80241730f9e68d48369dfa4327f64941e832a1746c5c7422fb66f02eef",
+   "canonical_equal_old_new": true,
+   "figures": 1027,
+   "thinking_modes": 2858,
+   "schema_equal": true,
+   "nature": "仅 sqlite 布局/记账字节, 行级全等"
+  },
+  "manifest_stamp": {
+   "file": "docs/architecture/static_data_manifest.json",
+   "nature": "generated_at + 所载 db sha 滚动"
+  },
+  "semantic_equals_except_stamp": true,
+  "evidence": [
+   "scratch/w4fix2/attribution_raw.txt",
+   "scratch/w4fix2/analyze_diffs.py",
+   "scratch/w4fix2/snap0..4.json"
+  ]
+ },
+ "normalization": {
+  "restored_tracked": {
+   "api/protreptic.db": "c5eb126e93f88757 (HEAD)",
+   "docs/architecture/static_data_manifest.json": "f832f46e2d721b57 (HEAD)"
+  },
+  "restored_build_files": 24,
+  "source": "publish baseline (pb vs baseline 4148/4148 byte-verified)",
+  "final_check": "snap0 vs snap4: 仅 tools/json/scenarios_zh.json 差异",
+  "rationale": "卡契约 预期差异面=零; 26 项均属重建重打性质无内容语义"
+ },
+ "verification": {
+  "verifier": "verify_w4fix2_lxn.py",
+  "quick": "23/23 PASS",
+  "full": "见 receipts (v2)",
+  "trees": {
+   "web/public/data": "1383/1383 byte-identical",
+   "web/dist": "2765/2765 byte-identical"
+  },
+  "gates": {
+   "credibility": "rc=0",
+   "source_links": "rc=0",
+   "findings": "rc=0 (1 存量 warning)",
+   "ci_data_check": "24/24 PASS"
+  },
+  "rescan": {
+   "live_hits": [],
+   "exempt_files": [
+    [
+     "CHANGELOG.md",
+     1
+    ],
+    [
+     "H-LXN-001.json",
+     4
+    ],
+    [
+     "data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_zh.json",
+     4
+    ],
+    [
+     "data/backup_phase21w4_fix2_20260924/README.md",
+     1
+    ],
+    [
+     "data/backup_phase21w4_fix2_20260924/fields_before.json",
+     5
+    ],
+    [
+     "data/backup_phase21w4_fix2_20260924/tools/json/scenarios_zh.json",
+     4
+    ],
+    [
+     "data/backup_phase21w4_fix_20260924/tools/json/H-LXN-001.json",
+     4
+    ],
+    [
+     "data/backup_phase21w4_fix_20260924/tools/json/scenarios_zh.json",
+     4
+    ],
+    [
+     "data/backup_phase21w4_rwkag_clear_20260924/tools/json/scenarios_zh.json",
+     4
+    ],
+    [
+     "data/backup_root_tools_json_legacy_20260923/code_maps.json",
+     1
+    ],
+    [
+     "docs/figures/H-LXN-001.md",
+     2
+    ],
+    [
+     "docs/research/phase19_summary.md",
+     2
+    ],
+    [
+     "docs/research/phase21r8_w4_names_recon.json",
+     2
+    ],
+    [
+     "docs/research/phase21r8_w4_names_recon.md",
+     2
+    ],
+    [
+     "docs/research/phase21w4_fix2_report.md",
+     7
+    ],
+    [
+     "docs/research/phase21w4_fix_evidence.json",
+     12
+    ],
+    [
+     "docs/research/phase21w4_fix_manifest.json",
+     10
+    ],
+    [
+     "docs/research/phase21w4_fix_manifest.md",
+     11
+    ],
+    [
+     "docs/research/phase21w4_fix_report.md",
+     4
+    ],
+    [
+     "docs/research/phase21w6_marker_scan.json",
+     1
+    ],
+    [
+     "site_docs/figures/H-LXN-001/index.html",
+     2
+    ],
+    [
+     "site_docs/research/phase19_summary/index.html",
+     2
+    ],
+    [
+     "site_docs/research/phase21r8_w4_names_recon.json",
+     2
+    ],
+    [
+     "site_docs/research/phase21r8_w4_names_recon/index.html",
+     2
+    ],
+    [
+     "site_docs/research/phase21w4_fix_manifest.json",
+     10
+    ],
+    [
+     "site_docs/research/phase21w4_fix_manifest/index.html",
+     11
+    ]
+   ]
+  }
+ },
+ "boundary_notes": [
+  {
+   "id": "B-a",
+   "note": "scenarios_zh H-LXN-001 en 侧扩展位 (name_en/description_en/reason_en/case_en) 仍为 Mao Xiannian x4 (拉丁), 未见于任何既有清单; 超出本卡边界未触碰; 建议后续卡裁定 (先登记后裁定)。live 面 DB name_en 取 scenarios_en.name = Li Xiannian, 站点不受影响"
+  },
+  {
+   "id": "B-b",
+   "note": "根目录 H-LXN-001.json 8 处 (zh4+en4): W7 卡 t_d24e11bc 处置; marker_scan record 124 已登记"
+  },
+  {
+   "id": "B-c",
+   "note": "docs/figures/H-LXN-001.md 2 处: R-c 纠错注记, 设计保留"
+  },
+  {
+   "id": "B-d",
+   "note": "CHANGELOG.md 1 处: 历史条目不改写 (manifest 既定)"
+  },
+  {
+   "id": "B-e",
+   "note": "父证据 r2_scenarios_zh_extras after=before 为落盘前实录; 父报告 §2.2 已加补正注记"
+  },
+  {
+   "id": "B-f",
+   "note": "site_docs 6 件陈旧构建 (gitignore, CI 重建): 保留登记 (同 t_ee203180 E-b)"
+  },
+  {
+   "id": "B-g",
+   "note": "data/backup_* 六盘备份类留存"
+  }
+ ],
+ "receipts": {
+  "status": "v1; 回执补记 v2 覆盖 (工作仓 sha / 发布仓 sha / push / remote main / parity / raw)"
+ },
+ "reports": {
+  "md": "docs/research/phase21w4_fix2_report.md",
+  "parent_addendum": "docs/research/phase21w4_fix_report.md §2.2"
+ }
+}

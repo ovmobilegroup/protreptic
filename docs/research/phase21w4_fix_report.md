@@ -32,6 +32,7 @@ H-HYP-145 黄炎培 / H-WYX-146 吴有训 / H-WX-147 王选 / H-YLP-148 袁隆�
 
 - tools/json/H-LXN-001.json: 8 个字段 (name/description/reason/case 的 zh/en) 逐字替换。
 - scenarios_zh.json: name_zh/description_zh/reason_zh/case_zh 4 处 (manifest 实测扩展项 8-1, 同批改)。
+  - 补正注记 (t_33240de8, 2026-09-24): 原声称 同批改 与证据实录不符: phase21w4_fix_evidence.json r2_scenarios_zh_extras 四字段 before=after (未落盘; git 直测该 4 字段自父版以来未变更). 补正卡 t_33240de8 已完成落盘: 4 处 毛先念 -> 李先念 等长最小 diff (文件 2981559 B 不变; sha256 9727c8ea -> 8b218e71; 字节级差异 8 字节 = 4 个窗口内各 2 字节), 全链 18 步复跑全绿, 差异面零 (figures 1027 / routes 1358 / sitemap 1359 / unified 1342 / 模式 3221 与开工前一致; 重打戳记类已按零差异契约归一化基线). 回执: docs/research/phase21w4_fix2_report.md/.json; 见证器 verify_w4fix2_lxn.py.
 - scenarios_en.json: name_en (R2 字面) + description_en/reason_en/case_en 3 处 (随 R2 同步)。
 - docs/figures/H-LXN-001.md: 不改 (见第六节 R-c: 实测 2 处为「误写说明」注记, 非错名正文)。
 - 根目录 H-LXN-001.json: 不动 (manifest 定为 R7 旁项/待复核, 见第六节 R-b)。
