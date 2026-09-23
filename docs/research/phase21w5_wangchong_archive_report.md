@@ -328,3 +328,17 @@ curl -s -o /dev/null -w '%{http_code}' https://ovmobilegroup.github.io/protrepti
 - 曾子 `t_6c7e070a`（Phase20R 归档）、R6 王祥 `t_557aeac1`+`t_a8f544f5`、罗瑞卿 `t_d9cb98bb`、AZJ `t_a8f544f5` 链：九节体例、QA 产物镜像、脚本不入镜像面。
 - 本报告新增：QA FAIL 态全量登记（不修饰）+ 本卡复核 NEW-1/NEW-2（QA 未覆盖项）。
 
+---
+
+## 附：v2 回执补记（v1 轮精确回执 + parity 复测；2026-09-24 05:45）
+
+- **v1 轮精确回执（[实测-本卡]）**：
+  - WS1 = `48c0df9b`（工作仓 master；报告 1 件 / +330 行；05:42:34）
+  - P1 = `f8c09cb`（发布仓 main；3 件 / +1,036 行；05:42:53）
+  - push1 = `fde0d0f..f8c09cb  main -> main`（rc=0）；远端复核 `git ls-remote origin main` = `f8c09cbaa27c98336acdb39605f4f2c2a653ecb6`
+  - 镜像 byte-exact 对测（cmp）：QA 报告 `baee6321a0c0172e` / QA 证据 `26aca060d60baf0f` / 本报告 `5237d05fbab4a4eb`
+  - 远端 raw 复核（GitHub CDN 实测）：三件 sha256 与本地逐一一致（报告 30,979 B / QA 报告 32,903 B / 证据 10,102 B）
+- **parity 复测（P1 后）**：DIFF；ws 2282 / publish 2276 / both 2276 / identical 2275 / only_workspace 6；差异 7 = 6 `MISSING_IN_PUBLISH`（W4/W6 他链报告 3 对）+ 1 `CONTENT_DIFF`（landing §9，R1）。QA 2 件与本报已消除（开工时 9 → 7）。
+- **v2 轮（本补记）**：WS2 / P2 / push2 精确值见本卡完成回执 metadata（`ws_commit_v2` / `publish_commit_v2` / `push_v2`）；final parity（P2 后）复测值同上（他链 6 + §9 1）。
+- **工作仓推送面说明**：GitHub 远端仅有 `refs/heads/main`（发布仓面）；工作仓 master 无远端推送面——按链口径本卡仅推发布仓（[实测-本卡] `git ls-remote origin`）。
+
