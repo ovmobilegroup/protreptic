@@ -11,7 +11,7 @@
    "sha256": "9c7094f9c68dcf14ca94a233b5e70a373c7e496587756b4cb2fdadd2f1bb3bed",
    "bytes": 6509,
    "lines": 93,
-   "first_commit": "WS1（见 receipts；v2 回执行给出精确 sha）"
+   "first_commit": "b004ec017c5958a855e5a6f3aa39d9c18b46b195（WS1；镜像 P1 4fefa6f9）"
   },
   "generator": {
    "path": "build_hzx002_archive.py",
@@ -27,10 +27,12 @@
    "path": "docs/research/phase21r8_wangxiang_archive_report.md",
    "sha256_v1": "87c78062aee3d42a9f7a0aca592f28624ce6dd93cdd9132e05edec074646ded2",
    "placeholder_sha256": "f1f0f28e243a9e8fe37964e65d83ce13b75fc0444400cbc8164e4a05f1bfb3eb",
-   "placeholder_commit": "dc9fe52942e8ece57c38519763b3061176288237"
+   "placeholder_commit": "dc9fe52942e8ece57c38519763b3061176288237",
+   "sha256_v2": "f088c235528e6f09cb15fb4f2ab1b5e7a9a86ec2937b3527d31f7024d48466c4"
   },
   "evidence": {
-   "path": "docs/research/phase21r8_wangxiang_archive_evidence.json"
+   "path": "docs/research/phase21r8_wangxiang_archive_evidence.json",
+   "sha256_v1": "175773d78968c0f17e176cb2fe3847d8792a1fb19e4de8b9e84d47f1bf7e8293"
   },
   "qa_mirror_scope": "19 件（docs/qa/phase21r8_wangxiang_qa_*）",
   "scripts_not_mirrored": [
@@ -105,9 +107,9 @@
   {
    "seg": "收尾补交（本卡）",
    "card": "t_a8f544f5",
-   "ws_commit_v1": "pending",
-   "publish_commit_v1": "pending",
-   "push_v1": "pending"
+   "ws_commit_v1": "b004ec017c5958a855e5a6f3aa39d9c18b46b195",
+   "publish_commit_v1": "4fefa6f9ec977da81806a69fe6ba1a5f5c615860",
+   "push_v1": "04837b3..4fefa6f（rc=0）"
   }
  ],
  "qa_reference": {
@@ -162,7 +164,8 @@
    "docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_source_links.txt": 33767,
    "docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt": 63607
   },
-  "dst": "publish docs/qa/（byte-exact，按曾子/R6 先例）"
+  "dst": "publish docs/qa/（byte-exact，按曾子/R6 先例）",
+  "byte_exact": "19/19（cmp；随 P1 镜像）"
  },
  "mirror": {
   "publish_repo": "/opt/data/release/Protreptic-publish",
@@ -190,7 +193,10 @@
    "docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_source_links.txt",
    "docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt"
   ],
-  "byte_exact": "pending（v2 回执行给出提交 sha 与逐件比对结果）"
+  "byte_exact": "true（22/22 逐件 cmp；P1 提交 22 files changed, 3565 insertions）",
+  "P1": "4fefa6f9ec977da81806a69fe6ba1a5f5c615860",
+  "push_v1": "04837b3..4fefa6f  main -> main（rc=0）",
+  "remote_main_snapshot_v1": "4fefa6f9ec977da81806a69fe6ba1a5f5c615860"
  },
  "parity": {
   "tool": "tools/check_repo_parity.py --json",
@@ -202,8 +208,16 @@
    "chain_paths_in_diffs": 21,
    "note": "本链 21 条 = 页 untracked 1 + 报告 1 + QA 19；差值归因他链（W5/W4/luorq QA）"
   },
-  "run_final": "pending（v2 回执行）",
-  "chain_paths_diffs": "pending（预期 0）"
+  "run_final": "见卡 t_a8f544f5 完成回执 metadata（parity_run_final）与卡评论（P2 后终测）",
+  "chain_paths_diffs": "pending（预期 0）",
+  "run1_after_mirror": {
+   "status": "DIFF",
+   "diffs": 305,
+   "content_diff": 6,
+   "only_workspace": 299,
+   "chain_paths_diffs": 0,
+   "note": "本链 22 路径 0 差（run0 的 21 条全数消除）；残差归他链：luorq QA/复核 19（11 件 run0 后新增）+ W4 4 + W5 282"
+  }
  },
  "discrepancies_registered": {
   "note": "本卡新做内容一致性核验；页按 R8-A 产物原样提交（未改一字节），以下按实况如实登记（未伪修）",
@@ -263,14 +277,14 @@
   }
  },
  "receipts": {
-  "ws_commit_v1": "pending",
-  "publish_commit_v1": "pending",
-  "push_v1": "pending",
-  "ws_commit_v2": "pending",
-  "publish_commit_v2": "pending",
-  "push_v2": "pending",
-  "remote_main": "pending",
-  "note": "v1 提交与镜像 push 后由 v2 轮补记（对齐 t_2d15bd2e 先例）"
+  "ws_commit_v1": "b004ec017c5958a855e5a6f3aa39d9c18b46b195",
+  "publish_commit_v1": "4fefa6f9ec977da81806a69fe6ba1a5f5c615860",
+  "push_v1": "04837b3..4fefa6f  main -> main（rc=0；origin/main 复核=4fefa6f）",
+  "ws_commit_v2": "pending（见卡 t_a8f544f5 metadata ws_commit_v2）",
+  "publish_commit_v2": "pending（见卡 t_a8f544f5 metadata publish_commit_v2）",
+  "push_v2": "pending（见卡 t_a8f544f5 metadata push_v2）",
+  "remote_main": "见卡 t_a8f544f5 metadata remote_main",
+  "note": "对齐 t_2d15bd2e 先例：v1 精确回执入件，v2 轮精确值随卡回执（2 轮回补交，不做第三轮）"
  },
  "zero_data_change": {
   "method": "git diff --cached --name-only == 白名单（v1 实测）",
@@ -280,5 +294,7 @@
    "docs/research/phase21r8_wangxiang_archive_evidence.json"
   ],
   "data_files_touched": 0
- }
+ },
+ "version": "v2",
+ "updated_at_cst": "2026-09-24 01:35:52 (CST)"
 }

@@ -2,6 +2,7 @@
 
 - 执行：pigafetta｜日期：2026-09-24｜工作仓：/opt/data/workspace/Protreptic｜发布仓：/opt/data/release/Protreptic-publish
 - 本件状态：原文档卡 t_557aeac1 仅落 1 行占位（提交 dc9fe529，30 B，sha256 f1f0f28e…）；本版由收尾补交卡 t_a8f544f5 逐节补全，并补入登记链提交 sha 与镜像/push 回执节。
+- 版本轨迹：v1（WS1 b004ec01 / P1 4fefa6f / push 04837b3..4fefa6f；页＋报告＋证据 3 件）→ v2 本版（回执补记：§六 parity run1、§七 v1 精确回执；v2 轮的 WS2/P2/push2 精确值见卡 t_a8f544f5 metadata 与卡评论）。
 - 产出：docs/figures/H-HZX-002.md（九节档案，首次提交，93 行 / 6,509 B / sha256 9c7094f9…）；本报告；归档证据 docs/research/phase21r8_wangxiang_archive_evidence.json；（既有，bc3824f4）生成器 build_hzx002_archive.py 与验收脚本 verify_hzx002_archive.py；QA 交付物 19 件镜像（发布仓 docs/qa/）。
 - 边界：本卡零数据/主库改动（工作仓提交白名单仅 3 件 docs 层文件；名单外 0）；页内容按 R8-A 产物**原样**提交（未改一字节）——页内陈述行与数据面实况的差异如实登记于第六节（发现项登记，未伪修）。
 
@@ -79,9 +80,9 @@
 
 ### parity 实测（tools/check_repo_parity.py --json；快照以 git 实测为准）
 - run0（镜像前基线）：DIFF 315 = 6 内容差（W5 链工具/数据在制）＋309 仅工作仓；本链 21 条在列（页 untracked 1 ＋ 报告 1 ＋ QA 19）。
-- run1（镜像后）：见第七节 v2 回执行（本链 22 路径 0 差；残差全属他链在制）。
-- run2（终测）：见第七节 v2 回执行。
-- 残差归因（run0，非本链）：W5 链（6 内容差＋docs/scratch 271＋docs/research 3＋data/audit 2）；luorq QA 8 件；W4 4 件。
+- run1（镜像与 push1 后快照）：DIFF 305 = 6 内容差（W5 工具/数据在制）＋299 仅工作仓；本链 22 路径 0 差（run0 基线 21 条全数消除；证据 json 新增件两仓同体）；残差归因见下。
+- run2（终测，P2 后）：见卡 t_a8f544f5 完成回执 metadata（parity_run_final）与卡评论。
+- 残差归因（run1，非本链）：luorq QA/复核 19 件（untracked，其中 11 件为 run0 后新增）；W4 4 件；W5 链 282 件（6 内容差＋docs/scratch 271＋docs/research 3＋data/audit 2）。
 
 ### 内容一致性核验（本卡新做；发现项如实登记，未伪修）
 
@@ -97,8 +98,8 @@
 
 ## 七、提交与推送回执（v2 补记）
 
-- v1（页＋报告＋证据 3 件）：工作仓 WS1、【v2 补精确 sha】；发布仓 P1、【v2】（22 件：页＋报告＋证据＋QA 19，逐件 byte-exact）；push、【v2】（rc=0；origin/main 复核、【v2】）。
-- v2（回执补记；报告＋证据 2 件）：工作仓 WS2、【v2】；发布仓 P2、【v2】（2 件，byte-exact）；push、【v2】（rc=0；远端复核、【v2】）。
+- v1（页＋报告＋证据 3 件）：工作仓 WS1＝b004ec017c5958a855e5a6f3aa39d9c18b46b195（名单 3 件精确、名单外 0）；发布仓 P1＝4fefa6f9ec977da81806a69fe6ba1a5f5c615860（22 件：页＋报告＋证据＋QA 19，逐件 cmp byte-exact 22/22）；push＝04837b3..4fefa6f main -> main（rc=0；ls-remote origin/main＝4fefa6f 复核一致）。
+- v2（回执补记；报告＋证据 2 件）：工作仓 WS2、发布仓 P2、push2 的精确 sha 与区间见卡 t_a8f544f5 完成回执 metadata（ws_commit_v2 / publish_commit_v2 / push_v2）与两仓 git log（v2 轮提交信息含「v2 回执补记」）。
 - 工作仓 master push：不适用（环境事实：远端仅 main；dry-run 为全量历史上传，master 历史含 440.19 MB blob 1ff8dcb9:api/triton/_C/libtriton.so，服务端 100 MB pre-receive 拒绝；phase45_acceptance.md / link_coverage.md §10.1 在案——同 t_2d15bd2e 先例）。
 - 精确 sha 与 push 区间另见卡 t_a8f544f5 完成回执 metadata（ws_commit_v1/v2、publish_commit_v1/v2、push_v1/v2、remote_main）与两仓 git log（提交信息含「卡 t_557aeac1 收尾补交」）。
 
@@ -117,5 +118,5 @@
 
 1. 【页内容缺陷 D1–D6（第六节）】建议船长裁定路由：修正卡改生成器缺项行数据驱动＋验收脚本增陈述性断言＋§九补 commit 链登记；本卡原样补交、未伪修。
 2. QA 侧遗留（属 QA 卡边界，未伪修）：冻结 worktree 留痕（~/.cache/wxqa_frozen_wt@d95a7b53，可 git worktree remove）；verifstatus 19 条漂移含他卡码（本链 9 条维持 pending 不回填属纪律(4)）。
-3. 发布仓 parity 残差（294→）全属他链在制（W4/W5/luorq QA）；本链 0 残差；建议各链收尾卡按同模板收口。
+3. 发布仓 parity 残差（run1：305 条）全属他链在制（luorq QA/复核 19、W4 4、W5 282）；本链 0 残差；建议各链收尾卡按同模板收口。
 4. 远端 Pages：镜像 push 将触发构建；异常回滚 revert（禁 --force）。
