@@ -104,6 +104,10 @@ tools/json/ 下 4 件清档码草稿删除: SG-Lee-001.json / MY-Mah-001.json / 
 
 ## 七, 回执 (提交/镜像/push/parity)
 
-- 工作仓 commit: (待补记)
-- 发布仓镜像 commit: (待补记); parity: (待补记); push: (待补记; remote main 校验)
+- 工作仓 commit: e7be5cc6 (主体: 数据 + 代码 + 备份 + 报告 v1; 28 files changed, +25261 / -136)。
+- 工作仓 HEAD (报告 v2 提交前): e7be5cc6aec80d998887d3c62cfac05d14d42edd。
+- 发布仓镜像 commit: da1e9bc (15 file byte-exact + 备份件 13/13 + 4 重键草稿删除归档; parity: 共同件 2291 = 逐字节 2291, CONTENT_DIFF 0, only_publish 0; MISSING_IN_PUBLISH 6 件他链文档, 见 R-a)。
+- push: 465c19a..da1e9bc main -> main rc=0; ls-remote remote main = da1e9bc9634f7c0b3a250241de4d21e1308fb72f (与本地一致)。
+- 远端 raw 校验: 4/4 逐字节一致 (report 41e2fa8f / H-LXN-001.json fc6e9884 / static.ts 9917a7b1 / export_static_site.py bfc6514a, 前 16 位)。
 - 备份 sha 清单: data/backup_phase21w4_fix_20260924/MANIFEST.sha256 (11 件 before sha, 读取即验)
+- 报告 v2 自身镜像 push 回执: (待补记)

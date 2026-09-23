@@ -1,8 +1,8 @@
 {
  "card": "t_536073f4",
  "generated_at": "2026-09-24T06:08:27+0800",
- "workspace_head": null,
- "publish_head": null,
+ "workspace_head": "e7be5cc6aec80d998887d3c62cfac05d14d42edd",
+ "publish_head": "da1e9bc9634f7c0b3a250241de4d21e1308fb72f",
  "basis": "docs/research/phase21w4_fix_manifest.md/.json (卡 t_10a42b2a)",
  "backup_dir": "data/backup_phase21w4_fix_20260924",
  "precheck": {
@@ -996,6 +996,37 @@
   },
   "web/src/views/ApiDocsView.vue": {
    "文案计数 x2": "1057 -> 1054"
+  }
+ },
+ "receipts": {
+  "workspace_commit": "e7be5cc6aec80d998887d3c62cfac05d14d42edd",
+  "publish_mirror_commit": "da1e9bc9634f7c0b3a250241de4d21e1308fb72f",
+  "push": "465c19a..da1e9bc main -> main rc=0",
+  "remote_main": "da1e9bc9634f7c0b3a250241de4d21e1308fb72f",
+  "parity": {
+   "common": 2291,
+   "identical": 2291,
+   "content_diff": 0,
+   "only_publish": 0,
+   "missing_in_publish": 6,
+   "missing_list": [
+    "docs/research/phase21r8_w4_names_recon.json",
+    "docs/research/phase21r8_w4_names_recon.md",
+    "docs/research/phase21w4_fix_manifest.json",
+    "docs/research/phase21w4_fix_manifest.md",
+    "docs/research/phase21w6_marker_scan.json",
+    "docs/research/phase21w6_marker_scan.md"
+   ]
+  },
+  "remote_raw_verified": {
+   "docs/research/phase21w4_fix_report.md": "41e2fa8fc94fcf8e",
+   "tools/json/H-LXN-001.json": "fc6e9884a39a8f32",
+   "web/src/api/static.ts": "9917a7b1970c7942",
+   "tools/export_static_site.py": "bfc6514a7c0c4733"
+  },
+  "backup_mirrored": {
+   "files": 13,
+   "byte_exact": true
   }
  }
 }
