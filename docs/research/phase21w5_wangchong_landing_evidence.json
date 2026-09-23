@@ -1,0 +1,55 @@
+{
+  "schema": "phase21w5_landing_evidence_v1",
+  "generated_at": "2026-09-24T04:30:00+00:00",
+  "card_id": "t_fdc1589e",
+  "wc_before": {
+    "M-WC-001": "pending",
+    "M-WC-002": "pending",
+    "M-WC-003": "pending",
+    "M-WC-004": "pending",
+    "M-WC-005": "pending",
+    "M-WC-006": "pending",
+    "M-WC-007": "pending",
+    "M-WC-008": "pending",
+    "M-WC-009": "pending",
+    "M-WC-010": "pending"
+  },
+  "wc_after": {
+    "M-WC-001": "verified",
+    "M-WC-002": "verified",
+    "M-WC-003": "verified",
+    "M-WC-004": "verified",
+    "M-WC-005": "pending",
+    "M-WC-006": "verified",
+    "M-WC-007": "pending",
+    "M-WC-008": "verified",
+    "M-WC-009": "suspect",
+    "M-WC-010": "pending"
+  },
+  "findings_summary": {
+    "D4_quote_mismatch": 24,
+    "D4_empty_quote": 27,
+    "D5_timeline_conflict": 1,
+    "D6_orphan_reference": 37,
+    "D7_duplicate_definition": 0,
+    "total": 165
+  },
+  "four_state_before": {
+    "verified": 950,
+    "suspect": 51,
+    "pending": 1939,
+    "unverifiable": 351
+  },
+  "four_state_after": {
+    "verified": 949,
+    "suspect": 52,
+    "pending": 1907,
+    "unverifiable": 351
+  },
+  "source_text_entry": {
+    "key": "《论衡》",
+    "truncated": false,
+    "chars": 265821,
+    "bytes": 789949
+  }
+}

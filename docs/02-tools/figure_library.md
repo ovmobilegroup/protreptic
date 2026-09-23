@@ -1,6 +1,6 @@
 # 历史人物思维模式库查询工具（figure_library）
 
-> 把 Protreptic 的核心资产——**278 位历史人物 × 站上发布 2798 条思维模式**——接入可查询的产品层。
+> 把 Protreptic 的核心资产——**318 位历史人物 × 站上发布 3221 条思维模式**——接入可查询的产品层。
 > （源库 `data/modes_data.json` 的原始记录口径是 284 位 / 2868 条，两者差别见文末「计数口径」。）
 
 ## 为什么有这个工具
@@ -84,7 +84,7 @@ cd api && python load_v6.py
 
 ## 计数口径（唯一来源）
 
-对外展示的产品规模只有一个口径：**2798 条思维模式 × 278 位历史人物**。
+对外展示的产品规模只有一个口径：**3221 条思维模式 × 318 位历史人物**。
 
 - 唯一来源：`web/public/data/meta.json` 的 `counts.mode_summaries_published`（条数）与
   `counts.mode_by_figure_shards`（人物数）；部署产物 `dist/data/meta.json` 是同一份数据。
