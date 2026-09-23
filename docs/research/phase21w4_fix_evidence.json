@@ -1,0 +1,1001 @@
+{
+ "card": "t_536073f4",
+ "generated_at": "2026-09-24T06:08:27+0800",
+ "workspace_head": null,
+ "publish_head": null,
+ "basis": "docs/research/phase21w4_fix_manifest.md/.json (卡 t_10a42b2a)",
+ "backup_dir": "data/backup_phase21w4_fix_20260924",
+ "precheck": {
+  "manifest_ready": true,
+  "board_only_this_card_running": true,
+  "jp_sas_uz_ulu_absence_rg": "PASS(0)",
+  "fmt": "compact/no-trailing-NL/roundtrip byte-exact"
+ },
+ "backup": {
+  "created_at": "2026-09-24T05:49:40+0800",
+  "card": "t_536073f4",
+  "basis": "docs/research/phase21w4_fix_manifest.json e_backup_templates.backup_phase21w4_fix",
+  "files": [
+   {
+    "path": "tools/json/scenarios_zh.json",
+    "bytes": 3037108,
+    "sha256": "9c65a12157e8cf101a298807dae5815a1452716c1df244cc2527344e3356f705",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "tools/json/scenarios_en.json",
+    "bytes": 2287191,
+    "sha256": "acadac5909c2341dd340e0f5d8fc811cb65956561aec7fa19cdacde486975d9b",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "tools/json/H-LXN-001.json",
+    "bytes": 7208,
+    "sha256": "f1eea2d7e76b92db5578837e4bf257674455e1886dcd0d2e8e7f655ed9b056ae",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "tools/json/SG-Lee-001.json",
+    "bytes": 11352,
+    "sha256": "e51028809f5d3b99de45aed19d435de360f18c54edd136e32dd381053433b635",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "tools/json/MY-Mah-001.json",
+    "bytes": 11295,
+    "sha256": "a122002d4fa3025160cd8016c83d0f34a6b3dcb1761845191c86e84723b76a8a",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "tools/json/JP-Sas-001.json",
+    "bytes": 11461,
+    "sha256": "c8c0634ba737ccbf733c197315c92436c8f966adfd2760294914d1efe968ae14",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "tools/json/UZ-Ulu-001.json",
+    "bytes": 11338,
+    "sha256": "2906ee68f62b5147e155b2c3f94d82fe83e44aeb72948f2a90086dc8ecfba66c",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "api/protreptic.db",
+    "bytes": 38490112,
+    "sha256": "e82be49fa011b2c0001d80f615959e63b0588505e49ddb2db64ae4318f6eacf0",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "docs/architecture/web_p0_routes.json",
+    "bytes": 706361,
+    "sha256": "1a8319f86b8037a56937f66adf1966514793014c22fb90d6cfcbe675e96ce167",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "web/public/sitemap.xml",
+    "bytes": 217128,
+    "sha256": "31bd3584aa11719d1b0081df7a6534b06617c677ac057aee79d7bd887098c682",
+    "copy_byte_exact": true
+   },
+   {
+    "path": "docs/architecture/static_data_manifest.json",
+    "bytes": 3748,
+    "sha256": "aa76ddf3310a88e20c16678775fdf6935c98dfae60823d943b5637f1f00268cc",
+    "copy_byte_exact": true
+   }
+  ],
+  "count": 11,
+  "all_byte_exact": true
+ },
+ "per_code": {
+  "H-HYP-145": {
+   "target_zh": "黄炎培",
+   "target_en": "Huang Yanpei",
+   "before": {
+    "db_id": 134,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 134,
+    "db_name_zh": "黄炎培",
+    "db_name_en": "Huang Yanpei",
+    "src_zh": "黄炎培",
+    "src_en": "Huang Yanpei",
+    "shard_zh": "黄炎培",
+    "light_index_zh": "黄炎培",
+    "unified_name": "黄炎培",
+    "unified_type": "scenario",
+    "route": "figures/H-HYP-145",
+    "route_title": "黄炎培 - 场景档案 5 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-WYX-146": {
+   "target_zh": "吴有训",
+   "target_en": "Wu Youxun",
+   "before": {
+    "db_id": 135,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 135,
+    "db_name_zh": "吴有训",
+    "db_name_en": "Wu Youxun",
+    "src_zh": "吴有训",
+    "src_en": "Wu Youxun",
+    "shard_zh": "吴有训",
+    "light_index_zh": "吴有训",
+    "unified_name": "吴有训",
+    "unified_type": "scenario",
+    "route": "figures/H-WYX-146",
+    "route_title": "吴有训 - 场景档案 5 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-WX-147": {
+   "target_zh": "王选",
+   "target_en": "Wang Xuan",
+   "before": {
+    "db_id": 136,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 136,
+    "db_name_zh": "王选",
+    "db_name_en": "Wang Xuan",
+    "src_zh": "王选",
+    "src_en": "Wang Xuan",
+    "shard_zh": "王选",
+    "light_index_zh": "王选",
+    "unified_name": "王选",
+    "unified_type": "scenario",
+    "route": "figures/H-WX-147",
+    "route_title": "王选 - 场景档案 5 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-YLP-148": {
+   "target_zh": "袁隆平",
+   "target_en": "Yuan Longping",
+   "before": {
+    "db_id": 137,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 137,
+    "db_name_zh": "袁隆平",
+    "db_name_en": "Yuan Longping",
+    "src_zh": "袁隆平",
+    "src_en": "Yuan Longping",
+    "shard_zh": "袁隆平",
+    "light_index_zh": "袁隆平",
+    "unified_name": "袁隆平",
+    "unified_type": "scenario",
+    "route": "figures/H-YLP-148",
+    "route_title": "袁隆平 - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-SY-149": {
+   "target_zh": "粟裕",
+   "target_en": "Su Yu",
+   "before": {
+    "db_id": 138,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 138,
+    "db_name_zh": "粟裕",
+    "db_name_en": "Su Yu",
+    "src_zh": "粟裕",
+    "src_en": "Su Yu",
+    "shard_zh": "粟裕",
+    "light_index_zh": "粟裕",
+    "unified_name": "粟裕",
+    "unified_type": "scenario",
+    "route": "figures/H-SY-149",
+    "route_title": "粟裕 - 场景档案 5 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-XMQ-151": {
+   "target_zh": "薛暮桥",
+   "target_en": "Xue Muqiao",
+   "before": {
+    "db_id": 140,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 140,
+    "db_name_zh": "薛暮桥",
+    "db_name_en": "Xue Muqiao",
+    "src_zh": "薛暮桥",
+    "src_en": "Xue Muqiao",
+    "shard_zh": "薛暮桥",
+    "light_index_zh": "薛暮桥",
+    "unified_name": "薛暮桥",
+    "unified_type": "scenario",
+    "route": "figures/H-XMQ-151",
+    "route_title": "薛暮桥 - 场景档案 5 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-CY-159": {
+   "target_zh": "陈毅",
+   "target_en": "Chen Yi",
+   "before": {
+    "db_id": 148,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 148,
+    "db_name_zh": "陈毅",
+    "db_name_en": "Chen Yi",
+    "src_zh": "陈毅",
+    "src_en": "Chen Yi",
+    "shard_zh": "陈毅",
+    "light_index_zh": "陈毅",
+    "unified_name": "陈毅",
+    "unified_type": "scenario",
+    "route": "figures/H-CY-159",
+    "route_title": "陈毅 - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-LXN-347": {
+   "target_zh": "李先念",
+   "target_en": "Li Xiannian",
+   "before": {
+    "db_id": 367,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 367,
+    "db_name_zh": "李先念",
+    "db_name_en": "Li Xiannian",
+    "src_zh": "李先念",
+    "src_en": "Li Xiannian",
+    "shard_zh": "李先念",
+    "light_index_zh": "李先念",
+    "unified_name": "李先念",
+    "unified_type": "scenario",
+    "route": "figures/H-LXN-347",
+    "route_title": "李先念 - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-LXN-001": {
+   "target_zh": "李先念",
+   "target_en": "Li Xiannian",
+   "before": {
+    "db_id": 368,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 368,
+    "db_name_zh": "李先念",
+    "db_name_en": "Li Xiannian",
+    "src_zh": "李先念",
+    "src_en": "Li Xiannian",
+    "shard_zh": "李先念",
+    "light_index_zh": "李先念",
+    "unified_name": "李先念",
+    "unified_type": "scenario",
+    "route": "figures/H-LXN-001",
+    "route_title": "李先念 - 场景档案 5 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-IKD-160": {
+   "target_zh": "伊本·赫勒敦",
+   "target_en": "Ibn Khaldun",
+   "before": {
+    "db_id": 1000,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 1000,
+    "db_name_zh": "伊本·赫勒敦",
+    "db_name_en": "Ibn Khaldun",
+    "src_zh": "伊本·赫勒敦",
+    "src_en": "Ibn Khaldun",
+    "shard_zh": "伊本·赫勒敦",
+    "light_index_zh": "伊本·赫勒敦",
+    "unified_name": "伊本·赫勒敦",
+    "unified_type": "scenario",
+    "route": "figures/H-IKD-160",
+    "route_title": "伊本·赫勒敦 - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-ISC-362": {
+   "target_zh": "阿维森纳（伊本·西那）",
+   "target_en": "Avicenna (Ibn Sina)",
+   "before": {
+    "db_id": 1001,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 1001,
+    "db_name_zh": "阿维森纳（伊本·西那）",
+    "db_name_en": "Avicenna (Ibn Sina)",
+    "src_zh": "阿维森纳（伊本·西那）",
+    "src_en": "Avicenna (Ibn Sina)",
+    "shard_zh": "阿维森纳（伊本·西那）",
+    "light_index_zh": "阿维森纳（伊本·西那）",
+    "unified_name": "阿维森纳（伊本·西那）",
+    "unified_type": "scenario",
+    "route": "figures/H-ISC-362",
+    "route_title": "阿维森纳（伊本·西那） - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-GHZ-163": {
+   "target_zh": "安萨里",
+   "target_en": "Al-Ghazali",
+   "before": {
+    "db_id": 1002,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 1002,
+    "db_name_zh": "安萨里",
+    "db_name_en": "Al-Ghazali",
+    "src_zh": "安萨里",
+    "src_en": "Al-Ghazali",
+    "shard_zh": "安萨里",
+    "light_index_zh": "安萨里",
+    "unified_name": "安萨里",
+    "unified_type": "scenario",
+    "route": "figures/H-GHZ-163",
+    "route_title": "安萨里 - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-SUF-364": {
+   "target_zh": "鲁米（贾拉勒丁·鲁米）",
+   "target_en": "Rumi (Jalal al-Din Rumi)",
+   "before": {
+    "db_id": 1003,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 1003,
+    "db_name_zh": "鲁米（贾拉勒丁·鲁米）",
+    "db_name_en": "Rumi (Jalal al-Din Rumi)",
+    "src_zh": "鲁米（贾拉勒丁·鲁米）",
+    "src_en": "Rumi (Jalal al-Din Rumi)",
+    "shard_zh": "鲁米（贾拉勒丁·鲁米）",
+    "light_index_zh": "鲁米（贾拉勒丁·鲁米）",
+    "unified_name": "鲁米（贾拉勒丁·鲁米）",
+    "unified_type": "scenario",
+    "route": "figures/H-SUF-364",
+    "route_title": "鲁米（贾拉勒丁·鲁米） - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "H-ZEL-001": {
+   "target_zh": "周恩来",
+   "target_en": "Zhou Enlai",
+   "before": {
+    "db_id": 1044,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 1042,
+    "db_name_zh": "周恩来",
+    "db_name_en": "Zhou Enlai",
+    "src_zh": "周恩来",
+    "src_en": "Zhou Enlai",
+    "shard_zh": "周恩来",
+    "light_index_zh": "周恩来",
+    "unified_name": "周恩来",
+    "unified_type": "scenario",
+    "route": "figures/H-ZEL-001",
+    "route_title": "周恩来 - 场景档案 5 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name",
+    "db.id"
+   ]
+  },
+  "H-HLG-001": {
+   "target_zh": "华罗庚",
+   "target_en": "Hua Luogeng",
+   "before": {
+    "db_id": 1045,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 1043,
+    "db_name_zh": "华罗庚",
+    "db_name_en": "Hua Luogeng",
+    "src_zh": "华罗庚",
+    "src_en": "Hua Luogeng",
+    "shard_zh": "华罗庚",
+    "light_index_zh": "华罗庚",
+    "unified_name": "华罗庚",
+    "unified_type": "figure",
+    "route": "minds/H-HLG-001",
+    "route_title": "华罗庚 - 思维模式档案 10 条",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name",
+    "db.id"
+   ]
+  },
+  "H-MZ-001": {
+   "target_zh": "晏阳初",
+   "target_en": "Y. C. James Yen",
+   "before": {
+    "db_id": 1055,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 1053,
+    "db_name_zh": "晏阳初",
+    "db_name_en": "Y. C. James Yen",
+    "src_zh": "晏阳初",
+    "src_en": "Y. C. James Yen",
+    "shard_zh": "晏阳初",
+    "light_index_zh": "晏阳初",
+    "unified_name": "晏阳初",
+    "unified_type": "scenario",
+    "route": "figures/H-MZ-001",
+    "route_title": "晏阳初 - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name",
+    "db.id"
+   ]
+  },
+  "SG-LEE-001": {
+   "target_zh": "李光耀",
+   "target_en": "Lee Kuan Yew",
+   "before": {
+    "db_id": 686,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 686,
+    "db_name_zh": "李光耀",
+    "db_name_en": "Lee Kuan Yew",
+    "src_zh": "李光耀",
+    "src_en": "Lee Kuan Yew",
+    "shard_zh": "李光耀",
+    "light_index_zh": "李光耀",
+    "unified_name": "李光耀",
+    "unified_type": "scenario",
+    "route": "figures/SG-LEE-001",
+    "route_title": "李光耀 - 场景档案 4 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  },
+  "MY-MAH-001": {
+   "target_zh": "马哈蒂尔",
+   "target_en": "Mahathir Mohamad",
+   "before": {
+    "db_id": 1037,
+    "db_name_zh": "Mahathir Mohamad",
+    "db_name_en": "Mahathir Mohamad",
+    "src_zh_name": "Mahathir Mohamad",
+    "src_en_name": "Mahathir Mohamad",
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 1035,
+    "db_name_zh": "马哈蒂尔",
+    "db_name_en": "Mahathir Mohamad",
+    "src_zh": "马哈蒂尔",
+    "src_en": "Mahathir Mohamad",
+    "shard_zh": "马哈蒂尔",
+    "light_index_zh": "马哈蒂尔",
+    "unified_name": "马哈蒂尔",
+    "unified_type": "scenario",
+    "route": "figures/MY-MAH-001",
+    "route_title": "马哈蒂尔 - 场景档案 0 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "src_zh.name",
+    "db.id"
+   ]
+  },
+  "JP-SAS-001": {
+   "target_zh": "西乡隆盛",
+   "target_en": "Saigō Takamori",
+   "before": {
+    "db_id": null,
+    "db_name_zh": null,
+    "db_name_en": null,
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": false,
+    "in_src_en": false
+   },
+   "after": {
+    "db_id": 1023,
+    "db_name_zh": "西乡隆盛",
+    "db_name_en": "Saigō Takamori",
+    "src_zh": "西乡隆盛",
+    "src_en": "Saigō Takamori",
+    "shard_zh": "西乡隆盛",
+    "light_index_zh": "西乡隆盛",
+    "unified_name": "西乡隆盛",
+    "unified_type": "scenario",
+    "route": "figures/JP-SAS-001",
+    "route_title": "西乡隆盛 - 场景档案 3 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name",
+    "db.id"
+   ]
+  },
+  "UZ-ULU-001": {
+   "target_zh": "乌鲁格别克",
+   "target_en": "Ulugh Beg",
+   "before": {
+    "db_id": null,
+    "db_name_zh": null,
+    "db_name_en": null,
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": false,
+    "in_src_en": false
+   },
+   "after": {
+    "db_id": 1024,
+    "db_name_zh": "乌鲁格别克",
+    "db_name_en": "Ulugh Beg",
+    "src_zh": "乌鲁格别克",
+    "src_en": "Ulugh Beg",
+    "shard_zh": "乌鲁格别克",
+    "light_index_zh": "乌鲁格别克",
+    "unified_name": "乌鲁格别克",
+    "unified_type": "scenario",
+    "route": "figures/UZ-ULU-001",
+    "route_title": "乌鲁格别克 - 场景档案 3 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name",
+    "db.id"
+   ]
+  },
+  "RW-KAG-001": {
+   "target_zh": "卡加梅",
+   "target_en": "Paul Kagame",
+   "before": {
+    "db_id": 843,
+    "db_name_zh": "",
+    "db_name_en": "",
+    "src_zh_name": null,
+    "src_en_name": null,
+    "in_src_zh": true,
+    "in_src_en": true
+   },
+   "after": {
+    "db_id": 843,
+    "db_name_zh": "卡加梅",
+    "db_name_en": "Paul Kagame",
+    "src_zh": "卡加梅",
+    "src_en": "Paul Kagame",
+    "shard_zh": "卡加梅",
+    "light_index_zh": "卡加梅",
+    "unified_name": "卡加梅",
+    "unified_type": "scenario",
+    "route": "figures/RW-KAG-001",
+    "route_title": "卡加梅 - 场景档案 1 条模式",
+    "sitemap": true
+   },
+   "changed_fields": [
+    "db.name_zh",
+    "db.name_en",
+    "src_zh.name",
+    "src_en.name"
+   ]
+  }
+ },
+ "residue": {
+  "SG-Lee-001": {
+   "before_in_src_zh": true,
+   "before_in_src_en": true,
+   "before_in_db": true,
+   "after_in_src_zh": false,
+   "after_in_src_en": false,
+   "after_in_db": false,
+   "after_shard_file": false,
+   "after_light_index": false,
+   "after_unified": false,
+   "after_route": false,
+   "after_sitemap": false
+  },
+  "MY-Mah-001": {
+   "before_in_src_zh": true,
+   "before_in_src_en": true,
+   "before_in_db": true,
+   "after_in_src_zh": false,
+   "after_in_src_en": false,
+   "after_in_db": false,
+   "after_shard_file": false,
+   "after_light_index": false,
+   "after_unified": false,
+   "after_route": false,
+   "after_sitemap": false
+  },
+  "JP-Sas-001": {
+   "before_in_src_zh": true,
+   "before_in_src_en": true,
+   "before_in_db": true,
+   "after_in_src_zh": false,
+   "after_in_src_en": false,
+   "after_in_db": false,
+   "after_shard_file": false,
+   "after_light_index": false,
+   "after_unified": false,
+   "after_route": false,
+   "after_sitemap": false
+  },
+  "UZ-Ulu-001": {
+   "before_in_src_zh": true,
+   "before_in_src_en": true,
+   "before_in_db": true,
+   "after_in_src_zh": false,
+   "after_in_src_en": false,
+   "after_in_db": false,
+   "after_shard_file": false,
+   "after_light_index": false,
+   "after_unified": false,
+   "after_route": false,
+   "after_sitemap": false
+  }
+ },
+ "draft_H-LXN-001": {
+  "before": {
+   "name_zh": "毛先念",
+   "name_en": "Mao Xiannian",
+   "description_zh": "毛先念（1901-1997）：中国近现代政治经济家，致力于中国经济体制改革与战略预判体系的构建。主张通过战略预判法识别经济社会发展的关键杠杆点，结合边际思维分析资源配置的边际效应，结合摸石头过河的渐进探索方法推进改革试点，并通过制度化制衡 mechanism 确保改革可持续性。其思想贯穿于中国近现代化进程中，既有理论高度也有实践深度，是理解中国经济转型期思维模式的重要个案。",
+   "description_en": "Mao Xiannian（1901-1997）： Chinese political economist who dedicated himself to constructing China's economic system reform and strategic forecasting system. He advocated identifying key leverage points of economic and social development through strategic forecasting method, analyzing marginal efficiency of resource allocation with marginal thinking, advancing reform pilots with the 'crossing the river by feeling for stones' incremental exploration method, and ensuring reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth, and is an important case for understanding China's thinking modes during the economic transition period.",
+   "reason_zh": "核心思维：M7(战略预判法), M19(边际思维), M38(摸石头过河), M39(鸟笼经济), M34(制度化制衡). 毛先念通过战略预判法识别经济社会发展的关键杠杆点，结合边际思维分析资源配置的边际效应，结合摸石头过河的渐进探索方法推进改革试点，并通过制度化制衡机制确保改革可持续性。其思想贯穿于中国近现代化进程中，既有理论高度也有实践深度。",
+   "reason_en": "Core thinking modes: M7(Strategic Forecasting Method), M19(Marginal Thinking), M38(Crossing the River by Feeling for Stones), M39(Birdcage Economy), M34(Institutionalized Checks and Balances). Mao Xiannian identified key leverage points of economic and social development through strategic forecasting method, analyzed marginal efficiency of resource allocation with marginal thinking, advanced reform pilots with incremental 'crossing the river by feeling for stones' approach, and ensured reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth.",
+   "case_zh": "1980-1990年代中国经济体制改革实践：毛先念带领经济团队从计划经济向市场经济转型。战略预判：识别改革关键变量（价格改革、企业体制、市场规则）。边际分析：测算改革边际成本与收益，优化资源配置路径。摸石头过河：设计小规模体制试点（特区探索→省级推广），根据结果调整方案。制度制衡：建立改革监督机制，确保决策程序合规、责任明确。改革成果：释放生产力，提高资源配置效率，促进经济持续健康发展。",
+   "case_en": "1980-1990s China's economic system reform practice: Mao Xiannian led a economic team from planned economy to market economy. Strategic Forecasting: Identifying key reform variables (price reform, enterprise system, market rules). Marginal Analysis: Calculating reform marginal costs and benefits, optimizing resource allocation paths. Crossing the River by Feeling for Stones: Designing small-scale system pilots (special zone exploration → provincial expansion), adjusting plans based on results. Institutional Checks and Balances: Establishing reform supervision mechanisms, ensuring decision procedures are compliant and responsibilities are clear. Reform outcomes: Liberating productive forces, improving resource allocation efficiency, promoting continuous and healthy economic development."
+  },
+  "after": {
+   "name_zh": "李先念",
+   "name_en": "Li Xiannian",
+   "description_zh": "李先念（1901-1997）：中国近现代政治经济家，致力于中国经济体制改革与战略预判体系的构建。主张通过战略预判法识别经济社会发展的关键杠杆点，结合边际思维分析资源配置的边际效应，结合摸石头过河的渐进探索方法推进改革试点，并通过制度化制衡 mechanism 确保改革可持续性。其思想贯穿于中国近现代化进程中，既有理论高度也有实践深度，是理解中国经济转型期思维模式的重要个案。",
+   "description_en": "Li Xiannian（1901-1997）： Chinese political economist who dedicated himself to constructing China's economic system reform and strategic forecasting system. He advocated identifying key leverage points of economic and social development through strategic forecasting method, analyzing marginal efficiency of resource allocation with marginal thinking, advancing reform pilots with the 'crossing the river by feeling for stones' incremental exploration method, and ensuring reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth, and is an important case for understanding China's thinking modes during the economic transition period.",
+   "reason_zh": "核心思维：M7(战略预判法), M19(边际思维), M38(摸石头过河), M39(鸟笼经济), M34(制度化制衡). 李先念通过战略预判法识别经济社会发展的关键杠杆点，结合边际思维分析资源配置的边际效应，结合摸石头过河的渐进探索方法推进改革试点，并通过制度化制衡机制确保改革可持续性。其思想贯穿于中国近现代化进程中，既有理论高度也有实践深度。",
+   "reason_en": "Core thinking modes: M7(Strategic Forecasting Method), M19(Marginal Thinking), M38(Crossing the River by Feeling for Stones), M39(Birdcage Economy), M34(Institutionalized Checks and Balances). Li Xiannian identified key leverage points of economic and social development through strategic forecasting method, analyzed marginal efficiency of resource allocation with marginal thinking, advanced reform pilots with incremental 'crossing the river by feeling for stones' approach, and ensured reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth.",
+   "case_zh": "1980-1990年代中国经济体制改革实践：李先念带领经济团队从计划经济向市场经济转型。战略预判：识别改革关键变量（价格改革、企业体制、市场规则）。边际分析：测算改革边际成本与收益，优化资源配置路径。摸石头过河：设计小规模体制试点（特区探索→省级推广），根据结果调整方案。制度制衡：建立改革监督机制，确保决策程序合规、责任明确。改革成果：释放生产力，提高资源配置效率，促进经济持续健康发展。",
+   "case_en": "1980-1990s China's economic system reform practice: Li Xiannian led a economic team from planned economy to market economy. Strategic Forecasting: Identifying key reform variables (price reform, enterprise system, market rules). Marginal Analysis: Calculating reform marginal costs and benefits, optimizing resource allocation paths. Crossing the River by Feeling for Stones: Designing small-scale system pilots (special zone exploration → provincial expansion), adjusting plans based on results. Institutional Checks and Balances: Establishing reform supervision mechanisms, ensuring decision procedures are compliant and responsibilities are clear. Reform outcomes: Liberating productive forces, improving resource allocation efficiency, promoting continuous and healthy economic development."
+  },
+  "changed_fields": [
+   "name_zh",
+   "name_en",
+   "description_zh",
+   "description_en",
+   "reason_zh",
+   "reason_en",
+   "case_zh",
+   "case_en"
+  ]
+ },
+ "r2_scenarios_zh_extras": {
+  "name_zh": {
+   "before": "毛先念",
+   "after": "毛先念"
+  },
+  "description_zh": {
+   "before": "毛先念（1901-1997）：中国近现代政治经济家，致力于中国经济体制改革与战略预判体系的构建。主张通过战略预判法识别经济社会发展的关键杠杆点，结合边际思维分析资源配置的边际效应，结合摸石头过河的渐进探索方法推进改革试点，并通过制度化制衡 mechanism 确保改革可持续性。其思想贯穿于中国近现代化进程中，既有理论高度也有实践深度，是理解中国经济转型期思维模式的重要个案。",
+   "after": "毛先念（1901-1997）：中国近现代政治经济家，致力于中国经济体制改革与战略预判体系的构建。主张通过战略预判法识别经济社会发展的关键杠杆点，结合边际思维分析资源配置的边际效应，结合摸石头过河的渐进探索方法推进改革试点，并通过制度化制衡 mechanism 确保改革可持续性。其思想贯穿于中国近现代化进程中，既有理论高度也有实践深度，是理解中国经济转型期思维模式的重要个案。"
+  },
+  "reason_zh": {
+   "before": "核心思维：M7(战略预判法), M19(边际思维), M38(摸石头过河), M39(鸟笼经济), M34(制度化制衡). 毛先念通过战略预判法识别经济社会发展的关键杠杆点，结合边际思维分析资源配置的边际效应，结合摸石头过河的渐进探索方法推进改革试点，并通过制度化制衡机制确保改革可持续性。其思想贯穿于中国近现代化进程中，既有理论高度也有实践深度。",
+   "after": "核心思维：M7(战略预判法), M19(边际思维), M38(摸石头过河), M39(鸟笼经济), M34(制度化制衡). 毛先念通过战略预判法识别经济社会发展的关键杠杆点，结合边际思维分析资源配置的边际效应，结合摸石头过河的渐进探索方法推进改革试点，并通过制度化制衡机制确保改革可持续性。其思想贯穿于中国近现代化进程中，既有理论高度也有实践深度。"
+  },
+  "case_zh": {
+   "before": "1980-1990年代中国经济体制改革实践：毛先念带领经济团队从计划经济向市场经济转型。战略预判：识别改革关键变量（价格改革、企业体制、市场规则）。边际分析：测算改革边际成本与收益，优化资源配置路径。摸石头过河：设计小规模体制试点（特区探索→省级推广），根据结果调整方案。制度制衡：建立改革监督机制，确保决策程序合规、责任明确。改革成果：释放生产力，提高资源配置效率，促进经济持续健康发展。",
+   "after": "1980-1990年代中国经济体制改革实践：毛先念带领经济团队从计划经济向市场经济转型。战略预判：识别改革关键变量（价格改革、企业体制、市场规则）。边际分析：测算改革边际成本与收益，优化资源配置路径。摸石头过河：设计小规模体制试点（特区探索→省级推广），根据结果调整方案。制度制衡：建立改革监督机制，确保决策程序合规、责任明确。改革成果：释放生产力，提高资源配置效率，促进经济持续健康发展。"
+  }
+ },
+ "r2_scenarios_en_extras": {
+  "description_en": {
+   "before": "Mao Xiannian（1901-1997）： Chinese political economist who dedicated himself to constructing China's economic system reform and strategic forecasting system. He advocated identifying key leverage points of economic and social development through strategic forecasting method, analyzing marginal efficiency of resource allocation with marginal thinking, advancing reform pilots with the 'crossing the river by feeling for stones' incremental exploration method, and ensuring reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth, and is an important case for understanding China's thinking modes during the economic transition period.",
+   "after": "Li Xiannian（1901-1997）： Chinese political economist who dedicated himself to constructing China's economic system reform and strategic forecasting system. He advocated identifying key leverage points of economic and social development through strategic forecasting method, analyzing marginal efficiency of resource allocation with marginal thinking, advancing reform pilots with the 'crossing the river by feeling for stones' incremental exploration method, and ensuring reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth, and is an important case for understanding China's thinking modes during the economic transition period."
+  },
+  "reason_en": {
+   "before": "Core thinking modes: M7(Strategic Forecasting Method), M19(Marginal Thinking), M38(Crossing the River by Feeling for Stones), M39(Birdcage Economy), M34(Institutionalized Checks and Balances). Mao Xiannian identified key leverage points of economic and social development through strategic forecasting method, analyzed marginal efficiency of resource allocation with marginal thinking, advanced reform pilots with incremental 'crossing the river by feeling for stones' approach, and ensured reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth.",
+   "after": "Core thinking modes: M7(Strategic Forecasting Method), M19(Marginal Thinking), M38(Crossing the River by Feeling for Stones), M39(Birdcage Economy), M34(Institutionalized Checks and Balances). Li Xiannian identified key leverage points of economic and social development through strategic forecasting method, analyzed marginal efficiency of resource allocation with marginal thinking, advanced reform pilots with incremental 'crossing the river by feeling for stones' approach, and ensured reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth."
+  },
+  "case_en": {
+   "before": "1980-1990s China's economic system reform practice: Mao Xiannian led a economic team from planned economy to market economy. Strategic Forecasting: Identifying key reform variables (price reform, enterprise system, market rules). Marginal Analysis: Calculating reform marginal costs and benefits, optimizing resource allocation paths. Crossing the River by Feeling for Stones: Designing small-scale system pilots (special zone exploration → provincial expansion), adjusting plans based on results. Institutional Checks and Balances: Establishing reform supervision mechanisms, ensuring decision procedures are compliant and responsibilities are clear. Reform outcomes: Liberating productive forces, improving resource allocation efficiency, promoting continuous and healthy economic development.",
+   "after": "1980-1990s China's economic system reform practice: Li Xiannian led a economic team from planned economy to market economy. Strategic Forecasting: Identifying key reform variables (price reform, enterprise system, market rules). Marginal Analysis: Calculating reform marginal costs and benefits, optimizing resource allocation paths. Crossing the River by Feeling for Stones: Designing small-scale system pilots (special zone exploration → provincial expansion), adjusting plans based on results. Institutional Checks and Balances: Establishing reform supervision mechanisms, ensuring decision procedures are compliant and responsibilities are clear. Reform outcomes: Liberating productive forces, improving resource allocation efficiency, promoting continuous and healthy economic development."
+  }
+ },
+ "counts": {
+  "before": {
+   "figures_db": 1056,
+   "scen_zh": 1069,
+   "scen_en": 1069,
+   "routes": 1387,
+   "sitemap": 1388
+  },
+  "after": {
+   "figures_db": 1054,
+   "scen_zh": 1067,
+   "scen_en": 1067,
+   "routes": 1385,
+   "sitemap": 1386,
+   "shards": 1054,
+   "light_index": 1054,
+   "unified_total": 1369,
+   "unified_figures": 318,
+   "unified_scenarios": 1051,
+   "meta_figures": 1054,
+   "by_figure_shards": 318,
+   "modes_published": 3221
+  }
+ },
+ "file_sha": {
+  "tools/json/scenarios_zh.json": {
+   "ws": "a760758d8655073d911e313cbe9fa3b74f3fb3204e42d86b672a73aece7bf6f1",
+   "bytes": 3015351
+  },
+  "tools/json/scenarios_en.json": {
+   "ws": "ebb8d5785514963156613e5dc6440dfafa09a80ae6a59f458f7e4f13d39926cb",
+   "bytes": 2275023
+  },
+  "tools/json/H-LXN-001.json": {
+   "ws": "fc6e9884a39a8f3277f3ac45d56d2573f7f0de844296657bb253a1511bce4f7a",
+   "bytes": 7204
+  },
+  "api/protreptic.db": {
+   "ws": "f2f380a4d63d770f5295dcd08f28eaa6719d24c0be0cd527b34085309a989694",
+   "bytes": 38490112
+  },
+  "docs/architecture/web_p0_routes.json": {
+   "ws": "8baa5bf4faadb3aa51c6a6b2049ca6ccbd45b5afe28a2d3bdba580ae4c93d47c",
+   "bytes": 705735
+  },
+  "docs/architecture/static_data_manifest.json": {
+   "ws": "ac9ff4bbb9ce4d4163dbadc031b7d528c42d4c3fb46424cb7768302d08ac66b5",
+   "bytes": 3748
+  },
+  "web/public/sitemap.xml": {
+   "ws": "261d8b872bf9352bd40e4112a07b457ea1a3be9233e16814838e4f00d1f88596",
+   "bytes": 216812
+  },
+  "web/src/api/static.ts": {
+   "ws": "9917a7b1970c7942951cbe8c6a4b19b228f2784039731e4709e2b6037145dae6",
+   "bytes": 15992
+  },
+  "web/src/generated/siteCounts.ts": {
+   "ws": "345f2033c5595f566c19a9ec4b6737214b73261419ec0f2d2c2c650efd47c45a",
+   "bytes": 2656
+  },
+  "web/src/views/ApiDocsView.vue": {
+   "ws": "002244c796e144664d4dcd98d756a5b5be5f89e1968f5db436ec902eeb20837b",
+   "bytes": 8355
+  },
+  "tools/export_static_site.py": {
+   "ws": "bfc6514a7c0c47335edf6ad27700f45b16afe15caafe629fe1328a2acafddca6",
+   "bytes": 41104
+  },
+  "tools/pages_preflight.py": {
+   "ws": "5d63a731581e3c90978995f0078cf01cb51f246bbef64b1d722e268c61fa19b2",
+   "bytes": 12506
+  },
+  "tools/ci_data_check.py": {
+   "ws": "290601d36538cb9edcc3f4669f2035a71f5d804fafb720d7cb8dffbb88c7d30b",
+   "bytes": 16158
+  }
+ },
+ "anchor_changes": {
+  "tools/export_static_site.py": {
+   "EXPECT_FIGURES": "1056 -> 1054"
+  },
+  "tools/pages_preflight.py": {
+   "EXPECT_FIGURES": "1056 -> 1054"
+  },
+  "tools/ci_data_check.py": {
+   "MIN_SITEMAP_ENTRIES": "1388 -> 1386"
+  },
+  "web/src/api/static.ts": {
+   "注释计数 x2": "1056 -> 1054"
+  },
+  "web/src/views/ApiDocsView.vue": {
+   "文案计数 x2": "1057 -> 1054"
+  }
+ }
+}

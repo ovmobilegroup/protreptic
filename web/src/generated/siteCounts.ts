@@ -27,9 +27,9 @@ export const SITE_COUNTS = {
    *   all       = 源库口径 (含隔离记录), 只用于如实交代两者差别, 不冒充发布数据
    */
   verification: {
-    published: { verified: 931, pending: 1916, suspect: 34, unverifiable: 340 },
+    published: { verified: 949, pending: 1897, suspect: 35, unverifiable: 340 },
     publishedTotal: 3221,
-    all: { verified: 931, pending: 1948, suspect: 51, unverifiable: 351 },
+    all: { verified: 949, pending: 1929, suspect: 52, unverifiable: 351 },
     allTotal: 3281,
     quarantinedTotal: 60,
     /** 源库去重后的模式记录数 (counts.mode_summaries); 抽查不到时为 null, 不编数字 */
