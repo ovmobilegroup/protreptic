@@ -2,7 +2,7 @@
  "card": "t_33240de8",
  "title": "Phase21 W4 补正·R2 zh 扩展位落盘",
  "generated_at": "2026-09-24T07:11:16",
- "version": "v1 (回执补记 v2 覆盖 receipts)",
+ "version": "v2 (v1 回执已补记; v2 自身回执见 v3)",
  "basis": "manifest §八-1 待复核第 1 项 (船长裁定: 采纳执行); 卡 t_33240de8",
  "upstream": "t_ee203180 (done)",
  "downstream": [
@@ -255,7 +255,7 @@
  "verification": {
   "verifier": "verify_w4fix2_lxn.py",
   "quick": "23/23 PASS",
-  "full": "见 receipts (v2)",
+  "full": "26/26 PASS (含镜像面, @v1 镜像后复跑)",
   "trees": {
    "web/public/data": "1383/1383 byte-identical",
    "web/dist": "2765/2765 byte-identical"
@@ -407,7 +407,42 @@
   }
  ],
  "receipts": {
-  "status": "v1; 回执补记 v2 覆盖 (工作仓 sha / 发布仓 sha / push / remote main / parity / raw)"
+  "v1": {
+   "ws_commit": "00bc34a275ad35ef8c317a8f84781dc95e39fada",
+   "ws_stat": "10 files changed, +799/-1",
+   "pb_commit": "0517b387d21382307ecba168f88c6d78b542fa69",
+   "pb_mirror": "10/10 byte-exact",
+   "push": "332188d..0517b38 main -> main (rc=0)",
+   "remote_main": "0517b387d21382307ecba168f88c6d78b542fa69",
+   "raw": [
+    [
+     "docs/research/phase21w4_fix2_report.md",
+     "037583f8b8f0833707d04b172f2f009daa13d5f73f71d6da224bdb6d1a1c958d"
+    ],
+    [
+     "tools/json/scenarios_zh.json",
+     "8b218e717cdb8cb5490e4951632907dac0b3ee0cd366c9f9c81bd0ac11702ceb"
+    ],
+    [
+     "docs/research/phase21w4_fix2_report.json",
+     "ebce64fe02e7225b1c292d2f4f9e640e381d8abaa91d3246a25b59f80815fdfc"
+    ],
+    [
+     "verify_w4fix2_lxn.py",
+     "6c22a82abfc0ff025bc3918d83b63cd195415cb550aab141af6ee506e0c5ef1e"
+    ]
+   ],
+   "verifier_full": "26/26 PASS",
+   "parity": {
+    "common": 2395,
+    "byte_identical": 2395,
+    "content_diff": 0,
+    "only_publish": 0,
+    "missing_in_publish": 6,
+    "note": "R-a 他链文档 6 件 (同上游登记), rc=1 已知"
+   }
+  },
+  "v2_note": "见 v3 终版"
  },
  "reports": {
   "md": "docs/research/phase21w4_fix2_report.md",

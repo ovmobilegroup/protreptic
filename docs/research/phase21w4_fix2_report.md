@@ -15,7 +15,7 @@
 | 差异面 | 原始重跑出现 26 项差异, 全部内容级归因 (24 件仅 generated_at 戳记 + DB 仅 sqlite 布局字节 + manifest 戳记); 按零差异契约归一化基线后, 终态差异 = 仅目标 4 字段 |
 | 门禁 | credibility rc=0 / source_links rc=0 / findings rc=0 (存量 M-ASM warning 1) / ci_data_check 24/24 PASS |
 | 活跃面残扫 | 目标串命中 = 0 (tools/web/api/docs/architecture/data 等活跃面); 余量全落豁免类 (见 §五) |
-| 见证器 | verify_w4fix2_lxn.py: --quick 23/23 PASS; 全量 (含镜像面) 见 §五/§七 |
+| 见证器 | verify_w4fix2_lxn.py: 全量 26/26 PASS (含镜像面 1383+2765 byte-identical); --quick 23/23 PASS |
 | 镜像/回执 | 见 §七 |
 
 ## 二, 落盘与字节级证据
@@ -82,7 +82,7 @@
 3. ws 与发布仓全树比对: web/public/data 1383/1383 + web/dist 2765/2765 逐字节全等。
 4. 备份面: MANIFEST.sha256 4/4 PASS; payload copy byte-exact。
 5. 门禁四连 + ci_data_check 24/24: 见 §三 (09-12)。
-6. 见证器复跑: python3 verify_w4fix2_lxn.py (全量) 结果见 §七。
+6. 见证器复跑: python3 verify_w4fix2_lxn.py (全量) = 26/26 PASS (含镜像面)。
 
 ## 六, 边界与登记 (不静默)
 
@@ -96,7 +96,13 @@
 
 ## 七, 回执 (提交/镜像/push/parity/raw)
 
-- v1: 本节随 v2 回执补记 (先例: t_536073f4 / t_ee203180 报告两段式; v2 覆盖工作仓 sha / 发布仓 sha / push / remote main / parity / raw 抽验)。
+- 工作仓 commit (v1): 00bc34a2 (10 files changed, +799 / -1; 数据编辑 + 报告 + 备份 + 见证器, 无他卡混入)
+- 发布仓镜像 (v1): commit 0517b38 (10 files byte-exact 10/10)
+- push: 332188d..0517b38 main -> main (rc=0); remote main = 0517b387d21382307ecba168f88c6d78b542fa69 (= 本地)
+- 远端 raw 抽验 (4 件 @0517b38): fix2_report.md 037583f8 / scenarios_zh.json 8b218e71 / fix2_report.json ebce64fe / verify_w4fix2_lxn.py 6c22a82a — 逐字节 OK
+- 见证器全量 (镜像后): 26/26 PASS (E1 镜像面 1383+2765 全等; E2 镜像集 byte-exact)
+- parity (镜像后): 共同件 2395 全逐字节一致; content_diff 0 / only_publish 0; missing_in_publish 6 = R-a 他链文档 (recon x2 / manifest x2 / marker_scan x2; 同 t_536073f4 / t_ee203180 登记口径, rc=1 已知)
+- v2 自身回执 (commit/push/raw): 见 v3 终版
 
 ## 八, QA 复跑指引
 
