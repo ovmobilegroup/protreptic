@@ -2,17 +2,17 @@
   "card": "t_d9cb98bb",
   "worker": "pigafetta",
   "phase": "Phase21-R8 LUORQ doc archive",
-  "generated_at": "2026-09-24 01:19:27 ",
+  "generated_at": "2026-09-24 01:21:41 ",
   "deliverables": {
     "page": {
       "path": "docs/figures/H-LUORQ-001.md",
-      "sha256": "486755ced2415c62e33f0bbf4c3827015b25c6f37247c3c4b5dd1eb23805377a",
-      "bytes": 64370,
+      "sha256": "17cb095e9659dab9d7528718b2a105659c6d7d45c70141c0ca83441ed073c289",
+      "bytes": 64447,
       "lines": 425
     },
     "generator": {
       "path": "build_luorq_r8_archive.py",
-      "sha256": "7726b3649a0dc5990a5b7cd603ef5219af2fbfdc0767f1a6a0ccabaab0147137"
+      "sha256": "6547ad525561f5643ae48537010afac984d7ec9b4a61b6bb2120f16e42d61936"
     },
     "verifier": {
       "path": "verify_luorq_r8_archive.py",
@@ -20,7 +20,7 @@
     },
     "report": {
       "path": "docs/research/phase21r8_luorq_archive_report.md",
-      "sha256": "a47620cd9b24f5a2c841074c114451731b51aef93658a43410c31da0ffa2e5d0"
+      "sha256": "5e943a688c9745d9893964b6c6723f7110cf088ba5976fef444c68cfb5615a1c"
     },
     "evidence": {
       "path": "docs/research/phase21r8_luorq_archive_evidence.json"
@@ -147,6 +147,13 @@
       "content_diff": 9,
       "both_sides": 1883,
       "identical": 1874
+    },
+    "run4_final": {
+      "diffs": 313,
+      "only_workspace": 307,
+      "content_diff": 6,
+      "both_sides": 1884,
+      "identical": 1878
     }
   },
   "receipts": {
@@ -154,8 +161,12 @@
     "publish_commit": "2b3681d9e7c35db37bd07c384cd395b00c40ab8c",
     "push": "ec0a06b..2b3681d (rc=0)",
     "remote_main_snapshot": "2b3681d9e7c35db37bd07c384cd395b00c40ab8c",
-    "workspace_commit_v2": "this-file last-modifying commit in workspace (see card metadata ws_commit_v2)",
-    "publish_commit_v2": "this-file last-modifying commit in publish (see card metadata publish_commit_v2)"
+    "push_v1": "ec0a06b..2b3681d (rc=0)",
+    "push_v2": "fee63a3..58a45cb (rc=0)",
+    "workspace_commit_v2": "408f7ebf49c4e00dee817bc946a10e64755cf57c",
+    "publish_commit_v2": "58a45cb70b36a3ecc48a29fb4b69385cf6240bae",
+    "workspace_commit_v3": "this-file last-modifying commit in workspace (see card metadata ws_commit_v3)",
+    "publish_commit_v3": "this-file last-modifying commit in publish (see card metadata publish_commit_v3)"
   },
   "closing_card_t_2d15bd2e": {
     "workspace_commit": "0cbf6ab6",
