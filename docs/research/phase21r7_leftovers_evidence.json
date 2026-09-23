@@ -1,0 +1,261 @@
+{
+ "schema": "protreptic.phase21r7_leftovers_evidence/v1",
+ "card": "t_151265db",
+ "title": "[Phase21-R7 旁项] 根目录/发布仓旧档残留调查与处置",
+ "generated_at": "2026-09-23T20:06+08:00",
+ "authorization": "卡面（magallanes）R7 旁项；来源：R5 卡（t_36c4079c）报告 §8 留档「未闭环旁项」；先例：R5 根 modes_data.json byte-exact 归档处置",
+ "discipline": "先取证后动手；归档而非删除；data/modes_data.json 零写入；发布仓同步仅限本卡路径",
+ "commits": {
+  "workspace_data": "2857a525 (2026-09-23T19:55:49+08:00)",
+  "publish_mirror_data": "c72d007 (2026-09-23T19:56:41+08:00)",
+  "publish_push_receipt_data": "dc8ca3b..c72d007  main -> main",
+  "workspace_report": "SEE_LATEST_COMMIT",
+  "publish_mirror_report": "SEE_LATEST_PUBLISH_COMMIT",
+  "publish_push_receipt_report": "SEE_PUSH_LOG",
+  "note_workspace_push": "工作仓无 upstream/推送目标（remote 仅 fetch 用于 parity 对比；远端唯一分支 main=发布侧线）。依 R5/R6 先例：推送=发布仓；工作仓为本地提交。"
+ },
+ "archives": [
+  {
+   "dir": "data/backup_root_homer_modes_data_20260923",
+   "files": [
+    "README.md",
+    "modes_data.json.backup_homer_20260922_070524"
+   ],
+   "note": "发布仓同体件（P1）与其逐字节同体，本目录单副本、README 说明双来源"
+  },
+  {
+   "dir": "data/backup_root_main_data_20260923",
+   "files": [
+    "README.md",
+    "main_data.json",
+    "main_data.json.bak_hzx_merge_25696"
+   ]
+  },
+  {
+   "dir": "data/backup_root_tools_json_legacy_20260923",
+   "files": [
+    "README.md",
+    "modes_data.json",
+    "main_data.json",
+    "code_maps.json",
+    "junk/stray_, print(.txt",
+    "junk/stub_.json"
+   ]
+  },
+  {
+   "dir": "data/backup_root_publish_legacy_20260923",
+   "files": [
+    "README.md",
+    "code_maps.json",
+    "scenario_tags.json",
+    "scenarios_en.json",
+    "scenarios_zh.json"
+   ]
+  }
+ ],
+ "disposed": [
+  {
+   "repo": "workspace",
+   "path": "modes_data.json.backup_homer_20260922_070524",
+   "size": 492499,
+   "sha256": "675a7dc3b2cf773635f2d45da6dba715d9aa0214618507d6bc837c63201c9ced",
+   "git_blob": "3793899ba1e1356d64d49d148cdea7b75524107d",
+   "last_commit": "2371a585 (2026-09-22)",
+   "archived_to": "data/backup_root_homer_modes_data_20260923/modes_data.json.backup_homer_20260922_070524",
+   "verdict": "dead",
+   "reason": "早期图块汇编备份（H-DZS-M* 旧号）；现役读 data/modes_data.json；全仓零现役读取方"
+  },
+  {
+   "repo": "publish",
+   "path": "modes_data.json",
+   "size": 492499,
+   "sha256": "675a7dc3b2cf773635f2d45da6dba715d9aa0214618507d6bc837c63201c9ced",
+   "git_blob": "3793899ba1e1356d64d49d148cdea7b75524107d",
+   "last_commit": "782a1ad (2026-09-17)",
+   "archived_to": "data/backup_root_homer_modes_data_20260923/（与工作仓件同体，单副本）",
+   "verdict": "dead",
+   "reason": "与工作仓同名旧档逐字节同体；发布仓构建链读 data/**，根副本不进构建图"
+  },
+  {
+   "repo": "workspace",
+   "path": "main_data.json",
+   "size": 5181212,
+   "sha256": "f4d0285eac4c72df3a80ec4b43efcf8e7b024c05e2c41e2f95dd4737cb391a39",
+   "git_blob": "758d6845acc9e4319dc8332ab315de7d771bf26a",
+   "last_commit": "c307178f (2026-09-04)",
+   "archived_to": "data/backup_root_main_data_20260923/main_data.json",
+   "verdict": "dead",
+   "reason": "Phase 18.12B 主档世系末版（含 H-DZS-M 旧号 10 处）；读取方均为一次性历史脚本；被 data/** 分片体系取代"
+  },
+  {
+   "repo": "workspace",
+   "path": "main_data.json.bak_hzx_merge_25696",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "last_commit": "（空档占位）",
+   "archived_to": "data/backup_root_main_data_20260923/main_data.json.bak_hzx_merge_25696",
+   "verdict": "dead",
+   "reason": "0 字节空档，零内容"
+  },
+  {
+   "repo": "workspace",
+   "path": "tools/json/modes_data.json",
+   "size": 44008,
+   "sha256": "5145a11aa93f01dce03e25b97d5d53fffa977b0ef4847950c527034af7c8c97b",
+   "git_blob": "036c24c579d776dbc7b36c6b1c5a2bebfef6d8c9",
+   "last_commit": "dbdc1c74 (2026-09-04)",
+   "archived_to": "data/backup_root_tools_json_legacy_20260923/modes_data.json",
+   "verdict": "dead",
+   "reason": "早期 M 模式登记表；现役目录无读取方；被 data/modes_data.json 取代"
+  },
+  {
+   "repo": "workspace",
+   "path": "tools/json/main_data.json",
+   "size": 12655,
+   "sha256": "7d080c5080e05837d8f17319d54eb1d9cd1d41010ff05df602027934a4b2254e",
+   "git_blob": "19cd2e0cbe7a6ce98edf2f6eb53244a14d18040f",
+   "last_commit": "1c033b9b (2026-09-03)",
+   "archived_to": "data/backup_root_tools_json_legacy_20260923/main_data.json",
+   "verdict": "dead",
+   "reason": "Phase 17.7 元数据件；唯一引用为 cli_tests/conftest（陈旧未入 CI 的套件，其 scenarios 夹具已因工具链单一数据源化失效）"
+  },
+  {
+   "repo": "workspace",
+   "path": "tools/json/code_maps.json",
+   "size": 200401,
+   "sha256": "bf1d624d7e65e9f24a6570ed9b358436145d492111b828ca923b46f2d444e2a8",
+   "git_blob": "877a6d67af9d342548ec826857ba31c669d40763",
+   "last_commit": "c2a5c487 (2026-09-18)",
+   "archived_to": "data/backup_root_tools_json_legacy_20260923/code_maps.json",
+   "verdict": "dead",
+   "reason": "早期 CODE_MAP 世系注册表；现役注册表为 data/code_maps.json（v6）与 tools/code_maps.json；引用方均一次性/已归档脚本"
+  },
+  {
+   "repo": "workspace",
+   "path": "tools/json/, print(",
+   "size": 62,
+   "sha256": "d563e31b5c5681a1fd63381053899e4ff55794764d5d12078bf5ff6d9e2c05d7",
+   "git_blob": "adee05308f7947c5474e943899c81024451f8942",
+   "last_commit": "（shell 误操作残留）",
+   "archived_to": "data/backup_root_tools_json_legacy_20260923/junk/stray_, print(.txt",
+   "verdict": "dead",
+   "reason": "垃圾件（stray 命令文本），零引用；沿用 0f54627f 垃圾清理先例"
+  },
+  {
+   "repo": "workspace",
+   "path": "tools/json/.json",
+   "size": 1660,
+   "sha256": "a70f3ec1a2a864352c3a1031ff1feff4ead29c0363f2a9945565e522169787bd",
+   "git_blob": "7c6a01096d698eb8e5ce9dca4d6e1c756c5617a9",
+   "last_commit": "（shell 误操作残留）",
+   "archived_to": "data/backup_root_tools_json_legacy_20260923/junk/stub_.json",
+   "verdict": "dead",
+   "reason": "垃圾件（code 为空的占位残稿），零引用"
+  },
+  {
+   "repo": "publish",
+   "path": "code_maps.json",
+   "size": 52537,
+   "sha256": "fcb02802470b41f9dd5040caa76f9d6d8178eb61909a209f04993e69bb488358",
+   "git_blob": "448685a0c722e4687691601a112d525fe314b0f5",
+   "last_commit": "782a1ad (2026-09-17)",
+   "archived_to": "data/backup_root_publish_legacy_20260923/code_maps.json",
+   "verdict": "dead",
+   "reason": "与工作仓根 code_maps.json.backup_homer_20260922_070407 逐字节同体；发布仓构建链不读根副本"
+  },
+  {
+   "repo": "publish",
+   "path": "scenario_tags.json",
+   "size": 31079,
+   "sha256": "b0e9032dfd1273d239178d209921702a9e2068e08d8d8689d5148408129b55c7",
+   "git_blob": "1dcce553f4194050e7617757e426591e7011223d",
+   "last_commit": "782a1ad (2026-09-17)",
+   "archived_to": "data/backup_root_publish_legacy_20260923/scenario_tags.json",
+   "verdict": "dead",
+   "reason": "与工作仓根 scenario_tags.json 逐字节同体；构建链读 tools/[json/]scenario_tags.json"
+  },
+  {
+   "repo": "publish",
+   "path": "scenarios_en.json",
+   "size": 88367,
+   "sha256": "686dfaf135497c1c26ea1a6bb8b5b76d890eea214734fd4d113f0689ba60a6ad",
+   "git_blob": "e80460dfdd91ea0da4f458344f35d5db36879863",
+   "last_commit": "782a1ad (2026-09-17)",
+   "archived_to": "data/backup_root_publish_legacy_20260923/scenarios_en.json",
+   "verdict": "dead",
+   "reason": "与工作仓根 scenarios_en.json 逐字节同体；现役场景源为 tools/json/scenarios_en.json → api/protreptic.db"
+  },
+  {
+   "repo": "publish",
+   "path": "scenarios_zh.json",
+   "size": 87475,
+   "sha256": "9b3143b446f6dea4b1e8be52df099f64b776e8ec65d5b4f7638db7c3af9c58e7",
+   "git_blob": "7fb0721b82ae420b11fa6e9cdbe0e2b93b741f46",
+   "last_commit": "782a1ad (2026-09-17)",
+   "archived_to": "data/backup_root_publish_legacy_20260923/scenarios_zh.json",
+   "verdict": "dead",
+   "reason": "与工作仓根 scenarios_zh.json 逐字节同体；现役场景源为 tools/json/scenarios_zh.json → api/protreptic.db"
+  }
+ ],
+ "kept_live": [
+  {
+   "path": "tools/json/scenarios_zh.json",
+   "size": 3038171,
+   "sha256": "c240aa300812af6dae64a40b5652459dfa33e81a9f2d518e408bdde58cb8dd14",
+   "verdict": "live",
+   "reason": "build_figures_db.py find() 第一候选（pages.yml + quality-gate 构建步骤读取）；两仓 parity TOOL_DATA_FILES 边界文件"
+  },
+  {
+   "path": "tools/json/scenarios_en.json",
+   "size": 2288761,
+   "sha256": "018aadd45918d72db4dad2763aa13042815a6ccfbae1f2f26eea19be5cbc6798",
+   "verdict": "live",
+   "reason": "同上（find() 第一候选；parity 边界文件）"
+  },
+  {
+   "path": "tools/json/scenario_tags.json",
+   "size": 10450,
+   "sha256": "c2617d455f2384a8ea2519441d65ef98f7447ac58a6d59962a84468b7fbdd1f6",
+   "verdict": "live",
+   "reason": "find() 第二候选（主候选 tools/scenario_tags.json 在位）；parity TOOL_DATA_FILES 边界文件——按边界纪律保留，不做单侧清理"
+  }
+ ],
+ "gates": {
+  "credibility_gate": "exit 0（--hard-fail，无新增硬失败；存量 524 冻结；D4/D5 警告 24 条非阻断）",
+  "verify_findings": "exit 0（--hard-fail，无新增；2 条既有警告：audit sha 过期、M-ASM 双采）",
+  "apply_verification_status": "exit 0（--check 四态自洽；公开 3211 + 隔离 60 = 3271）",
+  "verify_source_links": "exit 0（--hard-fail，无新增坏链；UNREACHABLE 为既有存量警告）"
+ },
+ "parity": {
+  "tool": "tools/check_repo_parity.py",
+  "run_pre_report": {
+   "exit": 1,
+   "both_1819_identical": true,
+   "single_side": 4,
+   "detail": "4 条均为兄弟 R7 卡待镜像：docs/research/phase21r7_cgroup_identity_report.{md,json}、phase21r7_wangxiang_sourcing_report.{md,json}（MISSING_IN_PUBLISH）；本卡路径零差异"
+  },
+  "final": "见完成交接（kanban metadata）与本卡评论"
+ },
+ "inputs_unchanged": {
+  "data_modes_data_json": "零写入（本卡仅删除非输入面副本与新增归档）",
+  "build_inputs_touched": "无（受处置 13 件无一在 build_figures_db.py find() 读序或 parity 边界现役集内）",
+  "site_chain": "未重跑（输入面零变化）；parity 构建图 1819 件逐字节一致作为替代强证"
+ },
+ "cross_repo_identity": "5 路径（4 归档目录 + data/audit 证据）逐文件 sha256 diff 实测全部 IDENTICAL",
+ "tool_json_census": {
+  "total": 709,
+  "kept_live": 3,
+  "disposed": 5,
+  "legacy_draft": 665,
+  "legacy_script": 33,
+  "backup": 1,
+  "doc": 2,
+  "full_list": "data/audit/phase21r7_leftovers_inventory.json"
+ },
+ "verification_paths": [
+  "data/audit/phase21r7_leftovers_inventory.json（709 件逐件 class + sha256）",
+  "docs/research/phase21r7_leftovers_evidence.json（本文件）",
+  "归档 README ×4（指纹与 git 恢复法）"
+ ]
+}
