@@ -299,7 +299,14 @@
     "publish_commit": "ec8f688dab4f8807ec37ef42cc99e90034968bad",
     "publish_pre_commit": "5c23c64151d6fdd46c36b42cc0cb2d48b680a6b4",
     "push_out": "To https://github.com/ovmobilegroup/protreptic.git\n   5c23c64..ec8f688  main -> main",
-    "remote_main": "ec8f688dab4f8807ec37ef42cc99e90034968bad\trefs/heads/main"
+    "remote_main": "ec8f688dab4f8807ec37ef42cc99e90034968bad\trefs/heads/main",
+    "second_push": {
+      "workspace_commit": "4f2c90aa",
+      "publish_commit": "262c7bc34e07fd2be106ad01c47e2a67761f4b0b",
+      "push_out": "To https://github.com/ovmobilegroup/protreptic.git\n   ec8f688..262c7bc  main -> main",
+      "content": "report section 9 + this evidence file (receipts)"
+    },
+    "third_push_note": "v3 micro-patch (receipt row for second push) lands with the third mirror push; receipt transcript in card ws evidence/mirror_log_r6b_final.json"
   },
   "parity_post": {
     "status": "DIFF",

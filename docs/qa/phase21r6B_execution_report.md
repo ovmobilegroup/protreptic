@@ -110,7 +110,8 @@
 - 发布仓提交：ec8f688（main），前置 5c23c64（Phase21-R5 收尾镜像）。
 - 推送回执：git push origin main -> 5c23c64..ec8f688（main）；git ls-remote --heads origin 复核远端 main = ec8f688dab4f8807ec37ef42cc99e90034968bad（回执誊本 evidence/mirror_log_r6b_final.json）。
 - 镜像后 parity（evidence/parity_post_json.json）：both_sides 1783 / identical 1783 / only_publish 0 / only_workspace 7（全部为他卡未跟踪在制文件）—— 跟踪边界零差异。
-- 本文件与证据 v2 补丁（回执誊本）随第二次镜像推送落盘（提交见 v2 记录）。
+- 第二次推送：git push origin main -> ec8f688..262c7bc（main），内容为报告与证据 v2 回执补丁；
+- 本文件 v3（本条微补）与证据同步落盘于第三次镜像推送，回执誊本见卡工作区 evidence/mirror_log_r6b_final.json 与 completion metadata（循 R6A 先例：报告只记前两次推送，收尾微补见日志）。
 
 ## 10. 复现步骤
 
