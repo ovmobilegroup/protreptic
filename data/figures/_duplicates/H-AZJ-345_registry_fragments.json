@@ -1,0 +1,31 @@
+{
+ "schema": "protreptic.r8_azj345_archive/v1",
+ "card": "t_3669eb4a",
+ "date": "2026-09-24",
+ "subject": "H-AZJ-345（安子介，批量占位在链残件）",
+ "ruling": "清（字节级归档；R6C/R7 口径）",
+ "kind": "registry_fragments",
+ "items": [
+  {
+   "source": "tools/batch2_candidates.json",
+   "removed": "{\n    \"code\": \"H-AZJ-345\",\n    \"name_zh\": \"安子介\",\n    \"name_en\": \"An Zijie\",\n    \"era\": \"Modern\",\n    \"historical_domains\": [\"Governance\", \"Economics\"],\n    \"domains\": [\"Operational\", \"Strategic\", \"Collaborative\"],\n    \"core_modes\": [8, 38, 39, 10],\n    \"gender\": \"Male\",\n    \"ethnicity\": \"Han\",\n    \"unique_thinking\": \"对外开放/特区建设/摸着石头过河\",\n    \"source_refs\": [\"《安子介回忆录》, 《深圳特区建设档案》\"],\n    \"proposed_steps\": [\n      \"第1步：找切入点——出口创汇、吸引外资、技术引进\",\n      \"第2步：小范围试点——深圳、珠海、汕头、厦门四个经济特区\",\n      \"第3步：红绿灯评估——三个有利于评估特区成效\",\n      \"第4步：经验固化——总结特区经验、形成可复制政策\",\n      \"第5步：逐步扩大——沿海开放城市、长江三角洲、珠江三角洲、闽三角\",\n      \"第6步：制度化——特区立法权、外资法规、海关监管体制\"\n    ],\n    \"applications\": [\"经济特区建设\", \"对外开放政策\", \"渐进式改革\"]\n  },\n"
+  },
+  {
+   "source": "tools/code_maps_en.json",
+   "removed": "\n  \"H-AZJ-345\": \"An Zijie: Opening Up / SEZ Construction / Crossing River by Feeling Stones\",\n"
+  },
+  {
+   "source": "tools/test_full_backup.py",
+   "removed": "'H-TJY-344', 'H-AZJ-345',"
+  },
+  {
+   "source": "three_dimensional_comparison_matrix.xlsx",
+   "removed": "| H-AZJ-345 | 安子介 | An Zijie | 8, 38, 39, 10 | Modern |\n| 对外开放 | 1 |\n| 特区建设 | 1 |\n| 摸着石头过河 | 3 | -> | 摸着石头过河 | 2 |\n[Sheet2 M10/M8/M38/M39 各去 H-AZJ-345 并 -1] [Sheet4 矩阵列 H-AZJ-345 整列删除]"
+  },
+  {
+   "source": "three_dimensional_comparison_matrix.xlsx",
+   "kind": "unified_diff",
+   "diff": "--- a/xlsx\n+++ b/xlsx\n@@ -6,3 +6,2 @@\n | - | - | - |\n-| H-AZJ-345 | 安子介 | An Zijie | 8, 38, 39, 10 | Modern |\n | H-BYB-342 | 薄一波 | Bo Yibo | 8, 38, 39, 7 | Modern |\n@@ -42,3 +41,3 @@\n | - | - | - |\n-| M10 | 17 | H-AZJ-345, H-CBD-356, H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LRQ-353, H-LSQ-333, H-LWH-360, H-PDH-334, H-QGH-348, H-SQL-349, H-WZ-355, H-XFZ-354, H-YJY-359, H-YWY-357, H-ZEL-332 |\n+| M10 | 16 | H-CBD-356, H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LRQ-353, H-LSQ-333, H-LWH-360, H-PDH-334, H-QGH-348, H-SQL-349, H-WZ-355, H-XFZ-354, H-YJY-359, H-YWY-357, H-ZEL-332 |\n | M42 | 15 | H-CBD-356, H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LRQ-353, H-LSQ-333, H-LWH-360, H-PDH-334, H-SQL-349, H-WZ-355, H-XFZ-354, H-YDZ-336, H-YWY-357, H-ZEL-332 |\n@@ -46,6 +45,6 @@\n | M6 | 10 | H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LSQ-333, H-QGH-348, H-SQL-349, H-XFZ-354, H-YJY-359, H-ZEL-332 |\n-| M8 | 7 | H-AZJ-345, H-BYB-342, H-HLG-339, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361 |\n-| M38 | 7 | H-AZJ-345, H-BYB-342, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361, H-ZKZ-340 |\n+| M8 | 6 | H-BYB-342, H-HLG-339, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361 |\n+| M38 | 6 | H-BYB-342, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361, H-ZKZ-340 |\n | M7 | 7 | H-BYB-342, H-CBD-356, H-FXT-351, H-QGH-348, H-QXS-337, H-YYY-341, H-ZKZ-340 |\n-| M39 | 5 | H-AZJ-345, H-BYB-342, H-CY-346, H-LXN-347, H-WL-343 |\n+| M39 | 4 | H-BYB-342, H-CY-346, H-LXN-347, H-WL-343 |\n | M36 | 5 | H-DJX-338, H-HLG-339, H-QXS-337, H-YYY-341, H-ZKZ-340 |\n@@ -89,10 +88,10 @@\n | Science_Tech |\n-| Domain | H-AZJ-345 | H-BYB-342 | H-CBD-356 | H-CY-346 | H-DJX-338 | H-DYC-350 | H-FXT-351 | H-HLG-339 | H-KKQ-358 | H-KS-352 | H-LRH-335 | H-LRQ-353 | H-LSQ-333 | H-LWH-360 | H-LXN-347 | H-PDH-334 | H-QGH-348 | H-QXS-337 | H-SQL-349 | H-TJY-344 | H-WL-343 | H-WZ-355 | H-XFZ-354 | H-YDZ-336 | H-YJY-359 | H-YSK-361 | H-YWY-357 | H-YYY-341 | H-ZEL-332 | H-ZKZ-340 |\n-| Economics | X | X |  | X |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |\n-| Education |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |\n-| Ethics |  |  | X |  |  | X | X |  | X |  |  |  |  | X |  |  |  |  | X |  |  |  |  |  |  |  | X |  |  |  |\n-| Governance | X | X | X | X |  | X |  |  |  | X | X |  | X | X | X |  | X |  | X | X | X | X | X |  | X | X |  |  | X |  |\n-| Literature_Arts |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |\n-| Military |  |  |  |  |  |  |  |  | X | X | X | X |  |  |  | X |  |  |  |  |  | X | X | X | X | X |  |  | X |  |\n-| Science_Tech |  |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  | X |  | X |\n+| Domain | H-BYB-342 | H-CBD-356 | H-CY-346 | H-DJX-338 | H-DYC-350 | H-FXT-351 | H-HLG-339 | H-KKQ-358 | H-KS-352 | H-LRH-335 | H-LRQ-353 | H-LSQ-333 | H-LWH-360 | H-LXN-347 | H-PDH-334 | H-QGH-348 | H-QXS-337 | H-SQL-349 | H-TJY-344 | H-WL-343 | H-WZ-355 | H-XFZ-354 | H-YDZ-336 | H-YJY-359 | H-YSK-361 | H-YWY-357 | H-YYY-341 | H-ZEL-332 | H-ZKZ-340 |\n+| Economics | X |  | X |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |\n+| Education |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |\n+| Ethics |  | X |  |  | X | X |  | X |  |  |  |  | X |  |  |  |  | X |  |  |  |  |  |  |  | X |  |  |  |\n+| Governance | X | X | X |  | X |  |  |  | X | X |  | X | X | X |  | X |  | X | X | X | X | X |  | X | X |  |  | X |  |\n+| Literature_Arts |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |\n+| Military |  |  |  |  |  |  |  | X | X | X | X |  |  |  | X |  |  |  |  |  | X | X | X | X | X |  |  | X |  |\n+| Science_Tech |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  | X |  | X |\n \n@@ -103,5 +102,3 @@\n | - | - | - |\n-| 摸着石头过河 | 3 |\n-| 对外开放 | 1 |\n-| 特区建设 | 1 |\n+| 摸着石头过河 | 2 |\n | 经济体制改革 | 1 |\n"
+  }
+ ]
+}

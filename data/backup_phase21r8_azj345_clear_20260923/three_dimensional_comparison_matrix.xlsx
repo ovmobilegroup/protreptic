@@ -1,0 +1,134 @@
+# Three-Dimensional Comparison Matrix
+
+## Sheet 1: Summary
+
+| Code | Name (ZH) | Name (EN) | Core Modes | Era |
+| - | - | - |
+| H-AZJ-345 | 安子介 | An Zijie | 8, 38, 39, 10 | Modern |
+| H-BYB-342 | 薄一波 | Bo Yibo | 8, 38, 39, 7 | Modern |
+| H-CBD-356 | 陈伯达 | Chen Boda | 10, 42, 2, 7 | Modern |
+| H-CY-346 | 陈云 | Chen Yun | 39, 5, 32 | Modern |
+| H-DJX-338 | 邓稼先 | Deng Jiaxian | 36, 9, 12, 22 | Modern |
+| H-DYC-350 | 邓颖超 | Deng Yingchao | 10, 42, 2, 6 | Modern |
+| H-FXT-351 | 费孝通 | Fei Xiaotong | 17, 2, 25, 7 | Modern |
+| H-HLG-339 | 华罗庚 | Hua Luogeng | 36, 17, 8, 25 | Modern |
+| H-KKQ-358 | 康克清 | Kang Keqing | 42, 10, 6, 2 | Modern |
+| H-KS-352 | 康生 | Kang Sheng | 10, 42, 6, 2 | Modern |
+| H-LRH-335 | 罗荣桓 | Luo Ronghuan | 42, 10, 6, 33 | Modern |
+| H-LRQ-353 | 罗瑞卿 | Luo Ruiqing | 42, 10, 35, 1 | Modern |
+| H-LSQ-333 | 刘少奇 | Liu Shaoqi | 10, 42, 6, 2 | Modern |
+| H-LWH-360 | 李维汉 | Li Weihan | 10, 17, 42, 2 | Modern |
+| H-LXN-347 | 李先念 | Li Xiannian | 39, 5, 32, 40 | Modern |
+| H-PDH-334 | 彭德怀 | Peng Dehuai | 42, 10, 35, 1 | Modern |
+| H-QGH-348 | 乔冠华 | Qiao Guanhua | 41, 10, 6, 7 | Modern |
+| H-QXS-337 | 钱学森 | Qian Xuesen | 36, 7, 17, 12 | Modern |
+| H-SQL-349 | 宋庆龄 | Soong Ching-ling | 10, 42, 2, 6 | Modern-Early |
+| H-TJY-344 | 田纪云 | Tian Jiyun | 8, 38, 5, 32 | Modern |
+| H-WL-343 | 万里 | Wan Li | 8, 38, 39 | Modern |
+| H-WZ-355 | 王震 | Wang Zhen | 42, 8, 38, 10 | Modern |
+| H-XFZ-354 | 谢富治 | Xie Fuzhi | 10, 42, 6, 2 | Modern |
+| H-YDZ-336 | 杨得志 | Yang Dezhi | 42, 16, 1, 9 | Modern |
+| H-YJY-359 | 叶剑英 | Ye Jianying | 41, 10, 6, 33 | Modern |
+| H-YSK-361 | 杨尚昆 | Yang Shangkun | 41, 8, 38, 32 | Modern |
+| H-YWY-357 | 姚文元 | Yao Wenyuan | 10, 42, 2, 25 | Modern |
+| H-YYY-341 | 屠呦呦 | Tu Youyou | 36, 9, 23, 7 | Modern |
+| H-ZEL-332 | 周恩来 | Zhou Enlai | 10, 42, 6, 33 | Modern |
+| H-ZKZ-340 | 竺可桢 | Zhu Kezhen | 36, 7, 38, 12 | Modern |
+
+
+## Sheet 2: Mode Coverage
+
+| Mode ID | Frequency | Figures |
+| - | - | - |
+| M10 | 17 | H-AZJ-345, H-CBD-356, H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LRQ-353, H-LSQ-333, H-LWH-360, H-PDH-334, H-QGH-348, H-SQL-349, H-WZ-355, H-XFZ-354, H-YJY-359, H-YWY-357, H-ZEL-332 |
+| M42 | 15 | H-CBD-356, H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LRQ-353, H-LSQ-333, H-LWH-360, H-PDH-334, H-SQL-349, H-WZ-355, H-XFZ-354, H-YDZ-336, H-YWY-357, H-ZEL-332 |
+| M2 | 10 | H-CBD-356, H-DYC-350, H-FXT-351, H-KKQ-358, H-KS-352, H-LSQ-333, H-LWH-360, H-SQL-349, H-XFZ-354, H-YWY-357 |
+| M6 | 10 | H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LSQ-333, H-QGH-348, H-SQL-349, H-XFZ-354, H-YJY-359, H-ZEL-332 |
+| M8 | 7 | H-AZJ-345, H-BYB-342, H-HLG-339, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361 |
+| M38 | 7 | H-AZJ-345, H-BYB-342, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361, H-ZKZ-340 |
+| M7 | 7 | H-BYB-342, H-CBD-356, H-FXT-351, H-QGH-348, H-QXS-337, H-YYY-341, H-ZKZ-340 |
+| M39 | 5 | H-AZJ-345, H-BYB-342, H-CY-346, H-LXN-347, H-WL-343 |
+| M36 | 5 | H-DJX-338, H-HLG-339, H-QXS-337, H-YYY-341, H-ZKZ-340 |
+| M32 | 4 | H-CY-346, H-LXN-347, H-TJY-344, H-YSK-361 |
+| M17 | 4 | H-FXT-351, H-HLG-339, H-LWH-360, H-QXS-337 |
+| M5 | 3 | H-CY-346, H-LXN-347, H-TJY-344 |
+| M9 | 3 | H-DJX-338, H-YDZ-336, H-YYY-341 |
+| M12 | 3 | H-DJX-338, H-QXS-337, H-ZKZ-340 |
+| M25 | 3 | H-FXT-351, H-HLG-339, H-YWY-357 |
+| M33 | 3 | H-LRH-335, H-YJY-359, H-ZEL-332 |
+| M1 | 3 | H-LRQ-353, H-PDH-334, H-YDZ-336 |
+| M41 | 3 | H-QGH-348, H-YJY-359, H-YSK-361 |
+| M35 | 2 | H-LRQ-353, H-PDH-334 |
+| M22 | 1 | H-DJX-338 |
+| M40 | 1 | H-LXN-347 |
+| M16 | 1 | H-YDZ-336 |
+| M23 | 1 | H-YYY-341 |
+
+
+## Sheet 3: Regional Distribution
+
+| Region | Count |
+| - | - | - |
+| 军事/政治 | 7 |
+| 经济改革 | 6 |
+| 思想文化 | 6 |
+| 科学/技术 | 6 |
+| 中国现代史 | 5 |
+
+
+## Sheet 4: Domain Overlap
+
+| Domain |
+| - | - | - |
+| Economics |
+| Education |
+| Ethics |
+| Governance |
+| Literature_Arts |
+| Military |
+| Science_Tech |
+| Domain | H-AZJ-345 | H-BYB-342 | H-CBD-356 | H-CY-346 | H-DJX-338 | H-DYC-350 | H-FXT-351 | H-HLG-339 | H-KKQ-358 | H-KS-352 | H-LRH-335 | H-LRQ-353 | H-LSQ-333 | H-LWH-360 | H-LXN-347 | H-PDH-334 | H-QGH-348 | H-QXS-337 | H-SQL-349 | H-TJY-344 | H-WL-343 | H-WZ-355 | H-XFZ-354 | H-YDZ-336 | H-YJY-359 | H-YSK-361 | H-YWY-357 | H-YYY-341 | H-ZEL-332 | H-ZKZ-340 |
+| Economics | X | X |  | X |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |
+| Education |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |
+| Ethics |  |  | X |  |  | X | X |  | X |  |  |  |  | X |  |  |  |  | X |  |  |  |  |  |  |  | X |  |  |  |
+| Governance | X | X | X | X |  | X |  |  |  | X | X |  | X | X | X |  | X |  | X | X | X | X | X |  | X | X |  |  | X |  |
+| Literature_Arts |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |
+| Military |  |  |  |  |  |  |  |  | X | X | X | X |  |  |  | X |  |  |  |  |  | X | X | X | X | X |  |  | X |  |
+| Science_Tech |  |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  | X |  | X |
+
+
+## Sheet 5: Top Tags by Frequency
+
+| Tag | Frequency |
+| - | - | - |
+| 摸着石头过河 | 3 |
+| 对外开放 | 1 |
+| 特区建设 | 1 |
+| 经济体制改革 | 1 |
+| 渐进改革试点先行 | 1 |
+| 理论权威 | 1 |
+| 文革理论构建 | 1 |
+| 三大纪律八项注意在理论阵地的捍卫 | 1 |
+| 实事求是与教条主义的辩证 | 1 |
+| 鸟笼经济 | 1 |
+| 市场在计划内 | 1 |
+| 财经纪律的铁算盘 | 1 |
+| 两弹一星的隐姓埋名与百炼成钢 | 1 |
+| 妇女运动 | 1 |
+| 政治外交 | 1 |
+| 党内民主 | 1 |
+| 周恩来伴侣 | 1 |
+| 女性政治觉醒 | 1 |
+| 差序格局 | 1 |
+| 多元一体 | 1 |
+| 乡土中国 | 1 |
+| 实事求是 | 1 |
+| 数学自学成才与优选法 | 1 |
+| 多目标规划 | 1 |
+| 数学普及教育 | 1 |
+| 女将军 | 1 |
+| 三大纪律八项注意在妇女工作中的践行 | 1 |
+| 统战联合妇女力量 | 1 |
+| 情报统战与纪律建设的双重架构师——三大纪律八项注意在情报系统的极致落地 | 1 |
+| 政治工作 | 1 |
+

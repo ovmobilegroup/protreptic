@@ -1,0 +1,55 @@
+{
+ "schema": "protreptic.r8_azj345_archive/v1",
+ "card": "t_3669eb4a",
+ "date": "2026-09-24",
+ "subject": "H-AZJ-345（安子介，批量占位在链残件）",
+ "ruling": "清（字节级归档；R6C/R7 口径）",
+ "kind": "site_products_cleared",
+ "items": [
+  {
+   "source": "web/public/data/figures/H-AZJ-345.json（清档前分片原文）",
+   "verbatim": "{\"code\":\"H-AZJ-345\",\"name_zh\":\"安子介：对外开放/特区建设/摸着石头过河\",\"description_zh\":\"对外开放/特区建设/摸着石头过河\",\"reason_zh\":\"安子介的核心思维贡献：对外开放/特区建设/摸着石头过河。结合相关思维模式框架，分析其在相关领域的卓越贡献和思想方法。\",\"steps_zh\":\"[\\\"第1步：找切入点——出口创汇、吸引外资、技术引进\\\", \\\"第2步：小范围试点——深圳、珠海、汕头、厦门四个经济特区\\\", \\\"第3步：红绿灯评估——三个有利于评估特区成效\\\", \\\"第4步：经验固化——总结特区经验、形成可复制政策\\\", \\\"第5步：逐步扩大——沿海开放城市、长江三角洲、珠江三角洲、闽三角\\\", \\\"第6步：制度化——特区立法权、外资法规、海关监管体制\\\"]\",\"expected_zh\":\"[\\\"经济特区建设\\\", \\\"对外开放政策\\\", \\\"渐进式改革\\\"]\",\"case_zh\":\"安子介的核心实践：经济特区建设；对外开放政策；渐进式改革\",\"name_en\":\"An Zijie: Opening Up / SEZ Construction / Crossing River by Feeling Stones\",\"description_en\":\"Opening Up, SEZ Construction, Gradual Reform\",\"reason_en\":\"An Zijie participated in Shenzhen SEZ construction. Gradual Reform (Mode 8): pilot-first. Crossing River by Feeling Stones (Mode 38): Three Favorables evaluation of SEZ effects. Birdcage Economy/Boundary Thinking (Mode 39): export-oriented, attract foreign investment, technology import. United Front (Mode 10): unite overseas Chinese, Hong Kong/Macau compatriots, foreign investors.\",\"steps_en\":\"[\\\"Step 1: Find entry point - export foreign exchange, attract foreign investment, technology import\\\", \\\"Step 2: Small-scale pilots - Shenzhen, Zhuhai, Shantou, Xiamen four SEZs\\\", \\\"Step 3: Red-green light evaluation - Three Favorables evaluate SEZ effectiveness\\\", \\\"Step 4: Experience solidification - summarize SEZ experience, form replicable policies\\\", \\\"Step 5: Gradual expansion - coastal open cities, Yangtze Delta, Pearl River Delta, Min Delta\\\", \\\"Step 6: Institutionalization - SEZ legislative power, foreign investment laws, customs supervision system\\\"]\",\"expected_en\":\"[\\\"Build China's first generation SEZs\\\", \\\"Attract foreign investment and technology\\\", \\\"Form opening up gradual methodology\\\"]\",\"case_en\":\"Shenzhen, Zhuhai, Shantou, Xiamen four SEZs. Three Favorables evaluation passed. Coastal open cities, Yangtze Delta, Pearl River Delta, Min Delta expansion. Modern applications: SEZ construction, opening up policy, gradual reform.\",\"modes\":[8,38,39,10],\"era\":null,\"historical_domains\":[],\"domains\":[],\"gender\":null,\"ethnicity\":null,\"n_modes\":4}",
+   "sha256_verbatim": "bf39b48637430d6f72f6d216ea5dc9b15c23a5c11f43811fc682d58114f33b90"
+  },
+  {
+   "source": "docs/architecture/web_p0_routes.json（清档前路由条目）",
+   "routes": [
+    {
+     "path": "figures/H-AZJ-345",
+     "title": "安子介：对外开放/特区建设/摸着石头过河 - 场景档案 4 条模式",
+     "description": "对外开放/特区建设/摸着石头过河",
+     "type": "scenario",
+     "name": "安子介：对外开放/特区建设/摸着石头过河",
+     "code": "H-AZJ-345",
+     "n_modes": 4,
+     "body": false,
+     "body_text_chars": 0,
+     "canonical": "https://ovmobilegroup.github.io/protreptic/figures/H-AZJ-345/"
+    }
+   ]
+  },
+  {
+   "source": "web/public/sitemap.xml（清档前 URL 行）",
+   "lines": [
+    "    <loc>https://ovmobilegroup.github.io/protreptic/figures/H-AZJ-345/</loc>"
+   ]
+  },
+  {
+   "source": "web/public/data/meta.json（清档前→后计数差值）",
+   "delta": {
+    "counts.figures": [
+     1057,
+     1056
+    ],
+    "counts.figure_shards": [
+     1057,
+     1056
+    ],
+    "products.figures.index.json.sha256": [
+     "f0eded8cd6b592451260feab15dd90f26821cdd8d2b580d4d077153475de3730",
+     "838feb9b35021d15b26fcc82f8280126524eeae3501e3ef36904dd21aa457a6d"
+    ]
+   }
+  }
+ ]
+}

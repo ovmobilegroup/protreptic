@@ -1,0 +1,46 @@
+{
+ "schema": "protreptic.r8_azj345_archive/v1",
+ "card": "t_3669eb4a",
+ "date": "2026-09-24",
+ "subject": "H-AZJ-345（安子介，批量占位在链残件）",
+ "ruling": "清（字节级归档；R6C/R7 口径）",
+ "kind": "ledger",
+ "fragments": {
+  "H-AZJ-345_scenarios_zh_entry.json": {
+   "bytes": 1529,
+   "sha256": "dcf6f03f34853adf798ca73484553740448983bbdb5a8990c6e258dd0eb7f87d"
+  },
+  "H-AZJ-345_scenarios_en_entry.json": {
+   "bytes": 2036,
+   "sha256": "a01b3d9e749376eb1884926d9d3c15572f1a85d99cdd79055758260a2d29c961"
+  },
+  "H-AZJ-345_api_scenarios_en_entry.json": {
+   "bytes": 2017,
+   "sha256": "40f7bfe2c05517e3afec3baaa709bba6f7eaaf9fe7f936d8d87511a340bbf4fe"
+  },
+  "H-AZJ-345_figures_row.json": {
+   "bytes": 3520,
+   "sha256": "9c420d72d8f636c568059cd01fb14640e98028d16f3a0030ac2f15fedbfbaa6f"
+  },
+  "H-AZJ-345_registry_fragments.json": {
+   "bytes": 6288,
+   "sha256": "eff38acbcc2e2be2c7607b37a753c6638b9893b0ae327bfa0a264083fceb2993"
+  },
+  "H-AZJ-345_products_snapshot.json": {
+   "bytes": 4439,
+   "sha256": "b790054b56072afa642778747f1ccd6c9a8d07440469f18cfafc49b6011a403e"
+  },
+  "H-AZJ-345_legacy_docs_fragments.md": {
+   "bytes": 4719,
+   "sha256": "bffb1d67d48fd5448e63e05925e4156d0b303ab2186c4e40e15efb75ede8dfb1"
+  },
+  "H-AZJ-345_docs_site_fragments.md": {
+   "bytes": 4427,
+   "sha256": "0b17162660c35127bfd89e126547833bb6b9082eaa250e7bd01b3075f92c3db9"
+  }
+ },
+ "restore": {
+  "full_preimage_backup": "data/backup_phase21r8_azj345_clear_20260923/（31 件 byte-exact 前像 + MANIFEST.sha256）",
+  "mirror_preimage": "/opt/data/release/Protreptic-publish（发布仓，清档前镜像）"
+ }
+}

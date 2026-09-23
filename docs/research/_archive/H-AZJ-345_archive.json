@@ -1,0 +1,326 @@
+{
+ "schema": "protreptic.r8_azj345_archive/v1",
+ "card": "t_3669eb4a",
+ "date": "2026-09-24",
+ "subject": "H-AZJ-345（安子介，批量占位在链残件）",
+ "ruling": "清（字节级归档；R6C/R7 口径）",
+ "preimage_backup": {
+  "dir": "data/backup_phase21r8_azj345_clear_20260923/",
+  "files_count": 31,
+  "head_at_backup": "a92c92d45871a14a6f5c338409279c457eae00ae",
+  "manifest_ref": "data/backup_phase21r8_azj345_clear_20260923/MANIFEST.sha256",
+  "files": [
+   {
+    "path": "tools/json/scenarios_zh.json",
+    "size": 3038171,
+    "sha256": "c240aa300812af6dae64a40b5652459dfa33e81a9f2d518e408bdde58cb8dd14"
+   },
+   {
+    "path": "tools/json/scenarios_en.json",
+    "size": 2288761,
+    "sha256": "018aadd45918d72db4dad2763aa13042815a6ccfbae1f2f26eea19be5cbc6798"
+   },
+   {
+    "path": "api/data/scenarios_en.json",
+    "size": 826335,
+    "sha256": "782418eb5806c7ad1ddc06da9247726cbc28da6ee008b29736ba80a1aeee14b5"
+   },
+   {
+    "path": "tools/test_full_backup.py",
+    "size": 12324,
+    "sha256": "6d71528507867a7a2c269b08092a71533e22248d28b8525d7627c1d405734487"
+   },
+   {
+    "path": "tools/batch2_candidates.json",
+    "size": 22933,
+    "sha256": "532206efd2a5644abca1ca7d166dbe22cffb49fa79e5ddfa8dcf5ac57cbd01d4"
+   },
+   {
+    "path": "tools/code_maps_en.json",
+    "size": 86424,
+    "sha256": "b1893a9bbc8d04ade93cb6b089b63162c9fb4c057e3761091f7d32c77461cc96"
+   },
+   {
+    "path": "three_dimensional_comparison_matrix.xlsx",
+    "size": 6194,
+    "sha256": "842ba499604f16e3da17c0bb95703952dbc54f6c2ae5e20f88383c5d0119b020"
+   },
+   {
+    "path": "tools/pages_preflight.py",
+    "size": 12311,
+    "sha256": "440fb33a0846bd951d5085cbb93024e7d49ff974534f461bb55f2760c5a36312"
+   },
+   {
+    "path": "tools/export_static_site.py",
+    "size": 40856,
+    "sha256": "0166d06402ccb7c5ae7f7e587827c99450f5e004d4b1357b6da78ce92699bd0c"
+   },
+   {
+    "path": "tools/ci_data_check.py",
+    "size": 16020,
+    "sha256": "8efa76d471de2a184712aa83f404763561af5936a05ba67c9ce53c0e9e0f416f"
+   },
+   {
+    "path": "docs/historical_figures_thinking_modes_library.md",
+    "size": 1497787,
+    "sha256": "a2b37271a4ee4037260050d2e49647b9e2fbe9c779a0774f262ec6e86a7253c7"
+   },
+   {
+    "path": "docs/research/batch_new_figures_research.md",
+    "size": 39778,
+    "sha256": "eafcc559156e8750e1f7832062c55629a0b6ff79c52392f09e8e7a4912f91011"
+   },
+   {
+    "path": "docs/research/candidates_v4_research.legacy.md",
+    "size": 3334,
+    "sha256": "8518458ea7e2e8b979d5216efd5841f02cbe48508e144b7d0340f428197a9506"
+   },
+   {
+    "path": "docs/architecture/web_p0_routes.json",
+    "size": 681153,
+    "sha256": "dd5c664b8b909f32a46a926dc5e6e13b3cc45bd69dfe96860f3793edd819c29b"
+   },
+   {
+    "path": "docs/architecture/static_data_manifest.json",
+    "size": 3748,
+    "sha256": "7afc3e46ffcfbefe6e150d88a45c29ea9c63a2094764981f1d8da989f33dc4ba"
+   },
+   {
+    "path": "web/public/sitemap.xml",
+    "size": 211252,
+    "sha256": "d15b6858bb8e9a1855964112c0968cf591e71d8b515ac87094be672dbd11c263"
+   },
+   {
+    "path": "web/src/generated/siteCounts.ts",
+    "size": 2656,
+    "sha256": "a5a47d3f2121515a091addab204827d8190aab0aab8b8ef0e2893a92bcbada90"
+   },
+   {
+    "path": "web/public/data/meta.json",
+    "size": 3563,
+    "sha256": "1f35459d117e8af25088392d43b59ad40741547391eeeb91351e4c78c456f042"
+   },
+   {
+    "path": "web/public/data/figures.index.json",
+    "size": 212513,
+    "sha256": "f0eded8cd6b592451260feab15dd90f26821cdd8d2b580d4d077153475de3730"
+   },
+   {
+    "path": "web/public/data/figures/H-AZJ-345.json",
+    "size": 2659,
+    "sha256": "bf39b48637430d6f72f6d216ea5dc9b15c23a5c11f43811fc682d58114f33b90"
+   },
+   {
+    "path": "web/dist/data/meta.json",
+    "size": 3556,
+    "sha256": "a1ff7edd497ab46d3a1d09b50ad6ccf72c161c632521fbf0ff573231b79c6112"
+   },
+   {
+    "path": "web/dist/data/figures.index.json",
+    "size": 212513,
+    "sha256": "f0eded8cd6b592451260feab15dd90f26821cdd8d2b580d4d077153475de3730"
+   },
+   {
+    "path": "web/dist/data/figures/H-AZJ-345.json",
+    "size": 2659,
+    "sha256": "bf39b48637430d6f72f6d216ea5dc9b15c23a5c11f43811fc682d58114f33b90"
+   },
+   {
+    "path": "web/dist/data/index.unified.json",
+    "size": 484731,
+    "sha256": "22d22a0f139487e13a5c983ebf34b65358a1a48c970ce9f8e631684991427ba2"
+   },
+   {
+    "path": "web/dist/sitemap.xml",
+    "size": 211252,
+    "sha256": "d15b6858bb8e9a1855964112c0968cf591e71d8b515ac87094be672dbd11c263"
+   },
+   {
+    "path": "site_docs/historical_figures_thinking_modes_library/index.html",
+    "size": 2047298,
+    "sha256": "99ed9f38485434305f51efc0af5e91f7370d5bb2d4eb69456f72a97cb93ebf04"
+   },
+   {
+    "path": "site_docs/research/batch_new_figures_research/index.html",
+    "size": 203957,
+    "sha256": "4f0d2bf611ca20d32cc062995a05f17b1b2d20cbaf7979453dcf01fcc6c8068c"
+   },
+   {
+    "path": "site_docs/architecture/web_p0_routes.json",
+    "size": 681153,
+    "sha256": "dd5c664b8b909f32a46a926dc5e6e13b3cc45bd69dfe96860f3793edd819c29b"
+   },
+   {
+    "path": "site_docs/search/search_index.json",
+    "size": 21379490,
+    "sha256": "736177cd999bf353beee6a0ba05cffc987290c2ff7157a10ac7b0ddcd4ce8225"
+   },
+   {
+    "path": "docs_site/docs/historical_figures_thinking_modes_library.md",
+    "size": 1319110,
+    "sha256": "5f238a4e5afe70bead639cdb6eee650d37c9f35e9e7be01abfe4a57d725248bb"
+   },
+   {
+    "path": "docs_site/docs/scenario_tags.json",
+    "size": 325514,
+    "sha256": "198e96a75370f8638c1215ff774c114c217f403c162e2fe303373cdbff155118"
+   }
+  ]
+ },
+ "byte_archives": {
+  "H-AZJ-345_scenarios_zh_entry.json": {
+   "bytes": 1529,
+   "sha256": "dcf6f03f34853adf798ca73484553740448983bbdb5a8990c6e258dd0eb7f87d"
+  },
+  "H-AZJ-345_scenarios_en_entry.json": {
+   "bytes": 2036,
+   "sha256": "a01b3d9e749376eb1884926d9d3c15572f1a85d99cdd79055758260a2d29c961"
+  },
+  "H-AZJ-345_api_scenarios_en_entry.json": {
+   "bytes": 2017,
+   "sha256": "40f7bfe2c05517e3afec3baaa709bba6f7eaaf9fe7f936d8d87511a340bbf4fe"
+  },
+  "H-AZJ-345_figures_row.json": {
+   "bytes": 3520,
+   "sha256": "9c420d72d8f636c568059cd01fb14640e98028d16f3a0030ac2f15fedbfbaa6f"
+  },
+  "H-AZJ-345_registry_fragments.json": {
+   "bytes": 6288,
+   "sha256": "eff38acbcc2e2be2c7607b37a753c6638b9893b0ae327bfa0a264083fceb2993"
+  },
+  "H-AZJ-345_products_snapshot.json": {
+   "bytes": 4439,
+   "sha256": "b790054b56072afa642778747f1ccd6c9a8d07440469f18cfafc49b6011a403e"
+  },
+  "H-AZJ-345_legacy_docs_fragments.md": {
+   "bytes": 4719,
+   "sha256": "bffb1d67d48fd5448e63e05925e4156d0b303ab2186c4e40e15efb75ede8dfb1"
+  },
+  "H-AZJ-345_docs_site_fragments.md": {
+   "bytes": 4427,
+   "sha256": "0b17162660c35127bfd89e126547833bb6b9082eaa250e7bd01b3075f92c3db9"
+  }
+ },
+ "removed_fragments": [
+  {
+   "path": "tools/json/scenarios_zh.json",
+   "note": "scenarios 条目键级删除",
+   "sha256_before": "c240aa300812af6dae64a40b5652459dfa33e81a9f2d518e408bdde58cb8dd14",
+   "sha256_after": "9c65a12157e8cf101a298807dae5815a1452716c1df244cc2527344e3356f705",
+   "bytes_before": 3038171,
+   "bytes_after": 3037108,
+   "removed_sha256": "8ded136c19f003450d79e22f9480f8d0b3c87fb33df64a8f8f619940a6b36d0c"
+  },
+  {
+   "path": "tools/json/scenarios_en.json",
+   "note": "scenarios 条目键级删除",
+   "sha256_before": "018aadd45918d72db4dad2763aa13042815a6ccfbae1f2f26eea19be5cbc6798",
+   "sha256_after": "acadac5909c2341dd340e0f5d8fc811cb65956561aec7fa19cdacde486975d9b",
+   "bytes_before": 2288761,
+   "bytes_after": 2287191,
+   "removed_sha256": "5a8264236437606e004c44e0fdd8d5e58038f49bbcfa52d11c36febb6828ff0e"
+  },
+  {
+   "path": "api/data/scenarios_en.json",
+   "note": "scenarios 条目键级删除",
+   "sha256_before": "782418eb5806c7ad1ddc06da9247726cbc28da6ee008b29736ba80a1aeee14b5",
+   "sha256_after": "dc5ab0b81ef9a44ffc7011f1e297fd36fb4f05ee21aaddae2c4fa6cd587f3785",
+   "bytes_before": 826335,
+   "bytes_after": 824812,
+   "removed_sha256": "1976c2569ab6ed93c705b40d2446f7c6de054146956c8eafa6cb041ac3ebad7b"
+  },
+  {
+   "path": "tools/batch2_candidates.json",
+   "note": "批量候选列表去掉 AZJ 条目",
+   "sha256_before": "532206efd2a5644abca1ca7d166dbe22cffb49fa79e5ddfa8dcf5ac57cbd01d4",
+   "sha256_after": "959210c9ea10a249dc93dfa1fb33635e01f000b91fd43efe91ed8d8258c5b4b6",
+   "bytes_before": 22933,
+   "bytes_after": 21845,
+   "removed_sha256": "3530b8c63a37d62dbae344d79f6ab72de7a1ebf368791c4bd6544324d996c4a4"
+  },
+  {
+   "path": "tools/code_maps_en.json",
+   "note": "code_maps_en 映射键删除",
+   "sha256_before": "b1893a9bbc8d04ade93cb6b089b63162c9fb4c057e3761091f7d32c77461cc96",
+   "sha256_after": "37b93916f6fd683a569a31dff14d710cffc26a09b30a8830a70507cc76138272",
+   "bytes_before": 86424,
+   "bytes_after": 86330,
+   "removed_sha256": "b1d4c5e6dd47b862ab4a2366ac7b1ba79f77f2169d2d22f9eefc7f86967c6ead"
+  },
+  {
+   "path": "three_dimensional_comparison_matrix.xlsx",
+   "note": "xlsx 四表联动删除",
+   "sha256_before": "842ba499604f16e3da17c0bb95703952dbc54f6c2ae5e20f88383c5d0119b020",
+   "sha256_after": "ed2bb2a2e21ad8a9833a49329b935a74ad9cefa98f556acabc8f75b31e49ccc7",
+   "bytes_before": 6194,
+   "bytes_after": 6011,
+   "removed_sha256": "61261d3aa056830452cdb440103adca7f08901c6913bcb0435538dd1aa5de2a5"
+  },
+  {
+   "path": "tools/test_full_backup.py",
+   "note": "batch_h 列表移除 H-AZJ-345",
+   "sha256_before": "6d71528507867a7a2c269b08092a71533e22248d28b8525d7627c1d405734487",
+   "sha256_after": "43fc4d46f2a98fe36edccc71b43ec29dd7e3a4638a649b7c194da84dfba42f9d",
+   "bytes_before": 12324,
+   "bytes_after": 12311,
+   "removed_sha256": "b68e475bdfa32ec77c952be9cc41cd301c1644b96cdba0e6d20966ccbabd2644"
+  },
+  {
+   "path": "docs/historical_figures_thinking_modes_library.md",
+   "note": "AZJ 章节整块切除 + 领域分布表人名去除",
+   "sha256_before": "a2b37271a4ee4037260050d2e49647b9e2fbe9c779a0774f262ec6e86a7253c7",
+   "sha256_after": "1b75690b095623a6c60409ae4373a99b8a2792df4b1cb137fb655feccecc27ee",
+   "bytes_before": 1497787,
+   "bytes_after": 1494989,
+   "removed_sha256": "a12838caf4c8c97b86068d2c63734754fffa0d43dde30a19ab7f772b2035d98c"
+  },
+  {
+   "path": "docs/research/batch_new_figures_research.md",
+   "note": "候选研究 JSON 首条目删除",
+   "sha256_before": "eafcc559156e8750e1f7832062c55629a0b6ff79c52392f09e8e7a4912f91011",
+   "sha256_after": "d775e20b6a2604ad1134817704f303faeb17b6f4ea6bb4975a87c4ef9fbabed3",
+   "bytes_before": 39778,
+   "bytes_after": 38580,
+   "removed_sha256": "e52194067c44d82da55550f9a70378ab98f0b23abd032ae2b1f6fad50fa558f6"
+  },
+  {
+   "path": "docs/research/candidates_v4_research.legacy.md",
+   "note": "候选人名单表行删除（root 属主件，tmp+os.replace 替换）",
+   "sha256_before": "8518458ea7e2e8b979d5216efd5841f02cbe48508e144b7d0340f428197a9506",
+   "sha256_after": "ed1b0fdfd31f584ed683b2d2b751884642022ab51552779715a22c0da41fdf91",
+   "bytes_before": 3334,
+   "bytes_after": 3237,
+   "removed_sha256": "628e3793a2de0a160344246afa1df5f977efee634704519bae114ca9969dd11b"
+  },
+  {
+   "path": "docs_site/docs/scenario_tags.json",
+   "note": "标签表 AZJ 键删除（嵌套容器，结构等价校验）",
+   "sha256_before": "198e96a75370f8638c1215ff774c114c217f403c162e2fe303373cdbff155118",
+   "sha256_after": "3ed465358b4c693ba73b8fe485f52b3c6643671e222975e8a60abfafbc3525a5",
+   "bytes_before": 325514,
+   "bytes_after": 324718,
+   "removed_sha256": "56c92e2c8aae7c083c233823b00bf6e15060deca33d198197fa99bc17348d992"
+  },
+  {
+   "path": "docs_site/docs/historical_figures_thinking_modes_library.md",
+   "note": "docs_site library md AZJ block cut + token strips",
+   "sha256_before": "5f238a4e5afe70bead639cdb6eee650d37c9f35e9e7be01abfe4a57d725248bb",
+   "sha256_after": "baf83383ec0e24e95fc5353d3765531caa7114a94de6f53ab52cec616dad9880",
+   "bytes_before": 1319110,
+   "bytes_after": 1316301,
+   "removed_sha256": "d78a45995f16756ce5984ce1b80144117987b14197fc5c1f83d7f0861bc5db5d"
+  }
+ ],
+ "chain_products_cleared": {
+  "api/protreptic.db": "figures 1057 -> 1056; AZJ row (id=366) deleted; thinking_modes has no related rows",
+  "web/public/data/figures/H-AZJ-345.json": "detail shard deleted (preimage 2659 B kept in backup)",
+  "docs/architecture/web_p0_routes.json": "AZJ route removed (routes=1387 after rebuild)",
+  "web/public/sitemap.xml": "AZJ URL removed (1388 entries after rebuild)",
+  "anchors": "EXPECT_FIGURES 1057->1056 (x2 files); MIN_SITEMAP_ENTRIES 1300->1388 (measured post-rebuild)"
+ },
+ "restore": "Copy files back from data/backup_phase21r8_azj345_clear_20260923/ (see its README.md); tracked files are also recoverable via git history.",
+ "notes": [
+  "Byte-level archives: data/figures/_duplicates/H-AZJ-345_*.json|.md (8 files; shas in byte_archives).",
+  "QA cross-check target: sha consistency across this file, MANIFEST.sha256 and H-AZJ-345_ledger.json."
+ ]
+}

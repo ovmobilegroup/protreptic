@@ -2,16 +2,16 @@
  "schema": "protreptic.prerendered_routes/v1",
  "generated_by": "tools/prerender_routes.py",
  "base": "/protreptic/",
- "count": 1349,
- "total_html_bytes": 19710853,
+ "count": 1387,
+ "total_html_bytes": 21979463,
  "counts_by_type": {
   "static": 9,
-  "person": 278,
-  "scenario": 1055,
+  "person": 318,
+  "scenario": 1053,
   "template": 7
  },
- "body_count": 288,
- "body_total_bytes": 12682748,
+ "body_count": 328,
+ "body_total_bytes": 14079258,
  "body_routes": [
   "figures",
   "minds/AMP",
@@ -33,6 +33,7 @@
   "minds/CL",
   "minds/CatherineII",
   "minds/Charlemagne",
+  "minds/Coubertin",
   "minds/Cusanus",
   "minds/Cyrus",
   "minds/DLT",
@@ -65,21 +66,31 @@
   "minds/H-BAC-001",
   "minds/H-BAK-001",
   "minds/H-BEN-001",
+  "minds/H-BG-001",
+  "minds/H-BLT-001",
   "minds/H-BV-001",
   "minds/H-CAE-001",
   "minds/H-CC-001",
+  "minds/H-CHB-001",
+  "minds/H-CHE-001",
+  "minds/H-CHI-001",
   "minds/H-CHN-001",
   "minds/H-CHU-001",
   "minds/H-CIC-001",
   "minds/H-CUR-001",
   "minds/H-CW-001",
+  "minds/H-CY-001",
   "minds/H-CYP-001",
+  "minds/H-DA-001",
   "minds/H-DAR-001",
   "minds/H-DAV-001",
   "minds/H-DF-001",
   "minds/H-DKR-001",
+  "minds/H-DRK-001",
   "minds/H-DSF-001",
   "minds/H-DY-001",
+  "minds/H-DYC-001",
+  "minds/H-DZ-001",
   "minds/H-DZS-001",
   "minds/H-EIN-001",
   "minds/H-ERA-001",
@@ -88,12 +99,15 @@
   "minds/H-FEI-001",
   "minds/H-FRE-001",
   "minds/H-FRK-001",
+  "minds/H-FXT-001",
   "minds/H-FYJ-001",
   "minds/H-GAL-001",
   "minds/H-GAN-001",
   "minds/H-GAU-001",
   "minds/H-GHZ-001",
   "minds/H-GUE-001",
+  "minds/H-GX-001",
+  "minds/H-GYW-001",
   "minds/H-HAM-001",
   "minds/H-HAR-001",
   "minds/H-HAY-001",
@@ -102,23 +116,31 @@
   "minds/H-HLG-001",
   "minds/H-HS-001",
   "minds/H-HZX-001",
+  "minds/H-HZX-002",
   "minds/H-IBR-001",
   "minds/H-IBS-001",
   "minds/H-INM-001",
   "minds/H-ISN-001",
   "minds/H-JBS-001",
   "minds/H-JEF-001",
+  "minds/H-JMLS-001",
   "minds/H-JSX-001",
+  "minds/H-JX-001",
+  "minds/H-JY-001",
   "minds/H-KD-001",
   "minds/H-KEY-001",
   "minds/H-KIE-001",
+  "minds/H-KKQ-001",
   "minds/H-LH-001",
   "minds/H-LIB-001",
+  "minds/H-LJY-001",
   "minds/H-LKY-001",
   "minds/H-LNC-001",
   "minds/H-LOC-001",
   "minds/H-LSZ-001",
+  "minds/H-LUORQ-001",
   "minds/H-LUT-001",
+  "minds/H-LWH-001",
   "minds/H-LZ-001",
   "minds/H-MAN-001",
   "minds/H-MAR-001",
@@ -136,36 +158,51 @@
   "minds/H-ONO-001",
   "minds/H-PEI-001",
   "minds/H-PGR-001",
+  "minds/H-QIN-001",
   "minds/H-QXS-001",
   "minds/H-SBRY-001",
   "minds/H-SC-001",
   "minds/H-SCH-001",
   "minds/H-SEJ-001",
+  "minds/H-SJM-001",
   "minds/H-SK-001",
   "minds/H-SMQ-001",
   "minds/H-SQ-001",
+  "minds/H-SQL-001",
+  "minds/H-SQR-001",
   "minds/H-ST-001",
   "minds/H-SU-001",
   "minds/H-SUN-001",
   "minds/H-SW-001",
+  "minds/H-SY-001",
   "minds/H-SYS-001",
   "minds/H-TLS-001",
   "minds/H-TLY-001",
   "minds/H-TXZ-001",
   "minds/H-UM-001",
   "minds/H-VNY-001",
+  "minds/H-WB-001",
   "minds/H-WC-001",
   "minds/H-WDZ-001",
+  "minds/H-WFZ-001",
   "minds/H-WJM-001",
+  "minds/H-WL-001",
   "minds/H-WQ-001",
   "minds/H-WW-001",
   "minds/H-WYM-001",
   "minds/H-WZ-001",
   "minds/H-WZT-001",
+  "minds/H-XFZ-001",
   "minds/H-XN-001",
   "minds/H-YC-001",
+  "minds/H-YLS-001",
+  "minds/H-YSK-001",
   "minds/H-YSS-001",
+  "minds/H-ZDY-001",
+  "minds/H-ZHX-001",
   "minds/H-ZKZ-001",
+  "minds/H-ZX-001",
+  "minds/H-ZXC-001",
   "minds/H-ZY-001",
   "minds/H-ZZ-001",
   "minds/H-ZZJ-001",
@@ -180,6 +217,7 @@
   "minds/Hannibal",
   "minds/Hawking",
   "minds/Hippocrates",
+  "minds/Homer",
   "minds/HuoQuBing",
   "minds/IKH",
   "minds/ISA",
@@ -251,6 +289,7 @@
   "minds/SYX",
   "minds/Saladin",
   "minds/Shotoku",
+  "minds/Sophocles",
   "minds/TAN",
   "minds/TDL",
   "minds/TIN",
@@ -259,6 +298,7 @@
   "minds/TUT",
   "minds/TY",
   "minds/Tesla",
+  "minds/Thucydides",
   "minds/Timur",
   "minds/VLL",
   "minds/VOL",
@@ -333,8 +373,8 @@
   },
   {
    "path": "credibility",
-   "title": "可信度统计 - 已核验 911 / 待核验 1547 / 存疑 0 / 一手材料 340",
-   "description": "发布口径 2798 条模式摘要的核验状态：已核验 911、待核验 1547、存疑 0、一手材料 340（源库另有 60 条隔离记录不进公开产物）；数据取自 data/meta.json。",
+   "title": "可信度统计 - 已核验 931 / 待核验 1916 / 存疑 34 / 一手材料 340",
+   "description": "发布口径 3221 条模式摘要的核验状态：已核验 931、待核验 1916、存疑 34、一手材料 340（源库另有 60 条隔离记录不进公开产物）；数据取自 data/meta.json。",
    "type": "static",
    "body": false,
    "body_text_chars": 0,
@@ -352,10 +392,10 @@
   {
    "path": "figures",
    "title": "历史人物库 - 统一名录",
-   "description": "278 位历史人物 + 1055 个现代场景, 统一检索入口.",
+   "description": "318 位历史人物 + 1053 个现代场景, 统一检索入口.",
    "type": "static",
    "body": true,
-   "body_text_chars": 1432,
+   "body_text_chars": 1435,
    "canonical": "https://ovmobilegroup.github.io/protreptic/figures/"
   },
   {
@@ -2939,18 +2979,6 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/figures/GW-CAB-001/"
   },
   {
-   "path": "figures/H-AZJ-345",
-   "title": "安子介：对外开放/特区建设/摸着石头过河 - 场景档案 4 条模式",
-   "description": "对外开放/特区建设/摸着石头过河",
-   "type": "scenario",
-   "name": "安子介：对外开放/特区建设/摸着石头过河",
-   "code": "H-AZJ-345",
-   "n_modes": 4,
-   "body": false,
-   "body_text_chars": 0,
-   "canonical": "https://ovmobilegroup.github.io/protreptic/figures/H-AZJ-345/"
-  },
-  {
    "path": "figures/H-BC-45",
    "title": "班超：以少驭多的丝路经营大师 - 场景档案 8 条模式",
    "description": "投笔从戎/以少驭多/丝路经营/以夷制夷/断绝北匈奴",
@@ -3237,18 +3265,6 @@
    "body": false,
    "body_text_chars": 0,
    "canonical": "https://ovmobilegroup.github.io/protreptic/figures/H-CXQ-128/"
-  },
-  {
-   "path": "figures/H-CY-001",
-   "title": "陈云：鸟笼经济与边界思维 - 场景档案 5 条模式",
-   "description": "陈云（1902-1995）：陈云将「鸟笼经济」概念引入中国经济思考，指出计划经济中的价格与资源配置存在结构性约束，强调在有限条件下的边界理性。其思考突破了传统二元对立，既不盲目乐观也不悲观，而是基于现实条件下的务实探索。",
-   "type": "scenario",
-   "name": "陈云：鸟笼经济与边界思维",
-   "code": "H-CY-001",
-   "n_modes": 5,
-   "body": false,
-   "body_text_chars": 0,
-   "canonical": "https://ovmobilegroup.github.io/protreptic/figures/H-CY-001/"
   },
   {
    "path": "figures/H-CY-14",
@@ -13120,15 +13136,15 @@
    "code": "BAI",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 11898,
+   "body_text_chars": 11897,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/BAI/"
   },
   {
    "path": "minds/BAN",
-   "title": "班固 - 思维模式档案 10 条",
+   "title": "班昭 - 思维模式档案 10 条",
    "description": "接手散乱未竟之作时不做誊写者而以主体身份辨体例补缺卷钉成定本：先通读立骨架，再以整体文风使新补部分与旧稿不可分辨地嵌合，以'使作品完整'为署名——一部巨著的死活常常系于第二双手。",
    "type": "person",
-   "name": "班固",
+   "name": "班昭",
    "code": "BAN",
    "n_modes": 10,
    "body": true,
@@ -13254,6 +13270,18 @@
    "body": true,
    "body_text_chars": 9677,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Charlemagne/"
+  },
+  {
+   "path": "minds/Coubertin",
+   "title": "顾拜旦 - 思维模式档案 10 条",
+   "description": "人的发展必须是肌肉与智识的永久统一。顾拜旦批判现代教育将身体训练与智力发展割裂，导致'行走的词典'式的畸形培养。他复兴古希腊的kalokagathia（美善合一）理想，主张体育教育应同时培养身体的力量与精神的卓越。身心合一不是简单的并列，...",
+   "type": "person",
+   "name": "顾拜旦",
+   "code": "Coubertin",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5736,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Coubertin/"
   },
   {
    "path": "minds/Cusanus",
@@ -13640,6 +13668,30 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-BEN-001/"
   },
   {
+   "path": "minds/H-BG-001",
+   "title": "班固 - 思维模式档案 10 条",
+   "description": "通过系统梳理历代典章制度的源流变迁，理解制度如何在历史长河中演进和转型。以《汉书》十志为核心工具，从食货、刑法、地理、天文等维度全面考察制度发展脉络。",
+   "type": "person",
+   "name": "班固",
+   "code": "H-BG-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 2912,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-BG-001/"
+  },
+  {
+   "path": "minds/H-BLT-001",
+   "title": "柏拉图 - 思维模式档案 10 条",
+   "description": "面对流变不居、众说纷纭的可感世界，设定一个永恒不变、单一自足的理念（相）作为其本质原型：具体事物因'分有'或'摹仿'理念而存在，理念却不依赖任何具体事物。思维的任务从描述现象转为把握原型——先问'X 本身是什么'，再解释各种具体 X。这把...",
+   "type": "person",
+   "name": "柏拉图",
+   "code": "H-BLT-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5377,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-BLT-001/"
+  },
+  {
    "path": "minds/H-BV-001",
    "title": "波伏娃 - 思维模式档案 10 条",
    "description": "波伏娃的元命题：自由从来不是真空中的抽象选择，而是'处境中的突围'。方法论签名有四：其一，拒绝双重幻觉——既不把人看作完全被决定的产物（决定论），也不把人看作悬空的纯粹选择（唯意志论）；其二，处境要素化——把任何一次'选择'拆解为身体、历...",
@@ -13674,6 +13726,42 @@
    "body": true,
    "body_text_chars": 13053,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CC-001/"
+  },
+  {
+   "path": "minds/H-CHB-001",
+   "title": "陈伯达 - 思维模式档案 10 条",
+   "description": "运用马克思主义理论武器，从阶级立场、历史唯物主义角度对敌对观点进行系统批驳，揭示其阶级本质和理论谬误。通过引经据典、逐条辨析、逻辑推演的方式，达到理论清算的目的。",
+   "type": "person",
+   "name": "陈伯达",
+   "code": "H-CHB-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 3635,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CHB-001/"
+  },
+  {
+   "path": "minds/H-CHE-001",
+   "title": "程颢 - 思维模式档案 10 条",
+   "description": "不依赖经典训诂或外在权威，而是通过内心的体认直接把握宇宙本体天理。吾学虽有所受，天理二字却是自家体贴出来——强调道德本体不是外部给予的规范，而是主体通过反思直觉直接体证的内在本性。此法是程颢认识论与本体论的核心创新：将理从外在规范转化为内...",
+   "type": "person",
+   "name": "程颢",
+   "code": "H-CHE-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4336,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CHE-001/"
+  },
+  {
+   "path": "minds/H-CHI-001",
+   "title": "程颐 - 思维模式档案 10 条",
+   "description": "人性即天理，天命之性纯善。 程颐首次系统论证'性即理也'命题：天理下贯于人即为性，性善根源于理之本然。此法将人性的形上根据锚定于宇宙本体，使道德本体论获得超越经验的支撑。气禀之性的引入解释了恶的来源——理虽本善，但气有清浊，禀受不同故有善...",
+   "type": "person",
+   "name": "程颐",
+   "code": "H-CHI-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4556,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CHI-001/"
   },
   {
    "path": "minds/H-CHN-001",
@@ -13736,6 +13824,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CW-001/"
   },
   {
+   "path": "minds/H-CY-001",
+   "title": "陈云 - 思维模式档案 10 条",
+   "description": "一切从实际出发，不唯上、不唯书、只唯实。实事求是法要求决策者摒弃教条主义和主观臆断，以客观事实作为判断和行动的唯一依据。这是陈云思维体系的核心原则，也是毛泽东思想精髓所在。",
+   "type": "person",
+   "name": "陈云",
+   "code": "H-CY-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 3371,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CY-001/"
+  },
+  {
    "path": "minds/H-CYP-001",
    "title": "蔡元培 - 思维模式档案 10 条",
    "description": "蔡元培改造北大的第一步不是换教师而是改定义：1917年1月就职演说，他把大学从'科举余荫的升官发财阶梯'改写为'研究高深学问之机关'——'大学者，研究高深学问者也。'这不是修辞而是机构本体论的重写：一个机构是什么，取决于进入它的人被要求做...",
@@ -13746,6 +13846,18 @@
    "body": true,
    "body_text_chars": 12341,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-CYP-001/"
+  },
+  {
+   "path": "minds/H-DA-001",
+   "title": "道安 - 思维模式档案 10 条",
+   "description": "任何跨语言、跨文化的传达都必然有系统性损耗：'五失本'指五种不可避免的失真（语法结构、文风修饰、颂赞重复删削、义疏并略、反腾前辞），'三不易'指三种极难克服的时代与受众错位（古今时俗之变、圣凡智识之隔、微言与末俗之距）。忠实不是理想状态，...",
+   "type": "person",
+   "name": "道安",
+   "code": "H-DA-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5080,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DA-001/"
   },
   {
    "path": "minds/H-DAR-001",
@@ -13780,7 +13892,7 @@
    "code": "H-DF-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 12390,
+   "body_text_chars": 12389,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DF-001/"
   },
   {
@@ -13796,6 +13908,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DKR-001/"
   },
   {
+   "path": "minds/H-DRK-001",
+   "title": "德鲁克 - 思维模式档案 10 条",
+   "description": "组织的每一名成员——从CEO到一线员工——都应当参与设定自己的目标，并以这些目标而非上级的指令作为自我衡量的依据。德鲁克在《管理的实践》中提出MBO，其要害不是'目标'而是'自我控制'：目标一旦确定，控制权下放到执行者本人，上级从监工变为...",
+   "type": "person",
+   "name": "德鲁克",
+   "code": "H-DRK-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 8154,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DRK-001/"
+  },
+  {
    "path": "minds/H-DSF-001",
    "title": "费奥多尔·陀思妥耶夫斯基 - 思维模式档案 10 条",
    "description": "《罪与罚》第一部分：拉斯柯尔尼科夫杀人前收到的母亲来信，一封信引爆了三层动机——对母亲妹妹的怜悯、对自己『非凡人理论』的野心、对贫穷的羞耻——而他自己只承认其中最体面的一层。陀思妥耶夫斯基的透视法有三个动作：其一，把动机写成叠加态而非单选...",
@@ -13809,15 +13933,39 @@
   },
   {
    "path": "minds/H-DY-001",
-   "title": "董宇明 - 思维模式档案 10 条",
+   "title": "约翰·杜威 - 思维模式档案 10 条",
    "description": "杜威的元命题：'教育即生活'——教育不是为某种遥远成年生活做的预备，而是当下生活本身的展开；'教育过程以外无目的，教育过程自身即目的'。方法论签名有三：其一，反预备论——把人生切成'先读书后生活'两段，是对儿童当下生命力的否定，预备的表面...",
    "type": "person",
-   "name": "董宇明",
+   "name": "约翰·杜威",
    "code": "H-DY-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 11559,
+   "body_text_chars": 11561,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DY-001/"
+  },
+  {
+   "path": "minds/H-DYC-001",
+   "title": "邓颖超 - 思维模式档案 10 条",
+   "description": "以妇女解放为核心推动社会变革的系统性动员方法。邓颖超认为，妇女解放不是简单的'男女平权'口号，而是通过组织化、制度化的方式将分散的妇女力量凝聚为改变社会的政治能量。她创立天津女界爱国同志会，建立全国妇联，推动《婚姻法》立法，将妇女从家庭私...",
+   "type": "person",
+   "name": "邓颖超",
+   "code": "H-DYC-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5311,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DYC-001/"
+  },
+  {
+   "path": "minds/H-DZ-001",
+   "title": "戴震 - 思维模式档案 10 条",
+   "description": "「经之至者道也，所以明道者其词也，所以成词者字也。由字以通其词，由词以通其道，必有渐。」戴震认为，道的载体是经典，经典的载体是语言，语言的载体是字。要理解圣人之道，必须从训诂考据入手——先明字义，再通词意，最终抵达义理。此法把语言学置于哲...",
+   "type": "person",
+   "name": "戴震",
+   "code": "H-DZ-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 6352,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-DZ-001/"
   },
   {
    "path": "minds/H-DZS-001",
@@ -13840,7 +13988,7 @@
    "code": "H-EIN-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 11366,
+   "body_text_chars": 11365,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-EIN-001/"
   },
   {
@@ -13916,6 +14064,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-FRK-001/"
   },
   {
+   "path": "minds/H-FXT-001",
+   "title": "费孝通 - 思维模式档案 10 条",
+   "description": "运用差序格局理论分析中国传统社会结构，指出以己为中心、按亲疏远近向外推展的社会关系模式。费孝通在《乡土中国》中提出，中国传统社会不是团体格局，而是像石子投入水中形成的波纹式差序结构，每个人都是其社会影响圈的中心。",
+   "type": "person",
+   "name": "费孝通",
+   "code": "H-FXT-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 3597,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-FXT-001/"
+  },
+  {
    "path": "minds/H-FYJ-001",
    "title": "福泽谕吉 - 思维模式档案 10 条",
    "description": "福泽把学问一刀切成『虚学』与『实学』：远离实用、只作装饰的汉学训诂与词章之学是虚学，能验证、能解决眼前实际问题的知识才是实学。他不是说古书无用，而是给知识排出一个可操作的优先级——离人的日用越近、越可验证，价值越高。这一排序的深层是一个反...",
@@ -13986,6 +14146,30 @@
    "body": true,
    "body_text_chars": 11959,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-GUE-001/"
+  },
+  {
+   "path": "minds/H-GX-001",
+   "title": "郭象 - 思维模式档案 10 条",
+   "description": "解释事物时不断'向后追问第一因'的做法，主张万物'块然自生'、'独化于玄冥之境'：每一存在皆依其自身之理而然，无所待、无所生，生成链条须在'自生'处截断，转而分析事物各自的内在根据与条件网络。",
+   "type": "person",
+   "name": "郭象",
+   "code": "H-GX-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4595,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-GX-001/"
+  },
+  {
+   "path": "minds/H-GYW-001",
+   "title": "顾炎武 - 思维模式档案 10 条",
+   "description": "区分'亡国'与'亡天下'：易姓改号谓之亡国，仁义充塞而率兽食人、人将相食谓之亡天下。保国是君臣肉食者谋之的事，保天下则'匹夫之贱与有责焉'。将政治责任的主体从朝廷官僚扩展到每一个普通士人——道德文明的存续高于政权归属，且道德文明的责任人人...",
+   "type": "person",
+   "name": "顾炎武",
+   "code": "H-GYW-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5227,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-GYW-001/"
   },
   {
    "path": "minds/H-HAM-001",
@@ -14068,7 +14252,7 @@
    "code": "H-HS-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 7862,
+   "body_text_chars": 7860,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HS-001/"
   },
   {
@@ -14082,6 +14266,18 @@
    "body": true,
    "body_text_chars": 6199,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HZX-001/"
+  },
+  {
+   "path": "minds/H-HZX-002",
+   "title": "王祥 - 思维模式档案 10 条",
+   "description": "父母患病时以贴身守护为务：衣不解带、昼夜不离榻前，汤药必先亲口尝验再奉于亲。此法把孝道落在病榻之侧最具体、最不可替代的照料上——照护者以自己的作息与安适为代价，换取父母病中的安妥。",
+   "type": "person",
+   "name": "王祥",
+   "code": "H-HZX-002",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4892,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-HZX-002/"
   },
   {
    "path": "minds/H-IBR-001",
@@ -14152,8 +14348,20 @@
    "code": "H-JEF-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 9965,
+   "body_text_chars": 9963,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-JEF-001/"
+  },
+  {
+   "path": "minds/H-JMLS-001",
+   "title": "鸠摩罗什 - 思维模式档案 10 条",
+   "description": "对任一概念，先否定其实有（非有），再否定其虚无（非无），两边俱遣，中道自显。判断不是在两个预设选项中挑一个，而是识破选项本身共享的错误前提。",
+   "type": "person",
+   "name": "鸠摩罗什",
+   "code": "H-JMLS-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 2542,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-JMLS-001/"
   },
   {
    "path": "minds/H-JSX-001",
@@ -14166,6 +14374,30 @@
    "body": true,
    "body_text_chars": 6393,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-JSX-001/"
+  },
+  {
+   "path": "minds/H-JX-001",
+   "title": "纪弦 - 思维模式档案 10 条",
+   "description": "\"横的移植\"是纪弦现代诗学的核心方法论。主张直接向西方现代主义诗歌学习（如波德莱尔、兰波、艾略特等），而非沿着中国传统诗学的纵向脉络继承。这一理论打破了传统中国诗歌的代际传承模式，开辟了向西方现代主义横向借鉴的新路径。通过'横的移植'，纪...",
+   "type": "person",
+   "name": "纪弦",
+   "code": "H-JX-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4663,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-JX-001/"
+  },
+  {
+   "path": "minds/H-JY-001",
+   "title": "贾谊 - 思维模式档案 10 条",
+   "description": "通过系统分析秦朝兴亡历程，提出'仁义不施而攻守之势异也'的核心论断。该思维模式强调：夺取天下（攻）的策略与守护天下（守）的策略本质不同，不能以同一套方法处理两种不同的政治情境。",
+   "type": "person",
+   "name": "贾谊",
+   "code": "H-JY-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 2865,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-JY-001/"
   },
   {
    "path": "minds/H-KD-001",
@@ -14204,6 +14436,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-KIE-001/"
   },
   {
+   "path": "minds/H-KKQ-001",
+   "title": "康克清 - 思维模式档案 10 条",
+   "description": "深入基层了解群众真实情况，从群众中来、到群众中去，发动和组织广大妇女群众投身革命和建设事业。",
+   "type": "person",
+   "name": "康克清",
+   "code": "H-KKQ-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 2789,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-KKQ-001/"
+  },
+  {
    "path": "minds/H-LH-001",
    "title": "利德尔·哈特 - 思维模式档案 10 条",
    "description": "把胜负前移到会战之前：利德尔·哈特研究了三十个世纪四十场决定性会战（亚历山大、成吉思汗、马尔伯勒、拿破仑、谢尔曼……）后得出'战略学说的最伟大公理'——只要可能，就要采取敌人最意想不到的方向与最不备的方式行动；纯粹的直接路线几乎从不需要、...",
@@ -14226,6 +14470,18 @@
    "body": true,
    "body_text_chars": 12956,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LIB-001/"
+  },
+  {
+   "path": "minds/H-LJY-001",
+   "title": "陆九渊 - 思维模式档案 10 条",
+   "description": "心与理不是两物，而是同一本体的两个名称。人皆有是心，心皆具是理，心即是理，理即是心。道德法则不在外物之中，不在经典文字之上，而在每个人心中的本然良知。此法是陆九渊心学体系的根本命题，它将程朱理学外在的'性即理'转化为内在的'心即理'，确立...",
+   "type": "person",
+   "name": "陆九渊",
+   "code": "H-LJY-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4985,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LJY-001/"
   },
   {
    "path": "minds/H-LKY-001",
@@ -14276,6 +14532,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LSZ-001/"
   },
   {
+   "path": "minds/H-LUORQ-001",
+   "title": "罗瑞卿 - 思维模式档案 10 条",
+   "description": "两手政策：对罪大恶极的反革命首要分子、怙恶不悛的特务间谍分子、惯匪恶霸与反动会道门头子严厉镇压；对诚心悔改、向人民低头认罪的一般反动分子宽大处理、改造成为新人。执行上先纠「片面宽大」的偏向，再以「杀一批，关一批，管一批」分类处置，并依靠调...",
+   "type": "person",
+   "name": "罗瑞卿",
+   "code": "H-LUORQ-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 8626,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LUORQ-001/"
+  },
+  {
    "path": "minds/H-LUT-001",
    "title": "路德 - 思维模式档案 10 条",
    "description": "十六世纪初的西方教会是一个权威多层背书系统：教皇敕令、大公会议决议、教父传统、经院注释层层加码，任何争论的胜负都不取决于论据本身，而取决于谁的职位更高、谁的背书链条更长。路德的方法是把整个背书系统釜底抽薪：一切教义争论的最终裁判标准只有一...",
@@ -14288,6 +14556,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LUT-001/"
   },
   {
+   "path": "minds/H-LWH-001",
+   "title": "李维汉 - 思维模式档案 10 条",
+   "description": "以爱国主义为最大公约数，将不同政治立场、宗教信仰、社会阶层的人士纳入统一战线的包容性框架。超越意识形态分歧，以'爱国'作为团结的政治基础，通过渐进方式提升各群体的政治意识，而非强制改造。",
+   "type": "person",
+   "name": "李维汉",
+   "code": "H-LWH-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 1963,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LWH-001/"
+  },
+  {
    "path": "minds/H-LZ-001",
    "title": "李贽 - 思维模式档案 10 条",
    "description": "夫童心者，绝假纯真，最初一念之本心也。以不受外界影响的'本心'作为判断一切价值的终极标准，反对用儒家经典和外在规范遮蔽内心的真实。童心即真心、即本心，是万物的本源。",
@@ -14296,7 +14576,7 @@
    "code": "H-LZ-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 3075,
+   "body_text_chars": 3072,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-LZ-001/"
   },
   {
@@ -14344,7 +14624,7 @@
    "code": "H-MF-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 9553,
+   "body_text_chars": 9550,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-MF-001/"
   },
   {
@@ -14428,19 +14708,19 @@
    "code": "H-NEW-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 9648,
+   "body_text_chars": 9647,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-NEW-001/"
   },
   {
    "path": "minds/H-NKR-001",
-   "title": "恩克鲁玛 - 思维模式档案 6 条",
+   "title": "恩克鲁玛 - 思维模式档案 10 条",
    "description": "恩克鲁玛1947年从伦敦返回黄金海岸时，当地知识界的主流路线是学者式渐进主义：先搞教育、先办合作社、先等殖民地经济成熟，政治独立是遥远的终点。他的方法论颠覆在于把时序倒转：『寻求 ye 政治王国，其余一切自会加给你』——不是经济基础决定何...",
    "type": "person",
    "name": "恩克鲁玛",
    "code": "H-NKR-001",
-   "n_modes": 6,
+   "n_modes": 10,
    "body": true,
-   "body_text_chars": 8984,
+   "body_text_chars": 14694,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-NKR-001/"
   },
   {
@@ -14490,6 +14770,18 @@
    "body": true,
    "body_text_chars": 10680,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-PGR-001/"
+  },
+  {
+   "path": "minds/H-QIN-001",
+   "title": "李斯 - 思维模式档案 10 条",
+   "description": "以'上蔡老鼠'观察——见人之所易，己之所难——通过跨文化比较识别不同政治体制的运行效率差异，从而做出最优战略选择的认识论方法。李斯在楚国见'鼠于邺'的宦官与庙堂之上的君子，认识到文化环境对个体发展的决定性作用，从而选择入秦而非留在楚国。此...",
+   "type": "person",
+   "name": "李斯",
+   "code": "H-QIN-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 3934,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-QIN-001/"
   },
   {
    "path": "minds/H-QXS-001",
@@ -14552,6 +14844,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SEJ-001/"
   },
   {
+   "path": "minds/H-SJM-001",
+   "title": "释迦牟尼 - 思维模式档案 10 条",
+   "description": "把任何根本困境当作疾病来诊断，按四步给出完整处理：确认症状（苦——存在某种困境）、找出病因（集——困境有成因，非偶然）、判断预后（灭——困境可以止息）、开出处方（道——止息有可执行的路径）。其革命性在于：不把苦难归于神意或命运，而视为'有...",
+   "type": "person",
+   "name": "释迦牟尼",
+   "code": "H-SJM-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5140,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SJM-001/"
+  },
+  {
    "path": "minds/H-SK-001",
    "title": "沈括 - 思维模式档案 10 条",
    "description": "把治学的基本动作定义为'看'而不是'引'：凡物必亲验，凡事宜广涉——沈括一生足迹所至必记录山川、物候、方言、制度、器物，把整个帝国当作实验室。要害有三：其一，观察先于理论——'予于关中得铜弩机'式的第一手材料优先于文献转述；其二，跨域搬运...",
@@ -14586,6 +14890,30 @@
    "body": true,
    "body_text_chars": 8567,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SQ-001/"
+  },
+  {
+   "path": "minds/H-SQL-001",
+   "title": "宋庆龄 - 思维模式档案 10 条",
+   "description": "基于基督教博爱精神和革命人道主义，将无私的关爱转化为具体的革命实践和社会行动。通过关怀弱势群体、救助受难民众、推动社会福利来实现人类共同福祉的理念和方法。",
+   "type": "person",
+   "name": "宋庆龄",
+   "code": "H-SQL-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 2945,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SQL-001/"
+  },
+  {
+   "path": "minds/H-SQR-001",
+   "title": "苏格拉底 - 思维模式档案 10 条",
+   "description": "通过连续追问暴露对方信念体系内部的矛盾（反证 refutation），使对方从'自以为知'跌入'自知不知'，为真正知识的重建清场。不直接给出答案，而是以对方自己的前提推出对方否认的结论——真理检验的标准不是权威或多数，而是一个人经过诘问后...",
+   "type": "person",
+   "name": "苏格拉底",
+   "code": "H-SQR-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4227,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SQR-001/"
   },
   {
    "path": "minds/H-ST-001",
@@ -14632,8 +14960,20 @@
    "code": "H-SW-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 11780,
+   "body_text_chars": 11778,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SW-001/"
+  },
+  {
+   "path": "minds/H-SY-001",
+   "title": "商君 - 思维模式档案 10 条",
+   "description": "通过徙木酬金制度，建立政府对民众承诺的信用保证。令行禁止，一旦许诺必须兑现，否则给予重酬。这是政府公信力的基石，体现了'信'在治理中的核心地位。",
+   "type": "person",
+   "name": "商君",
+   "code": "H-SY-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 2506,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SY-001/"
   },
   {
    "path": "minds/H-SYS-001",
@@ -14708,6 +15048,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-VNY-001/"
   },
   {
+   "path": "minds/H-WB-001",
+   "title": "王弼 - 思维模式档案 10 条",
+   "description": "言、象、意构成三层结构：言以明象，象以存意；符号是通达意义的中介而非意义本身。一旦把握了意义，就应超越符号本身，不执着于字句与形象。拘执于言象，反而丧失意。",
+   "type": "person",
+   "name": "王弼",
+   "code": "H-WB-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4386,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WB-001/"
+  },
+  {
    "path": "minds/H-WC-001",
    "title": "王充 - 思维模式档案 10 条",
    "description": "「疾虚妄」——《论衡》全书的总纲与认识论立场：对一切未经检验的主张保持系统性怀疑，不论其来自圣人、经典、世俗还是众口。王充自述「《诗》三百，一言以蔽之，曰：思无邪；《论衡》篇以十数，亦一言也，曰：疾虚妄」。虚妄不仅指明显的迷信，更指一切被...",
@@ -14716,7 +15068,7 @@
    "code": "H-WC-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 4180,
+   "body_text_chars": 4210,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WC-001/"
   },
   {
@@ -14728,8 +15080,20 @@
    "code": "H-WDZ-001",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 10746,
+   "body_text_chars": 10745,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WDZ-001/"
+  },
+  {
+   "path": "minds/H-WFZ-001",
+   "title": "王夫之 - 思维模式档案 10 条",
+   "description": "理不是悬于气之上的抽象实体，而是气自身运行的条理与秩序。理与气互为体用，气是理的载体，理是气的法则——二者不可分割，理不离气，气不能无理。此法从根本上否定了朱熹'理在气先'的超越化理本论，确立理气一元的一体观。'理即是气之理，气当得如此便...",
+   "type": "person",
+   "name": "王夫之",
+   "code": "H-WFZ-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5851,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WFZ-001/"
   },
   {
    "path": "minds/H-WJM-001",
@@ -14742,6 +15106,18 @@
    "body": true,
    "body_text_chars": 10908,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WJM-001/"
+  },
+  {
+   "path": "minds/H-WL-001",
+   "title": "万里 - 思维模式档案 10 条",
+   "description": "一切从实际出发，不唯上、不唯书、只唯实。万里在安徽省委领导岗位上，坚持从农村实际情况出发，支持小岗村'大包干'实践。他不唯上、不唯书，以农民的实际生活改善作为判断政策正确性的唯一标准。这是万里思维体系的核心原则。",
+   "type": "person",
+   "name": "万里",
+   "code": "H-WL-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 3022,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WL-001/"
   },
   {
    "path": "minds/H-WQ-001",
@@ -14769,26 +15145,26 @@
   },
   {
    "path": "minds/H-WYM-001",
-   "title": "王阳明 - 思维模式档案 10 条",
+   "title": "王阳明 - 思维模式档案 20 条",
    "description": "心之本体即良知，人人皆有良知，只需去除私欲遮蔽，使良知自然呈现。良知是判断是非善恶的根本标准，是道德自觉的源泉。",
    "type": "person",
    "name": "王阳明",
    "code": "H-WYM-001",
-   "n_modes": 10,
+   "n_modes": 20,
    "body": true,
-   "body_text_chars": 2246,
+   "body_text_chars": 5191,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WYM-001/"
   },
   {
    "path": "minds/H-WZ-001",
-   "title": "王震 - 思维模式档案 2 条",
-   "description": "将军事驻防与农业生产相结合，通过屯垦实现边疆地区的经济自给和国防安全，形成'兵农合一'的稳定机制。",
+   "title": "王震 - 思维模式档案 11 条",
+   "description": "建立一种特殊的组织形式——生产建设兵团，既是军事单位又是生产单位，实现国防建设与经济发展的有机统一。",
    "type": "person",
    "name": "王震",
    "code": "H-WZ-001",
-   "n_modes": 2,
+   "n_modes": 11,
    "body": true,
-   "body_text_chars": 519,
+   "body_text_chars": 1008,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WZ-001/"
   },
   {
@@ -14802,6 +15178,18 @@
    "body": true,
    "body_text_chars": 6420,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-WZT-001/"
+  },
+  {
+   "path": "minds/H-XFZ-001",
+   "title": "谢富治 - 思维模式档案 10 条",
+   "description": "在政治权力结构发生剧变时，能够迅速识别新权力中心并完成政治忠诚转移，以保全自身政治生命。此法不是简单的投机，而是基于对权力动态的敏锐判断，在旧主子失势前主动切割、在新主子崛起时主动靠拢。谢富治在张国焘失势后迅速转向毛泽东，并向毛提供不利于...",
+   "type": "person",
+   "name": "谢富治",
+   "code": "H-XFZ-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 2965,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-XFZ-001/"
   },
   {
    "path": "minds/H-XN-001",
@@ -14828,6 +15216,30 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-YC-001/"
   },
   {
+   "path": "minds/H-YLS-001",
+   "title": "亚里士多德 - 思维模式档案 10 条",
+   "description": "一切可靠推理都可还原为三段论：由两个前提通过一个共同中项必然推出结论——'凡人皆有死，苏格拉底是人，故苏格拉底有死'。把'推理的有效性'从内容的真假中剥离出来单独研究，创立第一个形式逻辑系统：只要前提为真且形式有效，结论必然为真。它是检验...",
+   "type": "person",
+   "name": "亚里士多德",
+   "code": "H-YLS-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5070,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-YLS-001/"
+  },
+  {
+   "path": "minds/H-YSK-001",
+   "title": "杨尚昆 - 思维模式档案 10 条",
+   "description": "在复杂政治体制中，通过建立高效的中枢协调机制，确保各系统之间的信息流通、资源调配和决策执行的无缝衔接。杨尚昆在担任中共中央办公厅主任期间，构建了中央决策与地方执行之间的高效信息通道和协调网络。此法强调中枢机构作为信息枢纽和行动调度中心的角...",
+   "type": "person",
+   "name": "杨尚昆",
+   "code": "H-YSK-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 3863,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-YSK-001/"
+  },
+  {
    "path": "minds/H-YSS-001",
    "title": "李舜臣 - 思维模式档案 10 条",
    "description": "李舜臣地利锁喉法的核心命题是：劣势方真正能改写的变量不是兵力对比，而是战场结构——数量优势只在对称空间里成立，把它引进一个使宽度、时序与转向都失效的漏斗，多数就变回'依次到达的少数'。操作纪律有四条。第一，先定方法再选地形：不是找险要处藏...",
@@ -14840,6 +15252,30 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-YSS-001/"
   },
   {
+   "path": "minds/H-ZDY-001",
+   "title": "周敦颐 - 思维模式档案 10 条",
+   "description": "以\"无形而有理\"的方式确立宇宙本体——\"无极\"不是虚无，而是描述太极\"无声无臭、无形无象\"的修饰语；\"太极\"不是某种具体实体，而是万物生成变化的终极根据。这一表述既避免了将本体等同于某类具体物质（如气、火、水），又避免了将本体虚化为空无—...",
+   "type": "person",
+   "name": "周敦颐",
+   "code": "H-ZDY-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 9076,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZDY-001/"
+  },
+  {
+   "path": "minds/H-ZHX-001",
+   "title": "朱熹 - 思维模式档案 10 条",
+   "description": "万物各具一理，万理同出一原：太极整全地呈现在每一个具体事物之中，如一月映于万川——每条河里都是完整的月亮，而非月亮的碎片。普遍原理不在具体事物之上另立一处，而是通过分殊的'理一分殊'结构内在贯通。这既避免普遍抹杀个殊，也避免个殊失去统一。",
+   "type": "person",
+   "name": "朱熹",
+   "code": "H-ZHX-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5434,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZHX-001/"
+  },
+  {
    "path": "minds/H-ZKZ-001",
    "title": "竺可桢 - 思维模式档案 10 条",
    "description": "竺可桢认识论的第一戒律是：结论的优先级低于记录的完整性。中国旧传统谈天气靠'灾异'与'祥瑞'，每一次记载都是事件驱动的——雷劈了庙、蝗吃了田才有人记。竺可桢把它倒过来：不看事件看序列，不是'发生了什么值得记'而是'每天都记，事件自己会从序...",
@@ -14850,6 +15286,30 @@
    "body": true,
    "body_text_chars": 12021,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZKZ-001/"
+  },
+  {
+   "path": "minds/H-ZX-001",
+   "title": "曾子 - 思维模式档案 10 条",
+   "description": "『君子必慎其独也』——《大学》诚意章与《中庸》首章共同申明的工夫：在无人监督的独处之境（朱熹所谓『人所不知而己独知』之地）仍保持道德自觉，不自欺、不欺隐。慎独把外在规范内化为自我要求，专在『隐』『微』处用力，是人前慎行的根基；曾子一系以之...",
+   "type": "person",
+   "name": "曾子",
+   "code": "H-ZX-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5399,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZX-001/"
+  },
+  {
+   "path": "minds/H-ZXC-001",
+   "title": "章学诚 - 思维模式档案 10 条",
+   "description": "六经皆史也：古人未尝离事而言理，六经皆先王之政典。经的神圣性不在于超验教条，而在于它们是曾经运作过的制度与事务的记录——道在事中，即器存道。此法把一切「经典」还原为「史料」，把义理之辩还原为对具体政事实践的理解，釜底抽薪地取消了空谈心性与...",
+   "type": "person",
+   "name": "章学诚",
+   "code": "H-ZXC-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 4743,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-ZXC-001/"
   },
   {
    "path": "minds/H-ZY-001",
@@ -15018,6 +15478,18 @@
    "body": true,
    "body_text_chars": 3886,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Hippocrates/"
+  },
+  {
+   "path": "minds/Homer",
+   "title": "荷马 - 思维模式档案 10 条",
+   "description": "荷马史诗不是先在纸上写成的文本，而是在祭仪与节庆上向听众诵唱的表演：歌者必须在演出压力下当场编织上万行六音步诗。支撑这件事的是一套高度可装配的语言零件——固定的名词—形容词组合（「足下生风的阿喀琉斯」「玫瑰色手指的黎明」「牧人的慰藉黑夜」...",
+   "type": "person",
+   "name": "荷马",
+   "code": "Homer",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 17526,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Homer/"
   },
   {
    "path": "minds/HuoQuBing",
@@ -15328,7 +15800,7 @@
    "code": "LiJing",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 5093,
+   "body_text_chars": 5092,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/LiJing/"
   },
   {
@@ -15872,6 +16344,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Shotoku/"
   },
   {
+   "path": "minds/Sophocles",
+   "title": "索福克勒斯 - 思维模式档案 10 条",
+   "description": "《俄狄浦斯王》的开场就放弃了悬念：观众早已知道俄狄浦斯杀父娶母，剧中的角色却一无所知。索福克勒斯因此把张力从「将会发生什么」移到「他们何时、以何种方式知道」，并让每一句台词同时具备两重意义——在角色耳中是一个意思，在观众耳中是完全相反的意...",
+   "type": "person",
+   "name": "索福克勒斯",
+   "code": "Sophocles",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 16007,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Sophocles/"
+  },
+  {
    "path": "minds/TAN",
    "title": "汤显祖 - 思维模式档案 10 条",
    "description": "汤显祖一生的哲学支点是一个'情'字：他在《牡丹亭题词》里写下'情不知所起，一往而深，生者可以死，死可以生'——情不是修辞，而是他解释世界运转的第一原理；这个判断的深意在于：第一，情有本体论地位——杜丽娘因梦而死、因情而生的设定，是把'不可...",
@@ -15966,6 +16450,18 @@
    "body": true,
    "body_text_chars": 9395,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Tesla/"
+  },
+  {
+   "path": "minds/Thucydides",
+   "title": "修昔底德 - 思维模式档案 10 条",
+   "description": "修昔底德面对的第一道难题不是解释战争，而是确定『发生了什么』。他亲眼看着人们如何对待事实：『人对真相的探究如此漫不经心，随手就接受第一个到手的故事』（1.20）。他的应对不是更勤奋地收集，而是先立一套证据规则，然后按规则取舍。规则有三条。...",
+   "type": "person",
+   "name": "修昔底德",
+   "code": "Thucydides",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 15826,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/Thucydides/"
   },
   {
    "path": "minds/Timur",
@@ -16228,7 +16724,7 @@
    "code": "ZEN",
    "n_modes": 10,
    "body": true,
-   "body_text_chars": 10419,
+   "body_text_chars": 10415,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/ZEN/"
   },
   {
@@ -16365,8 +16861,8 @@
   },
   {
    "path": "modes",
-   "title": "思维模式库 - 2798 条可执行方法",
-   "description": "2798 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话.",
+   "title": "思维模式库 - 3221 条可执行方法",
+   "description": "3221 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话.",
    "type": "static",
    "body": true,
    "body_text_chars": 2089,

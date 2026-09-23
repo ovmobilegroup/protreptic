@@ -4,7 +4,6 @@
 
 | Code | Name (ZH) | Name (EN) | Core Modes | Era |
 | - | - | - |
-| H-AZJ-345 | 安子介 | An Zijie | 8, 38, 39, 10 | Modern |
 | H-BYB-342 | 薄一波 | Bo Yibo | 8, 38, 39, 7 | Modern |
 | H-CBD-356 | 陈伯达 | Chen Boda | 10, 42, 2, 7 | Modern |
 | H-CY-346 | 陈云 | Chen Yun | 39, 5, 32 | Modern |
@@ -40,14 +39,14 @@
 
 | Mode ID | Frequency | Figures |
 | - | - | - |
-| M10 | 17 | H-AZJ-345, H-CBD-356, H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LRQ-353, H-LSQ-333, H-LWH-360, H-PDH-334, H-QGH-348, H-SQL-349, H-WZ-355, H-XFZ-354, H-YJY-359, H-YWY-357, H-ZEL-332 |
+| M10 | 16 | H-CBD-356, H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LRQ-353, H-LSQ-333, H-LWH-360, H-PDH-334, H-QGH-348, H-SQL-349, H-WZ-355, H-XFZ-354, H-YJY-359, H-YWY-357, H-ZEL-332 |
 | M42 | 15 | H-CBD-356, H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LRQ-353, H-LSQ-333, H-LWH-360, H-PDH-334, H-SQL-349, H-WZ-355, H-XFZ-354, H-YDZ-336, H-YWY-357, H-ZEL-332 |
 | M2 | 10 | H-CBD-356, H-DYC-350, H-FXT-351, H-KKQ-358, H-KS-352, H-LSQ-333, H-LWH-360, H-SQL-349, H-XFZ-354, H-YWY-357 |
 | M6 | 10 | H-DYC-350, H-KKQ-358, H-KS-352, H-LRH-335, H-LSQ-333, H-QGH-348, H-SQL-349, H-XFZ-354, H-YJY-359, H-ZEL-332 |
-| M8 | 7 | H-AZJ-345, H-BYB-342, H-HLG-339, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361 |
-| M38 | 7 | H-AZJ-345, H-BYB-342, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361, H-ZKZ-340 |
+| M8 | 6 | H-BYB-342, H-HLG-339, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361 |
+| M38 | 6 | H-BYB-342, H-TJY-344, H-WL-343, H-WZ-355, H-YSK-361, H-ZKZ-340 |
 | M7 | 7 | H-BYB-342, H-CBD-356, H-FXT-351, H-QGH-348, H-QXS-337, H-YYY-341, H-ZKZ-340 |
-| M39 | 5 | H-AZJ-345, H-BYB-342, H-CY-346, H-LXN-347, H-WL-343 |
+| M39 | 4 | H-BYB-342, H-CY-346, H-LXN-347, H-WL-343 |
 | M36 | 5 | H-DJX-338, H-HLG-339, H-QXS-337, H-YYY-341, H-ZKZ-340 |
 | M32 | 4 | H-CY-346, H-LXN-347, H-TJY-344, H-YSK-361 |
 | M17 | 4 | H-FXT-351, H-HLG-339, H-LWH-360, H-QXS-337 |
@@ -87,23 +86,21 @@
 | Literature_Arts |
 | Military |
 | Science_Tech |
-| Domain | H-AZJ-345 | H-BYB-342 | H-CBD-356 | H-CY-346 | H-DJX-338 | H-DYC-350 | H-FXT-351 | H-HLG-339 | H-KKQ-358 | H-KS-352 | H-LRH-335 | H-LRQ-353 | H-LSQ-333 | H-LWH-360 | H-LXN-347 | H-PDH-334 | H-QGH-348 | H-QXS-337 | H-SQL-349 | H-TJY-344 | H-WL-343 | H-WZ-355 | H-XFZ-354 | H-YDZ-336 | H-YJY-359 | H-YSK-361 | H-YWY-357 | H-YYY-341 | H-ZEL-332 | H-ZKZ-340 |
-| Economics | X | X |  | X |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |
-| Education |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |
-| Ethics |  |  | X |  |  | X | X |  | X |  |  |  |  | X |  |  |  |  | X |  |  |  |  |  |  |  | X |  |  |  |
-| Governance | X | X | X | X |  | X |  |  |  | X | X |  | X | X | X |  | X |  | X | X | X | X | X |  | X | X |  |  | X |  |
-| Literature_Arts |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |
-| Military |  |  |  |  |  |  |  |  | X | X | X | X |  |  |  | X |  |  |  |  |  | X | X | X | X | X |  |  | X |  |
-| Science_Tech |  |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  | X |  | X |
+| Domain | H-BYB-342 | H-CBD-356 | H-CY-346 | H-DJX-338 | H-DYC-350 | H-FXT-351 | H-HLG-339 | H-KKQ-358 | H-KS-352 | H-LRH-335 | H-LRQ-353 | H-LSQ-333 | H-LWH-360 | H-LXN-347 | H-PDH-334 | H-QGH-348 | H-QXS-337 | H-SQL-349 | H-TJY-344 | H-WL-343 | H-WZ-355 | H-XFZ-354 | H-YDZ-336 | H-YJY-359 | H-YSK-361 | H-YWY-357 | H-YYY-341 | H-ZEL-332 | H-ZKZ-340 |
+| Economics | X |  | X |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |
+| Education |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |
+| Ethics |  | X |  |  | X | X |  | X |  |  |  |  | X |  |  |  |  | X |  |  |  |  |  |  |  | X |  |  |  |
+| Governance | X | X | X |  | X |  |  |  | X | X |  | X | X | X |  | X |  | X | X | X | X | X |  | X | X |  |  | X |  |
+| Literature_Arts |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |
+| Military |  |  |  |  |  |  |  | X | X | X | X |  |  |  | X |  |  |  |  |  | X | X | X | X | X |  |  | X |  |
+| Science_Tech |  |  |  | X |  | X | X |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  | X |  | X |
 
 
 ## Sheet 5: Top Tags by Frequency
 
 | Tag | Frequency |
 | - | - | - |
-| 摸着石头过河 | 3 |
-| 对外开放 | 1 |
-| 特区建设 | 1 |
+| 摸着石头过河 | 2 |
 | 经济体制改革 | 1 |
 | 渐进改革试点先行 | 1 |
 | 理论权威 | 1 |

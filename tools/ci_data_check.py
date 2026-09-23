@@ -50,7 +50,7 @@ from _quarantine import QUARANTINE as _QUARANTINE  # noqa: E402
 
 QUARANTINED = set(_QUARANTINE)  # 已确证虚构: 不得出现在公开名录
 CODE_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9 ._+\-]*$")
-MIN_SITEMAP_ENTRIES = 1300
+MIN_SITEMAP_ENTRIES = 1388  # Phase21-R8 (2026-09-24) 遗留清档（卡 t_3669eb4a）：取重建后实测 1388（原 1300 为旧下限）
 
 REQUIRED_FIELDS = {
     "code": str,

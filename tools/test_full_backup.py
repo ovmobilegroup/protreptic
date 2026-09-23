@@ -165,7 +165,7 @@ def test_new_batch_figures():
     # Batch 8: 20 new (Phase 3 Batch 2)
     batch_h = ['H-ZEL-332', 'H-LSQ-333', 'H-PDH-334', 'H-LRH-335', 'H-YDZ-336',
                'H-QXS-337', 'H-DJX-338', 'H-HLG-339', 'H-ZKZ-340', 'H-YYY-341',
-               'H-BYB-342', 'H-WL-343', 'H-TJY-344', 'H-AZJ-345',
+               'H-BYB-342', 'H-WL-343', 'H-TJY-344',
                'H-CY-346', 'H-LXN-347', 'H-QGH-348',
                'H-SQL-349', 'H-DYC-350', 'H-FXT-351']
     # Batch 9: 5 final batch (newly added)

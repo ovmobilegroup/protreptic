@@ -22,7 +22,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-EXPECT_FIGURES = 1057
+# Phase21-R8 (2026-09-24) 遗留清档（卡 t_3669eb4a）：EXPECT_FIGURES 1057 -> 1056
+EXPECT_FIGURES = 1056
 # EXPECT_MODES 是「源去重口径」(与 export_static_site.EXPECT_MODES 同口径)，只用来校验
 # meta.json 与数据源是否同步；它**不是**站点文案口径 —— 站点文案/分享图用发布口径
 # mode_summaries_published = 3281 - 隔离名单条数，由下面 check_data 的隔离门逐分片重算校验。
