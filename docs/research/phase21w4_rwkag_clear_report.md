@@ -91,6 +91,6 @@
 - 发布仓镜像 commit: 74c5522 (110 files: 43A/13M/54R; +31171/-508; 发布仓 main); push: e5c111a..74c5522 main -> main (rc=0); remote main: 74c5522ba106c5c7e6e4bf7f3fa60482aff63188 (= 74c5522, origin/main 已对齐)
 - parity: 共同件 2388 = 逐字节 2388; CONTENT_DIFF 0; ONLY_PUBLISH 0; MISSING_IN_PUBLISH 6 (R-a 他链文档, 同 t_536073f4 登记口径); rc=1 (已知, 由 R-a 缺件所致)
 - 远端 raw 校验: 4/4 OK (raw.githubusercontent.com @74c5522, sha256 本地=远端): report.md f37ec37d / scenarios_zh 9727c8ea / sitemap e0e49df8 / archive 31a69329
-- 备份盘镜像: 93/93 byte-exact (PB data/backup_phase21w4_rwkag_clear_20260924); web/public/data 1383 全等; web/dist 全树 2765 对齐; 报告 v2 补记: 本提交 = 报告回执补记 v2 (报告对 + 证据 JSON 回执区同步)
+- 备份盘镜像: 93/93 byte-exact (PB data/backup_phase21w4_rwkag_clear_20260924); web/public/data 1383 全等; web/dist 全树 2765 对齐; 报告 v2 补记: v2 = 4aa62574 (回执补记: 报告对 + 证据回执区); 镜像 = ba3b1fa (74c5522..ba3b1fa, byte-exact 3/3); raw 校验 3/3 OK @ba3b1fa (report.md 6b5fdd17 / report.json a9c8a816 / evidence 5732df4e)
 - 见证器全量 (含发布面): 21/21 PASS (全量, 含发布面 scan.pb.live_zero / build_zero / intl_draft_absent / parity_key_files / data_tree_identical)
 
