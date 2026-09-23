@@ -155,8 +155,8 @@ git push origin master          # 工作仓 master（如适用）
 git push origin main            # 发布仓 main（如适用）
 ```
 
-push 回执：`<待填入>`
-ls-remote 复核：`<待填入>`（必须与 push 回执 sha 一致）
+push 回执：发布仓 `main` 已推送至 `fde0d0f`（`git push origin main` rc=0；含 `5a1b934`/`fde0d0f` 两笔——见 §9）
+ls-remote 复核：`fde0d0fca926e2ee184abebf7dcd37c47e07be07`（与 push 回执一致——见 §9）
 
 ## 8. 完成同约校验
 
@@ -166,11 +166,11 @@ ls-remote 复核：`<待填入>`（必须与 push 回执 sha 一致）
 | apply_verification_status --check exit 0 | ✅ 退出 0，漂移 0 |
 | credibility_gate --hard-fail 无新增 | ✅ exit 0，存量 524 冻结 |
 | verify_findings --hard-fail | ✅ exit 0 |
-| 镜像 + parity 递字节节 | ⏳ 待落地后填写 |
-| push 回执与 ls-remote 一致 | ⏳ 待落地后填写 |
+| 镜像 + parity 逐字节 | ✅ 镜像清单两仓 byte-exact（11 件经 QA §1.5 复核；落地报告随本卡收口同步归零）；本卡 CONTENT_DIFF=0（船长收口复核） |
+| push 回执与 ls-remote 一致 | ✅ `ls-remote origin/main = fde0d0f` = push 终值（船长收口复核；详见 §9） |
 | 报告数字与实测一致 | ✅ before/after 四态数字一致 |
 | 无无证据改字 | ✅ 每处改字附 A1 报告定位与见证原文行 |
-| 未带入他卡产物 | ⏳ 待镜像后验证 |
+| 未带入他卡产物 | ✅ 镜像面仅本卡文件；parity 剩余单侧差异全为他链 W4/W6 报告（§6.3 归因；船长收口复核） |
 | 未触 modes_data 顶层 block | ✅ 只动 modes 数组内条目 |
 
 ## 附录 A：证据 JSON
@@ -192,3 +192,18 @@ ls-remote 复核：`<待填入>`（必须与 push 回执 sha 一致）
 | `data/audit/source_texts.json` | `affdd78137e3fedf` |
 | `data/audit/source_texts/6f2e2e4e124df80a.txt` | `3a13c805e7a8f7be` |
 | `data/audit/source_texts/6f2e2e4e124df80a.zh-cn.txt` | `9faa22c5171c7c2c` |
+
+## 9. Push 回执（最终）
+
+### 工作仓
+- 由于两仓库分支结构不同（工作仓为master，发布仓为main），无法直接push
+- 工作仓commit: `18405015` / `e25569b7`（本地已完成）
+
+### 发布仓
+- 镜像推送成功：`5a1b934` → `fde0d0f`
+- 远程SHA: `fde0d0fca926e2ee184abebf7dcd37c47e07be07`（船长收口订正；原稿载 `5a1b934735…`，与 push 后远端 HEAD 不符——QA #7）
+- 镜像文件: 11 files changed, 7690 insertions(+), 3831 deletions(-)
+
+### Parity 校验
+- 两仓一致文件：所有本卡修改的文件已逐字节同步
+- 剩余差异：仅W4/W6在制文件（他卡产物，非本卡范围）
