@@ -1,0 +1,1983 @@
+{
+ "schema": "protreptic.phase21w5.wangchong_sourcing/v1",
+ "card": "t_5a7abc92",
+ "title": "Phase21-W5 王充《论衡》引文核验试点（零库写）",
+ "date": "2026-09-23",
+ "baseline_commit": "da073117ccef056b28596fe8ad72fe3ca391a96c",
+ "scope": "零库写：仅新增 docs/scratch/phase21w5_wangchong 见证副本与 docs/research 报告 json 与 md 两件；未动 data/ 目录；无 git 提交。",
+ "quote_policy": "以 H-WC-001_modes.json 的 key_quote_zh 为核验对象；以 zh-hans-body 正文投影为比对基准；繁简与标点归一化后比对；对 source_chapter 声明的每篇均逐一检索。",
+ "method": "85 篇正文投影加 85 篇繁体底本，逐篇 sha256；归一化子串定位、逐段状态判定、最近见证提取；机器初筛与人工复核双层。",
+ "deliverables": [
+  "docs/research/phase21w5_wangchong_sourcing_report.json",
+  "docs/research/phase21w5_wangchong_sourcing_report.md",
+  "docs/scratch/phase21w5_wangchong/"
+ ],
+ "witness": {
+  "source": "zh.wikisource.org",
+  "index_pageid": 44377,
+  "chapters": 85,
+  "raw_bytes": 812774,
+  "fetched_at_local": {
+   "first": "2026-09-23 22:15:27",
+   "last": "2026-09-23 22:21:35"
+  },
+  "sha256_manifest": "docs/scratch/phase21w5_wangchong/witness/witness_sha256.txt",
+  "raw_manifest": "docs/scratch/phase21w5_wangchong/witness/witness_manifest_raw.json",
+  "layout": "目录 raw/ 为繁体底本；目录 zh-hans/ 为同源 API 转换副本；目录 zh-hans-body/ 为正文投影（比对基准）",
+  "url_pattern": "https://zh.wikisource.org/w/index.php?title=%%E8%%AB%%96%%E8%%A1%%A1/NN&action=raw",
+  "chapters_table": [
+   {
+    "no": 1,
+    "title": "論衡/01",
+    "pageid": 44378,
+    "revid": 2594271,
+    "chars_body": 2105
+   },
+   {
+    "no": 2,
+    "title": "論衡/02",
+    "pageid": 44380,
+    "revid": 2326263,
+    "chars_body": 2098
+   },
+   {
+    "no": 3,
+    "title": "論衡/03",
+    "pageid": 44381,
+    "revid": 2326264,
+    "chars_body": 1972
+   },
+   {
+    "no": 4,
+    "title": "論衡/04",
+    "pageid": 44382,
+    "revid": 2325798,
+    "chars_body": 1225
+   },
+   {
+    "no": 5,
+    "title": "論衡/05",
+    "pageid": 44383,
+    "revid": 2326265,
+    "chars_body": 1449
+   },
+   {
+    "no": 6,
+    "title": "論衡/06",
+    "pageid": 44384,
+    "revid": 2325800,
+    "chars_body": 2341
+   },
+   {
+    "no": 7,
+    "title": "論衡/07",
+    "pageid": 44385,
+    "revid": 2325801,
+    "chars_body": 1972
+   },
+   {
+    "no": 8,
+    "title": "論衡/08",
+    "pageid": 44386,
+    "revid": 2325802,
+    "chars_body": 2700
+   },
+   {
+    "no": 9,
+    "title": "論衡/09",
+    "pageid": 44387,
+    "revid": 2645948,
+    "chars_body": 2584
+   },
+   {
+    "no": 10,
+    "title": "論衡/10",
+    "pageid": 44390,
+    "revid": 2325804,
+    "chars_body": 2073
+   },
+   {
+    "no": 11,
+    "title": "論衡/11",
+    "pageid": 44391,
+    "revid": 2325805,
+    "chars_body": 2641
+   },
+   {
+    "no": 12,
+    "title": "論衡/12",
+    "pageid": 44392,
+    "revid": 2326266,
+    "chars_body": 1789
+   },
+   {
+    "no": 13,
+    "title": "論衡/13",
+    "pageid": 44394,
+    "revid": 2326267,
+    "chars_body": 2367
+   },
+   {
+    "no": 14,
+    "title": "論衡/14",
+    "pageid": 44395,
+    "revid": 2326268,
+    "chars_body": 1779
+   },
+   {
+    "no": 15,
+    "title": "論衡/15",
+    "pageid": 44397,
+    "revid": 7904384,
+    "chars_body": 2141
+   },
+   {
+    "no": 16,
+    "title": "論衡/16",
+    "pageid": 44404,
+    "revid": 2358446,
+    "chars_body": 5964
+   },
+   {
+    "no": 17,
+    "title": "論衡/17",
+    "pageid": 44405,
+    "revid": 2325809,
+    "chars_body": 2986
+   },
+   {
+    "no": 18,
+    "title": "論衡/18",
+    "pageid": 44406,
+    "revid": 2325810,
+    "chars_body": 2842
+   },
+   {
+    "no": 19,
+    "title": "論衡/19",
+    "pageid": 44421,
+    "revid": 2326269,
+    "chars_body": 6597
+   },
+   {
+    "no": 20,
+    "title": "論衡/20",
+    "pageid": 44422,
+    "revid": 2325811,
+    "chars_body": 2325
+   },
+   {
+    "no": 21,
+    "title": "論衡/21",
+    "pageid": 44423,
+    "revid": 2326270,
+    "chars_body": 2566
+   },
+   {
+    "no": 22,
+    "title": "論衡/22",
+    "pageid": 44426,
+    "revid": 2326271,
+    "chars_body": 2525
+   },
+   {
+    "no": 23,
+    "title": "論衡/23",
+    "pageid": 44427,
+    "revid": 2326272,
+    "chars_body": 4445
+   },
+   {
+    "no": 24,
+    "title": "論衡/24",
+    "pageid": 44432,
+    "revid": 2325812,
+    "chars_body": 6180
+   },
+   {
+    "no": 25,
+    "title": "論衡/25",
+    "pageid": 44910,
+    "revid": 2326273,
+    "chars_body": 3512
+   },
+   {
+    "no": 26,
+    "title": "論衡/26",
+    "pageid": 44911,
+    "revid": 2325813,
+    "chars_body": 4496
+   },
+   {
+    "no": 27,
+    "title": "論衡/27",
+    "pageid": 44912,
+    "revid": 2325815,
+    "chars_body": 2887
+   },
+   {
+    "no": 28,
+    "title": "論衡/28",
+    "pageid": 45367,
+    "revid": 2325816,
+    "chars_body": 8317
+   },
+   {
+    "no": 29,
+    "title": "論衡/29",
+    "pageid": 45368,
+    "revid": 2325817,
+    "chars_body": 4614
+   },
+   {
+    "no": 30,
+    "title": "論衡/30",
+    "pageid": 45369,
+    "revid": 2325818,
+    "chars_body": 4759
+   },
+   {
+    "no": 31,
+    "title": "論衡/31",
+    "pageid": 45390,
+    "revid": 2325819,
+    "chars_body": 2485
+   },
+   {
+    "no": 32,
+    "title": "論衡/32",
+    "pageid": 45392,
+    "revid": 2325820,
+    "chars_body": 6880
+   },
+   {
+    "no": 33,
+    "title": "論衡/33",
+    "pageid": 45394,
+    "revid": 2325822,
+    "chars_body": 3477
+   },
+   {
+    "no": 34,
+    "title": "論衡/34",
+    "pageid": 45395,
+    "revid": 2326274,
+    "chars_body": 3102
+   },
+   {
+    "no": 35,
+    "title": "論衡/35",
+    "pageid": 45396,
+    "revid": 2326275,
+    "chars_body": 2337
+   },
+   {
+    "no": 36,
+    "title": "論衡/36",
+    "pageid": 45397,
+    "revid": 2325823,
+    "chars_body": 2799
+   },
+   {
+    "no": 37,
+    "title": "論衡/37",
+    "pageid": 45398,
+    "revid": 2325824,
+    "chars_body": 2970
+   },
+   {
+    "no": 38,
+    "title": "論衡/38",
+    "pageid": 46703,
+    "revid": 2325825,
+    "chars_body": 3623
+   },
+   {
+    "no": 39,
+    "title": "論衡/39",
+    "pageid": 46704,
+    "revid": 2326276,
+    "chars_body": 3112
+   },
+   {
+    "no": 40,
+    "title": "論衡/40",
+    "pageid": 46705,
+    "revid": 2325826,
+    "chars_body": 1950
+   },
+   {
+    "no": 41,
+    "title": "論衡/41",
+    "pageid": 46706,
+    "revid": 2325827,
+    "chars_body": 2034
+   },
+   {
+    "no": 42,
+    "title": "論衡/42",
+    "pageid": 46707,
+    "revid": 2325828,
+    "chars_body": 3192
+   },
+   {
+    "no": 43,
+    "title": "論衡/43",
+    "pageid": 46708,
+    "revid": 2325639,
+    "chars_body": 2851
+   },
+   {
+    "no": 44,
+    "title": "論衡/44",
+    "pageid": 50205,
+    "revid": 2326290,
+    "chars_body": 72
+   },
+   {
+    "no": 45,
+    "title": "論衡/45",
+    "pageid": 46937,
+    "revid": 2325829,
+    "chars_body": 3442
+   },
+   {
+    "no": 46,
+    "title": "論衡/46",
+    "pageid": 46938,
+    "revid": 2325830,
+    "chars_body": 2717
+   },
+   {
+    "no": 47,
+    "title": "論衡/47",
+    "pageid": 46939,
+    "revid": 2325832,
+    "chars_body": 2404
+   },
+   {
+    "no": 48,
+    "title": "論衡/48",
+    "pageid": 46940,
+    "revid": 2325834,
+    "chars_body": 1630
+   },
+   {
+    "no": 49,
+    "title": "論衡/49",
+    "pageid": 46941,
+    "revid": 2326277,
+    "chars_body": 1763
+   },
+   {
+    "no": 50,
+    "title": "論衡/50",
+    "pageid": 46942,
+    "revid": 2325835,
+    "chars_body": 4941
+   },
+   {
+    "no": 51,
+    "title": "論衡/51",
+    "pageid": 46943,
+    "revid": 2326278,
+    "chars_body": 2774
+   },
+   {
+    "no": 52,
+    "title": "論衡/52",
+    "pageid": 46971,
+    "revid": 2326279,
+    "chars_body": 3073
+   },
+   {
+    "no": 53,
+    "title": "論衡/53",
+    "pageid": 46972,
+    "revid": 2325836,
+    "chars_body": 2103
+   },
+   {
+    "no": 54,
+    "title": "論衡/54",
+    "pageid": 46973,
+    "revid": 2325837,
+    "chars_body": 3698
+   },
+   {
+    "no": 55,
+    "title": "論衡/55",
+    "pageid": 46974,
+    "revid": 2325838,
+    "chars_body": 4026
+   },
+   {
+    "no": 56,
+    "title": "論衡/56",
+    "pageid": 46975,
+    "revid": 2325839,
+    "chars_body": 3094
+   },
+   {
+    "no": 57,
+    "title": "論衡/57",
+    "pageid": 46976,
+    "revid": 2325841,
+    "chars_body": 2489
+   },
+   {
+    "no": 58,
+    "title": "論衡/58",
+    "pageid": 46977,
+    "revid": 7904503,
+    "chars_body": 2944
+   },
+   {
+    "no": 59,
+    "title": "論衡/59",
+    "pageid": 46978,
+    "revid": 2325843,
+    "chars_body": 1803
+   },
+   {
+    "no": 60,
+    "title": "論衡/60",
+    "pageid": 46979,
+    "revid": 2325844,
+    "chars_body": 2738
+   },
+   {
+    "no": 61,
+    "title": "論衡/61",
+    "pageid": 46980,
+    "revid": 2325845,
+    "chars_body": 2388
+   },
+   {
+    "no": 62,
+    "title": "論衡/62",
+    "pageid": 46981,
+    "revid": 2326280,
+    "chars_body": 4138
+   },
+   {
+    "no": 63,
+    "title": "論衡/63",
+    "pageid": 46982,
+    "revid": 2325846,
+    "chars_body": 5946
+   },
+   {
+    "no": 64,
+    "title": "論衡/64",
+    "pageid": 46983,
+    "revid": 2325847,
+    "chars_body": 5762
+   },
+   {
+    "no": 65,
+    "title": "論衡/65",
+    "pageid": 46984,
+    "revid": 2325848,
+    "chars_body": 3365
+   },
+   {
+    "no": 66,
+    "title": "論衡/66",
+    "pageid": 46985,
+    "revid": 2326281,
+    "chars_body": 1828
+   },
+   {
+    "no": 67,
+    "title": "論衡/67",
+    "pageid": 46986,
+    "revid": 2326282,
+    "chars_body": 1946
+   },
+   {
+    "no": 68,
+    "title": "論衡/68",
+    "pageid": 46987,
+    "revid": 2326283,
+    "chars_body": 3266
+   },
+   {
+    "no": 69,
+    "title": "論衡/69",
+    "pageid": 46988,
+    "revid": 2326284,
+    "chars_body": 1685
+   },
+   {
+    "no": 70,
+    "title": "論衡/70",
+    "pageid": 46989,
+    "revid": 2326285,
+    "chars_body": 2411
+   },
+   {
+    "no": 71,
+    "title": "論衡/71",
+    "pageid": 46990,
+    "revid": 2326286,
+    "chars_body": 2627
+   },
+   {
+    "no": 72,
+    "title": "論衡/72",
+    "pageid": 46991,
+    "revid": 2326287,
+    "chars_body": 2054
+   },
+   {
+    "no": 73,
+    "title": "論衡/73",
+    "pageid": 46992,
+    "revid": 2326288,
+    "chars_body": 2255
+   },
+   {
+    "no": 74,
+    "title": "論衡/74",
+    "pageid": 46993,
+    "revid": 2326289,
+    "chars_body": 2103
+   },
+   {
+    "no": 75,
+    "title": "論衡/75",
+    "pageid": 46994,
+    "revid": 2325849,
+    "chars_body": 1998
+   },
+   {
+    "no": 76,
+    "title": "論衡/76",
+    "pageid": 46995,
+    "revid": 2325850,
+    "chars_body": 2386
+   },
+   {
+    "no": 77,
+    "title": "論衡/77",
+    "pageid": 46996,
+    "revid": 7904496,
+    "chars_body": 2347
+   },
+   {
+    "no": 78,
+    "title": "論衡/78",
+    "pageid": 46997,
+    "revid": 2325853,
+    "chars_body": 4458
+   },
+   {
+    "no": 79,
+    "title": "論衡/79",
+    "pageid": 50206,
+    "revid": 2325854,
+    "chars_body": 4736
+   },
+   {
+    "no": 80,
+    "title": "論衡/80",
+    "pageid": 50212,
+    "revid": 2325856,
+    "chars_body": 6616
+   },
+   {
+    "no": 81,
+    "title": "論衡/81",
+    "pageid": 50213,
+    "revid": 2325857,
+    "chars_body": 4292
+   },
+   {
+    "no": 82,
+    "title": "論衡/82",
+    "pageid": 50221,
+    "revid": 2325858,
+    "chars_body": 2746
+   },
+   {
+    "no": 83,
+    "title": "論衡/83",
+    "pageid": 50225,
+    "revid": 7904389,
+    "chars_body": 2549
+   },
+   {
+    "no": 84,
+    "title": "論衡/84",
+    "pageid": 50226,
+    "revid": 2372823,
+    "chars_body": 2669
+   },
+   {
+    "no": 85,
+    "title": "論衡/85",
+    "pageid": 50228,
+    "revid": 2603875,
+    "chars_body": 5497
+   }
+  ]
+ },
+ "conversion": {
+  "endpoint": "https://zh.wikisource.org/w/api.php",
+  "params": "action=parse&page=<title>&variant=zh-hans&prop=text|revid&disablelimitreport=1&disableeditsection=1&disabletoc=1",
+  "variant": "zh-hans",
+  "counts": {
+   "entries": 86,
+   "ok": 86,
+   "raw_files": 86,
+   "zh_hans_files": 86,
+   "body_projection_files": 86
+  },
+  "chars_body_total": 264842,
+  "nav_cut_files": 84,
+  "apparatus_segments_total": 6,
+  "tail_cut_files": 1,
+  "edge_cases": [
+   {
+    "id": "e1_xiaokan",
+    "label": "校勘符号（迢）〔追〕",
+    "input": "苟有不曉解之問，（迢）〔追〕難孔子，何傷於義？",
+    "conv_zh_wikisource_variant_zh_hans": "苟有不晓解之问，（迢）〔追〕难孔子，何伤于义？",
+    "conv_zh_wikipedia_variant_zh_cn": "苟有不晓解之问，（迢）〔追〕难孔子，何伤于义？"
+   },
+   {
+    "id": "e2_main_quote",
+    "label": "主引文样式",
+    "input": "《論衡》篇以十數，亦一言也，曰：疾虛妄。",
+    "conv_zh_wikisource_variant_zh_hans": "《论衡》篇以十数，亦一言也，曰：疾虚妄。",
+    "conv_zh_wikipedia_variant_zh_cn": "《论衡》篇以十数，亦一言也，曰：疾虚妄。"
+   },
+   {
+    "id": "e3_variants",
+    "label": "异体字组",
+    "input": "眞·敎·説·温·內·靑·爲·線·裏·祕·峯·麪·槪",
+    "conv_zh_wikisource_variant_zh_hans": "真·教·说·温·内·青·为·线·里·秘·峰·面·概",
+    "conv_zh_wikipedia_variant_zh_cn": "真·敎·说·温·内·靑·为·线·里·秘·峯·面·概"
+   },
+   {
+    "id": "e4_punct",
+    "label": "标点组",
+    "input": "「引號」『雙引』（括號）〔校改〕《書名》〈注〉—— · … ！？：；、",
+    "conv_zh_wikisource_variant_zh_hans": "“引号”‘双引’（括号）〔校改〕《书名》〈注〉—— · … ！？：；、",
+    "conv_zh_wikipedia_variant_zh_cn": "“引号”‘双引’（括号）〔校改〕《书名》〈注〉—— · … ！？：；、"
+   },
+   {
+    "id": "e5_brackets",
+    "label": "校勘括号双例",
+    "input": "（聞）弦歌之聲 與 亦不（減）〔滅〕其經",
+    "conv_zh_wikisource_variant_zh_hans": "（闻）弦歌之声 与 亦不（减）〔灭〕其经",
+    "conv_zh_wikipedia_variant_zh_cn": "（闻）弦歌之声 与 亦不（减）〔灭〕其经"
+   },
+   {
+    "id": "e6_yun",
+    "label": "云/雲 语境敏感",
+    "input": "雲從龍，風從虎；孔子云：學而時習之。",
+    "conv_zh_wikisource_variant_zh_hans": "云从龙，风从虎；孔子云：学而时习之。",
+    "conv_zh_wikipedia_variant_zh_cn": "云从龙，风从虎；孔子云：学而时习之。"
+   },
+   {
+    "id": "e7_chou",
+    "label": "丑/醜 语境敏感",
+    "input": "美醜不分，丑時行軍。",
+    "conv_zh_wikisource_variant_zh_hans": "美丑不分，丑时行军。",
+    "conv_zh_wikipedia_variant_zh_cn": "美丑不分，丑时行军。"
+   },
+   {
+    "id": "e8_gan",
+    "label": "干/乾/幹 一简对多繁",
+    "input": "乾燥、幹事、干戈、天干。",
+    "conv_zh_wikisource_variant_zh_hans": "干燥、干事、干戈、天干。",
+    "conv_zh_wikipedia_variant_zh_cn": "干燥、干事、干戈、天干。"
+   },
+   {
+    "id": "e9_huai",
+    "label": "坏/壞 底本用字",
+    "input": "恭王坏孔子宅以為宮。",
+    "conv_zh_wikisource_variant_zh_hans": "恭王坏孔子宅以为宫。",
+    "conv_zh_wikipedia_variant_zh_cn": "恭王坏孔子宅以为宫。",
+    "retry_note": "首次请求遇 SSL EOF（代理瞬断），重试成功；已记录"
+   },
+   {
+    "id": "e10_ji",
+    "label": "跡/迹 与 於/于",
+    "input": "占跡以睹足，觀文以知情，何傷於義。",
+    "conv_zh_wikisource_variant_zh_hans": "占迹以睹足，观文以知情，何伤于义。",
+    "conv_zh_wikipedia_variant_zh_cn": "占迹以睹足，观文以知情，何伤于义。"
+   },
+   {
+    "id": "e11_rare_char_16",
+    "label": "{{!|字|形码}} 模板渲染（/16 实际）",
+    "input": "不見{{!|𧌯|⿰虫垂}}螺",
+    "conv_zh_wikisource_variant_zh_hans": "不见𧌯螺",
+    "conv_zh_wikipedia_variant_zh_cn": null
+   },
+   {
+    "id": "e12_jiao_template_34",
+    "label": "{{校|A|B}} 模板渲染（/34 实际）",
+    "input": "東海相宗叔{{校|犀|庠}}廣召幽隱",
+    "conv_zh_wikisource_variant_zh_hans": "东海相宗叔犀广召幽隐",
+    "conv_zh_wikipedia_variant_zh_cn": null
+   },
+   {
+    "id": "e13_yanshou_85",
+    "label": "{{YL|年號}} 模板渲染（/85 实际）",
+    "input": "充以{{YL|元和三年}}徙家闢詣揚州",
+    "conv_zh_wikisource_variant_zh_hans": "充以.mw-parser-output .nianhao-link a,.mw-parser-output .nianhao-link a:visited,.mw-parser-output .nianhao-link a:hover,.mw-parser-output .nianhao-link a:focus,.mw-parser-output .nianhao-link a.new{color:inherit;text-decoration:none}.mw-parser-output .nianhao-link a:hover .nianhao,.mw-parser-output .nianhao-link a:focus .nianhao{border-block-end-style:solid}元和三年徙家辟诣扬州",
+    "conv_zh_wikipedia_variant_zh_cn": null
+   }
+  ],
+  "pipeline": [
+   "1) action=parse 渲染同源 wiki 页面（模板按站点语义展开；繁体底本）",
+   "2) HTML 去标签：移除 script/style/sup(脚注标记)，块级元素换行，实体解码",
+   "3) variant=zh-hans 简体文本存为转换副本（zh-hans/）",
+   "4) 正文投影（zh-hans-body/）：剔除页眉导航（姊妹计划标记后首个全角缩进起）；剔除〈…〉校勘注记（全文另存 apparatus_removed.json）；截除文末校勘记段"
+  ],
+  "policy": "raw 原文（繁体）永为见证；转换副本为比对投影，不用于制造命中；剔除材料全文留档，核验以正文投影为主，另记仅注记/仅全渲染命中情形",
+  "pitfalls": [
+   "zh.wikisource 的 variant=zh-cn 为静默 no-op，并不转换，须改用 zh-hans 才有转换效果。",
+   "URL 变体路径 zh-cn 实测 301 不可用，而 zh-hans 路径返回 200 可用。",
+   "渲染输出含 TemplateStyles 样式块，去标签须先移除 script 与 style 再剥其余标签。",
+   "校勘注记与文末校勘记属非正文：正文投影剔除，全文另存 apparatus_removed.json 文件。",
+   "全角标点与（ ）〔 〕校勘符号：转换保留、归一化弃除。",
+   "罕用字以原字渲染，例如 𧌯 一类，其构字形码不进正文。",
+   "脚注渲染为 [n] 标记与文末校勘记段，仅 /34 一处；正文投影截除。",
+   "异体字（敎/靑/証）跨站转换不一致；统一走 zh.wikisource 的 zh-hans 转换。"
+  ]
+ },
+ "normalization": {
+  "rule": "仅保留 CJK 统一表意区 U+4E00-9FFF、扩展 A、扩展 B 与 ASCII 字母数字；弃除全部标点、括号、校勘符号与空白，并将 ASCII 转为小写。",
+  "note": "与 Phase21-R8 罗钦顺卡口径一致，便于跨卡比对。"
+ },
+ "verification": {
+  "verdict_rule": "逐字命中 = 归一化后全引文在正文投影中连续出现；差异 = 全引文无整体连续命中，但可分解出逐字可证的实质段或字级差异；查无 = 全引文与各分句均无实质逐字段（最长连续片段小于 10 字，仅有零星公式化短语）。",
+  "counts": {
+   "逐字命中": 2,
+   "差异": 5,
+   "查无": 3
+  },
+  "results": [
+   {
+    "id": "M-WC-001",
+    "name_zh": "疾虚妄法",
+    "source_chapter": "《论衡·佚文》《论衡·对作》",
+    "key_quote_zh": "《诗》三百，一言以蔽之，曰：思无邪。《论衡》篇以十数，亦一言也，曰：疾虚妄。",
+    "quote_norm_len": 26,
+    "verdict": "逐字命中",
+    "verdict_reason": "全引文（归一化 26 字）在正文投影中连续出现：/61 佚文篇第六十一，pos=1819。",
+    "disposition": {
+     "suggestion": "无须改字，保持现状；《论衡》书级链接入库后本条出处解析应为 linked（《论衡·佚文》按「·」右截回落《论衡》）。",
+     "basis": [
+      "见证逐字一致（繁简/标点归一后）：/61 底本『《詩》三百，一言以蔽之，曰：思無邪。』『《論衡》篇以十數，亦一言也，曰：疾虛妄。』",
+      "全库检索『论衡篇以十数』仅 /61 一处",
+      "声明章目两篇中「佚文」命中；「对作」（/84）未见此句——是否收窄为仅《论衡·佚文》待裁定"
+     ],
+     "options": [
+      "保持两篇声明（对作篇或属意引）",
+      "收窄为《论衡·佚文》"
+     ]
+    },
+    "difference": null,
+    "conversion_notes": [],
+    "segments": [],
+    "closest_witness": [],
+    "gap_refs": [],
+    "machine_triage": {
+     "verdict": "逐字命中",
+     "matches": [
+      {
+       "file": "lunheng-61.txt",
+       "chapter_title": "佚文篇第六十一",
+       "pageid": 46980,
+       "revid": 2325845,
+       "norm_pos": 1819,
+       "context_zh_hans": {
+        "pre": "宜妄记！足蹈于地，迹有好丑；文集于礼，志有善恶。故夫占迹以睹足，观文以知情。“《",
+        "mid": "诗》三百，一言以蔽之，曰：思无邪。”\n\n　　《论衡》篇以十数，亦一言也，曰：疾虚妄",
+        "post": "。"
+       },
+       "raw_excerpt": {
+        "anchor_len": 26,
+        "excerpt": "宜妄記！足蹈於地，跡有好丑；文集於禮，志有善惡。故夫占跡以睹足，觀文以知情。「《詩》三百，一言以蔽之，曰：思無邪。」 《論衡》篇以十數，亦一言也，曰：疾虛妄。"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "id": "M-WC-002",
+    "name_zh": "问难法",
+    "source_chapter": "《论衡·问孔》《论衡·刺孟》《论衡·正失》",
+    "key_quote_zh": "苟有不晓解之问，迢难孔子，何伤于义？诚有传圣业之知，伐孔子之说，何逆于理？",
+    "quote_norm_len": 31,
+    "verdict": "差异",
+    "verdict_reason": "全引文与见证仅差 1 个校改字：见证作『（迢）〔追〕难孔子』，引文作『迢难孔子』。",
+    "disposition": {
+     "suggestion": "首选：最小改字『迢』→『追』（作「追难孔子」），并以注记记录底本样式（（迢）〔追〕）。备选：保留「迢」+注记『底本作「迢」，校改作「追」』。",
+     "basis": [
+      "见证含（ ）〔 〕校勘符号：底本「迢」为误字、校改作「追」（/28 底本标记）",
+      "文义对文：『苟有不晓解之问，追难孔子』与下文『伐孔子之说，何逆于理』相承；「迢难」不成词"
+     ],
+     "options": [
+      "改字为「追」（推荐）",
+      "保留「迢」并加注",
+      "改字并保留注记（推荐+）"
+     ]
+    },
+    "difference": null,
+    "conversion_notes": [],
+    "segments": [
+     {
+      "segment": "苟有不晓解之问",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "苟有不晓解之问，（迢）〔追〕难孔子，何伤于义",
+        "ctx": {
+         "pre": "是非也。问难之道，非必对圣人及生时也。世之解说说人者，非必须圣人教告，乃敢言也。",
+         "mid": "苟有不晓解之问",
+         "post": "，（迢）〔追〕难孔子，何伤于义？诚有传圣业之知，伐孔子之说，何逆于理？谓问孔子之"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "迢难孔子",
+      "witness_form": "迢追难孔子",
+      "status": "diff",
+      "witness": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "苟有不晓解之问，（迢）〔追〕难孔子，何伤于义",
+        "ctx": {
+         "pre": "非必对圣人及生时也。世之解说说人者，非必须圣人教告，乃敢言也。苟有不晓解之问，（",
+         "mid": "迢）〔追〕难孔子",
+         "post": "，何伤于义？诚有传圣业之知，伐孔子之说，何逆于理？谓问孔子之言，难其不解之文，世"
+        }
+       }
+      ],
+      "char_ops": [
+       {
+        "op": "insert",
+        "quote": "",
+        "witness": "追"
+       }
+      ]
+     },
+     {
+      "segment": "何伤于义",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "苟有不晓解之问，（迢）〔追〕难孔子，何伤于义",
+        "ctx": {
+         "pre": "。世之解说说人者，非必须圣人教告，乃敢言也。苟有不晓解之问，（迢）〔追〕难孔子，",
+         "mid": "何伤于义",
+         "post": "？诚有传圣业之知，伐孔子之说，何逆于理？谓问孔子之言，难其不解之文，世间弘才大知"
+        }
+       },
+       {
+        "file": "lunheng-42",
+        "chapter": "論衡/42",
+        "pageid": 46707,
+        "sentence": "予之谴告，何伤于义",
+        "ctx": {
+         "pre": "之愿贯械待时，犹子韦之愿伏陛下以俟荧惑徙处。必然之验，故谴告之言信也。予之谴告，",
+         "mid": "何伤于义",
+         "post": "。损皇天之德，使自然无为转为人事，故难听之也。称天之谴告，誉天之聪察也，反以聪察"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "诚有传圣业之知",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "诚有传圣业之知，伐孔子之说，何逆于理",
+        "ctx": {
+         "pre": "说人者，非必须圣人教告，乃敢言也。苟有不晓解之问，（迢）〔追〕难孔子，何伤于义？",
+         "mid": "诚有传圣业之知",
+         "post": "，伐孔子之说，何逆于理？谓问孔子之言，难其不解之文，世间弘才大知，（生）能答问解"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "伐孔子之说",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "诚有传圣业之知，伐孔子之说，何逆于理",
+        "ctx": {
+         "pre": "人教告，乃敢言也。苟有不晓解之问，（迢）〔追〕难孔子，何伤于义？诚有传圣业之知，",
+         "mid": "伐孔子之说",
+         "post": "，何逆于理？谓问孔子之言，难其不解之文，世间弘才大知，（生）能答问解难之人，必将"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "何逆于理",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "诚有传圣业之知，伐孔子之说，何逆于理",
+        "ctx": {
+         "pre": "言也。苟有不晓解之问，（迢）〔追〕难孔子，何伤于义？诚有传圣业之知，伐孔子之说，",
+         "mid": "何逆于理",
+         "post": "？谓问孔子之言，难其不解之文，世间弘才大知，（生）能答问解难之人，必将贤吾世间难"
+        }
+       }
+      ]
+     }
+    ],
+    "closest_witness": [],
+    "gap_refs": [],
+    "machine_triage": {
+     "longest_common": {
+      "size": 23,
+      "chapter": "lunheng-28.txt",
+      "chapter_title": "問孔篇第二十八",
+      "ratio_of_quote": 0.742
+     },
+     "verdict": "差异",
+     "diff_ops": [
+      {
+       "op": "insert",
+       "quote_seg": "",
+       "witness_seg": "告乃敢言也",
+       "quote_pos": 0,
+       "witness_norm_pos": 408
+      },
+      {
+       "op": "insert",
+       "quote_seg": "",
+       "witness_seg": "追",
+       "quote_pos": 8,
+       "witness_norm_pos": 421
+      },
+      {
+       "op": "insert",
+       "quote_seg": "",
+       "witness_seg": "谓问孔子之言",
+       "quote_pos": 31,
+       "witness_norm_pos": 445
+      }
+     ],
+     "similarity": 0.838,
+     "match_file": "lunheng-28.txt",
+     "match_chapter_title": "問孔篇第二十八",
+     "context_zh_hans": {
+      "pre": "核道实义，证定是非也。问难之道，非必对圣人及生时也。世之解说说人者，非必须圣人教",
+      "mid": "告，乃敢言也。苟有不晓解之问，（迢）〔追〕难孔子，何伤于义？诚有传圣业之知，伐孔子之说，何逆于理？谓问孔子之言",
+      "post": "，难其不解之文，世间弘才大知，（生）能答问解难之人，必将贤吾世间难问之言（是非）"
+     },
+     "raw_excerpt": {
+      "anchor_len": 23,
+      "excerpt": "問難之道，非必對聖人及生時也。世之解說說人者，非必須聖人教告，乃敢言也。苟有不曉解之問，（迢）〔追〕難孔子，何傷於義？誠有傳聖業之知，伐孔子之說，何逆於理？謂問孔子之言，難其不解之文，世間弘才大知，（生）能答問解難之人，必將賢吾世間難問之言（是非）。 孟"
+     },
+     "apparatus_only_hit": [],
+     "full_render_exact_hits": []
+    }
+   },
+   {
+    "id": "M-WC-003",
+    "name_zh": "天道自然法",
+    "source_chapter": "《论衡·自然》《论衡·物势》《论衡·谴告》",
+    "key_quote_zh": "天地合气，万物自生。天动不欲以生物，而物自生，此则自然也。",
+    "quote_norm_len": 24,
+    "verdict": "差异",
+    "verdict_reason": "引文为《自然篇》两段之拼合：两段各自逐字可证，但非连续原文（中途省略）。",
+    "disposition": {
+     "suggestion": "两段逐字可证；建议在拼接处加省略号并在注中记明省略范围；亦可拆分为两条。出处声明已含该篇，不变。",
+     "basis": [
+      "两段均逐字命中 /54 自然篇（逐段定位见见证表）",
+      "省略内容为『犹夫妇合气，子自生矣』与『夫人之施气也，非欲以生子，气施而子自生矣』"
+     ],
+     "options": [
+      "在拼接处加省略号（最小改）",
+      "拆为两条",
+      "保持并加注省略说明"
+     ]
+    },
+    "difference": {
+     "type": "拼接（同篇两段）",
+     "detail": "前段取自 /54『天地合氣，萬物自生，猶夫婦合氣，子自生矣。』的前半；后段完整取自 /54『夫人之施氣也，非欲以生子，氣施而子自生矣。天動不欲以生物，而物自生，此則自然也。』的末句。两段之间在原文中不相邻。"
+    },
+    "conversion_notes": [],
+    "segments": [
+     {
+      "segment": "天地合气，万物自生",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-54",
+        "chapter": "論衡/54",
+        "pageid": 46973,
+        "sentence": "天地合气，万物自生，犹夫妇合气，子自生矣",
+        "ctx": {
+         "pre": "",
+         "mid": "天地合气，万物自生",
+         "post": "，犹夫妇合气，子自生矣。万物之生，含血之类，知饥知寒，见五谷可食，取而食之，见丝"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "天动不欲以生物，而物自生，此则自然也",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-54",
+        "chapter": "論衡/54",
+        "pageid": 46973,
+        "sentence": "天动不欲以生物，而物自生，此则自然也",
+        "ctx": {
+         "pre": "矣。由人动气也，体动气乃出，子亦生也。夫人之施气也，非欲以生子，气施而子自生矣。",
+         "mid": "天动不欲以生物，而物自生，此则自然也",
+         "post": "。施气不欲为物，而物自为，此则无为也。谓天自然无为者何？气也。恬淡无欲，无为无事"
+        }
+       }
+      ]
+     }
+    ],
+    "closest_witness": [],
+    "gap_refs": [
+     {
+      "text": "犹夫妇合气，子自生矣",
+      "note": "前段所在句的后半（引文省略）",
+      "refs": [
+       {
+        "file": "lunheng-54",
+        "chapter": "論衡/54",
+        "pageid": 46973,
+        "sentence": "天地合气，万物自生，犹夫妇合气，子自生矣"
+       }
+      ]
+     },
+     {
+      "text": "夫人之施气也，非欲以生子，气施而子自生矣",
+      "note": "后段所在句的前句（引文省略）",
+      "refs": [
+       {
+        "file": "lunheng-54",
+        "chapter": "論衡/54",
+        "pageid": 46973,
+        "sentence": "夫人之施气也，非欲以生子，气施而子自生矣"
+       }
+      ]
+     }
+    ],
+    "machine_triage": {
+     "longest_common": {
+      "size": 16,
+      "chapter": "lunheng-54.txt",
+      "chapter_title": "自然篇第五十四",
+      "ratio_of_quote": 0.667
+     },
+     "verdict": "差异",
+     "diff_ops": [
+      {
+       "op": "delete",
+       "quote_seg": "天地合",
+       "witness_seg": "",
+       "quote_pos": 0,
+       "witness_norm_pos": 382
+      },
+      {
+       "op": "replace",
+       "quote_seg": "万物",
+       "witness_seg": "也非欲以生子气施而子",
+       "quote_pos": 4,
+       "witness_norm_pos": 383
+      },
+      {
+       "op": "insert",
+       "quote_seg": "",
+       "witness_seg": "矣",
+       "quote_pos": 8,
+       "witness_norm_pos": 395
+      },
+      {
+       "op": "insert",
+       "quote_seg": "",
+       "witness_seg": "施气不欲为物",
+       "quote_pos": 24,
+       "witness_norm_pos": 412
+      }
+     ],
+     "similarity": 0.633,
+     "match_file": "lunheng-54.txt",
+     "match_chapter_title": "自然篇第五十四",
+     "context_zh_hans": {
+      "pre": "动行也，施气也，体动气乃出，物乃生矣。由人动气也，体动气乃出，子亦生也。夫人之施",
+      "mid": "气也，非欲以生子，气施而子自生矣。天动不欲以生物，而物自生，此则自然也。施气不欲为物",
+      "post": "，而物自为，此则无为也。谓天自然无为者何？气也。恬淡无欲，无为无事者也，老聃得以"
+     },
+     "raw_excerpt": {
+      "anchor_len": 16,
+      "excerpt": "，體動氣乃出，物乃生矣。由人動氣也，體動氣乃出，子亦生也。夫人之施氣也，非欲以生子，氣施而子自生矣。天動不欲以生物，而物自生，此則自然也。施氣不欲為物，而物自為，此則無為也。謂天自然無為者何？氣也。恬淡無欲，無為無事者也，老聃得以壽矣。"
+     },
+     "apparatus_only_hit": [],
+     "full_render_exact_hits": []
+    }
+   },
+   {
+    "id": "M-WC-004",
+    "name_zh": "效验论证法",
+    "source_chapter": "《论衡·证验》《论衡·知实》《论衡·案书》",
+    "key_quote_zh": "事莫明于有效，论莫定于有证。",
+    "quote_norm_len": 12,
+    "verdict": "逐字命中",
+    "verdict_reason": "全引文（归一化 12 字）连续出现：/67 薄葬篇第六十七，pos=287。",
+    "disposition": {
+     "suggestion": "无须改字；建议修正 source_chapter：《论衡》无「证验篇」，该句出自《薄葬篇第六十七》（「证验」疑为句意衍名）。",
+     "basis": [
+      "见证逐字一致：/67『事莫明於有效，論莫定於有証。』",
+      "85 篇篇名全表无「证验篇」；「知实」（/79）「案书」（/83）全库检索均未见该句"
+     ],
+     "options": [
+      "source_chapter 改为《论衡·薄葬》",
+      "保留并注记「证验」来自句意概括"
+     ]
+    },
+    "difference": null,
+    "conversion_notes": [
+     "底本作「有証」（証），zh-hans 归一为「证」；引文用「证」。"
+    ],
+    "segments": [],
+    "closest_witness": [],
+    "gap_refs": [],
+    "machine_triage": {
+     "verdict": "逐字命中",
+     "matches": [
+      {
+       "file": "lunheng-67.txt",
+       "chapter_title": "薄葬篇第六十七",
+       "pageid": 46986,
+       "revid": 2326282,
+       "norm_pos": 287,
+       "context_zh_hans": {
+        "pre": "亦无以定实。然而陆贾之论两无所处。刘子政奏，亦不能明儒家无知之验，墨家有知之故。",
+        "mid": "事莫明于有效，论莫定于有证",
+        "post": "。空言虚语，虽得道心，人犹不信。是以世俗轻愚信祸福者，畏死不惧义，重死不顾生，竭"
+       },
+       "raw_excerpt": {
+        "anchor_len": 11,
+        "excerpt": "亦無以定實。然而陸賈之論兩無所處。劉子政奏，亦不能明儒家無知之驗，墨家有知之故。事莫明於有效，論莫定於有証。空言虛語，雖得道心，人猶不信。是以世俗輕愚信禍福者，畏死不懼義，重死不顧生，"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "id": "M-WC-005",
+    "name_zh": "归谬反驳法",
+    "source_chapter": "《论衡·道虚》《论衡·龙虚》《论衡·纪妖》",
+    "key_quote_zh": "龙不致云，云亦不致龙。今龙在渊中，亡则失其居矣——说龙致雨者，不知龙之实也。",
+    "quote_norm_len": 31,
+    "verdict": "查无",
+    "verdict_reason": "六个分句全库 85 篇无一逐字命中（最长连续片段 3 字）；疑为现代概括/改写。",
+    "disposition": {
+     "suggestion": "标存疑（无逐字见证）；如须逐字引文，建议替换为候选原文（候选表见下文）。保留原文时应加注『无可核逐字原文』。",
+     "basis": [
+      "全引文及全部分句、五字以上模糊片段均无命中",
+      "最近实体表述（/22『失龍之實』、/47『其意以雲龍相致』『土龍安能而致雨』）均非同句；且 /47 为转述他人主张（云龙相致），与引文立论方向不同"
+     ],
+     "options": [
+      "标存疑+注记",
+      "替换为候选原文句",
+      "剔除该条"
+     ]
+    },
+    "difference": null,
+    "conversion_notes": [],
+    "segments": [
+     {
+      "segment": "龙不致云",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "云亦不致龙",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "今龙在渊中",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "亡则失其居矣",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "说龙致雨者",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "不知龙之实也",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     }
+    ],
+    "closest_witness": [
+     {
+      "label": "《论衡·龍虛篇》近文（/22）",
+      "needle": "见龙乘云独谓之神失龙之实诬龙之能也",
+      "refs": [
+       {
+        "file": "lunheng-22",
+        "chapter": "論衡/22",
+        "pageid": 44426,
+        "sentence": "见龙乘云，独谓之神，失龙之实，诬龙之能也"
+       }
+      ]
+     },
+     {
+      "label": "《论衡·亂龍篇》近文（/47）",
+      "needle": "其意以云龙相致",
+      "refs": [
+       {
+        "file": "lunheng-47",
+        "chapter": "論衡/47",
+        "pageid": 46939,
+        "sentence": "董仲舒申《春秋》之雩，设土龙以招雨，其意以云龙相致"
+       }
+      ]
+     },
+     {
+      "label": "《论衡·亂龍篇》批驳句（/47）",
+      "needle": "夫土虎不能而致风土龙安能而致雨",
+      "refs": [
+       {
+        "file": "lunheng-47",
+        "chapter": "論衡/47",
+        "pageid": 46939,
+        "sentence": "夫土虎不能而致风，土龙安能而致雨"
+       }
+      ]
+     }
+    ],
+    "gap_refs": [],
+    "machine_triage": {
+     "longest_common": {
+      "size": 3,
+      "chapter": "lunheng-11.txt",
+      "chapter_title": "骨相篇第十一",
+      "ratio_of_quote": 0.097
+     },
+     "verdict": "查无",
+     "best_partial": {
+      "size": 3,
+      "chapter": "lunheng-11.txt",
+      "chapter_title": "骨相篇第十一",
+      "witness_snippet": "于蔡泽犹郑人相孔子不能具见形状之实也以貌取人失于子羽以言取人失于宰",
+      "quote_snippet": "中亡则失其居矣说龙致雨者不知龙之实也",
+      "raw_excerpt": {
+       "anchor_len": 3,
+       "excerpt": null
+      }
+     },
+     "apparatus_only_hit": [],
+     "full_render_exact_hits": []
+    }
+   },
+   {
+    "id": "M-WC-006",
+    "name_zh": "元气自然论",
+    "source_chapter": "《论衡·谈天》《论衡·订鬼》《论衡·论死》",
+    "key_quote_zh": "万物之生，皆禀元气。人未生在元气之中，既死复归元气。",
+    "quote_norm_len": 22,
+    "verdict": "差异",
+    "verdict_reason": "引文为跨篇章两段之拼合（《言毒篇》+《論死篇》），两段各自逐字可证、非连续原文。",
+    "disposition": {
+     "suggestion": "两段逐字可证；建议拼接处加『……』并在注/source_chapter 中补《论衡·言毒》或拆分两条。",
+     "basis": [
+      "前段逐字命中 /66 言毒篇；后段逐字命中 /62 論死篇（标点差异不计）",
+      "声明章目《论衡·谈天》《论衡·订鬼》《论衡·论死》中：论死命中后段；谈天、订鬼未见两段任何一处"
+     ],
+     "options": [
+      "加『……』+补篇目",
+      "拆为两条"
+     ]
+    },
+    "difference": {
+     "type": "拼接（跨篇两段）",
+     "detail": "前段取自 /66 言毒篇『萬物之生，皆稟元氣，元氣之中，有毒螫乎？』；后段取自 /62 論死篇『人未生，在元氣之中；既死，復歸元氣。』。两段分属两篇，引文并为一段（标点亦经移动）。"
+    },
+    "conversion_notes": [],
+    "segments": [
+     {
+      "segment": "万物之生，皆禀元气",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-66",
+        "chapter": "論衡/66",
+        "pageid": 46985,
+        "sentence": "万物之生，皆禀元气，元气之中，有毒螫乎",
+        "ctx": {
+         "pre": "不救，流遍一身；草木之中，有巴豆野葛，食之凑懑，颇多杀人。不知此物，禀何气于天？",
+         "mid": "万物之生，皆禀元气",
+         "post": "，元气之中，有毒螫乎？”\n\n　　曰：夫毒，太阳之热气也，中人人毒。人食凑懑者，其"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "人未生在元气之中，既死复归元气",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-62",
+        "chapter": "論衡/62",
+        "pageid": 46981,
+        "sentence": "人未生，在元气之中；既死，复归元气",
+        "ctx": {
+         "pre": "人之精神也。\n\n　　夫死人不能为鬼，则亦无所知矣。何以验之？以未生之时无所知也。",
+         "mid": "人未生，在元气之中；既死，复归元气",
+         "post": "。元气荒忽，人气在其中。人未生，无所知，其死，归无知之本，何能有知乎？人之所以聪"
+        }
+       }
+      ]
+     }
+    ],
+    "closest_witness": [],
+    "gap_refs": [],
+    "machine_triage": {
+     "longest_common": {
+      "size": 14,
+      "chapter": "lunheng-62.txt",
+      "chapter_title": "論死篇第六十二",
+      "ratio_of_quote": 0.636
+     },
+     "verdict": "差异",
+     "diff_ops": [
+      {
+       "op": "replace",
+       "quote_seg": "万物",
+       "witness_seg": "矣何以验",
+       "quote_pos": 0,
+       "witness_norm_pos": 1112
+      },
+      {
+       "op": "insert",
+       "quote_seg": "",
+       "witness_seg": "以未",
+       "quote_pos": 3,
+       "witness_norm_pos": 1117
+      },
+      {
+       "op": "replace",
+       "quote_seg": "皆禀元气",
+       "witness_seg": "之时无所知也",
+       "quote_pos": 4,
+       "witness_norm_pos": 1120
+      },
+      {
+       "op": "insert",
+       "quote_seg": "",
+       "witness_seg": "元气荒忽人气",
+       "quote_pos": 22,
+       "witness_norm_pos": 1140
+      }
+     ],
+     "similarity": 0.571,
+     "match_file": "lunheng-62.txt",
+     "match_chapter_title": "論死篇第六十二",
+     "context_zh_hans": {
+      "pre": "〔人〕矣。象（之）〔人〕，则知非死人之精神也。\n\n  夫死人不能为鬼，则亦无所知",
+      "mid": "矣。何以验之？以未生之时无所知也。人未生，在元气之中；既死，复归元气。元气荒忽，人气",
+      "post": "在其中。人未生，无所知，其死，归无知之本，何能有知乎？人之所以聪明智惠者，以含五"
+     },
+     "raw_excerpt": {
+      "anchor_len": 14,
+      "excerpt": "。象（之）〔人〕，則知非死人之精神也。 夫死人不能為鬼，則亦無所知矣。何以驗之？以未生之時無所知也。人未生，在元氣之中；既死，復歸元氣。元氣荒忽，人氣在其中。人未生，無所知，其死，歸無知之本，何能有知乎？人之所以聰明智惠者，以含五常之"
+     },
+     "apparatus_only_hit": [],
+     "full_render_exact_hits": []
+    }
+   },
+   {
+    "id": "M-WC-007",
+    "name_zh": "常识经验法",
+    "source_chapter": "《论衡·雷虚》《论衡·说日》《论衡·寒温》",
+    "key_quote_zh": "实说雷电为火，隆隆之声，气相激之效也——世俗以为天怒，虚妄之言也。",
+    "quote_norm_len": 27,
+    "verdict": "查无",
+    "verdict_reason": "最长连续逐字片段 7 字（「为天怒虚妄之言」，同篇公式化用语）；『隆隆之声』（4 字）『虚妄之言也』（5 字）为同篇公式化用语，非整体见证；其余分句无命中。",
+    "disposition": {
+     "suggestion": "标存疑/改写（『实说雷电为火』『气相激之效也』『世俗以为天怒』均无逐字原文）；如须逐字引文，建议替换为 /23『夫論雷之為火有五驗，言雷為天怒無一效。然則雷為天怒，虛妄之言。』",
+     "basis": [
+      "逐段核验：两个公式化片段同在 /23 但彼此不相接",
+      "『以为天怒』/23 有（『时犯杀人，以为天怒』），『世俗以为天怒』无；『气相激』全库无（近似『气相校轸分裂』）"
+     ],
+     "options": [
+      "标存疑+注记",
+      "替换为候选原文句"
+     ]
+    },
+    "difference": null,
+    "conversion_notes": [],
+    "segments": [
+     {
+      "segment": "实说雷电为火",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "隆隆之声",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "隆隆之声，天怒之音，若人之吁矣",
+        "ctx": {
+         "pre": "坏败室屋者，天取龙；其犯杀人也，谓之〔有〕阴过，饮食人以不洁净，天怒，击而杀之。",
+         "mid": "隆隆之声",
+         "post": "，天怒之音，若人之吁矣。世无愚智，莫谓不然。推人道以论之，虚妄之言也。\n\n　　夫"
+        }
+       },
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "隆隆之声，天怒之音，若人之吁矣",
+        "ctx": {
+         "pre": "坏败室屋者，天取龙；其犯杀人也，谓之〔有〕阴过，饮食人以不洁净，天怒，击而杀之。",
+         "mid": "隆隆之声",
+         "post": "，天怒之音，若人之吁矣。世无愚智，莫谓不然。推人道以论之，虚妄之言也。\n\n　　夫"
+        }
+       },
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "隆隆之声，天怒之音，若人之吁矣",
+        "ctx": {
+         "pre": "坏败室屋者，天取龙；其犯杀人也，谓之〔有〕阴过，饮食人以不洁净，天怒，击而杀之。",
+         "mid": "隆隆之声",
+         "post": "，天怒之音，若人之吁矣。世无愚智，莫谓不然。推人道以论之，虚妄之言也。\n\n　　夫"
+        }
+       },
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "隆隆之声，天怒之音，若人之吁矣",
+        "ctx": {
+         "pre": "坏败室屋者，天取龙；其犯杀人也，谓之〔有〕阴过，饮食人以不洁净，天怒，击而杀之。",
+         "mid": "隆隆之声",
+         "post": "，天怒之音，若人之吁矣。世无愚智，莫谓不然。推人道以论之，虚妄之言也。\n\n　　夫"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "气相激之效也",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "世俗以为天怒",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "虚妄之言也",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-10",
+        "chapter": "論衡/10",
+        "pageid": 44390,
+        "sentence": "”失事之实，虚妄之言也",
+        "ctx": {
+         "pre": "象耕灵陵，亦如此焉。传曰：“舜葬苍梧，象为之耕；禹葬会稽，鸟为之佃。”失事之实，",
+         "mid": "虚妄之言也",
+         "post": "。丈夫有短寿之相，娶必得早寡之妻；早寡之妻，嫁亦遇夭折之夫也。世曰：“男女早死者"
+        }
+       },
+       {
+        "file": "lunheng-15",
+        "chapter": "論衡/15",
+        "pageid": 44397,
+        "sentence": "夫如是，言圣人更禀气于天，母有感吞者，虚妄之言也",
+        "ctx": {
+         "pre": "古时虽质，礼已设制，帝王之妃，何为浴于水？夫如是，言圣人更禀气于天，母有感吞者，",
+         "mid": "虚妄之言也",
+         "post": "。\n实者，圣人自有种（世）族，（仁）如文、武各有类。孔子吹律，自知殷后；项羽重瞳"
+        }
+       },
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "推人道以论之，虚妄之言也",
+        "ctx": {
+         "pre": "怒，击而杀之。隆隆之声，天怒之音，若人之吁矣。世无愚智，莫谓不然。推人道以论之，",
+         "mid": "虚妄之言也",
+         "post": "。\n\n　　夫雷之发动，一气一声也，折木坏屋亦犯杀人，犯杀人时亦折木坏屋。独谓折木"
+        }
+       },
+       {
+        "file": "lunheng-31",
+        "chapter": "論衡/31",
+        "pageid": 45390,
+        "sentence": "案禹之《山经》、淮南之《地形》，以察邹子之书，虚妄之言也",
+        "ctx": {
+         "pre": "吴，才非圣人，事非天授，安得此言？案禹之《山经》、淮南之《地形》，以察邹子之书，",
+         "mid": "虚妄之言也",
+         "post": "。\n\n　　太史公曰：“《禹本纪》言河出昆仓，其高三千五百馀里，日月所（于）〔相〕"
+        }
+       }
+      ]
+     }
+    ],
+    "closest_witness": [
+     {
+      "label": "《论衡·雷虛篇》（/23）建议替换候选",
+      "needle": "夫论雷之为火有五验言雷为天怒无一效然则雷为天怒虚妄之言",
+      "refs": [
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "夫论雷之为火有五验，言雷为天怒无一效。然则雷为天怒，虚妄之言"
+       }
+      ]
+     },
+     {
+      "label": "《论衡·雷虛篇》（/23）近似表述",
+      "needle": "气相校轸分裂则隆隆之声校轸之音也",
+      "refs": [
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "气相校轸分裂，则隆隆之声，校轸之音也"
+       }
+      ]
+     },
+     {
+      "label": "《论衡·雷虛篇》（/23）",
+      "needle": "雷者火也",
+      "refs": [
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "雷者火也，以人中雷而死，即询其身，中头则须发烧，中身则皮肤灼，临其尸上闻火气，一验也"
+       }
+      ]
+     }
+    ],
+    "gap_refs": [],
+    "machine_triage": {
+     "longest_common": {
+      "size": 7,
+      "chapter": "lunheng-23.txt",
+      "chapter_title": "雷虛篇第二十三",
+      "ratio_of_quote": 0.259
+     },
+     "verdict": "查无",
+     "best_partial": {
+      "size": 7,
+      "chapter": "lunheng-23.txt",
+      "chapter_title": "雷虛篇第二十三",
+      "witness_snippet": "火有五验言雷为天怒无一效然则雷为天怒虚妄之言虽难曰论语云迅雷风烈必变礼记曰",
+      "quote_snippet": "为火隆隆之声气相激之效也世俗以为天怒虚妄之言也",
+      "raw_excerpt": {
+       "anchor_len": 7,
+       "excerpt": "火之耀，四驗也。當雷之擊，時或燔人室屋及地草木，五驗也。夫論雷之為火有五驗，言雷為天怒無一效。然則雷為天怒，虛妄之言。 （雖）〔難〕曰：「《論語》-{A|云}-：『迅雷風烈必變。』《禮記》曰：『有疾風迅雷甚雨則必變，"
+      }
+     },
+     "apparatus_only_hit": [],
+     "full_render_exact_hits": []
+    }
+   },
+   {
+    "id": "M-WC-008",
+    "name_zh": "文本批判法",
+    "source_chapter": "《论衡·书虚》《论衡·语增》《论衡·儒增》《论衡·艺增》",
+    "key_quote_zh": "世儒学者，好信师而是古，以为贤圣所言皆无非——虽明知其非而莫敢难者，问难之道废也。",
+    "quote_norm_len": 35,
+    "verdict": "差异",
+    "verdict_reason": "首段 19 字逐字命中（/28）；破折号后尾段全库无见证（改写）。",
+    "disposition": {
+     "suggestion": "建议以原文收尾替换改写句（『……皆无非，专精讲习，不知难问。』）；若保留概括句，加注『破折号后为概括，非原文』。",
+     "basis": [
+      "首段逐字命中 /28；尾段 16 字无命中",
+      "同篇另有『問難之道，非必對聖人及生時也』（/28），措辞不同，非尾段来源"
+     ],
+     "options": [
+      "替换尾段为原文",
+      "保留+注记"
+     ]
+    },
+    "difference": {
+     "type": "首段逐字+尾段改写",
+     "detail": "首段与 /28『世儒學者，好信師而是古，以為賢聖所言皆無非』逐字一致；尾段『虽明知其非而莫敢难者，问难之道废也』无任何命中（『莫敢难』『道废』全库无）。原文该句续文为『專精講習，不知難問』。"
+    },
+    "conversion_notes": [],
+    "segments": [
+     {
+      "segment": "世儒学者，好信师而是古，以为贤圣所言皆无非",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "世儒学者，好信师而是古，以为贤圣所言皆无非，专精讲习，不知难问",
+        "ctx": {
+         "pre": "",
+         "mid": "世儒学者，好信师而是古，以为贤圣所言皆无非",
+         "post": "，专精讲习，不知难问。夫贤圣下笔造文，用意详审，尚未可谓尽得实，况仓卒吐言，安能"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "虽明知其非而莫敢难者，问难之道废也",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     }
+    ],
+    "closest_witness": [],
+    "gap_refs": [],
+    "machine_triage": {
+     "longest_common": {
+      "size": 19,
+      "chapter": "lunheng-28.txt",
+      "chapter_title": "問孔篇第二十八",
+      "ratio_of_quote": 0.543
+     },
+     "verdict": "差异",
+     "diff_ops": [
+      {
+       "op": "replace",
+       "quote_seg": "虽明",
+       "witness_seg": "专精讲习不",
+       "quote_pos": 19,
+       "witness_norm_pos": 19
+      },
+      {
+       "op": "delete",
+       "quote_seg": "其非而莫敢",
+       "witness_seg": "",
+       "quote_pos": 22,
+       "witness_norm_pos": 25
+      },
+      {
+       "op": "delete",
+       "quote_seg": "者",
+       "witness_seg": "",
+       "quote_pos": 28,
+       "witness_norm_pos": 26
+      },
+      {
+       "op": "replace",
+       "quote_seg": "难之道废也",
+       "witness_seg": "夫贤圣下笔造文用意详审尚未可",
+       "quote_pos": 30,
+       "witness_norm_pos": 27
+      }
+     ],
+     "similarity": 0.579,
+     "match_file": "lunheng-28.txt",
+     "match_chapter_title": "問孔篇第二十八",
+     "context_zh_hans": {
+      "pre": "",
+      "mid": "世儒学者，好信师而是古，以为贤圣所言皆无非，专精讲习，不知难问。夫贤圣下笔造文，用意详审，尚未可",
+      "post": "谓尽得实，况仓卒吐言，安能皆是？不能皆是，时人不知难；或是，而意沉难见，时人不知"
+     },
+     "raw_excerpt": {
+      "anchor_len": 19,
+      "excerpt": "世儒學者，好信師而是古，以為賢聖所言皆無非，專精講習，不知難問。夫賢聖下筆造文，用意詳審，尚未可謂盡得實，況倉卒吐言，安能皆是？不能皆是，時人"
+     },
+     "apparatus_only_hit": [],
+     "full_render_exact_hits": []
+    }
+   },
+   {
+    "id": "M-WC-009",
+    "name_zh": "机械因果法",
+    "source_chapter": "《论衡·雷虚》《论衡·感虚》《论衡·顺鼓》",
+    "key_quote_zh": "夫雷之发动，一气一声也——人受气于天，不能感天，雷何为感于人而发？",
+    "quote_norm_len": 27,
+    "verdict": "差异",
+    "verdict_reason": "首段 10 字逐字命中（/23）；尾段无见证（改写）。",
+    "disposition": {
+     "suggestion": "保留首段逐字句；尾段改为见证内文或加注『概括』；如引 /23『推人道以論之，虛妄之言也』可替换尾段。",
+     "basis": [
+      "首段逐字命中 /23（紧接句『折木壞屋亦犯殺人』被引文略去）",
+      "尾段无见证；近文见 closest_witness"
+     ],
+     "options": [
+      "截取首段+注记",
+      "替换尾段为 /23 原文句"
+     ]
+    },
+    "difference": {
+     "type": "首段逐字+尾段无见证",
+     "detail": "首段与 /23『夫雷之發動，一氣一聲也』逐字一致；尾段『人受气于天……雷何为感于人而发』全库无命中（『不能感天』仅见 /02『德不能感天』、/47『何為不能感天』，语境不同；『雷何为』『人受气于天』全库无）。"
+    },
+    "conversion_notes": [],
+    "segments": [
+     {
+      "segment": "夫雷之发动，一气一声也",
+      "witness_form": null,
+      "status": "exact",
+      "witness": [
+       {
+        "file": "lunheng-23",
+        "chapter": "論衡/23",
+        "pageid": 44427,
+        "sentence": "夫雷之发动，一气一声也，折木坏屋亦犯杀人，犯杀人时亦折木坏屋",
+        "ctx": {
+         "pre": "声，天怒之音，若人之吁矣。世无愚智，莫谓不然。推人道以论之，虚妄之言也。",
+         "mid": "夫雷之发动，一气一声也",
+         "post": "，折木坏屋亦犯杀人，犯杀人时亦折木坏屋。独谓折木坏屋者，天取龙；犯杀人，罚阴过，"
+        }
+       }
+      ]
+     },
+     {
+      "segment": "人受气于天，不能感天，雷何为感于人而发",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     }
+    ],
+    "closest_witness": [],
+    "gap_refs": [],
+    "machine_triage": {
+     "longest_common": {
+      "size": 10,
+      "chapter": "lunheng-23.txt",
+      "chapter_title": "雷虛篇第二十三",
+      "ratio_of_quote": 0.37
+     },
+     "verdict": "查无",
+     "best_partial": {
+      "size": 10,
+      "chapter": "lunheng-23.txt",
+      "chapter_title": "雷虛篇第二十三",
+      "witness_snippet": "莫谓不然推人道以论之虚妄之言也夫雷之发动一气一声也折木坏屋亦犯杀人犯杀人时亦折木",
+      "quote_snippet": "夫雷之发动一气一声也人受气于天不能感天雷何为感于人",
+      "raw_excerpt": {
+       "anchor_len": 10,
+       "excerpt": "淨，天怒，擊而殺之。隆隆之聲，天怒之音，若人之吁矣。世無愚智，莫謂不然。推人道以論之，虛妄之言也。 夫雷之發動，一氣一聲也，折木坏屋亦犯殺人，犯殺人時亦折木壞屋。獨謂折木壞屋者，天取龍；犯殺人，罰陰過，與取龍吉凶不同，并時"
+      }
+     },
+     "apparatus_only_hit": [],
+     "full_render_exact_hits": []
+    }
+   },
+   {
+    "id": "M-WC-010",
+    "name_zh": "反权威立真法",
+    "source_chapter": "《论衡·问孔》《论衡·非韩》《论衡·别通》",
+    "key_quote_zh": "距师千里，背经万里——虽违孔氏之说，实未违道也。",
+    "quote_norm_len": 19,
+    "verdict": "查无",
+    "verdict_reason": "四分句全库无一逐字命中；『距师』一词语出 /28『難於距師』，全句（千里/万里、违孔氏/未违道）为现代铺演。",
+    "disposition": {
+     "suggestion": "标存疑（无可逐字见证）；如须逐字引文，建议替换为 /28『凡學問之法，不為無才，難於距師，核道實義，證定是非也。』",
+     "basis": [
+      "『距师千里』『背经万里』『违孔氏』『未违道』均无命中",
+      "近文候选：/28 距师句与『伐孔子之說』句；声明章目《非韩》（/29）《别通》（/38）检索未见相关句"
+     ],
+     "options": [
+      "标存疑+注记",
+      "替换为候选原文句"
+     ]
+    },
+    "difference": null,
+    "conversion_notes": [],
+    "segments": [
+     {
+      "segment": "距师千里",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "背经万里",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "虽违孔氏之说",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     },
+     {
+      "segment": "实未违道也",
+      "witness_form": null,
+      "status": "absent",
+      "witness": []
+     }
+    ],
+    "closest_witness": [
+     {
+      "label": "《论衡·問孔篇》（/28）建议替换候选",
+      "needle": "凡学问之法不为无才难于距师核道实义证定是非也",
+      "refs": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "凡学问之法，不为无才，难于距师，核道实义，证定是非也"
+       }
+      ]
+     },
+     {
+      "label": "《论衡·問孔篇》（/28）近句",
+      "needle": "伐孔子之说何逆于理",
+      "refs": [
+       {
+        "file": "lunheng-28",
+        "chapter": "論衡/28",
+        "pageid": 45367,
+        "sentence": "诚有传圣业之知，伐孔子之说，何逆于理"
+       }
+      ]
+     }
+    ],
+    "gap_refs": [],
+    "machine_triage": {
+     "longest_common": {
+      "size": 3,
+      "chapter": "lunheng-45.txt",
+      "chapter_title": "明雩篇第四十五",
+      "ratio_of_quote": 0.158
+     },
+     "verdict": "查无",
+     "best_partial": {
+      "size": 3,
+      "chapter": "lunheng-45.txt",
+      "chapter_title": "明雩篇第四十五",
+      "witness_snippet": "也砥石厉欲求也推春秋之义求雩祭之说实孔子之心考仲舒之意孔子既殁仲舒",
+      "quote_snippet": "距师千里背经万里虽违孔氏之说实未违道也",
+      "raw_excerpt": {
+       "anchor_len": 3,
+       "excerpt": null
+      }
+     },
+     "apparatus_only_hit": [],
+     "full_render_exact_hits": []
+    }
+   }
+  ]
+ },
+ "source_links_scheme": {
+  "book_key": "《论衡》",
+  "exists_in_source_links": false,
+  "proposed_entry": {
+   "title": "《论衡》",
+   "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1",
+   "provider": "zh.wikisource",
+   "canonical_title": "論衡",
+   "confidence": 0.9
+  },
+  "curl_evidence": [
+   {
+    "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1",
+    "status": 200
+   },
+   {
+    "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1/61",
+    "status": 200
+   },
+   {
+    "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1/23",
+    "status": 200
+   },
+   {
+    "url": "https://zh.wikisource.org/zh-cn/%E8%AB%96%E8%A1%A1/61",
+    "status": 301,
+    "note": "变体路径不可用"
+   }
+  ],
+  "resolution_chain": "《论衡·佚文》以「·」右截回落《论衡》而得 linked 状态；同名章目未见句者同样回落书级。",
+  "chapter_level_option": "可选补章节级条目，其 URL 取 /wiki/ 路径加篇号形式；插入后由 B1 复核 verify_source_links 与 source_link_index --sample 两个工具。",
+  "style_note": "样式与库内既有条目一致，其 url 一项作百分号编码；其 canonical_title 一项用繁体；其 provider 一项取 zh.wikisource；并附其 checked_at 一项。"
+ },
+ "open_items": [
+  "M-WC-002：迢/追 处置——改字为「追」并注记底本样式，或保留「迢」加注；待裁定（建议前者）。",
+  "M-WC-003/006：拼接引文——拼接处加省略号并在注中补篇目，或拆为两条；待裁定（建议前者）。",
+  "M-WC-005/007/010：查无条——标存疑并注记，或替换为候选原文句（候选原文见各条）；待裁定（建议替换或注记）。",
+  "M-WC-004：修正 source_chapter 字段——《证验》篇名不存在，该句出自《薄葬》；建议改为《论衡·薄葬》。",
+  "M-WC-001：声明章目可收窄——《对作》未见该句；建议改为仅《论衡·佚文》或保留并注记。",
+  "B1 待办——《论衡》书级条目未入库（本卡零库写，仅交方案），按本报告 scheme 插入 source_links 表。",
+  "B2 待办——负对照用例：迢/追 真实差异例与注入例；比对应采用 zh-hans-body 正文投影。"
+ ],
+ "corrections": "无（零库写）；全部修正建议见 open_items 与各条处置。",
+ "reproduce": [
+  "抓取底本：对 https://zh.wikisource.org/w/index.php?title=%%E8%%AB%%96%%E8%%A1%%A1/NN&action=raw 逐篇 GET，其中 NN 取 01 到 85，全部 sha256 清单见 witness_sha256.txt 文件。",
+  "转换：调用 https://zh.wikisource.org/w/api.php 接口，参数 action=parse 与 variant=zh-hans，全文见 witness_manifest_conversion.json 文件。",
+  "正文投影与校勘剔除规则见 witness_manifest_conversion.json 的 pipeline 与 policy 字段。",
+  "核验口径：归一化后子串定位；逐段判定逻辑见报告 md 附录。"
+ ],
+ "data_integrity": {
+  "data_dir_git_status": "M data/audit/findings.json\n M data/code_maps.json\n M data/figure_names.json\n M data/modes_data.json\n M data/scenario_tags.json\n M data/scenarios_en.json\n M data/scenarios_zh.json\n?? data/audit/phase21r8_luorq_merge_manifest.json\n?? data/audit/phase21r8_luorq_top_block_backup.json\n?? data/backup_merge_H-ZDY-001_20260922_131851/\n?? data/backup_merge_H-ZDY-001_20260922_132324/\n?? data/backup_merge_H-ZDY-001_20260922_132519/",
+  "data_dir_untouched_by_this_card": true,
+  "baseline_commit": "da073117ccef056b28596fe8ad72fe3ca391a96c",
+  "note": "本卡零库写，未改 data/ 任何文件；工作区 data/ 之现存改动来自并行卡之 phase21r8 合并与 H-ZDY-001 备份等，非本卡所改。"
+ }
+}

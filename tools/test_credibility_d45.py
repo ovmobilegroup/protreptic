@@ -103,7 +103,7 @@ def mode(**kw):
 
 
 def write_cache_fixture(root, coverage="single-page", text="子曰学而时习之不亦说乎有朋自远方来不亦乐乎",
-                        status="ok"):
+                        status="ok", link_title="《论语》", zh_cn=None, zh_cn_complete=True):
     (Path(root) / "tools").mkdir(parents=True, exist_ok=True)
     (Path(root) / "tools" / "source_text_cache.py").write_text(CACHE_SRC.read_text(encoding="utf-8"),
                                                                encoding="utf-8")
@@ -112,13 +112,20 @@ def write_cache_fixture(root, coverage="single-page", text="子曰学而时习�
     (Path(root) / "data" / "audit" / "source_texts").mkdir(parents=True, exist_ok=True)
     (Path(root) / "data" / "audit" / "source_texts" / "f.txt").write_text(text, encoding="utf-8")
     (Path(root) / "data" / "source_links.json").write_text(json.dumps(
-        {"《论语》": {"url": "https://zh.wikisource.org/wiki/論語", "source_type": "wikisource",
-                     "confidence": 0.9}}, ensure_ascii=False), encoding="utf-8")
+        {link_title: {"url": "https://zh.wikisource.org/wiki/TEST", "source_type": "wikisource",
+                      "confidence": 0.9}}, ensure_ascii=False), encoding="utf-8")
+    entry = {"key": link_title, "url": "https://zh.wikisource.org/wiki/TEST",
+             "status": status, "coverage": coverage, "chars": len(text),
+             "file": "data/audit/source_texts/f.txt", "source_type": "wikisource"}
+    if zh_cn is not None:
+        (Path(root) / "data" / "audit" / "source_texts" / "f.zh-cn.txt").write_text(zh_cn, encoding="utf-8")
+        entry["zh_cn"] = {"file": "data/audit/source_texts/f.zh-cn.txt", "variant": "zh-cn",
+                          "api": "zh.wikipedia action=parse&variant=zh-cn", "chunks": 1,
+                          "failed_chunks": 0 if zh_cn_complete else 1,
+                          "complete": zh_cn_complete}
     (Path(root) / "data" / "audit" / "source_texts.json").write_text(json.dumps({
         "schema": "protreptic.source_texts/v1",
-        "entries": [{"key": "《论语》", "url": "https://zh.wikisource.org/wiki/論語",
-                     "status": status, "coverage": coverage, "chars": len(text),
-                     "file": "data/audit/source_texts/f.txt", "source_type": "wikisource"}],
+        "entries": [entry],
     }, ensure_ascii=False), encoding="utf-8")
 
 
@@ -250,6 +257,39 @@ def main():
         k = GATE.d4_scan(mode(source_chapter="《论语·学而》", key_quote_zh="君子坦荡荡小人长戚戚"), cache_e, li)
         check("K 无缓存条目 -> unchecked 且理由明确",
               k["status"] == "unchecked" and k["reason"].startswith("cache-not-ok"), k)
+
+        # ---- U: D4 zh-cn 转换副本扩能（Phase21-W5 pilot t_f09365bb，负对照先行） ----
+        trad = "苟有不曉解之問，迢難孔子。後之學者記錄時書之於國史，其說經者多矣。"
+        conv = "苟有不晓解之问，迢难孔子。后之学者记录时书之于国史，其说经者多矣。"
+        tmp_zh = Path(tempfile.mkdtemp(prefix="d45-zhcn-"))
+        write_cache_fixture(tmp_zh, coverage="single-page", text=trad, link_title="《论衡》", zh_cn=conv)
+        cache_zh = GATE.make_cache(tmp_zh)
+        u2 = GATE.d4_scan(mode(source_chapter="《论衡·问孔》",
+                               key_quote_zh="苟有不晓解之问迢难孔子后之学者记录时书之于国史"), cache_zh, li)
+        check("U2 真实命中不被误杀：简体引文 vs zh-cn 转换副本 -> matched",
+              u2["status"] == "matched" and "zh-cn" in u2["reason"], u2)
+        u1 = GATE.d4_scan(mode(source_chapter="《论衡·问孔》",
+                               key_quote_zh="苟有不晓解之问追难孔子后之学者记录时书之于国史"), cache_zh, li)
+        check("U1 负对照①：迢/追式真实差异仍被抓（mismatch，不得借转换副本洗白）",
+              u1["status"] == "mismatch" and u1["key"] == "《论衡》", u1)
+        tmp_nozh = Path(tempfile.mkdtemp(prefix="d45-nozh-"))
+        write_cache_fixture(tmp_nozh, coverage="single-page", text=trad, link_title="《论衡》")
+        cache_nozh = GATE.make_cache(tmp_nozh)
+        u3 = GATE.d4_scan(mode(source_chapter="《论衡·问孔》",
+                               key_quote_zh="苟有不晓解之问迢难孔子后之学者记录时书之于国史"), cache_nozh, li)
+        check("U3 负对照②：无转换副本时仍走 script-mismatch 守卫（unchecked，不判不符）",
+              u3["status"] == "unchecked" and "script-mismatch" in u3["reason"], u3)
+        tmp_bad = Path(tempfile.mkdtemp(prefix="d45-badzh-"))
+        write_cache_fixture(tmp_bad, coverage="single-page", text=trad, link_title="《论衡》",
+                            zh_cn=conv, zh_cn_complete=False)
+        cache_bad = GATE.make_cache(tmp_bad)
+        u4 = GATE.d4_scan(mode(source_chapter="《论衡·问孔》",
+                               key_quote_zh="苟有不晓解之问迢难孔子后之学者记录时书之于国史"), cache_bad, li)
+        check("U4 负对照③：转换副本不完整（failed_chunks>0）-> 不采用，仍走 script-mismatch 守卫",
+              u4["status"] == "unchecked" and "script-mismatch" in u4["reason"], u4)
+        shutil.rmtree(tmp_zh, ignore_errors=True)
+        shutil.rmtree(tmp_nozh, ignore_errors=True)
+        shutil.rmtree(tmp_bad, ignore_errors=True)
 
         # ---- L: 端到端（夹具跑 gate，--data-path 指向夹具） ----
         (tmp3 / "tools").mkdir(parents=True, exist_ok=True)

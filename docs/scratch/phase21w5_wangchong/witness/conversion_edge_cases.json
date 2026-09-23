@@ -1,0 +1,94 @@
+[
+ {
+  "id": "e1_xiaokan",
+  "label": "校勘符号（迢）〔追〕",
+  "input": "苟有不曉解之問，（迢）〔追〕難孔子，何傷於義？",
+  "conv_zh_wikisource_variant_zh_hans": "苟有不晓解之问，（迢）〔追〕难孔子，何伤于义？",
+  "conv_zh_wikipedia_variant_zh_cn": "苟有不晓解之问，（迢）〔追〕难孔子，何伤于义？"
+ },
+ {
+  "id": "e2_main_quote",
+  "label": "主引文样式",
+  "input": "《論衡》篇以十數，亦一言也，曰：疾虛妄。",
+  "conv_zh_wikisource_variant_zh_hans": "《论衡》篇以十数，亦一言也，曰：疾虚妄。",
+  "conv_zh_wikipedia_variant_zh_cn": "《论衡》篇以十数，亦一言也，曰：疾虚妄。"
+ },
+ {
+  "id": "e3_variants",
+  "label": "异体字组",
+  "input": "眞·敎·説·温·內·靑·爲·線·裏·祕·峯·麪·槪",
+  "conv_zh_wikisource_variant_zh_hans": "真·教·说·温·内·青·为·线·里·秘·峰·面·概",
+  "conv_zh_wikipedia_variant_zh_cn": "真·敎·说·温·内·靑·为·线·里·秘·峯·面·概"
+ },
+ {
+  "id": "e4_punct",
+  "label": "标点组",
+  "input": "「引號」『雙引』（括號）〔校改〕《書名》〈注〉—— · … ！？：；、",
+  "conv_zh_wikisource_variant_zh_hans": "“引号”‘双引’（括号）〔校改〕《书名》〈注〉—— · … ！？：；、",
+  "conv_zh_wikipedia_variant_zh_cn": "“引号”‘双引’（括号）〔校改〕《书名》〈注〉—— · … ！？：；、"
+ },
+ {
+  "id": "e5_brackets",
+  "label": "校勘括号双例",
+  "input": "（聞）弦歌之聲 與 亦不（減）〔滅〕其經",
+  "conv_zh_wikisource_variant_zh_hans": "（闻）弦歌之声 与 亦不（减）〔灭〕其经",
+  "conv_zh_wikipedia_variant_zh_cn": "（闻）弦歌之声 与 亦不（减）〔灭〕其经"
+ },
+ {
+  "id": "e6_yun",
+  "label": "云/雲 语境敏感",
+  "input": "雲從龍，風從虎；孔子云：學而時習之。",
+  "conv_zh_wikisource_variant_zh_hans": "云从龙，风从虎；孔子云：学而时习之。",
+  "conv_zh_wikipedia_variant_zh_cn": "云从龙，风从虎；孔子云：学而时习之。"
+ },
+ {
+  "id": "e7_chou",
+  "label": "丑/醜 语境敏感",
+  "input": "美醜不分，丑時行軍。",
+  "conv_zh_wikisource_variant_zh_hans": "美丑不分，丑时行军。",
+  "conv_zh_wikipedia_variant_zh_cn": "美丑不分，丑时行军。"
+ },
+ {
+  "id": "e8_gan",
+  "label": "干/乾/幹 一简对多繁",
+  "input": "乾燥、幹事、干戈、天干。",
+  "conv_zh_wikisource_variant_zh_hans": "干燥、干事、干戈、天干。",
+  "conv_zh_wikipedia_variant_zh_cn": "干燥、干事、干戈、天干。"
+ },
+ {
+  "id": "e9_huai",
+  "label": "坏/壞 底本用字",
+  "input": "恭王坏孔子宅以為宮。",
+  "conv_zh_wikisource_variant_zh_hans": "恭王坏孔子宅以为宫。",
+  "conv_zh_wikipedia_variant_zh_cn": "恭王坏孔子宅以为宫。",
+  "retry_note": "首次请求遇 SSL EOF（代理瞬断），重试成功；已记录"
+ },
+ {
+  "id": "e10_ji",
+  "label": "跡/迹 与 於/于",
+  "input": "占跡以睹足，觀文以知情，何傷於義。",
+  "conv_zh_wikisource_variant_zh_hans": "占迹以睹足，观文以知情，何伤于义。",
+  "conv_zh_wikipedia_variant_zh_cn": "占迹以睹足，观文以知情，何伤于义。"
+ },
+ {
+  "id": "e11_rare_char_16",
+  "label": "{{!|字|形码}} 模板渲染（/16 实际）",
+  "input": "不見{{!|𧌯|⿰虫垂}}螺",
+  "conv_zh_wikisource_variant_zh_hans": "不见𧌯螺",
+  "conv_zh_wikipedia_variant_zh_cn": null
+ },
+ {
+  "id": "e12_jiao_template_34",
+  "label": "{{校|A|B}} 模板渲染（/34 实际）",
+  "input": "東海相宗叔{{校|犀|庠}}廣召幽隱",
+  "conv_zh_wikisource_variant_zh_hans": "东海相宗叔犀广召幽隐",
+  "conv_zh_wikipedia_variant_zh_cn": null
+ },
+ {
+  "id": "e13_yanshou_85",
+  "label": "{{YL|年號}} 模板渲染（/85 实际）",
+  "input": "充以{{YL|元和三年}}徙家闢詣揚州",
+  "conv_zh_wikisource_variant_zh_hans": "充以.mw-parser-output .nianhao-link a,.mw-parser-output .nianhao-link a:visited,.mw-parser-output .nianhao-link a:hover,.mw-parser-output .nianhao-link a:focus,.mw-parser-output .nianhao-link a.new{color:inherit;text-decoration:none}.mw-parser-output .nianhao-link a:hover .nianhao,.mw-parser-output .nianhao-link a:focus .nianhao{border-block-end-style:solid}元和三年徙家辟诣扬州",
+  "conv_zh_wikipedia_variant_zh_cn": null
+ }
+]

@@ -1,12 +1,12 @@
 {
   "schema": "protreptic.source_texts/v1",
   "generated_by": "tools/fetch_source_texts.py",
-  "generated_at": "2026-09-20T14:45:01+00:00",
-  "policy": "只缓存原文类链接（wikisource/gutenberg/ctext）的真实响应文本；目录页顺着子页抓并如实标 coverage（complete/partial/single-page）；抓不到或只有目录的标 index-page / fetch-failed / http-error，不伪造文本、不用二手转述补位（credibility_framework.md 第 6 节铁律 2）",
+  "generated_at": "2026-09-23T16:00:08+00:00",
+  "policy": "只缓存原文类链接（wikisource/gutenberg/ctext）的真实响应文本；目录页顺着子页抓并如实标 coverage（complete/partial/single-page）；抓不到或只有目录的标 index-page / fetch-failed / http-error，不伪造文本、不用二手转述补位（credibility_framework.md 第 6 节铁律 2）；对 coverage=complete/single-page 的抓取结果另产 zh-cn 转换副本（zh.wikipedia action=parse&contentmodel=wikitext&variant=zh-cn），转换来源、时间、分块与失败重试元数据随条目入索引（zh_cn 字段）",
   "min_chars": 800,
-  "max_subpages": 12,
+  "max_subpages": 95,
   "counts": {
-    "ok": 43,
+    "ok": 44,
     "ok-shared": 2,
     "fetch-failed": 2,
     "partial": 38,
@@ -1665,6 +1665,39 @@
       "sha256": "6fd2d41d7d5354a170c5e435551b27bc104ba11471622749bee169f317c1969b",
       "file": "data/audit/source_texts/4a0152a23f9630c6.txt",
       "truncated": false
+    },
+    {
+      "key": "《论衡》",
+      "url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1",
+      "url_fetched": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1",
+      "source_type": "wikisource",
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        85,
+        85
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 120000,
+      "bytes": 356198,
+      "sha256": "3a13c805e7a8f7beae4bdbe733511a17353a1fb48d594a1ba2b27937bf46f372",
+      "file": "data/audit/source_texts/6f2e2e4e124df80a.txt",
+      "truncated": true,
+      "zh_cn": {
+        "api": "https://zh.wikipedia.org/w/api.php",
+        "variant": "zh-cn",
+        "method": "action=parse&contentmodel=wikitext&variant=zh-cn (POST text)",
+        "chunk_chars": 8000,
+        "chunks": 15,
+        "retries": 5,
+        "failed_chunks": 0,
+        "complete": true,
+        "converted_at": "2026-09-23T16:00:08+00:00",
+        "chars": 119763,
+        "sha256": "9faa22c5171c7c2c5dcc9413d7487ac41ff0b27ab7f5662a297267ed3455f935",
+        "file": "data/audit/source_texts/6f2e2e4e124df80a.zh-cn.txt"
+      }
     },
     {
       "key": "《论语》",

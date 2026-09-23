@@ -117,6 +117,23 @@ class SourceTextCache:
         self._texts[key] = normalize(path.read_text(encoding="utf-8"))
         return self._texts[key]
 
+    def converted_text_for(self, key):
+        """取某 key 的 zh-cn 转换副本（N0 归一化后）；不可用或不完整一律返回 None
+
+        Phase21-W5 扩能：索引条目 zh_cn 元数据须 complete=True 且 failed_chunks=0
+        才可用（不完整的转换副本绝不当作全文参与比对，宁可退回 script-mismatch 守卫）
+        """
+        entry = self.entries.get(key) or {}
+        meta = entry.get("zh_cn") or {}
+        if not (meta.get("complete") and meta.get("file")):
+            return None
+        path = Path(meta["file"])
+        if not path.is_absolute():
+            path = REPO_ROOT / meta["file"]
+        if not path.is_file():
+            return None
+        return normalize(path.read_text(encoding="utf-8"))
+
     def status_of(self, key):
         entry = self.entries.get(key)
         if entry is None:

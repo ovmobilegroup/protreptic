@@ -732,7 +732,24 @@ def d4_scan(mode: dict, cache, link_index) -> dict:
         return {"status": "quote-too-short",
                 "reason": "all-fragments-shorter-than-min(%d)" % mod.MIN_FRAGMENT, "key": key}
     if result == "script-mismatch":
-        # N5 繁简守卫：缓存原文是繁体、引文是简体 —— 字面比对无意义，标不可核（不判不符）
+        # N5 繁简守卫（fallback 保留）：缓存原文是繁体、引文是简体 —— 字面比对无意义，
+        # 标不可核（不判不符）—— Phase21-W5 扩能：该 key 的缓存若带完整 zh-cn 转换副本
+        # （zh_cn.complete 且 failed_chunks=0），改用副本比对（同样 N0 归一化）：
+        #   命中   -> matched（真实命中不被误杀）
+        #   不命中 -> 如实判 mismatch（简繁差异已由转换副本排除，剩余即真实文字差异，
+        #             如底本「迢」/ 校改「追」一类，不得借转换副本洗白）
+        # 副本缺失或不完整 -> 仍走 script-mismatch 守卫（绝不拿不完整的转换当全文用）
+        conv = cache.converted_text_for(key)
+        if conv is not None:
+            result2, detail2 = mod.check_quote(quote, conv)
+            if result2 == "matched":
+                return {"status": "matched", "reason": "substring-found(zh-cn converted copy)",
+                        "key": key, "detail": detail2}
+            if result2 == "mismatch":
+                return {"status": "mismatch", "reason": "substring-not-found(zh-cn converted copy)",
+                        "key": key, "detail": detail2}
+            return {"status": "quote-too-short",
+                    "reason": "all-fragments-shorter-than-min(%d)" % mod.MIN_FRAGMENT, "key": key}
         return {"status": "unchecked",
                 "reason": "script-mismatch(原文繁体 vs 引文简体: 字面比对无意义)", "key": key}
     return {"status": "mismatch", "reason": "substring-not-found", "key": key, "detail": detail}

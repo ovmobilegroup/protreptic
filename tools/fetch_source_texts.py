@@ -40,6 +40,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -56,6 +57,14 @@ MIN_CHARS = 800
 MAX_BYTES_DEFAULT = 500_000
 DEFAULT_MAX_CHARS = 120000
 DEFAULT_MAX_SUBPAGES = 12
+
+# Phase21-W5 pilot: 繁简双轨缓存（raw + zh-cn 转换副本）
+CONVERT_API = "https://zh.wikipedia.org/w/api.php"
+CONVERT_VARIANT = "zh-cn"
+CONVERT_CHUNK_CHARS = 8000
+CONVERT_RETRIES = 5
+CONVERT_BACKOFF_SECONDS = 2
+CONVERT_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 
 
 class _Strip(HTMLParser):
@@ -135,6 +144,63 @@ def curl(url, timeout):
         return int(code.strip() or b"0"), body
     except ValueError:
         return 0, body
+
+
+def convert_to_zh_cn(text, timeout):
+    """繁 -> 简转换，走 zh.wikipedia action=parse&contentmodel=wikitext&variant=zh-cn 接口。
+
+    Phase21-W5 pilot 扩能：分块 POST（CONVERT_CHUNK_CHARS），单块失败重试 CONVERT_RETRIES 次；
+    重试仍失败的块保留繁体原文（不静默丢块、不伪造转换），并在元数据里如实记录失败块数；
+    D4 对 failed_chunks>0（complete=False）的转换副本不予采用——
+    宁可退回 script-mismatch 守卫，也不拿不完整的转换当全文比对。
+    返回 (converted_text, meta)。
+    """
+    chunks = [text[i:i + CONVERT_CHUNK_CHARS] for i in range(0, len(text), CONVERT_CHUNK_CHARS)] or [""]
+    parts = []
+    failed = 0
+    for ch in chunks:
+        ok = False
+        for attempt in range(CONVERT_RETRIES):
+            if attempt:
+                time.sleep(CONVERT_BACKOFF_SECONDS * attempt)
+            try:
+                r = subprocess.run(
+                    ["curl", "-s", "--max-time", str(timeout), "-A", CONVERT_UA,
+                     "--data-urlencode", "text@-", "-w", "\n%{http_code}",
+                     CONVERT_API + "?action=parse&contentmodel=wikitext&variant=" + CONVERT_VARIANT + "&format=json&formatversion=2&prop=text"],
+                    input=ch.encode("utf-8"), capture_output=True, timeout=timeout + 10)
+            except Exception:
+                continue
+            out = r.stdout or b""
+            if b"\n" not in out:
+                continue
+            body, _, code = out.rpartition(b"\n")
+            try:
+                if int(code.strip() or b"0") != 200:
+                    continue
+            except ValueError:
+                time.sleep(CONVERT_BACKOFF_SECONDS)
+                continue
+            try:
+                doc = json.loads(body.decode("utf-8", "replace"))
+                html = re.sub(r"<!--.*?-->", "", doc["parse"]["text"], flags=re.S)
+                sp = _Strip()
+                sp.feed(html)
+                parts.append("".join(sp.parts))
+                ok = True
+                break
+            except Exception:
+                continue
+        if not ok:
+            failed += 1
+            parts.append(ch)
+    meta = {"api": CONVERT_API, "variant": CONVERT_VARIANT,
+            "method": "action=parse&contentmodel=wikitext&variant=zh-cn (POST text)",
+            "chunk_chars": CONVERT_CHUNK_CHARS, "chunks": len(chunks),
+            "retries": CONVERT_RETRIES, "failed_chunks": failed,
+            "complete": failed == 0,
+            "converted_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+    return "".join(parts), meta
 
 
 LINK_RE = re.compile(r"\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]")
@@ -312,6 +378,7 @@ def main():
     entries = []
     counts = {}
     by_url = {}
+    by_url_zh = {}
     for key, info in targets:
         prev = old.get(key)
         if prev and prev.get("status") == "ok" and not args.force:
@@ -332,6 +399,23 @@ def main():
         elif text:
             (REPO_ROOT / file_rel).write_text(text, encoding="utf-8")
             by_url[r["url_fetched"]] = file_rel
+        zh_cn_meta = None
+        if text and r["status"] in ("ok", "ok-shared") \
+                and r.get("coverage") in ("single-page", "complete"):
+            conv_text, conv_meta = convert_to_zh_cn(text, args.timeout)
+            zrel = "data/audit/source_texts/%s.zh-cn.txt" % slug(key)
+            if r["url_fetched"] in by_url_zh:
+                zrel = by_url_zh[r["url_fetched"]]
+            else:
+                (REPO_ROOT / zrel).write_text(conv_text, encoding="utf-8")
+                by_url_zh[r["url_fetched"]] = zrel
+            conv_meta.update({"chars": len(conv_text),
+                              "sha256": hashlib.sha256(conv_text.encode("utf-8")).hexdigest(),
+                              "file": zrel})
+            zh_cn_meta = conv_meta
+            print("  [zh-cn] %s chunks=%s failed=%s complete=%s" %
+                  (key[:40], conv_meta["chunks"], conv_meta["failed_chunks"],
+                   conv_meta["complete"]))
         entry = {
             "key": key,
             "url": (info.get("url") or "").strip(),
@@ -347,6 +431,7 @@ def main():
             "sha256": hashlib.sha256(text.encode("utf-8")).hexdigest() if text else None,
             "file": file_rel if text else None,
             "truncated": truncated,
+            "zh_cn": zh_cn_meta,
         }
         entries.append(entry)
         counts[r["status"]] = counts.get(r["status"], 0) + 1
@@ -361,7 +446,10 @@ def main():
         "policy": ("只缓存原文类链接（wikisource/gutenberg/ctext）的真实响应文本；"
                    "目录页顺着子页抓并如实标 coverage（complete/partial/single-page）；"
                    "抓不到或只有目录的标 index-page / fetch-failed / http-error，"
-                   "不伪造文本、不用二手转述补位（credibility_framework.md 第 6 节铁律 2）"),
+                   "不伪造文本、不用二手转述补位（credibility_framework.md 第 6 节铁律 2）；"
+                   "对 coverage=complete/single-page 的抓取结果另产 zh-cn 转换副本"
+                   "（zh.wikipedia action=parse&contentmodel=wikitext&variant=zh-cn），"
+                   "转换来源、时间、分块与失败重试元数据随条目入索引（zh_cn 字段）"),
         "min_chars": MIN_CHARS,
         "max_subpages": args.max_subpages,
         "counts": counts,
