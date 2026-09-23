@@ -2,7 +2,7 @@
  "card": "t_33240de8",
  "title": "Phase21 W4 补正·R2 zh 扩展位落盘",
  "generated_at": "2026-09-24T07:11:16",
- "version": "v2 (v1 回执已补记; v2 自身回执见 v3)",
+ "version": "v3 (回执终版; v3 自身 commit/push 见卡 metadata)",
  "basis": "manifest §八-1 待复核第 1 项 (船长裁定: 采纳执行); 卡 t_33240de8",
  "upstream": "t_ee203180 (done)",
  "downstream": [
@@ -442,7 +442,15 @@
     "note": "R-a 他链文档 6 件 (同上游登记), rc=1 已知"
    }
   },
-  "v2_note": "见 v3 终版"
+  "v2": {
+   "ws_commit": "489b72c3852c6c558d8568c28fe1e4ca0a214fb6",
+   "pb_commit": "8e4d3e676038a3f1888daaf8fd80d859e0d6e611",
+   "push": "0517b38..8e4d3e6 main -> main",
+   "remote_main": "8e4d3e676038a3f1888daaf8fd80d859e0d6e611",
+   "raw_ok": 4,
+   "raw_at": "8e4d3e6"
+  },
+  "final": "v3; v3 自身 commit/push/raw 见卡 t_33240de8 metadata"
  },
  "reports": {
   "md": "docs/research/phase21w4_fix2_report.md",

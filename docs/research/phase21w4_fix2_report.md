@@ -102,7 +102,7 @@
 - 远端 raw 抽验 (4 件 @0517b38): fix2_report.md 037583f8 / scenarios_zh.json 8b218e71 / fix2_report.json ebce64fe / verify_w4fix2_lxn.py 6c22a82a — 逐字节 OK
 - 见证器全量 (镜像后): 26/26 PASS (E1 镜像面 1383+2765 全等; E2 镜像集 byte-exact)
 - parity (镜像后): 共同件 2395 全逐字节一致; content_diff 0 / only_publish 0; missing_in_publish 6 = R-a 他链文档 (recon x2 / manifest x2 / marker_scan x2; 同 t_536073f4 / t_ee203180 登记口径, rc=1 已知)
-- v2 自身回执 (commit/push/raw): 见 v3 终版
+- 回执终版 (v3): v2 工作仓 489b72c3 / 镜像 8e4d3e6 / push 0517b38..8e4d3e6 / remote main = 8e4d3e676038a3f1888daaf8fd80d859e0d6e611 / raw 4/4 OK @8e4d3e6 (md 7fffaaf9 / json e07c91b8 / scenarios_zh 8b218e71 / verify 6c22a82a); v3 自身 commit/push 见卡 t_33240de8 metadata
 
 ## 八, QA 复跑指引
 
