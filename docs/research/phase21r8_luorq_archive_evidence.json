@@ -1,0 +1,154 @@
+{
+  "card": "t_d9cb98bb",
+  "worker": "pigafetta",
+  "phase": "Phase21-R8 LUORQ doc archive",
+  "generated_at": "2026-09-24 01:16:04 ",
+  "deliverables": {
+    "page": {
+      "path": "docs/figures/H-LUORQ-001.md",
+      "sha256": "7211a8637a622c14f5dd6189f799f31ecc2f602e50b8e5b953245584b52e8815",
+      "bytes": 64098,
+      "lines": 425
+    },
+    "generator": {
+      "path": "build_luorq_r8_archive.py",
+      "sha256": "fb80624dc46521649194e0958347ae8aa1e98986cc8650a527b7c05b5ed4af9e"
+    },
+    "verifier": {
+      "path": "verify_luorq_r8_archive.py",
+      "sha256": "a56895c9ae33024e5a4b7c83f57ef6ee7bfd9e6535a049f4ed1aefb3b596127a"
+    },
+    "report": {
+      "path": "docs/research/phase21r8_luorq_archive_report.md",
+      "sha256": "16531db266a13b23070c5ec1455a90109a116333e7dbe09eca4aa8731acdb358"
+    },
+    "evidence": {
+      "path": "docs/research/phase21r8_luorq_archive_evidence.json"
+    }
+  },
+  "sources_sha256": {
+    "data/figures/H-LUORQ-001.json": "d609b968a8d324eacb2a52ae6f9b03cba512d644ef6c4ae4ab167961b5056640",
+    "data/individuals/H-LUORQ-001.json": "91efb1b79a672bef9196d04e926c8ee3c2f9154b895e84f74534165f85d9c73f",
+    "data/individuals/H-LUORQ-001_modes.json": "a75decd03f71d7447c9a220d06b6a71fa379942200615b176cb01e17b68f3e8f",
+    "data/modes_data.json": "2d3eb9eaf41bc95e7870bae98ced5eeee46ff216272d6dfa444c5441c0a6a964",
+    "data/scenarios_zh.json": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+    "data/scenarios_en.json": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+    "data/code_maps.json": "53154b9ddd5e2e3f4ae0bbde746d4ce6ffc41c4f7bd91ce7c9fa047ae4999d83",
+    "data/figure_names.json": "69f531fd0153fd3b762ca9641657121552a792ae420d6ba98016b209a7ddf3fd",
+    "data/scenario_tags.json": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+    "docs/scratch/legacy20_r8_luorq_landing/combined_library_entries.json": "4b3498e3a6362e03a12e64a93516032bdeaf2d5866d585535d6a0bb56d3ad4c8",
+    "data/figures/_duplicates/H-LUORQ-001_archive_page.md": "3fa3aa3fa375d63d7b93f554f4f61b71aa784f7dec142ab8a1a6ee445f5112f2"
+  },
+  "guards": {
+    "modes_count": 10,
+    "fig_modes_eq_companion": true,
+    "landing_eq_payload": true,
+    "fig_eq_individuals_minus_modes": true,
+    "all_pending": true,
+    "legacy_ids": [
+      "M351",
+      "M352",
+      "M353",
+      "M354",
+      "M355",
+      "M356",
+      "M357",
+      "M358",
+      "M359",
+      "M360"
+    ]
+  },
+  "ledger": {
+    "modes": 3291,
+    "total": 3271,
+    "code_maps": 214,
+    "scenarios_zh": 2203,
+    "scenarios_en": 2203,
+    "scenario_tags": 7518,
+    "figure_names": 1083,
+    "luorq_scenarios_zh": 10,
+    "luorq_scenarios_en": 10,
+    "luorq_tags": 20
+  },
+  "bans": {
+    "list_size": 7,
+    "hits": []
+  },
+  "verify": {
+    "run_line": "CHECKS=418 PASS=418 FAIL=0",
+    "rc": 0,
+    "inject_line": "INJECT: caught 15 / 15 (no-op 记 0)",
+    "inject_rc": 0
+  },
+  "qa_reference": {
+    "card": "t_8773cb6b",
+    "tallies": "103 PASS / 12 FAIL / 17 INFO",
+    "evidence": "docs/qa/phase21r8_luorq_qa_evidence/result.txt"
+  },
+  "chain": [
+    {
+      "seg": "R6C isolation",
+      "card": "t_4a9cf2cb",
+      "commit": "7b767f39"
+    },
+    {
+      "seg": "R7 naming",
+      "card": "t_261185a8",
+      "commit": "8132b121"
+    },
+    {
+      "seg": "R8 sourcing B1",
+      "card": "t_ee82fbc3",
+      "commit": "bundled in 21edc5f8"
+    },
+    {
+      "seg": "R8 landing",
+      "card": "t_bf2d9b82",
+      "commit": "21edc5f8",
+      "receipts": [
+        "da073117",
+        "8725ddff"
+      ]
+    },
+    {
+      "seg": "R8 merge",
+      "card": "t_08bbb73d",
+      "commit": "uncommitted (closing card t_2d15bd2e)"
+    },
+    {
+      "seg": "R8 QA",
+      "card": "t_8773cb6b",
+      "commit": "uncommitted"
+    },
+    {
+      "seg": "R8 archive",
+      "card": "t_d9cb98bb",
+      "commit": "this card"
+    }
+  ],
+  "parity": {
+    "run1_before_page": {
+      "diffs": 347,
+      "only_workspace": 330,
+      "content_diff": 17,
+      "both_sides": 1854,
+      "identical": 1837
+    },
+    "run2_after_page": {
+      "diffs": 316,
+      "only_workspace": 308,
+      "content_diff": 8,
+      "both_sides": 1880,
+      "identical": 1872
+    },
+    "run3_after_mirror": null
+  },
+  "receipts": {
+    "workspace_commit": null,
+    "workspace_commit_v2": null,
+    "publish_commit": null,
+    "publish_commit_v2": null,
+    "push": null,
+    "remote_main": null
+  }
+}
