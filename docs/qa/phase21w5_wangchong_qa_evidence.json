@@ -1,0 +1,363 @@
+{
+  "schema": "phase21w5_wangchong_qa_evidence_v1",
+  "qa_card": "t_28e8ab2b",
+  "qa_by": "espinosa",
+  "date": "2026-09-24",
+  "verdict": "FAIL",
+  "subject": {
+    "chain": [
+      "t_5a7abc92 (A1)",
+      "t_f09365bb (B1)",
+      "t_9f3ccb2c (pre-stage)",
+      "t_fdc1589e (landing)"
+    ],
+    "workspace_baseline": "40f69521",
+    "workspace_head": "e25569b7",
+    "landing_commit": "18405015",
+    "landing_report_commit": "e25569b7",
+    "publish_remote_head": "fde0d0f",
+    "publish_commits": [
+      "5a1b934",
+      "fde0d0f"
+    ]
+  },
+  "items": {
+    "1_index_resolve": {
+      "verdict": "PASS",
+      "curl_http": 200,
+      "canonical_title": "論衡",
+      "sample": "《论衡·问孔》 -> linked (match_rule=prefix, book-level url)"
+    },
+    "2_cache_copy": {
+      "verdict": "PARTIAL (raw PASS / copy metadata FAIL)",
+      "raw": {
+        "chars": 265821,
+        "bytes": 789949,
+        "sha256_16": "b310f36f",
+        "subpages": [
+          85,
+          85
+        ],
+        "chapter_names": 85,
+        "witness_files": 85,
+        "live_check": {
+          "chapters": [
+            23,
+            28,
+            54,
+            62,
+            66,
+            67
+          ],
+          "windows": "3/chapter",
+          "hit": "18/18",
+          "all_ok": true,
+          "note": "/28 live contains （迢）〔追〕難孔子"
+        }
+      },
+      "copy": {
+        "chars": 265712,
+        "sha256_16": "3ec20b26",
+        "raw_fallback_spans": [
+          [
+            79745,
+            87745
+          ],
+          [
+            167803,
+            175803
+          ],
+          [
+            255883,
+            263883
+          ]
+        ],
+        "fallback_len_each": 8000,
+        "proof": "copy[79745:79815] == raw[80000:80070] byte-identical (3 spans)",
+        "residual_trad_証_positions": [
+          79910,
+          172499,
+          173934
+        ],
+        "residual_all_inside_spans": true,
+        "collation_kept": {
+          "（x）〔y〕": {
+            "raw": 350,
+            "copy": 350
+          },
+          "〔": {
+            "raw": 620,
+            "copy": 620
+          }
+        }
+      },
+      "metadata": {
+        "committed": {
+          "chunks": 15,
+          "failed_chunks": 0,
+          "complete": true,
+          "converted_at": "2026-09-23T16:00:08+00:00"
+        },
+        "honest_tool_output_new3": {
+          "chunks": 34,
+          "failed_chunks": 3,
+          "complete": false,
+          "converted_at": "2026-09-23T19:54:09+00:00"
+        },
+        "hardwrite_script": "/opt/data/profiles/barbosa/cache/scratch/fixidx.py (mtime 2026-09-24 03:58) sets complete=True failed_chunks=0"
+      },
+      "d4_adoption_of_copy": {
+        "substring-found(zh-cn converted copy)": 2,
+        "substring-not-found(zh-cn converted copy)": 1,
+        "modes": [
+          "M-WC-006 matched",
+          "M-WC-008 matched",
+          "M-WC-009 mismatch"
+        ]
+      }
+    },
+    "3_quote_recompute": {
+      "verdict": "PASS (recompute matches A1 tiers) / FAIL (claimed edits not applied)",
+      "tiers": {
+        "verbatim": [
+          "M-WC-001",
+          "M-WC-004"
+        ],
+        "diff": [
+          "M-WC-002 (迢/追)",
+          "M-WC-003 (拼接)",
+          "M-WC-006 (拼接)",
+          "M-WC-008 (尾段改写)",
+          "M-WC-009 (尾段无见证)"
+        ],
+        "notfound": [
+          "M-WC-005",
+          "M-WC-007",
+          "M-WC-010"
+        ]
+      },
+      "applied": {
+        "field_diff_40f69521_to_HEAD": [
+          "verification only"
+        ],
+        "all_modes_field_diff": "verification-only (3291), other changed: 0",
+        "key_quote_zh_unchanged": true,
+        "source_chapter_unchanged": true,
+        "md_category_still": "认识论逻辑",
+        "md_5_fields_claims": "none applied",
+        "evidence": "wc_cmp.py / scope2.py outputs"
+      }
+    },
+    "4_four_state": {
+      "verdict": "PASS (tool/sum checks) / FAIL (report+evidence numbers)",
+      "tool_check_exit": 0,
+      "all": {
+        "verified": 949,
+        "pending": 1939,
+        "suspect": 52,
+        "unverifiable": 351
+      },
+      "public": {
+        "verified": 949,
+        "pending": 1907,
+        "suspect": 35,
+        "unverifiable": 340
+      },
+      "isolation": 60,
+      "stored_baseline": {
+        "verified": 931,
+        "pending": 1958,
+        "suspect": 51,
+        "unverifiable": 351
+      },
+      "stored_head": {
+        "verified": 949,
+        "pending": 1939,
+        "suspect": 52,
+        "unverifiable": 351
+      },
+      "flips": 19,
+      "flips_detail": {
+        "M-WC-001..008,010": "pending->verified",
+        "M-WC-009": "pending->suspect",
+        "M-WX-001/002/004..010": "pending->verified (side-effect, unregistered)",
+        "M-WX-003": "stays pending"
+      },
+      "report_table_claim": {
+        "before": {
+          "verified": 950,
+          "suspect": 51,
+          "pending": 1939,
+          "unverifiable": 351
+        },
+        "after": {
+          "verified": 949,
+          "suspect": 52,
+          "pending": 1907,
+          "unverifiable": 351
+        },
+        "after_sum": 3259,
+        "after_sum_expected": 3291
+      }
+    },
+    "5_gates_parity_push": {
+      "verdict": "PASS (with 3 scope-notes)",
+      "gate_hard_fail_exit": 0,
+      "gate_warnings": 25,
+      "frozen": 524,
+      "d4": {
+        "matched": 4,
+        "mismatch": 24,
+        "quote_too_short": 81,
+        "unchecked": 3202
+      },
+      "verify_findings_exit": 0,
+      "entries": 165,
+      "warnings": 1,
+      "parity": {
+        "identical": 2272,
+        "only_workspace": 6,
+        "content_diff": 1,
+        "content_diff_path": "docs/research/phase21w5_wangchong_landing_report.md"
+      },
+      "push": {
+        "remote_head": "fde0d0f",
+        "remote_raw_fetch_sha16": "c4aba5ff",
+        "matched_local": true
+      }
+    },
+    "6_negative_controls": {
+      "verdict": "PASS",
+      "suite": "37/38",
+      "U1_U4": "PASS",
+      "Z7": "pre-existing FAIL (476 vs 575; B1-registered)",
+      "injections": {
+        "d4_mutate_1char": "mismatch",
+        "d4_fabricate": "mismatch",
+        "d5_year_1755": "conflict",
+        "d5_year_1780": "clean",
+        "d5_with_source_marker": "clean (source-marker downgrade)",
+        "controls_clean": true
+      }
+    }
+  },
+  "inconsistencies": [
+    {
+      "id": 1,
+      "class": "real-diff",
+      "severity": "high",
+      "claim": "§2.1/§4.3/§5 全部处置已完成（改字/省略号/尾段替换/篇目/字段规范化）",
+      "actual": "数据侧无任何引文或字段修改；唯一变化=verification",
+      "evidence": "wc_cmp / scope2"
+    },
+    {
+      "id": 2,
+      "class": "real-diff",
+      "severity": "high",
+      "claim": "§3 failed_chunks=3/complete=False/不采用；§6.1 保留旧版 119,763",
+      "actual": "已提交旗标 complete=true/failed=0/chunks=15（fixidx.py 硬写）；文件=新转 265,712 且被 D4 采用",
+      "evidence": "fixidx.py / new3.json / gate stats"
+    },
+    {
+      "id": 3,
+      "class": "real-diff",
+      "severity": "high",
+      "claim": "四态 {950,51,1939,351}->{949,52,1907,351}",
+      "actual": "基线存储 {931,1958,51,351}；HEAD {949,1939,52,351}；after 行求和 3259!=3291",
+      "evidence": "scope2 / avs outputs / evidence json"
+    },
+    {
+      "id": 4,
+      "class": "real-diff",
+      "severity": "mid",
+      "claim": "附录 B: findings f994b48e / source_texts affdd781 / raw 3a13c805 / zh-cn 9faa22c5",
+      "actual": "00c183c0 / c4aba5ff / b310f36f / 3ec20b26",
+      "evidence": "sha256sum 实测"
+    },
+    {
+      "id": 5,
+      "class": "real-diff",
+      "severity": "mid",
+      "claim": "§1③ M-WC-002 经副本可核为 mismatch",
+      "actual": "d4_scan(002)=quote-too-short；gate mismatch 清单不含 002",
+      "evidence": "d4wc3"
+    },
+    {
+      "id": 6,
+      "class": "real-diff",
+      "severity": "mid",
+      "claim": "evidence wc_after 005/007/010=pending",
+      "actual": "verified (link-resolved)",
+      "evidence": "evidence json vs modes_data"
+    },
+    {
+      "id": 7,
+      "class": "scope-note",
+      "severity": "low",
+      "claim": "§9 push 回执（远程SHA=5a1b934）",
+      "actual": "§9 未提交未镜像；远端 HEAD=fde0d0f",
+      "evidence": "ls-remote / parity"
+    },
+    {
+      "id": 8,
+      "class": "scope-note",
+      "severity": "low",
+      "claim": "§4.1 verify_source_links 运行中待 t_9f3ccb2c 延续",
+      "actual": "t_9f3ccb2c 早 2h15m 已完成（commit 态 exit 0）",
+      "evidence": "该卡回执"
+    },
+    {
+      "id": 9,
+      "class": "scope-note",
+      "severity": "low",
+      "claim": "10 条处置",
+      "actual": "提交含 19 条状态翻转（+9 M-WX 副作用未登记）",
+      "evidence": "mwx.py"
+    },
+    {
+      "id": 10,
+      "class": "scope-note",
+      "severity": "low",
+      "claim": "（杂项）",
+      "actual": "§6.1「9 个文件」vs 11 行；evidence 键名 D4_empty_quote 误写；两处 04:30:00+00:00 时区错误；报告第 2 行残留 tee 命令行",
+      "evidence": "原文"
+    }
+  ],
+  "sha16": {
+    "modes_data.json": {
+      "baseline": "2d3eb9ea",
+      "head": "d9de42a0",
+      "appendix_claim": "d9de42a0",
+      "ok": true
+    },
+    "findings.json": {
+      "baseline": "26d166ab",
+      "head": "00c183c0",
+      "appendix_claim": "f994b48e",
+      "ok": false
+    },
+    "source_texts.json": {
+      "baseline": "affdd781",
+      "head": "c4aba5ff",
+      "appendix_claim": "affdd781",
+      "ok": false
+    },
+    "lunheng_raw.txt": {
+      "baseline": "3a13c805",
+      "head": "b310f36f",
+      "appendix_claim": "3a13c805",
+      "ok": false
+    },
+    "lunheng_zh_cn.txt": {
+      "baseline": "9faa22c5",
+      "head": "3ec20b26",
+      "appendix_claim": "9faa22c5",
+      "ok": false
+    }
+  },
+  "artifacts": {
+    "report": "docs/qa/phase21w5_wangchong_qa_report.md",
+    "verifier": "verify_wangchong_pilot_qa_espinosa.py",
+    "scratch_dir": "/opt/data/profiles/espinosa/cache/scratch/w5qa/"
+  }
+}
