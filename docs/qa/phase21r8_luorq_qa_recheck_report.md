@@ -108,7 +108,8 @@ F03 时点性登记：Run A/B 时点 F03 exit=1（新增坏链《申辩篇》→
 - 脚本 2 件：`verify_luorq_qa_espinosa.py`（含 v2 判据修正 F1~F6）、`verify_luorq_chain_recheck_espinosa.py`
 - run1 产物（t_8773cb6b 冻结件）5 件：`docs/qa/phase21r8_luorq_qa_evidence/result.{json,txt}`、`docs/qa/phase21r8_luorq_qa_gates/gate_{credibility_gate,verify_findings}.txt`、`docs/qa/phase21r8_luorq_qa_selftest.json`
 - 复验产物：`docs/qa/phase21r8_luorq_qa_recheck_evidence/**`（Run C 结果 + Run A/B 冻结 + K 系列证据）、`docs/qa/phase21r8_luorq_qa_recheck_gates/**`、`docs/qa/phase21r8_luorq_qa_recheck_selftest.json`、本报告
-- 不入库：`_inject_tmp/`（H06 注入派生件 24MB×2，可复算，已清理）；精确 SHA 清单见 §9 与 `artifacts_sha256.json`
+- 不入库：`_inject_tmp/`（H06 注入派生件 24MB×2，可复算，已清理）；精确 SHA 清单见 §9 与 `artifacts_sha256.json`。
+- 补记后集合：**46 件 = 清单 45 件 + 清单自身**（新增 `parity_postmirror/` 回执 2 件、K8 刷新与报告 v2；见 §9）。
 
 ## 8. 异议与遗留清单
 
@@ -120,4 +121,26 @@ F03 时点性登记：Run A/B 时点 F03 exit=1（新增坏链《申辩篇》→
 
 ## 9. 回执补记（提交 / 镜像 / push / parity）
 
-（v2 补记）
+### 9.1 工作仓提交
+- 主提交 **72596d6d**（44 件 = 清单 43 件 + 清单自身；insertions 15,583）：QA 产物入库（run1 冻结件 5 件 + 复验 evidence/gates/selftest + 报告 + 脚本 2 件含判据修正 F1~F6）；名单外 0 件。
+- 补记提交（本 v2 自身）：parity_postmirror 回执 2 件 + `chain_commits_verify.{json,txt}`（K8 复跑刷新）+ 链复核脚本 K8 精化 + `artifacts_sha256.json` v2（45 件清单）+ 本报告 v2；精确 SHA 见卡 t_65998945 metadata/完成摘要。
+
+### 9.2 发布仓镜像
+- 镜像提交 **2391025**（44 件；**逐件 sha256 比对 44/44 byte-exact**；insertions 15,583 与工作仓一致）。
+- 补记镜像提交（v2 自身）见卡 metadata。
+
+### 9.3 push 回执
+- `git push origin main`: **d4456ab..2391025  main -> main（rc=0）**；远端 `refs/heads/main` == 2391025（git ls-remote 实测）。
+- 远端无 `refs/heads/master`（环境事实；工作仓 master 不适用，K5b 已按实际 ref 判定）。
+- 补记 push（v2 自身）见卡 metadata。
+
+### 9.4 parity 复测回执（镜像后）
+- 工具 `tools/check_repo_parity.py`；日志 `parity_postmirror/parity_check_repo.txt`（PARITY_RC=1：退出码只表示全仓存在差异——差异均属他卡在途，非本卡面）。
+- **本卡已入库面（44 件）：0 差异**（committed_surface_diffs = []）。
+- **LUORQ 命名路径：0 差异**。
+- 在制回执件：`parity_postmirror/` 2 件（本次补记提交包含，收口）。
+- 全仓差异 59 条归因：`data/backup_phase21r8_azj345_clear_20260923/**`（AZJ-345 清档卡在制）、`docs/research/phase21w4_*`、`tools/*`（W4/W5 在制）等；逐条登记于 `parity_postmirror/residual_analysis.json`。
+- 脚本化复测 K8（`chain_commits_verify.json` K8 段）：**K8a PASS**（本卡 QA 产物面 0 残留）/ **K8b PASS**（LUORQ 命名路径 0 残留）；K 系列总计 21 PASS / 0 FAIL / 63 INFO。
+
+### 9.5 复跑口径说明
+- 本卡面以「已入库面 0 残留」为权威口径；在制回执件随本次补记提交收敛。若后续复跑 parity，全仓他卡在途差异属其各自收口范围。

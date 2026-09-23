@@ -1,11 +1,11 @@
 {
   "card": "t_65998945",
   "script": "verify_luorq_chain_recheck_espinosa.py",
-  "ts": "2026-09-24 01:29:55",
+  "ts": "2026-09-24 01:57:18",
   "state": {
-    "workspace_head": "e8b5c12eca218e43cb223c0e6e37b93a17e59310",
-    "publish_head": "04837b31867017fdde4f8a615c021f716f068cbf",
-    "ws_porcelain": 24,
+    "workspace_head": "72596d6d5d9db59d81ea99181ff0e3982573ec4a",
+    "publish_head": "2391025ebd0e6c66993e3c0be47d52464cdae9c4",
+    "ws_porcelain": 42,
     "pub_porcelain": 0
   },
   "pairs": {
@@ -57,10 +57,10 @@
     }
   },
   "push": {
-    "remote_main": "04837b31867017fdde4f8a615c021f716f068cbf",
+    "remote_main": "2391025ebd0e6c66993e3c0be47d52464cdae9c4",
     "remote_refs": [
-      "04837b31867017fdde4f8a615c021f716f068cbf\tHEAD",
-      "04837b31867017fdde4f8a615c021f716f068cbf\trefs/heads/main"
+      "2391025ebd0e6c66993e3c0be47d52464cdae9c4\tHEAD",
+      "2391025ebd0e6c66993e3c0be47d52464cdae9c4\trefs/heads/main"
     ]
   },
   "zero_data_change": {
@@ -75,7 +75,300 @@
     "bytes": 64447,
     "lines": 426
   },
-  "pass": 19,
+  "parity": {
+    "exit": 1,
+    "diffs": 59,
+    "mine": [],
+    "luorq_named": [],
+    "others": [
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/MANIFEST.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/MANIFEST.sha256",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/README.md",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/api/data/scenarios_en.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/docs/architecture/static_data_manifest.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/docs/architecture/web_p0_routes.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/docs/historical_figures_thinking_modes_library.md",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/docs/research/batch_new_figures_research.md",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/docs/research/candidates_v4_research.legacy.md",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/docs_site/docs/historical_figures_thinking_modes_library.md",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/docs_site/docs/scenario_tags.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/three_dimensional_comparison_matrix.xlsx",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/tools/batch2_candidates.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/tools/ci_data_check.py",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/tools/code_maps_en.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/tools/export_static_site.py",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_en.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_zh.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/tools/pages_preflight.py",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/tools/test_full_backup.py",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/data/figures.index.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/data/figures/H-AZJ-345.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/data/index.unified.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/data/meta.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/sitemap.xml",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/public/data/figures.index.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/public/data/figures/H-AZJ-345.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/public/data/meta.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/public/sitemap.xml",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/backup_phase21r8_azj345_clear_20260923/web/src/generated/siteCounts.ts",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/figures/_duplicates/H-AZJ-345_api_scenarios_en_entry.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/figures/_duplicates/H-AZJ-345_figures_row.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/figures/_duplicates/H-AZJ-345_ledger.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/figures/_duplicates/H-AZJ-345_legacy_docs_fragments.md",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/figures/_duplicates/H-AZJ-345_products_snapshot.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/figures/_duplicates/H-AZJ-345_registry_fragments.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/figures/_duplicates/H-AZJ-345_scenarios_en_entry.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "data/figures/_duplicates/H-AZJ-345_scenarios_zh_entry.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "docs/architecture/static_data_manifest.json",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "docs/architecture/web_p0_routes.json",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "docs/historical_figures_thinking_modes_library.md",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "docs/research/_archive/H-AZJ-345_archive.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "docs/research/batch_new_figures_research.md",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "docs/research/candidates_v4_research.legacy.md",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "docs/research/phase21r8_w4_names_recon.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "docs/research/phase21r8_w4_names_recon.md",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "docs/research/phase21w4_fix_manifest.json",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "docs/research/phase21w4_fix_manifest.md",
+        "kind": "MISSING_IN_PUBLISH",
+        "reason": "未跟踪（未 git add，尚未进入索引）"
+      },
+      {
+        "path": "tools/assets/fonts/ProtrepticOgSerif-Bold.otf",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "tools/assets/fonts/ProtrepticOgSerif-Regular.otf",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "tools/assets/fonts/coverage.json",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "tools/export_static_site.py",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "tools/json/scenarios_en.json",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "tools/json/scenarios_zh.json",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "tools/pages_preflight.py",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "web/public/sitemap.xml",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      },
+      {
+        "path": "web/src/api/static.ts",
+        "kind": "CONTENT_DIFF",
+        "reason": "内容不同"
+      }
+    ]
+  },
+  "pass": 21,
   "fail": 0,
   "checks": [
     {
@@ -131,22 +424,22 @@
     {
       "id": "K5",
       "desc": "push 回执 ec0a06b (合并提交 t_2d15bd2e#1 (卡 t_0): 远端 main 含该镜像提交",
-      "detail": "远端 main=04837b318670"
+      "detail": "远端 main=2391025ebd0e"
     },
     {
       "id": "K5",
       "desc": "push 回执 fee63a3 (回执提交 t_2d15bd2e#2 (报告/证据): 远端 main 含该镜像提交",
-      "detail": "远端 main=04837b318670"
+      "detail": "远端 main=2391025ebd0e"
     },
     {
       "id": "K5",
       "desc": "push 回执 2b3681d (文档归档提交 t_d9cb98bb (九节档案首): 远端 main 含该镜像提交",
-      "detail": "远端 main=04837b318670"
+      "detail": "远端 main=2391025ebd0e"
     },
     {
       "id": "K5b",
       "desc": "工作仓 master push 目标不存在 (远端无 refs/heads/master, 仅 refs/heads/main; 环境事实)",
-      "detail": "['04837b31867017fdde4f8a615c021f716f068cbf\\tHEAD', '04837b31867017fdde4f8a615c021f716f068cbf\\trefs/heads/main']"
+      "detail": "['2391025ebd0e6c66993e3c0be47d52464cdae9c4\\tHEAD', '2391025ebd0e6c66993e3c0be47d52464cdae9c4\\trefs/heads/main']"
     },
     {
       "id": "K6a",
@@ -172,6 +465,16 @@
       "id": "K7",
       "desc": "文档归档页 byte-exact (工作仓 × 发布仓) 且非空",
       "detail": "ws=17cb095e9659dab9 pub=17cb095e9659dab9 bytes=64447 lines=426"
+    },
+    {
+      "id": "K8a",
+      "desc": "两仓 parity: 本卡 QA 产物面 0 残留 (差异总 59)",
+      "detail": "[]"
+    },
+    {
+      "id": "K8b",
+      "desc": "两仓 parity: LUORQ 命名路径 0 残留",
+      "detail": "[]"
     }
   ]
 }

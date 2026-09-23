@@ -1,6 +1,6 @@
 {
  "card": "t_65998945",
- "count": 43,
+ "count": 45,
  "files": {
   "docs/qa/phase21r8_luorq_qa_evidence/result.json": {
    "bytes": 37898,
@@ -19,12 +19,20 @@
    "sha256": "32500fc3049cd14b419ae653d0633a4a0ea553a6cce9f1263ed904ec07d04dee"
   },
   "docs/qa/phase21r8_luorq_qa_recheck_evidence/chain_commits_verify.json": {
-   "bytes": 6270,
-   "sha256": "0ad076e4483137f828421158141295e1e32d07778d442418a473da2802a845f0"
+   "bytes": 17580,
+   "sha256": "561c4ee5d09f71564531f337dffecc50328d5efd7807166bc64db9d448640f72"
   },
   "docs/qa/phase21r8_luorq_qa_recheck_evidence/chain_commits_verify.txt": {
-   "bytes": 2924,
-   "sha256": "ec1d56585e7fc85539cadeecacd2cdc3b6eb3567cf11707c7117b97df916ba84"
+   "bytes": 10639,
+   "sha256": "f40b80b3d671c15ef36ff3ae40109035d256014e9152006144b67ded790d1fcd"
+  },
+  "docs/qa/phase21r8_luorq_qa_recheck_evidence/parity_postmirror/parity_check_repo.txt": {
+   "bytes": 14071,
+   "sha256": "c0cf7befb18fe3d9d012a64eb00e5b493ad402702c2e7de92cbf346b6df62333"
+  },
+  "docs/qa/phase21r8_luorq_qa_recheck_evidence/parity_postmirror/residual_analysis.json": {
+   "bytes": 7174,
+   "sha256": "68cdc1b2b7f45f1057d8fd581eb5bf7403622596ce40a277546a61bd7398829b"
   },
   "docs/qa/phase21r8_luorq_qa_recheck_evidence/result.json": {
    "bytes": 56382,
@@ -155,8 +163,8 @@
    "sha256": "6a3be2bafb93d3099f0c2cb2cc0486260c7749201d1fdcc32a37d1fab197d2c0"
   },
   "docs/qa/phase21r8_luorq_qa_recheck_report.md": {
-   "bytes": 10890,
-   "sha256": "a16fdc47a67c77425bb10324ae6654a92ce64e41574a9c0e8267573df0bff0a9"
+   "bytes": 13196,
+   "sha256": "99ea75d31b22f98aace57e277fe7c19f7f34424570c8fe1cc5fe4c7b9ba19153"
   },
   "docs/qa/phase21r8_luorq_qa_recheck_selftest.json": {
    "bytes": 23707,
@@ -167,14 +175,14 @@
    "sha256": "083b540f36a66b0bf65f59b5e91d61d525e25ef02a634d2c627c5e238921e8c4"
   },
   "verify_luorq_chain_recheck_espinosa.py": {
-   "bytes": 14908,
-   "sha256": "bac58d7fc8c5768a4608dc7017e3925e451bc8ddfda2c43fcf1c7f1296016b32"
+   "bytes": 15218,
+   "sha256": "5a7f9c5cd853ee51313691f453cd28a5840f5025ecdd93ab6157d1c4bf6fef28"
   },
   "verify_luorq_qa_espinosa.py": {
    "bytes": 44961,
    "sha256": "b1cbc10e99af3dec158298e59baf456f319f00bfee5c805de42cb6daa434f96d"
   }
  },
- "generated_at": "2026-09-24 01:55:31 +0800",
- "note": "card QA artifact set (v1: pre-receipt, 43 files; artifacts_sha256.json itself not listed). _inject_tmp excluded (derived, cleaned)."
+ "generated_at": "2026-09-24 01:58:03 +0800",
+ "note": "card QA artifact set v2 (post-receipt, report v2 included; artifacts_sha256.json itself not listed). _inject_tmp excluded (derived, cleaned)."
 }

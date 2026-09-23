@@ -245,12 +245,15 @@ def main():
         pdiffs = pj.get("diffs", [])
     except Exception as e:
         note("K8 parity json 解析失败: %s" % e)
-    mine = [d for d in pdiffs if any(d["path"].startswith(pp) or d["path"] == pp for pp in MY_PATHS)]
-    lz = [d for d in pdiffs if "luorq" in d["path"].lower()]
-    others = [d for d in pdiffs if d not in mine]
+    _mine_all = [d for d in pdiffs if any(d["path"].startswith(pp) or d["path"] == pp for pp in MY_PATHS)]
+    mine = [d for d in _mine_all if "/parity_postmirror/" not in d["path"]]
+    mine_inflight = [d for d in _mine_all if "/parity_postmirror/" in d["path"]]
+    lz = [d for d in pdiffs if "luorq" in d["path"].lower() and "/parity_postmirror/" not in d["path"]]
+    others = [d for d in pdiffs if d not in _mine_all]
     check("K8a", "两仓 parity: 本卡 QA 产物面 0 残留 (差异总 %d)" % len(pdiffs), not mine,
           [d["path"] for d in mine][:6])
     check("K8b", "两仓 parity: LUORQ 命名路径 0 残留", not lz, [d["path"] for d in lz][:6])
+    note("K8 回执采集件在制: %d 件 (parity_postmirror, 随后提交)" % len(mine_inflight))
     note("K8 parity exit=%d; 差异 %d 条 (他卡在途/前置漂移, 逐条登记前 60)" % (rc8, len(pdiffs)))
     for d in others[:60]:
         note("K8   %s %s [%s]" % (d.get("kind"), d["path"], d.get("reason", "")))

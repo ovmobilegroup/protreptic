@@ -1,0 +1,255 @@
+{
+ "generated_at": "2026-09-24 01:57:14 +0800",
+ "card": "t_65998945",
+ "purpose": "post-mirror two-repo parity residual analysis (LANCZOS: my QA artifact surface must be 0)",
+ "parity_exit": 1,
+ "diffs_total": 59,
+ "committed_surface_diffs": [],
+ "inflight_receipt_diffs": [
+  {
+   "path": "docs/qa/phase21r8_luorq_qa_recheck_evidence/parity_postmirror/parity_check_repo.txt",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "docs/qa/phase21r8_luorq_qa_recheck_evidence/parity_postmirror/residual_analysis.json",
+   "kind": "MISSING_IN_PUBLISH"
+  }
+ ],
+ "luorq_named_diffs": [],
+ "others_by_tree": {
+  "data": 38,
+  "docs": 12,
+  "tools": 7,
+  "web": 2
+ },
+ "others_sample": [
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/MANIFEST.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/MANIFEST.sha256",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/README.md",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/api/data/scenarios_en.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/docs/architecture/static_data_manifest.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/docs/architecture/web_p0_routes.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/docs/historical_figures_thinking_modes_library.md",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/docs/research/batch_new_figures_research.md",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/docs/research/candidates_v4_research.legacy.md",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/docs_site/docs/historical_figures_thinking_modes_library.md",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/docs_site/docs/scenario_tags.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/three_dimensional_comparison_matrix.xlsx",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/tools/batch2_candidates.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/tools/ci_data_check.py",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/tools/code_maps_en.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/tools/export_static_site.py",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_en.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_zh.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/tools/pages_preflight.py",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/tools/test_full_backup.py",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/data/figures.index.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/data/figures/H-AZJ-345.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/data/index.unified.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/data/meta.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/dist/sitemap.xml",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/public/data/figures.index.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/public/data/figures/H-AZJ-345.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/public/data/meta.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/public/sitemap.xml",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/backup_phase21r8_azj345_clear_20260923/web/src/generated/siteCounts.ts",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/figures/_duplicates/H-AZJ-345_api_scenarios_en_entry.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/figures/_duplicates/H-AZJ-345_figures_row.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/figures/_duplicates/H-AZJ-345_ledger.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/figures/_duplicates/H-AZJ-345_legacy_docs_fragments.md",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/figures/_duplicates/H-AZJ-345_products_snapshot.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/figures/_duplicates/H-AZJ-345_registry_fragments.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/figures/_duplicates/H-AZJ-345_scenarios_en_entry.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "data/figures/_duplicates/H-AZJ-345_scenarios_zh_entry.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "docs/architecture/static_data_manifest.json",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "docs/architecture/web_p0_routes.json",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "docs/historical_figures_thinking_modes_library.md",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "docs/research/_archive/H-AZJ-345_archive.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "docs/research/batch_new_figures_research.md",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "docs/research/candidates_v4_research.legacy.md",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "docs/research/phase21r8_w4_names_recon.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "docs/research/phase21r8_w4_names_recon.md",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "docs/research/phase21w4_fix_manifest.json",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "docs/research/phase21w4_fix_manifest.md",
+   "kind": "MISSING_IN_PUBLISH"
+  },
+  {
+   "path": "tools/assets/fonts/ProtrepticOgSerif-Bold.otf",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "tools/assets/fonts/ProtrepticOgSerif-Regular.otf",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "tools/assets/fonts/coverage.json",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "tools/export_static_site.py",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "tools/json/scenarios_en.json",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "tools/json/scenarios_zh.json",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "tools/pages_preflight.py",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "web/public/sitemap.xml",
+   "kind": "CONTENT_DIFF"
+  },
+  {
+   "path": "web/src/api/static.ts",
+   "kind": "CONTENT_DIFF"
+  }
+ ]
+}
