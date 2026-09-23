@@ -1,0 +1,178 @@
+== 合计: 177 PASS / 0 FAIL / 0 SKIP ==
+PASS	A1 素材包 P01-P16 编号/字段齐全	16 条
+PASS	A2 落盘 10 条编号序列 == M-WX-001~010	
+PASS	A3 10 条键序一致(27 键口径)	27 键
+PASS	A4 10 条 verification 全 pending	
+PASS	A5 10 条 figure_code/name 口径	
+PASS	A6 id_mapping.tsv 旧号->新码 与条目 legacy_mode_id 一致	10 行
+PASS	B1 M-WX-001 key_quote_zh 逐字等于素材包 P01	
+PASS	B2 M-WX-001 引文 ∈ R7 该旧号(M301)候选素材[独立推导]	候选 P01
+PASS	B3 M-WX-001 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-001 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-001 案例登记素材包编号与锚	
+PASS	B6 M-WX-001 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-002 key_quote_zh 逐字等于素材包 P02	
+PASS	B2 M-WX-002 引文 ∈ R7 该旧号(M302)候选素材[独立推导]	候选 P02,P14
+PASS	B3 M-WX-002 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-002 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-002 案例登记素材包编号与锚	
+PASS	B6 M-WX-002 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-003 key_quote_zh 逐字等于素材包 P13	
+PASS	B2 M-WX-003 引文 ∈ R7 该旧号(M303)候选素材[独立推导]	候选 P07,P08,P13
+PASS	B3 M-WX-003 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-003 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-003 案例登记素材包编号与锚	
+PASS	B6 M-WX-003 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-004 key_quote_zh 逐字等于素材包 P02	
+PASS	B2 M-WX-004 引文 ∈ R7 该旧号(M304)候选素材[独立推导]	候选 P02,P03
+PASS	B3 M-WX-004 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-004 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-004 案例登记素材包编号与锚	
+PASS	B6 M-WX-004 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-005 key_quote_zh 逐字等于素材包 P04	
+PASS	B2 M-WX-005 引文 ∈ R7 该旧号(M305)候选素材[独立推导]	候选 P01,P04
+PASS	B3 M-WX-005 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-005 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-005 案例登记素材包编号与锚	
+PASS	B6 M-WX-005 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-006 key_quote_zh 逐字等于素材包 P03	
+PASS	B2 M-WX-006 引文 ∈ R7 该旧号(M306)候选素材[独立推导]	候选 P02,P03
+PASS	B3 M-WX-006 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-006 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-006 案例登记素材包编号与锚	
+PASS	B6 M-WX-006 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-007 key_quote_zh 逐字等于素材包 P05	
+PASS	B2 M-WX-007 引文 ∈ R7 该旧号(M307)候选素材[独立推导]	候选 P05,P06
+PASS	B3 M-WX-007 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-007 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-007 案例登记素材包编号与锚	
+PASS	B6 M-WX-007 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-008 key_quote_zh 逐字等于素材包 P07	
+PASS	B2 M-WX-008 引文 ∈ R7 该旧号(M308)候选素材[独立推导]	候选 P07
+PASS	B3 M-WX-008 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-008 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-008 案例登记素材包编号与锚	
+PASS	B6 M-WX-008 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-009 key_quote_zh 逐字等于素材包 P09	
+PASS	B2 M-WX-009 引文 ∈ R7 该旧号(M309)候选素材[独立推导]	候选 P07,P09,P14
+PASS	B3 M-WX-009 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-009 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-009 案例登记素材包编号与锚	
+PASS	B6 M-WX-009 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	B1 M-WX-010 key_quote_zh 逐字等于素材包 P11	
+PASS	B2 M-WX-010 引文 ∈ R7 该旧号(M310)候选素材[独立推导]	候选 P10,P11
+PASS	B3 M-WX-010 key_quote_en 非空且无 CJK	
+PASS	B4 M-WX-010 source_chapter 可落源格式(书名号+卷/章/篇)	
+PASS	B5 M-WX-010 案例登记素材包编号与锚	
+PASS	B6 M-WX-010 「」片段全部可溯源(素材包子串/异文/概念标签)	越界: 
+PASS	D1 modes_data 计数(WX 10 条计入主库) / total 标量 3271	3291 条 / WX 10 / 3271
+PASS	D2 主库 Wang Xiang 10 条逐字等于落盘 entries	matched: 10
+PASS	D3a 全库 mode_code 字段 0 重复	重复: 
+PASS	D3b 全库 id 字段 0 重复	重复: 
+PASS	D4 活动编码空间 0 个 M30x	
+PASS	D4b 合成码口径重复集(mc|mid|id) == 合并前基线(0 新增)	after=10 ['M-ODANOBUN-001', 'M-ODANOBUN-002', 'M-ODANOBUN-003'] / before=10 ['M-ODANOBUN-001', 'M-ODANOBUN-002', 'M-ODANOBUN-003']
+PASS	D4c mode_id 字段重复集 == 合并前基线(ODANOBUN 双表示属既有)	
+PASS	D5 合并提交态纯追加(旧 3271 逐对象全等 + 顶层其余键全等)	
+PASS	D5L 现场增量登记(合并提交后仅他卡追加 10 条, 本链前缀逐对象全等)	增: M-LUORQ-001,M-LUORQ-002,M-LUORQ-003,M-LUORQ-004
+PASS	D6 新增 10 条内 M30x 仅存留证字段	越界: [] | 总出现 0
+PASS	D7 合并提交态 code_maps 图档计数 213	213
+PASS	D7L 现场增量登记(code_maps +1, 他卡)	H-LUORQ-001
+PASS	D8 code_maps H-HZX-002 十码/十名/0 悬空/3 键	悬空: 
+PASS	D9 合并提交态 code_maps 新键追加于文末	
+PASS	D9L 现场追加位登记(尾键现为他卡)	尾键: H-LUORQ-001
+PASS	D10 合并提交态 figure_names 1082 键 / H-HZX-002=王祥 / 尾键	
+PASS	D10L 现场增量登记(figure_names +1, 他卡)	H-LUORQ-001
+PASS	D11 合并提交态 scenarios_zh 2193 条 且尾 10 键 == C-WX-001~010	
+PASS	D12 合并提交态 scenarios_en 2193 条 且尾 10 键 == C-WX-001~010E	
+PASS	D11L/D12L 现场增量登记(他卡 10/10 条, 前缀键序全等)	C-LUORQ-001,C-LUORQ-002,C-LUORQ-003
+PASS	D13 scenarios_zh 8 键/题名/码/模板复算/应用域	
+PASS	D14 scenarios_en 同口径	
+PASS	D15 scenarios_zh/en 旧键序全等(纯追加)	
+PASS	D16 合并提交态 scenario_tags 7498 条 且尾 20 条为本链	7498
+PASS	D16L 现场增量登记(scenario_tags 现 7518 条, 前缀全等)	尾: H-LUORQ-001,H-LUORQ-001,H-LUORQ-001
+PASS	D17 20 条标签 4 键/命名/每模式 zh+en 各一	
+PASS	D18 scenario_tags 旧 7478 条全等(纯追加)	
+PASS	D19 三面同体(figure.modes == individuals_modes.modes == 合并提交态尾10)	
+PASS	D19L 现场三件字节未动登记	
+PASS	D20 figure 面 码/名/计数/互引/旧号登记	
+PASS	D21 figure 基线字段照录 R6B 修正稿	差异字段: 
+PASS	D22 落盘镜像与主数据面字节相等	
+PASS	D23 王祥视图码集五面一致 == M-WX-001~010	
+PASS	E1 退役旧题旨(3 条全查) 活动数据面 0 命中	[]
+PASS	E2 旧定义句(取首 16 字) 活动数据面 0 命中	[]
+PASS	E3 旧 figure 自造句/伪占位/别名 0 命中	[]
+PASS	E4 归档三件 sha256 与 R7 登记一致(未变)	H-HZX-002_figures.json=8c40067cb045; H-HZX-002_figures_modes.json=1e3e97d41f41; H-HZX-002_research_phase20.md=8b63cda2991a
+PASS	E5 1fe4c451 提交存在且未触碰归档三件	
+PASS	E5 d95a7b53 提交存在且未触碰归档三件	
+PASS	E5 68d6e0b0 提交存在且未触碰归档三件	
+PASS	F1 M-WX-001 题旨 == R7 建议(侍疾尝药法) 且锚 P01	
+PASS	F2 M-WX-002 更名 == R7 建议(卧冰求鲤法)	
+PASS	F3 M-WX-008 题旨 == R7 建议(立身五本：信德孝悌让) 且独立成目	
+PASS	F4 M-WX-009 子项降级(元代/二十四孝/降级登记, 无 宋以降 断言)	
+PASS	F5 A08 中性表述(长揖晋王) 登记于 figure 面且无 司马昭 断言	
+PASS	F6 底本用字: 006 作 灸 不作 炙 / 008 作 覆 不作 復	
+PASS	F7 异文 V2/V3 登记于条目备注(灸/炙, 覆/復)	
+PASS	F8 异文 V1/V2/V3 登记于 figure caveats	
+PASS	F9 场景前缀 C-WX 落盘前 0 占用(对照备份)	
+PASS	F10 全库无 C-HZX2/C-WX2 变体前缀	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: modes_library_entries.json	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: combined_library_entries.json	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: H-HZX-002.json	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: H-HZX-002_modes.json	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: id_mapping.tsv	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: category_mapping.tsv	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: scenario_notes.json	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: phase21r8_wangxiang_landing_manifest.json	
+PASS	S1 上游件与 A1 提交(1fe4c451)字节一致: build_phase21r8_wangxiang.py	
+PASS	S1b 上游核验脚本变更 == 合并口径登记(0<n<=40 行, 含合并标记)	22 行
+PASS	S2 合并提交态 sha256 == A2 manifest.after: modes_data.json	
+PASS	S2 合并提交态 sha256 == A2 manifest.after: code_maps.json	
+PASS	S2 合并提交态 sha256 == A2 manifest.after: scenarios_zh.json	
+PASS	S2 合并提交态 sha256 == A2 manifest.after: scenarios_en.json	
+PASS	S2 合并提交态 sha256 == A2 manifest.after: scenario_tags.json	
+PASS	S2 合并提交态 sha256 == A2 manifest.after: figure_names.json	
+PASS	S3 备份件 sha256 == A2 manifest.before: modes_data.json	
+PASS	S3 备份件 sha256 == A2 manifest.before: code_maps.json	
+PASS	S3 备份件 sha256 == A2 manifest.before: scenarios_zh.json	
+PASS	S3 备份件 sha256 == A2 manifest.before: scenarios_en.json	
+PASS	S3 备份件 sha256 == A2 manifest.before: scenario_tags.json	
+PASS	S3 备份件 sha256 == A2 manifest.before: figure_names.json	
+PASS	S2L 现场 sha 漂移登记(合并提交后他卡改动, 不回滚)	6/6 件漂移: modes_data.json,code_maps.json,scenarios_zh.json,scenarios_en.json,scenario_tags.json,figure_names.json
+PASS	S4 合并提交 d95a7b53 收录合并面六件(提交即落盘)	18 路径
+PASS	S4L 合并提交后合并面改动区间登记(他卡在制/已提交, 逐提交列示)	无
+PASS	S4c 本链入库对象现场未被改动(六件中本链新增部分逐对象可查)	figure/individuals_modes 字节全等
+PASS	S5 三卡提交均在工作仓 HEAD 祖先链	
+PASS	S6 1fe4c451 未触碰归档三件	18 路径
+PASS	S6 d95a7b53 未触碰归档三件	18 路径
+PASS	C1 W1(维基文库卷033 raw) P01-P12 逐字命中	命中 12/12: P01,P02,P03,P04,P05,P06,P07,P08,P09,P10,P11,P12
+PASS	C2 W1 异文方向(基字 未/灸/覆 在, 异字 末/炙/復 不在)	W1 取文: cache
+PASS	C3 W3(汉典古籍卷三十三) 抽样 7 条逐字命中	命中 7/7: P01,P02,P04,P07,P09,P10,P12
+PASS	C4 W3 与 W1 用字一致(无 炙/復 异文)	取文: cache
+PASS	C5 W5(二十四孝) P14 诗赞 + P15 正文逐字命中	取文: cache
+PASS	C6 W4(搜神記卷十一) P16 王祥条全文逐字命中	取文: cache
+PASS	C7 W2(四库本卷033) 异文 末/炙/復 在、基字 未/灸/覆 不在	取文: cache
+PASS	G1 credibility_gate --hard-fail exit 0 且新增(基线外) 0 条	exit=0
+PASS	G2 verify_findings --hard-fail exit 0	exit=0
+PASS	G3 verify_source_links --hard-fail exit 0	exit=0
+PASS	G4 apply_verification_status --check 漂移 19 条(本链 9 条纪律(4) 如实登记 + 他卡在制追加; 未回填)	exit=1 drift=19
+PASS	G5 未跑 --write 回填: 本链 10 条在库仍全 pending	命中 10 条
+PASS	Hf0 冻结 worktree @ d95a7b53 (HEAD 钉死)	/opt/data/profiles/espinosa/home/.cache/wxqa_frozen_wt @ d95a7b53c9a9
+PASS	Hf1 冻结态 export_static_site exit 0 且 figures=1057/源=3271/发布=3211/by-figure=317	exit=0
+PASS	Hf2 冻结态 gen_web_site_counts exit 0 且 siteCounts.ts 3211 x 317	exit=0
+PASS	Hf3 冻结态 meta.json 3271/3211/317/1057/60 口径	
+PASS	Hf4 冻结态锚点 EXPECT_MODES=3271 / EXPECT_BY_FIGURE=317 / EXPECT_FIGURES=1057 两处一致	
+PASS	Hf2b 冻结态 apply_site_counts 存证(冻结 worktree 无本地 dist, 属工作区态)	exit=1
+PASS	Hf5 冻结态 build_daily_index exit 0 且 3211/317/317	exit=0
+PASS	Hf6 冻结态 pages_preflight --stage data 全部断言通过	exit=0
+PASS	Hl1 现场态 siteCounts.ts 与 meta.json 自洽(他卡复跑产出)	siteCounts 3221 x 318 / meta 3221 x 318
+PASS	Hl2 现场态 meta 与源库计数自洽	raw 3291 / 去重 3281 / 发布 3221
+PASS	Hl3 现场态链条复跑在先证据留档(上一运行, 主工作区)	5/5 件
+PASS	I1 官方机检(check_repo_parity) 本链路径零差异	本链差异: [] | 全量差异 338 处
+PASS	I2 差异全为在制未跟踪件/本卡待镜像件(无 tracked 内容漂移)	未归属: 
+PASS	I2b 差异归属登记	data/audit=7; data/code_maps.json=1; data/figure_names.json=1; data/figures=1; data/individuals=2; data/modes_data.json=1; data/scenario_tags.json=1; data/scenarios_en.json=1; data/scenarios_zh.json=1; data/source_links.
+PASS	I3 本链路径集(边界内 30 件)两仓 HEAD 字节一致	
+PASS	I4 边界外路径登记(根脚本不随发布仓, 与 R6 QA 先例一致; 5 件)	tools/build_phase21r8_wangxiang.py; tools/export_static_site.py; tools/pages_preflight.py; verify_phase21r8_wangxiang.py; verify_wx_merge_indep.py
+PASS	I5 发布仓 HEAD 祖先链含 9c4ff9e/dab8213	
+PASS	I6 远端 origin/main 含镜像提交(dab8213d5bfd)	
+PASS	I7 发布仓本链路径无未提交改动	
+PASS	J 反向注入判据有效性 10/10 命中 FAIL	

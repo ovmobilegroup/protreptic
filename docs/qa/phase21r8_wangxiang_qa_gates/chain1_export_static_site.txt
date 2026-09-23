@@ -1,0 +1,43 @@
+$ python3 tools/export_static_site.py
+
+仓库根 : /opt/data/workspace/Protreptic
+输出   : /opt/data/workspace/Protreptic/web/public/data
+== 读取源数据 ==
+  modes_data.json : raw modes = 3291，去重后 = 3281（丢重复 mode_code 0，丢空 code 10）
+  名称字段折平          578 条（name_zh/name_en 历史三元组 -> 标量）
+  domain 字段清洗       2994 条（散文/长值 -> 首个 '/' 片段或 category 短标签），清洗后 len(domain_zh) > 30 的条数 = 0
+  [隔离] 剔除 60 条隔离人物的模式（M-P23F-001, M-P23F-002, M-P23F-003, M-P23F-004, M-P23F-005, M-P23F-006, M-P23F-007, M-P23F-008, M-P23F-009, M-P23F-010, M-P24F-001, M-P24F-002, M-P24F-003, M-P24F-004, M-P24F-005, M-P24F-006, M-P24F-007, M-P24F-008, M-P24F-009, M-P24F-010, M-P25F-001, M-P25F-002, M-P25F-003, M-P25F-004, M-P25F-005, M-P25F-006, M-P25F-007, M-P25F-008, M-P25F-009, M-P25F-010, M-P26F-001, M-P26F-002, M-P26F-003, M-P26F-004, M-P26F-005, M-P26F-006, M-P26F-007, M-P26F-008, M-P26F-009, M-P26F-010, M-P27F-001, M-P27F-002, M-P27F-003, M-P27F-004, M-P27F-005, M-P27F-006, M-P27F-007, M-P27F-008, M-P27F-009, M-P27F-010, M393, M394, M395, M396, M397, M398, M399, M400, M401, M402）：公开模式 3281 -> 3221；名单见 tools/_quarantine.py：H-P23F-001, H-SX-001, P24F, P25F, P26F, Phase27Final
+  [出处] 注入可点引用: 2491 条模式带引文, 974 条有至少 1 个可点链接
+         去重级引文 4489 条 (linked 1230 / registered-unlinkable 941 / unresolved 2318); 出现级书名号段 4551 段 (linked 1249)
+  protreptic.db   : figures = 1057 行
+
+== 生成 figures ==
+  figures.index.json      1057 条  raw 207.5 KB / gzip 33.8 KB (上限 50.0 KB)
+  figures/                1057 片  raw 1.55 MB / gzip 614.9 KB (单片中位 raw 333 B)
+
+== 生成 modes ==
+  modes/index-0.json        431 条  raw 108.7 KB / gzip 27.0 KB
+  modes/index-1.json        393 条  raw 100.2 KB / gzip 25.8 KB
+  modes/index-2.json        392 条  raw 98.6 KB / gzip 24.8 KB
+  modes/index-3.json        380 条  raw 96.1 KB / gzip 24.2 KB
+  modes/index-4.json        397 条  raw 100.2 KB / gzip 25.7 KB
+  modes/index-5.json        396 条  raw 101.1 KB / gzip 26.0 KB
+  modes/index-6.json        413 条  raw 105.1 KB / gzip 26.6 KB
+  modes/index-7.json        419 条  raw 107.4 KB / gzip 27.8 KB
+  modes/ 合计             3221 条  raw 817.5 KB / gzip 208.0 KB
+  modes/by-figure/         318 片  raw 20.06 MB / gzip 7.92 MB (单片中位 raw 63.6 KB / gzip 25.9 KB)
+
+== 写 meta.json ==
+  [核验] verification 四态 (公开口径): verified=931 / pending=1916 / suspect=34 / unverifiable=340 / total=3221
+  meta.json               counts={"figures": 1057, "figure_shards": 1057, "mode_summaries": 3281, "mode_summaries_published": 3221, "modes_quarantined": 60, "mode_index_shards": 8, "mode_by_figure_shards": 318, "modes_raw": 3291, "modes_deduped": 3281, "modes_duplicates_dropped": 0, "modes_empty_mode_code_dropped": 10, "modes_without_figure_code": 0, "verification": {"published": {"verified": 931, "pending": 1916, "suspect": 34, "unverifiable": 340}, "published_total": 3221, "all": {"verified": 931, "pending": 1948, "suspect": 51, "unverifiable": 351}, "all_total": 3281, "quarantined_total": 60}, "citation_links": {"modes_with_citations": 2491, "modes_with_link": 974, "citations": 4489, "citations_linked": 1230, "citations_registered_unlinkable": 941, "citations_unresolved": 2318, "segments": 4551, "segments_linked": 1249}}
+  [OK] 隔离名单零泄漏 (名单 H-P23F-001, H-SX-001, P24F, P25F, P26F, Phase27Final; 被剔模式 60 条)
+  docs/architecture/static_data_manifest.json 已更新
+
+== 验收断言 ==
+  [OK] 产物 1385 个文件（索引 1 + figures 1057 + modes 索引 8 + by-figure 318 + meta 1）
+  [OK] figures=1057 modes(源)=3281 modes(发布)=3221 隔离剔除=60 by-figure=318
+  [OK] 体积上限：index gzip 33.8 KB <= 50.0 KB；最大模式分片 gzip 27.8 KB <= 200.0 KB
+
+输出目录：/opt/data/workspace/Protreptic/web/public/data
+
+完成 OK

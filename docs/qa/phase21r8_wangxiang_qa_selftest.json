@@ -1,0 +1,86 @@
+{
+ "injections": [
+  {
+   "name": "注入1: key_quote_zh 改字",
+   "target": "B1 M-WX-002 key_quote_zh 逐字等于素材包 P02",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": "got='母常欲生魚，時天寒水凍，祥解衣將剖水求之，水忽自'"
+  },
+  {
+   "name": "注入2: 落盘条数 -1",
+   "target": "D2 主库 Wang Xiang 10 条逐字等于落盘 entries",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": "matched: 9"
+  },
+  {
+   "name": "注入3: 主库条数 -1",
+   "target": "D1 modes_data 计数(WX 10 条计入主库) / total 标量 3271",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": "3290 条 / WX 9 / 3271"
+  },
+  {
+   "name": "注入4: 场景 text_zh 篡改",
+   "target": "D13 scenarios_zh 8 键/题名/码/模板复算/应用域",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": "C-WX-003 text_zh"
+  },
+  {
+   "name": "注入5: 标签语言改错",
+   "target": "D17 20 条标签 4 键/命名/每模式 zh+en 各一",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": "M-WX-010 计数 | M-WX-010 zh 命名 | M-WX-010 en 命名"
+  },
+  {
+   "name": "注入6: 旧号 M301 复现",
+   "target": "D4 活动编码空间 0 个 M30x",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": ""
+  },
+  {
+   "name": "注入7: figure 面植入旧题旨",
+   "target": "E1 退役旧题旨(3 条全查) 活动数据面 0 命中",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": "[('figure', '温席求鱼法', '/caveats[7]')]"
+  },
+  {
+   "name": "注入8: 题旨回退",
+   "target": "F1 M-WX-001 题旨 == R7 建议(侍疾尝药法) 且锚 P01",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": ""
+  },
+  {
+   "name": "注入9: 悬空互引",
+   "target": "D8 code_maps H-HZX-002 十码/十名/0 悬空/3 键",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": "悬空: H-NOPE-999"
+  },
+  {
+   "name": "注入10: 基线字段偏离修正稿",
+   "target": "D21 figure 基线字段照录 R6B 修正稿",
+   "fired": true,
+   "base_pass": true,
+   "injected_fail": true,
+   "injected_detail": "差异字段: courtesy_name"
+  }
+ ],
+ "fired": 10,
+ "total": 10
+}

@@ -1,0 +1,392 @@
+$ python3 tools/check_repo_parity.py   (exit 1)
+
+[boundary] workspace = /opt/data/workspace/Protreptic
+[boundary] publish   = /opt/data/release/Protreptic-publish
+[boundary] pages.yml 构建步骤 16 个 / paths 触发器 30 条 —— 均已被清单覆盖（边界自检通过）
+[boundary] 纳入边界：workspace 2175 / publish 1854；排除：workspace 55 / publish 674
+[boundary] 文件集口径：索引（已跟踪）∪ 未跟踪且未被 .gitignore —— 双向单侧检测（Phase39-Z1）
+[boundary] 未跟踪未提交（但已纳入机检）：workspace 300 / publish 0
+
+-- 排除统计（publish 侧） --
+    637  开发侧原始分片留档（637 个，仅发布仓有）：grep tools/ + .github/ + web/src/ 无任何读取；不参与构建、不
+     37  入库前备份目录（开发仓独有，非构建图）
+     34  mkdocs.pages.yml `exclude_docs: archive/` → 不构建、不上线
+     15  备份文件（.bak / .bak_<tag>）
+      3  merge 暂存目录（开发仓独有，非构建图）
+      1  前端构建产物（CI 现场 npm run build 生成；发布仓为加 .gitignore 之前的历史跟踪）
+      1  开发侧汇总实验产物，无构建步骤读取
+      1  开发侧 FAISS 索引二进制（无构建步骤读取；语义检索为 api/ 侧）
+
+-- 排除规则 × 侧别（排除项不参与差异判定；单侧差异一并列出理由，不静默吞掉） --
+   pattern                            ws    pub      仅ws     仅pub
+   data/intl_figures/*                 0    637        0      637
+      └ 开发侧原始分片留档（637 个，仅发布仓有）：grep tools/ + .github/ + web/src/ 无任何读取；不参与构建、不上线，故不纳入（如要按「源库留档」更严口径纳入，删掉本规则并执行 publish→workspace 同步）
+   data/backup_merge_*/*              37      0       37        0
+      └ 入库前备份目录（开发仓独有，非构建图）
+   data/merge_staging_*/*              3      0        3        0
+      └ merge 暂存目录（开发仓独有，非构建图）
+   */node_modules/*                    0      0        0        0
+      └ 依赖目录（.gitignore）
+   *.bak*                             13      2       11        0
+      └ 备份文件（.bak / .bak_<tag>）
+   data/all_sources.json               1      0        1        0
+      └ 开发侧汇总实验产物，无构建步骤读取
+   data/semantic_index.faiss           1      0        1        0
+      └ 开发侧 FAISS 索引二进制（无构建步骤读取；语义检索为 api/ 侧）
+   docs/archive/*                      0     34        0       34
+      └ mkdocs.pages.yml `exclude_docs: archive/` → 不构建、不上线
+   web/dist/*                          0      1        0        1
+      └ 前端构建产物（CI 现场 npm run build 生成；发布仓为加 .gitignore 之前的历史跟踪）
+   web/public/data/*                   0      0        0        0
+      └ 静态数据产物（tools/export_static_site.py 现场生成；.gitignore 已声明）
+   tools/assets/fonts/.cache/*         0      0        0        0
+      └ 字体源缓存（.gitignore；只在本机重新子集化时用）
+   tools/gc/gc                         0      0        0        0
+      └ 开发侧工具二进制，未被任何构建步骤调用
+   合计：排除 ws=55 / pub=674；其中仅单侧 725 条（仅工作仓 53 · 仅发布仓 672）
+
+不在边界内（既不参与站点构建、也不进入线上站点）的其余路径：Dockerfile.api/Dockerfile.web、docker-compose.yml、api/**（后端 FastAPI 容器）、.github/**（CI 编排，两仓职责不同）、tests/、cli_tests/、scripts/、docs_site/**（更早的独立文档站工程，mkdocs.pages.yml 明确不用它）、kanban/、release/、backups_merge_*/、IL/、Vietnam/、assets/、templates/、scenarios/、individuals/、构建/ 等开发侧目录，以及根目录遗留副本（modes_data.json、scenarios_zh/en.json、code_maps.json、scenario_tags.json、three_dimensional_comparison_matrix.xlsx、lighthouserc.json 等）——构建步骤读的是 data/** 与 tools/** 下的同名文件（见 build_figures_db.py 的 find() 顺序）。
+
+[stats] 两仓都有 1854 条（其中逐字节一致 1837）｜仅单侧 321 条（仅工作仓 321 · 仅发布仓 0）
+
+[DIFF] 338 处差异（文件名 + 侧别 + 理由分类）：
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/audit/findings.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             data/audit/phase21r8_luorq_landing_manifest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/audit/phase21r8_luorq_merge_manifest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/audit/phase21r8_luorq_top_block_backup.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/audit/source_texts.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             data/audit/source_texts/6f2e2e4e124df80a.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             data/audit/source_texts/6f2e2e4e124df80a.zh-cn.txt
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/code_maps.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/figure_names.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             data/figures/H-LUORQ-001.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             data/individuals/H-LUORQ-001.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             data/individuals/H-LUORQ-001_modes.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/modes_data.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/scenario_tags.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/scenarios_en.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/scenarios_zh.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        data/source_links.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        docs/architecture/static_data_manifest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_evidence.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_evidence.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/chain1_export_static_site.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/chain2_gen_web_site_counts.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/chain3_apply_site_counts.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/chain4_build_daily_index.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/chain5_pages_preflight.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain1_export_static_site.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain2_gen_web_site_counts.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain2b_apply_site_counts.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain3_build_daily_index.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain4_pages_preflight.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/gate_apply_verification_status.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/gate_credibility_gate.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_findings.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_source_links.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_wangxiang_qa_selftest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/research/phase21r8_luorq_gate.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/research/phase21r8_luorq_landing_evidence.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21r8_luorq_merge_evidence.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21r8_luorq_merge_evidence.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/research/phase21r8_luorq_rebuild_report.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/research/phase21r8_luorq_sourcing_report.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/research/phase21r8_luorq_sourcing_report.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/research/phase21r8_luorq_verify_evidence.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21r8_luorq_verify_evidence_merged.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21r8_w4_names_recon.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21r8_w4_names_recon.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21w4_fix_manifest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21w4_fix_manifest.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21w5_wangchong_sourcing_report.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21w5_wangchong_sourcing_report.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/category_mapping.tsv
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/combined_library_entries.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/figures/H-LUORQ-001.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/id_mapping.tsv
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/individuals/H-LUORQ-001.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/individuals/H-LUORQ-001_modes.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/modes_library_entries.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/scenario_notes.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 已跟踪（索引里有，另一侧没有）]                             docs/scratch/legacy20_r8_luorq_landing/top_block_proposal.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/README.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/apparatus_removed.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/conversion_edge_cases.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/convrec.0.jsonl
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/convrec.0b.jsonl
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/convrec.1.jsonl
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/convrec.1b.jsonl
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/convrec.2.jsonl
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/convrec.2b.jsonl
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-01.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-02.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-03.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-04.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-05.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-06.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-07.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-08.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-09.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-10.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-11.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-12.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-13.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-14.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-15.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-16.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-17.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-18.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-19.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-20.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-21.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-22.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-23.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-24.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-25.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-26.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-27.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-28.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-29.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-30.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-31.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-32.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-33.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-34.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-35.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-36.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-37.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-38.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-39.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-40.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-41.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-42.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-43.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-44.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-45.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-46.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-47.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-48.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-49.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-50.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-51.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-52.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-53.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-54.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-55.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-56.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-57.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-58.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-59.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-60.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-61.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-62.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-63.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-64.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-65.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-66.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-67.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-68.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-69.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-70.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-71.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-72.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-73.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-74.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-75.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-76.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-77.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-78.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-79.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-80.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-81.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-82.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-83.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-84.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-85.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/raw/lunheng-index.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/subpages_allpages.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/witness_manifest_conversion.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/witness_manifest_raw.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/witness_sha256.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-01.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-02.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-03.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-04.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-05.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-06.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-07.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-08.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-09.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-10.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-11.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-12.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-13.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-14.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-15.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-16.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-17.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-18.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-19.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-20.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-21.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-22.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-23.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-24.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-25.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-26.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-27.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-28.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-29.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-30.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-31.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-32.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-33.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-34.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-35.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-36.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-37.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-38.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-39.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-40.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-41.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-42.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-43.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-44.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-45.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-46.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-47.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-48.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-49.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-50.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-51.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-52.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-53.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-54.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-55.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-56.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-57.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-58.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-59.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-60.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-61.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-62.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-63.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-64.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-65.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-66.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-67.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-68.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-69.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-70.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-71.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-72.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-73.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-74.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-75.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-76.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-77.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-78.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-79.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-80.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-81.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-82.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-83.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-84.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-85.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans-body/lunheng-index.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-01.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-02.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-03.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-04.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-05.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-06.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-07.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-08.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-09.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-10.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-11.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-12.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-13.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-14.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-15.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-16.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-17.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-18.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-19.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-20.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-21.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-22.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-23.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-24.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-25.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-26.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-27.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-28.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-29.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-30.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-31.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-32.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-33.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-34.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-35.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-36.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-37.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-38.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-39.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-40.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-41.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-42.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-43.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-44.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-45.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-46.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-47.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-48.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-49.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-50.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-51.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-52.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-53.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-54.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-55.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-56.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-57.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-58.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-59.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-60.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-61.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-62.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-63.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-64.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-65.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-66.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-67.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-68.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-69.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-70.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-71.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-72.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-73.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-74.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-75.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-76.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-77.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-78.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-79.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-80.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-81.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-82.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-83.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-84.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-85.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/scratch/phase21w5_wangchong/witness/zh-hans/lunheng-index.txt
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/credibility_gate.py
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/export_static_site.py
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/fetch_source_texts.py
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/pages_preflight.py
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/source_text_cache.py
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/test_credibility_d45.py
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        web/src/generated/siteCounts.ts
+
+修法：内容差异按发布仓为准同步（cp <publish>/<path> <workspace>/<path> 反之视角色而定）；单侧缺失按角色补齐（构建图文件两边都必须有）。同步后重跑本脚本；退出码 1。

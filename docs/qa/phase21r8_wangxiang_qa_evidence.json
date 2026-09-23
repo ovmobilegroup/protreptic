@@ -1,0 +1,1142 @@
+{
+ "schema": "protreptic.phase21r8_wangxiang_qa_espinosa/v1",
+ "card": "t_b92cc1cf",
+ "date": "2026-09-24 00:37:02",
+ "argv": [
+  "verify_hzx002_qa_espinosa.py"
+ ],
+ "repo": "/opt/data/workspace/Protreptic",
+ "publish": "/opt/data/release/Protreptic-publish",
+ "totals": {
+  "pass": 177,
+  "fail": 0,
+  "skip": 0
+ },
+ "checks": [
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "A1 素材包 P01-P16 编号/字段齐全",
+   "ok": true,
+   "detail": "16 条"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "A2 落盘 10 条编号序列 == M-WX-001~010",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "A3 10 条键序一致(27 键口径)",
+   "ok": true,
+   "detail": "27 键"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "A4 10 条 verification 全 pending",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "A5 10 条 figure_code/name 口径",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "A6 id_mapping.tsv 旧号->新码 与条目 legacy_mode_id 一致",
+   "ok": true,
+   "detail": "10 行"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-001 key_quote_zh 逐字等于素材包 P01",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-001 引文 ∈ R7 该旧号(M301)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P01"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-001 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-001 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-001 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-001 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-002 key_quote_zh 逐字等于素材包 P02",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-002 引文 ∈ R7 该旧号(M302)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P02,P14"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-002 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-002 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-002 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-002 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-003 key_quote_zh 逐字等于素材包 P13",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-003 引文 ∈ R7 该旧号(M303)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P07,P08,P13"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-003 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-003 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-003 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-003 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-004 key_quote_zh 逐字等于素材包 P02",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-004 引文 ∈ R7 该旧号(M304)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P02,P03"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-004 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-004 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-004 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-004 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-005 key_quote_zh 逐字等于素材包 P04",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-005 引文 ∈ R7 该旧号(M305)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P01,P04"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-005 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-005 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-005 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-005 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-006 key_quote_zh 逐字等于素材包 P03",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-006 引文 ∈ R7 该旧号(M306)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P02,P03"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-006 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-006 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-006 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-006 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-007 key_quote_zh 逐字等于素材包 P05",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-007 引文 ∈ R7 该旧号(M307)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P05,P06"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-007 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-007 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-007 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-007 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-008 key_quote_zh 逐字等于素材包 P07",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-008 引文 ∈ R7 该旧号(M308)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P07"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-008 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-008 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-008 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-008 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-009 key_quote_zh 逐字等于素材包 P09",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-009 引文 ∈ R7 该旧号(M309)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P07,P09,P14"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-009 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-009 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-009 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-009 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B1 M-WX-010 key_quote_zh 逐字等于素材包 P11",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B2 M-WX-010 引文 ∈ R7 该旧号(M310)候选素材[独立推导]",
+   "ok": true,
+   "detail": "候选 P10,P11"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B3 M-WX-010 key_quote_en 非空且无 CJK",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B4 M-WX-010 source_chapter 可落源格式(书名号+卷/章/篇)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B5 M-WX-010 案例登记素材包编号与锚",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "B6 M-WX-010 「」片段全部可溯源(素材包子串/异文/概念标签)",
+   "ok": true,
+   "detail": "越界: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D1 modes_data 计数(WX 10 条计入主库) / total 标量 3271",
+   "ok": true,
+   "detail": "3291 条 / WX 10 / 3271"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D2 主库 Wang Xiang 10 条逐字等于落盘 entries",
+   "ok": true,
+   "detail": "matched: 10"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D3a 全库 mode_code 字段 0 重复",
+   "ok": true,
+   "detail": "重复: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D3b 全库 id 字段 0 重复",
+   "ok": true,
+   "detail": "重复: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D4 活动编码空间 0 个 M30x",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D4b 合成码口径重复集(mc|mid|id) == 合并前基线(0 新增)",
+   "ok": true,
+   "detail": "after=10 ['M-ODANOBUN-001', 'M-ODANOBUN-002', 'M-ODANOBUN-003'] / before=10 ['M-ODANOBUN-001', 'M-ODANOBUN-002', 'M-ODANOBUN-003']"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D4c mode_id 字段重复集 == 合并前基线(ODANOBUN 双表示属既有)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D5 合并提交态纯追加(旧 3271 逐对象全等 + 顶层其余键全等)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D5L 现场增量登记(合并提交后仅他卡追加 10 条, 本链前缀逐对象全等)",
+   "ok": true,
+   "detail": "增: M-LUORQ-001,M-LUORQ-002,M-LUORQ-003,M-LUORQ-004"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D6 新增 10 条内 M30x 仅存留证字段",
+   "ok": true,
+   "detail": "越界: [] | 总出现 0"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D7 合并提交态 code_maps 图档计数 213",
+   "ok": true,
+   "detail": "213"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D7L 现场增量登记(code_maps +1, 他卡)",
+   "ok": true,
+   "detail": "H-LUORQ-001"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D8 code_maps H-HZX-002 十码/十名/0 悬空/3 键",
+   "ok": true,
+   "detail": "悬空: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D9 合并提交态 code_maps 新键追加于文末",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D9L 现场追加位登记(尾键现为他卡)",
+   "ok": true,
+   "detail": "尾键: H-LUORQ-001"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D10 合并提交态 figure_names 1082 键 / H-HZX-002=王祥 / 尾键",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D10L 现场增量登记(figure_names +1, 他卡)",
+   "ok": true,
+   "detail": "H-LUORQ-001"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D11 合并提交态 scenarios_zh 2193 条 且尾 10 键 == C-WX-001~010",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D12 合并提交态 scenarios_en 2193 条 且尾 10 键 == C-WX-001~010E",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D11L/D12L 现场增量登记(他卡 10/10 条, 前缀键序全等)",
+   "ok": true,
+   "detail": "C-LUORQ-001,C-LUORQ-002,C-LUORQ-003"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D13 scenarios_zh 8 键/题名/码/模板复算/应用域",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D14 scenarios_en 同口径",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D15 scenarios_zh/en 旧键序全等(纯追加)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D16 合并提交态 scenario_tags 7498 条 且尾 20 条为本链",
+   "ok": true,
+   "detail": "7498"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D16L 现场增量登记(scenario_tags 现 7518 条, 前缀全等)",
+   "ok": true,
+   "detail": "尾: H-LUORQ-001,H-LUORQ-001,H-LUORQ-001"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D17 20 条标签 4 键/命名/每模式 zh+en 各一",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D18 scenario_tags 旧 7478 条全等(纯追加)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D19 三面同体(figure.modes == individuals_modes.modes == 合并提交态尾10)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D19L 现场三件字节未动登记",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D20 figure 面 码/名/计数/互引/旧号登记",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D21 figure 基线字段照录 R6B 修正稿",
+   "ok": true,
+   "detail": "差异字段: "
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D22 落盘镜像与主数据面字节相等",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "D23 王祥视图码集五面一致 == M-WX-001~010",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "E1 退役旧题旨(3 条全查) 活动数据面 0 命中",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "E2 旧定义句(取首 16 字) 活动数据面 0 命中",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "E3 旧 figure 自造句/伪占位/别名 0 命中",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "E4 归档三件 sha256 与 R7 登记一致(未变)",
+   "ok": true,
+   "detail": "H-HZX-002_figures.json=8c40067cb045; H-HZX-002_figures_modes.json=1e3e97d41f41; H-HZX-002_research_phase20.md=8b63cda2991a"
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "E5 1fe4c451 提交存在且未触碰归档三件",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "E5 d95a7b53 提交存在且未触碰归档三件",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "E5 68d6e0b0 提交存在且未触碰归档三件",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F1 M-WX-001 题旨 == R7 建议(侍疾尝药法) 且锚 P01",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F2 M-WX-002 更名 == R7 建议(卧冰求鲤法)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F3 M-WX-008 题旨 == R7 建议(立身五本：信德孝悌让) 且独立成目",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F4 M-WX-009 子项降级(元代/二十四孝/降级登记, 无 宋以降 断言)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F5 A08 中性表述(长揖晋王) 登记于 figure 面且无 司马昭 断言",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F6 底本用字: 006 作 灸 不作 炙 / 008 作 覆 不作 復",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F7 异文 V2/V3 登记于条目备注(灸/炙, 覆/復)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F8 异文 V1/V2/V3 登记于 figure caveats",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F9 场景前缀 C-WX 落盘前 0 占用(对照备份)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "A/B/D/E/F 数据面(离线, 第二实现)",
+   "label": "F10 全库无 C-HZX2/C-WX2 变体前缀",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: modes_library_entries.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: combined_library_entries.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: H-HZX-002.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: H-HZX-002_modes.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: id_mapping.tsv",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: category_mapping.tsv",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: scenario_notes.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: phase21r8_wangxiang_landing_manifest.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1 上游件与 A1 提交(1fe4c451)字节一致: build_phase21r8_wangxiang.py",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S1b 上游核验脚本变更 == 合并口径登记(0<n<=40 行, 含合并标记)",
+   "ok": true,
+   "detail": "22 行"
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S2 合并提交态 sha256 == A2 manifest.after: modes_data.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S2 合并提交态 sha256 == A2 manifest.after: code_maps.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S2 合并提交态 sha256 == A2 manifest.after: scenarios_zh.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S2 合并提交态 sha256 == A2 manifest.after: scenarios_en.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S2 合并提交态 sha256 == A2 manifest.after: scenario_tags.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S2 合并提交态 sha256 == A2 manifest.after: figure_names.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S3 备份件 sha256 == A2 manifest.before: modes_data.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S3 备份件 sha256 == A2 manifest.before: code_maps.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S3 备份件 sha256 == A2 manifest.before: scenarios_zh.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S3 备份件 sha256 == A2 manifest.before: scenarios_en.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S3 备份件 sha256 == A2 manifest.before: scenario_tags.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S3 备份件 sha256 == A2 manifest.before: figure_names.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S2L 现场 sha 漂移登记(合并提交后他卡改动, 不回滚)",
+   "ok": true,
+   "detail": "6/6 件漂移: modes_data.json,code_maps.json,scenarios_zh.json,scenarios_en.json,scenario_tags.json,figure_names.json"
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S4 合并提交 d95a7b53 收录合并面六件(提交即落盘)",
+   "ok": true,
+   "detail": "18 路径"
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S4L 合并提交后合并面改动区间登记(他卡在制/已提交, 逐提交列示)",
+   "ok": true,
+   "detail": "无"
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S4c 本链入库对象现场未被改动(六件中本链新增部分逐对象可查)",
+   "ok": true,
+   "detail": "figure/individuals_modes 字节全等"
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S5 三卡提交均在工作仓 HEAD 祖先链",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S6 1fe4c451 未触碰归档三件",
+   "ok": true,
+   "detail": "18 路径"
+  },
+  {
+   "group": "S 上游冻结面字节/git",
+   "label": "S6 d95a7b53 未触碰归档三件",
+   "ok": true,
+   "detail": "18 路径"
+  },
+  {
+   "group": "C 见证独立复核(现网/缓存)",
+   "label": "C1 W1(维基文库卷033 raw) P01-P12 逐字命中",
+   "ok": true,
+   "detail": "命中 12/12: P01,P02,P03,P04,P05,P06,P07,P08,P09,P10,P11,P12"
+  },
+  {
+   "group": "C 见证独立复核(现网/缓存)",
+   "label": "C2 W1 异文方向(基字 未/灸/覆 在, 异字 末/炙/復 不在)",
+   "ok": true,
+   "detail": "W1 取文: cache"
+  },
+  {
+   "group": "C 见证独立复核(现网/缓存)",
+   "label": "C3 W3(汉典古籍卷三十三) 抽样 7 条逐字命中",
+   "ok": true,
+   "detail": "命中 7/7: P01,P02,P04,P07,P09,P10,P12"
+  },
+  {
+   "group": "C 见证独立复核(现网/缓存)",
+   "label": "C4 W3 与 W1 用字一致(无 炙/復 异文)",
+   "ok": true,
+   "detail": "取文: cache"
+  },
+  {
+   "group": "C 见证独立复核(现网/缓存)",
+   "label": "C5 W5(二十四孝) P14 诗赞 + P15 正文逐字命中",
+   "ok": true,
+   "detail": "取文: cache"
+  },
+  {
+   "group": "C 见证独立复核(现网/缓存)",
+   "label": "C6 W4(搜神記卷十一) P16 王祥条全文逐字命中",
+   "ok": true,
+   "detail": "取文: cache"
+  },
+  {
+   "group": "C 见证独立复核(现网/缓存)",
+   "label": "C7 W2(四库本卷033) 异文 末/炙/復 在、基字 未/灸/覆 不在",
+   "ok": true,
+   "detail": "取文: cache"
+  },
+  {
+   "group": "G 门禁复跑",
+   "label": "G1 credibility_gate --hard-fail exit 0 且新增(基线外) 0 条",
+   "ok": true,
+   "detail": "exit=0"
+  },
+  {
+   "group": "G 门禁复跑",
+   "label": "G2 verify_findings --hard-fail exit 0",
+   "ok": true,
+   "detail": "exit=0"
+  },
+  {
+   "group": "G 门禁复跑",
+   "label": "G3 verify_source_links --hard-fail exit 0",
+   "ok": true,
+   "detail": "exit=0"
+  },
+  {
+   "group": "G 门禁复跑",
+   "label": "G4 apply_verification_status --check 漂移 19 条(本链 9 条纪律(4) 如实登记 + 他卡在制追加; 未回填)",
+   "ok": true,
+   "detail": "exit=1 drift=19"
+  },
+  {
+   "group": "G 门禁复跑",
+   "label": "G5 未跑 --write 回填: 本链 10 条在库仍全 pending",
+   "ok": true,
+   "detail": "命中 10 条"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hf0 冻结 worktree @ d95a7b53 (HEAD 钉死)",
+   "ok": true,
+   "detail": "/opt/data/profiles/espinosa/home/.cache/wxqa_frozen_wt @ d95a7b53c9a9"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hf1 冻结态 export_static_site exit 0 且 figures=1057/源=3271/发布=3211/by-figure=317",
+   "ok": true,
+   "detail": "exit=0"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hf2 冻结态 gen_web_site_counts exit 0 且 siteCounts.ts 3211 x 317",
+   "ok": true,
+   "detail": "exit=0"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hf3 冻结态 meta.json 3271/3211/317/1057/60 口径",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hf4 冻结态锚点 EXPECT_MODES=3271 / EXPECT_BY_FIGURE=317 / EXPECT_FIGURES=1057 两处一致",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hf2b 冻结态 apply_site_counts 存证(冻结 worktree 无本地 dist, 属工作区态)",
+   "ok": true,
+   "detail": "exit=1"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hf5 冻结态 build_daily_index exit 0 且 3211/317/317",
+   "ok": true,
+   "detail": "exit=0"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hf6 冻结态 pages_preflight --stage data 全部断言通过",
+   "ok": true,
+   "detail": "exit=0"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hl1 现场态 siteCounts.ts 与 meta.json 自洽(他卡复跑产出)",
+   "ok": true,
+   "detail": "siteCounts 3221 x 318 / meta 3221 x 318"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hl2 现场态 meta 与源库计数自洽",
+   "ok": true,
+   "detail": "raw 3291 / 去重 3281 / 发布 3221"
+  },
+  {
+   "group": "H 站点计数与链条(冻结态复现+现场登记)",
+   "label": "Hl3 现场态链条复跑在先证据留档(上一运行, 主工作区)",
+   "ok": true,
+   "detail": "5/5 件"
+  },
+  {
+   "group": "I 两仓 parity",
+   "label": "I1 官方机检(check_repo_parity) 本链路径零差异",
+   "ok": true,
+   "detail": "本链差异: [] | 全量差异 338 处"
+  },
+  {
+   "group": "I 两仓 parity",
+   "label": "I2 差异全为在制未跟踪件/本卡待镜像件(无 tracked 内容漂移)",
+   "ok": true,
+   "detail": "未归属: "
+  },
+  {
+   "group": "I 两仓 parity",
+   "label": "I2b 差异归属登记",
+   "ok": true,
+   "detail": "data/audit=7; data/code_maps.json=1; data/figure_names.json=1; data/figures=1; data/individuals=2; data/modes_data.json=1; data/scenario_tags.json=1; data/scenarios_en.json=1; data/scenarios_zh.json=1; data/source_links."
+  },
+  {
+   "group": "I 两仓 parity",
+   "label": "I3 本链路径集(边界内 30 件)两仓 HEAD 字节一致",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "I 两仓 parity",
+   "label": "I4 边界外路径登记(根脚本不随发布仓, 与 R6 QA 先例一致; 5 件)",
+   "ok": true,
+   "detail": "tools/build_phase21r8_wangxiang.py; tools/export_static_site.py; tools/pages_preflight.py; verify_phase21r8_wangxiang.py; verify_wx_merge_indep.py"
+  },
+  {
+   "group": "I 两仓 parity",
+   "label": "I5 发布仓 HEAD 祖先链含 9c4ff9e/dab8213",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "I 两仓 parity",
+   "label": "I6 远端 origin/main 含镜像提交(dab8213d5bfd)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "I 两仓 parity",
+   "label": "I7 发布仓本链路径无未提交改动",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "group": "J 反向注入自检",
+   "label": "J 反向注入判据有效性 10/10 命中 FAIL",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "skips": [],
+ "injections": [
+  {
+   "name": "注入1: key_quote_zh 改字",
+   "target": "B1 M-WX-002 key_quote_zh 逐字等于素材包 P02",
+   "fired": true
+  },
+  {
+   "name": "注入2: 落盘条数 -1",
+   "target": "D2 主库 Wang Xiang 10 条逐字等于落盘 entries",
+   "fired": true
+  },
+  {
+   "name": "注入3: 主库条数 -1",
+   "target": "D1 modes_data 计数(WX 10 条计入主库) / total 标量 3271",
+   "fired": true
+  },
+  {
+   "name": "注入4: 场景 text_zh 篡改",
+   "target": "D13 scenarios_zh 8 键/题名/码/模板复算/应用域",
+   "fired": true
+  },
+  {
+   "name": "注入5: 标签语言改错",
+   "target": "D17 20 条标签 4 键/命名/每模式 zh+en 各一",
+   "fired": true
+  },
+  {
+   "name": "注入6: 旧号 M301 复现",
+   "target": "D4 活动编码空间 0 个 M30x",
+   "fired": true
+  },
+  {
+   "name": "注入7: figure 面植入旧题旨",
+   "target": "E1 退役旧题旨(3 条全查) 活动数据面 0 命中",
+   "fired": true
+  },
+  {
+   "name": "注入8: 题旨回退",
+   "target": "F1 M-WX-001 题旨 == R7 建议(侍疾尝药法) 且锚 P01",
+   "fired": true
+  },
+  {
+   "name": "注入9: 悬空互引",
+   "target": "D8 code_maps H-HZX-002 十码/十名/0 悬空/3 键",
+   "fired": true
+  },
+  {
+   "name": "注入10: 基线字段偏离修正稿",
+   "target": "D21 figure 基线字段照录 R6B 修正稿",
+   "fired": true
+  }
+ ],
+ "anchors": {
+  "modes_data_sha256": "2d3eb9eaf41bc95e7870bae98ced5eeee46ff216272d6dfa444c5441c0a6a964",
+  "entries_sha256": "e2b9f472c13e6826244dbb31d9afa6a02fb90b910aafaf979ae4f26bdbc9c143",
+  "figure_sha256": "eb7b7f5c1c691439c51039132ff7980eecaddcd8a320124985da4400d90f69cb",
+  "duplicates_sha256": {
+   "data/figures/_duplicates/H-HZX-002_figures.json": "8c40067cb04565a6504c27f627c710cae0b4b79cf088ae897bb6e3c6eee25e1e",
+   "data/figures/_duplicates/H-HZX-002_figures_modes.json": "1e3e97d41f4135cbdc1a6cb4de812e8d40b3d7c86ba9f68df03d749e07f87b00",
+   "data/figures/_duplicates/H-HZX-002_research_phase20.md": "8b63cda2991a5b969f3eb2d03a61df31aa9cef55d1ff55a98b245fa549a252b3"
+  }
+ }
+}

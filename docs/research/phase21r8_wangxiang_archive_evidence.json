@@ -1,0 +1,284 @@
+{
+ "schema": "protreptic.r8_wangxiang_doc_closure_evidence/v1",
+ "card": "t_a8f544f5",
+ "closes_card": "t_557aeac1",
+ "phase": "Phase21-R8 王祥（H-HZX-002）归档页收尾补交",
+ "worker": "pigafetta",
+ "generated_at_cst": "2026-09-24 01:33:03 (CST)",
+ "deliverables": {
+  "page": {
+   "path": "docs/figures/H-HZX-002.md",
+   "sha256": "9c7094f9c68dcf14ca94a233b5e70a373c7e496587756b4cb2fdadd2f1bb3bed",
+   "bytes": 6509,
+   "lines": 93,
+   "first_commit": "WS1（见 receipts；v2 回执行给出精确 sha）"
+  },
+  "generator": {
+   "path": "build_hzx002_archive.py",
+   "sha256": "d3f1742c85100b440b67accc4a8657f3916103a80c196ca45f501a889e590719",
+   "committed": "bc3824f433ec1db6ae7fff074c15ece8e0a17df6"
+  },
+  "verifier": {
+   "path": "verify_hzx002_archive.py",
+   "sha256": "31c9d23d7c0e9a87ecc71990e860e6d76aabef453600777b2c274358ebca4692",
+   "committed": "bc3824f433ec1db6ae7fff074c15ece8e0a17df6"
+  },
+  "report": {
+   "path": "docs/research/phase21r8_wangxiang_archive_report.md",
+   "sha256_v1": "87c78062aee3d42a9f7a0aca592f28624ce6dd93cdd9132e05edec074646ded2",
+   "placeholder_sha256": "f1f0f28e243a9e8fe37964e65d83ce13b75fc0444400cbc8164e4a05f1bfb3eb",
+   "placeholder_commit": "dc9fe52942e8ece57c38519763b3061176288237"
+  },
+  "evidence": {
+   "path": "docs/research/phase21r8_wangxiang_archive_evidence.json"
+  },
+  "qa_mirror_scope": "19 件（docs/qa/phase21r8_wangxiang_qa_*）",
+  "scripts_not_mirrored": [
+   "build_hzx002_archive.py",
+   "verify_hzx002_archive.py",
+   "verify_hzx002_qa_espinosa.py"
+  ]
+ },
+ "sources_sha256": {
+  "data/figures/H-HZX-002.json": "eb7b7f5c1c691439c51039132ff7980eecaddcd8a320124985da4400d90f69cb",
+  "data/individuals/H-HZX-002_modes.json": "ddc9bcbf8c5f6688056624381b8a0a9679d7f3d9f420f3bdc315c1919842ffdf",
+  "data/modes_data.json": "2d3eb9eaf41bc95e7870bae98ced5eeee46ff216272d6dfa444c5441c0a6a964",
+  "data/scenarios_zh.json": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+  "data/scenarios_en.json": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+  "data/code_maps.json": "53154b9ddd5e2e3f4ae0bbde746d4ce6ffc41c4f7bd91ce7c9fa047ae4999d83",
+  "data/figure_names.json": "69f531fd0153fd3b762ca9641657121552a792ae420d6ba98016b209a7ddf3fd",
+  "data/scenario_tags.json": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+  "data/figures/_duplicates/H-HZX-002_figures.json": "8c40067cb04565a6504c27f627c710cae0b4b79cf088ae897bb6e3c6eee25e1e",
+  "data/figures/_duplicates/H-HZX-002_figures_modes.json": "1e3e97d41f4135cbdc1a6cb4de812e8d40b3d7c86ba9f68df03d749e07f87b00",
+  "data/figures/_duplicates/H-HZX-002_research_phase20.md": "8b63cda2991a5b969f3eb2d03a61df31aa9cef55d1ff55a98b245fa549a252b3"
+ },
+ "assertions": {
+  "build_idempotent": {
+   "rc": 0,
+   "line": "基本断言通过 / == IDEMPOTENT ==（字节不变）",
+   "pre_sha256": "9c7094f9c68dcf14ca94a233b5e70a373c7e496587756b4cb2fdadd2f1bb3bed",
+   "post_sha256": "9c7094f9c68dcf14ca94a233b5e70a373c7e496587756b4cb2fdadd2f1bb3bed"
+  },
+  "doc_verifier": {
+   "rc": 0,
+   "line": "验证通过",
+   "scope": "结构级（标题/九节/模式 10/10/登记链行）",
+   "coverage_gap": "不覆盖 §四/五/六/§九 陈述行与数据面一致性（缺陷 D1-D6 未被拦截）"
+  }
+ },
+ "chain": [
+  {
+   "seg": "R6B 归档",
+   "card": "t_f3aabe2c",
+   "commit": "d33e1122f45e530b96a9bf86fd4c7f9482aca45d"
+  },
+  {
+   "seg": "R7 落源研究",
+   "card": "t_b5454647",
+   "commit": "5c18391858fc0cd546c3c045ccd65b4870ec4482",
+   "publish_mirror": "646a9c7"
+  },
+  {
+   "seg": "R8 A1 重建落盘",
+   "card": "t_5c183962",
+   "commit": "1fe4c451aa48acb673960a7d3ac25844dd21b717"
+  },
+  {
+   "seg": "R8 A2 合并入库",
+   "card": "t_8c521af7",
+   "commit": "d95a7b53c9a9802818a13c5dd4b65774329003b7",
+   "receipt_v2": "68d6e0b0ce934752c884aaee3631bbce43914315",
+   "publish_mirror": "9c4ff9e / dab8213"
+  },
+  {
+   "seg": "R8 A3 QA 验收",
+   "card": "t_b92cc1cf",
+   "commit": "ae72a7d25c0df0b29abbf5c6350237649e297855",
+   "receipt": "e9fdddec161a64d1cb4f0126e74ecd989ef3d826"
+  },
+  {
+   "seg": "R8 文档归档",
+   "card": "t_557aeac1",
+   "commit_tools": "bc3824f433ec1db6ae7fff074c15ece8e0a17df6",
+   "commit_report_placeholder": "dc9fe52942e8ece57c38519763b3061176288237"
+  },
+  {
+   "seg": "收尾补交（本卡）",
+   "card": "t_a8f544f5",
+   "ws_commit_v1": "pending",
+   "publish_commit_v1": "pending",
+   "push_v1": "pending"
+  }
+ ],
+ "qa_reference": {
+  "card": "t_b92cc1cf",
+  "tallies": "177 PASS / 0 FAIL / 0 SKIP",
+  "inject_selftest": "10/10",
+  "report": "docs/qa/phase21r8_wangxiang_qa_report.md",
+  "evidence": "docs/qa/phase21r8_wangxiang_qa_evidence.json / .txt",
+  "gates": "docs/qa/phase21r8_wangxiang_qa_gates/（15 件）"
+ },
+ "qa_mirror": {
+  "files": 19,
+  "sha256": {
+   "docs/qa/phase21r8_wangxiang_qa_report.md": "038de9f5e23afdacb69255da7dee48447467c5318da8687f24ad11f24e655068",
+   "docs/qa/phase21r8_wangxiang_qa_evidence.json": "ed69be46812c3b51fcaaaded1a270baae296e297096bb15a7529553c7784b6c2",
+   "docs/qa/phase21r8_wangxiang_qa_evidence.txt": "e84bc31ddba7ab814b6f7f560701d3ef1dcf3ca5ae2438815ada9d49fb51c2b2",
+   "docs/qa/phase21r8_wangxiang_qa_selftest.json": "6b80f6e14117f334cd92eadf118821205caea134297cf59ccf1bad7ccdd39563",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain1_export_static_site.txt": "d71654472f5ee472191109ead0ab6a76aaf7b69771c5cc7f1a662d403f4e4e42",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain2_gen_web_site_counts.txt": "4f4799d2e94cb60b12b9e4bf48d0a1d8c464b4d34c5038c3ed38dfab36f24f43",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain3_apply_site_counts.txt": "ff64d111d6e9cd4dac282f94485a4c99ef38740674816cb50ed7db284484145d",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain4_build_daily_index.txt": "8ce6485e53d26c9b044b5e85f58a9764f539142b77275260fafe414cb7c4ac84",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain5_pages_preflight.txt": "711cfb986f61ace10dc37fc32da8ac54393689e73806ad73c9475efc298eec0f",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain1_export_static_site.txt": "6f49b04c19dfd846759588e419ca12f6a7ab4adc0e7e1bdec9750f02b1bb53c9",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain2_gen_web_site_counts.txt": "77f9e49115b097d8a302ab867508c19104aa502cecbdc9d9408e205bbafa126a",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain2b_apply_site_counts.txt": "0292bb4379089cb3dab06aa1937faa26a144a3c0c765ee21e729f0219e96a644",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain3_build_daily_index.txt": "4526ef79ac12ca57da43744f6c9938f9503fbfb26d7d275601dd9f55b73ff5cf",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain4_pages_preflight.txt": "cc3e63f4f2cb13f3c56ad828db79f807040811ebdbc8616c35c146f1a6ffe294",
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_apply_verification_status.txt": "753b7ff695ec71a83e47fa158139b6443faddc337732063fb6d389419c42f66d",
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_credibility_gate.txt": "5900cff31bb67418adca0ff620778b85c0aa5ef15453684cf5f4c03f8e7ab382",
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_findings.txt": "b710e2d82be39ce5c69c4497e18f2af37a0c425ee8b721efa90357b2bed5f5c2",
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_source_links.txt": "50f65a6daf1db58e0836178a92538597c4aabb3887140ddf977c239417e99bf0",
+   "docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt": "d42428c05e136bf1214dfa2229e7abc986ce679200586aa83be4905308418f62"
+  },
+  "bytes": {
+   "docs/qa/phase21r8_wangxiang_qa_report.md": 8378,
+   "docs/qa/phase21r8_wangxiang_qa_evidence.json": 33770,
+   "docs/qa/phase21r8_wangxiang_qa_evidence.txt": 13303,
+   "docs/qa/phase21r8_wangxiang_qa_selftest.json": 2432,
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain1_export_static_site.txt": 4013,
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain2_gen_web_site_counts.txt": 443,
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain3_apply_site_counts.txt": 1152,
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain4_build_daily_index.txt": 312,
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain5_pages_preflight.txt": 266,
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain1_export_static_site.txt": 4158,
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain2_gen_web_site_counts.txt": 244,
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain2b_apply_site_counts.txt": 258,
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain3_build_daily_index.txt": 434,
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain4_pages_preflight.txt": 340,
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_apply_verification_status.txt": 1564,
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_credibility_gate.txt": 133303,
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_findings.txt": 1550,
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_source_links.txt": 33767,
+   "docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt": 63607
+  },
+  "dst": "publish docs/qa/（byte-exact，按曾子/R6 先例）"
+ },
+ "mirror": {
+  "publish_repo": "/opt/data/release/Protreptic-publish",
+  "planned_files": [
+   "docs/figures/H-HZX-002.md",
+   "docs/research/phase21r8_wangxiang_archive_report.md",
+   "docs/research/phase21r8_wangxiang_archive_evidence.json",
+   "docs/qa/phase21r8_wangxiang_qa_report.md",
+   "docs/qa/phase21r8_wangxiang_qa_evidence.json",
+   "docs/qa/phase21r8_wangxiang_qa_evidence.txt",
+   "docs/qa/phase21r8_wangxiang_qa_selftest.json",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain1_export_static_site.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain2_gen_web_site_counts.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain3_apply_site_counts.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain4_build_daily_index.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/chain5_pages_preflight.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain1_export_static_site.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain2_gen_web_site_counts.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain2b_apply_site_counts.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain3_build_daily_index.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/frozen_chain4_pages_preflight.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_apply_verification_status.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_credibility_gate.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_findings.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/gate_verify_source_links.txt",
+   "docs/qa/phase21r8_wangxiang_qa_gates/parity_check_repo.txt"
+  ],
+  "byte_exact": "pending（v2 回执行给出提交 sha 与逐件比对结果）"
+ },
+ "parity": {
+  "tool": "tools/check_repo_parity.py --json",
+  "run0_before": {
+   "status": "DIFF",
+   "diffs": 315,
+   "content_diff": 6,
+   "only_workspace": 309,
+   "chain_paths_in_diffs": 21,
+   "note": "本链 21 条 = 页 untracked 1 + 报告 1 + QA 19；差值归因他链（W5/W4/luorq QA）"
+  },
+  "run_final": "pending（v2 回执行）",
+  "chain_paths_diffs": "pending（预期 0）"
+ },
+ "discrepancies_registered": {
+  "note": "本卡新做内容一致性核验；页按 R8-A 产物原样提交（未改一字节），以下按实况如实登记（未伪修）",
+  "items": [
+   {
+    "id": "D1",
+    "page_line": 70,
+    "section": "四",
+    "claim": "本件在 data/scenarios_zh.json 中无 C-WX 规范场景条目",
+    "reality": "C-WX-001~010 在库（10 条，mode_code 覆盖 M-WX-001~010；scenarios_en 侧 C-WX-001E~010E 10 条）"
+   },
+   {
+    "id": "D2",
+    "page_line": 74,
+    "section": "五",
+    "claim": "模式级 modern_applications_zh 空",
+    "reality": "10 条模式（图档内嵌与伴随包两面）modern_applications_zh 各 4 条非空"
+   },
+   {
+    "id": "D3",
+    "page_line": 78,
+    "section": "六",
+    "claim": "code_maps.figures.H-HZX-002.cross_references 为空",
+    "reality": "非空，1 条（target_figure_code=H-ZX-001，relation_type=comparison；d95a7b53 已入库）"
+   },
+   {
+    "id": "D4",
+    "page_line": 92,
+    "section": "九",
+    "claim": "缺项登记：图档无 historical_significance｜无 core_thoughts｜无 influence｜tags 为 null",
+    "reality": "四字段全在（210 字 / 10 条 / 126 字 / 15 项）；本页 §一/§二/§七/§八 即逐字自这些字段装配——页内自相矛盾"
+   },
+   {
+    "id": "D5",
+    "page_line": 93,
+    "section": "九",
+    "claim": "归档动作：旧世代档案页字节归档至 data/figures/_duplicates/H-HZX-002_legacy_docs_page.md",
+    "reality": "该文件不存在（file_exists=False，全仓 0 命中）；R6B 归档为 3 件（_figures.json / _figures_modes.json / _research_phase20.md）；archive_recommendation.json 明记 site_docs_page=「无」"
+   },
+   {
+    "id": "D6",
+    "page_line": 90,
+    "section": "九",
+    "claim": "（体例/规格缺口）登记链未含 commit 提交号",
+    "reality": "文档卡卡面明文要求「含 5c183918、A1/A2/A3 各卡提交」；无头部登记链块/计数台账/逐条 evidence/口径备注（对照罗瑞卿/R6 体例）"
+   }
+  ],
+  "root_cause": "生成器缺项行为硬编码模板文本（不读数据面、无条件输出）；验收脚本仅结构断言——两类断言均未覆盖陈述行与数据面一致性",
+  "fix_route": "建议船长裁定路由修正卡（改生成器数据驱动 + 验收脚本增陈述性断言 + §九补 commit 链登记）；本卡未擅自修改",
+  "evidence": {
+   "legacy_docs_page_exists": false,
+   "cwx_scenarios_zh": 10,
+   "cwx_scenarios_en": 10,
+   "cross_refs": 1,
+   "tags": 15,
+   "modern_apps_per_mode": 4
+  }
+ },
+ "receipts": {
+  "ws_commit_v1": "pending",
+  "publish_commit_v1": "pending",
+  "push_v1": "pending",
+  "ws_commit_v2": "pending",
+  "publish_commit_v2": "pending",
+  "push_v2": "pending",
+  "remote_main": "pending",
+  "note": "v1 提交与镜像 push 后由 v2 轮补记（对齐 t_2d15bd2e 先例）"
+ },
+ "zero_data_change": {
+  "method": "git diff --cached --name-only == 白名单（v1 实测）",
+  "whitelist": [
+   "docs/figures/H-HZX-002.md",
+   "docs/research/phase21r8_wangxiang_archive_report.md",
+   "docs/research/phase21r8_wangxiang_archive_evidence.json"
+  ],
+  "data_files_touched": 0
+ }
+}

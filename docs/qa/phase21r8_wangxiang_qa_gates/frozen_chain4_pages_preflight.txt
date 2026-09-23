@@ -1,0 +1,5 @@
+$ python3 tools/pages_preflight.py --stage data   (cwd=/opt/data/profiles/espinosa/home/.cache/wxqa_frozen_wt @ d95a7b53)
+
+      figures=1057 modes=3271 published=3211 隔离命中=0 figure shards=1057 by-figure shards=317
+      daily: 3211 条（by-figure 分片 3211 条）names=3211 tz=Asia/Shanghai
+[OK] stage=data：全部断言通过
