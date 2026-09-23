@@ -15,7 +15,7 @@
 - code: H-LUORQ-001｜拼音: Luo Ruiqing｜生卒: 1906/1978｜时代: 现代/Modern Era｜模式计数: 10
 - modes: M-LUORQ-001 ~ M-LUORQ-010（旧号 M351 ~ M360 重编；逐条对照见各模式 `legacy_mode_id`）
 - 载荷: `data/figures/H-LUORQ-001.json`｜`data/individuals/H-LUORQ-001_modes.json`｜主库 `data/modes_data.json`（四面同体: 图档内嵌 = 伴随包 = 主库 = landing combined，逐对象全等）
-- 登记链（R6C 隔离 → R7 核名 → R8 重做全链）: **R6C 隔离清档** `7b767f39`（卡 t_4a9cf2cb, albo；旧载荷「名实不符（串档）」隔离归档；旧 docs 占位页随件撤下（字节归档 _duplicates））；**R7 核名** `8132b121`（卡 t_261185a8, serrano；C 组核名报告: 罗瑞卿身份真实、载荷归属错位 -> 判「研究重做」（非改名复用））；**R8 深度研究（B1 素材包）** `报告随落盘提交 21edc5f8 入库`（卡 t_ee82fbc3, serrano；10 条模式逐条落源素材包（见证 W1-W21；1966 文件仅存证、不作史实来源））；**R8 重建落盘** `21edc5f8`（卡 t_bf2d9b82, elcano；M-LUORQ-001~010 + figure/individuals/_modes 三件 + 12 件落地包；独立核验 69 PASS/0 FAIL；证据刷新 da073117、收尾回执 8725ddff）；**R8 合并入主库** `工作树已落地、未提交`（卡 t_08bbb73d, barbosa；+10 条 / 注册 / 场景 +10+10 / 标签 +20 / 顶层旧块处置；提交·镜像·push 归收尾卡 t_2d15bd2e（在途））；**R8 QA 独立验收** `产物未提交`（卡 t_8773cb6b, espinosa；第二实现 verify_luorq_qa_espinosa.py: 103 PASS / 12 FAIL / 17 INFO；FAIL 归因见第九节（时点性/判据细节/开放项））；**R8 文档归档** `本卡`（卡 t_d9cb98bb, pigafetta；本页首次装配；生成器 build_luorq_r8_archive.py（幂等）+ 文档层独立验收 verify_luorq_r8_archive.py）
+- 登记链（R6C 隔离 → R7 核名 → R8 重做全链）: **R6C 隔离清档** `7b767f39`（卡 t_4a9cf2cb, albo；旧载荷「名实不符（串档）」隔离归档；旧 docs 占位页随件撤下（字节归档 _duplicates））；**R7 核名** `8132b121`（卡 t_261185a8, serrano；C 组核名报告: 罗瑞卿身份真实、载荷归属错位 -> 判「研究重做」（非改名复用））；**R8 深度研究（B1 素材包）** `报告随落盘提交 21edc5f8 入库`（卡 t_ee82fbc3, serrano；10 条模式逐条落源素材包（见证 W1-W21；1966 文件仅存证、不作史实来源））；**R8 重建落盘** `21edc5f8`（卡 t_bf2d9b82, elcano；M-LUORQ-001~010 + figure/individuals/_modes 三件 + 12 件落地包；独立核验 69 PASS/0 FAIL；证据刷新 da073117、收尾回执 8725ddff）；**R8 合并入主库** `工作仓 0cbf6ab6（2026-09-24 补交）`（卡 t_08bbb73d, barbosa；+10 条 / 注册 / 场景 +10+10 / 标签 +20 / 顶层旧块处置；已补交工作仓 0cbf6ab6、镜像发布仓 ec0a06b 并 push；独立核验 83 PASS/2 FAIL 留 QA 裁定）；**R8 QA 独立验收** `产物未提交`（卡 t_8773cb6b, espinosa；第二实现 verify_luorq_qa_espinosa.py: 103 PASS / 12 FAIL / 17 INFO；FAIL 归因见第九节（时点性/判据细节/开放项）；G01b 镜像清单经收尾卡镜像 ec0a06b 收敛，残留 10 条归 t_2d15bd2e 剩余步）；**R8 文档归档** `本卡`（卡 t_d9cb98bb, pigafetta；本页首次装配；生成器 build_luorq_r8_archive.py（幂等）+ 文档层独立验收 verify_luorq_r8_archive.py）
 - 报告索引: 隔离 `docs/research/phase21r6C_luorq_isolation_note.md`｜核名 `docs/research/phase21r7_cgroup_identity_report.md`｜素材包 `docs/research/phase21r8_luorq_sourcing_report.md`｜落盘 `docs/research/phase21r8_luorq_rebuild_report.md`｜合并 `docs/research/phase21r8_luorq_merge_evidence.json`｜QA `docs/qa/phase21r8_luorq_qa_evidence/result.txt`｜归档 `docs/research/phase21r8_luorq_archive_report.md`
 - 页面字段映射: 一←historical_significance｜二←core_thoughts｜三←individuals/H-LUORQ-001_modes.json（10 模式）｜四←scenarios_zh/en（C-LUORQ-001~010 与 E）｜五←modern_applications_zh｜六←code_maps.figures.H-LUORQ-001.cross_references｜七←tags｜八←influence｜九←QA/敏感表述口径/缺项/台账
 - caveats（图档逐条）:
@@ -402,7 +402,7 @@
 
 ## 九、QA 验收记录
 
-- 登记链: 见头部（R6C 隔离 → R7 核名 → R8 研究/落盘/合并/QA → 归档；各段卡号/执行者/提交号与报告路径齐备；合并段提交·镜像·push 归收尾卡 t_2d15bd2e（在途），QA 段产物未提交——均如实登记，届时以 git 实测为准）。
+- 登记链: 见头部（R6C 隔离 → R7 核名 → R8 研究/落盘/合并/QA → 归档；各段卡号/执行者/提交号与报告路径齐备；合并段已由收尾卡 t_2d15bd2e 补交（工作仓 0cbf6ab6；发布仓镜像 ec0a06b 并 push），QA 段产物未提交——均如实登记（在途标记注销；快照以 git 实测为准）。
 - 核验口径（诚实登记）: 本件 10/10 条 `verification.status=pending`；evidence 明写素材包逐字口径；0 条自称 verified，核验另立卡。
 - 逐条 evidence（去重后 9 条）:
   - （1 条）引文逐字取自 B1 素材包（§三 quotes 第 1 段；见证 W1）；核验 pending，入库前须走独立核验流程
@@ -422,4 +422,4 @@
 - 缺项登记（按现状保真，未补写）: 图档 `key_positions` 为空（按现状保真）；图档 `sources` 为空（按现状保真）；图档 `birth_place` 为空（按现状保真）；图档 `primary_language` 为空（按现状保真）；图档 `civilization_sphere` 为空（按现状保真）；图档 `courtesy_name` 为空（头部未列，按现状保真）；图档 `style_name` 为空（头部未列，按现状保真）。
 - 口径备注: 第二节 取自 `core_thoughts`（本件无 `unique_thinking`）；第四节 场景 `text` 为合并卡按模板逐字复算（D04 PASS）；第六节 图档与 `code_maps` 同名条目逐字全等；敏感表述（本件涉文革前史）按史料表述保留原文并加注 caveats，不作价值判断（评估报告口径）。
 - 归档时点计数台账（canonical, md 与报告互证）: modes=3291; total=3271; code_maps=214; scenarios_zh=2203; scenarios_en=2203; scenario_tags=7518; figure_names=1083
-- 归档动作（本卡）: R6C 前无在册旧页（旧占位页已字节归档于 `_duplicates`，见头部）；本页由 `build_luorq_r8_archive.py`（幂等，内置逐字断言）首次装配，文档层独立验收 `verify_luorq_r8_archive.py`（逐页断言全过，明细见归档报告第四节）。
+- 归档动作（本卡）: R6C 前无在册旧页（旧占位页已字节归档于 `_duplicates`，见头部）；本页由 `build_luorq_r8_archive.py`（幂等，内置逐字断言）首次装配，文档层独立验收 `verify_luorq_r8_archive.py`（逐页断言全过，明细见归档报告第四节；镜像：发布仓 P1 2b3681d，push 已完成（快照））。

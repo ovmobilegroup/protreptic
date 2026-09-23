@@ -19,7 +19,7 @@
 - R6C 隔离（卡 t_4a9cf2cb，commit 7b767f39）：旧载荷（名实不符，串档）已隔离归档；旧 docs 占位页（3,816 B，sha256 3fa3aa3fa375d63d7b93f554f4f61b71aa784f7dec142ab8a1a6ee445f5112f2）字节归档于 data/figures/_duplicates/H-LUORQ-001_archive_page.md（登记 phase21r6C_archive_evidence.json）；docs/figures/ 下无在册旧页 → 本页为 R8 重做后首次装配。
 - R7 核名（卡 t_261185a8，commit 8132b121）：判定：身份真实，载荷归属错位，判「研究重做」（非改名复用）。
 - R8 落盘（卡 t_bf2d9b82，commit 21edc5f8；证据刷新 da073117；收尾回执 8725ddff）：M-LUORQ-001~010 + figure，individuals，_modes 三件 + 12 件落地包；落盘卡独立核验 69 PASS / 0 FAIL。
-- R8 合并（卡 t_08bbb73d）：工作树已落地，未提交：主库 +10 条，注册 +1，场景 +10+10，标签 +20，顶层旧块处置；提交，镜像，push 归收尾卡 t_2d15bd2e（本卡归档时点在途）。
+- R8 合并（卡 t_08bbb73d）：工作树已落地，未提交：主库 +10 条，注册 +1，场景 +10+10，标签 +20，顶层旧块处置；收尾卡 t_2d15bd2e 已补交 0cbf6ab6 并镜像发布仓 ec0a06b（push 完成）（归档时点为未提交，在途标记注销）。
 - R8 QA（卡 t_8773cb6b）：第二实现 103 PASS / 12 FAIL / 17 INFO；FAIL 归因见第五节（时点性，镜像在途，开放项，口径差）。
 - 核验状态：本件 10/10 条 verification.status=pending（0 条自称 verified）。
 
@@ -43,7 +43,7 @@
 ## 五、QA 12 FAIL 归因与开放项（如实登记，未伪修）
 
 - 时点性（3 项）：C_ScenExist / E03a / E03b：QA 执行时点合并未落地；其后工作树实测场景已在库（合并卡 D01-D07 PASS），收尾卡提交后应转 PASS。
-- 镜像在途（1 项）：G01b：镜像清单悬空 19 条归收尾卡 t_2d15bd2e（本卡镜像为其子集，本卡路径 0 差）。
+- 镜像在途（1 项）：G01b：镜像清单悬空 19 条——收尾卡镜像 ec0a06b 已收敛部分；parity 三跑 LUORQ 相关残留 10 条（QA 证据 6 件、收尾/合并报告 4 件）留收尾卡剩余步；本卡 3 路径 0 差。
 - 开放项（5 项）：A03 / A05 / A07 / B01 / B05：引文见证归一化，出处格式，片段白名单，见证文件登记细节；QA 建议交退卡或新立卡跟进。
 - 口径差（2 项）：B02 / B05（合并卡独立核验 83 PASS / 2 FAIL）：canonical 与 raw 序列化口径差；留 QA 裁定。
 - 本卡新增修复：反向注入自检发现初版逐模式核验为全库子串匹配（首条篡改可被其余同构行掩盖）；已改为区块级（block-scoped）核对并复测 15/15。
@@ -54,15 +54,16 @@
 - parity 实测（tools/check_repo_parity.py --json，本卡三跑）：
   - 归档前基线（本卡首跑，页落盘前）：diffs=347（330 仅工作仓 + 17 内容差） ；
   - 页落盘后二跑：316（308 仅工作仓 + 8 内容差）；
-  - 镜像后三跑：PARITY3_PENDING（v2 补记，届时本卡 3 路径应 0 差） ；
+  - 镜像后三跑：317（308 仅工作仓 + 9 内容差）；本卡 3 路径 0 差；LUORQ 相关残留 10 条（QA 证据 6 件 + 收尾/合并报告 4 件）归收尾卡 t_2d15bd2e 剩余步 ；
   - 差值归因：两次差值主要来自他卡在制（王祥链等的镜像/提交，非本卡）；本卡页在镜像前以 MISSING_IN_PUBLISH 计 1 条（镜像后消除）。
 - 本卡镜像范围：页 + 报告 + 证据 三件（docs 下，进构建图） ｜ 生成器与验收脚本为仓根工具（不进构建图，按 parity 边界规则与 R6 先例不镜像）。
 
 ## 七、提交与推送回执（v2 补记）
 
-- 工作仓提交：WS1 WS1SHA_PENDING（白名单 5 件：页 / 生成器 / 验收脚本 / 报告 v1 / 证据 v1）；WS2 WS2SHA_PENDING（本报告与证据回执补记）。。
-- 发布仓镜像：P1 P1SHA_PENDING（对齐 WS1，3 件）。；P2 P2SHA_PENDING（对齐 WS2，报告与证据）。。
-- 推送：PUSH_RANGE_PENDING（fetch 复核后，禁 --force）。；远端 origin/main 复核 = REMOTE_SHA_PENDING。
+- 工作仓提交：WS1 63a0e46364645c2116c100cec44340eb6ad38a47（白名单 5 件：页 / 生成器 / 验收脚本 / 报告 v1 / 证据 v1）；WS2 本次 v2 提交（工作仓本文件最后修改所在提交；精确 SHA 见 git log 与卡回执 metadata）（本报告与证据回执补记）。
+- 发布仓镜像：P1 2b3681d9e7c35db37bd07c384cd395b00c40ab8c（对齐 WS1，3 件）；P2 本次 v2 镜像提交（发布仓同路径最后修改所在提交）（对齐 WS2，报告与证据）。
+- 卡级回执：本 v2 提交/镜像的精确 SHA 另见 kanban 卡 t_d9cb98bb 完成回执 metadata（ws_commit_v2 / publish_commit_v2）与两仓 git log（提交信息含「报告与证据 v2 回执补记」）。
+- 推送：ec0a06b..2b3681d（push rc=0，origin/main 复核 = 2b3681d）（fetch 复核后，禁 --force）；远端 origin/main 复核 = 2b3681d（快照时点；收尾卡剩余步可能再推进）。
 
 ## 八、文件与验收命令（真实路径）
 

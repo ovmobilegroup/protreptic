@@ -2,17 +2,17 @@
   "card": "t_d9cb98bb",
   "worker": "pigafetta",
   "phase": "Phase21-R8 LUORQ doc archive",
-  "generated_at": "2026-09-24 01:16:04 ",
+  "generated_at": "2026-09-24 01:19:27 ",
   "deliverables": {
     "page": {
       "path": "docs/figures/H-LUORQ-001.md",
-      "sha256": "7211a8637a622c14f5dd6189f799f31ecc2f602e50b8e5b953245584b52e8815",
-      "bytes": 64098,
+      "sha256": "486755ced2415c62e33f0bbf4c3827015b25c6f37247c3c4b5dd1eb23805377a",
+      "bytes": 64370,
       "lines": 425
     },
     "generator": {
       "path": "build_luorq_r8_archive.py",
-      "sha256": "fb80624dc46521649194e0958347ae8aa1e98986cc8650a527b7c05b5ed4af9e"
+      "sha256": "7726b3649a0dc5990a5b7cd603ef5219af2fbfdc0767f1a6a0ccabaab0147137"
     },
     "verifier": {
       "path": "verify_luorq_r8_archive.py",
@@ -20,7 +20,7 @@
     },
     "report": {
       "path": "docs/research/phase21r8_luorq_archive_report.md",
-      "sha256": "16531db266a13b23070c5ec1455a90109a116333e7dbe09eca4aa8731acdb358"
+      "sha256": "a47620cd9b24f5a2c841074c114451731b51aef93658a43410c31da0ffa2e5d0"
     },
     "evidence": {
       "path": "docs/research/phase21r8_luorq_archive_evidence.json"
@@ -141,14 +141,28 @@
       "both_sides": 1880,
       "identical": 1872
     },
-    "run3_after_mirror": null
+    "run3_after_mirror": {
+      "diffs": 317,
+      "only_workspace": 308,
+      "content_diff": 9,
+      "both_sides": 1883,
+      "identical": 1874
+    }
   },
   "receipts": {
-    "workspace_commit": null,
-    "workspace_commit_v2": null,
-    "publish_commit": null,
-    "publish_commit_v2": null,
-    "push": null,
-    "remote_main": null
+    "workspace_commit": "63a0e46364645c2116c100cec44340eb6ad38a47",
+    "publish_commit": "2b3681d9e7c35db37bd07c384cd395b00c40ab8c",
+    "push": "ec0a06b..2b3681d (rc=0)",
+    "remote_main_snapshot": "2b3681d9e7c35db37bd07c384cd395b00c40ab8c",
+    "workspace_commit_v2": "this-file last-modifying commit in workspace (see card metadata ws_commit_v2)",
+    "publish_commit_v2": "this-file last-modifying commit in publish (see card metadata publish_commit_v2)"
+  },
+  "closing_card_t_2d15bd2e": {
+    "workspace_commit": "0cbf6ab6",
+    "publish_commit": "ec0a06b",
+    "pushed": true,
+    "status_snapshot": "running, 3/5 steps done (merge mirror)",
+    "luorq_related_residual_diffs": 10,
+    "note": "QA evidence files (6) + receipt/merge reports (4) remain; belongs to closing card remaining steps"
   }
 }
