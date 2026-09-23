@@ -1,0 +1,687 @@
+{
+ "schema": "protreptic.r7_wangxiang_sourcing/v1",
+ "card": "t_b5454647",
+ "title": "[Phase21-R7 王祥重做] 落源可行性研究：H-HZX-002 待重做清单逐条核验",
+ "date": "2026-09-23",
+ "fetched_at": "2026-09-23T19:49:12+08:00",
+ "baseline_commit": "9661ed58",
+ "prep_card_commit": "37045418（t_434af550 前置件）",
+ "archive_commit": "d33e1122（王祥归档，B 组收口）",
+ "scope": "只研究，不写库；主库与档案零写入；不编造来源",
+ "verdict_enum": [
+  "可落源",
+  "不可落源",
+  "存疑"
+ ],
+ "method": {
+  "approach": "以清单 12 条落源锚点所载引文为对象，逐条在公开数字文献见证文本中以定位字串检索；版本异文逐项登记；归档件以 sha256 与 git 前像复核。",
+  "witness_policy": "仅记录实际抓取到的见证；抓取失败或仅检索快照者单独标注，不作独立确证；『疑似』不写作『确证』。"
+ },
+ "witnesses": [
+  {
+   "id": "W1",
+   "name": "维基文库《晉書/卷033》（正體）",
+   "type": "正史录文（在线）",
+   "url": "https://zh.wikisource.org/wiki/晉書/卷033",
+   "note": "另抓 ?action=raw 原始 wikitext 逐字复核；王祥传、王览附传、史臣曰均在。"
+  },
+  {
+   "id": "W2",
+   "name": "维基文库《晉書 (四庫全書本)/全覽2》",
+   "type": "四庫全書本",
+   "url": "https://zh.wikisource.org/wiki/晉書_(四庫全書本)/全覽2",
+   "note": "卷三十三王祥/王覽段；用字（末/炙/復）与 W1 有差异，见 variances。"
+  },
+  {
+   "id": "W3",
+   "name": "汉典古籍《晋书·卷三十三 列傳第三》",
+   "type": "正史录文（在线）",
+   "url": "https://gj.zdic.net/shibu/107/5934.html",
+   "note": "全卷含史臣曰；与 W1 用字一致。"
+  },
+  {
+   "id": "W4",
+   "name": "维基文库《搜神記/第11卷》",
+   "type": "志怪小说（明·胡震亨《秘册滙函》本）",
+   "url": "https://zh.wikisource.org/wiki/搜神記/第11卷",
+   "note": "王祥条含『剖冰』『黃雀炙』；无抱树守柰等后续情节。"
+  },
+  {
+   "id": "W5",
+   "name": "维基文库《二十四孝》（郭居敬《全相二十四孝詩選》）",
+   "type": "蒙学诗选",
+   "url": "https://zh.wikisource.org/wiki/二十四孝",
+   "oldid": "2371403",
+   "note": "『臥冰求鯉』題下正文+詩赞。"
+  },
+  {
+   "id": "W6",
+   "name": "维基文库《今文孝經》",
+   "type": "儒家经典",
+   "url": "https://zh.wikisource.org/wiki/今文孝經",
+   "note": "開宗明義章第一等 18 章全文。"
+  },
+  {
+   "id": "W7",
+   "name": "ctext.org 晉書·列傳第三",
+   "type": "检索快照（佐证）",
+   "url": "https://ctext.org/wiki.pl?chapter=631419&if=gb",
+   "note": "直接抓取超时；仅检索索引快照见证（佩刀句），不作独立确证。"
+  },
+  {
+   "id": "W8",
+   "name": "虚阁网/国学网/识典古籍 卷三十三录文",
+   "type": "检索快照（佐证）",
+   "url": "https://www.xuges.com/ls/jinshu/134.htm",
+   "note": "快照组；识典古籍录本 OCR 多处讹字（『剖水』『吕庚』『掃除上下』等），仅作旁证。"
+  },
+  {
+   "id": "W9",
+   "name": "中国作家网《“卧冰求鲤”三题》",
+   "type": "考订研究（参考）",
+   "url": "http://www.chinawriter.com.cn/n1/2017/0109/c404063-29008850.html",
+   "note": "『剖冰→卧冰』演化与《太平御览》《太平寰宇記》征引脉络；参考性材料，非本卡原典核验对象。"
+  }
+ ],
+ "anchors": [
+  {
+   "id": "A01",
+   "anchor": "卧冰求鲤",
+   "checklist_quote": "母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·列传第三·王祥传",
+    "locator": "王祥传第2段（「祥性至孝……」至「其篤孝純至如此」段内）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3",
+     "W7"
+    ],
+    "exact_match": true,
+    "note": "逐字一致。同段后续为「鄕里驚歎，以爲孝感所致焉」。"
+   }
+  },
+  {
+   "id": "A02",
+   "anchor": "黄雀入幕",
+   "checklist_quote": "母又思黃雀灸，復有黃雀數十飛入其幕，復以供母。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王祥传",
+    "locator": "同上段（紧接剖冰句後）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W3"
+    ],
+    "exact_match": true,
+    "note": "用字差异见 V2（灸/炙两存）。《搜神記》卷十一作「黃雀炙」（W4）。"
+   }
+  },
+  {
+   "id": "A03",
+   "anchor": "抱树守柰",
+   "checklist_quote": "有丹柰結實，母命守之，每風雨，祥輒抱樹而泣。其篤孝純至如此。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王祥传",
+    "locator": "同上段（孝感所致句後）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3"
+    ],
+    "exact_match": true
+   }
+  },
+  {
+   "id": "A04",
+   "anchor": "侍疾",
+   "checklist_quote": "父母有疾，衣不解帶，湯藥必親嘗。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王祥传",
+    "locator": "王祥传第2段前部（「每使掃除牛下，祥愈恭謹」後）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3"
+    ],
+    "exact_match": true
+   }
+  },
+  {
+   "id": "A05",
+   "anchor": "避乱隐居",
+   "checklist_quote": "漢未遭亂，扶母攜弟覽避地廬江，隱居三十餘年，不應州郡之命。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王祥传",
+    "locator": "王祥传第3段段首",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W3"
+    ],
+    "exact_match": true,
+    "note": "用字差异见 V1（未/末两存）。"
+   }
+  },
+  {
+   "id": "A06",
+   "anchor": "治州政绩与民谣",
+   "checklist_quote": "時人歌之曰：「海沂之康，實賴王祥。邦國不空，別駕之功。」",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王祥传",
+    "locator": "王祥传第3段（徐州刺史呂虔檄爲別駕…政化大行後）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3"
+    ],
+    "exact_match": true
+   }
+  },
+  {
+   "id": "A07",
+   "anchor": "三老讲学",
+   "checklist_quote": "天子幸太學，命祥爲三老。祥南面几杖，以師道自居。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王祥传",
+    "locator": "王祥传第4段（高貴鄕公時期；引句後接「天子北面乞言……」）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3"
+    ],
+    "exact_match": true,
+    "note": "事件系於高貴鄕公（曹髦）幸太學語境，非晉室。"
+   }
+  },
+  {
+   "id": "A08",
+   "anchor": "不拜司马昭（长揖）",
+   "checklist_quote": "及入，顗遂拜，而祥獨長揖。帝曰：「今日方知君見顧之重矣！」",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王祥传",
+    "locator": "王祥传第6段（「及武帝爲晉王，祥與荀顗往謁……」段内）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3"
+    ],
+    "exact_match": true,
+    "note": "引文逐字一致；但标签「司马昭」与原文「及武帝爲晉王」不符——《晋书》用例武帝=司馬炎（文帝=司馬昭）；同卷何曾传另有「文帝爲晉王」平行事例（曾獨致拜）。重建宜改用中性表述（如「长揖晋王」）或经考订后注明，属标签考订项，本卡不裁定。"
+   }
+  },
+  {
+   "id": "A09",
+   "anchor": "遗令五者（立身之本）",
+   "checklist_quote": "夫言行可覆，信之至也；推美引過，德之至也；揚名顯親，孝之至也；兄弟怡怡，宗族欣欣，悌之至也；臨財莫過乎讓：此五者，立身之本。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王祥传",
+    "locator": "遗令段（「及疾篤，著遺令訓子孫曰……」段末）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3"
+    ],
+    "exact_match": true,
+    "note": "用字差异见 V3（覆/復两存）。"
+   }
+  },
+  {
+   "id": "A10",
+   "anchor": "佩刀授览（家族传承）",
+   "checklist_quote": "祥臨薨，以刀授覽，曰：「汝後必興，足稱此刀。」覽後奕世多賢才，興於江左矣。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·王览附传（王祥传附）",
+    "locator": "王览段末（「初，呂虔有佩刀……」段）",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3",
+     "W7"
+    ],
+    "exact_match": true,
+    "note": "全见证含「後」「於」，与清单一致；曾疑正體本脱字，经 raw wikitext 复核无差异（V0）。"
+   }
+  },
+  {
+   "id": "A11",
+   "anchor": "史评",
+   "checklist_quote": "史臣曰：若夫經爲帝師，鄭沖於焉無愧；孝爲德本，王祥所以當仁；何曾善其親而及其親之黨者也。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "《晋书》卷三十三·卷末史臣曰",
+    "locator": "卷三十三末「史臣曰」段首",
+    "source_type": "正史列传",
+    "witnesses": [
+     "W1",
+     "W2",
+     "W3"
+    ],
+    "exact_match": true,
+    "note": "清单作节引（「史臣曰：…孝爲德本，王祥所以當仁」），全句以本核验为准。"
+   }
+  },
+  {
+   "id": "A12",
+   "anchor": "二十四孝诗赞",
+   "checklist_quote": "繼母人間有。王祥天下無。至今河上水。留得臥冰模。",
+   "verdict": "可落源",
+   "evidence": {
+    "source_name": "元·郭居敬《全相二十四孝詩選》「臥冰求鯉」題下詩",
+    "locator": "维基文库《二十四孝》第12節（舊版本號 2371403）",
+    "source_type": "蒙学诗选",
+    "witnesses": [
+     "W5"
+    ],
+    "exact_match": true,
+    "note": "诗选正文另有散句「晉。王祥母喪……持歸供母。」（「臥冰」化表述）同在见证。"
+   }
+  }
+ ],
+ "modes": [
+  {
+   "mode_id": "M301",
+   "name_zh": "温席求鱼法",
+   "archived_source_chapter": "《后汉书》裴松之注、《孝经》经典解读",
+   "old_verdict": "不可落源",
+   "old_reason": "『温席』属黄香《扇枕温衾》事、『求魚』失据；裴松之/后汉书表述已被 R6B 纠正；旧题旨与名称均不可修正",
+   "redo_anchor_refs": [
+    "A04"
+   ],
+   "verdict": "可落源",
+   "redo_note": "按清单建议换题旨重建（如『侍疾尝药法』，锚 A04）；或并入卧冰条目后按 9-10 条重建（两路线均可行，建议保留 10 条）。"
+  },
+  {
+   "mode_id": "M302",
+   "name_zh": "卧冰求梨法",
+   "archived_source_chapter": "古代孝行故事集《二十四孝》",
+   "old_verdict": "不可落源",
+   "old_reason": "『梨』为讹字；『卧冰』属《二十四孝》化表述（本传作『剖冰』）",
+   "redo_anchor_refs": [
+    "A01",
+    "A12"
+   ],
+   "verdict": "可落源",
+   "redo_note": "更名『卧冰求鲤法』；本传剖冰句为主锚（A01），《二十四孝》正文+诗赞为辅（A12），双源均可落源。"
+  },
+  {
+   "mode_id": "M303",
+   "name_zh": "孝道至上法",
+   "archived_source_chapter": "《孝经》核心原则",
+   "old_verdict": "不可落源",
+   "old_reason": "『《孝经》核心原则』非篇目、不可落源",
+   "redo_anchor_refs": [
+    "W6",
+    "A09"
+   ],
+   "verdict": "可落源",
+   "redo_note": "出处锚定《孝经·開宗明義章第一》章句（「夫孝，德之本也，教之所由生也。」等，W6 已核）；或本传遗令「揚名顯親，孝之至也」（A09 内）；建议格式：书名·篇章。"
+  },
+  {
+   "mode_id": "M304",
+   "name_zh": "以身许物法",
+   "archived_source_chapter": "传统孝道行为模式分析",
+   "old_verdict": "不可落源",
+   "old_reason": "非文献标签，不可落源",
+   "redo_anchor_refs": [
+    "A01",
+    "A02"
+   ],
+   "verdict": "可落源",
+   "redo_note": "出处重锚卧冰求鲤/黄雀入幕事（本传原文），两锚均可落源。"
+  },
+  {
+   "mode_id": "M305",
+   "name_zh": "孝道循环法",
+   "archived_source_chapter": "孝道行为的持续性分析",
+   "old_verdict": "不可落源",
+   "old_reason": "非文献标签，不可落源",
+   "redo_anchor_refs": [
+    "A04",
+    "A03"
+   ],
+   "verdict": "可落源",
+   "redo_note": "出处重锚侍疾（A04）与抱树守柰（A03）等持续性孝行事例，均可落源。"
+  },
+  {
+   "mode_id": "M306",
+   "name_zh": "求而得之法",
+   "archived_source_chapter": "《孝经》实践路径",
+   "old_verdict": "不可落源",
+   "old_reason": "『《孝经》实践路径』无篇目、不可落源",
+   "redo_anchor_refs": [
+    "A01",
+    "A02"
+   ],
+   "verdict": "可落源",
+   "redo_note": "出处重锚本传求鱼/黄雀事原文，两锚均可落源。"
+  },
+  {
+   "mode_id": "M307",
+   "name_zh": "修心养性法",
+   "archived_source_chapter": "儒家修身养性理论",
+   "old_verdict": "不可落源",
+   "old_reason": "非文献标签（泛），不可落源",
+   "redo_anchor_refs": [
+    "A04段内二句"
+   ],
+   "verdict": "可落源",
+   "redo_note": "出处重锚本传「每使掃除牛下，祥愈恭謹」与「其篤孝純至如此」二句（王祥传第2段内，逐字可核）。"
+  },
+  {
+   "mode_id": "M308",
+   "name_zh": "天人合德法",
+   "archived_source_chapter": "儒家天人合一思想",
+   "old_verdict": "不可落源",
+   "old_reason": "题旨与本传相关性弱（本传无天人叙说）；出处泛、不可落源",
+   "redo_anchor_refs": [
+    "A09"
+   ],
+   "verdict": "可落源",
+   "redo_note": "替换锚点=遗令五者（A09，可落源）。题旨重审属取舍项：建议改换题旨（如『立身五本：信德孝悌让』）或并入 M309 传世条目；原『天人合德』无本传支撑（否定记录：本传全文无「天人」表述，仅「孝感所致」感应叙事），此为全卡唯一需船长裁定的题旨取舍。"
+  },
+  {
+   "mode_id": "M309",
+   "name_zh": "孝道传世法",
+   "archived_source_chapter": "孝道的历史传承分析",
+   "old_verdict": "不可落源",
+   "old_reason": "非文献标签，不可落源",
+   "redo_anchor_refs": [
+    "A09",
+    "A10",
+    "A12"
+   ],
+   "verdict": "可落源",
+   "redo_note": "遗令（A09）+佩刀授览（A10）可落源；『历代孝义教材化』以元代《二十四孝》收录+诗赞为实证（A12，可落源）。子项『宋以降历代逐代专证』未获直接文献佐证——子项存疑，建议表述降级为「元代教材化见《二十四孝》」或另立专证卡。"
+  },
+  {
+   "mode_id": "M310",
+   "name_zh": "功德圆满法",
+   "archived_source_chapter": "孝道的终极目标分析",
+   "old_verdict": "不可落源",
+   "old_reason": "非文献标签，不可落源",
+   "redo_anchor_refs": [
+    "A11",
+    "卒后哀荣段"
+   ],
+   "verdict": "可落源",
+   "redo_note": "卒后哀荣/谥元段（「泰始五年薨……明年，策諡曰元。」）与史评（A11）均可落源。附注：卒年异说（268/269）属 figure 层 _pending_verification 项，另卡处理，非本卡锚点缺口。"
+  }
+ ],
+ "global": {
+  "verdict": "全部可落源",
+  "output": "重制素材包（pack，逐条 quote+来源，可直接用于重建）+ 取舍建议",
+  "notes": [
+   "12 条落源锚点逐条核验：全部可落源（每锚至少 1-3 个直接见证，主要锚 3-4 个）。",
+   "10 条模式重做路线逐条核验：全部可落源（M301 换题旨、M308 替换锚点+题旨重审、M309 子项表述建议，均不影响结论）。",
+   "无任何锚点落入『不可落源』或『存疑』总判；三处版本异文（未/末、灸/炙、覆/復）属择底本问题，非来源缺口。"
+  ]
+ },
+ "pack": [
+  {
+   "pack_id": "P01",
+   "for_modes": [
+    "M301",
+    "M305"
+   ],
+   "quote": "父母有疾，衣不解帶，湯藥必親嘗。",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "第2段",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P02",
+   "for_modes": [
+    "M302",
+    "M304",
+    "M306"
+   ],
+   "quote": "母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "第2段",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P03",
+   "for_modes": [
+    "M304",
+    "M306"
+   ],
+   "quote": "母又思黃雀灸，復有黃雀數十飛入其幕，復以供母。",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "第2段",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P04",
+   "for_modes": [
+    "M305"
+   ],
+   "quote": "有丹柰結實，母命守之，每風雨，祥輒抱樹而泣。其篤孝純至如此。",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "第2段",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P05",
+   "for_modes": [
+    "M307"
+   ],
+   "quote": "每使掃除牛下，祥愈恭謹。",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "第2段前部",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P06",
+   "for_modes": [
+    "M307"
+   ],
+   "quote": "其篤孝純至如此。",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "第2段末句",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P07",
+   "for_modes": [
+    "M303",
+    "M308",
+    "M309"
+   ],
+   "quote": "夫言行可覆，信之至也；推美引過，德之至也；揚名顯親，孝之至也；兄弟怡怡，宗族欣欣，悌之至也；臨財莫過乎讓：此五者，立身之本。",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "遗令段",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P08",
+   "for_modes": [
+    "M303"
+   ],
+   "quote": "揚名顯親，孝之至也",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "遗令段（五者之二，可单引）",
+   "source_type": "正史列传",
+   "note": "原句以分號銜下句（「…孝之至也；兄弟怡怡…」），引時可補句讀"
+  },
+  {
+   "pack_id": "P09",
+   "for_modes": [
+    "M309"
+   ],
+   "quote": "祥臨薨，以刀授覽，曰：「汝後必興，足稱此刀。」覽後奕世多賢才，興於江左矣。",
+   "source_name": "《晋书》卷三十三·王览附传",
+   "locator": "王览段末",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P10",
+   "for_modes": [
+    "M310"
+   ],
+   "quote": "史臣曰：若夫經爲帝師，鄭沖於焉無愧；孝爲德本，王祥所以當仁；何曾善其親而及其親之黨者也。",
+   "source_name": "《晋书》卷三十三·史臣曰",
+   "locator": "卷末",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P11",
+   "for_modes": [
+    "M310"
+   ],
+   "quote": "泰始五年薨，詔賜東園秘器，朝服一具，衣一襲，錢三十萬，布帛百匹。……明年，策諡曰元。",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "传末（泰始五年薨…策諡曰元）",
+   "source_type": "正史列传",
+   "ellipsis": true
+  },
+  {
+   "pack_id": "P12",
+   "for_modes": [
+    "备选：figure.famous_quote 候选"
+   ],
+   "quote": "時人歌之曰：「海沂之康，實賴王祥。邦國不空，別駕之功。」",
+   "source_name": "《晋书》卷三十三·王祥传",
+   "locator": "第3段",
+   "source_type": "正史列传"
+  },
+  {
+   "pack_id": "P13",
+   "for_modes": [
+    "M303"
+   ],
+   "quote": "夫孝，德之本也，教之所由生也。／身體髮膚，受之父母，不敢毀傷，孝之始也；立身行道，揚名於後世，以顯父母，孝之終也。",
+   "source_name": "《孝经·開宗明義章第一》（今文孝经）",
+   "locator": "第一章",
+   "source_type": "儒家经典"
+  },
+  {
+   "pack_id": "P14",
+   "for_modes": [
+    "M302",
+    "M309"
+   ],
+   "quote": "繼母人間有。王祥天下無。至今河上水。留得臥冰模。",
+   "source_name": "元·郭居敬《全相二十四孝詩選》「臥冰求鯉」詩",
+   "locator": "维基文库《二十四孝》第12節",
+   "source_type": "蒙学诗选"
+  },
+  {
+   "pack_id": "P15",
+   "for_modes": [
+    "M302（辅）"
+   ],
+   "quote": "晉。王祥母喪。繼母朱氏。不慈。父前數譖之。由是失愛於父。母欲食鮮魚。時天寒地凍。祥解衣。臥冰求之。冰忽自解。雙鯉躍出。持歸供母。",
+   "source_name": "元·郭居敬《全相二十四孝詩選》「臥冰求鯉」正文",
+   "locator": "同上",
+   "source_type": "蒙学诗选"
+  },
+  {
+   "pack_id": "P16",
+   "for_modes": [
+    "M302（辅）"
+   ],
+   "quote": "王祥，字休征，琅邪人，性至孝，早喪親，繼母朱氏不慈，數譖之，由是失愛于父。每使掃除牛下。父母有疾，衣不解帶。母常欲生魚，時天寒，冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。母又思黃雀炙，复有黃雀數十，入其幙，复以供母。鄉里惊歎，以為孝感所致。",
+   "source_name": "《搜神記》卷十一",
+   "locator": "王祥条",
+   "source_type": "志怪小说（杂传）",
+   "note": "「黃雀炙」与 W1「灸」异文；无守柰段"
+  }
+ ],
+ "variances": [
+  {
+   "id": "V1",
+   "item": "「漢未遭亂」未/末",
+   "checklist_value": "未",
+   "variant": "末",
+   "witnesses": "清单=未；W1（raw 复核）/W3=未；W2 四库全書本=末；快照组（虚阁网/百度百科等）多作未",
+   "note": "两存，重建须择定底本并登记；文意上『末』为顺（乱在汉末），『未』疑传刻之讹——此仅为提示，最终以择定底本为准，不在本卡裁定。"
+  },
+  {
+   "id": "V2",
+   "item": "「黃雀灸」灸/炙",
+   "checklist_value": "灸",
+   "variant": "炙",
+   "witnesses": "清单=灸；W1（raw 复核）/W3=灸；W2 四库=炙；W4《搜神記》=炙；研究文献（中国作家网文）引作炙",
+   "note": "两存，重建须择定底本并登记（食物义当以『炙』为长，『灸』疑形近之讹）。"
+  },
+  {
+   "id": "V3",
+   "item": "「言行可覆」覆/復",
+   "checklist_value": "覆",
+   "variant": "復",
+   "witnesses": "清单=覆；W1（raw 复核）/W3=覆；W2 四库=復",
+   "note": "两存，重建须择定底本并登记。"
+  },
+  {
+   "id": "V0",
+   "item": "「汝後必興／覽後奕世／興於江左」（佩刀句後、於）",
+   "checklist_value": "含「後」「於」",
+   "variant": "无（曾疑正體本脱字）",
+   "witnesses": "W1（raw wikitext 逐字复核）/W2/W3 全含「後」「於」，与清单一致",
+   "note": "复核更正：无此差异；本题曾列入待查，现关闭。"
+  }
+ ],
+ "open_items": [
+  "码位前缀（M-WX-001~010 或船长另定）——属清单会办 5，本卡不改。",
+  "M301/M308 题旨取舍（本卡给出建议路线，见 modes.redo_note）。",
+  "底本择定（V1/V2/V3 三处异文照录哪本）——建议重建卡开工前由船长或审校一次性定底本。",
+  "M309「历代孝义教材化」子项表述强度（建议降级为《二十四孝》实证）。",
+  "figure 层待核项（卒年 268/269、wiki_id、（东岳）残留）——修正稿 _pending_verification 已登记，另卡处理。"
+ ],
+ "source_registry": {
+  "existing": {
+   "《晋书》": "data/source_links.json 已有键：url=zh.wikisource.org/wiki/晉書, source_type=wikisource, confidence=0.8, checked_at=2026-09-20"
+  },
+  "missing_keys": [
+   "《搜神記》",
+   "《孝经》",
+   "《二十四孝》"
+  ],
+  "note": "重建卡如需登记新源，循 tools/build_source_links.py 既有流程（匹配规则见 tools/source_link_index.py；校验 tools/verify_source_links.py --hard-fail）；本卡零写入。"
+ },
+ "evidence": {
+  "archived_sha256": {
+   "H-HZX-002_figures.json": "8c40067cb04565a6504c27f627c710cae0b4b79cf088ae897bb6e3c6eee25e1e",
+   "H-HZX-002_figures_modes.json": "1e3e97d41f4135cbdc1a6cb4de812e8d40b3d7c86ba9f68df03d749e07f87b00",
+   "H-HZX-002_research_phase20.md": "8b63cda2991a5b969f3eb2d03a61df31aa9cef55d1ff55a98b245fa549a252b3"
+  },
+  "preimage_sha256_match": true,
+  "preimage_note": "三件归档字节与 git d33e1122^ 前像逐件 sha256 一致（归档前版本=归档字节）。",
+  "local_raw_files": [
+   "/opt/data/profiles/serrano/cache/scratch/r7/jinshu033_raw.txt",
+   "/opt/data/profiles/serrano/cache/scratch/r7/soushen11_raw.txt",
+   "/opt/data/profiles/serrano/cache/scratch/r7/xiao24_raw.txt",
+   "/opt/data/profiles/serrano/cache/scratch/r7/xiaojing_raw.txt"
+  ],
+  "web_cache_files": [
+   "/opt/data/profiles/serrano/cache/web/zh.wikisource.org-99e9cd0251.md",
+   "/opt/data/profiles/serrano/cache/web/zh.wikisource.org-ee92a536b4.md"
+  ]
+ },
+ "constraints": [
+  "本卡零写主库与档案",
+  "引文逐字取自见证文本，无自造",
+  "未获取直接见证者不得写作确证",
+  "『疑似』不写作『确证』"
+ ]
+}

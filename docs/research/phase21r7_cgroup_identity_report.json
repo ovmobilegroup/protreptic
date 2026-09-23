@@ -1,0 +1,346 @@
+{
+ "schema": "protreptic.r7_cgroup_identity/v1",
+ "card": "t_261185a8",
+ "date": "2026-09-23",
+ "title": "Phase21-R7 C组核名：待核身份研究（6件）+ LUORQ 重做可行性评估",
+ "methodology": {
+  "evidence_grades": [
+   "确证（权威来源）",
+   "疑似（检索快照/待核原件）",
+   "查不到（本卡检索范围负结果，如实登记）"
+  ],
+  "verdict_enum": [
+   "已确证",
+   "无法核实",
+   "多候选细分"
+  ],
+  "repo_scope": "活跃层 data/ tools/ docs/（排除 .git/site_docs/_duplicates/backup_）；归档件本体；git 全历史 -S 检索；残件刮查",
+  "public_scope": "Web 多后端检索（2026-09-23）；未访问付费库；ctext.org 反爬，仅用检索快照",
+  "rules": "外部来源只用于判身份真伪，不进档案内容；不臆造身份；本卡零库写入"
+ },
+ "items": [
+  {
+   "code": "H-AN-001",
+   "name_card": "安子",
+   "name_registered": "安子",
+   "payload_summary": "旧号 M001-M010；10 条；字段齐但出处《辩证论》《历史观》《实践观》（另 M010《创新体系》）均不可落源；定义均 59.9 字，模板化",
+   "claimed_identity": "现代思想家 1900-1970；doc 页题名「安子介」（英文 An Zi）；辩证/历史/系统/实践等 10 模式",
+   "archived_files_sha8": {
+    "figures": "3c3f110c",
+    "individuals": "4f6bf0e4",
+    "modes": "724b705a",
+    "docs_page": "326145b3"
+   },
+   "repo_evidence": [
+    "docs 页标题「H-AN-001 安子介 人物档案」（已归档）",
+    "figure_names.json 机制键 Modern/MODERN 映射「安子介」（活跃层；credibility_framework 记载为遍历顺序定胜产物）",
+    "data/individuals/phase20_anzi_research.md 同批自产研究件，无独立来源",
+    "git：批量提交 26376031 带入；git log -S 安子介 首见管道提交 3a23a0b8；无独立研究历史",
+    "候选池遗留 H-AZJ-345「安子介」（candidates_v4_research.legacy.md / batch_new_figures_research.md；主题=对外开放/特区建设/摸着石头过河；source_refs=《安子介回忆录》《深圳特区建设档案》）→ 残件仍存 tools/json/scenarios_zh.json、docs/historical_figures_thinking_modes_library.md、docs/architecture/web_p0_routes.json、release/v2.0.0、docs_site"
+   ],
+   "public_evidence": {
+    "confirmed": [
+     "安子介 1912-06-26 生于上海、2000-06-03 逝于香港，浙江定海人：政协官网简历、新华社生平（人民日报海外版 2000-06-13）、gov.cn 诞辰百年座谈会（2012）、香港政府声明、定海史志网",
+     "身份=香港实业家、八/九届全国政协副主席、基本法起草委员会副主任/咨委会主任、语言文字学家（《解开汉字之谜》《劈文切字集》《安子介现代千字文》）、安子介汉字编码法/写字机"
+    ],
+    "suspect": [
+     "清·李媞「字安子」（学诗词网快照）：名字碎片，非现代",
+     "H-AZJ-345 引《安子介回忆录》：公开检索无此书（疑似虚构书目）"
+    ],
+    "not_found": [
+     "「安子（1900-1970）现代辩证哲学家」无任何记载",
+     "《辩证论》《历史观》《实践观》查无此书",
+     "载荷引文与生卒互斥（实践是检验真理的唯一标准=1978 语境；不谋全局者不足谋一域=清·陈澹然；不破不立=韩愈《原道》）"
+    ]
+   },
+   "verdict": "多候选细分",
+   "candidates": [
+    {
+     "candidate": "安子介（1912-2000）",
+     "basis": "项目自指（doc 页题名、figure_names 机制键、H-AZJ-345 候选条目）",
+     "match": "仅名称近配；生卒/领域/作品/引文全不符（真实传主为香港实业家/汉字学家，非辩证哲学家）"
+    },
+    {
+     "candidate": "无对应真实人物（排除安子介后）",
+     "basis": "无任何公共证据支持「1900-1970 辩证哲学家安子」",
+     "match": "载荷疑为虚构"
+    }
+   ],
+   "recommendation": "维持归档（载荷零复用）",
+   "prerequisites_if_revote": "另立研究卡：对象=真实安子介，按权威来源全新落 10 条；禁用旧载荷与 H-AZJ-345 叙事；编号可沿用 H-AN-001（0 占用）",
+   "renumber_plan": "暂不分配；若重做：M-AN-（0 碰撞，已复核）"
+  },
+  {
+   "code": "H-LC-001",
+   "name_card": "陆沉",
+   "name_registered": "陆沉",
+   "payload_summary": "旧号 M401-M410；10 条；定义均 73.6 字；案例为现代咨询口吻；来源《沉潜之道》等不可落源",
+   "claimed_identity": "现代/Modern Era；深度思维学派；《深度思维与系统突破》《沉潜之道：从表象到本质的思维跃迁》《复杂问题求解的艺术》《底层逻辑与认知重构》《思维的深度与广度》",
+   "archived_files_sha8": {
+    "figures": "ff985b80",
+    "individuals": "66bd05b4",
+    "modes": "4816fc61"
+   },
+   "repo_evidence": [
+    "库内/git/docs 无独立证据（assessment 第 3 节口径复核一致）",
+    "活跃层悬空互引：data/code_maps.json 内 H-CY-001 cross_references → H-LC-001（未收口，待重指）"
+   ],
+   "public_evidence": {
+    "confirmed": [
+     "「陆沉」为汉语古典词（庄子·则阳/世说新语/论衡·谢短），词典多源"
+    ],
+    "suspect": [
+     "当代网络小说广泛用作虚构人物名（非真实人物）"
+    ],
+    "not_found": [
+     "真实人物「陆沉」（思想家/学者）无记载",
+     "五部「著作」均无书目记录"
+    ]
+   },
+   "verdict": "无法核实",
+   "candidates": [],
+   "recommendation": "维持归档",
+   "prerequisites_if_revote": "若改判保留：须先给出权威身份与可落源出处（当前无）",
+   "renumber_plan": "暂不分配；M-LC-（0 碰撞）"
+  },
+  {
+   "code": "H-YE-001",
+   "name_card": "叶筱",
+   "name_registered": "叶筱",
+   "payload_summary": "旧号 M401-M410；10 条；定义均 54 字；引文与案例空；出处《现代政治理论选集》等不可落源；representative_works 为「代表性作品1/2/3」占位符",
+   "claimed_identity": "现代政治思考家 1900-1975；权力运行/体制改革/政治伦理等",
+   "archived_files_sha8": {
+    "figures": "cb1929d3",
+    "modes": "c7f9ecdd"
+   },
+   "repo_evidence": [
+    "phase46 报告列为 name_mismatch，文件内无人名证据",
+    "无独立研究件、无 git 合并提交"
+   ],
+   "public_evidence": {
+    "confirmed": [],
+    "suspect": [],
+    "not_found": [
+     "1900-1975 政治思想家「叶筱」无记载",
+     "《现代政治理论选集》与此人名关联无记录"
+    ],
+    "same_name_unrelated": [
+     "叶筱（上海工程技术大学能源与动力工程系副教授/博士）",
+     "叶筱（文史博览杂志复审编辑）",
+     "叶筱（网络小说同人作品名）"
+    ]
+   },
+   "verdict": "无法核实",
+   "candidates": [],
+   "recommendation": "维持归档",
+   "prerequisites_if_revote": "若改判保留：须先给出权威身份（当前无）",
+   "renumber_plan": "暂不分配；M-YE-（0 碰撞）"
+  },
+  {
+   "code": "H-ZOU-001",
+   "name_card": "邹文献",
+   "name_registered": "邹文献",
+   "payload_summary": "旧号 M401-M410；10 条；定义均 46.8 字；引文/出处/案例全空",
+   "claimed_identity": "1905-1969；浙江义乌；中国共产党；中国革命根据地记录者与理论贡献者",
+   "archived_files_sha8": {
+    "figures": "646bb167",
+    "modes": "509da08f",
+    "docs_page": "1efbd7b5"
+   },
+   "repo_evidence": [
+    "docs/figures/H-ZOU-001.md 为同批自产件（互引自证）",
+    "零独立证据；无 git 合并提交"
+   ],
+   "public_evidence": {
+    "confirmed": [],
+    "suspect": [],
+    "not_found": [
+     "1905-1969 革命/党史人物「邹文献」无记载（含义乌、党史口径检索）"
+    ],
+    "same_name_unrelated": [
+     "怀柔区融媒体中心记者邹文献（多篇新闻署名）",
+     "企业法定代表人/经营者（企查查等）",
+     "LinkedIn 销售从业者"
+    ]
+   },
+   "verdict": "无法核实",
+   "candidates": [],
+   "recommendation": "维持归档",
+   "prerequisites_if_revote": "若改判保留：须先给出权威身份与可落源出处（当前无）",
+   "renumber_plan": "暂不分配；M-ZOU-（0 碰撞）"
+  },
+  {
+   "code": "H-HAN-001",
+   "name_card": "沈幅",
+   "name_registered": "沈幅",
+   "payload_summary": "旧号 M351-M358；8 条（不足 10）；引文与案例空；出处《捕鱼记》《随园漫录》；定义均 41.5 字",
+   "claimed_identity": "东汉文学家（约前 100 至 180）；字 unrecorded；《捕鱼记》《随园漫录》",
+   "archived_files_sha8": {
+    "figures": "83b882fd",
+    "individuals": "f79d8392",
+    "modes": "d508cbac"
+   },
+   "repo_evidence": [
+    "phase46 已记生卒不符、疑似沈复",
+    "活跃层悬空互引：data/individuals/H-BG-001.json（班固）→ H-HAN-001（待收口重指）"
+   ],
+   "public_evidence": {
+    "confirmed": [],
+    "suspect": [
+     "候选 1 沈复（清，1763-卒年失考，字三白，苏州人，《浮生六记》；豆瓣 4252093）",
+     "候选 2 沈幅（明）：《酉阳山人编蓬后集》（明·唐汝询）诗题提及「沈幅兄艾之…」（ctext 检索快照，未逐字核）"
+    ],
+    "not_found": [
+     "东汉文学家「沈幅」无记载",
+     "《捕鱼记》无文献记录",
+     "《随园漫录》无（随园系列属清·袁枚）"
+    ]
+   },
+   "verdict": "多候选细分",
+   "candidates": [
+    {
+     "candidate": "沈复（清 1763-？）",
+     "basis": "phase46 疑似口径 + 豆瓣资料",
+     "match": "生平/作品与载荷（东汉/《捕鱼记》）无交集；若采用须整卡替换"
+    },
+    {
+     "candidate": "沈幅（明）",
+     "basis": "明·唐汝询文集诗题快照",
+     "match": "仅人名载体证据，无文学家身份可对应"
+    }
+   ],
+   "recommendation": "维持归档；如船长采纳换人（沈复）则整卡替换另立卡",
+   "prerequisites_if_revote": "换人路线：另立研究卡（《浮生六记》等可落源材料）；新编号另议；旧 8 条不得复用",
+   "renumber_plan": "暂不分配；M-HAN-（0 碰撞）"
+  },
+  {
+   "code": "H-MODERN-002",
+   "name_card": "大云",
+   "name_registered": "大云",
+   "payload_summary": "三文件均 0 条载荷（仅元数据；thinking_mode_count 虚标 10）",
+   "claimed_identity": "现代学者（1970 年生）；现代综合学派；五部著作（《现代思维模式创新研究》等）",
+   "archived_files_sha8": {
+    "figures": "54247df5",
+    "individuals": "4653ccbf",
+    "modes": "165aca69"
+   },
+   "repo_evidence": [
+    "cross_references 指向 H-MODERN-001（陆一波）",
+    "同批 H-MODERN-001/003 属另清理线"
+   ],
+   "public_evidence": {
+    "confirmed": [
+     "「大云」为佛经名/寺名（大方等大云经；扬州大云寺等），非人名"
+    ],
+    "suspect": [],
+    "not_found": [
+     "现代学者「大云」无记载",
+     "五部著作逐书名检索均无记录"
+    ]
+   },
+   "verdict": "无法核实",
+   "candidates": [],
+   "recommendation": "维持归档",
+   "prerequisites_if_revote": "若立项：先给权威身份（当前无）；编号预案 M-DAYUN-（0 碰撞）",
+   "renumber_plan": "暂不分配；若立项 M-DAYUN-（0 碰撞）"
+  },
+  {
+   "code": "H-LUORQ-001",
+   "name_card": "罗瑞卿",
+   "name_registered": "罗瑞卿",
+   "payload_summary": "正文载荷=陆有（M311-M320，诗词政治文学；串档已隔离）；图档/文档页/场景为罗瑞卿叙事但无落源；主库顶层块存活待裁定",
+   "claimed_identity": "罗瑞卿（1906-1978）；开国大将；首任公安部长；安全保卫/军队正规化",
+   "archived_files_sha8": {
+    "figures": "bb2a6a2a",
+    "individuals": "4713aace",
+    "modes_isolated": "9b0dc237",
+    "docs_page": "3fa3aa3f"
+   },
+   "repo_evidence": [
+    "身份真实：多源权威（见 public_evidence.confirmed）",
+    "载荷串档：individuals.json 实为陆有（隔离件 ISOLATED_crossfile）",
+    "data/modes_data.json 顶层 H-LUORQ-001 块存活（合并卡负责面/待裁定）",
+    "隔离说明：docs/research/phase21r6C_luorq_isolation_note.md（重做前置与禁止事项）"
+   ],
+   "public_evidence": {
+    "confirmed": [
+     "罗瑞卿 1906-05-31 至 1978-08-03，四川南充人，开国大将（1955）",
+     "首任公安部部长（1949.10-1959.9）、公安军司令员兼政委、北京市公安局局长（1949.11-1953.8）、中央政法委员会副主任；1959.4 副总理；1959.9 起军委秘书长/总参谋长/国防部副部长；1961.11 兼国防工业办公室主任；1962.9 中央书记处书记；1965.1 国防委员会副主席；1965.12 被解职；1975.8 军委顾问；1977.8 复任军委常委兼秘书长；1978.8.3 逝世（维基：西德海德堡）",
+     "权威来源：cpc.people.com.cn 资料中心；中国法治·法治人物；人民日报 1978 讣告；维基百科（引《罗瑞卿传》）；百度百科；当代中国研究所论文（引《罗瑞卿军事文选》2006 等）"
+    ],
+    "suspect": [],
+    "not_found": [
+     "《安子介回忆录》类虚构书目（无关项）"
+    ]
+   },
+   "verdict": "已确证（身份）",
+   "hard_errors_to_fix": [
+    "「国防部长」误（应为国防部副部长；1959-1971 国防部长为林彪）——出现在 figures.json 与 C-LUORQ-004",
+    "「中国人民解放军主要创建者之一」失度（讣告口径：杰出领导人）",
+    "英文 Ten Marshals 误译（应为 ten senior generals）——modes_data 顶层块",
+    "C-LUORQ-007《公安机关组织条例》待核",
+    "多场景泛化叙述须以《罗瑞卿传》/《文选》篇目锚定"
+   ],
+   "recommendation": "重放（重做）可行——另立研究卡、载荷全新",
+   "redo_materials": [
+    "《罗瑞卿传》（编写组；当代中国出版社 2007-07；ISBN 9787800925016；总参批准、军委审定）",
+    "《罗瑞卿军事文选》（当代中国出版社 2006-05；ISBN 9787801704733；80 篇 1933-1978）",
+    "《罗瑞卿论人民公安工作 1949-1959》（群众出版社 1994）",
+    "《罗瑞卿诗选集》（四川人民出版社 1978-11）",
+    "官方生平/纪念：人民网资料中心、2006 诞辰百年活动、网上纪念馆",
+    "《关于罗瑞卿错误问题的报告》（1966；维基文库；须历史语境 caveat）",
+    "当代中国研究所学术论文（公安部队史等）"
+   ],
+   "redo_constraints": [
+    "编号沿用 H-LUORQ-001 + M-LUORQ-（0 碰撞已复核）",
+    "载荷全新；禁止以隔离件改名充数、禁止仅改人名保留原载荷",
+    "引文逐条落源（篇目+日期）；核验状态先置 pending",
+    "敏感表述按史料+caveat；与主库顶层块关系一并裁定"
+   ],
+   "effort_estimate": "2-3 小时",
+   "renumber_plan": "沿用 H-LUORQ-001 + M-LUORQ-（0 碰撞）"
+  }
+ ],
+ "residuals_for_captain": [
+  "figure_names 机制键 Modern/MODERN→安子介：随 AN 裁决定性（建议清档，须另卡）",
+  "H-AZJ-345 残件（tools/json/scenarios_zh.json、docs library、web_p0_routes、release/v2.0.0、docs_site）：关系核定另卡",
+  "活跃层悬空互引 2 处：code_maps.json（H-CY-001→H-LC-001）、individuals/H-BG-001.json（→H-HAN-001）",
+  "modes_data.json 顶层 H-LUORQ-001 块：随重做/清除裁定",
+  "verify_phase21r6C_archive.py 现盘重跑 3 项 FAIL 属并发演化（R6 收口/合并卡），非 R6C 缺陷；复跑产物已回滚"
+ ],
+ "occupancy_check": {
+  "codes_zero_occupancy": [
+   "H-AN-001",
+   "H-LC-001",
+   "H-YE-001",
+   "H-ZOU-001",
+   "H-HAN-001",
+   "H-MODERN-002"
+  ],
+  "H-LUORQ-001": "仅 modes_data 顶层块（待裁定）",
+  "prefixes_zero_collision": [
+   "M-AN-",
+   "M-LC-",
+   "M-YE-",
+   "M-ZOU-",
+   "M-HAN-",
+   "M-DAYUN-",
+   "M-LUORQ-"
+  ]
+ },
+ "verification": {
+  "scope_files_written": [
+   "docs/research/phase21r7_cgroup_identity_report.md",
+   "docs/research/phase21r7_cgroup_identity_report.json"
+  ],
+  "zero_library_write": true,
+  "items_covered": 7,
+  "per_item_fields": [
+   "payload_summary",
+   "repo_evidence",
+   "public_evidence",
+   "verdict",
+   "recommendation"
+  ]
+ }
+}
