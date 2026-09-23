@@ -1,0 +1,2063 @@
+{
+ "schema": "protreptic.w4_rwkag_archive/v1",
+ "card": "t_ee203180",
+ "date": "2026-09-24",
+ "subject": "RW-KAG-1..27（South_American 占位串批次模板废件, 27 码；RW-KAG-001 为该批正码, 依边界①不动）",
+ "ruling": "清（先备份后清除；byte-exact 归档；依据 manifest R10 §3.6 + 卡 t_ee203180 步1-7）",
+ "death_evidence": [
+  {
+   "ref": "docs/research/phase21w4_fix_manifest.md §3.6 R10",
+   "note": "27 码 DB id 951..977；全部空名, 各带 1 条占位模式；每码清档位点逐项列明（scenarios/草稿/DB/分片/索引/路由/sitemap/镜像）"
+  },
+  {
+   "ref": "docs/research/phase21w4_fix_manifest.md §8-5",
+   "note": "code_maps_en 27 键值均为 Andean/South_American/Central_American_Historical_Figure_N 占位串, 与 RW 卢旺达前缀不符, 属同批废件 → 随清档同批删除"
+  },
+  {
+   "ref": "data/audit/phase21r7_leftovers_inventory.json",
+   "note": "R7 遗留清单收录本 27 码（全库引用扫描）"
+  },
+  {
+   "ref": "/opt/data/cache/scratch/phase21r8_root_junk_scan.json",
+   "note": "根 661 tracked json 分类起始证据；RW-KAG-1.json twin 抽查 root/tools_json byte-same"
+  },
+  {
+   "ref": "docs/research/phase21w4_fix_report.md §六 R-f",
+   "note": "t_536073f4 登记：R10 清档归下游卡 t_ee203180"
+  },
+  {
+   "ref": "kanban t_d24e11bc（W7 清档合批卡）",
+   "note": "『RW-KAG-1..27 面由 W4 t_ee203180 先行处置, 本卡以处置后存留为准』"
+  }
+ ],
+ "preimage_backup": {
+  "dir": "data/backup_phase21w4_rwkag_clear_20260924/",
+  "files_count": 89,
+  "head_at_backup": "37545ac770d6b0d3c0be4ffb40c9a404b47f70b1",
+  "manifest_ref": "data/backup_phase21w4_rwkag_clear_20260924/MANIFEST.sha256",
+  "backup_manifest_ref": "data/backup_phase21w4_rwkag_clear_20260924/backup_manifest.json",
+  "files": [
+   {
+    "path": "tools/code_maps_en.json",
+    "size": 86330,
+    "sha256": "37b93916f6fd683a569a31dff14d710cffc26a09b30a8830a70507cc76138272",
+    "group": "shared"
+   },
+   {
+    "path": "tools/json/scenarios_zh.json",
+    "size": 3015351,
+    "sha256": "a760758d8655073d911e313cbe9fa3b74f3fb3204e42d86b672a73aece7bf6f1",
+    "group": "shared"
+   },
+   {
+    "path": "tools/json/scenarios_en.json",
+    "size": 2275023,
+    "sha256": "ebb8d5785514963156613e5dc6440dfafa09a80ae6a59f458f7e4f13d39926cb",
+    "group": "shared"
+   },
+   {
+    "path": "api/protreptic.db",
+    "size": 38490112,
+    "sha256": "f2f380a4d63d770f5295dcd08f28eaa6719d24c0be0cd527b34085309a989694",
+    "group": "shared"
+   },
+   {
+    "path": "docs/architecture/web_p0_routes.json",
+    "size": 705735,
+    "sha256": "8baa5bf4faadb3aa51c6a6b2049ca6ccbd45b5afe28a2d3bdba580ae4c93d47c",
+    "group": "shared"
+   },
+   {
+    "path": "web/public/sitemap.xml",
+    "size": 216812,
+    "sha256": "261d8b872bf9352bd40e4112a07b457ea1a3be9233e16814838e4f00d1f88596",
+    "group": "shared"
+   },
+   {
+    "path": "tools/json/RW-KAG-1.json",
+    "size": 1432,
+    "sha256": "2120355120f0f2feba5d8b8bde02310455ec68c0f39333de7b980c0c5dc826d2",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-2.json",
+    "size": 1435,
+    "sha256": "3103ad783371c22763c23b576f6492e62b5eb5cfb87e7f13d871dd317eb9adae",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-3.json",
+    "size": 1435,
+    "sha256": "742f2d53fed02535287575c51923ab5c230f914e2eb3bdb68cf0cc265eb7ea6a",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-4.json",
+    "size": 1429,
+    "sha256": "1918f330d159127949d0f5ea551470510b57d005db464a139758790c40bea1f2",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-5.json",
+    "size": 1435,
+    "sha256": "84a4827b363656a821f03b1baf0c4911293f290c00cb8376b4cc5927bbf2933e",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-6.json",
+    "size": 1435,
+    "sha256": "000c2d607a6b576926a4c8cbc4395ba668106f8a867b992ca011bd69c790349f",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-7.json",
+    "size": 1435,
+    "sha256": "1e362a2388ad180559883431225e95bbed0442181d3b5d2e6bf2f603d3a60a1c",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-8.json",
+    "size": 1438,
+    "sha256": "13880403dbc7cead047a5e411ad53305b361e36abf2827894c212640f7e52b61",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-9.json",
+    "size": 1426,
+    "sha256": "7ec87be792552ec25dbfd353df3d9badbe346a4e0aed547aad641a6a49b6ca5c",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-10.json",
+    "size": 1457,
+    "sha256": "710fc6055105215e6ddcf396a4a3bd9f3f3362c23e72f7bcdf1bc7e21ad57bb1",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-11.json",
+    "size": 1448,
+    "sha256": "ffe141ee68abe12187fd05149fc0c1d63525ff901c099bc1fcbfce6c2ce7ebb3",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-12.json",
+    "size": 1442,
+    "sha256": "03cf7b91fd9027b3180dfee1aae728435aa7ad782ed0ffd4d79127fe56da842d",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-13.json",
+    "size": 1451,
+    "sha256": "a1042e95d21b07cc8fcb8025996b6d31bcc7fb1f5a86a703862b93a4a5ff3d98",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-14.json",
+    "size": 1451,
+    "sha256": "d4fcc859077366aab2c5b3e8633d53f8473e56ea5af779b7df2a69997328d200",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-15.json",
+    "size": 1448,
+    "sha256": "554af070902db49e2e2d913b6d9bac41e65bbc0a186ad21243a9bae7fcd6c792",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-16.json",
+    "size": 1442,
+    "sha256": "fa66603dd8d000e02f613fe2a860bd58cef916be6d7156217688001c8932bcdd",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-17.json",
+    "size": 1451,
+    "sha256": "c75b01b31ba2bd35c6100fa0963616c21029ec6b2625a86f13073bcfd56f3d3b",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-18.json",
+    "size": 1451,
+    "sha256": "979a8809384b4b9f05539b1af8a3203631600fa24143dd84a1df3d26a7a1c4ea",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-19.json",
+    "size": 1451,
+    "sha256": "5e69edbe852557b00a91de14aeba754a9d922827cd806fb74d223890aa8d4052",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-20.json",
+    "size": 1445,
+    "sha256": "7be55f3338f87f5588626969771cf619c6aac6bc3a2f5ccf90c004ddd9da1249",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-21.json",
+    "size": 1445,
+    "sha256": "26ac7123b5f595c1af56a145d922c4a540a7a7f252ddb214cb0f311a5e44eedc",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-22.json",
+    "size": 1448,
+    "sha256": "99282b3000d7bfcb94245800ff46487c0794b953a428b53c6c0fc067217ee4ff",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-23.json",
+    "size": 1460,
+    "sha256": "0e31431a3193e4fafd06af048d2b13eec26911c78cef794741c1324694a95180",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-24.json",
+    "size": 1451,
+    "sha256": "146d8613611506cc8166640a6bc279726b0dde803128f01bd97245c20bda5e06",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-25.json",
+    "size": 1451,
+    "sha256": "16905f79e43fca623aa8a22a928ea6212379b91f4772d6b7b7c483ad8a2b7eec",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-26.json",
+    "size": 1442,
+    "sha256": "c6251272182f07c854109600ec4da777813a04fa3280dbab700c79fefe600af6",
+    "group": "draft"
+   },
+   {
+    "path": "tools/json/RW-KAG-27.json",
+    "size": 1451,
+    "sha256": "08a82355892d8a77d2bb61b85263a49b68b864d6cadf760f91475e7aa6aaa47d",
+    "group": "draft"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-1.json",
+    "size": 316,
+    "sha256": "cd3eef6c7ef1cf06ccbc19a1875e6c3ffe4d35cf05eae4c5a2481e6facac43c7",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-2.json",
+    "size": 316,
+    "sha256": "8bbdfde983f1b8744b9f14cbc4765b6cc1dcbb7e4c85582c906d028c25cb3ed8",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-3.json",
+    "size": 316,
+    "sha256": "5fecfa1df055d740369090ccdd1aa0a738f9f5a033f8c0cc52253d2de4f105e0",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-4.json",
+    "size": 316,
+    "sha256": "af645b35359463d85f586248de91be860d1ec796d800da14ed93910091d91d73",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-5.json",
+    "size": 316,
+    "sha256": "da631698837c5bd33612150725aa1b2ad0af23089eee6c092ccf6572f2e7ce49",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-6.json",
+    "size": 316,
+    "sha256": "d8a428fff357cdec0857a9da510e90c95c841a64538cc7b758f468f881572604",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-7.json",
+    "size": 316,
+    "sha256": "4de6db9a8d9c79633c7d32b1465c9c53052e4a6b370a45271ae17fcd4c9496e3",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-8.json",
+    "size": 316,
+    "sha256": "71e324c9f89fb7826a5e2891503ed8d785c415fceaed16fdb04bfcf9e4ad1147",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-9.json",
+    "size": 316,
+    "sha256": "deba79c50e57718e9ac24435b5ecc75bb7e433230e82780d3164881888e0eb13",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-10.json",
+    "size": 317,
+    "sha256": "d1e52aa292240a8fa672773a874cc36db67ae8f98d53c0fd6bce331d2c1f6756",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-11.json",
+    "size": 317,
+    "sha256": "5ba8e8bdf20cce22008ebe95fae589dffeb02f6d5c041b23e1c9e5d0f9447817",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-12.json",
+    "size": 317,
+    "sha256": "1bd71f4fad623d243e76973ff5f8d8257dcb125f953957e292fc3057d140323d",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-13.json",
+    "size": 317,
+    "sha256": "16ddaac0cd9a20baa077899fdd84ada16e43c486801ee4816f70ab926f2fb37a",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-14.json",
+    "size": 317,
+    "sha256": "18ceb8b422f5aea0165750d8d21eced48fc2f91c7390eb4c5b22ef8133de3349",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-15.json",
+    "size": 317,
+    "sha256": "a76e179c2c7cbaacc9a5e40e6b0a88eb08d70d9ccb0ba40b01450e35294e8d94",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-16.json",
+    "size": 317,
+    "sha256": "b61bc092b32f0dba0f7f656f36eb12a61a93ca7080bd6c7a48a04cb28e897adf",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-17.json",
+    "size": 317,
+    "sha256": "dc587803f68ef9003f415bf54083c0243295f3f8e1b741b72bd4ee273d68ec42",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-18.json",
+    "size": 317,
+    "sha256": "8e5ea7aaa22cbfdb24aaf46424d3117c331be983ad6addb08569037cc6f4b20e",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-19.json",
+    "size": 317,
+    "sha256": "eed56cf3341973deaa0a73ed92cd3e52cef63c1769fcf1b2ab59061681fc5afe",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-20.json",
+    "size": 317,
+    "sha256": "49ca5759a3aca956edaad0fa889b2067b14e86ab00493cb4691ac37b8c0a49ce",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-21.json",
+    "size": 317,
+    "sha256": "9ed3455202d458b396309e06521a03c08f0abcc5449639db66022eb56cc167bc",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-22.json",
+    "size": 317,
+    "sha256": "dcad3fa1f08b71a6ff3b33851bd103d85b587dba61dc5377581baf5fad4f2560",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-23.json",
+    "size": 317,
+    "sha256": "49a299a1342de4af32107b920eedb6bd0e676fd74b6ea506cb0fdcd1d63bf56a",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-24.json",
+    "size": 317,
+    "sha256": "241cce5bb819153626a9c3dc5e69f9e609d1d708e47f65613963080ef6d67090",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-25.json",
+    "size": 317,
+    "sha256": "ea54a655da6ae3861d8d5950d1bf7f0b2c5407605ff41f8a2578553a4aba2b12",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-26.json",
+    "size": 317,
+    "sha256": "44dda416ff99b1ab9b73a366be1913050de576c3d3dc06256f8b49d948ecbbc8",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures/RW-KAG-27.json",
+    "size": 317,
+    "sha256": "3cc326b31b80de9c91fbd6182eb89f4b9ee618638467dc149f4f32c48c8c3f5c",
+    "group": "shard"
+   },
+   {
+    "path": "web/public/data/figures.index.json",
+    "size": 212431,
+    "sha256": "c866832960abf6dfcad132d052b20a845edd5b16367c7258ddab68d58417f8b7",
+    "group": "aggregate"
+   },
+   {
+    "path": "web/public/data/index.unified.json",
+    "size": 510158,
+    "sha256": "7c155fa13befa89a80164bc6efba6cea480fe0f1b09fcec6babd705c2db7298a",
+    "group": "aggregate"
+   },
+   {
+    "path": "RW-KAG-1.json",
+    "size": 1432,
+    "sha256": "2120355120f0f2feba5d8b8bde02310455ec68c0f39333de7b980c0c5dc826d2",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-2.json",
+    "size": 1435,
+    "sha256": "3103ad783371c22763c23b576f6492e62b5eb5cfb87e7f13d871dd317eb9adae",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-3.json",
+    "size": 1435,
+    "sha256": "742f2d53fed02535287575c51923ab5c230f914e2eb3bdb68cf0cc265eb7ea6a",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-4.json",
+    "size": 1429,
+    "sha256": "1918f330d159127949d0f5ea551470510b57d005db464a139758790c40bea1f2",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-5.json",
+    "size": 1435,
+    "sha256": "84a4827b363656a821f03b1baf0c4911293f290c00cb8376b4cc5927bbf2933e",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-6.json",
+    "size": 1435,
+    "sha256": "000c2d607a6b576926a4c8cbc4395ba668106f8a867b992ca011bd69c790349f",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-7.json",
+    "size": 1435,
+    "sha256": "1e362a2388ad180559883431225e95bbed0442181d3b5d2e6bf2f603d3a60a1c",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-8.json",
+    "size": 1438,
+    "sha256": "13880403dbc7cead047a5e411ad53305b361e36abf2827894c212640f7e52b61",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-9.json",
+    "size": 1426,
+    "sha256": "7ec87be792552ec25dbfd353df3d9badbe346a4e0aed547aad641a6a49b6ca5c",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-10.json",
+    "size": 1457,
+    "sha256": "710fc6055105215e6ddcf396a4a3bd9f3f3362c23e72f7bcdf1bc7e21ad57bb1",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-11.json",
+    "size": 1448,
+    "sha256": "ffe141ee68abe12187fd05149fc0c1d63525ff901c099bc1fcbfce6c2ce7ebb3",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-12.json",
+    "size": 1442,
+    "sha256": "03cf7b91fd9027b3180dfee1aae728435aa7ad782ed0ffd4d79127fe56da842d",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-13.json",
+    "size": 1451,
+    "sha256": "a1042e95d21b07cc8fcb8025996b6d31bcc7fb1f5a86a703862b93a4a5ff3d98",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-14.json",
+    "size": 1451,
+    "sha256": "d4fcc859077366aab2c5b3e8633d53f8473e56ea5af779b7df2a69997328d200",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-15.json",
+    "size": 1448,
+    "sha256": "554af070902db49e2e2d913b6d9bac41e65bbc0a186ad21243a9bae7fcd6c792",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-16.json",
+    "size": 1442,
+    "sha256": "fa66603dd8d000e02f613fe2a860bd58cef916be6d7156217688001c8932bcdd",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-17.json",
+    "size": 1451,
+    "sha256": "c75b01b31ba2bd35c6100fa0963616c21029ec6b2625a86f13073bcfd56f3d3b",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-18.json",
+    "size": 1451,
+    "sha256": "979a8809384b4b9f05539b1af8a3203631600fa24143dd84a1df3d26a7a1c4ea",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-19.json",
+    "size": 1451,
+    "sha256": "5e69edbe852557b00a91de14aeba754a9d922827cd806fb74d223890aa8d4052",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-20.json",
+    "size": 1445,
+    "sha256": "7be55f3338f87f5588626969771cf619c6aac6bc3a2f5ccf90c004ddd9da1249",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-21.json",
+    "size": 1445,
+    "sha256": "26ac7123b5f595c1af56a145d922c4a540a7a7f252ddb214cb0f311a5e44eedc",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-22.json",
+    "size": 1448,
+    "sha256": "99282b3000d7bfcb94245800ff46487c0794b953a428b53c6c0fc067217ee4ff",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-23.json",
+    "size": 1460,
+    "sha256": "0e31431a3193e4fafd06af048d2b13eec26911c78cef794741c1324694a95180",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-24.json",
+    "size": 1451,
+    "sha256": "146d8613611506cc8166640a6bc279726b0dde803128f01bd97245c20bda5e06",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-25.json",
+    "size": 1451,
+    "sha256": "16905f79e43fca623aa8a22a928ea6212379b91f4772d6b7b7c483ad8a2b7eec",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-26.json",
+    "size": 1442,
+    "sha256": "c6251272182f07c854109600ec4da777813a04fa3280dbab700c79fefe600af6",
+    "group": "root_legacy"
+   },
+   {
+    "path": "RW-KAG-27.json",
+    "size": 1451,
+    "sha256": "08a82355892d8a77d2bb61b85263a49b68b864d6cadf760f91475e7aa6aaa47d",
+    "group": "root_legacy"
+   }
+  ]
+ },
+ "removed_fragments": [
+  {
+   "path": "tools/json/scenarios_zh.json",
+   "note": "scenarios 27 条条目键级删除（最小 diff）",
+   "sha256_before": "a760758d8655073d911e313cbe9fa3b74f3fb3204e42d86b672a73aece7bf6f1",
+   "sha256_after": "9727c8eaaf96ab92899a26409f949ff4caf3c1bf10c363acc2b58b33da54e470",
+   "bytes_before": 3015351,
+   "bytes_after": 2981559,
+   "removed_sha256": "5892d39d25bdc5e12691594a61729d10d147fdb37130e4abd5dea63ef5d490b4",
+   "removed_bytes": 33792
+  },
+  {
+   "path": "tools/json/scenarios_en.json",
+   "note": "scenarios 27 条条目键级删除（最小 diff）",
+   "sha256_before": "ebb8d5785514963156613e5dc6440dfafa09a80ae6a59f458f7e4f13d39926cb",
+   "sha256_after": "089c6c68c5e1fa9eeb7c222d770fb3fbeed2df7eabae925f4b9bba76603ac286",
+   "bytes_before": 2275023,
+   "bytes_after": 2250645,
+   "removed_sha256": "3818bf89755a7bdaa72496f12629b0c4ffb29593f1f7f1a169856e63b7b09948",
+   "removed_bytes": 24378
+  },
+  {
+   "path": "tools/code_maps_en.json",
+   "note": "27 条占位映射键整行删除（外科式, 零外溢字节）",
+   "sha256_before": "37b93916f6fd683a569a31dff14d710cffc26a09b30a8830a70507cc76138272",
+   "sha256_after": "fcabb92b410232ded816c936f169a46cb66c914292f1c30bd987113b2e9a0940",
+   "bytes_before": 86330,
+   "bytes_after": 84242,
+   "removed_sha256": "4d77436d39b0e100322f934df392ee4df0671407e54c884bec3136fba3b27e57",
+   "removed_bytes": 2088
+  }
+ ],
+ "moved_to_archive": [
+  {
+   "path": "tools/json/RW-KAG-1.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-1.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "2120355120f0f2feba5d8b8bde02310455ec68c0f39333de7b980c0c5dc826d2"
+  },
+  {
+   "path": "RW-KAG-1.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-1.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "2120355120f0f2feba5d8b8bde02310455ec68c0f39333de7b980c0c5dc826d2"
+  },
+  {
+   "path": "tools/json/RW-KAG-2.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-2.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "3103ad783371c22763c23b576f6492e62b5eb5cfb87e7f13d871dd317eb9adae"
+  },
+  {
+   "path": "RW-KAG-2.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-2.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "3103ad783371c22763c23b576f6492e62b5eb5cfb87e7f13d871dd317eb9adae"
+  },
+  {
+   "path": "tools/json/RW-KAG-3.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-3.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "742f2d53fed02535287575c51923ab5c230f914e2eb3bdb68cf0cc265eb7ea6a"
+  },
+  {
+   "path": "RW-KAG-3.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-3.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "742f2d53fed02535287575c51923ab5c230f914e2eb3bdb68cf0cc265eb7ea6a"
+  },
+  {
+   "path": "tools/json/RW-KAG-4.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-4.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "1918f330d159127949d0f5ea551470510b57d005db464a139758790c40bea1f2"
+  },
+  {
+   "path": "RW-KAG-4.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-4.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "1918f330d159127949d0f5ea551470510b57d005db464a139758790c40bea1f2"
+  },
+  {
+   "path": "tools/json/RW-KAG-5.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-5.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "84a4827b363656a821f03b1baf0c4911293f290c00cb8376b4cc5927bbf2933e"
+  },
+  {
+   "path": "RW-KAG-5.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-5.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "84a4827b363656a821f03b1baf0c4911293f290c00cb8376b4cc5927bbf2933e"
+  },
+  {
+   "path": "tools/json/RW-KAG-6.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-6.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "000c2d607a6b576926a4c8cbc4395ba668106f8a867b992ca011bd69c790349f"
+  },
+  {
+   "path": "RW-KAG-6.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-6.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "000c2d607a6b576926a4c8cbc4395ba668106f8a867b992ca011bd69c790349f"
+  },
+  {
+   "path": "tools/json/RW-KAG-7.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-7.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "1e362a2388ad180559883431225e95bbed0442181d3b5d2e6bf2f603d3a60a1c"
+  },
+  {
+   "path": "RW-KAG-7.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-7.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "1e362a2388ad180559883431225e95bbed0442181d3b5d2e6bf2f603d3a60a1c"
+  },
+  {
+   "path": "tools/json/RW-KAG-8.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-8.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "13880403dbc7cead047a5e411ad53305b361e36abf2827894c212640f7e52b61"
+  },
+  {
+   "path": "RW-KAG-8.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-8.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "13880403dbc7cead047a5e411ad53305b361e36abf2827894c212640f7e52b61"
+  },
+  {
+   "path": "tools/json/RW-KAG-9.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-9.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "7ec87be792552ec25dbfd353df3d9badbe346a4e0aed547aad641a6a49b6ca5c"
+  },
+  {
+   "path": "RW-KAG-9.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-9.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "7ec87be792552ec25dbfd353df3d9badbe346a4e0aed547aad641a6a49b6ca5c"
+  },
+  {
+   "path": "tools/json/RW-KAG-10.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-10.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "710fc6055105215e6ddcf396a4a3bd9f3f3362c23e72f7bcdf1bc7e21ad57bb1"
+  },
+  {
+   "path": "RW-KAG-10.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-10.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "710fc6055105215e6ddcf396a4a3bd9f3f3362c23e72f7bcdf1bc7e21ad57bb1"
+  },
+  {
+   "path": "tools/json/RW-KAG-11.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-11.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "ffe141ee68abe12187fd05149fc0c1d63525ff901c099bc1fcbfce6c2ce7ebb3"
+  },
+  {
+   "path": "RW-KAG-11.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-11.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "ffe141ee68abe12187fd05149fc0c1d63525ff901c099bc1fcbfce6c2ce7ebb3"
+  },
+  {
+   "path": "tools/json/RW-KAG-12.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-12.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "03cf7b91fd9027b3180dfee1aae728435aa7ad782ed0ffd4d79127fe56da842d"
+  },
+  {
+   "path": "RW-KAG-12.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-12.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "03cf7b91fd9027b3180dfee1aae728435aa7ad782ed0ffd4d79127fe56da842d"
+  },
+  {
+   "path": "tools/json/RW-KAG-13.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-13.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "a1042e95d21b07cc8fcb8025996b6d31bcc7fb1f5a86a703862b93a4a5ff3d98"
+  },
+  {
+   "path": "RW-KAG-13.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-13.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "a1042e95d21b07cc8fcb8025996b6d31bcc7fb1f5a86a703862b93a4a5ff3d98"
+  },
+  {
+   "path": "tools/json/RW-KAG-14.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-14.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "d4fcc859077366aab2c5b3e8633d53f8473e56ea5af779b7df2a69997328d200"
+  },
+  {
+   "path": "RW-KAG-14.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-14.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "d4fcc859077366aab2c5b3e8633d53f8473e56ea5af779b7df2a69997328d200"
+  },
+  {
+   "path": "tools/json/RW-KAG-15.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-15.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "554af070902db49e2e2d913b6d9bac41e65bbc0a186ad21243a9bae7fcd6c792"
+  },
+  {
+   "path": "RW-KAG-15.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-15.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "554af070902db49e2e2d913b6d9bac41e65bbc0a186ad21243a9bae7fcd6c792"
+  },
+  {
+   "path": "tools/json/RW-KAG-16.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-16.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "fa66603dd8d000e02f613fe2a860bd58cef916be6d7156217688001c8932bcdd"
+  },
+  {
+   "path": "RW-KAG-16.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-16.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "fa66603dd8d000e02f613fe2a860bd58cef916be6d7156217688001c8932bcdd"
+  },
+  {
+   "path": "tools/json/RW-KAG-17.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-17.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "c75b01b31ba2bd35c6100fa0963616c21029ec6b2625a86f13073bcfd56f3d3b"
+  },
+  {
+   "path": "RW-KAG-17.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-17.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "c75b01b31ba2bd35c6100fa0963616c21029ec6b2625a86f13073bcfd56f3d3b"
+  },
+  {
+   "path": "tools/json/RW-KAG-18.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-18.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "979a8809384b4b9f05539b1af8a3203631600fa24143dd84a1df3d26a7a1c4ea"
+  },
+  {
+   "path": "RW-KAG-18.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-18.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "979a8809384b4b9f05539b1af8a3203631600fa24143dd84a1df3d26a7a1c4ea"
+  },
+  {
+   "path": "tools/json/RW-KAG-19.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-19.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "5e69edbe852557b00a91de14aeba754a9d922827cd806fb74d223890aa8d4052"
+  },
+  {
+   "path": "RW-KAG-19.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-19.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "5e69edbe852557b00a91de14aeba754a9d922827cd806fb74d223890aa8d4052"
+  },
+  {
+   "path": "tools/json/RW-KAG-20.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-20.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "7be55f3338f87f5588626969771cf619c6aac6bc3a2f5ccf90c004ddd9da1249"
+  },
+  {
+   "path": "RW-KAG-20.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-20.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "7be55f3338f87f5588626969771cf619c6aac6bc3a2f5ccf90c004ddd9da1249"
+  },
+  {
+   "path": "tools/json/RW-KAG-21.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-21.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "26ac7123b5f595c1af56a145d922c4a540a7a7f252ddb214cb0f311a5e44eedc"
+  },
+  {
+   "path": "RW-KAG-21.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-21.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "26ac7123b5f595c1af56a145d922c4a540a7a7f252ddb214cb0f311a5e44eedc"
+  },
+  {
+   "path": "tools/json/RW-KAG-22.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-22.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "99282b3000d7bfcb94245800ff46487c0794b953a428b53c6c0fc067217ee4ff"
+  },
+  {
+   "path": "RW-KAG-22.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-22.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "99282b3000d7bfcb94245800ff46487c0794b953a428b53c6c0fc067217ee4ff"
+  },
+  {
+   "path": "tools/json/RW-KAG-23.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-23.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "0e31431a3193e4fafd06af048d2b13eec26911c78cef794741c1324694a95180"
+  },
+  {
+   "path": "RW-KAG-23.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-23.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "0e31431a3193e4fafd06af048d2b13eec26911c78cef794741c1324694a95180"
+  },
+  {
+   "path": "tools/json/RW-KAG-24.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-24.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "146d8613611506cc8166640a6bc279726b0dde803128f01bd97245c20bda5e06"
+  },
+  {
+   "path": "RW-KAG-24.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-24.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "146d8613611506cc8166640a6bc279726b0dde803128f01bd97245c20bda5e06"
+  },
+  {
+   "path": "tools/json/RW-KAG-25.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-25.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "16905f79e43fca623aa8a22a928ea6212379b91f4772d6b7b7c483ad8a2b7eec"
+  },
+  {
+   "path": "RW-KAG-25.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-25.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "16905f79e43fca623aa8a22a928ea6212379b91f4772d6b7b7c483ad8a2b7eec"
+  },
+  {
+   "path": "tools/json/RW-KAG-26.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-26.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "c6251272182f07c854109600ec4da777813a04fa3280dbab700c79fefe600af6"
+  },
+  {
+   "path": "RW-KAG-26.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-26.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "c6251272182f07c854109600ec4da777813a04fa3280dbab700c79fefe600af6"
+  },
+  {
+   "path": "tools/json/RW-KAG-27.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/tools/json/RW-KAG-27.json",
+   "note": "草稿归档引用移出（git R100 移动）",
+   "sha256": "08a82355892d8a77d2bb61b85263a49b68b864d6cadf760f91475e7aa6aaa47d"
+  },
+  {
+   "path": "RW-KAG-27.json",
+   "archive_path": "data/backup_phase21w4_rwkag_clear_20260924/RW-KAG-27.json",
+   "note": "根双胞归档移出（git R100 移动）",
+   "sha256": "08a82355892d8a77d2bb61b85263a49b68b864d6cadf760f91475e7aa6aaa47d"
+  }
+ ],
+ "rebuilt_away": [
+  {
+   "path": "web/public/data/figures/RW-KAG-1.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "cd3eef6c7ef1cf06ccbc19a1875e6c3ffe4d35cf05eae4c5a2481e6facac43c7"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-2.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "8bbdfde983f1b8744b9f14cbc4765b6cc1dcbb7e4c85582c906d028c25cb3ed8"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-3.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "5fecfa1df055d740369090ccdd1aa0a738f9f5a033f8c0cc52253d2de4f105e0"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-4.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "af645b35359463d85f586248de91be860d1ec796d800da14ed93910091d91d73"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-5.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "da631698837c5bd33612150725aa1b2ad0af23089eee6c092ccf6572f2e7ce49"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-6.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "d8a428fff357cdec0857a9da510e90c95c841a64538cc7b758f468f881572604"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-7.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "4de6db9a8d9c79633c7d32b1465c9c53052e4a6b370a45271ae17fcd4c9496e3"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-8.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "71e324c9f89fb7826a5e2891503ed8d785c415fceaed16fdb04bfcf9e4ad1147"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-9.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "deba79c50e57718e9ac24435b5ecc75bb7e433230e82780d3164881888e0eb13"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-10.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "d1e52aa292240a8fa672773a874cc36db67ae8f98d53c0fd6bce331d2c1f6756"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-11.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "5ba8e8bdf20cce22008ebe95fae589dffeb02f6d5c041b23e1c9e5d0f9447817"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-12.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "1bd71f4fad623d243e76973ff5f8d8257dcb125f953957e292fc3057d140323d"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-13.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "16ddaac0cd9a20baa077899fdd84ada16e43c486801ee4816f70ab926f2fb37a"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-14.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "18ceb8b422f5aea0165750d8d21eced48fc2f91c7390eb4c5b22ef8133de3349"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-15.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "a76e179c2c7cbaacc9a5e40e6b0a88eb08d70d9ccb0ba40b01450e35294e8d94"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-16.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "b61bc092b32f0dba0f7f656f36eb12a61a93ca7080bd6c7a48a04cb28e897adf"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-17.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "dc587803f68ef9003f415bf54083c0243295f3f8e1b741b72bd4ee273d68ec42"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-18.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "8e5ea7aaa22cbfdb24aaf46424d3117c331be983ad6addb08569037cc6f4b20e"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-19.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "eed56cf3341973deaa0a73ed92cd3e52cef63c1769fcf1b2ab59061681fc5afe"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-20.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "49ca5759a3aca956edaad0fa889b2067b14e86ab00493cb4691ac37b8c0a49ce"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-21.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "9ed3455202d458b396309e06521a03c08f0abcc5449639db66022eb56cc167bc"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-22.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "dcad3fa1f08b71a6ff3b33851bd103d85b587dba61dc5377581baf5fad4f2560"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-23.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "49a299a1342de4af32107b920eedb6bd0e676fd74b6ea506cb0fdcd1d63bf56a"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-24.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "241cce5bb819153626a9c3dc5e69f9e609d1d708e47f65613963080ef6d67090"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-25.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "ea54a655da6ae3861d8d5950d1bf7f0b2c5407605ff41f8a2578553a4aba2b12"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-26.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "44dda416ff99b1ab9b73a366be1913050de576c3d3dc06256f8b49d948ecbbc8"
+  },
+  {
+   "path": "web/public/data/figures/RW-KAG-27.json",
+   "note": "重建链重建后消失（prepare_out rmtree 重建口径）",
+   "sha256": "3cc326b31b80de9c91fbd6182eb89f4b9ee618638467dc149f4f32c48c8c3f5c"
+  }
+ ],
+ "per_code_fragments": {
+  "RW-KAG-1": {
+   "scenarios_zh_entry": {
+    "bytes": 1239,
+    "sha256": "83f9e74094f7f8051933ab016f38ba5d239c52c369d5b809eed96a56d6b1967d"
+   },
+   "scenarios_en_entry": {
+    "bytes": 895,
+    "sha256": "0768a04664cd29d8663f6f8a92ee384fa07fb00468fc103d7aa1147781c56838"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "ef8bf4afe8b6f4a88c57f176c26cdca5edb4401402f7e7e59040aa7aba382e4b"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-1.json",
+    "bytes": 1432,
+    "sha256": "2120355120f0f2feba5d8b8bde02310455ec68c0f39333de7b980c0c5dc826d2"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-1.json",
+    "bytes": 316,
+    "sha256": "cd3eef6c7ef1cf06ccbc19a1875e6c3ffe4d35cf05eae4c5a2481e6facac43c7"
+   },
+   "root_twin": {
+    "path": "RW-KAG-1.json",
+    "bytes": 1432,
+    "sha256": "2120355120f0f2feba5d8b8bde02310455ec68c0f39333de7b980c0c5dc826d2",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-1.json",
+    "bytes": 1432,
+    "sha256": "2120355120f0f2feba5d8b8bde02310455ec68c0f39333de7b980c0c5dc826d2",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-2": {
+   "scenarios_zh_entry": {
+    "bytes": 1242,
+    "sha256": "9c6f4374de3a59edcead307a88c9872cc1a555b6994214ad8a873bc69021657e"
+   },
+   "scenarios_en_entry": {
+    "bytes": 898,
+    "sha256": "2bbeecf9cd8e3d94d3c407c7912ad9254821532a1e42998f772368780b5cbd61"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "32df17cdce46a3d5c1f9d5040a9dbffc096ebf7fc5ac21350f1fd99750395ba0"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-2.json",
+    "bytes": 1435,
+    "sha256": "3103ad783371c22763c23b576f6492e62b5eb5cfb87e7f13d871dd317eb9adae"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-2.json",
+    "bytes": 316,
+    "sha256": "8bbdfde983f1b8744b9f14cbc4765b6cc1dcbb7e4c85582c906d028c25cb3ed8"
+   },
+   "root_twin": {
+    "path": "RW-KAG-2.json",
+    "bytes": 1435,
+    "sha256": "3103ad783371c22763c23b576f6492e62b5eb5cfb87e7f13d871dd317eb9adae",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-2.json",
+    "bytes": 1435,
+    "sha256": "3103ad783371c22763c23b576f6492e62b5eb5cfb87e7f13d871dd317eb9adae",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-3": {
+   "scenarios_zh_entry": {
+    "bytes": 1242,
+    "sha256": "71b13c985c95163579c9b90dc2fe1a8f017a6aedc98f2e42d8841b2831d1b06b"
+   },
+   "scenarios_en_entry": {
+    "bytes": 898,
+    "sha256": "1815eae2f46c28c3c9cc3d5696bfb00e04b846c79a7056cdc1d68edc351c75c4"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "e5e9b1fd7c6d3bc95a8d578754d93983ac883d471d06896df3a015c0497f1c12"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-3.json",
+    "bytes": 1435,
+    "sha256": "742f2d53fed02535287575c51923ab5c230f914e2eb3bdb68cf0cc265eb7ea6a"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-3.json",
+    "bytes": 316,
+    "sha256": "5fecfa1df055d740369090ccdd1aa0a738f9f5a033f8c0cc52253d2de4f105e0"
+   },
+   "root_twin": {
+    "path": "RW-KAG-3.json",
+    "bytes": 1435,
+    "sha256": "742f2d53fed02535287575c51923ab5c230f914e2eb3bdb68cf0cc265eb7ea6a",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-3.json",
+    "bytes": 1435,
+    "sha256": "742f2d53fed02535287575c51923ab5c230f914e2eb3bdb68cf0cc265eb7ea6a",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-4": {
+   "scenarios_zh_entry": {
+    "bytes": 1236,
+    "sha256": "def9d6ec376d310dce6d8e1e1a43b20c805eda1d55d15147b89c64a68ba9d483"
+   },
+   "scenarios_en_entry": {
+    "bytes": 892,
+    "sha256": "0ef5a98f88be52c55599df71429e68dbdee97ba7a347f139512ce15ee96ebb15"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "747a342e20cd421a80a3733ea6a75415154fd6cab1df91955d46eb4b8d1c435c"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-4.json",
+    "bytes": 1429,
+    "sha256": "1918f330d159127949d0f5ea551470510b57d005db464a139758790c40bea1f2"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-4.json",
+    "bytes": 316,
+    "sha256": "af645b35359463d85f586248de91be860d1ec796d800da14ed93910091d91d73"
+   },
+   "root_twin": {
+    "path": "RW-KAG-4.json",
+    "bytes": 1429,
+    "sha256": "1918f330d159127949d0f5ea551470510b57d005db464a139758790c40bea1f2",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-4.json",
+    "bytes": 1429,
+    "sha256": "1918f330d159127949d0f5ea551470510b57d005db464a139758790c40bea1f2",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-5": {
+   "scenarios_zh_entry": {
+    "bytes": 1242,
+    "sha256": "9c93ff1cddf621d480d65b60ebae7f3bfbe7d5dfed1e9305c02da19406be3a2c"
+   },
+   "scenarios_en_entry": {
+    "bytes": 898,
+    "sha256": "13e24eceee165b7d5715c805a2257f08c08743281efd42a386fd07ed46aad68d"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "38b506efdb5784deb6986be3bd2ed709d38af7e9e17ab4badb906eb3b1e0ac74"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-5.json",
+    "bytes": 1435,
+    "sha256": "84a4827b363656a821f03b1baf0c4911293f290c00cb8376b4cc5927bbf2933e"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-5.json",
+    "bytes": 316,
+    "sha256": "da631698837c5bd33612150725aa1b2ad0af23089eee6c092ccf6572f2e7ce49"
+   },
+   "root_twin": {
+    "path": "RW-KAG-5.json",
+    "bytes": 1435,
+    "sha256": "84a4827b363656a821f03b1baf0c4911293f290c00cb8376b4cc5927bbf2933e",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-5.json",
+    "bytes": 1435,
+    "sha256": "84a4827b363656a821f03b1baf0c4911293f290c00cb8376b4cc5927bbf2933e",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-6": {
+   "scenarios_zh_entry": {
+    "bytes": 1242,
+    "sha256": "e98b389702e059c69e4b684218e0e37ac1e9bd2187301d52f07c9a394f68515c"
+   },
+   "scenarios_en_entry": {
+    "bytes": 898,
+    "sha256": "6dacdaa9447ad0e521fccc7052c637a3002556dc31bad42df101451b45c7f9fe"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "78d3dbba573631af72883935d33de832793197c2f7bb08ace80613580d6f8cf3"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-6.json",
+    "bytes": 1435,
+    "sha256": "000c2d607a6b576926a4c8cbc4395ba668106f8a867b992ca011bd69c790349f"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-6.json",
+    "bytes": 316,
+    "sha256": "d8a428fff357cdec0857a9da510e90c95c841a64538cc7b758f468f881572604"
+   },
+   "root_twin": {
+    "path": "RW-KAG-6.json",
+    "bytes": 1435,
+    "sha256": "000c2d607a6b576926a4c8cbc4395ba668106f8a867b992ca011bd69c790349f",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-6.json",
+    "bytes": 1435,
+    "sha256": "000c2d607a6b576926a4c8cbc4395ba668106f8a867b992ca011bd69c790349f",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-7": {
+   "scenarios_zh_entry": {
+    "bytes": 1242,
+    "sha256": "aeb5f62ea449a9dfefc2683be94a9b8da8740a5da6204f4c40d24f7359bb9b80"
+   },
+   "scenarios_en_entry": {
+    "bytes": 898,
+    "sha256": "5066936bb2bd38bf479735c39e7a6aa9e33a344443f9aa49fdc07c1536a57c94"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "cb4a893afd17efff7d6697cbb60645f3f73b45e9735c78ae31e42b7d6405caf1"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-7.json",
+    "bytes": 1435,
+    "sha256": "1e362a2388ad180559883431225e95bbed0442181d3b5d2e6bf2f603d3a60a1c"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-7.json",
+    "bytes": 316,
+    "sha256": "4de6db9a8d9c79633c7d32b1465c9c53052e4a6b370a45271ae17fcd4c9496e3"
+   },
+   "root_twin": {
+    "path": "RW-KAG-7.json",
+    "bytes": 1435,
+    "sha256": "1e362a2388ad180559883431225e95bbed0442181d3b5d2e6bf2f603d3a60a1c",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-7.json",
+    "bytes": 1435,
+    "sha256": "1e362a2388ad180559883431225e95bbed0442181d3b5d2e6bf2f603d3a60a1c",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-8": {
+   "scenarios_zh_entry": {
+    "bytes": 1245,
+    "sha256": "81f1135d4e71a348a7755450b1bd2bb62dd528045644d3c716c6d58ea20b4cae"
+   },
+   "scenarios_en_entry": {
+    "bytes": 901,
+    "sha256": "fca577f49a1d210ecaf08aefdc0b40d2a64ad2a0638f5bd1979912579f8e1c05"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "3ebe13e26e1d5937e039fc4b620d28c51b90af8e8dae55c94fec42d273e295b0"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-8.json",
+    "bytes": 1438,
+    "sha256": "13880403dbc7cead047a5e411ad53305b361e36abf2827894c212640f7e52b61"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-8.json",
+    "bytes": 316,
+    "sha256": "71e324c9f89fb7826a5e2891503ed8d785c415fceaed16fdb04bfcf9e4ad1147"
+   },
+   "root_twin": {
+    "path": "RW-KAG-8.json",
+    "bytes": 1438,
+    "sha256": "13880403dbc7cead047a5e411ad53305b361e36abf2827894c212640f7e52b61",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-8.json",
+    "bytes": 1438,
+    "sha256": "13880403dbc7cead047a5e411ad53305b361e36abf2827894c212640f7e52b61",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-9": {
+   "scenarios_zh_entry": {
+    "bytes": 1233,
+    "sha256": "8aac24e053623fdf2279774599d4a194d9000552797db9ccd59598831894b507"
+   },
+   "scenarios_en_entry": {
+    "bytes": 889,
+    "sha256": "ffeae21fdf959a1ab2163da9624ad26f03e366f49ef04cd95d0cf9335fec086a"
+   },
+   "code_maps_en_line": {
+    "bytes": 76,
+    "sha256": "dcf7abde6e96bbd10705667cc35c8766306bf9f39be3627614a23abbda189abb"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-9.json",
+    "bytes": 1426,
+    "sha256": "7ec87be792552ec25dbfd353df3d9badbe346a4e0aed547aad641a6a49b6ca5c"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-9.json",
+    "bytes": 316,
+    "sha256": "deba79c50e57718e9ac24435b5ecc75bb7e433230e82780d3164881888e0eb13"
+   },
+   "root_twin": {
+    "path": "RW-KAG-9.json",
+    "bytes": 1426,
+    "sha256": "7ec87be792552ec25dbfd353df3d9badbe346a4e0aed547aad641a6a49b6ca5c",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-9.json",
+    "bytes": 1426,
+    "sha256": "7ec87be792552ec25dbfd353df3d9badbe346a4e0aed547aad641a6a49b6ca5c",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-10": {
+   "scenarios_zh_entry": {
+    "bytes": 1265,
+    "sha256": "0e3e397515bf98ef0fd2a21ecfcefe9271ed792ca70d14c3978e316276aca226"
+   },
+   "scenarios_en_entry": {
+    "bytes": 914,
+    "sha256": "b0a2f805cba010b3e10f14aac9b13c8a0f0f6b59fd64cd7bcd12cbe5a4173457"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "098d26ec6eaf8680859245d8d584028f889e9296099e6ecfd42dff7e9ed6fdbf"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-10.json",
+    "bytes": 1457,
+    "sha256": "710fc6055105215e6ddcf396a4a3bd9f3f3362c23e72f7bcdf1bc7e21ad57bb1"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-10.json",
+    "bytes": 317,
+    "sha256": "d1e52aa292240a8fa672773a874cc36db67ae8f98d53c0fd6bce331d2c1f6756"
+   },
+   "root_twin": {
+    "path": "RW-KAG-10.json",
+    "bytes": 1457,
+    "sha256": "710fc6055105215e6ddcf396a4a3bd9f3f3362c23e72f7bcdf1bc7e21ad57bb1",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-10.json",
+    "bytes": 1457,
+    "sha256": "710fc6055105215e6ddcf396a4a3bd9f3f3362c23e72f7bcdf1bc7e21ad57bb1",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-11": {
+   "scenarios_zh_entry": {
+    "bytes": 1256,
+    "sha256": "81a3adb7123bb7f8f6742947e3ac4dcb4b80996e4851c8cb75fecf958a5bc872"
+   },
+   "scenarios_en_entry": {
+    "bytes": 905,
+    "sha256": "9087dc6619a4b81b74b4b7a8b0f04045e293e8665bb49a93625960909bfa0d09"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "8ecc7103d152e287318c6b198db615a8868cd44b754c9f837e0b04050d9f2cd4"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-11.json",
+    "bytes": 1448,
+    "sha256": "ffe141ee68abe12187fd05149fc0c1d63525ff901c099bc1fcbfce6c2ce7ebb3"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-11.json",
+    "bytes": 317,
+    "sha256": "5ba8e8bdf20cce22008ebe95fae589dffeb02f6d5c041b23e1c9e5d0f9447817"
+   },
+   "root_twin": {
+    "path": "RW-KAG-11.json",
+    "bytes": 1448,
+    "sha256": "ffe141ee68abe12187fd05149fc0c1d63525ff901c099bc1fcbfce6c2ce7ebb3",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-11.json",
+    "bytes": 1448,
+    "sha256": "ffe141ee68abe12187fd05149fc0c1d63525ff901c099bc1fcbfce6c2ce7ebb3",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-12": {
+   "scenarios_zh_entry": {
+    "bytes": 1250,
+    "sha256": "d6c8689c0c0e7a91692b595cf1eff7bd878105e2e46496c293c7b36657a8750b"
+   },
+   "scenarios_en_entry": {
+    "bytes": 899,
+    "sha256": "9dda73ebad989ed74a46678dc638f876a4744dce0bff1f22ed075811fb87f399"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "c77f2a6e7ef88a6764bfdd2b5b6ebb56d3ef4fea45d30838fd81ead334d3633b"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-12.json",
+    "bytes": 1442,
+    "sha256": "03cf7b91fd9027b3180dfee1aae728435aa7ad782ed0ffd4d79127fe56da842d"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-12.json",
+    "bytes": 317,
+    "sha256": "1bd71f4fad623d243e76973ff5f8d8257dcb125f953957e292fc3057d140323d"
+   },
+   "root_twin": {
+    "path": "RW-KAG-12.json",
+    "bytes": 1442,
+    "sha256": "03cf7b91fd9027b3180dfee1aae728435aa7ad782ed0ffd4d79127fe56da842d",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-12.json",
+    "bytes": 1442,
+    "sha256": "03cf7b91fd9027b3180dfee1aae728435aa7ad782ed0ffd4d79127fe56da842d",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-13": {
+   "scenarios_zh_entry": {
+    "bytes": 1259,
+    "sha256": "931d136a6a1b520f80c1e74a2d5326413a4378cfec953fc3fe3e6a0be5a03cfd"
+   },
+   "scenarios_en_entry": {
+    "bytes": 908,
+    "sha256": "585eac69196f86c615d40e6765715d4346a2b663c405a70995f266a710a73fd0"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "3d1f148294356d6884db38db78fe82e72c8d69d32abec00e353d413afedf208f"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-13.json",
+    "bytes": 1451,
+    "sha256": "a1042e95d21b07cc8fcb8025996b6d31bcc7fb1f5a86a703862b93a4a5ff3d98"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-13.json",
+    "bytes": 317,
+    "sha256": "16ddaac0cd9a20baa077899fdd84ada16e43c486801ee4816f70ab926f2fb37a"
+   },
+   "root_twin": {
+    "path": "RW-KAG-13.json",
+    "bytes": 1451,
+    "sha256": "a1042e95d21b07cc8fcb8025996b6d31bcc7fb1f5a86a703862b93a4a5ff3d98",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-13.json",
+    "bytes": 1451,
+    "sha256": "a1042e95d21b07cc8fcb8025996b6d31bcc7fb1f5a86a703862b93a4a5ff3d98",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-14": {
+   "scenarios_zh_entry": {
+    "bytes": 1259,
+    "sha256": "3d2e0d0eac742d4f8952f66e3691aa814ac8179682212092e2cf1780ea5025af"
+   },
+   "scenarios_en_entry": {
+    "bytes": 908,
+    "sha256": "bb19ce00e563a867097f8443c90d8cf8c3e78d4fb3a7ae2f94fb403542d5bf3d"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "44796368f35bd7300a940a0a3a5ed36ec9bde67d218e1e32987a331cb0939aa9"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-14.json",
+    "bytes": 1451,
+    "sha256": "d4fcc859077366aab2c5b3e8633d53f8473e56ea5af779b7df2a69997328d200"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-14.json",
+    "bytes": 317,
+    "sha256": "18ceb8b422f5aea0165750d8d21eced48fc2f91c7390eb4c5b22ef8133de3349"
+   },
+   "root_twin": {
+    "path": "RW-KAG-14.json",
+    "bytes": 1451,
+    "sha256": "d4fcc859077366aab2c5b3e8633d53f8473e56ea5af779b7df2a69997328d200",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-14.json",
+    "bytes": 1451,
+    "sha256": "d4fcc859077366aab2c5b3e8633d53f8473e56ea5af779b7df2a69997328d200",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-15": {
+   "scenarios_zh_entry": {
+    "bytes": 1256,
+    "sha256": "d3c93e692bf9e998e0e85316856117d09964201d7d63040fded8c2358db45c26"
+   },
+   "scenarios_en_entry": {
+    "bytes": 905,
+    "sha256": "8c68089b9abace32bd4655c407df0884b7bfbef7e7336e6fa29cb6c29b3f1897"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "50a6efcd8e2839fa0035dda6df1291f4ed676f606ba1270d04ee6d0a2494db67"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-15.json",
+    "bytes": 1448,
+    "sha256": "554af070902db49e2e2d913b6d9bac41e65bbc0a186ad21243a9bae7fcd6c792"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-15.json",
+    "bytes": 317,
+    "sha256": "a76e179c2c7cbaacc9a5e40e6b0a88eb08d70d9ccb0ba40b01450e35294e8d94"
+   },
+   "root_twin": {
+    "path": "RW-KAG-15.json",
+    "bytes": 1448,
+    "sha256": "554af070902db49e2e2d913b6d9bac41e65bbc0a186ad21243a9bae7fcd6c792",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-15.json",
+    "bytes": 1448,
+    "sha256": "554af070902db49e2e2d913b6d9bac41e65bbc0a186ad21243a9bae7fcd6c792",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-16": {
+   "scenarios_zh_entry": {
+    "bytes": 1250,
+    "sha256": "99b5d2b4dd3a4799be1fa5be58ea802dafff2aaf6dc8529560a4095044328e1f"
+   },
+   "scenarios_en_entry": {
+    "bytes": 899,
+    "sha256": "e267f3cc48bc9f8493ae31a0ac9c1236556df2c6746e730df23b6ce3de90bb60"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "ca2e367cf161b738eb0e48cbbf6878bfef49dbb20e2da11390f2309c8ace7546"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-16.json",
+    "bytes": 1442,
+    "sha256": "fa66603dd8d000e02f613fe2a860bd58cef916be6d7156217688001c8932bcdd"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-16.json",
+    "bytes": 317,
+    "sha256": "b61bc092b32f0dba0f7f656f36eb12a61a93ca7080bd6c7a48a04cb28e897adf"
+   },
+   "root_twin": {
+    "path": "RW-KAG-16.json",
+    "bytes": 1442,
+    "sha256": "fa66603dd8d000e02f613fe2a860bd58cef916be6d7156217688001c8932bcdd",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-16.json",
+    "bytes": 1442,
+    "sha256": "fa66603dd8d000e02f613fe2a860bd58cef916be6d7156217688001c8932bcdd",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-17": {
+   "scenarios_zh_entry": {
+    "bytes": 1259,
+    "sha256": "0003b6a411ab3c1d6cd60ba5e02a8ccc2bab1526b8e6e61fd7a72b57df7b17fa"
+   },
+   "scenarios_en_entry": {
+    "bytes": 908,
+    "sha256": "4ba984032a17c4792917f4abd9d850ce0474baee77dce8bee6cdc96a7856b754"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "20f243a778003e38865c88496cef54c212ab7b34f2861c2b0c78b3d4e2861196"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-17.json",
+    "bytes": 1451,
+    "sha256": "c75b01b31ba2bd35c6100fa0963616c21029ec6b2625a86f13073bcfd56f3d3b"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-17.json",
+    "bytes": 317,
+    "sha256": "dc587803f68ef9003f415bf54083c0243295f3f8e1b741b72bd4ee273d68ec42"
+   },
+   "root_twin": {
+    "path": "RW-KAG-17.json",
+    "bytes": 1451,
+    "sha256": "c75b01b31ba2bd35c6100fa0963616c21029ec6b2625a86f13073bcfd56f3d3b",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-17.json",
+    "bytes": 1451,
+    "sha256": "c75b01b31ba2bd35c6100fa0963616c21029ec6b2625a86f13073bcfd56f3d3b",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-18": {
+   "scenarios_zh_entry": {
+    "bytes": 1259,
+    "sha256": "a4d9c77bf97d4b529a290b4f6625e776fe993ea6b86c34d13d12272c510f0d41"
+   },
+   "scenarios_en_entry": {
+    "bytes": 908,
+    "sha256": "c4ea0820c1f511e2bf2357012939735c6c8331fc2dc72b46b277729f67721905"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "60f404815143233670b798a246f4e4a354655d0bce59cfc812d7c26cec958ea5"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-18.json",
+    "bytes": 1451,
+    "sha256": "979a8809384b4b9f05539b1af8a3203631600fa24143dd84a1df3d26a7a1c4ea"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-18.json",
+    "bytes": 317,
+    "sha256": "8e5ea7aaa22cbfdb24aaf46424d3117c331be983ad6addb08569037cc6f4b20e"
+   },
+   "root_twin": {
+    "path": "RW-KAG-18.json",
+    "bytes": 1451,
+    "sha256": "979a8809384b4b9f05539b1af8a3203631600fa24143dd84a1df3d26a7a1c4ea",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-18.json",
+    "bytes": 1451,
+    "sha256": "979a8809384b4b9f05539b1af8a3203631600fa24143dd84a1df3d26a7a1c4ea",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-19": {
+   "scenarios_zh_entry": {
+    "bytes": 1259,
+    "sha256": "44f15cd46b38311210fd188d835a215ed25a6e23ada20bbc6c2edeb3f1f10e64"
+   },
+   "scenarios_en_entry": {
+    "bytes": 908,
+    "sha256": "4a730016bf08645c80f8146d26a04a690b05df2c0b9c64f413a51f504f49b6fa"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "8d67b5f0a967d4b482906e12bb39e4a5e50037f3b89b9fb2e6cbe5b0a9f68e1b"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-19.json",
+    "bytes": 1451,
+    "sha256": "5e69edbe852557b00a91de14aeba754a9d922827cd806fb74d223890aa8d4052"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-19.json",
+    "bytes": 317,
+    "sha256": "eed56cf3341973deaa0a73ed92cd3e52cef63c1769fcf1b2ab59061681fc5afe"
+   },
+   "root_twin": {
+    "path": "RW-KAG-19.json",
+    "bytes": 1451,
+    "sha256": "5e69edbe852557b00a91de14aeba754a9d922827cd806fb74d223890aa8d4052",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-19.json",
+    "bytes": 1451,
+    "sha256": "5e69edbe852557b00a91de14aeba754a9d922827cd806fb74d223890aa8d4052",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-20": {
+   "scenarios_zh_entry": {
+    "bytes": 1253,
+    "sha256": "c011325e0f22d67f93c515a6e7d6b37ba4083569ac3083b132e3bb985d828b84"
+   },
+   "scenarios_en_entry": {
+    "bytes": 902,
+    "sha256": "1f0d08ad9c7392139c50ef8bddc2e8ba5d2528c4defb442f9add70a8b7c9d7f4"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "d321dee51b72e95b25341f27d5edd677ef18ae07b1c70d1a4677701a59f90d62"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-20.json",
+    "bytes": 1445,
+    "sha256": "7be55f3338f87f5588626969771cf619c6aac6bc3a2f5ccf90c004ddd9da1249"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-20.json",
+    "bytes": 317,
+    "sha256": "49ca5759a3aca956edaad0fa889b2067b14e86ab00493cb4691ac37b8c0a49ce"
+   },
+   "root_twin": {
+    "path": "RW-KAG-20.json",
+    "bytes": 1445,
+    "sha256": "7be55f3338f87f5588626969771cf619c6aac6bc3a2f5ccf90c004ddd9da1249",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-20.json",
+    "bytes": 1445,
+    "sha256": "7be55f3338f87f5588626969771cf619c6aac6bc3a2f5ccf90c004ddd9da1249",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-21": {
+   "scenarios_zh_entry": {
+    "bytes": 1253,
+    "sha256": "9748e0cf24ec5fbf4ca9a0a68e7abedcd7faf622b85ef02ce88aa48aa5ff6589"
+   },
+   "scenarios_en_entry": {
+    "bytes": 902,
+    "sha256": "404f25c6a384512f3c4ed9d0c78b1ad428976f77545b7f1bda8a78698875b340"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "60cfe61c92d66c5200773a477417bad3c36fde4330bcf91839bdb57dec0c5ae3"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-21.json",
+    "bytes": 1445,
+    "sha256": "26ac7123b5f595c1af56a145d922c4a540a7a7f252ddb214cb0f311a5e44eedc"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-21.json",
+    "bytes": 317,
+    "sha256": "9ed3455202d458b396309e06521a03c08f0abcc5449639db66022eb56cc167bc"
+   },
+   "root_twin": {
+    "path": "RW-KAG-21.json",
+    "bytes": 1445,
+    "sha256": "26ac7123b5f595c1af56a145d922c4a540a7a7f252ddb214cb0f311a5e44eedc",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-21.json",
+    "bytes": 1445,
+    "sha256": "26ac7123b5f595c1af56a145d922c4a540a7a7f252ddb214cb0f311a5e44eedc",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-22": {
+   "scenarios_zh_entry": {
+    "bytes": 1256,
+    "sha256": "4579f3157ca6c0a04e1fbf790fe9f22ff5cb89a03417e0173f768afe48babf96"
+   },
+   "scenarios_en_entry": {
+    "bytes": 905,
+    "sha256": "de5131e05e309fb460c21392294d4c531da452d231a6c86dc309f6c82fdd790a"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "ba80c096134f3266968ae159728011c47a91dcf2049fb3d0a11ca55b2a256b28"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-22.json",
+    "bytes": 1448,
+    "sha256": "99282b3000d7bfcb94245800ff46487c0794b953a428b53c6c0fc067217ee4ff"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-22.json",
+    "bytes": 317,
+    "sha256": "dcad3fa1f08b71a6ff3b33851bd103d85b587dba61dc5377581baf5fad4f2560"
+   },
+   "root_twin": {
+    "path": "RW-KAG-22.json",
+    "bytes": 1448,
+    "sha256": "99282b3000d7bfcb94245800ff46487c0794b953a428b53c6c0fc067217ee4ff",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-22.json",
+    "bytes": 1448,
+    "sha256": "99282b3000d7bfcb94245800ff46487c0794b953a428b53c6c0fc067217ee4ff",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-23": {
+   "scenarios_zh_entry": {
+    "bytes": 1268,
+    "sha256": "1d0f0560e60481ef311250216f61d420f4be71c74e771835f3e7b0a691554054"
+   },
+   "scenarios_en_entry": {
+    "bytes": 917,
+    "sha256": "0554684948acfe21f51fa9e5d98af4e9d1f585b57d9b3a3b66d67ca16667731a"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "6090fc543c8b4682a15e7c649c1b5b7530e6487fc0d14211c358af91dde4a27b"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-23.json",
+    "bytes": 1460,
+    "sha256": "0e31431a3193e4fafd06af048d2b13eec26911c78cef794741c1324694a95180"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-23.json",
+    "bytes": 317,
+    "sha256": "49a299a1342de4af32107b920eedb6bd0e676fd74b6ea506cb0fdcd1d63bf56a"
+   },
+   "root_twin": {
+    "path": "RW-KAG-23.json",
+    "bytes": 1460,
+    "sha256": "0e31431a3193e4fafd06af048d2b13eec26911c78cef794741c1324694a95180",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-23.json",
+    "bytes": 1460,
+    "sha256": "0e31431a3193e4fafd06af048d2b13eec26911c78cef794741c1324694a95180",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-24": {
+   "scenarios_zh_entry": {
+    "bytes": 1259,
+    "sha256": "59b025027930aba52520e5785b5c21464209a266ef930fc7ae31dc41790c594e"
+   },
+   "scenarios_en_entry": {
+    "bytes": 908,
+    "sha256": "6461880aa0be4ed62a09617746acad8be663009cb5ce146d10a43b7434a9e260"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "40f392cdf4542b7bd7e5892fb9e6cc9d6a7d572cfa859fe3c316bb96ecfe1a54"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-24.json",
+    "bytes": 1451,
+    "sha256": "146d8613611506cc8166640a6bc279726b0dde803128f01bd97245c20bda5e06"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-24.json",
+    "bytes": 317,
+    "sha256": "241cce5bb819153626a9c3dc5e69f9e609d1d708e47f65613963080ef6d67090"
+   },
+   "root_twin": {
+    "path": "RW-KAG-24.json",
+    "bytes": 1451,
+    "sha256": "146d8613611506cc8166640a6bc279726b0dde803128f01bd97245c20bda5e06",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-24.json",
+    "bytes": 1451,
+    "sha256": "146d8613611506cc8166640a6bc279726b0dde803128f01bd97245c20bda5e06",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-25": {
+   "scenarios_zh_entry": {
+    "bytes": 1259,
+    "sha256": "b1d8075b40eb2c6584617ef282ff494570fa5c76d9693a1efa0acaf2b940e587"
+   },
+   "scenarios_en_entry": {
+    "bytes": 908,
+    "sha256": "1580b55599d1106ce43f3161cccac6cf5be268e3902b728c9a9a54d57da7166d"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "7852a71951feb01cb7ae075388af34c65b5afaaf3c2a2212e60949e9ac2e96dd"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-25.json",
+    "bytes": 1451,
+    "sha256": "16905f79e43fca623aa8a22a928ea6212379b91f4772d6b7b7c483ad8a2b7eec"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-25.json",
+    "bytes": 317,
+    "sha256": "ea54a655da6ae3861d8d5950d1bf7f0b2c5407605ff41f8a2578553a4aba2b12"
+   },
+   "root_twin": {
+    "path": "RW-KAG-25.json",
+    "bytes": 1451,
+    "sha256": "16905f79e43fca623aa8a22a928ea6212379b91f4772d6b7b7c483ad8a2b7eec",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-25.json",
+    "bytes": 1451,
+    "sha256": "16905f79e43fca623aa8a22a928ea6212379b91f4772d6b7b7c483ad8a2b7eec",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-26": {
+   "scenarios_zh_entry": {
+    "bytes": 1250,
+    "sha256": "e615d15b25053720d2102f4a7b007af94c3130ece83fe9cb9214bbf8a878d384"
+   },
+   "scenarios_en_entry": {
+    "bytes": 899,
+    "sha256": "b7f90c63ade1713acca34a0273051fa0f64858a242feec283b7fa705fc6bf3d3"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "0dfff1a90d9dcec4f04077df4dc592aa55e55c34b66d454f4e99a50aa2751277"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-26.json",
+    "bytes": 1442,
+    "sha256": "c6251272182f07c854109600ec4da777813a04fa3280dbab700c79fefe600af6"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-26.json",
+    "bytes": 317,
+    "sha256": "44dda416ff99b1ab9b73a366be1913050de576c3d3dc06256f8b49d948ecbbc8"
+   },
+   "root_twin": {
+    "path": "RW-KAG-26.json",
+    "bytes": 1442,
+    "sha256": "c6251272182f07c854109600ec4da777813a04fa3280dbab700c79fefe600af6",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-26.json",
+    "bytes": 1442,
+    "sha256": "c6251272182f07c854109600ec4da777813a04fa3280dbab700c79fefe600af6",
+    "equals_draft": true
+   }
+  },
+  "RW-KAG-27": {
+   "scenarios_zh_entry": {
+    "bytes": 1259,
+    "sha256": "ed6004b6c80c08c7654f9bbdfbfab8f91d54e0fb2124bb5c71a4946079fd048d"
+   },
+   "scenarios_en_entry": {
+    "bytes": 908,
+    "sha256": "53dc896595aeb3a6e018c95160962a761ea8868ac4bd422930d17ee54c523df6"
+   },
+   "code_maps_en_line": {
+    "bytes": 78,
+    "sha256": "e93526d7e8eaa65cd9619e611ccb30066df17a5b03963018a83daee19f858d0e"
+   },
+   "draft": {
+    "path": "tools/json/RW-KAG-27.json",
+    "bytes": 1451,
+    "sha256": "08a82355892d8a77d2bb61b85263a49b68b864d6cadf760f91475e7aa6aaa47d"
+   },
+   "shard": {
+    "path": "web/public/data/figures/RW-KAG-27.json",
+    "bytes": 317,
+    "sha256": "3cc326b31b80de9c91fbd6182eb89f4b9ee618638467dc149f4f32c48c8c3f5c"
+   },
+   "root_twin": {
+    "path": "RW-KAG-27.json",
+    "bytes": 1451,
+    "sha256": "08a82355892d8a77d2bb61b85263a49b68b864d6cadf760f91475e7aa6aaa47d",
+    "byte_same_as_draft": true
+   },
+   "intl_ref": {
+    "path": "data/intl_figures/RW-KAG-27.json",
+    "bytes": 1451,
+    "sha256": "08a82355892d8a77d2bb61b85263a49b68b864d6cadf760f91475e7aa6aaa47d",
+    "equals_draft": true
+   }
+  }
+ },
+ "chain_products_cleared": {
+  "api/protreptic.db": "figures 1054 -> 1027（27 行清档）；DB 全量由源重建；前像在备份",
+  "web/public/data/figures/RW-KAG-*.json": "27 个详情分片随 export_static_site 全量重建（prepare_out rmtree 重建口径）消失；前像在备份",
+  "web/public/data/figures.index.json": "轻量索引 1054 -> 1027 条",
+  "web/public/data/index.unified.json": "统一索引 1369 -> 1342（318 + 1024）",
+  "docs/architecture/web_p0_routes.json": "路由 1385 -> 1358（prerender_routes 重建实测）",
+  "web/public/sitemap.xml": "sitemap 1386 -> 1359（= 路由 1358 + 首页）",
+  "web/dist/**": "前端 dist 全量重建（npm run build + prerender 1358 页；27 码 0 残留）",
+  "anchors": "EXPECT_FIGURES 1054 -> 1027（export_static_site.py / pages_preflight.py, 实测）；MIN_SITEMAP_ENTRIES 1386 -> 1359（ci_data_check.py, 实测）；static.ts / ApiDocsView.vue 计数文案 1054 -> 1027",
+  "sources": "scenarios_zh 1067 -> 1040；scenarios_en 1067 -> 1040；code_maps_en 1019 -> 992（逐文件实测）"
+ },
+ "restore": "全链前像（89 件）逐字节可从 data/backup_phase21w4_rwkag_clear_20260924 拷回（MANIFEST.sha256 标准 sha256sum -c 可验）；54 件移动件（27 草稿 + 27 根双胞）为 R100 移动, git 历史保留原 blob；场景条目为键级删除, 依前像整键回填即可。",
+ "verify_hint": "cd data/backup_phase21w4_rwkag_clear_20260924 && sha256sum -c MANIFEST.sha256（89/89）；条目字节级提取校验见 backup_manifest.json / 本文件 per_code_fragments",
+ "notes": [
+  "根双胞 27 件（RW-KAG-1..27.json, 逐字节与 tools/json 草稿相同）与发布仓独有 intl 副本 27 件（data/intl_figures, 逐字节相同）一并处置（超出 manifest 字面位点处, 已在卡报告显式登记）。",
+  "RW-KAG-001（卡加梅/Paul Kagame）为该批正码, 依边界①零触碰。",
+  "QA 对照目标：本文件 sha 与 MANIFEST.sha256、backup_manifest.json、卡证据 JSON 四处一致。"
+ ]
+}

@@ -8,7 +8,7 @@ const { t, locale } = useI18n()
 // 静态站点实际可用的数据接口（GitHub Pages 无后端）
 const staticEndpoints = [
   { path: '/data/meta.json', desc: { zh: '数据清单：条数与 sha256 校验', en: 'Manifest: counts + sha256' } },
-  { path: '/data/figures.index.json', desc: { zh: '全部人物轻量索引（1054 条）', en: 'Lightweight figure index (1054)' } },
+  { path: '/data/figures.index.json', desc: { zh: '全部人物轻量索引（1027 条）', en: 'Lightweight figure index (1027)' } },
   { path: '/data/figures/{code}.json', desc: { zh: '单个人物详情分片', en: 'Single figure detail shard' } },
   { path: '/data/modes/index-{0..7}.json', desc: { zh: `思维模式摘要（8 分片，共 ${SITE_COUNTS.modes} 条）`, en: `Mode summaries (8 shards, ${SITE_COUNTS.modes} total)` } },
   { path: '/data/modes/by-figure/{code}.json', desc: { zh: `某位人物的全部模式（${SITE_COUNTS.figures} 片）`, en: `All modes of one figure (${SITE_COUNTS.figures} shards)` } },

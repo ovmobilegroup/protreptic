@@ -73,7 +73,8 @@ GZIP_LEVEL = 9
 
 # Phase21-R8 (2026-09-24) 遗留清档（卡 t_3669eb4a）：EXPECT_FIGURES 1057 -> 1056
 # Phase21-W4 (2026-09-24, 卡 t_536073f4) 名录修复：EXPECT_FIGURES 1056 -> 1054（重建后实测；双码清档 -2，重键净 0；清单见卡报告）
-EXPECT_FIGURES = 1054
+# Phase21-W4 (2026-09-24, 卡 t_ee203180) 模板废件 27 码清档：EXPECT_FIGURES 1054 -> 1027（重建后实测；清档 -27）
+EXPECT_FIGURES = 1027
 # Phase21-R4 (2026-09-22) site-data rebuild anchor update: EXPECT_MODES 3132 -> 3152
 # (曾子 M-ZX-* 的 +10 已含于上批；本卡 +10 班固 M-BG-001~010 与 +10 董仲舒 M01~M10 归一回填
 # 去重口径 —— 净 +20：3008 条目的空模式码降至 10 条壳 + 10 班固入库),

@@ -1,0 +1,525 @@
+{
+ "schema": "protreptic.w4_rwkag_clear_report/v1",
+ "card": "t_ee203180",
+ "date": "2026-09-24",
+ "generated_at": "2026-09-24T06:47:26+08:00",
+ "basis": [
+  "docs/research/phase21w4_fix_manifest.md/.json §3.6 R10（清档清单+备份模板）",
+  "docs/research/phase21w4_fix_report.md §五/§六 R-f（R10 归属本卡）",
+  "kanban t_ee203180 步1-8 + 完成合同；边界①RW-KAG-001 不动 ②草稿本体归档引用 ③仅 27 码相关面"
+ ],
+ "counts": {
+  "before": {
+   "scen_zh": 1067,
+   "scen_en": 1067,
+   "code_maps_en": 1019,
+   "figures_db": 1054,
+   "figures_index": 1054,
+   "shards": 1054,
+   "unified_total": 1369,
+   "unified_figures": 318,
+   "unified_scenarios": 1051,
+   "routes": 1385,
+   "sitemap": 1386,
+   "modes_published": 3221,
+   "by_figure_shards": 318
+  },
+  "after": {
+   "scen_zh": 1040,
+   "scen_en": 1040,
+   "code_maps_en": 992,
+   "figures_db": 1027,
+   "figures_index": 1027,
+   "shards": 1027,
+   "unified_total": 1342,
+   "unified_figures": 318,
+   "unified_scenarios": 1024,
+   "routes": 1358,
+   "sitemap": 1359,
+   "modes_published": 3221,
+   "by_figure_shards": 318
+  }
+ },
+ "surfaces": [
+  {
+   "surface": "tools/json/scenarios_zh.json",
+   "action": "27 条目键级删除（最小 diff）",
+   "before": "3015351 B / 1067 键",
+   "after": "2981559 B / 1040 键",
+   "delta": "-33792 B（= 27 条目字节和, 恒等式已验）",
+   "numstat": [
+    "1",
+    "1"
+   ]
+  },
+  {
+   "surface": "tools/json/scenarios_en.json",
+   "action": "27 条目键级删除（最小 diff）",
+   "before": "2275023 B / 1067 键",
+   "after": "2250645 B / 1040 键",
+   "delta": "-24378 B（= 27 条目字节和, 恒等式已验）",
+   "numstat": [
+    "1",
+    "1"
+   ]
+  },
+  {
+   "surface": "tools/code_maps_en.json",
+   "action": "27 占位映射键整行删除（外科式）",
+   "before": "86330 B / 1019 键",
+   "after": "84242 B / 992 键",
+   "delta": "-2088 B（27 行, 零外溢字节）",
+   "numstat": [
+    "0",
+    "27"
+   ]
+  },
+  {
+   "surface": "api/protreptic.db",
+   "action": "全量重建（build_figures_db）",
+   "before": "figures 1054（27 码行在）",
+   "after": "figures 1027（27 码行 0）",
+   "delta": "-27 行",
+   "numstat": [
+    "-",
+    "-"
+   ]
+  },
+  {
+   "surface": "tools/json/RW-KAG-1..27.json",
+   "action": "草稿本体归档引用移出（git R100 -> 备份盘）",
+   "before": "27 件",
+   "after": "0 件（备份盘 byte-exact）",
+   "delta": "-27 件"
+  },
+  {
+   "surface": "RW-KAG-1..27.json（根）",
+   "action": "同码双胞归档移出（git R100 -> 备份盘；超 R10 字面, 登记）",
+   "before": "27 件（与草稿逐字节相同）",
+   "after": "0 件（备份盘 byte-exact）",
+   "delta": "-27 件"
+  },
+  {
+   "surface": "web/public/data/figures/RW-KAG-*.json",
+   "action": "全量重建（export_static_site prepare_out rmtree 重建口径）",
+   "before": "27 分片在",
+   "after": "0（分片数 1027）",
+   "delta": "-27 分片"
+  },
+  {
+   "surface": "web/public/data/figures.index.json",
+   "action": "重建",
+   "before": "1054 条",
+   "after": "1027 条",
+   "delta": "-27"
+  },
+  {
+   "surface": "web/public/data/index.unified.json",
+   "action": "重建",
+   "before": "1369（318+1051）",
+   "after": "1342（318+1024）",
+   "delta": "-27"
+  },
+  {
+   "surface": "docs/architecture/web_p0_routes.json",
+   "action": "重建（prerender_routes --body-persons all）",
+   "before": "1385 路由",
+   "after": "1358 路由",
+   "delta": "-27"
+  },
+  {
+   "surface": "web/public/sitemap.xml",
+   "action": "重建（build_sitemap）",
+   "before": "1386 URL",
+   "after": "1359 URL（= 路由 1358 + 首页）",
+   "delta": "-27"
+  },
+  {
+   "surface": "web/dist/**",
+   "action": "全量重建（npm run build + prerender 1358 页 + apply_site_counts + sw + sitemap）",
+   "before": "含 27 码页面/数据",
+   "after": "27 码 0 残留",
+   "delta": "0（gitignore 产物）"
+  },
+  {
+   "surface": "锚点 4 文件",
+   "action": "取重建后实测",
+   "before": "EXPECT_FIGURES 1054 x2 / MIN_SITEMAP_ENTRIES 1386 / 文案 1054 x4",
+   "after": "1027 x2 / 1359 / 文案 1027 x4",
+   "delta": "同提交更新"
+  }
+ ],
+ "residue_layers": {
+  "RW-KAG-1": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-2": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-3": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-4": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-5": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-6": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-7": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-8": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-9": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-10": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-11": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-12": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-13": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-14": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-15": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-16": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-17": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-18": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-19": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-20": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-21": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-22": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-23": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-24": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-25": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-26": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  },
+  "RW-KAG-27": {
+   "in_src_zh": false,
+   "in_src_en": false,
+   "in_cm": false,
+   "in_db": false,
+   "shard_file": false,
+   "in_light_index": false,
+   "in_unified": false,
+   "in_routes": false,
+   "in_sitemap": false
+  }
+ },
+ "gates": {
+  "credibility_gate": "--hard-fail rc=0（存量冻结）",
+  "verify_source_links": "--hard-fail rc=0（无新增坏链）",
+  "verify_findings": "rc=0（1 条既有 M-ASM 双采 warning）",
+  "ci_data_check": "24/24 PASS",
+  "pages_preflight": "stage=data PASS; stage=dist PASS",
+  "npm_build": "vue-tsc + vite rc=0"
+ },
+ "backup": {
+  "dir": "data/backup_phase21w4_rwkag_clear_20260924/",
+  "payload_files": 89,
+  "manifest_sha": "sha256sum -c 89/89 PASS",
+  "fragments": "per_code 27x6 字节级 PASS（extract_rwkag_fragments.py）"
+ },
+ "archive": {
+  "path": "docs/research/_archive/RW-KAG_1-27_archive.json",
+  "bytes": 71805,
+  "per_code_fragments": 27,
+  "moved": 54,
+  "rebuilt_away": 27
+ },
+ "verifier": {
+  "path": "verify_rwkag_clear.py",
+  "quick": "16/16 PASS",
+  "full": "见回执（含发布面）"
+ },
+ "residuals": [
+  {
+   "id": "E-a",
+   "item": "tools/validation_report.json（2026-08-22 校验报告快照, 含 27 码记录性引用）",
+   "handling": "保留+登记（历史报告类, 非读者）"
+  },
+  {
+   "id": "E-b",
+   "item": "site_docs/** 6 件（routes 副本/报告页/搜索索引, 陈旧构建）",
+   "handling": "保留+登记（gitignore 构建产物；mkdocs 未安装未重建；与 t_536073f4 同口径；CI 重建）"
+  },
+  {
+   "id": "E-c",
+   "item": "release/v2.0.0/** 4 件（冻结发布归档镜像）",
+   "handling": "保留+登记（归档类）"
+  },
+  {
+   "id": "E-d",
+   "item": "data/audit/phase21r7_leftovers_inventory.json（R7 审计留痕）",
+   "handling": "保留+登记（审计类）"
+  },
+  {
+   "id": "E-e",
+   "item": "docs/research 报告类（W4/R8/本卡报告含码引用）",
+   "handling": "保留+登记（报告类）"
+  },
+  {
+   "id": "E-f",
+   "item": "进程外处置登记: 根双胞 27 件 + 发布仓 intl 副本 27 件（manifest R10 字面未点名）",
+   "handling": "先备份后清除+本报告§六登记（依卡步7全仓口径 + W7 卡 deferral）"
+  },
+  {
+   "id": "E-g",
+   "item": "data/intl_figures/** 其余 610 件（发布仓留档, 非本 27 码）",
+   "handling": "零触碰（源库留档, parity 边界外）"
+  }
+ ],
+ "receipts": {
+  "workspace_commit": "{{WS_COMMIT}}",
+  "workspace_head_after": "{{WS_HEAD}}",
+  "publish_mirror_commit": "{{PB_COMMIT}}",
+  "push": "{{PUSH}}",
+  "remote_main": "{{REMOTE_MAIN}}",
+  "parity": "{{PARITY}}",
+  "remote_raw_verified": "{{RAW}}",
+  "backup_mirrored": "{{BAK_MIRROR}}",
+  "report_v2": "{{V2}}"
+ }
+}
