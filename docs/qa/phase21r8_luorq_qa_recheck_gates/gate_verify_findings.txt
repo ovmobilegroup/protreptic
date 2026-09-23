@@ -1,0 +1,25 @@
+$ /usr/bin/python3 /opt/data/workspace/Protreptic/tools/verify_findings.py --hard-fail
+exit=0
+=== VERIFY FINDINGS · 存量/新增两档 ===
+mode: hard-fail
+resolved findings path: /opt/data/workspace/Protreptic/data/audit/findings.json (exists=True)
+resolved data path:     /opt/data/workspace/Protreptic/data/modes_data.json (exists=True)
+resolved baseline path: /opt/data/workspace/Protreptic/data/audit/findings_baseline.json (exists=True)
+hard failures on this findings file: 0
+baseline frozen at 2026-09-19T15:20:44+00:00 (total=0, fingerprints=0, A=0 B=0 C=0 D=0)
+baseline data_sha256:     bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb
+current  data_sha256:     2d3eb9eaf41bc95e7870bae98ced5eeee46ff216272d6dfa444c5441c0a6a964
+
+--- 存量（基线内，冻结）: 0 条 [A=0 B=0 C=0 D=0] ---
+
+--- 新增（基线外，必拦）: 0 条 ---
+  (none)
+
+--- 计数过期（警告，不阻断）: 2 条 ---
+  ::warning::计数过期(E) summary.D4_quote_mismatch = 23 而现算 modes_data.json 得 25 —— 刷新：python3 tools/build_audit_findings.py --write
+  ::warning::计数过期(E) summary.total = 164 而现算得 166 —— 刷新：python3 tools/build_audit_findings.py --write
+
+--- 其他警告（不阻断）: 1 条 ---
+  ::warning::E: these mode codes are harvested twice by get_all_modes (present both in the top-level modes array and inside a figure node): ['M-ASM-001', 'M-ASM-002', 'M-ASM-003', 'M-ASM-004', 'M-ASM-005', 'M-ASM-006', 'M-ASM-007', 'M-ASM-008', 'M-ASM-009', 'M-ASM-010']
+
+[OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0

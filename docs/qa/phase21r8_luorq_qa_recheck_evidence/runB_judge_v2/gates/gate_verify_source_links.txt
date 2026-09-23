@@ -1,0 +1,419 @@
+$ /usr/bin/python3 /opt/data/workspace/Protreptic/tools/verify_source_links.py --hard-fail
+exit=1
+Checking 383 source links... (jobs=4, max-time=10s)
+  [UNREACHABLE] H-SUY-001 孙权 (183-252) -> https://zh.wikipedia.org/wiki/%E5%AD%99%E6%9D%83
+  [OK 200] The History of Astronomy, Sect. II-IV (Wonder, Surprise, Admirable Systems; Newtonian system); WN Introd. & Plan; TMS VI.ii.2.17 (Man of System); Essays on Philosophical Subjects -> https://www.gutenberg.org/ebooks/3300
+  [OK 200] WN I.1-3 (Division of Labour, Market Extent); WN II.3 (Productive and Unproductive Labour; Parsimony); WN IV.9 (Agricultural Systems; 'peace, easy taxes, tolerable justice' maxim); Lectures on Jurisprudence (1755 maxim) -> https://www.gutenberg.org/ebooks/3300
+  [OK 200] WN I.10.c (Wages and Profit in the different Employments of Labour and Stock); WN I.11 (Rent of Land, conclusion); WN IV.2 & IV.7 (Restraints of Importation, Colonies); WN I.10.c.61 'People of the same trade...' -> https://www.gutenberg.org/ebooks/3300
+  [OK 200] WN I.2 (Of the Principle which gives Occasion to the Division of Labour); TMS I.1.1 (Of Sympathy); TMS IV.1.10 (Invisible Hand); TMS III (Conscience, Impartial Spectator) -> https://www.gutenberg.org/ebooks/3300
+  [OK 200] WN IV.9.51 (System of Natural Liberty, sovereign's three duties); WN V.1 (Public Works, Institutions, Education); WN V.1.f (Youth and Religious Instruction); WN III (Progress of Opulence); WN IV.7.b (Colony trade monopoly deranges capital allocation) -> https://www.gutenberg.org/ebooks/3300
+  [OK 200] 《一桩事先张扬的凶杀案》 -> https://zh.wikipedia.org/wiki/%E4%B8%80%E6%A1%A9%E4%BA%8B%E5%85%88%E5%BC%A0%E6%89%AC%E7%9A%84%E8%B0%8B%E6%9D%80%E6%A1%88
+  [OK 200] 《三国志》 -> https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97
+  [OK 200] 《三国志通俗演义》 -> https://zh.wikipedia.org/wiki/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89
+  [OK 200] 《上安州裴长史书》 -> https://zh.wikisource.org/wiki/%E4%B8%8A%E5%AE%89%E5%B7%9E%E8%A3%B4%E9%95%B7%E5%8F%B2%E6%9B%B8
+  [OK 200] 《上帝之城》 -> https://zh.wikipedia.org/wiki/%E4%B8%8A%E5%B8%9D%E4%B9%8B%E5%9F%8E
+  [OK 200] 《与元九书》 -> https://zh.wikisource.org/wiki/%E8%88%87%E5%85%83%E4%B9%9D%E6%9B%B8
+  [OK 200] 《东游记》 -> https://zh.wikisource.org/wiki/%E6%9D%B1%E9%81%8A%E8%A8%98
+  [UNVERIFIABLE] 《个山小像》 (type=unverifiable)
+  [UNVERIFIABLE] 《中国乡村教育之根本改造》 (type=unverifiable)
+  [UNVERIFIABLE] 《中国古代思想史论》 (type=unverifiable)
+  [UNVERIFIABLE] 《中国近五千年来气候变迁的初步研究》 (type=unverifiable)
+  [UNVERIFIABLE] 《中论》 (type=unverifiable)
+  [UNVERIFIABLE] 《丰田生产方式》 (type=unverifiable)
+  [UNVERIFIABLE] 《丰田生产方式：超越大规模生产》 (type=unverifiable)
+  [UNVERIFIABLE] 《举贤良对策》 (type=unverifiable)
+  [UNVERIFIABLE] 《九十五条论纲》 (type=unverifiable)
+  [UNVERIFIABLE] 《九月约》 (type=unverifiable)
+  [UNVERIFIABLE] 《书信》 (type=unverifiable)
+  [UNVERIFIABLE] 《书史》 (type=unverifiable)
+  [OK 200] 《五灯会元》 -> https://zh.wikisource.org/wiki/%E4%BA%94%E7%87%88%E6%9C%83%E5%85%83
+  [OK 200] 《人性论》 -> https://zh.wikipedia.org/wiki/%E4%BA%BA%E6%80%A7%E8%AB%96_%28%E6%9B%B8%29
+  [UNREACHABLE] 《人的境况》 -> https://zh.wikipedia.org/wiki/%E4%BA%BA%E7%9A%84%E5%A2%83%E5%86%B5
+  [UNVERIFIABLE] 《人类学历史本体论》 (type=unverifiable)
+  [UNVERIFIABLE] 《人类理解研究》 (type=unverifiable)
+  [OK 200] 《人类理解论》 -> https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E7%90%86%E8%A7%A3%E8%AB%96
+  [UNREACHABLE] 《人间词话》 -> https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%97%B4%E8%AF%8D%E8%AF%9D
+  [UNVERIFIABLE] 《介绍我自己的思想》 (type=unverifiable)
+  [UNVERIFIABLE] 《代数学》 (type=unverifiable)
+  [UNVERIFIABLE] 《伊莎贝拉传》 (type=unverifiable)
+  [OK 200] 《传习录》 -> https://zh.wikisource.org/wiki/%E5%82%B3%E7%BF%92%E9%8C%84
+  [UNREACHABLE] 《伤寒论》 -> https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96
+  [UNVERIFIABLE] 《伦理学》 (type=unverifiable)
+  [UNVERIFIABLE] 《作为本征值问题的量子化》 (type=unverifiable)
+  [OK 200] 《元史》 -> https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2
+  [UNVERIFIABLE] 《光学》 (type=unverifiable)
+  [UNVERIFIABLE] 《八大山人传》 (type=unverifiable)
+  [UNVERIFIABLE] 《公羊的节日》 (type=unverifiable)
+  [OK 200] 《内战记》 -> https://zh.wikipedia.org/wiki/%E5%87%B1%E6%92%92%E6%88%B0%E8%A8%98
+  [UNVERIFIABLE] 《军事条例》 (type=unverifiable)
+  [OK 200] 《几何原本》 -> https://zh.wikisource.org/wiki/%E5%B9%BE%E4%BD%95%E5%8E%9F%E6%9C%AC
+  [UNVERIFIABLE] 《凯撒传》 (type=unverifiable)
+  [UNVERIFIABLE] 《凯末尔演讲录》 (type=unverifiable)
+  [UNVERIFIABLE] 《出发点》 (type=unverifiable)
+  [UNVERIFIABLE] 《分辨宝鬘》 (type=unverifiable)
+  [UNVERIFIABLE] 《劝学篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《努力号日志》 (type=unverifiable)
+  [UNVERIFIABLE] 《化学原理》 (type=unverifiable)
+  [UNVERIFIABLE] 《千与千寻》 (type=unverifiable)
+  [UNVERIFIABLE] 《千部解脱论》 (type=unverifiable)
+  [OK 200] 《千金要方》 -> https://zh.wikipedia.org/wiki/%E5%A4%87%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9
+  [UNVERIFIABLE] 《华罗庚传》 (type=unverifiable)
+  [UNVERIFIABLE] 《卓特思维模式考辨》 (type=unverifiable)
+  [DEAD 500] 《单子论》 -> https://zh.wikipedia.org/wiki/%E5%96%AE%E5%AD%90%E8%AB%96
+  [OK 200] 《卖火柴的小女孩》 -> https://zh.wikipedia.org/wiki/%E5%8D%96%E7%81%AB%E6%9F%B4%E7%9A%84%E5%B0%8F%E5%A5%B3%E5%AD%A9
+  [UNVERIFIABLE] 《南极》 (type=unverifiable)
+  [OK 200] 《南海寄归内法传》 -> https://zh.wikisource.org/wiki/%E5%8D%97%E6%B5%B7%E5%AF%84%E6%AD%B8%E5%85%A7%E6%B3%95%E5%82%B3
+  [OK 200] 《博弈论与经济行为》 -> https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA%E4%B8%8E%E7%BB%8F%E6%B5%8E%E8%A1%8C%E4%B8%BA
+  [OK 200] 《卡拉马佐夫兄弟》 -> https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%8B%89%E9%A6%AC%E4%BD%90%E5%A4%AB%E5%85%84%E5%BC%9F
+  [UNVERIFIABLE] 《印度数字算术》 (type=unverifiable)
+  [UNVERIFIABLE] 《印度自治》 (type=unverifiable)
+  [OK 200] 《历代名画记》 -> https://zh.wikisource.org/wiki/%E6%AD%B7%E4%BB%A3%E5%90%8D%E7%95%AB%E8%A8%98
+  [UNVERIFIABLE] 《历史》 (type=unverifiable)
+  [OK 200] 《历史绪论》 -> https://zh.wikipedia.org/wiki/%E6%AD%B7%E5%8F%B2%E7%B7%92%E8%AB%96
+  [UNVERIFIABLE] 《原则问题决定书》 (type=unverifiable)
+  [DEAD 500] 《反异教大全》 -> https://zh.wikipedia.org/wiki/%E5%93%B2%E5%AD%A6%E5%A4%A7%E5%85%A8
+  [UNVERIFIABLE] 《古史辨》 (type=unverifiable)
+  [OK 200] 《史蒂夫·乔布斯传》 -> https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%92%82%E5%A4%AB%C2%B7%E4%B9%94%E5%B8%83%E6%96%AF%E4%BC%A0
+  [UNVERIFIABLE] 《史蒂夫》 (type=unverifiable)
+  [OK 200] 《史记》 -> https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98
+  [OK 200] 《史记》多篇综合 -> https://ctext.org/wiki.pl?if=gb&chapter=228642
+  [UNREACHABLE] 《后汉书》 -> https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8
+  [OK 200] 《君主论》 -> https://zh.wikipedia.org/wiki/%E5%90%9B%E4%B8%BB%E8%AE%BA
+  [OK 200] 《吴子》 -> https://zh.wikisource.org/wiki/%E5%90%B3%E5%AD%90
+  [UNVERIFIABLE] 《哈里真》 (type=unverifiable)
+  [UNVERIFIABLE] 《哲学家的矛盾》 (type=unverifiable)
+  [UNVERIFIABLE] 《唐伯虎全集》 (type=unverifiable)
+  [OK 200] 《唐太宗李卫公问对》 -> https://zh.wikisource.org/wiki/%E5%94%90%E6%9D%8E%E5%95%8F%E5%B0%8D
+  [OK 200] 《唐朝名画录》 -> https://zh.wikisource.org/wiki/%E5%94%90%E6%9C%9D%E5%90%8D%E7%95%AB%E9%8C%84
+  [OK 200] 《商君书》 -> https://zh.wikisource.org/wiki/%E5%95%86%E5%90%9B%E6%9B%B8
+  [UNVERIFIABLE] 《国家银行报告》 (type=unverifiable)
+  [OK 200] 《国富论》 -> https://zh.wikisource.org/wiki/%E5%8E%9F%E5%AF%8C
+  [UNVERIFIABLE] 《图尔税单》 (type=unverifiable)
+  [UNVERIFIABLE] 《图特摩斯三世年代记》 (type=unverifiable)
+  [OK 200] 《图画见闻志》 -> https://zh.wikisource.org/wiki/%E5%9C%96%E7%95%AB%E8%A6%8B%E8%81%9E%E8%AA%8C
+  [UNVERIFIABLE] 《圆的度量》 (type=unverifiable)
+  [UNVERIFIABLE] 《圣学复苏》 (type=unverifiable)
+  [UNVERIFIABLE] 《在困境中更要发愤求进》 (type=unverifiable)
+  [UNVERIFIABLE] 《埃隆·马斯克》 (type=unverifiable)
+  [UNVERIFIABLE] 《埃隆》 (type=unverifiable)
+  [OK 200] 《城市与狗》 -> https://zh.wikipedia.org/wiki/%E5%9F%8E%E5%B8%82%E8%88%87%E7%8B%97
+  [OK 200] 《基督教的本质》 -> https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%9D%A3%E6%95%99%E7%9A%84%E6%9C%AC%E8%B4%A8
+  [OK 200] 《备急千金要方》 -> https://zh.wikisource.org/wiki/%E5%82%99%E6%80%A5%E5%8D%83%E9%87%91%E8%A6%81%E6%96%B9
+  [OK 200] 《大唐西域求法高僧传》 -> https://zh.wikisource.org/wiki/%E5%A4%A7%E5%94%90%E8%A5%BF%E5%9F%9F%E6%B1%82%E6%B3%95%E9%AB%98%E5%83%A7%E5%82%B3
+  [OK 200] 《大复兴》 -> https://zh.wikipedia.org/wiki/%E6%96%B0%E5%B7%A5%E5%85%B7%E8%AE%BA%EF%BC%9A%E6%88%96%E8%A7%A3%E9%87%8A%E8%87%AA%E7%84%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8C%87%E5%AF%BC
+  [OK 200] 《大戴礼记》 -> https://zh.wikisource.org/wiki/%E5%A4%A7%E6%88%B4%E7%A6%AE%E8%A8%98
+  [UNVERIFIABLE] 《大明历》 (type=unverifiable)
+  [UNVERIFIABLE] 《大西洋手稿》 (type=unverifiable)
+  [UNVERIFIABLE] 《天体运动论》 (type=unverifiable)
+  [UNVERIFIABLE] 《天学初函》 (type=unverifiable)
+  [OK 200] 《天工开物》 -> https://zh.wikisource.org/wiki/%E5%A4%A9%E5%B7%A5%E9%96%8B%E7%89%A9
+  [OK 200] 《天工开物》及相关论著 -> https://ctext.org/wiki.pl?if=gb&chapter=285265
+  [OK 200] 《嫦娥》 -> https://zh.wikisource.org/wiki/%E5%B8%B8%E5%A8%A5
+  [OK 200] 《孙子兵法》 -> https://zh.wikisource.org/wiki/%E5%AD%AB%E5%AD%90%E5%85%B5%E6%B3%95
+  [UNVERIFIABLE] 《孤禽图》 (type=unverifiable)
+  [UNREACHABLE] 《学术的进展》 -> https://zh.wikipedia.org/wiki/%E5%AD%A6%E6%9C%AF%E7%9A%84%E8%BF%9B%E5%B1%95
+  [UNVERIFIABLE] 《学校与社会》 (type=unverifiable)
+  [OK 200] 《安娜·卡列尼娜》 -> https://zh.wikipedia.org/wiki/%E5%AE%89%E5%A8%9C%C2%B7%E5%8D%A1%E5%88%97%E5%B0%BC%E5%A8%9C
+  [UNVERIFIABLE] 《安娜》 (type=unverifiable)
+  [UNVERIFIABLE] 《安徒生传》 (type=unverifiable)
+  [UNVERIFIABLE] 《安積覚笔录》 (type=unverifiable)
+  [OK 200] 《宋史》 -> https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2
+  [UNREACHABLE] 《宗教生活的基本形式》 -> https://zh.wikipedia.org/wiki/%E5%AE%97%E6%95%99%E7%94%9F%E6%B4%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%BD%A2%E5%BC%8F
+  [UNVERIFIABLE] 《宗教的本质》 (type=unverifiable)
+  [UNVERIFIABLE] 《宗教科学复兴·崇拜篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《宗教科学复兴》 (type=unverifiable)
+  [UNVERIFIABLE] 《实用主义》 (type=unverifiable)
+  [UNVERIFIABLE] 《宪法典》 (type=unverifiable)
+  [UNVERIFIABLE] 《密西拿托拉》 (type=unverifiable)
+  [UNVERIFIABLE] 《密西拿评注》 (type=unverifiable)
+  [UNVERIFIABLE] 《对话集》 (type=unverifiable)
+  [UNVERIFIABLE] 《寻找自我》 (type=unverifiable)
+  [UNVERIFIABLE] 《巴黎评论》 (type=unverifiable)
+  [OK 200] 《希波克拉底集·论人的本性》 -> https://www.gutenberg.org/ebooks/author/62
+  [UNVERIFIABLE] 《希波克拉底集》 (type=unverifiable)
+  [UNVERIFIABLE] 《干法》 (type=unverifiable)
+  [OK 200] 《平均律键盘曲集》 -> https://zh.wikipedia.org/wiki/%E5%B9%B3%E5%9D%87%E5%BE%8B%E9%94%AE%E7%9B%98%E6%9B%B2%E9%9B%86
+  [UNVERIFIABLE] 《年代记》 (type=unverifiable)
+  [UNVERIFIABLE] 《幽灵公主》 (type=unverifiable)
+  [OK 200] 《庄子》 -> https://zh.wikisource.org/wiki/%E8%8E%8A%E5%AD%90
+  [OK 200] 《建国号诏》 -> https://zh.wikisource.org/wiki/%E5%BB%BA%E5%9C%8B%E8%99%9F%E8%A9%94
+  [UNVERIFIABLE] 《建立我国国防航空工业的意见书》 (type=unverifiable)
+  [UNVERIFIABLE] 《建设性纲领》 (type=unverifiable)
+  [UNVERIFIABLE] 《弗吉尼亚纪事》 (type=unverifiable)
+  [OK 200] 《张子语录》 -> https://zh.wikisource.org/wiki/%E5%BC%B5%E5%AD%90%E8%AA%9E%E9%8C%84
+  [UNVERIFIABLE] 《当英国守卫英伦》 (type=unverifiable)
+  [OK 200] 《徐霞客墓志铭》 -> https://zh.wikisource.org/wiki/%E5%BE%90%E9%9C%9E%E5%AE%A2%E5%A2%93%E5%BF%97%E9%93%AD
+  [OK 200] 《徐霞客游记》 -> https://zh.wikisource.org/wiki/%E5%BE%90%E9%9C%9E%E5%AE%A2%E9%81%8A%E8%A8%98
+  [UNVERIFIABLE] 《微分几何的回顾》 (type=unverifiable)
+  [UNVERIFIABLE] 《德川幕府制度研究》 (type=unverifiable)
+  [UNVERIFIABLE] 《心》 (type=unverifiable)
+  [UNVERIFIABLE] 《心灵与物质》 (type=unverifiable)
+  [UNVERIFIABLE] 《心理学原理》 (type=unverifiable)
+  [OK 200] 《心血运动论》 -> https://zh.wikipedia.org/wiki/%E5%BF%83%E8%A1%80%E8%BF%90%E5%8A%A8%E8%AE%BA
+  [UNVERIFIABLE] 《忏悔录》 (type=unverifiable)
+  [UNVERIFIABLE] 《思维与语言》 (type=unverifiable)
+  [UNVERIFIABLE] 《悲愤诗》 (type=unverifiable)
+  [OK 200] 《惩毖录》 -> https://zh.wikisource.org/wiki/%E6%87%B2%E6%AF%96%E9%8C%84
+  [UNVERIFIABLE] 《成为乔布斯》 (type=unverifiable)
+  [UNVERIFIABLE] 《我体验真理的故事》 (type=unverifiable)
+  [UNVERIFIABLE] 《我承认，我历尽沧桑》 (type=unverifiable)
+  [UNVERIFIABLE] 《我的一生》 (type=unverifiable)
+  [UNVERIFIABLE] 《我的一生探险》 (type=unverifiable)
+  [UNVERIFIABLE] 《我的人生与工作》 (type=unverifiable)
+  [UNVERIFIABLE] 《我的早年生活》 (type=unverifiable)
+  [UNVERIFIABLE] 《我谈到自由》 (type=unverifiable)
+  [OK 200] 《战争论》 -> https://zh.wikipedia.org/wiki/%E6%88%98%E4%BA%89%E8%AE%BA
+  [OK 200] 《战国策》 -> https://zh.wikipedia.org/wiki/%E6%88%B0%E5%9C%8B%E7%AD%96
+  [OK 200] 《战国纵横家书》 -> https://zh.wikipedia.org/wiki/%E6%88%B0%E5%9C%8B%E7%B8%B1%E6%A9%AB%E5%AE%B6%E6%9B%B8
+  [UNVERIFIABLE] 《战略论：间接路线》 (type=unverifiable)
+  [UNVERIFIABLE] 《护理笔记》 (type=unverifiable)
+  [OK 200] 《报任安书》 -> https://zh.wikisource.org/wiki/%E5%A0%B1%E4%BB%BB%E5%B0%91%E5%8D%BF%E6%9B%B8
+  [UNVERIFIABLE] 《拉丁美洲的孤独》 (type=unverifiable)
+  [UNVERIFIABLE] 《拯救论》 (type=unverifiable)
+  [UNVERIFIABLE] 《指引与注记》 (type=unverifiable)
+  [OK 200] 《摩托日记》 -> https://zh.wikipedia.org/wiki/%E6%91%A9%E6%89%98%E6%97%A5%E8%AE%B0
+  [UNVERIFIABLE] 《放射性论》 (type=unverifiable)
+  [OK 200] 《数书九章》 -> https://zh.wikipedia.org/wiki/%E6%95%B0%E4%B9%A6%E4%B9%9D%E7%AB%A0
+  [UNVERIFIABLE] 《文明论之概略》 (type=unverifiable)
+  [OK 200] 《文献通考》 -> https://zh.wikisource.org/wiki/%E6%96%87%E7%8D%BB%E9%80%9A%E8%80%83
+  [OK 200] 《新乐府》 -> https://zh.wikisource.org/wiki/%E6%96%B0%E6%A8%82%E5%BA%9C
+  [UNVERIFIABLE] 《新仪象法要》 (type=unverifiable)
+  [OK 200] 《新唐书》 -> https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8
+  [OK 200] 《新工具》 -> https://zh.wikipedia.org/wiki/%E6%96%B0%E5%B7%A5%E5%85%B7%E8%AE%BA%EF%BC%9A%E6%88%96%E8%A7%A3%E9%87%8A%E8%87%AA%E7%84%B6%E7%9A%84%E4%B8%80%E4%BA%9B%E6%8C%87%E5%AF%BC
+  [OK 200] 《新思潮的意义》 -> https://zh.wikisource.org/wiki/%E6%96%B0%E6%80%9D%E6%BD%AE%E7%9A%84%E6%84%8F%E7%BE%A9
+  [UNVERIFIABLE] 《新民丛报》 (type=unverifiable)
+  [OK 200] 《新疆生产建设兵团志》 -> https://zh.wikipedia.org/wiki/%E6%96%B0%E7%96%86%E7%94%9F%E4%BA%A7%E5%BB%BA%E8%AE%BE%E5%85%B5%E5%9B%A2
+  [UNVERIFIABLE] 《无穷分析引论》 (type=unverifiable)
+  [OK 200] 《日喻》 -> https://zh.wikisource.org/wiki/%E6%97%A5%E5%96%BB
+  [OK 200] 《旧唐书》 -> https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8
+  [OK 200] 《明儒学案》 -> https://zh.wikisource.org/wiki/%E6%98%8E%E5%84%92%E5%AD%B8%E6%A1%88
+  [OK 200] 《明史》 -> https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2
+  [UNVERIFIABLE] 《明成祖实录》 (type=unverifiable)
+  [UNVERIFIABLE] 《易卜生主义的精华》 (type=unverifiable)
+  [UNVERIFIABLE] 《易卜生传》 (type=unverifiable)
+  [UNVERIFIABLE] 《易卜生的群像》 (type=unverifiable)
+  [OK 200] 《易经》 -> https://zh.wikisource.org/wiki/%E5%91%A8%E6%98%93
+  [OK 200] 《星槎胜览》 -> https://zh.wikisource.org/wiki/%E6%98%9F%E6%A7%8E%E5%8B%9D%E8%A6%BD
+  [OK 200] 《春望》 -> https://zh.wikisource.org/wiki/%E6%98%A5%E6%9C%9B
+  [OK 200] 《晋书》 -> https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8
+  [UNVERIFIABLE] 《晏阳初传》 (type=unverifiable)
+  [UNVERIFIABLE] 《晏阳初全集》 (type=unverifiable)
+  [UNVERIFIABLE] 《普通语言学教程》 (type=unverifiable)
+  [OK 200] 《景德传灯录》 -> https://zh.wikisource.org/wiki/%E5%82%B3%E7%87%88%E9%8C%84
+  [UNREACHABLE] 《曾国藩家书》 -> https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8
+  [UNREACHABLE] 《曾国藩日记》 -> https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E6%97%A5%E8%A8%98
+  [UNVERIFIABLE] 《最后的、非科学性附言》 (type=unverifiable)
+  [UNVERIFIABLE] 《朝着南极并环绕世界航行》 (type=unverifiable)
+  [UNVERIFIABLE] 《未来哲学原理》 (type=unverifiable)
+  [OK 200] 《本草纲目》 -> https://zh.wikisource.org/wiki/%E6%9C%AC%E8%8D%89%E7%B6%B1%E7%9B%AE
+  [OK 200] 《朱子语类》 -> https://zh.wikisource.org/wiki/%E6%9C%B1%E5%AD%90%E8%AA%9E%E9%A1%9E
+  [UNVERIFIABLE] 《朱舜水集》 (type=unverifiable)
+  [UNVERIFIABLE] 《李光耀回忆录》 (type=unverifiable)
+  [UNVERIFIABLE] 《李光耀观天下》 (type=unverifiable)
+  [UNREACHABLE] 《李忠武公全书》 -> https://zh.wikisource.org/wiki/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8
+  [OK 200] 《梦溪笔谈》 -> https://zh.wikisource.org/wiki/%E5%A4%A2%E6%BA%AA%E7%AD%86%E8%AB%87
+  [UNVERIFIABLE] 《梵经注》 (type=unverifiable)
+  [UNVERIFIABLE] 《歌谣周刊》 (type=unverifiable)
+  [OK 200] 《正蒙》 -> https://zh.wikisource.org/wiki/%E6%AD%A3%E8%92%99
+  [OK 200] 《武经总要》 -> https://zh.wikisource.org/wiki/%E6%AD%A6%E7%B6%93%E7%B8%BD%E8%A6%81
+  [UNVERIFIABLE] 《民主主义与教育》 (type=unverifiable)
+  [UNVERIFIABLE] 《民间》 (type=unverifiable)
+  [UNVERIFIABLE] 《水中鱼》 (type=unverifiable)
+  [OK 200] 《汉书》 -> https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8
+  [OK 200] 《沉思录》 -> https://zh.wikipedia.org/wiki/%E6%B2%89%E6%80%9D%E5%BD%95
+  [UNREACHABLE] 《治疗论》 -> https://zh.wikipedia.org/wiki/%E6%B2%BB%E7%99%82%E4%B9%8B%E6%9B%B8
+  [OK 200] 《波斯人信札》 -> https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%96%AF%E4%BA%BA%E4%BF%A1%E6%9C%AD
+  [OK 200] 《注孙子序》 -> https://zh.wikisource.org/wiki/%E6%B3%A8%E5%AD%AB%E5%AD%90%E5%BA%8F
+  [UNVERIFIABLE] 《活法》 (type=unverifiable)
+  [UNVERIFIABLE] 《活着为了讲述》 (type=unverifiable)
+  [UNREACHABLE] 《测圆海镜》 -> https://zh.wikisource.org/wiki/%E6%B8%AC%E5%9C%93%E6%B5%B7%E9%8F%A1
+  [OK 200] 《海岳名言》 -> https://zh.wikisource.org/wiki/%E6%B5%B7%E5%B6%BD%E5%90%8D%E8%A8%80
+  [OK 200] 《海潮论》 -> https://zh.wikisource.org/wiki/%E6%B5%B7%E6%BD%AE%E8%AB%96
+  [UNVERIFIABLE] 《游击战》 (type=unverifiable)
+  [UNREACHABLE] 《漫漫自由路》 -> https://zh.wikipedia.org/wiki/%E6%BC%AB%E6%BC%AB%E8%87%AA%E7%94%B1%E8%B7%AF
+  [OK 200] 《瀛涯胜览》 -> https://zh.wikisource.org/wiki/%E7%80%9B%E6%B6%AF%E5%8B%9D%E8%A6%BD
+  [OK 200] 《焚书》 -> https://zh.wikisource.org/wiki/%E7%84%9A%E6%9B%B8
+  [OK 200] 《焚书》《藏书》 -> https://ctext.org/wiki.pl?if=gb&chapter=244105
+  [OK 200] 《熙德之歌》 -> https://zh.wikipedia.org/wiki/%E7%86%99%E5%BE%B7%E4%B9%8B%E6%AD%8C
+  [UNVERIFIABLE] 《熙德史》 (type=unverifiable)
+  [UNREACHABLE] 《牡丹亭》 -> https://zh.wikisource.org/wiki/%E7%89%A1%E4%B8%B9%E4%BA%AD
+  [OK 200] 《物种起源》 -> https://zh.wikipedia.org/wiki/%E7%89%A9%E7%A7%8D%E8%B5%B7%E6%BA%90
+  [UNVERIFIABLE] 《犹太国》 (type=unverifiable)
+  [OK 200] 《独立宣言》 -> https://zh.wikisource.org/wiki/%E7%BE%8E%E5%9B%BD%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80
+  [OK 200] 《猪肉颂》 -> https://zh.wikisource.org/wiki/%E8%B1%AC%E8%82%89%E9%A0%8C
+  [UNVERIFIABLE] 《玩偶之家》 (type=unverifiable)
+  [UNVERIFIABLE] 《现场管理》 (type=unverifiable)
+  [UNVERIFIABLE] 《球与圆柱》 (type=unverifiable)
+  [UNVERIFIABLE] 《瑜伽综合论》 (type=unverifiable)
+  [OK 200] 《申辩篇》 -> https://zh.wikipedia.org/wiki/%E8%8B%8F%E6%A0%BC%E6%8B%89%E5%BA%95%E7%9A%84%E7%94%B3%E8%BE%A9
+  [OK 200] 《癔症研究》 -> https://zh.wikipedia.org/wiki/%E7%99%94%E7%97%87%E7%A0%94%E7%A9%B6
+  [UNVERIFIABLE] 《登岳阳楼》 (type=unverifiable)
+  [OK 200] 《登高》 -> https://zh.wikisource.org/wiki/%E7%99%BB%E9%AB%98
+  [OK 200] 《白氏长庆集序》 -> https://zh.wikisource.org/wiki/%E7%99%BD%E6%B0%8F%E9%95%B7%E6%85%B6%E9%9B%86%E5%BA%8F
+  [UNVERIFIABLE] 《白痴》 (type=unverifiable)
+  [OK 200] 《百年孤独》 -> https://zh.wikipedia.org/wiki/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC
+  [OK 200] 《皇明祖训》 -> https://zh.wikisource.org/wiki/%E7%9A%87%E6%98%8E%E7%A5%96%E8%A8%93
+  [UNVERIFIABLE] 《眼福之书》 (type=unverifiable)
+  [UNVERIFIABLE] 《矛盾的矛盾》 (type=unverifiable)
+  [OK 200] 《社会分工论》 -> https://zh.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E5%88%86%E5%B7%A5%E8%AE%BA
+  [UNVERIFIABLE] 《神义论》 (type=unverifiable)
+  [UNVERIFIABLE] 《神圣人生论》 (type=unverifiable)
+  [OK 200] 《神学大全》 -> https://zh.wikipedia.org/wiki/%E7%A5%9E%E5%AD%A6%E5%A4%A7%E5%85%A8
+  [OK 200] 《神学政治论》 -> https://zh.wikipedia.org/wiki/%E7%A5%9E%E5%AD%A6%E6%94%BF%E6%B2%BB%E8%AE%BA
+  [UNVERIFIABLE] 《福翁自传》 (type=unverifiable)
+  [OK 200] 《离骚》 -> https://zh.wikisource.org/wiki/%E9%9B%A2%E9%A8%B7
+  [OK 200] 《秋兴八首》 -> https://zh.wikisource.org/wiki/%E7%A7%8B%E8%88%88%E5%85%AB%E9%A6%96
+  [OK 200] 《科学与假设》 -> https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%81%87%E8%AE%BE
+  [UNVERIFIABLE] 《科学与方法》 (type=unverifiable)
+  [UNVERIFIABLE] 《秘史》 (type=unverifiable)
+  [OK 200] 《窦娥冤》 -> https://zh.wikisource.org/wiki/%E7%AB%87%E5%A8%A5%E5%86%A4
+  [UNVERIFIABLE] 《竺可桢日记》 (type=unverifiable)
+  [DEAD 500] 《第一哲学沉思集》 -> https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%B8%E6%B2%89%E6%80%9D%E9%9B%86
+  [OK 200] 《第二性》 -> https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%80%A7
+  [UNVERIFIABLE] 《第二次世界大战史》 (type=unverifiable)
+  [OK 200] 《第二次世界大战回忆录》 -> https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%B8%96%E7%95%8C%E5%A4%A7%E6%88%98%E5%9B%9E%E5%BF%86%E5%BD%95
+  [UNVERIFIABLE] 《第五才子书》 (type=unverifiable)
+  [UNVERIFIABLE] 《第六才子书》 (type=unverifiable)
+  [OK 200] 《算术研究》 -> https://zh.wikipedia.org/wiki/%E7%AE%97%E6%9C%AF%E7%A0%94%E7%A9%B6
+  [UNVERIFIABLE] 《粟裕战争回忆录》 (type=unverifiable)
+  [OK 200] 《精神现象学》 -> https://zh.wikipedia.org/wiki/%E7%B2%BE%E7%A5%9E%E7%8E%B0%E8%B1%A1%E5%AD%A6
+  [OK 200] 《纯粹理性批判》 -> https://zh.wikipedia.org/wiki/%E7%BA%AF%E7%B2%B9%E7%90%86%E6%80%A7%E6%89%B9%E5%88%A4
+  [OK 200] 《经学理窟》 -> https://zh.wikisource.org/wiki/%E7%B6%93%E5%AD%B8%E7%90%86%E7%AA%9F
+  [UNVERIFIABLE] 《经济发展理论》 (type=unverifiable)
+  [UNVERIFIABLE] 《经籍考》 (type=unverifiable)
+  [UNVERIFIABLE] 《经验与教育》 (type=unverifiable)
+  [UNVERIFIABLE] 《绘画论》 (type=unverifiable)
+  [UNVERIFIABLE] 《给青年小说家的信》 (type=unverifiable)
+  [UNVERIFIABLE] 《统计力学的基本原理》 (type=unverifiable)
+  [OK 200] 《绿房子》 -> https://zh.wikipedia.org/wiki/%E7%BB%BF%E6%88%BF%E5%AD%90
+  [UNVERIFIABLE] 《缀术》 (type=unverifiable)
+  [OK 200] 《罗马盛衰原因论》 -> https://zh.wikipedia.org/wiki/%E7%BD%97%E9%A9%AC%E7%9B%9B%E8%A1%B0%E5%8E%9F%E5%9B%A0%E8%AE%BA
+  [OK 200] 《罪与罚》 -> https://zh.wikipedia.org/wiki/%E7%BD%AA%E4%B8%8E%E7%BD%9A
+  [OK 200] 《罪言》 -> https://zh.wikisource.org/wiki/%E7%BD%AA%E8%A8%80
+  [OK 200] 《美诺篇》 -> https://zh.wikipedia.org/wiki/%E7%BE%8E%E8%AF%BA%E7%AF%87
+  [OK 200] 《联邦党人文集》 -> https://zh.wikipedia.org/wiki/%E8%81%94%E9%82%A6%E5%85%9A%E4%BA%BA%E6%96%87%E9%9B%86
+  [UNVERIFIABLE] 《胡志明全集》 (type=unverifiable)
+  [UNVERIFIABLE] 《腓力匹克》 (type=unverifiable)
+  [UNVERIFIABLE] 《自传》 (type=unverifiable)
+  [UNVERIFIABLE] 《自我与本我》 (type=unverifiable)
+  [UNREACHABLE] 《自然哲学的数学原理》 -> https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6%E7%9A%84%E6%95%B0%E5%AD%A6%E5%8E%9F%E7%90%86
+  [OK 200] 《自由宪章》 -> https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E7%A7%A9%E5%BA%8F%E5%8E%9F%E7%90%86
+  [OK 200] 《致命的自负》 -> https://zh.wikipedia.org/wiki/%E8%87%B4%E5%91%BD%E7%9A%84%E8%87%AA%E8%B4%9F
+  [UNVERIFIABLE] 《致孩子的书》 (type=unverifiable)
+  [UNVERIFIABLE] 《致德意志基督教贵族公开书》 (type=unverifiable)
+  [OK 200] 《致死的疾病》 -> https://zh.wikipedia.org/wiki/%E8%87%B4%E6%AD%BB%E7%9A%84%E7%96%BE%E7%97%85
+  [UNVERIFIABLE] 《航海发现文献集成》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子·主动篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子·利益篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子·合纵篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子·情报篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子·权变篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子·纵横篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子·虚实篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子·言术篇》 (type=unverifiable)
+  [UNVERIFIABLE] 《苏咸子》 (type=unverifiable)
+  [UNVERIFIABLE] 《英国陆军卫生史略》 (type=unverifiable)
+  [UNVERIFIABLE] 《茅以升传》 (type=unverifiable)
+  [UNVERIFIABLE] 《茅以升文集》 (type=unverifiable)
+  [OK 200] 《荀子》 -> https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90
+  [UNVERIFIABLE] 《莱斯特手稿》 (type=unverifiable)
+  [UNVERIFIABLE] 《莲花遗教》 (type=unverifiable)
+  [OK 200] 《藏书》 -> https://zh.wikisource.org/wiki/%E8%97%8F%E6%9B%B8
+  [OK 200] 《虚构集》 -> https://zh.wikipedia.org/wiki/%E8%99%9A%E6%9E%84%E9%9B%86
+  [UNVERIFIABLE] 《西北航道》 (type=unverifiable)
+  [UNVERIFIABLE] 《西塞罗传》 (type=unverifiable)
+  [OK 200] 《西游记》 -> https://zh.wikisource.org/wiki/%E8%A5%BF%E9%81%8A%E8%A8%98
+  [OK 200] 《西铭》 -> https://zh.wikisource.org/wiki/%E8%A5%BF%E9%8A%98
+  [UNVERIFIABLE] 《观点：我的写作活动自述》 (type=unverifiable)
+  [UNVERIFIABLE] 《计算机器与智能》 (type=unverifiable)
+  [OK 200] 《训民正音》 -> https://zh.wikisource.org/wiki/%E8%A8%93%E6%B0%91%E6%AD%A3%E9%9F%B3
+  [UNVERIFIABLE] 《训民正音解例》 (type=unverifiable)
+  [OK 200] 《论义务》 -> https://zh.wikipedia.org/wiki/%E8%AE%BA%E4%B9%89%E5%8A%A1
+  [OK 200] 《论动体的电动力学》 -> https://zh.wikisource.org/wiki/Translation%3A%E8%AB%96%E5%8B%95%E9%AB%94%E7%9A%84%E9%9B%BB%E5%8B%95%E5%8A%9B%E5%AD%B8
+  [UNVERIFIABLE] 《论动物的发生》 (type=unverifiable)
+  [UNVERIFIABLE] 《论可计算数》 (type=unverifiable)
+  [UNVERIFIABLE] 《论平面图形的平衡》 (type=unverifiable)
+  [DEAD 500] 《论李维》 -> https://zh.wikipedia.org/wiki/%E6%9D%8E%E7%B6%AD%E8%AB%96
+  [OK 200] 《论法的精神》 -> https://zh.wikipedia.org/wiki/%E8%AB%96%E6%B3%95%E7%9A%84%E7%B2%BE%E7%A5%9E
+  [OK 200] 《论灵魂》 -> https://zh.wikipedia.org/wiki/%E8%AE%BA%E7%81%B5%E9%AD%82
+  [UNVERIFIABLE] 《论系统工程》 (type=unverifiable)
+  [OK 200] 《论衡》 -> https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1
+  [OK 200] 《论语》 -> https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E
+  [UNVERIFIABLE] 《论语与算盘》 (type=unverifiable)
+  [UNVERIFIABLE] 《论非均匀物质的平衡》 (type=unverifiable)
+  [UNVERIFIABLE] 《评注》 (type=unverifiable)
+  [UNVERIFIABLE] 《词论》 (type=unverifiable)
+  [UNVERIFIABLE] 《诗歌总集》 (type=unverifiable)
+  [UNVERIFIABLE] 《诺贝尔传》 (type=unverifiable)
+  [OK 200] 《谈谈方法》 -> https://zh.wikipedia.org/wiki/%E8%AB%87%E8%AB%87%E6%96%B9%E6%B3%95
+  [UNVERIFIABLE] 《贝聿铭谈贝聿铭》 (type=unverifiable)
+  [OK 200] 《贞观政要》 -> https://zh.wikisource.org/wiki/%E8%B2%9E%E8%A7%80%E6%94%BF%E8%A6%81
+  [UNVERIFIABLE] 《费加罗的婚礼》 (type=unverifiable)
+  [UNVERIFIABLE] 《资本主义、社会主义与民主》 (type=unverifiable)
+  [OK 200] 《资治通鉴》 -> https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91
+  [UNVERIFIABLE] 《赋格的艺术》 (type=unverifiable)
+  [UNVERIFIABLE] 《赵州录》 (type=unverifiable)
+  [UNVERIFIABLE] 《迷途指津》 (type=unverifiable)
+  [UNVERIFIABLE] 《通信的数学理论》 (type=unverifiable)
+  [UNVERIFIABLE] 《通论》 (type=unverifiable)
+  [OK 200] 《道德与立法原理导论》 -> https://zh.wikipedia.org/wiki/%E9%81%93%E5%BE%B7%E8%88%87%E7%AB%8B%E6%B3%95%E5%8E%9F%E5%89%87%E6%A6%82%E8%AB%96
+  [UNREACHABLE] 《道德原则研究》 -> https://zh.wikipedia.org/wiki/%E9%81%93%E5%BE%B7%E5%8E%9F%E5%89%87%E7%A0%94%E7%A9%B6
+  [OK 200] 《道德经》 -> https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90_%28%E6%9B%B8%29
+  [OK 200] 《郁离子》 -> https://zh.wikisource.org/wiki/%E9%83%81%E9%9B%A2%E5%AD%90
+  [UNVERIFIABLE] 《郑和航海图》 (type=unverifiable)
+  [OK 200] 《酬张少府》 -> https://zh.wikisource.org/wiki/%E9%85%AC%E5%BC%B5%E5%B0%91%E5%BA%9C
+  [OK 200] 《重阳立教十五论》 -> https://zh.wikisource.org/wiki/%E9%87%8D%E9%99%BD%E7%AB%8B%E6%95%99%E5%8D%81%E4%BA%94%E8%AB%96
+  [UNVERIFIABLE] 《野鸭》 (type=unverifiable)
+  [OK 200] 《金石录》 -> https://zh.wikipedia.org/wiki/%E9%87%91%E7%9F%B3%E5%BD%95
+  [UNVERIFIABLE] 《钱塘江建桥回忆》 (type=unverifiable)
+  [UNVERIFIABLE] 《钱塘江桥工程施工纪实》 (type=unverifiable)
+  [UNVERIFIABLE] 《钱学森年谱》 (type=unverifiable)
+  [OK 200] 《锦瑟》 -> https://zh.wikisource.org/wiki/%E9%8C%A6%E7%91%9F
+  [UNVERIFIABLE] 《青年印度》 (type=unverifiable)
+  [UNVERIFIABLE] 《青渊回顾录》 (type=unverifiable)
+  [OK 200] 《非此即彼》 -> https://zh.wikipedia.org/wiki/%E9%9D%9E%E6%AD%A4%E5%8D%B3%E5%BD%BC
+  [OK 200] 《韩非子》 -> https://zh.wikisource.org/wiki/%E9%9F%93%E9%9D%9E%E5%AD%90
+  [UNVERIFIABLE] 《音乐的奉献》 (type=unverifiable)
+  [UNVERIFIABLE] 《音注》 (type=unverifiable)
+  [UNVERIFIABLE] 《首次环球航行记》 (type=unverifiable)
+  [UNVERIFIABLE] 《马塞勒斯传》 (type=unverifiable)
+  [UNVERIFIABLE] 《马太受难曲》 (type=unverifiable)
+  [OK 200] 《高卢战记》 -> https://zh.wikipedia.org/wiki/%E9%AB%98%E7%9B%A7%E6%88%B0%E8%A8%98
+  [UNVERIFIABLE] 《高等数学引论》 (type=unverifiable)
+  [UNVERIFIABLE] 《魏公谭训》 (type=unverifiable)
+  [UNVERIFIABLE] 《麦哲伦传》 (type=unverifiable)
+  [UNVERIFIABLE] 《麦哲伦航行记》 (type=unverifiable)
+  [OK 200] 《齐民要术》 -> https://zh.wikisource.org/wiki/%E9%BD%8A%E6%B0%91%E8%A6%81%E8%A1%93
+
+Summary: 150 OK, 4 dead, 16 unreachable, 213 unverifiable
+resolved links path:    /opt/data/workspace/Protreptic/data/source_links.json
+resolved baseline path: /opt/data/workspace/Protreptic/data/audit/source_links_baseline.json (exists=True)
+baseline frozen at 2026-09-20T01:10:11+00:00 counts={"violations": 0, "distinct": 0}
+
+--- 存量坏链（基线内，冻结）: 0 条 ---
+
+--- 新增坏链（基线外，必拦）: 4 条 ---
+  ::error::NEW [DEAD 500] 《单子论》 -> https://zh.wikipedia.org/wiki/%E5%96%AE%E5%AD%90%E8%AB%96
+  ::error::NEW [DEAD 500] 《反异教大全》 -> https://zh.wikipedia.org/wiki/%E5%93%B2%E5%AD%A6%E5%A4%A7%E5%85%A8
+  ::error::NEW [DEAD 500] 《第一哲学沉思集》 -> https://zh.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E5%93%B2%E5%AD%B8%E6%B2%89%E6%80%9D%E9%9B%86
+  ::error::NEW [DEAD 500] 《论李维》 -> https://zh.wikipedia.org/wiki/%E6%9D%8E%E7%B6%AD%E8%AB%96
+
+--- 连接层失败（警告，不计违规）: 16 条 ---
+  ::warning::UNREACHABLE H-SUY-001 孙权 (183-252) -> https://zh.wikipedia.org/wiki/%E5%AD%99%E6%9D%83
+  ::warning::UNREACHABLE 《人的境况》 -> https://zh.wikipedia.org/wiki/%E4%BA%BA%E7%9A%84%E5%A2%83%E5%86%B5
+  ::warning::UNREACHABLE 《人间词话》 -> https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%97%B4%E8%AF%8D%E8%AF%9D
+  ::warning::UNREACHABLE 《伤寒论》 -> https://zh.wikisource.org/wiki/%E5%82%B7%E5%AF%92%E8%AB%96
+  ::warning::UNREACHABLE 《后汉书》 -> https://zh.wikisource.org/wiki/%E5%BE%8C%E6%BC%A2%E6%9B%B8
+  ::warning::UNREACHABLE 《学术的进展》 -> https://zh.wikipedia.org/wiki/%E5%AD%A6%E6%9C%AF%E7%9A%84%E8%BF%9B%E5%B1%95
+  ::warning::UNREACHABLE 《宗教生活的基本形式》 -> https://zh.wikipedia.org/wiki/%E5%AE%97%E6%95%99%E7%94%9F%E6%B4%BB%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%BD%A2%E5%BC%8F
+  ::warning::UNREACHABLE 《曾国藩家书》 -> https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8
+  ::warning::UNREACHABLE 《曾国藩日记》 -> https://zh.wikisource.org/wiki/%E6%9B%BE%E5%9C%8B%E8%97%A9%E6%97%A5%E8%A8%98
+  ::warning::UNREACHABLE 《李忠武公全书》 -> https://zh.wikisource.org/wiki/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8
+  ::warning::UNREACHABLE 《治疗论》 -> https://zh.wikipedia.org/wiki/%E6%B2%BB%E7%99%82%E4%B9%8B%E6%9B%B8
+  ::warning::UNREACHABLE 《测圆海镜》 -> https://zh.wikisource.org/wiki/%E6%B8%AC%E5%9C%93%E6%B5%B7%E9%8F%A1
+  ::warning::UNREACHABLE 《漫漫自由路》 -> https://zh.wikipedia.org/wiki/%E6%BC%AB%E6%BC%AB%E8%87%AA%E7%94%B1%E8%B7%AF
+  ::warning::UNREACHABLE 《牡丹亭》 -> https://zh.wikisource.org/wiki/%E7%89%A1%E4%B8%B9%E4%BA%AD
+  ::warning::UNREACHABLE 《自然哲学的数学原理》 -> https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%A6%E7%9A%84%E6%95%B0%E5%AD%A6%E5%8E%9F%E7%90%86
+  ::warning::UNREACHABLE 《道德原则研究》 -> https://zh.wikipedia.org/wiki/%E9%81%93%E5%BE%B7%E5%8E%9F%E5%89%87%E7%A0%94%E7%A9%B6
+
+[FAIL] hard-fail: 4 条新增坏链（基线外）-> exit 1（存量 0 条已冻结）

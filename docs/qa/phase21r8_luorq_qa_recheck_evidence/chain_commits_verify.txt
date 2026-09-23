@@ -1,0 +1,24 @@
+==== 罗瑞卿链 提交产物独立复核 [espinosa/t_65998945] @ 2026-09-24 01:29:55 ====
+PASS  K0   合并提交 t_2d15bd2e#1 (卡 t_08bbb73d 结果选择性入库): 双仓提交均可解析 (0cbf6ab63059 / ec0a06bfadd4) | 
+PASS  K2   合并提交 t_2d15bd2e#1 (卡 t_08bbb73d 结果选择性入库): 提交×镜像 逐件字节相等 (21/21) | 不一致: []
+PASS  K3   合并提交 t_2d15bd2e#1 (卡 t_08bbb73d 结果选择性入库): 镜像侧新增 18 件与工作仓对应件 byte-exact (18 件) | 不一致: [] 缺工作仓对应: []
+PASS  K0   回执提交 t_2d15bd2e#2 (报告/证据补记): 双仓提交均可解析 (a119ad9c222f / fee63a306ad6) | 
+PASS  K2   回执提交 t_2d15bd2e#2 (报告/证据补记): 提交×镜像 逐件字节相等 (4/4) | 不一致: []
+PASS  K0   文档归档提交 t_d9cb98bb (九节档案首次装配): 双仓提交均可解析 (63a0e4636464 / 2b3681d9e7c3) | 
+PASS  K2   文档归档提交 t_d9cb98bb (九节档案首次装配): 提交×镜像 逐件字节相等 (3/3) | 不一致: []
+PASS  K1   0cbf6ab6 提交文件集 == 回执声明白名单 21 件 (名单外 0 / 缺失 0) | commit=21, 声明=21, 名单外=[], 缺失=[]
+PASS  K4   回执表 sha256 与 0cbf6ab6 git 对象实算逐件一致 (21 件) | []
+PASS  K4b  回执镜像表 sha256 与 ec0a06b git 对象实算逐件一致 (39 件) | []
+PASS  K5   push 回执 ec0a06b (合并提交 t_2d15bd2e#1 (卡 t_0): 远端 main 含该镜像提交 | 远端 main=04837b318670
+PASS  K5   push 回执 fee63a3 (回执提交 t_2d15bd2e#2 (报告/证据): 远端 main 含该镜像提交 | 远端 main=04837b318670
+PASS  K5   push 回执 2b3681d (文档归档提交 t_d9cb98bb (九节档案首): 远端 main 含该镜像提交 | 远端 main=04837b318670
+PASS  K5b  工作仓 master push 目标不存在 (远端无 refs/heads/master, 仅 refs/heads/main; 环境事实) | ['04837b31867017fdde4f8a615c021f716f068cbf\tHEAD', '04837b31867017fdde4f8a615c021f716f068cbf\trefs/heads/main']
+PASS  K6a  工作树六件数据 sha256 == merge manifest.after 逐件 | []
+PASS  K6b  工作树六件 == HEAD 对象 (无未提交数据改动) | []
+PASS  K6c  0cbf6ab6..HEAD 六件数据路径 0 提交 (补交后无数据改动) | []
+PASS  K6d  0cbf6ab6 提交内六件数据 == merge manifest.after 逐件 | []
+PASS  K7   文档归档页 byte-exact (工作仓 × 发布仓) 且非空 | ws=17cb095e9659dab9 pub=17cb095e9659dab9 bytes=64447 lines=426
+INFO  状态钉扎: workspace HEAD=e8b5c12eca21 (porcelain 24 行); publish HEAD=04837b318670 (porcelain 0 行)
+INFO  回执表解析: 工作仓白名单 21 件; 镜像清单 39 件 (仅作比对靶, 结论取 git 实算)
+INFO  K2 文档归档提交 t_d9cb98bb (九节档案首次装配): 镜像缺件 2 件: ['build_luorq_r8_archive.py', 'verify_luorq_r8_archive.py']
+INFO  K5 远端 refs: ['04837b31867017fdde4f8a615c021f716f068cbf\tHEAD', '04837b31867017fdde4f8a615c021f716f068cbf\trefs/heads/main']

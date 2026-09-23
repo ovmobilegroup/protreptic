@@ -1,0 +1,5 @@
+$ /usr/bin/python3 /opt/data/workspace/Protreptic/tools/pages_preflight.py --stage data
+exit=0
+      figures=1057 modes=3281 published=3221 隔离命中=0 figure shards=1057 by-figure shards=318
+      daily: 3221 条（by-figure 分片 3221 条）names=3221 tz=Asia/Shanghai
+[OK] stage=data：全部断言通过

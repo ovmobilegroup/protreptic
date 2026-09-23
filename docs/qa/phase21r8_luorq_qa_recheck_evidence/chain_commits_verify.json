@@ -1,0 +1,177 @@
+{
+  "card": "t_65998945",
+  "script": "verify_luorq_chain_recheck_espinosa.py",
+  "ts": "2026-09-24 01:29:55",
+  "state": {
+    "workspace_head": "e8b5c12eca218e43cb223c0e6e37b93a17e59310",
+    "publish_head": "04837b31867017fdde4f8a615c021f716f068cbf",
+    "ws_porcelain": 24,
+    "pub_porcelain": 0
+  },
+  "pairs": {
+    "0cbf6ab6": {
+      "ws_commit": "0cbf6ab63059353ab9e7f2f5d9b9d76423b6c1c1",
+      "pub_commit": "ec0a06bfadd455aec01920c9e0412e744d81eed2",
+      "common": 21,
+      "mismatch": [],
+      "ws_only": [],
+      "pub_only": [
+        "data/audit/phase21r8_luorq_landing_manifest.json",
+        "data/figures/H-LUORQ-001.json",
+        "data/individuals/H-LUORQ-001.json",
+        "data/individuals/H-LUORQ-001_modes.json",
+        "docs/research/phase21r8_luorq_gate.txt",
+        "docs/research/phase21r8_luorq_landing_evidence.json",
+        "docs/research/phase21r8_luorq_rebuild_report.md",
+        "docs/research/phase21r8_luorq_sourcing_report.json",
+        "docs/research/phase21r8_luorq_sourcing_report.md",
+        "docs/scratch/legacy20_r8_luorq_landing/category_mapping.tsv",
+        "docs/scratch/legacy20_r8_luorq_landing/combined_library_entries.json",
+        "docs/scratch/legacy20_r8_luorq_landing/figures/H-LUORQ-001.json",
+        "docs/scratch/legacy20_r8_luorq_landing/id_mapping.tsv",
+        "docs/scratch/legacy20_r8_luorq_landing/individuals/H-LUORQ-001.json",
+        "docs/scratch/legacy20_r8_luorq_landing/individuals/H-LUORQ-001_modes.json",
+        "docs/scratch/legacy20_r8_luorq_landing/modes_library_entries.json",
+        "docs/scratch/legacy20_r8_luorq_landing/scenario_notes.json",
+        "docs/scratch/legacy20_r8_luorq_landing/top_block_proposal.json"
+      ]
+    },
+    "a119ad9c": {
+      "ws_commit": "a119ad9c222f2340fc280bd1e6b7d1e8c10a143b",
+      "pub_commit": "fee63a306ad6fbb2ff1daf5a01be4bc500efe06c",
+      "common": 4,
+      "mismatch": [],
+      "ws_only": [],
+      "pub_only": []
+    },
+    "63a0e463": {
+      "ws_commit": "63a0e46364645c2116c100cec44340eb6ad38a47",
+      "pub_commit": "2b3681d9e7c35db37bd07c384cd395b00c40ab8c",
+      "common": 3,
+      "mismatch": [],
+      "ws_only": [
+        "build_luorq_r8_archive.py",
+        "verify_luorq_r8_archive.py"
+      ],
+      "pub_only": []
+    }
+  },
+  "push": {
+    "remote_main": "04837b31867017fdde4f8a615c021f716f068cbf",
+    "remote_refs": [
+      "04837b31867017fdde4f8a615c021f716f068cbf\tHEAD",
+      "04837b31867017fdde4f8a615c021f716f068cbf\trefs/heads/main"
+    ]
+  },
+  "zero_data_change": {
+    "worktree_vs_manifest": [],
+    "worktree_vs_head": [],
+    "commits_after": [],
+    "commit_vs_manifest": []
+  },
+  "page": {
+    "sha256": "17cb095e9659dab9d7528718b2a105659c6d7d45c70141c0ca83441ed073c289",
+    "publish_sha256": "17cb095e9659dab9d7528718b2a105659c6d7d45c70141c0ca83441ed073c289",
+    "bytes": 64447,
+    "lines": 426
+  },
+  "pass": 19,
+  "fail": 0,
+  "checks": [
+    {
+      "id": "K0",
+      "desc": "合并提交 t_2d15bd2e#1 (卡 t_08bbb73d 结果选择性入库): 双仓提交均可解析 (0cbf6ab63059 / ec0a06bfadd4)",
+      "detail": ""
+    },
+    {
+      "id": "K2",
+      "desc": "合并提交 t_2d15bd2e#1 (卡 t_08bbb73d 结果选择性入库): 提交×镜像 逐件字节相等 (21/21)",
+      "detail": "不一致: []"
+    },
+    {
+      "id": "K3",
+      "desc": "合并提交 t_2d15bd2e#1 (卡 t_08bbb73d 结果选择性入库): 镜像侧新增 18 件与工作仓对应件 byte-exact (18 件)",
+      "detail": "不一致: [] 缺工作仓对应: []"
+    },
+    {
+      "id": "K0",
+      "desc": "回执提交 t_2d15bd2e#2 (报告/证据补记): 双仓提交均可解析 (a119ad9c222f / fee63a306ad6)",
+      "detail": ""
+    },
+    {
+      "id": "K2",
+      "desc": "回执提交 t_2d15bd2e#2 (报告/证据补记): 提交×镜像 逐件字节相等 (4/4)",
+      "detail": "不一致: []"
+    },
+    {
+      "id": "K0",
+      "desc": "文档归档提交 t_d9cb98bb (九节档案首次装配): 双仓提交均可解析 (63a0e4636464 / 2b3681d9e7c3)",
+      "detail": ""
+    },
+    {
+      "id": "K2",
+      "desc": "文档归档提交 t_d9cb98bb (九节档案首次装配): 提交×镜像 逐件字节相等 (3/3)",
+      "detail": "不一致: []"
+    },
+    {
+      "id": "K1",
+      "desc": "0cbf6ab6 提交文件集 == 回执声明白名单 21 件 (名单外 0 / 缺失 0)",
+      "detail": "commit=21, 声明=21, 名单外=[], 缺失=[]"
+    },
+    {
+      "id": "K4",
+      "desc": "回执表 sha256 与 0cbf6ab6 git 对象实算逐件一致 (21 件)",
+      "detail": "[]"
+    },
+    {
+      "id": "K4b",
+      "desc": "回执镜像表 sha256 与 ec0a06b git 对象实算逐件一致 (39 件)",
+      "detail": "[]"
+    },
+    {
+      "id": "K5",
+      "desc": "push 回执 ec0a06b (合并提交 t_2d15bd2e#1 (卡 t_0): 远端 main 含该镜像提交",
+      "detail": "远端 main=04837b318670"
+    },
+    {
+      "id": "K5",
+      "desc": "push 回执 fee63a3 (回执提交 t_2d15bd2e#2 (报告/证据): 远端 main 含该镜像提交",
+      "detail": "远端 main=04837b318670"
+    },
+    {
+      "id": "K5",
+      "desc": "push 回执 2b3681d (文档归档提交 t_d9cb98bb (九节档案首): 远端 main 含该镜像提交",
+      "detail": "远端 main=04837b318670"
+    },
+    {
+      "id": "K5b",
+      "desc": "工作仓 master push 目标不存在 (远端无 refs/heads/master, 仅 refs/heads/main; 环境事实)",
+      "detail": "['04837b31867017fdde4f8a615c021f716f068cbf\\tHEAD', '04837b31867017fdde4f8a615c021f716f068cbf\\trefs/heads/main']"
+    },
+    {
+      "id": "K6a",
+      "desc": "工作树六件数据 sha256 == merge manifest.after 逐件",
+      "detail": "[]"
+    },
+    {
+      "id": "K6b",
+      "desc": "工作树六件 == HEAD 对象 (无未提交数据改动)",
+      "detail": "[]"
+    },
+    {
+      "id": "K6c",
+      "desc": "0cbf6ab6..HEAD 六件数据路径 0 提交 (补交后无数据改动)",
+      "detail": "[]"
+    },
+    {
+      "id": "K6d",
+      "desc": "0cbf6ab6 提交内六件数据 == merge manifest.after 逐件",
+      "detail": "[]"
+    },
+    {
+      "id": "K7",
+      "desc": "文档归档页 byte-exact (工作仓 × 发布仓) 且非空",
+      "detail": "ws=17cb095e9659dab9 pub=17cb095e9659dab9 bytes=64447 lines=426"
+    }
+  ]
+}

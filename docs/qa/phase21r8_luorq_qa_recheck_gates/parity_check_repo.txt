@@ -1,0 +1,150 @@
+$ /usr/bin/python3 /opt/data/workspace/Protreptic/tools/check_repo_parity.py
+exit=1
+[boundary] workspace = /opt/data/workspace/Protreptic
+[boundary] publish   = /opt/data/release/Protreptic-publish
+[boundary] pages.yml 构建步骤 16 个 / paths 触发器 30 条 —— 均已被清单覆盖（边界自检通过）
+[boundary] 纳入边界：workspace 2263 / publish 2182；排除：workspace 55 / publish 674
+[boundary] 文件集口径：索引（已跟踪）∪ 未跟踪且未被 .gitignore —— 双向单侧检测（Phase39-Z1）
+[boundary] 未跟踪未提交（但已纳入机检）：workspace 81 / publish 0
+
+-- 排除统计（publish 侧） --
+    637  开发侧原始分片留档（637 个，仅发布仓有）：grep tools/ + .github/ + web/src/ 无任何读取；不参与构建、不
+     37  入库前备份目录（开发仓独有，非构建图）
+     34  mkdocs.pages.yml `exclude_docs: archive/` → 不构建、不上线
+     15  备份文件（.bak / .bak_<tag>）
+      3  merge 暂存目录（开发仓独有，非构建图）
+      1  前端构建产物（CI 现场 npm run build 生成；发布仓为加 .gitignore 之前的历史跟踪）
+      1  开发侧汇总实验产物，无构建步骤读取
+      1  开发侧 FAISS 索引二进制（无构建步骤读取；语义检索为 api/ 侧）
+
+-- 排除规则 × 侧别（排除项不参与差异判定；单侧差异一并列出理由，不静默吞掉） --
+   pattern                            ws    pub      仅ws     仅pub
+   data/intl_figures/*                 0    637        0      637
+      └ 开发侧原始分片留档（637 个，仅发布仓有）：grep tools/ + .github/ + web/src/ 无任何读取；不参与构建、不上线，故不纳入（如要按「源库留档」更严口径纳入，删掉本规则并执行 publish→workspace 同步）
+   data/backup_merge_*/*              37      0       37        0
+      └ 入库前备份目录（开发仓独有，非构建图）
+   data/merge_staging_*/*              3      0        3        0
+      └ merge 暂存目录（开发仓独有，非构建图）
+   */node_modules/*                    0      0        0        0
+      └ 依赖目录（.gitignore）
+   *.bak*                             13      2       11        0
+      └ 备份文件（.bak / .bak_<tag>）
+   data/all_sources.json               1      0        1        0
+      └ 开发侧汇总实验产物，无构建步骤读取
+   data/semantic_index.faiss           1      0        1        0
+      └ 开发侧 FAISS 索引二进制（无构建步骤读取；语义检索为 api/ 侧）
+   docs/archive/*                      0     34        0       34
+      └ mkdocs.pages.yml `exclude_docs: archive/` → 不构建、不上线
+   web/dist/*                          0      1        0        1
+      └ 前端构建产物（CI 现场 npm run build 生成；发布仓为加 .gitignore 之前的历史跟踪）
+   web/public/data/*                   0      0        0        0
+      └ 静态数据产物（tools/export_static_site.py 现场生成；.gitignore 已声明）
+   tools/assets/fonts/.cache/*         0      0        0        0
+      └ 字体源缓存（.gitignore；只在本机重新子集化时用）
+   tools/gc/gc                         0      0        0        0
+      └ 开发侧工具二进制，未被任何构建步骤调用
+   合计：排除 ws=55 / pub=674；其中仅单侧 725 条（仅工作仓 53 · 仅发布仓 672）
+
+不在边界内（既不参与站点构建、也不进入线上站点）的其余路径：Dockerfile.api/Dockerfile.web、docker-compose.yml、api/**（后端 FastAPI 容器）、.github/**（CI 编排，两仓职责不同）、tests/、cli_tests/、scripts/、docs_site/**（更早的独立文档站工程，mkdocs.pages.yml 明确不用它）、kanban/、release/、backups_merge_*/、IL/、Vietnam/、assets/、templates/、scenarios/、individuals/、构建/ 等开发侧目录，以及根目录遗留副本（modes_data.json、scenarios_zh/en.json、code_maps.json、scenario_tags.json、three_dimensional_comparison_matrix.xlsx、lighthouserc.json 等）——构建步骤读的是 data/** 与 tools/** 下的同名文件（见 build_figures_db.py 的 find() 顺序）。
+
+[stats] 两仓都有 2182 条（其中逐字节一致 2167）｜仅单侧 81 条（仅工作仓 81 · 仅发布仓 0）
+
+[DIFF] 96 处差异（文件名 + 侧别 + 理由分类）：
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/MANIFEST.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/MANIFEST.sha256
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/README.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/api/data/scenarios_en.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/docs/architecture/static_data_manifest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/docs/architecture/web_p0_routes.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/docs/historical_figures_thinking_modes_library.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/docs/research/batch_new_figures_research.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/docs/research/candidates_v4_research.legacy.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/docs_site/docs/historical_figures_thinking_modes_library.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/docs_site/docs/scenario_tags.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/three_dimensional_comparison_matrix.xlsx
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/tools/batch2_candidates.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/tools/ci_data_check.py
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/tools/code_maps_en.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/tools/export_static_site.py
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_en.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_zh.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/tools/pages_preflight.py
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/tools/test_full_backup.py
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/dist/data/figures.index.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/dist/data/figures/H-AZJ-345.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/dist/data/index.unified.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/dist/data/meta.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/dist/sitemap.xml
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/public/data/figures.index.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/public/data/figures/H-AZJ-345.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/public/data/meta.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/public/sitemap.xml
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/backup_phase21r8_azj345_clear_20260923/web/src/generated/siteCounts.ts
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/figures/_duplicates/H-AZJ-345_api_scenarios_en_entry.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/figures/_duplicates/H-AZJ-345_figures_row.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/figures/_duplicates/H-AZJ-345_ledger.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/figures/_duplicates/H-AZJ-345_legacy_docs_fragments.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/figures/_duplicates/H-AZJ-345_products_snapshot.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/figures/_duplicates/H-AZJ-345_registry_fragments.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/figures/_duplicates/H-AZJ-345_scenarios_en_entry.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       data/figures/_duplicates/H-AZJ-345_scenarios_zh_entry.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        docs/02-tools/figure_library.md
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        docs/architecture/static_data_manifest.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        docs/architecture/web_p0_routes.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        docs/historical_figures_thinking_modes_library.md
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        docs/index.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_evidence/_inject_tmp/modes_data.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_evidence/result.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_evidence/result.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_gates/gate_credibility_gate.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_gates/gate_verify_findings.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/_inject_tmp/modes_data.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/chain_commits_verify.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/chain_commits_verify.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/result.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/result.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_apply_verification_status.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_credibility_gate.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_gen_web_site_counts_check.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_pages_preflight_data.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_verify_findings.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_verify_source_links.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/parity_check_repo.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/phase21r8_luorq_qa_recheck_selftest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/result.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/result.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_apply_verification_status.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_credibility_gate.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_gen_web_site_counts_check.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_pages_preflight_data.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_verify_findings.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_verify_source_links.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/parity_check_repo.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/phase21r8_luorq_qa_recheck_selftest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/result.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/result.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_gates/gate_apply_verification_status.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_gates/gate_credibility_gate.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_gates/gate_gen_web_site_counts_check.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_gates/gate_pages_preflight_data.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_gates/gate_verify_findings.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_gates/gate_verify_source_links.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_gates/parity_check_repo.txt
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_recheck_selftest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/qa/phase21r8_luorq_qa_selftest.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        docs/research/batch_new_figures_research.md
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        docs/research/candidates_v4_research.legacy.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21r8_w4_names_recon.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21r8_w4_names_recon.md
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21w4_fix_manifest.json
+   MISSING_IN_PUBLISH     [仅工作仓 · 未跟踪（未 git add，尚未进入索引）]                       docs/research/phase21w4_fix_manifest.md
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/export_static_site.py
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/json/scenarios_en.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/json/scenarios_zh.json
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        tools/pages_preflight.py
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        web/public/manifest-light.webmanifest
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        web/public/manifest.webmanifest
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        web/public/sitemap.xml
+   CONTENT_DIFF           [两仓都有 · 内容不同]                                        web/src/api/static.ts
+
+修法：内容差异按发布仓为准同步（cp <publish>/<path> <workspace>/<path> 反之视角色而定）；单侧缺失按角色补齐（构建图文件两边都必须有）。同步后重跑本脚本；退出码 1。

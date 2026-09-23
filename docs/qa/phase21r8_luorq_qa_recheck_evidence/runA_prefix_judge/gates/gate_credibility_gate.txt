@@ -1,0 +1,592 @@
+$ /usr/bin/python3 /opt/data/workspace/Protreptic/tools/credibility_gate.py --hard-fail
+exit=0
+=== CREDIBILITY GATE · 存量/新增两档 ===
+mode: hard-fail
+resolved data path:     /opt/data/workspace/Protreptic/data/modes_data.json (exists=True)
+resolved baseline path: /opt/data/workspace/Protreptic/data/audit/credibility_baseline.json (exists=True)
+hard failures on this dataset: 524
+baseline frozen at 2026-09-19T14:30:15+00:00 (total=527, fingerprints=526, D1=60 D2=9 D3=0 D6=457)
+baseline data_sha256: bf168171af42f8148c3adecbbc1a71258522676355357f6466acdcb25f2e61cb
+current  data_sha256: 2d3eb9eaf41bc95e7870bae98ced5eeee46ff216272d6dfa444c5441c0a6a964
+D3 exemption: on, exempted modes: 43
+
+--- 存量（基线内，冻结）: 524 条 [D1=60 D2=9 D3=0 D6=455] ---
+  ::notice::LEGACY M393|D1|H-SX-001 | [M393] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M393|D2|《苏咸子·权变篇》 | [M393] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·权变篇》' -> 《苏咸子·权变篇》
+  ::notice::LEGACY M394|D1|H-SX-001 | [M394] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M394|D2|《苏咸子·纵横篇》 | [M394] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·纵横篇》' -> 《苏咸子·纵横篇》
+  ::notice::LEGACY M395|D1|H-SX-001 | [M395] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M395|D2|《苏咸子·言术篇》 | [M395] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·言术篇》' -> 《苏咸子·言术篇》
+  ::notice::LEGACY M396|D1|H-SX-001 | [M396] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M396|D2|《苏咸子·权变篇》 | [M396] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·权变篇》' -> 《苏咸子·权变篇》
+  ::notice::LEGACY M397|D1|H-SX-001 | [M397] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M397|D2|《苏咸子·虚实篇》 | [M397] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·虚实篇》' -> 《苏咸子·虚实篇》
+  ::notice::LEGACY M398|D1|H-SX-001 | [M398] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M398|D2|《苏咸子·利益篇》 | [M398] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·利益篇》' -> 《苏咸子·利益篇》
+  ::notice::LEGACY M399|D1|H-SX-001 | [M399] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M399|D2|《苏咸子·情报篇》 | [M399] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·情报篇》' -> 《苏咸子·情报篇》
+  ::notice::LEGACY M400|D1|H-SX-001 | [M400] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M400|D2|《苏咸子·主动篇》 | [M400] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·主动篇》' -> 《苏咸子·主动篇》
+  ::notice::LEGACY M401|D1|H-SX-001 | [M401] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M401|D2|《苏咸子·合纵篇》 | [M401] D2 伪造出处: source_chapter 包含已知伪造书名 '《苏咸子·合纵篇》' -> 《苏咸子·合纵篇》
+  ::notice::LEGACY M402|D1|H-SX-001 | [M402] D1 伪人物: figure_code=H-SX-001 在隔离名单中
+  ::notice::LEGACY M-LOC-003|D6|related_modes=M-HOB-001 | [M-LOC-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HOB-001
+  ::notice::LEGACY M-LOC-003|D6|related_modes=M-RUS-001 | [M-LOC-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RUS-001
+  ::notice::LEGACY M-LOC-005|D6|related_modes=M-HOB-001 | [M-LOC-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HOB-001
+  ::notice::LEGACY M-LOC-005|D6|related_modes=M-RUS-001 | [M-LOC-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RUS-001
+  ::notice::LEGACY M-LOC-006|D6|related_modes=M-SMI-001 | [M-LOC-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SMI-001
+  ::notice::LEGACY M-LOC-007|D6|related_modes=M-RUS-001 | [M-LOC-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RUS-001
+  ::notice::LEGACY M-LOC-007|D6|related_modes=M-DEW-001 | [M-LOC-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DEW-001
+  ::notice::LEGACY M-LOC-008|D6|related_modes=M-HUM-001 | [M-LOC-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HUM-001
+  ::notice::LEGACY M-LOC-008|D6|related_modes=M-PAR-001 | [M-LOC-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAR-001
+  ::notice::LEGACY M-LOC-009|D6|related_modes=M-WIT-001 | [M-LOC-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WIT-001
+  ::notice::LEGACY M-LOC-009|D6|related_modes=M-HUM-001 | [M-LOC-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HUM-001
+  ::notice::LEGACY M-LOC-010|D6|related_modes=M-SID-001 | [M-LOC-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SID-001
+  ::notice::LEGACY M-LOC-010|D6|related_modes=M-BOY-001 | [M-LOC-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-BOY-001
+  ::notice::LEGACY M-P23F-001|D1|H-P23F-001 | [M-P23F-001] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-002|D1|H-P23F-001 | [M-P23F-002] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-003|D1|H-P23F-001 | [M-P23F-003] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-004|D1|H-P23F-001 | [M-P23F-004] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-005|D1|H-P23F-001 | [M-P23F-005] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-006|D1|H-P23F-001 | [M-P23F-006] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-007|D1|H-P23F-001 | [M-P23F-007] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-008|D1|H-P23F-001 | [M-P23F-008] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-009|D1|H-P23F-001 | [M-P23F-009] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-P23F-010|D1|H-P23F-001 | [M-P23F-010] D1 伪人物: figure_code=H-P23F-001 在隔离名单中
+  ::notice::LEGACY M-YSS-001|D6|related_modes=M-NAP-003 | [M-YSS-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAP-003
+  ::notice::LEGACY M-YSS-002|D6|related_modes=M-QJG-001 | [M-YSS-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-QJG-001
+  ::notice::LEGACY M-YSS-004|D6|related_modes=M-QJG-001 | [M-YSS-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-QJG-001
+  ::notice::LEGACY M-YSS-006|D6|related_modes=M-NAP-003 | [M-YSS-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAP-003
+  ::notice::LEGACY M-YSS-008|D6|related_modes=M-QJG-001 | [M-YSS-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-QJG-001
+  ::notice::LEGACY M-YSS-009|D6|related_modes=M-NAP-003 | [M-YSS-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAP-003
+  ::notice::LEGACY M-SEJ-001|D6|related_modes=M-GUT-001 | [M-SEJ-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GUT-001
+  ::notice::LEGACY M-SEJ-002|D6|related_modes=M-DQS-001 | [M-SEJ-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DQS-001
+  ::notice::LEGACY M-SEJ-003|D6|related_modes=M-PET-001 | [M-SEJ-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PET-001
+  ::notice::LEGACY M-SEJ-004|D6|related_modes=M-GUT-001 | [M-SEJ-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GUT-001
+  ::notice::LEGACY M-SEJ-004|D6|related_modes=M-TOC-001 | [M-SEJ-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOC-001
+  ::notice::LEGACY M-SEJ-007|D6|related_modes=M-GUAN-001 | [M-SEJ-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GUAN-001
+  ::notice::LEGACY M-SEJ-008|D6|related_modes=M-SHN-001 | [M-SEJ-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHN-001
+  ::notice::LEGACY M-SEJ-009|D6|related_modes=M-SMA-001 | [M-SEJ-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SMA-001
+  ::notice::LEGACY M-SUK-004|D6|related_modes=M-HMZZ-001 | [M-SUK-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HMZZ-001
+  ::notice::LEGACY M-SUK-005|D6|related_modes=M-GDH-001 | [M-SUK-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GDH-001
+  ::notice::LEGACY M-SUK-008|D6|related_modes=M-GDH-001 | [M-SUK-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GDH-001
+  ::notice::LEGACY M-MARQ-002|D6|related_modes=M-HMZZ-001 | [M-MARQ-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HMZZ-001
+  ::notice::LEGACY M-MARQ-004|D6|related_modes=M-HMZZ-001 | [M-MARQ-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HMZZ-001
+  ::notice::LEGACY M-MARQ-005|D6|related_modes=M-HMZZ-001 | [M-MARQ-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HMZZ-001
+  ::notice::LEGACY M-NAG-001|D6|related_modes=M-NAG-002 | [M-NAG-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-002（四句破法——依起归空的总纲需要辩证武器，四句破是其论证引擎）
+  ::notice::LEGACY M-NAG-001|D6|related_modes=M-NAG-004 | [M-NAG-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-004（二谛分层法——防止空被误读为断灭的安全阀：世俗谛保住日常世界的有效性）
+  ::notice::LEGACY M-NAG-001|D6|related_modes=M-SHA-001 | [M-NAG-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-001（商羯罗·不二还原法——远缘对照：同为'层层追问依什么而立'，商羯罗的还原收拢到一个不落的肯定基础（梵），龙树的还原不收拢到任何基础——连'空'也不许实体化）
+  ::notice::LEGACY M-NAG-001|D6|related_modes=M-HZX-005 | [M-NAG-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HZX-005（黄宗羲·史学方法论——远缘对照：黄宗羲以'文献互证'把史料从孤证还原为依存网络，龙树以'缘起'把事物从孤体还原为依存网络——'任何东西都不是自足的'是共同直觉，一个落在史学，一个落在本体论）
+  ::notice::LEGACY M-NAG-002|D6|related_modes=M-NAG-001 | [M-NAG-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（缘起归空法——四句破所服务的总纲：驳回四句的根据是依起无自性）
+  ::notice::LEGACY M-NAG-002|D6|related_modes=M-NAG-005 | [M-NAG-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-005（一体异体破法——四句破在对偶场景的专门化：对偶结构天然只容'一/异'两角）
+  ::notice::LEGACY M-NAG-002|D6|related_modes=M-SHA-004 | [M-NAG-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-004（商羯罗·立敌对论法——近缘对照：同为'先把对手立场强立再破'，商羯罗立最强敌论以显自宗，龙树归谬后连自宗也不立——立与不立是两家最大分岔）
+  ::notice::LEGACY M-NAG-002|D6|related_modes=M-KD-001 | [M-NAG-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-KD-001（康德·二律背反法——远缘对照：康德把理性的四组矛盾判定为'越界使用范畴'的症状，龙树把四句判定为'问题本身范畴错置'——都以'消解问题'代替'回答问题'）
+  ::notice::LEGACY M-NAG-003|D6|related_modes=M-NAG-001 | [M-NAG-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（缘起归空法——假名是缘起的语言面：依条件施设即依起，依起即无自性）
+  ::notice::LEGACY M-NAG-003|D6|related_modes=M-NAG-004 | [M-NAG-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-004（二谛分层法——假名在世俗谛的合法性由二谛框架正式授予）
+  ::notice::LEGACY M-NAG-003|D6|related_modes=M-LOC-001 | [M-NAG-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-LOC-001（洛克·观念论——远缘对照：洛克把普遍名词判为抽象观念的人造物，龙树把一切名词判为依起假名——同对'共相实在论'开刀，洛克保留观念层面，龙树连观念也施设）
+  ::notice::LEGACY M-NAG-003|D6|related_modes=M-WW-001 | [M-NAG-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WW-001（王维·诗画互证法——远缘对照：王维以'空山不见人'让名相在诗中自我消解，与龙树'但名'的语言观共享'名相不即是实在'的直觉）
+  ::notice::LEGACY M-NAG-004|D6|related_modes=M-NAG-001 | [M-NAG-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（缘起归空法——二谛是空的防误读安全阀：究竟说空、世俗说有）
+  ::notice::LEGACY M-NAG-004|D6|related_modes=M-SHA-003 | [M-NAG-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-003（商羯罗·幻相层级法——近缘对照：同为真值分层，商羯罗分三级且究竟层是肯定的'唯一实在'，龙树分两层且究竟层不可作任何肯定陈述——分层数与终点性质是两家分岔）
+  ::notice::LEGACY M-NAG-004|D6|related_modes=M-KD-001 | [M-NAG-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-KD-001（康德·现象与物自身——远缘对照：康德的界分是能力界限（我们只能认识现象），龙树的界分是真值界限（世俗与究竟皆可被知）——同为'两层世界'架构）
+  ::notice::LEGACY M-NAG-004|D6|related_modes=M-HAY-001 | [M-NAG-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HAY-001（哈耶克·自发秩序法——跨域对照：哈耶克区分'设计的秩序'与'生成的秩序'并拒绝把后者还原为前者，与'拒绝用究竟谛取消世俗谛'共享'层级不可互相还原'的信条）
+  ::notice::LEGACY M-NAG-005|D6|related_modes=M-NAG-002 | [M-NAG-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-002（四句破法——一异破是四句在对偶场景的专门化：对偶天然只容两角）
+  ::notice::LEGACY M-NAG-005|D6|related_modes=M-NAG-001 | [M-NAG-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（缘起归空法——一异俱不成正是'依起无自性'的对偶形态：关系依起而立，故无实体承担者）
+  ::notice::LEGACY M-NAG-005|D6|related_modes=M-SHA-002 | [M-NAG-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-002（商羯罗·梵我同一法——反向来向对照：商羯罗把'我与梵'判为一（同一），龙树把'我与蕴'判为不一不异——同一命题上'判一'与'破一异'的正面对照）
+  ::notice::LEGACY M-NAG-005|D6|related_modes=M-IBR-001 | [M-NAG-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-IBR-001（伊本·路世德·双真法——远缘对照：伊本·路世德以'哲学与宗教双真'化解一与多的张力，龙树以'不一不异'拆除张力双方的实体化——两种'不站极端'的技术路线）
+  ::notice::LEGACY M-NAG-006|D6|related_modes=M-NAG-001 | [M-NAG-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（缘起归空法——无生论证是缘起归空的因果面：四门俱闭反证唯有依起）
+  ::notice::LEGACY M-NAG-006|D6|related_modes=M-NAG-002 | [M-NAG-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-002（四句破法——四门生是四句框架在'生起'问题上的专门化穷举）
+  ::notice::LEGACY M-NAG-006|D6|related_modes=M-AQU-001 | [M-NAG-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AQU-001（阿奎那·五路证明法——反向来向对照：阿奎那从因果链回溯第一因，龙树审查因果链每一环的'生'而四门俱闭——同以因果为题，一个立第一因，一个拆生起本身）
+  ::notice::LEGACY M-NAG-006|D6|related_modes=M-UM-001 | [M-NAG-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-UM-001（休谟·因果怀疑法——近缘对照：休谟拆因果的必然性而止于习惯性期待，龙树四门俱闭后把因果重新安立在世俗谛——拆解后'立什么'是两家分岔）
+  ::notice::LEGACY M-NAG-007|D6|related_modes=M-NAG-001 | [M-NAG-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（缘起归空法——中道的正面表述：依起即中道，空假名即是中道义）
+  ::notice::LEGACY M-NAG-007|D6|related_modes=M-NAG-002 | [M-NAG-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-002（四句破法——中道的辩证面：四句俱遣之后所行即是中道）
+  ::notice::LEGACY M-NAG-007|D6|related_modes=M-AR-001 | [M-NAG-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AR-001（亚里士多德·中庸法——近缘对照：亚氏中道在同一尺度上取适度值，龙树中道拆除尺度本身——'取中间值'与'弃坐标轴'是两种中道的分岔）
+  ::notice::LEGACY M-NAG-007|D6|related_modes=M-NER-008 | [M-NAG-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NER-008（聂鲁达·合唱总谱法——跨域对照：聂鲁达在个人抒情与集体政治两极间拒绝选边而以'合唱总谱'兼收两者，与'放弃预设而非选边'共享超越两极的姿态）
+  ::notice::LEGACY M-NAG-008|D6|related_modes=M-NAG-001 | [M-NAG-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（缘起归空法——自噬的上游：空依缘起而立，故空亦复空）
+  ::notice::LEGACY M-NAG-008|D6|related_modes=M-NAG-002 | [M-NAG-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-002（四句破法——'无宗无过'原则是自噬的论证形态：不立宗则无可被驳）
+  ::notice::LEGACY M-NAG-008|D6|related_modes=M01 | [M-NAG-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M01（董仲舒·天人感应法——反向对照：董仲舒把体系锚定在不可质疑的'天'上，龙树拆除一切锚点包括自己的——两种体系自稳策略（锚定 vs 自噬）的经典对照）
+  ::notice::LEGACY M-NAG-008|D6|related_modes=M-WZT-010 | [M-NAG-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WZT-010（武则天·无字碑留白法——反向对照：武则天以无字碑拒绝为自己撰写定论、把解释权交给后世，龙树以自噬拆除一切锚点——两种'不为自己立言'的收束策略）
+  ::notice::LEGACY M-NAG-009|D6|related_modes=M-NAG-001 | [M-NAG-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（缘起归空法——戏论止息是空的认知治疗面：看出依起即不再切片）
+  ::notice::LEGACY M-NAG-009|D6|related_modes=M-NAG-008 | [M-NAG-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-008（空亦复空法——自噬与止息是同一装置的两面：概念用毕即弃，增殖失去燃料）
+  ::notice::LEGACY M-NAG-009|D6|related_modes=M-ST-001 | [M-NAG-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-ST-001（石涛·一画法——跨域对照：石涛'一画'在概念增殖前立万法之根，与'戏论息处见实相'共享'回到概念之前的浑全'的追求）
+  ::notice::LEGACY M-NAG-009|D6|related_modes=M-SEJ-001 | [M-NAG-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SEJ-001（圣捷尔吉·直觉突破法——远缘对照：圣捷尔吉主张搁置语言分析让直觉接触'未分割的实在'，与'心行言语断'共享'概念切割即失真'的直觉）
+  ::notice::LEGACY M-NAG-010|D6|related_modes=M-NAG-002 | [M-NAG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-002（四句破法——'无宗无过'使感恩收束成为体系必然：不能立宗者亦不能立'龙树教'）
+  ::notice::LEGACY M-NAG-010|D6|related_modes=M-NAG-008 | [M-NAG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-008（空亦复空法——收尾双装置的另一具：自噬拆权威，感恩归还权威）
+  ::notice::LEGACY M-NAG-010|D6|related_modes=M-SHA-010 | [M-NAG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-010（商羯罗·生解收束法——近缘对照：同为创始人以身体力行收束体系，商羯罗四道场制度先行、龙树传承网络去中心化——制度化与网络化两种'不系于一人'）
+  ::notice::LEGACY M-NAG-010|D6|related_modes=M-JEF-001 | [M-NAG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-JEF-001（杰斐逊·制度自生成法——跨域对照：杰斐逊以成文宪法为共和国设计'不依赖本人'的机制，龙树以归敬与传承设计同样的机制——政治与宗教的平行收束工艺）
+  ::notice::LEGACY M-PAD-001|D6|related_modes=M-PAD-002 | [M-PAD-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-002（顺缘调伏法——伏藏的'授记'是调伏逻辑在时间维度的延伸：对未来的受众也须按其根器设计沟通方式）
+  ::notice::LEGACY M-PAD-001|D6|related_modes=M-PAD-005 | [M-PAD-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-005（忿怒镇守法——镇守是空间的封存（镇住此地的能量），伏藏是时间的封存（封存给未来）——两者共享'把法置于场所中'的直觉）
+  ::notice::LEGACY M-PAD-001|D6|related_modes=M-PAD-009 | [M-PAD-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-009（预记收束法——离开西藏时的预记是最后一次'伏藏'：把整个教法的未来一次封存进预言中）
+  ::notice::LEGACY M-PAD-001|D6|related_modes=M-NAG-001 | [M-PAD-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-001（龙树·缘起归空法——对照：龙树把'空'也交还给依起、防其被实体化，莲花生把'传承'也交还给时间与土壤、防其被系于一人——两者都拒绝让核心成果依附于不可靠的载体）
+  ::notice::LEGACY M-PAD-001|D6|related_modes=M01 | [M-PAD-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M01（董仲舒·天人感应法——反向对照：董仲舒把体系合法性锚定在天意上、由当代权力保证，莲花生把体系延续性交给未来接受者的自证——锚定于当权与锚定于后世是两种相反的合法性策略）
+  ::notice::LEGACY M-PAD-002|D6|related_modes=M-PAD-001 | [M-PAD-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-001（伏藏封存法——同一传承设计的两个维度：调伏面向当下受众、伏藏面向未来受众——'按根器适配'的共通原则）
+  ::notice::LEGACY M-PAD-002|D6|related_modes=M-PAD-004 | [M-PAD-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-004（双轨并立法——显密双轨是调伏分层的制度化：不同根器走不同轨道而共享同一寺院）
+  ::notice::LEGACY M-PAD-002|D6|related_modes=M-PAD-006 | [M-PAD-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-006（灌顶授权法——灌顶是调伏的准入仪式：先诊断根器再决定给什么钥匙）
+  ::notice::LEGACY M-PAD-002|D6|related_modes=M-SHA-003 | [M-PAD-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-003（商羯罗·幻相层级法——对照：商羯罗把对方的常识降格为'幻'以保留唯一真理，莲花生把对方的神灵升格为护法以保留情感基座——一个做减法一个做加法）
+  ::notice::LEGACY M-PAD-002|D6|related_modes=M-ZZ-002 | [M-PAD-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-ZZ-002（张载·变化气质法——远缘对照：张载认为气质可变而教化可成，莲花生认为根器可测而说法可变——教化与适配是改造受众的两种方向）
+  ::notice::LEGACY M-PAD-003|D6|related_modes=M-PAD-006 | [M-PAD-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-006（灌顶授权法——本尊认同的前提制度：灌顶给认同练习发'许可证'并设定边界，无灌顶的认同即失去受控性）
+  ::notice::LEGACY M-PAD-003|D6|related_modes=M-PAD-007 | [M-PAD-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-007（中阴导引法——本尊认同法在极限情境的应用：死亡是最强的'角色退出'，中阴导引教人带着认同练习的成果通过它）
+  ::notice::LEGACY M-PAD-003|D6|related_modes=M-PAD-008 | [M-PAD-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-008（大圆满直指法——圆满次第的终点：认同物连同观想消融后，直指剩下的那个本然觉性——先建后拆的完整闭环）
+  ::notice::LEGACY M-PAD-003|D6|related_modes=M-SHA-004 | [M-PAD-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-004（商羯罗·立敌对论法——对照：商羯罗以论辩拆他方立场，莲花生以认同立自方状态——外部批判与内部生成的对照路径）
+  ::notice::LEGACY M-PAD-003|D6|related_modes=M-ATK-003 | [M-PAD-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-ATK-003（阿奎那·类比论证法——远缘对照：阿奎那用'类比'谈论不可言说者，本尊瑜伽用'拟人化'习得不可直述的心智状态——都是对语言局限的工程学回应）
+  ::notice::LEGACY M-PAD-004|D6|related_modes=M-PAD-002 | [M-PAD-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-002（顺缘调伏法——双轨是调伏分层的制度化版本：显密两轨即按根器分层的两个稳定容器）
+  ::notice::LEGACY M-PAD-004|D6|related_modes=M-PAD-006 | [M-PAD-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-006（灌顶授权法——双轨之间的'晋升门槛'即灌顶：从显入密的资格授予仪式）
+  ::notice::LEGACY M-PAD-004|D6|related_modes=M-PAD-005 | [M-PAD-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-005（忿怒镇守法——密续一轨的特色动作：双轨中'顶层'轨以直接体验与威猛方便为特征）
+  ::notice::LEGACY M-PAD-004|D6|related_modes=M-NAG-004 | [M-PAD-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-004（龙树·二谛分层法——同构对照：二谛是认知层的双层架构，显密双轨是制度层的双层架构——都以'分层'化解'哪个对'的裁决冲动）
+  ::notice::LEGACY M-PAD-004|D6|related_modes=M-MDL-001 | [M-PAD-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MDL-001（门捷列夫·周期表预漏法——远缘对照：门捷列夫为未知元素留空位，桑耶为不同根器留轨道——都拒绝用单一结构装下全部现实）
+  ::notice::LEGACY M-PAD-005|D6|related_modes=M-PAD-002 | [M-PAD-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-002（顺缘调伏法——同一收编逻辑的柔性与刚性两型：调伏以适配收编、镇伏以威慑收编——共享'给对方新岗位'的落点）
+  ::notice::LEGACY M-PAD-005|D6|related_modes=M-PAD-004 | [M-PAD-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-004（双轨并立法——被镇伏的苯教元素最终在双轨体系中获得制度位置：镇伏是收编的第一步，双轨是收编的稳定形态）
+  ::notice::LEGACY M-PAD-005|D6|related_modes=M-PAD-003 | [M-PAD-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-003（本尊相应法——忿怒相也是本尊：威慑形态先在受控观修中习得，再用于对外——'先内修后外用'的次序）
+  ::notice::LEGACY M-PAD-005|D6|related_modes=M-WZT-010 | [M-PAD-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WZT-010（武则天·无字碑留白法——反向对照：武则天以留白化解敌意叙事，莲花生以收编消化敌意力量——一个取消战场、一个接管战场）
+  ::notice::LEGACY M-PAD-005|D6|related_modes=M-LOC-001 | [M-PAD-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-LOC-001（洛克·容忍边界法——对照：洛克把破坏性分歧圈在容忍边界外不管，莲花生把破坏性力量收编进体系内用——隔离与接管是两种和平策略）
+  ::notice::LEGACY M-PAD-006|D6|related_modes=M-PAD-003 | [M-PAD-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-003（本尊相应法——灌顶授权的对象正是认同练习：没有边界设定的认同是心理危险品，灌顶是它的安全带）
+  ::notice::LEGACY M-PAD-006|D6|related_modes=M-PAD-004 | [M-PAD-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-004（双轨并立法——灌顶是显密双轨之间的晋升门槛：双轨制度的安全阀）
+  ::notice::LEGACY M-PAD-006|D6|related_modes=M-PAD-007 | [M-PAD-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-007（中阴导引法——中阴导引本身是'词义灌顶'层级的知识：最深的导引只授予完成全部层级者）
+  ::notice::LEGACY M-PAD-006|D6|related_modes=M-AQU-001 | [M-PAD-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AQU-001（阿奎那·信仰与理性分层法——远缘对照：阿奎那给教义分'理性可证/须启示'两层并各配方法，灌顶给密法分四级并各配许可——都以分层管理知识的危险度）
+  ::notice::LEGACY M-PAD-006|D6|related_modes=M-HAY-001 | [M-PAD-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HAY-001（哈耶克·自发秩序法——反向对照：哈耶克警惕一切人为门禁对扩散的阻碍，灌顶制度相信无门禁的扩散必致灾难——知识扩散的放任与门禁之争）
+  ::notice::LEGACY M-PAD-007|D6|related_modes=M-PAD-001 | [M-PAD-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-001（伏藏封存法——中阴导引正是伏藏体系的旗舰产出：为'未来的每个人'预写的导引，由伏藏师在四百年后掘出）
+  ::notice::LEGACY M-PAD-007|D6|related_modes=M-PAD-003 | [M-PAD-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-003（本尊相应法——中阴导引的'认出本尊'环节以本尊认同的日常训练为前提：生前未练，死后认不出）
+  ::notice::LEGACY M-PAD-007|D6|related_modes=M-PAD-006 | [M-PAD-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-006（灌顶授权法——中阴导引属于最高层级授权的知识：它的效力依赖当事人对导引者的预先信任授权）
+  ::notice::LEGACY M-PAD-007|D6|related_modes=M-SHA-006 | [M-PAD-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-006（商羯罗·亲证检验法——对照：商羯罗要求亲证作为真理标准，中阴导引要求生前预演作为死亡通行证——都拒绝把关键检验推迟到无法补考的时刻）
+  ::notice::LEGACY M-PAD-007|D6|related_modes=M-ST-001 | [M-PAD-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-ST-001（斯多亚·消极想象法——同构对照：斯多亚人每天预演失去（premeditatio malorum）以消解恐惧，中阴导引把预演推向极限情境——预告未知是共同的解恐惧机制）
+  ::notice::LEGACY M-PAD-008|D6|related_modes=M-PAD-003 | [M-PAD-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-003（本尊相应法——生起次第的'造'与直指的'认'构成大圆满的前后两翼：先在想象中生成本尊，最终认出观者本身不需生成）
+  ::notice::LEGACY M-PAD-008|D6|related_modes=M-PAD-007 | [M-PAD-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-007（中阴导引法——中阴导引的'认出光明即自心'正是直指法的临终应用：生前认得熟，死后才认得出）
+  ::notice::LEGACY M-PAD-008|D6|related_modes=M-PAD-006 | [M-PAD-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-006（灌顶授权法——直指是最高层级的'词义灌顶'内容：最直接的教导配最重的门槛与誓言）
+  ::notice::LEGACY M-PAD-008|D6|related_modes=M-SHA-001 | [M-PAD-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-001（商羯罗·不二还原法——深层对照：商羯罗的'你即梵'（tat tvam asi）与大圆满直指结构同源——都是'终极认识是被指出的而非修成的'；分野在于商羯罗以经典为权威源头，大圆满以师者的当下直指为源头）
+  ::notice::LEGACY M-PAD-008|D6|related_modes=M-ZZ-001 | [M-PAD-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-ZZ-001（张载·大心体物法——远缘对照：张载'大其心则能体天下之物'以扩展心量达于万物一体，大圆满以认出本具觉性达于显空不二——两个'心本来够大'的传统）
+  ::notice::LEGACY M-PAD-009|D6|related_modes=M-PAD-001 | [M-PAD-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-001（伏藏封存法——预记与伏藏是一体两面：伏藏封存'物'、预记封存'期待'——时间分层传承的完整设计）
+  ::notice::LEGACY M-PAD-009|D6|related_modes=M-PAD-010 | [M-PAD-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-010（感恩托付法——离场的两种书写：预记写风险、托付写感恩——战略文档与情感文档的分工）
+  ::notice::LEGACY M-PAD-009|D6|related_modes=M-PAD-004 | [M-PAD-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-004（双轨并立法——预记中的继任画像保护的是双轨体系的延续：门禁制度若无预记背书，权威断裂即体系断裂）
+  ::notice::LEGACY M-PAD-009|D6|related_modes=M-NAG-010 | [M-PAD-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-010（龙树·感恩收束法——对照：龙树以'我稽首礼佛'把权威归还源头、以传承链收束，莲花生以预记把权威投向未来——向后归源与向前投递是收束的两个方向）
+  ::notice::LEGACY M-PAD-009|D6|related_modes=M-BORG-003 | [M-PAD-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-BORG-003（博尔赫斯·重写即读法——远缘对照：博尔赫斯让'重写'成为文本生命的方式，预记让'应验'成为体系生命的方式——都以'未来的重新解读'为文本的续命机制）
+  ::notice::LEGACY M-PAD-010|D6|related_modes=M-PAD-009 | [M-PAD-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-009（预记收束法——离场书写的两半：预记向未来投递风险与期待、托付向后人移交身份与义务——战略与法律文书的分工）
+  ::notice::LEGACY M-PAD-010|D6|related_modes=M-PAD-001 | [M-PAD-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-001（伏藏封存法——'藏非我有，乃待后人'正是伏藏制度的情感语法：封存的技术动作以托付的伦理动作为前提）
+  ::notice::LEGACY M-PAD-010|D6|related_modes=M-PAD-002 | [M-PAD-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-002（顺缘调伏法——感恩归源是调伏的最终形态：连'成就归属'也按受众的需要分配——给传承以荣誉、给后人以主动、给众生以回向）
+  ::notice::LEGACY M-PAD-010|D6|related_modes=M-NAG-010 | [M-PAD-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-010（龙树·感恩收束法——深层同构：龙树'我稽首礼佛'与莲师'法非我造'共享'归源防神化'的收束结构——两位体系缔造者都以自贬完成自稳）
+  ::notice::LEGACY M-PAD-010|D6|related_modes=M-JEF-001 | [M-PAD-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-JEF-001（杰斐逊·代际让渡法——对照：杰斐逊以'地球属于活人'拒绝死者统治、每代重订宪法，莲花生以托付契约让每代行使者负有再传义务——都以'代际契约'替代单向继承）
+  ::notice::LEGACY M-AUR-001|D6|related_modes=M-AUR-003 | [M-AUR-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-003（三重转化分程法——双程阶梯的工程化：把'向超心智涌现'拆成可执行的次第）
+  ::notice::LEGACY M-AUR-001|D6|related_modes=M-AUR-002 | [M-AUR-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-002（过渡存在定位法——双程法在'人'这个对象上的专门应用）
+  ::notice::LEGACY M-AUR-001|D6|related_modes=M-HEG-001 | [M-AUR-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HEG-001（黑格尔·辩证扬弃三段法——最强平行：同以阶段化过程讲意识攀升与收束；分岔在归宿——绝对知识收束于终点回望，双程法开放于持续前降）
+  ::notice::LEGACY M-AUR-001|D6|related_modes=M-DAR-002 | [M-AUR-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DAR-002（达尔文·均匀主义时间移植法——反向对照：达尔文把演化解释为无方向机制的时间累积，奥罗宾多把方向与机制分层——演化的'何以有方向'由此得到安置）
+  ::notice::LEGACY M-AUR-002|D6|related_modes=M-AUR-001 | [M-AUR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-001（内卷演化双程法——过渡定位的本论根据：是双程阶梯使'中间站'有真实结构位置）
+  ::notice::LEGACY M-AUR-002|D6|related_modes=M-AUR-003 | [M-AUR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-003（三重转化分程法——定位出'下一站'之后的具体路径工艺）
+  ::notice::LEGACY M-AUR-002|D6|related_modes=M-KD-001 | [M-AUR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-KD-001（康德·批判转折法（哥白尼式革命）——反向对照：康德把人的理性越界判为不可解决的界限，奥罗宾多把'心智的界限'判为可被下一层涌现超越的中间站——'界限是终点还是过渡'的分岔）
+  ::notice::LEGACY M-AUR-002|D6|related_modes=M-HEG-001 | [M-AUR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HEG-001（黑格尔·辩证扬弃三段法——近缘对照：黑格尔的过程终结于绝对知识的自我完成，'过渡'最终到达终点；奥罗宾多的过程开放于尚未降临的下一层——有终点与无终点的过程哲学之分）
+  ::notice::LEGACY M-AUR-003|D6|related_modes=M-AUR-001 | [M-AUR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-001（内卷演化双程法——分程的路线图来自双程阶梯：'下一层'由演化结构给定）
+  ::notice::LEGACY M-AUR-003|D6|related_modes=M-AUR-005 | [M-AUR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-005（降入检验法——第三程的完成判据正是降入：高而不降不算过）
+  ::notice::LEGACY M-AUR-003|D6|related_modes=M-WJM-004 | [M-AUR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WJM-004（威廉·詹姆斯·实用主义兑现检验法——远缘对照：詹姆斯以兑现价值检验观念并坚持多元反等级，奥罗宾多给出严格的层级图谱与次第——'多元并置'与'层级分程'的两种意识处理）
+  ::notice::LEGACY M-AUR-003|D6|related_modes=M-CC-021 | [M-AUR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-021（朱熹与阿奎那对照组·格物穷理渐进法——跨域对照：以渐进积累通达超越性真理、为顿悟立法次第，与三重转化的分程工艺同构——两种'渐修至顿'的工程学）
+  ::notice::LEGACY M-AUR-004|D6|related_modes=M-AUR-003 | [M-AUR-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-003（三重转化分程法——统摄给出'哪些要兼修'，分程给出'按什么次序'）
+  ::notice::LEGACY M-AUR-004|D6|related_modes=M-AUR-009 | [M-AUR-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-009（对话综合法——统摄在'文本与思想交锋'层面的操作）
+  ::notice::LEGACY M-AUR-004|D6|related_modes=M-HEG-001 | [M-AUR-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HEG-001（黑格尔·辩证扬弃三段法——近缘对照：黑格尔的对立统一也升层保全双方（Aufhebung），但黑格尔的升层由矛盾逻辑驱动、终点固定；奥罗宾多的升层由'整体全景'驱动、结构开放——两种综合的引擎）
+  ::notice::LEGACY M-AUR-004|D6|related_modes=M-JBS-006 | [M-AUR-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-JBS-006（凯恩斯·多方案综合法——跨域对照：凯恩斯综合货币与财政两套政策工具，奥罗宾多综合四道修行——同为'拒绝在既有选项里选边'的工程，一在政策一在修行）
+  ::notice::LEGACY M-AUR-005|D6|related_modes=M-AUR-003 | [M-AUR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-003（三重转化分程法——降入是第三程的完成判据：分程为降入安排了位置与时间）
+  ::notice::LEGACY M-AUR-005|D6|related_modes=M-AUR-004 | [M-AUR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-004（整体统摄法——'身体为整体的最后阵地'是统摄结构中给降入的立法席位）
+  ::notice::LEGACY M-AUR-005|D6|related_modes=M-DAR-005 | [M-AUR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DAR-005（达尔文·复杂器官渐变消难法——跨域对照：达尔文以渐变消难把复杂结构落实为可执行过程，奥罗宾多以三重转化把不可企及目标落实为次第工艺——两种'化不可能为过程'的工程）
+  ::notice::LEGACY M-AUR-005|D6|related_modes=M-WZT-001 | [M-AUR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WZT-001（武则天·制度杠杆法——反向对照：武则天以制度改写人才的稠密层，奥罗宾多以意识改写身体的稠密层——制度降入与意识降入的两种稠密层工程）
+  ::notice::LEGACY M-AUR-006|D6|related_modes=M-AUR-003 | [M-AUR-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-003（三重转化分程法——转化就是沿此图的定向迁移，分程是地图上的导航规程）
+  ::notice::LEGACY M-AUR-006|D6|related_modes=M-AUR-001 | [M-AUR-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-001（内卷演化双程法——层级地图是双程阶梯的细化刻度）
+  ::notice::LEGACY M-AUR-006|D6|related_modes=M-WJM-004 | [M-AUR-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WJM-004（威廉·詹姆斯·实用主义兑现检验法——近缘对照：詹姆斯以兑现价值检验且坚持多元反等级，奥罗宾多给出严格层级与方向——'多元'与'层级'两种意识分类学）
+  ::notice::LEGACY M-AUR-006|D6|related_modes=M-KD-001 | [M-AUR-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-KD-001（康德·批判转折法（哥白尼式革命）——反向对照：康德以理性边界封顶认识，奥罗宾多以层级地图开路——'封顶'与'升层'对'不可解'的相反处置）
+  ::notice::LEGACY M-AUR-007|D6|related_modes=M-AUR-010 | [M-AUR-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-010（人类统一收束法——伏藏的最终去向：一切事业收束于整体建制，个体转身是收束链条的一环）
+  ::notice::LEGACY M-AUR-007|D6|related_modes=M-AUR-005 | [M-AUR-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-005（降入检验法——封存交托的有效性也要过降入检验：被交托对象是否真的续存）
+  ::notice::LEGACY M-AUR-007|D6|related_modes=M-WZT-010 | [M-AUR-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WZT-010（武则天·无字碑留白法——近缘对照：武则天以无字碑把身后解释权交托后世，奥罗宾多以封存把事业交托大势——两种'不以自身在场为条件'的收束）
+  ::notice::LEGACY M-AUR-007|D6|related_modes=M-LKY-006 | [M-AUR-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-LKY-006（李光耀·绝对条件坦白法——反向对照：李光耀以坦白残酷条件作为治理基础且始终在场，奥罗宾多以静默作用与判据化例外退场而为——在场直言与退场静默的两种作用）
+  ::notice::LEGACY M-AUR-008|D6|related_modes=M-AUR-007 | [M-AUR-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-007（行动瑜伽伏藏法——同一'退出'工艺的两半：伏藏管旧事业，静默权变管退出后的作用）
+  ::notice::LEGACY M-AUR-008|D6|related_modes=M-WZT-010 | [M-AUR-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WZT-010（武则天·无字碑留白法——近缘对照：武则天以碑之空白拒绝对身后发言，奥罗宾多以判据化例外保留发言权——'永久留白'与'按需发声'的两种收束）
+  ::notice::LEGACY M-AUR-008|D6|related_modes=M-LKY-006 | [M-AUR-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-LKY-006（李光耀·绝对条件坦白法——反向对照：李光耀以在场直言把条件讲透，奥罗宾多以静默与判据化发声管理同一影响力——直言在场与静默退场的对照）
+  ::notice::LEGACY M-AUR-008|D6|related_modes=M-AQU-006 | [M-AUR-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AQU-006（阿奎那·类比言说控制法——远缘对照：阿奎那为不可言者立言说纪律（控制类比与沉默），奥罗宾多以静默为常态、判据化发声为例外——两种言与默的纪律）
+  ::notice::LEGACY M-AUR-009|D6|related_modes=M-AUR-004 | [M-AUR-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-004（整体统摄法——对话综合是统摄在文本操作层面的执行工艺）
+  ::notice::LEGACY M-AUR-009|D6|related_modes=M-SHA-004 | [M-AUR-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-004（商羯罗·立敌对论法——最强对照：商羯罗立最强敌论以显自宗、回应也是显宗手段，奥罗宾多的回应同时是吸收与建构——'显宗'与'建构'两种回应取向）
+  ::notice::LEGACY M-AUR-009|D6|related_modes=M-HEG-001 | [M-AUR-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HEG-001（黑格尔·辩证扬弃三段法——近缘对照：黑格尔同样以哲学史为自身结构的承重构件（体系的每一次升层都消化一个传统），但消化机制是矛盾逻辑；奥罗宾多的机制是面向吸收——两种'以对话建楼'）
+  ::notice::LEGACY M-AUR-009|D6|related_modes=M-CC-021 | [M-AUR-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-021（朱熹与阿奎那对照组·格物穷理渐进法——跨域对照：同为以累积性工作通达整体真理的建构，格物穷理以注疏渐进，对话综合以论敌回应渐进——两种'渐进建楼'）
+  ::notice::LEGACY M-AUR-010|D6|related_modes=M-AUR-007 | [M-AUR-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-007（行动瑜伽伏藏法——退出三部曲之一：收束承接伏藏交托出的旧事业）
+  ::notice::LEGACY M-AUR-010|D6|related_modes=M-AUR-008 | [M-AUR-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-008（静默权变法——退出三部曲之二：收束建制承接静默影响的通道）
+  ::notice::LEGACY M-AUR-010|D6|related_modes=M-NAG-010 | [M-AUR-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NAG-010（龙树·感恩收束法——强平行：同以'体系不系于一人'为收束立法，龙树以传承网络、奥罗宾多以去个人化建制——两种'体系脱离创始人'的工艺）
+  ::notice::LEGACY M-AUR-010|D6|related_modes=M-JEF-001 | [M-AUR-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-JEF-001（杰斐逊·底层公理先行法——跨域对照：杰斐逊以成文宪法使共和国脱离本人，奥罗宾多以宪章与实验城使精神事业脱离本人——政治与灵性的平行收束工程）
+  ::notice::LEGACY M-MAI-001|D6|related_modes=M-MAI-002 | [M-MAI-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-002（信条析出法——归拢在信仰领域的专门应用：归拢的对象从'律法'换成'必须相信什么'）
+  ::notice::LEGACY M-MAI-001|D6|related_modes=M-MAI-010 | [M-MAI-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-010（典范收束法——归拢的收束动作：体系化最终要在一个可模仿的完整人格上落地）
+  ::notice::LEGACY M-MAI-001|D6|related_modes=M-EUC-001 | [M-MAI-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-EUC-001（欧几里得·公理化演绎法——近缘对照：同以封闭体系呈现知识，欧几里得自公理演绎而得出，迈蒙尼德自辩论裁决而收拢——'演绎的封闭'与'归拢的封闭'之分）
+  ::notice::LEGACY M-MAI-001|D6|related_modes=M10 | [M-MAI-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M10（董仲舒·原心定罪法——反向对照：董仲舒以经义补充律法空缺、保持经与法的张力，迈蒙尼德把裁决本身法典化、消除裁决者的临场性——'留张力'与'收张力'的归拢分岔）
+  ::notice::LEGACY M-MAI-002|D6|related_modes=M-MAI-001 | [M-MAI-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（公理化归拢法——信条析出是归拢在信仰领域的专门应用：同样的四步，对象换成'必须相信'）
+  ::notice::LEGACY M-MAI-002|D6|related_modes=M-MAI-008 | [M-MAI-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-008（书信裁决法——信条清单在流散裁决中的实战运用：以信条框架诊断动摇的社群）
+  ::notice::LEGACY M-MAI-002|D6|related_modes=M-AUG-001 | [M-MAI-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUG-001（奥古斯丁·信理辩护法——近缘对照：同为信仰的教义化工程，奥古斯丁面向异教攻击写辩护整体，迈蒙尼德面向共同体内部立最低清单——'辩护全景'与'共识清单'之分）
+  ::notice::LEGACY M-MAI-002|D6|related_modes=M-KD-002 | [M-MAI-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-KD-002（康德·二律背反剖判法——反向对照：康德把'理性不可裁决的争端'划为悬置，迈蒙尼德把'共同体不可失去的争端'划为核心——同为边界划定，一为认识论一为存续论）
+  ::notice::LEGACY M-MAI-003|D6|related_modes=M-MAI-004 | [M-MAI-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-004（寓言解码法——否定法的姊妹方法：凡与理性冲突的字面肯定，不是读寓言就是读否定，两者共同构成宗教语言的完整规程）
+  ::notice::LEGACY M-MAI-003|D6|related_modes=M-MAI-001 | [M-MAI-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（公理化归拢法——否定法的边界工作：归拢划定'可说区域'的内部结构，否定法守卫区域之外的不可言说者）
+  ::notice::LEGACY M-MAI-003|D6|related_modes=M-SHA-005 | [M-MAI-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SHA-005（商羯罗·遮诠显真法——最强平行：同以否定为通往绝对的认识路径；分岔在否定之后——商羯罗允许亲证把握梵，迈蒙尼德的上帝在否定尽头仍不可被把握）
+  ::notice::LEGACY M-MAI-003|D6|related_modes=M-AQU-006 | [M-MAI-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AQU-006（阿奎那·类比言说控制法——直接传承：阿奎那吸收其否定属性学说，但为肯定类比（analogia entis）留出更大空间，把'靠近而不指认'改写为'类比而知'）
+  ::notice::LEGACY M-MAI-004|D6|related_modes=M-MAI-003 | [M-MAI-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-003（否定的属性法——姊妹方法：凡与理性冲突的字面肯定，不是读寓言就是读否定，两者共同构成宗教语言的完整规程）
+  ::notice::LEGACY M-MAI-004|D6|related_modes=M-MAI-001 | [M-MAI-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（公理化归拢法——解码的母方法：法典化消除解释权的临场性，寓言解码则处理法典化无法覆盖的圣典文本）
+  ::notice::LEGACY M-MAI-004|D6|related_modes=M-AUG-003 | [M-MAI-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUG-003（奥古斯丁·寓意读经法——先例对照：同以寓调和圣典与真理，但奥古斯丁以'爱'为解码总钥匙，迈蒙尼德以理性证明为闸门——'爱的解释学'与'理性的解释学'之分）
+  ::notice::LEGACY M-MAI-004|D6|related_modes=M-KD-003 | [M-MAI-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-KD-003（康德·表象划界法——反向对照：康德把冲突划到认识论边界之外（现象与物自体），迈蒙尼德在文本内部以优先级裁决冲突——'边界外移'与'文内裁决'之分）
+  ::notice::LEGACY M-MAI-005|D6|related_modes=M-MAI-001 | [M-MAI-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（公理化归拢法——中道说的母方法：希腊伦理学被归拢为法典条款，正是归拢法跨文明吸收的示范）
+  ::notice::LEGACY M-MAI-005|D6|related_modes=M-MAI-010 | [M-MAI-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-010（典范收束法——中道的收束对象：性情几何学最终服务于'可模仿的完整人格'的塑成）
+  ::notice::LEGACY M-MAI-005|D6|related_modes=M-AQU-003 | [M-MAI-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AQU-003（阿奎那·德性中道法——直接传承：阿奎那把亚里士多德中道说经基督教神学化，与迈蒙尼德的律法化构成两条平行的中道建制）
+  ::notice::LEGACY M-MAI-005|D6|related_modes=M-EUC-001 | [M-MAI-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-EUC-001（欧几里得·公理化奠基法——源头方法：坐标模型与'行为判据'的体系化原型，迈蒙尼德为其加装训练路径与例外条款）
+  ::notice::LEGACY M-MAI-006|D6|related_modes=M-MAI-004 | [M-MAI-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-004（寓言解码法——分程法在文本层的执行工具：冲突的第一步'重读'由解码规程完成）
+  ::notice::LEGACY M-MAI-006|D6|related_modes=M-MAI-003 | [M-MAI-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-003（否定的属性法——分程法的认识论地基：肯定言说的降格规则使'存在层的最顶端'必须交给否定纪律）
+  ::notice::LEGACY M-MAI-006|D6|related_modes=M-AQU-003 | [M-MAI-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AQU-003（阿奎那·双重真理分账法——直接传承与改写：阿奎那吸收分程架构，把'协调不成'的归档改写为'分账调和'的积极工程）
+  ::notice::LEGACY M-MAI-006|D6|related_modes=M-IBR-001 | [M-MAI-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-IBR-001（伊本·鲁世德·真理不相冲突法——同时代对照：同以'分域'处理哲学与启示的张力，但伊本·鲁世德的寓言化倾向更宽、分域更松，迈蒙尼德的闸门更紧）
+  ::notice::LEGACY M-MAI-007|D6|related_modes=M-MAI-006 | [M-MAI-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-006（双真分程法——诊断的管辖权地基：专业义务与仪式义务的排序正是管辖权地图在生命领域的应用）
+  ::notice::LEGACY M-MAI-007|D6|related_modes=M-MAI-001 | [M-MAI-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（公理化归拢法——医学知识的同款归拢：《格言》把盖伦医学归拢为可检索的条目体系）
+  ::notice::LEGACY M-MAI-007|D6|related_modes=M-GAL-001 | [M-MAI-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GAL-001（希波克拉底·学说溯源自验法——框架来源与对照：同以古典医学框架行个体化诊疗，迈蒙尼德为其加装'情绪变量'与伦理管辖）
+  ::notice::LEGACY M-MAI-007|D6|related_modes=M-GAL-005 | [M-MAI-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GAL-005（盖伦·体液医学法——理论来源：其生理学框架被迈蒙尼德全盘继承并以法典气质重整）
+  ::notice::LEGACY M-MAI-008|D6|related_modes=M-MAI-002 | [M-MAI-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-002（信条析出法——书信裁决的弹药库：也门信的安抚工程直接调用信条框架诊断信仰动摇）
+  ::notice::LEGACY M-MAI-008|D6|related_modes=M-MAI-001 | [M-MAI-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（公理化归拢法——文书的母方法：书信裁决之所以可行，因为裁决所引的权威已被法典归拢成可检索条文）
+  ::notice::LEGACY M-MAI-008|D6|related_modes=M-CIC-002 | [M-MAI-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CIC-002（西塞罗·文书先行法——最强先例：同以文书对无法到场的政治世界行使权威，西塞罗面向元老院同侪、迈蒙尼德面向流散共同体——'共和文书'与'裁决书信'之分）
+  ::notice::LEGACY M-MAI-008|D6|related_modes=M-MAI-010 | [M-MAI-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-010（典范收束法——书信的人格效力：远程权威最终靠'写信者是谁'的可信度支撑，收束于典范人格的建制）
+  ::notice::LEGACY M-MAI-009|D6|related_modes=M-MAI-003 | [M-MAI-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-003（否定的属性法——阶梯的刻度来源：每次否定排除一个误认，为渐近提供可验证的级距）
+  ::notice::LEGACY M-MAI-009|D6|related_modes=M-MAI-005 | [M-MAI-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-005（中间道路法——阶梯的张力伙伴：中道的'稳'与渐近的'升'共享可测气质但方向相反，两法的张力由谦卑条款调和）
+  ::notice::LEGACY M-MAI-009|D6|related_modes=M-ISN-001 | [M-MAI-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-ISN-001（伊本·西那·存在本质区分法——源头对照：同以理智活动为人的完满，伊本·西那的理智论有'浮动人的孤独智性'式到达感，迈蒙尼德将其改写为面向不可言说者的永进程序）
+  ::notice::LEGACY M-MAI-009|D6|related_modes=M-AUG-002 | [M-MAI-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUG-002（奥古斯丁·上升之路法——平行对照：同为分级的上升阶梯，奥古斯丁以爱为引擎收束于直观的'一瞥'，迈蒙尼德以排除为引擎、顶点永久开放——'到达的一瞥'与'不到达的逼近'之分）
+  ::notice::LEGACY M-MAI-010|D6|related_modes=M-MAI-001 | [M-MAI-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（公理化归拢法——收束的内部结构：四域共享的归拢气质是人格互证得以成立的前提）
+  ::notice::LEGACY M-MAI-010|D6|related_modes=M-MAI-005 | [M-MAI-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-005（中间道路法——人格层的日常工艺：典范的'如何生活'正是中道坐标的终身执行）
+  ::notice::LEGACY M-MAI-010|D6|related_modes=M-AUG-001 | [M-MAI-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUG-001（奥古斯丁·信理辩护法——平行对照：同以人格为体系的支撑（奥古斯丁的《忏悔录》），但奥古斯丁的收束是'转依叙事'，迈蒙尼德的收束是'持续兼任'——'皈依收束'与'执业收束'之分）
+  ::notice::LEGACY M-MAI-010|D6|related_modes=M-CC-001 | [M-MAI-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-001（孔子·问对诘合法——跨文明平行：同为'体系收束于可模仿人格'，孔子以礼乐日常收束、迈蒙尼德以法典—医术兼任收束——两者共同示范'人格即证明'的方法族）
+  ::notice::LEGACY M-HER-001|D6|related_modes=M-HER-002 | [M-HER-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-002（演说造国法——诊断的直接下游：诊断定性为'民族问题'后，造国的工具被定为演说与纲领）
+  ::notice::LEGACY M-HER-001|D6|related_modes=M-HER-007 | [M-HER-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-007（备选领土法——诊断与方案分离的延伸：目标（政治体）与地点（哪块土地）被分层处理）
+  ::notice::LEGACY M-HER-001|D6|related_modes=M-GAN-001 | [M-HER-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GAN-001（甘地·非暴力不合作法——同时代反向对照：同面对共同体受迫害，甘地选择原地抗争改写规则，赫茨尔选择离开新建国家——'改写此地'与'另建新地'的路线分岔）
+  ::notice::LEGACY M-HER-001|D6|related_modes=M-HER-010 | [M-HER-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-010（遗愿收束法——诊断者的人格收束：预言与方案最终被收束于'我为人民立国而早死'的个人命运）
+  ::notice::LEGACY M-HER-002|D6|related_modes=M-HER-001 | [M-HER-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-001（乌托邦诊断法——纲领的上游：'民族问题'的定性使'我们'语法获得正当性）
+  ::notice::LEGACY M-HER-002|D6|related_modes=M-HER-004 | [M-HER-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-004（大会建制法——互认仪式的机构化：纲领造出的主体在常设大会中存续）
+  ::notice::LEGACY M-HER-002|D6|related_modes=M-MAI-002 | [M-HER-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-002（迈蒙尼德·信条析出法——最强平行：同以'编号/成文的最小共识'凝聚分裂的共同体，分岔在清单的对象——迈蒙尼德析出信仰、赫茨尔析出政治意志）
+  ::notice::LEGACY M-HER-002|D6|related_modes=M-AUG-001 | [M-HER-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUG-001（奥古斯丁·信理辩护法——对照：同以成文文本立共同体边界，奥古斯丁的文本是辩护全景、面向外部，赫茨尔的纲领是最小公约数、面向内部签字
+  ::notice::LEGACY M-HER-003|D6|related_modes=M-HER-002 | [M-HER-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-002（演说造国法——剧场功能与互认仪式共享同一场演出：报纸把大会放大到未到场者）
+  ::notice::LEGACY M-HER-003|D6|related_modes=M-HER-004 | [M-HER-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-004（大会建制法——报纸是大会的日常化形态：一年一次的剧场加每周一次的神经）
+  ::notice::LEGACY M-HER-003|D6|related_modes=M-FYJ-007 | [M-HER-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-FYJ-007（福泽谕吉·言论产业自养法——最强同构：同把自有刊物立为运动的中枢机构，福泽以财务独立保言论自主、赫茨尔以中枢化保运动联结——'养一份独立的报'与'以报为神经'之分）
+  ::notice::LEGACY M-HER-003|D6|related_modes=M-CIC-002 | [M-HER-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CIC-002（西塞罗·文书先行法——前现代先例：同以文书替代肉身到场治理分布式共同体，报纸之于赫茨尔如书信之于西塞罗
+  ::notice::LEGACY M-HER-004|D6|related_modes=M-HER-002 | [M-HER-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-002（演说造国法——大会是互认仪式的常设化：一次性的剧场变为年度的建制）
+  ::notice::LEGACY M-HER-004|D6|related_modes=M-HER-009 | [M-HER-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-009（贵族民主法——大会建制内的权力结构设计：议会程序与领袖决断的混合体）
+  ::notice::LEGACY M-HER-004|D6|related_modes=M-HER-005 | [M-HER-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-005（外交先行法——本模式的上位路线：宫廷直通需要可交易的内容，本模式提供该内容）
+  ::notice::LEGACY M-HER-004|D6|related_modes=M-HER-007 | [M-HER-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-007（备选领土法——建制对领土的悬置在乌干危机中被迫重启：大会程序成为处理方案分裂的唯一机器
+  ::notice::LEGACY M-HER-005|D6|related_modes=M-HER-001 | [M-HER-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-001（乌托邦诊断法——倒转次序的推论前提：既然民间路线结构性无效，唯一未试的是政治外壳路线）
+  ::notice::LEGACY M-HER-005|D6|related_modes=M-HER-006 | [M-HER-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-006（特许权交换法——对价先行的具体化：把帝国利益写成可交换的特许权菜单）
+  ::notice::LEGACY M-HER-005|D6|related_modes=M-HER-004 | [M-HER-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-004（大会建制法——外交行动的合法性来源：宫廷直通须向大会追认，防止路线变为个人冒险）
+  ::notice::LEGACY M-HER-005|D6|related_modes=M-HER-007 | [M-HER-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-007（备选领土法——外交先行的产物与内爆点：英国方案的领土性质引发纲领危机）
+  ::notice::LEGACY M-HER-006|D6|related_modes=M-HER-005 | [M-HER-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-005（外交先行法——本模式的上位路线：宫廷直通需要可交易的内容，本模式提供该内容）
+  ::notice::LEGACY M-HER-006|D6|related_modes=M-HER-001 | [M-HER-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-001（乌托邦诊断法——'民族问题'定性使方案得以绕过慈善/宗教框架直接进入大国政治市场）
+  ::notice::LEGACY M-HER-006|D6|related_modes=M-HAM-001 | [M-HER-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HAM-001（汉密尔顿·公共信用法——最强平行：同把国家目标翻译为金融工具并说服持有怀疑的权力方，分岔在筹码来源——汉密尔顿以税收与信用制造筹码、赫茨尔以迁徙与资本制造筹码）
+  ::notice::LEGACY M-HER-006|D6|related_modes=M-HER-005 | [M-HER-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-005（外交先行法——本模式的上位路线：宫廷直通需要可交易的内容，本模式提供该内容）
+  ::notice::LEGACY M-HER-007|D6|related_modes=M-HER-001 | [M-HER-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-001（乌托邦诊断法——分层的前提：定性层的表述直接继承'民族问题'的诊断语言）
+  ::notice::LEGACY M-HER-007|D6|related_modes=M-HER-004 | [M-HER-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-004（大会建制法——程序兜底的机器：地点变量的一切变更由大会消化）
+  ::notice::LEGACY M-HER-007|D6|related_modes=M-HER-005 | [M-HER-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-005（外交先行法——地点变量的来源：外交窗口（英国方案）把地点变成可选项）
+  ::notice::LEGACY M-HER-007|D6|related_modes=M-KD-002 | [M-HER-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-KD-002（康德·二律背反剖判法——方法论平行：同把一个总问题切成不可混写的两层分别裁决，分岔在层次关系——康德分层以悬置告终、赫茨尔分层最终在贝尔福宣言处合拢）
+  ::notice::LEGACY M-HER-008|D6|related_modes=M-HER-001 | [M-HER-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-001（乌托邦诊断法——取证材料直接供给诊断：迫害记录是'同化破产'判决的证据链）
+  ::notice::LEGACY M-HER-008|D6|related_modes=M-HER-006 | [M-HER-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-006（特许权交换法——'出口资产'的定价：把被迫流动人群翻译为帝国资产负债表条目）
+  ::notice::LEGACY M-HER-008|D6|related_modes=M-GAN-001 | [M-HER-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GAN-001（甘地·非暴力不合作法——最强反向对照：同以迫害为动员燃料，甘地把迫害转写为对手的道德成本与自我净化，赫茨尔把迫害转写为建模常量与出口资产——'对手的良心账'与'对手的资产负债表'之分）
+  ::notice::LEGACY M-HER-008|D6|related_modes=M-HER-005 | [M-HER-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-005（外交先行法——本模式的上位路线：宫廷直通需要可交易的内容，本模式提供该内容）
+  ::notice::LEGACY M-HER-009|D6|related_modes=M-HER-004 | [M-HER-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-004（大会建制法——民主轨的机器：授权闭环是贵族轨的合法性供给方）
+  ::notice::LEGACY M-HER-009|D6|related_modes=M-HER-005 | [M-HER-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-005（外交先行法——贵族轨的任务：宫廷直通要求的全权与保密由本模式供给正当性）
+  ::notice::LEGACY M-HER-009|D6|related_modes=M-HER-010 | [M-HER-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-010（遗愿收束法——双轨结构的终局：领袖之死暴露合法性真空，遗愿成为替代性收束）
+  ::notice::LEGACY M-HER-009|D6|related_modes=M-AUG-006 | [M-HER-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUG-006（奥古斯丁·两城对峙叙事法——弱平行：同处理'两种合法性/两个权威域'的共存，分岔在领域——奥古斯丁分天上人间、赫茨尔分宫廷与大会）
+  ::notice::LEGACY M-HER-010|D6|related_modes=M-HER-009 | [M-HER-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-009（贵族民主法——收束的触发点：双轨结构以一人转轴，死即真空，遗愿是唯一的替代装置）
+  ::notice::LEGACY M-HER-010|D6|related_modes=M-HER-002 | [M-HER-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-002（演说造国法——收束的语法来源：'完成遗愿'是'我们'语法的死后形态——被纲领称呼者继续以纲领说话）
+  ::notice::LEGACY M-HER-010|D6|related_modes=M-CC-001 | [M-HER-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-001（孔子·问对诘合法——跨文明平行：同以'解释权'为死后收束的核心资产（孔子之'述而不作'与赫茨尔之遗愿），分岔在文本形态——语录被弟子编辑、遗嘱被党派争夺）
+  ::notice::LEGACY M-HER-010|D6|related_modes=M-HER-001 | [M-HER-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-001（乌托邦诊断法——收束的闭环：'我为蓝图而死'把诊断的不可解决性转写为事业的道德优先性
+  ::notice::LEGACY M-SUL-001|D6|related_modes=M-SUL-002 | [M-SUL-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-002（米勒特叠层法——并轨法的纵向扩展：双轨之下再按教团分层自治，法系从两轨长成叠层塔）
+  ::notice::LEGACY M-SUL-001|D6|related_modes=M-SUL-010 | [M-SUL-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-010（法度人格收束法——并轨法的收束装置：'立法者'头衔把法典工程收束于苏丹人格，法的权威与人的权威互相质押）
+  ::notice::LEGACY M-SUL-001|D6|related_modes=M-MAI-001 | [M-SUL-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（迈蒙尼德·公理化归拢法——最强平行：同以法典工程收拢无序裁决海，分岔在权威来源——迈蒙尼德归拢于神启传统之内，苏莱曼在神启之旁另立一轨）
+  ::notice::LEGACY M-SUL-001|D6|related_modes=M-CAE-001 | [M-SUL-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CAE-001（查士丁尼·法典汇纂法——先例对照：同为帝国立法者，查士丁尼汇纂罗马法以接续古典权威，苏莱曼另立敕法以绕开教法垄断——'汇纂既有'与'另立新轨'之分）
+  ::notice::LEGACY M-SUL-002|D6|related_modes=M-SUL-001 | [M-SUL-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-001（律法并轨法——叠层法的母结构：先有两轨（敕法/沙里亚），再按教籍长出自治叠层）
+  ::notice::LEGACY M-SUL-002|D6|related_modes=M-SUL-003 | [M-SUL-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-003（奴官擢升法——叠层法的镜像：对异教共同体用'头人质押'间接治理，对精英人才用'bond 精英'直接纳管——一柔一刚的两手）
+  ::notice::LEGACY M-SUL-002|D6|related_modes=M-CYP-001 | [M-SUL-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CYP-001（蔡元培·兼容并包竞争共存法——跨域对照：同为多元人口的共存设计，蔡元培以思想自由竞争共存，苏莱曼以教籍叠层自治共存——"思想市场"与"教籍叠层"之分）
+  ::notice::LEGACY M-SUL-002|D6|related_modes=M-AUG-001 | [M-SUL-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUG-001（奥古斯丁·内在转向自审法——跨文明对照：同为"在多元中安顿共同体"的秩序设计，奥古斯丁以上帝之城安置信仰共同体，苏莱曼以米勒特叠层安置诸教团——"彼岸之城"与"此岸叠层"之分）
+  ::notice::LEGACY M-SUL-003|D6|related_modes=M-SUL-002 | [M-SUL-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-002（米勒特叠层法——bond 通道的对偶面：对精英用产权锁忠诚，对共同体用头人质押忠诚——两手抓的治理全图）
+  ::notice::LEGACY M-SUL-003|D6|related_modes=M-SUL-010 | [M-SUL-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-010（法度人格收束法——bond 通道的顶点风险：精英忠诚指向苏丹人身，人格收束强化这一点也放大其反噬）
+  ::notice::LEGACY M-SUL-003|D6|related_modes=M-HZX-008 | [M-SUL-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HZX-008（黄宗羲·胥吏代治批判法——反向对照：黄宗羲要求以'儒者'替代世袭胥吏，苏莱曼以'奴仆'替代世袭贵族——同为反世袭，一个诉诸学统一个诉诸人身依附）
+  ::notice::LEGACY M-SUL-003|D6|related_modes=M-CC-001 | [M-SUL-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-001（孔子·君子人格选拔法——价值对照：同为精英选拔设计，孔子以德行学问为唯一通道且拒绝人身依附，苏莱曼以依附为忠诚的抵押品）
+  ::notice::LEGACY M-SUL-004|D6|related_modes=M-SUL-003 | [M-SUL-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-003（奴官擢升法——同一治理机器的两条腿：bond 通道生产忠诚的军官，timar 通道生产自费的马匹）
+  ::notice::LEGACY M-SUL-004|D6|related_modes=M-SUL-001 | [M-SUL-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-001（律法并轨法——税册的立法化：各省 kanunname 的主体正是 timar 税则，财政法与兵役法在同一部法典里）
+  ::notice::LEGACY M-SUL-004|D6|related_modes=M-GAN-001 | [M-SUL-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-GAN-001（甘地·非暴力不合作法——反向对照：同为'战争机器的财政设计'，甘地以不合作抽干对手的财税地基，苏莱曼以封地自我供血——'断敌之血'与'自续之血'之分）
+  ::notice::LEGACY M-SUL-004|D6|related_modes=M-CC-003 | [M-SUL-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-003（孔子·反求诸己法——价值对照：同为"国家汲取"的伦理约束，孔子以轻徭薄赋养民力并要求统治者自省，苏莱曼以税流信托养战争——"民本汲取"与"战本汲取"之分）
+  ::notice::LEGACY M-SUL-005|D6|related_modes=M-SUL-004 | [M-SUL-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-004（领地计税法——转轨的对手面：陆权财税结构恰是转轨滞后的原因，海权建设在与土地税册争预算）
+  ::notice::LEGACY M-SUL-005|D6|related_modes=M-SUL-003 | [M-SUL-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-003（奴官擢升法——招安的通道化：巴巴罗萨是'外部天才入 bond 通道'的特例，其藩镇化即 bond 反噬的海上版）
+  ::notice::LEGACY M-SUL-005|D6|related_modes=M-SUL-006 | [M-SUL-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-006（哈布斯堡缓冲法——转轨的姊妹方法：地中海的代理人棋局正是降维管理在海域的执行面）
+  ::notice::LEGACY M-SUL-005|D6|related_modes=M-CAE-001 | [M-SUL-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CAE-001（恺撒·既成事实先行法——对照：同为战略转向的落地方式，恺撒以渡河的物理事实改写棋盘，苏莱曼以舰队与船坞改写战场——"单点事实"与"体系转轨"之分）
+  ::notice::LEGACY M-SUL-006|D6|related_modes=M-SUL-004 | [M-SUL-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-004（领地计税法——周期性战争的财政地基：'按预算的战争'之所以可行因战争机器自我供血）
+  ::notice::LEGACY M-SUL-006|D6|related_modes=M-SUL-005 | [M-SUL-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-005（海洋转轨法——降维管理在海域的应用：地中海的代理人棋局正是转轨战略的对哈布斯堡执行面）
+  ::notice::LEGACY M-SUL-006|D6|related_modes=M-CIC-002 | [M-SUL-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CIC-002（西塞罗·文书先行法——先例对照：同以非战场手段争取优势，西塞罗以文书把暴力逼进辩护席，苏莱曼以楔子同盟把决战翻译为对手内部的算术——"程序合法性"与"联盟算术"之分）
+  ::notice::LEGACY M-SUL-006|D6|related_modes=M-CAE-002 | [M-SUL-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CAE-002（恺撒·战地叙事法——对照：同为对外竞争的叙事经营，恺撒以第一手战报垄断解释权，苏莱曼以同盟文书把均势写成条约——"叙事垄断"与"条约楔子"之分）
+  ::notice::LEGACY M-SUL-007|D6|related_modes=M-SUL-001 | [M-SUL-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-001（律法并轨法——制度之笔的内容：kanunname 即制度账户的主体文书）
+  ::notice::LEGACY M-SUL-007|D6|related_modes=M-SUL-008 | [M-SUL-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-008（宫闱参政法——同一"非正式影响"主题的权力版：Muhibbi 之笔与 consort 通信同属文化账户的影响管道）
+  ::notice::LEGACY M-SUL-007|D6|related_modes=M-LZ-001 | [M-SUL-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-LZ-001（路易十四·凡尔赛收编法——最强平行：同以宫廷美学为权力的正当性账户，路易十四以贵族的社交囚笼收编旧贵族，苏莱曼以清真寺与情诗双笔并行——'囚笼美学'与'双笔美学'之分）
+  ::notice::LEGACY M-SUL-007|D6|related_modes=M-CC-003 | [M-SUL-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-003（孔子·礼乐教化法——跨文明平行：同为'文化即治理'，孔子以礼乐养成人格，苏莱曼以穹顶与诗养成都市的帝国感——'人格内化'与'空间铭刻'之分）
+  ::notice::LEGACY M-SUL-008|D6|related_modes=M-SUL-010 | [M-SUL-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-010（法度人格收束法——本模式的收束依赖：consort 参政的授权来自苏丹人格的信任分配，收束人格的任何折扣都直接冲击此接口）
+  ::notice::LEGACY M-SUL-008|D6|related_modes=M-SUL-007 | [M-SUL-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-007（圣哲共治法——同一'两账户'逻辑的亲密版：Muhibbi 之笔与 consort 通信同属'非正式影响的文化账户'）
+  ::notice::LEGACY M-SUL-008|D6|related_modes=M-WZT-001 | [M-SUL-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WZT-001（武则天·宫闱登顶法——最强对照：武则天以皇后身份夺取最高权位，苏莱曼以婚姻合法化把 consort 的影响制度化于帝国框架内——'以婚姻为跳板'与'以婚姻为管道'之分）
+  ::notice::LEGACY M-SUL-008|D6|related_modes=M-HER-001 | [M-SUL-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-001（赫茨尔·乌托邦诊断法——跨域对照：同以"合法身份赋予非正式力量"的设计，赫茨尔以大会授权无领土的运动，苏莱曼以婚姻授权宫廷的 consort——"运动的授权"与"宫廷的授权"之分）
+  ::notice::LEGACY M-SUL-009|D6|related_modes=M-SUL-008 | [M-SUL-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-008（宫闱参政法——本模式的另一用户：许蕾姆以 waqf 建立独立声誉，捐输法成为宫闱影响的资产化管道）
+  ::notice::LEGACY M-SUL-009|D6|related_modes=M-SUL-007 | [M-SUL-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-007（圣哲共治法——文化账户的供养机制：清真寺与学堂由 waqf 世代供养，'几何即修辞'的耐久性由圣殿捐输法担保）
+  ::notice::LEGACY M-SUL-009|D6|related_modes=M-SUL-004 | [M-SUL-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-004（领地计税法——同构对照：timar 以封地税流供养军队，waqf 以捐产租金供养公共品——同为'收益流信托化'，一养战争一养文明）
+  ::notice::LEGACY M-SUL-009|D6|related_modes=M-JEF-001 | [M-SUL-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-JEF-001（杰斐逊·底层公理先行法——对照：同为"为后代锁定制度"的设计，杰斐逊以元文本与教育锁定共和，苏莱曼以圣法锁定捐产——"文本锁定"与"神圣锁定"之分）
+  ::notice::LEGACY M-SUL-010|D6|related_modes=M-SUL-001 | [M-SUL-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-001（律法并轨法——收束的内容主体：'立法者'头衔正是 kanunname 工程的人格化结晶）
+  ::notice::LEGACY M-SUL-010|D6|related_modes=M-SUL-007 | [M-SUL-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-007（圣哲共治法——收束的文化支线：两支笔产出的全部文本共同流向同一头衔）
+  ::notice::LEGACY M-SUL-010|D6|related_modes=M-MAI-010 | [M-SUL-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-010（迈蒙尼德·典范收束法——最强平行：同以'人格即证明'收束体系，分岔在质押方向——迈蒙尼德以生活验证命题，苏莱曼以人格质押制度）
+  ::notice::LEGACY M-SUL-010|D6|related_modes=M-SUL-003 | [M-SUL-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-003（奴官擢升法——收束的暗面：bond 精英的忠诚指向收束人格，人格塌陷时通道整体反噬）
+  ::notice::LEGACY M-SPI-001|D6|related_modes=M-SPI-002 | [M-SPI-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-002（实体归一法——几何收束法的第一件作品：用公理化形式把本体论问题锁进一条归一论证）
+  ::notice::LEGACY M-SPI-001|D6|related_modes=M-EUC-001 | [M-SPI-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-EUC-001（欧几里得·公理演绎法——形式原型：几何收束法把欧几里得的证明体例从空间对象移用到形而上学与情感）
+  ::notice::LEGACY M-SPI-001|D6|related_modes=M-MAI-001 | [M-SPI-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-001（迈蒙尼德·公理化归拢法——跨传统平行：同以公理化整理最高对象，迈蒙尼德归拢神启传统，斯宾诺莎另立几何神学）
+  ::notice::LEGACY M-SPI-002|D6|related_modes=M-SPI-001 | [M-SPI-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-001（几何收束法——归一法的容器：'实体唯一'正是以几何形式写出的结论）
+  ::notice::LEGACY M-SPI-002|D6|related_modes=M-SPI-003 | [M-SPI-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-003（必然安顿法——归一法的伦理后果：万物皆样式则一切皆必然）
+  ::notice::LEGACY M-SPI-002|D6|related_modes=M-ZZ-001 | [M-SPI-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-ZZ-001（张载·太虚即气法——跨文明平行：同以唯一实体（气/神-自然）消解'有无'与'神俗'的二分）
+  ::notice::LEGACY M-SPI-003|D6|related_modes=M-SPI-002 | [M-SPI-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-002（实体归一法——本体论前提：万物皆样式则一切皆必然，自由必须重新定义）
+  ::notice::LEGACY M-SPI-003|D6|related_modes=M-SPI-004 | [M-SPI-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-004（情感几何法——方法承载体：理解中和情感的具体操作就在情感几何之内）
+  ::notice::LEGACY M-SPI-003|D6|related_modes=M-AUR-001 | [M-SPI-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-001（奥罗宾多·内卷演化双程法——对照：同以'超越视角'安顿命运，奥罗宾多许诺演化超越，斯宾诺莎只许理解与喜悦）
+  ::notice::LEGACY M-SPI-004|D6|related_modes=M-SPI-003 | [M-SPI-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-003（必然安顿法——情感几何法的伦理应用：理解如何中和被动情感）
+  ::notice::LEGACY M-SPI-004|D6|related_modes=M-SPI-005 | [M-SPI-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-005（历史语法解经法——同一自然化原则在文本领域的应用：把神圣文本当作自然对象）
+  ::notice::LEGACY M-SPI-004|D6|related_modes=M-DAR-001 | [M-SPI-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DAR-001（达尔文·自然选择法——方法平行：同把人类看似特殊领域（情感/物种）还原为可推导的自然机制）
+  ::notice::LEGACY M-SPI-005|D6|related_modes=M-SPI-001 | [M-SPI-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-001（几何收束法——同一'冷处理'精神：几何冷处理概念，语法冷处理文本）
+  ::notice::LEGACY M-SPI-005|D6|related_modes=M-SPI-006 | [M-SPI-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-006（自由政体法——政治后果：解经权收回之后，思想自由成为国家的必需）
+  ::notice::LEGACY M-SPI-005|D6|related_modes=M-HER-002 | [M-SPI-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-002（赫茨尔·演说造国法——反向对照：赫茨尔以共同体叙事造国，斯宾诺莎以历史批判拆解共同体叙事的文本基础）
+  ::notice::LEGACY M-SPI-006|D6|related_modes=M-SPI-005 | [M-SPI-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-005（历史语法解经法——政治前提：解经权从教权收回，思想自由才成为国家必需）
+  ::notice::LEGACY M-SPI-006|D6|related_modes=M-SPI-009 | [M-SPI-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-009（自足人格法——个人层面的同构：国家管辖不了头脑，任何权威也管辖不了自足者）
+  ::notice::LEGACY M-SPI-006|D6|related_modes=M-SUL-001 | [M-SPI-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-001（苏莱曼·律法并轨法——结构对照：同以'两轨分界'治理多元，苏莱曼以君主权威担保边界，斯宾诺莎以不可让渡的个体权利担保边界）
+  ::notice::LEGACY M-SPI-007|D6|related_modes=M-SPI-003 | [M-SPI-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-003（必然安顿法——同一伦理学的另一半：力量被必然秩序安顿）
+  ::notice::LEGACY M-SPI-007|D6|related_modes=M-SPI-006 | [M-SPI-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-006（自由政体法——政治应用：以真实人性为前提设计制度而非指望德性之邦）
+  ::notice::LEGACY M-SPI-007|D6|related_modes=M-HOB-001 | [M-SPI-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HOB-001（若在库：霍布斯·绝对主权法——同源分岔：同以自我保存为公理，霍布斯收束于绝对主权，斯宾诺莎收束于民主与自由；该引用为库内既有注记式惯例（见 M-LOC-003 同款引用））
+  ::notice::LEGACY M-SPI-008|D6|related_modes=M-SPI-001 | [M-SPI-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-001（几何收束法——形式装置：证明的链条正是把读者从第一层运送到第二层的交通工具）
+  ::notice::LEGACY M-SPI-008|D6|related_modes=M-SPI-003 | [M-SPI-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-003（必然安顿法——伦理终点：第三种知识生产的喜悦就是拯救本身）
+  ::notice::LEGACY M-SPI-008|D6|related_modes=M-AUR-005 | [M-SPI-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-AUR-005（奥罗宾多·降入检验法——跨传统平行：同设认知层级并以最高层为归宿，但奥罗宾多的通道是瑜伽演化，斯宾诺莎是几何理解）
+  ::notice::LEGACY M-SPI-009|D6|related_modes=M-SPI-006 | [M-SPI-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-006（自由政体法——宏观同构：个人不依附共同体如同国家不依附教权）
+  ::notice::LEGACY M-SPI-009|D6|related_modes=M-SPI-007 | [M-SPI-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-007（德性即力量法——原理基础：自足是'力量自养'的人格形态）
+  ::notice::LEGACY M-SPI-009|D6|related_modes=M-DAV-001 | [M-SPI-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DAV-001（大卫·休谟·温和怀疑法——对照：同以'理解'立身，休谟在社交中养怀疑，斯宾诺莎在独处中养体系）
+  ::notice::LEGACY M-SPI-010|D6|related_modes=M-SPI-001 | [M-SPI-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-001（几何收束法——形式起点：体系完整性的技术保障）
+  ::notice::LEGACY M-SPI-010|D6|related_modes=M-SPI-009 | [M-SPI-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-009（自足人格法——人格起点：不依附使兑现成为可能）
+  ::notice::LEGACY M-SPI-010|D6|related_modes=M-SUL-010 | [M-SPI-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SUL-010（苏莱曼·法度人格收束法——结构对照：同以人格收束体系，苏莱曼以王权与头衔收束帝国制度，斯宾诺莎以生活兑现哲学体系——权力的收束与理解的收束之分）
+  ::notice::LEGACY M-TOU-001|D6|related_modes=M-TOU-002 | [M-TOU-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-002（线索重审法——底册法的姊妹动作：条目被判无效后如何被重新读出）
+  ::notice::LEGACY M-TOU-001|D6|related_modes=M-TOU-003 | [M-TOU-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-003（条件拆解法——底册法的实验端：把条目差异翻译为条件变量）
+  ::notice::LEGACY M-TOU-001|D6|related_modes=M-SK-001 | [M-TOU-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SK-001（沈括·格物遍览法——本土先例：同以遍历式搜证与不弃异说立身，沈括以笔记格物，屠呦呦以验方格药）
+  ::notice::LEGACY M-TOU-002|D6|related_modes=M-TOU-001 | [M-TOU-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-001（验方集册法——重审的前提：条目必须在可回溯的底册上，否则'无效'即销案）
+  ::notice::LEGACY M-TOU-002|D6|related_modes=M-TOU-003 | [M-TOU-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-003（条件拆解法——重审的执行端：把文本差异翻译为受控变量）
+  ::notice::LEGACY M-TOU-002|D6|related_modes=M-WC-001 | [M-TOU-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WC-001（王充·疾虚妄问难法——对照：同为对既有结论的再审查，王充以'效验'问难虚妄，屠呦呦以条件差异复审'无效'）
+  ::notice::LEGACY M-TOU-003|D6|related_modes=M-TOU-002 | [M-TOU-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-002（线索重审法——条件拆解的信息来源：条件清单来自对失败与文本差异的逐字审读）
+  ::notice::LEGACY M-TOU-003|D6|related_modes=M-TOU-004 | [M-TOU-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-004（以身试药法——条件收敛后的下一站：把实验室条件推进到人体条件）
+  ::notice::LEGACY M-TOU-003|D6|related_modes=M-SK-001 | [M-TOU-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SK-001（沈括·格物遍览法——本土先例：同以受控遍历取代笼统断言，沈括以实验格物，屠呦呦以条件格药）
+  ::notice::LEGACY M-TOU-004|D6|related_modes=M-TOU-003 | [M-TOU-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-003（条件拆解法——试药的前提：条件收敛使提取物成分相对明确，风险可评估）
+  ::notice::LEGACY M-TOU-004|D6|related_modes=M-TOU-005 | [M-TOU-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-005（疫区闭环法——试药的出口：安全窗通过后立即进入现场验证）
+  ::notice::LEGACY M-TOU-004|D6|related_modes=M-SK-001 | [M-TOU-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SK-001（沈括·格物遍览法——库内平行：同以遍历式搜证与不弃异说的实证传统，沈括以笔记格物，屠呦呦以验方格药；该引用为库内有效码）
+  ::notice::LEGACY M-TOU-005|D6|related_modes=M-TOU-004 | [M-TOU-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-004（以身试药法——闭环的第一格：自我验证打通了通往现场的路径）
+  ::notice::LEGACY M-TOU-005|D6|related_modes=M-TOU-007 | [M-TOU-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-007（衍生代际法——闭环的化学端：现场读数是衍生物设计的直接输入）
+  ::notice::LEGACY M-TOU-005|D6|related_modes=M-CUR-009 | [M-TOU-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CUR-009（居里夫人·基础研究-应急转化法——库内对照：同以'实验室→现场'的极速转化驱动发现落地，居里夫人走向战地医疗，屠呦呦走向海南疫区）
+  ::notice::LEGACY M-TOU-006|D6|related_modes=M-TOU-001 | [M-TOU-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-001（验方集册法——归属的底册基础：可回溯的记录使贡献图谱成为可能）
+  ::notice::LEGACY M-TOU-006|D6|related_modes=M-TOU-010 | [M-TOU-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-010（一草半生收束法——归属的时间维度：五十年不换题本身就是最大的一项可核验个人贡献）
+  ::notice::LEGACY M-TOU-006|D6|related_modes=M-CC-001 | [M-TOU-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-001（孔子·君子人格选拔法——价值对照：同以'名实相符'为秩序根基，孔子以德定位，屠呦呦以记录定位）
+  ::notice::LEGACY M-TOU-007|D6|related_modes=M-TOU-005 | [M-TOU-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-005（疫区闭环法——代际的信息源：临床读数是衍生的方向盘）
+  ::notice::LEGACY M-TOU-007|D6|related_modes=M-TOU-009 | [M-TOU-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-009（新适应症拓界法——家族逻辑的终点：结构代际之外还有适应症代际）
+  ::notice::LEGACY M-TOU-007|D6|related_modes=M-DAR-001 | [M-TOU-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DAR-001（达尔文·自然选择法——机制对照：同以'变异+选择'迭代种群，达尔文交给自然，屠呦呦把选择压力握在临床读数手里）
+  ::notice::LEGACY M-TOU-008|D6|related_modes=M-TOU-007 | [M-TOU-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-007（衍生代际法——应变的弹药库：联用与衍生的家族逻辑是应变的物质基础）
+  ::notice::LEGACY M-TOU-008|D6|related_modes=M-TOU-009 | [M-TOU-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-009（新适应症拓界法——应变的外溢面：抗疟阵地受压时向新适应症拓展纵深）
+  ::notice::LEGACY M-TOU-008|D6|related_modes=M-NOB-005 | [M-TOU-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NOB-005（诺贝尔·控制变量法——库内对照：同为与'失控风险'的长周期博弈，诺贝尔以一次一个未知的纪律驯化危险，屠呦呦以机理定位+最小代价应对耐药——纪律与定位的两手）
+  ::notice::LEGACY M-TOU-009|D6|related_modes=M-TOU-007 | [M-TOU-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-007（衍生代际法——拓界的姊妹曲线：结构代际与适应症代际共成家族逻辑）
+  ::notice::LEGACY M-TOU-009|D6|related_modes=M-TOU-008 | [M-TOU-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-008（抗药应变法——拓界的战略动因：主阵地受压时向新适应症拓展战略纵深）
+  ::notice::LEGACY M-TOU-009|D6|related_modes=M-TOU-001 | [M-TOU-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-001（验方集册法——同构的底册思维：新适应症的扫描同样始于机理-病理的对位底账）
+  ::notice::LEGACY M-TOU-010|D6|related_modes=M-TOU-006 | [M-TOU-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-006（协作归属法——收束的诚实面：终身深耕不吞并集体贡献，个人坐标与集体图谱并行）
+  ::notice::LEGACY M-TOU-010|D6|related_modes=M-TOU-009 | [M-TOU-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-009（新适应症拓界法——收束不是封闭：单对象内的持续开垦）
+  ::notice::LEGACY M-TOU-010|D6|related_modes=M-SPI-010 | [M-TOU-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-010（斯宾诺莎·体系人格收束法——结构平行：同以一生收束于一个体系/对象，斯宾诺莎以生活兑现体系，屠呦呦以岁月兑现一株草）
+  ::notice::LEGACY M-MCC-001|D6|related_modes=M-MCC-002 | [M-MCC-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-002（可见标记裁决法——格物法的裁决端：对象可读之后，争议交给可见证据）
+  ::notice::LEGACY M-MCC-001|D6|related_modes=M-MCC-009 | [M-MCC-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-009（有机体同感法——格物法的认识论内核：观察者的投入本身成为方法）
+  ::notice::LEGACY M-MCC-001|D6|related_modes=M-TOU-001 | [M-MCC-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-001（屠呦呦·验方集册法——平行：同以穷尽性前置工作奠定筛选/观察的底账，屠呦呦编册，麦克林托克制图）
+  ::notice::LEGACY M-MCC-002|D6|related_modes=M-MCC-001 | [M-MCC-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-001（玉米格物法——裁决法的前提：先有可读对象，才有可见标记）
+  ::notice::LEGACY M-MCC-002|D6|related_modes=M-NEW-005 | [M-MCC-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NEW-005（牛顿·关键实验裁决法——平行：同以裁决性证据终结争论，牛顿以彗星双轨，麦克林托克以标记轨迹）
+  ::notice::LEGACY M-MCC-002|D6|related_modes=M-WC-001 | [M-MCC-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WC-001（王充·疾虚妄问难法——对照：同以'效验'裁决言论，王充以事实验虚妄，麦克林托克以切片定争论）
+  ::notice::LEGACY M-MCC-003|D6|related_modes=M-MCC-004 | [M-MCC-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-004（异常读数不弃法——发生器伦理的前提：异常必须先被认真对待才能被工具化）
+  ::notice::LEGACY M-MCC-003|D6|related_modes=M-MCC-005 | [M-MCC-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-005（双元件调控法——BFB 的最重大副产物：Ac/Ds 系统从地震废墟中走出）
+  ::notice::LEGACY M-MCC-003|D6|related_modes=M-CUR-009 | [M-MCC-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CUR-009（居里夫人·基础研究-应急转化法——平行：同把基础过程中'无用'的部分转成可用的装置）
+  ::notice::LEGACY M-MCC-004|D6|related_modes=M-MCC-003 | [M-MCC-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-003（断裂融合桥法——异常被工具化的前提是先被严肃对待）
+  ::notice::LEGACY M-MCC-004|D6|related_modes=M-MCC-008 | [M-MCC-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-008（孤证自持法——异常不弃在共同体层面的延伸：孤证时期如何自持）
+  ::notice::LEGACY M-MCC-004|D6|related_modes=M-WC-001 | [M-MCC-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-WC-001（王充·疾虚妄问难法——对照：王充以问难攻虚妄，麦克林托克以不弃护真异——一个砍假，一个护真）
+  ::notice::LEGACY M-MCC-005|D6|related_modes=M-MCC-003 | [M-MCC-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-003（断裂融合桥法——双元件的出生地：Ac/Ds 从 BFB 副产物中走出）
+  ::notice::LEGACY M-MCC-005|D6|related_modes=M-MCC-006 | [M-MCC-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-006（流动基因组法——双元件的世界观后果：基因组从静态蓝图变为动态系统）
+  ::notice::LEGACY M-MCC-005|D6|related_modes=M-NOB-005 | [M-MCC-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NOB-005（诺贝尔·控制变量法——平行：同以'一次只动一个阀门'逼近因果，诺贝尔用于化学实验，麦克林托克用于遗传元件）
+  ::notice::LEGACY M-MCC-006|D6|related_modes=M-MCC-005 | [M-MCC-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-005（双元件调控法——重述的具体装置：一对元件把静态突变重述为动态切换）
+  ::notice::LEGACY M-MCC-006|D6|related_modes=M-MCC-008 | [M-MCC-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-008（孤证自持法——重述者的共同体生存策略：三十年时滞如何度过）
+  ::notice::LEGACY M-MCC-006|D6|related_modes=M-EIN-002 | [M-MCC-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-EIN-002（爱因斯坦·公理批判概念革命法——平行：同以'重述公理'完成革命，爱因斯坦重述时空，麦克林托克重述基因组）
+  ::notice::LEGACY M-MCC-007|D6|related_modes=M-MCC-001 | [M-MCC-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-001（玉米格物法——读时的前提：籽粒与染色体先被做成可读对象）
+  ::notice::LEGACY M-MCC-007|D6|related_modes=M-MCC-005 | [M-MCC-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-005（双元件调控法——读时的产出：剂量-时点定律由斑点谱读出）
+  ::notice::LEGACY M-MCC-007|D6|related_modes=M-CUR-002 | [M-MCC-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CUR-002（居里夫人·计量精确化放大法——平行：同把定性现象转成可计量读数，居里以放射性强弱，麦克林托克以斑点大小）
+  ::notice::LEGACY M-MCC-008|D6|related_modes=M-MCC-004 | [M-MCC-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-004（异常读数不弃法——自持的认识论基础：冷置被当作待解异常而非人格攻击）
+  ::notice::LEGACY M-MCC-008|D6|related_modes=M-MCC-006 | [M-MCC-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-006（流动基因组法——自持的目的：为范式重述养大证据网）
+  ::notice::LEGACY M-MCC-008|D6|related_modes=M-SPI-010 | [M-MCC-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SPI-010（斯宾诺莎·体系人格收束法——平行：同以一生收束于一个体系，斯宾诺莎以磨镜片维持体系，麦克林托克以玉米地维持体系）
+  ::notice::LEGACY M-MCC-009|D6|related_modes=M-MCC-001 | [M-MCC-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-001（玉米格物法——同感的技术外壳：没有可读对象就没有可熟识的对象）
+  ::notice::LEGACY M-MCC-009|D6|related_modes=M-MCC-004 | [M-MCC-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-004（异常读数不弃法——同感的存在理由：只有熟识对象的观察者才认得出异常）
+  ::notice::LEGACY M-MCC-009|D6|related_modes=M-SK-001 | [M-MCC-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SK-001（沈括·广泛观察累积法——平行：同以广泛累积的观察为直觉的地基，沈括以笔记格物，麦克林托克以田地格玉米）
+  ::notice::LEGACY M-MCC-010|D6|related_modes=M-MCC-008 | [M-MCC-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-008（孤证自持法——收束的心理引擎：时间裁决权交出去之后如何自持）
+  ::notice::LEGACY M-MCC-010|D6|related_modes=M-MCC-006 | [M-MCC-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MCC-006（流动基因组法——收束的内容物：以一生养大的一次范式重述）
+  ::notice::LEGACY M-MCC-010|D6|related_modes=M-TOU-010 | [M-MCC-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-010（屠呦呦·一草半生收束法——结构平行：同以单一对象收束一生，屠呦呦以一株草五十年，麦克林托克以一片玉米地七十年）
+  ::notice::LEGACY M-NIG-001|D6|related_modes=M-NIG-002 | [M-NIG-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-002（干预对照归因法——底册法的下一步：登记完成后如何做因果归因）
+  ::notice::LEGACY M-NIG-001|D6|related_modes=M-NIG-003 | [M-NIG-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-003（图形转译法——底册读数如何变成权力能懂的图形）
+  ::notice::LEGACY M-NIG-001|D6|related_modes=M-BAC-001 | [M-NIG-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-BAC-001（培根·归纳阶梯法——同以排除与逐级上升为骨架的归纳方法论）
+  ::notice::LEGACY M-NIG-001|D6|related_modes=M-BEN-009 | [M-NIG-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-BEN-009（边沁·全景清册改革地图法——同以穷举清册为改革工具）
+  ::notice::LEGACY M-NIG-002|D6|related_modes=M-NIG-001 | [M-NIG-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-001（登记底册法——对照的前提是有底册可切）
+  ::notice::LEGACY M-NIG-002|D6|related_modes=M-NIG-004 | [M-NIG-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-004（自误自纠法——对己不利的归因结论被用于修正自己的方案）
+  ::notice::LEGACY M-NIG-002|D6|related_modes=M-CUR-003 | [M-NIG-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CUR-003（库恩系统排除归因法——同以排除竞争解释立论的因果推断）
+  ::notice::LEGACY M-NIG-003|D6|related_modes=M-NIG-001 | [M-NIG-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-001（登记底册法——图形的原料来自底册读数）
+  ::notice::LEGACY M-NIG-003|D6|related_modes=M-NIG-002 | [M-NIG-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-002（干预对照归因法——双圆对照正是归因结论的图形化）
+  ::notice::LEGACY M-NIG-003|D6|related_modes=M-NIG-004 | [M-NIG-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-004（自误自纠法——初版图形被自己推翻重制）
+  ::notice::LEGACY M-NIG-003|D6|related_modes=M-PEI-005 | [M-NIG-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PEI-005（佩里·证据说服业主法——同以'让证据自己说话'的沟通策略）
+  ::notice::LEGACY M-NIG-004|D6|related_modes=M-NIG-003 | [M-NIG-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-003（图形转译法——被自纠的对象正是转译图形）
+  ::notice::LEGACY M-NIG-004|D6|related_modes=M-NIG-002 | [M-NIG-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-002（干预对照归因法——对己不利的归因结论是同一种诚实）
+  ::notice::LEGACY M-NIG-004|D6|related_modes=M-SK-001 | [M-NIG-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SK-001（沈括·广泛观察累积法——同为以'读者/现象实际如何'校验自身判断的经验主义品格）
+  ::notice::LEGACY M-NIG-005|D6|related_modes=M-NIG-001 | [M-NIG-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-001（登记底册法——环境变量入册才可检验）
+  ::notice::LEGACY M-NIG-005|D6|related_modes=M-NIG-002 | [M-NIG-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-002（干预对照归因法——环境干预正是被归因的'干预'）
+  ::notice::LEGACY M-NIG-005|D6|related_modes=M-NIG-008 | [M-NIG-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-008（先数据后道德法——环境论的数据支撑先于道德呼吁）
+  ::notice::LEGACY M-NIG-005|D6|related_modes=M-MON-010 | [M-NIG-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MON-010（孟德斯鸠·制度移植适配检验法——同为'条件决定结果'的条件敏感思维）
+  ::notice::LEGACY M-NIG-006|D6|related_modes=M-NIG-001 | [M-NIG-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-001（登记底册法——标准格式是底册的跨组织推广形态）
+  ::notice::LEGACY M-NIG-006|D6|related_modes=M-NIG-009 | [M-NIG-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-009（跨层联盟法——标准需要联盟才能立起来）
+  ::notice::LEGACY M-NIG-006|D6|related_modes=M-MON-010 | [M-NIG-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MON-010（孟德斯鸠·制度移植适配检验法——同为把'条件/口径'当作结论成立的前提）
+  ::notice::LEGACY M-NIG-006|D6|related_modes=M-ONO-008 | [M-NIG-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-ONO-008（大野耐一·标准作业改善螺旋法——同以标准为持续改善的地基）
+  ::notice::LEGACY M-NIG-007|D6|related_modes=M-NIG-001 | [M-NIG-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-001（登记底册法——信中的数字来自底册与统计）
+  ::notice::LEGACY M-NIG-007|D6|related_modes=M-NIG-010 | [M-NIG-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-010（一役制度收束法——远程指挥是把个人影响制度化之前的过渡形态）
+  ::notice::LEGACY M-NIG-007|D6|related_modes=M-NIG-009 | [M-NIG-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-009（跨层联盟法——星形网络是联盟的通信底盘）
+  ::notice::LEGACY M-NIG-008|D6|related_modes=M-NIG-001 | [M-NIG-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-001（登记底册法——数据供养的第一步）
+  ::notice::LEGACY M-NIG-008|D6|related_modes=M-NIG-005 | [M-NIG-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-005（环境复愈法——'可预防'的对象正是环境条件）
+  ::notice::LEGACY M-NIG-008|D6|related_modes=M-NIG-003 | [M-NIG-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-003（图形转译法——让道德结论被一眼看见）
+  ::notice::LEGACY M-NIG-008|D6|related_modes=M-NIG-010 | [M-NIG-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-010（一役制度收束法——道德推论最终固化为制度）
+  ::notice::LEGACY M-NIG-009|D6|related_modes=M-NIG-001 | [M-NIG-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-001（登记底册法——联盟交换的硬通货来自底册）
+  ::notice::LEGACY M-NIG-009|D6|related_modes=M-NIG-003 | [M-NIG-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-003（图形转译法——给大臣的'弹药'正是转译图形）
+  ::notice::LEGACY M-NIG-009|D6|related_modes=M-NIG-006 | [M-NIG-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-006（标准格式法——统计学家盟友供给口径）
+  ::notice::LEGACY M-NIG-009|D6|related_modes=M-NIG-010 | [M-NIG-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-010（一役制度收束法——联盟的成果最终要固化为制度）
+  ::notice::LEGACY M-NIG-010|D6|related_modes=M-NIG-001 | [M-NIG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-001（登记底册法——制度收束把'底册'变成法定的常设登记）
+  ::notice::LEGACY M-NIG-010|D6|related_modes=M-NIG-006 | [M-NIG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-006（标准格式法——统计标准是收束产物之一）
+  ::notice::LEGACY M-NIG-010|D6|related_modes=M-NIG-007 | [M-NIG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-007（远程指挥法——个人退场后的影响力由文件与制度承载）
+  ::notice::LEGACY M-NIG-010|D6|related_modes=M-NIG-009 | [M-NIG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-009（跨层联盟法——收束需要联盟在政治窗口期合力）
+  ::notice::LEGACY M-NIG-010|D6|related_modes=M-CC-027 | [M-NIG-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-027（教育与制度传承共同体法——同为把传承写进制度的文明论模式）
+  ::notice::LEGACY M-RFR-001|D6|related_modes=M-RFR-005 | [M-RFR-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-005（计算直读法——条件定稳后，数据才能被计算而非被诠释）
+  ::notice::LEGACY M-RFR-001|D6|related_modes=M-RFR-002 | [M-RFR-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-002（反直觉搭模法——条件先行是对'模型先行'的直接反制）
+  ::notice::LEGACY M-RFR-001|D6|related_modes=M-CUR-001 | [M-RFR-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CUR-001（居里·实证路径法——同以一手受控测量立身，居里以放射性计量，富兰克林以衍射强度计量）
+  ::notice::LEGACY M-RFR-001|D6|related_modes=M-TOU-003 | [M-RFR-001] D6 悬空引用: related_modes 指向不存在的 mode_code=M-TOU-003（屠呦呦·条件拆解法——同以条件拆解锁定关键变量）
+  ::notice::LEGACY M-RFR-002|D6|related_modes=M-RFR-005 | [M-RFR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-005（计算直读法——本模式的方法论正面：数据如何'直接'给出结构）
+  ::notice::LEGACY M-RFR-002|D6|related_modes=M-RFR-004 | [M-RFR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-004（状态互变法——条件可逆性是拆穿模型幻觉的利器）
+  ::notice::LEGACY M-RFR-002|D6|related_modes=M-NEW-005 | [M-RFR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NEW-005（牛顿·公理化演绎法——方法论对照：牛顿由公理演绎现象，同拒'先立结论'）
+  ::notice::LEGACY M-RFR-002|D6|related_modes=M-DAR-001 | [M-RFR-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DAR-001（达尔文·渐进取证归纳法——同为以积累证据约束假说的归纳纪律）
+  ::notice::LEGACY M-RFR-003|D6|related_modes=M-RFR-001 | [M-RFR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-001（条件先行法——先定条件，缺失才可归因于结构而非环境）
+  ::notice::LEGACY M-RFR-003|D6|related_modes=M-RFR-005 | [M-RFR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-005（计算直读法——'应有什么'的清单由计算给出）
+  ::notice::LEGACY M-RFR-003|D6|related_modes=M-SK-002 | [M-RFR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SK-002（沈括·实验证真法——同以可重复的操作排除偶然，沈括以纸人验共振）
+  ::notice::LEGACY M-RFR-003|D6|related_modes=M-CUR-003 | [M-RFR-003] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CUR-003（库恩·系统排除归因法——同以排除法读出唯一幸存解释）
+  ::notice::LEGACY M-RFR-004|D6|related_modes=M-RFR-001 | [M-RFR-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-001（条件先行法——旋钮即受控条件）
+  ::notice::LEGACY M-RFR-004|D6|related_modes=M-RFR-003 | [M-RFR-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-003（缺层线读时法——两型图样差异是参数提取的来源）
+  ::notice::LEGACY M-RFR-004|D6|related_modes=M-SK-001 | [M-RFR-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SK-001（沈括·广泛观察累积法——同为以系统化的观察把表面杂多归并为规律）
+  ::notice::LEGACY M-RFR-004|D6|related_modes=M-MON-010 | [M-RFR-004] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MON-010（孟德斯鸠·制度移植适配检验法——跨域同构：'条件决定状态'的思维在制度域的对应）
+  ::notice::LEGACY M-RFR-005|D6|related_modes=M-RFR-002 | [M-RFR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-002（反直觉搭模法——本模式是其正面建设）
+  ::notice::LEGACY M-RFR-005|D6|related_modes=M-RFR-004 | [M-RFR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-004（状态互变法——多态差分为计算提供冗余通道）
+  ::notice::LEGACY M-RFR-005|D6|related_modes=M-CUR-001 | [M-RFR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CUR-001（居里·实证路径法——同以计量立身：从量到结论全链可复算）
+  ::notice::LEGACY M-RFR-005|D6|related_modes=M-EIN-002 | [M-RFR-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-EIN-002（爱因斯坦·思想实验法——方法论对照：一个以想象实验探路，一个以实算通道锁路）
+  ::notice::LEGACY M-RFR-006|D6|related_modes=M-RFR-002 | [M-RFR-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-002（反直觉搭模法——同一诚实的另一面：对己松、对模型严）
+  ::notice::LEGACY M-RFR-006|D6|related_modes=M-RFR-003 | [M-RFR-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-003（缺层线读时法——修订的触发器正是读出的空白）
+  ::notice::LEGACY M-RFR-006|D6|related_modes=M-NIG-004 | [M-RFR-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-004（南丁格尔·自误自纠法——同为对自己产物缺陷的主动废弃与公开勘误）
+  ::notice::LEGACY M-RFR-006|D6|related_modes=M-DAR-006 | [M-RFR-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-DAR-006（达尔文·反证自寻法——同为主动寻找对己不利证据的认知纪律）
+  ::notice::LEGACY M-RFR-007|D6|related_modes=M-RFR-008 | [M-RFR-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-008（领域迁移法——本模式的方法论执行器：荣誉问题的出口是新战场）
+  ::notice::LEGACY M-RFR-007|D6|related_modes=M-RFR-006 | [M-RFR-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-006（自证据自弃法——同为把情绪交给事实管辖）
+  ::notice::LEGACY M-RFR-007|D6|related_modes=M-MAI-008 | [M-RFR-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-008（迈蒙尼德·流亡重构法——同以'环境不可改则改战场'的处境转化）
+  ::notice::LEGACY M-RFR-007|D6|related_modes=M-HER-005 | [M-RFR-007] D6 悬空引用: related_modes 指向不存在的 mode_code=M-HER-005（赫茨尔·剧场宣言法——对照：赫茨尔以公开宣言夺回议程，富兰克林以沉默的产出夺回议程）
+  ::notice::LEGACY M-RFR-008|D6|related_modes=M-RFR-007 | [M-RFR-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-007（荣誉冷处理法——迁移是冷处理的出口）
+  ::notice::LEGACY M-RFR-008|D6|related_modes=M-RFR-005 | [M-RFR-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-005（计算直读法——被迁移的核心行李）
+  ::notice::LEGACY M-RFR-008|D6|related_modes=M-MAI-008 | [M-RFR-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MAI-008（迈蒙尼德·流亡重构法——同为以迁徙转化困境，迈蒙尼德迁的是共同体，她迁的是方法）
+  ::notice::LEGACY M-RFR-008|D6|related_modes=M-PAD-006 | [M-RFR-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-006（莲花生·伏藏留传法——跨域对照：一个把教法埋藏待后人，一个把方法携带换领域）
+  ::notice::LEGACY M-RFR-009|D6|related_modes=M-RFR-008 | [M-RFR-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-008（领域迁移法——迁移落地依赖能复制方法的团队）
+  ::notice::LEGACY M-RFR-009|D6|related_modes=M-RFR-010 | [M-RFR-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-010（未竟收束法——师徒同格是未竟事业的承接机制）
+  ::notice::LEGACY M-RFR-009|D6|related_modes=M-CC-027 | [M-RFR-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-CC-027（教育与制度传承共同体法——同为把传承写成制度与文档）
+  ::notice::LEGACY M-RFR-009|D6|related_modes=M-SK-010 | [M-RFR-009] D6 悬空引用: related_modes 指向不存在的 mode_code=M-SK-010（沈括·存疑存真法——同以'把不确定处如实交给后人'为传承纪律）
+  ::notice::LEGACY M-RFR-010|D6|related_modes=M-RFR-009 | [M-RFR-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-009（师徒同格法——收束的承接者由师徒同格预先养成）
+  ::notice::LEGACY M-RFR-010|D6|related_modes=M-RFR-008 | [M-RFR-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-RFR-008（领域迁移法——迁移与收束共享'方法即行李'的资产观）
+  ::notice::LEGACY M-RFR-010|D6|related_modes=M-NIG-010 | [M-RFR-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-NIG-010（南丁格尔·一役制度收束法——同为把个人事业铸成不依赖个人的结构）
+  ::notice::LEGACY M-RFR-010|D6|related_modes=M-PAD-006 | [M-RFR-010] D6 悬空引用: related_modes 指向不存在的 mode_code=M-PAD-006（莲花生·伏藏留传法——同为'为后来的接续者封存可启用的完整结构'）
+  ::notice::LEGACY M-P24F-001|D1|P24F | [M-P24F-001] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-002|D1|P24F | [M-P24F-002] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-003|D1|P24F | [M-P24F-003] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-004|D1|P24F | [M-P24F-004] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-005|D1|P24F | [M-P24F-005] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-006|D1|P24F | [M-P24F-006] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-007|D1|P24F | [M-P24F-007] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-008|D1|P24F | [M-P24F-008] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-009|D1|P24F | [M-P24F-009] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P24F-010|D1|P24F | [M-P24F-010] D1 伪人物: figure_code=P24F 在隔离名单中
+  ::notice::LEGACY M-P25F-001|D1|P25F | [M-P25F-001] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-002|D1|P25F | [M-P25F-002] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-003|D1|P25F | [M-P25F-003] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-004|D1|P25F | [M-P25F-004] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-005|D1|P25F | [M-P25F-005] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-006|D1|P25F | [M-P25F-006] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-007|D1|P25F | [M-P25F-007] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-008|D1|P25F | [M-P25F-008] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-009|D1|P25F | [M-P25F-009] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P25F-010|D1|P25F | [M-P25F-010] D1 伪人物: figure_code=P25F 在隔离名单中
+  ::notice::LEGACY M-P26F-001|D1|P26F | [M-P26F-001] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-002|D1|P26F | [M-P26F-002] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-003|D1|P26F | [M-P26F-003] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-004|D1|P26F | [M-P26F-004] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-005|D1|P26F | [M-P26F-005] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-006|D1|P26F | [M-P26F-006] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-007|D1|P26F | [M-P26F-007] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-008|D1|P26F | [M-P26F-008] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-009|D1|P26F | [M-P26F-009] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P26F-010|D1|P26F | [M-P26F-010] D1 伪人物: figure_code=P26F 在隔离名单中
+  ::notice::LEGACY M-P27F-001|D1|Phase27Final | [M-P27F-001] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-002|D1|Phase27Final | [M-P27F-002] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-003|D1|Phase27Final | [M-P27F-003] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-004|D1|Phase27Final | [M-P27F-004] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-005|D1|Phase27Final | [M-P27F-005] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-006|D1|Phase27Final | [M-P27F-006] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-007|D1|Phase27Final | [M-P27F-007] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-008|D1|Phase27Final | [M-P27F-008] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-009|D1|Phase27Final | [M-P27F-009] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-P27F-010|D1|Phase27Final | [M-P27F-010] D1 伪人物: figure_code=Phase27Final 在隔离名单中
+  ::notice::LEGACY M-LENIN-002|D6|related_modes=M-MZD-001 | [M-LENIN-002] D6 悬空引用: related_modes 指向不存在的 mode_code=M-MZD-001
+  ::notice::LEGACY M-XUGUANGQ-005|D6|related_modes=M-XUGUANGQ-010 | [M-XUGUANGQ-005] D6 悬空引用: related_modes 指向不存在的 mode_code=M-XUGUANGQ-010
+  ::notice::LEGACY M-XUGUANGQ-006|D6|related_modes=M-XUGUANGQ-010 | [M-XUGUANGQ-006] D6 悬空引用: related_modes 指向不存在的 mode_code=M-XUGUANGQ-010
+  ::notice::LEGACY M-XUGUANGQ-008|D6|related_modes=M-XUGUANGQ-010 | [M-XUGUANGQ-008] D6 悬空引用: related_modes 指向不存在的 mode_code=M-XUGUANGQ-010
+
+--- 新增（基线外，必拦）: 0 条 ---
+  (none)
+
+--- 基线里已不再成立（可重新冻结）: 3 条 ---
+  ::warning::STALE M-NKR-010|D6|related_modes=M-NKR-008
+  ::warning::STALE M-NKR-010|D6|related_modes=M-NKR-009
+  ::warning::STALE M-SALADIN-006|D6|related_modes=M-DZS-001
+
+warnings (D4/D5, 非阻断): 3
+
+[OK] hard-fail: 无新增硬失败（存量 524 条已冻结）-> exit 0
+
+--- D4 引文不符（真子串核验，Phase40-Z2）---
+  可核面: 缓存 key 可用 1 个 (index present=True)；参与判定的模式 3311 条
+  matched              1
+  mismatch             2
+  quote-too-short      7
+  unchecked         3301
+  不可核理由分布（unchecked/quote-too-short 逐类计数）:
+    no-fulltext-link                                          1857
+    no-citation: 出处里没有书名号引文                                    723
+    cache-not-ok:no-cache-entry                                636
+    no-quote                                                    85
+    all-fragments-shorter-than-min(8)                            7
+    substring-not-found(zh-cn converted copy)                    2
+    substring-found(zh-cn converted copy)                        1
+  D4 命中（字面片段在原文里找不到）样例:
+    M-WC-006  key=《论衡》  最长片段=人未生在元气之中
+    M-WC-009  key=《论衡》  最长片段=雷何为感于人而发
+  说明: 只对「出处有书名号引文 + 引文解析到原文类链接 + 缓存状态 ok」的模式可核；其余一律 unchecked 并计入上面的理由分布 —— **不假装核过**。命中只代表「字面不符」，不等于伪造（繁简/异体/意译都不命中，处置为复核）。
+
+--- D5 时间线矛盾（生卒年 × 文本年份，Phase40-Z2 / Phase42-Z4）---
+  生卒年装载: data/figures/*.json 扫 358 个文件 → 可用取值键 575 个；年份不完整/不可解析 47 个文件；键冲突丢弃 1 个键
+    键冲突丢弃: H-MZ-001       data/figures/H-MZ-001.json:birth_year/death_year[1890, 1990] vs data/figures/H-MZ-001_modes.json:birth_year/death_year[-372, -289]
+  生卒年可用人物: 575 个（data/figures/*.json，含字符串/公元前纪年解析）
+  可判定模式: 3071 条（figure 有生卒年）
+  扫描到的 4 位年份 token: 9266 个
+  conflict             1
+  clean             1532
+  undetermined      1778
+  tokens=0 的成因拆分（禁止把「无生卒年」读成「已覆盖 / 零缺陷」）:
+    no-four-digit-year-in-text                                1538
+    no-lifespan-for-figure                                     240
+  不可判定（逐类计数，禁止当成「零缺陷」）:
+    out-of-window                                              562
+    name-not-in-context                                        179
+    field-not-claim                                             64
+    source-marker                                               12
+    background-marker                                            2
+    afterlife-marker                                             1
+  D5 命中（本人叙述字段里的年份落在生卒年之外）:
+    M-NEW-007  representative_cases_zh=1749  动差一半：牛顿未解决，Clairaut 1749 年以摄动级数升阶解决——方法误差而非理
+  说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。
+  取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en

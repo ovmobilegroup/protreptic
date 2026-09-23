@@ -1,0 +1,654 @@
+{
+  "card": "t_8773cb6b",
+  "ts": "2026-09-24 00:50:28",
+  "script": "verify_luorq_qa_espinosa.py",
+  "pass": 103,
+  "fail": 12,
+  "checks": [
+    {
+      "id": "A01",
+      "desc": "10 条存在且 id 序 == M-LUORQ-001~010",
+      "detail": "['M-LUORQ-001', 'M-LUORQ-002', 'M-LUORQ-003', 'M-LUORQ-004', 'M-LUORQ-005', 'M-LUORQ-006', 'M-LUORQ-007', 'M-LUORQ-008', 'M-LUORQ-009', 'M-LUORQ-010']"
+    },
+    {
+      "id": "A02",
+      "desc": "10 条 key_quote_zh 逐字为 B1 该模式 quotes 子串",
+      "detail": "未命中: []"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-001 引文见证强归一化命中 1 件",
+      "detail": "['web/B520315.txt']"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-002 引文见证强归一化命中 2 件",
+      "detail": "['web/hprc5150213.txt', 'web/iccs5392400.txt']"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-003 引文见证强归一化命中 1 件",
+      "detail": "['web/ccrd_000209.txt']"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-006 引文见证强归一化命中 1 件",
+      "detail": "['web/hswh_92285.txt']"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-007 引文见证强归一化命中 1 件",
+      "detail": "['web/rr1978_0813_p2.txt']"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-008 引文见证强归一化命中 1 件",
+      "detail": "['web/cn2008.txt']"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-009 引文见证强归一化命中 1 件",
+      "detail": "['web/ccrd_000209.txt']"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-010 引文见证强归一化命中 1 件",
+      "detail": "['web/cpc_zhenli.txt']"
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-001 key_quote_en 非空且无 CJK",
+      "detail": "Our policy has always been to combine suppression with lenie"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-001 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "《关于彻底肃清反革命的破坏活动的报告》（北京市、区各界人民代表扩大联席会议，1951-03-15）"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-001 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-002 key_quote_en 非空且无 CJK",
+      "detail": "The public security forces are under the command of the Mili"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-002 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "《关于建设公安部队的报告》（1950-05-20 全军参谋会议）"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-002 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-003 key_quote_en 非空且无 CJK",
+      "detail": "Placing public security work under the absolute leadership o"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-003 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "《公安工作必须进一步地贯彻群众路线》（1958-06-11，《人民公安》1958 年第 12 期）"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-003 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-004 key_quote_en 非空且无 CJK",
+      "detail": "Training must achieve the red, the hard and the lively, bein"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-004 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-005 key_quote_en 非空且无 CJK",
+      "detail": "Guard work must first guarantee that nothing goes wrong, and"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-005 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-006 key_quote_en 非空且无 CJK",
+      "detail": "We must oppose the Kuomintang style of infringing on the peo"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-006 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "公安队伍作风整顿（1952-08 合肥事件处置；1957 年派出所检查；1958-08《公安人员八大纪律、十项注意》全国"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-006 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-007 key_quote_en 非空且无 CJK",
+      "detail": "Comrade Luo Ruiqing was a loyal revolutionary fighter of the"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-007 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "邓小平悼词（1978-08-12，《人民日报》1978-08-13 第 2 版）；《中共中央关于为罗瑞卿同志平反的通知》"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-007 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-008 key_quote_en 非空且无 CJK",
+      "detail": "If only politics is done well while everything else fails an"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-008 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-009 key_quote_en 非空且无 CJK",
+      "detail": "The main symptoms are trusting only oneself and not the mass"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-009 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "《公安工作必须进一步地贯彻群众路线》（1958-06-11，《人民公安》1958 年第 12 期）"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-009 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A04",
+      "desc": "M-LUORQ-010 key_quote_en 非空且无 CJK",
+      "detail": "What is the standard for testing truth? Marxism-Leninism and"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-010 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "对《解放军报》的指示与推动（1978-03；《邓小平关注军报真理标准大讨论》记载）"
+    },
+    {
+      "id": "A06",
+      "desc": "M-LUORQ-010 key_concepts 非空且无禁字",
+      "detail": ""
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-001 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-009', 'M-LUORQ-003']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-002 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-001', 'M-LUORQ-007']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-003 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-009', 'M-LUORQ-001']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-004 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-008', 'M-LUORQ-005']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-005 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-002', 'M-LUORQ-009']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-006 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-003', 'M-LUORQ-001']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-007 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-008', 'M-LUORQ-010']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-008 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-004', 'M-LUORQ-007']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-009 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-003', 'M-LUORQ-005']"
+    },
+    {
+      "id": "A08",
+      "desc": "M-LUORQ-010 related_modes 合法 (子集且无自引)",
+      "detail": "['M-LUORQ-007', 'M-LUORQ-008']"
+    },
+    {
+      "id": "A09",
+      "desc": "legacy_mode_id M351~M360 与 id_mapping.tsv 一一对应",
+      "detail": "10 行"
+    },
+    {
+      "id": "A10",
+      "desc": "10 条 verification 全 pending (纪律: 不回填)",
+      "detail": "{'pending'}"
+    },
+    {
+      "id": "A11",
+      "desc": "模式名唯一/无禁字/英文名无 CJK",
+      "detail": ""
+    },
+    {
+      "id": "A12",
+      "desc": "figure_code/figure_name 口径 == H-LUORQ-001/罗瑞卿",
+      "detail": ""
+    },
+    {
+      "id": "B02",
+      "desc": "W20 组合 sha256 (59 章按序拼接) == 登记值",
+      "detail": "n=59 sha=46a07973b8515d45"
+    },
+    {
+      "id": "B03",
+      "desc": "复核示例命中: 依照毛主席的指示 属于 web/B520315.txt",
+      "detail": ""
+    },
+    {
+      "id": "B03",
+      "desc": "复核示例命中: 我国的公安工作 属于 web/ccrd_000209.txt",
+      "detail": ""
+    },
+    {
+      "id": "B03",
+      "desc": "复核示例命中: 打板子打我的 属于 web/cpc_zhenli.txt",
+      "detail": ""
+    },
+    {
+      "id": "B03",
+      "desc": "复核示例命中: 警卫工作一要保证不出乱子 属于 xuoba/ch054.txt",
+      "detail": ""
+    },
+    {
+      "id": "B03",
+      "desc": "复核示例命中: 中国人民解放军的杰出领导人 属于 web/rr1978_0813_p2.txt",
+      "detail": ""
+    },
+    {
+      "id": "B04",
+      "desc": "10 条模式引文源括注可解析并映射本地见证文件",
+      "detail": "web witness modes: 10"
+    },
+    {
+      "id": "C01",
+      "desc": "LUORQ 交付面 (条目/场景/标签/注册/三件/落地包) 禁字零残留",
+      "detail": "[]"
+    },
+    {
+      "id": "C02a",
+      "desc": "四式弃名中三个唯一自造名 (安全立军/整编革新/参谋统筹): 全库活跃面 0",
+      "detail": "[]"
+    },
+    {
+      "id": "C02b",
+      "desc": "活跃面其余禁字命中均可归因他人物合法语境 (逐条登记)",
+      "detail": "[]"
+    },
+    {
+      "id": "C03a",
+      "desc": "审计 after_image 禁字零残留",
+      "detail": ""
+    },
+    {
+      "id": "C03b",
+      "desc": "审计 before_image 为旧叙事 (对照: 含自造名与抬高表述)",
+      "detail": ""
+    },
+    {
+      "id": "C04",
+      "desc": "归档 _duplicates 四件字节未变 (R6C 登记 sha 复核)",
+      "detail": "[]"
+    },
+    {
+      "id": "D00",
+      "desc": "备份目录存在 (合并卡工作区备份)",
+      "detail": "['/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627', '/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_231321']"
+    },
+    {
+      "id": "D01",
+      "desc": "备份六件 sha256 == ledger == manifest.inputs (合并前状态可复算)",
+      "detail": "[]"
+    },
+    {
+      "id": "D02a",
+      "desc": "旧块导出行 sha == ledger.old_canonical == audit.before 登记",
+      "detail": "ffb905f68572682a"
+    },
+    {
+      "id": "D02b",
+      "desc": "新块导出行 sha == manifest.after == audit.after_image 登记",
+      "detail": "17326104d2f73922"
+    },
+    {
+      "id": "D02c",
+      "desc": "口径复现: 无换行规范序列化 == 上游核验记录 computed 值 (4a40dcd7/a7dab517)",
+      "detail": "old=4a40dcd76fae519b new=a7dab5177718b5ba"
+    },
+    {
+      "id": "D02d",
+      "desc": "登记值 == 规范序列化+行尾换行 (导出行文件字节口径, 可复现)",
+      "detail": "ffb905f68572682a / 17326104d2f73922"
+    },
+    {
+      "id": "D03a",
+      "desc": "before 像三方等价: 备份 modes_data 顶层块 == 导出旧块 == audit.before_image",
+      "detail": ""
+    },
+    {
+      "id": "D03b",
+      "desc": "after 像三方等价: 主库现行顶层块 == 导出新块 == audit.after_image",
+      "detail": "cur_tb=True new=True audit=True"
+    },
+    {
+      "id": "D03c",
+      "desc": "主库现行顶层块 == 落地提案 (剥离 proposal_note 后逐字)",
+      "detail": ""
+    },
+    {
+      "id": "D04a",
+      "desc": "新旧块同为 23 键且键序一致",
+      "detail": "old=23 new=23"
+    },
+    {
+      "id": "D04b",
+      "desc": "proposal_note 未入库 (新块与主库均无)",
+      "detail": ""
+    },
+    {
+      "id": "D05",
+      "desc": "其余顶层键与旧块逐字全等 (仅 H-LUORQ-001 一处差异) 且 total 零改写 3271",
+      "detail": "[]"
+    },
+    {
+      "id": "D07",
+      "desc": "新块硬伤 2/3 修正落实 (杰出领导人 + ten senior generals) 且禁字 0",
+      "detail": ""
+    },
+    {
+      "id": "E01",
+      "desc": "modes_data: 条目 3291 / total 标量 3271 (口径如实登记)",
+      "detail": "3291 / 3271"
+    },
+    {
+      "id": "E02a",
+      "desc": "全库非空 id 0 重复 / mode_code 0 重复",
+      "detail": "dup_real=[] dup_mcs=[]"
+    },
+    {
+      "id": "E02b",
+      "desc": "modes_data JSON 原文无重复键",
+      "detail": "[]"
+    },
+    {
+      "id": "E03c",
+      "desc": "scenarios zh/en JSON 原文无重复键",
+      "detail": "[] / []"
+    },
+    {
+      "id": "E04a",
+      "desc": "scenario_tags 计数 7518 且 LUORQ 计 20",
+      "detail": "7518 / 20"
+    },
+    {
+      "id": "E04b",
+      "desc": "20 条标签 4 键 / 每 mode zh+en 各 1 / 无重复",
+      "detail": "([], [])"
+    },
+    {
+      "id": "E04c",
+      "desc": "标签命名 == 模式中英名 + _zh/_en",
+      "detail": "[]"
+    },
+    {
+      "id": "E05a",
+      "desc": "code_maps H-LUORQ-001 mode_ids 0 悬空; 全库悬空如实登记 40",
+      "detail": "[]"
+    },
+    {
+      "id": "E05b",
+      "desc": "cross_references LUORQ 目标 0 悬空; 全库悬空如实登记 248",
+      "detail": "[]"
+    },
+    {
+      "id": "E05c",
+      "desc": "code_maps H-LUORQ-001 tags == 10 中文模式名",
+      "detail": ""
+    },
+    {
+      "id": "E06",
+      "desc": "figure_names: H-LUORQ-001 -> 罗瑞卿; 计数 1083; 名称唯一",
+      "detail": "罗瑞卿 / 1083"
+    },
+    {
+      "id": "E07a",
+      "desc": "三面同体: figure.modes == individuals_modes.modes == landing combined == 主库 10 条",
+      "detail": ""
+    },
+    {
+      "id": "E07b",
+      "desc": "individuals 口径: figure_code/计数/图码一致",
+      "detail": "H-LUORQ-001/10"
+    },
+    {
+      "id": "E08a",
+      "desc": "旧号 M351~M360 不在现役 id/mode_code",
+      "detail": "[]"
+    },
+    {
+      "id": "E08b",
+      "desc": "legacy_mode_id 字段为唯一留痕且 == M351~M360 序",
+      "detail": "['M351', 'M352', 'M353', 'M354', 'M355', 'M356', 'M357', 'M358', 'M359', 'M360']"
+    },
+    {
+      "id": "E09",
+      "desc": "H-LUORQ-001 三件在册且 docs 档案页待归档卡 (不在册为预期)",
+      "detail": ""
+    },
+    {
+      "id": "G01c",
+      "desc": "parity 差异中 LUORQ 面路径均在本卡预期清单内",
+      "detail": "[]"
+    },
+    {
+      "id": "G02a",
+      "desc": "发布仓 H-LUORQ-001 注册全无 / 全有 (无半截镜像态)",
+      "detail": "(False, False, False)"
+    },
+    {
+      "id": "H01",
+      "desc": "注入: 篡改 M-LUORQ-003 引文 -> 逐字判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H02",
+      "desc": "注入: 旧号替换 -> 号码判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H03",
+      "desc": "注入: LUORQ 面混入弃名 -> 禁字判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H04",
+      "desc": "注入: 顶层块篡改 -> 三方等价判据报错",
+      "detail": "m2 has True, d has True"
+    },
+    {
+      "id": "H05",
+      "desc": "注入: 现役混入 M351 -> 旧号判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H06",
+      "desc": "注入: 备份件字节翻改 -> sha 判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H07",
+      "desc": "注入: mode_code 重复 -> 唯一性判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H08",
+      "desc": "注入: xref 悬空 -> 悬空判据报错",
+      "detail": ""
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-004 引文见证强归一化命中 0 件",
+      "detail": "[]"
+    },
+    {
+      "id": "A03",
+      "desc": "M-LUORQ-005 引文见证强归一化命中 0 件",
+      "detail": "[]"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-004 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "推广郭兴福教学法现场会讲话（1964-01-25 南京现场会；1964-05-24 天津现场会）"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-005 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "警卫工作方针与实践（1949 年访苏警卫部署；1953-02-14 武汉黄鹤楼警卫；1958-06 三峡水情侦察）"
+    },
+    {
+      "id": "A05",
+      "desc": "M-LUORQ-008 source_chapter 可落源格式 (书名号+年份)",
+      "detail": "军委办公会议第八次扩大会议发言（1965-01-06 至 09）；对「空头政治」的批评（1963—1965）"
+    },
+    {
+      "id": "A07",
+      "desc": "条目内引号片段全部可溯源 (B1 引文或白名单)",
+      "detail": "越界: 民警本来就不是官……要站在他们之中啊; 郭兴福的教学法是我军传统的练兵方法的继承和发扬……不仅适合于部队，而且适合于学校"
+    },
+    {
+      "id": "B01",
+      "desc": "见证文件 sha256 与素材包登记一致 18 件命中",
+      "detail": "mism=['W15'] absent=[]"
+    },
+    {
+      "id": "B05",
+      "desc": "白名单 23 条逐条可回溯素材包",
+      "detail": "缺失: ['条条与块块关系', '个案严处→制度立规→基层检查→群众监督']"
+    },
+    {
+      "id": "C_ScenExist",
+      "desc": "检查 LUORQ 场景是否已入库",
+      "detail": "zh=0 en=0 (merge 未落地预期)"
+    },
+    {
+      "id": "E03a",
+      "desc": "scenarios_zh 含 C-LUORQ-001~010 (merge 后预期; 当前未合并可能为0)",
+      "detail": "zh=0"
+    },
+    {
+      "id": "E03b",
+      "desc": "scenarios_en 含 C-LUORQ-001E~010E",
+      "detail": "en=0"
+    },
+    {
+      "id": "G01b",
+      "desc": "LUORQ 待镜像清单件件可归属 (在差异清单或已同步, 0 悬空)",
+      "detail": "悬空=19"
+    }
+  ],
+  "injections": [
+    {
+      "id": "H01",
+      "desc": "注入: 篡改 M-LUORQ-003 引文 -> 逐字判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H02",
+      "desc": "注入: 旧号替换 -> 号码判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H03",
+      "desc": "注入: LUORQ 面混入弃名 -> 禁字判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H04",
+      "desc": "注入: 顶层块篡改 -> 三方等价判据报错",
+      "detail": "m2 has True, d has True"
+    },
+    {
+      "id": "H05",
+      "desc": "注入: 现役混入 M351 -> 旧号判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H06",
+      "desc": "注入: 备份件字节翻改 -> sha 判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H07",
+      "desc": "注入: mode_code 重复 -> 唯一性判据报错",
+      "detail": ""
+    },
+    {
+      "id": "H08",
+      "desc": "注入: xref 悬空 -> 悬空判据报错",
+      "detail": ""
+    }
+  ],
+  "state": {
+    "shas": {
+      "data/modes_data.json": "2d3eb9eaf41bc95e7870bae98ced5eeee46ff216272d6dfa444c5441c0a6a964",
+      "data/code_maps.json": "53154b9ddd5e2e3f4ae0bbde746d4ce6ffc41c4f7bd91ce7c9fa047ae4999d83",
+      "data/scenarios_zh.json": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+      "data/scenarios_en.json": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+      "data/scenario_tags.json": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+      "data/figure_names.json": "69f531fd0153fd3b762ca9641657121552a792ae420d6ba98016b209a7ddf3fd",
+      "data/figures/H-LUORQ-001.json": "d609b968a8d324eacb2a52ae6f9b03cba512d644ef6c4ae4ab167961b5056640",
+      "data/individuals/H-LUORQ-001.json": "91efb1b79a672bef9196d04e926c8ee3c2f9154b895e84f74534165f85d9c73f",
+      "data/individuals/H-LUORQ-001_modes.json": "a75decd03f71d7447c9a220d06b6a71fa379942200615b176cb01e17b68f3e8f",
+      "data/audit/phase21r8_luorq_merge_manifest.json": "df7b35291a671a6deb8034be903dc0cfecfe93487571574323d3edabdfbcff55",
+      "data/audit/phase21r8_luorq_top_block_backup.json": "8b9d41c4ec4cedb00850ed6d358f5459f14f660dbc05d29009cdfeffd5d2b6d8",
+      "data/audit/phase21r8_luorq_landing_manifest.json": "dca1d33ca1ace6310a907be74c4ee481d08f4b27e87a6ef9a79ec6bc822f3aa9",
+      "docs/scratch/legacy20_r8_luorq_landing/top_block_proposal.json": "dd43241369ddc7a431e160aa644a11a1ea970fc4ece433fa23e29ee7f84ac2f9",
+      "docs/research/phase21r8_luorq_sourcing_report.md": "c74b53044a331ff736cdc692f5b6f8051ffda1b611e8e92d1ab43665212b0016",
+      "docs/research/phase21r8_luorq_rebuild_report.md": "7937f27283c0a8db2e91090f2d73f33566208a6b88f35e06990b7f19848e71a4",
+      "verify_luorq_qa_espinosa.py": "86492baf70a933698ccc319c7b2d443ad50282722995a0b5255e0ce032af02de"
+    },
+    "ws_head": "cb8601a1f6b9a9d96ab69568ee3758a6e62c2850",
+    "ws_porcelain_lines": 39,
+    "pub_head": "dab8213d5bfd8834c8cc380534ac80541acfd777",
+    "pub_porcelain_lines": 0
+  },
+  "git": {
+    "ws_head": "cb8601a1f6b9a9d96ab69568ee3758a6e62c2850",
+    "pub_head": "dab8213d5bfd8834c8cc380534ac80541acfd777"
+  }
+}

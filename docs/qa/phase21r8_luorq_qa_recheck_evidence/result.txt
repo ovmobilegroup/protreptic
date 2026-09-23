@@ -1,0 +1,237 @@
+PASS  A01    10 条存在且 id 序 == M-LUORQ-001~010 | ['M-LUORQ-001', 'M-LUORQ-002', 'M-LUORQ-003', 'M-LUORQ-004', 'M-LUORQ-005', 'M-LUORQ-006', 'M-LUORQ-007', 'M-LUORQ-008', 'M-LUORQ-009', 'M-LUORQ-010']
+PASS  A02    10 条 key_quote_zh 逐字为 B1 该模式 quotes 子串 | 未命中: []
+PASS  A03    M-LUORQ-001 引文见证强归一化命中 1 件 | ['web/B520315.txt']
+PASS  A03    M-LUORQ-002 引文见证强归一化命中 2 件 | ['web/hprc5150213.txt', 'web/iccs5392400.txt']
+PASS  A03    M-LUORQ-003 引文见证强归一化命中 1 件 | ['web/ccrd_000209.txt']
+PASS  A03    M-LUORQ-004 引文见证强归一化命中 1 件 | ['xuoba/ch064.txt']
+PASS  A03    M-LUORQ-005 引文见证强归一化命中 1 件 | ['xuoba/ch054.txt']
+PASS  A03    M-LUORQ-006 引文见证强归一化命中 1 件 | ['web/hswh_92285.txt']
+PASS  A03    M-LUORQ-007 引文见证强归一化命中 1 件 | ['web/rr1978_0813_p2.txt']
+PASS  A03    M-LUORQ-008 引文见证强归一化命中 1 件 | ['web/cn2008.txt']
+PASS  A03    M-LUORQ-009 引文见证强归一化命中 1 件 | ['web/ccrd_000209.txt']
+PASS  A03    M-LUORQ-010 引文见证强归一化命中 1 件 | ['web/cpc_zhenli.txt']
+PASS  A04    M-LUORQ-001 key_quote_en 非空且无 CJK | Our policy has always been to combine suppression with lenie
+PASS  A05    M-LUORQ-001 source_chapter 可落源格式 (书名号+年份) | 《关于彻底肃清反革命的破坏活动的报告》（北京市、区各界人民代表扩大联席会议，1951-03-15）
+PASS  A06    M-LUORQ-001 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-002 key_quote_en 非空且无 CJK | The public security forces are under the command of the Mili
+PASS  A05    M-LUORQ-002 source_chapter 可落源格式 (书名号+年份) | 《关于建设公安部队的报告》（1950-05-20 全军参谋会议）
+PASS  A06    M-LUORQ-002 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-003 key_quote_en 非空且无 CJK | Placing public security work under the absolute leadership o
+PASS  A05    M-LUORQ-003 source_chapter 可落源格式 (书名号+年份) | 《公安工作必须进一步地贯彻群众路线》（1958-06-11，《人民公安》1958 年第 12 期）
+PASS  A06    M-LUORQ-003 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-004 key_quote_en 非空且无 CJK | Training must achieve the red, the hard and the lively, bein
+PASS  A06    M-LUORQ-004 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-005 key_quote_en 非空且无 CJK | Guard work must first guarantee that nothing goes wrong, and
+PASS  A06    M-LUORQ-005 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-006 key_quote_en 非空且无 CJK | We must oppose the Kuomintang style of infringing on the peo
+PASS  A05    M-LUORQ-006 source_chapter 可落源格式 (书名号+年份) | 公安队伍作风整顿（1952-08 合肥事件处置；1957 年派出所检查；1958-08《公安人员八大纪律、十项注意》全国
+PASS  A06    M-LUORQ-006 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-007 key_quote_en 非空且无 CJK | Comrade Luo Ruiqing was a loyal revolutionary fighter of the
+PASS  A05    M-LUORQ-007 source_chapter 可落源格式 (书名号+年份) | 邓小平悼词（1978-08-12，《人民日报》1978-08-13 第 2 版）；《中共中央关于为罗瑞卿同志平反的通知》
+PASS  A06    M-LUORQ-007 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-008 key_quote_en 非空且无 CJK | If only politics is done well while everything else fails an
+PASS  A06    M-LUORQ-008 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-009 key_quote_en 非空且无 CJK | The main symptoms are trusting only oneself and not the mass
+PASS  A05    M-LUORQ-009 source_chapter 可落源格式 (书名号+年份) | 《公安工作必须进一步地贯彻群众路线》（1958-06-11，《人民公安》1958 年第 12 期）
+PASS  A06    M-LUORQ-009 key_concepts 非空且无禁字 | 
+PASS  A04    M-LUORQ-010 key_quote_en 非空且无 CJK | What is the standard for testing truth? Marxism-Leninism and
+PASS  A05    M-LUORQ-010 source_chapter 可落源格式 (书名号+年份) | 对《解放军报》的指示与推动（1978-03；《邓小平关注军报真理标准大讨论》记载）
+PASS  A06    M-LUORQ-010 key_concepts 非空且无禁字 | 
+PASS  A08    M-LUORQ-001 related_modes 合法 (子集且无自引) | ['M-LUORQ-009', 'M-LUORQ-003']
+PASS  A08    M-LUORQ-002 related_modes 合法 (子集且无自引) | ['M-LUORQ-001', 'M-LUORQ-007']
+PASS  A08    M-LUORQ-003 related_modes 合法 (子集且无自引) | ['M-LUORQ-009', 'M-LUORQ-001']
+PASS  A08    M-LUORQ-004 related_modes 合法 (子集且无自引) | ['M-LUORQ-008', 'M-LUORQ-005']
+PASS  A08    M-LUORQ-005 related_modes 合法 (子集且无自引) | ['M-LUORQ-002', 'M-LUORQ-009']
+PASS  A08    M-LUORQ-006 related_modes 合法 (子集且无自引) | ['M-LUORQ-003', 'M-LUORQ-001']
+PASS  A08    M-LUORQ-007 related_modes 合法 (子集且无自引) | ['M-LUORQ-008', 'M-LUORQ-010']
+PASS  A08    M-LUORQ-008 related_modes 合法 (子集且无自引) | ['M-LUORQ-004', 'M-LUORQ-007']
+PASS  A08    M-LUORQ-009 related_modes 合法 (子集且无自引) | ['M-LUORQ-003', 'M-LUORQ-005']
+PASS  A08    M-LUORQ-010 related_modes 合法 (子集且无自引) | ['M-LUORQ-007', 'M-LUORQ-008']
+PASS  A09    legacy_mode_id M351~M360 与 id_mapping.tsv 一一对应 | 10 行
+PASS  A10    10 条 verification 全 pending (纪律: 不回填) | {'pending'}
+PASS  A11    模式名唯一/无禁字/英文名无 CJK | 
+PASS  A12    figure_code/figure_name 口径 == H-LUORQ-001/罗瑞卿 | 
+PASS  A07    条目内引号片段全部可溯源 (B1 引文或白名单) | 越界: 
+PASS  B01    见证文件 sha256 与素材包登记一致 19 件命中 | mism=[] absent=[]
+PASS  B02    W20 组合 sha256 (59 章按序拼接) == 登记值 | n=59 sha=46a07973b8515d45
+PASS  B03    复核示例命中: 依照毛主席的指示 属于 web/B520315.txt | 
+PASS  B03    复核示例命中: 我国的公安工作 属于 web/ccrd_000209.txt | 
+PASS  B03    复核示例命中: 打板子打我的 属于 web/cpc_zhenli.txt | 
+PASS  B03    复核示例命中: 警卫工作一要保证不出乱子 属于 xuoba/ch054.txt | 
+PASS  B03    复核示例命中: 中国人民解放军的杰出领导人 属于 web/rr1978_0813_p2.txt | 
+PASS  B04    10 条模式引文源括注可解析并映射本地见证文件 | web witness modes: 10
+PASS  B05    白名单 23 条逐条可回溯素材包 | 缺失: []
+PASS  C_ScenExist LUORQ 场景已入库 (scenarios 内层字典) | zh=10 en=10
+PASS  C01    LUORQ 交付面 (条目/场景/标签/注册/三件/落地包) 禁字零残留 | []
+PASS  C02a   四式弃名中三个唯一自造名 (安全立军/整编革新/参谋统筹): 全库活跃面 0 | []
+PASS  C02b   活跃面其余禁字命中均可归因他人物合法语境 (逐条登记) | []
+PASS  C03a   审计 after_image 禁字零残留 | 
+PASS  C03b   审计 before_image 为旧叙事 (对照: 含自造名与抬高表述) | 
+PASS  C04    归档 _duplicates 四件字节未变 (R6C 登记 sha 复核) | []
+PASS  D00    备份目录存在 (合并卡工作区备份) | ['/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_224627', '/opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_231321']
+PASS  D01    备份六件 sha256 == ledger == manifest.inputs (合并前状态可复算) | []
+PASS  D02a   旧块导出行 sha == ledger.old_canonical == audit.before 登记 | ffb905f68572682a
+PASS  D02b   新块导出行 sha == manifest.after == audit.after_image 登记 | 17326104d2f73922
+PASS  D02c   口径复现: 无换行规范序列化 == 上游核验记录 computed 值 (4a40dcd7/a7dab517) | old=4a40dcd76fae519b new=a7dab5177718b5ba
+PASS  D02d   登记值 == 规范序列化+行尾换行 (导出行文件字节口径, 可复现) | ffb905f68572682a / 17326104d2f73922
+PASS  D03a   before 像三方等价: 备份 modes_data 顶层块 == 导出旧块 == audit.before_image | 
+PASS  D03b   after 像三方等价: 主库现行顶层块 == 导出新块 == audit.after_image | cur_tb=True new=True audit=True
+PASS  D03c   主库现行顶层块 == 落地提案 (剥离 proposal_note 后逐字) | 
+PASS  D04a   新旧块同为 23 键且键序一致 | old=23 new=23
+PASS  D04b   proposal_note 未入库 (新块与主库均无) | 
+PASS  D05    其余顶层键与旧块逐字全等 (仅 H-LUORQ-001 一处差异) 且 total 零改写 3271 | []
+PASS  D07    新块硬伤 2/3 修正落实 (杰出领导人 + ten senior generals) 且禁字 0 | 
+PASS  E01    modes_data: 条目 3291 / total 标量 3271 (口径如实登记) | 3291 / 3271
+PASS  E02a   全库非空 id 0 重复 / mode_code 0 重复 | dup_real=[] dup_mcs=[]
+PASS  E02b   modes_data JSON 原文无重复键 | []
+PASS  E03a   scenarios_zh 含 C-LUORQ-001~010 (内层字典 10 条) | zh=10
+PASS  E03b   scenarios_en 含 C-LUORQ-001E~010E | en=10
+PASS  E03c   scenarios zh/en JSON 原文无重复键 | [] / []
+PASS  E04a   scenario_tags 计数 7518 且 LUORQ 计 20 | 7518 / 20
+PASS  E04b   20 条标签 4 键 / 每 mode zh+en 各 1 / 无重复 | ([], [])
+PASS  E04c   标签命名 == 模式中英名 + _zh/_en | []
+PASS  E05a   code_maps H-LUORQ-001 mode_ids 0 悬空; 全库悬空如实登记 40 | []
+PASS  E05b   cross_references LUORQ 目标 0 悬空; 全库悬空如实登记 248 | []
+PASS  E05c   code_maps H-LUORQ-001 tags == 10 中文模式名 | 
+PASS  E06    figure_names: H-LUORQ-001 -> 罗瑞卿; 计数 1083; 名称唯一 | 罗瑞卿 / 1083
+PASS  E07a   三面同体: figure.modes == individuals_modes.modes == landing combined == 主库 10 条 | 
+PASS  E07b   individuals 口径: figure_code/计数/图码一致 | H-LUORQ-001/10
+PASS  E08a   旧号 M351~M360 不在现役 id/mode_code | []
+PASS  E08b   legacy_mode_id 字段为唯一留痕且 == M351~M360 序 | ['M351', 'M352', 'M353', 'M354', 'M355', 'M356', 'M357', 'M358', 'M359', 'M360']
+PASS  E09    H-LUORQ-001 三件在册 + docs 档案页在册 (补交/归档后复验口径) | doc_sha=17cb095e9659dab9
+PASS  E09d   docs 档案页 × 发布仓镜像 byte-exact | 
+PASS  F01    credibility_gate --hard-fail exit 0 | exit=0 |     M-NEW-007  representative_cases_zh=1749  动差一半：牛顿未解决，Clairaut 1749 年以摄动级数升阶解决——方法误差而非理 /   说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。 /   取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en
+PASS  F02    verify_findings --hard-fail exit 0 | exit=0 | --- 其他警告（不阻断）: 1 条 --- /   ::warning::E: these mode codes are harvested twice by get_all_modes (present both in the top-level modes array and inside a figure node): ['M-ASM-001', 'M-ASM-002', 'M-ASM-003', 'M-ASM-004', 'M-ASM-005', 'M-ASM-006', 'M-ASM-007', 'M-ASM-008', 'M-ASM-009', 'M-ASM-010'] / [OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0
+PASS  F03    verify_source_links --hard-fail exit 0 (活链复扫) | exit=0 |   ::warning::UNREACHABLE 《论衡》 -> https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1 /   ::warning::UNREACHABLE 《道德原则研究》 -> https://zh.wikipedia.org/wiki/%E9%81%93%E5%BE%B7%E5%8E%9F%E5%89%87%E7%A0%94%E7%A9%B6 / [OK] hard-fail: 无新增坏链（存量 0 条已冻结）-> exit 0
+PASS  F04    apply_verification_status --check 如实登记 (非硬门禁) | exit=1
+PASS  F05    pages_preflight --stage data exit 0 (静态数据基线/隔离零泄漏) | exit=0 | figures=1056 modes=3281 published=3221 隔离命中=0 figure shards=1056 by-figure shards=318 /       daily: 3221 条（by-figure 分片 3221 条）names=3221 tz=Asia/Shanghai / [OK] stage=data：全部断言通过
+PASS  F06    gen_web_site_counts --check exit 0 (站点计数件现行口径) | exit=0 | [counts] /opt/data/workspace/Protreptic/web/src/generated/siteCounts.ts 已是当前口径 (3221 x 318)
+PASS  G01b   LUORQ 待镜像清单件件可归属 (在差异清单或已同步, 0 悬空) | 
+PASS  G02a   发布仓 H-LUORQ-001 注册全无 / 全有 (无半截镜像态) | (True, True, True)
+PASS  H01    注入: 篡改 M-LUORQ-003 引文 -> 逐字判据报错 | 
+PASS  H02    注入: 旧号替换 -> 号码判据报错 | 
+PASS  H03    注入: LUORQ 面混入弃名 -> 禁字判据报错 | 
+PASS  H04    注入: 顶层块篡改 -> 三方等价判据报错 | m2 has True, d has True
+PASS  H05    注入: 现役混入 M351 -> 旧号判据报错 | 
+PASS  H06    注入: 备份件字节翻改 -> sha 判据报错 | 
+PASS  H07    注入: mode_code 重复 -> 唯一性判据报错 | 
+PASS  H08    注入: xref 悬空 -> 悬空判据报错 | 
+FAIL  A05    M-LUORQ-004 source_chapter 可落源格式 (书名号+年份) | 推广郭兴福教学法现场会讲话（1964-01-25 南京现场会；1964-05-24 天津现场会）
+FAIL  A05    M-LUORQ-005 source_chapter 可落源格式 (书名号+年份) | 警卫工作方针与实践（1949 年访苏警卫部署；1953-02-14 武汉黄鹤楼警卫；1958-06 三峡水情侦察）
+FAIL  A05    M-LUORQ-008 source_chapter 可落源格式 (书名号+年份) | 军委办公会议第八次扩大会议发言（1965-01-06 至 09）；对「空头政治」的批评（1963—1965）
+FAIL  G01c   parity 差异中 LUORQ 面路径均在本卡预期清单内 | ['docs/qa/phase21r8_luorq_qa_evidence/_inject_tmp/modes_data.json', 'docs/qa/phase21r8_luorq_qa_evidence/result.json', 'docs/qa/phase21r8_luorq_qa_evidence/result.txt', 'docs/qa/phase21r8_luorq_qa_gates/gate_credibility_gate.txt', 'docs/qa/phase21r8_luorq_qa_gates/gate_verify_findings.txt', 'docs/qa/phase21r8_luorq_qa_recheck_evidence/_inject_tmp/modes_data.json', 'docs/qa/phase21r8_luorq_qa_reche
+INFO  判据修正 v2 生效: A03 章号 group(2) / B01 行域解析 / A07 省略号分段+B05 扫描面含素材包 json / C-E-G02 内层字典
+INFO  C02 扫描面登记: active_data -> 17 行命中 (例: data/code_maps.json, data/figures/H-CAE-001.json, data/figures/H-CAE-001.md)
+INFO  C02 扫描面登记: active_docs -> 4 行命中 (例: docs/figures/H-CAE-001.md, docs/figures/H-CHU-001.md, docs/figures/H-LZX-001.json)
+INFO  C02 扫描面登记: archive -> 6 行命中 (例: data/figures/_duplicates/H-LUORQ-001_archive_page.md, data/figures/_duplicates/H-LUORQ-001_figures.json)
+INFO  C02 扫描面登记: backup -> 190 行命中 (例: backups/modes_data.bak.finalsync-20260910_081510.json, backups/modes_data.bak.sync-20260909_202426.json, backups_merge_H-JBS-001_20260909_174723/modes_data.json)
+INFO  C02 扫描面登记: other -> 27 行命中 (例: GT-LAN-001.json, build_luorq_r8_archive.py, create_all_figures.sh)
+INFO  C02 扫描面登记: registration -> 16 行命中 (例: data/audit/phase21r8_luorq_landing_manifest.json, data/audit/phase21r8_luorq_merge_manifest.json, data/audit/phase21r8_luorq_top_block_backup.json)
+INFO  C02 扫描面登记: report -> 133 行命中 (例: docs/qa/phase21r8_luorq_merge_verify_evidence/run.log, docs/qa/phase21r8_luorq_qa_evidence/_inject_tmp/modes_data.json, docs/qa/phase21r8_luorq_qa_evidence/result.json)
+INFO  C02 扫描面登记: stale_copy -> 10 行命中 (例: release/v2.0.0/protreptic-core/scenarios_zh.json, site_docs/figures/H-CAE-001/index.html, site_docs/figures/H-CHU-001/index.html)
+INFO  C02 扫描面登记: tooling -> 12 行命中 (例: tools/add_6_more_figures.py, tools/add_final_3.py, tools/build_phase21r8_luorq.py)
+INFO  C02 扫描面登记: web -> 11 行命中 (例: web/public/data/daily/names.json, web/public/data/graph/concept_graph.json, web/public/data/graph/similar_modes.json)
+INFO  D 备份目录: /opt/data/kanban/boards/protreptic/workspaces/t_08bbb73d/backup_merge_H-LUORQ-001_20260923_231321 (卡工作区临时目录, 审计副本见 data/audit/phase21r8_luorq_top_block_backup.json)
+INFO  E09 文件面计数: data/figures json=358 md=116; docs/figures md=210; data/individuals json=207
+INFO  E09 复验口径: docs 档案页在册实况 sha256=17cb095e9659dab9 (64447 B)
+INFO  F04 登记: apply_verification_status --check exit=1 | [OK] 公开口径求和自洽: 公开 3231 加隔离 60 等于全库 3291 / [FAIL] --check: 19 条状态与本规则不一致（例: ['M-WC-001', 'M-WC-002', 'M-WC-003', 'M-WC-004', 'M-WC-005'] ）; 修复用 --write
+INFO  G01 check_repo_parity exit=1 (在途多卡状态下非零属预期, 差异逐条归属)
+INFO  G01 差异总数 96; 非 LUORQ-预期路径 95 条 (他卡在途/前置漂移, 归报告登记面):
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/MANIFEST.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/MANIFEST.sha256
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/README.md
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/api/data/scenarios_en.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/docs/architecture/static_data_manifest.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/docs/architecture/web_p0_routes.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/docs/historical_figures_thinking_modes_library.md
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/docs/research/batch_new_figures_research.md
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/docs/research/candidates_v4_research.legacy.md
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/docs_site/docs/historical_figures_thinking_modes_library.md
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/docs_site/docs/scenario_tags.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/three_dimensional_comparison_matrix.xlsx
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/tools/batch2_candidates.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/tools/ci_data_check.py
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/tools/code_maps_en.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/tools/export_static_site.py
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_en.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/tools/json/scenarios_zh.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/tools/pages_preflight.py
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/tools/test_full_backup.py
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/dist/data/figures.index.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/dist/data/figures/H-AZJ-345.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/dist/data/index.unified.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/dist/data/meta.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/dist/sitemap.xml
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/public/data/figures.index.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/public/data/figures/H-AZJ-345.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/public/data/meta.json
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/public/sitemap.xml
+INFO  G01   MISSING_IN_PUBLISH data/backup_phase21r8_azj345_clear_20260923/web/src/generated/siteCounts.ts
+INFO  G01   MISSING_IN_PUBLISH data/figures/_duplicates/H-AZJ-345_api_scenarios_en_entry.json
+INFO  G01   MISSING_IN_PUBLISH data/figures/_duplicates/H-AZJ-345_figures_row.json
+INFO  G01   MISSING_IN_PUBLISH data/figures/_duplicates/H-AZJ-345_ledger.json
+INFO  G01   MISSING_IN_PUBLISH data/figures/_duplicates/H-AZJ-345_legacy_docs_fragments.md
+INFO  G01   MISSING_IN_PUBLISH data/figures/_duplicates/H-AZJ-345_products_snapshot.json
+INFO  G01   MISSING_IN_PUBLISH data/figures/_duplicates/H-AZJ-345_registry_fragments.json
+INFO  G01   MISSING_IN_PUBLISH data/figures/_duplicates/H-AZJ-345_scenarios_en_entry.json
+INFO  G01   MISSING_IN_PUBLISH data/figures/_duplicates/H-AZJ-345_scenarios_zh_entry.json
+INFO  G01   CONTENT_DIFF docs/02-tools/figure_library.md
+INFO  G01   CONTENT_DIFF docs/architecture/web_p0_routes.json
+INFO  G01   CONTENT_DIFF docs/historical_figures_thinking_modes_library.md
+INFO  G01   CONTENT_DIFF docs/index.md
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_evidence/_inject_tmp/modes_data.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_evidence/result.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_evidence/result.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_gates/gate_credibility_gate.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_gates/gate_verify_findings.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/_inject_tmp/modes_data.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/chain_commits_verify.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/chain_commits_verify.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/result.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/result.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_apply_verification_status.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_credibility_gate.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_gen_web_site_counts_check.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_pages_preflight_data.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_verify_findings.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/gate_verify_source_links.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/gates/parity_check_repo.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/phase21r8_luorq_qa_recheck_selftest.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/result.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runA_prefix_judge/result.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_apply_verification_status.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_credibility_gate.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_gen_web_site_counts_check.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_pages_preflight_data.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_verify_findings.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/gate_verify_source_links.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/gates/parity_check_repo.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/phase21r8_luorq_qa_recheck_selftest.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/result.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_evidence/runB_judge_v2/result.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_gates/gate_apply_verification_status.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_gates/gate_credibility_gate.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_gates/gate_gen_web_site_counts_check.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_gates/gate_pages_preflight_data.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_gates/gate_verify_findings.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_gates/gate_verify_source_links.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_gates/parity_check_repo.txt
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_recheck_selftest.json
+INFO  G01   MISSING_IN_PUBLISH docs/qa/phase21r8_luorq_qa_selftest.json
+INFO  G01   CONTENT_DIFF docs/research/batch_new_figures_research.md
+INFO  G01   CONTENT_DIFF docs/research/candidates_v4_research.legacy.md
+INFO  G01   MISSING_IN_PUBLISH docs/research/phase21r8_w4_names_recon.json
+INFO  G01   MISSING_IN_PUBLISH docs/research/phase21r8_w4_names_recon.md
+INFO  G01   MISSING_IN_PUBLISH docs/research/phase21w4_fix_manifest.json
+INFO  G01   MISSING_IN_PUBLISH docs/research/phase21w4_fix_manifest.md
+INFO  G01   CONTENT_DIFF tools/export_static_site.py
+INFO  G01   CONTENT_DIFF tools/json/scenarios_en.json
+INFO  G01   CONTENT_DIFF tools/json/scenarios_zh.json
+INFO  G01   CONTENT_DIFF tools/pages_preflight.py
+INFO  G01   CONTENT_DIFF web/public/manifest-light.webmanifest
+INFO  G01   CONTENT_DIFF web/public/manifest.webmanifest
+INFO  G01   CONTENT_DIFF web/public/sitemap.xml
+INFO  G01   CONTENT_DIFF web/src/api/static.ts
+INFO  G02 发布仓实况: modes=3291 fn=1083 cm=214 tags=7518 sz=2203 (未镜像时 H-LUORQ-001 不在册)
+INFO  G02 发布仓顶层块 name_zh = 罗瑞卿：公安创建·军警分途·警卫思想
+INFO  Z workspace HEAD=a92c92d45871 (porcelain 46 行); publish HEAD=d4456ab93efe (porcelain 0 行)
