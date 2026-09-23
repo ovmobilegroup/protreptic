@@ -106,8 +106,11 @@
 
 ## 9. 镜像与推送回执
 
-- 发布仓镜像：本轮由合并卡统一收敛（曾子先例）——复制工作仓构建图路径（含 R6C/R2 遗留隔离位与本批 13 路径）/ 发布仓删除 28 条已清档原件 / 跳过他卡未跟踪在制文件（docs/qa/phase21r6_qa_* 等）。
-- 推送回执：待本轮执行后补齐（见本文件 v2 补丁与 evidence/mirror_log_r6b*.json）。
+- 发布仓镜像：本轮由合并卡统一收敛（曾子先例）。按镜像前 parity（evidence/parity_pre_mirror_json.json）执行：复制 62 路径（逐文件 sha256 双侧一致，62/62）/ 发布仓删除 28 条已清档原件（R6C/R2/R6B 活跃层清档件）/ 跳过他卡未跟踪在制 7 路径（docs/qa/phase21r6_qa_*）。日志 evidence/mirror_log_r6b.json。
+- 发布仓提交：ec8f688（main），前置 5c23c64（Phase21-R5 收尾镜像）。
+- 推送回执：git push origin main -> 5c23c64..ec8f688（main）；git ls-remote --heads origin 复核远端 main = ec8f688dab4f8807ec37ef42cc99e90034968bad（回执誊本 evidence/mirror_log_r6b_final.json）。
+- 镜像后 parity（evidence/parity_post_json.json）：both_sides 1783 / identical 1783 / only_publish 0 / only_workspace 7（全部为他卡未跟踪在制文件）—— 跟踪边界零差异。
+- 本文件与证据 v2 补丁（回执誊本）随第二次镜像推送落盘（提交见 v2 记录）。
 
 ## 10. 复现步骤
 

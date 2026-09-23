@@ -288,5 +288,35 @@
     "card_ws": "/opt/data/kanban/boards/protreptic/workspaces/t_f3aabe2c",
     "scripts": "card ws scripts/01~07",
     "evidence_dir": "card ws evidence/"
-  }
+  },
+  "mirror": {
+    "diffs_total": 97,
+    "copied": 62,
+    "deleted": 28,
+    "skipped_untracked": 7,
+    "pairwise_sha_match": true,
+    "log": "card ws evidence/mirror_log_r6b.json (final: mirror_log_r6b_final.json)",
+    "publish_commit": "ec8f688dab4f8807ec37ef42cc99e90034968bad",
+    "publish_pre_commit": "5c23c64151d6fdd46c36b42cc0cb2d48b680a6b4",
+    "push_out": "To https://github.com/ovmobilegroup/protreptic.git\n   5c23c64..ec8f688  main -> main",
+    "remote_main": "ec8f688dab4f8807ec37ef42cc99e90034968bad\trefs/heads/main"
+  },
+  "parity_post": {
+    "status": "DIFF",
+    "counts": {
+      "workspace_in_boundary": 1790,
+      "publish_in_boundary": 1783,
+      "both_sides": 1783,
+      "identical": 1783,
+      "only_workspace": 7,
+      "only_publish": 0,
+      "excluded_publish": 673,
+      "excluded_workspace": 54
+    },
+    "kinds": {
+      "MISSING_IN_PUBLISH": 7
+    },
+    "note": "7 remaining = other card (QA espinosa) untracked in-flight files; all tracked boundary paths identical (identical 1783 / both_sides 1783 / only_publish 0)"
+  },
+  "workspace_commit": "d33e1122"
 }
