@@ -1,0 +1,386 @@
+{
+ "card": "t_58ebf9c2",
+ "figure_code": "H-AZJ-001",
+ "figure_name": "安子介",
+ "date": "2026-09-24",
+ "baseline_commit": "17691ab9",
+ "method": "Phase21-R9 重建落盘：以 AZJ-1 素材包逐条引文重锚（零库写、疑似不升级）",
+ "pack": {
+  "phase21r9_anzijie_sourcing_report.json": "78b9d357090241f3efe6e2bd5d12fdba9d18c058b02d6141969dca349443b517",
+  "phase21r9_anzijie_sourcing_report.md": "d722b85b482713a452bcb91a0a1da11c29d27eb38c95bb9cd24ff940ff619683"
+ },
+ "deliverables": {
+  "data/figures/H-AZJ-001.json": {
+   "sha256": "404bec49e7bfcdf8cfdc666b77270aa531bbb02d053c672f38af93bafe8cf7b9",
+   "bytes": 74464
+  },
+  "data/figures/H-AZJ-001_modes.json": {
+   "sha256": "5579911724b2844fa6b6eafdcad722a71b4250bc917be5043813e992025f048a",
+   "bytes": 68260
+  },
+  "data/individuals/H-AZJ-001.json": {
+   "sha256": "a14a93ef50ee0d8fa680f7b4d454df8df0e75ca2eeb000a083f12121f0c88404",
+   "bytes": 6339
+  },
+  "data/individuals/H-AZJ-001_modes.json": {
+   "sha256": "5579911724b2844fa6b6eafdcad722a71b4250bc917be5043813e992025f048a",
+   "bytes": 68260
+  },
+  "docs/scratch/legacy20_r9_azj_landing/modes_library_entries.json": {
+   "sha256": "4853d3ee9154cbcd5812a20c64a640afc0838c1ef79952d7ef93a8529edf6463",
+   "bytes": 67433
+  },
+  "docs/scratch/legacy20_r9_azj_landing/combined_library_entries.json": {
+   "sha256": "deb0a98fa59e0d0fffd5999b330222d78370388d84d9e8444d3ba49b2e010e6b",
+   "bytes": 68153
+  },
+  "docs/scratch/legacy20_r9_azj_landing/id_mapping.tsv": {
+   "sha256": "8284cd7c89db522013a88ebdf4b6934a1c458ffa92221c162290c01fbf33412c",
+   "bytes": 2259
+  },
+  "docs/scratch/legacy20_r9_azj_landing/category_mapping.tsv": {
+   "sha256": "f8f552123dde2e4b02b5b1d565af4a979facf1a2cbedc85abce44c5810c88052",
+   "bytes": 1010
+  },
+  "docs/scratch/legacy20_r9_azj_landing/scenario_notes.json": {
+   "sha256": "6a25943136581ea6775423e8138f726db89a993faf1c11fa495ce9930b1a3623",
+   "bytes": 521
+  },
+  "docs/scratch/legacy20_r9_azj_landing/top_block_proposal.json": {
+   "sha256": "82a14e9cdc2069c04bb6db234cbaeeca466eee8455fa7d80b52f9a056c05ec44",
+   "bytes": 8054
+  },
+  "docs/scratch/legacy20_r9_azj_landing/figures/H-AZJ-001.json": {
+   "sha256": "404bec49e7bfcdf8cfdc666b77270aa531bbb02d053c672f38af93bafe8cf7b9",
+   "bytes": 74464
+  },
+  "docs/scratch/legacy20_r9_azj_landing/figures/H-AZJ-001_modes.json": {
+   "sha256": "5579911724b2844fa6b6eafdcad722a71b4250bc917be5043813e992025f048a",
+   "bytes": 68260
+  },
+  "docs/scratch/legacy20_r9_azj_landing/individuals/H-AZJ-001.json": {
+   "sha256": "a14a93ef50ee0d8fa680f7b4d454df8df0e75ca2eeb000a083f12121f0c88404",
+   "bytes": 6339
+  },
+  "docs/scratch/legacy20_r9_azj_landing/individuals/H-AZJ-001_modes.json": {
+   "sha256": "5579911724b2844fa6b6eafdcad722a71b4250bc917be5043813e992025f048a",
+   "bytes": 68260
+  }
+ },
+ "counts": {
+  "modes": 10,
+  "quotes": 45,
+  "key_quotes": 10,
+  "witness_texts": 11,
+  "witness_dir_files": 12,
+  "data_files": 4,
+  "landing_files": 10
+ },
+ "preflight": {
+  "scanned": 5060,
+  "buckets": {
+   "semantic_index": 2,
+   "r7r8_docs": 27,
+   "own_new": 22,
+   "archive_evidence": 37,
+   "docs_history": 2,
+   "azj1_pack": 15,
+   "offline_legacy_db": 1,
+   "release_frozen": 6,
+   "tools_history": 2
+  },
+  "live_hits": {},
+  "m_collisions": [],
+  "unclassified": []
+ },
+ "quote_table": [
+  {
+   "entry": "M-AZJ-001",
+   "pack_mode": "M-AZJ-001",
+   "quote_index": 1,
+   "witness": "W01",
+   "note": "",
+   "pack_chars": 102,
+   "key_quote_chars": 102,
+   "pack_raw_substring": true,
+   "tier": "tier=确证（官方讲话转述＋多源互证）；命题级本人原话=疑似（原件未获）"
+  },
+  {
+   "entry": "M-AZJ-002",
+   "pack_mode": "M-AZJ-002",
+   "quote_index": 3,
+   "witness": "W07",
+   "note": "繁体原文",
+   "pack_chars": 64,
+   "key_quote_chars": 64,
+   "pack_raw_substring": true,
+   "tier": "tier=确证"
+  },
+  {
+   "entry": "M-AZJ-003",
+   "pack_mode": "M-AZJ-003",
+   "quote_index": 4,
+   "witness": "W07",
+   "note": "繁体原文",
+   "pack_chars": 33,
+   "key_quote_chars": 33,
+   "pack_raw_substring": true,
+   "tier": "tier=确证"
+  },
+  {
+   "entry": "M-AZJ-004",
+   "pack_mode": "M-AZJ-004",
+   "quote_index": 4,
+   "witness": "W01",
+   "note": "",
+   "pack_chars": 64,
+   "key_quote_chars": 64,
+   "pack_raw_substring": true,
+   "tier": "tier=确证；接见次数两说（W01 七次／W10 六次）并注"
+  },
+  {
+   "entry": "M-AZJ-005",
+   "pack_mode": "M-AZJ-005",
+   "quote_index": 2,
+   "witness": "W01",
+   "note": "",
+   "pack_chars": 80,
+   "key_quote_chars": 80,
+   "pack_raw_substring": true,
+   "tier": "tier=确证（概述级；16 条条目内容未获）"
+  },
+  {
+   "entry": "M-AZJ-006",
+   "pack_mode": "M-AZJ-006",
+   "quote_index": 1,
+   "witness": "W01",
+   "note": "",
+   "pack_chars": 90,
+   "key_quote_chars": 90,
+   "pack_raw_substring": true,
+   "tier": "tier=确证（出版与推广事实）；方法细节=疑似（词条转述）"
+  },
+  {
+   "entry": "M-AZJ-007",
+   "pack_mode": "M-AZJ-007",
+   "quote_index": 1,
+   "witness": "W04",
+   "note": "",
+   "pack_chars": 125,
+   "key_quote_chars": 125,
+   "pack_raw_substring": true,
+   "tier": "tier=确证（专利文档＋多源报道）"
+  },
+  {
+   "entry": "M-AZJ-008",
+   "pack_mode": "M-AZJ-008",
+   "quote_index": 1,
+   "witness": "W01",
+   "note": "",
+   "pack_chars": 49,
+   "key_quote_chars": 49,
+   "pack_raw_substring": true,
+   "tier": "tier=确证（三源）；引语「你是不是中国人」为报道引述"
+  },
+  {
+   "entry": "M-AZJ-009",
+   "pack_mode": "M-AZJ-009",
+   "quote_index": 1,
+   "witness": "W01",
+   "note": "",
+   "pack_chars": 48,
+   "key_quote_chars": 48,
+   "pack_raw_substring": true,
+   "tier": "tier=确证（官方讲话＋维基＋百科）；奖项细节为维基转述（可核二手）"
+  },
+  {
+   "entry": "M-AZJ-010",
+   "pack_mode": "M-AZJ-010",
+   "quote_index": 1,
+   "witness": "W07",
+   "note": "繁体原文",
+   "pack_chars": 73,
+   "key_quote_chars": 73,
+   "pack_raw_substring": true,
+   "tier": "tier=确证（四源）；享年与「国葬」口径两说并注"
+  }
+ ],
+ "frag_whitelist": [],
+ "frag_register_counts": {
+  "quotes#1(W01)|pack.summary|pack.name|pack_md": 1,
+  "quotes#3(W09)|pack_md": 3,
+  "quotes#1(W01)|pack_md": 9,
+  "quotes#1(W01)|pack.summary|pack.boundary|pack.name|pack_md": 1,
+  "quotes#2(W08)|pack_md": 1,
+  "pack_md": 3,
+  "quotes#4(W02)|pack.summary|pack.name|pack_md": 3,
+  "quotes#1(W02)|pack_md": 3,
+  "quotes#2(W02)|pack_md": 5,
+  "quotes#4(W02)|pack_md": 2,
+  "quotes#5(W02)|pack_md": 1,
+  "quotes#3(W07)|pack_md": 4,
+  "pack.boundary|pack_md": 3,
+  "quotes#4(W07)|pack_md": 1,
+  "pack.modern|pack_md": 5,
+  "quotes#3(W02)|pack_md": 1,
+  "quotes#4(W01)|pack_md": 2,
+  "quotes#5(W01)|pack_md": 1,
+  "quotes#6(W10)|pack_md": 1,
+  "pack.summary|pack.modern|pack.name|pack_md": 1,
+  "quotes#1(W01)|pack.summary|pack_md": 2,
+  "quotes#2(W01)|pack_md": 6,
+  "pack.summary|pack.boundary|pack.name|pack_md": 2,
+  "quotes#3(W09)|pack.summary|pack.name|pack_md": 2,
+  "quotes#4(W08)|pack.summary|pack_md": 1,
+  "quotes#4(W08)|pack_md": 1,
+  "pack.summary|pack_md": 2,
+  "quotes#1(W04)|pack.summary|pack_md": 1,
+  "quotes#4(W01)|pack.summary|pack_md": 3,
+  "quotes#1(W04)|pack_md": 1,
+  "quotes#3(W04)|pack_md": 1,
+  "quotes#5(W05)|pack_md": 1,
+  "quotes#6(W03)|pack_md": 1,
+  "pack.summary|pack.boundary|pack_md": 3,
+  "quotes#4(W10)|pack_md": 1,
+  "quotes#1(W01)|quotes#2(W02)|pack.summary|pack.name|pack_md": 2,
+  "quotes#3(W03)|pack_md": 1,
+  "quotes#1(W07)|pack_md": 3,
+  "quotes#1(W07)|pack.summary|pack_md": 2,
+  "quotes#4(W03)|pack.boundary|pack_md": 2,
+  "quotes#3(W01)|pack_md": 1,
+  "quotes#5(W07)|pack_md": 1
+ },
+ "frag_register_total": 91,
+ "tier_table": [
+  {
+   "mode_id": "M-AZJ-001",
+   "pack_name": "汉字本位主义：汉字是「中国第五大发明」与中华文化之根",
+   "tier": "确证（官方讲话转述+多源互证）；命题级本人原话=疑似",
+   "boundary": "「第五大发明」为官方讲话转述（“认为汉字是…”）；本人原话原件未获；「二十一世纪…」仅转述链，不得写作确证引文。"
+  },
+  {
+   "mode_id": "M-AZJ-002",
+   "pack_name": "实业救国路径：从译书启智到「三经一纬」的产业升级",
+   "tier": "确证",
+   "boundary": "非科班出身、时代窗口差异；路径不可简单复制。"
+  },
+  {
+   "mode_id": "M-AZJ-003",
+   "pack_name": "多语种国际游说：语言即竞争力",
+   "tier": "确证",
+   "boundary": "语言红利须与专业度结合；不可简化为「学外语=会经商」。"
+  },
+  {
+   "mode_id": "M-AZJ-004",
+   "pack_name": "体制内建言：从两局议员到基本法起草委员会副主任",
+   "tier": "确证",
+   "boundary": "政治路线随时代演进，不宜标签化；接见次数两说。"
+  },
+  {
+   "mode_id": "M-AZJ-005",
+   "pack_name": "「一国两制」早期理论贡献：16 条建议与繁荣稳定框架",
+   "tier": "确证（概述级；条目内容未获）",
+   "boundary": "「16 条」具体条目未获，不得代拟。"
+  },
+  {
+   "mode_id": "M-AZJ-006",
+   "pack_name": "汉字解析教学法：「部首切除法」与对外汉字推广",
+   "tier": "确证（出版与推广事实）；方法细节=疑似（词条转述）",
+   "boundary": "方法细节系百科转述，未见原著原件；不得写成确证级方法论定义。"
+  },
+  {
+   "mode_id": "M-AZJ-007",
+   "pack_name": "写字机与六位数编码：汉字信息化的原创发明",
+   "tier": "确证（专利文档+多源报道）",
+   "boundary": "历史产物，历史价值大于当代实用价值；「首次」为报道口径。"
+  },
+  {
+   "mode_id": "M-AZJ-008",
+   "pack_name": "儒商传统：实业、学术与公益的三重身份整合",
+   "tier": "确证（三源）；引语为报道引述",
+   "boundary": "儒商人格具时代特殊性；「博学儒商」为港媒标题用语。"
+  },
+  {
+   "mode_id": "M-AZJ-009",
+   "pack_name": "教育公益与学术激励：安子介国际贸易研究奖",
+   "tier": "确证（官方讲话+维基+百科）",
+   "boundary": "设立时已79岁（晚年布局），效应长期缓释；「最高学术奖」为转述评价语。"
+  },
+  {
+   "mode_id": "M-AZJ-010",
+   "pack_name": "晚年使命：香港回归与平稳过渡的担当",
+   "tier": "确证（四源）",
+   "boundary": "享年87/88两说；「国葬」为维基/港媒表述，官方通稿未用该词。"
+  }
+ ],
+ "identity_anchors": {
+  "name_zh": "安子介",
+  "name_en": "Ann Tse Kai",
+  "life": "1912-06-26 - 2000-06-03",
+  "origin": "浙江定海（生于上海）",
+  "official_titles": "杰出的社会活动家、著名爱国人士、香港知名实业家（W01/W02/W11）",
+  "posts": "第八、九届全国政协副主席；第六、七届全国政协常委；香港立法局/行政局非官守议员（1970—1978）；工业总会主席（1970—1975）；贸易发展局主席（1975—1979）（W02/W10）",
+  "works": "《间接成本之研究》1937；《国际贸易实务》1947；《陆沉》1938/1988；《解开汉字之谜》1982；《劈文切字集》1987；《安子介现代千字文》1991—1992；《汉字易学》1995（W01/W02/W03/W08/W10）",
+  "patent": "CN85101817.3A（1985-04-01 申请；1988-03-09 公开；授权 CN1003890B）五国专利（W04/W05/W01）",
+  "award": "安子介国际贸易研究奖（1991 设立，对外经济贸易大学承办）（W01/W02/W03）"
+ },
+ "open_items_reference": {
+  "pack": "AZJ-1 素材包 §五",
+  "count": 13,
+  "note": "疑似与待核项保留在本档 pending/两说口径内，不得升级"
+ },
+ "merge_card_scope": [
+  "M-AZJ-001~010 入 data/modes_data.json（modes 列表 + 顶层块「H-AZJ-001」新增，随动 total）",
+  "figure 注册：data/code_maps.json / data/figure_names.json / tools/json 镜像与 DB（api/protreptic.db）",
+  "站链复跑（既定 5 步）与 parity 复测；发布仓镜像 + push + ls-remote 回执"
+ ],
+ "zero_library_write": {
+  "before": {
+   "data/modes_data.json": "d9de42a0776440356b31a4f766a1bba5fead078ea2ae6dbb15525a31d92c1fa7",
+   "data/code_maps.json": "53154b9ddd5e2e3f4ae0bbde746d4ce6ffc41c4f7bd91ce7c9fa047ae4999d83",
+   "data/scenarios_zh.json": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+   "data/scenarios_en.json": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+   "data/scenario_tags.json": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+   "data/figure_names.json": "69f531fd0153fd3b762ca9641657121552a792ae420d6ba98016b209a7ddf3fd"
+  },
+  "after": {
+   "data/modes_data.json": "d9de42a0776440356b31a4f766a1bba5fead078ea2ae6dbb15525a31d92c1fa7",
+   "data/code_maps.json": "53154b9ddd5e2e3f4ae0bbde746d4ce6ffc41c4f7bd91ce7c9fa047ae4999d83",
+   "data/scenarios_zh.json": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+   "data/scenarios_en.json": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+   "data/scenario_tags.json": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+   "data/figure_names.json": "69f531fd0153fd3b762ca9641657121552a792ae420d6ba98016b209a7ddf3fd"
+  },
+  "untouched": true
+ },
+ "archive_untouched": {
+  "H-AZJ-345_api_scenarios_en_entry.json": "40f7bfe2c05517e3afec3baaa709bba6f7eaaf9fe7f936d8d87511a340bbf4fe",
+  "H-AZJ-345_docs_site_fragments.md": "0b17162660c35127bfd89e126547833bb6b9082eaa250e7bd01b3075f92c3db9",
+  "H-AZJ-345_figures_row.json": "9c420d72d8f636c568059cd01fb14640e98028d16f3a0030ac2f15fedbfbaa6f",
+  "H-AZJ-345_ledger.json": "5970e33b7e64e9e8407683f252bb0fae799c006d11cbe4f5a53c44def03377d5",
+  "H-AZJ-345_legacy_docs_fragments.md": "bffb1d67d48fd5448e63e05925e4156d0b303ab2186c4e40e15efb75ede8dfb1",
+  "H-AZJ-345_products_snapshot.json": "b790054b56072afa642778747f1ccd6c9a8d07440469f18cfafc49b6011a403e",
+  "H-AZJ-345_registry_fragments.json": "eff38acbcc2e2be2c7607b37a753c6638b9893b0ae327bfa0a264083fceb2993",
+  "H-AZJ-345_scenarios_en_entry.json": "a01b3d9e749376eb1884926d9d3c15572f1a85d99cdd79055758260a2d29c961",
+  "H-AZJ-345_scenarios_zh_entry.json": "dcf6f03f34853adf798ca73484553740448983bbdb5a8990c6e258dd0eb7f87d"
+ },
+ "hard_fixes": [
+  {
+   "item": "禁用复用",
+   "action": "H-AZJ-345 判死清档件及其旧载荷号段、叙事零引用；本档全字段零出现 H-AZJ-345 内容"
+  },
+  {
+   "item": "疑似不升级",
+   "action": "「第五大发明」原话、16 条条目、170 部首样本、「二十一世纪是汉字发挥威力」等均保留 pending/疑似标记"
+  },
+  {
+   "item": "两说并存",
+   "action": "享年 87/88、接见六次/七次、大紫荆 1997-06-25/07-02 并注于 caveats 与相应条目"
+  },
+  {
+   "item": "零自造句",
+   "action": "definition/process/cases 全部以素材包引文与概述为据；英文面为中文内容之译写（注明为重建卡译写）"
+  }
+ ],
+ "unrelated_mentions": "本卡产出全部新写；工作树既有未跟踪件（tools/build_phase21r9_shenfu.py 等）属他链、未触"
+}

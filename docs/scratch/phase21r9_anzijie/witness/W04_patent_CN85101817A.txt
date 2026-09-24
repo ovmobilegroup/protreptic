@@ -1,0 +1,1646 @@
+ 
+
+ CN85101817A - 安子介式汉字笔形电脑编码法及其键盘 
+ - Google Patents 
+
+ CN85101817A - 安子介式汉字笔形电脑编码法及其键盘 
+ - Google Patents 
+ 安子介式汉字笔形电脑编码法及其键盘 
+
+ Download PDF 
+ Info 
+
+ Publication number 
+ CN85101817A 
+
+ CN85101817A 
+ CN85101817.3A 
+ CN85101817A 
+ CN85101817A 
+ CN 85101817 A 
+ CN85101817 A 
+ CN 85101817A 
+
+ CN 85101817 A 
+ CN85101817 A 
+ CN 85101817A 
+ CN 85101817 A 
+ CN85101817 A 
+ CN 85101817A 
+
+ Authority 
+ CN 
+ China 
+
+ Prior art keywords 
+ radical 
+ code 
+ keyboard 
+ character 
+ digits 
+
+ Prior art date 
+ 1985-04-01 
+
+ Legal status (The legal status is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the status listed.) 
+
+ Expired - Lifetime 
+
+ Application number 
+ CN85101817.3A 
+
+ Other languages 
+
+ English ( en )
+
+ Other versions 
+
+ CN1003890B 
+ ( zh 
+
+ Inventor 
+ 安子介 
+
+ Current Assignee (The listed assignees may be inaccurate. Google has not performed a legal analysis and makes no representation or warranty as to the accuracy of the list.) 
+
+ Individual
+
+ Original Assignee 
+ Individual 
+
+ Priority date (The priority date is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the date listed.) 
+ 1985-04-01 
+
+ Filing date 
+ 1985-04-01 
+
+ Publication date 
+ 1988-03-09 
+
+ 1985-04-01 
+ Application filed by Individual 
+ filed 
+ Critical 
+
+ Individual 
+
+ 1985-04-01 
+ Priority to CN85101817.3A 
+ priority 
+ Critical 
+
+ patent/CN1003890B/zh 
+
+ 1985-12-20 
+ Priority to GB08531522A 
+ priority 
+
+ patent/GB2175720B/en 
+
+ 1986-02-28 
+ Priority to JP61042017A 
+ priority 
+
+ patent/JPH0625989B2/ja 
+
+ 1987-08-27 
+ Priority to US07/090,058 
+ priority 
+
+ patent/US4868913A/en 
+
+ 1988-03-09 
+ Publication of CN85101817A 
+ publication 
+ Critical 
+
+ patent/CN85101817A/zh 
+
+ 1989-04-12 
+ Publication of CN1003890B 
+ publication 
+ Critical 
+
+ patent/CN1003890B/zh 
+
+ 1989-05-22 
+ Priority to SG327/89A 
+ priority 
+
+ patent/SG32789G/en 
+
+ 1989-07-27 
+ Priority to HK602/89A 
+ priority 
+
+ patent/HK60289A/xx 
+
+ Status 
+ Expired 
+ legal-status 
+ Critical 
+ Current 
+
+ Links 
+
+ Espacenet 
+
+ Global Dossier 
+
+ Discuss 
+
+ Images 
+
+ Classifications 
+
+ B — PERFORMING OPERATIONS; TRANSPORTING 
+
+ B41 — PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS 
+
+ B41J — TYPEWRITERS; SELECTIVE PRINTING MECHANISMS, i.e. MECHANISMS PRINTING OTHERWISE THAN FROM A FORME; CORRECTION OF TYPOGRAPHICAL ERRORS 
+
+ B41J5/00 — Devices or arrangements for controlling character selection 
+
+ B41J5/08 — Character or syllable selected by means of keys or keyboards of the typewriter type 
+
+ B41J5/10 — Arrangements of keyboards, e.g. key button disposition 
+
+ B41J5/107 — Arrangements of keyboards, e.g. key button disposition for special purposes, e.g. Braille, Chinese, multi-language options 
+
+ G — PHYSICS 
+
+ G06 — COMPUTING OR CALCULATING; COUNTING 
+
+ G06F — ELECTRIC DIGITAL DATA PROCESSING 
+
+ G06F3/00 — Input arrangements for transferring data to be processed into a form capable of being handled by the computer; Output arrangements for transferring data from processing unit to output unit, e.g. interface arrangements 
+
+ G06F3/01 — Input arrangements or combined input and output arrangements for interaction between user and computer 
+
+ G06F3/018 — Input/output arrangements for oriental characters 
+
+ G — PHYSICS 
+
+ G06 — COMPUTING OR CALCULATING; COUNTING 
+
+ G06F — ELECTRIC DIGITAL DATA PROCESSING 
+
+ G06F40/00 — Handling natural language data 
+
+ G06F40/10 — Text processing 
+
+ G06F40/12 — Use of codes for handling textual entities 
+
+ G06F40/126 — Character encoding 
+
+ G06F40/129 — Handling non-Latin characters, e.g. kana-to-kanji conversion 
+
+ Landscapes 
+
+ Engineering & Computer Science 
+ ( AREA )
+
+ Theoretical Computer Science 
+ ( AREA )
+
+ General Engineering & Computer Science 
+ ( AREA )
+
+ Physics & Mathematics 
+ ( AREA )
+
+ General Physics & Mathematics 
+ ( AREA )
+
+ Computational Linguistics 
+ ( AREA )
+
+ General Health & Medical Sciences 
+ ( AREA )
+
+ Health & Medical Sciences 
+ ( AREA )
+
+ Audiology, Speech & Language Pathology 
+ ( AREA )
+
+ Artificial Intelligence 
+ ( AREA )
+
+ Human Computer Interaction 
+ ( AREA )
+
+ Document Processing Apparatus 
+ ( AREA )
+
+ Input From Keyboards Or The Like 
+ ( AREA )
+
+ Image Processing 
+ ( AREA )
+
+ Abstract 
+
+ 本发明“安子介式汉字笔形电脑编码法及其键盘”采用把汉字分成部首和其余部分，分别按笔划规定赋予数字，组成编码，由于采用了六位数字，故无重码，此法亦给出了适用于欧美及日本文字的例子。本法也适用于词组，利用本法的编码可作密码使用，键盘只由数字和功能按键构成，易学易用。 
+
+ Description 
+
+ 安子介式汉字笔形电脑编码法及其键盘 
+
+ 本发明主要涉及汉字的笔形编码及此方法用于中文电脑的输入键盘 
+
+ 汉字是中国特有的文字，经过悠久的历史逐渐形成。汉字是由一些基本的笔划构成的方框形图案。目前在字典中查找汉字的方法，主要有三个：一是汉语拼音;二是利用部首;三是利用文字本身的形状，按其四个角上的笔形，与数字对应汉字，即四角号码法。以上三法，当考虑到用于电脑输入和中文电脑识别时，汉语拼音则因同音字太多而不易采用，而且因中国地域广大，方言众多，掌握困难;部首法每一个字要计算笔划，同一部首同一笔划的字亦很多，一个字究竟属于哪一个部首不易确定;现行四角号码法同码重字太多，加了第五码后仍多重码字，必须同时取出加以选别。至于邮局电报用的电报编号，虽也取四码，但因为排列上除部首关系外，毫无逻辑性，不易记忆，故只适宜输出，不宜做输入。至于其它应用笔形赋号法作电脑输入用，则有笔顺，选笔问题，错综复杂，一时之间，不易学会。 
+
+ 本发明的方法，根据汉字的“可拆性”，发明了“部首切除法”。承认“部首”的存在，采用了对所有汉字包括标点符号一律用多位数-本发明中具体采用了六位数来构成编码的方法，克服了上面的缺点，不须要知道笔顺，凭“字形”即可知码。同时采用了简易的数字电脑输入键盘，使用本法打“数码”娴熟后，不经大脑，见码即会在键上“下指”，变成简单的条件反射，使得一切中外人士，利用此法书写汉字变得毫无困难 
+ 一、本发明“安子介式汉字笔形电脑编码法及其键盘”采用了“部首切除”和用若干位数字表示一个汉字或一个词组的方法及创造了利用该方法的相应的数字键盘，本发明的编码方法的特征是，每个汉字取一个且只取一个部首赋予相应的数码，将此部首“切除”后余下的部分赋予另一数码，这两部分数码合起来构成了此汉字的本发明的编码，本发明的键盘的特点是，输入的键盘只由0至9的单个数字键及少量的统领其它一切机能的功能键构成。 
+ 二、本发明的方法是用六位数字的编码代表一个汉字或一个词组。 
+ 1.六位数字的取法，分首两位和后四位。 
+ 2.首两位数字和后四位数字都是按予先规定的一定的笔划代表一定的数字进行赋值的，笔形与数字的对应关系见表一，笔形的形象化见图一，图一中各种手势所形成的笔形与数字相对应。 
+ 表一笔形与数字对应表 
+
+ 三、首两位编码的取法： 
+ 1.笔形和数字的关系按表一规定。 
+ 2.汉字以其一部分作为“部首”，通常选用角部的部分笔形作为部首，本法规定找“部首”按逆时针方向进行，即从字的上部开始，经左、下，到右止，也就是从北，经西、南、东止。 
+ 3.每一汉字取而且只取一个部首，例如“拿”字，以“人”作部首。 
+ 4.所取部首必须至少占该汉字的两个角。 
+ 例如“高”字，取“亠”作部首。 
+ “语”字，取“讠”作部首。 
+ 5.因为部首占了两个角，每个角取一个数字，所以可以取到两个数字。一个部首占两个角时，给了该笔形的相应数字后，次角取0。 
+ 6.这两个数字的先后次序按所取部首的形状，先左后右或先上后下。 
+ 7.表二给出了按本发明所确定的头两位编码数字及相应取法和相应部首。 
+ 表二，安子介编码首二位数字与部首形状对照（附如何取得）： 
+ 表二    安子介电码首两数电码取数表 
+ 电码首两位数    部首    如何取得    电码首两位数    部首    如何取得 
+ 0    亠    06    言    言 
+ 00    亠＊    亠    07    亡    亡 
+ 01 疒＊ 疒 07 衣，
+ 衣，
+
+ 01    鹿    鹿 
+ 01 立 立 08 六，
+ 六，
+
+ 02    广    广    09    麻    麻 
+ 02    方    方    1    一 
+ 03    亦    亦    10    一    一 
+ 10    弓    弓 
+ 04 文，
+ 文，
+ 10 雨 雨 
+ 04    辛    辛 
+ 11 二 ＊ 二 
+ 05    （空白）    11    瓦    瓦 
+ 电码首两位数    部首    如何取得    电码首两位数    部首    如何取得 
+ 12 工 工 （＋1） 19 示 示 
+ 12    歹    歹 
+ 12 羽，
+ 羽，
+ 2
+ 丿 亅 
+ 13 王 王
+ 20 刂
+ 刂 
+ 20    片    片 
+ 14 耳，
+ 耳，
+ 20 隹 隹 
+ 14 子，
+ 子，
+
+ 21    乚＊    乚 
+ 15 （空白） 21 纟
+ 纟 
+ 21 鸟
+ 鸟 
+ 16 石 石 21 鱼
+ 鱼 
+ 16 西，
+ 西 
+ 22 亻
+ 亻 
+ 17 酉 酉
+ 22
+ 月 
+ 17 刀 刀 22 虍
+ 虍 
+ 22    豸    豸 
+ 18 頁，页
+ 頁，页 
+ 电码首两位数    部首    如何取得    电码首两位数    部首    如何取得 
+ 23
+ 27 勹＊ 勹 
+ 23    厶    厶    27    夕    夕 
+ 23 鳥，鳥 鳥 27 饣
+ 饣 
+ 23    魚，魚    魚    27    毛    毛 
+ 27 角
+
+ 24 彳 彳
+
+ 24    舟    舟    28    欠    欠 
+ 25 手 手 29 禾，
+ 禾，
+
+ 25 牛，
+ 牛，
+ 29
+
+ 25 鬼 鬼 29 爪，
+ 爪，爫 
+ 26    白，白    白    3    丶 
+ 26    舌    舌    30    宀＊    宀 
+ 30    冫＊    冫 
+ 27    山，山    山 
+ 27 爿 φ 爿 31 氵
+ 氵 
+ φ注意：这个部首编号是由右至左。 
+ 电码首两位数    部首    如何取得    电码首两位数    部首    如何取得 
+ 32 礻＊ 礻 4
+ 十 
+ 32    户    户 
+ 40
+ 乂 
+ 33
+ 40 十 十 
+ 33    心    心 
+ 33 灬
+ 灬 41 土，
+ 土，
+
+ 41    士    士 
+ 34 寸 φ 寸 
+ 42    力    力 
+ 35 戈 戈 42 巾，
+ 巾 
+ 42    犭＊    犭 
+ 36    （空白） 
+ 43    （空白） 
+ 37 讠
+ 讠 
+ 37 门
+ 门 44 女，
+ 女，
+
+ 37 冖＊ 冖 44 艹＊，艹
+ ，
+ ， 
+ 廾 
+ 38    穴    穴    45    革    革 
+ 39 衤
+ 衤 45 车
+ 车，
+
+ φ注意：这个部首编号是由下至上。 
+ φ注意：这个部首编号是由右至左。 
+ 电码首两位数    部首    如何取得    电码首两位数    部首    如何取得 
+ 46    （空白）    53    日文汉字 
+ 47
+ 54 罕见字 
+ 48    大    大    55    部首 
+ 48    走    走 
+ 56 
+ φ不能区别部首之繁体字 
+ 49 木，
+ 木，
+
+ 57 
+ φ不能区别部首之简体字 
+ 5
+ 丰 58
+
+ 50 扌
+ 扌 
+ 50 車 車 59 耒，
+ 耒，
+
+ 51    虫    虫    6口囗 
+ 51 主＊
+ 60 口 口 
+ 52 （空白） 61 日 日 （＋1） 
+ φ这一类属也包括几个由拥挤区域挤出来的「有明显部首」的汉字。 
+ 电码首两位数    部首    如何取得    电码首两位数    部首    如何取得 
+ 61 
+  7
+
+ 61    見    見 
+ 70    （空白） 
+ 62 目 目 （＋2） 71 厂 厂 
+ 62 罒＊ 罒 （＋2） 71 皿 皿 
+ 71 马
+ ， 马 
+ 63 黑 黑 71 见
+ ，见 见 
+ 64    田    田    72    尸    尸 
+ 72    卩＊    卩 
+ 65 （空白） 72
+
+ 72    月    月 
+ 66    口＊    囗 
+ 67 曰 曰 （＋1） 73 阝＊ 阝 （＋1） 
+ 73 馬，
+ 馬 
+ 68    貝    貝    73    髟＊    髟 
+ 68    足    足 
+ 74 又， 又↑ 又，
+
+ 69    （空白）    74    殳    殳 
+ 电码首两位数    部首    如何取得    电码首两位数    部首    如何取得 
+ 75 戊 戊 80 人，人
+ 人，入 
+ 80    ＊     
+ 76    （空白blank) 
+ 81    气    气 
+ 77    門    門    81    金    金 
+ 77    骨，骨    骨 
+ 77 臼，
+ 臼，
+ 82 丷＊ 丷 （＋2） 
+ 77    鼠    鼠 
+ 77 冂＊，
+ 冂，
+ 83 （空白） 
+ 77
+
+ 84    父    父 
+ 78 風，风
+ 風，风 （＋1） 84 攵 ＊ 攵 
+ 78
+ （＋1） 
+ 78 贝
+ ，贝 贝 85 羊，
+ ，
+
+ 79 匚
+ 匚 （＋2） 86 （空白） 
+ 8    八 
+ 87 钅
+ 钅 
+ 80 八，
+ 八，
+
+ 电码首两位数    部首    如何取得    电码首两位数    部首    如何取得 
+ 87    缶，缶    缶    92    （空白） 
+ 87 食，食
+ 食，食 
+ 93    （空白） 
+ 88    矢    矢 
+ 88    ＊        94    （空白） 
+ 89 （空白） 95
+
+ 9 小 96 尚，
+ 尚，
+
+ 90 小，
+ 小，，
+ 97
+
+ 90
+
+ 90 水，氺
+ 水，氺 98 火，
+ 火，
+
+ 91 （空白） 99 米，
+ 米，米 
+ 1）有 ＊ 者为「非字」部首。 
+ 2）有
+ 记号者为简体或变体，与繁体用同一「部首电码」。 
+ 3）有
+ 记号者为用另一电码之「成字部首」或「非字部首」之简体或变体。 
+ 8.表二中05，15，36，43，46，52，53，54，55，56，57，65，69，70，76，83，86，89，91，92，93，94为空白，表示没有中国汉字与之对应。 
+ 9.对于“不具有任何被采用部首的简体字、繁体字、异体字、”“罕见汉字”、“日文汉字”等，利用表二中上述若干空白，人为地将这些字加上数码。例如“日文汉字”规定53为首二码，对“罕见字”规定54为首二码，对“不能区别部首之繁体字异体字”规定56为首二码，对“不能区别部首之简体字”规定57为首二码，对于既是部首;本身又是「字」的「成字部首」规定55为首二码等等。这些编号都有“含意”，5是1至9的中心，且是空白，所以用以指「特类字」;4与“死”谐音意“无生气的字”，7与“简”谐音，6与“碌”谐音。用以指“日文汉字”的53，是日文里“御参考”的谐音。“部首”是本码法的中心，所以“成字部首”的首二码用55。 
+ 四、后四位编码的取法： 
+ 1.将汉字的取了编码的部首部分去掉，对其余的部分进行取码，取四位数字作为编码。 
+ 2.四位数字按4个角部的笔形来取，对应关系服从表一。 
+ 3.取码顺序按左上角，右上角，左下角，右下角顺序，构成四位数字的顺序。 
+ 4.一形占两角时，次角取0，次角无形时也取0。例如：“法”字的部首是“氵”，取得数字是31，余下“去”的编码是4073，上部笔形“+”占了两角，所以次角要取0，全字编码是314073。一形占四角或切余部首后只余一笔形时，在该笔形取相应数字后须再补上三个0，例如“和”字的编码是296000，“太”字的编码是483000。 
+ 5.如部首占了四角时，后四数码取自四角框内小字的四角，例如：“国”的编码是661010，当部首切余部分也占四角时，第三、四数用代表框形的编码，五、六数取框内小字的下两角，例如：“
+ ”的编码是497790。部首占了三个角时，仍当它占了二角，例如：“进”的编码是335500，部首“辶”占了三个角，仍是33，后四数码取自两个“
+ ”，故第五、六码都取0。 
+ 五、根据三和四构成的六位数即是本发明的编码。 
+ 六、本法对标点符号所取码号如下表表三。表三说明：开号末码用′1′，收号末码′9′，中间性的符号末码用′5′，常用性的符号末码用′0′。 
+ 表三标点符号取码码号    155000-155099 
+ 155900-155999 
+
+ 七、数字用另外方式取码，其方法有二，如果是汉字数字，则在数字前面加0，构成六位数，如“九”取“000009”，如果是数学数字，以予先规定的数学符号指示数字，例如“15”为首二码，即将150009作为9的编码，余类推，但15000不需打五键，只在图二左上0/9第一键一按即可。 
+ 数学符号取码码号如下表表四： 
+ 150000-150109 
+ 表四    数学符号取码码号    151111-151234 
+ 159001-159401 
+
+ 八、有些字，除具有一般的码外，亦有特殊的取码，例如“年”字，按本法的取码应是568050或误成805000，但又为它创设了易于记忆的000365，等等。又给叠字定了-简码000099，例如：“人人”，“往往”第二个“人”或“往”字，或不论何字，只要打了99，就会自动重复。 
+ 九、如果一个六位数编码适用于两个或两个以上汉字时，采用如下方法避免重码。 
+ 1.最常用字总是优先采用此原码。 
+ 2.次常用字在最后一位数字上加一（即+1）即构成新码，余类推。 
+ 3.简体字和繁体字同码时，简体字数码加1。 
+ 4.在书写时，如果偶尔把“+1”步骤漏了，而文件又已经发出，那种错误对方不难猜出，因为顺序号之间，一般无意义上的关联。 
+ 十、使用本编码，部首取错位置也没有关系，本编码有严谨考虑和处置。例如“拿”字应以“人”作为部首，编码为“801050”但拘于传统，误以“手”为部首，致导出“258060”码号，在《安子介汉字笔划电脑编码》中，两者都被列入，可减免查码，节省时间，用于电脑输入时，就是加快了输入的速度。 
+ 十一、本发明的编码成功地将一般字典上所列部首的数目由二百四十多个减少至160个，所废去的部首如下表表五。 
+ 表五    本法中已被废掉「部首」表（110个） 
+ 《现代汉语词典》中作为部首的下列字型，在本方案中已经「不算部首」： 
+
+ 其中十二个是为简体字而创立的部首;方法是把统驭六个汉字以下的部首废掉。 
+ 十二、应用本法时本法创立了六个前人没有承认过的部首，即“六”，“二”，“
+ ”，“
+ ”，“丷”，“
+ ”。此外，在传统的囗，门，
+ 等部首之外，多了“
+ ”，“冂”等两个占四角的部首。 
+
+ 例子如下： 
+ “六”    袞    086073 
+ 产    087120 
+ 産    087121 
+ 彦    087122 
+ 商    087760 
+ “二”    二    110000 
+ 三    111000 
+ 亏    112002 
+ 云    112073 
+ 正    112100 
+ 至    112340 
+ “
+ ” 修 232720 
+ 條    232790 
+ 倏    232780 
+ “
+ ” 舆 774080 
+ 輿    775080 
+ “丷”    並    821010 
+ 前    821022 
+ 普    821060 
+ 关    821080 
+ 曾    826060 
+ “
+ ” 学 903740 
+ 尝    903773 
+ 觉    903721 
+ 等等。 
+
+ 十三、本法适用于日文，其取码见下表表六。 
+ 表六    日文片假名与平假名的编码 
+ 《五十音图》上的第一行ァ行第一′假名′的末码必然是′1′，余以类推，第五假名的末码必然是′5′。首两编码片假名是′65′，第三码必然是′0′，第四码：′0′指「清音」，′1′指「濁音」，′2′指「半濁音」，至于第五码，第一行ァ行是′0′，余以类推，第十行ワ行是′9′。 
+ 表六    日文    片假名 
+
+ 续表六    日文    平假名 
+ 类属编号：′69′，其余编号方法同「片假名」 
+
+ 十四、本编码法也适用于世界其它各种文字，包括英文、德文、法文、西班牙文、俄文、希腊文等等。码号详见表七，表八，表九。 
+ 其方法是：尖三角取3，圆角取8，非全圆角取6，空角取0，其余笔划取码同表一和表二的规定。朝鲜文也可用此法编码 
+ （原来是部首表中的空白位） 
+ 表七    欧文字母编码 
+ 四角号码适用法 
+ （类属编号05） 
+ 1.「尖三角」    ＝3 
+ 2.「圆角」    ＝8 
+ 3.「非全圆角」    ＝6 
+ 4.「空角」    ＝0 
+ 5.一部份英文大写字母    ＝小写+1 
+ （英文中ZWOCSXV 
+ 等七字母） 
+ 6.英文「大写形」用作俄文小写字母    ＝英文大写-1 
+ （俄文中BHKMT） 
+ 7.英文「小写形」用作俄文大写字母    ＝英文小写+1 
+ （俄文中y） 
+ 8.德文「小写有符号」字母    ＝英文小写+1（ae,ü） 
+ （oe+2） 
+ 9.德文「大写有符号」字母    ＝英文大写+1（Ae，Ue） 
+ （Oe+3） 
+ 10.法文「小写有符号」字母    ＝英文小写+10- 
+ （ξ，é，ê，è，ё） 
+ 11.西班牙文「小写有符号」字母 ＝英文小写+2（
+ ） 
+ 续表七    欧文字母编码 
+
+ 表八    俄文编码 
+
+ 表九    希腊文编码 
+
+ 十五、本编码一律采用六位数，即从0到9这十个数字中取6个，而不用英文字母或其它记号。 
+ 十六、尽管本发明的编码一律采用了六位数，但是，开头的0是不需要打键的，所以平均输入速度，不是每个字要打足六键，少打三、四键，在实际应用上是常见的事。上述八中所举例子，最为明显。如果键盘上有“000”键，第四，五，六码打一键的机会相当多，例如四、4，中所举例的“和”字。 
+ 十七、本编码从000001开始，至999999止，中间有很多空号，就是没有被用的号目，键打了不会出字。 
+ 十八、本发明的键盘的一个例子，如图二所示，键盘全用数字。数目字尽人皆知，它不似英文字母键盘上字母排列次序古怪，对初用者一时不易摸熟。按数字键，不但绝无困难，而且键间距离近，一手可以操作，另一手可作别用，例如可拿稿子，拿饮料杯等，减少了指腕移动时间，也就是可能增加输入速度。而且数字键娴熟后，使用者会见码下指，变成条件反射，不需经大脑思考，是能增加输入速度的另一面。 
+ 十九、用了四角笔形赋值是不需要知道“笔顺”，只须根据字形，即可确定和输入此码。对于电脑输入十分便利。对于外国人士尤其容易应用。 
+ 二十、根据本编码法的构思和方法，本编码及方法宜于用作密码。因为全部汉字和标点等都是用六个数字去代表，只要预先约定将一个六位数中的一、二、三个或更多个数字，互易数或互易位，就可办到，甚至可以采取不同日子用不同互易数或互易位的安排。现代汉文造句不可没有标点，标点也可用六位数字去代表，不必依靠另键，更适用于作密码。 
+ 二十一、根据本码法发明人已编就无重码汉字超过九千，同时仍保留给使用者自创新字或另编新号自用或与人约定共用的便利，就是利用部首代码空白位为首二位数并用作指标，后四位数取自该字的四角，虽然是自定，仍合逻辑性，易于记忆，例如：将罕姓“佟”编成912723。 
+ 二十二、本发明的方法适用于词组，利用本法亦用若干数字表示，例如六位数字。对词组取第一个字的上两角和末一个字的下两角，每两角取两个数字，构成四位数字，另两位数字取自预先规定表示，这是“词组”的特征的数字。 
+ 二十三、本发明特别适合于用于中文电脑，故也称此编码为电脑编码。 
+
+ Claims ( 11 ) 
+
+ 1、本发明“安子介式汉字笔形电脑编码法及其键盘”采用了“部首切除”和用若干位数字表示一个汉字或一个词组的方法，及创造了利用该方法的相应的数字键盘，本发明的编码方法的特征是，每一个汉字取一个且只取一个部首并赋予相应的数码，将此部首“切除”后余下的部分赋予另一数码，这两部分数码合起来构成了此汉字的本发明的编码，本发明的键盘的特点是，输入的键盘只由0至9的单个数字键构成，一切机能统驭只用八个机能键完成。 
+
+ 2、如权项1所述，本方法是用六位数字的编码代表一个汉字或一个词组，汉字的取码是，它的部首取首两位数字，它的其余部分取后面的四位数字。词组取第一字的上两角和末一字的下两角，每两角取两个数字，构成四位数字，另两位数字取自予先规定表示这是“词组”的特征数字。 
+
+ 3、如权利要求1和2所述，部首的“切取”方法从字的上部开始取并沿逆时针方向选取，此部首须至少占两角，代表部首的这两个数字的先后次序按所选取部首的形状，先左后右或先上后下。 
+
+ 4、如权项1和2所述，“切”掉部首后其余部分取码的顺序是左上角，右上角，左下角，右下角。 
+
+ 5、如权项1和2所述，方法中笔形与数字的对应是根据了表一和表二的关系。 
+
+ 6、如权项1和2所述，本编码中避免重码的方法是按重号字的频用度，在最后一位数字上分别+1，+2等依次类推，避免重码，最频用字不需加数，一般是+1、+2即可。 
+
+ 7、如权项1和2所述，本方法的编码可作密码使用，通过调换数字方式，极易组成各种密码。 
+
+ 8、如权项1和2所述，本方法所采用的键盘的特点是，键盘只包括0至9的数字键和少量功能键，没有英文字母键或其它外文字母键，而且使用键少。 
+
+ 9、如权项8所述，本发明键盘的一个实例如图二所示。 
+
+ 10、如权项1、2和5所述，本方法适用于世界其它各种文字，包括英文、德文、法文、西班牙文、俄文、希腊文。其编码如表七、表八、表九，其方法是：尖三角取3，圆角取8，非全圆角取6，空角取0，其余笔划取码同表一和表二的规定。日本文字取码如表六规定。 
+
+ 11、如权项1、2所述，数学符号和标点符号的取码如表三、表四的规定。 
+
+ CN85101817.3A 
+ 1985-04-01 
+ 1985-04-01 
+ 安子介式汉字笔形电脑编码法及其键盘 
+
+ Expired 
+
+ CN1003890B 
+ ( zh )
+
+ Priority Applications (6) 
+
+ Application Number 
+ Priority Date 
+ Filing Date 
+ Title 
+
+ CN85101817.3A 
+
+ CN1003890B 
+ ( zh )
+
+ 1985-04-01 
+ 1985-04-01 
+ 安子介式汉字笔形电脑编码法及其键盘 
+
+ GB08531522A 
+
+ GB2175720B 
+ ( en )
+
+ 1985-04-01 
+ 1985-12-20 
+ A method of and apparatus for encoding a character 
+
+ JP61042017A 
+
+ JPH0625989B2 
+ ( ja )
+
+ 1985-04-01 
+ 1986-02-28 
+ コ−ド化システムを用いる、特定のキイボ−ドを有する文字印書装置 
+
+ US07/090,058 
+
+ US4868913A 
+ ( en )
+
+ 1985-04-01 
+ 1987-08-27 
+ System of encoding chinese characters according to their patterns and accompanying keyboard for electronic computer 
+
+ SG327/89A 
+
+ SG32789G 
+ ( en )
+
+ 1985-04-01 
+ 1989-05-22 
+ A method of and apparatus for encoding a character 
+
+ HK602/89A 
+
+ HK60289A 
+ ( en )
+
+ 1985-04-01 
+ 1989-07-27 
+ A method of and apparatus for encoding a character 
+
+ Applications Claiming Priority (1) 
+
+ Application Number 
+ Priority Date 
+ Filing Date 
+ Title 
+
+ CN85101817.3A 
+
+ CN1003890B 
+ ( zh )
+
+ 1985-04-01 
+ 1985-04-01 
+ 安子介式汉字笔形电脑编码法及其键盘 
+
+ Publications (2) 
+
+ Publication Number 
+ Publication Date 
+
+ CN85101817A 
+
+ true 
+
+ CN85101817A
+ ( zh )
+
+ 1988-03-09 
+
+ CN1003890B 
+
+ CN1003890B
+ ( zh )
+
+ 1989-04-12 
+
+ Family 
+ ID=4792083 
+
+ Family Applications (1) 
+
+ Application Number 
+ Title 
+ Priority Date 
+ Filing Date 
+
+ CN85101817.3A 
+ Expired 
+
+ CN1003890B 
+ ( zh )
+
+ 1985-04-01 
+ 1985-04-01 
+ 安子介式汉字笔形电脑编码法及其键盘 
+
+ Country Status (6) 
+
+ Country 
+ Link 
+
+ US 
+ ( 1 )
+
+ US4868913A 
+ ( zh )
+
+ JP 
+ ( 1 )
+
+ JPH0625989B2 
+ ( zh )
+
+ CN 
+ ( 1 )
+
+ CN1003890B 
+ ( zh )
+
+ GB 
+ ( 1 )
+
+ GB2175720B 
+ ( zh )
+
+ HK 
+ ( 1 )
+
+ HK60289A 
+ ( zh )
+
+ SG 
+ ( 1 )
+
+ SG32789G 
+ ( zh )
+
+ Cited By (2) 
+
+ * Cited by examiner, † Cited by third party 
+
+ Publication number 
+ Priority date 
+ Publication date 
+ Assignee 
+ Title 
+
+ WO2001082045A1 
+ ( en )
+
+ * 
+
+ 2000-04-26 
+ 2001-11-01 
+ Fook Hing Yau 
+ A method for inputting english letters into a computer is disclosed. 
+
+ CN1088863C 
+ ( zh )
+
+ * 
+
+ 1996-07-05 
+ 2002-08-07 
+ 菱电电子有限公司 
+ 汉字数字编码输入法 
+
+ Families Citing this family (21) 
+
+ * Cited by examiner, † Cited by third party 
+
+ Publication number 
+ Priority date 
+ Publication date 
+ Assignee 
+ Title 
+
+ JPH05151197A 
+ ( ja )
+
+ * 
+
+ 1991-11-14 
+ 1993-06-18 
+ Chinka Oka 
+ コンピユータに漢字を入力する方法 
+
+ US5384700A 
+ ( en )
+
+ * 
+
+ 1992-10-29 
+ 1995-01-24 
+ International Business Machines Corporation 
+ Method and system for storing multiple, modifiable Yomi and Kanji strings in a structured document 
+
+ US5689723A 
+ ( en )
+
+ * 
+
+ 1993-02-03 
+ 1997-11-18 
+ International Business Machines Corp 
+ Method for allowing single-byte character set and double-byte character set fonts in a double-byte character set code page 
+
+ JPH0793335A 
+ ( ja )
+
+ * 
+
+ 1993-06-07 
+ 1995-04-07 
+ Internatl Business Mach Corp <Ibm> 
+ テキストの言語機能を提供する方法 
+
+ US5742838A 
+ ( en )
+
+ * 
+
+ 1993-10-13 
+ 1998-04-21 
+ International Business Machines Corp 
+ Method for conversion mode selection in hangeul to hanja character conversion 
+
+ US5410306A 
+ ( en )
+
+ * 
+
+ 1993-10-27 
+ 1995-04-25 
+ Ye; Liana X. 
+ Chinese phrasal stepcode 
+
+ US5903861A 
+ ( en )
+
+ * 
+
+ 1995-12-12 
+ 1999-05-11 
+ Chan; Kun C. 
+ Method for specifically converting non-phonetic characters representing vocabulary in languages into surrogate words for inputting into a computer 
+
+ US6292768B1 
+ ( en )
+
+ * 
+
+ 1996-12-10 
+ 2001-09-18 
+ Kun Chun Chan 
+ Method for converting non-phonetic characters into surrogate words for inputting into a computer 
+
+ US6094666A 
+ ( en )
+
+ * 
+
+ 1998-06-18 
+ 2000-07-25 
+ Li; Peng T. 
+ Chinese character input scheme having ten symbol groupings of chinese characters in a recumbent or upright configuration 
+
+ GB2359400B 
+ ( en )
+
+ * 
+
+ 2000-02-21 
+ 2004-06-16 
+ Kenwood Corp 
+ Character input 
+
+ GB2378293B 
+ ( en )
+
+ * 
+
+ 2001-07-31 
+ 2005-04-27 
+ Sendo Int Ltd 
+ Processing and storing characters of a non-alphabetical language 
+
+ AU2002362052A1 
+ ( en )
+
+ 2001-12-04 
+ 2003-06-17 
+ The Trustees Of The University Of Pennsylvania 
+ Device and method using integrated neuronal cells and an electronic device 
+
+ KR100962956B1 
+ ( ko )
+
+ * 
+
+ 2002-06-05 
+ 2010-06-10 
+ 롱빈 수 
+ 세계 문자 정보용 이진 운용 코드의 최적 입력 방법과 그정보 처리 시스템 
+
+ US20050027534A1 
+ ( en )
+
+ * 
+
+ 2003-07-30 
+ 2005-02-03 
+ Meurs Pim Van 
+ Phonetic and stroke input methods of Chinese characters and phrases 
+
+ US7395203B2 
+ ( en )
+
+ * 
+
+ 2003-07-30 
+ 2008-07-01 
+ Tegic Communications, Inc. 
+ System and method for disambiguating phonetic input 
+
+ US7378991B2 
+ ( en )
+
+ * 
+
+ 2006-04-04 
+ 2008-05-27 
+ International Business Machines Corporation 
+ Condensed keyboard for electronic devices 
+
+ CN101408873A 
+ ( zh )
+
+ * 
+
+ 2007-10-09 
+ 2009-04-15 
+ 劳英杰 
+ 全范围语义信息综合认知系统及其应用 
+
+ US20110171617A1 
+ ( en )
+
+ * 
+
+ 2010-01-11 
+ 2011-07-14 
+ Ideographix, Inc. 
+ System and method for teaching pictographic languages 
+
+ US8381119B2 
+ ( en )
+
+ * 
+
+ 2010-01-11 
+ 2013-02-19 
+ Ideographix, Inc. 
+ Input device for pictographic languages 
+
+ US20120156658A1 
+ ( en )
+
+ * 
+
+ 2010-12-16 
+ 2012-06-21 
+ Nicholas Fuzzell 
+ Methods for teaching and/or learning chinese, and related systems 
+
+ CN104793757B 
+ ( zh )
+
+ * 
+
+ 2015-04-29 
+ 2019-03-01 
+ 陈治宇 
+ 汉字输入方法和装置 
+
+ Family Cites Families (21) 
+
+ * Cited by examiner, † Cited by third party 
+
+ Publication number 
+ Priority date 
+ Publication date 
+ Assignee 
+ Title 
+
+ CA995815A 
+ ( en )
+
+ * 
+
+ 1973-05-07 
+ 1976-08-24 
+ Chan H. Yeh 
+ System for the electronic data processing of chinese characters 
+
+ US3950734A 
+ ( en )
+
+ * 
+
+ 1973-08-16 
+ 1976-04-13 
+ Li Tzu Hung 
+ Language processing system 
+
+ AU503345B2 
+ ( en )
+
+ * 
+
+ 1975-07-08 
+ 1979-08-30 
+ M Macaulay 
+ Electronic communication terminal 
+
+ US4327421A 
+ ( en )
+
+ * 
+
+ 1976-05-13 
+ 1982-04-27 
+ Transtech International Corporation 
+ Chinese printing system 
+
+ JPS5336430A 
+ ( en )
+
+ * 
+
+ 1976-09-16 
+ 1978-04-04 
+ Sharp Corp 
+ Character print system for program calculator 
+
+ US4270022A 
+ ( en )
+
+ * 
+
+ 1978-06-22 
+ 1981-05-26 
+ Loh Shiu C 
+ Ideographic character selection 
+
+ JPS554689A 
+ ( en )
+
+ * 
+
+ 1978-06-22 
+ 1980-01-14 
+ Loh Shiu Chang 
+ Significant character coding system 
+
+ GB2057973B 
+ ( en )
+
+ * 
+
+ 1979-09-04 
+ 1983-11-09 
+ Hsu Ching Chou 
+ Input system for sino-computer 
+
+ US4679951A 
+ ( en )
+
+ * 
+
+ 1979-11-06 
+ 1987-07-14 
+ Cornell Research Foundation, Inc. 
+ Electronic keyboard system and method for reproducing selected symbolic language characters 
+
+ GB2066990B 
+ ( en )
+
+ * 
+
+ 1979-12-28 
+ 1983-12-14 
+ Shuen Chi Chen 
+ Computer input/output system for chinese data processing 
+
+ US4379288A 
+ ( en )
+
+ * 
+
+ 1980-03-11 
+ 1983-04-05 
+ Leung Daniel L 
+ Means for encoding ideographic characters 
+
+ JPS57201926A 
+ ( en )
+
+ * 
+
+ 1981-06-05 
+ 1982-12-10 
+ Hitachi Ltd 
+ "kanji" selecting method for "kanji" input device 
+
+ GB2118749A 
+ ( en )
+
+ * 
+
+ 1982-03-23 
+ 1983-11-02 
+ Barnea Z 
+ Character manipulation 
+
+ GB2125197B 
+ ( en )
+
+ * 
+
+ 1982-07-22 
+ 1987-03-04 
+ Pingyi Zhi 
+ Encoding chinese characters 
+
+ US4559615A 
+ ( en )
+
+ * 
+
+ 1982-09-15 
+ 1985-12-17 
+ Goo Atkin Y 
+ Method and apparatus for encoding, storing and accessing characters of a Chinese character-based language 
+
+ US4505602A 
+ ( en )
+
+ * 
+
+ 1982-09-30 
+ 1985-03-19 
+ Wong Wyman S 
+ Method for encoding ideographic characters 
+
+ GB2128787A 
+ ( en )
+
+ * 
+
+ 1982-10-20 
+ 1984-05-02 
+ Ejgil Otto Kaj Griese 
+ A method of printing or otherwise mechanically producing composite characters, such as Chinese characters 
+
+ US4602878A 
+ ( en )
+
+ * 
+
+ 1983-07-20 
+ 1986-07-29 
+ Iograph Corporation 
+ Ideographic word processor 
+
+ GB8412135D0 
+ ( en )
+
+ * 
+
+ 1984-05-11 
+ 1984-06-20 
+ Wang Yong Min 
+ Encoding chinese characters and keyboard 
+
+ US4684926A 
+ ( en )
+
+ * 
+
+ 1984-05-14 
+ 1987-08-04 
+ Yong Min Wang 
+ Universal system of encoding chinese characters and its keyboard 
+
+ GB2172420B 
+ ( en )
+
+ * 
+
+ 1985-03-11 
+ 1988-05-25 
+ Multitech Ind Corp 
+ A method and system for composing chinese characters 
+
+ 1985 
+
+ 1985-04-01 
+ CN 
+ CN85101817.3A 
+ patent/CN1003890B/zh 
+ not_active 
+ Expired 
+
+ 1985-12-20 
+ GB 
+ GB08531522A 
+ patent/GB2175720B/en 
+ not_active 
+ Expired 
+
+ 1986 
+
+ 1986-02-28 
+ JP 
+ JP61042017A 
+ patent/JPH0625989B2/ja 
+ not_active 
+ Expired - Lifetime 
+
+ 1987 
+
+ 1987-08-27 
+ US 
+ US07/090,058 
+ patent/US4868913A/en 
+ not_active 
+ Expired - Fee Related 
+
+ 1989 
+
+ 1989-05-22 
+ SG 
+ SG327/89A 
+ patent/SG32789G/en 
+ unknown 
+
+ 1989-07-27 
+ HK 
+ HK602/89A 
+ patent/HK60289A/xx 
+ not_active 
+ IP Right Cessation 
+
+ Cited By (2) 
+
+ * Cited by examiner, † Cited by third party 
+
+ Publication number 
+ Priority date 
+ Publication date 
+ Assignee 
+ Title 
+
+ CN1088863C 
+ ( zh )
+
+ * 
+
+ 1996-07-05 
+ 2002-08-07 
+ 菱电电子有限公司 
+ 汉字数字编码输入法 
+
+ WO2001082045A1 
+ ( en )
+
+ * 
+
+ 2000-04-26 
+ 2001-11-01 
+ Fook Hing Yau 
+ A method for inputting english letters into a computer is disclosed. 
+
+ Also Published As 
+
+ Publication number 
+ Publication date 
+
+ GB2175720B 
+ ( en )
+
+ 1989-02-01 
+
+ HK60289A 
+ ( en )
+
+ 1989-08-04 
+
+ SG32789G 
+ ( en )
+
+ 1989-09-29 
+
+ JPH0625989B2 
+ ( ja )
+
+ 1994-04-06 
+
+ GB2175720A 
+ ( en )
+
+ 1986-12-03 
+
+ GB8531522D0 
+ ( en )
+
+ 1986-02-05 
+
+ CN1003890B 
+ ( zh )
+
+ 1989-04-12 
+
+ JPS61240365A 
+ ( ja )
+
+ 1986-10-25 
+
+ US4868913A 
+ ( en )
+
+ 1989-09-19 
+
+ Similar Documents 
+
+ Publication 
+ Publication Date 
+ Title 
+
+ CN1101139A 
+ ( zh )
+
+ 1995-04-05 
+
+ 图符编码计算机输入法 
+
+ CN1295588C 
+ ( zh )
+
+ 2007-01-17 
+
+ 汉字输入方法 
+
+ CN1900886A 
+ ( zh )
+
+ 2007-01-24 
+
+ 单击与多键并击混合输入中、英文的方法和键盘 
+
+ CN1026924C 
+ ( zh )
+
+ 1994-12-07 
+
+ 汉字析音编码计算机汉字输入方法 
+
+ CN1180337C 
+ ( zh )
+
+ 2004-12-15 
+
+ 计算机象形码汉字输入法 
+
+ CN1059280C 
+ ( zh )
+
+ 2000-12-06 
+
+ 部首编码计算机汉字输入法 
+
+ CN1043209A 
+ ( zh )
+
+ 1990-06-20 
+
+ 计算机汉字处理方法 
+
+ CN1030156C 
+ ( zh )
+
+ 1995-10-25 
+
+ 英文/东方文字根象形输入法 
+
+ CN1081354C 
+ ( zh )
+
+ 2002-03-20 
+
+ 一笔字形字词无重码输入法 
+
+ CN1025896C 
+ ( zh )
+
+ 1994-09-07 
+
+ 新概念编码计算机汉字输入键盘 
+
+ CN1259615C 
+ ( zh )
+
+ 2006-06-14 
+
+ 字母键盘和数字键盘通用汉字输入法及其左半字形识别法 
+
+ CN1374577A 
+ ( zh )
+
+ 2002-10-16 
+
+ 英文字母键盘和数字键盘通用汉字电脑输入法及其键盘 
+
+ CN1228705C 
+ ( zh )
+
+ 2005-11-23 
+
+ 按汉字构件定位取码的计算机汉字输入法 
+
+ CN1128371A 
+ ( zh )
+
+ 1996-08-07 
+
+ 文字拆分编码的计算机输入方法及键盘 
+
+ CN1092815C 
+ ( zh )
+
+ 2002-10-16 
+
+ 一种汉字辞书检索和微机输入法及键盘 
+
+ CN1204482C 
+ ( zh )
+
+ 2005-06-01 
+
+ 三笔象形码输入法 
+
+ CN1124539C 
+ ( zh )
+
+ 2003-10-15 
+
+ 计算机汉字输入方法及键盘 
+
+ CN1016008B 
+ ( zh )
+
+ 1992-03-25 
+
+ 满、锡、蒙、托文智能化语词处理系统 
+
+ CN1165337A 
+ ( zh )
+
+ 1997-11-19 
+
+ 中文字父汉字系统及其中文键盘 
+
+ CN1255712C 
+ ( zh )
+
+ 2006-05-10 
+
+ 六元平拆式形码输入系统 
+
+ CN1164059A 
+ ( zh )
+
+ 1997-11-05 
+
+ 汉字笔形码编码方法 
+
+ CN1310373A 
+ ( zh )
+
+ 2001-08-29 
+
+ “33家庭中文字母”输入法及其装置 
+
+ CN1095499A 
+ ( zh )
+
+ 1994-11-23 
+
+ 计算机汉字并行输入法 
+
+ CN1108774A 
+ ( zh )
+
+ 1995-09-20 
+
+ 以词为单位的音形意汉字编码及中西文兼容键盘 
+
+ CN1808351A 
+ ( zh )
+
+ 2006-07-26 
+
+ 声拼计算机汉字输入法 
+
+ Legal Events 
+
+ Date 
+ Code 
+ Title 
+ Description 
+
+ 1986-01-10 
+ C10 
+ Entry into substantive examination 
+
+ 1986-01-10 
+ SE01 
+ Entry into force of request for substantive examination 
+
+ 1988-03-09 
+ C06 
+ Publication 
+
+ 1988-03-09 
+ PB01 
+ Publication 
+
+ 1989-04-12 
+ C13 
+ Decision 
+
+ 1989-04-12 
+ GR02 
+ Examined patent application 
+
+ 1989-11-29 
+ C14 
+ Grant of patent or utility model 
+
+ 1989-11-29 
+ GR01 
+ Patent grant 
+
+ 2000-11-22 
+ C17 
+ Cessation of patent right 
+
+ 2000-11-22 
+ CX01 
+ Expiry of patent term 
+

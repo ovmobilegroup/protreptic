@@ -1,0 +1,603 @@
+{
+ "card": "t_58ebf9c2",
+ "figure_code": "H-AZJ-001",
+ "date": "2026-09-24",
+ "tool": "verify_phase21r9_azj.py",
+ "total": 81,
+ "passed": 81,
+ "failed": 0,
+ "scope": "merged: Phase21-R9 合并卡 t_ce457734 后口径（主库注册面+合并卡足迹白名单）",
+ "results": [
+  {
+   "id": "A01",
+   "group": "files",
+   "desc": "landing entries 可解析且 10 条",
+   "status": "PASS",
+   "detail": 10
+  },
+  {
+   "id": "A02",
+   "group": "files",
+   "desc": "combined.modes == entries",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A03",
+   "group": "files",
+   "desc": "四个数据件可解析（figures/_modes/individuals/_modes）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A04",
+   "group": "files",
+   "desc": "冻结副本与 data 侧逐字节一致（figures）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A05",
+   "group": "files",
+   "desc": "冻结副本与 data 侧逐字节一致（figures_modes）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A06",
+   "group": "files",
+   "desc": "冻结副本与 data 侧逐字节一致（individuals）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A07",
+   "group": "files",
+   "desc": "冻结副本与 data 侧逐字节一致（individuals_modes）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A08",
+   "group": "files",
+   "desc": "id_mapping.tsv 表头+10 行",
+   "status": "PASS",
+   "detail": 11
+  },
+  {
+   "id": "A09",
+   "group": "files",
+   "desc": "category_mapping.tsv 表头+10 行",
+   "status": "PASS",
+   "detail": 11
+  },
+  {
+   "id": "A10",
+   "group": "files",
+   "desc": "manifest 14 件 sha 可复算",
+   "status": "PASS",
+   "detail": 14
+  },
+  {
+   "id": "A11",
+   "group": "files",
+   "desc": "figures.modes == entries == 两个 _modes 件",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A12",
+   "group": "files",
+   "desc": "individuals 为 figure 去顶层 modes（差集恰为 modes）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A13",
+   "group": "files",
+   "desc": "figures 与 individuals sha 不同（非重复副本）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B01",
+   "group": "entries",
+   "desc": "id 序列 M-AZJ-001~010",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02",
+   "group": "entries",
+   "desc": "legacy_mode_id 全空（旧载荷号段不复用）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B03",
+   "group": "entries",
+   "desc": "figure_code/figure_name 一致",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B04",
+   "group": "entries",
+   "desc": "category 均在标准 18 类",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B05",
+   "group": "entries",
+   "desc": "level=核心 与 priority 1..10",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B06",
+   "group": "entries",
+   "desc": "verification 全 pending + method 口径",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B07",
+   "group": "entries",
+   "desc": "英文面非空（name/definition/process/cases/modern）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B08",
+   "group": "entries",
+   "desc": "key_concepts 非空且 >=4",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B09",
+   "group": "entries",
+   "desc": "related_modes 指向本组代码",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B10",
+   "group": "entries",
+   "desc": "每条来源指向 AZJ-1 材料（source_chapter）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B11",
+   "group": "entries",
+   "desc": "每条 verification.evidence 指向素材包引文段与见证",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B12",
+   "group": "entries",
+   "desc": "层级标注入证（确证/疑似字样保留）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "C01",
+   "group": "quote-pack",
+   "desc": "M-AZJ-001 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    1
+   ]
+  },
+  {
+   "id": "C02",
+   "group": "quote-pack",
+   "desc": "M-AZJ-002 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    3
+   ]
+  },
+  {
+   "id": "C03",
+   "group": "quote-pack",
+   "desc": "M-AZJ-003 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    4
+   ]
+  },
+  {
+   "id": "C04",
+   "group": "quote-pack",
+   "desc": "M-AZJ-004 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    4
+   ]
+  },
+  {
+   "id": "C05",
+   "group": "quote-pack",
+   "desc": "M-AZJ-005 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    2
+   ]
+  },
+  {
+   "id": "C06",
+   "group": "quote-pack",
+   "desc": "M-AZJ-006 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    1
+   ]
+  },
+  {
+   "id": "C07",
+   "group": "quote-pack",
+   "desc": "M-AZJ-007 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    1
+   ]
+  },
+  {
+   "id": "C08",
+   "group": "quote-pack",
+   "desc": "M-AZJ-008 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    1
+   ]
+  },
+  {
+   "id": "C09",
+   "group": "quote-pack",
+   "desc": "M-AZJ-009 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    1
+   ]
+  },
+  {
+   "id": "C10",
+   "group": "quote-pack",
+   "desc": "M-AZJ-010 key_quote 为素材包 quotes 子串",
+   "status": "PASS",
+   "detail": [
+    1
+   ]
+  },
+  {
+   "id": "D01",
+   "group": "quote-witness",
+   "desc": "M-AZJ-001 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W01 -> ['W01_liaohui_2012_renminribao.txt']"
+  },
+  {
+   "id": "D02",
+   "group": "quote-witness",
+   "desc": "M-AZJ-002 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W07 -> ['W07_takungpao_ruzhuang_20090919.txt']"
+  },
+  {
+   "id": "D03",
+   "group": "quote-witness",
+   "desc": "M-AZJ-003 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W07 -> ['W07_takungpao_ruzhuang_20090919.txt']"
+  },
+  {
+   "id": "D04",
+   "group": "quote-witness",
+   "desc": "M-AZJ-004 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W01 -> ['W01_liaohui_2012_renminribao.txt']"
+  },
+  {
+   "id": "D05",
+   "group": "quote-witness",
+   "desc": "M-AZJ-005 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W01 -> ['W01_liaohui_2012_renminribao.txt']"
+  },
+  {
+   "id": "D06",
+   "group": "quote-witness",
+   "desc": "M-AZJ-006 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W01 -> ['W01_liaohui_2012_renminribao.txt']"
+  },
+  {
+   "id": "D07",
+   "group": "quote-witness",
+   "desc": "M-AZJ-007 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W04 -> ['W04_patent_CN85101817A.txt']"
+  },
+  {
+   "id": "D08",
+   "group": "quote-witness",
+   "desc": "M-AZJ-008 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W01 -> ['W01_liaohui_2012_renminribao.txt']"
+  },
+  {
+   "id": "D09",
+   "group": "quote-witness",
+   "desc": "M-AZJ-009 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W01 -> ['W01_liaohui_2012_renminribao.txt']"
+  },
+  {
+   "id": "D10",
+   "group": "quote-witness",
+   "desc": "M-AZJ-010 key_quote 见证文本强归一化命中",
+   "status": "PASS",
+   "detail": "W07 -> ['W07_takungpao_ruzhuang_20090919.txt']"
+  },
+  {
+   "id": "E01",
+   "group": "witness",
+   "desc": "W01 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W01_liaohui_2012_renminribao.txt"
+  },
+  {
+   "id": "E02",
+   "group": "witness",
+   "desc": "W02 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W02_shengping_xinhua_2000.txt"
+  },
+  {
+   "id": "E03",
+   "group": "witness",
+   "desc": "W03 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W03_zhwiki_anzijie.txt"
+  },
+  {
+   "id": "E04",
+   "group": "witness",
+   "desc": "W04 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W04_patent_CN85101817A.txt"
+  },
+  {
+   "id": "E05",
+   "group": "witness",
+   "desc": "W05 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W05_cnnb_xieziji_20091204.txt"
+  },
+  {
+   "id": "E06",
+   "group": "witness",
+   "desc": "W06 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W06_chinanews_xieziji_20091207.txt"
+  },
+  {
+   "id": "E07",
+   "group": "witness",
+   "desc": "W07 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W07_takungpao_ruzhuang_20090919.txt"
+  },
+  {
+   "id": "E08",
+   "group": "witness",
+   "desc": "W08 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W08_baike_anzijie.txt"
+  },
+  {
+   "id": "E09",
+   "group": "witness",
+   "desc": "W09 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W09_baike_jiekaizhimi.txt"
+  },
+  {
+   "id": "E10",
+   "group": "witness",
+   "desc": "W10 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W10_dinghaishizhi_anzijie.txt"
+  },
+  {
+   "id": "E11",
+   "group": "witness",
+   "desc": "W11 存证副本 sha256 与素材包一致",
+   "status": "PASS",
+   "detail": "W11_gmw_gongji_20000613.txt"
+  },
+  {
+   "id": "E12",
+   "group": "witness",
+   "desc": "见证 11 件全部命中",
+   "status": "PASS",
+   "detail": 11
+  },
+  {
+   "id": "F01",
+   "group": "fragments",
+   "desc": "全部「」片段可回溯素材包（91 段）",
+   "status": "PASS",
+   "detail": []
+  },
+  {
+   "id": "F02",
+   "group": "fragments",
+   "desc": "旧载荷/伪造出处标记零出现（19 项）",
+   "status": "PASS",
+   "detail": []
+  },
+  {
+   "id": "F03",
+   "group": "fragments",
+   "desc": "「第五大发明」条目保留转述口径（‘讲话转述’字样）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "F04",
+   "group": "fragments",
+   "desc": "疑似项保留标记（M-AZJ-006 方法细节）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "F05",
+   "group": "fragments",
+   "desc": "两说并存保留（M-AZJ-004 接见／M-AZJ-010 享年）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "G01",
+   "group": "dedup",
+   "desc": "M-AZJ 码全库外部 0 碰撞（除本卡产出与 AZJ-1 素材包）",
+   "status": "PASS",
+   "detail": []
+  },
+  {
+   "id": "G02",
+   "group": "dedup",
+   "desc": "live 主库占用面 == 合并后预期（code_maps/figure_names/modes_data 三件）",
+   "status": "PASS",
+   "detail": [
+    "data/code_maps.json",
+    "data/figure_names.json",
+    "data/modes_data.json"
+   ]
+  },
+  {
+   "id": "G03",
+   "group": "dedup",
+   "desc": "「安子介」字样仅出现在已登记分层（manifest preflight 已分类）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "H01",
+   "group": "frozen",
+   "desc": "主库六件 sha == 合并 manifest after（合并态冻结；零写入基线留档于 landing/merge manifest）",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "H02",
+   "group": "frozen",
+   "desc": "归档 10 件 sha 与 manifest 记录一致（未触）",
+   "status": "PASS",
+   "detail": 9
+  },
+  {
+   "id": "H03",
+   "group": "frozen",
+   "desc": "manifest zero_library_write.untouched=True",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "I01",
+   "group": "figure",
+   "desc": "mode_ids 与 thinking_mode_count",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "I02",
+   "group": "figure",
+   "desc": "core_thoughts 为十条模式名",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "I03",
+   "group": "figure",
+   "desc": "caveats >= 7 且含两说/疑似登记",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "I04",
+   "group": "figure",
+   "desc": "tags >= 15",
+   "status": "PASS",
+   "detail": 18
+  },
+  {
+   "id": "I05",
+   "group": "figure",
+   "desc": "meta.mode_count=10 与 phase 口径",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "I06",
+   "group": "figure",
+   "desc": "famous_quote 为 W01 引文子串",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "I07",
+   "group": "figure",
+   "desc": "cross_references 空 + caveat 如实登记",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "I08",
+   "group": "figure",
+   "desc": "生卒/时代字段",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "J01",
+   "group": "landing",
+   "desc": "top_block_proposal.core_modes == 十条",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "J02",
+   "group": "landing",
+   "desc": "top_block_proposal 23 键与库内块同构",
+   "status": "PASS",
+   "detail": 23
+  },
+  {
+   "id": "J03",
+   "group": "landing",
+   "desc": "scenario_notes 标注合并卡范围且无旧场景处置",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "J04",
+   "group": "landing",
+   "desc": "manifest counts 与包内实测一致",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "K01",
+   "group": "report",
+   "desc": "重建报告与产出证据已落盘",
+   "status": "PASS",
+   "detail": ""
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+  "schema": "protreptic.phase21r9_azj_merge/v1",
+  "card": "t_ce457734",
+  "date": "2026-09-24",
+  "ts": "20260924_092502",
+  "dry": false,
+  "figure_code": "H-AZJ-001",
+  "figure_name": "安子介",
+  "upstream": {
+    "sourcing_card": "t_1aa06d0c",
+    "rebuild_card": "t_58ebf9c2",
+    "rebuild_commits": [
+      "602a5d47",
+      "25176b26"
+    ],
+    "landing_dir": "docs/scratch/legacy20_r9_azj_landing/",
+    "entries_sha256": "4853d3ee9154cbcd5812a20c64a640afc0838c1ef79952d7ef93a8529edf6463",
+    "top_block_proposal_sha256": "82a14e9cdc2069c04bb6db234cbaeeca466eee8455fa7d80b52f9a056c05ec44",
+    "landing_before_sha_verified": true
+  },
+  "inputs_after_write": {
+    "data/modes_data.json": "a3db91993add329a8a58acaf03e2a033a25c8d743179670079374dda9fdedccd",
+    "data/code_maps.json": "002527a9fb1574a5424d97b8fc7c39e5969feb95fbb168e9fca42ed5eb96b4a1",
+    "data/figure_names.json": "fb5e62a14ed7f1f66399d157aaabebbac925f5b4e72ed8cc5a0b799913049b4e"
+  },
+  "added": {
+    "modes": [
+      "M-AZJ-001",
+      "M-AZJ-002",
+      "M-AZJ-003",
+      "M-AZJ-004",
+      "M-AZJ-005",
+      "M-AZJ-006",
+      "M-AZJ-007",
+      "M-AZJ-008",
+      "M-AZJ-009",
+      "M-AZJ-010"
+    ],
+    "top_level_block": "H-AZJ-001",
+    "code_maps": "H-AZJ-001",
+    "figure_names": {
+      "H-AZJ-001": "安子介"
+    },
+    "scenarios_zh": 0,
+    "scenarios_en": 0,
+    "scenario_tags": 0
+  },
+  "rules": {
+    "append_only": "纯追加零删改：旧对象逐对象全等；scenarios_zh/en + scenario_tags 三件 sha 前后一致（零写入）",
+    "top_block": "顶层块新增（非替换）：H-AZJ-345 旧块已判死清档；插入位置=第一个 H-* 块组末位、modes 键之前；23 键与库内块同构；提案包装字段不入库",
+    "total_scalar": "随动对齐：total = len(modes)（先例：R5 2948->3162=len(modes)、R6 收尾 95139996 对齐 3271；09-24 QA 登记的口径漂移项本卡闭环；全库零现役消费方）",
+    "scenarios": "0 新增：AZJ-2 landing scenario_notes 登记 0 新/0 旧处置；本卡不造场景与标签，三件零写入",
+    "code_maps": "3 键 mode_ids/tags/cross_references；tags=10 中文模式名；cross_references=[]（图档为空并有 caveat 如实登记，不代拟）",
+    "figure_names": "键级追加 H-AZJ-001 -> 安子介（文末）；其余键零改动",
+    "serialization": "modes_data.json 无尾换行（现行态保持）；code_maps/figure_names 有尾换行保持；其余三件零写入",
+    "db_and_mirrors": "api/protreptic.db 与 tools/json 镜像零改动（现役先例：R8 王祥/罗瑞卿合并未触；DB figures 表为情景主题建表；实测 H-WL-001/H-ZX-001/H-LUORQ-001 在该表 0 行）",
+    "verification": "10/10 保持 pending，不回填（与 AZJ-2 落盘逐字一致）"
+  },
+  "before": {
+    "data/modes_data.json": {
+      "count": 3291,
+      "sha256": "d9de42a0776440356b31a4f766a1bba5fead078ea2ae6dbb15525a31d92c1fa7",
+      "bytes": 24747305,
+      "trailing_newline": false
+    },
+    "data/code_maps.json": {
+      "count": 214,
+      "sha256": "53154b9ddd5e2e3f4ae0bbde746d4ce6ffc41c4f7bd91ce7c9fa047ae4999d83",
+      "bytes": 859463,
+      "trailing_newline": true
+    },
+    "data/scenarios_zh.json": {
+      "count": 2203,
+      "sha256": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+      "bytes": 1934861,
+      "trailing_newline": true
+    },
+    "data/scenarios_en.json": {
+      "count": 2203,
+      "sha256": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+      "bytes": 2195136,
+      "trailing_newline": true
+    },
+    "data/scenario_tags.json": {
+      "count": 7518,
+      "sha256": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+      "bytes": 1157132,
+      "trailing_newline": true
+    },
+    "data/figure_names.json": {
+      "count": 1083,
+      "sha256": "69f531fd0153fd3b762ca9641657121552a792ae420d6ba98016b209a7ddf3fd",
+      "bytes": 30755,
+      "trailing_newline": true
+    }
+  },
+  "after": {
+    "data/modes_data.json": {
+      "count": 3301,
+      "sha256": "a3db91993add329a8a58acaf03e2a033a25c8d743179670079374dda9fdedccd",
+      "bytes": 24825945
+    },
+    "data/code_maps.json": {
+      "count": 215,
+      "sha256": "002527a9fb1574a5424d97b8fc7c39e5969feb95fbb168e9fca42ed5eb96b4a1",
+      "bytes": 860106
+    },
+    "data/scenarios_zh.json": {
+      "count": 2203,
+      "sha256": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+      "bytes": 1934861
+    },
+    "data/scenarios_en.json": {
+      "count": 2203,
+      "sha256": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+      "bytes": 2195136
+    },
+    "data/scenario_tags.json": {
+      "count": 7518,
+      "sha256": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+      "bytes": 1157132
+    },
+    "data/figure_names.json": {
+      "count": 1084,
+      "sha256": "fb5e62a14ed7f1f66399d157aaabebbac925f5b4e72ed8cc5a0b799913049b4e",
+      "bytes": 30782
+    }
+  },
+  "backup": {
+    "dir": "/opt/data/workspace/Protreptic/data/backup_merge_H-AZJ-001_20260924_092502",
+    "ledger": "backup_ledger.json",
+    "files": [
+      "code_maps.json",
+      "figure_names.json",
+      "modes_data.json",
+      "scenario_tags.json",
+      "scenarios_en.json",
+      "scenarios_zh.json"
+    ]
+  }
+}

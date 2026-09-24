@@ -1,0 +1,379 @@
+{
+ "card": "t_ce457734",
+ "figure_code": "H-AZJ-001",
+ "date": "2026-09-24",
+ "tool": "verify_azj_merge_indep.py",
+ "total": 92,
+ "passed": 92,
+ "failed": 0,
+ "results": [
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: data/figures/H-AZJ-001.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: data/figures/H-AZJ-001_modes.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: data/individuals/H-AZJ-001.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: data/individuals/H-AZJ-001_modes.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/category_mapping.tsv"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/combined_library_entries.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/figures/H-AZJ-001.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/figures/H-AZJ-001_modes.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/id_mapping.tsv"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/individuals/H-AZJ-001.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/individuals/H-AZJ-001_modes.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/modes_library_entries.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/scenario_notes.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 落盘件 sha256 == landing manifest: docs/scratch/legacy20_r9_azj_landing/top_block_proposal.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 素材包 sha256 == landing manifest: phase21r9_anzijie_sourcing_report.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 素材包 sha256 == landing manifest: phase21r9_anzijie_sourcing_report.md"
+  },
+  {
+   "status": "PASS",
+   "msg": "A entries 10 条且码序 M-AZJ-001~010"
+  },
+  {
+   "status": "PASS",
+   "msg": "A mode_code 与 id 同序"
+  },
+  {
+   "status": "PASS",
+   "msg": "A entries == combined.modes"
+  },
+  {
+   "status": "PASS",
+   "msg": "A entries == individuals _modes.modes"
+  },
+  {
+   "status": "PASS",
+   "msg": "A entries == figure.modes（三面同体）"
+  },
+  {
+   "status": "PASS",
+   "msg": "A verification 10/10 pending"
+  },
+  {
+   "status": "PASS",
+   "msg": "A legacy_mode_id 全空（旧号段不复用）"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 图档 mode_ids/计数 == 10"
+  },
+  {
+   "status": "PASS",
+   "msg": "A 图档 cross_references 为空（caveat 已登记）"
+  },
+  {
+   "status": "PASS",
+   "msg": "B 条数 3291 -> 3311（本卡 +10；兄弟卡 t_a7d233f0 +10，链式可解释）"
+  },
+  {
+   "status": "PASS",
+   "msg": "B 前 3291 条逐对象全等（纯追加零删改）"
+  },
+  {
+   "status": "PASS",
+   "msg": "B 本卡 10 条逐字等于 AZJ-2 entries（先于兄弟卡增量）"
+  },
+  {
+   "status": "PASS",
+   "msg": "B 本卡 10 条码序 M-AZJ-001~010"
+  },
+  {
+   "status": "PASS",
+   "msg": "B 本卡 10 条 27 键齐全"
+  },
+  {
+   "status": "PASS",
+   "msg": "B figure_code/名 == H-AZJ-001/安子介"
+  },
+  {
+   "status": "PASS",
+   "msg": "B 全库 mode_code 0 重复"
+  },
+  {
+   "status": "PASS",
+   "msg": "B 全库 M-AZJ 仅 10 条（无额外命中）"
+  },
+  {
+   "status": "PASS",
+   "msg": "C 顶层块 H-AZJ-001 存在"
+  },
+  {
+   "status": "PASS",
+   "msg": "C 顶层块逐字 == top_block_proposal.proposal"
+  },
+  {
+   "status": "PASS",
+   "msg": "C 顶层块 23 键"
+  },
+  {
+   "status": "PASS",
+   "msg": "C 顶层块位于 modes 前（其后仅兄弟卡块 ['H-SHF-001']）"
+  },
+  {
+   "status": "PASS",
+   "msg": "C 顶层新增键 = 本卡 H-AZJ-001 + 兄弟卡 ['H-AZJ-001', 'H-SHF-001']"
+  },
+  {
+   "status": "PASS",
+   "msg": "C 除 total/modes（B 组已证纯追加）与新增块外顶层零改动 "
+  },
+  {
+   "status": "PASS",
+   "msg": "C total 对齐 = len(modes) = 3311（本卡写盘 3301；兄弟卡 +10）"
+  },
+  {
+   "status": "PASS",
+   "msg": "D code_maps 新增面 = 本卡 + 兄弟卡 ['H-AZJ-001', 'H-SHF-001']（共 216 条）"
+  },
+  {
+   "status": "PASS",
+   "msg": "D code_maps 含 H-AZJ-001"
+  },
+  {
+   "status": "PASS",
+   "msg": "D code_maps 条目 3 键"
+  },
+  {
+   "status": "PASS",
+   "msg": "D mode_ids == M-AZJ-001~010"
+  },
+  {
+   "status": "PASS",
+   "msg": "D tags == 10 中文模式名（与库内条目同构）"
+  },
+  {
+   "status": "PASS",
+   "msg": "D cross_references == []（0 悬空）"
+  },
+  {
+   "status": "PASS",
+   "msg": "D code_maps 其余条目零改动 "
+  },
+  {
+   "status": "PASS",
+   "msg": "D code_maps 其余顶层键零改动"
+  },
+  {
+   "status": "PASS",
+   "msg": "D figure_names 新增面 = 本卡 + 兄弟卡 ['H-AZJ-001', 'H-SHF-001']（共 1085 条）"
+  },
+  {
+   "status": "PASS",
+   "msg": "D figure_names[H-AZJ-001] == 安子介"
+  },
+  {
+   "status": "PASS",
+   "msg": "D figure_names[H-AZJ-001] 位于本卡追加位（先于兄弟卡）"
+  },
+  {
+   "status": "PASS",
+   "msg": "D figure_names 其余条目零改动（仅新增）"
+  },
+  {
+   "status": "PASS",
+   "msg": "E scenarios_zh.json 兄弟卡 before == 本卡合并前 sha（本卡零写入，链式可证）"
+  },
+  {
+   "status": "PASS",
+   "msg": "E scenarios_en.json 兄弟卡 before == 本卡合并前 sha（本卡零写入，链式可证）"
+  },
+  {
+   "status": "PASS",
+   "msg": "E scenario_tags.json 兄弟卡 before == 本卡合并前 sha（本卡零写入，链式可证）"
+  },
+  {
+   "status": "PASS",
+   "msg": "E 场景三件 AZJ/安子介 0 命中"
+  },
+  {
+   "status": "PASS",
+   "msg": "E 归档件 sha == landing manifest 记录（9 件）"
+  },
+  {
+   "status": "PASS",
+   "msg": "E 主库六件 AZJ 占用面 == 预期三件 ['code_maps.json', 'figure_names.json', 'modes_data.json']"
+  },
+  {
+   "status": "PASS",
+   "msg": "E 旧载荷 19 项代表标记零出现 "
+  },
+  {
+   "status": "PASS",
+   "msg": "F credibility_gate --hard-fail exit 0"
+  },
+  {
+   "status": "PASS",
+   "msg": "F verify_findings --hard-fail exit 0"
+  },
+  {
+   "status": "PASS",
+   "msg": "F apply_verification_status --check exit 0（四态与库一致）"
+  },
+  {
+   "status": "PASS",
+   "msg": "F verify_source_links --hard-fail exit 0（无新增坏链）"
+  },
+  {
+   "status": "PASS",
+   "msg": "G 锚点 EXPECT_MODES == 去壳去重口径 3301（本卡 +10 已在并集基线内，末次写者同步）"
+  },
+  {
+   "status": "PASS",
+   "msg": "G 锚点 EXPECT_BY_FIGURE == meta 分片 320"
+  },
+  {
+   "status": "PASS",
+   "msg": "G 锚点 EXPECT_FIGURES == meta figures 1027 == 1027"
+  },
+  {
+   "status": "PASS",
+   "msg": "G meta: raw 3311 == len(modes) 3311、deduped 3301 == 去壳口径 3301"
+  },
+  {
+   "status": "PASS",
+   "msg": "G meta: published 3241 == deduped - 隔离 60"
+  },
+  {
+   "status": "PASS",
+   "msg": "G meta: mode_summaries == deduped（pages_preflight 同口径）"
+  },
+  {
+   "status": "PASS",
+   "msg": "G siteCounts.ts 3241 x 320（与 meta 一致）"
+  },
+  {
+   "status": "PASS",
+   "msg": "G PWA manifest 文案 == 现行口径 3241 x 320"
+  },
+  {
+   "status": "PASS",
+   "msg": "G docs 产品门面页 == 现行口径 3241 x 320"
+  },
+  {
+   "status": "PASS",
+   "msg": "G daily index 3241 条 / 320 分片"
+  },
+  {
+   "status": "PASS",
+   "msg": "G pages_preflight --stage data exit 0（复跑）"
+  },
+  {
+   "status": "PASS",
+   "msg": "H merge manifest: H-AZJ-001/安子介、dry=False"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 链式: 本卡 after == 兄弟卡 before: data/code_maps.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 链式: 本卡 after == 兄弟卡 before: data/figure_names.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 链式: 本卡 after == 兄弟卡 before: data/modes_data.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 未写入件 before == after == 兄弟 before: data/scenario_tags.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 未写入件 before == after == 兄弟 before: data/scenarios_en.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 未写入件 before == after == 兄弟 before: data/scenarios_zh.json"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 现行六件 sha == 兄弟卡 after（末次写者）"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 兄弟卡 union_guard: M-AZJ 10 条守恒（未伤本卡面）"
+  },
+  {
+   "status": "PASS",
+   "msg": "H added 面 == 预期（modes/顶层块/code_maps）"
+  },
+  {
+   "status": "PASS",
+   "msg": "H figure_names 面 + 场景三件零增"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 备份 ledger sha == before"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 备份 6 件齐 + ledger"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 备份落盘 sha == ledger"
+  },
+  {
+   "status": "PASS",
+   "msg": "H 合并报告落盘"
+  },
+  {
+   "status": "PASS",
+   "msg": "I verify_phase21r9_azj.py（合并后口径）复跑 exit 0"
+  },
+  {
+   "status": "PASS",
+   "msg": "I 上游复跑 81 PASS / 0 FAIL"
+  },
+  {
+   "status": "PASS",
+   "msg": "I 原 landing 证据文件未动（git diff 空）"
+  }
+ ]
+}
