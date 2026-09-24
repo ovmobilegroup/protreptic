@@ -1,0 +1,55 @@
+PASS  A01  备份目录存在且 ledger 可解析
+PASS  A02  备份六件齐备（六件 before 全量）
+PASS  A03  备份件 sha256 == manifest.inputs
+PASS  A04  主库现值 sha256 == manifest.after [modes_data.json]
+PASS  A04  主库现值 sha256 == manifest.after [code_maps.json]
+PASS  A04  主库现值 sha256 == manifest.after [figure_names.json]
+PASS  A04  主库现值 sha256 == manifest.after [scenarios_zh.json]
+PASS  A04  主库现值 sha256 == manifest.after [scenarios_en.json]
+PASS  A04  主库现值 sha256 == manifest.after [scenario_tags.json]
+PASS  A05  落盘包 entries == 10 且码序 M-SHF-001~010
+PASS  B01  modes 数组 == 前像 + 10（纯追加，前列零改动）
+PASS  B02  追加段逐字等于 A1 entries
+PASS  B03  顶层块 H-SHF-001 == 提案逐字（23 键）
+PASS  B04  顶层键集合 == 前像 + H-SHF-001（零删）
+PASS  B05  除新增块/modes/total 外，其余顶层键逐字未动
+PASS  B06  total == len(modes)（R5 裁定口径）
+PASS  B07  全库 0 重复码（M-SHF 各 1 次）
+PASS  B08  追加条目 figure_code/figure_name/legacy_mode_id/verification 口径
+PASS  B09  顶层块 core_modes == M-SHF-001~010（与数组追加一致）
+PASS  C01  zh 内层 == 前像 + 10（纯追加）
+PASS  C02  en 内层 == 前像 + 10（纯追加，E 后缀）
+PASS  C03  zh 10 条 8 键结构 + 模板复算逐字
+PASS  C04  en 10 条 == zh 同体（仅 code 换 E 后缀）
+PASS  C05  场景引用模式码均为 M-SHF-*（0 外部码）
+PASS  D01  scenario_tags == 前像 + 20（纯追加）
+PASS  D02  追加 20 条逐字（先 zh 后 en；4 键）
+PASS  D03  载体键集/值类型 == 既有先例（mode_code/tag/figure_code/language）
+PASS  D04  tags 载体不含 C-SHF 场景码（tag=模式名口径）
+PASS  E01  figures == 前像 + 1（其余逐字未动）
+PASS  E02  mode_ids == M-SHF-001~010
+PASS  E03  tags == 10 条模式名（name_zh，先例口径）
+PASS  E04  cross_references == 图档逐字（3 条）
+PASS  E05  xref 目标全部已注册（0 悬空）
+PASS  E06  code_maps 顶层键集未变（schema_version/figures）
+PASS  F01  figure_names == 前像 + 1（H-SHF-001 -> 沈复）
+PASS  F02  并集护栏：M-AZJ-001~010 在位（兄弟卡 t_ce457734 未受损）
+PASS  F03  并集护栏：H-AZJ-001 图档/图名在位
+PASS  F04  归档三件（H-HAN-001 系列）字节未变
+FAIL  F05  残留面扫描：非白名单文件零 M-SHF/C-SHF/H-SHF 命中 | ['docs/qa/phase21w4_qa_evidence.json', 'verify_shenfu_qa_espinosa.py']
+PASS  G01  meta.json：dedup 3301 / published 3241 / by-figure 320 / figures 1027 / 隔离 60
+PASS  G02  published = dedup - 隔离（3241 = 3301 - 60）
+PASS  G03  siteCounts.ts 3241x320 与 meta 同值
+PASS  G04  锚点 export_static_site.py: EXPECT_MODES = 3301
+PASS  G04  锚点 export_static_site.py: EXPECT_BY_FIGURE = 320
+PASS  G04  锚点 pages_preflight.py: EXPECT_MODES = 3301
+PASS  G04  锚点 pages_preflight.py: EXPECT_BY_FIGURE = 320
+PASS  G05  daily index total == 3241（发布口径）
+PASS  G06  static_data_manifest：mode_summaries 3301 / published 3241 / by_figure 320
+PASS  G07  by-figure 分片 H-SHF-001.json 存在且含 10 条 M-SHF
+PASS  H01  findings.audit_meta 随库刷新（sha/计数与现值一致）
+PASS  H02  四态求和自洽：公开 3241 + 隔离 60 == 全库 3301
+PASS  H03  新增 10 条全 pending（未回填核验状态）
+FAIL  I01  上游脚本合并后口径复跑 74 PASS / 0 FAIL | {'pass_': 73, 'fail': 1, 'warn': 0}
+TOTAL: 51 PASS / 2 FAIL
+

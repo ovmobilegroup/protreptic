@@ -1,0 +1,578 @@
+{
+ "schema_version": "v1",
+ "card": "t_83e0d68d",
+ "chain": "Phase21-R9 Shen Fu (H-SHF-001) rebuild chain (cards t_d78053e7 / t_b6d4c0ee / t_a7d233f0)",
+ "generated_at": "2026-09-24T10:46:28.727311+08:00",
+ "script": "verify_shenfu_qa_espinosa.py",
+ "mode": "full",
+ "repo_head": "8d461a2ea5dbbc446240dc13d981f68fde013a0d",
+ "publish_head": "54df4c4416411382bacdc15c7fbf1af6cc547745",
+ "counts": {
+  "pass": 75,
+  "fail": 0,
+  "info": 5
+ },
+ "verdict": "ALL PASS",
+ "results": [
+  {
+   "id": "A01",
+   "group": "A",
+   "title": "backup six pre-images sha256 == merge manifest inputs",
+   "status": "PASS",
+   "detail": "good=6/6 bad=[]"
+  },
+  {
+   "id": "A02",
+   "group": "A",
+   "title": "worktree six files sha256 == manifest/evidence after",
+   "status": "PASS",
+   "detail": "good=6/6 bad=[]"
+  },
+  {
+   "id": "A03",
+   "group": "A",
+   "title": "5a657b81 blobs == after; six files zero-drift vs HEAD and worktree",
+   "status": "PASS",
+   "detail": "blob bad=[] | diff-vs-HEAD='' | status=''"
+  },
+  {
+   "id": "A04",
+   "group": "A",
+   "title": "commit ancestry (sourcing->rebuild->merge->receipt->verify->HEAD)",
+   "status": "PASS",
+   "detail": "HEAD=8d461a2ea5db bad=[]"
+  },
+  {
+   "id": "A05",
+   "group": "A",
+   "title": "landing 9 deliverables sha256 == landing manifest; data vs landing copies byte-equal",
+   "status": "PASS",
+   "detail": "good=12/9 bad=[]"
+  },
+  {
+   "id": "A06",
+   "group": "A",
+   "title": "archived legacy files untouched (H-HAN-001 three files sha256)",
+   "status": "PASS",
+   "detail": "good=3/3 bad=[]"
+  },
+  {
+   "id": "A07",
+   "group": "A",
+   "title": "main commit 5a657b81 changeset == expected 24 files (no smuggling)",
+   "status": "PASS",
+   "detail": "n=24 extra=[] missing=[]"
+  },
+  {
+   "id": "A08",
+   "group": "A",
+   "title": "later commits (receipts/sibling chain) never touched the six data files",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B01",
+   "group": "B",
+   "title": "modes list len==3311, total==len, SHF block is the tail 10 in order",
+   "status": "PASS",
+   "detail": "len=3311 total=3311 tail=['M-SHF-001', 'M-SHF-002', 'M-SHF-003', 'M-SHF-004', 'M-SHF-005', 'M-SHF-006', 'M-SHF-007', 'M-SHF-008', 'M-SHF-009', 'M-SHF-010']"
+  },
+  {
+   "id": "B02-01",
+   "group": "B",
+   "title": "M-SHF-001 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-02",
+   "group": "B",
+   "title": "M-SHF-002 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-03",
+   "group": "B",
+   "title": "M-SHF-003 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-04",
+   "group": "B",
+   "title": "M-SHF-004 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-05",
+   "group": "B",
+   "title": "M-SHF-005 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-06",
+   "group": "B",
+   "title": "M-SHF-006 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-07",
+   "group": "B",
+   "title": "M-SHF-007 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-08",
+   "group": "B",
+   "title": "M-SHF-008 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-09",
+   "group": "B",
+   "title": "M-SHF-009 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B02-10",
+   "group": "B",
+   "title": "M-SHF-010 in library == landing A1 entry (deep)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "B03",
+   "group": "B",
+   "title": "library entries == figure modes == individuals modes == modes_library_entries",
+   "status": "PASS",
+   "detail": "fig=[] ind=[] ml=[]"
+  },
+  {
+   "id": "B04",
+   "group": "B",
+   "title": "entry invariants (id==mode_code, figure link, non-empty core fields)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B05",
+   "group": "B",
+   "title": "figure H-SHF-001 archive: mode_ids / count / identity / caveats / core_thoughts link",
+   "status": "PASS",
+   "detail": "bad=[] core_thoughts_bad=[]"
+  },
+  {
+   "id": "B06",
+   "group": "B",
+   "title": "code_maps[H-SHF-001] = mode_ids + name tags + figure xrefs (0 dangling)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B07",
+   "group": "B",
+   "title": "figure_names: H-SHF-001->Shen Fu, 1085 keys, exactly one key maps the name",
+   "status": "PASS",
+   "detail": "len=1085 shenfu_keys=['H-SHF-001']"
+  },
+  {
+   "id": "B08",
+   "group": "B",
+   "title": "top block H-SHF-001 == proposal (23 keys, placed before modes)",
+   "status": "PASS",
+   "detail": "eq=True n=23 pos_ok=True"
+  },
+  {
+   "id": "B09-01",
+   "group": "B",
+   "title": "C-SHF-001 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-02",
+   "group": "B",
+   "title": "C-SHF-002 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-03",
+   "group": "B",
+   "title": "C-SHF-003 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-04",
+   "group": "B",
+   "title": "C-SHF-004 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-05",
+   "group": "B",
+   "title": "C-SHF-005 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-06",
+   "group": "B",
+   "title": "C-SHF-006 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-07",
+   "group": "B",
+   "title": "C-SHF-007 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-08",
+   "group": "B",
+   "title": "C-SHF-008 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-09",
+   "group": "B",
+   "title": "C-SHF-009 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B09-10",
+   "group": "B",
+   "title": "C-SHF-010 scenario zh (recomputed text/area/titles vs entry)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B10",
+   "group": "B",
+   "title": "scenarios_en C-SHF-001E..010E (1:1 with zh, recomputed text_en)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "B11",
+   "group": "B",
+   "title": "scenario_tags +20 block (zh then en per mode, contiguous, figure H-SHF-001)",
+   "status": "PASS",
+   "detail": "n=20 contiguous=True len=7538 eq=True"
+  },
+  {
+   "id": "B12",
+   "group": "B",
+   "title": "figure mode_ids_note present (new code, legacy not reused)",
+   "status": "PASS",
+   "detail": "note_len=117"
+  },
+  {
+   "id": "C01",
+   "group": "C",
+   "title": "sourcing report quote lines extracted (expect 35)",
+   "status": "PASS",
+   "detail": "n=35"
+  },
+  {
+   "id": "C02",
+   "group": "C",
+   "title": "all report quotes found in witness copies (independent normalization)",
+   "status": "PASS",
+   "detail": "hits=35/35 miss=[]"
+  },
+  {
+   "id": "C03",
+   "group": "C",
+   "title": "witness quote_verification_final.json artifact: 35 rows all found",
+   "status": "PASS",
+   "detail": "n=35 unfound=[]"
+  },
+  {
+   "id": "C04",
+   "group": "C",
+   "title": "witness_sha256.txt manifest: 35 files sha256+size verified",
+   "status": "PASS",
+   "detail": "n=35 bad=[]"
+  },
+  {
+   "id": "C05",
+   "group": "C",
+   "title": "each entry key_quote_zh traceable to witnesses (10/10)",
+   "status": "PASS",
+   "detail": "bad=[]"
+  },
+  {
+   "id": "C06",
+   "group": "C",
+   "title": "figure famous_quote traceable to witnesses",
+   "status": "PASS",
+   "detail": "quote='布衣菜饭，可乐终身。'"
+  },
+  {
+   "id": "D01",
+   "group": "D",
+   "title": "pages_preflight --stage data exit 0 (rerun)",
+   "status": "PASS",
+   "detail": "rc=0 tail=['figures=1027 modes=3301 published=3241 隔离命中=0 figure shards=1027 by-figure shards=320', '      daily: 3241 条（by-figure 分片 3241 条）names=3241 tz=Asia/Shanghai', '[OK] stage=data：全部断言通过']"
+  },
+  {
+   "id": "D02",
+   "group": "D",
+   "title": "fresh export_static_site rerun: counts reproduced (figures/modes/published/quar/by-figure)",
+   "status": "PASS",
+   "detail": "rc=0 counts={'figures': 1027, 'modes_deduped': 3301, 'modes_quarantined': 60, 'mode_summaries_published': 3241, 'mode_by_figure_shards': 320, 'modes_raw': 3311}"
+  },
+  {
+   "id": "D03",
+   "group": "D",
+   "title": "fresh export tree == committed web/public/data (byte-exact modulo meta timestamps; daily deferred to D05)",
+   "status": "PASS",
+   "detail": "diff=[] meta_ts_masked_ok=True n_new=1358 n_old=1360"
+  },
+  {
+   "id": "D03b",
+   "group": "D",
+   "title": "rolled back shared manifest side write of this scratch export (restored to HEAD)",
+   "status": "PASS",
+   "detail": "rc=0"
+  },
+  {
+   "id": "D04",
+   "group": "D",
+   "title": "gen_web_site_counts --check exit 0; siteCounts.ts = 3241 x 320 (src 3301)",
+   "status": "PASS",
+   "detail": "rc=0 nums={'modes': '3241', 'figures': '320', 'sourceTotal': '3301'}"
+  },
+  {
+   "id": "D05",
+   "group": "D",
+   "title": "build_daily_index --check exit 0; daily total=3241 / figure_count=320",
+   "status": "PASS",
+   "detail": "rc=0 total=3241 figs=320"
+  },
+  {
+   "id": "D06",
+   "group": "D",
+   "title": "committed meta.json counts consistent (3311 raw / 3301 dedup / 3241 pub / 60 quar / 320 / 1027)",
+   "status": "PASS",
+   "detail": "counts={'modes_raw': 3311, 'modes_deduped': 3301, 'mode_summaries_published': 3241, 'modes_quarantined': 60, 'mode_by_figure_shards': 320, 'figures': 1027}"
+  },
+  {
+   "id": "D07",
+   "group": "D",
+   "title": "display-surface scans zero violations (dist 1377 files / docs 6 pages; counts 3241x320)",
+   "status": "PASS",
+   "detail": "dist_viol=[] docs_viol=[]"
+  },
+  {
+   "id": "D08",
+   "group": "D",
+   "title": "quarantine: 60 modes of quarantined figures excluded, zero leak in products",
+   "status": "PASS",
+   "detail": "n=60 leaks=[] fig_leaks=[]"
+  },
+  {
+   "id": "D09",
+   "group": "D",
+   "title": "anchor constants equal across export/preflight and match observed counts",
+   "status": "PASS",
+   "detail": "anchors={'EXPECT_MODES': (3301, 3301), 'EXPECT_BY_FIGURE': (320, 320), 'EXPECT_FIGURES': (1027, 1027)}"
+  },
+  {
+   "id": "E01",
+   "group": "E",
+   "title": "parity: zero SHF-chain files among 53 diffs (status=DIFF)",
+   "status": "PASS",
+   "detail": "kinds={'MISSING_IN_PUBLISH': 50, 'CONTENT_DIFF': 3} real=[] inflight=[] other=['data/audit/phase21w8_stage2_batch1_recount_baseline.json', 'data/audit/phase21w8_stage2_batch1_recount_live.json', 'data/audit/source_texts/1c09d5d360d70a3d.txt', 'data/audit/source_texts/1c09d5d360d70a3d.zh-cn.txt', 'data/audit/source_texts/3249682cf8e37e12.txt', 'data/audit/source_texts/389b2331100b5a3d.txt', 'data/audit/source_texts/56f741d147929b19.txt', 'data/audit/source_texts/8c8b1f31856f6fe7.txt', 'data/audit/source_texts/8c8b1f31856f6fe7.zh-cn.txt', 'data/audit/source_texts/9467873b3e0f5389.txt', 'data/audit/source_texts/97fd6102e010ea15.txt', 'data/audit/source_texts/a61ea9e62713fcb0.txt', 'data/audit/source_texts/a61ea9e62713fcb0.zh-cn.txt', 'data/audit/source_texts/ae16eb8f9ce915c3.txt', 'data/audit/source_texts/babdd9260526b76c.txt', 'data/audit/source_texts/e9103adb8b3eea3f.txt', 'data/audit/source_texts/e9103adb8b3eea3f.zh-cn.txt', 'data/audit/source_texts/f3c7e8f6bb23c6a7.txt', 'data/audit/source_texts/fe700a6ecbc8cd97.txt', 'data/audit/source_texts_w8_stage2_batch1.json', 'docs/qa/phase21w4_qa_evidence.json', 'docs/qa/phase21w4_qa_report.md', 'docs/research/candidates_v5_research.md', 'docs/research/phase21r8_w4_names_recon.json', 'docs/research/phase21r8_w4_names_recon.md', 'docs/research/phase21r9_shenfu_qa_evidence.json', 'docs/research/phase21r9_shenfu_qa_logs/build_daily_index_check.txt', 'docs/research/phase21r9_shenfu_qa_logs/export_fresh.txt', 'docs/research/phase21r9_shenfu_qa_logs/export_vs_committed_diff.json', 'docs/research/phase21r9_shenfu_qa_logs/gate_apply_verification_status.txt']"
+  },
+  {
+   "id": "E02",
+   "group": "E",
+   "title": "publish mirror coverage: chain file set (83) == workspace HEAD, byte-exact in publish",
+   "status": "PASS",
+   "detail": "match=83 missing=[] diff=[]"
+  },
+  {
+   "id": "E02b",
+   "group": "E",
+   "title": "chain files: working-tree drift vs HEAD (informational)",
+   "status": "INFO",
+   "detail": "drift=[]"
+  },
+  {
+   "id": "E03",
+   "group": "E",
+   "title": "publish mirror ancestry + 2ec3af3 carries 81 files and the six blobs == after",
+   "status": "PASS",
+   "detail": "pub_head=54df4c441641 bad_ancestor=[] six_bad=[] n_2ec3af3=81 receipt_files=3/2"
+  },
+  {
+   "id": "E04",
+   "group": "E",
+   "title": "ls-remote origin main: SHF mirror commits on remote (remote=e6d133c43c48)",
+   "status": "PASS",
+   "detail": "remote=e6d133c43c4851ebcd77ab93acd17e5b861d345b local_obj=True ancestor_of_3b6874f=True attempts=try1 rc=0 out='e6d133c43c4851ebcd77ab93acd17e5b861d345b\\trefs/heads/main' err=''"
+  },
+  {
+   "id": "E05",
+   "group": "E",
+   "title": "publish worktree clean for chain file set (all committed, no uncommitted drift)",
+   "status": "PASS",
+   "detail": "porcelain=''"
+  },
+  {
+   "id": "F01-1",
+   "group": "F",
+   "title": "modes_data: pure append (prefix equal, +10 tail, new block only H-SHF-001, total follows)",
+   "status": "PASS",
+   "detail": "modified=['modes', 'total'] new=['H-SHF-001'] removed=[] tail_eq=True"
+  },
+  {
+   "id": "F01-2",
+   "group": "F",
+   "title": "code_maps: pure registry append (common equal, +H-SHF-001, nothing removed)",
+   "status": "PASS",
+   "detail": "modified=[] added=['H-SHF-001'] removed=[]"
+  },
+  {
+   "id": "F01-3",
+   "group": "F",
+   "title": "figure_names: pure append (+H-SHF-001 only)",
+   "status": "PASS",
+   "detail": "modified=[] added=['H-SHF-001']"
+  },
+  {
+   "id": "F01-4",
+   "group": "F",
+   "title": "scenarios_zh.json: inner pure append (+10 C-SHF..010), outer untouched",
+   "status": "PASS",
+   "detail": "imod=[] added=['C-SHF-001', 'C-SHF-002', 'C-SHF-003', 'C-SHF-004', 'C-SHF-005'] top_mod=[]"
+  },
+  {
+   "id": "F01-5",
+   "group": "F",
+   "title": "scenarios_en.json: inner pure append (+10 C-SHF..E), outer untouched",
+   "status": "PASS",
+   "detail": "imod=[] added=['C-SHF-001E', 'C-SHF-002E', 'C-SHF-003E', 'C-SHF-004E', 'C-SHF-005E'] top_mod=[]"
+  },
+  {
+   "id": "F01-6",
+   "group": "F",
+   "title": "scenario_tags: inner pure append (+20 SHF tags at tail)",
+   "status": "PASS",
+   "detail": "prefix=True n_before=7518 n_after=7538 appended_figs={'H-SHF-001'}"
+  },
+  {
+   "id": "F02",
+   "group": "F",
+   "title": "neighbours intact: first 10 / last-10-before-SHF entries byte-equal pre/post",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "F03",
+   "group": "F",
+   "title": "union guard: M-AZJ-001..010 intact, H-AZJ-001 block/registry in place",
+   "status": "PASS",
+   "detail": "azj_block=True cm=True fn=True"
+  },
+  {
+   "id": "F04",
+   "group": "F",
+   "title": "stray-code scan: no unexpected file carries M-SHF/C-SHF/H-SHF",
+   "status": "PASS",
+   "detail": "classes={'shf-surface': 50, 'other-card-scan-list': 1, 'sibling-chain': 5} unexpected=[]"
+  },
+  {
+   "id": "F05",
+   "group": "F",
+   "title": "legacy shell H-HAN-001: old codes M351..M358 not reused; not re-awakened in registries",
+   "status": "PASS",
+   "detail": "old_in_lib=[] active=[] bg_xref=[]"
+  },
+  {
+   "id": "F06",
+   "group": "F",
+   "title": "product doc faces: figure_library/index count lines updated to 320/3241",
+   "status": "PASS",
+   "detail": "fl_ok=True ix_ok=True"
+  },
+  {
+   "id": "F06b",
+   "group": "F",
+   "title": "pre-existing stale prose line in docs/index.md body (not introduced by this chain)",
+   "status": "INFO",
+   "detail": "pre_image_same=True line='一座历史人物的思维方法库。从古今中外 283 位人物身上提炼可操作的思维方法，站上发布的共 **2848 条**，'"
+  },
+  {
+   "id": "F07",
+   "group": "F",
+   "title": "backup dir stays untracked (not committed, by design)",
+   "status": "PASS",
+   "detail": "tracked=''"
+  },
+  {
+   "id": "X01",
+   "group": "X",
+   "title": "cross-regression rerun verify_phase21r9_shenfu.py (self-report, not judgement)",
+   "status": "INFO",
+   "detail": "rc=1 tail=['TOTAL: 73 PASS / 1 FAIL / 0 WARN']"
+  },
+  {
+   "id": "X02",
+   "group": "X",
+   "title": "cross-regression rerun verify_phase21r9_shenfu_merge_indep.py (self-report, not judgement)",
+   "status": "INFO",
+   "detail": "rc=1 tail=['TOTAL: 51 PASS / 2 FAIL']"
+  },
+  {
+   "id": "X02b",
+   "group": "X",
+   "title": "cross-regression side writes rolled back (chain evidence restored to HEAD)",
+   "status": "INFO",
+   "detail": "restored=['docs/research/phase21r9_shenfu_verify_evidence_merged.json', 'docs/research/phase21r9_shenfu_merge_verify_indep.json']"
+  },
+  {
+   "id": "X03",
+   "group": "X",
+   "title": "gate rerun: credibility_gate",
+   "status": "PASS",
+   "detail": "rc=0 tail=['  说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。', '  取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en']"
+  },
+  {
+   "id": "X04",
+   "group": "X",
+   "title": "gate rerun: verify_findings",
+   "status": "PASS",
+   "detail": "rc=0 tail=[\"  ::warning::E: these mode codes are harvested twice by get_all_modes (present both in the top-level modes array and inside a figure node): ['M-ASM-001', 'M-ASM-002', 'M-ASM-003', 'M-ASM-004', 'M-ASM-005', 'M-ASM-006', 'M-ASM-007', 'M-ASM-008', 'M-ASM-009', 'M-ASM-010']\", '[OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0']"
+  },
+  {
+   "id": "X05",
+   "group": "X",
+   "title": "gate rerun: verify_source_links",
+   "status": "PASS",
+   "detail": "rc=0 tail=['  ::warning::UNREACHABLE 《高卢战记》 -> https://zh.wikipedia.org/wiki/%E9%AB%98%E7%9B%A7%E6%88%B0%E8%A8%98', '[OK] hard-fail: 无新增坏链（存量 0 条已冻结）-> exit 0']"
+  },
+  {
+   "id": "X06",
+   "group": "X",
+   "title": "gate rerun: apply_verification_status",
+   "status": "PASS",
+   "detail": "rc=0 tail=['[OK] 公开口径求和自洽: 公开 3251 加隔离 60 等于全库 3311', '[OK] --check: 库中状态与本规则逐条一致']"
+  }
+ ]
+}
