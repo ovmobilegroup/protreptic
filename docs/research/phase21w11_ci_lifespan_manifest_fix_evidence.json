@@ -130,17 +130,54 @@
   "test_thinking_mode_selector": "ALL TESTS PASSED (11)"
  },
  "commits": {
-  "ws_commit": "PENDING_COMMIT1",
-  "pb_commit": "PENDING_COMMIT1",
-  "push": "PENDING",
-  "ls_remote": "PENDING"
+  "ws_commit": "ee08f5b5ad27161d9d03ab7da76368481eff4f89",
+  "ws_commit_short": "ee08f5b5",
+  "pb_commit": "ac644a98ed6d49769603e5d1362addcea3669e63",
+  "pb_commit_short": "ac644a9",
+  "push": "651b533..ac644a9 main -> main (rc=0)",
+  "ls_remote": "ac644a98ed6d49769603e5d1362addcea3669e63 (== pushed HEAD)",
+  "files": [
+   "data/audit/lifespan_backfill.json",
+   "docs/research/phase21w11_ci_lifespan_manifest_fix_report.md",
+   "docs/research/phase21w11_ci_lifespan_manifest_fix_evidence.json"
+  ],
+  "byte_exact_pairs_sha256": {
+   "lifespan_backfill.json": "f70cff92f54bd6f96674e36acd0e6fae834cec46bd94aa5baf23021f7d1735b9"
+  }
  },
  "ci": {
-  "run_sha": "PENDING",
-  "run_url": "PENDING",
-  "run_conclusion": "PENDING",
-  "gate_negative_test_step": "PENDING"
+  "workflow": "Protreptic CI/CD (.github/workflows/ci-cd.yml)",
+  "run_id": 35963712264,
+  "run_url": "https://github.com/ovmobilegroup/protreptic/actions/runs/35963712264",
+  "head_sha": "ac644a98ed6d49769603e5d1362addcea3669e63",
+  "status": "completed",
+  "conclusion": "success",
+  "completed_at": "2026-09-24T06:33:49Z",
+  "test_job": "success",
+  "gate_negative_test_step": "success",
+  "acceptance_step_name": "可信度门 · 负对照自测（D3 豁免两方向 + 两档七项）",
+  "steps_snapshot": {
+   "可信度门 · 新增违规必红": "success",
+   "链接源核验 · 新增坏链必红": "success",
+   "可信度门 · 负对照自测（D3 豁免两方向 + 两档七项）": "success",
+   "findings 自检 · 新增硬失败必红": "success",
+   "findings 自检 · 两档八项（含计数过期只警告）": "success",
+   "两仓一致性机检 · 双向单侧负对照自测（19 项）": "success",
+   "Run Python tests": "success",
+   "Run TypeScript type check": "success",
+   "Run linting": "success"
+  },
+  "other_workflows_same_sha": {
+   "markdown-lint": "failure (known legacy red, out of card scope)",
+   "pages-deploy": "triggered (see card receipt comment)"
+  },
+  "no_masked_red_points": true
  },
  "network_note": "LAN https proxy intermittent TLS failure vs GitHub this round; push & API queries done direct + retry.",
- "receipt": "回执补记：见报告文末与本卡 comment（提交面 + CI 面回填）"
+ "receipt": {
+  "main_commit_ws": "ee08f5b5",
+  "main_commit_pb": "ac644a9",
+  "receipt_commit": "见卡面 comment（回执补记提交 ws/pb sha）",
+  "network_note": "push/API via alternating direct & LAN-proxy attempts with retry this round"
+ }
 }

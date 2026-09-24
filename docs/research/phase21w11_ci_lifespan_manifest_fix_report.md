@@ -3,7 +3,7 @@
 - 卡：`t_0ec6fb57`（bustamante；船长 2026-09-24 08:10 派发）；父卡 `t_bda44643`（W5 修复链尾，done 放行）
 - 边界：仅刷新 `data/audit/lifespan_backfill.json`（两仓）+ 本报告/证据；**零数据内容改动**；未动 markdown-lint 存量红（另项）；未动 QA/W4/W5/W7/W9 在途件
 - 单写者预检（开工时扫 `/opt/data/kanban/boards/protreptic/kanban.db`）：同仓在跑 = W7 `t_d24e11bc`（elcano，写面=根目录 json / tools/json 杂物，其卡明示不写 `data/modes_data.json`）+ W8S2B1 QA `t_a407cb32`（espinosa，只读核验）；开工时两仓工作树干净、无 index.lock —— 与本卡写面（`data/audit/**`）不相交，按「最小写面、只碰本卡文件」推进
-- 一句话结论：两仓清单刷新完成（盘上 476 → 576 键）；`--check` 两仓 rc=0；`test_credibility_d45.py` **38/38**（Z7 由红转绿）；两仓 byte-same；提交/镜像/push 完成；CI 复验见 §四（回执补记回填）
+- 一句话结论：两仓清单刷新完成（盘上 476 → 576 键）；`--check` 两仓 rc=0；`test_credibility_d45.py` **38/38**（Z7 由红转绿）；两仓 byte-same；提交/镜像/push 完成；**CI run `35963712264` = success，本卡验收步骤「可信度门 · 负对照自测」success**
 
 ## 零、基线复现与参考值对账
 
@@ -54,22 +54,44 @@
 | 两仓一致性机检 · 19 项 | `python3 tools/test_check_repo_parity.py` | 19/19 passed rc=0 |
 | Run Python tests | `python3 tools/test_thinking_mode_selector.py`（tools 目录下） | ALL TESTS PASSED (11) rc=0 |
 
-（vue-tsc / lint 两项未复跑：本次零 web 改动；船长已预跑全绿。）
+（vue-tsc / lint 两项未本地复跑：本次零 web 改动；CI 实测两项均 success，见 §四。）
 
-## 三、三件套（提交 / 镜像 / push）
+## 三、三件套（提交 / 镜像 / push）—— 实测
 
-- 工作仓提交：`<WS_SHA>`（3 件：`data/audit/lifespan_backfill.json` + 本报告 + 证据）
-- 发布仓镜像提交：`<PB_SHA>`（同 3 件，byte-exact）
-- push：`<OLD_SHA>..<PB_SHA>` rc=0；`git ls-remote origin main` == `<PB_SHA>` ✅
-- 网络备注：本机 LAN HTTPS 代理对 GitHub 的 TLS 隧道本轮间歇失败（curl 35 / unexpected eof），push 与 API 查询走**直连 + 重试**完成
+- 工作仓提交：`ee08f5b5ad27161d9d03ab7da76368481eff4f89`（`ee08f5b5`；3 件：`data/audit/lifespan_backfill.json` + 本报告 + 证据，+812 / −242）
+- 发布仓镜像提交：`ac644a98ed6d49769603e5d1362addcea3669e63`（`ac644a9`；同 3 件，sha256 逐件相等 = byte-exact）
+- push：`651b533..ac644a9  main -> main` rc=0；`git ls-remote origin main` = `ac644a98ed6d49769603e5d1362addcea3669e63`（== push 后 HEAD）✅
+- 网络备注：本机 LAN HTTPS 代理与直连对 GitHub 均出现间歇 TLS/连接失败（curl 35 / connect timeout），push 与 API 查询以**直连/代理交替 + 重试**完成（push 于代理通道成功）
 
-## 四、CI 复验（核心验收）—— 回执补记回填
+## 四、CI 复验（核心验收）—— 实测
 
-- 对 sha `<PB_SHA>` 的 ci-cd.yml run：见 `回执补记`（报告文末 / 卡面 comment）
-- 「可信度门 · 负对照自测（D3 豁免两方向 + 两档七项）」步骤：见补记
+- **run**：`35963712264`（工作流 Protreptic CI/CD，sha `ac644a98ed6d49769603e5d1362addcea3669e63`，2026-09-24T06:33:49Z 完成）
+  - URL：https://github.com/ovmobilegroup/protreptic/actions/runs/35963712264
+- **总结论 = `success`**（Test / Build API / Build Web / Notify 全绿；Deploy Staging / Production skipped 与触发条件一致）
+- **Test (Python + TypeScript) job = success**，逐步实测：
+
+| 步骤 | conclusion |
+|---|---|
+| 可信度门 · 新增违规必红 | success |
+| 链接源核验 · 新增坏链必红 | success |
+| **可信度门 · 负对照自测（D3 豁免两方向 + 两档七项）** | **success** ← 本卡验收点（此前长期红，Z7 根因已修） |
+| findings 自检 · 新增硬失败必红 | success |
+| findings 自检 · 两档八项（含计数过期只警告） | success |
+| 两仓一致性机检 · 双向单侧负对照自测（19 项） | success |
+| Install Python deps / 构建统一索引 / Run Python tests | success ×3 |
+| Set up Node / Install web deps / vue-tsc / linting | success ×4 |
+
+- 同 sha 其他 workflow（记录在案，**非本卡验收面**）：markdown-lint `35963712230` = failure（存量红，卡面明示另项勿动）；Deploy to GitHub Pages `35963712256` = 推送同时触发，结果见卡面回执 comment。
+- 无遮挡验证：Z7 修复前该步骤必红；修复后本步及其后所有步骤（findings / parity / Python tests / TS / lint）**全量首次跑通**，不存在被 Z7 长期遮挡的后续红点。
 
 ## 五、边界与遗留
 
 - markdown-lint 工作流存量红（备份目录 H-ZX-001.md）：另项，本卡未动
-- R9/W8/W9 后续合并落盘后本清单可能再现漂移：已知，收口阶段再刷一次即可（本卡已按卡面要求只做一次刷新）
+- R9/W8/W9 后续合并落盘后本清单可能再现漂移：已知，收口阶段再刷一次即可（本卡按卡面要求只做一次刷新）
 - 未碰 W7/W8S2B1 在途路径；本卡唯一数据面写操作 = `data/audit/lifespan_backfill.json` 再生成（内容 100% 由现场重算产出）
+- 归因纪律：run 结论与步骤结论文中数据均取自 GitHub Actions API 实测（非自述）；本报告自身提交面（含回执补记提交 sha）见卡面 comment 回执。
+
+## 六、回执补记记录
+
+- 主提交（本文件首次入库）：工作仓 `ee08f5b5` / 发布仓 `ac644a9`（3 件 byte-exact；push `651b533..ac644a9`）
+- 回执补记（本终稿 + 证据 CI 回填）：工作仓/发布仓双仓 sha 见卡面 comment（「回执补记提交」行）
