@@ -321,7 +321,7 @@ def sec_E(ctx, res):
     t = ctx["report_text"]
     # E1: §4.5 QA 指纹复核
     fps = {"84ff028da6bee8d4": LEDGER_REL,
-           "886a7c90c560e727": "docs/research/phase21w8_stage2_batch1_landing_report.md",
+           "74e443cf3f5e6614": "docs/research/phase21w8_stage2_batch1_landing_report.md",
            "0a6f5a5ae266281b": "docs/research/phase21w8_stage2_batch1_landing_evidence.json",
            "81d6329c92afe97c": "tools/build_batch1_landing_ledger.py",
            "4d55095b5776a82f": "tools/verify_batch1_qa_espinosa.py"}
@@ -362,6 +362,12 @@ def sec_E(ctx, res):
         else:
             detail = "回执行缺失"
         res.add("E", "E3 §4.7 回执区自洽（ws 4 件 / pb 3 件 / push ok）", ok, detail)
+
+    # E4: 登记链刷新（t_e01c8aa0）终态登记
+    toks = ["登记链刷新（t_e01c8aa0）", "已修复（t_2ce1e334", "72b1927c17a58a9e",
+            "17265dd82fe6665a", "74e443cf3f5e6614", "450d0e752732b9a2"]
+    res.add("E", "E4 登记链刷新（t_e01c8aa0）终态登记", all(x in t for x in toks),
+            "缺=%s" % [x for x in toks if x not in t][:6])
 
 
 def sec_F(ctx, res):

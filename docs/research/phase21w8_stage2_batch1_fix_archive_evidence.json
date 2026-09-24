@@ -1,0 +1,379 @@
+{
+  "schema": "protreptic.w8_stage2_batch1.fix_archive_evidence/v1",
+  "task": "t_e01c8aa0",
+  "generated_by": "verify_w8_stage2_batch1_fix_archive.py",
+  "generated_at": "2026-09-24",
+  "flags": {
+    "with_remote": false,
+    "with_live": false,
+    "chain_repro": true,
+    "receipts_pending": true
+  },
+  "receipts_pending": true,
+  "totals": {
+    "checks": 39,
+    "pass": 31,
+    "fail": 8
+  },
+  "sections": {
+    "A": [
+      {
+        "section": "A",
+        "name": "A1 九节标题齐备",
+        "ok": true,
+        "detail": "缺: []"
+      },
+      {
+        "section": "A",
+        "name": "A2 关键 token 齐备",
+        "ok": true,
+        "detail": "缺: []"
+      },
+      {
+        "section": "A",
+        "name": "A3 件数口径（九节 / 3 卡 / 4 笔 / 11 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "A",
+        "name": "A4 卡号与锚点引用完整",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "B": [
+      {
+        "section": "B",
+        "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_fix_archive_report.md",
+        "ok": false,
+        "detail": "ws=a8483f2e90b9e626 pb=None"
+      },
+      {
+        "section": "B",
+        "name": "B1 双仓 byte-exact: verify_w8_stage2_batch1_fix_archive.py",
+        "ok": false,
+        "detail": "ws=40a6d5239ce66e05 pb=None"
+      },
+      {
+        "section": "B",
+        "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_fix_archive_evidence.json",
+        "ok": false,
+        "detail": "ws=942abf1ee05eba74 pb=None"
+      },
+      {
+        "section": "B",
+        "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_report.md",
+        "ok": false,
+        "detail": "ws=3b30af2b9aec5cfa pb=0eed2ddcfee5161c"
+      },
+      {
+        "section": "B",
+        "name": "B1 双仓 byte-exact: verify_w8_stage2_batch1_archive.py",
+        "ok": false,
+        "detail": "ws=b09f29fc207268f9 pb=031a98a12606512a"
+      },
+      {
+        "section": "B",
+        "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_evidence.json",
+        "ok": false,
+        "detail": "ws=6ed4202c6ff54bd8 pb=23e2c803a3cb8fc8"
+      },
+      {
+        "section": "B",
+        "name": "B2 pb 0b86fd2 -> ws e7bb276c 提交级 blob 对照（3 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "B",
+        "name": "B2 pb 27c2074 -> ws 46c29cbc 提交级 blob 对照（2 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "B",
+        "name": "B2 pb 5b693bb -> ws 5705b030 提交级 blob 对照（1 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "B",
+        "name": "B2 pb 9afe48e -> ws 68fd5569 提交级 blob 对照（5 件）",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "C": [
+      {
+        "section": "C",
+        "name": "C1 §9.1 四对全号索引与短号登记",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "C",
+        "name": "C2 短号全号解析复核（8 笔）",
+        "ok": true,
+        "detail": "失配: []"
+      },
+      {
+        "section": "C",
+        "name": "C3 修复前锚点可解析",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "C",
+        "name": "C4 四对提交文件名集合逐对相符",
+        "ok": true,
+        "detail": "失配: []"
+      },
+      {
+        "section": "C",
+        "name": "C5 §4.8 回执区条目存在（pending 或 v1 态）",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "D": [
+      {
+        "section": "D",
+        "name": "D1 §5.1 sha16 登记复核（11 件）",
+        "ok": false,
+        "detail": "失配: ['phase21w8_stage2_batch1_archive_report.md:两仓字节差异', 'verify_w8_stage2_batch1_archive.py:两仓字节差异', 'phase21w8_stage2_batch1_archive_evidence.json:两仓字节差异']"
+      },
+      {
+        "section": "D",
+        "name": "D2 计数重算（154 条 / 57-20-3-74 / 近档 28 / 负对照零）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "D",
+        "name": "D3 6 行归因重算（v1@1c00ca8a 与磁盘逐行比对）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "D",
+        "name": "D4 三段一致性与核中 25->23 复核",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "D",
+        "name": "D5 F2 候选全扫登记（40 候选 / 两枚翻转）",
+        "ok": true,
+        "detail": "{\"U+3000\": {\"char\": \"　\", \"name\": \"IDEOGRAPHIC SPACE\", \"corpus_count\": 5548, \"hits\": [{\"mode_code\": \"M-LJY-002\", \"book\": \"陆九渊集\", \"path\": \"raw+hant\"}]}, \"U+FE30\": {\"char\": \"︰\", \"name\": \"PRESENTATION FOR"
+      }
+    ],
+    "E": [
+      {
+        "section": "E",
+        "name": "E1 F0-F6 处置表 token",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "E",
+        "name": "E2 计数与收口 token",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "E",
+        "name": "E3a 回执区 v1 登记复核（ws 8 件 / pb 6 件）",
+        "ok": true,
+        "detail": "pending（回执区未回填；v2 后转严）"
+      },
+      {
+        "section": "E",
+        "name": "E3b 回执区 v1 提交级 blob 对照（6 件 + push 面）",
+        "ok": true,
+        "detail": "pending（回执区未回填；v2 后转严）"
+      },
+      {
+        "section": "E",
+        "name": "E4 父链收口复核（t_098d8ff6 验收 33/33 全 PASS）",
+        "ok": false,
+        "detail": "totals={'checks': 33, 'pass': 30, 'fail': 3}"
+      }
+    ],
+    "F": [
+      {
+        "section": "F",
+        "name": "F1 删节标题注入 -> A 捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "F",
+        "name": "F2 镜像不符注入 -> B 捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "F",
+        "name": "F3 提交号篡改注入 -> C 捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "F",
+        "name": "F4 sha16 篡改注入 -> D 捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "F",
+        "name": "F5 计数篡改注入 -> D 捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "F",
+        "name": "F6 回执篡改注入 -> E 捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "F",
+        "name": "F7 反向注入自检汇总（6 / 6）",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "G": [
+      {
+        "section": "G",
+        "name": "G POST 链复核（QA 校验器复跑）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "G",
+        "name": "G PRE 链复核（QA 校验器复跑）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "section": "G",
+        "name": "G SCAN 链复核（QA 校验器复跑）",
+        "ok": true,
+        "detail": ""
+      }
+    ]
+  },
+  "fingerprints": {
+    "report": {
+      "rel": "docs/research/phase21w8_stage2_batch1_fix_archive_report.md",
+      "sha16": "a8483f2e90b9e626"
+    },
+    "verifier": {
+      "rel": "verify_w8_stage2_batch1_fix_archive.py",
+      "sha16": "40a6d5239ce66e05"
+    },
+    "generator": {
+      "rel": "build_w8_stage2_batch1_fix_archive.py",
+      "sha16": "75ca899cd5670008"
+    },
+    "parent_report": {
+      "rel": "docs/research/phase21w8_stage2_batch1_archive_report.md",
+      "sha16": "3b30af2b9aec5cfa"
+    },
+    "parent_verifier": {
+      "rel": "verify_w8_stage2_batch1_archive.py",
+      "sha16": "b09f29fc207268f9"
+    },
+    "parent_evidence": {
+      "rel": "docs/research/phase21w8_stage2_batch1_archive_evidence.json",
+      "sha16": "6ed4202c6ff54bd8"
+    },
+    "chain": {
+      "docs/research/phase21w8_stage2_batch1_sourcing_report.md": {
+        "ws": "72b1927c17a58a9e",
+        "pb": "72b1927c17a58a9e"
+      },
+      "docs/research/phase21w8_stage2_batch1_sourcing_report.json": {
+        "ws": "17265dd82fe6665a",
+        "pb": "17265dd82fe6665a"
+      },
+      "tools/build_batch1_sourcing_pack.py": {
+        "ws": "450d0e752732b9a2",
+        "pb": "450d0e752732b9a2"
+      },
+      "docs/research/phase21w8_stage2_batch1_landing_report.md": {
+        "ws": "74e443cf3f5e6614",
+        "pb": "74e443cf3f5e6614"
+      },
+      "data/audit/phase21w8_stage2_batch1_sourcing_fix_receipt.json": {
+        "ws": "1a62e38355ca1eb9",
+        "pb": "1a62e38355ca1eb9"
+      },
+      "docs/research/phase21w8_stage2_batch1_sourcing_fix_qa_report_espinosa.md": {
+        "ws": "5b926b3e702c6927",
+        "pb": "5b926b3e702c6927"
+      },
+      "docs/research/phase21w8_stage2_batch1_sourcing_fix_qa_evidence_espinosa.json": {
+        "ws": "c221ed5883a962da",
+        "pb": "c221ed5883a962da"
+      },
+      "tools/verify_batch1_sourcing_fix_qa_espinosa.py": {
+        "ws": "2508a3a8c6b3718c",
+        "pb": "2508a3a8c6b3718c"
+      },
+      "docs/research/phase21w8_stage2_batch1_archive_report.md": {
+        "ws": "3b30af2b9aec5cfa",
+        "pb": "0eed2ddcfee5161c"
+      },
+      "verify_w8_stage2_batch1_archive.py": {
+        "ws": "b09f29fc207268f9",
+        "pb": "031a98a12606512a"
+      },
+      "docs/research/phase21w8_stage2_batch1_archive_evidence.json": {
+        "ws": "6ed4202c6ff54bd8",
+        "pb": "23e2c803a3cb8fc8"
+      }
+    }
+  },
+  "commits": {
+    "anchor": "1c00ca8a",
+    "ws": [
+      {
+        "short": "68fd5569",
+        "full": "68fd5569dd18c57b2b21600fd7cb29186fef1867"
+      },
+      {
+        "short": "5705b030",
+        "full": "5705b030a486593982442ce2c94cae829c41e8df"
+      },
+      {
+        "short": "e7bb276c",
+        "full": "e7bb276c4a0155d1b5693a2fc844d955aa8fa8bb"
+      },
+      {
+        "short": "46c29cbc",
+        "full": "46c29cbc39c54ee6933851c2d89b556546d2c2f6"
+      }
+    ],
+    "pb": [
+      {
+        "short": "9afe48e",
+        "full": "9afe48e279ea492154cca7306b3ac0e05db9bf67"
+      },
+      {
+        "short": "5b693bb",
+        "full": "5b693bb91498a1fea95435c4d4a1911f59b7dfff"
+      },
+      {
+        "short": "0b86fd2",
+        "full": "0b86fd22432bbe52858ced1300a39a57487a063d"
+      },
+      {
+        "short": "27c2074",
+        "full": "27c207417b055a7c5b939cec5e1f635e30f84ae5"
+      }
+    ]
+  }
+}

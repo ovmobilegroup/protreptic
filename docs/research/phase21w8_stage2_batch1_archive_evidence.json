@@ -5,9 +5,9 @@
   "generated_at": "2026-09-24",
   "receipts_pending": false,
   "totals": {
-    "checks": 32,
-    "pass": 32,
-    "fail": 0
+    "checks": 33,
+    "pass": 30,
+    "fail": 3
   },
   "sections": {
     "A": [
@@ -35,18 +35,18 @@
     "B": [
       {
         "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_report.md",
-        "ok": true,
-        "detail": ""
+        "ok": false,
+        "detail": "ws=40426 pb=38158"
       },
       {
         "name": "B1 双仓 byte-exact: verify_w8_stage2_batch1_archive.py",
-        "ok": true,
-        "detail": ""
+        "ok": false,
+        "detail": "ws=22715 pb=22341"
       },
       {
         "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_evidence.json",
-        "ok": true,
-        "detail": ""
+        "ok": false,
+        "detail": "ws=5037 pb=4877"
       },
       {
         "name": "B2 pb 023a794 -> ws 004332b4 提交级 blob 对照（50 件）",
@@ -143,6 +143,11 @@
         "name": "E3 §4.7 回执区自洽（ws 4 件 / pb 3 件 / push ok）",
         "ok": true,
         "detail": ""
+      },
+      {
+        "name": "E4 登记链刷新（t_e01c8aa0）终态登记",
+        "ok": true,
+        "detail": ""
       }
     ],
     "F": [
@@ -184,9 +189,9 @@
     ]
   },
   "fingerprints": {
-    "docs/research/phase21w8_stage2_batch1_archive_report.md": "0eed2ddcfee5161c",
-    "verify_w8_stage2_batch1_archive.py": "031a98a12606512a",
-    "build_w8_stage2_batch1_archive.py": "d0a305d15d4e7dbe",
+    "docs/research/phase21w8_stage2_batch1_archive_report.md": "3b30af2b9aec5cfa",
+    "verify_w8_stage2_batch1_archive.py": "b09f29fc207268f9",
+    "build_w8_stage2_batch1_archive.py": "8a858e1e4ff09915",
     "docs/research/phase21w8_stage2_batch1_archive_evidence.json": "（本件；自指省略）"
   }
 }

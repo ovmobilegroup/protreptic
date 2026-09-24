@@ -11,7 +11,8 @@
 本档将 Phase21 W8 Stage2 批1 全链（研究 t_6ed4fe0d -> 工具/素材包 t_70a8cbce -> 主库落地 t_b85ae14a -> 独立 QA t_e727be57 -> 文档归档 t_098d8ff6）的提交链、回执与逐条处置装配为九节档案，并完成链级档案、逐条处置登记、双仓归档校验与发布面复核（本卡 = W8 链尾·文档归档）。
 
 - 链级结论（引用上游报告 + 本卡实测）：批1 处置已入主库（8 书链接、17 缓存合并、四态 69 + 3 翻面、findings 增 3 条），QA 终判 PASS（校验器 27/27；3 项账本修正 + 1 项工具根因修复闭合）；两仓归档 byte-exact 等同；push 面 ls-remote 一致；parity 差异归零。
-- 素材包口径数字（引用 t_70a8cbce / t_b85ae14a 登记）：18 项（17 书 + 现代诗否定记录）、154 条 mode 引文逐条有账（quote 3 / variant 22 / null 55 / cross-lang 74 条）、负对照 16 条零假阳性；落地零改字（改动仅链接、缓存、状态、findings 四处）。
+- 素材包口径数字（引用 t_70a8cbce / t_b85ae14a 登记；计数为修复链 t_2ce1e334 重算终值）：18 项（17 书 + 现代诗否定记录）、154 条 mode 引文逐条有账（quote 3 / variant 20 / null 57 / cross-lang 74 条 = 终值，原 22/55）、负对照 16 条零假阳性；落地零改字（改动仅链接、缓存、状态、findings 四处）。
+- 登记链刷新（t_e01c8aa0，2026-09-24）：本档 §4.5 / §5.1 / §7 三处随修复链（t_2ce1e334 -> t_a407cb32）终态刷新（4 件现值 + 1 枚指纹 + F1/F2/F4 处置落档；父链独立验收由 30 PASS / 2 FAIL 刷新为 33/33 全 PASS）；全链留痕见修复档案 docs/research/phase21w8_stage2_batch1_fix_archive_report.md 文件）。
 - 本卡四件产物：本报告（九节）/ 幂等生成器 build_w8_stage2_batch1_archive.py / 独立验收 verify_w8_stage2_batch1_archive.py / 证据 JSON（docs/research/phase21w8_stage2_batch1_archive_evidence.json 文件）。
 - 镜像面：本档报告 + 验收脚本 + 证据随镜像入发布仓（byte-exact + push + ls-remote 复核 通过）；生成器仅工作仓面（先例体例）。
 - 纪律：据实登记；零数据改动（本卡未触碰 data / web / docs/figures 内的任何数据文件；只新增文档与工具）。
@@ -187,8 +188,8 @@
   - QA-C2：cross_checks.links_added 由空对象修实 8 键映射。
   - 工具根因：build_batch1_landing_ledger.py 增键归一（_pick / _bracket_variants）；重生成不复现。
   - 跨引刷新：落地报告附录 B / 证据 outputs 跨引（账本 4dc2d8e3 / 报告 0eb4c12b 面刷新至终版）。
-- 未闭合项（照登，见第七节）：QA-F1（素材包端 matcher 省略号分段 early-return；M-GX-007 / M-WB-010 / M-ZDY-005 首段核中·尾段未命中；预计核中 25->22）；QA-F2（标点归一集缺 U+FE30；M-ZXC-008 误判查无·待核；预计 null 55->54 / variant 22->23）；QA-F4（口径差：素材包报告 2.1 节见证位 21/25）。
-- 复核指纹（修正后 -> 修正前）：账本 84ff028da6bee8d4（66c193dfbab851a8）；落地报告 886a7c90c560e727（e07b602a94339d9d）；落地证据 0a6f5a5ae266281b（8bf2aec01c54af36）；账本工具 81d6329c92afe97c（a76908ddd0e32778）；QA 校验器 4d55095b5776a82f（QA 卡 t_e727be57 新增）。
+- 已闭合项（原未闭合；修复链终态处置，登记见第七节 R7-R9）：QA-F1（素材包端 matcher 省略号分段 early-return；M-GX-007 / M-WB-010 / M-ZDY-005 首段核中·尾段未命中；原预测核中 25->22）-> 已修复（t_2ce1e334：matcher 分段全命中 + 产物再生；F1 单跑核中 25->22 实测相符，三行落 null）；QA-F2（标点归一集缺 U+FE30；M-ZXC-008 误判查无·待核；原预测 null 55->54 / variant 22->23）-> 已修复（归一集补 U+FE30 / U+3000；40 候选全扫仅两枚翻转，实测相符）；QA-F4（口径差：素材包报告 2.1 节见证位 21/25）-> 表述收紧（落地报告 §2.1 校订注记；终值见证 20 + 节引 3）。合链终值：核中 23（quote 3 + variant 20）/ null 57；复核结论 PASS（t_a407cb32：PRE 32/32 + POST 33/33 + 全扫 36/36 + push 面 35/35）。
+- 复核指纹（刷新后 -> 修正后 -> 修正前）：账本 84ff028da6bee8d4（66c193dfbab851a8）；落地报告 74e443cf3f5e6614（886a7c90c560e727；e07b602a94339d9d）；落地证据 0a6f5a5ae266281b（8bf2aec01c54af36）；账本工具 81d6329c92afe97c（a76908ddd0e32778）；QA 校验器 4d55095b5776a82f（QA 卡 t_e727be57 新增）。
 
 ### 4.6 本卡动作与镜像集
 
@@ -196,6 +197,7 @@
 - 镜像集（发布仓）：报告 + 验收脚本 + 证据 = 3 件（byte-exact + push）；生成器同先例仅工作仓面。
 - 站点展示层：本链为数据与文档面（无新增页面 / 路由 / 文案）；两仓一致性以镜像 byte-exact 复核替代（第六.3 节）。
 - 链件镜像总表：见 5.1 节（26 件链件 + 本档件双仓 sha16 对照）。
+- 登记链刷新（t_e01c8aa0）：§5.1 四件现值（sourcing_report.md / .json、landing_report.md、build_batch1_sourcing_pack.py）+ §4.5 落地报告指纹 + §7 R7-R9 处置落档，随修复链终态刷新；刷新前值见修复档案 §5.2 节。
 
 ### 4.7 提交/镜像/push 回执（本卡；回执区）
 
@@ -216,9 +218,9 @@
 | --- | --- | --- | --- |
 | docs/research/phase21w8_stage2_batch1_booklist.md | `ef6849dbb658a22a` | `ef6849dbb658a22a` | 等于（byte-exact） |
 | docs/research/phase21w8_stage2_batch1_booklist.json | `ca46eb42471c35fc` | `ca46eb42471c35fc` | 等于（byte-exact） |
-| docs/research/phase21w8_stage2_batch1_sourcing_report.md | `e2445bb03922f280` | `e2445bb03922f280` | 等于（byte-exact） |
-| docs/research/phase21w8_stage2_batch1_sourcing_report.json | `a64351a47116dede` | `a64351a47116dede` | 等于（byte-exact） |
-| docs/research/phase21w8_stage2_batch1_landing_report.md | `886a7c90c560e727` | `886a7c90c560e727` | 等于（byte-exact） |
+| docs/research/phase21w8_stage2_batch1_sourcing_report.md | `72b1927c17a58a9e` | `72b1927c17a58a9e` | 等于（byte-exact） |
+| docs/research/phase21w8_stage2_batch1_sourcing_report.json | `17265dd82fe6665a` | `17265dd82fe6665a` | 等于（byte-exact） |
+| docs/research/phase21w8_stage2_batch1_landing_report.md | `74e443cf3f5e6614` | `74e443cf3f5e6614` | 等于（byte-exact） |
 | docs/research/phase21w8_stage2_batch1_landing_evidence.json | `0a6f5a5ae266281b` | `0a6f5a5ae266281b` | 等于（byte-exact） |
 | docs/research/phase21w8_stage2_batch1_qa_report_espinosa.md | `9f52d3fcb159bf0b` | `9f52d3fcb159bf0b` | 等于（byte-exact） |
 | docs/research/phase21w8_stage2_batch1_qa_evidence_espinosa.json | `3905b854769edcdc` | `3905b854769edcdc` | 等于（byte-exact） |
@@ -228,7 +230,7 @@
 | data/audit/phase21w8_stage2_batch1_submission.json | `de1bed5062cb66ea` | `de1bed5062cb66ea` | 等于（byte-exact） |
 | data/audit/source_texts_w8_stage2_batch1.json | `24464156391bf86b` | `24464156391bf86b` | 等于（byte-exact） |
 | tools/fetch_batch1_texts.py | `e072f4d645402b3c` | `e072f4d645402b3c` | 等于（byte-exact） |
-| tools/build_batch1_sourcing_pack.py | `f35c19da3f64e5c8` | `f35c19da3f64e5c8` | 等于（byte-exact） |
+| tools/build_batch1_sourcing_pack.py | `450d0e752732b9a2` | `450d0e752732b9a2` | 等于（byte-exact） |
 | tools/build_batch1_sourcing_report.py | `910f1a5f7a0b186d` | `910f1a5f7a0b186d` | 等于（byte-exact） |
 | tools/verify_batch1_sourcing_delivery.py | `b94cc3a41ae53309` | `b94cc3a41ae53309` | 等于（byte-exact） |
 | tools/clean_batch1_cache_chrome.py | `14b74db3074f0922` | `14b74db3074f0922` | 等于（byte-exact） |
@@ -242,13 +244,14 @@
 | tools/fetch_source_texts.py | `6b534db72ee00148` | `6b534db72ee00148` | 等于（byte-exact） |
 
 - 26 件含修订件 3（build_source_links / source_link_index / fetch_source_texts；后者现值为 W5 后链面）。
+- 登记链刷新（t_e01c8aa0）：sourcing_report.md / .json、landing_report.md、build_batch1_sourcing_pack.py 四件现值为修复链（t_2ce1e334）后终态；前值 e2445bb03922f280 / a64351a47116dede / 886a7c90c560e727 / f35c19da3f64e5c8（刷新前后对照见修复档案 §5.2）。
 
 ### 5.2 本档件（生成时点；镜像状态见第四.7 节）
 
 - 报告（本件）：docs/research/phase21w8_stage2_batch1_archive_report.md —— 本文件（sha16 随回执回填演进；镜像状态见 4.7 节）。
-- 生成器：build_w8_stage2_batch1_archive.py —— ws-only 面（sha16 `d0a305d15d4e7dbe`，生成时点；--check 归一本行）。
-- 验收脚本：verify_w8_stage2_batch1_archive.py —— 随镜像（sha16 `031a98a12606512a`，生成时点；--check 归一本行）。
-- 证据：docs/research/phase21w8_stage2_batch1_archive_evidence.json —— 随镜像刷新（sha16 `facc415397444a23`，生成时点；由验收脚本生成）。
+- 生成器：build_w8_stage2_batch1_archive.py —— ws-only 面（sha16 `8a858e1e4ff09915`，生成时点；--check 归一本行）。
+- 验收脚本：verify_w8_stage2_batch1_archive.py —— 随镜像（sha16 `b09f29fc207268f9`，生成时点；--check 归一本行）。
+- 证据：docs/research/phase21w8_stage2_batch1_archive_evidence.json —— 随镜像刷新（sha16 `23e2c803a3cb8fc8`，生成时点；由验收脚本生成）。
 
 ### 5.3 备份 MANIFEST 复核（data/backup_merge_W8B1_20260924_113742）
 
@@ -270,14 +273,14 @@
 | data/audit/findings.json | `b73e32806f7c910b` | `0292f0580ab03293` | `552760746a125c1a` | （W5 后链演进） |
 | data/audit/verification_status.json | `32661224820d4230` | `22944f54fb5e51a2` | `22944f54fb5e51a2` | — |
 | web/src/generated/siteCounts.ts | `4e8e99110830a807` | `a698abe698bb3db3` | `a698abe698bb3db3` | — |
-| docs/architecture/static_data_manifest.json | `9bf53ce4bd168421` | `abf786227c7757c6` | `abf786227c7757c6` | — |
+| docs/architecture/static_data_manifest.json | `9bf53ce4bd168421` | `abf786227c7757c6` | `32c3a490572b3166` | — |
 
 ### 5.5 git 对账与 parity（生成时点观测；--check 归一本节）
 
-- 工作仓 HEAD（生成时点）：`df79654a75d88cf29888475d9a0f3458a75c5e42`（master；本地提交面）。
-- 发布仓 HEAD（生成时点）：`f5539debc16e6b89943ab28bf23aa10cd7983314`（origin/main 面）。
-- ls-remote（生成时点）：`f5539debc16e6b89943ab28bf23aa10cd7983314` 为复核时点值。
-- parity（生成时点）：status=OK；both_sides=2587；identical=2587；only_workspace=0；only_publish=0 计数。
+- 工作仓 HEAD（生成时点）：`4975cd26644da2ece6dda15a7c5b32865dd673e3`（master；本地提交面）。
+- 发布仓 HEAD（生成时点）：`3129539bfa7f48750ab117b3ae31d426b250bf59`（origin/main 面）。
+- ls-remote（生成时点）：`3129539bfa7f48750ab117b3ae31d426b250bf59` 为复核时点值。
+- parity（生成时点）：status=DIFF；both_sides=4580；identical=4578；only_workspace=0；only_publish=0 计数。
 - 口径：tools/check_repo_parity.py --json（构建图边界口径；计数见上一行生成时点观测）。
 
 ### 5.6 发布面线上抽验（时点值）
@@ -318,14 +321,14 @@
 - R4 源外 8 条可另抓底本（《老子指略》/《周易略例》4 条 + 《举贤良对策》4 条）。
 - R5 M-WB-004 繁简守卫配对阈值偏保守（去冠名后应可判 matched；登记为待复核，不改现状）。
 - R6 apply_verification_status 块覆盖行为：建议另卡增「含自定义 method 的条目跳过重写」选项（落地报告 6 节；本卡不实施）。
-- R7 QA-F1（素材包端）：matcher 省略号分段 early-return；M-GX-007 / M-WB-010 / M-ZDY-005 首段核中、尾段未命中；现态核中 25 条；处置去向 = 修复链 t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0（挂本卡 done 后放行；单写者纪律）；修复后预计核中 22 条。
-- R8 QA-F2（素材包端）：标点归一集缺 U+FE30；M-ZXC-008 误判查无·待核；现态 null 55 / variant 22 条；处置去向 = 同一修复链（t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0）；修复后预计 null 54 / variant 23 条。
-- R9 QA-F4（口径差，表述面）：素材包报告 2.1 节「见证位逐条随行」实为 21/25（4 条节引型显式 null）；处置去向 = 同链第 3 段表述收紧。
+- R7 QA-F1（素材包端）：matcher 省略号分段 early-return；M-GX-007 / M-WB-010 / M-ZDY-005 首段核中、尾段未命中；现态核中 25 条；处置 = 已修复（修复链 t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0）：matcher 分段全命中 + 产物再生，F1 单跑 25->22 相符、三行落 null；合链终值核中 23 条；修复档案 §4.5 节登记。
+- R8 QA-F2（素材包端）：标点归一集缺 U+FE30；M-ZXC-008 误判查无·待核；现态 null 55 / variant 22 条；处置 = 已修复（同链）：归一集补 U+FE30 / U+3000（40 候选全扫仅两枚翻转），单跑 null 55->54 / variant 22->23 相符；终值 null 57 / variant 20；修复档案 §4.5 节登记。
+- R9 QA-F4（口径差，表述面）：素材包报告 2.1 节「见证位逐条随行」实为 21/25（4 条节引型显式 null）；处置 = 已落实（同链第 3 段）：落地报告 §2.1 校订注记（终值见证 20 + 节引 3）。
 - R10 verify.log（data/audit/phase21w8_stage2_batch1_verify.log）：gitignore 命中 .log，ws-only 观测件；不镜像、不阻断。
 - R11 提交信息口径注记：023a794 称「批1 缓存 23 txt」与实际 20 件之差（本档 4.4.4 已登记）；非内容差。
 - R12 W8 后链演进登记（不计入 W8 结论）：W5 数据侧修复 t_0dc95522（verified 1018->1019 / suspect 55->54；现值 pin 见 5.4 节）；W7 / W9 / W11 链各自推进。
 - R13 parity 余项：本卡生成时点 diff 为 0（W10 两文档债务已由船长收口：工作仓 b8be2986 / 发布仓 20d36f0）。
-- R14 船长加注（13:26）登记：F1 / F2 / F4 三项已另派修复链 t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0，挂本卡 done 后放行（单写者纪律）；本档仅登记、不修复、不触碰素材包产物。
+- R14 船长加注（13:26）登记：F1 / F2 / F4 三项已另派修复链 t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0，挂本卡 done 后放行（单写者纪律）；本档仅登记、不修复、不触碰素材包产物。终态（09-24 15:2x）：修复链闭环（t_2ce1e334 已修复 + t_a407cb32 复核 PASS + t_e01c8aa0 登记链刷新），本档三处登记已随终态刷新。
 
 ## 八、下一步
 
@@ -365,6 +368,7 @@
 
 - 本档：docs/research/phase21w8_stage2_batch1_archive_report.md / _archive_evidence.json；脚本 build_w8_stage2_batch1_archive.py / verify_w8_stage2_batch1_archive.py（根级）。
 - 链上：booklist / sourcing_report / landing_report + evidence / landing_ledger / qa_report + evidence（完整清单见 4.4 节）。
+- 修复链：docs/research/phase21w8_stage2_batch1_fix_archive_report.md + _fix_archive_evidence.json；脚本 build_w8_stage2_batch1_fix_archive.py / verify_w8_stage2_batch1_fix_archive.py（根级；t_e01c8aa0 交付）。
 
 ### 9.3 复跑命令
 
@@ -372,6 +376,7 @@
 - 独立验收：python3 verify_w8_stage2_batch1_archive.py（证据默认写 docs/research/phase21w8_stage2_batch1_archive_evidence.json）
 - 发布面线上抽验（可选）：python3 verify_w8_stage2_batch1_archive.py --with-live
 - parity：python3 tools/check_repo_parity.py --json
+- 修复链复核：python3 tools/verify_batch1_sourcing_fix_qa_espinosa.py（33/33）；--at 1c00ca8a（PRE 32/32）；--scan（36/36）
 
 ### 9.4 台账登记
 
