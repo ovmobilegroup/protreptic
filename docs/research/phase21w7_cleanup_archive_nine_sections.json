@@ -1,0 +1,130 @@
+{
+  "archive_id": "t_95764335",
+  "generated_at": "2026-09-24T16:17:49.807840",
+  "config": {
+    "archive_id": "t_95764335",
+    "date": "2026-09-24",
+    "executor": "pigafetta",
+    "source_task": "t_06511a5a",
+    "clean_task": "t_d24e11bc",
+    "output_dir": "docs/research",
+    "nine_section_file": "phase21w7_cleanup_archive_nine_sections.md",
+    "evidence_file": "phase21w7_cleanup_archive_nine_sections.json"
+  },
+  "sections": {
+    "1_background": {
+      "upstream_task": "t_06511a5a",
+      "qa_conclusion": "PASS",
+      "azj_status": "closed",
+      "verdict": "20/20 assertions passed"
+    },
+    "2_evidence_start": {
+      "root_junk_scan": {
+        "root_data_files": 632,
+        "abnormal_name_junk": 6,
+        "nested_junk": 6,
+        "total": 644
+      },
+      "r7_inventory": {
+        "r7_files": 5,
+        "backup_dir_files": 33,
+        "retained_files": 5,
+        "total": 43
+      }
+    },
+    "3_execution": {
+      "clean_task": "t_d24e11bc",
+      "commits": {
+        "ws_f61f055d": {
+          "deleted": 6,
+          "added": 1984,
+          "modified": 0,
+          "boundary": "no_overflow"
+        },
+        "ws_7714c9d1": {
+          "deleted": 0,
+          "added": 4,
+          "modified": 1,
+          "boundary": "no_overflow"
+        },
+        "pb_c167cb5": {
+          "deleted": 674,
+          "added": 1988,
+          "modified": 0,
+          "boundary": "no_overflow"
+        }
+      }
+    },
+    "4_qa_registration": {
+      "qa_task": "t_06511a5a",
+      "qa_verdict": "PASS",
+      "ws_commit_A": "39e3eb21f067f36c7cebcac92e75e12e29b5e451",
+      "pb_commit_P1": "06835050229bc4afe3287c509681835fe9b04313",
+      "push_log": "3129539..0683505",
+      "ls_remote": "0683505"
+    },
+    "5_face_processing": {
+      "root_face": {
+        "total": 632,
+        "status": "deleted"
+      },
+      "abnormal_face": {
+        "total": 6,
+        "status": "deleted"
+      },
+      "tools_face": {
+        "total": 670,
+        "status": "deleted"
+      },
+      "r7_retained": {
+        "total": 5,
+        "status": "retained"
+      },
+      "backup_retained": {
+        "total": 33,
+        "status": "retained"
+      },
+      "retain_face": {
+        "total": 5,
+        "status": "retained"
+      }
+    },
+    "6_idempotent_builder": {
+      "builder_type": "idempotent",
+      "assertions": 12,
+      "modes": [
+        "full",
+        "quick"
+      ]
+    },
+    "7_site_display": {
+      "involved": false,
+      "reason": "nine_section_archive is internal config doc",
+      "two_repos_consistent": true
+    },
+    "8_findings": {
+      "low_risk": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "hard_issues": 0,
+      "recommendations": [
+        "register",
+        "register",
+        "note_for_downstream",
+        "re-anchor_or_retire",
+        "parse_fallback"
+      ]
+    },
+    "9_completion": {
+      "nine_section_archive": "complete",
+      "idempotent_builder": "complete",
+      "verification_script": "complete",
+      "site_display": "not_applicable",
+      "full_chain_registration": "complete"
+    }
+  }
+}
