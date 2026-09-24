@@ -154,6 +154,50 @@
  ],
  "scratch": "/opt/data/profiles/elcano/cache/scratch/w4fix3/",
  "receipts": {
-  "status": "see v2 addendum"
+  "workspace_commit_v1": "3f102ee1",
+  "workspace_commit_v1_stats": "12 files changed, +916 / -2",
+  "publish_mirror_v1": "0dda13a",
+  "publish_mirror_byte_exact": "12/12",
+  "push_v1": {
+   "range": "78bac29..0dda13a",
+   "rc": 0,
+   "remote_main": "0dda13abc4f8f371139141a340fca5f411fdd548",
+   "ls_remote_match": true
+  },
+  "raw_checks_v1": {
+   "http": "200",
+   "byte_same": "6/6",
+   "files": {
+    "tools/json/scenarios_zh.json": "e6777e7a556f",
+    "docs/research/phase21w4_fix3_report.md": "986cf69920e5",
+    "docs/research/phase21w4_fix3_report.json": "c497ceeb581b",
+    "docs/research/phase21w4_fix3_evidence.json": "1901d65f291b",
+    "docs/research/phase21w4_fix2_report.md": "14312ff83ce9",
+    "verify_w4fix3_lxn_en.py": "288c75e8a6f2"
+   }
+  },
+  "verifier_full_after_mirror": "39 PASS / 0 FAIL",
+  "parity_after_mirror": {
+   "both_sides": 2530,
+   "identical": 2525,
+   "only_workspace": 37,
+   "only_publish": 0,
+   "content_diff": 5,
+   "content_diff_items": [
+    "docs/architecture/web_p0_routes.json (本卡链后态保留未提交)",
+    "web/public/sitemap.xml (同前)",
+    "tools/build_source_links.py (W8 在制)",
+    "tools/fetch_source_texts.py (W8 在制)",
+    "tools/source_link_index.py (W8 在制)"
+   ],
+   "missing_in_publish_groups": {
+    "w8_stage2_batch1": 27,
+    "w4_qa_products": 2,
+    "early_card_docs": 8
+   },
+   "raw": "scratch/w4fix3/parity_post.json",
+   "pre_raw": "scratch/w4fix3/parity_pre.json"
+  },
+  "status": "v2 receipts in; v2 self commit/mirror/push recorded in v3 addendum (fix2-style)"
  }
 }
