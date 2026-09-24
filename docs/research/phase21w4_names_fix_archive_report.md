@@ -12,7 +12,7 @@
 - 链级结论（引用上游报告 + 本卡实测）：21 码终值全链命中；4 个清档码 + RW-KAG-1..27 全链 0 残留；JP/UZ 重键完整；QA 终判 PASS（v3 复跑 140 断言 / 0 FAIL / 45 DRIFT 登记；详见第六节）。
 - 本卡四件产物：本报告（九节）/ 幂等生成器 build_w4_names_fix_archive.py / 独立验收脚本 verify_w4_names_fix_archive.py / 证据 JSON docs/research/phase21w4_names_fix_archive_evidence.json。
 - 镜像面：R-a 6 件 + QA 2 件 + 根见证器 = 9 件 byte-exact 入发布仓；本档报告/证据/验收脚本随镜像。
-- 本卡回执（stage=v1）：v1 提交 （v1 提交后回填） / 发布仓 （v1 提交后回填） / push （v1 提交后回填）；v2 终版见第四.7节。
+- 本卡回执（stage=v2（回执补记；终版 v3 随后））：v1 提交 af084d5f（工作仓归档主体：九节生成器 + 独立验收脚本 + 报告 v1） / 发布仓 e75dc78（发布仓镜像 11 件：R-a 6 + QA 2 + 根见证器 + 报告 v1 + 验收脚本；byte-exact） / push ok（origin/main 对齐 e75dc78cf213f4da18bafaedca93aa717b4618b2；ls-remote + fetch 对象级复核 REMOTE==LOCAL）；v2 终版见第四.7节。
 
 ## 二、背景
 
@@ -90,7 +90,7 @@
 | pb | `3cb64c3` | `3cb64c3eb3333d52c5aff586b7187079eef6c5ee` | 09-24 11:12 | t_def07a84 | 镜像: t_def07a84 回执补记 v2 (对齐工作仓 HEAD): fix3 报告 第7节回执 + json/证据 receipts; 3 件 byte-exact | 镜像 v2 |
 | pb | `d0c7306` | `d0c7306c5f23cfeaac039d07f6afea57a4bf7a31` | 09-24 11:13 | t_def07a84 | 镜像: t_def07a84 回执终版 v3 (对齐工作仓 4e78ace6): 3 件 byte-exact | 镜像 v3（B-a 面终版） |
 
-- 本卡补镜像（v1/v2）见第四.7节回执；发布仓生成时点 HEAD=`15540c302a737a76574d8c38d97a93b731467b6f`。
+- 本卡补镜像（v1/v2）见第四.7节回执；发布仓生成时点 HEAD=`e75dc78cf213f4da18bafaedca93aa717b4618b2`。
 
 ### 4.4 逐码处置终表（16 H-* + 5 码族 + RW-KAG-1..27 = 48 码）
 
@@ -176,15 +176,15 @@
 
 ### 4.6 本卡动作与镜像集
 
-- [R-a] docs/research/phase21r8_w4_names_recon.md（t_24b92f58；研究矩阵 md）：发布仓缺失（待镜像）。
-- [R-a] docs/research/phase21r8_w4_names_recon.json（t_24b92f58；研究矩阵 json）：发布仓缺失（待镜像）。
-- [R-a] docs/research/phase21w4_fix_manifest.md（t_10a42b2a；处置清单 md）：发布仓缺失（待镜像）。
-- [R-a] docs/research/phase21w4_fix_manifest.json（t_10a42b2a；处置清单 json）：发布仓缺失（待镜像）。
-- [R-a] docs/research/phase21w6_marker_scan.md（t_51db608d；W6 标记扫描 md）：发布仓缺失（待镜像）。
-- [R-a] docs/research/phase21w6_marker_scan.json（t_51db608d；W6 标记扫描 json）：发布仓缺失（待镜像）。
-- [QA] docs/qa/phase21w4_qa_report.md（t_8bad8d98；QA 报告（船长 10:58 补镜像令））：发布仓缺失（待镜像）。
-- [QA] docs/qa/phase21w4_qa_evidence.json（t_8bad8d98；QA 证据 JSON）：发布仓缺失（待镜像）。
-- [QA-见证器] verify_phase21w4_qa_espinosa.py（t_8bad8d98；根级 QA 见证器（v3，可复跑））：发布仓缺失（待镜像）。
+- [R-a] docs/research/phase21r8_w4_names_recon.md（t_24b92f58；研究矩阵 md）：byte-exact 等同。
+- [R-a] docs/research/phase21r8_w4_names_recon.json（t_24b92f58；研究矩阵 json）：byte-exact 等同。
+- [R-a] docs/research/phase21w4_fix_manifest.md（t_10a42b2a；处置清单 md）：byte-exact 等同。
+- [R-a] docs/research/phase21w4_fix_manifest.json（t_10a42b2a；处置清单 json）：byte-exact 等同。
+- [R-a] docs/research/phase21w6_marker_scan.md（t_51db608d；W6 标记扫描 md）：byte-exact 等同。
+- [R-a] docs/research/phase21w6_marker_scan.json（t_51db608d；W6 标记扫描 json）：byte-exact 等同。
+- [QA] docs/qa/phase21w4_qa_report.md（t_8bad8d98；QA 报告（船长 10:58 补镜像令））：byte-exact 等同。
+- [QA] docs/qa/phase21w4_qa_evidence.json（t_8bad8d98；QA 证据 JSON）：byte-exact 等同。
+- [QA-见证器] verify_phase21w4_qa_espinosa.py（t_8bad8d98；根级 QA 见证器（v3，可复跑））：byte-exact 等同。
 - [本档] docs/research/phase21w4_names_fix_archive_report.md（九节档案（本档主体）；随镜像）。
 - [本档] docs/research/phase21w4_names_fix_archive_evidence.json（验收证据 JSON（由 verify_w4_names_fix_archive.py 生成）；随镜像）。
 - [本档] verify_w4_names_fix_archive.py（独立验收脚本（第二实现；根级）；随镜像）。
@@ -193,18 +193,18 @@
 
 ### 4.7 提交/镜像/push 回执（本卡）
 
-- stage: v1
-- ws_commit_v1: （v1 提交后回填）
-- pb_commit_v1: （v1 提交后回填）
-- push_v1: （v1 提交后回填）
-- ws_commit_v2: （v2 回执终版提交后回填）
-- pb_commit_v2: （v2 回执终版提交后回填）
-- push_v2: （v2 回执终版提交后回填）
-- remote_main: （v2 回填）
-- remote_raw: （v2 回填：远端 raw 抽验结果）
-- parity_final: （v2 回填：parity 复跑计数与归因）
-- verify_result: （v2 回填：verify_w4_names_fix_archive.py 结果）
-- report_sha_v1: （v2 回填：报告 v1 文件 sha256 前16）
+- stage: v2（回执补记；终版 v3 随后）
+- ws_commit_v1: af084d5f（工作仓归档主体：九节生成器 + 独立验收脚本 + 报告 v1）
+- pb_commit_v1: e75dc78（发布仓镜像 11 件：R-a 6 + QA 2 + 根见证器 + 报告 v1 + 验收脚本；byte-exact）
+- push_v1: ok（origin/main 对齐 e75dc78cf213f4da18bafaedca93aa717b4618b2；ls-remote + fetch 对象级复核 REMOTE==LOCAL）
+- ws_commit_v2: （v2 提交后回填）
+- pb_commit_v2: （v2 提交后回填）
+- push_v2: （v2 提交后回填）
+- remote_main: （回执终版 v3 回填）
+- remote_raw: （回执终版 v3 回填）
+- parity_final: （回执终版 v3 回填）
+- verify_result: （回执终版 v3 回填：ALL PASS 明细见证据 JSON）
+- report_sha_v1: 34aa2565aaeb5416（报告 v1 前 16）
 - 注：回执字段于 v1 提交后回填、v2 回执终版定稿；终版另见卡面完成 metadata。
 
 ## 五、证据
@@ -213,26 +213,26 @@
 
 | 文件 | 类别 | 工作仓 sha256(前16) | 发布仓 sha256(前16) | 判定 |
 |---|---|---|---|---|
-| docs/research/phase21r8_w4_names_recon.md | R-a | 1e66897bf33b90c6 | - | 待镜像/异常 |
-| docs/research/phase21r8_w4_names_recon.json | R-a | 54fe78f27e473927 | - | 待镜像/异常 |
-| docs/research/phase21w4_fix_manifest.md | R-a | 1886f0bfae22986d | - | 待镜像/异常 |
-| docs/research/phase21w4_fix_manifest.json | R-a | c6fb3d908517b6fd | - | 待镜像/异常 |
-| docs/research/phase21w6_marker_scan.md | R-a | ab3c08915dd44eec | - | 待镜像/异常 |
-| docs/research/phase21w6_marker_scan.json | R-a | 0069cc5c0129c214 | - | 待镜像/异常 |
-| docs/qa/phase21w4_qa_report.md | QA | f969ce17c331b115 | - | 待镜像/异常 |
-| docs/qa/phase21w4_qa_evidence.json | QA | 2bf1e47f94da39a8 | - | 待镜像/异常 |
-| verify_phase21w4_qa_espinosa.py | QA-见证器 | 043f7b956c0b8ea2 | - | 待镜像/异常 |
+| docs/research/phase21r8_w4_names_recon.md | R-a | 1e66897bf33b90c6 | 1e66897bf33b90c6 | 等于（byte-exact） |
+| docs/research/phase21r8_w4_names_recon.json | R-a | 54fe78f27e473927 | 54fe78f27e473927 | 等于（byte-exact） |
+| docs/research/phase21w4_fix_manifest.md | R-a | 1886f0bfae22986d | 1886f0bfae22986d | 等于（byte-exact） |
+| docs/research/phase21w4_fix_manifest.json | R-a | c6fb3d908517b6fd | c6fb3d908517b6fd | 等于（byte-exact） |
+| docs/research/phase21w6_marker_scan.md | R-a | ab3c08915dd44eec | ab3c08915dd44eec | 等于（byte-exact） |
+| docs/research/phase21w6_marker_scan.json | R-a | 0069cc5c0129c214 | 0069cc5c0129c214 | 等于（byte-exact） |
+| docs/qa/phase21w4_qa_report.md | QA | f969ce17c331b115 | f969ce17c331b115 | 等于（byte-exact） |
+| docs/qa/phase21w4_qa_evidence.json | QA | 2bf1e47f94da39a8 | 2bf1e47f94da39a8 | 等于（byte-exact） |
+| verify_phase21w4_qa_espinosa.py | QA-见证器 | 043f7b956c0b8ea2 | 043f7b956c0b8ea2 | 等于（byte-exact） |
 
-- 镜像集判定汇总：存在未等同项（生成于镜像前时点为「待镜像」）。
+- 镜像集判定汇总：9 件全部 byte-exact 等同。
 
 ### 5.2 本档四件 sha256（生成时点）
 
 | 文件 | 工作仓 sha256(前16) | 发布仓 sha256(前16) |
 |---|---|---|
-| docs/research/phase21w4_names_fix_archive_report.md | （本文件；sha 见回执节） | - |
+| docs/research/phase21w4_names_fix_archive_report.md | （本文件；sha 见回执节） | 34aa2565aaeb5416 |
 | docs/research/phase21w4_names_fix_archive_evidence.json | - | - |
-| verify_w4_names_fix_archive.py | 40a9907da9021c3f | - |
-| build_w4_names_fix_archive.py | cf2147d860cfa87b | - |
+| verify_w4_names_fix_archive.py | ae9388efd4c3ac64 | 1ffa32c6a0f633bb |
+| build_w4_names_fix_archive.py | 0f663a5e3c28dc83 | - |
 
 ### 5.3 链上 pin 与当场实测计数（生成时点）
 
@@ -255,8 +255,8 @@
 
 ### 5.5 git 对账（生成时点）
 
-- 工作仓 HEAD = `bb2959fd66df589b9a3244ddd876dbdaf66242fd`（master，本地提交面）。
-- 发布仓 HEAD = `15540c302a737a76574d8c38d97a93b731467b6f`（origin/main 面，随本卡镜像推进）。
+- 工作仓 HEAD = `af084d5f73cb4c48bdae045df7ef179f9b884657`（master，本地提交面）。
+- 发布仓 HEAD = `e75dc78cf213f4da18bafaedca93aa717b4618b2`（origin/main 面，随本卡镜像推进）。
 - 锚点（逐条实测可解）：
   - ws `40320e37`（40320e374564）W4 窗口起点 BASE（QA §三）
   - ws `8a0ac56d`（8a0ac56db7e9）清档终态 EE（QA §七）
@@ -283,12 +283,12 @@
 ### 6.2 本卡独立验收（第二实现）
 
 - 脚本：verify_w4_names_fix_archive.py（根级；不 import 生成器）。
-- 结果：（v2 回填：verify_w4_names_fix_archive.py 结果）。
+- 结果：（回执终版 v3 回填：ALL PASS 明细见证据 JSON）。
 - 段目：A 档案结构（九节/终表/裁定齐全）；B 镜像面 byte-exact；C 提交链 git 实测；D 上表数据逐字核对 + 备份复核；E 裁定/R-a/R-b/R-c/R-d 记录；F 反向注入自检。
 
 ### 6.3 parity 复跑（本卡）
 
-- （v2 回填：parity 复跑计数与归因）。
+- （回执终版 v3 回填）。
 - 口径：tools/check_repo_parity.py --json；W4 归属项（R-a 6 + QA 2）由本卡归零；余项逐条归因（W8/W10/R9/他链在制与保留面）。
 
 ## 七、残留与账务登记

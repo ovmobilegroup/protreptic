@@ -163,7 +163,9 @@ def check_C(text, ws, pb):
 def check_B(ws, pb):
     fails = []
     rows = []
-    rels = list(MIRROR_RELS) + list(OWN_RELS) + [EVIDENCE_REL]
+    rels = list(MIRROR_RELS) + list(OWN_RELS)
+    if os.path.exists(os.path.join(ws, EVIDENCE_REL)):
+        rels.append(EVIDENCE_REL)
     for rel in rels:
         wpath = os.path.join(ws, rel)
         ppath = os.path.join(pb, rel)
@@ -320,6 +322,7 @@ def run(ws, pb, write_evidence, inject, allow_pending_pb):
     nfail_total = nfail + (0 if allow_pending_pb else len(bfails))
     if write_evidence:
         ev = dict(card="t_616e4991", report_rel=REPORT_REL, report_sha256=sha256_file(report_path),
+                  note="evidence.json 自身两仓 byte-exact 相等性由最终 no-write 复跑复核（结果记录于卡面完成 metadata）",
                   sections={k: allf[k] for k in allf}, mirror=brows, selftest=st,
                   ws_root=ws, pb_root=pb)
         with open(os.path.join(ws, EVIDENCE_REL), "w", encoding="utf-8") as f:
