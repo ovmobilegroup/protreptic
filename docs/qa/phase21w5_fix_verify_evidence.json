@@ -270,7 +270,19 @@
   "registered_corrections": 3,
   "artifacts_sha256": {
     "docs/qa/phase21w5_wangchong_qa_report.md": "427b58813c75dc8841a0426c96eb47c364a236cf3a05a93040b53b35803eb52a",
-    "docs/qa/phase21w5_fix_verify_report.md": "84e7beca873aaa9a7c0ee17a8bce4af93e25591e90d1efcce7663a9629d1e944"
+    "docs/qa/phase21w5_fix_verify_report.md": "5aa755f14f0234a604459fcbd503a286220626d37e705aa1561abab64a763201"
   },
-  "receipts_pending": "round1/round2 receipts to be filled post-commit"
+  "receipts": {
+    "round1": {
+      "ws_commit": "b656ffb5e19696a075cd77e5fec00994d0918882",
+      "ws_parent": "b0e2b0a8 (W8 QA card receipt — external)",
+      "pb_commit": "ede145735200c5390013bccd9091711e7e8b1fe3",
+      "pb_parent": "384faae (W8 QA mirror — external)",
+      "push": "384faae..ede1457 -> origin/main (rc=0)",
+      "ls_remote": "ede145735200c5390013bccd9091711e7e8b1fe3",
+      "remote_equals_local": true,
+      "byte_exact": "3/3"
+    },
+    "round2": "本段落（报告 §7 + 证据 receipts 2 件刷面，同轮镜像 push；sha 见提交记录与 kanban 交接）"
+  }
 }

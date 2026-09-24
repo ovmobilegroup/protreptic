@@ -100,3 +100,11 @@
   - python3 tools/test_credibility_d45.py
   - python3 tools/fetch_source_texts.py --self-check-zh-cn-meta
   - python3 tools/check_repo_parity.py
+
+## 7. 提交／镜像／push 回执
+
+- 工作仓提交 **C1 = `b656ffb5e19696a075cd77e5fec00994d0918882`**（3 件＝R8 勘误增补＋本报告＋证据 JSON；387 insertions；父提交 `b0e2b0a8`＝W8 QA 卡 t_e727be57 回执补记〔外部，非本卡面〕）
+- 发布仓镜像 **P1 = `ede145735200c5390013bccd9091711e7e8b1fe3`**（同 3 件 **byte-exact**，逐件复核对齐；父提交 `384faae`＝W8 QA 卡镜像〔外部〕）
+- push：`384faae..ede1457 -> origin/main`，rc=0；**ls-remote 复核** `refs/heads/main = ede145735200c5390013bccd9091711e7e8b1fe3`（**REMOTE == LOCAL**）
+- parity（`python3 tools/check_repo_parity.py`，现跑）：本卡面 3 件两仓逐字节全等；全库 parity **零差异**（2583/2583，exit 0）
+- 回执轮：**C2／P2 = 本段落**（本报告 §7＋证据 `receipts` 段刷面 2 件，同轮镜像 push；C2/P2 sha 见提交记录与 kanban 交接 metadata）
