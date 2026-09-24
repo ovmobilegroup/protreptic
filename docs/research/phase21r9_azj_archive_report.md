@@ -92,3 +92,11 @@
 - 发布面（Pages）：Deploy to GitHub Pages 随 push 触发（74ea060：run 35952071648，构建中）；文档站点根 https://ovmobilegroup.github.io/protreptic/docs/ 现状 200（既有构建）；本页条目 https://ovmobilegroup.github.io/protreptic/docs/figures/H-AZJ-001/ 于构建完成后可访问（最终状态见卡回执）。
 - CI 基线说明：workflow CI（markdown-lint）与 Protreptic CI/CD（可信度门负对照自测）为全仓近期全部 push 的既有失败基线（实证：946afe03 / 2397eeec / 0e5702c3 / 78bac29d / 0dda13ab / d0c7306c / 19e8f58b / 06c06374 等均 failure），与本卡无关；本卡 SHA 的 Quality Gate 两跑均 success。
 - parity 复测（v2 提交后）：见卡回执（跑5；预期本卡路径 0 差）。
+
+## 十二、回执终版（v3）：镜像 P2 / push2 / 站点条目实测
+
+- 工作仓 v2 提交 WS2 = bb2959fd（报告＋证据 2 件）；发布仓镜像 P2 = 15540c3（对齐 WS2，2 件 byte-exact）；push2 = 7893433..15540c3（rc=0）；ls-remote origin main = 15540c302a737a76574d8c38d97a93b731467b6f（复核一致）。
+- raw 复核（P2 后）：页 55,305 B／报告 10,975 B／证据 3,347 B 三路径 http=200 且字节 SAME。
+- 站点条目实测（Pages 构建后）：https://ovmobilegroup.github.io/protreptic/docs/figures/H-AZJ-001/ → http=200，278,341 B，标题逐字「安子介 (Ann Tse Kai, H-AZJ-001) - Phase21-R9 九节档案 - Protreptic · 思想典藏」；正文含 M-AZJ-001 ×14、安子介 ×56、Ann Tse Kai ×13；报告页 https://ovmobilegroup.github.io/protreptic/docs/research/phase21r9_azj_archive_report/ → http=200（226,181 B）。
+- parity 跑5（P2 后）：diffs=48（他链在制；only_workspace=38 / content_diff=10）；本卡 azj 归属 0 差。
+- v3 本件（报告＋证据）提交/镜像 SHA 见卡回执。

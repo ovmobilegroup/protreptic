@@ -107,23 +107,36 @@
     {
       "when": "post_v2",
       "diffs": "see-kanban-t_08b3a1c0"
+    },
+    {
+      "when": "post_v2_p2",
+      "diffs": 48,
+      "only_workspace": 38,
+      "content_diff": 10,
+      "azj": 0
     }
   ],
   "bans_zero": 19,
   "receipts": {
     "ws1": "85bf7547",
-    "ws2": "see-kanban-t_08b3a1c0",
+    "ws2": "bb2959fd66df589b9a3244ddd876dbdaf66242fd",
     "publish_p1": "74ea0602067873944279f328be9d3d1ae1f4519d",
-    "publish_p2": "see-kanban-t_08b3a1c0",
-    "push": "06c0637..74ea060 rc=0",
-    "ls_remote": "74ea0602067873944279f328be9d3d1ae1f4519d",
+    "publish_p2": "15540c302a737a76574d8c38d97a93b731467b6f",
+    "push": "06c0637..74ea060; 7893433..15540c3 (rc=0)",
+    "ls_remote": "74ea060... then final 15540c302a737a76574d8c38d97a93b731467b6f",
     "raw_checks": {
       "page": "200 SAME 55305B",
       "report": "200 SAME 9156B",
       "evidence": "200 SAME 2094B"
     },
     "pages_run": "35952071648",
-    "pages_status": "in_progress (at v2; final see-kanban)"
+    "pages_status": "build completed; live checks OK",
+    "live_checks": {
+      "fig_page": "200 278341B title-exact",
+      "report_page": "200 226181B",
+      "raw": "page 55305B / report 10975B / evidence 3347B all 200 SAME"
+    },
+    "ws3": "see-kanban-t_08b3a1c0"
   },
   "notes": [
     "零数据改动（仅读数据面）",
