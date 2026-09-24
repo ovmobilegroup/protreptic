@@ -89,3 +89,4 @@ e5ddd13f 内扫入的 W7 删除面 (RW-KAG-1..27 legacy 清理等 31 项) 为本
 - push: a7ba7f29..ac33cba5 -> origin main; ls-remote main = ac33cba53eb5b293bc9a51cf27e3c1b93f2c9a2c
 - parity (镜像后): rc=0 -- 构建图 4593 件两仓逐字节一致, 单侧 0
 - 独立校验: verify_w9_fclass_fix.py A-H 全过 (34 断言); espinosa QA 校验器 12 PASS / 3 FAIL (E1, F11, F12 为缺陷态口径, 登记待裁)
+- v2 回执: ws 47f9852d -> pb 2586040c -> push ac33cba5..2586040c; ls-remote main = 2586040c...; parity (v2 后) rc=0 (4593 件逐字节一致)

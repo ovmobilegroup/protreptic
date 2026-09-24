@@ -1,7 +1,7 @@
 {
  "schema": "protreptic.phase21w9_fclass_fix_evidence/v1",
  "card": "t_d7faccc5",
- "generated_at": "2026-09-24T17:48:45+0800",
+ "generated_at": "2026-09-24T17:49:28+0800",
  "chain": {
   "fix_parent": "6f298ca1",
   "recon": "8adbdabd",
@@ -1869,13 +1869,21 @@
   }
  },
  "receipt": {
-  "ws_commit": "108e2826",
-  "pb_commit": "ac33cba5",
-  "push_range": "a7ba7f29..ac33cba5",
-  "ls_remote_main": "ac33cba53eb5b293bc9a51cf27e3c1b93f2c9a2c",
-  "parity_post": "rc=0: 4593 build-graph files byte-identical, 0 single-side",
-  "files_ws": 1373,
-  "files_pb": 13
+  "v1": {
+   "ws": "108e2826",
+   "pb": "ac33cba5",
+   "push": "a7ba7f29..ac33cba5",
+   "pb_files": 13
+  },
+  "v2": {
+   "ws": "47f9852d",
+   "pb": "2586040c",
+   "push": "ac33cba5..2586040c",
+   "pb_files": 4
+  },
+  "ls_remote_main": "2586040cdc61863e2f0c3d56936ed9c7b9bfc93c",
+  "parity_post": "rc=0: build-graph 4593 files byte-identical both repos, 0 single-side",
+  "verify": "verify_w9_fclass_fix.py A-H 34 asserts PASS; espinosa 12 PASS / 3 FAIL (E1/F11/F12 defect-state wording)"
  },
  "verify_espinosa": {
   "schema": "protreptic.phase21w9_fclass.qa_verify/v1",
