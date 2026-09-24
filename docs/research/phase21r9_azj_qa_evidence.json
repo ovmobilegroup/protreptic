@@ -7,7 +7,7 @@
  "total": 61,
  "passed": 61,
  "failed": 0,
- "info": 6,
+ "info": 5,
  "results": [
   {
    "tag": "A01",
@@ -299,11 +299,11 @@
   {
    "tag": "E07",
    "status": "PASS",
-   "msg": "parity：本链残留 0（现行 53 条差异全部为他链在制）",
+   "msg": "parity：本链残留 0（现行 50 条差异全部为他链在制）",
    "extra": {
     "kinds": {
-     "MISSING_IN_PUBLISH": 44,
-     "CONTENT_DIFF": 9
+     "MISSING_IN_PUBLISH": 42,
+     "CONTENT_DIFF": 8
     }
    }
   },
@@ -326,11 +326,11 @@
   {
    "tag": "F01",
    "status": "PASS",
-   "msg": "推送实证：e6d133c ∈ 发布仓谱系 ∧ ∈ origin/main 谱系（远端现值 2397eeec；收口时点 e6d133c 见链回执与本卡前轮实测）",
+   "msg": "推送实证：e6d133c ∈ 发布仓谱系 ∧ ∈ origin/main 谱系（远端现值 0e5702c3；收口时点 e6d133c 见链回执与本卡前轮实测）",
    "extra": {
-    "ls": "2397eeecfcf7",
-    "origin_main": "2397eeecfcf7",
-    "pb_head": "2397eeecfcf7"
+    "ls": "0e5702c39d4f",
+    "origin_main": "0e5702c39d4f",
+    "pb_head": "0e5702c39d4f"
    }
   },
   {
@@ -400,7 +400,7 @@
   {
    "tag": "F07",
    "status": "PASS",
-   "msg": "发布仓在制增量（e6d133c..HEAD，23 件）零 AZJ 链文件（他卡热修未触本链）",
+   "msg": "发布仓在制增量（e6d133c..HEAD 27 件，含本卡 QA 镜像 4 件）零他卡 AZJ 链文件",
    "extra": {
     "delta": [
      "docs/research/phase21r9_shenfu_qa_logs/receipts.txt",
@@ -513,17 +513,6 @@
    }
   },
   {
-   "tag": "E07n",
-   "status": "INFO",
-   "msg": "本卡自证物闭合前登记：未入库的 QA 证据/脚本 2 件（闭合提交+镜像后复跑须清零）",
-   "extra": {
-    "paths": [
-     "docs/research/phase21r9_azj_qa_evidence.json",
-     "docs/research/phase21r9_azj_qa_evidence.txt"
-    ]
-   }
-  },
-  {
    "tag": "E08n",
    "status": "INFO",
    "msg": "PB web/public/data/** 属 parity 排除类（构建产物，部署侧再生成）；PB by-figure 为旧代次快照（318 件 vs 工作仓 320 件；AZJ 分片不在 PB）——建设期登记项，非本链镜像承诺面",
@@ -542,9 +531,9 @@
   {
    "tag": "F01n",
    "status": "INFO",
-   "msg": "远端/发布仓已前移 e6d133c → 2397eeec（他卡推送后行；本链收口 sha e6d133c 在谱系内）",
+   "msg": "远端/发布仓已前移 e6d133c → 0e5702c3（含他卡/本卡 QA 镜像推送；本链收口 sha e6d133c 在谱系内）",
    "extra": {
-    "pb_head": "2397eeec"
+    "pb_head": "0e5702c3"
    }
   },
   {

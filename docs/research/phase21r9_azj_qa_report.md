@@ -4,8 +4,8 @@
 - 对象：AZJ-1/2/3 全链（sourcing 素材包 → landing 落盘 → 重建 → 合并入库 → 站链 → 镜像/推送）；上游衔接沈复链（t_a7d233f0）
 - 日期：2026-09-24（CST）
 - 核验脚本：`verify_azj_qa_espinosa.py`（随件；独立实现，不引用被验收方脚本结论）
-- 结论：**通过（PASS）**。闭合前终跑 **61 PASS / 0 FAIL / 6 INFO**，rc=0。
-- 证据：`docs/research/phase21r9_azj_qa_evidence.json` / `.txt`（同批 61 项明细，逐项可复核）
+- 结论：**通过（PASS）**。闭合前终跑 **61 PASS / 0 FAIL / 6 INFO**；镜像推送后复核跑 **61 PASS / 0 FAIL / 5 INFO**，两次 rc=0。
+- 证据：`docs/research/phase21r9_azj_qa_evidence.json` / `.txt`（闭合后复核批，61 项明细，逐项可复核）
 
 ## 0 方法（不信任自述）
 
@@ -14,9 +14,10 @@
 3. 链式对账：以兄弟卡（沈复）提交面为中继，验证 before/after 交接与"末次写者"口径（D05/D10）。
 4. 站链复跑：隔离目录重跑 `tools/export_static_site.py`（1358 产物逐字节比对，E05）+ `tools/pages_preflight.py --stage data`（E06）。
 5. 检查器灵敏度自检：反向注入 7 类篡改（编号/引文/前缀/位置/块位移/图档码/计数）全部被捕获（H01 7/7）。
-6. QA 期间修正了自身判据的 5 处实现缺陷（场景面链式口径、domain 压缩规则复刻、sha 前缀长度、figure tags 口径、远端前移鲁棒性），修正后终跑 0 FAIL。上述属判据实现问题，如实登记，非被验收对象缺陷。
+6. 闭合两跑：闭合前终跑（自证物未入库，E07n 登记）→ 闭合提交+镜像+推送 → 闭合后复核跑（自证物入库后 E07 残留清零、E07n 消失）。
+7. QA 期间修正了自身判据实现的 8 处缺陷（场景面链式口径、domain 压缩规则复刻、sha 前缀长度、figure tags 口径、远端前移鲁棒性、自证物分类口径 ×3），修正后终跑 0 FAIL。上述属判据实现问题，如实登记，非被验收对象缺陷。
 
-## 1 逐项结论总表
+## 1 逐项结论总表（闭合后复核批）
 
 | 组 | 面 | 结论 |
 |---|---|---|
@@ -24,11 +25,11 @@
 | B | +10 条逐条核对（内容/来源/编号 vs figure/三面/素材包/见证） | 11/11 PASS + 1 INFO |
 | C | 图档 figure / 顶层块 / 注册面（code_maps、figure_names） | 9/9 PASS |
 | D | 合并算术与纯追加（备份/重建复现/链式口径） | 11/11 PASS |
-| E | 站链（重算/复跑/隔离）与 parity | 9/9 PASS + 3 INFO |
+| E | 站链（重算/复跑/隔离）与 parity | 9/9 PASS + 2 INFO |
 | F | 推送与镜像实证（ls-remote / PB tree / raw） | 10/10 PASS + 1 INFO |
 | G | 边界抽查（旧假件零残留 / 未动他人物 / 禁用面） | 4/4 PASS + 1 INFO |
 | H | 反向注入自检（检查器灵敏度） | 1/1 PASS |
-| 合计 | | **61 PASS / 0 FAIL / 6 INFO** |
+| 合计 | | **61 PASS / 0 FAIL / 5 INFO** |
 
 ## 2 关键实证摘录
 
@@ -57,15 +58,15 @@
 - 门面口径一致：siteCounts.ts / docs（index.md、figure_library.md）/ PWA manifest×2 / daily index（3241 x 320）。
 - by-figure 分片 H-AZJ-001：10 条、摘要面 == 主库、domain 压缩 == export 清洗规则（首段标签，>30 字符或含句读回落 category 短标签）。
 - export 隔离复跑：1358 产物逐字节 == web/public/data（0 失配）；preflight --stage data exit 0。
-- parity：本链残留 0（现行 53 条差异全部为他链在制）；两仓点试 13 件（数据件/门面/报告/脚本）逐字节一致。
+- parity：本链残留 0（复核批现行 50 条差异全部为他链在制）；两仓点试 13 件（数据件/门面/报告/脚本）逐字节一致。
 - DB：figures 行数 1027 == meta；H-AZJ-001 0 行（DB 非合并卡链条面，先例一致，见 §3 F3）。
 
 ### 2.4 推送与镜像（F 组）
 - 发布仓 AZJ 链提交链完整：fe250fd → 78246d4 → e6d133c（^ 逐级相符，三提交题均为 AZJ 镜像）。
-- e6d133c ∈ 发布仓谱系 ∧ ∈ origin/main 谱系（merge-base 实证）；收口时点 ls-remote == e6d133c（链回执 + 本卡前轮实测），当晚他卡续推至 2397eeec（见 §3 F5 时移登记）。
+- e6d133c ∈ 发布仓谱系 ∧ ∈ origin/main 谱系（merge-base 实证）。时间线：收口时点 ls-remote == e6d133c（链回执 + 本卡前轮实测）→ 他卡续推至 2397eeec → 本卡 QA 镜像推送至 0e5702c（见 §3 F5 与时移回执）。
 - PB 树 91 件 azj/anzijie 命名文件全部逐字节 == 工作仓；e6d133c 树 blob 抽验 8 件零失配。
 - raw.githubusercontent.com 抽验 5 件：http=200 且逐字节 SAME（远端发布面）。
-- 回执提交 602a5d47 / a96302f1 / 5ce7f6ad / 8c486442 均在库。
+- 回执提交 602a5d47 / a96302f1 / 5ce7f6ad / 8c486442 均在库；发布仓在制增量（e6d133c..HEAD 27 件，含本卡 QA 镜像 4 件）零他卡 AZJ 链文件。
 
 ### 2.5 边界（G 组）
 - H-AZJ-345 live 面 0 命中（主库六件/站点数据/dist/DB/tools json/docs figures 全空；544 命中全为豁免/登记/快照类，见证据 G02 分类）。
@@ -89,15 +90,16 @@
 ### F4【口径注记】三写件序列化尾换行
 - modes_data 保持"无尾换行"；code_maps/figure_names 由前态"有尾换行"→ after"无尾换行"，与 modes_data 口径统一。属序列化口径注记，非缺陷（D11）。
 
-### F5【时移登记】远端/发布仓在他卡推送后前移
-- 收口时点 ls-remote == e6d133c（链回执与本卡前轮实测）；2026-09-24 当晚由他卡（t_83e0d68d 回执补记、shenfu 链）续推至 2397eeec；merge-base 实证 e6d133c 在谱系内。
+### F5【时移登记】远端/发布仓随时间前移（他卡 + 本卡后续推送）
+- 时间线：收口 e6d133c（链回执与本卡前轮实测）→ 2397eeec（他卡：t_83e0d68d 回执补记、shenfu 链）→ 0e5702c（本卡 QA 交付物镜像）。
+- merge-base 实证 e6d133c 在每一步后的谱系内；属正常推进，非差异。
 - 未发现真差异（0 项）：+10 条内容/来源/编号、合并算术、站链口径、镜像/推送面全部实证一致。
 
 ## 4 复现（证据可复核）
 
 ```
 cd /opt/data/workspace/Protreptic
-python3 verify_azj_qa_espinosa.py     # 终跑预期：61 PASS / 0 FAIL / 6 INFO，rc=0
+python3 verify_azj_qa_espinosa.py     # 复核批/终跑预期：61 PASS / 0 FAIL / 5 INFO，rc=0
 # 可选：AZJQA_REBUILD=<station rebuild 目录> 指向站链隔离复跑产物
 # 复跑会重写 docs/research/phase21r9_azj_qa_evidence.json/.txt
 #   （他链在制差异计数随环境波动，属预期；语义面断言不受影响）
@@ -106,8 +108,10 @@ python3 tools/check_repo_parity.py --json   # 复核 parity 计数
 
 ## 5 回执（receipts）
 
-- 工作仓闭合提交：<A>（本报告 + 证据 json/txt + 核验脚本，4 件）
-- 发布仓镜像：<B>；push <range1>；ls-remote 复核
-- 闭合后复核跑：61 PASS / 0 FAIL / 6 INFO rc=0 → 证据刷新；补记提交 <C>；镜像 <D>；push <range2>
+- 工作仓闭合提交：**7d4b8f13**（QA 报告 v1 + 证据 + 核验脚本，4 件）
+- 发布仓镜像：**0e5702c**（4 件 byte-exact）；push `2397eee..0e5702c`；`ls-remote origin main == 0e5702c`（本地 HEAD 复核一致）
+- 闭合后复核跑：**61 PASS / 0 FAIL / 5 INFO，rc=0**（证据刷新为本批）
+- 补记提交：本报告 v2 + 复核证据 + 脚本 v2 → 补记提交 C / 镜像 D / push（sha 见卡片 t_02007da8 completion 回执）
+- 时间线：链收口 e6d133c → 他卡 2397eeec → 本卡 0e5702c
 
-（本节随镜像后补记更新；最终完成回执见卡片 t_02007da8 completion。）
+（最终完成回执见卡片 t_02007da8。）

@@ -41,10 +41,10 @@ PASS E03 门面口径一致：siteCounts.ts / docs / PWA manifest ×2 / daily in
 PASS E04 by-figure 分片 H-AZJ-001：10 条、摘要面 == 主库、domain 压缩 == export 清洗规则
 PASS E05 站链复跑（export_static_site --out 隔离目录）：1358 产物逐字节复现 == web/public/data
 PASS E06 pages_preflight --stage data 复跑 exit 0
-PASS E07 parity：本链残留 0（现行 53 条差异全部为他链在制）
+PASS E07 parity：本链残留 0（现行 50 条差异全部为他链在制）
 PASS E08 两仓点试 13 件逐字节一致（parity 边界内 AZJ 链面）
 PASS E10 api/protreptic.db：figures 行数 1027 == meta；H-AZJ-001 0 行（DB 非合并卡链条面，先例一致）
-PASS F01 推送实证：e6d133c ∈ 发布仓谱系 ∧ ∈ origin/main 谱系（远端现值 2397eeec；收口时点 e6d133c 见链回执与本卡前轮实测）
+PASS F01 推送实证：e6d133c ∈ 发布仓谱系 ∧ ∈ origin/main 谱系（远端现值 0e5702c3；收口时点 e6d133c 见链回执与本卡前轮实测）
 PASS F02 发布仓 AZJ 链提交链：e6d133c^=78246d4、78246d4^=fe250fd、fe250fd^=3b6874f 且三提交题为 AZJ 镜像
 PASS F03 发布仓 e6d133c 树 blob == 工作仓（8 件抽验）
 PASS F04 R9 AZJ 链镜像：PB 树 91 件 azj/anzijie 命名文件全部 == 工作仓（逐字节）
@@ -53,17 +53,16 @@ PASS F06.602a 回执提交 602a5d47（AZJ-2 重建）在库，23 件
 PASS F06.a963 回执提交 a96302f1（AZJ-3 合并）在库，15 件
 PASS F06.5ce7 回执提交 5ce7f6ad（回执补记）在库，1 件
 PASS F06.8c48 回执提交 8c486442（回执补记 v2）在库，1 件
-PASS F07 发布仓在制增量（e6d133c..HEAD，23 件）零 AZJ 链文件（他卡热修未触本链）
+PASS F07 发布仓在制增量（e6d133c..HEAD 27 件，含本卡 QA 镜像 4 件）零他卡 AZJ 链文件
 PASS G01 H-AZJ-345 工作仓：live 面（主库六件/站点数据/dist/DB/tools json/docs figures）0 命中
 PASS G03 R8 清档基线对比：新增 21 件全部为受控登记件、零移除、无 live 面新增
 PASS G04 禁用标记 19 项：figure+条目+顶层块+code_maps 面零出现
 PASS G05 链提交面：602a5d47/a96302f1 文件清单全部为 AZJ 链文件（零夹带他人物/他链）
 PASS H01 反向注入 7/7 全部被检查器捕获
 INFO B06n 口径差：category_raw 与素材包 JSON theme 字段不一致 1 项（素材包 md/json 内部差异；落库取 md 口径、与 category_mapping.tsv 一致）
-INFO E07n 本卡自证物闭合前登记：未入库的 QA 证据/脚本 2 件（闭合提交+镜像后复跑须清零）
 INFO E08n PB web/public/data/** 属 parity 排除类（构建产物，部署侧再生成）；PB by-figure 为旧代次快照（318 件 vs 工作仓 320 件；AZJ 分片不在 PB）——建设期登记项，非本链镜像承诺面
 INFO E09 dist by-figure H-AZJ-001 == public 副本
-INFO F01n 远端/发布仓已前移 e6d133c → 2397eeec（他卡推送后行；本链收口 sha e6d133c 在谱系内）
+INFO F01n 远端/发布仓已前移 e6d133c → 0e5702c3（含他卡/本卡 QA 镜像推送；本链收口 sha e6d133c 在谱系内）
 INFO G02 工作仓 H-AZJ-345 命中分类（544 件）
 
-TOTAL 61 PASS / 0 FAIL / 6 INFO
+TOTAL 61 PASS / 0 FAIL / 5 INFO

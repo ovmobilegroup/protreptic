@@ -473,7 +473,7 @@ def main():
           "推送实证：e6d133c ∈ 发布仓谱系 ∧ ∈ origin/main 谱系（远端现值 %s；收口时点 e6d133c 见链回执与本卡前轮实测）" % (ls_sha[:8] or om[:8]),
           {"ls": ls_sha[:12], "origin_main": om[:12], "pb_head": pb_head[:12]})
     if ls_sha != e6 or pb_head != e6:
-        note("F01n", "远端/发布仓已前移 e6d133c → %s（他卡推送后行；本链收口 sha e6d133c 在谱系内）" % ((ls_sha or om)[:8]),
+        note("F01n", "远端/发布仓已前移 e6d133c → %s（含他卡/本卡 QA 镜像推送；本链收口 sha e6d133c 在谱系内）" % ((ls_sha or om)[:8]),
              {"pb_head": pb_head[:8]})
     anc = [git(["rev-parse", "%s^" % c], cwd=PB, binary=False).strip()[:7] for c in ["e6d133c", "78246d4", "fe250fd"]]
     msgs_ok = all(("AZJ" in (git(["log", "--format=%s", "-1", c], cwd=PB, binary=False)) or u"安子介" in (git(["log", "--format=%s", "-1", c], cwd=PB, binary=False))) for c in ["fe250fd", "78246d4", "e6d133c"])
@@ -505,9 +505,13 @@ def main():
     for c, tag in [("602a5d47", "AZJ-2 重建"), ("a96302f1", "AZJ-3 合并"), ("5ce7f6ad", "回执补记"), ("8c486442", "回执补记 v2")]:
         files = [p for p in git(["show", "--name-only", "--format=", c], binary=False).splitlines() if p.strip()]
         check("F06." + c[:4], len(files) > 0, "回执提交 %s（%s）在库，%d 件" % (c[:8], tag, len(files)))
+    OWN_CLOSURE = ("verify_azj_qa_espinosa.py", "docs/research/phase21r9_azj_qa_report.md",
+                   "docs/research/phase21r9_azj_qa_evidence.json", "docs/research/phase21r9_azj_qa_evidence.txt")
     pb_delta = [p for p in git(["log", "--name-only", "--format=", "%s..%s" % (e6, pb_head)], cwd=PB, binary=False).splitlines() if p.strip()]
-    azj_delta = [p for p in pb_delta if ("azj" in p.lower() or "anzijie" in p.lower())]
-    check("F07", not azj_delta, "发布仓在制增量（e6d133c..HEAD，%d 件）零 AZJ 链文件（他卡热修未触本链）" % len(pb_delta), {"delta": pb_delta[:6]})
+    own_in_delta = [p for p in pb_delta if p in OWN_CLOSURE]
+    other_delta = [p for p in pb_delta if p not in OWN_CLOSURE]
+    azj_delta = [p for p in other_delta if ("azj" in p.lower() or "anzijie" in p.lower())]
+    check("F07", not azj_delta, "发布仓在制增量（e6d133c..HEAD %d 件，含本卡 QA 镜像 %d 件）零他卡 AZJ 链文件" % (len(pb_delta), len(own_in_delta)), {"delta": other_delta[:6]})
 
     # ================= G 边界抽查 =================
     print("== G 边界抽查（旧假件零残留 / 未动他人物 / 禁用面） ==")
@@ -541,7 +545,7 @@ def main():
         (p.startswith("docs/research/phase21r9") or p.startswith("data/audit/phase21r9") or p.startswith("data/figures/H-AZJ-001")
          or p.startswith("data/individuals/H-AZJ-001") or p.startswith("docs/scratch/legacy20_r9_azj_landing") or p.startswith("docs/scratch/phase21r9_azj")
          or p.startswith("tools/build_phase21r9_azj") or p.startswith("tools/merge_azj_hazj001") or p.startswith("verify_phase21r9_azj")
-         or p.startswith("docs/research/phase21r8_azj345"))
+         or p.startswith("docs/research/phase21r8_azj345") or p.startswith("verify_azj_qa_espinosa"))
         for p in new)
     live_new = [p for p in new if p.startswith("web/") or p.startswith("data/scenarios") or p.startswith("api/")]
     check("G03", ok_new and not live_new, "R8 清档基线对比：新增 %d 件全部为受控登记件、零移除、无 live 面新增" % len(new), {"new": new, "gone": gone})
