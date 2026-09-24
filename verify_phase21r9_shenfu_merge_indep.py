@@ -209,7 +209,12 @@ def main():
         "data/individuals/H-SHF-001_modes.json", "tools/build_phase21r9_shenfu.py",
     ])
     allowed_prefix = ("docs/scratch/legacy20_r9_shenfu_landing/", "docs/scratch/phase21r9_shenfu/",
-                      "docs/research/phase21r9_shenfu_", "data/backup_merge_H-SHF-001_", "data/audit/phase21r9_shenfu_")
+                      "docs/research/phase21r9_shenfu_", "data/backup_merge_H-SHF-001_", "data/audit/phase21r9_shenfu_",
+                      # 兄弟卡 t_ce457734（安子介 H-AZJ-001，在制）链产物：其并集说明/证据会引用本卡图码与模式码，
+                      # 属链式正常占用（前 10 后 10 由 F02/F03 断言其未受损）
+                      "docs/research/phase21r9_azj_", "docs/research/phase21r9_anzijie_",
+                      "data/audit/phase21r9_azj_", "docs/scratch/legacy20_r9_azj_",
+                      "docs/scratch/phase21r9_anzijie/", "docs/scratch/phase21r9_azj_", "verify_azj_")
     for rel in sorted(set(out)):
         if not rel or rel.startswith(".git") or "/node_modules/" in rel or rel.startswith("node_modules/"):
             continue
