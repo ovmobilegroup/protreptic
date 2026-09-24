@@ -27,7 +27,7 @@
 
 - 事实来源与口径：一律取 git 对象（短号解析全号/日期/题名）、文件字节（sha256）、工具实跑输出；不采信卡面或报告自述。
 - 镜像口径：byte-exact（两仓 sha256 相等判定）；push 后远端复验（ls-remote 对齐 + raw 抽验）。
-- 生成口径：本报告由 build_w4_names_fix_archive.py 逐字段装配（生成时实测），幂等可复跑（--check 打印 IDEMPOTENT）。
+- 生成口径：本报告由 build_w4_names_fix_archive.py 逐字段装配（生成时实测），幂等可复跑（--check 归一生成时点 HEAD 观测行后逐字节比对，打印 IDEMPOTENT）。
 - 验收口径：verify_w4_names_fix_archive.py 为第二实现（不 import 生成器），独立读取本报告、两仓文件、git 对象与上游数据逐项断言；含反向注入自检。
 - 站点展示层说明（卡 ③）：本链为文档/数据修复面，不新增页面、路由或文案；两仓一致性以 byte-exact 镜像复核替代（第五.1/5.2节）。
 
@@ -90,7 +90,7 @@
 | pb | `3cb64c3` | `3cb64c3eb3333d52c5aff586b7187079eef6c5ee` | 09-24 11:12 | t_def07a84 | 镜像: t_def07a84 回执补记 v2 (对齐工作仓 HEAD): fix3 报告 第7节回执 + json/证据 receipts; 3 件 byte-exact | 镜像 v2 |
 | pb | `d0c7306` | `d0c7306c5f23cfeaac039d07f6afea57a4bf7a31` | 09-24 11:13 | t_def07a84 | 镜像: t_def07a84 回执终版 v3 (对齐工作仓 4e78ace6): 3 件 byte-exact | 镜像 v3（B-a 面终版） |
 
-- 本卡补镜像（v1/v2）见第四.7节回执；发布仓生成时点 HEAD=`398cd8cea260af6a5716e9f76e201d1c44e1ba13`。
+- 本卡补镜像（v1/v2）见第四.7节回执；发布仓生成时点 HEAD=`d38953df890457064cf98da23c8eb624c0da4c65`。
 
 ### 4.4 逐码处置终表（16 H-* + 5 码族 + RW-KAG-1..27 = 48 码）
 
@@ -233,10 +233,10 @@
 
 | 文件 | 工作仓 sha256(前16) | 发布仓 sha256(前16) |
 |---|---|---|
-| docs/research/phase21w4_names_fix_archive_report.md | （本文件；sha 见回执节） | d2e7e0fd019e996b |
-| docs/research/phase21w4_names_fix_archive_evidence.json | b0d5d56e2f9f3d6e | - |
+| docs/research/phase21w4_names_fix_archive_report.md | （本文件；sha 见回执节） | 9fd44b68242a500d |
+| docs/research/phase21w4_names_fix_archive_evidence.json | 987b1a4451009960 | 987b1a4451009960 |
 | verify_w4_names_fix_archive.py | ae9388efd4c3ac64 | ae9388efd4c3ac64 |
-| build_w4_names_fix_archive.py | 2edc366034b78184 | - |
+| build_w4_names_fix_archive.py | 48d3a1bc480be09e | - |
 
 ### 5.3 链上 pin 与当场实测计数（生成时点）
 
@@ -259,8 +259,8 @@
 
 ### 5.5 git 对账（生成时点）
 
-- 工作仓 HEAD = `a20e4adeac98d245ff8bb1ab50de6cba743c53e1`（master，本地提交面）。
-- 发布仓 HEAD = `398cd8cea260af6a5716e9f76e201d1c44e1ba13`（origin/main 面，随本卡镜像推进）。
+- 工作仓 HEAD = `4987911b1c720530c606a0134aae7a86576c5b56`（master，本地提交面）。
+- 发布仓 HEAD = `d38953df890457064cf98da23c8eb624c0da4c65`（origin/main 面，随本卡镜像推进）。
 - 锚点（逐条实测可解）：
   - ws `40320e37`（40320e374564）W4 窗口起点 BASE（QA §三）
   - ws `8a0ac56d`（8a0ac56db7e9）清档终态 EE（QA §七）
