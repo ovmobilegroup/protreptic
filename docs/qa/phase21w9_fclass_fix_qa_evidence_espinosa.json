@@ -429,6 +429,33 @@
    "note": "C1 漂移容错修订（B 后终跑捕获边界计数 4593→4595 漂移，改为不变式口径；只放宽计数期望，事实断言未动）；修订后终跑 33 PASS / 0 FAIL / 2 INFO",
    "sha_verifier_final": "f2f0d8adb853dcf56b5c5cb7701a05783a2c95a53f154517b7a9d966873a9148",
    "run_json": "final_verifier_run_postB2.json"
+  },
+  "D_stage": {
+   "note": "账本补记：B/C 提交号与 push 链终态入账（D 段自身提交号见看板卡 t_28a29244 metadata）",
+   "ws_chain": [
+    "00bdee49fbb08dfd510475c322c0494ce96e49d2",
+    "cf2f5e172cd7982cc69affbe01cf8f764ce5dce8",
+    "38b27aaae20855d32132ba9313d49228ce792484"
+   ],
+   "pb_chain": [
+    "d48b5f89919f558533e12a7758c9a6a8dbe70be7",
+    "a9e680241be05ed0aa950b8cb01b527e67e006c4",
+    "c864fc30a67f70e41fe0eb1ad18440f50d125b08"
+   ],
+   "push_chain": [
+    "4b79cb27..d48b5f89",
+    "d48b5f89..a9e68024",
+    "a9e68024..c864fc30"
+   ],
+   "ls_remote_final": "c864fc30a67f70e41fe0eb1ad18440f50d125b08",
+   "parity_final": {
+    "both_sides": 4595,
+    "identical": 4595,
+    "only_workspace": 0,
+    "only_publish": 0,
+    "diffs": 0
+   },
+   "verifier_final": "33 PASS / 0 FAIL / 2 INFO (final_verifier_run_postC.json)"
   }
  }
 }

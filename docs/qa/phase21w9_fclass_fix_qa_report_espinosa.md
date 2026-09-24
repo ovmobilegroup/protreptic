@@ -119,4 +119,7 @@
 - **push**：`4b79cb27..d48b5f89 → refs/heads/main`；`git ls-remote origin main` == `d48b5f89919f558533e12a7758c9a6a8dbe70be7` == pb HEAD。
 - **B 阶段（回执补记）**：ws / pb 各 1 笔（报告 §9 + 证据 receipts 两件）；补记后两仓对应件逐字节一致。
 - **C 阶段（校验器 C1 漂移容错修订）**：B 后终跑捕获 C1 硬编码边界 `4593` 因本 QA 两件入库而漂移至 `4595` → C1 修订为不变式口径（两仓边界计数全等 + `>=4593` + 0 单侧；只放宽计数期望，不动任何事实断言），复跑 **33 PASS / 0 FAIL / 2 INFO**；校验器终值 sha `f2f0d8ad...`；本修订与报告 §9 + 证据 receipts 三件同为 C 提交。
-- **终态一览**：ws HEAD=C / pb HEAD=P3；push 链 `4b79cb27 → d48b5f89 → a9e68024 → P3`；两仓全部对应件逐字节一致；parity 复跑 0 差异。
+- **D 阶段（账本补记）**：B/C 提交号与 push 链终态入账（不改变任何复验结论）。
+  - ws：A=`00bdee49` → B=`cf2f5e17` → C=`38b27aaa` → D 段（本补记）；pb：P1=`d48b5f89` → P2=`a9e68024` → P3=`c864fc30` → P4 段（镜像本件）。
+  - push 链：`4b79cb27 → d48b5f89 → a9e68024 → c864fc30 → P4`；`git ls-remote origin main` 实测 == pb HEAD。
+  - 两仓全部对应件逐字节一致（A/B 3+2 件、C 3 件、D 2 件）；**parity 终跑 4595/4595 identical、0 单侧、0 差异**；**校验器终跑（C 状态）33 PASS / 0 FAIL / 2 INFO**。
