@@ -1413,13 +1413,13 @@
   "audit_meta": {
     "scan_date": "2026-09-24",
     "modes_file": "data/modes_data.json",
-    "modes_file_sha256": "d9de42a0776440356b31a4f766a1bba5fead078ea2ae6dbb15525a31d92c1fa7",
-    "total_modes_count": 3311,
-    "top_level_modes_entries": 3291,
-    "distinct_mode_codes": 3281,
+    "modes_file_sha256": "6f3f4580397614f5b79aaec4c3fb9aaaaa69957e94094120d8d7446949d6415f",
+    "total_modes_count": 3331,
+    "top_level_modes_entries": 3311,
+    "distinct_mode_codes": 3301,
     "modes_empty_mode_code": 10,
     "embedded_figure_mode_entries": 20,
-    "total_figures": 324,
+    "total_figures": 326,
     "quarantined_figures": [
       "H-P23F-001",
       "H-SX-001",
@@ -1474,14 +1474,14 @@
         "cache_present": true,
         "usable_keys": 39,
         "statuses": {
-          "unchecked": 3202,
+          "unchecked": 3222,
           "mismatch": 24,
           "quote-too-short": 81,
           "matched": 4
         },
         "unchecked_reasons": {
-          "no-fulltext-link": 1857,
-          "no-citation": 723,
+          "no-fulltext-link": 1875,
+          "no-citation": 725,
           "cache-not-ok": 471,
           "no-quote": 85,
           "script-mismatch(原文繁体 vs 引文简体": 66,
@@ -1640,22 +1640,22 @@
         "note": "只在「出处有书名号引文 + 引文解析到原文类链接 + 缓存覆盖整部作品(single-page/complete)」时判 matched/mismatch；coverage=partial 的缓存**不可核**（在部分文本里找不到引文不能证明引文不符）"
       },
       "d5": {
-        "figures_with_lifespan": 575,
+        "figures_with_lifespan": 576,
         "statuses": {
-          "clean": 1532,
-          "undetermined": 1778,
+          "clean": 1542,
+          "undetermined": 1788,
           "conflict": 1
         },
         "reasons": {
-          "no-conflicting-year": 1532,
+          "no-conflicting-year": 1542,
           "year-outside-lifespan": 1
         },
         "undetermined_reasons": {
-          "field-not-claim": 64,
-          "name-not-in-context": 179,
+          "field-not-claim": 75,
+          "name-not-in-context": 188,
           "out-of-window": 562,
           "background-marker": 2,
-          "source-marker": 12,
+          "source-marker": 13,
           "afterlife-marker": 1
         },
         "conflicts": [
@@ -1675,7 +1675,7 @@
     },
     "notes": [
       "annotated references ('M-XXX-001(comment)' with an existing prefix code): 414 entries, not counted as D6 per library convention",
-      "get_all_modes total 3311 = top-level modes 3291 + embedded figure-node duplicates 20; distinct mode_code 3281 (plus 10 entries with an empty mode_code, dropped at export)",
+      "get_all_modes total 3331 = top-level modes 3311 + embedded figure-node duplicates 20; distinct mode_code 3301 (plus 10 entries with an empty mode_code, dropped at export)",
       "D4/D5 已由 Phase40-Z2 真实现（不再是占位）：D4 对『缓存覆盖整部作品』的出处做 key_quote_zh 归一化子串核验（缓存见 data/audit/source_texts.json）；D5 用 data/figures/*.json 的生卒年 × 模式文本里的 4 位年份，不可核/不可判定的部分逐类计数在 audit_meta.d4_d5_report（禁止当成零缺陷）",
       "D1/D2/D3/D4/D6 的 by_scope 见 audit_meta.by_scope: quarantined_figure 指该条 mode 的 figure_code 在隔离名单中"
     ]

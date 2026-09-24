@@ -1,0 +1,12 @@
+{
+ "figure_code": "H-SHF-001",
+ "notes": {
+  "scenarios_zh_new": 0,
+  "scenarios_en_new": 0,
+  "reason": "R9 重建落盘卡（1/2）未产出场景件：场景注册属合并卡范围；本档无旧场景载荷可搬迁（旧件维持归档，本链零搬迁）",
+  "new_prefix_suggestion": "C-SHF-001~010 / C-SHF-001E~010E（全库实测 0 碰撞；1:1 配对：code 序号=mode 序号；沿 C-WX/C-LUORQ 先例）",
+  "template_rule": "text_zh = name_zh + “的当代应用场景：” + application_area_zh（分号连接）+ 句号收束；text_en = “Contemporary applications of ” + name_en + “: ” + application_area_en（分号连接）+ 句点收束；application_area_* 逐字取条目 modern_applications_*（合并卡可脚本复算）",
+  "old_code_dispositions": [],
+  "remap_needed": []
+ }
+}

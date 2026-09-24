@@ -1,0 +1,26 @@
+Phase21-R9 沈复（H-SHF-001）合并卡 t_a7d233f0 证据（人读版）
+日期: 2026-09-24  链: Phase21-R9 沈复重做链 2/4 合并卡
+
+[1] 备份与落库
+  备份目录: data/backup_merge_H-SHF-001_20260924_093849（六件前像 + ledger.json；工作区保留，不入库）
+  modes_data.json              a3db91993add329a -> 6f3f4580397614f5
+  code_maps.json               002527a9fb1574a5 -> ffb380949718c888
+  figure_names.json            fb5e62a14ed7f1f6 -> 5370df6ad9f32f6b
+  scenarios_zh.json            37b6c8f50746a64f -> 3f90382536bdd9b6
+  scenarios_en.json            a7ce4a28128febca -> d971e9a00d3da7d2
+  scenario_tags.json           b8311c084a21f5c6 -> 0c06fbf583cb17f5
+  计数: {"before":{"modes_data":{"top_level_modes_entries":3301,"distinct_mode_codes":3291,"empty_mode_code":10},"code_maps_figures":215,"figure_names":1084,"scenarios_zh_inner":2203,"scenarios_en_inner":2203,"scenario_tags_inner":7518},"after":{"modes_data":{"top_level_modes_entries":3311,"distinct_mode_codes":3301,"empty_mode_code":10},"code_maps_figures":216,"figure_names":1085,"scenarios_zh_inner":2213,"scenarios_en_inner":2213,"scenario_tags_inner":7538},"total_field":{"before":3301,"after":3311}}
+
+[2] 门禁四项: credibility/verify_findings/verify_source_links --hard-fail 与 apply_verification_status --check 全部 exit 0
+
+[3] 站链五步: export / gen_web_site_counts / apply_site_counts / build_daily_index / pages_preflight --stage data 全部 exit 0
+  figures=1027 modes=3301 published=3241 隔离=60 by-figure=320；锚点 EXPECT_MODES=3301 EXPECT_BY_FIGURE=320（R9 并集口径）
+  siteCounts.ts 3241x320；dist 扫描 1377 文件零违规；daily 3241 条
+
+[4] 核验
+  上游脚本合并后口径复跑: 74 PASS / 0 FAIL / 0 WARN（verify_phase21r9_shenfu.py）
+  独立核验: 53 PASS / 0 FAIL（verify_phase21r9_shenfu_merge_indep.py；A-I 九组）
+
+[5] 并集护栏: M-AZJ-001~010 在位（前 10 后 10），H-AZJ-001 图档/图名在位
+
+[6] 提交/镜像/push 回执: 见 JSON receipts 块（回执补记后刷新）

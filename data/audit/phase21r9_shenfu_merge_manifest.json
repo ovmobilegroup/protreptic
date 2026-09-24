@@ -1,0 +1,113 @@
+{
+  "schema_version": "v1",
+  "card": "t_a7d233f0",
+  "chain": "Phase21-R9 沈复重做链（2/4 合并卡）",
+  "date": "2026-09-24",
+  "figure_code": "H-SHF-001",
+  "landing_package": "docs/scratch/legacy20_r9_shenfu_landing/",
+  "backup_dir": "data/backup_merge_H-SHF-001_20260924_093849",
+  "rules": {
+    "modes_append": "10 条 M-SHF-001~010 逐字等于 A1 entries，追加于 'modes' 文末",
+    "top_block": "顶层块 H-SHF-001 新增（23 键，置于 'modes' 之前）；原块缺失，无旧块置换",
+    "total": "total 随动对齐 = len(modes)（R5 裁定口径；合并卡只写这一个标量）",
+    "code_maps": "figures[H-SHF-001] = mode_ids(图档) + tags(10 = 各模式 name_zh) + cross_references(图档逐字, 目标已注册)",
+    "scenario_prefix": "C-SHF-001~010 / C-SHF-001E~010E（1:1 配对 mode 序号；全库 0 碰撞）",
+    "scenario_template": "text 由 name_zh/name_en + modern_applications_* 模板复算（沿 C-WX/C-LUORQ 生成规则）",
+    "tags": "scenario_tags +20：每模式 zh+en 各一条（tag = name_zh_zh / name_en_en），先 zh 后 en",
+    "serialization": "json.dump(indent=2, ensure_ascii=False) + 保留原尾换行状态（字节可复算）"
+  },
+  "inputs": {
+    "data/modes_data.json": {
+      "sha256": "a3db91993add329a8a58acaf03e2a033a25c8d743179670079374dda9fdedccd",
+      "bytes": 24825945
+    },
+    "data/code_maps.json": {
+      "sha256": "002527a9fb1574a5424d97b8fc7c39e5969feb95fbb168e9fca42ed5eb96b4a1",
+      "bytes": 860106
+    },
+    "data/figure_names.json": {
+      "sha256": "fb5e62a14ed7f1f66399d157aaabebbac925f5b4e72ed8cc5a0b799913049b4e",
+      "bytes": 30782
+    },
+    "data/scenarios_zh.json": {
+      "sha256": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+      "bytes": 1934861
+    },
+    "data/scenarios_en.json": {
+      "sha256": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+      "bytes": 2195136
+    },
+    "data/scenario_tags.json": {
+      "sha256": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3",
+      "bytes": 1157132
+    }
+  },
+  "after": {
+    "data/modes_data.json": {
+      "sha256": "6f3f4580397614f5b79aaec4c3fb9aaaaa69957e94094120d8d7446949d6415f",
+      "bytes": 24890886
+    },
+    "data/code_maps.json": {
+      "sha256": "ffb380949718c88851d3c58623aeb790d29303e7f51cb5d2d8e768102bd80280",
+      "bytes": 861834
+    },
+    "data/figure_names.json": {
+      "sha256": "5370df6ad9f32f6b4ae0295b63317a44a11b330a35a3ce43343477582ba58403",
+      "bytes": 30807
+    },
+    "data/scenarios_zh.json": {
+      "sha256": "3f90382536bdd9b63e7cb112c34397efcdf4a8ab5d75a84e315723f203d1d90d",
+      "bytes": 1947587
+    },
+    "data/scenarios_en.json": {
+      "sha256": "d971e9a00d3da7d29ca8cc82861ab9dbc05f66ee52e05cfa9d1128988d3d0fa1",
+      "bytes": 2207882
+    },
+    "data/scenario_tags.json": {
+      "sha256": "0c06fbf583cb17f59e97785a747824538578703708c844eb3b418d46813586ac",
+      "bytes": 1160060
+    }
+  },
+  "counts": {
+    "before": {
+      "modes_data": {
+        "top_level_modes_entries": 3301,
+        "distinct_mode_codes": 3291,
+        "empty_mode_code": 10
+      },
+      "code_maps_figures": 215,
+      "figure_names": 1084,
+      "scenarios_zh_inner": 2203,
+      "scenarios_en_inner": 2203,
+      "scenario_tags_inner": 7518
+    },
+    "after": {
+      "modes_data": {
+        "top_level_modes_entries": 3311,
+        "distinct_mode_codes": 3301,
+        "empty_mode_code": 10
+      },
+      "code_maps_figures": 216,
+      "figure_names": 1085,
+      "scenarios_zh_inner": 2213,
+      "scenarios_en_inner": 2213,
+      "scenario_tags_inner": 7538
+    },
+    "total_field": {
+      "before": 3301,
+      "after": 3311
+    }
+  },
+  "union_guard": {
+    "M_AZJ_before": 10,
+    "M_AZJ_after": 10
+  },
+  "written": [
+    "data/modes_data.json",
+    "data/code_maps.json",
+    "data/figure_names.json",
+    "data/scenarios_zh.json",
+    "data/scenarios_en.json",
+    "data/scenario_tags.json"
+  ]
+}

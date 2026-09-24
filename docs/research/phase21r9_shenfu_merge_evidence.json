@@ -1,0 +1,162 @@
+{
+ "schema_version": "v1",
+ "card": "t_a7d233f0",
+ "chain": "Phase21-R9 沈复重做链（2/4 合并卡）",
+ "figure_code": "H-SHF-001",
+ "figure_name_zh": "沈复",
+ "date": "2026-09-24",
+ "landing_package": "docs/scratch/legacy20_r9_shenfu_landing/",
+ "backup_dir": "data/backup_merge_H-SHF-001_20260924_093849",
+ "rules": {
+  "modes_append": "10 条 M-SHF-001~010 逐字等于 A1 entries，追加于 'modes' 文末",
+  "top_block": "顶层块 H-SHF-001 新增（23 键，置于 'modes' 之前）；原块缺失，无旧块置换",
+  "total": "total 随动对齐 = len(modes)（R5 裁定口径；合并卡只写这一个标量）",
+  "code_maps": "figures[H-SHF-001] = mode_ids(图档) + tags(10 = 各模式 name_zh) + cross_references(图档逐字, 目标已注册)",
+  "scenario_prefix": "C-SHF-001~010 / C-SHF-001E~010E（1:1 配对 mode 序号；全库 0 碰撞）",
+  "scenario_template": "text 由 name_zh/name_en + modern_applications_* 模板复算（沿 C-WX/C-LUORQ 生成规则）",
+  "tags": "scenario_tags +20：每模式 zh+en 各一条（tag = name_zh_zh / name_en_en），先 zh 后 en",
+  "serialization": "json.dump(indent=2, ensure_ascii=False) + 保留原尾换行状态（字节可复算）"
+ },
+ "counts": {
+  "before": {
+   "modes_data": {
+    "top_level_modes_entries": 3301,
+    "distinct_mode_codes": 3291,
+    "empty_mode_code": 10
+   },
+   "code_maps_figures": 215,
+   "figure_names": 1084,
+   "scenarios_zh_inner": 2203,
+   "scenarios_en_inner": 2203,
+   "scenario_tags_inner": 7518
+  },
+  "after": {
+   "modes_data": {
+    "top_level_modes_entries": 3311,
+    "distinct_mode_codes": 3301,
+    "empty_mode_code": 10
+   },
+   "code_maps_figures": 216,
+   "figure_names": 1085,
+   "scenarios_zh_inner": 2213,
+   "scenarios_en_inner": 2213,
+   "scenario_tags_inner": 7538
+  },
+  "total_field": {
+   "before": 3301,
+   "after": 3311
+  }
+ },
+ "sha256": {
+  "before": {
+   "data/modes_data.json": "a3db91993add329a8a58acaf03e2a033a25c8d743179670079374dda9fdedccd",
+   "data/code_maps.json": "002527a9fb1574a5424d97b8fc7c39e5969feb95fbb168e9fca42ed5eb96b4a1",
+   "data/figure_names.json": "fb5e62a14ed7f1f66399d157aaabebbac925f5b4e72ed8cc5a0b799913049b4e",
+   "data/scenarios_zh.json": "37b6c8f50746a64fb0e6e4663f6fba8cad5c97c0466b9aededb9af1f07de9baf",
+   "data/scenarios_en.json": "a7ce4a28128febca94747279f79386b5bd6493b684f24ffa38f6d1e3b3ff4a1f",
+   "data/scenario_tags.json": "b8311c084a21f5c6d6f2099aab5df84e3010c54c321a59b445491690771f34b3"
+  },
+  "after": {
+   "data/modes_data.json": "6f3f4580397614f5b79aaec4c3fb9aaaaa69957e94094120d8d7446949d6415f",
+   "data/code_maps.json": "ffb380949718c88851d3c58623aeb790d29303e7f51cb5d2d8e768102bd80280",
+   "data/figure_names.json": "5370df6ad9f32f6b4ae0295b63317a44a11b330a35a3ce43343477582ba58403",
+   "data/scenarios_zh.json": "3f90382536bdd9b63e7cb112c34397efcdf4a8ab5d75a84e315723f203d1d90d",
+   "data/scenarios_en.json": "d971e9a00d3da7d29ca8cc82861ab9dbc05f66ee52e05cfa9d1128988d3d0fa1",
+   "data/scenario_tags.json": "0c06fbf583cb17f59e97785a747824538578703708c844eb3b418d46813586ac"
+  }
+ },
+ "gates": {
+  "credibility_gate --hard-fail": {
+   "exit_code": 0,
+   "note": "0 硬失败；D5 命中示例为存量（M-NEW-007），非本卡引入"
+  },
+  "verify_findings --hard-fail": {
+   "exit_code": 0,
+   "note": "无新增硬失败（存量 0 条已冻结）；其余警告 1 条（M-ASM-001~010 顶层/内嵌双采集）为存量"
+  },
+  "verify_source_links --hard-fail": {
+   "exit_code": 0,
+   "note": "无新增坏链（存量 0 条已冻结）；UNREACHABLE 为网络波动类警告"
+  },
+  "apply_verification_status --check": {
+   "exit_code": 0,
+   "note": "库中状态与规则逐条一致（本轮零漂移）；四态求和自洽：公开 3251 + 隔离 60 = 全库 3311"
+  }
+ },
+ "site_chain": {
+  "export_static_site.py": {
+   "exit_code": 0,
+   "figures": 1027,
+   "modes_deduped": 3301,
+   "published": 3241,
+   "quarantined": 60,
+   "by_figure_shards": 320,
+   "products": 1357,
+   "note": "隔离名单零泄漏（被剔 60 条）"
+  },
+  "gen_web_site_counts.py": {
+   "exit_code": 0,
+   "siteCounts": "3241 x 320 (sourceTotal 3301)"
+  },
+  "apply_site_counts.py": {
+   "exit_code": 0,
+   "note": "dist 扫描 1377 文件零违规；docs 产品门面 6 页零违规",
+   "prereq": "web/dist 数据面同步 + npm run build（vue-tsc && vite build, index-DvgMwhwc.js）"
+  },
+  "build_daily_index.py": {
+   "exit_code": 0,
+   "daily_total": 3241
+  },
+  "pages_preflight.py --stage data": {
+   "exit_code": 0,
+   "note": "全部断言通过（figures=1027 modes=3301 published=3241 隔离命中=0 by-figure=320）"
+  },
+  "pages_preflight.py --stage dist": {
+   "exit_code": 0
+  },
+  "anchors": {
+   "EXPECT_MODES": 3301,
+   "EXPECT_BY_FIGURE": 320,
+   "files": [
+    "tools/export_static_site.py",
+    "tools/pages_preflight.py"
+   ],
+   "note": "R9 两卡并集口径（t_ce457734 安子介 + 本卡 沈复）"
+  }
+ },
+ "verification": {
+  "upstream_script_merged_rerun": {
+   "script": "verify_phase21r9_shenfu.py",
+   "pass": 74,
+   "fail": 0,
+   "warn": 0,
+   "evidence": "docs/research/phase21r9_shenfu_verify_evidence_merged.json",
+   "note": "合并后口径：G02/G03/H04/G01 白名单按合并后预期改写；其余 70 项口径不变"
+  },
+  "independent": {
+   "script": "verify_phase21r9_shenfu_merge_indep.py",
+   "pass": 53,
+   "fail": 0,
+   "evidence": "docs/research/phase21r9_shenfu_merge_verify_indep.json",
+   "note": "判据全部重回原始文件（备份前像/落盘包/主库现值/站点产物/git 清单）"
+  }
+ },
+ "union_guard": {
+  "M_AZJ_before": 10,
+  "M_AZJ_after": 10,
+  "note": "兄弟卡 t_ce457734（安子介 H-AZJ-001）在制；六件均含其 +10 条目，合并为并集，未受损"
+ },
+ "artifacts": {
+  "merge_script": "tools/merge_phase21r9_shenfu.py",
+  "merge_manifest": "data/audit/phase21r9_shenfu_merge_manifest.json",
+  "backup_dir": "data/backup_merge_H-SHF-001_20260924_093849（六件前像 + ledger；工作区保留，不入库）",
+  "report": "docs/research/phase21r9_shenfu_merge_report.md"
+ },
+ "receipts": {
+  "commit": "",
+  "mirror_commit": "",
+  "push_range": "",
+  "ls_remote_sha": "",
+  "parity": ""
+ }
+}

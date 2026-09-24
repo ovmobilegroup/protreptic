@@ -87,8 +87,12 @@ EXPECT_FIGURES = 1027
 # EXPECT_BY_FIGURE 316 -> 317（+1 分片）；EXPECT_FIGURES 1057 unchanged)
 # Phase21-R8 (2026-09-23, card t_08bbb73d) anchor bump: 3271 -> 3281 (+10 H-LUORQ-001/罗瑞卿 M-LUORQ-001~010 入库，顶层旧块替换不涉模式计数；空模式码壳 10 条口径不变；
 # EXPECT_BY_FIGURE 317 -> 318（+1 分片）；EXPECT_FIGURES 1057 unchanged)
-EXPECT_MODES = 3281
-EXPECT_BY_FIGURE = 318
+# Phase21-R9 (2026-09-24, card t_ce457734) anchor bump: 3281 -> 3291 (+10 H-AZJ-001/安子介 M-AZJ-001~010 入库；顶层块新增不涉模式计数；空模式码壳 10 条口径不变；
+# EXPECT_BY_FIGURE 318 -> 319（+1 分片）；EXPECT_FIGURES 1027 unchanged)
+# Phase21-R9 (2026-09-24, card t_a7d233f0) anchor bump: 3291 -> 3301 (+10 H-SHF-001/沈复 M-SHF-001~010 入库；顶层块新增不涉模式计数；空模式码壳 10 条口径不变；
+# EXPECT_BY_FIGURE 319 -> 320（+1 分片）；EXPECT_FIGURES 1027 unchanged）。注：锚点为 R9 两卡并集口径（t_ce457734 安子介 + t_a7d233f0 沈复）
+EXPECT_MODES = 3301
+EXPECT_BY_FIGURE = 320
 
 LIMIT_INDEX_GZIP = 50 * 1024
 LIMIT_MODE_SHARD_GZIP = 200 * 1024
