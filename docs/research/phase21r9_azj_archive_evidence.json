@@ -3,21 +3,137 @@
   "phase": "Phase21-R9",
   "kind": "azj-archive-evidence",
   "date": "2026-09-24",
-  "figure": {"code": "H-AZJ-001", "name": "安子介", "pinyin": "Ann Tse Kai", "modes": 10},
-  "artifacts": {
-    "page": {"path": "docs/figures/H-AZJ-001.md", "bytes": 55305, "lines": 353, "sha256": "944a860c759978495da9ed671da8b481b8143182eda505270748271f051f1c5c"},
-    "builder": {"path": "build_azj_r9_archive.py", "bytes": 28395, "sha256": "e689652c585cf3609d0e81c12560dd63f7cc37d0dce268bbcb8a9c5728e44d84"},
-    "verifier": {"path": "verify_azj_r9_archive.py", "bytes": 17780, "sha256": "77514da84760c329c177dfe406d3b55d12a669ef3256b410d72f61613fac2426"},
-    "report": {"path": "docs/research/phase21r9_azj_archive_report.md"}
+  "figure": {
+    "code": "H-AZJ-001",
+    "name": "安子介",
+    "pinyin": "Ann Tse Kai",
+    "modes": 10
   },
-  "verification": {"checks": 371, "pass": 371, "fail": 0, "rc": 0, "inject_test": {"caught": 18, "total": 18, "rc": 0}},
-  "counts_live": {"modes": 3311, "total": 3311, "code_maps": 216, "scenarios_zh": 2213, "scenarios_en": 2213, "scenario_tags": 7538, "figure_names": 1085},
-  "azj_live": {"modes_index_range": [3291, 3301], "top_block_keys": 23, "scenarios_zh_azj": 0, "scenarios_en_azj": 0, "scenario_tags_azj": 0},
-  "chain_commits": ["e8bfbe05", "5ab2a688", "1d7cbb9f", "602a5d47", "25176b26", "a96302f1", "5a657b81", "5ce7f6ad", "8c486442", "7d4b8f13", "cad1dbba"],
-  "chain_cards": {"t_1aa06d0c": "serrano", "t_58ebf9c2": "elcano", "t_ce457734": "barbosa", "t_02007da8": "espinosa", "t_08b3a1c0": "pigafetta"},
-  "legacy": {"duplicates_dir": "data/figures/_duplicates", "files": 9, "sha_ok": 8, "ledger": "data/figures/_duplicates/H-AZJ-345_ledger.json"},
-  "parity_runs": [{"when": "before", "diffs": 43, "only_workspace": 38}, {"when": "post_page", "diffs": 44, "only_workspace": 39}, {"when": "post_mirror", "diffs": null}],
+  "artifacts": {
+    "page": {
+      "path": "docs/figures/H-AZJ-001.md",
+      "bytes": 55305,
+      "lines": 353,
+      "sha256": "944a860c759978495da9ed671da8b481b8143182eda505270748271f051f1c5c"
+    },
+    "builder": {
+      "path": "build_azj_r9_archive.py",
+      "bytes": 28395,
+      "sha256": "e689652c585cf3609d0e81c12560dd63f7cc37d0dce268bbcb8a9c5728e44d84"
+    },
+    "verifier": {
+      "path": "verify_azj_r9_archive.py",
+      "bytes": 17780,
+      "sha256": "77514da84760c329c177dfe406d3b55d12a669ef3256b410d72f61613fac2426"
+    },
+    "report": {
+      "path": "docs/research/phase21r9_azj_archive_report.md"
+    }
+  },
+  "verification": {
+    "checks": 371,
+    "pass": 371,
+    "fail": 0,
+    "rc": 0,
+    "inject_test": {
+      "caught": 18,
+      "total": 18,
+      "rc": 0
+    }
+  },
+  "counts_live": {
+    "modes": 3311,
+    "total": 3311,
+    "code_maps": 216,
+    "scenarios_zh": 2213,
+    "scenarios_en": 2213,
+    "scenario_tags": 7538,
+    "figure_names": 1085
+  },
+  "azj_live": {
+    "modes_index_range": [
+      3291,
+      3301
+    ],
+    "top_block_keys": 23,
+    "scenarios_zh_azj": 0,
+    "scenarios_en_azj": 0,
+    "scenario_tags_azj": 0
+  },
+  "chain_commits": [
+    "e8bfbe05",
+    "5ab2a688",
+    "1d7cbb9f",
+    "602a5d47",
+    "25176b26",
+    "a96302f1",
+    "5a657b81",
+    "5ce7f6ad",
+    "8c486442",
+    "7d4b8f13",
+    "cad1dbba"
+  ],
+  "chain_cards": {
+    "t_1aa06d0c": "serrano",
+    "t_58ebf9c2": "elcano",
+    "t_ce457734": "barbosa",
+    "t_02007da8": "espinosa",
+    "t_08b3a1c0": "pigafetta"
+  },
+  "legacy": {
+    "duplicates_dir": "data/figures/_duplicates",
+    "files": 9,
+    "sha_ok": 8,
+    "ledger": "data/figures/_duplicates/H-AZJ-345_ledger.json"
+  },
+  "parity_runs": [
+    {
+      "when": "before",
+      "diffs": 43,
+      "only_workspace": 38
+    },
+    {
+      "when": "post_page",
+      "diffs": 44,
+      "only_workspace": 39
+    },
+    {
+      "when": "post_mirror_p1",
+      "diffs": 46,
+      "only_workspace": 38,
+      "content_diff": 8,
+      "azj": 0
+    },
+    {
+      "when": "post_v2",
+      "diffs": "see-kanban-t_08b3a1c0"
+    }
+  ],
   "bans_zero": 19,
-  "receipts": {"ws1": null, "ws2": null, "publish_p1": null, "publish_p2": null, "push": null, "ls_remote": null, "publish_checks": null},
-  "notes": ["零数据改动（仅读数据面）", "场景面零注册登记", "禁字 19 项零残留", "旧件 H-AZJ-345 判死清档不复用"]
+  "receipts": {
+    "ws1": "85bf7547",
+    "ws2": "see-kanban-t_08b3a1c0",
+    "publish_p1": "74ea0602067873944279f328be9d3d1ae1f4519d",
+    "publish_p2": "see-kanban-t_08b3a1c0",
+    "push": "06c0637..74ea060 rc=0",
+    "ls_remote": "74ea0602067873944279f328be9d3d1ae1f4519d",
+    "raw_checks": {
+      "page": "200 SAME 55305B",
+      "report": "200 SAME 9156B",
+      "evidence": "200 SAME 2094B"
+    },
+    "pages_run": "35952071648",
+    "pages_status": "in_progress (at v2; final see-kanban)"
+  },
+  "notes": [
+    "零数据改动（仅读数据面）",
+    "场景面零注册登记",
+    "禁字 19 项零残留",
+    "旧件 H-AZJ-345 判死清档不复用"
+  ],
+  "ci_baseline": "CI/markdown-lint and Protreptic CI/CD failures are pre-existing on all recent pushes (946afe03/2397eeec/0e5702c3/78bac29d/0dda13ab/d0c7306c/19e8f58b/06c06374); Quality Gate success x2 on this SHA",
+  "report_v2": {
+    "path": "docs/research/phase21r9_azj_archive_report.md",
+    "lines": 94
+  }
 }
