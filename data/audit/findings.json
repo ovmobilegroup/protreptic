@@ -1021,15 +1021,6 @@
       "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
     },
     {
-      "mode_code": "M-WC-009",
-      "figure_code": "H-WC-001",
-      "defect": "D4_quote_mismatch",
-      "evidence": "key_quote_zh 的字面片段在所标出处的缓存原文里找不到（出处 key=《论衡》；缓存见 data/audit/source_texts.json；最长未命中片段='夫雷之发动，一气一声也——人受气于天，不能感天，雷何为感于人而发？'）",
-      "anchor": "夫雷之发动，一气一声也——人受气于天，不能感天，雷何为感于人而发？",
-      "source_key": "《论衡》",
-      "suggested_action": "复核：确认引文是改写/意译还是伪造；不改写则补正出处"
-    },
-    {
       "mode_code": "M-WDZ-005",
       "figure_code": "H-WDZ-001",
       "defect": "D4_quote_mismatch",
@@ -1431,16 +1422,16 @@
     "D2_fabricated_source": 10,
     "D3_source_contamination": 6,
     "D4_empty_quote": 27,
-    "D4_quote_mismatch": 27,
+    "D4_quote_mismatch": 26,
     "D5_timeline_conflict": 1,
     "D6_orphan_reference": 37,
     "D7_duplicate_definition": 0,
-    "total": 168
+    "total": 167
   },
   "audit_meta": {
     "scan_date": "2026-09-24",
     "modes_file": "data/modes_data.json",
-    "modes_file_sha256": "75932c9f2d48d136e5962c539391a6106306b58d291fb8f20cf25f998ff02791",
+    "modes_file_sha256": "fef85f934e4d1eaa44eb064ab9e6947aeb1c923915830463924a4f1fbee327b8",
     "total_modes_count": 3331,
     "top_level_modes_entries": 3311,
     "distinct_mode_codes": 3301,
@@ -1477,9 +1468,9 @@
         "public_figure": 10
       },
       "D4_quote_mismatch": {
-        "total": 27,
+        "total": 26,
         "quarantined_figure": 0,
-        "public_figure": 27
+        "public_figure": 26
       },
       "D5_timeline_conflict": {
         "total": 1,
@@ -1502,8 +1493,8 @@
         "usable_keys": 55,
         "statuses": {
           "unchecked": 3176,
-          "mismatch": 27,
-          "quote-too-short": 117,
+          "mismatch": 26,
+          "quote-too-short": 118,
           "matched": 11
         },
         "unchecked_reasons": {
@@ -1513,9 +1504,9 @@
           "no-quote": 85,
           "script-mismatch(原文繁体 vs 引文简体": 77,
           "substring-not-found": 25,
-          "all-fragments-shorter-than-min(8)": 117,
+          "all-fragments-shorter-than-min(8)": 118,
           "substring-found": 2,
-          "substring-not-found(zh-cn converted copy)": 2,
+          "substring-not-found(zh-cn converted copy)": 1,
           "substring-found(zh-cn converted copy)": 9
         },
         "mismatches": [
@@ -1634,12 +1625,6 @@
             "detail": "仁义之教本于自然"
           },
           {
-            "mode_code": "M-WC-009",
-            "key": "《论衡》",
-            "anchor": "夫雷之发动，一气一声也——人受气于天，不能感天，雷何为感于人而发？",
-            "detail": "雷何为感于人而发"
-          },
-          {
             "mode_code": "M-WDZ-005",
             "key": "《图画见闻志》",
             "anchor": "傅彩于焦墨痕中，略施微染，自然超出缣素——线扛住一切，颜色才有资格克制。",
@@ -1714,7 +1699,7 @@
         "note": "只把「本人叙述字段(definition_zh/process_zh/representative_cases_zh) + 年份与人物名同现+ 生在生涯带内 + 无文献/余波/背景标记」的年份判为矛盾；其余逐类计数为不可判定"
       },
       "findings_emitted": {
-        "D4_quote_mismatch": 27,
+        "D4_quote_mismatch": 26,
         "D5_timeline_conflict": 1
       }
     },

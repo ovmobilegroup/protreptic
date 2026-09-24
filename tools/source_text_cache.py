@@ -122,10 +122,17 @@ class SourceTextCache:
 
         Phase21-W5 扩能：索引条目 zh_cn 元数据须 complete=True 且 failed_chunks=0
         才可用（不完整的转换副本绝不当作全文参与比对，宁可退回 script-mismatch 守卫）
+
+        R7① 加固（t_0dc95522）：此前只查 complete 旗标，complete 被硬写时带回退块的
+        副本仍会被采用；现在 failed_chunks>0 一律拒用（与文档口径一致）。
         """
         entry = self.entries.get(key) or {}
         meta = entry.get("zh_cn") or {}
-        if not (meta.get("complete") and meta.get("file")):
+        try:
+            failed = int(meta.get("failed_chunks") or 0)
+        except (TypeError, ValueError):
+            failed = -1  # 不可解析 -> 视为不完整，拒用
+        if not (meta.get("complete") and failed == 0 and meta.get("file")):
             return None
         path = Path(meta["file"])
         if not path.is_absolute():

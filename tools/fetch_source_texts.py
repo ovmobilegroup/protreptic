@@ -146,6 +146,96 @@ def curl(url, timeout):
         return 0, body
 
 
+def zh_cn_meta_violations(meta):
+    """R7① 缓存元数据写口不变量（Phase21-W5 修复卡 t_0dc95522）：
+
+    规则：failed_chunks>0 时**不得**置 complete=true —— 硬写 complete
+    会让 D4 把带繁体回退块的不完整副本当全文采用（王充 W5 QA §1.2/§A.6 的事故形态）。
+    返回违规描述列表（空 = 通过）。
+    """
+    out = []
+    if not isinstance(meta, dict):
+        return ["meta 不是 dict: %r" % (meta,)]
+    try:
+        failed = int(meta.get("failed_chunks"))
+    except (TypeError, ValueError):
+        out.append("failed_chunks 非整数: %r" % (meta.get("failed_chunks"),))
+        failed = None
+    if failed is not None and failed < 0:
+        out.append("failed_chunks<0: %d" % failed)
+    if meta.get("complete") and failed:
+        out.append("complete=true 但 failed_chunks=%d>0（禁止硬写）" % failed)
+    if failed is not None and meta.get("chunks") is not None:
+        try:
+            if failed > int(meta.get("chunks")):
+                out.append("failed_chunks(%d) > chunks(%s)" % (failed, meta.get("chunks")))
+        except (TypeError, ValueError):
+            out.append("chunks 非整数: %r" % (meta.get("chunks"),))
+    return out
+
+
+def assert_zh_cn_meta(meta, where=""):
+    """R7① 写口断言：违反缓存元数据不变量直接 AssertionError（宁可炸，不可硬写）。"""
+    bad = zh_cn_meta_violations(meta)
+    if bad:
+        raise AssertionError("zh_cn 元数据违反不变量%s: %s"
+                             % ((" @ " + where) if where else "", "; ".join(bad)))
+    return meta
+
+
+def self_check_zh_cn_meta(index_path=None):
+    """R7① 可复核验证输出：写口断言三态用例 + 盘上索引实测（0 违规才返回 0）。"""
+    cases = (
+        ("W1 failed_chunks=0 complete=True   -> 通过", {"failed_chunks": 0, "chunks": 34, "complete": True}, True),
+        ("W2 failed_chunks=3 complete=True   -> 必炸（负向注入 = QA §1.2 事故形态）", {"failed_chunks": 3, "chunks": 34, "complete": True}, False),
+        ("W3 failed_chunks=3 complete=False  -> 通过（如实旗标）", {"failed_chunks": 3, "chunks": 34, "complete": False}, True),
+        ("W4 failed_chunks=-1 complete=False -> 必炸（负向注入）", {"failed_chunks": -1, "chunks": 34, "complete": False}, False),
+    )
+    ok = True
+    for label, meta, should_pass in cases:
+        try:
+            assert_zh_cn_meta(dict(meta), "self-check")
+            got, err = True, ""
+        except AssertionError as exc:
+            got, err = False, str(exc)
+        passed = (got == should_pass)
+        ok = ok and passed
+        print("[%s] %s%s" % ("PASS" if passed else "FAIL", label,
+                             ("  <- " + err) if err else ""))
+    path = Path(index_path) if index_path else DEFAULT_INDEX
+    if not path.is_file():
+        print("[FAIL] 索引缺失: %s" % path)
+        return 1
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    n = bad = 0
+    for e in doc.get("entries", []):
+        meta = e.get("zh_cn")
+        if not meta:
+            continue
+        n += 1
+        for v in zh_cn_meta_violations(meta):
+            bad += 1
+            print("  [违规] %s: %s" % (e.get("key"), v))
+        rel = meta.get("file")
+        p2 = Path(rel) if rel else None
+        if not rel or not (p2 if p2.is_absolute() else REPO_ROOT / rel).is_file():
+            bad += 1
+            print("  [违规] %s: 副本文件缺失 %r" % (e.get("key"), rel))
+            continue
+        raw = (p2 if p2.is_absolute() else REPO_ROOT / rel).read_bytes()
+        sha = hashlib.sha256(raw).hexdigest()
+        chars = len(raw.decode("utf-8"))
+        if sha != meta.get("sha256") or chars != meta.get("chars"):
+            bad += 1
+            print("  [违规] %s: 盘上 sha/chars 与元数据不符 (sha %s vs %s, chars %s vs %s)"
+                  % (e.get("key"), sha[:12], str(meta.get("sha256"))[:12], chars, meta.get("chars")))
+    passed = (bad == 0)
+    ok = ok and passed
+    print("[%s] W5 盘上索引实测：zh_cn 条目 %d 条，违规 %d 条（不变量 + 副本文件 sha/chars 逐条复算）"
+          % ("PASS" if passed else "FAIL", n, bad))
+    return 0 if ok else 1
+
+
 def convert_to_zh_cn(text, timeout, variant=None):
     """繁 -> 简转换，走 zh.wikipedia action=parse&contentmodel=wikitext&variant=zh-cn 接口。
 
@@ -200,6 +290,7 @@ def convert_to_zh_cn(text, timeout, variant=None):
             "retries": CONVERT_RETRIES, "failed_chunks": failed,
             "complete": failed == 0,
             "converted_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+    assert_zh_cn_meta(meta, "convert_to_zh_cn")
     return "".join(parts), meta
 
 
@@ -330,7 +421,12 @@ def main():
                     help="目录页最多跟抓多少个子页；抓不满 -> coverage=partial（D4 视为不可核）")
     ap.add_argument("--force", action="store_true", help="已有 ok 缓存也重抓")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--self-check-zh-cn-meta", action="store_true",
+                    help="R7①：校验缓存 zh_cn 元数据写口不变量（三态用例 + 盘上索引实测），exit 0 = 全过")
     args = ap.parse_args()
+
+    if args.self_check_zh_cn_meta:
+        return self_check_zh_cn_meta(args.index_path)
 
     MIN_CHARS = args.min_chars
 
@@ -413,6 +509,7 @@ def main():
                               "sha256": hashlib.sha256(conv_text.encode("utf-8")).hexdigest(),
                               "file": zrel})
             zh_cn_meta = conv_meta
+            assert_zh_cn_meta(zh_cn_meta, "entry[%s]" % key)
             print("  [zh-cn] %s chunks=%s failed=%s complete=%s" %
                   (key[:40], conv_meta["chunks"], conv_meta["failed_chunks"],
                    conv_meta["complete"]))

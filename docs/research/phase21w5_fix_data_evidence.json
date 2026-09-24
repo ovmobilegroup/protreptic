@@ -1,0 +1,645 @@
+{
+  "schema": "protreptic.phase21w5.fix_data_evidence/v1",
+  "task": {
+    "id": "t_0dc95522",
+    "title": "Phase21 W5 修复·数据侧",
+    "assignee": "barbosa",
+    "parent": "t_616e4991",
+    "child": "t_30d57ff2",
+    "date_utc": "2026-09-24",
+    "report": "docs/research/phase21w5_fix_data_report.md"
+  },
+  "boundary": {
+    "touched": [
+      "data/**",
+      "tools/fetch_source_texts.py (E)",
+      "tools/source_text_cache.py (E)",
+      "docs/research/phase21w5_fix_data_report.md",
+      "docs/research/phase21w5_fix_data_evidence.json"
+    ],
+    "not_touched": [
+      "W4/W7 在途件",
+      "历史报告",
+      "docs/scratch/**"
+    ]
+  },
+  "precheck": {
+    "inflight_scan_db": "/opt/data/kanban/boards/protreptic/kanban.db",
+    "parallel_writers_of_modes_data": 0,
+    "parent_done": true
+  },
+  "A_changes": {
+    "faces": {
+      "md": "data/modes_data.json",
+      "fg": "data/figures/H-WC-001_modes.json",
+      "ind": "data/individuals/H-WC-001_modes.json"
+    },
+    "n_field_changes": 20,
+    "by_face": {
+      "md": 11,
+      "ind": 7,
+      "fg": 2
+    },
+    "items": [
+      {
+        "file": "md",
+        "id": "M-WC-002",
+        "field": "key_quote_zh",
+        "before": "苟有不晓解之问，迢难孔子，何伤于义？诚有传圣业之知，伐孔子之说，何逆于理？",
+        "after": "苟有不晓解之问，追难孔子，何伤于义？诚有传圣业之知，伐孔子之说，何逆于理？"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-002",
+        "field": "correction_zh",
+        "before": null,
+        "after": "改字并注记底本样式：底本作「（迢）〔追〕難孔子」（圆括号=底本误字，方括号=校改字），引文取校改字「追」作「追难孔子」；见证 docs/scratch/phase21w5_wangchong/witness/raw/lunheng-28.txt（A1 §二·M-WC-002 首选项：改字＋保留注记）。"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-003",
+        "field": "key_quote_zh",
+        "before": "天地合气，万物自生。天动不欲以生物，而物自生，此则自然也。",
+        "after": "天地合气，万物自生。……天动不欲以生物，而物自生，此则自然也。"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-004",
+        "field": "source_chapter",
+        "before": "《论衡·证验》《论衡·知实》《论衡·案书》",
+        "after": "《论衡·薄葬》"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-005",
+        "field": "key_quote_context_zh",
+        "before": null,
+        "after": "A1 核验（查无档）：全引文及六个分句均无逐字见证，疑为现代概括/改写；如须逐字引文，候选原文见 docs/research/phase21w5_wangchong_sourcing_report.md §二·M-WC-005（本轮未替换，仅注记）。"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-006",
+        "field": "key_quote_zh",
+        "before": "万物之生，皆禀元气。人未生在元气之中，既死复归元气。",
+        "after": "万物之生，皆禀元气。……人未生在元气之中，既死复归元气。"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-006",
+        "field": "source_chapter",
+        "before": "《论衡·谈天》《论衡·订鬼》《论衡·论死》",
+        "after": "《论衡·言毒》《论衡·论死》"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-007",
+        "field": "key_quote_context_zh",
+        "before": null,
+        "after": "A1 核验（查无档）：全引文无整体见证（仅「隆隆之声」「虚妄之言也」两个公式化片段分见于 /23 与 /10），疑为现代概括/改写；候选原文见 docs/research/phase21w5_wangchong_sourcing_report.md §二·M-WC-007（本轮未替换，仅注记）。"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-008",
+        "field": "key_quote_zh",
+        "before": "世儒学者，好信师而是古，以为贤圣所言皆无非——虽明知其非而莫敢难者，问难之道废也。",
+        "after": "世儒学者，好信师而是古，以为贤圣所言皆无非，专精讲习，不知难问。"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-009",
+        "field": "key_quote_zh",
+        "before": "夫雷之发动，一气一声也——人受气于天，不能感天，雷何为感于人而发？",
+        "after": "夫雷之发动，一气一声也——然则雷为天怒，虚妄之言。"
+      },
+      {
+        "file": "md",
+        "id": "M-WC-010",
+        "field": "key_quote_context_zh",
+        "before": null,
+        "after": "A1 核验（查无档）：四分句均无逐字见证（「距师」一词语出 /28「難於距師」，全句疑为现代铺演）；候选原文见 docs/research/phase21w5_wangchong_sourcing_report.md §二·M-WC-010（本轮未替换，仅注记）。"
+      },
+      {
+        "file": "fg",
+        "id": "M-WC-004",
+        "field": "source_chapter",
+        "before": "《论衡·证明》《论衡·知实》《论衡·案书》",
+        "after": "《论衡·薄葬》"
+      },
+      {
+        "file": "fg",
+        "id": "M-WC-006",
+        "field": "source_chapter",
+        "before": "《论衡·谈天》《论衡·感虚》《论衡·龙虚》",
+        "after": "《论衡·言毒》《论衡·论死》"
+      },
+      {
+        "file": "ind",
+        "id": "M-WC-002",
+        "field": "key_quote_zh",
+        "before": "苟有不晓解之问，迢难孔子，何伤于义？诚有传圣业之知，伐孔子之说，何逆于理？",
+        "after": "苟有不晓解之问，追难孔子，何伤于义？诚有传圣业之知，伐孔子之说，何逆于理？"
+      },
+      {
+        "file": "ind",
+        "id": "M-WC-003",
+        "field": "key_quote_zh",
+        "before": "天地合气，万物自生。天动不欲以生物，而物自生，此则自然也。",
+        "after": "天地合气，万物自生。……天动不欲以生物，而物自生，此则自然也。"
+      },
+      {
+        "file": "ind",
+        "id": "M-WC-004",
+        "field": "source_chapter",
+        "before": "《论衡·证验》《论衡·知实》《论衡·案书》",
+        "after": "《论衡·薄葬》"
+      },
+      {
+        "file": "ind",
+        "id": "M-WC-006",
+        "field": "key_quote_zh",
+        "before": "万物之生，皆禀元气。人未生在元气之中，既死复归元气。",
+        "after": "万物之生，皆禀元气。……人未生在元气之中，既死复归元气。"
+      },
+      {
+        "file": "ind",
+        "id": "M-WC-006",
+        "field": "source_chapter",
+        "before": "《论衡·谈天》《论衡·订鬼》《论衡·论死》",
+        "after": "《论衡·言毒》《论衡·论死》"
+      },
+      {
+        "file": "ind",
+        "id": "M-WC-008",
+        "field": "key_quote_zh",
+        "before": "世儒学者，好信师而是古，以为贤圣所言皆无非——虽明知其非而莫敢难者，问难之道废也。",
+        "after": "世儒学者，好信师而是古，以为贤圣所言皆无非，专精讲习，不知难问。"
+      },
+      {
+        "file": "ind",
+        "id": "M-WC-009",
+        "field": "key_quote_zh",
+        "before": "夫雷之发动，一气一声也——人受气于天，不能感天，雷何为感于人而发？",
+        "after": "夫雷之发动，一气一声也——然则雷为天怒，虚妄之言。"
+      }
+    ],
+    "notes_added": {
+      "M-WC-002": "correction_zh（改字+底本样式注记）",
+      "M-WC-005": "key_quote_context_zh（查无+候选）",
+      "M-WC-007": "key_quote_context_zh（查无+候选）",
+      "M-WC-010": "key_quote_context_zh（查无+候选）"
+    },
+    "unchanged_by_card": {
+      "M-WC-001": "不改字（A1 逐字命中）"
+    },
+    "witness_locations": {
+      "002_witness_markup": {
+        "needle": "（迢）〔追〕難孔子",
+        "loc": {
+          "line": 911,
+          "col": 74,
+          "off": 80215
+        }
+      },
+      "002_copy_markup": {
+        "needle": "（迢）〔追〕难孔子",
+        "loc": {
+          "line": 1001,
+          "col": 74,
+          "off": 79962
+        }
+      },
+      "003_head_witness": {
+        "needle": "天地合氣，萬物自生",
+        "loc": {
+          "line": 2004,
+          "col": 1,
+          "off": 163043
+        }
+      },
+      "003_head_copy": {
+        "needle": "天地合气，万物自生",
+        "loc": {
+          "line": 2174,
+          "col": 1,
+          "off": 162848
+        }
+      },
+      "003_tail_witness": {
+        "needle": "天動不欲以生物",
+        "loc": {
+          "line": 2010,
+          "col": 107,
+          "off": 163532
+        }
+      },
+      "003_tail_copy": {
+        "needle": "天动不欲以生物",
+        "loc": {
+          "line": 2180,
+          "col": 107,
+          "off": 163337
+        }
+      },
+      "004_witness": {
+        "needle": "莫明於",
+        "loc": {
+          "line": 2573,
+          "col": 335,
+          "off": 207582
+        }
+      },
+      "004_copy": {
+        "needle": "事莫明于有效",
+        "loc": {
+          "line": 2783,
+          "col": 334,
+          "off": 207426
+        }
+      },
+      "006_head_witness": {
+        "needle": "萬物之生，皆稟元氣",
+        "loc": {
+          "line": 2546,
+          "col": 88,
+          "off": 205510
+        }
+      },
+      "006_head_copy": {
+        "needle": "万物之生，皆禀元气",
+        "loc": {
+          "line": 2756,
+          "col": 88,
+          "off": 205355
+        }
+      },
+      "006_tail_witness": {
+        "needle": "人未生，在元氣之中",
+        "loc": {
+          "line": 2355,
+          "col": 33,
+          "off": 187616
+        }
+      },
+      "006_tail_copy": {
+        "needle": "人未生，在元气之中",
+        "loc": {
+          "line": 2549,
+          "col": 33,
+          "off": 187445
+        }
+      },
+      "008_witness": {
+        "needle": "好信師而是古",
+        "loc": {
+          "line": 905,
+          "col": 6,
+          "off": 79696
+        }
+      },
+      "008_copy": {
+        "needle": "专精讲习，不知难问",
+        "loc": {
+          "line": 987,
+          "col": 23,
+          "off": 79458
+        }
+      },
+      "009_witness": {
+        "needle": "然則雷為天怒",
+        "loc": {
+          "line": 652,
+          "col": 414,
+          "off": 62083
+        }
+      },
+      "009_copy": {
+        "needle": "然则雷为天怒",
+        "loc": {
+          "line": 718,
+          "col": 414,
+          "off": 61836
+        }
+      }
+    },
+    "witness_files": {
+      "full_raw": "data/audit/source_texts/6f2e2e4e124df80a.txt",
+      "copy": "data/audit/source_texts/6f2e2e4e124df80a.zh-cn.txt",
+      "extracts": "docs/scratch/phase21w5_wangchong/witness/raw/lunheng-{23,28,54,62,66,67}.txt"
+    }
+  },
+  "B_zh_cn": {
+    "retried_chunks": {
+      "10": {
+        "ok": true,
+        "err": null,
+        "len": 8008,
+        "raw_offset": 80000
+      },
+      "21": {
+        "ok": true,
+        "err": null,
+        "len": 8008,
+        "raw_offset": 168000
+      },
+      "32": {
+        "ok": true,
+        "err": null,
+        "len": 8008,
+        "raw_offset": 256000
+      }
+    },
+    "replaced_regions_old_copy": [
+      [
+        79745,
+        87745
+      ],
+      [
+        167803,
+        175803
+      ],
+      [
+        255883,
+        263883
+      ]
+    ],
+    "rebuild_equals_new_file": true,
+    "fallback_blocks_remaining": 0,
+    "chars_old_new": [
+      265712,
+      265736
+    ],
+    "tra": {
+      "証": [
+        3,
+        0
+      ],
+      "证": [
+        20,
+        24
+      ]
+    },
+    "meta_after": {
+      "chunks": 34,
+      "failed_chunks": 0,
+      "complete": true,
+      "converted_at": "2026-09-24T04:17:22+00:00",
+      "chars": 265736,
+      "sha256": "d26e86f48e1f3a5aaa5385594d86f53c2af0cf7f7c7f976a92fc9bb8f074f3fc",
+      "file": "data/audit/source_texts/6f2e2e4e124df80a.zh-cn.txt"
+    },
+    "d4_conclusion_chain": {
+      "M-WC-006": "matched (copy, 人未生在元气之中)",
+      "M-WC-008": "matched (copy, 以为贤圣所言皆无非)",
+      "M-WC-009": "mismatch -> quote-too-short (降级不可核)"
+    },
+    "copy_based_counts": {
+      "found": [
+        9,
+        9
+      ],
+      "not_found": [
+        2,
+        1
+      ]
+    }
+  },
+  "C_reruns": {
+    "credibility_gate_hard_fail": {
+      "exit": 0,
+      "new_hard_failures": 0,
+      "warnings_before_after": [
+        28,
+        27
+      ],
+      "d4": {
+        "matched": [
+          11,
+          11
+        ],
+        "mismatch": [
+          27,
+          26
+        ],
+        "quote_too_short": [
+          117,
+          118
+        ],
+        "unchecked": [
+          3176,
+          3176
+        ]
+      },
+      "d4_reason_deltas": {
+        "all-fragments-shorter-than-min(8)": [
+          117,
+          118
+        ],
+        "substring-not-found(zh-cn converted copy)": [
+          2,
+          1
+        ]
+      },
+      "stale_warnings": [
+        "M-NKR-010|D6|related_modes=M-NKR-008",
+        "M-NKR-010|D6|related_modes=M-NKR-009",
+        "M-SALADIN-006|D6|related_modes=M-DZS-001"
+      ]
+    },
+    "verify_findings_hard_fail": {
+      "exit": 0,
+      "hard_failures": 0,
+      "new": 0,
+      "baseline_total": 0,
+      "warn": "E: M-ASM-001..010 双收（存量）"
+    },
+    "apply_verification_status_check": {
+      "exit": 0,
+      "drift": "无（已一致）",
+      "write_applied_change": {
+        "suspect -> verified": 1
+      }
+    },
+    "test_credibility_d45": {
+      "exit": 1,
+      "passed": 37,
+      "total": 38,
+      "fail": "Z7 backfill_lifespans 清单过期（存量）"
+    },
+    "four_states": {
+      "all": {
+        "before": {
+          "verified": 1018,
+          "pending": 1887,
+          "suspect": 55,
+          "unverifiable": 351
+        },
+        "after": {
+          "verified": 1019,
+          "pending": 1887,
+          "suspect": 54,
+          "unverifiable": 351
+        },
+        "sum": 3311
+      },
+      "published": {
+        "before": {
+          "verified": 1018,
+          "pending": 1855,
+          "suspect": 38,
+          "unverifiable": 340
+        },
+        "after": {
+          "verified": 1019,
+          "pending": 1855,
+          "suspect": 37,
+          "unverifiable": 340
+        },
+        "sum": 3251,
+        "quarantined": 60
+      },
+      "s1_s2_overlap": [
+        28,
+        27
+      ]
+    },
+    "findings": {
+      "entries": [
+        168,
+        167
+      ],
+      "d4_quote_mismatch": [
+        27,
+        26
+      ],
+      "added": 0,
+      "removed": [
+        "M-WC-009 D4_quote_mismatch（旧锚=旧引文）"
+      ]
+    }
+  },
+  "D_status_json": {
+    "path": "data/audit/phase21w5_wangchong_status.json",
+    "inputs_live_match": {
+      "data/modes_data.json": true,
+      "data/source_links.json": true,
+      "data/audit/findings.json": true
+    },
+    "counts": {
+      "all": {
+        "verified": 1019,
+        "pending": 1887,
+        "suspect": 54,
+        "unverifiable": 351
+      },
+      "published": {
+        "verified": 1019,
+        "pending": 1855,
+        "suspect": 37,
+        "unverifiable": 340
+      }
+    },
+    "changes_vs_library": {
+      "suspect -> verified": 1
+    }
+  },
+  "E_tooling": {
+    "write_side": {
+      "file": "tools/fetch_source_texts.py",
+      "added": [
+        "zh_cn_meta_violations()",
+        "assert_zh_cn_meta()",
+        "--self-check-zh-cn-meta"
+      ],
+      "call_sites": [
+        "convert_to_zh_cn() 返回前",
+        "main() entry 组装处"
+      ]
+    },
+    "read_side": {
+      "file": "tools/source_text_cache.py",
+      "change": "converted_text_for() 补 failed_chunks==0 判定（原仅 complete 旗标）"
+    },
+    "self_check": {
+      "cmd": "python3 tools/fetch_source_texts.py --self-check-zh-cn-meta",
+      "passed": 5,
+      "total": 5,
+      "exit": 0,
+      "negative_injections": [
+        "W2 failed=3/complete=true 必炸",
+        "W4 failed=-1 必炸"
+      ],
+      "disk_scan": {
+        "entries_with_zh_cn": 5,
+        "violations": 0
+      }
+    },
+    "read_guard_probe": {
+      "cases": [
+        "complete=true&failed=3 -> None",
+        "complete=false -> None",
+        "failed_chunks 不可解析 -> None",
+        "正常 -> TEXT(210848)"
+      ],
+      "all_refused_correctly": true
+    }
+  },
+  "idempotency": {
+    "land_ten": "SET=0/SKIP=20",
+    "restore_marks": "RESTORED=0",
+    "apply_zhcn": "ALREADY（converted_at 不漂移）",
+    "avs_check_second_run": "exit 0"
+  },
+  "backup": {
+    "dir": "data/backup_merge_W5FIX_20260924_121533",
+    "sha_manifest": "backup_sha256.txt",
+    "committed": false
+  },
+  "artifacts_final_sha256": {
+    "data/modes_data.json": {
+      "sha256": "736aab3b4164973d09ac43c8af6953fd7edd6332491cac4db72a28dbe1399a70",
+      "bytes": 24894309
+    },
+    "data/figures/H-WC-001_modes.json": {
+      "sha256": "59e02cb65bd5c3300f1ca386fa7bd42fbbcd916c695344e82843521806b0c046",
+      "bytes": 15372
+    },
+    "data/individuals/H-WC-001_modes.json": {
+      "sha256": "523f92464c6798864d6471f31552c75c52d88a678e34fd97cca4284de9a814b5",
+      "bytes": 34239
+    },
+    "data/audit/source_texts.json": {
+      "sha256": "87f4f9cc7c70528d96766b336bccaa7b8439fb1ebb548bc19eabdcc8af35d57b",
+      "bytes": 147961
+    },
+    "data/audit/source_texts/6f2e2e4e124df80a.zh-cn.txt": {
+      "sha256": "d26e86f48e1f3a5aaa5385594d86f53c2af0cf7f7c7f976a92fc9bb8f074f3fc",
+      "bytes": 789872
+    },
+    "data/audit/findings.json": {
+      "sha256": "552760746a125c1a2bfbec533c0dc94ff64c348d9469820f3fda1fd80d0571c3",
+      "bytes": 93785
+    },
+    "data/audit/phase21w5_wangchong_status.json": {
+      "sha256": "7da1810d16b8092752a6405f82b10df6a4139212636ef9b708ce80aeaa218c4e",
+      "bytes": 1847
+    },
+    "tools/fetch_source_texts.py": {
+      "sha256": "6b534db72ee00148582eb71fe264a05f1428acf1218f48b695524e9b48596336",
+      "bytes": 24766
+    },
+    "tools/source_text_cache.py": {
+      "sha256": "5e1f43939c6dd52a45688812aaa62618e65a631033a45464a1597a0f86dd9c81",
+      "bytes": 16176
+    },
+    "docs/research/phase21w5_fix_data_report.md": {
+      "sha256": "0dd4403340a028e491c5b66298047cf48f3e28d58ba6dac9bfe6971e0abffe4a",
+      "bytes": 13720
+    }
+  },
+  "F_publish": {
+    "ws_commit": null,
+    "pb_commit": null,
+    "ls_remote": null,
+    "parity": null
+  }
+}
