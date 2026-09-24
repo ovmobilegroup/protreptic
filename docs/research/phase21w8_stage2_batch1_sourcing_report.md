@@ -1,7 +1,7 @@
 # Phase21-W8 Stage2 批1 工具/管道：书级归并重扫口径修复 + 批1 fetch 素材包。
 
 卡号 `t_70a8cbce`（Phase21-W8 Stage2 批1）；上游书单 `t_6ed4fe0d`（commit 20b13092）。
-生成：2026-09-24 11:17（本地时区）。 产线：W5 pilot 修复链口径。
+生成：2026-09-24 13:36（本地时区）。 产线：W5 pilot 修复链口径。
 
 ## 一、概述。
 
@@ -16,17 +16,17 @@
 | 对账 dedup 口径 | 59 | 条目内去重口径（书单备注的 59）|
 | live 复扫 | 70 | 工作区 modes 3311；相对 hot68 增量 安子介先生生平, 浮生六记 |
 | 批1 条目 | 18 | 17 书 + 现代诗（否定记录）|
-| 逐条引文 | 154 | mode 级；跨度实例 159；null 中近似档 26 |
+| 逐条引文 | 154 | mode 级；跨度实例 159；null 中近似档 28 |
 | quote（命中） | 3 | 原文逐字（空白/标点归一）|
-| variant（异文） | 22 | 繁简差：引文侧 zh-hant 或 zh-cn 副本命中 |
-| null（查无） | 55 | 两副本未见（含否定记录 8 条）|
+| variant（异文） | 20 | 繁简差：引文侧 zh-hant 或 zh-cn 副本命中 |
+| null（查无） | 57 | 两副本未见（含否定记录 8 条）|
 | cross-lang | 74 | 跨语言书，留语义对照档 |
 | 负对照 | 16 | 单字符扰动，假阳性 0 |
 
 ## 二、输入与基线。
 
 - 书单：`docs/research/phase21w8_stage2_batch1_booklist.json`（sha256-16 `ca46eb42471c35fc`；hot68 全量 rows、batch1 18 项、method 段口径）。
-- 素材包源：`data/modes_data.json` 快照 `6f3f4580397614f5`（modes 3311；工作区含在途 R9 落盘）。
+- 素材包源：`data/modes_data.json` 快照 `736aab3b4164973d`（modes 3311；工作区含在途 R9 落盘）。
 - 缓存索引：`data/audit/source_texts_w8_stage2_batch1.json`（本卡独立索引；不改动 `data/audit/source_texts.json` 与 `data/source_links.json`）。
 - 逐页清单：`tools/manifests/w8_stage2_batch1_texts.json`（17 抓取项；现代诗 fetch=none 不抓）。
 - 上游参考：`docs/research/phase21w5_wangchong_sourcing_report.md`、`docs/research/phase21w5_wangchong_archive_report.md` §2.1（根因条）。
@@ -54,8 +54,8 @@
 | 春秋繁露 | 1 | 春秋繁露 | action=raw 逐页 | raw | ok | complete | 17/17 | 73419 | yes | 10 | q2/v2/n6/x0 |
 | 理想国 | 2 | The Republic of Plato | action=render (raw 为 stub) | render | ok | complete | 11/11 | 869588 | - | 10 | q0/v0/n0/x10 |
 | 陆九渊集 | 3 | 象山先生全集 (四部叢刊本) | action=render 逐页 | render | ok | complete | 39/39 | 278151 | - | 10 | q1/v1/n8/x0 |
-| 庄子注 | 4 | 荘子注 (四庫全書本) | action=raw 逐页 | render | ok | complete | 11/11 | 302754 | - | 10 | q0/v4/n6/x0 |
-| 老子注 | 5 | 道德經 (王弼本) | action=raw | render | ok | single-page | 0/0 | 32760 | yes | 10 | q0/v3/n7/x0 |
+| 庄子注 | 4 | 荘子注 (四庫全書本) | action=raw 逐页 | render | ok | complete | 11/11 | 302754 | - | 10 | q0/v3/n7/x0 |
+| 老子注 | 5 | 道德經 (王弼本) | action=raw | render | ok | single-page | 0/0 | 32760 | yes | 10 | q0/v2/n8/x0 |
 | 俄狄浦斯王 | 6 | Οιδίπους Τύραννος | action=raw | raw | ok | single-page | 0/0 | 56126 | - | 8 | q0/v0/n0/x8 |
 | 伊利亚特 | 7 | Ιλιάς | action=render 逐卷 | render | ok | complete | 24/24 | 725855 | - | 9 | q0/v0/n0/x9 |
 | 奥德赛 | 8 | Οδύσσεια | action=render 逐卷 | render | ok | complete | 24/24 | 574959 | - | 8 | q0/v0/n0/x8 |
@@ -63,18 +63,18 @@
 | 二程遗书 | 10 | 二程遺書 | action=raw 逐页 | raw | ok-shared | complete | 25/25 | 192261 | - | 8 | q0/v5/n3/x0 |
 | 战争史 | 11 | History of the Peloponnesian War | action=raw 逐卷 | raw | ok | complete | 8/8 | 1177087 | - | 9 | q0/v0/n0/x9 |
 | 形而上学 | 12 | Metaphysics (Ross, 1908) | action=render (raw 为 stub) | render | ok | complete | 14/14 | 340880 | - | 7 | q0/v0/n0/x7 |
-| 文史通义 | 13 | 文史通義 | action=raw 逐页 | raw | ok | complete | 9/9 | 203256 | yes | 8 | q0/v4/n4/x0 |
+| 文史通义 | 13 | 文史通義 | action=raw 逐页 | raw | ok | complete | 9/9 | 203256 | yes | 8 | q0/v5/n3/x0 |
 | 奥林匹克回忆录 | 14 | Mémoires olympiques | action=render 逐章 | render | ok | complete | 25/25 | 708864 | - | 8 | q0/v0/n0/x8 |
 | 诗学 | 15 | The Poetics translated by S. H. Butcher | action=render (raw 为 stub) | render | ok | complete | 9/9 | 122003 | - | 8 | q0/v0/n0/x8 |
 | 现代诗 | 16 | None | None | - | none-negative | - | - | None | - | 8 | q0/v0/n8/x0 |
-| 太极图说 | 17 | 太極圖說 | action=raw | raw | index-page | - | 0/0 | 332 | yes | 7 | q0/v3/n4/x0 |
+| 太极图说 | 17 | 太極圖說 | action=raw | raw | index-page | - | 0/0 | 332 | yes | 7 | q0/v2/n5/x0 |
 | 安提戈涅 | 18 | Αντιγόνη | action=raw | raw | ok | single-page | 0/0 | 46375 | - | 7 | q0/v0/n0/x7 |
 
 索引 counts：{"ok": 15, "ok-shared": 1, "index-page": 1}；负对照 16 条、假阳性 0；weak 0；引文整批转 zh-hant：n=72 complete=True。
 
 **4.3 逐条引文结论**（全量在报告 JSON 的 `quotes` 段）。
 
-null（55 条；近似档 26 条 = 部分短句逐字命中、余为改写/拼合）：
+null（57 条；近似档 28 条 = 部分短句逐字命中、余为改写/拼合）：
 
 - `M-DZS-001` 董仲舒《春秋繁露》：天之道，人之道一也。；句命中 0/1；3 字窗 0.5；最长连续 0.0
 - `M-DZS-002` 董仲舒《春秋繁露》：《春秋》大一统者，天地之常经，古今之通谊也。；句命中 0/1；3 字窗 0.333；最长连续 0.235
@@ -93,6 +93,7 @@ null（55 条；近似档 26 条 = 部分短句逐字命中、余为改写/拼�
 - `M-GX-002` H-GX-001《庄子注》：夫小大虽殊，而放于自得之场，则物任其性，事称其能，各当其分，逍遥一也。；句命中 0/1；3 字窗 0.852；最长连续 0.483；近似档
 - `M-GX-003` H-GX-001《庄子注》：天下莫不相与为彼我，而彼我均于自得。故独化之足对，非资待之所得。；句命中 0/2；3 字窗 0.615；最长连续 0.429；近似档
 - `M-GX-004` H-GX-001《庄子注》：各安其天性，各用其能，则天机自张，无为而成。；句命中 0/1；3 字窗 0.75；最长连续 0.278
+- `M-GX-007` H-GX-001《庄子注》：夫命行事变，不舍昼夜……推而极之，则今之所谓命者，皆吾之分也。；句命中 0/1；3 字窗 0.783；最长连续 0.4；近似档
 - `M-GX-008` H-GX-001《庄子注》：夫庄子之言，不可以一途诘之……要其会归，遗其所寄。；句命中 0/1；3 字窗 0.556；最长连续 0.45；近似档
 - `M-GX-009` H-GX-001《庄子注》：夫小大虽殊，而放于自得之场，则物任其性，事称其能，各当其分，逍遥一也。；句命中 0/1；3 字窗 0.852；最长连续 0.483；近似档
 - `M-GX-010` H-GX-001《庄子注》：是以涉有物之域，虽复罔两，未有不独化于玄冥者也。故造物者无主，而物各自造。；句命中 1/2；3 字窗 0.767；最长连续 0.438；近似档
@@ -103,6 +104,7 @@ null（55 条；近似档 26 条 = 部分短句逐字命中、余为改写/拼�
 - `M-WB-007` H-WB-001《老子注》：《老子注》二十九章：'圣人达自然之性，畅万物之情，故因而不为，顺而不施。'；句命中 0/1；3 字窗 0.808；最长连续 0.5；近似档
 - `M-WB-008` H-WB-001《老子注》：《老子注》三十八章：仁义之教本于自然；失道而后德、失德而后仁——本失则末伪。；句命中 0/1；3 字窗 0.464；最长连续 0.333
 - `M-WB-009` H-WB-001《老子注》：《老子注》三十八章：'以无为用，则得其母，故能己不劳焉而物无不理。'；句命中 0/1；3 字窗 0.833；最长连续 0.5；近似档
+- `M-WB-010` H-WB-001《老子注》：《老子指略》：'名以定形，混成无形，不可得而定……言之者失其常，名之者离其真。'；句命中 0/1；3 字窗 0.481；最长连续 0.448；近似档
 - `M-CHI-001` H-CHI-001《河南程氏遗书》：性即理也，何谓性？曰：天道焉而行乎人者也，谓之道。在天为命，在义为理，在人为性，；句命中 1/3；3 字窗 0.641；最长连续 0.512；近似档
 - `M-CHI-002` H-CHI-001《河南程氏遗书》：涵养须用敬，进学则在致知。敬则自虚静，不可把虚静唤做敬。君子庄敬日强，安肆日偷。；句命中 2/3；3 字窗 0.625；最长连续 0.382；近似档
 - `M-CHI-003` H-CHI-001《河南程氏遗书》：须是今日格一件，明日格一件，积习既多，然后脱然有贯通处。；句命中 0/1；3 字窗 0.864；最长连续 0.458；近似档
@@ -117,14 +119,12 @@ null（55 条；近似档 26 条 = 部分短句逐字命中、余为改写/拼�
 - `M-CHE-010` H-CHE-001《二程遗书》：君子之学，必至圣人而后己。不至圣人而自己者，皆弃也。；句命中 0/2；3 字窗 0.5；最长连续 0.273
 - `M-ZXC-002` H-ZXC-001《文史通义》：《尚书》圆而神，其于史也，可谓天之至矣；撰述欲其圆而神，记注欲其方以智也。迁书体；句命中 0/2；3 字窗 0.9；最长连续 0.357；近似档
 - `M-ZXC-003` H-ZXC-001《文史通义》：能具史识者，必知史德。德者何？谓著书者之心术也。当慎辨于天人之际，尽其天而不益以；句命中 3/4；3 字窗 0.882；最长连续 0.556；近似档
-- `M-ZXC-008` H-ZXC-001《文史通义》：通史之修，其便有六：一曰免重复，二曰均类例，三曰便铨配，四曰平是非，五曰去抵牾，；句命中 0/2；3 字窗 0.94；最长连续 0.654；近似档
 - `M-ZXC-009` H-ZXC-001《文史通义》：凡为古文辞者，必敬以恕。临文必敬，非修德之谓也；论古必恕，非宽容之谓也。敬非修德；句命中 1/3；3 字窗 0.906；最长连续 0.379；近似档
 - `M-JX-001` H-JX-001《现代诗》：现代诗是横的移植，不是纵的继承。；句命中 0/1
 - `M-JX-002` H-JX-001《现代诗》：新诗是知性的强调。；句命中 0/1
 - `M-JX-003` H-JX-001《现代诗》：现代诗是纯粹的诗，区别於散文的诗。；句命中 0/1
 - `M-JX-004` H-JX-001《现代诗》：存在主义是现代诗的源流。；句命中 0/1
-- `M-JX-005` H-JX-001《现代诗》：诗是人类生活中的高扬部分。；句命中 0/1
-- （另有 7 条见 JSON）
+- （另有 9 条见 JSON）
 
 跨语言档（74 条，留语义对照）：理想国 10; 俄狄浦斯王 8; 伊利亚特 9; 奥德赛 8; 战争史 9; 形而上学 7; 奥林匹克回忆录 8; 诗学 8; 安提戈涅 7。
 
@@ -135,10 +135,10 @@ null（55 条；近似档 26 条 = 部分短句逐字命中、余为改写/拼�
 | tools/build_source_links.py | 0b363e04bc6e00e7 | 33374 |
 | tools/source_link_index.py | b2c6074a61f753ff | 10795 |
 | tools/fetch_batch1_texts.py | e072f4d645402b3c | 14149 |
-| tools/build_batch1_sourcing_pack.py | f35c19da3f64e5c8 | 16974 |
+| tools/build_batch1_sourcing_pack.py | 450d0e752732b9a2 | 17756 |
 | tools/verify_batch1_sourcing_delivery.py | b94cc3a41ae53309 | 6212 |
 | tools/build_batch1_sourcing_report.py | 910f1a5f7a0b186d | 19554 |
-| tools/fetch_source_texts.py | 736b1a364bd95ab0 | 20133 |
+| tools/fetch_source_texts.py | 6b534db72ee00148 | 24766 |
 | tools/manifests/w8_stage2_batch1_texts.json | 9f5823e5897630f5 | 9186 |
 | data/audit/source_texts_w8_stage2_batch1.json | 24464156391bf86b | 86569 |
 | data/audit/phase21w8_stage2_batch1_recount_baseline.json | 1cc8ff3bee740153 | 376529 |
@@ -166,7 +166,7 @@ PASS  C3 dedup 口径数已登记（baseline）  hot_old=59
 PASS  C4 verdict 取值域合法
 PASS  C5 quotes_total 统计自洽  154
 PASS  C6 各书逐条数之和 == 总数  154
-PASS  C7 verdict 分项计数自洽  {'null': 55, 'variant': 22, 'quote': 3, 'cross-lang': 74}
+PASS  C7 verdict 分项计数自洽  {'null': 57, 'variant': 20, 'quote': 3, 'cross-lang': 74}
 PASS  C8 批1 十八书齐备  18
 PASS  C9 负对照零假阳性  controls=16
 PASS  C10 跨语言书结论全为 cross-lang  bad=[]
@@ -175,7 +175,7 @@ PASS  C12 索引 counts 与 entries 重算一致  {'ok': 15, 'ok-shared': 1, 'in
 PASS  C13 缓存文件 sha256 与索引登记一致  ok=21 bad=0 missing=0
 PASS  C14 manifest 应抓书全部有索引条目  missing=[]
 PASS  C15 现代诗为否定记录（fetch=none，无缓存条目）
-PASS  C16 素材包快照 sha == 现文件 sha（读侧零写实证）  sha16=6f3f4580397614f5 mtime=09:38:49
+PASS  C16 素材包快照 sha == 现文件 sha（读侧零写实证）  sha16=736aab3b4164973d mtime=12:32:08
 ----
 TOTAL 16 PASS / 0 FAIL
 ```

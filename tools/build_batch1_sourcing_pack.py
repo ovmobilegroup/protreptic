@@ -5,12 +5,16 @@
     读 W8 批1 书单 + data/modes_data.json + 本卡抓取缓存（data/audit/source_texts 。
     与独立索引 source_texts_w8_stage2_batch1.json），对批1 各书的全部 mode 引文
     （key_quote_zh）逐条与缓存全文对照，产出逐条结论：
-      quote       原文逐字命中（允许空白/标点归一；含 ellipsis 分段命中）
+      quote       原文逐字命中（允许空白/标点归一；ellipsis 分段全命中）
       variant     异文命中：原文仅繁简/异体字差，在 zh-cn 转换副本命中（D4 转换层证据）
       null        两副本均未见（查无；附其他缓存书的旁证与 alt 源提示）
       cross-lang  跨语言书：中文引文对希腊/英/法文原文本就不适用逐字对读，留语义对照档
     另跑负对照（逐书抽 2 条引文做单字符扰动，必须查无）与噪声处理（过短引文标 weak）。
     只读缓存 + 书单 + modes_data；**零主库写入**；输出 JSON 供报告装配。
+
+修订（t_2ce1e334，QA-F1/F2）
+    F1：ellipsis 分段核验改为全段命中（旧实现首段标点命中即 early-return，未校验其余段）。
+    F2：归一集补 U+FE30『︰』与 U+3000『　』（实测唯一产生翻转的两字：M-ZXC-008 / M-LJY-002）。
 """
 
 from __future__ import annotations
@@ -34,7 +38,8 @@ W8_INDEX = REPO_ROOT / "data" / "audit" / "source_texts_w8_stage2_batch1.json"
 TEXT_DIR = REPO_ROOT / "data" / "audit" / "source_texts"
 OUT_JSON = REPO_ROOT / "docs" / "research" / "phase21w8_stage2_batch1_sourcing_report.json"
 
-CJK_PUNCT = "\u3001\u3002\uff0c\uff0e\uff1b\uff1a\uff1f\uff01\u201c\u201d\u2018\u2019\uff08\uff09\u3014\u3015\u3010\u3011\u3008\u3009\u300a\u300b\u2026\u2014\u00b7\u2500\uff5e~\u2550\uff0d"
+# 归一集：CJK 标点 + 空白；U+FE30『︰』 / U+3000『　』 为 t_2ce1e334 实测补入（QA-F2 类缺口）。
+CJK_PUNCT = "\u3001\u3002\uff0c\uff0e\uff1b\uff1a\uff1f\uff01\u201c\u201d\u2018\u2019\uff08\uff09\u3014\u3015\u3010\u3011\u3008\u3009\u300a\u300b\u2026\u2014\u00b7\u2500\uff5e~\u2550\uff0d\ufe30\u3000"
 ASCII_PUNCT = " \t\r\n.,;:?!\"'()[]{}<>|/\\_-+=*&^%$#@`"
 STRIP = set(CJK_PUNCT + ASCII_PUNCT)
 
@@ -101,22 +106,30 @@ def load_cache():
 
 
 def match_quote(segs, text, text_light, text_norm):
-    """返回 (level, pos, snippet) 或 None。 level: exact | whitespace | punct。"""
+    """返回 (level, pos, snippet) 或 None。 level: exact | whitespace | punct。
+
+    ellipsis 分段核验（t_2ce1e334 修正）：各段（按 …… / … 切分）须**各自命中**，
+    任一段未命中即整条未命中；旧实现在任一段「仅标点归一命中」时 early-return，
+    不再校验其余段。单段引文行为与旧实现一致。
+    """
     pos = 0
+    punct_hit = None
     for s in segs:
         if not norm(s):
             continue
         sl = re.sub(r"\s+", "", s)
         i = text_light.find(sl)
         if i >= 0:
-            level = "exact" if text.startswith(s) else "whitespace"
             pos = i
             continue
         sn = norm(s)
         j = text_norm.find(sn)
         if j < 0:
             return None
-        return "punct", j, text_norm[max(0, j - 24): j + len(sn) + 24]
+        if punct_hit is None:
+            punct_hit = (j, text_norm[max(0, j - 24): j + len(sn) + 24])
+    if punct_hit is not None:
+        return "punct", punct_hit[0], punct_hit[1]
     sl = re.sub(r"\s+", "", segs[0]) if segs else ""
     i = text_light.find(sl)
     snip = text_light[max(0, i - 24): i + len(sl) + 24] if i >= 0 else ""
@@ -353,7 +366,7 @@ def main():
         "modes_snapshot": {"path": "data/modes_data.json", "modes_total": len(modes),
                            "sha256": sha256_of(MODES)},
         "cache_index": "data/audit/source_texts_w8_stage2_batch1.json",
-        "policy": "逐条结论 quote（原文逐字，含空白/标点归一与 ellipsis 分段）/ variant（仅繁简差，"
+        "policy": "逐条结论 quote（原文逐字，含空白/标点归一与 ellipsis 分段全命中）/ variant（仅繁简差，"
                   "zh-cn 转换副本命中）/ null（两副本未见，附 elsewhere 旁证）/ cross-lang（跨语言不适用"
                   "逐字对读）；负对照=单字符扰动必查无；weak=归一后短于 6 字。",
         "quote_conversion": {"variant": "zh-hant", "n": len(conv_list or []), "meta": conv_meta},

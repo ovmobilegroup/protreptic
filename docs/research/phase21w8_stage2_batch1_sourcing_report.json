@@ -1,6 +1,6 @@
 {
   "schema": "protreptic.w8_stage2_batch1_sourcing/v1",
-  "generated_at": "2026-09-24T03:17:31+00:00",
+  "generated_at": "2026-09-24T05:36:01+00:00",
   "generated_by": "tools/build_batch1_sourcing_pack.py",
   "booklist": {
     "path": "docs/research/phase21w8_stage2_batch1_booklist.json",
@@ -9,10 +9,10 @@
   "modes_snapshot": {
     "path": "data/modes_data.json",
     "modes_total": 3311,
-    "sha256": "6f3f4580397614f5b79aaec4c3fb9aaaaa69957e94094120d8d7446949d6415f"
+    "sha256": "736aab3b4164973d09ac43c8af6953fd7edd6332491cac4db72a28dbe1399a70"
   },
   "cache_index": "data/audit/source_texts_w8_stage2_batch1.json",
-  "policy": "逐条结论 quote（原文逐字，含空白/标点归一与 ellipsis 分段）/ variant（仅繁简差，zh-cn 转换副本命中）/ null（两副本未见，附 elsewhere 旁证）/ cross-lang（跨语言不适用逐字对读）；负对照=单字符扰动必查无；weak=归一后短于 6 字。",
+  "policy": "逐条结论 quote（原文逐字，含空白/标点归一与 ellipsis 分段全命中）/ variant（仅繁简差，zh-cn 转换副本命中）/ null（两副本未见，附 elsewhere 旁证）/ cross-lang（跨语言不适用逐字对读）；负对照=单字符扰动必查无；weak=归一后短于 6 字。",
   "quote_conversion": {
     "variant": "zh-hant",
     "n": 72,
@@ -25,21 +25,21 @@
       "retries": 5,
       "failed_chunks": 0,
       "complete": true,
-      "converted_at": "2026-09-24T03:17:29+00:00"
+      "converted_at": "2026-09-24T05:35:59+00:00"
     }
   },
   "counts": {
     "books": 18,
     "quotes_total": 154,
     "span_instances": 159,
-    "null_near_partial": 26,
+    "null_near_partial": 28,
     "weak": 0,
     "negative_controls": 16,
     "negative_false_positive": 0
   },
   "verdict_counts": {
-    "null": 55,
-    "variant": 22,
+    "null": 57,
+    "variant": 20,
     "quote": 3,
     "cross-lang": 74
   },
@@ -113,8 +113,8 @@
       "method": "html-render",
       "quotes_n": 10,
       "verdict_counts": {
-        "variant": 4,
-        "null": 6
+        "variant": 3,
+        "null": 7
       }
     },
     {
@@ -131,8 +131,8 @@
       "method": "html-render",
       "quotes_n": 10,
       "verdict_counts": {
-        "null": 7,
-        "variant": 3
+        "null": 8,
+        "variant": 2
       }
     },
     {
@@ -269,8 +269,8 @@
       "method": "wikitext",
       "quotes_n": 8,
       "verdict_counts": {
-        "variant": 4,
-        "null": 4
+        "variant": 5,
+        "null": 3
       }
     },
     {
@@ -338,8 +338,8 @@
       "method": "wikitext",
       "quotes_n": 7,
       "verdict_counts": {
-        "null": 4,
-        "variant": 3
+        "null": 5,
+        "variant": 2
       }
     },
     {
@@ -629,7 +629,7 @@
       "match_path": "raw",
       "evidence": {
         "file": "data/audit/source_texts/e9103adb8b3eea3f.txt",
-        "snippet": "年不當而踰年即位者與天數俱終始也此非以君隨天邪故屈民而伸君屈君而伸天春秋之大義也　　春秋論十二世之事人道浹而王道備法"
+        "snippet": "年不當而踰年即位者與天數俱終始也此非以君隨天邪故屈民而伸君屈君而伸天春秋之大義也春秋論十二世之事人道浹而王道備法布二"
       }
     },
     {
@@ -881,15 +881,14 @@
       "weak": false,
       "quote_hant": "宇宙便是吾心，吾心即是宇宙。東海有聖人出焉，此心同也，此理同也。西海有聖人出焉，此心同也，此理同也。",
       "quote_alt": null,
-      "shingle_ratio": 0.775,
-      "sent_hits": [
-        3,
-        3
-      ],
       "verdict": "variant",
-      "match_level": "sent-composite",
-      "match_path": "raw|zh-cn",
-      "note": "节引/拼合：全部短句逐字在源（各句单独命中），整段非连续"
+      "match_level": "zh-hant",
+      "match_path": "raw",
+      "note": "繁简差异：引文转繁体（zh-hant）后命中原文（引文侧繁简对读）",
+      "evidence": {
+        "file": "data/audit/source_texts/3249682cf8e37e12.txt",
+        "snippet": "接筆書曰宇宙内事乃已分内事已分内事乃宇宙内事又曰宇宙便是吾心吾心即是宇宙東海有聖人出焉此心同也此理同也西海有聖人出焉此心同也此理同也海北海有聖人出焉此心同也此理同也千百世之上至千百"
+      }
     },
     {
       "book": "陆九渊集",
@@ -1204,14 +1203,16 @@
       "weak": false,
       "quote_hant": "夫命行事變，不舍晝夜……推而極之，則今之所謂命者，皆吾之分也。",
       "quote_alt": null,
-      "verdict": "variant",
-      "match_level": "zh-hant",
-      "match_path": "raw",
-      "note": "繁简差异：引文转繁体（zh-hant）后命中原文（引文侧繁简对读）",
-      "evidence": {
-        "file": "data/audit/source_texts/9467873b3e0f5389.txt",
-        "snippet": "弗能違也其所為弗能不為也付之而至當矣日夜相代乎前夫命行事變不舍晝夜推之不去留之不停故才全者隨所遇而任之而知不能規乎"
-      }
+      "shingle_ratio": 0.783,
+      "sent_hits": [
+        0,
+        1
+      ],
+      "longest_ratio": 0.4,
+      "near_partial": true,
+      "verdict": "null",
+      "match_level": null,
+      "elsewhere": []
     },
     {
       "book": "庄子注",
@@ -1484,14 +1485,16 @@
       "weak": false,
       "quote_hant": "《老子指略》：'名以定形，混成無形，不可得而定……言之者失其常，名之者離其真。'",
       "quote_alt": "'名以定形，混成无形，不可得而定……言之者失其常，名之者离其真。'",
-      "verdict": "variant",
-      "match_level": "zh-hant",
-      "match_path": "raw",
-      "note": "繁简差异：引文转繁体（zh-hant）后命中原文（引文侧繁简对读）（去冠名后）",
-      "evidence": {
-        "file": "data/audit/source_texts/a61ea9e62713fcb0.txt",
-        "snippet": "不至而免殆能生全大形也故可以為天下母也吾不知其名名以定形混成無形不可得而定故曰不知其名也字之曰道夫名以定形字以稱可言道取於"
-      }
+      "shingle_ratio": 0.481,
+      "sent_hits": [
+        0,
+        1
+      ],
+      "longest_ratio": 0.448,
+      "near_partial": true,
+      "verdict": "null",
+      "match_level": null,
+      "elsewhere": []
     },
     {
       "book": "俄狄浦斯王",
@@ -2508,16 +2511,14 @@
       "weak": false,
       "quote_hant": "通史之修，其便有六：一曰免重複，二曰均類例，三曰便銓配，四曰平是非，五曰去牴牾，六曰詳鄰事。其長有二：一曰具翦裁，二曰立家法。",
       "quote_alt": null,
-      "shingle_ratio": 0.94,
-      "sent_hits": [
-        0,
-        2
-      ],
-      "longest_ratio": 0.654,
-      "near_partial": true,
-      "verdict": "null",
-      "match_level": null,
-      "elsewhere": []
+      "verdict": "variant",
+      "match_level": "zh-hant",
+      "match_path": "raw",
+      "note": "繁简差异：引文转繁体（zh-hant）后命中原文（引文侧繁简对读）",
+      "evidence": {
+        "file": "data/audit/source_texts/1c09d5d360d70a3d.txt",
+        "snippet": "剽竊之陋其相判也葢在幾希之間則別擇之不可不愼者也通史之修其便有六一曰免重複二曰均類例三曰便銓配四曰平是非五曰去牴牾六曰詳鄰事其長有二一曰具翦裁二曰立家法其弊有三一曰無短長二曰仍原題三曰忘標目何謂免重複"
+      }
     },
     {
       "book": "文史通义",
@@ -2996,14 +2997,16 @@
       "weak": false,
       "quote_hant": "聖人定之以中正仁義而主靜立人極焉。……無欲則靜虛動直，靜虛則明，明則通；動直則公，公則溥。明通公溥，庶矣乎！",
       "quote_alt": null,
-      "verdict": "variant",
-      "match_level": "zh-hant",
-      "match_path": "raw",
-      "note": "繁简差异：引文转繁体（zh-hant）后命中原文（引文侧繁简对读）",
-      "evidence": {
-        "file": "data/audit/source_texts/8c8b1f31856f6fe7.txt",
-        "snippet": "秀而最靈形既生矣神發知矣五性感動而善惡分萬事出矣聖人定之以中正仁義而主靜立人極焉故「聖人與天地合其德日月合其明四時合其序鬼神合其"
-      }
+      "shingle_ratio": 0.333,
+      "sent_hits": [
+        1,
+        3
+      ],
+      "longest_ratio": 0.364,
+      "near_partial": true,
+      "verdict": "null",
+      "match_level": null,
+      "elsewhere": []
     },
     {
       "book": "太极图说",
@@ -3510,8 +3513,8 @@
     },
     {
       "path": "tools/build_batch1_sourcing_pack.py",
-      "sha256_16": "f35c19da3f64e5c8",
-      "bytes": 16974
+      "sha256_16": "450d0e752732b9a2",
+      "bytes": 17756
     },
     {
       "path": "tools/verify_batch1_sourcing_delivery.py",
@@ -3525,8 +3528,8 @@
     },
     {
       "path": "tools/fetch_source_texts.py",
-      "sha256_16": "736b1a364bd95ab0",
-      "bytes": 20133
+      "sha256_16": "6b534db72ee00148",
+      "bytes": 24766
     },
     {
       "path": "tools/manifests/w8_stage2_batch1_texts.json",

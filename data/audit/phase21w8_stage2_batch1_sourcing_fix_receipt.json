@@ -1,0 +1,516 @@
+{
+  "schema": "protreptic.w8_stage2_batch1.sourcing_fix_receipt/v1",
+  "task": "t_2ce1e334",
+  "parent_anchor": "1c00ca8a821018cdb1ff28cd934112a387e844ad",
+  "scope": "W8 Stage2 批1 素材包端修复：F1 ellipsis 分段全命中 + F2 归一集补 U+FE30/U+3000 + 产物再生 + 对账（QA t_e727be57 §3 F1/F2/F4）",
+  "tool": {
+    "path": "tools/build_batch1_sourcing_pack.py",
+    "before": {
+      "sha256": "f35c19da3f64e5c807b7945e9492f8999e79ca86a249671d0e77437691a55596",
+      "sha16": "f35c19da3f64e5c8",
+      "bytes": 16974,
+      "git_blob": "cb179f17ab149da3530da15af6235f81af5578b3"
+    },
+    "after": {
+      "sha256": "450d0e752732b9a2fd5f1e2e309a4034b1453d6aa9b9e571900672194ad93186",
+      "sha16": "450d0e752732b9a2",
+      "bytes": 17756
+    },
+    "diff_unified": "--- a/tools/build_batch1_sourcing_pack.py\n+++ b/tools/build_batch1_sourcing_pack.py\n@@ -5,12 +5,16 @@\n     读 W8 批1 书单 + data/modes_data.json + 本卡抓取缓存（data/audit/source_texts 。\n     与独立索引 source_texts_w8_stage2_batch1.json），对批1 各书的全部 mode 引文\n     （key_quote_zh）逐条与缓存全文对照，产出逐条结论：\n-      quote       原文逐字命中（允许空白/标点归一；含 ellipsis 分段命中）\n+      quote       原文逐字命中（允许空白/标点归一；ellipsis 分段全命中）\n       variant     异文命中：原文仅繁简/异体字差，在 zh-cn 转换副本命中（D4 转换层证据）\n       null        两副本均未见（查无；附其他缓存书的旁证与 alt 源提示）\n       cross-lang  跨语言书：中文引文对希腊/英/法文原文本就不适用逐字对读，留语义对照档\n     另跑负对照（逐书抽 2 条引文做单字符扰动，必须查无）与噪声处理（过短引文标 weak）。\n     只读缓存 + 书单 + modes_data；**零主库写入**；输出 JSON 供报告装配。\n+\n+修订（t_2ce1e334，QA-F1/F2）\n+    F1：ellipsis 分段核验改为全段命中（旧实现首段标点命中即 early-return，未校验其余段）。\n+    F2：归一集补 U+FE30『︰』与 U+3000『　』（实测唯一产生翻转的两字：M-ZXC-008 / M-LJY-002）。\n \"\"\"\n \n from __future__ import annotations\n@@ -34,7 +38,8 @@\n TEXT_DIR = REPO_ROOT / \"data\" / \"audit\" / \"source_texts\"\n OUT_JSON = REPO_ROOT / \"docs\" / \"research\" / \"phase21w8_stage2_batch1_sourcing_report.json\"\n \n-CJK_PUNCT = \"\\u3001\\u3002\\uff0c\\uff0e\\uff1b\\uff1a\\uff1f\\uff01\\u201c\\u201d\\u2018\\u2019\\uff08\\uff09\\u3014\\u3015\\u3010\\u3011\\u3008\\u3009\\u300a\\u300b\\u2026\\u2014\\u00b7\\u2500\\uff5e~\\u2550\\uff0d\"\n+# 归一集：CJK 标点 + 空白；U+FE30『︰』 / U+3000『　』 为 t_2ce1e334 实测补入（QA-F2 类缺口）。\n+CJK_PUNCT = \"\\u3001\\u3002\\uff0c\\uff0e\\uff1b\\uff1a\\uff1f\\uff01\\u201c\\u201d\\u2018\\u2019\\uff08\\uff09\\u3014\\u3015\\u3010\\u3011\\u3008\\u3009\\u300a\\u300b\\u2026\\u2014\\u00b7\\u2500\\uff5e~\\u2550\\uff0d\\ufe30\\u3000\"\n ASCII_PUNCT = \" \\t\\r\\n.,;:?!\\\"'()[]{}<>|/\\\\_-+=*&^%$#@`\"\n STRIP = set(CJK_PUNCT + ASCII_PUNCT)\n \n@@ -101,22 +106,30 @@\n \n \n def match_quote(segs, text, text_light, text_norm):\n-    \"\"\"返回 (level, pos, snippet) 或 None。 level: exact | whitespace | punct。\"\"\"\n+    \"\"\"返回 (level, pos, snippet) 或 None。 level: exact | whitespace | punct。\n+\n+    ellipsis 分段核验（t_2ce1e334 修正）：各段（按 …… / … 切分）须**各自命中**，\n+    任一段未命中即整条未命中；旧实现在任一段「仅标点归一命中」时 early-return，\n+    不再校验其余段。单段引文行为与旧实现一致。\n+    \"\"\"\n     pos = 0\n+    punct_hit = None\n     for s in segs:\n         if not norm(s):\n             continue\n         sl = re.sub(r\"\\s+\", \"\", s)\n         i = text_light.find(sl)\n         if i >= 0:\n-            level = \"exact\" if text.startswith(s) else \"whitespace\"\n             pos = i\n             continue\n         sn = norm(s)\n         j = text_norm.find(sn)\n         if j < 0:\n             return None\n-        return \"punct\", j, text_norm[max(0, j - 24): j + len(sn) + 24]\n+        if punct_hit is None:\n+            punct_hit = (j, text_norm[max(0, j - 24): j + len(sn) + 24])\n+    if punct_hit is not None:\n+        return \"punct\", punct_hit[0], punct_hit[1]\n     sl = re.sub(r\"\\s+\", \"\", segs[0]) if segs else \"\"\n     i = text_light.find(sl)\n     snip = text_light[max(0, i - 24): i + len(sl) + 24] if i >= 0 else \"\"\n@@ -353,7 +366,7 @@\n         \"modes_snapshot\": {\"path\": \"data/modes_data.json\", \"modes_total\": len(modes),\n                            \"sha256\": sha256_of(MODES)},\n         \"cache_index\": \"data/audit/source_texts_w8_stage2_batch1.json\",\n-        \"policy\": \"逐条结论 quote（原文逐字，含空白/标点归一与 ellipsis 分段）/ variant（仅繁简差，\"\n+        \"policy\": \"逐条结论 quote（原文逐字，含空白/标点归一与 ellipsis 分段全命中）/ variant（仅繁简差，\"\n                   \"zh-cn 转换副本命中）/ null（两副本未见，附 elsewhere 旁证）/ cross-lang（跨语言不适用\"\n                   \"逐字对读）；负对照=单字符扰动必查无；weak=归一后短于 6 字。\",\n         \"quote_conversion\": {\"variant\": \"zh-hant\", \"n\": len(conv_list or []), \"meta\": conv_meta},"
+  },
+  "counts_v1": {
+    "null": 55,
+    "variant": 22,
+    "quote": 3,
+    "cross-lang": 74
+  },
+  "counts_v2": {
+    "null": 57,
+    "variant": 20,
+    "quote": 3,
+    "cross-lang": 74
+  },
+  "per_fix_decomposition": {
+    "v1_baseline": {
+      "null": 55,
+      "variant": 22,
+      "quote": 3,
+      "cross-lang": 74
+    },
+    "F1_only": {
+      "null": 58,
+      "variant": 19,
+      "quote": 3,
+      "cross-lang": 74
+    },
+    "F2_only_FE30": {
+      "null": 54,
+      "variant": 23,
+      "quote": 3,
+      "cross-lang": 74
+    },
+    "F2_only_FE30_U3000": {
+      "null": 54,
+      "variant": 23,
+      "quote": 3,
+      "cross-lang": 74
+    },
+    "F1_F2_final": {
+      "null": 57,
+      "variant": 20,
+      "quote": 3,
+      "cross-lang": 74
+    }
+  },
+  "core_stats": {
+    "v1": {
+      "core": 25,
+      "with_evidence": 21,
+      "sent_composite": 4
+    },
+    "v2": {
+      "core": 23,
+      "with_evidence": 20,
+      "sent_composite": 3
+    }
+  },
+  "changed_rows": {
+    "M-DZS-006": {
+      "book": "春秋繁露",
+      "fields": [
+        "evidence"
+      ],
+      "v1": {
+        "verdict": "quote",
+        "match_level": "punct",
+        "match_path": "raw"
+      },
+      "v2": {
+        "verdict": "quote",
+        "match_level": "punct",
+        "match_path": "raw"
+      }
+    },
+    "M-GX-007": {
+      "book": "庄子注",
+      "fields": [
+        "verdict",
+        "match_level",
+        "match_path",
+        "note",
+        "evidence",
+        "elsewhere",
+        "shingle_ratio",
+        "longest_ratio",
+        "sent_hits",
+        "near_partial"
+      ],
+      "v1": {
+        "verdict": "variant",
+        "match_level": "zh-hant",
+        "match_path": "raw"
+      },
+      "v2": {
+        "verdict": "null",
+        "match_level": null,
+        "match_path": null
+      }
+    },
+    "M-LJY-002": {
+      "book": "陆九渊集",
+      "fields": [
+        "match_level",
+        "match_path",
+        "note",
+        "evidence",
+        "shingle_ratio",
+        "sent_hits"
+      ],
+      "v1": {
+        "verdict": "variant",
+        "match_level": "sent-composite",
+        "match_path": "raw|zh-cn"
+      },
+      "v2": {
+        "verdict": "variant",
+        "match_level": "zh-hant",
+        "match_path": "raw"
+      }
+    },
+    "M-WB-010": {
+      "book": "老子注",
+      "fields": [
+        "verdict",
+        "match_level",
+        "match_path",
+        "note",
+        "evidence",
+        "elsewhere",
+        "shingle_ratio",
+        "longest_ratio",
+        "sent_hits",
+        "near_partial"
+      ],
+      "v1": {
+        "verdict": "variant",
+        "match_level": "zh-hant",
+        "match_path": "raw"
+      },
+      "v2": {
+        "verdict": "null",
+        "match_level": null,
+        "match_path": null
+      }
+    },
+    "M-ZDY-005": {
+      "book": "太极图说",
+      "fields": [
+        "verdict",
+        "match_level",
+        "match_path",
+        "note",
+        "evidence",
+        "elsewhere",
+        "shingle_ratio",
+        "longest_ratio",
+        "sent_hits",
+        "near_partial"
+      ],
+      "v1": {
+        "verdict": "variant",
+        "match_level": "zh-hant",
+        "match_path": "raw"
+      },
+      "v2": {
+        "verdict": "null",
+        "match_level": null,
+        "match_path": null
+      }
+    },
+    "M-ZXC-008": {
+      "book": "文史通义",
+      "fields": [
+        "verdict",
+        "match_level",
+        "match_path",
+        "note",
+        "evidence",
+        "elsewhere",
+        "shingle_ratio",
+        "longest_ratio",
+        "sent_hits",
+        "near_partial"
+      ],
+      "v1": {
+        "verdict": "null",
+        "match_level": null,
+        "match_path": null
+      },
+      "v2": {
+        "verdict": "variant",
+        "match_level": "zh-hant",
+        "match_path": "raw"
+      }
+    }
+  },
+  "negative_controls": {
+    "v1": {
+      "n": 16,
+      "false_positive": 0
+    },
+    "v2": {
+      "n": 16,
+      "false_positive": 0
+    }
+  },
+  "f2_candidate_scan": {
+    "candidates_n": 40,
+    "candidates": [
+      {
+        "cp": "U+00A0",
+        "name": "NO-BREAK SPACE",
+        "count": 40
+      },
+      {
+        "cp": "U+00A7",
+        "name": "SECTION SIGN",
+        "count": 13
+      },
+      {
+        "cp": "U+00AB",
+        "name": "LEFT-POINTING DOUBLE ANGLE QUOTATION MARK",
+        "count": 1944
+      },
+      {
+        "cp": "U+00BB",
+        "name": "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK",
+        "count": 1937
+      },
+      {
+        "cp": "U+00D7",
+        "name": "MULTIPLICATION SIGN",
+        "count": 5
+      },
+      {
+        "cp": "U+0384",
+        "name": "GREEK TONOS",
+        "count": 1
+      },
+      {
+        "cp": "U+1FBD",
+        "name": "GREEK KORONIS",
+        "count": 2037
+      },
+      {
+        "cp": "U+1FBF",
+        "name": "GREEK PSILI",
+        "count": 1
+      },
+      {
+        "cp": "U+2007",
+        "name": "FIGURE SPACE",
+        "count": 3
+      },
+      {
+        "cp": "U+2013",
+        "name": "EN DASH",
+        "count": 14
+      },
+      {
+        "cp": "U+2020",
+        "name": "DAGGER",
+        "count": 1
+      },
+      {
+        "cp": "U+2022",
+        "name": "BULLET",
+        "count": 42
+      },
+      {
+        "cp": "U+2027",
+        "name": "HYPHENATION POINT",
+        "count": 35
+      },
+      {
+        "cp": "U+2042",
+        "name": "ASTERISM",
+        "count": 26
+      },
+      {
+        "cp": "U+20AC",
+        "name": "EURO SIGN",
+        "count": 4
+      },
+      {
+        "cp": "U+2190",
+        "name": "LEFTWARDS ARROW",
+        "count": 131
+      },
+      {
+        "cp": "U+2191",
+        "name": "UPWARDS ARROW",
+        "count": 380
+      },
+      {
+        "cp": "U+2192",
+        "name": "RIGHTWARDS ARROW",
+        "count": 132
+      },
+      {
+        "cp": "U+2234",
+        "name": "THEREFORE",
+        "count": 2
+      },
+      {
+        "cp": "U+25A1",
+        "name": "WHITE SQUARE",
+        "count": 38
+      },
+      {
+        "cp": "U+25B3",
+        "name": "WHITE UP-POINTING TRIANGLE",
+        "count": 2
+      },
+      {
+        "cp": "U+25BA",
+        "name": "BLACK RIGHT-POINTING POINTER",
+        "count": 23
+      },
+      {
+        "cp": "U+25C4",
+        "name": "BLACK LEFT-POINTING POINTER",
+        "count": 24
+      },
+      {
+        "cp": "U+25CB",
+        "name": "WHITE CIRCLE",
+        "count": 1700
+      },
+      {
+        "cp": "U+271D",
+        "name": "LATIN CROSS",
+        "count": 2
+      },
+      {
+        "cp": "U+27E8",
+        "name": "MATHEMATICAL LEFT ANGLE BRACKET",
+        "count": 2
+      },
+      {
+        "cp": "U+27E9",
+        "name": "MATHEMATICAL RIGHT ANGLE BRACKET",
+        "count": 2
+      },
+      {
+        "cp": "U+2FF0",
+        "name": "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT",
+        "count": 32
+      },
+      {
+        "cp": "U+2FF4",
+        "name": "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND",
+        "count": 8
+      },
+      {
+        "cp": "U+3000",
+        "name": "IDEOGRAPHIC SPACE",
+        "count": 5548
+      },
+      {
+        "cp": "U+300C",
+        "name": "LEFT CORNER BRACKET",
+        "count": 6445
+      },
+      {
+        "cp": "U+300D",
+        "name": "RIGHT CORNER BRACKET",
+        "count": 6411
+      },
+      {
+        "cp": "U+300E",
+        "name": "LEFT WHITE CORNER BRACKET",
+        "count": 1092
+      },
+      {
+        "cp": "U+300F",
+        "name": "RIGHT WHITE CORNER BRACKET",
+        "count": 1086
+      },
+      {
+        "cp": "U+FE30",
+        "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+        "count": 622
+      },
+      {
+        "cp": "U+FE51",
+        "name": "SMALL IDEOGRAPHIC COMMA",
+        "count": 8
+      },
+      {
+        "cp": "U+FE55",
+        "name": "SMALL COLON",
+        "count": 10
+      },
+      {
+        "cp": "U+FE56",
+        "name": "SMALL QUESTION MARK",
+        "count": 2
+      },
+      {
+        "cp": "U+FE57",
+        "name": "SMALL EXCLAMATION MARK",
+        "count": 4
+      },
+      {
+        "cp": "U+FFFD",
+        "name": "REPLACEMENT CHARACTER",
+        "count": 203
+      }
+    ],
+    "flips": {
+      "U+3000": {
+        "char": "　",
+        "name": "IDEOGRAPHIC SPACE",
+        "corpus_count": 5548,
+        "hits": [
+          {
+            "mode_code": "M-LJY-002",
+            "book": "陆九渊集",
+            "path": "raw+hant"
+          }
+        ]
+      },
+      "U+FE30": {
+        "char": "︰",
+        "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+        "corpus_count": 622,
+        "hits": [
+          {
+            "mode_code": "M-ZXC-008",
+            "book": "文史通义",
+            "path": "raw+hant"
+          }
+        ]
+      }
+    },
+    "method": "缓存全文字符（类别 P/S/Z、非字母数字、非汉字）不在修复前归一集者逐字符试加；仅列产生命中翻转的字符"
+  },
+  "inputs_pinned": {
+    "modes_data_sha256": "736aab3b4164973d09ac43c8af6953fd7edd6332491cac4db72a28dbe1399a70",
+    "modes_data_sha16": "736aab3b4164973d",
+    "booklist_sha16": "ca46eb42471c35fc",
+    "cache_index_sha16": "24464156391bf86b"
+  },
+  "artifacts": [
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_sourcing_report.json",
+      "sha256": "17265dd82fe6665a8c6a9ef9367ed0ea15a550e446d0b62be1a141d3184ce784",
+      "sha16": "17265dd82fe6665a",
+      "bytes": 163954
+    },
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_sourcing_report.md",
+      "sha256": "72b1927c17a58a9e327e85b37706bcfb935396e902ba3d1a9b8812f675b65450",
+      "sha16": "72b1927c17a58a9e",
+      "bytes": 22742
+    },
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_landing_report.md",
+      "sha256": "74e443cf3f5e6614af06e63cb8c3f5498785769a68e9550df87e5dcdccef0723",
+      "sha16": "74e443cf3f5e6614",
+      "bytes": 16067
+    },
+    {
+      "path": "data/audit/phase21w8_stage2_batch1_verify.log",
+      "sha256": "35a818a9c8dfee4605d6de6a9afc556cf3c6303fac5030b47f80d013e6f976e2",
+      "sha16": "35a818a9c8dfee46",
+      "bytes": 1056
+    },
+    {
+      "path": "tools/build_batch1_sourcing_pack.py",
+      "sha256": "450d0e752732b9a2fd5f1e2e309a4034b1453d6aa9b9e571900672194ad93186",
+      "sha16": "450d0e752732b9a2",
+      "bytes": 17756
+    }
+  ],
+  "zero_main_write": {
+    "modes_data_untouched": true,
+    "note": "本卡全程只读 data/modes_data.json 与缓存；写面=本回执/verify.log/报告两件/落地报告 §2.1/工具一件"
+  },
+  "reproduce_commands": [
+    "python3 tools/build_batch1_sourcing_pack.py            # 再生素材包 JSON（计数 null 57 / variant 20 / quote 3 / cross-lang 74）",
+    "python3 tools/verify_batch1_sourcing_delivery.py       # 16 项独立核验（期望 16 PASS / 0 FAIL，rc=0）",
+    "python3 tools/build_batch1_sourcing_report.py          # 报告装配（md + JSON 附加块）",
+    "git show 1c00ca8a821018cdb1ff28cd934112a387e844ad:tools/build_batch1_sourcing_pack.py > /tmp/tool_v1.py  # 前像复现（diff 见 tool.diff_unified）"
+  ],
+  "artifact_notes": {
+    "data/audit/phase21w8_stage2_batch1_verify.log": "*.log 已由 .gitignore 忽略（本地工作产物，不入库/不入 parity；内容已内嵌于报告 md 第六节）",
+    "commit_set": [
+      "tools/build_batch1_sourcing_pack.py",
+      "docs/research/phase21w8_stage2_batch1_sourcing_report.json",
+      "docs/research/phase21w8_stage2_batch1_sourcing_report.md",
+      "docs/research/phase21w8_stage2_batch1_landing_report.md",
+      "data/audit/phase21w8_stage2_batch1_sourcing_fix_receipt.json"
+    ]
+  }
+}
