@@ -1,0 +1,128 @@
+{
+  "card": "t_616e4991",
+  "report_rel": "docs/research/phase21w4_names_fix_archive_report.md",
+  "report_sha256": "9fd44b68242a500d8b1ac7381f2293931db7827aba8301e4b0081ca1e7ef3388",
+  "note": "evidence.json 自身两仓 byte-exact 相等性由最终 no-write 复跑复核（结果记录于卡面完成 metadata）",
+  "sections": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": [],
+    "E": [],
+    "F": []
+  },
+  "mirror": [
+    {
+      "rel": "docs/research/phase21r8_w4_names_recon.md",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "1e66897bf33b90c6b4727157a07031d0e7568575c158e03a3873fafc4ed572da",
+      "pb_sha256": "1e66897bf33b90c6b4727157a07031d0e7568575c158e03a3873fafc4ed572da",
+      "equal": true
+    },
+    {
+      "rel": "docs/research/phase21r8_w4_names_recon.json",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "54fe78f27e47392719bf877558349778c87d07e8941670893353b98b16390ab6",
+      "pb_sha256": "54fe78f27e47392719bf877558349778c87d07e8941670893353b98b16390ab6",
+      "equal": true
+    },
+    {
+      "rel": "docs/research/phase21w4_fix_manifest.md",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "1886f0bfae22986dc55f221a8d7bc9d8dad09921b17847daa3c56b94c77dd7fd",
+      "pb_sha256": "1886f0bfae22986dc55f221a8d7bc9d8dad09921b17847daa3c56b94c77dd7fd",
+      "equal": true
+    },
+    {
+      "rel": "docs/research/phase21w4_fix_manifest.json",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "c6fb3d908517b6fda9e072fc84d5badcea8ebfa70f596de43a82eefe3628495a",
+      "pb_sha256": "c6fb3d908517b6fda9e072fc84d5badcea8ebfa70f596de43a82eefe3628495a",
+      "equal": true
+    },
+    {
+      "rel": "docs/research/phase21w6_marker_scan.md",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "ab3c08915dd44eec2bf28d77ea15609ac423ed3a5b8305f338d7e05b2a5a0e2e",
+      "pb_sha256": "ab3c08915dd44eec2bf28d77ea15609ac423ed3a5b8305f338d7e05b2a5a0e2e",
+      "equal": true
+    },
+    {
+      "rel": "docs/research/phase21w6_marker_scan.json",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "0069cc5c0129c21447c275a4dde809f0b3b1d07101d489b0c6f17197d75c9ed8",
+      "pb_sha256": "0069cc5c0129c21447c275a4dde809f0b3b1d07101d489b0c6f17197d75c9ed8",
+      "equal": true
+    },
+    {
+      "rel": "docs/qa/phase21w4_qa_report.md",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "f969ce17c331b11568f2e9edb89e890c2bf1083c97bfe80b2981fbf17874e1f7",
+      "pb_sha256": "f969ce17c331b11568f2e9edb89e890c2bf1083c97bfe80b2981fbf17874e1f7",
+      "equal": true
+    },
+    {
+      "rel": "docs/qa/phase21w4_qa_evidence.json",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "2bf1e47f94da39a8241f41fb2287a868a304475673400ee37b90ba969e40a754",
+      "pb_sha256": "2bf1e47f94da39a8241f41fb2287a868a304475673400ee37b90ba969e40a754",
+      "equal": true
+    },
+    {
+      "rel": "verify_phase21w4_qa_espinosa.py",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "043f7b956c0b8ea26cd23533d400c6cada38b963db17092b4cb9dd983e3b3d06",
+      "pb_sha256": "043f7b956c0b8ea26cd23533d400c6cada38b963db17092b4cb9dd983e3b3d06",
+      "equal": true
+    },
+    {
+      "rel": "docs/research/phase21w4_names_fix_archive_report.md",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "9fd44b68242a500d8b1ac7381f2293931db7827aba8301e4b0081ca1e7ef3388",
+      "pb_sha256": "9fd44b68242a500d8b1ac7381f2293931db7827aba8301e4b0081ca1e7ef3388",
+      "equal": true
+    },
+    {
+      "rel": "verify_w4_names_fix_archive.py",
+      "ws_exists": true,
+      "pb_exists": true,
+      "ws_sha256": "ae9388efd4c3ac64499c8e5e7d35143f43d1061108f43aee41504d8204cd40d9",
+      "pb_sha256": "ae9388efd4c3ac64499c8e5e7d35143f43d1061108f43aee41504d8204cd40d9",
+      "equal": true
+    }
+  ],
+  "selftest": [
+    [
+      "inject:del-section7",
+      true
+    ],
+    [
+      "inject:bad-sha",
+      true
+    ],
+    [
+      "inject:value-drift",
+      true
+    ],
+    [
+      "inject:caption-lost",
+      true
+    ],
+    [
+      "inject:pb-missing",
+      true
+    ]
+  ],
+  "ws_root": "/opt/data/workspace/Protreptic",
+  "pb_root": "/opt/data/release/Protreptic-publish"
+}
