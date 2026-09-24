@@ -288,9 +288,13 @@ def main():
     pq = sh(['python3', 'tools/check_repo_parity.py', '--json'], timeout=600)
     try:
         pd = json.loads(pq.stdout)
-        chk('C1', 'parity: rc=0 / status OK / boundary 4593 both sides all identical / 0 single-side',
-            pq.returncode == 0 and pd.get('status') == 'OK' and pd.get('counts', {}).get('identical') == pd.get('counts', {}).get('both_sides') == 4593 and not pd.get('diffs'),
-            json.dumps(pd.get('counts', {})))
+        cc = pd.get('counts', {})
+        chk('C1', 'parity: rc=0 / status OK / all boundary files identical / 0 single-side (boundary >= fix-state 4593)',
+            pq.returncode == 0 and pd.get('status') == 'OK'
+            and cc.get('identical') == cc.get('both_sides') == cc.get('workspace_in_boundary') == cc.get('publish_in_boundary')
+            and isinstance(cc.get('both_sides'), int) and cc.get('both_sides') >= 4593
+            and cc.get('only_workspace', -1) == 0 and cc.get('only_publish', -1) == 0 and not pd.get('diffs'),
+            json.dumps(cc))
     except Exception as ex:
         chk('C1', 'parity run', False, 'rc=%d parse=%r' % (pq.returncode, ex))
     man = json.load(open(WS + '/docs/architecture/static_data_manifest.json', encoding='utf-8'))

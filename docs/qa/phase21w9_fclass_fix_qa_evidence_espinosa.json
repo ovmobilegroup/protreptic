@@ -347,8 +347,8 @@
    "f1_f10": "PASS"
   },
   "new_verifier_final_run": {
-   "run": "33 PASS / 0 FAIL / 2 INFO",
-   "json": "scratch/w9fixqa/final_verifier_run.json"
+   "run": "33 PASS / 0 FAIL / 2 INFO（A 阶段与 C 阶段终跑一致；B 后中间跑 32/1 由 C1 漂移期望引发，C 阶段已修订）",
+   "json": "scratch/w9fixqa/final_verifier_run_postB2.json"
   },
   "anti_fudging": [
    "零臆造：S3/S4 全库 1027 行逐行比对源侧姓名（0 失配）",
@@ -399,7 +399,8 @@
    "final_verifier_run.json",
    "upstream_verifier_at_fix.json",
    "upstream_verifier_at_fix.log"
-  ]
+  ],
+  "verifier_sha256_final": "f2f0d8adb853dcf56b5c5cb7701a05783a2c95a53f154517b7a9d966873a9148"
  },
  "receipts": {
   "ws_A": {
@@ -423,6 +424,11 @@
   },
   "B_stage": {
    "note": "本回执补记（报告 §9 + 证据 receipts）；补记后两仓对应件逐字节一致；本文件不自引用自身终值 sha"
+  },
+  "C_stage": {
+   "note": "C1 漂移容错修订（B 后终跑捕获边界计数 4593→4595 漂移，改为不变式口径；只放宽计数期望，事实断言未动）；修订后终跑 33 PASS / 0 FAIL / 2 INFO",
+   "sha_verifier_final": "f2f0d8adb853dcf56b5c5cb7701a05783a2c95a53f154517b7a9d966873a9148",
+   "run_json": "final_verifier_run_postB2.json"
   }
  }
 }
