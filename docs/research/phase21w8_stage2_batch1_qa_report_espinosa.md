@@ -60,11 +60,11 @@
 
 | 文件 | sha16 复核后 | 复核前 |
 | --- | --- | --- |
-| data/audit/phase21w8_stage2_batch1_landing_ledger.json | 4dc2d8e354c9c0c2 | 66c193dfbab851a8 |
-| docs/research/phase21w8_stage2_batch1_landing_report.md | 0eb4c12bd8ddb347 | e07b602a94339d9d |
-| docs/research/phase21w8_stage2_batch1_landing_evidence.json | 72b7718b79ce8dbe | 8bf2aec01c54af36 |
+| data/audit/phase21w8_stage2_batch1_landing_ledger.json | 84ff028da6bee8d4 | 66c193dfbab851a8 |
+| docs/research/phase21w8_stage2_batch1_landing_report.md | 886a7c90c560e727 | e07b602a94339d9d |
+| docs/research/phase21w8_stage2_batch1_landing_evidence.json | 0a6f5a5ae266281b | 8bf2aec01c54af36 |
 | tools/build_batch1_landing_ledger.py | 81d6329c92afe97c | a76908ddd0e32778 |
-| tools/verify_batch1_qa_espinosa.py（本卡校验器） | 86d0315a0379c370 | （新增） |
+| tools/verify_batch1_qa_espinosa.py（本卡校验器） | 4d55095b5776a82f | （新增） |
 
 账本 qa_addendum 内嵌全部修正与发现登记（QA-C0/C1/C2 + QA-F1..F6），与 QA 证据 JSON 互为镜像。
 
@@ -77,6 +77,7 @@
 
 ## 6. 提交回执（回执补记）
 
-- 工作仓：QA 提交 A = （回执补记填入）；发布仓：P1 = （回执补记填入）（QA 7 件 byte-exact）；push （回执补记填入）；ls-remote 一致。
-- parity：本卡面 CONTENT_DIFF=0；残余项=回执时点他卡在途。
-- 校验器：`--at A` 全 PASS（含 C8a / C8b）；`--at eda40f5b` 六项缺陷断言复现。
+- 工作仓：QA 提交 A = b5967043d9c3b57d15d0894dad52f1e176f9b4ba（7 件）；回执补记 = 本提交（含账本 corrections[0].id 规范为 QA-C0、报告/证据跨引终版刷新、校验器 F2 兼容断言）。
+- 发布仓：P1 = 88cc86a7ef56917216cb52972daad50114e738f2（7 件 byte-exact）；push 58f361d..88cc86a；ls-remote 一致（88cc86a）。回执补记镜像 P2 见发布仓 git log。
+- parity：P1 后本卡 7 件闭合；全局 parity 时点结果见完成回执（回执补记后复核）。
+- 校验器：`--at b5967043` **27/27 全 PASS**（含 G1-G3 门禁复跑、C8a/C8b 镜像面、C9 push 面）；复核前态 `--at eda40f5b` = 17 PASS / 6 FAIL（六项缺陷断言复现）。

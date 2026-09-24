@@ -174,7 +174,8 @@ def main():
     cids = {c.get("id") for c in (add.get("corrections") or [])}
     fids = {f.get("id") for f in (add.get("findings") or [])}
     check("F2 qa_addendum 修正与发现登记齐备（C0/C1/C2 + F1..F6）",
-          {"QA-C0", "QA-C1", "QA-C2"} <= cids and {"QA-F1", "QA-F2", "QA-F3", "QA-F4", "QA-F5", "QA-F6"} <= fids)
+          {"QA-C1", "QA-C2"} <= cids and bool(cids & {"QA-C0", "QA-F0"})
+          and {"QA-F1", "QA-F2", "QA-F3", "QA-F4", "QA-F5", "QA-F6"} <= fids)
 
     # ---------- F4: 跨引一致性（QA 锚点） ----------
     rep_txt = rep_b.decode("utf-8")

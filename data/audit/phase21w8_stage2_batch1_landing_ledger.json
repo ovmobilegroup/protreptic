@@ -5059,7 +5059,7 @@
     "scope": "W8 Stage2 批1 交付链独立复核（素材包 / 落地 / 门禁 / 证据 / 回执 / 边界）",
     "corrections": [
       {
-        "id": "QA-F0",
+        "id": "QA-C0",
         "field": "four_state.before",
         "issue": "原值取自数据仓 2026-09-22 陈旧 verification_status.json（modes 3162 口径），非本次落地操作的真实前态；与报告 §4.2、证据 four_state、本账本 status_flips（+69/+3）三向不一致",
         "was": {

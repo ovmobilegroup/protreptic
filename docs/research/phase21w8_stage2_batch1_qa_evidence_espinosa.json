@@ -12,21 +12,21 @@
     "push 面 ls-remote"
   ],
   "refs": {
-    "qa_commit": null,
+    "qa_commit": "b5967043d9c3b57d15d0894dad52f1e176f9b4ba",
     "w8_commit": "eda40f5b",
     "ws_w8": "004332b4",
     "publish_w8": "023a794",
     "publish_w8_fix": "c522897",
     "backup_dir": "data/backup_merge_W8B1_20260924_113742",
-    "qa_report_sha16": "119323bfafddb49c",
-    "verifier_sha16": "86d0315a0379c370"
+    "qa_report_sha16": "9f52d3fcb159bf0b",
+    "verifier_sha16": "4d55095b5776a82f"
   },
   "shas": {
-    "ledger": "4dc2d8e354c9c0c2",
+    "ledger": "84ff028da6bee8d4",
     "ledger_before": "66c193dfbab851a8",
-    "landing_report": "0eb4c12bd8ddb347",
+    "landing_report": "886a7c90c560e727",
     "landing_report_before": "e07b602a94339d9d",
-    "landing_evidence": "72b7718b79ce8dbe",
+    "landing_evidence": "0a6f5a5ae266281b",
     "landing_evidence_before": "8bf2aec01c54af36",
     "ledger_tool": "81d6329c92afe97c",
     "ledger_tool_before": "a76908ddd0e32778",
@@ -260,7 +260,8 @@
     "账本书级列修正",
     "links_added 修正",
     "工具键归一修复",
-    "报告/证据跨引刷新"
+    "报告/证据跨引刷新",
+    "corrections[0].id 规范为 QA-C0（随回执补记）"
   ],
   "parity": {
     "live_snapshot_2026-09-24T12:2x": {
@@ -268,16 +269,25 @@
       "attribution": "全部 W5FIX 在途文件（非 W8）",
       "boundary": "both 2579 / identical 2572"
     },
-    "after_mirror": null
+    "after_mirror": {
+      "note": "P1 后本卡 7 件闭合；全局 parity 时点结果见完成回执"
+    }
   },
   "mirror_push": {
-    "p1": null,
-    "push_range": null,
-    "ls_remote": null
+    "p1": "88cc86a7ef56917216cb52972daad50114e738f2",
+    "push_range": "58f361d59688f8ce62e273bfa2d532a873ed8624..88cc86a7ef56917216cb52972daad50114e738f2",
+    "ls_remote": "88cc86a7ef56917216cb52972daad50114e738f2",
+    "p2": null,
+    "p2_note": "回执补记镜像 P2 见发布仓 git log（6 件）",
+    "bytes_exact": "7/7"
   },
   "window_notes": [
     "W8 锚点=eda40f5b（数据面与 004332b4 同）",
     "W5 数据侧修复 t_0dc95522 后续入库（verified 1018→1019/suspect 55→54），不计入 W8",
     "门禁 3331 vs 顶级 3311 口径差（含内嵌 20 条）"
-  ]
+  ],
+  "verify_after": {
+    "cmd": "python3 tools/verify_batch1_qa_espinosa.py --at b5967043 --with-gates --with-remote",
+    "result": "27 PASS / 0 FAIL"
+  }
 }

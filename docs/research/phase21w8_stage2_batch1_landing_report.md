@@ -173,7 +173,7 @@ M-AZJ-001~010 / M-SHF-001~010 写的自定义块（`method=phase21r9-*-landing` 
 | data/audit/findings.json | b73e32806f7c910b | 0292f0580ab03293 |
 | data/audit/verification_status.json | 32661224820d4230 | 22944f54fb5e51a2 |
 | web/src/generated/siteCounts.ts | 4e8e99110830a807 | a698abe698bb3db3 |
-| data/audit/phase21w8_stage2_batch1_landing_ledger.json | — | 4dc2d8e354c9c0c2 |
+| data/audit/phase21w8_stage2_batch1_landing_ledger.json | — | 84ff028da6bee8d4 |
 
 ## 附录 C：新增/改动工具
 
