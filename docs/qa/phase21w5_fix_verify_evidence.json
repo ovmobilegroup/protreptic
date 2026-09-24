@@ -270,7 +270,7 @@
   "registered_corrections": 3,
   "artifacts_sha256": {
     "docs/qa/phase21w5_wangchong_qa_report.md": "427b58813c75dc8841a0426c96eb47c364a236cf3a05a93040b53b35803eb52a",
-    "docs/qa/phase21w5_fix_verify_report.md": "5aa755f14f0234a604459fcbd503a286220626d37e705aa1561abab64a763201"
+    "docs/qa/phase21w5_fix_verify_report.md": "f9295316f01d907198064271bb5ad1cd9c00da579bedaf6546f862d313f56fbb"
   },
   "receipts": {
     "round1": {
@@ -283,6 +283,18 @@
       "remote_equals_local": true,
       "byte_exact": "3/3"
     },
-    "round2": "本段落（报告 §7 + 证据 receipts 2 件刷面，同轮镜像 push；sha 见提交记录与 kanban 交接）"
+    "round2": {
+      "ws_commit": "b901fc6b8f595f7c3a52af055548a232238e6538",
+      "pb_commit": "2118eb46b8924d76aa4e6bc5cc87b3def0c563ba",
+      "push": "ede1457..2118eb4 -> origin/main (rc=0)",
+      "ls_remote": "2118eb46b8924d76aa4e6bc5cc87b3def0c563ba",
+      "remote_equals_local": true,
+      "byte_exact": "2/2"
+    },
+    "final": {
+      "parity_final": "2585/2585 zero-diff (exit 0)",
+      "parity_boundary_delta": "+2 vs round-1 timepoint = this card's 2 new docs entering the boundary",
+      "round3": "final touch-up (report s7 revision + evidence receipts final); sha see commit log / kanban metadata"
+    }
   }
 }

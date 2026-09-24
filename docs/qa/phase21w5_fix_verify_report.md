@@ -107,4 +107,5 @@
 - 发布仓镜像 **P1 = `ede145735200c5390013bccd9091711e7e8b1fe3`**（同 3 件 **byte-exact**，逐件复核对齐；父提交 `384faae`＝W8 QA 卡镜像〔外部〕）
 - push：`384faae..ede1457 -> origin/main`，rc=0；**ls-remote 复核** `refs/heads/main = ede145735200c5390013bccd9091711e7e8b1fe3`（**REMOTE == LOCAL**）
 - parity（`python3 tools/check_repo_parity.py`，现跑）：本卡面 3 件两仓逐字节全等；全库 parity **零差异**（2583/2583，exit 0）
-- 回执轮：**C2／P2 = 本段落**（本报告 §7＋证据 `receipts` 段刷面 2 件，同轮镜像 push；C2/P2 sha 见提交记录与 kanban 交接 metadata）
+- 回执轮：**C2 = `b901fc6b8f595f7c3a52af055548a232238e6538`／P2 = `2118eb46b8924d76aa4e6bc5cc87b3def0c563ba`**（本报告 §7＋证据 `receipts` 段刷面 2 件；push `ede1457..2118eb4`，rc=0；ls-remote 复核＝`2118eb4…`，REMOTE == LOCAL）
+- 收尾校订（轮 3）：`check_repo_parity.py` **收尾现跑 = 零差异 2585/2585**（exit 0；边界较轮 1 时点 +2＝本卡 2 件新文书入界，逐字节一致）；**C3／P3 = 本行**（§7 终版校订＋证据 `receipts` 终版，同轮镜像 push；sha 见提交记录与 kanban 交接 metadata）
