@@ -1,7 +1,8 @@
 {
   "schema": "phase21w5_landing_evidence_v1",
-  "generated_at": "2026-09-24T04:30:00+00:00",
+  "generated_at": "2026-09-24T04:30:00+08:00",
   "card_id": "t_fdc1589e",
+  "revised_by": "t_bda44643（2026-09-24 文书侧据实修订；依据 t_0dc95522/t_30d57ff2 实测与 QA t_28e8ab2b 登记项；明细见落地报告 §4.2/§4.4）",
   "wc_before": {
     "M-WC-001": "pending",
     "M-WC-002": "pending",
@@ -19,31 +20,31 @@
     "M-WC-002": "verified",
     "M-WC-003": "verified",
     "M-WC-004": "verified",
-    "M-WC-005": "pending",
+    "M-WC-005": "verified",
     "M-WC-006": "verified",
-    "M-WC-007": "pending",
+    "M-WC-007": "verified",
     "M-WC-008": "verified",
-    "M-WC-009": "suspect",
-    "M-WC-010": "pending"
+    "M-WC-009": "verified",
+    "M-WC-010": "verified"
   },
   "findings_summary": {
-    "D4_quote_mismatch": 24,
-    "D4_empty_quote": 27,
+    "D4_quote_mismatch": 26,
+    "D4_quote_without_source": 27,
     "D5_timeline_conflict": 1,
     "D6_orphan_reference": 37,
     "D7_duplicate_definition": 0,
-    "total": 165
+    "total": 167
   },
   "four_state_before": {
-    "verified": 950,
+    "verified": 931,
     "suspect": 51,
-    "pending": 1939,
+    "pending": 1958,
     "unverifiable": 351
   },
   "four_state_after": {
-    "verified": 949,
-    "suspect": 52,
-    "pending": 1907,
+    "verified": 1019,
+    "suspect": 54,
+    "pending": 1887,
     "unverifiable": 351
   },
   "source_text_entry": {

@@ -10,7 +10,7 @@
 | 命令 | exit | 关键数字（before → after） |
 |---|---|---|
 | `python3 tools/credibility_gate.py --hard-fail` | **0** | 新增硬失败 0；warnings(D4/D5) 28 → 27；D4 matched 11 / mismatch **27 → 26** / quote-too-short 117 → 118 / unchecked 3176 |
-| `python3 tools/verify_findings.py --hard-fail` | **0** | hard failures 0；新增 0；基线条目 total=0（冻结位 2026-09-19T15:20:44+00:00，data_sha256 与现状不同不影响判定）；警告 1（M-ASM 双收，存量） |
+| `python3 tools/verify_findings.py --hard-fail` | **0** | hard failures 0；新增 0；基线条目 total=0（冻结位 2026-09-19T15:20:44+00:00，data_sha256 与现状不同不影响判定）；警告 **2 条**（① M-ASM 双收，存量；② audit_meta.modes_file_sha256 滞后——「先重跑 findings、后 avs --write」写入序列所致；非阻断。据 t_30d57ff2 §5 订正） |
 | `python3 tools/apply_verification_status.py --check` | **0** | 「库中状态与本规则逐条一致」；变更 = 无（已一致） |
 | `python3 tools/test_credibility_d45.py` | 1（**预期**） | 37/38；唯一 FAIL = **Z7**（backfill_lifespans 清单存量 476 vs 576），**非本卡** |
 
@@ -42,11 +42,13 @@
 | 9 | M-WC-007 | md 注记 | 新增 `key_quote_context_zh` | A1 §M-WC-007「最长连续逐字片段 7 字（公式化用语），非整体见证」 | 同上 |
 | 10 | M-WC-010 | md 注记 | 新增 `key_quote_context_zh` | A1 §M-WC-010「四分句全库无一逐字命中；『距师』语出 /28『難於距師』」 | 同上 |
 
+定位口径说明（t_bda44643 补注，据 t_30d57ff2 §5）：本表「见证定位」列 `行:列` 均为见证文件内取词起点；其中 2 处的取词为缩略 needle（同句全句起点另注）——004 底本列 `2573:335`（needle「莫明於」；同句全句起点 `2573:334`）、006 抽本列 `lunheng-66.txt 10:95`（needle「皆稟元氣」；同句全句起点 `10:90`）。同一位置，见证与依据不变。
+
 另：M-WC-002 同时新增 md `correction_zh` 注记——
 
 > 改字并注记底本样式：底本作「（迢）〔追〕難孔子」（圆括号=底本误字，方括号=校改字），引文取校改字「追」作「追难孔子」；见证 `docs/scratch/phase21w5_wangchong/witness/raw/lunheng-28.txt`（A1 §二·M-WC-002 首选项：改字＋保留注记）。
 
-五条注记的字段选择（不新造字段名，沿用库内既有注记位）：
+四条注记的字段选择（correction_zh x1 + key_quote_context_zh x3，与首行「4 条注记」口径统一；不新造字段名，沿用库内既有注记位）：
 - `correction_zh`：库内先例为「引文替换/修正注记」（如 M-ZX-009/010）；
 - `key_quote_context_zh`：库内先例为「引文为概括/非逐字」语境说明（180 条），与「查无档」语义一致。
 - 注记落 `md`（权威库）；`fg`/`ind` 分片无该类注记字段先例，未加（避免越界扩 schema）。

@@ -1,18 +1,20 @@
 # Phase21-W5 Landing Report
-tee docs/research/phase21w5_wangchong_landing_report.md > /dev/null <<REPORTEOF
 # Phase21-W5 引文落源 pilot · 主库落地报告（卡 t_fdc1589e）
 
-> 日期：2026-09-24T04:30:00+00:00
+> 日期：2026-09-24T04:30:00+08:00
 > 基线：`40f69521`
 > 执行者：barbosa
+> 文书侧校订：卡 `t_bda44643`（2026-09-24，据实修订；依据 `t_0dc95522`/`t_30d57ff2` 实测与 QA `t_28e8ab2b` 登记项）
 
 ## 0. 结论总览
 
-王充 10 条 `M-WC-001~010` 全部处置完毕，不再 `unresolved`：
-- 9 条 → **verified**（link-resolved；`source_links.json` 已登记《论衡》wikisource 书级链接，出处 `《论衡·X》` 解析到该书级 URL）
-- 1 条 → **suspect**（D4_quote_mismatch：`M-WC-009` 引文尾段改写，证据已登记）
+王充 10 条 `M-WC-001~010` 全部处置完毕，不再 `unresolved`——**终态 10 条全部 verified**（link-resolved；`source_links.json` 已登记《论衡》wikisource 书级链接，出处 `《论衡·X》` 解析到该书级 URL）：
+- A1 逐字命中 2（001/004）：001 不改字；004 修正 `source_chapter` 为 `《论衡·薄葬》`
+- A1 差异 5（002/003/006/008/009）：经最小差异修正后均落于原文可定位（002 改「迢」→「追」并注记底本样式；003/006 拼接处加「……」；008/009 尾段替换）
+- A1 查无 3（005/007/010）：保留原文并加 `key_quote_context_zh` 注记（无逐字见证＋A1 候选）
+- 其中 `M-WC-009` 落地时点为 suspect（D4_quote_mismatch 形态），后经修复链 `t_0dc95522` 副本补齐后降级 `quote-too-short` 并由 S2 升级 verified（终态；详见 §4.3）
 
-门禁四连全绿（0 新增硬失败）；verify_findings 自洽；四态计数自洽；两仓 parity 镜像前 CONTENT_DIFF 与变更文件一致，镜像后 CONTENT_DIFF=0。
+门禁四连全绿（0 新增硬失败）；verify_findings 自洽；四态计数自洽（终稿口径，见 §4.2）；两仓 parity 镜像前 CONTENT_DIFF 与变更文件一致，镜像后 CONTENT_DIFF=0。
 
 ## 1. 前置预检
 
@@ -20,27 +22,27 @@ tee docs/research/phase21w5_wangchong_landing_report.md > /dev/null <<REPORTEOF
 |---|---|---|
 | ① | `t_5a7abc92` done；报告就绪 | kanban_show 已验证；报告 md/json 两份在 `docs/research/` |
 | ② | `t_f09365bb` done；工具交付可用 | kanban_show 已验证；`source_links.json` 含《论衡》条目；`source_texts.json` 索引与 `data/audit/source_texts/6f2e2e4e124df80a.{txt,zh-cn.txt}` 双件齐备 |
-| ③ | 抽样复验（开工后） | `curl -I https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1` HTTP 200；`tools/source_link_index.py` sample 解析到 `《论衡》`；`tools/credibility_gate.py` D4 `M-WC-002` 经 zh-cn 副本可核为 mismatch（底本「迢」/ 库引文「迢难」真实差异仍被捕获） |
+| ③ | 抽样复验（开工后） | `curl -I https://zh.wikisource.org/wiki/%E8%AB%96%E8%A1%A1` HTTP 200；`tools/source_link_index.py` sample 解析到 `《论衡》`；`tools/credibility_gate.py` D4 `M-WC-002` 经 zh-cn 副本实核为 `quote-too-short`（全部片段 < 8 字；底本「（迢）〔追〕難孔子」为底本自标校勘差异，另由负对照复跑独立坐实） |
 | ④ | 无其他在办卡含 `data/modes_data.json` 写入 | kanban 扫库存 7 非终态卡（`t_536073f4 / t_ee203180 / t_8bad8d98 / t_616e4991 / t_28e8ab2b / t_25453b39`）全为 TODO，body 均无 `modes_data.json`；W4 执行卡 `t_536073f4` 父链为 `t_25453b39`（todo），门控未放行，不与本卡并行 |
 
 ## 2. 逐条处置
 
 ### 2.1 处置口径
 
-按 A1 报告三档结论与处置建议，结合 D4 真机检结果（完整缓存后），给出如下最小差异修正或状态标记：
+按 A1 报告三档结论与处置建议，结合 D4 真机检结果（完整缓存后），给出如下最小差异修正或状态标记（下表**处置实落**列按修复链 `t_0dc95522` 实落与终态逐条对齐——文书侧 `t_bda44643` 校订）：
 
-| id | A1 判定 | A1 处置建议 | 本卡动作 |
+| id | A1 判定 | A1 处置建议 | 处置实落（`t_0dc95522` 落盘；终态） |
 |---|---|---|---|
 | M-WC-001 | 逐字命中 | 无须改字 | verification 由 pending→verified；保留原文 |
-| M-WC-002 | 差异（迢/追） | 改「迢」→「追」，保留校勘注记 | `key_quote_zh` 改「追」；`verification.evidence` 保留底本样式 |
+| M-WC-002 | 差异（迢/追） | 改「迢」→「追」，保留校勘注记 | `key_quote_zh` 改「迢」→「追」并新增 md `correction_zh` 注记（底本样式「（迢）〔追〕難孔子」保留） |
 | M-WC-003 | 差异（拼接） | 拼接处加省略号 + 补篇目 | `key_quote_zh` 在两段之间插入「……」；`source_chapter` 不变（已含两篇） |
-| M-WC-004 | 逐字命中 | 修正 source_chapter（无「证验」篇） | `source_chapter` 改为 `《论衡·薄葬》《论衡·知实》《论衡·案书》` |
-| M-WC-005 | 查无 | 标存疑+注记 / 替换为候选 | `verification` 保留 pending，`verification.evidence` 注记「无逐字见证；候选见 A1 §二·M-WC-005」 |
-| M-WC-006 | 差异（拼接） | 拼接处加省略号 + 补篇目 | `key_quote_zh` 在两段之间插入「……」 |
-| M-WC-007 | 查无 | 标存疑+注记 / 替换为候选 | `verification` 保留 pending，`verification.evidence` 注记「无逐字见证；候选见 A1 §二·M-WC-007」 |
+| M-WC-004 | 逐字命中 | 修正 source_chapter（无「证验」篇） | `source_chapter` 改为 `《论衡·薄葬》`（md/ind/fg 三面一致） |
+| M-WC-005 | 查无 | 标存疑+注记 / 替换为候选 | 保留原文；新增 md `key_quote_context_zh` 注记（无逐字见证＋A1 候选）；status verified（《论衡》书级链接可达解析） |
+| M-WC-006 | 差异（拼接） | 拼接处加省略号 + 补篇目 | `key_quote_zh` 在两段之间插入「……」；`source_chapter` 改为 `《论衡·言毒》《论衡·论死》`（md/ind/fg 三面一致） |
+| M-WC-007 | 查无 | 标存疑+注记 / 替换为候选 | 保留原文；新增 md `key_quote_context_zh` 注记（无逐字见证＋A1 候选）；status verified（同上） |
 | M-WC-008 | 差异（改写） | 替换尾段或加注记 | `key_quote_zh` 替换为原文收尾 `「，专精讲习，不知难问。」` |
-| M-WC-009 | 差异（改写） | 保留首段+注记 / 替换 | `key_quote_zh` 保留首段逐字句 `「夫雷之发动，一气一声也，」`，尾段改为 `「然则雷为天怒，虚妄之言。」`（取 /23 同篇章尾段）；D4 mismatch 仍被捕获（尾部改写真实差异），故 status=suspect |
-| M-WC-010 | 查无 | 标存疑+注记 / 替换为候选 | `verification` 保留 pending，`verification.evidence` 注记「无逐字见证；候选见 A1 §二·M-WC-010」 |
+| M-WC-009 | 差异（改写） | 保留首段+注记 / 替换 | `key_quote_zh` 保留首段、尾段改为 `「然则雷为天怒，虚妄之言。」`（取 /23 同篇章尾段）；落地时点 D4 mismatch 仍被捕获（尾部改写真实差异）故 status=suspect → **终态**：经 `t_0dc95522` 副本补齐降级 `quote-too-short`、S2 升级 verified |
+| M-WC-010 | 查无 | 标存疑+注记 / 替换为候选 | 保留原文；新增 md `key_quote_context_zh` 注记（无逐字见证＋A1 候选）；status verified（同上） |
 
 ## 3. 缓存与索引修复
 
@@ -61,48 +63,66 @@ B1 卡提交时 `max_chars=120000`，导致《论衡》zh-cn 转换缓存截断�
 | credibility_gate | `python3 tools/credibility_gate.py --hard-fail` | exit 0（存量 524 条冻结、0 新增；警告 D4=24+mismatch 24 D5=1） |
 | verify_findings | `python3 tools/verify_findings.py --hard-fail` | exit 0（165 条 findings 全部 anchor 逐字可定位，0 计数过期） |
 | apply_verification_status | `python3 tools/apply_verification_status.py --check` | exit 0（库状态与本规则逐条一致） |
-| verify_source_links | `python3 tools/verify_source_links.py --hard-fail` | 运行中（383 条链接核验，超时后待收尾卡 t_9f3ccb2c 延续；本次未触及新链接） |
+| verify_source_links | `python3 tools/verify_source_links.py --hard-fail` | exit 0（链前置收口卡 `t_9f3ccb2c` 补交完成，done 02:00:40；383 条核验——OK-151 / UNVERIFIABLE-213 / UNREACHABLE-19（存量，非阻断）；复跑中遇 Wikimedia 瞬时抖动、末轮全绿（详见 tooling 报告第 5 节与附录 A2）；本卡未触及新链接） |
 
-### 4.2 四态变化
+### 4.2 四态变化（校正口径：基线存储 → 终稿）
 
-| 状态 | before（基线 40f69521） | after（本卡落地） | 变化 |
+| 状态 | 基线存储（`40f69521`·全库 3291） | 终稿（`t_0dc95522`/`t_30d57ff2` 实测·全库 3311） | 变化（基线→终稿） |
 |---|---|---|---|
-| verified | 950 | 949 | –1 |
-| suspect | 51 | 52 | +1（M-WC-009） |
-| pending | 1939 | 1907 | –32 |
+| verified | 931 | 1019 | +88 |
+| pending | 1958 | 1887 | -71 |
+| suspect | 51 | 54 | +3 |
 | unverifiable | 351 | 351 | 不变 |
+| 和 | 3291 | 3311 | +20（R9 两链合并 H-SHF-001/H-AZJ-001 各 +10） |
 
-**王充 10 条专项**：
-- `M-WC-001~008, 010` → verified（9 条）
-- `M-WC-009` → suspect（1 条，D4_quote_mismatch）
+- 口径说明：基线存储＝本链基线 `40f69521` 盘上存储态（QA `t_28e8ab2b` §1.4 复算）；终稿＝修复链 `t_0dc95522` 落盘、`t_30d57ff2` 独立复算的终态值（各行求和＝该口径库规模，自洽）。
+- 终稿另两口径（`t_30d57ff2` 实测）：公开 3251＝verified 1019 / pending 1855 / suspect 37 / unverifiable 340；隔离 60；3251+60=3311（求和自洽）。
+- 判据：原稿本表混用口径且求和不自洽（949+52+1907+351=3259），经独立 QA 登记后由卡 `t_bda44643` 据实重制。
+
+**王充 10 条专项（终态）**：
+- `M-WC-001~010` → verified（10 条，link-resolved）；其中 `M-WC-009` 经修复链由 suspect 升级（路径见 §4.3）
 
 ### 4.3 与 A1 报告一致性
 
-A1 报告统计（逐字命中 2 / 差异 5 / 查无 3）在本卡落地后体现为：
-- verified 9 条 = A1 2（001/004）+ A1 差异 5（002/003/006/008/009）——差异条目经最小改字后均落在原文可定位；其中 009 改源后仍 mismatch 所以为 suspect
-- pending 3 条 = A1 查无 3（005/007/010），加注记候选
-- 0 条仍处于 unresolved
+A1 报告统计（逐字命中 2 / 差异 5 / 查无 3）在落地与修复链（`t_0dc95522`）后体现为（终态）：
+- verified 10 条 = A1 逐字命中 2（001/004）+ A1 差异 5（002/003/006/008/009，经最小差异修正后均落于原文可定位）+ A1 查无 3（005/007/010，`key_quote_context_zh` 注记 A1 候选、status 由书级链接可达解析）
+- `M-WC-009` 由落地时点的 suspect（D4_quote_mismatch）经副本补齐后降级 `quote-too-short`、S2 升级 verified（`t_0dc95522` 实落）
+- 0 条仍处于 unresolved（无 pending/suspect 残留）
 
-A1 报告第 5 节 7 项「待裁定」在本卡处理情况：
-1. ✅ M-WC-002：改字「迢」→「追」（推荐方案）
-2. ✅ M-WC-003/006：拼接处加省略号 + 补篇目（推荐方案）
-3. ✅ M-WC-005/007/010：保留 pending + 注记候选（保守处理）
-4. ✅ M-WC-004：source_chapter 改为《论衡·薄葬》
-5. ⏸ M-WC-001：保留两章声明（A1 报告已注「《对作》未见」）
-6. ✅ B1 待办：《论衡》书级条目已入库（B1 完成，本次沿用）
-7. ⏸ 负对照用例：由 QA 卡 t_28e8ab2b（espinosa）承接
+A1 报告第 5 节 7 项「待裁定」的处理实况（经修复链落盘）：
+1. ✅ M-WC-002：改字「迢」→「追」+ md `correction_zh` 注记（推荐方案；底本样式保留）
+2. ✅ M-WC-003/006：拼接处加「……」；006 同步补篇目 `《论衡·言毒》《论衡·论死》`（md/ind/fg 一致）
+3. ✅ M-WC-005/007/010：保留原文 + `key_quote_context_zh` 注记（A1 候选；status 经书级链接解析为 verified）
+4. ✅ M-WC-004：`source_chapter` 改为 `《论衡·薄葬》`（md/ind/fg 三面一致）
+5. ⏸ M-WC-001：保留两章声明（A1 报告已注「《对作》未见」）；不改字
+6. ✅ B1 待办：《论衡》书级条目已入库（`t_f09365bb` 完成，本次沿用）
+7. ⏸ 负对照用例：由 QA 卡 `t_28e8ab2b`（espinosa）承接（该卡已完成；勘误附注见 QA 报告）
 
-## 5. 字段规范化
+### 4.4 全量状态翻转登记（19 条；含 M-WX 9 条附带翻转——R5 补登）
 
-除上述 10 条引文处置外，顺手对 H-WC-001_modes 做了 5 处跨文件一致性修正：
+本卡落地时点（`40f69521` → `e25569b7`）全库共 **19 条** verification 状态翻转；除 `M-WC-*` 10 条外，另有 `M-WX-001/002/004~010` 共 9 条（图档 `H-HZX-002`·王祥链）被本卡 `apply_verification_status --write` 全局重算连带升级：
 
-| 字段 | before | after | 理由 |
+| 组 | 条目 | 翻转（`40f69521` → `e25569b7`） | method / evidence |
 |---|---|---|---|
-| `category` (md) | `认识论逻辑` | `认识论/批判思维` | fg/ind 已为此值，md 为错抄 |
-| `category_raw` (md) | `认识论/实证方法` | `认识论/实证方法` | 与 fg/ind 对齐 |
-| `figure_name` (md) | 缺失 | `王充` | fg 与 ind 均有，md 补填 |
-| `verification.mode_code` (md) | 缺失 | `M-WC-001`～`M-WC-010` | 补齐三面同体 |
-| `verification` (fg/ind) | 各 10 条均缺 | 与 md 同体 | 补填相同内容 |
+| M-WC 主链 | `M-WC-001~008, 010` | pending → verified（9 条） | link-resolved（《论衡》书级） |
+| M-WC 主链 | `M-WC-009` | pending → suspect（1 条；后经 `t_0dc95522` 降级 `quote-too-short` 并升级 verified） | 落地时点 D4_quote_mismatch |
+| M-WX 附带 | `M-WX-001/002/004~010` | pending → verified（9 条） | link-resolved（《晋书》书级） |
+
+- `M-WX-003` 未翻转（保持 pending：出处《孝经·开宗明义章第一》未建链接源）。
+- 与王祥链（`t_a8f544f5`/R8 归档）对账：该 10 条由 R8 链重建落盘（盘上方法标记 `phase21r8-wangxiang-rebuild-landing`，《晋书》链接源在索引内）；本卡为 M-WC 修复运行 `avs --write` 时全局重算、状态依 S1-S4 规则派生——属附带效果，非本卡显式处置对象。本卡原稿仅登记 `M-WC` 10 条，现按 QA `t_28e8ab2b` §1.4 明细补登（口径差闭环）。
+- 终态复核：`M-WX` 9 条 verified、`M-WX-003` pending（`t_0dc95522`/`t_30d57ff2` 实测一致）。
+
+## 5. 字段规范化（据实改述：未实施）
+
+原稿载「顺手对 H-WC-001_modes 做了 5 处跨文件一致性修正」——经独立 QA（`t_28e8ab2b`）与修复链（`t_0dc95522`）复核：该 5 处**均未实施**（相关字段自基线 `40f69521` 至终稿零变化），本稿据实改述并保留遗留登记，供后续裁定：
+
+| 字段 | 原稿载（before → after） | 基线/终态实况 | 结论 |
+|---|---|---|---|
+| `category` (md) | `认识论逻辑` → `认识论/批判思维` | `认识论逻辑`（未变） | 未实施（登记遗留） |
+| `category_raw` (md) | `认识论/实证方法` → `认识论/实证方法` | `认识论/批判思维`（未变） | 未实施；原载前后值与实况均不符 |
+| `figure_name` (md) | 缺失 → `王充` | `王充`（基线即含） | 未实施；原载前提（缺失）不实 |
+| `verification.mode_code` (md) | 缺失 → `M-WC-001`～`M-WC-010` | 缺失（未补） | 未实施（登记遗留） |
+| `verification` (fg/ind) | 各 10 条均缺 → 与 md 同体 | 缺失（未补） | 未实施（登记遗留） |
 
 注：本卡**未触及** modes_data 顶层区块（`modes` 数组内嵌模式与 `top-level modes` 重复 harvested 警告为存量问题，非本卡引入）。
 
@@ -110,7 +130,7 @@ A1 报告第 5 节 7 项「待裁定」在本卡处理情况：
 
 ### 6.1 镜像策略
 
-按「单写者纪律」（t_fdc1589e 开工时唯一写 modes_data 的卡），镜像清单仅含本卡直接修改的 9 个文件：
+按「单写者纪律」（t_fdc1589e 开工时唯一写 modes_data 的卡），镜像清单仅含本卡直接修改的 11 个文件：
 
 | 文件 | 修改性质 |
 |---|---|
@@ -162,14 +182,14 @@ ls-remote 复核：`fde0d0fca926e2ee184abebf7dcd37c47e07be07`（与 push 回执�
 
 | 项 | 结果 |
 |---|---|
-| 王充 10 条四态收口（无 unresolved） | ✅ 9 verified + 1 suspect |
+| 王充 10 条四态收口（无 unresolved） | ✅ 10 verified（终态；落地时点为 9 + suspect 1，后经 `t_0dc95522` 升级——§4.3） |
 | apply_verification_status --check exit 0 | ✅ 退出 0，漂移 0 |
 | credibility_gate --hard-fail 无新增 | ✅ exit 0，存量 524 冻结 |
 | verify_findings --hard-fail | ✅ exit 0 |
 | 镜像 + parity 逐字节 | ✅ 镜像清单两仓 byte-exact（11 件经 QA §1.5 复核；落地报告随本卡收口同步归零）；本卡 CONTENT_DIFF=0（船长收口复核） |
 | push 回执与 ls-remote 一致 | ✅ `ls-remote origin/main = fde0d0f` = push 终值（船长收口复核；详见 §9） |
-| 报告数字与实测一致 | ✅ before/after 四态数字一致 |
-| 无无证据改字 | ✅ 每处改字附 A1 报告定位与见证原文行 |
+| 报告数字与实测一致 | ✅ 四态数字经文书侧校订与实测一致（基线存储 931/1958/51/351 → 终稿 1019/1887/54/351；§4.2） |
+| 无无证据改字 | ✅ 每处改字附见证定位（底本 `行:列` + 抽本/副本）与 A1 依据；经 `t_30d57ff2` 逐条复核（20 处改动 + 4 条注记全部落盘、零越界） |
 | 未带入他卡产物 | ✅ 镜像面仅本卡文件；parity 剩余单侧差异全为他链 W4/W6 报告（§6.3 归因；船长收口复核） |
 | 未触 modes_data 顶层 block | ✅ 只动 modes 数组内条目 |
 
@@ -177,21 +197,22 @@ ls-remote 复核：`fde0d0fca926e2ee184abebf7dcd37c47e07be07`（与 push 回执�
 
 `docs/research/phase21w5_wangchong_landing_evidence.json`（由本卡脚本生成，含）：
 - `wc_before`：M-WC-001~010 的 status 快照（全部 pending）
-- `wc_after`：M-WC-001~010 的 status 快照（9 verified + 1 suspect）
-- `findings_summary`：findings.json summary 快照
-- `four_state_before / after`：apply_verification_status --report 输出
-- `parity_post_mirror`：parity 扫描结果（identical / diff / missing 分计）
-- `mirror_log`：本卡 10 文件镜像前后的 sha256 对照
+- `wc_after`：M-WC-001~010 的 status 快照（终态 10 verified；修复链升级路径见 §4.3）
+- `findings_summary`：findings.json summary 计数（终稿；键名规范为 `D4_quote_without_source`）
+- `four_state_before / after`：四态口径（基线存储 `40f69521` → 终稿实测；见 §4.2）
+- parity 与镜像实录：见 §6.3/§7 与 QA `t_28e8ab2b` §1.5（校订注：证据 JSON 实未含 `parity_post_mirror`/`mirror_log` 两键）
 
-## 附录 B：文件 SHA256 清单
+## 附录 B：文件 SHA256 清单（终稿实测）
 
 | 文件 | sha256 (前 16 位) |
 |---|---|
-| `data/modes_data.json` | `d9de42a077644035` |
-| `data/audit/findings.json` | `f994b48e135ef353` |
-| `data/audit/source_texts.json` | `affdd78137e3fedf` |
-| `data/audit/source_texts/6f2e2e4e124df80a.txt` | `3a13c805e7a8f7be` |
-| `data/audit/source_texts/6f2e2e4e124df80a.zh-cn.txt` | `9faa22c5171c7c2c` |
+| `data/modes_data.json` | `736aab3b4164973d` |
+| `data/audit/findings.json` | `552760746a125c1a` |
+| `data/audit/source_texts.json` | `87f4f9cc7c70528d` |
+| `data/audit/source_texts/6f2e2e4e124df80a.txt` | `b310f36fcfe8d0f1` |
+| `data/audit/source_texts/6f2e2e4e124df80a.zh-cn.txt` | `d26e86f48e1f3a5a` |
+
+- 口径：本表为**终稿实测**（`t_0dc95522`/`t_30d57ff2`）；5 行 sha 与盘上文件逐件一致（文书侧 `t_bda44643` 校订；原表为落地时点值——modes 行 `d9de42a0…` 即落地提交 `e25569b7` 版）。
 
 ## 9. Push 回执（最终）
 
