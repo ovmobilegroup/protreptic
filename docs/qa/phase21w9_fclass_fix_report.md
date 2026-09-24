@@ -68,6 +68,8 @@ e5ddd13f 内扫入的 W7 删除面 (RW-KAG-1..27 legacy 清理等 31 项) 为本
   2. 104 占位待补名 (registry.code_as_name) -- 回填后显示仍为代码 (无视觉变化).
   3. E1/F11 口径差: QA 校验器面向缺陷态的断言 (非 H 空名==0 / figures 聚合 hash) 在合法修复后必然翻转; 供 t_28a29244 裁定.
   4. 隔离面 (quarantined / H) 未纳入本卡.
+  5. F12 口径: pb 无 e5ddd13f 对象 (ws 执行链提交未镜像) -- QA 审计既有发现, 非本卡范围.
+  6. 仲裁项 (t_28a29244): E1 终态断言要求非 H 空名==0 与 ten 无来源现实冲突; F11 断言缺陷态 figures 聚合 hash 不变; 二者皆因合法修复翻转.
 
 ## 十, 复现
 
@@ -82,4 +84,8 @@ e5ddd13f 内扫入的 W7 删除面 (RW-KAG-1..27 legacy 清理等 31 项) 为本
 
 ## 十一, 提交/镜像/push 回执
 
-(v2 补记: ws commit, pb 镜像 commit, push 前后 ls-remote)
+- ws commit: 108e2826 (1373 files changed: 14 件改动 + 1359 移出)
+- pb 镜像 commit: ac33cba5 (13 件 byte-exact)
+- push: a7ba7f29..ac33cba5 -> origin main; ls-remote main = ac33cba53eb5b293bc9a51cf27e3c1b93f2c9a2c
+- parity (镜像后): rc=0 -- 构建图 4593 件两仓逐字节一致, 单侧 0
+- 独立校验: verify_w9_fclass_fix.py A-H 全过 (34 断言); espinosa QA 校验器 12 PASS / 3 FAIL (E1, F11, F12 为缺陷态口径, 登记待裁)

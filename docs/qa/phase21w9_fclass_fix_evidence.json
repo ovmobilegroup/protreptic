@@ -1,7 +1,7 @@
 {
  "schema": "protreptic.phase21w9_fclass_fix_evidence/v1",
  "card": "t_d7faccc5",
- "generated_at": "2026-09-24T17:46:51+0800",
+ "generated_at": "2026-09-24T17:48:45+0800",
  "chain": {
   "fix_parent": "6f298ca1",
   "recon": "8adbdabd",
@@ -1682,6 +1682,200 @@
    "merge 暂存目录（开发仓独有，非构建图）": 3,
    "开发侧 FAISS 索引二进制（无构建步骤读取；语义检索为 api/ 侧）": 1
   }
+ },
+ "parity_post_mirror": {
+  "status": "OK",
+  "workspace": "/opt/data/workspace/Protreptic",
+  "publish": "/opt/data/release/Protreptic-publish",
+  "include_untracked": true,
+  "counts": {
+   "workspace_in_boundary": 4593,
+   "publish_in_boundary": 4593,
+   "both_sides": 4593,
+   "identical": 4593,
+   "only_workspace": 0,
+   "only_publish": 0,
+   "excluded_publish": 649,
+   "excluded_workspace": 86
+  },
+  "untracked_in_boundary": {
+   "workspace": 0,
+   "publish": 0
+  },
+  "workflow_steps": [
+   "tools/apply_og_meta.py",
+   "tools/apply_site_counts.py",
+   "tools/build_daily_index.py",
+   "tools/build_figures_db.py",
+   "tools/build_graph_data.py",
+   "tools/build_og_images.py",
+   "tools/build_search_index.py",
+   "tools/build_sitemap.py",
+   "tools/build_sw.py",
+   "tools/build_unified_index.py",
+   "tools/credibility_gate.py",
+   "tools/export_static_site.py",
+   "tools/gen_web_site_counts.py",
+   "tools/pages_preflight.py",
+   "tools/prerender_routes.py",
+   "tools/verify_source_links.py"
+  ],
+  "workflow_triggers": [
+   ".github/workflows/pages.yml",
+   "mkdocs.pages.yml",
+   "web/**",
+   "docs/**",
+   "tools/export_static_site.py",
+   "tools/gen_web_site_counts.py",
+   "tools/pages_preflight.py",
+   "tools/prerender_routes.py",
+   "tools/prerender_body.py",
+   "tools/build_unified_index.py",
+   "tools/build_search_index.py",
+   "tools/build_graph_data.py",
+   "tools/build_og_images.py",
+   "tools/apply_og_meta.py",
+   "tools/apply_site_counts.py",
+   "tools/site_counts.py",
+   "tools/og_image.py",
+   "tools/build_sw.py",
+   "tools/build_pwa_icons.py",
+   "tools/subset_og_font.py",
+   "tools/assets/fonts/**",
+   "tools/credibility_gate.py",
+   "tools/credibility_baseline.py",
+   "tools/verify_source_links.py",
+   "tools/_quarantine.py",
+   "data/source_links.json",
+   "data/audit/credibility_baseline.json",
+   "data/audit/source_links_baseline.json",
+   "data/modes_data.json",
+   "api/protreptic.db"
+  ],
+  "diffs": [],
+  "excluded_sides": {
+   "workspace": 86,
+   "publish": 649,
+   "only_workspace": 82,
+   "only_publish": 645
+  },
+  "excluded_by_rule": [
+   {
+    "pattern": "data/intl_figures/*",
+    "reason": "开发侧原始分片留档（637 个，仅发布仓有）：grep tools/ + .github/ + web/src/ 无任何读取；不参与构建、不上线，故不纳入（如要按「源库留档」更严口径纳入，删掉本规则并执行 publish→workspace 同步）",
+    "workspace": 0,
+    "publish": 610,
+    "only_workspace": 0,
+    "only_publish": 610
+   },
+   {
+    "pattern": "data/backup_merge_*/*",
+    "reason": "入库前备份目录（开发仓独有，非构建图）",
+    "workspace": 66,
+    "publish": 0,
+    "only_workspace": 66,
+    "only_publish": 0
+   },
+   {
+    "pattern": "data/merge_staging_*/*",
+    "reason": "merge 暂存目录（开发仓独有，非构建图）",
+    "workspace": 3,
+    "publish": 0,
+    "only_workspace": 3,
+    "only_publish": 0
+   },
+   {
+    "pattern": "*/node_modules/*",
+    "reason": "依赖目录（.gitignore）",
+    "workspace": 0,
+    "publish": 0,
+    "only_workspace": 0,
+    "only_publish": 0
+   },
+   {
+    "pattern": "*.bak*",
+    "reason": "备份文件（.bak / .bak_<tag>）",
+    "workspace": 15,
+    "publish": 4,
+    "only_workspace": 11,
+    "only_publish": 0
+   },
+   {
+    "pattern": "data/all_sources.json",
+    "reason": "开发侧汇总实验产物，无构建步骤读取",
+    "workspace": 1,
+    "publish": 0,
+    "only_workspace": 1,
+    "only_publish": 0
+   },
+   {
+    "pattern": "data/semantic_index.faiss",
+    "reason": "开发侧 FAISS 索引二进制（无构建步骤读取；语义检索为 api/ 侧）",
+    "workspace": 1,
+    "publish": 0,
+    "only_workspace": 1,
+    "only_publish": 0
+   },
+   {
+    "pattern": "docs/archive/*",
+    "reason": "mkdocs.pages.yml `exclude_docs: archive/` → 不构建、不上线",
+    "workspace": 0,
+    "publish": 34,
+    "only_workspace": 0,
+    "only_publish": 34
+   },
+   {
+    "pattern": "web/dist/*",
+    "reason": "前端构建产物（CI 现场 npm run build 生成；发布仓为加 .gitignore 之前的历史跟踪）",
+    "workspace": 0,
+    "publish": 1,
+    "only_workspace": 0,
+    "only_publish": 1
+   },
+   {
+    "pattern": "web/public/data/*",
+    "reason": "静态数据产物（tools/export_static_site.py 现场生成；.gitignore 已声明）",
+    "workspace": 0,
+    "publish": 0,
+    "only_workspace": 0,
+    "only_publish": 0
+   },
+   {
+    "pattern": "tools/assets/fonts/.cache/*",
+    "reason": "字体源缓存（.gitignore；只在本机重新子集化时用）",
+    "workspace": 0,
+    "publish": 0,
+    "only_workspace": 0,
+    "only_publish": 0
+   },
+   {
+    "pattern": "tools/gc/gc",
+    "reason": "开发侧工具二进制，未被任何构建步骤调用",
+    "workspace": 0,
+    "publish": 0,
+    "only_workspace": 0,
+    "only_publish": 0
+   }
+  ],
+  "excluded_reasons": {
+   "备份文件（.bak / .bak_<tag>）": 19,
+   "开发侧原始分片留档（637 个，仅发布仓有）：grep tools/ + .github/ + web/src/ 无任何读取；不参与构建、不上线，故不纳入（如要按「源库留档」更严口径纳入，删掉本规则并执行 publish→workspace 同步）": 610,
+   "mkdocs.pages.yml `exclude_docs: archive/` → 不构建、不上线": 34,
+   "前端构建产物（CI 现场 npm run build 生成；发布仓为加 .gitignore 之前的历史跟踪）": 1,
+   "开发侧汇总实验产物，无构建步骤读取": 1,
+   "入库前备份目录（开发仓独有，非构建图）": 66,
+   "merge 暂存目录（开发仓独有，非构建图）": 3,
+   "开发侧 FAISS 索引二进制（无构建步骤读取；语义检索为 api/ 侧）": 1
+  }
+ },
+ "receipt": {
+  "ws_commit": "108e2826",
+  "pb_commit": "ac33cba5",
+  "push_range": "a7ba7f29..ac33cba5",
+  "ls_remote_main": "ac33cba53eb5b293bc9a51cf27e3c1b93f2c9a2c",
+  "parity_post": "rc=0: 4593 build-graph files byte-identical, 0 single-side",
+  "files_ws": 1373,
+  "files_pb": 13
  },
  "verify_espinosa": {
   "schema": "protreptic.phase21w9_fclass.qa_verify/v1",
