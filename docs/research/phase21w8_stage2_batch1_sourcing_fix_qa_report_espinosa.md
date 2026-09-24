@@ -115,7 +115,11 @@ v2 终档直读 + 见证复核：
 
 ## 9 提交回执（本卡 A/B 两笔 + 镜像 P1/P2 + push）
 
-<!--RECEIPT-B-->
+- 提交 A（内容面・工作仓）：ws `e7bb276c`「素材包端修复独立 QA t_a407cb32 espinosa」3 件（校验器 + 报告 md + 证据 JSON）；零主库写、零数据改动。
+- 镜像 P1（发布仓）：pb `0b86fd2`（3 件 byte-exact）；push 实测 `c167cb5..0b86fd2`；ls-remote 复核 == `0b86fd22…`（== LOCAL）✓。
+- 本笔 B（回执补记・工作仓）与其发布仓镜像 P2 随批 push；终核：ls-remote == pb LOCAL（B/P2 具体号见发布仓日志与 kanban t_a407cb32 回执）。
+- parity（终核时点）：本卡面 3+3 件 0 差异；全局 content-diff 仅他卡在途 `docs/architecture/static_data_manifest.json`。
+- 本卡结论：**PASS**（PRE 32/32、POST 33/33、+扫描 36/36、+push 面 35/35；五面全绿、零 FAIL、零新增缺陷）。
 
 ---
 

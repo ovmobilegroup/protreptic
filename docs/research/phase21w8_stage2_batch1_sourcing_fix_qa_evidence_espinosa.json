@@ -950,6 +950,12 @@
   }
  },
  "receipts": {
-  "status": "pending-commit-B"
+  "status": "done",
+  "commit_a": "e7bb276c4a0155d1b5693a2fc844d955aa8fa8bb",
+  "mirror_p1": "0b86fd22432bbe52858ced1300a39a57487a063d",
+  "push_p1": "c167cb5..0b86fd2",
+  "ls_remote_after_p1": "0b86fd22432bbe52858ced1300a39a57487a063d",
+  "commit_b": "本笔（回执补记）；其号见发布仓镜像 P2 消息与 kanban t_a407cb32 回执",
+  "mirror_p2": "随批 push；终核 ls-remote == pb LOCAL（值见 kanban t_a407cb32 回执）"
  }
 }
