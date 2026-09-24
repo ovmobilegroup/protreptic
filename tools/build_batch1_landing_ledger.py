@@ -54,6 +54,20 @@ def sha16(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
 
 
+
+def _bracket_variants(name):
+    """书名键归一：《X》与 X 两形（素材包用裸名，仓内键带《》）。"""
+    bare = str(name).strip("《》")
+    return (bare, "《%s》" % bare)
+
+
+def _pick(d, name):
+    """按归一后键取条目，返回 (实际键, 条目) 或 (None, None)。"""
+    for k in _bracket_variants(name):
+        if k in d:
+            return k, d[k]
+    return None, None
+
 def load(p: Path):
     return json.loads(p.read_text(encoding="utf-8"))
 
@@ -150,17 +164,17 @@ def main() -> int:
     merged = {e["key"]: e for e in sources["entries"] if e["key"] in cached}
     for b in pack["per_book"]:
         key = b["book"]
-        ce = cached.get(key) or {}
+        ce = _pick(cached, key)[1] or {}
         books.append({
             "book": key, "rank": b.get("rank"), "heat_spans": b.get("heat_spans"),
             "fetch": b.get("fetch"), "primary_title": b.get("primary_title"),
             "index_status": b.get("index_status"), "coverage": b.get("coverage"),
             "chars": b.get("chars"), "method": b.get("method"), "file": b.get("file"),
             "quotes_n": b.get("quotes_n"), "verdict_counts": b.get("verdict_counts"),
-            "link_in_source_links": key in links,
-            "link_url": (links.get(key) or {}).get("url"),
-            "cache_merged_into_source_texts": key in merged,
-            "cache_sha256_matches": (merged.get(key) or {}).get("sha256") == ce.get("sha256") if ce else None,
+            "link_in_source_links": _pick(links, key)[0] is not None,
+            "link_url": (_pick(links, key)[1] or {}).get("url"),
+            "cache_merged_into_source_texts": _pick(merged, key)[0] is not None,
+            "cache_sha256_matches": ((_pick(merged, key)[1] or {}).get("sha256") == ce.get("sha256")) if ce else None,
             "note": BOOK_NOTES.get(key, ""),
         })
 
@@ -203,9 +217,10 @@ def main() -> int:
         "side_effect_flips_outside_pack": [c for c in flips["pending->verified"] + flips["pending->suspect"] if c not in item_codes],
         "d4_census": {"%s|%s" % k: v for k, v in sorted(d4_census.items())},
         "new_d4_findings": [{"mode_code": f.get("mode_code"), "anchor": f.get("anchor"), "summary": f.get("summary")} for f in d4_new],
-        "links_added": {k: v.get("url") for k, v in links.items() if k in {b["book"] for b in pack["per_book"]}},
+        "links_added": {k: v.get("url") for k, v in links.items()
+                        if any(k in _bracket_variants(nb) for nb in {b["book"] for b in pack["per_book"]})},
         "cross_lang_linked": [b["book"] for b in pack["per_book"]
-                              if b.get("verdict_counts", {}).get("cross-lang") and b["book"] in links],
+                              if b.get("verdict_counts", {}).get("cross-lang") and _pick(links, b["book"])[0] is not None],
         "cache_merged": sorted(merged),
     }
     ok = True

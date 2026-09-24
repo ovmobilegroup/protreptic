@@ -128,25 +128,25 @@
     "before": {
       "counts": {
         "all": {
-          "verified": 932,
-          "pending": 1828,
-          "suspect": 51,
+          "verified": 949,
+          "pending": 1959,
+          "suspect": 52,
           "unverifiable": 351
         },
-        "all_total": 3162,
+        "all_total": 3311,
         "published": {
-          "verified": 932,
-          "pending": 1796,
-          "suspect": 34,
+          "verified": 949,
+          "pending": 1927,
+          "suspect": 35,
           "unverifiable": 340
         },
-        "published_total": 3102,
+        "published_total": 3251,
         "quarantined_total": 60
       },
       "inputs": {
-        "data/modes_data.json": "4a22a7e501fe72f4",
-        "data/source_links.json": "bfce3a5b222134a0",
-        "data/audit/findings.json": "995fa043c38f9451"
+        "data/modes_data.json": "6f3f4580397614f5",
+        "data/source_links.json": "9df3d1fd210b2926",
+        "data/audit/findings.json": "b73e32806f7c910b"
       }
     },
     "after": {
@@ -192,10 +192,10 @@
         "variant": 2,
         "quote": 2
       },
-      "link_in_source_links": false,
-      "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "link_in_source_links": true,
+      "link_url": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E7%B9%81%E9%9C%B2",
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": "底本=繁露全文 73,419 字（coverage complete，wikitext）；查无主因：引文属《举贤良对策》（源在漢書卷056，非本底本）或改写/节引"
     },
     {
@@ -215,8 +215,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     },
     {
@@ -236,10 +236,10 @@
         "variant": 1,
         "null": 8
       },
-      "link_in_source_links": false,
-      "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "link_in_source_links": true,
+      "link_url": "https://zh.wikisource.org/wiki/%E8%B1%A1%E5%B1%B1%E5%85%88%E7%94%9F%E5%85%A8%E9%9B%86_%28%E5%9B%9B%E9%83%A8%E5%8F%A2%E5%88%8A%E6%9C%AC%29",
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": "底本=象山先生全集 四部叢刊本 278,151 字（html-render 逐页）；查无主因：节引/改写（多入近似档）"
     },
     {
@@ -258,10 +258,10 @@
         "variant": 4,
         "null": 6
       },
-      "link_in_source_links": false,
-      "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "link_in_source_links": true,
+      "link_url": "https://zh.wikisource.org/wiki/%E8%8D%98%E5%AD%90%E6%B3%A8_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": "底本=荘子注 四庫全書本 render 全文 302,754 字（raw→render 已救回）；查无主因：四庫异体字/SKchar 洞 + 节引，逐字判定受字形限制"
     },
     {
@@ -280,10 +280,10 @@
         "null": 7,
         "variant": 3
       },
-      "link_in_source_links": false,
-      "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "link_in_source_links": true,
+      "link_url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29",
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": "底本=道德經 王弼本 32,760 字（single-page）；查无主因：引文多出自《老子指略》《周易略例》《周易注》等王弼他著（源外），非本底本收录"
     },
     {
@@ -303,8 +303,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     },
     {
@@ -324,8 +324,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     },
     {
@@ -345,8 +345,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     },
     {
@@ -364,10 +364,10 @@
       "verdict_counts": {
         "null": 9
       },
-      "link_in_source_links": false,
-      "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "link_in_source_links": true,
+      "link_url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8",
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": "底本=二程遺書（wikisource；与《二程遗书》同源同文件 163,542 字）；查无主因：节引拼接/改写"
     },
     {
@@ -386,10 +386,10 @@
         "null": 3,
         "variant": 5
       },
-      "link_in_source_links": false,
-      "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "link_in_source_links": true,
+      "link_url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8",
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": "与《河南程氏遗书》共用同一底本文件（wiki 重定向）；本批 3 条查无均属节引/改写"
     },
     {
@@ -409,8 +409,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     },
     {
@@ -430,8 +430,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     },
     {
@@ -450,10 +450,10 @@
         "variant": 4,
         "null": 4
       },
-      "link_in_source_links": false,
-      "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "link_in_source_links": true,
+      "link_url": "https://zh.wikisource.org/wiki/%E6%96%87%E5%8F%B2%E9%80%9A%E7%BE%A9",
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": "底本=文史通义全文；4 条查无均入近似档（节引/改写），最长片段与底本可对上"
     },
     {
@@ -473,8 +473,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     },
     {
@@ -494,8 +494,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     },
     {
@@ -535,10 +535,10 @@
         "null": 4,
         "variant": 3
       },
-      "link_in_source_links": false,
-      "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "link_in_source_links": true,
+      "link_url": "https://zh.wikisource.org/wiki/%E5%A4%AA%E6%A5%B5%E5%9C%96%E8%AA%AA",
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": "底本=太极图说全文（331 字符短篇；批1 索引标 index-page 系 MIN_CHARS 阈值误判，对照按全文做）；4 条查无均属撮述/改写"
     },
     {
@@ -558,8 +558,8 @@
       },
       "link_in_source_links": false,
       "link_url": null,
-      "cache_merged_into_source_texts": false,
-      "cache_sha256_matches": null,
+      "cache_merged_into_source_texts": true,
+      "cache_sha256_matches": true,
       "note": ""
     }
   ],
@@ -5021,7 +5021,16 @@
         "summary": null
       }
     ],
-    "links_added": {},
+    "links_added": {
+      "《春秋繁露》": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E7%B9%81%E9%9C%B2",
+      "《陆九渊集》": "https://zh.wikisource.org/wiki/%E8%B1%A1%E5%B1%B1%E5%85%88%E7%94%9F%E5%85%A8%E9%9B%86_%28%E5%9B%9B%E9%83%A8%E5%8F%A2%E5%88%8A%E6%9C%AC%29",
+      "《庄子注》": "https://zh.wikisource.org/wiki/%E8%8D%98%E5%AD%90%E6%B3%A8_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+      "《老子注》": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29",
+      "《河南程氏遗书》": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8",
+      "《二程遗书》": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8",
+      "《文史通义》": "https://zh.wikisource.org/wiki/%E6%96%87%E5%8F%B2%E9%80%9A%E7%BE%A9",
+      "《太极图说》": "https://zh.wikisource.org/wiki/%E5%A4%AA%E6%A5%B5%E5%9C%96%E8%AA%AA"
+    },
     "cross_lang_linked": [],
     "cache_merged": [
       "《二程遗书》",
@@ -5042,6 +5051,146 @@
       "《诗学》",
       "《陆九渊集》"
     ]
+  },
+  "qa_addendum": {
+    "qa_card": "t_e727be57",
+    "qa_by": "espinosa",
+    "qa_at": "2026-09-24T12:37:40+08:00",
+    "scope": "W8 Stage2 批1 交付链独立复核（素材包 / 落地 / 门禁 / 证据 / 回执 / 边界）",
+    "corrections": [
+      {
+        "id": "QA-F0",
+        "field": "four_state.before",
+        "issue": "原值取自数据仓 2026-09-22 陈旧 verification_status.json（modes 3162 口径），非本次落地操作的真实前态；与报告 §4.2、证据 four_state、本账本 status_flips（+69/+3）三向不一致",
+        "was": {
+          "all": [
+            932,
+            1828,
+            51,
+            351
+          ],
+          "all_total": 3162,
+          "published": [
+            932,
+            1796,
+            34,
+            340
+          ],
+          "published_total": 3102,
+          "inputs_sha16": {
+            "modes": "4a22a7e501fe72f4",
+            "links": "bfce3a5b222134a0",
+            "findings": "995fa043c38f9451"
+          }
+        },
+        "now": {
+          "all": [
+            949,
+            1959,
+            52,
+            351
+          ],
+          "all_total": 3311,
+          "published": [
+            949,
+            1927,
+            35,
+            340
+          ],
+          "published_total": 3251,
+          "inputs_sha16": {
+            "modes": "6f3f4580397614f5",
+            "links": "9df3d1fd210b2926",
+            "findings": "b73e32806f7c910b"
+          }
+        },
+        "basis": "备份态 data/backup_merge_W8B1_20260924_113742/ 全量重算（顶级 modes 3311）：949/1959/52/351；published 剔除 60 隔离后 949/1927/35/340；与报告 §4.2 / 证据 four_state / status_flips 一致",
+        "fixed_by": "QA 卡 t_e727be57；连带刷新 report 附录 B 与 evidence outputs 两处跨引（详见 QA 报告/证据）"
+      },
+      {
+        "id": "QA-C1",
+        "field": "books[18] 书级链接/缓存列",
+        "issue": "键格式缺陷：素材包书名无《》，仓内键带《》。原实现直接按裸名查表，致 8 条已建链接被记 False、link_url 全 null；17 条已合并缓存被记 False、cache_sha256_matches 全 None",
+        "was": {
+          "link_in_source_links_true_count": 0,
+          "cache_merged_into_source_texts_true_count": 0
+        },
+        "now": {
+          "link_in_source_links_true_count": 8,
+          "cache_merged_into_source_texts_true_count": 17,
+          "cache_sha256_matches_true_count": 17
+        },
+        "basis": "按一《》归一对齐后重算（source_links 8 键、source_texts 17 键、索引 sha 逐条 ==）；根因已在工具面修正（build_batch1_landing_ledger.py 键归一），重生成不再复现",
+        "fixed_by": "QA 卡 t_e727be57"
+      },
+      {
+        "id": "QA-C2",
+        "field": "cross_checks.links_added",
+        "issue": "同一键格式缺陷致空映射 {}；实际新增链接 8 条（与证据 outputs.links_added=8 不符）",
+        "was": {},
+        "now": {
+          "《春秋繁露》": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E7%B9%81%E9%9C%B2",
+          "《陆九渊集》": "https://zh.wikisource.org/wiki/%E8%B1%A1%E5%B1%B1%E5%85%88%E7%94%9F%E5%85%A8%E9%9B%86_%28%E5%9B%9B%E9%83%A8%E5%8F%A2%E5%88%8A%E6%9C%AC%29",
+          "《庄子注》": "https://zh.wikisource.org/wiki/%E8%8D%98%E5%AD%90%E6%B3%A8_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+          "《老子注》": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29",
+          "《河南程氏遗书》": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8",
+          "《二程遗书》": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8",
+          "《文史通义》": "https://zh.wikisource.org/wiki/%E6%96%87%E5%8F%B2%E9%80%9A%E7%BE%A9",
+          "《太极图说》": "https://zh.wikisource.org/wiki/%E5%A4%AA%E6%A5%B5%E5%9C%96%E8%AA%AA"
+        },
+        "basis": "按一《》归一重算；与 source_links +8 键、证据 outputs 一致",
+        "fixed_by": "QA 卡 t_e727be57"
+      }
+    ],
+    "findings": [
+      {
+        "id": "QA-F1",
+        "level": "真差异",
+        "target": "素材包 W8-2 + 本账本",
+        "detail": "省略号分段核验缺口：match_quote 在首段标点命中即早退，未按文档口径『……两侧各自须命中』执行；3 条『核中·繁简对读』的逐字命中结论仅对首段成立，尾段未命中（改写 / 库内未见 / 他书），『逐字命中』表述与素材包计数对 3 条夸大",
+        "items": [
+          "M-GX-007",
+          "M-WB-010",
+          "M-ZDY-005"
+        ],
+        "suggest": "另卡修正 build_batch1_sourcing_pack.py matcher（分段全命中）+ 素材包重算 + 计数重述；本卡不重算（保持零新增判定规则）"
+      },
+      {
+        "id": "QA-F2",
+        "level": "真差异",
+        "target": "素材包 W8-2 + 本账本",
+        "detail": "标点归一集缺口（未含 U+FE30『︰』等）致 M-ZXC-008（章学诚 / 《文史通义》）误判 查无·待核（近似档）：引文与底本仅差两处『：』vs『︰』及文末句号，按标点归一应命中（繁简对读）",
+        "items": [
+          "M-ZXC-008"
+        ],
+        "suggest": "同上另卡修正后重算（预计 null 55→54、variant 22→23）"
+      },
+      {
+        "id": "QA-F3",
+        "level": "口径差",
+        "target": "本账本（已修正）",
+        "detail": "four_state.before 陈旧口径，已由本 QA 修正（见 corrections[0]）"
+      },
+      {
+        "id": "QA-F4",
+        "level": "口径差",
+        "target": "素材包报告 §2.1",
+        "detail": "『见证位逐条随行』对 25 条已核不成立：实际 21 条带见证；4 条节引型（sent-verified，无单点见证）显式登记为 null"
+      },
+      {
+        "id": "QA-F5",
+        "level": "窗口差",
+        "target": "门禁链接面 / 工作区",
+        "detail": "链接复核 0 dead / 0 new 双时点一致（OK/不可达数 173/5 vs 父卡 146/32 为网络时点差）；工作区有并发卡在途改动（W5 链），W8 提交态以 git 树复核为准"
+      },
+      {
+        "id": "QA-F6",
+        "level": "口径差（已修正）",
+        "target": "本账本",
+        "detail": "书级链接/缓存列（C1）与 links_added 映射（C2）由键格式缺陷致错，QA 已按真值修正 + 工具根因修复；four_state.before 陈旧口径（C0）同批修正"
+      }
+    ],
+    "verdict": "PASS"
   },
   "verdict": "PASS"
 }

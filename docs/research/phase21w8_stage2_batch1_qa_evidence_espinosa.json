@@ -1,0 +1,283 @@
+{
+  "schema": "protreptic.w8_stage2_batch1.qa_evidence_espinosa/v1",
+  "task": "t_e727be57",
+  "qa_by": "espinosa",
+  "generated_at": "2026-09-24T12:53:56+08:00",
+  "method": [
+    "备份态全量重算",
+    "W8 数据锚点=eda40f5b 提交树复核",
+    "素材包生成器按算法重跑对照",
+    "四门禁独立 worktree 复跑",
+    "镜像提交级 blob 逐件对照",
+    "push 面 ls-remote"
+  ],
+  "refs": {
+    "qa_commit": null,
+    "w8_commit": "eda40f5b",
+    "ws_w8": "004332b4",
+    "publish_w8": "023a794",
+    "publish_w8_fix": "c522897",
+    "backup_dir": "data/backup_merge_W8B1_20260924_113742",
+    "qa_report_sha16": "119323bfafddb49c",
+    "verifier_sha16": "86d0315a0379c370"
+  },
+  "shas": {
+    "ledger": "4dc2d8e354c9c0c2",
+    "ledger_before": "66c193dfbab851a8",
+    "landing_report": "0eb4c12bd8ddb347",
+    "landing_report_before": "e07b602a94339d9d",
+    "landing_evidence": "72b7718b79ce8dbe",
+    "landing_evidence_before": "8bf2aec01c54af36",
+    "ledger_tool": "81d6329c92afe97c",
+    "ledger_tool_before": "a76908ddd0e32778",
+    "w8_scale": {
+      "modes_data": "75932c9f2d48d136",
+      "source_links": "dc0aebf0c2bbdadc",
+      "source_texts": "daf6d882907126a5",
+      "findings": "0292f0580ab03293",
+      "verification_status": "22944f54fb5e51a2",
+      "siteCounts": "a698abe698bb3db3"
+    },
+    "before_scale": {
+      "modes_data": "6f3f4580397614f5",
+      "source_links": "9df3d1fd210b2926",
+      "findings": "b73e32806f7c910b",
+      "source_texts": "c4aba5ff870f375e",
+      "siteCounts": "4e8e99110830a807"
+    }
+  },
+  "checks": [
+    {
+      "id": "F1",
+      "name": "账本 four_state.before 真值",
+      "result": "PASS(post-fix)",
+      "detail": "949/1959/52/351（3311）；发布 949/1927/35/340（3251）；inputs sha 6f3f4580/9df3d1fd/b73e3280"
+    },
+    {
+      "id": "F3",
+      "name": "账本 after inputs sha16 == W8 锚点文件",
+      "result": "PASS"
+    },
+    {
+      "id": "F2",
+      "name": "qa_addendum 齐备",
+      "result": "PASS",
+      "detail": "QA-C0/C1/C2 + QA-F1..F6"
+    },
+    {
+      "id": "F4a",
+      "name": "报告附录 B 账本 sha16",
+      "result": "PASS",
+      "detail": "== 4dc2d8e354c9c0c2"
+    },
+    {
+      "id": "F4b",
+      "name": "证据 outputs 账本/报告 sha16",
+      "result": "PASS"
+    },
+    {
+      "id": "F4c",
+      "name": "证据 outputs 账本工具 sha16",
+      "result": "PASS",
+      "detail": "== 81d6329c92afe97c"
+    },
+    {
+      "id": "C0a",
+      "name": "账本书级列",
+      "result": "PASS(post-fix)",
+      "detail": "8 链接 / 17 缓存合并 / sha 全等；修正前 0/0/None 全 False"
+    },
+    {
+      "id": "C0b",
+      "name": "links_added == 8",
+      "result": "PASS(post-fix)",
+      "detail": "修正前 {}"
+    },
+    {
+      "id": "C1a",
+      "name": "四态重算",
+      "result": "PASS",
+      "detail": "1018/1887/55/351（3311）"
+    },
+    {
+      "id": "C1b",
+      "name": "发布口径重算",
+      "result": "PASS",
+      "detail": "1018/1855/38/340（3251）"
+    },
+    {
+      "id": "C2b",
+      "name": "翻面多重集差",
+      "result": "PASS",
+      "detail": "69 verified / 3 suspect / 合计 72"
+    },
+    {
+      "id": "C2c",
+      "name": "包外零翻面",
+      "result": "PASS"
+    },
+    {
+      "id": "C3",
+      "name": "154/154 引文零改写",
+      "result": "PASS"
+    },
+    {
+      "id": "C4",
+      "name": "findings +3",
+      "result": "PASS",
+      "detail": "M-WB-003/004/008 D4；165→168；D4_quote_mismatch 24→27"
+    },
+    {
+      "id": "C5",
+      "name": "source_texts +17",
+      "result": "PASS",
+      "detail": "97→114；旧 97 未动；17 与 W8 索引 file/sha 同源"
+    },
+    {
+      "id": "C6",
+      "name": "source_links +8 跨语言零链接",
+      "result": "PASS"
+    },
+    {
+      "id": "C7",
+      "name": "siteCounts",
+      "result": "PASS",
+      "detail": "1018/1845/38/1046/1304/2262；sha a698abe6"
+    },
+    {
+      "id": "C8a",
+      "name": "QA 文件镜面",
+      "result": "PASS(post-mirror)",
+      "detail": "7 件 byte-exact"
+    },
+    {
+      "id": "C8b",
+      "name": "W8 镜像回执",
+      "result": "PASS",
+      "detail": "023a794 50 件 + c522897 2 件逐件 blob 相等"
+    },
+    {
+      "id": "C9",
+      "name": "push 面",
+      "result": "PASS",
+      "detail": "发布仓 HEAD == ls-remote（复核时点 58f361d / W8 提交为其祖先）"
+    },
+    {
+      "id": "G1..G3",
+      "name": "门禁复跑 @eda40f5b",
+      "result": "PASS",
+      "detail": "credibility 存量524/新增0；findings 新增0；status --check 零漂移"
+    },
+    {
+      "id": "G4",
+      "name": "链接门禁复跑",
+      "result": "PASS",
+      "detail": "0 dead / 0 new（OK/不可达 173/5 时点值）"
+    }
+  ],
+  "demo_prefix": {
+    "cmd": "python3 tools/verify_batch1_qa_espinosa.py --at eda40f5b",
+    "result": "17 PASS / 6 FAIL",
+    "fails": [
+      "F1",
+      "F1b",
+      "F1c",
+      "F2",
+      "C0a",
+      "C0b"
+    ],
+    "note": "六项恰为已修正缺陷的断言；复核后态全 PASS"
+  },
+  "gates_at_w8": {
+    "credibility": "rc0 存量 524（D1 60/D2 9/D3 0/D6 455）新增 0；D4 census 55/11/27/117/3176（3331 口径）",
+    "verify_findings": "rc0 new 0",
+    "apply_verification_status_check": "rc0 零漂移",
+    "verify_source_links": "rc0 0 dead / 0 new"
+  },
+  "d4_recount": {
+    "usable_keys": {
+      "before": 39,
+      "after": 55
+    },
+    "matched": {
+      "before": 4,
+      "after": 11
+    },
+    "mismatch": {
+      "before": 24,
+      "after": 27
+    },
+    "note": "3311 口径独立重算（gate 3331 口径为 117 q-t-s / 3176 unchecked）"
+  },
+  "findings": [
+    {
+      "id": "QA-F1",
+      "level": "真差异",
+      "target": "素材包端（建议另卡）",
+      "items": [
+        "M-GX-007",
+        "M-WB-010",
+        "M-ZDY-005"
+      ],
+      "detail": "省略号分段 early-return；3 条核中的逐字命中仅首段成立（改写/未见/他书）；建议 matcher 修正 + 重算"
+    },
+    {
+      "id": "QA-F2",
+      "level": "真差异",
+      "target": "素材包端（建议另卡）",
+      "items": [
+        "M-ZXC-008"
+      ],
+      "detail": "U+FE30 标点集缺口 → 误判查无·待核；实际仅差『：/︰』与文末句号；预计 null 55→54 / variant 22→23"
+    },
+    {
+      "id": "QA-F0",
+      "level": "真差异（已修正）",
+      "target": "账本",
+      "detail": "four_state.before 陈旧口径 → 修正为备份态实测"
+    },
+    {
+      "id": "QA-F6",
+      "level": "真差异（已修正）",
+      "target": "账本 + 工具",
+      "detail": "书级列/links_added 键格式缺陷 → 数据修正 + 工具根因修复"
+    },
+    {
+      "id": "QA-F4",
+      "level": "口径差",
+      "target": "素材包报告 §2.1",
+      "detail": "『见证位逐条随行』实为 21/25（4 条节引型显式 null）"
+    },
+    {
+      "id": "QA-F5",
+      "level": "窗口差",
+      "target": "链接面/工作区",
+      "detail": "链接时点分布变化；并发卡在途（后已入库）"
+    }
+  ],
+  "corrections_applied": [
+    "four_state.before 修正（L2→L3 链）",
+    "账本书级列修正",
+    "links_added 修正",
+    "工具键归一修复",
+    "报告/证据跨引刷新"
+  ],
+  "parity": {
+    "live_snapshot_2026-09-24T12:2x": {
+      "diffs": 7,
+      "attribution": "全部 W5FIX 在途文件（非 W8）",
+      "boundary": "both 2579 / identical 2572"
+    },
+    "after_mirror": null
+  },
+  "mirror_push": {
+    "p1": null,
+    "push_range": null,
+    "ls_remote": null
+  },
+  "window_notes": [
+    "W8 锚点=eda40f5b（数据面与 004332b4 同）",
+    "W5 数据侧修复 t_0dc95522 后续入库（verified 1018→1019/suspect 55→54），不计入 W8",
+    "门禁 3331 vs 顶级 3311 口径差（含内嵌 20 条）"
+  ]
+}
