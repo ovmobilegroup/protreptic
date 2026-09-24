@@ -123,5 +123,84 @@
     "data/scenarios_zh.json",
     "data/scenarios_en.json",
     "data/scenario_tags.json"
-  ]
+  ],
+  "addendum": {
+    "note": "本卡注册面落盘（四件数据件）+ 站链/门禁/parity 复核记录（2026-09-24 追记；不改变既有 inputs/after/counts 口径）",
+    "recorded_at": "2026-09-24T21:23:10+0800",
+    "data_files": {
+      "rule": "按落盘包 docs/scratch/phase21_ksgl_landing 逐字节落盘（沿 HLX/IQB 口径）；figures 与 individuals 同名件内容一致；_modes.json = combined_library_entries.json 副本",
+      "files": {
+        "data/figures/H-KSGL-001.json": {
+          "sha256": "9b387302fabd920e501b4e8993d578e7742eb1cfec895b33aada20ec7f48db60",
+          "bytes": 73569,
+          "same_as": "docs/scratch/phase21_ksgl_landing/figures/H-KSGL-001.json"
+        },
+        "data/figures/H-KSGL-001_modes.json": {
+          "sha256": "a49afdf6df719a483308b7da62da9a6d5df504adfa553ab5235ff6bc9a07035d",
+          "bytes": 65256,
+          "same_as": "docs/scratch/phase21_ksgl_landing/figures/H-KSGL-001_modes.json"
+        },
+        "data/individuals/H-KSGL-001.json": {
+          "sha256": "6394842f14ccbd26b6d16a8962493134b4af56abd63f370c50710a01a57ac042",
+          "bytes": 8473,
+          "pre": "79a09f0acd5d3af3（上游落地卡空壳 18 键 3895 B，本卡按 v6 归档置换 32 键）",
+          "same_as": "docs/scratch/phase21_ksgl_landing/individuals/H-KSGL-001.json"
+        },
+        "data/individuals/H-KSGL-001_modes.json": {
+          "sha256": "a49afdf6df719a483308b7da62da9a6d5df504adfa553ab5235ff6bc9a07035d",
+          "bytes": 65256,
+          "pre": "be8141a52a6d79d0（空壳 list[10] 4732 B，本卡按 v6 归档置换）",
+          "same_as": "docs/scratch/phase21_ksgl_landing/individuals/H-KSGL-001_modes.json"
+        }
+      },
+      "landing_pack_files": {
+        "docs/scratch/phase21_ksgl_landing/modes_library_entries.json": "437eb17cce258eec8291667017d785cecab0fe3b0e7b34b4f464fbfc66a9d438",
+        "docs/scratch/phase21_ksgl_landing/combined_library_entries.json": "a49afdf6df719a483308b7da62da9a6d5df504adfa553ab5235ff6bc9a07035d",
+        "docs/scratch/phase21_ksgl_landing/id_mapping.tsv": "4d86bd39285665e604073a2d78762101c4f85e5e04cba677386ebce99e4fc7b8",
+        "docs/scratch/phase21_ksgl_landing/category_mapping.tsv": "e274cd3b93090f52dec1b765d3fbb49da4a56484b87c93c9e4fd5dc0a23d4d2c",
+        "docs/scratch/phase21_ksgl_landing/top_block_proposal.json": "0948a7d640373a23c3c981d30d8e657d80bfca0642341dcfc1e18ffcdf4f2359",
+        "docs/scratch/phase21_ksgl_landing/scenario_notes.json": "5bcb6c875a28f17cc3d6343e87291e04eb7503a9eb421ba33a5ef188ed342f4e",
+        "docs/scratch/phase21_ksgl_landing/figures/H-KSGL-001.json": "9b387302fabd920e501b4e8993d578e7742eb1cfec895b33aada20ec7f48db60",
+        "docs/scratch/phase21_ksgl_landing/figures/H-KSGL-001_modes.json": "a49afdf6df719a483308b7da62da9a6d5df504adfa553ab5235ff6bc9a07035d",
+        "docs/scratch/phase21_ksgl_landing/individuals/H-KSGL-001.json": "6394842f14ccbd26b6d16a8962493134b4af56abd63f370c50710a01a57ac042",
+        "docs/scratch/phase21_ksgl_landing/individuals/H-KSGL-001_modes.json": "a49afdf6df719a483308b7da62da9a6d5df504adfa553ab5235ff6bc9a07035d"
+      }
+    },
+    "station_chain": {
+      "note": "本卡合并后站链复跑（export_static_site -> gen_web_site_counts -> apply_site_counts -> build_daily_index -> pages_preflight --stage data）；锚点由并集口径落定",
+      "export_at": "2026-09-24T12:43:02+00:00（web/public/data/meta.json）",
+      "counts": {
+        "figures": 1028,
+        "mode_summaries": 3331,
+        "mode_summaries_published": 3271,
+        "mode_by_figure_shards": 323,
+        "modes_raw": 3341,
+        "modes_empty_mode_code_dropped": 10
+      },
+      "anchors": {
+        "EXPECT_FIGURES": 1028,
+        "EXPECT_MODES": 3331,
+        "EXPECT_BY_FIGURE": 323,
+        "same_in": [
+          "tools/export_static_site.py",
+          "tools/pages_preflight.py"
+        ],
+        "rationale": "EXPECT_MODES 3321->3331 含本卡 +10（去重口径）；EXPECT_BY_FIGURE 322->323 含本卡 H-KSGL-001 分片；KSGL 分片 by-figure/H-KSGL-001.json 已落 web/public/data（1028/323 与发布仓同值）",
+        "note": "本卡状态锚点由同批收尾卡 t_30a3e702 落定并提交；后续 H-LMNJ/H-NWY 卡负责下一轮 bump（非本卡面）"
+      },
+      "preflight": {
+        "cmd": "python3 tools/pages_preflight.py --stage data",
+        "rc": 0,
+        "out": "figures=1028 modes=3331 published=3271 隔离命中=0 figure shards=1028 by-figure shards=323"
+      },
+      "findings": {
+        "audit_meta.modes_file_sha256": "35a98f75c0fb2740847aebb00ebab1ce4586cd3b08fb517639486979bf7a5102（= 本卡 after 态；finding 硬失败 0 新增）"
+      }
+    },
+    "scope_exclusions": {
+      "backup_dir": "data/backup_merge_H-KSGL-001_20260924_203503/ 不入库（parity EXCLUDE_RULES：data/backup_merge_*/* 开发仓独有，非构建图）",
+      "db": "api/protreptic.db 非合并卡链条面（W4 清档后基线 figures 1028 / thinking_modes 2858）",
+      "other": "未触碰工具副本面（tools/json/*）、_duplicates 归档、其它卡在制文件"
+    }
+  }
 }
