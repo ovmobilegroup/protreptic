@@ -91,4 +91,7 @@ python3 tools/verify_phase21w7_cleanup_qa_espinosa.py --quick   # quick: 19/19 P
 
 ## 11. 回执
 
-（提交面实测补记见 commit B；本报告与其 JSON 同批镜像发布仓，byte-exact。）
+- ws A=`39e3eb21f067f36c7cebcac92e75e12e29b5e451`（报告/证据/校验器 3 件）
+- pb P1=`06835050229bc4afe3287c509681835fe9b04313`（3 件 byte-exact 镜像）
+- push `3129539..0683505`（origin/main）；ls-remote == 本地 HEAD（0683505）
+- 本回执补记（ws B）随批镜像 pb P2；零数据改动
