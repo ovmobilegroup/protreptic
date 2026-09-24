@@ -1,0 +1,146 @@
+{
+ "schema": "protreptic.phase21w11.ci_lifespan_fix_evidence/v1",
+ "task": {
+  "id": "t_0ec6fb57",
+  "title": "Phase21 W11 CI 存量红修复：lifespan_backfill 清单刷新 + CI Test 步骤复验",
+  "assignee": "bustamante",
+  "parent": "t_bda44643",
+  "date_local": "2026-09-24",
+  "report": "docs/research/phase21w11_ci_lifespan_manifest_fix_report.md"
+ },
+ "boundary": {
+  "touched": [
+   "data/audit/lifespan_backfill.json (refresh only)",
+   "docs/research/phase21w11_ci_lifespan_manifest_fix_report.md",
+   "docs/research/phase21w11_ci_lifespan_manifest_fix_evidence.json"
+  ],
+  "not_touched": [
+   "markdown-lint chain (backup H-ZX-001.md)",
+   "W7/W9/QA in-flight paths",
+   "any data content"
+  ],
+  "zero_data_content_changes": true
+ },
+ "precheck": {
+  "board_db": "/opt/data/kanban/boards/protreptic/kanban.db",
+  "concurrent_workers_same_repo": [
+   "t_d24e11bc (W7, elcano; disjoint write face)",
+   "t_a407cb32 (QA, espinosa; read-only)"
+  ],
+  "worktree_clean_at_start": true,
+  "index_lock": null
+ },
+ "baseline": {
+  "ws_check_rc_before": 1,
+  "pb_check_rc_before": 1,
+  "ws_keys_on_disk_before": 476,
+  "ws_keys_recomputed_before": 576,
+  "d45_before": "37/38 (Z7 FAIL)"
+ },
+ "refresh": {
+  "command": "python3 tools/backfill_lifespans.py",
+  "files_scanned": 361,
+  "keys_legacy": 312,
+  "keys_new": 576,
+  "key_collisions_dropped": [
+   "H-MZ-001"
+  ],
+  "files_without_usable_years": 49,
+  "mode_figures_covered": 304,
+  "modes_covered": 3081,
+  "modes_total": 3331,
+  "still_no_date": 23,
+  "still_no_date_reasons": {
+   "no-figure-file": 16,
+   "missing-birth-or-death-field": 7
+  },
+  "newly_covered_vs_legacy": 147
+ },
+ "assertions": {
+  "diff_stat": {
+   "files_changed": 1,
+   "file": "data/audit/lifespan_backfill.json",
+   "insertions": 591,
+   "deletions": 242,
+   "ws": true,
+   "pb": true
+  },
+  "check_after": {
+   "ws_rc": 0,
+   "pb_rc": 0,
+   "text": "576 keys / 304 covered / 23 no-date / byte-identical"
+  },
+  "d45_after": {
+   "passed": "38/38",
+   "rc": 0,
+   "z7": "PASS"
+  },
+  "byte_same": {
+   "ws_sha256": "f70cff92f54bd6f96674e36acd0e6fae834cec46bd94aa5baf23021f7d1735b9",
+   "pb_sha256": "f70cff92f54bd6f96674e36acd0e6fae834cec46bd94aa5baf23021f7d1735b9",
+   "cmp": "identical",
+   "probe_reference_sha256": "012695d6e65f04e031504bcc60de7c3ebff88bb1b4c41941a92d27f8823c996d",
+   "old_on_disk_sha256": "286479b5ba37fe45275fe7ab04fdc129ba4160e3210aceaf4a9752d9853577ee"
+  }
+ },
+ "reference_reconciliation": {
+  "probe_reference": {
+   "keys": 575,
+   "covered": 303,
+   "no_date": 22,
+   "files": 358,
+   "sha": "012695d6..."
+  },
+  "actual": {
+   "keys": 576,
+   "covered": 304,
+   "no_date": 23,
+   "files": 361,
+   "sha": "f70cff92..."
+  },
+  "delta_cause": {
+   "key_added": "H-AZJ-001",
+   "no_date_added": "H-SHF-001 (missing-birth-or-death-field)",
+   "new_files": [
+    "H-AZJ-001.json",
+    "H-AZJ-001_modes.json",
+    "H-SHF-001.json"
+   ],
+   "other_changes": "none (0 add / 0 remove / 0 value change vs probe)"
+  }
+ },
+ "old_manifest_delta": {
+  "keys_available": "476 -> 576 (+100)",
+  "mode_figures_covered": "230 -> 304 (+74)",
+  "still_no_date": "55 -> 23 (-32)",
+  "figure_files_scanned": "330 -> 361",
+  "modes_total": "2888 -> 3331",
+  "modes_covered": "2318 -> 3081",
+  "keys_removed": 0
+ },
+ "local_ci_chain": {
+  "credibility_gate_hard_fail_rc": 0,
+  "verify_source_links_hard_fail_rc": 0,
+  "test_credibility_gate_modes": "7/7",
+  "test_credibility_gate": "6/6",
+  "test_credibility_d45": "38/38",
+  "verify_findings_hard_fail_rc": 0,
+  "test_verify_findings_modes": "8/8",
+  "test_check_repo_parity": "19/19",
+  "test_thinking_mode_selector": "ALL TESTS PASSED (11)"
+ },
+ "commits": {
+  "ws_commit": "PENDING_COMMIT1",
+  "pb_commit": "PENDING_COMMIT1",
+  "push": "PENDING",
+  "ls_remote": "PENDING"
+ },
+ "ci": {
+  "run_sha": "PENDING",
+  "run_url": "PENDING",
+  "run_conclusion": "PENDING",
+  "gate_negative_test_step": "PENDING"
+ },
+ "network_note": "LAN https proxy intermittent TLS failure vs GitHub this round; push & API queries done direct + retry.",
+ "receipt": "回执补记：见报告文末与本卡 comment（提交面 + CI 面回填）"
+}

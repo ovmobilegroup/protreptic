@@ -3,9 +3,9 @@
  "generated_by": "tools/backfill_lifespans.py",
  "source": "data/figures/*.json × data/modes_data.json（现场重算，幂等）",
  "counting_rule": "覆盖 = 该 figure_code 能在 load_figure_lifespans() 的取值面里取到完整 birth_year+death_year；取不到的一律进 still_no_date，不得算作已覆盖",
- "figure_files_scanned": 330,
- "keys_available": 476,
- "keys_legacy": 278,
+ "figure_files_scanned": 361,
+ "keys_available": 576,
+ "keys_legacy": 312,
  "key_collisions_dropped": [
   {
    "key": "H-MZ-001",
@@ -22,12 +22,6 @@
   }
  ],
  "files_without_usable_years": [
-  {
-   "file": "data/figures/H-DY-001.json",
-   "reason": "missing-birth-or-death-field",
-   "raw_birth": 1980,
-   "raw_death": null
-  },
   {
    "file": "data/figures/H-DZS-001.json",
    "reason": "missing-birth-or-death-field",
@@ -47,12 +41,6 @@
    "raw_death": "370"
   },
   {
-   "file": "data/figures/H-HZX-002.json",
-   "reason": "year-not-parseable",
-   "raw_birth": "unknown",
-   "raw_death": "unknown"
-  },
-  {
    "file": "data/figures/H-HuoQuBing-001.json",
    "reason": "birth-after-death",
    "raw_birth": "140",
@@ -66,12 +54,6 @@
   },
   {
    "file": "data/figures/H-Kautilya-001.json",
-   "reason": "missing-birth-or-death-field",
-   "raw_birth": null,
-   "raw_death": null
-  },
-  {
-   "file": "data/figures/H-LC-001.json",
    "reason": "missing-birth-or-death-field",
    "raw_birth": null,
    "raw_death": null
@@ -104,12 +86,6 @@
    "file": "data/figures/H-MODERN-001.json",
    "reason": "missing-birth-or-death-field",
    "raw_birth": 1960,
-   "raw_death": null
-  },
-  {
-   "file": "data/figures/H-MODERN-002.json",
-   "reason": "missing-birth-or-death-field",
-   "raw_birth": 1970,
    "raw_death": null
   },
   {
@@ -155,10 +131,22 @@
    "raw_death": null
   },
   {
+   "file": "data/figures/H-SHF-001.json",
+   "reason": "missing-birth-or-death-field",
+   "raw_birth": 1763,
+   "raw_death": null
+  },
+  {
    "file": "data/figures/H-Shotoku-001.json",
    "reason": "missing-birth-or-death-field",
    "raw_birth": null,
    "raw_death": null
+  },
+  {
+   "file": "data/figures/H-TIN-001.json",
+   "reason": "birth-after-death",
+   "raw_birth": 1936,
+   "raw_death": 0
   },
   {
    "file": "data/figures/H-TOU-001.json",
@@ -179,7 +167,19 @@
    "raw_death": null
   },
   {
+   "file": "data/figures/H-AZJ-001_modes.json",
+   "reason": "missing-birth-or-death-field",
+   "raw_birth": null,
+   "raw_death": null
+  },
+  {
    "file": "data/figures/H-DRK-001_modes.json",
+   "reason": "missing-birth-or-death-field",
+   "raw_birth": null,
+   "raw_death": null
+  },
+  {
+   "file": "data/figures/H-DYC-001_modes.json",
    "reason": "missing-birth-or-death-field",
    "raw_birth": null,
    "raw_death": null
@@ -192,12 +192,6 @@
   },
   {
    "file": "data/figures/H-FXT-001_modes.json",
-   "reason": "missing-birth-or-death-field",
-   "raw_birth": null,
-   "raw_death": null
-  },
-  {
-   "file": "data/figures/H-GHZ-163_modes.json",
    "reason": "missing-birth-or-death-field",
    "raw_birth": null,
    "raw_death": null
@@ -216,12 +210,6 @@
   },
   {
    "file": "data/figures/H-HZX-001_modes.json",
-   "reason": "missing-birth-or-death-field",
-   "raw_birth": null,
-   "raw_death": null
-  },
-  {
-   "file": "data/figures/H-HZX-002_modes.json",
    "reason": "missing-birth-or-death-field",
    "raw_birth": null,
    "raw_death": null
@@ -270,12 +258,6 @@
   },
   {
    "file": "data/figures/H-ONO-001_modes.json",
-   "reason": "missing-birth-or-death-field",
-   "raw_birth": null,
-   "raw_death": null
-  },
-  {
-   "file": "data/figures/H-SJL-001_modes.json",
    "reason": "missing-birth-or-death-field",
    "raw_birth": null,
    "raw_death": null
@@ -335,19 +317,33 @@
    "raw_death": null
   }
  ],
- "modes_total": 2888,
- "mode_figures_total": 285,
- "mode_figures_covered": 230,
- "modes_covered": 2318,
- "mode_figures_covered_legacy": 110,
- "modes_covered_legacy": 1118,
+ "modes_total": 3331,
+ "mode_figures_total": 327,
+ "mode_figures_covered": 304,
+ "modes_covered": 3081,
+ "mode_figures_covered_legacy": 157,
+ "modes_covered_legacy": 1611,
  "newly_covered_figures": [
+  {
+   "figure_code": "AMP",
+   "modes": 10,
+   "birth_year": 1775,
+   "death_year": 1836,
+   "provenance": "data/figures/H-AMP-001.json:birth_year/death_year"
+  },
   {
    "figure_code": "AMU",
    "modes": 10,
    "birth_year": 1872,
    "death_year": 1928,
    "provenance": "data/figures/H-AMU-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "ARR",
+   "modes": 10,
+   "birth_year": 1859,
+   "death_year": 1927,
+   "provenance": "data/figures/H-ARR-001.json:birth_year/death_year"
   },
   {
    "figure_code": "AUR",
@@ -376,6 +372,20 @@
    "birth_year": -304,
    "death_year": -232,
    "provenance": "data/figures/H-Ashoka-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "BAI",
+   "modes": 10,
+   "birth_year": 772,
+   "death_year": 846,
+   "provenance": "data/figures/H-BAI-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "BAN",
+   "modes": 10,
+   "birth_year": 49,
+   "death_year": 120,
+   "provenance": "data/figures/H-BAN-001.json:birth_year/death_year"
   },
   {
    "figure_code": "BORG",
@@ -420,6 +430,13 @@
    "provenance": "data/figures/H-Bohr-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "CAI",
+   "modes": 10,
+   "birth_year": 177,
+   "death_year": 239,
+   "provenance": "data/figures/H-CAI-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "CL",
    "modes": 10,
    "birth_year": 61,
@@ -460,6 +477,13 @@
    "birth_year": 1540,
    "death_year": 1596,
    "provenance": "data/figures/H-DRA-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "DUM",
+   "modes": 10,
+   "birth_year": 803,
+   "death_year": 852,
+   "provenance": "data/figures/H-DUM-001.json:birth_year/death_year"
   },
   {
    "figure_code": "DUR",
@@ -532,11 +556,25 @@
    "provenance": "data/figures/H-FEYNMAN-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "GIB",
+   "modes": 10,
+   "birth_year": 1839,
+   "death_year": 1903,
+   "provenance": "data/figures/H-GIB-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "GJG",
    "modes": 10,
    "birth_year": 1893,
    "death_year": 1980,
    "provenance": "data/figures/H-GJG-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "GUA",
+   "modes": 10,
+   "birth_year": 1220,
+   "death_year": 1300,
+   "provenance": "data/figures/H-GUA-001.json:birth_year/death_year"
   },
   {
    "figure_code": "Gauss",
@@ -686,11 +724,39 @@
    "provenance": "data/figures/H-Khwarizmi-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "LAN",
+   "modes": 10,
+   "birth_year": 1908,
+   "death_year": 1968,
+   "provenance": "data/figures/H-LAN-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "LB",
    "modes": 10,
    "birth_year": 1311,
    "death_year": 1375,
    "provenance": "data/figures/H-LB-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "LIN",
+   "modes": 10,
+   "birth_year": 1907,
+   "death_year": 1971,
+   "provenance": "data/figures/H-LIN-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "LIQ",
+   "modes": 10,
+   "birth_year": 1084,
+   "death_year": 1155,
+   "provenance": "data/figures/H-LIQ-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "LIS",
+   "modes": 10,
+   "birth_year": 813,
+   "death_year": 858,
+   "provenance": "data/figures/H-LIS-001.json:birth_year/death_year"
   },
   {
    "figure_code": "LISHIMIN",
@@ -705,6 +771,13 @@
    "birth_year": 1873,
    "death_year": 1929,
    "provenance": "data/figures/H-LQC-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "LUO",
+   "modes": 10,
+   "birth_year": 1330,
+   "death_year": 1400,
+   "provenance": "data/figures/H-LUO-001.json:birth_year/death_year"
   },
   {
    "figure_code": "LY",
@@ -882,6 +955,20 @@
    "provenance": "data/figures/H-NOB-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "OHM",
+   "modes": 10,
+   "birth_year": 1789,
+   "death_year": 1854,
+   "provenance": "data/figures/H-OHM-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "OUY",
+   "modes": 10,
+   "birth_year": 1007,
+   "death_year": 1072,
+   "provenance": "data/figures/H-OUY-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "PAD",
    "modes": 10,
    "birth_year": 717,
@@ -896,11 +983,25 @@
    "provenance": "data/figures/H-POI-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "PUS",
+   "modes": 10,
+   "birth_year": 1640,
+   "death_year": 1715,
+   "provenance": "data/figures/H-PUS-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "QCJ",
    "modes": 10,
    "birth_year": 1148,
    "death_year": 1227,
    "provenance": "data/figures/H-QCJ-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "QIU",
+   "modes": 10,
+   "birth_year": 1875,
+   "death_year": 1907,
+   "provenance": "data/figures/H-QIU-001.json:birth_year/death_year"
   },
   {
    "figure_code": "QJS",
@@ -987,6 +1088,13 @@
    "provenance": "data/figures/H-SUL-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "SUS",
+   "modes": 10,
+   "birth_year": 1020,
+   "death_year": 1101,
+   "provenance": "data/figures/H-SUS-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "SUY",
    "modes": 10,
    "birth_year": 1907,
@@ -1008,6 +1116,20 @@
    "provenance": "data/figures/H-Saladin-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "TAN",
+   "modes": 10,
+   "birth_year": 1550,
+   "death_year": 1616,
+   "provenance": "data/figures/H-TAN-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "TDL",
+   "modes": 10,
+   "birth_year": 1926,
+   "death_year": 2024,
+   "provenance": "data/figures/H-TDL-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "TOKUGAWA",
    "modes": 10,
    "birth_year": 1543,
@@ -1020,6 +1142,13 @@
    "birth_year": -1481,
    "death_year": -1425,
    "provenance": "data/figures/H-TUT-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "TY",
+   "modes": 10,
+   "birth_year": 1470,
+   "death_year": 1524,
+   "provenance": "data/figures/H-TY-001.json:birth_year/death_year"
   },
   {
    "figure_code": "Tesla",
@@ -1043,6 +1172,13 @@
    "provenance": "data/figures/H-VLL-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "VOL",
+   "modes": 10,
+   "birth_year": 1745,
+   "death_year": 1827,
+   "provenance": "data/figures/H-VOL-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "VYG",
    "modes": 10,
    "birth_year": 1896,
@@ -1064,11 +1200,25 @@
    "provenance": "data/figures/H-WCY-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "WEN",
+   "modes": 10,
+   "birth_year": 1470,
+   "death_year": 1559,
+   "provenance": "data/figures/H-WEN-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "WGW",
    "modes": 10,
    "birth_year": 1877,
    "death_year": 1927,
    "provenance": "data/figures/H-WGW-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "WUC",
+   "modes": 10,
+   "birth_year": 1500,
+   "death_year": 1582,
+   "provenance": "data/figures/H-WUC-001.json:birth_year/death_year"
   },
   {
    "figure_code": "WeiQing",
@@ -1106,6 +1256,13 @@
    "provenance": "data/figures/H-XuanZang-001.json:birth_year/death_year"
   },
   {
+   "figure_code": "YAN",
+   "modes": 10,
+   "birth_year": 961,
+   "death_year": 1040,
+   "provenance": "data/figures/H-YAN-001.json:birth_year/death_year"
+  },
+  {
    "figure_code": "YJ",
    "modes": 10,
    "birth_year": 635,
@@ -1125,6 +1282,20 @@
    "birth_year": 1678,
    "death_year": 1735,
    "provenance": "data/figures/H-YZ-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "ZEN",
+   "modes": 10,
+   "birth_year": 999,
+   "death_year": 1078,
+   "provenance": "data/figures/H-ZEN-001.json:birth_year/death_year"
+  },
+  {
+   "figure_code": "ZHU",
+   "modes": 10,
+   "birth_year": 1461,
+   "death_year": 1527,
+   "provenance": "data/figures/H-ZHU-001.json:birth_year/death_year"
   },
   {
    "figure_code": "ZSS",
@@ -1184,10 +1355,20 @@
   }
  ],
  "lifespans": {
+  "AMP": {
+   "birth_year": 1775,
+   "death_year": 1836,
+   "provenance": "data/figures/H-AMP-001.json:birth_year/death_year"
+  },
   "AMU": {
    "birth_year": 1872,
    "death_year": 1928,
    "provenance": "data/figures/H-AMU-001.json:birth_year/death_year"
+  },
+  "ARR": {
+   "birth_year": 1859,
+   "death_year": 1927,
+   "provenance": "data/figures/H-ARR-001.json:birth_year/death_year"
   },
   "AUR": {
    "birth_year": 1872,
@@ -1208,6 +1389,16 @@
    "birth_year": -304,
    "death_year": -232,
    "provenance": "data/figures/H-Ashoka-001.json:birth_year/death_year"
+  },
+  "BAI": {
+   "birth_year": 772,
+   "death_year": 846,
+   "provenance": "data/figures/H-BAI-001.json:birth_year/death_year"
+  },
+  "BAN": {
+   "birth_year": 49,
+   "death_year": 120,
+   "provenance": "data/figures/H-BAN-001.json:birth_year/death_year"
   },
   "BORG": {
    "birth_year": 1899,
@@ -1239,6 +1430,11 @@
    "death_year": 1962,
    "provenance": "data/figures/H-Bohr-001.json:birth_year/death_year"
   },
+  "CAI": {
+   "birth_year": 177,
+   "death_year": 239,
+   "provenance": "data/figures/H-CAI-001.json:birth_year/death_year"
+  },
   "CL": {
    "birth_year": 61,
    "death_year": 121,
@@ -1254,6 +1450,16 @@
    "death_year": 814,
    "provenance": "data/figures/H-Charlemagne-001.json:birth_year/death_year"
   },
+  "Coubertin": {
+   "birth_year": 1863,
+   "death_year": 1937,
+   "provenance": "data/figures/H-COU-001.json:birth_year/death_year"
+  },
+  "Cusanus": {
+   "birth_year": 1401,
+   "death_year": 1464,
+   "provenance": "data/figures/H-CUS-001.json:birth_year/death_year"
+  },
   "Cyrus": {
    "birth_year": -600,
    "death_year": -530,
@@ -1268,6 +1474,11 @@
    "birth_year": 1540,
    "death_year": 1596,
    "provenance": "data/figures/H-DRA-001.json:birth_year/death_year"
+  },
+  "DUM": {
+   "birth_year": 803,
+   "death_year": 852,
+   "provenance": "data/figures/H-DUM-001.json:birth_year/death_year"
   },
   "DUR": {
    "birth_year": 1858,
@@ -1319,10 +1530,20 @@
    "death_year": 1988,
    "provenance": "data/figures/H-FEYNMAN-001.json:birth_year/death_year"
   },
+  "GIB": {
+   "birth_year": 1839,
+   "death_year": 1903,
+   "provenance": "data/figures/H-GIB-001.json:birth_year/death_year"
+  },
   "GJG": {
    "birth_year": 1893,
    "death_year": 1980,
    "provenance": "data/figures/H-GJG-001.json:birth_year/death_year"
+  },
+  "GUA": {
+   "birth_year": 1220,
+   "death_year": 1300,
+   "provenance": "data/figures/H-GUA-001.json:birth_year/death_year"
   },
   "Gauss": {
    "birth_year": 1777,
@@ -1374,6 +1595,11 @@
    "death_year": 430,
    "provenance": "data/figures/H-AUG-001.json:birth_year/death_year"
   },
+  "H-AZJ-001": {
+   "birth_year": 1912,
+   "death_year": 2000,
+   "provenance": "data/figures/H-AZJ-001.json:birth_year/death_year"
+  },
   "H-BA-001": {
    "birth_year": 1626,
    "death_year": 1705,
@@ -1394,6 +1620,16 @@
    "death_year": 1832,
    "provenance": "data/figures/H-BEN-001.json:birth_year/death_year"
   },
+  "H-BG-001": {
+   "birth_year": 32,
+   "death_year": 92,
+   "provenance": "data/figures/H-BG-001.json:birth_year/death_year"
+  },
+  "H-BLT-001": {
+   "birth_year": -427,
+   "death_year": -347,
+   "provenance": "data/figures/H-BLT-001.json:birth_year/death_year"
+  },
   "H-BV-001": {
    "birth_year": 1908,
    "death_year": 1986,
@@ -1408,6 +1644,21 @@
    "birth_year": -551,
    "death_year": -399,
    "provenance": "data/figures/H-CC-001.json:birth_year/death_year"
+  },
+  "H-CHB-001": {
+   "birth_year": 1904,
+   "death_year": 1989,
+   "provenance": "data/figures/H-CHB-001.json:birth_year/death_year"
+  },
+  "H-CHE-001": {
+   "birth_year": 1032,
+   "death_year": 1085,
+   "provenance": "data/figures/H-CHE-001.json:birth_year/death_year"
+  },
+  "H-CHI-001": {
+   "birth_year": 1033,
+   "death_year": 1107,
+   "provenance": "data/figures/H-CHI-001.json:birth_year/death_year"
   },
   "H-CHN-001": {
    "birth_year": 1911,
@@ -1434,10 +1685,20 @@
    "death_year": 1831,
    "provenance": "data/figures/H-CW-001.json:birth_year/death_year"
   },
+  "H-CY-001": {
+   "birth_year": 1905,
+   "death_year": 1995,
+   "provenance": "data/figures/H-CY-001.json:birth_year/death_year"
+  },
   "H-CYP-001": {
    "birth_year": 1868,
    "death_year": 1940,
    "provenance": "data/figures/H-CYP-001.json:birth_year/death_year"
+  },
+  "H-DA-001": {
+   "birth_year": 312,
+   "death_year": 385,
+   "provenance": "data/figures/H-DA-001.json:birth_year/death_year"
   },
   "H-DAR-001": {
    "birth_year": 1809,
@@ -1459,10 +1720,30 @@
    "death_year": 1650,
    "provenance": "data/figures/H-DKR-001.json:birth_year/death_year"
   },
+  "H-DRK-001": {
+   "birth_year": 1909,
+   "death_year": 2005,
+   "provenance": "data/figures/H-DRK-001.json:birth_year/death_year"
+  },
   "H-DSF-001": {
    "birth_year": 1821,
    "death_year": 1881,
    "provenance": "data/figures/H-DSF-001.json:birth_year/death_year"
+  },
+  "H-DY-001": {
+   "birth_year": 1859,
+   "death_year": 1952,
+   "provenance": "data/figures/H-DY-001.json:birth_year/death_year"
+  },
+  "H-DYC-001": {
+   "birth_year": 1904,
+   "death_year": 1992,
+   "provenance": "data/figures/H-DYC-001.json:birth_year/death_year"
+  },
+  "H-DZ-001": {
+   "birth_year": 1724,
+   "death_year": 1777,
+   "provenance": "data/figures/H-DZ-001.json:birth_year/death_year"
   },
   "H-EIN-001": {
    "birth_year": 1879,
@@ -1494,6 +1775,11 @@
    "death_year": 1790,
    "provenance": "data/figures/H-FRK-001.json:birth_year/death_year"
   },
+  "H-FXT-001": {
+   "birth_year": 1910,
+   "death_year": 2005,
+   "provenance": "data/figures/H-FXT-001.json:birth_year/death_year"
+  },
   "H-FYJ-001": {
    "birth_year": 1835,
    "death_year": 1901,
@@ -1514,10 +1800,25 @@
    "death_year": 1855,
    "provenance": "data/figures/H-GAU-001.json:birth_year/death_year"
   },
+  "H-GHZ-001": {
+   "birth_year": 1058,
+   "death_year": 1111,
+   "provenance": "data/figures/H-GHZ-001.json:birth_year/death_year"
+  },
   "H-GUE-001": {
    "birth_year": 1928,
    "death_year": 1967,
    "provenance": "data/figures/H-GUE-001.json:birth_year/death_year"
+  },
+  "H-GX-001": {
+   "birth_year": 252,
+   "death_year": 312,
+   "provenance": "data/figures/H-GX-001.json:birth_year/death_year"
+  },
+  "H-GYW-001": {
+   "birth_year": 1613,
+   "death_year": 1682,
+   "provenance": "data/figures/H-GYW-001.json:birth_year/death_year"
   },
   "H-HAM-001": {
    "birth_year": 1755,
@@ -1559,6 +1860,11 @@
    "death_year": 1695,
    "provenance": "data/figures/H-HZX-001.json:birth_year/death_year"
   },
+  "H-HZX-002": {
+   "birth_year": 184,
+   "death_year": 268,
+   "provenance": "data/figures/H-HZX-002.json:birth_year/death_year"
+  },
   "H-IBR-001": {
    "birth_year": 1126,
    "death_year": 1198,
@@ -1589,6 +1895,21 @@
    "death_year": 1826,
    "provenance": "data/figures/H-JEF-001.json:birth_year/death_year"
   },
+  "H-JMLS-001": {
+   "birth_year": 344,
+   "death_year": 413,
+   "provenance": "data/figures/H-JMLS-001.json:birth_year/death_year"
+  },
+  "H-JX-001": {
+   "birth_year": 1913,
+   "death_year": 2013,
+   "provenance": "data/figures/H-JX-001.json:birth_year/death_year"
+  },
+  "H-JY-001": {
+   "birth_year": -200,
+   "death_year": -168,
+   "provenance": "data/figures/H-JY-001.json:birth_year/death_year"
+  },
   "H-KD-001": {
    "birth_year": 1724,
    "death_year": 1804,
@@ -1604,6 +1925,11 @@
    "death_year": 1855,
    "provenance": "data/figures/H-KIE-001.json:birth_year/death_year"
   },
+  "H-KKQ-001": {
+   "birth_year": 1911,
+   "death_year": 1992,
+   "provenance": "data/figures/H-KKQ-001.json:birth_year/death_year"
+  },
   "H-LH-001": {
    "birth_year": 1895,
    "death_year": 1970,
@@ -1613,6 +1939,11 @@
    "birth_year": 701,
    "death_year": 762,
    "provenance": "data/figures/H-LIB-001.json:birth_year/death_year"
+  },
+  "H-LJY-001": {
+   "birth_year": 1139,
+   "death_year": 1193,
+   "provenance": "data/figures/H-LJY-001.json:birth_year/death_year"
   },
   "H-LKY-001": {
    "birth_year": 1923,
@@ -1634,10 +1965,20 @@
    "death_year": 1593,
    "provenance": "data/figures/H-LSZ-001.json:birth_year/death_year"
   },
+  "H-LUORQ-001": {
+   "birth_year": 1906,
+   "death_year": 1978,
+   "provenance": "data/figures/H-LUORQ-001.json:birth_year/death_year"
+  },
   "H-LUT-001": {
    "birth_year": 1483,
    "death_year": 1546,
    "provenance": "data/figures/H-LUT-001.json:birth_year/death_year"
+  },
+  "H-LWH-001": {
+   "birth_year": 1896,
+   "death_year": 1984,
+   "provenance": "data/figures/H-LWH-001.json:birth_year/death_year"
   },
   "H-LZ-001": {
    "birth_year": 1527,
@@ -1714,6 +2055,11 @@
    "death_year": 1725,
    "provenance": "data/figures/H-PGR-001.json:birth_year/death_year"
   },
+  "H-QIN-001": {
+   "birth_year": -280,
+   "death_year": -208,
+   "provenance": "data/figures/H-QIN-001.json:birth_year/death_year"
+  },
   "H-QXS-001": {
    "birth_year": 1911,
    "death_year": 2009,
@@ -1739,6 +2085,11 @@
    "death_year": 1450,
    "provenance": "data/figures/H-SEJ-001.json:birth_year/death_year"
   },
+  "H-SJM-001": {
+   "birth_year": -563,
+   "death_year": -483,
+   "provenance": "data/figures/H-SJM-001.json:birth_year/death_year"
+  },
   "H-SK-001": {
    "birth_year": 1031,
    "death_year": 1095,
@@ -1753,6 +2104,16 @@
    "birth_year": -145,
    "death_year": -86,
    "provenance": "data/figures/H-SQ-001.json:birth_year/death_year"
+  },
+  "H-SQL-001": {
+   "birth_year": 1893,
+   "death_year": 1981,
+   "provenance": "data/figures/H-SQL-001.json:birth_year/death_year"
+  },
+  "H-SQR-001": {
+   "birth_year": -469,
+   "death_year": -399,
+   "provenance": "data/figures/H-SQR-001.json:birth_year/death_year"
   },
   "H-ST-001": {
    "birth_year": 1642,
@@ -1778,6 +2139,11 @@
    "birth_year": -380,
    "death_year": -310,
    "provenance": "data/figures/H-SX-001.json:birth_year/death_year"
+  },
+  "H-SY-001": {
+   "birth_year": -370,
+   "death_year": -338,
+   "provenance": "data/figures/H-SY-001.json:birth_year/death_year"
   },
   "H-SYS-001": {
    "birth_year": 1866,
@@ -1809,6 +2175,11 @@
    "death_year": 1957,
    "provenance": "data/figures/H-VNY-001.json:birth_year/death_year"
   },
+  "H-WB-001": {
+   "birth_year": 226,
+   "death_year": 249,
+   "provenance": "data/figures/H-WB-001.json:birth_year/death_year"
+  },
   "H-WC-001": {
    "birth_year": 27,
    "death_year": 97,
@@ -1819,10 +2190,20 @@
    "death_year": 759,
    "provenance": "data/figures/H-WDZ-001.json:birth_year/death_year"
   },
+  "H-WFZ-001": {
+   "birth_year": 1619,
+   "death_year": 1692,
+   "provenance": "data/figures/H-WFZ-001.json:birth_year/death_year"
+  },
   "H-WJM-001": {
    "birth_year": 1842,
    "death_year": 1910,
    "provenance": "data/figures/H-WJM-001.json:birth_year/death_year"
+  },
+  "H-WL-001": {
+   "birth_year": 1916,
+   "death_year": 2015,
+   "provenance": "data/figures/H-WL-001.json:birth_year/death_year"
   },
   "H-WQ-001": {
    "birth_year": -440,
@@ -1849,20 +2230,60 @@
    "death_year": 705,
    "provenance": "data/figures/H-WZT-001.json:birth_year/death_year"
   },
+  "H-XFZ-001": {
+   "birth_year": 1909,
+   "death_year": 1972,
+   "provenance": "data/figures/H-XFZ-001.json:birth_year/death_year"
+  },
   "H-XN-001": {
    "birth_year": 1916,
    "death_year": 2001,
    "provenance": "data/figures/H-XN-001.json:birth_year/death_year"
+  },
+  "H-YC-001": {
+   "birth_year": 1890,
+   "death_year": 1990,
+   "provenance": "data/figures/H-YC-001.json:birth_year/death_year"
+  },
+  "H-YLS-001": {
+   "birth_year": -384,
+   "death_year": -322,
+   "provenance": "data/figures/H-YLS-001.json:birth_year/death_year"
+  },
+  "H-YSK-001": {
+   "birth_year": 1907,
+   "death_year": 1998,
+   "provenance": "data/figures/H-YSK-001.json:birth_year/death_year"
   },
   "H-YSS-001": {
    "birth_year": 1545,
    "death_year": 1598,
    "provenance": "data/figures/H-YSS-001.json:birth_year/death_year"
   },
+  "H-ZDY-001": {
+   "birth_year": 1017,
+   "death_year": 1073,
+   "provenance": "data/figures/H-ZDY-001.json:birth_year/death_year"
+  },
+  "H-ZHX-001": {
+   "birth_year": 1130,
+   "death_year": 1200,
+   "provenance": "data/figures/H-ZHX-001.json:birth_year/death_year"
+  },
   "H-ZKZ-001": {
    "birth_year": 1890,
    "death_year": 1974,
    "provenance": "data/figures/H-ZKZ-001.json:birth_year/death_year"
+  },
+  "H-ZX-001": {
+   "birth_year": -505,
+   "death_year": -436,
+   "provenance": "data/figures/H-ZX-001.json:birth_year/death_year"
+  },
+  "H-ZXC-001": {
+   "birth_year": 1738,
+   "death_year": 1801,
+   "provenance": "data/figures/H-ZXC-001.json:birth_year/death_year"
   },
   "H-ZY-001": {
    "birth_year": -380,
@@ -1929,6 +2350,11 @@
    "death_year": 2018,
    "provenance": "data/figures/H-HAWKING-001.json:birth_year/death_year"
   },
+  "Homer": {
+   "birth_year": -800,
+   "death_year": -750,
+   "provenance": "data/figures/H-HOM-001.json:birth_year/death_year"
+  },
   "IKH": {
    "birth_year": 1332,
    "death_year": 1406,
@@ -1974,10 +2400,30 @@
    "death_year": 850,
    "provenance": "data/figures/H-Khwarizmi-001.json:birth_year/death_year"
   },
+  "LAN": {
+   "birth_year": 1908,
+   "death_year": 1968,
+   "provenance": "data/figures/H-LAN-001.json:birth_year/death_year"
+  },
   "LB": {
    "birth_year": 1311,
    "death_year": 1375,
    "provenance": "data/figures/H-LB-001.json:birth_year/death_year"
+  },
+  "LIN": {
+   "birth_year": 1907,
+   "death_year": 1971,
+   "provenance": "data/figures/H-LIN-001.json:birth_year/death_year"
+  },
+  "LIQ": {
+   "birth_year": 1084,
+   "death_year": 1155,
+   "provenance": "data/figures/H-LIQ-001.json:birth_year/death_year"
+  },
+  "LIS": {
+   "birth_year": 813,
+   "death_year": 858,
+   "provenance": "data/figures/H-LIS-001.json:birth_year/death_year"
   },
   "LISHIMIN": {
    "birth_year": 598,
@@ -1988,6 +2434,11 @@
    "birth_year": 1873,
    "death_year": 1929,
    "provenance": "data/figures/H-LQC-001.json:birth_year/death_year"
+  },
+  "LUO": {
+   "birth_year": 1330,
+   "death_year": 1400,
+   "provenance": "data/figures/H-LUO-001.json:birth_year/death_year"
   },
   "LY": {
    "birth_year": 1192,
@@ -2114,6 +2565,16 @@
    "death_year": 1896,
    "provenance": "data/figures/H-NOB-001.json:birth_year/death_year"
   },
+  "OHM": {
+   "birth_year": 1789,
+   "death_year": 1854,
+   "provenance": "data/figures/H-OHM-001.json:birth_year/death_year"
+  },
+  "OUY": {
+   "birth_year": 1007,
+   "death_year": 1072,
+   "provenance": "data/figures/H-OUY-001.json:birth_year/death_year"
+  },
   "PAD": {
    "birth_year": 717,
    "death_year": 800,
@@ -2124,10 +2585,20 @@
    "death_year": 1912,
    "provenance": "data/figures/H-POI-001.json:birth_year/death_year"
   },
+  "PUS": {
+   "birth_year": 1640,
+   "death_year": 1715,
+   "provenance": "data/figures/H-PUS-001.json:birth_year/death_year"
+  },
   "QCJ": {
    "birth_year": 1148,
    "death_year": 1227,
    "provenance": "data/figures/H-QCJ-001.json:birth_year/death_year"
+  },
+  "QIU": {
+   "birth_year": 1875,
+   "death_year": 1907,
+   "provenance": "data/figures/H-QIU-001.json:birth_year/death_year"
   },
   "QJS": {
    "birth_year": 1208,
@@ -2189,6 +2660,11 @@
    "death_year": 1566,
    "provenance": "data/figures/H-SUL-001.json:birth_year/death_year"
   },
+  "SUS": {
+   "birth_year": 1020,
+   "death_year": 1101,
+   "provenance": "data/figures/H-SUS-001.json:birth_year/death_year"
+  },
   "SUY": {
    "birth_year": 1907,
    "death_year": 1984,
@@ -2204,6 +2680,21 @@
    "death_year": 1193,
    "provenance": "data/figures/H-Saladin-001.json:birth_year/death_year"
   },
+  "Sophocles": {
+   "birth_year": -496,
+   "death_year": -406,
+   "provenance": "data/figures/H-SOP-001.json:birth_year/death_year"
+  },
+  "TAN": {
+   "birth_year": 1550,
+   "death_year": 1616,
+   "provenance": "data/figures/H-TAN-001.json:birth_year/death_year"
+  },
+  "TDL": {
+   "birth_year": 1926,
+   "death_year": 2024,
+   "provenance": "data/figures/H-TDL-001.json:birth_year/death_year"
+  },
   "TOKUGAWA": {
    "birth_year": 1543,
    "death_year": 1616,
@@ -2214,10 +2705,20 @@
    "death_year": -1425,
    "provenance": "data/figures/H-TUT-001.json:birth_year/death_year"
   },
+  "TY": {
+   "birth_year": 1470,
+   "death_year": 1524,
+   "provenance": "data/figures/H-TY-001.json:birth_year/death_year"
+  },
   "Tesla": {
    "birth_year": 1856,
    "death_year": 1943,
    "provenance": "data/figures/H-Tesla-001.json:birth_year/death_year"
+  },
+  "Thucydides": {
+   "birth_year": -460,
+   "death_year": -400,
+   "provenance": "data/figures/H-THU-001.json:birth_year/death_year"
   },
   "Timur": {
    "birth_year": 1336,
@@ -2228,6 +2729,11 @@
    "birth_year": 1936,
    "death_year": 2025,
    "provenance": "data/figures/H-VLL-001.json:birth_year/death_year"
+  },
+  "VOL": {
+   "birth_year": 1745,
+   "death_year": 1827,
+   "provenance": "data/figures/H-VOL-001.json:birth_year/death_year"
   },
   "VYG": {
    "birth_year": 1896,
@@ -2244,10 +2750,20 @@
    "death_year": 1170,
    "provenance": "data/figures/H-WCY-001.json:birth_year/death_year"
   },
+  "WEN": {
+   "birth_year": 1470,
+   "death_year": 1559,
+   "provenance": "data/figures/H-WEN-001.json:birth_year/death_year"
+  },
   "WGW": {
    "birth_year": 1877,
    "death_year": 1927,
    "provenance": "data/figures/H-WGW-001.json:birth_year/death_year"
+  },
+  "WUC": {
+   "birth_year": 1500,
+   "death_year": 1582,
+   "provenance": "data/figures/H-WUC-001.json:birth_year/death_year"
   },
   "Watt": {
    "birth_year": 1736,
@@ -2279,6 +2795,11 @@
    "death_year": 664,
    "provenance": "data/figures/H-XuanZang-001.json:birth_year/death_year"
   },
+  "YAN": {
+   "birth_year": 961,
+   "death_year": 1040,
+   "provenance": "data/figures/H-YAN-001.json:birth_year/death_year"
+  },
   "YJ": {
    "birth_year": 635,
    "death_year": 713,
@@ -2293,6 +2814,21 @@
    "birth_year": 1678,
    "death_year": 1735,
    "provenance": "data/figures/H-YZ-001.json:birth_year/death_year"
+  },
+  "ZEN": {
+   "birth_year": 999,
+   "death_year": 1078,
+   "provenance": "data/figures/H-ZEN-001.json:birth_year/death_year"
+  },
+  "ZHU": {
+   "birth_year": 1461,
+   "death_year": 1527,
+   "provenance": "data/figures/H-ZHU-001.json:birth_year/death_year"
+  },
+  "ZKU": {
+   "birth_year": 1896,
+   "death_year": 1974,
+   "provenance": "data/figures/H-ZKU-001.json:birth_year/death_year"
   },
   "ZSS": {
    "birth_year": 1600,
@@ -2333,6 +2869,11 @@
    "birth_year": -369,
    "death_year": -286,
    "provenance": "data/figures/H-ZhuangZi-001.json:birth_year/death_year"
+  },
+  "ZuXuan": {
+   "birth_year": 456,
+   "death_year": 536,
+   "provenance": "data/figures/H-ZUX-001.json:birth_year/death_year"
   }
  },
  "still_no_date": [
@@ -2341,66 +2882,6 @@
    "modes": 30,
    "reason": "no-figure-file",
    "file": null
-  },
-  {
-   "figure_code": "AMP",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "ARR",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "BAI",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "BAN",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "CAI",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "Cusanus",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "DUM",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "GIB",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "GUA",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "H-DY-001",
-   "modes": 10,
-   "reason": "missing-birth-or-death-field",
-   "file": "data/figures/H-DY-001.json"
   },
   {
    "figure_code": "H-DZS-001",
@@ -2413,12 +2894,6 @@
    "modes": 10,
    "reason": "missing-birth-or-death-field",
    "file": "data/figures/H-FEI-001.json"
-  },
-  {
-   "figure_code": "H-GHZ-001",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
   },
   {
    "figure_code": "H-JSX-001",
@@ -2445,10 +2920,10 @@
    "file": "data/figures/H-P23F-001.json"
   },
   {
-   "figure_code": "H-YC-001",
+   "figure_code": "H-SHF-001",
    "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
+   "reason": "missing-birth-or-death-field",
+   "file": "data/figures/H-SHF-001.json"
   },
   {
    "figure_code": "Hippocrates",
@@ -2469,49 +2944,7 @@
    "file": null
   },
   {
-   "figure_code": "LAN",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "LIN",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "LIQ",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "LIS",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "LUO",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
    "figure_code": "LiuXiu",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "OHM",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "OUY",
    "modes": 10,
    "reason": "no-figure-file",
    "file": null
@@ -2541,12 +2974,6 @@
    "file": null
   },
   {
-   "figure_code": "PUS",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
    "figure_code": "Phase27Final",
    "modes": 10,
    "reason": "no-figure-file",
@@ -2559,31 +2986,7 @@
    "file": null
   },
   {
-   "figure_code": "QIU",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "SUS",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
    "figure_code": "Shotoku",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "TAN",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "TDL",
    "modes": 10,
    "reason": "no-figure-file",
    "file": null
@@ -2601,67 +3004,13 @@
    "file": null
   },
   {
-   "figure_code": "TY",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "VOL",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
    "figure_code": "Vesalius",
    "modes": 10,
    "reason": "no-figure-file",
    "file": null
   },
   {
-   "figure_code": "WEN",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "WUC",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "YAN",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
    "figure_code": "ZAN",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "ZEN",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "ZHU",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "ZKU",
-   "modes": 10,
-   "reason": "no-figure-file",
-   "file": null
-  },
-  {
-   "figure_code": "ZuXuan",
    "modes": 10,
    "reason": "no-figure-file",
    "file": null
