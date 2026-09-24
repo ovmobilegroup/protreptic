@@ -1,0 +1,159 @@
+{
+ "card": "t_def07a84",
+ "evidence_kind": "chain + scan + deltas (v1)",
+ "chain_rc_table": [
+  [
+   "01",
+   "build_figures_db",
+   0,
+   "0.2s"
+  ],
+  [
+   "02",
+   "export_static_site",
+   0,
+   "2.5s"
+  ],
+  [
+   "03",
+   "gen_web_site_counts",
+   0,
+   "0.0s"
+  ],
+  [
+   "04",
+   "build_daily_index",
+   0,
+   "0.4s"
+  ],
+  [
+   "05",
+   "preflight_data",
+   0,
+   "0.2s"
+  ],
+  [
+   "06",
+   "build_search_index",
+   0,
+   "2.5s"
+  ],
+  [
+   "07",
+   "build_graph_data",
+   0,
+   "0.8s"
+  ],
+  [
+   "08",
+   "build_unified_index",
+   0,
+   "0.5s"
+  ],
+  [
+   "09",
+   "credibility_gate",
+   0,
+   "5.1s"
+  ],
+  [
+   "10",
+   "verify_source_links",
+   0,
+   "259.8s"
+  ],
+  [
+   "11",
+   "verify_findings",
+   0,
+   "6.0s"
+  ],
+  [
+   "12",
+   "ci_data_check",
+   1,
+   "0.1s"
+  ],
+  [
+   "13",
+   "npm_build",
+   0,
+   "11.2s"
+  ],
+  [
+   "14",
+   "preflight_dist",
+   0,
+   "0.0s"
+  ],
+  [
+   "15",
+   "prerender_routes",
+   0,
+   "1.4s"
+  ],
+  [
+   "16",
+   "apply_site_counts",
+   0,
+   "2.5s"
+  ],
+  [
+   "17",
+   "build_sw",
+   0,
+   "0.0s"
+  ],
+  [
+   "18",
+   "build_sitemap",
+   0,
+   "0.2s"
+  ]
+ ],
+ "gates_final_logs": [
+  "R12_final_ci_data_check.out",
+  "R05_final_preflight_data.out",
+  "R14_final_preflight_dist.out",
+  "R09_final_credibility_gate.out",
+  "R11_final_verify_findings.out",
+  "R10_final_verify_source_links.out"
+ ],
+ "key_chain_lines": {
+  "12_first_run": "数据校验: 24 条断言, 失败 1 条 -> cross.coverage: 2 条名录数据没有路由, 例: [H-AZJ-001, H-SHF-001]",
+  "12_rerun": "数据校验: 24 条断言, 失败 0 条 / PASS",
+  "15": "routes=1360; wrote 1360 index.html",
+  "18": "entries=1361 (root=1)",
+  "16": "dist 扫描 2743 个文件零违规; docs 产品门面页 6 个零违规",
+  "05": "figures=1027 modes=3301 published=3241 隔离命中=0 by-figure=320"
+ },
+ "route_diff": {
+  "added": [
+   "minds/H-AZJ-001",
+   "minds/H-SHF-001"
+  ],
+  "removed": [],
+  "changed_entries": [
+   "credibility.description/title 3221->3241 pending 1897->1917",
+   "figures.description 318->320",
+   "modes.description/title 3221->3241"
+  ]
+ },
+ "sitemap_diff": {
+  "added_urls": [
+   "https://ovmobilegroup.github.io/protreptic/minds/H-AZJ-001/",
+   "https://ovmobilegroup.github.io/protreptic/minds/H-SHF-001/"
+  ],
+  "removed": [],
+  "common_unchanged": 1359
+ },
+ "snapshots": [
+  "snap0.json (pre-edit)",
+  "snap1.json (post-edit pre-chain)",
+  "snap2.json (post-chain post-restore)"
+ ],
+ "scratch": "/opt/data/profiles/elcano/cache/scratch/w4fix3/",
+ "receipts": {
+  "status": "see v2 addendum"
+ }
+}

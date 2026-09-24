@@ -1,0 +1,91 @@
+{
+ "card": "t_def07a84",
+ "source": "tools/json/scenarios_zh.json",
+ "file_sha256_before": "8b218e717cdb8cb5490e4951632907dac0b3ee0cd366c9f9c81bd0ac11702ceb",
+ "file_bytes_before": 2981559,
+ "occurrences_total": 4,
+ "occurrence_byte_offsets": [
+  645917,
+  646781,
+  648210,
+  651925
+ ],
+ "occurrence_byte_offsets_note": "真字节偏移 (raw bytes.find 实测); 上游 fix2 fields_before 曾将码点偏移误标为 occurrence_byte_offsets (QA 勘误确认), 本卡以真字节为准",
+ "occurrence_codepoint_offsets_informational": [
+  286335,
+  286795,
+  287938,
+  290609
+ ],
+ "fields": {
+  "name_en": {
+   "before": "Mao Xiannian",
+   "before_sha256": "ef26180843945c6b1c6cdb17bf0847cb02a8760b05029b4d5d6c8cb4f6082e31",
+   "after_expected": "Li Xiannian",
+   "after_expected_sha256": "ffdfa9d5fcee6e2b2a7c49051bca1846ff350baa3b81d59210f269e271d91214",
+   "occurrences_before": 1,
+   "occurrences_after_expected": 0,
+   "byte_window_before": [
+    645917,
+    645929
+   ],
+   "byte_window_after_expected": [
+    645917,
+    645928
+   ],
+   "bytes_delta": -1
+  },
+  "description_en": {
+   "before": "Mao Xiannian（1901-1997）： Chinese political economist who dedicated himself to constructing China's economic system reform and strategic forecasting system. He advocated identifying key leverage points of economic and social development through strategic forecasting method, analyzing marginal efficiency of resource allocation with marginal thinking, advancing reform pilots with the 'crossing the river by feeling for stones' incremental exploration method, and ensuring reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth, and is an important case for understanding China's thinking modes during the economic transition period.",
+   "before_sha256": "0d6176c42787560f6024b48b04cd8043c6ed62357a865d8adc1e5cd1c5973448",
+   "after_expected": "Li Xiannian（1901-1997）： Chinese political economist who dedicated himself to constructing China's economic system reform and strategic forecasting system. He advocated identifying key leverage points of economic and social development through strategic forecasting method, analyzing marginal efficiency of resource allocation with marginal thinking, advancing reform pilots with the 'crossing the river by feeling for stones' incremental exploration method, and ensuring reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth, and is an important case for understanding China's thinking modes during the economic transition period.",
+   "after_expected_sha256": "1caea541f0be6708a43e98e3503119cee2b394ddfa56283c90f3c2d7b8acce43",
+   "occurrences_before": 1,
+   "occurrences_after_expected": 0,
+   "byte_window_before": [
+    646781,
+    646793
+   ],
+   "byte_window_after_expected": [
+    646780,
+    646791
+   ],
+   "bytes_delta": -1
+  },
+  "reason_en": {
+   "before": "Core thinking modes: M7(Strategic Forecasting Method), M19(Marginal Thinking), M38(Crossing the River by Feeling for Stones), M39(Birdcage Economy), M34(Institutionalized Checks and Balances). Mao Xiannian identified key leverage points of economic and social development through strategic forecasting method, analyzed marginal efficiency of resource allocation with marginal thinking, advanced reform pilots with incremental 'crossing the river by feeling for stones' approach, and ensured reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth.",
+   "before_sha256": "8c30fb717283784ad7feae11883110ac26821d32060547453675d380494ec40f",
+   "after_expected": "Core thinking modes: M7(Strategic Forecasting Method), M19(Marginal Thinking), M38(Crossing the River by Feeling for Stones), M39(Birdcage Economy), M34(Institutionalized Checks and Balances). Li Xiannian identified key leverage points of economic and social development through strategic forecasting method, analyzed marginal efficiency of resource allocation with marginal thinking, advanced reform pilots with incremental 'crossing the river by feeling for stones' approach, and ensured reform sustainability through institutionalized checks and balances. His thought permeates the Chinese modern process, combining theoretical height with practical depth.",
+   "after_expected_sha256": "a3509e96c940eb416948e441803fe49bccd72421be443b3323434cd79fe776d1",
+   "occurrences_before": 1,
+   "occurrences_after_expected": 0,
+   "byte_window_before": [
+    648210,
+    648222
+   ],
+   "byte_window_after_expected": [
+    648208,
+    648219
+   ],
+   "bytes_delta": -1
+  },
+  "case_en": {
+   "before": "1980-1990s China's economic system reform practice: Mao Xiannian led a economic team from planned economy to market economy. Strategic Forecasting: Identifying key reform variables (price reform, enterprise system, market rules). Marginal Analysis: Calculating reform marginal costs and benefits, optimizing resource allocation paths. Crossing the River by Feeling for Stones: Designing small-scale system pilots (special zone exploration → provincial expansion), adjusting plans based on results. Institutional Checks and Balances: Establishing reform supervision mechanisms, ensuring decision procedures are compliant and responsibilities are clear. Reform outcomes: Liberating productive forces, improving resource allocation efficiency, promoting continuous and healthy economic development.",
+   "before_sha256": "c1a6ddb0a269b49be7477c0e6c9b79188f4192cc6b111c9243a488568842a156",
+   "after_expected": "1980-1990s China's economic system reform practice: Li Xiannian led a economic team from planned economy to market economy. Strategic Forecasting: Identifying key reform variables (price reform, enterprise system, market rules). Marginal Analysis: Calculating reform marginal costs and benefits, optimizing resource allocation paths. Crossing the River by Feeling for Stones: Designing small-scale system pilots (special zone exploration → provincial expansion), adjusting plans based on results. Institutional Checks and Balances: Establishing reform supervision mechanisms, ensuring decision procedures are compliant and responsibilities are clear. Reform outcomes: Liberating productive forces, improving resource allocation efficiency, promoting continuous and healthy economic development.",
+   "after_expected_sha256": "cde76875649d36c473e426bb572a96651b94e28717c50e39538893cc24f0eb56",
+   "occurrences_before": 1,
+   "occurrences_after_expected": 0,
+   "byte_window_before": [
+    651925,
+    651937
+   ],
+   "byte_window_after_expected": [
+    651922,
+    651933
+   ],
+   "bytes_delta": -1
+  }
+ },
+ "note": "4 处均为 H-LXN-001 条目 en 侧扩展位; 每处 Mao Xiannian(12B)->Li Xiannian(11B) 最小 diff, 全文 -4B"
+}

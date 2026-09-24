@@ -87,6 +87,7 @@
 ## 六, 边界与登记 (不静默)
 
 - B-a 新发现 (登记): scenarios_zh.json H-LXN-001 的 en 侧扩展位 (name_en/description_en/reason_en/case_en) 现仍为 Mao Xiannian 4 处 (拉丁文), 与 scenarios_en 已修正的 Li Xiannian 不一致; 该点未见于 manifest §3.2/§八-1 任何清单 (先前扫描只覆盖中文串)。本卡边界限定 zh 4 字段, 未触碰; 建议归后续卡裁定 (同 §八-1 模式: 先登记后裁定)。live 面现状: DB name_en 取 scenarios_en.name = Li Xiannian, 站点面不受影响。
+- B-a 补记 (09-24, 卡 t_def07a84): 船长裁定=采纳修复 (同类错误人名须归零); en 侧 4 处已由 t_def07a84 落盘 Mao Xiannian->Li Xiannian (真字节窗口 645917/646781/648210/651925; 全文 2981559->2981555B; sha256 8b218e71... -> e6777e7a...; 语义 diff 仅 H-LXN-001 该 4 字段, 其余 1039 条目零变更). 本条目所载 en 残留状态自此作废, 终态以 fix3 报告 (docs/research/phase21w4_fix3_report.md) 为准.
 - B-b 根目录 H-LXN-001.json (8 处: zh 4 + en 4): W7 卡 (t_d24e11bc) 处置; marker_scan record 124 已登记。
 - B-c docs/figures/H-LXN-001.md (2 处): R-c 纠错注记 (设计保留, 改之反错)。
 - B-d CHANGELOG.md (1 处): 历史条目不改写 (manifest 既定)。

@@ -1,0 +1,36 @@
+{
+ "created_at": "2026-09-24T10:44:33",
+ "card": "t_def07a84",
+ "basis": "卡步1 (backup_phase21w4_fix3_<日期>); 参照 phase21w4_fix/fix2/rwkag_clear 备份惯例",
+ "counts": {
+  "payload": 1,
+  "summary": 1,
+  "readme": 1,
+  "total": 3
+ },
+ "files": [
+  {
+   "path": "tools/json/scenarios_zh.json",
+   "group": "payload",
+   "bytes": 2981559,
+   "sha256": "8b218e717cdb8cb5490e4951632907dac0b3ee0cd366c9f9c81bd0ac11702ceb",
+   "sha256_copy": "8b218e717cdb8cb5490e4951632907dac0b3ee0cd366c9f9c81bd0ac11702ceb",
+   "copy_byte_exact": true
+  },
+  {
+   "path": "fields_before.json",
+   "group": "summary",
+   "bytes": 6971,
+   "sha256": "844412cbe498e3c700c8237a85693d0810d841ac656f43d0e885135769ea79fc",
+   "copy_byte_exact": true,
+   "note": "4 字段 before 全文 + 真字节偏移 + file sha"
+  },
+  {
+   "path": "README.md",
+   "group": "readme",
+   "bytes": 438,
+   "sha256": "d48c0554d318306abb4c5984ef5768037bfdf80f744eb4101240b2416ca5fbd7",
+   "copy_byte_exact": true
+  }
+ ]
+}

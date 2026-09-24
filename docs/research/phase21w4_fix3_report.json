@@ -1,0 +1,180 @@
+{
+ "card": "t_def07a84",
+ "title": "Phase21 W4 补正-B-a en 扩展位落盘: scenarios_zh.json H-LXN-001 4 处 Mao Xiannian -> Li Xiannian",
+ "date": "2026-09-24",
+ "workspace": "/opt/data/workspace/Protreptic",
+ "publish": "/opt/data/release/Protreptic-publish",
+ "chain_position": [
+  "t_33240de8 (fix2)",
+  "t_8bad8d98 (W4 QA)",
+  "t_def07a84 (本卡)",
+  "t_616e4991 (W4 归档)"
+ ],
+ "source_edit": {
+  "file": "tools/json/scenarios_zh.json",
+  "fields": [
+   "$.H-LXN-001.name_en",
+   "$.H-LXN-001.description_en",
+   "$.H-LXN-001.reason_en",
+   "$.H-LXN-001.case_en"
+  ],
+  "replace": "Mao Xiannian -> Li Xiannian (each -1B)",
+  "sha256_before": "8b218e717cdb8cb5490e4951632907dac0b3ee0cd366c9f9c81bd0ac11702ceb",
+  "sha256_after": "e6777e7a556f26fc26b03338ae1df170ad8d084f1ea1df331db43d98ab4b4794",
+  "bytes_before": 2981559,
+  "bytes_after": 2981555,
+  "true_byte_windows_before": [
+   645917,
+   646781,
+   648210,
+   651925
+  ],
+  "codepoint_windows_informational": [
+   286335,
+   286795,
+   287938,
+   290609
+  ],
+  "li_positions_after": [
+   632100,
+   645917,
+   646780,
+   648208,
+   651922
+  ],
+  "occurrences_before": 4,
+  "occurrences_after": 0,
+  "li_occurrences_after": 5,
+  "shift_aware_outside_region_equal": true,
+  "json_level_scope": "changed == exactly 4 en fields; other 1039 entries unchanged",
+  "offset_erratum": "upstream fix2/QA labelled codepoint offsets as occurrence_byte_offsets; this card records true byte offsets and codepoint offsets separately (verifier A9b/A9c)"
+ },
+ "backup": {
+  "dir": "data/backup_phase21w4_fix3_20260924/",
+  "files": [
+   "tools/json/scenarios_zh.json",
+   "fields_before.json",
+   "README.md",
+   "backup_manifest.json",
+   "MANIFEST.sha256"
+  ],
+  "manifest_pass": "4/4",
+  "payload_byte_exact": true
+ },
+ "chain": {
+  "steps_total": 18,
+  "rc0": 17,
+  "failed_steps": [
+   {
+    "no": 12,
+    "name": "ci_data_check",
+    "rc": 1,
+    "why": "pre-existing R9 half-chain lag: routes person=318 vs unified 320, exact codes [H-AZJ-001, H-SHF-001]"
+   }
+  ],
+  "resolved_by": "steps 15/18 (prerender_routes, build_sitemap) -> rerun step 12 = 24/24 PASS",
+  "logs": "/opt/data/profiles/elcano/cache/scratch/w4fix3/chain_logs/01..18"
+ },
+ "gates_final": {
+  "ci_data_check": "24/24 PASS",
+  "preflight_data": "OK",
+  "preflight_dist": "OK",
+  "credibility_gate_hard_fail": "rc=0 (legacy 524 frozen / new 0)",
+  "verify_findings": "rc=0",
+  "verify_source_links": "rc=0 (217.2s)"
+ },
+ "counts": {
+  "figures": {
+   "baseline": 1027,
+   "final": 1027,
+   "card": 1027,
+   "verdict": "zero-change OK"
+  },
+  "modes_published_x_byfigure": {
+   "baseline": "3241 x 320",
+   "final": "3241 x 320",
+   "card": "3221 (pre-R9)",
+   "verdict": "zero-change OK; R9 anchor 3301/320 kept"
+  },
+  "unified": {
+   "baseline": "ABSENT (R9 half-chain transient)",
+   "final": "1344 (320+1024)",
+   "card": "1342 (318+1024, pre-R9)",
+   "verdict": "rebuilt to R9-era readings"
+  },
+  "routes": {
+   "baseline": 1358,
+   "final": 1360,
+   "card": 1358,
+   "verdict": "+2 = R9 catch-up (not from this card's semantic edit)"
+  },
+  "sitemap": {
+   "baseline": 1359,
+   "final": 1361,
+   "card": 1359,
+   "verdict": "+2 = same"
+  }
+ },
+ "trees": {
+  "web/public/data": {
+   "pre": 1360,
+   "post": 1385,
+   "added": 25,
+   "removed": 0,
+   "changed": [
+    "daily/index.json",
+    "daily/names.json",
+    "meta.json"
+   ],
+   "added_set": "search 17 + graph 7 + index.unified.json 1"
+  },
+  "web/dist": {
+   "pre": 1382,
+   "post": 2769,
+   "added": 1387,
+   "removed": 0,
+   "changed": [
+    "data/daily/index.json",
+    "data/daily/names.json",
+    "data/meta.json",
+    "sitemap.xml"
+   ]
+  }
+ },
+ "tracked_delta": {
+  "normalized_restored": [
+   "api/protreptic.db (row-identical, layout-only; restored c5eb126e)",
+   "docs/architecture/static_data_manifest.json (stamp+db-link only; restored 9bf53ce4)"
+  ],
+  "kept_uncommitted": [
+   "docs/architecture/web_p0_routes.json (1358->1360, +2 R9 routes + count-text updates)",
+   "web/public/sitemap.xml (1359->1361, +2 URLs)"
+  ],
+  "kept_uncommitted_why": "boundary 2 (no build-graph edits) + boundary 4 (no foreign artifacts); consistent post-chain state kept in worktree for R9 chain / archive card to settle"
+ },
+ "rescan_ws": {
+  "live": 0,
+  "classes": {
+   "backup": 11,
+   "report": 10,
+   "qa": 3,
+   "site_docs": 5,
+   "pin-root-copy": 1,
+   "verifier": 1
+  },
+  "pins": {
+   "H-LXN-001.json": 4,
+   "CHANGELOG.md": 0,
+   "docs/figures/H-LXN-001.md": 0,
+   "verify_phase21w4_qa_espinosa.py": 3
+  }
+ },
+ "verifier": {
+  "name": "verify_w4fix3_lxn_en.py",
+  "sha256": "288c75e8a6f22354c8603a61b43d6222d5bdb5b2cd5af494a04a8a01ffb588d3",
+  "quick_result": "34 PASS / 0 FAIL"
+ },
+ "receipts": {
+  "status": "see v2 addendum (commit / mirror / push / parity / raw)"
+ }
+}

@@ -379,7 +379,19 @@
  "boundary_notes": [
   {
    "id": "B-a",
-   "note": "scenarios_zh H-LXN-001 en 侧扩展位 (name_en/description_en/reason_en/case_en) 仍为 Mao Xiannian x4 (拉丁), 未见于任何既有清单; 超出本卡边界未触碰; 建议后续卡裁定 (先登记后裁定)。live 面 DB name_en 取 scenarios_en.name = Li Xiannian, 站点不受影响"
+   "note": "scenarios_zh H-LXN-001 en 侧扩展位 (name_en/description_en/reason_en/case_en) 仍为 Mao Xiannian x4 (拉丁), 未见于任何既有清单; 超出本卡边界未触碰; 建议后续卡裁定 (先登记后裁定)。live 面 DB name_en 取 scenarios_en.name = Li Xiannian, 站点不受影响",
+   "addendum": {
+    "card": "t_def07a84",
+    "date": "2026-09-24",
+    "ruling": "船长裁定=采纳修复（同类错误人名须归零）",
+    "landed": "en 侧 4 处 Mao Xiannian->Li Xiannian; 真字节窗口 645917/646781/648210/651925; 2981559->2981555B",
+    "sha_migration": [
+     "8b218e717cdb8cb5490e4951632907dac0b3ee0cd366c9f9c81bd0ac11702ceb",
+     "e6777e7a556f26fc26b03338ae1df170ad8d084f1ea1df331db43d98ab4b4794"
+    ],
+    "diff_scope": "仅 $.H-LXN-001 name_en/description_en/reason_en/case_en 4 字段; 其余 1039 条目零变更",
+    "supersedes": "本条目所载 en 残留状态作废; 终态以 docs/research/phase21w4_fix3_report.md/.json 为准"
+   }
   },
   {
    "id": "B-b",
