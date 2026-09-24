@@ -1,0 +1,192 @@
+{
+  "schema": "protreptic.w8_stage2_batch1.archive_evidence/v1",
+  "task": "t_098d8ff6",
+  "generated_by": "verify_w8_stage2_batch1_archive.py",
+  "generated_at": "2026-09-24",
+  "receipts_pending": true,
+  "totals": {
+    "checks": 32,
+    "pass": 29,
+    "fail": 3
+  },
+  "sections": {
+    "A": [
+      {
+        "name": "A1 九节标题齐备",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A2 关键 token 齐备",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A3 件数口径（26 链件 / 20 txt / 五卡 / 八笔 / 四笔）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "A4 上/下游卡号引用完整",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "B": [
+      {
+        "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_report.md",
+        "ok": false,
+        "detail": "ws=37160 pb=缺"
+      },
+      {
+        "name": "B1 双仓 byte-exact: verify_w8_stage2_batch1_archive.py",
+        "ok": false,
+        "detail": "ws=22341 pb=缺"
+      },
+      {
+        "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_evidence.json",
+        "ok": false,
+        "detail": "ws=4910 pb=缺"
+      },
+      {
+        "name": "B2 pb 023a794 -> ws 004332b4 提交级 blob 对照（50 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "B2 pb 384faae -> ws b0e2b0a8 提交级 blob 对照（6 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "B2 pb 88cc86a -> ws b5967043 提交级 blob 对照（7 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "B2 pb c522897 -> ws eda40f5b 提交级 blob 对照（2 件）",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "C": [
+      {
+        "name": "C1 附链登记 8 ws / 4 pb 条目",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C2 短号解析全号 == 登记全号（ws+pb 12 笔）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C3 ws 提交日期 == 登记日期",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C4 锚点可解析（004332b4 / eda40f5b / b5967043 / b0e2b0a8）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "C5 §4.2/§4.3 短号齐备",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "D": [
+      {
+        "name": "D1 §5.1 sha16 登记复核（26 件，双仓）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D2 §5.4 三段 pin 复核（7 件；before/after 为 git 对象实测）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D3 备份 MANIFEST 逐件 sha256 复核（5 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D4 缓存 txt 计数（新增 20 件 / zh-cn 4 件）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D5 四态两口径重算（after 1018/1887/55/351 与 1018/1855/38/340；before 949/1959/52/351 与 949/1927/35/340）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "D6 翻面重算 69/3（72）＋全在包内＋包外零",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "E": [
+      {
+        "name": "E1 §4.5 复核指纹（5 枚）与实测一致",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "E2 未闭合项照登（QA-F1/F2/F4 及其判定）",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "E3 回执区（--receipts-pending 过渡面）",
+        "ok": true,
+        "detail": ""
+      }
+    ],
+    "F": [
+      {
+        "name": "F 注入「报告删节标题」-> A 段捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "F 注入「镜像不符注入」-> B 段捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "F 注入「提交全号篡改」-> C 段捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "F 注入「sha16 行篡改」-> D 段捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "F 注入「pin before 篡改」-> D 段捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "F 注入「回执 sha 篡改」-> E 段捕获",
+        "ok": true,
+        "detail": ""
+      },
+      {
+        "name": "F 自检合计 6/6",
+        "ok": true,
+        "detail": ""
+      }
+    ]
+  },
+  "fingerprints": {
+    "docs/research/phase21w8_stage2_batch1_archive_report.md": "9cc796f8b3f9992f",
+    "verify_w8_stage2_batch1_archive.py": "031a98a12606512a",
+    "build_w8_stage2_batch1_archive.py": "95f5a651d2f0ecca",
+    "docs/research/phase21w8_stage2_batch1_archive_evidence.json": "（本件；自指省略）"
+  }
+}
