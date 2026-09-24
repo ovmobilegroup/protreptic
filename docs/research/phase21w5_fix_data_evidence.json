@@ -632,14 +632,59 @@
       "bytes": 16176
     },
     "docs/research/phase21w5_fix_data_report.md": {
-      "sha256": "0dd4403340a028e491c5b66298047cf48f3e28d58ba6dac9bfe6971e0abffe4a",
-      "bytes": 13720
+      "sha256": "bda4e55808a0ac6379915c3619ac030abc0a620f3d4d3049978f12dc1391fdb9",
+      "bytes": 15053
+    },
+    "docs/research/phase21w5_fix_data_evidence.json": {
+      "self_excluded": true,
+      "note": "本文件自身 sha 见工作仓/发布仓提交（C2/P2）后的 git ls-files -s 或报告 §七 回执"
     }
   },
   "F_publish": {
-    "ws_commit": null,
-    "pb_commit": null,
-    "ls_remote": null,
-    "parity": null
+    "ws_commit": "3238a262ad36581b724a38c2c221baafef50c3e8",
+    "ws_commit_msg": "Phase21-W5 数据侧修复 t_0dc95522（11 件）",
+    "pb_commit": "ade87b2e49c54f1e2ed9d75dd5cdc756fb82622e",
+    "pb_parent": "20d36f0",
+    "push": "20d36f0..ade87b2 -> origin/main",
+    "ls_remote": "ade87b2e49c54f1e2ed9d75dd5cdc756fb82622e",
+    "remote_equals_local": true,
+    "mirror_files": 11,
+    "mirror_byte_exact": true,
+    "parity": {
+      "cmd": "python3 tools/check_repo_parity.py",
+      "run_at": "2026-09-24 12:40 CST",
+      "exit": 1,
+      "counts": {
+        "workspace_in_boundary": 2581,
+        "publish_in_boundary": 2581,
+        "both_sides": 2581,
+        "identical": 2578,
+        "only_workspace": 0,
+        "only_publish": 0,
+        "excluded_publish": 647,
+        "excluded_workspace": 84
+      },
+      "my_face_content_diff": 0,
+      "my_face_missing": 0,
+      "my_face_files_byte_exact": true,
+      "residual_external": [
+        {
+          "path": "data/audit/phase21w8_stage2_batch1_landing_ledger.json",
+          "kind": "CONTENT_DIFF",
+          "owner": "W8 Stage2批1 t_b85ae14a（在途未提交工作树改动，mtime 12:37:40；非本卡文件）"
+        },
+        {
+          "path": "docs/research/phase21w8_stage2_batch1_landing_evidence.json",
+          "kind": "CONTENT_DIFF",
+          "owner": "W8 Stage2批1 t_b85ae14a（在途未提交工作树改动，mtime 12:37:40；非本卡文件）"
+        },
+        {
+          "path": "docs/research/phase21w8_stage2_batch1_landing_report.md",
+          "kind": "CONTENT_DIFF",
+          "owner": "W8 Stage2批1 t_b85ae14a（在途未提交工作树改动，mtime 12:37:40；非本卡文件）"
+        }
+      ]
+    },
+    "receipt_round": "C2/P2 = 报告 + 证据 JSON 2 件刷面（同轮镜像 push）"
   }
 }

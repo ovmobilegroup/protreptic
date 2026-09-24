@@ -101,7 +101,12 @@
 
 ## 七、提交 / 镜像 / push / parity 回执
 
-（见 §八 回执段——提交后补记）
+- 工作仓数据/报告提交 **C1 = `3238a262ad36581b724a38c2c221baafef50c3e8`**（11 件 = 7 data + 2 tools + 2 文档；1123 insertions / 235 deletions；备份目录与 bench 未入库）
+- 发布仓镜像 **P1 = `ade87b2e49c54f1e2ed9d75dd5cdc756fb82622e`**（同 11 件 **byte-exact**，逐件 sha256 比对全 OK；父提交 `20d36f0`）
+- push：`20d36f0..ade87b2` → `origin/main`；**ls-remote 复核** `refs/heads/main = ade87b2e49c54f1e2ed9d75dd5cdc756fb82622e`（**REMOTE == LOCAL**）
+- parity（`python3 tools/check_repo_parity.py`，2026-09-24 12:40 CST 运行）：`both_sides 2581 / identical 2578 / only_workspace 0 / only_publish 0`；本卡面 **CONTENT_DIFF = 0（0/11）、MISSING = 0（0/11）、逐件两仓 sha256 全等**
+- 回执轮：**C2/P2 = 本段落**（报告 + 证据 JSON 2 件刷面，同轮镜像 push）
+- parity 残余 3 项（**非本卡面**，未触碰未提交）：`data/audit/phase21w8_stage2_batch1_landing_ledger.json`、`docs/research/phase21w8_stage2_batch1_landing_report.md`、`docs/research/phase21w8_stage2_batch1_landing_evidence.json` —— W8 Stage2批1（t_b85ae14a）面工作树**在途未提交**改动（mtime 12:37:40；其账本自注「工作区有并发卡在途改动（W5 链）」），归该属卡收口。
 
 ## 八、边界外 / 未做
 
@@ -109,6 +114,7 @@
 - Z7（`backfill_lifespans.py --check` 清单过期）为本仓存量，归 W11 卡 `t_0ec6fb57`；本卡未动。
 - `build_audit_findings.py` 摘要键名沿用 `D4_empty_quote`（存量；本卡未改工具）。
 - 未碰 W4/W7 在途件与历史报告。
+- parity 残余 3 项为 W8 批1 面在途件（见 §七）；**未代提交他卡在途改动**。
 
 ## 附：复现命令
 
