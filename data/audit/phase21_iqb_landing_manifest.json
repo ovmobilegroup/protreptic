@@ -1,0 +1,55 @@
+{
+ "schema_version": "v1",
+ "card": "t_30a3e702",
+ "chain": "Phase 21 伊克巴尔（H-IQB-001）合并链",
+ "figure_code": "H-IQB-001",
+ "figure_name": "伊克巴尔",
+ "landing_dir": "docs/scratch/phase21_iqb_landing/",
+ "sources": {
+  "attachments/t_16080f61/H-IQB-001.json": "f2138dcc714051ae17c54fee4f0c86cee1f98b92c63b763e5f70bd3de13220dd",
+  "attachments/t_16080f61/H-IQB-001_modes.json": "4eba6c5465e98690975dce434ea5d4d5b203077fde7b289dd9ee14408f4b3163"
+ },
+ "files": {
+  "modes_library_entries.json": {
+   "sha256": "be4e23e4493d3d6c726a372bfa52a251ae492c9b0b7ba0c05a841ec9eae5c56b",
+   "bytes": 63488
+  },
+  "combined_library_entries.json": {
+   "sha256": "2a904787548f7db3b7dead9c5208c54196c695670ee8805f7bf183f131dc5352",
+   "bytes": 64391
+  },
+  "id_mapping.tsv": {
+   "sha256": "afd149e6c0400fed51056fd7d568b899a3ed0e70144581f314d7659611ad250f",
+   "bytes": 134
+  },
+  "category_mapping.tsv": {
+   "sha256": "164a791adab0d62f2c2b36a58709883d22d9425ed06c6f7bea833d43c3249607",
+   "bytes": 528
+  },
+  "top_block_proposal.json": {
+   "sha256": "79c7aa4a0a2e05eb5ad071664105ee975db67b0e2f22702a11fceb68e201d3c4",
+   "bytes": 11876
+  },
+  "scenario_notes.json": {
+   "sha256": "cac72d3967562486529b3be5239edd84d7f467a4a5d2eab8c29652ca79442a59",
+   "bytes": 595
+  },
+  "figures/H-IQB-001.json": {
+   "sha256": "8ae189fd726b7397bd6b11bb204ef8605c32776f8cd963de7f8acb713d72a222",
+   "bytes": 77485
+  },
+  "figures/H-IQB-001_modes.json": {
+   "sha256": "2a904787548f7db3b7dead9c5208c54196c695670ee8805f7bf183f131dc5352",
+   "bytes": 64391
+  },
+  "individuals/H-IQB-001.json": {
+   "sha256": "79625838544587190e7ac022a38b085b1935126a699490053e7b30675ab177eb",
+   "bytes": 13235
+  },
+  "individuals/H-IQB-001_modes.json": {
+   "sha256": "2a904787548f7db3b7dead9c5208c54196c695670ee8805f7bf183f131dc5352",
+   "bytes": 64391
+  }
+ },
+ "note": "落盘包由合并卡生成（上游落地卡 t_6839d252 仅导入遗留库，未落盘量件）；内容源=研究产出 attachments 两件，条目 27 键逐字等于研究产出；图档 xref 只收录已注册目标（见 caveats 登记）。"
+}

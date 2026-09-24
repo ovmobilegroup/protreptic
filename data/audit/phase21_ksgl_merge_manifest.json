@@ -1,0 +1,127 @@
+{
+  "schema_version": "v1",
+  "card": "t_06017753",
+  "chain": "Phase21 麻赫穆德·喀什噶里（H-KSGL-001）合并链",
+  "date": "2026-09-24",
+  "figure_code": "H-KSGL-001",
+  "landing_package": "docs/scratch/phase21_ksgl_landing/",
+  "backup_dir": "data/backup_merge_H-KSGL-001_20260924_203503",
+  "rules": {
+    "modes_append": "10 条 M-KSGL-001~010 逐字等于 landing entries，追加于 'modes' 文末",
+    "top_block": "顶层块 H-KSGL-001 新增（23 键，置于 'modes' 之前）；原块缺失，无旧块置换",
+    "total": "total 随动对齐 = len(modes)",
+    "code_maps": "figures[H-KSGL-001] = mode_ids(图档) + tags(10 = 各模式 name_zh) + cross_references(图档逐字, 目标已注册)",
+    "scenario_prefix": "C-KSGL-001~010 / C-KSGL-001E~010E（1:1 配对 mode 序号；全库 0 碰撞）",
+    "scenario_template": "text 由 name_zh/name_en + modern_applications_* 模板复算",
+    "tags": "scenario_tags +20：每模式 zh+en 各一条（tag = name_zh_zh / name_en_en），先 zh 后 en",
+    "serialization": "json.dump(indent=2, ensure_ascii=False) + 保留原尾换行状态（字节可复算）"
+  },
+  "inputs": {
+    "data/modes_data.json": {
+      "sha256": "1a12e65423dbcde22a90c611d2fc2907cf852cdf0419a74401b94ba4ece9ec49",
+      "bytes": 25031423
+    },
+    "data/code_maps.json": {
+      "sha256": "136752ab8220b87abc0e017a62b908ce6fe5b0e9b2a966e171d14aefd674e647",
+      "bytes": 867483
+    },
+    "data/figure_names.json": {
+      "sha256": "6808c40022b65b8a10cea1bc7e77838bfd7d1a1435bd419ce849fc862c2875bc",
+      "bytes": 30874
+    },
+    "data/scenarios_zh.json": {
+      "sha256": "42eb86f9b6101c42134b517bf9ea9f0983e3f53b9fde3f5f10147bc7446ed440",
+      "bytes": 1964723
+    },
+    "data/scenarios_en.json": {
+      "sha256": "966bb86e3e15ff321ae0ae428ca9f7459aa76ee16a9e10ee6d886e03724db72e",
+      "bytes": 2225058
+    },
+    "data/scenario_tags.json": {
+      "sha256": "21953ee3b8c5969ee82d49ce59a4590885d80f9e6aff2a094441749102f4b439",
+      "bytes": 1165905
+    }
+  },
+  "after": {
+    "data/modes_data.json": {
+      "sha256": "35a98f75c0fb2740847aebb00ebab1ce4586cd3b08fb517639486979bf7a5102",
+      "bytes": 25107744
+    },
+    "data/code_maps.json": {
+      "sha256": "b9cacfdedc5f6d7b9ea4fc02ac2c201adcf36a2a4463710b8555beb0287f96ab",
+      "bytes": 869688
+    },
+    "data/figure_names.json": {
+      "sha256": "44596238ed23702b17db266a79530f48342cf3c4612311843868ee8a930a8520",
+      "bytes": 30920
+    },
+    "data/scenarios_zh.json": {
+      "sha256": "23d226c18e40bc854ea0831acc3b12fd6ccf7bb8b82ccc65710f1101061c0d20",
+      "bytes": 1974537
+    },
+    "data/scenarios_en.json": {
+      "sha256": "0afc8b811ae7e87025768e07b7b945de2dc58fcfd1721a7d3735ba422f2ec438",
+      "bytes": 2234892
+    },
+    "data/scenario_tags.json": {
+      "sha256": "283388132d57686ffa6d385650df98c73cefb35f7afb22edef6a48b81997335b",
+      "bytes": 1168955
+    }
+  },
+  "counts": {
+    "before": {
+      "modes_data": {
+        "top_level_modes_entries": 3331,
+        "distinct_mode_codes": 3321,
+        "empty_mode_code": 10
+      },
+      "code_maps_figures": 218,
+      "figure_names": 1087,
+      "scenarios_zh_inner": 2233,
+      "scenarios_en_inner": 2233,
+      "scenario_tags_inner": 7578
+    },
+    "after": {
+      "modes_data": {
+        "top_level_modes_entries": 3341,
+        "distinct_mode_codes": 3331,
+        "empty_mode_code": 10
+      },
+      "code_maps_figures": 219,
+      "figure_names": 1088,
+      "scenarios_zh_inner": 2243,
+      "scenarios_en_inner": 2243,
+      "scenario_tags_inner": 7598
+    },
+    "total_field": {
+      "before": 3331,
+      "after": 3341
+    }
+  },
+  "union_guard": {
+    "M-AZJ": {
+      "before": 10,
+      "after": 10
+    },
+    "M-SHF": {
+      "before": 10,
+      "after": 10
+    },
+    "M-IQB": {
+      "before": 10,
+      "after": 10
+    },
+    "M-HLX": {
+      "before": 10,
+      "after": 10
+    }
+  },
+  "written": [
+    "data/modes_data.json",
+    "data/code_maps.json",
+    "data/figure_names.json",
+    "data/scenarios_zh.json",
+    "data/scenarios_en.json",
+    "data/scenario_tags.json"
+  ]
+}

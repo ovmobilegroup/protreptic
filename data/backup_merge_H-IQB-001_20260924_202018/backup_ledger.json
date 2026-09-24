@@ -1,0 +1,14 @@
+{
+ "card": "t_30a3e702",
+ "ts": "20260924_202018",
+ "figure_code": "H-IQB-001",
+ "files": {
+  "data/modes_data.json": "736aab3b4164973d09ac43c8af6953fd7edd6332491cac4db72a28dbe1399a70",
+  "data/code_maps.json": "ffb380949718c88851d3c58623aeb790d29303e7f51cb5d2d8e768102bd80280",
+  "data/figure_names.json": "5370df6ad9f32f6b4ae0295b63317a44a11b330a35a3ce43343477582ba58403",
+  "data/scenarios_zh.json": "3f90382536bdd9b63e7cb112c34397efcdf4a8ab5d75a84e315723f203d1d90d",
+  "data/scenarios_en.json": "d971e9a00d3da7d29ca8cc82861ab9dbc05f66ee52e05cfa9d1128988d3d0fa1",
+  "data/scenario_tags.json": "0c06fbf583cb17f59e97785a747824538578703708c844eb3b418d46813586ac"
+ },
+ "note": "六件 before 全量备份（先备份后合并）；恢复法：cp 回 data/ 同名路径；四件数据件为新增（无 before）"
+}

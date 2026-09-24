@@ -1,0 +1,211 @@
+{
+  "schema": "protreptic.phase21_iqb_merge/v1",
+  "card": "t_30a3e702",
+  "date": "2026-09-24",
+  "ts": "20260924_202018",
+  "dry": false,
+  "figure_code": "H-IQB-001",
+  "figure_name": "伊克巴尔",
+  "upstream": {
+    "research_card": "t_16080f61",
+    "landing_card": "t_6839d252",
+    "landing_pack": "docs/scratch/phase21_iqb_landing/",
+    "landing_manifest": "data/audit/phase21_iqb_landing_manifest.json",
+    "note": "上游落地卡仅导入遗留库 protreptic.db（ca7b2f31），未落盘量件；落盘包由本合并卡按研究产出生成"
+  },
+  "inputs_after_write": {
+    "data/modes_data.json": "a087c47d70aeedd2a3ad7e1a00795d2d5fce7504db29b8ddda10baa680003e4e",
+    "data/code_maps.json": "df26c5aefa54a288ffce815d2888c9252a5acedb9b64daabbdd3efcf75d64fda",
+    "data/figure_names.json": "4b90cb38d8439425b4e534338e023f4d401d31d239bc763dfe563f271e31b0f2",
+    "data/scenarios_zh.json": "c735c0e731e9af34745eccb370a3fda7b4457e3e2a6729e6985da2d93b6028ab",
+    "data/scenarios_en.json": "54a4714173ec66ee8be74d858cffed39b21dfa86c798b4fd0af1651f97d4648c",
+    "data/scenario_tags.json": "6cce01f60398a0edbfe98789e302cb8cd238d252fea1bd8c0e48f8e1d9893656"
+  },
+  "added": {
+    "modes": [
+      "M-IQB-001",
+      "M-IQB-002",
+      "M-IQB-003",
+      "M-IQB-004",
+      "M-IQB-005",
+      "M-IQB-006",
+      "M-IQB-007",
+      "M-IQB-008",
+      "M-IQB-009",
+      "M-IQB-010"
+    ],
+    "top_level_block": "H-IQB-001",
+    "code_maps": "H-IQB-001",
+    "figure_names": {
+      "H-IQB-001": "伊克巴尔"
+    },
+    "scenarios_zh": [
+      "C-IQB-001",
+      "C-IQB-002",
+      "C-IQB-003",
+      "C-IQB-004",
+      "C-IQB-005",
+      "C-IQB-006",
+      "C-IQB-007",
+      "C-IQB-008",
+      "C-IQB-009",
+      "C-IQB-010"
+    ],
+    "scenarios_en": [
+      "C-IQB-001E",
+      "C-IQB-002E",
+      "C-IQB-003E",
+      "C-IQB-004E",
+      "C-IQB-005E",
+      "C-IQB-006E",
+      "C-IQB-007E",
+      "C-IQB-008E",
+      "C-IQB-009E",
+      "C-IQB-010E"
+    ],
+    "scenario_tags": 20,
+    "data_files": [
+      "data/figures/H-IQB-001.json",
+      "data/figures/H-IQB-001_modes.json",
+      "data/individuals/H-IQB-001.json",
+      "data/individuals/H-IQB-001_modes.json"
+    ]
+  },
+  "rules": {
+    "append_only": "纯追加零删改：旧对象逐对象全等（modes 前缀/其余 figures/figure_names/scenarios 前缀/tags 前缀）",
+    "top_block": "顶层块新增（非替换）：位置=第一 H-* 块组末位、'modes' 键之前；23 键与库内块同构",
+    "total_scalar": "随动对齐：total = len(modes)",
+    "scenarios": "模板复算 10+10（沿 C-WX/C-LUORQ/C-SHF 生成规则；text = name + modern_applications）；C-IQB-001~010 / 001E~010E",
+    "code_maps": "3 键 mode_ids/tags/cross_references；xref 仅已注册目标（H-GAN-001/H-ATK-001/H-IKH-001；H-GHZ-001 只名录未注册，caveat 登记不收录）",
+    "figure_names": "键级追加 H-IQB-001 -> 伊克巴尔（文末）；其余键零改动",
+    "serialization": "六件 indent=2 + 尾换行按现行态逐字节保持；四件数据件按落盘包逐字节落盘",
+    "verification": "10/10 保持 pending，不回填",
+    "concurrency": "写前复读六件 sha 护栏（兄弟卡在途写入自动重试）；attempt=1"
+  },
+  "before": {
+    "data/modes_data.json": {
+      "count": 3311,
+      "sha256": "736aab3b4164973d09ac43c8af6953fd7edd6332491cac4db72a28dbe1399a70",
+      "bytes": 24894309,
+      "trailing_newline": false
+    },
+    "data/code_maps.json": {
+      "count": 216,
+      "sha256": "ffb380949718c88851d3c58623aeb790d29303e7f51cb5d2d8e768102bd80280",
+      "bytes": 861834,
+      "trailing_newline": false
+    },
+    "data/figure_names.json": {
+      "count": 1085,
+      "sha256": "5370df6ad9f32f6b4ae0295b63317a44a11b330a35a3ce43343477582ba58403",
+      "bytes": 30807,
+      "trailing_newline": false
+    },
+    "data/scenarios_zh.json": {
+      "count": 2213,
+      "sha256": "3f90382536bdd9b63e7cb112c34397efcdf4a8ab5d75a84e315723f203d1d90d",
+      "bytes": 1947587,
+      "trailing_newline": true
+    },
+    "data/scenarios_en.json": {
+      "count": 2213,
+      "sha256": "d971e9a00d3da7d29ca8cc82861ab9dbc05f66ee52e05cfa9d1128988d3d0fa1",
+      "bytes": 2207882,
+      "trailing_newline": true
+    },
+    "data/scenario_tags.json": {
+      "count": 7538,
+      "sha256": "0c06fbf583cb17f59e97785a747824538578703708c844eb3b418d46813586ac",
+      "bytes": 1160060,
+      "trailing_newline": true
+    },
+    "data/figures/H-IQB-001.json": {
+      "count": null,
+      "sha256": null,
+      "bytes": null,
+      "absent": true
+    },
+    "data/figures/H-IQB-001_modes.json": {
+      "count": null,
+      "sha256": null,
+      "bytes": null,
+      "absent": true
+    },
+    "data/individuals/H-IQB-001.json": {
+      "count": null,
+      "sha256": null,
+      "bytes": null,
+      "absent": true
+    },
+    "data/individuals/H-IQB-001_modes.json": {
+      "count": null,
+      "sha256": null,
+      "bytes": null,
+      "absent": true
+    }
+  },
+  "after": {
+    "data/modes_data.json": {
+      "count": 3321,
+      "sha256": "a087c47d70aeedd2a3ad7e1a00795d2d5fce7504db29b8ddda10baa680003e4e",
+      "bytes": 24973063
+    },
+    "data/code_maps.json": {
+      "count": 217,
+      "sha256": "df26c5aefa54a288ffce815d2888c9252a5acedb9b64daabbdd3efcf75d64fda",
+      "bytes": 865393
+    },
+    "data/figure_names.json": {
+      "count": 1086,
+      "sha256": "4b90cb38d8439425b4e534338e023f4d401d31d239bc763dfe563f271e31b0f2",
+      "bytes": 30838
+    },
+    "data/scenarios_zh.json": {
+      "count": 2223,
+      "sha256": "c735c0e731e9af34745eccb370a3fda7b4457e3e2a6729e6985da2d93b6028ab",
+      "bytes": 1956741
+    },
+    "data/scenarios_en.json": {
+      "count": 2223,
+      "sha256": "54a4714173ec66ee8be74d858cffed39b21dfa86c798b4fd0af1651f97d4648c",
+      "bytes": 2217056
+    },
+    "data/scenario_tags.json": {
+      "count": 7558,
+      "sha256": "6cce01f60398a0edbfe98789e302cb8cd238d252fea1bd8c0e48f8e1d9893656",
+      "bytes": 1163034
+    },
+    "data/figures/H-IQB-001.json": {
+      "count": 33,
+      "sha256": "8ae189fd726b7397bd6b11bb204ef8605c32776f8cd963de7f8acb713d72a222",
+      "bytes": 77485
+    },
+    "data/figures/H-IQB-001_modes.json": {
+      "count": 6,
+      "sha256": "2a904787548f7db3b7dead9c5208c54196c695670ee8805f7bf183f131dc5352",
+      "bytes": 64391
+    },
+    "data/individuals/H-IQB-001.json": {
+      "count": 32,
+      "sha256": "79625838544587190e7ac022a38b085b1935126a699490053e7b30675ab177eb",
+      "bytes": 13235
+    },
+    "data/individuals/H-IQB-001_modes.json": {
+      "count": 6,
+      "sha256": "2a904787548f7db3b7dead9c5208c54196c695670ee8805f7bf183f131dc5352",
+      "bytes": 64391
+    }
+  },
+  "backup": {
+    "dir": "/opt/data/workspace/Protreptic/data/backup_merge_H-IQB-001_20260924_202018",
+    "ledger": "backup_ledger.json",
+    "files": [
+      "code_maps.json",
+      "figure_names.json",
+      "modes_data.json",
+      "scenario_tags.json",
+      "scenarios_en.json",
+      "scenarios_zh.json"
+    ]
+  }
+}

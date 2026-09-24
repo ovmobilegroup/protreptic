@@ -1,0 +1,55 @@
+{
+ "schema_version": "v1",
+ "card": "t_06017753",
+ "chain": "Phase 21 麻赫穆德·喀什噶里（H-KSGL-001）合并链",
+ "figure_code": "H-KSGL-001",
+ "figure_name": "麻赫穆德·喀什噶里",
+ "landing_dir": "docs/scratch/phase21_ksgl_landing/",
+ "sources": {
+  "attachments/t_1eb78b6b/H-KSGL-001.json": "45b68ad1e1ca487a883082b3299f6465087119f83ccdf963e02efc2a2371429a",
+  "attachments/t_1eb78b6b/H-KSGL-001_modes.json": "3c596ee8b3bb5f661cc9dbabe387d9f5ce1e7ba3ee143661ddc33468823740c1"
+ },
+ "files": {
+  "modes_library_entries.json": {
+   "sha256": "437eb17cce258eec8291667017d785cecab0fe3b0e7b34b4f464fbfc66a9d438",
+   "bytes": 64310
+  },
+  "combined_library_entries.json": {
+   "sha256": "a49afdf6df719a483308b7da62da9a6d5df504adfa553ab5235ff6bc9a07035d",
+   "bytes": 65256
+  },
+  "id_mapping.tsv": {
+   "sha256": "4d86bd39285665e604073a2d78762101c4f85e5e04cba677386ebce99e4fc7b8",
+   "bytes": 144
+  },
+  "category_mapping.tsv": {
+   "sha256": "e274cd3b93090f52dec1b765d3fbb49da4a56484b87c93c9e4fd5dc0a23d4d2c",
+   "bytes": 520
+  },
+  "top_block_proposal.json": {
+   "sha256": "0948a7d640373a23c3c981d30d8e657d80bfca0642341dcfc1e18ffcdf4f2359",
+   "bytes": 8520
+  },
+  "scenario_notes.json": {
+   "sha256": "5bcb6c875a28f17cc3d6343e87291e04eb7503a9eb421ba33a5ef188ed342f4e",
+   "bytes": 598
+  },
+  "figures/H-KSGL-001.json": {
+   "sha256": "9b387302fabd920e501b4e8993d578e7742eb1cfec895b33aada20ec7f48db60",
+   "bytes": 73569
+  },
+  "figures/H-KSGL-001_modes.json": {
+   "sha256": "a49afdf6df719a483308b7da62da9a6d5df504adfa553ab5235ff6bc9a07035d",
+   "bytes": 65256
+  },
+  "individuals/H-KSGL-001.json": {
+   "sha256": "6394842f14ccbd26b6d16a8962493134b4af56abd63f370c50710a01a57ac042",
+   "bytes": 8473
+  },
+  "individuals/H-KSGL-001_modes.json": {
+   "sha256": "a49afdf6df719a483308b7da62da9a6d5df504adfa553ab5235ff6bc9a07035d",
+   "bytes": 65256
+  }
+ },
+ "note": "落盘包由合并卡生成（上游 t_43e4872a 仅落 individuals 空壳两件）；内容源=研究产出 attachments 两件，条目 27 键逐字等于研究产出；图档 xref 只收录已注册目标（见 caveats 登记）。"
+}

@@ -25,7 +25,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # Phase21-R8 (2026-09-24) 遗留清档（卡 t_3669eb4a）：EXPECT_FIGURES 1057 -> 1056
 # Phase21-W4 (2026-09-24, 卡 t_536073f4) 名录修复：EXPECT_FIGURES 1056 -> 1054（重建后实测）
 # Phase21-W4 (2026-09-24, 卡 t_ee203180) 模板废件 27 码清档：EXPECT_FIGURES 1054 -> 1027（重建后实测）
-EXPECT_FIGURES = 1027
+EXPECT_FIGURES = 1028
 # EXPECT_MODES 是「源去重口径」(与 export_static_site.EXPECT_MODES 同口径)，只用来校验
 # meta.json 与数据源是否同步；它**不是**站点文案口径 —— 站点文案/分享图用发布口径
 # mode_summaries_published = 3281 - 隔离名单条数，由下面 check_data 的隔离门逐分片重算校验。
@@ -45,8 +45,9 @@ EXPECT_FIGURES = 1027
 # EXPECT_BY_FIGURE 318 -> 319（+1 分片）；EXPECT_FIGURES 1027 unchanged)
 # Phase21-R9 (2026-09-24, card t_a7d233f0) anchor bump: 3291 -> 3301 (+10 H-SHF-001/沈复 M-SHF-001~010 入库；顶层块新增不涉模式计数；空模式码壳 10 条口径不变；
 # EXPECT_BY_FIGURE 319 -> 320（+1 分片）；EXPECT_FIGURES 1027 unchanged）。注：锚点为 R9 两卡并集口径（t_ce457734 安子介 + t_a7d233f0 沈复）
-EXPECT_MODES = 3301
-EXPECT_BY_FIGURE = 320
+# Phase21-IQB+HLX+KSGL+LMNJ (2026-09-24, card t_30a3e702 收尾): 3301 -> 3331（+30 M-* 入库，去重口径净 +30；3341 raw - 空 code 10 = 3331）；EXPECT_BY_FIGURE 320 -> 323（+3 分片，SHF+IQB+HLX 各 +1）
+EXPECT_MODES = 3331
+EXPECT_BY_FIGURE = 323
 EXPECT_MODE_INDEX_SHARDS = 8
 SPA_BASE = "/protreptic/"
 
