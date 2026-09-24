@@ -1,0 +1,311 @@
+{
+ "artifact": "phase21w7_cleanup_qa",
+ "task": "t_06511a5a",
+ "audited_task": "t_d24e11bc",
+ "auditor": "espinosa",
+ "date": "2026-09-24",
+ "verdict": "PASS",
+ "method": {
+  "independent": true,
+  "sources": [
+   "data/audit/phase21w7_classification.json",
+   "data/backup_phase21w7_clean_20260924",
+   "git objects e5ddd13f^/f61f055d^/c167cb5^",
+   "/opt/data/release/Protreptic-publish",
+   "isolated copy scratch/qa_w7/iso"
+  ],
+  "write_boundary": "only 3 QA artifacts added (report md/json + verifier script)"
+ },
+ "script": {
+  "path": "tools/verify_phase21w7_cleanup_qa_espinosa.py",
+  "full_result": "20/20 PASS rc=0",
+  "quick_result": "19/19 PASS"
+ },
+ "verifications": {
+  "delete_face": {
+   "tracked": 1309,
+   "root": 632,
+   "tools_json": 670,
+   "comma_space": 1,
+   "junk_nested_files": 6,
+   "junk_dirs_untracked": 5,
+   "window_deletions_e5^..HEAD": 1309,
+   "window_deletions_equals_face": true
+  },
+  "preimages": {
+   "ws_ok": 1309,
+   "ws_mismatch": 0,
+   "pb_ok": 674,
+   "pb_mismatch": 0,
+   "method": "git cat-file --batch vs backup sha256 (full re-run)"
+  },
+  "absence": {
+   "ws_head": "all 1309 absent",
+   "pb_head": "all 674 absent"
+  },
+  "manifest": {
+   "logical_entries": 1983,
+   "physical_lines": 1984,
+   "bad_entries": 0,
+   "caveat_unusual_names": {
+    "spaces": 7,
+    "newline": 1
+   },
+   "rollback": "cp -a of backup tree"
+  },
+  "twin_claims_full_population": {
+   "root_byte_equal": {
+    "claims": 1079,
+    "ok": 1079,
+    "false": 0
+   },
+   "tools_json": {
+    "claims": 1162,
+    "ok_exact": 1141,
+    "ok_basename_relocated": 21,
+    "false": 0
+   },
+   "publish_side": {
+    "ok": 670,
+    "bad": 0
+   },
+   "no_twin_root_items": {
+    "count": 22,
+    "method": "per-item basis + global same-basename search (hits all archival/backup classes)"
+   }
+  },
+  "sample_303": {
+   "root": {
+    "n": 125,
+    "of": 632,
+    "pct": 19.8,
+    "fail": 0,
+    "includes_all_22_no_twin": true
+   },
+   "tools_json": {
+    "n": 129,
+    "of": 670,
+    "pct": 19.3,
+    "fail": 0,
+    "includes_all_21_subdir": true
+   },
+   "abnormal_name": {
+    "n": 6,
+    "of": 6,
+    "fail": 0
+   },
+   "r7": {
+    "n": 5,
+    "of": 5,
+    "fail": 0
+   },
+   "backup_dirs": {
+    "n": 33,
+    "of": 33,
+    "fail": 0
+   },
+   "keep": {
+    "n": 5,
+    "of": 5,
+    "fail": 0
+   },
+   "script_mode_sample": {
+    "root": 125,
+    "tj": 112,
+    "thresholds": ">=95/>=101 OK"
+   }
+  },
+  "keeps": {
+   "files": [
+    ".markdownlint.json",
+    "lighthouserc.json",
+    "tools/json/scenarios_zh.json",
+    "tools/json/scenarios_en.json",
+    "tools/json/scenario_tags.json"
+   ],
+   "ws_pb_byte_equal": "5/5"
+  },
+  "boundary_and_parity": {
+   "parity_tool_rc": 1,
+   "boundary_self_check": "PASS (16 build steps / 30 triggers covered)",
+   "both_sides": 4580,
+   "byte_identical": 4579,
+   "single_side": 0,
+   "content_diff": [
+    "docs/architecture/static_data_manifest.json (other-card in-flight build product)"
+   ],
+   "anchors_current": {
+    "pages_preflight_EXPECT_FIGURES": 1027,
+    "export_static_site_EXPECT_FIGURES": 1027,
+    "ci_data_check_MIN_SITEMAP": 1359,
+    "db": 1027,
+    "meta": 1027,
+    "figures_index": 1027,
+    "sitemap_urls": 1361,
+    "unified_total": 1344
+   }
+  },
+  "iso_chain": {
+   "steps": [
+    "build_figures_db",
+    "export_static_site",
+    "gen_web_site_counts",
+    "build_daily_index",
+    "pages_preflight --stage data",
+    "build_search_index",
+    "build_graph_data",
+    "build_unified_index"
+   ],
+   "all_rc0": true,
+   "gates": [
+    "credibility_gate --hard-fail",
+    "verify_source_links --hard-fail",
+    "verify_findings --hard-fail",
+    "apply_verification_status --check"
+   ],
+   "gates_rc0": true,
+   "counts": {
+    "figures": 1027,
+    "modes_source": 3301,
+    "modes_published": 3241,
+    "quarantined": 60,
+    "by_figure_shards": 320,
+    "unified_total": 1344,
+    "unified_scenarios": 1024,
+    "search_shards": 16,
+    "product_files": 1357
+   }
+  },
+  "witness_azj345_clear": {
+   "result": "10/18 PASS",
+   "fail_count": 8,
+   "attribution": {
+    "counts_db_alignment_anchors_sitemap_unified": "stale anchors 1056/1056/1388/1371 vs current 1027/1027/1359/1344 (W4-chain re-anchor); current values internally consistent",
+    "scan_live_zero_workspace_publish": "r9 re-landing H-AZJ-001 overturns live_zero premise; new r9-era files not in old allow list",
+    "scan_products_zero": "products contain H-AZJ-001 (live) - measured H-AZJ-345=0 / H-AZJ-001=2"
+   },
+   "passed_notable": [
+    "registry.zero_12",
+    "reverse.others_intact",
+    "archive.byte_archives_sha",
+    "archive.backup_manifest_sha",
+    "archive.fragments_cover_12",
+    "registry.zh_en_parity",
+    "parity.key_files"
+   ]
+  },
+  "ref_rescan": {
+   "scope": "full repo incl. gitignored, ws + pb",
+   "ws_live_hits_lines": 955,
+   "ws_live_unresolved_lines": 90,
+   "ws_buckets_live": {
+    "tools": 915,
+    "scripts": 20,
+    "api": 7,
+    "web-other": 7,
+    "cli_tests": 6,
+    "web/src": 0,
+    ".github": 0
+   },
+   "ws_buckets_archival": {
+    "audit": 5210,
+    "root-other": 3377,
+    "backup": 2598,
+    "docs": 2136,
+    "site_docs": 1866,
+    "release": 203,
+    "data-other": 145,
+    "web-product": 7,
+    "root-config": 2
+   },
+   "hard_residual": 0,
+   "hard_definition": "reference resolving to a path deleted within this card's window (win_del) that does not exist",
+   "resolved_benign_in_live": 23,
+   "preexisting_stale_in_live": 5,
+   "build_graph_hits": {
+    "n": 12,
+    "all_benign": [
+     "build_figures_db find() fallback candidates",
+     "check_repo_parity self-doc references",
+     "kept scenario JSON self-content"
+    ]
+   },
+   "preexisting_stale_files": [
+    "api/load_data.py",
+    "api/semantic_search.py",
+    "cli_tests/conftest.py",
+    "cli_tests/test_cli.py"
+   ],
+   "junk_literal_check": "tools/json/.json + tools/json/, print( literals: not found in live dirs"
+  },
+  "commits": {
+   "ws": [
+    {
+     "sha": "f61f055d",
+     "del": 6,
+     "add": 1984,
+     "mod": 0,
+     "verdict": "no overreach"
+    },
+    {
+     "sha": "7714c9d1",
+     "del": 0,
+     "add": 4,
+     "mod": 1,
+     "mod_file": "data/backup_phase21w7_clean_20260924/MANIFEST.sha256",
+     "verdict": "no overreach"
+    }
+   ],
+   "pb": [
+    {
+     "sha": "c167cb5",
+     "del": 674,
+     "add": 1988,
+     "mod": 0,
+     "verdict": "no overreach"
+    }
+   ],
+   "directions": {
+    "ws": "master (local)",
+    "pb": "main -> origin/main (github)",
+    "pb_ls_remote": "matches local (includes c167cb5)"
+   },
+   "mirror_byte_equal_sample": "5/5 (classification 2 + report 2 + MANIFEST)"
+  }
+ },
+ "findings": [
+  {
+   "id": "F1",
+   "sev": "registered",
+   "text": "(echo #! dir body has no trace in backup/registry (content-fragment evidence); kept as honest registration"
+  },
+  {
+   "id": "F2",
+   "sev": "registered",
+   "text": "6 nested junk files covered at directory-level basis, not itemized"
+  },
+  {
+   "id": "F3",
+   "sev": "low",
+   "text": "upstream report/evidence pair stale by the +4 addendum (1979/670 -> final 1983/674); documented in 7714c9d1 + task metadata; recommend note by downstream doc card t_95764335"
+  },
+  {
+   "id": "F4",
+   "sev": "low",
+   "text": "witness verify_azj345_clear.py stale 10/18; recommend re-anchor or retire (captain decision)"
+  },
+  {
+   "id": "F5",
+   "sev": "low",
+   "text": "MANIFEST contains 8 unusual names (7 with spaces, 1 with newline); naive sha256sum -c cannot consume; parser tolerance implemented in QA verifier"
+  }
+ ],
+ "receipt": {
+  "ws_commit_A": null,
+  "ws_commit_B": null,
+  "pb_mirror_P1": null,
+  "pb_mirror_P2": null,
+  "push": null,
+  "ls_remote": null
+ }
+}
