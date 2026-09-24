@@ -7,13 +7,13 @@
     "with_remote": false,
     "with_live": false,
     "chain_repro": true,
-    "receipts_pending": true
+    "receipts_pending": false
   },
-  "receipts_pending": true,
+  "receipts_pending": false,
   "totals": {
     "checks": 39,
-    "pass": 31,
-    "fail": 8
+    "pass": 38,
+    "fail": 1
   },
   "sections": {
     "A": [
@@ -47,37 +47,37 @@
         "section": "B",
         "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_fix_archive_report.md",
         "ok": false,
-        "detail": "ws=a8483f2e90b9e626 pb=None"
+        "detail": "ws=bb1beb9e8dd2cce5 pb=a8483f2e90b9e626"
       },
       {
         "section": "B",
         "name": "B1 双仓 byte-exact: verify_w8_stage2_batch1_fix_archive.py",
-        "ok": false,
-        "detail": "ws=40a6d5239ce66e05 pb=None"
+        "ok": true,
+        "detail": ""
       },
       {
         "section": "B",
         "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_fix_archive_evidence.json",
-        "ok": false,
-        "detail": "ws=942abf1ee05eba74 pb=None"
+        "ok": true,
+        "detail": ""
       },
       {
         "section": "B",
         "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_report.md",
-        "ok": false,
-        "detail": "ws=3b30af2b9aec5cfa pb=0eed2ddcfee5161c"
+        "ok": true,
+        "detail": ""
       },
       {
         "section": "B",
         "name": "B1 双仓 byte-exact: verify_w8_stage2_batch1_archive.py",
-        "ok": false,
-        "detail": "ws=b09f29fc207268f9 pb=031a98a12606512a"
+        "ok": true,
+        "detail": ""
       },
       {
         "section": "B",
         "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_evidence.json",
-        "ok": false,
-        "detail": "ws=6ed4202c6ff54bd8 pb=23e2c803a3cb8fc8"
+        "ok": true,
+        "detail": ""
       },
       {
         "section": "B",
@@ -140,8 +140,8 @@
       {
         "section": "D",
         "name": "D1 §5.1 sha16 登记复核（11 件）",
-        "ok": false,
-        "detail": "失配: ['phase21w8_stage2_batch1_archive_report.md:两仓字节差异', 'verify_w8_stage2_batch1_archive.py:两仓字节差异', 'phase21w8_stage2_batch1_archive_evidence.json:两仓字节差异']"
+        "ok": true,
+        "detail": "失配: []"
       },
       {
         "section": "D",
@@ -185,19 +185,19 @@
         "section": "E",
         "name": "E3a 回执区 v1 登记复核（ws 8 件 / pb 6 件）",
         "ok": true,
-        "detail": "pending（回执区未回填；v2 后转严）"
+        "detail": ""
       },
       {
         "section": "E",
         "name": "E3b 回执区 v1 提交级 blob 对照（6 件 + push 面）",
         "ok": true,
-        "detail": "pending（回执区未回填；v2 后转严）"
+        "detail": ""
       },
       {
         "section": "E",
         "name": "E4 父链收口复核（t_098d8ff6 验收 33/33 全 PASS）",
-        "ok": false,
-        "detail": "totals={'checks': 33, 'pass': 30, 'fail': 3}"
+        "ok": true,
+        "detail": ""
       }
     ],
     "F": [
@@ -268,7 +268,7 @@
   "fingerprints": {
     "report": {
       "rel": "docs/research/phase21w8_stage2_batch1_fix_archive_report.md",
-      "sha16": "a8483f2e90b9e626"
+      "sha16": "bb1beb9e8dd2cce5"
     },
     "verifier": {
       "rel": "verify_w8_stage2_batch1_fix_archive.py",
@@ -276,7 +276,7 @@
     },
     "generator": {
       "rel": "build_w8_stage2_batch1_fix_archive.py",
-      "sha16": "75ca899cd5670008"
+      "sha16": "b321091f9cc1797d"
     },
     "parent_report": {
       "rel": "docs/research/phase21w8_stage2_batch1_archive_report.md",
@@ -325,15 +325,15 @@
       },
       "docs/research/phase21w8_stage2_batch1_archive_report.md": {
         "ws": "3b30af2b9aec5cfa",
-        "pb": "0eed2ddcfee5161c"
+        "pb": "3b30af2b9aec5cfa"
       },
       "verify_w8_stage2_batch1_archive.py": {
         "ws": "b09f29fc207268f9",
-        "pb": "031a98a12606512a"
+        "pb": "b09f29fc207268f9"
       },
       "docs/research/phase21w8_stage2_batch1_archive_evidence.json": {
         "ws": "6ed4202c6ff54bd8",
-        "pb": "23e2c803a3cb8fc8"
+        "pb": "6ed4202c6ff54bd8"
       }
     }
   },

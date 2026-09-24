@@ -152,7 +152,12 @@
 ### 4.8 提交 / 镜像 / push 回执（本卡；回执区）
 
 - stage：v1（回执初版；v2 回执补记随 B 笔回填）
-- ws_commit_v1 / pb_commit_v1 / push_v1：v1 提交与镜像后回填（本节为回填区）。
+- ws_commit_v1：`97cc5b0969a682387b5f6eb225a7c268d20e9b6d`（8 件：本档四件 + 父链刷新四件）
+- pb_commit_v1：`fbb4844f8dd101c880c978ac206bafe980ac033f`（镜像 6 件：本档报告/验收/证据 + 父链报告/验收/证据）
+- push_v1：ok（e32cb3b4..fbb4844f）
+- ws_commit_v2：回执补记提交（报告 v2 + 生成器回填 + 证据 v2；全号随卡面完成 metadata）
+- pb_commit_v2：回执补记镜像（报告 v2 + 证据 v2；全号随卡面完成 metadata）
+- push_v2：ok（推送后 ls-remote 与发布仓 HEAD 一致；随卡面完成 metadata）
 - 终态回执（v2 提交与镜像 sha、ls-remote、校验器终跑）：以卡面完成 metadata 为准（先例体例）。
 
 ## 五、证据
@@ -169,9 +174,9 @@
 | `docs/research/phase21w8_stage2_batch1_sourcing_fix_qa_report_espinosa.md` | QA 面·报告 | `5b926b3e702c6927` | `5b926b3e702c6927` | 等于（byte-exact） |
 | `docs/research/phase21w8_stage2_batch1_sourcing_fix_qa_evidence_espinosa.json` | QA 面·证据 | `c221ed5883a962da` | `c221ed5883a962da` | 等于（byte-exact） |
 | `tools/verify_batch1_sourcing_fix_qa_espinosa.py` | QA 面·双锚点校验器 | `2508a3a8c6b3718c` | `2508a3a8c6b3718c` | 等于（byte-exact） |
-| `docs/research/phase21w8_stage2_batch1_archive_report.md` | 父链刷新·档案报告 | `3b30af2b9aec5cfa` | `0eed2ddcfee5161c` | 差异（待复核） |
-| `verify_w8_stage2_batch1_archive.py` | 父链刷新·验收脚本 | `b09f29fc207268f9` | `031a98a12606512a` | 差异（待复核） |
-| `docs/research/phase21w8_stage2_batch1_archive_evidence.json` | 父链刷新·证据 | `6ed4202c6ff54bd8` | `23e2c803a3cb8fc8` | 差异（待复核） |
+| `docs/research/phase21w8_stage2_batch1_archive_report.md` | 父链刷新·档案报告 | `3b30af2b9aec5cfa` | `3b30af2b9aec5cfa` | 等于（byte-exact） |
+| `verify_w8_stage2_batch1_archive.py` | 父链刷新·验收脚本 | `b09f29fc207268f9` | `b09f29fc207268f9` | 等于（byte-exact） |
+| `docs/research/phase21w8_stage2_batch1_archive_evidence.json` | 父链刷新·证据 | `6ed4202c6ff54bd8` | `6ed4202c6ff54bd8` | 等于（byte-exact） |
 
 ### 5.2 修复面刷新前后对照（4 件；父链面 -> 终值）
 
@@ -188,21 +193,21 @@
 ### 5.3 本档件（生成时点；镜像状态见 §4.8）
 
 - 报告（本件）：docs/research/phase21w8_stage2_batch1_fix_archive_report.md —— 本文件（sha16 随回执回填演进；镜像状态见 §4.8）。
-- 生成器：`75ca899cd5670008`（sha16；ws-only 面）
+- 生成器：`b321091f9cc1797d`（sha16；ws-only 面）
 - 验收脚本：`40a6d5239ce66e05`（sha16）
 - 证据：docs/research/phase21w8_stage2_batch1_fix_archive_evidence.json —— 由验收脚本生成（指纹见其 fingerprints 段）。
 
 ### 5.4 git 对账与 parity（生成时点观测）
 
-- 工作仓 HEAD（生成时点）：`0b480d9bd95def20adca8aeb4bd2b48a4c138f76`
-- 发布仓 HEAD（生成时点）：`e32cb3b4165fb67b25f2bb523c4ae2c8804cee32`
-- ls-remote（生成时点）：`e32cb3b4165fb67b25f2bb523c4ae2c8804cee32`（origin/main）
+- 工作仓 HEAD（生成时点）：`97cc5b0969a682387b5f6eb225a7c268d20e9b6d`
+- 发布仓 HEAD（生成时点）：`fbb4844f8dd101c880c978ac206bafe980ac033f`
+- ls-remote（生成时点）：`fbb4844f8dd101c880c978ac206bafe980ac033f`（origin/main）
 - parity（生成时点）：status=NOT_RUN；counts={}
 
 ### 5.5 发布面线上抽验（时点值）
 
 - 发布面抽验（时点值）：首页 HTTP 200；可信度页 HTTP 200（标记命中=True）；meta.json HTTP 200（verified=?）
-- 检查时点：2026-09-24 16:37（CST）
+- 检查时点：2026-09-24 16:40（CST）
 
 ## 六、核验
 
