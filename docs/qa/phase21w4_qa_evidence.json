@@ -1,0 +1,1220 @@
+{
+ "schema": "phase21w4-qa-evidence-1",
+ "card": "t_8bad8d98",
+ "generated_at": "2026-09-24 10:30:26 +0800",
+ "quick": false,
+ "ws_head": "c1fe9024fbe935a29b95116861c4ad22d35348a4",
+ "pb_head": "e6d133c43c4851ebcd77ab93acd17e5b861d345b",
+ "pb_origin_main": "e6d133c43c4851ebcd77ab93acd17e5b861d345b",
+ "counts": {
+  "checks": 140,
+  "fail": 0,
+  "pass": 140,
+  "drift": 45
+ },
+ "board_drift": {
+  "dirty": [
+   "data/audit/phase21w8_stage2_batch1_recount_baseline.json",
+   "data/audit/phase21w8_stage2_batch1_recount_live.json",
+   "data/audit/source_texts/1c09d5d360d70a3d.txt",
+   "data/audit/source_texts/3249682cf8e37e12.txt",
+   "data/audit/source_texts/389b2331100b5a3d.txt",
+   "data/audit/source_texts/e9103adb8b3eea3f.txt",
+   "data/audit/source_texts/e9103adb8b3eea3f.zh-cn.txt",
+   "data/audit/source_texts/f3c7e8f6bb23c6a7.txt",
+   "data/audit/source_texts_w8_stage2_batch1.json",
+   "data/backup_merge_H-SHF-001_20260924_093849/",
+   "docs/research/phase21w8_stage2_batch1_sourcing_report.json",
+   "docs/research/phase21w8_stage2_batch1_sourcing_report.md",
+   "tools/build_batch1_sourcing_pack.py",
+   "tools/build_batch1_sourcing_report.py",
+   "tools/build_source_links.py",
+   "tools/fetch_batch1_texts.py",
+   "tools/fetch_source_texts.py",
+   "tools/manifests/",
+   "tools/source_link_index.py",
+   "tools/verify_batch1_sourcing_delivery.py"
+  ],
+  "foreign_commits": [
+   "17691ab9",
+   "18c67cf6",
+   "1d7cbb9f",
+   "20b13092",
+   "25176b26",
+   "279fec1e",
+   "59bc5471",
+   "5a657b81",
+   "5ab2a688",
+   "5ce7f6ad",
+   "602a5d47",
+   "88f64471",
+   "8c486442",
+   "906a0bee",
+   "a515badd",
+   "a96302f1",
+   "c3cceb19",
+   "e0a98aa8",
+   "e8bfbe05"
+  ],
+  "board_src_moved": true
+ },
+ "drifts": [
+  {
+   "sec": "A",
+   "item": "meta counts live == expected or drift-attributed",
+   "path": "web/public/data/meta.json",
+   "drift": "board-rebuild",
+   "detail": "{\"figures\": 1027, \"figure_shards\": 1027, \"mode_summaries_published\": 3241, \"mode_by_figure_shards\": 320}"
+  },
+  {
+   "sec": "A",
+   "item": "web/public/data products: figures 1027 / by-figure 318 / mode shards 8",
+   "path": "web/public/data/",
+   "drift": "board-rebuild",
+   "detail": "files_total=1360 figures=1027 by_figure=320 mode_shards=8"
+  },
+  {
+   "sec": "F",
+   "item": "ci_data_check rc!=0 attributed",
+   "path": "web/public/data/index.unified.json",
+   "drift": "board-rebuild: index.unified.json transiently absent",
+   "detail": "数据校验: FAIL |     - index: 文件不存在: web/public/data/index.unified.json |     - cross.coverage: 1342 条路由不在名录里, 例: ['A-1-X-P', 'A-1-X-R', 'A-1-Y-P', 'A-1-Y-Q', 'A-1-Y-S']"
+  },
+  {
+   "sec": "F",
+   "item": "verify_w4fix2_lxn rc!=0 attributed",
+   "path": "web/public/data/index.unified.json",
+   "drift": "board-rebuild: index.unified.json transiently absent",
+   "detail": "[PASS] C2 db H-LXN-001 name_zh==LI ('李先念',) | [PASS] C3 routes==1358 1358 | [PASS] C4 sitemap==1359 1359"
+  },
+  {
+   "sec": "G",
+   "item": "parity content-diff tools/build_source_links.py",
+   "path": "tools/build_source_links.py",
+   "drift": "dirty:M",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "parity content-diff tools/fetch_source_texts.py",
+   "path": "tools/fetch_source_texts.py",
+   "drift": "dirty:M",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "parity content-diff tools/source_link_index.py",
+   "path": "tools/source_link_index.py",
+   "drift": "dirty:M",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "keyfile web/public/data/index.unified.json:missing",
+   "path": "web/public/data/index.unified.json",
+   "drift": "board-rebuild",
+   "detail": "web/public/data/index.unified.json:missing"
+  },
+  {
+   "sec": "G",
+   "item": "keyfile web/public/data/meta.json:diff",
+   "path": "web/public/data/meta.json",
+   "drift": "board-rebuild",
+   "detail": "web/public/data/meta.json:diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/daily/index.json",
+   "path": "web/public/data/daily/index.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/daily/names.json",
+   "path": "web/public/data/daily/names.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/meta.json",
+   "path": "web/public/data/meta.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/modes/index-0.json",
+   "path": "web/public/data/modes/index-0.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/modes/index-1.json",
+   "path": "web/public/data/modes/index-1.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/modes/index-2.json",
+   "path": "web/public/data/modes/index-2.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/modes/index-3.json",
+   "path": "web/public/data/modes/index-3.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/modes/index-4.json",
+   "path": "web/public/data/modes/index-4.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/modes/index-5.json",
+   "path": "web/public/data/modes/index-5.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/modes/index-6.json",
+   "path": "web/public/data/modes/index-6.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "core-diff web/public/data/modes/index-7.json",
+   "path": "web/public/data/modes/index-7.json",
+   "drift": "board-rebuild",
+   "detail": "ws vs pb content diff"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/graph/concept_graph.json",
+   "path": "web/public/data/graph/concept_graph.json",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/graph/concept_graph.json.gz",
+   "path": "web/public/data/graph/concept_graph.json.gz",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/graph/meta.json",
+   "path": "web/public/data/graph/meta.json",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/graph/mode_edges.json",
+   "path": "web/public/data/graph/mode_edges.json",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/graph/mode_edges.json.gz",
+   "path": "web/public/data/graph/mode_edges.json.gz",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/graph/similar_modes.json",
+   "path": "web/public/data/graph/similar_modes.json",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/graph/similar_modes.json.gz",
+   "path": "web/public/data/graph/similar_modes.json.gz",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/index.unified.json",
+   "path": "web/public/data/index.unified.json",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-0.bin",
+   "path": "web/public/data/search/index-0.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-1.bin",
+   "path": "web/public/data/search/index-1.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-10.bin",
+   "path": "web/public/data/search/index-10.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-11.bin",
+   "path": "web/public/data/search/index-11.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-12.bin",
+   "path": "web/public/data/search/index-12.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-13.bin",
+   "path": "web/public/data/search/index-13.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-14.bin",
+   "path": "web/public/data/search/index-14.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-15.bin",
+   "path": "web/public/data/search/index-15.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-2.bin",
+   "path": "web/public/data/search/index-2.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-3.bin",
+   "path": "web/public/data/search/index-3.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-4.bin",
+   "path": "web/public/data/search/index-4.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-5.bin",
+   "path": "web/public/data/search/index-5.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-6.bin",
+   "path": "web/public/data/search/index-6.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-7.bin",
+   "path": "web/public/data/search/index-7.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-8.bin",
+   "path": "web/public/data/search/index-8.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/index-9.bin",
+   "path": "web/public/data/search/index-9.bin",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only web/public/data/search/meta.json",
+   "path": "web/public/data/search/meta.json",
+   "drift": "board-rebuild",
+   "detail": "ws side transiently missing (pb-only)"
+  }
+ ],
+ "assertions": [
+  {
+   "sec": "0",
+   "item": "HEAD claim is ancestor of live HEAD; no W4-marker file changed after claim (drift-attributed)",
+   "ok": true,
+   "detail": "HEAD=c1fe9024 between=142 w4_marker_hit=[] unattributed=[]"
+  },
+  {
+   "sec": "0",
+   "item": "all 20 W4 receipt commits exist locally",
+   "ok": true,
+   "detail": "missing=[]"
+  },
+  {
+   "sec": "0",
+   "item": "worktree: W4 markers intact; foreign in-flight edits registered (board concurrency)",
+   "ok": true,
+   "detail": "in_flight=20 ['tools/build_source_links.py', 'tools/fetch_source_texts.py', 'tools/source_link_index.py', 'data/audit/phase21w8_stage2_batch1_recount_baseline.json', 'data/audit/phase21w8_stage2_batch1_recount_live.json', 'data/audit/source_texts/1c09d5d360d70a3d.txt'] | w4_marker_dirty=[]"
+  },
+  {
+   "sec": "A",
+   "item": "db figures == 1027",
+   "ok": true,
+   "detail": "n=1027"
+  },
+  {
+   "sec": "A",
+   "item": "db thinking_modes count",
+   "ok": true,
+   "detail": "INFO: 2858"
+  },
+  {
+   "sec": "A",
+   "item": "figures.index 1027 and set == db",
+   "ok": true,
+   "detail": "n=1027"
+  },
+  {
+   "sec": "A",
+   "item": "shards 1027 and set == db",
+   "ok": true,
+   "detail": "n=1027"
+  },
+  {
+   "sec": "A",
+   "item": "counts pin: manifest@HEAD_CLAIM == 1027/1027/3221/318 (strict)",
+   "ok": true,
+   "detail": "{\"figures\": 1027, \"figure_shards\": 1027, \"mode_summaries_published\": 3221, \"mode_by_figure_shards\": 318}"
+  },
+  {
+   "sec": "A",
+   "item": "meta counts live == expected or drift-attributed",
+   "ok": true,
+   "detail": "DRIFT(board-rebuild) {\"figures\": 1027, \"figure_shards\": 1027, \"mode_summaries_published\": 3241, \"mode_by_figure_shards\": 320}"
+  },
+  {
+   "sec": "A",
+   "item": "static_data_manifest counts == meta counts",
+   "ok": true,
+   "detail": "{\"figures\": 1027, \"figure_shards\": 1027, \"mode_summaries_published\": 3241, \"mode_by_figure_shards\": 320}"
+  },
+  {
+   "sec": "A",
+   "item": "scenarios zh/en keys == 1040",
+   "ok": true,
+   "detail": "zh=1040 en=1040"
+  },
+  {
+   "sec": "A",
+   "item": "index.unified read from pb copy",
+   "ok": true,
+   "detail": "INFO: ws path transiently absent (board rebuild)"
+  },
+  {
+   "sec": "A",
+   "item": "unified 1342 = 318 + 1024, items 1342",
+   "ok": true,
+   "detail": "{\"total\": 1342, \"figures\": 318, \"scenarios\": 1024, \"with_modes\": 1306}"
+  },
+  {
+   "sec": "A",
+   "item": "routes count == 1358",
+   "ok": true,
+   "detail": "count=1358 n=1358"
+  },
+  {
+   "sec": "A",
+   "item": "sitemap locs == 1359",
+   "ok": true,
+   "detail": "n=1359"
+  },
+  {
+   "sec": "A",
+   "item": "anchor EXPECT_FIGURES = 1027 (export + preflight)",
+   "ok": true,
+   "detail": "export=True preflight=True"
+  },
+  {
+   "sec": "A",
+   "item": "anchor MIN_SITEMAP_ENTRIES = 1359 (ci_data_check)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "A",
+   "item": "copy text 1027 in static.ts / ApiDocsView.vue (no stale 1054/1056/1057)",
+   "ok": true,
+   "detail": "static_ok=True api_ok=True"
+  },
+  {
+   "sec": "A",
+   "item": "siteCounts.ts matches meta verification published 4-state",
+   "ok": true,
+   "detail": "meta={\"verified\": 949, \"pending\": 1917, \"suspect\": 35, \"unverifiable\": 340}"
+  },
+  {
+   "sec": "A",
+   "item": "web/public/data products: figures 1027 / by-figure 318 / mode shards 8",
+   "ok": true,
+   "detail": "DRIFT(board-rebuild) files_total=1360 figures=1027 by_figure=320 mode_shards=8"
+  },
+  {
+   "sec": "A",
+   "item": "tracked file counts",
+   "ok": true,
+   "detail": "INFO: ws=5112 pb=4199"
+  },
+  {
+   "sec": "B",
+   "item": "manifest target table has 21 codes",
+   "ok": true,
+   "detail": "codes=21"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  zh_name",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  en_name",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  db",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  index",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  shard",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  unified",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  route",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  sitemap",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  pb_zh",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  pb_en",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  pb_index",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  pb_shard",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  pb_unified",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "B",
+   "item": "21 codes / 21  pb_route",
+   "ok": true,
+   "detail": "fail=[]"
+  },
+  {
+   "sec": "C",
+   "item": "ws residue live==0 (SG/MY/JP/UZ old keys + RW-KAG-1..27)",
+   "ok": true,
+   "detail": "files=26400 exempt={\"verifier\": 2, \"report\": 10, \"qa\": 2, \"validation-report\": 1, \"audit\": 1, \"backup\": 115, \"release-frozen\": 4, \"site_docs\": 6} live=[]"
+  },
+  {
+   "sec": "C",
+   "item": "ws web/public + web/dist zero residue hits",
+   "ok": true,
+   "detail": "hits=[]"
+  },
+  {
+   "sec": "C",
+   "item": "pb residue live==0 (SG/MY/JP/UZ old keys + RW-KAG-1..27)",
+   "ok": true,
+   "detail": "files=9453 exempt={\"audit\": 1, \"backup\": 115, \"report\": 6, \"validation-report\": 1, \"site_docs\": 6} live=[]"
+  },
+  {
+   "sec": "C",
+   "item": "pb web/public + web/dist zero residue hits",
+   "ok": true,
+   "detail": "hits=[]"
+  },
+  {
+   "sec": "C",
+   "item": "api/protreptic.db bytes zero old-key residue (ws+pb)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "C",
+   "item": "new keys JP-SAS-001/UZ-ULU-001 referenced on all live surfaces (ws+pb)",
+   "ok": true,
+   "detail": "{\"JP-SAS-001\": {\"zh\": 1, \"en\": 1, \"sitemap\": 1, \"routes\": 4, \"unified\": 2, \"pb_zh\": 1, \"pb_sitemap\": 1}, \"UZ-ULU-001\": {\"zh\": 1, \"en\": 1, \"sitemap\": 1, \"routes\": 4, \"unified\": 2, \"pb_zh\": 1, \"pb_sitemap\": 1}}"
+  },
+  {
+   "sec": "D",
+   "item": "fix backup MANIFEST.sha256 -c 11/11",
+   "ok": true,
+   "detail": "rc=0 ok=11 bad=[]"
+  },
+  {
+   "sec": "D",
+   "item": "fix2 backup MANIFEST.sha256 -c 4/4",
+   "ok": true,
+   "detail": "rc=0 ok=4 bad=[]"
+  },
+  {
+   "sec": "D",
+   "item": "rwkag backup MANIFEST.sha256 -c 89/89",
+   "ok": true,
+   "detail": "rc=0 ok=89 bad=[]"
+  },
+  {
+   "sec": "D",
+   "item": "fix backup (11 payload) entries ok / git-object identity at 40320e37",
+   "ok": true,
+   "detail": "lines=11 ok=11 tracked=11 identical=11 bad=[]"
+  },
+  {
+   "sec": "D",
+   "item": "rwkag backup (89 payload, preimage=8ca52c04) entries ok / git-object identity at 8ca52c04",
+   "ok": true,
+   "detail": "lines=89 ok=89 tracked=60 identical=60 bad=[]"
+  },
+  {
+   "sec": "D",
+   "item": "fix2 backup (payload) entries ok / git-object identity at 8a0ac56d",
+   "ok": true,
+   "detail": "lines=4 ok=4 tracked=1 identical=1 bad=[]"
+  },
+  {
+   "sec": "D",
+   "item": "fix2 backup scenarios_zh == EE git object byte-exact",
+   "ok": true,
+   "detail": "len=2981559"
+  },
+  {
+   "sec": "D",
+   "item": "fields_before.file_sha256_before == backup copy sha256",
+   "ok": true,
+   "detail": "9727c8eaaf96ab92"
+  },
+  {
+   "sec": "D",
+   "item": "scenarios_zh: sha@HEAD_CLAIM == fix2 after-sha (strict); live == or drift",
+   "ok": true,
+   "detail": "pinned=8b218e717cdb8cb5490e4951 live=8b218e717cdb8cb5490e4951 drift=None"
+  },
+  {
+   "sec": "D",
+   "item": "raw windows: 4 MAO in backup (exact) / target name in place at same 4 offsets",
+   "ok": true,
+   "detail": "bk=[645895, 646237, 647666, 651341] cur_hits=34 win_ok=True"
+  },
+  {
+   "sec": "D",
+   "item": "live zh counts: MAO == 0, target == 34 (pre-fix 4/30)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "D",
+   "item": "EE->fix2HEAD byte diff == 4 runs x 2B (8 bytes total), equal length [pin=HEAD_CLAIM]",
+   "ok": true,
+   "detail": "runs=[(645896, 2), (646238, 2), (647667, 2), (651342, 2)]"
+  },
+  {
+   "sec": "D",
+   "item": "fields_before field name_zh: before-sha + after_expected in place",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "D",
+   "item": "fields_before field description_zh: before-sha + after_expected in place",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "D",
+   "item": "fields_before field reason_zh: before-sha + after_expected in place",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "D",
+   "item": "fields_before field case_zh: before-sha + after_expected in place",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "D",
+   "item": "fields_before offsets re-verified as CODEPOINT offsets (errata reproduced)",
+   "ok": true,
+   "detail": "codepoints=[286319, 286587, 287618, 290371] recorded=[286319, 286587, 287618, 290371]"
+  },
+  {
+   "sec": "D",
+   "item": "all 27 RW-KAG codes absent live (ws tools/json+root+shard, pb tools/json+shard)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "D",
+   "item": "archive: 27 codes x per_code_fragments",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "D",
+   "item": "rwkag stratified sample 9/27 (33%): draft + root_twin + shard fragment recompute",
+   "ok": true,
+   "detail": "draft=9 twin=9 shard=9"
+  },
+  {
+   "sec": "D",
+   "item": "rwkag sample: scenarios entry gone live / present in backup; code_maps key cleared",
+   "ok": true,
+   "detail": "scen=9 codemaps=9"
+  },
+  {
+   "sec": "E",
+   "item": "commits BASE..HEAD == 10 W4 in order + QA-only + foreign(no W4-marker touch)",
+   "ok": true,
+   "detail": "n=33 qa=4 foreign=19 extra_bad=[]"
+  },
+  {
+   "sec": "E",
+   "item": "W4-scope changed-path set fully classified (no out-of-scope files)",
+   "ok": true,
+   "detail": "n=0 unclassified=[]"
+  },
+  {
+   "sec": "E",
+   "item": "no touches to modes_data/figure_names/CHANGELOG/individuals/docs-figures/other reports",
+   "ok": true,
+   "detail": "forbidden=[]"
+  },
+  {
+   "sec": "E",
+   "item": "board drift registered (foreign commits in window touch zero W4-surface paths)",
+   "ok": true,
+   "detail": "INFO: commits=19 paths=139 sample=['data/audit/findings.json', 'data/audit/phase21r9_azj_landing_manifest.json', 'data/audit/phase21r9_azj_merge_manifest.json', 'data/audit/phase21r9_shenfu_landing_manifest.json']"
+  },
+  {
+   "sec": "E",
+   "item": "zero tracked deletions by W4+QA commits (untracked legacy moved to backups)",
+   "ok": true,
+   "detail": "deletes="
+  },
+  {
+   "sec": "E",
+   "item": "zh BASE->EE: added/removed sets exact",
+   "ok": true,
+   "detail": "added=['JP-SAS-001', 'UZ-ULU-001'] removed=31"
+  },
+  {
+   "sec": "E",
+   "item": "zh BASE->EE: changed == 19 target codes, fields == ['name']",
+   "ok": true,
+   "detail": "n=19 odd=[]"
+  },
+  {
+   "sec": "E",
+   "item": "zh BASE->EE: new names == manifest targets (19/19)",
+   "ok": true,
+   "detail": "bad=[]"
+  },
+  {
+   "sec": "E",
+   "item": "zh BASE->EE: backfill semantics (old name key absent) + MY correction",
+   "ok": true,
+   "detail": "MY old='Mahathir Mohamad'"
+  },
+  {
+   "sec": "E",
+   "item": "zh rekey: JP/UZ migrated content-identical (allowed delta: code+name only)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "E",
+   "item": "en BASE->EE: added/removed sets exact",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "E",
+   "item": "en BASE->EE: changed == 18 codes; H-LXN-001 5 fields, others ['name']",
+   "ok": true,
+   "detail": "n=18 lxn1=['case_en', 'description_en', 'name', 'name_en', 'reason_en']"
+  },
+  {
+   "sec": "E",
+   "item": "en BASE->EE: new names == manifest targets (18/18)",
+   "ok": true,
+   "detail": "bad=[]"
+  },
+  {
+   "sec": "E",
+   "item": "zh EE->fix2HEAD [pin=HEAD_CLAIM]: only H-LXN-001, fields == 4 zh extensions",
+   "ok": true,
+   "detail": "chg={'H-LXN-001': ['case_zh', 'description_zh', 'name_zh', 'reason_zh']}"
+  },
+  {
+   "sec": "E",
+   "item": "zh EE->HEAD: values are Li Xiannian; no residual Mao in 4 fields",
+   "ok": true,
+   "detail": "name_zh=李先念"
+  },
+  {
+   "sec": "E",
+   "item": "en scenarios untouched by fix2 window [pin=HEAD_CLAIM]",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "E",
+   "item": "zh EE->HEAD: exactly 1 code deep-changed (1039 entries untouched)",
+   "ok": true,
+   "detail": "n=1"
+  },
+  {
+   "sec": "E",
+   "item": "draft H-LXN-001 BASE->EE: 8 fields, values Li Xiannian",
+   "ok": true,
+   "detail": "n=8 bad=['case_en', 'case_zh', 'description_en', 'description_zh']"
+  },
+  {
+   "sec": "E",
+   "item": "code_maps_en BASE->EE: removed == 27 RW keys, no adds, no other changes",
+   "ok": true,
+   "detail": "rm=27 add=[] chg=0"
+  },
+  {
+   "sec": "E",
+   "item": "anchor churn matches receipts (constants + 4-state convergence 931/1916/34->949/1897/35)",
+   "ok": true,
+   "detail": "bad=[] sitecounts_all=(('931', '1948', '51', '351'), ('949', '1929', '52', '351'))"
+  },
+  {
+   "sec": "E",
+   "item": "routes BASE->fix2HEAD [pin=HEAD_CLAIM]: path removed/added sets exact",
+   "ok": true,
+   "detail": "rm=31 add=['figures/JP-SAS-001', 'figures/UZ-ULU-001']"
+  },
+  {
+   "sec": "E",
+   "item": "routes kept-path changes confined to title/name/description (+W5 body convergence)",
+   "ok": true,
+   "detail": "n=21 body=['minds/H-WC-001']"
+  },
+  {
+   "sec": "E",
+   "item": "route body_text_chars delta (W5 convergence surface)",
+   "ok": true,
+   "detail": "INFO: codes=['minds/H-WC-001'] delta=[('minds/H-WC-001', 4210, 4209)]"
+  },
+  {
+   "sec": "E",
+   "item": "sitemap BASE->fix2HEAD [pin=HEAD_CLAIM]: removed/added == 31 old paths / 2 new paths",
+   "ok": true,
+   "detail": "rm=31 add=['figures/JP-SAS-001/', 'figures/UZ-ULU-001/']"
+  },
+  {
+   "sec": "E",
+   "item": "figures index route description follows unified counts (318 + 1024)",
+   "ok": true,
+   "detail": "318 位历史人物 + 1024 个现代场景, 统一检索入口."
+  },
+  {
+   "sec": "E",
+   "item": "credibility route carries converged 4-state (949/1897/35)",
+   "ok": true,
+   "detail": "{\"path\": \"credibility\", \"title\": \"可信度统计 - 已核验 949 / 待核验 1897 / 存疑 35 / 一手材料 340\", \"description\": \"发布口径 3221 条模式摘要的核验状态：已核验 949、待核验 1897、存疑 35、一手材料 340（源库另有 60 条"
+  },
+  {
+   "sec": "E",
+   "item": "fix2 window EE..HEAD (W4-scope) == 10 expected files + QA artifacts (zero-change re-run)",
+   "ok": true,
+   "detail": "n=10 expected=10 W4-scope=10 drift-outside-scope=0 extras=[]"
+  },
+  {
+   "sec": "F",
+   "item": "credibility_gate --hard-fail rc==0",
+   "ok": true,
+   "detail": "rc=0 5.5s ::     M-NEW-007  representative_cases_zh=1749  动差一半：牛顿未解决，Clairaut 1749 年以摄动级数升阶解决——方法误差而非理 |   说明: 判定顺序 = 生卒年可用 -> 4 位年份 -> 生涯带 [生年-40, 卒年+30] -> 字段为本人叙述字段 -> 年份与人物名同现(±20 字) -> 无文献/余波/背景标记。任一环不满足即进「不可判定」并给出理由。 |   取文本口径（Phase42-Z4）: 中英镜像字段同扫 —— definition_zh, process_zh, representative_cases_zh, definition_en, process_en, representative_cases_en, source_chapter, key_quote_zh, key_quote_en"
+  },
+  {
+   "sec": "F",
+   "item": "verify_source_links --hard-fail rc==0",
+   "ok": true,
+   "detail": "rc=0 218.1s ::   ::warning::UNREACHABLE 《齐民要术》 -> https://zh.wikisource.org/wiki/%E9%BD%8A%E6%B0%91%E8%A6%81%E8%A1%93 |  | [OK] hard-fail: 无新增坏链（存量 0 条已冻结）-> exit 0"
+  },
+  {
+   "sec": "F",
+   "item": "verify_findings --hard-fail rc==0",
+   "ok": true,
+   "detail": "rc=0 5.7s ::   ::warning::E: these mode codes are harvested twice by get_all_modes (present both in the top-level modes array and inside a figure node): ['M-ASM-001', 'M-ASM-002', 'M-ASM-003', 'M-ASM-004', 'M-ASM-005', 'M-ASM-006', 'M-ASM-007', 'M-ASM-008', 'M-ASM-009', 'M-ASM-010'] |  | [OK] hard-fail: 无新增硬失败（存量 0 条已冻结）-> exit 0"
+  },
+  {
+   "sec": "F",
+   "item": "ci_data_check rc==0 [drift-attributed]",
+   "ok": true,
+   "detail": "DRIFT(board-rebuild: index.unified.json transiently absent) rc=1 0.1s :: 数据校验: FAIL |     - index: 文件不存在: web/public/data/index.unified.json |     - cross.coverage: 1342 条路由不在名录里, 例: ['A-1-X-P', 'A-1-X-R', 'A-1-Y-P', 'A-1-Y-Q', 'A-1-Y-S']"
+  },
+  {
+   "sec": "F",
+   "item": "pages_preflight --stage data rc==0",
+   "ok": true,
+   "detail": "rc=0 0.5s :: figures=1027 modes=3301 published=3241 隔离命中=0 figure shards=1027 by-figure shards=320 |       daily: 3241 条（by-figure 分片 3241 条）names=3241 tz=Asia/Shanghai | [OK] stage=data：全部断言通过"
+  },
+  {
+   "sec": "F",
+   "item": "pages_preflight --stage dist rc==0",
+   "ok": true,
+   "detail": "rc=0 0.1s :: dist: index.html + 404.html（逐字节相同）+ data/ + /protreptic/ 前缀 | [OK] stage=dist：全部断言通过"
+  },
+  {
+   "sec": "F",
+   "item": "upstream verifier verify_rwkag_clear.py full: rc==0, or sole fail = QA-script self-hit",
+   "ok": true,
+   "detail": "rc=1 5.9s fails=[\"[FAIL] scan.ws.live_zero :: live files=1 ['verify_phase21w4_qa_espinosa.py']\"] ::     uni = json.load(open(os.path.join(WS, \"web/public/data/index.unified.json\"), encoding=\"utf-8\")) |                     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ | FileNotFoundError: [Errno 2] No such file or directory: '/opt/data/workspace/Protreptic/web/publi"
+  },
+  {
+   "sec": "F",
+   "item": "verify_rwkag_clear QA-self interaction",
+   "ok": true,
+   "detail": "INFO: scan.ws.live_zero flags this QA verifier itself (fixture holds old keys; allowed_hit exempts docs/qa/** and the two chain verifiers by exact name, not this root file); upstream 21/21 claim unaffected (pre-QA state); post-QA expectation = 20/21 with this sole hit"
+  },
+  {
+   "sec": "F",
+   "item": "upstream verifier verify_w4fix2_lxn.py full [drift-attributed]",
+   "ok": true,
+   "detail": "DRIFT(board-rebuild: index.unified.json transiently absent) rc=1 0.3s :: [PASS] C2 db H-LXN-001 name_zh==LI ('李先念',) | [PASS] C3 routes==1358 1358 | [PASS] C4 sitemap==1359 1359"
+  },
+  {
+   "sec": "G",
+   "item": "official parity: common >=2395 (self-consistent); content-diffs & single-sides drift-attributed",
+   "ok": true,
+   "detail": "rc=1 1.7s nums=['2498', '2495', '26', '26', '0'] miss=26 diffs=3 diff_bad=[] foreign_drift=18 bad=[]"
+  },
+  {
+   "sec": "G",
+   "item": "key-file byte identity ws vs pb (25 files) [drift-attributed]",
+   "ok": true,
+   "detail": "bad=2 attributed=2 unattributed=[]"
+  },
+  {
+   "sec": "G",
+   "item": "verify_rwkag_clear.py ws-only",
+   "ok": true,
+   "detail": "INFO: not in any mirror/receipt claim (ee receipt lists report/evidence/data-mirror only); pb witness parity_key_files excludes it; non-material"
+  },
+  {
+   "sec": "G",
+   "item": "1027 shards byte-identical ws vs pb",
+   "ok": true,
+   "detail": "ws=1027 pb=1027"
+  },
+  {
+   "sec": "G",
+   "item": "full-tree: core content diffs (ws vs pb) drift-attributed",
+   "ok": true,
+   "detail": "common=4898 total_diff=25 core=11 unattributed=[]"
+  },
+  {
+   "sec": "G",
+   "item": "dev-side content diff classes (by design, repo roles differ)",
+   "ok": true,
+   "detail": "INFO: [\"Dockerfile.web\", \"api\", \"scripts\", \"tools\", \"web\"]"
+  },
+  {
+   "sec": "G",
+   "item": "ws-only core set == expected 30 + QA artifacts + foreign-attributed drift",
+   "ok": true,
+   "detail": "n=58 new=28 unattributed=[] gone=[]"
+  },
+  {
+   "sec": "G",
+   "item": "pb-only core == 610 intl_figures + 6 known + drift-attributed build products",
+   "ok": true,
+   "detail": "intl=610 other_n=31 unattributed=[]"
+  },
+  {
+   "sec": "G",
+   "item": "single-side inventory totals",
+   "ok": true,
+   "detail": "INFO: ws_only=18972 pb_only=675 (junk/legacy classes; official parity boundary: common 2395 / single-side 6)"
+  },
+  {
+   "sec": "H",
+   "item": "pb git fetch origin rc==0",
+   "ok": true,
+   "detail": "rc=0 err="
+  },
+  {
+   "sec": "H",
+   "item": "receipt head c646f41a is ancestor of origin/main (remote fetch live)",
+   "ok": true,
+   "detail": "origin/main=e6d133c43c4851eb"
+  },
+  {
+   "sec": "H",
+   "item": "pb local HEAD == origin/main (worktree synced)",
+   "ok": true,
+   "detail": "head=e6d133c43c4851eb"
+  },
+  {
+   "sec": "H",
+   "item": "all 10 PB receipt commits are ancestors of origin/main",
+   "ok": true,
+   "detail": "missing=[]"
+  },
+  {
+   "sec": "H",
+   "item": "remote blob @origin/main == pb worktree file: tools/json/scenarios_zh.json",
+   "ok": true,
+   "detail": "rc=0"
+  },
+  {
+   "sec": "H",
+   "item": "remote blob @origin/main == pb worktree file: docs/research/phase21w4_fix2_report.md",
+   "ok": true,
+   "detail": "rc=0"
+  },
+  {
+   "sec": "H",
+   "item": "remote blob @origin/main == pb worktree file: verify_w4fix2_lxn.py",
+   "ok": true,
+   "detail": "rc=0"
+  },
+  {
+   "sec": "H",
+   "item": "remote scenarios_zh == live fix2 sha (8b218e71...)",
+   "ok": true,
+   "detail": "remote=8b218e717cdb8cb5"
+  },
+  {
+   "sec": "H",
+   "item": "ws repo remote refs (informational)",
+   "ok": true,
+   "detail": "INFO: e6d133c43c4851ebcd77ab93acd17e5b861d345b\tHEAD\ne6d133c43c4851ebcd77ab93acd17e5b861d345b\trefs/heads/main"
+  },
+  {
+   "sec": "I",
+   "item": "H-MZ-001 zh/en name == Yan Yangchu / Y. C. James Yen (R1 backfill)",
+   "ok": true,
+   "detail": "zh='晏阳初' en='Y. C. James Yen'"
+  },
+  {
+   "sec": "I",
+   "item": "H-MZ-001 figure_name == Mencius retained in both files (R3 keep-asis)",
+   "ok": true,
+   "detail": "zh_fn='孟子' en_fn='孟子'"
+  },
+  {
+   "sec": "I",
+   "item": "H-MZ-001 scenario delta vs BASE == name only (zh+en)",
+   "ok": true,
+   "detail": "zh=['name'] en=['name']"
+  },
+  {
+   "sec": "I",
+   "item": "figure_names.json H-MZ-001 == Yan Yangchu; file untouched in window",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "I",
+   "item": "data/figures/H-MZ-001.json figure_name/style_name + byte-unchanged vs BASE",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "I",
+   "item": "R3 retention surfaces untouched by W4 window (Mencius pack + Mozi ref)",
+   "ok": true,
+   "detail": "listed=8 tracked-vs-BASE=8 bad=[]"
+  },
+  {
+   "sec": "J",
+   "item": "draft tools/json/H-LXN-001.json clean (no Mao; Li in 8 fields)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "J",
+   "item": "root H-LXN-001.json retained (R-b/W7): 4+4 old names, unchanged vs BASE",
+   "ok": true,
+   "detail": "zh=4 en=4 unchanged=True tracked=True"
+  },
+  {
+   "sec": "J",
+   "item": "docs/figures/H-LXN-001.md retained (R-c): 2 correction-note occurrences",
+   "ok": true,
+   "detail": "count=2"
+  },
+  {
+   "sec": "J",
+   "item": "the 2 md occurrences are correction notes (contain the wrong-name remark)",
+   "ok": true,
+   "detail": "lines=2"
+  },
+  {
+   "sec": "J",
+   "item": "CHANGELOG.md retained (R-e): 1 historical occurrence, unchanged",
+   "ok": true,
+   "detail": "count=1 unchanged=True"
+  },
+  {
+   "sec": "J",
+   "item": "B-a registered: en-side 4x Mao Xiannian still in scenarios_zh (ruled -> t_def07a84)",
+   "ok": true,
+   "detail": "fields=['name_en', 'description_en', 'reason_en', 'case_en'] count=4"
+  },
+  {
+   "sec": "J",
+   "item": "en scenarios file clean of Mao (fix landed there)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "J",
+   "item": "no abnormal filenames under data/ (ws+pb) incl. R11 two dirs",
+   "ok": true,
+   "detail": "bad=[]"
+  },
+  {
+   "sec": "J",
+   "item": "normal-name counterparts exist (ws+pb)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "J",
+   "item": "R-d vs live state",
+   "ok": true,
+   "detail": "INFO: two abnormal dirs absent now; ws data/asia/individuals mtime=2026-09-24 06:36:53 (chain reports registered 'not deleted, handed over'; no action recorded - QA registers discrepancy, empty dirs, zero data impact)"
+  },
+  {
+   "sec": "J",
+   "item": "B-a operator ruling",
+   "ok": true,
+   "detail": "INFO: B-a (en-side 4x Mao Xiannian) ruled=fix, assigned t_def07a84 (gated after this QA, before t_616e4991); QA scope unchanged, no action here"
+  },
+  {
+   "sec": "J",
+   "item": "fix_report correction note (2.2) present at HEAD / absent at EE (fix2-added)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "J",
+   "item": "parent evidence keeps pre-fix record intact (before==after, original delta not erased)",
+   "ok": true,
+   "detail": "fields=['case_zh', 'description_zh', 'name_zh', 'reason_zh']"
+  },
+  {
+   "sec": "J",
+   "item": "fix2 report consistent (after=before provenance + sha transition 9727c8ea->8b218e71)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "sec": "J",
+   "item": "fix2 backup fields_before offset errata",
+   "ok": true,
+   "detail": "INFO: registered (t_33240de8 comment): occurrence_byte_offsets are CODEPOINT offsets; QA re-verified equality - non-rework"
+  },
+  {
+   "sec": "K",
+   "item": "H-WC-001 body -1 char reproduced (4209 live / 4210 with pre-W5 statuses)",
+   "ok": true,
+   "detail": "live=4209 patched=4210 route=4209 src=web/dist/data/modes/by-figure/H-WC-001.json modes=10"
+  },
+  {
+   "sec": "K",
+   "item": "root cause (independent)",
+   "ok": true,
+   "detail": "INFO: W5-B 18405015 set Wang Chong 10 modes -> 9 verified + 1 suspect; rebuild badge text 10x3 -> 9x3+2 = -1 char; unregistered per-route precision of the registered W5 convergence family"
+  }
+ ]
+}

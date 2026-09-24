@@ -1,0 +1,1702 @@
+{
+ "meta": {
+  "task": "t_51db608d",
+  "title": "Phase21 W6 full-repo marker scan",
+  "generated_at": "2026-09-24 02:10:44 +0800",
+  "repo": "/opt/data/workspace/Protreptic",
+  "branch": "master",
+  "head": "bd039538",
+  "regex": "待办|待核|待重做|待复验|待补|旁项|未闭环|暂缓|待议|TODO|FIXME|TBD",
+  "markers": [
+   "待办",
+   "待核",
+   "待重做",
+   "待复验",
+   "待补",
+   "旁项",
+   "未闭环",
+   "暂缓",
+   "待议",
+   "TODO",
+   "FIXME",
+   "TBD"
+  ],
+  "scope": [
+   "docs/**/*.md",
+   "tools/**/*.py",
+   "api/**/*.py",
+   "scripts/**/*.py",
+   "web/src/**/*.{ts,vue,js}",
+   "root *.md",
+   "tools/*.json 不超过 200KB 者"
+  ],
+  "excluded": [
+   "data/**",
+   "docs/archive/**",
+   "web/node_modules",
+   "web/dist",
+   ".git",
+   "__pycache__",
+   "*.xlsx",
+   "*.bak*",
+   "data/backup_*",
+   "data/merge_staging_*",
+   "tools/json/scenarios_*.json",
+   "*.min.*",
+   "docs/scratch/**"
+  ],
+  "self_excluded_outputs": [
+   "docs/research/phase21w6_marker_scan.json",
+   "docs/research/phase21w6_marker_scan.md"
+  ],
+  "git_inflight_files": 36,
+  "git_inflight_dir_prefixes": [
+   "data/backup_merge_H-ZDY-001_20260922_131851/",
+   "data/backup_merge_H-ZDY-001_20260922_132324/",
+   "data/backup_merge_H-ZDY-001_20260922_132519/",
+   "data/backup_phase21r8_azj345_clear_20260923/",
+   "docs/research/_archive/"
+  ],
+  "backlog": "/opt/data/cache/protreptic_work_backlog.md",
+  "backlog_sha256": "01988ba25704ed8436dd24f2e7ef2ae308e033b4313206870861a1b3c513d3d6",
+  "tokens": [
+   {
+    "token": "luorq",
+    "backlog_basis": "台账 luorq QA 产物 39 件 untracked，t_65998945 在途；队列 R8-B 罗瑞卿链收尾"
+   },
+   {
+    "token": "h-luorq-001",
+    "backlog_basis": "台账 H-LUORQ-001.md 两仓 byte-same 复验"
+   },
+   {
+    "token": "wangxiang",
+    "backlog_basis": "队列 R8-A 王祥链收尾；台账 王祥遗留已清 t_a8f544f5"
+   },
+   {
+    "token": "azj",
+    "backlog_basis": "队列 R8 遗留清档链 AZJ 全链清除进行中 t_3669eb4a"
+   },
+   {
+    "token": "phase21w4",
+    "backlog_basis": "台账 W4 recon/manifest 未提交；W4 台账 4"
+   },
+   {
+    "token": "phase21r8_w4",
+    "backlog_basis": "台账 phase21r8_w4_names_recon 未提交"
+   },
+   {
+    "token": "phase21w5",
+    "backlog_basis": "台账 W5 遗留数据层已清 t_9f3ccb2c，等卡回执"
+   },
+   {
+    "token": "phase21r6b",
+    "backlog_basis": "队列 R8-A 王祥链追溯：R6B 前置轮与台账 王祥遗留已清"
+   },
+   {
+    "token": "phase21r7",
+    "backlog_basis": "队列 R8-B 罗瑞卿链与 R8 遗留清档链追溯：R7 轮核名与旁项已收口"
+   }
+  ],
+  "term_rule": "待核 全数落在 待核验 或 待核名 词形内且同行含状态词之一或紧随计数数字者标注为术语命中；保留计数与记录，仅不进入 A 类净候选",
+  "counting_rule": "1 条记录 = 文件 × 行号 × 去重标记；同行多标记分别计条",
+  "scanned_files": 872,
+  "hit_files": 82,
+  "hit_lines": 165,
+  "records": 166,
+  "boundary_tools_json": {
+   "total": 647,
+   "hit_files": 111,
+   "hit_lines": 874
+  },
+  "readonly": true
+ },
+ "counts": {
+  "待办": {
+   "A": 3,
+   "B": 0,
+   "C": 3,
+   "term": 0,
+   "total": 6
+  },
+  "待核": {
+   "A": 40,
+   "B": 30,
+   "C": 15,
+   "term": 41,
+   "total": 85
+  },
+  "待重做": {
+   "A": 0,
+   "B": 0,
+   "C": 15,
+   "term": 0,
+   "total": 15
+  },
+  "待复验": {
+   "A": 0,
+   "B": 0,
+   "C": 0,
+   "term": 0,
+   "total": 0
+  },
+  "待补": {
+   "A": 10,
+   "B": 6,
+   "C": 8,
+   "term": 0,
+   "total": 24
+  },
+  "旁项": {
+   "A": 0,
+   "B": 0,
+   "C": 6,
+   "term": 0,
+   "total": 6
+  },
+  "未闭环": {
+   "A": 1,
+   "B": 6,
+   "C": 1,
+   "term": 0,
+   "total": 8
+  },
+  "暂缓": {
+   "A": 9,
+   "B": 1,
+   "C": 0,
+   "term": 0,
+   "total": 10
+  },
+  "待议": {
+   "A": 0,
+   "B": 0,
+   "C": 0,
+   "term": 0,
+   "total": 0
+  },
+  "TODO": {
+   "A": 1,
+   "B": 9,
+   "C": 0,
+   "term": 0,
+   "total": 10
+  },
+  "FIXME": {
+   "A": 0,
+   "B": 0,
+   "C": 0,
+   "term": 0,
+   "total": 0
+  },
+  "TBD": {
+   "A": 1,
+   "B": 1,
+   "C": 0,
+   "term": 0,
+   "total": 2
+  }
+ },
+ "counts_total": {
+  "A": 65,
+  "B": 53,
+  "C": 48,
+  "term": 41,
+  "total": 166
+ },
+ "records": [
+  {
+   "file": "README.md",
+   "line": 46,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "| ○ | 待核验 | 尚未核验（schema 缺省态） |",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "README.md",
+   "line": 52,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- **出处可点击**：模式详情页的出处逐条给链接；无法解析到链接的会如实标成「一手材料 / 待核验」，不假装全部可点",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "api/typing_extensions.py",
+   "line": 3457,
+   "marker": "TODO",
+   "bucket": "A",
+   "snippet": "# TODO: Use inspect.VALUE here, and make the annotations lazily evaluated",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/04-training/daily_thinking_training.md",
+   "line": 49,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "→ 功能延期暂缓（市场窗口还有一个月）。",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/06-ai-collaboration/thinking_mode_ai_templates.md",
+   "line": 182,
+   "marker": "待办",
+   "bucket": "A",
+   "snippet": "【待办事项】",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/06-ai-collaboration/thinking_mode_ai_templates.md",
+   "line": 217,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "- **可暂缓**：[⚪事项]",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/07-coaching/thinking_mode_journal.md",
+   "line": 56,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "3. 集中全部运维资源修复服务器，功能延期暂缓",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/07-coaching/thinking_mode_journal.md",
+   "line": 61,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "- ❌ 做错了什么：没有提前和员工沟通暂缓计划，导致部分人心浮动",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/07-coaching/thinking_mode_meeting_templates.md",
+   "line": 754,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "### 待核实的信息",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/09-evolution/knowledge_system_evolution.md",
+   "line": 144,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "\"bad\": \"没有提前和员工沟通暂缓计划\",",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/architecture/phase30_a3_og_image.md",
+   "line": 36,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "468 字, 先砍括号/破折号注解再截断), N 条思维模式, 领域; 没有时代数据的显示「时代待核」.",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/architecture/phase30_a3_og_image.md",
+   "line": 131,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "模板 markdown; 缺失就显示「时代待核」, 不猜.",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/architecture/san-martin_schema_evolution.md",
+   "line": 170,
+   "marker": "暂缓",
+   "bucket": "B",
+   "snippet": "- D3：自由文本字段（region/topic/source_refs）是否进枚举？→ 建议暂缓，先字符串后治理。",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/community/zhihu_launch_post.md",
+   "line": 91,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "| ○ | 待核验 | 尚未核验（schema 缺省态） |",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "docs/community/zhihu_launch_post.md",
+   "line": 98,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 待核验 **1547** 条",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "docs/community/zhihu_launch_post.md",
+   "line": 108,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 解析不到链接的，保留原文并标成「一手材料 / 待核验」，**不假装全部可点**。",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "docs/community/zhihu_launch_post.md",
+   "line": 156,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "[counts] 可信度四态 : 发布口径 2798（已核验 888 / 待核验 1547 / 存疑 23 / 一手材料 340），源库口径合计 2858",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "docs/figures/H-ATK-001.md",
+   "line": 70,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "- 四步过程: 重定义单位：把政治忠诚从王朝与宗教共同体改写为语言与居所界定的民族，明确新契约的基本盘 → 三变量测量：以人口多数、语言分布、可防守地理三角定位核心区，区分『必须争』与『必须弃』 → 签署放弃：在正式条约中公开承认不可...",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-CY-001.md",
+   "line": 23,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 类目归一：10 条按映射表归一（category_raw 保留原值），0 条不在表内按原值保留并标记待核",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-DAV-001.md",
+   "line": 115,
+   "marker": "待办",
+   "bucket": "A",
+   "snippet": "- 定义: 达·芬奇手稿中最动人的部分不是答案而是问题：他记录『啄木鸟用什么舌头』『鳄的下颚如何工作』『为何鱼在水中比海中物体的影子快』——有的问题三十年间被反复重访。他展示了好奇心的工程化：好奇不是气质而是可运营的系统。方法有四步：...",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-DRK-001.md",
+   "line": 116,
+   "marker": "待办",
+   "bucket": "A",
+   "snippet": "- **操作过程**：[\"双清单分流：把待办分为'恢复昨日的问题'与'创造明天的机会'两类，禁止混排\", \"机会注入：检查优秀人才与增量预算的去向——若70%以上在救问题，即为平庸信号\", \"系统推迟：为低价值问题设定'不处理'决定与...",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-HFZ-001.md",
+   "line": 94,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- **M-FEI-001** (needs_verification): 待核：库中 H-FEI-001（'非人'）条目对法家机器化治理的论述与韩非体系高度相关，但人物本体不同，待下游核查后再立正式互镜。",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-JX-001.md",
+   "line": 21,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 类目归一：10 条按映射表归一（category_raw 保留原值），0 条不在表内按原值保留并标记待核",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-LNC-001.md",
+   "line": 525,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "**定义**: 1862 年 7 月，林肯已向内阁宣读初步解放宣言草稿，西华德劝阻：此时发布等于败仗之后的哀鸣。林肯把草稿收回抽屉，公开承认判断已定、发布待时——他在等待一个不可逆的军事支点。9 月 17 日安提塔姆惨胜，五天后他发布...",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-MAI-001.md",
+   "line": 231,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "- 预防滑坡：明示'双重归档'与'两真并存'的区别——归档是暂缓裁决并保留唯一实践标准，不是承认两套互斥真理都真",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-SQL-001.md",
+   "line": 20,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 类目归一：5 条按映射表归一（category_raw 保留原值），5 条不在表内按原值保留并标记待核",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-SU-001.md",
+   "line": 522,
+   "marker": "暂缓",
+   "bucket": "A",
+   "snippet": "**领域**: 对权威结论保持系统性的暂缓相信，并以多源独立证据互证后才收纳为认知：『事不目见耳闻而臆断其有无，可乎』——把『存疑』制度化为求知的第一道工序",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-WL-001.md",
+   "line": 21,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 类目归一：10 条按映射表归一（category_raw 保留原值），0 条不在表内按原值保留并标记待核",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-WL-001.md",
+   "line": 22,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 引文归属勘误：M-WL-001（旧 M274）key_quote 白猫黑猫语通行归属邓小平，旧载荷置于万里名下；本卡按现状保真保留原文并标注 attribution_note，待核验卡处置",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-WL-001.md",
+   "line": 63,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 归属标注: 引文归属勘误（Phase21-R6 批1）：『不管白猫黑猫，抓住老鼠就是好猫』通行归属为邓小平语，旧载荷置于万里名下；本卡按现状保真保留原文，仅作此标注，待核验卡处置。",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-YSK-001.md",
+   "line": 18,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 类目归一：7 条按映射表归一（category_raw 保留原值），3 条不在表内按原值保留并标记待核",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/figures/H-ZX-001.md",
+   "line": 375,
+   "marker": "未闭环",
+   "bucket": "A",
+   "snippet": "- QA 遗留观察（QA 报告 §6，非本卡引入）: ① `legacy_field_aliases` 为说明性留证字段（10 条独有）；② 图档 `source_files` 含非路径描述项；③ `modes_data.total`...",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/islam_phase2_review_report.md",
+   "line": 48,
+   "marker": "TBD",
+   "bucket": "B",
+   "snippet": "- 检测模板指示词：`example`, `sample`, `template`, `placeholder`, `待定`, `待填`, `TBD`, `XXX`, `人物A/B/C`",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/planning/credibility_framework.md",
+   "line": 79,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "| `pending` | 未核验（缺省） | ○ 待核验 |",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/planning/credibility_framework.md",
+   "line": 84,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "统计页诚实公布：已核 X / 待核 Y / 存疑 Z。",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/planning/credibility_framework.md",
+   "line": 148,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "| **P35-E 展示** | UI 可信度徽章 + 统计页 | 「已核 X/待核 Y/存疑 Z」 |",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase20R_zengzi_qa_report.md",
+   "line": 124,
+   "marker": "未闭环",
+   "bucket": "B",
+   "snippet": "5. 根目录旧档 `modes_data.json`（101 图块汇编，含曾子旧号块）仍在，为残留清单 #16 未闭环项——建议编排另立清理卡复核归宿。",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase21r6B_execution_report.md",
+   "line": 33,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "## 2. 王祥 H-HZX-002 归档（活跃层清档 + 待重做清单）",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase21r6B_execution_report.md",
+   "line": 46,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "- 待重做清单：docs/research/phase21r6B_wangxiang_redo_list.md（10 条模式 + 6 项全局动作 + 12 条落源锚点；机器可读 docs/scratch/legacy20_r6b/H-...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase21r6B_execution_report.md",
+   "line": 51,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "- 前置件建议「机制键保留（待重做卡使用）、垃圾键删除」；本卡按 albo 通报的 R6C 统一口径（归档件机制键清档 + 垃圾键删除 + 登记删除记录）全量清档，并逐字留档以便键级回填；如船长另有裁定以裁定为准。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase21r6B_execution_report.md",
+   "line": 124,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "python3 $WS/scripts/04_redo_list.py # 待重做清单导出",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase21r6B_execution_report.md",
+   "line": 154,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "| docs/research/phase21r6B_wangxiang_redo_list.md | 王祥待重做清单（单列） |",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase21r7_leftovers_report.md",
+   "line": 1,
+   "marker": "旁项",
+   "bucket": "C",
+   "snippet": "# Phase21-R7 旁项：根目录 / 发布仓旧档残留调查与处置报告",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase21r7_leftovers_report.md",
+   "line": 5,
+   "marker": "未闭环",
+   "bucket": "C",
+   "snippet": "- 授权 / 来源：卡面（magallanes）「R5 卡留档未闭环旁项」；出处 = R5 报告（t_36c4079c）§8；先例 = R5 对根 modes_data.json 的 byte-exact 归档处置（data/back...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase21r7_leftovers_report.md",
+   "line": 5,
+   "marker": "旁项",
+   "bucket": "C",
+   "snippet": "- 授权 / 来源：卡面（magallanes）「R5 卡留档未闭环旁项」；出处 = R5 报告（t_36c4079c）§8；先例 = R5 对根 modes_data.json 的 byte-exact 归档处置（data/back...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase30_c4_followup_r1r2.md",
+   "line": 65,
+   "marker": "待补",
+   "bucket": "B",
+   "snippet": "| MD056 表格列数 | `comparison_matrix` 表头多一列（5→4）；`phase2_candidates` 33 行末列粘连（`**已写入** H-XXX` 拆成两列）；`candidates_v2_resea...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase30_c4_followup_r1r2.md",
+   "line": 149,
+   "marker": "待补",
+   "bucket": "B",
+   "snippet": "✓ 名称: 494/1057 个场景有真实名称（其余退化为 code，属数据层待补）",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase36_acceptance.md",
+   "line": 327,
+   "marker": "未闭环",
+   "bucket": "B",
+   "snippet": "3. **W4 · 两仓字节级一致未达**：全量比对 44/2363 共同 tracked 文件 hash 不同（含 `.github/workflows/pages.yml`），另有 1469 / 678 单侧文件。点名的 7 个数...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/qa/phase38_acceptance.md",
+   "line": 140,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "- `○ 待核验` (1547) — 白色半透明",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_acceptance.md",
+   "line": 147,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "<title>可信度统计 - 已核验 911 / 待核验 1547 / 存疑 0 / 一手材料 340 | Protreptic 思想典藏</title>",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y2_link_injection.md",
+   "line": 250,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "（渲染成纯文本 + 「待核验」徽章，符合预期）",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 49,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "| `pending` | `○ 待核验` | 灰 | 可信度：待核验 —— 尚未核验（schema 缺省态） |",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 75,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "pending mark=○ text=○待核验 chip=border-white/15 bg-white/[.04] text-parchment/60",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 91,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "同一帧内可见：✓已核验(top=195) · —一手材料(top=911) · ○待核验(top=1648)",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 142,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "1. 四态数字卡：**已核验 911（32.6%）· 待核验 1547（55.3%）· 存疑 0（0.0%）· 一手材料 340（12.2%）**。",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 171,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "这一页如实公布每条模式的核验状态：已核验、待核验、存疑、一手材料。 存疑比假装全对更可信。",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 176,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "○ 待核验 55.3% 1547 尚未核验（schema 缺省态）",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 190,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "○ 待核验 尚未核验，schema 缺省态",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 254,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "[counts] 可信度四态 (发布口径 2798): 已核验 911 / 待核验 1547 / 存疑 0 / 一手材料 340",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 260,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "<title>可信度统计 - 已核验 911 / 待核验 1547 / 存疑 0 / 一手材料 340 | Protreptic 思想典藏</title>",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase38_y3_report.md",
+   "line": 262,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "name=\"description\" content=\"发布口径 2798 条模式摘要的核验状态：已核验 911、待核验 1547、存疑 0、一手材料 340",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase44_acceptance.md",
+   "line": 185,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "已核验 888 · 待核验 1547 · 存疑 23 · 一手材料 340",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase45_acceptance.md",
+   "line": 237,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "- 未暗示「全部已考证」：草稿第 84–102 行专门开「可信度：我不打算假装每条都可信」，并**如实公布四态**「已核验 888 / 待核验 1547 / 存疑 23 / 一手材料 340」，还写明「大约三分之一已经核验过，其余三分...",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase45_acceptance.md",
+   "line": 239,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "- 出处覆盖率写的是「2758 条（98.6%）」而**不是**「全部」，并注明「解析不到链接的，保留原文并标成『一手材料 / 待核验』，不假装全部可点」。",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/qa/phase45_acceptance.md",
+   "line": 269,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "[counts] 可信度四态 : 发布口径 2798（已核验 888 / 待核验 1547 / 存疑 23 / 一手材料 340），源库口径合计 2858",
+   "ann": "术语命中（待核验或待核名 状态词）；历史过程面：需人工判过期与否",
+   "term": true
+  },
+  {
+   "file": "docs/research/candidates_v2_research.md",
+   "line": 341,
+   "marker": "待补",
+   "bucket": "B",
+   "snippet": "| 李时珍/孙思邈/张…（源文件此行被截断，待补） | 中医药学群体 | 待补：该行在初始提交 782a1ad 即截断；其中李时珍已收录 H-LSZ-124 |",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/legacy20_rev6_assessment.md",
+   "line": 53,
+   "marker": "未闭环",
+   "bucket": "B",
+   "snippet": "| DY | 董宇明 | H-DY-001 | figures/H-DY-001.json=10（M-DY-001-010，内容实为杜威）；figures/H-DYM-001.json 与 individuals/H-DYM-001_...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/legacy20_rev6_assessment.md",
+   "line": 157,
+   "marker": "未闭环",
+   "bucket": "B",
+   "snippet": "6. 董宇明冲突未闭环：图档侧、库内码、模式编号三处互不一致，任何后续动作须等 t_72e34e75 定案，否则会造出第三套命名。",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20R_zengzi_archive_report.md",
+   "line": 50,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "- 归档后档案结构：九章齐备（1 Overview / 2 Ten Thinking Modes / 3 Attribution Notes / 4 Corrections Log / 5 Legacy-code dispositio...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20R_zengzi_archive_report.md",
+   "line": 79,
+   "marker": "未闭环",
+   "bucket": "B",
+   "snippet": "2. QA 报告 §6 P2 五条观察（本卡零新增、不阻塞）：`legacy_field_aliases` 说明性字段；图档 `source_files` 非路径项（如「phase20_zengzi_QA报告见 final 第 5 节...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20R_zengzi_merge_report.md",
+   "line": 66,
+   "marker": "未闭环",
+   "bucket": "B",
+   "snippet": "- 残留清单 #16 未闭环（交接项）：根目录旧档 modes_data.json（610KB 级、101 图块汇编、内嵌曾子旧号块 M230-M239）原记 action 为「由落地卡 t_4a9c2c2e rebase 到 M-Z...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20R_zengzi_residual_inventory.md",
+   "line": 42,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "| 20 | `data/figures/H-PGR-001.json (cross_references)` | external-crossref-unclear | cross_references 含『H-ZX-001』，指向...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20R_zengzi_residual_inventory.md",
+   "line": 68,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "- `data/figures/H-PGR-001.json`（cross_references 列表）含 `H-ZX-001`：指向曾子或误码朱熹**待核**。",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_daizhen_archive_report.md",
+   "line": 46,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "- 归档后档案结构：七章齐备（一历史定位 / 二核心思想 / 三十大思维模式 / 四双语场景索引 / 五跨引用 / 六现代价值 / 七入库说明与 QA 验收记录）；` > ` 英文对照行共 19 条（模式 key_quote_en 1...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_daizhen_merge_report.md",
+   "line": 118,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "9. 档案 md > 20KB、10 模式定义中英逐字等于库内、含 20 条双语场景索引、无 TODO/替换字符；",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_lujiuyuan_archive_report.md",
+   "line": 43,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "- **回归拦截记录（诚实披露）**：初稿把三镜像哈希记作缩写 `8a61a691…ede8`，触发上游第 43 项与 QA 6.3「档案 md 无省略号」判据（QA 98 → 97 PASS）。改为完整 64 位 SHA256 后，...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_lujiuyuan_qa_report.md",
+   "line": 29,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "6. `docs/figures/H-LJY-001.md` 33831 B，10 模式全字段（定义/流程/案例/现代应用）与库内**逐字一致**，含双语场景索引，无 TODO/省略号。",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_wangfuzhi_merge_report.md",
+   "line": 87,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "9. 档案 md > 20KB、10 模式定义中英逐字等于库内、含 20 条双语场景索引、无 TODO/替换字符",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_wangfuzhi_qa_report.md",
+   "line": 32,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "8. `docs/figures/H-WFZ-001.md` 53,330 B：10 模式**全字段**（名称/定义/流程/案例/应用/引证/研究稿 ID/关联模式，中英）逐字等于库内；双语场景索引 20 条；省略号仅出现于古籍引证行...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_wangyangming_qa_report.md",
+   "line": 27,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "5. `docs/figures/H-WYM-001.md` 46173 B，10 模式核心字段与库内**逐字一致**，含双语场景索引，无 TODO。",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_zengzi_research_final.md",
+   "line": 156,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "- `data/figures/H-PGR-001.json` `cross_references` 含 `H-ZX-001`——指向曾子或误码朱熹待核。",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase20_zhangxuecheng_archive_report.md",
+   "line": 47,
+   "marker": "TODO",
+   "bucket": "B",
+   "snippet": "- 归档后档案结构：七章齐备（一历史定位 / 二核心思想 / 三十大思维模式 / 四双语场景索引 / 五跨引用 / 六现代价值 / 七入库说明与 QA 验收记录）；` > ` 英文对照行共 19 条（模式 key_quote_en 1...",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_prep_report.md",
+   "line": 11,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "- 王祥 H-HZX-002：结论为 归档 + 待重做清单。核心事实可修正，但 引文全量落源 不成立：figure 引文为自造、模式引文层为空、M301 题旨建立在错误典故上。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_prep_report.md",
+   "line": 18,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "## 2. 王祥 H-HZX-002（修正核验，结论：归档 + 待重做清单）",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_prep_report.md",
+   "line": 40,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "- wiki_id Q123456789：伪占位，待重做卡查证后回填。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_prep_report.md",
+   "line": 41,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "- figure_names 垃圾键 H 与 东岳：建议清理，保留 H-HZX-002 机制键 3 个（待重做使用）。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_prep_report.md",
+   "line": 58,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "- 10 条模式 M301-M310 全部进入待重做：每条含 problem、redo_suggestion、sourcing_status、salvage 四栏；题旨须从正确典故（卧冰求鲤）与正确出处重立。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_prep_report.md",
+   "line": 84,
+   "marker": "待办",
+   "bucket": "C",
+   "snippet": "### 3.5 清零清单（收口卡待办）",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_wangxiang_redo_list.md",
+   "line": 1,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "# Phase21-R6B 王祥 H-HZX-002 待重做清单（单列）",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_wangxiang_redo_list.md",
+   "line": 4,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "- 处置：归档（字节件入隔离位）+ 待重做。核心事实可修正，但引文全量落源不成立，故不入库。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6B_wangxiang_redo_list.md",
+   "line": 38,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "## 10 条模式（全部待重做）",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang phase21r6b",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6_landing_batch1_report.md",
+   "line": 45,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "| 件 | 人物 | 载荷来源 | 旧号到新号 | 互引条数 | 类目归一（应用/待核） | 场景附随件 | 备份登记 |",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6_landing_batch1_report.md",
+   "line": 57,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "## 3. 类目归一（船长裁定口径：照样例映射表批量应用；表外者按原值保留 + 标记待核）",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6_landing_batch1_report.md",
+   "line": 78,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "### 3.2 待核（8 条，按原值保留，未应用）",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6_landing_batch1_report.md",
+   "line": 94,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- **WL 引文勘误**（报告 §7-2 与卡面要求）：M-WL-001（旧 M274）的 key_quote「不管白猫黑猫，抓住老鼠就是好猫」通行归属为邓小平，旧载荷置于万里名下；处置为引文原文逐字保真未改、新增 attribut...",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6_landing_batch1_report.md",
+   "line": 142,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "4. **类目待核 8 条**（见 3.2 表），如需应用请扩充映射表后重跑；",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6_landing_batch2_report.md",
+   "line": 42,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 原值保留（标记待核）：30 条 =",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6_landing_batch2_report.md",
+   "line": 45,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 28 条真表外的候选提案（未应用）已写入各件 batch2/H-<COD>-001/category_mapping.tsv 的 candidate_target 列（含置信度标注），供裁定后一键套用；状态列 kept_as_is...",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r6_landing_batch2_report.md",
+   "line": 46,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "- 口径差异告警（需船长/归并卡裁定）：批1（前置卡产物）对表外类目采用 extended_candidate 直接映射（例：CY 方法论到方法论通用、认识论到认识论逻辑），未按「原值保留+标记待核」字面执行。本卡按卡面裁定的字面口径...",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r7_cgroup_identity_report.md",
+   "line": 1,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "# Phase21-R7 C 组核名：待核身份研究报告（卡 t_261185a8）",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r7_cgroup_identity_report.md",
+   "line": 4,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "- 范围：C 组 7 件 = 待核身份 6 件（H-AN-001 安子 / H-LC-001 陆沉 / H-YE-001 叶筱 / H-ZOU-001 邹文献 / H-HAN-001 沈幅 / H-MODERN-002 大云）+ H-...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r7_cgroup_identity_report.md",
+   "line": 14,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "2. 结论枚举（按卡面要求）：**已确证 / 无法核实 / 多候选细分**。本卡用法：载荷所载身份（姓名+时代+生平要点+作品）有权威来源支撑者=已确证；无任何支撑且无候选者=无法核实；找到可辨析的真实同名/近名候选（需船长细分辨别）...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r7_cgroup_identity_report.md",
+   "line": 120,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "4. 「安全立军思维/整编革新思维/参谋统筹思维/情报先行思维」等命名均为无源自拟；场景 C-LUORQ-007「新中国第一部《公安机关组织条例》」**待核**（1950 年代公安法规体系以《公安派出所组织条例》1954 等为标志，须...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r7_wangxiang_sourcing_report.md",
+   "line": 1,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "# Phase21-R7 王祥 H-HZX-002 落源可行性研究报告（待重做清单逐条核验）",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r7_wangxiang_sourcing_report.md",
+   "line": 3,
+   "marker": "待重做",
+   "bucket": "C",
+   "snippet": "- 卡：t_b5454647（[Phase21-R7 王祥重做] 落源可行性研究：H-HZX-002 待重做清单逐条核验）",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r7_wangxiang_sourcing_report.md",
+   "line": 66,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "- M310 功德圆满法：旧不可（非文献标签）→ 可落源。锚 卒后哀荣/谥元段 + A11；卒年异说属 figure 层待核项（另卡）。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r7_wangxiang_sourcing_report.md",
+   "line": 111,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "5. figure 层待核项（卒年 268/269、wiki_id、（东岳）残留）——修正稿 _pending_verification 已登记，另卡处理。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang phase21r7",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_azj345_disposition.md",
+   "line": 5,
+   "marker": "旁项",
+   "bucket": "C",
+   "snippet": "- 上游：R7 核名报告 §4.2（docs/research/phase21r7_cgroup_identity_report.md，卡 t_261185a8）；R6C 归档先例（docs/research/phase21r6C_a...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 azj",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_azj345_disposition.md",
+   "line": 10,
+   "marker": "待补",
+   "bucket": "C",
+   "snippet": "1. 实体判定：**不可用（判死）**。载荷主题「对外开放/特区建设/摸着石头过河」（模式 8/38/39/10）与真实安子介（1912-2000，香港实业家、第八/九届全国政协副主席、香港基本法起草委员会副主任、语言文字学家）履历无...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 azj",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_azj345_disposition.md",
+   "line": 25,
+   "marker": "待补",
+   "bucket": "C",
+   "snippet": "- **S01** tools/json/scenarios_zh.json（3,038,171 B，存在）：2 处本码——\"H-AZJ-345\"（对象键，字节位 630564）+ 占位描述 \"description_zh\":\"【待补...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 azj",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_azj345_disposition.md",
+   "line": 137,
+   "marker": "待补",
+   "bucket": "C",
+   "snippet": "| 描述字段 | 「【待补充】」占位 | — | **未研究填充** |",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 azj",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_luorq_merge_report.md",
+   "line": 51,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "- 四态(发布口径): 已核验 931 / 待核验 1916 / 存疑 34 / 一手材料 340; 源库口径 931/1948/51/351",
+   "ann": "术语命中（待核验或待核名 状态词）；已知或在途：不重复登记；对照来源 台账点名 luorq",
+   "term": true
+  },
+  {
+   "file": "docs/research/phase21r8_luorq_sourcing_report.md",
+   "line": 46,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "| 5 | C-LUORQ-007/008/009 泛化场景 | C-007「新中国第一部《公安机关组织条例》」（待核）；C-008「高级干部违纪处理案例」；C-009「抗美援朝时期安全决策」 | **逐条处置：C-007 改成可核锚...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 luorq",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_luorq_sourcing_report.md",
+   "line": 215,
+   "marker": "待补",
+   "bucket": "C",
+   "snippet": "5. **URL 待补清单**（内容已存证，地址后补）：W7（国史网版姬文波文）、W16（wangsu123 页）、W19（共产党员网 12371 页）、W13（人民网分页根）、W6 的 CCRD 索引深层路径。另报**采集失败项**...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 luorq",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_luorq_sourcing_report.md",
+   "line": 257,
+   "marker": "待补",
+   "bucket": "C",
+   "snippet": "- **W7**｜姬文波《公安部队组建初期组织体系和领导体制的历史考察（1949—1952年）》转载页（国史网；含对文集／史料的转引）｜学术论文（转载）｜URL：（URL 待补；国史网 hprc.org.cn）｜sha256=ff8c...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 luorq",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_luorq_sourcing_report.md",
+   "line": 266,
+   "marker": "待补",
+   "bucket": "C",
+   "snippet": "- **W16**｜《军事家罗瑞卿逝世》（wangsu123.cn「历史今天」页；含杨得志 1978-08-11 悼文摘录）｜资料汇编页｜URL：（URL 待补；wangsu123.cn）｜sha256=68094b80f188d01...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 luorq",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_luorq_sourcing_report.md",
+   "line": 269,
+   "marker": "待补",
+   "bucket": "C",
+   "snippet": "- **W19**｜《郭兴福：开启人民军队训练史辉煌一页》（共产党员网转《光明日报》，2019-09-20）｜官方纪念文｜URL：（URL 待补；12371.cn）｜sha256=d951c09d11a33397f902d8550f1...",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 luorq",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_luorq_sourcing_report.md",
+   "line": 289,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "8. C-007 处置由「以《治安管理处罚条例》1957 锚定」调整为「八大纪律十项注意（1958-08）或条例草案说明（1956-12-28）二选一＋原件待核」（见 §二.5）。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 luorq",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_w4_names_recon.md",
+   "line": 189,
+   "marker": "待补",
+   "bucket": "C",
+   "snippet": "| code_as_name | 104 | legacy name_zh 即代码本身 (占位行, desc 多为 待补充信息, 计 108 条) |",
+   "ann": "已知或在途：不重复登记；对照来源 git 在途；台账点名 phase21r8_w4",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_w4_names_recon.md",
+   "line": 205,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "| t_261185a8 | [Phase21-R7 C组核名] 待核身份研究 | done | 核名方法论/证据链口径 |",
+   "ann": "已知或在途：不重复登记；对照来源 git 在途；台账点名 phase21r8_w4",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_w4_names_recon.md",
+   "line": 207,
+   "marker": "旁项",
+   "bucket": "C",
+   "snippet": "| t_151265db | [Phase21-R7 旁项] 根目录/发布仓旧档残留调查与处置 | done | tools/json 旧档 (含本卡涉及的 SG-Lee/MY-Mah/JP-Sas/UZ-Ulu/RW-KAG/H-M...",
+   "ann": "已知或在途：不重复登记；对照来源 git 在途；台账点名 phase21r8_w4",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_wangxiang_merge_report.md",
+   "line": 46,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "- 影响面: 站点四态发布口径 已核验 931 / 待核验 1906 / 存疑 34 / 一手材料 340(王祥 10 条计入待核验); 若授权回填则为 940/1897/34/340.",
+   "ann": "术语命中（待核验或待核名 状态词）；已知或在途：不重复登记；对照来源 台账点名 wangxiang",
+   "term": true
+  },
+  {
+   "file": "docs/research/phase21r8_wangxiang_merge_report.md",
+   "line": 92,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "2. figure 层 A1 遗留待核项(卒年异说 / wiki_id / 别名残留)按 A1 边界由后续卡处置, 本卡未动.",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21r8_wangxiang_rebuild_report.md",
+   "line": 117,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "2. figure 层待核项：卒年异说、wiki_id、别名残留（修正稿 _pending_verification 登记）另卡处理，本卡未处置。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21w4_fix_manifest.md",
+   "line": 159,
+   "marker": "旁项",
+   "bucket": "C",
+   "snippet": "| H-LXN-001.json (仓库根目录) | name_zh/name_en/description_*/reason_*/case_* | 毛先念 x4 + Mao Xiannian x4 | 本轮不动 (根目录遗留, 归 ...",
+   "ann": "已知或在途：不重复登记；对照来源 git 在途；台账点名 phase21w4",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21w4_fix_manifest.md",
+   "line": 353,
+   "marker": "旁项",
+   "bucket": "C",
+   "snippet": "1. **H-LXN-001 错名实测面 > R2 字面**: R2 只列 tools/json/H-LXN-001.json + scenarios_en; 实测 scenarios_zh.json 同码 name_zh/descr...",
+   "ann": "已知或在途：不重复登记；对照来源 git 在途；台账点名 phase21w4",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21w5_wangchong_sourcing_report.md",
+   "line": 263,
+   "marker": "待办",
+   "bucket": "C",
+   "snippet": "6. B1 待办——《论衡》书级条目未入库（本卡零库写，仅交方案），按本报告 scheme 插入 source_links 表。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21w5",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase21w5_wangchong_sourcing_report.md",
+   "line": 264,
+   "marker": "待办",
+   "bucket": "C",
+   "snippet": "7. B2 待办——负对照用例：迢/追 真实差异例与注入例；比对应采用 zh-hans-body 正文投影。",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 phase21w5",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase2_detailed_research.md",
+   "line": 164,
+   "marker": "待补",
+   "bucket": "B",
+   "snippet": "## 5. 研究空白与待补齐项",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/research/phase2_detailed_research.md",
+   "line": 173,
+   "marker": "待补",
+   "bucket": "B",
+   "snippet": "### 5.2 待补齐 (Phase 3+ 任务)",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "docs/review/consistency_review_v2.md",
+   "line": 108,
+   "marker": "待补",
+   "bucket": "B",
+   "snippet": "- 空键条目 (1 个): 含 `modes: [146,147,148]` 但所有文本字段为\"待补充\"，属模板脏数据",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "tools/audit_figure_fields.py",
+   "line": 64,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "\"[安萨里](Al-Ghazali), 是否统一为安萨里留待船长裁定 -> 同时进待核名清单\",",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/build_legacy20_r6_batch1.py",
+   "line": 10,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "2) 类目归一（样例映射表为准 + 本卡扩展候选；不在表内者按原值保留并标记待核）",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "tools/build_legacy20_r6_batch1.py",
+   "line": 47,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "# 不在映射表内、按原值保留并标记待核（附候选目标，未经船长确认不应用）",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "tools/build_legacy20_r6_batch1.py",
+   "line": 194,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "'仅作此标注，待核验卡处置。')",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "tools/build_legacy20_r6_batch1.py",
+   "line": 213,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "'类目归一：%d 条按映射表归一（category_raw 保留原值），%d 条不在表内按原值保留并标记待核'",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "tools/build_legacy20_r6_batch1.py",
+   "line": 496,
+   "marker": "待核",
+   "bucket": "B",
+   "snippet": "u'本卡按现状保真保留原文并标注 attribution_note，待核验卡处置'],",
+   "ann": "历史过程面：需人工判过期与否",
+   "term": false
+  },
+  {
+   "file": "tools/build_phase21r8_wangxiang.py",
+   "line": 380,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "'卒年异说（268/269）属 figure 层待核项（R6B 修正稿 _pending_verification 登记），非本条引文缺口。'],",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang",
+   "term": false
+  },
+  {
+   "file": "tools/build_phase21r8_wangxiang.py",
+   "line": 421,
+   "marker": "待核",
+   "bucket": "C",
+   "snippet": "'figure 层待核项（卒年异说、wiki_id、别名残留）另卡处理（修正稿 _pending_verification 登记），本卡未处置',",
+   "ann": "已知或在途：不重复登记；对照来源 台账点名 wangxiang",
+   "term": false
+  },
+  {
+   "file": "tools/fix_qa_batch4.py",
+   "line": 159,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "f\"描述待补充\",",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/fix_qa_batch4.py",
+   "line": 160,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "f\"步骤待补充\",",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/fix_qa_batch4.py",
+   "line": 161,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "f\"适用场景待补充\"",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/fix_qa_batch4.py",
+   "line": 184,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "f\"描述待补充\",",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/fix_qa_batch4.py",
+   "line": 185,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "f\"步骤待补充\",",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/fix_qa_batch4.py",
+   "line": 186,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "f\"适用场景待补充\"",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/gen_web_site_counts.py",
+   "line": 194,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "print(\"[counts] 可信度四态 (发布口径 %d): 已核验 %d / 待核验 %d / 存疑 %d / 一手材料 %d\"",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "tools/json/merge_lizhi_scenarios.py",
+   "line": 149,
+   "marker": "TBD",
+   "bucket": "A",
+   "snippet": "pattern_en = r'(\"H-LZ-169\":\\s*\\{[^}]*\"description_en\":\\s*\"\\[TBD\\] H-LZ-169 description\"\\s*\\})'",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/og_image.py",
+   "line": 278,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "chips = [(\"时代 · %s\" % era) if era else \"时代待核\",",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/prerender_body.py",
+   "line": 280,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "return ' <span class=\"pt-chip-mute\">待核验</span>'",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "tools/site_counts.py",
+   "line": 110,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "CREDIBILITY_TITLE_FMT = \"可信度统计 - 已核验 %d / 待核验 %d / 存疑 %d / 一手材料 %d\"",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "tools/site_counts.py",
+   "line": 112,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "\"发布口径 %d 条模式摘要的核验状态：已核验 %d、待核验 %d、存疑 %d、一手材料 %d\"",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "tools/site_counts.py",
+   "line": 420,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "print(\"[counts] 可信度四态 : 发布口径 %d（已核验 %d / 待核验 %d / 存疑 %d / 一手材料 %d），源库口径合计 %d\"",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "tools/test_thinking_mode_selector.py",
+   "line": 39,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "# db 里引用了模式目录中尚不存在的 id —— 属数据层待补项。",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/test_thinking_mode_selector.py",
+   "line": 46,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "# 允许\"暂无思维模式\"的场景比例上限（当前约 3.4% 属数据层待补；大幅劣化即失败）",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/test_thinking_mode_selector.py",
+   "line": 111,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "print('✓ 名称: %d/%d 个场景有真实名称（其余退化为 code，属数据层待补）'",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "tools/update_templates_with_new_figures.py",
+   "line": 73,
+   "marker": "待补",
+   "bucket": "A",
+   "snippet": "appendix += f\"| **{code}** | {name} | 待补充 | 待补充 | {modes} |\\n\"",
+   "ann": "现行面：疑似可执行候选，需人工确认",
+   "term": false
+  },
+  {
+   "file": "web/src/App.vue",
+   "line": 132,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "{{ t(`已核验 ${SITE_COUNTS.verification.published.verified} · 待核验 ${SITE_COUNTS.verification.published.pending} · 存疑 ${S...",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/components/CredibilityBadge.vue",
+   "line": 7,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "* pending ○ 待核验 灰：schema 缺省态，尚未核验",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/components/CredibilityBadge.vue",
+   "line": 53,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "case 'pending': return t('待核验', 'Pending')",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/components/CredibilityBadge.vue",
+   "line": 65,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "pending: t('可信度：待核验 —— 尚未核验（schema 缺省态）', 'Credibility: pending — not yet checked (schema default)'),",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/components/EntryCard.vue",
+   "line": 88,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "{{ t('档案待核名', 'Name pending review') }}",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/router/index.ts",
+   "line": 104,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "// 页面照实公布已核验/待核验/存疑/一手材料，空态也如实显示。",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/router/index.ts",
+   "line": 110,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "description: '每条模式的核验状态如实公布：已核验、待核验、存疑、一手材料，数字取自部署产物 data/meta.json。',",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/views/ConceptsView.vue",
+   "line": 230,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "<span v-if=\"!f.name\" class=\"pt-chip-mute\">{{ t('待核名', 'Name pending review') }}</span>",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/views/CredibilityView.vue",
+   "line": 6,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "* 已核验 / 待核验 / 存疑 / 一手材料 四态如实公布，空态（0）也照实显示，不做美化。",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  },
+  {
+   "file": "web/src/views/CredibilityView.vue",
+   "line": 106,
+   "marker": "待核",
+   "bucket": "A",
+   "snippet": "{{ t('这一页如实公布每条模式的核验状态：已核验、待核验、存疑、一手材料。',",
+   "ann": "术语命中（待核验或待核名 状态词）；现行面：疑似可执行候选，需人工确认",
+   "term": true
+  }
+ ]
+}

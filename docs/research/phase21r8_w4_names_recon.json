@@ -1,0 +1,1245 @@
+{
+ "schema": "protreptic.phase21r8_w4_names_recon/v1",
+ "card": "t_24b92f58",
+ "title": "Phase21 W4 名录字段核对: 16 个 H-* 空名 + 异常码族分类矩阵 (零库写)",
+ "date": "2026-09-23",
+ "work_repo": "/opt/data/workspace/Protreptic",
+ "publish_repo": "/opt/data/release/Protreptic-publish",
+ "discipline": "零库写: 本卡仅写 docs/research/phase21r8_w4_names_recon.{md,json}; 未改任何库/数据/站点文件",
+ "baseline": {
+  "db_rows": 1057,
+  "figures_index_entries": 1057,
+  "figures_index_empty": 563,
+  "empty_H": 16,
+  "empty_nonH": 547,
+  "release_unified": {
+   "total": 1359,
+   "figures": 304,
+   "scenarios": 1055
+  },
+  "name_eq_code_in_unified": 562,
+  "empty16_scenario_in_release": 15,
+  "hlG_note": "H-HLG-001 例外: release/dist 统一索引均为 figure 路由 (name 已解析), 不在 15 个 scenario 空名之列 (16 = 15 scenario + 1 figure)"
+ },
+ "root_cause": {
+  "mechanism": "DB 装载器只读 legacy 条目的 name/name_en 键 (tools/build_figures_db.py L87), 而 563 条 legacy 条目使用旧 schema name_zh/name_en; 键缺失 -> DB name 空 -> export_static_site.py (L547 直取 DB name_zh) 写空 shard 与 figures.index.json -> build_unified_index.py (L139 name=nz or ne or code) 回落为 code -> 预渲染/站点显示 场景档案 加 代码",
+  "code_refs": [
+   "tools/build_figures_db.py:87",
+   "tools/export_static_site.py:438,545-547",
+   "tools/build_unified_index.py:139"
+  ],
+  "correlation": {
+   "empty_db_rows": 563,
+   "by_legacy_key": {
+    "('named', 'name')": 494,
+    "('empty', 'name_zh')": 552,
+    "('empty', 'none')": 11
+   }
+  },
+  "named_bad": {
+   "count": 0,
+   "sample": []
+  },
+  "statement": "跨全量 1057 码零反例: 有名 494 行 100% 具备 legacy name 键; 空名 563 行 100% 无 name 键 (552 条 name_zh-only + 11 条无任何名字键)"
+ },
+ "non_h_547": {
+  "count": 547,
+  "strict_breakdown": {
+   "code_as_name": 104,
+   "name_title": 230,
+   "topic_slash": 169,
+   "plain_name": 34,
+   "empty_name_zh": 10
+  },
+  "stub_desc": 108,
+  "top_prefix": [
+   [
+    "RW",
+    28
+   ],
+   [
+    "US",
+    16
+   ],
+   [
+    "JP",
+    14
+   ],
+   [
+    "IL",
+    14
+   ],
+   [
+    "IN",
+    12
+   ],
+   [
+    "AU",
+    12
+   ],
+   [
+    "TR",
+    12
+   ],
+   [
+    "DE",
+    11
+   ],
+   [
+    "KR",
+    9
+   ],
+   [
+    "IR",
+    9
+   ],
+   [
+    "UK",
+    8
+   ],
+   [
+    "RU",
+    8
+   ]
+  ],
+  "ten_no_name": [
+   "BW-KHA-001",
+   "NA-NUJ-001",
+   "SZ-MSW-001",
+   "ZW-MUG-001",
+   "ZA-ZUM-001",
+   "BW-MAS-001",
+   "LS-MOS-001",
+   "MG-RAV-001",
+   "NA-GEO-001",
+   "ZW-CHA-001"
+  ],
+  "note": "547 为场景命名空间 (国家/主题码) 空名行, 全部由同一装载器键漂移造成; 其中 537 条 legacy 有 name_zh (人名/题名/主题串), 10 条 (南部非洲批次) legacy 亦无名字键. 此族不含 H-* 人码, 属场景侧字段治理, 与 16 H-* 人名恢复分开处置"
+ },
+ "matrix": [
+  {
+   "code": "H-HYP-145",
+   "db_id": 134,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[9, 38, 37, 39, 29]",
+   "figindex_n_modes": 5,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-HYP-145",
+    "n_modes": 5
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-HYP-145",
+    "n_modes": 5
+   },
+   "shard": "web/public/data/figures/H-HYP-145.json",
+   "legacy_name_zh": "黄炎培",
+   "legacy_name_en": "Huang Yanpei",
+   "legacy_name": null,
+   "code_maps_en": "黄炎培: 职业教育救国与三自自主闭环",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/asia/individuals/huang_yanpei_H-HYP-145_modes.json",
+     "name": "黄炎培：职业教育救国与三自自主闭环"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-HYP-145/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-HYP-145 - 场景档案 5 条模式",
+    "name": "H-HYP-145",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析",
+   "alias": "H-YYP-001",
+   "action": "回填 name_zh 为人名; 与 H-YYP-001 (现役命名行) 双码并存, 需船长裁定归一(保留其一, 另一遮蔽/归档), 不得两码同名并存",
+   "notes": "无 modes_data/figure_names 注册; tools/json/H-HYP-145.json 与 companion 均为 01 批次草稿",
+   "cards": [
+    "t_402214fb",
+    "t_604bbe41",
+    "t_1c079099",
+    "t_c07091a9",
+    "t_637ee95e",
+    "t_b153b00a",
+    "t_elcano_elcano_batch_1_1787640880_0"
+   ],
+   "name_zh_resolved": "黄炎培",
+   "name_en_resolved": "Huang Yanpei"
+  },
+  {
+   "code": "H-WYX-146",
+   "db_id": 135,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[9, 5, 25, 37, 28]",
+   "figindex_n_modes": 5,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-WYX-146",
+    "n_modes": 5
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-WYX-146",
+    "n_modes": 5
+   },
+   "shard": "web/public/data/figures/H-WYX-146.json",
+   "legacy_name_zh": "吴有训",
+   "legacy_name_en": "Wu Youxun",
+   "legacy_name": null,
+   "code_maps_en": "Wu Youxun: 中国现代物理学奠基与实验自主范式",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/asia/individuals/wu_you_xun_H-WYX-146_modes.json",
+     "name": "吴有训：中国现代物理学奠基与实验自主范式"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-WYX-146/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-WYX-146 - 场景档案 5 条模式",
+    "name": "H-WYX-146",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析",
+   "alias": "H-WYX-189 / H-WYX-249",
+   "action": "回填 name_zh 为人名; 同人另存 H-WYX-189/249 两条命名行, 去重纳入归一裁定",
+   "notes": "figure_names 无该人名键; docs/figures/H-WYX-001.md 为 Phase19 命名别名档",
+   "cards": [
+    "t_1a4d7d3d",
+    "t_774157f1",
+    "t_d0459bc1",
+    "t_db2c3159",
+    "t_dd7b1c7f",
+    "t_elcano_elcano_batch_1_1787640880_0"
+   ],
+   "name_zh_resolved": "吴有训",
+   "name_en_resolved": "Wu Youxun"
+  },
+  {
+   "code": "H-WX-147",
+   "db_id": 136,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[1, 36, 38, 6, 34]",
+   "figindex_n_modes": 5,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-WX-147",
+    "n_modes": 5
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-WX-147",
+    "n_modes": 5
+   },
+   "shard": "web/public/data/figures/H-WX-147.json",
+   "legacy_name_zh": "王选",
+   "legacy_name_en": "Wang Xuan",
+   "legacy_name": null,
+   "code_maps_en": "Wang Xuan: 激光照排系统与汉字信息处理死磕典范",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/asia/individuals/wang_xuan_H-WX-147_modes.json",
+     "name": "王选：激光照排系统与汉字信息处理死磕典范"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-WX-147/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-WX-147 - 场景档案 5 条模式",
+    "name": "H-WX-147",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析",
+   "alias": "无同人命名行 (H-WX-274 为王兴, 非同一人)",
+   "action": "回填 name_zh 为人名; 注意档名别名 H-WX-001 (docs/figures/H-WX-001.md), 归一裁定同批处理",
+   "notes": "",
+   "cards": [
+    "t_33bd44f1",
+    "t_ffabbc87",
+    "t_663e6b4f",
+    "t_f095dd56",
+    "t_bf668f37",
+    "t_elcano_elcano_batch_1_1787640880_0"
+   ],
+   "name_zh_resolved": "王选",
+   "name_en_resolved": "Wang Xuan"
+  },
+  {
+   "code": "H-YLP-148",
+   "db_id": 137,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[]",
+   "figindex_n_modes": 0,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-YLP-148",
+    "n_modes": 0
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-YLP-148",
+    "n_modes": 0
+   },
+   "shard": "web/public/data/figures/H-YLP-148.json",
+   "legacy_name_zh": "袁隆平：杂交水稻两系法与农业死磕范式跃迁",
+   "legacy_name_en": "Yuan Longping: Hybrid Rice Two-Line System & the Agricultural 'Compound-Diligence' Paradigm Shift",
+   "legacy_name": null,
+   "code_maps_en": "Yuan Longping: Hybrid RiceTwo-Line System与农业死磕范式跃迁",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/asia/individuals/yuan_longping_H-YLP-148_modes.json",
+     "name": "袁隆平：杂交水稻两系法与农业死磕范式跃迁"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-YLP-148/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-YLP-148 - 场景档案 0 条模式",
+    "name": "H-YLP-148",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析",
+   "alias": "P4-ENG-004 (命名行)",
+   "action": "回填 name_zh 为人名; 与 P4-ENG-004 归一裁定",
+   "notes": "",
+   "cards": [
+    "t_8b5092b9",
+    "t_e7653d02",
+    "t_50dbd4d2",
+    "t_4325346d",
+    "t_ab68dd13",
+    "t_elcano_elcano_batch_1_1787640880_0"
+   ],
+   "name_zh_resolved": "袁隆平",
+   "name_en_resolved": "Yuan Longping"
+  },
+  {
+   "code": "H-SY-149",
+   "db_id": 138,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[35, 16, 15, 14, 12]",
+   "figindex_n_modes": 5,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-SY-149",
+    "n_modes": 5
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-SY-149",
+    "n_modes": 5
+   },
+   "shard": "web/public/data/figures/H-SY-149.json",
+   "legacy_name_zh": "粟裕",
+   "legacy_name_en": "Su Yu",
+   "legacy_name": null,
+   "code_maps_en": "粟裕：以纵深战略为内核的中国人民解放军战略指挥范式",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/asia/individuals/su_yu_H-SY-149_modes.json",
+     "name": "粟裕：运动战极致与战略决策风险管控范式"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-SY-149/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-SY-149 - 场景档案 5 条模式",
+    "name": "H-SY-149",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析 (现役人码已存在)",
+   "alias": "SUY (现役 figure, 10 模式)",
+   "action": "回填或遮蔽: 该人物现役 payload 在 SUY; 本码与 H-SY-001 改名悬案 (phase19_summary.md L208/L476) 合并裁定",
+   "notes": "Phase27 链已按 SuYuGeneral 重做入库 (t_e99041fc); 本码属历史残件",
+   "cards": [
+    "t_295a26ee",
+    "t_81cee7ca",
+    "t_a1555e53",
+    "t_07ffbf81",
+    "t_e99041fc"
+   ],
+   "name_zh_resolved": "粟裕",
+   "name_en_resolved": "Su Yu"
+  },
+  {
+   "code": "H-XMQ-151",
+   "db_id": 140,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[26, 19, 38, 39, 41]",
+   "figindex_n_modes": 5,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-XMQ-151",
+    "n_modes": 5
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-XMQ-151",
+    "n_modes": 5
+   },
+   "shard": "web/public/data/figures/H-XMQ-151.json",
+   "legacy_name_zh": "薛暮桥",
+   "legacy_name_en": "Xue Muqiao",
+   "legacy_name": null,
+   "code_maps_en": "薛暮桥: 价格改革理论奠基与改革风险决策框架",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/asia/individuals/xue_mu_qiao_H-XMQ-151_modes.json",
+     "name": "薛暮桥：价格改革理论奠基与改革风险决策框架"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": true,
+   "site_html": true,
+   "sitemap": "/figures/H-XMQ-151/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-XMQ-151 - 场景档案 5 条模式",
+    "name": "H-XMQ-151",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析",
+   "alias": "H-XMQ-299 (命名行)",
+   "action": "回填 name_zh 为人名; 与 H-XMQ-299 归一裁定",
+   "notes": "docs/figures/H-XMQ-151.md 与 site_docs 预渲染页在; figure_names 无键",
+   "cards": [
+    "t_3473280a",
+    "t_c90b812d",
+    "t_2752ca7f",
+    "t_b6f36915",
+    "t_870bc0ab",
+    "t_elcano_elcano_batch_1_1787640880_0"
+   ],
+   "name_zh_resolved": "薛暮桥",
+   "name_en_resolved": "Xue Muqiao"
+  },
+  {
+   "code": "H-CY-159",
+   "db_id": 148,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[]",
+   "figindex_n_modes": 0,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-CY-159",
+    "n_modes": 0
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-CY-159",
+    "n_modes": 0
+   },
+   "shard": "web/public/data/figures/H-CY-159.json",
+   "legacy_name_zh": "陈毅：苏北/华中游击根据地四位一体建设、新四军统战与「诗军外交」跨界范式",
+   "legacy_name_en": "Chen Yi: Four-in-One Guerrilla Base-Area Construction in Subei/Central China, New Fourth Army United Front, and the 'Poet-Soldier Diplomacy' Cross-Domain Paradigm",
+   "legacy_name": null,
+   "code_maps_en": "Chen Yi: 山东游击根据地建设与诗军外交跨界实践",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/asia/individuals/chenyi_H-CY-159_modes.json",
+     "name": "陈毅：苏北/华中游击根据地四位一体建设、新四军统战与「诗军外交」跨界范式"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-CY-159/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-CY-159 - 场景档案 0 条模式",
+    "name": "H-CY-159",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析",
+   "alias": "无现役模式载荷 (注意: H-CY-001 的 DB 行为陈云, 前缀族内易混)",
+   "action": "回填 name_zh 为人名; 建议另裁 H-CY 前缀归属 (陈云 H-CY-001 vs 陈毅 H-CY-159) 避免检索串档",
+   "notes": "Phase19 链 (t_3d85e587 等) 标题称 H-CY-001, 但该码 DB 行现为陈云场景行 (figure_names: H-CY-001 -> 陈云) -- 标题与数据不一致, 需在裁定中说明",
+   "cards": [
+    "t_3d85e587",
+    "t_3e6a5fe2",
+    "t_877edf3d",
+    "t_e99d5f32",
+    "t_0a0f85fe",
+    "t_elcano_elcano_batch_3_1787640880_2"
+   ],
+   "name_zh_resolved": "陈毅",
+   "name_en_resolved": "Chen Yi"
+  },
+  {
+   "code": "H-LXN-347",
+   "db_id": 368,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[]",
+   "figindex_n_modes": 0,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-LXN-347",
+    "n_modes": 0
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-LXN-347",
+    "n_modes": 0
+   },
+   "shard": "web/public/data/figures/H-LXN-347.json",
+   "legacy_name_zh": "李先念：「铁算盘」经济统筹、根据地币制创新与「以稳促建」宏观调控范式",
+   "legacy_name_en": "Li Xiannian: The 'Iron Abacus' Economic Coordination, Base-Area Currency Innovation and the 'Stability-First Development' Macro-Control Paradigm",
+   "legacy_name": null,
+   "code_maps_en": "Li Xiannian: Financial Discipline / Macro Control / Iron Abacus / Price Stability",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/asia/individuals/lixiannian_H-LXN-347_modes.json",
+     "name": "李先念：「铁算盘」经济统筹、根据地币制创新与「以稳促建」宏观调控范式"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-LXN-347/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-LXN-347 - 场景档案 0 条模式",
+    "name": "H-LXN-347",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析",
+   "alias": "H-LXN-158 (命名行) / H-LXN-001 (同族 husk)",
+   "action": "回填 name_zh 为人名; 三码 (001/158/347) 归一裁定",
+   "notes": "phase19_summary.md L210 以本件 companion 为正确数据源; batch_new_figures_research.md L573 有完整素材",
+   "cards": [
+    "t_elcano_elcano_batch_3_1787640880_2",
+    "t_9b8de959",
+    "t_d54dccae",
+    "t_20869629",
+    "t_b291c8d4",
+    "t_4b5bee71"
+   ],
+   "name_zh_resolved": "李先念",
+   "name_en_resolved": "Li Xiannian"
+  },
+  {
+   "code": "H-LXN-001",
+   "db_id": 369,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[7, 19, 38, 39, 34]",
+   "figindex_n_modes": 5,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-LXN-001",
+    "n_modes": 5
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-LXN-001",
+    "n_modes": 5
+   },
+   "shard": "web/public/data/figures/H-LXN-001.json",
+   "legacy_name_zh": "毛先念",
+   "legacy_name_en": "Mao Xiannian",
+   "legacy_name": null,
+   "code_maps_en": null,
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": true,
+   "site_html": true,
+   "sitemap": "/figures/H-LXN-001/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-LXN-001 - 场景档案 5 条模式",
+    "name": "H-LXN-001",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析 (附缺陷: 草稿错名未改)",
+   "alias": "H-LXN-158 / H-LXN-347",
+   "action": "回填 name_zh 为人名; 同时修正 tools/json/H-LXN-001.json 与 scenarios_en 的错名键值 (phase19 L210/L477 已记录应改, 至今未落实)",
+   "notes": "Phase19 全链 done (研究/落地/合并/QA/归档); docs/figures/H-LXN-001.md 与 site 预渲染页在",
+   "cards": [
+    "t_9b8de959",
+    "t_d54dccae",
+    "t_20869629",
+    "t_b291c8d4",
+    "t_4b5bee71"
+   ],
+   "name_zh_resolved": "李先念 (legacy 草稿误作 毛先念)",
+   "name_en_resolved": "Mao Xiannian"
+  },
+  {
+   "code": "H-IKD-160",
+   "db_id": 1001,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[]",
+   "figindex_n_modes": 0,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-IKD-160",
+    "n_modes": 0
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-IKD-160",
+    "n_modes": 0
+   },
+   "shard": "web/public/data/figures/H-IKD-160.json",
+   "legacy_name_zh": "伊本·赫勒敦：文明盛衰的『伊尔姆·乌姆兰』系统社会学与王朝周期辩证范式",
+   "legacy_name_en": "Ibn Khaldun: The 'Ilm al-'Umran' Systems Sociology of Civilizational Rise-and-Fall & the Dialectical Paradigm of Dynastic Cycles",
+   "legacy_name": null,
+   "code_maps_en": "Ibn Khaldun: Systems Sociology of Civilizational Rise-and-Fall & Dialectical Dynastic-Cycle Paradigm",
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [
+    {
+     "path": "data/africa/individuals/ibnkhaldun_H-IKD-160_modes.json",
+     "name": "伊本·赫勒敦：文明盛衰的『伊尔姆·乌姆兰』系统社会学与王朝周期辩证范式"
+    }
+   ],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-IKD-160/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-IKD-160 - 场景档案 0 条模式",
+    "name": "H-IKD-160",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析 (现役人码已存在)",
+   "alias": "IKH (现役 figure, 10 模式)",
+   "action": "回填或遮蔽; 与 IKH 归一裁定",
+   "notes": "figure_names: IKH/IbnKhaldun/H-IKH-001 -> 该人名",
+   "cards": [
+    "t_2a948786",
+    "t_b576841d",
+    "t_19440c82",
+    "t_e93ed594",
+    "t_03a490c7",
+    "t_elcano_elcano_batch_3_1787640880_2"
+   ],
+   "name_zh_resolved": "伊本·赫勒敦",
+   "name_en_resolved": "Ibn Khaldun"
+  },
+  {
+   "code": "H-ISC-362",
+   "db_id": 1002,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[]",
+   "figindex_n_modes": 0,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-ISC-362",
+    "n_modes": 0
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-ISC-362",
+    "n_modes": 0
+   },
+   "shard": "web/public/data/figures/H-ISC-362.json",
+   "legacy_name_zh": "阿维森纳（伊本·西那）：医学百科全书的体系建构、形而上学本体论与「理性-启示」调和范式",
+   "legacy_name_en": "Avicenna (Ibn Sina): Systematic Corpus of the Canon of Medicine, Ontological Metaphysics and the 'Rationality-Revelation' Synthesis Paradigm",
+   "legacy_name": null,
+   "code_maps_en": null,
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-ISC-362/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-ISC-362 - 场景档案 0 条模式",
+    "name": "H-ISC-362",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析 (现役人码已存在)",
+   "alias": "H-ISN-001 (现役 figure, 10 模式)",
+   "action": "回填或遮蔽; 与 H-ISN-001 归一裁定",
+   "notes": "无 companion 文件; 名字证据仅在 tools/json/scenarios_zh/en.json 与 code_maps_en",
+   "cards": [
+    "t_elcano_elcano_batch_3_1787640880_2",
+    "t_serrano_阿维森纳_629779_1"
+   ],
+   "name_zh_resolved": "阿维森纳（伊本·西那）",
+   "name_en_resolved": "Avicenna (Ibn Sina)"
+  },
+  {
+   "code": "H-GHZ-163",
+   "db_id": 1003,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[]",
+   "figindex_n_modes": 0,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-GHZ-163",
+    "n_modes": 0
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-GHZ-163",
+    "n_modes": 0
+   },
+   "shard": "web/public/data/figures/H-GHZ-163.json",
+   "legacy_name_zh": "加扎利：神学—苏菲综合、哲学批判与「确定性」认识论的四位一体范式",
+   "legacy_name_en": "Al-Ghazali: The Four-in-One Paradigm of Theological-Sufi Synthesis, Philosophical Critique, and the Epistemology of Certainty",
+   "legacy_name": null,
+   "code_maps_en": null,
+   "figure_names": "安萨里",
+   "code_maps_figs": 7,
+   "companions": [
+    {
+     "path": "data/asia/individuals/ghazali_H-GHZ-163_modes.json",
+     "name": "加扎利：神学—苏菲综合、哲学批判与「确定性」认识论的四位一体范式"
+    }
+   ],
+   "individuals": true,
+   "figdir": false,
+   "docs_md": true,
+   "site_html": true,
+   "sitemap": "/figures/H-GHZ-163/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-GHZ-163 - 场景档案 0 条模式",
+    "name": "H-GHZ-163",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析 (现役人码已存在)",
+   "alias": "H-GHZ-001 (现役 figure, 10 模式)",
+   "action": "回填 name_zh; 与 H-GHZ-001 归一裁定; 译名统一问题 (安萨里/加扎利/阿斋逊) 并入 Phase46-R 待裁清单第 3 条",
+   "notes": "注册层最厚: figure_names(GHZ-163/GHZ-001)/code_maps(7)/data/individuals/docs/site 页均在; Phase46-R 报告第 5 节 #3 记录与 H-AlGhazali-001 同人译名待裁",
+   "cards": [
+    "t_elcano_elcano_batch_3_1787640880_2",
+    "t_e3f8cf8f"
+   ],
+   "name_zh_resolved": "安萨里",
+   "name_en_resolved": "Al-Ghazali"
+  },
+  {
+   "code": "H-SUF-364",
+   "db_id": 1004,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[]",
+   "figindex_n_modes": 0,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-SUF-364",
+    "n_modes": 0
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-SUF-364",
+    "n_modes": 0
+   },
+   "shard": "web/public/data/figures/H-SUF-364.json",
+   "legacy_name_zh": "鲁米（贾拉勒丁·鲁米）：诗歌神秘主义的普世转化、丧妻之痛与「爱」的本体论范式",
+   "legacy_name_en": "Rumi (Jalal al-Din Rumi): Poetic Mysticism's Universal Transformation, Grief-to-Love Alchemy and the 'Love' Ontology Paradigm",
+   "legacy_name": null,
+   "code_maps_en": null,
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": false,
+   "site_html": false,
+   "sitemap": "/figures/H-SUF-364/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-SUF-364 - 场景档案 0 条模式",
+    "name": "H-SUF-364",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析 (无现役码, 全族最脆弱)",
+   "alias": "H-RUM-365 (companion 深挖件称本码为 主卡)",
+   "action": "回填/重建: 该人物无现役 figure 码, 无命名行, 无 figure_names 键; 仅存批次草稿 + H-RUM-365 companion. 建议按研究卡重建(或回填后进归一)",
+   "notes": "data/asia/individuals/rumi_H-RUM-365_modes.json 自述 同一人物主卡 H-SUF-364",
+   "cards": [
+    "t_elcano_elcano_batch_3_1787640880_2",
+    "t_serrano_鲁米_629779_3"
+   ],
+   "name_zh_resolved": "鲁米（贾拉勒丁·鲁米）",
+   "name_en_resolved": "Rumi (Jalal al-Din Rumi)"
+  },
+  {
+   "code": "H-ZEL-001",
+   "db_id": 1045,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[42, 20, 6, 41, 34]",
+   "figindex_n_modes": 5,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-ZEL-001",
+    "n_modes": 5
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-ZEL-001",
+    "n_modes": 5
+   },
+   "shard": "web/public/data/figures/H-ZEL-001.json",
+   "legacy_name_zh": "周恩来",
+   "legacy_name_en": "Zhou Enlai",
+   "legacy_name": null,
+   "code_maps_en": null,
+   "figure_names": null,
+   "code_maps_figs": 0,
+   "companions": [],
+   "individuals": false,
+   "figdir": false,
+   "docs_md": true,
+   "site_html": true,
+   "sitemap": "/figures/H-ZEL-001/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-ZEL-001 - 场景档案 5 条模式",
+    "name": "H-ZEL-001",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "①可解析 (现役人码已存在)",
+   "alias": "ZhouEnLai (现役 figure, 10 模式)",
+   "action": "回填或遮蔽; 与 ZhouEnLai 归一裁定; 同族另有 H-ZEL-153/306/325/332 四条命名行",
+   "notes": "Phase19 全链 done; docs/figures/H-ZEL-001.md 与 site 页在",
+   "cards": [
+    "t_24520b5d",
+    "t_27610c96",
+    "t_54a58cbc",
+    "t_0cbc2607",
+    "t_d9e3eafd",
+    "t_elcano_elcano_batch_2_1787640880_1"
+   ],
+   "name_zh_resolved": "周恩来",
+   "name_en_resolved": "Zhou Enlai"
+  },
+  {
+   "code": "H-HLG-001",
+   "db_id": 1046,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[9, 17, 38, 7]",
+   "figindex_n_modes": 4,
+   "unified_rel": {
+    "type": "figure",
+    "name": "华罗庚",
+    "n_modes": 10
+   },
+   "unified_dist": {
+    "type": "figure",
+    "name": "华罗庚",
+    "n_modes": 10
+   },
+   "shard": "web/public/data/figures/H-HLG-001.json",
+   "legacy_name_zh": "华罗庚",
+   "legacy_name_en": "Hua Luogeng",
+   "legacy_name": null,
+   "code_maps_en": null,
+   "figure_names": "华罗庚",
+   "code_maps_figs": 6,
+   "companions": [],
+   "individuals": false,
+   "figdir": true,
+   "docs_md": true,
+   "site_html": true,
+   "sitemap": "/figures/H-HLG-001/ x0",
+   "route": {
+    "type": "person",
+    "title": "华罗庚 - 思维模式档案 10 条",
+    "name": "华罗庚",
+    "body": true,
+    "body_text_chars": 16536
+   },
+   "class_": "①可解析 (本身即现役人码)",
+   "alias": "H-HLG-001 自身 (figure 路由在线正常)",
+   "action": "无需回填名字 (人路由已正常); 处置对象=被遮蔽的 scenario 空行: 建议与 figures.index/DB 中的同名空行清档(保留 figure 行)",
+   "notes": "唯一同时存在 figure 路由 (/minds/H-HLG-001, 10 模式) 与空 scenario 行的码; 空行只影响轻索引/DB 面向",
+   "cards": [
+    "t_53063e87",
+    "t_82d5994e",
+    "t_4d805d88",
+    "t_d9041b0b",
+    "t_a1692a09",
+    "t_2662343f"
+   ],
+   "name_zh_resolved": "华罗庚",
+   "name_en_resolved": "Hua Luogeng"
+  },
+  {
+   "code": "H-MZ-001",
+   "db_id": 1056,
+   "db_name_zh": "",
+   "db_name_en": "",
+   "db_modes": "[]",
+   "figindex_n_modes": 0,
+   "unified_rel": {
+    "type": "scenario",
+    "name": "H-MZ-001",
+    "n_modes": 0
+   },
+   "unified_dist": {
+    "type": "scenario",
+    "name": "H-MZ-001",
+    "n_modes": 0
+   },
+   "shard": "web/public/data/figures/H-MZ-001.json",
+   "legacy_name_zh": null,
+   "legacy_name_en": null,
+   "legacy_name": null,
+   "code_maps_en": null,
+   "figure_names": "晏阳初",
+   "code_maps_figs": 7,
+   "companions": [],
+   "individuals": true,
+   "figdir": true,
+   "docs_md": true,
+   "site_html": true,
+   "sitemap": "/figures/H-MZ-001/ x1",
+   "route": {
+    "type": "scenario",
+    "title": "H-MZ-001 - 场景档案 0 条模式",
+    "name": "H-MZ-001",
+    "body": false,
+    "body_text_chars": 0
+   },
+   "class_": "②是人·需核名 (三主张冲突待裁)",
+   "alias": "晏阳初->H-YC-001 (现役 figure); 孟子->H-MZ-165 (命名行) + H-MZ-001_modes 伴随键; 墨子->H-MO-001",
+   "action": "船长裁定单一归属并清理键面: figure_names(H-MZ-001->晏阳初) vs 伴随包 H-MZ-001_modes(孟子) vs phase20_moci_research.md L142(墨子); Phase46-R 报告第 5 节 #5 已记录 主文件与伴随包生卒年互斥",
+   "notes": "data/figures/H-MZ-001.json(晏阳初 1890-1990) 与 data/figures/H-MZ-001_modes.json(孟子 前372-289) 同键冲突; data/individuals/H-MZ-001.json figure_code=战国 (字段异常); 曾子合并件以 晏阳初 学脉 互引",
+   "cards": [
+    "t_6c92966b",
+    "t_e3f8cf8f"
+   ],
+   "name_zh_resolved": "晏阳初 / 孟子 / 墨子 (3 主张冲突, 待裁)",
+   "name_en_resolved": null
+  }
+ ],
+ "families": [
+  {
+   "family": "SG 混大小写重复对",
+   "codes": [
+    "SG-Lee-001",
+    "SG-LEE-001"
+   ],
+   "evidence": [
+    "DB id 1024 / 687; shards 皆空名; modes [34,12,20,31] vs [303,10,157,153] (两代批次各带自身模式链接)",
+    "tools/json/SG-Lee-001.json name_zh=李光耀 (01 批次草稿); tools/json/SG-LEE-001.json name_zh=李光耀 (M639 新模草稿)",
+    "tools/PHASE_13_16_GLOBAL_COMPLETION_PLAN.md L85 登记 SG-LEE-001=李光耀/M303",
+    "现役人码 H-LKY-001 (figure, 10 模式; figure_names LeeKuanYew/LEEKUANYEW/LKY/H-LKY-001)"
+   ],
+   "cls": "③异常码族 (重复对) + 名字可解析 (李光耀 / Lee Kuan Yew)",
+   "action": "归一: 保留规范大写码并回填 name_zh, 清/遮蔽混大小写码(方向由船长裁); 与现役 H-LKY-001 的关系同步裁定",
+   "detail": [
+    {
+     "code": "SG-Lee-001",
+     "db_id": 1024,
+     "db_name": "",
+     "modes": "[34, 12, 20, 31]",
+     "figindex_n": 4,
+     "unified_type": "scenario",
+     "unified_name": "SG-Lee-001",
+     "legacy_name_zh": "李光耀：从第三世界到第一世界的『实用主义治国术』与长期战略工程化范式",
+     "draft": true
+    },
+    {
+     "code": "SG-LEE-001",
+     "db_id": 687,
+     "db_name": "",
+     "modes": "[303, 10, 157, 153]",
+     "figindex_n": 4,
+     "unified_type": "scenario",
+     "unified_name": "SG-LEE-001",
+     "legacy_name_zh": "李光耀/新加坡/从第三世界到第一/法治：从第三世界到第一与法治精英",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "family": "MY 混大小写重复对",
+   "codes": [
+    "MY-Mah-001",
+    "MY-MAH-001"
+   ],
+   "evidence": [
+    "DB id 1025 (空名, 4 模式) / 1038 (name_zh=name_en=Mahathir Mohamad 英文入中文位, 0 模式)",
+    "tools/json/MY-Mah-001.json name_zh=马哈迪·穆罕默德...; tools/json/MY-MAH-001.json name_zh=马哈蒂尔",
+    "tools/PHASE_13_16_GLOBAL_COMPLETION_PLAN.md L69 登记 MY-MAH-001=马哈蒂尔/M292"
+   ],
+   "cls": "③异常码族 (重复对 + 字段错位: 英文装入 name_zh) + 名字可解析 (马哈蒂尔)",
+   "action": "归一: 保留大写码并回填中文名(修正英文入 name_zh 错位), 清/遮蔽混大小写码; 无现役人码, 建议回填后进站点",
+   "detail": [
+    {
+     "code": "MY-Mah-001",
+     "db_id": 1025,
+     "db_name": "",
+     "modes": "[34, 12, 20, 31]",
+     "figindex_n": 4,
+     "unified_type": "scenario",
+     "unified_name": "MY-Mah-001",
+     "legacy_name_zh": "马哈迪·穆罕默德：从殖民医生到现代化推动者的『科技民族主义』与后殖民治理范式",
+     "draft": true
+    },
+    {
+     "code": "MY-MAH-001",
+     "db_id": 1038,
+     "db_name": "Mahathir Mohamad",
+     "modes": "[]",
+     "figindex_n": 0,
+     "unified_type": "scenario",
+     "unified_name": "Mahathir Mohamad",
+     "legacy_name_zh": null,
+     "draft": true
+    }
+   ]
+  },
+  {
+   "family": "JP 单侧混大小写",
+   "codes": [
+    "JP-Sas-001"
+   ],
+   "evidence": [
+    "DB id 1026 (空名, 3 模式); JP-SAS-001 不存在 (全链实测缺失)",
+    "tools/json/JP-Sas-001.json name_zh=西乡隆盛; tools/json/scenarios_zh.json 同名条目",
+    "name_en 附注 recorded as batch plan 记录差异"
+   ],
+   "cls": "③异常码族 (单侧混大小写, 缺规范码) + 名字可解析 (西乡隆盛)",
+   "action": "码规范化 + 回填; 无现役人码",
+   "detail": [
+    {
+     "code": "JP-Sas-001",
+     "db_id": 1026,
+     "db_name": "",
+     "modes": "[19, 31, 7]",
+     "figindex_n": 3,
+     "unified_type": "scenario",
+     "unified_name": "JP-Sas-001",
+     "legacy_name_zh": "西乡隆盛：从萨摩武士到明治维新『西南战争』的『武士道复兴法』与道德政治工程化范式",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "family": "UZ 单侧混大小写",
+   "codes": [
+    "UZ-Ulu-001"
+   ],
+   "evidence": [
+    "DB id 1027 (空名, 3 模式); UZ-ULU-001 不存在",
+    "tools/json/UZ-Ulu-001.json name_zh=乌鲁格别克",
+    "同前缀其它码 (UZ-KAR/TEM/MED/SILK/EMP/AUT-001) 均为大写规范"
+   ],
+   "cls": "③异常码族 (单侧混大小写, 缺规范码) + 名字可解析 (乌鲁格别克)",
+   "action": "码规范化 + 回填; 无现役人码",
+   "detail": [
+    {
+     "code": "UZ-Ulu-001",
+     "db_id": 1027,
+     "db_name": "",
+     "modes": "[34, 12, 20]",
+     "figindex_n": 3,
+     "unified_type": "scenario",
+     "unified_name": "UZ-Ulu-001",
+     "legacy_name_zh": "乌鲁格别克：萨马尔罕天文台的『科学革命法』与伊斯兰文艺复兴治理范式",
+     "draft": true
+    }
+   ]
+  },
+  {
+   "family": "RW-KAG 无零填充序号族",
+   "codes": [
+    "RW-KAG-1",
+    "RW-KAG-2",
+    "...",
+    "RW-KAG-27",
+    "RW-KAG-001"
+   ],
+   "evidence": [
+    "DB id 951-977 (RW-KAG-1..27) + 844 (RW-KAG-001); 全部空名; shards/figures.index/unified/sitemap 在链",
+    "tools/json/RW-KAG-1..27: 模板占位内容 (name_zh=安第斯/南锥体/中美洲历史人物N; description=第N位历史人物...; wiki_id=Figure_N;Andean;South_American;Central_American; 与 RW(卢旺达) 前缀不符)",
+    "tools/json/RW-KAG-001: 真实人物条目 name_zh=卡加梅/卢旺达/...(M576)"
+   ],
+   "cls": "③非人 (死件·模板占位废件 27 件) + 同族保留件需回填 (RW-KAG-001=卡加梅)",
+   "action": "整族清档: 27 件模板废件走在链清除 (DB/shards/figures.index/unified/sitemap, 先备份后清除); RW-KAG-001 保留并回填 name_zh",
+   "detail": [
+    {
+     "code": "RW-KAG-1",
+     "db_id": 951,
+     "db_name": "",
+     "modes": "[584]",
+     "figindex_n": 1,
+     "unified_type": "scenario",
+     "unified_name": "RW-KAG-1",
+     "legacy_name_zh": "安第斯/南锥体/中美洲历史人物1",
+     "draft": true
+    },
+    {
+     "code": "RW-KAG-2",
+     "db_id": 952,
+     "db_name": "",
+     "modes": "[525]",
+     "figindex_n": 1,
+     "unified_type": "scenario",
+     "unified_name": "RW-KAG-2",
+     "legacy_name_zh": "安第斯/南锥体/中美洲历史人物2",
+     "draft": true
+    },
+    {
+     "code": "RW-KAG-27",
+     "db_id": 977,
+     "db_name": "",
+     "modes": "[576]",
+     "figindex_n": 1,
+     "unified_type": "scenario",
+     "unified_name": "RW-KAG-27",
+     "legacy_name_zh": "安第斯/南锥体/中美洲历史人物27",
+     "draft": true
+    },
+    {
+     "code": "RW-KAG-001",
+     "db_id": 844,
+     "db_name": "",
+     "modes": "[576]",
+     "figindex_n": 1,
+     "unified_type": "scenario",
+     "unified_name": "RW-KAG-001",
+     "legacy_name_zh": "卡加梅/卢旺达/种族灭绝/重建/强人/奇迹/保罗/卡加梅",
+     "draft": true
+    }
+   ]
+  }
+ ],
+ "overlap_cards": [
+  {
+   "id": "t_e3f8cf8f",
+   "title": "[Phase46-R] figure 文件字段缺陷审计与修复",
+   "status": "done",
+   "overlap": "data/figures 层字段缺陷 (empty_name/bad_code/错名/重复); 待人工 7 条含 H-MZ-001 键冲突, H-AlGhazali-001 译名"
+  },
+  {
+   "id": "t_34a97fec",
+   "title": "[Phase31-R4R5] 脏人物名清理 + QUARANTINE 名单共享",
+   "status": "done",
+   "overlap": "名录脏名清理先例 (线上口径)"
+  },
+  {
+   "id": "t_dd99310c",
+   "title": "[Phase30-C1-fix] 公开名录脏数据",
+   "status": "done",
+   "overlap": "index.unified 脏行修复先例 (模板占位行)"
+  },
+  {
+   "id": "t_261185a8",
+   "title": "[Phase21-R7 C组核名] 待核身份研究",
+   "status": "done",
+   "overlap": "核名方法论/证据链口径"
+  },
+  {
+   "id": "t_8183b8fd",
+   "title": "[Phase21-R8 C组遗留] 微收口",
+   "status": "done",
+   "overlap": "figure_names 清档先例"
+  },
+  {
+   "id": "t_151265db",
+   "title": "[Phase21-R7 旁项] 根目录/发布仓旧档残留调查与处置",
+   "status": "done",
+   "overlap": "tools/json 旧档 (含本卡涉及的 SG-Lee/MY-Mah/JP-Sas/UZ-Ulu/RW-KAG/H-MZ-001 草稿) 现状=legacy_draft/uncertain(untouched)"
+  },
+  {
+   "id": "t_3669eb4a",
+   "title": "[Phase21-R8 遗留清档] H-AZJ-345 在链残件全链清除",
+   "status": "todo",
+   "overlap": "在链清除流程先例 (本卡 27 件 RW 模板废件可复用同流程)"
+  }
+ ],
+ "open_items": [
+  "H-MZ-001 三主张裁定 (晏阳初/孟子/墨子)",
+  "H-SUF-364 无现役码, 是否重建",
+  "H-SY-149 改名悬案 (H-SY-001) 与新残件处置",
+  "JP/UZ 规范码命名 (JP-SAS-001/UZ-ULU-001 是否采用)",
+  "547 场景侧空名: 统一回填 legacy name_zh 或按国家批次补名",
+  "RW-KAG 27 件清档执行卡 (在链清除+备份)",
+  "tools/json/H-LXN-001.json 错名修正",
+  "data/asia/individuals 内异常目录名 (含换行符) 清理"
+ ],
+ "verification": {
+  "commands": [
+   "本地脚本全量对账 DB/figures.index/shard/unified/legacy 五层 (脚本与输出留档 scratch/w4)",
+   "两仓 parity: 16 分片与 figures.index.json 逐字节一致 (sha256)",
+   "git status --short 本卡前后对照 (仅新增本报告 2 件)"
+  ],
+  "parity": {
+   "shards16": "work==release 逐字节一致",
+   "figures_index_sha16": "f0eded8cd6b59245"
+  }
+ }
+}
