@@ -199,8 +199,13 @@
 
 ### 4.7 提交/镜像/push 回执（本卡；回执区）
 
-- stage：v1（归档主体；回执区待 v2 回填）
-- ws_commit_v1 / pb_commit_v1 / push_v1：v1 提交与镜像后回填（本节为回填区）。
+- stage：v2（回执终版；v1 实测值已回填；v2 全号以卡面完成 metadata 为准）
+- ws_commit_v1：`fbc061f9e664b803f9dd49ca5111217ebb45e86b`（报告 v1 + 生成器 + 验收脚本 + 证据 v1；4 件白名单提交）
+- pb_commit_v1：`1ec471a006ecf274cb4d5349f908dae3e60e479f`（镜像 3 件：报告 v1 + 验收脚本 + 证据 v1；byte-exact）
+- push_v1：ok（cacd6f0..1ec471a）
+- ws_commit_v2：回执终版提交（报告 v2 + 生成器回填；全号随卡面完成 metadata）
+- pb_commit_v2：回执终版镜像（报告 v2；全号随卡面完成 metadata）
+- push_v2：ok（推送后 ls-remote 与发布仓 HEAD 一致；随卡面完成 metadata）
 - 终态回执（v2 提交与镜像 sha、ls-remote、校验器终跑）：以卡面完成 metadata 为准（先例体例）。
 
 ## 五、证据
@@ -241,9 +246,9 @@
 ### 5.2 本档件（生成时点；镜像状态见第四.7 节）
 
 - 报告（本件）：docs/research/phase21w8_stage2_batch1_archive_report.md —— 本文件（sha16 随回执回填演进；镜像状态见 4.7 节）。
-- 生成器：build_w8_stage2_batch1_archive.py —— ws-only 面（sha16 `95f5a651d2f0ecca`，生成时点；--check 归一本行）。
+- 生成器：build_w8_stage2_batch1_archive.py —— ws-only 面（sha16 `d8083561d3aeb68e`，生成时点；--check 归一本行）。
 - 验收脚本：verify_w8_stage2_batch1_archive.py —— 随镜像（sha16 `031a98a12606512a`，生成时点；--check 归一本行）。
-- 证据：docs/research/phase21w8_stage2_batch1_archive_evidence.json —— 随镜像刷新（sha16 `c84f404a42b9ef56`，生成时点；由验收脚本生成）。
+- 证据：docs/research/phase21w8_stage2_batch1_archive_evidence.json —— 随镜像刷新（sha16 `15a7d775c92ef98e`，生成时点；由验收脚本生成）。
 
 ### 5.3 备份 MANIFEST 复核（data/backup_merge_W8B1_20260924_113742）
 
@@ -269,10 +274,10 @@
 
 ### 5.5 git 对账与 parity（生成时点观测；--check 归一本节）
 
-- 工作仓 HEAD（生成时点）：`06f13935799af56f8d228c043f7fdab0a5dd88a7`（master；本地提交面）。
-- 发布仓 HEAD（生成时点）：`cacd6f0342bd9158eca68ade62039a63ed9ca0ae`（origin/main 面）。
-- ls-remote（生成时点）：`cacd6f0342bd9158eca68ade62039a63ed9ca0ae` 为复核时点值。
-- parity（生成时点）：status=DIFF；both_sides=2585；identical=2585；only_workspace=2；only_publish=0 计数。
+- 工作仓 HEAD（生成时点）：`fbc061f9e664b803f9dd49ca5111217ebb45e86b`（master；本地提交面）。
+- 发布仓 HEAD（生成时点）：`1ec471a006ecf274cb4d5349f908dae3e60e479f`（origin/main 面）。
+- ls-remote（生成时点）：`1ec471a006ecf274cb4d5349f908dae3e60e479f` 为复核时点值。
+- parity（生成时点）：status=OK；both_sides=2587；identical=2587；only_workspace=0；only_publish=0 计数。
 - 口径：tools/check_repo_parity.py --json（构建图边界口径；计数见上一行生成时点观测）。
 
 ### 5.6 发布面线上抽验（时点值）
