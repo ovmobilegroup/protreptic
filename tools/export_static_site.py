@@ -8,7 +8,7 @@
 
 产物（默认落在 web/public/data/，Vite 会原样复制进 dist/）：
 
-    figures.index.json          501 条轻量索引     目标 gzip <= 50 KB
+    figures.index.json          轻量索引            目标 gzip <= 80 KB（t_d7faccc5 重锚: W9-F 回填后实测 65571 B）
     figures/{code}.json         501 个详情分片
     modes/index-{0..7}.json     3092 条摘要（去重 3152 - 隔离 60），md5(mode_code)%8 均分
                                                         单片 gzip <= 200 KB
@@ -94,7 +94,9 @@ EXPECT_FIGURES = 1027
 EXPECT_MODES = 3301
 EXPECT_BY_FIGURE = 320
 
-LIMIT_INDEX_GZIP = 50 * 1024
+# 卡 t_d7faccc5: W9-F 回填 504 条真名后实测 65571 B（名字空值口径 34796 B）；
+# 原 50 KB 预算系空名态口径，重锚 80 KB（含 ~20% 余量，覆盖 104 占位码后续补名）。
+LIMIT_INDEX_GZIP = 80 * 1024
 LIMIT_MODE_SHARD_GZIP = 200 * 1024
 
 SUMMARY_FIELDS = (
@@ -811,7 +813,7 @@ def run(out_dir: Path, assert_counts: bool = True) -> int:
             {"rule": "清洗后 domain_zh 长度 <= %d（by-figure 与 index 同源同口径）" % MAX_DOMAIN_LEN,
              "actual_max_len": max(len(str(m.get("domain_zh") or "")) for m in modes),
              "normalized_modes": domain_fixed},
-            {"rule": "figures.index.json gzip <= 50 KB",
+            {"rule": "figures.index.json gzip <= 80 KB",
              "actual_gzip_bytes": idx_stat["gzip_bytes"]},
             {"rule": "modes/index-*.json 单片 gzip <= 200 KB",
              "actual_max_gzip_bytes": max(s["gzip_bytes"] for s in shard_stats)},

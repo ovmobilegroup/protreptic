@@ -84,7 +84,9 @@ def main():
                 reason_zh, reason_en, steps_zh, steps_en, expected_zh, expected_en,
                 case_zh, case_en, modes, era, historical_domains, domains, gender, ethnicity)
                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
-            (code, z.get("name", ""), e.get("name", ""),
+            # 键接驳（W4 §三）: 新 schema 用 name; legacy 批次仅存 name_zh/name_en —— 双读回退，防重建回落
+            (code, z.get("name") or z.get("name_zh") or "",
+             e.get("name") or e.get("name_en") or "",
              ser(z.get("description", "")), ser(e.get("description", "")),
              ser(z.get("reason", "")), ser(e.get("reason", "")),
              ser(z.get("steps", [])), ser(e.get("steps", [])),

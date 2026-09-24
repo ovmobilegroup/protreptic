@@ -64,13 +64,13 @@ def serialize_field(obj):
 
 async def load_data():
     # Load JSON data
-    with open('<repo>/tools/scenarios_zh.json', 'r', encoding='utf-8') as f:
+    with open('/opt/data/workspace/Protreptic/tools/scenarios_zh.json', 'r', encoding='utf-8') as f:
         scenarios_zh = json.load(f)
     
-    with open('<repo>/tools/scenarios_en.json', 'r', encoding='utf-8') as f:
+    with open('/opt/data/workspace/Protreptic/tools/scenarios_en.json', 'r', encoding='utf-8') as f:
         scenarios_en = json.load(f)
     
-    with open('<repo>/tools/scenario_tags.json', 'r', encoding='utf-8') as f:
+    with open('/opt/data/workspace/Protreptic/tools/scenario_tags.json', 'r', encoding='utf-8') as f:
         tags_data = json.load(f)
     
     # Create engine
@@ -102,8 +102,9 @@ async def load_data():
             
             figure = Figure(
                 code=code,
-                name_zh=zh_data.get('name', ''),
-                name_en=en_data.get('name', ''),
+                # 键接驳（W4 §三，同 tools/build_figures_db.py）: name 优先，回退 name_zh/name_en
+                name_zh=zh_data.get('name') or zh_data.get('name_zh') or '',
+                name_en=en_data.get('name') or en_data.get('name_en') or '',
                 description_zh=serialize_field(zh_data.get('description', '')),
                 description_en=serialize_field(en_data.get('description', '')),
                 reason_zh=serialize_field(zh_data.get('reason', '')),
