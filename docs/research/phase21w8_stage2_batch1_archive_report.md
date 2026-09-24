@@ -246,9 +246,9 @@
 ### 5.2 本档件（生成时点；镜像状态见第四.7 节）
 
 - 报告（本件）：docs/research/phase21w8_stage2_batch1_archive_report.md —— 本文件（sha16 随回执回填演进；镜像状态见 4.7 节）。
-- 生成器：build_w8_stage2_batch1_archive.py —— ws-only 面（sha16 `d8083561d3aeb68e`，生成时点；--check 归一本行）。
+- 生成器：build_w8_stage2_batch1_archive.py —— ws-only 面（sha16 `d0a305d15d4e7dbe`，生成时点；--check 归一本行）。
 - 验收脚本：verify_w8_stage2_batch1_archive.py —— 随镜像（sha16 `031a98a12606512a`，生成时点；--check 归一本行）。
-- 证据：docs/research/phase21w8_stage2_batch1_archive_evidence.json —— 随镜像刷新（sha16 `15a7d775c92ef98e`，生成时点；由验收脚本生成）。
+- 证据：docs/research/phase21w8_stage2_batch1_archive_evidence.json —— 随镜像刷新（sha16 `facc415397444a23`，生成时点；由验收脚本生成）。
 
 ### 5.3 备份 MANIFEST 复核（data/backup_merge_W8B1_20260924_113742）
 
@@ -274,9 +274,9 @@
 
 ### 5.5 git 对账与 parity（生成时点观测；--check 归一本节）
 
-- 工作仓 HEAD（生成时点）：`fbc061f9e664b803f9dd49ca5111217ebb45e86b`（master；本地提交面）。
-- 发布仓 HEAD（生成时点）：`1ec471a006ecf274cb4d5349f908dae3e60e479f`（origin/main 面）。
-- ls-remote（生成时点）：`1ec471a006ecf274cb4d5349f908dae3e60e479f` 为复核时点值。
+- 工作仓 HEAD（生成时点）：`df79654a75d88cf29888475d9a0f3458a75c5e42`（master；本地提交面）。
+- 发布仓 HEAD（生成时点）：`f5539debc16e6b89943ab28bf23aa10cd7983314`（origin/main 面）。
+- ls-remote（生成时点）：`f5539debc16e6b89943ab28bf23aa10cd7983314` 为复核时点值。
 - parity（生成时点）：status=OK；both_sides=2587；identical=2587；only_workspace=0；only_publish=0 计数。
 - 口径：tools/check_repo_parity.py --json（构建图边界口径；计数见上一行生成时点观测）。
 
@@ -318,18 +318,19 @@
 - R4 源外 8 条可另抓底本（《老子指略》/《周易略例》4 条 + 《举贤良对策》4 条）。
 - R5 M-WB-004 繁简守卫配对阈值偏保守（去冠名后应可判 matched；登记为待复核，不改现状）。
 - R6 apply_verification_status 块覆盖行为：建议另卡增「含自定义 method 的条目跳过重写」选项（落地报告 6 节；本卡不实施）。
-- R7 QA-F1（素材包端）：matcher 省略号分段 early-return；M-GX-007 / M-WB-010 / M-ZDY-005 首段核中、尾段未命中；建议另卡修正 + 素材包重算（预计核中 25->22）。
-- R8 QA-F2（素材包端）：标点归一集缺 U+FE30；M-ZXC-008 误判查无·待核；建议同卡一并修正（预计 null 55->54 / variant 22->23）。
-- R9 QA-F4（口径差，表述面）：素材包报告 2.1 节「见证位逐条随行」实为 21/25（4 条节引型显式 null）；表述收紧即可。
+- R7 QA-F1（素材包端）：matcher 省略号分段 early-return；M-GX-007 / M-WB-010 / M-ZDY-005 首段核中、尾段未命中；现态核中 25 条；处置去向 = 修复链 t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0（挂本卡 done 后放行；单写者纪律）；修复后预计核中 22 条。
+- R8 QA-F2（素材包端）：标点归一集缺 U+FE30；M-ZXC-008 误判查无·待核；现态 null 55 / variant 22 条；处置去向 = 同一修复链（t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0）；修复后预计 null 54 / variant 23 条。
+- R9 QA-F4（口径差，表述面）：素材包报告 2.1 节「见证位逐条随行」实为 21/25（4 条节引型显式 null）；处置去向 = 同链第 3 段表述收紧。
 - R10 verify.log（data/audit/phase21w8_stage2_batch1_verify.log）：gitignore 命中 .log，ws-only 观测件；不镜像、不阻断。
 - R11 提交信息口径注记：023a794 称「批1 缓存 23 txt」与实际 20 件之差（本档 4.4.4 已登记）；非内容差。
 - R12 W8 后链演进登记（不计入 W8 结论）：W5 数据侧修复 t_0dc95522（verified 1018->1019 / suspect 55->54；现值 pin 见 5.4 节）；W7 / W9 / W11 链各自推进。
 - R13 parity 余项：本卡生成时点 diff 为 0（W10 两文档债务已由船长收口：工作仓 b8be2986 / 发布仓 20d36f0）。
+- R14 船长加注（13:26）登记：F1 / F2 / F4 三项已另派修复链 t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0，挂本卡 done 后放行（单写者纪律）；本档仅登记、不修复、不触碰素材包产物。
 
 ## 八、下一步
 
 - W8 链无卡内遗留动作（本卡为链尾归档）。
-- 建议另卡（待船长裁定）：QA-F1 / F2 素材包端 matcher 修正 + 素材包重算（表述口径同步收紧）。
+- QA-F1 / F2 / F4 修复链已派并登记（t_2ce1e334 -> t_a407cb32 -> t_e01c8aa0；挂本卡 done 后放行；只读登记，本档不触碰素材包产物）。
 - 待裁定口径：跨语言 74 条（R1）。
 - 后续链（各自推进）：W5 复验 t_30d57ff2 与文书侧 t_bda44643；W7 清档合批（t_d24e11bc / t_06511a5a / t_95764335）；W9 F 类回填（t_0b240eb7 / t_9ed2866a / t_9cb09b90）；W11 CI（t_0ec6fb57）。
 - 批2 及后续批次：按设计文档第 6 节分批交付口径续跑（书单批次以重扫 live 集为准）。
