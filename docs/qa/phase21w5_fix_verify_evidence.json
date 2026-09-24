@@ -1,0 +1,276 @@
+{
+  "schema": "protreptic.phase21w5.fix_verify_evidence/v1",
+  "task": {
+    "id": "t_30d57ff2",
+    "title": "Phase21 W5 修复·独立复验：10 条处置落盘 + 旗标/重跑全链核验（不信任自述；含 R8 勘误）",
+    "assignee": "espinosa",
+    "parent": "t_0dc95522",
+    "child": "t_bda44643",
+    "date": "2026-09-24",
+    "report": "docs/qa/phase21w5_fix_verify_report.md"
+  },
+  "method": {
+    "principle": "不采信任何自述；一切判定取自 git 对象、盘上文件、工具现跑",
+    "read_only": true,
+    "data_writes_by_card": 0,
+    "scripts_scratch": "/opt/data/profiles/espinosa/cache/scratch/t30d57ff2/"
+  },
+  "baseline": {
+    "ws_commit_reviewed": "3238a262 (C1) / 77931445 (C2)",
+    "ws_head_at_start": "77931445",
+    "ws_head_during_run": "b5967043 (W8 QA card t_e727be57 commit — external, untouched)",
+    "pb_head_at_start": "58f361d",
+    "pb_head_now": "88cc86a",
+    "pb_remote_now": "88cc86a"
+  },
+  "items": {
+    "1_dispositions": {
+      "verdict": "PASS (3 needle-口径 notes registered)",
+      "git_diff_parent_to_c1": {
+        "parent": "b8be2986",
+        "c1": "3238a262",
+        "modes_total": 3311,
+        "changed_entries": 9,
+        "changed_keys": [
+          "M-WC-002",
+          "M-WC-003",
+          "M-WC-004",
+          "M-WC-005",
+          "M-WC-006",
+          "M-WC-007",
+          "M-WC-008",
+          "M-WC-009",
+          "M-WC-010"
+        ],
+        "field_changes_total": 21,
+        "disposition_field_changes": 20,
+        "by_face": {
+          "md": 11,
+          "ind": 7,
+          "fg": 2
+        },
+        "plus_registered_flip": "M-WC-009 verification suspect->verified",
+        "non_wc_changes": 0,
+        "top_level_block_changes": 0
+      },
+      "evidence_items_match": "20/20 逐字一致 (evidence A_changes.items / scratch changes_table.json)",
+      "notes": {
+        "actual": 4,
+        "fields": [
+          "correction_zh@M-WC-002",
+          "key_quote_context_zh@M-WC-005",
+          "key_quote_context_zh@M-WC-007",
+          "key_quote_context_zh@M-WC-010"
+        ],
+        "not_replaced": [
+          "M-WC-005",
+          "M-WC-007",
+          "M-WC-010"
+        ],
+        "unchanged": [
+          "M-WC-001"
+        ]
+      },
+      "witness_locs": {
+        "base_copy_points": 16,
+        "exact": 15,
+        "needle_width_note": "004: 莫明於@2573:335 vs 全句 2573:334 (same loc)",
+        "extract_points": 7,
+        "exact_extract": 5,
+        "extract_notes": [
+          "67: 10:346 vs 10:345",
+          "66: 10:95 vs 10:90 (皆稟元氣 vs full sentence)"
+        ],
+        "chapter_bounds_all_inside": true
+      },
+      "no_evidence_less_changes": true,
+      "r8qa_script_rerun": {
+        "ok": 2,
+        "repro": 9,
+        "unexpected": 10,
+        "note": "UNEXPECTED=expected flips (data fixed); REPRO items all belong to landing-doc face -> t_bda44643"
+      }
+    },
+    "2_zh_cn": {
+      "verdict": "PASS",
+      "tool_artifact_byte_equal": true,
+      "copy_sha256": "d26e86f48e1f3a5aaa5385594d86f53c2af0cf7f7c7f976a92fc9bb8f074f3fc",
+      "copy_bytes": 789872,
+      "copy_chars": 265736,
+      "rebuild_reproduced": true,
+      "old_fallback_blocks_verbatim_raw": 3,
+      "new_blocks_genuine": true,
+      "residue": {
+        "証": [
+          3,
+          0
+        ],
+        "证": [
+          20,
+          24
+        ]
+      },
+      "meta": {
+        "chunks": 34,
+        "failed_chunks": 0,
+        "complete": true,
+        "converted_at": "2026-09-24T04:17:22+00:00"
+      },
+      "u4_read_guard_probes": {
+        "complete_true_failed_3": "REFUSED",
+        "complete_false": "REFUSED",
+        "failed_unparseable": "REFUSED",
+        "normal": "TEXT(210848)"
+      },
+      "write_side_selfcheck": {
+        "passed": 5,
+        "total": 5,
+        "negative_injections_boom": [
+          "W2",
+          "W4"
+        ],
+        "disk_scan_violations": 0
+      }
+    },
+    "3_reruns": {
+      "verdict": "PASS (1 warning-count wording registered)",
+      "frozen_identical": true,
+      "credibility_gate": {
+        "exit": 0,
+        "frozen_hard": 524,
+        "new_hard": 0,
+        "warnings": [
+          28,
+          27
+        ],
+        "d4": {
+          "matched": 11,
+          "mismatch": [
+            27,
+            26
+          ],
+          "quote_too_short": [
+            117,
+            118
+          ],
+          "unchecked": 3176
+        },
+        "copy_reasons": {
+          "found": 9,
+          "not_found": [
+            2,
+            1
+          ],
+          "not_found_remaining": "M-WB-008 (《老子注》face)"
+        }
+      },
+      "verify_findings": {
+        "exit": 0,
+        "hard": 0,
+        "new": 0,
+        "warnings_other": 2,
+        "warnings_list": [
+          "E: M-ASM-001..010 双收 (存量)",
+          "E: audit_meta.modes_file_sha256 stale (new, from own write sequence)"
+        ]
+      },
+      "avs_check": {
+        "exit": 0,
+        "drift": "none"
+      },
+      "t45": {
+        "exit": 1,
+        "passed": 37,
+        "total": 38,
+        "only_fail": "Z7 (backfill_lifespans 476 vs 576; W11 card t_0ec6fb57)"
+      },
+      "four_state": {
+        "all": {
+          "verified": 1019,
+          "pending": 1887,
+          "suspect": 54,
+          "unverifiable": 351,
+          "sum": 3311
+        },
+        "published": {
+          "verified": 1019,
+          "pending": 1855,
+          "suspect": 37,
+          "unverifiable": 340,
+          "sum": 3251,
+          "quarantined": 60
+        },
+        "independent_recount": "identical to tool output; 3251+60=3311",
+        "s1_s2_overlap": [
+          28,
+          27
+        ],
+        "distinct_evidence_urls": 153
+      }
+    },
+    "4_chain": {
+      "verdict": "PASS",
+      "flag_terminal": {
+        "complete": true,
+        "failed_chunks": 0,
+        "genuinely_complete": true
+      },
+      "adopt": {
+        "M-WC-006": "matched(copy; 人未生在元气之中)",
+        "M-WC-008": "matched(copy; 以为贤圣所言皆无非)",
+        "M-WC-009": "quote-too-short"
+      },
+      "second_implementation": "my own normalize/fragment impl agrees",
+      "counterfactual_downgrade": {
+        "complete&failed=3": "REFUSED->unchecked",
+        "complete=false": "REFUSED->unchecked"
+      }
+    },
+    "5_receipts_triple": {
+      "verdict": "PASS",
+      "ws": {
+        "C1": "3238a262ad36581b724a38c2c221baafef50c3e8",
+        "C2": "77931445f6ca00f4a37c78c2abb2ee19aba19664",
+        "files_11_plus_2": true
+      },
+      "pb": {
+        "P1": "ade87b2e49c54f1e2ed9d75dd5cdc756fb82622e",
+        "P2": "58f361d59688f8ce62e273bfa2d532a873ed8624",
+        "P1_byte_exact": "11/11",
+        "P2_byte_exact": "2/2",
+        "parent": "20d36f0"
+      },
+      "ancestry": "88cc86a->58f361d->ade87b2->20d36f0 (both pushes provable)",
+      "parity_now": {
+        "exit": 0,
+        "both_sides": 2583,
+        "identical": 2583,
+        "only_side": 0
+      },
+      "backup_dir": "data/backup_merge_W5FIX_20260924_121533 (untracked, as declared)"
+    },
+    "6_numbers_spotcheck": {
+      "verdict": "PASS (3 low-severity wording/number issues registered)",
+      "aligned_count": "30+",
+      "artifact_sha_verified": 10,
+      "registered": [
+        "a) verify_findings warnings: report said 1, actual 2 (M-ASM + audit_meta stale)",
+        "b) notes count: 4 vs 五条 (actual 4; evidence notes_added=4)",
+        "c) needle-口径 2 locs (004 base 335/334; 006 extract 10:95/10:90)"
+      ]
+    },
+    "7_r8_erratum": {
+      "done": true,
+      "file": "docs/qa/phase21w5_wangchong_qa_report.md",
+      "append_only": true,
+      "content": "§0 said 9 items (6 true + 3 口径) vs §2 table 10 rows (6 true + 4 口径); erratum = 10 (6+4); basis = row count + category column"
+    }
+  },
+  "verdict": "PASS",
+  "registered_corrections": 3,
+  "artifacts_sha256": {
+    "docs/qa/phase21w5_wangchong_qa_report.md": "427b58813c75dc8841a0426c96eb47c364a236cf3a05a93040b53b35803eb52a",
+    "docs/qa/phase21w5_fix_verify_report.md": "84e7beca873aaa9a7c0ee17a8bce4af93e25591e90d1efcce7663a9629d1e944"
+  },
+  "receipts_pending": "round1/round2 receipts to be filled post-commit"
+}

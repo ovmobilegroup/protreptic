@@ -341,3 +341,12 @@ b310f36fcfe8d0f1  data/audit/source_texts/6f2e2e4e124df80a.txt
 - 本卡全部脚本与中间输出：`/opt/data/profiles/espinosa/cache/scratch/w5qa/`（关键：`scope2.py`、`wc_cmp.py`、`d4wc3.py`、`chunk_verbatim.py`、`check5.py`、`mwx.py`、`zkpos.py`、`live2.py`、`new3dump.py`、`inject3.py`；输出 `scope2.txt`、`wccmp.txt`、`d4wc3b.txt`、`verbatim.txt`、`t45b.txt`、`vf2.txt`、`avs_cur.txt`、`avs_base.txt`、`gate_hf.txt`、`parity2.json`）。
 - 断言式复跑（仓库根）：`python3 verify_wangchong_pilot_qa_espinosa.py`（只读；逐项打印 OK / REPRO / WARN / UNEXPECTED，无依赖可离线跑）。**2026-09-24 本卡复跑结果：OK 9 / REPRO 13 / WARN 0 / UNEXPECTED 0，退出码 0**（= 与本报告一致；数据被修复后 REPRO 会翻转为 UNEXPECTED，属预期信号）。
 - 本报告与证据 JSON 为 QA 交付物（`docs/qa/phase21w5_wangchong_qa_report.md` / `docs/qa/phase21w5_wangchong_qa_evidence.json`）；镜像与归档决策留待链尾卡 t_25453b39。
+
+---
+
+## 勘误附注（后补 · 复验卡 t_30d57ff2，2026-09-24）
+
+- 勘误对象：本报告 §0「总判定」段中的概数「另列 9 条不一致项：真差异 6 条、口径差 3 条」。
+- 勘误内容：§2「不一致项汇总」表实际列 **10 行** —— 真差异 6 条（#1–#6）＋ 口径差 4 条（#7–#10）；概数应为「10 条：真差异 6 条、口径差 4 条」。
+- 依据（可复核）：本文件 §2 表行计数（#1… #10 共 10 行）与「类别」列逐行取值（真差异 x6 / 口径差 x4）；§0 原文与 §2 表列不一致（9 vs 10、口径差 3 vs 4）。
+- 口径：原文一字未改（本附注为唯一增补）；本报告其余判定与证据不受影响。
