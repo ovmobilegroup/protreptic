@@ -1,0 +1,24 @@
+{
+  "task": "t_adf11d7b",
+  "description": "Merge elcano batch outputs into main data files",
+  "batches_processed": [
+    "t_elcano_elcano_batch_2_1787640880_1",
+    "t_elcano_elcano_batch_4_1787640880_3",
+    "t_elcano_elcano_batch_5_1787640880_4",
+    "t_elcano_elcano_batch_6_1787640880_5",
+    "t_elcano_elcano_batch_8_1787640880_7",
+    "t_elcano_elcano_batch_9_1787640880_8"
+  ],
+  "new_figures_merged": 27,
+  "validation": {
+    "scenarios_zh_count": 1050,
+    "scenarios_en_count": 1050,
+    "modes_data_count": 12,
+    "code_maps_count": 2,
+    "code_maps_en_count": 12
+  },
+  "backups": [
+    "/opt/data/workspace/Protreptic/tools/backup_20260901_081327"
+  ],
+  "notes": "All batches processed successfully. Bilingual consistency maintained via data_merger.py which duplicates zh->en and en->zh fields. No deletions reported as this is an additive merge."
+}

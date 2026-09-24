@@ -1,0 +1,24 @@
+{
+ "artifact": "phase21w7_cleanup_evidence",
+ "task": "t_d24e11bc",
+ "date": "2026-09-24",
+ "faces": {
+  "root_json": {"total": 634, "keep": [".markdownlint.json", "lighthouserc.json"], "archive_delete": 632},
+  "abnormal_name": {"dirs": 5, "tracked_files_inside": 6, "file_comma_space": true, "deleted": true},
+  "tools_json": {"total_recursive": 673, "keep": ["tools/json/scenarios_zh.json", "tools/json/scenarios_en.json", "tools/json/scenario_tags.json"], "archive_delete": 670, "classes": {"legacy_draft": 613, "legacy_script": 33, "doc": 2, "backup": 1, "subdir_nested": 21}},
+  "backup_dirs": {"total": 33, "tracked_kept": 30, "untracked_registered": ["data/backup_merge_W5FIX_20260924_121533/", "data/backup_merge_W8B1_20260924_113742/", "data/backup_merge_H-SHF-001_20260924_093849/"]},
+  "r7_disposed_verified_absent": ["tools/json/main_data.json", "tools/json/modes_data.json", "tools/json/code_maps.json"]
+ },
+ "delete_face": {"tracked": 1309, "breakdown": {"root": 632, "tools_json": 670, "comma_space": 1, "junk_nested_files": 6}, "junk_dirs_untracked": 5},
+ "backup": {"path": "data/backup_phase21w7_clean_20260924", "manifest_lines": 1979, "ws_files": 1309, "ws_bytes": 6392179, "pb_files": 670, "pb_bytes": 2884879, "preimage_check": {"ws_ok": 1309, "ws_mismatch": 0, "ws_missing": 0, "pb_ok": 670, "pb_mismatch": 0, "pb_missing": 0, "refs": ["git blob e5ddd13f^ (ws)", "git blob HEAD (pb)"]}},
+ "verification": {
+  "iso_chain_steps_rc0": ["build_figures_db", "export_static_site", "gen_web_site_counts", "build_daily_index", "pages_preflight_data", "build_search_index", "build_graph_data", "build_unified_index"],
+  "counts": {"figures": 1027, "modes_source": 3301, "modes_published": 3241, "quarantined": 60, "by_figure_shards": 320, "unified_total": 1344, "unified_scenarios": 1024, "unified_with_modes": 1308},
+  "gates_rc0": ["credibility_gate --hard-fail", "verify_source_links --hard-fail", "verify_findings --hard-fail", "apply_verification_status --check"],
+  "differential": {"iso_vs_iso2": {"only_in_iso": 0, "only_in_iso2_lines": 1290, "restored_files": 1309, "differ_files": 13, "db_rowhash_equal": "8cb98ba67531e983", "data_figures_identical": true, "explained": "db=row-level identical; 12 products=generated_at timestamp + sha cascade; normalized equal or size-equal"}},
+  "ref_rescan": {"build_ci_web_src_hits": 0, "resolved_non_root_areas": ["api", "cli_tests", "scripts"], "leftover_mention_classes": {"docs": 297, "tools_legacy_scripts": true, "root_legacy_py": true, "data_registers": 79, "audit_backup": 44, "changelog_release": true}},
+  "witness_azj345": {"result": "10/18 PASS", "attribution": "stale witness: anchors 1056/1388/1371 vs current 1027/1361/1344 (post-W4 re-anchor); live_zero premise overturned by r9 H-AZJ-001 re-landing; stale products contain live H-AZJ-001 name", "action": "not modified (no other-card artifacts); recommend re-anchor or retire"}
+ },
+ "commits": {"ws_swept_by": "e5ddd13f (W9 card commit 14:18 swept 1303 staged deletions, all within this card delete face, no overreach)", "ws_this_card": "TBD", "pb_this_card": "TBD"},
+ "repos": {"workspace": "/opt/data/workspace/Protreptic", "publish": "/opt/data/release/Protreptic-publish"}
+}
