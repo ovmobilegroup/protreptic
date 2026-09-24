@@ -93,7 +93,7 @@ index.unified.json：counts {total 1344, figures 320, scenarios 1024}（与自�
 - 即：W9 链对 parity 的残留 = manifest 1 件；其余为窗口前后他卡在途/已消化项。
 ### 5.3 push 面（FAIL）
 - 工作仓 origin 与发布仓 origin 同指 GitHub `ovmobilegroup/protreptic.git`（远端 main = 发布镜像线）；origin/main 现 = c167cb5 = 发布仓 HEAD（W7 镜像，含 W11 链）；**e5ddd13f 非 origin/main 祖先**（实测 false）。
-- 发布仓无 W9 提交（`--grep Phase21-W9` 0 命中；e5ddd13f 在发布仓非合法对象）；邻近序列 651b533(W5) → ac644a9/4bda4bd(W11) → c167cb5(W7)。
+- 发布仓无 W9 执行链提交（审计时点 `--grep Phase21-W9` 0 命中、e5ddd13f 在发布仓非合法对象；其后本卡 P1/P2 镜像于 15:4x 落发布仓，grep 可见「Phase21-W9 独立 QA」字样，系本 QA 链而非执行链，其消息内不引用 e5ddd13f——复跑 grep 请按「e5ddd13f」判据）；邻近序列 651b533(W5) → ac644a9/4bda4bd(W11) → c167cb5(W7)。
 - W9 链 push 尝试：14:19 `git push origin master` exit 124（超时）后未重试；卡面「提交＋推送」未达成，亦无发布仓镜像与回执。
 ### 5.4 时点注记（窗口后演进）
 - 审计时点 master = 3dbf9d10（W11 回执）；复核期间前进至 f61f055d（W7 清档回执：1309 删除面口径 + 收尾，前像 1979 件）。本报告结论锚定 e5ddd13f 提交树，不受后续提交影响。

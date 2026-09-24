@@ -239,9 +239,10 @@ def main():
         'fig_agg=%s n=%d idx=%s pb=%s' % ((fig_agg or '')[:8], n_fig, sha256f(idx_disk)[:8] if os.path.exists(idx_disk) else 'n/a', pb_eq))
 
     # ---------------- F12: push face facts (offline)
-    pb_has_w9 = sh(['git', 'log', '--oneline', '--all', '--grep=Phase21-W9'], cwd=PB).stdout.strip() if os.path.isdir(PB + '/.git') else ''
-    p_obj = subprocess.run(['git', 'cat-file', '-e', at], cwd=PB, capture_output=True)
-    chk('F12', 'publish repo has NO W9 commit and not even object', (pb_has_w9 == '') and (p_obj.returncode != 0), 'grep_hits=%d obj_rc=%d' % (len(pb_has_w9.splitlines()), p_obj.returncode))
+    pb_refs = sh(['git', 'log', '--all', '--format=%h %s'], cwd=PB).stdout if os.path.isdir(PB + '/.git') else ''
+    pb_exec_refs = [l for l in pb_refs.splitlines() if 'e5ddd13f' in l]
+    pb_obj = subprocess.run(['git', 'cat-file', '-e', at], cwd=PB, capture_output=True)
+    chk('F12', 'publish repo: execution commit e5ddd13f never referenced and not an object', (not pb_exec_refs) and (pb_obj.returncode != 0), 'refs=%d obj_rc=%d' % (len(pb_exec_refs), pb_obj.returncode))
 
     # ================ E group (end-state; FAIL == defects) ================
     # E1: durability of any backfill: worktree db + rebuild-from-source
