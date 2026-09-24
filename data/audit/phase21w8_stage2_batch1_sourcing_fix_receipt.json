@@ -512,5 +512,59 @@
       "docs/research/phase21w8_stage2_batch1_landing_report.md",
       "data/audit/phase21w8_stage2_batch1_sourcing_fix_receipt.json"
     ]
+  },
+  "parent_chain_impact": {
+    "note": "本卡按 F1/F2/F4 契约变更 4 件父链档案登记件（报告两件 + 落地报告 + 工具），父链独立验收脚本（t_098d8ff6 交付物）于本卡后实测 30 PASS / 2 FAIL；两处 FAIL 均为 sha16 登记失配（非功能回归），属预期；刷 pin / 据实登记路由 = 文档侧卡 t_e01c8aa0（本卡不越界改父链工具与档案报告）。",
+    "verifier": "python3 verify_w8_stage2_batch1_archive.py（默认锚点）",
+    "measured": {
+      "checks": 32,
+      "pass": 30,
+      "fail": 2,
+      "fails": [
+        "D1 §5.1 sha16 登记复核（26 件中 4 件失配）",
+        "E1 §4.5 复核指纹（5 枚中 1 枚失配：landing_report.md）"
+      ]
+    },
+    "sha16_before_after": {
+      "docs/research/phase21w8_stage2_batch1_sourcing_report.md": [
+        "e2445bb03922f280",
+        "72b1927c17a58a9e"
+      ],
+      "docs/research/phase21w8_stage2_batch1_sourcing_report.json": [
+        "a64351a47116dede",
+        "17265dd82fe6665a"
+      ],
+      "docs/research/phase21w8_stage2_batch1_landing_report.md": [
+        "886a7c90c560e727",
+        "74e443cf3f5e6614"
+      ],
+      "tools/build_batch1_sourcing_pack.py": [
+        "f35c19da3f64e5c8",
+        "450d0e752732b9a2"
+      ]
+    },
+    "side_effect_repair": "该验收脚本运行时默认写 docs/research/phase21w8_stage2_batch1_archive_evidence.json（父链冻结件）；本卡已 git 还原至提交态（sha256 23e2c803…），双仓 byte-exact 保持。",
+    "hotspot": "docs/research/phase21w8_stage2_batch1_landing_report.md — 父链档案 §4.5 指纹 / §5.1 登记表 / 档案生成器 SHA16 表均 pin 该件，本卡后需登记链据实刷新"
+  },
+  "submission": {
+    "pb_align": "对齐工作仓 68fd5569（文件级 blob 全等）",
+    "push": "7e76967..9afe48e",
+    "ls_remote": "9afe48e279ea492154cca7306b3ac0e05db9bf67（== LOCAL）",
+    "parity_measured": {
+      "both": 2588,
+      "identical": 2587,
+      "my_face": "归零（4 件 + 1 新件两仓 byte-exact）",
+      "foreign_diff": [
+        {
+          "path": "docs/research/phase21w5_wangchong_landing_report.md",
+          "class": "CONTENT_DIFF",
+          "attribution": "他卡在途（t_bda44643 文书侧校订），非本卡面"
+        }
+      ]
+    },
+    "verify_log_sha256": "35a818a9c8dfee4605d6de6a9afc556cf3c6303fac5030b47f80d013e6f976e2",
+    "ws_commit_primary": "68fd5569dd18c57b2b21600fd7cb29186fef1867",
+    "pb_commit_primary": "9afe48e279ea492154cca7306b3ac0e05db9bf67",
+    "receipt_update_note": "本回执文件的 parent_chain_impact/submission 两节随补记提交入库（ws/pb 各一笔）；主体 5 件提交为 ws_commit_primary / pb_commit_primary"
   }
 }
