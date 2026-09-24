@@ -52,7 +52,11 @@
 
 ## 6 parity / 镜像 / push 回执
 
-（回执补记）
+- 主提交: **5a657b81**（工作仓 master，24 件）。
+- 发布仓镜像: **2ec3af3**（81 件: 本卡 24 件 + A1 落盘 19 件随链收敛 + 见证 39 件；逐件 cp 后 sha256 全量比对 81/81 byte-exact；对齐工作仓 5a657b81）。
+- push 回执: `c646f41..2ec3af3  main -> main`；`git ls-remote origin main` == **2ec3af3f4de46bc31b31fe1d07b9a39db70564db**（复核一致）。
+- 工作仓 push: 不适用（开发仓 master 非 push 目标；远端仅 main，dry-run 会触发全量历史上传被服务端拒绝，既有事实见 phase45_acceptance.md / link_coverage.md §10.1）。
+- parity（镜像后实测, `tools/check_repo_parity.py --json`）: 60 条差异（58 MISSING_IN_PUBLISH + 2 CONTENT_DIFF），全部属他链在制（安子介合并链 t_ce457734 的 figures/individuals/landing/witness/证据报告 40+ 件；W4 QA 与 W8 批1 / W10 / W6 文档；素材卡 sourcing 报告；`tools/build_source_links.py`、`tools/source_link_index.py` 为他卡在制改动）；**本卡覆盖 81 件 0 残留**。
 
 ## 7 并集与在途写者说明
 
@@ -62,7 +66,9 @@
 
 ## 8 提交回执
 
-（回执补记）
+- 主提交: **5a657b81**（Phase21-R9 t_a7d233f0 合并入主库，24 件）。
+- 回执补记提交: 见卡回执 metadata（文件自指限制；本次回执补记含报告 §6/§8、证据 receipts 与 txt 一行）。
+- 镜像提交: **2ec3af3**（发布仓）、push `c646f41..2ec3af3`、ls-remote 复核一致（详见 §6）。
 
 ## 9 附录
 
