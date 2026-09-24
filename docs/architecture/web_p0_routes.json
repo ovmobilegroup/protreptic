@@ -2,16 +2,16 @@
  "schema": "protreptic.prerendered_routes/v1",
  "generated_by": "tools/prerender_routes.py",
  "base": "/protreptic/",
- "count": 1358,
- "total_html_bytes": 21824324,
+ "count": 1360,
+ "total_html_bytes": 21917129,
  "counts_by_type": {
   "static": 9,
-  "person": 318,
+  "person": 320,
   "scenario": 1024,
   "template": 7
  },
- "body_count": 328,
- "body_total_bytes": 14079255,
+ "body_count": 330,
+ "body_total_bytes": 14159505,
  "body_routes": [
   "figures",
   "minds/AMP",
@@ -62,6 +62,7 @@
   "minds/H-ASM-001",
   "minds/H-ATK-001",
   "minds/H-AUG-001",
+  "minds/H-AZJ-001",
   "minds/H-BA-001",
   "minds/H-BAC-001",
   "minds/H-BAK-001",
@@ -164,6 +165,7 @@
   "minds/H-SC-001",
   "minds/H-SCH-001",
   "minds/H-SEJ-001",
+  "minds/H-SHF-001",
   "minds/H-SJM-001",
   "minds/H-SK-001",
   "minds/H-SMQ-001",
@@ -373,8 +375,8 @@
   },
   {
    "path": "credibility",
-   "title": "可信度统计 - 已核验 949 / 待核验 1897 / 存疑 35 / 一手材料 340",
-   "description": "发布口径 3221 条模式摘要的核验状态：已核验 949、待核验 1897、存疑 35、一手材料 340（源库另有 60 条隔离记录不进公开产物）；数据取自 data/meta.json。",
+   "title": "可信度统计 - 已核验 949 / 待核验 1917 / 存疑 35 / 一手材料 340",
+   "description": "发布口径 3241 条模式摘要的核验状态：已核验 949、待核验 1917、存疑 35、一手材料 340（源库另有 60 条隔离记录不进公开产物）；数据取自 data/meta.json。",
    "type": "static",
    "body": false,
    "body_text_chars": 0,
@@ -392,7 +394,7 @@
   {
    "path": "figures",
    "title": "历史人物库 - 统一名录",
-   "description": "318 位历史人物 + 1024 个现代场景, 统一检索入口.",
+   "description": "320 位历史人物 + 1024 个现代场景, 统一检索入口.",
    "type": "static",
    "body": true,
    "body_text_chars": 1435,
@@ -13272,6 +13274,18 @@
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-AUG-001/"
   },
   {
+   "path": "minds/H-AZJ-001",
+   "title": "安子介 - 思维模式档案 10 条",
+   "description": "安子介视汉字为中华文化之根与「中国第五大发明」，并把这一文化判断落成三条长期行动：以 21 本汉字学专著推进研究（1979—1995 年，政务商务间隙写成）、以《解开汉字之谜》等书向世界推广汉字、以编码法与写字机把汉字带入信息时代（与 M...",
+   "type": "person",
+   "name": "安子介",
+   "code": "H-AZJ-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 9815,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-AZJ-001/"
+  },
+  {
    "path": "minds/H-BA-001",
    "title": "八大山人 - 思维模式档案 10 条",
    "description": "八大山人（朱耷）的鱼鸟白眼是中国艺术史上辨识度最高的态度符号：翻白眼在人情世故里是轻蔑，在他笔下却被提炼成一个纯粹的图形决定——眼珠的位置。方法论内核有三：其一，态度的最小载具——明亡之后他是前朝王孙，任何直陈立场都可能招致杀身之祸，于是...",
@@ -14494,6 +14508,18 @@
    "body": true,
    "body_text_chars": 13190,
    "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SEJ-001/"
+  },
+  {
+   "path": "minds/H-SHF-001",
+   "title": "沈复 - 思维模式档案 10 条",
+   "description": "「记其实情实事」是《浮生六记》全书的写作律令：作者自认「少年失学」「稍识之无」，不惭于文、不事文法雕琢，把亲历的实事与真情直录于笔墨；在他看来，「事如春梦」转瞬无痕，若不记之笔墨，未免有辜生命所予的厚分。此法以「如实」为最高标准——记录本...",
+   "type": "person",
+   "name": "沈复",
+   "code": "H-SHF-001",
+   "n_modes": 10,
+   "body": true,
+   "body_text_chars": 5982,
+   "canonical": "https://ovmobilegroup.github.io/protreptic/minds/H-SHF-001/"
   },
   {
    "path": "minds/H-SJM-001",
@@ -16513,8 +16539,8 @@
   },
   {
    "path": "modes",
-   "title": "思维模式库 - 3221 条可执行方法",
-   "description": "3221 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话.",
+   "title": "思维模式库 - 3241 条可执行方法",
+   "description": "3241 条历史人物思维模式实例, 含定义, 操作步骤, 出处与原话.",
    "type": "static",
    "body": true,
    "body_text_chars": 2089,
