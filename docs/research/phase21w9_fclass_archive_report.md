@@ -707,8 +707,16 @@
 
 ### 4.7 提交/镜像/push 回执（本卡；回执区）
 
-- stage：v1（回执待回填；v2 回执终版）
-- ws_commit_v1 / pb_commit_v1 / push_v1：v1 提交与镜像后回填（本节为回填区）。
+- stage：v2（回执终版；终态 sha 随卡面完成 metadata）
+- ws_commit_v1：`348e80c6944be092b068994b0393fe1ce2b14140`（报告 v1 + 生成器 + 验收脚本 + 证据 v1；4 件白名单提交）
+- pb_commit_v1：`26307d4d033d3341e49dcf9a34583978ce6a8d06`（镜像 3 件：报告 v1 + 验收脚本 + 证据 v1；byte-exact）
+- push_v1：ok（1bba199f..26307d4d main -> main；ls-remote == 本地 HEAD）
+- ws_commit_v2：回执终版提交（报告 v2 + 生成器回填；2 件；全号随卡面完成 metadata）
+- pb_commit_v2：回执终版镜像（报告 v2；1 件；全号随卡面完成 metadata）
+- push_v2：ok（推送后 ls-remote 与发布仓 HEAD 一致；随卡面完成 metadata）
+- ws_commit_v3：证据终版提交（证据；1 件；全号随卡面完成 metadata）
+- pb_commit_v3：证据终版镜像（证据；1 件；全号随卡面完成 metadata）
+- push_v3：ok（推送后 ls-remote 与发布仓 HEAD 一致；随卡面完成 metadata）
 - 终态回执（v2 提交与镜像 sha、ls-remote、校验器终跑）：以卡面完成 metadata 为准（先例体例）。
 
 ## 五、证据
@@ -731,7 +739,7 @@
 ### 5.2 本档件（生成时点；镜像状态见第四.7 节）
 
 - 报告（本件）：docs/research/phase21w9_fclass_archive_report.md —— 本文件（生成器幂等装配；回执区随 v2 回填；镜像状态见 4.7 节）。
-- 生成器：build_w9_fclass_archive.py —— ws-only 面（sha16 `8098b5a20ef8f9c3`，生成时点；--check 归一本行）。
+- 生成器：build_w9_fclass_archive.py —— ws-only 面（sha16 `df5b735dd955144b`，生成时点；--check 归一本行）。
 - 验收脚本：verify_w9_fclass_archive.py —— 随镜像（sha16 `5c5c63383dd90967`，生成时点；--check 归一本行）。
 - 证据：docs/research/phase21w9_fclass_archive_evidence.json —— 随镜像（由验收脚本生成，含 547 逐条台账；sha16 见卡面完成 metadata）
 
@@ -757,19 +765,19 @@
 
 ### 5.5 双仓对账与 parity（生成时点观测；--check 归一本节）
 
-- 工作仓 HEAD（生成时点）：`6892c5a5129dd51604c8771959718e331e4a883e`（master；本地提交面）。
-- 发布仓 HEAD（生成时点）：`f281b38f8c4d3fdf3c3b9a7d17da70fd3b2188f1`（origin/main 面）。
-- ls-remote（生成时点）：`f281b38f8c4d3fdf3c3b9a7d17da70fd3b2188f1`（origin/main 与发布仓 HEAD 一致：是；QA P3=3129539 之后 W7 QA 链、W8S2B1 修复链档案与 W7 文档链继续推送，窗口注记见 4.3 节）。
-- parity（生成时点）：status=DIFF；边界计数 工作仓 4588 / 发布仓 4584；both_sides=4584；identical=4583；only_workspace=4；only_publish=0。
-- parity 差异明细（5 项）：CONTENT_DIFF（1 项）：docs/architecture/static_data_manifest.json；MISSING_IN_PUBLISH（4 项）：docs/research/phase21w7_cleanup_archive_nine_sections.json、docs/research/phase21w7_cleanup_archive_nine_sections.md、docs/research/phase21w9_fclass_archive_evidence.json、docs/research/phase21w9_fclass_archive_report.md；其中 W9 相关仅 manifest 1 项（修复卡并轨后转绿），其余为他链文书（随各自链收口；以本行生成时点为准）。
+- 工作仓 HEAD（生成时点）：`348e80c6944be092b068994b0393fe1ce2b14140`（master；本地提交面）。
+- 发布仓 HEAD（生成时点）：`26307d4d033d3341e49dcf9a34583978ce6a8d06`（origin/main 面）。
+- ls-remote（生成时点）：`26307d4d033d3341e49dcf9a34583978ce6a8d06`（origin/main 与发布仓 HEAD 一致：是；QA P3=3129539 之后 W7 QA 链、W8S2B1 修复链档案与 W7 文档链继续推送，窗口注记见 4.3 节）。
+- parity（生成时点）：status=DIFF；边界计数 工作仓 4588 / 发布仓 4588；both_sides=4588；identical=4587；only_workspace=0；only_publish=0。
+- parity 差异明细（1 项）：CONTENT_DIFF（1 项）：docs/architecture/static_data_manifest.json；其中 W9 相关仅 manifest 1 项（修复卡并轨后转绿），其余为他链文书（随各自链收口；以本行生成时点为准）。
 - 口径：tools/check_repo_parity.py --json（构建图边界口径；他链差异归因见 7.2 R10）。
 - 执行链镜像事实（本卡生成时点复核）：e5ddd13f 非 origin/main/main 祖先（链未发布）；对象在发布仓库中（本地 master 分支 = ws 快照含之，16:27 引入）——QA F12 时点之零引用且非对象已演进，4.3 节登记。
 
 ### 5.6 发布面线上抽验（时点值；--check 归一本节）
 
-- 检查时点：2026-09-24 16:49 CST（本卡实测，生成时点）。
+- 检查时点：2026-09-24 16:58 CST（本卡实测，生成时点）。
 - 首页 https://ovmobilegroup.github.io/protreptic/ ：HTTP 200。
-- 可信度统计页 /credibility/ ：HTTP 0；显示已核验 n/a / 待核验 n/a / 存疑 n/a / 一手材料 n/a（站点口径 3241 条）。
+- 可信度统计页 /credibility/ ：HTTP 200；显示已核验 1019 / 待核验 1845 / 存疑 37 / 一手材料 340（站点口径 3241 条）。
 - 数据制品抽验：data/figures.index.json（HTTP 200；sha256 `65a7cdc65ed930f3` 值；非 H 空名 514 条——回填未上线在发布面同现）。
 - data/meta.json：HTTP 200（3566 B）。
 - 说明：线上数据由发布仓 CI 重建；W9 链未发布（发布面无 W9 执行链镜像），线上空名态与工作仓落盘一致（514 条）。
