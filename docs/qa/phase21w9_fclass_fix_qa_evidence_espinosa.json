@@ -402,6 +402,27 @@
   ]
  },
  "receipts": {
-  "note": "A 阶段提交后于 B 阶段回填（ws/pb 提交号、push、ls-remote）"
+  "ws_A": {
+   "commit": "00bdee49fbb08dfd510475c322c0494ce96e49d2",
+   "files": 3,
+   "insertions": 934,
+   "sha_report_at_A": "de8e38055f280a02ddcf36a7b1a485020fde84452765e3228d9cdd643551b490",
+   "sha_evidence_at_A": "5283edd02c29b08f4cb40efe1ae4157b350d49c7a2c06d11f8cf5243c8b0bc20",
+   "sha_verifier": "3158e0bdb284fd0964c1e3bb0b85d8cf6b8456b58956e21432c2e1c3b867666c"
+  },
+  "pb_P1": {
+   "commit": "d48b5f89919f558533e12a7758c9a6a8dbe70be7",
+   "files": 3,
+   "insertions": 934,
+   "byte_exact": "3/3"
+  },
+  "push": {
+   "range": "4b79cb27..d48b5f89",
+   "ref": "refs/heads/main",
+   "ls_remote": "d48b5f89919f558533e12a7758c9a6a8dbe70be7"
+  },
+  "B_stage": {
+   "note": "本回执补记（报告 §9 + 证据 receipts）；补记后两仓对应件逐字节一致；本文件不自引用自身终值 sha"
+  }
  }
 }

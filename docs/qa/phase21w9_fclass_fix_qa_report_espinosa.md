@@ -114,4 +114,7 @@
 
 ## 9. 提交回执（本 QA 卡 t_28a29244）
 
-- （A 阶段提交后回填于 B 阶段：ws 提交号 / pb 镜像号 / push 区间 / ls-remote 实测 / 各件 sha 终值。）
+- **A 阶段（内容提交）**：ws `00bdee49fbb08dfd510475c322c0494ce96e49d2`（3 files, +934）—— 报告 `de8e3805...` / 证据 `5283edd0...` / 校验器 `3158e0bd...`（A 阶段 sha）。
+- **P1 镜像（发布线）**：pb `d48b5f89919f558533e12a7758c9a6a8dbe70be7`（3 files, +934）—— 逐字节全等 **3/3**。
+- **push**：`4b79cb27..d48b5f89 → refs/heads/main`；`git ls-remote origin main` == `d48b5f89919f558533e12a7758c9a6a8dbe70be7` == pb HEAD。
+- **B 阶段（本回执补记）**：ws / pb 各 1 笔（报告 §9 + 证据 receipts 两件）；补记后两仓对应件逐字节一致；补记后 sha 见 git 对象（文件不自引用自身终值）；校验器自 A 起未再改动（sha `3158e0bd...`）。
