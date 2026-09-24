@@ -127,7 +127,8 @@ F. 他卡在制/外来面 (登记, 未触碰): W8 stage2 批1 (tools/build_sourc
   CONTENT_DIFF 5 = 本卡链后态保留未提交 2 (docs/architecture/web_p0_routes.json, web/public/sitemap.xml) + W8 在制 3 (tools/build_source_links.py, tools/fetch_source_texts.py, tools/source_link_index.py);
   MISSING_IN_PUBLISH 37 = W8 stage2 批1 27 件 (data/audit/source_texts/* 20 + source_texts_w8_stage2_batch1.json + recount x2 + sourcing_report x2 + booklist x2) + W4 QA 产物 2 件 (docs/qa/phase21w4_qa_report.md, docs/qa/phase21w4_qa_evidence.json; 其卡未见镜像) + 早期卡文档 8 件 (fix_manifest x2 / r8 names_recon x2 / w6 marker_scan x2 / w10 coverage x1 / candidates_v5 x1);
   only_publish 0; 本卡覆盖 12 件 0 残留 (全部 identical). 原始: scratch/w4fix3/parity_post.json (镜像前 64 条: parity_pre.json).
-- 回执补记 (v2 自身): 工作仓与镜像/push 见 v3 补记 (fix2 同口径).
+- 回执终版 (v3): v2 工作仓 a8ec9afe (3 件, +100 / -3) / 镜像 3cb64c3 / push 0dda13a..3cb64c3 main -> main (rc=0);
+  远端复核 3cb64c3eb3333d52c5aff586b7187079eef6c5ee (= 本地, ls-remote 一致); v3 本条的提交/镜像/push/远端 raw 终跑记录在 kanban 回执 (t_def07a84 comment 与完成 metadata).
 
 ## 八, QA 复跑指引
 

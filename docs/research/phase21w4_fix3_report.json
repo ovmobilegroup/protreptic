@@ -219,6 +219,14 @@
    "raw": "scratch/w4fix3/parity_post.json",
    "pre_raw": "scratch/w4fix3/parity_pre.json"
   },
-  "status": "v2 receipts in; v2 self commit/mirror/push recorded in v3 addendum (fix2-style)"
+  "status": "final: v1 (3f102ee1/0dda13a) + v2 (a8ec9afe/3cb64c3) receipts in-file; v3 self commit/mirror/push/raw recorded in kanban t_def07a84 (comment + completion metadata)",
+  "workspace_commit_v2": "a8ec9afe",
+  "publish_mirror_v2": "3cb64c3",
+  "push_v2": {
+   "range": "0dda13a..3cb64c3",
+   "rc": 0,
+   "remote_main": "3cb64c3eb3333d52c5aff586b7187079eef6c5ee",
+   "ls_remote_match": true
+  }
  }
 }
