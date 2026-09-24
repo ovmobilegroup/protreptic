@@ -1,0 +1,955 @@
+{
+ "schema": "phase21w8_stage2_batch1_sourcing_fix_qa_evidence/1",
+ "task": "t_a407cb32",
+ "by": "espinosa",
+ "subject_task": "t_2ce1e334",
+ "anchors": {
+  "pre": "1c00ca8a821018cdb1ff28cd934112a387e844ad",
+  "fix_a": "68fd5569dd18c57b2b21600fd7cb29186fef1867",
+  "fix_b": "5705b030a486593982442ce2c94cae829c41e8df",
+  "pb_a": "9afe48e279ea492154cca7306b3ac0e05db9bf67",
+  "pb_b": "5b693bb"
+ },
+ "verifier": {
+  "path": "tools/verify_batch1_sourcing_fix_qa_espinosa.py",
+  "sha256": "2508a3a8c6b3718c338077efbcdb66092ddbcc0dbaf8bdd7eec4376d044334ee",
+  "runs": {
+   "pre": {
+    "mode": "PRE",
+    "total": 32,
+    "pass": 32,
+    "fail": 0,
+    "checks": [
+     {
+      "name": "[PRE] L0 ref=1c00ca8a 工具版本判定",
+      "ok": true
+     },
+     {
+      "name": "[G] 修复态存在：68fd5569 工具 sha16 == 450d0e752732b9a2",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 build_batch1_sourcing_pack.py sha16 == 450d0e752732b9a2",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_sourcing_report.json sha16 == 17265dd82fe6665a",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_sourcing_report.md sha16 == 72b1927c17a58a9e",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_landing_report.md sha16 == 74e443cf3f5e6614",
+      "ok": true
+     },
+     {
+      "name": "[G] 5705b030 回执 sha16 == 1a62e38355ca1eb9",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 回执（初版） sha16 == 47029aea07d221c1",
+      "ok": true
+     },
+     {
+      "name": "[G] verify.log sha256 == 35a818a9c8dfee46…",
+      "ok": true
+     },
+     {
+      "name": "[PRE] A1 行集独立推导 == 产物（18 书 / 154 行 / 跨度 159）",
+      "ok": true
+     },
+     {
+      "name": "D1 154 行旧语义/旧归一集重算 == v1 产物（0 差）",
+      "ok": true
+     },
+     {
+      "name": "D2 v1 计数 == 55/22/3/74",
+      "ok": true
+     },
+     {
+      "name": "D3 工具确为修复前版（无 FE30/U3000 归一）",
+      "ok": true
+     },
+     {
+      "name": "D4 v1 四行分档 == variant/variant/variant/null",
+      "ok": true
+     },
+     {
+      "name": "[D] F1 三行：旧语义命中/**尾段未命中**，新语义未命中",
+      "ok": true
+     },
+     {
+      "name": "[D] F2 两行：旧归一集未命中 / 新归一集命中，原文窗含相应字",
+      "ok": true
+     },
+     {
+      "name": "[PRE] B1 负对照 16 条复跑零假阳性",
+      "ok": true
+     },
+     {
+      "name": "[PRE] B2 负对照重推导 == 存储（同 16 条）",
+      "ok": true
+     },
+     {
+      "name": "[PRE] B3 note 字段全量派生一致（含去冠名后缀 3 行）",
+      "ok": true
+     },
+     {
+      "name": "[G] 零主库写：1c00ca8a..5705b030 data/ 只有回执一件",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 提交白名单一致",
+      "ok": true
+     },
+     {
+      "name": "[G] 5705b030 提交白名单一致",
+      "ok": true
+     },
+     {
+      "name": "[G] 回执声明 + 输入 pin（modes/booklist/cache）与 5705b030 实文一致",
+      "ok": true
+     },
+     {
+      "name": "[D] v1 快照 pin=6f3f4580…（生成时工作区态）/ v2 刷新=提交态 736aab3b",
+      "ok": true
+     },
+     {
+      "name": "[D] modes_data @1c00ca8a == @5705b030（修复窗口输入未动）",
+      "ok": true
+     },
+     {
+      "name": "[D] v1 154 行引文 == modes@1c00ca8a 逐条",
+      "ok": true
+     },
+     {
+      "name": "[G] modes_data @5705b030 sha16 == 736aab3b4164973d",
+      "ok": true
+     },
+     {
+      "name": "[PRE] C1 tool ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[PRE] C1 report.json ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[PRE] C1 report.md ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[PRE] C1 landing.md ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[PRE] C2 回执补记 ws5705b030==pb5b693bb byte-exact",
+      "ok": true
+     }
+    ]
+   },
+   "post": {
+    "mode": "POST",
+    "total": 33,
+    "pass": 33,
+    "fail": 0,
+    "checks": [
+     {
+      "name": "[POST] L0 ref=HEAD 工具版本判定",
+      "ok": true
+     },
+     {
+      "name": "[G] 修复态存在：68fd5569 工具 sha16 == 450d0e752732b9a2",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 build_batch1_sourcing_pack.py sha16 == 450d0e752732b9a2",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_sourcing_report.json sha16 == 17265dd82fe6665a",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_sourcing_report.md sha16 == 72b1927c17a58a9e",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_landing_report.md sha16 == 74e443cf3f5e6614",
+      "ok": true
+     },
+     {
+      "name": "[G] 5705b030 回执 sha16 == 1a62e38355ca1eb9",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 回执（初版） sha16 == 47029aea07d221c1",
+      "ok": true
+     },
+     {
+      "name": "[G] verify.log sha256 == 35a818a9c8dfee46…",
+      "ok": true
+     },
+     {
+      "name": "[POST] A1 行集独立推导 == 产物（18 书 / 154 行 / 跨度 159）",
+      "ok": true
+     },
+     {
+      "name": "A2 154 行第二实现重算 vs 产物逐字段（0 差）",
+      "ok": true
+     },
+     {
+      "name": "A3 产物计数 == 57/20/3/74",
+      "ok": true
+     },
+     {
+      "name": "A4 combo old_old == 回执分解 {\"null\": 55, \"variant\": 22, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo new_old == 回执分解 {\"null\": 58, \"variant\": 19, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo old_new == 回执分解 {\"null\": 54, \"variant\": 23, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo new_new == 回执分解 {\"null\": 57, \"variant\": 20, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A5 四行最终分档 == null/null/null/variant",
+      "ok": true
+     },
+     {
+      "name": "A6 M-ZXC-008 见证指向 1c09d5d360d70a3d.txt",
+      "ok": true
+     },
+     {
+      "name": "[A] F1 三行：旧语义命中/**尾段未命中**，新语义未命中",
+      "ok": true
+     },
+     {
+      "name": "[A] F2 两行：旧归一集未命中 / 新归一集命中，原文窗含相应字",
+      "ok": true
+     },
+     {
+      "name": "[POST] B1 负对照 16 条复跑零假阳性",
+      "ok": true
+     },
+     {
+      "name": "[POST] B2 负对照重推导 == 存储（同 16 条）",
+      "ok": true
+     },
+     {
+      "name": "[POST] B3 note 字段全量派生一致（含去冠名后缀 2 行）",
+      "ok": true
+     },
+     {
+      "name": "[G] 零主库写：1c00ca8a..5705b030 data/ 只有回执一件",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 提交白名单一致",
+      "ok": true
+     },
+     {
+      "name": "[G] 5705b030 提交白名单一致",
+      "ok": true
+     },
+     {
+      "name": "[G] 回执声明 + 输入 pin（modes/booklist/cache）与 5705b030 实文一致",
+      "ok": true
+     },
+     {
+      "name": "[G] modes_data @5705b030 sha16 == 736aab3b4164973d",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 tool ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 report.json ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 report.md ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 landing.md ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C2 回执补记 ws5705b030==pb5b693bb byte-exact",
+      "ok": true
+     }
+    ]
+   },
+   "scan": {
+    "mode": "POST",
+    "total": 36,
+    "pass": 36,
+    "fail": 0,
+    "checks": [
+     {
+      "name": "[POST] L0 ref=HEAD 工具版本判定",
+      "ok": true
+     },
+     {
+      "name": "[G] 修复态存在：68fd5569 工具 sha16 == 450d0e752732b9a2",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 build_batch1_sourcing_pack.py sha16 == 450d0e752732b9a2",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_sourcing_report.json sha16 == 17265dd82fe6665a",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_sourcing_report.md sha16 == 72b1927c17a58a9e",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_landing_report.md sha16 == 74e443cf3f5e6614",
+      "ok": true
+     },
+     {
+      "name": "[G] 5705b030 回执 sha16 == 1a62e38355ca1eb9",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 回执（初版） sha16 == 47029aea07d221c1",
+      "ok": true
+     },
+     {
+      "name": "[G] verify.log sha256 == 35a818a9c8dfee46…",
+      "ok": true
+     },
+     {
+      "name": "[POST] A1 行集独立推导 == 产物（18 书 / 154 行 / 跨度 159）",
+      "ok": true
+     },
+     {
+      "name": "A2 154 行第二实现重算 vs 产物逐字段（0 差）",
+      "ok": true
+     },
+     {
+      "name": "A3 产物计数 == 57/20/3/74",
+      "ok": true
+     },
+     {
+      "name": "A4 combo old_old == 回执分解 {\"null\": 55, \"variant\": 22, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo new_old == 回执分解 {\"null\": 58, \"variant\": 19, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo old_new == 回执分解 {\"null\": 54, \"variant\": 23, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo new_new == 回执分解 {\"null\": 57, \"variant\": 20, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A5 四行最终分档 == null/null/null/variant",
+      "ok": true
+     },
+     {
+      "name": "A6 M-ZXC-008 见证指向 1c09d5d360d70a3d.txt",
+      "ok": true
+     },
+     {
+      "name": "[A] F1 三行：旧语义命中/**尾段未命中**，新语义未命中",
+      "ok": true
+     },
+     {
+      "name": "[A] F2 两行：旧归一集未命中 / 新归一集命中，原文窗含相应字",
+      "ok": true
+     },
+     {
+      "name": "[POST] B1 负对照 16 条复跑零假阳性",
+      "ok": true
+     },
+     {
+      "name": "[POST] B2 负对照重推导 == 存储（同 16 条）",
+      "ok": true
+     },
+     {
+      "name": "[POST] B3 note 字段全量派生一致（含去冠名后缀 2 行）",
+      "ok": true
+     },
+     {
+      "name": "[G] 零主库写：1c00ca8a..5705b030 data/ 只有回执一件",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 提交白名单一致",
+      "ok": true
+     },
+     {
+      "name": "[G] 5705b030 提交白名单一致",
+      "ok": true
+     },
+     {
+      "name": "[G] 回执声明 + 输入 pin（modes/booklist/cache）与 5705b030 实文一致",
+      "ok": true
+     },
+     {
+      "name": "[G] modes_data @5705b030 sha16 == 736aab3b4164973d",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 tool ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 report.json ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 report.md ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 landing.md ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C2 回执补记 ws5705b030==pb5b693bb byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[S1] 候选集独立重算 == 回执 40 候选",
+      "ok": true
+     },
+     {
+      "name": "[S2] 仅 U+FE30/U+3000 产生翻转（old matcher + old set）",
+      "ok": true
+     },
+     {
+      "name": "[S3] 新归一集再加任一候选：后续翻转 0",
+      "ok": true
+     }
+    ]
+   },
+   "remote": {
+    "mode": "POST",
+    "total": 35,
+    "pass": 35,
+    "fail": 0,
+    "checks": [
+     {
+      "name": "[POST] L0 ref=HEAD 工具版本判定",
+      "ok": true
+     },
+     {
+      "name": "[G] 修复态存在：68fd5569 工具 sha16 == 450d0e752732b9a2",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 build_batch1_sourcing_pack.py sha16 == 450d0e752732b9a2",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_sourcing_report.json sha16 == 17265dd82fe6665a",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_sourcing_report.md sha16 == 72b1927c17a58a9e",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 phase21w8_stage2_batch1_landing_report.md sha16 == 74e443cf3f5e6614",
+      "ok": true
+     },
+     {
+      "name": "[G] 5705b030 回执 sha16 == 1a62e38355ca1eb9",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 回执（初版） sha16 == 47029aea07d221c1",
+      "ok": true
+     },
+     {
+      "name": "[G] verify.log sha256 == 35a818a9c8dfee46…",
+      "ok": true
+     },
+     {
+      "name": "[POST] A1 行集独立推导 == 产物（18 书 / 154 行 / 跨度 159）",
+      "ok": true
+     },
+     {
+      "name": "A2 154 行第二实现重算 vs 产物逐字段（0 差）",
+      "ok": true
+     },
+     {
+      "name": "A3 产物计数 == 57/20/3/74",
+      "ok": true
+     },
+     {
+      "name": "A4 combo old_old == 回执分解 {\"null\": 55, \"variant\": 22, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo new_old == 回执分解 {\"null\": 58, \"variant\": 19, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo old_new == 回执分解 {\"null\": 54, \"variant\": 23, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A4 combo new_new == 回执分解 {\"null\": 57, \"variant\": 20, \"quote\": 3, \"cross-lang\": 74}",
+      "ok": true
+     },
+     {
+      "name": "A5 四行最终分档 == null/null/null/variant",
+      "ok": true
+     },
+     {
+      "name": "A6 M-ZXC-008 见证指向 1c09d5d360d70a3d.txt",
+      "ok": true
+     },
+     {
+      "name": "[A] F1 三行：旧语义命中/**尾段未命中**，新语义未命中",
+      "ok": true
+     },
+     {
+      "name": "[A] F2 两行：旧归一集未命中 / 新归一集命中，原文窗含相应字",
+      "ok": true
+     },
+     {
+      "name": "[POST] B1 负对照 16 条复跑零假阳性",
+      "ok": true
+     },
+     {
+      "name": "[POST] B2 负对照重推导 == 存储（同 16 条）",
+      "ok": true
+     },
+     {
+      "name": "[POST] B3 note 字段全量派生一致（含去冠名后缀 2 行）",
+      "ok": true
+     },
+     {
+      "name": "[G] 零主库写：1c00ca8a..5705b030 data/ 只有回执一件",
+      "ok": true
+     },
+     {
+      "name": "[G] 68fd5569 提交白名单一致",
+      "ok": true
+     },
+     {
+      "name": "[G] 5705b030 提交白名单一致",
+      "ok": true
+     },
+     {
+      "name": "[G] 回执声明 + 输入 pin（modes/booklist/cache）与 5705b030 实文一致",
+      "ok": true
+     },
+     {
+      "name": "[G] modes_data @5705b030 sha16 == 736aab3b4164973d",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 tool ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 report.json ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 report.md ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C1 landing.md ws68fd5569==pb9afe48e byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C2 回执补记 ws5705b030==pb5b693bb byte-exact",
+      "ok": true
+     },
+     {
+      "name": "[POST] C3 push 面 ls-remote 可达",
+      "ok": true
+     },
+     {
+      "name": "[POST] C4 修复镜像两笔均在 origin/main 历史",
+      "ok": true
+     }
+    ]
+   }
+  }
+ },
+ "defect_probes": {
+  "F1_early_return": {
+   "rows": [
+    {
+     "mode_code": "M-GX-007",
+     "book": "庄子注",
+     "v1": "variant",
+     "v2": "null",
+     "main_trace": [
+      {
+       "seg": 0,
+       "chars": 9,
+       "light_idx": -1,
+       "norm_idx": 31258
+      },
+      {
+       "seg": 1,
+       "chars": 16,
+       "light_idx": -1,
+       "norm_idx": -1
+      }
+     ]
+    },
+    {
+     "mode_code": "M-WB-010",
+     "book": "老子注",
+     "v1": "variant",
+     "v2": "null",
+     "main_trace": [
+      {
+       "seg": 0,
+       "chars": 17,
+       "light_idx": -1,
+       "norm_idx": -1
+      },
+      {
+       "seg": 1,
+       "chars": 12,
+       "light_idx": -1,
+       "norm_idx": -1
+      }
+     ],
+     "alt_trace": [
+      {
+       "seg": 0,
+       "chars": 13,
+       "light_idx": -1,
+       "norm_idx": 5435
+      },
+      {
+       "seg": 1,
+       "chars": 12,
+       "light_idx": -1,
+       "norm_idx": -1
+      }
+     ]
+    },
+    {
+     "mode_code": "M-ZDY-005",
+     "book": "太极图说",
+     "v1": "variant",
+     "v2": "null",
+     "main_trace": [
+      {
+       "seg": 0,
+       "chars": 16,
+       "light_idx": -1,
+       "norm_idx": 164
+      },
+      {
+       "seg": 1,
+       "chars": 28,
+       "light_idx": -1,
+       "norm_idx": -1
+      }
+     ]
+    }
+   ]
+  },
+  "F2_charset": {
+   "rows": [
+    {
+     "mode_code": "M-ZXC-008",
+     "book": "文史通义",
+     "seg_chars": 52,
+     "old_norm_idx": -1,
+     "new_norm_idx": 60911,
+     "span_char": "︰",
+     "span_count": 2,
+     "v1": "null",
+     "v2": "variant"
+    },
+    {
+     "mode_code": "M-LJY-002",
+     "book": "陆九渊集",
+     "seg_chars": 42,
+     "old_norm_idx": -1,
+     "new_norm_idx": 221825,
+     "span_char": "　",
+     "span_count": 2,
+     "v1": "null",
+     "v2": "variant"
+    }
+   ]
+  },
+  "candidate_scan": {
+   "n_candidates": 40,
+   "flips_old_matcher_old_set": {
+    "U+FE30": [
+     "M-ZXC-008"
+    ],
+    "U+3000": [
+     "M-LJY-002"
+    ]
+   },
+   "others_flip": 0,
+   "added_to_new_set_extra_flips": 0,
+   "verified_by": "checks S1/S2/S3 (scan run)"
+  }
+ },
+ "recount": {
+  "n_rows_derived": 154,
+  "span_instances": 159,
+  "mismatch": 0,
+  "combos": {
+   "old_old": {
+    "null": 55,
+    "variant": 22,
+    "quote": 3,
+    "cross-lang": 74
+   },
+   "new_old": {
+    "null": 58,
+    "variant": 19,
+    "quote": 3,
+    "cross-lang": 74
+   },
+   "old_new": {
+    "null": 54,
+    "variant": 23,
+    "quote": 3,
+    "cross-lang": 74
+   },
+   "new_new": {
+    "null": 57,
+    "variant": 20,
+    "quote": 3,
+    "cross-lang": 74
+   }
+  },
+  "v1_report_sha256": "a64351a47116dede26c4be57d3a01016f09ba45bcadf19d0988ca2324a5be18b",
+  "v2_report_sha256": "17265dd82fe6665a8c6a9ef9367ed0ea15a550e446d0b62be1a141d3184ce784",
+  "v1_counts": {
+   "null": 55,
+   "variant": 22,
+   "quote": 3,
+   "cross-lang": 74
+  },
+  "v2_counts": {
+   "null": 57,
+   "variant": 20,
+   "quote": 3,
+   "cross-lang": 74
+  }
+ },
+ "negative_controls": {
+  "n": 16,
+  "false_positive": 0,
+  "rederived_equal": true,
+  "verified_by": "checks B1/B2"
+ },
+ "changed_rows": {
+  "n": 6,
+  "rows": [
+   {
+    "mode_code": "M-ZDY-005",
+    "book": "太极图说",
+    "fields": [
+     "elsewhere",
+     "evidence",
+     "longest_ratio",
+     "match_level",
+     "match_path",
+     "near_partial",
+     "note",
+     "sent_hits",
+     "shingle_ratio",
+     "verdict"
+    ],
+    "v1": {
+     "verdict": "variant",
+     "match_level": "zh-hant",
+     "match_path": "raw"
+    },
+    "v2": {
+     "verdict": "null",
+     "match_level": null,
+     "match_path": null
+    }
+   },
+   {
+    "mode_code": "M-GX-007",
+    "book": "庄子注",
+    "fields": [
+     "elsewhere",
+     "evidence",
+     "longest_ratio",
+     "match_level",
+     "match_path",
+     "near_partial",
+     "note",
+     "sent_hits",
+     "shingle_ratio",
+     "verdict"
+    ],
+    "v1": {
+     "verdict": "variant",
+     "match_level": "zh-hant",
+     "match_path": "raw"
+    },
+    "v2": {
+     "verdict": "null",
+     "match_level": null,
+     "match_path": null
+    }
+   },
+   {
+    "mode_code": "M-ZXC-008",
+    "book": "文史通义",
+    "fields": [
+     "elsewhere",
+     "evidence",
+     "longest_ratio",
+     "match_level",
+     "match_path",
+     "near_partial",
+     "note",
+     "sent_hits",
+     "shingle_ratio",
+     "verdict"
+    ],
+    "v1": {
+     "verdict": "null",
+     "match_level": null,
+     "match_path": null
+    },
+    "v2": {
+     "verdict": "variant",
+     "match_level": "zh-hant",
+     "match_path": "raw"
+    }
+   },
+   {
+    "mode_code": "M-DZS-006",
+    "book": "春秋繁露",
+    "fields": [
+     "evidence"
+    ],
+    "v1": {
+     "verdict": "quote",
+     "match_level": "punct",
+     "match_path": "raw"
+    },
+    "v2": {
+     "verdict": "quote",
+     "match_level": "punct",
+     "match_path": "raw"
+    }
+   },
+   {
+    "mode_code": "M-WB-010",
+    "book": "老子注",
+    "fields": [
+     "elsewhere",
+     "evidence",
+     "longest_ratio",
+     "match_level",
+     "match_path",
+     "near_partial",
+     "note",
+     "sent_hits",
+     "shingle_ratio",
+     "verdict"
+    ],
+    "v1": {
+     "verdict": "variant",
+     "match_level": "zh-hant",
+     "match_path": "raw"
+    },
+    "v2": {
+     "verdict": "null",
+     "match_level": null,
+     "match_path": null
+    }
+   },
+   {
+    "mode_code": "M-LJY-002",
+    "book": "陆九渊集",
+    "fields": [
+     "evidence",
+     "match_level",
+     "match_path",
+     "note",
+     "sent_hits",
+     "shingle_ratio"
+    ],
+    "v1": {
+     "verdict": "variant",
+     "match_level": "sent-composite",
+     "match_path": "raw|zh-cn"
+    },
+    "v2": {
+     "verdict": "variant",
+     "match_level": "zh-hant",
+     "match_path": "raw"
+    }
+   }
+  ],
+  "others_field_identical": 148,
+  "quote_diffs": 0,
+  "quote_hant_diffs": 0
+ },
+ "zero_main_write": {
+  "data_window_diff_files": [
+   "data/audit/phase21w8_stage2_batch1_sourcing_fix_receipt.json"
+  ],
+  "inputs_pinned": {
+   "modes_data_sha16": "736aab3b4164973d",
+   "booklist_sha16": "ca46eb42471c35fc",
+   "cache_index_sha16": "24464156391bf86b"
+  },
+  "commit_filelists": {
+   "68fd5569": 5,
+   "5705b030": 1
+  }
+ },
+ "side_effects": {
+  "archive_evidence_sha256": "23e2c803a3cb8fc8d9c3c8ed4cdb95de76f04bf90bd4766b604c784977061c8c",
+  "equals_pre_anchor_blob": true
+ },
+ "submission": {
+  "pb_pairs_byte_exact": {
+   "68fd5569->9afe48e": 4,
+   "5705b030->5b693bb": 1
+  },
+  "ls_remote_main": "c167cb5383ec387d72051e986114f185686051a5",
+  "parity": {
+   "both": 4576,
+   "identical": 4575,
+   "only_side": 0,
+   "content_diff": 1,
+   "our_face_zero": true,
+   "foreign_diff": [
+    "docs/architecture/static_data_manifest.json (in-flight, other cards)"
+   ]
+  }
+ },
+ "receipts": {
+  "status": "pending-commit-B"
+ }
+}
