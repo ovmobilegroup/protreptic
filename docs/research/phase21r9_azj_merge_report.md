@@ -92,6 +92,7 @@ modes +10（M-AZJ-001~010）、顶层块 +1、code_maps +1、figure_names +1；�
 - 提交后复跑：上游 verify_phase21r9_azj.py（合并后口径）**81 PASS / 0 FAIL**；独立 verify_azj_merge_indep.py **92 PASS / 0 FAIL**（含门禁四项与站链自洽复算）
 - 发布仓镜像：**fe250fd**（45 件：AZJ 链随链收敛——上游 sourcing 素材与见证、落盘包与数据件、landing 审计与证据与生成器、本卡审计/证据/脚本），对齐工作仓 a96302f1
 - push 回执：3b6874f..fe250fd  main -> main（git ls-remote origin main == fe250fddb388f401106718d08a697529998f444e，与本地 HEAD 复核一致）
+- 回执镜像：**78246d4**（本报告 1 件 byte-exact；push fe250fd..78246d4，git ls-remote origin main == 78246d49c7cad31a6a53b3ef115d6e8f6c4d3e4a 复核一致；R9 AZJ 链镜像到此处收口）
 - 两仓 parity：镜像前 63 条差异（本链 41 + 他链在制 22）-> 镜像后 22 条，全部为他链在制（W4/W6/W8/W10 与 shenfu sourcing、source-link 工具），**本链残留 0**
 - 备份目录 data/backup_merge_H-AZJ-001_20260924_092502/：随本卡入库（六件 + ledger；与既有 data/backup_merge_H-CHE / H-HRD / H-ZDY 先例一致）；发布仓侧按 parity 排除规则驻留开发仓
 - 复跑提示：verify_phase21r9_azj.py 默认输出会覆盖 landing 证据（已恢复为提交版本），复跑须带 AZJ_EVID_OUT
