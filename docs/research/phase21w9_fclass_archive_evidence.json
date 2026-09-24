@@ -126,16 +126,16 @@
  },
  "fingerprints": {
   "evidence": "自指归零（本件 sha16 见卡面完成 metadata）",
-  "gen_sha16": "8098b5a20ef8f9c3",
+  "gen_sha16": "df5b735dd955144b",
   "qa_evidence_sha16": "2deae7f546a10ff9",
   "qa_report_sha16": "a7235a94bd9e2aff",
   "qa_ver_sha16": "43220de86df64cfd",
-  "report_sha16": "51a133cffc1fee10",
+  "report_sha16": "10098242d6013e01",
   "verifier_sha16": "5c5c63383dd90967"
  },
  "flags": {
-  "mirror_pending": true,
-  "receipts_pending": true
+  "mirror_pending": false,
+  "receipts_pending": false
  },
  "generated_at": "2026-09-24",
  "generated_by": "verify_w9_fclass_archive.py",
@@ -5079,8 +5079,8 @@
  },
  "receipts": {
   "note": "v2/v3 全号随卡面完成 metadata（先例体例）",
-  "pb_commit_v1": null,
-  "ws_commit_v1": null
+  "pb_commit_v1": "26307d4d033d3341e49dcf9a34583978ce6a8d06",
+  "ws_commit_v1": "348e80c6944be092b068994b0393fe1ce2b14140"
  },
  "schema": "protreptic.phase21w9_fclass_archive_evidence/v1",
  "sections": [
@@ -5118,9 +5118,9 @@
    "items": [
     {
      "desc": "本档 3 件 ws/pb byte-exact",
-     "detail": "过渡轮（镜像待落地）：['pb 缺 docs/research/phase21w9_fclass_archive_report.md', 'pb 缺 verify_w9_fclass_archive.py', 'ws 证据待生成（首次）']",
+     "detail": "3/3 equal",
      "id": "B1",
-     "status": "INFO"
+     "status": "PASS"
     },
     {
      "desc": "pb 三笔镜像提交逐件 blob 对照（3/2/3 件）",
@@ -5212,9 +5212,9 @@
     },
     {
      "desc": "证据台账对照（上轮）",
-     "detail": "首次/过渡轮或注入模式跳过",
+     "detail": "rows=547",
      "id": "D6b",
-     "status": "INFO"
+     "status": "PASS"
     },
     {
      "desc": "5.2 本档件 sha16 自洽（生成器/验收脚本）",
@@ -5240,8 +5240,8 @@
      "status": "PASS"
     },
     {
-     "desc": "回执区（过渡轮：占位）",
-     "detail": "回填区=True",
+     "desc": "回执区自洽（v1 提交件集 + v2/v3 登记）",
+     "detail": "v1 件集全对 + v2/v3 登记齐",
      "id": "E3",
      "status": "PASS"
     }
@@ -5292,7 +5292,7 @@
  "task": "t_9cb09b90",
  "totals": {
   "fail": 0,
-  "info": 2,
-  "pass_count": 27
+  "info": 0,
+  "pass_count": 29
  }
 }
