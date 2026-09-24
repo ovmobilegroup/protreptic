@@ -82,3 +82,10 @@
 
 - 产物：`verify_shenfu_qa_espinosa.py`；`docs/research/phase21r9_shenfu_qa_evidence.json`；`docs/research/phase21r9_shenfu_qa_logs/`（16 件日志 + 修复前证据）；本报告。
 - 工作仓提交 / 发布仓镜像 / push 回执：见 §7 补记与卡回执（metadata）。
+
+## 7 回执补记（提交 / 镜像 / push）
+
+- 工作仓：QA 产物 19 件提交 **95c044aa**（定向暂存，零夹带）。
+- 发布仓：QA 闭合热修提交 **54df4c4**（链 sourcing 报告 2 件 byte-exact）；QA 产物镜像提交 **946afe0**（19 件 byte-exact，对应工作仓 95c044aa）。
+- push：`e6d133c..946afe0` 推送成功（origin main）；推送后 `ls-remote` 实测 = `946afe038522607a133931cc6768b70975376c5b`，与本地发布仓 HEAD 一致；54df4c4 与 2ec3af3 均在 HEAD 血缘内；发布仓工作树全净。
+- 回执文件：`docs/research/phase21r9_shenfu_qa_logs/receipts.txt`。
