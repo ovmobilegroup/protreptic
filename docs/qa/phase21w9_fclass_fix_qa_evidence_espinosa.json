@@ -1,0 +1,407 @@
+{
+ "schema": "protreptic.phase21w9_fclass_fix.qa_evidence_espinosa/v1",
+ "card": "t_28a29244",
+ "qa_by": "espinosa",
+ "generated_at": "2026-09-24T18:17:30+0800",
+ "verdict": "PASS",
+ "verdict_note": "修复链全部成果独立复现；E1/F11/F12 三项缺陷态断言按「504 持久回填 + ten/104 登记」终态裁定修订（修订断言实测全过）；无硬伤，另登记 5 项低危观察。",
+ "audited": {
+  "fix_card": "t_d7faccc5",
+  "fix_parent": "6f298ca1",
+  "fix_head": "b7a6bfad",
+  "fix_commits_ws": [
+   "108e2826",
+   "47f9852d",
+   "49ac3832",
+   "b7a6bfad"
+  ],
+  "fix_commits_pb": [
+   "ac33cba5",
+   "2586040c",
+   "368493b5",
+   "4b79cb27"
+  ],
+  "push_range": "a7ba7f29..4b79cb27",
+  "upstream_qa_card": "t_9ed2866a",
+  "upstream_audited_commit": "e5ddd13f",
+  "remote_main": "4b79cb277dd394085017d9021078d5d91dde579a",
+  "method": "不信任自述：git 对象/提交树 pin + 盘上现读 + 工具现跑（隔离副本/隔离 --out，禁动主库）+ 独立重算；所有写入仅限 QA 产物与 scratch 隔离副本（1 项工具副作用快照复原见 C5b）"
+ },
+ "anchors": {
+  "ws_head": "b7a6bfadd7032a97b83fd747f2c51ba74e969248",
+  "pb_head": "4b79cb277dd394085017d9021078d5d91dde579a",
+  "ls_remote_ws": "4b79cb277dd394085017d9021078d5d91dde579a refs/heads/main",
+  "ls_remote_pb": "4b79cb277dd394085017d9021078d5d91dde579a refs/heads/main",
+  "ws_origin_main_cached": "4bda4bdc5dfdab74a6603662bb856df40b50f1c1（remote-tracking 缓存陈旧；以 ls-remote 实测为准）",
+  "db_sha256": "d7d5a228c2b0fc762ffdfa3e3706e11e8a370ed75c1099dd7026926555ba834a",
+  "parent_db_sha256": "c5eb126e93f88757081dcd74e7217f5a539664ecb6f00ec53ff5013bb36280bb"
+ },
+ "repro_rebuild_no_regress": {
+  "fresh_from_source_x2": {
+   "rc": [
+    0,
+    0
+   ],
+   "total": 1027,
+   "named": 1017,
+   "empty": 10,
+   "empty_codes": [
+    "BW-KHA-001",
+    "BW-MAS-001",
+    "LS-MOS-001",
+    "MG-RAV-001",
+    "NA-GEO-001",
+    "NA-NUJ-001",
+    "SZ-MSW-001",
+    "ZA-ZUM-001",
+    "ZW-CHA-001",
+    "ZW-MUG-001"
+   ],
+   "deterministic": true
+  },
+  "same_file_rerun_stable": true,
+  "main_copy_rebuild": {
+   "rc": 0,
+   "rows_equal_main_snapshot": true,
+   "rows_equal_fresh_from_source": true,
+   "full_cols": 20
+  },
+  "old_loader_same_sources": {
+   "rc": 0,
+   "named": 513,
+   "empty": 514,
+   "name_eq_code_rows": 0,
+   "note": "父提交装载器 + 相同源 = 514 空名 → 持久性来源为装载器键回退（非直改 DB 单点）"
+  },
+  "sources_unmodified": {
+   "scenarios_zh.json": "e6777e7a556f26fc",
+   "scenarios_en.json": "089c6c68c5e1fa9e",
+   "scenario_tags.json": "c2617d455f2384a8",
+   "git_diff_parent_head": "0 changed",
+   "worktree_equals_blob": true
+  },
+  "scratch": "scratch/w9fixqa/replay/ + s4_replay_result.json"
+ },
+ "sampling": {
+  "parent_snapshot_decomposition": {
+   "empty_nonh": 514,
+   "restorable": 504,
+   "true_name": 400,
+   "code_as_name": 104,
+   "no_source": 10,
+   "no_source_equals": "ten registry list"
+  },
+  "sample": {
+   "n": 127,
+   "true_name": 100,
+   "code_as_name": 26,
+   "spotlight": "AE-FED-001",
+   "selection": "deterministic spread, sorted-by-code"
+  },
+  "mismatches": {
+   "db": 0,
+   "shard": 0,
+   "figures_index": 0,
+   "unified": 0
+  },
+  "global_no_invention": {
+   "rows": 1027,
+   "zh_mismatch": 0,
+   "en_mismatch": 0,
+   "empty_but_source_has_name": 0
+  },
+  "placeholder_guard": {
+   "code_rows_still_name_eq_code": 104,
+   "ten_real_name_leaks": 0
+  },
+  "spotlight_AE_FED_001": {
+   "db_name_zh": "阿联酋·扎耶德：联邦石油宽容与女性太空火星愿景",
+   "four_faces_match": true
+  },
+  "scratch": "s5_sampling_result.json"
+ },
+ "registry": {
+  "path": "data/audit/phase21w9_fclass_residual_registry.json",
+  "sha256": "f1feda75862054c01e749b4bf3d0d0f1e8b1a8c9d466125652198f873c74c7fc",
+  "ten": {
+   "count": 10,
+   "status": "待核名",
+   "codes_match_derived": true,
+   "name_fields_all_empty": true,
+   "items": [
+    "BW-KHA-001",
+    "BW-MAS-001",
+    "LS-MOS-001",
+    "MG-RAV-001",
+    "NA-GEO-001",
+    "NA-NUJ-001",
+    "SZ-MSW-001",
+    "ZA-ZUM-001",
+    "ZW-CHA-001",
+    "ZW-MUG-001"
+   ]
+  },
+  "code_as_name": {
+   "count": 104,
+   "status": "占位待补名",
+   "codes_match_derived_104": true,
+   "unique": true
+  },
+  "committed_equals_disk": true,
+  "non_adopted_leads_note_present": true
+ },
+ "commit_face": {
+  "range_diff_parent_head": {
+   "M": 7,
+   "A": 7,
+   "D": 1359
+  },
+  "allowlist_14_exact": true,
+  "per_commit_file_sets": {
+   "108e2826": "M7 A7 D1359",
+   "47f9852d": "4M(generator/registry/evidence/report)",
+   "49ac3832": "2M(evidence/report)",
+   "b7a6bfad": "1M(registry)"
+  },
+  "before_list": {
+   "lines": 1359,
+   "sha256": "b123f3f066366eeb5af16ce95ef6133dd42d01ea3c56ec4f28984d690a133924",
+   "set_equals_removed_index": true,
+   "fidelity_vs_parent_blobs": "1359/1359 match, 0 diff, 0 absent"
+  },
+  "web_index_face": {
+   "git_ls_files": 0,
+   "disk_now": 1385,
+   "new_vs_T0": 26,
+   "new_breakdown": "daily 2 + search 17 + graph 7",
+   "content_unchanged_vs_T0": 852,
+   "content_changed_vs_T0": 507,
+   "changed_breakdown": "504 figures shards + figures.index + index.unified + meta.json（回填再生）",
+   "gitignore_active": true,
+   "method_note": "上游用 git update-index --force-remove --stdin（仅索引面等价变体，已登记）；效果核验一致"
+  },
+  "h_face_zero_movement": {
+   "db_rows": 372,
+   "db_diff": 0,
+   "shard_files": 372,
+   "shard_parent_blob_eq_disk": 372,
+   "index_entries": 372,
+   "index_diff": 0
+  },
+  "w7_face_not_rolled_back": {
+   "e5ddd13f_D_total": 1303,
+   "fix_AM_intersect": 0,
+   "sample40_disk_absent": true,
+   "sample10_tree_absent": true
+  },
+  "mirror_byte_exact": {
+   "108e2826->ac33cba5": "13/13",
+   "47f9852d->2586040c": "4/4",
+   "49ac3832->368493b5": "2/2",
+   "b7a6bfad->4b79cb27": "1/1"
+  }
+ },
+ "closure": {
+  "parity": {
+   "rc": 0,
+   "status": "OK",
+   "counts": {
+    "workspace_in_boundary": 4593,
+    "publish_in_boundary": 4593,
+    "both_sides": 4593,
+    "identical": 4593,
+    "only_workspace": 0,
+    "only_publish": 0,
+    "excluded_publish": 649,
+    "excluded_workspace": 86
+   },
+   "diffs": 0,
+   "manifest_zeroed": true
+  },
+  "gates_all_rc0": [
+   {
+    "gate": "credibility_gate --legacy-report",
+    "rc": 0,
+    "sec": 5.2
+   },
+   {
+    "gate": "credibility_gate --hard-fail",
+    "rc": 0,
+    "sec": 5.3
+   },
+   {
+    "gate": "verify_source_links --legacy-report",
+    "rc": 0,
+    "sec": 218.3
+   },
+   {
+    "gate": "verify_source_links --hard-fail",
+    "rc": 0,
+    "sec": 223.7
+   },
+   {
+    "gate": "verify_findings --hard-fail",
+    "rc": 0,
+    "sec": 5.7
+   },
+   {
+    "gate": "apply_verification_status --check",
+    "rc": 0,
+    "sec": 0.3
+   },
+   {
+    "gate": "ci_data_check",
+    "rc": 0,
+    "sec": 0.1
+   }
+  ],
+  "isolated_reexport": {
+   "rc": 0,
+   "same": 1358,
+   "diff": 0,
+   "only": 0,
+   "note": "byte-equal，唯一模除项为内嵌 generated_at/generated_at_local 时间戳"
+  },
+  "unified_rebuild_isolated": {
+   "rc": 0,
+   "byte_equal": true,
+   "counts": {
+    "total": 1344,
+    "figures": 320,
+    "scenarios": 1024,
+    "with_modes": 1308
+   }
+  },
+  "manifest": {
+   "db_sha_ok": true,
+   "figures_agg": "95c2b41e44150238a78587c29bdfaffce5dcaea68ade8b9f209d2e9ab682acaa",
+   "figures_n": 1027,
+   "index_sha": "3c99c19a9381c073e38af4146f95aafb5edd967684ba0cb60b740844c11a52ba",
+   "gzip_bytes": 65571,
+   "gzip_limit": 81920,
+   "gzip_ok": true
+  },
+  "routes_name_eq_code": {
+   "n": 114,
+   "set_equals_104p10": true,
+   "parent_n": 514
+  },
+  "sitecounts_check": {
+   "rc": 0
+  },
+  "daily_check": {
+   "rc": 0
+  },
+  "search_isolated": {
+   "rc": 0,
+   "bins_same": 16,
+   "meta": "timestamp-only diff"
+  },
+  "graph_isolated": {
+   "rc": 0,
+   "semantic_equal_modulo_generated_at": true,
+   "byte_stable": false,
+   "note": "工具在每个产物内嵌 generated_at；工具未被修复卡修改"
+  },
+  "preflight_stage_data": {
+   "rc": 0,
+   "figures": 1027,
+   "modes": 3301,
+   "published": 3241
+  },
+  "remote": {
+   "ls_remote_main": "4b79cb277dd394085017d9021078d5d91dde579a",
+   "pb_head": "4b79cb277dd394085017d9021078d5d91dde579a",
+   "equal": true
+  }
+ },
+ "adjudication": {
+  "correct_terminal_state": "504 持久回填（DB/index/分片/unified 四面）+ ten(10 待核名)/104(占位待补名) 登记；重建不回落实测成立",
+  "items": [
+   {
+    "old_assertion": "E1 非H空名==0（worktree AND rebuild）",
+    "old_result_now": "FAIL (10/10)",
+    "ruling": "SUPERSEDED —— ten 无来源不得臆造，==0 不可达；修订 E1'：worktree 空名集 == TEN 且 rebuild-from-source 空名集 == TEN",
+    "revised_result": "PASS (10/10)"
+   },
+   {
+    "old_assertion": "F11 figures 聚合==6391856f 且 figures.index==65a7cdc6（不变式口径）",
+    "old_result_now": "FAIL (聚合 95c2b41e / index 3c99c19a)",
+    "ruling": "SUPERSEDED —— 合法回填必然改变两面哈希；修订 F11'：H-* 面零动（DB/372 分片/index）+ parity 边界两仓一致",
+    "revised_result": "PASS"
+   },
+   {
+    "old_assertion": "F12 pb 从未引用/不持有 e5ddd13f",
+    "old_result_now": "FAIL (对象经 pb 本地 master 快照分支存在；回执消息合法提及)",
+    "ruling": "SUPERSEDED —— 字符串/对象存在性随他卡历史漂移；实质不变式：e5ddd13f 非发布线祖先（origin/main）",
+    "revised_result": "PASS (is_ancestor rc=1)"
+   }
+  ],
+  "upstream_verifier_at_fix": {
+   "run": "12 PASS / 3 FAIL / 2 INFO (rc=1)",
+   "fails": [
+    "F11",
+    "F12",
+    "E1"
+   ],
+   "f1_f10": "PASS"
+  },
+  "new_verifier_final_run": {
+   "run": "33 PASS / 0 FAIL / 2 INFO",
+   "json": "scratch/w9fixqa/final_verifier_run.json"
+  },
+  "anti_fudging": [
+   "零臆造：S3/S4 全库 1027 行逐行比对源侧姓名（0 失配）",
+   "修订断言可证伪、与结论无关（先定口径后跑）",
+   "上游旧断言保留于原校验器，仅作上述三项带理由替代"
+  ]
+ },
+ "observations": [
+  {
+   "id": "O1",
+   "level": "info",
+   "item": "graph 产物逐文件内嵌 generated_at → 字节级不可复现；语义等价已证（模除时间戳全等）；工具不在修复面"
+  },
+  {
+   "id": "O2",
+   "level": "info",
+   "item": "search/meta.json 仅时间戳差异；16/16 分片 byte-equal"
+  },
+  {
+   "id": "O3",
+   "level": "info",
+   "item": "tools/export_static_site.py 恒写 docs/architecture/static_data_manifest.json（--out 不影响）；本卡校验器 C5 已快照/复原（C5b PASS），仓库现状与提交一致"
+  },
+  {
+   "id": "O4",
+   "level": "info",
+   "item": "ws origin/main remote-tracking 缓存陈旧（4bda4bdc）；ls-remote 实测 == pb HEAD == 4b79cb27"
+  },
+  {
+   "id": "O5",
+   "level": "info",
+   "item": "F12x：pb 对象库经非发布线本地 master 快照分支含 e5ddd13f；记录不判缺陷"
+  }
+ ],
+ "artifacts": {
+  "report": "docs/qa/phase21w9_fclass_fix_qa_report_espinosa.md",
+  "evidence": "docs/qa/phase21w9_fclass_fix_qa_evidence_espinosa.json",
+  "verifier": "verify_w9_fclass_fix_qa_espinosa.py",
+  "verifier_sha256_at_A": "3158e0bdb284fd0964c1e3bb0b85d8cf6b8456b58956e21432c2e1c3b867666c",
+  "scratch_dir": "/opt/data/profiles/espinosa/cache/scratch/w9fixqa/",
+  "scratch_files": [
+   "s4_replay_result.json",
+   "s5_sampling_result.json",
+   "s9_closure_result.json",
+   "s10_chain_result.json",
+   "s11_graph_iso_result.json",
+   "s11_search_cmp.json",
+   "final_verifier_run.json",
+   "upstream_verifier_at_fix.json",
+   "upstream_verifier_at_fix.log"
+  ]
+ },
+ "receipts": {
+  "note": "A 阶段提交后于 B 阶段回填（ws/pb 提交号、push、ls-remote）"
+ }
+}
