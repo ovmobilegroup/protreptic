@@ -3,11 +3,11 @@
   "task": "t_098d8ff6",
   "generated_by": "verify_w8_stage2_batch1_archive.py",
   "generated_at": "2026-09-24",
-  "receipts_pending": true,
+  "receipts_pending": false,
   "totals": {
     "checks": 32,
-    "pass": 29,
-    "fail": 3
+    "pass": 32,
+    "fail": 0
   },
   "sections": {
     "A": [
@@ -35,18 +35,18 @@
     "B": [
       {
         "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_report.md",
-        "ok": false,
-        "detail": "ws=37160 pb=缺"
+        "ok": true,
+        "detail": ""
       },
       {
         "name": "B1 双仓 byte-exact: verify_w8_stage2_batch1_archive.py",
-        "ok": false,
-        "detail": "ws=22341 pb=缺"
+        "ok": true,
+        "detail": ""
       },
       {
         "name": "B1 双仓 byte-exact: docs/research/phase21w8_stage2_batch1_archive_evidence.json",
-        "ok": false,
-        "detail": "ws=4910 pb=缺"
+        "ok": true,
+        "detail": ""
       },
       {
         "name": "B2 pb 023a794 -> ws 004332b4 提交级 blob 对照（50 件）",
@@ -140,7 +140,7 @@
         "detail": ""
       },
       {
-        "name": "E3 回执区（--receipts-pending 过渡面）",
+        "name": "E3 §4.7 回执区自洽（ws 4 件 / pb 3 件 / push ok）",
         "ok": true,
         "detail": ""
       }
@@ -184,9 +184,9 @@
     ]
   },
   "fingerprints": {
-    "docs/research/phase21w8_stage2_batch1_archive_report.md": "9cc796f8b3f9992f",
+    "docs/research/phase21w8_stage2_batch1_archive_report.md": "82b563ad3f949181",
     "verify_w8_stage2_batch1_archive.py": "031a98a12606512a",
-    "build_w8_stage2_batch1_archive.py": "95f5a651d2f0ecca",
+    "build_w8_stage2_batch1_archive.py": "d8083561d3aeb68e",
     "docs/research/phase21w8_stage2_batch1_archive_evidence.json": "（本件；自指省略）"
   }
 }
