@@ -71,7 +71,7 @@
     },
     {
       "path": "docs/research/phase21w8_stage2_batch1_landing_report.md",
-      "sha16": "d5cc177cdeed02d2"
+      "sha16": "e07b602a94339d9d"
     },
     {
       "path": "tools/apply_w8_stage2_batch1_landing.py",
@@ -240,7 +240,21 @@
     "fail": 0
   },
   "mirror_push": {
-    "status": "pending",
-    "note": "§9 回执补记时更新"
+    "status": "done",
+    "workspace_commit": "004332b4",
+    "publish_commit": "023a794",
+    "mirror_files": 50,
+    "byte_exact": true,
+    "push": "7f03402..023a794 main -> main",
+    "ls_remote": "023a79488b94c779d44e882590384cddbabfc792 refs/heads/main",
+    "parity": {
+      "chain_items_closed": 42,
+      "new_diffs": 0,
+      "boundary_identical": 2577,
+      "remaining_other_chains": [
+        "docs/research/candidates_v5_research.md",
+        "docs/research/phase21w10_coverage_report.md"
+      ]
+    }
   }
 }

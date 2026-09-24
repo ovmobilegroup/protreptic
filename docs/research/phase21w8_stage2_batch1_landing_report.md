@@ -183,4 +183,25 @@ M-AZJ-001~010 / M-SHF-001~010 写的自定义块（`method=phase21r9-*-landing` 
 
 ## 9. 提交回执（最终）
 
-（提交/镜像/push 完成后在此补记：工作仓 commit、发布仓 commit、ls-remote 输出、parity 复跑。）
+### 工作仓（/opt/data/workspace/Protreptic；本地 master 无远端上游，按惯例不 push）
+
+- **落地主提交：`004332b4`**「Phase21-W8 Stage2批1 t_b85ae14a 主库落地…」= 13 件白名单（数据 5 + 账本 + siteCounts + static_data_manifest + 报告/证据 + 3 工具；提交 stat 名单外 0）。
+- 提交后复核：modes_data 相对父提交变更块 = **72**（69 verified + 3 suspect；包外 0；M-AZJ/M-SHF 20 条 elcano 印记零改动）；findings 仅 +3 条 D4_quote_mismatch。
+- 回执补记提交：本文件 §9 更新与证据镜面刷新随第二次提交入库（sha 见 git log / 看板回执）。
+
+### 发布仓（/opt/data/release/Protreptic-publish → origin/main = github.com/ovmobilegroup/protreptic）
+
+- **镜像提交：`023a794`**「镜像: Phase21-W8 Stage2批1 t_b85ae14a 主库落地（对齐工作仓 004332b4）」= **50 件 byte-exact**（本卡 13 件 + W8 链落盘包 37 件：批1 缓存 23 txt / 索引 / 素材包与书单 / recount / submission / 6 工具 / w8 manifest）；staged 50 与清单逐件相等，名单外 0。
+- **push：`7f03402..023a794  main -> main`**（git push 输出）。
+- **ls-remote 复核：`023a79488b94c779d44e882590384cddbabfc792 refs/heads/main` == 本地 HEAD**（一致）。
+
+### parity 复跑（tools/check_repo_parity.py --json）
+
+- 本链面：**W8 链 42 项 diff 全部闭合**；**新增 diff 0**。
+- 余项 2（`docs/research/candidates_v5_research.md`、`docs/research/phase21w10_coverage_report.md`）= **他链在制件**（W10 / candidates 链各自镜像），非本卡面。
+- 边界面：both_sides **2577 件全数 identical**（工作仓 vs 发布仓逐件 sha256 相等）。
+
+### 独立核验与链接存活
+
+- `tools/verify_batch1_landing.py --with-gates` → **20 PASS / 0 FAIL**（含 credibility_gate / verify_findings / --check / preflight 四连复跑 rc=0）。
+- 链接存活：run 时 6/8 `OK 200`；《文史通义》《太极图说》unreachable（连接层抖动）经 curl 重试**回 200**（见证据 JSON `link_liveness`）。
