@@ -195,12 +195,66 @@
       },
       "findings": {
         "audit_meta.modes_file_sha256": "35a98f75c0fb2740847aebb00ebab1ce4586cd3b08fb517639486979bf7a5102（= 本卡 after 态；finding 硬失败 0 新增）"
+      },
+      "union_recompute_note": {
+        "live_state_measured": {
+          "modes_raw": 3361,
+          "distinct_mode_codes": 3351,
+          "empty_mode_code": 10,
+          "by_figure_groups_non_quarantined": 325,
+          "measured_at": "2026-09-24T21:19+08:00"
+        },
+        "correct_union_anchors": {
+          "EXPECT_MODES": 3351,
+          "EXPECT_BY_FIGURE": 325,
+          "EXPECT_FIGURES": 1028
+        },
+        "blocker": "并集站链复跑（本卡试跑）被并行卡数据硬门阻断：tools/export_static_site.py 的四态校验拒绝 M-LMNJ-001~010 的 verification.status='pending_merge'（非四态值）→ 导出非零退出；本卡未修改他卡数据，已把 tools/* 现场还原为并行卡（t_307614f0）写入值（3341/324，尚未提交），并在卡 t_5ec52f1d 留言提示该阻断与两个可选解法（归一为 pending / 扩展四态口径）。",
+        "note": "本卡只负责 KSGL 面；并集口径的站链收口由并行卡（t_5ec52f1d / t_307614f0 收尾）落定"
       }
     },
     "scope_exclusions": {
       "backup_dir": "data/backup_merge_H-KSGL-001_20260924_203503/ 不入库（parity EXCLUDE_RULES：data/backup_merge_*/* 开发仓独有，非构建图）",
       "db": "api/protreptic.db 非合并卡链条面（W4 清档后基线 figures 1028 / thinking_modes 2858）",
       "other": "未触碰工具副本面（tools/json/*）、_duplicates 归档、其它卡在制文件"
+    },
+    "receipts": {
+      "recorded_at": "2026-09-24T21:32:48+0800",
+      "workspace_commits": {
+        "register_surface_and_four_data_files": "1d6ac69f",
+        "manifest_addendum": "b521d120"
+      },
+      "publish_mirror": {
+        "commit": "c414c92f",
+        "push": "a9ec8602..c414c92f (origin main)",
+        "ls_remote": "c414c92ffc6a9f8d634be38c144bf7a5a3760ed1 == refs/heads/main",
+        "files": 16,
+        "byte_exact": true
+      },
+      "parity": {
+        "cmd": "python3 tools/check_repo_parity.py --json",
+        "ksgl_rows_after_mirror": 0,
+        "before_mirror_snapshot": "workspaces/t_06017753/parity_before.json（KSGL 16 件 MISSING_IN_PUBLISH）",
+        "after_mirror_snapshot": "workspaces/t_06017753/parity_after.json（KSGL 行 0；余量为并行卡在制）"
+      },
+      "preflight": {
+        "ksgl_state": "python3 tools/pages_preflight.py --stage data → rc=0（figures=1028 modes=3331 published=3271 隔离命中=0 by-figure=323，2026-09-24T21:20+08:00 实测）"
+      },
+      "scope": {
+        "touched_by_this_card": [
+          "data/figures|individuals 四件",
+          "docs/scratch/phase21_ksgl_landing/**",
+          "tools/merge_phase21_ksgl.py",
+          "data/audit/phase21_ksgl_merge_manifest.json",
+          "publish 镜像 16 件"
+        ],
+        "not_touched": [
+          "他卡在制文件",
+          "api/protreptic.db",
+          "站链共享件（tools/export_static_site.py、tools/pages_preflight.py、web/src/generated/siteCounts.ts、docs/architecture/static_data_manifest.json）",
+          "并行卡数据（含 M-LMNJ 的 verification 块）"
+        ]
+      }
     }
   }
 }
