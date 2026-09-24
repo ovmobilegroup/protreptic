@@ -1,0 +1,69 @@
+PASS A01 素材包 phase21r9_anzijie_sourcing_report.json == git(5ab2a688) blob（工作区=提交版本）
+PASS A01 素材包 phase21r9_anzijie_sourcing_report.md == git(5ab2a688) blob（工作区=提交版本）
+PASS A02 见证登记 11 件
+PASS A03 见证 11 件 sha256 == 素材包登记 且 == git blob（11/11）
+PASS A04 落盘包 14 件 sha == landing manifest 且 == git blob（14/14）
+PASS A05 数据件 == 落盘包副本（figure/individuals 面逐字节）
+PASS B01 编号/顺序/归属：M-AZJ-001~010 顺序、priority 1..10、legacy 空、figure_code/名/level（10/10）
+PASS B02 内容同体：主库条目 == figure == fig_modes == individuals_modes == landing 两面（逐条有序，10/10）
+PASS B03 来源-引文：key_quote_zh == 素材包 quotes 逐字（10/10）且见证文本命中（10/10）
+PASS B04 来源-指向：source_chapter 含「AZJ-1 素材包」+ 本条码 + 引文见证在内、所引编号均在册（10/10）
+PASS B05 条键面：键集与图档一致、verification pending、legacy 空（10/10）
+PASS B06 类目：category ∈ 标准 18 类 且 category_raw == 素材包 §二 主题域行（md 为准、去空格）（10/10）
+PASS B07 命名：name_zh == 素材包名主干（全名在 id_mapping.tsv）（10/10）
+PASS B08 内容非空：中英定义/流程/案例/现代应用 齐（10/10）
+PASS B09 禁用标记（19 项旧载荷）在本 10 条零出现（10/10）
+PASS B10 「」/『』片段 100 处（唯一 74）全部可回溯素材包/见证
+PASS B11 全库 M-AZJ 恰 10 条且条目 related_modes 引用可解析
+PASS C01 figure：mode_ids/计数=10、core_thoughts 10、tags 非空且含本名、xref=[]
+PASS C02 figure 与 individuals 档案面同体（22 共享键）
+PASS C03 顶层块 H-AZJ-001 == top_block_proposal.proposal（23 键，core_modes 10）
+PASS C04 顶层块位次：backup 键序守恒、H-AZJ-001 于 H-SHF-001 前、modes 前（插入=块组末位）
+PASS C05 total 对齐 len(modes)=3311
+PASS C06 code_maps 条目：3 键 / mode_ids / tags=10 名 / xref=[]
+PASS C07 code_maps 其余条目/顶层键零改动
+PASS C08 figure_names：H-AZJ-001->安子介于追加位、其余零改动
+PASS C09 H-AZJ-345 于 figure 仅 2 处（meta/mode_ids_note 登记），条目/顶层块 0 复用
+PASS D01 六件：backup == AZJ before == git 5a657b81^（6/6）
+PASS D02 六件：现行工作区 == git HEAD 提交版本（6/6）
+PASS D03 写/零写面自洽：三写件 备份==before 且 现行==末写者 且确有增量；三场景 before==after==备份（6/6）
+PASS D04 AZJ after 字节级复现（before + entries）：三写件 sha+bytes 与卡面 after 一致
+PASS D05 链式：AZJ after == 沈复 before（六件）；现行 == 沈复 after（末次写者）
+PASS D06 纯追加：现行前 3291 条 == backup 逐对象全等
+PASS D07 AZJ 10 条位于 [3291:3301]（兄弟增量之前）且逐字 == entries
+PASS D08 尾部 10 条 = 兄弟卡 M-SHF-001~010（链式可解释）
+PASS D09 兄弟卡 union_guard：M-AZJ 10 -> 10 守恒（未伤本链面）
+PASS D10 场景三件 AZJ 零写入（before==after==兄弟 before；3/3）
+PASS D11 序列化：现行三件无尾换行；modes_data before==after（保持）；cm/fn before 有尾换行、after 无（口径注记）
+PASS E01 meta.counts == 数据重算（published 3241、by-figure 320、隔离 60、去重 3301）
+PASS E02 四态计数 == 数据重算
+PASS E03 门面口径一致：siteCounts.ts / docs / PWA manifest ×2 / daily index（3241 x 320）
+PASS E04 by-figure 分片 H-AZJ-001：10 条、摘要面 == 主库、domain 压缩 == export 清洗规则
+PASS E05 站链复跑（export_static_site --out 隔离目录）：1358 产物逐字节复现 == web/public/data
+PASS E06 pages_preflight --stage data 复跑 exit 0
+PASS E07 parity：本链残留 0（现行 53 条差异全部为他链在制）
+PASS E08 两仓点试 13 件逐字节一致（parity 边界内 AZJ 链面）
+PASS E10 api/protreptic.db：figures 行数 1027 == meta；H-AZJ-001 0 行（DB 非合并卡链条面，先例一致）
+PASS F01 推送实证：e6d133c ∈ 发布仓谱系 ∧ ∈ origin/main 谱系（远端现值 2397eeec；收口时点 e6d133c 见链回执与本卡前轮实测）
+PASS F02 发布仓 AZJ 链提交链：e6d133c^=78246d4、78246d4^=fe250fd、fe250fd^=3b6874f 且三提交题为 AZJ 镜像
+PASS F03 发布仓 e6d133c 树 blob == 工作仓（8 件抽验）
+PASS F04 R9 AZJ 链镜像：PB 树 91 件 azj/anzijie 命名文件全部 == 工作仓（逐字节）
+PASS F05 raw.githubusercontent.com 抽验 5 件：http=200 且逐字节 SAME（远端发布面）
+PASS F06.602a 回执提交 602a5d47（AZJ-2 重建）在库，23 件
+PASS F06.a963 回执提交 a96302f1（AZJ-3 合并）在库，15 件
+PASS F06.5ce7 回执提交 5ce7f6ad（回执补记）在库，1 件
+PASS F06.8c48 回执提交 8c486442（回执补记 v2）在库，1 件
+PASS F07 发布仓在制增量（e6d133c..HEAD，23 件）零 AZJ 链文件（他卡热修未触本链）
+PASS G01 H-AZJ-345 工作仓：live 面（主库六件/站点数据/dist/DB/tools json/docs figures）0 命中
+PASS G03 R8 清档基线对比：新增 21 件全部为受控登记件、零移除、无 live 面新增
+PASS G04 禁用标记 19 项：figure+条目+顶层块+code_maps 面零出现
+PASS G05 链提交面：602a5d47/a96302f1 文件清单全部为 AZJ 链文件（零夹带他人物/他链）
+PASS H01 反向注入 7/7 全部被检查器捕获
+INFO B06n 口径差：category_raw 与素材包 JSON theme 字段不一致 1 项（素材包 md/json 内部差异；落库取 md 口径、与 category_mapping.tsv 一致）
+INFO E07n 本卡自证物闭合前登记：未入库的 QA 证据/脚本 2 件（闭合提交+镜像后复跑须清零）
+INFO E08n PB web/public/data/** 属 parity 排除类（构建产物，部署侧再生成）；PB by-figure 为旧代次快照（318 件 vs 工作仓 320 件；AZJ 分片不在 PB）——建设期登记项，非本链镜像承诺面
+INFO E09 dist by-figure H-AZJ-001 == public 副本
+INFO F01n 远端/发布仓已前移 e6d133c → 2397eeec（他卡推送后行；本链收口 sha e6d133c 在谱系内）
+INFO G02 工作仓 H-AZJ-345 命中分类（544 件）
+
+TOTAL 61 PASS / 0 FAIL / 6 INFO
