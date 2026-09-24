@@ -5147,5 +5147,22 @@
  "shas": {
   "e5ddd13f": "c4a89a2329b6690bed0f0ac71fa8740aef9f7c9843d33cee829b37fa45e167b2",
   "note": "sha values for other artifacts in sitechain/deletion/push blocks"
+ },
+ "receipts": {
+  "commit_a_ws": "c6d626c623eb005769af28a7cebcd2872deae451",
+  "mirror_p1_pb": "6b5089315c67962c8a6c88a29519e7a7f438db7a",
+  "push_range_pb": "27c2074..6b50893",
+  "ls_remote_main_after_p1": "6b5089315c67962c8a6c88a29519e7a7f438db7a",
+  "report_sha16_at_b": "ab9342c06e505b74",
+  "parity_after_p1": {
+   "status": "DIFF",
+   "both_sides": 4580,
+   "identical": 4579,
+   "only_workspace": 0,
+   "only_publish": 0,
+   "sole_diff": "docs/architecture/static_data_manifest.json (ws 32c3a490 vs pb abf78622)"
+  },
+  "note": "commit B (ws) / P2 (pb) shas: see git log in both repos and kanban completion of t_9ed2866a",
+  "generated_at": "2026-09-24T15:23:20+0800"
  }
 }

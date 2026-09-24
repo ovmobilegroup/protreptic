@@ -6,7 +6,7 @@
 
 复核方法（不信任自述）：git 对象/提交树 pin；盘上文件现读；工具现跑**确定性重演**（update→build_figures_db）；独立重算（DB 全表行级、站点分片聚合、清单逐项 sha）；两仓 parity 现跑两次；发布面 ls-remote 实查；elcano 工作留痕（scratch 脚本）与 kanban 日志回溯。
 
-产出：本报告；证据 JSON `docs/research/phase21w9_fclass_qa_evidence_espinosa.json`（127,943 B / sha16 **f5071d6e85089846**，含 504 条逐条对照表、10 条三面态、重演、parity 两次运行、操作者七项加注交叉核对）；校验器 `verify_w9_fclass_qa_espinosa.py`（sha16 **47090c9bbf9a7864**）。
+产出：本报告；证据 JSON `docs/research/phase21w9_fclass_qa_evidence_espinosa.json`（A 版 127,943 B / sha16 **f5071d6e85089846**；回执补记 B 增补 receipts 段，B 版 sha 见 git log；含 504 条逐条对照表、10 条三面态、重演、parity 多次运行、操作者七项加注交叉核对）；校验器 `verify_w9_fclass_qa_espinosa.py`（sha16 **47090c9bbf9a7864**）。
 
 ## 0. 自述 vs 落盘终态（一句话表）
 
@@ -127,6 +127,8 @@ index.unified.json：counts {total 1344, figures 320, scenarios 1024}（与自�
 - 复核命令与时序：见证据 method / anchors / push 块；parity 两次运行原始输出见证据 parity 块。
 
 ## 9. 提交回执（本 QA 卡 t_9ed2866a）
-- 工作仓：提交 A（3 件：本报告 / 证据 JSON / 校验器）；回执补记 B（§8 值回填 + 本节终值）。
-- 发布仓：P1 / P2 逐件 byte-exact 镜像 + push；ls-remote 一致。
-- 值登记：**见回执补记提交 B**（A/B/P1/P2 sha、push 范围、ls-remote、parity 终跑）。
+
+- 工作仓：提交 A = c6d626c623eb005769af28a7cebcd2872deae451（3 件：本报告 / 证据 JSON / 校验器）；回执补记 B = 本提交（本节值回填 + 证据 receipts 段；B sha 见 git log 与完成回执）。
+- 发布仓：P1 = 6b5089315c67962c8a6c88a29519e7a7f438db7a（3 件逐件 byte-exact：报告 dcb1b1f7 / 证据 f5071d6e / 校验器 47090c9b）；push 27c2074..6b50893；ls-remote == 6b50893。P2（本回执镜像，2 件）见发布仓 git log。
+- parity 时点（A+P1 后现跑）：DIFF；both=4580 / identical 4579；单侧 0/0；**唯一差异 = docs/architecture/static_data_manifest.json**（W9 残留：ws 32c3a490 vs pb abf78622）——W9 链修复卡将清单并轨并镜像后应转绿。
+- 范围：零数据改动；仅本卡 3 件（A）+ 2 件（B）。窗口注记：复核期间他卡推进（master 46c29cbc / 发布仓 27c2074）不改变本结论（锚定 e5ddd13f 提交树）。
