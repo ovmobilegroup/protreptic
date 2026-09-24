@@ -1,8 +1,8 @@
 {
   "schema": "protreptic.verification_status/v1",
   "generated_by": "tools/apply_verification_status.py",
-  "generated_at": "2026-09-22",
-  "checked_at": "2026-09-22",
+  "generated_at": "2026-09-24",
+  "checked_at": "2026-09-24",
   "checker": "phase38-y2",
   "rules": {
     "S1": "suspect      : mode_code 命中 findings.json 的 D4/D5（引文不符 / 时间线矛盾）",
@@ -18,51 +18,45 @@
   ],
   "inputs": {
     "data/modes_data.json": {
-      "sha256": "4a22a7e501fe72f4c686618f53eaf7f5e10b5cc7b6ce31f959694fdfb3000484",
-      "modes": 3162,
+      "sha256": "75932c9f2d48d136e5962c539391a6106306b58d291fb8f20cf25f998ff02791",
+      "modes": 3311,
       "note": "sha256 为报告生成时刻的盘上文件（--write 走盘后回填）",
-      "bytes": 24297308
+      "bytes": 24893208
     },
     "data/source_links.json": {
-      "sha256": "bfce3a5b222134a0e1564320a32b039e1a3076fa3d9a3ab6da6fe6fc6d5bb2d3",
-      "keys": 382,
-      "links_with_url": 169,
-      "distinct_urls": 164
+      "sha256": "dc0aebf0c2bbdadc1f34a4e5b8bef9fde6bb62fa4a939e10988fc2f650d36108",
+      "keys": 391,
+      "links_with_url": 178,
+      "distinct_urls": 172
     },
     "data/audit/findings.json": {
-      "sha256": "995fa043c38f9451fc503a375f7cdfb5c36431c9efd9459e986a29a5afc9f7e2",
-      "d4_d5_modes": 51
+      "sha256": "0292f0580ab03293ece5e38272e6ca5aba830e3c96cdc1bc06955b207d479efd",
+      "d4_d5_modes": 55
     }
   },
   "counts": {
     "all": {
-      "verified": 932,
-      "pending": 1828,
-      "suspect": 51,
+      "verified": 1018,
+      "pending": 1887,
+      "suspect": 55,
       "unverifiable": 351
     },
-    "all_total": 3162,
+    "all_total": 3311,
     "published": {
-      "verified": 932,
-      "pending": 1796,
-      "suspect": 34,
+      "verified": 1018,
+      "pending": 1855,
+      "suspect": 38,
       "unverifiable": 340
     },
-    "published_total": 3102,
+    "published_total": 3251,
     "quarantined_total": 60
   },
   "cross_checks": {
-    "suspect_and_linked_overlap": 24,
-    "verified_distinct_evidence_urls": 145
+    "suspect_and_linked_overlap": 28,
+    "verified_distinct_evidence_urls": 153
   },
   "changes_vs_library": {
-    "None -> verified": 10,
-    "corrected-fabricated-quote -> pending": 1,
-    "corrected-misattribution -> verified": 1,
-    "quote-verified -> pending": 2,
-    "quote-verified -> verified": 5,
-    "source-verified-corrected -> verified": 1,
-    "verified -> pending": 72,
-    "verified -> suspect": 1
+    "pending -> suspect": 3,
+    "pending -> verified": 69
   }
 }

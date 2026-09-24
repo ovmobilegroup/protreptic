@@ -68,6 +68,22 @@ def extract_refs(source_chapter) -> list:
     return out
 
 
+def extract_refs_raw(source_chapter) -> list:
+    """R0-raw：抽出全部书名号内文（保序，不去重）。
+
+    Phase21-W8 Stage2（卡 t_70a8cbce）候选口径修复用：原 R0（extract_refs）在同一
+    source_chapter 内去重，导致书级被引被低估；此函数保留同一 mode 内的全部出现，
+    供 build_source_links 的书级归并计数使用。匹配链（R1-R3）仍走 extract_refs 函数。
+    """
+    text = _as_text(source_chapter)
+    out = []
+    for inner in CITATION_RE.findall(text):
+        inner = inner.strip()
+        if inner:
+            out.append(inner)
+    return out
+
+
 def candidate_keys(inner: str) -> list:
     """R1：一条引文的候选 key（带书名号），按优先级排序、去重。"""
     cands = []

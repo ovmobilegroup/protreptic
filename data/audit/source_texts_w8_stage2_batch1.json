@@ -1,0 +1,2653 @@
+{
+  "schema": "protreptic.source_texts/v1",
+  "generated_by": "tools/fetch_batch1_texts.py",
+  "generated_at": "2026-09-24T03:14:41+00:00",
+  "policy": "缓存原文类链接（wikisource）的真实响应文本；目录页顺著子页抓并如实标 coverage（complete/partial/single-page）；抓不到或只有目录的标 index-page / fetch-failed，不伪造文本、不用二手转述补位；对 coverage=complete/single-page 的抓取结果另产 zh-cn 转换副本（zh.wikipedia action=parse 接口 variant=zh-cn），转换来源、时间、分块与失败重试元数据随条目入索引（zh_cn 字段）。本索引为 Phase21-W8 Stage2 批1 独立索引（source_texts.json 零改动）。",
+  "min_chars": 800,
+  "max_subpages": 95,
+  "entries": [
+    {
+      "key": "《春秋繁露》",
+      "label": "春秋繁露",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E7%B9%81%E9%9C%B2",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource.org",
+      "lang": "lzh",
+      "script": "hant",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "raw",
+      "index_title": "春秋繁露",
+      "pageid": 24753,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        17,
+        17
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 73419,
+      "bytes": 218781,
+      "sha256": "ccb0e98d3409fe128ed92a963d9ad3420a4bef5980dcbe5adb844a7a6e014911",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:38:17+00:00",
+      "pages": [
+        {
+          "title": "春秋繁露",
+          "http_code": 200,
+          "chars": 706,
+          "sha256": "241e15ff01ef5db9777672a6de9b2b3fc63239987c9eb651e73febeb03c22fb5",
+          "start": 0,
+          "end": 706
+        },
+        {
+          "title": "春秋繁露/卷01",
+          "http_code": 200,
+          "chars": 4796,
+          "sha256": "d3a256b4bc31445078d5520195d1615cf222ec3c339cffd8d28ca7471c28d6a6",
+          "start": 707,
+          "end": 5503
+        },
+        {
+          "title": "春秋繁露/卷02",
+          "http_code": 200,
+          "chars": 3317,
+          "sha256": "de55e6be9352b63fa7a80b290f800daf509a845d7ef0077222cece9517082ff6",
+          "start": 5504,
+          "end": 8821
+        },
+        {
+          "title": "春秋繁露/卷03",
+          "http_code": 200,
+          "chars": 4625,
+          "sha256": "605755b03b87f357b1e76d022b14e45b86d7b679ebb35eca20f01d9837a02be1",
+          "start": 8822,
+          "end": 13447
+        },
+        {
+          "title": "春秋繁露/卷04",
+          "http_code": 200,
+          "chars": 4032,
+          "sha256": "48df3166febcabcdbe5a1bcdee91bab8842002ebe66f7fcb7760cf4366f9af14",
+          "start": 13448,
+          "end": 17480
+        },
+        {
+          "title": "春秋繁露/卷05",
+          "http_code": 200,
+          "chars": 3411,
+          "sha256": "379cfcfd722df500f2225fbc4cf2e0bed2c7178ac78f7482f8f468b7169d72a3",
+          "start": 17481,
+          "end": 20892
+        },
+        {
+          "title": "春秋繁露/卷06",
+          "http_code": 200,
+          "chars": 4360,
+          "sha256": "84e143d5548a17e5110b1adb08c5d2ea6d055dad34d02dfe1b54dadf0f2a7b96",
+          "start": 20893,
+          "end": 25253
+        },
+        {
+          "title": "春秋繁露/卷07",
+          "http_code": 200,
+          "chars": 6430,
+          "sha256": "f61a8088ad91a5054b7d3076e17f5648c4e95afe065567ddb598603b9e982d62",
+          "start": 25254,
+          "end": 31684
+        },
+        {
+          "title": "春秋繁露/卷08",
+          "http_code": 200,
+          "chars": 5812,
+          "sha256": "e21edfd51e70b56d0c0e72c37529f8e5cd6df4a023ba0dab4d106efd7f0f6028",
+          "start": 31685,
+          "end": 37497
+        },
+        {
+          "title": "春秋繁露/卷09",
+          "http_code": 200,
+          "chars": 3084,
+          "sha256": "bd9288a2639644bc4192111e2dccdcd2b4e8762170744cd2860514fa993ade30",
+          "start": 37498,
+          "end": 40582
+        },
+        {
+          "title": "春秋繁露/卷10",
+          "http_code": 200,
+          "chars": 3966,
+          "sha256": "08ab97af69cb37ce0c446698622773119f8e56538ecfb0c4453d393ce137741b",
+          "start": 40583,
+          "end": 44549
+        },
+        {
+          "title": "春秋繁露/卷11",
+          "http_code": 200,
+          "chars": 4915,
+          "sha256": "97605667f2923c537ef011f6810bb64c15170aedceffcebe6cf99190abda80cd",
+          "start": 44550,
+          "end": 49465
+        },
+        {
+          "title": "春秋繁露/卷12",
+          "http_code": 200,
+          "chars": 3343,
+          "sha256": "eb7589a4c24e3208c5899f58d2e349562b70da11eb7baca4dde937f6e0b061b2",
+          "start": 49466,
+          "end": 52809
+        },
+        {
+          "title": "春秋繁露/卷13",
+          "http_code": 200,
+          "chars": 4702,
+          "sha256": "83b33074a2a2e8344d1b73ce9074b42fd7e8ab8e69c5ee73f662812620b80b6a",
+          "start": 52810,
+          "end": 57512
+        },
+        {
+          "title": "春秋繁露/卷14",
+          "http_code": 200,
+          "chars": 2711,
+          "sha256": "a8088b246ef674bdc52f7780c8b5157ea5de526a5329b2ccf641db3729f60a40",
+          "start": 57513,
+          "end": 60224
+        },
+        {
+          "title": "春秋繁露/卷15",
+          "http_code": 200,
+          "chars": 3065,
+          "sha256": "07dd48fe2806da5181deaf9a7477a72ddbb19dce90193b87541feb4222433226",
+          "start": 60225,
+          "end": 63290
+        },
+        {
+          "title": "春秋繁露/卷16",
+          "http_code": 200,
+          "chars": 6354,
+          "sha256": "2e947c0e0bb4db3b537275341c319daae4002e3440a79e8d4120cd5eaf75a5fd",
+          "start": 63291,
+          "end": 69645
+        },
+        {
+          "title": "春秋繁露/卷17",
+          "http_code": 200,
+          "chars": 3772,
+          "sha256": "33970e619fcff3e20ea1f3c27de05fab870d13b30a552a7a430d0a15ec48a055",
+          "start": 69646,
+          "end": 73418
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/e9103adb8b3eea3f.txt",
+      "zh_cn": {
+        "file": "data/audit/source_texts/e9103adb8b3eea3f.zh-cn.txt",
+        "chars": 59334,
+        "sha256": "2c2b5399b3658ba130bce1a9838dfbf1bd4a807584f206f96391d404e04e5fac",
+        "api": "https://zh.wikipedia.org/w/api.php",
+        "variant": "zh-cn",
+        "method": "action=parse&contentmodel=wikitext&variant=zh-cn (POST text)",
+        "chunk_chars": 8000,
+        "chunks": 8,
+        "retries": 5,
+        "failed_chunks": 0,
+        "complete": true,
+        "converted_at": "2026-09-24T02:03:43+00:00",
+        "stale": true,
+        "stale_note": "repair 后原文变更，zh-cn 副本未重转（覆盖为修复前页面）",
+        "bytes": 176645
+      }
+    },
+    {
+      "key": "《理想国》",
+      "label": "理想国",
+      "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato",
+      "source_type": "wikisource",
+      "provider": "en.wikisource.org",
+      "lang": "en",
+      "script": "latn",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "The Republic of Plato",
+      "pageid": 3130162,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        11,
+        11
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 869588,
+      "bytes": 875660,
+      "sha256": "2f394627746d11624af64e1006ab7c3669806199cee65d5e9b4aa50980909813",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:39:09+00:00",
+      "pages": [
+        {
+          "title": "The Republic of Plato",
+          "http_code": 200,
+          "chars": 29195,
+          "sha256": "a67d7bb3e126ff9ca77c349f42bc2a19e7604fd1bcd2f03c742a77e43d8b6e8b",
+          "start": 0,
+          "end": 29195
+        },
+        {
+          "title": "The Republic of Plato/Book 1",
+          "http_code": 200,
+          "chars": 66077,
+          "sha256": "682507fae689931dabd1a6f5527d14b9aaec037260f8a1c44ac9421de7b2cdb8",
+          "start": 29196,
+          "end": 95273
+        },
+        {
+          "title": "The Republic of Plato/Book 2",
+          "http_code": 200,
+          "chars": 63023,
+          "sha256": "0e252fc4092b93464986090064776e5de5d7b082c891548e3032f625046697a1",
+          "start": 95274,
+          "end": 158297
+        },
+        {
+          "title": "The Republic of Plato/Book 3",
+          "http_code": 200,
+          "chars": 76981,
+          "sha256": "c2addf2af1d1e752030211e472d8550b6bf99ab966b78ee09625802eb2b62486",
+          "start": 158298,
+          "end": 235279
+        },
+        {
+          "title": "The Republic of Plato/Book 4",
+          "http_code": 200,
+          "chars": 62822,
+          "sha256": "92a261c6207bfaa77bfe3232764b5a888ee01e59719d69739f6d068c573592de",
+          "start": 235280,
+          "end": 298102
+        },
+        {
+          "title": "The Republic of Plato/Book 5",
+          "http_code": 200,
+          "chars": 76991,
+          "sha256": "f9afcfe198a687dd2a4cdf46fbe7c954b6963911e5c2bff1c564b7c828d3bf1e",
+          "start": 298103,
+          "end": 375094
+        },
+        {
+          "title": "The Republic of Plato/Book 6",
+          "http_code": 200,
+          "chars": 65974,
+          "sha256": "0e7800f7ef911102edad31dd7a84ee6629b42a33bcc9ee1a93f1d9b416613f05",
+          "start": 375095,
+          "end": 441069
+        },
+        {
+          "title": "The Republic of Plato/Book 7",
+          "http_code": 200,
+          "chars": 64406,
+          "sha256": "2568a228b0ec496ea1c145a4449ad5bb3476c911fc0932ce48c13ba08c898514",
+          "start": 441070,
+          "end": 505476
+        },
+        {
+          "title": "The Republic of Plato/Book 8",
+          "http_code": 200,
+          "chars": 62333,
+          "sha256": "4d22e36cd78783a1af0c9db6e2bf9dc3b40214d147b88b7f2d0895dd3829a4fc",
+          "start": 505477,
+          "end": 567810
+        },
+        {
+          "title": "The Republic of Plato/Book 9",
+          "http_code": 200,
+          "chars": 49591,
+          "sha256": "2c46ada9f7dbf8d4d123c00ceb2c0fb8430ec5a19e66a6e0ce6f4782ff66635f",
+          "start": 567811,
+          "end": 617402
+        },
+        {
+          "title": "The Republic of Plato/Book 10",
+          "http_code": 200,
+          "chars": 63762,
+          "sha256": "56a5147a51bba17a7262509a2ce3c85897e43dda6d01ca62c49a0c088b1fac7d",
+          "start": 617403,
+          "end": 681165
+        },
+        {
+          "title": "The Republic of Plato/Introduction",
+          "http_code": 200,
+          "chars": 188460,
+          "sha256": "93c2ae4c94640b8e4f9d5e008c737de36c1932c7c16cbdfe9e33ab53cd46cf38",
+          "start": 681166,
+          "end": 869626
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/389b2331100b5a3d.txt"
+    },
+    {
+      "key": "《陆九渊集》",
+      "label": "陆九渊集",
+      "url": "https://zh.wikisource.org/wiki/%E8%B1%A1%E5%B1%B1%E5%85%88%E7%94%9F%E5%85%A8%E9%9B%86_%28%E5%9B%9B%E9%83%A8%E5%8F%A2%E5%88%8A%E6%9C%AC%29",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource.org",
+      "lang": "lzh",
+      "script": "hant",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "象山先生全集 (四部叢刊本)",
+      "pageid": 805830,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        39,
+        39
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 278151,
+      "bytes": 779458,
+      "sha256": "7841cd4d22777961b43b0ca1e623453a17d67bc48466b01e717a64111962185d",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:39:52+00:00",
+      "pages": [
+        {
+          "title": "象山先生全集 (四部叢刊本)",
+          "http_code": 200,
+          "chars": 405,
+          "sha256": "a70bbcffc6077a4334efad6513be6ae5786a2dd8209475cb6b2d7dbbd553c70d",
+          "start": 0,
+          "end": 405
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/集序",
+          "http_code": 200,
+          "chars": 4760,
+          "sha256": "de77f814abed54f26c83879720cde986fc7ba2f171e86a95c76140cb579ff750",
+          "start": 406,
+          "end": 5166
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/目録",
+          "http_code": 200,
+          "chars": 3777,
+          "sha256": "2269e6627adca96ad09b74b01ece06a05be9579b3c069096253c60718fac6d22",
+          "start": 5167,
+          "end": 8944
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/附録",
+          "http_code": 200,
+          "chars": 1216,
+          "sha256": "fa7c55b18f2806867ddc43179454beb792f8324c1b6115565ef5486438f7152d",
+          "start": 8945,
+          "end": 10161
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第一",
+          "http_code": 200,
+          "chars": 8001,
+          "sha256": "e0b326fd86e95fcc1478ec9d9d390c9fd248fae4b05f19d0c91ae97f3a63855c",
+          "start": 10162,
+          "end": 18163
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二",
+          "http_code": 200,
+          "chars": 9454,
+          "sha256": "df9b7e9fd44e04d33eef346231ac2aa27a96456bd393a9d1e054b8115789f9b2",
+          "start": 18164,
+          "end": 27618
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第三",
+          "http_code": 200,
+          "chars": 6641,
+          "sha256": "e192c3c0874dc8e31de211c7be219d481eb9578798937383d489094e692cffdb",
+          "start": 27619,
+          "end": 34260
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第四",
+          "http_code": 200,
+          "chars": 6417,
+          "sha256": "20970045791f324ba9858d7a5febb3fb839f6eceee8b8c7934f7bd0429b48c9a",
+          "start": 34261,
+          "end": 40678
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第五",
+          "http_code": 200,
+          "chars": 6785,
+          "sha256": "888ce5a94d60a8cf0f03cd2c6c0c4ae0360fd1e06bbddd341eae0767b042e6f5",
+          "start": 40679,
+          "end": 47464
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第六",
+          "http_code": 200,
+          "chars": 7985,
+          "sha256": "16b565b9b5513d697cb0f2bb9b1ad68caf3c91af9fd0b877ed373462e787786e",
+          "start": 47465,
+          "end": 55450
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第七",
+          "http_code": 200,
+          "chars": 7023,
+          "sha256": "bef44b7391716903ba0678e0058479c86f98e2e54e7eb66d675d2ff34fc3fa01",
+          "start": 55451,
+          "end": 62474
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第八",
+          "http_code": 200,
+          "chars": 6810,
+          "sha256": "3b8455ce879d71da767e3bf4f8e65d86e8126c78b51551cfd20f69b8cec7bedc",
+          "start": 62475,
+          "end": 69285
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第九",
+          "http_code": 200,
+          "chars": 5473,
+          "sha256": "461fb41b022810aa64778a18978a2cb9f2b3f8812b5668e5cbe44e6df94c0eae",
+          "start": 69286,
+          "end": 74759
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十",
+          "http_code": 200,
+          "chars": 5590,
+          "sha256": "a451365583628b970ae4a040e920f4b77ed1d3eb8a45161ca6c54765c5f05501",
+          "start": 74760,
+          "end": 80350
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十一",
+          "http_code": 200,
+          "chars": 6893,
+          "sha256": "e39271dae43764353fbf1d3d1c1a0cfb843f89c4178f899e39e7d37aa9588aa2",
+          "start": 80351,
+          "end": 87244
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十二",
+          "http_code": 200,
+          "chars": 7251,
+          "sha256": "a8fab2e6cc66145748687aad985aefaa87a6e1e62c5e67c0d1e4bba988b82b8c",
+          "start": 87245,
+          "end": 94496
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十三",
+          "http_code": 200,
+          "chars": 5440,
+          "sha256": "b441926995cc31b5ece73618d3fba450e35ea42d5d4c9a168c07264e1d81a919",
+          "start": 94497,
+          "end": 99937
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十四",
+          "http_code": 200,
+          "chars": 4695,
+          "sha256": "79bb1c67df4586b7ee98b69579cad52d0007525c9425cf2d4754754bdedeaffe",
+          "start": 99938,
+          "end": 104633
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十五",
+          "http_code": 200,
+          "chars": 5222,
+          "sha256": "73b7ffbde8685a6257015fc6809d08b19232f9f94f77352aa5c8c43c36ff957c",
+          "start": 104634,
+          "end": 109856
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十六",
+          "http_code": 200,
+          "chars": 5207,
+          "sha256": "c490b2e5b3457235a10924fdaa2f8ffec6c2156e971c02383c07cce4d1f759f9",
+          "start": 109857,
+          "end": 115064
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十七",
+          "http_code": 200,
+          "chars": 4133,
+          "sha256": "337288b6ecb71eae62de2d08b6d7e002b77c122f680bbcd893cdc2c7cd1c95bc",
+          "start": 115065,
+          "end": 119198
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十八",
+          "http_code": 200,
+          "chars": 2980,
+          "sha256": "d936d37c9174fe984b19fae235953917855263e22d4d566cbf7ee7bdb21eb73d",
+          "start": 119199,
+          "end": 122179
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第十九",
+          "http_code": 200,
+          "chars": 7633,
+          "sha256": "b9ee9fac991db3ab156518d91d921ab4ec5494241033e697710752faa1a99ebd",
+          "start": 122180,
+          "end": 129813
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十",
+          "http_code": 200,
+          "chars": 6495,
+          "sha256": "e57477d1aa92cae412a3de4d458bbbc932b32faa87665cca676b7084fdee2062",
+          "start": 129814,
+          "end": 136309
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十一",
+          "http_code": 200,
+          "chars": 4729,
+          "sha256": "afe668f0022a66269f9e5dd4b40a655b05c8bf0c196dbca754e548f961926849",
+          "start": 136310,
+          "end": 141039
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十二",
+          "http_code": 200,
+          "chars": 4393,
+          "sha256": "b8bb5e6ec24cf0fe680072252d39871dbf9e8fc1e3280023eb18f5bdd167c366",
+          "start": 141040,
+          "end": 145433
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十三",
+          "http_code": 200,
+          "chars": 5862,
+          "sha256": "5d477e2ac0a0e8ea7d5374c1e3b4664e00319c00a668388f18b916f52a040566",
+          "start": 145434,
+          "end": 151296
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十四",
+          "http_code": 200,
+          "chars": 7153,
+          "sha256": "11066aee6e4a99176bf175778beaa26db2cc1c5e438708d644d746b09facbe8e",
+          "start": 151297,
+          "end": 158450
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十五",
+          "http_code": 200,
+          "chars": 1917,
+          "sha256": "3780c1826541dc66a831f5e2f9d57a5bbf405694cf2c7597980c051b444980b0",
+          "start": 158451,
+          "end": 160368
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十六",
+          "http_code": 200,
+          "chars": 3385,
+          "sha256": "62fe201dcf03fc8a60532979bb0a06ef77607bb2895df45834cb9bb6141be682",
+          "start": 160369,
+          "end": 163754
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十七",
+          "http_code": 200,
+          "chars": 4132,
+          "sha256": "5ec31ab80eaf46a37fe7d3ecdb2e7c76b3477f3639a83c8789d836686ff80113",
+          "start": 163755,
+          "end": 167887
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十八",
+          "http_code": 200,
+          "chars": 6795,
+          "sha256": "76080d598de95d483c982496c0c585fc51d195cfc667e368355107052a283b95",
+          "start": 167888,
+          "end": 174683
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第二十九",
+          "http_code": 200,
+          "chars": 5591,
+          "sha256": "bb7e27f2bde686415ff202862970696bb23928b89e131345480a036c11d44fb4",
+          "start": 174684,
+          "end": 180275
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第三十",
+          "http_code": 200,
+          "chars": 10087,
+          "sha256": "b060dddd8b8e01ca15d95981e30f2f11880657f9fc0884860cedfab39a06c7d9",
+          "start": 180276,
+          "end": 190363
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第三十一",
+          "http_code": 200,
+          "chars": 4608,
+          "sha256": "2c1a3b3d10208b0efd4051fee70ee65671b4d566357fa38c38a2281b7f5c04b5",
+          "start": 190364,
+          "end": 194972
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第三十二",
+          "http_code": 200,
+          "chars": 6711,
+          "sha256": "a3cfdcf7cb0a1b14449392e07c6c5ec1488cd24c758e665cb25681943a30e326",
+          "start": 194973,
+          "end": 201684
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第三十三",
+          "http_code": 200,
+          "chars": 5562,
+          "sha256": "18bae040babb2b57dc16e587ac4ae4bf21fdc9c09910332ec3635ca5b78e9f02",
+          "start": 201685,
+          "end": 207247
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第三十四",
+          "http_code": 200,
+          "chars": 19068,
+          "sha256": "c1ec8a81c4d1a8a8d9ffcad5e7b0eecbcec32385fe864d81e888a483b489025f",
+          "start": 207248,
+          "end": 226316
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第三十五",
+          "http_code": 200,
+          "chars": 22306,
+          "sha256": "29aecfef27eec0cab733034a9b6ef33d05e8d0199eb4b5164e0e6b4f16573c28",
+          "start": 226317,
+          "end": 248623
+        },
+        {
+          "title": "象山先生全集 (四部叢刊本)/卷第三十六",
+          "http_code": 200,
+          "chars": 29566,
+          "sha256": "34456899ab54b8ede3baf2adb4b7258f49f5b36a592b1f8d10d299d312dc9eb1",
+          "start": 248624,
+          "end": 278190
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/3249682cf8e37e12.txt"
+    },
+    {
+      "key": "《庄子注》",
+      "label": "庄子注",
+      "url": "https://zh.wikisource.org/wiki/%E8%8D%98%E5%AD%90%E6%B3%A8_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource.org",
+      "lang": "lzh",
+      "script": "hant",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "荘子注 (四庫全書本)",
+      "pageid": 261787,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        11,
+        11
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 302754,
+      "bytes": 906141,
+      "sha256": "dc62d030f5808bf2f65b80a0625b87176f16f80dbfcd56b1ba34f2710e6a98a5",
+      "truncated": false,
+      "fetched_at": "2026-09-24T03:07:47+00:00",
+      "pages": [
+        {
+          "title": "荘子注 (四庫全書本)",
+          "http_code": 200,
+          "chars": 1457,
+          "sha256": "db90b8f5546a7bccfbce5c1a4e61302ffc147d2a3c1b09433f69cbeb890a22bd",
+          "start": 0,
+          "end": 1457
+        },
+        {
+          "title": "荘子注 (四庫全書本)/全覽",
+          "http_code": 200,
+          "chars": 150706,
+          "sha256": "f5d018522319160ee33f6912c3d64595c329db68c06e9a770f01ac76a2530dd8",
+          "start": 1458,
+          "end": 152164
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷01",
+          "http_code": 200,
+          "chars": 16683,
+          "sha256": "a376caa993f936197da3fbe386cef81b21c0e992ef7f511ab105803b48d80cd5",
+          "start": 152165,
+          "end": 168848
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷02",
+          "http_code": 200,
+          "chars": 15191,
+          "sha256": "d029fd2decb16fe7c82d932bab2b2b5d1ccda2e9ff4eb4265b58528668e55dc5",
+          "start": 168849,
+          "end": 184040
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷03",
+          "http_code": 200,
+          "chars": 12293,
+          "sha256": "ce47a814f2ff30d4a0fe2550f25531de39cba409564abf04fd64da52ae7c1cf5",
+          "start": 184041,
+          "end": 196334
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷04",
+          "http_code": 200,
+          "chars": 12893,
+          "sha256": "a6fb6f3d43da19c96074214e7a507d1d13999dc6f8b266f3f593872dae63f449",
+          "start": 196335,
+          "end": 209228
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷05",
+          "http_code": 200,
+          "chars": 16260,
+          "sha256": "a94b38f14d951528db8cdfe84be118c4f865eb787e826a367be84e46b5747e3c",
+          "start": 209229,
+          "end": 225489
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷06",
+          "http_code": 200,
+          "chars": 11816,
+          "sha256": "76384b932022eaeb41ad2f04a2baafe75b1a1a02e5137adc6f26d93e80ddd912",
+          "start": 225490,
+          "end": 237306
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷07",
+          "http_code": 200,
+          "chars": 17575,
+          "sha256": "7a3dc5d09938ff3cac0330dacde9199170e9a1bad2e47b18a2ba60e6ee6bf49b",
+          "start": 237307,
+          "end": 254882
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷08",
+          "http_code": 200,
+          "chars": 20334,
+          "sha256": "5eba8cf51bc67ea1c66fc0094f5835732de3c50d1eff50f6575b67445361efe2",
+          "start": 254883,
+          "end": 275217
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷09",
+          "http_code": 200,
+          "chars": 13906,
+          "sha256": "f87114f0eaaf6a1118ab333473bc80d9434a754bef03978f5bca8e57f870e62c",
+          "start": 275218,
+          "end": 289124
+        },
+        {
+          "title": "荘子注 (四庫全書本)/卷10",
+          "http_code": 200,
+          "chars": 13756,
+          "sha256": "fe9e22e7b74349f128d8c7a5bb30f501bbd6f831820821b5378da493edb83b1a",
+          "start": 289125,
+          "end": 302881
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/9467873b3e0f5389.txt"
+    },
+    {
+      "key": "《老子注》",
+      "label": "老子注",
+      "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource.org",
+      "lang": "lzh",
+      "script": "hant",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "道德經 (王弼本)",
+      "pageid": 52296,
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 32760,
+      "bytes": 89862,
+      "sha256": "a73001d1307f8d455676507e4bdd6a7a025afebe27ceb5bc3d23ace91a066446",
+      "truncated": false,
+      "fetched_at": "2026-09-24T03:14:10+00:00",
+      "pages": [
+        {
+          "title": "道德經 (王弼本)",
+          "http_code": 200,
+          "chars": 32836,
+          "sha256": "169c99947e068faf9064bb193e3c1b2fa94c05fd79a7105fd6796f1c713d2a40",
+          "start": 0,
+          "end": 32836
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/a61ea9e62713fcb0.txt",
+      "zh_cn": {
+        "file": "data/audit/source_texts/a61ea9e62713fcb0.zh-cn.txt",
+        "chars": 32833,
+        "sha256": "d284be281114fe3dd3639252dce2123ab695b4841030e44cb574293a7b3a8e3d",
+        "api": "https://zh.wikipedia.org/w/api.php",
+        "variant": "zh-cn",
+        "method": "action=parse&contentmodel=wikitext&variant=zh-cn (POST text)",
+        "chunk_chars": 8000,
+        "chunks": 5,
+        "retries": 5,
+        "failed_chunks": 0,
+        "complete": true,
+        "converted_at": "2026-09-24T03:14:41+00:00",
+        "bytes": 89941
+      }
+    },
+    {
+      "key": "《俄狄浦斯王》",
+      "label": "俄狄浦斯王",
+      "url": "https://el.wikisource.org/wiki/%CE%9F%CE%B9%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82_%CE%A4%CF%8D%CF%81%CE%B1%CE%BD%CE%BD%CE%BF%CF%82",
+      "source_type": "wikisource",
+      "provider": "el.wikisource.org",
+      "lang": "grc",
+      "script": "grek",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "raw",
+      "index_title": "Οιδίπους Τύραννος",
+      "pageid": 1928,
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 56126,
+      "bytes": 108571,
+      "sha256": "1ba6f2e4769ff7aba414c264b4e9c5e45d1c2e44eba8c60c19fecb040e878ed4",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:36:33+00:00",
+      "pages": [
+        {
+          "title": "Οιδίπους Τύραννος",
+          "http_code": 200,
+          "chars": 56125,
+          "sha256": "b2637ec19777a2e3dd70102a43b315e9b21fadab1cc8230b2a7491b3fdb82224",
+          "start": 0,
+          "end": 56125
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/babdd9260526b76c.txt"
+    },
+    {
+      "key": "《伊利亚特》",
+      "label": "伊利亚特",
+      "url": "https://el.wikisource.org/wiki/%CE%99%CE%BB%CE%B9%CE%AC%CF%82",
+      "source_type": "wikisource",
+      "provider": "el.wikisource.org",
+      "lang": "grc",
+      "script": "grek",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "Ιλιάς",
+      "pageid": 1327,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        24,
+        24
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 725855,
+      "bytes": 1392530,
+      "sha256": "69b03b03d874a283254dfb84cdabb535f4bc46c375443b5fe5446b1d25701f7a",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:50:18+00:00",
+      "pages": [
+        {
+          "title": "Ιλιάς",
+          "http_code": 200,
+          "chars": 677,
+          "sha256": "f386feb5c87c691044089d88266c330395608cca7e28d00635c1b73272b0295d",
+          "start": 0,
+          "end": 677
+        },
+        {
+          "title": "Ιλιάς/Α",
+          "http_code": 200,
+          "chars": 28529,
+          "sha256": "beb1d00f86ff0ba142aeed00da25e71b219fd925c6813ae53b0ae51289e1cf7a",
+          "start": 678,
+          "end": 29207
+        },
+        {
+          "title": "Ιλιάς/Β",
+          "http_code": 200,
+          "chars": 39725,
+          "sha256": "b4764da1be516962152ec2b5754bd2082203282e3f238ef1e4fa20453e13b3f9",
+          "start": 29208,
+          "end": 68933
+        },
+        {
+          "title": "Ιλιάς/Γ",
+          "http_code": 200,
+          "chars": 21284,
+          "sha256": "41ff46f6c49484f77e22dab7ecec0edc14e3a833fd858866a48ee6bc0eaba81a",
+          "start": 68934,
+          "end": 90218
+        },
+        {
+          "title": "Ιλιάς/Δ",
+          "http_code": 200,
+          "chars": 25010,
+          "sha256": "61cec2223f5d169b64122a63e9458f56c9211deb49de448a12941494f44780ba",
+          "start": 90219,
+          "end": 115229
+        },
+        {
+          "title": "Ιλιάς/Ε",
+          "http_code": 200,
+          "chars": 41648,
+          "sha256": "aaa770513507192b33d20ff9e357ce364b19288c79e0dfa6d8b1118b2c6b8a1a",
+          "start": 115230,
+          "end": 156878
+        },
+        {
+          "title": "Ιλιάς/Ζ",
+          "http_code": 200,
+          "chars": 24379,
+          "sha256": "d2015f2f0fc23297a988115f3bea8af6c88488886bcba4b88b7625d9d5d57f0c",
+          "start": 156879,
+          "end": 181258
+        },
+        {
+          "title": "Ιλιάς/Η",
+          "http_code": 200,
+          "chars": 22151,
+          "sha256": "674ade30661d4f4dac105739e1d75d930b8da8a5c1830daafbb79bc05792bba2",
+          "start": 181259,
+          "end": 203410
+        },
+        {
+          "title": "Ιλιάς/Θ",
+          "http_code": 200,
+          "chars": 25820,
+          "sha256": "0c0bc8b67d28824b702fbb3ea07fd8f431f75afb7ff464c4b570f5387a80615a",
+          "start": 203411,
+          "end": 229231
+        },
+        {
+          "title": "Ιλιάς/Ι",
+          "http_code": 200,
+          "chars": 32738,
+          "sha256": "1941b08e4f4c85c98f39f7b0c1589f2bf159bde42083a951f0eed02a41b728c6",
+          "start": 229232,
+          "end": 261970
+        },
+        {
+          "title": "Ιλιάς/Κ",
+          "http_code": 200,
+          "chars": 26922,
+          "sha256": "22b56a59039bc754d2d600a50ba3d95b1092e6555465d8c808b3e4a4ac24e9ac",
+          "start": 261971,
+          "end": 288893
+        },
+        {
+          "title": "Ιλιάς/Λ",
+          "http_code": 200,
+          "chars": 39098,
+          "sha256": "e910bdd21d553bfff650700966d9d877288f540b858e8f8d933635aefd3e7d26",
+          "start": 288894,
+          "end": 327992
+        },
+        {
+          "title": "Ιλιάς/Μ",
+          "http_code": 200,
+          "chars": 21713,
+          "sha256": "000f3ca6337c960a2a5103241e901cb678cc67a66f02e2dd43e651b153cf9e4e",
+          "start": 327993,
+          "end": 349706
+        },
+        {
+          "title": "Ιλιάς/Ν",
+          "http_code": 200,
+          "chars": 38687,
+          "sha256": "6b684a33ed995a58b298341320c4f79b65646318d87bcfbb013ffcb025d762f3",
+          "start": 349707,
+          "end": 388394
+        },
+        {
+          "title": "Ιλιάς/Ξ",
+          "http_code": 200,
+          "chars": 24171,
+          "sha256": "e30a9855a88a45197ea34f296441384ec5c032f020c7ace64f326c9e940dc321",
+          "start": 388395,
+          "end": 412566
+        },
+        {
+          "title": "Ιλιάς/Ο",
+          "http_code": 200,
+          "chars": 34435,
+          "sha256": "a63665a9cbc5af72ba0fd26a52d26a501d079149a32ac8da4e5ea7e7b19b8363",
+          "start": 412567,
+          "end": 447002
+        },
+        {
+          "title": "Ιλιάς/Π",
+          "http_code": 200,
+          "chars": 40109,
+          "sha256": "7737aeed70dfb00b9513635819b8010cefcf4530600138d141e81f2aed6c2ce9",
+          "start": 447003,
+          "end": 487112
+        },
+        {
+          "title": "Ιλιάς/Ρ",
+          "http_code": 200,
+          "chars": 35086,
+          "sha256": "7ed29add1a081fd70dddd635a376d345fc97f6c660016f4dfb3ee70717544f46",
+          "start": 487113,
+          "end": 522199
+        },
+        {
+          "title": "Ιλιάς/Σ",
+          "http_code": 200,
+          "chars": 28638,
+          "sha256": "eaecd0f0933de234d5a0d3df04f5611830462680cae59a2cdaa951295074c2c6",
+          "start": 522200,
+          "end": 550838
+        },
+        {
+          "title": "Ιλιάς/Τ",
+          "http_code": 200,
+          "chars": 19834,
+          "sha256": "46a5743fa9fd7c19b5a5371108b3f6bad21e0bd4209625871578a727a543714b",
+          "start": 550839,
+          "end": 570673
+        },
+        {
+          "title": "Ιλιάς/Υ",
+          "http_code": 200,
+          "chars": 23278,
+          "sha256": "be4bedebda8d7febc5694594eac1a99c3ba370e0142bafbdafe9fdf039df7ee0",
+          "start": 570674,
+          "end": 593952
+        },
+        {
+          "title": "Ιλιάς/Φ",
+          "http_code": 200,
+          "chars": 28515,
+          "sha256": "56c6f8b00b179a60b642fae0d09fe1c836c8cd771bbdb9d709d15db02c616805",
+          "start": 593953,
+          "end": 622468
+        },
+        {
+          "title": "Ιλιάς/Χ",
+          "http_code": 200,
+          "chars": 24044,
+          "sha256": "7ebe6f421c49f659e3211d9ed9d8a79a53234869da0b2bdfa0aa7c83d5bcc243",
+          "start": 622469,
+          "end": 646513
+        },
+        {
+          "title": "Ιλιάς/Ψ",
+          "http_code": 200,
+          "chars": 41673,
+          "sha256": "4e84a4eec2efa5e0baf36414252b65457a1580a8c865c338f688d040f05393e5",
+          "start": 646514,
+          "end": 688187
+        },
+        {
+          "title": "Ιλιάς/Ω",
+          "http_code": 200,
+          "chars": 37706,
+          "sha256": "55864c2855054bb41c5b58753ca37e677eeb2111a1ae0dbe04eb0b622afddbc8",
+          "start": 688188,
+          "end": 725894
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/38547dad5e17125f.txt"
+    },
+    {
+      "key": "《奥德赛》",
+      "label": "奥德赛",
+      "url": "https://el.wikisource.org/wiki/%CE%9F%CE%B4%CF%8D%CF%83%CF%83%CE%B5%CE%B9%CE%B1",
+      "source_type": "wikisource",
+      "provider": "el.wikisource.org",
+      "lang": "grc",
+      "script": "grek",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "Οδύσσεια",
+      "pageid": 1326,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        24,
+        24
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 574959,
+      "bytes": 1075726,
+      "sha256": "2671c3995347961338317095a2df22265636c416a3d41f3d0ef13b46908d00cc",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:16:35+00:00",
+      "pages": [
+        {
+          "title": "Οδύσσεια",
+          "http_code": 200,
+          "chars": 2398,
+          "sha256": "275cfaac93b4e35f287b3d5149d1984129fa5fd685c194d498829e1fb9f1cdb1",
+          "start": 0,
+          "end": 2398
+        },
+        {
+          "title": "Οδύσσεια/α",
+          "http_code": 200,
+          "chars": 20975,
+          "sha256": "2a25a2c4a36fd3ce49a6446895d38e00ea8da926b0e0eb30b29461bf399fe6d3",
+          "start": 2399,
+          "end": 23374
+        },
+        {
+          "title": "Οδύσσεια/β",
+          "http_code": 200,
+          "chars": 20671,
+          "sha256": "ebe37dc562342eb6b092a958920ed27b69e0ce0152713743925736761e92ce0a",
+          "start": 23375,
+          "end": 44046
+        },
+        {
+          "title": "Οδύσσεια/γ",
+          "http_code": 200,
+          "chars": 23633,
+          "sha256": "d9e144095df06094d982ca8acf11afbe807ec866c2534117509836c2ab21fb14",
+          "start": 44047,
+          "end": 67680
+        },
+        {
+          "title": "Οδύσσεια/δ",
+          "http_code": 200,
+          "chars": 40090,
+          "sha256": "44fbccf736b40e600c9471a4e79901dd38732a3113682daec0033b05d433cb2b",
+          "start": 67681,
+          "end": 107771
+        },
+        {
+          "title": "Οδύσσεια/ε",
+          "http_code": 200,
+          "chars": 23343,
+          "sha256": "284082a480800962a107190800a04d4ffbe82d455c87e2bda353fd653fd05acf",
+          "start": 107772,
+          "end": 131115
+        },
+        {
+          "title": "Οδύσσεια/ζ",
+          "http_code": 200,
+          "chars": 15744,
+          "sha256": "e8d8dca738305a22faedfccbacb2bb9c77d0a3044295bbd01a194998528a6e7a",
+          "start": 131116,
+          "end": 146860
+        },
+        {
+          "title": "Οδύσσεια/η",
+          "http_code": 200,
+          "chars": 16401,
+          "sha256": "723919bf53fa97b6bc1a8a0fa91514076586086c948a539a6d7e84a75704df9f",
+          "start": 146861,
+          "end": 163262
+        },
+        {
+          "title": "Οδύσσεια/θ",
+          "http_code": 200,
+          "chars": 27765,
+          "sha256": "1fb3154fd213918a34492dc68bdcd354201234bba60d24fddae7ca2f474ddfbc",
+          "start": 163263,
+          "end": 191028
+        },
+        {
+          "title": "Οδύσσεια/ι",
+          "http_code": 200,
+          "chars": 26831,
+          "sha256": "2345865ed62bb7e7a2aba2900db7671d93665d6045c023cab816165d7423263a",
+          "start": 191029,
+          "end": 217860
+        },
+        {
+          "title": "Οδύσσεια/κ",
+          "http_code": 200,
+          "chars": 27209,
+          "sha256": "e1c7fc5bb1f22bcaa59bca717d7105a0fec21ee9cfbac82f7d0486536cea9386",
+          "start": 217861,
+          "end": 245070
+        },
+        {
+          "title": "Οδύσσεια/λ",
+          "http_code": 200,
+          "chars": 29901,
+          "sha256": "70892bcf424ce79d67e9bc2bd199af6345fd36d4497f7884da2dd42323be2ea6",
+          "start": 245071,
+          "end": 274972
+        },
+        {
+          "title": "Οδύσσεια/μ",
+          "http_code": 200,
+          "chars": 21283,
+          "sha256": "73ba34430cd7d7027d34aabeab9773e6100255c1d0e0f81a6c8d8df3361c4cc4",
+          "start": 274973,
+          "end": 296256
+        },
+        {
+          "title": "Οδύσσεια/ν",
+          "http_code": 200,
+          "chars": 20769,
+          "sha256": "ac09b45ddde74f1cdd5be3c2faf5f73b78953794f6ff68b299d6f21c5e7045c3",
+          "start": 296257,
+          "end": 317026
+        },
+        {
+          "title": "Οδύσσεια/ξ",
+          "http_code": 200,
+          "chars": 25275,
+          "sha256": "82449c18aff423b452161b4a37961ef75b5a26dc8f86ec55db5414f141a243e1",
+          "start": 317027,
+          "end": 342302
+        },
+        {
+          "title": "Οδύσσεια/ο",
+          "http_code": 200,
+          "chars": 25897,
+          "sha256": "16967c1531c58ed9e331614c266a238604d340295a7423e99c6065b68b60c897",
+          "start": 342303,
+          "end": 368200
+        },
+        {
+          "title": "Οδύσσεια/π",
+          "http_code": 200,
+          "chars": 22411,
+          "sha256": "44b56b75408be2e603e863abfbb8b9054168041d6ba76b0d9e2e5778a97faf87",
+          "start": 368201,
+          "end": 390612
+        },
+        {
+          "title": "Οδύσσεια/ρ",
+          "http_code": 200,
+          "chars": 28798,
+          "sha256": "fd7a58f27da954b94f66fe5b2e8bd2abe0589540e079036dbf52d4ec2c978eef",
+          "start": 390613,
+          "end": 419411
+        },
+        {
+          "title": "Οδύσσεια/σ",
+          "http_code": 200,
+          "chars": 20343,
+          "sha256": "6121a716d7fd64cf7974e2a619743f9ca4e299fa98e1d72b256bb6630fee0d18",
+          "start": 419412,
+          "end": 439755
+        },
+        {
+          "title": "Οδύσσεια/τ",
+          "http_code": 200,
+          "chars": 28589,
+          "sha256": "4967aab97e51d924b82e6d274a253582cef24916ef7600087ec583c424218abc",
+          "start": 439756,
+          "end": 468345
+        },
+        {
+          "title": "Οδύσσεια/υ",
+          "http_code": 200,
+          "chars": 18732,
+          "sha256": "4586a165f3c0834dbae9949de09c8aa1d18a653f2365b39b095b3d9a4a6c7e78",
+          "start": 468346,
+          "end": 487078
+        },
+        {
+          "title": "Οδύσσεια/φ",
+          "http_code": 200,
+          "chars": 20517,
+          "sha256": "6eaad6df551b4f2c9aaad6004ac394b902390e1588789c7db22a736862f723e3",
+          "start": 487079,
+          "end": 507596
+        },
+        {
+          "title": "Οδύσσεια/χ",
+          "http_code": 200,
+          "chars": 23857,
+          "sha256": "2169806c3a6483c7e273323ab74412bb91e92a0f47f5fe55ae80bdbcec95527e",
+          "start": 507597,
+          "end": 531454
+        },
+        {
+          "title": "Οδύσσεια/ψ",
+          "http_code": 200,
+          "chars": 17615,
+          "sha256": "98f601ee231c69566d1cd6abafd756e204a0ef1bd039fb72d23e6f3263d9504b",
+          "start": 531455,
+          "end": 549070
+        },
+        {
+          "title": "Οδύσσεια/ω",
+          "http_code": 200,
+          "chars": 25927,
+          "sha256": "d2f70887019936c0dd423e1bd0534f1404f4000a4d36f795cf7a4bb10712b157",
+          "start": 549071,
+          "end": 574998
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/f3c7e8f6bb23c6a7.txt"
+    },
+    {
+      "key": "《河南程氏遗书》",
+      "label": "河南程氏遗书",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource.org",
+      "lang": "lzh",
+      "script": "hant",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "raw",
+      "index_title": "二程遺書",
+      "pageid": 114425,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        25,
+        25
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 192261,
+      "bytes": 568987,
+      "sha256": "33dc4e62dd3bf3367536b22d62388e12389197ce33d32fc9d6deece2a6aa91cb",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:30:55+00:00",
+      "pages": [
+        {
+          "title": "二程遺書",
+          "http_code": 200,
+          "chars": 285,
+          "sha256": "5d2ad6125d660b7e8b98359c99480848237ff33e0b827804e1e96128c65a5191",
+          "start": 0,
+          "end": 285
+        },
+        {
+          "title": "二程遺書/卷01",
+          "http_code": 200,
+          "chars": 6515,
+          "sha256": "3c2a87e4865d87185b0bdaea45fe35f383de2808baa3f6597d7efe57bd92fdaa",
+          "start": 286,
+          "end": 6801
+        },
+        {
+          "title": "二程遺書/卷02",
+          "http_code": 200,
+          "chars": 26463,
+          "sha256": "fdd6571ce6efb10335380d3d9be097a83441fbca730bd76bb06a815bdb2cba99",
+          "start": 6802,
+          "end": 33265
+        },
+        {
+          "title": "二程遺書/卷03",
+          "http_code": 200,
+          "chars": 3943,
+          "sha256": "c109348126bb7bd3afe26d4a69cfd5d8faf97875a992bd6764fc51cf51cf14f5",
+          "start": 33266,
+          "end": 37209
+        },
+        {
+          "title": "二程遺書/卷04",
+          "http_code": 200,
+          "chars": 3598,
+          "sha256": "208ca00d16826c59be0393bd9e87f8abc307a1e997357ccb8a48764719c5762f",
+          "start": 37210,
+          "end": 40808
+        },
+        {
+          "title": "二程遺書/卷05",
+          "http_code": 200,
+          "chars": 1594,
+          "sha256": "e2c52350804ee18b714b263f2716486342b4234f00eb6a0141018a0de606042e",
+          "start": 40809,
+          "end": 42403
+        },
+        {
+          "title": "二程遺書/卷06",
+          "http_code": 200,
+          "chars": 6202,
+          "sha256": "85d5d3546e48ff21e38b4fd080933792078cd33582abd4255208b88ec4b421a9",
+          "start": 42404,
+          "end": 48606
+        },
+        {
+          "title": "二程遺書/卷07",
+          "http_code": 200,
+          "chars": 1485,
+          "sha256": "2db8b3253a1e69e6d30b01cdbcd9f94c057e9e32114dfc80e06cebc1d6d57b94",
+          "start": 48607,
+          "end": 50092
+        },
+        {
+          "title": "二程遺書/卷08",
+          "http_code": 200,
+          "chars": 1157,
+          "sha256": "689bb7b147d2834a77391ed3d8b6135b72e35470bb22c3e00645d86ed31f7de9",
+          "start": 50093,
+          "end": 51250
+        },
+        {
+          "title": "二程遺書/卷09",
+          "http_code": 200,
+          "chars": 2475,
+          "sha256": "9b1ddd7bded6c205162b2f024ed223c973bf54e02a977804b22462385130cf61",
+          "start": 51251,
+          "end": 53726
+        },
+        {
+          "title": "二程遺書/卷10",
+          "http_code": 200,
+          "chars": 3749,
+          "sha256": "ee720b81168507a1af89de7b0e5da3009c923df85f547126bfbe2cd42f3b3459",
+          "start": 53727,
+          "end": 57476
+        },
+        {
+          "title": "二程遺書/卷11",
+          "http_code": 200,
+          "chars": 8502,
+          "sha256": "94dbb26d2c5fc08b366c63f4c22fd838de3a4c86ba311f9fad23e947b6af81b8",
+          "start": 57477,
+          "end": 65979
+        },
+        {
+          "title": "二程遺書/卷12",
+          "http_code": 200,
+          "chars": 1119,
+          "sha256": "6d8e85687e4bc107d7bf75e645534fb074803a6fedb3747be2817b4cb4c9514b",
+          "start": 65980,
+          "end": 67099
+        },
+        {
+          "title": "二程遺書/卷13",
+          "http_code": 200,
+          "chars": 642,
+          "sha256": "a074aab7f76b58544384b286588ecfdeda1dbaf309eea4bcbec493fb1ac7a1b2",
+          "start": 67100,
+          "end": 67742
+        },
+        {
+          "title": "二程遺書/卷14",
+          "http_code": 200,
+          "chars": 1090,
+          "sha256": "b990dc1084f3f98ace654f000fee94a64d849c934e3dc059eab891b5277fc194",
+          "start": 67743,
+          "end": 68833
+        },
+        {
+          "title": "二程遺書/卷15",
+          "http_code": 200,
+          "chars": 17134,
+          "sha256": "27016e5efb244e4308850c894da04a3f48a6773f7e1d2a5cc1aaf4400d48b217",
+          "start": 68834,
+          "end": 85968
+        },
+        {
+          "title": "二程遺書/卷16",
+          "http_code": 200,
+          "chars": 377,
+          "sha256": "5e0daf693684183af8ebb184c4a22909b6fb29111855cffc0259f6b41366f8f4",
+          "start": 85969,
+          "end": 86346
+        },
+        {
+          "title": "二程遺書/卷17",
+          "http_code": 200,
+          "chars": 4158,
+          "sha256": "7e065c8662afa2e6be22ff736277e5701f3e24b10d71ea7e0580dfcc78681903",
+          "start": 86347,
+          "end": 90505
+        },
+        {
+          "title": "二程遺書/卷18",
+          "http_code": 200,
+          "chars": 41513,
+          "sha256": "9579b99d7cc0b0c20ea143684966b35da86e14173bcf5129a272601de658b9a6",
+          "start": 90506,
+          "end": 132019
+        },
+        {
+          "title": "二程遺書/卷19",
+          "http_code": 200,
+          "chars": 11263,
+          "sha256": "d95a6beb815a276054715b487014da054d5d561ca94b163c2a32de4bc7b92faf",
+          "start": 132020,
+          "end": 143283
+        },
+        {
+          "title": "二程遺書/卷20",
+          "http_code": 200,
+          "chars": 304,
+          "sha256": "877beb0f17145cef5ab96bb2bc0af0d30de6a63ed2f7e66261599a6e302b36bd",
+          "start": 143284,
+          "end": 143588
+        },
+        {
+          "title": "二程遺書/卷21",
+          "http_code": 200,
+          "chars": 5236,
+          "sha256": "87eea5ada0e374dd45d3eeb5bd17da1146cfd8c83abe3ef73eec17215fec8706",
+          "start": 143589,
+          "end": 148825
+        },
+        {
+          "title": "二程遺書/卷22",
+          "http_code": 200,
+          "chars": 16309,
+          "sha256": "3e0c655bd5c29d6e155badab2af5a6d757d45478e7cd7827f8cb262cc72cf39a",
+          "start": 148826,
+          "end": 165135
+        },
+        {
+          "title": "二程遺書/卷23",
+          "http_code": 200,
+          "chars": 3483,
+          "sha256": "211e890f590a42b8d2d13e12f95b8f587370e7a291582a07b5288f8fb6991cf4",
+          "start": 165136,
+          "end": 168619
+        },
+        {
+          "title": "二程遺書/卷24",
+          "http_code": 200,
+          "chars": 2405,
+          "sha256": "c85f700ae8c04a5269af502e1aa9e8a6e56f2b800f7911c3d052911e6f4dee15",
+          "start": 168620,
+          "end": 171025
+        },
+        {
+          "title": "二程遺書/卷25",
+          "http_code": 200,
+          "chars": 21234,
+          "sha256": "088831f3f01a855fd669f317bc78411b6812aab6a8ba20820da90712ea99c160",
+          "start": 171026,
+          "end": 192260
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/ae16eb8f9ce915c3.txt"
+    },
+    {
+      "key": "《二程遗书》",
+      "label": "二程遗书",
+      "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource.org",
+      "lang": "lzh",
+      "script": "hant",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "raw",
+      "index_title": "二程遺書",
+      "pageid": 114425,
+      "status": "ok-shared",
+      "coverage": "complete",
+      "subpages": [
+        25,
+        25
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 192261,
+      "bytes": 568987,
+      "sha256": "33dc4e62dd3bf3367536b22d62388e12389197ce33d32fc9d6deece2a6aa91cb",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:30:55+00:00",
+      "pages": [
+        {
+          "title": "二程遺書",
+          "http_code": 200,
+          "chars": 285,
+          "sha256": "5d2ad6125d660b7e8b98359c99480848237ff33e0b827804e1e96128c65a5191",
+          "start": 0,
+          "end": 285
+        },
+        {
+          "title": "二程遺書/卷01",
+          "http_code": 200,
+          "chars": 6515,
+          "sha256": "3c2a87e4865d87185b0bdaea45fe35f383de2808baa3f6597d7efe57bd92fdaa",
+          "start": 286,
+          "end": 6801
+        },
+        {
+          "title": "二程遺書/卷02",
+          "http_code": 200,
+          "chars": 26463,
+          "sha256": "fdd6571ce6efb10335380d3d9be097a83441fbca730bd76bb06a815bdb2cba99",
+          "start": 6802,
+          "end": 33265
+        },
+        {
+          "title": "二程遺書/卷03",
+          "http_code": 200,
+          "chars": 3943,
+          "sha256": "c109348126bb7bd3afe26d4a69cfd5d8faf97875a992bd6764fc51cf51cf14f5",
+          "start": 33266,
+          "end": 37209
+        },
+        {
+          "title": "二程遺書/卷04",
+          "http_code": 200,
+          "chars": 3598,
+          "sha256": "208ca00d16826c59be0393bd9e87f8abc307a1e997357ccb8a48764719c5762f",
+          "start": 37210,
+          "end": 40808
+        },
+        {
+          "title": "二程遺書/卷05",
+          "http_code": 200,
+          "chars": 1594,
+          "sha256": "e2c52350804ee18b714b263f2716486342b4234f00eb6a0141018a0de606042e",
+          "start": 40809,
+          "end": 42403
+        },
+        {
+          "title": "二程遺書/卷06",
+          "http_code": 200,
+          "chars": 6202,
+          "sha256": "85d5d3546e48ff21e38b4fd080933792078cd33582abd4255208b88ec4b421a9",
+          "start": 42404,
+          "end": 48606
+        },
+        {
+          "title": "二程遺書/卷07",
+          "http_code": 200,
+          "chars": 1485,
+          "sha256": "2db8b3253a1e69e6d30b01cdbcd9f94c057e9e32114dfc80e06cebc1d6d57b94",
+          "start": 48607,
+          "end": 50092
+        },
+        {
+          "title": "二程遺書/卷08",
+          "http_code": 200,
+          "chars": 1157,
+          "sha256": "689bb7b147d2834a77391ed3d8b6135b72e35470bb22c3e00645d86ed31f7de9",
+          "start": 50093,
+          "end": 51250
+        },
+        {
+          "title": "二程遺書/卷09",
+          "http_code": 200,
+          "chars": 2475,
+          "sha256": "9b1ddd7bded6c205162b2f024ed223c973bf54e02a977804b22462385130cf61",
+          "start": 51251,
+          "end": 53726
+        },
+        {
+          "title": "二程遺書/卷10",
+          "http_code": 200,
+          "chars": 3749,
+          "sha256": "ee720b81168507a1af89de7b0e5da3009c923df85f547126bfbe2cd42f3b3459",
+          "start": 53727,
+          "end": 57476
+        },
+        {
+          "title": "二程遺書/卷11",
+          "http_code": 200,
+          "chars": 8502,
+          "sha256": "94dbb26d2c5fc08b366c63f4c22fd838de3a4c86ba311f9fad23e947b6af81b8",
+          "start": 57477,
+          "end": 65979
+        },
+        {
+          "title": "二程遺書/卷12",
+          "http_code": 200,
+          "chars": 1119,
+          "sha256": "6d8e85687e4bc107d7bf75e645534fb074803a6fedb3747be2817b4cb4c9514b",
+          "start": 65980,
+          "end": 67099
+        },
+        {
+          "title": "二程遺書/卷13",
+          "http_code": 200,
+          "chars": 642,
+          "sha256": "a074aab7f76b58544384b286588ecfdeda1dbaf309eea4bcbec493fb1ac7a1b2",
+          "start": 67100,
+          "end": 67742
+        },
+        {
+          "title": "二程遺書/卷14",
+          "http_code": 200,
+          "chars": 1090,
+          "sha256": "b990dc1084f3f98ace654f000fee94a64d849c934e3dc059eab891b5277fc194",
+          "start": 67743,
+          "end": 68833
+        },
+        {
+          "title": "二程遺書/卷15",
+          "http_code": 200,
+          "chars": 17134,
+          "sha256": "27016e5efb244e4308850c894da04a3f48a6773f7e1d2a5cc1aaf4400d48b217",
+          "start": 68834,
+          "end": 85968
+        },
+        {
+          "title": "二程遺書/卷16",
+          "http_code": 200,
+          "chars": 377,
+          "sha256": "5e0daf693684183af8ebb184c4a22909b6fb29111855cffc0259f6b41366f8f4",
+          "start": 85969,
+          "end": 86346
+        },
+        {
+          "title": "二程遺書/卷17",
+          "http_code": 200,
+          "chars": 4158,
+          "sha256": "7e065c8662afa2e6be22ff736277e5701f3e24b10d71ea7e0580dfcc78681903",
+          "start": 86347,
+          "end": 90505
+        },
+        {
+          "title": "二程遺書/卷18",
+          "http_code": 200,
+          "chars": 41513,
+          "sha256": "9579b99d7cc0b0c20ea143684966b35da86e14173bcf5129a272601de658b9a6",
+          "start": 90506,
+          "end": 132019
+        },
+        {
+          "title": "二程遺書/卷19",
+          "http_code": 200,
+          "chars": 11263,
+          "sha256": "d95a6beb815a276054715b487014da054d5d561ca94b163c2a32de4bc7b92faf",
+          "start": 132020,
+          "end": 143283
+        },
+        {
+          "title": "二程遺書/卷20",
+          "http_code": 200,
+          "chars": 304,
+          "sha256": "877beb0f17145cef5ab96bb2bc0af0d30de6a63ed2f7e66261599a6e302b36bd",
+          "start": 143284,
+          "end": 143588
+        },
+        {
+          "title": "二程遺書/卷21",
+          "http_code": 200,
+          "chars": 5236,
+          "sha256": "87eea5ada0e374dd45d3eeb5bd17da1146cfd8c83abe3ef73eec17215fec8706",
+          "start": 143589,
+          "end": 148825
+        },
+        {
+          "title": "二程遺書/卷22",
+          "http_code": 200,
+          "chars": 16309,
+          "sha256": "3e0c655bd5c29d6e155badab2af5a6d757d45478e7cd7827f8cb262cc72cf39a",
+          "start": 148826,
+          "end": 165135
+        },
+        {
+          "title": "二程遺書/卷23",
+          "http_code": 200,
+          "chars": 3483,
+          "sha256": "211e890f590a42b8d2d13e12f95b8f587370e7a291582a07b5288f8fb6991cf4",
+          "start": 165136,
+          "end": 168619
+        },
+        {
+          "title": "二程遺書/卷24",
+          "http_code": 200,
+          "chars": 2405,
+          "sha256": "c85f700ae8c04a5269af502e1aa9e8a6e56f2b800f7911c3d052911e6f4dee15",
+          "start": 168620,
+          "end": 171025
+        },
+        {
+          "title": "二程遺書/卷25",
+          "http_code": 200,
+          "chars": 21234,
+          "sha256": "088831f3f01a855fd669f317bc78411b6812aab6a8ba20820da90712ea99c160",
+          "start": 171026,
+          "end": 192260
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/ae16eb8f9ce915c3.txt",
+      "shared_from": "《河南程氏遗书》",
+      "note": "同一书二名：与 《河南程氏遗书》 共源（同 URL 同缓存文件）"
+    },
+    {
+      "key": "《战争史》",
+      "label": "战争史",
+      "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War",
+      "source_type": "wikisource",
+      "provider": "en.wikisource.org",
+      "lang": "en",
+      "script": "latn",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "raw",
+      "index_title": "History of the Peloponnesian War",
+      "pageid": 77244,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        8,
+        8
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 1177087,
+      "bytes": 1177413,
+      "sha256": "df5480c1c3d7458e9109957df558cb4d397634c023bcccd2b7a374a7039005f2",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:34:40+00:00",
+      "pages": [
+        {
+          "title": "History of the Peloponnesian War",
+          "http_code": 200,
+          "chars": 257,
+          "sha256": "c4608b801cf8d13b7ff55e338d83a3b0261eec093a0cc83f4bc62908ac5548fa",
+          "start": 0,
+          "end": 257
+        },
+        {
+          "title": "History of the Peloponnesian War/Book 1",
+          "http_code": 200,
+          "chars": 186343,
+          "sha256": "55d659b1303aa9820b5a40cc16aa304eb5623e0ea01e4f5a75328e2ec0fda7c9",
+          "start": 258,
+          "end": 186601
+        },
+        {
+          "title": "History of the Peloponnesian War/Book 2",
+          "http_code": 200,
+          "chars": 144805,
+          "sha256": "5ca62cfef70d4ec6d396456460d03775446809e6e64d726bf2bc61a610f0d4b9",
+          "start": 186602,
+          "end": 331407
+        },
+        {
+          "title": "History of the Peloponnesian War/Book 3",
+          "http_code": 200,
+          "chars": 142335,
+          "sha256": "f7518f782e35f439946bcbdabc5c0b6dcdcbd1fa121e0db50c31f6566a2a10fc",
+          "start": 331408,
+          "end": 473743
+        },
+        {
+          "title": "History of the Peloponnesian War/Book 4",
+          "http_code": 200,
+          "chars": 168078,
+          "sha256": "6ba59ca59ff6720ec747ad1efdee5084c9780d621802cf5e58e1d7011cf15d24",
+          "start": 473744,
+          "end": 641822
+        },
+        {
+          "title": "History of the Peloponnesian War/Book 5",
+          "http_code": 200,
+          "chars": 126691,
+          "sha256": "84a3939d60cac4b5161830ce430ddb08216b930607f2f00f5e2b7fb8f963140d",
+          "start": 641823,
+          "end": 768514
+        },
+        {
+          "title": "History of the Peloponnesian War/Book 6",
+          "http_code": 200,
+          "chars": 142090,
+          "sha256": "eb810a9689959dffdfd44cde73f1fb0923ebf8e410778b0bf93368bc35c170e7",
+          "start": 768515,
+          "end": 910605
+        },
+        {
+          "title": "History of the Peloponnesian War/Book 7",
+          "http_code": 200,
+          "chars": 124396,
+          "sha256": "ab4c960da5cdb14de5af34a7a40d63e045241134dde43b6dfe189bab568e093e",
+          "start": 910606,
+          "end": 1035002
+        },
+        {
+          "title": "History of the Peloponnesian War/Book 8",
+          "http_code": 200,
+          "chars": 142083,
+          "sha256": "4ff2fa8988a86c17bbe1be1a1769c2d48aa098cb6effc2910244c46cd920117b",
+          "start": 1035003,
+          "end": 1177086
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/56f741d147929b19.txt"
+    },
+    {
+      "key": "《形而上学》",
+      "label": "形而上学",
+      "url": "https://en.wikisource.org/wiki/Metaphysics_%28Ross%2C_1908%29",
+      "source_type": "wikisource",
+      "provider": "en.wikisource.org",
+      "lang": "en",
+      "script": "latn",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "Metaphysics (Ross, 1908)",
+      "pageid": 40597,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        14,
+        14
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 340880,
+      "bytes": 343817,
+      "sha256": "27cc9d6f52e3ef4994d269b17064d2d707f864d73587f6fe122b1d7bfc19d2a3",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:42:53+00:00",
+      "pages": [
+        {
+          "title": "Metaphysics (Ross, 1908)",
+          "http_code": 200,
+          "chars": 1652,
+          "sha256": "25fb4150dda60cc7e56df1a53c5f7fb7f09905eefeefd3915414128fdc32258d",
+          "start": 0,
+          "end": 1652
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 1",
+          "http_code": 200,
+          "chars": 63552,
+          "sha256": "902857c44a010a0342b6befaeffc58972dae727f4e873d7300b2926723bf2674",
+          "start": 1653,
+          "end": 65205
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 2",
+          "http_code": 200,
+          "chars": 10958,
+          "sha256": "b2687254c74f8b17e021c775cd7063c325440dd0120978f7276e7803b07821d8",
+          "start": 65206,
+          "end": 76164
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 3",
+          "http_code": 200,
+          "chars": 43652,
+          "sha256": "0318f2ba367b48c7eb1658f62c06219a0c22e2767deaef619add7738a687953f",
+          "start": 76165,
+          "end": 119817
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 4",
+          "http_code": 200,
+          "chars": 55573,
+          "sha256": "7cb5ec3f728a79f503138fe33552f1d9ed99c01abd0c1eb94357291d3e8097e3",
+          "start": 119818,
+          "end": 175391
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 5",
+          "http_code": 200,
+          "chars": 73533,
+          "sha256": "f15ad9f802d727da19795a2caeb1cfafac6d608bcd32e23a044606b9c3788a3e",
+          "start": 175392,
+          "end": 248925
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 6",
+          "http_code": 200,
+          "chars": 15383,
+          "sha256": "af3861d03438f9afb04348250209113d3f21d5dde29c7b40f718f9b5a99f4756",
+          "start": 248926,
+          "end": 264309
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 7",
+          "http_code": 200,
+          "chars": 15410,
+          "sha256": "6d470406a53c3831f138e490c17e34da67d8edf9c4cdf6ee8f8d5062d3ed4a39",
+          "start": 264310,
+          "end": 279720
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 8",
+          "http_code": 200,
+          "chars": 1034,
+          "sha256": "7abc188c147776ba8a598de57e77f3c1510e3d580a6457373787397317816d87",
+          "start": 279721,
+          "end": 280755
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 9",
+          "http_code": 200,
+          "chars": 5396,
+          "sha256": "e3171fdc45cd4966e16affa767269e28286e6b10156ab749da2304de60899e7e",
+          "start": 280756,
+          "end": 286152
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 10",
+          "http_code": 200,
+          "chars": 41247,
+          "sha256": "409cf71489d4eb0efaf8b9c9279883dc26d265a664f7f8ccfa6afc8a039234ee",
+          "start": 286153,
+          "end": 327400
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 11",
+          "http_code": 200,
+          "chars": 2052,
+          "sha256": "07df24942ec831b2814ee05f2d0b478e71e254640f0a46c0fde026eb959b9c37",
+          "start": 327401,
+          "end": 329453
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 12",
+          "http_code": 200,
+          "chars": 3826,
+          "sha256": "27f8e03bdb3a5278e9c6ea9d2b909583d7a00fd31a9545d1cc12e5932b2c9b43",
+          "start": 329454,
+          "end": 333280
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 13",
+          "http_code": 200,
+          "chars": 6204,
+          "sha256": "c0efce8f6ac84ff414df9dde5911c7cb5cfbef8750abab484658be52de5f2b89",
+          "start": 333281,
+          "end": 339485
+        },
+        {
+          "title": "Metaphysics (Ross, 1908)/Book 14",
+          "http_code": 200,
+          "chars": 1433,
+          "sha256": "4fc9a5fe27877e8dc3b8a8a97cf5182b692188d03a6d20aa67fcb7ba0dfc7da8",
+          "start": 339486,
+          "end": 340919
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/c5d7c058d73bba06.txt"
+    },
+    {
+      "key": "《文史通义》",
+      "label": "文史通义",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%87%E5%8F%B2%E9%80%9A%E7%BE%A9",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource.org",
+      "lang": "lzh",
+      "script": "hant",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "raw",
+      "index_title": "文史通義",
+      "pageid": 101472,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        9,
+        9
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 203256,
+      "bytes": 600301,
+      "sha256": "546797ca36841daa9ef016bdeacc379621d3357988711771b5c9dc56b29dc0a2",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:18:13+00:00",
+      "pages": [
+        {
+          "title": "文史通義",
+          "http_code": 200,
+          "chars": 933,
+          "sha256": "3de182ab7bcdf72bd3a55b5589faa021cea98de610c0e5843ae7650550da735c",
+          "start": 0,
+          "end": 933
+        },
+        {
+          "title": "文史通義/序",
+          "http_code": 200,
+          "chars": 530,
+          "sha256": "78a09cdf0904f0d8b9d8d1656e7e78bdbc8da2a27ced77b25b5dd5553415d261",
+          "start": 934,
+          "end": 1464
+        },
+        {
+          "title": "文史通義/卷1",
+          "http_code": 200,
+          "chars": 19119,
+          "sha256": "66a64acbea87464336728e8bd3c612c0ee0ff7faa06939475a2a1df4e7de84aa",
+          "start": 1465,
+          "end": 20584
+        },
+        {
+          "title": "文史通義/卷2",
+          "http_code": 200,
+          "chars": 19796,
+          "sha256": "d5c5a4a2b8885b709a446b7e888bfd264d4c82c362230784b8b3f1fe8b821094",
+          "start": 20585,
+          "end": 40381
+        },
+        {
+          "title": "文史通義/卷3",
+          "http_code": 200,
+          "chars": 26541,
+          "sha256": "e3040bf4e49eba69a9d621a85772e1468780664f03f0c25992f3c6f25f0155c2",
+          "start": 40382,
+          "end": 66923
+        },
+        {
+          "title": "文史通義/卷4",
+          "http_code": 200,
+          "chars": 26743,
+          "sha256": "3896a7fe34172f15cf97a4672383272baa860645636b44b31223c294617aa4e0",
+          "start": 66924,
+          "end": 93667
+        },
+        {
+          "title": "文史通義/卷5",
+          "http_code": 200,
+          "chars": 20436,
+          "sha256": "e56fa4c15034d5780a00edbe3667b23454a8e99c9daae7c617543f8f9dd4cffa",
+          "start": 93668,
+          "end": 114104
+        },
+        {
+          "title": "文史通義/卷6",
+          "http_code": 200,
+          "chars": 29801,
+          "sha256": "e938c6b6f757242331f237650bb0e42815ae4a798afcf2914faa09c4884ab308",
+          "start": 114105,
+          "end": 143906
+        },
+        {
+          "title": "文史通義/卷7",
+          "http_code": 200,
+          "chars": 26867,
+          "sha256": "1c171b7ec8629aee001953e65772d540c4a1c8aad33bed256e37cb7984c5a740",
+          "start": 143907,
+          "end": 170774
+        },
+        {
+          "title": "文史通義/卷8",
+          "http_code": 200,
+          "chars": 32480,
+          "sha256": "fb57c044a46e4b185604afbdecff7ca379c8bdd3ede556ddc8e541dcfd299bcb",
+          "start": 170775,
+          "end": 203255
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/1c09d5d360d70a3d.txt",
+      "zh_cn": {
+        "file": "data/audit/source_texts/1c09d5d360d70a3d.zh-cn.txt",
+        "chars": 198543,
+        "sha256": "dc5dcea630347dd439af1f110de1a952470f8d3c5a557d13e0fd539b9950be7c",
+        "api": "https://zh.wikipedia.org/w/api.php",
+        "variant": "zh-cn",
+        "method": "action=parse&contentmodel=wikitext&variant=zh-cn (POST text)",
+        "chunk_chars": 8000,
+        "chunks": 26,
+        "retries": 5,
+        "failed_chunks": 0,
+        "complete": true,
+        "converted_at": "2026-09-24T02:28:25+00:00",
+        "bytes": 592373
+      }
+    },
+    {
+      "key": "《奥林匹克回忆录》",
+      "label": "奥林匹克回忆录",
+      "url": "https://fr.wikisource.org/wiki/M%C3%A9moires_olympiques",
+      "source_type": "wikisource",
+      "provider": "fr.wikisource.org",
+      "lang": "fr",
+      "script": "latn",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "Mémoires olympiques",
+      "pageid": 2186506,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        25,
+        25
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 708864,
+      "bytes": 749805,
+      "sha256": "6b2384203e7e597257392a9346184a54957932e0c08b0c0863c2ef56bc4e7893",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:57:23+00:00",
+      "pages": [
+        {
+          "title": "Mémoires olympiques",
+          "http_code": 200,
+          "chars": 1833,
+          "sha256": "ed805c150c170146ab060d5149d51e6db376e2cfe1f71ab693156054ef241f7c",
+          "start": 0,
+          "end": 1833
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre I",
+          "http_code": 200,
+          "chars": 24390,
+          "sha256": "8f994e91062b22b8e234b46f6ee53fb07a747d51bed96dd0d4b3c0377fe3884b",
+          "start": 1834,
+          "end": 26224
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre II",
+          "http_code": 200,
+          "chars": 13656,
+          "sha256": "e0dbffdc9d9e798b5b5f113d399746619a0c073da440e4a2394da147e90c7446",
+          "start": 26225,
+          "end": 39881
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre III",
+          "http_code": 200,
+          "chars": 23167,
+          "sha256": "67a9a2bbe32995c4c2b7217b53499f5873fd433076e6174ca41c001ea3d46d93",
+          "start": 39882,
+          "end": 63049
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre IV",
+          "http_code": 200,
+          "chars": 8795,
+          "sha256": "23c326a4869c70c9fbc7229a9a1af311547a8a709fdabc3c20b20de2545f55e8",
+          "start": 63050,
+          "end": 71845
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre V",
+          "http_code": 200,
+          "chars": 20323,
+          "sha256": "e32a8882f3df7a6da82037e9fffad9823ed2a879ad064e8e60d2be6749ad06f8",
+          "start": 71846,
+          "end": 92169
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre VI",
+          "http_code": 200,
+          "chars": 15669,
+          "sha256": "1c8a8c8092e80b5041261ad27648e0a2f7f76a435da4c4a021f7d590eb779197",
+          "start": 92170,
+          "end": 107839
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre VII",
+          "http_code": 200,
+          "chars": 13540,
+          "sha256": "947a395dc29ff15d51bf3bc6f4640115a974ced0d009ac0d7ea00c788af64b88",
+          "start": 107840,
+          "end": 121380
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre VIII",
+          "http_code": 200,
+          "chars": 10508,
+          "sha256": "365b13115ed8c68154306501565e880946adde7b916b74a71141c43b9734ff47",
+          "start": 121381,
+          "end": 131889
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre IX",
+          "http_code": 200,
+          "chars": 17941,
+          "sha256": "c23671210af8b132738807f8a385902b7aa1f09ce0ca024b112b0fe6bcf40e0e",
+          "start": 131890,
+          "end": 149831
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre X",
+          "http_code": 200,
+          "chars": 13549,
+          "sha256": "95ff4734c5ffde89204f6d75a24cd7a327381d0b8f5f66b2e7e604209ebcc8b2",
+          "start": 149832,
+          "end": 163381
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XI",
+          "http_code": 200,
+          "chars": 10283,
+          "sha256": "c3f878de819dd5ac7b6546c03a6369d254ce3c8f3c1fe85e6bbdf5dbb716b080",
+          "start": 163382,
+          "end": 173665
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XII",
+          "http_code": 200,
+          "chars": 15811,
+          "sha256": "7865b8a038a5248622ecce1f687e8175299a44ea83b03176bf29b5ad45494a29",
+          "start": 173666,
+          "end": 189477
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XIII",
+          "http_code": 200,
+          "chars": 18749,
+          "sha256": "e06418cc5820e7a7d6a08b2a9db44d313784e216d2f75d2baf3594ec5c95ea3e",
+          "start": 189478,
+          "end": 208227
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XIV",
+          "http_code": 200,
+          "chars": 14714,
+          "sha256": "6f07de7633c58e3d7d8c1957174177f4d98d99a031ff03288ee00be8b9fde2a0",
+          "start": 208228,
+          "end": 222942
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XV",
+          "http_code": 200,
+          "chars": 16903,
+          "sha256": "f52e737e230ea4e2bcca49ab635e35d4b0cc4ead01ffe62a6c611e397e0d9d5a",
+          "start": 222943,
+          "end": 239846
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XVI",
+          "http_code": 200,
+          "chars": 12696,
+          "sha256": "9ffeb21900b436118977c71e086a2604a933b0257f2430b442dee97ee4d1d7f6",
+          "start": 239847,
+          "end": 252543
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XVII",
+          "http_code": 200,
+          "chars": 13661,
+          "sha256": "e5e02e868d7809945362829ee129ca98248bac7f9c3d61a777a31a6ac1a39cba",
+          "start": 252544,
+          "end": 266205
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XVIII",
+          "http_code": 200,
+          "chars": 18704,
+          "sha256": "fa77cc441947c22a0c9012a568d0244815a63467af360b91626a3d9b75ac07ff",
+          "start": 266206,
+          "end": 284910
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XIX",
+          "http_code": 200,
+          "chars": 10465,
+          "sha256": "87eb6d74370cf00aac4d2022aeb3fe3ea60e41148c2a267cc9cd08e25c6d6ca5",
+          "start": 284911,
+          "end": 295376
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XX",
+          "http_code": 200,
+          "chars": 16312,
+          "sha256": "65025a2a4a6150e1ebf59a26fa5ab7b722d4d85dee5064c9e634f0fce375b4ea",
+          "start": 295377,
+          "end": 311689
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XXI",
+          "http_code": 200,
+          "chars": 15486,
+          "sha256": "61b2a2c92e138763e0aa4a6bdc9d4791da6287460a875eb944f7c4a9b511daee",
+          "start": 311690,
+          "end": 327176
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XXII",
+          "http_code": 200,
+          "chars": 10872,
+          "sha256": "d41aa48369c9fd241c37fe1c7531fe5f9f59ed1095c74151cff50b74e2b215af",
+          "start": 327177,
+          "end": 338049
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XXIII",
+          "http_code": 200,
+          "chars": 10396,
+          "sha256": "4990a0059981c10957978bc07c1c04511260f6fc3e900d188d2131dd8e9dee52",
+          "start": 338050,
+          "end": 348446
+        },
+        {
+          "title": "Mémoires olympiques/Chapitre XXIV",
+          "http_code": 200,
+          "chars": 12396,
+          "sha256": "41135b8b555cb9269efb2d7046cab23b6dd90adf197780377164a2ad557312b4",
+          "start": 348447,
+          "end": 360843
+        },
+        {
+          "title": "Mémoires olympiques/Texte entier",
+          "http_code": 200,
+          "chars": 348059,
+          "sha256": "1886c67d595ef6b957736c1b8c11e3207f98bafb570f95ec96e0af58856733d4",
+          "start": 360844,
+          "end": 708903
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/64e97e588a4d9b58.txt"
+    },
+    {
+      "key": "《诗学》",
+      "label": "诗学",
+      "url": "https://en.wikisource.org/wiki/The_Poetics_translated_by_S._H._Butcher",
+      "source_type": "wikisource",
+      "provider": "en.wikisource.org",
+      "lang": "en",
+      "script": "latn",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "render",
+      "index_title": "The Poetics translated by S. H. Butcher",
+      "pageid": 366341,
+      "status": "ok",
+      "coverage": "complete",
+      "subpages": [
+        9,
+        9
+      ],
+      "http_code": 200,
+      "method": "html-render",
+      "chars": 122003,
+      "bytes": 125321,
+      "sha256": "02fc13dd554562a12fba3210d17aade7a7169849420d7e2b87859b7c7a50a085",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:33:30+00:00",
+      "pages": [
+        {
+          "title": "The Poetics translated by S. H. Butcher",
+          "http_code": 200,
+          "chars": 3012,
+          "sha256": "e58d016532e1acfcf8e88b868c4ef084a42a64908438a706e09a79a38588875e",
+          "start": 0,
+          "end": 3012
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/1",
+          "http_code": 200,
+          "chars": 28097,
+          "sha256": "8b3854a630bd463ad1ed11069e027372a8928d19e80d24051485068e0fc400ee",
+          "start": 3013,
+          "end": 31110
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/2",
+          "http_code": 200,
+          "chars": 26014,
+          "sha256": "5e2779e6efd63e46c25d66154eabc1cdedaa17893e75cb6a5f0a9aa09a07abd8",
+          "start": 31111,
+          "end": 57125
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/3",
+          "http_code": 200,
+          "chars": 29659,
+          "sha256": "f0cb045a93215029fd730a179001685b0bbbd461232717a6d25ac8db7d20fe66",
+          "start": 57126,
+          "end": 86785
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/Abbreviations",
+          "http_code": 200,
+          "chars": 1786,
+          "sha256": "d518b9a590f26d6a4c3c64e6fe3d4959a4073e341a5ea47a598f80b3b2d4c292",
+          "start": 86786,
+          "end": 88572
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/Analysis",
+          "http_code": 200,
+          "chars": 5994,
+          "sha256": "dca0da0c697f75972c41621a7cafdbc48612f64a5051c07151285a5b5e505405",
+          "start": 88573,
+          "end": 94567
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/Editions",
+          "http_code": 200,
+          "chars": 7335,
+          "sha256": "eeb361a725221bd53476fdb8173036dba8f4b1af5fdf87f76f5f7a9e046a27cb",
+          "start": 94568,
+          "end": 101903
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/Preface to fourth",
+          "http_code": 200,
+          "chars": 800,
+          "sha256": "c90f64e045d019a450aa7db8ff6f11e3dbc0a6694b046b6998b852e368d1c880",
+          "start": 101904,
+          "end": 102704
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/Preface to second",
+          "http_code": 200,
+          "chars": 14043,
+          "sha256": "4fe09737dabf14bd6d248e4b2862085dd5913752364f09d54c7097fdd6b7636b",
+          "start": 102705,
+          "end": 116748
+        },
+        {
+          "title": "The Poetics translated by S. H. Butcher/Preface to third",
+          "http_code": 200,
+          "chars": 5292,
+          "sha256": "ba5eb633355f59509cc76485258cf10540dd6f0cfb9ff6bd718e1d7c51598004",
+          "start": 116749,
+          "end": 122041
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/fe700a6ecbc8cd97.txt"
+    },
+    {
+      "key": "《太极图说》",
+      "label": "太极图说",
+      "url": "https://zh.wikisource.org/wiki/%E5%A4%AA%E6%A5%B5%E5%9C%96%E8%AA%AA",
+      "source_type": "wikisource",
+      "provider": "zh.wikisource.org",
+      "lang": "lzh",
+      "script": "hant",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "raw",
+      "index_title": "太極圖說",
+      "pageid": 29461,
+      "status": "index-page",
+      "coverage": null,
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 332,
+      "bytes": 980,
+      "sha256": "c1c5eccb1f026b949d9273412b575d9070e6772188d2f5b05c37f374d98d7420",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:33:43+00:00",
+      "pages": [
+        {
+          "title": "太極圖說",
+          "http_code": 200,
+          "chars": 331,
+          "sha256": "e997e82be2ab0a036983af998cd0ea0d3928ac8e1cc9f482cc62d136699edf25",
+          "start": 0,
+          "end": 331
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/8c8b1f31856f6fe7.txt",
+      "zh_cn": {
+        "file": "data/audit/source_texts/8c8b1f31856f6fe7.zh-cn.txt",
+        "chars": 334,
+        "sha256": "56d34788f48351f660248c1981b2a90ba95fbbacd1fafa13bfbda4016de97230",
+        "api": "https://zh.wikipedia.org/w/api.php",
+        "variant": "zh-cn",
+        "method": "action=parse&contentmodel=wikitext&variant=zh-cn (POST text)",
+        "chunk_chars": 8000,
+        "chunks": 1,
+        "retries": 5,
+        "failed_chunks": 0,
+        "complete": true,
+        "converted_at": "2026-09-24T02:33:48+00:00",
+        "bytes": 982
+      }
+    },
+    {
+      "key": "《安提戈涅》",
+      "label": "安提戈涅",
+      "url": "https://el.wikisource.org/wiki/%CE%91%CE%BD%CF%84%CE%B9%CE%B3%CF%8C%CE%BD%CE%B7",
+      "source_type": "wikisource",
+      "provider": "el.wikisource.org",
+      "lang": "grc",
+      "script": "grek",
+      "batch": "phase21w8_stage2_batch1",
+      "fetch_mode": "raw",
+      "index_title": "Αντιγόνη",
+      "pageid": 1636,
+      "status": "ok",
+      "coverage": "single-page",
+      "subpages": [
+        0,
+        0
+      ],
+      "http_code": 200,
+      "method": "wikitext",
+      "chars": 46375,
+      "bytes": 89876,
+      "sha256": "8df94b7758c716cf56cddbed36e14ad90c0f70c87c6f1a6e3b52ca9cecdb507f",
+      "truncated": false,
+      "fetched_at": "2026-09-24T02:34:01+00:00",
+      "pages": [
+        {
+          "title": "Αντιγόνη",
+          "http_code": 200,
+          "chars": 46374,
+          "sha256": "0bc9db11dc588c47a9e408e929db5eb03158844563ed8960e9c03a0ade16aaa9",
+          "start": 0,
+          "end": 46374
+        }
+      ],
+      "pages_failed": [],
+      "file": "data/audit/source_texts/97fd6102e010ea15.txt"
+    }
+  ],
+  "counts": {
+    "ok": 15,
+    "ok-shared": 1,
+    "index-page": 1
+  }
+}

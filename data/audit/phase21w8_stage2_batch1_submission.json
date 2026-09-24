@@ -1,0 +1,40 @@
+{
+  "schema": "protreptic.w8_stage2_batch1.submission/v1",
+  "task": "t_70a8cbce",
+  "commit": "ce1dc46b",
+  "committed_at": "2026-09-24T11:29+08:00",
+  "verify": "16 PASS / 0 FAIL (tools/verify_batch1_sourcing_delivery.py)",
+  "zero_write": {
+    "modes_data.json": {
+      "sha16": "6f3f4580397614f5",
+      "mtime": "2026-09-24 09:38:49 +0800"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_sourcing_report.md",
+      "sha16": "f4abf8d41e3e35ff"
+    },
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_sourcing_report.json",
+      "sha16": "8bcccff7c6299b94"
+    },
+    {
+      "path": "data/audit/source_texts_w8_stage2_batch1.json",
+      "sha16": "24464156391bf86b"
+    },
+    {
+      "path": "data/audit/phase21w8_stage2_batch1_recount_baseline.json",
+      "sha16": "1cc8ff3bee740153"
+    },
+    {
+      "path": "data/audit/phase21w8_stage2_batch1_recount_live.json",
+      "sha16": "6ddffad6c8631ad4"
+    },
+    {
+      "path": "tools/manifests/w8_stage2_batch1_texts.json",
+      "sha16": "9f5823e5897630f5"
+    }
+  ],
+  "note": "成品 sha16 为主提交时刻（回执补记前）的校验和；回执补记提交会更新报告文件本身。"
+}

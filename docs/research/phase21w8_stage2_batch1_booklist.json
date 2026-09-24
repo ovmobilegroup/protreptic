@@ -1,0 +1,1945 @@
+{
+ "schema": "protreptic.phase21w8.stage2_batch1_booklist/v1",
+ "generated_by": "serrano (kanban t_6ed4fe0d, Phase21-W8 Stage2 batch1)",
+ "generated_at": "2026-09-24T01:14:44Z",
+ "repo_state": {
+  "modes_total": 3291,
+  "index_keys": 383,
+  "books_total": 2086,
+  "hot68": 68
+ },
+ "method": {
+  "counting": "regex-scan all book-title spans in source_chapter, no per-mode dedupe (pilot-compatible); merge to book level by first segment before middle dot U+00B7",
+  "threshold": "spans >= 3 AND unresolved: no candidate key (tools/source_link_index.candidate_keys) present in data/source_links.json",
+  "pilot_reconciliation": "reproduces pilot count 68 and identical top-10 ranking; lunheng now indexed (was pilot top at 30 spans); alternate extract_refs dedup counting yields 59 - downstream t_70a8cbce to reconcile exact scope"
+ },
+ "batch1_selection": {
+  "rule": "hot68 sorted by spans desc; spans >= 7 yields 18 entries (17 texts; the cheng-shu pair shares one source)",
+  "citations_covered": 159
+ },
+ "hot68": [
+  {
+   "book": "春秋繁露",
+   "spans": 12,
+   "figures": [
+    "H-DZS-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 10,
+   "states": {
+    "pending": 12
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "庄子注",
+   "spans": 10,
+   "figures": [
+    "H-GX-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 10,
+   "states": {
+    "pending": 10
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "理想国",
+   "spans": 10,
+   "figures": [
+    "H-BLT-001",
+    "H-CC-001",
+    "H-MAR-001"
+   ],
+   "figures_n": 3,
+   "modes_n": 10,
+   "states": {
+    "verified": 2,
+    "pending": 8
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "老子注",
+   "spans": 10,
+   "figures": [
+    "H-WB-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 10,
+   "states": {
+    "pending": 10
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "陆九渊集",
+   "spans": 10,
+   "figures": [
+    "H-LJY-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 10,
+   "states": {
+    "pending": 10
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "伊利亚特",
+   "spans": 9,
+   "figures": [
+    "Alexander",
+    "Homer"
+   ],
+   "figures_n": 2,
+   "modes_n": 9,
+   "states": {
+    "pending": 9
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "俄狄浦斯王",
+   "spans": 9,
+   "figures": [
+    "H-FRE-001",
+    "Sophocles"
+   ],
+   "figures_n": 2,
+   "modes_n": 8,
+   "states": {
+    "verified": 1,
+    "pending": 8
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "奥德赛",
+   "spans": 9,
+   "figures": [
+    "Homer"
+   ],
+   "figures_n": 1,
+   "modes_n": 8,
+   "states": {
+    "pending": 9
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "战争史",
+   "spans": 9,
+   "figures": [
+    "Thucydides"
+   ],
+   "figures_n": 1,
+   "modes_n": 9,
+   "states": {
+    "pending": 9
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "河南程氏遗书",
+   "spans": 9,
+   "figures": [
+    "H-CHI-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 9,
+   "states": {
+    "pending": 9
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "二程遗书",
+   "spans": 8,
+   "figures": [
+    "H-CHE-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 8,
+   "states": {
+    "pending": 8
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "奥林匹克回忆录",
+   "spans": 8,
+   "figures": [
+    "Coubertin"
+   ],
+   "figures_n": 1,
+   "modes_n": 8,
+   "states": {
+    "pending": 8
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "形而上学",
+   "spans": 8,
+   "figures": [
+    "H-CC-001",
+    "H-IBR-001",
+    "H-SQR-001",
+    "H-YLS-001"
+   ],
+   "figures_n": 4,
+   "modes_n": 7,
+   "states": {
+    "pending": 5,
+    "verified": 3
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "文史通义",
+   "spans": 8,
+   "figures": [
+    "H-ZXC-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 8,
+   "states": {
+    "pending": 8
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "现代诗",
+   "spans": 8,
+   "figures": [
+    "H-JX-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 8,
+   "states": {
+    "pending": 8
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "诗学",
+   "spans": 8,
+   "figures": [
+    "Sophocles"
+   ],
+   "figures_n": 1,
+   "modes_n": 8,
+   "states": {
+    "pending": 8
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "太极图说",
+   "spans": 7,
+   "figures": [
+    "H-ZDY-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 7,
+   "states": {
+    "pending": 7
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "安提戈涅",
+   "spans": 7,
+   "figures": [
+    "Sophocles"
+   ],
+   "figures_n": 1,
+   "modes_n": 7,
+   "states": {
+    "pending": 7
+   },
+   "in_batch1": true
+  },
+  {
+   "book": "万里文选",
+   "spans": 6,
+   "figures": [
+    "H-WL-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 6,
+   "states": {
+    "pending": 6
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "亭林文集",
+   "spans": 6,
+   "figures": [
+    "H-GYW-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 6,
+   "states": {
+    "pending": 6
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "孟子字义疏证",
+   "spans": 6,
+   "figures": [
+    "H-DZ-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 6,
+   "states": {
+    "pending": 6
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "中阿含",
+   "spans": 5,
+   "figures": [
+    "H-SJM-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 5,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "周易外传",
+   "spans": 5,
+   "figures": [
+    "H-WFZ-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 5,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "孝经",
+   "spans": 5,
+   "figures": [
+    "H-HZX-002",
+    "H-ZX-001",
+    "WCY"
+   ],
+   "figures_n": 3,
+   "modes_n": 5,
+   "states": {
+    "verified": 3,
+    "pending": 2
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "尼各马可伦理学",
+   "spans": 5,
+   "figures": [
+    "H-CC-001",
+    "H-YLS-001"
+   ],
+   "figures_n": 2,
+   "modes_n": 5,
+   "states": {
+    "verified": 1,
+    "pending": 4
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "日知录",
+   "spans": 5,
+   "figures": [
+    "H-GYW-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 5,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "明夷待访录",
+   "spans": 5,
+   "figures": [
+    "H-HZX-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 5,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "治安策",
+   "spans": 5,
+   "figures": [
+    "H-JY-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 5,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "申辩",
+   "spans": 5,
+   "figures": [
+    "H-SQR-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 5,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "画语录",
+   "spans": 5,
+   "figures": [
+    "H-ST-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 5,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "通书",
+   "spans": 5,
+   "figures": [
+    "H-ZDY-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 4,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "高僧传",
+   "spans": 5,
+   "figures": [
+    "H-DA-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 5,
+   "states": {
+    "pending": 5
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "大学",
+   "spans": 4,
+   "figures": [
+    "H-ZX-001",
+    "XuGuangQi"
+   ],
+   "figures_n": 2,
+   "modes_n": 4,
+   "states": {
+    "pending": 3,
+    "verified": 1
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "战史",
+   "spans": 4,
+   "figures": [
+    "Belisarius",
+    "Justinian"
+   ],
+   "figures_n": 2,
+   "modes_n": 2,
+   "states": {
+    "pending": 4
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "评〈中国之命运〉",
+   "spans": 4,
+   "figures": [
+    "H-CHB-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 4,
+   "states": {
+    "pending": 4
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "语录上",
+   "spans": 4,
+   "figures": [
+    "H-LJY-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 4,
+   "states": {
+    "pending": 4
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "金匮要略",
+   "spans": 4,
+   "figures": [
+    "H-ZZJ-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 4,
+   "states": {
+    "verified": 3,
+    "pending": 1
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "阿尔弗雷德",
+   "spans": 4,
+   "figures": [
+    "H-NOB-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 4,
+   "states": {
+    "pending": 4
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "陈云文选",
+   "spans": 4,
+   "figures": [
+    "H-CY-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 4,
+   "states": {
+    "pending": 4
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "非洲必须统一",
+   "spans": 4,
+   "figures": [
+    "H-NKR-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 4,
+   "states": {
+    "pending": 4
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "万里回忆录",
+   "spans": 3,
+   "figures": [
+    "H-WL-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "世界报",
+   "spans": 3,
+   "figures": [
+    "HER"
+   ],
+   "figures_n": 1,
+   "modes_n": 2,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "中国四大家族",
+   "spans": 3,
+   "figures": [
+    "H-CHB-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "九章",
+   "spans": 3,
+   "figures": [
+    "QuYuan",
+    "ZhangHeng"
+   ],
+   "figures_n": 2,
+   "modes_n": 3,
+   "states": {
+    "pending": 2,
+    "verified": 1
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "人民日报",
+   "spans": 3,
+   "figures": [
+    "H-HLG-001",
+    "H-LUORQ-001",
+    "H-MYS-001"
+   ],
+   "figures_n": 3,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "伤寒杂病论",
+   "spans": 3,
+   "figures": [
+    "H-ZZJ-001",
+    "SSM"
+   ],
+   "figures_n": 2,
+   "modes_n": 3,
+   "states": {
+    "verified": 2,
+    "pending": 1
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "俄狄浦斯在科洛诺斯",
+   "spans": 3,
+   "figures": [
+    "Sophocles"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "创新与企业家精神",
+   "spans": 3,
+   "figures": [
+    "H-DRK-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "初转法轮经",
+   "spans": 3,
+   "figures": [
+    "H-SJM-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "后分析篇",
+   "spans": 3,
+   "figures": [
+    "H-EUC-001",
+    "H-YLS-001"
+   ],
+   "figures_n": 2,
+   "modes_n": 3,
+   "states": {
+    "verified": 1,
+    "pending": 2
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "声声慢",
+   "spans": 3,
+   "figures": [
+    "LIQ"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "大诰",
+   "spans": 3,
+   "figures": [
+    "ZhuYuanZhang"
+   ],
+   "figures_n": 1,
+   "modes_n": 2,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "学说汇纂",
+   "spans": 3,
+   "figures": [
+    "Justinian"
+   ],
+   "figures_n": 1,
+   "modes_n": 2,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "斐德罗",
+   "spans": 3,
+   "figures": [
+    "H-BLT-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "新殖民主义：帝国主义的最后阶段",
+   "spans": 3,
+   "figures": [
+    "H-NKR-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "新民说",
+   "spans": 3,
+   "figures": [
+    "LQC"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "游叙弗伦",
+   "spans": 3,
+   "figures": [
+    "H-CC-001",
+    "H-SQR-001"
+   ],
+   "figures_n": 2,
+   "modes_n": 3,
+   "states": {
+    "verified": 1,
+    "pending": 2
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "物理学",
+   "spans": 3,
+   "figures": [
+    "H-IBR-001",
+    "H-YLS-001"
+   ],
+   "figures_n": 2,
+   "modes_n": 3,
+   "states": {
+    "verified": 2,
+    "pending": 1
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "班师议",
+   "spans": 3,
+   "figures": [
+    "KUB"
+   ],
+   "figures_n": 1,
+   "modes_n": 2,
+   "states": {
+    "verified": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "琵琶行",
+   "spans": 3,
+   "figures": [
+    "BAI"
+   ],
+   "figures_n": 1,
+   "modes_n": 1,
+   "states": {
+    "suspect": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "瑜伽师地论",
+   "spans": 3,
+   "figures": [
+    "XuanZang"
+   ],
+   "figures_n": 1,
+   "modes_n": 2,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "禹贡",
+   "spans": 3,
+   "figures": [
+    "GJG"
+   ],
+   "figures_n": 1,
+   "modes_n": 2,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "美诺",
+   "spans": 3,
+   "figures": [
+    "H-BLT-001",
+    "H-SQR-001"
+   ],
+   "figures_n": 2,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "论毛泽东思想",
+   "spans": 3,
+   "figures": [
+    "H-CHB-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "论演说家",
+   "spans": 3,
+   "figures": [
+    "H-BLT-001",
+    "H-CAE-001",
+    "H-CIC-001"
+   ],
+   "figures_n": 3,
+   "modes_n": 3,
+   "states": {
+    "verified": 2,
+    "pending": 1
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "语录",
+   "spans": 3,
+   "figures": [
+    "H-LJY-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "陈云经济思想研究",
+   "spans": 3,
+   "figures": [
+    "H-CY-001"
+   ],
+   "figures_n": 1,
+   "modes_n": 3,
+   "states": {
+    "pending": 3
+   },
+   "in_batch1": false
+  },
+  {
+   "book": "马可",
+   "spans": 3,
+   "figures": [
+    "KUB"
+   ],
+   "figures_n": 1,
+   "modes_n": 2,
+   "states": {
+    "verified": 3
+   },
+   "in_batch1": false
+  }
+ ],
+ "batch1": [
+  {
+   "book": "春秋繁露",
+   "heat": 12,
+   "figures": [
+    "董仲舒"
+   ],
+   "modes_n": 10,
+   "keys": [
+    "《春秋繁露》"
+   ],
+   "primary": {
+    "provider": "zh.wikisource",
+    "host": "zh.wikisource.org",
+    "title": "春秋繁露",
+    "pageid": 24753,
+    "structure": "主页面 + 卷01..卷17 子页 (17), wikitext 全文; 另存四部叢刊本与四庫全書本二种",
+    "fetch": "action=raw 逐页",
+    "lang": "文言繁体",
+    "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E7%B9%81%E9%9C%B2"
+   },
+   "alt": [
+    {
+     "provider": "zh.wikisource",
+     "host": "zh.wikisource.org",
+     "title": "春秋繁露 (四部叢刊本)",
+     "pageid": 805627,
+     "note": "扫描本, 渲染抓取",
+     "url": "https://zh.wikisource.org/wiki/%E6%98%A5%E7%A7%8B%E7%B9%81%E9%9C%B2_%28%E5%9B%9B%E9%83%A8%E5%8F%A2%E5%88%8A%E6%9C%AC%29"
+    },
+    {
+     "provider": "zh.wikisource",
+     "host": "zh.wikisource.org",
+     "title": "漢書/卷056",
+     "pageid": 19681,
+     "note": "举贤良对策引文的独立源 (董仲舒传)",
+     "url": "https://zh.wikisource.org/wiki/%E6%BC%A2%E6%9B%B8/%E5%8D%B7056"
+    }
+   ],
+   "spot": [
+    [
+     "王道之三綱",
+     "繁露卷12",
+     true
+    ],
+    [
+     "性有善質",
+     "繁露卷10",
+     true
+    ],
+    [
+     "陽尊陰卑",
+     "繁露卷11",
+     true
+    ],
+    [
+     "本其事而原其志",
+     "繁露卷03",
+     true
+    ],
+    [
+     "大一統",
+     "繁露全17卷未见; 漢書卷056 有",
+     true
+    ],
+    [
+     "質樸之謂性",
+     "繁露未见; 漢書卷056 有",
+     true
+    ],
+    [
+     "人之道一也",
+     "两处均未见 (待核)",
+     false
+    ]
+   ],
+   "risks": [
+    "引文混引《举贤良对策》(源在漢書卷056), 须按跨度精细归源, 勿一律挂繁露",
+    "篇名核对: 《感应》等篇名在本库篇目中无逐字对应 (繁露有《同类相动》), 篇名辨认需核",
+    "少数引文 (如 人之道一也) 两源均未逐字命中, 预期进入差异/待核档"
+   ],
+   "notes": "全17卷文本已抓取实测 (共74747字), 5 条关键片段逐字命中",
+   "rank": 1
+  },
+  {
+   "book": "理想国",
+   "heat": 10,
+   "figures": [
+    "柏拉图",
+    "孔子vs苏格拉底",
+    "马可·奥勒留"
+   ],
+   "modes_n": 10,
+   "keys": [
+    "《理想国》"
+   ],
+   "primary": {
+    "provider": "en.wikisource",
+    "host": "en.wikisource.org",
+    "title": "The Republic of Plato",
+    "pageid": 3130162,
+    "structure": "主页面 + Book 1..Book 10 子页 (11), Jowett 译本; raw 为转写模板, 须 render 抓取",
+    "fetch": "action=render (raw 为 stub)",
+    "lang": "英文 Jowett",
+    "url": "https://en.wikisource.org/wiki/The_Republic_of_Plato"
+   },
+   "alt": [
+    {
+     "provider": "gutenberg",
+     "host": "gutenberg.org",
+     "title": "The Republic (Jowett) PG 1497",
+     "pageid": null,
+     "note": "纯文本 TXT 可下载",
+     "url": "https://gutenberg.org/wiki/The_Republic_%28Jowett%29_PG_1497"
+    },
+    {
+     "provider": "zh.wikipedia",
+     "host": "zh.wikipedia.org",
+     "title": "理想国",
+     "pageid": 17725,
+     "note": "参考链接 (无全文)",
+     "url": "https://zh.wikipedia.org/wiki/%E7%90%86%E6%83%B3%E5%9B%BD"
+    }
+   ],
+   "spot": [
+    [
+     null,
+     "跨语言, 未逐字抽检",
+     null
+    ]
+   ],
+   "risks": [
+    "库内引文为中文通行译本, 源为英译本: 跨语言不可逐字核, 须按语义/人工核或登记为不可逐字",
+    "中文译本无 PD 全文可及, 短链可用 en.ws 作为原文对照源"
+   ],
+   "notes": "Book 1 render 实测 90391 字节, justice 命中 110",
+   "rank": 2
+  },
+  {
+   "book": "陆九渊集",
+   "heat": 10,
+   "figures": [
+    "陆九渊"
+   ],
+   "modes_n": 10,
+   "keys": [
+    "《陆九渊集》"
+   ],
+   "primary": {
+    "provider": "zh.wikisource",
+    "host": "zh.wikisource.org",
+    "title": "象山先生全集 (四部叢刊本)",
+    "pageid": 805830,
+    "structure": "主页面 + 39 子页 (卷第一..卷第三十六 及 集序/目録/附録), 扫描转录; raw 为 pages 模板, 须 render 抓取",
+    "fetch": "action=render 逐页",
+    "lang": "文言繁体",
+    "url": "https://zh.wikisource.org/wiki/%E8%B1%A1%E5%B1%B1%E5%85%88%E7%94%9F%E5%85%A8%E9%9B%86_%28%E5%9B%9B%E9%83%A8%E5%8F%A2%E5%88%8A%E6%9C%AC%29"
+   },
+   "alt": [
+    {
+     "provider": "zh.wikisource",
+     "host": "zh.wikisource.org",
+     "title": "象山集 (四庫全書本)",
+     "pageid": 292112,
+     "note": "28卷加外集, wikitext 可直抓; 卷次与语录/年谱编排不同",
+     "url": "https://zh.wikisource.org/wiki/%E8%B1%A1%E5%B1%B1%E9%9B%86_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
+    }
+   ],
+   "spot": [
+    [
+     "宇宙便是吾心",
+     "四部叢刊卷22 (render)",
+     true
+    ],
+    [
+     "此心同也",
+     "四部叢刊卷33 (render)",
+     true
+    ]
+   ],
+   "risks": [
+    "四部叢刊本为扫描加转录, 抓取须 render (raw 仅模板)",
+    "两版本卷次体系不同: 库内引文 卷三十四/三十五 语录 对应四部叢刊本, 四庫本无同号卷",
+    "四庫本含异体字与缺卷 (卷10 缺)"
+   ],
+   "notes": "render 实测 卷22 23642 字节, 卷33 34876 字节",
+   "rank": 3
+  },
+  {
+   "book": "庄子注",
+   "heat": 10,
+   "figures": [
+    "郭象"
+   ],
+   "modes_n": 10,
+   "keys": [
+    "《庄子注》"
+   ],
+   "primary": {
+    "provider": "zh.wikisource",
+    "host": "zh.wikisource.org",
+    "title": "荘子注 (四庫全書本)",
+    "pageid": 261787,
+    "structure": "主页面 + 全覽及卷01..卷10 子页 (11), wikitext 全文 (郭象注十卷)",
+    "fetch": "action=raw 逐页",
+    "lang": "文言繁体",
+    "url": "https://zh.wikisource.org/wiki/%E8%8D%98%E5%AD%90%E6%B3%A8_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
+   },
+   "alt": [
+    {
+     "provider": "zh.wikisource",
+     "host": "zh.wikisource.org",
+     "title": "南華真經 (四部叢刊本)",
+     "pageid": 805716,
+     "note": "扫描本 (郭象注加陸德明音義), 渲染抓取",
+     "url": "https://zh.wikisource.org/wiki/%E5%8D%97%E8%8F%AF%E7%9C%9F%E7%B6%93_%28%E5%9B%9B%E9%83%A8%E5%8F%A2%E5%88%8A%E6%9C%AC%29"
+    }
+   ],
+   "spot": [
+    [
+     "獨化",
+     "四庫本全10卷 15 次",
+     true
+    ],
+    [
+     "塊然",
+     "四庫本 9 次",
+     true
+    ],
+    [
+     "自得",
+     "四庫本 124 次",
+     true
+    ],
+    [
+     "玄冥",
+     "写作 𤣥 加 SKchar 模板 (2054), 须先解模板或 render",
+     null
+    ]
+   ],
+   "risks": [
+    "四庫文本使用异体字 (如 𤣥 代 玄) 与 SKchar 模板表示生僻字: 逐字比对前须归一或改用 render 文本",
+    "库内引文含篇名 (齐物论/逍遥游 等): 卷内篇目切分需核"
+   ],
+   "notes": "全10卷文本已抓取实测 (共193829字)",
+   "rank": 4
+  },
+  {
+   "book": "老子注",
+   "heat": 10,
+   "figures": [
+    "王弼"
+   ],
+   "modes_n": 10,
+   "keys": [
+    "《老子注》"
+   ],
+   "primary": {
+    "provider": "zh.wikisource",
+    "host": "zh.wikisource.org",
+    "title": "道德經 (王弼本)",
+    "pageid": 52296,
+    "structure": "单页全文 (35837 字节); 页头题名 = 老子道德經注, 注者 = 王弼",
+    "fetch": "action=raw",
+    "lang": "文言繁体",
+    "url": "https://zh.wikisource.org/wiki/%E9%81%93%E5%BE%B7%E7%B6%93_%28%E7%8E%8B%E5%BC%BC%E6%9C%AC%29"
+   },
+   "alt": [
+    {
+     "provider": "ctext",
+     "host": "ctext.org",
+     "title": "老子道德經注 (待核)",
+     "pageid": null,
+     "note": "备选; 本批未实测",
+     "url": "https://ctext.org/wiki/%E8%80%81%E5%AD%90%E9%81%93%E5%BE%B7%E7%B6%93%E6%B3%A8_%28%E5%BE%85%E6%A0%B8%29"
+    }
+   ],
+   "spot": [
+    [
+     "皆以有為生",
+     "第四十章注 (1 次)",
+     true
+    ],
+    [
+     "必反於無",
+     "同章 (1 次)",
+     true
+    ],
+    [
+     "以無為本",
+     "同章 (1 次)",
+     true
+    ]
+   ],
+   "risks": [
+    "防错配: 站内 老子道德經註 (pageid 1184874) 为憨山德清注 (明), 非王弼本",
+    "M-WB-001 引句出自《周易略例》, 属另一书, 挂链时勿归老子注",
+    "站页题名 道德經 (王弼本) 与库内键名《老子注》不同, 属源站事实, 键与链接各自独立"
+   ],
+   "notes": "关键片段三处逐字命中 (第四十章王弼注)",
+   "rank": 5
+  },
+  {
+   "book": "俄狄浦斯王",
+   "heat": 9,
+   "figures": [
+    "弗洛伊德",
+    "索福克勒斯"
+   ],
+   "modes_n": 9,
+   "keys": [
+    "《俄狄浦斯王》"
+   ],
+   "primary": {
+    "provider": "el.wikisource",
+    "host": "el.wikisource.org",
+    "title": "Οιδίπους Τύραννος",
+    "pageid": 1928,
+    "structure": "单页全文 (71903 字节), 古希腊文原文",
+    "fetch": "action=raw",
+    "lang": "古希腊文",
+    "url": "https://el.wikisource.org/wiki/%CE%9F%CE%B9%CE%B4%CE%AF%CF%80%CE%BF%CF%85%CF%82_%CE%A4%CF%8D%CF%81%CE%B1%CE%BD%CE%BD%CE%BF%CF%82"
+   },
+   "alt": [
+    {
+     "provider": "en.wikisource",
+     "host": "en.wikisource.org",
+     "title": "Oedipus, King of Thebes (Murray 1911)/Text",
+     "pageid": 4560060,
+     "note": "英译 (render 279048 字节)",
+     "url": "https://en.wikisource.org/wiki/Oedipus%2C_King_of_Thebes_%28Murray_1911%29/Text"
+    },
+    {
+     "provider": "gutenberg",
+     "host": "gutenberg.org",
+     "title": "Oedipus King of Thebes (Murray) PG 27673",
+     "pageid": null,
+     "note": "纯文本 TXT",
+     "url": "https://gutenberg.org/wiki/Oedipus_King_of_Thebes_%28Murray%29_PG_27673"
+    },
+    {
+     "provider": "zh.wikipedia",
+     "host": "zh.wikipedia.org",
+     "title": "伊底帕斯王",
+     "pageid": 575684,
+     "note": "参考链接 (无全文)",
+     "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E5%BA%95%E5%B8%95%E6%96%AF%E7%8E%8B"
+    }
+   ],
+   "spot": [
+    [
+     "φῶς",
+     "el.ws 12 次",
+     true
+    ],
+    [
+     "ἰὼ",
+     "el.ws 11 次",
+     true
+    ]
+   ],
+   "risks": [
+    "库内引文 = 古希腊文原文加中文直译: 希腊文可对 el.ws 逐字核, 中文部分仅可作语义参考",
+    "行号定位 (如 1182/1183 行) 须以希腊文本校对后登记"
+   ],
+   "notes": "弗洛伊德侧引文为德奥文献转述, 核验口径另行处理",
+   "rank": 6
+  },
+  {
+   "book": "伊利亚特",
+   "heat": 9,
+   "figures": [
+    "亚历山大大帝",
+    "荷马"
+   ],
+   "modes_n": 9,
+   "keys": [
+    "《伊利亚特》"
+   ],
+   "primary": {
+    "provider": "el.wikisource",
+    "host": "el.wikisource.org",
+    "title": "Ιλιάς",
+    "pageid": 1327,
+    "structure": "主页面 + 24 卷子页 (Ιλιάς/Α..Ω), 古希腊文; raw 为模板, 须 render 抓取",
+    "fetch": "action=render 逐卷",
+    "lang": "古希腊文",
+    "url": "https://el.wikisource.org/wiki/%CE%99%CE%BB%CE%B9%CE%AC%CF%82"
+   },
+   "alt": [
+    {
+     "provider": "en.wikisource",
+     "host": "en.wikisource.org",
+     "title": "The Iliad (Butler)",
+     "pageid": 710,
+     "note": "Book I raw 32980 字节 (直抓)",
+     "url": "https://en.wikisource.org/wiki/The_Iliad_%28Butler%29"
+    },
+    {
+     "provider": "gutenberg",
+     "host": "gutenberg.org",
+     "title": "The Iliad PG 6130 / 3059",
+     "pageid": null,
+     "note": "纯文本 TXT",
+     "url": "https://gutenberg.org/wiki/The_Iliad_PG_6130_/_3059"
+    }
+   ],
+   "spot": [
+    [
+     "ἄειδε",
+     "Ιλιάς/Α render, 1 次",
+     true
+    ],
+    [
+     "Πηληϊάδεω",
+     "同上, 2 次",
+     true
+    ],
+    [
+     "μῆνιν",
+     "同上, 1 次",
+     true
+    ]
+   ],
+   "risks": [
+    "库内引文 = 古希腊文加中文直译: 希腊文可逐字核 (render 文本), 中文部分仅作语义参考"
+   ],
+   "notes": "Ιλιάς/Α render 实测 54779 字节, 开篇三片段命中",
+   "rank": 7
+  },
+  {
+   "book": "奥德赛",
+   "heat": 9,
+   "figures": [
+    "荷马"
+   ],
+   "modes_n": 9,
+   "keys": [
+    "《奥德赛》"
+   ],
+   "primary": {
+    "provider": "el.wikisource",
+    "host": "el.wikisource.org",
+    "title": "Οδύσσεια",
+    "pageid": 1326,
+    "structure": "主页面 + 24 卷子页 (α..ω), 古希腊文; 部分子页 raw 含模板",
+    "fetch": "action=render 逐卷",
+    "lang": "古希腊文",
+    "url": "https://el.wikisource.org/wiki/%CE%9F%CE%B4%CF%8D%CF%83%CF%83%CE%B5%CE%B9%CE%B1"
+   },
+   "alt": [
+    {
+     "provider": "en.wikisource",
+     "host": "en.wikisource.org",
+     "title": "The Odyssey (Butler)",
+     "pageid": 731,
+     "note": "Book I render 51464 字节",
+     "url": "https://en.wikisource.org/wiki/The_Odyssey_%28Butler%29"
+    },
+    {
+     "provider": "gutenberg",
+     "host": "gutenberg.org",
+     "title": "The Odyssey (Butler) PG 1727",
+     "pageid": null,
+     "note": "纯文本 TXT",
+     "url": "https://gutenberg.org/wiki/The_Odyssey_%28Butler%29_PG_1727"
+    }
+   ],
+   "spot": [
+    [
+     "πολύτροπον",
+     "Οδύσσεια/α, 1 次",
+     true
+    ],
+    [
+     "Ὀδυσσεύς",
+     "Οδύσσεια/α, 5 次",
+     true
+    ]
+   ],
+   "risks": [
+    "el.ws 版本为古希腊文正文, 但个别卷含模板与排版差异, 建议 render 抓取"
+   ],
+   "notes": "Οδύσσεια/α raw 22098 字节",
+   "rank": 8
+  },
+  {
+   "book": "河南程氏遗书",
+   "heat": 9,
+   "figures": [
+    "程颢 (H-CHI-001, 图名待补)"
+   ],
+   "modes_n": 9,
+   "keys": [
+    "《河南程氏遗书》",
+    "《二程遗书》"
+   ],
+   "primary": {
+    "provider": "zh.wikisource",
+    "host": "zh.wikisource.org",
+    "title": "二程遺書",
+    "pageid": 114425,
+    "structure": "主页面 + 卷01..卷25 子页 (25), wikitext 全文",
+    "fetch": "action=raw 逐页",
+    "lang": "文言繁体",
+    "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8"
+   },
+   "alt": [
+    {
+     "provider": "zh.wikisource",
+     "host": "zh.wikisource.org",
+     "title": "二程遺書 (四庫全書本)",
+     "pageid": 254646,
+     "note": "30 页 (含 卷02上/02下), 异体字多",
+     "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
+    }
+   ],
+   "spot": [
+    [
+     "性即理",
+     "卷22 (1 次)",
+     true
+    ],
+    [
+     "涵養須用敬",
+     "卷22 (1 次)",
+     true
+    ],
+    [
+     "萬物之生意",
+     "1 次",
+     true
+    ],
+    [
+     "無獨必有對",
+     "1 次",
+     true
+    ],
+    [
+     "天人本無二",
+     "1 次",
+     true
+    ],
+    [
+     "天理二字",
+     "全25卷未见 (待核, 或源于外書)",
+     false
+    ],
+    [
+     "必至聖人",
+     "未见 (待核)",
+     false
+    ]
+   ],
+   "risks": [
+    "站内无 河南程氏遺書 题名页: 别名键须挂到 二程遺書 同一 URL",
+    "部分引文 (天理二字自家体贴 等) 属二程外書一系, 遗书文本不含, 预期差异档",
+    "引文卷次体系 (卷二上/卷十八/卷三十) 与站内卷号 (卷01..25) 需逐条核位"
+   ],
+   "notes": "全25卷已抓取实测 (共195158字), 5 条片段命中; 与 二程遗书 条目为同一书二名",
+   "rank": 9
+  },
+  {
+   "book": "二程遗书",
+   "heat": 8,
+   "figures": [
+    "程颐 (H-CHE-001, 图名待补)"
+   ],
+   "modes_n": 8,
+   "keys": [
+    "《二程遗书》"
+   ],
+   "primary": {
+    "provider": "zh.wikisource",
+    "host": "zh.wikisource.org",
+    "title": "二程遺書",
+    "pageid": 114425,
+    "structure": "同 河南程氏遗书 条目 (同一书)",
+    "fetch": "action=raw 逐页",
+    "lang": "文言繁体",
+    "url": "https://zh.wikisource.org/wiki/%E4%BA%8C%E7%A8%8B%E9%81%BA%E6%9B%B8"
+   },
+   "alt": [],
+   "spot": [
+    [
+     null,
+     "见 河南程氏遗书 条目",
+     null
+    ]
+   ],
+   "risks": [
+    "与 河南程氏遗书 为同一书二名: 两键共源, 勿重复登记分歧"
+   ],
+   "notes": "合并登记建议: 两键同 URL",
+   "rank": 10
+  },
+  {
+   "book": "战争史",
+   "heat": 9,
+   "figures": [
+    "修昔底德"
+   ],
+   "modes_n": 9,
+   "keys": [
+    "《战争史》"
+   ],
+   "primary": {
+    "provider": "en.wikisource",
+    "host": "en.wikisource.org",
+    "title": "History of the Peloponnesian War",
+    "pageid": 77244,
+    "structure": "主页面 + Book 1..Book 8 子页 (8), Crawley 译本, wikitext 全文",
+    "fetch": "action=raw 逐卷",
+    "lang": "英文 Crawley",
+    "url": "https://en.wikisource.org/wiki/History_of_the_Peloponnesian_War"
+   },
+   "alt": [
+    {
+     "provider": "gutenberg",
+     "host": "gutenberg.org",
+     "title": "The History of the Peloponnesian War PG 7142",
+     "pageid": null,
+     "note": "纯文本 TXT",
+     "url": "https://gutenberg.org/wiki/The_History_of_the_Peloponnesian_War_PG_7142"
+    },
+    {
+     "provider": "zh.wikipedia",
+     "host": "zh.wikipedia.org",
+     "title": "伯罗奔尼撒战争史",
+     "pageid": 227452,
+     "note": "参考链接 (无全文)",
+     "url": "https://zh.wikipedia.org/wiki/%E4%BC%AF%E7%BD%97%E5%A5%94%E5%B0%BC%E6%92%92%E6%88%98%E4%BA%89%E5%8F%B2"
+    }
+   ],
+   "spot": [
+    [
+     "power of Athens",
+     "Book 1, 3 次",
+     true
+    ],
+    [
+     "kept out of sight",
+     "Book 1, 1 次",
+     true
+    ],
+    [
+     "possession for all time",
+     "Book 1, 1 次",
+     true
+    ]
+   ],
+   "risks": [
+    "引文为中英混合: 英文段与 Crawley 译本可逐字核 (库内引文亦标注 Crawley), 中文段仅作语义参考"
+   ],
+   "notes": "Book 1 raw 实测 191782 字节, 三条关键片段命中",
+   "rank": 11
+  },
+  {
+   "book": "形而上学",
+   "heat": 8,
+   "figures": [
+    "孔子vs苏格拉底",
+    "伊本·鲁世德",
+    "苏格拉底",
+    "亚里士多德"
+   ],
+   "modes_n": 8,
+   "keys": [
+    "《形而上学》"
+   ],
+   "primary": {
+    "provider": "en.wikisource",
+    "host": "en.wikisource.org",
+    "title": "Metaphysics (Ross, 1908)",
+    "pageid": 40597,
+    "structure": "主页面 + Book 1..Book 14 子页 (14), Ross 1908 译本; 标记 incomplete, raw 为 stub, 须 render",
+    "fetch": "action=render (raw 为 stub)",
+    "lang": "英文 Ross",
+    "url": "https://en.wikisource.org/wiki/Metaphysics_%28Ross%2C_1908%29"
+   },
+   "alt": [
+    {
+     "provider": "el.wikisource",
+     "host": "el.wikisource.org",
+     "title": "Μεταφυσικά",
+     "pageid": null,
+     "note": "古希腊文 14 卷子页 (Βιβλίο Α..ΙΑ), 部分子页须 render",
+     "url": "https://el.wikisource.org/wiki/%CE%9C%CE%B5%CF%84%CE%B1%CF%86%CF%85%CF%83%CE%B9%CE%BA%CE%AC"
+    }
+   ],
+   "spot": [
+    [
+     null,
+     "render Book 1 实测 103514 字节, 但完整性待下游实测复核",
+     null
+    ]
+   ],
+   "risks": [
+    "en.ws Ross 页标注 incomplete: 内容完整度必须先实测 (render 后逐卷核对), 不足则改用 el.ws 或校核版",
+    "库内引文为中文译本, 跨语言不可逐字核 (同 理想国 处置口径)"
+   ],
+   "notes": "gutenberg 未收录 Ross 译本 (实测 0 命中)",
+   "rank": 12
+  },
+  {
+   "book": "文史通义",
+   "heat": 8,
+   "figures": [
+    "章学诚"
+   ],
+   "modes_n": 8,
+   "keys": [
+    "《文史通义》"
+   ],
+   "primary": {
+    "provider": "zh.wikisource",
+    "host": "zh.wikisource.org",
+    "title": "文史通義",
+    "pageid": 101472,
+    "structure": "主页面 + 卷1..卷6 及 序 子页 (9), wikitext 全文",
+    "fetch": "action=raw 逐页",
+    "lang": "文言繁体",
+    "url": "https://zh.wikisource.org/wiki/%E6%96%87%E5%8F%B2%E9%80%9A%E7%BE%A9"
+   },
+   "spot": [
+    [
+     "六經皆史",
+     "卷1 (1 次)",
+     true
+    ]
+   ],
+   "risks": [
+    "引文含篇名 (易教/诗教 等): 卷内篇目切割需核"
+   ],
+   "notes": "卷1 raw 实测 20808 字节",
+   "rank": 13,
+   "alt": []
+  },
+  {
+   "book": "奥林匹克回忆录",
+   "heat": 8,
+   "figures": [
+    "顾拜旦"
+   ],
+   "modes_n": 8,
+   "keys": [
+    "《奥林匹克回忆录》"
+   ],
+   "primary": {
+    "provider": "fr.wikisource",
+    "host": "fr.wikisource.org",
+    "title": "Mémoires olympiques",
+    "pageid": 2186506,
+    "structure": "主页面 + Chapitre I..XXV 子页 (25), 法文原文; 子页须 render 抓取",
+    "fetch": "action=render 逐章",
+    "lang": "法文",
+    "url": "https://fr.wikisource.org/wiki/M%C3%A9moires_olympiques"
+   },
+   "alt": [
+    {
+     "provider": "zh.wikipedia",
+     "host": "zh.wikipedia.org",
+     "title": "皮埃尔·德·顾拜旦",
+     "pageid": null,
+     "note": "参考链接 (无全文)",
+     "url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%9F%83%E5%B0%94%C2%B7%E5%BE%B7%C2%B7%E9%A1%BE%E6%8B%9C%E6%97%A6"
+    }
+   ],
+   "spot": [
+    [
+     null,
+     "Chapitre I render 实测 36178 字节",
+     null
+    ]
+   ],
+   "risks": [
+    "库内引文为中文译本 (顾拜旦回忆录中译), 法文源跨语言不可逐字核",
+    "中文译本无 PD 全文可及: 该 8 条建议按 跨语言 口径登记或另找合法中译源"
+   ],
+   "notes": "fr.ws 另存 Coubertin 其他作品 (如 体育教育学 待核)",
+   "rank": 14
+  },
+  {
+   "book": "诗学",
+   "heat": 8,
+   "figures": [
+    "索福克勒斯"
+   ],
+   "modes_n": 8,
+   "keys": [
+    "《诗学》"
+   ],
+   "primary": {
+    "provider": "en.wikisource",
+    "host": "en.wikisource.org",
+    "title": "The Poetics translated by S. H. Butcher",
+    "pageid": 366341,
+    "structure": "主页面 + 分节子页 (约10, 含 /1../3), Butcher 译本; raw 为 stub, 须 render",
+    "fetch": "action=render (raw 为 stub)",
+    "lang": "英文 Butcher",
+    "url": "https://en.wikisource.org/wiki/The_Poetics_translated_by_S._H._Butcher"
+   },
+   "alt": [
+    {
+     "provider": "el.wikisource",
+     "host": "el.wikisource.org",
+     "title": "Περί Ποιητικής",
+     "pageid": 1319,
+     "note": "古希腊文全文 (raw 64847 字节)",
+     "url": "https://el.wikisource.org/wiki/%CE%A0%CE%B5%CF%81%CE%AF_%CE%A0%CE%BF%CE%B9%CE%B7%CF%84%CE%B9%CE%BA%CE%AE%CF%82"
+    },
+    {
+     "provider": "gutenberg",
+     "host": "gutenberg.org",
+     "title": "The Poetics of Aristotle (Butcher) PG 1974",
+     "pageid": null,
+     "note": "纯文本 TXT",
+     "url": "https://gutenberg.org/wiki/The_Poetics_of_Aristotle_%28Butcher%29_PG_1974"
+    }
+   ],
+   "spot": [
+    [
+     "imitation",
+     "Butcher /1 render 46898 字节, 31 次",
+     true
+    ]
+   ],
+   "risks": [
+    "库内诗学引文为中文 (据通行希腊文本译出): 跨语言不可逐字核; 希腊文可用 el.ws 章节对照",
+    "库内 1449a 段落引文为 中译转述 性质: 预期差异档"
+   ],
+   "notes": "诗学 8 条实际由索福克勒斯条引用记录贡献, 与 安提戈涅/俄狄浦斯王 同链复核",
+   "rank": 15
+  },
+  {
+   "book": "现代诗",
+   "heat": 8,
+   "figures": [
+    "纪弦"
+   ],
+   "modes_n": 8,
+   "keys": [],
+   "primary": {
+    "provider": null,
+    "host": null,
+    "title": null,
+    "pageid": null,
+    "structure": "无全文源可及",
+    "fetch": null,
+    "lang": null,
+    "url": null
+   },
+   "alt": [
+    {
+     "provider": "zh.wikipedia",
+     "host": "zh.wikipedia.org",
+     "title": "紀弦",
+     "pageid": 119475,
+     "note": "作者页 (参考)",
+     "url": "https://zh.wikipedia.org/wiki/%E7%B4%80%E5%BC%A6"
+    },
+    {
+     "provider": "zh.wikipedia",
+     "host": "zh.wikipedia.org",
+     "title": "现代诗 (期刊)",
+     "pageid": 4813945,
+     "note": "参考",
+     "url": "https://zh.wikipedia.org/wiki/%E7%8E%B0%E4%BB%A3%E8%AF%97_%28%E6%9C%9F%E5%88%8A%29"
+    }
+   ],
+   "spot": [
+    [
+     null,
+     "无源可检",
+     null
+    ]
+   ],
+   "risks": [
+    "引文出自 1953 台湾《现代诗》季刊 六大信条: 版权期内, 无合法全文可及",
+    "处置建议: 登记 unverifiable (源不可及) 加理由; 或挂 wikipedia 参考链"
+   ],
+   "notes": "否定记录 (负例): 本批唯一无源书, 用于校准不可及判定口径",
+   "rank": 16
+  },
+  {
+   "book": "太极图说",
+   "heat": 7,
+   "figures": [
+    "周敦颐"
+   ],
+   "modes_n": 7,
+   "keys": [
+    "《太极图说》"
+   ],
+   "primary": {
+    "provider": "zh.wikisource",
+    "host": "zh.wikisource.org",
+    "title": "太極圖說",
+    "pageid": 29461,
+    "structure": "单页全文 (496 字节, 含 太極圖 与图说正文), 取自 周元公集",
+    "fetch": "action=raw",
+    "lang": "文言繁体",
+    "url": "https://zh.wikisource.org/wiki/%E5%A4%AA%E6%A5%B5%E5%9C%96%E8%AA%AA"
+   },
+   "alt": [
+    {
+     "provider": "zh.wikisource",
+     "host": "zh.wikisource.org",
+     "title": "周元公集",
+     "pageid": 65192,
+     "note": "3 卷, 源集",
+     "url": "https://zh.wikisource.org/wiki/%E5%91%A8%E5%85%83%E5%85%AC%E9%9B%86"
+    },
+    {
+     "provider": "zh.wikisource",
+     "host": "zh.wikisource.org",
+     "title": "太極圖說述解 (四庫全書本)",
+     "pageid": 254097,
+     "note": "曹端 述解 (注家)",
+     "url": "https://zh.wikisource.org/wiki/%E5%A4%AA%E6%A5%B5%E5%9C%96%E8%AA%AA%E8%BF%B0%E8%A7%A3_%28%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC%29"
+    }
+   ],
+   "spot": [
+    [
+     "動極而靜",
+     "图说正文 (1 次)",
+     true
+    ],
+    [
+     "無極而太極",
+     "站页作 自無極而為太極 (版本异文)",
+     false
+    ],
+    [
+     "非太極之外",
+     "图说正文未见; 属朱子一系解说 (见 述解)",
+     false
+    ]
+   ],
+   "risks": [
+    "版本异文: 站页作 自無極而為太極, 通行本作 無極而太極",
+    "部分引文含朱子系解说语 (非太極之外復有無極), 不见于图说原文: 预期差异与归属档"
+   ],
+   "notes": "图说正文短小 (496 字节), 附 图 与 周元公集 源",
+   "rank": 17
+  },
+  {
+   "book": "安提戈涅",
+   "heat": 7,
+   "figures": [
+    "索福克勒斯"
+   ],
+   "modes_n": 7,
+   "keys": [
+    "《安提戈涅》"
+   ],
+   "primary": {
+    "provider": "el.wikisource",
+    "host": "el.wikisource.org",
+    "title": "Αντιγόνη",
+    "pageid": 1636,
+    "structure": "单页全文 (56449 字节), 古希腊文原文",
+    "fetch": "action=raw",
+    "lang": "古希腊文",
+    "url": "https://el.wikisource.org/wiki/%CE%91%CE%BD%CF%84%CE%B9%CE%B3%CF%8C%CE%BD%CE%B7"
+   },
+   "alt": [
+    {
+     "provider": "en.wikisource",
+     "host": "en.wikisource.org",
+     "title": "The Antigone of Sophocles (1911)/Antigone",
+     "pageid": 4390847,
+     "note": "英译 (render 201841 字节)",
+     "url": "https://en.wikisource.org/wiki/The_Antigone_of_Sophocles_%281911%29/Antigone"
+    },
+    {
+     "provider": "gutenberg",
+     "host": "gutenberg.org",
+     "title": "Antigone PG 54543 / Plays of Sophocles PG 31",
+     "pageid": null,
+     "note": "纯文本 TXT",
+     "url": "https://gutenberg.org/wiki/Antigone_PG_54543_/_Plays_of_Sophocles_PG_31"
+    }
+   ],
+   "spot": [
+    [
+     "Δίκη",
+     "el.ws (1 次)",
+     true
+    ],
+    [
+     "θανουμένη",
+     "el.ws (1 次)",
+     true
+    ]
+   ],
+   "risks": [
+    "库内引文 = 古希腊文加中文直译: 希腊文可逐字核, 中文仅作语义参考",
+    "行号定位 (450/460 行) 须以希腊文本校对"
+   ],
+   "notes": "与 俄狄浦斯王 同链 (索福克勒斯), en.ws 承 1911 英译可选作辅助",
+   "rank": 18
+  }
+ ]
+}

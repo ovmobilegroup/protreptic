@@ -146,7 +146,7 @@ def curl(url, timeout):
         return 0, body
 
 
-def convert_to_zh_cn(text, timeout):
+def convert_to_zh_cn(text, timeout, variant=None):
     """繁 -> 简转换，走 zh.wikipedia action=parse&contentmodel=wikitext&variant=zh-cn 接口。
 
     Phase21-W5 pilot 扩能：分块 POST（CONVERT_CHUNK_CHARS），单块失败重试 CONVERT_RETRIES 次；
@@ -167,7 +167,7 @@ def convert_to_zh_cn(text, timeout):
                 r = subprocess.run(
                     ["curl", "-s", "--max-time", str(timeout), "-A", CONVERT_UA,
                      "--data-urlencode", "text@-", "-w", "\n%{http_code}",
-                     CONVERT_API + "?action=parse&contentmodel=wikitext&variant=" + CONVERT_VARIANT + "&format=json&formatversion=2&prop=text"],
+                     CONVERT_API + "?action=parse&contentmodel=wikitext&variant=" + (variant or CONVERT_VARIANT) + "&format=json&formatversion=2&prop=text"],
                     input=ch.encode("utf-8"), capture_output=True, timeout=timeout + 10)
             except Exception:
                 continue
@@ -194,8 +194,8 @@ def convert_to_zh_cn(text, timeout):
         if not ok:
             failed += 1
             parts.append(ch)
-    meta = {"api": CONVERT_API, "variant": CONVERT_VARIANT,
-            "method": "action=parse&contentmodel=wikitext&variant=zh-cn (POST text)",
+    meta = {"api": CONVERT_API, "variant": variant or CONVERT_VARIANT,
+            "method": "action=parse&contentmodel=wikitext&variant=" + (variant or CONVERT_VARIANT) + " (POST text)",
             "chunk_chars": CONVERT_CHUNK_CHARS, "chunks": len(chunks),
             "retries": CONVERT_RETRIES, "failed_chunks": failed,
             "complete": failed == 0,

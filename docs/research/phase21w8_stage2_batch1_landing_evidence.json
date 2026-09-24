@@ -1,0 +1,246 @@
+{
+  "schema": "protreptic.w8_stage2_batch1.landing_evidence/v1",
+  "task": "t_b85ae14a",
+  "generated_at": "2026-09-24",
+  "generated_by": "tools/apply_w8_stage2_batch1_landing.py 流程实测（本文件为收据汇总）",
+  "inputs": [
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_sourcing_report.md",
+      "sha16": "e2445bb03922f280"
+    },
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_sourcing_report.json",
+      "sha16": "a64351a47116dede"
+    },
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_booklist.json",
+      "sha16": "ca46eb42471c35fc"
+    },
+    {
+      "path": "data/audit/source_texts_w8_stage2_batch1.json",
+      "sha16": "24464156391bf86b"
+    }
+  ],
+  "backup": {
+    "dir": "data/backup_merge_W8B1_20260924_113742",
+    "files": 5,
+    "manifest": "MANIFEST.json",
+    "before_sha16": {
+      "data/modes_data.json": "6f3f4580397614f5",
+      "data/source_links.json": "9df3d1fd210b2926",
+      "data/audit/source_texts.json": "c4aba5ff870f375e",
+      "data/audit/findings.json": "b73e32806f7c910b",
+      "data/audit/verification_status.json": "32661224820d4230"
+    }
+  },
+  "outputs": [
+    {
+      "path": "data/modes_data.json",
+      "sha16": "75932c9f2d48d136",
+      "bytes": 24893208
+    },
+    {
+      "path": "data/source_links.json",
+      "sha16": "dc0aebf0c2bbdadc",
+      "keys": 391,
+      "links_added": 8
+    },
+    {
+      "path": "data/audit/source_texts.json",
+      "sha16": "daf6d882907126a5",
+      "entries": 114,
+      "merged": 17
+    },
+    {
+      "path": "data/audit/findings.json",
+      "sha16": "0292f0580ab03293",
+      "total": 168,
+      "D4_quote_mismatch": 27
+    },
+    {
+      "path": "data/audit/verification_status.json",
+      "sha16": "22944f54fb5e51a2"
+    },
+    {
+      "path": "web/src/generated/siteCounts.ts",
+      "sha16": "a698abe698bb3db3"
+    },
+    {
+      "path": "data/audit/phase21w8_stage2_batch1_landing_ledger.json",
+      "sha16": "66c193dfbab851a8"
+    },
+    {
+      "path": "docs/research/phase21w8_stage2_batch1_landing_report.md",
+      "sha16": "d5cc177cdeed02d2"
+    },
+    {
+      "path": "tools/apply_w8_stage2_batch1_landing.py",
+      "sha16": "c76f048f6d4ce0e6"
+    },
+    {
+      "path": "tools/build_batch1_landing_ledger.py",
+      "sha16": "a76908ddd0e32778"
+    },
+    {
+      "path": "tools/verify_batch1_landing.py",
+      "sha16": "eb775ba5a06e2130"
+    }
+  ],
+  "dispositions": {
+    "total": 154,
+    "modes": 136,
+    "核中·逐字": 3,
+    "核中·繁简对读": 18,
+    "核中·节引/标点差": 4,
+    "查无·待核（近似档）": 26,
+    "查无·待核（无近似命中）": 13,
+    "查无·源外（王弼他著）": 4,
+    "查无·源外（对策类）": 4,
+    "否定记录（现代诗）": 8,
+    "跨语言·语义对照（待裁定）": 74
+  },
+  "status_flips": {
+    "pending->verified": 69,
+    "pending->suspect": [
+      "M-WB-003",
+      "M-WB-004",
+      "M-WB-008"
+    ],
+    "other": 0,
+    "side_effect_outside_pack": 0
+  },
+  "four_state": {
+    "all": {
+      "before": {
+        "verified": 949,
+        "pending": 1959,
+        "suspect": 52,
+        "unverifiable": 351
+      },
+      "after": {
+        "verified": 1018,
+        "pending": 1887,
+        "suspect": 55,
+        "unverifiable": 351
+      },
+      "total": 3311
+    },
+    "published": {
+      "before": {
+        "verified": 949,
+        "pending": 1927,
+        "suspect": 35,
+        "unverifiable": 340
+      },
+      "after": {
+        "verified": 1018,
+        "pending": 1855,
+        "suspect": 38,
+        "unverifiable": 340
+      },
+      "total": 3251,
+      "quarantined": 60
+    }
+  },
+  "gates": {
+    "credibility_gate --hard-fail": {
+      "rc": 0,
+      "legacy_in_baseline": 524,
+      "new": 0,
+      "warnings": 28,
+      "d4": {
+        "cache_keys": 55,
+        "matched": 11,
+        "mismatch": 27,
+        "quote_too_short": 117,
+        "unchecked": 3176
+      }
+    },
+    "verify_findings --hard-fail": {
+      "rc": 0,
+      "in_baseline": 0,
+      "new": 0,
+      "warnings": 1
+    },
+    "apply_verification_status --check": {
+      "rc": 0,
+      "drift": 0
+    },
+    "verify_source_links --hard-fail": {
+      "rc": 0,
+      "ok": 146,
+      "dead": 0,
+      "unreachable": 32,
+      "unverifiable": 213
+    }
+  },
+  "link_liveness": {
+    "at_run_time": {
+      "ok_200": 6,
+      "unreachable": [
+        {
+          "book": "文史通义",
+          "retry": {
+            "try1": 200
+          }
+        },
+        {
+          "book": "太极图说",
+          "retry": {
+            "try1": "000",
+            "try2": 200
+          }
+        }
+      ]
+    }
+  },
+  "site_chain": {
+    "export": {
+      "rc": 0,
+      "files": 1357,
+      "figures": 1027,
+      "modes_source": 3301,
+      "published": 3241,
+      "by_figure": 320,
+      "quarantined_hits": 0
+    },
+    "daily": {
+      "rc": 0,
+      "modes": 3241,
+      "figures": 320
+    },
+    "preflight_data": {
+      "rc": 0
+    },
+    "unified": {
+      "rc": 0,
+      "total": 1344
+    },
+    "gen_counts": {
+      "rc": 0,
+      "siteCounts_sha16_before": "4e8e99110830a807",
+      "after": "a698abe698bb3db3"
+    },
+    "npm_build": {
+      "rc": 0
+    },
+    "apply_site_counts": {
+      "rc": 0,
+      "dist_files": 1378,
+      "violations": 0,
+      "docs_pages": 6
+    },
+    "preflight_dist": {
+      "rc": 0
+    }
+  },
+  "verify_landing": {
+    "cmd": "tools/verify_batch1_landing.py --with-gates",
+    "pass": 20,
+    "fail": 0
+  },
+  "mirror_push": {
+    "status": "pending",
+    "note": "§9 回执补记时更新"
+  }
+}

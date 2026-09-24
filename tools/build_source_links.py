@@ -2,9 +2,10 @@
 """构建 `data/source_links.json`（**按书名/事件名索引**）——Phase38-Y1。
 
 做什么
-    1. 从 `data/modes_data.json` 统计被引书名（《…》内文），把**被引 >=3 次**的书名
-       作为扩面候选；另外把**现索引里每一条 key 的书级名**也纳入候选（给旧 key 一次
-       换成「正文可回读」源的机会）。
+    1. 从 `data/modes_data.json` 统计被引书名（《…》内文）：扫**全部原始跨度**（不做
+       条目内去重）并按中点「·」首段**归并为书级**，把**书级被引 >=3 次**的书名
+       作为扩面候选（口径修复见 count_citations；卡 t_70a8cbce）；另外把**现索引里
+       每一条 key 的书级名**也纳入候选（给旧 key 一次换成「正文可回读」源的机会）。
     2. 逐名到权威源解析，解析结果**逐条 curl 实测**：HTTP 200 且页面内容含源站标题才算数：
          * 中文公版书 -> zh.wikisource（MediaWiki API，canonical title 精确匹配 + 消歧义剔除）
          * 西文公版书 -> gutendex(Project Gutenberg) / Internet Archive
@@ -22,6 +23,8 @@
 用法
     python3 tools/build_source_links.py --dry-run --review   # 只解析+核验+打印，不写文件
     python3 tools/build_source_links.py                      # 写索引 + 覆盖报告
+    python3 tools/build_source_links.py --bookcount-report --bookcount-json /tmp/bookcount.json
+        # 只看候选口径对账（不联网、不写盘；见 count_citations / bookcount_report）
 """
 
 from __future__ import annotations
@@ -46,7 +49,7 @@ TODAY = date.today().isoformat()
 CTEXT_NOTE = "ctext 章节深链：本环境 curl 得 200，但正文为 Cloudflare 挑战页，正文未回读"
 
 sys.path.insert(0, str(REPO_ROOT))
-from tools.source_link_index import extract_refs  # noqa: E402
+from tools.source_link_index import extract_refs, extract_refs_raw  # noqa: E402
 
 EVENT_MARKERS = ("事变", "之乱", "之变", "改革", "条约", "战争", "会议", "运动",
                  "起义", "废太子", "革命", "协定", "宣言", "法典", "考试", "事件")
@@ -259,6 +262,99 @@ def verify(url, needle):
 
 
 # ---------------------------------------------------------------- main
+def bookcount_report(modes, index, args):
+    """候选口径对账（卡 t_70a8cbce）：新口径（书级归并 raw 跨度）对旧口径（条目内去重）。
+
+    只算计数、不联网、不写主索引；两个口径各列出「>=min 且未解析」的书单与差集，
+    逐书计数行随 --bookcount-json 落盘。供 W8 Stage2 批1 工具卡对账使用。
+    """
+    from tools.source_link_index import candidate_keys
+
+    def base_of(name):
+        return name.split("\u00b7")[0].strip()
+
+    span_counts, counts = count_citations(modes)
+    dedup_books = {}
+    for m in modes:
+        for name in extract_refs(m.get("source_chapter")):
+            name = (name or "").strip()
+            if not name:
+                continue
+            b = base_of(name)
+            if b:
+                dedup_books[b] = dedup_books.get(b, 0) + 1
+
+    def unresolved(name):
+        return not any(k in index for k in candidate_keys(name))
+
+    rows = []
+    for name, c in counts.items():
+        spans = {k: v for k, v in sorted(span_counts.items()) if base_of(k) == name}
+        rows.append({"book": name, "count_raw": c, "count_dedup": dedup_books.get(name, 0),
+                     "unresolved": unresolved(name), "spans": spans})
+    rows.sort(key=lambda r: (-r["count_raw"], r["book"]))
+    hot_new = [r for r in rows if r["count_raw"] >= args.min_citations and r["unresolved"]]
+    hot_old = [r for r in rows if r["count_dedup"] >= args.min_citations and r["unresolved"]]
+    new_only = sorted({r["book"] for r in hot_new} - {r["book"] for r in hot_old})
+    old_only = sorted({r["book"] for r in hot_old} - {r["book"] for r in hot_new})
+    print("== 候选口径对账（书级归并 raw 跨度 vs 条目内去重）==")
+    print("modes=%d；跨度名 %d；书级名 %d；min_citations=%d"
+          % (len(modes), len(span_counts), len(counts), args.min_citations))
+    print("新口径（>=min 未解析）：%d 本；旧口径：%d 本" % (len(hot_new), len(hot_old)))
+    print("新有旧无（旧口径漏收）：%d 本 %s" % (len(new_only), new_only[:20]))
+    print("旧有新无：%d 本 %s" % (len(old_only), old_only[:20]))
+    for r in hot_new[:15]:
+        print("  %3d  %s  (dedup %d)" % (r["count_raw"], r["book"], r["count_dedup"]))
+    if args.bookcount_json:
+        payload = {
+            "schema": "protreptic.book_count_scope_report/v1",
+            "generated_at": TODAY,
+            "generated_by": "tools/build_source_links.py --bookcount-report",
+            "modes_total": len(modes),
+            "modes_source": args.modes_spec or "worktree:data/modes_data.json",
+            "min_citations": args.min_citations,
+            "scope_new": "raw spans, no per-mode dedupe, merged at book level (first segment before U+00B7)",
+            "scope_old": "extract_refs per-mode dedupe, merged at book level",
+            "span_names_total": len(span_counts),
+            "book_names_total": len(counts),
+            "hot_new_total": len(hot_new),
+            "hot_old_total": len(hot_old),
+            "new_only": new_only,
+            "old_only": old_only,
+            "rows": rows,
+        }
+        with open(args.bookcount_json, "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print("[OK] 写出 %s" % args.bookcount_json)
+    return 0
+
+
+def count_citations(modes):
+    """候选计数（书级归并口径；卡 t_70a8cbce 修复）。
+
+    旧口径（根因）：每条目内去重后的「跨度名」计数，不按中点「·」归并书级 ——
+    书级被引 >= min 而篇章跨度各自 < min 的书（如《论衡》）从未成为候选、从未探源；
+    解析侧本支持章节到书级回落，不对称只在候选生成侧（pilot 报告 §2.1 根因条）。
+    新口径（与 pilot 复扫一致）：
+      1) 扫全部书名号原始跨度（不做条目内去重，同一 mode 内重复出现都计数）；
+      2) 按中点 U+00B7 首段归并为书级名；
+      3) 书级计数 >= min_citations 即入候选。
+    返回 (span_counts, book_counts)。
+    """
+    span_counts, book_counts = {}, {}
+    for m in modes:
+        for name in extract_refs_raw(m.get("source_chapter")):
+            name = (name or "").strip()
+            if not name:
+                continue
+            span_counts[name] = span_counts.get(name, 0) + 1
+            base = name.split("\u00b7")[0].strip()
+            if base:
+                book_counts[base] = book_counts.get(base, 0) + 1
+    return span_counts, book_counts
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="构建按书名索引的 source_links.json")
     ap.add_argument("--modes-path", default=str(MODES_PATH))
@@ -268,23 +364,38 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--review", action="store_true")
     ap.add_argument("--jobs", type=int, default=6)
+    ap.add_argument("--bookcount-report", action="store_true",
+                    help="候选口径对账：书级归并口径重扫计数（不联网、不写主索引）")
+    ap.add_argument("--bookcount-json", default=None,
+                    help="--bookcount-report 的逐书计数 JSON 输出路径")
+    ap.add_argument("--modes-spec", default=None,
+                    help="git 版本态 modes：<rev>:data/modes_data.json（复扫对账用；默认读工作区）")
     args = ap.parse_args()
 
-    with open(args.modes_path, encoding="utf-8") as f:
-        modes = json.load(f)["modes"]
+    if args.modes_spec:
+        _rc = subprocess.run(["git", "-C", str(REPO_ROOT), "show", args.modes_spec],
+                             capture_output=True, check=True)
+        modes = json.loads(_rc.stdout.decode("utf-8"))["modes"]
+    else:
+        with open(args.modes_path, encoding="utf-8") as f:
+            modes = json.load(f)["modes"]
     with open(args.links_path, encoding="utf-8") as f:
         index = json.load(f)
     if not isinstance(index, dict):
         raise SystemExit("source_links.json 不是 dict（旧裸列表 schema），先修 schema 再扩面")
 
-    counts = {}
-    for m in modes:
-        for name in extract_refs(m.get("source_chapter")):
-            counts[name] = counts.get(name, 0) + 1
+    if args.bookcount_report:
+        return bookcount_report(modes, index, args)
+
+    span_counts, counts = count_citations(modes)
+
+    def count_of(name):
+        return counts.get(name) or span_counts.get(name) or 0
 
     candidates = sorted([n for n, c in counts.items() if c >= args.min_citations],
                         key=lambda n: (-counts[n], n))
-    print("被引书名 %d 种；被引 >=%d 次者 %d 种" % (len(counts), args.min_citations, len(candidates)))
+    print("被引书级名 %d 种（跨度名 %d 种）；书级被引 >=%d 次者 %d 种"
+          % (len(counts), len(span_counts), args.min_citations, len(candidates)))
 
     # A. 现有索引：逐条实测，200 的保留
     kept, stale = {}, []
@@ -470,9 +581,9 @@ def main() -> int:
     new_index = {}
     coverage = []
     linked_names = set()
-    for n in sorted(resolved, key=lambda x: (-counts.get(x, 0), x)):
+    for n in sorted(resolved, key=lambda x: (-count_of(x), x)):
         r = resolved[n]
-        c = counts.get(n, 0)
+        c = count_of(n)
         if r and r.get("status") == "resolved":
             key = "《%s》" % r["key_name"]
             entry = {"url": r["url"], "source_type": r["source_type"],
@@ -519,7 +630,7 @@ def main() -> int:
                     entry["note"] = CTEXT_NOTE
                 new_index[key] = entry
                 coverage.append({"name": inner, "key": key, "status": "linked",
-                                 "citations": counts.get(inner, 0), "url": entry.get("url"),
+                                 "citations": count_of(inner), "url": entry.get("url"),
                                  "source_type": entry.get("source_type"),
                                  "provider": "存量保留（覆盖未解析占位）"})
                 continue
@@ -532,7 +643,7 @@ def main() -> int:
             entry["note"] = CTEXT_NOTE
         new_index[key] = entry
         coverage.append({"name": inner, "key": key, "status": "linked",
-                         "citations": counts.get(inner, 0), "url": entry.get("url"),
+                         "citations": count_of(inner), "url": entry.get("url"),
                          "source_type": entry.get("source_type"), "provider": "存量保留"})
 
     # F. 覆盖指标（按 source_link_index 的真实匹配口径）
@@ -557,7 +668,9 @@ def main() -> int:
         "generated_by": "tools/build_source_links.py",
         "modes_total": len(modes),
         "modes_with_citations": modes_with_cit,
-        "distinct_cited_names": len(counts),
+        "distinct_cited_names": len(span_counts),
+        "distinct_book_level_names": len(counts),
+        "candidate_scope": "book-level merged raw spans (卡 t_70a8cbce 口径修复)",
         "candidates_min3": len(candidates),
         "index_keys_total": len(new_index),
         "index_keys_linked": sum(1 for v in new_index.values() if (v.get("url") or "").strip()),
